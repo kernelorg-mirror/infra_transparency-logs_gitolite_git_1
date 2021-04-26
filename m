@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4960347995809097435=="
+Content-Type: multipart/mixed; boundary="===============6748786010115684578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 26 Apr 2021 07:28:29 -0000
-Message-Id: <161942210973.22680.5828536994367828719@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 07:28:30 -0000
+Message-Id: <161942211030.22720.15256059452261707502@gitolite.kernel.org>
 
---===============4960347995809097435==
+--===============6748786010115684578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,83 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: e4c431dc1101ad01f865e3845855756933a924cc
-    new: f52b4f86deb4f6bcd54159dfce2303f4928de80c
-    log: revlist-e4c431dc1101-f52b4f86deb4.txt
+  - ref: refs/heads/linux-5.11.y
+    old: a040d24ef26cb40d4b57273ac71d1113737b5cb2
+    new: 847f63d2d71067175476a525cd35c5520e66f466
+    log: revlist-a040d24ef26c-847f63d2d710.txt
 
---===============4960347995809097435==
+--===============6748786010115684578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619422107 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619422108 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1619422104-25ce2cae8eed3c1ce13f5d159f847a57c0ff92f6
 
-e4c431dc1101ad01f865e3845855756933a924cc f52b4f86deb4f6bcd54159dfce2303f4928de80c refs/heads/linux-5.10.y
+a040d24ef26cb40d4b57273ac71d1113737b5cb2 847f63d2d71067175476a525cd35c5520e66f466 refs/heads/linux-5.11.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCGa5wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l2IP/A7JSTCRduflSAHhomhf
-g3xFqayUcNjVVA3yMJwFv9hi8yXajmHYExvhOZeraOYiY22XKo/KTjBWNTjx+qhQ
-97PiV6VyPj+XU07ysyHGY1uzohii4UzPw1cWAI7PPGk4e9/KFBjnH23+wc7ZOy4x
-hW5ty7C5DgjpP590jCVyUJFE2BAT6YLYbOnD2UqZ6Nm7nSakafPCwJAgbGZxMM1n
-34vtCHL336QOstvnqwNTG0sEprotp6L14UaUSgsznqZmr22EUduupu+tcKi7H0h8
-Ochl9g2W3qJRW8oW2wQtlrBvL83vhssMyVSA7uFosWCMfTcYsr47CtpJSzbCPTMm
-BBzZKgag6c3JpirFklu+rNukPttqdAbK8KBebSpwnPlkDcLJd5IgACQ0mRjBvZI+
-cfYHo6+oJ90scVsV0Nal1GpsYaJWh6o6L+RzX4p7EMgSrKrFNSO4ov6dN29NcycW
-wUMpM61uquJbFRhgnQs83lX4G9DKoOev65k37/0WtNJkQqcMG3f95QFLd8lcvzUa
-71IgXgqbhuWB6Loky9gmhehuOqqNLITUj/rxqIjZbCKYOalsDJt1o4/s0uF91xMM
-li6ieUq4dUbYgumB9YOx9vBJAaQYW/oi9RKtEXnK1cdEd6sRFOZlqXd2XgjBYY4n
-zYckqUSRSALlitYPHTuC2+YE
-=laNJ
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f9kQAMkViF9F5BWbwW+SmLGg
+BOdGNsG0a0vyOyMVF2fPHLtykApqfH7XV1raaYOsmXXa821Q6A5Y9fSrHY0wHrUz
+WydB6nDdnD+8WoNFV7pKBNtVC1BJ54equy7PHVmqts8DBDDBTcMg6jbJNmb2DNCb
+rW67wWxdPBXojiygMgM1RyLb60Fs0N9mCcYezsylWhN4sOSmJfkm14cZLalRheZJ
+8+/tVVbAxQBPcRKWzUx9r7npv3KnK1TmBzSbHcvm73Ubirf6yYNhLvEVzxl81YAZ
+QXL+4Sw2sT/xvGsvw44/GEaLXM5NEH4rmyP9Jo4d3QZuRE/abJZvyg+Tq8HfLQ+m
+JbWrnSt4gL2bN1IxyNI08CxAZ+S3XCg6WWoubIeeR+5gp82QNtZGPh2qUiMKVpG4
+WLSpvAoZ/E43l9sBFs4qTSAGVFT75nbVwMAGBPSfSV3+9VHM4hlHx9jdFGrL2BZ9
+qqQS9dj/ZcA5eJAJJpxggtyMVqDNIRonNEmI7R+TGlogDFuJlJpgbiZkVBk4eISe
+H3wuoiqQm7KWi68mJEICSzNJGfRDLc+jqsCZJ21QM5Gl+Lmjo7yLy6nZ58GJTiGd
+NyoXF6IuYu5CJW3dHr8WdJJcqMO6dnChHU8f493A/IYofJfwUW36YDget5Ai2HlT
+xCDN2mVFg1Gpq4zdxmhBOT+4
+=EG42
 -----END PGP SIGNATURE-----
 
---===============4960347995809097435==
+--===============6748786010115684578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4c431dc1101-f52b4f86deb4.txt
+Content-Disposition: attachment; filename=revlist-a040d24ef26c-847f63d2d710.txt
 
-bdb6f1dff950e07838fb3573500953554af5bfe0 vhost-vdpa: protect concurrent access to vhost device iotlb
-eb07d1b8a6a0165c4393d46d0927dd3439cc949a gpio: omap: Save and restore sysconfig
-6efe14769cda0b1eca7610001b79c233d0067419 KEYS: trusted: Fix TPM reservation for seal/unseal
-64d057b662a3c12859d6bf5d637fc5c76b59507b vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-56664d902126fb6a586f3cd9a40847ae3c43348e pinctrl: lewisburg: Update number of pins in community
-3712ad95fdca847ce1a2ee98ebd7aa3ce622ecbe block: return -EBUSY when there are open partitions in blkdev_reread_part
-231b1af60b985fe95553a78ca52cf96175c53b96 pinctrl: core: Show pin numbers for the controllers with base = 0
-25412f1f0488df76ff1197f66f1877b3e6d55ee0 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-9bd083b3b2982dc973e29090270230b578881c28 bpf: Permits pointers on stack for helper calls
-f34427a5fb8490542b8ae08fdd0b600a8f65b45f bpf: Allow variable-offset stack access
-d95598082f4b62189e7185073b6b1107d0cd67b8 bpf: Refactor and streamline bounds check into helper
-1d49fcafeb8f6f28f8483c7d0e80a86085e4a1b9 bpf: Tighten speculative pointer arithmetic mask
-3daa7ad524761715fdb45be3fc0511daa37a9755 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-50cf78ee9ec5232e917a5bf95db44a371050213d perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-98b2aaa0956e3f98897f4fbc026ee928a96afa54 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-0ab77259d74b76372333b719587f1d72bb415cbe perf auxtrace: Fix potential NULL pointer dereference
-192205897234828c11adc118af1264f26c26f99e perf map: Fix error return code in maps__clone()
-470b27d6f1b9b23313e4ea2c56235cb86c54b479 HID: google: add don USB id
-c13b20104a995338296f63961dd576099df4f81c HID: alps: fix error return code in alps_input_configured()
-f95941e39db2895d367edda07ab6be65e38fe9ff HID cp2112: fix support for multiple gpiochips
-6fdf74041378714e793cc7ed8b1494f78eee9d46 HID: wacom: Assign boolean values to a bool variable
-5253aee7e0ac4dea6abd935bbf408b1b19c38f6a soc: qcom: geni: shield geni_icc_get() for ACPI boot
-1ccd868c7767e285b9d764d3c53b2e13f42214d4 dmaengine: xilinx: dpdma: Fix descriptor issuing on video group
-5bf8c2c94103756e520c4e5e779f629f68a91dd3 dmaengine: xilinx: dpdma: Fix race condition in done IRQ
-c424bece0eba7763e6dec029853dcd469fd8ada7 ARM: dts: Fix swapped mmc order for omap3
-0bd542f6b72ec43a459a1d4c0b0569877fa74fbd net: geneve: check skb is large enough for IPv4/IPv6 header
-218bc4358d03a587d515e89a3eccb95bce17ba96 dmaengine: tegra20: Fix runtime PM imbalance on error
-4febdd2720bd17e899a336aa724ee336753d93be s390/entry: save the caller of psw_idle
-2f8051920e554e1988e3b8d84680fd40cb925e26 arm64: kprobes: Restore local irqflag if kprobes is cancelled
-ece99fb9bdcb8ee513621f3dba4be66170f49861 xen-netback: Check for hotplug-status existence before watching
-a7338f32c09511305b7acaaff7b8b49bb512bc0b cavium/liquidio: Fix duplicate argument
-7883b0a3fc690aba093124a086fb1fa79baf393f kasan: fix hwasan build for gcc
-0a7c4a753732f4601ce6f79d6d7c4b5807e4ba2f csky: change a Kconfig symbol name to fix e1000 build error
-bbba049c8ebdf534223fe7f122cc10054972bc1b ia64: fix discontig.c section mismatches
-e7d78a27d2962a4b976b7c47b9d6fea73a5f1ef6 ia64: tools: remove duplicate definition of ia64_mf() on ia64
-1ceb7d96bf56cd1b64cacf0c052c64bbb4279eb8 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-f52b4f86deb4f6bcd54159dfce2303f4928de80c Linux 5.10.33-rc1
+1dd1f6b5391e2e164430c0ebc22c237449e6fa82 vhost-vdpa: protect concurrent access to vhost device iotlb
+22d77fb02b60ff1248c237bd7d0f72debbfa6476 ovl: fix reference counting in ovl_mmap error path
+6b46acdc8a2ad0bce19eddb24aee51647222d8a7 coda: fix reference counting in coda_file_mmap error path
+f36bba48218d982fbc1b66251747b6db683e63be amd/display: allow non-linear multi-planar formats
+3c8b075d2812793764ceb86d93a6ba4c8a60a330 drm/amdgpu: reserve fence slot to update page table
+ebd80b94966323bcf6f59a858d2c50ce83760ad8 drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
+f4611673ec50fe0f12b6e990d04b900ef53dc9ff gpio: omap: Save and restore sysconfig
+07cb29b6bcc6ab74f37657596e44dfac37d4f1a5 KEYS: trusted: Fix TPM reservation for seal/unseal
+9d64aca0650ec252910e4b513912cdc425860bc6 vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
+e3137b3c3c859c866dbe9e314e389d12e732abfb pinctrl: lewisburg: Update number of pins in community
+0aa102660630f8dad74bc69beabc2fde1b4eefcf block: return -EBUSY when there are open partitions in blkdev_reread_part
+b9fb0a76c6edbd948e566300b42240edc6c471e6 pinctrl: core: Show pin numbers for the controllers with base = 0
+aac3f88b6bf9be8aeadc91f64e9807fda3efdaf2 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
+3e31fe3e998779adf0634b89eefc5a46a7e87c82 bpf: Allow variable-offset stack access
+55328db11824d43a0441037cedbe95ff8b401687 bpf: Refactor and streamline bounds check into helper
+73ca7aad35e1848d3c16edc511e9aaddee455a6b bpf: Tighten speculative pointer arithmetic mask
+cf1be4abaee99be57b3b77d379206936c46a5fb3 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
+9bdc4e022f14a80e32e4ec7dac2b703948a69d5d perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
+3cc0ccf3f61bb99bde9ec9a4a5e97eb8c877128c perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
+4267c4224e0d03352121bc969cca1679fe8fcf9b perf auxtrace: Fix potential NULL pointer dereference
+9c263db1b505fd638ad91dadad551d3cc63ebb7d perf map: Fix error return code in maps__clone()
+dfb279a4481b6e8d9f1bdc8520bb5e0234c3ec79 HID: google: add don USB id
+7a7036f33970dd6f1e439871d52ccdf845542768 HID: asus: Add support for 2021 ASUS N-Key keyboard
+6d54b5ab47748276f79ae9c9e9fac01ac5211ad5 HID: alps: fix error return code in alps_input_configured()
+24b14b71d2d1217c60f565fbe26e8dfdca826b2a HID cp2112: fix support for multiple gpiochips
+1ce6ca644eb899350471870aa180ad816435b74d HID: wacom: Assign boolean values to a bool variable
+5e84535000689faa5606746401b5006280d25ad3 soc: qcom: geni: shield geni_icc_get() for ACPI boot
+4d06c70b8b66b85860f69ad12f259d857cee5b0d dmaengine: xilinx: dpdma: Fix descriptor issuing on video group
+b9512b6a2821c8fd53310060e608984339ec53e9 dmaengine: xilinx: dpdma: Fix race condition in done IRQ
+177ff37d943ec5c23f4543b7e1b8c322ee56c285 ARM: dts: Fix swapped mmc order for omap3
+0d03ed95d28b9e690ee89447ad9b5ab48768e78d m68k: fix flatmem memory model setup
+9e4e68fab477a9973dd5a5f2a5c024b2992bed50 net: geneve: check skb is large enough for IPv4/IPv6 header
+7189cd4c69ecb6668a232a435b110a24c47e1871 dmaengine: tegra20: Fix runtime PM imbalance on error
+b0296acb3a79f686b76d9acfdcf42a45200a1c8d s390/entry: save the caller of psw_idle
+d12a7b5ad1dfeb98f3c4dd72853d8647a07361a8 arm64: kprobes: Restore local irqflag if kprobes is cancelled
+d87c0dae36d5b7cc263f9bab591cf8f0ab01aca3 xen-netback: Check for hotplug-status existence before watching
+d232b5af95b7e5180c6e21e915ceb6acb5ee088c cavium/liquidio: Fix duplicate argument
+9fee359128273bd86de2dac6d0b82ec6a5bf896b csky: change a Kconfig symbol name to fix e1000 build error
+94275ebae3289db2117fde74b3837ffb485a8a6d ia64: fix discontig.c section mismatches
+e6cffc79d702cc140e5a218d7f56ba2fbadc56dd ia64: tools: remove duplicate definition of ia64_mf() on ia64
+f8ab137063283b8e5695fee8a6fab97b5304be04 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+847f63d2d71067175476a525cd35c5520e66f466 Linux 5.11.17-rc1
 
---===============4960347995809097435==--
+--===============6748786010115684578==--
