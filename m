@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 26 Apr 2021 16:43:33 -0000
-Message-Id: <161945541344.26702.3246200084328303610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 26 Apr 2021 16:48:20 -0000
+Message-Id: <161945570014.29529.4318807083222049875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: f4690807900241f35b2cfdce01355cf8b7f75c9e
-    new: 6c30bd8b11b6056d0cd63c9620f459211974b15e
+  - ref: refs/heads/dev
+    old: a7b4e506dcc461c214734d03816c1d47bd88c9a3
+    new: 320ceb0706d5466e1203d8253d3dcb8c53fac749
     log: |
-         6c30bd8b11b6056d0cd63c9620f459211974b15e util: Add l_steal_ptr
+         509f1010e4fc55e2dbfc036317afd573ccd0931c f2fs: avoid using native allocate_segment_by_default()
+         2e22d48dca0bc5b7fccca8d7b6caed80a9d07465 f2fs: clean up left deprecated IO trace codes
+         6aa122e20ac6fa57c0b1ce9d21b9dc4b028f5024 f2fs: compress: remove unneed check condition
+         320ceb0706d5466e1203d8253d3dcb8c53fac749 f2fs: drop inplace IO if fs status is abnormal
          
