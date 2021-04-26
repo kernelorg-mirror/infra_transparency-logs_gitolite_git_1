@@ -1,47 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3412988748230202555=="
+Content-Type: multipart/mixed; boundary="===============5868464752884409701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 26 Apr 2021 06:29:14 -0000
-Message-Id: <161941855441.28954.12158678693261286117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 26 Apr 2021 06:29:22 -0000
+Message-Id: <161941856294.29113.1199206220436388138@gitolite.kernel.org>
 
---===============3412988748230202555==
+--===============5868464752884409701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
     new: 9f4ad9e425a1d3b6a34617b8ea226d56a119a717
     log: revlist-bf05bf16c76b-9f4ad9e425a1.txt
-  - ref: refs/heads/rdma-next
-    old: fff32dd4e6363f6c57141b41c67413743cc2e7d1
-    new: a6dd4bd6a1bd97f8e9439278a6700de3061a2b8c
-    log: |
-         ecdec2c4e862fd9933f427b2ba766653065b54e9 IB/cm: Add lock protection when access av/alt_av's port of a cm_id
-         13000525b2fa7e0a14bc7fef4fb4b08587644fc8 IB/cm: Initialize av before aquire the spin lock in cm_lap_handler
-         5295907899ad2010c4fd7ccf93d70286b5230c5e RDMA/restrack: Delay QP deletion till all users are gone
-         07b35c0a59d481f2e6e2da6098b61421a1eaa578 net/bnxt: Remove useless check of non-existent ULP id
-         0648faa391379a71727bbc512456427be2b4211f net/bnxt: Use direct API instead of useless indirection
-         bad228f3d2be37fd61bc4cd2c75707ee1666ade6 RDMA/core: Fix check of device in rdma_listen()
-         8d4a48a0a3d3feb44856574fce32c1cfab868471 RDMA/core: Introduce peer memory interface
-         a6dd4bd6a1bd97f8e9439278a6700de3061a2b8c net/mlx5: Don't overwrite HCA capabilities when setting MSI-X count
-         
-  - ref: refs/heads/testing/rdma-next
-    old: daa051ecbfb9df4c910ad5fda3716f90cd6327b2
-    new: c794fbb1071e8e0894441876070c7767da8c9f9f
-    log: revlist-daa051ecbfb9-c794fbb1071e.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: f4672be2f3fb3860fca508906bf969c10635017f
-    new: e98eb811e6b32eea4b9126c03c997e961b747728
-    log: revlist-f4672be2f3fb-e98eb811e6b3.txt
+  - ref: refs/heads/queue-next
+    old: 849cb53f6cc602736e3e1e6923db61302916faf8
+    new: 668ddbca714a8e9136612bba7469a7acfe44830f
+    log: revlist-849cb53f6cc6-668ddbca714a.txt
+  - ref: refs/heads/queue-rc
+    old: cfbcc376730194daaca4ee18deb08b8fdd66191e
+    new: ed650ee5625ff878e7bb39dffcf87d7fe0b5b16d
+    log: revlist-cfbcc3767301-ed650ee5625f.txt
 
---===============3412988748230202555==
+--===============5868464752884409701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -109,11 +96,11 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
 
---===============3412988748230202555==
+--===============5868464752884409701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-daa051ecbfb9-c794fbb1071e.txt
+Content-Disposition: attachment; filename=revlist-849cb53f6cc6-668ddbca714a.txt
 
 4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
 75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
@@ -186,12 +173,14 @@ d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2
 a6dd4bd6a1bd97f8e9439278a6700de3061a2b8c net/mlx5: Don't overwrite HCA capabilities when setting MSI-X count
 e98eb811e6b32eea4b9126c03c997e961b747728 Merge branch 'master' into testing/rdma-rc
 c794fbb1071e8e0894441876070c7767da8c9f9f Merge branch 'rdma-next' into testing/rdma-next
+14e89327928ba084fda8a6032aacdb8f9d8343a0 Merge branch 'testing/rdma-next' into queue-next
+668ddbca714a8e9136612bba7469a7acfe44830f Fix for "netfilter: bridge: add pre_exit hooks for ebtable unregistration"
 
---===============3412988748230202555==
+--===============5868464752884409701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4672be2f3fb-e98eb811e6b3.txt
+Content-Disposition: attachment; filename=revlist-cfbcc3767301-ed650ee5625f.txt
 
 4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
 75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
@@ -255,5 +244,6 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
 e98eb811e6b32eea4b9126c03c997e961b747728 Merge branch 'master' into testing/rdma-rc
+ed650ee5625ff878e7bb39dffcf87d7fe0b5b16d Merge branch 'testing/rdma-rc' into queue-rc
 
---===============3412988748230202555==--
+--===============5868464752884409701==--
