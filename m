@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3125146922275608783=="
+Content-Type: multipart/mixed; boundary="===============4308489519682983978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 26 Apr 2021 21:39:37 -0000
-Message-Id: <161947317744.10646.15410260178284280067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 26 Apr 2021 21:39:44 -0000
+Message-Id: <161947318432.10730.1733291018403434902@gitolite.kernel.org>
 
---===============3125146922275608783==
+--===============4308489519682983978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: a4e63284f5c36ddcbd35136e73b313efc00eb925
-    new: 31b69f582b7c8b67b757e24d3f4f17dafba22305
-    log: revlist-a4e63284f5c3-31b69f582b7c.txt
+    old: db3d89c4c8eddc81ebfb970ccf41f11bc30be561
+    new: e940dc0506ad0fde6d62e3e918d062c2b2e6b724
+    log: revlist-db3d89c4c8ed-e940dc0506ad.txt
 
---===============3125146922275608783==
+--===============4308489519682983978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4e63284f5c3-31b69f582b7c.txt
+Content-Disposition: attachment; filename=revlist-db3d89c4c8ed-e940dc0506ad.txt
 
 ec85720933863015b1c26bc19cf4e044da139bc5 Merge tag 'pm-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 278924cb99c93861c1cc3d266d719095bbd84f16 Merge tag 'trace-v5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
@@ -1049,6 +1049,6 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
-31b69f582b7c8b67b757e24d3f4f17dafba22305 audit: add a Linux Audit specific README.md
+e940dc0506ad0fde6d62e3e918d062c2b2e6b724 selinux: add a SELinux specific README.md
 
---===============3125146922275608783==--
+--===============4308489519682983978==--
