@@ -1,24 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Mon, 26 Apr 2021 07:09:17 -0000
-Message-Id: <161942095713.22048.3189030088251853998@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4497768075693678917=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 26 Apr 2021 07:24:02 -0000
+Message-Id: <161942184200.31536.13379548713399068352@gitolite.kernel.org>
+
+--===============4497768075693678917==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 225be60f3853572f682b7ad3d0c1d4008edb6c6b
-    new: 04758386757c1ef339b18d996976911be61d5efb
-    log: |
-         cdfd4c689e2a52c313b35ddfc1852ff274f91acb backlight: qcom-wled: Use sink_addr for sync toggle
-         693091d99e7b7f5aa994745e719c69a731173db8 backlight: ktd253: Support KTD259
-         4b79ec9a553de3a438631dfe6cb18fdfcaee2098 dt-bindings: backlight: Add Kinetic KTD259 bindings
-         4d6e9cdff7fbb6bef3e5559596fab3eeffaf95ca backlight: qcom-wled: Fix FSC update issue for WLED5
-         5eb622eec92c224c9e51ce9bf0e99a04c875f8bf backlight: qcom-wled: Correct the sync_toggle sequence
-         04758386757c1ef339b18d996976911be61d5efb backlight: journada720: Fix Wmisleading-indentation warning
-         
+  - ref: refs/heads/linux-5.12.y
+    old: 0000000000000000000000000000000000000000
+    new: 9f4ad9e425a1d3b6a34617b8ea226d56a119a717
+
+--===============4497768075693678917==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619421838 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1619421837-26bf7de80d9e902fcce543fb9d126823b179b142
+
+0000000000000000000000000000000000000000 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 refs/heads/linux-5.12.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCGao4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GUsQAIo3h9ojnijzGo7QX6+Z
+qZkGyK0ag+9Tipq+sVynnM11inFGDdnsHzKPlorjlaZneUjKcwuD7Z57Oe4qJkKm
+tcizyk137D+ibYV5ZII+tBKeO3ZSxeX4OJiWABFe0QMypqPUFiWe0zLNpalThbDI
+Cks7UWxiwAZz9mkAWtNOdOuX0fxQRrXng8LEaK9+Hed7VEhPZ8hMEb82kYPXC96Y
+Q5tO4fWycvZUUpdOZUCh1t/SfLKHEhmDobLHf0zBCEpZ+DJJ5p/5R7yvjc+DMXdR
+SXIerQ3u9mHnc3/jsSojd4gTuId2loyTMfx9w6OJ/hKU191TNYxwVcwsdks8WTJN
+5Xa9y5fnHcooD5jo8/oarXvxeSGQ70m8CKkoqsEN1jV0tEDqoJ3Ai1PTScGSvS2c
+EzhzwX6DJoZAuE341R8OBBRTpgnToRCZXyaSbKXCV2tRKJ9hWaPwPTfxDsvPnAzx
+X4mgJxx5untHGR7opWcw20xM+gmIOdQ7yUfFXYtLfu/jXMEL1hOAudDwe+cfmkys
+/dj+Sq+mejRATvKhMcrFENh+QtFy0wwoEqjUvGGtW38FVZiDfCD+s9cxdDvk0jbM
+zWoayFQTo8dtKZnj3TgWDpyKbJXABnnCEdtdBmLsYqWk/JKWrjrpQ3ORIwALX0vd
+wK1kEhglhZsAyNOMKteYOYuS
+=Li5f
+-----END PGP SIGNATURE-----
+
+--===============4497768075693678917==--
