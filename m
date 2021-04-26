@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7832545937705959010=="
+Content-Type: multipart/mixed; boundary="===============4002904850817213841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 26 Apr 2021 07:04:21 -0000
-Message-Id: <161942066196.19006.2239896359168037774@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 07:04:22 -0000
+Message-Id: <161942066219.19026.972888453299665673@gitolite.kernel.org>
 
---===============7832545937705959010==
+--===============4002904850817213841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: a7eb81c1d11ae311c25db88c25a7d5228fe5680a
-    new: 6f47aad469282c06d3b0b5b94acf34b4c91bd1f2
-    log: revlist-a7eb81c1d11a-6f47aad46928.txt
+  - ref: refs/heads/linux-4.9.y
+    old: b43e96dcd58b454757a1af4180c9ed3b8ae4071d
+    new: aa4fff7e6ab633446ea57b84746bbfab14df191b
+    log: revlist-b43e96dcd58b-aa4fff7e6ab6.txt
 
---===============7832545937705959010==
+--===============4002904850817213841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,51 +32,68 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619420660 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1619420656-741d1bd6f5f7989b7a6d1d07e4f93ce49e94a4d3
 
-a7eb81c1d11ae311c25db88c25a7d5228fe5680a 6f47aad469282c06d3b0b5b94acf34b4c91bd1f2 refs/heads/linux-5.4.y
+b43e96dcd58b454757a1af4180c9ed3b8ae4071d aa4fff7e6ab633446ea57b84746bbfab14df191b refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCGZfQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OMkP/juTtXeEv34Wx09j9CNp
-95p6jnn7nWKZwmpgEdvjjYRR+EyHJlpaam4M6uhrdtBXMtm7KEiMS33TpDnAyVdj
-vOn4oKLvtmTZh19JbHvP358Vl2Ttrxf7PgGJ0YHogPth5cDnHMHrWr1bBdmZXedM
-zqExGnsXQ9H2r2lEQcX1R24fe97LS/A/e2jY/2vW+lHVO3DQYfCZOLkKiKYyCuRT
-3Kvni9twiVWCGn6xAeoDqy/5hT8cIb0/97W5IIqEoXREgfBt+do3h3nwx/z91khO
-OUDcHiKk0p7ZL0ZWYl+Z1qpPCXzJyJpXwVXLqxnevozxCzbJd3T+HLLfX5GeToag
-ysIv98ZQFjmNyheOlWV5YLSxhncFt9/Q6YKIOPRh5+rPnEUWN9PsJtYXdexe5AqP
-ehSxun6C+i4YuGvfvgdpcZMqHFdc/dAZE3W6VK8e+813iGenyZVLKK65n+H7BHiR
-YRWvZvfFlKszACXlX0K8bRClBoxqJPfrztIWZW05tj4O38RaixN+ys3kM75Dg46l
-+6RtU1epAbU7Gup/Qr6vtQjytO58ym09o0XlJGEzy6yJuI3TgsjKp0jNz80re3VK
-7O/KbOkjgIZXJmJvQNreepkg14eiTsrAy3qvgzGRTOhBxG0ZrshWEfwMIanllEHA
-IDDCZ1w1uCBcRfUlS1qZXgxF
-=tli5
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AjQP/0RJpElsxbbyRXGCxRmJ
+D6/bRFo/0fItgC8l1WSBhE1z0k7OhVe5UbU+GmqxV8yuHxKgj4nHSE3wbu+6oCfD
+bLqwKx3USf4kctqEniB6DycSz+pkX5GsNl8Ca4PG4KgV8k7obTLRFtKtZNyFN+zD
+TsTmMC2uBpzPr5gUjSc2qzrQnj3a4GuiB0h33etywymj+g300NbOPpIj8keuFu6l
+C6Vx4jDRTfA8UufIssSQPsaRtXzE6OhULMLTzcXTbdnvYGu0Lls2GLJXrsFPzUVB
+5A+KF3IuVpt/Qsj3RO8R/bJiWQcSqqIMBKhKUD1kR/6U8IHqqvKUp1K/n5Cs0217
+MuYjh7tpnQrASfhNVIWIH8MqxCP1tnDaQ5dKQ4CngyNoroRbgRtmplMIix/gxwwl
+33Hfxs1opAEaxfhJUv5HE0zWQLYIO4AnccyfrwtLkPB6tjs4kuz640VAQTwV8BdP
+JC+hHO6bHaG1pPwBVoxtNCMliKhQxqspyXGQTE7Et3FmDbGpQg6GJev1rs+knUdv
+SM2d75bb8nQwQfW5TuK+f0tNS+kVwVziKi+dnuBsM409KWIjz48yw0FhuuiSGfQj
+PMTKs1z5c8++DZmDmNJUh8klXP/k8UdjzANRy1a0+5aDNz0VOwh0FXHq9q8o8kEw
+FhA55S+zX28amfQ5m6Ji2BAQ
+=gy8S
 -----END PGP SIGNATURE-----
 
---===============7832545937705959010==
+--===============4002904850817213841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7eb81c1d11a-6f47aad46928.txt
+Content-Disposition: attachment; filename=revlist-b43e96dcd58b-aa4fff7e6ab6.txt
 
-d59a378daa390ae4c06fd713d095461dfac34856 s390/ptrace: return -ENOSYS when invalid syscall is supplied
-b519d97abfaaa1072ecf00cd5cc5e8aded251e97 gpio: omap: Save and restore sysconfig
-d55b8bc2cf9efe61b61e2315be7445c5e5eb9a87 pinctrl: lewisburg: Update number of pins in community
-f3c3c8a2b747ab3213b5640821cfe77d857b19a1 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-59cf7a1c8e9d8e5425e3d8087e54811e58dd3cfe locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-eb37baada55030c9fbb459e54799c3f1ab6be3d1 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-8383f8e84bc8b028550b1ccc9694a6f6513ddad2 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-86972992da4634dbc2c28e6afcef2ee67f651261 perf auxtrace: Fix potential NULL pointer dereference
-cfd84f5aef4ba7950440d490fcef8ff50309937c HID: google: add don USB id
-c30ef5401c3636161c5a82de6ae3273912c37b41 HID: alps: fix error return code in alps_input_configured()
-ca63cb982a3ff32a7ac5b7b764e5620e06f1b654 HID: wacom: Assign boolean values to a bool variable
-42a8f33e9538a175ec1a4c266242d4f042fa15a1 ARM: dts: Fix swapped mmc order for omap3
-956a14a79cc5170b2cdfd0a309f3aa69f78705ae net: geneve: check skb is large enough for IPv4/IPv6 header
-33739a2f79eb3f5afb587601aa5569e05e73025b s390/entry: save the caller of psw_idle
-87b7edf0740ecc791cf6220dff0b72305a11aebb xen-netback: Check for hotplug-status existence before watching
-ec2739c6aba1e5ff3bacad3c84569ee910d2adef cavium/liquidio: Fix duplicate argument
-785c0684430087a39eb6b7c6129e2196ca878db6 csky: change a Kconfig symbol name to fix e1000 build error
-e9d05f1c7775cdb4c13077e284b6608c4069c0f5 ia64: fix discontig.c section mismatches
-f7517e03aeed06d6bdb89efeb4ba063f184cc0cc ia64: tools: remove duplicate definition of ia64_mf() on ia64
-aa6d3f459ac0ee5ff4b472c1749586f11263a635 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-6f47aad469282c06d3b0b5b94acf34b4c91bd1f2 Linux 5.4.115-rc1
+4a77d4cc75739a9b818d864bc6a0477486b4bbfd net/sctp: fix race condition in sctp_destroy_sock
+a5b6091fb040e8a59d020febedfecd3ff90a6771 Input: nspire-keypad - enable interrupts only when opened
+a7e918c17ddaf60ca4e82b177eff002f4ceaac01 dmaengine: dw: Make it dependent to HAS_IOMEM
+d53bc22cb3bb3e452bac07561dad7abbc401cfd3 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+9e37604401219290ff830f5382470b793488e813 arc: kernel: Return -EFAULT if copy_to_user() fails
+85d50a2de1fa63c8cb6b0212ae51625384557585 neighbour: Disregard DEAD dst in neigh_update
+259ab634b7aaea51ab7051066ec2d6ad113ac1e6 ARM: keystone: fix integer overflow warning
+7a853f558e327575dd0d4cb6e577bb01274b0ae9 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+d985f0cf39f19dbd6c8534c23ac1a6a58f96bf64 net: ieee802154: stop dump llsec keys for monitors
+b3b3362c39af5a1cfc85f9b13b75e23d7b270ef6 net: ieee802154: stop dump llsec devs for monitors
+6c6cfee74453149ecca7312872903e934392643d net: ieee802154: forbid monitor for add llsec dev
+7eb06223a4b57d4e962ab32d7880947d9e95d6ef net: ieee802154: stop dump llsec devkeys for monitors
+22d01488e32f3eed5f6ae75d8bea82777cddb4a8 net: ieee802154: forbid monitor for add llsec devkey
+c5bd26a856cbd9a9590c98dff4cfb3147b0db4b9 net: ieee802154: stop dump llsec seclevels for monitors
+ba94d1087b0f26b88d59326518052afcf87aa75b net: ieee802154: forbid monitor for add llsec seclevel
+1cc91e1df2a89df3f42760f925adf0c99e63bca2 pcnet32: Use pci_resource_len to validate PCI resource
+878e53fa275c6736eccbfd56f157b6a4a0856c2e Input: i8042 - fix Pegatron C15B ID entry
+8b044e8cbc318f18e97ee899e827621217e9729f scsi: libsas: Reset num_scatter if libata marks qc as NODATA
+b9f8ceae91f2f16dc1feb36a52121b5c907800ed net: davicom: Fix regulator not turned off on failed probe
+892b58b6cff3802d1f39df7fc8cad0fdf5371f50 net: sit: Unregister catch-all devices
+937635eb8c5c256108302269a05c8fa764e2208e i40e: fix the panic when running bpf in xdpdrv mode
+513ae621773ac635c08aac485cb5d470efab4de8 ARM: 9071/1: uprobes: Don't hook on thumb instructions
+46c3f23c668d84a45998e7bb1650800a7655f7d5 usbip: Fix incorrect double assignment to udc->ud.tcp_rx
+2659c7ba6032efa94ffd594b753755c4a7e1a56b usbip: add sysfs_lock to synchronize sysfs code paths
+e9b8e607f0e264350ea7dc8021e2c129e9826405 usbip: stub-dev synchronize sysfs code paths
+2af8c5361004cec97179bae3af4d31e1506f060c usbip: vudc synchronize sysfs code paths
+48fc6ec21ad2b388bc9d719984569f6b058c508d usbip: synchronize event handler with sysfs code paths
+aed881ce77043f1e08973ef116cb2c722bbe9ed4 net: hso: fix null-ptr-deref during tty device unregistration
+308a94d007609f9baa1e78c7fb7170e18a3b9fe8 ext4: correct error label in ext4_rename()
+4098c30b260334889f0a30c462ca265d40d2f44b HID: alps: fix error return code in alps_input_configured()
+216cda8d2797abf5c12eda9fa180b16c709ac047 ARM: dts: Fix swapped mmc order for omap3
+b451511312e2705d04819744f1528a0c9bb1b53b s390/entry: save the caller of psw_idle
+1a94793517f120d590c394ca7e674fb1f8756d4b xen-netback: Check for hotplug-status existence before watching
+7fea3de5a6a69e4644a65d635d6370edae1a7fef cavium/liquidio: Fix duplicate argument
+e81f34c2c17bc4a5c2515543cd8f3be554a48c62 ia64: fix discontig.c section mismatches
+ed1ccfb596910e7dd285aeb59ddc4834e7d6be95 ia64: tools: remove duplicate definition of ia64_mf() on ia64
+7f9b0980a389fa963aabc6a9e07d4c8fcf094586 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+aa4fff7e6ab633446ea57b84746bbfab14df191b Linux 4.9.268-rc1
 
---===============7832545937705959010==--
+--===============4002904850817213841==--
