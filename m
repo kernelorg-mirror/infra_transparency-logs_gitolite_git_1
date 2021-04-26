@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0309446456066533158=="
+Content-Type: multipart/mixed; boundary="===============5862630988491675428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 26 Apr 2021 04:49:13 -0000
-Message-Id: <161941255341.11089.15265488615259170605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 26 Apr 2021 05:30:07 -0000
+Message-Id: <161941500745.25002.2168872381615982520@gitolite.kernel.org>
 
---===============0309446456066533158==
+--===============5862630988491675428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/notes/signatures/tar
-    old: c057aa1a4da81e544434eefadb07c76e6f3805f0
-    new: f00ab7c890076ff49750b072cb5fc1a2617c6a8c
-    log: |
-         f00ab7c890076ff49750b072cb5fc1a2617c6a8c Notes added by 'git notes add'
-         
+  - ref: refs/heads/experimental-tests
+    old: 7f8e3c14d02e1f1a781b59a05c82bf3a6af7721e
+    new: dd9691da0a42899fb6dfffaba999ddbd191156b0
+    log: revlist-7f8e3c14d02e-dd9691da0a42.txt
 
---===============0309446456066533158==
+--===============5862630988491675428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7f8e3c14d02e-dd9691da0a42.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619412552 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1619412551-5ab1206c89a6a84fddb77765292f5a27f2ccb3d3
+f61a391119a455bcf9076cd9f7b3202d26bcb5ad erofs-utils: add cmd argument to override uid/gid
+1c2659e285d853767fb203ed9291c070813afb8a erofs-utils: use qsort() to sort dir->i_subdirs
+68102c671d04841641dddb266abb6e4e968af05e erofs-utils: support adjust lz4 history window size
+a70f35adc1b0eec1870f00e79a14c1d02b597ac6 erofs-utils: introduce ondisk compression cfgs
+00e056e10e7c389935197c4d9927668c6efd41fb erofs-utils: add -C# for the maximum size of pclusters
+1f074e6bd77574e742342ce2772cbeeebd7a87b6 erofs-utils: add big physical cluster definition
+7efbb1000253f18e0e70c22669bd3cfa0efe6c56 erofs-utils: fuse: support multiple block compression
+b71dc92df6f1034b7f30703c891c18fea6a427f7 erofs-utils: mkfs: support multiple block compression
+418fb683fd960a66bd82deae0ca761586eb58cb2 erofs-utils: fuse: support compact indexes for bigpcluster
+2f871035cca6e03836f69be235387c9fcd0c344a erofs-utils: mkfs: support compact indexes for bigpcluster
+ba601ea5ec863b546c8a708f9171fef4220df298 erofs-utils: remove duplicate __func__ print
+276a0f0cdbfa9c6d7b857aa141f83de18b54ebaf erofs-utils: introduce a built-in test framework
+527082ef681906eaf79fcd26093846d60f9e819e erofs-utils: tests: add fssum tool
+fe82d97a01939915225ad7fb9e184eee4546ee53 erofs-utils: tests: add basic testcases
+3024c483dd9b57b81538e0e967f52eb349b026a5 erofs-utils: tests: testcase for bad lz4 versions
+336b3c4cba32623ff9ae19d0ba9341a5b50179b8 erofs-utils: tests: add test to avoid hardlinked directories
+f97440206d304970b320b43a2e65b3e80437a995 erofs-utils: tests: check for cross-device submounts
+dd9691da0a42899fb6dfffaba999ddbd191156b0 erofs-utils: tests: add test for # of hardlinks
 
-c057aa1a4da81e544434eefadb07c76e6f3805f0 f00ab7c890076ff49750b072cb5fc1a2617c6a8c refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCGRkgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VJ0P/1S/hOEf7IP2m+PLTo+A
-Vv5ZG9YEj9YWu36AV8AvwfDBl1vGGZr7mOOczaVukB+tE2R9DqnPK2LbyAKYxSkq
-/e2/z1vEPYDOyMBVbvd4NDLqNLdwgs2jdhbSQnm8csOkVLhEE148lw1hSLcGFoW0
-iFtCm1F2i9MVboA2mzFB4fNDA+sLZx1uQZSz8JpvtjwCqTXcAJ6syIwj2kVF4/LI
-XqxuCk71FArhJZG0OgjIjgsQpnWc578c5emeuiE/daZ+KN5Ij4aPKpcjHfCC/+4A
-XDYruYfX6KRHney11Z1nVfDHIG29Wf2WH/JjRHNATfu7cxkJZwZVJGNGZ/v+PlOX
-eL/h2kgSzzeidZQVHO+CQnmSOPdXRT74/Ix9c20RMkxiqLFLPDeFpCmaREsfItIH
-LprCoFBRMTBv1XzheJELaOEdO8DKPtHqACaahiTbHY83zAa8V3iGN7bGb5rkQZcM
-zT4Pvhx8rflD3nGpMj7c2EeHvVJdnauQnU3o3xWbodOZFZtRJgzTtI7cg5pwMxFh
-rMTuIfRRAzrq7MCJu0AmJUUKx/uArAhGMmbF+6zwbK8Y140J2+hUNuFjUoeIK81Z
-T1y20x2S2rWBOaipCddlboR7SP8i3fHKtC4eRv2GVhu3UGHwhZ9t0sd/XrJWxkgu
-5Lyd85fc14H/gQbqvgMqfwWo
-=7BDz
------END PGP SIGNATURE-----
-
---===============0309446456066533158==--
+--===============5862630988491675428==--
