@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Apr 2021 09:28:07 -0000
-Message-Id: <161942928717.16231.4104740729955726207@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 09:36:04 -0000
+Message-Id: <161942976422.21338.16567729443289496415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: bp
 changes:
-  - ref: refs/tags/irq-core-2021-04-26
+  - ref: refs/tags/x86_alternatives_for_v5.13
     old: 0000000000000000000000000000000000000000
-    new: 8ca70a766135a9cb0f3cf7dd30d35f7c73154a76
+    new: 6189d64c2b7605cb68c946d176fd1a602baa1e02
