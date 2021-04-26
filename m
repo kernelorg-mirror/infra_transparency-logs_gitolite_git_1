@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7517671558530237665=="
+Content-Type: multipart/mixed; boundary="===============8310068319391262322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Mon, 26 Apr 2021 11:42:43 -0000
-Message-Id: <161943736392.446.9768266770034551983@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 11:43:01 -0000
+Message-Id: <161943738167.608.12756611601067003222@gitolite.kernel.org>
 
---===============7517671558530237665==
+--===============8310068319391262322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linus
     old: 0de9dc80625b0ca1cb9730c5ed1c5a8cab538369
     new: e3a606f2c544b231f6079c8c5fea451e772e1139
     log: revlist-0de9dc80625b-e3a606f2c544.txt
 
---===============7517671558530237665==
+--===============8310068319391262322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d17d9227c332b7deca59b35fa9ff08e597666c2a crypto: camellia - drop duplicate "depe
 a0fc20333ee4bac1147c4cf75dea098c26671a2f fscrypt: relax Kconfig dependencies for crypto API algorithms
 e3a606f2c544b231f6079c8c5fea451e772e1139 fsverity: relax build time dependency on CRYPTO_SHA256
 
---===============7517671558530237665==--
+--===============8310068319391262322==--
