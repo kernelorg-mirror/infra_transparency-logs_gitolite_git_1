@@ -1,119 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============3305474780071784317=="
+Content-Type: multipart/mixed; boundary="===============2884950650491642917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 26 Apr 2021 07:28:31 -0000
-Message-Id: <161942211158.22866.11833916132326672470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 26 Apr 2021 07:36:09 -0000
+Message-Id: <161942256917.28050.13969681288147067756@gitolite.kernel.org>
 
---===============3305474780071784317==
+--===============2884950650491642917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: d8ad57a04bea74a60854c986b1e9ad175da3cd7a
-    new: 6eafc8cc1bd738ad08d0ea63ff9ea73c492b295f
-    log: revlist-d8ad57a04bea-6eafc8cc1bd7.txt
+  - ref: refs/heads/master
+    old: a07b5a56e02f9a237f18f2335bd7f029b63739e3
+    new: ae657abc971d2b6cc75a35bee45fe7486ccd9c42
+    log: revlist-a07b5a56e02f-ae657abc971d.txt
+  - ref: refs/heads/next
+    old: e9903a1559e0802fcdc79f28c7e79db04a59678d
+    new: 0bacf4d3d27649e90a1223b1bc0a128316138030
+    log: |
+         084c85ce40d9962004efc9a185aca0fff7a4ba38 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
+         ad6b674db6630d37ab241fe6514aaf45661e1153 arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
+         0bacf4d3d27649e90a1223b1bc0a128316138030 Merge branch 'renesas-arm-dt-for-v5.13' into renesas-next
+         
+  - ref: refs/heads/renesas-arm-dt-for-v5.13
+    old: 2b35ca2fe605f85aa1a52c713571baf04a5f434a
+    new: ad6b674db6630d37ab241fe6514aaf45661e1153
+    log: |
+         084c85ce40d9962004efc9a185aca0fff7a4ba38 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
+         ad6b674db6630d37ab241fe6514aaf45661e1153 arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
+         
 
---===============3305474780071784317==
+--===============2884950650491642917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a07b5a56e02f-ae657abc971d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619422108 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1619422104-25ce2cae8eed3c1ce13f5d159f847a57c0ff92f6
+4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
+75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
+bb05e11fff09d341047ce1984aa0d975ed8613e7 arm64: tegra: Fix mmc0 alias for Jetson Xavier NX
+405fa9e9d8664e830982c5fbcb70f9ba8656bafc arm64: tegra: Move clocks from RT5658 endpoint to device node
+196d941753297d0ca73c563ccd7d00be049ec226 pinctrl: lewisburg: Update number of pins in community
+33cc5270d8f23066c2c3291ebd2aa8edda5f5fea Merge tag 'intel-pinctrl-v5.12-4' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into fixes
+6b5b2a5bcfe9a250da19bac4ef7cabdc81d154ec drm/i915/gvt: Fix BDW command parser regression
+84a24bf8c52e66b7ac89ada5e3cfbe72d65c1896 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
+7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
+0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
+d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of unexpected AUX timeouts
+7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
+2d292995bb8f49a2596bef522679c1e1454f3230 Merge tag 'gvt-fixes-2021-04-20' of https://github.com/intel/gvt-linux into drm-intel-fixes
+0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
+5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+f2211881e737cade55e0ee07cf6a26d91a35a6fe perf data: Fix error return code in perf_data__create_dir()
+db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
+1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
+ddd8d94ca31e768c76cf8bfe34ba7b10136b3694 gpio: omap: Save and restore sysconfig
+d42a5b639d15622ece5b9dd12dafd9776efa2593 drm/amdgpu: reserve fence slot to update page table
+6d638b3ffd27036c062d32cb4efd4be172c2a65e drm/amd/display: Update modifier list for gfx10_3
+9ebb6bc0125dfb1e65a53eea4aeecc63d4d6ec2d amd/display: allow non-linear multi-planar formats
+24d034528ef06ad94cfcf4394beac0443ab1b16d drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
+68e6582e8f2dc32fd2458b9926564faa1fb4560e block: return -EBUSY when there are open partitions in blkdev_reread_part
+16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+9d5171eab462a63e2fbebfccf6026e92be018f20 KEYS: trusted: Fix TPM reservation for seal/unseal
+482715ff0601c836152b792f06c353464d826b9b pinctrl: core: Show pin numbers for the controllers with base = 0
+4d09ccc4a81e7de6b002482af554d8b5626f5041 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
+4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
+90c911ad7445ccec9936763f05fa5db6a3da53be Merge tag 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/tpmdd
+450225a402e5b2b4c7ddef7ec54f797868d0f583 Merge tag 'sunxi-fixes-for-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+a9d064524fc3cf463b3bb14fa63de78aafb40dab vhost-vdpa: protect concurrent access to vhost device iotlb
+be286f84e33da1a7f83142b64dbd86f600e73363 vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
+18a3c5f7abfdf97f88536d35338ebbee119c355c Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+b4d1913df2b78b872cab62456321f436ab232c3c Merge tag 'amd-drm-fixes-5.12-2021-04-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+aca38735ae624b93c71c055b68d5802b8f356ea5 Merge tag 'drm-intel-fixes-2021-04-22' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+a1768dad775b5ceb25d17bc7a13318f43adf3069 Merge branch 'tegra/dt64' into arm/fixes
+22c4e5bcd3cd7a798f1c6b4df646f75587813e72 Merge tag 'gpio-fixes-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+5bfc75d92efd494db37f5c4c173d3639d4772966 Merge tag 'drm-fixes-2021-04-23' of git://anongit.freedesktop.org/drm/drm
+b14585d9f18dc617e975815570fe836be656b1da perf auxtrace: Fix potential NULL pointer dereference
+671b60cb6a897a5b3832fe57657152f2c3995e25 perf ftrace: Fix access to pid in array when setting a pid filter
+c6f87141254d16e281e4b4431af7316895207b8f perf map: Fix error return code in maps__clone()
+6d1d45cb98347dbd101b378d11b5f0deb87b345d Merge tag 'arm-fixes-5.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+9c1a07442c95f6e64dc8de099e9f35ea73db7852 KVM: x86/xen: Take srcu lock when accessing kvm_memslots()
+9da29c7f77cd04e5c9150e30f047521b6f20a918 coda: fix reference counting in coda_file_mmap error path
+2896900e22f8212606a1837d89a6bbce314ceeda ovl: fix reference counting in ovl_mmap error path
+2d11e738151d6cd321dd944cefe9c941ea00086c mm/filemap: fix find_lock_entries hang on 32-bit THP
+ed98b0159fa92a22a2838bd92522b8c8d964556b mm/filemap: fix mapping_seek_hole_data on THP & 32-bit
+1974c45dd7745e999b9387be3d8fdcb27a5b1721 tools/cgroup/slabinfo.py: updated to work on current kernel
+95838bd9fcfaa12452dc9fd6d6920faef6bb5a46 Merge tag 'block-5.12-2021-04-23' of git://git.kernel.dk/linux-block
+e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andrew)
+8db5efb83fa99e81c3f8dee92a6589b251f117f3 Merge tag 'pinctrl-v5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+799bac5512188522213e2d7eb78ca7094dfdf30c Revert "net/rds: Avoid potential use after free in rds_send_remove_from_sock"
+2a1d7946fa53cea2083e5981ff55a8176ab2be6b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+11fac7a004113466b7155e9b0d836156cf8a7e8d Merge tag 'x86_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+682b26bd80f96c2e4da3eb6dcec8bf684b79151c Merge tag 'sched_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0146da0d4cecad571f69f02fe35d75d6dba9723c Merge tag 'locking_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
+084c85ce40d9962004efc9a185aca0fff7a4ba38 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
+ad6b674db6630d37ab241fe6514aaf45661e1153 arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
+a30aa2c22e900ddb622b78d81e949588ceb66ba7 ARM: dts: renesas: Add fck to etheravb-rcar-gen2 clock-names list
+ac756a65c06ced7b7b548c1e4376fac67449e9ba arm64: dts: renesas: Add fck to etheravb-rcar-gen3 clock-names list
+06b408e5b0b1cffaafb29e1689905c71c851c0f8 arm64: dts: renesas: beacon kit: Setup AVB refclk
+a383e8f972a522b281dd024b98739d4d8a2b5e75 arm64: dts: renesas: falcon-csi-dsi: Add GPIO extenders
+69efe4bbeda507454524f4e51c63361fcfdfb65d arm64: dts: renesas: condor: Switch eMMC bus to 1V8
+0bacf4d3d27649e90a1223b1bc0a128316138030 Merge branch 'renesas-arm-dt-for-v5.13' into renesas-next
+9db092d581a85780d97e5efcc212963abee08446 Merge branch 'renesas-next', tag 'v5.12' into renesas-devel
+ae657abc971d2b6cc75a35bee45fe7486ccd9c42 Merge branch 'renesas-arm-dt-for-v5.14' into renesas-devel
 
-d8ad57a04bea74a60854c986b1e9ad175da3cd7a 6eafc8cc1bd738ad08d0ea63ff9ea73c492b295f refs/heads/linux-4.19.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCGa50bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+unkP/0E105toG8QK29SY34GA
-aluFBNstdSVfI3pN8ysuKv2ic/gEHcwDMch/E2p/Uj4tAW4T+2G+UVnBW9UrH1Iv
-WK8qAhjriBRsTNtfQDDVY5qRlJGsKMfB9Ok+BD04uGcsgeYrx5qeyo79R3xq4U1x
-BUURO71I+vG1aQyWWQmBtXAjOL1u4ltPo3pqZCevVSXzg/T2Lx4rwbtqPf+beho6
-Isb1v/rDCv9wf4vfJPFyBcBoCKBsBPgzJk0HJIec0IksKQoGwSvjEifPrB3SH5Xy
-OVFLZ750MzENpLxSZTfWX60vbbnFX+Uwphl0IZAJWtBdIlikF0SHdk/L8U5RagX9
-foXYO9a85m9vSPOKlEkSFMWOwJc7n1/+4zZ9ZdrBEuCUQ0dwS9pBxU4AlesGgG7o
-ttN6+zv1J1wrNyBlwvWcP31gvBpAYWAGgdPOxlSQ+3lQR0l6X9YY58sXAFxMjHET
-VC1oUzTHL0AQEezYCn/X4Ji/Hrvq4jDmTBYhYwm6XUjy2T0faL2y1o41/C2vmeoe
-HF/8iEiZTTXQPlTjBp4ajH1/wJmQXWXHkiAmpkIALVXqLwIReKhPFiUZeIp2DuIw
-25TZjovucXZ6k8RZUxzw4tFEl7MBq37aaBBWVCF76ksOVbkx0Wt7ztObnL+cVDx9
-wFO7URT1H+6mTWRUn9S1Tsuy
-=JIBd
------END PGP SIGNATURE-----
-
---===============3305474780071784317==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8ad57a04bea-6eafc8cc1bd7.txt
-
-fb573b8504f36dab2bf9bd858d8a2d87ba648bfe net/sctp: fix race condition in sctp_destroy_sock
-8643003438dac918d252cc5eb70f7112b5684e48 Input: nspire-keypad - enable interrupts only when opened
-2d759b2938d8a88ad9e73f9c0254c416e1be5293 gpio: sysfs: Obey valid_mask
-66d2997de7ac945f8c8ca9b23c8055cc13af9338 dmaengine: dw: Make it dependent to HAS_IOMEM
-d76eb66d659068e5f41fadee7476c8be70b58a68 ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
-aa78c5bada7e5d70aec1889ca4082740df941a55 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-80d1ab899675a81ecb11fa7ee6c1b4d625800e49 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-3fb523b48cbc99cd8b7317a294cfeedb090d5e20 arc: kernel: Return -EFAULT if copy_to_user() fails
-1c1c89c074640d87a0611c603ff4b8ce36223fb0 neighbour: Disregard DEAD dst in neigh_update
-424ee7a094b0e4ca6e08c8cf4623784b3a71548d ARM: keystone: fix integer overflow warning
-9e897abc77f499eba387734d81847a5b1f93553a drm/msm: Fix a5xx/a6xx timestamps
-f219033214b5ae00ce89c6d5b9106cde0daec013 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-53df1aa10c5e0ac3bf5aaf4f18fbeaf59e18dce1 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-fc160b94e571daad5f46f541e4d2e560c317c739 net: ieee802154: stop dump llsec keys for monitors
-9ecf42c0d418eaa6173ab5a6691fcc0786225f24 net: ieee802154: stop dump llsec devs for monitors
-54d1a496553277db816e6118d3e87034d44b9b7a net: ieee802154: forbid monitor for add llsec dev
-425e8a247eefc337f7314514d4ee4cee9efea1f9 net: ieee802154: stop dump llsec devkeys for monitors
-fb1794ef39bd2c88d67180d37cb04e318893c8c1 net: ieee802154: forbid monitor for add llsec devkey
-1705c851f20b6f74a7363b1e3ad6c2c05610116e net: ieee802154: stop dump llsec seclevels for monitors
-f260c13cc929c37fce76feb0f936419ad9deb973 net: ieee802154: forbid monitor for add llsec seclevel
-76f584d577ff3e7a963394c01dca4dbda396be14 pcnet32: Use pci_resource_len to validate PCI resource
-91e2b60b182adeb40e3431dbb9de27dc8807f2fd mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-bb8be342be177d4df7a0b6f650e66a6ff76cfbe5 Input: s6sy761 - fix coordinate read bit shift
-7e02b72017710f19e85e2c27d7a3a5be5636dff5 Input: i8042 - fix Pegatron C15B ID entry
-16202bff9e314d0cdd0fd166c8572266c1757f0b HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
-54751514ab5ce6d0424e54fd5a4d2adcf2c5a555 dm verity fec: fix misaligned RS roots IO
-a1e71228d89338cbb29295ae52e2961ea631922c readdir: make sure to verify directory entry for legacy interfaces too
-0b3f67923a057227f60b2fb22551fa445156b37c arm64: fix inline asm in load_unaligned_zeropad()
-93f5b66b7d1b9214f3eb092beb07760000caff7d arm64: alternatives: Move length validation in alternative_{insn, endif}
-5627df1da1bae800100261a4f4ede8bd745d6f5f scsi: libsas: Reset num_scatter if libata marks qc as NODATA
-341b3fabc1899ac5511977eed8d28dbf44d02bfb netfilter: conntrack: do not print icmpv6 as unknown via /proc
-c7f29df1b23aad0e902c21f2f2462b9d3bc10be1 netfilter: nft_limit: avoid possible divide error in nft_limit_init
-b547887616ab757ca661a2f536723bc98c29bff5 net: davicom: Fix regulator not turned off on failed probe
-6e217a5361c80b0cfcc223fc4dc9df10bb256a34 net: sit: Unregister catch-all devices
-d59faf9c9f2f782c372aa86a552afb20614364c6 net: ip6_tunnel: Unregister catch-all devices
-2d992cb7eb0fbfd94556f29438f42a9f1643eae8 i40e: fix the panic when running bpf in xdpdrv mode
-d4d829db9c53d273da178f9a6d7bbbed25932cc0 ibmvnic: avoid calling napi_disable() twice
-2ff8a91b524df8ae888d29efcc4d41b2f16f0eee ibmvnic: remove duplicate napi_schedule call in do_reset function
-fdeaaa413b76cb608e5d84a723661941f9a3a149 ibmvnic: remove duplicate napi_schedule call in open function
-9a0ff737e603c08bddbf1db37c427a4e109991b9 ARM: footbridge: fix PCI interrupt mapping
-c9ddcdcdc7780231c967d09b9ef81713c23c0b55 ARM: 9071/1: uprobes: Don't hook on thumb instructions
-532144cc4ffb5b2dc7a599e052bc5bd8d1698a64 net: phy: marvell: fix detection of PHY on Topaz switches
-e6366755fa032e984f9df4cd961ee2770602d959 gup: document and work around "COW can break either way" issue
-ba6ced24ae4fb12246f26c4d29900f2a1e61b7f7 pinctrl: lewisburg: Update number of pins in community
-9c210ba1e9909c939326d43b7eedaefd94810638 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-444158cd1916482c2b688d178ffc11b9ec1ad232 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-d51f850c7837236d2ff51b5fa410d3cb95d2ef42 HID: google: add don USB id
-399ee30ad8b96e4581848c5ce47228bf49a61f50 HID: alps: fix error return code in alps_input_configured()
-690c26bad37ca73e013afe8cd265b654e6f0da0d HID: wacom: Assign boolean values to a bool variable
-47b04f131724f49e7185d3815da3d4cb8eea6753 ARM: dts: Fix swapped mmc order for omap3
-767fd5e256712921376a7d938806c039c915597c net: geneve: check skb is large enough for IPv4/IPv6 header
-9d1f293dd9808943a28e1e05770d220bba932c6a s390/entry: save the caller of psw_idle
-857261ef61b71f1c6231b3c9c4acf76db713992c xen-netback: Check for hotplug-status existence before watching
-e6a05945e6d18c991cd1af23d3329daa3ad1ff07 cavium/liquidio: Fix duplicate argument
-3496d3ac2acbca71b1530cf5b741d6ced8d8fdee ia64: fix discontig.c section mismatches
-2b34fe2615b355fb3dd7e6d1ee4b45c4fa6a6b43 ia64: tools: remove duplicate definition of ia64_mf() on ia64
-285b54880d19e23f54d742c19f6e90d6584cbde9 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-6eafc8cc1bd738ad08d0ea63ff9ea73c492b295f Linux 4.19.189-rc1
-
---===============3305474780071784317==--
+--===============2884950650491642917==--
