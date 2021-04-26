@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 26 Apr 2021 15:55:49 -0000
-Message-Id: <161945254953.30795.13490137553073803456@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 15:57:58 -0000
+Message-Id: <161945267815.31469.15550574279020142965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
   - ref: refs/heads/atomics/arch-atomic
-    old: 733ae735033a51eb0b4e5e619644d12dc29fed54
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 73a96a51f0aa2a04db620464a7923d39fa8a656f
