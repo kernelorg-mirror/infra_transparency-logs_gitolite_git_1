@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 25 Apr 2021 23:36:42 -0000
-Message-Id: <161939380253.16071.16753249668769491754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ak/linux-misc
+Date: Mon, 26 Apr 2021 00:06:09 -0000
+Message-Id: <161939556973.1696.10877946842270495320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/ak/linux-misc
+user: ak
 changes:
-  - ref: refs/heads/master
-    old: de25a117a9c6cc321bed517706c891600dd24b11
-    new: 2f0e431c7e966f707fc20f66e17db9426930ee03
-    log: |
-         2f0e431c7e966f707fc20f66e17db9426930ee03 defer/rcufundamental: Introduce the notion of spatial synchronization
-         
+  - ref: refs/heads/lto-5.12-3
+    old: 0000000000000000000000000000000000000000
+    new: 34d4d51d5430b06c001dd172400ebfa0b62e3d0e
