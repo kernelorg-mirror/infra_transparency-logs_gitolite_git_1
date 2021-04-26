@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Apr 2021 10:15:36 -0000
-Message-Id: <161943213666.12751.7891245341290134725@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 10:23:22 -0000
+Message-Id: <161943260223.17561.12935973598415919504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: bp
 changes:
-  - ref: refs/tags/x86-splitlock-2021-04-26
+  - ref: refs/tags/x86_vmware_for_v5.13
     old: 0000000000000000000000000000000000000000
-    new: fc1f244a75b7368041fe5bdd1e4855a5000195f3
+    new: 6fd38b3779bfa9a2ced2dc46e7e22fbd42b02767
