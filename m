@@ -1,73 +1,113 @@
-Content-Type: multipart/mixed; boundary="===============0229502425339808719=="
+Content-Type: multipart/mixed; boundary="===============6839096201537247951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 27 Apr 2021 18:37:21 -0000
-Message-Id: <161954864154.18010.4106762543587775395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 27 Apr 2021 18:40:21 -0000
+Message-Id: <161954882169.20391.2402067439690943994@gitolite.kernel.org>
 
---===============0229502425339808719==
+--===============6839096201537247951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 57fa2369ab17d67e6232f85b868652fbf4407206
-    new: a4f7fae10169cf626bb83e97f229ee78c71ceea8
-    log: revlist-57fa2369ab17-a4f7fae10169.txt
+  - ref: refs/heads/umn.edu-reverts
+    old: 67705bf762a3dbb403a469fe0679095276c88175
+    new: a00f6f9863405bc06055f8d41bc8cdf7768586c0
+    log: revlist-67705bf762a3-a00f6f986340.txt
 
---===============0229502425339808719==
+--===============6839096201537247951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57fa2369ab17-a4f7fae10169.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6e3e2c4362e41a2f18e3f7a5ad81bd2f49a47b85 new helper: inode_wrong_type()
-3e10a15ffc8d77f05e655d14fd48c0b790dede35 ceph: fix up error handling with snapdirs
-ed94f87c2b123241ae5644cf82327e2da653adb6 ceph: don't allow type or device number to change on non-I_NEW inodes
-6e1eb04a87f954eb06a89ee6034c166351dfff6e afs: Fix updating of i_mode due to 3rd party change
-d0f1088b31db2d03497a74ca67755df5515f8ff4 coredump: don't bother with do_truncate()
-a64b89088bb1413bb84424f0b16a4d1f9bb0e947 coredump.h: move CONFIG_COREDUMP-only stuff inside the ifdef
-e98f93e7ca71da61bc2ae7f433022e80bcb07d21 vboxsf: don't allow to change the inode type
-e89f00d602b16284ee29677501f39126dd26ee3a orangefs_inode_is_stale(): i_mode type bits do *not* form a bitmap...
-60606ecad1881566ae1c76e2b921b6c07407e2cf ocfs2_inode_lock_update(): make sure we don't change the type bits of i_mode
-4a378d8a0d9606e97bddb0389cbc2009c6fc006c gfs2: be careful with inode refresh
-4ab5260dab28109979a1b47a8996c9922219927f do_cifs_create(): don't set ->i_mode of something we had not created
-3bcb39b086bf8d7c3cff013564f86162ec497d90 cifs: have ->mkdir() handle race with another client sanely
-4d66952a2032cf6b65183fc4a8d8039304c70d48 cifs: have cifs_fattr_to_inode() refuse to change type on live inode
-a612c07dd20107280751ceeb46692f7653bba424 hostfs_mknod(): don't bother with init_special_inode()
-e34d657fc56855eca8c68c0ead3ca4feac5f34dc openpromfs: don't do unlock_new_inode() until the new inode is set up
-b577d0cd2104fdfcf0ded3707540a12be8ddd8b0 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-c4ab036a2f41184ba969f86dda73be361c9ab39d spufs: fix bogosity in S_ISGID handling
-4c5b479975212065ef39786e115fde42847e95a9 vfs: add fileattr ops
-97e2dee9752bbd0eddfaec47e8036d35947521d9 ecryptfs: stack fileattr ops
-66dbfabf10d3cb68ee01df60b11c0b3777a4217b ovl: stack fileattr ops
-97fc2977548786b073b17aa18174fcbaae9cb6a8 btrfs: convert to fileattr
-aba405e33e150860dd9e55be582a70e36d457039 ext2: convert to fileattr
-4db5c2e6236f82cf1aa408a53ae2890248059762 ext4: convert to fileattr
-9b1bb01c8ae7e308486996f18216bd260258e076 f2fs: convert to fileattr
-88b631cbfbeb49f881737b974394a1735d3e7da7 gfs2: convert to fileattr
-1f26b0627b4613e623ba0c858a338ea7c77a55fb orangefs: convert to fileattr
-9fefd5db08ce01abffffcdca3dc0964d9cb6ee69 xfs: convert to fileattr
-d701ea284cf908c2c9aeed54e3c851927155796f efivars: convert to fileattr
-9cbae74838e62ed2d669d3b7eba181fe807ef842 hfsplus: convert to fileattr
-2ca58e30b148044adc3b517931036c87ca9f8d76 jfs: convert to fileattr
-7c7c436e14b863ce56d9983477d35e05e54a220b nilfs2: convert to fileattr
-2b5f52c562d3001e442683065ffa7526831b55d4 ocfs2: convert to fileattr
-03eb60661332f46659634eb247821323e5dbc75e reiserfs: convert to fileattr
-8871d84c8f8b0c6bc2430cca3aa5f2e272596961 ubifs: convert to fileattr
-51db776a430edd7477a779be0dc5c6fef4a05884 vfs: remove unused ioctl helpers
-9ac29fd3f87ffdd993505d75e89714ab931cdedb fuse: move ioctl to separate source file
-54d601cb67572c49177a5e4001e6c3b59fed4ba5 fuse: unsigned open flags
-b9d54c6f29d9dc04d3fa92e466349d3dfea58eb2 fuse: add internal open/release helpers
-72227eac177dd126355ab8d8bd71b46af56c5cf3 fuse: convert to fileattr
-c4fe8aef2f07c8a41169bcb2c925f6a3a6818ca3 ovl: remove unneeded ioctls
-d1466bc583a81830cef2399a4b8a514398351b40 Merge branch 'work.inode-type-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-5e6720888523eaac7c548df0d263739c56a3c22e Merge branch 'work.coredump' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-a4f7fae10169cf626bb83e97f229ee78c71ceea8 Merge branch 'miklos.fileattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619548816 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1619548815-588c423f2bb7edf421eda3ec47b8339c10802946
 
---===============0229502425339808719==--
+67705bf762a3dbb403a469fe0679095276c88175 a00f6f9863405bc06055f8d41bc8cdf7768586c0 refs/heads/umn.edu-reverts
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCIWpAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4+gQAJ7422poZWfVEZxe/VVS
+BugcRm7M9QhK9JOI7VRfF1A/VTr2IdBKHJ8s6o6Mvq00KmF5oGf2zwKni4tAca4R
+GyaaVBJBGqTvl2lqPcE5Og+IYKm9+kwElPbm2DkgazgoDJ/BZ2SORoun9zKQ3b44
+T4wbV5RNQgix2VCWGmlRhfbvozHOap0FuyuJnJoKYccdPcbF2lWbnJkQS92sUfZa
+NnbiN618rP0lF5YydRTajgzJVU25nnJHVZRd3YoPgCv4K5FNN/iK9DrUk7a4ZPks
+YPNn53vP2O9euQmTXFM/+MvEw9rllVYB5QtU9ptI4ML/tKoF23IXOtjABlxzLpq7
+8le0Ec67Iq8zyWa/Wk5KMaRcli1HuksRVpiF+POyqbyPnc7Bw6rSWAH+cPkZ7HS/
+bT2HEXoSrRaoofRNXyk93m1eyCJkm1u1kU+2axR6R8/mf7pLkKo3A9Vj641OQ5vq
+GGRneWVBywLrrNQKt1t2bxIW+43022k+GQPdjjcw1jMhHHXfAQI/S/CL92yOTo0q
+Uf+n1eboGihxy3cNVsPq8OIwVeqhWjEEO/XVJkH2x1Ph1lZHZNVG9OFyCONSF36i
+kn8t2pxCIUcsNLmqaFPeNIzlduHipYNQKA+Y1t2L4UaqGlNC7XTw8aPz7rOUymu3
+G44PtyYt0+PfVpsYlBVPPbPb
+=PwuU
+-----END PGP SIGNATURE-----
+
+--===============6839096201537247951==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-67705bf762a3-a00f6f986340.txt
+
+570d25379561822e10601a6f702ccf4168d0af53 Revert "net: caif: replace BUG_ON with recovery code"
+e2f0fed687a9c0f58e85434dd5edd01ce9bf91bb Revert "net: atm: Reduce the severity of logging in unlink_clip_vcc"
+78dd865b4c05679a006044d2d33f08aafdb7f4fb Revert "net: ixgbevf: fix a missing check of ixgbevf_write_msg_read_ack"
+04e118ec11785ec6bdcadfdf7d9f23336dde32f6 Revert "mmc_spi: add a status check for spi_sync_locked"
+eb430781eb5eba19c5c8673682e74b882b9ad059 Revert "net: mwifiex: fix a NULL pointer dereference"
+70efe9d778db30ba84f3346c1aff16e0641affe2 Revert "net: tipc: fix a missing check of nla_nest_start"
+a9027af766f920850f4c430496804c1f2cbd1e80 Revert "net: strparser: fix a missing check for create_singlethread_workqueue"
+a729f2ecb49f7c1574908209830c26afd9d1970b Revert "net: fujitsu: fix a potential NULL pointer dereference"
+8332bf864993d960c3d1b828af123000bca91130 Revert "md: Fix failed allocation of md_register_thread"
+067983957b6d86003e85df6961e4c0287a9cb2d1 Revert "niu: fix missing checks of niu_pci_eeprom_read"
+7741e94f4b9656db372915a2316edf6e4a48aec8 Revert "qlcnic: fix missing release in qlcnic_83xx_interrupt_test."
+ef9017e6504fe7c7fb157e5b8cd124b575703457 !!!!!! Canary - Review
+f6e53285a3a042469af0ea8a3346b4d047b65216 Revert "atl1e: checking the status of atl1e_write_phy_reg"
+180a5da562a94f6b9fa3d172e20963c1a2131a57 Revert "net: 8390: fix potential NULL pointer dereferences"
+d6bc8534c5dfcc5d1347c0da4b70c9ffd21e3114 Revert "drm/gma500: fix memory disclosures due to uninitialized bytes"
+b527ca1e25ed3cad49d51edeac8cabdb6d3433c7 Revert "gma/gma500: fix a memory disclosure bug due to uninitialized bytes"
+c222163212552fd6694b68717b28c392b35dcace Revert "net/mlx4_core: fix a memory leak bug."
+013f034efa5ca39a99ac4c3f6a0e9a8cf8458238 Revert "gdrom: fix a memory leak bug"
+96edc88de07f04b9834ef1d20cfb33d33236e49b Revert "media: rcar_drif: fix a memory disclosure"
+2a601b0a1716360999426e9393d220a10ab112dc Revert "media: usb: gspca: add a missed check for goto_low_power"
+f959295ee1395af4dd75d86becfd8ed78f769014 Revert "media: gspca: Check the return value of write_bridge for timeout"
+4baf849894f72f1ad9107f82e6a3da0f50db31eb Revert "media: gspca: mt9m111: Check write_bridge for timeout"
+63c6041dcccf2cdd35c34d620e241db4b0843d08 Revert "media: dvb: Add check on sp8870_readreg"
+bb59fbeff777a9695c05588eab90054bb5d38892 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+355b2f4ddf80b509d2bd04277d5f05337de532e3 Revert "serial: max310x: pass return value of spi_register_driver"
+ab36cc4aacf9532a7a767f1a39b4eb2ab84925ea Revert "ALSA: sb8: add a check for request_region"
+41ce60fe5234dd8daadf6f28d1b82436ff6d22c5 Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
+1dbb2fab2e6d2a0a8d27f9dd68f9485e2727ea4c Revert "ALSA: sb: fix a missing check of snd_ctl_add"
+9f9a33617ac84bf51ae9103fc059ae762ff737c5 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
+08b3b83be23fdd61cab4f7bbe90373480339ef8c Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+82776bf8022f2a71e200afd42300284dab4d70a4 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
+a90f929160f4525b147c05757af3721bb52f6336 Revert "isdn: mISDN: Fix potential NULL pointer dereference of kzalloc"
+42c8ad58d061a0c7b073794d2b1537c617c3d934 Revert "dmaengine: qcom_hidma: Check for driver register failure"
+78600feaa408fc53818fb0d21d4654d9fb5dad61 Revert "ecryptfs: replace BUG_ON with error handling code"
+6ac0eaef2def11d454af0716de0616c95144bf52 Revert "video: imsttfb: fix potential NULL pointer dereferences"
+4ebc59568cabbd691b1aa4ac5076cf0f1480349d Revert "brcmfmac: add a check for the status of usb_register"
+9ca7f3f9c8a249df03bcc985f5eee5ec5b4a6a6a Revert "video: hgafb: fix potential NULL pointer dereference"
+3fbaa195f1bf0fea99f57719a2a1b6a7b28e37e1 Revert "ASoC: cs43130: fix a NULL pointer dereference"
+1534c38bda68b6003c871413f3c5a8b5be95cbce Revert "ASoC: rt5645: fix a NULL pointer dereference"
+6562266f03ae8219722cb5c2980697a5413f6cc6 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+5bbe45274264ee0fad32b3195a334fb40fad274b Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+2e8d64f883538c8800c08c3fb4a3a0754d3cd45d Revert "qlcnic: Avoid potential NULL pointer dereference"
+2741f3cbeb397cbf332b7d7c560b67ce7c23303b Revert "char: hpet: fix a missing check of ioremap"
+c4d4a9f7b3c74f3b68d05487244e7fb3f351e74c Revert "net: liquidio: fix a NULL pointer dereference"
+d67d9f52f6a569e65b8ad45d28bf2982cbf12ad5 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+db29966dbaf72974010edcfeb9068f2f1d7c27e9 Revert "libertas: add checks for the return value of sysfs_create_group"
+42710ea8dafcef7692ff9f88f99c4fb7c792277e Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
+dde74c8936b86bc0aea79bc167d00874f512f4a3 Revert "net/smc: fix a NULL pointer dereference"
+864f85e31189ae9282903fe7dc57448edebf61b2 Revert "net: stmicro: fix a missing check of clk_prepare"
+08c507caa402837e0c0c8d3ac880a5a701cf8c56 Revert "rtlwifi: fix a potential NULL pointer dereference"
+1c7f7074368ab108b1e95213027b2f09240c711c !!!!!! Canary - fixes
+a00f6f9863405bc06055f8d41bc8cdf7768586c0 net: rtlwifi: properly check for alloc_workqueue() failure
+
+--===============6839096201537247951==--
