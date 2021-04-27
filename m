@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5330987127820873148=="
+Content-Type: multipart/mixed; boundary="===============7607124017490614316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 27 Apr 2021 11:22:33 -0000
-Message-Id: <161952255396.8916.3002155774427038960@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 11:22:48 -0000
+Message-Id: <161952256851.9098.15535167418008425680@gitolite.kernel.org>
 
---===============5330987127820873148==
+--===============7607124017490614316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,98 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: e49d033bddf5b565044e2abe4241353959bc9120
+  - ref: refs/heads/tty-next
+    old: 8720037d55dbfa3011b8795ca2187b00bb05ee03
     new: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
-    log: revlist-e49d033bddf5-4a0225c3d208.txt
+    log: revlist-8720037d55db-4a0225c3d208.txt
 
---===============5330987127820873148==
+--===============7607124017490614316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619522548 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619522563 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1619522548-4bd9e3660973699b06d6e30c23180791377a069e
+nonce 1619522561-a8825df73cc832d730674ab505ec617da2697d48
 
-e49d033bddf5b565044e2abe4241353959bc9120 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/tty-linus
+8720037d55dbfa3011b8795ca2187b00bb05ee03 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH8/QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5GAP/icMtJGw4SZ65vgZjctV
-ufg7p3YmabPfn/Sv8sU2tcnFi55qBEwewml7+ZF0fvE53VWAHTWIVF/DRTTI3pwF
-9vhcdP0KeKrWJFDSnnN9jO4nBu/IHu13qgiC7F688zcZQiTasujZYfFECSzwfRtr
-WMhGvI1kczD2m5JsC1Hc2btyqsM+PAwWD+wvh4QXsOhMkWEpIZRHKXXwy9x/6c9j
-YBt4cy4mN+PfVqr/aaFoR7mvCZ7AcyOWuN6Z33lZ6ecztnlEwTUQ6H02u/YjYDPQ
-UAZLrR+36huufflU/XWKreLvBK6RoN+3odfSa5DXm3OiikUMUjCP7wZi9ITpfFjf
-0uP5yhavGZrwPeSzSHYjL37sXYTm/jGr6NZNIDe1vwUDX3fvyGLT58Oos7r0+Scz
-vw+c8FzPvLt0wB0f2dFTfLBYtX39LkNgEy7n2lFjVrA7xqjFBioxpr8PdAlGcdsW
-p66MOOc0fNBaDtdKJeMlRXlnAaBJLbiYb5jP0rUXjeLiMNXDyMBzRgDUh8Pveme+
-Xf/6e3shDUbfyMWjC1EiQ6Yu5w2aIdYDTt/lAx9ovfi8lZoS1Qjm/Pfay88w4zsg
-ZDEUR5YpI9IfD1O7YE3meV/sQ8am6nmmoQbnZcVUyx1+4iU0EVc2p6vDFKEZpIlO
-jIWoY7ddWhj06UdRUThQDrZJ
-=Nxun
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH9AMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LG8QAJs4sDqBCpNOx6M5ecvc
+RJzYf4kV07wYjpICNcGdvn7jHU4O/2ZeR8wILRVdMFcN3X7KJzxpPkTZjR9jbg6a
+LhTIrIfnq8Yf0FsVPt3VJdPTauLc5QziIJ5l3zaqL4u3630pKYW9uZ0CjOH+g6fE
+ASpVaIb23mS75oORoowaE5eNY4a/4Q5ouIkanCMH9uY4Pa7Vb/Pbv+IXseb7F4Mz
+fAB6UK5tNlgfUcaUj23F6M25kPsAQMdiAXr/agYpQ5QtCfBGBjwXtePhv85lmF/s
+z9GSaH7osg00A4AjthgSW5DjyEHlpLVJKfwgB/qt3sYPATswFCQpzQSZktGSKGe5
+NreHqrLGrwr91YNxs8mEhDMN6IR+Ce+4BlFBwihXitWd/HFdsnOSDnk1FuiXj+XD
+4K5F5+BtzMqHf9mgAq23jVhRZVxiKeHf7TP65iIWIhfFCxAJkPp6RmLm3N67oaeI
+TdtnAFvtq6hqw2gAQh6l1A+ZIHD3nBm64gkVruThl/wtZPrpGw/qekdnLUoGLEUn
+4sTkxmi2ASnJF+/HCheje4gQ1MLNcvLSjHpuOde4PrE71lBQ5s+OAKAPIfgFYgNQ
+t3kAOKBxlluhCrYJoHYh/DjzgduIEhvxAkVVrBDy/SS4kkYieJmYXxRh0WzUGuAF
+yPVtxtiTswTs8pgh+Omtws9E
+=pjjR
 -----END PGP SIGNATURE-----
 
---===============5330987127820873148==
+--===============7607124017490614316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e49d033bddf5-4a0225c3d208.txt
+Content-Disposition: attachment; filename=revlist-8720037d55db-4a0225c3d208.txt
 
+4873d8cc141e76aa5f3e7ef6e98dfb3823fcbe6d MAINTAINERS: update CZ.NIC's Turris information
+b37c38484375f5a204500e0b10b40da268090995 treewide: change my e-mail address, fix my name
+620ff418ef440f2d585d8c8b2e9396ccfacaacd7 mailmap: update email address for Jordan Crouse
+a5c5e441518f1f39da7ed3ef8e61361a9ea90c8b .mailmap: fix old email addresses
+d3378e86d1822b6d0bebfbc18a8348691c05dfa0 mm/gup: check page posion status for coredump.
+a3a8833dffb7e7329c2586b8bfc531adb503f123 nds32: flush_dcache_page: use page_mapping_file to avoid races with swapoff
+9562fd132985ea9185388a112e50f2a51557827d gcov: re-fix clang-11+ support
+90bd070aae6c4fb5d302f9c4b9c88be60c8197ec ocfs2: fix deadlock between setattr and dio_end_io_write
+7ad1e366167837daeb93d0bacb57dee820b0b898 ia64: fix user_stack_pointer() for ptrace()
+df41872b68601059dd4a84858952dcae58acd331 fs: direct-io: fix missing sdio->boundary
+06b1f85588948bd4c772845e5d6891b8f6082248 kasan: fix conflict with page poisoning
+e156656717b810202914b77557de8112df4dad0d lib/test_kasan_module.c: suppress unused var warning
+6a77d38efcda40f555a920909eab22ee0917fd0d kfence, x86: fix preemptible warning on KPTI-enabled systems
+7d37cb2c912dc5c25ffac784a4f9b98c06c6bd08 lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
+3b9784350f990d8fe2ca08978dc25cd5180d5c21 Merge tag 'io_uring-5.12-2021-04-09' of git://git.kernel.dk/linux-block
+4e04e7513b0fa2fe8966a1c83fb473f1667e2810 Merge tag 'net-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+adb2c4174fb2294bfed3b161174e8d79743f0167 Merge branch 'akpm' (patches from Andrew)
+9288e1f7d396b7702649d78f2c711c3e0020c71d Merge tag 'perf-tools-fixes-for-v5.12-2020-04-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+d4961772226de3b48a395a26c076d450d7044c76 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+a2948b17f6b936fc52f86c0f92c46d2f91928b79 libnvdimm/region: Fix nvdimm_has_flush() to handle ND_REGION_ASYNC
+11d2498f1568a0f923dc8ef7621de15a9e89267f Merge branch 'for-5.12/dax' into libnvdimm-fixes
+98a847ae5d5d3eab47983898363b34def5b3318d staging: rtl8723bs: remove redundant initialization
+92172da23c56faefca9a8790d441010bfa74bb20 staging: rtl8192e: replace comparison to NULL by bool
+08aa09135c969b4a512f00bb0551acd1b7143a1c staging: rtl8192e: remove unnecesasry f-trace like logging
+3eea531bcc24aee8f93b206adfde605fdd6f3d44 staging: ralink-gdma: Add missing MODULE_DEVICE_TABLE
+32abcac8037da5dc570c22abf266cbb92eee9fc9 staging: comedi: tests: ni_routes_test: Remove unused variable 'olddevroutes'
+26b75952ca0b8b4b3050adb9582c8e2f44d49687 USB:ehci:fix Kunpeng920 ehci hardware problem
+90d28fb53d4a51299ff324dede015d5cb11b88a2 usb: core: reduce power-on-good delay time of root hub
+dc1e7e9a27e05260c45e142d28fb56ae63f94966 usb: dwc3: qcom: Remove redundant dev_err call in dwc3_qcom_probe()
+3db53374405fbf7a474086ed984189f65b6f0008 usb: dwc3: qcom: Detect DWC3 DT-nodes using compatible string
+005169157448ca41eff8716d79dc1b8f158229d2 binder: fix the missing BR_FROZEN_REPLY in binder_return_strings
+a7dc1e6f99df59799ab0128d9c4e47bbeceb934d binder: tell userspace to dump current backtrace when detected oneway spamming
+88adcd66108eae9d96aac7e38686a77fcb4cde24 w1: ds2805: Use module_w1_family to simplify the code
+6c00365d531163a44ce57d862883db9424bd19ab w1: ds28e17: Use module_w1_family to simplify the code
+0d5cf954656387a595a8d5bb7e376f31829aae4d speakup: i18n: Switch to kmemdup_nul() in spk_msg_set()
+2954a6f12f250890ec2433cec03ba92784d613e8 firmware: qcom-scm: Fix QCOM_SCM configuration
+b4104180a2efb85f55e1ba1407885c9421970338 kobject_uevent: remove warning in init_uevent_argv()
+4ce535ec0084f0d712317cb99d383cad3288e713 node: fix device cleanups in error handling code
+19ab233989d0f7ab1de19a036e247afa4a0a1e9c fbdev: zero-fill colormap in fbcmap.c
+53b74fa990bf76f290aa5930abfcf37424a1a865 btrfs: zoned: move superblock logging zone location
+c5e3a41187ac01425f5ad1abce927905e4ac44e4 kernel: Initialize cpumask before parsing
+7c07012eb1be8b4a95d3502fd30795849007a40e genirq: Reduce irqdebug cacheline bouncing
+0d6c8e1e246586b81cb4e6ab1a93a6d4a08a0cf9 x86/platform/intel/quark: Fix incorrect kernel-doc comment syntax in files
+12a0cf7241f9ee6b9b62e4c5aad53c43f46817a4 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+445e09e79743c8ba01f1e9eb6b10faab5a92a5c7 Merge tag 'usb-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+d5fa1dad75bef69fbff5a193b7a99ada624a0154 Merge tag 'driver-core-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+95c7b07551879c8ad4d6dca10c02de46ddbf55a8 Merge tag 'powerpc-5.12-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
+7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
+d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
+efc2da9241e643cb90897ac4ed3542daa3edf3bc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 52e44129fba5cfc4e351fdb5e45849afc74d9a53 Merge branch 'for-5.12-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
 26be3a5d845312bae0397b1008e766340945cb53 staging: rtl8192e: Fix incorrect pointer check
 4e63e9b77449371fc42c8b0763502f6a6e6b6951 staging: rtl8723bs: core: Remove an unused variable
@@ -385,24 +436,11 @@ e3e0f9b279705154b951d579dc3d8b7041710e24 net/mlx5e: fix ingress_ifindex check in
 027ffa10b80be722c284067f7eee431ced1db208 staging: rtl8723bs: remove sdio_drv_priv structure
 8ffdff6a8cfbdc174a3a390b6f825a277b5bb895 staging: comedi: move out of staging directory
 71d3edc61e29e45b613b841108688d711846f969 staging: rtl8723bs: Remove led_blink_hdl() and everything related
-a13df3bec5963dc8f0f49257ae4f83c1445acaff dt-bindings: serial: 8250: deprecate aspeed, sirq-polarity-sense
-3b44af4f9f4d9aab7d369b06e7c53db274927582 serial: 8250_aspeed_vuart: refactor sirq and lpc address setting code
-ca03042f0f1221c3173bbe81ebd974b91a4dbb15 serial: 8250_aspeed_vuart: add aspeed, lpc-io-reg and aspeed, lpc-interrupts DT properties
-845766b63fb53cbaf9b8d68c6be9879f8a5f2902 dt-bindings: serial: 8250: add aspeed, lpc-io-reg and aspeed, lpc-interrupts
-0a360e8b65d62fe1a994f0a8da4f8d20877b2100 tty: n_gsm: check error while registering tty devices
-98602c010ceba82f2c2384122dbd07bc965fd367 tty: create internal tty.h file
-4d5a64cbc7add9e2697080c6bb78f961e9bbd2c3 tty: tty.h: remove tty_info()
-da5d669e00d2c437b3f508d60add417fc74f4bb6 tty: audit: move some local functions out of tty.h
-6c80c0b94b94192d9a34b400f8237703c6475f4d tty: move some internal tty lock enums and functions out of tty.h
-dd9f611442578ca8392e90adbca5815d79946b5e tty: make tty_release_redirect() static
-9f72cab1596327e1011ab4599c07b165e0fb45db tty: move some tty-only functions to drivers/tty/tty.h
-5ffa6e344a1c92a27c242f500fc74e6eb361a4bc tty: clean include/linux/tty.h up
 b622b24519f5b008f6d4e20e5675eaffa8fbd87b software node: Allow node addition to already existing device
 bd2a895f21eb9195a42e52e5f451dccc854cc71d PM / wakeup: use dev_set_name() directly
 4615df5df23031120637baf0c4e4a20b1459737e Merge tag 'icc-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 00cc42630a2e8893836ea2fc2b68334494b4534f platform/x86: thinkpad_acpi: Add labels to the first 2 temperature sensors
 8779c688edbbb387aa2f6953ce7bcaa56012cc6e platform/x86: gigabyte-wmi: add X570 AORUS ELITE
-f9f54983005cdd1060b85b16933677442139d88d serial: sh-sci: remove obsolete latency workaround
 823b31517ad3196324322804ee365d5fcff704d6 platform/x86: intel_chtdc_ti_pwrbtn: Fix missing IRQF_ONESHOT as only threaded handler
 087dfa5ca7d89c3cf6f4e972e279406a5dee5f67 arm64/sve: Add compile time checks for SVE hooks in generic functions
 a1e1eddef2b5b6d81071e18879ce7d05011cf87a Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/xntable', 'for-next/vdso', 'for-next/fiq', 'for-next/epan', 'for-next/kasan-vmalloc', 'for-next/fgt-boot-init', 'for-next/vhe-only' and 'for-next/neon-softirqs-disabled', remote-tracking branch 'arm64/for-next/perf' into for-next/core
@@ -866,44 +904,6 @@ a94f01814be4fb46fb89c08209f808b665182763 usb: dwc2: Add exit hibernation mode be
 0112b7ce68ea85d4e88a5baf32d007c1e3856661 usb: dwc2: Update dwc2_handle_usb_suspend_intr function.
 0fdf3c5e06aafdded33c9adab8a6f3bb1fe688f9 usb: dwc2: Get rid of useless error checks in suspend interrupt
 f88359e1588b85cf0e8209ab7d6620085f3441d9 usb: dwc3: core: Do core softreset when switch mode
-c0070e1e60270f6a1e09442a9ab2335f3eaeaad2 ttyprintk: Add TTY hangup callback.
-86eb032675766e633ba1ad2902776533e8dd576b tty: synclink_gt: remove redundant initialization of variable count
-75f4e830fa9c47637054a3b7201765f2a314bda2 serial: do not restore interrupt state in sysrq helper
-e359b4411c2836cf87c8776682d1b594635570de serial: stm32: fix threaded interrupt handling
-cea37afd28f1bb7ca09a0c27e75f89cf2df9147d serial: stm32: defer sysrq processing
-45f6b6db53c80787b79044629b062dfcf2da71ec serial: omap: don't disable rs485 if rts gpio is missing
-e2a5e8448e7393e96ccde346c68764b40a52cc10 serial: omap: fix rs485 half-duplex filtering
-02ca144fa4891035b43770e96d51468c94aa8391 tty: mxser: drop low-latency workaround
-f22dd43fc16671c7c1237e855dfb65b5f73cc0eb serial: altera_jtaguart: drop low-latency workaround
-d26595d188e6f1f0dc2e3e9591ef31492b4f64da serial: altera_uart: drop low-latency workaround
-173d37fc598a2c2cfc73288203a1154557c810be serial: amba-pl010: drop low-latency workaround
-02d5364007ba95eb3c90ba5710e3ccbdf6c56cfb serial: amba-pl011: drop low-latency workaround
-d0aa2820b9e85e79f5a76eb7874316aaa04bdff9 serial: apbuart: drop low-latency workaround
-80d43febacf1502bb562e58d8ab76ecee2655a8b serial: ar933x: drop low-latency workaround
-e9af7e363af5632c3342559009d36d8003fa1709 serial: arc_uart: drop low-latency workaround
-983fe58ad72d45e5c12eb8166dc85657065dd34e serial: atmel_serial: drop low-latency workaround
-acf484363177d87e4d4d32887e62df7ccfe18b9b serial: bcm63xx: drop low-latency workaround
-4eec66e4b2a03a4c495f646d4cd98a655b4d9176 serial: icom: drop low-latency workaround
-46a2675e8f0d9c5da85b608ceb573f425432a6e7 serial: lpc32xx_hs: drop low-latency workaround
-5d148754dac63c04d04bb05e6751c043e4abe325 serial: mcf: drop low-latency workaround
-b8555963ca1abf94b0f69b5f67d208aa78471795 serial: meson: drop low-latency workaround
-6e560913aae066d532e48beeb7224aa3339f8d8e serial: mpc52xx_uart: drop low-latency workaround
-c0a6c9f79e5266d750b73bff5a61761827f4687d serial: msm_serial: drop low-latency workaround
-493a275c04715cf0a571e017ad24e0b78af094eb serial: owl: drop low-latency workaround
-2225ee132c61481a7ed73d78c2bee9e775173262 serial: rda: drop low-latency workaround
-e1bd674499c570a4f3ceb0329dc16b6d59b14e27 serial: rp2: drop low-latency workaround
-f306226ee51d12983240fcd42daaf148fbdf19cd serial: sa1100: drop low-latency workaround
-38616c225e7088915f00be11c090543b7591e9a4 serial: txx9: drop low-latency workaround
-0f8a732822bab43313400e5ae6af6560e4a7ce85 serial: sifive: drop low-latency workaround
-3f6dbe6212bdd2094db84015ddef3d1f50fcde20 serial: sunsu: drop low-latency workaround
-177765b350a06493b9437f814384f2a018fd7731 serial: timbuart: drop low-latency workaround
-4e11dbb518fe97d9a4c53bdef7f2144de20a9ed3 serial: vt8500: drop low-latency workaround
-348fbd61700ce0527625582aee8bb136373f10af serial: xilinx_uartps: drop low-latency workaround
-8574c9e7292247b5d3ffa5db22399b3b53a0dbda dt-bindings: serial: add RX and TX FIFO properties
-cd9de06e16104a9e37245275fa2c4a073edf2e44 dt-bindings: serial: stm32: override FIFO threshold properties
-31db3ce05b1a7c045ff462761a9c6c8ebe25d620 dt-bindings: serial: 8250: update TX FIFO trigger level
-2aa1bbb21f26de43b55a9d9cab9c0370c15a86ed serial: stm32: add FIFO threshold configuration
-8720037d55dbfa3011b8795ca2187b00bb05ee03 serial: extend compile-test coverage
 3343f376d4bae98ec11fd104e0e211b275e754b8 usb: gadget: prevent a ternary sign expansion bug
 4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
 a6992bbe9774e044d3d0f973593d655c53efe089 irqchip/tb10x: Use 'fallthrough' to eliminate a warning
@@ -1082,4 +1082,4 @@ fed584c408c123e2a0a7dd1f630d96b84e7f9e97 Merge tag 'regmap-v5.13' of git://git.k
 ca62e9090d229926f43f20291bb44d67897baab7 Merge tag 'regulator-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 4a0225c3d208cfa6e4550f2210ffd9114a952a81 Merge tag 'spi-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============5330987127820873148==--
+--===============7607124017490614316==--
