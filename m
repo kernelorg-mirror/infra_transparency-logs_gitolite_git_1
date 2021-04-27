@@ -1,42 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1916356295828294178=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 27 Apr 2021 15:41:21 -0000
-Message-Id: <161953808150.9059.13452836116811238684@gitolite.kernel.org>
-
---===============1916356295828294178==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 27 Apr 2021 15:49:38 -0000
+Message-Id: <161953857842.13183.11220752967414159986@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/v5.11/ffa
-    old: cc4b5dc926f5c9e402482dd08096df2b4500f478
-    new: 5d4dab797780026f28f927325da944d97f7bee1d
-    log: revlist-cc4b5dc926f5-5d4dab797780.txt
-
---===============1916356295828294178==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc4b5dc926f5-5d4dab797780.txt
-
-b6f12b3818f652dc786c8b3c95277f125c54ec6b firmware: arm_ffa: Add initial FFA bus support for device enumeration
-79eaad15c81420bab0c22a00dcdded87a2d3c716 firmware: arm_ffa: Add initial Arm FFA driver support
-9dfd44b3bd18c3504acc560521cfdc80f66cbba2 firmware: arm_ffa: Add support for SMCCC as transport to FFA driver
-ce8cb9e264214b09d941e0d083b4ecbd04be54b3 firmware: arm_ffa: Setup in-kernel users of FFA partitions
-3d4b956fc7a74310c543cc25f923753a213b378d firmware: arm_ffa: Add support for MEM_* interfaces
-cb2cb3dbfd4012a410d7aec083de9eb2b959643b optee: fix error handling in pool_op_alloc()
-ff712dc124b60e3cdd8b7463cca4982cc60e7ddd tee: add sec_world_id to struct tee_shm
-29c02b954cfa737c7874d7e3fa6f250e24a804c8 optee: simplify optee_release()
-f6228515b30082d8542e5785d93a45b31500cd46 tee: optee: sync optee_msg.h and optee_rpc_cmd.h
-3c0caa011771a7fdf4366f1f0354154f33092e8e optee: add FF-A support
-2ce385334408a00a1b9bd705450bba86679ec74c optee: use OPTEE_MSG_FMEM_INVALID_GLOBAL_ID
-5d4dab797780026f28f927325da944d97f7bee1d hack to workaround optee UUID endianess issue
-
---===============1916356295828294178==--
+  - ref: refs/heads/master
+    old: 2f0e431c7e966f707fc20f66e17db9426930ee03
+    new: f857e6c132acc009dbec1f2c46dae2a7b97c67d8
+    log: |
+         ffdaff45e76d0692f4134bd977d55e8cfb911885 Annotate mid-sentence and end-of-sentence periods
+         c72d5d36b869f554f06176ffd0a521ec45a7bfe0 periodcheck: Add script to check missing annotation of period
+         1a1bdaef968a599d93fa47ccd0a8e53dc9bcb593 periodcheck: Add check of nbsp in front of \cite{}
+         c760e099167c831a357cc31ac17d5a9af031fe83 periodcheck: Improve label string matching
+         4016147a1a78499f9c26f2f945689f6621953fde periodcheck: Replace escaped percent symbol first
+         29493099cf98486b16756d7bf665b63352bea03d treewide: Make end-of-sentence periods be at end of lines
+         e32a777d2d20744ec3e2ea8e090e631e0308cb79 styleguide: Make end-of-sentence periods be at the end of lines
+         83ca357103ff4c9346f4ab553080036425a5e5c0 treewide: Fix space in front of \cite{}
+         f857e6c132acc009dbec1f2c46dae2a7b97c67d8 treewide: Substitute ';' for ',' in label strings
+         
