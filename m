@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3401580749540785863=="
+Content-Type: multipart/mixed; boundary="===============7515558028688197004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 27 Apr 2021 11:22:04 -0000
-Message-Id: <161952252475.8629.228450065796216168@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 11:22:21 -0000
+Message-Id: <161952254135.8772.18337499232859645494@gitolite.kernel.org>
 
---===============3401580749540785863==
+--===============7515558028688197004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,53 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty_msg_cleanup
-    old: f37d7eed9dd8074c05110dcbd57764c622d2e263
-    new: 3fecda334adef2470fb237bff0f8302232228dc2
-    log: revlist-f37d7eed9dd8-3fecda334ade.txt
+  - ref: refs/heads/main
+    old: e49d033bddf5b565044e2abe4241353959bc9120
+    new: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
+    log: revlist-e49d033bddf5-4a0225c3d208.txt
 
---===============3401580749540785863==
+--===============7515558028688197004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619522515 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619522536 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1619522514-58f82e0841dc3150b5a63fb27afe72d3a66e5b28
+nonce 1619522535-22995fa8c04e8d65c154ea696baef6aed8e60dc2
 
-f37d7eed9dd8074c05110dcbd57764c622d2e263 3fecda334adef2470fb237bff0f8302232228dc2 refs/heads/tty_msg_cleanup
+e49d033bddf5b565044e2abe4241353959bc9120 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH89MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aVYQAIwkGEIFdpGVXz7ptQJ3
-1yHghsZjkqxKgyQfVjVhgBeNEVWOq5mgc830HKEuCoiTIn9QEQG2UtvWFjYqcqAr
-7hGjgi0c8iIkK1MuCdD3GoFR9GjyRt1Y9tMPWZrFmkXif/ZjlXQdel+zVYRS03g9
-5+2j50NuIzagByaiO1LErwu+SqfAnPeq25IohMzX6fyxdEtRHD8Z+K5p+0GPBDvf
-3XGk/0MI9zskQdugv7gUMlX7h66MrI/hT0BU5J9Y48j/Is79IVpiTCvzsACXakQL
-K/Ca+6oHXXlswaXPGeXvlWPoW7l7KZrmVTnU8ybKeD12DbtNsIFtiAwJt1Yu/iF9
-HFJDRfgevNo+tlG5RE6QtQTAqR3rmB5EHH1ia3+dbQpYyKHLxzMtQpG/Rz/osmzt
-CyFGphOoHu9UPWnU/RGrAGME3xpgzZVLlyHTFJTD5lrOg0U0TSDUPKnL5Mf0zdXt
-pvJgrwgs5isdHTJ3HSkvSZ17kTF2KcR7dRk+a8VJ2Z/gcemI4Qmml+g7Rvaax4FL
-scrJH5jVYtYD/LEmcND15Nfi+jp/o7xI5GaoTi/Fo5u4ay9rMDDQMvq/gG9tzrSu
-Q6DqHq/QKcvNnlqblhSqjqJFOZMKo9ZnyD03lomPQewz+3uhdw3r5qZ71dmsLOvJ
-TuuN0XZfsw/oPEAgcS6AdSJF
-=uVjx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH8+gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aYQQAK00BoJjMrNVOupLeuXx
+L/VUu2VkphDhr3bDQ//EFo5adYvUYcklMlevk/C8ckZ3vhuWnH7KlPgmkSKZwPND
+bcc1zMSHFStrB2daNK7Ao05SvGk7SaaWBQojzfejYzGKC6t68yL3wulGFnfP3wZI
+TY3IVOQx844J+FhMXI0fdgVN0/OufzFwDUU1k50Q+AA0N0FFMbgA/IyO/FkRm/g1
+SfvmKt709+9RhdfUyxCj9vVTQqXIsJJASyEeG3XihtG6j+Q6iAa5OlopanPAx4Ea
+ewm1Pah0lUKNc3mISJy1ddS/chL+i4Mg0MzcMrRJZsZni0il5bzJ9jxz+PsFO6km
+4H4YJnLHPsbLlyuZ+9YkEOKvnQAXT5RLz6NyHBwFYN7owA0Iu+ljvBH/CL20NqnR
+2Yokxjib9Aa/fOAvcMUXE198QPg2d3gObSan67tDkoKMdYSLafGLY+4gBPKYBJHM
+iRnb6/XTX6/KVqrfrkY1tl0m8vnzcwJd0Ddvz+AW/nWkORuc+9PlftNyFibdEocu
+q0wo4sCNzqbkDDkbuy5d5a5+o8cSOIiSug6RRwI6ktnbv9pETELdJDWud1bDVZST
+s4tOklGkDXHpa3lYI2zS4BfIe8i9IJHi2vkQ1adwAxpBjqM7qDnKwnjDuz6eah/w
+yDTQ1Ny1pQtShjvGa0p9QqFB
+=fj9I
 -----END PGP SIGNATURE-----
 
---===============3401580749540785863==
+--===============7515558028688197004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f37d7eed9dd8-3fecda334ade.txt
+Content-Disposition: attachment; filename=revlist-e49d033bddf5-4a0225c3d208.txt
 
-d5fa1dad75bef69fbff5a193b7a99ada624a0154 Merge tag 'driver-core-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-95c7b07551879c8ad4d6dca10c02de46ddbf55a8 Merge tag 'powerpc-5.12-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
-7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
-d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
-efc2da9241e643cb90897ac4ed3542daa3edf3bc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 52e44129fba5cfc4e351fdb5e45849afc74d9a53 Merge branch 'for-5.12-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
 26be3a5d845312bae0397b1008e766340945cb53 staging: rtl8192e: Fix incorrect pointer check
 4e63e9b77449371fc42c8b0763502f6a6e6b6951 staging: rtl8723bs: core: Remove an unused variable
@@ -391,6 +385,18 @@ e3e0f9b279705154b951d579dc3d8b7041710e24 net/mlx5e: fix ingress_ifindex check in
 027ffa10b80be722c284067f7eee431ced1db208 staging: rtl8723bs: remove sdio_drv_priv structure
 8ffdff6a8cfbdc174a3a390b6f825a277b5bb895 staging: comedi: move out of staging directory
 71d3edc61e29e45b613b841108688d711846f969 staging: rtl8723bs: Remove led_blink_hdl() and everything related
+a13df3bec5963dc8f0f49257ae4f83c1445acaff dt-bindings: serial: 8250: deprecate aspeed, sirq-polarity-sense
+3b44af4f9f4d9aab7d369b06e7c53db274927582 serial: 8250_aspeed_vuart: refactor sirq and lpc address setting code
+ca03042f0f1221c3173bbe81ebd974b91a4dbb15 serial: 8250_aspeed_vuart: add aspeed, lpc-io-reg and aspeed, lpc-interrupts DT properties
+845766b63fb53cbaf9b8d68c6be9879f8a5f2902 dt-bindings: serial: 8250: add aspeed, lpc-io-reg and aspeed, lpc-interrupts
+0a360e8b65d62fe1a994f0a8da4f8d20877b2100 tty: n_gsm: check error while registering tty devices
+98602c010ceba82f2c2384122dbd07bc965fd367 tty: create internal tty.h file
+4d5a64cbc7add9e2697080c6bb78f961e9bbd2c3 tty: tty.h: remove tty_info()
+da5d669e00d2c437b3f508d60add417fc74f4bb6 tty: audit: move some local functions out of tty.h
+6c80c0b94b94192d9a34b400f8237703c6475f4d tty: move some internal tty lock enums and functions out of tty.h
+dd9f611442578ca8392e90adbca5815d79946b5e tty: make tty_release_redirect() static
+9f72cab1596327e1011ab4599c07b165e0fb45db tty: move some tty-only functions to drivers/tty/tty.h
+5ffa6e344a1c92a27c242f500fc74e6eb361a4bc tty: clean include/linux/tty.h up
 b622b24519f5b008f6d4e20e5675eaffa8fbd87b software node: Allow node addition to already existing device
 bd2a895f21eb9195a42e52e5f451dccc854cc71d PM / wakeup: use dev_set_name() directly
 4615df5df23031120637baf0c4e4a20b1459737e Merge tag 'icc-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
@@ -1075,11 +1081,5 @@ e19eede54240d64b4baf9b0df4dfb8191f7ae48b Merge branch 'dmi-for-linus' of git://g
 fed584c408c123e2a0a7dd1f630d96b84e7f9e97 Merge tag 'regmap-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 ca62e9090d229926f43f20291bb44d67897baab7 Merge tag 'regulator-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 4a0225c3d208cfa6e4550f2210ffd9114a952a81 Merge tag 'spi-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-b82b691b1ccec134f281708f8628a62305e80fee tty: remove tty_err()
-fb50009f5aec29e12c895a6218fdfc46d41b4f45 tty: remove tty_notice()
-df412f1e5424e53234a5843084a7b192448656e2 tty: remove tty_warn()
-e48cb8b21cca0e5497272cd73c526d0b3b0cb5c4 tty: remove tty_info_ratelimited()
-e4348d1302b58c5cd607f06ce248e3335bd0e895 tty: remove tty_debug()
-3fecda334adef2470fb237bff0f8302232228dc2 tty: remove tty_driver_name()
 
---===============3401580749540785863==--
+--===============7515558028688197004==--
