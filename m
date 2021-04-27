@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4700731515438988615=="
+Content-Type: multipart/mixed; boundary="===============5344115412351226058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Apr 2021 09:08:59 -0000
-Message-Id: <161951453984.21949.13863613453976383984@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 09:09:13 -0000
+Message-Id: <161951455305.22085.16786764303518312531@gitolite.kernel.org>
 
---===============4700731515438988615==
+--===============5344115412351226058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: c295d3007ff63064181befa734d9705dfc10b396
     new: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
     log: revlist-c295d3007ff6-4a0225c3d208.txt
 
---===============4700731515438988615==
+--===============5344115412351226058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619514534 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619514547 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1619514533-b93504765be233fba600dfb351721f6779784284
+nonce 1619514546-147b2a64c1e3ebe9540f18d846eea4c7f04a4b71
 
-c295d3007ff63064181befa734d9705dfc10b396 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/staging-next
+c295d3007ff63064181befa734d9705dfc10b396 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH1KYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mwkQALI61Pco3WzD/7JIT3n8
-HYkSG5xOFnjn0k+QlV8Hs786IDoiex7w4mQeCqhqMhVy17Qsf0drM4Hsl3GxQE6/
-/XlY9wycLJgHVQm2i4N8qx6xeFpat7SpFhNaLVfujhHng848LDXzejuMv3NIT4T5
-XzHhMx6CTeQBS6+uFAFg8UE1RO3rQ4CgoUzU8HnEjzHAu0wY7M62OZMVsBM/gFN/
-mjCjAbvbdQnT0/aZQT2Z1GT9EVuTBRlWuDZGUkDBF7zSGei+J1JdK5AYhv1rDyxV
-MH5qz2OZJyZhWeypwrmcYdO/MdhO6VsaUXY73NC/qXwFZNhEHbGVDnP9MVqUKerh
-zGjWc9Z62FNRUv59ieXitx4Gf5O3oWDTlw7x15kbuaTtD3lWew01Wto+dzCrJ3XP
-wPP1X1zujbN/zB2qs6p6F+4wGhwFr+t+n4l/ZkhIDjepfGwfXqhGcnCiQwmOrgQ7
-uG8Jgn7xip/q6IZosLhVYKHnkZYiLb9uBJymNbp5s1rnFWrrXxPp+aWo3nn+VyIL
-9vGcZ/92/3EoJ201yo51Aey2ikoNbDYzgB2eYktGKAX2R9N0UO8E0VBIGPFUAw7t
-KTD/6bW7jONYEOjKRa23XSNuB2qaOhlLGI8SDA0quzBDbwQKV8Guvv6ND6Qv6O8W
-tjBykVuph1p4/RfF3YNSsLD/
-=5eqq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH1LMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pWEP/R+NLJ0213vhntpqxzYv
+XZtacEGCW0/HGH76ykpIXpuoWa1A5YLWPvd1Z3olv5pOggU6O8ZJrzOQUFpn0GQ0
+RA8+ApFKciRRIs3vKvBZKkplz2d9zouK/+nAb5fuNlqrQTn2q4zcfxEO3jDcEBK8
+bN+eOfXt2D57fF35npUZlnf2cqHENV3HJp+jNQFCwgw5ZuCMunUJU/KQCqxQWNy/
+pCOy4RrPyw1EzKnySYRpRT8o6Opl32+HY5zOjkNmA5FMOi6UNScTbFrj4xz0AGng
+oDxg9nbYicq8OZy+jGVchyg5pBkeixHj88xL9h4ngjIWJnhIaw5KiGDuHkgDeEvL
+qxRT891y4Yvwlt1lTEMnvD4XVuWCjndyC+/yWZpp8BV5uz5o+TzaHLybaAmNfc/u
+4fPsvuvALmHqGUaazR+Wurr065vTecwhlvMoJyOZ0Q4O67DewkWCi5Rm0EJ6XKKP
+dTgA8AsDQCLIv64Pi/uLXPQoMr2jMcY77nb5WbCpibynwOf3cGJBmoQ1DxbNHZzW
+NZ0jyJYTUhStTplqxRTX0gs6Q4P0yIw93cZimh/pmg4kJGnjiec50Z3mFIaJE3uy
+z3vgA4V/q5SPuDmM0ZtwwO+mJMpQDz3WV0E2lBLlN2/CyaDlO29drjeL7e8t16bG
+ojEYVpGldOWTnKjEMA8qxflm
+=wH/O
 -----END PGP SIGNATURE-----
 
---===============4700731515438988615==
+--===============5344115412351226058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fed584c408c123e2a0a7dd1f630d96b84e7f9e97 Merge tag 'regmap-v5.13' of git://git.k
 ca62e9090d229926f43f20291bb44d67897baab7 Merge tag 'regulator-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 4a0225c3d208cfa6e4550f2210ffd9114a952a81 Merge tag 'spi-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============4700731515438988615==--
+--===============5344115412351226058==--
