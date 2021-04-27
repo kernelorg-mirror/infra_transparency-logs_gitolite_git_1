@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1479921022918123473=="
+Content-Type: multipart/mixed; boundary="===============6191463642065883202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 27 Apr 2021 03:05:02 -0000
-Message-Id: <161949270209.15580.14635123740645393241@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 03:05:07 -0000
+Message-Id: <161949270735.16994.4777084010230201714@gitolite.kernel.org>
 
---===============1479921022918123473==
+--===============6191463642065883202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: dc2349864d8c631261dbc423d0948411af268ad8
-    new: f77a62b5ebe29eaba94314341d199ec0f80aa1e8
+  - ref: refs/heads/5.14/scsi-staging
+    old: 85367040511f8402d7e4054d8c17b053c75e33ff
+    new: b29d16915e30c36d1aabedd4115043a770248f51
     log: |
          de24226d78d0e274399c2284db59b15c80f3e2cd scsi: core: Treat device offline as a failure
          77ad7173c2d13637510530ee9f543912be108ef2 scsi: target: iscsi: Switch to kmemdup_nul()
@@ -29,33 +29,33 @@ changes:
          b29d16915e30c36d1aabedd4115043a770248f51 scsi: megaraid_mbox: Remove redundant initialization of pointer mbox
          
 
---===============1479921022918123473==
+--===============6191463642065883202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1619492700 -0400
+pusher 75C5DE3D 1619492705 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1619492700-59eac82d2e1bcc09a7e1fb228ced5b2bb89cf9e4
+nonce 1619492705-842a83ff730d026b992b5806c0027dbb87472f04
 
-dc2349864d8c631261dbc423d0948411af268ad8 f77a62b5ebe29eaba94314341d199ec0f80aa1e8 refs/tags/mkp-scsi-staging
+85367040511f8402d7e4054d8c17b053c75e33ff b29d16915e30c36d1aabedd4115043a770248f51 refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCHf1wACgkQ7ulgGnXF
-3j0Wyg//Y969/SAZWE1mZrmklaY4ClzFcivJvCjnghF39mc03N6omI1oZELBS1cf
-2OKZA4Rn1FpqIXX40AtUHzfXbHxiwMI5UC9ZjF40pSolY9HJauxXwHrBk8uGymHh
-iRurlwmMmoMZ6OSysQheW3pJLw9nR3leRQkKjFanICiFSrzZmor51+l/CeSwhxVN
-NG3b5bPm/rYVKgYnJ/9JPRwmiO5wUqQrGz9goe1oS7DFN7dhUbVNUcr8Y7RUOuDV
-X9sUESJqKI/TEqzjuv/iPGgnzFZeg5p5VZxqYfINGUbT6nFan6/eKSEfoAqopu3h
-y7H3/bDbmemdWwja8znmNgPd5BC4PMNhX5mHzuhJaOsiYN19sZxDSNsf7KB8KLGD
-l8OGLSY3eHTIgns3iL4uwWC7JXlDr+XQG0NlPsQ/t2iXQgnTlVu0TrU7ulg/FUJ4
-EDj5zj9Wt72jA2AMVmcS5J3/DxND82Imi1W0suMNYi3A0ek+4aZ1frZxwT7x0J1N
-7DuvASOp8r3nAsLYXtqiAudifjEntR5rEHWzfKjOB1Sy/BrGBimc5Tm+atG3gHRy
-GwP6IolYj23NM8ME8MYk02lauT4T1u05uq9dqt0k2YlWhURfOmuPux5cK5RLmUC6
-DZlG9WsCp4LydzqVzxsYMw63Uvvd6MZ0q+VbLGhK9xWnDRGPSXA=
-=ixgI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCHf2EACgkQ7ulgGnXF
+3j1Egg/+N7Ey7sX3OeLCY8Khsmb3P5PdZ2hyhbhRFWXT6FW/oU86DU1sZBXXCKre
+xBUc88BZl5Bt88mJ7DYIPSUbj8ANDrsak7dDpmXec4jpbFaGQm8Z3lrmpYcnPd78
+T1pEyzklKD7XqmI/DOM/8wt7PA3SgphCXL56MX+qjjpZNZKVdit/3UUkdDb/mdJl
+skaKNcqzmKyJE9TvGImVElcNkbYUGtZtGM9Z12S4GST2iOA7K/H1a7KOP5B0DVEZ
+4W+kfT9U5/iuq5qOuL7KuyrAdnvM1yxQuF7zFJhqU6ov2A6Dgg1Lzp3Ttmind+Ik
+foK191PIykAPmRfd9dByQ3UBbu9ItfTgzibQJjFSfWZ7Wa6Biw4L7P7eZENAMnss
+y6vau+6A991hFYcgH9NPkH8nMNs+EOFK984sMXWBDTMJB8dglzLQRIoeBHf7+ZOs
+wvEm8BY8a9UtYf6Nu+FPhwGBaI21kVL4tEGKVlLbecqFXFOKgbVhS/73HlSUgrxb
+1YbQR0cXiVm/XsLiMjuFG0ohjPHMbKfQ8Mrha9AkrEcia4d0YNP6daiqLYcP0KPq
+KKKyEHlmFk+6KHgXqO3ANqE2li6j0LfIt7CFuFfCUS3tNEHkaCkewZza3k7jGH4o
+ZuL6ZdWX4yMOdQ2HFxmgvfNCfujMS1TajzhZQtcdagsGNpQLkgc=
+=XvE5
 -----END PGP SIGNATURE-----
 
---===============1479921022918123473==--
+--===============6191463642065883202==--
