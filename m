@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7845535007571111762=="
+Content-Type: multipart/mixed; boundary="===============4015591438576514105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Tue, 27 Apr 2021 11:44:46 -0000
-Message-Id: <161952388616.22508.1793639527550449413@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 11:47:00 -0000
+Message-Id: <161952402057.24582.3890405644358354263@gitolite.kernel.org>
 
---===============7845535007571111762==
+--===============4015591438576514105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
-    new: 9f4ad9e425a1d3b6a34617b8ea226d56a119a717
-    log: revlist-1e28eed17697-9f4ad9e425a1.txt
+  - ref: refs/heads/dev
+    old: f9b23f1f6ca05790a50ee965223a5cfafec24980
+    new: c6e2f52e3051e8d898d38840104638ca8bbcdec2
+    log: revlist-f9b23f1f6ca0-c6e2f52e3051.txt
 
---===============7845535007571111762==
+--===============4015591438576514105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e28eed17697-9f4ad9e425a1.txt
+Content-Disposition: attachment; filename=revlist-f9b23f1f6ca0-c6e2f52e3051.txt
 
-65a103747104368cb1ba6f097dcc3f85b1dcf86b Merge tag 'iommu-fixes-v5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-ec85720933863015b1c26bc19cf4e044da139bc5 Merge tag 'pm-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-278924cb99c93861c1cc3d266d719095bbd84f16 Merge tag 'trace-v5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-8ff0b1f08ea73e5c08f5addd23481e76a60e741c sctp: move sk_route_caps check and set into sctp_outq_flush_transports
-6bfea141b3d26898705704efd18401d91afcbb0a Merge tag 's390-5.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 8a2dc6af67a0c9f65a22ea40fc79974ee8f368c7 sch_red: Fix a typo
 f91a50d8b51b5c8ef1cfb08115a005bba4250507 r8152: limit the RX buffer size of RTL8153A for USB 2.0
 cd5297b0855f17c8b4e3ef1d20c6a3656209c7b3 drm/etnaviv: Use FOLL_FORCE for userptr
@@ -1050,5 +1045,10 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
+77edfc6e51055b61cae2f54c8e6c3bb7c762e4fe exfat: fix erroneous discard when clear cluster bit
+5c2d728507299f84631ab8020d6f0f98f2cb8fc2 exfat: introduce bitmap_lock for cluster bitmap access
+654762df2ec7d61b05acc788afbffaba52d658fe exfat: add support ioctl and FITRIM function
+23befe490ba885bdf757d40b2489134315fef690 exfat: improve write performance when dirsync enabled
+c6e2f52e3051e8d898d38840104638ca8bbcdec2 exfat: speed up iterate/lookup by fixing start point of traversing cluster chain
 
---===============7845535007571111762==--
+--===============4015591438576514105==--
