@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5735939667887178917=="
+Content-Type: multipart/mixed; boundary="===============2493871399317280462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 27 Apr 2021 11:23:21 -0000
-Message-Id: <161952260160.9474.5746175692253892921@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 11:23:38 -0000
+Message-Id: <161952261867.9687.17862768262751279842@gitolite.kernel.org>
 
---===============5735939667887178917==
+--===============2493871399317280462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,68 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kbuild
-    old: 8e3809e7ff0a623e5cbb7130cd0fdc3507b76442
-    new: 1f809413390511cce07dc3b09dace0b717dd8c2f
-    log: revlist-8e3809e7ff0a-1f8094133905.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
+    new: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
+    log: revlist-d434405aaab7-4a0225c3d208.txt
 
---===============5735939667887178917==
+--===============2493871399317280462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619522595 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619522613 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619522594-30f3f97e7cbf1a09aeb435b3b104a8ce2317404a
+nonce 1619522612-467f934b63335e106df1f8d870441f23ffb26fc7
 
-8e3809e7ff0a623e5cbb7130cd0fdc3507b76442 1f809413390511cce07dc3b09dace0b717dd8c2f refs/heads/kbuild
+d434405aaab7d0ebc516b68a8fc4100922d7f5ef 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH9CMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BjEP/i7L0lQZInic7co2Je5T
-qFslUr9K9yEX65sd0yAosOgLNrhHj44TYLDUv/c5wPed10pK6d9ovAi5F6s6TAbk
-caXgOelimtc6UTfynw0FgNuEfxJ2NQhhHpx+3MytRFnTCsuScss8t6s3+fQOjfJM
-CrqLlJF19+XWMeviR1H0BCpmuIYz7WJnT+/r6P6a6dxt9qdUuTzJ9tjZYy+RlTSg
-y31Ygmv+lo7Mbkzzw0360R4Nu3pfILi27HUUsQ5MtErcyWzBelJBGk0Jnnd9e2Ed
-/JM22YEi7VX9fbHljCT1W8NyYaY+vNczbd6UX5qhc26ttG0YF1GDC6Xh7Pyw6H9Q
-91u6bNHstSUuLVSyxx/uvdXaj4SnDdkN7mqwmjs0+KKZLK2YR4Di79BkR0yLs7TR
-MWepECKZ9T3nwckRZqGmaXXmjy7Ar72EQFtReZJfy9OKNiv3r+R85Kph8EEN2fSQ
-GpqVN1s8uDxNKG9gQV7m7sGl3/Akz7GWZUe+1FkHv5TmqGIP96WCB7+PdR2iWSL0
-JEU4DDHSBJRFug1vuhSVCk8ElqW4o2RK6iFGu9w2Y1gVXbcNfX97qxqmphwywlQ1
-axUMIUK8HV5Owq1L5ElMIttHWclcA6LCOwY/AwjHzmmA49JvDj4wY1FhkpX3CiVz
-X5ILIceEV938eakkyaB38vvH
-=Slo1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH9DUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hCoQAIoQQHEZnjfUqXBq3jXJ
+kuCBmvzMqgquqRdE896qOwyqO7S21GZUSh08XSYMWAayeZWOeR4jV0NYNhw2C4Lv
+esmSeLyZg2VUp1tyvnBF0b7xq4Jf2jVYkF2AQP2AO2n5I8zYlATD6dtNDCETtvaE
+gSBRUXGcPU6wCXQHBQxUKu0HEIKuW4prNfWLhJAFodN64OxUT5yz3Pmc3V/UrC6z
+fG4CSSgMsuJxTOCsvPp6MJgRT1KoT/TQi7pXjP8wMGGeSSvFdsHegZ8VFyYOsBi7
+IosgopLk/7xwfP7dJ4eyK0JmlACoPXXAl+uGt8ydMPmlBAMYaGNxUs2e4fVOz1RU
+kAV+2c8FJ8XYBjiuJso6ScxcrdwCdMutU3ZLclHXTyNihqrl91ggFg4ThMUl6dQ1
+R5MRWO0ffxPu8Lq48hdb5xMaRVwMKBWjDlw29vovue1/5YmFh1ywYeFEahd/CoHf
+us5xZSVEZlVKpstJsayBC9UIbwaIJU8PQ9tl5/bVoXEsdCYc3wmceqaOSjX5kN5T
+p6LL+t1RyXHwbxghwo9p5TA9zoJrQv9giuAnLNALlrFpVJgr4DjHHDwQou27I9z3
+YUlzpUm6sRPNU3rLrxQL2u+0Vwo7OQ3w3Eua77+SZoVXrTdbT+EDX43pwctS7lKp
+6aJYddYATTGqAB2/92HsxqDN
+=q0Ur
 -----END PGP SIGNATURE-----
 
---===============5735939667887178917==
+--===============2493871399317280462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e3809e7ff0a-1f8094133905.txt
+Content-Disposition: attachment; filename=revlist-d434405aaab7-4a0225c3d208.txt
 
+7c07012eb1be8b4a95d3502fd30795849007a40e genirq: Reduce irqdebug cacheline bouncing
+0d6c8e1e246586b81cb4e6ab1a93a6d4a08a0cf9 x86/platform/intel/quark: Fix incorrect kernel-doc comment syntax in files
+b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
+7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
+d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
+26be3a5d845312bae0397b1008e766340945cb53 staging: rtl8192e: Fix incorrect pointer check
+4e63e9b77449371fc42c8b0763502f6a6e6b6951 staging: rtl8723bs: core: Remove an unused variable
+426ceac43197bee3b1466d6f52527d5394638352 staging: mt7621-pci: stop using of_pci_range_to_resource
+dcc48e0837493db429cc22511c11e62912ee930d staging: rtl8723bs: remove all DBG_8192C logs
+334ef6ab8f44dd01bbf8f11467a59643be237d13 staging: rtl8723bs: remove all commented out DBG_8192C logs
+7519f4f89692e2a312a990580278e97bb1a91609 staging: rtl8723bs: remove DBG_8192C macro definitions
+edf3967a8d95bd276319d240e56aab14bf126b4d staging: rtl8723bs: remove all if-blocks left empty by DBG_8192C-remove coccinelle script
+fa50dda745be62b542ed75d45918c7ccfe0b937a staging: rtl8723bs: put spaces around operators
+0a62cc7a5ac5832060bf11103d676abb1bd73c72 staging: rtl8723bs: remove unused code blocks guarded by DEBUG_RTL871X
+aaf2a07724dae8dba0fab83204b4a72218f8562e staging: rtl8723bs: remove commented out DEBUG_RTL871X definition
+0268c26750a9ba0c262ed487e55b1b3294c6e3b1 staging: rtl8723bs: remove code blocks guarded by DEBUG symbol
+96efb46098422c67b9693ee776b01c1528252c96 staging: rtl8723bs: remove empty code block guarded by DBG_CCX
+add69c59ebb23b834dce2fbf95c1036b635fe259 staging: rtl8723bs: remove code block guarded by undefined SDIO_DEBUG_IO
+8a095d44d88b996f319fac166711b04edd300e79 staging: rtl8723bs: remove commented out SDIO_DEBUG_IO symbol definition
+5ffbfcf38b800911dbc6516605391fd46188ef32 staging: rtl8723bs: remove empty ifdef blocks conditioned to DEBUG_CFG80211 definition
+8f32a6c89ce45b21b886a2a93947d5befb52fab2 staging: rtl8723bs: remove commented out DEBUG_CFG80211 symbol definition
 04c35396c5c6c68d131fb61c39460cba351d0af7 staging: rtl8723bs: remove unnecessary bracks
 71839eac6bbc0784cca71b152d509172b707d67b staging: rtl8723bs: fix comparison to null
 9d5ed87234ae9557692ed867f248720b29f22dba staging: rtl8723bs: put spaces around operators
@@ -1060,26 +1081,5 @@ e19eede54240d64b4baf9b0df4dfb8191f7ae48b Merge branch 'dmi-for-linus' of git://g
 fed584c408c123e2a0a7dd1f630d96b84e7f9e97 Merge tag 'regmap-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 ca62e9090d229926f43f20291bb44d67897baab7 Merge tag 'regulator-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 4a0225c3d208cfa6e4550f2210ffd9114a952a81 Merge tag 'spi-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-1e1f21499d3e2bc118d4c0e9c9464cbadb0ca2bd kbuild: move x86 install script to scripts/install.sh
-fe4110e86e36b4147b6c973a519c8b7e628711e6 kbuild: scripts/install.sh: properly quote all variables
-63d2f9fd803cf40586266821ab17c72ad6f07aae kbuild: scripts/install.sh: provide a "install" function
-b9a95000e7a8705b78e6bd5367fcf3e67ac3ea1d kbuild: scripts/install.sh: call sync before calling the bootloader installer
-6d36eb3465fb61d8af2f55895ee91daf27426568 kbuild: scripts/install.sh: prepare for arch-specific bootloaders
-82ab14f87d7885a37899a080bbd645df37770494 kbuild: scripts/install.sh: handle compressed/uncompressed kernel images
-33087e5d3711e30d09768a9d0d3f254dc126c97f kbuild: scripts/install.sh: allow for the version number
-5837a46fc89956702aac899fcb7b9ad33c0264c0 kbuild: riscv: use common install script
-08f8e8f70b59e89adb80a936da6934d1366145e6 kbuild: arm64: use common install script
-c6271eeb7530d242122edf86eabc7167385c5a9d kbuild: arm: use common install script
-d71cee9400f463c530a1f9aef510bcef343620ca kbuild: ia64: use common install script
-b618378909e223097cdf3478feeefc456f2a3aa7 kbuild: m68k: use common install script
-2e8a048ca2003943402e60437c983512d8b951da kbuild: nds32: convert to use the common install scripts
-3a731fca5115065aebcdc19733157b956f182d67 kbuild: nios2: use common install script
-bca75b52d56a84fb87a25cd2e7f91b9743536a5c kbuild: parisc: use common install script
-b59d780b6cfdb2c1dc1644515b958b3422fbe7ba kbuild: powerpc: use common install script
-90f20a64c71a3cbc5fa8f6d7731856af89641227 kbuild: s390: use common install script
-e11a5ed0a06291b55d1aea58ed48f14a93c12306 kbuild: sh: remove unused install script
-36dece5e8ba2eb7f6b380e96903bbf030c1df45a kbuild: sparc: use common install script
-0cc2bc893094156803bae026712341cdc2550ca2 kbuild: scripts/install.sh: update documentation
-1f809413390511cce07dc3b09dace0b717dd8c2f kbuild: allow arches to have their own "bootloader.sh"
 
---===============5735939667887178917==--
+--===============2493871399317280462==--
