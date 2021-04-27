@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0208694042305444711=="
+Content-Type: multipart/mixed; boundary="===============3443457103442987910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 27 Apr 2021 11:07:59 -0000
-Message-Id: <161952167966.31056.15503358911774005247@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 11:08:12 -0000
+Message-Id: <161952169264.31243.16441313610146850965@gitolite.kernel.org>
 
---===============0208694042305444711==
+--===============3443457103442987910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
+  - ref: refs/heads/driver-core-next
+    old: a943d76352dbb4707a5e5537bbe696c00f5ddd36
     new: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
-    log: revlist-d434405aaab7-4a0225c3d208.txt
+    log: revlist-a943d76352db-4a0225c3d208.txt
 
---===============0208694042305444711==
+--===============3443457103442987910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619521674 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619521687 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619521673-8b888a2c3fb60e0dbf1590a4b5135c83b4feea81
+nonce 1619521686-5c221cf881a22fe4b0f1bca1b5c6c122e416dc07
 
-d434405aaab7d0ebc516b68a8fc4100922d7f5ef 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/driver-core-linus
+a943d76352dbb4707a5e5537bbe696c00f5ddd36 4a0225c3d208cfa6e4550f2210ffd9114a952a81 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH8IobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ymEQAMUIK7sWZp6XErJkLIEH
-n6Cdfl7PXD0whS1qd9oqeKl9bsXv8ikigaljQ1zjnM1OiER3qKo36KwmD6lVqbNR
-ESGpEVCZTF/ikeiUYqNUfBYDVTpqi87eXdnvblN/OsqFPuVhRZVBnRXX5Y8MGm8b
-NEFpUqeoEvxdQnQxrs6YDwApOBv+fPa7hUyrLUjol/Xp2teawuyZNaS/HIRwEN44
-24HF5l/MJ3xIMYtwjjxgf56QLc/wuaxwq7c4aQpBwaBY/mKpnS/sdz8uZLrcgwI/
-ymJJaTYCgRBuhXpuH6XAzP5ei+37O/+xfIxG3QAwt7xH4gAwK88aCTlzrw+wa38a
-WuvYUeEo/QlvoukdZCbcQ7pFHYkGUWQhH/youtj3gcwP0JqLYd1azWs+oN7gIXTB
-ArsdbJIHKGA5OjWPqXVXpPNI/oHRqPJlw0x0gIb8NWqDRjJl94LoxYSGXlnpdZJs
-IvMqtD1aB//rqzwsWja6lHAb+CHoACIZgSah61/QtAQG/x2sJ5Fz9uyoMwpOmRrk
-g5Nd3Fbp9InSzABfbHFHO5EVyCtaAaY88FCvnmjlz92oeuorBwCPKAizHEhSsa+z
-ajTaJlPys47oX+kpjSEkX+yUYqdDTXAh/LcsmLbXUoBb7ETt4+dAOG3u9ok/lSD2
-usgTMjgIHcrY16cc31vnpLtR
-=UxkJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCH8JcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hz0QAIudd3ZdOUrrMMJ1f1e7
+KWcleUXchrfK3QtCZoIW+esqpVYMup3yYecu5g3b5w2WofGYm1iCpQRvlmLQlBpr
+yWR+5xZKjqUqDM1L25yLa3hDENf0rQ5vcth4QuCTiAp1PBkf/FcWDm3dUs7DIYj9
+o446zu10SlLZFt2dV9bXwFlGXOztVihJxW14MMtv2T6gK9z+/oBVOUvYn8LC1Fqx
+V8NE5faVGhspamm0JD0CeWs8Mtg0TqPDOGRE83UQs5dioEPljV0MR9nolQIaqfOx
+0/sXgNluWrUWxGu1ZxBeXYHFcDK8pXz/ZNaR02SnWdpEo85EqChkyX+43Kbw05+d
+zBw7iA1n0WMOFlcHYc9Uj1pdkI5kY0WXNGsRfg/OLIGBh0s1VmP5uOUh7js6xk9a
+816Yg6UKo4M7VAFxfrm0oq32kaf7vwItUrCPJKxXaRvMq9dguU9crMpKMIp2NNCc
+P/hvhmsFJFIi8csh/1SltVXkpt0Ox6DUG4iqm5ba983EccbR5pGoKe+4ANGIPGIy
+IwNBW9T3nZ0Ql1GF7tWf2DIwilk/85d640IG3Y6Q15P7aNa7rl+BTiB9X6TgmXVn
+oUaWwP4B/ClXqFgRcYvc4PKBBmZz2qI8O7uZ+7tLN8M+/79Fv0cbLD4bYeAHhcSQ
+19PzmR0pCWLe9R5hhTVt8uFh
+=jGoC
 -----END PGP SIGNATURE-----
 
---===============0208694042305444711==
+--===============3443457103442987910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d434405aaab7-4a0225c3d208.txt
+Content-Disposition: attachment; filename=revlist-a943d76352db-4a0225c3d208.txt
 
+6c00365d531163a44ce57d862883db9424bd19ab w1: ds28e17: Use module_w1_family to simplify the code
+0d5cf954656387a595a8d5bb7e376f31829aae4d speakup: i18n: Switch to kmemdup_nul() in spk_msg_set()
+2954a6f12f250890ec2433cec03ba92784d613e8 firmware: qcom-scm: Fix QCOM_SCM configuration
+19ab233989d0f7ab1de19a036e247afa4a0a1e9c fbdev: zero-fill colormap in fbcmap.c
+c5e3a41187ac01425f5ad1abce927905e4ac44e4 kernel: Initialize cpumask before parsing
 7c07012eb1be8b4a95d3502fd30795849007a40e genirq: Reduce irqdebug cacheline bouncing
 0d6c8e1e246586b81cb4e6ab1a93a6d4a08a0cf9 x86/platform/intel/quark: Fix incorrect kernel-doc comment syntax in files
 b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
@@ -354,7 +359,6 @@ c17a3066b4c1acdf36fa307faaa391f558ac0420 Merge tag 'dmaengine-fix-5.12' of git:/
 ec97a7296ad1ca3ccb8bca1e72739cb8262686f1 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 b21a57636c71c95deac98c9136ac91c975aa6e6c dw-xdata-pcie: Fix documentation build warns
 23188e0d45c505b9c3175121855b793578ee50f0 dw-xdata-pcie: Update outdated info and improve text format
-a00fcbc115f9c934fe92e96358a7f392bb5549f0 Merge tag 'v5.12-rc7' into driver-core-next
 8e2e0104ef78d49a51db9acfd24eaf6d52dc779e Merge tag 's390-5.12-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 8ca7cab82bda4eb0b8064befeeeaa38106cac637 dm verity fec: fix misaligned RS roots IO
 07d488b0c1d4c4d3f4729d19606f424df3a80109 staging: rtl8723bs: replace DBG_871X_SEL_NL with netdev_dbg()
@@ -381,7 +385,6 @@ a714e27ea8bdee2b238748029d31472d0a65b611 net: macb: fix the restore of cmp regis
 41bafb31dcd58d834bdffa5db703f94fd2cec727 net/mlx5: Fix setting of devlink traps in switchdev mode
 7a320c9db3e73fb6c4f9a331087df9df18767221 net/mlx5e: Fix setting of RS FEC mode
 e3e0f9b279705154b951d579dc3d8b7041710e24 net/mlx5e: fix ingress_ifindex check in mlx5e_flower_parse_meta
-586c402882069fe835cb9874a72316eaa2923c6f kunit: software node: adhear to KUNIT formatting standard
 027ffa10b80be722c284067f7eee431ced1db208 staging: rtl8723bs: remove sdio_drv_priv structure
 8ffdff6a8cfbdc174a3a390b6f825a277b5bb895 staging: comedi: move out of staging directory
 71d3edc61e29e45b613b841108688d711846f969 staging: rtl8723bs: Remove led_blink_hdl() and everything related
@@ -397,8 +400,6 @@ da5d669e00d2c437b3f508d60add417fc74f4bb6 tty: audit: move some local functions o
 dd9f611442578ca8392e90adbca5815d79946b5e tty: make tty_release_redirect() static
 9f72cab1596327e1011ab4599c07b165e0fb45db tty: move some tty-only functions to drivers/tty/tty.h
 5ffa6e344a1c92a27c242f500fc74e6eb361a4bc tty: clean include/linux/tty.h up
-b622b24519f5b008f6d4e20e5675eaffa8fbd87b software node: Allow node addition to already existing device
-bd2a895f21eb9195a42e52e5f451dccc854cc71d PM / wakeup: use dev_set_name() directly
 4615df5df23031120637baf0c4e4a20b1459737e Merge tag 'icc-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 00cc42630a2e8893836ea2fc2b68334494b4534f platform/x86: thinkpad_acpi: Add labels to the first 2 temperature sensors
 8779c688edbbb387aa2f6953ce7bcaa56012cc6e platform/x86: gigabyte-wmi: add X570 AORUS ELITE
@@ -799,7 +800,6 @@ f5d1499ae2096d7ea301023c4cc54e427300eb0a PM: hibernate: x86: Use crc32 instead o
 9d5171eab462a63e2fbebfccf6026e92be018f20 KEYS: trusted: Fix TPM reservation for seal/unseal
 60dc5f1bcfaa9cae9f99637e347d068cad7f8c9f KEYS: trusted: fix TPM trusted keys for generic framework
 482715ff0601c836152b792f06c353464d826b9b pinctrl: core: Show pin numbers for the controllers with base = 0
-a943d76352dbb4707a5e5537bbe696c00f5ddd36 devm-helpers: Fix devm_delayed_work_autocancel() kerneldoc
 374157ff88ae1a7f7927331cbc72c1ec11994e8a usb: typec: tcpm: Fix error while calculating PPS out values
 43c4cab006f55b6ca549dd1214e22f5965a8675f usb: gadget: Fix double free of device descriptor pointers
 c560e76319a94a3b9285bc426c609903408e4826 usb: dwc3: gadget: Fix START_TRANSFER link state check
@@ -1082,4 +1082,4 @@ fed584c408c123e2a0a7dd1f630d96b84e7f9e97 Merge tag 'regmap-v5.13' of git://git.k
 ca62e9090d229926f43f20291bb44d67897baab7 Merge tag 'regulator-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 4a0225c3d208cfa6e4550f2210ffd9114a952a81 Merge tag 'spi-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============0208694042305444711==--
+--===============3443457103442987910==--
