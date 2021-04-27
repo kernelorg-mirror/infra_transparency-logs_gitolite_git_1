@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 27 Apr 2021 23:19:00 -0000
-Message-Id: <161956554009.21697.3495269441387653852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jmorris/linux-security
+Date: Tue, 27 Apr 2021 23:23:49 -0000
+Message-Id: <161956582906.25755.18211532908761490343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jmorris/linux-security
+user: jmorris
 changes:
-  - ref: refs/heads/for-next
-    old: 05eb3791a0deb79027c7f392342531cb1c884ede
-    new: 3733bfbbdd28f7a65340d0058d15d15190a4944a
-    log: |
-         f008d732ab181fd00d95c2e8a6e479d2f7c634b3 bpf: Add batched ops support for percpu array
-         3733bfbbdd28f7a65340d0058d15d15190a4944a bpf, selftests: Update array map tests for per-cpu batched ops
-         
+  - ref: refs/tags/landlock_v34
+    old: 0000000000000000000000000000000000000000
+    new: d6b984b9c9fbc7166278fca0144b0a4d852e3a83
