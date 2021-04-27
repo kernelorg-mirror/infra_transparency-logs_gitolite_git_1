@@ -1,338 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2920412717015900266=="
+Content-Type: multipart/mixed; boundary="===============1916356295828294178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Tue, 27 Apr 2021 15:38:17 -0000
-Message-Id: <161953789798.6734.17615696680300309273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 27 Apr 2021 15:41:21 -0000
+Message-Id: <161953808150.9059.13452836116811238684@gitolite.kernel.org>
 
---===============2920412717015900266==
+--===============1916356295828294178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
-    new: 9f4ad9e425a1d3b6a34617b8ea226d56a119a717
-    log: revlist-bf05bf16c76b-9f4ad9e425a1.txt
-  - ref: refs/heads/pci-aardvark
-    old: 1387ae425ddc725938286174c6058fe041a4dc21
-    new: de51b844f9e0bc324456ba497c00cb7166ac7a3e
-    log: revlist-1387ae425ddc-de51b844f9e0.txt
-  - ref: refs/heads/pci-aardvark-wip
-    old: 08992b3942becbbaa6a60ebe079fcca8a2b450b2
-    new: 50d9a8dff149f4b93f40f4186a18938b7858a785
-    log: revlist-08992b3942be-50d9a8dff149.txt
-  - ref: refs/tags/v5.10.32
-    old: 0000000000000000000000000000000000000000
-    new: e1b81efb14dd2c7d31e2317c0a19c545e9f47cc2
-  - ref: refs/tags/v5.11.16
-    old: 0000000000000000000000000000000000000000
-    new: 52bf244f8ccd8c9695096dbc1c14f386b9c230c5
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.4.114
-    old: 0000000000000000000000000000000000000000
-    new: de968c0c35d0cb90449f6984fab027879f9d7ceb
+  - ref: refs/heads/v5.11/ffa
+    old: cc4b5dc926f5c9e402482dd08096df2b4500f478
+    new: 5d4dab797780026f28f927325da944d97f7bee1d
+    log: revlist-cc4b5dc926f5-5d4dab797780.txt
 
---===============2920412717015900266==
+--===============1916356295828294178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf05bf16c76b-9f4ad9e425a1.txt
+Content-Disposition: attachment; filename=revlist-cc4b5dc926f5-5d4dab797780.txt
 
-4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
-75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
-bb05e11fff09d341047ce1984aa0d975ed8613e7 arm64: tegra: Fix mmc0 alias for Jetson Xavier NX
-405fa9e9d8664e830982c5fbcb70f9ba8656bafc arm64: tegra: Move clocks from RT5658 endpoint to device node
-196d941753297d0ca73c563ccd7d00be049ec226 pinctrl: lewisburg: Update number of pins in community
-33cc5270d8f23066c2c3291ebd2aa8edda5f5fea Merge tag 'intel-pinctrl-v5.12-4' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into fixes
-6b5b2a5bcfe9a250da19bac4ef7cabdc81d154ec drm/i915/gvt: Fix BDW command parser regression
-84a24bf8c52e66b7ac89ada5e3cfbe72d65c1896 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
-0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
-d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of unexpected AUX timeouts
-7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
-2d292995bb8f49a2596bef522679c1e1454f3230 Merge tag 'gvt-fixes-2021-04-20' of https://github.com/intel/gvt-linux into drm-intel-fixes
-0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
-5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-f2211881e737cade55e0ee07cf6a26d91a35a6fe perf data: Fix error return code in perf_data__create_dir()
-db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
-1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-ddd8d94ca31e768c76cf8bfe34ba7b10136b3694 gpio: omap: Save and restore sysconfig
-d42a5b639d15622ece5b9dd12dafd9776efa2593 drm/amdgpu: reserve fence slot to update page table
-6d638b3ffd27036c062d32cb4efd4be172c2a65e drm/amd/display: Update modifier list for gfx10_3
-9ebb6bc0125dfb1e65a53eea4aeecc63d4d6ec2d amd/display: allow non-linear multi-planar formats
-24d034528ef06ad94cfcf4394beac0443ab1b16d drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
-68e6582e8f2dc32fd2458b9926564faa1fb4560e block: return -EBUSY when there are open partitions in blkdev_reread_part
-16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-9d5171eab462a63e2fbebfccf6026e92be018f20 KEYS: trusted: Fix TPM reservation for seal/unseal
-482715ff0601c836152b792f06c353464d826b9b pinctrl: core: Show pin numbers for the controllers with base = 0
-4d09ccc4a81e7de6b002482af554d8b5626f5041 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-90c911ad7445ccec9936763f05fa5db6a3da53be Merge tag 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/tpmdd
-450225a402e5b2b4c7ddef7ec54f797868d0f583 Merge tag 'sunxi-fixes-for-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-a9d064524fc3cf463b3bb14fa63de78aafb40dab vhost-vdpa: protect concurrent access to vhost device iotlb
-be286f84e33da1a7f83142b64dbd86f600e73363 vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-18a3c5f7abfdf97f88536d35338ebbee119c355c Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-b4d1913df2b78b872cab62456321f436ab232c3c Merge tag 'amd-drm-fixes-5.12-2021-04-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-aca38735ae624b93c71c055b68d5802b8f356ea5 Merge tag 'drm-intel-fixes-2021-04-22' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-a1768dad775b5ceb25d17bc7a13318f43adf3069 Merge branch 'tegra/dt64' into arm/fixes
-22c4e5bcd3cd7a798f1c6b4df646f75587813e72 Merge tag 'gpio-fixes-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-5bfc75d92efd494db37f5c4c173d3639d4772966 Merge tag 'drm-fixes-2021-04-23' of git://anongit.freedesktop.org/drm/drm
-b14585d9f18dc617e975815570fe836be656b1da perf auxtrace: Fix potential NULL pointer dereference
-671b60cb6a897a5b3832fe57657152f2c3995e25 perf ftrace: Fix access to pid in array when setting a pid filter
-c6f87141254d16e281e4b4431af7316895207b8f perf map: Fix error return code in maps__clone()
-6d1d45cb98347dbd101b378d11b5f0deb87b345d Merge tag 'arm-fixes-5.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-9c1a07442c95f6e64dc8de099e9f35ea73db7852 KVM: x86/xen: Take srcu lock when accessing kvm_memslots()
-9da29c7f77cd04e5c9150e30f047521b6f20a918 coda: fix reference counting in coda_file_mmap error path
-2896900e22f8212606a1837d89a6bbce314ceeda ovl: fix reference counting in ovl_mmap error path
-2d11e738151d6cd321dd944cefe9c941ea00086c mm/filemap: fix find_lock_entries hang on 32-bit THP
-ed98b0159fa92a22a2838bd92522b8c8d964556b mm/filemap: fix mapping_seek_hole_data on THP & 32-bit
-1974c45dd7745e999b9387be3d8fdcb27a5b1721 tools/cgroup/slabinfo.py: updated to work on current kernel
-95838bd9fcfaa12452dc9fd6d6920faef6bb5a46 Merge tag 'block-5.12-2021-04-23' of git://git.kernel.dk/linux-block
-e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andrew)
-8db5efb83fa99e81c3f8dee92a6589b251f117f3 Merge tag 'pinctrl-v5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-799bac5512188522213e2d7eb78ca7094dfdf30c Revert "net/rds: Avoid potential use after free in rds_send_remove_from_sock"
-2a1d7946fa53cea2083e5981ff55a8176ab2be6b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-11fac7a004113466b7155e9b0d836156cf8a7e8d Merge tag 'x86_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-682b26bd80f96c2e4da3eb6dcec8bf684b79151c Merge tag 'sched_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0146da0d4cecad571f69f02fe35d75d6dba9723c Merge tag 'locking_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
+b6f12b3818f652dc786c8b3c95277f125c54ec6b firmware: arm_ffa: Add initial FFA bus support for device enumeration
+79eaad15c81420bab0c22a00dcdded87a2d3c716 firmware: arm_ffa: Add initial Arm FFA driver support
+9dfd44b3bd18c3504acc560521cfdc80f66cbba2 firmware: arm_ffa: Add support for SMCCC as transport to FFA driver
+ce8cb9e264214b09d941e0d083b4ecbd04be54b3 firmware: arm_ffa: Setup in-kernel users of FFA partitions
+3d4b956fc7a74310c543cc25f923753a213b378d firmware: arm_ffa: Add support for MEM_* interfaces
+cb2cb3dbfd4012a410d7aec083de9eb2b959643b optee: fix error handling in pool_op_alloc()
+ff712dc124b60e3cdd8b7463cca4982cc60e7ddd tee: add sec_world_id to struct tee_shm
+29c02b954cfa737c7874d7e3fa6f250e24a804c8 optee: simplify optee_release()
+f6228515b30082d8542e5785d93a45b31500cd46 tee: optee: sync optee_msg.h and optee_rpc_cmd.h
+3c0caa011771a7fdf4366f1f0354154f33092e8e optee: add FF-A support
+2ce385334408a00a1b9bd705450bba86679ec74c optee: use OPTEE_MSG_FMEM_INVALID_GLOBAL_ID
+5d4dab797780026f28f927325da944d97f7bee1d hack to workaround optee UUID endianess issue
 
---===============2920412717015900266==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1387ae425ddc-de51b844f9e0.txt
-
-4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
-75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
-bb05e11fff09d341047ce1984aa0d975ed8613e7 arm64: tegra: Fix mmc0 alias for Jetson Xavier NX
-405fa9e9d8664e830982c5fbcb70f9ba8656bafc arm64: tegra: Move clocks from RT5658 endpoint to device node
-196d941753297d0ca73c563ccd7d00be049ec226 pinctrl: lewisburg: Update number of pins in community
-33cc5270d8f23066c2c3291ebd2aa8edda5f5fea Merge tag 'intel-pinctrl-v5.12-4' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into fixes
-6b5b2a5bcfe9a250da19bac4ef7cabdc81d154ec drm/i915/gvt: Fix BDW command parser regression
-84a24bf8c52e66b7ac89ada5e3cfbe72d65c1896 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
-0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
-d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of unexpected AUX timeouts
-7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
-2d292995bb8f49a2596bef522679c1e1454f3230 Merge tag 'gvt-fixes-2021-04-20' of https://github.com/intel/gvt-linux into drm-intel-fixes
-0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
-5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-f2211881e737cade55e0ee07cf6a26d91a35a6fe perf data: Fix error return code in perf_data__create_dir()
-db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
-1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-ddd8d94ca31e768c76cf8bfe34ba7b10136b3694 gpio: omap: Save and restore sysconfig
-d42a5b639d15622ece5b9dd12dafd9776efa2593 drm/amdgpu: reserve fence slot to update page table
-6d638b3ffd27036c062d32cb4efd4be172c2a65e drm/amd/display: Update modifier list for gfx10_3
-9ebb6bc0125dfb1e65a53eea4aeecc63d4d6ec2d amd/display: allow non-linear multi-planar formats
-24d034528ef06ad94cfcf4394beac0443ab1b16d drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
-68e6582e8f2dc32fd2458b9926564faa1fb4560e block: return -EBUSY when there are open partitions in blkdev_reread_part
-16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-9d5171eab462a63e2fbebfccf6026e92be018f20 KEYS: trusted: Fix TPM reservation for seal/unseal
-482715ff0601c836152b792f06c353464d826b9b pinctrl: core: Show pin numbers for the controllers with base = 0
-4d09ccc4a81e7de6b002482af554d8b5626f5041 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-90c911ad7445ccec9936763f05fa5db6a3da53be Merge tag 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/tpmdd
-450225a402e5b2b4c7ddef7ec54f797868d0f583 Merge tag 'sunxi-fixes-for-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-a9d064524fc3cf463b3bb14fa63de78aafb40dab vhost-vdpa: protect concurrent access to vhost device iotlb
-be286f84e33da1a7f83142b64dbd86f600e73363 vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-18a3c5f7abfdf97f88536d35338ebbee119c355c Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-b4d1913df2b78b872cab62456321f436ab232c3c Merge tag 'amd-drm-fixes-5.12-2021-04-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-aca38735ae624b93c71c055b68d5802b8f356ea5 Merge tag 'drm-intel-fixes-2021-04-22' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-a1768dad775b5ceb25d17bc7a13318f43adf3069 Merge branch 'tegra/dt64' into arm/fixes
-22c4e5bcd3cd7a798f1c6b4df646f75587813e72 Merge tag 'gpio-fixes-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-5bfc75d92efd494db37f5c4c173d3639d4772966 Merge tag 'drm-fixes-2021-04-23' of git://anongit.freedesktop.org/drm/drm
-b14585d9f18dc617e975815570fe836be656b1da perf auxtrace: Fix potential NULL pointer dereference
-671b60cb6a897a5b3832fe57657152f2c3995e25 perf ftrace: Fix access to pid in array when setting a pid filter
-c6f87141254d16e281e4b4431af7316895207b8f perf map: Fix error return code in maps__clone()
-6d1d45cb98347dbd101b378d11b5f0deb87b345d Merge tag 'arm-fixes-5.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-9c1a07442c95f6e64dc8de099e9f35ea73db7852 KVM: x86/xen: Take srcu lock when accessing kvm_memslots()
-9da29c7f77cd04e5c9150e30f047521b6f20a918 coda: fix reference counting in coda_file_mmap error path
-2896900e22f8212606a1837d89a6bbce314ceeda ovl: fix reference counting in ovl_mmap error path
-2d11e738151d6cd321dd944cefe9c941ea00086c mm/filemap: fix find_lock_entries hang on 32-bit THP
-ed98b0159fa92a22a2838bd92522b8c8d964556b mm/filemap: fix mapping_seek_hole_data on THP & 32-bit
-1974c45dd7745e999b9387be3d8fdcb27a5b1721 tools/cgroup/slabinfo.py: updated to work on current kernel
-95838bd9fcfaa12452dc9fd6d6920faef6bb5a46 Merge tag 'block-5.12-2021-04-23' of git://git.kernel.dk/linux-block
-e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andrew)
-8db5efb83fa99e81c3f8dee92a6589b251f117f3 Merge tag 'pinctrl-v5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-799bac5512188522213e2d7eb78ca7094dfdf30c Revert "net/rds: Avoid potential use after free in rds_send_remove_from_sock"
-2a1d7946fa53cea2083e5981ff55a8176ab2be6b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-11fac7a004113466b7155e9b0d836156cf8a7e8d Merge tag 'x86_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-682b26bd80f96c2e4da3eb6dcec8bf684b79151c Merge tag 'sched_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0146da0d4cecad571f69f02fe35d75d6dba9723c Merge tag 'locking_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
-8d4ef9c33ea965712f8caf8a28ab0617ddd5ca25 PCI: Add PCI_EXP_DEVCTL_PAYLOAD_* macros
-7bf702b28e8bd9b2d4ad8dadf90d8351bff16053 PCI: aardvark: Fix PCIe Max Payload Size setting
-66c1b23570d05ed9b10ed735f54a281a4d551317 PCI: aardvark: Implement workaround for the readback value of VEND_ID
-bb7152f8ba98a4044c4b582485d67f33d4502477 PCI: aardvark: Fix link training
-db29a608d1ca4cbf3e67cb4a2d0137f49360324e PCI: aardvark: Fix checking for PIO Non-posted Request
-d189a929e128614c42a2d1bab4bf00b23914d90d PCI: aardvark: Fix checking for PIO status
-5d7c7ba67db0d681f517e9d5a224d0f4d0896065 PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
-41e327bfa76c3dd5557a70d4346d43af95849db0 PCI: aardvark: Fix kernel panic during PIO transfer
-c5f4c3956bf1857829ed078e65f8a66686eeafde PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-32e96486a5bfd78b52e43fcd37ac7d8578f4eb68 PCI: aardvark: Fix reporting CRS Software Visibility on emulated bridge
-06514b768b983f7944f8e234927943d409a4bdba PCI: aardvark: Do not touch status bits of masked interrupts in interrupt handler
-865e352968bd83c05182057a9f79695d3b88cced PCI: aardvark: When processing INTx IRQ check that it has virq mapping
-30665b8245de807110d981be5da4caa3ded279b5 PCI: aardvark: Remove irq_mask_ack callback for INTx interrupts
-c559426cdfa6f9653c15dc993dcdf78214802bc5 PCI: aardvark: Remove calling advk_pcie_irq_mask() during advk_pcie_irq_map()
-c17decb6b6c1cdbc9a3795eb57c253af17cce8d3 PCI: aardvark: Change name of INTx irq_chip to advk-INT
-dda83153e3fefe42e359303a2533ab5246aeccee PCI: aardvark: Remove goto from advk_pcie_init_irq_domain()
-08c355570ab24d42dbbf7b004df0d2b5be89aeea PCI: aardvark: Fix support for MSI interrupts
-64109453053cc734dae847c4ced909c140f863af PCI: aardvark: Correctly clear and unmask all MSI interrupts
-596dfe1d79cae35eac87546ceaf5fe819088f368 PCI: aardvark: Fix setting MSI address
-f8f2420de6741507e8e2c28d548ae406a6531e2c PCI: aardvark: Add support for more than 32 MSI interrupts
-ca98e45298e063e90a2d8355b61780ba6f574438 PCI: aardvark: Add support for masking MSI interrupts
-9934b629f29a665a3f342ab575cd1a002685aed4 PCI: aardvark: Enable MSI-X support
-05042c9d4260f4b5839c2fb954927bb017ba772b PCI: aardvark: Fix support for ERR interrupt on emulated bridge
-67b295894b4ff4292cff565639812ed7d914eea8 PCI: aardvark: Fix support for PME on emulated bridge
-af64e6e34a66f901fc89e7b65a1e0beb07cc578f PCI: aardvark: Fix support for PME requester on emulated bridge
-52c3a40c98fe67bc319cbf4980ef15d48a2046ed PCI: aardvark: Fix support for bus mastering and PCI_COMMAND on emulated bridge
-6e2deb2c7d4ad2286a3068db3593c92742d2caeb PCI: aardvark: Disable bus mastering and mask all interrupts when unbinding driver
-4f6fa07045d1497ba978fc630c7f81ef76576042 PCI: aardvark: Free config space for emulated root bridge when unbinding driver to fix memory leak
-6c19be23702bafbfd9686bcd6875426538f2701e PCI: aardvark: Reset PCIe card and disable PHY when unbinding driver
-1525a5f41a0ab93af80792fc75ae86587ab7065d PCI: aardvark: Rewrite irq code to chained irq handler
-a7920e292359235cc582629e22adbbfe4c6d6714 PCI: aardvark: Use separate INTA interrupt for emulated root bridge
-810d6dd6eaab2c29006b6a41da42ca12bd2f61ef PCI: pci-bridge-emul: Add description for class_revision field
-eb67e70c371a2817c54fce81a1f1e567f39525eb PCI: pci-bridge-emul: Add definitions for missing capabilities registers
-37e497ea07b66671de26b059634ec87588ceb2c6 PCI: aardvark: Add support for DEVCAP2, DEVCTL2, LNKCAP2 and LNKCTL2 registers on emulated bridge
-503ff45e083836ba19d95edf29107c18e3990ae2 PCI: aardvark: Add support for PCI_BRIDGE_CTL_BUS_RESET on emulated bridge
-6b35bc6eb324e39970780e28c94f9305a96c3d69 PCI: aardvark: Replace custom PCIE_CORE_ERR_CAPCTL_* macros by linux/pci_regs.h macros
-3be817b682233c87bf0d5b92f45174910af6cc21 PCI: aardvark: Replace custom PCIE_CORE_INT_* macros by linux PCI_INTERRUPT_* values
-7d310f63bf36354c62fafb97e1cd4c6d4036c45f PCI: aardvark: Cleanup some register macros
-3e056a0ecc1cc57bdf94ff16ad7137f9b4161c35 PCI: aardvark: Add comments for OB_WIN_ENABLE and ADDR_WIN_DISABLE
-0e60daa7555a0b2225b9456e758dabf00b3ddb31 PCI: pci-bridge-emul: re-arrange register tests
-ff194ebbdcb8266d79049c4f1f6e31f8609c7fa8 PCI: pci-bridge-emul: add support for PCIe extended capabilities
-de51b844f9e0bc324456ba497c00cb7166ac7a3e PCI: aardvark: Add support for Advanced Error Reporting registers on emulated bridge
-
---===============2920412717015900266==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08992b3942be-50d9a8dff149.txt
-
-4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
-75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
-bb05e11fff09d341047ce1984aa0d975ed8613e7 arm64: tegra: Fix mmc0 alias for Jetson Xavier NX
-405fa9e9d8664e830982c5fbcb70f9ba8656bafc arm64: tegra: Move clocks from RT5658 endpoint to device node
-196d941753297d0ca73c563ccd7d00be049ec226 pinctrl: lewisburg: Update number of pins in community
-33cc5270d8f23066c2c3291ebd2aa8edda5f5fea Merge tag 'intel-pinctrl-v5.12-4' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into fixes
-6b5b2a5bcfe9a250da19bac4ef7cabdc81d154ec drm/i915/gvt: Fix BDW command parser regression
-84a24bf8c52e66b7ac89ada5e3cfbe72d65c1896 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
-0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
-d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of unexpected AUX timeouts
-7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
-2d292995bb8f49a2596bef522679c1e1454f3230 Merge tag 'gvt-fixes-2021-04-20' of https://github.com/intel/gvt-linux into drm-intel-fixes
-0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
-5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-f2211881e737cade55e0ee07cf6a26d91a35a6fe perf data: Fix error return code in perf_data__create_dir()
-db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
-1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-ddd8d94ca31e768c76cf8bfe34ba7b10136b3694 gpio: omap: Save and restore sysconfig
-d42a5b639d15622ece5b9dd12dafd9776efa2593 drm/amdgpu: reserve fence slot to update page table
-6d638b3ffd27036c062d32cb4efd4be172c2a65e drm/amd/display: Update modifier list for gfx10_3
-9ebb6bc0125dfb1e65a53eea4aeecc63d4d6ec2d amd/display: allow non-linear multi-planar formats
-24d034528ef06ad94cfcf4394beac0443ab1b16d drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
-68e6582e8f2dc32fd2458b9926564faa1fb4560e block: return -EBUSY when there are open partitions in blkdev_reread_part
-16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-9d5171eab462a63e2fbebfccf6026e92be018f20 KEYS: trusted: Fix TPM reservation for seal/unseal
-482715ff0601c836152b792f06c353464d826b9b pinctrl: core: Show pin numbers for the controllers with base = 0
-4d09ccc4a81e7de6b002482af554d8b5626f5041 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-90c911ad7445ccec9936763f05fa5db6a3da53be Merge tag 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/tpmdd
-450225a402e5b2b4c7ddef7ec54f797868d0f583 Merge tag 'sunxi-fixes-for-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-a9d064524fc3cf463b3bb14fa63de78aafb40dab vhost-vdpa: protect concurrent access to vhost device iotlb
-be286f84e33da1a7f83142b64dbd86f600e73363 vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-18a3c5f7abfdf97f88536d35338ebbee119c355c Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-b4d1913df2b78b872cab62456321f436ab232c3c Merge tag 'amd-drm-fixes-5.12-2021-04-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-aca38735ae624b93c71c055b68d5802b8f356ea5 Merge tag 'drm-intel-fixes-2021-04-22' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-a1768dad775b5ceb25d17bc7a13318f43adf3069 Merge branch 'tegra/dt64' into arm/fixes
-22c4e5bcd3cd7a798f1c6b4df646f75587813e72 Merge tag 'gpio-fixes-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-5bfc75d92efd494db37f5c4c173d3639d4772966 Merge tag 'drm-fixes-2021-04-23' of git://anongit.freedesktop.org/drm/drm
-b14585d9f18dc617e975815570fe836be656b1da perf auxtrace: Fix potential NULL pointer dereference
-671b60cb6a897a5b3832fe57657152f2c3995e25 perf ftrace: Fix access to pid in array when setting a pid filter
-c6f87141254d16e281e4b4431af7316895207b8f perf map: Fix error return code in maps__clone()
-6d1d45cb98347dbd101b378d11b5f0deb87b345d Merge tag 'arm-fixes-5.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-9c1a07442c95f6e64dc8de099e9f35ea73db7852 KVM: x86/xen: Take srcu lock when accessing kvm_memslots()
-9da29c7f77cd04e5c9150e30f047521b6f20a918 coda: fix reference counting in coda_file_mmap error path
-2896900e22f8212606a1837d89a6bbce314ceeda ovl: fix reference counting in ovl_mmap error path
-2d11e738151d6cd321dd944cefe9c941ea00086c mm/filemap: fix find_lock_entries hang on 32-bit THP
-ed98b0159fa92a22a2838bd92522b8c8d964556b mm/filemap: fix mapping_seek_hole_data on THP & 32-bit
-1974c45dd7745e999b9387be3d8fdcb27a5b1721 tools/cgroup/slabinfo.py: updated to work on current kernel
-95838bd9fcfaa12452dc9fd6d6920faef6bb5a46 Merge tag 'block-5.12-2021-04-23' of git://git.kernel.dk/linux-block
-e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andrew)
-8db5efb83fa99e81c3f8dee92a6589b251f117f3 Merge tag 'pinctrl-v5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-799bac5512188522213e2d7eb78ca7094dfdf30c Revert "net/rds: Avoid potential use after free in rds_send_remove_from_sock"
-2a1d7946fa53cea2083e5981ff55a8176ab2be6b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-11fac7a004113466b7155e9b0d836156cf8a7e8d Merge tag 'x86_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-682b26bd80f96c2e4da3eb6dcec8bf684b79151c Merge tag 'sched_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0146da0d4cecad571f69f02fe35d75d6dba9723c Merge tag 'locking_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
-8d4ef9c33ea965712f8caf8a28ab0617ddd5ca25 PCI: Add PCI_EXP_DEVCTL_PAYLOAD_* macros
-7bf702b28e8bd9b2d4ad8dadf90d8351bff16053 PCI: aardvark: Fix PCIe Max Payload Size setting
-66c1b23570d05ed9b10ed735f54a281a4d551317 PCI: aardvark: Implement workaround for the readback value of VEND_ID
-bb7152f8ba98a4044c4b582485d67f33d4502477 PCI: aardvark: Fix link training
-db29a608d1ca4cbf3e67cb4a2d0137f49360324e PCI: aardvark: Fix checking for PIO Non-posted Request
-d189a929e128614c42a2d1bab4bf00b23914d90d PCI: aardvark: Fix checking for PIO status
-5d7c7ba67db0d681f517e9d5a224d0f4d0896065 PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
-41e327bfa76c3dd5557a70d4346d43af95849db0 PCI: aardvark: Fix kernel panic during PIO transfer
-c5f4c3956bf1857829ed078e65f8a66686eeafde PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-32e96486a5bfd78b52e43fcd37ac7d8578f4eb68 PCI: aardvark: Fix reporting CRS Software Visibility on emulated bridge
-06514b768b983f7944f8e234927943d409a4bdba PCI: aardvark: Do not touch status bits of masked interrupts in interrupt handler
-865e352968bd83c05182057a9f79695d3b88cced PCI: aardvark: When processing INTx IRQ check that it has virq mapping
-30665b8245de807110d981be5da4caa3ded279b5 PCI: aardvark: Remove irq_mask_ack callback for INTx interrupts
-c559426cdfa6f9653c15dc993dcdf78214802bc5 PCI: aardvark: Remove calling advk_pcie_irq_mask() during advk_pcie_irq_map()
-c17decb6b6c1cdbc9a3795eb57c253af17cce8d3 PCI: aardvark: Change name of INTx irq_chip to advk-INT
-dda83153e3fefe42e359303a2533ab5246aeccee PCI: aardvark: Remove goto from advk_pcie_init_irq_domain()
-08c355570ab24d42dbbf7b004df0d2b5be89aeea PCI: aardvark: Fix support for MSI interrupts
-64109453053cc734dae847c4ced909c140f863af PCI: aardvark: Correctly clear and unmask all MSI interrupts
-596dfe1d79cae35eac87546ceaf5fe819088f368 PCI: aardvark: Fix setting MSI address
-f8f2420de6741507e8e2c28d548ae406a6531e2c PCI: aardvark: Add support for more than 32 MSI interrupts
-ca98e45298e063e90a2d8355b61780ba6f574438 PCI: aardvark: Add support for masking MSI interrupts
-9934b629f29a665a3f342ab575cd1a002685aed4 PCI: aardvark: Enable MSI-X support
-05042c9d4260f4b5839c2fb954927bb017ba772b PCI: aardvark: Fix support for ERR interrupt on emulated bridge
-67b295894b4ff4292cff565639812ed7d914eea8 PCI: aardvark: Fix support for PME on emulated bridge
-af64e6e34a66f901fc89e7b65a1e0beb07cc578f PCI: aardvark: Fix support for PME requester on emulated bridge
-52c3a40c98fe67bc319cbf4980ef15d48a2046ed PCI: aardvark: Fix support for bus mastering and PCI_COMMAND on emulated bridge
-6e2deb2c7d4ad2286a3068db3593c92742d2caeb PCI: aardvark: Disable bus mastering and mask all interrupts when unbinding driver
-4f6fa07045d1497ba978fc630c7f81ef76576042 PCI: aardvark: Free config space for emulated root bridge when unbinding driver to fix memory leak
-6c19be23702bafbfd9686bcd6875426538f2701e PCI: aardvark: Reset PCIe card and disable PHY when unbinding driver
-1525a5f41a0ab93af80792fc75ae86587ab7065d PCI: aardvark: Rewrite irq code to chained irq handler
-a7920e292359235cc582629e22adbbfe4c6d6714 PCI: aardvark: Use separate INTA interrupt for emulated root bridge
-810d6dd6eaab2c29006b6a41da42ca12bd2f61ef PCI: pci-bridge-emul: Add description for class_revision field
-eb67e70c371a2817c54fce81a1f1e567f39525eb PCI: pci-bridge-emul: Add definitions for missing capabilities registers
-37e497ea07b66671de26b059634ec87588ceb2c6 PCI: aardvark: Add support for DEVCAP2, DEVCTL2, LNKCAP2 and LNKCTL2 registers on emulated bridge
-503ff45e083836ba19d95edf29107c18e3990ae2 PCI: aardvark: Add support for PCI_BRIDGE_CTL_BUS_RESET on emulated bridge
-6b35bc6eb324e39970780e28c94f9305a96c3d69 PCI: aardvark: Replace custom PCIE_CORE_ERR_CAPCTL_* macros by linux/pci_regs.h macros
-3be817b682233c87bf0d5b92f45174910af6cc21 PCI: aardvark: Replace custom PCIE_CORE_INT_* macros by linux PCI_INTERRUPT_* values
-7d310f63bf36354c62fafb97e1cd4c6d4036c45f PCI: aardvark: Cleanup some register macros
-3e056a0ecc1cc57bdf94ff16ad7137f9b4161c35 PCI: aardvark: Add comments for OB_WIN_ENABLE and ADDR_WIN_DISABLE
-0e60daa7555a0b2225b9456e758dabf00b3ddb31 PCI: pci-bridge-emul: re-arrange register tests
-ff194ebbdcb8266d79049c4f1f6e31f8609c7fa8 PCI: pci-bridge-emul: add support for PCIe extended capabilities
-de51b844f9e0bc324456ba497c00cb7166ac7a3e PCI: aardvark: Add support for Advanced Error Reporting registers on emulated bridge
-f484e631d625aa98e6df7e04cb504b8319554d4b PCI: aardvark: Run link training in separate worker
-dcfcd68a1b4592d707a6da1405b05b8691776487 PCI: pciehp: Do not enable Data Link Layer State Changed interrupt when it is unsupported
-0e8888153a83609c447c531b4dbae31bf18479f5 PCI: pciehp: Do not enable Command Completed Interrupt when it is unsupported
-a71fe8231cab1dddb6d8036f4ebbe80cf757dd92 PCI: aardvark: Add support for Data Link Layer State via Slot registers and hotplug interrupt via emulated root bridge
-1d007f3ca5b768fecefd680e27ea31451eb195e3 PCI: Add PCI_EXP_SLTCTL_ASPL_DISABLE macro
-adceebafeefb2387177379950d756fbfc46ac108 PCI: aardvark: Add support for sending Set_Slot_Power_Limit message
-50d9a8dff149f4b93f40f4186a18938b7858a785 arm64: dts: armada-3720-turris-mox: Define slot-power-limit for PCIe
-
---===============2920412717015900266==--
+--===============1916356295828294178==--
