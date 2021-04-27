@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 27 Apr 2021 13:57:17 -0000
-Message-Id: <161953183753.7702.4087511390196710848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 27 Apr 2021 13:58:12 -0000
+Message-Id: <161953189207.8069.11149305705385925865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
+repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
   - ref: refs/heads/for-linus
-    old: 54ab35d6bbc0d3175b0a74282c3365c80a43a93c
-    new: 8df1947c71ee53c7e21c96c83796dd8cf06ae77c
-    log: |
-         8df1947c71ee53c7e21c96c83796dd8cf06ae77c livepatch: Replace the fake signal sending with TIF_NOTIFY_SIGNAL infrastructure
-         
+    old: 6b3dd2943eaa042de6d4f80b0f0b2604d8ed70ed
+    new: c8dbea6df351df211216b5f8877b020f21ecf75f
