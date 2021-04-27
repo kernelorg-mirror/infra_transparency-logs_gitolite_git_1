@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 Apr 2021 21:16:33 -0000
-Message-Id: <161955819338.15595.10882609379733103030@gitolite.kernel.org>
+Date: Tue, 27 Apr 2021 21:17:17 -0000
+Message-Id: <161955823749.15834.17981485222223633393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 3afef8c7aa2de3574021c848b5f7c62687e6b166
-    new: 2342eb1afe00586a018536c4bf9e04d7aa4bf63e
+    old: 2342eb1afe00586a018536c4bf9e04d7aa4bf63e
+    new: ad542fb7f2e2bb30c06381e77d4b29e895576ddc
     log: |
-         2342eb1afe00586a018536c4bf9e04d7aa4bf63e llc2: Remove redundant assignment to rc
+         ad542fb7f2e2bb30c06381e77d4b29e895576ddc mpls: Remove redundant assignment to err
          
