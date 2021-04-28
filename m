@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 28 Apr 2021 08:49:21 -0000
-Message-Id: <161959976157.6883.18268019178786076411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 28 Apr 2021 08:53:22 -0000
+Message-Id: <161960000201.10674.11830761934398445781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/mfd-next-5.13
+  - ref: refs/tags/sched-core-2021-04-28
     old: 0000000000000000000000000000000000000000
-    new: e38886d44375fba5576764141c1260c0959e0432
+    new: ab09a4744355c064a9a48efbef3e4e4855a9c1c6
