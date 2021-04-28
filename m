@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 28 Apr 2021 05:18:37 -0000
-Message-Id: <161958711799.11513.1491998864684885977@gitolite.kernel.org>
+Date: Wed, 28 Apr 2021 05:18:45 -0000
+Message-Id: <161958712570.11606.6294872775524777147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-socfpga
-    old: abbe1eff907f38d82de8a94000f15b56f6a0204b
-    new: 52d1a8da40b3c3e165e7b89d1a21a48da196792f
+  - ref: refs/heads/clk-next
+    old: e3efa50969a8b051401db424ddf6fb832ee4bdd0
+    new: 3ba2d41dca14e1afbea0c41ba8164064df407c8b
     log: |
-         657d4d1934f75a2d978c3cf2086495eaa542e7a9 clk: socfpga: arria10: Fix memory leak of socfpga_clk on error return
-         52d1a8da40b3c3e165e7b89d1a21a48da196792f clk: socfpga: remove redundant initialization of variable div
+         c3ad321932ed29b85ceed38a716a6e063e996ff5 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-socfpga', 'clk-allwinner' and 'clk-qcom' into clk-next
+         bbc3b403b096220850b82e245a1e5f09b8b216a2 Merge branches 'clk-imx', 'clk-samsung', 'clk-zynq', 'clk-rockchip' and 'clk-uniphier' into clk-next
+         3ba2d41dca14e1afbea0c41ba8164064df407c8b Merge branch 'clk-ralink' into clk-next
          
