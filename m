@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5472470403721505688=="
+Content-Type: multipart/mixed; boundary="===============3946185842521137127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 28 Apr 2021 15:26:11 -0000
-Message-Id: <161962357158.19950.13331679331285393914@gitolite.kernel.org>
+Date: Wed, 28 Apr 2021 15:26:14 -0000
+Message-Id: <161962357410.20011.16193467955541048413@gitolite.kernel.org>
 
---===============5472470403721505688==
+--===============3946185842521137127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/umn.edu-reverts
-    old: 241944722a126b957e769a861c6dd48582464d53
-    new: 73d201b5c3bcd9af293eb8b5f8010f479b96a590
-    log: revlist-241944722a12-73d201b5c3bc.txt
+  - ref: refs/heads/driver-core-testing
+    old: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
+    new: acd3d28594536e9096c1ea76c5867d8a68babef6
+    log: revlist-4a0225c3d208-acd3d2859453.txt
 
---===============5472470403721505688==
+--===============3946185842521137127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619623565 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619623568 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619623565-ec7412e9c2059d340492a3d04ef8d4fe10867a3e
+nonce 1619623568-38375271f69c16fa683cc5d02f0fa29cca2ff8cf
 
-241944722a126b957e769a861c6dd48582464d53 73d201b5c3bcd9af293eb8b5f8010f479b96a590 refs/heads/umn.edu-reverts
+4a0225c3d208cfa6e4550f2210ffd9114a952a81 acd3d28594536e9096c1ea76c5867d8a68babef6 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCJfo0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pTEP/1vGVFMw72T3uBtxjD12
-YWd005/XIWSs8hDXeLp5g+WIuAr7XQw3QgyMYW6s1MNIZ7sIG+hORLcpxH8POi3q
-pEXreImlS+XhemXuBbcZ5G0ZPCSQ4Cfr7nOpZuyb0gJNDzQRH5Rp04vS8HP+fL7T
-0UA5bMQOkMpSeqPmEPNOMPQYpktQiyFIVFDnCPu59skCWjcMRVilP71af41zxcfq
-TBZg9Dgx7QjtkpWpk55tP0q4+u1CgwVARD9xsPc87STfR+fZUVV/UIhRa0g3K2Bp
-zqpX6SU99egFUOtOIsYOX13/gXKQsB44bga2O3Kx/YGmDv4xL8YPB5UFfGL7TYOt
-+lAvBZ9bAsBzB82SPcoMKPYEj6FeIsdwJISgfftSokoqFM+80cs6IeK772pz2Ak0
-ELEuA5vNd88yqs1v5KBjPUfDZB71ufT4fsRieolMvNLxP1PI+GxjDxo8+yiZqRlE
-m1D1DqvTB4hGxD6ohfiye1s2oLDBI5Eu4KLlumwis+msVsTZwhu7U5RCqhq3Mz4V
-TVXskjtaJbhE7rHYUDWw7mrsmCA2IMAnqbh9C/ljfjL3MrS/vjqVd/oQ7xBcmeHa
-qJUg/zYAaNyUo6f0/Y6Q5IZP2OcOx3iRVyzV+QLuv1gnx9KX52XQXOsAAGI3vGG5
-uwl/QFoTTZqaU0ZoGdefA8le
-=tBLH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCJfpAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JXIP/1kf3CltT3D0kBujjNdZ
+7rAIiNlRdW0u4NtMkrUxrMYinrjiSyYkqGsfNOEk15Y2NwHbamFdKp2iHGU+z/r2
+Ep12gK/W7gioASjCqB/GGJXxXt+EVw198B+ct6lUhwlHnUVNcFJGSidaOv1VLtUD
+stmIZYW+swXEEJx4AEDIjdYtsd+Fyjb9GsmRASgo6Qf4sf2pUmNr3eTOimJZHD6e
++fx+Hedu6dlj8/vTX1z+7Srxq4jQXxtbELof3RQ7mF5haqLYAhRScYRCzPAQbxFP
+iS6Wbonxo6Su01YyHyo+AixitYTce2xb1ymJy2V29VYkURV6Aj6wZfkv1jVCcqar
+qiPSPQ4g/T+o9srUhEQGnUcfukNsQkrdOdFkkukBAqZn00OCBQ7h01yywmY2CuYp
+dneh2Pika7AAoE5EDFtsfg/RL/zG773Ddd0HEQhqAfwipDM8BSo+jfrqc02kM6oX
+qro3b0BWX3m9DUwmtmRcPF4OYmZRadW452a1jyDnM0PdFK8jiymhAwZ8BIC7jk9F
+CGtIujjjAcRVj+0qLOWqqgxkseK7AgZp7Vff2bmKHiPUYu0FWh/MwwIfFQvs52Zb
+nAC/R22ACh6rM+Lae0wiWpBLc0jbiXJ5+aPaPKY9JYtP3SiNSL4Xeo8GZNb1AWEH
+y5kg7y+2HlmVKXJb/ZqR0BTn
+=vecL
 -----END PGP SIGNATURE-----
 
---===============5472470403721505688==
+--===============3946185842521137127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-241944722a12-73d201b5c3bc.txt
+Content-Disposition: attachment; filename=revlist-4a0225c3d208-acd3d2859453.txt
 
 59eca2fa1934de42d8aa44d3bef655c92ea69703 x86/cpu/hygon: Set __max_die_per_package on Hygon
 fdd2c1f4e2c2e2fee1d95d18b4b06bc0d15c368a um: synchronize kmsg_dumper
@@ -386,48 +386,5 @@ eb6bbacc46720b8b36eb85b2cdd91b9e691959e4 Merge tag 'livepatching-for-5.13' of gi
 2a68c268a18317a013961e8faf6eaabc81a94e6b Merge tag 'linux-kselftest-next-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 1e9599dfc47a171f7ba76a9651fe86baab364af5 Merge tag 'linux-kselftest-kunit-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 acd3d28594536e9096c1ea76c5867d8a68babef6 Merge tag 'fixes-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security
-8da50bd6d749b9ab27964995b6236fc2689b94e2 Revert "mmc_spi: add a status check for spi_sync_locked"
-bc9d88ca698a65e00838eb494e765c8c8b0b88e0 Revert "niu: fix missing checks of niu_pci_eeprom_read"
-992b0b1540848281e4949bbfa29212d28ad45737 Revert "net: caif: replace BUG_ON with recovery code"
-4aed294a1c9e2091e7ce15533a9898d67dc15430 Revert "atl1e: checking the status of atl1e_write_phy_reg"
-5520f3c4d4db7ed2beba94539af3d5f7b7220952 Revert "drm/gma500: fix memory disclosures due to uninitialized bytes"
-95ba27833b9bb794783a049df2f00e4fdea4c5eb Revert "gma/gma500: fix a memory disclosure bug due to uninitialized bytes"
-5eff682213036ae3b553263fe50c2f93e2f956b5 Revert "net/mlx4_core: fix a memory leak bug."
-bcc6f6e3dfca35735ec8e5f9b92a34b33e30bcdc Revert "gdrom: fix a memory leak bug"
-b087b851145c28d0b26f61be2fa493d35671e82a Revert "media: rcar_drif: fix a memory disclosure"
-acb59d357de18bfe85dccd3974830e479e1392f0 Revert "media: usb: gspca: add a missed check for goto_low_power"
-b435713a796738c789381748c494397fc34f545a Revert "media: gspca: Check the return value of write_bridge for timeout"
-e3f591d8f90493b8c216a86744b4fc44402777e3 Revert "media: gspca: mt9m111: Check write_bridge for timeout"
-13f03f20d9d7ca29706a8512e8a39297151ed4bc Revert "media: dvb: Add check on sp8870_readreg"
-0cf46bbcc469db8e31e03dcc90776d070fe45740 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-a5a06ccaefcfb91cab4c24101c25a1a963007f43 Revert "serial: max310x: pass return value of spi_register_driver"
-8bec7186f62a67f6613086563ce21a81cdb27cd4 Revert "ALSA: sb8: add a check for request_region"
-0ccde97fe78bc5ca4107b8cd298cded9473e98a5 Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
-ebd53b8c2bdd424b398318225083066e673126e9 Revert "ALSA: sb: fix a missing check of snd_ctl_add"
-2ab9cf6f78aeaac596ec94b775cd94bcbcd286d5 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
-08d1e6fb47fb9226055d8f2fed38dd25df5741cc Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
-afcc286aae8a0d8e8010e24aea352ea0d2f32d5c Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
-74cb00edf9aadf3533c884525882f8937595db6c Revert "isdn: mISDN: Fix potential NULL pointer dereference of kzalloc"
-0a4bc012dc4ed33d7c81f47a77cfe03a1c35ba93 Revert "dmaengine: qcom_hidma: Check for driver register failure"
-9c5779fd2d2deccbfe261b49da7b37f4f214dcf4 Revert "ecryptfs: replace BUG_ON with error handling code"
-f6118957726dfd1c3eae07064ab48f9b7773c06c Revert "video: imsttfb: fix potential NULL pointer dereferences"
-8937f2add6da74cbffb134152ddd93dab8e57639 Revert "brcmfmac: add a check for the status of usb_register"
-cc86648fd4c4e9320cc148bd815ce3c535f81127 Revert "video: hgafb: fix potential NULL pointer dereference"
-d96964f2017bebcc3f99628f7850b3d70ea48c85 Revert "ASoC: cs43130: fix a NULL pointer dereference"
-c9dbb2a9fe4fc369c51c23da5ddf94451891bebe Revert "ASoC: rt5645: fix a NULL pointer dereference"
-0dab71efa4b1110e9132bc8d7055d06dda09e802 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
-0607bc80e3a865a5e9a8d6fe9879cf4abb63f633 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-ca47f44e6c749260b05fc1006f5cff6a69d315f1 Revert "qlcnic: Avoid potential NULL pointer dereference"
-914019d59c317a53800ef37db24d26712989ead3 Revert "char: hpet: fix a missing check of ioremap"
-b1c744ca45f11e0ac9c769a34bfebaeb1b380893 Revert "net: liquidio: fix a NULL pointer dereference"
-42a2b0af37b366f1e14d71d9e6f0a02ecd4a9ce5 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-151ed6eead749b4e8e1327196648f0e9b23206e9 Revert "libertas: add checks for the return value of sysfs_create_group"
-d0ae21558692affd86b8f9ece68078af368f04c7 Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
-c59fed9b1ed9ec71f96479f50455ba9c9e13654d Revert "net/smc: fix a NULL pointer dereference"
-d1dcf758cecb46217e41bd7703ec495d0ba61c9c Revert "net: stmicro: fix a missing check of clk_prepare"
-8e543e547b87826901f77b6c2cc03d3b27ec627d Revert "net: fujitsu: fix a potential NULL pointer dereference"
-a29bad1c4bdcb315c4a3b2500bb75e2ae7b381a7 Revert "rtlwifi: fix a potential NULL pointer dereference"
-37b997e53e3a7ba4486af1bf0d881cb760a15554 net: rtlwifi: properly check for alloc_workqueue() failure
-73d201b5c3bcd9af293eb8b5f8010f479b96a590 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
 
---===============5472470403721505688==--
+--===============3946185842521137127==--
