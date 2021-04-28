@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Wed, 28 Apr 2021 19:11:58 -0000
-Message-Id: <161963711818.24567.10746359454261598311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 28 Apr 2021 19:16:21 -0000
+Message-Id: <161963738197.27263.14034325399908841032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-linus
-    old: 43810cfdd2e6af9c57c0975e1b920f2b18c484b6
-    new: 38f974f061c5e7c83910bd287d2be8325476a3f9
+  - ref: refs/heads/master
+    old: a0911ca77812776ef39d47bb0cfe0d5fee3de577
+    new: dcfd0e2aded93d31de503db2c06b08f0805ec1e1
     log: |
-         a4aff96c9da2686a31db35680c1452fc8e3436de Hexagon: fix build errors
-         efc8c975f98a7c5f0fa96339f95629789017210e Hexagon: change jumps to must-extend in futex_atomic_*
-         36fac0276a9aa2dc747a6b4296e7c97c1f0e55f1 Hexagon: remove DEBUG from comet config
-         38f974f061c5e7c83910bd287d2be8325476a3f9 Hexagon: add builtins to kernel
+         07fe995a5de8c56b6e8f0d3cbcd6cc476c28a556 netdev: add user_data to netdev_send_action_frame[v]
+         f3e4266addddc48bb560dde5e54b7ae8bc2164cc ft: factor out various parsing routines
+         f4d515fc7991d3ad16f64794aa2d09642f920d3b ft: expose ft_build_authenticate_ies
+         dcfd0e2aded93d31de503db2c06b08f0805ec1e1 treewide: Get rid of non-ASCII characters
          
