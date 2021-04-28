@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 28 Apr 2021 18:16:40 -0000
-Message-Id: <161963380096.24280.9745488779425139687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 28 Apr 2021 18:28:39 -0000
+Message-Id: <161963451960.31609.17103366455940226821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 06aa84ccaf41841df51fd1744db04cb2d7c7684d
-    new: a0911ca77812776ef39d47bb0cfe0d5fee3de577
+    old: 9fd5e6ce154649376ad8c6587a674d9161a41134
+    new: abc138c83fd03c2ef6cac89f22a52788f60b609d
     log: |
-         a0911ca77812776ef39d47bb0cfe0d5fee3de577 station: Make sure roam_scan_id is always canceled
+         009ed3f1a35d044d9f38d59b195bacf7ccca66ec cert: Try TLS format in l_cert_load_container_file
+         ad08ebb68f1939415bd481d0bd31e6dd71984999 tools: Convert certchain-verify to l_cert_load_container_file
+         abc138c83fd03c2ef6cac89f22a52788f60b609d tls: Proceed after l_certchain_verify failure if no CA certs
          
