@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 28 Apr 2021 04:11:07 -0000
-Message-Id: <161958306764.5101.7938455159084043820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 28 Apr 2021 04:31:42 -0000
+Message-Id: <161958430275.18132.6947047343130278444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/experimental
-    old: 311387378069f53c8f6e131c59a75dbb34528c99
-    new: 06b836b777994c0e6f6ceaeb5ed6cb24ce080bdd
-    log: |
-         06b836b777994c0e6f6ceaeb5ed6cb24ce080bdd erofs-utils: manpage: add manual for erofsfuse
-         
+  - ref: refs/heads/for-lkp
+    old: 0000000000000000000000000000000000000000
+    new: 039686f7e8a08ea07570f16e89c41ba86cc513c5
