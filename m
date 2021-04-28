@@ -1,53 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0130740439756316636=="
+Content-Type: multipart/mixed; boundary="===============1726700657385945742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 28 Apr 2021 16:48:09 -0000
-Message-Id: <161962848954.3054.5598930910772473371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 28 Apr 2021 16:48:17 -0000
+Message-Id: <161962849743.3145.8383135964197419243@gitolite.kernel.org>
 
---===============0130740439756316636==
+--===============1726700657385945742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
   - ref: refs/heads/for-5.13
-    old: 6c9762a78c325107dc37d20ee21002b841679209
-    new: 9a5e12be6a46493e9602b1714e57aaef85fbaa01
+    old: 86527bcbc88922ea40df05d28189ee15489d2cf1
+    new: 41f48a29ebd5ce944e412f491f1876b5abeff1d6
     log: |
-         a0695853e5906a9558eef9f79856e07659b7a1e6 ASoC: stm32: do not request a new clock consummer reference
-         97c733654ab4a5ac910216b4b74e605acf3e1cce ASoC: da7219: do not request a new clock consummer reference
-         6879e8e759bf9e05eaee85e32ca1a936e6b46da1 ASoC: amd: fix for pcm_read() error
-         9a5e12be6a46493e9602b1714e57aaef85fbaa01 Merge series "ASoC: Revert clk_hw_get_clk() cleanup" from Jerome Brunet <jbrunet@baylibre.com>:
+         c7299fea67696db5bd09d924d1f1080d894f92ef spi: Fix spi device unregister flow
+         41f48a29ebd5ce944e412f491f1876b5abeff1d6 spi: altera: Make SPI_ALTERA_CORE invisible
          
 
---===============0130740439756316636==
+--===============1726700657385945742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1619628459 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1619628486-cd734637933b3649369bc9ca916b50c14ae36bee
+pusher C3F436CA30F5D8EB 1619628467 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1619628495-f0536b7e98e6121c79bbeaf20986f0177c7c8518
 
-6c9762a78c325107dc37d20ee21002b841679209 9a5e12be6a46493e9602b1714e57aaef85fbaa01 refs/heads/for-5.13
+86527bcbc88922ea40df05d28189ee15489d2cf1 41f48a29ebd5ce944e412f491f1876b5abeff1d6 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCJkasACgkQJNaLcl1U
-h9A4yQf+Msxsv5Ks8Ik6rqxjKNBCt4QW8Fs7P+O8PfZ2lTEM9fRKAl/cJyumihKV
-bb+DgjmDbvu7mq4sQ5bSKQNnCMBw4hm7dqjgP6Zj0BSqPVz++wvQJpww4ljUdXYf
-CUZsBouy+c07csV124f2i+z3tAiYQLeEK4r8KVtzYi4L+yURBCVCcNK2oi+PQAjK
-Ky9bWvdrUF6DHalfuJGWM9+NwCsfEEkl3LMa0w/+0asvM8EUyakSxSwZ/Yn6zYM6
-zQXt70YER+FvfubAmnGQAnvwHW3kicIubz1gRzD2eagC3tiQ+FhQf1ScVY1QSU1+
-sxbcZV1hvBZvwljxiD20UxgU9zMsMA==
-=WWrH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCJkbMACgkQJNaLcl1U
+h9A9gwf+NqksP+2NiVvWfrihFDF0QvcPT3eSIEA+GDnPZjQ20aw5j1iVUNhfKXzX
+G/Bk4Htg0byFc9YScYb9ibxtHdDtJunzqLeBtHTq39QMqaNpH75kbXugVAWfETKx
+XYfOvgtYVsKO2xujnePUyb53uzpk0IkCj5q36nSrK3v83lL6lb8yBQrYavJGyeBV
+9ZH0gDr4ChKMDfLE0diry3HNEk/XwjcvztJHx26WObwOAu4lsoQd3doovrzylh+j
+39tqfuG+jvjI0AxeFBBdxemlomolDT1zsLKfWO1yvjcmJy/NffQgKLbw13XCyLVM
+NuEJ8zLrAu+VZAyXoNBVwEjYcBqgzQ==
+=K3mI
 -----END PGP SIGNATURE-----
 
---===============0130740439756316636==--
+--===============1726700657385945742==--
