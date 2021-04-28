@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3648591548347170754=="
+Content-Type: multipart/mixed; boundary="===============7363731136821538617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 28 Apr 2021 21:33:45 -0000
-Message-Id: <161964562566.11671.4822190448150774386@gitolite.kernel.org>
+Date: Wed, 28 Apr 2021 21:33:59 -0000
+Message-Id: <161964563963.11797.330653338074640692@gitolite.kernel.org>
 
---===============3648591548347170754==
+--===============7363731136821538617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 3733bfbbdd28f7a65340d0058d15d15190a4944a
     new: 4a52dd8fefb45626dace70a63c0738dbd83b7edb
     log: revlist-3733bfbbdd28-4a52dd8fefb4.txt
 
---===============3648591548347170754==
+--===============7363731136821538617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -145,4 +145,4 @@ e542d29ca81d005651680a0a697b72ca13ddc4cc icmp: standardize naming of RFC 8335 PR
 15c0a64bfcbcc7a8dca805746f46ea6e746736ed net: netrom: nr_in: Remove redundant assignment to ns
 4a52dd8fefb45626dace70a63c0738dbd83b7edb net: selftest: fix build issue if INET is disabled
 
---===============3648591548347170754==--
+--===============7363731136821538617==--
