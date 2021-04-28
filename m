@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 28 Apr 2021 10:26:38 -0000
-Message-Id: <161960559896.27392.4161072034869885277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jeyu/linux
+Date: Wed, 28 Apr 2021 10:53:54 -0000
+Message-Id: <161960723410.10416.5950620701889823933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jeyu/linux
+user: jeyu
 changes:
-  - ref: refs/heads/for-linus
-    old: e861431303d23428bf26e8496252d7bee260a956
-    new: a3ffcebc87480664aef7c8283394d4cf2aec327c
-    log: |
-         970e3012c04c96351c413f193a9c909e6d871ce2 ALSA: hda/realtek: Add quirk for Intel Clevo PCx0Dx
-         a3ffcebc87480664aef7c8283394d4cf2aec327c ALSA: usb-audio: Remove redundant assignment to len
-         
-  - ref: refs/heads/master
-    old: 91b48b4cab9be252c715ba9b66f2c4aece731043
-    new: bd564acd22a8f5081d30003405d1979cbe019b11
-    log: |
-         970e3012c04c96351c413f193a9c909e6d871ce2 ALSA: hda/realtek: Add quirk for Intel Clevo PCx0Dx
-         a3ffcebc87480664aef7c8283394d4cf2aec327c ALSA: usb-audio: Remove redundant assignment to len
-         bd564acd22a8f5081d30003405d1979cbe019b11 Merge branch 'for-linus'
-         
+  - ref: refs/tags/modules-for-v5.13
+    old: 0000000000000000000000000000000000000000
+    new: c84da14173f7bfbfb2cac11ece6de8b4179669f5
+  - ref: refs/tags/v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 2d073d933799ffaa046c773bfffa01f3aa461701
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
