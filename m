@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3946185842521137127=="
+Content-Type: multipart/mixed; boundary="===============0866435742991443049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 28 Apr 2021 15:26:14 -0000
-Message-Id: <161962357410.20011.16193467955541048413@gitolite.kernel.org>
+Date: Wed, 28 Apr 2021 15:26:57 -0000
+Message-Id: <161962361778.20313.14728843514735185584@gitolite.kernel.org>
 
---===============3946185842521137127==
+--===============0866435742991443049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
-    new: acd3d28594536e9096c1ea76c5867d8a68babef6
-    log: revlist-4a0225c3d208-acd3d2859453.txt
+  - ref: refs/heads/readfile
+    old: 8846c621aaf370c1798bc2e5bd10ef9a313cd594
+    new: eb9c2f4bdf48492684e41e3ebd1304e006db6492
+    log: revlist-8846c621aaf3-eb9c2f4bdf48.txt
 
---===============3946185842521137127==
+--===============0866435742991443049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619623568 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619623611 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619623568-38375271f69c16fa683cc5d02f0fa29cca2ff8cf
+nonce 1619623611-c25a949bb06d0c726a387d4f163601dadea7b61e
 
-4a0225c3d208cfa6e4550f2210ffd9114a952a81 acd3d28594536e9096c1ea76c5867d8a68babef6 refs/heads/driver-core-testing
+8846c621aaf370c1798bc2e5bd10ef9a313cd594 eb9c2f4bdf48492684e41e3ebd1304e006db6492 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCJfpAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JXIP/1kf3CltT3D0kBujjNdZ
-7rAIiNlRdW0u4NtMkrUxrMYinrjiSyYkqGsfNOEk15Y2NwHbamFdKp2iHGU+z/r2
-Ep12gK/W7gioASjCqB/GGJXxXt+EVw198B+ct6lUhwlHnUVNcFJGSidaOv1VLtUD
-stmIZYW+swXEEJx4AEDIjdYtsd+Fyjb9GsmRASgo6Qf4sf2pUmNr3eTOimJZHD6e
-+fx+Hedu6dlj8/vTX1z+7Srxq4jQXxtbELof3RQ7mF5haqLYAhRScYRCzPAQbxFP
-iS6Wbonxo6Su01YyHyo+AixitYTce2xb1ymJy2V29VYkURV6Aj6wZfkv1jVCcqar
-qiPSPQ4g/T+o9srUhEQGnUcfukNsQkrdOdFkkukBAqZn00OCBQ7h01yywmY2CuYp
-dneh2Pika7AAoE5EDFtsfg/RL/zG773Ddd0HEQhqAfwipDM8BSo+jfrqc02kM6oX
-qro3b0BWX3m9DUwmtmRcPF4OYmZRadW452a1jyDnM0PdFK8jiymhAwZ8BIC7jk9F
-CGtIujjjAcRVj+0qLOWqqgxkseK7AgZp7Vff2bmKHiPUYu0FWh/MwwIfFQvs52Zb
-nAC/R22ACh6rM+Lae0wiWpBLc0jbiXJ5+aPaPKY9JYtP3SiNSL4Xeo8GZNb1AWEH
-y5kg7y+2HlmVKXJb/ZqR0BTn
-=vecL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCJfrsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gpAP/iYsgeKKEx7MiysTAF+W
+/FAzFGU1ESTLwR+GQUCpMOtYB6v/lGlFCX38C9jNusJceX9QnBv8qvF5ipZmXq28
+ZQlovQuvo9Fu+crZkISRV/ox3Pdk50PLflXqDYrp5H5R8nJeRuB17hhznRPC4Ujp
+0UjDYShnyLzolHai/+j31Gh0hZHnjwOjeNWI++exV/SuxLYcr1my+gBUdhDWvb1y
+5lCeofDFG6YqEm2zT0xghGYb0V165Y7Xpw96HGjEge3k83ucq5JB3zWlQomNtQX3
+uC4MGcV8bqWKAIT5hy9hREM9gee5BtNpW/vSu134KdJACFaTCvw7RxxbMORuLlvA
+pFlKTUqSALHDyhpnaW/HeS+dPDuLZpMfFbmA+3PEhRudztqI6LEtARhMpOvcJydD
+laRs61COe8Cj75o5Tg4C5G2B0csVldsOc4XsKtY8RdBfdvhhdgKiCineOJ9kL15b
+nEUiDS4VIdzzoh2dxMpPO4zDnux+bjDlV8PFhLFT8nQwVlHHCV08rM3NrSxr4j4q
+6DG4Kz90FMCW9u2h6Ke2Y6WNCntgj83B0BlcMDWswvz2XTa4D+W0VgxYsaeZ+XwK
+Xj7BXYfL/cKYtsu0X+2J9tpTdvCFEWEk26sdn7jWlUGb6feypcwfzJfEJKoWvAbR
+aGivUCW4qrIH/hcVtiDNelTy
+=x24T
 -----END PGP SIGNATURE-----
 
---===============3946185842521137127==
+--===============0866435742991443049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a0225c3d208-acd3d2859453.txt
+Content-Disposition: attachment; filename=revlist-8846c621aaf3-eb9c2f4bdf48.txt
 
 59eca2fa1934de42d8aa44d3bef655c92ea69703 x86/cpu/hygon: Set __max_die_per_package on Hygon
 fdd2c1f4e2c2e2fee1d95d18b4b06bc0d15c368a um: synchronize kmsg_dumper
@@ -386,5 +386,9 @@ eb6bbacc46720b8b36eb85b2cdd91b9e691959e4 Merge tag 'livepatching-for-5.13' of gi
 2a68c268a18317a013961e8faf6eaabc81a94e6b Merge tag 'linux-kselftest-next-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 1e9599dfc47a171f7ba76a9651fe86baab364af5 Merge tag 'linux-kselftest-kunit-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 acd3d28594536e9096c1ea76c5867d8a68babef6 Merge tag 'fixes-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security
+ba541b24df2deed858a8302f6356f1ef188bb69d readfile: implement readfile syscall
+7d455e44de503872e7f3bf51e103e8abc4bc2ab6 arch: wire up the readfile syscall
+ed525e1c08a95ca1b28504f88b49fde888cf4fd8 selftests: add readfile(2) selftests
+eb9c2f4bdf48492684e41e3ebd1304e006db6492 readfile.2: new page describing readfile(2)
 
---===============3946185842521137127==--
+--===============0866435742991443049==--
