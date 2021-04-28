@@ -1,73 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============0351161912519785628=="
+Content-Type: multipart/mixed; boundary="===============2217626857450865915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 28 Apr 2021 11:42:34 -0000
-Message-Id: <161961015412.5252.10205705109879863625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 28 Apr 2021 11:42:42 -0000
+Message-Id: <161961016235.5394.17504720431514549719@gitolite.kernel.org>
 
---===============0351161912519785628==
+--===============2217626857450865915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.11
-    old: 026c3ba294691a8910a0bcc2fe1f76fee8a4551c
-    new: 7e822193dcbcf82d9ee02547440a1fa246eda850
-    log: revlist-026c3ba29469-7e822193dcbc.txt
+  - ref: refs/heads/linux-5.11.y
+    old: e2d9bf3473cc6eed316d69500df52854233bce00
+    new: feaeae9aef5e0cf1c2afad3ca403f6451125c77d
+    log: revlist-e2d9bf3473cc-feaeae9aef5e.txt
 
---===============0351161912519785628==
+--===============2217626857450865915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-026c3ba29469-7e822193dcbc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3834ef44903473180b11aef75216a2284d014dda vhost-vdpa: protect concurrent access to vhost device iotlb
-8380afbd26a144d7711ae1d481fcf773a80bc2bb ovl: fix reference counting in ovl_mmap error path
-885f14e3d3ff218c6b15e574cd624fb03a196d91 coda: fix reference counting in coda_file_mmap error path
-c0c62261f6616bf175aba90d390adc9905375a17 amd/display: allow non-linear multi-planar formats
-64c7fbf05785f294e1279e94182b1b1b9cf33159 drm/amdgpu: reserve fence slot to update page table
-f550bf4886d628e751ee2a4d93a1f7548b1563e9 drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
-a6051f22143d777aec8f33a500a61cc45c85fb42 gpio: omap: Save and restore sysconfig
-09ecb66664c1b76c1f7667a036af2c8e62214b9e KEYS: trusted: Fix TPM reservation for seal/unseal
-9e35d7461a8cf9c860d17cbebe3b6d16c23430cd vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-db135ea819cf76c0f82965d908d916b1f1cb52a9 pinctrl: lewisburg: Update number of pins in community
-b9a33c34fd93c1b47b0110b21b6e1e52d952f479 block: return -EBUSY when there are open partitions in blkdev_reread_part
-d16f056f6ba05d16084a1e0dd0ee5502e13d0471 pinctrl: core: Show pin numbers for the controllers with base = 0
-4b7bd8d0456da9e1129c431233c2e4e3259a5772 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-4ee60f9c74289b70e58d2d2f1582348dead1121b bpf: Allow variable-offset stack access
-1694c2da02e40dbb86cd5f8392a5dba1c9bfd898 bpf: Refactor and streamline bounds check into helper
-7ea3450359620217a14b75dcfaac24a44038399d bpf: Tighten speculative pointer arithmetic mask
-33ff5bc1614ba83f245ffcbcbeaba01599355291 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-8a2921034f36aeb41f5e108b2f93d95423c28479 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-9968c5fbc7d44016b16c08da77dae460cd19b6f0 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-dec99101b80db6821c325385f6f4a4431a14d1fb perf auxtrace: Fix potential NULL pointer dereference
-28ec0067b248eb035e193d9cd9fd6d6544b09d74 perf map: Fix error return code in maps__clone()
-72f06fa6dca4144571eb03aa1a738c5e75000d40 HID: google: add don USB id
-a41a82fc2247e6f2cdbc28dc5651ef658e929ca1 HID: asus: Add support for 2021 ASUS N-Key keyboard
-22057cc0b9c6480df1527d4e2357cc7ca86461ab HID: alps: fix error return code in alps_input_configured()
-c3236052a5776f1ff1861ffb32d28a2853739b45 HID cp2112: fix support for multiple gpiochips
-453078b408b0abd3f9b59f95dfef9125df1c2609 HID: wacom: Assign boolean values to a bool variable
-962d58ad9a47ec10d049c3575aff41e95534e1a9 soc: qcom: geni: shield geni_icc_get() for ACPI boot
-38d4e6f663fc4bca3fc31541c119a0d8093a5ea4 dmaengine: xilinx: dpdma: Fix descriptor issuing on video group
-eb916f67a5ff6c90c39fdb1851713c64dea0e9fd dmaengine: xilinx: dpdma: Fix race condition in done IRQ
-8f1f2a61f207b9841beedbbf86501d0fd71f7f7e ARM: dts: Fix swapped mmc order for omap3
-52b8110c9d4e3c660756890fc4fea32ee09bb967 m68k: fix flatmem memory model setup
-ddf337e39ebe2bc5dda38276b89bcb7ac7b1c83d net: geneve: check skb is large enough for IPv4/IPv6 header
-7820ed2c6f5bfd23bc639eeaff8ebe13fb144503 dmaengine: tegra20: Fix runtime PM imbalance on error
-d542f74b7751af3567d85d624626adb1bc166dbb s390/entry: save the caller of psw_idle
-df46e3fdb8f3856b708f688051e5a7e993a2a19e arm64: kprobes: Restore local irqflag if kprobes is cancelled
-62789242881dba2109012e4889735e8d89e8df39 xen-netback: Check for hotplug-status existence before watching
-f7af6d98cebf126bba4655db283574f970d7ec75 cavium/liquidio: Fix duplicate argument
-035ba06d6cac1fb72983835e480815f85d058b2f csky: change a Kconfig symbol name to fix e1000 build error
-2b46234d31c68deb5f0db6c7dafd06536adca88a ia64: fix discontig.c section mismatches
-55a55619bd8816cc568d5936e650eebb47608abd ia64: tools: remove duplicate definition of ia64_mf() on ia64
-ce2102efc0087f5554a3d19c68a082de0672b951 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-7e367643d7e6c255eefbf81f148f0d0de20c10e6 net: hso: fix NULL-deref on disconnect regression
-7e822193dcbcf82d9ee02547440a1fa246eda850 USB: CDC-ACM: fix poison/unpoison imbalance
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619610160 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1619610158-c23b96b859b862e7e4725d210b93caa58d8f3dd2
 
---===============0351161912519785628==--
+e2d9bf3473cc6eed316d69500df52854233bce00 feaeae9aef5e0cf1c2afad3ca403f6451125c77d refs/heads/linux-5.11.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCJSjAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fGYP/As47P9W1GFm7BJuS92r
+yNRgstPDgAzLEiXhh7GK/co7np4aHxHfNrpP5Q5by+J4xTryqM6JYaD/piIUuOK5
+w6dfYI9JDRCZ7E0ooy4FoBRvF3a9+6kHOgMuGTXg50B19LhNjSDqhJdn4zq/uWcD
+bMjNph/IXfrrHT75amHCalgl8wKc4PmnT7dindwAxqPuxne6KALM7R6dKssbCT57
+cbmSzk7yAF4gOgCgHDLN8/CRALLXwpWB+khpjqnnEEMDNDhQw/oqholc7lQatBSP
+vwLKR8pAIhWilwjKw+GamBJgi/qVRIM+Qka8PkInuTL4w0u60o3X7LJUqyCx82pq
+OrdrOcmSeUY6As/+xypmlOWHgExZRohvnSnm0dy/FK5HWQ0EvBLK9sE4kW9uikWH
+xYbt17vrM/nO+nCyJCN8Ap2kEe4CWwBblXOcPs6KXImu76cP31uA+3XsCuV1Rz8m
+WJtSHdVxD7Ce6oURh3WucKMxGjwnM8Ocb4kzq6eqp+NR8SfacPaK/fkH3QbnbTrx
+1ROtHbsLi9sPsRa9ZSCdw8A7ub1RawYfB1JH/a0Y/8bMNl4nItjuvML6mL5ONpf3
+Gcqwu3nXIIbVxSOEFXLL5pF0ZwTbKPOgXc3BPQ4JGX6dmRojEVKccWYcrEY+pe6w
+XQjrPua1mkmTPXZrMlpwdCJ/
+=qCEu
+-----END PGP SIGNATURE-----
+
+--===============2217626857450865915==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e2d9bf3473cc-feaeae9aef5e.txt
+
+8f96788e307803d3a255c808d38002d329c38ee0 vhost-vdpa: protect concurrent access to vhost device iotlb
+f65c0fdb7db2750677bf2cb53e62d7d205c20ab5 ovl: fix reference counting in ovl_mmap error path
+99e396d86582e4be02c717e93126de5d83f7b8a6 coda: fix reference counting in coda_file_mmap error path
+6da01fd5e429f47fe8df2a37a563801d8706441c amd/display: allow non-linear multi-planar formats
+517b45ce44dfb686a5401c27636680bdee00209c drm/amdgpu: reserve fence slot to update page table
+3044b14174a31e49c891d2131f57a55ca4c78edb drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
+c7bb634881bf347b7c5636de436a221b1275af09 gpio: omap: Save and restore sysconfig
+39c8d760d44cb3fa0d67e8cd505df81cf4d80999 KEYS: trusted: Fix TPM reservation for seal/unseal
+d219743da96cc097d021559c1f15243e02d900df vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
+2bb0a482019e962bfd67263723f2fb24241afb80 pinctrl: lewisburg: Update number of pins in community
+785bdb3f1c1c83ee2f38afe8b0bc73f229fae598 block: return -EBUSY when there are open partitions in blkdev_reread_part
+5045b3921d6c62171560916cd3bd78570c599de8 pinctrl: core: Show pin numbers for the controllers with base = 0
+759fb61184a23c0b41406300466cf32266c28c0b arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
+d1b725ea5d104caea250427899f4e2e3ab15b4fc bpf: Allow variable-offset stack access
+2f5cfb7f36ea3ae0866c1bf0d1effa5b88366c28 bpf: Refactor and streamline bounds check into helper
+da63d034f87b637d81460fad3711e3c504206e9b bpf: Tighten speculative pointer arithmetic mask
+d558fcdb17139728347bccc60a16af3e639649d2 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
+d2c79105a90323a2a93484c85f9ac419ae9b183d perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
+31216482abe66f2a7a5b776bf52ab4215e8ba130 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
+508a1c43118e0f7d0268233a186d2e3112f290b5 perf auxtrace: Fix potential NULL pointer dereference
+48189362d36a1eea371e295cad845a69c4def65e perf map: Fix error return code in maps__clone()
+9e2d9f1d52c67ea943e9b8ba50576224a79f9268 HID: google: add don USB id
+1cf8067cc96becd0d728af149878000700d27e85 HID: asus: Add support for 2021 ASUS N-Key keyboard
+bf9c9d615a9d772ba34a81ef6fac91f263cdbc35 HID: alps: fix error return code in alps_input_configured()
+f8d689368e504610d4ee622f7bd827ade448cb20 HID cp2112: fix support for multiple gpiochips
+1b490f73c55b832c8d1ed1abfc7467639465fc5a HID: wacom: Assign boolean values to a bool variable
+77ac7b25a80e7a303c803230cc1595d976bfd1ae soc: qcom: geni: shield geni_icc_get() for ACPI boot
+cea1e229a5fab9a3e201385735fce01992dac4ac dmaengine: xilinx: dpdma: Fix descriptor issuing on video group
+c37076738ff4080d49b2dd01402e3aff5d130614 dmaengine: xilinx: dpdma: Fix race condition in done IRQ
+1baa29c660b8b75c1cd06e743d9faca7ee323b1f ARM: dts: Fix swapped mmc order for omap3
+8b9c42fdd6ee40a316672e2052d729bac4ae2583 m68k: fix flatmem memory model setup
+a8804e6fb289d16a5c421eebbd4d45783d648462 net: geneve: check skb is large enough for IPv4/IPv6 header
+50ef92b0d109f614534880e543d527a3135797ab dmaengine: tegra20: Fix runtime PM imbalance on error
+eaabcb715243be5c7db0613e532a697732825a40 s390/entry: save the caller of psw_idle
+569df2316993d8485c10da9dc7b024321124c95a arm64: kprobes: Restore local irqflag if kprobes is cancelled
+e7868f01aebc045da72c29494b1382f71e6029bc xen-netback: Check for hotplug-status existence before watching
+3d19a9e8b8233438d41afc03f0cd226ae74dd953 cavium/liquidio: Fix duplicate argument
+0f7a140e43ca7acd3202c9ad20456cbba918e681 csky: change a Kconfig symbol name to fix e1000 build error
+d571012a0242966fe42ea334e46d07ea11f700f0 ia64: fix discontig.c section mismatches
+3588df93d99d5cbdca1b40e7f7d17c431ed8e90a ia64: tools: remove duplicate definition of ia64_mf() on ia64
+b05db6d4d0a9e82de9219549b0a07a9294ba8fe9 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+0f000005da31f6947f843ce6b3e3a960540c6e00 net: hso: fix NULL-deref on disconnect regression
+469633d344ba25e37b317dcf687f306ebe0c2bd4 USB: CDC-ACM: fix poison/unpoison imbalance
+feaeae9aef5e0cf1c2afad3ca403f6451125c77d Linux 5.11.17
+
+--===============2217626857450865915==--
