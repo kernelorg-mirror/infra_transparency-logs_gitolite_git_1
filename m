@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 28 Apr 2021 15:08:11 -0000
-Message-Id: <161962249133.7971.10298904080967355412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 28 Apr 2021 15:08:42 -0000
+Message-Id: <161962252241.8225.7659526864625699893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: f40471c7004d6a1aaa15e4166e0e68bba1e7d0cc
-    new: e4a27588ac81d8a512216b354f12e0357f91649e
+  - ref: refs/heads/dev-queue
+    old: a8c92b673acaf0e6b6d23a58881a33dbbc0dc4f0
+    new: 0d20bffdab2ac8d7fa2dac91ea77846c6d198919
     log: |
-         4cd014dedfd84f03ec61f0c899641bffcce8a5c4 perf session: Add swap operation for event TIME_CONV
-         e4a27588ac81d8a512216b354f12e0357f91649e perf session: Dump PERF_RECORD_TIME_CONV event
+         f5f0af8e24f1aef788f444a7db360ab80b8f62da i40e: fix broken XDP support
+         0d20bffdab2ac8d7fa2dac91ea77846c6d198919 ice: Enable configuration of number of qps per VF via devlink
          
