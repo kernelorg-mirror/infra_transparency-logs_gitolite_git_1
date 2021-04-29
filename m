@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0556032109825966455=="
+Content-Type: multipart/mixed; boundary="===============1912119310169827636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 29 Apr 2021 03:18:18 -0000
-Message-Id: <161966629853.28960.13039934079911501411@gitolite.kernel.org>
+Date: Thu, 29 Apr 2021 03:18:23 -0000
+Message-Id: <161966630388.29049.7107139005384132495@gitolite.kernel.org>
 
---===============0556032109825966455==
+--===============1912119310169827636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f77a62b5ebe29eaba94314341d199ec0f80aa1e8
-    new: bfb85ad2ed4198f386be04e0446331b224277383
+  - ref: refs/heads/5.14/scsi-staging
+    old: b29d16915e30c36d1aabedd4115043a770248f51
+    new: abee3840c81e07b91eb26b0d759c41086df09ab2
     log: |
          8cf1c76359a4cc12cca2a5b4e4a436da5648e2aa scsi: megaraid_sas: Use DEFINE_SPINLOCK() for spinlock
          4113d1655cafcf0b3e29a1df0f4704b61f31cee1 scsi: storvsc: Use blk_mq_unique_tag() to generate requestIDs
@@ -29,33 +29,33 @@ changes:
          abee3840c81e07b91eb26b0d759c41086df09ab2 scsi: ufs: sysfs: Resume the proper SCSI device
          
 
---===============0556032109825966455==
+--===============1912119310169827636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1619666296 -0400
+pusher 75C5DE3D 1619666302 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1619666296-6ffe50790f3a87cbd1cbf9b08b6a2c647fd70dbf
+nonce 1619666302-ef0425bde0343ec94d764cb79189732dfa19fa49
 
-f77a62b5ebe29eaba94314341d199ec0f80aa1e8 bfb85ad2ed4198f386be04e0446331b224277383 refs/tags/mkp-scsi-staging
+b29d16915e30c36d1aabedd4115043a770248f51 abee3840c81e07b91eb26b0d759c41086df09ab2 refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCKJXgACgkQ7ulgGnXF
-3j280BAAiAftq5GXJN41sBgKKSR2GhaFEi9vdOv4UTto0HCQT84hXqNTlszc+a88
-Cf+A6mK0uUHFBP9TGaCUn8+07OP6vGTXZyjt8j+PXuZLoQ5uNFGtTZGCRkYAi0qH
-J5hbg8jSS3fqOVYdlSmma1YpwsHE1bpIpQCx/PKLrvIvw8NP5mFi/gv1WRNb+fz5
-b/YVW7q7W3Pmo3QD/Wm6u+R1bjlxtzLrUa5NrZRKreQk73HW2UdtVDCOILEDpS2R
-1eP8NAmO63PW3avIVgEXXO20PfcGEogdnszn1x2Iy2azfEcxL2H9fni0spkhnGwV
-89s1k/J3+mSvvCtTM5UW94eV8f7NLA3m/ObrG2HXy08jX89YTnfP1O3ddpMz4CrC
-2uSV5CHgsjZBQtlwjqW3/TnTC7seSpkQj+UDPghkJw1f/drkPaNVhLUpjufJ6W4/
-RfyYtvi0kdlfd+fZAmTKaWkthgoNEgG85WAhnUAOyXqWqcxuN1WoD2lbAo1+Hp48
-RMk77NNUEarI/nP9InE8xvYNNCP1mMRX4jyJjXpGIuywzMMGISAOjb7jQUXPrcmW
-vyYF3wMRfjEbBljTqMCiSKBcdC0eqg1eVatQRLx7Dt9ZXTbqTof3c4udhIn9VE33
-cKPctGCvD2Qk+fJX3ssL/qAdd17jUQ/6Rj8qIB/M9/NF7tIbles=
-=g7Va
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCKJX4ACgkQ7ulgGnXF
+3j11vA/+OiIiUiTfws3hiF2BSURrYnqGw030j2B8fesbTLW36X4x9O3F9XkXd/zI
+JYOvhIOzNhV5VyWzOwospIgZrPqmKrFjM0t8IbqGMVvjjbvAMiQ18TK204OBDlT8
++6MmmeZhxhM/PdLizMULyIElY/xNOO4kIem+t/1kgYO9z/6b6RmKPiCQbT9J0ypk
+cuZHjxrTpW2kjqgV/NJxAFi61kqP1AMRJEuXxOvBOdbQIhf7lvHHDAxm/fEksYwo
+QqWLcW//t4zbyTkt2tTgTAUwvZ3XlGS60MzRaTwAneK4nC8P+bRX///Yj/CoTdMK
+5MMpgGVwSluHDH4mq4LHniw861DCG1S91kpq/bvXHupP3LKZkLyOTndO1U9JkM36
+4oLUetfGjEYJ3RCaFDCnBYry6ev2GwsnbIVJE47lGBSJEa6T/1WHEYkRm/SWS30v
+qADgdf9sBKRtkAE9c9X+1DOWBzwVbForeN8ByLKxYCBg80UtuJbmxr0SIv63WrMp
+PuB1cF8rtbOuy6sPA8mNcu9yV7XOffsdYlKLxjnt/2HB14iLJswKf/8kPB7oT5+y
+kzNnaFQ311LdA0YvcPvegoPFvKJ7lPApXbt0FFEXYg9E3abEOSLrEJzB3Qn+QQRC
+fDdRea03Os/aL+Qb6+4wWcYKy4rv1X+KQOLSkPxfECnqV/WFLTk=
+=NR6j
 -----END PGP SIGNATURE-----
 
---===============0556032109825966455==--
+--===============1912119310169827636==--
