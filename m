@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1872727319480666201=="
+Content-Type: multipart/mixed; boundary="===============0556032109825966455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 29 Apr 2021 03:18:12 -0000
-Message-Id: <161966629202.28841.13913908527997163694@gitolite.kernel.org>
+Date: Thu, 29 Apr 2021 03:18:18 -0000
+Message-Id: <161966629853.28960.13039934079911501411@gitolite.kernel.org>
 
---===============1872727319480666201==
+--===============0556032109825966455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: e4ec10228fdf09b88ba018009f14a696fb50d3f2
-    new: ce4f62f9dd8cf43ac044045ed598a0b80ef33890
+  - ref: refs/tags/mkp-scsi-staging
+    old: f77a62b5ebe29eaba94314341d199ec0f80aa1e8
+    new: bfb85ad2ed4198f386be04e0446331b224277383
     log: |
-         2f1137140fbcffad582d9e5eacc7f189ae0cc110 scsi: ufs: core: Fix a typo in ufs-sysfs.c
-         9814b55cde0588b6d9bc496cee43f87316cbc6f1 scsi: target: tcmu: Return from tcmu_handle_completions() if cmd_id not found
-         000e68faefe6240ea2e4c98b606c594b20974fb7 scsi: qla2xxx: Add marginal path handling support
-         fcb16d9a8ecf1e9bfced0fc654ea4e2caa7517f4 scsi: qla2xxx: Prevent PRLI in target mode
-         23043dd87b153d02eaf676e752d32429be5e5126 scsi: ufs: core: Do not put UFS power into LPM if link is broken
-         637822e63b79ee8a729f7ba2645a26cf5a524ee4 scsi: ufs: core: Cancel rpm_dev_flush_recheck_work during system suspend
-         ce4f62f9dd8cf43ac044045ed598a0b80ef33890 scsi: ufs: core: Narrow down fast path in system suspend path
+         8cf1c76359a4cc12cca2a5b4e4a436da5648e2aa scsi: megaraid_sas: Use DEFINE_SPINLOCK() for spinlock
+         4113d1655cafcf0b3e29a1df0f4704b61f31cee1 scsi: storvsc: Use blk_mq_unique_tag() to generate requestIDs
+         cbe87bd7dd823a023e4c8790d16f9ff27fe07953 scsi: arcmsr: Fix the wrong CDB payload report to IOP
+         ea9206d83a7d914c4ffeb070d8eb5ef56e7b8184 scsi: arcmsr: Update driver version to v1.50.00.04-20210414
+         123d71cfcab332fbaa36dad436004f54cd3ad932 scsi: qla4xxx: Simplify conditional
+         cb7e6f05fce67c965194ac04467e1ba7bc70b069 scsi: ufs: core: Enable power management for wlun
+         abee3840c81e07b91eb26b0d759c41086df09ab2 scsi: ufs: sysfs: Resume the proper SCSI device
          
 
---===============1872727319480666201==
+--===============0556032109825966455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1619666290 -0400
+pusher 75C5DE3D 1619666296 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1619666290-1578188cdad09221c09e5fd0bafec8973287b878
+nonce 1619666296-6ffe50790f3a87cbd1cbf9b08b6a2c647fd70dbf
 
-e4ec10228fdf09b88ba018009f14a696fb50d3f2 ce4f62f9dd8cf43ac044045ed598a0b80ef33890 refs/heads/fixes
+f77a62b5ebe29eaba94314341d199ec0f80aa1e8 bfb85ad2ed4198f386be04e0446331b224277383 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCKJXIACgkQ7ulgGnXF
-3j36Fw//eBonkagJTvgRXtSpigtWoCe5eJg5ysRdfzBJomU06KouOZB0l2KMLnsk
-vQwVBgPa3LTl1K+6PbVkTSSOMm3alLHvgCSQgSuQXiqhRALRZpWDrfkQLa1UnmlU
-EBQ4clkv6NJX4OO0d20qGijZh9hNgaTTm6AJAisgsgk4jmXYFSwOHGIKzjuurC4T
-+rrGuM9lQd1DjG60YM4vrsa0ocWHsXlvpgq99Rl2/qxbq6O4xpmkBnzHBInkQ3BU
-++IvU4YFEspgN4WzmOxgZ8f3NBDoF/YPhzawfdn7TXm/mCS8SnO9y1nTOqrPdC1B
-oeGxXMQwC8F7HX7QWiRkZcjnEGlwPrRkLJ+BwnYPCpQMMNJg2Y5yx1c8gXfz/G1Q
-tuQdoZRLKxGBoB1NI3K5Kj7i2B0T3g4+uablow3elltxqXVCNlHsL8QOFmHFveTt
-kIEOyaP0+5KpXRgrziJKM6KRrSoqZxYHQDR5iDcF7Q4II4xprrhrxT/0rn6xvitY
-EfSxW6rofV8ZHn3GnB6DFj+m4xG5V23QYil1x3ct/4A1kXKMQSxMO3b71GWpLw7s
-rX9TdPqELS54rVPbB83OuyE2uMar1Yb88x/fAu33arDP75xYL73F7h1wR7d5MLZ9
-wWvE6/yD1Oyut0YhRHhnyrtFzPJO0HHKTVGpJB2Yaf5OKl8U3g4=
-=SzPv
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCKJXgACgkQ7ulgGnXF
+3j280BAAiAftq5GXJN41sBgKKSR2GhaFEi9vdOv4UTto0HCQT84hXqNTlszc+a88
+Cf+A6mK0uUHFBP9TGaCUn8+07OP6vGTXZyjt8j+PXuZLoQ5uNFGtTZGCRkYAi0qH
+J5hbg8jSS3fqOVYdlSmma1YpwsHE1bpIpQCx/PKLrvIvw8NP5mFi/gv1WRNb+fz5
+b/YVW7q7W3Pmo3QD/Wm6u+R1bjlxtzLrUa5NrZRKreQk73HW2UdtVDCOILEDpS2R
+1eP8NAmO63PW3avIVgEXXO20PfcGEogdnszn1x2Iy2azfEcxL2H9fni0spkhnGwV
+89s1k/J3+mSvvCtTM5UW94eV8f7NLA3m/ObrG2HXy08jX89YTnfP1O3ddpMz4CrC
+2uSV5CHgsjZBQtlwjqW3/TnTC7seSpkQj+UDPghkJw1f/drkPaNVhLUpjufJ6W4/
+RfyYtvi0kdlfd+fZAmTKaWkthgoNEgG85WAhnUAOyXqWqcxuN1WoD2lbAo1+Hp48
+RMk77NNUEarI/nP9InE8xvYNNCP1mMRX4jyJjXpGIuywzMMGISAOjb7jQUXPrcmW
+vyYF3wMRfjEbBljTqMCiSKBcdC0eqg1eVatQRLx7Dt9ZXTbqTof3c4udhIn9VE33
+cKPctGCvD2Qk+fJX3ssL/qAdd17jUQ/6Rj8qIB/M9/NF7tIbles=
+=g7Va
 -----END PGP SIGNATURE-----
 
---===============1872727319480666201==--
+--===============0556032109825966455==--
