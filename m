@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 29 Apr 2021 16:08:17 -0000
-Message-Id: <161971249772.23078.14835946139079640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 29 Apr 2021 16:14:30 -0000
+Message-Id: <161971287075.26164.7568165332796799094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 2411605ea623055111bad0b1844d60b6bf04cdd6
-    new: 8bcca26585585ae4b44d25d30f351ad0afa4976b
+  - ref: refs/heads/testing/Warray-bounds
+    old: abe4e8233c005b4b0b394128ac03403543d336d3
+    new: 5701d11321a650d1100ae0d352a16e83b926de97
     log: |
-         294353d950ab3e47d7694d382e50c887206f541a PCI: dwc: Move dw_pcie_msi_init() to dw_pcie_setup_rc()
-         7d499169f793083c83bcc6e31170be8f36087075 PCI: dwc/intel-gw: Remove unused function
-         8bcca26585585ae4b44d25d30f351ad0afa4976b PCI: dwc: Move iATU detection earlier
+         5e6daa956f17e6704597ea6b61664dc2e3aa8669 media: ngene: Fix out-of-bounds bug in ngene_command_config_free_buf()
+         9be31d4668055a860a33cc21c8a56279ca94639e wireless: wext-spy: Fix out-of-bounds warning
+         5701d11321a650d1100ae0d352a16e83b926de97 scsi: aacraid: Replace one-element array with flexible-array member
          
