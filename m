@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Thu, 29 Apr 2021 23:23:31 -0000
-Message-Id: <161973861103.28324.15605122082586991254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bwh/klibc-maint
+Date: Thu, 29 Apr 2021 23:24:48 -0000
+Message-Id: <161973868868.28849.1878612578346868007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
+repo: pub/scm/linux/kernel/git/bwh/klibc-maint
 user: bwh
 changes:
   - ref: refs/heads/master
-    old: 7599fa189ed558b94dc2bf7f38450a0972d70653
-    new: 2e48a12ab1e30d43498c2d53e878a11a1b5102d5
+    old: 98c69e6f8c0996531013f6d7ee4a87af6e9d097c
+    new: e8e56b8d3b3785ff84385a9affa9d366bdcefe84
     log: |
-         0a24a9e26cad8b6fe83c53c55d080365bf465d57 [klibc] Define SIZE_MAX in <stdint.h>
-         8e88e0aafb402e11c61b9e2e377406afdb42f69e [klibc] tests: Add test for malloc size arithmetic
-         7f6626d12daa2f1efd9953d1f4ba2065348dc5cd [klibc] malloc: Set errno on failure
-         a31ae8c508fc8d1bca4f57e9f9f88127572d5202 [klibc] malloc: Fail if requested size > PTRDIFF_MAX
-         292650f04c2b5348b4efbad61fb014ed09b4f3f2 [klibc] calloc: Fail if multiplication overflows
-         abe5c3477ffa5e91029ef040aede622145dcc777 [klibc] malloc: Fail if block size is out of range for sbrk
-         9b1c91577aef7f2e72c3aa11a27749160bd278ff [klibc] cpio: Fix possible integer overflow on 32-bit systems
-         2e48a12ab1e30d43498c2d53e878a11a1b5102d5 [klibc] cpio: Fix possible crash on 64-bit systems
+         6848ade239f300e5ace8c1d2d93dd23415ef07be test-many-klibc: Change $makeflags to an array variable
+         71f13bab4da165c80bd17aa2e5ff8d0798038633 test-many-klibc: Enable sparc
+         9b0bdf020ee950e801868e9220c19ae5711b48f6 test-many-klibcs: Use patchelf to allow running shared-library binaries
+         e8e56b8d3b3785ff84385a9affa9d366bdcefe84 test-many-klibc: Don't clean the build directory after a failure
          
