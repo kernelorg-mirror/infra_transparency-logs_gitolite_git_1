@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7156887106795558719=="
+Content-Type: multipart/mixed; boundary="===============5816735576294329430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 29 Apr 2021 18:16:02 -0000
-Message-Id: <161972016284.3101.13382683472350496145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Thu, 29 Apr 2021 18:16:09 -0000
+Message-Id: <161972016998.3236.14312050871771288048@gitolite.kernel.org>
 
---===============7156887106795558719==
+--===============5816735576294329430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: d2b6f8a179194de0ffc4886ffc2c4358d86047b8
     log: revlist-9f4ad9e425a1-d2b6f8a17919.txt
 
---===============7156887106795558719==
+--===============5816735576294329430==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d72cd4ad4174cfd2257c426ad51e4f53bcfde9c9 Merge tag 'scsi-misc' of git://git.kern
 f2c80837e27e67e91ad93f41f0849be28b808b14 Merge tag 'gfs2-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 d2b6f8a179194de0ffc4886ffc2c4358d86047b8 Merge tag 'xfs-5.13-merge-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============7156887106795558719==--
+--===============5816735576294329430==--
