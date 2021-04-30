@@ -1,31 +1,102 @@
-Content-Type: multipart/mixed; boundary="===============5937773792672519641=="
+Content-Type: multipart/mixed; boundary="===============5986952923539581668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 30 Apr 2021 23:45:22 -0000
-Message-Id: <161982632298.13691.11807132326705496098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 30 Apr 2021 23:50:09 -0000
+Message-Id: <161982660926.17670.1984276007829824858@gitolite.kernel.org>
 
---===============5937773792672519641==
+--===============5986952923539581668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 9d31d2338950293ec19d9b095fbaa9030899dcb4
+    old: 8ca5297e7e38f2dc8c753d33a5092e7be181fff0
     new: 9f67672a817ec046f7554a885f0fe0d60e1bf99f
-    log: revlist-9d31d2338950-9f67672a817e.txt
+    log: revlist-8ca5297e7e38-9f67672a817e.txt
 
---===============5937773792672519641==
+--===============5986952923539581668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d31d2338950-9f67672a817e.txt
+Content-Disposition: attachment; filename=revlist-8ca5297e7e38-9f67672a817e.txt
 
+50554accf7a79980cd04481e8903073bdb706daf pinctrl: add a pincontrol driver for BCM6368
+9b3303413379af8bed307cd465fe7aa1bc3569ea dt-bindings: add BCM63268 pincontroller binding documentation
+ff8324355d7ae2e4ebbd304de27bb5fa75e20c6a dt-bindings: add BCM63268 GPIO sysctl binding documentation
+155cca1b0794a8f541e7eaa45be70df0a49964f3 pinctrl: add a pincontrol driver for BCM63268
+b2f215141b985d5d39ed16fe7e2089d5aa162302 dt-bindings: add BCM6318 pincontroller binding documentation
+b6d46b9454742a25f9d923be072869e40b2ecebb dt-bindings: add BCM6318 GPIO sysctl binding documentation
+d28039fccf948a407de69106465caa465b1dcf32 pinctrl: add a pincontrol driver for BCM6318
+33121347fb1c359bd6e3e680b9f2c6ced5734a81 module: treat exit sections the same as init sections when !CONFIG_MODULE_UNLOAD
+0803a5cb5b7cf369c3e2af4108ee44d0b6e1c197 ASoC: dwc: Fix -Wmissing-prototypes warnings
+23f23db29ac996a824dce2b3a800c7a002f1c480 ASoC: amd: update spdx license for acp machine driver
+d463cead11ace05c81de31a0fb9c2507c5c1d0a2 ASoC: amd: fix acpi dependency kernel warning
+502e5321d89214a34a7b8bda697fc98d14b51cae ASoC: fsl_rpmsg: initialise pointers to NULL
+c1c03888f1e89e669aa6da0c9a491f02fd6a999e ASoC: SOF: parse multiple SSP DAI and hw configs
+e12be9fbfb91173b3aa358466ce0474823be2695 ASoC: SOF: Intel: HDA: add hw params callback for SSP DAIs
+c943a586f6e49998b323afbd7f788afabf6ed89b ASoC: SOF: match SSP config with pcm hw params
+2fd8db2dd05d895961c7c7b9fa02d72f385560e4 fs: dlm: fix missing unlock on error in accept_from_sock()
+3de72d6a282271f82000fe163296d95f8db05632 Merge series "Add mediatek MT6359 ASoC accdet jack driver" from Argus Lin <argus.lin@mediatek.com>:
+05bc941403d6695f063022531ae2acae9f79b362 drivers: pinctrl: Remove duplicate include of io.h
+22667a63fe3e5fbda7b02ac51d769ad906a385b2 Merge tag 'intel-pinctrl-v5.13-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into devel
+762bee3e3e9f42cafdb3ead64b7aee37f9b7369f Merge branch 'ib-bcm63xx' into devel
+a6ad93e37e76ec43c9cee6a91dd783fb854c2ff1 Merge tag 'platform-drivers-x86-surface-aggregator-v5.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into for-5.13/surface-system-aggregator-intergration
+b05ff1002a5c19f2fd511c6eada6f475ff701841 HID: Add support for Surface Aggregator Module HID transport
+35a927f2848bd79586c6374ebb99e4207f3b0c7f HID: surface-hid: Add support for legacy keyboard interface
+66ff89946e6a71e48acaecfd5190038922b8e96a HID: fix memdup.cocci warnings
+f556de6087f0d19825ffcdddc4816f83ddfd35e3 ASoC: mediatek: mt6359: Fix spelling mistake "reate" -> "create"
+c7721e94279887f9dd8f4be303f2054bb5477c9e ASoC: Intel: add max98390 echo reference support
+96fadf7e8ff49fdb74754801228942b67c3eeebd ASoC: q6afe-clocks: fix reprobing of the driver
+abc21649b3e5c34b143bf86f0c78e33d5815e250 ALSA: core: remove redundant spin_lock pair in snd_card_disconnect
+1fa4445f9adf19a3028ce0e8f375bac75214fc10 ALSA: control - introduce snd_ctl_notify_one() helper
+3f0638a0333bfdd0549985aa620f2ab69737af47 ALSA: control - add layer registration routines
+22d8de62f11b287b279f1d4473a78c7d5e53e7bc ALSA: control - add generic LED trigger module as the new control layer
+e65bf99718b538c2f34e9444dfe1087789b58f94 ALSA: HDA - remove the custom implementation for the audio LED trigger
+cb17fe0045aaa74d1ce12c0ad0058a62a1ce0401 ALSA: control - add sysfs support to the LED trigger module
+a135dfb5de1501327895729b4f513370d2555b4d ALSA: led control - add sysfs kcontrol LED marking layer
+5b1ed7df01335ecf686edf490948054078d5766d Merge tag 'tags/mute-led-rework' into for-next
+8b01a0d0b5c1327296b37a13c37ca7ab31841577 ASoC: dt-bindings: nvidia, tegra210-ahub: Add missing child nodes
+01990be33389d59f6b5c7dce0e8580263df1aa0c Merge branch 'drm/tegra/fixes' into drm/tegra/for-next
+86cec7ece3e62517e2bc0fd796a8a8da4193e7e5 gpu: host1x: Allow syncpoints without associated client
+49a5fb1679952a76861bd2580f785e33e3de712c gpu: host1x: Show number of pending waiters in debugfs
+ecfb888ade427e2da437b48cafd8fc824e80c909 gpu: host1x: Remove cancelled waiters immediately
+f63b42cbc86e12f7d960d1fdaaf93b4373c06c65 gpu: host1x: Use HW-equivalent syncpoint expiration check
+11d92156f7a862091009d7655d19c1e7de37fc7a powerpc/pseries: Only register vio drivers if vio bus exists
+937c49d10b4dc8e81ed1a24ffab8d70bba138af1 powerpc/mm: Revert "powerpc/mm: Remove DEBUG_VM_PGTABLE support on powerpc"
+1a0e240d09413ac6c90ce6247afdfc424c84103f i2c: tegra-bpmp: Implement better error handling
+8f66edb25c4e10f8380c88f4c097158ff611fd10 i2c: stm32f7: Remove useless error message
+c126f7c3b8c41f5ca146e52e70ae927e3be30060 i2c: Make i2c_recover_bus() to return -EBUSY if bus recovery unimplemented
+1978d88cdc8eb0986d36cac0e9541220fa71d87d pinctrl: bcm: bcm6362: fix warning
+89503d736e3631bda906c627d1092dc8e76ddfd9 ASoC: simple-card-utils.c: remove old comment
+050c7950fd706fec229af9f30e8ce254cea9b675 ASoC: simple-card-utils: alloc dai_link information for CPU/Codec/Platform
+674b9438e2d4c44f45af2a38521767c06c46eacb ASoC: audio-graph: count DAI / link numbers as in order
+e9cbcf23a28b41a310a13d0b1b67501948b255fb ASoC: audio-graph: cleanup graph_for_each_link()
+a6e8798061bf0f33caea6fd47b0cb367309e34d0 ASoC: simple-card: count DAI / link numbers as in order
+39af7f7a03d007e5590f0b852b3f2fed9e703d0f ASoC: simple-card: cleanup graph_for_each_link()
+26ea7ac92836ba616f75a1ab57e64ffc21da7758 pinctrl: bcm63xx: Fix dependencies
+875c40eadf6ac6644c0f71842a4f30dd9968d281 ASoC: Intel: bytcr_rt5640: Add quirk for the Chuwi Hi8 tablet
+d8c5c82e4e5b641404c65bfc6cdf57b5d0a6c836 ASoC: ak5558: Add support for ak5552
+8d246806d510c1bf7da9aab0473dc0f9c9f99308 ASoC: dt-bindings: ak5558: Add compatible string for ak5552
+50cbf945566b7cdb186c80c389bdfe22850d8d29 ASoC: Intel: Fix a typo
+868d5c6340d878f44acf73c92923995b896b6454 ASoC: tegra: Set driver name explicitly
+e896ec390870287dcc92f3b46d80da88f3b4b1f8 ASoC: rt1019: add address-cells and size-cells information
+326b0037fd6b5fc5640f3d37c80b62e2b3329017 Merge series "ASoC: simple-card: cleanup and prepare for Multi CPU/Codec support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+2aed4f5ab04af922a7cf1b616701845c9ed2473f gpu: host1x: Cleanup and refcounting for syncpoints
+aded42ada6eacfa11d349b158e993f66e4741aa7 gpu: host1x: Reset max value when freeing a syncpoint
+f5ba33fb9690566c382624637125827b5512e766 gpu: host1x: Reserve VBLANK syncpoints at initialization
+5a8d95d20c406c673258edd4c2bd308c22304657 gpu: host1x: Assign intr waiter inside lock
+d3555eb7f8c01b9c16d400af9533555757a2c264 gpu: host1x: Fix Tegra194 syncpt interrupt threshold
+933deb8c7b8e3f83e3dbd0b08e3cad51350d44c4 gpu: host1x: Add early init and late exit callbacks
+86044e749be77a3544990027244abb20ddb3caf0 drm/tegra: dc: Inherit DMA mask
+042c0bd76d7b053ea6bc47e4db471d5cfc7f19c5 drm/tegra: dc: Parameterize maximum resolution
+d5ec699db5bb15f981f1632d058ffe857d649765 drm/tegra: dc: Implement hardware cursor on Tegra186 and later
+4def888d4158ee8977995664bb55fa50894645d2 drm/tegra: fb: Add diagnostics for framebuffer modifiers
 476e93205ff61a6507bcba28f4f01269b65ebb38 drm/tegra: gem: Add a clarifying comment
 05d1adfe2a8b5c6a794a9927d1991a00c5d68f1d drm/tegra: Count number of display controllers at runtime
 7b6f846785f41d57917e36851c120cfbe87f0809 drm/tegra: Support sector layout on Tegra194
@@ -356,28 +427,6 @@ d5c1d60697a5f591bf717fd84d077585f0bff778 i2c: sprd: Add missing MODULE_DEVICE_TA
 637251bcfe649cd0cff4bc60cfb29ae0ddf333ca Merge series "ASoC: simple-card-utils: prepare for multi support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 38c694e98f6a6c8dfa48f2ba6f442363ed836efb ASoC: cs35l35: Fix an error handling path in 'cs35l35_i2c_probe()'
 cdf20c3ef0e90b962e62ae7d835d7f46333285bc ASoC: cs35l36: Fix an error handling path in 'cs35l36_i2c_probe()'
-98f8475c78697f6c1155f93d3a346d9027deb5aa kconfig: move conf_set_all_new_symbols() to conf.c
-406616213bb776a6e6ec69192df39ab1042690f1 kconfig: move JUMP_NB to mconf.c
-b75b0a819af9f78fc395b189cddd40f590194d20 kconfig: change defconfig_list option to environment variable
-dd4659963a4d2dde9756e31ffe5d7c639bcaa26e kconfig: move default KBUILD_DEFCONFIG back to scripts/kconfig/Makefile
-f8f0d06438e5c810d1e13b5f8c2fed501fe36e9c kconfig: do not use allnoconfig_y option
-ab838577aaaeda12242b7f1e2da3f25c9b4cec3a kconfig: remove allnoconfig_y option
-6dd85ff178cd76851e2184b13e545f5a88d1be30 kconfig: change "modules" from sub-option to first-level attribute
-a69b191f6297310ff140f2868b89fe2a2f355b90 kconfig: use true and false for bool variable
-21f8b32fbdbc1cf94e285384daf490d9c4ae5ae3 kconfig: streamline_config.pl: Couple of typo fixes
-bffbf6e2ad6a8c9fbf78f3561404527fe69ef23d kconfig: lxdialog: A spello fix and a punctuation added
-1f035a52918a4c97b99c5d9f0d5023fe659bccaa kconfig: nconf: fix core dump when searching in empty menu
-5ee546594025fc9337e4cc8b79db89f1258cf480 kconfig: change sym_change_count to a boolean flag
-f02aa48dde8b96eef5998b049ad11547bfc16080 kconfig: use /boot/config-* etc. as DEFCONFIG_LIST only for native build
-68876c38c4b30653c1779414954ce747a455253c kconfig: mconf,nconf: remove unneeded '\0' termination after snprintf()
-7f5ff55bf8eb99e42c10388ccffdfbb0a0caac67 kconfig: nconf: fix NORMAL attributes
-2ba50da9ec34196a895b4947dc6bb1dbf1ace670 kconfig: nconf: get rid of (void) casts from wattrset() calls
-16b0e10238b45251790ea1a2683855d4f8f3c1a3 kconfig: nconf: remove unneeded default for menu prompt
-93487b17b147f22400378240d06f33badc3368da kconfig: nconf: refactor attributes setup code
-ecdb733f8fa843f632f4306939a5c3704be4a2dd kconfig: nconf: change set_config_filename() to void function
-0a94768cfda6a77c42e5373d264c96c77ef1a2e5 kconfig: nconf: remove meaningless wattrset() call from show_menu()
-08718745d8610c2ed9870568b8d9c01b7f103efb kconfig: nconf: refactor in print_in_middle()
-a77a05dc9cf24a8c88b9d9c70e8984f936d075f3 kconfig: split menu.c out of parser.y
 376f9e34c10faa3e94b881088b160cfda540ae5f drivers: pinctrl: qcom: fix Kconfig dependency on GPIOLIB
 23ceb8462dc6f4b4decdb5536a7e5fc477cdf0b6 i2c: cadence: fix reference leak when pm_runtime_get_sync fails
 223125e37af8a641ea4a09747a6a52172fc4b903 i2c: img-scb: fix reference leak when pm_runtime_get_sync fails
@@ -555,7 +604,6 @@ f689f2be0c7d8885ca7f2d18a6b3adc9d6a41912 drm/radeon/cik: remove set but not used
 90cb3d8aca1baea9471d28f28d5de1528dd5e424 drm/amdgpu: fix an error code in init_pmu_entry_by_type_and_add()
 bbdfe5aaef3c1d5c5e62fa235ef13f064e4c1c17 drm/amd/pm: fix error code in smu_set_power_limit()
 611ed9a5a14e5ebdab682bcb37a46016613e6881 drm/radeon/si: Fix inconsistent indenting
-8c94b430b9f6213dec84e309bb480a71778c4213 kconfig: nconf: stop endless search loops
 998f26f47e556f14cd124c508d76bceb2c3f6e6a ALSA: control: Fix racy management of user ctl memory size account
 d1ee66c5d3c5a0498dd5e3f2af5b8c219a98bba5 ALSA: hda/realtek: fix mic boost on Intel NUC 8
 26928ca1f06aab4361eb5adbe7ef3b5c82f13cf2 ALSA: hda/realtek: Add quirk for Lenovo Ideapad S740
@@ -600,10 +648,6 @@ a80f24945fcfdff31bdf04837145e56570741a67 i2c: mediatek: Use scl_int_delay_ns to 
 49c1d07fd04f54eb588c4a1dfcedc8d22c5ffd50 powerpc/powernv: Enable HAIL (HV AIL) for ISA v3.1 processors
 a38cb4171928f622c8c0ab7902971516540cacad Merge branch 'topic/ppc-kvm' into next
 d8a1d6c58986d8778768b15dc5bac0b4b082d345 powerpc/perf: Add platform specific check_attr_config
-989e5d4b576f010de4bacb9fdad0cb879c75e9d7 kconfig: remove unused PACKAGE definition
-ed63ef7796979835d7cfb4dc2d108b6eeeb2b7c2 kconfig: gconf: remove unused code
-5fb35ec10bb0665080c8de8a360fb4dba9a0f73f kconfig: highlight gconfig 'comment' lines with '***'
-92f8a9217a1215cc3d71e82d5d1cde0793cf0501 kconfig: highlight xconfig 'comment' lines with '***'
 76fae6185f5456865ff1bcb647709d44fd987eb6 ALSA: hda/realtek: GA503 use same quirks as GA401
 e7df7df5a3809d733888db6ce6592a644acaac19 ALSA: usb-audio: DJM-750: ensure format is set
 cbd3d5ba46b68c033986a6087209930f001cbcca powerpc/fadump: Fix compile error since trap type change
@@ -766,49 +810,7 @@ a1aee7f7b71155595a06f21f2d021b6a58d04017 ASoC: rt711-sdca: add the notification 
 25c4a9b614f101bb9f3e687960815db7dc439c0f ASoC: simple-card: Fix breakage on kontron-sl28-var3-ads2
 d143a69fd452a047440391fcbe290ff416b14ab5 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
 ffc9841d5200a484ea0ecc645157b4d7b873f3a6 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
-57fd251c789647552d32d2fc51bedd4f90d70f9f kbuild: split cc-option and friends to scripts/Makefile.compiler
-805b2e1d427aab4bb27fa7c51ebb9db7547551b1 kbuild: include Makefile.compiler only when compiler is needed
-609bbb4de4f85b7ef45d81a88e6b7dfe3bf5ccea kbuild: show warning if 'make headers_check' is used
-5cc1247204616528b427e276c97c5bc4c9612347 kbuild: add CONFIG_VMLINUX_MAP expert option
-0b956e204132ce3fe4221a062638bf83a30e6200 kbuild: apply fixdep logic to link-vmlinux.sh
-a6601e01cd54838fc01e3c355476f67e7c887a67 kbuild: rename multi-used-* to multi-obj-*
-a34e6d1e4a49035203819425694349caa004992a kbuild: move $(strip ) to suffix-search definition
-c91d4e47e10ee4d3163838b1b727fe1d0664115b Makefile: Remove '--gcc-toolchain' flag
-eec08090bcc113643522d4272dc0b945045aba74 Makefile: Only specify '--prefix=' when building with clang + GNU as
-879a3209009fbbeb013a1d81952abcbe13918a13 docs: kbuild: Fix a typo in the file Kconfig.recursion-issue-02
-6e0839fda3f8598b164a7f23f3eec039e2db5fbc kbuild: replace sed with $(subst ) or $(patsubst )
-e24b3ffcf4216d819b52618b6f17ba7410d1d845 kbuild: collect minimum tool versions into scripts/min-tool-version.sh
-ba64beb17493a4bfec563100c86a462a15926f24 kbuild: check the minimum assembler version in Kconfig
-2e98815794fb51250da4528f67fc2f699d5e3c37 kbuild: dwarf: use AS_VERSION instead of test_dwarf5_support.sh
-987fdfec24102a151c032c467e51c7f0d6d18af9 arm64: move --fix-cortex-a53-843419 linker test to Kconfig
-69bc8d386aebbd91a6bb44b6d33f77c8dfa9ed8c kbuild: generate Module.symvers only when vmlinux exists
-5ab70ff4286f74732c082b65366bad39146d2b10 kbuild: do not set -w for vmlinux.o modpost
-4475dff55c54d855ef0179a055b3ce20a9c1ab3e kbuild: fix false-positive modpost warning when all symbols are trimmed
-f3945833e436d79d9a97e776c4986af8c9cbb483 scripts: modpost.c: Fix a few typos
-4b97ec0e9cfd5995f41b9726c88566a31f4625cc kbuild: remove unneeded mkdir for external modules_install
-3e3005df73b535cb849cf4ec8075d6aa3c460f68 kbuild: unify modules(_install) for in-tree and external modules
-3ac42b2112532a71125eea6bb07361deeca9aaa1 kbuild: show the target directory for depmod log
-1a998be620a10000c1e1240026e4bd6bc3378c96 kbuild: check module name conflict for external modules as well
-7f69180b8e905fe13559573b89245f6256b99434 kbuild: rename extmod-prefix to extmod_prefix
-ccae4cfa7bfbec323abc399228e0ada7c377b16b kbuild: refactor scripts/Makefile.modinst
-65ce9c38326e2588fcd1a3a4817c14b4660f430b kbuild: move module strip/compression code into scripts/Makefile.modinst
-961ab4a3cd66c285951cf4c8ec10bc8d9a4b0232 kbuild: merge scripts/Makefile.modsign to scripts/Makefile.modinst
-d4bbe942098b0c9b487d424a3c545c9ed56462d7 kbuild: remove CONFIG_MODULE_COMPRESS
-c3d7ef377eb2564b165b1e8fdb4646952c90ac17 kbuild: add support for zstd compressed modules
-d8fc9b667d483614974d80f59405f0db4dfc72e2 sysctl: use min() helper for namecmp()
-b186f2c3d877de82c7960bdac5145e69dcfe110d alpha: syscalls: switch to generic syscalltbl.sh
-14b36dcfd640a69ed657a0c3085f7c3853d83569 alpha: syscalls: switch to generic syscallhdr.sh
-a92359aa6de8871b1502b17c1ea71b93f5eb606b ia64: syscalls: switch to generic syscalltbl.sh
-6e74bc4c84546ddbf67ed0f4d45284c9bb153846 ia64: syscalls: switch to generic syscallhdr.sh
-1fdd7433a98a2f5511f49ad3f3b82bdd6f77265c kbuild: add an elfnote for whether vmlinux is built with lto
-35f93a09e9683bf962f9164c0db5beeb65ad2c64 MAINTAINERS: add pattern for dummy-tools
-e3456056f1d935491ee9148dbae98c6b95f58910 kbuild: remove TMPO from try-run
-0e0345b77ac4605d5447b252d220e4a2ee118da7 kbuild: redo fake deps at include/config/*.h
-b61442df748f06e98085fb604093a6215ce730eb tools: do not include scripts/Kbuild.include
-82526ef43399a7556b860538041802042b3872c1 kbuild: deb-pkg: change the source package name to linux-upstream
-f634ca650f724347892068489c7920631a3aac6a kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
 30c400886bad4ac1801516683b71d7714bc2b1b1 powerpc/kasan: Fix shadow start address with modules
-8ac27f2c6eac1f140531411e404fb3ba23339ba5 kconfig: refactor .gitignore
 988cc17552606be67a956cf8cd6ff504cfc5d643 ALSA: usb-audio: Fix implicit sync clearance at stopping stream
 eef24f11776cfb028058413062a3c0b84f1bbf11 drm/i915: Take request reference before arming the watchdog timer
 604b5bc804ed6a0dee4e6c199854dd1718a23d5a drm/i915: Restore lost glk FBC 16bpp w/a
@@ -856,8 +858,6 @@ e50fedec822efc7b7090f95862b782d91ca8aec0 Merge branch 'for-5.13/surface-system-a
 5a4a13cb47121dd20812e3397d30fd410ebd9f7d Merge branch 'for-5.13/thrustmaster' into for-linus
 6c905ab1ace224e847536f658b7831e458e479dd Merge branch 'for-5.13/wacom' into for-linus
 e16e9f1184181a874cf432302ffe4689cc56b9e2 Merge branch 'for-5.13/warnings' into for-linus
-b0030af53a74a08c77ea11d3888da21542af2d0e Merge tag 'kbuild-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-8ca5297e7e38f2dc8c753d33a5092e7be181fff0 Merge tag 'kconfig-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 12fc11bce6f29a73eb3d61ab4e76a9ece3da1f1d Merge tag 'drm/tegra/for-5.13-rc1' of ssh://git.freedesktop.org/git/tegra/linux into drm-next
 9b2788dbcef756a77659fa22e6a73bec4a57d126 Merge tag 'drm-misc-next-fixes-2021-04-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 add74e32db0443dfd940d7c3256b9609c65e6149 Merge tag 'amd-drm-next-5.13-2021-04-23' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1051,4 +1051,4 @@ d652502ef46895820533aada50ddfd94abe078fe Merge tag 'ovl-update-5.13' of git://gi
 6bab076a3d2ff4298483c1a3b77162811b451863 Merge tag 'dlm-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 9f67672a817ec046f7554a885f0fe0d60e1bf99f Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 
---===============5937773792672519641==--
+--===============5986952923539581668==--
