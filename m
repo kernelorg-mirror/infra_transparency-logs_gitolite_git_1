@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Fri, 30 Apr 2021 14:31:05 -0000
-Message-Id: <161979306547.18318.4253243209448351100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Fri, 30 Apr 2021 14:31:07 -0000
+Message-Id: <161979306750.18389.5359859689140415926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/master
-    old: 2df4bd71937b56c7b1e5a9ddffe9d702f7630bd1
-    new: e31ffc9891361640ea78e1abe16894daf247b337
+  - ref: refs/heads/main
+    old: e1e089d1f237e3a0b49fa775a550f8876c4000d1
+    new: 7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905
     log: |
-         906c126009cfab13ea8eb6febabf4a28bf5217b0 sim-auth: Remove watch if open_channel fails
-         e31ffc9891361640ea78e1abe16894daf247b337 sim-auth: Only close open sessions
+         7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905 mptcp: make sure flag signal is set when add addr with port
+         
+  - ref: refs/heads/master
+    old: e1e089d1f237e3a0b49fa775a550f8876c4000d1
+    new: 7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905
+    log: |
+         7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905 mptcp: make sure flag signal is set when add addr with port
          
