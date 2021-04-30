@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 30 Apr 2021 17:45:43 -0000
-Message-Id: <161980474312.25601.11436464036031072754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 30 Apr 2021 17:52:20 -0000
+Message-Id: <161980514077.30207.201285886100815521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: d4eecfb28b963493a8701f271789ff04e92ae205
-    new: f80f88f0e2f2ef9cd805fad1bbf676b0ecd4b55c
+  - ref: refs/heads/ftrace/core
+    old: 678932e5a05ab7f2c69388e764c82a4616972261
+    new: aafe104aa9096827a429bc1358f8260ee565b7cc
     log: |
-         f80f88f0e2f2ef9cd805fad1bbf676b0ecd4b55c selftests/bpf: Fix the snprintf test
+         aafe104aa9096827a429bc1358f8260ee565b7cc tracing: Restructure trace_clock_global() to never block
          
