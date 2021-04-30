@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 30 Apr 2021 21:42:13 -0000
-Message-Id: <161981893319.4169.6326828181371168424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 30 Apr 2021 21:44:16 -0000
+Message-Id: <161981905619.4882.5417674172964257122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/dev-queue
-    old: 94aa53f0c7a1a823b7f579e3f9f1cb5d12dabce5
-    new: 4077d049374115804fd304f404a3c5fcfe32378b
+  - ref: refs/heads/master
+    old: d4eecfb28b963493a8701f271789ff04e92ae205
+    new: db7c691d7f4da6af40a6ce63331a5a9fb9511c2a
     log: |
-         524e1c2f9b8021d0d69c13b33a87fd958cfdbc04 i40e: Fix warning message and call stack during rmmod i40e driver
-         a24b541fff0f2276e8f545861d3e3a2d978e9199 i40e: Fix logic of disabling queues
-         82b054fdf3f2b3d31594d55e7adbbe287d9a319c i40e: Fix changing previously set num_queue_pairs for PFs
-         4077d049374115804fd304f404a3c5fcfe32378b i40e: Fix ping is lost after configuring ADq on VF
+         db7c691d7f4da6af40a6ce63331a5a9fb9511c2a net: stmmac: cleared __FPE_REMOVING bit in stmmac_fpe_start_wq()
          
