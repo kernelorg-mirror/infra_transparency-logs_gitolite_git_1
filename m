@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2041818557610820609=="
+Content-Type: multipart/mixed; boundary="===============3809997864610035161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 30 Apr 2021 02:16:37 -0000
-Message-Id: <161974899718.6230.5463288751670387946@gitolite.kernel.org>
+Date: Fri, 30 Apr 2021 02:17:58 -0000
+Message-Id: <161974907854.6703.18084021551524595734@gitolite.kernel.org>
 
---===============2041818557610820609==
+--===============3809997864610035161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: b33976d90d1ea7652fff662dcc2234f352346a33
+  - ref: refs/heads/for-next
+    old: 2a66140108eba4020d924a2ea589ccb8fd8113a9
     new: a8dd31aeb7af31243ab6343dfa4bb45d8127b029
-    log: revlist-b33976d90d1e-a8dd31aeb7af.txt
+    log: revlist-2a66140108eb-a8dd31aeb7af.txt
 
---===============2041818557610820609==
+--===============3809997864610035161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b33976d90d1e-a8dd31aeb7af.txt
+Content-Disposition: attachment; filename=revlist-2a66140108eb-a8dd31aeb7af.txt
 
+23bc3caf42bd0f140182ba60cc68d7872e81aeea hwmon: (ftsteutates) Fix spelling typo
 f3e3464ec893409189cb1a0657c2eca31ca82504 hwmon: (ds1621) Use kobj_to_dev()
 9d2227bb9bd4ae799e77c0575452e7e5716658ea hwmon: Use kobj_to_dev()
 af9a973040bd5c27dfa1c7b5e970b7cf9238b530 hwmon: (ina2xx) Convert sysfs sprintf/snprintf family to sysfs_emit
@@ -717,7 +718,6 @@ ff244303301f6f2ac90107c61d18826efd0af822 kernel: always initialize task->pf_io_w
 a2a7cc32a5e8cd983912f25a242820107e5613dc io_uring: io_sq_thread() no longer needs to reset current->pf_io_worker
 24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-8ac27f2c6eac1f140531411e404fb3ba23339ba5 kconfig: refactor .gitignore
 e6b031d3c37f79d135c642834bdda7233a29db8d can: proc: fix rcvlist_* header alignment on 64-bit system
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
 c45adff786b780b22db03e102f47d5515cf78072 cifs: Fix spelling of 'security'
@@ -1051,4 +1051,4 @@ fd9787eb447911a6035ab0f7fbd446be452b8d2d genksyms: fix stale comment
 8e26b6b713cda4d1a5849deb4e4bebec097ab67b kbuild: replace LANG=C with LC_ALL=C
 a8dd31aeb7af31243ab6343dfa4bb45d8127b029 .gitignore: prefix local generated files with a slash
 
---===============2041818557610820609==--
+--===============3809997864610035161==--
