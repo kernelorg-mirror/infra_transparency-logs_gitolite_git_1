@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6116114270526956868=="
+Content-Type: multipart/mixed; boundary="===============6139163216447475218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 30 Apr 2021 14:19:13 -0000
-Message-Id: <161979235391.9233.962620012102002306@gitolite.kernel.org>
+Date: Fri, 30 Apr 2021 14:19:14 -0000
+Message-Id: <161979235401.9254.15232759274085741448@gitolite.kernel.org>
 
---===============6116114270526956868==
+--===============6139163216447475218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,17 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: b9879f24eea656d8b6b5dad49fb6bda1a979c6d8
-    new: 9fe3189f108d04763059a2dc87e213f4e2064ec6
+  - ref: refs/heads/linux-5.11.y
+    old: 2eb2a0e64736052cc9c969e366ea7a9e218924d9
+    new: 517c2bbecb70f9804b941c78a3b63d7bcd3e011b
     log: |
-         e98279eb308d246fcee6b32fea03276478404501 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         3fc5418ec7ba9e20f9f891d254ae39d4f4c2ff08 mei: me: add Alder Lake P device id.
-         9fe3189f108d04763059a2dc87e213f4e2064ec6 Linux 5.10.34-rc1
+         7750e2555fb58c67a6ef9a795d14e62e55802160 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+         97fb188fe2b2466ce8b57ab345c3bbfaf9319bc6 drm/amd/display: Update modifier list for gfx10_3
+         2a202090dbc54ad2e95b8f6be61f7eebe13fec96 mei: me: add Alder Lake P device id.
+         517c2bbecb70f9804b941c78a3b63d7bcd3e011b Linux 5.11.18-rc1
          
 
---===============6116114270526956868==
+--===============6139163216447475218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -36,23 +37,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619792352 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1619792351-697464df1bce31177a8c99a3868c833b047e2eb0
 
-b9879f24eea656d8b6b5dad49fb6bda1a979c6d8 9fe3189f108d04763059a2dc87e213f4e2064ec6 refs/heads/linux-5.10.y
+2eb2a0e64736052cc9c969e366ea7a9e218924d9 517c2bbecb70f9804b941c78a3b63d7bcd3e011b refs/heads/linux-5.11.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCMEeAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M+EP/10FH2m/Zp1FqtQiXcfx
-aMNckXHutRcOhjjhgWjpxzeK73Et92rtG9Y/QUJC7aLAyXOHVdCM8o/agvHMFh4T
-SQ0BiLNk4Hn6p4T/Blx9EWMQYPNC1OHJiY2ZTH1fZbyanUsgCxu/MZ0Q87xR32UT
-FuiAwHF/E1XzsDkhEoyV5r70NqQBAZ6dq0I2z/jP3srGzLUepmoK4O7c8aQtalw8
-PZPtxGKwvesmOWCOb8//7zd7DISKIHoVuxBjq1G7UNcx+ewBYwlu8e1ORH0l/x9S
-p4C9NiZarSzrKWGIpFL+lgOuRhTycqVOXQim3/DQZHH1vpxm6LsvmqhL+O6ibScO
-c1qOxAPZ4Q6isckpgS0K88/hQRAh8DWIw+PnNcFGCuET/j5SQqcz7ml6VP+6QMcO
-V1om8wevU2xJKT/C8oueces93DydDmZ3FAwBIiO515J9FzEgBd1zIQLXBTispbND
-5DovqzGPMvCmfTj84mHdx5FvQQBmEJULjoMUTyBmvZ6pYYz3ywEl5pjcS5Njl7AY
-AuXYIMJ9swsWmbFE+jJcr68rIFiSB2lTFGJLCySXjD3uL7FCFkOukMDgZT+o7Jbo
-nf6obkNlBH5fdCEYAXoXc3weILYGJQEtNtnUTyS+2qif7tDQ2gag03TKRdlVz3Vs
-QFb1TnQjaO+5ALASZLX3Qnjr
-=cUcw
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A4oP/25GKMfk5pM7nqjufc/G
+Mv7Jzy+vfvJYpOhM9Fy1ePD4+7MkQ2j8Y3MoHjxUGlXGlyVXm/iw2nUZeMXfbuoZ
+/3Nxrq4Wn1n6z2vJvyJiQ58bxijVLuwtcqdsKtiyu4k053hfJyUmhc6AATEwD799
+YuAlfsQ57L97ID0BmshhHkvrBJIDbdbfoTgpygHoG/d07oW6c963P3bcZul8/jT1
+07oVbzdi9SsHDQf8KoNDoubSwsx8ArbBCYy2rTHmkzqBLnobBHN0IiCJ8z8j5bV5
+PTdfAwBTMDwmAYYqf7dvpSIVLk5qWh0i5ajl9xWbMCfZgnKydjeDwEkrMkuvDzn0
+xgKrxv8a/KiPCIgXoDusiJLl8cKDrNxVUDuLmpDnW75lKWmqRb3LwZkXLlBtkAGy
+oJMQesY0YlNxS0ROhL7CHErI1L5Z6UzwytoiF6i7KnyPiUx+ZxeKVMhs4SzWw5Uw
+2Sg59PIB9MCRyCea04K0mgkR4nWLWShkgS2hXq9VPwVyEwx9a2Ex5tt+3zVgMEFH
+Hxzv/spAGY2KnmVrssNLKC2dj2j95yws4tfvK6YlSyKcasJVI8JXuHlqGbJ+ACmf
+zd6Ej7rJKBHYJAOgOEqXI6bz7dHQlHmatcYhtLVjzqm+AAnsrhj9Rr5fntXuWNDX
+Obo5e1ednOyuBnnFHBomuMKB
+=ZkLO
 -----END PGP SIGNATURE-----
 
---===============6116114270526956868==--
+--===============6139163216447475218==--
