@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 30 Apr 2021 16:31:59 -0000
-Message-Id: <161980031923.14648.936695782176276014@gitolite.kernel.org>
+Date: Fri, 30 Apr 2021 16:38:32 -0000
+Message-Id: <161980071228.17820.913555436012587048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: f35a40c0c599dc2a2051891e9b1d113efcdaeedc
-    new: 84ca680611e6a7f7185530f1e6efc210ef91af26
+    old: 84ca680611e6a7f7185530f1e6efc210ef91af26
+    new: 184b19c9926495b811904f4e7926b74c1857f710
     log: |
-         84ca680611e6a7f7185530f1e6efc210ef91af26 netdev: Refine error handling in roam_event
+         d973c347be2ad1108f0a92eb2b48e82f8385cc81 ap: Fix l_settings leak
+         184b19c9926495b811904f4e7926b74c1857f710 ap: Fix possible memleak of 'rates'
          
