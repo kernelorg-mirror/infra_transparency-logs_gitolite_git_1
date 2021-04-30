@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 30 Apr 2021 15:08:38 -0000
-Message-Id: <161979531880.28535.5141435654097891926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 30 Apr 2021 15:08:44 -0000
+Message-Id: <161979532484.28624.6217674481695578819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/misc
-    old: e4ec10228fdf09b88ba018009f14a696fb50d3f2
-    new: ce4f62f9dd8cf43ac044045ed598a0b80ef33890
+  - ref: refs/heads/master
+    old: 2697af428e4b8f0b0f16ead8ff90094af17ce9f9
+    new: 6c5fe246a745c77c504dfe122c5acc8038b64702
     log: |
-         2f1137140fbcffad582d9e5eacc7f189ae0cc110 scsi: ufs: core: Fix a typo in ufs-sysfs.c
-         9814b55cde0588b6d9bc496cee43f87316cbc6f1 scsi: target: tcmu: Return from tcmu_handle_completions() if cmd_id not found
-         000e68faefe6240ea2e4c98b606c594b20974fb7 scsi: qla2xxx: Add marginal path handling support
-         fcb16d9a8ecf1e9bfced0fc654ea4e2caa7517f4 scsi: qla2xxx: Prevent PRLI in target mode
-         23043dd87b153d02eaf676e752d32429be5e5126 scsi: ufs: core: Do not put UFS power into LPM if link is broken
-         637822e63b79ee8a729f7ba2645a26cf5a524ee4 scsi: ufs: core: Cancel rpm_dev_flush_recheck_work during system suspend
-         ce4f62f9dd8cf43ac044045ed598a0b80ef33890 scsi: ufs: core: Narrow down fast path in system suspend path
+         2c0234e161eaa43a60bf9cca2a4fa5f1ab5eb5b1 ft: rework ft_parse_ies
+         37811a092c13c46207ae8e5dd17ddb6b52c6b424 ft: create class for FT-over-DS targets
+         0d45316891e8e8d69e2c5bc3e17e685f61e4605e ft: separate over-air from over-ds initializers
+         6c5fe246a745c77c504dfe122c5acc8038b64702 netdev: separate over-air and over-ds netdev APIs
          
