@@ -1,134 +1,270 @@
-Content-Type: multipart/mixed; boundary="===============4393825881462135941=="
+Content-Type: multipart/mixed; boundary="===============8999105677604233927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 30 Apr 2021 06:12:08 -0000
-Message-Id: <161976312832.19501.16580729694534830052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 30 Apr 2021 06:22:39 -0000
+Message-Id: <161976375916.26562.8893161162121984590@gitolite.kernel.org>
 
---===============4393825881462135941==
+--===============8999105677604233927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/queue/5.10
-    old: 15cd8ee5df5db333377eb19ddff8ffbf0eb391f0
-    new: 286378cedc2ba2ddea49bd118adec56f4e8c55d9
-    log: revlist-15cd8ee5df5d-286378cedc2b.txt
-  - ref: refs/heads/queue/5.11
-    old: 7e822193dcbcf82d9ee02547440a1fa246eda850
-    new: fe4005004a7d71c34c7df92ad9c8e4e7e59ec047
-    log: revlist-7e822193dcbc-fe4005004a7d.txt
-  - ref: refs/heads/queue/5.12
-    old: 572e731a52e249b72d3051b5f7e919126b24fc29
-    new: 69eefeb00eb61ad35e8fc1e873c8f4d5c2696603
-    log: |
-         c29a2c8c6a8d480861a657772b7a9374be312417 net: hso: fix NULL-deref on disconnect regression
-         22b0041ab0dd8223852562e0484783a0a89e0361 USB: CDC-ACM: fix poison/unpoison imbalance
-         69eefeb00eb61ad35e8fc1e873c8f4d5c2696603 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         
+  - ref: refs/heads/master
+    old: 311531c9de557d25ac087c1637818bd2aad6eb3a
+    new: 7e391989789db82983665667013a46eabc6fc570
+    log: revlist-311531c9de55-7e391989789d.txt
+  - ref: refs/heads/next
+    old: 47e6f1690178d77508c72e3fec1411a0ca706661
+    new: 51e8a6a4595d39bd58d83f8027ed773eaf26a960
+    log: revlist-47e6f1690178-51e8a6a4595d.txt
+  - ref: refs/heads/seen
+    old: cc3c3f128406d261417d44a0aeb6d6e03e67cab5
+    new: d624e40fc97103f9ed8589bda0ed89f894ec1ce7
+    log: revlist-cc3c3f128406-d624e40fc971.txt
 
---===============4393825881462135941==
+--===============8999105677604233927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15cd8ee5df5d-286378cedc2b.txt
+Content-Disposition: attachment; filename=revlist-311531c9de55-7e391989789d.txt
 
-71777492b745837481630c751111eeb19bb589cf vhost-vdpa: protect concurrent access to vhost device iotlb
-9857fccd653c0d820d45be5baea64ab731f4557e gpio: omap: Save and restore sysconfig
-bf84ef2dd2ccdcd8f2658476d34b51455f970ce4 KEYS: trusted: Fix TPM reservation for seal/unseal
-a8cd07e4400d66c3304a38c5796a41c10ad76743 vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-2bbd8aafde362e2d2bb3af3ce2ea400c3860073f pinctrl: lewisburg: Update number of pins in community
-fc2454cc0c4bbf3ab7556c8b38e042c6c7651e42 block: return -EBUSY when there are open partitions in blkdev_reread_part
-83d93d05376a807e0fccc60788193ced671fbf40 pinctrl: core: Show pin numbers for the controllers with base = 0
-edc5d16013895b42ac9fb67542d99b9689c11ac2 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-f79efcb0075a20633cbf9b47759f2c0d538f78d8 bpf: Permits pointers on stack for helper calls
-f3c4b01689d392373301e6e60d1b02c5b4020afc bpf: Allow variable-offset stack access
-2982ea926b5cb97ff79fbb27eba72521568811ff bpf: Refactor and streamline bounds check into helper
-b642e493a9a0ed56be3b8cfcfb95fe3c7cea0b55 bpf: Tighten speculative pointer arithmetic mask
-82fa9ced35d88581cffa4a1c856fc41fca96d80a locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-6f8315e5d9511ed1cf28ee2afbc9f89ff693de7b perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-ab112cc573ccde3cff7e9159d5fe21c793242b55 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-4d0cfb3713bc3263cd4b6d43d5fcb96c7fdaead3 perf auxtrace: Fix potential NULL pointer dereference
-ffe249b4fc2ce48a6e32485bd593a28e00448128 perf map: Fix error return code in maps__clone()
-079e32723f78ef814f3973b4598b581275463836 HID: google: add don USB id
-f691dc86411d80005dcf26fedd5c95c834a9da09 HID: alps: fix error return code in alps_input_configured()
-e913cbc952c300cd99ce40538b1c53438f9f7ffd HID cp2112: fix support for multiple gpiochips
-8c4bfe30eb555bf72e2b675597a8c9304e85d376 HID: wacom: Assign boolean values to a bool variable
-eb2c81ee764db18e525e0f701540afef4025a571 soc: qcom: geni: shield geni_icc_get() for ACPI boot
-e8d9a93ec46e52188a95bc87924681c379e359cd dmaengine: xilinx: dpdma: Fix descriptor issuing on video group
-db010ba54a96128f65b388c46875e7b991982ba4 dmaengine: xilinx: dpdma: Fix race condition in done IRQ
-6ce64437224df9f28bb4bc17a4b5363560dcc79a ARM: dts: Fix swapped mmc order for omap3
-66d0cf7dcaa1093b7bc3f6e8995240b8be8b287d net: geneve: check skb is large enough for IPv4/IPv6 header
-d33031a894d2f6476e54cccfbfa9f7971e5522af dmaengine: tegra20: Fix runtime PM imbalance on error
-da99331fc6ce2d25f88d47249f04714633d3f0ec s390/entry: save the caller of psw_idle
-509ae27a1874389182b3709de0940a8f8d4dfb8b arm64: kprobes: Restore local irqflag if kprobes is cancelled
-1bfefd866195987ded82605dc417c1a2ba523bf7 xen-netback: Check for hotplug-status existence before watching
-f2b46286e3260c8f416af8b1360a0d3858db618e cavium/liquidio: Fix duplicate argument
-393200a1b095bb5bae17ed06340f4848f5cc152a kasan: fix hwasan build for gcc
-f4a777bcc8d194cdaae1220d35073fe2828dbb3d csky: change a Kconfig symbol name to fix e1000 build error
-ba0910ad1c5770ff74b71000b131a7965c373c30 ia64: fix discontig.c section mismatches
-bed21bed2e79eb3687370bec6eaa36c4857c40db ia64: tools: remove duplicate definition of ia64_mf() on ia64
-31720f9e87c032b74de9661e67cfc01414d27052 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-90642ee9eb581a13569b1c0bd57e85d962215273 net: hso: fix NULL-deref on disconnect regression
-8a661bad6cee44d897f9840995f2caf81e1fea49 USB: CDC-ACM: fix poison/unpoison imbalance
-8bd8301ccc115b7885517077a097ee028fcb1ec2 Linux 5.10.33
-286378cedc2ba2ddea49bd118adec56f4e8c55d9 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+0ad6090bddbf01cb5778dec726fe8e799d340a6f sparse-index: design doc and format update
+0b5fcb08b5cbcf832b90cdc566bcf8084722a626 t/perf: add performance test for sparse operations
+4b3f765a2f38064c0bb221c76c7bb4f28f94a9dc t1092: clean up script quoting
+3964fc2aae7c7420a4c5da1b9530e8e8de1ed367 sparse-index: add guard to ensure full index
+4300f8442a276aa48d327b8371af9c2917bd3d5a sparse-index: implement ensure_full_index()
+ecfc47c0667f9a580abaca0472f68efa0a8784e8 t1092: compare sparse-checkout to sparse-index
+e2df6c397206c3c0791fb50466789730e8a334d8 test-read-cache: print cache entries with --table
+2782db3eed808c2a5097ccd5af813d3338c5f313 test-tool: don't force full index
+6863df355038dd2d30ac9899bdb304d8a57523af unpack-trees: ensure full index
+836e25c51b20c1f1d122dc17a1c57dad15ff5854 sparse-checkout: hold pattern list in index
+cd42415fb4c9680f308ebf8f9f85ba90ae6014be sparse-index: add 'sdir' index extension
+6e773527b6b03976cefbb0f9571bd40dd5995e6c sparse-index: convert from full to sparse
+f442313e2e7a2ebf592a5943d4d4392e88153484 submodule: sparse-index should not collapse links
+13e133124728736db605e8ad6d2a844c380cb735 unpack-trees: allow sparse directories
+0938e6ff552510d4e6e495f062a9fab3e932178a sparse-index: check index conversion happens
+58300f4743231724686d9ddf481aeefa4f90d2f7 sparse-index: add index.sparse config option
+122ba1f7b52612e197db76aded1f9681b80f3085 sparse-checkout: toggle sparse index from builtin
+dcc5fd5fd26b71d75f9e70abd0e09e553b5f40ca sparse-checkout: disable sparse-index
+2de37c536d54a28a032491ad4ef97632ef6ab836 cache-tree: integrate with sparse directory entries
+9ad2d5ea71d1470c2fd68b76c36b2ced3612cde3 sparse-index: loose integration with cache_tree_verify()
+c9e40ae8ec41c5566e5849a87c969fa81ef49fcd p2000: add sparse-index repos
+a039a1fcf987de3a8209cc5229324d37d9ead16e maintenance: simplify prefetch logic
+2a2112a42913ee7397f950f3b8f9b3f3ab84a631 refs: print errno for read_raw_ref if GIT_TRACE_REFS is set
+fcc07e980b344a813b47358d0aa823d07c7ac744 is_promisor_object(): free tree buffer after parsing
+45a187cc34b5016842b91ef14b59e40505afff46 lookup_unknown_object(): take a repository argument
+c1fa951d7ea9e943f001ac7c7502995273db5776 revision: avoid parsing with --exclude-promisor-objects
+839a66349e094a28f29577a8b311491b9d6b907b sparse-index: API protection strategy
+847a9e5d4f876646e128c89f0818b1a8ce792509 *: remove 'const' qualifier for struct index_state
+95e0321c4dbb81eca5dc1c6f96b176b00a0368d7 read-cache: expand on query into sparse-directory entry
+118a2e8bde0982d219607ff9f260b9cfeb25585c cache: move ensure_full_index() to cache.h
+54beed24d22867a98fc247e1031e3486573f1553 add: ensure full index
+1b850d37f42d58d1c4ad1454d80ecf33797bc467 checkout-index: ensure full index
+0f6d3ba6bd795b09bf216c267bbf6e3ec2409d1e checkout: ensure full index
+cb8388df5b3252802a0149ca558f99307e42074c commit: ensure full index
+48b3c7da6c58752b0fbc73e891fd5b24c95281b1 difftool: ensure full index
+2227ea175f9d2660c66f1bf15e2cd1ad75c9d4ca fsck: ensure full index
+46eb6e31ef01684ec2dc64f690a63446022940e5 grep: ensure full index
+42f44e84eb3be06f463ebc33baa2fc91423f4470 ls-files: ensure full index
+299e2c4561ba6eb99e367b1f73b8ffb3cead5efa merge-index: ensure full index
+e43e2a17d2d4f63a277a7fdbc32453876c25e06c rm: ensure full index
+a02912019a7a473b039d28713fb6419bf472386f stash: ensure full index
+2508df0272fdae3025b53366ac6b456920bc0de0 update-index: ensure full index
+d425f65127562e3a7f308b1ccfe385950f96e8ec dir: ensure full index
+3450a304aaa20707a696176441a8bbfe6d5431a3 entry: ensure full index
+f7ef64be0cda36e5188cfc712f61ba7279311b70 merge-recursive: ensure full index
+465a04abc6e5f4fe2b93c662bab0319c1667180e pathspec: ensure full index
+0c18c059a152058e30e23c4edcd24b3992599503 read-cache: ensure full index
+dc26b23ebc30adcb4aa54a5eccf2e47793984fa2 resolve-undo: ensure full index
+f5fed74fb2eac4d7c6fd4b09f2167b83942c0f13 revision: ensure full index
+5f116695864788d1fe45ff06bfad7a71a8d98d0a name-hash: don't add directories to name_hash
+71f82d032f34f7aa3708b4cdaeb12db617449606 sparse-index: expand_to_path()
+4589bca829a2ace58bc98876cccd7dbd2e89f732 name-hash: use expand_to_path()
+f3cce896a8e14e4732f45a6ee46f77e7ed17a990 transport: respect verbosity when setting upstream
+332ec963bc6fedc0ca9c0b5a66ea842d7fbd6baa pkt-line: do not report packet write errors twice
+2e03115d0c253843953ef9d113c72e0375892df4 fetch: add --prefetch option
+cfd781ea22e0f334d3c0104e1f34c47327934314 maintenance: use 'git fetch --prefetch'
+32f67888d85bd0af30b857a29ca25a55999b6d01 maintenance: respect remote.*.skipFetchAll
+76655e8a28d35c7243fa8f138c90a123aa32357f completion: avoid aliased command lookup error in nounset mode
+4320815eb9a002b4ee64f70dda9b1c1e019f4894 diff-merges: introduce --diff-merges=on
+26a0f58da84a7da11f9175144c9a926e7b376349 diff-merges: refactor set_diff_merges()
+38fc4dbbc2f110192752a3b2c99abb745f0494bf diff-merges: adapt -m to enable default diff format
+17c13e60fd799336b28d320dcba06fe1ef06e01d diff-merges: introduce log.diffMerges config variable
+364bc11fe5711fe7fbb98abf376168a207e7a448 doc/diff-options: document new --diff-merges features
+04155bdad818381681d44448bb7dc3a850117ffb unpack-trees: add basic support for parallel checkout
+e9e8adf1a871d22d9df7498256681685459b2507 parallel-checkout: make it truly parallel
+7531e4b66e8c175707b6915df10666fbb5b7859f parallel-checkout: add configuration options
+1c4d6f46be8dc05c9a49379587ffd454e92b72cf parallel-checkout: support progress displaying
+68e66f2987724a639c896e7996ea347be62ef578 parallel-checkout: add design documentation
+9364bf465d23ff26f5e2eb4ee52434e7a69894f1 doc: clarify the filename encoding in git diff
+13158b9910f8de4a88b39420be80f03c681b3ec9 Merge branch 'jk/promisor-optim'
+279a2e637a69afd6157e8287c2599e8ae5e6cb8c Merge branch 'mt/pkt-write-errors'
+a819e2b3ef7c27d04befa0a345c9e6e3c7a7965e Merge branch 'ow/push-quiet-set-upstream'
+d250f903596ee149dffcd65e3794dbd00b62f97e Merge branch 'ds/maintenance-prefetch-fix'
+8e97852919fa422bc5fe57bc7e71826cf2b5224d Merge branch 'ds/sparse-index-protections'
+59bb0aa93e6edaca44b2a5488fc915d468bae46f Merge branch 'so/log-diff-merge'
+a1cac26cc60f611b2f94badfc9c8522a65e79dc1 Merge branch 'mt/parallel-checkout-part-2'
+bf0d4c84917025652e4ecf401ec55d130ad6f5a6 Merge branch 'hn/refs-trace-errno'
+5980e0d44258a6cccf1e5995947d4cba15145924 Merge branch 'vs/completion-with-set-u'
+93e0b28dbb4c1a2cbdce1da8e229af075c2fa092 Merge branch 'ab/pathname-encoding-doc'
+7e391989789db82983665667013a46eabc6fc570 The thirteenth batch
 
---===============4393825881462135941==
+--===============8999105677604233927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e822193dcbc-fe4005004a7d.txt
+Content-Disposition: attachment; filename=revlist-47e6f1690178-51e8a6a4595d.txt
 
-8f96788e307803d3a255c808d38002d329c38ee0 vhost-vdpa: protect concurrent access to vhost device iotlb
-f65c0fdb7db2750677bf2cb53e62d7d205c20ab5 ovl: fix reference counting in ovl_mmap error path
-99e396d86582e4be02c717e93126de5d83f7b8a6 coda: fix reference counting in coda_file_mmap error path
-6da01fd5e429f47fe8df2a37a563801d8706441c amd/display: allow non-linear multi-planar formats
-517b45ce44dfb686a5401c27636680bdee00209c drm/amdgpu: reserve fence slot to update page table
-3044b14174a31e49c891d2131f57a55ca4c78edb drm/amdgpu: fix GCR_GENERAL_CNTL offset for dimgrey_cavefish
-c7bb634881bf347b7c5636de436a221b1275af09 gpio: omap: Save and restore sysconfig
-39c8d760d44cb3fa0d67e8cd505df81cf4d80999 KEYS: trusted: Fix TPM reservation for seal/unseal
-d219743da96cc097d021559c1f15243e02d900df vdpa/mlx5: Set err = -ENOMEM in case dma_map_sg_attrs fails
-2bb0a482019e962bfd67263723f2fb24241afb80 pinctrl: lewisburg: Update number of pins in community
-785bdb3f1c1c83ee2f38afe8b0bc73f229fae598 block: return -EBUSY when there are open partitions in blkdev_reread_part
-5045b3921d6c62171560916cd3bd78570c599de8 pinctrl: core: Show pin numbers for the controllers with base = 0
-759fb61184a23c0b41406300466cf32266c28c0b arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-d1b725ea5d104caea250427899f4e2e3ab15b4fc bpf: Allow variable-offset stack access
-2f5cfb7f36ea3ae0866c1bf0d1effa5b88366c28 bpf: Refactor and streamline bounds check into helper
-da63d034f87b637d81460fad3711e3c504206e9b bpf: Tighten speculative pointer arithmetic mask
-d558fcdb17139728347bccc60a16af3e639649d2 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
-d2c79105a90323a2a93484c85f9ac419ae9b183d perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
-31216482abe66f2a7a5b776bf52ab4215e8ba130 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
-508a1c43118e0f7d0268233a186d2e3112f290b5 perf auxtrace: Fix potential NULL pointer dereference
-48189362d36a1eea371e295cad845a69c4def65e perf map: Fix error return code in maps__clone()
-9e2d9f1d52c67ea943e9b8ba50576224a79f9268 HID: google: add don USB id
-1cf8067cc96becd0d728af149878000700d27e85 HID: asus: Add support for 2021 ASUS N-Key keyboard
-bf9c9d615a9d772ba34a81ef6fac91f263cdbc35 HID: alps: fix error return code in alps_input_configured()
-f8d689368e504610d4ee622f7bd827ade448cb20 HID cp2112: fix support for multiple gpiochips
-1b490f73c55b832c8d1ed1abfc7467639465fc5a HID: wacom: Assign boolean values to a bool variable
-77ac7b25a80e7a303c803230cc1595d976bfd1ae soc: qcom: geni: shield geni_icc_get() for ACPI boot
-cea1e229a5fab9a3e201385735fce01992dac4ac dmaengine: xilinx: dpdma: Fix descriptor issuing on video group
-c37076738ff4080d49b2dd01402e3aff5d130614 dmaengine: xilinx: dpdma: Fix race condition in done IRQ
-1baa29c660b8b75c1cd06e743d9faca7ee323b1f ARM: dts: Fix swapped mmc order for omap3
-8b9c42fdd6ee40a316672e2052d729bac4ae2583 m68k: fix flatmem memory model setup
-a8804e6fb289d16a5c421eebbd4d45783d648462 net: geneve: check skb is large enough for IPv4/IPv6 header
-50ef92b0d109f614534880e543d527a3135797ab dmaengine: tegra20: Fix runtime PM imbalance on error
-eaabcb715243be5c7db0613e532a697732825a40 s390/entry: save the caller of psw_idle
-569df2316993d8485c10da9dc7b024321124c95a arm64: kprobes: Restore local irqflag if kprobes is cancelled
-e7868f01aebc045da72c29494b1382f71e6029bc xen-netback: Check for hotplug-status existence before watching
-3d19a9e8b8233438d41afc03f0cd226ae74dd953 cavium/liquidio: Fix duplicate argument
-0f7a140e43ca7acd3202c9ad20456cbba918e681 csky: change a Kconfig symbol name to fix e1000 build error
-d571012a0242966fe42ea334e46d07ea11f700f0 ia64: fix discontig.c section mismatches
-3588df93d99d5cbdca1b40e7f7d17c431ed8e90a ia64: tools: remove duplicate definition of ia64_mf() on ia64
-b05db6d4d0a9e82de9219549b0a07a9294ba8fe9 x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
-0f000005da31f6947f843ce6b3e3a960540c6e00 net: hso: fix NULL-deref on disconnect regression
-469633d344ba25e37b317dcf687f306ebe0c2bd4 USB: CDC-ACM: fix poison/unpoison imbalance
-feaeae9aef5e0cf1c2afad3ca403f6451125c77d Linux 5.11.17
-fe4005004a7d71c34c7df92ad9c8e4e7e59ec047 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+4e9569834936a8c0df8c9afdc0334f1b96b20914 add: include magic part of pathspec on --refresh error
+6594afc3cc4bd87247b44d3d3bf75d693fc066aa t3705: add tests for `git add` in sparse checkouts
+d73dbafc2c25eb45090d6aa9d56fc21b40c78083 add: make --chmod and --renormalize honor sparse checkouts
+719630eb4826ff7f36bc060533dbccc3c96d151c pathspec: allow to ignore SKIP_WORKTREE entries on index matching
+b243012cb39e2151ffae96bded2387751d876d12 refresh_index(): add flag to ignore SKIP_WORKTREE entries
+a20f70478ffcc66d30936920ebcc35ebfc12a7c7 add: warn when asked to update SKIP_WORKTREE entries
+d5f4b8260f623d6fdef36d5eaa8a0c2350390472 rm: honor sparse checkout patterns
+a812789c264b1cabd8e5a22b410a9004781a81c9 uploadpack.txt: document implication of `uploadpackfilter.allow`
+b2025da38be94568bf046c2b8520fe87bcbb5c3d revision: mark commit parents as NOT_USER_GIVEN
+628d81be6c007de5aa0fa352b912b89f74a5cfa7 list-objects: move tag processing into its own function
+cd663df710f0fd082cef006333804e7e416b2680 rebase tests: camel-case rebase.rescheduleFailedExec consistently
+e5b32bffd1ddec64a1d1f593764d05841dd715e5 rebase: don't override --no-reschedule-failed-exec with config
+824c621b76e5d629f2a13f519c610796199ddc4e Documentation/Makefile: make $(wildcard howto/*.txt) a var
+19bcc73e70e05a9d346c5d488edbb7ce2b36c40f Documentation/Makefile: make doc.dep dependencies a variable again
+3951eeb6d981cf9b9109c905d773c978e6de3f0d doc lint: Perl "strict" and "warnings" in lint-gitlink.perl
+d2c9908076b00aa59037673e7f262fc6f8867559 doc lint: fix bugs in, simplify and improve lint script
+cafd9828e89328fef563e39f3b8e78e9aee74da5 doc lint: lint and fix missing "GIT" end sections
+ea8b9271b17e64502dc80981cf09cec42739dce7 doc lint: lint relative section order
+414abf159f9137ea9e4239f3c34d91310edc817d docs: fix linting issues due to incorrect relative section order
+9a2a4f95448890d138a800c8a55c5d5dcfe16082 list-objects: support filtering by tag and commit
+88fce1219ef816face7b89d039f39767c94a232e svn tests: remove legacy re-setup from init-clone test
+4f4d2017a370bdee57059d9454d4e1aca0741231 svn tests: refactor away a "set -e" in test body
+b0c42a53c9d36ea69f4d2650001f05e98eb347cb list-objects: implement object type filter
+7ab6aafa582b9c537885d4a6ef2c837323c5014d pack-bitmap: implement object type filter
+169a15ebd66dd23bf8c379ad33bced1578c848ef pack-bitmap: implement combined filter
+9cf68b27d50c29a0370bd61581d350b0b0a18e85 rev-list: allow filtering of provided items
+22f69a85edf29dba2278b55f14419e4ea48148d2 ref-filter: get rid of show_ref_array_item
+844c3f0b0b5cc45f8aa8bd65c7ad407df7301c39 ref-filter: reuse output buffer
+482d5499067b2a1fc8d1ebfb5160022dc23ab136 t1300: fix unset of GIT_CONFIG_NOSYSTEM leaking into subsequent tests
+34c319970d1ccdeaa612fccdfa3e6a5f2847f1e7 refs/debug: trace into reflog expiry too
+fbfcaec8d82adf9994a88a49e9b12f2ecffc4626 pretty tests: simplify %aI/%cI date format test
+3593ebd3f502d28eb405ce502cd9fbd743afc3fe pretty tests: give --date/format tests a better description
+b722d4560e9d566cb8c6cdccf08d649df146eb6b pretty: provide human date format
+db69bf608df31dde05d7be4fe2ea16f5d96c006e revision: free remainder of old commit list in limit_list
+5493ce7af95a266f4207d85b53fe59a8a1fa2d24 wt-status: fix multiple small leaks
+4c217a4c34be29aee4aac402eed668438e8d21a4 ls-files: free max_prefix when done
+b180c681bb911714e2c9735038effe0251d6586e bloom: clear each bloom_key after use
+d895804b5a73306fa47db3745782920f60f3a040 branch: FREE_AND_NULL instead of NULL'ing real_ref
+4fa268738ca91347be0945c9ef12dd1ace0e70da builtin/bugreport: don't leak prefixed filename
+265644367fb9fee551da2bf8349b800b196552ce builtin/check-ignore: clear_pathspec before returning
+52a9436aa7fd48648b6322c7c5610926165baa56 builtin/checkout: clear pending objects after diffing
+f3a96807912187928b904fa9374491258a30bac8 mailinfo: also free strbuf lists when clearing mailinfo
+a317a553b89ddad240252f1339e557eb7fc8a9d7 builtin/for-each-ref: free filter and UNLEAK sorting.
+805b789a69b664bbcf9a93bff85b90d1c60bfbf5 builtin/rebase: release git_format_patch_opt too
+37be11994f95d0519f3a7274df5254e56f56a7fe builtin/rm: avoid leaking pathspec and seen
+7a14acdbe6ff9934da6efd7d165dee4d205ec8fb doc: point to diff attribute in patch format docs
+1e951c647365be2e93bceddf7bd13173ed2cb1ce pack-bitmap: clean up include_check after use
+2ba582ba4c62fae506174ce326deab082d962e63 prune: save reachable-from-recent objects with bitmaps
+526705fd3d14a38646a12235ee385dcc0ffc7321 apply: adjust messages to account for --3way changes
+9152904c1162afaf9ce0305d1988d1450dc80da7 git.txt: fix synopsis of `--config-env` missing the equals sign
+c331551ccf9a4c8922ff5d2987eed9e218479000 git: support separate arg for `--config-env`'s value
+bccc37fdc7ec66377af454417013f7612aef75e6 cygwin: disallow backslashes in file names
+13158b9910f8de4a88b39420be80f03c681b3ec9 Merge branch 'jk/promisor-optim'
+279a2e637a69afd6157e8287c2599e8ae5e6cb8c Merge branch 'mt/pkt-write-errors'
+a819e2b3ef7c27d04befa0a345c9e6e3c7a7965e Merge branch 'ow/push-quiet-set-upstream'
+d250f903596ee149dffcd65e3794dbd00b62f97e Merge branch 'ds/maintenance-prefetch-fix'
+8e97852919fa422bc5fe57bc7e71826cf2b5224d Merge branch 'ds/sparse-index-protections'
+59bb0aa93e6edaca44b2a5488fc915d468bae46f Merge branch 'so/log-diff-merge'
+a1cac26cc60f611b2f94badfc9c8522a65e79dc1 Merge branch 'mt/parallel-checkout-part-2'
+bf0d4c84917025652e4ecf401ec55d130ad6f5a6 Merge branch 'hn/refs-trace-errno'
+5980e0d44258a6cccf1e5995947d4cba15145924 Merge branch 'vs/completion-with-set-u'
+93e0b28dbb4c1a2cbdce1da8e229af075c2fa092 Merge branch 'ab/pathname-encoding-doc'
+7e391989789db82983665667013a46eabc6fc570 The thirteenth batch
+5ce435d98fc1d48efa4195eb2e6392f08f7bcbfa Merge branch 'ps/config-global-override' into next
+ddead90eafdde52592bf0c1dcdb9758dacdbf15b Merge branch 'mt/add-rm-in-sparse-checkout' into next
+285b9c4d644636a7d01cb45e74be6f8a3141fad6 Merge branch 'ab/doc-lint' into next
+97d56cc6742adc56473f666ba30fe8ed32bc0bf9 Merge branch 'ab/rebase-no-reschedule-failed-exec' into next
+41f79071878d68eb755d8f5258ecb3351162f45b Merge branch 'ab/svn-tests-set-e-fix' into next
+fa0ceacde4f0cce779329f51d05a953e515a4b5e Merge branch 'ps/rev-list-object-type-filter' into next
+46fbcd08c14e25776866c0d1f540523773bfb979 Merge branch 'ps/config-env-option-with-separate-value' into next
+bd2d680c236a1aecd521971ace8683924dccb9ff Merge branch 'ab/pretty-date-format-tests' into next
+6bc9a79b61e804179845df103861b67a024d5f28 Merge branch 'hn/trace-reflog-expiry' into next
+58af0f4b5e56d589feef6b27ee82785c8f969c44 Merge branch 'po/diff-patch-doc' into next
+bede558f31f433eb579659545c156e69d1dc2d92 Merge branch 'jk/prune-with-bitmap-fix' into next
+829167e135fb3cc4db14ef6cb786176c092931a8 Merge branch 'jz/apply-3way-first-message-fix' into next
+e2cf03a8aa8568fd8ca2b43a57c9faeffbd571b6 Merge branch 'ad/cygwin-no-backslashes-in-paths' into next
+b6c835cc51f4fad8600a87fd9269c9df6b6a8f40 Merge branch 'zh/format-ref-array-optim' into next
+2320ad8fb0b94aeeb4ab72155596816a053c7c6c Merge branch 'zh/pretty-date-human' into next
+ccb398402937d729d24db2e753c7f5d866e5bd3e Merge branch 'ah/plugleaks' into next
+51e8a6a4595d39bd58d83f8027ed773eaf26a960 Sync with master
 
---===============4393825881462135941==--
+--===============8999105677604233927==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cc3c3f128406-d624e40fc971.txt
+
+51a0478d2c65df251d69dda959f15260a5fbe50b git-p4: git-p4.fallbackEncoding to specify non UTF-8 charset
+13158b9910f8de4a88b39420be80f03c681b3ec9 Merge branch 'jk/promisor-optim'
+279a2e637a69afd6157e8287c2599e8ae5e6cb8c Merge branch 'mt/pkt-write-errors'
+a819e2b3ef7c27d04befa0a345c9e6e3c7a7965e Merge branch 'ow/push-quiet-set-upstream'
+d250f903596ee149dffcd65e3794dbd00b62f97e Merge branch 'ds/maintenance-prefetch-fix'
+8e97852919fa422bc5fe57bc7e71826cf2b5224d Merge branch 'ds/sparse-index-protections'
+59bb0aa93e6edaca44b2a5488fc915d468bae46f Merge branch 'so/log-diff-merge'
+a1cac26cc60f611b2f94badfc9c8522a65e79dc1 Merge branch 'mt/parallel-checkout-part-2'
+bf0d4c84917025652e4ecf401ec55d130ad6f5a6 Merge branch 'hn/refs-trace-errno'
+5980e0d44258a6cccf1e5995947d4cba15145924 Merge branch 'vs/completion-with-set-u'
+93e0b28dbb4c1a2cbdce1da8e229af075c2fa092 Merge branch 'ab/pathname-encoding-doc'
+7e391989789db82983665667013a46eabc6fc570 The thirteenth batch
+f591137152b026f56ab74214a6907318a485e0dc Merge branch 'dl/complete-stash' into jch
+9cad0a93383c28528528a1726af1a16a5f9852fd Merge branch 'ps/config-global-override' (early part) into jch
+bcf2047a7f9b7dbc97ed0680b459322f4847e600 Merge branch 'ps/config-global-override' into jch
+91d121d7572b39be001d9f8efccd477f770c83da Merge branch 'mt/add-rm-in-sparse-checkout' into jch
+3ad9562fa5de6568655021bfb74072de80cac354 Merge branch 'ab/doc-lint' into jch
+f937782e2117badd6962477b112b2a8d47242dbd Merge branch 'ab/rebase-no-reschedule-failed-exec' into jch
+f9959c4c301f0a323a5017f2342f77faf8693513 Merge branch 'ab/svn-tests-set-e-fix' into jch
+48261c1ec9b6ae405af2a0580eb71bdc3f9734d7 Merge branch 'ps/rev-list-object-type-filter' into jch
+845092565485314d2e821268c9f93013ba49b8e6 Merge branch 'ps/config-env-option-with-separate-value' into jch
+f156ca05dfd4209ce7a5adb39e3ebf3bdf8e4367 Merge branch 'ab/pretty-date-format-tests' into jch
+1b59b6de73086779f169d6a9218aed3c00bdf453 Merge branch 'hn/trace-reflog-expiry' into jch
+85483c7941cb709b3e91509743caea77c6a91e07 Merge branch 'po/diff-patch-doc' into jch
+69eb7fd8c85b01e20b449177a61936d252fecd8b Merge branch 'jk/prune-with-bitmap-fix' into jch
+ac122a8af5d4bc008df95fba0abc714a938d9c02 Merge branch 'jz/apply-3way-first-message-fix' into jch
+5b70a41f0c062955934626f81ca4b541295b713d Merge branch 'ad/cygwin-no-backslashes-in-paths' into jch
+d34290190583b6204a2b9cc26cfb161291ffc11a Merge branch 'zh/format-ref-array-optim' into jch
+f6939bb64e815e0e098f0d847755dd2408f7bf69 Merge branch 'zh/pretty-date-human' into jch
+5a22c88dc313c85799f7770a3b9c77c5b15633c0 Merge branch 'ah/plugleaks' into jch
+be120a88cbb38040302dcf4f76a5f4c20ac22b9f ### match next
+2c7d5297349adb9c4dde6d9d25c2a0708ec2206e Merge branch 'dl/complete-stash-updates' into jch
+5c5db3876ea5200a966253f008e55878ebb6453d Merge branch 'bc/hash-transition-interop-part-1' into jch
+6ebc0f3a53a4433760560f5f2ed02e5d336ead7b Merge branch 'ls/subtree' into jch
+47f1c900e3d58fc199aef0907e0a82e315593b54 Merge branch 'ma/t0091-bugreport-fix' into jch
+b5a4d2cb5be1f37b1f6ee11f8a9c16c59c98c2d6 Merge branch 'rs/repack-without-loosening-promised-objects' into jch
+33a835ce27015b34786088b463a7ceb345702f9c Merge branch 'rj/bisect-skip-honor-terms' into jch
+d3e14a60b2bc3728f036cce4cd5183f56f631b09 Merge branch 'js/merge-already-up-to-date-message-reword' into jch
+e1192275afce47d441de6530337b9e82b00b4af4 Merge branch 'tv/p4-fallback-encoding' into jch
+85c91f369305d93ad6dee864825845e854f9be03 Merge branch 'zh/trailer-cmd' into seen
+4924fb8ecea9b42708f675abf067cc6b74e40fe0 Merge branch 'ag/merge-strategies-in-c' into seen
+1c04296dfdf093ff39aa440eb58afbea7e9b07f4 Merge branch 'mr/bisect-in-c-4' into seen
+e6bc1383497369ecc6f444fc2262be17ce6951ae SQUASH??? config.c:2523:34: error: Using plain integer as NULL pointer
+5f1b36991577cc11b4b13d6b71f864e68118b20c Merge branch 'jh/rfc-builtin-fsmonitor' into seen
+065f686f795685ecf7c5e340579492f84cbe0455 Merge branch 'jt/push-negotiation' into seen
+27c07194e296b2811a36eadcbcbb1383e260ad95 Merge branch 'tb/multi-pack-bitmaps' into seen
+4b60207683ac1ac8203084038a3c644dbaa25eaa Merge branch 'ao/p4-avoid-decoding' into seen
+1993bc2c5c1c291722dd91db6fa9f9ba0b0ca83d Merge branch 'ab/test-lib-updates' into seen
+97c90fe56a5e0852c64354f8d3bb7fd9afdab168 Merge branch 'ab/pickaxe-pcre2' into seen
+f4215e1a1e228be8729392ac1d2ca5525daa09d8 Merge branch 'ab/fsck-unexpected-type' into seen
+e30a607b3df7e7341e8a742b541e0b497bc168d6 Merge branch 'ba/object-info' into seen
+73a659faec96e6dacffb1e39fb6a7b9baac7b67a Merge branch 'hn/prep-tests-for-reftable' into seen
+00d72488151454fdc7a98d4c8d2442b8dba5eb69 Merge branch 'ab/describe-tests-fix' into seen
+ad99fc8ae365ddd04759be542db4d42ff95dd975 Merge branch 'mt/parallel-checkout-part-3' into seen
+27843628f5b9a694e657d497ff1d4bf6b83862b3 Merge branch 'ds/status-with-sparse-index' into seen
+ebcaf4dac3d317455eaa90558267e1332394ea24 Merge branch 'ls/fast-export-signed' into seen
+e9df4fcc498014b66b54ef517540f8e93aa68d95 Merge branch 'hn/reftable' into seen
+d624e40fc97103f9ed8589bda0ed89f894ec1ce7 Merge branch 'hn/refs-errno-cleanup' into seen
+
+--===============8999105677604233927==--
