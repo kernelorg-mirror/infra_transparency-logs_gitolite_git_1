@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5937748162356173925=="
+Content-Type: multipart/mixed; boundary="===============5852469240298076216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 30 Apr 2021 14:18:36 -0000
-Message-Id: <161979231603.8406.9771324380856582670@gitolite.kernel.org>
+Message-Id: <161979231609.8414.16889991456243784464@gitolite.kernel.org>
 
---===============5937748162356173925==
+--===============5852469240298076216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,15 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 97a8651cadce7c2b7c4d8f108b392eff31fe2c08
-    new: 90395bcb9872359d3543f2fc624413d0ba6accb6
+  - ref: refs/heads/linux-4.14.y
+    old: 7d7d1c0ab3eb7c8d8f63a126535018007823b207
+    new: 8863979226b8833c36cce5e47de7e8cfcd5f9318
     log: |
-         36e50fd314e5763b70f463fc95774046d630c957 erofs: fix extended inode could cross boundary
-         90395bcb9872359d3543f2fc624413d0ba6accb6 Linux 4.19.190-rc1
+         2d9b22e563326cb3371283d9f510a6dda62e4b55 usbip: vudc synchronize sysfs code paths
+         8863979226b8833c36cce5e47de7e8cfcd5f9318 Linux 4.14.233-rc1
          
 
---===============5937748162356173925==
+--===============5852469240298076216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -35,23 +35,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619792314 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1619792311-80aa5567f01bd5c5336dfd89f1a0cb4e7b294dc9
 
-97a8651cadce7c2b7c4d8f108b392eff31fe2c08 90395bcb9872359d3543f2fc624413d0ba6accb6 refs/heads/linux-4.19.y
+7d7d1c0ab3eb7c8d8f63a126535018007823b207 8863979226b8833c36cce5e47de7e8cfcd5f9318 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCMEbobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z1MP/Amwm9+TkBR6Ts7smT6p
-Tb3lenJXtPzPsQAw+GXNFJBsMbSrEmGZn4WEa0TbvlPrsmRiGT1/ZtM4h0mNVYLm
-n3Ave/iaN8e1q/4feA5eAiX9K8cQnlNe+jJgK6CfmEztBr7R8dq9z54HqW33PjJE
-c07kDlK3Xktomei/yysH6/6nDC1ubYYFNms//zypReMxoxhLBIZ9rz6Zn0Y9h5Xu
-FCoijh7N0S+qqExFVQ7WHOHyNRAPCDSbqlTexCvkYLgYMpX3Kzw8A2NR+69rKEzu
-+SKdepX6oedfTznx6j1KApc4pboS2yYqKy3+vHx51HQ/MaHeENCGhwdq8i1/XT65
-hQ3mf+QeNqPiRLRSCuNHHE30YZzQYGz1Q2MDSBxHIq64R8jImxs3Joy1H1hZyFN8
-+ZpSJ1XvopAkMuhA36Ij3Qf1xd02fQNmB5O48sAL1Fsri2JCrs+BB5mUOri1Hb74
-MYGSgFXVsiRlUZNKMAaehPRsn6JYAfcTap6zvR6izV5wxoCR7uPFqmxh380UxVwc
-EgRBjEl9p+92dA5PzkTA+vxsxTvUGbIscyS3rvFB0/ZucGco28pMmdhtcZhegQZy
-6eU4hKJ24KNbstXtL6Ytunupc7W9tRcFs/PoGrLVda7eNJ8lXCE89vIpYF/LDY7c
-pjxEPpmIh+BkzOLO8lMAzxqz
-=pqEH
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LLoP/RSaDJJzINpsd6V0CJaD
+qEhFT7f5C+oE59q0FuLciPCuVnGnRNI4qPjsXjvEQXTDN0RzWCwwbxMd2+8gg/zy
++Cj5oIcWZ90+NtSmIgrAHvlyX5zYfEQYTAwcbhAKQ5Adewr5iGD1gASzw/GD5YEz
+RV147L8RT0i7xa0rhM6e/yB80RS5qCyj1XZdp0Sox/OlqZwfYcqR88oPH30L7DKh
+/GO49uf9+WemwgX4ghlUADY7vsjaR0iBWIvvMzLGdfIIr1zlDwOfOHVgSjcxIHti
+TmBsNxXk/hRXFuHIkaI/jTuWgMXWzK0tI5hy3H3Hl53f/4D2aHZit84wauc2o2o3
+5YcQHvlrWv+vwnLSe42ryvAvtGFDGbiHjlsbv5g4SMB4ntBTI+IvZJg/3j5+Q+zP
+GbrgW5oFlbePqHExz8JPtiU/HMmocAztTtSUe1iOKAqaDzovCeuwPgHJk+krVGHv
+GtK9LlhBbBeP8Nwj7itviFWiTACK8m2oRfHg+HFdhJPoqU+dMNr5F2epaP3X+XKV
+aYr0Egxpkjme4GOAwovheiv8VaZ2wqkF4AUTbv6jP0XCeHI9DUpVN7l1ZRp8koQL
+UZuaDc0tS2fY81sXLglN4s1nwWU/2eyFsrjiVel53jAPdWqyrVlXHq2KrvX2b82j
+svWpA43aYs4y1JektGhz/RID
+=Tt9e
 -----END PGP SIGNATURE-----
 
---===============5937748162356173925==--
+--===============5852469240298076216==--
