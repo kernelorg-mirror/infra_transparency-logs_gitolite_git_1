@@ -1,31 +1,122 @@
-Content-Type: multipart/mixed; boundary="===============3467353784775852637=="
+Content-Type: multipart/mixed; boundary="===============5292102554469006671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 29 Apr 2021 23:36:38 -0000
-Message-Id: <161973939834.4380.8286397785659223379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 30 Apr 2021 00:05:37 -0000
+Message-Id: <161974113718.22323.10158664091290283895@gitolite.kernel.org>
 
---===============3467353784775852637==
+--===============5292102554469006671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0d20bffdab2ac8d7fa2dac91ea77846c6d198919
-    new: 94aa53f0c7a1a823b7f579e3f9f1cb5d12dabce5
-    log: revlist-0d20bffdab2a-94aa53f0c7a1.txt
+  - ref: refs/heads/master
+    old: 4a52dd8fefb45626dace70a63c0738dbd83b7edb
+    new: 9d31d2338950293ec19d9b095fbaa9030899dcb4
+    log: revlist-4a52dd8fefb4-9d31d2338950.txt
 
---===============3467353784775852637==
+--===============5292102554469006671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d20bffdab2a-94aa53f0c7a1.txt
+Content-Disposition: attachment; filename=revlist-4a52dd8fefb4-9d31d2338950.txt
 
+ac746729178bd7c08bb7e5242df92bd01593a732 media: rkisp1: params: fix wrong bits settings
+0b276e470a4d43e1365d3eb53c608a3d208cabd4 media: coda: fix macroblocks count control usage
+5e52a168be3775c06cce279b03d156efbad5478b mmc: core: Add a retries parameter to __mmc_switch function
+5b96247c68d891ffdfd103315d04989e7feaa4ed mmc: core: Let eMMC sanitize not retry in case of timeout/failure
+823b31517ad3196324322804ee365d5fcff704d6 platform/x86: intel_chtdc_ti_pwrbtn: Fix missing IRQF_ONESHOT as only threaded handler
+9751bacc8c212eeb15b10231492840086ca719f3 mmc: sdhci-pci-gli: Enlarge ASPM L1 entry delay of GL975x
+0751d56ef1f25c4206626dff99445db34dedf437 mmc: tmio: always restore irq register
+0ab53e498fa4c06145a62ade08633f5c4ecb9ee8 mmc: sdhci-s3c: simplify getting of_device_id match data
+90cdaa84c57dbf29e4a70d6e1204224f662f4873 mmc: sdhci-s3c: correct kerneldoc of sdhci_s3c_drv_data
+e614740a063ff8a87930861674e64347d4b091ba mmc: sdhci-s3c: constify uses of driver/match data
+087dfa5ca7d89c3cf6f4e972e279406a5dee5f67 arm64/sve: Add compile time checks for SVE hooks in generic functions
+a1e1eddef2b5b6d81071e18879ce7d05011cf87a Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/xntable', 'for-next/vdso', 'for-next/fiq', 'for-next/epan', 'for-next/kasan-vmalloc', 'for-next/fgt-boot-init', 'for-next/vhe-only' and 'for-next/neon-softirqs-disabled', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+604df13d7aadae6902d3b7f03a35bb21d887f0cf Merge branch 'for-next/mte-async-kernel-mode' into for-next/core
+a27a8816568964fcef62a3ae5f9d2228ec1ebc68 Merge branch 'for-next/pac-set-get-enabled-keys' into for-next/core
+8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9 spi: pxa2xx: Add support for Intel Alder Lake PCH-M
+609a2f9529d3d3e627776614b6cff34b21f64144 spi: s3c64xx: simplify getting of_device_id match data
+7d712f799a938b37d24359ea836f58866be5e0bb spi: s3c64xx: correct kerneldoc of s3c64xx_spi_port_config
+d6371415517700ae225dd1aaa8a35a86a659ada6 spi: s3c64xx: constify driver/match data
+58eaa7b2d07d3c25e1068b0bf42ca7e7464f4bca spi: spi-zynqmp-gqspi: Fix runtime PM imbalance in zynqmp_qspi_probe
+13525f0a62cc258b2b2266478cc5fec0a45d1e71 s390/cmpxchg: use unsigned long values instead of void pointers
+5d8da6951ee2b2f7785ead62f785f3b3dd254104 s390/test_unwind: print test suite start/end info
+3e5ee32392efd00399d038cdad07478237d9a9f1 s390/atomic,cmpxchg: make constraints work with old compilers
+4da6d76fb43994e558ceb82619a776e300a35e08 PM: wakeup: use dev_set_name() directly
+049ae601f3fb3d5b1c1efdb434499770c96237f6 security: commoncap: clean up kernel-doc comments
+2c88d45edbb89029c1190bb3b136d2602f057c98 x86, sched: Treat Intel SNC topology as default, COD as exception
+862a804aae3031e91bd0ae0b13c90a1b13d77af3 xfs: move the XFS_IFEXTENTS check into xfs_iread_extents
+2ac131df03d4f06bb0d825335663cc5064421993 xfs: rename and simplify xfs_bmap_one_block
+605e74e29218bb22edd5ddcf90a4d37df00446cc xfs: simplify xfs_attr_remove_args
+0eba048dd3b73fab6c97742468176dff58650860 xfs: only look at the fork format in xfs_idestroy_fork
+ac1e067211d1476dae304e8881c10b40c90614d5 xfs: remove XFS_IFBROOT
+0779f4a68d4df539a7ea624f7e1560f48aa46ad9 xfs: remove XFS_IFINLINE
+b2197a36c0ef5b35a0ed83de744610a462da1ad3 xfs: remove XFS_IFEXTENTS
+85c8c3c1f8d9e31f626c93435dd91c2f85603e07 md: factor out a mddev_alloc_unit helper from mddev_find
+d144fe6ff176d79efd411e520103a99e11874c36 md: refactor mddev_find_or_alloc
+0d809b3837a0bede8f58a67e303e339585777bf4 md: do not return existing mddevs from mddev_find_or_alloc
+404a8ef512587b2460107d3272c17a89aef75edf md/bitmap: wait for external bitmap writes to complete during tear down
+e63c8eb132d5b41cb62eaa1176f13a8b1cb43a9e Merge tag 'nvme-5.13-2021-04-15' of git://git.infradead.org/nvme into for-5.13/drivers
+455abda6c972eddf3457ec098a64cce39b1c2652 Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.13/drivers
+c7ed5fd5fbb279a75a58cf641b873f57ef906ac7 Merge branch 'for-5.12' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi into spi-5.13
+203ba0f64eefd0b751c1f34189f4fb1b21182b94 Merge tag 'cfi/for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
+256437ebda641c49abbbe919becc16f75848380b Merge tag 'spi-nor/for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
+ef4ed780d005d65b1a70ba7803233cace93a73ac Merge tag 'nand/for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
+39930213e7779b9c4257499972b8afb8858f1a2d i2c: mv64xxx: Fix random system lock caused by runtime PM
+e5143657d9916d4ff0f94c83d1eb482bf1999d5c docs/zh_CN: add translations in zh_CN/dev-tools/gcov
+c797997a244cd2c58908093509a24711fc67d146 Documentation: dev-tools: Add Testing Overview
+9a18473cef5292d2edde1c1f9ad69fc09091f2f6 docs/zh_CN: two minor fixes in zh_CN/doc-guide/
+f9bbc12ccb35ac8b3fa01cec1a19cb523a7707c7 scripts: kernel-doc: improve parsing for kernel-doc comments syntax
+2c92ef8ff8d327797c1920ae7f938bcc6f3f7421 MIPS: Fix strnlen_user access check
+e9dfeed2518671e94779a6103301cded67fae0e2 docs: sphinx-pre-install: don't barf on beta Sphinx releases
+5c08b0f75575648032f309a6f58294453423ed93 HSI: core: fix resource leaks in hsi_add_client_from_dt()
+667298ceaf042e28b856478e02cfa2cbe8ed83c6 scsi: smartpqi: Fix blocks_per_row static checker issue
+5cad5a507241b4b72b7cad27cf769ac645e53d45 scsi: smartpqi: Fix device pointer variable reference static checker issue
+f02d4086a8f36a0e1aaebf559b54cf24a177a486 scsi: qla2xxx: Reserve extra IRQ vectors
+ea6a693d862d4f0edd748a1fa3fc6faf2c39afb2 io_uring: disable multishot poll for double poll add cases
+91cf21ec6d04db21ab51d47014fd9970b5bd9861 scsi: zfcp: Remove unneeded INIT_LIST_HEAD() for FSF requests
+8824db894dd1da48bad363612577ef410a5d1828 scsi: zfcp: Fix indentation coding style issue
+ab1fa88062f8d1d9e8947719b8ed3ab48a60476c scsi: zfcp: Fix sysfs roll-back on error in zfcp_adapter_enqueue()
+20540a5645f00015ca8eb968b98d62a1b275ceb8 scsi: zfcp: Clean up sysfs code for SFP diagnostics
+be46e39ae3be8cde8dd0d09d7c0f8eed443747ab scsi: zfcp: Move the position of put_device()
+b3f0a1ee9e3986106869eec49b61b40abdccdcf7 scsi: zfcp: Lift Request Queue tasklet & timer from qdio
+4ddbea1b6f51a2ac07c4b80b3c3f50ea37367828 scsi: pm80xx: Add sysfs attribute to check MPI state
+a4c55e16c50022825966864cf1f08b9efa3ebb86 scsi: pm80xx: Add sysfs attribute to check controller hmi error
+dd49ded8aa432e2877e8b8bafcc00898c20ca381 scsi: pm80xx: Add sysfs attribute to track RAAE count
+0602624ace23afddb92ec842fc602df04fad97c0 scsi: pm80xx: Add sysfs attribute to track iop0 count
+b0c306e6216749378ce43f2c5ac4f17bb5ba35ff scsi: pm80xx: Add sysfs attribute to track iop1 count
+4f5deeb40f9cf721030a1bdfecb19584fca9091e scsi: pm80xx: Completing pending I/O after fatal error
+b431472bc88b4a230c88049ed077fcccf4448980 scsi: pm80xx: Reset PI and CI memory during re-initialization
+1f02beff224e6176c1a0aacced7fb5127b240996 scsi: pm80xx: Remove global lock from outbound queue processing
+76fc0df9a0e717f7213424a28cbe1263355d8228 scsi: core: Make the scsi_alloc_sgtables() documentation more accurate
+886874af943953bc4ee575d828c3e3cc7d1aebe9 scsi: core: Remove an incorrect comment
+0d2810cd62d91bd44f42c87f386c126f6620a43d scsi: core: Rename scsi_softirq_done() into scsi_complete()
+280e91b026653af77296b5feb54f16d85973b104 scsi: core: Modify the scsi_send_eh_cmnd() return value for the SDEV_BLOCK case
+b8e162f9e7e2da6e823a4984d6aa0523e278babf scsi: core: Introduce enum scsi_disposition
+56853f0e615bd347daa29b1d7ab165f2bc5ac5f4 scsi: aacraid: Remove an unused function
+90d6697810f06aceea9de71ad836a8c7669789cd scsi: libfc: Fix a format specifier
+be5aeee30e45678668a6314a9a2dc1d3b2562818 scsi: fcoe: Suppress a compiler warning
+3ad0b1da0da2e073b1c9d2e317a5ebf7704f98e6 scsi: mpt3sas: Fix two kernel-doc headers
+3690ad6708c5bfbbf4c5dbb0cd7a0877580d62a6 scsi: myrb: Remove unused functions
+40d1373b604794e1c3b496f5415ef2e3a9074ca8 scsi: myrs: Remove unused functions
+11417cd5e2ec4a07a573586c15134a08ff56909a scsi: qla4xxx: Remove an unused function
+c64aab41c5e15063de41b15c0f1e301aef59ae2f scsi: smartpqi: Remove unused functions
+3940ebf7ba52a82db2aae16a3aa00835d7a98109 scsi: 53c700: Open-code status_byte(u8) calls
+22dc227e8f0e913d86552f5714fccb0e622ec650 scsi: dc395x: Open-code status_byte(u8) calls
+41e70e3006f63b89ae3b0d49557ac9f620bac524 scsi: sd: Introduce a new local variable in sd_check_events()
+15df85e0d63d870e67fbd39c416f1d9815a107d0 scsi: target: Compare explicitly with SAM_STAT_GOOD
+e15c745295a22470b663b101f5130d29e16fbde3 scsi: target: Fix two format specifiers
+baa75afde8cb53f15d166acae2a675a1f33c0a61 scsi: target: Shorten ALUA error messages
+7a3beeae289385f7be9f61a33a6e4f6c7e2400d3 scsi: target: tcm_fc: Fix a kernel-doc header
+9a490b28dd838a0bb51948d49dc7d563e159ada7 ARM: dts: aspeed: Rainier: Fix PCA9552 on bus 8
+1d5d46a1adafafce2b0c9105eab563709c84e3db ARM: dts: aspeed: Rainier: Fix humidity sensor bus address
+45171b7dd2b81dbd38dc4027686774f8b02f2390 ARM: dts: aspeed: Rainier 1S4U: Fix fan nodes
 4f57c6b9db6be3e5daaaea5413cd61cf35eed7b5 ARM: dts: aspeed: Rainier: Update to pass 2 hardware
 6e3587986841512add15e85aee602ff638d3e152 ARM: dts: aspeed: amd-ethanolx: Enable all used I2C busses
 f0145db24e65f6cf13347a90ffb86e5ef2ff2ca2 ARM: dts: aspeed: tiogapass: add hotplug controller
@@ -805,13 +896,6 @@ a637f4ae037e1e0604ac008564934d63261a8fd1 cifs: fix out-of-bound memory access wh
 ad7567bc65afe0ef0d1b853aa4d54c44d09223dc cifs: remove unnecessary copies of tcon->crfid.fid
 315db9a05b7a56810728589baa930864107e4634 cifs: fix leak in cifs_smb3_do_mount() ctx
 423333bcba248c6b65e7eac1a0b8eef57c9eac72 smb3: limit noisy error
-f3a95075549e0e5c36db922caf86847db7a35403 bpf: Allow trampoline re-attach for tracing and lsm programs
-56dda5a48f4f610ac9a0487c6fb64d31950e4a3e selftests/bpf: Add re-attach test to fentry_test
-8caadc43f2019caebbf314f7a6ae2faed791e783 selftests/bpf: Add re-attach test to fexit_test
-cede72ad367a105852e814ef91717aac4383b853 selftests/bpf: Add re-attach test to lsm test
-a1c05c3b09e0a92b26b94650837bf06c664beb1b selftests/bpf: Test that module can't be unloaded with attached trampoline
-7bb2cc19aee8f7150851bb8668c9ff655a5e7678 selftests/bpf: Use ASSERT macros in lsm test
-87bd9e602e39585c5280556a2b6a6363bb334257 Merge branch 'bpf: Tracing and lsm programs re-attach'
 b8d64f8ced62f9ace9d25c338be1043b8367dd34 smb3: add rasize mount parameter to improve readahead performance
 a8a6082d4ae29d98129440c4a5de8e6ea3de0983 cifs: update internal version number
 7e9be673cb1b0be0f4279a960c2ecb28a147c327 MIPS: BCM63XX: Use BUG_ON instead of condition followed by BUG.
@@ -897,12 +981,6 @@ e19eede54240d64b4baf9b0df4dfb8191f7ae48b Merge branch 'dmi-for-linus' of git://g
 fed584c408c123e2a0a7dd1f630d96b84e7f9e97 Merge tag 'regmap-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 ca62e9090d229926f43f20291bb44d67897baab7 Merge tag 'regulator-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 4a0225c3d208cfa6e4550f2210ffd9114a952a81 Merge tag 'spi-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-7a2fa70aaffc2f8823feca22709a00f5c069a8a9 selftests/bpf: Add remaining ASSERT_xxx() variants
-6709a914c8498f42b1498b3d31f4b078d092fd35 libbpf: Support BTF_KIND_FLOAT during type compatibility checks in CO-RE
-0f20615d64ee2ad5e2a133a812382d0c4071589b selftests/bpf: Fix BPF_CORE_READ_BITFIELD() macro
-5a30eb23922b52f33222c6729b6b3ff1c37a6c66 selftests/bpf: Fix field existence CO-RE reloc tests
-bede0ebf0be87e9678103486a77f39e0334c6791 selftests/bpf: Fix core_reloc test runner
-927315041828fcbead6d2ace38c6dee5af95e40f Merge branch 'CO-RE relocation selftests fixes'
 77edfc6e51055b61cae2f54c8e6c3bb7c762e4fe exfat: fix erroneous discard when clear cluster bit
 5c2d728507299f84631ab8020d6f0f98f2cb8fc2 exfat: introduce bitmap_lock for cluster bitmap access
 654762df2ec7d61b05acc788afbffaba52d658fe exfat: add support ioctl and FITRIM function
@@ -912,11 +990,7 @@ da34b03fbd0a6e58770d5fe00830674633a57d60 Merge branch 'for-5.13-vsprintf-pgp' in
 c8dbea6df351df211216b5f8877b020f21ecf75f Merge branch 'printk-rework' into for-linus
 6d042ffb598ed83e7d5623cc961d249def5b9829 io_uring: Check current->io_uring in io_uring_cancel_sqpoll
 7b289c38335ec7bebe45ed31137d596c808e23ac io_uring: maintain drain logic for multishot poll requests
-38d26d89b31d0766d431471572cc9b007ca19c98 bpf: Lock bpf_trace_printk's tmp buf before it is written to
-10bf4e83167cc68595b85fd73bb91e8f2c086e36 bpf: Fix propagation of 32 bit unsigned bounds from 64 bit bounds
-bb0247807744dc93407771e13ba20af0b270ca6a bpf, cpumap: Bulk skb using netif_receive_skb_list
 ea6b2098dd02789f68770fd3d5a373732207be2f cfg80211: fix locking in netlink owner interface destruction
-2551c2d19c04cd1c7b6c99ec04a8ff08193b0ccc bpf, docs: Fix literal block for example code
 7e4910b9acea9fb9575f6506f76dd465259ad8d9 Merge tag 'seccomp-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 288321a9c65192878446a00acaa9f6c3ca9bb1f5 Merge tag 'pstore-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 2fbc66c7838a7fbfb91bf8e119e51e73b4a8a0bc Merge tag 'overflow-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -932,11 +1006,6 @@ cc15422c1f14a84f539df7637b09d534e71b73a7 Merge tag 'fs.idmapped.docs.v5.13' of g
 fafe1e39ed213221c0bce6b0b31669334368dc97 Merge tag 'afs-netfs-lib-20210426' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 f1c921fb70de06c7eda59104470134aecc7a07c4 Merge tag 'selinux-pr-20210426' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 e359bce39d9085ab24eaa0bb0778bb5f6894144a Merge tag 'audit-pr-20210426' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-76d6a13383b8e3ff20a9cf52aa9c3de39e485632 seq_file: Add a seq_bprintf function
-48cac3f4a96ddf08df8e53809ed066de0dc93915 bpf: Implement formatted output helpers with bstr_printf
-05eb3791a0deb79027c7f392342531cb1c884ede Merge branch 'Implement formatted output helpers with bstr_printf'
-f008d732ab181fd00d95c2e8a6e479d2f7c634b3 bpf: Add batched ops support for percpu array
-3733bfbbdd28f7a65340d0058d15d15190a4944a bpf, selftests: Update array map tests for per-cpu batched ops
 c3ad321932ed29b85ceed38a716a6e063e996ff5 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-socfpga', 'clk-allwinner' and 'clk-qcom' into clk-next
 bbc3b403b096220850b82e245a1e5f09b8b216a2 Merge branches 'clk-imx', 'clk-samsung', 'clk-zynq', 'clk-rockchip' and 'clk-uniphier' into clk-next
 3ba2d41dca14e1afbea0c41ba8164064df407c8b Merge branch 'clk-ralink' into clk-next
@@ -952,19 +1021,11 @@ eb6bbacc46720b8b36eb85b2cdd91b9e691959e4 Merge tag 'livepatching-for-5.13' of gi
 acd3d28594536e9096c1ea76c5867d8a68babef6 Merge tag 'fixes-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security
 3aa139aa9fdc138a84243dc49dc18d9b40e1c6e4 Merge tag 'media/v5.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 68a32ba14177d4a21c4a9a941cf1d7aea86d436f Merge tag 'drm-next-2021-04-28' of git://anongit.freedesktop.org/drm/drm
-f89271f09f589b8e9f98a9d3373d4868d3e668a5 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 9a45da9270b64b14e154093c28f746d861ab8c61 Merge tag 'core-rcu-2021-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0ff0edb550e256597e505eff308f90d9a0b6677c Merge tag 'locking-core-2021-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 03b2cd72aad1103127282f39c614e4722e5d9e8f Merge tag 'objtool-core-2021-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 42dec9a936e7696bea1f27d3c5a0068cd9aa95fd Merge tag 'perf-core-2021-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 16b3d0cf5bad844daaf436ad2e9061de0fe36e5c Merge tag 'sched-core-2021-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e542d29ca81d005651680a0a697b72ca13ddc4cc icmp: standardize naming of RFC 8335 PROBE constants
-9be02dd3858137f7bf83320568279eeda59faf01 net/sched: act_ct: Remove redundant ct get and check
-12c2bb96c3f1916624d671904430b7714b48dd71 net: dsa: ksz: Make reg_mib_cnt a u8 as it never exceeds 255
-65ad85f63b15af6995473724ab8562772db22753 net: phy: marvell: add downshift support for M88E1240
-808337bec7366f948663952d8e739eb6c235a90f net: tun: Remove redundant assignment to ret
-15c0a64bfcbcc7a8dca805746f46ea6e746736ed net: netrom: nr_in: Remove redundant assignment to ns
-4a52dd8fefb45626dace70a63c0738dbd83b7edb net: selftest: fix build issue if INET is disabled
 6c0029211382011af508273c4fc98a732f841d95 Merge tag 'for-5.13/block-2021-04-27' of git://git.kernel.dk/linux-block
 fc0586062816559defb14c947319ef8c4c326fb3 Merge tag 'for-5.13/drivers-2021-04-27' of git://git.kernel.dk/linux-block
 c05a182bf45681c5529a58c71ce5647535b3ae7a Merge tag 'for-5.13/libata-2021-04-27' of git://git.kernel.dk/linux-block
@@ -989,66 +1050,5 @@ d2b6f8a179194de0ffc4886ffc2c4358d86047b8 Merge tag 'xfs-5.13-merge-3' of git://g
 d0cc7ecacba8a5b6bbdd5aa6ba3d1bc2fe59b580 Merge tag 'microblaze-v5.13' of git://git.monstr.eu/linux-2.6-microblaze
 635de956a7f5a6ffcb04f29d70630c64c717b56b Merge tag 'x86-mm-2021-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9d31d2338950293ec19d9b095fbaa9030899dcb4 Merge tag 'net-next-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-5e259815b6c2d669f8b1c493066e2d8b066c6ad8 i40e/i40evf: cleanup i40e_update_nvm_checksum()
-504623d67c12efbd310f254b3e12444e66b127a9 igc: Add UDP segmentation offload support
-850fd7913006289756bf5a963ef7864e355c4bba ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-7216b859ad93dedbb2c7351143458c035d2092f0 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
-c37beafdd3d82e9cb03eab4ec12fd2ad4e32f425 ice: Manage VF's MAC address for both legacy and new cases
-b825846f43aa5f0b6a2995c0cca6412a9d4d6cd5 ice: Save VF's MAC across reboot
-a656df6144bbb66d6ba4f00088ceb44f78fb2908 ice: Refactor ice_setup_rx_ctx
-f0e0ecf67a647ef03a25daf49b78425fec546983 i40e: add support for PTP external synchronization clock
-346532c9ed616ab65d992614ba117ef491d402da iavf: Fix asynchronous tasks during driver remove
-095f2893f6303291ac01526a35fff914443d82df i40e: Fix correct max_pkt_size on VF RX queue
-ec829c1724dc9628d102203c269d257a1cc39995 iavf: Fix return of set the new channel count
-933206dda6ebd7eb3be2d42620614ce073532681 i40e: Fix NULL ptr dereference on VSI filter sync
-82861e8cc31df1b06f073b303f3ce455f6059582 ice: report hash type such as L2/L3/L4
-eff4aaf0e2f3ad15c1adc93144cb4b9970d4d2ca ice: Fix allowing VF to request more/less queues via virtchnl
-5ab50cde7e61e064be3cdbc3218dc77897039a98 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-8aaba930ca3d907c9d10bbc22cd13adae8426e52 ice: Fix VF true promiscuous mode
-744441ca40d5276a7c8a5f52d9ac019e45ec3325 ice: handle the VF VSI rebuild failure
-7115024ab676c04d1ca9a496617354ea949adda5 i40e: clean up packet type lookup table
-074927e2b22722ba224096fdf48e916455189c00 iavf: clean up packet type lookup table
-c6260c11885dff056d96fdcb3f0d6eb2c95ed717 igc: Move igc_xdp_is_enabled()
-cdb2846276c090efbd059db5f83df76003382cb3 igc: Refactor __igc_xdp_run_prog()
-653f2d50aeadcd840139c230b3c79d0c7b00d28d igc: Refactor igc_clean_rx_ring()
-ed2b0b6cc61de81503560039e8cf5f5e352332bb igc: Refactor XDP rxq info registration
-49f20b77a4449cb50f5610825a7365e738b4e048 igc: Introduce TX/RX stats helpers
-50def124b3cbdfecb130cd9481b4bc5cb2f61a59 igc: Introduce igc_unmap_tx_buffer() helper
-26845c83c5bdb0ff0fe9a80c758ba54f996eeef6 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
-5220dd5775e0d5676436c27d6b302ba677918f01 igc: Enable RX via AF_XDP zero-copy
-14643945e06a677aaa7a1e8c1854f5b172438f46 igc: Enable TX via AF_XDP zero-copy
-af45f9c5bb536343802462c2d53178919f798465 igb: unbreak I2C bit-banging on i350
-d0c0d8504c086100ddd993db3eb04a1d05b5c700 i40e: Fix error handling in i40e_vsi_open
-b91adb633631d76734413bef635de2fb7548f0d9 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-21d1f7e3f11e63a04d6b067da57519825b3b512a ice: Refactor promiscuous functions
-5e1acc4eac62a5fd31f73650a223394460d604e5 ice: Refactor VIRTCHNL_OP_CONFIG_VSI_QUEUES handling
-d709cf0beab299064fe25c8f5f6a9a0c92fd12bd i40e: improve locking of mac_filter_hash
-83b87d6a1e3ad0142cd4aeeeaf6bf57bb6ba0136 e1000e: Add support for Lunar Lake
-3bd690faebe15848ba1c163aeebe15ab55d0d081 i40e: Fix autoneg disabling for non-10GBaseT links
-a5fa1d183e6c43a980722281f44e53bc8870fa69 e100: handle eeprom as little endian
-54af76754b3c9d9a259b731c3da01a5520a435e0 intel: remove checker warning
-b24b187b485021df99a28bb518ebe08e909cf2d2 fm10k: move error check
-38b292019daa84183e50f99b9ec7649211797e9d igb/igc: use strongly typed pointer
-8c64bf4f44a83b8d141c7ee94e1c43dbfd77382f igb: handle vlan types with checker enabled
-d9c2229f7da955a2457d96f107c418e03d6f7ea8 igb: fix assignment on big endian machines
-7a0b9c0a5a2dd8601dce59a029d019ccb1aab831 igb: override two checker warnings
-8cf873bc5508c61494eaa2a7271b358de8dfc434 intel: call csum functions with well formatted arguments
-4de9efa4f24d1a5b1ff83c3a062055452279e542 igbvf: convert to strongly typed descriptors
-236654dd9e215b7aa6f37fd4df3f38fa0dc3c799 ixgbe: use checker safe conversions
-cf3ecb5233ad82935a41e8559703038c0bece5ad ixgbe: reduce checker warnings
-ca3442060b82003566fb267cd51d316f6fabe284 iavf: do not override the adapter state in the watchdog task
-3292565c7876c87821d52ef2f9923ee399209a83 ice: fix clang warning regarding deadcode.DeadStores
-717551b0a0b6dbab9e849b78e8b4118dab3ca59b i40e: Fix use-after-free in i40e_client_subtask()
-bc6f5d9830c9cc881e8026889b59bee9de256b7a igc: Update driver to use ethtool_sprintf
-85bee9dd0bf5cdf93edbaadb56567afb953c9bb1 i40e: fix the restart auto-negotiation after FEC modified
-c52a591f7691a84825476b8bf0ad83ab051abbcc i40e: Fix PHY type identifiers for 2.5G and 5G adapters
-2405ce1c7430bd8eb62c199d7ce38651e21c9f60 ixgbe: Fix out-bounds warning in ixgbe_host_interface_command()
-cce0a001fb0ebe160a0b62adc2ff3da68b318f63 i40e: Remove LLDP frame filters
-0d3edb2ad68be178a2c9421144398ede99553994 igc: Remove unused asymmetric pause bit from igc defines
-cb9b6db0765da4f4f7c7c971b01b4e1dc384ef00 igb: Check if num of q_vectors is smaller than max before array access
-2fc7e77e3e5c4115008f9153e46a251063fdb324 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
-a02943a43a3e48911c3af65603d82ff8fad72b41 i40e: fix broken XDP support
-9298dec2f4a7a765cfe07bcdccd6685e967926a9 ice: Enable configuration of number of qps per VF via devlink
-94aa53f0c7a1a823b7f579e3f9f1cb5d12dabce5 ice: track AF_XDP ZC enabled queues in bitmap
 
---===============3467353784775852637==--
+--===============5292102554469006671==--
