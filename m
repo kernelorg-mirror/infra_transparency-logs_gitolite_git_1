@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Fri, 30 Apr 2021 14:31:07 -0000
-Message-Id: <161979306750.18389.5359859689140415926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 30 Apr 2021 14:31:21 -0000
+Message-Id: <161979308164.18581.18181635045487180587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/main
-    old: e1e089d1f237e3a0b49fa775a550f8876c4000d1
-    new: 7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905
+  - ref: refs/heads/untested.iov_iter
+    old: a246e0531951d46f5f9d3c5373cdf6953178d902
+    new: 6f93d60e7f3ad21d736f87da237fb85caada4d48
     log: |
-         7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905 mptcp: make sure flag signal is set when add addr with port
-         
-  - ref: refs/heads/master
-    old: e1e089d1f237e3a0b49fa775a550f8876c4000d1
-    new: 7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905
-    log: |
-         7f1d58d1a1c59d2cc3fdae04e8f03d411fe22905 mptcp: make sure flag signal is set when add addr with port
+         0e3ec7573828ebede159c74ca0019b33ae16f348 teach copy_page_to_iter() to handle compound pages
+         8969463a18e3b5526d54ba9cc1a27be66bc20b0e iov_iter: switch ..._full() variants of primitives to use of iov_iter_revert()
+         6f93d60e7f3ad21d736f87da237fb85caada4d48 iov_iter: replace iov_iter_copy_from_user_atomic() with iterator-advancing variant
          
