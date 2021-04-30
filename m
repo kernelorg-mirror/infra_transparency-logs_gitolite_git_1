@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 30 Apr 2021 11:07:46 -0000
-Message-Id: <161978086661.18054.2779852673464938995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 30 Apr 2021 11:07:49 -0000
+Message-Id: <161978086932.18170.7936207821385084568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/atomics/arch-atomic
-    old: 1c5b1a86337d976ced21cda56dd4f9a85e3e6f47
-    new: 8a439ab70cfbf8536d614e05b985e3e5af27397d
+  - ref: refs/heads/master
+    old: 071d3135d37f8f1dd1c5a994e0eda23ddeeddafc
+    new: 5ec1108c0022a156bf6d796e3d50243bbaff75a5
     log: |
-         8a439ab70cfbf8536d614e05b985e3e5af27397d locking/atomics: atomic-instrumented: simplify ifdeffery
+         5ec1108c0022a156bf6d796e3d50243bbaff75a5 build-sys: add configure options to disable individual utils
          
