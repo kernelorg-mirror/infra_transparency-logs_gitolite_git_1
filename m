@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 30 Apr 2021 21:35:13 -0000
-Message-Id: <161981851324.634.13977670952421107368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 30 Apr 2021 21:37:44 -0000
+Message-Id: <161981866460.1494.4918624997627009818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6ed7f4675db5cc59206e9ec09801609c22c7d6e3
-    new: 074ff847e12bf2ff765f0036971532032bf8d612
+  - ref: refs/heads/master
+    old: e0f21ed293b5715841789f364d70a89850c0a2c7
+    new: 29dd246f5e4a9409eccc4937cdf7b7afd2a3ec36
     log: |
-         f9c7c828d04e484f9953f2c33e409a7f145dedb1 i40e: Fix warning message and call stack during rmmod i40e driver
-         074ff847e12bf2ff765f0036971532032bf8d612 i40e: Fix logic of disabling queues
+         29dd246f5e4a9409eccc4937cdf7b7afd2a3ec36 ap: Fix invalid length argument to ap_build_beacon_pr_head
          
