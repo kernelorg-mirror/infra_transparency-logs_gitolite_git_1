@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Sat, 01 May 2021 00:41:46 -0000
-Message-Id: <161982970644.14408.15432467188039988159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Sat, 01 May 2021 01:07:33 -0000
+Message-Id: <161983125322.29531.11878218784492541375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: d9fdbedf0ee3a5981e2d83d85b547b7750303acb
-    new: b055779642a43c43c07c3e5e73d9b8677e1dc364
+    old: 29dd246f5e4a9409eccc4937cdf7b7afd2a3ec36
+    new: 8606bd6435b6e68ab3896af3b0a9976ecee5eb7f
     log: |
-         b055779642a43c43c07c3e5e73d9b8677e1dc364 Build: Add missing ELL headers and sources
+         8606bd6435b6e68ab3896af3b0a9976ecee5eb7f adhoc: set operstate on Start/Stop
          
