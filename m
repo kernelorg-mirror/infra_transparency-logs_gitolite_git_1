@@ -1,62 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============8088929146325630580=="
+Content-Type: multipart/mixed; boundary="===============1402831634999438240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 01 May 2021 09:48:55 -0000
-Message-Id: <161986253539.696.14225130899764751216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 01 May 2021 10:09:31 -0000
+Message-Id: <161986377198.13377.693973526467733281@gitolite.kernel.org>
 
---===============8088929146325630580==
+--===============1402831634999438240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/umn.edu-reverts
-    old: 617a1ec0a4b5550eef4c3aaeaa3eb2819893ef50
-    new: 6dd269ebe3c8a78f0bf11b6785255d8c06132cba
-    log: revlist-617a1ec0a4b5-6dd269ebe3c8.txt
+  - ref: refs/heads/master
+    old: 8ca5297e7e38f2dc8c753d33a5092e7be181fff0
+    new: 9f67672a817ec046f7554a885f0fe0d60e1bf99f
+    log: revlist-8ca5297e7e38-9f67672a817e.txt
 
---===============8088929146325630580==
+--===============1402831634999438240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8ca5297e7e38-9f67672a817e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619862529 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619862528-49dcc608bae7fd0cf5481e56c4bc7b50a8764636
-
-617a1ec0a4b5550eef4c3aaeaa3eb2819893ef50 6dd269ebe3c8a78f0bf11b6785255d8c06132cba refs/heads/umn.edu-reverts
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCNJAEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E9sQANTyQjybIkleLW+I2te5
-PBnqyIhgCPXifX8V9Eiou/5cRrzIano2OWgBCA61o9F7HWyafnncw0Ydh57Zohch
-ecY7m38CGPqbNPJkQxRcMJcPS4X0g13Pn0HvQRK9JrKeB0HmSoq0TZVrSqabIrW4
-2Q9KBy9unlDFXtEjLpGTmagytllO1L/MObou7hc75MIjZ1gr+emmPUlBKAjzzb/C
-PvXyguOhr8NyBTTdcdB/cuCgJVXCoRtN5NrygeCWBRi5fUAYa4tW1KSvT6EXzzwB
-CAGoLZFzHrUdlU5Q6PUUp7gY4uD5EaA1ejns0cll6p68tVyZLJhJh9YaV2uwYuAu
-Wt7Q9QmimS39V76DuYWf2DLUHTTCCLfWPgUQ5lm/M0gi+8EZrtnfBpkvkIaD1smA
-j3O6PntINJfzcEHpHiwoOYprD/55GvAAl8yYpvZoGQvJUY0ywlWR1VOfVg9MUvXL
-gigd07OLqcaGodlMEGiOnKP/C7HS4tTeIQSOShWq0DdDKb0qJ4MMROMtDmZVyPRr
-ILQPNpRuD7dIfFeiR+V6RNCaAaIFZz+c7c6aqFZI9zDtonIlDFmzmGOCBWuuMje5
-QhGnGqzoO0pJCJUR0i+kEChBeAvSnKs8U2BIzIVJp4w5B7e2nfRe1LNCQYeQlqFK
-ECGG89H/2Tqa6reDdbKQp0za
-=e0SN
------END PGP SIGNATURE-----
-
---===============8088929146325630580==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-617a1ec0a4b5-6dd269ebe3c8.txt
-
+50554accf7a79980cd04481e8903073bdb706daf pinctrl: add a pincontrol driver for BCM6368
+9b3303413379af8bed307cd465fe7aa1bc3569ea dt-bindings: add BCM63268 pincontroller binding documentation
+ff8324355d7ae2e4ebbd304de27bb5fa75e20c6a dt-bindings: add BCM63268 GPIO sysctl binding documentation
+155cca1b0794a8f541e7eaa45be70df0a49964f3 pinctrl: add a pincontrol driver for BCM63268
+b2f215141b985d5d39ed16fe7e2089d5aa162302 dt-bindings: add BCM6318 pincontroller binding documentation
+b6d46b9454742a25f9d923be072869e40b2ecebb dt-bindings: add BCM6318 GPIO sysctl binding documentation
+d28039fccf948a407de69106465caa465b1dcf32 pinctrl: add a pincontrol driver for BCM6318
+33121347fb1c359bd6e3e680b9f2c6ced5734a81 module: treat exit sections the same as init sections when !CONFIG_MODULE_UNLOAD
+0803a5cb5b7cf369c3e2af4108ee44d0b6e1c197 ASoC: dwc: Fix -Wmissing-prototypes warnings
+23f23db29ac996a824dce2b3a800c7a002f1c480 ASoC: amd: update spdx license for acp machine driver
+d463cead11ace05c81de31a0fb9c2507c5c1d0a2 ASoC: amd: fix acpi dependency kernel warning
+502e5321d89214a34a7b8bda697fc98d14b51cae ASoC: fsl_rpmsg: initialise pointers to NULL
+c1c03888f1e89e669aa6da0c9a491f02fd6a999e ASoC: SOF: parse multiple SSP DAI and hw configs
+e12be9fbfb91173b3aa358466ce0474823be2695 ASoC: SOF: Intel: HDA: add hw params callback for SSP DAIs
+c943a586f6e49998b323afbd7f788afabf6ed89b ASoC: SOF: match SSP config with pcm hw params
+2fd8db2dd05d895961c7c7b9fa02d72f385560e4 fs: dlm: fix missing unlock on error in accept_from_sock()
+3de72d6a282271f82000fe163296d95f8db05632 Merge series "Add mediatek MT6359 ASoC accdet jack driver" from Argus Lin <argus.lin@mediatek.com>:
+05bc941403d6695f063022531ae2acae9f79b362 drivers: pinctrl: Remove duplicate include of io.h
+22667a63fe3e5fbda7b02ac51d769ad906a385b2 Merge tag 'intel-pinctrl-v5.13-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into devel
+762bee3e3e9f42cafdb3ead64b7aee37f9b7369f Merge branch 'ib-bcm63xx' into devel
+a6ad93e37e76ec43c9cee6a91dd783fb854c2ff1 Merge tag 'platform-drivers-x86-surface-aggregator-v5.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into for-5.13/surface-system-aggregator-intergration
+b05ff1002a5c19f2fd511c6eada6f475ff701841 HID: Add support for Surface Aggregator Module HID transport
+35a927f2848bd79586c6374ebb99e4207f3b0c7f HID: surface-hid: Add support for legacy keyboard interface
+66ff89946e6a71e48acaecfd5190038922b8e96a HID: fix memdup.cocci warnings
+f556de6087f0d19825ffcdddc4816f83ddfd35e3 ASoC: mediatek: mt6359: Fix spelling mistake "reate" -> "create"
+c7721e94279887f9dd8f4be303f2054bb5477c9e ASoC: Intel: add max98390 echo reference support
+96fadf7e8ff49fdb74754801228942b67c3eeebd ASoC: q6afe-clocks: fix reprobing of the driver
+abc21649b3e5c34b143bf86f0c78e33d5815e250 ALSA: core: remove redundant spin_lock pair in snd_card_disconnect
+1fa4445f9adf19a3028ce0e8f375bac75214fc10 ALSA: control - introduce snd_ctl_notify_one() helper
+3f0638a0333bfdd0549985aa620f2ab69737af47 ALSA: control - add layer registration routines
+22d8de62f11b287b279f1d4473a78c7d5e53e7bc ALSA: control - add generic LED trigger module as the new control layer
+e65bf99718b538c2f34e9444dfe1087789b58f94 ALSA: HDA - remove the custom implementation for the audio LED trigger
+cb17fe0045aaa74d1ce12c0ad0058a62a1ce0401 ALSA: control - add sysfs support to the LED trigger module
+a135dfb5de1501327895729b4f513370d2555b4d ALSA: led control - add sysfs kcontrol LED marking layer
+5b1ed7df01335ecf686edf490948054078d5766d Merge tag 'tags/mute-led-rework' into for-next
+8b01a0d0b5c1327296b37a13c37ca7ab31841577 ASoC: dt-bindings: nvidia, tegra210-ahub: Add missing child nodes
+01990be33389d59f6b5c7dce0e8580263df1aa0c Merge branch 'drm/tegra/fixes' into drm/tegra/for-next
+86cec7ece3e62517e2bc0fd796a8a8da4193e7e5 gpu: host1x: Allow syncpoints without associated client
+49a5fb1679952a76861bd2580f785e33e3de712c gpu: host1x: Show number of pending waiters in debugfs
+ecfb888ade427e2da437b48cafd8fc824e80c909 gpu: host1x: Remove cancelled waiters immediately
+f63b42cbc86e12f7d960d1fdaaf93b4373c06c65 gpu: host1x: Use HW-equivalent syncpoint expiration check
+11d92156f7a862091009d7655d19c1e7de37fc7a powerpc/pseries: Only register vio drivers if vio bus exists
+937c49d10b4dc8e81ed1a24ffab8d70bba138af1 powerpc/mm: Revert "powerpc/mm: Remove DEBUG_VM_PGTABLE support on powerpc"
+1a0e240d09413ac6c90ce6247afdfc424c84103f i2c: tegra-bpmp: Implement better error handling
+8f66edb25c4e10f8380c88f4c097158ff611fd10 i2c: stm32f7: Remove useless error message
+c126f7c3b8c41f5ca146e52e70ae927e3be30060 i2c: Make i2c_recover_bus() to return -EBUSY if bus recovery unimplemented
+1978d88cdc8eb0986d36cac0e9541220fa71d87d pinctrl: bcm: bcm6362: fix warning
+89503d736e3631bda906c627d1092dc8e76ddfd9 ASoC: simple-card-utils.c: remove old comment
+050c7950fd706fec229af9f30e8ce254cea9b675 ASoC: simple-card-utils: alloc dai_link information for CPU/Codec/Platform
+674b9438e2d4c44f45af2a38521767c06c46eacb ASoC: audio-graph: count DAI / link numbers as in order
 e9cbcf23a28b41a310a13d0b1b67501948b255fb ASoC: audio-graph: cleanup graph_for_each_link()
 a6e8798061bf0f33caea6fd47b0cb367309e34d0 ASoC: simple-card: count DAI / link numbers as in order
 39af7f7a03d007e5590f0b852b3f2fed9e703d0f ASoC: simple-card: cleanup graph_for_each_link()
@@ -1031,55 +1050,5 @@ d652502ef46895820533aada50ddfd94abe078fe Merge tag 'ovl-update-5.13' of git://gi
 9ec1efbf9ded6cf38fd910c6fe943972d970f384 Merge tag 'fuse-update-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 6bab076a3d2ff4298483c1a3b77162811b451863 Merge tag 'dlm-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 9f67672a817ec046f7554a885f0fe0d60e1bf99f Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-b2f72ca1d3402071cb3ab454036e43aad815dba5 Revert "mmc_spi: add a status check for spi_sync_locked"
-340024f534d663e09ee92fd2d161ca634bda2871 Revert "niu: fix missing checks of niu_pci_eeprom_read"
-6bc0601625504fa01f475b7440e5dfe60441723d Revert "media: rcar_drif: fix a memory disclosure"
-cb40b7dd9b1e87d3fb9e49eb996099f93296bb32 Revert "media: usb: gspca: add a missed check for goto_low_power"
-5e13f268d8abd96aaeb716413348f5d89a8975ed Revert "media: gspca: Check the return value of write_bridge for timeout"
-14133b5ad906296f9aacfc02e9b60b7518c1a6f1 Revert "media: gspca: mt9m111: Check write_bridge for timeout"
-28a0dd97abaf6cdc47c4a1cf4bebecf2d2b191f0 Revert "media: dvb: Add check on sp8870_readreg"
-3542d834642c4ba87fac3749cc97bf51defe5726 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-d7ed8419a8b12ba488519df57c8cad62c941bb18 Revert "ALSA: sb8: add a check for request_region"
-594863b61ce802b1cb0ffb6c4c2b1d66fe83c78e Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
-b387c1c45e35e83a358bde142bcaa2e22c522cf1 Revert "ALSA: sb: fix a missing check of snd_ctl_add"
-fe9920ce15bd446398ec42ec5fcecead39c0c80c Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
-6d811d984215e70a4d6012bfaa3311354d5e371b Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
-31a2a947e67dd686685c704f23f054ca5d9f0f8b Revert "isdn: mISDN: Fix potential NULL pointer dereference of kzalloc"
-15adddb879547e4b34116236872274e0b96de96f Revert "dmaengine: qcom_hidma: Check for driver register failure"
-e811e13e0d553d10b7e0a6ab1aa74f7dfa9136e3 Revert "ecryptfs: replace BUG_ON with error handling code"
-c5dcd42e19effd29daa516466a37e60fbecfe894 Revert "video: imsttfb: fix potential NULL pointer dereferences"
-16e0ef4dc542ef2a1b68cf038791ec07a89a9745 Revert "brcmfmac: add a check for the status of usb_register"
-7a6285609ca96640e545e2852e15a29272234af0 Revert "video: hgafb: fix potential NULL pointer dereference"
-75ba82dc816b30d74b4f0720ec66ece60cdbd323 Revert "ASoC: cs43130: fix a NULL pointer dereference"
-94358955122400524cb0dbc56aef157fc65c6b56 Revert "ASoC: rt5645: fix a NULL pointer dereference"
-d41cca27b500b2e01540f24b037ccd36d925fd3d Revert "qlcnic: Avoid potential NULL pointer dereference"
-1cbf6fedd0fc724016bb9cc2ab969d03c50562b4 Revert "net: liquidio: fix a NULL pointer dereference"
-5da8269f09db94edb3aed97c14a286799dd92eae Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-1b9a9739f74728fb7aa1dc8e51bd2d18fc750d08 Revert "libertas: add checks for the return value of sysfs_create_group"
-330c9c4570dac611106ccb54a0eaf84dbb570fd5 Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
-44910bb479c855aeff112151c516c4f31e5396cf !!!! Canary - fixes
-3b0892d8d10931d0626bf5845d4214cd70c3db8b Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
-b84caebbe65cf778906e2da001f0137ed3e82ec1 Revert "rtlwifi: fix a potential NULL pointer dereference"
-490c4c7f8c72bcbce7ef71ce21a18ac9c809d471 net: rtlwifi: properly check for alloc_workqueue() failure
-38b2afc75d09486b18208682b9fc874395df4e4e Revert "net: fujitsu: fix a potential NULL pointer dereference"
-3c28d515d240ffe936ceff13353a4440aad697aa net: fujitsu: fix potential null-ptr-deref
-449a57a680c013d7d83b73c8ddcaf21fd5ce2c21 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-d72ed5f9153796ebf55533f73ae8047a70c93d82 leds: lp5523: check return value of lp5xx_read and jump to cleanup code
-a611a15501b3d065932d17889603d02e4d5fc626 Revert "serial: max310x: pass return value of spi_register_driver"
-2abcf2206f0c62ed327dfc11ff256ab9f106adf0 serial: max310x: unregister uart driver in case of failure and abort
-c57a252f1104071a737041116bb6890607b26ef9 Revert "net/smc: fix a NULL pointer dereference"
-c1d5cf4fad844a4f8a687b184117cae3465914e9 net/smc: properly handle workqueue allocation failure
-59bfaa493fa3628089daa081b77986b3630faf85 Revert "char: hpet: fix a missing check of ioremap"
-eb889257f47a9b0763f64c3965487507e0f05571 char: hpet: add checks after calling ioremap
-63b03627da9e9728d351b5037a515a5b8e43f55e Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
-e0955266f1de3540d3ded0a9d32cc0cfbc11e495 scsi: ufs: handle cleanup correctly on devm_reset_control_get error
-8d08da79f269ea8ca6729b0fc45f39df47dada60 Revert "net: caif: replace BUG_ON with recovery code"
-23d52c6113fbbbd77ce9665f3db0bbaf0a9cadd2 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
-58b6e1488f2a869554097bd9472a7091e2ae90af Revert "net: stmicro: fix a missing check of clk_prepare"
-d8b131f7973ffbd3b73aa75cc3df38fa9b6a9e5a net: stmicro: handle clk_prepare() failure during init
-937fb2ffa6386f60c9065ab835d6ecc26daa3c03 Revert "gdrom: fix a memory leak bug"
-13bb2e0d6134eb57cc7be17fb3857f5a436fedaf cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
-bbdf2ede947d92cd01b07fc5dcbb8856f340d1ed Revert "ALSA: gus: add a check of the status of snd_ctl_add"
-6dd269ebe3c8a78f0bf11b6785255d8c06132cba ALSA: gus: properly handle snd_ctl_add() error
 
---===============8088929146325630580==--
+--===============1402831634999438240==--
