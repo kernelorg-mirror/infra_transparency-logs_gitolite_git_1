@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0863720100752785203=="
+Content-Type: multipart/mixed; boundary="===============6385244737775151800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 01 May 2021 10:27:44 -0000
-Message-Id: <161986486434.25409.9343533640121836602@gitolite.kernel.org>
+Date: Sat, 01 May 2021 10:29:50 -0000
+Message-Id: <161986499062.26165.8851586450777320794@gitolite.kernel.org>
 
---===============0863720100752785203==
+--===============6385244737775151800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,75 +17,78 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/umn.edu-reverts
-    old: a6012d2b5b97345266ae6ac99527bb5900a38e2f
-    new: 8e61db1b3196f7974564be9b4f2c41a8f550c651
-    log: revlist-a6012d2b5b97-8e61db1b3196.txt
+    old: 8e61db1b3196f7974564be9b4f2c41a8f550c651
+    new: 9575833e564967e687689b51e87557e9a2ad375c
+    log: revlist-8e61db1b3196-9575833e5649.txt
 
---===============0863720100752785203==
+--===============6385244737775151800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619864858 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619864983 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619864857-e9cd3039ca97785851cd90d527d1f14a7ff6f5dd
+nonce 1619864982-0e0fd7eb9cb70eb37de4df48c34b935b1f74a95c
 
-a6012d2b5b97345266ae6ac99527bb5900a38e2f 8e61db1b3196f7974564be9b4f2c41a8f550c651 refs/heads/umn.edu-reverts
+8e61db1b3196f7974564be9b4f2c41a8f550c651 9575833e564967e687689b51e87557e9a2ad375c refs/heads/umn.edu-reverts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCNLRobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Px4QAJHg9HkgZXSgdxtQ4S6E
-KuQPkkcpO0OrQXOPGmbtuSKALM1wwKOOd64H9TBTECFIrNVYOS5fvUAPxn/lvZhX
-q2o1XnyC4Iwn4+vyGntCswhakGhxk1uNKzHpKizIlixt1S4cqQ/1C1wBLKCVxySm
-00eF0hAxeyGUDlf9Ll6uhLPes/KSqUO1VvcNy1SuBs+KIx1SBsaqBVZDyHFp6CIl
-rWpS/osGLNcD43hlwzedkT/dpen2YBG5DaAnpClgm3EEm0lPuF1ReUnouDS84ZMb
-hmtbcogGf0H2wY08Ifbzy4+tGSeSvjAqNkmnOwytYwmqEp0sDPFxqCAp5b50Is/i
-n6ebPMah7OyIlF1hPotFPYOyY5p+B4TNlLaDzeuvBxeonlu2+uFUuGHBDCyRTRa2
-PYwVeCrcaMrA3uG1rHBrEiV1c6HTWz1hg8IEuUqOwt3V2ivNlCEvIqtC3/WYOTxt
-keT6kBeOtoxpGpQnlJhK9nLCPU/oq0rMiV5yluBkk480O6nhMnvGJdm86jxXdt4v
-RIvAEA1dVg+TIGiNqcG4WU07CZ8n7BiHSWC0bFxQiHHbEnaNTZzncJjngQx3iEri
-DTS2OE+ixBChn/Xfe1kT0pwPb+Kydygu1HTSK/loZU/IFcXOv3FrvSFeMisI9vqj
-e5h4Cbu00SPii3J9Cq0qXeWr
-=1Hyy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCNLZcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xpcQANg6sltYA/JTaSkI0nnb
+ZMjS55nNX/G9oifqpHOPZRbgKn2JAmrOJm1kOWuQZGmiCE/+GsXTfXM/1FuFOXfh
+gjoiATfBR6RVm4fzzc6nPpdAvzpXl/oUA4pVl9fNOM+bcp9lvvRhX63VPjB2yw6I
+4qy3KG4TfFV/urbuUvVNlDEKXdZQLa8vl/KCctH20EOdHN3sJtZVlE6mSfRJuz+n
+R3R1IyiQ6JURlXQCBuU4uGpEfsdFty4/2+gG1wV3u3nhM2C//oTf151GYK77+zoG
+fWZWwO7m3J4eMfUF/5LwS0uPLGScGP3dYu9AH7JiEnGrJgxJL5fwxcxmVFxo7rDL
+6QhtasjRwXPKkj2wp1VUzBWcm3w5IEvnBCmjah7qcGiWsjkoYbtz+uwy4XP8UPl3
+J0d61P7uwZueYVUS8dLsSssSrVDOwlP6wn3DQ9k0THEM/k8vXyw13eZBD5hZCweD
+ccMT77zMeR1cHaRH2KFq5SqeUKAevIgNWwQOtewCUZgguEmb/kiaPaK7WpuZtG8X
+ozoPOdP/RsTMg5em5HAcXk+06ongSmU+k9DSUrPuexx9iOvzQtXrEC4ggMaEmtVU
+oxP2r+c6RFQM/ANBU53ZlJ9DOnJj3wfKG0vTlg8GYpkXfmyajuiit7s4QqEXTSJw
+50I0JtkGyrjrDrcHUlWpq0oQ
+=cEHa
 -----END PGP SIGNATURE-----
 
---===============0863720100752785203==
+--===============6385244737775151800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6012d2b5b97-8e61db1b3196.txt
+Content-Disposition: attachment; filename=revlist-8e61db1b3196-9575833e5649.txt
 
-84246fce0c326730780c5f28ca51b8ac5317f3ee !!!! Canary - fixes
-c793092fb757abf2fc2b3db643989371899a1f85 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
-776dc59dcf34b2947192db8fd42c0be43fde0912 Revert "rtlwifi: fix a potential NULL pointer dereference"
-7f6c3575092e597930ca6a12692951d7ed18bd2f net: rtlwifi: properly check for alloc_workqueue() failure
-0b5e76c5c4e0350235bdf2e36c3c59bf696b3d6d Revert "net: fujitsu: fix a potential NULL pointer dereference"
-ac6adab55fe54cf29ff7b55ea48d97db3c3f83f4 net: fujitsu: fix potential null-ptr-deref
-7d6a318940c1dbc4909cb3a969089ca0e413d97c Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-4387214458232750288ce90ebba62181ae3933db leds: lp5523: check return value of lp5xx_read and jump to cleanup code
-e7981f92aa538c7b6d3111d11ac7a076f2cd0f60 Revert "serial: max310x: pass return value of spi_register_driver"
-a55719875494fc03a0582d099f35e87d41417240 serial: max310x: unregister uart driver in case of failure and abort
-53dd15404be7c77b8df0cb0ba5a9601f29ae2c84 Revert "net/smc: fix a NULL pointer dereference"
-f8b4c2c11f0c0a456c5ee155a5bfc07ba0881acc net/smc: properly handle workqueue allocation failure
-65ed77705e27582970d2d233f118f113431644da Revert "char: hpet: fix a missing check of ioremap"
-270f7fbdba65008bdfd56908415a4a9ffc6cf527 char: hpet: add checks after calling ioremap
-38b093e68c6fbda01709ac73c7df50fa447031d4 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
-d2e0d214d65ac33a71f0a6bf2ad03cdd35c0ab12 scsi: ufs: handle cleanup correctly on devm_reset_control_get error
-168f6adabe267d6ee563049f40f38482725a4f79 Revert "net: caif: replace BUG_ON with recovery code"
-a96cede9ebd43eae4f47850bd02ba24bb38ea0c8 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
-808f02b4dea400d41d4fec0108e639af570da6af Revert "net: stmicro: fix a missing check of clk_prepare"
-0bf5fb53dfe4b645470aa436517fab21ec56cd65 net: stmicro: handle clk_prepare() failure during init
-9bde653e6ad6ba8f22b26526af2a31e65d8c4732 Revert "gdrom: fix a memory leak bug"
-c09fbdffdee2cbd41fc2f36ade000eb13e31511b cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
-39a4af7d8f5c61d76989d34a3a4f19869ecbc1af Revert "ALSA: gus: add a check of the status of snd_ctl_add"
-d069cfedb4d201b5d343e8373b9c063bca43b704 ALSA: gus: properly handle snd_ctl_add() error
-d2f322b034fe444d03dc4742e624e3eb36314040 Revert "video: hgafb: fix potential NULL pointer dereference"
-3f4eafe9a13865ae919010485219dbfd2d9dadc8 video: hgafb: fix potential NULL pointer dereference
-3694c76d8b383362e42c4c26479c21c84e4f9990 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
-a2608c4d38c137b1407b3d31b90bb214edfafc0d isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
-8ce3ae8035546d51c50a5f57cfd6277c42bf82eb Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
-8e61db1b3196f7974564be9b4f2c41a8f550c651 ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()
+879cf68445313f45661b8daef5a4576449c288c1 Revert "libertas: add checks for the return value of sysfs_create_group"
+7e1805a371cee741822828331ee13a53db473ed1 !!!! Canary - fixes
+6d71dcc4edeea1b7fc6491138d647ccb70bb5d47 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
+abee232973fadaa843680fcc0ede503f6b3cd7ad Revert "rtlwifi: fix a potential NULL pointer dereference"
+6ea533ff48e1a1ea863e41126ab41696c827c21a net: rtlwifi: properly check for alloc_workqueue() failure
+b1315be80a0e86a4df4e94f12d97ee1ac58825ca Revert "net: fujitsu: fix a potential NULL pointer dereference"
+dfde1e2d190dfc8ba1453c828aabd677b17027f8 net: fujitsu: fix potential null-ptr-deref
+4170fb8947aa6e6584d6f8f4d102a6174cb041ca Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+7b91529a4515031a43e144da68cf0d3def841eff leds: lp5523: check return value of lp5xx_read and jump to cleanup code
+acb3dee3cdc038ae409844f8af922baaa5b70aba Revert "serial: max310x: pass return value of spi_register_driver"
+56aa74a5aa3bd0b1d5f79be72b5c067d6967ed7f serial: max310x: unregister uart driver in case of failure and abort
+634629576874c87e484698ca251e13b52e2724bf Revert "net/smc: fix a NULL pointer dereference"
+1d4f2bcd84f9c7902f371646dc15329a4f77d6bd net/smc: properly handle workqueue allocation failure
+797b18cf2653cc9b8b276899c3cf096de94fc04c Revert "char: hpet: fix a missing check of ioremap"
+254a2e79f5726f5741822181ded6c75187d156d9 char: hpet: add checks after calling ioremap
+7f5d54e441fad55d734c864152996b658d5eba2e Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+125c59cf8f6bfecc637e5ce8157ae8efc3a7b182 scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+6f5680d5c2648b275ddc65856aba6fc174289eb6 Revert "net: caif: replace BUG_ON with recovery code"
+74703db7061a218d1bbc7665546b3150a13ccf54 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
+ed4703c12c1988dbdc7125835673a7462404bfad Revert "net: stmicro: fix a missing check of clk_prepare"
+82d5676903aa3429498feaee982734b9f44b020d net: stmicro: handle clk_prepare() failure during init
+eb40b93ad7977c2806552981fe20da1192966400 Revert "gdrom: fix a memory leak bug"
+1168cefb9efb9cf2cbd1f67644429231e63b907d cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+fcd69abf7eace868419366fbcafd827eb0b53711 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
+bf85ffc4989fcd9db5ee306d391fbc8d2f6c1581 ALSA: gus: properly handle snd_ctl_add() error
+845a7b0d556ab65eb0cee8643d9c52bf3a4e1cf3 Revert "video: hgafb: fix potential NULL pointer dereference"
+9402effc5f986a52cbdce8a47584b9fb21928785 video: hgafb: fix potential NULL pointer dereference
+903bbb2f4b2d1290256cd5541a9c3d93111fba35 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
+ee1ff79e6e9da950722bf9b3fe5e76cb1ab1c89f isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
+50985ee6606b8497324b3de60e136f8679cfa68e Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
+79928c25030eee249e289bdad6a07bd162b42d56 ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()
+c4c66be1af1b20bfab1a130e74706749e7734ce4 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+9575833e564967e687689b51e87557e9a2ad375c rapidio: handle create_workqueue() failure
 
---===============0863720100752785203==--
+--===============6385244737775151800==--
