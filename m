@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 01 May 2021 16:27:10 -0000
-Message-Id: <161988643023.17744.16380210782706000733@gitolite.kernel.org>
+Date: Sat, 01 May 2021 16:28:01 -0000
+Message-Id: <161988648134.18108.11682507781952559314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 9b780ec3ea91b568ed0cf1f3a825658b3d4ad9e3
+  - ref: refs/heads/dev
+    old: ba601ea5ec863b546c8a708f9171fef4220df298
     new: c952430a8ce07c093bb5a47ad434870c02524ece
     log: |
          8eadc8bbf017dfa9d705bd8a88d98f4f463dfd16 erofs-utils: sync up with in-kernel erofs_fs.h
