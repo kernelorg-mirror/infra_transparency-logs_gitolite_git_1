@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 02 May 2021 09:11:16 -0000
-Message-Id: <161994667624.25692.13202642693226784558@gitolite.kernel.org>
+Date: Sun, 02 May 2021 09:12:23 -0000
+Message-Id: <161994674328.26145.9244624792181377277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,38 +12,30 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 68e916fedebb60378c1d69feaedc16e13ac82906
-    new: cef679ad4840272cbbd5ab326b2f2c0a96adb5ed
+    old: cef679ad4840272cbbd5ab326b2f2c0a96adb5ed
+    new: ed2ea83af9525dc3becec9eab9a725b63e255a0f
     log: |
-         cef679ad4840272cbbd5ab326b2f2c0a96adb5ed usbip: vudc synchronize sysfs code paths
+         ed2ea83af9525dc3becec9eab9a725b63e255a0f usbip: vudc synchronize sysfs code paths
          
   - ref: refs/heads/queue/4.19
-    old: dd61719e79846b4537134de6f7ebd9442f3d347a
-    new: 7521f2b7af570d8a15010d1cd5141748b81049f8
+    old: 7521f2b7af570d8a15010d1cd5141748b81049f8
+    new: 5f4417be41923d0741afea0ee851689eecaf86ae
     log: |
-         7521f2b7af570d8a15010d1cd5141748b81049f8 erofs: fix extended inode could cross boundary
+         5f4417be41923d0741afea0ee851689eecaf86ae erofs: fix extended inode could cross boundary
          
   - ref: refs/heads/queue/4.4
-    old: 10841bd718cf994a3a379602205111e2393b1471
-    new: 1a98228851c152009f2f1cab3460e5be3d92c5c0
+    old: 1a98228851c152009f2f1cab3460e5be3d92c5c0
+    new: 3f1c3f443127a5d9654e2e282560faf824ced220
     log: |
-         1a98228851c152009f2f1cab3460e5be3d92c5c0 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
-         
-  - ref: refs/heads/queue/5.11
-    old: 43a707d727c5e507170dbc0bab47173818b6db58
-    new: aa337f0786fdc756bf8f2e621ae0e3641771686c
-    log: |
-         897c36d99f9c3b13b271dc81b04e4e381908fde2 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         d422fcda4af3f1a4112fb4524f76ef446966985b drm/amd/display: Update modifier list for gfx10_3
-         aa337f0786fdc756bf8f2e621ae0e3641771686c mei: me: add Alder Lake P device id.
+         3f1c3f443127a5d9654e2e282560faf824ced220 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
          
   - ref: refs/heads/queue/5.12
-    old: 19f03faac051c4e1ac8dbaaac492737ddb9884cb
-    new: 1cc5b3cfa80d0e3c1b287a70b6aafe0b9e7e29eb
+    old: 1cc5b3cfa80d0e3c1b287a70b6aafe0b9e7e29eb
+    new: f3f80eb03ba7847ef645c2c0c979cb6f28d7835f
     log: |
-         b17c9bed88b57a8026c62cc3021ca9a319adb6f3 net: hso: fix NULL-deref on disconnect regression
-         5132ef45b68042b1e83fe1f3c52982e5b7a2e684 USB: CDC-ACM: fix poison/unpoison imbalance
-         5be6a0f7c074b336d548019083a7935a8dcad23b iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         b85f0c9ab6dd11e9a61987dfe7e87be072a3a4ca cfg80211: fix locking in netlink owner interface destruction
-         1cc5b3cfa80d0e3c1b287a70b6aafe0b9e7e29eb mei: me: add Alder Lake P device id.
+         53017310d30e456591e2a2e7ed61f8b0408b04d1 net: hso: fix NULL-deref on disconnect regression
+         b3d13aa96485efdc55f3799fbf6d33bdc36d599c USB: CDC-ACM: fix poison/unpoison imbalance
+         d57cf86c7ba3d47a08edcf29dbed11fc7f86e7ff iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+         fb24e88a0ee4cae4034739857d18f79d03e341ff cfg80211: fix locking in netlink owner interface destruction
+         f3f80eb03ba7847ef645c2c0c979cb6f28d7835f mei: me: add Alder Lake P device id.
          
