@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4033475048559631758=="
+Content-Type: multipart/mixed; boundary="===============3373572281537564671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 02 May 2021 09:07:12 -0000
-Message-Id: <161994643266.2113.6114140799998694417@gitolite.kernel.org>
+Date: Sun, 02 May 2021 09:07:15 -0000
+Message-Id: <161994643586.2231.1692794661458611167@gitolite.kernel.org>
 
---===============4033475048559631758==
+--===============3373572281537564671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 8bd8301ccc115b7885517077a097ee028fcb1ec2
-    new: 0aa66717f684f0280cc9bccf50f603e80d05495b
-    log: |
-         2a442f11407ec9c9bc9b84d7155484f2b60d01f9 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         47d54b99010363ab6f0f6dae582cff517c283946 mei: me: add Alder Lake P device id.
-         0aa66717f684f0280cc9bccf50f603e80d05495b Linux 5.10.34
-         
+  - ref: refs/tags/v5.10.34
+    old: 0000000000000000000000000000000000000000
+    new: dcee53f60bf35376343e5ede00c7466d02888ccc
 
---===============4033475048559631758==
+--===============3373572281537564671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946431 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946434 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1619946430-f91dad54910f475de4d37a2b2f05ef779760bf67
+nonce 1619946434-f0e65e38ce2420ecde54908d40b7a726a35cf1b6
 
-8bd8301ccc115b7885517077a097ee028fcb1ec2 0aa66717f684f0280cc9bccf50f603e80d05495b refs/heads/linux-5.10.y
+0000000000000000000000000000000000000000 dcee53f60bf35376343e5ede00c7466d02888ccc refs/tags/v5.10.34
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCOa78bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5u0QANW5+HzeLDbfNz4iOL5d
-ir4Q1WSDLH13XAGwmHfvvYwtTjwA08a/Fevvo7EJDZ/elk2c3jBBjW4L1ZVn803e
-Rc6BQZJCRf2dm1EGzUCDnhcPpDQq2L6ootPJgClbHOojNXJP2YTLwm3KySgItHEU
-KMpayQkxTLmTEuEkCz8hjMVpRNdfrPqAdFmHRRTaSb+g1UoClp5I65xDbueRWZaR
-V8fhFG8B0OG/O+rkzolQbUkHeNq0KfQB229Za9L632in8pIJMegZ6C5j+W3ci46X
-aAxFNz3ZZmcTeeByFMfXbWxlFNCGaQrv/MbnDqDDp/1IXJifPpgpaP5tOLpbuVdw
-04T2iY8zUwPP2NYFC6Zpia6B+rhYfvLxGeBayKEJ251KzL+jp1eGty1Z7bW8xFRf
-al0jR+8VfuBApJgEyJ4p9u2w4CGpK/HPUAHmOHNd7yUitxZvl4T2Hiqh1EEROdC6
-XLQbPKFOGIlU3jkmqxTFpbD7U6uQE6ji2pfn4BzcB3trWK5TgExp6CAHOY/o0T0R
-Ugh5RXcyVJB/eUyswSjCE9aJrdUeWuiG2qzHRa3Nj+H36xp4PzUo6874wVxEe1Dy
-sLnZWWBeSKzUXm5aYVTqI+OfvJkgubAMusu/KJA+QzgQt5VQnGdPMGducUgzntLC
-IwU0TH6QTlCzNOh2/kh3K2fZ
-=idzN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCOa8IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FOYP/3zmlVhdhet42iEka/V7
+SQzZ1Wlur8rZ234P6iKhiH4uVIczsS0d5Pie2+UOnvsAYKHv2oemmDRrpRsmuCjV
+fLrJyMztMnaXaDQcA3vJBncE4Nm+DxFlQTxopDXIYKFJOdIptSWCiHX+zFhw7aeA
+qhdX0hycqU6Eg//ckYVLr5/qLzThmDQXdFCy1svX8ZwKRteUxnhDEIk410NbssnG
+vcXq1G5yIFW3U+7ac67lE0e3awBl9lbuhjqy4qirAFQOV8RaLcLn2qxConTo0RKa
+++XIayiutfmlPbj2JgqzgIjQq+da+ZC4EWQUpT0xylqmwdcJLHWhq7rzGVJ0IzVl
+g/cNfI3YWePEIXy9P2bEG5+Qzx2V+WluffaGlvx4Cql+cL17wOZ+xXWkqAPFelQ7
+xjz0OG0Q5Qfk9GQaFI0+zP4zDgtu8A38BR9XCsxxuL52T2rlJh6w5BZdM0CyGGHb
+NDRIjQSIp07i0OiDSBA+fXQTV5O/bvSXBoteplxute7s+8iOZby+GPPHD/5mI3RR
+AQgW9ZDcmRmLcYu11rnXmER/vZclgFFrMFuHvBwajMFGZRPQdBCVTCxNtk+lyxKN
+92bB5dLOCho/ZaG8uiO/zBK9/Iw6/9w6wS65HPGKnELOpyJLYkdJrM5eeysCS9Pr
+o28PS6ZQvoWVmZM3lKlUdQRp
+=otwo
 -----END PGP SIGNATURE-----
 
---===============4033475048559631758==--
+--===============3373572281537564671==--
