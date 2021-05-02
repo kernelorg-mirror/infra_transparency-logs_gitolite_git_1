@@ -1,73 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 02 May 2021 11:27:21 -0000
-Message-Id: <161995484151.31667.1696161706838981864@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5274736423155771270=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 02 May 2021 11:34:44 -0000
+Message-Id: <161995528477.2824.10884931178762927970@gitolite.kernel.org>
+
+--===============5274736423155771270==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 4e3405d8faee9b8678614110d0240537344caca0
-    new: 855bb9083c55b3f26c681c28f87bcca2d73e9f31
+  - ref: refs/heads/master
+    old: e667cd60cdd4c39c62d30ad0925bcfccaba25e3f
+    new: fec5db375df45faac71048ea30e3827040668171
     log: |
-         dadb069940242bd3ab8c006939d37d41cb2627e9 usbip: vudc synchronize sysfs code paths
-         09b84090c2d6477ce5c62ccc8071509d4b307c16 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-         a8ff146688e420bb26032664dd08186abc2ab3b0 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-         b7d9e76316c19bc79014b889b99f833246dda2ee bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
-         855bb9083c55b3f26c681c28f87bcca2d73e9f31 bpf: fix up selftests after backports were fixed
+         fec5db375df45faac71048ea30e3827040668171 4.14-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: af917d1a00585b91cf711075bdda0f54f3fa3cea
-    new: bd29832e59ce0343e55c8e04629bf9f997d62b6e
-    log: |
-         2d725097e5adbd895df3b803bb874f0a8c963c01 erofs: fix extended inode could cross boundary
-         b238848d6fd337f93d6817818a14816fd64c1fb1 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-         bd29832e59ce0343e55c8e04629bf9f997d62b6e ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-         
-  - ref: refs/heads/queue/4.4
-    old: 8bcb6abe46da6190cfcba842e9101ecc167f938d
-    new: 03147a5339ae73457da648453c50afed0db4b2b6
-    log: |
-         efddb42a0eca35389c894ce5052fa81c9a13e53e timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
-         03147a5339ae73457da648453c50afed0db4b2b6 net: usb: ax88179_178a: initialize local variables before use
-         
-  - ref: refs/heads/queue/4.9
-    old: c9f58eeeec8d0dc51a96a068c0ff3012a5c79f59
-    new: 4ff464057917c1c5c71c30ebcd0a5dc8274f6ef1
-    log: |
-         4ff464057917c1c5c71c30ebcd0a5dc8274f6ef1 net: usb: ax88179_178a: initialize local variables before use
-         
-  - ref: refs/heads/queue/5.10
-    old: d67f8a99b12fdfdb5ab40c70e54ae77f6eedeb81
-    new: f17c8bd8e4d18e666d1e296643730b61eba16739
-    log: |
-         a3ff3a10c498dc3d1c004f0deb786a2fd8e8fa6f mips: Do not include hi and lo in clobber list for R6
-         f17c8bd8e4d18e666d1e296643730b61eba16739 netfilter: conntrack: Make global sysctls readonly in non-init netns
-         
-  - ref: refs/heads/queue/5.11
-    old: 88533c9ec878205cebe2e5e49aa8ed3e5de3cfa6
-    new: d60b6e95cfb2019048a46d8aafad15b1e7c671b8
-    log: |
-         bfeb1aa7768ecdaaa99fb22838eef0261e4a5496 mips: Do not include hi and lo in clobber list for R6
-         d60b6e95cfb2019048a46d8aafad15b1e7c671b8 netfilter: conntrack: Make global sysctls readonly in non-init netns
-         
-  - ref: refs/heads/queue/5.12
-    old: a15980d562116bde21d97138937c11eefa116260
-    new: 8128e4ef5adefdc73f53a46f9841970c5a12d7c2
-    log: |
-         49fafde6e6c9f7a5eb3c39bf37083080c8163039 mips: Do not include hi and lo in clobber list for R6
-         8128e4ef5adefdc73f53a46f9841970c5a12d7c2 netfilter: conntrack: Make global sysctls readonly in non-init netns
-         
-  - ref: refs/heads/queue/5.4
-    old: e22de32dac6b4cca4fba36921464c13f3162a8fd
-    new: d8655c5a558155a7829f46fc3875536d670f2f21
-    log: |
-         6358a76c07d48a0a690373200c91e39f9e55e513 mips: Do not include hi and lo in clobber list for R6
-         c592b995054a7d0ae38db49282cbd85885679e0f ACPI: tables: x86: Reserve memory occupied by ACPI tables
-         d8655c5a558155a7829f46fc3875536d670f2f21 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-         
+
+--===============5274736423155771270==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619954742 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1619954741-8aa31f83d2c67834f75b05b6470e744bc2e3fc94
+
+e667cd60cdd4c39c62d30ad0925bcfccaba25e3f fec5db375df45faac71048ea30e3827040668171 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCOjDcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2QQQAK0R5G1yaql/XpArL7zf
+m4wY9Wk/WzSmJM3iQe8daqu0Zkdy3Z2xev6XXua2bL1XCYwC+DNH4pExg3+fJdYm
+raBYjQwsyIbCWCfJ1mwrbmESn7tY76ioYBwyrz+fgqr7WpNlTeBrMETVyMMjoKw8
+e6AoC7Iw8E0QSc2IBS17i/c7LynUxh+dUIMNou9HZy7+XYpRq0OuIj27HP7/R0mB
+NpDpYkJnu7yi/HmcwLTAPFUt89yemiHw8xyVd94eTKTUdFbJCIv5LKowTAO4etEK
+gTi24x7BlSLZJAKQa2Rss+ufs59xtWj7NU1XE0yRPsxHO5bXUgCSVsAglfV8DN/C
+1N+rr2nDFsmul8QQm/mxeGv/t1Kq7X8oGXFxpsBBtbOVajNzL6JpMgENwZPuwjNF
+fXqLfD0MQdEcQXzAUgNNWXOxBRk88GYGz/zoJZ9EXPuvHzBVP/l5rHfGPMb/UHd2
+izg6fkMGSdLJ24H6Cw2e8rX4uztwFVjr0YYYu+i0ILsp6xWoWpjrm8gretT7ZQoq
+pXnasWupZ7gBEhM7GFDTb6ktte9mXYiBn85GMOIWE6Me358+EUjbW0Y8gU2k5PR3
+GgSUJxsM4B3BJNFHl8JwvzkJ7sPK1N6VamxAtcSxD45rtbiTMZRwWzXzz6TZii7u
+ZtZ+nNNEMoiBUpVPG9jOu71r
+=qj3o
+-----END PGP SIGNATURE-----
+
+--===============5274736423155771270==--
