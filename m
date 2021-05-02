@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1610747931296950865=="
+Content-Type: multipart/mixed; boundary="===============0509653459524689639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 02 May 2021 09:12:55 -0000
-Message-Id: <161994677550.26592.5057140033279977509@gitolite.kernel.org>
+Date: Sun, 02 May 2021 09:12:58 -0000
+Message-Id: <161994677877.26665.50190139740522696@gitolite.kernel.org>
 
---===============1610747931296950865==
+--===============0509653459524689639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.12.y
-    old: 9f4ad9e425a1d3b6a34617b8ea226d56a119a717
-    new: 9f29b08688ca35efcffe01b80f55fd2a4edf5796
-    log: |
-         41c44e1f3112d7265dae522c026399b2a42d19ef net: hso: fix NULL-deref on disconnect regression
-         ac4ebcbd87195c8781778bcd0f5e1eccce5f4936 USB: CDC-ACM: fix poison/unpoison imbalance
-         f935c64a0c87d86730efd6e1e168555460234d04 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         2e4f97122f3a9df870dfe9671994136448890768 cfg80211: fix locking in netlink owner interface destruction
-         8413faeeb2bf489b3436ff3ea96da8a3f74c289a mei: me: add Alder Lake P device id.
-         9f29b08688ca35efcffe01b80f55fd2a4edf5796 Linux 5.12.1
-         
+  - ref: refs/tags/v5.12.1
+    old: 0000000000000000000000000000000000000000
+    new: d9c0d0ae3b1dad6e44403c173f133dc9a35fe09b
 
---===============1610747931296950865==
+--===============0509653459524689639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946774 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946777 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1619946773-3783af78f0b994b895031ec3b310be6a60f3111c
+nonce 1619946777-fc1a4dd0f59586871f0ee1754afd343a221372f8
 
-9f4ad9e425a1d3b6a34617b8ea226d56a119a717 9f29b08688ca35efcffe01b80f55fd2a4edf5796 refs/heads/linux-5.12.y
+0000000000000000000000000000000000000000 d9c0d0ae3b1dad6e44403c173f133dc9a35fe09b refs/tags/v5.12.1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCObRYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SUsP/RLJaBi4Mj9O9ZHs4UGh
-6BMJGte/n9QmyHYuGEG6FT5PKBU94ypstn62VE6z4V1GpP0e2x5WAwAgiEVHgaoB
-KWP7MOkb2pUAPdpuzi2vxMkOoZFng9Kygp7K4to7cqF8F5NlPIJkv9SinmrtsczN
-sOxyC2q5GNcUUVxNZZRFyQbPDJw0//SsKKnD0zIlmXSm0B4Ya7gnSa+zRaYo2sf9
-m93aDGy8A6W6wLfwy/SK9EpWcAj9ltyYrfEbc4amHhO0NM74zpuj9wNarQm0J9yI
-Qaib6sh+OsSB2cJ7blcSQJu1ZEYpUt5hW7+LbkGaXQX+JXtIX08D3u49VknB+MyB
-L83cBtWLoltfvz8fjPDd8N/WeQ9CXyvwuhHj6iTAGbBJkHA6Kb9EsXYj3eJaWmza
-W/Z8lNnndoPb41EHmOaRqIj+rgziQxzRsx7s+xjl/Zn+Vd/ktiICNkXEPAlTkl24
-McFCpF2uDujqCPBQ7CfZ3IESxJecf9jb4pS52PXibuPhFZla5IaelMz3usNH8D39
-cJBZ/cCCyPLM59sQSARdaZYiuGEhJom8Y326IWKhPfpwi7MfeCjp1srVS6qX3iaU
-RbMVyk9jiWrZ9flz5BlyLrzRT4ygpg7vTUksJGpIgTHA4tvJrVumgLRX2xvbtmmC
-PmeyjkVSkm+O4Y418yl5hanw
-=Tydf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCObRkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a8QQAJIhqbYgVVchauOqWI9D
+/GIDCp2OCnD76XmaqqADWyC41K1V5PtQY7XN7Se4WDEYOr2FAqjjuCboHbAzD8z7
+/09jHB9lpssRHIWnGfiC9Ge6vMQ9Mto9QLz6XcSerpYFVqYhK08hv6BV4z7IiA3B
+Fzi6MCveVSLvsGJrJtDPuel6tQl0LsrOv7tJRmyvamngr/Vhxso5wFpghh1deciJ
+nYU0mzEzSim9DOj3GMskJ5PW1fIpwbU+m1Zkq0LF415i7HsvN9o/wSYb7HN65Fi5
+CJORD21rfCXdUuYRLG/+6yzMQ/YsrXxsIudQwu5NK4dyxIHLuRNlGnp6tUovhj0w
+kKSVm4xMB+/eTRJImig/Uy8cBY6l4CRSS+pfLJkzG7Nv0oRg5AMw1h8c42zyXBII
+f8tzj3F5xMtP70pLcxaaNyhlP7ryvcSOuVtBrF41/fUE8uBPXo/aSuNSvNJARKuX
+cfkAex667rulp1ECHS0lWGGJC8kjd6xi2HZ6PtSHHI7dIc1bNBSwRLSbts4Xadc2
+94pqqcVhsKwYGopf8tkQExRy/uLFjsxChTxLP6+aXHejEB68j+M1cl7LZZP6IxP0
+YQUurpZVsw/YzcY+joxzzzrMspMygxd9z9eY0VlmikcQf4YlByAeHMaA/STkJA/j
+GGaGVfmoFdNeNKmlwJerXeZU
+=nPio
 -----END PGP SIGNATURE-----
 
---===============1610747931296950865==--
+--===============0509653459524689639==--
