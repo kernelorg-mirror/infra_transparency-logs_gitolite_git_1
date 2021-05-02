@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5594327938453632167=="
+Content-Type: multipart/mixed; boundary="===============6986685392342378328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 02 May 2021 09:20:03 -0000
-Message-Id: <161994720307.31274.15139137825198190231@gitolite.kernel.org>
+Date: Sun, 02 May 2021 09:20:15 -0000
+Message-Id: <161994721561.3597.14306146602201972584@gitolite.kernel.org>
 
---===============5594327938453632167==
+--===============6986685392342378328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kbuild
-    old: 73b4764c52dadc088f6a48c3058254252a6eec94
-    new: 5430a8c98ee1f4e7be8e8f8a3bb14ea8de1323ac
-    log: revlist-73b4764c52da-5430a8c98ee1.txt
+  - ref: refs/heads/umn.edu-reverts
+    old: d0d991584bf690a1febe20c2d5ce1cdf403eb02d
+    new: 8ca8d36773cb639e0c65a2a748aa864beb0b5b84
+    log: revlist-d0d991584bf6-8ca8d36773cb.txt
 
---===============5594327938453632167==
+--===============6986685392342378328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619947196 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619947209 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1619947196-b050fa911983ff0021503e5e3eaa2eea4444b7c8
+nonce 1619947208-18c6774c22261a3d947a8cafd92dde70496cd9f5
 
-73b4764c52dadc088f6a48c3058254252a6eec94 5430a8c98ee1f4e7be8e8f8a3bb14ea8de1323ac refs/heads/kbuild
+d0d991584bf690a1febe20c2d5ce1cdf403eb02d 8ca8d36773cb639e0c65a2a748aa864beb0b5b84 refs/heads/umn.edu-reverts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCObrwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dQkP/3vSFi+ZTUUV62WYJl0N
-64hRRVMGvLtGqfd6pMb9AcAl3D0hUsLAfW1FHlNei9i4Jnpp9TgdZ8QwT58vv5jO
-qMmgbtDKY0u1dvN5L27d+TKflwFIt6ml6JhqGT2XNx4sao3jTBDt5acX2lvgTX08
-5sYtEYDjmhARJYRtnfR+zLtKADcCDTKQq036i/0DaU5GkYJZvw34oORRrVoB2eUV
-0MHEgOI7Vlhuo0RGtvECL5RJEVBPHKjUrV2vrz5BSUiQ8B+IXhpMaXkcw1iDfqHl
-9Rv8J9tyizYVqKwkFZ5rNAZ59TlJAcw2Yr2dtYOEwGFlhUDHORhIf/py0kgt+qhE
-P4uKqZm1CdEXlG7iMppouSuasrXkcr6WKv19JO8LycQ9kxjwr2F9qQc5O16AXEig
-egOW6EiSNQKWyUuqlerwBtVsHBNHk7hFXJlj+ZR1T3luPrHiLRGYZOpQOELLW9/k
-mIi7UJ/fHTDolf195kau95taT9pf/cDcvNF1+yZZMdAyfEDA6dX8MCuzmUQJuV/n
-DpIWSvnMb5g/iFBZC+OgpgA6oFcLoCUl0vrkGu4bimiBnbgt7zWNIEhN4AhMENz9
-CStEa2jesMR3wIzM/b5rQrqtTdY7tsxQ7h40yGyynvzkZyQzXmyvxBYj9/i6p3eK
-m/xVR8O1A834STpcTtHOFE5x
-=OikM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCObskbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bCoP+wdcEtv7jOF9/xDjF8dN
+wkKMX+IvwpZgYIQlqJn7FYQ1wVw1HTn27pT3rQZxeou9RitteV/zjeP9L2N/MyBT
+eqM14bplggxvW866bSLWkI0oke3QXd89rA67HvspBqb/ciFOvv5z4O0OkI/a9jSr
+GXsRos4Q09yDTFN335edwm3p3vEOoDKhysxXkkILCBSXk6ff10mSaZQ+KYJqr340
+/zw4PeShy29eqay9g9ft2fmpA1VsIyKsoKxr+OQDFpQKPFhBEzmVQIiGGQuZqKVi
+a4mG2xaLzRp2Zx90KGt0hkAD/kZ3F05OTVA/3DlPUGp+CCGJ3Rg7MZxzokkZnfQa
+RRxU7vDF6t+ZUH5m7nIBVE9eU+lx3N/hLCOPutfOPmF8XFBlz7PMo8oGDGAbYtBA
+wXp7XxthJdHBtM0u1qu1hN1YxwpCXPiuIYgRCvuu37IEfBThrtMfbeptnPOwU+nB
+41uoGnh8Ato5o1pbKflLuzfa1q4BrzLRjAO1BjOnlrRT67wIy+fCP48A49irf3bG
+3YSPjjR42DnoqEUzapg9AveMPnFpojoPzWA5zSS/kwZPvjKnwG0afLiuPVjbVNTz
+ZBo2UJQrGB2yN7tbsldKoe8nGPXJRrq4HemjnSC+eT6C9XhgC2qTUCm2jNiB18DV
+uZMcIT6e/oj3q5+R/5EbHJNa
+=twpJ
 -----END PGP SIGNATURE-----
 
---===============5594327938453632167==
+--===============6986685392342378328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73b4764c52da-5430a8c98ee1.txt
+Content-Disposition: attachment; filename=revlist-d0d991584bf6-8ca8d36773cb.txt
 
 1f043a687e47b9b3c0469ad8d2021708981536af tools headers UAPI: Update tools's copy of drm.h headers
 4a8176fd62aa7fa86599efcbd3631af272b109d8 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
@@ -888,26 +888,60 @@ f34b2cf17825d69ae1e227871059ab18c2f57817 Merge tag 'for-linus' of git://git.kern
 10a3efd0fee5e881b1866cf45950808575cb0f24 Merge tag 'perf-tools-for-v5.13-2021-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e6f0bf09f0669b3c2cd77fa906830123279a0a21 Merge tag 'integrity-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 17ae69aba89dbfa2139b7f8024b757ab3cc42f59 Merge tag 'landlock_v34' of git://git.kernel.org/pub/scm/linux/kernel/git/jmorris/linux-security
-3707cf5429a16fe8645d5d04b198f627183716c3 kbuild: move x86 install script to scripts/install.sh
-c816060fd4845c2faf00d174c115d58fbafce740 kbuild: scripts/install.sh: properly quote all variables
-d0993405b7210f74a3d843f2c5cbf704ac6a985d kbuild: scripts/install.sh: provide a "install" function
-5d6bdc26d44519d3033f9ddee19c47f7552c83f0 kbuild: scripts/install.sh: call sync before calling the bootloader installer
-57d69f15d30ef2b15cfeff9ea2be84dd02c30247 kbuild: scripts/install.sh: prepare for arch-specific bootloaders
-2e5f5555d18d83ee4be3f96049d50f551a48c2c8 kbuild: scripts/install.sh: handle compressed/uncompressed kernel images
-bd972be37397b27d4040b8df6a250dd0f6a07023 kbuild: scripts/install.sh: allow for the version number
-d3cc75aea6c3ef988d866fcda7e1ad2a56093e82 kbuild: riscv: use common install script
-31b17659e6cf5566daf8563132a955f6f259659f kbuild: arm64: use common install script
-fc0ef332507c3777ea08e8271ffcb9ac8618ea80 kbuild: arm: use common install script
-b6f27808143f177528899d25c29637bac6152c3e kbuild: ia64: use common install script
-a219c7643c8ac9cf5fbd2c46677a492d29fc095a kbuild: m68k: use common install script
-e3040aa87ecc8a43a48d4aff4d29335e1829a20e kbuild: nds32: convert to use the common install scripts
-47d0046cda6d5b18cdbf6970fef0a194f38beb26 kbuild: nios2: use common install script
-8c76509026782cd6226d9927355494e3b4ae3d9c kbuild: parisc: use common install script
-5d18b14ff94f88088a3b99c46c5c86f70b6df5e7 kbuild: powerpc: use common install script
-3da2ba5e0eef0fecb717a6e878144c91828fc5d1 kbuild: s390: use common install script
-38036f28fa8fb52f6f2aa405473b6280c0b2e956 kbuild: sh: remove unused install script
-74a45295ee913e4e368d2af41858c7f02825fa36 kbuild: sparc: use common install script
-e1ccbdd4cf1dacf44f8cf93314b60c095602d268 kbuild: scripts/install.sh: update documentation
-5430a8c98ee1f4e7be8e8f8a3bb14ea8de1323ac kbuild: allow arches to have their own "bootloader.sh"
+0462fdbdad71ca210023b064ae8b4fc714a36488 Revert "mmc_spi: add a status check for spi_sync_locked"
+b2c716d914bd6096351656efc3d800a41815b404 Revert "media: rcar_drif: fix a memory disclosure"
+0a733ea75cdb3f3837c2ae19b54a499449460d51 Revert "media: usb: gspca: add a missed check for goto_low_power"
+0c3f46a235953396b6844a0cf34da76f65791623 Revert "media: gspca: Check the return value of write_bridge for timeout"
+415601ae98969f47ec66b8c82076df4c83898d7a Revert "media: gspca: mt9m111: Check write_bridge for timeout"
+9a9b0e87cbc7c3ee7b8514281a065a4a0dea5abc Revert "media: dvb: Add check on sp8870_readreg"
+680e5e3c96ab1a0e3770bc07f29a06a42d9e17e8 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+e4a9528e179bea5c5a9a5876b099768956ebb039 Revert "ALSA: sb8: add a check for request_region"
+9d08cfd58eca8c95389323c22a5d93c53dbbfd85 Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
+9f863e02f3a1aee95d999f572f21c9bcdf7f1c4b Revert "ALSA: sb: fix a missing check of snd_ctl_add"
+c194dc3b6ea0a35ae964cb4772c9cff22f0845d7 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+936a9d8e588c1369eca13818faf6e7b0421eb20b Revert "isdn: mISDN: Fix potential NULL pointer dereference of kzalloc"
+4d2f648a0dd2c2110f2170d686dde273a97fcf6a Revert "dmaengine: qcom_hidma: Check for driver register failure"
+9c21a63ad5c6cf65edf36c4059ff281f59e400df Revert "ecryptfs: replace BUG_ON with error handling code"
+e23c6e72ba0fa4a95e60b5d5a4d9d2dd38c26b81 Revert "video: imsttfb: fix potential NULL pointer dereferences"
+2136f061d3fd161f7f644f9f1d7cb21703f9c24e Revert "brcmfmac: add a check for the status of usb_register"
+febd58b57c5d9ae7656ab30840c7ace587c4908d Revert "ASoC: cs43130: fix a NULL pointer dereference"
+80bc90f0f15ac0d479054825ffe978e4dfb412b9 Revert "ASoC: rt5645: fix a NULL pointer dereference"
+4abe6451b9bbceb177dbd7efe2790b8af20043c1 Revert "qlcnic: Avoid potential NULL pointer dereference"
+b750f2c79e4f9a099ede472ef478e71523660b5f Revert "net: liquidio: fix a NULL pointer dereference"
+ae1e64634bead70b0c2b617d7f088457982a8b88 Revert "libertas: add checks for the return value of sysfs_create_group"
+dc2f1ecff9472275061127a7d6eec9e18fb8e216 !!!! Canary - fixes
+93a1143f9b1084545887ae28ade16289ab73c327 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
+b0bf3818329094059835b80d476f3bb6c83a7eb7 Revert "rtlwifi: fix a potential NULL pointer dereference"
+16dc518dee5450175460d4d89db38a7644bf6bc4 net: rtlwifi: properly check for alloc_workqueue() failure
+280013618ab3e7029e921ed35505f84637950a47 Revert "net: fujitsu: fix a potential NULL pointer dereference"
+cf8b2ba2bed8310ee3311c628f190bbaec79f596 net: fujitsu: fix potential null-ptr-deref
+a9474245f615d01406e867dc7cfc81f642839c99 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+50e904ffdb7e61ddc4859154b4761e818575bdb2 leds: lp5523: check return value of lp5xx_read and jump to cleanup code
+cd1cf877268d844dff1400441630d287e880e3ef Revert "serial: max310x: pass return value of spi_register_driver"
+b5d84fcf1fd437f54d79ff7401677598279351de serial: max310x: unregister uart driver in case of failure and abort
+eecd2961481cd054aa7fcb6f4c95df7878d883f4 Revert "net/smc: fix a NULL pointer dereference"
+f0e47cfcd7102ed853e0304798d6e3d0347bdcff net/smc: properly handle workqueue allocation failure
+e19cf3724d9fc7862cdcd2091d577a95e295d7de Revert "char: hpet: fix a missing check of ioremap"
+d8f755454959c5064019fbe78822d499cb92c140 char: hpet: add checks after calling ioremap
+169a840882ad403f12c85b19f268c59b4561372a Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+96db8dfc5b7162770b4bbfc12cf3e756789124ff scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+d9335d282df51ce6146e47382f7d2e50649c7663 Revert "net: caif: replace BUG_ON with recovery code"
+d9d5d55c8be6d26915d588a1136e5beb26f7f379 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
+a7db72138e5f11f878c1d7501f3b57c78a9e6a32 Revert "net: stmicro: fix a missing check of clk_prepare"
+40a73a0a9a8bc25d727a3029d61bde3b7f65626f net: stmicro: handle clk_prepare() failure during init
+a183650d6e605f18857c1b905712c545c8c4ed2c Revert "gdrom: fix a memory leak bug"
+97f556a02749366429f5d081c48177bbee6311c3 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+d366367e4282a88d322767e4fbadf87c69ccd7bd Revert "ALSA: gus: add a check of the status of snd_ctl_add"
+b4e628f988e87270abbd8433e5418d5798c4e3f8 ALSA: gus: properly handle snd_ctl_add() error
+49f3b10e0506811299f645268e1a23aa5e7d22c7 Revert "video: hgafb: fix potential NULL pointer dereference"
+f16e035686188e11b0e72fb698a5b74f486062b2 video: hgafb: fix potential NULL pointer dereference
+95779a27d93ea6de0376009808b53e071076af95 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
+245a41a1c410acfa87768c5b1636b7f809c6ddfb isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
+6aec428ba8c9378bcc406f3f2a2eac393069a0fb Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
+62c023e163e37da9ba1975b6efc1334097671fb3 ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()
+7c81e56725b34042f56b7ee0daddef5e4e960086 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+a18a2f083ef27597dc6345db8012898fc8451eb3 rapidio: handle create_workqueue() failure
+46f5d055cf2c31d4ba304e2e280bd97b42baf2dc Revert "niu: fix missing checks of niu_pci_eeprom_read"
+8ca8d36773cb639e0c65a2a748aa864beb0b5b84 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
 
---===============5594327938453632167==--
+--===============6986685392342378328==--
