@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7835865695526594683=="
+Content-Type: multipart/mixed; boundary="===============4033475048559631758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 02 May 2021 09:07:02 -0000
-Message-Id: <161994642274.1993.9162206170279070336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 02 May 2021 09:07:12 -0000
+Message-Id: <161994643266.2113.6114140799998694417@gitolite.kernel.org>
 
---===============7835865695526594683==
+--===============4033475048559631758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.34
-    old: 0000000000000000000000000000000000000000
-    new: b05ac58ec88298c85f7116f0e028c757691041e5
+  - ref: refs/heads/linux-5.10.y
+    old: 8bd8301ccc115b7885517077a097ee028fcb1ec2
+    new: 0aa66717f684f0280cc9bccf50f603e80d05495b
+    log: |
+         2a442f11407ec9c9bc9b84d7155484f2b60d01f9 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+         47d54b99010363ab6f0f6dae582cff517c283946 mei: me: add Alder Lake P device id.
+         0aa66717f684f0280cc9bccf50f603e80d05495b Linux 5.10.34
+         
 
---===============7835865695526594683==
+--===============4033475048559631758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946422 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1619946421-95b7e6bf4a873186d938d8a3e3e5e4268ef2d5a5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946431 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1619946430-f91dad54910f475de4d37a2b2f05ef779760bf67
 
-0000000000000000000000000000000000000000 b05ac58ec88298c85f7116f0e028c757691041e5 refs/tags/v5.10.34
+8bd8301ccc115b7885517077a097ee028fcb1ec2 0aa66717f684f0280cc9bccf50f603e80d05495b refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCOa7YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9fwP/A98pgYf+YkFHoP/jZ5c
-buqtZIM0EL2rNXjbNb/k5usgUB17fSIh3cF2xm8wMRvfZzSZJl/9lI1IwChleQQH
-HYKHQc650actsheD/B+9zBs6gMQgngBefLYEF1czEEY91sbbgp4k2SXeqLW/cgV8
-SnFpPOsPBLfNhYUuejtfehI84SJA2oo3llH5kfJ5Kqu3qnCAEwfaE0L6udWYzzEu
-7hMRwPpMdjJr02ZqzTDf6gWnTgAdiGq47/2I9BPL7Ncpy6KQBEsEL6b9MBNuvFAK
-LESRsp5PzWaNYyQuSCvD0kUBUnVP6HKtV0xBgFxOUSm/z+eODlrdfOEUWWCOkL0h
-1/W0NmT2++5MTaY/lA4rIqFROh+A+BVRcZJPJ5qe6SdyyReMPPcrvDPD457Dgxtr
-3nVDA+rH+rvyXQneH7kZ3DAvFa1NRBtLLnZM3/luiOWZ3mmtA7MS0I8w6zNoLfIa
-gPL7x0myYfTjjvSAEKRUGGYyuNuqRezX/a8SnhJUy6fvmvSRef9J7dq+5i2FbTP3
-EqGk+CcJR+DakVn4s69Iulwq7IxtZ2U0rESu4LvYs0dXcJFbGqE1sVsnDZWPi4Sf
-GrpRQHE8ptY+0TChAvd83U+5vIS4ChEruXItNKrXXupXSSsFw6fO3CMwtIe8amgQ
-pTYJnudvguXrhTDbShVO1g97
-=0JNB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCOa78bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5u0QANW5+HzeLDbfNz4iOL5d
+ir4Q1WSDLH13XAGwmHfvvYwtTjwA08a/Fevvo7EJDZ/elk2c3jBBjW4L1ZVn803e
+Rc6BQZJCRf2dm1EGzUCDnhcPpDQq2L6ootPJgClbHOojNXJP2YTLwm3KySgItHEU
+KMpayQkxTLmTEuEkCz8hjMVpRNdfrPqAdFmHRRTaSb+g1UoClp5I65xDbueRWZaR
+V8fhFG8B0OG/O+rkzolQbUkHeNq0KfQB229Za9L632in8pIJMegZ6C5j+W3ci46X
+aAxFNz3ZZmcTeeByFMfXbWxlFNCGaQrv/MbnDqDDp/1IXJifPpgpaP5tOLpbuVdw
+04T2iY8zUwPP2NYFC6Zpia6B+rhYfvLxGeBayKEJ251KzL+jp1eGty1Z7bW8xFRf
+al0jR+8VfuBApJgEyJ4p9u2w4CGpK/HPUAHmOHNd7yUitxZvl4T2Hiqh1EEROdC6
+XLQbPKFOGIlU3jkmqxTFpbD7U6uQE6ji2pfn4BzcB3trWK5TgExp6CAHOY/o0T0R
+Ugh5RXcyVJB/eUyswSjCE9aJrdUeWuiG2qzHRa3Nj+H36xp4PzUo6874wVxEe1Dy
+sLnZWWBeSKzUXm5aYVTqI+OfvJkgubAMusu/KJA+QzgQt5VQnGdPMGducUgzntLC
+IwU0TH6QTlCzNOh2/kh3K2fZ
+=idzN
 -----END PGP SIGNATURE-----
 
---===============7835865695526594683==--
+--===============4033475048559631758==--
