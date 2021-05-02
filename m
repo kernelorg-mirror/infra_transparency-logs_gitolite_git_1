@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 02 May 2021 11:13:03 -0000
-Message-Id: <161995398328.21599.10470017899359650662@gitolite.kernel.org>
+Date: Sun, 02 May 2021 11:14:39 -0000
+Message-Id: <161995407930.22228.9143146493819092792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,68 +12,55 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 49cbc3f561f45318a00af810040d83b8ee6b5484
-    new: 2925fd3d98ca4a27db37108e4b5b954d539652cc
+    old: 2925fd3d98ca4a27db37108e4b5b954d539652cc
+    new: 0681b0afde5d449cf13adf2f6ec362fd39f233e2
     log: |
-         150859fe8dd3335a13861b1946bc1573e819dd0b usbip: vudc synchronize sysfs code paths
-         ea555642b7d756e34524ed5ddd52fc768420c18b ACPI: tables: x86: Reserve memory occupied by ACPI tables
-         88d5f1f09b1b2e4fa981f550aacb06eb00139897 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-         dcb6dc5050c94ffcf955b6d62c55feb66fcb1d6c bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
-         2925fd3d98ca4a27db37108e4b5b954d539652cc bpf: fix up selftests after backports were fixed
+         64f19f872700dc3b9274ea6768157cf23a043c34 usbip: vudc synchronize sysfs code paths
+         7c262fe8b2b934b3b44479402c92ce30c9b8392f ACPI: tables: x86: Reserve memory occupied by ACPI tables
+         09980c8bce24cef9dc8e90d55f0e34fde0e1e823 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+         8ee6a6405f5a5c6921358c2753798f561ef3a4e1 bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+         0681b0afde5d449cf13adf2f6ec362fd39f233e2 bpf: fix up selftests after backports were fixed
          
   - ref: refs/heads/queue/4.19
-    old: 1697a88babc6b70b6db34865ca7850053be8c049
-    new: 9bd4640b3bdf52f3a10a9a868831fdd49a1dbbfe
+    old: 9bd4640b3bdf52f3a10a9a868831fdd49a1dbbfe
+    new: bab1eaa9fe3d085905e5d9ad21583968b45f593d
     log: |
-         b12b86a303e4d2d7dbae663a3ba0c4726780137f erofs: fix extended inode could cross boundary
-         13e9e8098e1cd8c102d98ad5aa3d5d7e54043355 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-         9bd4640b3bdf52f3a10a9a868831fdd49a1dbbfe ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+         345a23dd71888ff4a58b5741bf30792be059c15c erofs: fix extended inode could cross boundary
+         6fb0833a6b0ccf17633026d016fe3ecb921307d3 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+         bab1eaa9fe3d085905e5d9ad21583968b45f593d ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
          
   - ref: refs/heads/queue/4.4
-    old: eb1e47db06cdd5ec11ad2d7cd1e85693751a9948
-    new: 7fdadc610e512fc1697badb03ea28b235bebf7dd
+    old: 7fdadc610e512fc1697badb03ea28b235bebf7dd
+    new: adf053de19157364adb26368ff979d0c9dbafe6d
     log: |
-         7fdadc610e512fc1697badb03ea28b235bebf7dd timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
+         adf053de19157364adb26368ff979d0c9dbafe6d timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
          
   - ref: refs/heads/queue/5.10
-    old: b26869a3573a3781f36c6784684b192281e37454
-    new: 0aa66717f684f0280cc9bccf50f603e80d05495b
+    old: 0aa66717f684f0280cc9bccf50f603e80d05495b
+    new: a65dd8b938d28a35d459575530f08595012d92ba
     log: |
-         2a442f11407ec9c9bc9b84d7155484f2b60d01f9 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         47d54b99010363ab6f0f6dae582cff517c283946 mei: me: add Alder Lake P device id.
-         0aa66717f684f0280cc9bccf50f603e80d05495b Linux 5.10.34
+         73fd8799e22c710cec021b1b48f6d6f7f6250740 mips: Do not include hi and lo in clobber list for R6
+         a65dd8b938d28a35d459575530f08595012d92ba netfilter: conntrack: Make global sysctls readonly in non-init netns
          
   - ref: refs/heads/queue/5.11
-    old: aa337f0786fdc756bf8f2e621ae0e3641771686c
-    new: 2f09122a3194f92df6d59220485f645934250f94
+    old: 2f09122a3194f92df6d59220485f645934250f94
+    new: ec93d8883762df4de746045fa66bd3fdda44d7e8
     log: |
-         a9315228c1d4b1ced803761e81ef761d97f3e2fa iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         508910d25799c61afe0dd65dd0c379b0d8105e8b drm/amd/display: Update modifier list for gfx10_3
-         e9d01819d1b934b8de11aa04683ac61cdc2b5036 mei: me: add Alder Lake P device id.
-         2f09122a3194f92df6d59220485f645934250f94 Linux 5.11.18
+         315cf6aff90b8cbebd34ac2f26210102ce17ec47 mips: Do not include hi and lo in clobber list for R6
+         ec93d8883762df4de746045fa66bd3fdda44d7e8 netfilter: conntrack: Make global sysctls readonly in non-init netns
          
   - ref: refs/heads/queue/5.12
-    old: f3f80eb03ba7847ef645c2c0c979cb6f28d7835f
-    new: 9f29b08688ca35efcffe01b80f55fd2a4edf5796
+    old: 9f29b08688ca35efcffe01b80f55fd2a4edf5796
+    new: 15060cf7225d72f02249e485f37b9ccf0efd9bb0
     log: |
-         41c44e1f3112d7265dae522c026399b2a42d19ef net: hso: fix NULL-deref on disconnect regression
-         ac4ebcbd87195c8781778bcd0f5e1eccce5f4936 USB: CDC-ACM: fix poison/unpoison imbalance
-         f935c64a0c87d86730efd6e1e168555460234d04 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         2e4f97122f3a9df870dfe9671994136448890768 cfg80211: fix locking in netlink owner interface destruction
-         8413faeeb2bf489b3436ff3ea96da8a3f74c289a mei: me: add Alder Lake P device id.
-         9f29b08688ca35efcffe01b80f55fd2a4edf5796 Linux 5.12.1
+         78e6c560249323fad51c4c9546fd381df65e2c15 mips: Do not include hi and lo in clobber list for R6
+         15060cf7225d72f02249e485f37b9ccf0efd9bb0 netfilter: conntrack: Make global sysctls readonly in non-init netns
          
   - ref: refs/heads/queue/5.4
-    old: 86667bd70e51cd1d2e65f72331766afb3b54862b
-    new: 370636ffbb8695e6af549011ad91a048c8cab267
+    old: 370636ffbb8695e6af549011ad91a048c8cab267
+    new: 6d97eacbd402daca5530b83fd0a7c6eefb8b7d85
     log: |
-         4a163b1c705328e850c8347a7c4c800536b84284 bpf: Move off_reg into sanitize_ptr_alu
-         f7fbedc90909b7c69c96f121d854a56e23337765 bpf: Ensure off_reg has no mixed signed bounds for all types
-         15de0c537bf7c816fbd5224a8593cd8dfb09a7ae bpf: Rework ptr_limit into alu_limit and add common error path
-         4158e5fea3b1c4936914bcab2dbb037e4305c3f8 bpf: Improve verifier error messages for users
-         876d1cec93695797896d4d321eb2783d9cce9344 bpf: Refactor and streamline bounds check into helper
-         4dc6e55e282f9ac0f674cd8c1903e5ef60bb2371 bpf: Move sanitize_val_alu out of op switch
-         ef4e68f0af0483fa1acfb7a415bdc3302a4a04a6 bpf: Tighten speculative pointer arithmetic mask
-         e23967af130b5e8db571a9cd0acbef8a4995fd4c bpf: Update selftests to reflect new error states
-         370636ffbb8695e6af549011ad91a048c8cab267 Linux 5.4.116
+         d44088d47d881d84a9fd4936fc0e7d3848a873ff mips: Do not include hi and lo in clobber list for R6
+         3458fdf0aa680779a034cd76e25b4c3cf8b993b9 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+         6d97eacbd402daca5530b83fd0a7c6eefb8b7d85 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
          
