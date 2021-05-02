@@ -1,41 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 02 May 2021 09:12:23 -0000
-Message-Id: <161994674328.26145.9244624792181377277@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3572128272230131053=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 02 May 2021 09:12:44 -0000
+Message-Id: <161994676475.26375.10753356041499895657@gitolite.kernel.org>
+
+--===============3572128272230131053==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: cef679ad4840272cbbd5ab326b2f2c0a96adb5ed
-    new: ed2ea83af9525dc3becec9eab9a725b63e255a0f
+  - ref: refs/heads/master
+    old: 9ec37d5b067903a3b8b1d5deb15e12a0be4ab586
+    new: 98094acd71b9b5f61d84b6eb053b6241c34b8d27
     log: |
-         ed2ea83af9525dc3becec9eab9a725b63e255a0f usbip: vudc synchronize sysfs code paths
+         98094acd71b9b5f61d84b6eb053b6241c34b8d27 Linux 5.12.1
          
-  - ref: refs/heads/queue/4.19
-    old: 7521f2b7af570d8a15010d1cd5141748b81049f8
-    new: 5f4417be41923d0741afea0ee851689eecaf86ae
-    log: |
-         5f4417be41923d0741afea0ee851689eecaf86ae erofs: fix extended inode could cross boundary
-         
-  - ref: refs/heads/queue/4.4
-    old: 1a98228851c152009f2f1cab3460e5be3d92c5c0
-    new: 3f1c3f443127a5d9654e2e282560faf824ced220
-    log: |
-         3f1c3f443127a5d9654e2e282560faf824ced220 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
-         
-  - ref: refs/heads/queue/5.12
-    old: 1cc5b3cfa80d0e3c1b287a70b6aafe0b9e7e29eb
-    new: f3f80eb03ba7847ef645c2c0c979cb6f28d7835f
-    log: |
-         53017310d30e456591e2a2e7ed61f8b0408b04d1 net: hso: fix NULL-deref on disconnect regression
-         b3d13aa96485efdc55f3799fbf6d33bdc36d599c USB: CDC-ACM: fix poison/unpoison imbalance
-         d57cf86c7ba3d47a08edcf29dbed11fc7f86e7ff iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-         fb24e88a0ee4cae4034739857d18f79d03e341ff cfg80211: fix locking in netlink owner interface destruction
-         f3f80eb03ba7847ef645c2c0c979cb6f28d7835f mei: me: add Alder Lake P device id.
-         
+
+--===============3572128272230131053==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619946763 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1619946763-2c73e9d01f5e46bee55a03ed82cc2b612bcd8962
+
+9ec37d5b067903a3b8b1d5deb15e12a0be4ab586 98094acd71b9b5f61d84b6eb053b6241c34b8d27 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCObQsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ww0P/3IwKw7YKUaT1Cx0cwIt
+mYdykmeEQKJc9uie1klib1JS10BTA9A3jpzkfI9FnqK/rIyzZ6FlBcIGh1mgyY0l
+VdFiZmqFGh1i1A5iPGwc9u9pnIQeoYPWIY49O2g4Rr2g7wHXUDsSjti5xtipwuFH
+nh8uannkj6aBWirO8vGi72ewv4A1tEElWO5uCDiKuiw+tj71I0w5OTGSSAVeXhX8
++T00G2XaNGHzl6ZZ1usBIKucMceFY3JchQgJxpm1fdy8KuR4nGCg8+0BAGFTdeeE
+LnKtAlSQLE3bXpH6HHV300sNhOlkqTA6OnH8t/xWQmHYfUbgJHEWh5Tk8PM403Qj
+SqAgBWeGEUDVH4iYGSixYOH3v0Jzl/U1L02B/63c9a/g/gPQ9N22iWcl8MP1AYY3
+GNwF82iUXPxNW3/xij0GsK3LE5kJNN8GzpbLbomwcwpTCV2GLzTz6wwttZKYCLO4
+VZVpEnmh71S8zd6QF9kVKZOGGLfss99LBgu4q16xv5zOb0reFG2YiDUE27SJGMBq
+8HovxNv/wdD+6yK8PW3CEZirazkAiPhH6hQQ9NEZLlT7uJOKRS59ct1ViK6W8FLv
+8+SCffGtaAmaLVuHiN6aRrUXNKX8hNHCw1y2PAe2j84MP5udUqqhoxineJxuVEno
+mfeZVc+6M6yb3QNq+Tgoo9Ee
+=At+8
+-----END PGP SIGNATURE-----
+
+--===============3572128272230131053==--
