@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4075114388972258241=="
+Content-Type: multipart/mixed; boundary="===============0656030394626984556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 03 May 2021 14:30:53 -0000
-Message-Id: <162005225398.13760.10558031093379944560@gitolite.kernel.org>
+Date: Mon, 03 May 2021 14:31:03 -0000
+Message-Id: <162005226392.13903.442360993453052891@gitolite.kernel.org>
 
---===============4075114388972258241==
+--===============0656030394626984556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: c6f87141254d16e281e4b4431af7316895207b8f
     new: 9ccce092fc64d19504fa54de4fd659e279cc92e7
     log: revlist-c6f87141254d-9ccce092fc64.txt
 
---===============4075114388972258241==
+--===============0656030394626984556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://g
 27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 
---===============4075114388972258241==--
+--===============0656030394626984556==--
