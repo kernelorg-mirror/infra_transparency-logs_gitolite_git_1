@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 03 May 2021 22:24:32 -0000
-Message-Id: <162008067235.30127.2875041962229976365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 03 May 2021 22:34:22 -0000
+Message-Id: <162008126251.3188.8797010668291744119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/dev
-    old: 06c2113c4b1ce9ded69cd0ac4da9a00ed6be8834
-    new: c47687cb4cd09422c93a1a7dd7562e10439861b6
+  - ref: refs/heads/master
+    old: 2a30f9440640c418bcfbea9b2b344d268b58e0a2
+    new: ac31565c21937eee9117e43c9cd34f557f6f1cb8
     log: |
-         c47687cb4cd09422c93a1a7dd7562e10439861b6 kvfree_rcu: Refactor kfree_rcu_monitor()
+         ac31565c21937eee9117e43c9cd34f557f6f1cb8 xsk: Fix for xp_aligned_validate_desc() when len == chunk_size
          
