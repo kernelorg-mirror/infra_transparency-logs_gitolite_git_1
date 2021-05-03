@@ -1,80 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============4500368574580019197=="
+Content-Type: multipart/mixed; boundary="===============2046455621157541759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 May 2021 11:15:43 -0000
-Message-Id: <162004054329.16548.5236245500928637395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 03 May 2021 11:20:42 -0000
+Message-Id: <162004084225.20761.8531102805082434597@gitolite.kernel.org>
 
---===============4500368574580019197==
+--===============2046455621157541759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/umn.edu-reverts
-    old: 3cc5f0ae443c60af7070d5e2c584f4d110f8a12f
-    new: 9a8984771e61a6355960bc42f45db9d6a21f57a7
-    log: revlist-3cc5f0ae443c-9a8984771e61.txt
+  - ref: refs/heads/rdma-next
+    old: 9ef89c003466d232967318aba7a25171347a1d2b
+    new: cfc40af3d0f113dba9ac53c8b556b2ccb967892c
+    log: revlist-9ef89c003466-cfc40af3d0f1.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 0436bde3ac2c1f4de5116197397d0c459b29a18a
+    new: 890ded1e4d6bea65ca1486ac1d3b5741a21a80e8
+    log: revlist-0436bde3ac2c-890ded1e4d6b.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: 0e6c25870a156d573dc9d23179835e2778213ffc
+    new: 7795c6781b4e6b9642f6de1d88d9d3d73a430318
+    log: |
+         7795c6781b4e6b9642f6de1d88d9d3d73a430318 Merge branch 'master' into testing/rdma-rc
+         
+  - ref: refs/tags/mlx-next
+    old: 6cc9e215eb277513719c32b9ba40e5012b02db57
+    new: 6da7bda36388ae00822f732c11febfe2ebbb5544
+    log: |
+         6da7bda36388ae00822f732c11febfe2ebbb5544 IB/qib: Remove redundant assignment to ret
+         
 
---===============4500368574580019197==
+--===============2046455621157541759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9ef89c003466-cfc40af3d0f1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620040534 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1620040533-7bc95b58d94132057f0a517639c0f0e258083a38
+6da7bda36388ae00822f732c11febfe2ebbb5544 IB/qib: Remove redundant assignment to ret
+54862cfa11d0ae0158f90267c0d04dfc4dcd4d34 net/sched: Don't print dump stack in event of transmission timeout
+006823ac3ec5d9ad6e3717075f23b4fba50a5d6e IB/cm: Pair cm_alloc_response_msg() with a cm_free_response_msg()
+a44cc806e1165d26dc53acd9253a2fd62973a065 IB/cm: Split cm_alloc_msg()
+b067aebff6d673469352da8bec93d82dbe93192b IB/cm: Call the correct message free functions in cm_send_handler()
+04947d37291c0dfe145484b5ce540c7c5d5a831b IB/cm: Tidy remaining cm_msg free paths
+5bea849c56baf3e3d15738f8214b0e65f399afdc Revert "IB/cm: Mark stale CM id's whenever the mad agent was unregistered"
+58eaa0cbf60a84454a1f19dc9d7c7417176bd649 IB/cm: Simplify ib_cancel_mad() and ib_modify_mad() calls
+840888647cdbdce062b34731e61261ac69a432ea IB/cm: Clear all associated AV's ports when remove a cm device
+9462bdfe7c63ee5a56815f3a87f20cd14aaf0b39 IB/cm: Add lock protection when access av/alt_av's port of a cm_id
+6d431e2537a227e015717ecc5c5eff4bc16493d7 IB/cm: Initialize av before aquire the spin lock in cm_lap_handler
+957a8d8fce3d193b0be17c36eef8b73ae1473ae5 RDMA/restrack: Delay QP deletion till all users are gone
+f08ec7ca2822c1a765e36254bc947e4862ebea12 net/bnxt: Remove useless check of non-existent ULP id
+e1233f2ffe7726278938ca6fff7a1f6332e69322 net/bnxt: Use direct API instead of useless indirection
+33e0ad70fdae784156f7ff745f3e650e7287ab9e RDMA/core: Fix check of device in rdma_listen()
+0ed2694431d55d175455aec43841649b743484b5 RDMA/core: Introduce peer memory interface
+e0865102e93fe9c059a45a946cf0aee81a02a0d4 net/mlx5: Don't overwrite HCA capabilities when setting MSI-X count
+c76859015b548f1ce54054c398d3f3fa32b705c8 RDMA/mlx5: Support SQD2RTS for modify QP
+cfc40af3d0f113dba9ac53c8b556b2ccb967892c RDMA/mlx5: Add SQD2RTS bit to the alloc ucontext response
 
-3cc5f0ae443c60af7070d5e2c584f4d110f8a12f 9a8984771e61a6355960bc42f45db9d6a21f57a7 refs/heads/umn.edu-reverts
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCP21YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+by0QAISVWTM7atIBQvpDAkQR
-IXKF7KlLEXnxO/bIJUhQCXXstWe451jKJ1Zhh1AM7CnPHueHwUAhrbJxCco86nyJ
-jQgVH4mZwHQazZmi8pqyU2sKAtC4jTbW0B4oElgQf2cPOUYjq70waLEP1KDtf6hw
-68MTyGDEw9Ylu/nvaRhX0fl9GyaD/hlICWBCGGMqPjP/fhjQ3PKfD+bGef3cwc5Q
-PcQTQU5r2b8YJjL9kC8fUEhMW4Ebo+rkuiTIP9szQHapAmBCRbEOfZTqmc+EIoiW
-udO8pi4igVY3VDsE6ny0/GdBXOUAkj2++rbQcqnbiNM7JGfBRSZgG7X93J8pvT7G
-c2qwUbfCg6mnwJOrOjfnP1krEmdFY4m2T9ZJMSd+r1Ed3zTYTaVrXU89hbYyR6A8
-gs9Be/bmvRirJ+nOYOlC+R0I9aKCpev1Plp0DIG+7hU5jZNQ0zmMQvnsbOS6K9++
-b1RyRslg9MwAZIaVwpXADFnxFjfW7zOn6ygMQmaTw7/8uEQNnU+0in4F8WrVRu/l
-wvj3Bcg8MasutNGT5kY7XKv6fVcgZdvG1w/VooOACLvGAiDypywoTBquSWgY2PaT
-R+qIFl0k1e0TuP5fdyHfPHHmjmxqA77jNeMYclO01e7xu25s0NKRWCO2xP/r4dx8
-SEiZLm2KBHPG9vhRBEHqmeDp
-=seya
------END PGP SIGNATURE-----
-
---===============4500368574580019197==
+--===============2046455621157541759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cc5f0ae443c-9a8984771e61.txt
+Content-Disposition: attachment; filename=revlist-0436bde3ac2c-890ded1e4d6b.txt
 
-f053b1b749457e4c94fe9e3e272be7b2a8b252db Revert "ALSA: sb8: add a check for request_region"
-5236b616ebb50d975296cb9daeb4fc3a569c0c20 ALSA: sb8: Add a comment note regarding an unused pointer
-fb15611a6ed70e964736d5ef251829f3bf441a48 Revert "ASoC: rt5645: fix a NULL pointer dereference"
-f870e76aefc84e97435bd824c4d5639c3bc49fc0 ASoC: rt5645: add error checking to rt5645_probe function
-8785f5e6a931474e0c966a9b0c31a4605a4edb69 Revert "media: dvb: Add check on sp8870_readreg"
-8bdfacad4d3770480220a8ead5dcd57140812596 media: dvb: Add check on sp8870_readreg return
-b43209b770351a8ca318854aaca552d69924b4a7 Revert "media: gspca: mt9m111: Check write_bridge for timeout"
-9208b153804c1dd4a49f7272eda4acc2eb4515d0 media: gspca: mt9m111: Check write_bridge for timeout
-333314354a83a7415405029e754a4f2a08ec2d90 Revert "net: liquidio: fix a NULL pointer dereference"
-e79c8d3873233ce74a0aa1362805fef42babf403 net: liquidio: Add missing null pointer checks
-2ad3c891ed471f111086212d084fb478ad1cb3ca Revert "video: imsttfb: fix potential NULL pointer dereferences"
-ebaecf48518110335735ba4db9be807b1f56a6a2 video: imsttfb: check for ioremap() failures
-a1b5de5681de090b49a421f4e206b2f590560c76 Revert "brcmfmac: add a check for the status of usb_register"
-9f788bfff91b6c3cd305be2982cb01b598103672 brcmfmac: properly check for bus register errors
-99bc0f9e9cb44fb23d975a44925f0fbc5c165a0d Revert "ASoC: cs43130: fix a NULL pointer dereference"
-4ac063a964dccf845d3b88fe70b412fa41c25a16 ASoC: cs43130: handle errors in cs43130_probe() properly
-5fa468d79bdab1fa9ba005ee3e47ec65b6d17d80 Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
-1408e48590e170a8bbbd442dc84c52ccf1185a55 ALSA: usx2y: check for failure of usb_alloc_urb()
-9a8984771e61a6355960bc42f45db9d6a21f57a7 !!!! Canary changelog
+6da7bda36388ae00822f732c11febfe2ebbb5544 IB/qib: Remove redundant assignment to ret
+54862cfa11d0ae0158f90267c0d04dfc4dcd4d34 net/sched: Don't print dump stack in event of transmission timeout
+006823ac3ec5d9ad6e3717075f23b4fba50a5d6e IB/cm: Pair cm_alloc_response_msg() with a cm_free_response_msg()
+a44cc806e1165d26dc53acd9253a2fd62973a065 IB/cm: Split cm_alloc_msg()
+b067aebff6d673469352da8bec93d82dbe93192b IB/cm: Call the correct message free functions in cm_send_handler()
+04947d37291c0dfe145484b5ce540c7c5d5a831b IB/cm: Tidy remaining cm_msg free paths
+5bea849c56baf3e3d15738f8214b0e65f399afdc Revert "IB/cm: Mark stale CM id's whenever the mad agent was unregistered"
+58eaa0cbf60a84454a1f19dc9d7c7417176bd649 IB/cm: Simplify ib_cancel_mad() and ib_modify_mad() calls
+840888647cdbdce062b34731e61261ac69a432ea IB/cm: Clear all associated AV's ports when remove a cm device
+9462bdfe7c63ee5a56815f3a87f20cd14aaf0b39 IB/cm: Add lock protection when access av/alt_av's port of a cm_id
+6d431e2537a227e015717ecc5c5eff4bc16493d7 IB/cm: Initialize av before aquire the spin lock in cm_lap_handler
+957a8d8fce3d193b0be17c36eef8b73ae1473ae5 RDMA/restrack: Delay QP deletion till all users are gone
+f08ec7ca2822c1a765e36254bc947e4862ebea12 net/bnxt: Remove useless check of non-existent ULP id
+e1233f2ffe7726278938ca6fff7a1f6332e69322 net/bnxt: Use direct API instead of useless indirection
+33e0ad70fdae784156f7ff745f3e650e7287ab9e RDMA/core: Fix check of device in rdma_listen()
+0ed2694431d55d175455aec43841649b743484b5 RDMA/core: Introduce peer memory interface
+e0865102e93fe9c059a45a946cf0aee81a02a0d4 net/mlx5: Don't overwrite HCA capabilities when setting MSI-X count
+c76859015b548f1ce54054c398d3f3fa32b705c8 RDMA/mlx5: Support SQD2RTS for modify QP
+cfc40af3d0f113dba9ac53c8b556b2ccb967892c RDMA/mlx5: Add SQD2RTS bit to the alloc ucontext response
+7795c6781b4e6b9642f6de1d88d9d3d73a430318 Merge branch 'master' into testing/rdma-rc
+890ded1e4d6bea65ca1486ac1d3b5741a21a80e8 Merge branch 'rdma-next' into testing/rdma-next
 
---===============4500368574580019197==--
+--===============2046455621157541759==--
