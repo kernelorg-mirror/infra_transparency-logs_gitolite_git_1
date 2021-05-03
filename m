@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 03 May 2021 13:07:56 -0000
-Message-Id: <162004727647.20377.9125001394116519310@gitolite.kernel.org>
+Date: Mon, 03 May 2021 13:08:38 -0000
+Message-Id: <162004731893.20680.11556020764930055803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: fa0efeff4894e36b9c3964376f2c99fae101d147
-    new: 3e3497c66350a5db63b56717c8f80badd9ce5ed1
+    old: 3e3497c66350a5db63b56717c8f80badd9ce5ed1
+    new: ffc64a24277e981f3573382a5cd04a78ec8e075c
     log: |
-         3e3497c66350a5db63b56717c8f80badd9ce5ed1 rtl_bt: Update RTL8852A BT USB firmware to 0xD9A8_7893
+         ffc64a24277e981f3573382a5cd04a78ec8e075c rtw89: 8852a: update fw to v0.13.8.0
          
