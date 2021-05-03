@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5754623715447783197=="
+Content-Type: multipart/mixed; boundary="===============2847483820666400431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 03 May 2021 16:38:34 -0000
-Message-Id: <162005991479.26254.2798820212650707454@gitolite.kernel.org>
+Date: Mon, 03 May 2021 16:39:31 -0000
+Message-Id: <162005997129.26628.3416522661745319191@gitolite.kernel.org>
 
---===============5754623715447783197==
+--===============2847483820666400431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f07eca8d75edfedb4ab6f46e1701ca7598ec5fe2
-    new: 8efd1451a09bed8b85ff485c874a31b75ff35fa8
+    old: 8efd1451a09bed8b85ff485c874a31b75ff35fa8
+    new: 6d279d9a5720b8b9ee9e7e45cd01a2d89c878b59
     log: |
-         5636af3d59464a3be341a83dac6350163aa04f7b staging: rtl8712: Use list iterators and helpers
-         8efd1451a09bed8b85ff485c874a31b75ff35fa8 staging: rtl8192u: fix typos in comments
+         d4a3f4aef00e1ed82385d28e8ca7046f678532b1 staging: rtl8723bs: remove unnecessary hex dumps
+         80582c1f883a16170bbe8542e5b95a7c50615d87 staging: rtl8723bs: remove unused macro DRIVER_PREFIX
+         6d279d9a5720b8b9ee9e7e45cd01a2d89c878b59 staging: rtl8723bs: core: remove unneeded variable
          
 
---===============5754623715447783197==
+--===============2847483820666400431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620059908 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620059965 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1620059908-dea0540a4f3f67ceee5d5129b5c4519cfea1e7c5
+nonce 1620059964-8611872a7b39dc1119c77fd6ccbd5e701abc3d96
 
-f07eca8d75edfedb4ab6f46e1701ca7598ec5fe2 8efd1451a09bed8b85ff485c874a31b75ff35fa8 refs/heads/staging-testing
+8efd1451a09bed8b85ff485c874a31b75ff35fa8 6d279d9a5720b8b9ee9e7e45cd01a2d89c878b59 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCQJwQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OL4QAM/UfbZp913w2MLE8UfC
-ZfzsqumnkFlRqqEZFYYGWw2Bfk//2S1X61vRIRxd/vvh9tAhnGUNbNEoV/sJ+MCn
-IdXoEch2ZBkGAGUnzQBGvLSk1YLlrqmcFN0OTzxDJbwFwZen1eCmvjsuRJqHVjmv
-ElE4o9it/V18ezBMRawxeQsZPmTaWZ/LLPtgf5DymvS5QyIN7SwPCfnvHEQdFBeY
-Y1KG3qgn+jS1l+rNzGYWrxKCKVsWKWAqawPr1qHAPRAKwPLahgsfzmBAD9Zw52Y8
-BflKGFkzIY+n4ma6YNBVKKZn/AQUPIN2feMakWeVJuvipAQORwyfIiMxoT4F+RsT
-G7mExixXUUPi4Y1wsNyVp5zevEfZObZ/HxfECh+z7lpIDYNpk/FFkXvZHtudu17n
-Q6UQI1Xv5XIL3I+OWp1al7jX6bF4ulNue5poflAbOc9XZjCcHNWCxJEDpjcZF+6P
-6/2WLnZu48yo1oKAW8AhIOrd67vx19xn6xkd4msApN76AwE8hKP6tvywiv6WHjvE
-sOPbhlvcBwrHfCHRkartYkCyTWi44IzH45fDMrv0a2nvxuFy3M6ExAh8pdW2fQ/+
-6vYKI4YlXRgl/c6408SAsINDcUBKJlJxdfw+/LXQXTzx3bvDKbb8SeAsuomr1wmn
-D0+DCbvJrZ4PxARpywIDSAyU
-=75cv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCQJz0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RFgQAK68FTypbAG+NjBX0iOa
+JpvaAfCxVGyuYr+imqOaAooxhGvoEX2QXlvoLr6xzafnS5nisQnWRuTWsaQe1Mx4
+/SOXHCXoJQysSfuNvbbcdF6f7RupJ4WAGglPlJTe32xykrbcshAWgA8/9Ao21Jyf
+ZT+AIZyoB+I9AF+AtM1chSUq18eqhEwL75G8aPtEd2QDw165R6doYcWxG6t115O5
+6z0PYkF5axxTSlxS70PE7s1eCDXGEv+DXU3x6oyb6q3ES4FHXnIUjezzPTMRkV0n
+kE1mNVs42AeCWFYwcO+C3lIyLgdO0f6ujFUWcpj+fDCTFZ5iw3qLlvUPGxhxKWYS
+reI3RsF9HuDa5IxjGOcd+VYLQMN9mRfLs/ro01NJsYU4qjZLdp0wkZLV4uuWNh+Z
+fv9I2gpDe817+pMpjUux7EdMMwLK0bACR36EE+NioLjfmQAKx/r8GaLvLbYm7/FJ
+MHBLfJ6Hw2ZYGEVdlO/bUi3xzMoaTytPsCJ/1ibed0zKOo5N6/5XQIFrrnP6uGQH
+2939Va+2wHMhKcd7Nh3nJP77PWQYgPdSPO1FEOK3zIj18NxVPMKk/cTFTBfIjDfj
+9IKCHt4MJXJRiDLFtn5Zcz+FLUmvBnceTS8R3GHkKgVKO47Ovd0UnM9TDqpOxo5e
+AKi5CBUn3/F35KW2vYOTlKR/
+=9hCl
 -----END PGP SIGNATURE-----
 
---===============5754623715447783197==--
+--===============2847483820666400431==--
