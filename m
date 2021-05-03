@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7331976688785554048=="
+Content-Type: multipart/mixed; boundary="===============8871100234799577088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 03 May 2021 16:19:49 -0000
-Message-Id: <162005878931.13987.16161652262900634951@gitolite.kernel.org>
+Date: Mon, 03 May 2021 16:20:38 -0000
+Message-Id: <162005883847.16429.16293866255585177448@gitolite.kernel.org>
 
---===============7331976688785554048==
+--===============8871100234799577088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,154 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 22e1eae2e1278f7d037c7d764d9e507e3a02a84d
-    new: 8236628129093897542601500cf82f56cdd68c78
-    log: revlist-22e1eae2e127-823662812909.txt
+  - ref: refs/heads/main
+    old: 4a0225c3d208cfa6e4550f2210ffd9114a952a81
+    new: 9ccce092fc64d19504fa54de4fd659e279cc92e7
+    log: revlist-4a0225c3d208-9ccce092fc64.txt
 
---===============7331976688785554048==
+--===============8871100234799577088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620058779 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620058832 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1620058778-312b015a84c6c2a84893ca76e0a213dfa90df431
+nonce 1620058831-b7092d4144cf2f4d6349facfa732017b70ce05b9
 
-22e1eae2e1278f7d037c7d764d9e507e3a02a84d 8236628129093897542601500cf82f56cdd68c78 refs/heads/staging-testing
+4a0225c3d208cfa6e4550f2210ffd9114a952a81 9ccce092fc64d19504fa54de4fd659e279cc92e7 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCQIpsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ag4P/1LfEagFtGoqtTTU3PeL
-UYXtC6pVNVOD/DfTgeuwz6Z2adxIOm9H4jh+RzsLfEkg+KjYxjHLXyv9FDNXO0/j
-Y1d2my7QDZFmEsphzBmld/T/xkicnhs4XX5zVq1E2Zr9sHlelkTZH+ycCgB3j5zh
-Dh/0EWMha+jrCuvHLjJblGHu04RJLioRIPEYYNWB7cmWgDux3pVE7DA/nUrlyQZK
-bPpsBXjDWSTL+Pl3K13l8s753uRlA6Omh7mENpTkyyRWVxRhRE3XZ3bKAoCRfAhY
-gEAdb6Sw5iTUdgjw3N10FCAJRcM3/01fDlDQnlYc7NzRpjKlO+ptUqielib1q7t0
-Ym16zUNqyn5e2oeaD097I984bkRtEsmTnPs3CErbU5fPN/adxM1Gc8vc+Mc7USXu
-kxA5uih5pD2vdyek6nMGZA+8rYz92aXY98Iw22e049T4pRThK/cZWu4q/ZT/Ghuc
-iWErM6futvLU3oLn7zY5DRZqYEmFLP9HBHoz6l+hUFRHCb8/ILwb9qBRRlMS9dyL
-0igDeKstiVAI9SHEv7OOdVT8BAveZIdTZ+lOOpEu+0yDXCSb1iZPA7CLXiU6BRYo
-oXGL9rYtgVt8KVH/xA97WYxO9Ib0weQSqsjQlWhOJxb5HN0hBCg8Zzw3WzLgDTcS
-wNVE+GzsvulSwt/ck1ltuiPa
-=s+ZF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCQItAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6fYP/RTvHQt+sYbqO0urKhk3
+scRq9Xr3H9sCAoZJGWqXjDZDvLMJWeC8egBZsaPUB/9DTClhWyrMddRzSQtvd6ak
+erpWaLfY4LKekpvuarjykSEXHj4elmvBQzciQD4H5/TGpilLEfu8/laZkFtjyt90
+/1l+CBIOGfsFYFJZBntBzzt4U4vY56bd1zrJPVBf3YY25ch/joEDPhrgI58ZIher
+9QzCdp9CZVWHpy16lkHOAEL1lOMMhqB+vaPwjd6Kqaoefn0Vida+Co0vYmxh8Tni
+EZyFUE/zfHYDYyMf30OrfpxjQh4Mq+6n6fQb5W5KEur8fHuMt9YBoxbzoSjGp0Ul
+8sZRxEu/PDjyt3nqyn6ynXBsp8+X0Cq3/dIb3chT0tOYP+hAw/8ol5nj0ZlxtTyo
+msUmzeInbi9HBiRk4eOdTmLlzonm6Gsc7fcVrNjhdyBTG0bfuhs9sl1wusg0StAE
+KQrBssQV1aeFXKWBM8VJMGAQV42UzAPfbj8xsPXER7HXt7vkbuWOcZCqtoBvPO0N
+6VS7778PB57gGPu9CR+jzuj1YI8EDiABJQljDVd6dmaPOnoqNYbMVNcyWVL8reYA
+qVrJ2kngY7RZkLdTMEIPU4EpsYKXy8XCIamf7W+iHU+URmJ9cIbmHhGi+0N3Zyp8
+hqiaBXyKR02nnMUbIA8HmOzJ
+=gMma
 -----END PGP SIGNATURE-----
 
---===============7331976688785554048==
+--===============8871100234799577088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22e1eae2e127-823662812909.txt
+Content-Disposition: attachment; filename=revlist-4a0225c3d208-9ccce092fc64.txt
 
+d228cc4969663623e6b5a749b02e4619352a0a8d powerpc/ebpf32: Fix comment on BPF_ALU{64} | BPF_LSH | BPF_K
+e7de0023e1232f42a10ef6af03352538cc27eaf6 powerpc/ebpf32: Rework 64 bits shifts to avoid tests and branches
+ee7c3ec3b4b1222b30272624897826bc40d79bc5 powerpc/ebpf32: Use standard function call for functions within 32M distance
+6ac7897f08e04b47df3955d7691652e9d12d4068 powerpc: Remove probe_user_read_inst()
+6449078d50111c839bb7156c3b99b9def80eed42 powerpc: Make probe_kernel_read_inst() common to PPC32 and PPC64
+41d6cf68b5f611934bcc6a7d4a1a2d9bfd04b420 powerpc: Rename probe_kernel_read_inst()
+39352430aaa05fbe4ba710231c70b334513078f2 powerpc: Move copy_inst_from_kernel_nofault()
+8a9d24f222ea1b1c20dffbc62bff736f3f94b768 drm/ttm: fix return value check
+a4394b6d0a273941a75ebe86a86d6416d536ed0f drm/ttm: Don't count pages in SG BOs against pages_limit
+182dd5bad52c66a54c300fe320b772456572bf23 lib/math/test_div64: Fix error message formatting
+a3cc754ad9b80491e2db5ae6a5a956490654abb9 fs/reiserfs/journal.c: delete useless variables
+1300c7037f0f08692008053e4b12a2fb6fbd185a ASoC: amd: drop S24_LE format support
+62bad12bceebd7d336ced4e44f408b702c151ba0 ASoC: Intel: KMB: Fix random noise at the HDMI output
+8859f809c7d5813c28ab90f5335f182e634d77af ASoC: audio-graph: add graph_parse_node()
+e51237b8d3052251421770468903fa6e4446d158 ASoC: audio-graph: add graph_link_init()
+59c35c44a9cf89a83a92a8d26749e59497d0317d ASoC: simple-card: add simple_parse_node()
+434392271afcff350fe11730f12b831fffaf33eb ASoC: simple-card: add simple_link_init()
+73371bacf0475a20ab6f3e7b6310e378ec5b3023 ASoC: audio-graph: tidyup graph_dai_link_of_dpcm()
+1ffec389a6431782a8a28805830b6fae9bf00af1 ataflop: potential out of bounds in do_format()
+b777f4c47781df6b23e3f4df6fdb92d9aceac7bb ataflop: fix off by one in ataflop_probe()
+c968b89a1d446ec4a1ed3022ebd79d36de5ea1eb of: linux/of.h: fix kernel-doc warnings
+ee695f22b54a4b79753fdaa78cbbff1064050d13 nSVM: Check addresses of MSR and IO permission maps
+54526d1fd59338fd6a381dbd806b7ccbae3aa4aa KVM: x86: Support KVM VMs sharing SEV context
+016ff1a442d9a8f36dcb3beca0bcdfc35e281e18 KVM: selftests: Sync data verify of dirty logging with guest sync
+bf1e15a82e3b74ee86bb119d6038b41e1ed2b319 KVM: selftests: Always run vCPU thread with blocked SIG_IPI
+c265878fcb2c96befe7424e984011ed0ce6d095d KVM: x86: document behavior of measurement ioctls with len==0
+52acd22faa1af8a0514ccd075a6978ac97986425 KVM: Boost vCPU candidate in user mode which is delivering interrupt
+4cfdd47d6d95aca4fb8d6cfbe73392472d353f82 KVM: SVM: Add KVM_SEV SEND_START command
+d3d1af85e2c75bb57da51535a6e182c7c45eceb0 KVM: SVM: Add KVM_SEND_UPDATE_DATA command
+fddecf6a237ee464db7a1771fad6507d8c180c03 KVM: SVM: Add KVM_SEV_SEND_FINISH command
+5569e2e7a650dfffd4df7635662b2f92162d6501 KVM: SVM: Add support for KVM_SEV_SEND_CANCEL command
+af43cbbf954b50ca97d5e7bb56c2edc6ffd209ef KVM: SVM: Add support for KVM_SEV_RECEIVE_START command
+15fb7de1a7f5af0d5910ca4352b26f887543e26e KVM: SVM: Add KVM_SEV_RECEIVE_UPDATE_DATA command
+6a443def87d2698f4fa2d7b57e7f4e5f0f61671a KVM: SVM: Add KVM_SEV_RECEIVE_FINISH command
+b61a9071dc72a3c709192c0c00ab87c2b3de1d94 crypto: ccp: Free SEV device if SEV init fails
+74c1f1366eb7714b8b211554f6c5cee315ff3fbc crypto: ccp: Detect and reject "invalid" addresses destined for PSP
+d5760dee127bf6f390b05e747369d7c37ae1a7b8 crypto: ccp: Reject SEV commands with mismatching command buffer
+8347b99473a313be6549a5b940bc3c56a71be81c crypto: ccp: Play nice with vmalloc'd memory for SEV command structs
+e4a9af799e5539b0feb99571f0aaed5a3c81dc5a crypto: ccp: Use the stack for small SEV command buffers
+38103671aad38e888743dd26c767869cfc15adca crypto: ccp: Use the stack and common buffer for status commands
+a402e35177797d736dd3dc2d8537c1c9ac90d54a crypto: ccp: Use the stack and common buffer for INIT command
+238eca821cee90e91139da84ef4f38c74d7cf0d9 KVM: SVM: Allocate SEV command structures on local stack
+f4be591f1436afff4a18ddd180f7bf9421ffddfe brd: expose number of allocated pages in debugfs
+8f864c595bed20ef85fef3e7314212b73800d51d nvmet: avoid queuing keep-alive timer if it is disabled
+a70b81bd4d9d2d6c05cfe6ef2a10bccc2e04357a nvme: sanitize KATO setting
+74c22990f08c9f922f775939a4ebc814ca2c49eb nvme: add 'kato' sysfs attribute
+53fe2a30bc168db9700e00206d991ff934973cf1 nvme: do not try to reconfigure APST when the controller is not live
+60df5de9b0532aff59a00475b57c265b4a3620e1 nvme: cleanup nvme_configure_apst
+542c40957c0557f0b3ec326579a57c143412d0e4 Merge tag 'wireless-drivers-2021-04-21' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+e4bbc5c53a8f6b9235d8f1292377705cf7bcf59b octeontx2-af: cn10k: Mailbox changes for CN10K CPT
+ecad2ce8c48fcaa23c6efd07e8d1467319a7bf8a octeontx2-af: cn10k: Add mailbox to configure reassembly timeout
+2e2ee4cd0ab546859b5b5b2874b973b6caf855b3 octeontx2-af: Add mailbox for CPT stats
+0e91e9a5d699fe7cf16710f4a016fbba94b92d04 Merge branch 'octeontx2-af-cn10k'
+78e70dbcfd0334c0eaf61c09e2083107f4762506 net: dsa: mv88e6xxx: Correct spelling of define "ADRR" -> "ADDR"
+281140a0a2ce4febf2c0ce5d29d0e7d961a826b1 net: dsa: mv88e6xxx: Fix off-by-one in VTU devlink region size
+836021a2d0e0e4c90b895a35bd9c0342071855fb net: dsa: mv88e6xxx: Export cross-chip PVT as devlink region
+2acf63c16a3b8d7a8f11d9d6f9ef49b9771c1aee Merge branch 'mv88e6xxx-small-improvements'
+90b669d65d99a3ee6965275269967cdee4da106e nfp: devlink: initialize the devlink port attribute "lanes"
+53e35ebb9a17fd953d9b8fe059aaf4282fa524f2 stmmac: intel: unlock on error path in intel_crosststamp()
+70a7c484c7c3eaa17b679db2c74ec8ecbe8dc0e8 net: dsa: fix bridge support for drivers without port_bridge_flags callback
+17cb00704c217d88a93791c914a01904e685b499 stmmac: intel: set TSO/TBS TX Queues default settings
+5e6038b88a5718910dd74b949946d9d9cee9a041 net: stmmac: fix TSO and TBS feature enabling during driver open
+5718458b092bf6bf4482c5df32affba3c3259517 net: renesas: ravb: Fix a stuck issue when a lot of frames are received
+357a07c26697a770d39d28b6b111f978deb4017d net: phy: intel-xway: enable integrated led functions
+47a017f33943278570c072bc71681809b2567b3a net: qrtr: Avoid potential use after free in MHI send
+36e69da892f1224dabc4a5d0a5948764c318b117 net: ethernet: ravb: Fix release of refclk
+f4f4089eb145d18af93977aebdcb899d8eaa890a mt76: connac: move mcu_update_arp_filter in mt76_connac module
+d5a2abb0db9ea05f24d1e48d3e4787247e0c5248 mt76: mt7921: remove leftover function declaration
+fad90e43eac0434108af18e326e179d1b5153135 mt76: mt7921: fix a race between mt7921_mcu_drv_pmctrl and mt7921_mcu_fw_pmctrl
+7cd740f0e499d9bfd672ff1f3f6512503141abbe mt76: mt7663: fix a race between mt7615_mcu_drv_pmctrl and mt7615_mcu_fw_pmctrl
+7f2bc8ba11a0e82d474f0047933c3baeebf4406c mt76: connac: introduce wake counter for fw_pmctrl synchronization
+9800462ddc58ace3d96a006156ba6764824992f2 mt76: mt7921: rely on mt76_connac_pm_ref/mt76_connac_pm_unref in tx path
+335e97ace24ade90aa5d5e8713bc448d2c276322 mt76: mt7663: rely on mt76_connac_pm_ref/mt76_connac_pm_unref in tx path
+cb8ed33d4b3f4ef8cbff2d164bffeca678427f5a mt76: dma: add the capability to define a custom rx napi poll routine
+917dccb6eebcafd2a5ff73d75d2b0c5c7251e5f5 mt76: mt7921: rely on mt76_connac_pm_ref/mt76_connac_pm_unref in tx/rx napi
+db928f1ab9789f99a0e57b35f3c8d652ad5350f8 mt76: mt7663: rely on mt76_connac_pm_ref/mt76_connac_pm_unref in tx/rx napi
+4f9b3aeb837a9df029b56179be7b0505de4400de mt76: connac: unschedule ps_work in mt76_connac_pm_wake
+ec7bd7b4a9c0e7e90d23b4f6a7dca2c713fe93ab mt76: connac: check wake refcount in mcu_fw_pmctrl
+efe9ec5cec38181bf4faa871c73b63c4d25efef0 mt76: connac: remove MT76_STATE_PM in mac_tx_free
+1d4f5c68a0ed1838383013b3aca69a124b2dc9ec mt76: mt7921: get rid of useless MT76_STATE_PM in mt7921_mac_work
+a61826203ba8806b4cdffd36bafdce3e9ad35c24 mt76: connac: alaways wake the device before scanning
+75e83c2035debe419ba25f6dc66fcd11d0dc0bcd mt76: mt7615: rely on pm refcounting in mt7615_led_set_config
+310718ba6a13a5d0d65ea1ea338ea9f9f992dacf mt76: connac: do not run mt76_txq_schedule_all directly
+e5f35576c8a986c6456f7d0c7d0f1ff34ccaa165 mt76: connac: use waitqueue for runtime-pm
+37a8648889f6aa398be67e254834372f5d5f8a78 mt76: remove MT76_STATE_PM in tx path
+36873246f78a2d82eb8c43f74af52f199757dcff mt76: mt7921: add awake and doze time accounting
+dc5d5f9d3fe4d0c26b4e4beb25d056ffcc5fbf02 mt76: mt7921: enable sw interrupts
+4a52d6abb193aea0f2923a2c917502bd2d718630 mt76: mt7615: Fix a dereference of pointer sta before it is null checked
+0a1059d0f06023a7d045d05055c9d2ebad3b9c9d mt76: mt7921: move mt7921_dma_reset in dma.c
+fcad15d52ef52002e069ed9a091a0c0a54691c27 mt76: mt7921: introduce mt7921_wpdma_reset utility routine
+5536e7354aa8abf0e27a1bc58f4b4653b4884bdf mt76: mt7921: introduce mt7921_dma_{enable,disable} utilities
+77ba349101ac22bae2d4e635245b60173d49de2b mt76: mt7921: introduce mt7921_wpdma_reinit_cond utility routine
+c0b21255de9be39498b39e0f15e7598f3991e2ea mt76: connac: introduce mt76_connac_mcu_set_deep_sleep utility
+1792eb0ecdc51282d37c7ad43167d088e2bf71df mt76: mt7921: enable deep sleep when the device suspends
+fe3fccde8870764ba3e60610774bd7bc9f8faeff mt76: mt7921: fix possible invalid register access
+b17aff3368916136ba2a87669bb3c319e5c6d0b2 mt76: move token_lock, token and token_count in mt76_dev
+d089692bc7938a1030db98d493497cda9afe4b43 mt76: move token utilities in mt76 common module
+422f351193401428d62035c3f5a933ed46967517 mt76: mt7915: do not read rf value from efuse in flash mode
+d43b3257621dfe57c71d875afd3f624b9a042fc5 mt76: mt7921: get rid of mcu_reset function pointer
+c18ba14c4bc953250aa497d03855592bd133ccde mt76: mt7921: improve doze opportunity
+abe912ae3cd42f95beeff8eb67acbe0ca8b8aedd mt76: mt7663: add awake and doze time accounting
+b1bd7bb8121d89518b2248357a070d4bf8defd3e mt76: connac: unschedule mac_work before going to sleep
+081b37aea5085fd1535651150c5742e19ccfea82 mt76: mt7921: mt7921_stop should put device in fw_own state
+36fcc8cff592ed4c6c308f23390e481885b136fc mt76: mt7921: introduce mt7921_mcu_sta_add routine
+fdc088a7f4b0fe5204995b9c236e338c200cc44c mt76: debugfs: introduce napi_threaded node
+c8131dc32be24d4413e7ed534f53e8b0cc5d3c36 mt76: mt7615: fix a precision vs width bug in printk
+b2bcc6d2a5874b0265aeeb926618e2d265f96b50 mt76: mt7915: fix a precision vs width bug in printk
 2bf301bc81df81907ceabbfd7bf57743696899bb mt76: mt7921: fix a precision vs width bug in printk
 51252cc56ec9aaac71445e849c75b40b17277d7e mt76: move mt76_token_init in mt76_alloc_device
 3df932141e4fa3a39f8e0839af9ee7bdedb1da0c mt76: mt7921: reinit wpdma during drv_own if necessary
@@ -974,112 +1081,5 @@ e6f0bf09f0669b3c2cd77fa906830123279a0a21 Merge tag 'integrity-v5.13' of git://gi
 b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
-26fca9d44289701336b96ee70ebc454257019735 staging: r8192U_core: Remove unused variable 'ret' and demote kernel-doc abuse
-70ec2aedc831c015ecbefb32dc40cae2530e034f staging: android: ashmem: Supply description for 'new_range'
-d4255b675426cac9eb9583406e41ce88d3f022f8 staging: r8192U_core: Do not use kernel-doc formatting for !kernel-doc headers
-115dfe611acb8caf1fcc4144fc22a2df631acc66 staging: r819xU_phy: Remove some local variables from the stack
-70954257022f108b498dd1de11a1fdbada2cce76 staging: r819xU_cmdpkt: Remove functionless method 'cmpk_handle_query_config_rx'
-bab8e453ddc80c4053dc76d234f3b74c1f43c5f3 staging: wlan-ng: cfg80211: Move large struct onto the heap
-4952473719209a6371cc03012860b118da52ad15 staging: rtl8188eu: core: rtw_ieee80211: Fix incorrectly documented function
-a573e5b62f1699b1f7b6256318a44ff3e4f77ed1 staging: rtl8723bs: core: rtw_mlme: Remove a bunch of unused variables
-1f9c87239b4f37794973e40957ac6749e469859e staging: rtl8712: rtl871x_mp_ioctl: Remove a bunch of unused tables
-721c8fcab11a5565b31e3333b5801a86b670f1dc staging: rtl8723bs: core: rtw_recv: Mark debug variable as __maybe_unused
-673a68c9c576151c0d19effed33c8b56ec5e5ccf staging: rtl8188eu: core: rtw_security: Fix some formatting and misdocumentation
-c8be1bca2a29cc742050ba323950223d2c639c41 staging: rtl8723bs: core: rtw_security: Demote non-conformant kernel-doc header
-32e7bde1c9396350289428baebac457094cfdc7f staging: rtl8723bs: core: rtw_sta_mgt: Remove unused variable 'psta'
-65f49a325b4fd7202f1c9451fb17587774ac6b6a staging: rtl8723bs: core: rtw_sta_mgt: Return error value directly
-8564bdedbbe2dfd414b6ddf86ea826518847e913 staging: octeon: ethernet-tx: Fix formatting issue in function header
-610263a4230213291e173276b7533cdec998f989 staging: rtl8723bs: core: rtw_wlan_util: Remove unused variable 'start_seq'
-98488040a4580497cec64a1267ab8f4c3a580089 staging: rtl8712: rtl871x_mp_ioctl: Move a large data struct onto the heap
-0b25a6d3e4380895d61c017298ef248a57d0cd85 staging: iio: frequency: ad9834: Provide missing description for 'devid'
-a39a96970e4a79b196fbd05555dd542ff48e3d4d staging: nvec: Fix a bunch of kernel-doc issues
-2de0201a51fa6903dd8a5ce7a8a1ecb75387d917 staging: ks7010: ks_hostif: Remove a bunch of unused variables
-bdca187c3c593bf84de1ed3205265ec3f30d4894 staging: fwserial: Demote a whole host of kernel-doc abuses
-7d85c9a8d5f8b7aa40b4e38b06a3f65ad0e0c0e1 staging: sm750fb: sm750_accel: Provide description for 'accel' and fix function naming
-5cb3bd95f304a1042e5f6a17da4cc29635f70d36 staging: most: net: Fix some kernel-doc formatting issues
-f30b41a3d7359c8eb1e241ac24ab8952408c89bb staging: vt6655: upc: Suppress set but not used warning in macro
-c10ddfca703e08c0131c39abd6f001d9a0a9dd0a staging: rtl8192u: ieee80211_softmac: Move a large data struct onto the heap
-f4ebca1b4e0776349119e994a51b8310d2a49920 staging: most: dim2: Provide missing descriptions and fix doc-rot
-0696342918f033f9fca08603706ad1ed440b7a94 staging: rtl8723bs: core: rtw_ieee80211: Remove seemingly pointless copy
-85c7b676d6ddb3df4ba01ffe8c727d1c9420f714 staging: rtl8723bs: core: rtw_mlme: 'retry' is only used if REJOIN is set
-292794808e9733a98df30ab8c72df1fea1db5ae2 staging: most: i2c: Fix a little doc-rot
-0b8d8345a6b2c506ec2c3d7b4fac3da0f0914622 staging: most: dim2: hal: Fix one kernel-doc header and demote two non-conforming ones
-4b4a7b587a783f056f15f4b4da598907e6dbf464 staging: most: dim2: hal: Demote non-conformant kernel-doc headers
-16029e5ede95aeb28dd911c155a228cb69d263be staging: axis-fifo: axis-fifo: Fix some formatting issues
-94f1ab2943e04a56c4098cc781883e2704e9fd92 staging: rtl8188eu: os_dep: ioctl_linux: Move 2 large data buffers into the heap
-83bc9a461d94d6dd541f20d137c865cab46fa11d staging: fbtft: fb_ili9320: Remove unused variable 'ret'
-01837b864624fa69a4a6edfaabc785c420032d88 staging: rtl8723bs: core: rtw_ieee80211: Fix incorrectly named function
-9231567db4b1733340e5b07eee5aea089028b868 staging: rtl8723bs: hal: odm_NoiseMonitor: Remove unused variable and dead code
-7c7ae72b7a21d7f70bb73699948c0ef7e39f1450 staging: rtl8188eu: os_dep: mon: Demote non-conforming kernel-doc headers
-d4c486430f7bd1b33bd402ec5bac46cafdf2b86b staging: rtl8723bs: hal: rtl8723b_phycfg: Fix a bunch of misnamed functions
-8e7c36f7a400a19c265bcd4dbf7f43cd2f0a6bfc staging: rtl8723bs: hal: sdio_ops: Mark used 'err' as __maybe_unused and remove another
-47e5bb2417e2c98f6980a22b84c51ca966cd6b03 staging: rtl8723bs: os_dep: ioctl_cfg80211: 'ack' is used when debug is enabled
-d5b1f42c26bc6338d6605a6b3febd1f5237003e8 staging: axis-fifo: axis-fifo: Fix function naming in the documentation
-f38acdbd2d57939f45ab73e744fffbf20b139f45 staging: rtl8723bs: hal: odm_NoiseMonitor: Remove unused variable 'func_start'
-a59cbbb31da161d76a1de4003a45b4f70073267e staging: rtl8723bs: core: rtw_mlme_ext: Move very large data buffer onto the heap
-9552565b41f8676540cdd66735936afbd2447587 staging: rtl8723bs: hal: sdio_halinit: Remove unused variable 'ret'
-0aec4b05ef82d52d6bfa091b568d95cab5b68159 staging: wlan-ng: remove redundant initialization of variable txresult
-e2ee1cc72840248c0a751194b43dd136545d7826 staging: vchiq_arm: avoid crashing the kernel
-517105d6d3f36a04bc3b137ef099fa486a8886ac staging: vchiq_core: break early in vchiq_close_service_internal
-fbb4f26d6b68107630b3ab3152de11ef295d33d4 staging: vchiq_core: return early in do_abort_bulks
-7ceb7dc2468171e206d758a4d32ca2e25fe273c6 staging: vchiq_core: introduce get_bulk_reason
-8bd103166c4c4b6106a4ab366865bdb5b535654f staging: vchiq_core: Drop unnecessary check in notify_bulks
-783c9c33d158955b33bd45336eb655704c4a18c4 staging: vchiq_arm: drop return value of vchiq_arm_init_state
-990409c1281191b2e616d68c874895b535fb1750 staging: vchiq_2835_arm: drop enum vchiq_status
-98cbc7ed0ac1d1d91e356bedbb033c1d0a621ec9 staging: vchiq_arm: drop enum vchiq_status from vchiq_*_internal
-353e8b780b93a31b9be9a6762803cf4ed797eb5f staging: vchiq_core: drop vchiq_status from vchiq_set_service_option
-e12262b7218797724b14387ed27a814c3751daa4 staging: vchiq_core: drop vchiq_status from vchiq_initialise
-daf6ba55a9fd44bc5ab8bbecce1b8668cf23c71d staging: vchiq_core: drop vchiq_status from vchiq_init_state
-f09a512ff05c5bbef753ec66c384e350b981a15a Staging: rtl8188eu: rtw_ioctl_set.c: fixed indentation issue
-82131f3be72e98063c033a7f3f6ecc13d417d56e staging: rtl8723bs: remove unused log function
-7d4157e3736e89283561d4a15d677321e6c28b2e staging: rtl8723bs: replace DBG_871X_SEL log macro with netdev_dbg()
-f8aec5e1fb97a341b4ca9eecaa371d77164c8dca staging: rtl8723bs: add two functions to improve register dump in core/rtw_debug.c
-5e052b608bedc17cb9836eac5389e2807a325a80 staging: rtl8723bs: remove DBG_871X_SEL macro declaration
-3f41934ea40f7b49536216c68fe9f60324858567 staging: rtl8723bs: remove unused _DBG_871X_LEVEL macro
-34b74ff5b2f557f81508caff53dbda9a78aa684d staging: rtl8723bs: remove unused mac_reg_dump() function argument
-27bcfdc8ea50494a5a37b0ba653011c29901862f staging: rtl8723bs: remove unused bb_reg_dump() function argument
-2e3993cf3dcfd4651faaa1db740e54b33ece80bc staging: rtl8723bs: remove unused rf_reg_dump() function argument
-cb4a242c89b90726a1321ee99f2263b18fca152d staging: rtl8723bs: remove unused RTW_DBGDUMP macro definition
-e2ac1f8c25b714440906e857c2eb1e990d4b5144 staging: rtl8723bs: remove all defs related to _dbgdump macro
-f921ac9b5418d2d9a821aadd329137c43a186c90 staging: rtl8723bs: remove unused debug variables declarations and initialization
-7bf2907f212c44899380a609dc2d012af218a301 staging: rtl8723bs: remove unneeded header file include
-d3b3eaf0bdec00f60c15a47248003afe6b499ee5 staging: rtl8723bs: remove unused debug macro definitions
-c23dddda253c42a8378a8e0b37962720455c282b staging: rtl8723bs: remove debug macros related to core/rtw_xmit.c tracing
-2cb80e458f25b4c0f85eaabf1096f4af1fa27c39 staging: rtl8723bs: remove debug macros related to os_dep/xmit_linux.c tracing
-85ee7cfe93e0d1772d0c848ba262457ffd0a2dce staging: rtl8723bs: remove debug macros related to core/rtw_recv.c tracing
-2c0b0d13e423f5b244fc0c9b62b79e2c5e1e0f67 staging: rtl8723bs: remove debug macros related to os_dep/recv_linux.c tracing
-501e1dd08e75fdf77964a902598a96a488c02ea1 staging: rtl8723bs: remove debug macros related to core/rtw_mlme.c tracing
-7f56e35286324492d3242c711ed5250f233c470d staging: rtl8723bs: remove debug macros related to os_dep/mlme_linux.c tracing
-bf11c09278b8d5c007055aa8ccbf53f8c386ae31 staging: rtl8723bs: move static array definition from header to .c file
-df16fce0c2a3b6b885a017d672c4c814ebbae075 staging: rtl8723bs: remove debug macros related to core/rtw_mlme_ext.c tracing
-ebbaa819a0b85a63f330bd60ee91fbe9d10cf5e2 staging: rtl8723bs: remove debug macros related to core/rtw_sta_mgt.c tracing
-708c1e6ab56f53948e529a42a52a4e1278680ae5 staging: rtl8723bs: remove debug macros related to core/rtw_cmd.c tracing
-8fc4326b103886c1b1fe016766bad21a6bd8669c staging: rtl8723bs: remove obsolete debug macro definitions
-0cf6d52159cbf66935e25a6dd28228b48758c112 staging: rtl8723bs: remove debug macros related to core/rtw_io.c tracing
-f661ef0ad38061b79a0537c1da08e338e79d026a staging: rtl8723bs: remove obsolete _IO_OSDEP_C_ debug macro definition
-053b4e4c3b4a1ffa89f51c1c496a43c7cf290fa7 staging: rtl8723bs: remove debug macros related to os_dep/os_intfs.c tracing
-399c6573f68a0e39de801e0e7aed68048994041b staging: rtl8723bs: remove debug macros related to core/rtw_security.c tracing
-3117711a2c951cbe326583fc9817630366993b22 staging: rtl8723bs: remove debug macros related to core/rtw_eeprom.c tracing
-9c8fe75d0114fce9729c041e84300d4f86e7d2bb staging: rtl8723bs: remove debug macros related to hal/hal_intf.c tracing
-798e69d5a53f62eed886a5b3bc297c07c5335627 staging: rtl8723bs: remove debug macros related to hal/sdio_halinit.c tracing
-542108502e99bd3afc173cf5136c8232eff95ef2 staging: rtl8723bs: remove unused debug macros tied to _RTL871X_IOCTL_C_ definition
-e5c5b6134d933f4918b2f24b176278c44db9720b staging: rtl8723bs: remove unused debug macros tied to _RTL871X_IOCTL_SET_C_ definition
-8fecb8a508154a8ba52a9b92309878084bb3ed8a staging: rtl8723bs: remove unused debug macros tied to _RTL871X_IOCTL_QUERY_C_ definition
-c8dff36ac9e89eece66cffeedeeb4d5afe6e3223 staging: rtl8723bs: remove unused debug macros tied to _RTL871X_PWRCTRL_C_ definition
-bd2ac8668e974fcc4b2be54484e6bac90cdead37 staging: rtl8723bs: remove unused macros tied to core/rtw_pwrctrl.c debug
-bf0b30a92e8c49d9e61ffecb14da44d85ba4d88f staging: rtl8723bs: remove unused macros tied to os_dep/sdio_intf.c debug
-7daa5cb36726096c3e91d54a70a820688d247c4c staging: rtl8723bs: remove unused debug macros tied to _HCI_OPS_C_ definition
-abeb1a4c9accf90c6ae7ea63d373253cd80005ae staging: rtl8723bs: remove unused debug macros tied to hal/sdio_ops.c debug
-6ebcdbf9189317e476cae0202d730e1195fb9c32 staging: rtl8723bs: remove unused debug macros tied to os_dep/osdep_service.c debug
-55d1ce5226ada7b482cbc4eb5f4b0a3d1d95567e staging: rtl8723bs: remove unused _module_mp_ def
-501b0f2cb092b0ecb5fbe684bfaf4eb72298a279 staging: rtl8723bs: remove unused macros tied to _HCI_OPS_OS_C_ definition
-0e334f11e0aedcee05b1786c5ab636e0ba6dcfef staging: rtl8723bs: remove unused macros tied to _RTL871X_IOCTL_LINUX_C definition
-cd071f52feef946858691bc9966b44524a4b74c1 staging: rtl8723bs: remove unused macros tied to _RTL8712_CMD_C_ definition
-b1fdfaca6828805e7f2e3e25b0c62a3a2a5b5303 staging: rtl8723bs: remove commented out macro definition
-b622f1a8abe60d77755510c21a12d476f8a265eb staging: rtl8723bs: remove unused debug macro definitions
-5d3de3bb05632486d81fa8498c581edd8085f6df staging: rtl8723bs: remove unused macros tied to core/rtw_efuse.c debug
-c2c9fbc67bc3a11923a0199d7d68160a4e506ca1 staging: rtl8723bs: remove unsed debug macros tied to no particular code debug
-ae7dd7e342110ea869a49933994ed70958065a46 staging: rtl8723bs: remove last unused debug macros
-8236628129093897542601500cf82f56cdd68c78 staging: rtl8723bs: macro DRIVER_PREFIX expands to lowercase driver name
 
---===============7331976688785554048==--
+--===============8871100234799577088==--
