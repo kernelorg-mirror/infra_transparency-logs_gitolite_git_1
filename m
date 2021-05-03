@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4558923064729777685=="
+Content-Type: multipart/mixed; boundary="===============2494991793304188836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 03 May 2021 16:14:39 -0000
-Message-Id: <162005847967.10413.9682255298770522859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 03 May 2021 16:14:44 -0000
+Message-Id: <162005848486.10492.7899808656878256089@gitolite.kernel.org>
 
---===============4558923064729777685==
+--===============2494991793304188836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9ccce092fc64d19504fa54de4fd659e279cc92e7
     log: revlist-d2b6f8a17919-9ccce092fc64.txt
 
---===============4558923064729777685==
+--===============2494991793304188836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://g
 27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 
---===============4558923064729777685==--
+--===============2494991793304188836==--
