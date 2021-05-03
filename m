@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5882649216977710248=="
+Content-Type: multipart/mixed; boundary="===============6604211315676651359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 03 May 2021 14:51:48 -0000
-Message-Id: <162005350828.26829.14634798840003415852@gitolite.kernel.org>
+Date: Mon, 03 May 2021 14:52:07 -0000
+Message-Id: <162005352715.26964.18140361040582860260@gitolite.kernel.org>
 
---===============5882649216977710248==
+--===============6604211315676651359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: aec00aa04b1131e17e6744681b380779f89d77b3
     new: 9ccce092fc64d19504fa54de4fd659e279cc92e7
     log: revlist-aec00aa04b11-9ccce092fc64.txt
 
---===============5882649216977710248==
+--===============6604211315676651359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://g
 27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 
---===============5882649216977710248==--
+--===============6604211315676651359==--
