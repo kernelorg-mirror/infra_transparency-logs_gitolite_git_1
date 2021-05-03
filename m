@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2783519183821806980=="
+Content-Type: multipart/mixed; boundary="===============5498164163339929367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 May 2021 05:04:33 -0000
-Message-Id: <162001827300.2168.929930024088617905@gitolite.kernel.org>
+Date: Mon, 03 May 2021 05:07:51 -0000
+Message-Id: <162001847125.4527.7063002040332252491@gitolite.kernel.org>
 
---===============2783519183821806980==
+--===============5498164163339929367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,97 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 17ae69aba89dbfa2139b7f8024b757ab3cc42f59
-    new: 9ccce092fc64d19504fa54de4fd659e279cc92e7
-    log: revlist-17ae69aba89d-9ccce092fc64.txt
+  - ref: refs/heads/umn.edu-reverts
+    old: d5fa419ab886433aea6bd2a470cf497e9b485cba
+    new: c44dc41a4fd64ac733ddf72f31cac887f572945b
+    log: revlist-d5fa419ab886-c44dc41a4fd6.txt
 
---===============2783519183821806980==
+--===============5498164163339929367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620018267 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620018465 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1620018266-f39bbfd2988430e9106eecf2cc8b504396d5e935
+nonce 1620018464-fc95e135b1a7aae0453b5a309263d382d1ddfe9a
 
-17ae69aba89dbfa2139b7f8024b757ab3cc42f59 9ccce092fc64d19504fa54de4fd659e279cc92e7 refs/heads/driver-core-testing
+d5fa419ab886433aea6bd2a470cf497e9b485cba c44dc41a4fd64ac733ddf72f31cac887f572945b refs/heads/umn.edu-reverts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCPhFsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GKcQAM5QQX0PoqIXDbKCBH9V
-zsWR9tselDxVhCWc/2zgjVKv+krQ+kaZgarKK2K4Mf/tHmzdZKZPKO1a5x41PAZ7
-FkY8slxhal8Hho9czv2qo3j3tvtDK3pRdWOY45G2WCW4xUD34Ds70nIdhQCIdQmP
-JDgDe+e9ArI7Eg0omnJpVKtR3+vqXCfjkJtKarIxTHQEb1jk0Cp6r3Ra0yvzBw83
-rkEpYsTKOk/rlLZvSuRja3WL0rI7hYH7eVzLpik0L4luKlogVPTgdZBy9kpwMY6f
-LSWTMMeWvBmHENFly00PbHiWlmwRtNeSY8NoJ2H+LBEn6fumqisOl7G6AMQByKFZ
-AaWQVMTchpXxRwCnU0w1LDqZ4418LhUJrhUb4qykXCr1NUvnuIjaIQfk2iVN7Fvx
-vq4VN3Z1Fe//bR9nr0XFJJIi88LYYcuw8kuV969V/hIG4rOJTaBQBUdBNUV/HZVQ
-p8ds5vBd3/bwEEtoZ0oHM/YdfcDcuRsVUbiBxlOSjaJ54VnccGVCetIPKJYkerPx
-BrmX8ASEQVfslUCjcK3h1MJeuYE9ubvApd4wSBF5hoUfKysNyme4J2oJKJsuMSfH
-6+v5WFMjvCh3Wmw6otRCDm0FssfO7TVaZl3DDsBOhyV5BOYFqhPH9Snu7RmektLk
-CrFyYrXRN2UzUgH6Wu4qZcAq
-=FU1u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCPhSEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rMEP+QEdVJEbvf6IA5+nqcmT
+iIjCdknYQx8AjNWL4BTzS35rcMTgKLYou3vZG2as7RUl9niCK6GlLQJ4w+JWHk0K
+vbzkvGCtJ5CFfBaxaItElAcsD0uKoETM8UAe0ZulAxAF2Fov6I4R8ntIHXnZ6QTo
+OpEAdoR3fCis8HPvthkrEdF80Vy3hynkTdnYN2QQ23wm7heFhuT+2ifAPRxn4diR
+AhxZVKmPuleVxC2jFlaPIbSs0V7ogsXVZeE6K4fw99SbGyNEXLMByTIDh2EgQorN
+6uwAqhe7LZfoRftM8qPnOih1ev+et2sdfrSiWmOZAHW0VRzu6RAkDrEuEAngB+1v
+QmzGcvK+FNsGV0MWItF0oI9r+7pjMzVvfbPk4oUvo/l5OiayDoLmzEIq8Tym4r59
+yENWsuSN3kAcYVrJUrEi6CpYre8ldcAe33lGVUrDT87gJCkmjQKZ/HzvpryhdKUH
+AhafAYPYbmfxNmcZ/3ufabXEAPfQkCbbXTwdMhzHX+K2ngLqpBswdvFVtP1AmF+F
+n5slRR6b9cgFFo21tJSpabtRVCyNsKEznNEtZcX4yXc7WWQUS/z8KjG+oMsIFCW+
+SXDzd2/uh7t8fgYHvzhisP63NBXN4SWGeVuyPnKRVe6fcTJSx3oOPL4FdZt74vuS
+VQDe73aNUx0UVWKamNi4DGfh
+=ukN0
 -----END PGP SIGNATURE-----
 
---===============2783519183821806980==
+--===============5498164163339929367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17ae69aba89d-9ccce092fc64.txt
+Content-Disposition: attachment; filename=revlist-d5fa419ab886-c44dc41a4fd6.txt
 
-4313e3523373f6b313d4218b51418f53475bcce5 ecryptfs: get rid of pointless dget/dput in ->symlink() and ->link()
-b2648d512eb2a8188cf3cf5ac75c129be2d33121 ecryptfs: saner API for lock_parent()
-483bc7e82ccfc11a785a719f4e971db16ffa29ff ecryptfs: get rid of unused accessors
-9d786beb6fe5cf8fcc1ce5336a89401eaa444fb6 ecryptfs: ecryptfs_dentry_info->crypt_stat is never used
-a2bbe66493ee380eb25e080e7fcdd1278a847f7e constify dentry argument of dentry_path()/dentry_path_raw()
-2be7828c9fefc8cd205d1948faac48da8ce6c2ef get rid of autofs_getpath()
-90432e600619cbd3f38ec817374a5db0caf1d600 buffer: a small optimization in grow_buffers
-64b2f34f38cb999597570e09e04aa6e4c3fed07e apparmor:match_mn() - constify devpath argument
-eecf77e097d27d26fe289d172b2e98433a8989f4 autofs: should_expire() argument is guaranteed to be positive
-a0d8d552783b3fec78c775a57fa7e2b87e16e6ca whack-a-mole: kill strlen_user() (again)
-d692d397e8a69f4ecdd7fb35ff0140d69bf17e18 hostfs_open(): don't open-code file_dentry()
-80e5d1ff5d5f1ed5167a69b7c2fe86071b615f6b useful constants: struct qstr for ".."
-0c4b7cadd1ade1916a3a6dab0d13ff5665b04cae Orangef: implement orangefs_readahead.
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
+9ce3d9aa0f3cff31b1145aaa4e15975423793ace Revert "net: liquidio: fix a NULL pointer dereference"
+aeb49cf6ec6eb826c7f3d9c7de322a45f0c33d3c !!!! Canary - fixes
+0981feb5de467566fe26fde315934ed2b2a4d8e3 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
+b575b31704a091cd63042373fc8d494e8464a4a7 Revert "ACPI: custom_method: fix memory leaks"
+f3283e7f6eadd77a62edac4c0fc8a7f0397de5ca Revert "media: rcar_drif: fix a memory disclosure"
+6db429569c4a8939cd1fa0273e5aede59db065b5 Revert "rtlwifi: fix a potential NULL pointer dereference"
+4de50d17b9fa9c711e880fcb71ca904b1a02e80d net: rtlwifi: properly check for alloc_workqueue() failure
+a9940279ea3b6ce04121c4546c5d0dcda27a6094 Revert "net: fujitsu: fix a potential NULL pointer dereference"
+a92ad03144e0c1c6976fbae394b6ae9ef4c1872b net: fujitsu: fix potential null-ptr-deref
+7d19fcf10c89483c58499b0abbd308c3c0613cfc Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+4c7b4fb6e4d3b9e337a344757b6b49f5915ab826 leds: lp5523: check return value of lp5xx_read and jump to cleanup code
+fc8b016a518b287e9729ee685478ea9b59cf0769 Revert "serial: max310x: pass return value of spi_register_driver"
+07ff30dce60f4090319e120f7e8a8c6c4eff8d41 serial: max310x: unregister uart driver in case of failure and abort
+c70f9866b83f4b87e2e2d07d1bcae5531faa869e Revert "net/smc: fix a NULL pointer dereference"
+34008c4b523ea0ec3c639835008169ebeb416c67 net/smc: properly handle workqueue allocation failure
+f7e1b9b41bc0b439c88bfe12744be7a9062e31a3 Revert "char: hpet: fix a missing check of ioremap"
+f48b9d28a14ddc9019b16cdab66fa360d11453ef char: hpet: add checks after calling ioremap
+63a30b94b780880c5fd079e5bf82e7168f2f0059 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+c9dfa92199242ad2155c1fc96fe085232c90e62f scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+88d376069620f9ed14046d4b4c017fe119f37a8b Revert "net: caif: replace BUG_ON with recovery code"
+847dc35a1180a7e13577ef5b05865781c08baea6 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
+44ab2df2165691a0eed683cc54279eae759748b7 Revert "net: stmicro: fix a missing check of clk_prepare"
+e1cdb43e4baf675176f6382e4c6f8a872d704b75 net: stmicro: handle clk_prepare() failure during init
+2506d6dd25acf2263bfb8231c5901d2e9f7ebabe Revert "gdrom: fix a memory leak bug"
+d1660f44c5785b322b9a82f4f0c80fc70909d0b4 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+f760924e461b9b50e2ef463160179e18d6f9a9e3 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
+dd155201bdbadc12cff30001bf3fe0cbdbf139d4 ALSA: gus: properly handle snd_ctl_add() error
+96feb2ac00e50c771cffbd98353230d6995baf4c Revert "video: hgafb: fix potential NULL pointer dereference"
+42d4b866cf2f32b3cc0ebb989d61f5d3e7c7a57a video: hgafb: fix potential NULL pointer dereference
+098249589694662c2b114e186c1198a690acde66 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
+d503b448947799aebe46fd4f1ba947ec237b0096 isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
+6904891cb783f04fb23695b48b498c6a0831d8e8 Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
+474bbe304f6308173f348566dbd8062a5c9b2c35 ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()
+7de34507acdc80f0b474337fef919c10c1454669 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+2cae6fd4522ab4928eef0db32ed46d1baa20b297 rapidio: handle create_workqueue() failure
+645321ad011c9b2e5dab847f1c881438e39f0dd6 Revert "niu: fix missing checks of niu_pci_eeprom_read"
+90579d7e3d9378b51853ba135db6d4f3525fcae4 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+518eaeb55c479dcd8a8ba9696cf54a28694ae84b Revert "isdn: mISDN: Fix potential NULL pointer dereference of kzalloc"
+e1993f09f131df8646a3cbe39be1baca14372dbd isdn: mISDN: correctly handle ph_info allocation failure in hfcsusb_ph_info
+d3133213ba1375bc3a9226e3a246ffa06a3f3b6b Revert "ecryptfs: replace BUG_ON with error handling code"
+ae0040c9bfd6d8999d4b4dd38135a5ee47420cda fs: ecryptfs: remove BUG_ON from crypt_scatterlist
+1e3f8dde23aa6d23c144ce738d66e7ebadcdd40c Revert "dmaengine: qcom_hidma: Check for driver register failure"
+e893d759664f277cc38b3f8d370fed2efc490773 dmaengine: qcom_hidma: comment platform_driver_register call
+b15df86730ac918344f48ee31780e90aeea10370 Revert "qlcnic: Avoid potential NULL pointer dereference"
+65260b5c95c27d01928d41bb174baca11e33420a qlcnic: Add null check after calling netdev_alloc_skb
+8410315fc4938fe94e20b91953070ab9e91151fc Revert "libertas: add checks for the return value of sysfs_create_group"
+c5c7c5883ae8367d40db9b257b08856ccca578cd libertas: register sysfs groups properly
+a75ca19e88608fc082b07e18010620a58c9b7a76 Revert "ALSA: sb8: add a check for request_region"
+873289b1fb8f020220e288f0ce8432a2daf730a1 ALSA: sb8: Add a comment note regarding an unused pointer
+14c917cc5abf86cfb9b14d7b03832c3d5ab66458 Revert "ASoC: rt5645: fix a NULL pointer dereference"
+c44dc41a4fd64ac733ddf72f31cac887f572945b ASoC: rt5645: add error checking to rt5645_probe function
 
---===============2783519183821806980==--
+--===============5498164163339929367==--
