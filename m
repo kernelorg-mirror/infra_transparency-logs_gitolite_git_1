@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 03 May 2021 20:35:56 -0000
-Message-Id: <162007415665.29882.16426930017945703296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 03 May 2021 20:38:17 -0000
+Message-Id: <162007429746.30631.3534311847458528701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: c49bcf08b1da0189dd6e3d144d8b46f140eca100
-    new: 05f46293799455351f069d9da71a4a139df496ba
+  - ref: refs/heads/master
+    old: 2e9f60932a2c19e8a11b4a69d419f107024b05a0
+    new: d362fd0be456dba2d3d58a90b7a193962776562b
     log: |
-         b5ae14907efe3b2eaa89aa870a64dd1bff20dcb3 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-         54dde439465c29aca2196eaba61bedaf8f39e6e2 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
-         245389b54a275f6f93d95764f8d9faa1cc2ca875 net/mlx5: Fix devlink reload LOCKDEP warning
-         82b42468e3fa445705890ae381c96dff588fa539 net/mlx5: Don't allow health work when device is probing
-         8b86b30e681ce8c5b5f54ad3f3a85a92e61c67b8 Revert "net/mlx5: Fix fatal error handling during device load"
-         05f46293799455351f069d9da71a4a139df496ba netfilter: flowtable: Make sure dst_cache is valid before using it
+         01bfe5e8e428b475982a98a46cca5755726f3f7f Revert "net/sctp: fix race condition in sctp_destroy_sock"
+         34e5b01186858b36c4d7c87e1a025071e8e2401f sctp: delay auto_asconf init until binding the first addr
+         d89ecd154c23dbee3461efaceaa60263cc9e8fee Merge branch 'sctp-race-fix'
+         d362fd0be456dba2d3d58a90b7a193962776562b Revert "drivers/net/wan/hdlc_fr: Fix a double free in pvc_xmit"
          
