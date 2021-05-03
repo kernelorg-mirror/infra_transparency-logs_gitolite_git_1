@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 03 May 2021 13:10:07 -0000
-Message-Id: <162004740792.22900.12594661001760255053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 03 May 2021 13:10:15 -0000
+Message-Id: <162004741591.23038.9542426673634869674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: adf27404e8a02cbcca9610bc51e41986c880b5aa
-    new: 127f1c09c5c84800761cf650b4c4f0a312f569ef
+  - ref: refs/heads/main
+    old: ffc64a24277e981f3573382a5cd04a78ec8e075c
+    new: 2a96c085c74426e1950e387f7ed49fdac287bc8a
     log: |
-         127f1c09c5c84800761cf650b4c4f0a312f569ef parisc: Fix typo in setup.c
+         2a96c085c74426e1950e387f7ed49fdac287bc8a brcm: Add a link to enable khadas VIM2's WiFi
          
