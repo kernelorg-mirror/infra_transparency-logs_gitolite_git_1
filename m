@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 04 May 2021 15:01:42 -0000
-Message-Id: <162014050281.31740.3348738080491294794@gitolite.kernel.org>
+Date: Tue, 04 May 2021 15:01:50 -0000
+Message-Id: <162014051031.31868.5461140232349712125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/tags/hwlock-v5.13
+  - ref: refs/tags/rpmsg-v5.13
     old: 0000000000000000000000000000000000000000
-    new: f62fa835ee067deb984e5ecacb052e1b6e20f038
+    new: 33e1eecc9be509e9df13220b6411b532ec13a43b
