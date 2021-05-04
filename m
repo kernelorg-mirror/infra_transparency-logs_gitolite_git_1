@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 04 May 2021 20:02:13 -0000
-Message-Id: <162015853333.20436.11777770611589649529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
+Date: Tue, 04 May 2021 20:04:57 -0000
+Message-Id: <162015869752.21342.11713986696690441050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/rw/ubifs
+user: rw
 changes:
-  - ref: refs/tags/thermal-v5.13-rc1
-    old: 236457db3f29caf76094f1d78c667040e152a654
-    new: 7244fdbb4bac4715ac4c66eef0507287c4ab0942
+  - ref: refs/tags/for-linus-5.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e22441e2da317ad19c501d0db69298c3505281a2
