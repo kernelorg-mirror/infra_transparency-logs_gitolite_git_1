@@ -1,76 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============3722311629158989267=="
+Content-Type: multipart/mixed; boundary="===============2789618640697023250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 04 May 2021 05:29:41 -0000
-Message-Id: <162010618168.1473.5749694361164671269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 04 May 2021 06:04:14 -0000
+Message-Id: <162010825435.22212.1328674611869166739@gitolite.kernel.org>
 
---===============3722311629158989267==
+--===============2789618640697023250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/next
-    old: 12c5fe86776ace3f76929c65d75fe49dcd21b5bd
-    new: fb677877f7e1b36626e3144273e98a01a08a8d94
-    log: revlist-12c5fe86776a-fb677877f7e1.txt
-  - ref: refs/heads/seen
-    old: 58b5a8e1e49e80e0baad3d961798c2057868711d
-    new: 6824532aa697b5dbe0c3b4f611e1d661273ec20c
-    log: |
-         6d84a52fe2cc52614256a1a93640eea8ae0d1e79 Merge branch 'ps/config-env-option-with-separate-value' into jch
-         b06d293d3f56a2899d4a7b8cb531ebac20773473 Merge branch 'ab/pretty-date-format-tests' into jch
-         ead5c6f240408ace83c1f4e1d19da8056221712a Merge branch 'hn/trace-reflog-expiry' into jch
-         d4406958701e3df27f47627aa1fd0870fac31028 Merge branch 'po/diff-patch-doc' into jch
-         1d4fad2ce8097c841feccb820a8929b0b32956b3 Merge branch 'jk/prune-with-bitmap-fix' into jch
-         6b0cba1944e44bbcc271e3f0c91db7bac721fd85 Merge branch 'jz/apply-3way-first-message-fix' into jch
-         a092d0bf8ab0f637a6169006091a944067cc9e0c Merge branch 'ad/cygwin-no-backslashes-in-paths' into jch
-         f5e8321c7b8d81c354f6b2f221cd72ae0fd4d876 Merge branch 'zh/format-ref-array-optim' into jch
-         6824532aa697b5dbe0c3b4f611e1d661273ec20c Merge branch 'zh/pretty-date-human' into jch
-         
+  - ref: refs/heads/master
+    old: 9ccce092fc64d19504fa54de4fd659e279cc92e7
+    new: 5e321ded302da4d8c5d5dd953423d9b748ab3775
+    log: revlist-9ccce092fc64-5e321ded302d.txt
 
---===============3722311629158989267==
+--===============2789618640697023250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12c5fe86776a-fb677877f7e1.txt
+Content-Disposition: attachment; filename=revlist-9ccce092fc64-5e321ded302d.txt
 
-4cd66e7d6b423d3c5b161b55afb07cb1df59e75f bisect--helper: use BISECT_TERMS in 'bisect skip' command
-62af4bdd423f5f3988dad97abcdd7adfba0756c4 submodule update: silence underlying fetch with "--quiet"
-80cde95eecbc3e0812a92eaa7bcd534dd256ceab merge(s): apply consistent punctuation to "up to date" messages
-ad9322da033fac2678cab90988321549e0f1c86f merge: fix swapped "up to date" message components
-a84fd3bcc6253f847af3366ebb9de9b8f441a624 CodingGuidelines: explicitly allow "local" for test scripts
-54898998120ba5b317678427e5e5612a4b58792a t5300: modernize basic tests
-95356789ee5e65abbdf3f354b8be4c79b196e8a1 t5300: check that we produced expected number of deltas
-953aa54e1a6a7571d48eddea3ee68745bf94e69d pack-objects: clamp negative window size to 0
-49ac1d33bbd9d4be4ad8cb9730a07c086f688a5b t5316: check behavior of pack-objects --depth=0
-6d52b6a5dfe0bee20dbfb2a3a7291bcf9a152672 pack-objects: clamp negative depth to 0
-8e0601f568ebf512f2edc606bdbf1a508b3c28a6 docs/format-patch: mention handling of merges
-963d02a24a1e6cec02cadf0d682af0bf222647ab t7415: remove out-dated comment about translation
-9e1947cb482c8fc7e1d0c8334f126ced5062b895 fsck_tree(): fix shadowed variable
-0282f6799f2ca9c2d3f000976856282b7c69d238 fsck_tree(): wrap some long lines
-43a2220f19eca9667dfac59a5e8a4deda2c3eb3d t7415: rename to expand scope
-a1ca398ba7da82622a9485400f88e62f3b756d1b t7450: test verify_path() handling of gitmodules
-1cb12f3339086db5626a8003e3bd3398b968242a t7450: test .gitmodules symlink matching against obscured names
-801ed010bf13465bf67608beabbaa1ec2550204f t0060: test ntfs/hfs-obscured dotfiles
-bb6832d5529a75164acca7c0412657c96a9a5764 fsck: warn about symlinked dotfiles we'll open with O_NOFOLLOW
-8ff06de10c12ef1f796fcefb96166133965d510e docs: document symlink restrictions for dot-files
-57dcb6575b577a70f02814df4291e8af6ed81f86 docs: correct descript of trailer.<token>.command
-c364b7ef51ec3af871754e7afdfd73e4bed6da56 trailer: add new .cmd config option
-f2acf763e29a3696fef268a9e8dc421e807df7f2 work around zsh comment in __git_complete_worktree_paths
-f7c11bba06bf15d4eb5771d1286ac6589b2df421 Merge branch 'rj/bisect-skip-honor-terms' into next
-b2e696ecd737f14ad5f04f3ac7b9ceff4246309f Merge branch 'js/merge-already-up-to-date-message-reword' into next
-09bed89b60d3487f6680bec7c08fab16947f6eef Merge branch 'nc/submodule-update-quiet' into next
-768071c55445e087f32af8e794a2ca1aa5f61e47 Merge branch 'jc/test-allows-local' into next
-cac68f7193b733b3bed0f394d477d343a58bb8b0 Merge branch 'jk/doc-format-patch-skips-merges' into next
-4a61f68cf08b69705cfcca18a5c4ab580c02db6d Merge branch 'jk/pack-objects-negative-options-fix' into next
-deca6ca6628ac0f1f4508f7cfd329bce20aa9720 Merge branch 'jk/symlinked-dotgitx-cleanup' into next
-a15c1ea590029acb042162befbaa25f4bfc578ed Merge branch 'si/zsh-complete-comment-fix' into next
-fb677877f7e1b36626e3144273e98a01a08a8d94 Merge branch 'zh/trailer-cmd' into next
+e41d237818598c0b17458b4d0416b091a7959e55 qib_fs: switch to simple_recursive_removal()
+34731ed13e8a8ca95fa0dca466537396b5f2d1af leds: lgm: fix gpiolib dependency
+55cc33fab5ac9f7e2a97aa7c564e8b35355886d5 rtc: m48t59: use platform_get_irq_optional
+936d3685e62436a378f02b8b74759b054d4aeca1 rtc: tps65910: include linux/property.h
+6e00b6d0083ea5f529b057e87c0236747871b6a8 rtc: rv3028: correct weekday register usage
+198da7be18c47637d69cdab1f65581b04ebd759d rtc: imxdi: Convert to a DT-only driver
+9346ff0bc6ff3c3a495d50a43b57df8fed7bc562 rtc: mxc: Remove unneeded of_match_ptr()
+e20044f7e9ae2b5395ca3ae9bd0907fdf43357a7 ring-buffer: Separate out internal use of ring_buffer_event_time_stamp()
+8672e4948d0c44272cc05f8ff563dbf6b6c1289f ring-buffer: Add a event_stamp to cpu_buffer for each level of nesting
+b47e330231acbf4506b049643145cc64268a1940 tracing: Pass buffer of event to trigger operations
+efe6196a6bc5bbc84b856316c4687fd24566a95c ring-buffer: Allow ring_buffer_event_time_stamp() to return time stamp of all events
+b94bc80df64823e676b506f8de7dcf6a688d681e tracing: Use a no_filter_buffering_ref to stop using the filter buffer
+a948c69d6fb1ba749a958a8a87d4eecdda28989d ring-buffer: Add verifier for using ring_buffer_event_time_stamp()
+d8279bfc5e9598682f657606d3830ab65932cfe4 tracing: Add tracing_event_time_stamp() API
+2b7d2fe76f9c844af6f150d0f7a76c62dcfe7679 bootconfig: Update prototype of setup_boot_config()
+421d9d1bea6545543c00ffba4c83f369510de9a1 tools/latency-collector: Remove unneeded semicolon
+e0196ae732343adfe8d854d88b3c0aae9595152f ftrace: Fix spelling mistake "disabed" -> "disabled"
+5013f454a352cce8e62162976026a9c472595e42 tracing: Add check of trace event print fmts for dereferencing pointers
+f2616c772c768485de18e7fcb2816bcdcd098339 seq_buf: Add seq_buf_terminate() API
+9a6944fee68e25084130386c608c5ac8db487581 tracing: Add a verifier to check string pointers for trace events
+2cf3af7aa6df0e173f2bff57b73427bb05b30ba0 scripts/recordmcount.pl: Make indent spacing consistent
+b700fc3a63f16d6e130433fdcbe3f5f223c7662c scripts/recordmcount.pl: Make vim and emacs indent the same
+f2cc020d7876de7583feb52ec939a32419cf9468 tracing: Fix various typos in comments
+8d69f62fddf6c1a8c7745120c4d6aab9322b001a rtc: rx6110: add ACPI bindings to I2C
+4613bdcc122e9e60e0763c5851337470d25d7e40 kernel: trace: Mundane typo fixes in the file trace_events_filter.c
+a7ed7150f351177e46409cca15874101f95370cb leds: lgm: Improve Kconfig help
+30c3d39f7f78f3b232f6a6f6357a545cbe23cc16 tracing: A minor cleanup for create_system_filter()
+70193038a6ec9bbf10990a126432b0cbf56aa339 tracing: Update create_system_filter() kernel-doc comment
+34a6ae672645a89f760960a11ce80125cc4d361f leds: Kconfig: LEDS_CLASS is usually selected.
+c889136004eb3dc9c7e29f599d068273e5950669 leds: rt4505: Add DT binding document for Richtek RT4505
+d9dfac5419d08e5f0048b53effd5b64de5801882 leds: rt4505: Add support for Richtek RT4505 flash LED controller
+22d5755a852dca9895c263c24dae836dd14ae947 Merge branch 'trace/ftrace/urgent' into HEAD
+1decdb335c366fc0a1bae0db55c138c613cc9a1f tracing: Remove duplicate struct declaration in trace_events.h
+f3ef7202ef7c705d640d1aeec3b286a641ac9186 tracing: Remove unused argument from "ring_buffer_time_stamp()
+db42523b4f3e83ff86b53cdda219a9767c8b047f ftrace: Store the order of pages allocated in ftrace_page
+ceaaa12904df07d07ea8975abbf04c4d60e46956 ftrace: Simplify the calculation of page number for ftrace_page->records some more
+eaa7a897206ac5bfa7da3f647686209ada1984d0 tracing: Define static void trace_print_time()
+f689e4f280b69cd7341743c2ecacd1b13528a0d8 tracing: Define new ftrace event "func_repeats"
+20344c54d1c7ab7428e312bbe9b0097750875002 tracing: Add "last_func_repeats" to struct trace_array
+c658797f1a70561205a224be0c8be64977ed64e8 tracing: Add method for recording "func_repeats" events
+4994891ebbb89b18903637dc1c8f27b42cb8b8b2 tracing: Unify the logic for function tracing options
+22db095d57b51ff71aaa8ddba515180399f54334 tracing: Add "func_no_repeats" option for function tracing
+e1db6338d6fa0d409e45cf20ab5aeaca704f68e7 ftrace: Reuse the output of the function tracer for func_repeats
+42eb0d54c08a0331d6d295420f602237968d792b fs: split receive_fd_replace from __receive_fd
+3fd00fdc4f11c656a63e6a6280c0bcb63cf109a2 rtc: goldfish: remove dependency to OF
+03531606ef4cda25b629f500d1ffb6173b805c05 rtc: pcf85063: fallback to parent of_node
+f1d304766c7f5388239d273fc0b72efa62acd9ca rtc: ab-eoz9: set regmap max_register
+e70e52e1bf1d6d0ea60e2f8294d5e76a8d8f5370 rtc: ab-eoz9: add alarm support
+c52409eb16672907804b7acf1658bb1fd9dcb426 rtc: ab-eoz9: make use of RTC_FEATURE_ALARM
+c8f0ca8b7a4b91f637ccd9a55f37dbac73d6f6bf rtc: pm8xxx: Add RTC support for PMIC PMK8350
+8138c5f0318c69a878582d2140dac08e6a99880d dt-bindings: rtc: qcom-pm8xxx-rtc: Add qcom pm8xxx rtc bindings
+880f25d690150937e42a2e8b86c111aae8da6d08 rtc: rtc-spear: replace spin_lock_irqsave by spin_lock in hard IRQ
+7fcb86185978661c9188397d474f90364745b8d9 rtc: fsl-ftm-alarm: add MODULE_TABLE()
+9b9310445f5a6741399ebe2ba08137fecd7f73f9 rtc: ds1511: remove unused function
+4f192ac00a1ba11e5137b7d901cc9384fadf2bf9 csky: Remove duplicate include in arch/csky/kernel/entry.S
+0b1f557a1fa02174a982f557581e348d91987ec6 csky: Fixup typos
+fcc96cef8a185e55c25d25f4f698f51e1a030911 leds-lm3642: convert comma to semicolon
+5222fa9121142ddd86dcb1a9205fd02e9d5d1e04 MAINTAINERS: Remove Dan Murphy's bouncing email
+ec50536b7840dde085185d9570fa19d0baf5042c leds: lgm: Fix spelling mistake "prepate" -> "prepare"
+1cfa807b06afd54488512bacef7cb5023437f178 leds: LEDS_BLINK_LGM should depend on X86
+5fe09e16c689eae88a151c2f8199c73cf6f18d7d leds: trigger: pattern: Switch to using the new API kobj_to_dev()
+23a700455a1bc55f3ea20675e574181b8c129306 leds: pca9532: Assign gpio base dynamically
+df86ddbb9189d4fe6fe2c143d244e1121b57eb50 parisc: syscalls: switch to generic syscalltbl.sh
+adf27404e8a02cbcca9610bc51e41986c880b5aa parisc: syscalls: switch to generic syscallhdr.sh
+0679d29d3e2351a1c3049c26a63ce1959cad5447 csky: fix syscache.c fallthrough warning
+e58a41c2226847fb1446f3942dc1b55af8acfe02 csky: uaccess.h: Coding convention with asm generic
+785e3c0a3a870e72dc530856136ab4c8dd207128 tracing: Map all PIDs to command lines
+7942121b8ca073932529e7122a573ec2d1ed0d93 rtc: imx-sc: remove .read_alarm
+64e9d8e4dbc4e9173589ed8d61ea423466172396 rtc: ds1307: replace HAS_ALARM by RTC_FEATURE_ALARM
+4bf84b449a0ea3885397bb5540a8fc68a78edb9d rtc: ds1307: remove flags
+c55c3a516ceff3a041d5e3253d4d9a1b75fbb1d8 rtc: rtc_update_irq_enable: rework UIE emulation
+94959a3a04a574b6234df8ff165bf70135b0bb2b rtc: pcf8523: remove useless define
+13e37b7fb75dfaeb4f5a72468f0bd32853628d28 rtc: pcf8523: add alarm support
+a1cfe7cc3873baf83a26356cb5e10409c6fb942c rtc: pcf8523: report oscillator failures
+204756f016726a380bafe619438ed979088bd04a rtc: ds1307: Fix wday settings for rx8130
+fefbec3a741831bc7791a94a483ad55665160b50 rtc: s5m: Remove reference to parent's device pdata
+e463786f380ab28f1ca6e34ea65bbc2e03b2d325 rtc: omap: use rtc_write to access OMAP_RTC_OSC_REG
+4d0185e67806a233c423c1668e87e137fbda192c rtc: sysfs: check features instead of ops
+aafe104aa9096827a429bc1358f8260ee565b7cc tracing: Restructure trace_clock_global() to never block
+127f1c09c5c84800761cf650b4c4f0a312f569ef parisc: Fix typo in setup.c
+23806a3e960048f8191ce0d02ff8d5f70e87ad4b Merge branch 'work.file' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+6f8ee8d36d076b517028b60911877e27bc1d8363 Merge branch 'work.recursive_removal' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+9b1f61d5d73d550a20dd79b9a17b6bb05a8f9307 Merge tag 'trace-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+a7efd197bc7ff03076faf09d6325d7c3427893e3 Merge tag 'rtc-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+d835ff6c96ae6fa1ea474b0290a46e514ab6742b Merge tag 'leds-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
+cda689f8708b6bef0b921c3a17fcdecbe959a079 Merge tag 'csky-for-linus-5.13-rc1' of git://github.com/c-sky/csky-linux
+5e321ded302da4d8c5d5dd953423d9b748ab3775 Merge tag 'for-5.13/parisc' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============3722311629158989267==--
+--===============2789618640697023250==--
