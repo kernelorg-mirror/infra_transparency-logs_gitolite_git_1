@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4858246003529710197=="
+Content-Type: multipart/mixed; boundary="===============8657147562949904348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 04 May 2021 09:21:48 -0000
-Message-Id: <162012010865.17485.6644264372640739508@gitolite.kernel.org>
+Date: Tue, 04 May 2021 09:22:04 -0000
+Message-Id: <162012012489.17649.1950043361482566773@gitolite.kernel.org>
 
---===============4858246003529710197==
+--===============8657147562949904348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 617085fca6375e2c1667d1fbfc6adc4034c85f04
-    new: 6dcef944fed12686ef321017517ba1331873ce3d
-    log: revlist-617085fca637-6dcef944fed1.txt
+  - ref: refs/heads/master
+    old: ccb39c6285581992f0225c45e4de704028a8ec17
+    new: 1682d8df20aa505f6ab12c76e934b26ede39c529
+    log: revlist-ccb39c628558-1682d8df20aa.txt
 
---===============4858246003529710197==
+--===============8657147562949904348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1620120104 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1620120121 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1620120104-74c7b4952cbc1b775eb7999dbee7d149974f8531
+nonce 1620120120-5a9d2278c60b05976aa0d6c89f8a2d3c41247edd
 
-617085fca6375e2c1667d1fbfc6adc4034c85f04 6dcef944fed12686ef321017517ba1331873ce3d refs/heads/testing
+ccb39c6285581992f0225c45e4de704028a8ec17 1682d8df20aa505f6ab12c76e934b26ede39c529 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmCREigTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqapMB/wNNKagBZnmk84vfB1GjDGi0iL23w96
-fp/xB1AtAU69L/mr4mIlFrnHCUHXsWvJO6cQpuEfM7y0/PJy54YWfvMGrTviV0f7
-BGje3m+JlN6wqWOwFzSnpxCxsMrBONy8OwnRu9bCQ937tTmXbzx+pbAnrOS1pNcA
-e3PgySPmfj4YwhWXHGKXHCwbZ09QgSrbHeMjHhgfyJpk9JDwYrC/bxLhJAcAiMVA
-oozF/55iJrCWE7spQoa6ol9TBu2EhdgHFCISq+O1g2TdXnXb3rlFoJBBL7ujuneV
-NLFlIYKtyOhTT+EHJ0VzcsJQjhjOvlFh7r+/JOYkb7Rcw4/w87HWlVfG
-=A+lY
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmCREjkTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqUXsB/0bDMX6zU02IMwFh25iBf2Y7rdbfcVf
+eyVj2i1i8qnxR+MpJStO8C75U1ILEseW8A1ZHuTM57rOh1gEAxpYSJ98PFBXN/p3
+p0S0+NVTxHE1IZQx5+FNRiey9KoiMSYX6Lcdswrg8OeeqA9UZs0nvdqvLppWXj4g
+vI2xxkox209puWleyaKsK7lV7YrgMtHz0kItVMbICXYGwqpMUtLOezzypIayyvsb
+m9b50b8MgT53hFExcpIAEkUso+rWxTUpc5M5ZfOBR0EOlRSVaYC+TKRbQaW8DGz2
+hAvDfuczdlk/oo0jO20MVSPYZFuMfkBKOEzIrdeuc4pSq7jVkNuqkDTS
+=M0jb
 -----END PGP SIGNATURE-----
 
---===============4858246003529710197==
+--===============8657147562949904348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-617085fca637-6dcef944fed1.txt
+Content-Disposition: attachment; filename=revlist-ccb39c628558-1682d8df20aa.txt
 
+fa6b885e876ed4d29d1513fcf2d8bdc5c4b3b527 floppy: cleanups: use memcpy() to copy reply_buffer
+a720e11f0a9a016266c8757f06e72622bea86a54 floppy: cleanups: remove FLOPPY_SILENT_DCL_CLEAR undef
 b53002e03559e97fdfb18d1c2b36c218d7bb742f floppy: remove redundant assignment to variable st
 ceeb7218c6b3b0d7c514f86aadd7d3fb94343d2d MAINTAINERS: Change maintainer for rnbd module
 e5f221c701dc81705f50999bc052f71a27efef31 Documentation/sysfs-block-rnbd: Add descriptions for remap_device and resize
@@ -1073,7 +1075,5 @@ d362fd0be456dba2d3d58a90b7a193962776562b Revert "drivers/net/wan/hdlc_fr: Fix a 
 bd1af6b5fffd36c12997bd48d61d39dc5796fa7b Documentation: ABI: sysfs-class-net-qmi: document pass-through file
 ac31565c21937eee9117e43c9cd34f557f6f1cb8 xsk: Fix for xp_aligned_validate_desc() when len == chunk_size
 1682d8df20aa505f6ab12c76e934b26ede39c529 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-5d1b9cdbd00d0dd71eea557731177ca77be98b18 can: mcp251xfd: mcp251xfd_probe(): fix an error pointer dereference in probe
-6dcef944fed12686ef321017517ba1331873ce3d can: mcp251xfd: mcp251xfd_probe(): add missing can_rx_offload_del() in error path
 
---===============4858246003529710197==--
+--===============8657147562949904348==--
