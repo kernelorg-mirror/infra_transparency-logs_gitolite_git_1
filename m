@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4130547150265698002=="
+Content-Type: multipart/mixed; boundary="===============2687088106339612436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 04 May 2021 17:58:15 -0000
-Message-Id: <162015109595.9025.1313615609551072587@gitolite.kernel.org>
+Date: Tue, 04 May 2021 17:58:16 -0000
+Message-Id: <162015109608.9040.17581111062425529123@gitolite.kernel.org>
 
---===============4130547150265698002==
+--===============2687088106339612436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 370636ffbb8695e6af549011ad91a048c8cab267
-    new: 8e2c811687feb7e28c4c3abbf2ed26832ff43b26
-    log: revlist-370636ffbb86-8e2c811687fe.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 7d7d1c0ab3eb7c8d8f63a126535018007823b207
+    new: 67580243c4baf260f7d3aa670f10f6c9a65823eb
+    log: revlist-7d7d1c0ab3eb-67580243c4ba.txt
 
---===============4130547150265698002==
+--===============2687088106339612436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,41 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620151094 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1620151091-b04f3f5934b51ac70fe4197fa4a502f53651423d
 
-370636ffbb8695e6af549011ad91a048c8cab267 8e2c811687feb7e28c4c3abbf2ed26832ff43b26 refs/heads/linux-5.4.y
+7d7d1c0ab3eb7c8d8f63a126535018007823b207 67580243c4baf260f7d3aa670f10f6c9a65823eb refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCRizYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8ZIQALq06f9lrjMdeOBKFBpu
-dxeLou3dlbsNc3I9mU57aV06Rhs64g/su8qUKy+RWWBV2hPSlSq2XSEES2+2XBGY
-lKfDkIBkzENserYkHiYQwlCc+6dUQ2OpJZOoUaomt8CddbxonRS9XoL8ibOT9W5F
-5rLGBJ6gAdeJWiyMePaIqiqlVNdsbWkYcpAoUHHKPE5gx4pgjDQnWgq8HUGtX0nQ
-nbJEGB4gTw6hwkyO0foZt4GECFEPLxoPwVmCEQjIp+bH+ZXmrQUW7GnSaFmsW97m
-CdKUNEtrs5fFoTbynihIn36thmRZidGrfgSjuy0TyR3gMisjV7VBxEpiNMVpEop4
-Sefhf0NxkklEgODebbWqWVmaXai7Ok7GCuokkX6l/aX+Ky5u2WeoJAZEiHxtI6/6
-coWgrN/INL+9dq8cvEWrUqTJyysGpzlsotjBU53HdMrjb2A3LzcRwh4FrFS8pZS9
-wDQ8o5I6sMADS0eIorCjrCdhNyb9IXfa/S02p51GqoGRXMe/GzX+L06qOZDBAYUd
-dmwfHzAiJtmP1d8SUNy8v/w6Q4qSIPhgsBDxGZ0wzjV+I58aN45QX85h6OinQq8x
-JkUV+Gx+lhNzGatEIaDOrZQQlfaW5sRj0r6kALnl2Fxs+qOVKdiDT+KBEsWHSAUJ
-BGBXra4Gzq3SRJuCKLS8jdIZ
-=Mot8
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fKgQAI06W/F8gCBshqT5n8Lr
+skl+6XjBtdFULjt/ljo9QD/nohQWXkVhojwvkMJL3em+OBaIe/rbmoZpfmSNpNGl
+Oklt/lcsYLpdCIT3qn6qOsisCQ236D7XTyHLuXgvVeu1Qqd+fvUXsbpYBiEgb2tL
+zBaZajN3R1HEXiTH4VbSDeGVhh4mrOCmL1PK0Rb59UD3TTgD7gPQjSrP3CuZ4xuG
+UFNtTvCJMIwc3dXyILOP3ibC0Q7MyUcFiC5QkdDgsLsEGHkGlDFK9q8wc4temtm5
++IjaxCPRxE6DzzOqzj0ZOmmwVC7utmoqKdBM3hmzzKOTQ5Yw2oy0sUu7FyUCKzP4
+YIlFEMgUCoaGMYWk0FscFqkAG2A5GCtDM0MLOqi/Ee2B+lv8M+8aa4fuQAjXeA3J
+LexrlvbIjO+jMCH18UodME0TGsRf8z/jLhhqQlkwp/P0qUf1DgrTCMxGpFqpGcs/
+o7jG1Ujp5qnLtMl7zjHBo0OPXKAZ7BZTTRtyZaYFwd1b0NH7P6eVIaWkgz8gDNMq
+3EMoq43LOPWblLoZ9c9IxH9w1n7DNaKw0CI2T7vNDKhtJSgYJNOCN4uuiP+HL2v9
+r4MPWpPTEupGqsrjPofzLTT54NcpBmfOcInxUEsh36uqP+4xSyTG9G7ZUz8PgYMY
+zxwG1zlg2n0QZ1PwXEgJdUQp
+=yrSi
 -----END PGP SIGNATURE-----
 
---===============4130547150265698002==
+--===============2687088106339612436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-370636ffbb86-8e2c811687fe.txt
+Content-Disposition: attachment; filename=revlist-7d7d1c0ab3eb-67580243c4ba.txt
 
-0a8e4d677ea03cdd269aa04acbfc5b08dc74aaae mips: Do not include hi and lo in clobber list for R6
-a82ec149b256562561e275a5aba8481b95cf7b16 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-fb51e5d32ebd30f915c6ce97e746f4434aef677e ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-bc7e3f54279b1d04095c70ca4c88c1bfb9856638 net: usb: ax88179_178a: initialize local variables before use
-7c85c4e472b754dfdf13d5ba6ab36f0ab43299b4 igb: Enable RSS for Intel I211 Ethernet Controller
-f40591a4158520018b8782746f9004cdee4bced1 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-da844b5f863d2d35048027f6d2a865a1eb7c5651 bpf: Fix masking negation logic upon negative dst register
-5c905e012c03a99a8614f8f5dfddf3f7d35c213f bpf: Fix leakage of uninitialized bpf stack under speculation
-aa6256f22f4f42401675ed17adbc5cd8ad657c98 avoid __memcat_p link failure
-f2b44f2c0e9b02cbc7835e25189997deaa4e0ded iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-8e2c811687feb7e28c4c3abbf2ed26832ff43b26 Linux 5.4.117-rc1
+645926a56614e2ae867817134fa07c4aff535e18 usbip: vudc synchronize sysfs code paths
+256b85a59680fbad59b3dcf04639d0fd26a487f1 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+edb586070ffa14fe1b0a362adce7f4d78cb43b50 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+a1e0fed3ced0eeadc8de78f43b67b1529b74c777 bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+9fbde136140dd073da4560ef14608e4cde0d121f bpf: fix up selftests after backports were fixed
+129f6ed4a4aa061d6e2e3b0f6951603e2ce6f21f net: usb: ax88179_178a: initialize local variables before use
+f4d0147d66ee6b6140621f2da1116cf4b5f2c005 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+75545ba7659154ce8809be4709629e7f94155092 MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
+77656ea20ee7aac844387554f9e3944d3eed0f43 MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
+ff7ddd3213d9856b5ca29cd4c907e85d13b0594b mips: Do not include hi and lo in clobber list for R6
+566aba9cb739095f0693ff593cda0c50c4fc0ac6 bpf: Fix masking negation logic upon negative dst register
+4ed2827f1ac24f3f1816850f1b6ce71aec59f3d4 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+67580243c4baf260f7d3aa670f10f6c9a65823eb Linux 4.14.233-rc1
 
---===============4130547150265698002==--
+--===============2687088106339612436==--
