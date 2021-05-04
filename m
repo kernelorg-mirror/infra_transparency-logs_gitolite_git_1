@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 04 May 2021 23:00:13 -0000
-Message-Id: <162016921333.31869.3518792830611758021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 04 May 2021 23:50:27 -0000
+Message-Id: <162017222711.29272.5755443885917099388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/uaccess-mask-ptr
-    old: 791704f62b9e2e8c23653ec1c29b1f17caafd651
-    new: df3f0d8cdfc3b12de37f118d7c00ff6306dde926
+  - ref: refs/heads/master
+    old: b055779642a43c43c07c3e5e73d9b8677e1dc364
+    new: 7b26cfe56e48d2ba00b9c945c0f9d57258e287b9
     log: |
-         0a085e8929aef3006831870b12d8b15dbd69393b uaccess: Always inline strn*_user() helper functions
-         0a80ecefde434635bc7872fdb22b4c4213df29c9 uaccess: Fix __user annotations for copy_mc_to_user()
-         c81d12ae690ab3d230aa0a4f394b6f04474621f3 x86/uaccess: Use pointer masking to limit uaccess speculation
-         df3f0d8cdfc3b12de37f118d7c00ff6306dde926 x86/nospec: Remove barrier_nospec()
+         c0cae92548b4716869b440c3d454ff4517d1fde1 build: Fix manpage enable flag
+         b66f406e1e15fb7137412963b82ad143e4a4cd93 monitor: Convert manpage to rst format
+         1835be72e13f073f1765440bbd5167d0dd2747be src: Convert manpage to rst format
+         6552b572371476f43773519c7029073239341f24 tools: Convert manpages to rst format
+         7b26cfe56e48d2ba00b9c945c0f9d57258e287b9 checkpatch: ignore SPDX license header check
          
