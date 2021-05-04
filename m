@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9079562620478837821=="
+Content-Type: multipart/mixed; boundary="===============2693141518589553901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 04 May 2021 10:08:18 -0000
-Message-Id: <162012289853.12092.390767182758857179@gitolite.kernel.org>
+Date: Tue, 04 May 2021 10:08:30 -0000
+Message-Id: <162012291065.12189.10389047488133232676@gitolite.kernel.org>
 
---===============9079562620478837821==
+--===============2693141518589553901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 0c89d87d1d43d9fa268d1dc489518564d58bf497
-    new: 0e29aa54503e18479b53f10a87a395f8248adf76
-    log: revlist-0c89d87d1d43-0e29aa54503e.txt
+  - ref: refs/heads/perf/urgent
+    old: 4b2f1e59229b9da319d358828cdfa4ddbc140769
+    new: fb30833accc4de1e2e2bda13c59ad331acf10d7b
+    log: revlist-4b2f1e59229b-fb30833accc4.txt
 
---===============9079562620478837821==
+--===============2693141518589553901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c89d87d1d43-0e29aa54503e.txt
+Content-Disposition: attachment; filename=revlist-4b2f1e59229b-fb30833accc4.txt
 
 4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
 75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
@@ -35,6 +35,7 @@ bb05e11fff09d341047ce1984aa0d975ed8613e7 arm64: tegra: Fix mmc0 alias for Jetson
 6b5b2a5bcfe9a250da19bac4ef7cabdc81d154ec drm/i915/gvt: Fix BDW command parser regression
 84a24bf8c52e66b7ac89ada5e3cfbe72d65c1896 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
 7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
+0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
 d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of unexpected AUX timeouts
 7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
 2d292995bb8f49a2596bef522679c1e1454f3230 Merge tag 'gvt-fixes-2021-04-20' of https://github.com/intel/gvt-linux into drm-intel-fixes
@@ -43,7 +44,6 @@ d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of un
 f2211881e737cade55e0ee07cf6a26d91a35a6fe perf data: Fix error return code in perf_data__create_dir()
 db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
 1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
 ddd8d94ca31e768c76cf8bfe34ba7b10136b3694 gpio: omap: Save and restore sysconfig
 d42a5b639d15622ece5b9dd12dafd9776efa2593 drm/amdgpu: reserve fence slot to update page table
 6d638b3ffd27036c062d32cb4efd4be172c2a65e drm/amd/display: Update modifier list for gfx10_3
@@ -54,7 +54,6 @@ d42a5b639d15622ece5b9dd12dafd9776efa2593 drm/amdgpu: reserve fence slot to updat
 9d5171eab462a63e2fbebfccf6026e92be018f20 KEYS: trusted: Fix TPM reservation for seal/unseal
 482715ff0601c836152b792f06c353464d826b9b pinctrl: core: Show pin numbers for the controllers with base = 0
 4d09ccc4a81e7de6b002482af554d8b5626f5041 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
 90c911ad7445ccec9936763f05fa5db6a3da53be Merge tag 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/tpmdd
 450225a402e5b2b4c7ddef7ec54f797868d0f583 Merge tag 'sunxi-fixes-for-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
 a9d064524fc3cf463b3bb14fa63de78aafb40dab vhost-vdpa: protect concurrent access to vhost device iotlb
@@ -86,7 +85,6 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
-50ac885f1c000da0be06fdbdcef43a4909421318 sched: Fix out-of-bound access in uclamp
-0e29aa54503e18479b53f10a87a395f8248adf76 sched/fair: Fix unfairness caused by missing load decay
+fb30833accc4de1e2e2bda13c59ad331acf10d7b x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
 
---===============9079562620478837821==--
+--===============2693141518589553901==--
