@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6046696232068409644=="
+Content-Type: multipart/mixed; boundary="===============3921974744157277173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 04 May 2021 16:22:07 -0000
-Message-Id: <162014532732.15848.5782422998221660107@gitolite.kernel.org>
+Date: Tue, 04 May 2021 16:23:07 -0000
+Message-Id: <162014538715.16222.9859100055573233759@gitolite.kernel.org>
 
---===============6046696232068409644==
+--===============3921974744157277173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/iomap-for-next
-    old: ad89b66cbad18ca146cbc75f64706d4ca6635973
-    new: 6e552494fb90acae005d74ce6a2ee102d965184b
-    log: revlist-ad89b66cbad1-6e552494fb90.txt
-  - ref: refs/tags/iomap-5.13-merge-3
-    old: 0000000000000000000000000000000000000000
-    new: aadd410a83633cec2d842bb911691be700779351
+  - ref: refs/heads/whatamess
+    old: a74ff6baddf4ace502fc317d0daa7dddfe40dc8a
+    new: f127530e803b5ade0344fa8bfee32245cdb4888d
+    log: revlist-a74ff6baddf4-f127530e803b.txt
 
---===============6046696232068409644==
+--===============3921974744157277173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad89b66cbad1-6e552494fb90.txt
+Content-Disposition: attachment; filename=revlist-a74ff6baddf4-f127530e803b.txt
 
-316791b556f7c4aeb7a7fea8f400f4434e71d1bf ALSA: usb-audio: Generic application of implicit fb to Roland/BOSS devices
-87d9ad028975e8f47a980fffa9196b426f69f258 Merge tag 'nvme-5.13-2021-04-22' of git://git.infradead.org/nvme into for-5.13/drivers
 0891c89674e8d39eb47310e7c0646c2b07228fe7 ice: warn about potentially malicious VFs
 c0dcaa55f91d925c9ac2c950ff84138534337a6c ice: Allow ignoring opcodes on specific VF
 142da08c4dc0afd07f9136b4812d5386bd6e1717 ice: Advertise virtchnl UDP segmentation offload capability
@@ -1052,6 +1047,8 @@ a7efd197bc7ff03076faf09d6325d7c3427893e3 Merge tag 'rtc-5.13' of git://git.kerne
 d835ff6c96ae6fa1ea474b0290a46e514ab6742b Merge tag 'leds-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 cda689f8708b6bef0b921c3a17fcdecbe959a079 Merge tag 'csky-for-linus-5.13-rc1' of git://github.com/c-sky/csky-linux
 5e321ded302da4d8c5d5dd953423d9b748ab3775 Merge tag 'for-5.13/parisc' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+8e9800f9f2b89e1efe2a5993361fae4d618a6c26 xfs: don't allow log writes if the data device is readonly
 6e552494fb90acae005d74ce6a2ee102d965184b iomap: remove unused private field from ioend
+f127530e803b5ade0344fa8bfee32245cdb4888d Merged korg/for-next at Tue May  4 09:22:40 PDT 2021.
 
---===============6046696232068409644==--
+--===============3921974744157277173==--
