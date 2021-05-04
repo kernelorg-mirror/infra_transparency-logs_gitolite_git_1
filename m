@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9120412849255082317=="
+Content-Type: multipart/mixed; boundary="===============6546626392417372613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 04 May 2021 17:58:23 -0000
-Message-Id: <162015110388.9331.3585376277444009765@gitolite.kernel.org>
+Date: Tue, 04 May 2021 17:58:24 -0000
+Message-Id: <162015110427.9355.14431803201329142041@gitolite.kernel.org>
 
---===============9120412849255082317==
+--===============6546626392417372613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,21 +16,21 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 0aa66717f684f0280cc9bccf50f603e80d05495b
-    new: f525e5d8c9c5085934b93e25b73b6b4d08ee92f9
+  - ref: refs/heads/linux-5.12.y
+    old: 9f29b08688ca35efcffe01b80f55fd2a4edf5796
+    new: e943e41220eaea7f107b4a0931ea42338d37e1f2
     log: |
-         74fe3505ca02c8b96168f4b95f91af28425ff16e mips: Do not include hi and lo in clobber list for R6
-         87d76d4035e0f45b4b45f0f44ae02294509ad43f netfilter: conntrack: Make global sysctls readonly in non-init netns
-         ab70979f2ed3ffc9d78795c25473d2d1840faba8 net: usb: ax88179_178a: initialize local variables before use
-         67beafb2525fe0048c0fad7ddd20437e6999f69e igb: Enable RSS for Intel I211 Ethernet Controller
-         f1423a807b662e3cee91ca9c5533ebff879bbe95 bpf: Fix masking negation logic upon negative dst register
-         120fd064472884225a51c90e2d4981ef882164e5 bpf: Fix leakage of uninitialized bpf stack under speculation
-         1385eaf618375c5f7806b99e23672750eaac3f59 net: qrtr: Avoid potential use after free in MHI send
-         f525e5d8c9c5085934b93e25b73b6b4d08ee92f9 Linux 5.10.35-rc1
+         b5fd3b44f529dae0080d3940d16def1f29c416fe mips: Do not include hi and lo in clobber list for R6
+         107a93c5d22be8dfc23c1953e26b90850d2d2c15 netfilter: conntrack: Make global sysctls readonly in non-init netns
+         24783ceda1b72da42f19a04f532b0e4d1bdc282e net: usb: ax88179_178a: initialize local variables before use
+         0dc5fe6b622eba8337dcc2c06238c81c09025e91 drm/i915: Disable runtime power management during shutdown
+         efce16b179f36649a97a358d2328f01dc0ef8491 bpf: Fix masking negation logic upon negative dst register
+         efa593f052ef36579495248a5a94c1e050f147bd bpf: Fix leakage of uninitialized bpf stack under speculation
+         92ce5aea09b06e34cfd75b8704de310c9a14384b net: qrtr: Avoid potential use after free in MHI send
+         e943e41220eaea7f107b4a0931ea42338d37e1f2 Linux 5.12.2-rc1
          
 
---===============9120412849255082317==
+--===============6546626392417372613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,23 +41,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620151102 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1620151101-92a84dbde08b1d282a3f85fa225965e049d041ae
 
-0aa66717f684f0280cc9bccf50f603e80d05495b f525e5d8c9c5085934b93e25b73b6b4d08ee92f9 refs/heads/linux-5.10.y
+9f29b08688ca35efcffe01b80f55fd2a4edf5796 e943e41220eaea7f107b4a0931ea42338d37e1f2 refs/heads/linux-5.12.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCRiz4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bOwP/jgz61PkbwICucc+mCao
-sYoEog92eYH7Re0AeXDiqGNVVHvTOzlq1X6bfPd6rxHLwEYLmSkCwKKvPnEN0i9/
-JI67L1T9KS5Qe4ok2GyIflB6DDSPmg1LuwzgbRDoX9WlEu90iQXU24BsrIamFWEy
-Iu/KtCjMK4xv3Fa2SLOgYYD3uRzWFI9/mF0aLZBVmWYM++kkmt+t5ooWglBzErnA
-15Ubg0Lf/Neije/iP/6aqClssWRQy80nXip4xb8aO+ZmUkH5fN923grk8Dpi6qLd
-HddE2zX+1SvnVp6EkDkmUjLc1abPCi6wT+GCm+9jOXA7I4S+ZLRltjO6lSJvDbRq
-lBmHaoP25kIycl1/Z3Zuxos9xp04vR5eBlgKPwRIZFma/sjnvl5svadniAcU/TEJ
-8M3hFCD9h/4OOMR/5vp50McCRwA3TN1utZZWrvE07Y68io84q38eVSZD7rtZy7Ti
-V+AvaEJxQ2ahP4O4lwnGxbNzONGL/pAfd4XJkztuqMVbmYuISgDlUXy4MnI09E7t
-PHeUYSxnFwBQZUJO1JD+XJils4gHm3ii79Nhw/LYSJ1G3kkEYAKsE6PPy+xyISvd
-9y0RJZ1S3HD8dlw11CJOZCu6eq6OZU1QgzKpDdXNNtsyQG1l4c51pnS4+9reoGT2
-kaFGgw478cjwa6AETqB7/WOt
-=08I5
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OIAP/3lSezMIENZjCxqUM29n
+cggYIz2eyUtmBZqF93wDBEfBMHWF5mWJ76D/SjvmJN6h5aOtsCkDBD/gBLd8sdAh
+/vJBM4K8HqcWmVO36Ai+BIvr+kCuexuC5ZsIcjNtBngrmX+KBy93g8TLoyqEKTkC
+sOMSeHXBSuxbDqxoZQXxsurjAP30AmdijsHNZ3CXuqnOpM6JVek+hqnGAqnVpEZO
+m+hOjpJxTlqb6tD1Upf3nEAfpD3XdlKAf3mRqWMlPlcu7lBO83T7K3diMGEzPpNk
+KmqEujlFyglZBcYfprW7UEG+6n1PDeXHNiyLR+60JLtTO+Y3jmq3TkoDAJs3S2Cn
+escZnVyHSVnhzW7+keYmyceZP/nOHzYvvBF1CgIxUAbwKRaoeGJh+mtPh8b3MD4y
+MJoVEGwyzbTDMdLnRHCx8NRwVci8hPouh1JrZzns45a1wH7B+ibKTUWnaFH7PDjL
+tf1YbT68FtzrHDssoV5J73A1PnF0QEEM6ntJ8xdeiokWc9OLUt6E6BTjvy3KKjFP
+mCiNy44pHUBzY7s/XuVdOygujLDkCJ9aygpGj1rNur9LsBvjMu/KJ0Qny2PFznHg
+rC+wlwRq6yoQoQmUFom1UTvH4Pb6mkoE2PxNBT1tywgavKwFu/emTAy9ZqxmzbPf
+UnoMkCrLYgCpmY2NSb8Yxy3Y
+=mMiD
 -----END PGP SIGNATURE-----
 
---===============9120412849255082317==--
+--===============6546626392417372613==--
