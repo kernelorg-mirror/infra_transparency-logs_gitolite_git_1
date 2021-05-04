@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Tue, 04 May 2021 15:30:43 -0000
-Message-Id: <162014224380.17631.3537893193302967934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 04 May 2021 15:31:05 -0000
+Message-Id: <162014226509.17844.7033087409648018010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-user: mark
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 22fc09cddd96dda9118faaa5c734e59949d9ae41
-    new: 9a9f85ce6f128125d2b5ee3700e36fb89d31cdc0
+    old: c365cc1b8d24f393edfd5c39ec0f36096c193ce2
+    new: a3906272ccde117f74612cfdadfa14d5964e15b8
     log: |
-         9a9f85ce6f128125d2b5ee3700e36fb89d31cdc0 aarch64: Enable FGT for EL2
+         751db5604599e8de5fbde8755fabf997c0e16664 test-runner: increase RAM for valgrind
+         a3906272ccde117f74612cfdadfa14d5964e15b8 station: print reason why autoconnect failed
          
