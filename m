@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8021384100278224319=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 05 May 2021 07:59:52 -0000
-Message-Id: <162020159287.23510.12974916541063365359@gitolite.kernel.org>
-
---===============8021384100278224319==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Wed, 05 May 2021 08:00:43 -0000
+Message-Id: <162020164376.25292.958236626734408105@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: jberg
 changes:
   - ref: refs/heads/master
-    old: 7bc3864870db7251aefc9392f47f585629e1a1f1
-    new: 693c55a3476fb037fdab6fceba52624df5c66a15
+    old: 71e53a8aae592d02972522561eac899311ea9319
+    new: bde33c8f6fbf561c2401d110277837b519478b9c
     log: |
-         693c55a3476fb037fdab6fceba52624df5c66a15 4.4-stable patches
+         9af1253314d4c244f8defd9affb075177eb24f28 [BUGFIX] iwlwifi: mvm: don't init regulatory after failure
+         828bf81287e4a923fbc62af17bcac913cdf001e1 iwlwifi: mvm: minor code cleanup
+         fb929f6cf3f57703bec9ba4dfd7ba25c37183310 [BUGFIX] iwlwifi: mvm: allow MCC command in RF-kill
+         d6ba01b3fbffc8e6f7ffb20613f0af80b72bde63 iwlwifi: allow debug init in RF-kill
+         58497009f4f59cd7349076751a80ad559eb49ac2 [BUGFIX] cfg80211: fix locking in netlink owner interface destruction
+         9f2e6a6a6cc1b2c58b1537ef9cf57cea86b92cd1 iwlwifi: mvm: add support for range request command version 13
+         7e3f8a007f8fe368648c729ff4bc8be2bcee59bd iwlwifi: mvm: add support for resonder config command version 9
+         324a6d3e54fe8fbad2ab8b7e7ec16473463fdde6 iwlwifi: move get pnvm file name to a separate function
+         ec8edbf0afe5e3bcdfa9dab017821e72814ca37d mac80211: improve AP disconnect message
+         f51432927cd42e34c1773d4cb2c81196465fef53 iwlwifi: mvm: introduce iwl_stored_beacon_notif_v3
+         bde33c8f6fbf561c2401d110277837b519478b9c iwlwifi: mvm: support broadcast TWT alone
          
-
---===============8021384100278224319==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620201591 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1620201589-93874cb7ddc903328108314f5fa1e63b45ec40ba
-
-7bc3864870db7251aefc9392f47f585629e1a1f1 693c55a3476fb037fdab6fceba52624df5c66a15 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSUHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K+kQAJznHogiChLeURWpAOa7
-TPjsQJYawujDA0UTcfZksEYTAf/SrkwD0hcl/jA14Ow/q7olCuBPmWldWguzcTG1
-AdxvSmS/32/Z0KONr6iJNMl34l+HB8ZJvNDakE+hAzVSwLMOl4UP5T8t0qUBPZuG
-ZseBx+FJaE0rS6Jf9BdajnTPrRFnZkZbZcJeqev7dI37Ysvsg5X2pSbeJDcVVfme
-s4nmvfXxpeMHkt7KldvcF5a5HDA+GugJoW+EFVm2sN/Ph5ra0k/ti2YHyA7trEeZ
-n+73XNSsKX6FCnm/6KpnSHT4sf654YbAgVPzWzDiqXy16rWXAeNeBhzZAG7GEhtw
-6fuZ+LiOwrQSBFTVxyvEobk2uA/URhkb2E+2PCYQWOaArA8DOcs+N/R6wqSJJrYb
-b60NVFCeeXVS6zYqthgZx7x0o5OvHwl4MMsWXW7pqnLSB5vqQJ7TKywVrinPasV+
-WQD6GR0t4rM2wjUHSYu806JRjx72qttObG06/KmEoYrhLo38/nuTZJT+u1/2a4Ip
-afvH1pXmLeXIBcVrO5Kps+N2btPCIQYzX9KKQePNTMiic8EbahhP1AE1APxho3jE
-G8L4zFUv5hkdTn/x/CbEz3BB+LKVhkZ6nGRI56R/kJwEZplnj19Ua0/mN+6cGa75
-HNqAuEjJmc8s7NX88zYw3nMy
-=qkSp
------END PGP SIGNATURE-----
-
---===============8021384100278224319==--
