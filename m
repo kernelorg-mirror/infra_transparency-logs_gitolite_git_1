@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0895416581116801249=="
+Content-Type: multipart/mixed; boundary="===============6438742754091091412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 05 May 2021 11:23:27 -0000
-Message-Id: <162021380786.7182.434671115390310202@gitolite.kernel.org>
+Date: Wed, 05 May 2021 11:23:32 -0000
+Message-Id: <162021381223.7362.16048053367023716925@gitolite.kernel.org>
 
---===============0895416581116801249==
+--===============6438742754091091412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 08a86abdc2e42c6bd146df038d645e16a150c987
-    new: a894a28c73610c1416a47ba7c7ecb8efc3760752
-    log: |
-         a7be483dd1811763a9a58df26e68d59e042f9173 net: usb: ax88179_178a: initialize local variables before use
-         20ddbefbedee8e5d6ad0eca35ce6a83dd80755ae iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-         0164933b9c01f1d11ec387106b6c63f2698ba5a1 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-         e7e49b7c57d68ab654738f1c81829cc13f63cafc USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-         a6ee12d658b6a4c881b34be23653e3f259b1a25f USB: Add reset-resume quirk for WD19's Realtek Hub
-         0f40f5d2730b659588875104ba386eb1e7cfbab8 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-         a894a28c73610c1416a47ba7c7ecb8efc3760752 Linux 4.9.269-rc1
-         
+  - ref: refs/heads/linux-4.19.y
+    old: 5a18a474d48a46d84ef6ed606bca00b7e3c680da
+    new: 98cd22b3e61c6c067029e0bff524700a72b8cd2b
+    log: revlist-5a18a474d48a-98cd22b3e61c.txt
 
---===============0895416581116801249==
+--===============6438742754091091412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620213806 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620213810 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1620213803-6596c6e72d76fb672d8a2e098d7c20c35429d722
+nonce 1620213806-2a8cef7b19d7115544017b2e2afd930b64e016ec
 
-08a86abdc2e42c6bd146df038d645e16a150c987 a894a28c73610c1416a47ba7c7ecb8efc3760752 refs/heads/linux-4.9.y
+5a18a474d48a46d84ef6ed606bca00b7e3c680da 98cd22b3e61c6c067029e0bff524700a72b8cd2b refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSgC4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ofsQAKyzKMgxZm72JjhcqKR5
-VOD1XHqgmjhSOpSK21Soi1xJnwvRZtRl6FxcqXWKjikhqF9IH37IkpKtP+g+CZzm
-304Wcd6F4owwdiPt03/Sd1wjgqvk4jEdTV9ExS7uiKkbDEr9bydIQ44xWk4wqBaf
-eGDqidQ71wueCvNlP18ZhsTWt8smd/8SwzzbX+mLSYi0boXzAcL6HKb+oA9AKLH6
-ayWqWyw6KNJlkWFC+OeKnxPEjxuEYNTPMCX7NPbm/ZEq6CCzB5BgYDJlGRJQVVhh
-VkXW401O97MKJ7hNc6DHOWLM9H7qFCuifAOIoDEVtRIcO0O6yzZ3+pxm7vYgEKxR
-aslLvALRkAExfwQfFSWm9amWF2kqW4PasaRMFFY1XPJqsTb61vBqwTuAG24sa04U
-L6KEe+ylbHPuVmI9gnlO28FlbAg7h/MMAfSKyK7p5wy+ORDdYSVNv/ad0oNB4R5G
-kZUJqgMEjPDS8t0+RgHjwi6g5cB1Q/z6PYy7UH+/7gXW/cGq8BPd0N78XpfzveBc
-4h9iw0DF90KEUvjwVAzNnoLoqEE3MScgeYywNH8Km2DH80ggX7oq4X+p+hk47tkg
-+O1LR+G7CONdlNElxzhW+LnG6zHRTAnDOqY5V8a2+f/iH9DTEl0jmP60RQs85yTM
-gh/2Hn/Zqu8WXJ57uuNakQZ7
-=T9S8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSgDIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OWQP/A5x0t9b6LsH/TTf8Ghq
+c2L/Wh+Q7hMz52H/swehkV+aFqqh8WCf5taRE7DxxwjUjpsskyHLRYJb4ZP8gd5P
+H3jVLyMmdYzcyG55sKXB6x3LrzrebEJc4Nr5bVSSII2HFmRe+X/1HswN+vO7RcYY
+Fvy2khfR5YsX6YGY/EM0RL3ysap6A1PTsLEUmvjBso4Wp6OksW6WIpJxqC/GO94C
+p07q4A45d7MDjCT8vbix9Y9R5p0nsk7Bdmhs+pgNRs50eYBTuECT4OFN87e0IKT5
+UJJBgYpQYPBJJl3muUyIszGnbKDGIFD+ohC+M901RntXqV+CQ0tDB1WV5zr5zgtN
+fLiCbstVWzvDc4k3pjhxba4ZqddRfrsNtTaoFhpW/JLaiUTK1F4KCuOyaJJs8mmO
+3xxx3egX43z6iEQ9LpxCOHdB85Aklwmfm/Ovb5eEUAn5Lonnx4jFjLi30Rjd4d3E
+aQMnKwvaMI6rywa8aMwL+ub3xY3UVNnUIT/bDq6Su0y2vZMh4W+zcQUQ/qzgCtOl
+WphwkFuMMtYGTFr+gNe5+gOEvLjqKU99StX4BcOtRPwgd73Nd8MTf0+QX2j9dhqT
+d5u7+LNgR7wtYd5wcOWM4V3MBKakd/C94zkZwS9CsojGBck2SmpNaJPXqCnIsYHz
+eySUau3Qq6an2lV9vEjI4HNR
+=fBpd
 -----END PGP SIGNATURE-----
 
---===============0895416581116801249==--
+--===============6438742754091091412==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5a18a474d48a-98cd22b3e61c.txt
+
+db0baf28eaa0951a17814abad2e62589d0b5e4c3 erofs: fix extended inode could cross boundary
+1e2d06886598ec9e06136c427de9fe11a2827c2a ACPI: tables: x86: Reserve memory occupied by ACPI tables
+59d400149d605d044671c629cd3bb52510ae59fc ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+99635bc96899b0e7e7fa7a49022b2a3574875d46 net: usb: ax88179_178a: initialize local variables before use
+a634b9f649adbba9e01b8504bd3dafa2cd9e6ad5 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+3beda6d1171d5ba3aa531a95bd8789d657ca051d mips: Do not include hi and lo in clobber list for R6
+11161712464b9d20a93608dbc670bd44a0fb0288 bpf: Fix masking negation logic upon negative dst register
+a4f8eac1881eea12b8afb28e75faee4d16a9290f iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+cc67032c748bfa2fc27a38175c6083c91e69ce9c ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+3acd004b7b5485b77feeb539d4bc7d6b74af0f84 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+7318e571a8a9a68ffd69b69474cb4bbcb0769188 USB: Add reset-resume quirk for WD19's Realtek Hub
+327ce061ff3df157756327955d1b779e2a4cb1de ASoC: ak4458: Add MODULE_DEVICE_TABLE
+4ead6fab3407c6c12db620d7ba7ca1f3955cf3b6 ASoC: ak5558: Add MODULE_DEVICE_TABLE
+81b380b4fb16799deb8d13a349dd6bb8cdb68062 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+fadf50b7f87ca7911bbfc2f758d6211f69f7dbed ovl: allow upperdir inside lowerdir
+98cd22b3e61c6c067029e0bff524700a72b8cd2b Linux 4.19.190-rc1
+
+--===============6438742754091091412==--
