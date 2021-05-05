@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0251535042990705793=="
+Content-Type: multipart/mixed; boundary="===============3305325454929569993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 05 May 2021 09:21:30 -0000
-Message-Id: <162020649031.26903.5608529863042550003@gitolite.kernel.org>
+Date: Wed, 05 May 2021 09:22:37 -0000
+Message-Id: <162020655739.27344.15481571140857136876@gitolite.kernel.org>
 
---===============0251535042990705793==
+--===============3305325454929569993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 5e321ded302da4d8c5d5dd953423d9b748ab3775
-    new: d665ea6ea86c785760ee4bad4543dab3267ad074
-    log: revlist-5e321ded302d-d665ea6ea86c.txt
+  - ref: refs/heads/v5.13/ffa
+    old: 51084cb6bcc0792a7b6d5f512baddab00d2d2317
+    new: 0192ceb34792e4b7cdf8df69bfdb813ae4999939
+    log: revlist-51084cb6bcc0-0192ceb34792.txt
 
---===============0251535042990705793==
+--===============3305325454929569993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e321ded302d-d665ea6ea86c.txt
+Content-Disposition: attachment; filename=revlist-51084cb6bcc0-0192ceb34792.txt
 
 145e1da374bcba14c9ca069646f68b76c422612a remoteproc: sysfs: Use sysfs_emit instead of sprintf
 780a980e2b047768130ddb68d39fbde84b049630 remoteproc: pru: Replace DEFINE_SIMPLE_ATTRIBUTE with DEFINE_DEBUGFS_ATTRIBUTE
@@ -238,5 +238,11 @@ e4adffb8daf476a01e7b4a55f586dc8c26e81392 Merge tag 'dmaengine-5.13-rc1' of git:/
 d0195c7d7af6a456c37f4b4b2df5528f10714482 Merge tag 'f2fs-for-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 51f629446cd172e324deb0146741888cac5dedca Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 d665ea6ea86c785760ee4bad4543dab3267ad074 Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+ff4bf2ef26eee0058bbf9d424602a250a7512e03 arm64: smccc: Add support for SMCCCv1.2 extended input/output registers
+fb260bc6718d00fe03550b1f7023c900e137876f firmware: arm_ffa: Add initial FFA bus support for device enumeration
+38220d8c0b379ac4d446aa176e83504fefec4d6f firmware: arm_ffa: Add initial Arm FFA driver support
+44cf518ddcfda25ca87f767102cd9ddbca959902 firmware: arm_ffa: Add support for SMCCC as transport to FFA driver
+ae091ed3d1b7402ee7bb37609cdd8a835dfbb5a4 firmware: arm_ffa: Setup in-kernel users of FFA partitions
+0192ceb34792e4b7cdf8df69bfdb813ae4999939 firmware: arm_ffa: Add support for MEM_* interfaces
 
---===============0251535042990705793==--
+--===============3305325454929569993==--
