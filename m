@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7475713703138723422=="
+Content-Type: multipart/mixed; boundary="===============3234520020322054362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 05 May 2021 01:27:10 -0000
-Message-Id: <162017803084.25803.14974504429048385186@gitolite.kernel.org>
+Date: Wed, 05 May 2021 01:28:20 -0000
+Message-Id: <162017810030.26224.13920218794272282163@gitolite.kernel.org>
 
---===============7475713703138723422==
+--===============3234520020322054362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: f69d02e37a85645aa90d18cacfff36dba370f797
+  - ref: refs/heads/dev
+    old: 9557727876674893d35940fddbd03d3b505e7ed8
     new: d665ea6ea86c785760ee4bad4543dab3267ad074
-    log: revlist-f69d02e37a85-d665ea6ea86c.txt
+    log: revlist-955772787667-d665ea6ea86c.txt
 
---===============7475713703138723422==
+--===============3234520020322054362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f69d02e37a85-d665ea6ea86c.txt
+Content-Disposition: attachment; filename=revlist-955772787667-d665ea6ea86c.txt
 
+a49f4f81cb48925e8d7cbd9e59068f516e984144 arch: Wire up Landlock syscalls
+265885daf3e5082eb9f6e2a23bdbf9ba4456a21b landlock: Add syscall implementations
+e1199815b47be83346c03e20a3de76f934e4bb34 selftests/landlock: Add user space tests
 ba84b0bf5a164f0f523656c1e37568c30f3f3303 samples/landlock: Add a sandbox manager example
 5526b450834331d9196cae26acef0bfd5afd9fc4 landlock: Add user and kernel documentation
 3532b0b4352ce79400b0aa68414f1a0fc422b920 landlock: Enable user space to infer supported features
@@ -312,7 +315,6 @@ e3456056f1d935491ee9148dbae98c6b95f58910 kbuild: remove TMPO from try-run
 b61442df748f06e98085fb604093a6215ce730eb tools: do not include scripts/Kbuild.include
 82526ef43399a7556b860538041802042b3872c1 kbuild: deb-pkg: change the source package name to linux-upstream
 f634ca650f724347892068489c7920631a3aac6a kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-2e22d48dca0bc5b7fccca8d7b6caed80a9d07465 f2fs: clean up left deprecated IO trace codes
 30c400886bad4ac1801516683b71d7714bc2b1b1 powerpc/kasan: Fix shadow start address with modules
 464c62f6f6e1c836d7aae68dbf46101de84fdcb7 perf vendor events intel: Add missing skylake & icelake model numbers
 11fac7a004113466b7155e9b0d836156cf8a7e8d Merge tag 'x86_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -527,8 +529,6 @@ ca53fb2c7c7da99dc51e6c959c84c9b0aca4e040 Merge tag 'x86_build_for_v5.13' of git:
 91552ab8ffb81317656214daafd9a7bcf09ab0a0 Merge tag 'irq-core-2021-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0e853a9c3937caa9f13fdde547d6202f92457c2b ALSA: hda/cirrus: Set Initial DMIC volume for Bullseye to -26 dB
 45b14fe200ba0611b6c3874aa5bba584dc979fb9 ALSA: hda/cirrus: Use CS8409 filter to fix abnormal sounds on Bullseye
-8af85f712fce319dd9fe3d41046b5163e7eb0f93 f2fs: compress: remove unneed check condition
-9557727876674893d35940fddbd03d3b505e7ed8 f2fs: drop inplace IO if fs status is abnormal
 87dcebff9262330ceffad8f1732f29fd35feab5a Merge tag 'timers-core-2021-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6f78c2a7b7219bc2e455250365f438621e5819d0 Merge tag 'x86-apic-2021-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eea2647e74cd7bd5d04861ce55fa502de165de14 Merge tag 'x86-entry-2021-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ d0195c7d7af6a456c37f4b4b2df5528f10714482 Merge tag 'f2fs-for-5.13-rc1' of git://
 51f629446cd172e324deb0146741888cac5dedca Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 d665ea6ea86c785760ee4bad4543dab3267ad074 Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 
---===============7475713703138723422==--
+--===============3234520020322054362==--
