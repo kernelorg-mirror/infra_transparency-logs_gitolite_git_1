@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3696485730108149556=="
+Content-Type: multipart/mixed; boundary="===============8005856093945182530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 05 May 2021 09:56:17 -0000
-Message-Id: <162020857708.16466.156518662557491435@gitolite.kernel.org>
+Message-Id: <162020857748.16497.5865601610031831145@gitolite.kernel.org>
 
---===============3696485730108149556==
+--===============8005856093945182530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.12.y
-    old: b3226f805af48acb10cdc9c330bae177c851f179
-    new: 9106a4d4d3151d921a6be48b9fa500c4032e8a12
-    log: revlist-b3226f805af4-9106a4d4d315.txt
+  - ref: refs/heads/linux-4.14.y
+    old: c806b5f74e6938596fcfb33c2346d248d0e15187
+    new: 61d1ec5c3da1de418dd68586cea635d9e2bcf22e
+    log: revlist-c806b5f74e69-61d1ec5c3da1.txt
 
---===============3696485730108149556==
+--===============8005856093945182530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,47 +32,47 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620208575 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1620208569-64b37853002eaa64646851e2ef5e6c56a2494efc
 
-b3226f805af48acb10cdc9c330bae177c851f179 9106a4d4d3151d921a6be48b9fa500c4032e8a12 refs/heads/linux-5.12.y
+c806b5f74e6938596fcfb33c2346d248d0e15187 61d1ec5c3da1de418dd68586cea635d9e2bcf22e refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSa78bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2kAP/2yhsDbmRJPY77u/6j+d
-7rau9TkMXTWbj6pumUBEDnIJzwngeDJ+Pj4LSUW2WpU/1IyULlLxbhsgIqSDX1qI
-bBUx8pUlvsIdSqDLYetWG/zorucfDic6/NnCUJnA1dNG7HIkueEwuGkXIQWBylRp
-acbQTBWhOd35JjgWpF+y8ttE4d+BKhmt/t+0mJOcopNNP9Z3kgeKEde/530yLZbD
-DrmnJCK3jZSwfXpEbIZz7tKt/JIRi+vCbuk4HzswS9NOt27BSa1khnbCb6+Xk/f9
-+MhbKLKICXsPWErW7sxRNhFtonWuzfPax7lFN+eorw3JzaSMgf3a3jHo7YOOSoGL
-H7xUfw+ij9nCgkG4TXHP8Rm5ufT7TGRhIj8uB7cZ4VPl/+qcV9RHM2UOVm4ukR1N
-/8NhLadJGRVvskzIZFK1zT/XPnbkoZyA7WGf5I5DD0gd+camdJd0qS0VG/gTYtTb
-kuQ49sCEXHBgWKUGAe0kBFkflpfLCAeJKIpUQ4or1rvSTuQXNVkq2Vvgew9uTYjE
-X56mUkicwmLRHMTioF2kzqUjMcZrkBcjspGudOZolR4aey4E6WmWOalpBfVTB8jz
-094czrDmAUezrq1eLpPAzAZe7Q97GCriv6WPaASRyXFhZKngNf6DUblBImAAGCkn
-ZjCW78v0M3WOyydiUkrhJ4E9
-=VhDc
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xOwP/iJ6hLr95gfQ8i1aqpa4
+ItWama0xEj0F6xrSu4v/qi/+XfBaEHQV8QRLmo2HXOmCvqRhiqaVBrEhSt/Z8O/6
+iK1DO+RM1+PE8zUBoHiCp/Qpth4Yn9LGqtpLPqXXzAA64jIy9PfkU0RhOMU2dIQC
+KRmV3MDgro4iFb1aNEofq+AD3PcUbqYfvyg/wzOUMc76BExR90SIJvZp9T//+oX1
+kP7Y8RsXKKGDyuVNVAuePjdr90dYr+uzDe8HTJmUywK2dS/0ZRDzenFmGefDZtpG
+1SJCF0y2hlw3PxYRu0vP7CeU++TK+89Fo9FoHITkYSlWkFLdLWLCmPMaCdIdfbiQ
+SXccJ89VPq6oLRTGpUg7j42iSKIKPaMnl4MiUjRYkZkKPO3duXgwNiGXIJXaTS/U
+TGZb0gzbvKFJdGuf/paAL9MUXMdVUivjX1ZoTimacI8O13U7koDW71Iu+N586yKL
+8QsLBHSgkej6p90fZexCNOFBFodByQ+5UMEdnnlfjm7bY/TKrVXF6oA8RLm3U4Rb
+3Cn3DUjyhGzThVWWrxKevweyiwQjgqJHXiJDCe5j4EyOGmFf82aMqizdYFBR5MTj
+RANIDSKFjlVc0nvJEfPEZrLo/WkJcnVBh9DJ0l9jJfvzNZNov5GiYobfqqPDzhWn
+2tm4PZOt6td9bqYo09g/0QiI
+=+TnJ
 -----END PGP SIGNATURE-----
 
---===============3696485730108149556==
+--===============8005856093945182530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3226f805af4-9106a4d4d315.txt
+Content-Disposition: attachment; filename=revlist-c806b5f74e69-61d1ec5c3da1.txt
 
-48401b397176d02dad171778024cc74a5eb4ab3b mips: Do not include hi and lo in clobber list for R6
-fb370023d87fadb66bf17a882ac98160f8b1ceb8 netfilter: conntrack: Make global sysctls readonly in non-init netns
-ea59f211107bf62804a61926a7e8331252f60f9f net: usb: ax88179_178a: initialize local variables before use
-7e9ea116bbf9b4e69bf3241c5b5f6e7690b4e842 drm/i915: Disable runtime power management during shutdown
-0b5d3bc5e173ea20027dbf95a7a6125dd18aac0c bpf: Fix masking negation logic upon negative dst register
-b80e15397de26a7b173bead8f8e71564cd7c9ad9 bpf: Fix leakage of uninitialized bpf stack under speculation
-84fcab3344556fc65f2bccdebd2287c53efe498f net: qrtr: Avoid potential use after free in MHI send
-0d1880d91717416f58e9e0a276af7695c53f7951 ovl: fix leaked dentry
-4e34f7f5ee3a02067cdd7243383aba2598cc6513 ovl: allow upperdir inside lowerdir
-1962cfafc97ad470d47b999a4c80c48ee3df6d96 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-59b630954d311de9641ad583f000d5043735dba2 ALSA: usb-audio: Fix implicit sync clearance at stopping stream
-fbaf2c3ceb2185a69e6fc7bac2e36672050e4569 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-3a301a52a1235bb253b8ebe26660c1e216a7aba7 USB: Add reset-resume quirk for WD19's Realtek Hub
-36704365f540abc6acee3352725f6d3b14424a7e ASoC: ak4458: Add MODULE_DEVICE_TABLE
-426b1a267df1d4bf0dae9be2e4cae55611b7dfad ASoC: ak5558: Add MODULE_DEVICE_TABLE
-7492a3654ae2a65d8f59af39b000971adce110a8 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-9106a4d4d3151d921a6be48b9fa500c4032e8a12 Linux 5.12.2-rc1
+0879f1e1bc4aaa732c6b7091b22967bdfecb7c23 usbip: vudc synchronize sysfs code paths
+4f493aa98480aa0368ac8e9f5d21f75ebcfa848f ACPI: tables: x86: Reserve memory occupied by ACPI tables
+b9079269348450b16ff7ff58310f174c06500edc ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+1f39538dcad021ceb44f79263070574521847dda bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+77ae4715e999115a2cf9a8e1337eb3a808fdbf2e bpf: fix up selftests after backports were fixed
+61a0600923296ea4b1c8c9b0c125bb594191b0bc net: usb: ax88179_178a: initialize local variables before use
+e6e81fcaba0c04a8643edc77d22fbf6cbc5b7ebb iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+17c377d2c6381a9576602b59acb578a2f850fb90 MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
+abbdbc8e6b94503d2e96949f97365c787b798f60 MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
+1980804403a25e54bb6d7dea94a2dfacb8697434 mips: Do not include hi and lo in clobber list for R6
+4b5fae317c0411adf4c594c25f0de5585def514b bpf: Fix masking negation logic upon negative dst register
+16a59f20458219f19c43875ad4954bd3c1653593 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+821e8ec97a42cb84e928e75e0ac3bc4b33e9aa1e ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+a0d52dd2a75a7fcd174b01a980ac5b9823d31f70 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+b364ea4ea9c727deab06c3564506fbb793027bfc USB: Add reset-resume quirk for WD19's Realtek Hub
+550e4c5e5ee13f43b42789bff34e36f966b41da5 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+61d1ec5c3da1de418dd68586cea635d9e2bcf22e Linux 4.14.233-rc1
 
---===============3696485730108149556==--
+--===============8005856093945182530==--
