@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7226025880798628836=="
+Content-Type: multipart/mixed; boundary="===============4398754538491925737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 05 May 2021 08:20:02 -0000
-Message-Id: <162020280278.5732.1869349798075304626@gitolite.kernel.org>
+Date: Wed, 05 May 2021 08:20:04 -0000
+Message-Id: <162020280406.6442.5327646147872278460@gitolite.kernel.org>
 
---===============7226025880798628836==
+--===============4398754538491925737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,63 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 8cb7ba8c7c645acbacb0aab3e515412516773d9b
-    new: 307438dbdffd6e10ea2a2df7e4e01474f50425e0
-    log: revlist-8cb7ba8c7c64-307438dbdffd.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 40b0c65b3af6de8c3d973cceb43c7ce00f6222da
+    new: c806b5f74e6938596fcfb33c2346d248d0e15187
+    log: revlist-40b0c65b3af6-c806b5f74e69.txt
 
---===============7226025880798628836==
+--===============4398754538491925737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620202801 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620202802 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1620202798-f9f9ad74c8fa41a196760ed49e64c4ee8c6bea80
+nonce 1620202800-f61dfc6a821997955d8c881db085030b6857d803
 
-8cb7ba8c7c645acbacb0aab3e515412516773d9b 307438dbdffd6e10ea2a2df7e4e01474f50425e0 refs/heads/linux-4.19.y
+40b0c65b3af6de8c3d973cceb43c7ce00f6222da c806b5f74e6938596fcfb33c2346d248d0e15187 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSVTEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3m8P/jzi95xs7EJQEUTyZ0Ua
-fRlRM/q8ddjArAu/ROfU6hFQJf+Y9badKc1bg7TSBX9IrYGqUP5VjRsQX1bqNG4u
-rkezp0IHgoOZO8EV1+HOqeEjcTfK6/PWiVuRLtY3aayWscBMsUVJ1InAokc9HSM6
-XRYImzVmhAUDsmjwqsGo+3UEWn5FP/iKkpxtu3/xWnvxOygkRojLF63qGgxVh4yO
-7hIEQWGPqSTP9kx1IKq7hzpL3y8EXaUtp92013+UIy5ZJ29mE9L0NmCO3/7vuJxE
-6rdrkg0Vw74f29odyhVMZrr0bHwZGtidauuhSRdwrr2klVeSya/3Yh/4c9WE/GCG
-M/bKSR7nNmps7egMtaHfe+fmWB15T6EXQRSiYZxEBPbY/p+CJ4sRUdDirE9+xVxI
-dx5miX4nX0sTvQ2twY0fRlR57oRbK3tRuMj417HbRIpOnaQRE3aZYcB03hkcen6W
-gl1qpy52J2tnwD4FE5tVlwLhyYj9wEeHftpFuX+AoIYWClQsouCF1aEPR05i9iwr
-PI03WViFpxHOpsX/hmWdeIcKjOqA2qnKaHbEUAqURKzpxsaNd2smbYJ6ZVMlh3kE
-KkNI33+B3dzv3ioNBCJJ9BMtazQMkk+i6Q0GbYk+cz+vr3GV2Vl9KEjVJ8+5HTcC
-Yi1kNWes97wycQtmJRj9A4/w
-=bu+R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSVTIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QNEQAJ7iMpIKxJI80/VueowE
+89SBv60L9L6Y2KcUdTXzatqQw9e6BLJF3ZevCy9x2i3+BpTN+68vf/86owjEmh7F
+KqnxODXlK6VGsgP0/eOGYDlyy0T94AAHtZdv8o3EPI1av7jCMMLLucSoTmh4fNa+
+gf7i89i36rDCzhRhgntQnmwX9ogGQJomMEdWmoF0R6CPrXxUIQ/5uvobVpjBp9tQ
+6ZqZrHXav8E2vDQiGoU5uSvyennwxnwfIQ+CLCWuJGO/uZSN1Mv13HNJXbPncbVq
+sY3Gr37X6O9kmlTfRYmLBiH9AUfZai1nK9HJ7QMALden+yUAeV1Oj1e6iJWYCu1E
+ZYhzag7jpPC9d4ghAEtXD9U1POcHckuxBei5Mq2CmtVWfcYiTVcdrT5vTyjubv/i
+7xdU0RmKiBCbAFJrNbfJweb5Pd6OkF9vDq0TJoaSUSXdiEDNpPHgE9vGoVVBq8Xi
+ugWEssbQVK36gxoM6spZiQOli6/Ovmuy/eWPZAATH+Q/uJ5sZKhZlfQ7jvwtR9e/
+R9xn0qsdglLwNNNtAw5+P1+1BzJKh4HUrmsQ7D4HzHjJLOLG2m5Sd11YrLUWgIDS
+uIPCRx1LHQgQJ0CasgbClh+qrTjqLRnB2m+vIWhpnCM1q3sYPcv/ZZ25eQCRYdc6
+d1zRGFE2aWHxN0GWBc5cCXSF
+=349A
 -----END PGP SIGNATURE-----
 
---===============7226025880798628836==
+--===============4398754538491925737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cb7ba8c7c64-307438dbdffd.txt
+Content-Disposition: attachment; filename=revlist-40b0c65b3af6-c806b5f74e69.txt
 
-c9301ed8f6b9c4eb69b1ed62f8d19afe26ca8c0a erofs: fix extended inode could cross boundary
-bffeccd5a126cda6611e4152c5aa465dbbe286f3 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-6636996d8742fcc957696b394b903058d78c8a62 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-fe35c9765538e5998fd982411b9831f2b97fe788 net: usb: ax88179_178a: initialize local variables before use
-3c186d9c4048a389b862fae4bbbd458f6cb88b5e iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-15eab81aa8f84b2767ab3f70b17490fd865e3bb0 mips: Do not include hi and lo in clobber list for R6
-24d612d7abd7e022a57e9451bc7265d90113ef5c bpf: Fix masking negation logic upon negative dst register
-fa5a50606cae058fb9278f82d57a35000def3e34 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-c57da6f6e694af33298572dc1db591af914d4bcd ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-e591112ec5a0c1aa7dbfddfe89540182cd04caa4 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-354c1d4435b826b222df75762dbf14c50519435e USB: Add reset-resume quirk for WD19's Realtek Hub
-e68420c8eeee6d919e92eb058c15726b3de396c7 ASoC: ak4458: Add MODULE_DEVICE_TABLE
-3ca90929b6587269ee5eb2d5d1d0c67b780ce91f ASoC: ak5558: Add MODULE_DEVICE_TABLE
-59113a74c52c013a0c10668dce55eb791ce27595 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-307438dbdffd6e10ea2a2df7e4e01474f50425e0 Linux 4.19.190-rc1
+ee162ce229b84f60715718daca041eef6ba17008 usbip: vudc synchronize sysfs code paths
+0f7ef7f879c1a8f932e029faa68c866935baa227 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+dd950af213dbb6b8bf38d7334b099413f3b8c2ee ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+2b4cc26fdbdc68e30dd3ce9f124fe935ce56d48b bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+34877e41ca500201a26abfe22131de0e0ce5a7f8 bpf: fix up selftests after backports were fixed
+ed30045e76e64c78b89c61b9d788624652c76e3d net: usb: ax88179_178a: initialize local variables before use
+24c9f1a8443aed8f74b26df44edc10e6de38e984 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+200c35174f05104dd5072742019b9a1fccaa61e8 MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
+170d431dac2da0c39e5bc3c69cbe5a0f60eed633 MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
+d2f5f90a3df40dcf5bd2ee1a1168205edab4371e mips: Do not include hi and lo in clobber list for R6
+5f5bb26ea32efac5da519a999e4e4cf933759516 bpf: Fix masking negation logic upon negative dst register
+bfbf1a319fab26bc1d8cbd5cde1024830d17379c iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+a4d029064cd71e89cedd05b384a4fec2539c19d1 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+279be76d0a382b3a9bc5228a3184b7fdcb3e6bf9 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+c5301ab127a56d61142afae41d581ae0912f0861 USB: Add reset-resume quirk for WD19's Realtek Hub
+94d46df9fa773696c09494070c609c7cd7d9be38 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+c806b5f74e6938596fcfb33c2346d248d0e15187 Linux 4.14.233-rc1
 
---===============7226025880798628836==--
+--===============4398754538491925737==--
