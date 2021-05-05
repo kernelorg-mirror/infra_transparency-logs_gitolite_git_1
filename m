@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3913799889533356225=="
+Content-Type: multipart/mixed; boundary="===============3249640118823306209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 05 May 2021 09:56:10 -0000
-Message-Id: <162020857037.16269.17513792299257037839@gitolite.kernel.org>
+Date: Wed, 05 May 2021 09:56:16 -0000
+Message-Id: <162020857636.16413.10599834319756742402@gitolite.kernel.org>
 
---===============3913799889533356225==
+--===============3249640118823306209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: fc64912f7ba93331abc6669f07bab95a9369556a
-    new: 6289104cc782679ca441967c6df4e278b3f7984f
+  - ref: refs/heads/linux-4.9.y
+    old: f44373a3e7a37999a7506c79891abbb8f1318471
+    new: edb0ce53fb4758a15ad1d8c90eef6a6041efb773
     log: |
-         0cbe1e4ace358657bfb223985578ffcd4dfac643 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
-         dd6592027a487c3badf0d96f903ebccb29d8b6d9 net: usb: ax88179_178a: initialize local variables before use
-         b7558c5c4f17e5c3f74f4695d173761cf81de7fd iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-         903ba2f3ed1d4fed845a1391c31e61e8f895a4cc ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-         638eb08bc37bb416f509c5d1e41f78760142f93b USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-         653d587df2864bf7f064c3e0d71f03385dc32449 USB: Add reset-resume quirk for WD19's Realtek Hub
-         4d437d8837ef8b23454017c6e164ed3ed87e5772 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-         6289104cc782679ca441967c6df4e278b3f7984f Linux 4.4.269-rc1
+         b0aa524f568dcf41fd854ad1f1f501724b16a498 net: usb: ax88179_178a: initialize local variables before use
+         91991c60819406f9adc6290b3bb0314c1a03466d iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+         9daa5d66f0cf187ffba0e840bb606b0a8b8c88e1 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+         d0fa5b3e7b039cb0f63488ab608093f1ccac26d9 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+         43509ded20bde25690d7ef34e6f70631c2c1db62 USB: Add reset-resume quirk for WD19's Realtek Hub
+         f66de2555ffcecfccb43793c03840f0db7a19bb8 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+         edb0ce53fb4758a15ad1d8c90eef6a6041efb773 Linux 4.9.269-rc1
          
 
---===============3913799889533356225==
+--===============3249640118823306209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620208568 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620208575 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1620208564-dae5c74b592eaeb38d83fba97e00e60803411e0b
+nonce 1620208569-64b37853002eaa64646851e2ef5e6c56a2494efc
 
-fc64912f7ba93331abc6669f07bab95a9369556a 6289104cc782679ca441967c6df4e278b3f7984f refs/heads/linux-4.4.y
+f44373a3e7a37999a7506c79891abbb8f1318471 edb0ce53fb4758a15ad1d8c90eef6a6041efb773 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSa7gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P+gP/39nilqmv9lztv7qLTRK
-QK6LHfdjwpR78cjRj6/HJcRFz0Xjxm5Xzi4R2wOQToR5ajicXEfmBtjzKUT9g2cG
-AKbgBws15WLtewp9qkpU9C8OgphhGpDgp04VAsw35ehB88e2P5X5I2Hp77u0S7GP
-7w7gM7BRmi6eMjH0oaeRtg5VF/o3918YH9iKHFByQdMLn7XzP36ZHNGGH6yR8Xoa
-GeRzFZ8jgCLzMlUhyMRjeUQDSfYLTnXzHrOzwjHPZahUdDd0V+qrds4hrxzKSpsY
-q81hwHuqqloWwlb3UYS3h2tKSS7JhArLKDrGqP/Dquk6VBFFuElCt19IZiwrEfHF
-x7o5jz1AgN8UUsW5EpBbSuQHXj8qE8aPNvvHLNjOvU60xzX4vrxER1fNIuvkuM0d
-v8C8CI/p44TKd/DKNm/LiUeFxeISdkJvWjJgfG0N9MAAAS28Om7ZkpkBy/BajKgT
-mCAZ+aCywjAEkwrI0rlnMjkWqAZnjnx80yBq4shy6MrlZgqsot2+YA9kllLIJMbI
-IBJpGzsyr/8f+R3Cna321etrL9iDYphwuFXTESBzjIwMXndUktOmKzCilxaFDOvH
-6YBfNwigtO2By0/H+V5NI9/f3kYroN4nfeb91p3tZQePbFGwMvUhWjENDZMxcGLu
-8Tl+zjAazXX2aRI8z+g6raFg
-=ZqRe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCSa78bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9eoP/iX/Chrkl5g/PZ/5Ifx4
+j8sJ7PTIkx5eaSJBwb/as2vCIKOj+N3dgNCpFQ9YchzlJSRhukjkqHqZ60hFbkDf
+oucQvbyy0YTIhH19W0NTfOkQ0Pu5eTbgNBCjGXzNW1RunBg0EkpvADpyXvzqQSgx
+D47DCAVd2Fyfv3aZ34nQM69bDKS8idpKsipo3eb8q/3GYgdZ7wkzVEHkgkDcW6Ie
+yAKMSlikSO6LAtOpFu/e/Rjfckpj3fT3Lpvg3sTmbaF1FvZyQJTEahBGs56bVeME
+JMpgI+VBM/dTxbc76/RDusJZdKR7k3kU5eAs7ZiFuUfRJGwnpiDsIc+y73lJk8DD
+8ZW3Du/kMmYR7UbpF2Zk20xa4A2zGjz59VxOt2ldHfLTvP0v85lRWIodrik+GoHU
+NMbemRvSd6JzsZCLjLB3bwFmur2uDiWxgo4OaGhuQL8w6CQGdanr7cc3aePL/X/M
+u9Ai8iBjT42wUQWBQW0qLgfFMzwRABWGL1dKurYERFesaJ8m+MHLcWpb4oqLyu28
+xgphQIJxEkPnKoH3Ih7YC8npBOYmMYHfJwL1miIVtP0Ll/7ZiOXSnqZCcwyyKYQH
+MhR4GyAc98vLxMHIgLbxunzo/t84CCxx/H0LSNQi8WAwK6FhqHVCYHbMZJoIyjpS
+ACnG0Kl5rf7UdykkXymAek59
+=WGdY
 -----END PGP SIGNATURE-----
 
---===============3913799889533356225==--
+--===============3249640118823306209==--
