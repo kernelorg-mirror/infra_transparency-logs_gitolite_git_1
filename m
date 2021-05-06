@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 06 May 2021 16:25:28 -0000
-Message-Id: <162031832867.22954.14117876581074157565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Thu, 06 May 2021 16:30:53 -0000
+Message-Id: <162031865318.26003.15048477731954707334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
   - ref: refs/heads/master
-    old: 6308ef297145e73add65ba86bfdbeaf967957d1f
-    new: cffe80a41cbf9b26446c803177a27f7695f94a31
+    old: 3d389b3b5a266d2771adb3479993d1522e89b650
+    new: 0559508afa3a4b9535cb54f09546ad066041b0ec
     log: |
-         cffe80a41cbf9b26446c803177a27f7695f94a31 configure: fix check_min_lib_version() eval
+         0559508afa3a4b9535cb54f09546ad066041b0ec trace-cmd record: Write set_ftrace_filter commands separately
          
