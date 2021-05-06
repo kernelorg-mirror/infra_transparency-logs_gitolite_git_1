@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 06 May 2021 06:53:42 -0000
-Message-Id: <162028402215.10443.14207517417457866646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 06 May 2021 07:11:18 -0000
+Message-Id: <162028507892.20694.13813626664266544906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 4010987e17fc8efba87c19a6b4dc1f3951f2d0af
-    new: 1ee64913f1785db2ad8117cb97d148c1dc631028
+  - ref: refs/heads/for-next
+    old: f54c7b5898d31eda3d6608da13b55c0466ba49fe
+    new: 2d238b20518facae04ba4ebd7b80f837f507b1c1
     log: |
-         39985794445893ab9eaf7bc9034383098941e98e habanalabs: avoid using uninitialized pointer
-         ddd151c566bcf967437b22f28283719f749a9c61 habanalabs: read f/w's 2-nd sts and err registers
-         1ee64913f1785db2ad8117cb97d148c1dc631028 habanalabs/gaudi: use scratchpad regs instead of GIC controller
+         2d238b20518facae04ba4ebd7b80f837f507b1c1 riscv: Only extend kernel reservation if mapped read-only
          
