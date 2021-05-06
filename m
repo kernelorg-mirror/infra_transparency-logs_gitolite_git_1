@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 06 May 2021 01:18:07 -0000
-Message-Id: <162026388786.397.1087706294274497677@gitolite.kernel.org>
+Date: Thu, 06 May 2021 01:22:05 -0000
+Message-Id: <162026412583.4652.9947553151025778869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: f715477c14bc0429859b4a903ac93e0376cc2311
-    new: a5de6cb7b10c1afd26f281484f5cd3886352fea1
+    old: a5de6cb7b10c1afd26f281484f5cd3886352fea1
+    new: c5ecbb41c6e73a2013577e963a99d8e777fbc9b2
     log: |
-         a5de6cb7b10c1afd26f281484f5cd3886352fea1 selftests/sgx: Report kselftest results
+         c5ecbb41c6e73a2013577e963a99d8e777fbc9b2 selftests/sgx: Report kselftest results
          
