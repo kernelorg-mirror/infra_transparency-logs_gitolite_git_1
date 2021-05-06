@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 06 May 2021 05:37:36 -0000
-Message-Id: <162027945622.28664.12326828248566599940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 06 May 2021 05:37:53 -0000
+Message-Id: <162027947329.28863.8572389750178735010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: d53a664e67f003567d0894c11d72231a7103bc85
-    new: 3c58f1e2d0155720ee9d54c07d15b7ed5a87264f
+  - ref: refs/heads/todo
+    old: be30851f1db22bbb49d9f8bca174e901ab6c4382
+    new: 1de9209a8798ef4ad406bcbfbaa5a7eff346755c
     log: |
-         fc09acb7de31badb2ea9e85d21e071be1a5736e4 scsi: scsi_debug: Fix cmd_per_lun, set to max_queue
-         3ba1eeff00c42ccb31c0089c8c95c3ade546e9b0 scsi: fnic: Kill 'exclude_id' argument to fnic_cleanup_io()
-         35ffbb60bdad652d461aa8e97fa094faa9eb46ec scsi: fnic: Use scsi_host_busy_iter() to traverse commands
-         3c58f1e2d0155720ee9d54c07d15b7ed5a87264f Merge branch 'misc' into for-next
+         8658c7522b55f300d4e48d65007ee851a688d019 What's cooking (2021/04 #06)
+         1de9209a8798ef4ad406bcbfbaa5a7eff346755c What's cooking (2021/05 #01)
          
