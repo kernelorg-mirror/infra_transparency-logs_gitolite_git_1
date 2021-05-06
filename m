@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 06 May 2021 06:31:28 -0000
-Message-Id: <162028268834.29481.6690621816151524248@gitolite.kernel.org>
+Date: Thu, 06 May 2021 06:52:54 -0000
+Message-Id: <162028397475.10132.14182985700601137501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
   - ref: refs/heads/next
-    old: 4010987e17fc8efba87c19a6b4dc1f3951f2d0af
-    new: 059a049f9131c8c70a5db81feec8b3c253b4524a
+    old: 059a049f9131c8c70a5db81feec8b3c253b4524a
+    new: 1ee64913f1785db2ad8117cb97d148c1dc631028
     log: |
-         0b4e0709dfda579e3d96ffcdef2c08dc29f3f79c habanalabs: read f/w's 2-nd sts and err registers
-         059a049f9131c8c70a5db81feec8b3c253b4524a habanalabs/gaudi: use scratchpad regs instead of GIC controller
+         39985794445893ab9eaf7bc9034383098941e98e habanalabs: avoid using uninitialized pointer
+         ddd151c566bcf967437b22f28283719f749a9c61 habanalabs: read f/w's 2-nd sts and err registers
+         1ee64913f1785db2ad8117cb97d148c1dc631028 habanalabs/gaudi: use scratchpad regs instead of GIC controller
          
