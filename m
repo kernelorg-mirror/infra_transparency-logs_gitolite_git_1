@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8618661208424539089=="
+Content-Type: multipart/mixed; boundary="===============5279404855126677906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 06 May 2021 02:25:44 -0000
-Message-Id: <162026794498.11244.16265042512969965877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 06 May 2021 02:25:51 -0000
+Message-Id: <162026795115.11381.4296989275862430608@gitolite.kernel.org>
 
---===============8618661208424539089==
+--===============5279404855126677906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 1c6639c8b7e69441f74bf1bae4ad30a32089a2ac
-    new: baae2e387d2afd8bf13a05e52fb8018560b49869
-    log: revlist-1c6639c8b7e6-baae2e387d2a.txt
+  - ref: refs/heads/queue-rc
+    old: 00405c22dd1068baccc969eb55fdd376eb1fbc83
+    new: 407cb1b56afbd181ce209b6b78ddd74d4771c951
+    log: revlist-00405c22dd10-407cb1b56afb.txt
 
---===============8618661208424539089==
+--===============5279404855126677906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c6639c8b7e6-baae2e387d2a.txt
+Content-Disposition: attachment; filename=revlist-00405c22dd10-407cb1b56afb.txt
 
 f80f88f0e2f2ef9cd805fad1bbf676b0ecd4b55c selftests/bpf: Fix the snprintf test
 db7c691d7f4da6af40a6ce63331a5a9fb9511c2a net: stmmac: cleared __FPE_REMOVING bit in stmmac_fpe_start_wq()
@@ -85,5 +85,7 @@ bf89055927c1d3e1422723f38fbafda40cae33db net/mlx5e: Fix error path of updating n
 7912bacd4c7241bdd708785d04c8b9d6ec81ea5a Merge branch 'patchq/385612' into mlx5-for-net
 5a4fd7907c15d9002f43b1372e5ae75557af2420 Merge branch 'mlx4-for-net' into net-rc
 baae2e387d2afd8bf13a05e52fb8018560b49869 Merge branch 'mlx5-for-net' into net-rc
+50abb99c698b66a779464035b91848b628cfb015 Merge branch 'net-rc' into queue-rc
+407cb1b56afbd181ce209b6b78ddd74d4771c951 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============8618661208424539089==--
+--===============5279404855126677906==--
