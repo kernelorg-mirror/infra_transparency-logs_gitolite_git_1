@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Thu, 06 May 2021 14:29:41 -0000
-Message-Id: <162031138141.16548.13969562214693626349@gitolite.kernel.org>
+Date: Thu, 06 May 2021 14:40:26 -0000
+Message-Id: <162031202663.23630.1927386727186428388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/libs/libtrace/libtracefs
 user: rostedt
 changes:
   - ref: refs/heads/libtracefs
-    old: 055ce1b76b6a60a2822d9199f0de31b016ab36d1
-    new: ee9ae8eea18e12945037f9ada579de40de715116
+    old: ee9ae8eea18e12945037f9ada579de40de715116
+    new: a9c7b6a57de862e7c6910977dd86be8b35dc4207
     log: |
-         193a4277485a2fdf139d8d5319594dec55a6abba libtracefs: Use mode with open()
-         ee9ae8eea18e12945037f9ada579de40de715116 libtracefs: Free the regex in update_filter()
+         2aa253e5b6be42bc7711a4adf1ff030e2c26a62a libtracefs: version 1.2-dev
+         fc94d1a87cc132564a75856c9aca401fcfb5233b libtracefs: Add tracefs_event_enable/disable() API
+         a9c7b6a57de862e7c6910977dd86be8b35dc4207 libtracefs: Update the man page for tracefs_event_enable/disable() APIs
          
