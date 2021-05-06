@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5931170380892843555=="
+Content-Type: multipart/mixed; boundary="===============6244598639839437181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 06 May 2021 09:58:15 -0000
-Message-Id: <162029509561.8960.10634704413090996298@gitolite.kernel.org>
+Date: Thu, 06 May 2021 09:58:33 -0000
+Message-Id: <162029511394.9168.11324499098957299555@gitolite.kernel.org>
 
---===============5931170380892843555==
+--===============6244598639839437181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/umn.edu-reverts
-    old: 4e2626be3c499bbd1eb7b3636f94fe7acd3c3a57
-    new: 42843bded2b6512a29d800d77c5dba4b1ccb49e8
-    log: revlist-4e2626be3c49-42843bded2b6.txt
+  - ref: refs/heads/kbuild
+    old: 5430a8c98ee1f4e7be8e8f8a3bb14ea8de1323ac
+    new: 9eb7055796f1a1b1e7a237b426d2d54c12801e10
+    log: revlist-5430a8c98ee1-9eb7055796f1.txt
 
---===============5931170380892843555==
+--===============6244598639839437181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620295085 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620295107 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1620295085-50a6c4d7f138c611c6d4b58280cf5890a750b5ab
+nonce 1620295107-d84b8692b568f2c07fecd00ee010856c77c15a91
 
-4e2626be3c499bbd1eb7b3636f94fe7acd3c3a57 42843bded2b6512a29d800d77c5dba4b1ccb49e8 refs/heads/umn.edu-reverts
+5430a8c98ee1f4e7be8e8f8a3bb14ea8de1323ac 9eb7055796f1a1b1e7a237b426d2d54c12801e10 refs/heads/kbuild
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCTva0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6LQP/22wizAy62u67ciFptEe
-MmrStGjPbWsRyAFZfQjS8ZsTaJ9vX7caX/GiYYqKksCxG5TaNfvL0mFb7SFqbHMT
-lUQcL4wMDrq7gH6wmMewNspE3BdyMY53QT87dU+03uBYuktWjaaz1oKke1GOOWtV
-q5rj55/ZGs3Q9Xewx9Cu3HrFaEgcuN2TlClW6ELxCoCtMBjcyG5TYlj7kLmEB9Py
-/6nJFWOKOJlTOsZPz/cIh/k1QBqY1mfa68wPMibsd09H86Y+2CE8iTICx8ViHJ1Q
-r4JcZIBqV8cqa+0e7y0yzZGXl2JpnXzXuMaQKazn7p0bFSQmHsjJBoHcv+znP/ad
-KKYbxfOn/kWCQsLZFiGf2jEzyLdUsINDXb5W+hJ2CMTTNADlLDLco7GAv0NnIHbs
-kiNYjAgaesE7SxeD6IK39FT7WtypJr5ZAr3UnqwhrWroMZ+6H+BC3i+UPlpeGYHZ
-+GQWX9zI8zwA3/wBXCYBAQTQyqq2IuH/LrPlzMMvGW9Wz+743mkFFEw/CDw1xKQ7
-16AxxEltdED4pBSKwFcYxmvZdwWsRxduy2XMu6qBapcjzQo8IS/WaNSIW8YMSjsN
-tcZRCoXR1BFBk7fS6xg8MCnZ0BK6doakRNEcj5AsXgbBDN1g3h4rAEocmrm/npqJ
-zxVgasBSE5YvmmuZqM2FQHXU
-=5xKL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCTvcMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9JEQAKQjdg3Q5aLQVv7V/hnS
+//Bf9t8kkhWrpsEHwSegrrLulWEDAFSl8PfcN9drvwsX/mMXmXHBFdAic9vTIWR+
+H7TXi5zP6cHsr3Y3HrVLdsXpF8G5ODSsl8xZyO+1oe1NEDC4rxmFUbU1Wr7+fUBR
+iMvsvm0cCAhngyipxq+AySl9PPGhSeT6Q6FhcM71VJdamcR7y9bDGP9FZswDzEMM
+XKxUqm9sUZwC7iODNrnKdEo2pNMRv2dxefuX5fdg2R4abqQjcuwJxj+LIHuS2l3V
+99/oIGRz1zErB+b9T2De5nmP5ptLrYSf95xUIdI92vaW5J4BWLZpxzMa1g1fdoIC
+kzu/yhCtw8r4HbmSvI5kA/7FOLAg1hkc4sT8ILxu+AKMPDf1oUDzQpGWz8UIjMa1
+18Bd2NJuGVWz+mXLC8EDresCeIs0YVCOl1hMBMAgvQ58TzQKYC7LwOdqYNxHdz/g
+t3jXg3M310KFaRRIcr+5kfs38fRhZXIQU9EAy9AaG4Nx5yZQSYoxJQpLQtYcFpND
++r5MPwHyVtZYiGOFUw7VjcNvlw2dYeTCcEYk6jNGhv9uJri99btX+PbvRQHfPmXq
+f0Qo0jKQXh6Rm9Z1tfWB4F+X37YOjoe7TGFip2MTn1m/fWfDzF0fXZSu8/CxNm42
+LQKbWyFr4/Zcn9Zg8mv1ss7l
+=TVhR
 -----END PGP SIGNATURE-----
 
---===============5931170380892843555==
+--===============6244598639839437181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e2626be3c49-42843bded2b6.txt
+Content-Disposition: attachment; filename=revlist-5430a8c98ee1-9eb7055796f1.txt
 
 e41d237818598c0b17458b4d0416b091a7959e55 qib_fs: switch to simple_recursive_removal()
+4313e3523373f6b313d4218b51418f53475bcce5 ecryptfs: get rid of pointless dget/dput in ->symlink() and ->link()
 145e1da374bcba14c9ca069646f68b76c422612a remoteproc: sysfs: Use sysfs_emit instead of sprintf
 34731ed13e8a8ca95fa0dca466537396b5f2d1af leds: lgm: fix gpiolib dependency
 e042e95bcab34b2265b0aaeb497030ea13c6c251 thermal: amlogic: Omit superfluous error message in amlogic_thermal_probe()
@@ -199,6 +200,11 @@ fcf044891c84e38fc90eb736b818781bccf94e38 ARM: Qualify enabling of swiotlb_init()
 20e1dbf2bbe2431072571000ed31dfef09359c08 media: uvcvideo: Use dma_alloc_noncontiguous API
 84fcfbdadbfdd86c9a43a52703203e05fe7efd92 dma-mapping: remove a pointless empty line in dma_alloc_coherent
 ef6e01af398acff63eb33c58e72839e50a3e1c4b MAINTAINERS: Add co-maintainer for Qualcomm tsens thermal drivers
+b2648d512eb2a8188cf3cf5ac75c129be2d33121 ecryptfs: saner API for lock_parent()
+483bc7e82ccfc11a785a719f4e971db16ffa29ff ecryptfs: get rid of unused accessors
+9d786beb6fe5cf8fcc1ce5336a89401eaa444fb6 ecryptfs: ecryptfs_dentry_info->crypt_stat is never used
+a2bbe66493ee380eb25e080e7fcdd1278a847f7e constify dentry argument of dentry_path()/dentry_path_raw()
+2be7828c9fefc8cd205d1948faac48da8ce6c2ef get rid of autofs_getpath()
 ca0d2fb790eb26fc53d851007ed1ead6c048be11 pwm: bcm2835: Improve period and duty cycle calculation
 acf3402d83636ef4fb81aa35593f1c1fd7f05738 pwm: ab8500: Implement .apply instead of .config, .enable and .disable
 5a43c201c9d05a65f1997877ba45ec41ee91b8b5 pwm: imx-tpm: Use a single line for error message
@@ -218,6 +224,7 @@ ee81ee84f8739e584c9ccf113ba3c796187b7080 PCI: vmd: Disable MSI-X remapping when 
 2c61f32124b0c8868ac8579bb626ea579f2e08bb PCI: microchip: Make some symbols static
 6e7628c8c3c1af74ea31e8da85b641a50fe3a86c PCI: microchip: Remove dev_err() when handing an error from platform_get_irq()
 3d0b2a3a87ce5ae85de46c4241afd52ab8b566fe PCI: keystone: Let AM65 use the pci_ops defined in pcie-designware-host.c
+90432e600619cbd3f38ec817374a5db0caf1d600 buffer: a small optimization in grow_buffers
 1b7996a528b3f81bb8dac6d29a957db1d33546d3 PCI: layerscape: Correct syntax by changing comma to semicolon
 b5d9209d50838474fc1b2901d0e11bba59906428 PCI: brcmstb: Fix error return code in brcm_pcie_probe()
 10739e2a5e83ecac6a7d2422369c5fe8a1a72b04 PCI: tegra: Fix typo for PCIe endpoint mode in Tegra194
@@ -232,6 +239,8 @@ c99e755a4a4c165cad6effb39faffd0f3377c02d PCI: Release OF node in pci_scan_device
 e1175f02291141bbd924fc578299305fcde35855 f2fs: fix to align to section for fallocate() on pinned file
 f2cc020d7876de7583feb52ec939a32419cf9468 tracing: Fix various typos in comments
 8d69f62fddf6c1a8c7745120c4d6aab9322b001a rtc: rx6110: add ACPI bindings to I2C
+64b2f34f38cb999597570e09e04aa6e4c3fed07e apparmor:match_mn() - constify devpath argument
+eecf77e097d27d26fe289d172b2e98433a8989f4 autofs: should_expire() argument is guaranteed to be positive
 4613bdcc122e9e60e0763c5851337470d25d7e40 kernel: trace: Mundane typo fixes in the file trace_events_filter.c
 a7ed7150f351177e46409cca15874101f95370cb leds: lgm: Improve Kconfig help
 30c3d39f7f78f3b232f6a6f6357a545cbe23cc16 tracing: A minor cleanup for create_system_filter()
@@ -266,6 +275,7 @@ d6d2b491a82e1e411a6766fbfb87c697d8701554 f2fs: allow to change discard policy ba
 e8bf1f522aee3b3e1e7658e8f224dca1d88c3338 f2fs: delete empty compress.h
 753a8ed0ae9c196a7d09a17aae1e354cabd1233d f2fs: fix wrong alloc_type in f2fs_do_replace_block
 823d13e12b6cbaef2f6e5d63c648643e7bc094dd f2fs: fix to cover __allocate_new_section() with curseg_lock
+a0d8d552783b3fec78c775a57fa7e2b87e16e6ca whack-a-mole: kill strlen_user() (again)
 31ec9c2746467a372b009940ce7b722055daaf6a PCI: mediatek: Configure FC and FTS for functions other than 0
 52ab55dfe32357d5889eef2969a03dd662aa2b7d dt-bindings: PCI: hisi: Delete the obsolete HiSilicon PCIe file
 a7bf66ff3d945db9dd2079265ce9cc5c374cecc3 PCI/VPD: Remove obsolete Broadcom NIC quirk
@@ -374,6 +384,8 @@ c521db95d4e3f7ba7dd8fd0679ff148d848c1d4b um: Remove unused including <linux/vers
 6e166319a63448c1ba9e310ddd94c8e3e9ac4e3c um: pgtable.h: Fix W=1 warning for empty body in 'do' statement
 1a594f0afa2b176531e600a6bf8074849fe2a780 um: elf.h: Fix W=1 warning for empty body in 'do' statement
 ed102bf2afed226703eaf85a704755bdbea34583 um: Fix W=1 missing-include-dirs warnings
+d692d397e8a69f4ecdd7fb35ff0140d69bf17e18 hostfs_open(): don't open-code file_dentry()
+80e5d1ff5d5f1ed5167a69b7c2fe86071b615f6b useful constants: struct qstr for ".."
 42eb0d54c08a0331d6d295420f602237968d792b fs: split receive_fd_replace from __receive_fd
 a7b6864da7e3fb59c5385bb1c28f3a676dc3da27 PCI: shpchp: Remove unused shpc_writeb()
 7f100744749e4fe547dece3bb6557fae5f0a7252 PCI: tegra: Add Tegra194 MCFG quirks for ECAM errata
@@ -503,9 +515,11 @@ e1d3f3268b0e512ceb811dd4765e476626bde71c PCI/sysfs: Convert "config" to static a
 527139d738d7f2e9f929c752eebf3cbf0f74c754 PCI/sysfs: Convert "rom" to static attribute
 f42c35ea3b137c01b3e073232131674be8efb924 PCI/sysfs: Convert "reset" to static attribute
 fee742b502894c8ed02506fff61d7605934f93cb smb3.1.1: enable negotiating stronger encryption by default
+0c4b7cadd1ade1916a3a6dab0d13ff5665b04cae Orangef: implement orangefs_readahead.
 0679d29d3e2351a1c3049c26a63ce1959cad5447 csky: fix syscache.c fallthrough warning
 e58a41c2226847fb1446f3942dc1b55af8acfe02 csky: uaccess.h: Coding convention with asm generic
 785e3c0a3a870e72dc530856136ab4c8dd207128 tracing: Map all PIDs to command lines
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 07b4523e9e2fe9763e5c62da032d3c444e83d0fd PCI/sysfs: Rename "vpd" attribute accessors
 d93f8399053dcf117ff56a3029ff08c0e36f4b75 PCI/sysfs: Convert "vpd" to static attribute
 1017275d2e43dba68527e0e69f4cc12d2b0f8966 PCI/sysfs: Rename device_has_dsm() to device_has_acpi_name()
@@ -546,6 +560,9 @@ e947e7b1163d5a4375dc1ca6134ebda67ee7d33a PCI/VPD: Change pci_vpd_init() return t
 0a08bc07610e172972985d6322fd671cff76c928 PCI/VPD: Remove pci_vpd_find_tag() SRDT handling
 5881b38912f3f48a4bd74a4eed58be12df012063 PCI/VPD: Add helper pci_get_func0_dev()
 e00dc69b5f17c444a38cd9745a0f76bc989b3af4 PCI: Allow VPD access for QLogic ISP2722
+b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 64b9f64f80a6f4b7ea51bf0510119cb15e801dc6 vdpa: introduce virtio pci driver
 58926c8aab104daa49f35b9fcf664d95c22c8ac7 vdpa/mlx5: Enable user to add/delete vdpa device
 d0f9164eb294aeb884cbe36ddbbae34fa0124aa1 vdpa: Follow kdoc comment style
@@ -854,74 +871,26 @@ d8cb379cda885ac172454d7e680da65ebd6676b1 Merge branch 'turbostat' of git://git.k
 7c9e41e0ef7d44a0818a3beec30634f3f588a23d Merge tag '5.13-rc-smb3-part2' of git://git.samba.org/sfrench/cifs-2.6
 a79cdfba68a13b731004f0aafe1155a83830d472 Merge tag 'nfsd-5.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 8404c9fbc84b741f66cff7d4934a25dd2c344452 Merge branch 'akpm' (patches from Andrew)
-42be5f4d3edd870db8fb27c394c906cfe16601c9 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
-1e64dffaa50471abef918a77bb5e787b4474b916 Revert "ACPI: custom_method: fix memory leaks"
-99f7b6874ed10256f55d5e7301e5afcd243d7590 Revert "media: rcar_drif: fix a memory disclosure"
-4b4508d1b9a42e0b9800defcc84bdee7307d219d Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
-48775e5c1cf8366a61249f4c0f553ea81967144b Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-fd93abca9e12a25c64455e7c05a16530eb9bc009 Revert "media: usb: gspca: add a missed check for goto_low_power"
-eb46198991490909ca01b92424fe2f67196065ef Revert "ALSA: sb: fix a missing check of snd_ctl_add"
-560c1842046a70f6c03e7be62d53811f10feeb6c Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-017495989c9370a0b04e2180ba4181c6157812db leds: lp5523: check return value of lp5xx_read and jump to cleanup code
-7e5673861887b96a3cd9631686481b5d0311132b Revert "serial: max310x: pass return value of spi_register_driver"
-677a4ac2be6c24a7d87757f8d9672c4dd306bd38 serial: max310x: unregister uart driver in case of failure and abort
-f6667c955017892bc2f6126de7b94818f4bf315c Revert "rtlwifi: fix a potential NULL pointer dereference"
-03818a548f6f6e140e7e6bddc0d9e2e7f1e21953 net: rtlwifi: properly check for alloc_workqueue() failure
-54d0f5f70579617a188d768e34d847f06c6ac2a2 Revert "net: fujitsu: fix a potential NULL pointer dereference"
-a28b9705f0860fb59275dd02eda5cd6797c5f553 net: fujitsu: fix potential null-ptr-deref
-6500b2ee2212b1dbc1297dfe5036a8b4e2bda780 Revert "net/smc: fix a NULL pointer dereference"
-35b91ddf56704d90a29be65bc39195d80cc0665a net/smc: properly handle workqueue allocation failure
-91b9a38e42ec0bd7deab37ce66ac82f68b445947 Revert "net: caif: replace BUG_ON with recovery code"
-01bb0e4b945fcdf9b3d01b775320b4acca64aff9 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
-56d7c9246c90974913d838c77cdb5414c7c9a7e5 Revert "net: stmicro: fix a missing check of clk_prepare"
-54740941078b1e589647413192a47dbba81c6ef9 net: stmicro: handle clk_prepare() failure during init
-79578af7aa41b4d28031dd5fb33e2cbd5dd296be Revert "niu: fix missing checks of niu_pci_eeprom_read"
-454d98884877ca53d1eebcb8809d8ec235db1670 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
-81ca800b8cf035c75ad80a1347547e933442ad00 Revert "qlcnic: Avoid potential NULL pointer dereference"
-e4157f8a9ba18fe2c51ccec7c1f7650efb667882 qlcnic: Add null check after calling netdev_alloc_skb
-33e5e1ec47a5fe52f2c19c66d825d8b1b6aef339 Revert "gdrom: fix a memory leak bug"
-b6b0826258cf5d867e680bd192aa2e2fb8999683 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
-ac2cf165b162d3ff292b88f3cd25c0a2c760d315 Revert "char: hpet: fix a missing check of ioremap"
-25724dcaf7fdb21db1ec3053c952ab282a50a14e char: hpet: add checks after calling ioremap
-f5485dbbf1055897b196e1dd371ee68680c1aa7e Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
-3a541c300826ad5e105c005cee6bd31622d6839e scsi: ufs: handle cleanup correctly on devm_reset_control_get error
-b8533f217d66be52e0451c474ab36cadc26fa321 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
-f7186d5a5d450ff1c1cfa46b72c8835b9ed9da2e ALSA: gus: properly handle snd_ctl_add() error
-b4a0d132c891fae9e2a45642989bd0821c2c1fad Revert "ALSA: sb8: add a check for request_region"
-b9ae7a930766f7008c44554b5c112f805dea2460 ALSA: sb8: Add a comment note regarding an unused pointer
-8326a261317b3d9a00859b30a252588fac1ed3ce Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
-963917e0fd8d6f1c026baa6bb29efcce1dc6167a ALSA: usx2y: check for failure of usb_alloc_urb()
-f0bc022e6c724b2af32efd1db55a97e1e6b018b1 Revert "video: hgafb: fix potential NULL pointer dereference"
-7a65f055beedd5603a46c8454bb314dc99b909a7 video: hgafb: fix potential NULL pointer dereference
-7fcccb8fb1c0ec526f5c997230da1f1c262d640f Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
-67a4d6e015ffefd19189db92e259b1de200855f5 isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
-82b31ac9b0ec99992e9bbf667f9ab4ffcabd29cc Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
-72edab5bb82ebf1098092e4146702d954222cfe2 ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()
-ed7aba0453bbd4da3c24cbd82cf512b138186e46 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-b9f0696a10559ea2d88095da015e71672b4c1e58 rapidio: handle create_workqueue() failure
-c11010e4c51f007da3e3cca9bcdeade210daca32 Revert "isdn: mISDN: Fix potential NULL pointer dereference of kzalloc"
-6163c5435b566612c3ad9a3d29653b0ef22bb171 isdn: mISDN: correctly handle ph_info allocation failure in hfcsusb_ph_info
-0c89621219ce6f42d9e180c3f00464124c751f65 Revert "ecryptfs: replace BUG_ON with error handling code"
-1ea809955aacf66068bd00f735c43d6f8dfe001d fs: ecryptfs: remove BUG_ON from crypt_scatterlist
-f9f939fe438a8c02c56c3800e5610f53be9a5ad9 Revert "dmaengine: qcom_hidma: Check for driver register failure"
-000f687e0704284e14d429c2dfaae93f94cea43b dmaengine: qcom_hidma: comment platform_driver_register call
-6df747d491f748edc01aa5045c305129da4124bd Revert "libertas: add checks for the return value of sysfs_create_group"
-1a4e4ef919084c9a40dbb696dcdd327b89f35152 libertas: register sysfs groups properly
-295f7d598be61c0da03f98bd448c22657ac5463a Revert "ASoC: rt5645: fix a NULL pointer dereference"
-ede107ceba0757827b3be48b3105e2aabcd7ad5f ASoC: rt5645: add error checking to rt5645_probe function
-c1275ed26baf8165cb38a76537d260528dc5b5e6 Revert "ASoC: cs43130: fix a NULL pointer dereference"
-c5b04562a69d3cd0bf07b91c14d56aef67bb4e5d ASoC: cs43130: handle errors in cs43130_probe() properly
-0532b05de9275eeb8c1514628c30686a309b3be7 Revert "media: dvb: Add check on sp8870_readreg"
-590de4f3eeea5af24091ef34fd98e23edade704f media: dvb: Add check on sp8870_readreg return
-134e156f2db78b304af2fe07d689296c40716843 Revert "media: gspca: mt9m111: Check write_bridge for timeout"
-8f46c8d11e06ed6561d2c4e2c94145ac8a0b5fc2 media: gspca: mt9m111: Check write_bridge for timeout
-79f86b6a0d8b0dae60341cd8732541df24879bfa Revert "media: gspca: Check the return value of write_bridge for timeout"
-35f6419eccb2ec57b80cce66fb512b0bb9e7e72f media: gspca: properly check for errors in po1030_probe()
-a74d6e1d3c826446c5528657804af777dfe63105 Revert "net: liquidio: fix a NULL pointer dereference"
-22f8eba1d9898ed9392cfd357c35671f71239304 net: liquidio: Add missing null pointer checks
-9b103bf858a15a5b297ef654a4b3ba8ca82f9581 Revert "video: imsttfb: fix potential NULL pointer dereferences"
-c23d13422c817597e8075429a295ee0c8ce9941a video: imsttfb: check for ioremap() failures
-6bc65a70385e83d273f801cf217bfece49ed354f Revert "brcmfmac: add a check for the status of usb_register"
-42843bded2b6512a29d800d77c5dba4b1ccb49e8 brcmfmac: properly check for bus register errors
+c92240f04a06390bf5459fc4c97e073f37ca3237 kbuild: move x86 install script to scripts/install.sh
+f188a5f8f0c15c70baffd8628a68d811539e5900 kbuild: scripts/install.sh: properly quote all variables
+327ba99f16a21bcb135d8b31efc091dc4260ae6e kbuild: scripts/install.sh: provide a "install" function
+3bed772db9ed331e081590b22a7bc82aeff4c271 kbuild: scripts/install.sh: call sync before calling the bootloader installer
+9d8b945c5aaf117c3cd1d466d981ded53091685e kbuild: scripts/install.sh: prepare for arch-specific bootloaders
+6879929e09d6b644970b732f0a5bef644b5b62d4 kbuild: scripts/install.sh: handle compressed/uncompressed kernel images
+466c0d2fe4b167b97686b625acd2c039d2406c7b kbuild: scripts/install.sh: allow for the version number
+5c93ae1edf0d36d4256acbd5dfd99146c89d1037 kbuild: riscv: use common install script
+f17c7fc4e4db9baada519eae181ea2b85104faeb kbuild: arm64: use common install script
+0f93a0129f48b755469487c100c3d1b10b4c00c5 kbuild: arm: use common install script
+4dab28f713a77a88b6ba3acfb19227651810ab94 kbuild: ia64: use common install script
+100738950689d4a1a7c2e62debd6fbc7c5968498 kbuild: m68k: use common install script
+51f41767d40b47cc24f4fe580c168ae9c4f4ea71 kbuild: nds32: convert to use the common install scripts
+2470a921bbc76030ae331ccb07e905d9a1d8bb14 kbuild: nios2: use common install script
+b872a6cca2624dbce1aa5c8a18354081b371cdf3 kbuild: parisc: use common install script
+42b3b8a963e0988d71bc1536aa39b37293e9efd1 kbuild: powerpc: use common install script
+2a51d74655b5a8e71777a1c212d402c14bbd1b25 kbuild: s390: use common install script
+1b43b5043e2b3f1422149bd6ecd24de7d7bd308f kbuild: sh: remove unused install script
+c20480e487c74e9e56703e48d1b5c9110166ff51 kbuild: sparc: use common install script
+d726a35883e1751ed9937f280c45841e3346e7da kbuild: scripts/install.sh: update documentation
+9eb7055796f1a1b1e7a237b426d2d54c12801e10 kbuild: allow arches to have their own "bootloader.sh"
 
---===============5931170380892843555==--
+--===============6244598639839437181==--
