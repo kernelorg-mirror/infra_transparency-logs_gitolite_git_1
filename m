@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7671951143840890320=="
+Content-Type: multipart/mixed; boundary="===============1556840931840589553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 06 May 2021 10:10:53 -0000
-Message-Id: <162029585326.16904.8904492096679994224@gitolite.kernel.org>
+Date: Thu, 06 May 2021 10:11:21 -0000
+Message-Id: <162029588150.17106.10504451319121042206@gitolite.kernel.org>
 
---===============7671951143840890320==
+--===============1556840931840589553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 6398b34b9868849df64f2cb9bf0f54ed80145917
-    new: b0211a9d8a99c02dd9417a0766cd06d1f09d0e8b
+    old: b0211a9d8a99c02dd9417a0766cd06d1f09d0e8b
+    new: aa5c2e8aa6b1da00a49e3644c35ebdcf3ad4ec34
     log: |
-         63564b53d327dfce9e5d2537be87558d11cb1a0b staging: fieldbus: anybus: Make remove callback return void
-         b0211a9d8a99c02dd9417a0766cd06d1f09d0e8b staging: fieldbus: anybus: Refuse registering drivers without .probe()
+         44fd1f0aac4a19484548af071f4e5b9960d892e6 staging: mt7621-dts: remove ethsys node
+         aa5c2e8aa6b1da00a49e3644c35ebdcf3ad4ec34 staging: mt7621-dts: use standard 'syscon' string
          
 
---===============7671951143840890320==
+--===============1556840931840589553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620295847 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620295875 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1620295846-92c5df7318702de78251b59cdad53889b3953fd9
+nonce 1620295874-3c043de624859e7b192ffb7d3188842d79879616
 
-6398b34b9868849df64f2cb9bf0f54ed80145917 b0211a9d8a99c02dd9417a0766cd06d1f09d0e8b refs/heads/staging-testing
+b0211a9d8a99c02dd9417a0766cd06d1f09d0e8b aa5c2e8aa6b1da00a49e3644c35ebdcf3ad4ec34 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCTwKcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4lMP/jIiG8EdJTUveTM+i3yw
-tH33lEP1AC1ZOoAldEYBhuiE+gON4D3WfoyjtzkoUwha3aUUNrVmYN77zHQD5bHc
-v3w3SbXPOWx6NoX77WijkyZniCePY/mTITGM5PDVKnWlv1tYaB17mqPL9bstLW7f
-LHAYDfuMuUHY8JUCOKwtGX+8w0pfGBF+apKKr92pgQ1eynEHGvYYouzgdepHAmJe
-FhNvljzJteztOPOU4sEy503HRwl15lsWDA7rIaHyD38r/2SzeodVh0EHlwjb7kGc
-+Mz5Bsjqvu0z0dBkWcfdAoKPxsB+WhBydO0Z65g1WkyBbw+WhdRLGFLQixO/Wfk+
-dNZr5MIlnQsxFzPj8pzRFMPaT+WROLry6tYi179cdlp4i5J4dRb1zTcHpQOtDkoK
-Cvhp4UXBS3w1GXvy2cSTkGDb4otoB3kjwzZFj4qWOVfJ2tPABYnQhHdvVAVDjKKa
-cGgW4LXuziXZZOAViY3mYCojvUWKhmwLmDtzoYKjqK4NdNfi1Aw/X55pgC4IVAJp
-ZckfqprlnkfOmp71IS/aLk07DCdZQoZN1Rt5On7d+59+BaAlAT3MGUchgbYfyxUs
-Wljz3quCcIrDQB28SL2z0nmiXZSbv56B8qdLQr5YPhccIFOMke8aX1v/ms93bHYh
-CYkSzchwFHg+E6VNTu9UkRs5
-=onZ1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCTwMMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8D0P/Re4qbyokO6Ea27E0UEv
+K2tzZsH+OtYCwdVVUFUHKxZ2fLFSWi56UfQvGO9OR8cnj+D3yMI59uQxGedFEBL5
+ZreaY0p69NmYy+KLmGTgYouTNKQ4oEOKG81cAEpjdVvYLHfvMWjO/RPhdBUSP052
+mo1BbUw/SUjlSp0jbCHoxdE0iycwnTlF1PRlA4H21gcnQDBfrUTfJwZR08mohzRs
++dC7EEs8HU5eZxVPqPrrTE23eOq0Rujoj4zW1l7uvs+vL+yfpaPvd/OU5bfCMYoG
+iUmT6HIw+lJ7wOkjpmjclF+98yZJuMw1g/3/2y9RlLlDF5BbnCCILX+0ZhTYJ7JI
+134d+u62gfWu3NwksQA5omBHBLLjppK+llWRvNdeZ/GJfxwZ4csC1Sc0zXmbhuCp
+a3v25dlIPcBNrPDCMbW40uT/R3+w6oamJXiCtJYSMw2nrSWAPAhEoOmwKyOhNocX
+D+6GkuVeoNi+H7VOnBrduYcMTduBSh5YYQFAJX93houl6KTev1wx1IZj4gPEOCyr
+s+qrs5ALPsZBokH9irOdgjWheFnwObXGJdnts/OaGcIEqaNnJ8bC3HD1f3eiY69I
+Br6DhG7uSR9QuZ2zbg0ei/8xMntimycpPMDND2EyD5OBYHj84zhKU6qxhAVFlB7u
+nwQgNsD/IWLrrk10lgq1WONq
+=n6TO
 -----END PGP SIGNATURE-----
 
---===============7671951143840890320==--
+--===============1556840931840589553==--
