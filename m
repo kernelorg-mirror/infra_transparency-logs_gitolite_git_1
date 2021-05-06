@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Thu, 06 May 2021 04:48:45 -0000
-Message-Id: <162027652579.30890.750693294930521097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 06 May 2021 05:36:55 -0000
+Message-Id: <162027941561.28227.12163320040685724800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/dev-test
-    old: 1531853eb72b335c488171dd0803e9c417de7e1f
-    new: 025a198b5f4bd5812591193776839d58b72cbfcb
+  - ref: refs/heads/misc
+    old: ce4f62f9dd8cf43ac044045ed598a0b80ef33890
+    new: 35ffbb60bdad652d461aa8e97fa094faa9eb46ec
     log: |
-         441a82c8f47bd65b959b4ba402dc2acb0935896d fsck.f2fs: update kernel version in superblock on forced check
-         025a198b5f4bd5812591193776839d58b72cbfcb tools: Introduce f2fslabel
+         fc09acb7de31badb2ea9e85d21e071be1a5736e4 scsi: scsi_debug: Fix cmd_per_lun, set to max_queue
+         3ba1eeff00c42ccb31c0089c8c95c3ade546e9b0 scsi: fnic: Kill 'exclude_id' argument to fnic_cleanup_io()
+         35ffbb60bdad652d461aa8e97fa094faa9eb46ec scsi: fnic: Use scsi_host_busy_iter() to traverse commands
          
