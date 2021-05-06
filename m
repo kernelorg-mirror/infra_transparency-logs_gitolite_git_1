@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2915319422617758572=="
+Content-Type: multipart/mixed; boundary="===============9146788042286877719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 06 May 2021 13:36:19 -0000
-Message-Id: <162030817966.12582.13263745159790489379@gitolite.kernel.org>
+Date: Thu, 06 May 2021 13:36:30 -0000
+Message-Id: <162030819061.12669.17417048547459879077@gitolite.kernel.org>
 
---===============2915319422617758572==
+--===============9146788042286877719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 0c89d87d1d43d9fa268d1dc489518564d58bf497
-    new: 0258bdfaff5bd13c4d2383150b7097aecd6b6d82
-    log: revlist-0c89d87d1d43-0258bdfaff5b.txt
+  - ref: refs/heads/perf/urgent
+    old: 4b2f1e59229b9da319d358828cdfa4ddbc140769
+    new: e10de314287c2c14b0e6f0e3e961975ce2f4a83d
+    log: revlist-4b2f1e59229b-e10de314287c.txt
 
---===============2915319422617758572==
+--===============9146788042286877719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c89d87d1d43-0258bdfaff5b.txt
+Content-Disposition: attachment; filename=revlist-4b2f1e59229b-e10de314287c.txt
 
+8779c688edbbb387aa2f6953ce7bcaa56012cc6e platform/x86: gigabyte-wmi: add X570 AORUS ELITE
+f9f54983005cdd1060b85b16933677442139d88d serial: sh-sci: remove obsolete latency workaround
+c9072b674f76ef2c52fecda2ebd2e66c99c451ab media: venus: core: Fix kerneldoc warnings
+999267d07240f0a9d8a85c0521b311331081b605 media: venus: core,pm: fix potential infinite loop
 fb2b008b00fe6fdd1888f08c0f3db199b52d6eb4 media: venus: core: correct firmware name for sm8250
 bcf6b264a806295cd4578aa7a03b3bcb15b1ab30 media: venus: fix hw overload error log condition
 7bf28a2153ea3cc8362d78a76e1bccf06ce7805d media: venus: helpers: keep max bandwidth when mbps exceeds the supported range
@@ -403,6 +407,7 @@ d61684b56edf369f0a6d388088d7c9d59f1618d4 x86/crypto/sha512-avx: Standardize stac
 ec063e090bd6487097d459bb4272508b78448270 x86/crypto/sha512-avx2: Standardize stack alignment prologue
 27d26793f2105281d9374928448142777cef6f74 x86/crypto/sha512-ssse3: Standardize stack alignment prologue
 7d3d10e0e85fb7c23a86a70f795b1eabd2bc030b x86/crypto: Enable objtool in crypto code
+0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
 a161545ab53b174c016b0eb63c2895266665d2f6 x86/cpufeatures: Enumerate Intel Hybrid Technology feature bit
 250b3c0d79d1f4a55e54d8a9ef48058660483fef x86/cpu: Add helper function to get the type of the current hybrid CPU
 61e76d53c39bb768ad264d379837cfc56b9e35b4 perf/x86: Track pmu in per-CPU cpu_hw_events
@@ -559,7 +564,6 @@ f2875832387a25efe7c3be3c5153f3a00e313906 div64: Correct inline documentation for
 c49f71f60754acbff37505e1d16ca796bf8a8140 MIPS: Reinstate platform `__div64_32' handler
 c1d337d45ec0a802299688e17d568c4e3a585895 MIPS: Avoid DIVU in `__div64_32' is result would be zero
 6f3377bc383b29ee380657b9b4da47e20f8fa6f1 mips/bootinfo:correct some comments of fw_arg
-9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
 c006fac556e401a62054d065da168099ea5a5b10 sched: Warn on long periods of pending need_resched
 9d10a13d1e4c349b76f1c675a874a7f981d6d3b4 sched,psi: Handle potential task count underflow bugs more gracefully
 ad789f84c9a145f8a18744c0387cec22ec51651e sched/debug: Fix cgroup_path[] serialization
@@ -715,7 +719,6 @@ cd9de06e16104a9e37245275fa2c4a073edf2e44 dt-bindings: serial: stm32: override FI
 2aa1bbb21f26de43b55a9d9cab9c0370c15a86ed serial: stm32: add FIFO threshold configuration
 8720037d55dbfa3011b8795ca2187b00bb05ee03 serial: extend compile-test coverage
 3343f376d4bae98ec11fd104e0e211b275e754b8 usb: gadget: prevent a ternary sign expansion bug
-4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
 f4abe9967c6fdb511ee567e129a014b60945ab93 kcsan: Fix printk format string
 a6992bbe9774e044d3d0f973593d655c53efe089 irqchip/tb10x: Use 'fallthrough' to eliminate a warning
 e48802333acecfa3ada7b13eb55fa03b08df9e74 PM: wakeup: remove redundant assignment to variable retval
@@ -1046,9 +1049,6 @@ d2b6f8a179194de0ffc4886ffc2c4358d86047b8 Merge tag 'xfs-5.13-merge-3' of git://g
 77d51337d650086643e1e96b8a7e1e6cbf0b09ff Merge tag 'mips_5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 d0cc7ecacba8a5b6bbdd5aa6ba3d1bc2fe59b580 Merge tag 'microblaze-v5.13' of git://git.monstr.eu/linux-2.6-microblaze
 635de956a7f5a6ffcb04f29d70630c64c717b56b Merge tag 'x86-mm-2021-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-19987fdad506515a92b3c430076cbdb329a11aee sched,doc: sched_debug_verbose cmdline should be sched_verbose
-d583d360a620e6229422b3455d0be082b8255f5e psi: Fix psi state corruption when schedule() races with cgroup move
-6d2f8909a5fabb73fe2a63918117943986c39b6c sched: Fix out-of-bound access in uclamp
-0258bdfaff5bd13c4d2383150b7097aecd6b6d82 sched/fair: Fix unfairness caused by missing load decay
+e10de314287c2c14b0e6f0e3e961975ce2f4a83d x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
 
---===============2915319422617758572==--
+--===============9146788042286877719==--
