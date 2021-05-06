@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3901296173428340690=="
+Content-Type: multipart/mixed; boundary="===============3494142979106096308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Thu, 06 May 2021 08:59:51 -0000
-Message-Id: <162029159148.20067.3013322754917962896@gitolite.kernel.org>
+Date: Thu, 06 May 2021 09:01:20 -0000
+Message-Id: <162029168037.28810.16760706528167274925@gitolite.kernel.org>
 
---===============3901296173428340690==
+--===============3494142979106096308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pali/linux
 user: pali
 changes:
-  - ref: refs/heads/pci-aardvark
-    old: 65e5d1eb65790704941dc3c6c347ec297777294e
-    new: 00664ec60405a7f829a3d94d652702a02d49fe2e
-    log: revlist-65e5d1eb6579-00664ec60405.txt
+  - ref: refs/heads/pci-aardvark-wip
+    old: 69f25e0bd3d037f0b857e2ddd9c78305ffa74af8
+    new: 2b98efff2e14f56a393728a597995df00a1504a9
+    log: revlist-69f25e0bd3d0-2b98efff2e14.txt
 
---===============3901296173428340690==
+--===============3494142979106096308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65e5d1eb6579-00664ec60405.txt
+Content-Disposition: attachment; filename=revlist-69f25e0bd3d0-2b98efff2e14.txt
 
 8c714d6c2dc971a06ad368fdd0e24dfdea57f91c PCI: aardvark: Fix kernel panic during PIO transfer
 d638529f518b7c4d38ea4052c55c31f2e41d6ee1 PCI: aardvark: Fix checking for PIO Non-posted Request
@@ -68,5 +68,12 @@ a0104f4a06da85849d60e786e2640742ca3faef5 PCI: aardvark: Add support for PCI_BRID
 11eccff262c53e333538d8f1a089226be0c32bc1 PCI: pci-bridge-emul: re-arrange register tests
 dca2eebc60b374fefccf9fa693c4ba0363512edd PCI: pci-bridge-emul: add support for PCIe extended capabilities
 00664ec60405a7f829a3d94d652702a02d49fe2e PCI: aardvark: Add support for Advanced Error Reporting registers on emulated bridge
+7dfe01bea5fd2ab63382f8c19b7bc8ae1a3b9699 PCI: aardvark: Run link training in separate worker
+3835c3f516c15070df16931d652e6f297f4a720e PCI: pciehp: Do not enable Data Link Layer State Changed interrupt when it is unsupported
+42b4237f02354557308ac4e274044ee5824cca45 PCI: pciehp: Do not enable Command Completed Interrupt when it is unsupported
+23c872fdf5b503e25539f60fd27d2c344cce37c6 PCI: aardvark: Add support for Data Link Layer State via Slot registers and hotplug interrupt via emulated root bridge
+2fbd78e5128e59f3b07677232a4e3b2619d81d48 PCI: Add PCI_EXP_SLTCTL_ASPL_DISABLE macro
+7ad8bd7a296545057bd6828c274525015978754a PCI: aardvark: Add support for sending Set_Slot_Power_Limit message
+2b98efff2e14f56a393728a597995df00a1504a9 arm64: dts: armada-3720-turris-mox: Define slot-power-limit for PCIe
 
---===============3901296173428340690==--
+--===============3494142979106096308==--
