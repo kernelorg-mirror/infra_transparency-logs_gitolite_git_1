@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1476718540048360540=="
+Content-Type: multipart/mixed; boundary="===============7266240179804961836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 06 May 2021 09:38:19 -0000
-Message-Id: <162029389955.27676.6395200681973488636@gitolite.kernel.org>
+Date: Thu, 06 May 2021 09:38:33 -0000
+Message-Id: <162029391333.27838.18366025146999217604@gitolite.kernel.org>
 
---===============1476718540048360540==
+--===============7266240179804961836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 7b1ae248279bea33af9e797a93c35f49601cb8a0
+  - ref: refs/heads/char-misc-next
+    old: 8e3a3249502d8ff92d73d827fb41dd44c5a16f76
     new: 8404c9fbc84b741f66cff7d4934a25dd2c344452
-    log: revlist-7b1ae248279b-8404c9fbc84b.txt
+    log: revlist-8e3a3249502d-8404c9fbc84b.txt
 
---===============1476718540048360540==
+--===============7266240179804961836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620293893 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620293907 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1620293892-e032cd60515fd80f6d962ff387386db4186dfa5d
+nonce 1620293906-49ca1daec45f0bbcea05b5eced5575c437537379
 
-7b1ae248279bea33af9e797a93c35f49601cb8a0 8404c9fbc84b741f66cff7d4934a25dd2c344452 refs/heads/char-misc-linus
+8e3a3249502d8ff92d73d827fb41dd44c5a16f76 8404c9fbc84b741f66cff7d4934a25dd2c344452 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCTuQUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ff4P+QHnpBTkFYX+LtqX/yww
-xd7bDoHRgsbaAXz28DXr/QG7E8sKwlS4LmH+Qvcm19eSLHCDAz/AkNyLcuB95UOz
-XzDpXhOL9dVqzR00fsRGJ6wyLHZW7mdm7wbWej/pwh5VgHcGnIZ71dHf6dmmVcT+
-KNbZt07ZjBvgr/jkro5E3fwKFhVtYV8UIzkTUGyIda628Y6aC3oG0icldLhNxT0f
-oOkQcWsB5F2dZ/WSaVdaxWBgkkRYTduAijRpPY4uEUggWRnqgJHqC2DVRnesNnkA
-W/qlvc5FbLaBCj/DVwNF2lhhQyH4KCfBER7g56QA5sZwrj+kfBK87jatZ53K6ee4
-Ybc7CvYifFCa1bp3fvyb9r8i932pouYl9qRiDLHADMmsWUdyE4pu6TzyDP+J4wUh
-QHHPVLApnqVr1DixAMXI+oJvc6pBW2/G9iphBkcs17dWdjNgLp520Gwfr049MrF0
-NfrYrIPG6+sTLN8wL4O4gVbxvzdHJCITmz3KSzFqKJQkgb59qumvI5ZF6xH6plyU
-8FNOkw8TolVd84U/Hp4lkl+qfDMvcYifZOlSys1lZHp4yHhzN/0AUIhyraHv0QqE
-lzVqfWnwrs8EPOPge/MIBJ065Vpy4GBlN96HI00bDZy+y2vtspk37RfY7xtejIlD
-KdxgT+/wKHcIvV3z3jZOnv1W
-=0L7x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCTuRMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nogQAKPv7Vqsi3EY8uck2onr
+ySW59/lqrONdtktH/iQVLbAF5W5zQAw6Z65FODTN+NWHpChGmjHOvOHFKXLu+PJw
+mw6d53Cy9NJVbZIZKPrLOw2WcGYBQNKlhDr11yStmebJgZO8YXLbRxsW5dwvYyHl
+NQ4EdIiOVJW7krxOFu7+km169vDEmHHBrYMQMUQJ4GnMqij+PQJ+6dlIfoAgPf5t
+EQzTtxZLloHDVjZ4ZVIdtMjJ6vBfr1bxRI6FJcFGtz3FLtNLORQi/04y0gGB51aR
+OQU1CyK6w/MzXBHdHEOAqpBoE2w5mU+RtMQQ5txAOzbhHv8sFUct38QPjp5RZ9Kg
+drcCMpAdFc2SbRPArOZ3KRegrQPYtu9yTgIu6WkbwugPkzr/aoqp+esJpdan4Egl
+l15wVWouRplZFLc+qfG7gOAO4RPgH1AjcsDceCMCpUZndVkK0t0H2U8HavIfoo2w
+Y2qIl8iZI1cj2uF66/fvRRY1FBtyj7KwZaWdXIaStm9dCv20H5/0WNFD5CPG5FKn
+YHMLNrPPVQfmUYdyrjNBYCXcDmQ9KOcUh1o6Prqt6xzz0r0MKjLyeCOBN063pGq+
+W64XgQLv7nvwwoUeW3DcQ8qyrMQXl2UQStDvpA1+nV4+8gMU7BNjEtmp3gtu17OI
+lC6kmhvq4oueqCFldDCw6rEc
+=Mrqw
 -----END PGP SIGNATURE-----
 
---===============1476718540048360540==
+--===============7266240179804961836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b1ae248279b-8404c9fbc84b.txt
+Content-Disposition: attachment; filename=revlist-8e3a3249502d-8404c9fbc84b.txt
 
-f634ca650f724347892068489c7920631a3aac6a kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-2e22d48dca0bc5b7fccca8d7b6caed80a9d07465 f2fs: clean up left deprecated IO trace codes
 30c400886bad4ac1801516683b71d7714bc2b1b1 powerpc/kasan: Fix shadow start address with modules
 464c62f6f6e1c836d7aae68dbf46101de84fdcb7 perf vendor events intel: Add missing skylake & icelake model numbers
 fff4db76be297bd4124a503948435a3917d7a702 io_uring: move __io_sqe_files_unregister
@@ -520,6 +518,7 @@ d3bf75b579b980b9d83a76d3b4d8bfb9f55b24ca PCI: mediatek-gen3: Add MediaTek Gen3 d
 1bdafba538be706b185c7aded0d42327702d92b7 PCI: mediatek-gen3: Add MSI support
 d537dc125f0756f7eb9f3a2f878fbe2e3179c452 PCI: mediatek-gen3: Add system PM support
 0739191b848136f733978eae9c37e34435c906af MAINTAINERS: Add Jianjun Wang as MediaTek PCI co-maintainer
+f1ce3986baa62cffc3c5be156994de87524bab99 nitro_enclaves: Fix stale file descriptors on failed usercopy
 8ae8932c6a330790c6bf22a43a6960118c34dcb5 Merge tag 'exfat-for-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 f2c80837e27e67e91ad93f41f0849be28b808b14 Merge tag 'gfs2-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 d2b6f8a179194de0ffc4886ffc2c4358d86047b8 Merge tag 'xfs-5.13-merge-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -559,6 +558,7 @@ e463786f380ab28f1ca6e34ea65bbc2e03b2d325 rtc: omap: use rtc_write to access OMAP
 9b2788dbcef756a77659fa22e6a73bec4a57d126 Merge tag 'drm-misc-next-fixes-2021-04-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 add74e32db0443dfd940d7c3256b9609c65e6149 Merge tag 'amd-drm-next-5.13-2021-04-23' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 1cd6b4a04f038eb24fd18c8010e763d1140a9c7a Merge tag 'drm-intel-next-fixes-2021-04-27' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
+7b1ae248279bea33af9e797a93c35f49601cb8a0 dyndbg: fix parsing file query without a line-range suffix
 6da7bda36388ae00822f732c11febfe2ebbb5544 IB/qib: Remove redundant assignment to ret
 aafe104aa9096827a429bc1358f8260ee565b7cc tracing: Restructure trace_clock_global() to never block
 a9c0fda4c08292399e08db0a4b70bc161cd247b9 dm integrity: don't re-write metadata if discarding same blocks
@@ -1082,4 +1082,4 @@ d8cb379cda885ac172454d7e680da65ebd6676b1 Merge branch 'turbostat' of git://git.k
 a79cdfba68a13b731004f0aafe1155a83830d472 Merge tag 'nfsd-5.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 8404c9fbc84b741f66cff7d4934a25dd2c344452 Merge branch 'akpm' (patches from Andrew)
 
---===============1476718540048360540==--
+--===============7266240179804961836==--
