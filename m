@@ -1,40 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 06 May 2021 15:26:32 -0000
-Message-Id: <162031479234.19645.4178937843122934519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 06 May 2021 15:28:24 -0000
+Message-Id: <162031490468.20217.14674151948510202446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/pci/enumeration
-    old: 0a0b5f4b43671f8f128eb438edacee0a1d113385
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/error
-    old: d9b7eae8e3424c3480fe9f40ebafbb0c96426e4c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/hotplug
-    old: 3bbfd319034ddce59e023837a4aa11439460509b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/kernel-doc
-    old: 43395d9e091220695d2503fccc6f4fc9785d1bee
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/misc
-    old: ccd61f07d28912dcd6a61ea73f5d69af7ad88efa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/pm
-    old: 96ff775c35a2c0414efc4ce07b43399b04996691
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/sysfs
-    old: 7de2d3cd6f64ea0deb2b136692d49b2c9bb2fed6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/virtualization
-    old: 0349a070881f7e3b4472d886989db092ed3ccac8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci/vpd
-    old: f89b5783f139269a16e8821b203ac2a6f1ad965c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 1682d8df20aa505f6ab12c76e934b26ede39c529
+    new: 8621436671f3a4bba5db57482e1ee604708bf1eb
+    log: |
+         8d432592f30fcc34ef5a10aac4887b4897884493 net: Only allow init netns to set default tcp cong to a restricted algo
+         c61760e6940dd4039a7f5e84a6afc9cdbf4d82b6 net/nfc: fix use-after-free llcp_sock_bind/connect
+         4c7a94286ef7ac7301d633f17519fb1bb89d7550 net: stmmac: Clear receive all(RA) bit when promiscuous mode is off
+         cf754ae331be7cc192b951756a1dd031e9ed978a ethtool: fix missing NLM_F_MULTI flag when dumping
+         f941d686e602163faca0c90568cca6ead3ca41b3 Fix spelling error from "eleminate" to "eliminate"
+         52bfcdd87e83d9e69d22da5f26b1512ffc81deed net:CXGB4: fix leak if sk_buff is not used
+         2c16db6c92b0ee4aa61e88366df82169e83c3f7e net: fix nla_strcmp to handle more then one trailing null character
+         8621436671f3a4bba5db57482e1ee604708bf1eb smc: disallow TCP_ULP in smc_setsockopt()
+         
