@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8322295094298832964=="
+Content-Type: multipart/mixed; boundary="===============4457539014329984601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Fri, 07 May 2021 00:04:49 -0000
-Message-Id: <162034588935.6964.6721689403445651065@gitolite.kernel.org>
+Date: Fri, 07 May 2021 00:04:57 -0000
+Message-Id: <162034589741.7073.8729430347081750598@gitolite.kernel.org>
 
---===============8322295094298832964==
+--===============4457539014329984601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 231327dd5f394c1d032155b7819eeca9e0efe5fd
     new: 5f7994cbc8c568ec2566b20b88cf32af12209eae
     log: revlist-231327dd5f39-5f7994cbc8c5.txt
 
---===============8322295094298832964==
+--===============4457539014329984601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -941,4 +941,4 @@ c5f042e473439795de85943f127a4c842a10b8c2 mm: use_mm: fix for arches checking mm_
 040e2474c473f676593d4eefb389f8e1e545f669 arm64: tlb: skip tlbi broadcast
 5f7994cbc8c568ec2566b20b88cf32af12209eae Merge remote-tracking branch 'gitlab/main' into main
 
---===============8322295094298832964==--
+--===============4457539014329984601==--
