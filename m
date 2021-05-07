@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4947093813561868314=="
+Content-Type: multipart/mixed; boundary="===============5762381856485597154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 07 May 2021 06:03:06 -0000
-Message-Id: <162036738684.1415.16559887240435944074@gitolite.kernel.org>
+Date: Fri, 07 May 2021 06:04:21 -0000
+Message-Id: <162036746164.1901.5859822738717512524@gitolite.kernel.org>
 
---===============4947093813561868314==
+--===============5762381856485597154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 1d3b920fece766b28f9135ee4acda5bd77fad1d0
-    new: 3ac077570a4229f4367f1ea001eba9791806a7ca
-    log: revlist-1d3b920fece7-3ac077570a42.txt
+  - ref: refs/heads/main
+    old: 8404c9fbc84b741f66cff7d4934a25dd2c344452
+    new: e48661230cc35b3d0f4367eddfc19f86463ab917
+    log: revlist-8404c9fbc84b-e48661230cc3.txt
 
---===============4947093813561868314==
+--===============5762381856485597154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620367380 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620367455 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620367379-62f01883274b40eeacae2c00420c4c5287e20ae1
+nonce 1620367455-823765c9047e2a9f6c3a92cd1172713b325404b9
 
-1d3b920fece766b28f9135ee4acda5bd77fad1d0 3ac077570a4229f4367f1ea001eba9791806a7ca refs/heads/usb-testing
+8404c9fbc84b741f66cff7d4934a25dd2c344452 e48661230cc35b3d0f4367eddfc19f86463ab917 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCU2BQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/VsQAJa4xmaA+zeVKsyFaFNe
-U3zkyuwoUmIBQgSx65LksyR2WYuym65qUEsJug5ySx9LCswHWU0vsRHUuPHRgqw5
-zu6srt/cdmZlPoZmhb93ySMaFNmHUhnfOXxF/TpKQ6/RJ46i9kiycKXI3pXTxGjr
-no/pAM1I9PaGIO7EVeNG15vmPj75T4JwNqP3ZEwBZX2OptAv8DK4yw57jQostisX
-SGi+ApqLL3a7jq4GXd/S6lg0TmcZJwjTMgrR+HrViPPluPyBeYxwvcF+FBEa8rk6
-ATwGg/FM7a+gf4JEHauWKOgHxlmd4cnhIKw9EhP83H2tBhY9GJld2n3pSM7Wy4Ql
-BHGVSY/1299f8cdSecq9BSXazm0yuNkGnzOJm+r6+t7P3WfWZT8FcD0Wq7WTZ0sh
-n2NEUVA87kyRLDRb+o4vl/hAb/F1oAfs2IkVPhJdhpwoeyZLDzFAFYvtPMGzAFk1
-VjpzNL35f6w/6V0urEUrj63GyRhUkxUxp3WHNnxbEpT/QgDiD3D2GjaTX2A5g3BT
-X83mpi25Mn1SnMRSkhkASnNyM+lIT6cyAkOPqGQFu9GVrsSBfxAg6pdB+jTrk0Cw
-Hiz7yaGq8+tUWlSNROIYMoHbMbAmH6c5ipIvO+mUWFolDCAzkSuLkPnAAbUBBH2Z
-WjuYISB5D7PB10OrTpRv6edG
-=7C2z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCU2F8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5ugQAITkvcEjCy7l6gV32fBi
+iM+aJG+b5QOQ5nfVo59L6TSQgR1F23YFSWssqs/na8iywaoi+iG7e8TWg0SXq0QR
+gxTA3mq18Z4hQfWSYHlxeK4XY5X7kolQrd9DC+muvc7+HYb9MEId1JvoRQyHNwj3
+8uHu8yo8lbDlseigrQbeKkHB+NAO91d7ngA7o/rnbWuQoG+6uQWIKJtPiMpBUbKk
+eghSca3cq0vuuOptMH1iEmRTRMaO1RBq7Y6e5uHwYdmkv5f8StiLYXF9hoCbulnV
+3KW2U3vKs1b3sXTKSv0ohg7W1C4vrmKI17fRQp4nx6Xu+Ia1xBhw7iStR0UggO1Q
+DbAZeTlxpElMEDl4+R3VWKZOqrujbhn091kw8qKjeaE+1zlH7yK6jpW26aBQdDZk
+Oa2aJp2VSkVJRriKP7z1kevifK+dwKq2o5/lEEHB5cyiK6sLIHk+0keiT5DW8CLj
+R4XOyCor9OVNh069v5GyNTOMTpjlaNWS4H6zZnD/qa8uRQf8OlJeEaHCgBKAjBy5
+a+yznqPPjR99cDTw65BV2ftiyNPgCY5SPF0YXK1D7Bq63rP6NWehmFJDgB8sktsF
+dOAZl1rRzbFCeE73k5uNhT+DbLXsN+LBiIXVz2mU58yLroCtBDzgb5Erage1Sig0
+faGbZ0zJvmT72h3lWmIXl1f6
+=6Gsw
 -----END PGP SIGNATURE-----
 
---===============4947093813561868314==
+--===============5762381856485597154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d3b920fece7-3ac077570a42.txt
+Content-Disposition: attachment; filename=revlist-8404c9fbc84b-e48661230cc3.txt
 
 d0eb2d867cf3dbba79ef4c678797e6b58638392c eCryptfs: add a semicolon
 902af369942f8d0a6bdaa8466ff0d84d3d9b03a8 ecryptfs: use DEFINE_MUTEX() for mutex lock
@@ -224,11 +224,5 @@ a3f53e8adfda814730c341ee39ce015a0abf69aa Merge tag 'docs-5.13-2' of git://git.lw
 38182162b50aa4e970e5997df0a0c4288147a153 Merge branch 'pcmcia-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brodo/linux
 a2de4bbddce3e98bd2444bb027dc84418a0066b1 Merge tag 'vfio-v5.13-rc1pt2' of git://github.com/awilliam/linux-vfio
 e48661230cc35b3d0f4367eddfc19f86463ab917 Merge tag 's390-5.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-0b926f1d73f0a59a2e49bb7602ad644dcb0e1f15 usb: gadget: function: fix typo in f_hid.c
-b688e6e387e31d09af91f6721a934f907558c960 usb: gadget: Drop unnecessary NULL checks after container_of
-0207a7e3b612345a93b7606abcd85f0fbb51723a usb: gadget: function: Fix inconsistent indent
-f54f053df60cf94ecd6f4c1737dce2822225b697 usb: dwc3: remove repeated setting of current_dr_role
-6e0b5cfa23c8b5af9f150b8073f7dc38b0b889eb usb: phy: Use fallthrough pseudo-keyword
-3ac077570a4229f4367f1ea001eba9791806a7ca usb: gadget: fsl_qe_udc: fix implicit-fallthrough warnings
 
---===============4947093813561868314==--
+--===============5762381856485597154==--
