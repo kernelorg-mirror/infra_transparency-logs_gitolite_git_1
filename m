@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5676362097469588883=="
+Content-Type: multipart/mixed; boundary="===============3466873939190465529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 07 May 2021 14:17:38 -0000
-Message-Id: <162039705852.14420.17776734303898642605@gitolite.kernel.org>
+Date: Fri, 07 May 2021 14:24:42 -0000
+Message-Id: <162039748248.19168.16156272565161922547@gitolite.kernel.org>
 
---===============5676362097469588883==
+--===============3466873939190465529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,160 +16,269 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 9011e0ac6a13e4c479ec105c3067ba5db7c7ec2d
-    new: 5861b1057f77bdc27a4932f1d491c6c95db34d96
-    log: revlist-9011e0ac6a13-5861b1057f77.txt
+    old: 5861b1057f77bdc27a4932f1d491c6c95db34d96
+    new: a403778884a5c99ce0441d9381c4e415276a833f
+    log: revlist-5861b1057f77-a403778884a5.txt
   - ref: refs/heads/queue/4.19
-    old: 97b3901c14448697701489f01c1cf271778ae12b
-    new: 062da159f81f1e158f41e7ad3be88adbc270f54e
-    log: revlist-97b3901c1444-062da159f81f.txt
+    old: 062da159f81f1e158f41e7ad3be88adbc270f54e
+    new: b478506ef309862e779616dfcfc87b5939732e7c
+    log: revlist-062da159f81f-b478506ef309.txt
   - ref: refs/heads/queue/4.4
-    old: 2a2df2b99e7840f0d90bee6e0791fe2d2f651ac8
-    new: f244511b9f098c29e2aceaa997c686ca6fcebf66
-    log: revlist-2a2df2b99e78-f244511b9f09.txt
+    old: f244511b9f098c29e2aceaa997c686ca6fcebf66
+    new: 58041fa5ab6fae1d06395b616c77652b0baed4da
+    log: revlist-f244511b9f09-58041fa5ab6f.txt
   - ref: refs/heads/queue/4.9
-    old: 519dbe1a3e66077034078c15f61f28c46aa3d373
-    new: 2ebbf038d13e20b78ea12105f3b0010cc4a56a7d
-    log: revlist-519dbe1a3e66-2ebbf038d13e.txt
+    old: 2ebbf038d13e20b78ea12105f3b0010cc4a56a7d
+    new: e19158b06904f71c6045dd547c4a07f8d8126b0a
+    log: revlist-2ebbf038d13e-e19158b06904.txt
   - ref: refs/heads/queue/5.10
-    old: 5f035915795985895c5bfff8f58dd17bac6f1ee9
-    new: d6c8b63dd79add6e534f9a8466a0e70186dc8258
-    log: |
-         80c51f0871f706f6639f7548212275de80c3328f bus: mhi: core: Fix check for syserr at power_up
-         ba52846c389c32acddc7ceb86e75639effaabb2d bus: mhi: core: Clear configuration from channel context during reset
-         d6c8b63dd79add6e534f9a8466a0e70186dc8258 bus: mhi: core: Sanity check values from remote device before use
-         
+    old: d6c8b63dd79add6e534f9a8466a0e70186dc8258
+    new: ccc8e0b35af02738e41f640721c1f23ea904d7a0
+    log: revlist-d6c8b63dd79a-ccc8e0b35af0.txt
   - ref: refs/heads/queue/5.11
-    old: 56d8c196c846d0a6b063df5d058bd12531fe78d7
-    new: 499b3619fc13a9d8e1dbf900c7370975c4485bcb
-    log: |
-         7386332f8d316494a508e25536e65250d20c4b03 bus: mhi: core: Fix check for syserr at power_up
-         16af83651e411201bdd8fc5cbf6f7f65622b13e5 bus: mhi: core: Clear configuration from channel context during reset
-         872870540931817defc55692a7edd07a59f99c1e bus: mhi: core: Sanity check values from remote device before use
-         3456f541d2fcf68741e517ba8fdda87966fc13cb bus: mhi: core: Add missing checks for MMIO register entries
-         499b3619fc13a9d8e1dbf900c7370975c4485bcb bus: mhi: pci_generic: Remove WQ_MEM_RECLAIM flag from state workqueue
-         
+    old: 499b3619fc13a9d8e1dbf900c7370975c4485bcb
+    new: 47c77460db8f72f3e860639ca13ccf01e553b8ad
+    log: revlist-499b3619fc13-47c77460db8f.txt
   - ref: refs/heads/queue/5.12
-    old: 5520f97895f07aa1a06cd2289367fb8ab7dda790
-    new: ecaa6a4e2865ecd794248d18eae3ee9a9dec9514
+    old: ecaa6a4e2865ecd794248d18eae3ee9a9dec9514
+    new: 18cd362bdd5bb189cc5b68962617b1b53ed8855e
     log: |
-         2b99e7faa3607e2cebbaf6b5267ebe69f8bea42f bus: mhi: core: Fix check for syserr at power_up
-         5004ddec8252dab040806747b4f02699883af732 bus: mhi: core: Clear configuration from channel context during reset
-         0274fc539d60dc4f0083b4ef6d21c0529ed74817 bus: mhi: core: Sanity check values from remote device before use
-         3b1e07e2688476f621e084d9840bb2bfd67b5342 bus: mhi: core: Add missing checks for MMIO register entries
-         6bc1a33d3e8a94dcf6aff12000a05c11d5aba5c0 bus: mhi: pci_generic: Remove WQ_MEM_RECLAIM flag from state workqueue
-         93247f45280e937016d5b21a81c174441951c4b6 bus: mhi: core: Fix MHI runtime_pm behavior
-         ecaa6a4e2865ecd794248d18eae3ee9a9dec9514 bus: mhi: core: Fix invalid error returning in mhi_queue
+         8fbf7674c22a175e08ae7557cfd96f3b4c5e332d bus: mhi: core: Fix check for syserr at power_up
+         98f76e2ca475b436ddf1a4d93b05b397e8095d24 bus: mhi: core: Clear configuration from channel context during reset
+         e30aa3fd75c22c95c40f20ae91c9cf37dbd0870f bus: mhi: core: Sanity check values from remote device before use
+         2c50d65d432a682b40e2cbf0157590e512e64319 bus: mhi: core: Add missing checks for MMIO register entries
+         5fdf7faab0af7f6de76fda1ef5aaf7eab7b85e0b bus: mhi: pci_generic: Remove WQ_MEM_RECLAIM flag from state workqueue
+         2303fa9db878d1b630bfe24ad080d35da8d621ea bus: mhi: core: Fix MHI runtime_pm behavior
+         18cd362bdd5bb189cc5b68962617b1b53ed8855e bus: mhi: core: Fix invalid error returning in mhi_queue
          
+  - ref: refs/heads/queue/5.4
+    old: b5dbcd05792a4bad2c9bb3c4658c854e72c444b7
+    new: 2f51167abb2e8813849a3bff40f3a1f31166bab5
+    log: revlist-b5dbcd05792a-2f51167abb2e.txt
 
---===============5676362097469588883==
+--===============3466873939190465529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9011e0ac6a13-5861b1057f77.txt
+Content-Disposition: attachment; filename=revlist-5861b1057f77-a403778884a5.txt
 
-f7e5a9bfadbbed060275aafb720026720cac9a9c usbip: vudc synchronize sysfs code paths
-48edf2f540af5499093cc0b7e31c79e89ec49699 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-4141bcc98f55fd2f8192fd2919fcaf6319ae5064 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-84061165ed2979177f6ce22fcd125f946701f554 bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
-df690c4f0b67be946b05ed06a166b628dc4fa4a4 bpf: fix up selftests after backports were fixed
-fe221f9134efb85e9f9d639e5d1862f73e7a4c86 net: usb: ax88179_178a: initialize local variables before use
-0ec16182799cc0e3cb7eed4f0061b56cbe121be2 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-6e74bb17fe39cdd916cd346803b1edcb2f02c0b0 MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
-01a580e55ac7fbc388648dc7af401d6cb42f8149 MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
-f90af9a67fb8be1c4d2413327f1156fe28b1b2bc mips: Do not include hi and lo in clobber list for R6
-c326e975d2543c7c33e468047d35d3fa8a2d7c56 bpf: Fix masking negation logic upon negative dst register
-bf7c8edec0eb92130ff662636b2d8ae2d818dbd7 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-17d03a0de766effb2e8e7c17d1c68b22d26934f1 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-58496f87ad6b3f439eceefa33d878ace2c91aab6 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-fe5b81f2efde8136cc4f7efbc3a5db2e156e89bb USB: Add reset-resume quirk for WD19's Realtek Hub
-b26457265dff90620739a251daf3b213d5ef27c2 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-ad44cb7bcb6c81b4f179b7b2ee969d059464f751 s390/disassembler: increase ebpf disasm buffer size
-2b990b3c6ac5e4b1a4b69f69c94d8eeb104133cb ACPI: custom_method: fix potential use-after-free issue
-b797d2cdeb2abbc440e37467bc21d36ac99cb645 ACPI: custom_method: fix a possible memory leak
-033640d78572665b487a16bb32ca487cd77e6612 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
-7057b878d8e59a4f0f50b6140afb2dc5f8a9d508 ecryptfs: fix kernel panic with null dev_name
-43c1f007762cd55e9b4a0916b392480116f614c7 spi: spi-ti-qspi: Free DMA resources
-90b312149aa380479bffc4b93dda7c1951695e39 mmc: block: Update ext_csd.cache_ctrl if it was written
-691b56a220b4a82fc0cb960ef461c7831ebcfd14 mmc: core: Do a power cycle when the CMD11 fails
-5861b1057f77bdc27a4932f1d491c6c95db34d96 mmc: core: Set read only for SD cards with permanent write protect bit
+0a55d7971fef07602e4c604d2a62bc93c05a99eb usbip: vudc synchronize sysfs code paths
+138078819e0e1909a7e6168be5f947a3fe81656b ACPI: tables: x86: Reserve memory occupied by ACPI tables
+67dbd4870d635c84a5d431588a28de9ec04ecae3 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+c2857713b1b44e8ab3f0e9ec61a817c4a7349f28 bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+157cfa0989aacda6968d5e3b4b132699143a8e38 bpf: fix up selftests after backports were fixed
+02e1847ca820b0036f7ac200f8cd027c5d584ce7 net: usb: ax88179_178a: initialize local variables before use
+fe64232f5dd90a707e5a11744c9705cda24e6c19 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+dbd04c7024a6ced86ae4e613fae415e497862be0 MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
+170058b2589b13eed63bb8018f7d0bae12e18428 MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
+13d50884b16bae564e8d972d1ab329aecb99fdfa mips: Do not include hi and lo in clobber list for R6
+6c8cfa265542555f468b22f552b8bec5a8dbe298 bpf: Fix masking negation logic upon negative dst register
+02b3f1b22959fd803e1da512f128ef74cde94ed6 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+8206c8643879ba3cd6a040d8823fa1ee96d04544 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+ea383a79315cf08459ff6628a00fc2bc052663e9 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+149d8e831de931a4ef2c4a59f8b56d17cefb98d3 USB: Add reset-resume quirk for WD19's Realtek Hub
+e7e4d0b7064e07c6716477eef4ae4a0acadc9671 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+ad161a387f806cd0c4dab7c6b59c63d7b46f90c4 s390/disassembler: increase ebpf disasm buffer size
+14fdd25ef1a3d2a58f486197fc8e2b1872dfd9ce ACPI: custom_method: fix potential use-after-free issue
+ca0baba08dc46410049d6775b7a53406a26e6f7e ACPI: custom_method: fix a possible memory leak
+44164779e1a06c806e74e119e132706c15b0bfc9 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+cee7d7d5e145fe0601510d0b90d4cdb6c6a0b618 ecryptfs: fix kernel panic with null dev_name
+7e14e5343f84a8d6d012b56df8cd4ba996ca2f00 spi: spi-ti-qspi: Free DMA resources
+3f51a4ffe3f101c482742c3849a23ee26f83e7fa mmc: block: Update ext_csd.cache_ctrl if it was written
+09261a1de009dd65d72dac8f5541cb5f3669544a mmc: core: Do a power cycle when the CMD11 fails
+a403778884a5c99ce0441d9381c4e415276a833f mmc: core: Set read only for SD cards with permanent write protect bit
 
---===============5676362097469588883==
+--===============3466873939190465529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97b3901c1444-062da159f81f.txt
+Content-Disposition: attachment; filename=revlist-062da159f81f-b478506ef309.txt
 
-5cd7d4573c1032cb5bc6591583e0d3c613ed9f2a erofs: fix extended inode could cross boundary
-7d329dd0a1b3302e10f0f25ef08538c7598d118f ACPI: tables: x86: Reserve memory occupied by ACPI tables
-9a5ba778b50d6c6c50597febf3a30387a80ac05d ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-e9e0c8b649d213877e84c1940b302d937e019a43 net: usb: ax88179_178a: initialize local variables before use
-36442e983ec04b7c13ef081e285c319a2a3fc832 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-502adca1f04b4edee1c40d5c2e26867d35b33f5f mips: Do not include hi and lo in clobber list for R6
-0e2dfdc74a7f4036127356d42ea59388f153f42c bpf: Fix masking negation logic upon negative dst register
-d1273e1a735e758413af40b12f30434e13fc426e iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-04491ecf82ebe94426c9866ecac8e53ee8ce6516 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-add1c1a8446a7d966041391cf3885fe76604e11a USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-ca3c407ba6a78184aa7cafe101ce36e8e862be08 USB: Add reset-resume quirk for WD19's Realtek Hub
-7642c940f11e4135471c3f1df484cea899060e87 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-a130ed5212c3dfff88065db4f62c29bb184748d4 ovl: allow upperdir inside lowerdir
-3c8c23092588a23bf1856a64f58c37f477a413be Linux 4.19.190
-ca03f170a8883d2ba6ea58ac433d1a2413f77004 s390/disassembler: increase ebpf disasm buffer size
-17695b6692ec016823881d18c713e2e325a8e6f5 ACPI: custom_method: fix potential use-after-free issue
-467292aa0d99ba5b15b453780f80f3e38b759060 ACPI: custom_method: fix a possible memory leak
-a0fdcd521fffdc487164d2c1295bf28e132e4662 ftrace: Handle commands when closing set_ftrace_filter file
-873b454200a906bc03546d242120dfb6655195f5 ARM: 9056/1: decompressor: fix BSS size calculation for LLVM ld.lld
-679f1dffc1c90899cbb2618b6bf40b09f2fa4fcf arm64: dts: marvell: armada-37xx: add syscon compatible to NB clk node
-4b274866284665cf1907eb3134f5c643f62950ca arm64: dts: mt8173: fix property typo of 'phys' in dsi node
-d62fdfb6c78bf5dbc61afbb52c1787e3cfe5470d ecryptfs: fix kernel panic with null dev_name
-049fd2fa48cb313151537d4fd8a6340c421ca882 mtd: spinand: core: add missing MODULE_DEVICE_TABLE()
-d47a6d5d62f643890c067f491ca9190360189890 mtd: rawnand: atmel: Update ecc_stats.corrected counter
-b419ab53280a4f8c07c8c3b2f9390fcce1aae5fb spi: spi-ti-qspi: Free DMA resources
-bd5eae699ed5a558c12ebb14bfd1ac75ce28d014 scsi: qla2xxx: Fix crash in qla2xxx_mqueuecommand()
-33a0bb459cd08bff0b359ae480149bd8b1d50456 mmc: sdhci-pci: Fix initialization of some SD cards for Intel BYT-based controllers
-2412ff5849c2232614c3e60bfd6113ead6e0076e mmc: block: Update ext_csd.cache_ctrl if it was written
-ceeb452ef5ffb0e480ecbd4d3a73352b93ac7b12 mmc: block: Issue a cache flush only when it's enabled
-e5a7df32a903b381e8f909578dffccb2f9942b07 mmc: core: Do a power cycle when the CMD11 fails
-062da159f81f1e158f41e7ad3be88adbc270f54e mmc: core: Set read only for SD cards with permanent write protect bit
+61cd004f8e3a16f8fe8bbe2fa8084ae5c63137d0 s390/disassembler: increase ebpf disasm buffer size
+bfd8f247abd9f91d2fc1fa58fdf71f4be48da9f3 ACPI: custom_method: fix potential use-after-free issue
+103354d0ac191f3633cce11d57abc22d912b9231 ACPI: custom_method: fix a possible memory leak
+c00f0bc89afb06f8c6c592b23e6921bbb6ad1466 ftrace: Handle commands when closing set_ftrace_filter file
+cfb448e3fa9c76e09ceb13778a41b91f1276e235 ARM: 9056/1: decompressor: fix BSS size calculation for LLVM ld.lld
+b671af7936ca05b3dc6458363aa9f01169259c2b arm64: dts: marvell: armada-37xx: add syscon compatible to NB clk node
+b7137329885e03811f6bdd677ef816b8cee63c1b arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+8d12d295eaa85e33f07052b0bcf3b8522715cd90 ecryptfs: fix kernel panic with null dev_name
+ac47d9b6c566b6b2590402a2a36d1d1043235bc2 mtd: spinand: core: add missing MODULE_DEVICE_TABLE()
+58d25c599367e2e75493d4fcadc7b538c15efdc4 mtd: rawnand: atmel: Update ecc_stats.corrected counter
+852bb13e677bc7feeb77e09e721d78daf8fd345c spi: spi-ti-qspi: Free DMA resources
+dd0d17a11b85030a7d3badba6f244f760781f89f scsi: qla2xxx: Fix crash in qla2xxx_mqueuecommand()
+cbae19e58645f703501e6ccc858cb1126b354ff7 mmc: sdhci-pci: Fix initialization of some SD cards for Intel BYT-based controllers
+88d6d679530ffce924a57aa97abdbb31c20e187c mmc: block: Update ext_csd.cache_ctrl if it was written
+859b1ba1db39e145caa41b8acff1b70b51243359 mmc: block: Issue a cache flush only when it's enabled
+bd0698780e21cc2412af74f79519a53ca4b04ea6 mmc: core: Do a power cycle when the CMD11 fails
+b478506ef309862e779616dfcfc87b5939732e7c mmc: core: Set read only for SD cards with permanent write protect bit
 
---===============5676362097469588883==
+--===============3466873939190465529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a2df2b99e78-f244511b9f09.txt
+Content-Disposition: attachment; filename=revlist-f244511b9f09-58041fa5ab6f.txt
 
-7429c39e0f682607bf6990866e02c88b54b0397b timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
-0fe18d2f5db1b17238fe7c7fa00cb02a5b950453 net: usb: ax88179_178a: initialize local variables before use
-b90403be6fbdb203cbf6360a1dbd7a87f33e0eca iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-12e89a8d28337dffa31534bb45b209b1dab97f95 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-64ad373822fae6a680fcaf112e6faf3db3477ecd USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-1640b247a0b329b8dbb514b9910e9d3aa10d93b6 USB: Add reset-resume quirk for WD19's Realtek Hub
-fc70faae59220c5a3ab973805fb023075c2e8bfe platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-77eba2cc085969308840097cb44dfcca12a0ecd3 s390/disassembler: increase ebpf disasm buffer size
-f27851d0a6072e75bdd5b9b679f329e005c0ec00 ACPI: custom_method: fix potential use-after-free issue
-a12b2facad0643b7dba0f196f09291ebe80c39ba ACPI: custom_method: fix a possible memory leak
-764f12cdd086369907f5ae09918874c6ecb4f1fb ecryptfs: fix kernel panic with null dev_name
-e6dac43bffafd0fa6d82e74494ec54e82d156d14 mmc: core: Do a power cycle when the CMD11 fails
-f244511b9f098c29e2aceaa997c686ca6fcebf66 mmc: core: Set read only for SD cards with permanent write protect bit
+e0f53eb7b7d9acc6ce8c39445cdebc33f5c6e099 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
+8414b664ca4746c54f30f40c407d6d354d5bf655 net: usb: ax88179_178a: initialize local variables before use
+f46850dc7c5cc9eb890ea214f1039d541fddcdc5 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+f5d280254f37208070382f5acef1942e73629912 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+b190d03189c5460cec5e199481e230cdbaee43f4 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+9a5bdf5d1bdbb3e35aa33f7ddfd680bc1e08dc6e USB: Add reset-resume quirk for WD19's Realtek Hub
+78f765ab49cccc58d74d4f8c331f80936043110b platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+ba027b97355ddf2d2da6fb0722c6c7ed21acfbd0 s390/disassembler: increase ebpf disasm buffer size
+536607bbe408c737e5296e24bd1eccd88122cb1f ACPI: custom_method: fix potential use-after-free issue
+3e5eb613ad31b62d59660b7c2751cd53241793c7 ACPI: custom_method: fix a possible memory leak
+1c5cec538331ed7efec740f10bf72bc3c6e70c6a ecryptfs: fix kernel panic with null dev_name
+f5ae405e346c8c15bb30baa54fffa8ea699eb749 mmc: core: Do a power cycle when the CMD11 fails
+58041fa5ab6fae1d06395b616c77652b0baed4da mmc: core: Set read only for SD cards with permanent write protect bit
 
---===============5676362097469588883==
+--===============3466873939190465529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519dbe1a3e66-2ebbf038d13e.txt
+Content-Disposition: attachment; filename=revlist-2ebbf038d13e-e19158b06904.txt
 
-c5b1648191a35ace87427e38231bb7ce9ff091c7 net: usb: ax88179_178a: initialize local variables before use
-bb750accec66fa8f9c57ec293cf2e22376d24288 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-1a3336245bd4fec6b74905cffe317e44cd42448b ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-4475442948b9306c5dee87fb4d917631a45753c1 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-51abd9e0641c05b1b2379557ae0850a2e4f4ae03 USB: Add reset-resume quirk for WD19's Realtek Hub
-be05419ff52b306e866a31c465f41a6ff9163459 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-62f7e290a80a349586f21283f70d415c28d52113 s390/disassembler: increase ebpf disasm buffer size
-d643d0cb7b771257e96f8e55772f70b0cdfd0175 ACPI: custom_method: fix potential use-after-free issue
-133ed993f5810f8373991f2333463d53b9f74b4b ACPI: custom_method: fix a possible memory leak
-c67df83b07fe4c49b8d776bbfa751a6fb1f61fad arm64: dts: mt8173: fix property typo of 'phys' in dsi node
-4e8c9ea674be82e29d8884dd62e37a6911fe7762 ecryptfs: fix kernel panic with null dev_name
-5a627255ec3f0b13e9ca15d8284888f798b66876 mmc: core: Do a power cycle when the CMD11 fails
-2ebbf038d13e20b78ea12105f3b0010cc4a56a7d mmc: core: Set read only for SD cards with permanent write protect bit
+9fd8061b1ebffdbc24bc78c2915d1cbf6be6b49f net: usb: ax88179_178a: initialize local variables before use
+5148d84531ec94e80df428e91a853b0afdc2bea4 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+bfffed382c5469c80598f28a06334c3bdd4b1962 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+790f48b4096f6f4919ff9033601ea8905a748e4f USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+abf369f738bce819b865b9163d908aa466f75685 USB: Add reset-resume quirk for WD19's Realtek Hub
+86a5f0d7f08d776ec51447af3842c343174f9e4d platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+76279d197530109fa7766129fd87925be704212e s390/disassembler: increase ebpf disasm buffer size
+134e9bfce277605e1b3712c3072208e2f58d2a69 ACPI: custom_method: fix potential use-after-free issue
+035a540cc3bcea57e6cd2ec6f4a60f69156932e8 ACPI: custom_method: fix a possible memory leak
+096bd9df43f38541eccd1d0cd7d17e4840f66703 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+8673815bddb6a7cbb4241fd5d276579b93a7362a ecryptfs: fix kernel panic with null dev_name
+a887b2693c43fc6eb34a67f1b8219d984f62c4e4 mmc: core: Do a power cycle when the CMD11 fails
+e19158b06904f71c6045dd547c4a07f8d8126b0a mmc: core: Set read only for SD cards with permanent write protect bit
 
---===============5676362097469588883==--
+--===============3466873939190465529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d6c8b63dd79a-ccc8e0b35af0.txt
+
+675b0c3833e95a1bf0d95b750f716bc8a6ae72d1 bus: mhi: core: Fix check for syserr at power_up
+caa1618f0b613ff96a64bee942c7dc08153fcf62 bus: mhi: core: Clear configuration from channel context during reset
+8303aa3547585a8dbfd5414c6bb239dafe0f1d33 bus: mhi: core: Sanity check values from remote device before use
+7e45bfba17ccbef448a6a316b482569859e4c28b nitro_enclaves: Fix stale file descriptors on failed usercopy
+358e37a9290301fc4f5affe546895ef8cd60a4a0 dyndbg: fix parsing file query without a line-range suffix
+265bd45d016ee074a36c04467a85da3dbab27879 s390/disassembler: increase ebpf disasm buffer size
+0034bfdb178033c39e7d122ae71d19d3838c643b s390/zcrypt: fix zcard and zqueue hot-unplug memleak
+71e51e6e4aec1c805b6fe7ea651209568f44c218 vhost-vdpa: fix vm_flags for virtqueue doorbell mapping
+7b1f4d9a378a438365c40f8b2aaafad58960373e tpm: acpi: Check eventlog signature before using it
+5f20d21b52ef568d64afbc72fac4a3b431f85470 ACPI: custom_method: fix potential use-after-free issue
+6ae5513908fa961445f4ca3e433b38fc69e7d873 ACPI: custom_method: fix a possible memory leak
+bf9bc077f577ba41c6ea36ec644afba32b3a47da ftrace: Handle commands when closing set_ftrace_filter file
+1cc5985b750b048916a5c79c8c2140ebea123a80 ARM: 9056/1: decompressor: fix BSS size calculation for LLVM ld.lld
+432bc9d77e46a23c176f340bc5d092351f14acb8 arm64: dts: marvell: armada-37xx: add syscon compatible to NB clk node
+096929f7ca4f42f124f7bed15f8dac0de2e4d5a8 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+fdb385a113f2bddb814f876982f8e614c7c18892 ecryptfs: fix kernel panic with null dev_name
+9b34bce0d002d5404bbe0a4fdeee3cb22b77cc75 fs/epoll: restore waking from ep_done_scan()
+aa0949227482ffaa7902b8cc620256dc3725146d mtd: spi-nor: core: Fix an issue of releasing resources during read/write
+98caadddf90e97e608caa25b231db438b0e6c029 Revert "mtd: spi-nor: macronix: Add support for mx25l51245g"
+88ae24a6810aaf3578f008c6518f2ae0d47c9ea2 mtd: spinand: core: add missing MODULE_DEVICE_TABLE()
+2ef550582d2d0ebf694adb2e0182420456c15341 mtd: rawnand: atmel: Update ecc_stats.corrected counter
+f3c0fefcab30509e545a29cd608af1f351f5b472 mtd: physmap: physmap-bt1-rom: Fix unintentional stack access
+26bb883ce32637a9061da7b9038bc02ce00bce9c erofs: add unsupported inode i_format check
+5ad05d8443011ab67ed421a1f40a16c3b89da31d spi: stm32-qspi: fix pm_runtime usage_count counter
+4fd1b4cc8482caa47193ceed7c0853bdf3e5bb95 spi: spi-ti-qspi: Free DMA resources
+c64a93c6b1738ce06198dfee0abfd43f12adec53 scsi: qla2xxx: Fix crash in qla2xxx_mqueuecommand()
+0dc48ec2b298a048b145e4a4c79b8404da453764 scsi: mpt3sas: Block PCI config access from userspace during reset
+7684137df22ee971409a5222feb57b78d85a0b5c mmc: uniphier-sd: Fix an error handling path in uniphier_sd_probe()
+9f794d940f95ee75524654264c2a1561e60ed2b8 mmc: uniphier-sd: Fix a resource leak in the remove function
+eef190489fede712aeb34c3d43b594fdf33782fc mmc: sdhci: Check for reset prior to DMA address unmap
+cec28c8c4a01e7fe6db382358f34dcb31b415968 mmc: sdhci-pci: Fix initialization of some SD cards for Intel BYT-based controllers
+4bdb74c74a9ba661da88e98f8fcfdff35eb57592 mmc: sdhci-tegra: Add required callbacks to set/clear CQE_EN bit
+75d856c253e57f263c226f8ff84bf931e1bc57bb mmc: block: Update ext_csd.cache_ctrl if it was written
+3f6a50d863968391cc7dd25bda2f6d99833ac185 mmc: block: Issue a cache flush only when it's enabled
+46c849a1f656ce02f8877b1199542bffb5aad19f mmc: core: Do a power cycle when the CMD11 fails
+82cc5b184ccb1ab1b4bd39ef649ff453494b5169 mmc: core: Set read only for SD cards with permanent write protect bit
+ccc8e0b35af02738e41f640721c1f23ea904d7a0 mmc: core: Fix hanging on I/O during system suspend for removable cards
+
+--===============3466873939190465529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-499b3619fc13-47c77460db8f.txt
+
+361ac2e2ea866d04027d7bb9a63a59d6804653ea bus: mhi: core: Fix check for syserr at power_up
+a604f84189ceb78616273d1bb44fcc24446fd9e3 bus: mhi: core: Clear configuration from channel context during reset
+e59b1eb9d11768e0733170fda3fae686027a9c8d bus: mhi: core: Sanity check values from remote device before use
+7b0305b8738e8de9b5db41ff6c22f15834d26720 bus: mhi: core: Add missing checks for MMIO register entries
+439e49e6238975ec89d949fc145f2fd2822434a0 bus: mhi: pci_generic: Remove WQ_MEM_RECLAIM flag from state workqueue
+4d1d5e913aae59590267b1854ee8286c17c48817 nitro_enclaves: Fix stale file descriptors on failed usercopy
+3503bcb6adbd86487b73730e2268ae05141db3bd dyndbg: fix parsing file query without a line-range suffix
+ed263d57e741cf8defb6b03f0e57262d1cb33578 s390/disassembler: increase ebpf disasm buffer size
+c99c86f8d130339adaa595f38009b031476f9c4c s390/zcrypt: fix zcard and zqueue hot-unplug memleak
+40bcb14243ad92d1065716025a777198119d3b1b s390/vfio-ap: fix circular lockdep when setting/clearing crypto masks
+ae44112c62cd9ae9faf36057efa04d0c4c3d7d31 s390/cio: remove invalid condition on IO_SCH_UNREG
+ccd95859515b3df9f10d9fcab70eafa592ae07a2 vhost-vdpa: fix vm_flags for virtqueue doorbell mapping
+2a4ddecf80e8352c946c3e7e794309a76b62f665 tpm: acpi: Check eventlog signature before using it
+ab0bc0af8126b610fd61d212caff496e0cb8ad44 ACPI: custom_method: fix potential use-after-free issue
+61e6fe66abb6986ee084586cb9c08e82ac11e9a3 ACPI: custom_method: fix a possible memory leak
+5597e397a3ae7a53b56f46c028364accf029ce48 ftrace: Handle commands when closing set_ftrace_filter file
+b7a38d746cda81cba4852f30230520e47e5f2f1b ARM: 9056/1: decompressor: fix BSS size calculation for LLVM ld.lld
+2e9f34009fdd8cb3349e112bf29ae818731742c6 arm64: dts: marvell: armada-37xx: add syscon compatible to NB clk node
+947c3255227e9bf86aa48392f40babc8500bcc15 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+996fc0abf4623afe231827280566506cd0a64a51 ecryptfs: fix kernel panic with null dev_name
+ff4f2bccd3057862868f7184d6107b594802093b fs/epoll: restore waking from ep_done_scan()
+fcf2c529c375be66305c0ebd6e9fc240faac43ca reset: add missing empty function reset_control_rearm()
+aa4a47db04875436700147e8c932356c21c99c00 mtd: spi-nor: core: Fix an issue of releasing resources during read/write
+c2c41a76e0d5bbf37b4669aa2c6e9c385a66f247 Revert "mtd: spi-nor: macronix: Add support for mx25l51245g"
+900ff02c4fe5c7b8783550a5984d94c1914bfbc3 mtd: spinand: core: add missing MODULE_DEVICE_TABLE()
+c5ec0d59a522549f8d0c3c4be60f75563f73ee02 mtd: rawnand: atmel: Update ecc_stats.corrected counter
+4097c572e6eb1583a4708aefbf8fd86f21f843b2 mtd: physmap: physmap-bt1-rom: Fix unintentional stack access
+40dc566df8b873ca3bca07d6aa0ecbaee32c26fc erofs: add unsupported inode i_format check
+17082db1ebeffc29ec1e1bdde5605f9008a5ee0f spi: stm32-qspi: fix pm_runtime usage_count counter
+2c4352336c0860f0b22c567a0ec5f9b157cc1e46 spi: spi-ti-qspi: Free DMA resources
+74d7f9b6d89356d000e7cf51e504ea77ea7714c0 libceph: bump CephXAuthenticate encoding version
+55fdbce551ec75a971e6de3e544c5228e1854a78 libceph: allow addrvecs with a single NONE/blank address
+19276f1a4387bc42c881f419d4efd1848feaebbc libceph: don't set global_id until we get an auth ticket
+fc7339652a55432ae203c4a5310702eb2e53299f scsi: qla2xxx: Reserve extra IRQ vectors
+720bd2fb7b51b7cb4068af73ce898720b10c4f3c scsi: lpfc: Fix rmmod crash due to bad ring pointers to abort_iotag
+1414a24592103721b5393d29264ac7a2837a141e scsi: qla2xxx: Fix crash in qla2xxx_mqueuecommand()
+f1d99dbbc561bf04f61d3569fdf64d0557eaaf7a scsi: mpt3sas: Only one vSES is present even when IOC has multi vSES
+d8500cf8817af577dd7b1496a212af6a749ecfa4 scsi: mpt3sas: Block PCI config access from userspace during reset
+6b33b7c7b0215acd51e427a21712e32cf309d8ab mmc: uniphier-sd: Fix an error handling path in uniphier_sd_probe()
+c6287f7042476399224ecdd0d532eadb14fdb393 mmc: uniphier-sd: Fix a resource leak in the remove function
+e04843f1c7b05bfa410afb57bd7cd6c25a3511c0 mmc: sdhci: Check for reset prior to DMA address unmap
+63406c7ceae0a40c7a55bbfe7c795add4cfbf9e2 mmc: sdhci-pci: Fix initialization of some SD cards for Intel BYT-based controllers
+9091d251f6a253688f3f4ba23eb15790b79c35f2 mmc: sdhci-tegra: Add required callbacks to set/clear CQE_EN bit
+07d4c1aaa1174a445934ce29dd93111e7c9b9fca mmc: block: Update ext_csd.cache_ctrl if it was written
+b4a1a176d2e5bac4bf5d5e6bac5701435d33a6f8 mmc: block: Issue a cache flush only when it's enabled
+6e0a4a8bce7459c7346b7320e32054c88bd8531f mmc: core: Do a power cycle when the CMD11 fails
+bdf5ba063e3895ca3d706cb2678c675c25211511 mmc: core: Set read only for SD cards with permanent write protect bit
+47c77460db8f72f3e860639ca13ccf01e553b8ad mmc: core: Fix hanging on I/O during system suspend for removable cards
+
+--===============3466873939190465529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b5dbcd05792a-2f51167abb2e.txt
+
+762c6d1bea3c3564d45fc9393c953265bf9e4971 s390/disassembler: increase ebpf disasm buffer size
+f6f4ccde74f5aea3f704a461b460f7dc9a924aee ACPI: custom_method: fix potential use-after-free issue
+2e17a2ef273823809fbefeecc78535e587727ea3 ACPI: custom_method: fix a possible memory leak
+07efbbd15d21680945125232e1de6565a4e83e98 ftrace: Handle commands when closing set_ftrace_filter file
+fa2d3f1d9d815a47d9906ab9fcb034322cd65a24 ARM: 9056/1: decompressor: fix BSS size calculation for LLVM ld.lld
+e47f0ed29de9f87623519edb5298fc66b9181b42 arm64: dts: marvell: armada-37xx: add syscon compatible to NB clk node
+e7139012b8d90f5f19fa8597e5e604f27ebc41f3 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+2a80dde247938f3eef01186d6da9dc337732ae0b ecryptfs: fix kernel panic with null dev_name
+e04409f8e92599e21ec2242735359f982fa46c47 mtd: spinand: core: add missing MODULE_DEVICE_TABLE()
+c969d124b26df95fba5025c13400d2ec4feaca62 mtd: rawnand: atmel: Update ecc_stats.corrected counter
+c9ac99ce2ef8053a9a04d6b5d7ac90a1177df6e3 erofs: add unsupported inode i_format check
+4a1ddda1ac510f751f61f85cfa0c7e594d8e57df spi: spi-ti-qspi: Free DMA resources
+a8e5abccce4e7bc9059902590cc51e055a46b836 scsi: qla2xxx: Fix crash in qla2xxx_mqueuecommand()
+bc7dc267f5db4a0921ed5b4bb15807b66c6a7b7f scsi: mpt3sas: Block PCI config access from userspace during reset
+9f6fbdfcfb81bbd47f511fd03bee449dbadd9ed0 mmc: uniphier-sd: Fix an error handling path in uniphier_sd_probe()
+856d083ff199b1f2a0a601e471297d0fe67df1a0 mmc: uniphier-sd: Fix a resource leak in the remove function
+6fa7e80c0dcee4ed5d65fd9e91f5e8d37fbfeb48 mmc: sdhci: Check for reset prior to DMA address unmap
+57d52c56d9c3625fe997a1802797c4ff88e473f9 mmc: sdhci-pci: Fix initialization of some SD cards for Intel BYT-based controllers
+99e8a87d03064a8eb346c3978c61d76e7b2f21c1 mmc: block: Update ext_csd.cache_ctrl if it was written
+55403f7924346a3121106d98e9b7e5742f1e5334 mmc: block: Issue a cache flush only when it's enabled
+12588e751f0ee5be62fe104fe0116f8562dd6373 mmc: core: Do a power cycle when the CMD11 fails
+a552cf7666039a60f28e5242e05bfd7dafac8211 mmc: core: Set read only for SD cards with permanent write protect bit
+2f51167abb2e8813849a3bff40f3a1f31166bab5 mmc: core: Fix hanging on I/O during system suspend for removable cards
+
+--===============3466873939190465529==--
