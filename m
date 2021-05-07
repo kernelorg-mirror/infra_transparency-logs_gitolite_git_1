@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============4110287230841720844=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korg/wotmate
-Date: Fri, 07 May 2021 13:26:53 -0000
-Message-Id: <162039401334.10361.15257434558913271847@gitolite.kernel.org>
-
---===============4110287230841720844==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 07 May 2021 13:32:34 -0000
+Message-Id: <162039435481.13413.3816855156988149450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korg/wotmate
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/master
-    old: 6ee82b011f95e6f53954dc17d2ec580b763d5755
-    new: 03907c5fa15ce61e2c63e4e750b0f1718f4277a0
+  - ref: refs/heads/for-5.13/upstream-fixes
+    old: 6be388f4a35d2ce5ef7dbf635a8964a5da7f799f
+    new: ca66a6770bd9d6d99e469debd1c7363ac455daf9
     log: |
-         03907c5fa15ce61e2c63e4e750b0f1718f4277a0 A set of largely superficial updates
+         ca66a6770bd9d6d99e469debd1c7363ac455daf9 HID: i2c-hid: Skip ELAN power-on command after reset
          
-
---===============4110287230841720844==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1620394012 -0400
-pushee gitolite.kernel.org:pub/scm/utils/korg/wotmate
-nonce 1620394012-70300936bf9405a73a1e2959e009fe9728369cf0
-
-6ee82b011f95e6f53954dc17d2ec580b763d5755 03907c5fa15ce61e2c63e4e750b0f1718f4277a0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJVAHAAKCRC2xBzjVmSZ
-bPBdAP9pXbEly8iCfMnNKoCJdYH1Ag5wQyWRnTMNqB+oBCEfNgD8CkygybVKnNOG
-NxwvF5CM+SrJiSsERlG2Mn6aBLhbmQk=
-=ryW+
------END PGP SIGNATURE-----
-
---===============4110287230841720844==--
