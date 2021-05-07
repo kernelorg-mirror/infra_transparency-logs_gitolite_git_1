@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2940273644317445668=="
+Content-Type: multipart/mixed; boundary="===============8322295094298832964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Thu, 06 May 2021 23:51:20 -0000
-Message-Id: <162034508062.32502.16745445182890252336@gitolite.kernel.org>
+Date: Fri, 07 May 2021 00:04:49 -0000
+Message-Id: <162034588935.6964.6721689403445651065@gitolite.kernel.org>
 
---===============2940273644317445668==
+--===============8322295094298832964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/mapcount_deshare
-    old: 68e65632c1ce13e846aa39e38f8ea7399d5abbbd
-    new: 3ad233579f1f8f6abf507503e23cf1174d20d65c
-    log: revlist-68e65632c1ce-3ad233579f1f.txt
+  - ref: refs/heads/master
+    old: 231327dd5f394c1d032155b7819eeca9e0efe5fd
+    new: 5f7994cbc8c568ec2566b20b88cf32af12209eae
+    log: revlist-231327dd5f39-5f7994cbc8c5.txt
 
---===============2940273644317445668==
+--===============8322295094298832964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e65632c1ce-3ad233579f1f.txt
+Content-Disposition: attachment; filename=revlist-231327dd5f39-5f7994cbc8c5.txt
 
 d0eb2d867cf3dbba79ef4c678797e6b58638392c eCryptfs: add a semicolon
 902af369942f8d0a6bdaa8466ff0d84d3d9b03a8 ecryptfs: use DEFINE_MUTEX() for mutex lock
@@ -903,30 +903,42 @@ a3f53e8adfda814730c341ee39ce015a0abf69aa Merge tag 'docs-5.13-2' of git://git.lw
 38182162b50aa4e970e5997df0a0c4288147a153 Merge branch 'pcmcia-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brodo/linux
 a2de4bbddce3e98bd2444bb027dc84418a0066b1 Merge tag 'vfio-v5.13-rc1pt2' of git://github.com/awilliam/linux-vfio
 e48661230cc35b3d0f4367eddfc19f86463ab917 Merge tag 's390-5.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-82ad518b3aa1bdb430fc494a025a0f7c546a4b33 extraversion
-bef201b282d2d5a4b9cea993314f1ad896053075 mm: thp: make the THP mapcount atomic with a seqlock
-223d5e4de5207522f1b2137330368f99b060748b mm: thp: replace the page lock with the seqlock for the THP mapcount
-b43bf08632c445e02a3348e6e1e2ad396e9cf733 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-8ec4113e9308437c3c3fd0b71c1af6c8a51186d1 mm: thp: introduce page_trans_huge_anon_shared
-c2f95e7c3172e3f902772e9628435e1f85df5bd9 mm: thp: introduce page_mapcount_seq irqsafe version
-a88e80410e9a3c558fcdf7b7866a766b43cfde96 mm: thp: introduce irqsafe methods to check if anonymous pages are shared
-f3169b78d05859efed5efd3b8460994b02538e6d mm: gup: COR: copy-on-read fault
-c07e821513908167399e1a1bbbc51a6f283fbc7d mm: gup: gup_page_unshare()
-172aa8f114307cf364a5b5784f59cf169c981135 mm: gup: FOLL_UNSHARE
-d5c0cc66c2f1a7882006370aaa85753ca93cd301 mm: gup: FOLL_UNSHARE: optimize mmu notifier
-3d9e46f01f7d48d2381d8cd59a90c4453c4e8772 mm: COW: restore full accuracy in page reuse
-61f3982afaa2bf0d103c64cc20be20b769546681 mm: COW: skip the page lock in the COW copy path
-2fd932a520ba989c15b5aea34406c4686d64757e mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-0bbca3c5613ba521629d919a7d589081460d74ca mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-5fe0653cc5cde37e5dbbe361184db5937e4dcbd9 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-a8842edb32cd0c944a801155bc0e097e37336194 mm: gup: document FOLL_MM_SYNC
-2964d645bfb109d749497c4a2df944e7a6bc8c49 mm: gup: allow FOLL_PIN to scale in SMP
-e0862bb92c006d6bf3b22ef17f35b8395a8c60fb mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-0cd5bb708ebfae2c8c6c71b570fb1e7c5432ccbf mm: gup: pack has_pinned in MMF_HAS_PINNED
-299b1400beff3f0d3250146b511eb1f80f87e1ba mm: thp: page_mapcount_lock: optimize the migrate path
-45a24b84379f837358dc0063b52d76d1799f9ff8 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
-610fe0b99c4f6daf89a3a0b15fd8583a8590c772 mm: thp: optimize total_mapcount() with head_compound_mapcount
-b75096ca138c5f47b9277e984a16e26d6f7ebc9c mm: thp: cleanup and optimize compound_nr
-3ad233579f1f8f6abf507503e23cf1174d20d65c Merge remote-tracking branch 'gitlab/mapcount_deshare' into mapcount_deshare
+0db359c0f1c5f64bce74802105f0d2227cdcf15f extraversion
+509d158fd31f269d4765ab4b497ac1b2a8fc2eda mm: thp: make the THP mapcount atomic with a seqlock
+4c783da9bec376fb0f46a0d71791b85d5a1acbf8 mm: thp: replace the page lock with the seqlock for the THP mapcount
+ffbb0a497f4ab0318edcc7d4e851c0877c66578c mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+40f5071b5323a38c3f4c16400fe8c3dc1e56dcb3 mm: thp: introduce page_trans_huge_anon_shared
+68eb542cf2037489e3fb1940ac5475da805f5a05 mm: thp: introduce page_mapcount_seq irqsafe version
+067720f407234b01e5d62195c0986d73bde84df0 mm: thp: introduce irqsafe methods to check if anonymous pages are shared
+b6763182ebc861dd618775883e337cf77746a9aa mm: gup: COR: copy-on-read fault
+3a2f2bcd26489669fedbb84120fcdb0b2696a9b3 mm: gup: gup_page_unshare()
+ae216711626752980523e085aafab5b1a101275a mm: gup: FOLL_UNSHARE
+d84b0e977538104a52e98e59ac5dd9033282d7cf mm: gup: FOLL_UNSHARE: optimize mmu notifier
+f927530fbb1ba20a3cad09390d86560a0cef8e48 mm: COW: restore full accuracy in page reuse
+62d579060a849c35702e7af9829146c4dc0d9409 mm: COW: skip the page lock in the COW copy path
+21d904e0c74fb5dafb0c92caca6424a81c6e6c15 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+a0a4d8b042bdd2563049ed1867126986cad78623 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+357db443ebb2186e6c532507593af875f15c4deb mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+5d5215d892f602688f2e4be9fc4e1b79f25c9fe5 mm: gup: document FOLL_MM_SYNC
+51a3cf1d15034e659114bf7e22ff99e6aa0bea81 mm: gup: allow FOLL_PIN to scale in SMP
+f68864be68ed6e46dc7cb25082fb59947b5bdc58 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+1e9305fe4d89b9a06f34bb1ed0bef38c26f1b21e mm: gup: pack has_pinned in MMF_HAS_PINNED
+4c92af64fd9405b3ff166afd2e0592c3b2214376 mm: thp: page_mapcount_lock: optimize the migrate path
+d7f55d5ce19166a57de8c5cef77f4f54746456d3 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
+0e8127eb7658fd959522481b86eca0446479b8d0 mm: thp: optimize total_mapcount() with head_compound_mapcount
+c1dfb50fe05340f89b9a81b3f6aa17fd032ef4d0 mm: thp: cleanup and optimize compound_nr
+8c6882093729435f3a6ab41cb733cc78b8a92c26 x86: restore the write back cache of reserved RAM in iounmap()
+d40e2b46669d03fee1043b2875e490d7b9055d57 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+6401476f236700855f6553b16677e24707a1d591 x86: deduplicate the spectre_v2_user documentation
+a81394ead0bd8123821a4cc94f3c3ebaaa86d5b4 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+41edc1d31b6c8a53e04ba0588bf866b8e63ac897 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+ca09ed4a2cc05b00007a21aa5a81cb6ba924193a mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+c3fbef9e2f4b9c09dcab8af4db81808b56a33f69 sched/fair: skip select_idle_sibling() in presence of sync wakeups
+f369c60303f0dc7931564020775860dbb745d3c2 userfaultfd: UFFDIO_REMAP: rmap preparation
+e93abc8664e0b090a0647f83961742d39844117d userfaultfd: UFFDIO_REMAP uABI
+c5f042e473439795de85943f127a4c842a10b8c2 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+11d376a2d6c7c45002e8040898c8ee66ed47711a arm64: select CPUMASK_OFFSTACK if NUMA
+040e2474c473f676593d4eefb389f8e1e545f669 arm64: tlb: skip tlbi broadcast
+5f7994cbc8c568ec2566b20b88cf32af12209eae Merge remote-tracking branch 'gitlab/main' into main
 
---===============2940273644317445668==--
+--===============8322295094298832964==--
