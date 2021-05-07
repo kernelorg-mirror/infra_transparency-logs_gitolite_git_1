@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0329260376663125359=="
+Content-Type: multipart/mixed; boundary="===============0152043970900872762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 07 May 2021 05:54:16 -0000
-Message-Id: <162036685694.28243.8727683351425022852@gitolite.kernel.org>
+Date: Fri, 07 May 2021 05:56:52 -0000
+Message-Id: <162036701220.30471.9962465577580743526@gitolite.kernel.org>
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,213 +16,215 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: de17eaf4e19044468a3fcd2a0deda0bc240a06a2
-    new: 700af9dcb760bea871be8625ae9c71ac4819d4ed
-    log: revlist-de17eaf4e190-700af9dcb760.txt
+    old: 700af9dcb760bea871be8625ae9c71ac4819d4ed
+    new: 9e1419cb874112aa0ce22767acadc0450887b161
+    log: revlist-700af9dcb760-9e1419cb8741.txt
   - ref: refs/heads/queue/4.19
-    old: 55525aad817171f58e24da52bb87c0b4f147a9b6
-    new: bf78c68d1ce30c6d11f0d3462e41f20b35ac9cc8
-    log: revlist-55525aad8171-bf78c68d1ce3.txt
+    old: bf78c68d1ce30c6d11f0d3462e41f20b35ac9cc8
+    new: 97b3901c14448697701489f01c1cf271778ae12b
+    log: revlist-bf78c68d1ce3-97b3901c1444.txt
   - ref: refs/heads/queue/4.4
-    old: 2112ddb2d2c3c86e17f354ed7ed120e70c95978f
-    new: e410087edf4b3c9ab2dd588db00f25fe511b66d6
+    old: e410087edf4b3c9ab2dd588db00f25fe511b66d6
+    new: 2bdb1c8cec5df6de6d18f0dba0b2ba9375ff4a1c
     log: |
-         3580f3ca653f65b66a6fa0295f8212a4a67e9448 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
-         c2f7cbf5a1e2f909dcce772a69036921bf3c818f net: usb: ax88179_178a: initialize local variables before use
-         7cdcca01a3c93e1c7e5a3f5d70b2e287315a89e1 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-         9e090bfa2abd2850278bcc0278cc60c77e57052c ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-         485f7a2ce0244e800631866e89c3c9294de2c696 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-         9cdebdc9b68f068441afc8588e5da0935ade1373 USB: Add reset-resume quirk for WD19's Realtek Hub
-         e410087edf4b3c9ab2dd588db00f25fe511b66d6 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+         75283d1a36032443b834eaad14f2c22680c9f0f4 timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM
+         9f92dea9b8f20e5ac16be85675ffac223cbaaa62 net: usb: ax88179_178a: initialize local variables before use
+         ca1b0a4a2bc69b25cd55cecf2e011722d1b2c799 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+         ec654041895c03224cbdb66e320804fe940b1cee ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+         8a580959d8d6f3c82469ce7d6a23c5b282a0cb96 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+         78b2e9fd789defe644436d578e366d6c13200944 USB: Add reset-resume quirk for WD19's Realtek Hub
+         2bdb1c8cec5df6de6d18f0dba0b2ba9375ff4a1c platform/x86: thinkpad_acpi: Correct thermal sensor allocation
          
   - ref: refs/heads/queue/4.9
-    old: 95e2a2bf1fb13c35c39343eadfb2e667b834eb46
-    new: 07cfcae9790dab80fd062bd3db1bfee125847d41
+    old: 07cfcae9790dab80fd062bd3db1bfee125847d41
+    new: 25d36caf436a2a2592b4005d2269be8cc86fe097
     log: |
-         38628f9e5566fb2aa8e26e38b7e5bc9fb606de24 net: usb: ax88179_178a: initialize local variables before use
-         4969623756f7dd4d05c6ca14e4b613dda95ad8ed iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-         72b30dcf343bab92e550ee9cf97d8b7ccae2035b ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-         d7e35272e0f43f0e46d8d112acea402a5174f461 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-         c6dad78b24e66f64f1f8ecad4f943306ca693443 USB: Add reset-resume quirk for WD19's Realtek Hub
-         07cfcae9790dab80fd062bd3db1bfee125847d41 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+         d1f0f48e26066464967f2618f5987102bdbf7613 net: usb: ax88179_178a: initialize local variables before use
+         d4668e704360ad5e4f6ec08d9bfa330851677904 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+         5276a44f63d208802fef3616d4ab251b7a0391db ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+         c774b85ce9294fee48479c798871d76f8bdc2227 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+         3d423af41ec4099a568effaa030a8456aaabe523 USB: Add reset-resume quirk for WD19's Realtek Hub
+         25d36caf436a2a2592b4005d2269be8cc86fe097 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
          
   - ref: refs/heads/queue/5.10
-    old: e42f087e04edd98e0eee71bba1ed9fdd6038a196
-    new: b19bea924d1c29cdaec15654eab09ab1d8ed196c
-    log: revlist-e42f087e04ed-b19bea924d1c.txt
+    old: b19bea924d1c29cdaec15654eab09ab1d8ed196c
+    new: fe295056d9295a29423e42718522d24933080fd4
+    log: revlist-b19bea924d1c-fe295056d929.txt
   - ref: refs/heads/queue/5.11
-    old: 6c2ae64a2a72887d3d6befec51f91f6d2f973896
-    new: 3c9dde41e5635be0ad0d9001bb4de28c14a3e471
-    log: revlist-6c2ae64a2a72-3c9dde41e563.txt
+    old: 3c9dde41e5635be0ad0d9001bb4de28c14a3e471
+    new: 4232ce7a02ccc8d1557c184559b666485c6ac832
+    log: revlist-3c9dde41e563-4232ce7a02cc.txt
   - ref: refs/heads/queue/5.12
-    old: 4597131cdda64e542f56d525232adc2974f4cf42
-    new: a9e99a8feb5d4530ee6530a271ea730a59b87f4c
-    log: revlist-4597131cdda6-a9e99a8feb5d.txt
+    old: a9e99a8feb5d4530ee6530a271ea730a59b87f4c
+    new: a774705c7703a238ebf5ad33920d45bda36de766
+    log: revlist-a9e99a8feb5d-a774705c7703.txt
   - ref: refs/heads/queue/5.4
-    old: 4c70daf7edb51c412196209afe7d31f0dbad1054
-    new: ab4305319c1c4729b07dc79406bfb58d8dc0b090
-    log: revlist-4c70daf7edb5-ab4305319c1c.txt
+    old: ab4305319c1c4729b07dc79406bfb58d8dc0b090
+    new: ace668593ec319fb4fd265bf13cbd5866923a16a
+    log: revlist-ab4305319c1c-ace668593ec3.txt
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de17eaf4e190-700af9dcb760.txt
+Content-Disposition: attachment; filename=revlist-700af9dcb760-9e1419cb8741.txt
 
-e731ad7bc94b3195f637c9a98fa5f40d6aef5e5b usbip: vudc synchronize sysfs code paths
-23739078fd508d43148fc87ffb3c979552498a32 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-dca7e41548b3775cd6bdd229190aa1ff365c74ad ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-3e11d1813cb679ac89954d8b113caec12bbc5c1b bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
-315fba5ea44b88e0632f13b6e13932bb27a528e9 bpf: fix up selftests after backports were fixed
-1a37accdb85c68be44f934a35ef6e083bd8eccdf net: usb: ax88179_178a: initialize local variables before use
-688895daa60237e5745b684ce569f024bc1abb9d iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-36bdecc4af80b75f94041e78974ad511a9cfed6f MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
-1c4b520c02dc64eab5924ecb377ea6788655df3c MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
-7951cc892e1bd9cd9b0c0a50c75c07deaaabb878 mips: Do not include hi and lo in clobber list for R6
-2da9a747616d3d160b3e82ba6b50cf625d87c73b bpf: Fix masking negation logic upon negative dst register
-962a4324a5bb379e9ad0d902c88d61863b251b58 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-6f07397121e2f488ba029ea4d529f0576cf31ab3 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-eee1ee6b81eaee30f09270f44a67f119f5116627 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-b789a9b4234b7b647a219aaa09a87fe4360cf552 USB: Add reset-resume quirk for WD19's Realtek Hub
-700af9dcb760bea871be8625ae9c71ac4819d4ed platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+b9d33ac93380dec69afe24b8a640a111b5d75187 usbip: vudc synchronize sysfs code paths
+3fd503196e80b47ca09ea9616a0fca7ea66c4de5 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+e29ddc8231838b25b287f23074754f5ecb66d556 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+24777503accf0f5da3b7cdf81168eb984a0e97f7 bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+27b6e683d5eb15bde46accc1c43640aeba203700 bpf: fix up selftests after backports were fixed
+e779045038af4156f915de99f9ad2bd05047e838 net: usb: ax88179_178a: initialize local variables before use
+c6f312aab9bc899cf18cc67d9d6418ec0977d388 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+afb1b0007e2d2a879de8f9a0f19b3b331e27ab0c MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
+b2b5bd4d2ba1268c99fd106baab081757b77615a MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
+71b2553369d8693331bbe9627f63f13d49ef667e mips: Do not include hi and lo in clobber list for R6
+1133a6481b511179d166658a204c02a6f1b6548d bpf: Fix masking negation logic upon negative dst register
+a15551e021617afc1e1de8708050b1810a520d9a iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+77b3b4c9aad3d4f6040d2be75a862dd72d6245d2 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+6e0af1fc8bc776237e97162558949c082f38aa42 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+02d764266f7270c7ce383a5240e9db12c926b036 USB: Add reset-resume quirk for WD19's Realtek Hub
+9e1419cb874112aa0ce22767acadc0450887b161 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55525aad8171-bf78c68d1ce3.txt
+Content-Disposition: attachment; filename=revlist-bf78c68d1ce3-97b3901c1444.txt
 
-78d7cd98c7cd2f569be2a99d65862a95af18ccb6 erofs: fix extended inode could cross boundary
-d2ad8e327a77c1e65dabc27fdb9e96069958cfa7 ACPI: tables: x86: Reserve memory occupied by ACPI tables
-f87cf1c2155944f0099b1c1386a007899c480c2f ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-51f66041f06e400e7078aea5ebb59795f2281be6 net: usb: ax88179_178a: initialize local variables before use
-4129b7bffbdc885b005d7750ed9d3d577c0f7d87 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-876b791ab817b9bc95a88e3824177aac16e33a68 mips: Do not include hi and lo in clobber list for R6
-adf723474537804c13f504c1a4cb4e7571bc111c bpf: Fix masking negation logic upon negative dst register
-204f99732bffa195b3bbca5e54202f5f61e0a8f8 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-30ff920bb28eaa74ae51be3828b42ca21c847202 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-d26afdf27f29060a8f2fd9a026281505f9eda320 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-d324095a6cecbe00c1493c30af1f54bae35ee6a2 USB: Add reset-resume quirk for WD19's Realtek Hub
-cf2e080c7e14d6ac0774b0a9d0e16e3e81d1624d platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-bf78c68d1ce30c6d11f0d3462e41f20b35ac9cc8 ovl: allow upperdir inside lowerdir
+7bdeda8e559b7286554408d64d68e7af34ae7cc5 erofs: fix extended inode could cross boundary
+7008054e452757a03e0f87ed753a726a9d49a18b ACPI: tables: x86: Reserve memory occupied by ACPI tables
+91a7aca6dc58994b12d465a6caff1f17dfba9495 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+3832fdcd18fc856a4280cd0cc82260d749982734 net: usb: ax88179_178a: initialize local variables before use
+5ccd5bc4798e911a31f3ba09a78f36a90501b9b9 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+bbf191fc6334a12e219c7d6b29833e5707c51f51 mips: Do not include hi and lo in clobber list for R6
+75544e24e051e224a192d1a6b7e0934d305e1a08 bpf: Fix masking negation logic upon negative dst register
+8ca1bcf7d8cb46ba09ce1dcb30dc071d8dc8f507 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+7f71bf448ca291bd3eb7c0982147174e652659e4 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+e5f9fb486fad743e1f0e367885c13849f19c7005 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+0d129da53c16d881e6e858a23cb28801ab955fdf USB: Add reset-resume quirk for WD19's Realtek Hub
+d303e95ab34c2fe679b03e1e347c189e752b6c41 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+97b3901c14448697701489f01c1cf271778ae12b ovl: allow upperdir inside lowerdir
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e42f087e04ed-b19bea924d1c.txt
+Content-Disposition: attachment; filename=revlist-b19bea924d1c-fe295056d929.txt
 
-7ff51b13d1ce401bb90e1819d4835bf51de7d1c5 mips: Do not include hi and lo in clobber list for R6
-08fcc69978b04013a9cde103f216f43585e74f05 netfilter: conntrack: Make global sysctls readonly in non-init netns
-7f25b20ab38b31b28d6b86f40a62e49a51f8bc40 net: usb: ax88179_178a: initialize local variables before use
-1bc96d432df077c709c2681df6f047d62a162429 igb: Enable RSS for Intel I211 Ethernet Controller
-ba8cf82dcaa16760cb58a3587188f460331ccca9 bpf: Fix masking negation logic upon negative dst register
-ac348003b59ce7e93c6fc7364ab1165c583cf73d bpf: Fix leakage of uninitialized bpf stack under speculation
-1ad3594301f5a7b3040f151c2ec03ebc86f7b739 net: qrtr: Avoid potential use after free in MHI send
-594bb236a1b1be7af3ce8b52ce5412ba506b616d perf data: Fix error return code in perf_data__create_dir()
-9801bdbea7e16e806cff7dfd4233e1f950b832cb capabilities: require CAP_SETFCAP to map uid 0
-78f08fd6754c7b41865a0548777af375ec894bff perf ftrace: Fix access to pid in array when setting a pid filter
-9d03457388a3f3863f03af99cfec056e2919abb8 tools/cgroup/slabinfo.py: updated to work on current kernel
-b83e76194524ff30e104cdb091c3f1260908e726 driver core: add a min_align_mask field to struct device_dma_parameters
-ece77495d4442648e90de791a44b81dd0e0d23ff swiotlb: add a IO_TLB_SIZE define
-a120d33cac98bfd31b9f1a4c7362eadf24397428 swiotlb: factor out an io_tlb_offset helper
-724d7412d16f4402252bd124f4c3ccc31f3f72a2 swiotlb: factor out a nr_slots helper
-0d39c1e098593b8f66b305f38249509a954b53e9 swiotlb: clean up swiotlb_tbl_unmap_single
-1608a7797401360817e84e08d90698c5870b8da4 swiotlb: refactor swiotlb_tbl_map_single
-9b174e3a64f2c397392b15bb69bbed728b983bbb swiotlb: don't modify orig_addr in swiotlb_tbl_sync_single
-a9903857c2826a1d2442d36bc25641ad902211f1 swiotlb: respect min_align_mask
-82ab71ae6cca4d37a295f2c65203c74006402bf8 nvme-pci: set min_align_mask
-0c7575a662874110a1d995c76659020a7727480c ovl: fix leaked dentry
-15ccb7b146dabb33b53bf3241965308698c305df ovl: allow upperdir inside lowerdir
-898244227b79bf1fd62688e844ab6b19d7c64a9f ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-f2e1e5006201f36a72d06fd4c5f79eba0ac3a870 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-0523c5e275be9d3484e8886f1359a33980e1dbd1 USB: Add reset-resume quirk for WD19's Realtek Hub
-9968418b277b8165962770eb839588c776aa5d52 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-b19bea924d1c29cdaec15654eab09ab1d8ed196c perf/core: Fix unconditional security_locked_down() call
+25b192d6a807f32284f349e7e2647f96e0e57a09 mips: Do not include hi and lo in clobber list for R6
+ac912a2a54fca565c47c01802ba7db84b3f6891f netfilter: conntrack: Make global sysctls readonly in non-init netns
+02dba86fd5315c3291a178093c5cf28d463fa245 net: usb: ax88179_178a: initialize local variables before use
+a80d332785fc763a547a74c1a6714187e93c2165 igb: Enable RSS for Intel I211 Ethernet Controller
+2d957bbb8a51818a344b71c7f6048539044bc0ed bpf: Fix masking negation logic upon negative dst register
+aafbf6ec027c28acc340d2c1da0924c754692cef bpf: Fix leakage of uninitialized bpf stack under speculation
+acd5332fce38cacc71c362d0ea92c2d2f9b0b087 net: qrtr: Avoid potential use after free in MHI send
+99550861a56c7e2c940e3a1ee9b6cc2408778671 perf data: Fix error return code in perf_data__create_dir()
+15b01908b6bb3b851d87c543d61ff4cb63dc6ccd capabilities: require CAP_SETFCAP to map uid 0
+b9bf8b4508b5a42158c3ebf4949908aea4a0693b perf ftrace: Fix access to pid in array when setting a pid filter
+8e039b394ca639d762dcea9f07152640000126e2 tools/cgroup/slabinfo.py: updated to work on current kernel
+ae49e1d2698d6351b521d8da9a7b9427fc13be87 driver core: add a min_align_mask field to struct device_dma_parameters
+ae3833a5a3c9eba0946a3407883371c99b557ddc swiotlb: add a IO_TLB_SIZE define
+9bd97a1e2480fae56043319f86b83e1101c60611 swiotlb: factor out an io_tlb_offset helper
+fb96030f0bb75606ae8ba59ad28f6d1c7cad5893 swiotlb: factor out a nr_slots helper
+999841675099a86d382b63f4d8ab4c6f06bec932 swiotlb: clean up swiotlb_tbl_unmap_single
+bb807a7baa2a3818e417423d19bc9ebba754360d swiotlb: refactor swiotlb_tbl_map_single
+de85ddc3f01f3398a0385f776166bb400d73a27a swiotlb: don't modify orig_addr in swiotlb_tbl_sync_single
+24113333a5be0da4aae9784331e8b5f47fdf64b7 swiotlb: respect min_align_mask
+e73dc8e7f387b0c59791aeb324f7120c135f2dfb nvme-pci: set min_align_mask
+b122415e2723c839e1d6de825b2a15b9e8f12686 ovl: fix leaked dentry
+611a37b0e6c819901b0291e695f1206e32c2f72a ovl: allow upperdir inside lowerdir
+58dd14bb8eafb1991bbb41e4ec35552b94d60124 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+8469fb5701abd28b98c6ce69642c83bf8b8fa6a7 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+4307e303ceef86415f3e2ab55341aee342570be1 USB: Add reset-resume quirk for WD19's Realtek Hub
+1d8b2c978886be903c62bc19ac32ef08b8283fc9 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+27d908476380116feaf751850f10345f51ef0f55 perf/core: Fix unconditional security_locked_down() call
+fe295056d9295a29423e42718522d24933080fd4 vfio: Depend on MMU
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c2ae64a2a72-3c9dde41e563.txt
+Content-Disposition: attachment; filename=revlist-3c9dde41e563-4232ce7a02cc.txt
 
-555405dc707e5314b575a8844dc8366d2ccac115 mips: Do not include hi and lo in clobber list for R6
-44e6e2a93acff4dde9aa7fbdfd12ba035854146d netfilter: conntrack: Make global sysctls readonly in non-init netns
-22822e17a00b74d4f38df21a8154d6ccc438b8d7 net: usb: ax88179_178a: initialize local variables before use
-2c9754b1131120a0c1b2ca4d9add27db71957987 drm/i915: Disable runtime power management during shutdown
-97b8f8529b6eeee083bf4396a4bd0d0ffb4657a3 igb: Enable RSS for Intel I211 Ethernet Controller
-3c3e37b942f27925a66db9b525e6f5ad09f8aa00 bpf: Fix masking negation logic upon negative dst register
-e63135d97fb726ba4d086cbb7a12f7599837023e bpf: Fix leakage of uninitialized bpf stack under speculation
-409b4f83c5134a430817d9e3cdf587bb7f78c43e net: qrtr: Avoid potential use after free in MHI send
-697352539794e53764a4f841567f89b59ce0a2f7 perf data: Fix error return code in perf_data__create_dir()
-3b280898405aada3a67aab23a0e5e8326c149278 capabilities: require CAP_SETFCAP to map uid 0
-59efa5e545071a3d754de52d0b8bce8d936a0f23 perf ftrace: Fix access to pid in array when setting a pid filter
-c9154b350ffa0ff367eb4892e7119179093f8d12 tools/cgroup/slabinfo.py: updated to work on current kernel
-8b236bf27b08dde2db71a47270fe5dee3b35f998 driver core: add a min_align_mask field to struct device_dma_parameters
-ea7908c3d6975575e17dc09a7b22123a24d93d1c swiotlb: add a IO_TLB_SIZE define
-8643a426dd0ef34cb8dfa23f75dfe55b52dd6671 swiotlb: factor out an io_tlb_offset helper
-a9ef699dc83b4c3a21cbea662d4bddabf8e173d7 swiotlb: factor out a nr_slots helper
-471843e44f877d98060edbf0e3e8508be2c56236 swiotlb: clean up swiotlb_tbl_unmap_single
-e6d5f19162c4a7248a0b4218dc7f8fe1a0d02118 swiotlb: refactor swiotlb_tbl_map_single
-fce63b954be725131d2d2f4156c022ea71d5b014 swiotlb: don't modify orig_addr in swiotlb_tbl_sync_single
-615a3c3ed0eebaefb94bec2b277ad0fe8f1a9df6 swiotlb: respect min_align_mask
-0cdb464123874da867112a6207f06d97ac2db89d nvme-pci: set min_align_mask
-5ca8d6bea113d5a439045456d1aa6c87c73d2ebe ovl: fix leaked dentry
-3c647e52d1858fd6590349b9c3ffa4ac4a31a35f ovl: allow upperdir inside lowerdir
-33d693f852289ddabd9542662d98e0acc752300c ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-8e3803c3624d8b53b87adb4fffa897cda96ba6b9 ALSA: usb-audio: Fix implicit sync clearance at stopping stream
-8288aed013026bf13c1c0e628f3dfc6e948b8b58 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-fa0f32ccf308ad40a6bc563c5a33378f004b3945 USB: Add reset-resume quirk for WD19's Realtek Hub
-9c27922ff68d0c29dbe406eac91f7d66d66554ce platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-3c9dde41e5635be0ad0d9001bb4de28c14a3e471 perf/core: Fix unconditional security_locked_down() call
+036aa2998cf512342b6ef16f875b81a6c95320f3 mips: Do not include hi and lo in clobber list for R6
+a0c3e5070c36c0784d5d27e203a4d7689388016d netfilter: conntrack: Make global sysctls readonly in non-init netns
+4c4c9f590b9ebfab23d67f7ad9ff6ce5f545149d net: usb: ax88179_178a: initialize local variables before use
+af298725cc36768fcb132351910a5b70230aed6d drm/i915: Disable runtime power management during shutdown
+474ac247b7563ae0458b2e79b48e03e6dcaeeb41 igb: Enable RSS for Intel I211 Ethernet Controller
+375271bccf795dfcce1789186333aef5c600ce38 bpf: Fix masking negation logic upon negative dst register
+668a71638541ba01275bd9d9e737da01427cc596 bpf: Fix leakage of uninitialized bpf stack under speculation
+7b329a109ea754e93ee2317e4b85847eb2b051b8 net: qrtr: Avoid potential use after free in MHI send
+989c13ad11cd837ee48442c4dfff841d33065fa9 perf data: Fix error return code in perf_data__create_dir()
+1db3e6d8cd5a45dc521b96493eff1721f07525a7 capabilities: require CAP_SETFCAP to map uid 0
+f735c6db42b519b7efcb9742b02655639220d37b perf ftrace: Fix access to pid in array when setting a pid filter
+431e393b1ce85ace9b1b6495a2d0bcec097ce91e tools/cgroup/slabinfo.py: updated to work on current kernel
+a5c93b82665101ed06a7b05a164c4b57bde1a2da driver core: add a min_align_mask field to struct device_dma_parameters
+35b8f85804f5c2a879496626339525423f1de912 swiotlb: add a IO_TLB_SIZE define
+701947323bd4036b2e1096689c03c3e495702478 swiotlb: factor out an io_tlb_offset helper
+374345eaa5d801b2262536ea459c397aec4633f8 swiotlb: factor out a nr_slots helper
+1d8287efe8aa0718e1504e4adb7bea06ea2d1205 swiotlb: clean up swiotlb_tbl_unmap_single
+801ac1a246eaf81b074ea8753fc2aaa07e0d5600 swiotlb: refactor swiotlb_tbl_map_single
+13c620d99c93c804f8e2f1683989b56fe24859f8 swiotlb: don't modify orig_addr in swiotlb_tbl_sync_single
+880887bf104ad15469985b5c7ad1e801cc49d15b swiotlb: respect min_align_mask
+7bb9086c080bd7a8721bb5efaa2e5da820f64b15 nvme-pci: set min_align_mask
+96ac03009a2e28de3ac1174ae3b3963a49e998dc ovl: fix leaked dentry
+a4bd871e3dca7608b3b298cdd8a9edcc4fa22aa0 ovl: allow upperdir inside lowerdir
+7576d66ced589a8dafa13ea0b42086b7a90e090b ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+38b827d221c87f65501bd203ca8f0156b6e25b27 ALSA: usb-audio: Fix implicit sync clearance at stopping stream
+ed19f74d13e8baaeae45018c733f0eddcf1ebfb8 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+946bff5adc3a8551f9b62114c5921f38d9535732 USB: Add reset-resume quirk for WD19's Realtek Hub
+5adf6261ea0554cfcc9ecdfbe966709af6872316 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+58efe9d5de90abdcd9ef9ff0ef71c8f28bd1ec6c perf/core: Fix unconditional security_locked_down() call
+4232ce7a02ccc8d1557c184559b666485c6ac832 vfio: Depend on MMU
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4597131cdda6-a9e99a8feb5d.txt
+Content-Disposition: attachment; filename=revlist-a9e99a8feb5d-a774705c7703.txt
 
-693cfaf33b26915ad9c3f7cc5bd77235e5255838 mips: Do not include hi and lo in clobber list for R6
-1c1daeab87181695fd10304558c4d2076ccd1e56 netfilter: conntrack: Make global sysctls readonly in non-init netns
-b7930cb899ace1a29e8f84a67e67169cd7844d0b net: usb: ax88179_178a: initialize local variables before use
-70347771bdfa06a52ac093afac5fdb26645e8c84 drm/i915: Disable runtime power management during shutdown
-f414ad4b63fa418babd82b8f2f00f24d7d70548a bpf: Fix masking negation logic upon negative dst register
-6580bf39c3e1c41ba8050dfdab0f797078f883ce bpf: Fix leakage of uninitialized bpf stack under speculation
-89bd1c8573b7da080080180dd3c9c24521d1a609 net: qrtr: Avoid potential use after free in MHI send
-83472954e93b4d1b98a51b5578c69080d0dd8122 ovl: fix leaked dentry
-105925cc4771c00e63c2b75ce059ccdcbeb91ab1 ovl: allow upperdir inside lowerdir
-b737ab2720fd2bf9218aeaeea89ba091d0765938 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-44fb20f8d6ac0f2bd44d3f022ded264f4ce489ed ALSA: usb-audio: Fix implicit sync clearance at stopping stream
-385d9bcf67edfc2d14e83e69c6c98b2b636b21b8 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-432be8c195400d5d783cec10ef2f4cc3ddae602d USB: Add reset-resume quirk for WD19's Realtek Hub
-69fd6f7f5a86d2d7f4d0c40f1881f4ec4f7a53f4 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-a9e99a8feb5d4530ee6530a271ea730a59b87f4c perf/core: Fix unconditional security_locked_down() call
+0b5ba3ee2166cdf969d5dbf6dfac47ff10daec8c mips: Do not include hi and lo in clobber list for R6
+2a3b3afeb0dc63c9f7caa823fa98d3cbaf33b9c0 netfilter: conntrack: Make global sysctls readonly in non-init netns
+0d4286d7d712f122f629a928ffab008011d9b785 net: usb: ax88179_178a: initialize local variables before use
+950c274e5be02d9e7ec845021cc72ba6fa13d587 drm/i915: Disable runtime power management during shutdown
+0900a3fe750ad0365ae0f3b85e1061f83ed9fd74 bpf: Fix masking negation logic upon negative dst register
+fa70d7d84533f6c5cda0b3748f80b4668420308d bpf: Fix leakage of uninitialized bpf stack under speculation
+e42dbde0aad4f1687189d100a87ecc893a02a015 net: qrtr: Avoid potential use after free in MHI send
+5b2b91cc0fd1833c73f8c9f82d37834188c125ad ovl: fix leaked dentry
+da3568f8c3d67b52c5682c7ad8ef115736bd896c ovl: allow upperdir inside lowerdir
+c45331d303ac8c689ecda2131d3619378f82a583 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+677d09a0ea04ce9dd10dca01007d454e183de803 ALSA: usb-audio: Fix implicit sync clearance at stopping stream
+5baa0f97d2a76f5239aae425ceb06b21bf668e0e USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+4ca41db6c0afaedb8a409e8b4991a3efc08f05c7 USB: Add reset-resume quirk for WD19's Realtek Hub
+5b93b1d02d9cea320525a6acd6511addf176dfa2 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+a774705c7703a238ebf5ad33920d45bda36de766 perf/core: Fix unconditional security_locked_down() call
 
---===============0329260376663125359==
+--===============0152043970900872762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c70daf7edb5-ab4305319c1c.txt
+Content-Disposition: attachment; filename=revlist-ab4305319c1c-ace668593ec3.txt
 
-427b93f629903f5b130c7130f0d06db4137261c5 mips: Do not include hi and lo in clobber list for R6
-430e14b40122ee0780922ac332fde64a0f4ed80d ACPI: tables: x86: Reserve memory occupied by ACPI tables
-d3154bde778ec3d3f5ac74dc331c145252e07d5b ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-9a55effc1019d1b8cd337cbc62f8067e34d0105c net: usb: ax88179_178a: initialize local variables before use
-d81cd3116b68c2b74755a78b8118d16684090ac2 igb: Enable RSS for Intel I211 Ethernet Controller
-9caec159e897951039d6deb436e7a2e5a514e2c2 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-4d649fc04732c74ea0d75a981d15b0a25bb95597 bpf: Fix masking negation logic upon negative dst register
-d875fde100df81f497adfe3099da1942249ef8bb bpf: Fix leakage of uninitialized bpf stack under speculation
-9b6cacd633dc2b598d53faea1597fa64630741ac avoid __memcat_p link failure
-9557ace0da795b2443b75c7de95d9957ecfc50de iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
-f045ecd0b5813cca1185efcafbed03092773a102 perf data: Fix error return code in perf_data__create_dir()
-7757e0467d7f735ee2a8639efa4a7278d267981c perf ftrace: Fix access to pid in array when setting a pid filter
-30574055cdbc83acbf1e478325b30eeb71e2d95f ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-bfb04c069b54b8b99c35ad061bedcce57688e58f USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-7a880d7b04e34152f32f6f8e927aad82e5fc955e USB: Add reset-resume quirk for WD19's Realtek Hub
-3f10dc6fd221e72406b1e3f979d760b21a65f2ee platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-060dfd64920196b119e06535865e3816d3e39822 scsi: ufs: Unlock on a couple error paths
-4e8fb45f062f1734daef0fef3890d65c4824a8c2 ovl: allow upperdir inside lowerdir
-f5d493569f02369f816229947cda5b60ee07b287 perf/core: Fix unconditional security_locked_down() call
-ab4305319c1c4729b07dc79406bfb58d8dc0b090 vfio: Depend on MMU
+7c8edde7b933690a63ad09f254ccba9b25550d03 mips: Do not include hi and lo in clobber list for R6
+d9c00eb9f3ed6641557ae6fcd380acd855298f81 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+7224a583f7d91296f73647f1f5ead38dd3b7bf5c ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+290bfccfab72a10537cccf300ab3e2713ba8b3f0 net: usb: ax88179_178a: initialize local variables before use
+78f3b6bda00f51a240b03ccd3ce54c074d2b8e2b igb: Enable RSS for Intel I211 Ethernet Controller
+f1ffa1afe7bc45e9e301c8d35133eeffbeb483bf iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+ec0e3ece7ac2f16d99103bb92067c3edadd8b705 bpf: Fix masking negation logic upon negative dst register
+3985cfe66b9a1a892f0618088d0fed1451dc0209 bpf: Fix leakage of uninitialized bpf stack under speculation
+b189ca6c65e29e9d15b5bd92cab418c70147bdc0 avoid __memcat_p link failure
+860c2c62a09ce35eb9d174b2eb461c6292cb90cc iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+4cdd15c8f8230e7e60801f2b4e484e874ad88d61 perf data: Fix error return code in perf_data__create_dir()
+e359aaece6e03f9e73528e096f1e1d3564434e8e perf ftrace: Fix access to pid in array when setting a pid filter
+65c1bffd2ca0eac6287f7317bfb8165b933fac69 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+50a782669e019558062ebf3b6bf3e6c3e5b03b44 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+f92f02d57eee6a8905b6573ee0a90f10e0e07764 USB: Add reset-resume quirk for WD19's Realtek Hub
+0a92898a66fd6ae97705bfb910071e14897d6365 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+a76fcd0dc3f2271e510a96ac994951ca5830ef22 scsi: ufs: Unlock on a couple error paths
+d23ca0f4848bccd919e7bb98fcc66f46908524a2 ovl: allow upperdir inside lowerdir
+600b9d1bf2c32ef871144702e40dc8c4f51a9783 perf/core: Fix unconditional security_locked_down() call
+ace668593ec319fb4fd265bf13cbd5866923a16a vfio: Depend on MMU
 
---===============0329260376663125359==--
+--===============0152043970900872762==--
