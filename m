@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1161802218174881348=="
+Content-Type: multipart/mixed; boundary="===============1734394889988405658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Fri, 07 May 2021 14:53:25 -0000
-Message-Id: <162039920588.5784.12720307623826129420@gitolite.kernel.org>
+Date: Fri, 07 May 2021 14:53:42 -0000
+Message-Id: <162039922230.5959.8767706753530043242@gitolite.kernel.org>
 
---===============1161802218174881348==
+--===============1734394889988405658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,66 +15,66 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 5f4d2c15ba07a95486757b027347a87f7b95a206
-    new: d2c40599b68636604ee6135a060032618c324c25
-    log: revlist-5f4d2c15ba07-d2c40599b686.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 970a7d23a2645cae9abee6d9e52454df2bc5a611
+    new: e4ccbd5cf37790bc01913c8f7125a91068a3efa5
+    log: revlist-970a7d23a264-e4ccbd5cf377.txt
 
---===============1161802218174881348==
+--===============1734394889988405658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f4d2c15ba07-d2c40599b686.txt
+Content-Disposition: attachment; filename=revlist-970a7d23a264-e4ccbd5cf377.txt
 
-c8203f86b66311d78429c43c040abc9c64249a7a f2fs: remove obsolete f2fs.txt
-ae6e619e82e2d5570c9943600b9fa241b292ca50 fs: Enable bmap() function to properly return errors
-d9dd046bbadbfa96e90fd453be02b04608fbff6e f2fs: fix a spacing coding style
-72e856797369f33b44588eea1015d5c52374fe8f f2fs: fix a spelling error
-8e777aef953499b9cfa1673b06597d78c0f775e1 f2fs: fix to allow migrating fully valid segment
-546ce0066f72c22f9350bea8401d2d46eb2e6f90 f2fs: fix panic during f2fs_resize_fs()
-7b11e7150553e3472b9f52eb442b1835d39da19e f2fs: avoid unused f2fs_show_compress_options()
-2ffd22e22364adb5f30d5c3c963e65cf46fad3fe f2fs: remove unused FORCE_FG_GC macro
-bf2cd557fac6155db20d7ac62aa89260a3c4cd86 f2fs: update comments for explicit memory barrier
-5cc26ee5358dd58027c007e25f1efccd508848b1 f2fs: check discard command number before traversing discard pending list
-816876905a273f2779f8e10502a7cc8b09c4cb1c f2fs: compress: Allow modular (de)compression algorithms
-9c59a4ad6c2cc90a93861e97cb499a860045a949 f2fs: Replace one-element array with flexible-array member
-5b3ee5d80a7df0fa1a87614ae5b90f490eb3abb7 f2fs: remove unnecessary IS_SWAPFILE check
-c3e7687817c357aedf536de8a405bc384019c06f f2fs: fix last_lblock check in check_swap_activate_fast
-619f18260e86d4c118b8833a2f4470e4b477e097 f2fs: check if swapfile is section-alligned
-344bbc8c7400ccf6bb4105ca8a148bfe59c0d3c3 f2fs: remove unused file_clear_encrypt()
-153861ab7098b714e9a78a28b75ba245e0f9b0cd f2fs: fix a redundant call to f2fs_balance_fs if an error occurs
-d2a279a043606664f3b208d256f0825a6ce35ed1 f2fs: fix error handling in f2fs_end_enable_verity()
-1c579e4924504d645f101b75059a798ecf4dd1ce f2fs: expose # of overprivision segments
-16486f24c3a060716a8b8bfc8b2a5be420961f62 f2fs: fix to align to section for fallocate() on pinned file
-3d380094044d9119c53815f84c296128b43a5b1e f2fs: fix to use per-inode maxbytes in f2fs_fiemap
-f059ea36d3a5e868da11011174421f427bf2009b f2fs: add sysfs nodes to get runtime compression stat
-b24b1b27ef525cdfb520eafed132e18bbe8edc05 f2fs: do not use AT_SSR mode in FG_GC & high urgent BG_GC
-11b35098d6328ec8f94433765e0acb185c4a31ff f2fs: don't start checkpoint thread in readonly mountpoint
-b9ded1bb5b105a78646e43203c0f63259792e53e f2fs: fix to avoid out-of-bounds memory access
-f2b4738613482212a5cc97c250e1542345b97412 f2fs: fix wrong comment of nat_tree_lock
-c5b622a7c1d7827a8409743f0106f7fc7a0202f6 f2fs: fix error path of f2fs_remount()
-2b724d3a616827752d3a95e2a72444e39c8b21f7 f2fs: fix to update last i_size if fallocate partially succeeds
-dbd7afe9d57882da663d6a9f7fcb75272b873ada f2fs: fix to avoid touching checkpointed data in get_victim()
-e5fc650e0dd4470b71a954adc56af66badbe539a f2fs: allow to change discard policy based on cached discard cmds
-29c0c16eaf0382c60d1f330d160bd0950c18bffe f2fs: fix a typo in inode.c
-66be0dbe265459c473a9f3f4f786351e5631f90b f2fs: delete empty compress.h
-9b18ced41763f64875edb69ac84d5848d00735f7 f2fs: fix wrong alloc_type in f2fs_do_replace_block
-58ec18d30a29ebb0c94433b12c2f0dafc3b1ae46 f2fs: fix to cover __allocate_new_section() with curseg_lock
-d0ad620e587f476ceebf8d8f31013c3e27c2201c f2fs: introduce gc_merge mount option
-512076fb01fa89582311ab94fdf430e838bbdfca f2fs: fix to restrict mount condition on readonly block device
-b7ffb0d7d370785619e50acefa1b7cbafea491c3 f2fs: Fix a hungtask problem in atomic write
-6409732ab1c0783f07e52dc80f590219035bac05 f2fs: set checkpoint_merge by default
-816d1e3d82e83749a05ce3e122f733c119e169ae f2fs: fix to avoid GC/mmap race with f2fs_truncate()
-eb1997a774569f3f31164f27c5fd732791345db9 f2fs: fix to avoid accessing invalid fio in f2fs_allocate_data_block()
-4bb2c2571f9cf8bc0090786a951de507771e7bc5 f2fs: fix the periodic wakeups of discard thread
-86c2fb4194076d5d0bab3ec85b7cff9e75094ad1 f2fs: clean up build warnings
-b52051c6e145dead8970b422a1fa17a68941cff1 f2fs: document: add description about compressed space handling
-f50b560d8a6cc32c52d4aacd7cd099752dd0c174 f2fs: avoid duplicated codes for cleanup
-b117a9074ee21eec8edfd1ee5a041a031c54d483 f2fs: fix to avoid NULL pointer dereference
-f6498cc5f8312de2e1150d0389f075e3067a7625 f2fs: remove unnecessary struct declaration
-133ef4e81073c2444c298421441855dfdcb17649 f2fs: avoid using native allocate_segment_by_default()
-5e1af4c66eef5bdff7fddf057f1151d5bb6fbbc5 f2fs: clean up left deprecated IO trace codes
-d5c8390777f6b42bb825971f7dc86ef043bbf441 f2fs: compress: remove unneed check condition
-d2c40599b68636604ee6135a060032618c324c25 f2fs: drop inplace IO if fs status is abnormal
+ed8e4bb18c52fde6dce0cadc433ec66be72da033 f2fs: remove obsolete f2fs.txt
+ea4899e2410d1394cc4857298ecf8cc511d5afd4 fs: Enable bmap() function to properly return errors
+3a834185901ca18808db5137381d91cc93b736a4 f2fs: fix a spacing coding style
+d68c10056ceba2395105749ca1036452a17ee33e f2fs: fix a spelling error
+0c3c9ae4268e257e34b05705bc49a4ee986f9060 f2fs: fix to allow migrating fully valid segment
+82c0906fd9b0d8b2e91834ff80321db46191932c f2fs: fix panic during f2fs_resize_fs()
+5fbc4bbdabf3169408adb88cbf182fabbaf57515 f2fs: avoid unused f2fs_show_compress_options()
+c931809474f889ba4c836af6e5186e60cc3a78db f2fs: remove unused FORCE_FG_GC macro
+95a75ef850aac0f72c4ddd1edce66ddffc3c132c f2fs: update comments for explicit memory barrier
+296de3d84b9983235a40e3e5fe7ad9b5a0fc75e9 f2fs: check discard command number before traversing discard pending list
+b51879808a206e0b0e24de0e8b7c6843e766d1f9 f2fs: compress: Allow modular (de)compression algorithms
+c48107a782d3286ff454afd1f25530c0a8fdb3e2 f2fs: Replace one-element array with flexible-array member
+68d75145893f3a933cecac2d4a1b45852b19a65d f2fs: remove unnecessary IS_SWAPFILE check
+8129dc3d2814f12daff18cca74625befdb8ad68f f2fs: fix last_lblock check in check_swap_activate_fast
+230517784a023d7ab3545157140bd16e012cfac2 f2fs: check if swapfile is section-alligned
+1a574f5e6c0c62e5993d9646e8d4988361c5edf5 f2fs: remove unused file_clear_encrypt()
+100762b2a6aadd016f12ab35b4bacd527bdcfbd3 f2fs: fix a redundant call to f2fs_balance_fs if an error occurs
+3b6fce6a2b6b21e9e6ecd32dff3f4824529a1cb2 f2fs: fix error handling in f2fs_end_enable_verity()
+e64e291aa541de01f3504d07d3124381a2c924ae f2fs: expose # of overprivision segments
+bdc4985a5893cdaae9983c5669ad9f5c13c3d3b6 f2fs: fix to align to section for fallocate() on pinned file
+361100028ddee3f420c213bfaa3ef6820c7d3e4c f2fs: fix to use per-inode maxbytes in f2fs_fiemap
+4b8ced69cb626d1cab6078e74c6c5b422cf5cc79 f2fs: add sysfs nodes to get runtime compression stat
+bbff5322e36bd5407148168b2ad7f946aaf58da4 f2fs: do not use AT_SSR mode in FG_GC & high urgent BG_GC
+3eb33edfdd959099a1ff49459e82cd983265bcf0 f2fs: don't start checkpoint thread in readonly mountpoint
+505649f6b5039ca566cf5f29399766aa0def2822 f2fs: fix to avoid out-of-bounds memory access
+8ffd5176de9f81c1aec0265fd5807ac710cc8397 f2fs: fix wrong comment of nat_tree_lock
+a4efcc83d9aa3cf5b661475b9fc71e0dcd350482 f2fs: fix error path of f2fs_remount()
+84a1c1e69bc28f6406aff5a486e7e07a18dd44f1 f2fs: fix to update last i_size if fallocate partially succeeds
+838da495a3dcd893859c464e51ec768c168bf340 f2fs: fix to avoid touching checkpointed data in get_victim()
+3ffc0565ab414bb8e4be596352afa2ece13d8636 f2fs: allow to change discard policy based on cached discard cmds
+6dbb1db66bb6012950d40c339af2f2f6e3342321 f2fs: fix a typo in inode.c
+70654e7a52f7882d2b8d0484afdf0fc6d8ac648a f2fs: delete empty compress.h
+69585c2ad968b06bdfb0dc833725a8c250a867d2 f2fs: fix wrong alloc_type in f2fs_do_replace_block
+4c932fb7217a6671c49eb9766a28276d889a2325 f2fs: fix to cover __allocate_new_section() with curseg_lock
+d5f7c85459fe2353f015b53bfe6a0d794a855837 f2fs: introduce gc_merge mount option
+c7674f75aa6c02620da4e9f7caa3bffadb8cae66 f2fs: fix to restrict mount condition on readonly block device
+6e0dae1c93f43986c9893e2a5e2686edf428751b f2fs: Fix a hungtask problem in atomic write
+60ea51fad41bca58ac1e43a2ce5ea9c33165459b f2fs: set checkpoint_merge by default
+5a2fede51132e52a16142051458b452d0e8fa07d f2fs: fix to avoid GC/mmap race with f2fs_truncate()
+e0bfecc77bfb108f8b6aa2f69b1b07af0d392356 f2fs: fix to avoid accessing invalid fio in f2fs_allocate_data_block()
+2d721e608ca4ebcfd6ace721e78566f404dbcc00 f2fs: fix the periodic wakeups of discard thread
+ede9671e929a06de4d71cb2beb808c0b8867a643 f2fs: clean up build warnings
+5a6ad525fed5dbcb734a157e6cdbd0ebe0ac3092 f2fs: document: add description about compressed space handling
+191bd9c2b35427337a0111918b9b250d82106dbb f2fs: avoid duplicated codes for cleanup
+f0d93436cdf239cc1e4e036a20cad4387685fe97 f2fs: fix to avoid NULL pointer dereference
+fed1d99d0029bd3b1bd0f5aeeff3706839169fe2 f2fs: remove unnecessary struct declaration
+bc92cd28ff2bd5f7fe4e40166fc71548b816b387 f2fs: avoid using native allocate_segment_by_default()
+cd724b396a1f631156f687cfded8f4b584b36303 f2fs: clean up left deprecated IO trace codes
+ea52e2bb63b9e616c5b2a75a11b62f97c048d6d3 f2fs: compress: remove unneed check condition
+e4ccbd5cf37790bc01913c8f7125a91068a3efa5 f2fs: drop inplace IO if fs status is abnormal
 
---===============1161802218174881348==--
+--===============1734394889988405658==--
