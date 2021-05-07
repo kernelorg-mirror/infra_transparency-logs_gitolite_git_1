@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 07 May 2021 00:20:05 -0000
-Message-Id: <162034680587.18382.16603747225040242645@gitolite.kernel.org>
+Date: Fri, 07 May 2021 00:20:40 -0000
+Message-Id: <162034684037.18671.7697612815129141582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gustavoars/linux
 user: gustavoars
 changes:
-  - ref: refs/heads/testing/drm-issue-1583
-    old: 042786f31609e17c7822081536eec42c7c83c269
-    new: 05d2c30d603125a31eb0e5f0167d910822672fcd
+  - ref: refs/heads/testing/drm-nislands
+    old: ae25084c332bd191008406721948753e3aff129c
+    new: ddb8add9f2c1f58830aad14508dbea0c0fff94c9
     log: |
-         05d2c30d603125a31eb0e5f0167d910822672fcd drm/radeon/si_dpm: Fix SMU power state load
+         ddb8add9f2c1f58830aad14508dbea0c0fff94c9 drm/radeon/ni_dpm: Fix booting bug
          
