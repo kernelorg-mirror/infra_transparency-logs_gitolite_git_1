@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6454151570596939829=="
+Content-Type: multipart/mixed; boundary="===============2902532987751372413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 08 May 2021 12:35:10 -0000
-Message-Id: <162047731026.31224.10638118269193829859@gitolite.kernel.org>
+Date: Sat, 08 May 2021 12:35:15 -0000
+Message-Id: <162047731585.31329.2957836788078598441@gitolite.kernel.org>
 
---===============6454151570596939829==
+--===============2902532987751372413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,122 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 7eafd3bfea5a367852687cbef3eb1a526704c9b3
-    new: 5a98d89bf271fe31c71b3b7684f3f33f42860f4c
-    log: revlist-7eafd3bfea5a-5a98d89bf271.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 7d7d1c0ab3eb7c8d8f63a126535018007823b207
+    new: b4a4f05da3240ad44609b1486ef94a90a9e42fd7
+    log: revlist-7d7d1c0ab3eb-b4a4f05da324.txt
 
---===============6454151570596939829==
+--===============2902532987751372413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620477307 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620477312 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1620477306-faffa99a4ee5168335a25a13c914b5a6d568e677
+nonce 1620477312-96cf021d8d62819d81d0dddf2e488621289dd5f7
 
-7eafd3bfea5a367852687cbef3eb1a526704c9b3 5a98d89bf271fe31c71b3b7684f3f33f42860f4c refs/heads/linux-4.9.y
+7d7d1c0ab3eb7c8d8f63a126535018007823b207 b4a4f05da3240ad44609b1486ef94a90a9e42fd7 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCWhXsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9i4P/1k2HR2iWYEyLHwLo7yG
-CNcHRb8vHZ+TNxPNSfyzcbl3Ff4iVmlMnbHLa4StgHC+BrJjiOXPM6NosxuIeW0H
-ltlciYARY/w4mz/hwUCTOFwdSMj7MuG1WT6EVDXWlVfpOvKkBKGfqnbAKUpjsLml
-FLFwCcbHw2lraaFOdWQz3Ho58Pcf6e7K35yqA5nFNj3yhC/GBwTjlkTFx1R9Zv7Y
-QVvrmQwwgefwqe1R+YCX12hhOPTfqQRjEsq5oh/zik+EKTy0ky/+kXAEQDVAMuqR
-4pdxBR0qeI5Iz+ywbWk7KbXrIBL3pqCi0l9H7mxdQ/12k52q+0YrBGTJuJtkUx8Z
-h/GGLZ/ALrt26ydeRKZLn5UkNwH43QiL+wwAXPc+qyobNEFgRTLABbzORfjs6+JN
-SxHz/PI/mcDUMkml2b+G22pP9b60sc2s3gXv5Pnsa7lL79eBiXX9A+ep63UT4j8j
-MCHCMSmupjublr4YKN+pmA+0epFQ70F7d1hi1oXpFTHzDczo+kBlsH5EJQc/Zhpj
-poKzCRiKExMbg7aD1jP+YO7Vzbb1y5Qw+Wu4uh/WXOGAV6M1BUQ6CuNBXJUEQvoK
-bmry/RVlppxJmQyLGqCEI+N0NoIupnNxXn64xXBDeNdOP1bGLjF3LgeS1fPK+nbx
-hkszuN+Ij2tPpIQuxMoJ2rrN
-=JVYZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCWhYEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aZsP/2N5zsk9KayEiDxBh0GN
+3ySH15tvMuL94jwSy7ueozmNyUCgEU6PZ6i2fQmG3EhO22+5/N3LSqDTwuOnpFlX
+/FDOAX8ne26XxZIjTWd51sPv+Ov7PJREDkOac1Mt49c7iS1jjmnimWmGjtHp4a3P
+uXOOAUuuJKp1dN8ULavfJ5rhcI8gV/6UdrQUVCmr8mcaBOqBLbw20AX10yYEy9WI
+xRlbCFQn8IzxZNuhvzDjfldR6VqLZEwj4UFPyvVQ1a4wuxB+Icr3/Y6UMb6+Wj6U
+X6gKwJZWAOasZus/cf/0dcbTpZtjwdcYNz5s7RRf8SN2UWrHcuIqBnCuZu3kUiRJ
+g8LLita+JjuU2kykh1nwRbAe7m4kfw/Fjw7MvN2rx+bI1HhjPjDTfHP7zFm104m+
+X15cfVnU8jUIeukRZZfOFo9IIc89CbUWuCxe3Y+rYkmmJS2UTwg8jaQFLyIIt2S7
+y2+3DXVl99fL1j8aAAX1dMNduAGGo5l9/chRwYN18tVwJSsdfkXsUBFrG6WSyhf1
+YmilZZwsaheDcfCD5bsjc0A0JnY4wtgW84/akp9CDS0VzFwAnI7bmX9xXDU2RvJA
+XU1ZkaWpdxbZsokNsuRWVwEzqeFAGPDDWzFCU+6p3PxCHzzC34VRv5LdJ8jz6YVB
+vhTqpgB/YQPlINoWxfhDZmZr
+=8N9c
 -----END PGP SIGNATURE-----
 
---===============6454151570596939829==
+--===============2902532987751372413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7eafd3bfea5a-5a98d89bf271.txt
+Content-Disposition: attachment; filename=revlist-7d7d1c0ab3eb-b4a4f05da324.txt
 
-ecc1f8e1589245d669eb8142ead0b8a42e9bd7b9 net: usb: ax88179_178a: initialize local variables before use
-2fde0014796a8136f1f99c1aefb5d2bbdd79ef0c iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-10b75a325a3ce0668caedb16a31ca190350bf2d8 ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
-556c950eed524c87240984342d8b22b3b00530ff USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-98bc078219b5ae74686877d6a968d17acab1cdcd USB: Add reset-resume quirk for WD19's Realtek Hub
-2fb192b7fd809d0cf47da46e29aff0fde09458a6 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
-f228f362e1e308ac3b0067e992e73645e1d109b8 s390/disassembler: increase ebpf disasm buffer size
-4312f7ff565894abf1e9cacce791413b2263be29 ACPI: custom_method: fix potential use-after-free issue
-d3abb811d991fcd14c6639da25f2782328d3e413 ACPI: custom_method: fix a possible memory leak
-440e6dfc90cc45de4f99d53f50830b7fcf040d01 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
-59fccb3ee5aef8da86849fcb3899566ccf5a8742 ecryptfs: fix kernel panic with null dev_name
-e86de2d1b4e489ec41ad8d7fed68f6d4fd30c7f4 mmc: core: Do a power cycle when the CMD11 fails
-b5089e2d11c23b67f6e3b034787445f029be8e10 mmc: core: Set read only for SD cards with permanent write protect bit
-645bbb8618424acaf358684d01bfd4db901e6e4d btrfs: fix metadata extent leak after failure to create subvolume
-01a64dca357eb353364db0f8d2a1ae638436715c fbdev: zero-fill colormap in fbcmap.c
-a6c3307068ee12320860421ddb68ca17dc66404a staging: wimax/i2400m: fix byte-order issue
-fcd5ee41a359d07fefa4d02b1dcd88dad04beb0b usb: gadget: uvc: add bInterval checking for HS mode
-768d6971fba74da32f9755f3659d120548aa28cb usb: dwc3: gadget: Ignore EP queue requests during bus reset
-4bdabed5cd851301e08eb62335c6769e53e2e15a usb: xhci: Fix port minor revision
-4415eefdb7fd971a3fd68cfc3b8710bd5684e0b4 PCI: PM: Do not read power state in pci_enable_device_flags()
-550c422de457c9165d48e0c85930a3f5577f8671 x86/build: Propagate $(CLANG_FLAGS) to $(REALMODE_FLAGS)
-e7740814b0231fcc2afc35f282f45773dd1908bd spi: dln2: Fix reference leak to master
-a432f9022853cf43b7f2b20bba1dfafb80912986 spi: omap-100k: Fix reference leak to master
-a51f22ead05f3e4a191c31d9c96818738f5bc25f intel_th: Consistency and off-by-one fix
-90c492f59d1ddc0205e21bc0bbc20a86f6bc51a9 phy: phy-twl4030-usb: Fix possible use-after-free in twl4030_usb_remove()
-81fa7c29f0e1522ab9e3cff9af666958fc6ac84e btrfs: convert logic BUG_ON()'s in replace_path to ASSERT()'s
-5c8c31e4cb4fd34efbff36d42ca87838d1d31bcc scsi: target: pscsi: Fix warning in pscsi_complete_cmd()
-7e814a262f8c7c22656b3bba854a1065aed8713e media: ite-cir: check for receive overflow
-2b452e3e5e2ede47b8a8267295ec5dd92d93ff85 extcon: arizona: Fix some issues when HPDET IRQ fires after the jack has been unplugged
-9eb60ddba5cf99967be2abba6cbe9ded2fcb80e6 media: media/saa7164: fix saa7164_encoder_register() memory leak bugs
-de9ef54e6c329e35df4c3d8181f421af45af1bda media: gspca/sq905.c: fix uninitialized variable
-f40bfae9d7439578eb24b4edf307b2ca0df6e8c7 power: supply: Use IRQF_ONESHOT
-aed123fea486bfdd8f544c4b82c851de87a7f63e scsi: qla2xxx: Always check the return value of qla24xx_get_isp_stats()
-817f5901f4217cbb98e8e32b80e8456973ff23b3 scsi: scsi_dh_alua: Remove check for ASC 24h in alua_rtpg()
-a0f1f4725408ccd2c6ae1ac1085212c211c99c87 media: em28xx: fix memory leak
-d47c5449a8d4d4dcc425a41796748bdbb0db7fb8 clk: socfpga: arria10: Fix memory leak of socfpga_clk on error return
-f49aab9ec4bfd31064d1e901e4ef50d8b256f7e7 power: supply: generic-adc-battery: fix possible use-after-free in gab_remove()
-5d4bd03779150c2cee0e5b923f5b4a4ab5a77aa9 power: supply: s3c_adc_battery: fix possible use-after-free in s3c_adc_bat_remove()
-d96cff902729242e2cedb68eccdab5340730fab1 media: adv7604: fix possible use-after-free in adv76xx_remove()
-a0a83f910a776e1eae487479837071c473b0b11e media: i2c: adv7511-v4l2: fix possible use-after-free in adv7511_remove()
-ebb9c0cc9a35980aa593895e0753c569f3bfa387 media: i2c: adv7842: fix possible use-after-free in adv7842_remove()
-aa04e2c97c34549b5d4a8c2596d1d475f28f0a83 media: dvb-usb: fix memory leak in dvb_usb_adapter_init
-39fa2148c3c194593bf1109662938471be85184b media: gscpa/stv06xx: fix memory leak
-de8b97827c7bc9d29f9252f8f9e3edd00820374e drm/msm/mdp5: Configure PP_SYNC_HEIGHT to double the vtotal
-7ded54192dcd72d677a474bf0c293b0fc18a8bdd drm/amdgpu: fix NULL pointer dereference
-db60963d06cf62f3328b085bd55755c5804bf22a scsi: lpfc: Fix crash when a REG_RPI mailbox fails triggering a LOGO response
-d21907b0c04be2c3e7749bccdcb0344ff87acc9b scsi: libfc: Fix a format specifier
-b35ee64ed22fcfd6643817e9ff83155fd63a1692 ALSA: emu8000: Fix a use after free in snd_emu8000_create_mixer
-4ba17ea6324b927cd6db9770edf34ada6f243f73 ALSA: sb: Fix two use after free in snd_sb_qsound_build
-5a98d89bf271fe31c71b3b7684f3f33f42860f4c Linux 4.9.269-rc1
+7ca35c311bbf13fd548e542913ebad25bdf264d8 usbip: vudc synchronize sysfs code paths
+6cc32cc15269eac73d5ee6e698c26a5b3bca45f1 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+9e0117ca2f8eb88630c331853e40b4985298239a ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+a4224fd46167c53c6498b1aa7bd2c72ce8469c3f bpf: Fix backport of "bpf: restrict unknown scalars of mixed signed bounds for unprivileged"
+a3589d872667739d375c2d790ef6cdaa3af9eb81 bpf: fix up selftests after backports were fixed
+e52b22d3a5b0818be6c10658670d30fa85a07f6e net: usb: ax88179_178a: initialize local variables before use
+91bf312a1ec562dd402465210609996463129106 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+fcccdb585e0e4906f56b7cc49172859da7052f75 MIPS: Introduce isa-rev.h to define MIPS_ISA_REV
+ea3a4ca38b6750b80a0820d7d125c6b85af9c7dc MIPS: cpu-features.h: Replace __mips_isa_rev with MIPS_ISA_REV
+806dd51620786fdc2b5116cf7c99ca6a5fc84c5a mips: Do not include hi and lo in clobber list for R6
+37bcff30d41ab7948fd06d6379e45983e4971b9f bpf: Fix masking negation logic upon negative dst register
+d69cd665699d3099190b5ef603924f930d19f468 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+e96a95247e34de1cccccd38685aa41b09a61120b ALSA: usb-audio: Add MIDI quirk for Vox ToneLab EX
+a026b4292568bca7040eac49bd20c3278eb8e8af USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
+fbb7b2c038374f7fdda625359cd0b3b38ccd4ef2 USB: Add reset-resume quirk for WD19's Realtek Hub
+a70b43d7b66f28659f97dd30b51943a2282dda86 platform/x86: thinkpad_acpi: Correct thermal sensor allocation
+a0f632285824b392bbb1354b0ca7c277a2c2184e s390/disassembler: increase ebpf disasm buffer size
+00430e6def57c12447b47b90ffe4737adcf7f96f ACPI: custom_method: fix potential use-after-free issue
+24c6fa168fc38900fcafcfbcebbaca9f378ae352 ACPI: custom_method: fix a possible memory leak
+2bb2479b2d011ac80603c1e6bdf7880fb190c774 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
+3bc4975b332e9ae52e0bab6f0b7fb206c4dde8b3 ecryptfs: fix kernel panic with null dev_name
+b248bc90587b61c95b1d25bffda7263ded11f64c spi: spi-ti-qspi: Free DMA resources
+b27b848f5e906ab86e875843016c5a2b817d71d3 mmc: block: Update ext_csd.cache_ctrl if it was written
+4c263a95e6246833e9b9a29a474a59f01147b0f0 mmc: core: Do a power cycle when the CMD11 fails
+5edc105ae62b11edf8953aa58f443676ff3d4809 mmc: core: Set read only for SD cards with permanent write protect bit
+bdd6ac0c2e05d13dcf39cce0ad26d6884237f4a4 cifs: Return correct error code from smb2_get_enc_key
+c751cee7083505726c94074256ffcffe98b04d74 btrfs: fix metadata extent leak after failure to create subvolume
+030f8dd816b5ec905ddbeef63f2363b68b2c3c18 intel_th: pci: Add Rocket Lake CPU support
+9eacb913749255e250ef6a1d55db1fc0ccc82c96 fbdev: zero-fill colormap in fbcmap.c
+73b2ff606049b72f1a29bb9c8afea058306d7cab staging: wimax/i2400m: fix byte-order issue
+bb87f5f5512c6382606f14c275293a2ea983f6cc crypto: api - check for ERR pointers in crypto_destroy_tfm()
+424a59c57415ae09443a7f2ffe952db9d49e0e02 usb: gadget: uvc: add bInterval checking for HS mode
+29cba903293238de83bf7e7a7f84ee80e47840d0 usb: gadget: f_uac1: validate input parameters
+0c96712cb8044ffaf9dead22eaa05fa5c57bfda1 usb: dwc3: gadget: Ignore EP queue requests during bus reset
+995c463fa953f4491ef07151aa988c495bfc3564 usb: xhci: Fix port minor revision
+e39d2f162a2c0259dd3972acf3d6681768640c1b PCI: PM: Do not read power state in pci_enable_device_flags()
+15a87a3bc1c3f925d245146de60db2e410bb2ada x86/build: Propagate $(CLANG_FLAGS) to $(REALMODE_FLAGS)
+6e21b356e333e80ff211961eda05035894c11bd0 tee: optee: do not check memref size on return from Secure World
+7188d64ff8ad1da244b23f0ccb250c963270ebe9 perf/arm_pmu_platform: Fix error handling
+7c29b8216bbe64bb7c6a10bb83648c17f92467c1 spi: dln2: Fix reference leak to master
+d543a58578dd6a4c2e72b9457cdcab73b14d194b spi: omap-100k: Fix reference leak to master
+95edc5e13ac8026efa0edc84e831e3deff0ae4af intel_th: Consistency and off-by-one fix
+b527cdbc43b13aacb17feebbbca9ef7b49b70947 phy: phy-twl4030-usb: Fix possible use-after-free in twl4030_usb_remove()
+5e5a8b98618ca1c3d52a67bfd6b4245783faf1e9 btrfs: convert logic BUG_ON()'s in replace_path to ASSERT()'s
+efc1ad51b2d010b4e3cfe7b8c123b2d2e99fb718 scsi: lpfc: Fix incorrect dbde assignment when building target abts wqe
+416fc76b63ee4b8e98d26b86f1e36ba2f0cad6d0 scsi: lpfc: Fix pt2pt connection does not recover after LOGO
+78468701d4b2fbf01c61871e7a173f54631c55d4 scsi: target: pscsi: Fix warning in pscsi_complete_cmd()
+412001ac2c432320a03f94b3aa9961578210ed4a media: ite-cir: check for receive overflow
+7832f6a84ee3f63a3e37a72f4df6c83a883bff45 power: supply: bq27xxx: fix power_avg for newer ICs
+11c8d4619ac25a83005d021d3706c58cbb914688 extcon: arizona: Fix some issues when HPDET IRQ fires after the jack has been unplugged
+4517e3c2ef04ee53c8faed6757904c331120f59d media: media/saa7164: fix saa7164_encoder_register() memory leak bugs
+17e411540fba9eaed8e46f8be6a80b6d6285a6ed media: gspca/sq905.c: fix uninitialized variable
+cc2ef8b480cf42176ed4d527856742a2099e8531 power: supply: Use IRQF_ONESHOT
+e0b605171229bcd7925698e4c75f2af89510bedc drm/amdgpu : Fix asic reset regression issue introduce by 8f211fe8ac7c4f
+6989fd14b82df9340f4be467c307707bb3711aa7 scsi: qla2xxx: Always check the return value of qla24xx_get_isp_stats()
+6275f033ed70124a1c7995550e1ffb43d11712d6 scsi: qla2xxx: Fix use after free in bsg
+42b8e878663abaf945f0c0a1e133f6e391b5a95a scsi: scsi_dh_alua: Remove check for ASC 24h in alua_rtpg()
+7d35a662bb98731178eb92b478eeeb6fb9521773 media: em28xx: fix memory leak
+6b34e50bfe66b018209b98ddb21ff0cbffeb3f58 media: vivid: update EDID
+97d501513cb755bb94c291e2b9f53d21bddead94 clk: socfpga: arria10: Fix memory leak of socfpga_clk on error return
+2b733f72627bd9bbce22ca2facfee30e31ac1009 power: supply: generic-adc-battery: fix possible use-after-free in gab_remove()
+3b1eb11f4b5a7044158881c57cf0a99e85652290 power: supply: s3c_adc_battery: fix possible use-after-free in s3c_adc_bat_remove()
+82a6d1a9d29104a4ae3c82b2757fee5988612d58 media: adv7604: fix possible use-after-free in adv76xx_remove()
+df3882f05146f6b753554391ad737f8902d4a477 media: i2c: adv7511-v4l2: fix possible use-after-free in adv7511_remove()
+4c3cde4249028f1a94799ef85eb4e56c554749d0 media: i2c: adv7842: fix possible use-after-free in adv7842_remove()
+5380699a065a3b1bae4c44396bc6552314487d8d media: dvb-usb: fix memory leak in dvb_usb_adapter_init
+92780934b986ebb8039df59983e3f3ccea17cde0 media: gscpa/stv06xx: fix memory leak
+5217d702ee4544612350e28ece759f574100d192 drm/msm/mdp5: Configure PP_SYNC_HEIGHT to double the vtotal
+79518cd61f52376dd1bc4e1589e7d4858ed26fd4 drm/amdgpu: fix NULL pointer dereference
+2757681864fbe85371a4f5c0d8d18aa3106118ec scsi: lpfc: Fix crash when a REG_RPI mailbox fails triggering a LOGO response
+100b6ea9d9c8d3509a05fa9cda99db9ba5352a60 scsi: lpfc: Remove unsupported mbox PORT_CAPABILITIES logic
+35908557d66eefe2d4b8f8bbd5b2d84e39f98c4b scsi: libfc: Fix a format specifier
+8987dc2a10473803927804feafb8e963c8cdb965 ALSA: emu8000: Fix a use after free in snd_emu8000_create_mixer
+c38a9a69c6d928445abc5377bc2b7c6745ca6485 ALSA: hda/conexant: Re-order CX5066 quirk table entries
+b2c6cf5f2cfcd400cecaf954c29c1ff2721937fe ALSA: sb: Fix two use after free in snd_sb_qsound_build
+b4a4f05da3240ad44609b1486ef94a90a9e42fd7 Linux 4.14.233-rc1
 
---===============6454151570596939829==--
+--===============2902532987751372413==--
