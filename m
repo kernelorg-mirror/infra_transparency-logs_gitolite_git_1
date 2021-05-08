@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 08 May 2021 16:10:13 -0000
-Message-Id: <162049021326.477.2007938543264398045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 08 May 2021 16:11:12 -0000
+Message-Id: <162049027291.854.3644537860815801128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 77673cfaf0b72c5f1e2a72271b94440a3002ca50
-    new: ea2e9f15812bc8d78f28cbb1f3480b26f18c3a7c
+  - ref: refs/heads/fixes-togreg
+    old: 121af0a80d7ce917adebb012d02a3f3e6cccea7b
+    new: ca7cb955f315d7f386378dc5b2e5605d7dc5cf78
     log: |
-         fc119a4a0509a1421269a3d6b6875939ce50c8d1 Fixes for 5.12
-         a19512b77ddd6e82c5d29a1f773797402a38b408 Fixes for 5.11
-         e8d04187086aaa5dde3b8badeb330dd537d74262 Fixes for 5.10
-         0268c07d489edc0998b7bd6aaf37ca35a5582fa3 Fixes for 5.4
-         2f36592a22cecfdae41c9022a0e5cdb8e5724573 Fixes for 4.19
-         d35608395c8f3e0b3e1cff2b166fabf0c022ff06 Fixes for 4.14
-         63c53f015f7dfa772a0d515065fa2888e5d0b6ae Fixes for 4.9
-         ea2e9f15812bc8d78f28cbb1f3480b26f18c3a7c Fixes for 4.4
+         ca7cb955f315d7f386378dc5b2e5605d7dc5cf78 iio: tsl2583: Fix division by a zero lux_val
          
