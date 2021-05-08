@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4652829461607039747=="
+Content-Type: multipart/mixed; boundary="===============4716083329239241635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sat, 08 May 2021 08:47:32 -0000
-Message-Id: <162046365240.3268.8885052852454738904@gitolite.kernel.org>
+Date: Sat, 08 May 2021 09:08:37 -0000
+Message-Id: <162046491748.31961.18111242704537989398@gitolite.kernel.org>
 
---===============4652829461607039747==
+--===============4716083329239241635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/fixes
-    old: 0552cea3a2e8af3e099d2b8c05aa290ffe680d92
-    new: 115726c5d312b462c9d9931ea42becdfa838a076
-    log: revlist-0552cea3a2e8-115726c5d312.txt
+  - ref: refs/heads/next
+    old: 1ee64913f1785db2ad8117cb97d148c1dc631028
+    new: 0d878e18e9c43f3cb8d93217df321bb4b7d84112
+    log: revlist-1ee64913f178-0d878e18e9c4.txt
 
---===============4652829461607039747==
+--===============4716083329239241635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0552cea3a2e8-115726c5d312.txt
+Content-Disposition: attachment; filename=revlist-1ee64913f178-0d878e18e9c4.txt
 
-c01c0716ccf5db2086d9693033472f37de96a699 Merge tag 'driver-core-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-8900d92fd666d936a7bfb4c567ac26736a414fb4 Merge tag 'staging-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-d08410d8c9908058a2f69b55e24edfb0d19da7a1 Merge tag 'tty-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-ef1244124349fea36e4a7e260ecaf156b6b6b22a Merge tag 'usb-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-01d7136894410a71932096e0fb9f1d301b6ccf07 Merge tag 'arm-soc-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-2b90506a8186df5f7c81ad1ebd250103d8469e27 Merge tag 'arm-defconfig-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6876a18d3361e1893187970e1881a1d88d894d3f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-37f00ab4a003f371f81e0eae76cf372f06dec780 Merge tag 'arm-drivers-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-f7857bf3745e9ede6367a8ff89c1c4f308bfd914 Merge tag 'arm-dt-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6b0fbc540c2fc34e55828ef9918cc61528071a01 Merge tag 'arm-newsoc-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0c855563182001c829065faa17f8e29e9ceffe13 Merge tag 'arm-apple-m1-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-eb43c081a6df85e3119226b932ddb9a9572b26e4 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
-930d2d619d0a341693af4a7db9b37b96434ac65e pcnet32: Remove redundant variable prev_link and curr_link
-9176e38027195346f50ab885498678ca7ae55a21 net: davicom: Remove redundant assignment to ret
-d0c5d18da2da00f3bf550286426fabd01cb63bde Merge tag 'linux-can-next-for-5.13-20210426' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-2ad5692db72874f02b9ad551d26345437ea4f7f3 net: hso: fix NULL-deref on disconnect regression
-b9460dd84aa6f160995459c7f766b05c74b219db arm64: dts: rockchip: Remove unnecessary reset in rk3328.dtsi
-517a882aa2b586b5c1b3cf9b1dec1593d191776d dt-bindings: net: dwmac: Add Rockchip DWMAC support
-b331b8ef86f07276a9acb78f10bd5538a29d5546 dt-bindings: net: convert rockchip-dwmac to json-schema
-63fa73e2151848ed5930dfe0040c823ffe1f2cc4 net: Fix typo in comment about ancillary data
-f77bd544a6bbe69aa50d9ed09f13494cf36ff806 net/sched: act_ct: fix wild memory access when clearing fragments
-6d72e7c767acbbdd44ebc7d89c6690b405b32b57 net:emac/emac-mac: Fix a use after free in emac_mac_tx_buf_send
 2f9ef0559efbee18a10a3ca26eefe57f69918693 Merge tag 'docs-5.13' of git://git.lwn.net/linux
 befbfe07e646d9ffc5be1e2c943aefa5e23bf3b8 Merge tag 'locks-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
 b5b3097d9cbb1eb3df0ade9507585e6e9e3b2385 Merge tag 'erofs-for-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
@@ -1050,5 +1028,27 @@ b5fd82a7af198db04408e218f64dc3d4178d585a habanalabs: change error level of secur
 27a9e35daad080f3770401a1a11eda2f9f7732dd habanalabs: ignore f/w status error
 24a107097fbd8fb6a48a0dcb31e64c1de6831a1d habanalabs: wait for interrupt wrong timeout calculation
 115726c5d312b462c9d9931ea42becdfa838a076 habanalabs/gaudi: Fix a potential use after free in gaudi_memset_device_memory
+a0a8f60b7ea928bff29befddd4f31cf164129371 habanalabs: increase ELBI reset timeout for PLDM
+a9f39b30e2c494c4d389cf5e8cc933330b75823f habanalabs: update firmware files to latest
+ad9cd0c7313c403048a2f1f92bda15561584769e habanalabs: prepare preboot stage to dynamic f/w load
+7d10f8445ee5d91f62d4b591b80ace057669e004 habanalabs: request f/w in separate function
+1614961203d0118bf47b820bafaf2fa8ae80661c habanalabs: refactor init device cpu code
+cb68228e3fd484aa7f1f755b54601e18c4e19ca3 habanalabs: use mmu cache range invalidation
+70e3425b54312eca2a2559cb4b43baca9dd63555 habanalabs: use common fw_version read
+9e68f46e783272a8be0d39362851cdeddeb07b27 habanalabs: dynamic fw load reset protocol
+5f3a9bb107a7d184e63b688ef1c4fa7af1779d0d habanalabs: expose ASIC specific PCI info to common code
+ba85570516c23362b807de1c52b92159f2fec8ab habanalabs: update to latest f/w headers
+7653d370a7f763f65e08957a18ce6be39f4e7559 habanalabs: give FW a grace time for configuring iATU
+b4ae34d77110201ffee2caf60f1935b9d73ca8dc habanalabs: modify progress status messages
+4096148b6ed8cb3e23e0590430ea2efa26a29f91 habanalabs: use dev_dbg upon hint address failure
+3d56d4bc85aa51c4a6c217b438e45d84d61757a0 habanalabs: load boot fit to device
+1b25c7972654cbc5ef183853ac281964984a7427 habanalabs: load linux image to device
+b2fad01e6d0a518de7347ea5de02bb2841b7666e habanalabs: ignore device unusable status
+2b356f5ce71690ac8e2d7212c8063ba52b49e194 habanalabs: add missing space after casting
+7e9b66bf4be95b2b1a7070ddd3f283b2fe13e9d0 habanalabs: better error print for pin failure
+307fb98cbbc1b0519cb3749ebb03ee4e78706f33 habanalabs: set dma mask from fw once fw done iatu config
+70ec877e39434f6b6ffbb8ca0a85127d6513f135 habanalabs: avoid using uninitialized pointer
+76e090c9a3636fa82dfe1cbcdfc90a3bbf9cdbeb habanalabs: read f/w's 2-nd sts and err registers
+0d878e18e9c43f3cb8d93217df321bb4b7d84112 habanalabs/gaudi: use scratchpad regs instead of GIC controller
 
---===============4652829461607039747==--
+--===============4716083329239241635==--
