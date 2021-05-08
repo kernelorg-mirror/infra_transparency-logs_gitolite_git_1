@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0003490110801686744=="
+Content-Type: multipart/mixed; boundary="===============7990516759783403173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sat, 08 May 2021 09:27:44 -0000
-Message-Id: <162046606404.12122.529835534115115025@gitolite.kernel.org>
+Date: Sat, 08 May 2021 09:28:44 -0000
+Message-Id: <162046612465.12474.17239370782784387457@gitolite.kernel.org>
 
---===============0003490110801686744==
+--===============7990516759783403173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/habanalabs-next
     old: 0d878e18e9c43f3cb8d93217df321bb4b7d84112
     new: 426cfe3c6bf26b788e37bd13c6bb47f482807c17
     log: revlist-0d878e18e9c4-426cfe3c6bf2.txt
 
---===============0003490110801686744==
+--===============7990516759783403173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ e40cc08b81447ce6f72a2330465ec8383760675c habanalabs: load boot fit to device
 fe49ee098b9f00b1564994b33e82cbf10d56d4be habanalabs: read f/w's 2-nd sts and err registers
 426cfe3c6bf26b788e37bd13c6bb47f482807c17 habanalabs/gaudi: use scratchpad regs instead of GIC controller
 
---===============0003490110801686744==--
+--===============7990516759783403173==--
