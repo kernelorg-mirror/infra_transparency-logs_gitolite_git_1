@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Sat, 08 May 2021 14:52:17 -0000
-Message-Id: <162048553704.19636.13671153486298514364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 08 May 2021 15:00:46 -0000
+Message-Id: <162048604614.24760.17600622375047030041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/master
-    old: 25ad41e7b52e3ad677ad4c016698e71079403b3f
-    new: 58a98f76ac95b1bb11920ff2b58206b2364e6b3b
+  - ref: refs/heads/tmp.perf/core
+    old: 5a5f8ca475c7204bd86eb36531e22823e7739f46
+    new: 906717daf10b69ec5f47f375333e942b87265d4b
     log: |
-         7eea706c14997b4f6f20a1b84c42b7e3cfc7769e pahole: Introduce --with_flexible_array option to show just types ending in a flexible array
-         7c60b0443cb01795e940216500645d9376324a97 pahole: Fix error message when --header couldn't be read
-         58a98f76ac95b1bb11920ff2b58206b2364e6b3b btf: Remove ftrace filter
+         3623b9d2f6a5ab9da602e363ddb26469f23625f7 perf jevents: Silence warning for ArchStd files
+         906717daf10b69ec5f47f375333e942b87265d4b perf session: Fix swapping of cpu_map and stat_config records
          
