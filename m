@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6395684862343310444=="
+Content-Type: multipart/mixed; boundary="===============2353413158262256745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 May 2021 07:28:17 -0000
-Message-Id: <162045889794.21834.5637743717603342949@gitolite.kernel.org>
+Date: Sat, 08 May 2021 07:28:33 -0000
+Message-Id: <162045891356.21988.18176948641311607165@gitolite.kernel.org>
 
---===============6395684862343310444==
+--===============2353413158262256745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 89415891e947d7cf834778ace844ee3e8850ef0a
     new: 44ad83496bf74bc601e97e43f4f6aa3edc76f13c
     log: revlist-89415891e947-44ad83496bf7.txt
 
---===============6395684862343310444==
+--===============2353413158262256745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -185,4 +185,4 @@ bd313968fd22f9e20b858e80424fa04bbcca7467 Merge tag 'block-5.13-2021-05-07' of gi
 dd860052c99b1e088352bdd4fb7aef46f8d2ef47 Merge tag 'tag-chrome-platform-for-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
 44ad83496bf74bc601e97e43f4f6aa3edc76f13c Merge branch 'linus'
 
---===============6395684862343310444==--
+--===============2353413158262256745==--
