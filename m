@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5899731974634900201=="
+Content-Type: multipart/mixed; boundary="===============7846475901488068636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 09 May 2021 12:05:56 -0000
-Message-Id: <162056195602.486.13080837595814743575@gitolite.kernel.org>
+Date: Sun, 09 May 2021 12:22:39 -0000
+Message-Id: <162056295965.10467.2180155438010778780@gitolite.kernel.org>
 
---===============5899731974634900201==
+--===============7846475901488068636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 9f67672a817ec046f7554a885f0fe0d60e1bf99f
     new: b741596468b010af2846b75f5e75a842ce344a6e
     log: revlist-9f67672a817e-b741596468b0.txt
 
---===============5899731974634900201==
+--===============7846475901488068636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ab159ac569fddf812c0a217d6dbffaa5d93ef88f Merge tag 'powerpc-5.13-2' of git://git
 fec4d42724a1bf3dcba52307e55375fdb967b852 drm/i915/display: fix compiler warning about array overrun
 b741596468b010af2846b75f5e75a842ce344a6e Merge tag 'riscv-for-linus-5.13-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============5899731974634900201==--
+--===============7846475901488068636==--
