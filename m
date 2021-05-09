@@ -1,32 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 09 May 2021 18:04:06 -0000
-Message-Id: <162058344695.22412.5047275472756526870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 09 May 2021 18:09:14 -0000
+Message-Id: <162058375414.25124.12894906024835579838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/for-linus
-    old: 8822702f6e4c8917c83ba79e0ebf2c8c218910d4
-    new: c1b55029493879f5bd585ff79f326e71f0bc05e3
-    log: |
-         c1b55029493879f5bd585ff79f326e71f0bc05e3 ALSA: hda: fixup headset for ASUS GU502 laptop
-         
-  - ref: refs/heads/for-next
-    old: 8822702f6e4c8917c83ba79e0ebf2c8c218910d4
-    new: c1b55029493879f5bd585ff79f326e71f0bc05e3
-    log: |
-         c1b55029493879f5bd585ff79f326e71f0bc05e3 ALSA: hda: fixup headset for ASUS GU502 laptop
-         
   - ref: refs/heads/master
-    old: b997ce49083990e5dc4b8dadc7bab8fa6b745ac9
-    new: 29f715cce09a120b216ae1c9d50e06d8353b12d7
+    old: 2673a70a57adb0acfe39416de245b357e7f1bcd4
+    new: eb2b1b990dde78bd083d08e52faff1accd877dfe
     log: |
-         c1b55029493879f5bd585ff79f326e71f0bc05e3 ALSA: hda: fixup headset for ASUS GU502 laptop
-         29f715cce09a120b216ae1c9d50e06d8353b12d7 Merge branch 'for-linus'
+         ba93f72c44323ec7f5ace5b1374038646437f63f syscalls.2: SEE ALSO: add ausyscall(1)
+         afcddad555ff21f25c31375baf45315678c20bb1 pthread_mutex_consistent.3: tfix
+         e3eba861bd966911b38b7ebc572f0c092ca7bdee execveat.2: Library support has been added in glibc 2.34
+         bda2573478664c704b47a3c83b6b91dedd0cbe51 pthread_mutex_consistent.3: Note that pthread_mutexattr_setrobust() is now deprecated
+         9c463934b97b7547fc9d0657d44807789ef20f4a pthread_mutexattr_setrobust.3: Note that the *_np() APIs are deprecated since glibc 2.34
+         707da0b58563be2508c8d1bf107568990462ef81 pthread_yield.3: Note that this function is deprecated since glibc 2.34
+         c339f0543609d80dd9c7e7f4ce6448ad2282cc74 shm_overview.7: ffix
+         9c6ca43e91e61065a9e8cbbfbf8e239879e1fa2d perfmonctl.2: This system call was removed in Linux 5.10
+         eb2b1b990dde78bd083d08e52faff1accd877dfe syscalls.2: perfmonctl(2) was removed in Linux 5.10
          
