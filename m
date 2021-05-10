@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6261538543235987377=="
+Content-Type: multipart/mixed; boundary="===============0429987808838459500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 10 May 2021 22:27:39 -0000
-Message-Id: <162068565915.4130.18388638603089625571@gitolite.kernel.org>
+Date: Mon, 10 May 2021 22:27:49 -0000
+Message-Id: <162068566949.4259.7297007662700685956@gitolite.kernel.org>
 
---===============6261538543235987377==
+--===============0429987808838459500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e4d4a27220a3afdfacf7fbcdc895b08d754f0de1
-    new: 297c4de6f780b63b6d2af75a730720483bf1904a
-    log: revlist-e4d4a27220a3-297c4de6f780.txt
+  - ref: refs/heads/dev-queue
+    old: e16c2a5f3d1dcd99ae72e1a4e8d579f8cb2422d3
+    new: 9f568aa35a82ad697207fdf8872f5b00f86a77f7
+    log: revlist-e16c2a5f3d1d-9f568aa35a82.txt
 
---===============6261538543235987377==
+--===============0429987808838459500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4d4a27220a3-297c4de6f780.txt
+Content-Disposition: attachment; filename=revlist-e16c2a5f3d1d-9f568aa35a82.txt
 
-6b147ea7f442e1fb31dfa25e25b7a8ca3fb817f0 xprtrdma: Add an rpcrdma_mr_completion_class
-83189d15115467061295c0b75334b39fc64c6142 xprtrdma: Don't display r_xprt memory addresses in tracepoints
-e1648eb23d839bd4b9f2999296d5e81dcd93311f xprtrdma: Remove the RPC/RDMA QP event handler
-0a26d10e300204f2a064e44fb181323bc6d986eb xprtrdma: Move fr_cid to struct rpcrdma_mr
-e10fa96d347488d1fd278e84f52ba7b25067cc71 xprtrdma: Move cqe to struct rpcrdma_mr
-9a301cafc8619c7f30032d314da6e65d9d913d57 xprtrdma: Move fr_linv_done field to struct rpcrdma_mr
-dcff9ed209aa6ad8fc575c7fccf6496fef44e869 xprtrdma: Move the Work Request union to struct rpcrdma_mr
-13bcf7e32a0181095cd62010579869e87aacb332 xprtrdma: Move fr_mr field to struct rpcrdma_mr
-d9092b4bb2109502eb8972021a3f74febc931a63 NFSv4.2: Remove ifdef CONFIG_NFSD from NFSv4.2 client SSC code.
-1c98f574403dbcf2eb832d5535a10d967333ef2d ALSA: emu8000: Fix a use after free in snd_emu8000_create_mixer
-0301201b7181a927b59421097a01ee98683aa67c Merge tag 'asoc-v5.13' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-183787c6fcc2c793ec96e946a4fdd8cd0e6d7aa0 riscv: Add 3 SBI wrapper functions to get cpu manufacturer information
-6f4eea90465ad0cd5f3d041b9b2c728426f2b8d4 riscv: Introduce alternative mechanism to apply errata solution
-1a0e5dbd3723e1194cc549def69fe7b557d4c72b riscv: sifive: Add SiFive alternative ports
-800149a77c2cb8746a94457939b1ba1e37d2c14e riscv: sifive: Apply errata "cip-453" patch
-bff3ff525460b492dca1d1665e821d2b5816ebdb riscv: sifive: Apply errata "cip-1200" patch
-7f3d349065d0c643f7f7013fbf9bc9f2c90b675f riscv: Use $(LD) instead of $(CC) to link vDSO
-2f095504f4b9cf75856d6a9cf90299cf75aa46c5 scripts/recordmcount.pl: Fix RISC-V regex for clang
-7ce04771503074a7de7f539cc43f5e1b385cb99b riscv: Workaround mcount name prior to clang-13
-adebc8817b5c975d598ac379bbdf67a7a5186ade riscv: Select HAVE_DYNAMIC_FTRACE when -fpatchable-function-entry is available
-8a07ac39f87d6c762006398029762c40e4d9d075 samples/kprobes: Add riscv support
-2bfc6cd81bd17e4306e24ee47b9554c967bcb499 riscv: Move kernel mapping outside of linear mapping
-2a433cf8f3cdb26d9e4f137db5d3b31aed6a2ca7 Documentation: riscv: Add documentation that describes the VM layout
-0df68ce4c26a48115a9e8d45e24f18d964a10050 riscv: Prepare ptdump for vm layout dynamic addresses
-1987501b1130c6b4b7e1cef4b9c1dc9a8adae025 riscv: add __init section marker to some functions
-de31ea4a1181a8bb4d32ab74f3434f2bc2b79122 riscv: Mark some global variables __ro_after_init
-e6a302248cec96c3af4cbfcedc44b0de8a26ebe0 riscv: Constify sys_call_table
-300f62c37d4601e5b7967c6399917dc6880070bc riscv: Constify sbi_ipi_ops
-cdd1b2bd358ffda2638fe18ff47191e84e18525f riscv: kprobes: Implement alloc_insn_page()
-1d27d854425faec98f352cf88ec3e2a8844429a4 riscv: bpf: Move bpf_jit_alloc_exec() and bpf_jit_free_exec() to core
-fc8504765ec5e812135b8ccafca7101069a0c6d8 riscv: bpf: Avoid breaking W^X
-5387054b986e2d0d994b519020d81b8aa64789c5 riscv: module: Create module allocations without exec permissions
-a9451b8e19716cf8bf420a1d0e58199558ecaeb5 riscv: Set ARCH_HAS_STRICT_MODULE_RWX if MMU
 b1ebaa0e1318494a7637099a26add50509e37964 riscv/kprobe: fix kernel panic when invoking sys_read traced by kprobe
 e75e6bf47a4723ce16f65c7387c20a8c18a1c13b riscv/mm: Use BUG_ON instead of if condition followed by BUG.
 772d7891e8b3b0baae7bb88a294d61fd07ba6d15 riscv: vdso: fix and clean-up Makefile
@@ -1050,5 +1017,38 @@ db825feefc6868896fed5e361787ba3bee2fd906 net/mlx4: Fix EEPROM dump support
 b94cbc909f1d80378a1f541968309e5c1178c98b net: dsa: fix error code getting shifted with 4 in dsa_slave_get_sset_count
 3058e01d31bbdbe50e02cafece2b22817a6a0eae tipc: make node link identity publish thread safe
 297c4de6f780b63b6d2af75a730720483bf1904a net: dsa: felix: re-enable TAS guard band mode
+750c62738aa54db56e4a1ef1ca1de59d89c5c0b8 checkpatch: Fix warnings when --no-tree is used
+c569c0cf27904d0da9e1c90102369dfe7a026a8d checkpatch.pl: seed camelcase from the provided kernel tree root
+047777997e491ad87e02f86b5ce864ae32ab95a4 ice: Fix a couple off by one bugs
+1704231016962faed5f8c2f3440c377023b4553d iavf: Fix asynchronous tasks during driver remove
+cb97df0b8c98445bc9f57d432cbdf380070889c9 i40e: Fix correct max_pkt_size on VF RX queue
+91158152a21059c9b974138de5b9d4039a8b24b5 iavf: Fix return of set the new channel count
+2905ea31108fee6f77ad9faf043ae0844b67ee50 i40e: Fix NULL ptr dereference on VSI filter sync
+27fc88432c3d3bc24668146fe57f84812a56ab46 ice: Fix allowing VF to request more/less queues via virtchnl
+9e53c29b74ed534cc1fbe5602117326a9f33bc08 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+c5d48075364a8b9fbea4ef0a9e4b436696bf1f1a ice: Fix VF true promiscuous mode
+ddefc5962e24e553b60f0b551fbe3fb0b0a68cbe ice: handle the VF VSI rebuild failure
+c29e4f04f01d6c62bca7752f0edc04f4896cfbbe i40e: Fix error handling in i40e_vsi_open
+2fe6e8a9ac19fc0cb2c2958c969ab90ac68d8cfb i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+d029339b14ac98561b2d1eabd80b425a9d4e4d8c i40e: improve locking of mac_filter_hash
+2d1d435bbcd5784845b32c134c4bba63b7c67f87 i40e: Fix autoneg disabling for non-10GBaseT links
+035fb7a58c742681f97ff3af7550e8e2e137bd74 igb: Check if num of q_vectors is smaller than max before array access
+7159c9d503c7c4bd4d5417618087c0184781b9cd ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+52e65be869af8a9559e8b00bf86b0a2d2e089a26 ice: track AF_XDP ZC enabled queues in bitmap
+16d3b24d9a258b1b29dd7ec03ab7d7e7d3f0ab68 i40e: Fix warning message and call stack during rmmod i40e driver
+f9a06406f226bba346c880d9156a461621a4acc0 i40e: Fix logic of disabling queues
+330d24fe2bbfaccb88b3874cf82d161ec64caff6 igb: Fix XDP with PTP enabled
+3abc32ffbba01e1d1c27cb7464b833f55d7e6ad6 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+cb0d36260742933741db0ce9646a58329004e011 ice: report supported and advertised autoneg using PHY capabilities
+6d321d28a818dc547ac06874eec196885aff768f ice: Allow all LLDP packets from PF to Tx
+5e4a8bf00fa746ab529495033dc0787e26ab875b ice: fix FDIR init missing when reset VF
+6ebff8ad56d3c68967b0fc8185dc914bfaa9c839 igb: fix netpoll exit with traffic
+4d40230cfd6bf6903ff72f4165e4c24f7b54342b i40e: fix PTP on 5Gb links
+6baaa2e96add1ef9f7bee16768978a4f3f6cb149 i40e: add correct exception tracing for XDP
+54daca6ae1f7c873ab70b0a5b2c60b61a9f91382 ice: add correct exception tracing for XDP
+9256c2cb2fac65f3b02c585d24d769b31f919dfc ixgbe: add correct exception tracing for XDP
+5f248bfecaa5f6efcf224bfb604ce8f06c8a2b10 igb: add correct exception tracing for XDP
+574b7561b1e3da514f7831f3ac0f783efbd63bca ixgbevf: add correct exception tracing for XDP
+9f568aa35a82ad697207fdf8872f5b00f86a77f7 igc: add correct exception tracing for XDP
 
---===============6261538543235987377==--
+--===============0429987808838459500==--
