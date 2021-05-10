@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5350775610487404089=="
+Content-Type: multipart/mixed; boundary="===============0759384619280787558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 10 May 2021 14:18:18 -0000
-Message-Id: <162065629861.30149.15469689825497040916@gitolite.kernel.org>
+Date: Mon, 10 May 2021 14:21:31 -0000
+Message-Id: <162065649142.1476.14470480019492996662@gitolite.kernel.org>
 
---===============5350775610487404089==
+--===============0759384619280787558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: f1fbd950b59b67bc5c202216c8e1c6ca8c99a3b4
-    new: d9ff1096a840dddea3d5cfa2149ff7da9f499fb2
+  - ref: refs/heads/usb-testing
+    old: f91e5d097f120755060b6abe8249696b405666fd
+    new: 3c5e0d0e9da1b6172eca9f38f67263789d938d25
     log: |
-         d9ff1096a840dddea3d5cfa2149ff7da9f499fb2 usb: musb: Fix an error message
+         0826dae3d81563ae4d21d5565de9106e1f604fcf usb: musb: Fix spelling mistake "tranfer" -> "transfer"
+         cd783e5abb60668d72c9d528e020fa4d21e55f84 usb: musb: Remove duplicate declaration of functions
+         6cfe9036acc53e981eaf04b839cf6bc8c584ce87 usb: musb: Remove unused local variable dma, urb, offset
+         3c5e0d0e9da1b6172eca9f38f67263789d938d25 usb: musb: Remove unused function argument dma, qh, offset, length
          
 
---===============5350775610487404089==
+--===============0759384619280787558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620656292 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620656484 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620656291-bd19e3dbf1dfe8fd69cd6b3b8bcb9255fd44ef89
+nonce 1620656483-93477cfd8b5070f6c98244e3d55aabf6a8418bc6
 
-f1fbd950b59b67bc5c202216c8e1c6ca8c99a3b4 d9ff1096a840dddea3d5cfa2149ff7da9f499fb2 refs/heads/usb-linus
+f91e5d097f120755060b6abe8249696b405666fd 3c5e0d0e9da1b6172eca9f38f67263789d938d25 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCZQKQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QsQAKTTLvtaVW5e54TmnF0l
-SemZT6/1ybXQKhaUKTTBLmpJCjcdVaBXZp74gWpHR7ehcNknyoK85aCcfQysOGsf
-+vcrXB0lHwhgqCjlwEUWGIN4wfdwG5SicYaTbDJewW9ZVfM2TuUF52ZaZF4j7BZj
-tEgPTfgaOdPsYp/a8wmCe6RaYRGRyfegcTat9eTMm8YAe+TD3XPXwdcH4r9g/m2t
-62yg8mbavLpNaVg7BX++HLaftM5Rym0oxmT0m+Nw6F2yIaFE7OZI8KrI1bTL/BDs
-k5YpQPDvfEgIGIN0a9JixLCrhiuqjVhW6tilbn7gQFJ4rpz4bVPGUnVhyPeKuFcj
-Bh1wY4EA+gFJCSQi/l9qyg00G47owZ+8XyJJP17AQYAwMyoSi2XSc/EQ5J9BvDae
-s9N92hHfcFkkDAPXbPURkH8q068A8YJh+5p9YaSbzlSFJCxmhbSUqxAtq9GPNXlQ
-r0GWhLTJ1YU5J7YKsISPzIywltYasMeKIxMEIGMJRVaENSqMvAKhkX/vzp8lt2IJ
-/dSD0r5/yvtiGsEnEkBe1C9+HhovbunKODg8RxeAn9buwwFD/NN8ZW/Rw0QZ+6H0
-aojobhajxI8eCAY5KZmXmT5n1PBlzKg8wHuuYHLSZUB23T/pDxvmTV+HMfi0y1R+
-02/C7f52nhdagGlkq9NKdUj2
-=x9Oh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCZQWQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++/sQAJPIx2pIenX98l+j5y39
+Etzm7s77LpnVqcbhAVEuzShPFZv0MVChjF56FoX2jfTDwWyqe/THNITOk6Y9NQ3U
+EkVN3NcgDqQU22zELjG5bljWkdFgdZDKTLeIAWMOHybmd3+VS+WSthAoor1Idch7
+vNPdDNBuO9FQMZlTuw/Hxfn4gfjNdF6EdiTCexgvdlJb5EJXs+A/57JOsH1bgTT1
+V51AjGboGZ3+tM+MVB1l8OxbQAr3WV+nER/p5vkO5byI3R0cDU7N88KUCuBJt1di
+c0oNHsB0xHhqKVIjN1aHJKl/dsgiKdjHkm2g6ZcS9Lpd/4t2WjQByvyXnYxXR+bT
+QHo4JOcyt0Adkou0ciD/ernUzFoBpdxssWueDXwU6+1bGi6E/xSxUb8bAfsFRnQw
+2+gzOJpaPEoNFt4PFn+KowwwPSg6fp7PrA8MN3gTdn18sppkdgUSJbsOKzS+mFUX
+rAwWkkHjCewREFFRgNbZlXCpXvSuMoezy3EwT/ZS3F0o9TYD4XtKfq0fyU8pjYfx
+MHY5s8hu0ho+vkPWu3QGfUMS2cZGb0ibQebX5PIG6KTyaNgPEpWrR9wpPnfGCDUw
+RoUsluPJkpaXzMLemBwuG8gHRbhaNLpXjCdmwaP5o6GDvCvxul4StLilsT1kEmfG
+vRVRx3zzQgiea/N2WHaXoijI
+=fKxw
 -----END PGP SIGNATURE-----
 
---===============5350775610487404089==--
+--===============0759384619280787558==--
