@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7942987733997704118=="
+Content-Type: multipart/mixed; boundary="===============5444184454067404462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 10 May 2021 09:11:09 -0000
-Message-Id: <162063786973.23856.8817972521693237371@gitolite.kernel.org>
+Date: Mon, 10 May 2021 09:11:27 -0000
+Message-Id: <162063788773.23997.3995980455430718104@gitolite.kernel.org>
 
---===============7942987733997704118==
+--===============5444184454067404462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     log: revlist-a38fd8748464-6efb943b8616.txt
 
---===============7942987733997704118==
+--===============5444184454067404462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============7942987733997704118==--
+--===============5444184454067404462==--
