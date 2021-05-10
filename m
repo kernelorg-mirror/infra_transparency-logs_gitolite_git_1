@@ -1,66 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3584227901774204440=="
+Content-Type: multipart/mixed; boundary="===============7666862963993011330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 10 May 2021 20:13:59 -0000
-Message-Id: <162067763976.20277.14357291184606910782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 10 May 2021 20:47:07 -0000
+Message-Id: <162067962709.7484.15035090894109711580@gitolite.kernel.org>
 
---===============3584227901774204440==
+--===============7666862963993011330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/wip/for-testing
-    old: 327b4a010a156b8a1bee43e8691dffcec42ab54b
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-327b4a010a15-6efb943b8616.txt
+  - ref: refs/heads/for-next
+    old: 8a03ef87ec7e34635963c93326b1d87bb717b3f2
+    new: 507fa7fe09119ee84ce701b13fe45c7df4361de5
+    log: revlist-8a03ef87ec7e-507fa7fe0911.txt
 
---===============3584227901774204440==
+--===============7666862963993011330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-327b4a010a15-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-8a03ef87ec7e-507fa7fe0911.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
-d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
-bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
-0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
-55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
-2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
-8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
-462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
-412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
-6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
-eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
-32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
-444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
-c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
-12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
-9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
-30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
-94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
-c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
-5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
-b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
-ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
-92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
-660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
-91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
-2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
 afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
 f15da0b1fb7bdff4891218f648d374cfffeb24fa perf tests: Skip 'Setup struct perf_event_attr' test for hybrid
 43eb05d066795bdfea58a6a0cea77bbaa1a09b30 perf tests: Support 'Track with sched_switch' test for hybrid
@@ -485,6 +450,7 @@ b9b34ddbe2076ade359cd5ce7537d5ed019e9807 bpf: Fix masking negation logic upon ne
 801c6058d14a82179a7ee17a4b532cac6fad067f bpf: Fix leakage of uninitialized bpf stack under speculation
 ab2165e2e6ed17345ffa8ee88ca764e8788ebcd7 ALSA: usb-audio: Add dB range mapping for Sennheiser Communications Headset PC 8
 127f1c09c5c84800761cf650b4c4f0a312f569ef parisc: Fix typo in setup.c
+8ec1b22437cb95871a19e5f998784f519673b635 btrfs: handle transaction start error in btrfs_fileattr_set
 c2036abb625fc7d63ab64fa23999a7e3a90e7412 dt-bindings: Remove unused Sigma Designs Tango bindings
 788dcee0306e1bdbae1a76d1b3478bb899c5838e Hexagon: fix build errors
 6fff7410f6befe5744d54f0418d65a6322998c09 Hexagon: change jumps to must-extend in futex_atomic_*
@@ -569,6 +535,8 @@ e4d368e0b632717e57d064ade6afdcf535e58068 clk: sifive: Use reset-simple in prci d
 40c753993e3aad51a12c21233486e2037417a4d6 powerpc/kexec_file: Use current CPU info while setting up FDT
 b910fcbada9721c21f1d59ab59e07e8e354c23cc powerpc/powernv/memtrace: Fix dcache flushing
 f5668260b872e89b8d3942a8b7d4278aa9c2c981 powerpc/32: Fix boot failure with CONFIG_STACKPROTECTOR
+5e753a817b2d5991dfe8a801b7b1e8e79a1c5a20 btrfs: fix unmountable seed device after fstrim
+784daf2b9628f2d0117f1f0b578cfe5ab6634919 btrfs: zoned: sanity check zone type
 c6b05f4e233cc666f003e9fe68b2f765952875a9 powerpc/kconfig: Restore alphabetic order of the selects under CONFIG_PPC
 e7e21b3a339bd1b3c1d951b37be5e322c5c0dbf2 PCI: fu740: Add SiFive FU740 PCIe host controller driver
 ae80d514808557018e44190fdbab23564a51e9ef riscv: dts: Add PCIe support for the SiFive FU740-C000 SoC
@@ -605,6 +573,7 @@ a147995c9f565258d849bf5e425f7dc00bdc5c29 Merge branch 'pci/brcmstb'
 882862aaacefcb9f723b0f7817ddafc154465d8f Merge branch 'pci/tegra'
 6e552494fb90acae005d74ce6a2ee102d965184b iomap: remove unused private field from ioend
 698f99ed5e06946764c3be035ce9d62a2691e08c vfio/mdev: remove unnecessary NULL check in mbochs_create()
+77364faf21b4105ee5adbb4844fdfb461334d249 btrfs: initialize return variable in cleanup_free_space_cache_v1
 5c1acf3fe05ce443edba5e2110c9e581765f66a8 cifs: fix regression when mounting shares with prefix paths
 78c09634f7dc061a3bd09704cdbebb3762a45cdf Cifs: Fix kernel oops caused by deferred close for files.
 bae4c0c1c2d576d32e37925ef972a5d45f34e36d fs/cifs: Fix resource leak
@@ -1050,5 +1019,36 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+960fe5671803cf0cacbd084262ed2c9c5c680850 btrfs: correct try_lock_extent() usage in read_extent_buffer_subpage()
+e0de1bd473767328f2fa65c008df9b010a40776d btrfs: zoned: fix silent data loss after failure splitting ordered extent
+83c92f561d16ebca05cfe5258710258416acfa6c btrfs: do not consider send context as valid when trying to flush qgroups
+0daf40d9fffc02b48aba52d8ef1b4dbbbc13ecce btrfs: remove stale comment for argument seed of btrfs_find_device
+365509457ea361b6b9921f03bff4fe76e5442912 btrfs: fix race leading to unpersisted data and metadata on fsync
+2bacdf3109cb5558dcd89bc90f7809c3da26f557 btrfs: fix deadlock when cloning inline extents and using qgroups
+bd421c4a493b4eca522f78e5d8892c69c9dd5ed7 btrfs: check worker before need_preemptive_reclaim
+6b9a538f89428e7b1049ebbd530da37d7d298189 btrfs: only clamp the first time we have to start flushing
+9ce05a815a3a475d2a73813442e8306551c6a86b btrfs: take into account global rsv in need_preemptive_reclaim
+a7f55ec9adc005b7f96d638bb5e0de69badd540c btrfs: use the global rsv size in the preemptive thresh calculation
+721d61fc5ad3f02773cde5cd8897e457317dedf7 btrfs: don't include the global rsv size in the preemptive used amount
+78769e6579736b0e49e67fd97cf03099dd6c8241 btrfs: only ignore delalloc if delalloc is much smaller than ordered
+f66b2e1ef2c421eaf13eeca3117bf8e1cdaebe1c btrfs: handle preemptive delalloc flushing slightly differently
+18fe6de46e0503dff030a0a1334b5ce13d455548 btrfs: fix unmountable seed device after fstrim
+9f31cbebd8594e5e4dec1b3886a2ecd2cedb790e btrfs: zoned: sanity check zone type
+056cfe0adbddafd252ac4e0d10d8c51ee8849cad btrfs: zoned: bail out if we can't read a reliable write pointer
+ad9dc2db84ee73d2b942bf49d130fe4ed9c9fb45 btrfs: initialize return variable in cleanup_free_space_cache_v1
+71691bf0877c4f0e4d3a86b5fc75fed96dedf57a btrfs: return 0 for dev_extent_hole_check_zoned hole_start in case of error
+466a680e0a9cb480c6e545b4378e057e83dedc3d btrfs: avoid RCU stalls while running delayed iputs
+7fcedcc533c9692981b943961b0e37be67ad1e0f btrfs: rename check_async_write and let it return bool
+01e833fe19fd0b31d6a430ee81fb06b4b1e1b37d btrfs: return whole extents in fiemap
+2dd3bda1bd3d699f367ce3757844474ff00283d1 btrfs: remove the dead branch in btrfs_io_needs_validation()
+cb206ce9248bf07d67fecd8aaf3ab604be902b3a btrfs: make btrfs_verify_data_csum() to return a bitmap
+6512659d8f13015dccfb38a13c6d117d22572019 btrfs: submit read time repair only for each corrupted sector
+7c55068001bfe3392f911471208a0afaa11046cc btrfs: remove io_failure_record::in_validation
+e408572ceff5467d5fb897f27564bffa37ed2cfa Merge branch 'misc-5.13' into for-next-current-v5.12-20210510
+af5665ede3a67af9413d37d48a5b1862af549bce Merge branch 'misc-next' into for-next-next-v5.13-20210510
+14dea489e79690c46ccaaa61211a6600b5fb1a2e Merge branch 'ext/qu/repair-by-sector' into for-next-next-v5.13-20210510
+e9a6a5f268bb6ae8ed4a8fc5e1f3a6f5e38a2fd3 Merge branch 'for-next-current-v5.12-20210510' into for-next-20210510
+64ed6da2fb2752af4ef03d38fa5993f89d4c3b46 Merge branch 'for-next-next-v5.13-20210510' into for-next-20210510
+507fa7fe09119ee84ce701b13fe45c7df4361de5 Merge branch 'fixes-for-master' into for-next-20210510
 
---===============3584227901774204440==--
+--===============7666862963993011330==--
