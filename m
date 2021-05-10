@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9068747120477076247=="
+Content-Type: multipart/mixed; boundary="===============5817960720926425132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 10 May 2021 11:47:08 -0000
-Message-Id: <162064722823.26841.13508287973732645156@gitolite.kernel.org>
+Date: Mon, 10 May 2021 11:47:14 -0000
+Message-Id: <162064723439.26918.16548253031752019303@gitolite.kernel.org>
 
---===============9068747120477076247==
+--===============5817960720926425132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: a48b0872e69428d3d02994dcfad3519f01def7fa
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     log: revlist-a48b0872e694-6efb943b8616.txt
 
---===============9068747120477076247==
+--===============5817960720926425132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -386,4 +386,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============9068747120477076247==--
+--===============5817960720926425132==--
