@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0127673858880870137=="
+Content-Type: multipart/mixed; boundary="===============7282237295047439600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 10 May 2021 08:41:08 -0000
-Message-Id: <162063606863.18247.17768707747825323461@gitolite.kernel.org>
+Date: Mon, 10 May 2021 08:41:37 -0000
+Message-Id: <162063609788.18458.14553252508221542571@gitolite.kernel.org>
 
---===============0127673858880870137==
+--===============7282237295047439600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/at24/for-current
+  - ref: refs/heads/at24/for-next
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     log: revlist-fe07bfda2fb9-6efb943b8616.txt
 
---===============0127673858880870137==
+--===============7282237295047439600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============0127673858880870137==--
+--===============7282237295047439600==--
