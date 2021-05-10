@@ -1,54 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4759528280324527828=="
+Content-Type: multipart/mixed; boundary="===============0183702328067515554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 10 May 2021 04:40:55 -0000
-Message-Id: <162062165581.12379.8093562014772286404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 10 May 2021 04:41:11 -0000
+Message-Id: <162062167195.12528.15942351420224088496@gitolite.kernel.org>
 
---===============4759528280324527828==
+--===============0183702328067515554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/fixes
+    old: fde5d7f27108a444aa288ab9dfaa0a0c25e80b6d
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-a38fd8748464-6efb943b8616.txt
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
+    log: revlist-fde5d7f27108-6efb943b8616.txt
 
---===============4759528280324527828==
+--===============0183702328067515554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-fde5d7f27108-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1075,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============4759528280324527828==--
+--===============0183702328067515554==--
