@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 10 May 2021 17:28:34 -0000
-Message-Id: <162066771417.18888.10663053126280264980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 10 May 2021 17:32:35 -0000
+Message-Id: <162066795575.21441.12561114895413502386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/tags/perf-tools-fixes-for-v5.13-2021-05-10
-    old: 0000000000000000000000000000000000000000
-    new: e0097bab9f58660c4325e501129658db4bb73d99
+  - ref: refs/heads/hyperv-next
+    old: 20a40e4da6a65ba0192412f404b361e27872dabe
+    new: c6483a60e8735a67ce5614f9932eb78f832b6d6b
+    log: |
+         c6483a60e8735a67ce5614f9932eb78f832b6d6b Drivers: hv: vmbus: Copy packets sent by Hyper-V out of the ring buffer
+         
