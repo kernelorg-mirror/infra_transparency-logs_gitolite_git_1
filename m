@@ -1,36 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3991131146957419061=="
+Content-Type: multipart/mixed; boundary="===============0509643122258932220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Mon, 10 May 2021 19:45:20 -0000
-Message-Id: <162067592051.3994.5759741506344692684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Mon, 10 May 2021 19:47:21 -0000
+Message-Id: <162067604131.4620.6217518031416450356@gitolite.kernel.org>
 
---===============3991131146957419061==
+--===============0509643122258932220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: mjp
 changes:
-  - ref: refs/heads/for-curr
-    old: 1582f08d83d7899410fb111eba560c26ace249a1
-    new: 1d5e4640e5df15252398c1b621f6bd432f2d7f17
-    log: revlist-1582f08d83d7-1d5e4640e5df.txt
+  - ref: refs/heads/next
+    old: b195b20b7145bcae22ad261abc52d68336f5e913
+    new: 314760fffdbc80784eaf0db4f486b7d65c764f46
+    log: revlist-b195b20b7145-314760fffdbc.txt
 
---===============3991131146957419061==
+--===============0509643122258932220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1582f08d83d7-1d5e4640e5df.txt
+Content-Disposition: attachment; filename=revlist-b195b20b7145-314760fffdbc.txt
 
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
 d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
 bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
 0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
@@ -1045,10 +1040,15 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-f79f7a2d96769d2a3e663a3e673066be77c30cc3 arc: Fix typos/spellos
-8e97bf39fa0361af3e64739b3766992b9dafa11d ARC: kgdb: add 'fallthrough' to prevent a warning
-3433adc8bd09fc9f29b8baddf33b4ecd1ecd2cdc ARC: entry: fix off-by-one error in syscall number validation
-c5f756d8c6265ebb1736a7787231f010a3b782e5 ARC: mm: PAE: use 40-bit physical page mask
-1d5e4640e5df15252398c1b621f6bd432f2d7f17 ARC: mm: Use max_high_pfn as a HIGHMEM zone border
+7813ec68d6627419662c22a83a842fde4489f29c coresight: syscfg: Initial coresight system configuration
+4dbe512e8f42d543297583c23f9373ef53e9345e coresight: syscfg: Add registration and feature loading for cs devices
+883b63cbfc20f7a80ba16846a9e76ae98e347d3c coresight: config: Add configuration and feature generic functions
+d1bfcbd462d31a160ffc0bfee7c64eb4f1f6ec73 coresight: etm-perf: update to handle configuration selection
+d1f580a17bbe4189eff6d6864f1f29c51afdee8c coresight: syscfg: Add API to activate and enable configurations
+c12399b141e1a8ffd0753d8c69065967680bd7a1 coresight: etm-perf: Update to activate selected configuration
+067bd94b05075167dde01bc0bb781dc8472cb695 coresight: etm4x: Add complex configuration handlers to etmv4
+98d0e4b342ddf8affa0a4be08627fd325244964a coresight: config: Add preloaded configurations
+aa1d69390ac5d766c1cb5411f5e3e9e17ca820fa coresight: syscfg: Add initial configfs support
+314760fffdbc80784eaf0db4f486b7d65c764f46 Documentation: coresight: Add documentation for CoreSight config
 
---===============3991131146957419061==--
+--===============0509643122258932220==--
