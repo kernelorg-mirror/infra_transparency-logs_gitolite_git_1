@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5549459177645718909=="
+Content-Type: multipart/mixed; boundary="===============8842603941793767437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 10 May 2021 12:55:18 -0000
-Message-Id: <162065131813.8271.4962852047064492026@gitolite.kernel.org>
+Date: Mon, 10 May 2021 12:59:26 -0000
+Message-Id: <162065156615.9445.593515024606928219@gitolite.kernel.org>
 
---===============5549459177645718909==
+--===============8842603941793767437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: bb9c74a5bd1462499fe5ccb1e3c5ac40dcfa9139
-    new: 18ffa988dbae69cc6e9949cddd9606f6fe533894
+    old: 18ffa988dbae69cc6e9949cddd9606f6fe533894
+    new: e89baeba4f64bab679618b3330cdcda5929fb8d5
     log: |
-         18ffa988dbae69cc6e9949cddd9606f6fe533894 usb: dwc3: gadget: Return success always for kick transfer in ep queue
+         b96992081fde19806b5beb5b25f9327820ead77b usb: dwc3: imx8mp: detect dwc3 core node via compatible string
+         0b2b149e918f6dddb4ea53615551bf7bc131f875 usb: dwc3: imx8mp: fix error return code in dwc3_imx8mp_probe()
+         e89baeba4f64bab679618b3330cdcda5929fb8d5 usb: dwc2: Remove obsolete MODULE_ constants from platform.c
          
 
---===============5549459177645718909==
+--===============8842603941793767437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620651311 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620651559 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620651310-bd2a5c7b44c85b6b51dcabb7b47d7da84af73fbe
+nonce 1620651558-cc58efa29a2db80531f1143ed7d148b339a1b649
 
-bb9c74a5bd1462499fe5ccb1e3c5ac40dcfa9139 18ffa988dbae69cc6e9949cddd9606f6fe533894 refs/heads/usb-linus
+18ffa988dbae69cc6e9949cddd9606f6fe533894 e89baeba4f64bab679618b3330cdcda5929fb8d5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCZLS8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dhkP/1OQAJdqqzvC/AKxpU8A
-uFtziJNyNJjsXylm1YIr3N/deTibkbQsPsBXGu0hgjQXKgfzilSsFjZ9tU11Buqp
-vymrAcs09PcOpeaqcV24g0ssX0EffxjUni/4SN2Yd0BXtZBQt6TmLTSClcYjRuvi
-HtEKZQFEyfR2/H+ixohmdJ337nd8qGMP3b5RCA9bxdLfVgtjM6SjKxzBIEUOGPM9
-S2w4vmHsflEHk1xIi6sSYFkHYy03eOaGGP9KB618oVxxi1EnLgbSxlFN5lsJ4jkQ
-lk9fsTnKxx0F9+9M8uWa/ezo3oKBZ97VLoW+yu2zjr6RqMsVyMVqQK12KLo2P0eh
-6I7rCg5DZeNRs1DoxkQ/+wUnUL9/XhpkhIHQX5jM60aExF6+wlPTffbiHxdQ76IT
-+JZCr43B0fMpEsiegrdvbj67tAYBJYvHJtA5L+AMT6Uxx47cyA07+p6d5RWUvmEy
-jNNRDn5Yy/GoFyBTqRkOQl7duH2iJZPC70TfuNgqoymlX5jC2L/AMH/J4x5Dgoml
-jyNV8qA4UIxNSJZNpdRtUU5apgYsvrxWPh83Htd+i4mvubdwBq3vDWEcM9oN7ZdU
-pB9eWra1VeAqClZlA+r1EaiBIoGZkAFWRPZV2hQoyeC1fxg+fyOR/9WlsWttCGiV
-Lq0KhRCUAK2hpMnJVK7kNYyb
-=y/Qs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCZLicbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fZYP/3i9y0gVrOPEmeP0Q2wQ
+FSDMhH6I0ALkdZN/O2ONEkaYfzsOnSpefCDqO1OYqGSJ4TRh15l5Mvs6VjfpGElO
+UmdK0D/FvmSwu+85Lwn1EAvuquCgounydSS/GoWpZ4kYR5VafJe6h25BfCDCNt9Z
+4R/uD1oxWkrmUnIH7UvuT/H1YyDa/ARGNXbviTFDYOYr2xMNDCcL18/0+HeUzdZE
+y1ChDgsv3GlJEfHQgN0wMlQ3YHg83mHXpzXonr4kFwtMvdUiPKg1Ds14bond8iMU
+vq7o37jQgjNPa4TTg9viQjBrrrMHwXyQqFSBYWxlOmRQTwxbUuF4sVbanJKKri9F
+6YDiHSFIxWr5ddz9NR8USwOYgSwxQ+zyurVcEcgliBuHOP74MM3MPtyx2HtPhBeq
+PGM9Ew8wGD/Oxd4nf6el5nh+GNrf9blagmLjPu/dsEgklZE705A4WR6csbe5Dudy
+izwPS/YwMUxA2NB6ZeaEbwecAkWtbl6RajXrVrsdhJonjRKX8X/CSc+bdNSz8HzC
+byLacX8gG2pAyFRUC4CQOnRvegTPxVknFNtWtBQWzl82Dad8S2er/WgervyFY5f9
+r3TMfgWNu17npUgMN3STI2lESsNETSTC0Mjyc/tckmbxCNgUy2mR2H6Wosu6Lt2/
+8kxMcNs+64yWrC8GcNKjkU+q
+=ESv8
 -----END PGP SIGNATURE-----
 
---===============5549459177645718909==--
+--===============8842603941793767437==--
