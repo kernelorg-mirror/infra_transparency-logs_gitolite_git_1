@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0759384619280787558=="
+Content-Type: multipart/mixed; boundary="===============4485978986552812593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 10 May 2021 14:21:31 -0000
-Message-Id: <162065649142.1476.14470480019492996662@gitolite.kernel.org>
+Date: Mon, 10 May 2021 14:22:11 -0000
+Message-Id: <162065653164.1796.7213931111135516652@gitolite.kernel.org>
 
---===============0759384619280787558==
+--===============4485978986552812593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f91e5d097f120755060b6abe8249696b405666fd
-    new: 3c5e0d0e9da1b6172eca9f38f67263789d938d25
+    old: 3c5e0d0e9da1b6172eca9f38f67263789d938d25
+    new: 4676be28a46e9b1aef9a1fd24ecc207ebc189c9a
     log: |
-         0826dae3d81563ae4d21d5565de9106e1f604fcf usb: musb: Fix spelling mistake "tranfer" -> "transfer"
-         cd783e5abb60668d72c9d528e020fa4d21e55f84 usb: musb: Remove duplicate declaration of functions
-         6cfe9036acc53e981eaf04b839cf6bc8c584ce87 usb: musb: Remove unused local variable dma, urb, offset
-         3c5e0d0e9da1b6172eca9f38f67263789d938d25 usb: musb: Remove unused function argument dma, qh, offset, length
+         40ddb76ba0baaa7d62ab563be56c5fa38ec649c7 usb: xhci-mtk: use bitfield instead of bool
+         e56e60f7a9d675334d1a796ba6ae31ca94ad4312 usb: xhci-mtk: remove unnecessary setting of has_ippc
+         bb8d7ef68e294ab5cc4be54c966245bf24cb843a usb: xhci-mtk: remove unnecessary assignments in periodic TT scheduler
+         4676be28a46e9b1aef9a1fd24ecc207ebc189c9a usb: xhci-mtk: use first-fit for LS/FS
          
 
---===============0759384619280787558==
+--===============4485978986552812593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620656484 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620656525 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620656483-93477cfd8b5070f6c98244e3d55aabf6a8418bc6
+nonce 1620656524-2cbfe8a955492e16c55a5b18e82ec13bf34cf811
 
-f91e5d097f120755060b6abe8249696b405666fd 3c5e0d0e9da1b6172eca9f38f67263789d938d25 refs/heads/usb-testing
+3c5e0d0e9da1b6172eca9f38f67263789d938d25 4676be28a46e9b1aef9a1fd24ecc207ebc189c9a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCZQWQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++/sQAJPIx2pIenX98l+j5y39
-Etzm7s77LpnVqcbhAVEuzShPFZv0MVChjF56FoX2jfTDwWyqe/THNITOk6Y9NQ3U
-EkVN3NcgDqQU22zELjG5bljWkdFgdZDKTLeIAWMOHybmd3+VS+WSthAoor1Idch7
-vNPdDNBuO9FQMZlTuw/Hxfn4gfjNdF6EdiTCexgvdlJb5EJXs+A/57JOsH1bgTT1
-V51AjGboGZ3+tM+MVB1l8OxbQAr3WV+nER/p5vkO5byI3R0cDU7N88KUCuBJt1di
-c0oNHsB0xHhqKVIjN1aHJKl/dsgiKdjHkm2g6ZcS9Lpd/4t2WjQByvyXnYxXR+bT
-QHo4JOcyt0Adkou0ciD/ernUzFoBpdxssWueDXwU6+1bGi6E/xSxUb8bAfsFRnQw
-2+gzOJpaPEoNFt4PFn+KowwwPSg6fp7PrA8MN3gTdn18sppkdgUSJbsOKzS+mFUX
-rAwWkkHjCewREFFRgNbZlXCpXvSuMoezy3EwT/ZS3F0o9TYD4XtKfq0fyU8pjYfx
-MHY5s8hu0ho+vkPWu3QGfUMS2cZGb0ibQebX5PIG6KTyaNgPEpWrR9wpPnfGCDUw
-RoUsluPJkpaXzMLemBwuG8gHRbhaNLpXjCdmwaP5o6GDvCvxul4StLilsT1kEmfG
-vRVRx3zzQgiea/N2WHaXoijI
-=fKxw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCZQY0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EpIP/RnFRMfdUJijMB5Szj2Z
+7KJUWFkUZMamy5+KddcSBxGcrmPDCMeUKBWmm3euUIIMlK2Yf5oPu8AFxLysFOtY
+hu+90Nu8I+S5UKw5X56AaJLaaBW2UCY1YPWGv4J8KhAVqiTkmBgBtfZBjftwboFJ
+gbyS/RRsRdLKSnxwMgJfO6t4CIoNJ0L1tRBw6J7AJjpXdzmbVC3ssUnvtbV4y2f/
+DN2urAeoKw2RAEx2/LFXpi4c4BrTFfru3R7YUIuiUpi3oqBEzfx0YXJH+oVHZRGN
+Z153Gi1O4nDJGjAuiZaY2Fbelf2kMLxN2DiPBHI4Otq+oC+Dy9slSLAme7EBRcZm
+DFaV8bg6Q4haHRqBiXJFV3j0Hu9cFzVYoXKBIIy5xE4KZbrxMwKDSKHspKMV6V8L
+TJp7GFoYfL4LEBVSV1oXcJeaNTT/YHY3QikEjSR73TMQJRFyIkt6Cl3NGkEwOAvn
+Gjztcy03Kv8Nq7e3JLL+mmJ6zsa+0TBgHZ1cG4JYTXJQgcdMWw+V54D+YKkjqxRZ
+TSjXUwvFijHq3xqjtqmhKCMPa5OI/W4nTJbBRjAzR4pC//nMHo3kw6RTnKhbesal
+CEVIGobb2HPnL/ZNTfkcevx6L0AoYzcD6eRkdLuep2nsYiAdPqDxQRhizzF5XgQF
+UMbU5Pdt3sAgBQvhmDDZhaYj
+=boUC
 -----END PGP SIGNATURE-----
 
---===============0759384619280787558==--
+--===============4485978986552812593==--
