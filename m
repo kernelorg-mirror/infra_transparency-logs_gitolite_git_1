@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7187692749457242580=="
+Content-Type: multipart/mixed; boundary="===============9167908708044628353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 10 May 2021 08:57:36 -0000
-Message-Id: <162063705660.29895.13799064570898462876@gitolite.kernel.org>
+Date: Mon, 10 May 2021 08:57:46 -0000
+Message-Id: <162063706626.30049.6937364213536785927@gitolite.kernel.org>
 
---===============7187692749457242580==
+--===============9167908708044628353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: 039b81d50a4822edfc07a7c2e6963823e993b2f0
+  - ref: refs/heads/master
+    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-039b81d50a48-6efb943b8616.txt
+    log: revlist-1e28eed17697-6efb943b8616.txt
 
---===============7187692749457242580==
+--===============9167908708044628353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-039b81d50a48-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-1e28eed17697-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============7187692749457242580==--
+--===============9167908708044628353==--
