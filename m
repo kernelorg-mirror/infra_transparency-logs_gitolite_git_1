@@ -1,34 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3281572695088597922=="
+Content-Type: multipart/mixed; boundary="===============4586473450830963552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 10 May 2021 13:19:14 -0000
-Message-Id: <162065275451.22238.12271656081303937593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 10 May 2021 13:19:20 -0000
+Message-Id: <162065276028.22368.10301781965073710623@gitolite.kernel.org>
 
---===============3281572695088597922==
+--===============4586473450830963552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-a38fd8748464-6efb943b8616.txt
-  - ref: refs/heads/for-next
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-a38fd8748464-6efb943b8616.txt
-  - ref: refs/heads/pinctrl-next
+  - ref: refs/heads/next/soc64
     old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     log: revlist-a38fd8748464-6efb943b8616.txt
 
---===============3281572695088597922==
+--===============4586473450830963552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1059,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============3281572695088597922==--
+--===============4586473450830963552==--
