@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4586473450830963552=="
+Content-Type: multipart/mixed; boundary="===============0794558398426837217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 10 May 2021 13:19:20 -0000
-Message-Id: <162065276028.22368.10301781965073710623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 10 May 2021 13:19:36 -0000
+Message-Id: <162065277656.22604.1147692190864897283@gitolite.kernel.org>
 
---===============4586473450830963552==
+--===============0794558398426837217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/next/soc64
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/for-next
+    old: 93567c59f9b0adc1e3278b13b294a97397ed7b86
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-a38fd8748464-6efb943b8616.txt
+    log: revlist-93567c59f9b0-6efb943b8616.txt
 
---===============4586473450830963552==
+--===============0794558398426837217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-93567c59f9b0-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============4586473450830963552==--
+--===============0794558398426837217==--
