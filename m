@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7238350746801954265=="
+Content-Type: multipart/mixed; boundary="===============1627242088834640672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 09 May 2021 23:54:42 -0000
-Message-Id: <162060448200.808.5171382762312815106@gitolite.kernel.org>
+Date: Mon, 10 May 2021 00:06:41 -0000
+Message-Id: <162060520153.8210.6643192703395254840@gitolite.kernel.org>
 
---===============7238350746801954265==
+--===============1627242088834640672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,54 @@ repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
   - ref: refs/heads/for-next
-    old: f40c51456fe0012a458bf76a1fda13a743f5f840
-    new: 9ac8c6a5c9b133f7270cc39dee36e29ad35f3d2f
-    log: revlist-f40c51456fe0-9ac8c6a5c9b1.txt
+    old: 9ac8c6a5c9b133f7270cc39dee36e29ad35f3d2f
+    new: 115d358a713929fcedcc700253ce49d7c0f33f6c
+    log: |
+         7b46d674ac000b101fdad92cf16cc11d90b72f86 ARM: dts: rockchip: Fix the timer clocks order
+         6b023929666f0be5df75f5e0278d1b70effadf42 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
+         304b8fbc950bae102f29ee1e8e8557f2fd08d69a ARM: dts: rockchip: Remove useless interrupt-names on IOMMU node on rk3036
+         2bf375982f4a58a95e8b5184565b23677900012c arm64: dts: rockchip: Remove useless interrupt-names properties from px30 IOMMU nodes
+         62d521a9dc9546f800ca398b9cdf1bf1a34bc868 Merge branch 'v5.14-armsoc/dts32' into for-next
+         115d358a713929fcedcc700253ce49d7c0f33f6c Merge branch 'v5.14-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/master
+    old: 1678e493d530e7977cce34e59a86bb86f3c5631e
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    log: revlist-1678e493d530-6efb943b8616.txt
+  - ref: refs/heads/v5.14-armsoc/dts32
+    old: dfbfb86a43f9a5bbd166d88bca9e07ee4e1bff31
+    new: 304b8fbc950bae102f29ee1e8e8557f2fd08d69a
+    log: |
+         7b46d674ac000b101fdad92cf16cc11d90b72f86 ARM: dts: rockchip: Fix the timer clocks order
+         6b023929666f0be5df75f5e0278d1b70effadf42 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
+         304b8fbc950bae102f29ee1e8e8557f2fd08d69a ARM: dts: rockchip: Remove useless interrupt-names on IOMMU node on rk3036
+         
+  - ref: refs/heads/v5.14-armsoc/dts64
+    old: a7ecfad495f8af63a5cb332c91f60ab2018897f5
+    new: 2bf375982f4a58a95e8b5184565b23677900012c
+    log: |
+         2bf375982f4a58a95e8b5184565b23677900012c arm64: dts: rockchip: Remove useless interrupt-names properties from px30 IOMMU nodes
+         
 
---===============7238350746801954265==
+--===============1627242088834640672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f40c51456fe0-9ac8c6a5c9b1.txt
+Content-Disposition: attachment; filename=revlist-1678e493d530-6efb943b8616.txt
 
+d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
+ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
+fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
+112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
+01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
+5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
 55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
 2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
 8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
@@ -1037,18 +1075,5 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-d5c24e20daf09587cbc221d40be1ba92673e8d94 ARM: dts: rockchip: Fix thermal sensor cells o rk322x
-dfbfb86a43f9a5bbd166d88bca9e07ee4e1bff31 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-bbac8bd65f5402281cb7b0452c1c5f367387b459 arm64: dts: rockchip: Enable USB3 for rk3328 Rock64
-75f95927334dea863f16f4ecd29cc709edc3c6ad arm64: dts: rockchip: Enable USB3 for rk3328 ROC-RK3328-CC
-bf340c8084d2932936f385ebf48c4734b2911457 arm64: dts: rockchip: Enable USB3 for rk3328 Rock Pi E
-d49f120e27dc1689e11a14e9714e63a390dd4520 arm64: dts: rockchip: Enable USB3 Ethernet on rk3328 NanoPi R2S
-6a11ffc2cc54d89719d5b2f3ca44244cebd7ed2e arm64: dts: rockchip: rename LED label for NanoPi R4S
-e6526f90696e6a7d722d04b958f15b97d6fd9ce6 arm64: dts: rockchip: Drop fephy pinctrl from gmac2phy on rk3328 rock-pi-e
-642593eec32571ff9288ddf3fa09792d3efb275f arm64: dts: rockchip: add timer0 clocks on rk3368
-954d5986afa50c178ea7554e6abdd611d08f5ade arm64: dts: rockchip: Use only supported PCIe link speed on rk3399
-a7ecfad495f8af63a5cb332c91f60ab2018897f5 arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
-6db880a454e2b945f37a8366fced75e50fd990c1 Merge branch 'v5.14-armsoc/dts32' into for-next
-9ac8c6a5c9b133f7270cc39dee36e29ad35f3d2f Merge branch 'v5.14-armsoc/dts64' into for-next
 
---===============7238350746801954265==--
+--===============1627242088834640672==--
