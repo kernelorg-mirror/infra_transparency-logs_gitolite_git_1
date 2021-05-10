@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4378102581915596612=="
+Content-Type: multipart/mixed; boundary="===============9085409069005918068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 10 May 2021 11:55:57 -0000
-Message-Id: <162064775715.1811.6419881142043792069@gitolite.kernel.org>
+Date: Mon, 10 May 2021 11:56:22 -0000
+Message-Id: <162064778230.1989.8604073147338653697@gitolite.kernel.org>
 
---===============4378102581915596612==
+--===============9085409069005918068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 196d941753297d0ca73c563ccd7d00be049ec226
+  - ref: refs/heads/for-next
+    old: 5b613df3f499e305f3aecd58090a71ec0d92930d
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-196d94175329-6efb943b8616.txt
+    log: revlist-5b613df3f499-6efb943b8616.txt
 
---===============4378102581915596612==
+--===============9085409069005918068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-196d94175329-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-5b613df3f499-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============4378102581915596612==--
+--===============9085409069005918068==--
