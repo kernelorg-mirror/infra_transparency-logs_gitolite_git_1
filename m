@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 10 May 2021 14:14:22 -0000
-Message-Id: <162065606215.27225.17482138466238808179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 10 May 2021 14:14:32 -0000
+Message-Id: <162065607253.27383.8590656767383626748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: leon
 changes:
-  - ref: refs/heads/arm64/entry/rework
-    old: 737c5cc1c3e39ec648453bb8d2bc78d4e5c88998
-    new: 4e1751cd2bb341f1ffe54692b29bf4e9901bf431
+  - ref: refs/heads/queue-next
+    old: b9aa43a579d810038c83ef54ac3e4a298dc2d5d2
+    new: 85d6e5e1e00d8458b108459cb6c9d8f6994c3bfe
     log: |
-         4e1751cd2bb341f1ffe54692b29bf4e9901bf431 arm64: entry: handle all vectors with C
+         85d6e5e1e00d8458b108459cb6c9d8f6994c3bfe RDMA/core: Prevent divide-by-zero error triggered by the user
          
