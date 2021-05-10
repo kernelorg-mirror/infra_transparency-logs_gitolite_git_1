@@ -1,31 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0029829488640913918=="
+Content-Type: multipart/mixed; boundary="===============7942987733997704118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 10 May 2021 09:10:39 -0000
-Message-Id: <162063783943.23596.8761889810954597608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 10 May 2021 09:11:09 -0000
+Message-Id: <162063786973.23856.8817972521693237371@gitolite.kernel.org>
 
---===============0029829488640913918==
+--===============7942987733997704118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/atomics/arch-atomic
-    old: b3beeb20a859d6ec137a14342a8affa62352a901
-    new: b12410443a16ab30f9092e916fbad7d56c292953
-    log: revlist-b3beeb20a859-b12410443a16.txt
+  - ref: refs/heads/master
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    log: revlist-a38fd8748464-6efb943b8616.txt
 
---===============0029829488640913918==
+--===============7942987733997704118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3beeb20a859-b12410443a16.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-6efb943b8616.txt
 
+d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
+ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
+fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
+112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
+01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
+5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
+55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
+2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
+8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
+462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
+412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
+6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
+eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
+32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
+444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
+c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
+12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
+9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
+30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
+94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
+c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
+5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
+b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
+ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
+92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
+660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
 91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
 2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
 afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
@@ -1017,38 +1050,5 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-a630a923ab4bd1c5b45ab303667ebfc980c50bb7 locking/atomic: make ARCH_ATOMIC a Kconfig symbol
-c766cd4b8a5092656466e607e8d87afaf32426b5 locking/atomic: net: use linux/atomic.h for xchg & cmpxchg
-2e05d8606bfe8fc1721102147e6f2a64c14e9c75 locking/atomic: h8300: use asm-generic exclusively
-a978ce961a06a66c60ceb23effc400651ebd87a9 locking/atomic: microblaze: use asm-generic exclusively
-36579edeb96b923bc84a91b5011f98021dc0473c locking/atomic: openrisc: avoid asm-generic/atomic.h
-be596417c175ab70f2876e3063268c02441dc7c7 locking/atomic: atomic: remove stale comments
-760ecc4411dd1613a74283f61506e32dd0ee52cc locking/atomic: atomic: remove redundant include
-7a1da974d9c0636e83619ba56d1f6119069ef713 locking/atomic: atomic: simplify ifdeffery
-099acf6daa9f4574d0d9f2083712f2fe076b99dd locking/atomic: atomic: support ARCH_ATOMIC
-23416dce4de0de686809afe5e00d793f4443d09e locking/atomic: atomic64: support ARCH_ATOMIC
-b1ab852453ccb8d0d9b7e57325262dbb4b02513a locking/atomic: cmpxchg: make `generic` a prefix
-848583f48c9ca8ec72ff6c09f86e06cb40e403fc locking/atomic: cmpxchg: support ARCH_ATOMIC
-cd05957daf5f33ef5e0f1c9a809154563d859207 locking/atomic: alpha: move to ARCH_ATOMIC
-622aad58ecd83ade46ade499704491612aeec521 locking/atomic: arc: move to ARCH_ATOMIC
-a84de6c5f75a26be02ba9dddade79573398c84c5 locking/atomic: arm: move to ARCH_ATOMIC
-e029d4366b03efc2d26078638f6833378d2847aa locking/atomic: csky: move to ARCH_ATOMIC
-e517d146a809d4112f5b6004bad821f22b94e4e1 locking/atomic: h8300: move to ARCH_ATOMIC
-1f2455aeda9144f06a412941c663c8e3852ff6a7 locking/atomic: hexagon: move to ARCH_ATOMIC
-dab7ac35cb2a8af4741730e862be2196f1e6a010 locking/atomic: ia64: move to ARCH_ATOMIC
-1f932fcc2c33d6f6b4013813185dc398818432a8 locking/atomic: m68k: move to ARCH_ATOMIC
-8d106abf13a84067deecba128193b21092b52d3f locking/atomic: microblaze: move to ARCH_ATOMIC
-497a65300e570565c424c8f3ce64e88b53314699 locking/atomic: mips: move to ARCH_ATOMIC
-4c7f058492522a9c455995f2638d4c489ca9c50c locking/atomic: nds32: move to ARCH_ATOMIC
-2fe70cfdaa9b89deeb22abf69d9a3a02bea1dff7 locking/atomic: nios2: move to ARCH_ATOMIC
-f14cfe4927e45c72d64902d62682342cdab8b4f9 locking/atomic: openrisc: move to ARCH_ATOMIC
-08bea968308602170781bf84f7b3aea4757343db locking/atomic: parisc: move to ARCH_ATOMIC
-5fbaf64d8d194b72d16e60113cc3ca677f224439 locking/atomic: powerpc: move to ARCH_ATOMIC
-471221804edcd8f9735219964306457733e5b0a3 locking/atomic: riscv: move to ARCH_ATOMIC
-8147aab6b05b18c5808b7711186996598939ecbc locking/atomic: sh: move to ARCH_ATOMIC
-586c56eeeae2c45b472a8e2e77b22244310a42a2 locking/atomic: sparc: move to ARCH_ATOMIC
-b04b4ceeb6d80ceef3a3a273f31a6c40f892994c locking/atomic: xtensa: move to ARCH_ATOMIC
-b9ee15449175ae027dc70eed77f59bfaf9fd0ba1 locking/atomic: delete !ARCH_ATOMIC remnants
-b12410443a16ab30f9092e916fbad7d56c292953 locking/atomics: atomic-instrumented: simplify ifdeffery
 
---===============0029829488640913918==--
+--===============7942987733997704118==--
