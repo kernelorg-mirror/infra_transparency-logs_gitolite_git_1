@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5444184454067404462=="
+Content-Type: multipart/mixed; boundary="===============2335998608634947188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 10 May 2021 09:11:27 -0000
-Message-Id: <162063788773.23997.3995980455430718104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Mon, 10 May 2021 09:12:05 -0000
+Message-Id: <162063792541.24287.15440475986472630109@gitolite.kernel.org>
 
---===============5444184454067404462==
+--===============2335998608634947188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/fixes
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/for-next
+    old: 5c08b0f75575648032f309a6f58294453423ed93
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-a38fd8748464-6efb943b8616.txt
+    log: revlist-5c08b0f75575-6efb943b8616.txt
 
---===============5444184454067404462==
+--===============2335998608634947188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-5c08b0f75575-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============5444184454067404462==--
+--===============2335998608634947188==--
