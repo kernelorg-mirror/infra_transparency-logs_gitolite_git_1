@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8916987069600769117=="
+Content-Type: multipart/mixed; boundary="===============1432148019803016146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 10 May 2021 17:24:02 -0000
-Message-Id: <162066744237.16174.1591576994032354561@gitolite.kernel.org>
+Date: Mon, 10 May 2021 17:24:16 -0000
+Message-Id: <162066745670.16344.5678616644728901120@gitolite.kernel.org>
 
---===============8916987069600769117==
+--===============1432148019803016146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: 9ccce092fc64d19504fa54de4fd659e279cc92e7
     new: 71d7924b3e8acaca6a3b0fc3261170031ada3b70
     log: revlist-9ccce092fc64-71d7924b3e8a.txt
 
---===============8916987069600769117==
+--===============1432148019803016146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fb24e308b6310541e70d11a3f19dc40742974b95 tools arch: Update arch/x86/lib/mem{cpy
 6faf64f5248166ecaf50107e883c383e0b66bb70 tools headers cpufeatures: Sync with the kernel sources
 71d7924b3e8acaca6a3b0fc3261170031ada3b70 tools headers UAPI: Sync perf_event.h with the kernel sources
 
---===============8916987069600769117==--
+--===============1432148019803016146==--
