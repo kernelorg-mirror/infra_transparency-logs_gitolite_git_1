@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1172589437140451258=="
+Content-Type: multipart/mixed; boundary="===============2847035377214610217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 10 May 2021 15:13:57 -0000
-Message-Id: <162065963767.641.11041609215604039253@gitolite.kernel.org>
+Date: Mon, 10 May 2021 15:14:35 -0000
+Message-Id: <162065967564.979.3696499664541881432@gitolite.kernel.org>
 
---===============1172589437140451258==
+--===============2847035377214610217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.13
+  - ref: refs/heads/for-next
     old: ca4a4e9a55beeb138bb06e3867f5e486da896d44
     new: 7ee06ddc4038f936b0d4459d37a7d4d844fb03db
     log: revlist-ca4a4e9a55be-7ee06ddc4038.txt
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
 
---===============1172589437140451258==
+--===============2847035377214610217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 7ee06ddc4038f936b0d4459d37a7d4d844fb03db dm snapshot: fix a crash when an origin has no snapshots
 
---===============1172589437140451258==--
+--===============2847035377214610217==--
