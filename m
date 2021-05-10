@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8717496101814161736=="
+Content-Type: multipart/mixed; boundary="===============7816196382703348124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 10 May 2021 12:32:15 -0000
-Message-Id: <162064993502.24117.5004472926437495398@gitolite.kernel.org>
+Date: Mon, 10 May 2021 12:32:29 -0000
+Message-Id: <162064994967.24256.11929995080020710459@gitolite.kernel.org>
 
---===============8717496101814161736==
+--===============7816196382703348124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: f4abe9967c6fdb511ee567e129a014b60945ab93
-    new: b12410443a16ab30f9092e916fbad7d56c292953
-    log: revlist-f4abe9967c6f-b12410443a16.txt
+  - ref: refs/heads/sched/core
+    old: 2ea46c6fc9452ac100ad907b051d797225847e33
+    new: b325a2a3769b7f96f374511cbda2e0b258b1501e
+    log: revlist-2ea46c6fc945-b325a2a3769b.txt
 
---===============8717496101814161736==
+--===============7816196382703348124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4abe9967c6f-b12410443a16.txt
+Content-Disposition: attachment; filename=revlist-2ea46c6fc945-b325a2a3769b.txt
 
+b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
+ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
+92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
+660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
 91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
 2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
 afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
@@ -1017,38 +1021,34 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-a630a923ab4bd1c5b45ab303667ebfc980c50bb7 locking/atomic: make ARCH_ATOMIC a Kconfig symbol
-c766cd4b8a5092656466e607e8d87afaf32426b5 locking/atomic: net: use linux/atomic.h for xchg & cmpxchg
-2e05d8606bfe8fc1721102147e6f2a64c14e9c75 locking/atomic: h8300: use asm-generic exclusively
-a978ce961a06a66c60ceb23effc400651ebd87a9 locking/atomic: microblaze: use asm-generic exclusively
-36579edeb96b923bc84a91b5011f98021dc0473c locking/atomic: openrisc: avoid asm-generic/atomic.h
-be596417c175ab70f2876e3063268c02441dc7c7 locking/atomic: atomic: remove stale comments
-760ecc4411dd1613a74283f61506e32dd0ee52cc locking/atomic: atomic: remove redundant include
-7a1da974d9c0636e83619ba56d1f6119069ef713 locking/atomic: atomic: simplify ifdeffery
-099acf6daa9f4574d0d9f2083712f2fe076b99dd locking/atomic: atomic: support ARCH_ATOMIC
-23416dce4de0de686809afe5e00d793f4443d09e locking/atomic: atomic64: support ARCH_ATOMIC
-b1ab852453ccb8d0d9b7e57325262dbb4b02513a locking/atomic: cmpxchg: make `generic` a prefix
-848583f48c9ca8ec72ff6c09f86e06cb40e403fc locking/atomic: cmpxchg: support ARCH_ATOMIC
-cd05957daf5f33ef5e0f1c9a809154563d859207 locking/atomic: alpha: move to ARCH_ATOMIC
-622aad58ecd83ade46ade499704491612aeec521 locking/atomic: arc: move to ARCH_ATOMIC
-a84de6c5f75a26be02ba9dddade79573398c84c5 locking/atomic: arm: move to ARCH_ATOMIC
-e029d4366b03efc2d26078638f6833378d2847aa locking/atomic: csky: move to ARCH_ATOMIC
-e517d146a809d4112f5b6004bad821f22b94e4e1 locking/atomic: h8300: move to ARCH_ATOMIC
-1f2455aeda9144f06a412941c663c8e3852ff6a7 locking/atomic: hexagon: move to ARCH_ATOMIC
-dab7ac35cb2a8af4741730e862be2196f1e6a010 locking/atomic: ia64: move to ARCH_ATOMIC
-1f932fcc2c33d6f6b4013813185dc398818432a8 locking/atomic: m68k: move to ARCH_ATOMIC
-8d106abf13a84067deecba128193b21092b52d3f locking/atomic: microblaze: move to ARCH_ATOMIC
-497a65300e570565c424c8f3ce64e88b53314699 locking/atomic: mips: move to ARCH_ATOMIC
-4c7f058492522a9c455995f2638d4c489ca9c50c locking/atomic: nds32: move to ARCH_ATOMIC
-2fe70cfdaa9b89deeb22abf69d9a3a02bea1dff7 locking/atomic: nios2: move to ARCH_ATOMIC
-f14cfe4927e45c72d64902d62682342cdab8b4f9 locking/atomic: openrisc: move to ARCH_ATOMIC
-08bea968308602170781bf84f7b3aea4757343db locking/atomic: parisc: move to ARCH_ATOMIC
-5fbaf64d8d194b72d16e60113cc3ca677f224439 locking/atomic: powerpc: move to ARCH_ATOMIC
-471221804edcd8f9735219964306457733e5b0a3 locking/atomic: riscv: move to ARCH_ATOMIC
-8147aab6b05b18c5808b7711186996598939ecbc locking/atomic: sh: move to ARCH_ATOMIC
-586c56eeeae2c45b472a8e2e77b22244310a42a2 locking/atomic: sparc: move to ARCH_ATOMIC
-b04b4ceeb6d80ceef3a3a273f31a6c40f892994c locking/atomic: xtensa: move to ARCH_ATOMIC
-b9ee15449175ae027dc70eed77f59bfaf9fd0ba1 locking/atomic: delete !ARCH_ATOMIC remnants
-b12410443a16ab30f9092e916fbad7d56c292953 locking/atomics: atomic-instrumented: simplify ifdeffery
+6d201b27daf587ea9fd7c7106b9eabbce49040fb sched,fair: Skip newidle_balance if a wakeup is pending
+87b10b19829c5b293905bf4d155dcaad3eb08a17 sched/fair: Only compute base_energy_pd if necessary
+8989adc2354a42724dc30475ca14005018e8d4fc sched/fair: Fix negative energy delta in find_energy_efficient_cpu()
+f37b37847b877080f2efcb6655494f7b726e4aac delayacct: Use sched_clock()
+d90c987e9469dccb2b497781a376c4a6b4b52b38 sched: Rename sched_info_{queued,dequeued}
+f1b66b236636bf2f7752d0e1f4abafa7fb71f898 sched: Simplify sched_info_on()
+dde602bd4b32a52e5060da01383357525efb0f8a kvm: Select SCHED_INFO instead of TASK_DELAY_ACCT
+46bdf40f06de975d6a53e1d1bc91a58aeff75aaa delayacct: Add static_branch in scheduler hooks
+e5854e6b97dd568444b63a4768d318c571639cea delayacct: Default disabled
+6ea15dbe2fed3edce7d998f498272571630b023c delayacct: Add sysctl to enable at runtime
+1cc8d14d9a32e5d28707fd5cbdcd2abf011f03dc sched/fair: Add a few assertions
+ee12bae9564f3516ed5284a9aea5e6832367ea73 sched: Provide raw_spin_rq_*lock*() helpers
+5a3cfa8d634933854426f0dc55791305eabeec08 sched: Wrap rq::lock access
+6ac9c4f0e7b041e648866fd090043b64b2330974 sched: Prepare for Core-wide rq->lock
+c43ba3fa88015763be5938b41fc202b59ab52eec sched: Core-wide rq->lock
+4ea0a282b64de9eab5d29e3889c064c33d378cb7 sched: Optimize rq_lockp() usage
+cca9daf69694c02ed4e192b2cdf2e74f79f64ce5 sched: Allow sched_core_put() from atomic context
+7d7e2a3c164c4fedbee4eabc650ca722f4fa7f46 sched: Introduce sched_class::pick_task()
+5beb3694ca41756a633151bbbc6b5e36078cad3d sched: Basic tracking of matching tasks
+48eafc04cc5b8d44c423e845a2106c9f4b6e8be9 sched: Add core wide task selection and scheduling
+a4a9aae55c0109b1abe9c07bbd6e9756eca6bd29 sched/fair: Fix forced idle sibling starvation corner case
+9507b3394ac9b0635a853d54d32982234a28bacf sched: Fix priority inversion of cookied task with sibling
+b1abc4b29a47626b2fe6530f6009b55a17d6ce8a sched/fair: Snapshot the min_vruntime of CPUs on force idle
+a5498f3b4d17bc1bdcd6917a07477ea039bb9e89 sched: Trivial forced-newidle balancer
+0c5aff0808509710a08bf38be6c5130cb9a57f0c sched: Migration changes for core scheduling
+c09919f457ffecd8ca6f69a2baeb9de48b7986a7 sched: Trivial core scheduling cookie management
+9e829a87f1f6341ba772c60bdc8cf311b612a8f9 sched: Inherit task cookie on fork()
+8e31a13336d4d88e2c5a7560442cfde72f022b90 sched: prctl() core-scheduling interface
+b325a2a3769b7f96f374511cbda2e0b258b1501e kselftest: Add test for core sched prctl interface
 
---===============8717496101814161736==--
+--===============7816196382703348124==--
