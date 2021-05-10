@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9039393486240550450=="
+Content-Type: multipart/mixed; boundary="===============0172826290070029196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 10 May 2021 19:12:38 -0000
-Message-Id: <162067395839.16059.13165052253202844426@gitolite.kernel.org>
+Date: Mon, 10 May 2021 19:12:46 -0000
+Message-Id: <162067396699.16199.9037141027738884301@gitolite.kernel.org>
 
---===============9039393486240550450==
+--===============0172826290070029196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 4b5b083ccc1c75c8732103694953f8e316cb89e7
-    new: 174cc1fb5ba5ba9a2aa982b0c7fb65648732a97c
-    log: revlist-4b5b083ccc1c-174cc1fb5ba5.txt
+  - ref: refs/heads/staging
+    old: 35ffbb60bdad652d461aa8e97fa094faa9eb46ec
+    new: cfaad0f79d37bceb15a9a6d1c3b6c8c5ff5364b5
+    log: revlist-35ffbb60bdad-cfaad0f79d37.txt
 
---===============9039393486240550450==
+--===============0172826290070029196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1620673956 -0400
+pusher 75C5DE3D 1620673964 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1620673955-2c62d07b81204b798389db03086fb7c32eedaab0
+nonce 1620673964-0af150141b9fbc6d6db17e860b2fb5d08094ef02
 
-4b5b083ccc1c75c8732103694953f8e316cb89e7 174cc1fb5ba5ba9a2aa982b0c7fb65648732a97c refs/tags/mkp-scsi-staging
+35ffbb60bdad652d461aa8e97fa094faa9eb46ec cfaad0f79d37bceb15a9a6d1c3b6c8c5ff5364b5 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCZhaQACgkQ7ulgGnXF
-3j0H+w/9H/FtaH98eZzCqvOcHE+GaowfeX9yAmtKnIZmjlr6XBkQ1dHSavj/oNvZ
-A5suEo7odsfGXfK69GDcssxu1Ft9/yK+2fi6tnkPeRHSVhs5EmtMDiA7x1cvJBYR
-0Wzk6hpJKinfWfnOZTjPnXhbzI88RxhZg2fxqSQKCMJ39OWiGcD8jBQr11ewOTIY
-samk8NMycrye+7ks7Rfb2pu1fLDKwuDujhJokqhjBKZ33BmaYsCfxMYLFsa+gxyD
-b6hE/EIXOcCNAhXIiGyfRTx7PeHAs4bJT4KTdZVgV5iisv8XORIqwBi6KA5EoVNB
-z4adSkaJLwi5v7HlcLIHLSmctbcB5niVxiKUEnxPRrOxSJ/2+wcUtP+XLhCTXYRA
-Lq9YYBMiIYF56hfTb0lfHDOXWH7zZSeZHsUEtDuMc130TuaEQmoCBUmy7/oVu/dW
-9ijdHcoeO2b0EU+t056c0ZlMbDjqM4W/rIiMVc3Q42cyTOccNkb8KmRxN/hgRzd2
-CAsN1ZVi3K5XrR9w2HfUTwspGBz8ZNThZlmFepeDaxRvKY5ZldOhXF3EN/th/5hy
-aYb/Qr05uLZfFUGFFkMhN2psKCKRQ/ztYCWGwWkWdn+ailVl0QI9dLljOqOyExbr
-lPaLbK3X3Kf7kZBF3mciLg1xg9DFnep26TAZaMztNZgUjdHgz6o=
-=Arq4
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCZhawACgkQ7ulgGnXF
+3j2TPA/8D7DZRktExUAdYyTxKb+bqyU9RImJEjeGamX4IkHtSc3T7x80PxMdHIyT
+nHQBZBciWpgzmWeCar7fXPbZn+gqXDjxyi/bVWFZHTiSzN+oCtarsI6mRJmEcnBu
+uND0vBsFTQV4v0rm2A+PAJ87LPfdtzZ9k/6PeVSmdhdLm4rplFn6MneGXAwsavi8
+oDqJJ0MINnykjNtrpNpIPALhwxG/L54K9YK1ZvHBxevmktCaEOCwN2z956lihHqu
+mOsO6eqmcY2TEOlsaX26qN1GQq1CjUbECWHO/UZt1ymNm+WRmZp3F09jS/JV1BTg
+clN5St2QyFTkxe1IBarX5K5lWt6ULmVjTpicCT10W3qWsXCAfoDL2bigkRHAnwDo
+8D5FKMUli28mIsZk2xpJ3UJJE9DIVpW0Q3dBBRik3xIhqnYiX7Xg7NYd3Ile6sOP
+akFEgjAoH6BEp6XRLoY2KzOnDILihmDlM2A78AN+PNhyZNJEsqx5znTfrTi7OwL/
+eDv3ECvfgp02traRRVniybUDLEMgBlD/Aj3L9Ys+hRjlzQ8sWlflesqZBX4UyRLa
+Ie58R+MF8k2ftYIPiYcSjQATfbEWLpqGZqHB+ld+YaUxvX9RtQn/4Xe/K601ioP+
+38/YtOA21WPzWBTinPd/pQsrmnRKEGbt2VNSTel1hcb4vlszIkE=
+=pEju
 -----END PGP SIGNATURE-----
 
---===============9039393486240550450==
+--===============0172826290070029196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b5b083ccc1c-174cc1fb5ba5.txt
+Content-Disposition: attachment; filename=revlist-35ffbb60bdad-cfaad0f79d37.txt
 
 bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
 0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
@@ -1081,4 +1081,4 @@ edf377c8db4aaf31e2c15260d3ce69b9572673f8 scsi: ufs: core: Enable power managemen
 ceb5af3164462f30a8a655a1296d5e8232bc949b scsi: ufs: sysfs: Resume the proper SCSI device
 cfaad0f79d37bceb15a9a6d1c3b6c8c5ff5364b5 scsi: aacraid: Replace one-element array with flexible-array member
 
---===============9039393486240550450==--
+--===============0172826290070029196==--
