@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7440332860578651052=="
+Content-Type: multipart/mixed; boundary="===============6102907665956313540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 10 May 2021 11:54:11 -0000
-Message-Id: <162064765191.32146.1637232470178554495@gitolite.kernel.org>
+Date: Mon, 10 May 2021 11:54:44 -0000
+Message-Id: <162064768435.32395.9318583422492528495@gitolite.kernel.org>
 
---===============7440332860578651052==
+--===============6102907665956313540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: d6b47cf8bd68f2e958c8335f160e4c312ab19303
+  - ref: refs/heads/for-next
+    old: 058459043e71b5c1703194ea71aab576c0ff4f4d
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-d6b47cf8bd68-6efb943b8616.txt
+    log: revlist-058459043e71-6efb943b8616.txt
 
---===============7440332860578651052==
+--===============6102907665956313540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6b47cf8bd68-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-058459043e71-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============7440332860578651052==--
+--===============6102907665956313540==--
