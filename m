@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2696282267338109822=="
+Content-Type: multipart/mixed; boundary="===============6107349542479292132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 10 May 2021 11:52:22 -0000
-Message-Id: <162064754215.31522.3484601796575442533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 10 May 2021 11:53:36 -0000
+Message-Id: <162064761632.31920.17584573499692293950@gitolite.kernel.org>
 
---===============2696282267338109822==
+--===============6107349542479292132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/fixes
+    old: b41ba2ec54a70908067034f139aa23d0dd2985ce
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-a38fd8748464-6efb943b8616.txt
+    log: revlist-b41ba2ec54a7-6efb943b8616.txt
 
---===============2696282267338109822==
+--===============6107349542479292132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-b41ba2ec54a7-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============2696282267338109822==--
+--===============6107349542479292132==--
