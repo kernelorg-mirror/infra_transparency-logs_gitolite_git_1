@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4788126925277149327=="
+Content-Type: multipart/mixed; boundary="===============8671407837247181156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Mon, 10 May 2021 11:19:26 -0000
-Message-Id: <162064556656.8679.1787328071043057005@gitolite.kernel.org>
+Date: Mon, 10 May 2021 11:19:47 -0000
+Message-Id: <162064558719.9204.14231142093154539520@gitolite.kernel.org>
 
---===============4788126925277149327==
+--===============8671407837247181156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,41 @@ repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
 user: jberg
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/release/core62
-    old: e315d6bbdda46745ae0e5f2dcff8e678cac15848
-    new: 199031e20a680b46a7990a9b111df1bfdc8a058c
+  - ref: refs/heads/release/core61
+    old: 8651bf7d7f947d95d5b3d45e8ca444fa3f8eda70
+    new: 082dd79a7b9e98ce64d8629506406614aad01a6e
     log: |
-         199031e20a680b46a7990a9b111df1bfdc8a058c [BUGFIX] iwlwifi: mvm: don't schedule the roc_done_wk if it is already running
+         9b4fb7b558f520b7bdd7a5ff8e7d7e5a226e6daa [BUGFIX] iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+         082dd79a7b9e98ce64d8629506406614aad01a6e [BUGFIX] iwlwifi: mvm: don't schedule the roc_done_wk if it is already running
          
 
---===============4788126925277149327==
+--===============8671407837247181156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1620645562 +0200
+pusher 7BF9099A 1620645582 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git
-nonce 1620645561-56f30378f9736c29ef593555052dab614d75c8b6
+nonce 1620645582-78ad7fff8f9b9e752ffada457f514c49b30fd1b4
 
-e315d6bbdda46745ae0e5f2dcff8e678cac15848 199031e20a680b46a7990a9b111df1bfdc8a058c refs/heads/release/core62
+8651bf7d7f947d95d5b3d45e8ca444fa3f8eda70 082dd79a7b9e98ce64d8629506406614aad01a6e refs/heads/release/core61
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmCZFroACgkQB8qZga/f
-l8RCIA//djV4zE50oXDbmn5LvDHNp2UvY2ByK4BXgHSP+BifTG7mv0iHj4zxUONZ
-12rIuCGBJjsjZ0/HVycldi5fzil6u/DZchwTqSoM7x0LdNF6ePnKmambCXUJVMGa
-V8MfcxjS7RXi3KcttKe0kDPMm+rinZokx3LdeZZi1BS1u0AdAZWKsOSBXe2+XL3Q
-ueL9MMiquGQe1BKOKhtSr5ZOml83lvnR0HCy3jXUe4hz+IFvN65b6YHtzktEuxlP
-KyhbnXCJI/i/FdiStAxXQSwkV1hyHpjow2+5uzVOWFGZaTgZylPlBXO3RzyHb6bq
-JEFX5g5ouYBY1DzOoKx8GiirHHyndJRtymv5x82r/Hwz2ececFO8+L6LwdPBWqHk
-NsuqQzu++MEyCHd1PZguBc/iQXWLDPg3/cPYy6jFwHGzI1Tm0E6reCgqR89HRj29
-8KqdlNThXGLrg9OXg64hrxkF0zjk6wsosFiCK7C1x6UrETphHyG3LoZ/X3anApIE
-idq+3pZPh52PuNpPWf0UCKUUWMwdUrMDVti9jHE0A1LsaKuJLqYYRhfA98RYfkTp
-orAe59BzQzdwZawWtcrargXlQoUd3uZiuQPwlNtrxwoSovO4Br4bM/62ppGqDNLj
-+ELP721vmzA31LKAUZeRs49OebTP5QtUB30nniD1L0uY8hf28ac=
-=NiDP
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmCZFs4ACgkQB8qZga/f
+l8Q6vQ//e0gRTaOh6YoXlVzgUx+bNmibC8FZYjP1PzKkSuA3ue88H4YG0R0vbOqh
++TC4vo4qDmwPaN5rIASg7UBCS6wXEIQkdKR5SzjBV4axNoze0ZdedsKUDne0pXsU
+yB858pacxubV0gjFiavBhXQtib6U6JWvMqDeLxoGh69FzfgneO/08PPBXWKCe8l+
+0r3evq24rx8DhFQWiPLGMOT5La3CbMVc2NOwsiz2uTul4VbyOpKUme+LUdn1owLw
+Ox5rJrddi4Jprh9AuCWfqgM9ME9eGf/SkVJs2SJPvML8bgNDNzzCcz30bEqVDAx9
+nrPP+PG5KvNjt/sp0cKiIRgxiBWos2the54ZAvvCoPvhBvoqhOI6WEy1men8Bz1V
+u24yaw5yjfs/Mh2TTeQED0sZDnrfmgGZ4k2z/hRrLtzNVM77fDBzmvv4zAR2GbuB
+zMx+v5RskLjA/iv5qsJ3lakrxqCZJKgsd0Ln0i4XxQ0+cwHp3Gw5uAERRH2ZB0UA
+osrNhzvLkpmZ3/pB8GAkxO2xDD8jVezvYaCPoU+VXIQzhUS1PDtBvhHA401nODj5
+rvGQlDgeld3zs34dAtuH9EkkhaDnhBeK5o/mIUMuGD/8cITpDhJiswacCi0MyLo9
+iPXLcZ7RMJRySUmZVpB5U6IpnlHPsZ5oa8uUP3w+zKd874b/CTU=
+=wbRH
 -----END PGP SIGNATURE-----
 
---===============4788126925277149327==--
+--===============8671407837247181156==--
