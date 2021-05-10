@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 10 May 2021 14:14:32 -0000
-Message-Id: <162065607253.27383.8590656767383626748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Mon, 10 May 2021 14:15:33 -0000
+Message-Id: <162065613345.29191.10008404759945717925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/queue-next
-    old: b9aa43a579d810038c83ef54ac3e4a298dc2d5d2
-    new: 85d6e5e1e00d8458b108459cb6c9d8f6994c3bfe
-    log: |
-         85d6e5e1e00d8458b108459cb6c9d8f6994c3bfe RDMA/core: Prevent divide-by-zero error triggered by the user
-         
+  - ref: refs/tags/v5.12
+    old: 0000000000000000000000000000000000000000
+    new: bf92185a196ac2a7aef216c5fb2fbcf971c798f5
