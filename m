@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3487809515376764791=="
+Content-Type: multipart/mixed; boundary="===============5577005722699593194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Mon, 10 May 2021 23:42:06 -0000
-Message-Id: <162069012620.15685.15934525239870784920@gitolite.kernel.org>
+Date: Mon, 10 May 2021 23:42:29 -0000
+Message-Id: <162069014970.15827.13057172864577998429@gitolite.kernel.org>
 
---===============3487809515376764791==
+--===============5577005722699593194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dennis/percpu
 user: dennis
 changes:
-  - ref: refs/heads/master
-    old: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-d434405aaab7-6efb943b8616.txt
+  - ref: refs/heads/for-5.14
+    old: ace7e7090137ee996757eb5eebc94439b0e2803a
+    new: f183324133ea535db4127f9fad3e19725ca88bf3
+  - ref: refs/heads/for-next
+    old: bd0d09ebd4f8cca0b3e09a257d8571ac170020ac
+    new: 0aabad0a0456a8975daf25e9754a9669bb11f8f0
+    log: revlist-bd0d09ebd4f8-0aabad0a0456.txt
 
---===============3487809515376764791==
+--===============5577005722699593194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d434405aaab7-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-bd0d09ebd4f8-0aabad0a0456.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
 75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
@@ -1050,5 +1052,6 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+0aabad0a0456a8975daf25e9754a9669bb11f8f0 Merge branch 'for-5.14' into for-next
 
---===============3487809515376764791==--
+--===============5577005722699593194==--
