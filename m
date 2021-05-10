@@ -1,22 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 10 May 2021 15:08:11 -0000
-Message-Id: <162065929122.29493.11276156759308394085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 10 May 2021 15:09:03 -0000
+Message-Id: <162065934357.29840.10397944333259649556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: f3d662db74e141ec2c6cf0b7a3f48da46a0a736a
-    new: 32c71143e8e03e9333b0e3ef97e54f1c1521ebda
+  - ref: refs/heads/for-linus
+    old: c1b55029493879f5bd585ff79f326e71f0bc05e3
+    new: e84749a78dc82bc545f12ce009e3dbcc2c5a8a91
     log: |
-         7b26a87d7a3018a72bc5933a2689cb79fa523229 ie: fix ie_parse_data_rates to handle NULL
-         968584d3f0c40855b2907c87d66a2755dea210a0 netdev: introduce [General].RoamThreshold5G
-         534c46135e9659c74dd315044b49e87c4782b90c doc: document [General].RoamThreshold5G
-         32c71143e8e03e9333b0e3ef97e54f1c1521ebda test-runner: remove stale file after test
+         e84749a78dc82bc545f12ce009e3dbcc2c5a8a91 ALSA: usb-audio: Validate MS endpoint descriptors
+         
+  - ref: refs/heads/for-next
+    old: c1b55029493879f5bd585ff79f326e71f0bc05e3
+    new: e84749a78dc82bc545f12ce009e3dbcc2c5a8a91
+    log: |
+         e84749a78dc82bc545f12ce009e3dbcc2c5a8a91 ALSA: usb-audio: Validate MS endpoint descriptors
+         
+  - ref: refs/heads/master
+    old: 29f715cce09a120b216ae1c9d50e06d8353b12d7
+    new: 80b580d90cded94b72c2df26226095b9f9459797
+    log: |
+         e84749a78dc82bc545f12ce009e3dbcc2c5a8a91 ALSA: usb-audio: Validate MS endpoint descriptors
+         80b580d90cded94b72c2df26226095b9f9459797 Merge branch 'for-linus'
          
