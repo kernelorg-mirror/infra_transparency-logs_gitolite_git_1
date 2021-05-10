@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0233453430138713659=="
+Content-Type: multipart/mixed; boundary="===============1325878239996498338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 10 May 2021 08:36:04 -0000
-Message-Id: <162063576458.14881.14247395515006122610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Mon, 10 May 2021 08:36:16 -0000
+Message-Id: <162063577620.15016.10877660647876286098@gitolite.kernel.org>
 
---===============0233453430138713659==
+--===============1325878239996498338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: 2fb164f0ce95e504e2688b4f984893c29ebd19ab
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-2fb164f0ce95-6efb943b8616.txt
+  - ref: refs/heads/edac-for-next
+    old: faf042d15093164879f1a5d9b9805190ac6f7d40
+    new: 89f5f8fb5bf4305a5425f70abf3c0d93643c93dc
+    log: revlist-faf042d15093-89f5f8fb5bf4.txt
 
---===============0233453430138713659==
+--===============1325878239996498338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fb164f0ce95-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-faf042d15093-89f5f8fb5bf4.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
 75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
@@ -1050,5 +1049,6 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+89f5f8fb5bf4305a5425f70abf3c0d93643c93dc EDAC/thunderx: Remove irrelevant variable from error messages
 
---===============0233453430138713659==--
+--===============1325878239996498338==--
