@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3390304794103644664=="
+Content-Type: multipart/mixed; boundary="===============5789846787514355037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
-Date: Tue, 11 May 2021 06:14:43 -0000
-Message-Id: <162071368313.27520.12661137149335407487@gitolite.kernel.org>
+Date: Tue, 11 May 2021 06:16:14 -0000
+Message-Id: <162071377489.29403.15966230356690983980@gitolite.kernel.org>
 
---===============3390304794103644664==
+--===============5789846787514355037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peter.chen/usb
 user: peter.chen
 changes:
-  - ref: refs/heads/for-usb-next
-    old: b85a512e023c0bd150874c96da0bc2ee02dd6487
-    new: 4ae08bc23e1b29894b1af34990409a454cccf242
-    log: revlist-b85a512e023c-4ae08bc23e1b.txt
+  - ref: refs/heads/for-usb-fixes
+    old: c1d8a521dbd765bbcd8cda74527f87a8f60104cc
+    new: 3b414d1b0107fa51ad6063de9752d4b2a8063980
+    log: revlist-c1d8a521dbd7-3b414d1b0107.txt
 
---===============3390304794103644664==
+--===============5789846787514355037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b85a512e023c-4ae08bc23e1b.txt
+Content-Disposition: attachment; filename=revlist-c1d8a521dbd7-3b414d1b0107.txt
 
 75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
@@ -1048,7 +1048,7 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-440e547dd0f812c3082f81192e5c965e61c64dfa usb: cdns3: Corrected comment to align with kernel-doc comment
-4ae08bc23e1b29894b1af34990409a454cccf242 usb: cdnsp: Useless condition has been removed
+07adc0225484fc199e3dc15ec889f75f498c4fca usb: cdns3: Fix runtime PM imbalance on error
+3b414d1b0107fa51ad6063de9752d4b2a8063980 usb: cdnsp: Fix lack of removing request from pending list.
 
---===============3390304794103644664==--
+--===============5789846787514355037==--
