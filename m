@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3758885871371443978=="
+Content-Type: multipart/mixed; boundary="===============0633910155254460088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 11 May 2021 22:30:38 -0000
-Message-Id: <162077223866.5700.8641924688612036696@gitolite.kernel.org>
+Date: Tue, 11 May 2021 22:30:46 -0000
+Message-Id: <162077224608.5842.17093708578640723868@gitolite.kernel.org>
 
---===============3758885871371443978==
+--===============0633910155254460088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc-base
-    old: 7a3beeae289385f7be9f61a33a6e4f6c7e2400d3
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-7a3beeae2893-6efb943b8616.txt
+  - ref: refs/heads/misc
+    old: 35ffbb60bdad652d461aa8e97fa094faa9eb46ec
+    new: 39107e8577ad177db4585d99f1fcc5a29a754ee2
+    log: revlist-35ffbb60bdad-39107e8577ad.txt
 
---===============3758885871371443978==
+--===============0633910155254460088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a3beeae2893-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-35ffbb60bdad-39107e8577ad.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
-d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
 bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
 0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
 55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
@@ -437,9 +426,6 @@ f8f7e0fb22b2e75be55f2f0c13e229e75b0eac07 sunrpc: Fix misplaced barrier in call_d
 b28866f4bb77095c262dfd5783197b691c624fa6 Merge branch 'work.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 27787ba3fa4904422b3928b898d1bd3d74d98bea Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9ccce092fc64d19504fa54de4fd659e279cc92e7 Merge tag 'for-linus-5.13-ofs-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
-fc09acb7de31badb2ea9e85d21e071be1a5736e4 scsi: scsi_debug: Fix cmd_per_lun, set to max_queue
-3ba1eeff00c42ccb31c0089c8c95c3ade546e9b0 scsi: fnic: Kill 'exclude_id' argument to fnic_cleanup_io()
-35ffbb60bdad652d461aa8e97fa094faa9eb46ec scsi: fnic: Use scsi_host_busy_iter() to traverse commands
 a712b307cfde6dbe0d4829293afb1566beb30a9a drm/msm/dpu: Delete bonkers code
 266fd994b2b0ab7ba3e5541868838ce30775964b ALSA: hda/realtek: ALC285 Thinkpad jack pin quirk is unreachable
 64b9f64f80a6f4b7ea51bf0510119cb15e801dc6 vdpa: introduce virtio pci driver
@@ -1050,5 +1036,19 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+1ee2753422349723d27009f2f973d03289d430ab scsi: core: Treat device offline as a failure
+6235bef6f990d31d8ace9c5af337c22b888b81e3 scsi: target: iscsi: Switch to kmemdup_nul()
+2910a4a9e90a5853f38766b2e8d025e3bb26d12b scsi: mpt3sas: Documentation cleanup
+cdcda4651d9ffa874689b3eac330be6d8f020960 scsi: message: fusion: Documentation cleanup
+1b3babe200498bfd4426057f07a935b5347077ab scsi: 3w-9xxx: Move * operator to clean up code style warning
+52b2599081144d903e8992063985a607c647258e scsi: lpfc: Remove redundant assignment to pointer temp_hdr
+807b31d8e0fce2160683746b54d7f3010a2d3cde scsi: megaraid_mbox: Remove redundant initialization of pointer mbox
+311e87b70913e6ac6f3c6d5816efb8a3e81eb7e6 scsi: megaraid_sas: Use DEFINE_SPINLOCK() for spinlock
+5b8644968d2ca85abb785e83efec36934974b0c2 scsi: arcmsr: Fix the wrong CDB payload report to IOP
+fbdfd5163939eed784001c0920c26e461b4bfb42 scsi: arcmsr: Update driver version to v1.50.00.04-20210414
+ed26297d14b7fbfd3a5975987b4e73ef26b97fbb scsi: qla4xxx: Simplify conditional
+b294ff3e34490f36233230e9ca70503d3924a6f3 scsi: ufs: core: Enable power management for wlun
+aef80fd1da322dfc96b227b2d1ee8177d885cc60 scsi: ufs: sysfs: Resume the proper SCSI device
+39107e8577ad177db4585d99f1fcc5a29a754ee2 scsi: aacraid: Replace one-element array with flexible-array member
 
---===============3758885871371443978==--
+--===============0633910155254460088==--
