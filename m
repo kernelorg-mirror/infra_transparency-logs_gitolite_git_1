@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3794787094051082415=="
+Content-Type: multipart/mixed; boundary="===============2863630784334347631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 11 May 2021 21:53:42 -0000
-Message-Id: <162077002206.15249.8423429082543179110@gitolite.kernel.org>
+Date: Tue, 11 May 2021 21:58:37 -0000
+Message-Id: <162077031797.18258.9018087562629554355@gitolite.kernel.org>
 
---===============3794787094051082415==
+--===============2863630784334347631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: f23c1474ffc7ae9d71d1f43e19d0cf902eeaa2b5
-    new: 0c490dfee3604816dcceb628d2b7b263a744f7a9
+    old: 0c490dfee3604816dcceb628d2b7b263a744f7a9
+    new: 3f036f9155c3b3098de269afed4ab438989943d4
     log: |
-         0c490dfee3604816dcceb628d2b7b263a744f7a9 Clean up after ourselves
+         3f036f9155c3b3098de269afed4ab438989943d4 Fix crash when PGP key not in default keyring
          
 
---===============3794787094051082415==
+--===============2863630784334347631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1620770021 -0400
+pusher B6C41CE35664996C! 1620770317 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1620770021-e1edd441876bef3852457b98b892263ba7198165
+nonce 1620770317-c721e0f2716541b023de98dad6a25af33c60dc09
 
-f23c1474ffc7ae9d71d1f43e19d0cf902eeaa2b5 0c490dfee3604816dcceb628d2b7b263a744f7a9 refs/heads/master
+0c490dfee3604816dcceb628d2b7b263a744f7a9 3f036f9155c3b3098de269afed4ab438989943d4 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJr85QAKCRC2xBzjVmSZ
-bDzSAP0WggrANm4X+kqaVYn1slyzPe1Y5PAkk1WsaPxx6NA1WAD9HTaIjSbN+Wem
-X/zLui7I6ftJD0wBVs6DJzugugjqnQw=
-=u8Fz
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJr+DQAKCRC2xBzjVmSZ
+bELwAP9TRo+YifrKHE8lB9p0mv0yBOWUqeETaoFVzIrIRA2OEAD+MLqrdm+RSeuy
+q2a+94jFcvLSfdCi8t4sW7a2YIoqegY=
+=/o8x
 -----END PGP SIGNATURE-----
 
---===============3794787094051082415==--
+--===============2863630784334347631==--
