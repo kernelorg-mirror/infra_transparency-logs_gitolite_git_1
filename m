@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0313888691745340525=="
+Content-Type: multipart/mixed; boundary="===============1540523882801471521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 11 May 2021 08:08:52 -0000
-Message-Id: <162072053292.31986.16642597865842836111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 11 May 2021 08:09:07 -0000
+Message-Id: <162072054790.32135.5353102572707329106@gitolite.kernel.org>
 
---===============0313888691745340525==
+--===============1540523882801471521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 78d889705732ba856feee4d7bfa74a12fe48c480
+    old: 0bbefa641a324b5416a88189069ff5a30975970c
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-78d889705732-6efb943b8616.txt
+    log: revlist-0bbefa641a32-6efb943b8616.txt
   - ref: refs/heads/for-next
-    old: ccac12acc0c0d66b26ce7834e2dcf54ae159e63a
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-ccac12acc0c0-6efb943b8616.txt
+    old: 4dd1c95306980c997b9a32e72877e060c25dc6f3
+    new: 8c94df1e6fe4a0bb31fd94e96256e49032940b1f
+    log: revlist-4dd1c9530698-8c94df1e6fe4.txt
 
---===============0313888691745340525==
+--===============1540523882801471521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78d889705732-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-0bbefa641a32-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1055,17 +1055,12 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============0313888691745340525==
+--===============1540523882801471521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccac12acc0c0-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-4dd1c9530698-8c94df1e6fe4.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
 112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
@@ -2085,5 +2080,10 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+67823d9dadd4dddee4b6bd075f6852b6ade5604a regulator: Add a routine to set the current limit for QCOM PMIC VBUS
+8c816d56a2a4e757bb121d1af4c04f47ac0572d3 regulator: qcom_smd: Add PM8226 regulator support
+00c8b0b1e6e1314bb57aab6438fbc2803c637d9d regulator: qcom: Document PM8226 smd regulator
+4446e6f3bd5c97c312833b445d0eb2ea638c7e98 regulator: hi6421v600: Remove unneeded *pmic from struct hi6421_spmi_reg_info
+8c94df1e6fe4a0bb31fd94e96256e49032940b1f Merge series "Enable VBUS current boost on pm8150b platforms" from Bryan O'Donoghue <bryan.odonoghue@linaro.org>:
 
---===============0313888691745340525==--
+--===============1540523882801471521==--
