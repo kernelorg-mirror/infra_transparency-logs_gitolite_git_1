@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5604688078436385748=="
+Content-Type: multipart/mixed; boundary="===============0535332677955630275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 11 May 2021 18:17:42 -0000
-Message-Id: <162075706299.12353.2050439006134326843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 11 May 2021 18:17:50 -0000
+Message-Id: <162075707062.12487.16072195027203250025@gitolite.kernel.org>
 
---===============5604688078436385748==
+--===============0535332677955630275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: dc5fa590273890a8541ce6e999d606bfb2d73797
     new: 35f3f8504c3b60a1ae5576e178b27fc0ddd6157d
     log: |
          35f3f8504c3b60a1ae5576e178b27fc0ddd6157d spi: Switch to signed types for *_native_cs SPI controller fields
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/spi-5.14
     old: d6e58e379610799ea53419eb8b08e061aa27fc4c
     new: 038b9de42269f33aca3e3741214c863a4e9328d0
     log: revlist-d6e58e379610-038b9de42269.txt
 
---===============5604688078436385748==
+--===============0535332677955630275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1620757023 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1620757059-485829ab6ca46e927bad12a008336b5666a08bb7
+pusher C3F436CA30F5D8EB 1620757031 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1620757067-826d6dd3112828eb9442e19592574b1f7c648dd0
 
-dc5fa590273890a8541ce6e999d606bfb2d73797 35f3f8504c3b60a1ae5576e178b27fc0ddd6157d refs/heads/for-5.13
-d6e58e379610799ea53419eb8b08e061aa27fc4c 038b9de42269f33aca3e3741214c863a4e9328d0 refs/heads/for-5.14
+dc5fa590273890a8541ce6e999d606bfb2d73797 35f3f8504c3b60a1ae5576e178b27fc0ddd6157d refs/heads/spi-5.13
+d6e58e379610799ea53419eb8b08e061aa27fc4c 038b9de42269f33aca3e3741214c863a4e9328d0 refs/heads/spi-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCayh8ACgkQJNaLcl1U
-h9BrDgf/fhGu0Ml5kB10nkotXWaTKlpf7ZxVcMd1BPYfkFiUccrfFkaqU4r5NbAj
-Cv/JI7EwaIVeqc1za6IPS5AN8OAlzElYtTMnPXywF9sfy47OK55rAOY3D0ZTkeft
-hJjv2eX37DYC2GONmtBacLLD5QLh8F1JReXmhL9Oq4NHAC1B4g3q864GG9Zqnlr0
-YW2kdplQGaTNph6Oc/RPnptVerYO0WJxw7Zxgfzy9ymUvuygw+1j+BL5vLjKEtCC
-2D2cJkPLTSZ0Gk+H+L+gYcYY7ZEQ+uxI2r36rx0xmwD5/Zgz1G/Ip4EK+j/I6xM7
-tRTogpN/3zWe4j3uJQuocotA3aCeVg==
-=saDF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCayicACgkQJNaLcl1U
+h9AoMgf/TCNnakkP6iIa4MTx+TuCIzRKvg94lDDeOW76lzvQxnEYwTt+MTivFKfj
+SpVkGL1jF4lWaLGR8BOszjpjx/QV+uLSzK6JF1O8K6bCORafCrY+jSUF/e8yz5La
+Qv/0gkddrN3Rnbuld806hiKO0+BX4RP5YRftiAXz9ghQchduJvl6kjENwt6mR+jF
+pcLuDeq4PzyuZYIfAVNdyPAjorFclnsGdU5sBGc4VmeNl3sivIkPoUihJB9e0Wzz
+2Ae3kjMT0Rw3MAX+t0N5pZob9X/ro39ErefwOMoSjpS3jML5rUOjNB7bICuNRINE
+1iG6ZgP++WQc7XdChJzvwA9VHPHg4g==
+=pwLT
 -----END PGP SIGNATURE-----
 
---===============5604688078436385748==
+--===============0535332677955630275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ fdb217a38808e041f6eca8c550f1b5981e401a45 spi: omap-uwire: Use SPI_MODE_X_MASK
 4ccf05579b9d0f15443a0edc860e2be7472ccfc1 spi: ppc4xx: Use SPI_MODE_X_MASK
 038b9de42269f33aca3e3741214c863a4e9328d0 spi: uniphier: Use SPI_MODE_X_MASK
 
---===============5604688078436385748==--
+--===============0535332677955630275==--
