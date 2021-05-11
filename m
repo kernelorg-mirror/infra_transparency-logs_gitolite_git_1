@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4068084433797612520=="
+Content-Type: multipart/mixed; boundary="===============8787043907806787313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 11 May 2021 12:51:45 -0000
-Message-Id: <162073750573.3786.6712335410979391463@gitolite.kernel.org>
+Date: Tue, 11 May 2021 12:52:29 -0000
+Message-Id: <162073754993.4096.11523347169388586375@gitolite.kernel.org>
 
---===============4068084433797612520==
+--===============8787043907806787313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-next
-    old: e49d033bddf5b565044e2abe4241353959bc9120
-    new: c968a089783f23cf65326106e67429916d9223a3
-    log: revlist-e49d033bddf5-c968a089783f.txt
+  - ref: refs/heads/for-usb-linus
+    old: 69573de248666ad47caea3086cdad8c5bd76bd85
+    new: b1453c716ac0508b4c90c032d953692b9875fbd4
+    log: revlist-69573de24866-b1453c716ac0.txt
 
---===============4068084433797612520==
+--===============8787043907806787313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e49d033bddf5-c968a089783f.txt
+Content-Disposition: attachment; filename=revlist-69573de24866-b1453c716ac0.txt
 
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
@@ -1045,10 +1045,10 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-a463c5b092992fb9c1b8da95ea55a16be7e40380 usb: xhci-mtk: use bitfield instead of bool
-685fade4b6c0ce9bd78948098804fe2f68580de6 usb: xhci-mtk: remove unnecessary setting of has_ippc
-2a442c3f8558d60c0d47ee1f2e151eddff134602 usb: xhci-mtk: remove unnecessary assignments in periodic TT scheduler
-17ed4d5e1fa039eef92089ea9a377cc3e6a56243 usb: xhci-mtk: use first-fit for LS/FS
-c968a089783f23cf65326106e67429916d9223a3 xhci: Remove unused defines for ERST_SIZE and ERST_ENTRIES
+fb4556097c60daf91c2437f56f213053f1368e5a xhci-pci: Allow host runtime PM as default for Intel Alder Lake xHCI
+13c6e49ebabab30ecc9813699923c0c0d4018e36 xhci: Fix giving back cancelled URBs even if halted endpoint can't reset
+ee4b3c72669f237959a8f3f7b727af0e089b1c5f xhci: Do not use GFP_KERNEL in (potentially) atomic context
+654dc4567e7f725d471c8ae7fa43fc64593af3d5 usb: xhci: Increase timeout for HC halt
+b1453c716ac0508b4c90c032d953692b9875fbd4 xhci: Add reset resume quirk for AMD xhci controller.
 
---===============4068084433797612520==--
+--===============8787043907806787313==--
