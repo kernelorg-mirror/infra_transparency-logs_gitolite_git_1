@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2717797035483531146=="
+Content-Type: multipart/mixed; boundary="===============0101062688350650254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 11 May 2021 03:19:10 -0000
-Message-Id: <162070315022.20372.10307786637612191188@gitolite.kernel.org>
+Date: Tue, 11 May 2021 03:19:16 -0000
+Message-Id: <162070315604.20496.14705541735820940430@gitolite.kernel.org>
 
---===============2717797035483531146==
+--===============0101062688350650254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: cfaad0f79d37bceb15a9a6d1c3b6c8c5ff5364b5
-    new: 39107e8577ad177db4585d99f1fcc5a29a754ee2
+  - ref: refs/tags/mkp-scsi-staging
+    old: c22227dba250ae9dc542635059a7c09e57c40a4f
+    new: 29488006baebcaa122182db8507139559c6d35be
     log: |
          b294ff3e34490f36233230e9ca70503d3924a6f3 scsi: ufs: core: Enable power management for wlun
          aef80fd1da322dfc96b227b2d1ee8177d885cc60 scsi: ufs: sysfs: Resume the proper SCSI device
          39107e8577ad177db4585d99f1fcc5a29a754ee2 scsi: aacraid: Replace one-element array with flexible-array member
          
 
---===============2717797035483531146==
+--===============0101062688350650254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1620703148 -0400
+pusher 75C5DE3D 1620703154 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1620703148-254ab262fb0d72421847fb5b65ca330835a14efb
+nonce 1620703154-7b7e9e6bed6f8032991f3b39cc25aed4ed3dbd7d
 
-cfaad0f79d37bceb15a9a6d1c3b6c8c5ff5364b5 39107e8577ad177db4585d99f1fcc5a29a754ee2 refs/heads/queue
+c22227dba250ae9dc542635059a7c09e57c40a4f 29488006baebcaa122182db8507139559c6d35be refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCZ96wACgkQ7ulgGnXF
-3j046w//VjQ7f+uH9/XznemUgijbFvvCemJxpjcCfAVG3qWROd0jWJWYW3nExP1m
-oIXd1tA7lE3VoPhz511EgUhH1MAgYQuEDcGxvlse/Hi77Ezn2Dl2ZioDpn1nI/ZR
-MZsHS5L25jqZXSNNB8jUocmK2GPMJkThwcf7oPYZiIuPjgU6TAnZkLFM9LNkeIs8
-Y7L2jr0uONUEp9ch/1qZwWZ15Hz2EmLG4U6skEDwI3kxAA1CoI4BmtLxlo2kdK6t
-DrMXdTsBHQxB0NDGad8e+XiNCVXW3Fmva5Tto6E+1AUfpNC/Y1X4Ch1Tk89VvcpQ
-KBvYoEo4s3fhHlmUCoXOQAOhExyadNtyGHODPtVo4PnqnXU3WQf/vEbDsC5RQK1v
-eczQv63ZzExxKaKIcooew/e58iJ0lyiLupLGGkJ7HvruDPKw0zsE2BlS89bPIyia
-Msxetq0C/oHnzaZL2jdAaTo6Vhtv1SaanW+3zD16U8LeIgkeUkXQp1jVw9K25cjq
-MKT09aYg9cqSi2MTRz2JEeX7YoJFp3Y8zizYBsGciWcrgp2juiYb3BaAShhWk2WQ
-IcZQWqrXYWjpd6000T9Pa0KBTbiW0tyOO9Ybw24hNSjrMPTC0sw/YNJ0YLaC2jJ/
-2tewdzlzMd/Xr60OmNcLylYsjz5owZpTs1/YIdpTa9/AWvqqKHg=
-=Nnl8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCZ97IACgkQ7ulgGnXF
+3j238w//draf70tkoXWJ0D9OytpSPUbbxFhNn+6BMuswVaejo2AkOnGy8jkEcgVB
+RCQiLoDZ4XQ4eyEGia1l5YAAeoRhRM8fNQecL/7AvodKMNByZIR26Z9Ng+7/nxU1
+YqxkMOZRBu1g3ZdsyG2VxA6OU0xzMA9jUAqZK7hRd4hyiaKE/U5KQZ2qFCHCRJ6d
+zgNCOhQyt4zuu5Q+qULq4bWrvD5sTBr5bXKSOH7vV66+7wL0WGm9BHQn+m8G7f89
+QRLG1piSaEPDW48ENyKanbntFsTPJhmdT7Ky1HJoG8eWimSvcRBzwWrEF07k7U1v
+N/n+feTnmQtsGzDp5+YcyRyoZHyPMk985Ej+tIavcWndT1+LEqjFybY+mmQEJa3I
+q39F0xtpdHOutWPwxdS747p86Z5DlJ6X1fnbyv/NM1xRXfxCgRM9jkGPouqTSu75
+0utAv0cJXxWUv8PEhp9aFhOQs5OVLkVrhF4e5Vr84nSBqNZlhOzEkPvrOKeFrvRO
+8kd0UJZvjb7RAoPutjeDVoeppa6LGYOg1KHK8/Uvf7dseFIP2Zwx5gz71xK6KYsi
+9+tm10rX+YDjhif1NHFsWKvutu0MdzVUStN6nubaxa0gvbNs1gm4TB5j+luRFLly
+Ydps/jRGpOn3K5BSQtWBitrpx9cbhXSg3wsMrFaDsTX867uKA1Y=
+=bUmm
 -----END PGP SIGNATURE-----
 
---===============2717797035483531146==--
+--===============0101062688350650254==--
