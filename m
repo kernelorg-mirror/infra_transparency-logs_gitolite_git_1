@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 11 May 2021 23:20:45 -0000
-Message-Id: <162077524542.3991.3342300028665123628@gitolite.kernel.org>
+Date: Tue, 11 May 2021 23:23:49 -0000
+Message-Id: <162077542972.5005.7971270967128806017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: df6f8237036938d48b7705681c170566c00593fa
-    new: bcbda3fc616272686208f9c4d5f6dccb65360bd8
+    old: bcbda3fc616272686208f9c4d5f6dccb65360bd8
+    new: 440c3247cba3d9433ac435d371dd7927d68772a7
     log: |
-         29249eac5225429b898f278230a6ca2baa1ae154 mptcp: fix data stream corruption
-         bcbda3fc616272686208f9c4d5f6dccb65360bd8 ionic: fix ptp support config breakage
+         440c3247cba3d9433ac435d371dd7927d68772a7 net: ipa: memory region array is variable size
          
