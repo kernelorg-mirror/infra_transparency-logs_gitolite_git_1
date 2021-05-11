@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4588247227224858774=="
+Content-Type: multipart/mixed; boundary="===============3041131996894848089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 11 May 2021 08:47:46 -0000
-Message-Id: <162072286610.22992.10477250210089425288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 11 May 2021 09:11:16 -0000
+Message-Id: <162072427696.21255.14891060053876174451@gitolite.kernel.org>
 
---===============4588247227224858774==
+--===============3041131996894848089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/fixes
-    old: 9f377622a484de0818c49ee01e0ab4eedf6acd81
-    new: 46f2e04484aee056c97f79162da83ac7d2d621bb
-    log: revlist-9f377622a484-46f2e04484ae.txt
+  - ref: refs/heads/for-linus
+    old: e84749a78dc82bc545f12ce009e3dbcc2c5a8a91
+    new: 91e02557f377b6837d4f82b14229d92cae231001
+    log: |
+         91e02557f377b6837d4f82b14229d92cae231001 ALSA: usb-audio: Fix potential out-of-bounce access in MIDI EP parser
+         
+  - ref: refs/heads/master
+    old: 80b580d90cded94b72c2df26226095b9f9459797
+    new: 1d3e9e810da23a80255918a76427362f22becb08
+    log: |
+         91e02557f377b6837d4f82b14229d92cae231001 ALSA: usb-audio: Fix potential out-of-bounce access in MIDI EP parser
+         1d3e9e810da23a80255918a76427362f22becb08 Merge branch 'for-linus'
+         
+  - ref: refs/heads/upstream
+    old: 9f4ad9e425a1d3b6a34617b8ea226d56a119a717
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    log: revlist-9f4ad9e425a1-6efb943b8616.txt
 
---===============4588247227224858774==
+--===============3041131996894848089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f377622a484-46f2e04484ae.txt
+Content-Disposition: attachment; filename=revlist-9f4ad9e425a1-6efb943b8616.txt
 
+d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
 75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
@@ -1048,7 +1063,5 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-1b55767dfdd93c42712e67e986ac14f0c4debd0c erofs: fix broken illustration in documentation
-46f2e04484aee056c97f79162da83ac7d2d621bb erofs: update documentation about data compression
 
---===============4588247227224858774==--
+--===============3041131996894848089==--
