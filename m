@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 11 May 2021 21:04:39 -0000
-Message-Id: <162076707918.16937.18276200894632434939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Tue, 11 May 2021 21:05:39 -0000
+Message-Id: <162076713985.18640.9336941187159527319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 04ea3086c4d73da7009de1e84962a904139af219
-    new: e2d5b2bb769fa5f500760caba76436ba3a10a895
+  - ref: refs/heads/mips-next
+    old: 9fa996c5f003beae0d8ca323caf06a2b73e471ec
+    new: 33ae8f801ad8bec48e886d368739feb2816478f2
     log: |
-         b24abcff918a5cbf44b0c982bd3477a93e8e4911 bpf, kconfig: Add consolidated menu entry for bpf with core options
-         08389d888287c3823f80b0216766b71e17f0aba5 bpf: Add kconfig knob for disabling unpriv bpf by default
-         35e3815fa8102fab4dee75f3547472c66581125d bpf: Add deny list of btf ids check for tracing programs
-         e2d5b2bb769fa5f500760caba76436ba3a10a895 bpf: Fix nested bpf_bprintf_prepare with more per-cpu buffers
+         33ae8f801ad8bec48e886d368739feb2816478f2 hugetlb: clear huge pte during flush function on mips platform
          
