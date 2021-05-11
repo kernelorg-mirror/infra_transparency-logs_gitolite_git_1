@@ -1,36 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6121960734427479407=="
+Content-Type: multipart/mixed; boundary="===============5480709893346909857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
-Date: Tue, 11 May 2021 01:39:29 -0000
-Message-Id: <162069716901.27270.2391391787662719516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 11 May 2021 01:57:54 -0000
+Message-Id: <162069827448.6674.3234176892356053346@gitolite.kernel.org>
 
---===============6121960734427479407==
+--===============5480709893346909857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sboyd/spmi
-user: sboyd
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/spmi-next
-    old: 5fd184725669f503998dfa03665d8af50aee11b0
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-5fd184725669-6efb943b8616.txt
+  - ref: refs/heads/next
+    old: e4c82eafb609c2badc56f4e11bc50fcf44b8e9eb
+    new: fd781f459b60522f9fbfa1e125f122cf86d4a45b
+    log: revlist-e4c82eafb609-fd781f459b60.txt
 
---===============6121960734427479407==
+--===============5480709893346909857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fd184725669-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-e4c82eafb609-fd781f459b60.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
 112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
@@ -1050,5 +1045,10 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+fba472bb38e2d2b9a676364ade4be4e5df665a82 selinux: simplify duplicate_policydb_cond_list() by using kmemdup()
+e1cce3a3cb28ba39d50166a78da91c8b5aae4af1 selinux: constify some avtab function arguments
+8a922805fb0950187ff037801e337aec010a6ccb selinux: delete selinux_xfrm_policy_lookup() useless argument
+7cffc377e1633b84a880b21eebf10562eaa47a23 selinux: Corrected comment to match kernel-doc comment
+fd781f459b60522f9fbfa1e125f122cf86d4a45b selinux: Remove redundant assignment to rc
 
---===============6121960734427479407==--
+--===============5480709893346909857==--
