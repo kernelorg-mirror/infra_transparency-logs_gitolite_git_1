@@ -1,44 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1489966414710978576=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 11 May 2021 09:56:06 -0000
-Message-Id: <162072696662.17111.13865301233321043130@gitolite.kernel.org>
-
---===============1489966414710978576==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 11 May 2021 10:08:11 -0000
+Message-Id: <162072769139.23138.14956615023281366317@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/atomics/arch-atomic
-    old: 3dcc9cbffbb13b9a40ee056290b19076b803befe
-    new: 606c4c0bfb61fbd35a6fc6da0be373b3f6ae89f6
-    log: revlist-3dcc9cbffbb1-606c4c0bfb61.txt
-
---===============1489966414710978576==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dcc9cbffbb1-606c4c0bfb61.txt
-
-62572cc9f93c7631b1d5054737a2b37ce97082aa locking/atomic: m68k: move to ARCH_ATOMIC
-e44085c4c7ae041ef4e172d6d1539858629d7b1b locking/atomic: microblaze: move to ARCH_ATOMIC
-da08ecbc8c376494cf07f7978bb6b2072cdbb698 locking/atomic: mips: move to ARCH_ATOMIC
-a19d2f6b665af08646533ecf20cca726660e2ba9 locking/atomic: nds32: move to ARCH_ATOMIC
-ed4083b25e508fbbc308f87f550f146ecd9511ad locking/atomic: nios2: move to ARCH_ATOMIC
-ced4e743267b2734c835b75680ddc8387e8550c8 locking/atomic: openrisc: move to ARCH_ATOMIC
-084bffd33c06e0cda827460322b2b1e8071beb88 locking/atomic: parisc: move to ARCH_ATOMIC
-412289ecdf0ca23d69694bbf8856dfcc355f5232 locking/atomic: powerpc: move to ARCH_ATOMIC
-bdc02ada76caf82aff01f86b76cfdcfff4772b9b locking/atomic: riscv: move to ARCH_ATOMIC
-9eebccfaca05705ffb36ce38d63bb58f81d1069b locking/atomic: sh: move to ARCH_ATOMIC
-1a89ea530572896570604f6a1034ed6b0070c74a locking/atomic: sparc: move to ARCH_ATOMIC
-ee5e812a27c0a00166d1599738d185cfccb57bca locking/atomic: xtensa: move to ARCH_ATOMIC
-16ebd1641a4143076689656737665153a1480b15 locking/atomic: delete !ARCH_ATOMIC remnants
-606c4c0bfb61fbd35a6fc6da0be373b3f6ae89f6 locking/atomics: atomic-instrumented: simplify ifdeffery
-
---===============1489966414710978576==--
+  - ref: refs/heads/for-next
+    old: 382bdc9c283748a7decc00e21935162c9e73ce1e
+    new: 0ac75916f338290ad17d6a31a8b3db41004028ab
+    log: |
+         72ae976363a2169d95eecca07e62ccdf5b1ee4de dt-bindings: arm: rockchip: add more compatible strings to pmu.yaml
+         d74622138a9bfaaaf102280ae8aeee6fae565de0 dt-bindings: power: rockchip: Convert to json-schema
+         66b89b8b5e4cfb1d492c1ac16c0ef07e47c44e84 dt-bindings: power: rockchip: Add bindings for RK3568 Soc
+         1782c87b44a0b1a527f01a6a184677c58ccbf9c7 soc: rockchip: power-domain: add rk3568 powerdomains
+         957285df80554b9e5bc5179db919f6d43a6e3452 Merge branch 'v5.14-armsoc/drivers' into for-next
+         414ca9e2bc6ea1a5cc6dc3cdd2f4c57abe1162ed Merge branch 'v5.14-armsoc/dts32' into for-next
+         0ac75916f338290ad17d6a31a8b3db41004028ab Merge branch 'v5.14-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v5.14-armsoc/drivers
+    old: b9402acf6350458d934646a4531392bc4f8605d2
+    new: 1782c87b44a0b1a527f01a6a184677c58ccbf9c7
+    log: |
+         72ae976363a2169d95eecca07e62ccdf5b1ee4de dt-bindings: arm: rockchip: add more compatible strings to pmu.yaml
+         d74622138a9bfaaaf102280ae8aeee6fae565de0 dt-bindings: power: rockchip: Convert to json-schema
+         66b89b8b5e4cfb1d492c1ac16c0ef07e47c44e84 dt-bindings: power: rockchip: Add bindings for RK3568 Soc
+         1782c87b44a0b1a527f01a6a184677c58ccbf9c7 soc: rockchip: power-domain: add rk3568 powerdomains
+         
