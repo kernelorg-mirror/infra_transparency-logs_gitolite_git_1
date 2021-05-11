@@ -1,39 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============1540523882801471521=="
+Content-Type: multipart/mixed; boundary="===============6717252439334625037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 11 May 2021 08:09:07 -0000
-Message-Id: <162072054790.32135.5353102572707329106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 11 May 2021 08:09:30 -0000
+Message-Id: <162072057094.32305.18007107414793062874@gitolite.kernel.org>
 
---===============1540523882801471521==
+--===============6717252439334625037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 0bbefa641a324b5416a88189069ff5a30975970c
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-0bbefa641a32-6efb943b8616.txt
+    old: eb43e665d243d0d789b28ef0f995a232ed3c5012
+    new: f233291c838e013ea729c9befcb51a108305da56
+    log: revlist-eb43e665d243-f233291c838e.txt
   - ref: refs/heads/for-next
-    old: 4dd1c95306980c997b9a32e72877e060c25dc6f3
-    new: 8c94df1e6fe4a0bb31fd94e96256e49032940b1f
-    log: revlist-4dd1c9530698-8c94df1e6fe4.txt
+    old: eb43e665d243d0d789b28ef0f995a232ed3c5012
+    new: e711877812ef2a2087289287958a953aeb4d8ac1
+    log: revlist-eb43e665d243-e711877812ef.txt
 
---===============1540523882801471521==
+--===============6717252439334625037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bbefa641a32-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-eb43e665d243-f233291c838e.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
@@ -1054,31 +1050,17 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+680ec0549a055eb464dce6ffb4bfb736ef87236e spi: spi-fsl-dspi: Fix a resource leak in an error handling path
+dc5fa590273890a8541ce6e999d606bfb2d73797 spi: take the SPI IO-mutex in the spi_set_cs_timing method
+24577a98007d6b47baf3be9aee51adbf7476fa70 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+f233291c838e013ea729c9befcb51a108305da56 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
 
---===============1540523882801471521==
+--===============6717252439334625037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dd1c9530698-8c94df1e6fe4.txt
+Content-Disposition: attachment; filename=revlist-eb43e665d243-e711877812ef.txt
 
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
-d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
-bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
-0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
-55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
-2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
-8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
-462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
-412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
-6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
-eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
-32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
-444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
-c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
 12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
 9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
 30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
@@ -2080,10 +2062,28 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-67823d9dadd4dddee4b6bd075f6852b6ade5604a regulator: Add a routine to set the current limit for QCOM PMIC VBUS
-8c816d56a2a4e757bb121d1af4c04f47ac0572d3 regulator: qcom_smd: Add PM8226 regulator support
-00c8b0b1e6e1314bb57aab6438fbc2803c637d9d regulator: qcom: Document PM8226 smd regulator
-4446e6f3bd5c97c312833b445d0eb2ea638c7e98 regulator: hi6421v600: Remove unneeded *pmic from struct hi6421_spmi_reg_info
-8c94df1e6fe4a0bb31fd94e96256e49032940b1f Merge series "Enable VBUS current boost on pm8150b platforms" from Bryan O'Donoghue <bryan.odonoghue@linaro.org>:
+680ec0549a055eb464dce6ffb4bfb736ef87236e spi: spi-fsl-dspi: Fix a resource leak in an error handling path
+dc5fa590273890a8541ce6e999d606bfb2d73797 spi: take the SPI IO-mutex in the spi_set_cs_timing method
+ccef8441fb2d352fa982f6607f471cdd17b30741 Merge existing fixes from spi/for-5.13
+66fe740317c82b0caa68ed8d756536d4ff7e910c spi: ppc4xx: include <linux/io.h> instead of <asm/io.h>
+856a9260e17129303102a7d4a5f71b7a8739e5b9 spi: omap-100k: Clean the value of 'status' is not used
+db56d03049524114696aa7158560d8f0e064c487 spi: delete repeated words in comments
+9e37a3ab0627011fb63875e9a93094b6fc8ddf48 spi: spi-loopback-test: Fix 'tx_buf' might be 'rx_buf'
+f2eed8caa336e31d672804a8725dadba0415f19d spi: pxa2xx: Use one point of return when ->probe() fails
+9e43c9a8d5de4810ea9688519d55b5e46784d84a spi: pxa2xx: Utilize MMIO and physical base from struct ssp_device
+c3dce24c40cc7cd07deca5b81b763eae66f30856 spi: pxa2xx: Utilize struct device from struct ssp_device
+0e4768713e71dd224633fd7e00ad358bc48f433a spi: pxa2xx: Replace header inclusions by forward declarations
+5edc24901f4d469f8fc943004f73655933e89dbf spi: pxa2xx: Unify ifdeffery used in the headers
+1beb37b0e3f98708bfb37778049764b4500756da spi: pxa2xx: Group Intel Quark specific definitions
+026a1dc1af52742c5897e64a3431445371a71871 spi: spi-topcliff-pch: Fix potential double free in pch_spi_process_messages()
+029d32a892a860017d33ff8d9598259731e776ad spi: dw-apb-ssi: Integrate Renesas RZ/N1 SPI controller
+e7a1a3abea373e41ba7dfe0fbc93cb79b6a3a529 spi: omap-100k: Fix the length judgment problem
+86b1d8ecb5f1f271a660ce0b882658447f85904a spi: tegra114: Fix an error message
+665a990fdbea66a4d2af0287420f8266631be2ab spi: tegra210-quad: Fix an error message
+bf2509a455349981527e142f213aae9628862779 Merge series "spi: pxa2xx: Set of cleanups" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
+d6e58e379610799ea53419eb8b08e061aa27fc4c Merge series "spi: Set of cleanups" from Jay Fang <f.fangjian@huawei.com>:
+24577a98007d6b47baf3be9aee51adbf7476fa70 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+f233291c838e013ea729c9befcb51a108305da56 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+e711877812ef2a2087289287958a953aeb4d8ac1 Merge remote-tracking branch 'spi/for-5.14' into spi-next
 
---===============1540523882801471521==--
+--===============6717252439334625037==--
