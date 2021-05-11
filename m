@@ -1,60 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============8895723982540770846=="
+Content-Type: multipart/mixed; boundary="===============0626669519309845819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 11 May 2021 18:18:46 -0000
-Message-Id: <162075712688.13088.13473833743691755612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
+Date: Tue, 11 May 2021 18:22:22 -0000
+Message-Id: <162075734286.16872.14472905866674933197@gitolite.kernel.org>
 
---===============8895723982540770846==
+--===============0626669519309845819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jberg/mac80211
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-linus
-    old: f233291c838e013ea729c9befcb51a108305da56
-    new: f16c8ea90afb2b6eeff25beadb68709162d77b34
-    log: |
-         35f3f8504c3b60a1ae5576e178b27fc0ddd6157d spi: Switch to signed types for *_native_cs SPI controller fields
-         088080ff8a83fd98aefbf4f95f20e051453fe22b Merge remote-tracking branch 'spi/for-5.12' into spi-linus
-         f16c8ea90afb2b6eeff25beadb68709162d77b34 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: e711877812ef2a2087289287958a953aeb4d8ac1
-    new: 31f1a85f928eaa3398dfd65e1a6509d80ad8ab9a
-    log: revlist-e711877812ef-31f1a85f928e.txt
+  - ref: refs/heads/master
+    old: 297c4de6f780b63b6d2af75a730720483bf1904a
+    new: 210f563b097997ce917e82feab356b298bfd12b0
+    log: revlist-297c4de6f780-210f563b0979.txt
 
---===============8895723982540770846==
+--===============0626669519309845819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e711877812ef-31f1a85f928e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ab77fe8935c57d1339d3df64957f32e87f0d5ef3 spi: pxa2xx: Introduce int_stop_and_reset() helper
-4761d2e7e51cfbe6fdb4e95903d407927f519f50 spi: pxa2xx: Reuse int_error_stop() in pxa2xx_spi_slave_abort()
-0c8ccd8b267fc735e4621774ce62728f27d42863 spi: pxa2xx: Use pxa_ssp_enable()/pxa_ssp_disable() in the driver
-1bed378c6b9116c51ae59b970cf3d9b4e9e62ced spi: pxa2xx: Extract pxa2xx_spi_update() helper
-42c80cd439a938569a86f6ae135d38c1cda5569b spi: pxa2xx: Extract clear_SSCR1_bits() helper
-6d380132eaea536bef641f21847c8a7987e96ad8 spi: pxa2xx: Extract read_SSSR_bits() helper
-eca32c3974c0664f88fed90b327f473bd18a4809 spi: pxa2xx: Constify struct driver_data parameter
-3fdb59cf10b020b32b9f1dfc78611320623dcb3e spi: pxa2xx: Introduce special type for Merrifield SPIs
-35f3f8504c3b60a1ae5576e178b27fc0ddd6157d spi: Switch to signed types for *_native_cs SPI controller fields
-86b8bff7e3ac6775113639d88db7448a8b47f0c1 spi: Convert to use predefined time multipliers
-532259bfd1c12d561215c32b94cd9bb7c997bc6f spi: altera: Remove redundant dev_err call in dfl_spi_altera_probe()
-6e5c3ab8959499491f96fdba686eabb50fc6062d Merge series "spi: pxa2xx: Set of cleanups" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
-40b82c2d9a78593201a3a62dc9239d6405334561 spi: Use SPI_MODE_X_MASK
-dd507b5ec7ba44ab51e1a8404d04e815a91b472f spi: spidev: Use SPI_MODE_X_MASK
-56f47edf33fb55ab9381f61d60cf34c7578f3d75 spi: npcm-pspi: Use SPI_MODE_X_MASK
-a2f2db6b2a8708f6ac592a362e34fb330f874cea spi: oc-tiny: Use SPI_MODE_X_MASK
-fdb217a38808e041f6eca8c550f1b5981e401a45 spi: omap-uwire: Use SPI_MODE_X_MASK
-4ccf05579b9d0f15443a0edc860e2be7472ccfc1 spi: ppc4xx: Use SPI_MODE_X_MASK
-038b9de42269f33aca3e3741214c863a4e9328d0 spi: uniphier: Use SPI_MODE_X_MASK
-088080ff8a83fd98aefbf4f95f20e051453fe22b Merge remote-tracking branch 'spi/for-5.12' into spi-linus
-f16c8ea90afb2b6eeff25beadb68709162d77b34 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
-31f1a85f928eaa3398dfd65e1a6509d80ad8ab9a Merge remote-tracking branch 'spi/for-5.14' into spi-next
+certificate version 0.1
+pusher 7BF9099A 1620757309 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
+nonce 1620757308-b793cd1528422760aea3aaa7a347e32eab458095
 
---===============8895723982540770846==--
+297c4de6f780b63b6d2af75a730720483bf1904a 210f563b097997ce917e82feab356b298bfd12b0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmCayz0ACgkQB8qZga/f
+l8StXA//UZ7qt8epq2dNEOrj2Z77R2bnAd5ZYP3URz4XLcPHaprUKC7xk7crXE80
+IqzWA0Olr1qvHPmw7wJSQXzm/6F5RZOi2nDtv0n9oU6h7N7oSNsmpqajth30bdRo
+A5qZbHIDDcu50flkdFeelmJgQhawAmwfCmzm0MT9uR8xcOaPXyjJHyNRX7BAWE2v
+mggNOF/DT91Is6sh4D5LwNjIK79tUmfYswa2t405kYnnN97Y/wlV5i92ZITvBcC/
+3QYhC6QUz/eUUn4xr0y1kJqvgt+aCWj8doGXJhZ6eyiG6eWVXJFGj8v61tCjmfYa
+aWTEyGTMJdmaZZV6qiY7rrhIhN8MF8XklLSQ5tEwM0ZnFRf9lOR0dVBfr98ii24N
+/ZHOKMc9iwo/ifn31BSxCaZfEj9+w4pwSSm8MJJbGopQCPrWwhotK/gk12H53ly3
+iYrpep3gfgtzfBl6GZ522fjJTJXsDJSVEi5R+bqF2G3Kj282vqnIwvewlBn4FoPw
+eKRh3v2flXRBKFUl2u/0jmymwjXHh/5d0jG+vZcuhdbcnF9V33Q8A02vpiVevtZi
+IChh31H7LK6r/NnXx9p56RgCTFDAh+0LJt0t07dd1NrluIzubemiZakULVVHIDL8
+3k3Aig1bIPZw6nHPyFU/qnchmbYG0xGpq8UJ306zPBrW/lChBbs=
+=+EuC
+-----END PGP SIGNATURE-----
+
+--===============0626669519309845819==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-297c4de6f780-210f563b0979.txt
+
+965a7d72e798eb7af0aa67210e37cf7ecd1c9cad mac80211: assure all fragments are encrypted
+94034c40ab4a3fcf581fbc7f8fdf4e29943c4a24 mac80211: prevent mixed key and fragment cache attacks
+a1d5ff5651ea592c67054233b14b30bf4452999c mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+2b8a1fee3488c602aca8bea004a087e60806a5cf cfg80211: mitigate A-MSDU aggregation attacks
+270032a2a9c4535799736142e1e7c413ca7b836e mac80211: drop A-MSDUs on old ciphers
+3a11ce08c45b50d69c891d71760b7c5b92074709 mac80211: add fragment cache to sta_info
+bf30ca922a0c0176007e074b0acc77ed345e9990 mac80211: check defrag PN against current frame
+7e44a0b597f04e67eee8cdcbe7ee706c6f5de38b mac80211: prevent attacks on TKIP/WEP as well
+a8c4d76a8dd4fb9666fc8919a703d85fb8f44ed8 mac80211: do not accept/forward invalid EAPOL frames
+3edc6b0d6c061a70d8ca3c3c72eb1f58ce29bfb1 mac80211: extend protection against mixed key and fragment cache attacks
+a1166b2653db2f3de7338b9fb8a0f6e924b904ee ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+65c415a144ad8132b6a6d97d4a1919ffc728e2d1 ath10k: drop fragments with multicast DA for PCIe
+40e7462dad6f3d06efdb17d26539e61ab6e34db1 ath10k: drop fragments with multicast DA for SDIO
+079a108feba474b4b32bd3471db03e11f2f83b81 ath10k: drop MPDU which has discard flag set by firmware for SDIO
+0dc267b13f3a7e8424a898815dd357211b737330 ath10k: Fix TKIP Michael MIC verification for PCIe
+62a8ff67eba52dae9b107e1fb8827054ed00a265 ath10k: Validate first subframe of A-MSDU before processing the list
+c3944a5621026c176001493d48ee66ff94e1a39a ath11k: Clear the fragment cache during key install
+210f563b097997ce917e82feab356b298bfd12b0 ath11k: Drop multicast fragments
+
+--===============0626669519309845819==--
