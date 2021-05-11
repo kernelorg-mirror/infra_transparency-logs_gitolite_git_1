@@ -1,28 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 11 May 2021 13:37:14 -0000
-Message-Id: <162074023459.31023.17298817075341267747@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5750785450984189224=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Tue, 11 May 2021 13:38:24 -0000
+Message-Id: <162074030450.31425.12029766261750087970@gitolite.kernel.org>
+
+--===============5750785450984189224==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/utils/patatt/patatt
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 507fa7fe09119ee84ce701b13fe45c7df4361de5
-    new: 768ccafb15c7576064e2e0bedc833a71532e193a
+  - ref: refs/heads/main
+    old: b575905fc8ca238eedde76b9e8d54bf9093dc4a6
+    new: f3bd10b95d0a23802e29bde2129d28a61f5ece46
     log: |
-         ee6038dcadb24787a9edbecac234cc80204b2c09 btrfs: handle transaction start error in btrfs_fileattr_set
-         647e854741336af9d07354d979bb75c22a550cff btrfs: make btrfs_verify_data_csum() to return a bitmap
-         82d94e8ad0180e73b98cde0755018c8743fb4e74 btrfs: submit read time repair only for each corrupted sector
-         5dcdd534ea24a9cf66d9aaf29d0f4add8f01d137 btrfs: remove io_failure_record::in_validation
-         dec26fe376bf24b70c4fa0f4f477b0fded02176d Merge branch 'misc-5.13' into for-next-current-v5.12-20210511
-         a819f72e12d072565e532596a5d89ba54e3a6ce2 Merge branch 'misc-next' into for-next-next-v5.13-20210511
-         2c824ebbe2519663866c18c1c99037e215ef3bc5 Merge branch 'ext/qu/repair-by-sector-v4' into for-next-next-v5.13-20210511
-         9918abc2d707d1b613aa11dcf89b09bd3af250c7 Merge branch 'for-next-current-v5.12-20210511' into for-next-20210511
-         1c708e002cb5f0478a4ba0df67819dae7af74919 Merge branch 'for-next-next-v5.13-20210511' into for-next-20210511
-         768ccafb15c7576064e2e0bedc833a71532e193a Merge branch 'fixes-for-master' into for-next-20210511
+         f3bd10b95d0a23802e29bde2129d28a61f5ece46 Support other git dirs as sources
          
+
+--===============5750785450984189224==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1620740303 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1620740303-b7c0890b3ff0097f00299248286de18f58ade37e
+
+b575905fc8ca238eedde76b9e8d54bf9093dc4a6 f3bd10b95d0a23802e29bde2129d28a61f5ece46 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJqI0AAKCRC2xBzjVmSZ
+bIe+AQCBfSMxOu41BksHxjIWV7Zk3+KYKn8bcbq47WtPqMylDAEAhhlXw7KovSbc
+srUM2FbZvnUg+TRVQKfcBYRqHLh2NAc=
+=luUa
+-----END PGP SIGNATURE-----
+
+--===============5750785450984189224==--
