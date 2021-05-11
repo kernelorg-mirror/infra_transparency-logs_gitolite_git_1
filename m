@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8281574614357690744=="
+Content-Type: multipart/mixed; boundary="===============0055622452080501270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 11 May 2021 19:01:05 -0000
-Message-Id: <162075966579.7301.9842443619707094274@gitolite.kernel.org>
+Date: Tue, 11 May 2021 19:02:49 -0000
+Message-Id: <162075976973.7859.13339855495711730741@gitolite.kernel.org>
 
---===============8281574614357690744==
+--===============0055622452080501270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 31348a14afdb1d39e7faf9576eaddea1ced76e19
-    new: f1a2700e70018349d5c63f2053ba4b0e7ebe351a
+    old: f1a2700e70018349d5c63f2053ba4b0e7ebe351a
+    new: 0b19bf3366445a4145e2bab41f17ce9e2d890853
     log: |
-         f1a2700e70018349d5c63f2053ba4b0e7ebe351a Reimplement attestation code one more time
+         0b19bf3366445a4145e2bab41f17ce9e2d890853 Remove sendemail-validte hook
          
 
---===============8281574614357690744==
+--===============0055622452080501270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1620759665 -0400
+pusher B6C41CE35664996C! 1620759769 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1620759665-2c03a033e2a65014f5b30cfe2540fd98f278fed4
+nonce 1620759769-247072cab1fb0bef3fdba6e753bf0ad8b590fd4e
 
-31348a14afdb1d39e7faf9576eaddea1ced76e19 f1a2700e70018349d5c63f2053ba4b0e7ebe351a refs/heads/master
+f1a2700e70018349d5c63f2053ba4b0e7ebe351a 0b19bf3366445a4145e2bab41f17ce9e2d890853 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJrUcQAKCRC2xBzjVmSZ
-bCrhAQCw/K4XSj5JIKD4Sx4iLAPpbm+ClFYLTpk8nEPmK7ABqwEAtarPZbiYmOxb
-N8qtudXeqEV1ivjAPMfuXEC2HKgbMwo=
-=70M/
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJrU2QAKCRC2xBzjVmSZ
+bF1qAP4v2H1rwxPocTlie22SPsHRY6dDi+i3jOWA/YyhQjATogEA03CsrIuwe0l5
+q6e9DpasC4BezG9LPMteyWyqs5DuWQs=
+=jxsC
 -----END PGP SIGNATURE-----
 
---===============8281574614357690744==--
+--===============0055622452080501270==--
