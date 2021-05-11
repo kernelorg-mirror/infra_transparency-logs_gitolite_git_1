@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6346276484139635080=="
+Content-Type: multipart/mixed; boundary="===============6272500150650053711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 11 May 2021 15:11:37 -0000
-Message-Id: <162074589714.26855.16312983098927949527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Tue, 11 May 2021 15:11:42 -0000
+Message-Id: <162074590283.26966.1816953318821774771@gitolite.kernel.org>
 
---===============6346276484139635080==
+--===============6272500150650053711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 182c7355be0383c202572eb06d8d2110d6cda003
 
---===============6346276484139635080==
+--===============6272500150650053711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ fb24e308b6310541e70d11a3f19dc40742974b95 tools arch: Update arch/x86/lib/mem{cpy
 142b507f911c5a502dbb8f603216cb0ea8a79a48 Merge tag 'for-5.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 1140ab592e2ebf8153d2b322604031a8868ce7a5 Merge tag 'perf-tools-fixes-for-v5.13-2021-05-10' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============6346276484139635080==--
+--===============6272500150650053711==--
