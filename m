@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7128575577733321101=="
+Content-Type: multipart/mixed; boundary="===============2003979407699516650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 11 May 2021 10:53:10 -0000
-Message-Id: <162073039000.18217.16082888835875010199@gitolite.kernel.org>
+Date: Tue, 11 May 2021 10:53:29 -0000
+Message-Id: <162073040931.18384.16799697436415841440@gitolite.kernel.org>
 
---===============7128575577733321101==
+--===============2003979407699516650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 7412dee9f1fd3e224202b633fdfa6eeaebe0307e
-    new: a1149a6c06ee094a6e62886b0c0e8e66967a728a
-    log: revlist-7412dee9f1fd-a1149a6c06ee.txt
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
+  - ref: refs/heads/next
+    old: 97fce126e279690105ee15be652b465fd96f9997
+    new: 26caa6076e4c9dc043e44b72e7c168d31a381870
+    log: revlist-97fce126e279-26caa6076e4c.txt
 
---===============7128575577733321101==
+--===============2003979407699516650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7412dee9f1fd-a1149a6c06ee.txt
+Content-Disposition: attachment; filename=revlist-97fce126e279-26caa6076e4c.txt
 
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
-d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
-bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
-0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
-55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
-2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
-8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
-462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
-412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
-6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
-eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
-32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
-444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
-c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
-12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
-9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
-30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
-94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
-c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
 5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
 b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
 ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
@@ -1050,8 +1022,33 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+37255637b8655b5e90d3a748860f3b64f1a8a538 mmc: s3cmci: move to use request_irq by IRQF_NO_AUTOEN flag
 cabb1bb60e88ccaaa122ba01862403cd44e8e8f8 mmc: meson-gx: make replace WARN_ONCE with dev_warn_once about scatterlist offset alignment
 9b81354d7ebc1fd17f666a168dcabf27dae290bd mmc: meson-gx: also check SD_IO_RW_EXTENDED for scatterlist size alignment
+648634c52918b95b13712290fa1fd2cb6cd7d61e Merge branch 'fixes' into next
 a1149a6c06ee094a6e62886b0c0e8e66967a728a mmc: sdhci-pci-gli: increase 1.8V regulator wait
+cd3c66dc4d024019901a800c9053a2a6cb058664 Merge branch 'fixes' into next
+5c5b27fb93f6573ad84b3796e7d3cd19e217353f dt-bindings: mmc: sdhci-am654: Remove duplicate ti,j721e-sdhci-4bit
+40b36711c3c5426d9f18448bec963ef8f19d9634 dt-bindings: mmc: rockchip-dw-mshc: add description for rk3568
+df764f22c2b127050a666afe4717bcddf3a31f7e mmc: sdhci-acpi: Disable write protect detection on Toshiba Encore 2 WT8-B
+db3c4e5a321e9d70dbea1659adf087ad9db05d5a mmc: core: Drop open coding when preparing commands with busy signaling
+4eb9d1dd96d939e39ea16c9b7799aa9c30a9ddd3 mmc: core: Take into account MMC_CAP_NEED_RSP_BUSY for eMMC HPI commands
+dec32ffb633ba05f7e3598196d6813f12e33bcd2 mmc: core: Re-structure some code in __mmc_poll_for_busy()
+d976a03e0ac603affe3f81fdfa3e3d5904cdd606 mmc: core: Extend re-use of __mmc_poll_for_busy()
+e423e5ebba8113ac5846f46c70fffe48fb95a286 mmc: core: Enable eMMC sleep commands to use HW busy polling
+d39b177a993f916c1051ad536d3052de45d02b28 mmc: core: Prepare mmc_send_cxd_data() to be re-used for additional cmds
+0cd6d7b591533171dd12e2afca674273dbae9dfc mmc: core: Drop open coding in mmc_sd_switch()
+d233749a0fb2172aa78c6784a8331db557bcda57 mmc: core: Parse the SD SCR register for support of CMD48/49 and CMD58/59
+d42913b48d039d99cdb6a8f8c3b2a371878e4bd2 mmc: core: Read the SD function extension registers for power management
+8d2817e4b51da42dcecbef54b3d6d19235ce6d3b mmc: core: Read performance enhancements registers for SD cards
+6fc7f43b30b625acd9d0db23666d09ec1e6c95df mmc: core: Add support for Power Off Notification for SD cards
+02673d3f0cd0a6ed025fabf47aa52b23944d9364 mmc: block: Disable CMDQ on the ioctl path
+fa623c1000ba26f3d94be009c89eab5742b7258b mmc: core: Move eMMC cache flushing to a new bus_ops callback
+3d892d8f4a5279b1cd8fa1a02d8d4148b9870f64 drivers: memstick: core:ms_block.c: Fix alignment of block comment
+835a1dcf02a99222fdb614a88868ddf2e53568a9 mmc: usdhi6rol0: fix error return code in usdhi6_probe()
+e6e74ecb290991596601b62423b7f5dbdafb96c6 mmc: jz4740: Remove redundant error printing in jz4740_mmc_probe()
+88001b6b9849fe7695d6041ad9e20aa08a478b18 dt-bindings: mmc: renesas,mmcif: Convert to json-schema
+837f1521f7d92f05f47d0c1f507aff87084bcf4f mmc: sdhci-pci-gli: Fine tune GL9763E L1 entry delay
+26caa6076e4c9dc043e44b72e7c168d31a381870 mmc: core: Add support for cache ctrl for SD cards
 
---===============7128575577733321101==--
+--===============2003979407699516650==--
