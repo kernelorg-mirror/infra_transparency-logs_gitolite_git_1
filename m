@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 11 May 2021 16:54:55 -0000
-Message-Id: <162075209557.25781.9376250899432141224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 11 May 2021 17:03:45 -0000
+Message-Id: <162075262582.31100.16983971372641284976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 66c743b1914b3aa9a6b8df4899b0b1bf308caca4
-    new: d25b924662838a57c8c42afe87f8f2855c9ef6bf
+    old: 31379397dcc364a59ce764fabb131b645c43e340
+    new: 98a34e93da83e50e197584c7c362668bf12c1d54
     log: |
-         d6a6c16f80b07c4cb5901573df3d86c71b36a758 tgamma.3: tfix
-         5a172e4d48d7b77078c5125421ab1ce82f36b6ef ttyslot.3: tfix
-         5d63eed891b8db27ad42321c68b1e3fde477daaf capabilities.7: ffix
-         dc6b48de4d8eb3c054594fa0ff89241d6aff5a53 sigvec.3: tfix
-         9cf9ba4aa304fe3502f1d8bbd8d8594ba4131352 expm1.3: tfix
-         d25b924662838a57c8c42afe87f8f2855c9ef6bf README: Update installation path
+         049c4e13714ecbca567b4d5f6d563f05d431c80e bpf: Fix alu32 const subreg bound tracking on bitwise operations
+         4b81ccebaeee885ab1aa1438133f2991e3a2b6ea bpf, ringbuf: Deny reserve of buffers larger than ringbuf
+         04ea3086c4d73da7009de1e84962a904139af219 bpf: Prevent writable memory-mapping of read-only ringbuf pages
+         98a34e93da83e50e197584c7c362668bf12c1d54 selftests/bpf: Test ringbuf mmap read-only and read-write restrictions
          
