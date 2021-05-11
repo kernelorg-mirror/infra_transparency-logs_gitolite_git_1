@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2220721389771762912=="
+Content-Type: multipart/mixed; boundary="===============2902798428060973089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 11 May 2021 18:17:28 -0000
-Message-Id: <162075704880.12061.1407155235228256467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 11 May 2021 18:17:35 -0000
+Message-Id: <162075705534.12209.16733660317366789916@gitolite.kernel.org>
 
---===============2220721389771762912==
+--===============2902798428060973089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/regulator-5.14
     old: 8c94df1e6fe4a0bb31fd94e96256e49032940b1f
     new: d019f38a1af3c6015cde6a47951a3ec43beeed80
     log: |
          d019f38a1af3c6015cde6a47951a3ec43beeed80 regulator: uniphier: Add missing MODULE_DEVICE_TABLE
          
 
---===============2220721389771762912==
+--===============2902798428060973089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1620757009 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1620757046-07ff7a574ecac7c0d837588af22fce4f39bcbd71
+pusher C3F436CA30F5D8EB 1620757016 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1620757053-8190a5abf06820415d60060fd24cb430407cf876
 
-8c94df1e6fe4a0bb31fd94e96256e49032940b1f d019f38a1af3c6015cde6a47951a3ec43beeed80 refs/heads/for-5.14
+8c94df1e6fe4a0bb31fd94e96256e49032940b1f d019f38a1af3c6015cde6a47951a3ec43beeed80 refs/heads/regulator-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCayhEACgkQJNaLcl1U
-h9CCuAf9HlfLr0IH3gGWJ4SDhSWZWzzodTc7UAj7jbVZFfpk5GHcUIDuThqPpxB1
-+SAILXKNhR7WqQEoFac5vmcJN+WplDDa+teablBxtxTy6S89uPqreAF/KJzavPUa
-Xsj0cxxdjecARPTV34MFev7ovDqzraiclhQbeVlIFQUMc1XfHyWYV19nL1gotIQX
-jXzZvXnYPKhaaesAebmsKRoRsHDbF9a6pPfaBRCNpwTlO0/VLemm/ev+5CnFzowM
-Tdu8EipzHPq0hFyWHiCwpQc3EDu0zLrxiftr1J3TQyH2gXyv6My3GS05RI8s1LKo
-aZO6mP2f+pL/RTwb5JQx+2VcURRPqA==
-=IYAU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCayhgACgkQJNaLcl1U
+h9Agwwf+M4yQOF4KKd5xHdEpUT9scfRrBoptc/dFFLIjjgQvwXG0/gG5B/d60VgU
+JzIssbrJOieeS0ufSRZjVVI15D5w1VCTR7WZ0qMo/MxDZRKRuSIxUQr30KhSQ+r9
+ntG3X1OOmEh4/8bBRzvr6e1CeUAIcyUjO0nhpF5GkoWIrq+0lp3XctAgAjvjgLTv
+vxaAiWigXsUu8gXJn+WRbRnrWmYAgOW2JabtLgBkIgHpuiZPg4wM/Gk6/TB126kE
+FWp6h7rJCKei9I+7wVey72djXeCpeOp3EOg/WU4wsLzFVBj9J0wRigvRuo7phBjC
++cIE99TnCCcmXGYeB1DPrGkbsL8XyA==
+=5dp8
 -----END PGP SIGNATURE-----
 
---===============2220721389771762912==--
+--===============2902798428060973089==--
