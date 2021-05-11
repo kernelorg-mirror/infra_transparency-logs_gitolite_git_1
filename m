@@ -1,43 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============3619590107263070959=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Tue, 11 May 2021 16:48:19 -0000
-Message-Id: <162075169913.19235.9151103325150851792@gitolite.kernel.org>
-
---===============3619590107263070959==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 11 May 2021 16:51:38 -0000
+Message-Id: <162075189873.23111.17775450948729831922@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/patatt/patatt
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0000000000000000000000000000000000000000
-    new: fbbf3f2bbabd2f917c9e0c1124cc296fc7bac33d
-
---===============3619590107263070959==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1620751698 -0400
-pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1620751698-e18d8b5da3e6b800ab7c57ec11696994c324ec9a
-
-0000000000000000000000000000000000000000 fbbf3f2bbabd2f917c9e0c1124cc296fc7bac33d refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJq1UgAKCRC2xBzjVmSZ
-bHkEAQDoNulS5WuGKPmT6EpO39/ikX9IIHZ1fUHGSr8M2og9/QEAtnXi92oj3t0O
-YmLZKbCVprKO2LAoUE03hzyEqQsV5AM=
-=NF7+
------END PGP SIGNATURE-----
-
---===============3619590107263070959==--
+  - ref: refs/heads/master
+    old: ed892ff4edfe99e4ca0aca160e7b875ddefb1ec8
+    new: 675410c3b3b1cf4523f02ab6e3128c39bd5d5101
+    log: |
+         1cab02ecf6ee2a0aa34f3615dfd99c59f7e04e90 libkmod: fix an overflow with wrong modules.builtin.modinfo
+         675410c3b3b1cf4523f02ab6e3128c39bd5d5101 libkmod: fix possible double free with wrong modules.builtin.modinfo
+         
