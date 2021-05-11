@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4465775120140273415=="
+Content-Type: multipart/mixed; boundary="===============1036657997733909516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 11 May 2021 00:10:01 -0000
-Message-Id: <162069180111.32240.267321385285769982@gitolite.kernel.org>
+Date: Tue, 11 May 2021 00:10:21 -0000
+Message-Id: <162069182170.1357.2410935684583183267@gitolite.kernel.org>
 
---===============4465775120140273415==
+--===============1036657997733909516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,108 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 9d31d2338950293ec19d9b095fbaa9030899dcb4
-    new: 3913ba732e972d88ebc391323999e780a9295852
-    log: revlist-9d31d2338950-3913ba732e97.txt
+  - ref: refs/heads/dev-queue
+    old: 041c36f78a90ca9bdbef944a93bb637ffa80f55b
+    new: 638b1d43ee5443a91d3b4d839e71757971159100
+    log: revlist-041c36f78a90-638b1d43ee54.txt
 
---===============4465775120140273415==
+--===============1036657997733909516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d31d2338950-3913ba732e97.txt
+Content-Disposition: attachment; filename=revlist-041c36f78a90-638b1d43ee54.txt
 
-7807dafda21a549403d922da98dde0ddfeb70d08 libceph: bump CephXAuthenticate encoding version
-61ca49a9105faefa003b37542cebad8722f8ae22 libceph: don't set global_id until we get an auth ticket
-e1d3f3268b0e512ceb811dd4765e476626bde71c PCI/sysfs: Convert "config" to static attribute
-527139d738d7f2e9f929c752eebf3cbf0f74c754 PCI/sysfs: Convert "rom" to static attribute
-f42c35ea3b137c01b3e073232131674be8efb924 PCI/sysfs: Convert "reset" to static attribute
-fee742b502894c8ed02506fff61d7605934f93cb smb3.1.1: enable negotiating stronger encryption by default
-970e3012c04c96351c413f193a9c909e6d871ce2 ALSA: hda/realtek: Add quirk for Intel Clevo PCx0Dx
-a3ffcebc87480664aef7c8283394d4cf2aec327c ALSA: usb-audio: Remove redundant assignment to len
-0c4b7cadd1ade1916a3a6dab0d13ff5665b04cae Orangef: implement orangefs_readahead.
-b265047ac56bad8c4f3d0c8bf9cb4e828ee0d28e ALSA: hda/realtek: Re-order ALC882 Acer quirk table entries
-b7529c18feecb1af92f9db08c8e7fe446a82d96d ALSA: hda/realtek: Re-order ALC882 Sony quirk table entries
-13e1a4cd490b959a4c72c9f4fb502ef56b190062 ALSA: hda/realtek: Re-order ALC882 Clevo quirk table entries
-45461e3b554c75ddff9703539f3711cc3dfb0422 ALSA: hda/realtek: Re-order ALC269 HP quirk table entries
-433f894ec7fbd3b4bf1f3187b2ddd566078c4aef ALSA: hda/realtek: Re-order ALC269 Acer quirk table entries
-aa143ad39a52d968ac69e426d329bb74f270e6ca ALSA: hda/realtek: Re-order ALC269 Dell quirk table entries
-3cd0ed636dd19e7fbe3ebe8de8476e1718d5a8f1 ALSA: hda/realtek: Re-order ALC269 ASUS quirk table entries
-cab561f8d4bc9b196ae20c960aa5da89fd786ab5 ALSA: hda/realtek: Re-order ALC269 Sony quirk table entries
-f552ff54c2a700616a02b038e4bf3cbf859f65b7 ALSA: hda/realtek: Re-order ALC269 Lenovo quirk table entries
-c656f747df151a0a89756a5312f4ca2116758ba4 ALSA: hda/realtek: Re-order remaining ALC269 quirk table entries
-9edeb1109d05953b2f0e24e5b2341a98c3fa78d5 ALSA: hda/realtek: Re-order ALC662 quirk table entries
-defce244b01ee12534910a4544e11be5eb927d25 ALSA: hda/realtek: Remove redundant entry for ALC861 Haier/Uniwill devices
-2e6a731296be9d356fdccee9fb6ae345dad96438 ALSA: hda/conexant: Re-order CX5066 quirk table entries
-f9cd5f91a897ea0c45d0059ceeb091cee78c6ebe powerpc: Avoid clang uninitialized warning in __get_user_size_allowed
-5256426247837feb8703625bda7fcfc824af04cf powerpc/signal32: Fix erroneous SIGSEGV on RT signal return
-0679d29d3e2351a1c3049c26a63ce1959cad5447 csky: fix syscache.c fallthrough warning
-e58a41c2226847fb1446f3942dc1b55af8acfe02 csky: uaccess.h: Coding convention with asm generic
-ec3576eac11d66a388b6cba6a7cfb3b45039a712 Documentation: firmware-guide: gpio-properties: Add note to SPI CS case
-e483bb9a991bdae29a0caa4b3a6d002c968f94aa ACPI: custom_method: fix potential use-after-free issue
-1cfd8956437f842836e8a066b40d1ec2fc01f13e ACPI: custom_method: fix a possible memory leak
-785e3c0a3a870e72dc530856136ab4c8dd207128 tracing: Map all PIDs to command lines
-2f1137140fbcffad582d9e5eacc7f189ae0cc110 scsi: ufs: core: Fix a typo in ufs-sysfs.c
-9814b55cde0588b6d9bc496cee43f87316cbc6f1 scsi: target: tcmu: Return from tcmu_handle_completions() if cmd_id not found
-000e68faefe6240ea2e4c98b606c594b20974fb7 scsi: qla2xxx: Add marginal path handling support
-fcb16d9a8ecf1e9bfced0fc654ea4e2caa7517f4 scsi: qla2xxx: Prevent PRLI in target mode
-23043dd87b153d02eaf676e752d32429be5e5126 scsi: ufs: core: Do not put UFS power into LPM if link is broken
-637822e63b79ee8a729f7ba2645a26cf5a524ee4 scsi: ufs: core: Cancel rpm_dev_flush_recheck_work during system suspend
-ce4f62f9dd8cf43ac044045ed598a0b80ef33890 scsi: ufs: core: Narrow down fast path in system suspend path
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
-d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
-bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
-0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
-55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
-2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
-8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
-462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
-412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
-6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
-eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
-32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
-444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
-c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
-12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
-9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
-30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
-94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
-c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
-5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
-b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
-ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
-92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
-660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
-91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
-2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
-afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
-f15da0b1fb7bdff4891218f648d374cfffeb24fa perf tests: Skip 'Setup struct perf_event_attr' test for hybrid
-43eb05d066795bdfea58a6a0cea77bbaa1a09b30 perf tests: Support 'Track with sched_switch' test for hybrid
-6081e876edd3f5d23273385730e482eca0afb2c8 perf tests: Support 'Parse and process metrics' test for hybrid
-c102038892f73cf70f8c50e4fafb45d6e5465129 perf tests: Support 'Session topology' test for hybrid
-d9da6f70eb23511007cc6ed0aba02d9f61b3d6cf perf tests: Support 'Convert perf time to TSC' test for hybrid
-a37f3b885610f89c3f2285756eb3f386288c3d41 perf tests: Skip 'perf stat metrics (shadow stat) test' for hybrid
-2750ce1d4df2e70630d76bc53da160ca43a80d22 perf Documentation: Document intel-hybrid support
-56d32d4cac645bac05fa70d935fa5040e3ab6bb3 perf tools: Enable libtraceevent dynamic linking
-e1d380ea8b00db4bb14d1f513000d4b62aa9d3f0 perf tools: Change fields type in perf_record_time_conv
-aa616f5a8a2d22a179d5502ebd85045af66fa656 perf jit: Let convert_timestamp() to be backwards-compatible
-050ffc449008eeeafc187dec337d9cf1518f89bc perf session: Add swap operation for event TIME_CONV
-81e70d7ee4ae13d60800958bca9d3c7675de16c9 perf session: Dump PERF_RECORD_TIME_CONV event
-fbed59f844912f377b83cc25594c692b5f6ebae2 perf build: Regenerate the FEATURE_DUMP file after extra feature checks
-19177bc3da7e52bc7fb7e603556f98f06e074092 tools build: Allow deferring printing the results of feature detection
-c6e3bf437184d41d885ba679eab0ddd43f95db56 perf build: Defer printing detected features to the end of all feature checks
-1aec7c3d05670b92b7339b19999009a93808efb9 xfs: remove obsolete AGF counter debugging
-e6c01077ec2d28fe8b6e0bc79eddea8d788f6ea3 xfs: don't check agf_btreeblks on pre-lazysbcount filesystems
-6543990a168acf366f4b6174d7bd46ba15a8a2a6 xfs: update superblock counters correctly for !lazysbcount
-e147a756ab263f9d10eafd08b79b9fac1b08e56c xfs: count free space btree blocks when scrubbing pre-lazysbcount fses
-2675ad3890db93e58f2264d07c2d1f615ec5adf7 xfs: unconditionally read all AGFs on mounts with perag reservation
 16eaab839a9273ed156ebfccbd40c15d1e72f3d8 xfs: introduce in-core global counter of allocbt blocks
 fd43cf600cf61c66ae0a1021aca2f636115c7fcb xfs: set aside allocation btree blocks from block reservation
 d4f74e162d238ce00a640af5f0611c3f51dad70e xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
@@ -1050,5 +959,96 @@ aca6a8746c36c160517f3216da81196248844d58 net: pch_gbe: Convert to use GPIO descr
 376d68929d5bb5edc57be5fb38daaff3f3375f64 mvpp2: remove unused parameter
 4c598e5e679c31106914b63b5e3877994dfbba19 mvpp2: suppress warning
 3913ba732e972d88ebc391323999e780a9295852 Merge branch 'mvpp2-warnings'
+ef62648964930ad9e8333f1019bcebc9065befe8 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+d146b72f78025cb0fb1806fa9c076b714165776d igc: Add UDP segmentation offload support
+efa0f6b389a0b952680ddef5e2c1c4d7be16dbe4 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+300b2df49f9c5aa9769203eae62add554be8e0bb virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
+c6a1f455796ae2302b8fffee550180fe2f45e153 ice: Manage VF's MAC address for both legacy and new cases
+0dcb07033bfe277035d2fd749f41dfb4bd038473 ice: Save VF's MAC across reboot
+578065706756d845bcc58298c39b6d3c909804e6 ice: Refactor ice_setup_rx_ctx
+8c3a5a3a48fa59a8e4879fa019b1fab7446a65f9 i40e: add support for PTP external synchronization clock
+733cf40f0b4b5225f3bdc26a326121919ef09edb iavf: Fix asynchronous tasks during driver remove
+c08ae208121638bd627a79dab457404a83eacb33 i40e: Fix correct max_pkt_size on VF RX queue
+0859a7faa77be03903a14b0191157940b60a11c9 iavf: Fix return of set the new channel count
+642a8a650456f8e44101746cd9d8b43c87eeaaf5 i40e: Fix NULL ptr dereference on VSI filter sync
+3fe7310a4fa7ded4df793328320cac91c3e97d41 ice: report hash type such as L2/L3/L4
+cd71385bfa8f647abe7fdf0454bfca00ca4fa559 ice: Fix allowing VF to request more/less queues via virtchnl
+fdb90f2714fb8eb7438fbbae013f8fa00a6081a7 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+585f6d8e2af78c5786d9c0c440cd537f9fd1e1c6 ice: Fix VF true promiscuous mode
+e410e1202ae6f540a548d9382085aafc9e352b46 ice: handle the VF VSI rebuild failure
+10e8067e8306a20a6e78e6d6155582dcf0b129a1 i40e: clean up packet type lookup table
+5080877eed172fb593ce7ccea4a7d52e06f9157f iavf: clean up packet type lookup table
+6348cd5ca40276174d8002208dff8d5903ac4fad igc: Move igc_xdp_is_enabled()
+9aa9c34053e85d098406e171e833789d603fcf3a igc: Refactor __igc_xdp_run_prog()
+2c156ebf731a61565cadb286ad3a6abfabe76841 igc: Refactor igc_clean_rx_ring()
+1f8de20f760925a45244bb394c554d075fc339c0 igc: Refactor XDP rxq info registration
+e6fbd3f8dcc3a87ab3b256dca350472b0ad4601d igc: Introduce TX/RX stats helpers
+f793d00da913fdef52c4bbc95c887d8a0722ad02 igc: Introduce igc_unmap_tx_buffer() helper
+051576316db6c273c2454d1b2fef751a9177d627 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
+2e63140497f94f272c85b4a6719601c8841cda44 igc: Enable RX via AF_XDP zero-copy
+4153c4329bf85d1221e1e0cd1b863721c929b7c0 igc: Enable TX via AF_XDP zero-copy
+9b056df63776dcdf9c56af0b6570c69190da18e9 igb: unbreak I2C bit-banging on i350
+ca9f23e74e35618b3a90efcb48d7986dff024ed2 i40e: Fix error handling in i40e_vsi_open
+4bf760d5f4692542519daad667c2047cb5e61478 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+14b6de747621c5bc6d39b2309c2cf63139da410d ice: Refactor promiscuous functions
+26f67dcea7da17b80c17af75b23b85f2b097e720 ice: Refactor VIRTCHNL_OP_CONFIG_VSI_QUEUES handling
+fe8573cfbaf69ddcf67f31b65dc7dd79a39c89ab i40e: improve locking of mac_filter_hash
+61860f88e88989dfd7d866e6cab91612c53c63e6 e1000e: Add support for Lunar Lake
+a8d904b7f518e48919a3ede49fff6c806b23e67b i40e: Fix autoneg disabling for non-10GBaseT links
+88c7e56ed4cb4e04205a317e8fc1b787e6ef8b9f e100: handle eeprom as little endian
+de54377bdcc94c882e1202e1775845baa2256a71 intel: remove checker warning
+92e8c4fcc92f349be4cfbe796e8054b52d0533e8 fm10k: move error check
+32d5ae6a1e982b9d5122dba9f8df821acb124a56 igb/igc: use strongly typed pointer
+584a7505c400188448d5354e34de68637c5443c0 igb: handle vlan types with checker enabled
+42053329c193bb7abd3b0902e1f36405c3e75681 igb: fix assignment on big endian machines
+4507dfcaf98639107e8ce37a4dbe5c03e8bee133 igb: override two checker warnings
+14a12265f0f4e69d70b30c91a13b2cfa80ad2510 intel: call csum functions with well formatted arguments
+52e55945cadc9ecf8a416d9044c6efaec1eafe93 igbvf: convert to strongly typed descriptors
+4c2f9875dbff2f755210e1361f949f1b56d4a081 ixgbe: use checker safe conversions
+80f07be272436739464923c129a9b3d94e9ffc42 ixgbe: reduce checker warnings
+b63458b4776caa794821135c3e43fecc475230e0 iavf: do not override the adapter state in the watchdog task
+71e04c4ddaf234af6ffab7fa8241170ef1d55278 ice: fix clang warning regarding deadcode.DeadStores
+ad38e36db431f797006b80da0a9d43b402836fd2 igc: Update driver to use ethtool_sprintf
+f76282ceb85ceae4084086b599e0a6c618398fdf ixgbe: Fix out-bounds warning in ixgbe_host_interface_command()
+239fb8e96c61ab237cb1ff855da304a083db07dd igc: Remove unused asymmetric pause bit from igc defines
+c85226321344c5439b072a0ea3ab05eebc050cf5 igb: Check if num of q_vectors is smaller than max before array access
+58b7b173de89fa7e3a0f09afacf55e61fc356ba3 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+0b1ef547232d466631763db1ac6b9b9be8075af3 ice: Enable configuration of number of qps per VF via devlink
+7dc0d718f135c7dc7e83f402f108bac186020b17 ice: track AF_XDP ZC enabled queues in bitmap
+8ddf46cf496057f8327904a23b70f5b6fa45c93f i40e: Fix warning message and call stack during rmmod i40e driver
+cfb89649275c5344654ab3192902e7604b6a7a1a i40e: Fix logic of disabling queues
+63995e39c19db98fd7ee967dda89b352615e2bb8 i40e: Fix changing previously set num_queue_pairs for PFs
+40fae0ec1c7f82da4edf7f392b657ea76dcc149e i40e: Fix ping is lost after configuring ADq on VF
+3dace52b5f9017558183e9b74a5e43d17b305d25 igb: Add counter to i21x doublecheck
+f2a4c289267696944e9860c5f653501f852582bf igb: Fix XDP with PTP enabled
+a40e223699afebac03514e7f6deac0307d4c64d8 ice: set the value of global config lock timeout longer
+e8933e63be9ae4c444584ef2dbebc62399c62dd2 igc: Remove unused MDICNFG register
+38c07ead8b792f84e9896d14030172ffb3da9226 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+6ae87c97381a679670b3344bf21ce46a2cf401a0 ice: report supported and advertised autoneg using PHY capabilities
+e43bfb4541a4d5999df565c64e6eb4b8827f428b ice: Allow all LLDP packets from PF to Tx
+931daf6f3e4878e55b85bd6b50dae6a7ef0ce1cf ice: fix FDIR init missing when reset VF
+bfcd0f9dd02899ac2e92ca15351e6225558dfad2 igb: fix netpoll exit with traffic
+9a3c06da59d5bfff4aa43c49698d3291e1a2bc58 ice: use static inline for dummy functions
+675dc5e93574dd742a323715c646563cb31818c5 ice: add extack when unable to read device caps
+d457b743d52d9310d618aab2deb0814553bc10dd ice: add error message when pldmfw_flash_image fails
+730a5e12e86ce20e155aa63ba49b0fcf9f83ef1f ice: wait for reset before reporting devlink info
+cea898f9ec0d9c545192bfbdd67f3f989f4ee06f ice: (re)initialize NVM fields when rebuilding
+74c0dc3351dc9bd43ff3eb300dce3968b32faad5 ice: Detect and report unsupported module power levels
+61bbdb0de031aab85bfdb8ebd90b06a8b432cd2a ice: Remove boolean vlan_promisc flag from function
+6ca6993722ac4ca9380f70a51d0e381602d6e045 ice: Fix replacing VF hardware MAC to existing MAC filter
+61e0adb42151f7021e9adfcf30cbcfb1b001d816 ice: fix incorrect payload indicator on PTYPE
+28885887741152179de74ec1fccbaefa79923f7c ice: downgrade error print to debug print
+079a06cf469d1c0fc7603f45c4713a806f341341 ice: mark PTYPE 2 as reserved
+282e0e268031a9f242da9bbd82ac60eb5eaa0541 ice: reduce scope of variables
+e8774b40bbaed59cda4ca54d9bef88d551ad7806 ice: remove local variable
+742cf161f0d02b594af59613776b27ee87c3344d i40e: fix PTP on 5Gb links
+37443db937999aff2050e69a333f67c1fd0bd6b5 i40e: add correct exception tracing for XDP
+cd396f00eb9256096c7f4a1c52b5e9d48e44ec5c ice: add correct exception tracing for XDP
+f9964b572bae94535970c87eb114d718822eca45 ixgbe: add correct exception tracing for XDP
+8be61e244abdf9bca51cc76cc8a52e93ec8e577a igb: add correct exception tracing for XDP
+5f8e87d5a4b62e49ce3f8028c474400fb62790f8 ixgbevf: add correct exception tracing for XDP
+a0629103a60516601d9c32ea9467f36806e7e192 igc: add correct exception tracing for XDP
+1b35735a52ac7d81a1dea171d96107a9f261ed1e virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+638b1d43ee5443a91d3b4d839e71757971159100 virtchnl: Use the BIT() macro for capability/offload flags
 
---===============4465775120140273415==--
+--===============1036657997733909516==--
