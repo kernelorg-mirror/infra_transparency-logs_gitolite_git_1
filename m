@@ -1,35 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4435365986631367043=="
+Content-Type: multipart/mixed; boundary="===============0313888691745340525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 11 May 2021 08:08:37 -0000
-Message-Id: <162072051790.31800.7258244532753009459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 11 May 2021 08:08:52 -0000
+Message-Id: <162072053292.31986.16642597865842836111@gitolite.kernel.org>
 
---===============4435365986631367043==
+--===============0313888691745340525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 03f2880ae8a8fa488c77382590968071f68064ce
-    new: a329cd8b5b78d8b2654289e5baaf38c4b6ecd036
-    log: revlist-03f2880ae8a8-a329cd8b5b78.txt
+    old: 78d889705732ba856feee4d7bfa74a12fe48c480
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    log: revlist-78d889705732-6efb943b8616.txt
   - ref: refs/heads/for-next
-    old: 03f2880ae8a8fa488c77382590968071f68064ce
-    new: e4659ad4bd2f90597d760055dda4534cd2ae5827
-    log: revlist-03f2880ae8a8-e4659ad4bd2f.txt
+    old: ccac12acc0c0d66b26ce7834e2dcf54ae159e63a
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    log: revlist-ccac12acc0c0-6efb943b8616.txt
 
---===============4435365986631367043==
+--===============0313888691745340525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03f2880ae8a8-a329cd8b5b78.txt
+Content-Disposition: attachment; filename=revlist-78d889705732-6efb943b8616.txt
 
+d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
 112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
@@ -649,7 +654,6 @@ d0195c7d7af6a456c37f4b4b2df5528f10714482 Merge tag 'f2fs-for-5.13-rc1' of git://
 51f629446cd172e324deb0146741888cac5dedca Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 d665ea6ea86c785760ee4bad4543dab3267ad074 Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 025768a966a3dde8455de46d1f121a51bacb6a77 x86/cpu: Use alternative to generate the TASK_SIZE_MAX constant
-682ae59ca2876f83396ccc5674235da99beed06c ASoC: rt711-sdca: fix the function number of SDCA control for feature unit 0x1E
 98635b29a73f1a49ab6882ae58d56c9cd5ecb902 lib: bitmap: remove the 'extern' keyword from function declarations
 c13656b904b6173aad723d9680a81c60de2f5edc lib: bitmap: order includes alphabetically
 e829c2e4744850bab4d8f8ffebd00df10b4c6c2b lib: bitmap: provide devm_bitmap_alloc() and devm_bitmap_zalloc()
@@ -1050,17 +1054,72 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-d4335d058f8430a0ce2b43dab9531f3a3cf9fe2c ASoC: codecs: lpass-rx-macro: add missing MODULE_DEVICE_TABLE
-14c0c423746fe7232a093a68809a4bc6233eed60 ASoC: codecs: lpass-tx-macro: add missing MODULE_DEVICE_TABLE
-b23584d6ce0212b9ad6cb7be19a7123461ed9e09 ASoC: ak5558: Correct the dai name for ak5552
-a329cd8b5b78d8b2654289e5baaf38c4b6ecd036 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
 
---===============4435365986631367043==
+--===============0313888691745340525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03f2880ae8a8-e4659ad4bd2f.txt
+Content-Disposition: attachment; filename=revlist-ccac12acc0c0-6efb943b8616.txt
 
+d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
+ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
+fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
+112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
+01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
+5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
+55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
+2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
+8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
+462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
+412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
+6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
+eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
+32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
+444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
+c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
+12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
+9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
+30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
+94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
+c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
+5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
+b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
+ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
+92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
+660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
+91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
+2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
+afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
+f15da0b1fb7bdff4891218f648d374cfffeb24fa perf tests: Skip 'Setup struct perf_event_attr' test for hybrid
+43eb05d066795bdfea58a6a0cea77bbaa1a09b30 perf tests: Support 'Track with sched_switch' test for hybrid
+6081e876edd3f5d23273385730e482eca0afb2c8 perf tests: Support 'Parse and process metrics' test for hybrid
+c102038892f73cf70f8c50e4fafb45d6e5465129 perf tests: Support 'Session topology' test for hybrid
+d9da6f70eb23511007cc6ed0aba02d9f61b3d6cf perf tests: Support 'Convert perf time to TSC' test for hybrid
+a37f3b885610f89c3f2285756eb3f386288c3d41 perf tests: Skip 'perf stat metrics (shadow stat) test' for hybrid
+2750ce1d4df2e70630d76bc53da160ca43a80d22 perf Documentation: Document intel-hybrid support
+56d32d4cac645bac05fa70d935fa5040e3ab6bb3 perf tools: Enable libtraceevent dynamic linking
+e1d380ea8b00db4bb14d1f513000d4b62aa9d3f0 perf tools: Change fields type in perf_record_time_conv
+aa616f5a8a2d22a179d5502ebd85045af66fa656 perf jit: Let convert_timestamp() to be backwards-compatible
+050ffc449008eeeafc187dec337d9cf1518f89bc perf session: Add swap operation for event TIME_CONV
+81e70d7ee4ae13d60800958bca9d3c7675de16c9 perf session: Dump PERF_RECORD_TIME_CONV event
+fbed59f844912f377b83cc25594c692b5f6ebae2 perf build: Regenerate the FEATURE_DUMP file after extra feature checks
+19177bc3da7e52bc7fb7e603556f98f06e074092 tools build: Allow deferring printing the results of feature detection
+c6e3bf437184d41d885ba679eab0ddd43f95db56 perf build: Defer printing detected features to the end of all feature checks
+1aec7c3d05670b92b7339b19999009a93808efb9 xfs: remove obsolete AGF counter debugging
+e6c01077ec2d28fe8b6e0bc79eddea8d788f6ea3 xfs: don't check agf_btreeblks on pre-lazysbcount filesystems
+6543990a168acf366f4b6174d7bd46ba15a8a2a6 xfs: update superblock counters correctly for !lazysbcount
+e147a756ab263f9d10eafd08b79b9fac1b08e56c xfs: count free space btree blocks when scrubbing pre-lazysbcount fses
+2675ad3890db93e58f2264d07c2d1f615ec5adf7 xfs: unconditionally read all AGFs on mounts with perag reservation
+16eaab839a9273ed156ebfccbd40c15d1e72f3d8 xfs: introduce in-core global counter of allocbt blocks
+fd43cf600cf61c66ae0a1021aca2f636115c7fcb xfs: set aside allocation btree blocks from block reservation
+d4f74e162d238ce00a640af5f0611c3f51dad70e xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
 07b4523e9e2fe9763e5c62da032d3c444e83d0fd PCI/sysfs: Rename "vpd" attribute accessors
 d93f8399053dcf117ff56a3029ff08c0e36f4b75 PCI/sysfs: Convert "vpd" to static attribute
 1017275d2e43dba68527e0e69f4cc12d2b0f8966 PCI/sysfs: Rename device_has_dsm() to device_has_acpi_name()
@@ -1626,7 +1685,6 @@ d0195c7d7af6a456c37f4b4b2df5528f10714482 Merge tag 'f2fs-for-5.13-rc1' of git://
 51f629446cd172e324deb0146741888cac5dedca Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 d665ea6ea86c785760ee4bad4543dab3267ad074 Merge tag 'for-linus-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 025768a966a3dde8455de46d1f121a51bacb6a77 x86/cpu: Use alternative to generate the TASK_SIZE_MAX constant
-682ae59ca2876f83396ccc5674235da99beed06c ASoC: rt711-sdca: fix the function number of SDCA control for feature unit 0x1E
 98635b29a73f1a49ab6882ae58d56c9cd5ecb902 lib: bitmap: remove the 'extern' keyword from function declarations
 c13656b904b6173aad723d9680a81c60de2f5edc lib: bitmap: order includes alphabetically
 e829c2e4744850bab4d8f8ffebd00df10b4c6c2b lib: bitmap: provide devm_bitmap_alloc() and devm_bitmap_zalloc()
@@ -2027,63 +2085,5 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-d4335d058f8430a0ce2b43dab9531f3a3cf9fe2c ASoC: codecs: lpass-rx-macro: add missing MODULE_DEVICE_TABLE
-14c0c423746fe7232a093a68809a4bc6233eed60 ASoC: codecs: lpass-tx-macro: add missing MODULE_DEVICE_TABLE
-b23584d6ce0212b9ad6cb7be19a7123461ed9e09 ASoC: ak5558: Correct the dai name for ak5552
-3f0d23e849b33cb83cbd1f3ce9b7d23ad3863841 Merge existing fixes from asoc/for-5.13
-880e007f15a31f446b9e1713720c6ae5a539f3f4 ASoC: dt-bindings: sun8i-codec: Increase #sound-dai-cells
-1c5ab2dc752fcd02264e8dca8bde55ca479aa684 ASoC: SOF: Intel: byt: prepare split between Baytrail and Merrifield
-47fad2393b0446229883f95e373067441794e22f ASoC: SOF: Intel: move common ATOM stuff to module
-37897babed2e5ff622d29b61bf27c8567087b516 ASoC: Intel: Boards: tgl_max98373: Add BT offload support
-2a29ff7ae13c9263e88abc22e372ab57fb3ac21c ASoC: Intel: soc-acpi: add entries for i2s machines in ADL match table
-2e4dba57ea56dc04d5c452be37bfb4db7d8229de ASoC: Intel: boards: add support for adl boards in sof-rt5682
-35564e2bf94611c3eb51d35362addb3cb394ad54 ASoC: Intel: sof_sdw: add mutual exclusion between PCH DMIC and RT715
-f6081af6cf2b4fda929638e8cec4cd2f9487dd9e ASoC: Intel: boards: handle hda-dsp-common as a module
-9c5046e4b3e736eec5b9a8f1d59c07bb0ed78a7a ASoC: Intel: boards: create sof-maxim-common module
-19f1eace04412a10268532091d5c316a13aab90a ASoC: Intel: sof_sdw: add support for Bluetooth offload
-3b316e229eb9f1861d14cb788d9b54e9319ff58e ASoC: Intel: boards: remove .nonatomic for BE dailinks
-fd2856929fb47b8921942b17a6dfa2757e76144f ASoC: Intel: sof_rt5682: Enable Bluetooth offload on tgl and adl
-81cd42e5174ba7918edd3d006406ce21ebaa8507 ASoC: Intel: sof_sdw: add SOF_RT715_DAI_ID_FIX for AlderLake
-a21515b5aaff57bf2f4160380aa7eedcd0113c96 ASoC: Intel: maxim-common: support max98357a
-5a7f27a624d9e33262767b328aa7a4baf7846c14 ASoC: Intel: add sof-cs42l42 machine driver
-b70029abfc90e9d4a62f5dd7e85a59c465acc7b3 ASoC: Intel: sof_rt5682: code refactor for max98357a
-b76d1d86a456fa495f8f74c967b5d646f20915c3 ASoC: codecs: mt6359-accdet: remove useless initialization
-d51f6dfb9c9843f82825187baa78f0f4c1ec6ac7 ASoc: codecs: mt6359: remove useless initializations
-16255d4155da9ec8fcafcd7460a334e2e52f934e ASoC: codecs: rt1019: clarify expression
-cccc16dc175eafa2dec98002dde35d19ace0a696 ASoC: fsl: imx-pcm-rpmsg: remove useless initialization
-604e5178444ea1d8053cf073e2c68fbc73a4e142 ASoC: fsl_spdif: add support for enabling raw capture mode
-2fa74b31bb8170f34ec4dfa8455ff07d9ee9a7e6 ASoC: amd: renoir: Remove redundant assignment to pdm_ctrl and pdm_enable and pdm_dma_enable
-85c966dc97d1c46a3079ec4c26714c9f8ec66823 ASoC: mediatek: mt8192: Delete a redundant condition branch
-5f1b95d08de712327e452d082a50fded435ec884 ASoC: q6dsp: q6afe: remove unneeded dead-store initialization
-37c881cd18f428b08cf46c5a9d67cfd2db2c4a32 ASoc: Fix unused define in jz4740-i2s.h
-f758b9ef9a1abeea37086b8da0073c27eebf74aa ASoC: codecs: lpass-rx-macro: Remove unneeded semicolon
-a387040ab401cc114d0b1a7a86431c5ae34b163b ASoC: imx-pcm-rpmsg: Fix warning of incorrect type in assignment
-223875a6fb8e26bbde3de675552d27b62e3ed0de ASoC: fsl_xcvr: Remove unneeded semicolon
-16f2a3cdaacaa7c077e238df45e4d38d6bc0a6c5 ASoC: jz4740-i2s: fix function name
-1d122dd3b168f55e2e29982cff80f1c15f66ef26 ASoC: rt286: Remove redundant assignment to d_len_code
-58f01c7fc81baced84f237554d56847e17b5d730 ASoC: codecs: lpass-wsa-macro: handle unexpected input
-47bcb1c7108363418cd578283333d72e310dfeaa ASoC: rt5682: Disable irq on shutdown
-87b42abae99d3d851aec64cd4d0f7def8113950e ASoC: rt5682: Implement remove callback
-c26a5289e86597e8826ad3093ad71ca0d5d9510a ASoC: cs42l42: Add support for set_jack calls
-ab78322a0dc8e5e472ff66ac7e18c94acc17587f ASoC: cs42l42: Use device_property API instead of of_property
-66df9477bd35dd851e9803e5fdbbf40ee4598af5 ASoC: cs42l42: Add support for ACPI table match entry
-b63ecaea97aac3020be0e5736253e88cefbc950b ASoC: rt1019: Add non_legacy_dai_naming config
-c8b198ed31000a48f507bcea3828374b75418a2f ASoC: cirrus: Add helper function for reading the device ID
-283160f1419ddebc8779c3488e800cd30b31289d ASoC: cs35l32: Minor error paths fixups
-77908dbecdb6be2e875ced738b5c036bb83e8d78 ASoC: cs35l33: Minor error paths fixups
-8cb9b001635cfa0389ec54eb511cb459968ad1d7 ASoC: cs35l34: Minor error paths fixups
-60ba916d87600684a1e127b484e1c407c355caad ASoC: cs35l35: Minor error paths fixups
-1a46b7b82df57b6b6a4e891cdbb2de1cf818a43b ASoC: cs35l35: Correct errata handling
-0a0eb567e1d43cb87e9740c8e417d6fcff061582 ASoC: cs42l42: Minor error paths fixups
-26495252fe0d1ebf548c02cb63b51abae5d5e5a3 ASoC: cs42l73: Minor error paths fixups
-e2bb1077cee4d13dc85d53d76deac73b24d7f845 ASoC: cs43130: Minor error paths fixups
-4fc81bc88ad9d6bac90d169382c6045c47d48648 ASoC: cs53l30: Minor error paths fixups
-93c964af77e75b1d0a2fbc3d445b2bd8f99f8f51 Merge series "ASoC: Intel: machine driver updates for 5.14" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-b748ad38041a9a7ab2ab1cb9f8ad24271d1de9c4 Merge series "ASoC: SOF: Intel: split Baytrail and Merrifield" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-3b8fb1f7702be9dcc50443b5822cb409a31280a3 Merge series "ASoC: cppcheck fixes of the week" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-b8ded8af30a9d9d8a26ac69ab15f11d9694bc773 Merge series "Tidy up device ID reading on legacy Cirrus parts" from Charles Keepax <ckeepax@opensource.cirrus.com>:
-ae062a711aa2485fc4f6fe48cdb7229c849f2568 Merge series "PinePhone BT audio bringup" from Samuel Holland <samuel@sholland.org>:
-a329cd8b5b78d8b2654289e5baaf38c4b6ecd036 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
-e4659ad4bd2f90597d760055dda4534cd2ae5827 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
 
---===============4435365986631367043==--
+--===============0313888691745340525==--
