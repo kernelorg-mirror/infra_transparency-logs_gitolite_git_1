@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1893526466942122307=="
+Content-Type: multipart/mixed; boundary="===============1632667312920654587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 11 May 2021 18:17:14 -0000
-Message-Id: <162075703438.11830.10928286942724265090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 11 May 2021 18:17:21 -0000
+Message-Id: <162075704179.11973.8679933238864031467@gitolite.kernel.org>
 
---===============1893526466942122307==
+--===============1632667312920654587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: b23584d6ce0212b9ad6cb7be19a7123461ed9e09
     new: eaf8df8f390897ca79f23c977d844ad93ffd66b7
     log: |
@@ -29,7 +29,7 @@ changes:
          0fad605fb0bdc00d8ad78696300ff2fbdee6e048 ASoC: cs42l42: Regmap must use_single_read/write
          eaf8df8f390897ca79f23c977d844ad93ffd66b7 Merge series "ASoC: simple-card / audio-graph re-cleanup" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: ae062a711aa2485fc4f6fe48cdb7229c849f2568
     new: 4ac9b48adf4d561d0e33419d548278f205dd70b5
     log: |
@@ -38,29 +38,29 @@ changes:
          4ac9b48adf4d561d0e33419d548278f205dd70b5 ASoC: cs42l52: Minor tidy up of error paths
          
 
---===============1893526466942122307==
+--===============1632667312920654587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1620756994 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1620757031-570be891847555726779fbd10fde48e75b680bc3
+pusher C3F436CA30F5D8EB 1620757002 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1620757038-edcad41641e2a997408aca9977301e668ac9eef0
 
-b23584d6ce0212b9ad6cb7be19a7123461ed9e09 eaf8df8f390897ca79f23c977d844ad93ffd66b7 refs/heads/for-5.13
-ae062a711aa2485fc4f6fe48cdb7229c849f2568 4ac9b48adf4d561d0e33419d548278f205dd70b5 refs/heads/for-5.14
+b23584d6ce0212b9ad6cb7be19a7123461ed9e09 eaf8df8f390897ca79f23c977d844ad93ffd66b7 refs/heads/asoc-5.13
+ae062a711aa2485fc4f6fe48cdb7229c849f2568 4ac9b48adf4d561d0e33419d548278f205dd70b5 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCaygIACgkQJNaLcl1U
-h9AUzAf/bZb4L+KYq+jOtunBU+SGPlqkyCmRw4k8uAfq/oJlgf1dSz1ypfStsHuA
-IDJh1QfQI8gF+a7e1/yzVcUxzr2TiKEsvBfddaKe0bz7oiZLZK+hZXFaDXXk/8k/
-kZxn2WLz4Eg0ZkjvZt2ABbLTkZmBNC+DsOdTfrP4xbrM/6F8rO0XJZOHXmgWNUcK
-6t5K7kFWzNA6asZT2XZWjiU1OeZFKw+XUMHKM//ZrPdNGWgl80iG4G3TOsM54FQg
-aZx2hQIGaBa4Iyr5p842nWZ3fpyszDtYu5GgkMCk+gLb0uBIBwO4qWxtwlEHILau
-RDKy+1KhTlZkK0jjONWW8U9jogwKjw==
-=+HuF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCaygoACgkQJNaLcl1U
+h9A/rwf7B01KSUKDd53xS/HCPr3gbu3Z8DaSMXp70nNlLktdAR86qQOzBOkPf5fJ
+erZFh/DwY5gR8JcBXM5AyfdcEcvkJhU70y18kc1VZu6a6+wwnf62NpzijPbZwNXz
+S1irIP1wZqNpa6FeT+Orwlq6HfAGHmFR+OKQkB0QBbcsKMaDW3qQ7QfJ4FDAmw0b
+iinbGswEFIQTf4sLDWvr2ZoEsKOtdmFspwQ115FfJSL6++sADjdsVSPKBXq7VD7X
+TO9lLAiGbJtEFm9eirN76fxmADC1ZtmA6b6rJNQwmqt7FEW4OsqNkppvqCvl4XUp
+cJGax6pWkwC66OA2K+xmTFt4etkG4w==
+=n3Cr
 -----END PGP SIGNATURE-----
 
---===============1893526466942122307==--
+--===============1632667312920654587==--
