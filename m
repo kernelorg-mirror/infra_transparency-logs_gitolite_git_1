@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2714889368905769978=="
+Content-Type: multipart/mixed; boundary="===============0187606754665968584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Tue, 11 May 2021 23:30:53 -0000
-Message-Id: <162077585315.9980.7305833997053446933@gitolite.kernel.org>
+Date: Tue, 11 May 2021 23:31:56 -0000
+Message-Id: <162077591636.10320.14137833599858267312@gitolite.kernel.org>
 
---===============2714889368905769978==
+--===============0187606754665968584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: 2b5afdb8e966d1b391da6718fc5e0f27e59cc6df
-    new: 758cc3232378af3575265783986b4ba474dbaeac
-    log: revlist-2b5afdb8e966-758cc3232378.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 3e2f198cce0c1792ad71d6d81974b091019b6483
+    new: ce48b3cc8b464bfcb984954d2d49b6051b190c4f
+    log: revlist-3e2f198cce0c-ce48b3cc8b46.txt
 
---===============2714889368905769978==
+--===============0187606754665968584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b5afdb8e966-758cc3232378.txt
+Content-Disposition: attachment; filename=revlist-3e2f198cce0c-ce48b3cc8b46.txt
 
 36a45550a06ef3aed6d2f3cfb51f67b33e99b81a extraversion
 8a66b15ebdc41ce5d85e449c9460f02a2202e718 mm: thp: make the THP mapcount atomic with a seqlock
@@ -52,21 +52,6 @@ c19578541e04e7b88321432ae834c568d98e96d6 mm: thp: page_mapcount_lock: optimize t
 b9de9470a17303467ded0716eda237faba8dea68 mm: thp: optimize total_mapcount() with head_compound_mapcount
 8ec8cf081682ae955d58d0994b2e8c9db96b4d7e mm: thp: cleanup and optimize compound_nr
 3abd007ed20334bc15aca535e04a9db64f9588d1 mm: thp: consolidate policy_nodemask call
-46349018ab86471c8975029d993ce8241efc6a44 mm/hugetlb: Fix F_SEAL_FUTURE_WRITE
-74f1eaae564aa83e96aa9fb894bf17a0c212e0b1 mm/hugetlb: Fix cow where page writtable in child
-ccff9ce2e59dfbd6ecb1a0d530e9d7a60f1d4bd9 x86: restore the write back cache of reserved RAM in iounmap()
-d2a3b1f41a0a4320687c33c9fd63560b0396168e x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-77a910f61b06a42f4482064c04fbfe6709c098f0 x86: deduplicate the spectre_v2_user documentation
-8d517eb73260f5cc810cae22098192b3a6ae136c x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-8667ba010de3d2c38c7592f8db9a8305f14f8df9 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-f1015f403bec7578132717c506625a96f3804bb5 sched/fair: skip select_idle_sibling() in presence of sync wakeups
-9c328e78edbfbc87fbadbd36494aabc2fc33440b userfaultfd: UFFDIO_REMAP: rmap preparation
-7695e58b5b27cc93c3d794c216f9957cc1b52329 userfaultfd: UFFDIO_REMAP uABI
-0205505db7b08ce8c39993dd9f24522b44593939 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-852f09a723031e8e966a2141c37823e21097ffe3 arm64: select CPUMASK_OFFSTACK if NUMA
-ef10019bf3f0f9bc6472b7988db4983102f0b8b1 arm64: tlb: skip tlbi broadcast
-4b8597fbf879853ea3e45c1f131c0e5fbcc14559 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-4fff60c6b895eed20e2d0867ffe8302d9b2380f3 x86: atomic_set needs WRITE_ONCE
-758cc3232378af3575265783986b4ba474dbaeac Merge remote-tracking branch 'gitlab/main' into main
+ce48b3cc8b464bfcb984954d2d49b6051b190c4f Merge remote-tracking branch 'gitlab/mapcount_deshare' into mapcount_deshare
 
---===============2714889368905769978==--
+--===============0187606754665968584==--
