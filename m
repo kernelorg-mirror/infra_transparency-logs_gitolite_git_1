@@ -1,49 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1848486883867008978=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 11 May 2021 13:33:47 -0000
-Message-Id: <162074002789.28715.17068931080126451770@gitolite.kernel.org>
-
---===============1848486883867008978==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 11 May 2021 13:37:14 -0000
+Message-Id: <162074023459.31023.17298817075341267747@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/topic/renesas-debug
-    old: 19a13e050f789ac7d98a4b3320a376f5052e84a0
-    new: b5d8f92f5bfb8ba78d270647aabf82e3311a5e70
-    log: revlist-19a13e050f78-b5d8f92f5bfb.txt
-
---===============1848486883867008978==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19a13e050f78-b5d8f92f5bfb.txt
-
-09d082bf55dc502fa8863d6495626a1ba2842197 [DEBUG] soc: renesas: Core MSTP debug handling
-7730213c126ec25d6e093a2272255c6aec0e03dd [DEBUG] soc: renesas: r8a73a4: MSTP debug handling
-950616915d28ac7f96e8de1dd67a6df478f45f2f [DEBUG] soc: renesas: r8a7740: MSTP debug handling
-0f79f93e2e7c82fb9965938b8811c380af09ab28 [DEBUG] soc: renesas: r8a7790: MSTP debug handling
-5c8efcad8f95246bea0eee85f844af6d163cbae2 [DEBUG] soc: renesas: r8a7791: MSTP debug handling
-7f0aeb9ff54e64b14fa7f9e097daf1e8278ec732 [DEBUG] soc: renesas: r8a7793: MSTP debug handling
-890dfa40035fda054c8bc8505a37fbef3bcd020c [DEBUG] soc: renesas: r8a7795: MSTP debug handling
-b540703e34ae049e12421303e38d832288affb40 [DEBUG] soc: renesas: r8a77960: MSTP debug handling
-46f660e49897b9dd69728905bc8aeb014c5d1a6f [DEBUG] soc: renesas: r8a77961: MSTP debug handling
-a473f93f4f7a88dedfbf30278c1374cc448073f1 [DEBUG] soc: renesas: r8a77965: MSTP debug handling
-0209e4c70a43d00bbfa3c8bef1ce3374f7629d46 [DEBUG] soc: renesas: r8a77990: MSTP debug handling
-bb5a155ce8c8ffb7676c7aef752e97abc713087d [DEBUG] soc: renesas: r8a77995: MSTP debug handling
-d8b7129c550a1e9e7d6286ca52716f3b6066a5ca [DEBUG] soc: renesas: sh73a0: MSTP debug handling
-2b24032d420cb3cc12075040bea3b94ea100e9e1 [DEBUG] soc: renesas: r8a7742/3/4: MSTP debug handling
-4c14e5ae17838b6908d87be9a0163b052063e3f9 [DEBUG] ARM: shmobile: r8a73a4: Disable MSTP clocks during boot
-16d8a0fbfc2887fecf1fac21e6a3208fecd85fb4 [DEBUG] ARM: shmobile: r8a7740: Disable MSTP clocks during boot
-1bbff1ab7cb19060b84d53c079c6dfd942f82c85 [DEBUG] ARM: shmobile: rcar-gen2: Disable MSTP clocks during boot
-8250a1361ff2d9101545f9d15cb0f1e3904d095e [DEBUG] ARM: shmobile: sh73a0: Disable MSTP clocks during boot
-b5d8f92f5bfb8ba78d270647aabf82e3311a5e70 [DEBUG] ARM: dts: sh73a0: Add minimal device node for Coresight-ETM
-
---===============1848486883867008978==--
+  - ref: refs/heads/for-next
+    old: 507fa7fe09119ee84ce701b13fe45c7df4361de5
+    new: 768ccafb15c7576064e2e0bedc833a71532e193a
+    log: |
+         ee6038dcadb24787a9edbecac234cc80204b2c09 btrfs: handle transaction start error in btrfs_fileattr_set
+         647e854741336af9d07354d979bb75c22a550cff btrfs: make btrfs_verify_data_csum() to return a bitmap
+         82d94e8ad0180e73b98cde0755018c8743fb4e74 btrfs: submit read time repair only for each corrupted sector
+         5dcdd534ea24a9cf66d9aaf29d0f4add8f01d137 btrfs: remove io_failure_record::in_validation
+         dec26fe376bf24b70c4fa0f4f477b0fded02176d Merge branch 'misc-5.13' into for-next-current-v5.12-20210511
+         a819f72e12d072565e532596a5d89ba54e3a6ce2 Merge branch 'misc-next' into for-next-next-v5.13-20210511
+         2c824ebbe2519663866c18c1c99037e215ef3bc5 Merge branch 'ext/qu/repair-by-sector-v4' into for-next-next-v5.13-20210511
+         9918abc2d707d1b613aa11dcf89b09bd3af250c7 Merge branch 'for-next-current-v5.12-20210511' into for-next-20210511
+         1c708e002cb5f0478a4ba0df67819dae7af74919 Merge branch 'for-next-next-v5.13-20210511' into for-next-20210511
+         768ccafb15c7576064e2e0bedc833a71532e193a Merge branch 'fixes-for-master' into for-next-20210511
+         
