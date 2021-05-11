@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2423416656801800593=="
+Content-Type: multipart/mixed; boundary="===============3772576905166692844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 11 May 2021 01:36:02 -0000
-Message-Id: <162069696293.26236.3627306122701073665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
+Date: Tue, 11 May 2021 01:39:02 -0000
+Message-Id: <162069714244.27107.17015602674538760268@gitolite.kernel.org>
 
---===============2423416656801800593==
+--===============3772576905166692844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/sboyd/spmi
+user: sboyd
 changes:
   - ref: refs/heads/master
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    old: f9893351acaecf0a414baf9942b48d5bb5c688c6
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-fe07bfda2fb9-6efb943b8616.txt
+    log: revlist-f9893351acae-6efb943b8616.txt
 
---===============2423416656801800593==
+--===============3772576905166692844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-f9893351acae-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============2423416656801800593==--
+--===============3772576905166692844==--
