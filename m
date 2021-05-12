@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8350713895154434901=="
+Content-Type: multipart/mixed; boundary="===============0119793857520545702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 12 May 2021 22:00:00 -0000
-Message-Id: <162085680085.684.8717971416080104512@gitolite.kernel.org>
+Date: Wed, 12 May 2021 22:00:09 -0000
+Message-Id: <162085680993.2340.5792883968764320549@gitolite.kernel.org>
 
---===============8350713895154434901==
+--===============0119793857520545702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 297c4de6f780b63b6d2af75a730720483bf1904a
-    new: 832ce924b1a14e139e184a6da9f5a69a5e47b256
-    log: revlist-297c4de6f780-832ce924b1a1.txt
+  - ref: refs/heads/dev-queue
+    old: 9f568aa35a82ad697207fdf8872f5b00f86a77f7
+    new: 69c04c2d36d6500dfa1f7033905e344323b06e8c
+    log: revlist-9f568aa35a82-69c04c2d36d6.txt
 
---===============8350713895154434901==
+--===============0119793857520545702==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-297c4de6f780-832ce924b1a1.txt
+Content-Disposition: attachment; filename=revlist-9f568aa35a82-69c04c2d36d6.txt
 
 9683e5775c75097c46bd24e65411b16ac6c6cbb3 libbpf: Add NULL check to add_dummy_ksym_var
 3b80d106e110d39d3f678954d3b55078669cf07e samples/bpf: Consider frame size in tx_only of xdpsock sample
@@ -77,5 +77,39 @@ ca14f9597f4fdb3679453aec7bb2807f0b8b7363 MAINTAINERS: nfc: drop Clément Perroch
 8aa5713d8b2ce1ea67bdf212eb61bfcff3c52202 MAINTAINERS: nfc: add Krzysztof Kozlowski as maintainer
 4a64541f2cebef54ea8d9f53ac5067328b8e02d8 MAINTAINERS: nfc: include linux-nfc mailing list
 832ce924b1a14e139e184a6da9f5a69a5e47b256 chelsio/chtls: unlock on error in chtls_pt_recvmsg()
+6f634d33f9e372b149a18943da1dc2b48c85a9c2 checkpatch: Fix warnings when --no-tree is used
+3c14c2654d234e0b0bf5ad1de50ea1db2e1bd875 checkpatch.pl: seed camelcase from the provided kernel tree root
+1427babe597e3860db794166dd7d4ddaba645eb1 ice: Fix a couple off by one bugs
+aa383c60660834fdbc11fe27bff40ab02ec168cb iavf: Fix asynchronous tasks during driver remove
+a25d9f90ece777dd8292b14bff78d88a0bbc8a17 i40e: Fix correct max_pkt_size on VF RX queue
+6f7245ac98118c9b2d97a25f080fd6feb459c7e5 iavf: Fix return of set the new channel count
+b38db1661e01e07f1dd8d216d80992e21b96aefa i40e: Fix NULL ptr dereference on VSI filter sync
+8b6e37056029b0c6cc01aa250ed876f0f9776493 ice: Fix allowing VF to request more/less queues via virtchnl
+07d87ea166961ac63f25ff97298f3f40643c0f09 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+7a7e315bbd4091ad4b713de7a9b494a424e9a072 ice: Fix VF true promiscuous mode
+42345cfcacc5672d0341a3ec7f961fb8dc997e05 ice: handle the VF VSI rebuild failure
+f30ea31de179228118c7c0205ef756e611104d4d i40e: Fix error handling in i40e_vsi_open
+cf3720ac94418fa10e0989d4450333b19c89bb1f i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+dd01280117caafcd4805097539b18b1d3f13c9b8 i40e: improve locking of mac_filter_hash
+481d80e339a2d6952fa26816170ab61b68682a55 i40e: Fix autoneg disabling for non-10GBaseT links
+a31a61f6b901e911962a9b824e19f26f2153d6e3 igb: Check if num of q_vectors is smaller than max before array access
+0792bbc8879d4cf2a9a747884a9fb98ffbc77cf8 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+58e142fa05df087f038b1abb12c2a6bc21e82869 ice: track AF_XDP ZC enabled queues in bitmap
+a6721d563eed9fb6d5d23e2e0e53099cfa559c89 i40e: Fix warning message and call stack during rmmod i40e driver
+12c0c439c66e8060308056b4355735c35c913507 i40e: Fix logic of disabling queues
+2a101aaeca61b071b3ac355160d3b67a53eda40c igb: Fix XDP with PTP enabled
+2138d7277dd5521f1cb14761187fa98135addc60 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+a91662146c295facd55d2f050c019f14897e085e ice: report supported and advertised autoneg using PHY capabilities
+6befb83caa3395106c75e6b40c7d3fc0173bec57 ice: Allow all LLDP packets from PF to Tx
+db29628b9e6ea358771844bce3b2bbbc7a130dd8 ice: fix FDIR init missing when reset VF
+09a1c6a7bd9d0fef2c166b940d4d769c18f81597 igb: fix netpoll exit with traffic
+46aebf9fea39707ea8e34b0ad821c9363da3403b i40e: fix PTP on 5Gb links
+5421fcbbdf6695c52e12f615b25acdaa7000782f i40e: add correct exception tracing for XDP
+6883e3187507f811a45b7b17302ffac6186785ea ice: add correct exception tracing for XDP
+95532eea9e9f5e93ff5a9dbaef9caf716ab23c35 ixgbe: add correct exception tracing for XDP
+a307680599f89c86ee84f5fd538fdcf6f0223958 igb: add correct exception tracing for XDP
+07f0e23d0296cfad0f8fbef5382b40db9d405a1a ixgbevf: add correct exception tracing for XDP
+ac74db373eaf60a7030cb9690dec8a0a9a917c15 igc: add correct exception tracing for XDP
+69c04c2d36d6500dfa1f7033905e344323b06e8c ixgbe: fix large MTU request from VF
 
---===============8350713895154434901==--
+--===============0119793857520545702==--
