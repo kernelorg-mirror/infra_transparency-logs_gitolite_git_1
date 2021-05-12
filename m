@@ -1,59 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7048555956505713409=="
+Content-Type: multipart/mixed; boundary="===============8727211177666982628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 May 2021 10:21:54 -0000
-Message-Id: <162081491435.12489.3372999577894195444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 12 May 2021 10:25:07 -0000
+Message-Id: <162081510705.14797.14946811861447350740@gitolite.kernel.org>
 
---===============7048555956505713409==
+--===============8727211177666982628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/core
-    old: 2b8ca1a907d5fffc85fb648bbace28ddf3420825
-    new: 9f26990074931bbf797373e53104216059b300b1
-    log: revlist-2b8ca1a907d5-9f2699007493.txt
+  - ref: refs/heads/master
+    old: 30c6653a7e2400e62462af4e1c195dff99170ba0
+    new: 5196c1513e2be3562c187d85985fd3800e109c0f
+    log: |
+         20c477a4b8f216aff6fdaff4f9358c8975293399 4.4-stable patches
+         fea42e4bda54a7584ff0fd69b13ec6ae15fce8de 4.9-stable patches
+         4392fa11c811bdb5f2ba9d34db6653aea79f94c3 4.14-stable patches
+         c70f14ecf9fe708493270b00a33716f756310bd5 4.19-stable patches
+         269658866a618698d0ca4517df164476366c155d 5.4-stable patches
+         0a43db0720c55c03ab4395099c91984513448bf2 5.10-stable patches
+         8985a7831934bb83b9e24ae4fd8e26c2759b5470 5.11-stable patches
+         5196c1513e2be3562c187d85985fd3800e109c0f 5.12-stable patches
+         
 
---===============7048555956505713409==
+--===============8727211177666982628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b8ca1a907d5-9f2699007493.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e5e678e4fea26d73444f4427cbbaeab4fa79ecee sched,fair: Skip newidle_balance if a wakeup is pending
-8d4c97c105ca0735b0d972d1025cb150a7008451 sched/fair: Only compute base_energy_pd if necessary
-619e090c8e409e09bd3e8edcd5a73d83f689890c sched/fair: Fix negative energy delta in find_energy_efficient_cpu()
-4b7a08a0b6e4e910a6feee438d76e426381df0cb delayacct: Use sched_clock()
-4e29fb709885eda5f0d1fa3418e6ead01a64e46d sched: Rename sched_info_{queued,dequeued}
-c5895d3f06cbb80ccb311f1dcb37074651030cb6 sched: Simplify sched_info_on()
-63b3f96e1a989846a5a521d4fbef4bc86406929d kvm: Select SCHED_INFO instead of TASK_DELAY_ACCT
-eee4d9fee2544389e5ce5697ed92db67c86d7a9f delayacct: Add static_branch in scheduler hooks
-e4042ad492357fa995921376462b04a025dd53b6 delayacct: Default disabled
-0cd7c741f01de13dc1eecf22557593b3514639bb delayacct: Add sysctl to enable at runtime
-9099a14708ce1dfecb6002605594a0daa319b555 sched/fair: Add a few assertions
-39d371b7c0c299d489041884d005aacc4bba8c15 sched: Provide raw_spin_rq_*lock*() helpers
-5cb9eaa3d274f75539077a28cf01e3563195fa53 sched: Wrap rq::lock access
-d66f1b06b5b438cd20ba3664b8eef1f9c79e84bf sched: Prepare for Core-wide rq->lock
-9edeaea1bc452372718837ed2ba775811baf1ba1 sched: Core-wide rq->lock
-9ef7e7e33bcdb57be1afb28884053c28b5f05240 sched: Optimize rq_lockp() usage
-875feb41fd20f6bd6054c9e79a5bcd9da6d8d2b2 sched: Allow sched_core_put() from atomic context
-21f56ffe4482e501b9e83737612493eeaac21f5a sched: Introduce sched_class::pick_task()
-8a311c740b53324ec584e0e3bb7077d56b123c28 sched: Basic tracking of matching tasks
-539f65125d20aacab54d02d77f10a839f45b09dc sched: Add core wide task selection and scheduling
-8039e96fcc1de30d5bcaf05da9ca2de46a800826 sched/fair: Fix forced idle sibling starvation corner case
-7afbba119f0da09824d723f8081608ea1f74ff57 sched: Fix priority inversion of cookied task with sibling
-c6047c2e3af68dae23ad884249e0d42ff28d2d1b sched/fair: Snapshot the min_vruntime of CPUs on force idle
-d2dfa17bc7de67e99685c4d6557837bf801a102c sched: Trivial forced-newidle balancer
-97886d9dcd86820bdbc1fa73b455982809cbc8c2 sched: Migration changes for core scheduling
-6e33cad0af49336952e5541464bd02f5b5fd433e sched: Trivial core scheduling cookie management
-85dd3f61203c5cfa72b308ff327b5fbf3fc1ce5e sched: Inherit task cookie on fork()
-7ac592aa35a684ff1858fb9ec282886b9e3575ac sched: prctl() core-scheduling interface
-9f26990074931bbf797373e53104216059b300b1 kselftest: Add test for core sched prctl interface
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620815103 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1620815101-cc8aa21916c85eccb6c87942a9f7cdacdf766a3d
 
---===============7048555956505713409==--
+30c6653a7e2400e62462af4e1c195dff99170ba0 5196c1513e2be3562c187d85985fd3800e109c0f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCbrP8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f2UQAJdrgSDibpG6/aiCjF1k
+pZpxfeZHRIxlZaOWUVGVtKJoh7TcuWpeeBZWxPXWQZsmff63WgAdSMwZ3teSDtGF
+qz3NVUrWLwkRIvIIDcArUzVXAnfjLx0dEw3NKp4ZH9gIgyXwgkMd1oW60qgaPIPS
+k/PRh5In+pkpxC+Fb/jMIgKxIc0kb4+gfgJ1ePYbI4OYFjobAL7xIWi8yXdoZQYy
+Eu+WjBM0AT9HiY+3QcZ2mYcyHIbGPISw5NOj6a1LQseItb97bgDg9bMxc9OuP75P
+Y+5a9rqlq3aUFJ3uqyAvn5s3Gqzhzj1UknE9hZR3XjE9k40JQOCRUbmcwPrn+WxK
+B6TOj2Qut+CFQof2DiSPs1ZRT6lHVQxS2bjj7qUhQRkCMscqjVfqbW1Uzq5SSenE
+PHyyoztBNVUFZUGltkk6OhcZILJfMgNmCyJKSpSz4FrHz3tiD7W+glRI+aMfspOS
+2jQR51sdcgvrOpnQryodc/OVJziFx+qgN53MqGqncUzwK16NZbA/Mh42yCIUlz6R
+nT4QmPH0/B/fb0mc/PsDSoH9KDOwL8dE+pFWCoF0vS36xOKN3lzRK9BNaVzia8FA
+P/fU00hcQlsbWkkQBMs6RmvJQeqDu2237/bP09goXfDDWUyHs49B75eYk8yZ+ILf
+jFPsECQnsUqpJszcErDlGWsr
+=G2YU
+-----END PGP SIGNATURE-----
+
+--===============8727211177666982628==--
