@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 12 May 2021 23:26:31 -0000
-Message-Id: <162086199109.21221.4446064504705708977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 12 May 2021 23:33:24 -0000
+Message-Id: <162086240431.24564.6972393154348144857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 8562e78c0b834e77d96c752974af7586939fcc54
-    new: 15870b97c36ab7fa07d4488b0a2457c2f2da6700
-    log: |
-         15870b97c36ab7fa07d4488b0a2457c2f2da6700 dt-bindings: mediatek: add mt8167 to hdmi, hdmi-ddc and cec bindings
-         
+  - ref: refs/heads/ci/iwamatsu/linux-4.19.y-cip
+    old: 0000000000000000000000000000000000000000
+    new: 1296cf66cc5254f1ef6bfe19945e0bc2d81b65a7
