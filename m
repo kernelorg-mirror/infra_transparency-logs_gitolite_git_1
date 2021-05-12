@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5828426377620983669=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 12 May 2021 19:54:13 -0000
-Message-Id: <162084925370.21377.3137940353839671560@gitolite.kernel.org>
-
---===============5828426377620983669==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 12 May 2021 19:57:53 -0000
+Message-Id: <162084947358.24098.11684564259826032795@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: afe86cd0a26f188f7039c2ae996c2d0c777ee93f
-    new: 4477398b0f0f9f46869407af824ef1e6acda58ca
+  - ref: refs/heads/sched/core
+    old: cc00c1988801dc71f63bb7bad019e85046865095
+    new: e6fe3f422be128b7d65de607f6ae67bedc55f0ca
     log: |
-         4477398b0f0f9f46869407af824ef1e6acda58ca Fix DKIM check on headers that don't lowercase h
+         01aee8fd7fb23049e2b52abadbe1f7b5e94a52d2 sched: Make nr_running() return 32-bit value
+         9745516841a55c77163a5d549bce1374d776df54 sched: Make nr_iowait() return 32-bit value
+         8fc2858e572ce761bffcade81a42ac72005e76f9 sched: Make nr_iowait_cpu() return 32-bit value
+         e6fe3f422be128b7d65de607f6ae67bedc55f0ca sched: Make multiple runqueue task counters 32-bit
          
-
---===============5828426377620983669==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1620849253 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1620849253-0abaa262f025b3d99b52c59b5dfeb2078cd73327
-
-afe86cd0a26f188f7039c2ae996c2d0c777ee93f 4477398b0f0f9f46869407af824ef1e6acda58ca refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJwyZQAKCRC2xBzjVmSZ
-bGJ1AQC0mRhOyaFwASUJCOdEIVIfcXd+zaKYJI8UAFN0PYmrPwEAyTulYUCzGehO
-uPY9ixlKAFGkhsi51C684GY5DpLRSgs=
-=slqR
------END PGP SIGNATURE-----
-
---===============5828426377620983669==--
+  - ref: refs/heads/x86/urgent
+    old: 059e5c321a65657877924256ea8ad9c0df257b45
+    new: a554e740b66a83c7560b30e6b50bece37555ced3
+    log: |
+         a554e740b66a83c7560b30e6b50bece37555ced3 x86/boot/compressed: Enable -Wundef
+         
