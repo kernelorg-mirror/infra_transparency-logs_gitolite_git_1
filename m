@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5357445186820452333=="
+Content-Type: multipart/mixed; boundary="===============4447283901543731597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Wed, 12 May 2021 16:43:45 -0000
-Message-Id: <162083782527.31754.14332131714920913213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 12 May 2021 16:51:39 -0000
+Message-Id: <162083829940.5853.13092730307176916636@gitolite.kernel.org>
 
---===============5357445186820452333==
+--===============4447283901543731597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-next
-    old: 068acd3c4e4cb68878c37f541639f0e7c75508a7
-    new: fd450fd2a4fb6cb9ac6c6cd365cee1a0ed45883a
-    log: revlist-068acd3c4e4c-fd450fd2a4fb.txt
+  - ref: refs/heads/misc.af_unix
+    old: f12c6ab28cd65e752c63e41204a10424a3b9949e
+    new: 42cb0736071dcbb6dc2d9578e60e764ba3807443
+    log: revlist-f12c6ab28cd6-42cb0736071d.txt
 
---===============5357445186820452333==
+--===============4447283901543731597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-068acd3c4e4c-fd450fd2a4fb.txt
+Content-Disposition: attachment; filename=revlist-f12c6ab28cd6-42cb0736071d.txt
 
+01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
+5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
+55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
+2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
+8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
+462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
+412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
 6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
 eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
 32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
@@ -1032,23 +1042,13 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-e6f73028db511ec6e093e2b79210ca5b19c7e6c5 arm64: dts: mt8173: Separating mtk-vcodec-enc device node
-763e13f26894e3693ed9a72fbc796ed1e23c1e5b arm64: dts: mediatek: mt8167: add power domains
-97e37d44d35e14a74f989ec13d8587c37f3f0c75 arm64: dts: mediatek: mt8167: add mmsys node
-e7ead62e2a1e574bf14b90dfcd2a74ba314a0c4d arm64: dts: mediatek: mt8167: add smi_common node
-1a191c97abef9b8afcec95a9ede253df184e84bc arm64: dts: mediatek: mt8167: add larb nodes
-d9fb91fdfdda2c30c94f66cd55d39a693505b185 arm64: dts: mediatek: mt8167: add iommu node
-ba96de3ae5a7e2121cac80053b277eb2ab51a0ae soc: mediatek: add missing MODULE_DEVICE_TABLE
-4eab77fc8ae77316417b987ad16e67d2bc739cc5 dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-kappa
-82665ef7dd65ce3b0c2e579df08f17708b728f2e dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-willow
-204c134818498985c1d235a294af5803d5cce1da dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-burnet
-ffea8b5b89f1d2ed14d84289aa48cbaef7f31a52 dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-kenzo
-009add139c2e1942e49cc576ed1655f5313b5fe4 dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-fennel
-f11f44be2427a601595be1c2f8d6e3a77d3a0f98 arm64: dts: mt8183: Add kukui-jacuzzi-kappa board
-f006bcf1c97200a41c1923ae045fbc153bf49ebe arm64: dts: mt8183: Add kukui-jacuzzi-willow board
-dd6e3b06214f39cce1aae7698e69706cc038a0ed arm64: dts: mt8183: Add kukui-jacuzzi-burnet board
-0a9cefe21aec60d58cd1bf68a784c7116d76ef97 arm64: dts: mt8183: Add kukui-jacuzzi-kenzo board
-6cd7fdc8c53007b9ccf37c86b031552fff5aaa1d arm64: dts: mt8183: Add kukui-jacuzzi-fennel board
-fd450fd2a4fb6cb9ac6c6cd365cee1a0ed45883a Merge branch 'v5.13-next/soc' into for-next
+8bfc31abede223a53f0cd7b8f71f3aa04f305746 af_unix: take address assignment/hash insertion into a new helper
+ff0856d6b550c3522b05321c50660663b2c79d44 unix_bind(): allocate addr earlier
+aa0881fc2f6272764a7df40bd08ca9a099511bb6 unix_bind(): separate BSD and abstract cases
+402df907113b96cc13ef85bac6d99049f8f39583 unix_bind(): take BSD and abstract address cases into new helpers
+459be1e400621db7e7c95e55b26cbebc64cf4155 fold unix_mknod() into unix_bind_bsd()
+ab3abf58933d3b1d9614a8a990f55c81042115da unix_bind_bsd(): move done_path_create() call after dealing with ->bindlock
+dceaacb0394ada8f087686cc67bf7000bd510e14 unix_bind_bsd(): unlink if we fail after successful mknod
+42cb0736071dcbb6dc2d9578e60e764ba3807443 __unix_find_socket_byname(): don't pass hash and type separately
 
---===============5357445186820452333==--
+--===============4447283901543731597==--
