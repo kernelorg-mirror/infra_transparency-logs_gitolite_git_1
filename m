@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5651012577016566553=="
+Content-Type: multipart/mixed; boundary="===============6635170572825057882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Wed, 12 May 2021 15:50:35 -0000
-Message-Id: <162083463570.1191.10006505196119914851@gitolite.kernel.org>
+Date: Wed, 12 May 2021 15:51:28 -0000
+Message-Id: <162083468866.1693.10567632563012511245@gitolite.kernel.org>
 
---===============5651012577016566553==
+--===============6635170572825057882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: 38489db09b109c22eedf6cd3846ef742bceb45fe
     new: d74ebb76967f2395128f8cb7e87c31c27758e104
     log: revlist-38489db09b10-d74ebb76967f.txt
 
---===============5651012577016566553==
+--===============6635170572825057882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba2f2c6588a0c8f6219259710d66958ca14c2277 asm-generic: uaccess: 1-byte access is 
 ac93d1da649366118eee843d743d2c3d4d5ad9a2 Merge branch 'asm-generic-pci-iobase' into asm-generic
 d74ebb76967f2395128f8cb7e87c31c27758e104 Merge branch 'asm-generic-unaligned' into asm-generic
 
---===============5651012577016566553==--
+--===============6635170572825057882==--
