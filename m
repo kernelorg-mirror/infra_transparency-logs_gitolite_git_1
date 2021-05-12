@@ -1,31 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6635170572825057882=="
+Content-Type: multipart/mixed; boundary="===============2400256573684880692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Wed, 12 May 2021 15:51:28 -0000
-Message-Id: <162083468866.1693.10567632563012511245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 12 May 2021 15:52:42 -0000
+Message-Id: <162083476206.2145.13078350247871158218@gitolite.kernel.org>
 
---===============6635170572825057882==
+--===============2400256573684880692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 38489db09b109c22eedf6cd3846ef742bceb45fe
-    new: d74ebb76967f2395128f8cb7e87c31c27758e104
-    log: revlist-38489db09b10-d74ebb76967f.txt
+  - ref: refs/heads/work.audit
+    old: 29ba3f2bf118f88739da61e4b18f53bbc62f369f
+    new: 24ed25ef0f37ae007c9c3e7c94976c274fa9be97
+    log: revlist-29ba3f2bf118-24ed25ef0f37.txt
 
---===============6635170572825057882==
+--===============2400256573684880692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38489db09b10-d74ebb76967f.txt
+Content-Disposition: attachment; filename=revlist-29ba3f2bf118-24ed25ef0f37.txt
 
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
+ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
+fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
+112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
+01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
+5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
+55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
+2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
+8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
+462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
+412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
 6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
 eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
 32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
@@ -1032,23 +1048,7 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-a5f7166b58cda2430123eb9bb96d60340e699ae4 sparc: explicitly set PCI_IOBASE to 0
-78924148a3d22e030fe8f5c1a0ce10e177856423 risc-v: Use generic io.h helpers for nommu
-5ae6eadfdaf431f47adbdf1754f3b5a5fd638de2 asm-generic/io.h: warn in inb() and friends with undefined PCI_IOBASE
-637be9183e0475c430fc77162c222bcaab887989 asm-generic: use asm-generic/unaligned.h for most architectures
-bf067edf5d2f5b2948ee7197974a719aae3e526c openrisc: always use unaligned-struct header
-94528b70781a4c63db9e1309d4cdbcaef2387904 sh: remove unaligned access for sh4a
-3aec1db05d1ba631311beca4715655591a9e17d5 m68k: select CONFIG_HAVE_EFFICIENT_UNALIGNED_ACCESS
-f12d3ff3f41cc92f67cfaf29697685e8834fe4a4 powerpc: use linux/unaligned/le_struct.h on LE power7
-0652035a57945e14e611dafae2ec5b46a05bc1d1 asm-generic: unaligned: remove byteshift helpers
-778aaefb8e864fc61f850539ea479554dd4caea1 asm-generic: unaligned always use struct helpers
-61187e51d6f59ebd450ab1fbeff1e76254427999 partitions: msdos: fix one-byte get_unaligned()
-a9f3424587099752b4e4d2ab473d00dab89fba3a apparmor: use get_unaligned() only for multi-byte words
-cefaab9a03d40e367f5cc187698a8d61f1f15375 mwifiex: re-fix for unaligned accesses
-0681a2543f47d737576f05020253e4df5a58b1bb netpoll: avoid put_unaligned() on single character
-ba2f2c6588a0c8f6219259710d66958ca14c2277 asm-generic: uaccess: 1-byte access is always aligned
-3be8a90fd433063539ff7b563a29c34b449f1c34 asm-generic: simplify asm/unaligned.h
-ac93d1da649366118eee843d743d2c3d4d5ad9a2 Merge branch 'asm-generic-pci-iobase' into asm-generic
-d74ebb76967f2395128f8cb7e87c31c27758e104 Merge branch 'asm-generic-unaligned' into asm-generic
+54bed1fe241b89cd7c928ee177ff5ba9788aa1fa selinux: with the previous changes slow_avc_audit becomes non-blocking
+24ed25ef0f37ae007c9c3e7c94976c274fa9be97 kill unused 'flags' argument in avc_has_perm_flags() and avc_audit()
 
---===============6635170572825057882==--
+--===============2400256573684880692==--
