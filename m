@@ -1,61 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5714227197998426650=="
+Content-Type: multipart/mixed; boundary="===============5824141542102536211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 May 2021 16:53:43 -0000
-Message-Id: <162083842351.6846.7790005724571467839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 12 May 2021 16:53:51 -0000
+Message-Id: <162083843123.7008.2396366391491418154@gitolite.kernel.org>
 
---===============5714227197998426650==
+--===============5824141542102536211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.13
-    old: f80505fdff771c89c9350895e99140ffc824e564
-    new: adf1471b2f7636362718cec42cf11599cced9733
+  - ref: refs/heads/for-5.13
+    old: 35f3f8504c3b60a1ae5576e178b27fc0ddd6157d
+    new: cd111796f2c16a41fe4b7e768be4bacfb93e9af9
     log: |
-         3d681804efcb6e5d8089a433402e19179347d7ae regulator: cros-ec: Fix error code in dev_err message
-         f8c8871f5eff3981eeb13421aca2c1cfda4a5204 regulator: fan53555: fix TCS4525 voltage calulation
-         adf1471b2f7636362718cec42cf11599cced9733 Merge series "regulator: fan53555: tcs4525 fix and cleanup" from Peter Geis <pgwipeout@gmail.com>:
-         
-  - ref: refs/heads/regulator-5.14
-    old: d019f38a1af3c6015cde6a47951a3ec43beeed80
-    new: b3cc8ec04f50d9c860534fe4e3617a8d10ed9ea9
-    log: |
-         d4db69eba290732357f03ba0a14350b81f778290 regulator: fan53555: fix TCS4525 voltage calulation
-         f9028dcdf589f4ab528372088623aa4e8d324df2 regulator: fan53555: only bind tcs4525 to correct chip id
-         b3cc8ec04f50d9c860534fe4e3617a8d10ed9ea9 regulator: fan53555: fix tcs4525 function names
+         7907cad7d07e0055789ec0c534452f19dfe1fc80 spi: sprd: Add missing MODULE_DEVICE_TABLE
+         6b69546912a57ff8c31061f98e56383cc0beffd3 spi: Assume GPIO CS active high in ACPI case
+         cd111796f2c16a41fe4b7e768be4bacfb93e9af9 MAINTAINERS: Add Alain Volmat as STM32 SPI maintainer
          
 
---===============5714227197998426650==
+--===============5824141542102536211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1620838384 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1620838420-732322c9f5c225b27f2934aa7669df6a28ad4ff9
+pusher C3F436CA30F5D8EB 1620838391 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1620838428-2601dff1c66484c25cfcf06904ca9783c71f0c77
 
-f80505fdff771c89c9350895e99140ffc824e564 adf1471b2f7636362718cec42cf11599cced9733 refs/heads/regulator-5.13
-d019f38a1af3c6015cde6a47951a3ec43beeed80 b3cc8ec04f50d9c860534fe4e3617a8d10ed9ea9 refs/heads/regulator-5.14
+35f3f8504c3b60a1ae5576e178b27fc0ddd6157d cd111796f2c16a41fe4b7e768be4bacfb93e9af9 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCcB/AACgkQJNaLcl1U
-h9Dejgf9E2rXa/MnFgf3+hiqBYGiQKFSAIUejJbA0AZRNvhJnqTN+mY2hQk8FlNQ
-MWoPzth63vv/dOc3zFxXxGS7XQp6+GJKGP//cKjr1VFZ5NHBqfz6SaTzwXP6lQHM
-A9F5HBD0gL0DvIoCjXlEBkUtdfw7gteydHbcozKpGVLwset7/dC/HwxkokCb6c9s
-Du4VIWXZ7e1oi04UargkBFutXmcDndnTVXZqCg6Q8oyCLO2p4jG/U8n6EcuddwbM
-Gu/eettTuJmUExIcUi4wZ/ciw+pnLSwKBi3Yg29VrQuvy8lmfPFi9ALcn4HpnzkV
-jfBouCpBEDpzCop0IpLRtRsJzzkiYA==
-=1sMn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCcB/gACgkQJNaLcl1U
+h9Bz3gf/dpCYTq3XpnFSrWdEAzzdrqquysl+NYHu7SdgYooBM8kuJiBzkp48gy4o
+eVOZux36ak6d1yRo1V5VVCkpqTXRYJfhyPBblJzPL8+njHFbv5G5xdsomYQ9dJcO
+bUQsBIwbINFI8y4bOnEOHAda0gPrv9x/+a4xOlEDpprmBKC8NKqZslWK+CU2hw9q
+7CyTN2E+2rUoW+QEOfuXr1taIMbL+t1MXyiw0qAk2ahAUUVoX8elhpPd44Te1jHD
+YehTm7PYcQey7uiauTJOT1BbU6PmchbmnCVLRbG0aiyWqZMvJDkATZ0/YoHQSbwK
+7Hd7TTKDZAPMEgP20sUgogPwco28bA==
+=rf1X
 -----END PGP SIGNATURE-----
 
---===============5714227197998426650==--
+--===============5824141542102536211==--
