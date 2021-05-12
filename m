@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Wed, 12 May 2021 13:35:53 -0000
-Message-Id: <162082655379.9497.10077709845127801176@gitolite.kernel.org>
+Date: Wed, 12 May 2021 13:37:13 -0000
+Message-Id: <162082663313.9956.2456102630684749762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zx2c4/cgit
 user: zx2c4
 changes:
-  - ref: refs/heads/ch/default-pages
-    old: a62696787ba67e0ad9a11a4cd248e26efcbc39e5
-    new: efe96cc0e19d69e74e235c431c634040ee08baa6
-    log: |
-         a1039ab17591cc531c877bc693088fd2e45c97ff tests: do not copy snapshots to /tmp/
-         adcc4f822fe11836e5f942fc1ae0f00db4eb8d5f tests: try with commit-graph
-         fe99c76ee477f91d6d983486491603109c7b2599 git: update to v2.29.1
-         b1739247b17524460282f63fa240b3f34501e000 git: update to v2.29.2
-         cef27b670a66c9840bb6120260864e4b3a701dc2 git: update to v2.30.0
-         f69626c68eb64e1a2f6b4ba055409d7205e72757 md2html: use sane_lists extension
-         bd6f5683f6cde4212364354b3139c1d521f40f39 tests: t0107: support older and/or non-GNU tar
-         efe96cc0e19d69e74e235c431c634040ee08baa6 Make default pages configurable
-         
+  - ref: refs/heads/ch/html-fmt
+    old: 0000000000000000000000000000000000000000
+    new: d828a623442e3fc3159e2c188a78e6fd4aca8af4
