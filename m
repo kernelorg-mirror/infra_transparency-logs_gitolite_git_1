@@ -1,37 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 12 May 2021 13:24:30 -0000
-Message-Id: <162082587047.1983.12678222975716085514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Wed, 12 May 2021 13:32:30 -0000
+Message-Id: <162082635012.6900.5908356602881057060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: c40be6cc7a830f95cbea336693bbcabd101df135
-    new: db44e9de22c1be0d9cf8ee95799661c91a0f598f
+  - ref: refs/heads/ch/md2html-hr
+    old: 552df5b60048acf3a6019f6d72bcacbdbbada504
+    new: 4f8971a0940e085694e59d38ba792aba0dc03da4
     log: |
-         db44e9de22c1be0d9cf8ee95799661c91a0f598f Add api exposing external token handlers support.
+         a1039ab17591cc531c877bc693088fd2e45c97ff tests: do not copy snapshots to /tmp/
+         adcc4f822fe11836e5f942fc1ae0f00db4eb8d5f tests: try with commit-graph
+         fe99c76ee477f91d6d983486491603109c7b2599 git: update to v2.29.1
+         b1739247b17524460282f63fa240b3f34501e000 git: update to v2.29.2
+         cef27b670a66c9840bb6120260864e4b3a701dc2 git: update to v2.30.0
+         f69626c68eb64e1a2f6b4ba055409d7205e72757 md2html: use sane_lists extension
+         bd6f5683f6cde4212364354b3139c1d521f40f39 tests: t0107: support older and/or non-GNU tar
+         4f8971a0940e085694e59d38ba792aba0dc03da4 md2html: use proper formatting for hr
          
-  - ref: refs/merge-requests/158/head
-    old: 0000000000000000000000000000000000000000
-    new: 441e9607a9464211782d19191435fa3c791d564a
-  - ref: refs/merge-requests/158/merge
-    old: 0000000000000000000000000000000000000000
-    new: 650f165d8d3881535c7bc07f318b787f0b9d5077
-  - ref: refs/merge-requests/159/head
-    old: 0000000000000000000000000000000000000000
-    new: 94f1842a20002b28e757264dd0944227f4119c3a
-  - ref: refs/merge-requests/159/merge
-    old: 0000000000000000000000000000000000000000
-    new: 30d22dd5b4f4c94c117129ae187c6f082a79bce5
-  - ref: refs/merge-requests/160/head
-    old: 0000000000000000000000000000000000000000
-    new: db44e9de22c1be0d9cf8ee95799661c91a0f598f
-  - ref: refs/merge-requests/160/merge
-    old: 0000000000000000000000000000000000000000
-    new: 303355a96059deb003490c657d91a70424ad3569
