@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5470739823604226553=="
+Content-Type: multipart/mixed; boundary="===============8602414982007684565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 12 May 2021 15:44:35 -0000
-Message-Id: <162083427558.27715.3772972419642996640@gitolite.kernel.org>
+Date: Wed, 12 May 2021 15:44:46 -0000
+Message-Id: <162083428683.27896.4705107193223986612@gitolite.kernel.org>
 
---===============5470739823604226553==
+--===============8602414982007684565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 906717daf10b69ec5f47f375333e942b87265d4b
+  - ref: refs/heads/perf/core
+    old: 855afa71b77d4009be9af242fcb049af72d570e1
     new: 046b243a6afb74d276ca52a81be62aed9a90672b
-    log: revlist-906717daf10b-046b243a6afb.txt
+    log: revlist-855afa71b77d-046b243a6afb.txt
 
---===============5470739823604226553==
+--===============8602414982007684565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-906717daf10b-046b243a6afb.txt
+Content-Disposition: attachment; filename=revlist-855afa71b77d-046b243a6afb.txt
 
 d473327f8f53418691cb2944a45da3e9ea51f9bf thermal/drivers/ti-soc-thermal/bandgap Remove unused variable 'val'
 d99f2487e1de23a2e902d1a359a85a48bfd21fe7 NFS: The 'fattr_valid' field in struct nfs_server should be unsigned int
@@ -1051,4 +1051,4 @@ e3ff42bdebcfeb5f61fcc7a769d642dfc8b923d1 perf intel-pt: Parse VM Time Correlatio
 07b747f99ab47a167cfae5f5588ca22f4e0da7fe perf stat: Use aggregated counts directly
 046b243a6afb74d276ca52a81be62aed9a90672b perf x86 kvm-stat: Support to analyze kvm MSR
 
---===============5470739823604226553==--
+--===============8602414982007684565==--
