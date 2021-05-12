@@ -1,49 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 May 2021 23:00:41 -0000
-Message-Id: <162086044176.5844.12520405750579790644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 12 May 2021 23:07:18 -0000
+Message-Id: <162086083808.9183.6934001559832511258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/auto-latest
-    old: 45a49358cebb33c844168724a678217cd3707f6c
-    new: 24d80f3c603d69eb3c4201d7ba4263042ba9eb27
-    log: |
-         1307fae7ff2989a7fec93e20c8b1f76743238772 Merge branch 'x86/urgent'
-         47ecadf8d57428d21216f3fe24bae8b9d9aad4bd Merge branch 'x86/cleanups'
-         9bc8256f6187f8991dc5763eff597a1a7d027baf Merge branch 'x86/boot'
-         8530cc38a6b6da8a726dcee2bd3cc9252195ff99 Merge branch 'x86/asm'
-         8c8d6d265376a1a2bec07dfef24212a9f867efd2 Merge branch 'timers/urgent'
-         4bc568221ed11755c8e530c2fb0878f4f5650eaa Merge branch 'sched/urgent'
-         60208dac643e24cbc62317de4e486fdcbbf05215 Merge branch 'sched/core'
-         11e71c8d6c4c8a0bf391678d2241c14219bb96b7 Merge branch 'perf/core'
-         bcec3ba54473b82b61a91a2fdc5be62558beca27 Merge branch 'objtool/urgent'
-         6f4a49a00199a7848821754550552fa274e00bdc Merge branch 'objtool/core'
-         3e3a208d507ffb54686d6b4a9a7a33b6fb062f66 Merge branch 'locking/core'
-         40267721022058308d51082d0978bcc7bcd7bcea Merge branch 'irq/urgent'
-         24d80f3c603d69eb3c4201d7ba4263042ba9eb27 Merge branch 'core/urgent'
-         
   - ref: refs/heads/master
-    old: 45a49358cebb33c844168724a678217cd3707f6c
-    new: 24d80f3c603d69eb3c4201d7ba4263042ba9eb27
+    old: e8eb05feea2574507330932bfb69b226df9f18dd
+    new: df04877a6769b31c79caad00a0d84b2b79631179
     log: |
-         1307fae7ff2989a7fec93e20c8b1f76743238772 Merge branch 'x86/urgent'
-         47ecadf8d57428d21216f3fe24bae8b9d9aad4bd Merge branch 'x86/cleanups'
-         9bc8256f6187f8991dc5763eff597a1a7d027baf Merge branch 'x86/boot'
-         8530cc38a6b6da8a726dcee2bd3cc9252195ff99 Merge branch 'x86/asm'
-         8c8d6d265376a1a2bec07dfef24212a9f867efd2 Merge branch 'timers/urgent'
-         4bc568221ed11755c8e530c2fb0878f4f5650eaa Merge branch 'sched/urgent'
-         60208dac643e24cbc62317de4e486fdcbbf05215 Merge branch 'sched/core'
-         11e71c8d6c4c8a0bf391678d2241c14219bb96b7 Merge branch 'perf/core'
-         bcec3ba54473b82b61a91a2fdc5be62558beca27 Merge branch 'objtool/urgent'
-         6f4a49a00199a7848821754550552fa274e00bdc Merge branch 'objtool/core'
-         3e3a208d507ffb54686d6b4a9a7a33b6fb062f66 Merge branch 'locking/core'
-         40267721022058308d51082d0978bcc7bcd7bcea Merge branch 'irq/urgent'
-         24d80f3c603d69eb3c4201d7ba4263042ba9eb27 Merge branch 'core/urgent'
+         f95e3a02e846a7f3753a6d2db0cb9e1860b6d877 station: factor out logic for choosing FT
+         80712face42f31c61092d7ca64e0139bcb954589 station: remove ap_directed_roam check for over-DS
+         ff333a112b2ff37ca5db1a81f319a8643cde2040 ft: break up FT action parsing into two steps
+         9b7d761db5607661ad23f8ce7fae5f09799e1be5 netdev: handle multiple concurrent FT-over-DS action frames
+         78fe1cc0efa6ff63c056947c29d12c5340e5ef43 network: add network_bss_list_get_entries
+         7385e2c90e8dae31a542e420ddff6e7741d73741 station: send FT-over-DS actions upon connection
+         e5fcc93a9e808afb683c56c42e7c8e1d2202785f netdev: remove callback/userdata/timeout from FT-over-DS action
+         8e09c4a6fb1f20a3801a77ff359a0e5dc915512d auto-t: update FT-over-DS test for new behavior
+         9a3639f2facd8716cf72f7ea2f44e2d996437c3d ie: use bitwise compare for IE_AKM_IS_FT
+         7fc0a8fc0f3c1b2d9af1073bda17898d7d29e4c3 station: make station_can_fast_transition more robust
+         df04877a6769b31c79caad00a0d84b2b79631179 station: use IE_AKM_IS_FT when possible
          
