@@ -1,52 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0996836700113399628=="
+Content-Type: multipart/mixed; boundary="===============6723766421934418159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 May 2021 16:53:58 -0000
-Message-Id: <162083843807.7101.12693414595820090252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 12 May 2021 16:54:22 -0000
+Message-Id: <162083846215.7349.17591506005769678954@gitolite.kernel.org>
 
---===============0996836700113399628==
+--===============6723766421934418159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.13
-    old: 35f3f8504c3b60a1ae5576e178b27fc0ddd6157d
-    new: cd111796f2c16a41fe4b7e768be4bacfb93e9af9
+  - ref: refs/heads/for-linus
+    old: caf089077ed7faeecfcdf76018a1e88f6c101590
+    new: f8d7222f9f6a4251d80babae53ecd37b00bf5e79
     log: |
-         7907cad7d07e0055789ec0c534452f19dfe1fc80 spi: sprd: Add missing MODULE_DEVICE_TABLE
-         6b69546912a57ff8c31061f98e56383cc0beffd3 spi: Assume GPIO CS active high in ACPI case
-         cd111796f2c16a41fe4b7e768be4bacfb93e9af9 MAINTAINERS: Add Alain Volmat as STM32 SPI maintainer
+         47c1131633ef6210add63b8b5704497023a3462a ASoC: soc-dai.h: Align the word of comment for SND_SOC_DAIFMT_CBC_CFC
+         e072b2671606c77538d6a4dd5dda80b508cb4816 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+         96f685974609d4c315669ef33d55dbc43996491e ASoC: cs53l30: Add missing regmap use_single config
+         27fb585169024440c1b358da35499fa578d803cd ASoC: cs42l73: Add missing regmap use_single config
+         2a682f821941e28fb9ceaa1dd03ccfaea0448101 ASoC: cs35l34: Add missing regmap use_single config
+         b1078e9869531af4f968ba1b9edad51264943bb8 ASoC: cs35l32: Add missing regmap use_single config
+         0e49a4de4564b3659a34b0b775d43b6b635b17fa ASoC: cs42l52: Minor tidy up of error paths
+         f8d7222f9f6a4251d80babae53ecd37b00bf5e79 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: b8e2e691eea156a321fff5340f2960c2c0c7136d
+    new: d73b92b544585e5265eb6869a65cdac9425de0f6
+    log: revlist-b8e2e691eea1-d73b92b54458.txt
 
---===============0996836700113399628==
+--===============6723766421934418159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b8e2e691eea1-d73b92b54458.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1620838398 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1620838435-3ddcac49d693c86b6675295802d4d47f4e0c30db
+47c1131633ef6210add63b8b5704497023a3462a ASoC: soc-dai.h: Align the word of comment for SND_SOC_DAIFMT_CBC_CFC
+e072b2671606c77538d6a4dd5dda80b508cb4816 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+96f685974609d4c315669ef33d55dbc43996491e ASoC: cs53l30: Add missing regmap use_single config
+27fb585169024440c1b358da35499fa578d803cd ASoC: cs42l73: Add missing regmap use_single config
+2a682f821941e28fb9ceaa1dd03ccfaea0448101 ASoC: cs35l34: Add missing regmap use_single config
+b1078e9869531af4f968ba1b9edad51264943bb8 ASoC: cs35l32: Add missing regmap use_single config
+0e49a4de4564b3659a34b0b775d43b6b635b17fa ASoC: cs42l52: Minor tidy up of error paths
+ad839121dd4cece991b995a4bbe83fdeac45ccd0 ASoC: SOF: Intel: hda: fix index used in inner loop
+48a7e6e5b2c90abf06c7c299f2ba94c7415bb8ea ASoC: Intel: sof_cs42l42: shrink platform id below 20 characters
+24e46fb811e991f56d5694b10ae7ceb8d2b8c846 ASoC: Intel: bxt_da7219_max98357a: shrink platform_id below 20 characters
+130dbe04d42817b62577a48346837122a00e794f ASoC: wm_adsp: mark more data structures with the const qualifier
+7fe0b0981a1764d665877fa5febc5e8e0e64d2ea ASoC: wm2200: remove include of wmfw.h
+9b7493468fa7eeef2e86b8c646c0535c00eed3e2 ASoC: q6dsp: Undo buggy warning fix
+c9f2e3c3ddab87d93cde99f6da10dd00c1d1edb9 ASoC: cs42l42: make HSBIAS_SENSE_EN optional
+98c69fcc9f5902b0c340acdbbfa365464efc52d2 Merge series "ASoC: SOF/Intel: fix and remove Sparse warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+f8d7222f9f6a4251d80babae53ecd37b00bf5e79 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+d73b92b544585e5265eb6869a65cdac9425de0f6 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
 
-35f3f8504c3b60a1ae5576e178b27fc0ddd6157d cd111796f2c16a41fe4b7e768be4bacfb93e9af9 refs/heads/spi-5.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCcB/4ACgkQJNaLcl1U
-h9DWzwf/YQ5aBthHqWtC86ryQMryCggbMK9RligFedvL9ms69xCQfK7gmJS1dRZ8
-Jkikm0SuxSnXuklaP208b3byVW4A26HUvMPzWbK1Ndpi/oBjE460XOpG+blZXW4D
-VHX24YsWP1/REAp2J1zydwvexdQeGDoSr0QjKJujBbADTUbwkfimtt0d4LIyEJpy
-gC+J4ZH74f6aVNVYzRx4vg0TqL+3CWTk5FQrC2ruZT/8KEp8oTEFcrA3BtHOWfcz
-NqtUz4L3aGbYfSlLvgc3V0MS7d9HPhx8djrm273sQYNufgXEOjL/YAHjSIoEkUzB
-vO+PcXYKm7+J+uc3KxeWRlPd5WtPgQ==
-=LCOY
------END PGP SIGNATURE-----
-
---===============0996836700113399628==--
+--===============6723766421934418159==--
