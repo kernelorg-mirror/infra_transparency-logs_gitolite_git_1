@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5582350495813840767=="
+Content-Type: multipart/mixed; boundary="===============9015618887107568032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Thu, 13 May 2021 19:45:34 -0000
-Message-Id: <162093513464.26010.9396470136249865114@gitolite.kernel.org>
+Date: Thu, 13 May 2021 19:45:58 -0000
+Message-Id: <162093515889.26200.891738428629053902@gitolite.kernel.org>
 
---===============5582350495813840767==
+--===============9015618887107568032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v0.3.0
-    old: 0000000000000000000000000000000000000000
-    new: baee48a48115a97ce38e27b03f335d10a541879c
+  - ref: refs/notes/signatures/tar
+    old: fbbf3f2bbabd2f917c9e0c1124cc296fc7bac33d
+    new: 5af8aa51e5cfc5a33f1a83173601ae3960479618
+    log: |
+         5af8aa51e5cfc5a33f1a83173601ae3960479618 Notes added by 'git notes add'
+         
 
---===============5582350495813840767==
+--===============9015618887107568032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1620935134 -0400
+pusher B6C41CE35664996C! 1620935158 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1620935134-4d2ec4518a2714605270662e39a0399c570aa476
+nonce 1620935158-06be72ae463224482ed32517d228e78593a39adf
 
-0000000000000000000000000000000000000000 baee48a48115a97ce38e27b03f335d10a541879c refs/tags/v0.3.0
+fbbf3f2bbabd2f917c9e0c1124cc296fc7bac33d 5af8aa51e5cfc5a33f1a83173601ae3960479618 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ2B3gAKCRC2xBzjVmSZ
-bOfNAP4kTMqQct8tLdnLUtiDR/oVB69HfTQoytSM+TKItRn1SgD/aNJGDTwh9g4E
-aPTUpBDHIupqdmsR35r9rnQIvRGrsAs=
-=5lID
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ2B9gAKCRC2xBzjVmSZ
+bLhDAP9oqiJ2ADnh7E25NmWuIm9usBH8GKk5XIXKA8yBQIA++QEA/VrQliFM13pX
+dL1SOh6Z0m82UDRroPSPXfaO685/nAk=
+=3pSP
 -----END PGP SIGNATURE-----
 
---===============5582350495813840767==--
+--===============9015618887107568032==--
