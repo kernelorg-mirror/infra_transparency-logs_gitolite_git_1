@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1445949582343487483=="
+Content-Type: multipart/mixed; boundary="===============7911439047525614708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 13 May 2021 18:39:22 -0000
-Message-Id: <162093116271.16830.18415670456053458356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 13 May 2021 18:51:12 -0000
+Message-Id: <162093187230.25578.8574926541829270930@gitolite.kernel.org>
 
---===============1445949582343487483==
+--===============7911439047525614708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 1df92640ba7db67c359dc2d53ef43861281f5af6
-    new: 7985723d21a15d4a237efa89e85c938875a3f9c3
+  - ref: refs/heads/char-misc-linus
+    old: ced081a436d21a7d34d4d42acb85058f9cf423f2
+    new: a3626bcf5fafad0ded410b269e21f37bdaf2baf4
     log: |
-         7985723d21a15d4a237efa89e85c938875a3f9c3 vt: Move custom isspace() to its own namespace
+         640d1eaff2c09e382a23bd831094ebbfaa16fef5 dyndbg: avoid calling dyndbg_emit_prefix when it has no work
+         a3626bcf5fafad0ded410b269e21f37bdaf2baf4 dyndbg: drop uninformative vpr_info
          
 
---===============1445949582343487483==
+--===============7911439047525614708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620931156 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1620931155-bd1ec2cb0c71bff81b40d702dd8d4740eb60486d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620931865 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1620931864-8c82d9054a71d027d2c34eae927db422a829edac
 
-1df92640ba7db67c359dc2d53ef43861281f5af6 7985723d21a15d4a237efa89e85c938875a3f9c3 refs/heads/tty-testing
+ced081a436d21a7d34d4d42acb85058f9cf423f2 a3626bcf5fafad0ded410b269e21f37bdaf2baf4 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdclQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ldIQAMlQoOnqIJFV/VH3cEg+
-AWtdgTaM4NJPTp4VzUQiyT3zvXLE5RgGtgFAPkfOoz46y+shkBpQTMARIPFtp0kA
-G7bQCINazmoPt397Kvek8tK977NLFP2500zLfX4SmDeA+AtpdZzEMJMrMzQf/APO
-T0JNIIG/E5VGZyWxhznwp1TsQzvCCj7L7NYF4uBSGlEIv2vvSX7xp9QZhvPj7QE4
-8Il4Ay9Vp6NHC1lourJjlv8vITd0HiDuRQkjJ2jFH6nLWqScadNPP1D56HDV4tCg
-bqSMtcttpf28WwBz1ewe/zgCBQkW2EAZsgUSnx/JQfBifPm1hmIGhirLuU/crUW+
-j2v5A1TZLQ4y+eYi6UXFurR9Kl7hXOSNQpW0fzjBwyHLwjlTFB+A37oUMFJAHRIG
-jbMjJO1yy7wDV3J1oJwzLoB7FmoGt6dwI+rToBaKkXbCFS613rwmRrgeVqcIJaWT
-VOFRKnJ/2LT+Ep5vxX9MG3UYGJ9jsSfaHJrXl1N3XLMmAp/GE5FbsiDQSXPQo1YA
-26WNasSOR5Xtc0sEunrdMl4zlYzokgFw5+zzCIxKqo/zGYU926zssBwOrsP4FKo9
-w5Uwbe5bpg3r8crRzyzxx2xTDMb6V7+ePn1vFZJe88BJm950MaUtFadq+Vx3gsgN
-m31zoq+fpFjWS/n4JvQGUboe
-=fX7J
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCddRkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KE4QAImQPvFtSG0E7vvgoUsQ
+37orWnEPmRQchRi1Bw6hflIvGQlVfBayWE0r7w/CpDF03LJqK2R7hDtgIaWRMVsU
+RKyyFHXtdQ/Z6O2KgwlycnKU4h744R3k+c7AzJgEBmYVsmZMYVxGpT7zrcBCVxCx
+roO+L1+Hwbo0p323beiNtlKo+5NYwMngikDr6PHaKnlvNRtb6SLELysbcGaycvWU
+QOaVOcnIuYv6ZPcyvHHXh9FZOy0VRse9TD9synrLVwhlUpxgqgL9y3gDya2NGy56
+qJwpcLDCtFV8vYL14yGHbNZ6gT6KSG8/ojAlrKNktWPCGzRXh1lfWIdypHsGaHuf
+YqT/Qq0UUdKuzdmY6NUDyLWHac8xmbcnYtzyBUdRdkBRIlKaWpGNzZc+/FNPRAhK
+YxCqRfGnG6zSVGaVKcRpi74dzmiyllC569E4sl80upoqsawRHCTN/+/+yzgNiGAq
+53HgcfEKHS2KTIk27H+XB8IWwTuiXOB229M1cCagx6GsVG3ZJyeOXz2omjASeXW5
+YOQCrNynCS7tFxpHCIa2G2gIa4SfTSK0QkLizU/oo72B03RdEQb9RFXjHF5eFUxO
+VChF3Meg/0pcfcCkMZvJPtFBPmJ4sXFchGoLq6n3wLK5ZjZF9sEYT/PO17Ze6s2/
+6xxqTpyLZFH5fVaF/t5GpJMl
+=50mw
 -----END PGP SIGNATURE-----
 
---===============1445949582343487483==--
+--===============7911439047525614708==--
