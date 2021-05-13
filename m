@@ -1,57 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============0032097438806989187=="
+Content-Type: multipart/mixed; boundary="===============1195613058734216289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 13 May 2021 14:02:50 -0000
-Message-Id: <162091457098.5380.15868178225601288495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 13 May 2021 14:09:58 -0000
+Message-Id: <162091499814.12185.16725760625756421999@gitolite.kernel.org>
 
---===============0032097438806989187==
+--===============1195613058734216289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 9e8d268f831b87891202e8566a0f9acc7adbbc5c
-    new: 216e0e563d81ff9a16627b3d95cbfe5fa88153d7
-    log: |
-         cbbc07e1e892c373f30f4ba08fedecd49afca247 usb: host: move EH SINGLE_STEP_SET_FEATURE implementation to core
-         216e0e563d81ff9a16627b3d95cbfe5fa88153d7 usb: core: hcd: use map_urb_for_dma for single step set feature urb
-         
+  - ref: refs/heads/tty-testing
+    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    new: 8cac2f6eb8548245e6f8fb893fc7f2a714952654
+    log: revlist-6efb943b8616-8cac2f6eb854.txt
 
---===============0032097438806989187==
+--===============1195613058734216289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620914564 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620914563-a9f0ec7dcbf424755d9c05250bef2dfebdb6ad3b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620914992 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1620914991-cf58b2fa801d63944b98c2c5333ffc279d07e92f
 
-9e8d268f831b87891202e8566a0f9acc7adbbc5c 216e0e563d81ff9a16627b3d95cbfe5fa88153d7 refs/heads/usb-testing
+6efb943b8616ec53a5e444193dccf1af9ad627b5 8cac2f6eb8548245e6f8fb893fc7f2a714952654 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdMYQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2NcP/RZc3W5rc9/5IRkVg/ps
-Uq3GMifzxXf0oo1pQSJI1Mk+ffC34HnY4yZnUsVJujF3KkhXugHcD9m05nk2MTrj
-XpsziyniEX1F4kdXqvZjjNo58kIqZJlwkUZf0RpVSe863wBaGwcpphn+XC5sjECI
-rNTtZ8RV4THjrafgOTBH5CAZmomzrbCgh3RFUK4pTVJ22awbYMxORux/VmIPAgZl
-NLhS16nsEYLjIyXKsgAR3x74MzXM9WHYfc5lXhvd4H+PJstMf8D359zPBtt7e3Z9
-abSqYGZef6PJ9d0zqWDCG6lcrVZd/JMxgIvK6cgS8KfVcJ3lIozMF8EWmXnQKEXL
-V60g2HdLLZdnUWp7w9rHonTLe9kLH/jq8yOHvnSSWGzT0X2vH9Hqge6EtVKpJCIP
-ApVGHT11i9XwkQefb6FHp+V0MdWflfjPWo+MyVAjJkxMxQNXQwgQ8AFlJGdNPBRN
-jazpxlepMz0nbOqFWkrx0JhKqk7a14ITDPAHRRel04cRSpIbV8QviOXUt2kFax8G
-fbXmeiqw8y6wEuLDj3F2nsBwe1jRBsB6m3QxoyRIEkVkRtqm60jmBQI+jEbJwy8l
-tovj9VFs6KLifc93ciMf0zig4XgK18jZD0ZCNjcuox4Akb3fei8bBzfYcp6lB343
-WbRSA0VoiC+oqDZqGq3ivOSP
-=S+Zj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdMzAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n04QAMP3FVcJRFKk3fGmNY9n
+Znh8/ZYUPXsnuKuhcrHFNTx0CZCvSDAriQTgE//zm0jSiDY0a8RxiUFqMfnUcBQb
+kvcB67BgPOauLSW8+hLLyjCi5JJ70FnL5I8FNvlGl4KvR65KKXF/C2G4zVYoep1J
+NlEP1LMMh+8FLWB7m67tuxPHua/IKvjGG3TRqiRPk3lwz7mUXwV8VTXAEcFKyDLg
+E9edC+2wtRpXnn2jCZd8a0pDewf+OPr+xF0nsJzxQYJ+XTryNQfhXUf1r6rxQPw1
+uGJeU4fAWgFk43WSSrp0oCQYT90JJdu4nOThAolWVLd9pKQh39hlMAQqBJF8iEGr
+lK4HOukI7poH5my42/PCBmNsNyRfE5otvBY6+qlsbOH6W+VaH+nQ3o23m4XpXs5v
+NPXb66uSbYqnpd5PxKjWFhiWPfI67JZ03V89YUptqin1xqP8/TBUFBb1jOpcT4B2
++EIapn0Tjb/8JhqRAobaXkOAN5DsbZsUwHN+HsszZzvrbHNcpwBgzJe3vVLCfUlO
+DhY6KJa/0Agc6ASaKjA/hQUNyGXpHfOO11TBedoAytP2eSVzXkDW90pxMCV6zDyE
+sxWZf+NWamDjQVbCP5XHLAHcuvcAXVUiTDdmY5OSyHnuxgry4S8P/pUZB2Lgbbnm
+Ubfu9EWTGOl/rFm29m2JwyPa
+=1TS+
 -----END PGP SIGNATURE-----
 
---===============0032097438806989187==--
+--===============1195613058734216289==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6efb943b8616-8cac2f6eb854.txt
+
+52008ebd62adc4f7da2518d638555c765c63388e dt-bindings: serial: snps-dw-apb-uart: add description for rk3568
+fcb10ee27fb91b25b68d7745db9817ecea9f1038 tty: serial: fsl_lpuart: fix the potential risk of division or modulo by zero
+ccf08fd1204bcb5311cc10aea037c71c6e74720a serial: fsl_lpuart: don't modify arbitrary data on lpuart32
+ec22c3eec5439fb012a41d49b015c13ca9b91b6c serial: fsl_lpuart: use UARTDATA_MASK macro
+0d84f62220eda0eb167b01433f5ce8ebf51654a8 serial: fsl_lpuart: don't restore interrupt state in ISR
+5697df7322fe0a95e56393f63ca8e0f256be92f9 serial: fsl_lpuart: split sysrq handling
+5541a9bacfe54fb2038531fb276724fcec6c29c4 serial: fsl_lpuart: handle break and make sysrq work
+e60c2991f18bf221fa9908ff10cb24eaedaa9bae serial: fsl_lpuart: remove RTSCTS handling from get_mctrl()
+fa3540735425cb7f95a8d83e74dfdc84170d139b serial: fsl_lpuart: remove manual RTSCTS control from 8-bit LPUART
+8a0c810d94f02d7aa2074658ee6d0ec0a39f0555 serial: fsl_lpuart: add loopback support
+8cac2f6eb8548245e6f8fb893fc7f2a714952654 serial: fsl_lpuart: disable DMA for console and fix sysrq
+
+--===============1195613058734216289==--
