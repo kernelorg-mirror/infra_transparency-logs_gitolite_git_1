@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 13 May 2021 16:31:40 -0000
-Message-Id: <162092350014.4507.5900129518120225602@gitolite.kernel.org>
+Date: Thu, 13 May 2021 16:32:05 -0000
+Message-Id: <162092352549.4754.9502658265080170146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/heads/dev.2021.05.05a
-    old: 0000000000000000000000000000000000000000
-    new: 6d970979ed9d47aadf6bc0af4c44e3a8e01b9f48
-  - ref: refs/heads/dev.2021.05.10a
-    old: 0000000000000000000000000000000000000000
-    new: d71bf2911cf3ab8079e29b37c866992a1ff981ff
-  - ref: refs/heads/dev.2021.05.10b
-    old: 0000000000000000000000000000000000000000
-    new: 207692eb4e478080e27522e1c4e192b3b3d2b538
-  - ref: refs/heads/dev.2021.05.10c
-    old: 0000000000000000000000000000000000000000
-    new: 4a54d145b2b0bab18df2fbb51f75e16672d3b2b3
-  - ref: refs/heads/dev.2021.05.12a
-    old: 0000000000000000000000000000000000000000
-    new: 16bc4ed68ffdae82bcf2d7d795609bc1e1293a75
+  - ref: refs/heads/clocksource
+    old: 9f5c5a88cedc9051c8f358a16b3c879c79b41393
+    new: 515016ad5f465de921c8788b0651ae3b764b3e67
+    log: |
+         b509a9800648b24ac8ab58c4fdc735b8cbfd5f86 clocksource: Check per-CPU clock synchronization when marked unstable
+         df29d3cd5ad4d400767caa199ec7c0ecbab10fc8 clocksource: Limit number of CPUs checked for clock synchronization
+         6f488f72c0ed46a41b9601aca2d40dd5e6f9e988 clocksource: Reduce clocksource-skew threshold for TSC
+         f4c6b34ee12bbd27280f62d3c8ebd741d01af116 clocksource: Provide kernel module to test clocksource watchdog
+         515016ad5f465de921c8788b0651ae3b764b3e67 clocksource: Print deviation in nanoseconds for unstable case
+         
