@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6896628421056265248=="
+Content-Type: multipart/mixed; boundary="===============5099060577344601939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Thu, 13 May 2021 08:10:15 -0000
-Message-Id: <162089341563.13538.11837977798016743285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
+Date: Thu, 13 May 2021 08:16:47 -0000
+Message-Id: <162089380766.16744.7771173357107198481@gitolite.kernel.org>
 
---===============6896628421056265248==
+--===============5099060577344601939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
 user: kvalo
 changes:
   - ref: refs/heads/master
-    old: 9382531ec63fc123d1d6ff07b0558b6af4ea724b
+    old: e7020bb068d8be50a92f48e36b236a1a1ef9282e
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-9382531ec63f-6efb943b8616.txt
+    log: revlist-e7020bb068d8-6efb943b8616.txt
 
---===============6896628421056265248==
+--===============5099060577344601939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9382531ec63f-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-e7020bb068d8-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============6896628421056265248==--
+--===============5099060577344601939==--
