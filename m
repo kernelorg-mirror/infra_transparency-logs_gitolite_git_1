@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Thu, 13 May 2021 02:46:16 -0000
-Message-Id: <162087397623.14866.10326898495267651978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 13 May 2021 02:57:16 -0000
+Message-Id: <162087463697.22213.12188429350687444826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/libtraceevent
-    old: 50cc51a318be066b938e4b42b451ce5bdf776c76
-    new: 5a7d86534b123e858dd94ade741c93161a7b6130
+  - ref: refs/heads/seen
+    old: 9abda7bf52e974eb39f6f702a9c10aacb1e829f1
+    new: 1e1a590dfad3da59c232412c8e79ec00793cecd1
     log: |
-         558e4ec2da7aa22ac1d7138263a80e79c4f3aa97 libtraceevent: Add log levels
-         b58e9956555c53c87320e62b456cb3d037f1426d libtraceevent: Add logs with severity info
-         f068d19eaf4f17468b94eae9a43444cfc4503b0d libtraceevent: Rename tep_vwarning() to tep_vprint()
-         500cf45473c736c4d7eef4699e59f97283fb00d5 libtraceevent: Document new log functionality
-         c325e2ee81f96fff45bee5b71d72adcb123f2f4e libtraceevent: Add back log functions for backward compatibility
-         5a7d86534b123e858dd94ade741c93161a7b6130 libtraceevent: version 1.3
+         f2468bd3e4279014f18b1a9bedf9b8e168edeebf send-email: remove non-working support for "sendemail.smtpssl"
+         b9d88f4879ca3351f0aa874457704546251c10ff send-email: refactor sendemail.smtpencryption config parsing
+         5523ca9930bd54c4f70cd9ded956780256291ca0 send-email: lazily load config for a big speedup
+         f2f2619193f42d4c55d41470d5f2bb9f57db0fae send-email: lazily shell out to "git var"
+         bec2110a44a8570de6739f31242820b2a46e1fde send-email: use function syntax instead of barewords
+         3af4c9c9770a1cc06793758b0f4b188bf90ecf79 send-email: get rid of indirect object syntax
+         bc9d616d86fb264a1bf3229080231c7737da9571 send-email: lazily load modules for a big speedup
+         c31531d73d6ecf2285ec5a826eae26ab6a8a7f41 perl: lazily load some common Git.pm setup code
+         638ca4df19b28a9a9339dac11cf01b659b2efe7f send-email: move trivial config handling to Perl
+         1e1a590dfad3da59c232412c8e79ec00793cecd1 Merge branch 'ab/send-email-optim' into seen
          
