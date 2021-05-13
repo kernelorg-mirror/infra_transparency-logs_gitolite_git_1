@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3790248910218638463=="
+Content-Type: multipart/mixed; boundary="===============4032459162575408285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 13 May 2021 19:42:04 -0000
-Message-Id: <162093492437.23495.12713687266218241195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Thu, 13 May 2021 19:45:30 -0000
+Message-Id: <162093513085.25942.17174778121649177849@gitolite.kernel.org>
 
---===============3790248910218638463==
+--===============4032459162575408285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/utils/patatt/patatt
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a3626bcf5fafad0ded410b269e21f37bdaf2baf4
-    new: 27b57bb76a897be80494ee11ee4e85326d19383d
+  - ref: refs/heads/main
+    old: bd75087314114bd0827d3e22317cb993b16b925d
+    new: 66a94f773a8d80ee5e3c1e2e747434c622047e2e
     log: |
-         27b57bb76a897be80494ee11ee4e85326d19383d Revert "Revert "ALSA: usx2y: Fix potential NULL pointer dereference""
+         66a94f773a8d80ee5e3c1e2e747434c622047e2e Bump release to 0.3.0
          
 
---===============3790248910218638463==
+--===============4032459162575408285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620934918 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1620934916-c293f48f041679232896a40ad59df35c7066af92
+pusher B6C41CE35664996C! 1620935130 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1620935130-5c4de210d7d5ce4d471731897b9f10a1bc05e767
 
-a3626bcf5fafad0ded410b269e21f37bdaf2baf4 27b57bb76a897be80494ee11ee4e85326d19383d refs/heads/char-misc-linus
+bd75087314114bd0827d3e22317cb993b16b925d 66a94f773a8d80ee5e3c1e2e747434c622047e2e refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdgQYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1k4P/Req56/mbWtOYx2Jlyni
-7yCUfTYWQKBRWPdgwuGe/YRoEkycMd18viORoFGlW1fWf0EQSPKjEuCreROK5Kl4
-VdFBELpgIzJtddTcvVM5Wa8oKAkyKtgf9W20YDV6SaEHsoNaoAVEfsu9LdCSol5E
-y/tGvSN/09kUDCsz4aBoZSlDRIMx/eUTgSRD+gUcLI9ezboeb2knWYjQTgqu65u/
-Yyo34IoQ1NgjLCbPQPBOoQ+hJwxfXN8NzK+y6b3H7Ox5pQlBSSwA9VPTvc3XXzZq
-j9bUEQWCI4UriLb3eno89aSJR92t8YZJTif26j2itH8Ai5KlQulGEXN+y5NB5en0
-a/pfVPNXni5nbN9q3nbPNNiLtLGrLIHtiaM4toGVjM4R1Aa1g7ODdmZlsrUD4Aq0
-7AixD+klxg9So68N0P55zebkJZIAIdiRJaf9VNGlmB40e2RMovCvX64em8/uZBt2
-z0PIG93HOUL93/ma9+purvO8xPIquXR/EsDNQdOJSWo9Ozo5C9+jjU1s7T/zm4GR
-ww/2cMct+qxG9yNQ/QV/rj6KpqcRSSv1yjKdk+JRTQcsfEUIB1kP673DVAHZo3wq
-gqpaYpsZnVqf0FYLmqNnug9iu4QAaRIbdox74ZdgT59a8LLyGxmDQvrQVVZ96CQQ
-U72L+h+NFa0oytkbKHA/vqiB
-=YbCl
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ2B2gAKCRC2xBzjVmSZ
+bOIxAP4zell54JoMd4wMoaO+a48tAx3awuaXCOgZ+950BTikoQD8C1Qqt+9kJ5mU
+1JYEOlE7rMZ5qOGlKBxhxUJJpZYXNQY=
+=w/Gi
 -----END PGP SIGNATURE-----
 
---===============3790248910218638463==--
+--===============4032459162575408285==--
