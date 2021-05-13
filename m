@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4315648760783176259=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 13 May 2021 20:27:17 -0000
-Message-Id: <162093763731.19950.4261172280040375953@gitolite.kernel.org>
-
---===============4315648760783176259==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Thu, 13 May 2021 20:30:38 -0000
+Message-Id: <162093783807.22659.4666229761110671459@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: 4477398b0f0f9f46869407af824ef1e6acda58ca
-    new: cc4639d5fe6d73eb03678d486d038eb43705e83d
+  - ref: refs/heads/android-3.18-preview
+    old: cf3ef1a9fb180a9d92232db161f122e4433b9c65
+    new: 6f13eb161aeb2da3807d03e13055029801f97b0d
     log: |
-         cc4639d5fe6d73eb03678d486d038eb43705e83d Update patatt submodule to 0.3.0
+         c142f359c631333fd54973a730f0e36141c74aaa net: modify skb_rbtree_purge to return the truesize of all purged skbs.
+         9e8744dc3fa8e6bffe2a1bc0ab7c3d614d1a3493 ipv6: defrag: drop non-last frags smaller than min mtu
+         17280f48cf8d82fbd15f8ae18c26d1993f35dd40 net: pskb_trim_rcsum() and CHECKSUM_COMPLETE are friends
+         ecec0f763b121f9fa0c51218915276c728bb3a37 net: fix pskb_trim_rcsum_slow() with odd trim offset
+         4ee15f889189dc830aea71126b8124646b354dd7 drm/bufs: Fix Spectre v1 vulnerability
+         b9426963a468bef5f5c8dcd7ce10065abef7aedf ptp: check gettime64 return code in PTP_SYS_OFFSET ioctl
+         1d162cf9dd1bfdd495b873b8c31005bc3ca6dbfc sunvdc: Do not spin in an infinite loop when vio_ldc_send() returns EAGAIN
+         1f607aa4e61de85d13018f4a4931a5c2f7b1c123 i2c-axxia: check for error conditions first
+         6f13eb161aeb2da3807d03e13055029801f97b0d cw1200: Fix concurrency use-after-free bugs in cw1200_hw_scan()
          
-
---===============4315648760783176259==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1620937636 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1620937636-13e4f7e9b68b9e82262b00c2fa90aef16e29c7de
-
-4477398b0f0f9f46869407af824ef1e6acda58ca cc4639d5fe6d73eb03678d486d038eb43705e83d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ2LpAAKCRC2xBzjVmSZ
-bFiKAP9CP5ViVsBterXDfUWId2imtpKRYyAdBMB3bV0JhTpfxwEAiK4bn8a71jFu
-+Nvg0gnJ3JT8HWcO2Ufbe5KDtp1G6Q0=
-=P9vg
------END PGP SIGNATURE-----
-
---===============4315648760783176259==--
