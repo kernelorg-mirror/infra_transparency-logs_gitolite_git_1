@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2641218080968389532=="
+Content-Type: multipart/mixed; boundary="===============8662768637036763506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 13 May 2021 18:34:47 -0000
-Message-Id: <162093088762.13986.7496385337991788500@gitolite.kernel.org>
+Date: Thu, 13 May 2021 18:35:49 -0000
+Message-Id: <162093094950.15685.11986179112293963850@gitolite.kernel.org>
 
---===============2641218080968389532==
+--===============8662768637036763506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: 7d5b2cbe7a8f918641e9c69f07bc2fe0989221a0
+  - ref: refs/heads/char-misc-linus
+    old: 9183f01b5e6e32eb3f17b5f3f8d5ad5ac9786c49
+    new: ced081a436d21a7d34d4d42acb85058f9cf423f2
     log: |
-         7d5b2cbe7a8f918641e9c69f07bc2fe0989221a0 comedi: remove editor modelines and cruft (again)
+         ced081a436d21a7d34d4d42acb85058f9cf423f2 binder: Return EFAULT if we fail BINDER_ENABLE_ONEWAY_SPAM_DETECTION
          
 
---===============2641218080968389532==
+--===============8662768637036763506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620930881 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620930943 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1620930880-4de9e22b44aecc8a3b4c5e1e33e4a39af8c9ee01
+nonce 1620930941-a9878b8f4f7385922be2e4754686e56af9a10e21
 
-6efb943b8616ec53a5e444193dccf1af9ad627b5 7d5b2cbe7a8f918641e9c69f07bc2fe0989221a0 refs/heads/char-misc-testing
+9183f01b5e6e32eb3f17b5f3f8d5ad5ac9786c49 ced081a436d21a7d34d4d42acb85058f9cf423f2 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdcUEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t2wP/iHLPX5VxaghD7BVi4SO
-Lj4Kq01qqOCvbuvnZfuo3pugxviP5Nu3dXZxm+X0VaK95QrMkmd1kNrtpUODx0od
-MrO9yAdCZqPcD6H6QdnOc9B2XqNP1Me3xP/Ej/+JY+vWroQLkwjvAYX6CV3oOFZ+
-kYp7iR8QozS/2Xf/ZjYSXtylpVngdyTdDizy7GA2R8+UNAZ97+t6HyfPF3gNPTMW
-ryLOVYhwfqmgLq3oxu2MFd0I8dVjZ3cDlypZdUpv1sPFm86hakpi4d3okUh0jOh4
-IneIauabut2cBtqLyeoGVHkoRU2r/5nIbPYbfYPwgSFNgv9LCycaRIrHdWmRiJDu
-dEH/6pG1OASmD+bUGXnQa6AbP1oJqRdvSYRImzoHpC4mvY9vpIJcvYudHBXBIYNc
-1bI/9nkrLTGK6eA5KziL2rNe99QZLJj26TTohpFfGcyCWUD4XLMIu5myEeyO6Pg1
-H5LaHT2KFSARo1cyM7Yo+EKW6domEtgwsapDad9g+grmgqSOzwGuk1uibUGEkOA3
-AkE1JOxFHp1VmQCC6KcbDty4xjkuCRHfp3WV6+dsoiX23W7R0Z3vZuq2reGZqmIE
-MHZMCs94LYKrVBoi9SaYyDunqoskd+DxkJr2Ur6h/iKQ2+bfm4NDdApgU5wd++fk
-XxjCY/yE5lCxPmxuufzc9ilp
-=V/0n
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdcX8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RL0QAKAUpvrEK9E2PXl4j/Ko
+Q8tVyxP4BKHKmZfcbL2sBVGKVzgtCsC1iknjuJnO7Vn7rOEx2lQxQ5lpoPm5qYRS
+QkEQ0rz7etHDfypDDwYvnq+Bik0s2+hearvHOd2zR+39m3im6JMwGJgUuAD3Tukm
+8QuyTf65pmK/9WYSswJImiUyptYBHrXBVpmLOA0a01ZbTRQ5yE3+/fkPUIW0gI+Z
+LYsJexgJBodZk2tCvOwLNrUxchlcgJQTYW2pyvY7Uu2Z2Ky8FGRt4voCBvs3vB/A
+T4ysk/iK9My33CatJBAXJ4aaXsSsB5jzzuOKj6dvR8u2QlfX2ol8BkggOxusDWWN
+MZs9fAKLzEhATIrYLk5kVi0w4gdWOxmVk4prcW4tWlh9fUFNFJ0+ZkUokgGe77EG
+UyvBj036x8N4JQvKgaCq9NrXt+k2xZcKqkTeltpPJOVwUVG41aTLvIaDwhv0HQKI
+7KrPteA3tmgJ1kDWKfTygoD7L0EdCLhXUyd5mDVfscTlpR2YYLs0Ub5k7ICrmlLD
+a4jdnZZm1poSvfYuekjfxzjjrv57UjMxnoRXpi6zBqq9WbHYO2WtJT1lY/Xd21yG
+AJR8pCD3u+4TSuYr4VNNQm4wNMMbvqztJniqaNResI9I/Kw2gTsPws0bptl6f1zm
+vqW9Xr6aAh/D1uRZ4WuuVKzy
+=bak5
 -----END PGP SIGNATURE-----
 
---===============2641218080968389532==--
+--===============8662768637036763506==--
