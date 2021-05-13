@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 13 May 2021 11:09:32 -0000
-Message-Id: <162090417261.29082.13356018848594372494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rui/linux
+Date: Thu, 13 May 2021 11:20:04 -0000
+Message-Id: <162090480447.4987.11642181582561656993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: wagi
+repo: pub/scm/linux/kernel/git/rui/linux
+user: rui
 changes:
-  - ref: refs/heads/master
-    old: 5ec2a2cecc9079b77ed6c83e3446220002471870
-    new: 1b86c9e256d103c8f483085878149ba6b168ead6
-    log: |
-         1b86c9e256d103c8f483085878149ba6b168ead6 main: Cleanup of vendor class id and wifi config options
-         
+  - ref: refs/heads/for-amd-freq-fix-accepted
+    old: 0000000000000000000000000000000000000000
+    new: 3743d55b289c203d8f77b7cd47c24926b9d186ae
