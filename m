@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9181431341710583894=="
+Content-Type: multipart/mixed; boundary="===============4633018380153854722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 13 May 2021 15:07:13 -0000
-Message-Id: <162091843378.15926.3455786037034499337@gitolite.kernel.org>
+Date: Thu, 13 May 2021 15:09:14 -0000
+Message-Id: <162091855471.16620.11320982842683882401@gitolite.kernel.org>
 
---===============9181431341710583894==
+--===============4633018380153854722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 81281f85ebd89e84b8a7d474ddceca56afa89355
-    new: 227c19bfe5aadb4309b24e2fa19c438ee35be765
-    log: revlist-81281f85ebd8-227c19bfe5aa.txt
+  - ref: refs/heads/tty-linus
+    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    new: 3c35d2a960c0077a4cb09bf4989f45d289332ea0
+    log: |
+         3ddb4ce1e6e3bd112778ab93bbd9092f23a878ec serial: tegra: Fix a mask operation that is always true
+         5e722b217ad3cf41f5504db80a68062df82b5242 serial: core: fix suspicious security_locked_down() call
+         2ea2e019c190ee3973ef7bcaf829d8762e56e635 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+         3c35d2a960c0077a4cb09bf4989f45d289332ea0 serial: 8250_dw: Add device HID for new AMD UART controller
+         
 
---===============9181431341710583894==
+--===============4633018380153854722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620918427 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620918548 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1620918426-fd8614c03d12041e4478150b67e8f0689b752332
+nonce 1620918547-0dca1920391e0c6e65e59706f5b5b231888d5b78
 
-81281f85ebd89e84b8a7d474ddceca56afa89355 227c19bfe5aadb4309b24e2fa19c438ee35be765 refs/heads/tty-testing
+6efb943b8616ec53a5e444193dccf1af9ad627b5 3c35d2a960c0077a4cb09bf4989f45d289332ea0 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdQJsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hCIP/1rX7+zeRKLwFQV7cJ3n
-V9LNcWGsUN3szkBrcQHJ/d+ZW/KDNMGX4ZPtmD27TbT2+woGy/c4vjA9lUE35VsI
-ns299wX6WY0fsRVW6dM3u1Plw77NvHFYg7rhZJmO/xezx+RusPW2WApdPbc944y8
-KhxYigpKI9eOAK5TDJMqGCT+dSYyS3/A2ci/zKfZ43QYes9aiW3p73EF9fQRvwDB
-0zVaViqU6kU/w1at8aENgPU5ngbf1QRJ3b1g3UzE3Y/GSerXFQ7Df1NXciojlGa6
-BO02VgYLyYrjkexY0hfeyOpWbRd0KQWa/Dltf/Eb/Secf9zqi2eKLkm9vqVFkrgg
-8Hi9yeJWDNoL9f6gPtEIEOsJ0mKUKNN4T/qXbywwcjNM3DHM24BHlF0YEmhrYjAw
-2EwCdczl+k8BPU04DGe7h49UQ6IDvKvcMV8XpC/ta96U2fXuEVDHWwg8vq657Jxx
-ewucLds+YRur4nj9uOlMYb7UaT9esiscujDkoNnOK9+4VrVOmqFG/5KT0IZ7iirP
-r7CsKBWZT69yDjzbM9p2uSnRx/vvrAIgLe+o0PkWnBXUOC7m43MktUsT4ZA1ODl3
-ea+3UhbdK1ptLSpRMw+lKs3DhPDNakzaAapakKhzeE8VH4M9zMxrsFkvu2v/8DKX
-GDPkbbq7Ql+ku/0wp1ReVme5
-=WaFC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdQRQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PvQP/inbGigLwYLheU+AuAO9
+ZPnl/LlD+Cc/UsQeldKSCmHAnstJZf8OgbtgvUbZX1uIxTvrWn6AmyhTeVBGoftb
+0fAu1yxVcqB/yfDeBe10zvfk3Gh0D7wvNjshtov2Q+5z91PjMGo22FRG+V5IgbG3
+DAvpIq6uV+Xnn3Br55EHGrlAf/h0Uz9+Ouuho90t+Dj7+XOkMLfzoWpXP6EKHw19
+KvLXkfMINSAhz8took5yN4DsOf+8zek5lUfyNN1uKEyLrui/JahlFked22GNRnOo
+Wqv37hyl4LOuePAIWQPdp3nGwsO5+q57VqpFtaXaRYwJsC242YywOSgg2nsYckda
+wqOTpaBASb9BF2SwageJWZBoDfeY5YnuI/BX3R2farizGmgNMS43tZL+5OGQATQQ
+gPItBs9UHR+6sVZpllpL4yusP2EAujQiFF2lv8Mu73zq08fByQcltjQgAQsiHLEw
+zi+q2X+HOnSxWYOsBmtSdJ1TKuJO9KpZ7tP/nMhHANagSNRXHT5CVt6XIPngu+XH
+wpPMKor7l3Z45X3I3o/d8m7QXtm0ZRO1mQ6wN4kSGQRNBh3fL7ocT5+4L1gy3YwQ
+/HXnJ+Axz4Ali4xjwILC37QDJI/1TW1Rei0TIJmT3pJORRqOnHwZ+VnVNDp5klEO
+xOEOta17nR0lLJMYlbpPb2oG
+=HcE5
 -----END PGP SIGNATURE-----
 
---===============9181431341710583894==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81281f85ebd8-227c19bfe5aa.txt
-
-50fa1dab5f166d35e20b562b4608fd0b9ea98bf5 tty: serial: atmel: include <linux/io.h> instead of <asm/io.h>
-1edcca03175805572b50c7ab9dd01927474fc71b tty: serial: dz: include <linux/io.h> instead of <asm/io.h>
-c595070dcb2cab24f16f889503e1277b84dfcdb8 tty: serial: icom: include <linux/io.h> instead of <asm/io.h>
-e7ceca38a4da75308d9404095e64a093d3789816 tty: serial: ip22zilog: include <linux/io.h> instead of <asm/io.h>
-d502909a1b236e02d5dc625719f53b335b7d46eb tty: serial: mux: include <linux/io.h> instead of <asm/io.h>
-09bf8b5e7b1e817ab8a58f457e874c39d3766412 tty: serial: pmac_zilog: include <linux/io.h> insteiad of <asm/io.h>
-90d3f2b5b47ab4e7983a7504d5b12724f14d79be tty: serial: txx9: include <linux/io.h> instead of <asm/io.h>
-af345cac876c859dcf4ea5625b494295b31642c0 tty: serial: sunsab: include <linux/io.h> instead of <asm/io.h>
-07b32bd6a0bbeac73a98f95ef0020e90f2a8fe51 tty: serial: sunsu: include <linux/io.h> instead of <asm/io.h>
-ac1c2071dc3875c635e4a32469bc191d8943ba70 tty: serial: sunzilog: include <linux/io.h> instead of <asm/io.h>
-724748b192b7a2cb93b61232f30da549dd1b90ad tty: serial: vr41xx_siu: include <linux/io.h> instead of <asm/io.h>
-227c19bfe5aadb4309b24e2fa19c438ee35be765 tty: serial: sb1250-duart: include <linux/io.h> instead of <asm/io.h>
-
---===============9181431341710583894==--
+--===============4633018380153854722==--
