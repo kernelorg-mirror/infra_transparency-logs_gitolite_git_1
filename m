@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8074578533169490615=="
+Content-Type: multipart/mixed; boundary="===============1589388693416558996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 13 May 2021 12:48:14 -0000
-Message-Id: <162091009423.23953.16140156336658790149@gitolite.kernel.org>
+Date: Thu, 13 May 2021 13:01:45 -0000
+Message-Id: <162091090561.753.4520943403427159449@gitolite.kernel.org>
 
---===============8074578533169490615==
+--===============1589388693416558996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: d9ff1096a840dddea3d5cfa2149ff7da9f499fb2
-    new: 3c128781d8da463761495aaf8898c9ecb4e71528
+    old: 3c128781d8da463761495aaf8898c9ecb4e71528
+    new: 12701ce524bc9b7c6345a2425208501fd2c62aad
     log: |
-         b813511135e8b84fa741afdfbab4937919100bef xhci-pci: Allow host runtime PM as default for Intel Alder Lake xHCI
-         9b6a126ae58d9edfdde2d5f2e87f7615ea5e0155 xhci: Fix giving back cancelled URBs even if halted endpoint can't reset
-         dda32c00c9a0fa103b5d54ef72c477b7aa993679 xhci: Do not use GFP_KERNEL in (potentially) atomic context
-         ca09b1bea63ab83f4cca3a2ae8bc4f597ec28851 usb: xhci: Increase timeout for HC halt
-         3c128781d8da463761495aaf8898c9ecb4e71528 xhci: Add reset resume quirk for AMD xhci controller.
+         12701ce524bc9b7c6345a2425208501fd2c62aad usb: typec: tcpm: Fix SINK_DISCOVERY current limit for Rp-default
          
 
---===============8074578533169490615==
+--===============1589388693416558996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620910087 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620910899 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620910087-8e7b5e7efa5d6c99b2331718df773f8384a2bdfb
+nonce 1620910899-3ebf0b37ec87dbf6b3161fa02a7b7142ac2157c9
 
-d9ff1096a840dddea3d5cfa2149ff7da9f499fb2 3c128781d8da463761495aaf8898c9ecb4e71528 refs/heads/usb-linus
+3c128781d8da463761495aaf8898c9ecb4e71528 12701ce524bc9b7c6345a2425208501fd2c62aad refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdIAcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M68P/jfb2WNoqCqPYiAhTrNj
-wSTzJKTWtr6Jf3HLZnBwJMxy5pXU2GJ0/6aq6AOvouQoDuDKQrhmnPMrjR8F0jRp
-W4tX2PTIC73oIOTMxBOhoexT1CIQRVyA3sdCGUN8dbOWxL9Etljm27ti79nDMqvb
-Yl2FdxvEd86wexQ8AnvrKNPWME18Z/9S629rCmygECAASns/NvAw3oDztTy0lvZn
-48gNUMGebbS846kv3j3H31XsTsiVA08wVO2dfXcm/EaBUVwCIWOXRY+j/KYia1bx
-P6f+jl5SKDvZAMyVU+zMVO08ZjBFdMGFkMhKPkcMbs+EhX0oZSY8lsx6sgt15KdM
-eJKpmTQ866GbLg9Ts+tXCLYfuUyAjn77fjNk+Vbo/QD7hQWUaGUQfYrl9lwfzNUk
-JQTmA5+croU6ak642HHoreQOP+DmqYfgRTHens7/2g/46Cz+hdFNuhWUS8XYxNpa
-mFoxPH+ZGsEisDAS+p998xHnrC0pRI7f313HhYtjpe+Jzq1LjqwHV6VfgEAZ/X99
-OntSazqqN9+1LzgDWBYB771zSb2fMT9x+qLxcEFKzZOGvntFT6xluimNcS1VD+wY
-/ftYzHG4hkdA+JRWK9GS0LRnipsnfM5bCr46V/cBMxP76MJq1ZEnXLJ+W0LNG3Mz
-8uxYf6wogSAcZBWkpKk5VmxW
-=YjsQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdIzMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JzMP/RQSCAdT1c44670jZ0EF
+skYX5PV2N1W1wm9CTod6RTa/nlz7yu9axYGOoFEcdJ3REl1C1T7k+l9c4YUZibWX
+0rbBZeqXO+xcd9+FrjLu1Vdj6F0LU+xdPLfK54Sdz9xX/RamOokBvD6YK3KhHWiq
+MyQ1Wid2Fr858yCKIKcNvNSvWJ8g0UENZ9cO+fyxOPSr7HcbM4bhVEgV5Q8yEWZl
+piKh3d0h7x0N2P9/An0NprsJ7jXCzVzFWtHY866e0P8alZKPkQvfWh0h9mnrlY7v
+1BtfNNRcu4GA9OcK2V2GleGiXHAqPtFN59VGXN4FWTrmPHziR72o0VpKNZsaIzgZ
+GOTBeQPA34/V825biNwlmqvXBgWrh9UtS86AwEg7vkHCwW/LGeaUxmZbtEN2nHIL
+Wh+p7T663YjpnL2k8U243nxUlMtlAe8RVAakVjhKUu0qygX5PK77xAI8i4314SoC
+vXqBnt11asasVITUrBfJW+TF0FH95LrXACbiZO8cQdJvk9Db3Eb8/NsyECxzNdMN
+zDDI9Xgq2qtPs2B8ZnYqVVNnSDF3yzJwZR7o8gnbEosNuMOgWbLvZXoKwPpLGKjN
+Blyqo7tkT6xQIppAQe1Jyi69gI8Rbv1bbP+UFyQsCTB5go4iffOTJkFgHJ5RZneY
+Kh5oUVxaCZK+C1StjfM0920y
+=S4+K
 -----END PGP SIGNATURE-----
 
---===============8074578533169490615==--
+--===============1589388693416558996==--
