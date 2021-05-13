@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3464607132241223340=="
+Content-Type: multipart/mixed; boundary="===============8539763694122187161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 13 May 2021 14:00:50 -0000
-Message-Id: <162091445044.4633.4722116311227687893@gitolite.kernel.org>
+Date: Thu, 13 May 2021 14:01:48 -0000
+Message-Id: <162091450869.5008.9636522415063328132@gitolite.kernel.org>
 
---===============3464607132241223340==
+--===============8539763694122187161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 12701ce524bc9b7c6345a2425208501fd2c62aad
-    new: 975f94c7d6c306b833628baa9aec3f79db1eb3a1
+  - ref: refs/heads/usb-testing
+    old: 4676be28a46e9b1aef9a1fd24ecc207ebc189c9a
+    new: 9e8d268f831b87891202e8566a0f9acc7adbbc5c
     log: |
-         975f94c7d6c306b833628baa9aec3f79db1eb3a1 usb: core: hub: fix race condition about TRSMRCY of resume
+         457d22850b27de3aea336108272d08602c55fdf7 usb: dwc3: pci: Fix DEFINE for Intel Elkhart Lake
+         9e8d268f831b87891202e8566a0f9acc7adbbc5c USB: gadget: udc: s3c2410_udc: s3c2410_udc_set_ep0_ss() can be static
          
 
---===============3464607132241223340==
+--===============8539763694122187161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620914444 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620914502 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1620914443-7922efdc73a7248549d648ae6893a269bc8711bb
+nonce 1620914501-a94dcfefeadc3a1a11cd453bdbb58a2b374d7e2c
 
-12701ce524bc9b7c6345a2425208501fd2c62aad 975f94c7d6c306b833628baa9aec3f79db1eb3a1 refs/heads/usb-linus
+4676be28a46e9b1aef9a1fd24ecc207ebc189c9a 9e8d268f831b87891202e8566a0f9acc7adbbc5c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdMQwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0wUQALCsLI7aYSdQmaZCwXcD
-BUdRJSlKJFhqpiVxBszhMSfAADOXFiW32iuApuBZsZKSrtrQErpNMu9Jkkw6HuS7
-pqm954N5Q5Wa5iP2jxvwgedSeFkdahbNLmep/6tLV89BJAIjgKEOgySzGFWFPPkm
-WSCDxE2GD61CDwgYb2DdDqX0zZsPUFkeqseMVW+t4gVomU2xhveEd4N8klNnm0/n
-yZjiJd77gTLsta0KK0kiALtQzEOXh78VJ+xV1ShrDAT/VaiC+HtA7Lo39iBJg/1e
-i4EYHPxtRj4p2Ho0+IvhaXcpYNj3Vy/j3b8DVWnj99I9b7cz5546bmmudPjsOCEI
-VyX8MBMGO9AEI998WMK/QB5g1RppViKjnWTqtLYzHp2mHGZKUmSqLfrg0HJPVfQD
-TnaTZoweaYo/WJ7ax9c3vDT0CL5YPZBco+9E00aVqryu6w1nD73i/+9PP4qVXYGZ
-7mem/9yggEspRNJwA4HUImQ6YWm729KfDLy0hPiXFubKQZkqHrnZ7YueMTrBTb43
-At58aKtJy72xKqFQdFChEIp6lnNzPtDiz4e6UIn74xWfVQTbXVWaiZxqAJbm8uCX
-h7xb9+NgQ0Lcu+toquj/VvIYgDhl3waxHXnKSlsx+kgEnLhhDf7G0AEdEGdVmgOj
-m48kjYnlvzX+Y/ICPb7VnQ6Y
-=LGpt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdMUYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JCwQAM2/6NIrZ/dZNgKGlGNr
+i2Mnx8s3TS9ma8cZj8UXXSUxBzUy5CEHDx+scd25RiOa2JB0ocOKzzpLLL4/083s
+juRZ4Lp+WX+T5xWdqNk8jt4BSHKgqHEQFxhTgMnC09AiVdCXJx5jfhlejhaqcvTw
+ebcDtI1CvMdqBsZxLqjwUPxwy26IxdXUCyHjT2QxKp0B0lZC+qOWmvODvivDOuCu
+m9Iy7iF+9Er4bJZ3C8jQA9cUYJeV9J10diEHsrQ3RyGtiYqKAboQhbu3JCK88au5
+1E3ztFEhk0+WGOMrWBVx1v4eDoc3aCtr6bvKDvV9MZV3xC6IeptOQY+OUOeH46iS
+dJBF5+BOH8MbHXjlZ8wlK1/7t1ftgOQ/KyxpltwtEftX8Y3Vv+QbmtSgILvigHVl
+5hWDSyldI+0hlPUzh36TbiGOKQLD5XpiRQ8mMRirs+86RkdDv5rr0sVV7JCZuK6x
+u5VF8BEa55sfDa9umXz1fnVKS4FZQJ9QA1QYZsz2zNX974wy5mq5r0d6g1LV+Q0K
+lMoUw9WG8rBs/vc9P77OOM2NvdmcaZUsT5zPfq9BoI36e/CTPHxELoULdiIjdhyq
+2ZrK/mDTiTIjmjZWW/YT/BB/SdC7c3ygFQIAA25VZ1zfDwutc8ViJE/C7Q00ORG0
+jVQCEJpO2OlAIQUcW9av475K
+=TfCE
 -----END PGP SIGNATURE-----
 
---===============3464607132241223340==--
+--===============8539763694122187161==--
