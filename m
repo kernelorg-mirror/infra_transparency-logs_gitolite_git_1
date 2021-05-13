@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8300401695428486540=="
+Content-Type: multipart/mixed; boundary="===============2953989874542650452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 13 May 2021 19:01:37 -0000
-Message-Id: <162093249741.31829.18119895812052949267@gitolite.kernel.org>
+Date: Thu, 13 May 2021 19:01:48 -0000
+Message-Id: <162093250838.31998.16287855007575757886@gitolite.kernel.org>
 
---===============8300401695428486540==
+--===============2953989874542650452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/pm
-    old: 59e2c959f20f9f255a42de52cde54a2962fb726f
-    new: 78a6948bbadd0da46d318f3b7a954a71e02c39f7
-    log: revlist-59e2c959f20f-78a6948bbadd.txt
-  - ref: refs/tags/pm-5.13-rc2
+  - ref: refs/heads/acpi
+    old: 3da53c754502acf74d4d9ba8ac23fc356e6c3d0f
+    new: fd38651716b45f817a542c34cd5336ff372d06e6
+    log: revlist-3da53c754502-fd38651716b4.txt
+  - ref: refs/tags/acpi-5.13-rc2
     old: 0000000000000000000000000000000000000000
-    new: 968e0baeecf9e0d20852c2a7e5770e837391c8e8
+    new: ce933de5b2e961047f3de01efa860e064ca10286
 
---===============8300401695428486540==
+--===============2953989874542650452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59e2c959f20f-78a6948bbadd.txt
+Content-Disposition: attachment; filename=revlist-3da53c754502-fd38651716b4.txt
 
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
@@ -167,7 +168,6 @@ add74e32db0443dfd940d7c3256b9609c65e6149 Merge tag 'amd-drm-next-5.13-2021-04-23
 1cd6b4a04f038eb24fd18c8010e763d1140a9c7a Merge tag 'drm-intel-next-fixes-2021-04-27' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
 7b1ae248279bea33af9e797a93c35f49601cb8a0 dyndbg: fix parsing file query without a line-range suffix
 bb6659cc0ad3c2afc3801b708b19c4c67e55ddf2 io_uring: Fix memory leak in io_sqe_buffers_register()
-5db91e9cb5b3f645a9540d2ab67a19e464d89754 Revert "ACPI: scan: Turn off unused power resources during initialization"
 6da7bda36388ae00822f732c11febfe2ebbb5544 IB/qib: Remove redundant assignment to ret
 a7f82c3641245055412b2b4f859ae55fd29fdffe s390/pci: rename zpci_configure_device()
 0d9cf5d8c5d0bfa144236b5f2aeff02124940c56 s390/pci: handle stale deconfiguration events
@@ -884,7 +884,6 @@ d583d360a620e6229422b3455d0be082b8255f5e psi: Fix psi state corruption when sche
 e10de314287c2c14b0e6f0e3e961975ce2f4a83d x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
 1139aeb1c521eb4a050920ce6c64c36c4f2a3ab7 smp: Fix smp_call_function_single_async prototype
 28ce0e70ecc30cc7d558a0304e6b816d70848f9a locking/qrwlock: Cleanup queued_write_lock_slowpath()
-3da53c754502acf74d4d9ba8ac23fc356e6c3d0f Merge branches 'acpi-pm' and 'acpi-docs'
 cf7b39a0cbf6bf57aa07a008d46cf695add05b4c block: reexpand iov_iter after read/write
 a3f53e8adfda814730c341ee39ce015a0abf69aa Merge tag 'docs-5.13-2' of git://git.lwn.net/linux
 5e5948e57e4381c770931be2c070f3bb894a1a52 Merge tag 'hexagon-5.13-0' of git://git.kernel.org/pub/scm/linux/kernel/git/bcain/linux
@@ -1050,8 +1049,9 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-e5af36b2adb858e982d78d41d7363d05d951a19a cpufreq: intel_pstate: Use HWP if enabled by platform firmware
-c745253e2a691a40c66790defe85c104a887e14a PM: runtime: Fix unpaired parent child_count for force_resume
-78a6948bbadd0da46d318f3b7a954a71e02c39f7 Merge branch 'pm-core'
+29038ae2ae566d9441e81cda3539db17c20bf06a Revert "Revert "ACPI: scan: Turn off unused power resources during initialization""
+0c8bd174f0fc131bc9dfab35cd8784f59045da87 ACPI: scan: Fix a memory leak in an error handling path
+2404b8747019184002823dba7d2f0ecf89d802b7 ACPI: PM: Add ACPI ID of Alder Lake Fan
+fd38651716b45f817a542c34cd5336ff372d06e6 Merge branch 'acpi-pm'
 
---===============8300401695428486540==--
+--===============2953989874542650452==--
