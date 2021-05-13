@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7815986781273289942=="
+Content-Type: multipart/mixed; boundary="===============4043473256692267689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 13 May 2021 15:31:24 -0000
-Message-Id: <162091988431.348.2387569552498623338@gitolite.kernel.org>
+Date: Thu, 13 May 2021 15:34:35 -0000
+Message-Id: <162092007574.1403.1713697977338781578@gitolite.kernel.org>
 
---===============7815986781273289942==
+--===============4043473256692267689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,63 +17,63 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-linus
-    old: 6a3239a738d86c5e9b5aad17fefe2c2bfd6ced83
-    new: bee1b0511844c8c79fccf1f2b13472393b6b91f7
-    log: revlist-6a3239a738d8-bee1b0511844.txt
+    old: bee1b0511844c8c79fccf1f2b13472393b6b91f7
+    new: abd7bca23bd4247124265152d00ffd4b2b0d6877
+    log: revlist-bee1b0511844-abd7bca23bd4.txt
 
---===============7815986781273289942==
+--===============4043473256692267689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620919877 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620920069 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1620919877-e3ec712496093996a7bf1054e88297b468789332
+nonce 1620920068-baf2122ebb5aa173bd9f4c7033f2173444901fa8
 
-6a3239a738d86c5e9b5aad17fefe2c2bfd6ced83 bee1b0511844c8c79fccf1f2b13472393b6b91f7 refs/heads/char-misc-linus
+bee1b0511844c8c79fccf1f2b13472393b6b91f7 abd7bca23bd4247124265152d00ffd4b2b0d6877 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdRkUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B9AQALZC4mnD94LYqAUINk/f
-SwK1rKMqm7ajvHaorDoJs83+NtuQ8EKspRwvj/SQuoh8yDTXpUyRLOMv0DrXHygM
-ogEPIOUZjeuH3ymp+W3g6b9FvhQMlh1jNo+Uu2M/BWhYWRtzRHMHYbdQo1kRzuIX
-VxTO6zbCco8Ln0jOAIDR4APopK93BKlUBUYCktC7v28sGeyvxE2gtp5m6dn0Ot5O
-4p42VYEn5VNyl2mn5JqbSfEG++9ODzX0QuwRf94rVEJWD5Te+3e+dj0oy7a8VDim
-dszGjXIEHAfMCVK9beS0JwGNmbPZGuVrnUK2g1hZdunp9l4D8V1F45dY1kP22zO6
-idpKwI47jOtC49rvl4trNzCqguaMp7uNkaP+mNDOrF+N7o7qyWUfFlKUPaeigPqN
-q42znR8xabzALUI9dGI2Zw0IShRbNMuLodteJw1Nq/wlcwxH0+GFb9RIZ6CBVbBC
-ilnje25FoLKnLOkUsLUbV7ccYpPmo554ro7khVlmGXr6mAydeW86XkqRquL8m7YY
-LdBNmnyK/BZyyGP+SX2beFPAig1ileNHc0ClAOeRQhf/A0MZ0Yg5XWPpcDlKZtaU
-zGQM7jv+JvD1+Fi3O1pPLXCrPh5OVNWa/jXuRt3HII/WkZyeC1ZFojnTcnigIHWB
-lQLf0SYFROLblw+DDJdbkzc2
-=yoOy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCdRwUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uFQP/A8dg0Iku6m7gB5M3iqS
+WTVOPj6fiATjH+mEGTY6x+62TJSH+zb2w5XIPde92k7aeaPobELIeyJa8snJ/IAR
+493ZsTIw+zJHhsoKjE5ZU/IeqMvkEP1W6xo5K95a5ZD10t8lfm1V1vykXRtll8Gr
+4qt+WUsi8JcxyX2hoBgkZU9tdXjGgQCCoa1b6wEo/u6fTj4qXM2NLVV/d3xe8+9S
+fwwFtuv70X7LlQHWZOmltAHNaAtm/uzgIBqHn7osawBYBHVKTtku02gF0P2LAfwh
+Q4MjCj9lkOQom9kq5jo92sRK+cnfP0nVb7W8SYd5t2ggXD9f82+4d3lymkPJAdWj
+JOv3TLSSwON9ghS5a2xASdO8bWfLFdDo55SIYHGPA3IH3+y5zvHGlxY2/mrV85pT
+iXPXPAV9BzcVg+VI23zRxxuErMyM+FxPSry1zEjn7wEhxKk6BLTyKw94bA9qRSCn
+vW8tR08SbunB98NG/D5s2s8Z7kQSpNqytC+GB2sR+hVJtRK/kCiE3n3U5Mo1O4tI
+CsavvamkkPYP1FncibuN4amWDaWcV7ugITC74QXfnj1188SFM04NiZBHPcvyagOu
+pY3LEsTtZXqOwRJUC/3B1hiSOjhfBUOb4TkUl1srkTOf5Z6tFoBbfiPB65Fgk2cC
+K2gZyg5I1rQGcGK7BDVF4JdG
+=hQkN
 -----END PGP SIGNATURE-----
 
---===============7815986781273289942==
+--===============4043473256692267689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a3239a738d8-bee1b0511844.txt
+Content-Disposition: attachment; filename=revlist-bee1b0511844-abd7bca23bd4.txt
 
-3e465fc3846734e9489273d889f19cc17b4cf4bd Revert "media: rcar_drif: fix a memory disclosure"
-99ae3417672a6d4a3bf68d4fc43d7c6ca074d477 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
-754f39158441f4c0d7a8255209dd9a939f08ce80 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-fd013265e5b5576a74a033920d6c571e08d7c423 Revert "media: usb: gspca: add a missed check for goto_low_power"
-4b059ce1f4b368208c2310925f49be77f15e527b Revert "ALSA: sb: fix a missing check of snd_ctl_add"
-8d1beda5f11953ffe135a5213287f0b25b4da41b Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-6647f7a06eb030a2384ec71f0bb2e78854afabfe leds: lp5523: check return value of lp5xx_read and jump to cleanup code
-b0a85abbe92e1a6f3e8580a4590fa7245de7090b Revert "serial: max310x: pass return value of spi_register_driver"
-3890e3dea315f1a257d1b940a2a4e2fa16a7b095 serial: max310x: unregister uart driver in case of failure and abort
-68c5634c4a7278672a3bed00eb5646884257c413 Revert "rtlwifi: fix a potential NULL pointer dereference"
-30b0e0ee9d02b97b68705c46b41444786effc40c net: rtlwifi: properly check for alloc_workqueue() failure
-5f94eaa4ee23e80841fa359a372f84cfe25daee1 Revert "net: fujitsu: fix a potential NULL pointer dereference"
-52202be1cd996cde6e8969a128dc27ee45a7cb5e net: fujitsu: fix potential null-ptr-deref
-5369ead83f5aff223b6418c99cb1fe9a8f007363 Revert "net/smc: fix a NULL pointer dereference"
-bbeb18f27a44ce6adb00d2316968bc59dc640b9b net/smc: properly handle workqueue allocation failure
-4df07045fcfd684379a394d0f2aa0cc4067bda2a Revert "net: caif: replace BUG_ON with recovery code"
-65a67792e3416f7c5d7daa47d99334cbb19a7449 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
-bee1b0511844c8c79fccf1f2b13472393b6b91f7 Revert "net: stmicro: fix a missing check of clk_prepare"
+0c32a96d000f260b5ebfabb4145a86ae1cd71847 net: stmicro: handle clk_prepare() failure during init
+7930742d6a0ff091c85b92ef4e076432d8d8cb79 Revert "niu: fix missing checks of niu_pci_eeprom_read"
+e6e337708c22f80824b82d4af645f20715730ad0 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+b95b57dfe7a142bf2446548eb7f49340fd73e78b Revert "qlcnic: Avoid potential NULL pointer dereference"
+84460f01cba382553199bc1361f69a872d5abed4 qlcnic: Add null check after calling netdev_alloc_skb
+257343d3ed557f11d580d0b7c515dc154f64a42b Revert "gdrom: fix a memory leak bug"
+d03d1021da6fe7f46efe9f2a7335564e7c9db5ab cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+566f53238da74801b48e985788e5f7c9159e5940 Revert "char: hpet: fix a missing check of ioremap"
+b11701c933112d49b808dee01cb7ff854ba6a77a char: hpet: add checks after calling ioremap
+4d427b408c4c2ff1676966c72119a3a559f8e39b Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+2f4a784f40f8d337d6590e2e93f46429052e15ac scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+1dacca7fa1ebea47d38d20cd2df37094805d2649 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
+94f88309f201821073f57ae6005caefa61bf7b7e Revert "ALSA: sb8: add a check for request_region"
+a28591f61b60fac820c6de59826ffa710e5e314e ALSA: sb8: Add a comment note regarding an unused pointer
+4667a6fc1777ce071504bab570d3599107f4790f Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
+58c0cc2d90f1e37c4eb63ae7f164c83830833f78 Revert "video: hgafb: fix potential NULL pointer dereference"
+dc13cac4862cc68ec74348a80b6942532b7735fa video: hgafb: fix potential NULL pointer dereference
+abd7bca23bd4247124265152d00ffd4b2b0d6877 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
 
---===============7815986781273289942==--
+--===============4043473256692267689==--
