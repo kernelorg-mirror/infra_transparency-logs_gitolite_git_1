@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4032459162575408285=="
+Content-Type: multipart/mixed; boundary="===============5582350495813840767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Thu, 13 May 2021 19:45:30 -0000
-Message-Id: <162093513085.25942.17174778121649177849@gitolite.kernel.org>
+Date: Thu, 13 May 2021 19:45:34 -0000
+Message-Id: <162093513464.26010.9396470136249865114@gitolite.kernel.org>
 
---===============4032459162575408285==
+--===============5582350495813840767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: bd75087314114bd0827d3e22317cb993b16b925d
-    new: 66a94f773a8d80ee5e3c1e2e747434c622047e2e
-    log: |
-         66a94f773a8d80ee5e3c1e2e747434c622047e2e Bump release to 0.3.0
-         
+  - ref: refs/tags/v0.3.0
+    old: 0000000000000000000000000000000000000000
+    new: baee48a48115a97ce38e27b03f335d10a541879c
 
---===============4032459162575408285==
+--===============5582350495813840767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1620935130 -0400
+pusher B6C41CE35664996C! 1620935134 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1620935130-5c4de210d7d5ce4d471731897b9f10a1bc05e767
+nonce 1620935134-4d2ec4518a2714605270662e39a0399c570aa476
 
-bd75087314114bd0827d3e22317cb993b16b925d 66a94f773a8d80ee5e3c1e2e747434c622047e2e refs/heads/main
+0000000000000000000000000000000000000000 baee48a48115a97ce38e27b03f335d10a541879c refs/tags/v0.3.0
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ2B2gAKCRC2xBzjVmSZ
-bOIxAP4zell54JoMd4wMoaO+a48tAx3awuaXCOgZ+950BTikoQD8C1Qqt+9kJ5mU
-1JYEOlE7rMZ5qOGlKBxhxUJJpZYXNQY=
-=w/Gi
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ2B3gAKCRC2xBzjVmSZ
+bOfNAP4kTMqQct8tLdnLUtiDR/oVB69HfTQoytSM+TKItRn1SgD/aNJGDTwh9g4E
+aPTUpBDHIupqdmsR35r9rnQIvRGrsAs=
+=5lID
 -----END PGP SIGNATURE-----
 
---===============4032459162575408285==--
+--===============5582350495813840767==--
