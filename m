@@ -1,62 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5463387400659342759=="
+Content-Type: multipart/mixed; boundary="===============0328195577125406547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 14 May 2021 06:40:05 -0000
-Message-Id: <162097440560.3841.15126692181733039706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 14 May 2021 06:47:57 -0000
+Message-Id: <162097487798.7466.9858630916023138096@gitolite.kernel.org>
 
---===============5463387400659342759==
+--===============0328195577125406547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/staging-next
-    old: f6d5d118462de2797f5925e04b826f00c66f6325
-    new: 5f8e9aff1a116c8cc7c58d174d7e2ed172ba8993
-    log: |
-         b97fad10de387c09ae46f607955c7237afa96654 staging: rtl8723bs: replace private CRC-32 routines with in-kernel ones
-         1f5adcfe87a08afb228d895a623464ba5113866e staging: rtl8723bs: remove unneeded comments to silence 'line too long' warning
-         08df2c3ba11974fd022f7c83a7c76f6c17462ccf staging: qlge: removed unnecessary debug message to fix coding style warning
-         7ac5ed5095a579ea12cedc30978ffb048b4a0884 staging: rtl8723bs: hal: Remove set but unused variable
-         76dfbca4757ff5c00ee78d4040c85b814f5b0166 staging: rtl8723bs: core: Remove unnecessary lines of code
-         56a1c5cc8a16839ef7f538e208f23acb38eb2189 Staging: vchiq_arm: Using pr_err and pr_notice instead of printk
-         5f8e9aff1a116c8cc7c58d174d7e2ed172ba8993 staging: rtl8723bs: remove unused argument 'msg'
-         
+  - ref: refs/heads/master
+    old: aa96d0d0b147f71518a6bf084c10cc8a8a071e35
+    new: 107d352d8fd3869fa765655babefb688cb136717
+    log: revlist-aa96d0d0b147-107d352d8fd3.txt
 
---===============5463387400659342759==
+--===============0328195577125406547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-aa96d0d0b147-107d352d8fd3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1620974400 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1620974399-9fd6be4c56c8827a38b706725af0893f867d8f6a
+e5af36b2adb858e982d78d41d7363d05d951a19a cpufreq: intel_pstate: Use HWP if enabled by platform firmware
+29038ae2ae566d9441e81cda3539db17c20bf06a Revert "Revert "ACPI: scan: Turn off unused power resources during initialization""
+726c945ab2ebd104631b6105ab455a5bc604a3f1 hwmon: (corsair-psu) Remove unneeded semicolons
+5216dff22dc2bbbbe6f00335f9fd2879670e753b hwmon: (occ) Fix poll rate limiting
+2d101db3e5be3bbee6001d4227705cec70ecb82e hwmon: (pmbus/fsp-3y) Fix FSP-3Y YH-5151E non-compliant vout encoding
+8370e5b093080c03cf89f7ebf0bef6984545429e hwmon: (ltc2992) Put fwnode in error case during ->probe()
+0c8bd174f0fc131bc9dfab35cd8784f59045da87 ACPI: scan: Fix a memory leak in an error handling path
+c745253e2a691a40c66790defe85c104a887e14a PM: runtime: Fix unpaired parent child_count for force_resume
+2404b8747019184002823dba7d2f0ecf89d802b7 ACPI: PM: Add ACPI ID of Alder Lake Fan
+3b5169c2eb81e822445469a077223f8eb0729a59 hwmon: (adm9240) Fix writes into inX_max attributes
+d1e7c13a9b0c27c9440e00865a7c46b7a87767ee Merge tag 'hwmon-for-v5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d4d0ad57b3865795c4cde2fb5094c594c2e8f469 vgacon: Record video mode changes with VT_RESIZEX
+a90c275eb144c1b755f04769e1f29d832d6daeaf vt_ioctl: Revert VT_RESIZEX parameter handling removal
+860dafa902595fb5f1d23bbcce1215188c3341e6 vt: Fix character height handling with VT_RESIZEX
+adc12a7407b28c0f257227a508db83ab00911b74 Merge branch 'resizex' (patches from Maciej)
+78a6948bbadd0da46d318f3b7a954a71e02c39f7 Merge branch 'pm-core'
+fd38651716b45f817a542c34cd5336ff372d06e6 Merge branch 'acpi-pm'
+2df38a8e9b838c94e08f90f0487a90cea4f92c25 Merge tag 'acpi-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+315d99318179b9cd5077ccc9f7f26a164c9fa998 Merge tag 'pm-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+107d352d8fd3869fa765655babefb688cb136717 Merge branch 'linus'
 
-f6d5d118462de2797f5925e04b826f00c66f6325 5f8e9aff1a116c8cc7c58d174d7e2ed172ba8993 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCeG0AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VRsP/iFWZOSFNEqhCgskYChC
-bXYBOZkzRt3wWnklZt6Oms11LkBGXIHnmrR3E/LKstYpodKfRLcehM/+eu0W4oWL
-DyHHJcA/Gd5fa8jOn0H1C53FdSaV0RHE3s4Zr6y/L/8xBIR6Mnucnjyh3Dr//aYW
-l1O8//VoDBwN6G9uMWli9BL9VRZadhBrOBEsAe6MAR38p0gO1rWag9eZVAWgXoNG
-3YXNtmY9neck3PDkdP1B99Nc9zidDnvHcxZDCJ8POqTp/adBS/lG2zpX2ed2IhUh
-hTRmPnwmxyFQTP9CWmlv7ROMsxpdorljK5XNW1dUI4qE7/3Mgqjr1Ce5BOSZue93
-bF96+WXsMzHa9VZ/ly4xB1k/rciIcR+h0d+B1B0qd+2Mx+oQJZe/3d7xxCzvho5W
-5RoHEyTAyE3jCAxznSCOzsNew1SOa38IRwHUsz6Ek4QZMrqcmiv5gGbcOAs5059t
-YB31uYhvgoXs+CifoAsZ1sOuyAgOkveyRKOZF4DKjHcxNDkzod8EWP8f8UNUmIVj
-AvUj02vVxA+glxWrfhwLHW0kLrT7GjX1hPCSJwsCoJXu4N1jEnMSRMWGXh92TjT1
-Cj9Xk0AjiOhdibLV5QZ+kg2ILfVkqPXYiGkrUZsLOng3dYTHptQ2rNabG4k2j6Ir
-cukWVMCQXtaOSVZox314oKY5
-=q4Cy
------END PGP SIGNATURE-----
-
---===============5463387400659342759==--
+--===============0328195577125406547==--
