@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0834198577303413913=="
+Content-Type: multipart/mixed; boundary="===============8003323281560841868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 14 May 2021 11:42:24 -0000
-Message-Id: <162099254489.26817.5642332378088807977@gitolite.kernel.org>
+Date: Fri, 14 May 2021 11:43:22 -0000
+Message-Id: <162099260219.27178.4421017449943219604@gitolite.kernel.org>
 
---===============0834198577303413913==
+--===============8003323281560841868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 747b67088f8d34b3ec64d31447a1044be92dd348
     new: ea89c862f01e02ec459932c7c3113fa37aedd09a
     log: revlist-747b67088f8d-ea89c862f01e.txt
 
---===============0834198577303413913==
+--===============8003323281560841868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ea0fbd05d7bd3298290d3579a837311ee5ceaf18 atl1c: improve link detection reliabili
 fe0bdaec8dea9912b95296d758422d95aa57fac0 bpf: Use struct_size() in kzalloc()
 ea89c862f01e02ec459932c7c3113fa37aedd09a net: mana: Use struct_size() in kzalloc()
 
---===============0834198577303413913==--
+--===============8003323281560841868==--
