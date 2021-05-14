@@ -1,38 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 14 May 2021 12:20:07 -0000
-Message-Id: <162099480720.20194.7703469967895369126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 14 May 2021 12:20:51 -0000
+Message-Id: <162099485193.20532.201869133709656396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 63ab1d0f590ff7fe3234589aa977b5777661d091
-    new: 05bb2ae3f2bf0f86fe8740b90d357cccb7aa3764
+  - ref: refs/heads/v5.14-armsoc/dts64
+    old: 837188d49823230f47afdbbec7556740e89a8557
+    new: 5a65adfa2ad1542f856fc7de3999d51f3a35d2e2
     log: |
-         bb2a176a1757f35efeced7cd43c23100f72a1d76 Merge branch 'acpi-pm' into linux-next
-         05bb2ae3f2bf0f86fe8740b90d357cccb7aa3764 Merge branch 'acpi-dptf' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: cb7accda3e01f71abfb7a987f8733e8c2d2d911d
-    new: 05bb2ae3f2bf0f86fe8740b90d357cccb7aa3764
-    log: |
-         2404b8747019184002823dba7d2f0ecf89d802b7 ACPI: PM: Add ACPI ID of Alder Lake Fan
-         7d966119f7db5b0bbba61ec3376dad48567aecae ACPI: DPTF: Add battery participant for Intel SoCs
-         bb2a176a1757f35efeced7cd43c23100f72a1d76 Merge branch 'acpi-pm' into linux-next
-         05bb2ae3f2bf0f86fe8740b90d357cccb7aa3764 Merge branch 'acpi-dptf' into linux-next
-         
-  - ref: refs/heads/testing
-    old: cb7accda3e01f71abfb7a987f8733e8c2d2d911d
-    new: 05bb2ae3f2bf0f86fe8740b90d357cccb7aa3764
-    log: |
-         2404b8747019184002823dba7d2f0ecf89d802b7 ACPI: PM: Add ACPI ID of Alder Lake Fan
-         7d966119f7db5b0bbba61ec3376dad48567aecae ACPI: DPTF: Add battery participant for Intel SoCs
-         bb2a176a1757f35efeced7cd43c23100f72a1d76 Merge branch 'acpi-pm' into linux-next
-         05bb2ae3f2bf0f86fe8740b90d357cccb7aa3764 Merge branch 'acpi-dptf' into linux-next
+         b82f8e2992534aab0fa762a37376be30df263701 arm64: dts: rockchip: fix regulator-gpio states array
+         271b66414df0b172c936b3cfd1894b7939f84165 arm64: dts: rockchip: Add support for two PWM fans on helios64
+         5a65adfa2ad1542f856fc7de3999d51f3a35d2e2 arm64: dts: rockchip: Add support for PCIe on helios64
          
