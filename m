@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Fri, 14 May 2021 17:30:50 -0000
-Message-Id: <162101345026.4289.11869545553422443416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 14 May 2021 17:31:51 -0000
+Message-Id: <162101351134.4648.14020681142696207690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/libtraceevent
-    old: 5a7d86534b123e858dd94ade741c93161a7b6130
-    new: e62c776a6abf214e854b20dd78673cc013601f43
+  - ref: refs/heads/kvm-arm64/pc-fixes
+    old: 3e88b4bffb01d3b1e0c0468d7847642cc533ca7c
+    new: 2d6033a3fecc30cf7506b813ca02ee02bffbc0fc
     log: |
-         e62c776a6abf214e854b20dd78673cc013601f43 libtraceevent: Add new line to trace-seq warnings
+         0a7ecf850c18fee05f2fcd47f810d71713c2d400 KVM: arm64: Move __adjust_pc out of line
+         2d6033a3fecc30cf7506b813ca02ee02bffbc0fc KVM: arm64: Commit pending PC adjustemnts before returning to userspace
          
