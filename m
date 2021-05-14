@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 May 2021 16:08:22 -0000
-Message-Id: <162100850257.21738.15491840347092187138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 14 May 2021 16:15:49 -0000
+Message-Id: <162100894930.26179.16035261118445469400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 5280a423f1f2f9de3d84b4842bfd88dffe8d4047
-    new: 6aeac8e0ffa0022da0366ea3bfbcead71eae9bd0
+  - ref: refs/heads/for-next/fixes
+    old: af44068c581c028fd9897ca75a10fa310d8fc449
+    new: 588a513d34257fdde95a9f0df0202e31998e85c6
     log: |
-         28188cc461f6cf8b7d28de4f6df52014cc1d5e39 x86/cpu: Fix core name for Sapphire Rapids
-         3486d2c9be652a31033363bdd50391b0c8a8fe21 clocksource/drivers/hyper-v: Re-enable VDSO_CLOCKMODE_HVCLOCK on X86
-         33e38a0d086965fa8c78a6011a8443b9a830f853 Merge branch 'x86/cpu'
-         6aeac8e0ffa0022da0366ea3bfbcead71eae9bd0 Merge branch 'timers/urgent'
+         588a513d34257fdde95a9f0df0202e31998e85c6 arm64: Fix race condition on PG_dcache_clean in __sync_icache_dcache()
          
