@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 14 May 2021 10:22:39 -0000
-Message-Id: <162098775973.12851.8227542786450442313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 14 May 2021 10:34:16 -0000
+Message-Id: <162098845687.18657.455672617878749895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 89f5f8fb5bf4305a5425f70abf3c0d93643c93dc
-    new: 0a37f32ba5272b2d4ec8c8d0f6b212b81b578f7e
+  - ref: refs/heads/kvm-arm64/pc-fixes
+    old: 595d79a90552f094e63de86387871aadd23e80a9
+    new: 3e88b4bffb01d3b1e0c0468d7847642cc533ca7c
     log: |
-         0a37f32ba5272b2d4ec8c8d0f6b212b81b578f7e EDAC/ti: Add missing MODULE_DEVICE_TABLE
+         3e88b4bffb01d3b1e0c0468d7847642cc533ca7c KVM: arm64: Commit pending PC adjustemnts before returning to userspace
          
