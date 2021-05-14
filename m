@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============6494223490527201986=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 14 May 2021 20:36:24 -0000
-Message-Id: <162102458452.18352.602659498806698619@gitolite.kernel.org>
-
---===============6494223490527201986==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Fri, 14 May 2021 20:39:07 -0000
+Message-Id: <162102474774.19287.3774430682838932581@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: a186515dc19e1c56eb28446be0aac74b839eba60
-    new: fd66babbab0dc2f63972a16e7a148cff4621ed71
+  - ref: refs/heads/next
+    old: fd781f459b60522f9fbfa1e125f122cf86d4a45b
+    new: 869cbeef18e5c4370157e733b947d44f37441ea9
     log: |
-         fd66babbab0dc2f63972a16e7a148cff4621ed71 Restore check for attestation-check-dkim
+         869cbeef18e5c4370157e733b947d44f37441ea9 lsm_audit,selinux: pass IB device name by reference
          
-
---===============6494223490527201986==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1621024584 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1621024584-091da754f6ee623ffd28fc206ce03c05047333bf
-
-a186515dc19e1c56eb28446be0aac74b839eba60 fd66babbab0dc2f63972a16e7a148cff4621ed71 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYJ7fSAAKCRC2xBzjVmSZ
-bNlsAQCcm+hqj2sNCmNvwL0HmKVlgZoiQkzABrHQ04F7JgzF1gD/R1ydHU8HnBVc
-sF9wjalhzXcIhKOP6XBrZJxZg+OKxAU=
-=x6Gj
------END PGP SIGNATURE-----
-
---===============6494223490527201986==--
