@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Fri, 14 May 2021 20:59:39 -0000
-Message-Id: <162102597975.32631.1921788404533549463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 14 May 2021 21:12:03 -0000
+Message-Id: <162102672388.8103.17558472109419453347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dennis/percpu
-user: dennis
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-5.14
-    old: f183324133ea535db4127f9fad3e19725ca88bf3
-    new: 8d55ba5df39a2eb213da63911c1a75001e0717fc
+  - ref: refs/heads/master
+    old: bd3c9cdb21a2674dd0db70199df884828e37abd4
+    new: 25a1298726e97b9d25379986f5d54d9e62ad6e93
     log: |
-         8d55ba5df39a2eb213da63911c1a75001e0717fc percpu: make symbol 'pcpu_free_slot' static
-         
-  - ref: refs/heads/for-next
-    old: cd43fce65b3934b2551835562a5467f8a83f23a9
-    new: 7b92d0f97d9b891c96196a03cd6401921e174a5d
-    log: |
-         8d55ba5df39a2eb213da63911c1a75001e0717fc percpu: make symbol 'pcpu_free_slot' static
-         11da340b83f3ed70eac5dcbc374870211376216b Merge branch 'for-5.13-fixes' into for-next
-         7b92d0f97d9b891c96196a03cd6401921e174a5d Merge branch 'for-5.14' into for-next
+         eb01f5353bdaa59600b29d864819056a0e3de24d tracing: Handle %.*s in trace_check_vprintf()
+         25a1298726e97b9d25379986f5d54d9e62ad6e93 Merge tag 'trace-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
          
