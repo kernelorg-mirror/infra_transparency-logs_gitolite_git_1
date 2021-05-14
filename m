@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 14 May 2021 22:00:25 -0000
-Message-Id: <162102962523.5344.4988192285037301754@gitolite.kernel.org>
+Date: Fri, 14 May 2021 22:01:16 -0000
+Message-Id: <162102967631.5715.9616972675598405144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 30515832e987597eae354f6ffcdb3374bdfde16d
-    new: fa44821a4ddda0101f64908abc56dc25b905475d
+    old: fa44821a4ddda0101f64908abc56dc25b905475d
+    new: fc25f9f631acad4f4d0089fc400f2943c989522c
     log: |
-         fa44821a4ddda0101f64908abc56dc25b905475d sfc: don't use netif_info et al before net_device is registered
+         fc25f9f631acad4f4d0089fc400f2943c989522c net: thunderx: Drop unnecessary NULL check after container_of
          
