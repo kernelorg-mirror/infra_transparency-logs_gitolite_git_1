@@ -1,30 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 14 May 2021 15:19:41 -0000
-Message-Id: <162100558121.24330.18169907963697306851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 14 May 2021 15:20:32 -0000
+Message-Id: <162100563206.26992.9054495068987321168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: f0c7e97bd7ef35e06ee2434cc1e91972e19b0429
-    new: 8c59b8074e92ee854566f3bfede27826159baa36
+  - ref: refs/heads/master
+    old: 30bec59eab3908b681cbc2866179f7166a849c83
+    new: e8267436fd7a02d819f3d0a2a77527d2f942e08b
     log: |
-         27e7db56cf3dffd302bd7ddfacb1d405cf671a2a spi: Don't have controller clean up spi device before driver unbind
-         07dd242b9413d14905f29345b36a45cb7e9d7ac8 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
-         8c59b8074e92ee854566f3bfede27826159baa36 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 4089d045f670896c09bda7e0ef888af2b42e42fa
-    new: f8900b0628a0311eff7e711c83f751bcf3f40910
-    log: |
-         27e7db56cf3dffd302bd7ddfacb1d405cf671a2a spi: Don't have controller clean up spi device before driver unbind
-         07dd242b9413d14905f29345b36a45cb7e9d7ac8 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
-         8c59b8074e92ee854566f3bfede27826159baa36 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
-         f8900b0628a0311eff7e711c83f751bcf3f40910 Merge remote-tracking branch 'spi/for-5.14' into spi-next
+         6399ab79bf410ac317260614c36f60ad76e5aa35 zbd: only put an upper limit on max open zones once
+         eaa45783ef5079884f96813e74c6b450dc52d0f0 oslib/linux-blkzoned: move sysfs reading into its own function
+         d2f442bc0bd507510089d56cd510616093415702 ioengines: add get_max_open_zones zoned block device operation
+         e8267436fd7a02d819f3d0a2a77527d2f942e08b engines/libzbc: add support for the get_max_open_zones io op
          
