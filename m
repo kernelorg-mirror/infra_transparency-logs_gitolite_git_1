@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6753546873361439786=="
+Content-Type: multipart/mixed; boundary="===============6486022726331367409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 14 May 2021 18:22:02 -0000
-Message-Id: <162101652245.3533.10182347531892276087@gitolite.kernel.org>
+Date: Fri, 14 May 2021 18:22:21 -0000
+Message-Id: <162101654113.3679.17061558255066334165@gitolite.kernel.org>
 
---===============6753546873361439786==
+--===============6486022726331367409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: f395183f9544ba2f56b25938d6ea7042bd873521
-    new: bd3c9cdb21a2674dd0db70199df884828e37abd4
-    log: revlist-f395183f9544-bd3c9cdb21a2.txt
+  - ref: refs/heads/dev-test
+    old: d4b8656e3b34e869ee272c3d79c3bc3332eda706
+    new: 13ad01c1c72f7b810c332a164d167370323bef25
+    log: revlist-d4b8656e3b34-13ad01c1c72f.txt
 
---===============6753546873361439786==
+--===============6486022726331367409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f395183f9544-bd3c9cdb21a2.txt
+Content-Disposition: attachment; filename=revlist-d4b8656e3b34-13ad01c1c72f.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -126,7 +126,9 @@ d1f2722d5357d7a5138b1be8bd64946f0a14c81e docs: hwmon: tmp103.rst: fix bad usage 
 5e716ec68b4a75a84e28c0efa68db613deb64981 docs: networking: device_drivers: fix bad usage of UTF-8 chars
 7240cd200541543008a7ce4fcaf2ba5a5556128f Remove link to nonexistent rocket driver docs
 875d598db60ac81e768fdfd2c589f6209038488b MAINTAINERS: Update address for Emma Anholt
+ca298241bc229303ff683db7265a2c625a9c00fe f2fs: avoid swapon failure by giving a warning first
 2404b8747019184002823dba7d2f0ecf89d802b7 ACPI: PM: Add ACPI ID of Alder Lake Fan
+f395183f9544ba2f56b25938d6ea7042bd873521 f2fs: return EINVAL for hole cases in swap file
 dbb5afad100a828c97e012c6106566d99f041db6 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
 83a775d5f9bfda95b1c295f95a3a041a40c7f321 KEYS: trusted: Fix memory leak on object td
 b3ad7855b7ae3bed4242894d07bdb7f186652dbe trusted-keys: match tpm_get_ops on all return paths
@@ -161,5 +163,14 @@ fd38651716b45f817a542c34cd5336ff372d06e6 Merge branch 'acpi-pm'
 b5304a4f9ad88a712c26c63691a99c0b9b1b5dc6 Merge tag 'drm-fixes-2021-05-14' of git://anongit.freedesktop.org/drm/drm
 ac524ece210e0689f037e2d80bee49bb39791792 Merge tag 'f2fs-5.13-rc1-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 bd3c9cdb21a2674dd0db70199df884828e37abd4 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+5db479f049c4fd6cb2d61ade28c73f51487c2f45 f2fs: compress: rename __cluster_may_compress
+ee68d27181f060fab29e60d1d31aab6a42703dd4 f2fs: add cp_error check in f2fs_write_compressed_pages
+b763f3bedc2da2edf81bba550430847f561eae0e f2fs: restructure f2fs page.private layout
+cad83c968c2ebe97905f900326988ed37146c347 f2fs: fix to avoid racing on fsync_entry_slab by multi filesystem instances
+d927ccfccb009ede24448d69c08b12e7c8a6979b f2fs: Prevent swap file in LFS mode
+89e53ff1651a61cf2abef9356e2f60d0086215be f2fs: atgc: fix to set default age threshold
+fbec3b963ae1d5610602c03336597cf0396cda62 f2fs: compress: remove unneeded f2fs_put_dnode()
+91f0fb6903ed30370135381f10c02a10c7872cdc f2fs: compress: clean up parameter of __f2fs_cluster_blocks()
+13ad01c1c72f7b810c332a164d167370323bef25 f2fs: compress: remove unneeded preallocation
 
---===============6753546873361439786==--
+--===============6486022726331367409==--
