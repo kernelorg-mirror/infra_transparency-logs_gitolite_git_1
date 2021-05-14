@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 14 May 2021 23:10:09 -0000
-Message-Id: <162103380987.14932.3592496614965570981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 14 May 2021 23:12:31 -0000
+Message-Id: <162103395192.15799.11972589551124558325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/erofs-for-5.13-rc2-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 67d5c1a33c5d30097b48bf48a3e2d9c806bd563e
+  - ref: refs/heads/master
+    old: c1cccec9c63637c4c5ee0aa2da2850d983c19e88
+    new: 513f485ca5163c6cba869602d076a8e2f04d1ca1
+    log: |
+         513f485ca5163c6cba869602d076a8e2f04d1ca1 libbpf: Reject static entry-point BPF programs
+         
