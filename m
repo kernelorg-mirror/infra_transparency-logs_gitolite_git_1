@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2512905820299589617=="
+Content-Type: multipart/mixed; boundary="===============0580784172783943835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 14 May 2021 22:31:17 -0000
-Message-Id: <162103147787.24209.16097655504106905137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 14 May 2021 22:33:43 -0000
+Message-Id: <162103162310.24956.11787993516577350616@gitolite.kernel.org>
 
---===============2512905820299589617==
+--===============0580784172783943835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 709c0314239992162cba26a860f04319a15860c4
-    new: ddd998aff5401dc663e1320568ce2884aeda113c
-    log: revlist-709c03142399-ddd998aff540.txt
+  - ref: refs/heads/dev
+    old: bea1f4fb70c07ff28726c8ba9cbde228b60d1128
+    new: 5af143fb595200e689ba059bb42210f1eced23ff
+    log: revlist-bea1f4fb70c0-5af143fb5952.txt
 
---===============2512905820299589617==
+--===============0580784172783943835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-709c03142399-ddd998aff540.txt
+Content-Disposition: attachment; filename=revlist-bea1f4fb70c0-5af143fb5952.txt
 
-5d9e068402dcf7354cc8ee66c2152845306d2ccb net: dsa: qca8k: change simple print to dev variant
-2ad255f2faaffb3af786031fba2e7955454b558a net: dsa: qca8k: use iopoll macro for qca8k_busy_wait
-504bf65931824eda83494e5b5d75686e27ace03e net: dsa: qca8k: improve qca8k read/write/rmw bus access
-ba5707ec58cfb6853dff41c2aae72deb6a03d389 net: dsa: qca8k: handle qca8k_set_page errors
-028f5f8ef44fcf87a456772cbb9f0d90a0a22884 net: dsa: qca8k: handle error with qca8k_read operation
-d7805757c75c76e9518fc1023a29f0c4eed5b581 net: dsa: qca8k: handle error with qca8k_write operation
-aaf421425cbdec4eb6fd75a29e65c2867b0b7bbd net: dsa: qca8k: handle error with qca8k_rmw operation
-b7c818d194927bdc60ed15db55bb8654496a36b7 net: dsa: qca8k: handle error from qca8k_busy_wait
-6e82a457e06252b59102486767539cc9c2aba60b net: dsa: qca8k: add support for qca8327 switch
-227a9ffc1bc77037339530607fe129af3824620e devicetree: net: dsa: qca8k: Document new compatible qca8327
-83a3ceb39b2495171aabe9446271b94c678354f3 net: dsa: qca8k: add priority tweak to qca8337 switch
-5bf9ff3b9fb5ecb67a1a3517b26db3a00f2a2f11 net: dsa: qca8k: limit port5 delay to qca8337
-0fc57e4b5e39461fc0a54aae0afe4241363a7267 net: dsa: qca8k: add GLOBAL_FC settings needed for qca8327
-95ffeaf18b3bb90eeef52cbf7d79ccc9d0345ff5 net: dsa: qca8k: add support for switch rev
-1ee0591a1093c2448642c33433483e9260275f7b net: dsa: qca8k: add ethernet-ports fallback to setup_mdio_bus
-e4b9977cee1583da38a6e9118078bb728aaccf7b net: dsa: qca8k: make rgmii delay configurable
-63c33bbfeb6842a956a0eb12901e28eb335bdb18 net: dsa: qca8k: clear MASTER_EN after phy read/write
-60df02b6ea4581d72eb7a3ab7204504a54059b72 net: dsa: qca8k: dsa: qca8k: protect MASTER busy_wait with mdio mutex
-617960d72e93de0f3fa52407e2d39e8c43e73b0a net: dsa: qca8k: enlarge mdio delay and timeout
-759bafb8a3226326ca357613bc90acf738f80c32 net: dsa: qca8k: add support for internal phy and internal mdio
-0c994a28e7518f098c84a3049cb2915780db873a devicetree: bindings: dsa: qca8k: Document internal mdio definition
-b7ebac354d54f1657bb89b7a7ca149db50203e6a net: dsa: qca8k: improve internal mdio read/write bus access
-a46aec02bc06ac2c33f326339e4ef88c735dc30d net: dsa: qca8k: pass switch_revision info to phy dev_flags
-d0e13fd5626c3346dfb43831f8fb42b14764dac3 net: phy: at803x: clean whitespace errors
-272833b9b3b3969be7a91839121d86662c8c4253 net: phy: add support for qca8k switch internal PHY in at803x
-ddd998aff5401dc663e1320568ce2884aeda113c Merge branch 'qca8k-improvements'
+0d7108e1e13da8405e4885f734c0b3ab51d27b29 kcsan: Fix debugfs initcall return type
+7ecc836638e33343244caafc1f88b132556e4444 kcsan: Add pointer to access-marking.txt to data_race() bullet
+e01e09beb0ccb4d094f2f7c302fea2ee85676cc3 kcsan: Simplify value change detection
+2d9c0d1ce01c3bc3e8f47eac20d727734ac972f7 kcsan: Distinguish kcsan_report() calls
+78c000d870cbc3771e91cc2120f052ea223e1908 kcsan: Refactor passing watchpoint/other_info
+54ac8927516b2be3c3451da4524e0534c2346ce6 kcsan: Fold panic() call into print_report()
+4ac64d4fb47a10df74db02c4336b64f91fba32a7 kcsan: Refactor access_info initialization
+6317ff26799985401c6aece8f4760b254ca267a9 kcsan: Remove reporting indirection
+abe8997a9148734dbe6e6d3d847bd61e3904791e kcsan: Remove kcsan_report_type
+5142f05eb0097e68430fbe84fc2bca6606f849e6 kcsan: Report observed value changes
+6ba46fcc4019a1dd9505053c2d767e7f33dd6b6f kcsan: Document "value changed" line
+36c2b343636b2e538b0d24103472af3af982b817 kcsan: Use URL link for pointing access-marking.txt
+acf4bc3bb959e227faff4e974a1aeb2f4e789150 Merge branch 'kcsan.2021.05.14a' into HEAD
+65e76560a883a8c8be639ef5c0feec026aa04675 Merge branch 'lkmm.2021.05.10c' into HEAD
+22a3ceabc542f3c0412c5415c886f55422c02d9a Merge branch 'clocksource.2021.05.13a' into HEAD
+11aa459e5c50480138753a4f187841da347df77a Merge branch 'lkmm-dev.2021.05.10c' into HEAD
+f1680da4e5297a810b509851f426fd1ae66f2465 refscale: Add measurement of clock readout
+2431eb443d25b8e34dda9090cdbe05543ad2c30c torture: Add clocksource-watchdog testing to torture.sh
+9085a71bd9640ddfdcaf0e707577a937f1f32bdd torture: Make torture.sh accept --do-all and --donone
+a2b574a97fa86a456a026e799b8a3be0d5eca86e tools/memory-model: Make read_foo_diagnostic() more clearly diagnostic
+c9b235c63fe9a31c0dacb28008d0d2c1e0d48eae tools/memory-model: Add example for heuristic lockless reads
+a66e1307dbb750e2b0ec410bdee3989b3c22010b tools/memory-model: Heuristics using data_race() must handle all values
+5af143fb595200e689ba059bb42210f1eced23ff EXP mm, slub: move slub_debug static key enabling outside slab_mutex
 
---===============2512905820299589617==--
+--===============0580784172783943835==--
