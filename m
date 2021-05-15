@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1966882486184982464=="
+Content-Type: multipart/mixed; boundary="===============3166131133964018321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 15 May 2021 03:13:45 -0000
-Message-Id: <162104842552.28858.6355638949431916896@gitolite.kernel.org>
+Date: Sat, 15 May 2021 03:13:52 -0000
+Message-Id: <162104843212.28978.10636253688906651221@gitolite.kernel.org>
 
---===============1966882486184982464==
+--===============3166131133964018321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,58 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: 73578af92a0fae6609b955fcc9113e50e413c80f
-    log: |
-         c625b80b9d00f3546722cd77527f9697c8c4c911 scsi: ufs: ufs-mediatek: Fix power down spec violation
-         56f396146af278135c0ff958c79b5ee1bd22453d scsi: BusLogic: Fix 64-bit system enumeration error for Buslogic
-         d0b2b70eb12e9ffaf95e11b16b230a4e015a536c scsi: ufs: core: Increase the usable queue depth
-         73578af92a0fae6609b955fcc9113e50e413c80f scsi: qedf: Add pointer checks in qedf_update_link_speed()
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: 29488006baebcaa122182db8507139559c6d35be
+    new: 31f6d2273cb98f1d2996c22c0c0ae77b38732205
+    log: revlist-29488006baeb-31f6d2273cb9.txt
 
---===============1966882486184982464==
+--===============3166131133964018321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1621048424 -0400
+pusher 75C5DE3D 1621048430 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1621048423-e4f5ee3281db4890853445a0b26e3d516296a89c
+nonce 1621048429-72c7cbe266105c2568f5e3c5222b833c7bccffc9
 
-6efb943b8616ec53a5e444193dccf1af9ad627b5 73578af92a0fae6609b955fcc9113e50e413c80f refs/heads/fixes
+29488006baebcaa122182db8507139559c6d35be 31f6d2273cb98f1d2996c22c0c0ae77b38732205 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCfPGgACgkQ7ulgGnXF
-3j3CuBAAsxStHBtie6f2Uu8c4+6Bzdv1/cuWdDcllKifBP4xmRS8r9pgzYzVo+6D
-oT164AI93Z04zxIgNT0HLVTz1uxUA7j2UyhXdzEe41tQCGtZwjXdpy9DgV6vmwgj
-TXWv3vAnntN2Y7uENHngyNJiMqLE7ylNCcduL3baB7Zhup77cKqAKYY/zqTz7dC+
-9t7xiJkHAuzxe1bT1bI+yH99KMna+TKjQY2k8xDx1qU82ZQmzJR7QFVONV6mHg8g
-0qpchZu7ChIIC19e2fPSLsa2IGozijJcYvP68I6H7HkZYZ3CU3nJuSG1HxxGeID+
-5LmPzteRyeGibgkL/xa/r65jRWhX1Nh1Ed+PbCjf3GA/JyUor/dsM9n8ftQ/V5Sn
-z53Svst+DisSCKNaX0ziUBNtHwQpc/c1CWKwYA6DNn5IVUwalosB4jqYwgI1MBbm
-JjbJNmLbJL3BU4J3FAayAGXEV9xMckhnZAeDMroQZUJJMS2ON2JRw+35eJ1ZKapZ
-gXamHg8GZOl9OFdjiAx9jDZfTXHsEWwClW61rO2Nf54W2F+ShDQx9UIV0eY6LD8q
-2BhAdapmcm0Hq0E+zPG57Lm74GCZimU8hSFOfUKOtbyBLMzQnXQ9sIOwnia37KVQ
-DYFbJaEHANBPTAIm5e6xX9B0p81VzcFgMAaS7GCsyxIhtbdWYfc=
-=uhRX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCfPG4ACgkQ7ulgGnXF
+3j3f2g/8CNz1Ip+YR6W2LeLyaENdSwNR4T3OrYexiRs0jDnuwf5qf2yq9jjyomZK
+gWAQPbkqx2hSs3XZGjJBtM8jpEW/y20PNwTDAub5nGSmGjOMqUOO9/STD4GZYHA8
+moDLFKVbFXV5W42KtCt4EgrB8Y9H+Bf+tCxpfOWNFfHthSJFp5qdsODgp1aoQYuD
+JskhXroppz/vkkGcG6UJdmqm3sckKw/e3oGL78JvtSWIRQKt/vInbiSrsJqvZLvF
+u4WFkJXw5sVcTFIxuItsAM4vo/f4F/tQFWDQpLmE/WmlLk+P/ag2JZdJ+Nk2d7tZ
+oXXqHXul3+mF4LxCWHGOEkNCp60JJtMfK83hICaVaqF+dkI4MaM8mQ1zMMCB0372
+Rh0mZowG/nTseYY28J/34FVLNWnCEyA1jREgNM7dpn6OQxLFLVJGFBUzFZJPFyuw
+cCJvvRCKsnOnJOyxqzrd6ut8IemHW7dsXbGUErr/M5j6xfFqVBfHiu0sHIbuf31d
+9a0M2SAsdZJQsx3RjNBSzQu14lNgRENdqtyLDgi+wX6RRDv+NIeWk6oF+t4/i7Qq
+sDMVoZhSWJGYUfWDLswdtqx7Jvg0QCq3XwUriEtvmJAEt1emHjVFyMTvdm6cyZf0
+BFqCGUHObhNX+CLKTCXiZJrmHqnIpnJh4NiX+ysWjMcWzMwNtkw=
+=XHqe
 -----END PGP SIGNATURE-----
 
---===============1966882486184982464==--
+--===============3166131133964018321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-29488006baeb-31f6d2273cb9.txt
+
+1d8613a23f3c3b8f0101e453ff150e05a0d1cd4f scsi: ufs: core: Introduce HBA performance monitor sysfs nodes
+6ecdafaec79d4b3388a5b017245f23a0ff9d852d scsi: target: cxgbit: Unmap DMA buffer before calling target_execute_cmd()
+9959d45166faaa75d9d4bf2ad8b945dfbe9888f8 scsi: snic: Fix an error message
+8fb82abccc8a4fc25c75bf209da9b2023d064e05 scsi: scsi_debug: Drop if with an always false condition
+998da772fd86bd4ba2ba8c0ac2c9bba4815a952d scsi: target: iscsi: Drop unnecessary container_of()
+09c65383970e79db0322962efc9e56a0785580f3 scsi: qedf: Drop unnecessary NULL checks after container_of()
+2dde5c8d912efea43be94d6a83ac9cb74879fa12 scsi: core: Fix a comment in function scsi_host_dev_release()
+3ac0fcb4b1a34d196da926d302635052fd90379e scsi: target: tcmu: Rename TCM_DEV_BIT_PLUGGED to TCMU_DEV_BIT_PLUGGED
+d5b45dd5ba6c944b17118530843e67bf9c096e49 scsi: ibmvfc: Handle move login failure
+5114975eb2de4e70d9d43b57912e1aee12ec090b scsi: ibmvfc: Avoid move login if fast fail is enabled
+2e51f78b5d8717bba243f5e857031b1d104a3577 scsi: ibmvfc: Reinit target retries
+96f3903c4c7ac2c2794a9d5d6bbd2c84b079c682 scsi: message: fusion: Remove redundant assignment to rc
+f8a78e9118ee6cee7c24113891a0e24b77486f5e scsi: target: sbp_target: Remove redundant assignment to pg_size
+
+--===============3166131133964018321==--
