@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4620445239656269564=="
+Content-Type: multipart/mixed; boundary="===============4867314359465529982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 15 May 2021 05:39:43 -0000
-Message-Id: <162105718353.23863.16747349068163441760@gitolite.kernel.org>
+Date: Sat, 15 May 2021 05:39:50 -0000
+Message-Id: <162105719035.23996.16981943405884670379@gitolite.kernel.org>
 
---===============4620445239656269564==
+--===============4867314359465529982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: 5cd0f6f57639c5afbb36100c69281fee82c95ee7
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-5cd0f6f57639-6efb943b8616.txt
+  - ref: refs/heads/fixes
+    old: 176ddd89171ddcf661862d90c5d257877f7326d6
+    new: 73578af92a0fae6609b955fcc9113e50e413c80f
+    log: revlist-176ddd89171d-73578af92a0f.txt
 
---===============4620445239656269564==
+--===============4867314359465529982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cd0f6f57639-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-176ddd89171d-73578af92a0f.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
@@ -1050,5 +1046,9 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+c625b80b9d00f3546722cd77527f9697c8c4c911 scsi: ufs: ufs-mediatek: Fix power down spec violation
+56f396146af278135c0ff958c79b5ee1bd22453d scsi: BusLogic: Fix 64-bit system enumeration error for Buslogic
+d0b2b70eb12e9ffaf95e11b16b230a4e015a536c scsi: ufs: core: Increase the usable queue depth
+73578af92a0fae6609b955fcc9113e50e413c80f scsi: qedf: Add pointer checks in qedf_update_link_speed()
 
---===============4620445239656269564==--
+--===============4867314359465529982==--
