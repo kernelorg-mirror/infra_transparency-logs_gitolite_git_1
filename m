@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Sat, 15 May 2021 19:34:02 -0000
-Message-Id: <162110724224.10208.7475534652203935095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 15 May 2021 19:57:45 -0000
+Message-Id: <162110866504.24915.12860128106794684186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: 22c2725695ec737f8c6c3a5dc625befaa93127ec
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+  - ref: refs/heads/v5.14-armsoc/dts32
+    old: a082a4ba218457fd52256e4357184b58d3fcaa49
+    new: 6e4e4e2a255849758b8d3240671060d355d71edf
+    log: |
+         6e4e4e2a255849758b8d3240671060d355d71edf ARM: dts: rockchip: move and restyle grf nodes rk3066/rk3188
+         
