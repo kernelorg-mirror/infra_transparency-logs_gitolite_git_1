@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3166131133964018321=="
+Content-Type: multipart/mixed; boundary="===============3812913619857859805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 15 May 2021 03:13:52 -0000
-Message-Id: <162104843212.28978.10636253688906651221@gitolite.kernel.org>
+Date: Sat, 15 May 2021 03:13:57 -0000
+Message-Id: <162104843723.29059.10259146335336751935@gitolite.kernel.org>
 
---===============3166131133964018321==
+--===============3812913619857859805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 29488006baebcaa122182db8507139559c6d35be
-    new: 31f6d2273cb98f1d2996c22c0c0ae77b38732205
-    log: revlist-29488006baeb-31f6d2273cb9.txt
+  - ref: refs/heads/5.14/scsi-staging
+    old: 39107e8577ad177db4585d99f1fcc5a29a754ee2
+    new: f8a78e9118ee6cee7c24113891a0e24b77486f5e
+    log: revlist-39107e8577ad-f8a78e9118ee.txt
 
---===============3166131133964018321==
+--===============3812913619857859805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1621048430 -0400
+pusher 75C5DE3D 1621048435 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1621048429-72c7cbe266105c2568f5e3c5222b833c7bccffc9
+nonce 1621048435-7e6f15087c77e5900861befccef9f07d90a32c32
 
-29488006baebcaa122182db8507139559c6d35be 31f6d2273cb98f1d2996c22c0c0ae77b38732205 refs/tags/mkp-scsi-staging
+39107e8577ad177db4585d99f1fcc5a29a754ee2 f8a78e9118ee6cee7c24113891a0e24b77486f5e refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCfPG4ACgkQ7ulgGnXF
-3j3f2g/8CNz1Ip+YR6W2LeLyaENdSwNR4T3OrYexiRs0jDnuwf5qf2yq9jjyomZK
-gWAQPbkqx2hSs3XZGjJBtM8jpEW/y20PNwTDAub5nGSmGjOMqUOO9/STD4GZYHA8
-moDLFKVbFXV5W42KtCt4EgrB8Y9H+Bf+tCxpfOWNFfHthSJFp5qdsODgp1aoQYuD
-JskhXroppz/vkkGcG6UJdmqm3sckKw/e3oGL78JvtSWIRQKt/vInbiSrsJqvZLvF
-u4WFkJXw5sVcTFIxuItsAM4vo/f4F/tQFWDQpLmE/WmlLk+P/ag2JZdJ+Nk2d7tZ
-oXXqHXul3+mF4LxCWHGOEkNCp60JJtMfK83hICaVaqF+dkI4MaM8mQ1zMMCB0372
-Rh0mZowG/nTseYY28J/34FVLNWnCEyA1jREgNM7dpn6OQxLFLVJGFBUzFZJPFyuw
-cCJvvRCKsnOnJOyxqzrd6ut8IemHW7dsXbGUErr/M5j6xfFqVBfHiu0sHIbuf31d
-9a0M2SAsdZJQsx3RjNBSzQu14lNgRENdqtyLDgi+wX6RRDv+NIeWk6oF+t4/i7Qq
-sDMVoZhSWJGYUfWDLswdtqx7Jvg0QCq3XwUriEtvmJAEt1emHjVFyMTvdm6cyZf0
-BFqCGUHObhNX+CLKTCXiZJrmHqnIpnJh4NiX+ysWjMcWzMwNtkw=
-=XHqe
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCfPHMACgkQ7ulgGnXF
+3j2EwQ/+KI6UyPj7RU6Hyr4ST/qnELLrvCqN4kkPbWA1kZx4tVLDfe1vSQlw9HCn
+67pNMo4pdYfE5OZriz5ieNWwq/EJfBvOhTw/cR7aJ3BQtqreTX7KSnKJxpFDGdzV
+KP2MlKVUL4RAGKMaVGddQxjcQ5nb6lC7XhrjTN9I8hhsS7iCLFDZIbdxfGXbsMHZ
+Z5nZaNUTX/n7AYKIXgSNEy+8g+t8TR6oDmcNqwZmP6XsagrIzE9lRkbSzN9kMNvG
+DqKADYQ3LDhLcd/Ry7TzqxJcj6/zDUfyb+vwTA4oMIoKLj3GpaHpSJfm0eOkTvei
+ocDHQH+A4Qu2J1KA4hpSYcjroSdN6ddAYcTG4Ghb+liLiyOe2Rbzhzam7+qJAgUS
+e8bjRsDeoQxOzOEr9ZuOOIsFgQcTMApDmsUXv5uABz4yB5cz+2bQc6Vqyecaj3KH
+GN/lmU3IoR8C9NYhQtOXcod1xrbzUgGPyqMGTCdLiMwcegZEV3jqd1BUhzQ8Xjn1
+2c7Yv8dhb1yH9Qnn+Ny15q8Pd7JJApb1rtVbrowWlpbNzZPePTpospxd+73AaNtD
+2ei6BWcDdf3M336+flSTOxtbwcZOWchoX/Xpr1OW/JqPH7YdPIpJLTevjnCVZVZ/
+L19eiopnwJZJwl1d3owrr3b+Zwoka88X4Yg0t8CEE33GUufr9Xg=
+=EXrg
 -----END PGP SIGNATURE-----
 
---===============3166131133964018321==
+--===============3812913619857859805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29488006baeb-31f6d2273cb9.txt
+Content-Disposition: attachment; filename=revlist-39107e8577ad-f8a78e9118ee.txt
 
 1d8613a23f3c3b8f0101e453ff150e05a0d1cd4f scsi: ufs: core: Introduce HBA performance monitor sysfs nodes
 6ecdafaec79d4b3388a5b017245f23a0ff9d852d scsi: target: cxgbit: Unmap DMA buffer before calling target_execute_cmd()
@@ -70,4 +70,4 @@ d5b45dd5ba6c944b17118530843e67bf9c096e49 scsi: ibmvfc: Handle move login failure
 96f3903c4c7ac2c2794a9d5d6bbd2c84b079c682 scsi: message: fusion: Remove redundant assignment to rc
 f8a78e9118ee6cee7c24113891a0e24b77486f5e scsi: target: sbp_target: Remove redundant assignment to pg_size
 
---===============3166131133964018321==--
+--===============3812913619857859805==--
