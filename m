@@ -1,66 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4015949469789883633=="
+Content-Type: multipart/mixed; boundary="===============7558064075847198089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 15 May 2021 07:19:13 -0000
-Message-Id: <162106315361.19810.15141528938674842284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 15 May 2021 07:19:21 -0000
+Message-Id: <162106316125.19937.15099130806885723143@gitolite.kernel.org>
 
---===============4015949469789883633==
+--===============7558064075847198089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 17e336db2b8ac5a91036184771655abe2d158273
-    new: 3ce3e45cc333da707d4d6eb433574b990bcc26f5
+  - ref: refs/heads/driver-core-next
+    old: 0733d83905326baef3c25d8bd9a96fdc9eb71b86
+    new: 5c3e241f5246445da29bd03783ca61a18face968
     log: |
-         dccdb2fcd239d5fe281e7dd371a75e578f535a5b uio: uio_aec: Use pci_iounmap instead of iounmap
-         20be064ec864086bca7a4eb62c772a397b44afb7 nvmem: sprd: Fix an error message
-         e4e050167fd0faf104933b13aff9a8bb541c5f4a uio: uio_pci_generic: add memory resource mappings
-         da9db711733067b45ffbcd582387ad86369e2c62 cxl: Fix an error message
-         9ac78c8a0c938fb31e2336fc5266776c3833a7dc video: ssd1307fb: Drop OF dependency
-         4a5ff99bbb8fcd4642995ef39bccc7f25e1f90d3 misc: eeprom_93xx46: Remove hardcoded bit lengths
-         14374fbb3f06ddaba186d608a58c07f3d48d08df misc: eeprom_93xx46: Add new 93c56 and 93c66 compatible strings
-         a56dfb6a79ee744d2b4ebdc6be56d7201c6bd22c dt-bindings: eeprom-93xx46: Add support for 93C46, 93C56 and 93C66
-         1553573c588e5435b453bf046a2dc9752f1a5d76 sparc/vio: make remove callback return void
-         7272b591c4cb9327c43443f67b8fbae7657dd9ae misc/libmasm/module: Fix two use after free in ibmasm_init_one
-         3ce3e45cc333da707d4d6eb433574b990bcc26f5 misc: alcor_pci: fix null-ptr-deref when there is no PCI bridge
+         d616f56d34e2a30a4c9d6574c70b15a6082c0edc debugfs: only accept read attributes for blobs
+         8c60a14104e8e85f08b855e62ee8fe6947da2870 driver core: replace open-coded device_lock_assert()
+         a6daf4bb5fcb893f7aa2a97e043ee11816743f81 driver core: attribute_container: fix W=1 warnings
+         5c3e241f5246445da29bd03783ca61a18face968 lib: devres: Add error information printing for __devm_ioremap_resource()
          
 
---===============4015949469789883633==
+--===============7558064075847198089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621063147 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621063147-f5c365d7a37b84f12fd0bf593b2020e8eead70e9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621063155 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1621063155-8d51ed58c529044478f1fd5abef219a994c11127
 
-17e336db2b8ac5a91036184771655abe2d158273 3ce3e45cc333da707d4d6eb433574b990bcc26f5 refs/heads/char-misc-next
+0733d83905326baef3c25d8bd9a96fdc9eb71b86 5c3e241f5246445da29bd03783ca61a18face968 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCfdesbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6cQAIZ/MLgoiTn7MZhGKpCx
-TzzqH0L6ogqS4Cqt6WvrG8G4tqk3HSXeYse1gTTx7GAS9LYQ3pmOroZnXRlH9ys0
-maqxmQHqMw5kWkELzm+0oxkJXXiUgT1tfdk9R+Ca+pahMEm+tAk7BAIDxWAjMaN5
-SW3fVkDBUWOUWK/K7+L3yxNm+dZ71yMZKy1Jpeoy/924D4GxDsvqp72l0jelYfv2
-k3r836sX2UUVh2wqu8/CJoUxpGnUo1F3MHlZ2kgP/9O/cLztTUcjGMj99I0inP3V
-lpOIEl0i86Nh3xWp3C7/WLQn5j2T5BaO339gLYOozHbYRfNCOmZezS9BoI6hfJXB
-dM3bzpaK3fEvccO7cYXNr6HKXE+QTNBka4r6UmQ2c/15ywPMmsWuLkAHenYxnbMF
-gSzedixz+TpenBkIoFTMWuIgUy5T14jsVYZ+Me03Wcdm/mE72DhWahoDCPvnSWki
-fnLNusEQHXObnFB3S0G4Jn5XzdVMxPDcx+MfEPU9paotRgoHU9tfOqXfppLMKe9d
-0wPgRQYSz4BTAUpzlaHXitxBOZCf1pQQit6w1FUasVHw92GkkKzYuY7qL+b5WF9Y
-d1/IFY/NbsBW2VbFJDOfzNO1rnGtbcryHZunHNN/gcr/qAcl3FhcQNitSLR9+7O3
-tOaCpmXUL2J1HrqkQsnahOuH
-=p07s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCfdfMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I18P/2LRqY35Ui9d6G03u/Y0
+gMl1chvuhS6n3C4Obf3VhLzVce+1veqRron1G6CGkb1kva250Akf0OCgMN8FtF8l
+AnGyz+ZexxrjJ5j7aSuRfojd+AElT1nVFSieDzwjJ0vfRpkxjWsz+SR2OZk/EgXV
+ikCM9nRQgcGLE1RwI6XjACCfLxFaCNdGgRG5xPq7ew+6BZ4Yr0YGBFuOHHwjLAFR
+7qv+OO5FfsuW1EpriD9GprgtQjTY01fqv8jOzVUkdsH6ZcKcSGxDW0luph5eH/KD
+ZNvwfX1E4EfwHhbxL3Na1n7BUhufPjWRv+bkh2qN0e4FiyQ3UW+LSxAeuLIVBALc
+eUU6OivmsTnxaw0mO3rEgeKnGz3e5gTMdb4z+U8/mI4fU9VLgnJ1xLs+mXsxV3uw
+7IPjo+dNDamkimor5gg6KBS7hZXI3pQPzXQelkPLS9UuLgQ1wP765pF7MRjouaq5
+bS9U6mWzejx58hpvK+fzVLe0HJlC112Qv9lidftGEJbPj0s80H22mi7sk4sC/WG3
+J8Lt6eZoaYvVhslEeqB9xZHxMt7mgyIrf/1XJR1vRnoqTTwFg0UehMLtqHe45cxt
+NFKmkWA1lTHPLVmPDASjyb0IIkq0pP96qbADUz0Ema9bkZdYDGjaQZYEqeFj3Hwd
+Tn0xlOPWn8LNsdfZSOfi0J4H
+=aopP
 -----END PGP SIGNATURE-----
 
---===============4015949469789883633==--
+--===============7558064075847198089==--
