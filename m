@@ -1,59 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============7106855067255241911=="
+Content-Type: multipart/mixed; boundary="===============4015949469789883633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 15 May 2021 07:18:50 -0000
-Message-Id: <162106313087.19441.6126463235732895657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 15 May 2021 07:19:13 -0000
+Message-Id: <162106315361.19810.15141528938674842284@gitolite.kernel.org>
 
---===============7106855067255241911==
+--===============4015949469789883633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 5f8e9aff1a116c8cc7c58d174d7e2ed172ba8993
-    new: 76e78f3df8f5d21b1a85f770fa92a1fd211e429b
+  - ref: refs/heads/char-misc-next
+    old: 17e336db2b8ac5a91036184771655abe2d158273
+    new: 3ce3e45cc333da707d4d6eb433574b990bcc26f5
     log: |
-         519c49678a1311d7ec748660ef1f9d9753970cf1 staging: mt7621-dts: use clock in pci phy nodes
-         30e06867478fe2032723cbd52768a84bbba63a8c staging: rtl8723bs: hal: Remove three set but unused variables
-         09be0d0db530412eae63b8e11cf03d2b93d2426d staging: rtl8723bs: hal: Remove set but unused variable
-         76e78f3df8f5d21b1a85f770fa92a1fd211e429b staging: unisys: visorinput: remove redundant assignment of variable led
+         dccdb2fcd239d5fe281e7dd371a75e578f535a5b uio: uio_aec: Use pci_iounmap instead of iounmap
+         20be064ec864086bca7a4eb62c772a397b44afb7 nvmem: sprd: Fix an error message
+         e4e050167fd0faf104933b13aff9a8bb541c5f4a uio: uio_pci_generic: add memory resource mappings
+         da9db711733067b45ffbcd582387ad86369e2c62 cxl: Fix an error message
+         9ac78c8a0c938fb31e2336fc5266776c3833a7dc video: ssd1307fb: Drop OF dependency
+         4a5ff99bbb8fcd4642995ef39bccc7f25e1f90d3 misc: eeprom_93xx46: Remove hardcoded bit lengths
+         14374fbb3f06ddaba186d608a58c07f3d48d08df misc: eeprom_93xx46: Add new 93c56 and 93c66 compatible strings
+         a56dfb6a79ee744d2b4ebdc6be56d7201c6bd22c dt-bindings: eeprom-93xx46: Add support for 93C46, 93C56 and 93C66
+         1553573c588e5435b453bf046a2dc9752f1a5d76 sparc/vio: make remove callback return void
+         7272b591c4cb9327c43443f67b8fbae7657dd9ae misc/libmasm/module: Fix two use after free in ibmasm_init_one
+         3ce3e45cc333da707d4d6eb433574b990bcc26f5 misc: alcor_pci: fix null-ptr-deref when there is no PCI bridge
          
 
---===============7106855067255241911==
+--===============4015949469789883633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621063125 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1621063124-8f79895ca635db9f49789588afd205e61d47a61b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621063147 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1621063147-f5c365d7a37b84f12fd0bf593b2020e8eead70e9
 
-5f8e9aff1a116c8cc7c58d174d7e2ed172ba8993 76e78f3df8f5d21b1a85f770fa92a1fd211e429b refs/heads/staging-next
+17e336db2b8ac5a91036184771655abe2d158273 3ce3e45cc333da707d4d6eb433574b990bcc26f5 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCfddUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y+kQAK7/WW19wYrxsRhslPmf
-bkxPWee8YzjF1oamfb9cjOc7HcCGr0/hFqIn88DlW9rr19xdMMAtXQG0Tjskc1Bw
-kjJW16S3RhaHYV8M2B3dKFoUVgGI8EsOWdwLRve51SMZd8XMHhh387AHnpes6ru5
-QZ0/0XtVSiXVsIXGArnikXgn3DMyUerOECp6AmV27dQG3iNTW61WzzU5d7TFKInW
-TVshXhg5TbHG95t4mDkxDQmLbUZQ1OElP7XzkQM6Vgkr3NIW2cfsCNoxs2dOUFWy
-BXC+dPbPFu++fYf4ktqsuppBNVV/wxoiTeDeOj80jNOLD5nBSEXsSqW/mKvWaF6K
-mVn8sYiBnk8PH8GpxToPKXbvJMF/QocvW/X6SiQFhF89KwGdYQpWW9IvZziICoJa
-iOTZ0q0Gc9fuZoU4XAPgO59lcF5j7lOW25rdBCayXhp1JXkEFxVkX3D+ycvz/ZAi
-hXd/BEY0+xW/+oB9am1usIk1KFCeXlVatOA1QJDlJQVIGAFH55lCVrK9F6NzJfks
-BpIJ8Yr4iV6Ck5MhZIblZam85G6+PvFuZUcqDfXGBwl88Rur8+pV2eqk4fMWWOmh
-X7+/iU5bQplN/cznjWlfbY3yeZyNUKgutyaAZNzFgrcHn7kaGkXg5pSudVhX9FWy
-KXpEf6jxAlvX6pot27VyZw5Z
-=j7c2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCfdesbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6cQAIZ/MLgoiTn7MZhGKpCx
+TzzqH0L6ogqS4Cqt6WvrG8G4tqk3HSXeYse1gTTx7GAS9LYQ3pmOroZnXRlH9ys0
+maqxmQHqMw5kWkELzm+0oxkJXXiUgT1tfdk9R+Ca+pahMEm+tAk7BAIDxWAjMaN5
+SW3fVkDBUWOUWK/K7+L3yxNm+dZ71yMZKy1Jpeoy/924D4GxDsvqp72l0jelYfv2
+k3r836sX2UUVh2wqu8/CJoUxpGnUo1F3MHlZ2kgP/9O/cLztTUcjGMj99I0inP3V
+lpOIEl0i86Nh3xWp3C7/WLQn5j2T5BaO339gLYOozHbYRfNCOmZezS9BoI6hfJXB
+dM3bzpaK3fEvccO7cYXNr6HKXE+QTNBka4r6UmQ2c/15ywPMmsWuLkAHenYxnbMF
+gSzedixz+TpenBkIoFTMWuIgUy5T14jsVYZ+Me03Wcdm/mE72DhWahoDCPvnSWki
+fnLNusEQHXObnFB3S0G4Jn5XzdVMxPDcx+MfEPU9paotRgoHU9tfOqXfppLMKe9d
+0wPgRQYSz4BTAUpzlaHXitxBOZCf1pQQit6w1FUasVHw92GkkKzYuY7qL+b5WF9Y
+d1/IFY/NbsBW2VbFJDOfzNO1rnGtbcryHZunHNN/gcr/qAcl3FhcQNitSLR9+7O3
+tOaCpmXUL2J1HrqkQsnahOuH
+=p07s
 -----END PGP SIGNATURE-----
 
---===============7106855067255241911==--
+--===============4015949469789883633==--
