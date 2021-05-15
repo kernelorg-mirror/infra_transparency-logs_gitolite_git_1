@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9184312768502404654=="
+Content-Type: multipart/mixed; boundary="===============2592649552430804170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 15 May 2021 22:11:40 -0000
-Message-Id: <162111670003.6376.8513984530962225432@gitolite.kernel.org>
+Date: Sat, 15 May 2021 22:11:44 -0000
+Message-Id: <162111670471.6527.9418461561571292860@gitolite.kernel.org>
 
---===============9184312768502404654==
+--===============2592649552430804170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 391206b8b27a81b4ec2e0d46afeb6ca7af7d2e8d
-    new: a944c022d5587f24e6ee99636301a3971840df95
+  - ref: refs/heads/5.14/scsi-staging
+    old: b790a56d66eaac4a1ac6c558575fd0a694b06159
+    new: 05f7f1b9ee8273eab805da3d5e2d064872aa75b1
     log: |
          4803bd066cb9b31ce41104bc65ff596e32d3c373 scsi: bfa: Remove some unused variables
          4c6cb9ed63dfd53002e76e716a31a77854630726 scsi: ufs: core: Remove usfhcd_is_*_pm() macros
@@ -29,33 +29,33 @@ changes:
          05f7f1b9ee8273eab805da3d5e2d064872aa75b1 scsi: 3w-9xxx: Fix endianness issues in command packets
          
 
---===============9184312768502404654==
+--===============2592649552430804170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1621116698 -0400
+pusher 75C5DE3D 1621116703 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1621116698-cfbe2eb14bdd2580138440f0e63b674221bea165
+nonce 1621116703-78c12c30da9fee6639bb59ba66d614320bdbb498
 
-391206b8b27a81b4ec2e0d46afeb6ca7af7d2e8d a944c022d5587f24e6ee99636301a3971840df95 refs/tags/mkp-scsi-staging
+b790a56d66eaac4a1ac6c558575fd0a694b06159 05f7f1b9ee8273eab805da3d5e2d064872aa75b1 refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCgRxoACgkQ7ulgGnXF
-3j2xAg/9GEWAzkDXCQ/cOGKAKB2DlVUBHDjnGvwcUZs6/AIvow65EtZDpEamrnmX
-l1ADyFJ9Ok4EN77mdsgph7fX3XhJdBu0jO+SkerHrmJz9sT1+A7WFauF1QkbI97r
-g4Xax/lq1Dff9D27RintQs1Jddoeeui0ZtcW61mp71dfI+EcjZvgtApAfXhGnSIh
-yfEe+EOmN4n0U0K+cQU/31vJXm7uq6shzo2c8J06gYDC006LkrNqSndAxLWm3Zty
-vrtXuqgj8hmXec2zuDkXWobTods4SOLQ78kaAZUtZR32WOk+1J5bDxrvqaGHU1Z2
-DPWSURSgmUTXohZj4iEHTBwmeCTpTJUoQix+F0zl11GAkLbkRyl6r9eUhY3R6AB+
-WP65yS8OZbggJwR3bu/2DOv54VGmTf0wTBJ6tl1D5ekH4iRXkxX4JkAw2V/lZjQ5
-QATPjZiC90Gs2azpYatyzYhsHWF058UYUz0KaAkFlhEWN7+AafVQ+CMRd2fTGrIl
-z9K1/cKE2y4OGf6W1Ybmi+7Mg/HYJ059/2mFd9DSQndM++4iRs4ygTPvptg0hfvV
-acwJ8wsaVIt0m6Vo5R8hOAB5rXuLMFLzhuoxK7OQrgYY3vQ+IJ10m60AVMTKZxKN
-zaCVUEfJmbtaL9VqPVFPl1JMiyXBGW5GrmHAq/Ykm/vxzy7Juj4=
-=nt9B
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCgRx8ACgkQ7ulgGnXF
+3j3/pw/9ETd/KCnClI8cEvJ1PUxPHd2RKt8Gq5pUl8TizEGyeuFIH/Y2V9rFJeTb
+OxN1bBeQPObgNED5DmRtEXLEpHzxKWiLNitxhM/OxYoenOU0Cf3eVg3PdQa6t9Ay
+F9ohu8ZT/+4U51c6Q6rZt/39WUBsZidEJ7s2XOQ+sSO/bTdPnI+4oPpiFG4IS+h4
+sivpQlr6KL5MmxYwRSKXAoU16J3JPxlNlRkVQoLhYE5Z1ZcefbOwiD7zOGwIn2xE
+PhWb2ATKyS1Evb0hbn5EH4+MW4cGWPwhWjoTBzroY2e4iTsTaXi64uyz+5ICOYGK
+37wfdzPIk1LTZ8aUgI5/alM7j/mHfJXZG7FQFvcXMPsmXgYiMMuP6ND6+oTJ5mjQ
+IENYs61jkRo5U4eHYnWIAa4XXTMFFqSyd+9OvImTD460zCrbkDfd5KCIY6aOjX10
+QYyBH863X2LucY9ks54yEhsg7Bd6CtcGmbwL4XL1jo20+bVCfECfOEY+g9PE67dx
+kI3GkG3/pRTZjPnTYdQB3mBmdpr91KM4q9Z6s/9x+yHe9OlPfsCj3oRMWxHJbXhP
+0IMYvlAZvJkJwM/7TLT8RONeSH/3ipQXxIDmwufEacuYzAjdBMT9gBvAvJJaVLYd
+b8nF7uQBkC+FhUGrX48wVIQ0oDqf7vriaLsIdGXS6Oo3I9b4J2s=
+=kgkG
 -----END PGP SIGNATURE-----
 
---===============9184312768502404654==--
+--===============2592649552430804170==--
