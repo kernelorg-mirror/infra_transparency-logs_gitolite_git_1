@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Sat, 15 May 2021 14:11:23 -0000
-Message-Id: <162108788383.13841.12492169986716720830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 15 May 2021 15:29:16 -0000
+Message-Id: <162109255661.26831.8052226093967374629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/wt-2021-05-15
-    old: 0000000000000000000000000000000000000000
-    new: 16a75c4d9beef6be86a9588b72d8b29e2ec5920f
+  - ref: refs/heads/irq/domain_cleanup
+    old: 1573ed165f8e4a89e8e6ac83bb5e27248b1d57fa
+    new: dee94333f76d0bd7b6c8302e377654b6e103b71b
+    log: |
+         dee94333f76d0bd7b6c8302e377654b6e103b71b irqchip: Bulk conversion to generic_handle_domain_irq()
+         
