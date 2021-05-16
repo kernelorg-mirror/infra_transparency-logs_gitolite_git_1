@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 16 May 2021 09:15:12 -0000
-Message-Id: <162115651251.12975.2712902764765846419@gitolite.kernel.org>
+Date: Sun, 16 May 2021 09:22:06 -0000
+Message-Id: <162115692648.17728.7130917916182946297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: d008d04cce7d169a053eb595b61b43c845ce4017
-    new: 4d705a327009288ede5ec0d6faf41f6054ba18a7
+    old: 4d705a327009288ede5ec0d6faf41f6054ba18a7
+    new: 6c402c0a7fc823a0c94e435b750efc959f9410c5
     log: |
-         4d705a327009288ede5ec0d6faf41f6054ba18a7 iio: core: Fix an error pointer vs NULL bug in devm_iio_device_alloc()
+         6c402c0a7fc823a0c94e435b750efc959f9410c5 iio:adc:ad7766: Fix unnecessary check in ad7766_probe()
          
