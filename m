@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8083682246415755865=="
+Content-Type: multipart/mixed; boundary="===============2906205395160962985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 16 May 2021 15:35:04 -0000
-Message-Id: <162117930416.15401.8059588717844258220@gitolite.kernel.org>
+Date: Sun, 16 May 2021 15:35:44 -0000
+Message-Id: <162117934487.15758.12090831407599621212@gitolite.kernel.org>
 
---===============8083682246415755865==
+--===============2906205395160962985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-testing
-    old: e49d033bddf5b565044e2abe4241353959bc9120
-    new: f3ff8a27ab2f41bffcc6d620e6f475a7a8822ccf
-    log: revlist-e49d033bddf5-f3ff8a27ab2f.txt
+  - ref: refs/heads/devfreq-testing-passive-gov
+    old: 6d4e4f9ca6cc295239851e29297a5499d41dea5e
+    new: eb4227f1ae90675e87a8d9ebb5413cd52f2a7224
+    log: revlist-6d4e4f9ca6cc-eb4227f1ae90.txt
 
---===============8083682246415755865==
+--===============2906205395160962985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e49d033bddf5-f3ff8a27ab2f.txt
+Content-Disposition: attachment; filename=revlist-6d4e4f9ca6cc-eb4227f1ae90.txt
 
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
@@ -1049,6 +1047,8 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-f3ff8a27ab2f41bffcc6d620e6f475a7a8822ccf PM / devfreq: Add new up_threshold and down_differential sysfs attrs
+0c36c3d82cfbb67e05f982cc9bd6a9bb6466d0eb PM / devfreq: Export devfreq_get_freq_ragne symbol within devfreq
+0523915d357a537458faa6b881526f6368eb0834 PM / devfreq: Add cpu based scaling support to passive governor
+eb4227f1ae90675e87a8d9ebb5413cd52f2a7224 PM / devfreq: passive: Clean code when parent device is devfreq
 
---===============8083682246415755865==--
+--===============2906205395160962985==--
