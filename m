@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1104360851990562555=="
+Content-Type: multipart/mixed; boundary="===============6535883544201543592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 May 2021 16:44:13 -0000
-Message-Id: <162118345389.22496.5205455248162070508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 16 May 2021 17:00:32 -0000
+Message-Id: <162118443284.1421.14096443812074768944@gitolite.kernel.org>
 
---===============1104360851990562555==
+--===============6535883544201543592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 63d1cb53e26a9a4168b84a8981b225c0a9cfa235
-    new: 8ce3648158d7bc9e5035d5a1db02c892905babbf
-    log: revlist-63d1cb53e26a-8ce3648158d7.txt
+  - ref: refs/heads/irq/domain_cleanup
+    old: 2360898eeecf0ff64ae1edf24f632228a09badef
+    new: b876ad8f00a0e09bc0713d726c050d271bc9423c
+    log: revlist-2360898eeecf-b876ad8f00a0.txt
 
---===============1104360851990562555==
+--===============6535883544201543592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63d1cb53e26a-8ce3648158d7.txt
+Content-Disposition: attachment; filename=revlist-2360898eeecf-b876ad8f00a0.txt
 
-e759959fe3b8313c81d6200be44cb8a644d845ea x86/sev-es: Rename sev-es.{ch} to sev.{ch}
-b81fc74d53d1248de6db3136dd6b29e5d5528021 x86/sev: Move GHCB MSR protocol and NAE definitions in a common header
-059e5c321a65657877924256ea8ad9c0df257b45 x86/msr: Rename MSR_K8_SYSCFG to MSR_AMD64_SYSCFG
-970655aa9b42461f8394e4457307005bdeee14d9 xen/gntdev: fix gntdev_mmap() error exit path
-dbc03e81586fc33e4945263fd6e09e22eb4b980f xen/unpopulated-alloc: fix error return code in fill_list()
-e09784a8a751e539dffc94d43bc917b0ac1e934a alarmtimer: Check RTC features instead of ops
-a554e740b66a83c7560b30e6b50bece37555ced3 x86/boot/compressed: Enable -Wundef
-3486d2c9be652a31033363bdd50391b0c8a8fe21 clocksource/drivers/hyper-v: Re-enable VDSO_CLOCKMODE_HVCLOCK on X86
-cb6f6b3384d7825d2a43f2256c5200e3b3956fc8 xen/arm: move xen_swiotlb_detect to arm/swiotlb-xen.h
-687842ec50342b716953f5847a49dd337cb6de8c arm64: do not set SWIOTLB_NO_FORCE when swiotlb is required
-97729b653de52ba98e08732dd8855586e37a3a31 xen/swiotlb: check if the swiotlb has already been initialized
-ccb013c29d2d16e37c9114b1cea19fac5643b173 Merge tag 'x86_urgent_for_v5.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-8ce3648158d7bc9e5035d5a1db02c892905babbf Merge tag 'timers-urgent-2021-05-16' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+36ba3c6a40ba4d1039f9f63408c9997d06c2cf95 mfd: ioc3: Directly include linx/irqdomain.h
+87b0141f0d62ac5b26984251897d040bb51c1dce MIPS: Do not include linux/irqdomain.h from asm/irq.h
+fab958f4cba672a0d4837d053e96e9048e90079d powerpc: Add missing linux/{of.h,irqdomain.h} include directives
+16e953db95079bb19678d12dae560eb305bdf375 scsi/ibmvscsi: Directly include linux/{of.h,irqdomain.h}
+dabd30742e78863c275660359e507178321f812c powerpc: Drop dependency between asm/irq.h and linux/irqdomain.h
+7ec927be3b6af96a1ca30e20328c31d3b351731d powerpc: Convert irq_domain_add_legacy_isa use to irq_domain_add_legacy
+67caa8e473c6cf869c3dd222f3e8241487274e6d irqdomain: Kill irq_domain_add_legacy_isa
+488a40e4321a76d98f76517844b3b6a753b2b81a irqdomain: Reimplement irq_linear_revmap() with irq_find_mapping()
+6044d2d344437c6dec1b8c9df2df54bc6dff9b3a powerpc: Move the use of irq_domain_add_nomap() behind a config option
+911db0172c17462d3317cde6f1de6cc407629588 irqdomain: Make normal and nomap irqdomains exclusive
+30c4800d4aa56b2194f7215cb8e5b9728042b912 irqdomain: Use struct_size() helper when allocating irqdomain
+42a1dd1cd32f0b764cf345f56084460b1004e24d irqdomain: Cache irq_data instead of a virq number in the revmap
+49427daeaa1ea76ffc3b7c08c3271b6df60634a3 irqdomain: Implement irq_domain_clear_mapping() with irq_domain_set_mapping()
+4165cd76ac3213602501907e5a8b7084ce43dbbd irqdomain: Protect the linear revmap with RCU
+2ac750997facaebdc1ca3867e3144f69963f6276 genirq: Replace irqaction:irq with a pointer to the irqdesc
+b8572f823b7caf323378dfb1a94b881c80cf7105 irqdomain: Introduce irq_resolve_mapping()
+dbcc8c282632f28673b143237deb91476d76fbcb genirq: Use irq_resolve_mapping() to implement __handle_domain_irq() and co
+346fde8a182b09d89b33b25fe324c5cc823af4be irqdesc: Fix __handle_domain_irq() comment
+15ba3ad8862bde82fef90143083fb5a94b359b5d irqchip/nvic: Convert from handle_IRQ() to handle_domain_irq()
+ae978845cd2f8b43d4c71aaea77eebba7a1d91a2 genirq: Add generic_handle_domain_irq() helper
+80f6b171448d6948d130c296bb4a36c5bbb18755 genirq: Move non-irqdomain handle_domain_irq() handling into ARM's handle_IRQ()
+a11a887a54a615f552f04235b286c2fd32326403 irqchip: Bulk conversion to generic_handle_domain_irq()
+f9d174db51eb227d19c5e15c31aa30a7ec3d7efa gpio: Bulk conversion to generic_handle_domain_irq()
+8d01aea01a06b6362c324e324e5691439580c885 pinctrl: Bulk conversion to generic_handle_domain_irq()
+bea52d5a210d3e3d5f235ce698f9f369ef281d32 PCI: Bulk conversion to generic_handle_domain_irq()
+34078d3d156084d027b64e7dc4cf9bfa6f09d12c mfd: Bulk conversion to generic_handle_domain_irq()
+b876ad8f00a0e09bc0713d726c050d271bc9423c gpu: Bulk conversion to generic_handle_domain_irq()
 
---===============1104360851990562555==--
+--===============6535883544201543592==--
