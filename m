@@ -1,57 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6535883544201543592=="
+Content-Type: multipart/mixed; boundary="===============1270412478376939902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 16 May 2021 17:00:32 -0000
-Message-Id: <162118443284.1421.14096443812074768944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 16 May 2021 17:01:30 -0000
+Message-Id: <162118449087.1863.6111809544963539708@gitolite.kernel.org>
 
---===============6535883544201543592==
+--===============1270412478376939902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/fs/xfs/xfstests-dev
+user: eguan
 changes:
-  - ref: refs/heads/irq/domain_cleanup
-    old: 2360898eeecf0ff64ae1edf24f632228a09badef
-    new: b876ad8f00a0e09bc0713d726c050d271bc9423c
-    log: revlist-2360898eeecf-b876ad8f00a0.txt
+  - ref: refs/heads/master
+    old: 1c18b9ec2fcc94bd05ecdd136aa51c97bf3fa70d
+    new: 33bcdb836aeb9337178d9370e5196bc7910b8d41
+    log: revlist-1c18b9ec2fcc-33bcdb836aeb.txt
 
---===============6535883544201543592==
+--===============1270412478376939902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2360898eeecf-b876ad8f00a0.txt
+Content-Disposition: attachment; filename=revlist-1c18b9ec2fcc-33bcdb836aeb.txt
 
-36ba3c6a40ba4d1039f9f63408c9997d06c2cf95 mfd: ioc3: Directly include linx/irqdomain.h
-87b0141f0d62ac5b26984251897d040bb51c1dce MIPS: Do not include linux/irqdomain.h from asm/irq.h
-fab958f4cba672a0d4837d053e96e9048e90079d powerpc: Add missing linux/{of.h,irqdomain.h} include directives
-16e953db95079bb19678d12dae560eb305bdf375 scsi/ibmvscsi: Directly include linux/{of.h,irqdomain.h}
-dabd30742e78863c275660359e507178321f812c powerpc: Drop dependency between asm/irq.h and linux/irqdomain.h
-7ec927be3b6af96a1ca30e20328c31d3b351731d powerpc: Convert irq_domain_add_legacy_isa use to irq_domain_add_legacy
-67caa8e473c6cf869c3dd222f3e8241487274e6d irqdomain: Kill irq_domain_add_legacy_isa
-488a40e4321a76d98f76517844b3b6a753b2b81a irqdomain: Reimplement irq_linear_revmap() with irq_find_mapping()
-6044d2d344437c6dec1b8c9df2df54bc6dff9b3a powerpc: Move the use of irq_domain_add_nomap() behind a config option
-911db0172c17462d3317cde6f1de6cc407629588 irqdomain: Make normal and nomap irqdomains exclusive
-30c4800d4aa56b2194f7215cb8e5b9728042b912 irqdomain: Use struct_size() helper when allocating irqdomain
-42a1dd1cd32f0b764cf345f56084460b1004e24d irqdomain: Cache irq_data instead of a virq number in the revmap
-49427daeaa1ea76ffc3b7c08c3271b6df60634a3 irqdomain: Implement irq_domain_clear_mapping() with irq_domain_set_mapping()
-4165cd76ac3213602501907e5a8b7084ce43dbbd irqdomain: Protect the linear revmap with RCU
-2ac750997facaebdc1ca3867e3144f69963f6276 genirq: Replace irqaction:irq with a pointer to the irqdesc
-b8572f823b7caf323378dfb1a94b881c80cf7105 irqdomain: Introduce irq_resolve_mapping()
-dbcc8c282632f28673b143237deb91476d76fbcb genirq: Use irq_resolve_mapping() to implement __handle_domain_irq() and co
-346fde8a182b09d89b33b25fe324c5cc823af4be irqdesc: Fix __handle_domain_irq() comment
-15ba3ad8862bde82fef90143083fb5a94b359b5d irqchip/nvic: Convert from handle_IRQ() to handle_domain_irq()
-ae978845cd2f8b43d4c71aaea77eebba7a1d91a2 genirq: Add generic_handle_domain_irq() helper
-80f6b171448d6948d130c296bb4a36c5bbb18755 genirq: Move non-irqdomain handle_domain_irq() handling into ARM's handle_IRQ()
-a11a887a54a615f552f04235b286c2fd32326403 irqchip: Bulk conversion to generic_handle_domain_irq()
-f9d174db51eb227d19c5e15c31aa30a7ec3d7efa gpio: Bulk conversion to generic_handle_domain_irq()
-8d01aea01a06b6362c324e324e5691439580c885 pinctrl: Bulk conversion to generic_handle_domain_irq()
-bea52d5a210d3e3d5f235ce698f9f369ef281d32 PCI: Bulk conversion to generic_handle_domain_irq()
-34078d3d156084d027b64e7dc4cf9bfa6f09d12c mfd: Bulk conversion to generic_handle_domain_irq()
-b876ad8f00a0e09bc0713d726c050d271bc9423c gpu: Bulk conversion to generic_handle_domain_irq()
+d8772f925f8817254b19c3f541605f7b5a61b856 src/t_dir_offset2: Add an option to limit of buffer size
+2c1329d636f1a1902a3c6c2102eae244c9e64ca0 src/t_dir_offset2: Add an option to find file by name
+54494f02efee75fa1921d239a47c65d70b7f028c src/t_dir_offset2: Add option to create or unlink file
+2fd4a08b9351d8951fa0b4f48dc223969c63a1cb generic: Test readdir of modified directrory
+18d4e9c7bfdf27a178b524dc5a1292a28a54ad1b overlay: Test invalidate of readdir cache
+fcd74c405bb67b66094c9ca860922d1681564724 btrfs: add fstrim test case on the sprout device
+c4fa3c07679790ecafdb3cd0d6d05122ac52a090 btrfs/187: fix test failure when using bash 5.0+ with debug enabled
+8a44508c507a2a04ea84f34b09e34aa45de20b56 common/xfs: add _require_scratch_xfs_shrink helper
+ebc1ee176db93f6b2d18970f77c13491582ae6fd xfs: basic functionality test for shrinking free space in the last AG
+8cecbd6e7c70749dcec78e390cfb39dbe87dd23b xfs: stress test for shrinking free space in the last AG
+3427d07e1f0adedff35c1d6b73ba9faccc97d55a xfs/122: add entries for structures added to 5.13
+98dff757fc0753a0d0fc5bac96a383263221f02d xfs: fix old fuzz test invocations of xfs_repair
+0df636ef78dc9cfa2df25c66b84c10aa6495ba4c common: always pass -f to $DUMP_COMPRESSOR
+d80489e7d5881d7c70fefa9a5dc1cd1e15806107 fsx: fix backwards parameters in complaint about overly long copy
+33bcdb836aeb9337178d9370e5196bc7910b8d41 btrfs: test log replay after directory fsync and moving a child directory
 
---===============6535883544201543592==--
+--===============1270412478376939902==--
