@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sun, 16 May 2021 15:59:02 -0000
-Message-Id: <162118074264.28938.5915031755496933686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sun, 16 May 2021 15:59:14 -0000
+Message-Id: <162118075491.29123.10964062207300120105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/for-next
-    old: 77c1c74001ede2c05e92096b65f013e1e6467584
-    new: 19d4902b12f63fd862b11ba04c2cdc17d110d006
-    log: |
-         5cb289bf2d7c34ca1abd794ce116c4f19185a1d4 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-         d1acd81bd6eb685aa9fef25624fb36d297f6404e scsi: pm80xx: Fix drives missing during rmmod/insmod loop
-         19d4902b12f63fd862b11ba04c2cdc17d110d006 Merge branch 'fixes' into for-next
-         
+  - ref: refs/tags/v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
+  - ref: refs/tags/v5.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/tags/v5.12-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 939326287f7e63045200ed4ee1653029a7aa8065
+  - ref: refs/tags/v5.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 182c7355be0383c202572eb06d8d2110d6cda003
