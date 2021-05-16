@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6773178067656570470=="
+Content-Type: multipart/mixed; boundary="===============2368468634272315807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 May 2021 07:30:39 -0000
-Message-Id: <162115023905.11897.1485015341150314104@gitolite.kernel.org>
+Date: Sun, 16 May 2021 07:31:08 -0000
+Message-Id: <162115026827.12165.17278843737583218544@gitolite.kernel.org>
 
---===============6773178067656570470==
+--===============2368468634272315807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: ef9eaab932a975e791c717a60911aaa963ffb503
-    new: 590ac4946ea501d3b9978b8cd8a540353d056b02
-    log: revlist-ef9eaab932a9-590ac4946ea5.txt
+    new: 3728f04de2767e3318a9ae2a711522074e77c139
+    log: revlist-ef9eaab932a9-3728f04de276.txt
+  - ref: refs/heads/master
+    old: 590ac4946ea501d3b9978b8cd8a540353d056b02
+    new: 3728f04de2767e3318a9ae2a711522074e77c139
+    log: |
+         7d5561bc7b3504b4c4739218d203d43516981ec6 Merge branch 'x86/urgent'
+         c419a5b25b6a18386b230785ea66de1e7f4bba1b Merge branch 'x86/cpu'
+         589704f972fa4532e4d1005361a35b8751bfa21b Merge branch 'x86/cleanups'
+         007bd93eb44cf5e5427a1a37024519d475a3eeba Merge branch 'x86/boot'
+         27ba9b1308c72f5bbb19e47f8f10759d8daf0e04 Merge branch 'x86/asm'
+         3a78e0ebbdf6cdeb9f52a0d1761c8c54dbff35ab Merge branch 'timers/urgent'
+         c90c77fd6aa2b25369735e9b93e312e3cc514b74 Merge branch 'timers/nohz'
+         e548ec82eff12fc9f58a825921054da8cb6d5339 Merge branch 'sched/core'
+         3d6fe6918f01f4f5e58d4ad169c22f71e02f190d Merge branch 'perf/core'
+         f9a24f0f15aac5354d3469a38291bbe0e55c8572 Merge branch 'objtool/core'
+         3728f04de2767e3318a9ae2a711522074e77c139 Merge branch 'locking/core'
+         
 
---===============6773178067656570470==
+--===============2368468634272315807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef9eaab932a9-590ac4946ea5.txt
+Content-Disposition: attachment; filename=revlist-ef9eaab932a9-3728f04de276.txt
 
 10f76165d30bf568214e75767f2d8d8682cd4040 drm/msm: Do not unpin/evict exported dma-buf's
 4b95d371fb001185af84d177e69a23d55bd0167a drm/msm: fix LLC not being enabled for mmu500 targets
@@ -124,6 +140,16 @@ a4147415bdf152748416e391dd5d6958ad0a96da Merge branch 'akpm' (patches from Andre
 e7c425b7441a96b95a75304aed369077f71e3e83 Merge tag 'objtool-urgent-2021-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c12a29ed9094b4b9cde8965c12850460b9a79d7c Merge tag 'sched-urgent-2021-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 63d1cb53e26a9a4168b84a8981b225c0a9cfa235 Merge tag 'powerpc-5.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-590ac4946ea501d3b9978b8cd8a540353d056b02 Merge branch 'linus'
+7d5561bc7b3504b4c4739218d203d43516981ec6 Merge branch 'x86/urgent'
+c419a5b25b6a18386b230785ea66de1e7f4bba1b Merge branch 'x86/cpu'
+589704f972fa4532e4d1005361a35b8751bfa21b Merge branch 'x86/cleanups'
+007bd93eb44cf5e5427a1a37024519d475a3eeba Merge branch 'x86/boot'
+27ba9b1308c72f5bbb19e47f8f10759d8daf0e04 Merge branch 'x86/asm'
+3a78e0ebbdf6cdeb9f52a0d1761c8c54dbff35ab Merge branch 'timers/urgent'
+c90c77fd6aa2b25369735e9b93e312e3cc514b74 Merge branch 'timers/nohz'
+e548ec82eff12fc9f58a825921054da8cb6d5339 Merge branch 'sched/core'
+3d6fe6918f01f4f5e58d4ad169c22f71e02f190d Merge branch 'perf/core'
+f9a24f0f15aac5354d3469a38291bbe0e55c8572 Merge branch 'objtool/core'
+3728f04de2767e3318a9ae2a711522074e77c139 Merge branch 'locking/core'
 
---===============6773178067656570470==--
+--===============2368468634272315807==--
