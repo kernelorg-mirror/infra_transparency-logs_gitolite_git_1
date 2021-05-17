@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6257273186031064198=="
+Content-Type: multipart/mixed; boundary="===============3436120580363273623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 17 May 2021 23:12:20 -0000
-Message-Id: <162129314064.9070.8237324399184355287@gitolite.kernel.org>
+Date: Mon, 17 May 2021 23:12:35 -0000
+Message-Id: <162129315593.9207.2115585653384524529@gitolite.kernel.org>
 
---===============6257273186031064198==
+--===============3436120580363273623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d8654f4f9300e5e7cf8d5e7885978541cf61326b
-    new: 06b38e233ce4745571106cba4f39fc8c5eda9c29
-    log: revlist-d8654f4f9300-06b38e233ce4.txt
+  - ref: refs/heads/dev-queue
+    old: 98fc59dabfb6168f338bfabb84a39b3291578766
+    new: 7716e5d7ac810ec213c5ccde45bf19ab122d839c
+    log: revlist-98fc59dabfb6-7716e5d7ac81.txt
 
---===============6257273186031064198==
+--===============3436120580363273623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8654f4f9300-06b38e233ce4.txt
+Content-Disposition: attachment; filename=revlist-98fc59dabfb6-7716e5d7ac81.txt
 
 13511704f8d7591faf19fdb84f0902dff0535ccb net: taprio offload: enforce qdisc to netdev queue mapping
 4a5fe57e775188be96359a1934501be45fe5f705 alx: use fine-grained locking instead of RTNL
@@ -174,5 +174,101 @@ e80fe71b3ffe1ec31c4a9be60170f897bbdf1b92 net: stmmac: Add callbacks for DWC xpcs
 8ed2e60b7788825d71e70ed26160d327a588dee5 Merge branch 'stmmac-xpcs-eee'
 25c55b38d85b54e49f2c9a3c7d483d1a24173b94 net/packet: Remove redundant assignment to ret
 06b38e233ce4745571106cba4f39fc8c5eda9c29 drivers/net: Remove leading spaces in Kconfig
+212123b060344297805fb8dad8804521cc443a80 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+b1467fa523d1b01fd936e41ce2a2a38c024a3722 igc: Add UDP segmentation offload support
+4570c98a194de6bbe472bbfcd7b69c59681ace08 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+56333ca16b2ac80a65b531e9348bf3a1aa4d71b4 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
+a4ad08119e4651b1bac0ad88db5c9cb75f602614 ice: Manage VF's MAC address for both legacy and new cases
+c4d0ed33d56e02ad58dad8e10a1082ac4a53a816 ice: Save VF's MAC across reboot
+fc362740d80b4b1a02fb0e19ecc46aeda77adadd ice: Refactor ice_setup_rx_ctx
+e60e80a39f87181d2276609e024ee07500247995 i40e: add support for PTP external synchronization clock
+0e938f1fcb57f460158f6c65e3c35be3e8adbcd6 iavf: Fix asynchronous tasks during driver remove
+4bd7b065f5515b45e9a0cc70389dcbbd8eaf6340 i40e: Fix correct max_pkt_size on VF RX queue
+528c934fd2ce4c5b0efa0f23b4cb62bde5241931 iavf: Fix return of set the new channel count
+dd9753fc641108865bc8b72fb4cd859b5d55e695 i40e: Fix NULL ptr dereference on VSI filter sync
+5d501f60b6d79aaf966c2e629fff33b753cbd6c3 ice: report hash type such as L2/L3/L4
+6e65b26e145932906be310b01598b094579777ea ice: Fix allowing VF to request more/less queues via virtchnl
+3044a95a92bb09b0628da7e4c064d18ad6cff538 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+b05862b4aa2ea31fa0c6b78659c60ff84ced3cba ice: Fix VF true promiscuous mode
+34e7b3611f630592aaf289f33c18537eb48563de ice: handle the VF VSI rebuild failure
+52a738e0b5513a66917e59b583c52284c05baa99 i40e: clean up packet type lookup table
+8c6781049578da7d480544b256b07b4618bda9a4 iavf: clean up packet type lookup table
+ee9787f0201ec54a50798d63567c49733258f294 igc: Move igc_xdp_is_enabled()
+01b42c59e2eecf3722cd99a7caed316413de646b igc: Refactor __igc_xdp_run_prog()
+b8598c2ec1acf94b04ca53dc54a413ce11693861 igc: Refactor igc_clean_rx_ring()
+62d2fbdad5ac900a49f78cef8fd0edc03d6b8852 igc: Refactor XDP rxq info registration
+2bc1fb0738cb4a684947e6bf18c9aa708522ee03 igc: Introduce TX/RX stats helpers
+da6e6fcdb9825be94b0e22fdfc08e915771265dc igc: Introduce igc_unmap_tx_buffer() helper
+eee433d167360d475e9bcd46fb73be9838f70e36 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
+e8f97eb79faa1ed04f103ebfc2b6beb63b042bbb igc: Enable RX via AF_XDP zero-copy
+83249fc4372c1858c0d2882fa6093177ed66728a igc: Enable TX via AF_XDP zero-copy
+2c66b07180a5d65f1228935f522d6985920ecdb0 igb: unbreak I2C bit-banging on i350
+349e3a351bdf61721c040e4874729187ea6d9043 i40e: Fix error handling in i40e_vsi_open
+99b68c2d57d280897773975ab5928c96aa87781d i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+1e2ad01798bed95632039b36962e43cd73903b4b ice: Refactor promiscuous functions
+5a24900c7b0ff961bb273a0ea30b48c9cedf35fd ice: Refactor VIRTCHNL_OP_CONFIG_VSI_QUEUES handling
+2d01956da705fc1b0bd1a52279d000c22d6bc298 i40e: improve locking of mac_filter_hash
+4f3c4ac2011624dc20fd0f665a3c6f22bafae7c5 e1000e: Add support for Lunar Lake
+4a0dd34f93a98bd4b50a8954f73117e7ac80cba7 i40e: Fix autoneg disabling for non-10GBaseT links
+42ce1f96bf9c42505f47f3b9d8d8324e5a1778cd e100: handle eeprom as little endian
+a03a2a14a96a6e998b56e8840baab67c33ba9a35 intel: remove checker warning
+f26b8f0b387099a48b5b56852c2d57f51de1a63d fm10k: move error check
+af3d27ba4566359a78873d24cd66c6d395031616 igb/igc: use strongly typed pointer
+d541eeaecb66c762a08df6305efae6ee25237577 igb: handle vlan types with checker enabled
+226f2dfc91c76c7be5955dfb39fd123794be1908 igb: fix assignment on big endian machines
+11c3315845ffe29bac1d52fcdc5fd8abb659986e igb: override two checker warnings
+d331c2cfd23afc036b1b00b78897870e5c65aaad intel: call csum functions with well formatted arguments
+84584a0b66db105c797039133a6991773c1db364 igbvf: convert to strongly typed descriptors
+a5316da1d035360273384b0e549fc2f13da4335a ixgbe: use checker safe conversions
+80397e13340e4f40c0565a194362b9621d101a49 ixgbe: reduce checker warnings
+83721d8b65dc9ecacdad9c3e3dea43e77bf0fa64 iavf: do not override the adapter state in the watchdog task
+74880c3474ab759c7e6647f529fec8bb36108308 ice: fix clang warning regarding deadcode.DeadStores
+5d2b1cb59479459cc3f2e6fcb3c5a0a8125e5a50 igc: Update driver to use ethtool_sprintf
+8eff5c5907bb791677506a5c53a8e2b6e0b14318 ixgbe: Fix out-bounds warning in ixgbe_host_interface_command()
+6bfab13a178a7cdce1760ac8e3347b78ee15275b igc: Remove unused asymmetric pause bit from igc defines
+3e044dba4023fc18e4ce618518c45a1304cb2873 igb: Check if num of q_vectors is smaller than max before array access
+6344a8b25527c812c9950ad00c8ad6ec0deb8393 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+a876c9e5ea5c255e9c8145873f5a013a227e9f69 ice: Enable configuration of number of qps per VF via devlink
+7ab8562987185dde918b5f1e149b3d56ebde2a92 ice: track AF_XDP ZC enabled queues in bitmap
+9628e98817c05d576e5ce8b6982a8f81d3c0096f i40e: Fix warning message and call stack during rmmod i40e driver
+13d636d7d08f94a3302df0dadfbdc814ae6a1587 i40e: Fix logic of disabling queues
+cf828b5958ac5145d93388c94113b33bbf097454 i40e: Fix changing previously set num_queue_pairs for PFs
+33337f835ba6c682002cf2157cd3ec0571a85c7b i40e: Fix ping is lost after configuring ADq on VF
+7ad15dea51f515b1644d5aeb56963d825625e1cf igb: Add counter to i21x doublecheck
+0894b6d658b26157bd3fb9c3cdbf87bbfc566faa igb: Fix XDP with PTP enabled
+10a13527c4d52d7eb1c39c21c757029f47f02767 ice: set the value of global config lock timeout longer
+bc826fb3f550cc252392ca2490465729ae073d0f igc: Remove unused MDICNFG register
+150e39473b5b423c883be27d3c777e3185611bc3 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+4cd3caca611ce2cc2e59262d4bd08f5971557410 ice: report supported and advertised autoneg using PHY capabilities
+3bbecdb7181cbc9046c00d110cf16a57787c21dc ice: Allow all LLDP packets from PF to Tx
+59690dbcc1f85e02c9d7611d205551fab4393ed5 ice: fix FDIR init missing when reset VF
+aa1e0b749435124b9a508335b7005eeeed0214ec igb: fix netpoll exit with traffic
+976c8a3a59e0cb578aeb9702ef41cb84d1d2b437 ice: use static inline for dummy functions
+ccaba05f28a84c31dc692dec53ca946c5603be57 ice: add extack when unable to read device caps
+52b11108b9ac97e93f0d528690c2b858c2102c75 ice: add error message when pldmfw_flash_image fails
+70cceaa138b7efd379945835d8206ecec1664ca4 ice: wait for reset before reporting devlink info
+67e68c1cfed9c4aa24eab7b320a0b4871535f87a ice: (re)initialize NVM fields when rebuilding
+705097e38d4874aa8aa200cfaefc70fa2160b8e9 ice: Detect and report unsupported module power levels
+83fe43fb45ac034ba74248087bbfb5450404cc76 ice: Remove boolean vlan_promisc flag from function
+a3030365b15685665db805cf6f6073a815b7260a ice: Fix replacing VF hardware MAC to existing MAC filter
+c13588987c43cadd564f147b291f4de75dcd2d5e ice: fix incorrect payload indicator on PTYPE
+cf9760d4d525d9e565cde04401a3164398bf460a ice: downgrade error print to debug print
+db19608f728e8140984fa1c7f2a3f1f3ba48dd8b ice: mark PTYPE 2 as reserved
+f0a3013a2e3761a1cb3d46cee18a6a37451b7d37 ice: reduce scope of variables
+1ae203455ed795f55681f1ec71ef1940a036096b ice: remove local variable
+70608f113df8b1f5f015cb1b4c06f4daeaacf0c3 i40e: fix PTP on 5Gb links
+3a8b18c723a5da398eb94af2e284a2e21346d91f i40e: add correct exception tracing for XDP
+2c236b8cb6fd5b51e154a45aeecf2ca9f88316fe ice: add correct exception tracing for XDP
+33fa7dd21edacb33f8eeb4eeaf9bf19babb93306 ixgbe: add correct exception tracing for XDP
+19d92dfff298feb1795c82a62246122e165b199d igb: add correct exception tracing for XDP
+1ef14fc49c00b5cfff3a2fbaf5aabdd4318ebfa7 ixgbevf: add correct exception tracing for XDP
+ade3671efe8b028502f70ef10ac2c764a3143557 igc: add correct exception tracing for XDP
+1e95d35f54e973b0d287d969bfcae197e72ed83d virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+5b8d73c4d28ef6543a50b2a5ebe983432dd052b1 virtchnl: Use the BIT() macro for capability/offload flags
+952eaa5082da9ada3be41f6b9814d5b3b5337951 igc: Enable HW VLAN Insertion and HW VLAN Stripping
+c500c9af7cdc5f93ab98d930c54dc54071aff2d9 ixgbe: fix large MTU request from VF
+adbe880b1cc11d6bdd514663c86abbd5619fb73f igc: Fix user-after-free error during reset
+d1799d7aa61cf207737b1638baea4bf2269eba42 igb: Fix user-after-free error during reset
+7716e5d7ac810ec213c5ccde45bf19ab122d839c From 40f8620f416f16c75050722b4c1b63e3719a18e0 Mon Sep 17 00:00:00 2001 Subject: [PATCH 3/3] i40e: Fix failed opcode appearing if handling messages  from VF
 
---===============6257273186031064198==--
+--===============3436120580363273623==--
