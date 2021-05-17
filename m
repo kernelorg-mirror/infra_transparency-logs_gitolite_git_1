@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2319698238970864844=="
+Content-Type: multipart/mixed; boundary="===============7245324553277498064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 17 May 2021 07:43:27 -0000
-Message-Id: <162123740728.19843.771039167770546563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 17 May 2021 07:45:12 -0000
+Message-Id: <162123751255.21833.17235454648033523083@gitolite.kernel.org>
 
---===============2319698238970864844==
+--===============7245324553277498064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5ccf10b9c6640439f30868bdb4b84149bbd1cb64
-    new: 522a61ee5ea8020013c6e8df222a3ec1b1173ff1
-    log: |
-         522a61ee5ea8020013c6e8df222a3ec1b1173ff1 5.4-stable patches
-         
+  - ref: refs/tags/driver-core-5.13-rc2
+    old: 088451e75def9db215de37301b7cfcb1acbaf9b7
+    new: 0000000000000000000000000000000000000000
 
---===============2319698238970864844==
+--===============7245324553277498064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621237406 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1621237404-c9d1ca9acd30afeaaa03a31cade5007e1f14c795
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621237512 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1621237511-ff0602c8d19a9d12e37df7dfe3065a65cf494806
 
-5ccf10b9c6640439f30868bdb4b84149bbd1cb64 522a61ee5ea8020013c6e8df222a3ec1b1173ff1 refs/heads/master
+088451e75def9db215de37301b7cfcb1acbaf9b7 0000000000000000000000000000000000000000 refs/tags/driver-core-5.13-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiHp4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vz0P/jdcQRdgAT3xJILIpZ0W
-vBbiDtmG3XCra499Nyn4wU4DMgwtUdtTzaAaEUYtfiih8PSd+5H/0gkNnJqFDc8F
-8Cf5SIHxEKVTEoe9S7P1Ta4gu+fnl78+PRontjwPAl2Zbhu/6thi8aK2Ha51m04w
-iGdkkY673aii6FsJQ/DLiQpy0RKMIOPkTQ9vnWKMQU581DoivgpmGR7fEIb5kmGZ
-nA7FutSam9iRcFLo/0xbDhh5RdIgobNC/wYS+aKVEo+Nl9Y2IrKHfZhYctFK7DvL
-a6cz/1QlF3BJFkUjGXDhZCexgdahFwVItIdQMbNeeDQl5Y0jhNvtsNjefCZBybWI
-ke7YjHril6y4Hptp4h40TjTAmIIYN+CpDW69up+OXCNDSi3604pWwbSkd7MFlf6s
-Wz4E4L/bVUtPL33dtWjhjcCsMD2syo/OsAZK7+5jAj8nL8hXAT9saS3LYBzI6CFE
-PGQPeMU9E7wQDeP+9q9p7NB+bjvY7oXGAHfvrDhZErX1H8UxmphPFbdlMTUSaE7N
-ARQEkENj9sqD0VrMkbFCz+PtpxXr91EiVtAPjrAW+2zf0tpznnG3hV/eJJDBrj6e
-b/6n/In8EYwByYw/dIgyKkrKR3PsaGXqpUNwnD5AM1W/ybnxZfAXXzfV6UmqymHJ
-crV7oacAkV2blF+6iirf8mfr
-=bzpM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiHwgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q0MQAK9m9+VZCtPWCK74DRfe
+qoayanS1Em50D5/SgK/eB/eBuVDwokG5cRc9UOrRugpQVQeOrENK3E712AGMbnf5
+VHasNcxHSFysnG5PbWAkVRPdi78gIqXHOghVXwAbkmikN5uEsFuF2SY+fSiczej1
+2r+nma4+FAFtT3so9uRjhBtGcI/Xe3xPPPlTLEkOGYg5zOqrogMgu6ObidSoZzU9
+cdrKvaL6rUI0itc3FI/sZth6evgL8wJOdrH2GjexebewbP9k4yIgduQ1OpUDr8B4
+sNZYXi/nHVUAZ2XMORDzqMajXvbV/LNpY16kNmqD20R1sHH+cW1GgXrBTFlu5Oz2
+B7JZf9Kxviw4OWa03dgu/LzvTFUXKEA15qLnjXrEI4uLjEMstgPnsxbaHa59pYo+
+lkAMalAGhjJ37D0g98opL41RuzCGE7t1iXknOrsPl+Hg2raXmw3l3wB+mpxBowfi
+y8wlDT/TC4JBpl6XXTR1s/25LLXjTsBqRBEpTRukENhMLaj+TonWsWnwNJ6wNCmd
+z3u44Du6HAADPBC91IOZ1tuWsciHgiDncplqVzxQKlxn/1FKU24Ju0BY6yZpVl+K
+XRaQMRdRW0Gb/PTUbAwcrPOlMLbotIwzg5hi1tKZsb9jN1l5REiYb8b8W/M5VO9A
+gEntTkWjeKqMVPVwA0fD5Xrt
+=L67Z
 -----END PGP SIGNATURE-----
 
---===============2319698238970864844==--
+--===============7245324553277498064==--
