@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7495466910366312803=="
+Content-Type: multipart/mixed; boundary="===============9092824838795512330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 17 May 2021 10:12:06 -0000
-Message-Id: <162124632608.6022.8595756122383647011@gitolite.kernel.org>
+Date: Mon, 17 May 2021 10:13:47 -0000
+Message-Id: <162124642759.6609.18403668808882493453@gitolite.kernel.org>
 
---===============7495466910366312803==
+--===============9092824838795512330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 20d5b1c7709260abec81c85bf2962d4174607d7e
-    new: dc0266a105b634e63840254a5b7320a1b59df13b
+    old: dc0266a105b634e63840254a5b7320a1b59df13b
+    new: 06b813e796ed2c701a75c335d2f20c47bd5a60f6
     log: |
-         dc0266a105b634e63840254a5b7320a1b59df13b 5.12-stable patches
+         06b813e796ed2c701a75c335d2f20c47bd5a60f6 fix up some revert subject lines for 5.10
          
 
---===============7495466910366312803==
+--===============9092824838795512330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621246324 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621246425 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1621246323-6f06a25ff07671bbdbbae9a63a50cd8777bd3481
+nonce 1621246424-f94dbf98f35f77bb9ae2a4bb8906aa85ec562d4b
 
-20d5b1c7709260abec81c85bf2962d4174607d7e dc0266a105b634e63840254a5b7320a1b59df13b refs/heads/master
+dc0266a105b634e63840254a5b7320a1b59df13b 06b813e796ed2c701a75c335d2f20c47bd5a60f6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiQXQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2ssQAKxtoD6A9y0pjf6Wda0e
-8shfQVGenq3gDna/0pfF55oZ6ffKPjfpsuFN59puQUYGrNQQGyNyZH+dNtiCgKCT
-nWIayOMDMuDsO7L134bCM+rIXM+ePZ75N9wRfEMM72z39bIOiR2AHqIQPYVsGxXu
-T8JekNwnyv4buxJlGNn0pYiXxKJuH8Tgxf8XfeFV8iXQpzgnlhCNXJKscv5QdSTS
-JyFG0+r1wL/Jp1yJoR2qXH4w/hb9WpCrb4T9UIIJlUrk0xVfKw6WGYFTnru2Xjyz
-k9GlSpCI3mXx53+xNwZDUn5XjkXmrOkF+wTcXmZY9ohcQ9CTLchSQzb76oethyMS
-Tvp2k+qStOEtfl4aV1/KdAR/U9tDlUrJqTZUwR+MTiIrqbaHQNjrCo14yd/GADns
-v8VAD0zHu9go00pQ6CNBm00exm/PFnaA6Ax2xnmSrht6j269zda/KuD0zEE0UtPW
-cF9x5KLvMjEP6vk9+GaBEq5wEozQ81n2Z9C8ya/wp+uIRxTVTYvklg7sW1oZxgri
-Nyi0QNms5OwmpiRIJ0yZLZ/G5KMqjo6AsIFBmIhhtNFRNgapQc9JHe6bdb/ksX+6
-eYZgCQJVUEhP2sBKji4lEAGJqy6iH9uGK3qYBWrpytJnh8DWsWOywUm7arCLXBev
-NafTFGDLliXYskzO42Ln0MIZ
-=8wJi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiQdkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5TMP/jYdwieLVC6F9siFf8Yg
+LYChzrxkMT8BELWGx2UwZt0jvvGhkEcoAVdvAzUKpv3ivE5NghY+doeAlkSFgnSW
+5LMvyurtmTycHfAhpPOA9uIdGRykTwe99c9tYIJdXEF6udmSEW4upMn0kUERTJYd
+zDRFBR7hpG1cBNCuLtjoZgkXkIFCUnYbKT3wcVkjHHivzbidbQBqSNMRDefXwrpq
+fvKnRVmSxuSi9A0TjSqIfUaQPq4TAGppNM4GgvZsAuviyM8Gj5qgd5KYTDBYzVq2
+1a8KSBSj46UFXUgH5GgL2tynR+tRegITGzU5kPvAv0TgJh0QQm5RTyTrr5y0KMnl
++xqYIAH47Kj7ygm5YLa3AGksJpj4W0zGvyzOIn1AJJXaeXr4QhqS5wMptN25Q8Yz
+UlSdq7T2fkUYOzQ830YKn1ofydn/t4k5D1HVWFuQ/Tzpgw0NCOrPlm23G3kjsNjp
+zuu1+6u2Yy8csufVtmKCkIsgkonjY8LI0DFoJYq7Vm5f6xPKTnbye//OZ/Kf7RY6
+vWHZiDdfjndv9uhLn5Y1e18VId+HlbgJrRoW9HFy1wKvNV0ojFhiSReHrxVG38Rl
+q7GMUHmNHRFRZfM7azjVVVmS1HX1bfGo/V48OWtuhhSNcbzjeHdAXvd/L+5K6A1E
+HNsepzAxGZHJgTKSCQKwDuci
+=oisz
 -----END PGP SIGNATURE-----
 
---===============7495466910366312803==--
+--===============9092824838795512330==--
