@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Mon, 17 May 2021 18:54:09 -0000
-Message-Id: <162127764923.12264.2380972692010471342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Mon, 17 May 2021 19:10:42 -0000
+Message-Id: <162127864214.22158.15794519347480848379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/db845c-fixes
-    old: 86c0bfadb55a5fef4989c6c2981603a3bb65fba7
-    new: 30bcbd68b7b9ef9d41a9fff02d2d86835eec6ab4
+  - ref: refs/heads/for-kernelci
+    old: 0000000000000000000000000000000000000000
+    new: b646882b6598c70bb15b03ffaa108012e8aab626
