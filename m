@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 17 May 2021 21:01:12 -0000
-Message-Id: <162128527246.24675.153598709736497705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 17 May 2021 21:05:43 -0000
+Message-Id: <162128554376.27313.7945180836149338887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 58fee5fc83658aaacf60246aeab738946a9ba516
-    new: 7cb7541a8cc070e9b2ee66cb0b72b1ceb1feef7d
+    old: 3aa21e799419c3f10f52273a30bfa3c77492ea3f
+    new: 9f6f852550d0e1b7735651228116ae9d300f69b3
     log: |
-         7cb7541a8cc070e9b2ee66cb0b72b1ceb1feef7d r8169: use KBUILD_MODNAME instead of own module name definition
+         9f6f852550d0e1b7735651228116ae9d300f69b3 isdn: mISDN: netjet: Fix crash in nj_probe:
          
