@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1378053211429763692=="
+Content-Type: multipart/mixed; boundary="===============8965961863300392612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 17 May 2021 07:10:59 -0000
-Message-Id: <162123545941.11915.4463550655947598511@gitolite.kernel.org>
+Date: Mon, 17 May 2021 07:11:14 -0000
+Message-Id: <162123547440.12070.2665956144069452400@gitolite.kernel.org>
 
---===============1378053211429763692==
+--===============8965961863300392612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/scmi_dt_defconfig
-    old: 3a0eb6e9fef6baecc5c903ce4978d16da8296026
-    new: 6438ba15970997d1a60e2b9a6f7e95a3fafd36fe
-    log: revlist-3a0eb6e9fef6-6438ba159709.txt
+  - ref: refs/heads/v5.13/ffa
+    old: 30772ce8292f4dec24500a1edda9ba61e1036293
+    new: 52e91158a87fe3a95933b9a4111ddde47cb5d075
+    log: revlist-30772ce8292f-52e91158a87f.txt
 
---===============1378053211429763692==
+--===============8965961863300392612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a0eb6e9fef6-6438ba159709.txt
+Content-Disposition: attachment; filename=revlist-30772ce8292f-52e91158a87f.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -331,8 +331,11 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
-b26026d4f8de78ef19f65d117d4ee3a1b9ca3c6d arm64: dts: juno: add mhu doorbell support and scmi device nodes
-49bb84dfaa0aeb9780fe843a21ceef793045083f arm64: defconfig: add some power debug config options
-6438ba15970997d1a60e2b9a6f7e95a3fafd36fe dt-bindings: dvfs: Add support for generic performance domains
+5ac40deb69dccb4dcfc60801efde05a577c7c1a0 arm64: smccc: Add support for SMCCCv1.2 extended input/output registers
+175da28e96f1f665f802ac4df06452b9a760fa7d firmware: arm_ffa: Add initial FFA bus support for device enumeration
+21b0613f008526f29a0b675e3160db620da64108 firmware: arm_ffa: Add initial Arm FFA driver support
+ffd3c94fb0d546826a7227dc7df0391b2ff2fafd firmware: arm_ffa: Add support for SMCCC as transport to FFA driver
+20760ecc041285a05b890bf2c65bd317d3b8b63e firmware: arm_ffa: Setup in-kernel users of FFA partitions
+52e91158a87fe3a95933b9a4111ddde47cb5d075 firmware: arm_ffa: Add support for MEM_* interfaces
 
---===============1378053211429763692==--
+--===============8965961863300392612==--
