@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6865437876738864821=="
+Content-Type: multipart/mixed; boundary="===============3523788263669076038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 17 May 2021 23:11:43 -0000
-Message-Id: <162129310374.8659.2187080225567019501@gitolite.kernel.org>
+Date: Mon, 17 May 2021 23:11:52 -0000
+Message-Id: <162129311231.8835.18407411319371144767@gitolite.kernel.org>
 
---===============6865437876738864821==
+--===============3523788263669076038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: a93a0a15876d2a077a3bc260b387d2457a051f24
-    new: 1dde47a66d4fb181830d6fa000e5ea86907b639e
-    log: revlist-a93a0a15876d-1dde47a66d4f.txt
+  - ref: refs/heads/dev-queue
+    old: 82e10b44c78ebfce69fc69e606c51625cc7ba8cf
+    new: 4f3ed95ef0a20700b5aff97c4d7165933cca5585
+    log: revlist-82e10b44c78e-4f3ed95ef0a2.txt
 
---===============6865437876738864821==
+--===============3523788263669076038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a93a0a15876d-1dde47a66d4f.txt
+Content-Disposition: attachment; filename=revlist-82e10b44c78e-4f3ed95ef0a2.txt
 
 e1d027dd97e1e750669cdc0d3b016a4f54e473eb net: mdio: octeon: Fix some double free issues
 65e302a9bd57b62872040d57eea1201562a7cbb2 cxgb4/ch_ktls: Clear resources when pf4 device is removed
@@ -61,5 +61,42 @@ f81781835f0adfae8d701545386030d223efcd6f gve: Upgrade memory barrier in poll rou
 fbd4a28b4fa66faaa7f510c0adc531d37e0a7848 gve: Correct SKB queue index validation.
 37781fd24f34ce938072f192def8f8d49f382df8 Merge branch 'gve-fixes'
 1dde47a66d4fb181830d6fa000e5ea86907b639e net: mdiobus: get rid of a BUG_ON()
+07cef3bfc10f8b44b52add1f3b3274e59dc85094 checkpatch: Fix warnings when --no-tree is used
+6cff07a2d78c660494e03ce960e50098ebc1a72b checkpatch.pl: seed camelcase from the provided kernel tree root
+8de0d0b5865c16b437564c3c5167ce414dd2efb3 ice: Fix a couple off by one bugs
+ba21501fd6c95dbe84fc6280793a14b70e9da208 iavf: Fix asynchronous tasks during driver remove
+548ea0242deee24c4748aa9ed9cc94f059aa0af6 i40e: Fix correct max_pkt_size on VF RX queue
+3e007020ceaaf5074d117d49e6ffff1f44f9310b iavf: Fix return of set the new channel count
+83bfac6b6b38782fece7c7eb513cabf8cba0317e i40e: Fix NULL ptr dereference on VSI filter sync
+ba5add3b25dad4d956a0a2fa0a23dd8e7d6073fe ice: Fix allowing VF to request more/less queues via virtchnl
+343e9a934e6faa5b7cf1b5acf7aa8406204dcdec ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+c3353256c79df422b9cafd265364a3d9619762c8 ice: Fix VF true promiscuous mode
+89f0636de5968c11328cc8129195c5711ca40eea ice: handle the VF VSI rebuild failure
+44716f6150af75b0f08eccd82ceb472b8186e742 i40e: Fix error handling in i40e_vsi_open
+6184adfc9033563813af32bbd20cf54f787dd656 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+d3eb6ef3eba10fce322a25974b9e5132950e6963 i40e: improve locking of mac_filter_hash
+01d710ed0393cf071e8c011fef95f6a3e7a3f8b1 i40e: Fix autoneg disabling for non-10GBaseT links
+403f300b3dac415639a5d6c67f2ad74bde94f991 igb: Check if num of q_vectors is smaller than max before array access
+6df85402ec16500621cad6b7db9cfdbeba43d6f3 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+33c1de262c78af92391ace33ab3cd726f50451d5 ice: track AF_XDP ZC enabled queues in bitmap
+c2c3c777bbf0e88661b0ff2bea59241970399787 i40e: Fix warning message and call stack during rmmod i40e driver
+2c5ca5793ec77eb3d9148f5fab6bda367b2e4b11 i40e: Fix logic of disabling queues
+561ee3b6d7e6293ca651b6e9bde3eff0049d5f07 igb: Fix XDP with PTP enabled
+bf2c41a81ab90b254e349b5cb88ccf5132298593 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+183afadb54e0639ca36d90a5383e340482960be4 ice: report supported and advertised autoneg using PHY capabilities
+76d7317b89f0ae96b4a68e9d2ba259cfff3c8158 ice: Allow all LLDP packets from PF to Tx
+97d29d32bd107065c1afc5682ac8e96f8bbe89c6 ice: fix FDIR init missing when reset VF
+0ff9322f5f2302e2d3297c045179b55a2281aea5 igb: fix netpoll exit with traffic
+e9a11e6b28f7c380e541c0476e15902b6cd86498 i40e: fix PTP on 5Gb links
+ca23d31a7c0a074c766afbbd8f39f8cbc9a8b7e9 i40e: add correct exception tracing for XDP
+9f171b3af37067b3d9f9840c95e30ebe7eff26fe ice: add correct exception tracing for XDP
+de0b91e0d5e1439aa752694f720960a4c86fcea1 ixgbe: add correct exception tracing for XDP
+7fb8156a55b5cefbd53391da2fc7673cf538d4fe igb: add correct exception tracing for XDP
+d0e39de2e1a57c044a8957aabd8ff8895fbed54c ixgbevf: add correct exception tracing for XDP
+d5450c68887030349a4675a2240e7082becb9b53 igc: add correct exception tracing for XDP
+696b208737b02ea027f6867e1ada0566736871be ixgbe: fix large MTU request from VF
+2ca964a30354eb424fe1d452ce43e32755715f87 igc: Fix user-after-free error during reset
+a6d40b40319a6c4f0ac72daf92af1d9521e5b48f igb: Fix user-after-free error during reset
+4f3ed95ef0a20700b5aff97c4d7165933cca5585 i40e: Fix failed opcode appearing if handling messages from VF
 
---===============6865437876738864821==--
+--===============3523788263669076038==--
