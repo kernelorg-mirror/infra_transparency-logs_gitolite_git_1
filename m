@@ -1,54 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Mon, 17 May 2021 15:56:19 -0000
-Message-Id: <162126697947.2678.1165340259234583891@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4448502817359604781=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 17 May 2021 15:59:34 -0000
+Message-Id: <162126717442.3667.5721875376949945898@gitolite.kernel.org>
+
+--===============4448502817359604781==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 5776c52bcf2b2b4b67e4cf1cc727d5d1e47b8140
-    new: a3f919bd25c823e6ae643000b9f7134dbd945840
+    old: f7ee431a51dfbde44234473fa767f9218737711f
+    new: ca08d45ef70ca8040b5bf8b00a40bfcb2ea10e63
     log: |
-         4f6f7404df87660493eaec0b60db466ad320b5af Revert "Add a note about CRC32 and other non-cryptographic checksums"
-         a3f919bd25c823e6ae643000b9f7134dbd945840 Add a note about CRC32 and other non-cryptographic checksums
+         ca08d45ef70ca8040b5bf8b00a40bfcb2ea10e63 fix up powerpc patch for 4.4 and 4.9
          
-  - ref: refs/heads/wip-dm-table-fix
-    old: 92946f6a34d1daf8cc4f142be78765800afb03f8
-    new: e3b0e523a8c2700b1444678548a78260124b6dff
-    log: |
-         4f6f7404df87660493eaec0b60db466ad320b5af Revert "Add a note about CRC32 and other non-cryptographic checksums"
-         a3f919bd25c823e6ae643000b9f7134dbd945840 Add a note about CRC32 and other non-cryptographic checksums
-         458517314c4db19f53a3b38295ca7703b8aa6a62 devmapper: avoid truncation of table features
-         308cb5b191907cb760ed017b6534fd5f2ea20177 Add test for longer integritysetup keys.
-         98b26884bf2ac61302a1bc0fc7468ac9ea15ea6a Fix description of maximum passphrase size.
-         e3b0e523a8c2700b1444678548a78260124b6dff integritysetup: mention maximal allowed key size
-         
-  - ref: refs/merge-requests/161/head
-    old: 92946f6a34d1daf8cc4f142be78765800afb03f8
-    new: e3b0e523a8c2700b1444678548a78260124b6dff
-    log: |
-         4f6f7404df87660493eaec0b60db466ad320b5af Revert "Add a note about CRC32 and other non-cryptographic checksums"
-         a3f919bd25c823e6ae643000b9f7134dbd945840 Add a note about CRC32 and other non-cryptographic checksums
-         458517314c4db19f53a3b38295ca7703b8aa6a62 devmapper: avoid truncation of table features
-         308cb5b191907cb760ed017b6534fd5f2ea20177 Add test for longer integritysetup keys.
-         98b26884bf2ac61302a1bc0fc7468ac9ea15ea6a Fix description of maximum passphrase size.
-         e3b0e523a8c2700b1444678548a78260124b6dff integritysetup: mention maximal allowed key size
-         
-  - ref: refs/merge-requests/161/merge
-    old: 30afd381ea9ea2b13717df7342e1a045db951515
-    new: 31de821943ff782edeb6ff1e37bc0bb0d4e5846d
-    log: |
-         4f6f7404df87660493eaec0b60db466ad320b5af Revert "Add a note about CRC32 and other non-cryptographic checksums"
-         a3f919bd25c823e6ae643000b9f7134dbd945840 Add a note about CRC32 and other non-cryptographic checksums
-         458517314c4db19f53a3b38295ca7703b8aa6a62 devmapper: avoid truncation of table features
-         308cb5b191907cb760ed017b6534fd5f2ea20177 Add test for longer integritysetup keys.
-         98b26884bf2ac61302a1bc0fc7468ac9ea15ea6a Fix description of maximum passphrase size.
-         e3b0e523a8c2700b1444678548a78260124b6dff integritysetup: mention maximal allowed key size
-         31de821943ff782edeb6ff1e37bc0bb0d4e5846d Merge branch 'wip-dm-table-fix' into 'master'
-         
+
+--===============4448502817359604781==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621267170 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1621267168-e0b1566b6d5dbd2e6bc645e9a389420dc4389a52
+
+f7ee431a51dfbde44234473fa767f9218737711f ca08d45ef70ca8040b5bf8b00a40bfcb2ea10e63 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCikuIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6X0P/3agT6M+L3AyP0+GblXd
+tR+LXb4NKLolpnnAZD76S6OD2E3YZitqgdrLiTXkl6TJs6nZx42OQdFdzDszeuFm
+ju1nZTJhjhQAzBFuABDrT4LJfjLLpbyRk0qWWplQ2m3f8geZauiADyK5oxIfZBYB
+gpA9RJ+LyNn28GaNrIK6ssLJ1RVyb1qzW2qApJfNJx2t0sN7l5Q6xnLCEzPKBtrL
+x8wfgiVmPLm/xmWMOREGZVgQZyXStpqvphUx6zxdYlV6d6uRg6jXc1fNMAob6Ov6
+FaFqiySuYxJ/o0pnwUNvSezBqUENcnyzt5M6+PFf4gaaevrpAkku5hsTsFBtzTJg
+KdHDtGxlBUG8cd0wzD5FrSvYu+uNe9f98T9I7CbLRXhfGisjIl9v02IpA66sN3t9
+pZLPs/S42FPx+WsbgNI1nDDlhDOTRCpH7XPMKQjuP4+4CnSCgwLxmPIWqbyXFAeZ
+91ymjQc+ns0sWfD77w1fa4my2bZGxMzzuIaehnEKxcldfoNRveiBOe/FZ3M0KC8b
+50AbtSUeBcz2GGPfvjm8uyCcckzv37LB1YtTGZ0xPYyUql6DJTNFBp5El445UYjn
+LHQnzSY11LRx0bx6+8uz+rl9R6KGyVleCk+n0WmYd29nEQB4YVCo3v7aWleV6qkh
+tCTLT42XgvGhQrcxbesSpbB/
+=fsIi
+-----END PGP SIGNATURE-----
+
+--===============4448502817359604781==--
