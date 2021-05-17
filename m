@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6993964072996411797=="
+Content-Type: multipart/mixed; boundary="===============6109727475582195960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 17 May 2021 02:40:08 -0000
-Message-Id: <162121920810.12039.6908803887527151835@gitolite.kernel.org>
+Date: Mon, 17 May 2021 03:10:51 -0000
+Message-Id: <162122105125.29602.2564252428031686077@gitolite.kernel.org>
 
---===============6993964072996411797==
+--===============6109727475582195960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: b741596468b010af2846b75f5e75a842ce344a6e
-    new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    log: revlist-b741596468b0-d07f6ca923ea.txt
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+    new: c93db682cfb213501881072a9200a48ce1dc3c3f
+    log: revlist-b741596468b0-c93db682cfb2.txt
 
---===============6993964072996411797==
+--===============6109727475582195960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b741596468b0-d07f6ca923ea.txt
+Content-Disposition: attachment; filename=revlist-b741596468b0-c93db682cfb2.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -399,5 +393,8 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
+c6de37dd5e48b883db032aa4dc0547a4858b9f20 tools build: Fix quiet cmd indentation
+98a499a11ecdd8cb91d03dd5c034aaf7422f2deb scripts/jobserver-exec: Fix a typo ("envirnoment")
+c93db682cfb213501881072a9200a48ce1dc3c3f kbuild: dummy-tools: adjust to stricter stackprotector check
 
---===============6993964072996411797==--
+--===============6109727475582195960==--
