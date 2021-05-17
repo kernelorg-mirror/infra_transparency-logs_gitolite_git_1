@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1392573162093689678=="
+Content-Type: multipart/mixed; boundary="===============0588728886036654396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 17 May 2021 03:21:58 -0000
-Message-Id: <162122171867.4581.12743654516564737990@gitolite.kernel.org>
+Date: Mon, 17 May 2021 03:22:10 -0000
+Message-Id: <162122173045.4739.9907939339021138209@gitolite.kernel.org>
 
---===============1392573162093689678==
+--===============0588728886036654396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 9324130f65f68433372472702ee12969340ce1c3
     new: 7bcdcd71f432b553a084a88130800196af36e3b1
     log: revlist-9324130f65f6-7bcdcd71f432.txt
 
---===============1392573162093689678==
+--===============0588728886036654396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -395,4 +395,4 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 7bcdcd71f432b553a084a88130800196af36e3b1 Makefile: extend 32B aligned debug option to 64B aligned
 
---===============1392573162093689678==--
+--===============0588728886036654396==--
