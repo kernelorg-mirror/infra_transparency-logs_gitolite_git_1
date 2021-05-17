@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5230069622677163233=="
+Content-Type: multipart/mixed; boundary="===============1089913097760367767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 May 2021 08:01:29 -0000
-Message-Id: <162123848985.1243.6650213623148634149@gitolite.kernel.org>
+Date: Mon, 17 May 2021 08:01:50 -0000
+Message-Id: <162123851049.1406.8122400144118329589@gitolite.kernel.org>
 
---===============5230069622677163233==
+--===============1089913097760367767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 7004d66c8292c1fd870f2517ee171c8d766b307a
-    new: cd849bf81ec03a63a3227023272ba9d342df4ee9
-    log: revlist-7004d66c8292-cd849bf81ec0.txt
+  - ref: refs/heads/kbuild
+    old: 063cb956cd444b9fa77cbb03898feb05707e8b60
+    new: a09f3f9e3536c80bc02dbfb7883d91cc2a5c4621
+    log: revlist-063cb956cd44-a09f3f9e3536.txt
 
---===============5230069622677163233==
+--===============1089913097760367767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621238481 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621238504 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1621238480-6b0f22ec1c706f93eb5c18830f79d96ed4516984
+nonce 1621238503-ec5d1fdd1cb51b18763b7d02a31e7dedd7c3629d
 
-7004d66c8292c1fd870f2517ee171c8d766b307a cd849bf81ec03a63a3227023272ba9d342df4ee9 refs/heads/debugfs_cleanup
+063cb956cd444b9fa77cbb03898feb05707e8b60 a09f3f9e3536c80bc02dbfb7883d91cc2a5c4621 refs/heads/kbuild
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiItEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+anoP/AjKVnQzWl8Mx1HI9t78
-ttr909dHeOJqu+HqcypC2CrYeL7D5yxBRN1X5wB9pUuS4Y2ErzHjUSWwPeqREFHa
-zA6IShSwPxbIX9be1/r6YUe3uH0BssP5kElPF9zuHITyfA8h9QH0IdK37D/6fElA
-MZUvElALkIqz/lzkSsCNA76bELPurgYMQQWuxdwSoVfF4oX9OnPGVDT+8rMg+NT1
-9+AbXG7DzM8qqufEf8jNe7mVUZA0EqkHAkH/gFiA+IF/NpbDnVB0cP1eJ9FVhay+
-auk6+VNXBYeKRpZnLmpFBCwMsx1VgGoHzWHrAd9Z9zX0z/6yR3XHbi6SSPhr2wHb
-cN5E+Zrbq42C/j4pPduBc/cO+1MwNuABcRT50KZxanBbvh1K92RZ54VFgEbNDWhp
-vE7QFkvZaoWf686t1DAYCCha2cR7IKN+pglWJEeLB4svVDaZ0H3mWu5/3pa+YWxl
-75Oi34HKnmTPQaESNLPQW1Xeyyu9uvcNDbx1GCVMoejpXj/esdjyXQT3gX/1cOf6
-sPTVfgOZdcAJSoLtNEpH2lmbXR2Atkrgrh1TRB4RUsOO4w1tqJjv5KN7+RcSydel
-OCM48Zj/Rps6LmEqp+AWE+Q5XLyO0VbHbnSmoj7PgbZ+fq1sv9oEPqFWh1834hJt
-Ur6mlleql+YVbWpQewOeJ/iK
-=7W1c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiIugbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CzwP/0csR/MfSOwi7QDb/JVl
+hNWce5BshxCIwAxg6aDIJ3V5ovVCQ/zfmkRpG7IddSDntfUrgwNN3g/Kn6NQy+Mx
+N1F0JwNtpNKaqt5Dl7N/+BP+u6qWW4iTnv3QrGH1pXFEW0NzvEYSFkScZ8ReZSBT
+mXlTWvLMnOqhZWKf01orGi9t6fnKke0w1ADZfxXJiGEF/CUHwI5dOzIubZRW4kXK
+erl1RcxMkaaKdSGKblJ0Iol5raTmLliiHfB3ggkwC1Q0WZ2dcO3DbAYlt8mywI9i
+aIVBYHdnj858mY07YYUorstrClWIV1DkWzafta6+RsDNOmXmmo7XSqJoX0OFalHA
+W5uUIoRazSBRpHzEGnWo8oK7KJoj7b/4TPco/7qjaTxL6s7gVhNamCFbpma2Orl/
+1cY+fy9Xq2XkRVoJcwRq8lOXN1gtOhGDT8qrmbkrzTvb5UmRUu69WmYSOsGdAH9T
+AcdFKTeR273fbxQnv0MATAxgMnGIdB4PFlAC/S+KxE7WlCY0bzwgipB254mATWCN
+ZIl8PTEnebo6yiEFWzatd4Wb3LdCM7E4rc+ZEaNCnPU/D7TwCo5PMRvvhzx9xvwm
+mv6m9Oi5hL4A67LeeOzzzNsALkjNLshZi09O0k7lJwEqu4LIwnt88P5LIIj8Wtxk
+pK4HhMNyrrPmc5Kk7J+hNiy0
+=iZTr
 -----END PGP SIGNATURE-----
 
---===============5230069622677163233==
+--===============1089913097760367767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7004d66c8292-cd849bf81ec0.txt
+Content-Disposition: attachment; filename=revlist-063cb956cd44-a09f3f9e3536.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -368,14 +368,26 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 0e9e37d042b1fc506287fceb939a35c35d610bf4 Merge 5.13-rc2 into driver-core-next
-f0c1a28c4a631a43d12413a2a4683be6ebcaac06 scsi: snic: debugfs: remove local storage of debugfs files
-f73f7b45daaf2c1238a12e65035ec11d79dcef1f drm/i915/gvt: remove local storage of debugfs file
-c611640e0834fcecf845110ad13ed1696ed2b9ba debugfs: remove return value of debugfs_create_ulong()
-fc857765d45a23184b5e9e8f5315637ee3cba2c8 USB: gadget: lpc32xx_udc: remove debugfs dentry variable
-164d64424a297ed894c179fddebc553675bb3aa1 USB: gadget: pxa25x_udc: remove dentry storage for debugfs file
-a6e02d7331fe60c439ca3d056dc167bd76689373 USB: gadget: s3c2410_udc: remove dentry storage for debugfs file
-dbfd319486e5c593c2e9e3f364c026f94a244471 wireless: b43: don't save dentries for debugfs
-8586c49749a5d174746133b9adb3a00c759973e9 wireless: b43legacy: don't save dentries for debugfs
-cd849bf81ec03a63a3227023272ba9d342df4ee9 debugfs: remove return value of debugfs_create_bool()
+d3419982858a69995369b1d6a6eb952381b1ca09 kbuild: move x86 install script to scripts/install.sh
+8054612a46edefeb95e89e34a55f53938d8b37fc kbuild: scripts/install.sh: properly quote all variables
+55f07cc5416fd2409b06c6ac62a1e1c12e424e18 kbuild: scripts/install.sh: provide a "install" function
+02533d1f349b1aeb0d1c0124cae0f466c3dcb185 kbuild: scripts/install.sh: call sync before calling the bootloader installer
+90031148b1d8bf974a19888e40a6b3f0216a75d0 kbuild: scripts/install.sh: prepare for arch-specific bootloaders
+131b80b21fbc8f3e0a4f4e95eb2530508d99f4b8 kbuild: scripts/install.sh: handle compressed/uncompressed kernel images
+77de1b8dfbde8b520606441b7422a03b7fb1f3ef kbuild: scripts/install.sh: allow for the version number
+c9da0aefc8e4af94967605d7341bdad4d14472e1 kbuild: riscv: use common install script
+d27a4fdeee669c9286e8843b176baf3d3412244b kbuild: arm64: use common install script
+4fdfdb7733f214134c50b117c19a4e42c8a1093a kbuild: arm: use common install script
+3dca8abeb9c26182208782daa490632f44b4d08f kbuild: ia64: use common install script
+0ab3a6ad2ae886b95b3f1f0a607f436070158b6a kbuild: m68k: use common install script
+973c984b9252ede1689c6b7d26ecb369d5677c22 kbuild: nds32: convert to use the common install scripts
+45c9d9c9ba256c0ffdac6678fc076bd82cec9c81 kbuild: nios2: use common install script
+f84135fc7af1bed563692b7596dae434a911fa50 kbuild: parisc: use common install script
+124bbf2eb3e1df130658faad7d8da076d5ed62b0 kbuild: powerpc: use common install script
+f6fb89352cbaa1eafcc63b6de3bd7d48f8ee34a8 kbuild: s390: use common install script
+604eb2a5ebfc1874a8a77be38041553b164217c4 kbuild: sh: remove unused install script
+97a256a68d53c4191b1babc4d2d2d1f78a119702 kbuild: sparc: use common install script
+1b7102c4cc56880ff4f32d2ad21eea1b85207c9e kbuild: scripts/install.sh: update documentation
+a09f3f9e3536c80bc02dbfb7883d91cc2a5c4621 kbuild: allow arches to have their own "bootloader.sh"
 
---===============5230069622677163233==--
+--===============1089913097760367767==--
