@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7380122985851673565=="
+Content-Type: multipart/mixed; boundary="===============4307692379732733514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 17 May 2021 06:44:34 -0000
-Message-Id: <162123387491.27604.10213448291631415277@gitolite.kernel.org>
+Date: Mon, 17 May 2021 06:45:00 -0000
+Message-Id: <162123390089.27848.2206260511030308358@gitolite.kernel.org>
 
---===============7380122985851673565==
+--===============4307692379732733514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 3728f04de2767e3318a9ae2a711522074e77c139
-    new: abec12b8d18b6e3a3462053cf9464d07c9b70c11
-    log: revlist-3728f04de276-abec12b8d18b.txt
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+    new: 4976a50e118e863f613d4a0f984dead71210f230
+    log: revlist-3728f04de276-4976a50e118e.txt
+  - ref: refs/heads/master
+    old: abec12b8d18b6e3a3462053cf9464d07c9b70c11
+    new: 4976a50e118e863f613d4a0f984dead71210f230
+    log: |
+         ac14af245586ec8daf927e6e08d2f064744c52b1 Merge branch 'x86/cpu'
+         9a241b8d614e460e97e991e614606741b7794dd7 Merge branch 'x86/cleanups'
+         1287e6e50b2da2df116c73d68056456c5486dc05 Merge branch 'x86/boot'
+         150e682a0e8e7d1affed5f1fac24ecfce72b0997 Merge branch 'x86/asm'
+         c0442b63d1838fe1171e8c025bcd3d1f2813c864 Merge branch 'timers/nohz'
+         9cd1e2a7a7ee272f33a3da105283f7bd33498b55 Merge branch 'sched/core'
+         2ef4aefe894d5a3d176f64b70cdffcb846bc4f2c Merge branch 'perf/core'
+         5ddc83ab98a41033508234a5682f35a939451062 Merge branch 'objtool/core'
+         4976a50e118e863f613d4a0f984dead71210f230 Merge branch 'locking/core'
+         
 
---===============7380122985851673565==
+--===============4307692379732733514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3728f04de276-abec12b8d18b.txt
+Content-Disposition: attachment; filename=revlist-3728f04de276-4976a50e118e.txt
 
 970655aa9b42461f8394e4457307005bdeee14d9 xen/gntdev: fix gntdev_mmap() error exit path
 dbc03e81586fc33e4945263fd6e09e22eb4b980f xen/unpopulated-alloc: fix error return code in fill_list()
@@ -80,6 +91,14 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
-abec12b8d18b6e3a3462053cf9464d07c9b70c11 Merge branch 'linus'
+ac14af245586ec8daf927e6e08d2f064744c52b1 Merge branch 'x86/cpu'
+9a241b8d614e460e97e991e614606741b7794dd7 Merge branch 'x86/cleanups'
+1287e6e50b2da2df116c73d68056456c5486dc05 Merge branch 'x86/boot'
+150e682a0e8e7d1affed5f1fac24ecfce72b0997 Merge branch 'x86/asm'
+c0442b63d1838fe1171e8c025bcd3d1f2813c864 Merge branch 'timers/nohz'
+9cd1e2a7a7ee272f33a3da105283f7bd33498b55 Merge branch 'sched/core'
+2ef4aefe894d5a3d176f64b70cdffcb846bc4f2c Merge branch 'perf/core'
+5ddc83ab98a41033508234a5682f35a939451062 Merge branch 'objtool/core'
+4976a50e118e863f613d4a0f984dead71210f230 Merge branch 'locking/core'
 
---===============7380122985851673565==--
+--===============4307692379732733514==--
