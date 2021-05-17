@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1045863073242205570=="
+Content-Type: multipart/mixed; boundary="===============3320297081966027573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 May 2021 07:45:45 -0000
-Message-Id: <162123754512.22298.9989959308355775748@gitolite.kernel.org>
+Date: Mon, 17 May 2021 07:45:59 -0000
+Message-Id: <162123755958.22430.7458321253408153420@gitolite.kernel.org>
 
---===============1045863073242205570==
+--===============3320297081966027573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: bb4031b8af804244a7e4349d38f6624f68664bd6
-    new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    log: revlist-bb4031b8af80-d07f6ca923ea.txt
+  - ref: refs/heads/driver-core-next
+    old: 5c3e241f5246445da29bd03783ca61a18face968
+    new: 0e9e37d042b1fc506287fceb939a35c35d610bf4
+    log: revlist-5c3e241f5246-0e9e37d042b1.txt
 
---===============1045863073242205570==
+--===============3320297081966027573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621237539 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621237553 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1621237538-0d6f03c5c6b777452c53867dbe1624272349880b
+nonce 1621237552-958213c1c1fb7f60b2e9c0d12a89eb8bddc312e1
 
-bb4031b8af804244a7e4349d38f6624f68664bd6 d07f6ca923ea0927a1024dfccafc5b53b61cfecc refs/heads/driver-core-linus
+5c3e241f5246445da29bd03783ca61a18face968 0e9e37d042b1fc506287fceb939a35c35d610bf4 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiHyMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+05QQAMqTp6GiKfylAAh4rTz8
-TFXXXcrPZYwbzJ1L4W2qPS5/U4Bik3fhkQ3L4wx6Q53oKT2PNbsqxeTkAP612o8S
-NAxX+smNOGQSAhDT1KJlCvsuQ1LzWfU3aBRRfBNhDOHPtmasEVDPOUgVbuvpL/XE
-R8XoLzidYz1L6eycP/a9Zf7SaS+knTkgp+kUQuRunZpQMDw3pUXEBiWsXFbbsdqK
-5UgMxuE6bVBpgWQxxVV6BycwbzpezYoiEu9sTIbWZJkz3zYj71RNZen0179PuCKc
-ep1SzhqE20NUxiLgUNbN5TFs0YEdY//3TF/S1MRBU/g/l2XgZN22F+E7Fl9jMrzj
-Mcvm9F2YfDVuhKj2Suv2P1eGnOLWak9QJnvcoKIJRI7c/dzvjXlQhI8ultVEZJxU
-7bjqIo32B+LRiWEbnUyZhGvxSkmdu8FotZ4yVuTBWrRpE8gyoXSQ/OGc6W5/AGyX
-BSBbWj7xfeD1oOEcfMnaQTe00fVIbnPTl5fmrPkIi5MPUP8hdBpg5t2apC5/LQum
-xJudyhgmum8KSQgw4jexwUddDbcKBucICN+XzNvTigyiQvnF5d8rklA4DD7APQ1z
-3pPaMF1DtfaqX5ZkkBehgso6X7LyE+3OkqYoppHXICSlr2OLuHvfYwvKG88/bT95
-dlAWKWz6obk0yPM8zfzqJ5G6
-=4Hxw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiHzEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/5MP/1F5EoLks+bnmSKZh822
+/95lggDcQXhShJBqwke/mlnHHBLGggtx4wHUqbC1Sh4dojThfNfCYfSXyD/iJROn
+ZWQRn0a6d3O6UW6UaVSJrBouBxZ9eG5NrSG7aQMYNP99fd8fIAN0akYTlRXMk5PT
+OvTa8lanHB3h/x96CX0YDm/zy4i+WxlQ7loCsWnyjjNFYANFQe2pPWACid7C+sP2
+qu5ul5xak1k5RAuPtUOrrUz0m4NUk2siTTTv1h4oZPxrMlin9c3Q/J5YzjjafSzG
+2aUEzQnEa4/fXjCOtuJQzZTtgHgc7srTkucyR8UwhZamjA3wg35WaOzOQIPBNscr
+VVEr7fhYp9BNt3eJ70D+iHmkXbQ6mCscHfKfz2earX30QN8j3mFpF1kSLoiBm3ba
+kyvAGHxbFu6oLDYaB26FVFWePF8M1Oo1wzQ5v4/TwJkToP5LRIJLJct/7c09CSqb
+bVMJmzA8Kx28Bc7pl4rSsg22kqKF09W65WWTieDI8Tu7pv2ZUUIjHllanR4oLdmS
+QrHTFTgkN03SOJUlMdm4mULbNMJU/MLiHITRqaRP93upoXpy2CpJhZ4LdAD72YCr
+yT09gACw9JhEXMojcFuQt15c9OpOr1v0I1l2MoR/Lct7XiP0Ptcu3HbIQ/wJ9XAV
+t1AcLKe8JZbohOkg9I+Eu0u4
+=MMUU
 -----END PGP SIGNATURE-----
 
---===============1045863073242205570==
+--===============3320297081966027573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb4031b8af80-d07f6ca923ea.txt
+Content-Disposition: attachment; filename=revlist-5c3e241f5246-0e9e37d042b1.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -182,6 +182,7 @@ a60a34366e0d09ca002c966dd7c43a68c28b1f82 usb: fotg210-hcd: Fix an error message
 c34e85fa69b9f4568f19da3af06c3870dd8fcc50 usb: typec: tcpm: Send DISCOVER_IDENTITY from dedicated work
 f1fbd950b59b67bc5c202216c8e1c6ca8c99a3b4 usb: typec: tcpm: Fix wrong handling for Not_Supported in VDM AMS
 d9ff1096a840dddea3d5cfa2149ff7da9f499fb2 usb: musb: Fix an error message
+28ec344bb8911bb0d4910456b22ba0dd4f662521 usb: typec: tcpm: Don't block probing of consumers of "connector" nodes
 8370e5b093080c03cf89f7ebf0bef6984545429e hwmon: (ltc2992) Put fwnode in error case during ->probe()
 63c8af5687f6b1b70e9458cac1ffb25e86db1695 block: uapi: fix comment about block device ioctl
 0c8bd174f0fc131bc9dfab35cd8784f59045da87 ACPI: scan: Fix a memory leak in an error handling path
@@ -198,6 +199,7 @@ bf9e262fcfa6350269f00a95658f701f2595db13 docs/zh_CN: Remove obsolete translation
 9e255e2b9afe948fb795cbaa854acc3904d4212c Documentation: drop optional BOMs
 0d3ae948741ac6d80e39ab27b45297367ee477de sh: Remove unused variable
 1140ab592e2ebf8153d2b322604031a8868ce7a5 Merge tag 'perf-tools-fixes-for-v5.13-2021-05-10' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+bb4031b8af804244a7e4349d38f6624f68664bd6 clk: Skip clk provider registration when np is NULL
 2515dd6ce8e545b0b2eece84920048ef9ed846c4 stack: Replace "o" output with "r" input constraint
 cc2520909c2df9ad51d642bf09b3da26a9f56393 MAINTAINERS: Update my e-mail
 1b55767dfdd93c42712e67e986ac14f0c4debd0c erofs: fix broken illustration in documentation
@@ -360,5 +362,6 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
+0e9e37d042b1fc506287fceb939a35c35d610bf4 Merge 5.13-rc2 into driver-core-next
 
---===============1045863073242205570==--
+--===============3320297081966027573==--
