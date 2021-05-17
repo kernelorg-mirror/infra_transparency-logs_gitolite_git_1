@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6652678087734396991=="
+Content-Type: multipart/mixed; boundary="===============1647014326116489858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 17 May 2021 07:49:54 -0000
-Message-Id: <162123779494.25472.16598845437548246166@gitolite.kernel.org>
+Date: Mon, 17 May 2021 07:50:09 -0000
+Message-Id: <162123780980.27194.7888587481023317360@gitolite.kernel.org>
 
---===============6652678087734396991==
+--===============1647014326116489858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: ba9c25d94dea1a57492a606a1f5dde70d2432583
-    new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    log: revlist-ba9c25d94dea-d07f6ca923ea.txt
+  - ref: refs/heads/staging-next
+    old: 76e78f3df8f5d21b1a85f770fa92a1fd211e429b
+    new: d8218b0de51f36f01ed67731ccf174059a33bb1e
+    log: revlist-76e78f3df8f5-d8218b0de51f.txt
 
---===============6652678087734396991==
+--===============1647014326116489858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621237789 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621237803 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1621237788-97a9a2a43746abbe03ac71fe692a5492c6a17bd9
+nonce 1621237802-c9976ce7409a93030b369bedb48d68b5c7f1d2cc
 
-ba9c25d94dea1a57492a606a1f5dde70d2432583 d07f6ca923ea0927a1024dfccafc5b53b61cfecc refs/heads/staging-linus
+76e78f3df8f5d21b1a85f770fa92a1fd211e429b d8218b0de51f36f01ed67731ccf174059a33bb1e refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiIB0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1BAQANaxdhuknUSyaAY+LTar
-qQSU7JkZqSDX7wyml3uF7qYvUUBzoBQPuenuQ1Gk6pR3aAqJzM/m2kWpSIJqRDOb
-PTKi/+/4qa5kfLRJfALO0cw//S7dSHYuEkfMBPg6XtqWf9dqQDf/5ZwXHnnXtTD/
-5Vr0mTubLIyCxtUKAFo4gglmkvCt3+X7jLWrBbOVS7FC03MW2lG8owISFxrCvMRb
-5TvQxXp9kEEJCYfRMYaxlSMrEuQEckL3jm5WCmrhOsNE+GpDEMjHi/L3Mvg6LRgv
-CujxMAezqKVh1qtfeAWmiDVoHyTupcDPyhYyQIz/rkOTH5eRvHpFe6fdmLek5DNT
-BEZrUyD9v0TDXNXggaTenw0yhVi25zjRHdpZCzrNWPYJ4Hu8+8rR5/NSdT+4aEWL
-34paM/qFGllxfY0a2UTAYYpmkStvGc734Rw5I2Y+LJ6+f3KmSjYrUYIaC3jr1zpB
-ZrdX8/Gm4PhV9etuY6oBpxvTs7zW3e6o2HfVWqLrmpqztq0wSL5+s0dWPikwde38
-LgaE3SreuipSq2EmDg3SnEOvgLqPEahWeJNE2mDt1fLw6pBwB7/lj154G+Y/Zjah
-5L8Th1TXXd/b2B6U1yNXsyUHSgT3yqoYWmwcoS/fEwrDRAn052qyWRFQN8qVZujz
-3ZUrYJFe7r7c45jJDRIZVtHF
-=dS5q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiICsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GGIQALgpfG3qOt26umzWB8IU
+83CTIaHL337KJ++ASYS6GeNeVTy5I+jaxujNJjKagr45UGcNH1Rlzdr36s/wSAPD
+uLx+eAMtDrVEOryMdoTuOJeNZrP8gGrdXIkdwp2kgqV7RY7TvZTyUl4Nt0+7Pjfu
+VPT0x13q1wzgD3zCY/7NvC6aHrfO8TUqP49Dw7CFrtNHFT5g/xy0FiEkxTfqdqj5
+rH5YnihfupLuEkZZj1LeYOUUrBDPS14QfmiGpNMeHvHPM7Fn6P5bYI3U4cmMzxp7
+X0Y8C9HU4JYN+aPnB3ZKIObtrzRKje3b+d0FuwT+yY7YmlhpOSZuhsyLSOASNbdB
+Bp9S5+vQFCrKhp4lQFjfdj7xNdlgCN3i0Uaryj3n68/gOV//XvyF2mPSxY5t7yqI
+1yFs8d/4xNVVjdFhAIWsHuJJBldtksweS3j2eJmN8pbe14sd+7kXj15XlpQAh9gf
+k6zlv+RLi3Yp7+XRsbgMtQZEXDwlXEY4vZ3S6N9tLFXHjq6xtfr/NPSJbVTE4qac
+/QgJIfzIH3HTxtJwdd88QAia3aDy8CpN0Pn1GUlwU9Urp9f6KcHfKmjTNyH+bbLH
+O5AP6vUNDMBSAyLlSxFVC5pu0fWejPJOBveQBAvS6J8tfcsbosVEi26qt0afn570
+fAe64SwfcAEjMSRigYslF0FR
+=eEaw
 -----END PGP SIGNATURE-----
 
---===============6652678087734396991==
+--===============1647014326116489858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba9c25d94dea-d07f6ca923ea.txt
+Content-Disposition: attachment; filename=revlist-76e78f3df8f5-d8218b0de51f.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -150,6 +150,7 @@ fb24e308b6310541e70d11a3f19dc40742974b95 tools arch: Update arch/x86/lib/mem{cpy
 6faf64f5248166ecaf50107e883c383e0b66bb70 tools headers cpufeatures: Sync with the kernel sources
 71d7924b3e8acaca6a3b0fc3261170031ada3b70 tools headers UAPI: Sync perf_event.h with the kernel sources
 29038ae2ae566d9441e81cda3539db17c20bf06a Revert "Revert "ACPI: scan: Turn off unused power resources during initialization""
+14b6cff54edaca5740068e9ed070152727ed7718 staging: rtl8723bs: avoid bogus gcc warning
 18abf874367456540846319574864e6ff32752e2 cdc-wdm: untangle a circular dependency between callback and softint
 04357fafea9c7ed34525eb9680c760245c3bb958 usb: dwc3: pci: Enable usb2-gadget-lpm-disable for Intel Merrifield
 9cbc7eb17cdf6d1adaa2aebfe0079077d31d39a9 usb: dwc3: core: Add missing GHWPARAMS9 doc
@@ -163,6 +164,13 @@ b96992081fde19806b5beb5b25f9327820ead77b usb: dwc3: imx8mp: detect dwc3 core nod
 0b2b149e918f6dddb4ea53615551bf7bc131f875 usb: dwc3: imx8mp: fix error return code in dwc3_imx8mp_probe()
 e89baeba4f64bab679618b3330cdcda5929fb8d5 usb: dwc2: Remove obsolete MODULE_ constants from platform.c
 2e2b8d15adc2f6ab2d4aa0550e241b9742a436a0 usb: typec: tcpm: Fix wrong handling in GET_SINK_CAP
+8edb79af88efc6e49e735f9baf61d9f0748b881f iio: light: gp2ap002: Fix rumtime PM imbalance on error
+a2fa9242e89f27696515699fe0f0296bf1ac1815 iio: proximity: pulsedlight: Fix rumtime PM imbalance on error
+7061803522ee7876df1ca18cdd1e1551f761352d iio: hid-sensors: select IIO_TRIGGERED_BUFFER under HID_SENSOR_IIO_TRIGGER
+f73c730774d88a14d7b60feee6d0e13570f99499 iio: gyro: mpu3050: Fix reported temperature value
+901f84de0e16bde10a72d7eb2f2eb73fcde8fa1a iio: core: fix ioctl handlers removal
+af0670b0bf1b116fd729b1b1011cf814bc34e12e iio: core: return ENODEV if ioctl is unknown
+af0e1871d79cfbb91f732d2c6fa7558e45c31038 iio: tsl2583: Fix division by a zero lux_val
 b9a0866a5bdf6a4643a52872ada6be6184c6f4f2 usb: typec: ucsi: Put fwnode in any case during ->probe()
 e17b02d4970913233d543c79c9c66e72cac05bdd usb: dwc3: omap: improve extcon initialization
 f75297853470627c4ee4e2b80eed40af7441c96b docs: usb: function: Modify path name
@@ -198,6 +206,7 @@ cc2520909c2df9ad51d642bf09b3da26a9f56393 MAINTAINERS: Update my e-mail
 46f2e04484aee056c97f79162da83ac7d2d621bb erofs: update documentation about data compression
 c55b44c9386f3ee1b08752638559f19deaf6040d Merge drm/drm-fixes into drm-misc-fixes
 a5c936add6a23c15c6ae538ab7a12f80751fdf0f drm/i915/dp: Use slow and wide link training for everything
+ba9c25d94dea1a57492a606a1f5dde70d2432583 Merge tag 'iio-fixes-5.13a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
 9b8a233bc294dd71d3c7d30692a78ab32f246a0f btrfs: handle transaction start error in btrfs_fileattr_set
 efed9a3337e341bd0989161b97453b52567bc59d kyber: fix out of bounds access when preempted
 5e1f689913a4498e3081093670ef9d85b2c60920 nvme-multipath: fix double initialization of ANA state
@@ -353,5 +362,6 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
+d8218b0de51f36f01ed67731ccf174059a33bb1e Merge 5.13-rc2 into staging-next
 
---===============6652678087734396991==--
+--===============1647014326116489858==--
