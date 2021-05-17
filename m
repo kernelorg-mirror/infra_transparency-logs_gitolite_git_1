@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
-Date: Mon, 17 May 2021 02:04:37 -0000
-Message-Id: <162121707774.22729.16221270841058753198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
+Date: Mon, 17 May 2021 02:05:26 -0000
+Message-Id: <162121712673.24392.4233746749492096593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdf/linux-fpga
-user: mdf
+repo: pub/scm/linux/kernel/git/peter.chen/usb
+user: peter.chen
 changes:
-  - ref: refs/tags/fpga-sec-mgr-for-5.14
-    old: 0000000000000000000000000000000000000000
-    new: 90aa2539f3916969bc4f1a073809570215dd4df0
+  - ref: refs/heads/for-usb-fixes
+    old: 3b414d1b0107fa51ad6063de9752d4b2a8063980
+    new: 9e3927f6373da54cb17e17f4bd700907e1123d2f
+    log: |
+         9e3927f6373da54cb17e17f4bd700907e1123d2f usb: chipidea: udc: assign interrupt number to USB gadget structure
+         
