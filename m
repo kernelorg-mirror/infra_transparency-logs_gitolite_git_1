@@ -1,49 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 17 May 2021 11:46:37 -0000
-Message-Id: <162125199769.1283.7515090793507717459@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3954631531643906109=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 17 May 2021 11:55:17 -0000
+Message-Id: <162125251758.8013.16577364516032612622@gitolite.kernel.org>
+
+--===============3954631531643906109==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/drm-fixes-2021-04-02
-    old: 0000000000000000000000000000000000000000
-    new: 86d42589f74300c119719e393d4d711d9f317bcf
-  - ref: refs/tags/drm-fixes-2021-04-10
-    old: 0000000000000000000000000000000000000000
-    new: 313549644d7c4e8ed6c45cbe8025508239ba733d
-  - ref: refs/tags/drm-fixes-2021-04-16
-    old: 0000000000000000000000000000000000000000
-    new: 8dbf776ea9d6781b179da226a91b3776156fa497
-  - ref: refs/tags/drm-fixes-2021-04-18
-    old: 0000000000000000000000000000000000000000
-    new: ce18a6d63c59d5f24c1e7705ce73cb7af88ff78f
-  - ref: refs/tags/drm-fixes-2021-04-23
-    old: 0000000000000000000000000000000000000000
-    new: 78cc0da152189975d908d10c73741f820bb134e3
-  - ref: refs/tags/drm-fixes-2021-05-14
-    old: 0000000000000000000000000000000000000000
-    new: 35ef0a8189aeec3dfc3ae874b8babf836609db3c
-  - ref: refs/tags/drm-fixes-2021-05-15
-    old: 0000000000000000000000000000000000000000
-    new: 4e8a0bfbe578c7e9fea8a5731b267bd5e2c5edda
-  - ref: refs/tags/drm-next-2021-04-28
-    old: 0000000000000000000000000000000000000000
-    new: 45cca13380996a09a2c12ec238f99f91fcd16c6d
-  - ref: refs/tags/drm-next-2021-04-30
-    old: 0000000000000000000000000000000000000000
-    new: f0bd59ad60af82702fadd1243dc2e0570b45752b
-  - ref: refs/tags/drm-next-2021-05-10
-    old: 0000000000000000000000000000000000000000
-    new: 3d0bd77b03dd1021f1c71e3f885a14b32c435250
-  - ref: refs/tags/exynos-drm-fixes-for-v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0fd175896e1f201da96bd8fff8a806e8ffd79cfd
-  - ref: refs/tags/topic/i915-gem-next-2021-03-26
-    old: 0000000000000000000000000000000000000000
-    new: a59303558c47caaf72c698bfcd54f2fee7e73ff7
+  - ref: refs/heads/master
+    old: 79194573b20cfefcf1aff6213cb52f06018055d1
+    new: f891e9a95ffb493575693d8c180f3b455c930ce5
+    log: |
+         f891e9a95ffb493575693d8c180f3b455c930ce5 5.12-stable patches
+         
+
+--===============3954631531643906109==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621252516 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1621252515-2d74aafd03329033c029201cdf76ed3ae8e711cf
+
+79194573b20cfefcf1aff6213cb52f06018055d1 f891e9a95ffb493575693d8c180f3b455c930ce5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCiWaQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IuIP/R0ROpVC1gncwlO0yb5+
+CwoYqzm2HQxMEVMIZ3mP6pV521ihNZeeZDd+KvQVyyQlLNo7+2m6nnbOBJmcGcd4
+880SnL4Akipn5aZanf8yxTAl20CMnYVB1NQRXCAnmzltVb4dG4/B3DjGfr+CLrDw
+JktFkjALj8cPt4fXkFtf/cBiD+atlpOZJuQoPR2pJEBKbSKPTZp9tVbUVQE6aH8J
+Q2E/40zPrG+oKe3fhZH61T16K3RE3Q3TtR1BdoCI2C3OC4xQI3Hc3cuGYSn0Vf3g
+Cmxw8nbMu7MyIPcPFrEFcJziTKA867+p1c/cB4X3d3x+00OyQR0a18pwmvbx6i08
+UhOC7Krb6elHCEyEIsP43wEmQ/HOGMvTi1K0M2/KH78w2PLUjGLAVnN2qDCsTXIL
+u36vgtO9NBga7HtKEFC/3NXTj3TIrAoSpUNAg0s9QS/bp2BtOvrIVqJUH64HwE+u
+FLlQvbwPBbyCKwcQZYvjpQHnqS8b6qiT0MkPOmqqoMzvqprVtiFYiuGQyN2RQOTN
+0pRvF0cKo0DTIO8CWrJ0f8P9m4LtbaiOuPiXSudVlWr8O3RBKJlU06R4Zi3Bx0vG
+BFt4ZSV/kF9jhe2NAQNNkOwvvfGhsUrY7kI7KbdJBEGz8OLN1xy1GrxIoLCy+uOw
+y10/IsdhEPtTqpSu5CajBeeZ
+=MXUL
+-----END PGP SIGNATURE-----
+
+--===============3954631531643906109==--
