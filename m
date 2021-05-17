@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Mon, 17 May 2021 01:37:34 -0000
-Message-Id: <162121545445.6538.869505248855567942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Mon, 17 May 2021 02:04:37 -0000
+Message-Id: <162121707774.22729.16221270841058753198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/master
-    old: 572b1f8099c05e2840ae66d52d8bee8e547bad39
-    new: 578b4cd7bfd9c5eb46f0191c10ba2434f27562ad
-    log: |
-         578b4cd7bfd9c5eb46f0191c10ba2434f27562ad Add support for --suggest=phrase to capsh.
-         
+  - ref: refs/tags/fpga-sec-mgr-for-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 90aa2539f3916969bc4f1a073809570215dd4df0
