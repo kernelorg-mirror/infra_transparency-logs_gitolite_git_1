@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4172015961989546226=="
+Content-Type: multipart/mixed; boundary="===============1498143948063097021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 17 May 2021 09:03:51 -0000
-Message-Id: <162124223124.25578.1985801501906776793@gitolite.kernel.org>
+Date: Mon, 17 May 2021 09:07:30 -0000
+Message-Id: <162124245076.28261.3666092811913354156@gitolite.kernel.org>
 
---===============4172015961989546226==
+--===============1498143948063097021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/master
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-5c8fe583cce5-6efb943b8616.txt
+  - ref: refs/heads/for-next
+    old: e8405ad55f4c955b4961772cada4078c6b10909c
+    new: aeaaa4f1596df93dde37b4856865ec0542d025fd
+    log: revlist-e8405ad55f4c-aeaaa4f1596d.txt
 
---===============4172015961989546226==
+--===============1498143948063097021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-e8405ad55f4c-aeaaa4f1596d.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
 75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
@@ -1050,5 +1049,6 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+aeaaa4f1596df93dde37b4856865ec0542d025fd nvmem: sprd: Add missing MODULE_DEVICE_TABLE
 
---===============4172015961989546226==--
+--===============1498143948063097021==--
