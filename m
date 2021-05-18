@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 18 May 2021 17:48:14 -0000
-Message-Id: <162136009482.30662.16402266693391259542@gitolite.kernel.org>
+Date: Tue, 18 May 2021 17:59:34 -0000
+Message-Id: <162136077406.5617.15175047038338280181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: bb031a264d0ae4735518f78cb5dcd3ae67ba9aa2
-    new: 4da9bad75880ee674d611ccbc7932a713618bf97
+    old: 4da9bad75880ee674d611ccbc7932a713618bf97
+    new: be05635da03508cff86df30da37704cb8fe0ff7a
     log: |
-         4da9bad75880ee674d611ccbc7932a713618bf97 iio: Drop Duplicated "mount-matrix" parameter
+         be05635da03508cff86df30da37704cb8fe0ff7a staging: iio: cdc: ad7746: Remove unnecessary assignment in ad7746_probe()
          
