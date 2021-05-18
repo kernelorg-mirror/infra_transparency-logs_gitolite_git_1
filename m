@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4778845534409414134=="
+Content-Type: multipart/mixed; boundary="===============5585326375271092061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 18 May 2021 22:44:09 -0000
-Message-Id: <162137784957.14978.4617246272496780898@gitolite.kernel.org>
+Date: Tue, 18 May 2021 22:44:24 -0000
+Message-Id: <162137786468.15133.3101558767358415329@gitolite.kernel.org>
 
---===============4778845534409414134==
+--===============5585326375271092061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: fa7b83bf3b156c767f3e4a25bbf3817b08f3ff8e
     new: 1a532eb28df3e45ae2d403d66c0e98295688ae10
     log: revlist-fa7b83bf3b15-1a532eb28df3.txt
 
---===============4778845534409414134==
+--===============5585326375271092061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ d510296d331accd4afaa13498220c93ae690628a bpftool: Use syscall/loader program in 
 eb0f1e0c7f103e262308d3f12a27a8331af3011a selftests/bpf: Convert test printk to use rodata.
 1a532eb28df3e45ae2d403d66c0e98295688ae10 selftests/bpf: Convert test trace_printk to lskel.
 
---===============4778845534409414134==--
+--===============5585326375271092061==--
