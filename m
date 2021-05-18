@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 18 May 2021 14:45:11 -0000
-Message-Id: <162134911144.16170.6633986417779674994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 18 May 2021 14:49:56 -0000
+Message-Id: <162134939691.18750.13268040663906807188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 119220d81258c1e79db9aa7b52ef09b945aaf46f
-    new: c49661aa6f7097047b7e86ad37b1cf308a7a8d4f
+  - ref: refs/heads/edac-misc
+    old: 0a37f32ba5272b2d4ec8c8d0f6b212b81b578f7e
+    new: 2e2f16d5cdb33e5f6fc53b7ad66c9f456d5f2950
     log: |
-         c49661aa6f7097047b7e86ad37b1cf308a7a8d4f skmsg: Remove unused parameters of sk_msg_wait_data()
+         2e2f16d5cdb33e5f6fc53b7ad66c9f456d5f2950 EDAC/aspeed: Use proper format string for printing resource
          
