@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 18 May 2021 00:08:00 -0000
-Message-Id: <162129648015.11026.7054167865069661117@gitolite.kernel.org>
+Date: Tue, 18 May 2021 00:22:41 -0000
+Message-Id: <162129736104.20431.3585092102263974114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/gustavoars/linux
 user: gustavoars
 changes:
   - ref: refs/heads/for-next/kspp
-    old: ebd0476256bea64fb0146f28a079c9aa9ce670c0
-    new: 9b8b84c168b6c1e033a21b7a6880550a802ad378
+    old: 9b8b84c168b6c1e033a21b7a6880550a802ad378
+    new: cc9fd18032efada6433712f52de8d98dfbd00fd2
     log: |
-         9b8b84c168b6c1e033a21b7a6880550a802ad378 netxen_nic: Fix fall-through warnings for Clang
+         cc9fd18032efada6433712f52de8d98dfbd00fd2 bnxt_en: Fix fall-through warnings for Clang
          
