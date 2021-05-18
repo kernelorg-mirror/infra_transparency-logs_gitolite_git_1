@@ -1,66 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7623237412264078481=="
+Content-Type: multipart/mixed; boundary="===============5860617630459780811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 18 May 2021 19:04:19 -0000
-Message-Id: <162136465936.12051.8435043376981435957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 18 May 2021 19:17:33 -0000
+Message-Id: <162136545367.19977.15941769052145341826@gitolite.kernel.org>
 
---===============7623237412264078481==
+--===============5860617630459780811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 832ce924b1a14e139e184a6da9f5a69a5e47b256
-    new: 1dde47a66d4fb181830d6fa000e5ea86907b639e
-    log: revlist-832ce924b1a1-1dde47a66d4f.txt
+  - ref: refs/heads/rcu/next
+    old: a66e1307dbb750e2b0ec410bdee3989b3c22010b
+    new: 9bcae6c73b2af171a96265e354d870e43bd1440c
+    log: revlist-a66e1307dbb7-9bcae6c73b2a.txt
 
---===============7623237412264078481==
+--===============5860617630459780811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-832ce924b1a1-1dde47a66d4f.txt
+Content-Disposition: attachment; filename=revlist-a66e1307dbb7-9bcae6c73b2a.txt
 
-a93a0a15876d2a077a3bc260b387d2457a051f24 net: mdio: thunder: Fix a double free issue in the .remove function
-e1d027dd97e1e750669cdc0d3b016a4f54e473eb net: mdio: octeon: Fix some double free issues
-65e302a9bd57b62872040d57eea1201562a7cbb2 cxgb4/ch_ktls: Clear resources when pf4 device is removed
-c7d8302478ae645c2e9b59f2cf125641875b7dc2 net: korina: Fix return value check in korina_probe()
-e4df1b0c24350a0f00229ff895a91f1072bd850d openvswitch: meter: fix race when getting now_ms.
-c07531c01d8284aedaf95708ea90e76d11af0e21 netfilter: flowtable: Remove redundant hw refresh bit
-f0b3d338064e1fe7531f0d2977e35f3b334abfb4 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
-414ed7fe863a1822c5ddcea080c76ce0b1c6d3fd Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
-75016891357a628d2b8acc09e2b9b2576c18d318 Revert "net:tipc: Fix a double free in tipc_sk_mcast_rcv"
-974271e5ed45cfe4daddbeb16224a2156918530e tls splice: check SPLICE_F_NONBLOCK instead of MSG_DONTWAIT
-a90c57f2cedd52a511f739fb55e6244e22e1a2fb net: sched: fix packet stuck problem for lockless qdisc
-102b55ee92f9fda4dde7a45d2b20538e6e3e3d1e net: sched: fix tx action rescheduling issue during deactivation
-dcad9ee9e0663d74a89b25b987f9c7be86432812 net: sched: fix tx action reschedule issue with stopped queue
-a0c5393d5bacbed827ce3e45f53751d2f55d6f6a Merge branch 'lockless-qdisc-packet-stuck'
-b81ac7841d511d68989534eff5550269e1bf896d net: cdc_eem: fix URL to CDC EEM 1.0 spec
-b7df21cf1b79ab7026f545e7bf837bd5750ac026 tipc: skb_linearize the head skb when reassembling msgs
-31db0dbd72444abe645d90c20ecb84d668f5af5e net: hso: check for allocation failure in hso_create_bulk_serial_device()
-e0652f8bb44d6294eeeac06d703185357f25d50b NFC: nci: fix memory leak in nci_allocate_device
-28c66b6da4087b8cfe81c2ec0a46eb6116dafda9 net: bnx2: Fix error return code in bnx2_init_board()
-ab21494be9dc7d62736c5fcd06be65d49df713ee bnxt_en: Include new P5 HV definition in VF check.
-702279d2ce4650000bb6302013630304e359dc13 bnxt_en: Fix context memory setup for 64K page size.
-3aa21e799419c3f10f52273a30bfa3c77492ea3f Merge branch 'bnxt_en-fixes'
-9f6f852550d0e1b7735651228116ae9d300f69b3 isdn: mISDN: netjet: Fix crash in nj_probe:
-020ef930b826d21c5446fdc9db80fd72a791bc21 mld: fix panic in mld_newpack()
-04c26faa51d1e2fe71cf13c45791f5174c37f986 tipc: wait and exit until all work queues are done
-3c814519743a919f8b3c236c0565e24709806d66 MAINTAINERS: net: remove stale website link
-35d96e631860226d5dc4de0fad0a415362ec2457 bonding: init notify_work earlier to avoid uninitialized use
-444d7be9532dcfda8e0385226c862fd7e986f607 net/smc: remove device from smcd_dev_list after failed device_add()
-1d482e666b8e74c7555dbdfbfb77205eeed3ff2d netlink: disable IRQs for netlink_lock_table()
-5aec55b46c6238506cdf0c60cd0e42ab77a1e5e0 gve: Check TX QPL was actually assigned
-e96b491a0ffa35a8a9607c193fa4d894ca9fb32f gve: Update mgmt_msix_idx if num_ntfy changes
-5218e919c8d06279884aa0baf76778a6817d5b93 gve: Add NULL pointer checks when freeing irqs.
-f81781835f0adfae8d701545386030d223efcd6f gve: Upgrade memory barrier in poll routine
-fbd4a28b4fa66faaa7f510c0adc531d37e0a7848 gve: Correct SKB queue index validation.
-37781fd24f34ce938072f192def8f8d49f382df8 Merge branch 'gve-fixes'
-1dde47a66d4fb181830d6fa000e5ea86907b639e net: mdiobus: get rid of a BUG_ON()
+cf868c2af244417ed276ba7f716b980841a71340 rcu-tasks: Make ksoftirqd provide RCU Tasks quiescent states
+474d0997361c07d163693d0de41e76a2f2899d0a tasks-rcu: Make show_rcu_tasks_gp_kthreads() be static inline
+641faf1b9064c270a476a424e60063bb05df3ee9 Merge branches 'bitmaprange.2021.05.10c', 'doc.2021.05.10c', 'fixes.2021.05.13a', 'kvfree_rcu.2021.05.10c', 'mmdumpobj.2021.05.10c', 'nocb.2021.05.12a', 'srcu.2021.05.12a', 'tasks.2021.05.18a' and 'torture.2021.05.10c' into HEAD
+976aac5f882989e4f6c1b3a7224819bf0e801c6a kcsan: Fix debugfs initcall return type
+ea0484644e5b8486c8335f677fc1e2a4a5d76d3f kcsan: Add pointer to access-marking.txt to data_race() bullet
+6f2d98192c3f204592434177ba240564346eed9f kcsan: Simplify value change detection
+793c2579beefa95894fc0afbbdc1a80a4e3bf306 kcsan: Distinguish kcsan_report() calls
+95f7524d7f0c6fddbc24fb623d61b7d508626f41 kcsan: Refactor passing watchpoint/other_info
+97aa6139e1b506795ab19941b1c3851042199788 kcsan: Fold panic() call into print_report()
+39b2e763f2defe326e960daefb7fe6acbb2a95b1 kcsan: Refactor access_info initialization
+19dfdc05ffed960024e175db21c8e11ef96daeee kcsan: Remove reporting indirection
+609f809746458522a7a96132acf0ca7ee67c424c kcsan: Remove kcsan_report_type
+7bbe6dc0ade7e394ee1568dc9979fd0e3e155435 kcsan: Report observed value changes
+b930226f3db870cfb683c2744aeb0d29deb4cddc kcsan: Document "value changed" line
+117232c0b9126e254d84f38ccaf9e576ccfcd990 kcsan: Use URL link for pointing access-marking.txt
+0989e6e412370342fc3f809e7ef6f2b0a95b4b6c Merge branch 'kcsan.2021.05.18a' into HEAD
+4b26c984195ecd203dd558226f2313b9582df851 Merge branch 'lkmm.2021.05.10c' into HEAD
+66bc0d04ee923eebfd788114b0c87c0c15a134ad Merge branch 'clocksource.2021.05.13a' into HEAD
+af8cc259d4ece31a3a9d7d717d0d2bd90339ed2d Merge branch 'lkmm-dev.2021.05.10c' into HEAD
+079c93aa23e76596ddc20cc2df5f49320a2e927b refscale: Add measurement of clock readout
+61e016b66e0bb045b3e6219680f91c4c8069127b torture: Add clocksource-watchdog testing to torture.sh
+093790c29a12574fbe9e965e1f729db449d15c21 torture: Make torture.sh accept --do-all and --donone
+fb510d83f45566746bdfba70487f770902a72309 rcu: Fix to include first blocked task in stall warning
+e16a01dc117800c3b6fb24c91992bed1f8bae637 rcu: Fix stall-warning deadlock due to non-release of rcu_node ->lock
+a6ccac3c589110f6aa36ccce240bfdf31edbca07 rcutorture: Preempt rather than block when testing task stalls
+bf5da4a551b324cf4a0fd30bcf7735da5ab741b7 tools/memory-model: Make read_foo_diagnostic() more clearly diagnostic
+0747714bcd5a17a6cddcb9883ccbe26cf95d0e1b tools/memory-model: Add example for heuristic lockless reads
+46bad6903aed51f67aaf833bcfe6c8beb6a4f738 tools/memory-model: Heuristics using data_race() must handle all values
+9bcae6c73b2af171a96265e354d870e43bd1440c tools/memory-model: Document data_race(READ_ONCE())
 
---===============7623237412264078481==--
+--===============5860617630459780811==--
