@@ -1,63 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============1814756518269419095=="
+Content-Type: multipart/mixed; boundary="===============2191248387765435462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 May 2021 16:23:33 -0000
-Message-Id: <162135501336.11062.812439473796594452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 18 May 2021 16:23:40 -0000
+Message-Id: <162135502096.11161.11884436066163930454@gitolite.kernel.org>
 
---===============1814756518269419095==
+--===============2191248387765435462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.13
-    old: adf1471b2f7636362718cec42cf11599cced9733
-    new: 34991ee96fd8477479dd15adadceb6b28b30d9b0
+  - ref: refs/heads/for-5.13
+    old: 27e7db56cf3dffd302bd7ddfacb1d405cf671a2a
+    new: d7aed20d446d8c87f5e13adf73281056b0064a45
     log: |
-         0b1e552673724832b08d49037cdeeac634a3b319 regulator: da9121: Return REGULATOR_MODE_INVALID for invalid mode
-         34991ee96fd8477479dd15adadceb6b28b30d9b0 regulator: fan53880: Fix missing n_voltages setting
+         0b07154f066ab2c087c342b372be5771145bdc60 dt-bindings: spi: spi-mux: rename flash node
+         d7aed20d446d8c87f5e13adf73281056b0064a45 MAINTAINERS: Add Alain Volmat as STM32 SPI maintainer
          
-  - ref: refs/heads/regulator-5.14
-    old: b3cc8ec04f50d9c860534fe4e3617a8d10ed9ea9
-    new: 7075359c8e0da1b01e34201b09b9ab2fd23b8a7d
+  - ref: refs/heads/for-5.14
+    old: 038b9de42269f33aca3e3741214c863a4e9328d0
+    new: 70252440b2b6337d03f2b95bc475fedbea79072f
     log: |
-         3d681804efcb6e5d8089a433402e19179347d7ae regulator: cros-ec: Fix error code in dev_err message
-         f8c8871f5eff3981eeb13421aca2c1cfda4a5204 regulator: fan53555: fix TCS4525 voltage calulation
-         adf1471b2f7636362718cec42cf11599cced9733 Merge series "regulator: fan53555: tcs4525 fix and cleanup" from Peter Geis <pgwipeout@gmail.com>:
-         9b8756d6ee1b2486e5b2da385de19a23227ada1a Merge branch 'for-5.13' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator into regulator-5.14
-         3799fa23afa4cac347739d5290df44a474a82a82 regulator: bd71815: Fix missing include files
-         7075359c8e0da1b01e34201b09b9ab2fd23b8a7d regulator: fan53880: Convert to use .probe_new
+         94acf80755c8d8dd066d4f5a2afbdf393f0e2afd spi: pxa2xx: Propagate firmware node to the child SPI controller device
+         778c12e69481d544e6fcfa45b23ae3c5379b5a02 spi: pxa2xx: Switch to use SPI core GPIO (descriptor) CS handling
+         de6926f307e7ff605f3e37f11a4b3cc20c85c365 spi: pxa2xx: Switch to use SPI core GPIO (legacy) CS handling
+         ccd60b2030a04b91977d9fee9e0ec6469ac4cd1b spi: pxa2xx: Drop duplicate chip_select in struct chip_data
+         eb743ec600be596553bf4e42c85b0bbc65083791 spi: pxa2xx: Drop unneeded '!= 0' comparisons
+         684a3ac720c3fd4c09ae5aa3d349861bf12dcff6 spi: pxa2xx: Fix printf() specifiers
+         8083d6b812cac5e38db9c707b41cd478beed4a0c spi: pxa2xx: Fix style of and typos in the comments and messages
+         f96e6c0ef63b981d295547ef624f4da7c820e097 spi: pxa2xx: Update documentation to point out that it's outdated
+         70252440b2b6337d03f2b95bc475fedbea79072f spi: pxa2xx: Use predefined mask when programming FIFO thresholds
          
 
---===============1814756518269419095==
+--===============2191248387765435462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621354969 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621355010-24930afa9d5e5cf0bbaf637ebf53665cfe7c8023
+pusher C3F436CA30F5D8EB 1621354976 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1621355017-5ee9c0593957adff9e70cc4a3b36e8bfd19638b6
 
-adf1471b2f7636362718cec42cf11599cced9733 34991ee96fd8477479dd15adadceb6b28b30d9b0 refs/heads/regulator-5.13
-b3cc8ec04f50d9c860534fe4e3617a8d10ed9ea9 7075359c8e0da1b01e34201b09b9ab2fd23b8a7d refs/heads/regulator-5.14
+27e7db56cf3dffd302bd7ddfacb1d405cf671a2a d7aed20d446d8c87f5e13adf73281056b0064a45 refs/heads/for-5.13
+038b9de42269f33aca3e3741214c863a4e9328d0 70252440b2b6337d03f2b95bc475fedbea79072f refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCj6dkACgkQJNaLcl1U
-h9BsvAf5AWifyTOffEPhjhiC3mi7MBsptGb8VuiRbPPqotnRY6Hu8dzQXP2STL2c
-KL4A86Av3YONuMrwh2OPDC+hWzgbJHcQbLLY+YrDx8bhWIwHEXFNaEa8phw2pegM
-ZoW6ZObXjnEnM7of95+GeycaqvmysfS+L7k/rWZiuNnOSrQyDZXV2L4UFHVV21hs
-Aq1due50aeykepcSUWAI1ESGA67IPsKe9nB49WV4f28bzEtXiblwvQo50sfdqrsT
-fNxlysySwOylkzf8HEq7nu6pxy8g71xoTboLHxb/mqN2BEWX2C+cioVqFMwxcKdJ
-rorUlYeTcILsaUf2GHRTPuAMXZfRDw==
-=Jdpt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCj6eAACgkQJNaLcl1U
+h9APpwf+OyDdshM36Hugqgk5DLz6Wy3Qw2U9GimsDEubYO4o1gAdhuFM+8MshwVh
+zqpr2ogL0j+DrkGvuv10XL5+9PHMecLlII8DxmHvu6zXqQoTCzFXYXY/NpgieMmo
+fhU78y7yDsYUt7ByysYp6vV01psl9SsDMTyTMAbKSxFFAKI3PW6GtQSHiGgemX9e
+aa3QIxiSnVOkRb/PTpRqpKe0uHueUiQdCf5Gzv4pU27GZm5paNf6cJnJJoItQPPP
+lcaymVg2KQ4Bdc7qPOinw7fjI9uhlMZs1HzpTI1zyTMfQi05qG0+DhsKPD/9mz1T
+SeOoRS+1wo2mQN4Sb5TDJosr9o8UJg==
+=Y4sF
 -----END PGP SIGNATURE-----
 
---===============1814756518269419095==--
+--===============2191248387765435462==--
