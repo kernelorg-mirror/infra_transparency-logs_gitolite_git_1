@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7160413460078085633=="
+Content-Type: multipart/mixed; boundary="===============0472612527879704584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 May 2021 16:24:11 -0000
-Message-Id: <162135505112.11559.11354050104705670823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 18 May 2021 16:24:30 -0000
+Message-Id: <162135507072.11792.7100386909416845321@gitolite.kernel.org>
 
---===============7160413460078085633==
+--===============0472612527879704584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 9069df486b2d8b418476536619c55de9233aedf0
-    new: b64a8148d78e6989b0a58d1cc8a829d76fbaa137
-    log: revlist-9069df486b2d-b64a8148d78e.txt
+    old: 0617eecaa19d4c4393aaec3e9a3ba5d3e2526dd5
+    new: 7c333b2bc5a0e5169391f326f5672536f5e4103a
+    log: revlist-0617eecaa19d-7c333b2bc5a0.txt
   - ref: refs/heads/for-next
-    old: 657a3d308df2857812f1d267dd316c7ce81d03e4
-    new: a0cfcfd0d2ac00b42b2f60451f7d273d1bf9ac64
-    log: revlist-657a3d308df2-a0cfcfd0d2ac.txt
+    old: 1d8154780f5892273d64df4d74bae8ba52432b95
+    new: a612865753044bb22cb5b69aee286030d9e14a96
+    log: revlist-1d8154780f58-a61286575304.txt
 
---===============7160413460078085633==
+--===============0472612527879704584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9069df486b2d-b64a8148d78e.txt
+Content-Disposition: attachment; filename=revlist-0617eecaa19d-7c333b2bc5a0.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -335,14 +335,15 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
-cdf112d4c65f83065793b73b49363123517fdb71 ASoC: fsl: fix SND_SOC_IMX_RPMSG dependency
-b64a8148d78e6989b0a58d1cc8a829d76fbaa137 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+0b1e552673724832b08d49037cdeeac634a3b319 regulator: da9121: Return REGULATOR_MODE_INVALID for invalid mode
+34991ee96fd8477479dd15adadceb6b28b30d9b0 regulator: fan53880: Fix missing n_voltages setting
+7c333b2bc5a0e5169391f326f5672536f5e4103a Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
 
---===============7160413460078085633==
+--===============0472612527879704584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-657a3d308df2-a0cfcfd0d2ac.txt
+Content-Disposition: attachment; filename=revlist-1d8154780f58-a61286575304.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -649,11 +650,11 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
-cdf112d4c65f83065793b73b49363123517fdb71 ASoC: fsl: fix SND_SOC_IMX_RPMSG dependency
-d14eece945a8068a017995f7512ea2beac21e34b ASoC: rk3328: fix missing clk_disable_unprepare() on error in rk3328_platform_probe()
-5a3f869c5b4d230b60ba0197c10506dd4ae30851 ASoC: soc-core: use DEVICE_ATTR_RO macro
-375904e3931955fcf0a847f029b2492a117efc43 ASoC: hisilicon: fix missing clk_disable_unprepare() on error in hi6210_i2s_startup()
-b64a8148d78e6989b0a58d1cc8a829d76fbaa137 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
-a0cfcfd0d2ac00b42b2f60451f7d273d1bf9ac64 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+0b1e552673724832b08d49037cdeeac634a3b319 regulator: da9121: Return REGULATOR_MODE_INVALID for invalid mode
+34991ee96fd8477479dd15adadceb6b28b30d9b0 regulator: fan53880: Fix missing n_voltages setting
+3799fa23afa4cac347739d5290df44a474a82a82 regulator: bd71815: Fix missing include files
+7075359c8e0da1b01e34201b09b9ab2fd23b8a7d regulator: fan53880: Convert to use .probe_new
+7c333b2bc5a0e5169391f326f5672536f5e4103a Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+a612865753044bb22cb5b69aee286030d9e14a96 Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
 
---===============7160413460078085633==--
+--===============0472612527879704584==--
