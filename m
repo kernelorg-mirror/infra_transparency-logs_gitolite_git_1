@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 18 May 2021 16:35:36 -0000
-Message-Id: <162135573601.19487.4933373529233135407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
+Date: Tue, 18 May 2021 16:39:58 -0000
+Message-Id: <162135599898.20817.15966903994973323592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/pablo/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/arm64/boot-robustness
-    old: a806636431cc096111f22e2fe9ad399244b5684b
-    new: 95b0885a16fa80b4a43d2bd4775cd70fba3aeb2b
+  - ref: refs/heads/master
+    old: a97543fdbef24f29a716bfb1c93a3445f183a1b0
+    new: 845064d752ceae4fc3487bf686b6ea989eb3004d
     log: |
-         75de0203868b143fc7ab45cbf48f429c47e8c9ae arm64: Implement stack trace termination record
-         a9d54d2cce50857f1c2c0986166b77b61d8fb404 arm64: assembler: add set_this_cpu_offset
-         74fa63aaa54121498697701145414b898cdcaf91 arm64: smp: remove pointless secondary_data maintenance
-         191419d49dd90449f1de163d5399720dedd7ebe9 arm64: smp: remove stack from secondary_data
-         ea6b03d4dbf182645fee4741ae801917b9e20947 arm64: smp: unify task and sp setup
-         95b0885a16fa80b4a43d2bd4775cd70fba3aeb2b arm64: smp: initialize cpu offset earlier
+         0dc0f088e7314e049cdc16c5f54898b0167bd677 netfilter: nft_set_pipapo_avx2: Skip LDMXCSR, we don't need a valid MXCSR state
+         0808b04544113eef84ba1c0126874042f5ecc5ac netfilter: add and use nft_set_do_lookup helper
+         b1bc08f6474fa92ba2a3e92913f16b20c65168b5 netfilter: nf_tables: prefer direct calls for set lookups
+         845064d752ceae4fc3487bf686b6ea989eb3004d netfilter: Remove leading spaces in Kconfig
          
