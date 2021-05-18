@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8926794898090693441=="
+Content-Type: multipart/mixed; boundary="===============1289541674850074873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 18 May 2021 20:59:22 -0000
-Message-Id: <162137156275.17289.9335373236687120901@gitolite.kernel.org>
+Date: Tue, 18 May 2021 21:12:26 -0000
+Message-Id: <162137234646.25357.10058148681040439136@gitolite.kernel.org>
 
---===============8926794898090693441==
+--===============1289541674850074873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6bec820cb9d015e99e4f5bf375fba098ba5b2f30
-    new: 8744478eaa56fe42c77481042984e4d1c95e5124
+    old: 8744478eaa56fe42c77481042984e4d1c95e5124
+    new: cc164830f42a65bd962642961bc5368e4ace6cd5
     log: |
-         4950093c0c3ee71e7045b545626d2b232271cbc8 Don't use mboxo for anything
-         8744478eaa56fe42c77481042984e4d1c95e5124 Document save-maildirs and -M options
+         cc164830f42a65bd962642961bc5368e4ace6cd5 Tweak output filenames
          
 
---===============8926794898090693441==
+--===============1289541674850074873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1621371562 -0400
+pusher B6C41CE35664996C! 1621372346 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1621371562-675dbb6c94e7383dc1f7a517bda0657da97b71bf
+nonce 1621372345-9e21d815ea2c052ea12f081cb6b42d8d768e5ce5
 
-6bec820cb9d015e99e4f5bf375fba098ba5b2f30 8744478eaa56fe42c77481042984e4d1c95e5124 refs/heads/master
+8744478eaa56fe42c77481042984e4d1c95e5124 cc164830f42a65bd962642961bc5368e4ace6cd5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKQqqgAKCRC2xBzjVmSZ
-bIBvAQDYZi81nzFHSVjRJmD8lg9C2ManEoMMLe95Aee1ZlJUKAEAloL9glndBbsn
-gpbKY7wbEiF3PbWVIegeyUueu/wFAgE=
-=4wKO
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKQtugAKCRC2xBzjVmSZ
+bBXRAP0Thaq8MLl/ApmG8TxQS/VxwAmUSjy7knxxKhfrZgSfTwD/Ts7xeFTOue6V
+xhlMp0/9RlapsuYAPO/rS0nX9IBsUAI=
+=HPM5
 -----END PGP SIGNATURE-----
 
---===============8926794898090693441==--
+--===============1289541674850074873==--
