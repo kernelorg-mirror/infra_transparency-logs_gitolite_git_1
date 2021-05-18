@@ -1,59 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2763490715126415026=="
+Content-Type: multipart/mixed; boundary="===============0162097366785800182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 18 May 2021 10:10:00 -0000
-Message-Id: <162133260049.5473.64396689685143397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 18 May 2021 10:10:08 -0000
+Message-Id: <162133260810.6944.15339905575475146326@gitolite.kernel.org>
 
---===============2763490715126415026==
+--===============0162097366785800182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
     log: revlist-6efb943b8616-d07f6ca923ea.txt
-  - ref: refs/heads/rdma-next
-    old: 1dc28f32e7f2c79a95376f0385869efb4eac6885
-    new: 932f87b48c07278730c3c760b3a707d6a984b524
-    log: revlist-1dc28f32e7f2-932f87b48c07.txt
-  - ref: refs/heads/rdma-rc
-    old: 7bf8d548764d406dbbbaf4b574960ebfd5af8387
-    new: 51144e7fe4a5301a7a1b8c1fc5db910a8160155d
-    log: |
-         67f29896fdc83298eed5a6576ff8f9873f709228 RDMA/rxe: Clear all QP fields if creation failed
-         ea512193b7a4713759c47f7a9ecb700db0cc2eca RDMA: Verify port when creating flow rule
-         73437256335717bf8327388b749d58802fbe47dc RDMA/mlx5: Verify that DM operation is reasonable
-         1ea51338f91633a94152190a4ef66a9cef1a2fa5 RDMA/core: Don't access cm_id after its destruction
-         e75063b914fe3f424497cedfd2eb40bc59912864 RDMA/mlx5: Recover from fatal event in dual port mode
-         8ceb49a1e6b62f3dcebd334ef64ce4067e0dd56c RDMA/core: Simplify addition of restrack object
-         51144e7fe4a5301a7a1b8c1fc5db910a8160155d RDMA/rxe: Return CQE error if invalid lkey was supplied
-         
-  - ref: refs/heads/testing/rdma-next
-    old: dda77053ad649c2411581149d7294f24352b605c
-    new: 3e2d4c57561443fb68479129075bb201056b44ac
-    log: revlist-dda77053ad64-3e2d4c575614.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 11e7b553f3a6f5371c6bb3f57c494bb52b88af99
-    new: 808ac6c83141430f9dde71068f59062bd3f4b460
-    log: revlist-11e7b553f3a6-808ac6c83141.txt
-  - ref: refs/tags/mlx-rc
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: 67f29896fdc83298eed5a6576ff8f9873f709228
-    log: |
-         a568814a55a0e82bbc7c7b51333d0c38e8fb5520 RDMA/siw: Properly check send and receive CQ pointers
-         a3d83276d98886879b5bf7b30b7c29882754e4df RDMA/siw: Release xarray entry
-         54d87913f147a983589923c7f651f97de9af5be1 RDMA/core: Prevent divide-by-zero error triggered by the user
-         67f29896fdc83298eed5a6576ff8f9873f709228 RDMA/rxe: Clear all QP fields if creation failed
-         
+  - ref: refs/heads/queue-next
+    old: 953d3366bcf57b44ed72d981c9d6fca91c45c4ba
+    new: f5edf3c8c4861f105c137dadf2a5d450cec6f6e2
+    log: revlist-953d3366bcf5-f5edf3c8c486.txt
+  - ref: refs/heads/queue-rc
+    old: dba0b7ccecacc513d7310ddca58fa35ddee8b6ac
+    new: 0090efda766eb2b3c6c25ad29b9797c5a9edef57
+    log: revlist-dba0b7ccecac-0090efda766e.txt
 
---===============2763490715126415026==
+--===============0162097366785800182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -365,47 +340,11 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 
---===============2763490715126415026==
+--===============0162097366785800182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dc28f32e7f2-932f87b48c07.txt
-
-591f762b2750c628df9412d1c795b56e83a34b3e RDMA/hns: Remove the condition of light load for posting DWQE
-e3d65124ce2bf43f2d65f925e590482bd676f2f4 RDMA/ucma: Cleanup to reduce duplicate code
-e6a1f8c696be3ed07b5f4ce81ce7c45f7ff9a483 RDMA/mlx5: Remove redundant assignment to ret
-74ec2424737a9d5ffa6e4f957e57fb1baff19a5c IB/srpt: Remove redundant assignment to ret
-16149eddd380838fb01ef4bd9a68d89ec044210a RDMA/core: Remove never used ib_modify_wq function call
-7c6c2f5337b7fc77eed5b14636ef959c5873efdd RDMA: Remove unnecessary struct declaration
-620ccaaa46d1fa9e6d15d78deaa37a4228772592 IB/hfi1: Delete an unneeded bool conversion
-11bf35d6303661e0ed38c46c53255410c2dcaf40 net/sched: Don't print dump stack in event of transmission timeout
-282c87c322fe396202df6bdc4f6e8a199789991f IB/cm: Pair cm_alloc_response_msg() with a cm_free_response_msg()
-70188627c63c3f01272c51a8bd837f761b45d1e0 IB/cm: Split cm_alloc_msg()
-e52f615e1d031614131c46f23862fbfa810fedcd IB/cm: Call the correct message free functions in cm_send_handler()
-639dc7382a12b9d79a34fd0df4a4b3049ff052f9 IB/cm: Tidy remaining cm_msg free paths
-ba6cd3ef4f9052ff8d36c91de738f66be2402555 Revert "IB/cm: Mark stale CM id's whenever the mad agent was unregistered"
-1089ebcb12485d771797b97b70b45d9eb3729822 IB/cm: Simplify ib_cancel_mad() and ib_modify_mad() calls
-74d2fbf2d579bf1d26816ab246fd46307396ca6e IB/cm: Improve the calling of cm_init_av_for_lap and cm_init_av_by_path
-edbea64043c7620623541fd847d699f5abe0030f IB/cm: Protect cm_dev, cm_ports and mad_agent with kref and lock
-18cb42483fe8ea601b005449163a52652c205481 net/bnxt: Remove useless check of non-existent ULP id
-9015cc713ad26142f36db9d5df673125374b424d net/bnxt: Use direct API instead of useless indirection
-275ca849ec55f2608087d8ad6522f0fe41c3986b RDMA/core: Introduce peer memory interface
-d2fa436916080f08c3ae2cc7c6dc555449ff0248 net/mlx5: Don't overwrite HCA capabilities when setting MSI-X count
-4be3f83dd908f50e0bfeaa9e33bba835393ff06f RDMA/mlx5: Support SQD2RTS for modify QP
-d8c778019fbccea8f65f0a3525326c6af5d402c6 RDMA/mlx5: Add SQD2RTS bit to the alloc ucontext response
-73af770234656d5f884ead5b8d40132d9ed289d6 RDMA: Enable Relaxed Ordering by default for kernel ULPs
-9442b0de75f4ee029e7c306fce34b1f6f94a9e34 RDMA/mlx5: Allow modifying Relaxed Ordering via fast registration
-421229bcdf7c1f1229ca4f39b3fcaff01800e8e2 net/mlx5: Add DCS caps & fields support
-691a6b9de8438387cd2641cd8a2c358326063f8d RDMA/rdmavt: Decouple QP and SGE lists allocations
-5d616a912bfed695a386e3289cce04f15ff06f0c RDMA/mlx5: Move DCI QP creation to separate function
-851e4183381ad8b2cbd0bd758765125d0c3d1aed RDMA/mlx5: Add DCS offload support
-932f87b48c07278730c3c760b3a707d6a984b524 RDMA/core: Sanitize WQ state received from the userspace
-
---===============2763490715126415026==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dda77053ad64-3e2d4c575614.txt
+Content-Disposition: attachment; filename=revlist-953d3366bcf5-f5edf3c8c486.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -750,12 +689,13 @@ e75063b914fe3f424497cedfd2eb40bc59912864 RDMA/mlx5: Recover from fatal event in 
 932f87b48c07278730c3c760b3a707d6a984b524 RDMA/core: Sanitize WQ state received from the userspace
 808ac6c83141430f9dde71068f59062bd3f4b460 Merge branch 'master' into testing/rdma-rc
 3e2d4c57561443fb68479129075bb201056b44ac Merge branch 'rdma-next' into testing/rdma-next
+f5edf3c8c4861f105c137dadf2a5d450cec6f6e2 Merge branch 'testing/rdma-next' into queue-next
 
---===============2763490715126415026==
+--===============0162097366785800182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11e7b553f3a6-808ac6c83141.txt
+Content-Disposition: attachment; filename=revlist-dba0b7ccecac-0090efda766e.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -1070,5 +1010,6 @@ e75063b914fe3f424497cedfd2eb40bc59912864 RDMA/mlx5: Recover from fatal event in 
 8ceb49a1e6b62f3dcebd334ef64ce4067e0dd56c RDMA/core: Simplify addition of restrack object
 51144e7fe4a5301a7a1b8c1fc5db910a8160155d RDMA/rxe: Return CQE error if invalid lkey was supplied
 808ac6c83141430f9dde71068f59062bd3f4b460 Merge branch 'master' into testing/rdma-rc
+0090efda766eb2b3c6c25ad29b9797c5a9edef57 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2763490715126415026==--
+--===============0162097366785800182==--
