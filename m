@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 18 May 2021 20:18:08 -0000
-Message-Id: <162136908845.23438.3937157639436481472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 18 May 2021 20:23:25 -0000
+Message-Id: <162136940536.27675.1904195477126995436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: c3159848b91ade4339fc5ce353a593e411c7756b
-    new: 6a9229047499f1972c65ca7bbd5db1c6d8d933c4
+    old: 1dde47a66d4fb181830d6fa000e5ea86907b639e
+    new: be07f056396d6bb40963c45a02951c566ddeef8e
     log: |
-         78902b776a4b1ecda2cffaab3039a5a3d5824999 btdev: Add support for Add/Remove White List
-         6a9229047499f1972c65ca7bbd5db1c6d8d933c4 btdev: Add resolving list support
+         be07f056396d6bb40963c45a02951c566ddeef8e tipc: simplify the finalize work queue
          
