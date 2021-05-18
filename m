@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6300935464557353264=="
+Content-Type: multipart/mixed; boundary="===============6553343237825889383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 May 2021 05:20:51 -0000
-Message-Id: <162131525112.11526.6571874150874225965@gitolite.kernel.org>
+Date: Tue, 18 May 2021 05:21:04 -0000
+Message-Id: <162131526499.11768.953594143004879829@gitolite.kernel.org>
 
---===============6300935464557353264==
+--===============6553343237825889383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 4976a50e118e863f613d4a0f984dead71210f230
     new: 58b9d0b9cdddce0a4d54477665dbbec8dc4ae068
     log: revlist-4976a50e118e-58b9d0b9cddd.txt
 
---===============6300935464557353264==
+--===============6553343237825889383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ c2b1063e8feb2115537addce10f36c0c82d11d9b genirq: Add a IRQF_NO_DEBUG flag
 63549ec41228a186a9c494cebb3f545840e7153e Merge branch 'irq/urgent'
 58b9d0b9cdddce0a4d54477665dbbec8dc4ae068 Merge branch 'irq/core'
 
---===============6300935464557353264==--
+--===============6553343237825889383==--
