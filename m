@@ -1,59 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1071000987860981176=="
+Content-Type: multipart/mixed; boundary="===============5077088591638243604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 18 May 2021 05:43:46 -0000
-Message-Id: <162131662631.23979.958268973641815936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Tue, 18 May 2021 06:18:02 -0000
+Message-Id: <162131868247.11943.12632336058912608890@gitolite.kernel.org>
 
---===============1071000987860981176==
+--===============5077088591638243604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/watchdog-next
-    old: b179c1689fb5e80f4cd3e8afce76bb502c62dbf4
-    new: cdb1cc5611cc27ab03b4b4d275265ad5c7d513ba
-    log: revlist-b179c1689fb5-cdb1cc5611cc.txt
+  - ref: refs/heads/android-3.18-preview
+    old: 6f13eb161aeb2da3807d03e13055029801f97b0d
+    new: 220c6e85a40bff3cb57ecf083a4c5a174903b705
+    log: revlist-6f13eb161aeb-220c6e85a40b.txt
 
---===============1071000987860981176==
+--===============5077088591638243604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b179c1689fb5-cdb1cc5611cc.txt
+Content-Disposition: attachment; filename=revlist-6f13eb161aeb-220c6e85a40b.txt
 
-2fbd05fd90a822fd735a968353786adeff6d86f2 watchdog: sp805: Use devm_clk_get_optional()
-93daeb65bc5399b273e0f5266bda1dee96f529f1 watchdog: sp805: Fix kernel doc description
-b45384f7f1161ca181b1e2a2c9bfb9d58b1fb2e0 watchdog: Add {min,max}_timeout sysfs nodes
-3d048ac5c023cf8b83717c96eadebd4c7c3b9169 watchdog: sc520_wdt: Fix possible use-after-free in wdt_turnoff()
-971859cf45a44fc9bc65458a707acccf2cbf2221 watchdog: Fix possible use-after-free by calling del_timer_sync()
-8a6d3d2ef092d0567dddafdf61d70c543cece75b watchdog: Use sysfs_emit() and sysfs_emit_at() in "show" functions
-4d416eb77a10f778d9884fed427a82b6bc263977 watchdog: clean up the Kconfig file
-29ae187bcd2c3e79719333f385e611853d0fabbf watchdog: aspeed: fix hardware timeout calculation
-1cfb811a70dc74a7e0f40936dbac55bb0fdee28f watchdog: it87_wdt: remove useless function
-a7ca1f29e57eda8918eecc6e089e629e452c92a0 watchdog: Fix a typo in Kconfig
-c86c9a4e75f481e760e14bb9d6a2da7c997168df watchdog: meson_wdt: Use device_get_match_data() helper
-9795ef0510775df4487ae2260cfab21d04b6584f watchdog: of_xilinx_wdt: Add comment to spinlock
-96fe51071b3857a9b78952b5fb6519f2dede35ed watchdog: of_xilinx_wdt: Used BIT macro
-5cb60fe74ce419ee6206ea288483e0f1e3948b93 watchdog: of_xilinx_wdt: Used dev_dbg()
-4bbc753ae91c31cbbc8be94c162f52fd367f6528 watchdog: of_xilinx_wdt: Remove passing null pointer
-1589bc167900ab4ab8814153935f5881e3ae8bb7 watchdog: of_xilinx_wdt: Skip printing pointer value
-88315d453a5511333fc1397cfa0de0a8f17e5c68 watchdog: sl28cpld_wdt: Fix a typo
-fc8d22c2a862b9572a919aacf9d77d060266e35c watchdog: bcm7038_wdt: add big endian support
-8cab0795f87ddbcc0a6a06b746fbe46c65860537 watchdog: wdat_wdg: fix typo
-b22ec2eaa1c82d26891dd0de618dc68ab28335bd watchdog: fix syntactic kernel-doc issues
-51f2e9d5228adb186b5ca18676f178fb7372301b watchdog: mtk: support pre-timeout when the bark irq is available
-387ec432a9b7c42ee3b6a4986834d08123375ba1 doc: mtk-wdt: support pre-timeout when the bark irq is available
-d43b7495317c24a8b24c0ca8b626ac9bc6c8720a watchdog: Remove MV64x60 watchdog driver
-83c9ad18cb322d50f4a600b0415e9971333f7662 watchdog: jz4740: Fix return value check in jz4740_wdt_probe()
-f611bd9b613c3cf431aa2f995fda25576740eb22 watchdog: Fix a typo in the file orion_wdt.c
-7c349e6657d81a428ca7b802743c9060e0aa394d watchdog: qcom: Move suspend/resume to suspend_late/resume_early
-18fc5969d74d1ed48450a934796cf2ec6cda563a dt-bindings: watchdog: Add compatible for SC7280 SoC
-db817070cc94c241c9a093044c1a26641c9a47cf watchdog: Add hrtimer-based pretimeout feature
-cdb1cc5611cc27ab03b4b4d275265ad5c7d513ba watchdog: diag288_wdt: Remove redundant assignment
+f57306578e41dd4422264c30aeb83de5f196bbec dp83640: Delay scheduled work.
+094342c6d05ac05dad55047ea8fc555648dfee86 HID: lenovo: Remove sysfs group on failure path
+e92544c740b109f331e097c5c3213f751fa0292e HID: lenovo: Add checks to fix of_led_classdev_register
+5444970da2806704819298d835ff337c0f93fcef net: dp83640: expire old TX-skb
+166bfd8036089fc99f0cc9ac95365b22627845f0 x86/MCE: Initialize mce.bank in the case of a fatal error in mce_no_way_out()
+9f77bae7c2e2bb738f9ce9079546a025fc147406 mac80211: ensure that mgmt tx skbs have tailroom for encryption
+0a9e034c491ed2c466d43dc9e5285a9d218133aa uapi/if_ether.h: prevent redefinition of struct ethhdr
+ce867257230b946feb73788a3f9f56fbc9740c42 ALSA: hda - Add quirk for HP EliteBook 840 G5
+ef740d7de8519564eacf7f4cfc1f308478d5b4ac net/sctp: fix race condition in sctp_destroy_sock
+b419e704f0d50b619f5a2dbb58f879593793d037 Input: nspire-keypad - enable interrupts only when opened
+faa25a9d1296ebcd8fcdbd79a6b4e542d4edf280 dmaengine: dw: Make it dependent to HAS_IOMEM
+220c6e85a40bff3cb57ecf083a4c5a174903b705 neighbour: Disregard DEAD dst in neigh_update
 
---===============1071000987860981176==--
+--===============5077088591638243604==--
