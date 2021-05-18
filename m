@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 18 May 2021 00:50:00 -0000
-Message-Id: <162129900053.4150.5524492055922304954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 18 May 2021 00:50:49 -0000
+Message-Id: <162129904995.5842.5396349328310605909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 7d6e89b77d6d8072204c6c7598f66954ed30f6a4
-    new: 58e31cf015e68e2696cbced6f2128ec68162ef17
+  - ref: refs/heads/dev-queue
+    old: 7716e5d7ac810ec213c5ccde45bf19ab122d839c
+    new: 70f76985e05679cd5dc0866eb6e899f7a59019e6
     log: |
-         3752445d79ee73fc2cb08c35c82890b2ef5c9757 hwmon: (corsair-cpro) Fix fall-through warnings for Clang
-         58e31cf015e68e2696cbced6f2128ec68162ef17 hwmon: (max6621) Fix fall-through warnings for Clang
+         70f76985e05679cd5dc0866eb6e899f7a59019e6 i40e: Fix failed opcode appearing if handling messages from VF
          
