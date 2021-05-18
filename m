@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4003912667340707293=="
+Content-Type: multipart/mixed; boundary="===============1645184457645402941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 18 May 2021 04:21:57 -0000
-Message-Id: <162131171713.8816.12180427963493632275@gitolite.kernel.org>
+Date: Tue, 18 May 2021 04:22:16 -0000
+Message-Id: <162131173690.9021.14603104028046033772@gitolite.kernel.org>
 
---===============4003912667340707293==
+--===============1645184457645402941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
+  - ref: refs/heads/extcon-next
     old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
     log: revlist-6efb943b8616-d07f6ca923ea.txt
 
---===============4003912667340707293==
+--===============1645184457645402941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -332,4 +332,4 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 
---===============4003912667340707293==--
+--===============1645184457645402941==--
