@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 18 May 2021 00:50:49 -0000
-Message-Id: <162129904995.5842.5396349328310605909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 18 May 2021 00:53:34 -0000
+Message-Id: <162129921480.6822.7971646241775154727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7716e5d7ac810ec213c5ccde45bf19ab122d839c
-    new: 70f76985e05679cd5dc0866eb6e899f7a59019e6
+  - ref: refs/heads/for-next/kspp
+    old: 58e31cf015e68e2696cbced6f2128ec68162ef17
+    new: 731d5f441e1c6c1c4f012ac43b644f63e9ae8478
     log: |
-         70f76985e05679cd5dc0866eb6e899f7a59019e6 i40e: Fix failed opcode appearing if handling messages from VF
+         731d5f441e1c6c1c4f012ac43b644f63e9ae8478 ide: Fix fall-through warnings for Clang
          
