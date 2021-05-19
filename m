@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Wed, 19 May 2021 13:21:37 -0000
-Message-Id: <162143049725.4068.16180480179632662327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 19 May 2021 13:36:54 -0000
+Message-Id: <162143141497.12475.1788986571737378056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-kernelci
-    old: b646882b6598c70bb15b03ffaa108012e8aab626
-    new: a67db182d2b2007db563e1c95519fabd15d52095
+  - ref: refs/heads/master
+    old: 1a532eb28df3e45ae2d403d66c0e98295688ae10
+    new: 5d67f349590ddc94b6d4e25f19085728db9de697
     log: |
-         4f6d10220dc7efc0f26c45ea54d015f09002e761 memblock: free_unused_memmap: use pageblock units instead of MAX_ORDER
-         628171b643cd42fb8211690774a2855997fbd5e8 memblock: align freed memory map on pageblock boundaries with SPARSEMEM
-         a67db182d2b2007db563e1c95519fabd15d52095 arm: extend pfn_valid to take into accound freed memory map alignment
+         3d431677687652808a9c9cf9e6c59dbeaf4a1f4d Merge branch 'bpf-loader-progs'
+         5d67f349590ddc94b6d4e25f19085728db9de697 bpf: Add cmd alias BPF_PROG_RUN
          
