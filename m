@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 19 May 2021 12:34:34 -0000
-Message-Id: <162142767482.6819.5885245511104788975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 19 May 2021 12:46:26 -0000
+Message-Id: <162142838620.14157.11488786302660730681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/tags/tb-mfd-gpio-regulator-v5.14
+  - ref: refs/heads/renesas/gpio-logic-analyzer-v2
     old: 0000000000000000000000000000000000000000
-    new: 139bc963832c7865ef80168464a0a80e8cde78d4
+    new: 6563a27a02ba72a3ad78914dfce860f8d7eb5a9e
