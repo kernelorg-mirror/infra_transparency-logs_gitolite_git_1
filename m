@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3672516054944915153=="
+Content-Type: multipart/mixed; boundary="===============7202945484951898071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 19 May 2021 03:13:55 -0000
-Message-Id: <162139403598.18726.10225926371449651951@gitolite.kernel.org>
+Date: Wed, 19 May 2021 03:14:20 -0000
+Message-Id: <162139406096.18941.1135639645387810714@gitolite.kernel.org>
 
---===============3672516054944915153==
+--===============7202945484951898071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 1df83992d977355177810c2b711afc30546c81ce
-    new: 8ac91e6c6033ebc12c5c1e4aa171b81a662bd70f
-    log: revlist-1df83992d977-8ac91e6c6033.txt
+  - ref: refs/heads/master
+    old: e9a606d7dfddb9faf539481505afd0188d7a22c6
+    new: b9d029d807cc8729484d8c3442434ad555f53e92
+    log: revlist-e9a606d7dfdd-b9d029d807cc.txt
 
---===============3672516054944915153==
+--===============7202945484951898071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1df83992d977-8ac91e6c6033.txt
+Content-Disposition: attachment; filename=revlist-e9a606d7dfdd-b9d029d807cc.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -254,5 +254,7 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 8ac91e6c6033ebc12c5c1e4aa171b81a662bd70f Merge tag 'for-5.13-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+1bcff8ae5c2f72f04a01e66cf07a09cf060a7a28 tpm_crb: Use IOMEM_ERR_PTR when function returns iomem
+b9d029d807cc8729484d8c3442434ad555f53e92 tpm_tis_spi: set default probe function if device id not match
 
---===============3672516054944915153==--
+--===============7202945484951898071==--
