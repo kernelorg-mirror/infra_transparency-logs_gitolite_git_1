@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 19 May 2021 08:04:24 -0000
-Message-Id: <162141146458.886.5555753201005577506@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8476078277285419588=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 19 May 2021 08:12:11 -0000
+Message-Id: <162141193122.5870.1140378900049165844@gitolite.kernel.org>
+
+--===============8476078277285419588==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/core
-    old: 915a2bc3c6b71e9802b89c5c981b2d5367e1ae3f
-    new: b837122e297fd0429555243c16ac3c341c39a7f5
+  - ref: refs/heads/master
+    old: 268b03a8b50d6392538918257e5b82a65d8df6cc
+    new: e2bd1e5ef7f773e949735f6d9dece49edbde3af1
     log: |
-         90a0ff4ec9c65cae3085d23301933172cea3f38a sched,stats: Further simplify sched_info
-         fcb501704554eebfd27e3220b0540997fd2b24a8 delayacct: Document task_delayacct sysctl
-         00b89fe0197f0c55a045775c11553c0cdb7082fe sched: Make the idle task quack like a per-CPU kthread
-         0019699518cc026b5bd912425be8e424843d5b33 lib/smp_processor_id: Use is_percpu_thread() instead of nr_cpus_allowed
-         6938840392c89f0ef81e9efe51e2efcdd209fd83 sched/uclamp: Fix wrong implementation of cpu.uclamp.min
-         b837122e297fd0429555243c16ac3c341c39a7f5 sched/uclamp: Fix locking around cpu_util_update_eff()
+         e2bd1e5ef7f773e949735f6d9dece49edbde3af1 Linux 5.4.120
          
+
+--===============8476078277285419588==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621411930 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1621411928-0727eb5c02bddf20f7db42e1888091ec2327457a
+
+268b03a8b50d6392538918257e5b82a65d8df6cc e2bd1e5ef7f773e949735f6d9dece49edbde3af1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCkyFobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t5oQAJlrpPeBnin9jlBNMxyF
+vYdUkoEW/LC+mhEY2nmf4R0EX8ZobCWyXSVpFDw4BmL30yeKN4pr4a9kM4ZG7R5R
+oT/oj3lzGdc5tA7/KWe/PQqjsXAzZtkq+LLN7BmuLiQx6UijppzNHieFNHt6lAQN
+P/DS2rhH6jN/GyS+kPp70gugO77ryYsnYiDacjCgPyxM3h7WhS4tVvckSw14fMf+
+76LDIO9ev7vPBudHMWfTVzuK63UEgC50P29pWzxYmOo3afvwUpPv2aHTjZ/X2UYH
+XQ6mmnUatMkSxQ+S08QB/QG7+rb4oTpBwpG2efNRaxwfY4IyGeOpfkT8qPxS3EDl
+NhtJ5Sa9GOb1L9+Jy3wX1MNvdvQkxY++SEmBMnK5eaWrQJjJyttd+PjspAsdQ/ps
+7Ze5UNGCgUOSBe7aTluwJ7EUymiKvxV/eQZ8e6u1XQ45bEOX4R7bHGYsagnH6vqQ
+P5WwaORQQ8d+NFObkBi71jD7H2p79i28Vg36U/daRHIKNxSEoP6wIBbF3OW13oqx
+OU6FYiV8qEUvepYjI4Dx1b4yPodU1toDenMLu6cr502Py8afUJQx4ERRKsPHeHbT
+bQaNwO8H1sxYMFza+h2Xcv2rckBWVwAm1EK+cmeOpzvHiuQiGafV8HEbWKb0SZa8
+tYErxnEI9kyJ+ghFzu9cEEZ6
+=Hj6Z
+-----END PGP SIGNATURE-----
+
+--===============8476078277285419588==--
