@@ -1,51 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============6059250079703100159=="
+Content-Type: multipart/mixed; boundary="===============2829713432735404840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 19 May 2021 14:19:22 -0000
-Message-Id: <162143396292.8793.669175384493892830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 19 May 2021 14:26:36 -0000
+Message-Id: <162143439669.14770.7402833741934213523@gitolite.kernel.org>
 
---===============6059250079703100159==
+--===============2829713432735404840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/atomics/arch-atomic
-    old: 11e2a4a373daf878d565ed5d53c35e4351d63221
-    new: ffa1c2419a83eb27f90bd40391e6a5e7c81c4f90
-    log: revlist-11e2a4a373da-ffa1c2419a83.txt
+  - ref: refs/heads/for-linus
+    old: 4c6fe8c547e3c9e8c15dabdd23c569ee0df3adb1
+    new: 05ca447630334c323c9e2b788b61133ab75d60d3
+    log: |
+         05ca447630334c323c9e2b788b61133ab75d60d3 ALSA: line6: Fix racy initialization of LINE6 MIDI
+         
+  - ref: refs/heads/for-next
+    old: 3fda230b3ef8bba9a37f77288551ade5c1ee6533
+    new: e878e8c53e5babc6497c692f6dbbb89e7aa166a4
+    log: revlist-3fda230b3ef8-e878e8c53e5b.txt
+  - ref: refs/heads/master
+    old: 051db6c625a39189e2b86e35743f7d9eb5961155
+    new: 1096a54e2c04d01f75ab53bfb7156207f52740ee
+    log: revlist-051db6c625a3-1096a54e2c04.txt
 
---===============6059250079703100159==
+--===============2829713432735404840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11e2a4a373da-ffa1c2419a83.txt
+Content-Disposition: attachment; filename=revlist-3fda230b3ef8-e878e8c53e5b.txt
 
-62ab53b52805bdcdcdeada23b5a60fc803b34268 locking/atomic: alpha: move to ARCH_ATOMIC
-1a80930beed6830c1b36894c6181b7e060d5da26 locking/atomic: arc: move to ARCH_ATOMIC
-ecd48f4fe1896b61779c2c6787d402f76fa5878e locking/atomic: arm: move to ARCH_ATOMIC
-6d2ceb98943d405e88733ff9a164db0abf6e8bc1 locking/atomic: csky: move to ARCH_ATOMIC
-0f8fc5ed7876be5e89650136c2a2f7cfb627b043 locking/atomic: h8300: move to ARCH_ATOMIC
-875d1a99c4f94cce84c37315ca58ca4e298905c2 locking/atomic: hexagon: move to ARCH_ATOMIC
-760fa1a3977dd2215e653574c542598df0ff1530 locking/atomic: ia64: move to ARCH_ATOMIC
-cc90c1a0ab758462b99c3fde5286d4d4302d9840 locking/atomic: m68k: move to ARCH_ATOMIC
-8fb4d77e7faa52565a76295489308c9af39e1eb7 locking/atomic: microblaze: move to ARCH_ATOMIC
-f60e358549019ba94f411916b871021ea1bac61d locking/atomic: mips: move to ARCH_ATOMIC
-49d32746c3266ab4218e8fbfd748369dbf33eaab locking/atomic: nds32: move to ARCH_ATOMIC
-45e06cbccf0b2462aa2056e3f5dd802d13eb0d85 locking/atomic: nios2: move to ARCH_ATOMIC
-e2a69244eeaee8b3b9578bc763c711dca44c9987 locking/atomic: openrisc: move to ARCH_ATOMIC
-5d83b255b860532a21d106be1443b0c2c1af9543 locking/atomic: parisc: move to ARCH_ATOMIC
-71b5ac276f9442bb46095295ebd910ea7788dc36 locking/atomic: powerpc: move to ARCH_ATOMIC
-482183238617491fdd66fdbf3ce59f44eb9eb134 locking/atomic: riscv: move to ARCH_ATOMIC
-702543744d9ad34d59dea9287a71ee860da21d5f locking/atomic: sh: move to ARCH_ATOMIC
-35a72d3b0a1c2f7b8d009e42ac367f59b0222269 locking/atomic: sparc: move to ARCH_ATOMIC
-7a202975b9197ee325bf722d1523ad6956d49868 locking/atomic: xtensa: move to ARCH_ATOMIC
-203be3c0ec6e3dfb66d49361299bdefb265aa500 locking/atomic: delete !ARCH_ATOMIC remnants
-ffa1c2419a83eb27f90bd40391e6a5e7c81c4f90 locking/atomics: atomic-instrumented: simplify ifdeffery
+6d60b7a3d3349e053e377814569acd2ca3393231 ALSA: firewire-lib: code refactoring to refer the same frame count per period in domain structure
+c09010eeb3736793d315943220bc53b076303ee1 ALSA: firewire-lib: handle the case that empty isochronous packet payload for CIP
+d32872f30604ce925ead5dcc322369dc4f08ac88 ALSA: firewire-lib: code refactoring for sequence descriptor'
+3e106f4f690ef0c1e8ce4fb8a01d6e281e6da300 ALSA: firewire-lib: code refactoring for helper function to compute OHCI 1394 cycle
+ebd2a647e2f6b96ae8d2dec355e780b2e421bcf9 ALSA: firewire-lib: code refactoring for parser of IR context header
+4fd1878766a12dc29fe343e1f57177feebb7567a ALSA: firewire-lib: code refactoring for check of CIP header about payload size
+705794c53b0080d7d1c98a7425067f5752ea786b ALSA: firewire-lib: check cycle continuity
+73246fc4c990da6ad6b131f92b8342851cefeb2e ALSA: firewire-lib: insert descriptor for skipped cycle
+a6de7b32b686a6bda835c7c0f2de98eddbf48321 ALSA: rawmidi: fix incorrect array bounds check on clock_names
+9ec730052fa262a9b66993d282a39511e4819e06 ALSA: usb-audio: Refactoring UAC2/3 clock setup code
+481f17c41803985446fd12887b2c042f9c43b0d5 ALSA: usb-audio: Handle error for the current selector gracefully
+e878e8c53e5babc6497c692f6dbbb89e7aa166a4 Merge branch 'topic/firewire' into for-next
 
---===============6059250079703100159==--
+--===============2829713432735404840==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-051db6c625a3-1096a54e2c04.txt
+
+6d60b7a3d3349e053e377814569acd2ca3393231 ALSA: firewire-lib: code refactoring to refer the same frame count per period in domain structure
+c09010eeb3736793d315943220bc53b076303ee1 ALSA: firewire-lib: handle the case that empty isochronous packet payload for CIP
+d32872f30604ce925ead5dcc322369dc4f08ac88 ALSA: firewire-lib: code refactoring for sequence descriptor'
+3e106f4f690ef0c1e8ce4fb8a01d6e281e6da300 ALSA: firewire-lib: code refactoring for helper function to compute OHCI 1394 cycle
+ebd2a647e2f6b96ae8d2dec355e780b2e421bcf9 ALSA: firewire-lib: code refactoring for parser of IR context header
+4fd1878766a12dc29fe343e1f57177feebb7567a ALSA: firewire-lib: code refactoring for check of CIP header about payload size
+705794c53b0080d7d1c98a7425067f5752ea786b ALSA: firewire-lib: check cycle continuity
+73246fc4c990da6ad6b131f92b8342851cefeb2e ALSA: firewire-lib: insert descriptor for skipped cycle
+a6de7b32b686a6bda835c7c0f2de98eddbf48321 ALSA: rawmidi: fix incorrect array bounds check on clock_names
+9ec730052fa262a9b66993d282a39511e4819e06 ALSA: usb-audio: Refactoring UAC2/3 clock setup code
+481f17c41803985446fd12887b2c042f9c43b0d5 ALSA: usb-audio: Handle error for the current selector gracefully
+e878e8c53e5babc6497c692f6dbbb89e7aa166a4 Merge branch 'topic/firewire' into for-next
+536bfb7004e4ddb497454b60e689c65796501e2f Merge branch 'for-next'
+05ca447630334c323c9e2b788b61133ab75d60d3 ALSA: line6: Fix racy initialization of LINE6 MIDI
+1096a54e2c04d01f75ab53bfb7156207f52740ee Merge branch 'for-linus'
+
+--===============2829713432735404840==--
