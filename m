@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 19 May 2021 14:02:30 -0000
-Message-Id: <162143295088.31993.10725594266459938870@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2430839556871285247=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 19 May 2021 14:05:18 -0000
+Message-Id: <162143311842.1841.5468912424074190238@gitolite.kernel.org>
+
+--===============2430839556871285247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 7d982f67d6ba07aa0c85d53a142e845833b84652
-    new: 39a6172ea88b3117353ae16cbb0a53cd80a9340a
+  - ref: refs/heads/staging-testing
+    old: d8218b0de51f36f01ed67731ccf174059a33bb1e
+    new: e2a027109422ee07f2a17ee200cfee821b36dc3f
     log: |
-         86bf2b8ffec40eb4c278ce393e2b0bf48d335e59 platform/x86: gigabyte-wmi: streamline dmi matching
-         8605d64f485fbdb71cb4d55a53085feb000e426e platform/x86: gigabyte-wmi: add support for X570 UD
-         dac282def6f57d251234e7bbb87d21d7a57b26fe platform/x86: gigabyte-wmi: add support for B550 Aorus Elite
-         b68e182a3062e326b891f47152a3a1b84abccf0f platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
-         f048630bdd55eb5379ef35f971639fe52fabe499 platform/x86: hp-wireless: add AMD's hardware id to the supported list
-         3a53587423d25c87af4b4126a806a0575104b45e platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-         bc1eca606d8084465e6f89fd646cc71defbad490 platform/x86: intel_punit_ipc: Append MODULE_DEVICE_TABLE for ACPI
-         39a6172ea88b3117353ae16cbb0a53cd80a9340a platform/x86: touchscreen_dmi: Add info for the Mediacom Winpad 7.0 W700 tablet
+         e2a027109422ee07f2a17ee200cfee821b36dc3f staging: rtl8712: fix the bssid in mp_start_test()
          
+
+--===============2430839556871285247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621433102 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1621433102-4bca3ab01fab70c200483a359744946058191ec1
+
+d8218b0de51f36f01ed67731ccf174059a33bb1e e2a027109422ee07f2a17ee200cfee821b36dc3f refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmClGw8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lhYP/2JYeWA2l1qwyRSKp36T
+55JaBiyXXfP05emA5EZdeeEb7ludk8p5sIBiC4iR+0rrAxj9MXvNFdBWa/V5o8oG
+J84j9ohGSJXHv7esDHJacaP87suRsKBpPnC6jGcil2m+/5lVGp41spz6RjUJfDU0
+hr39W8ZqCxJsu0Y+6VvHtst6vd6k1CtfGL71Lz0XXMFeJJY3gsrG+qZRCr6ZPWew
+IGrPp2b5DeWIn6emWxHFo2Hoxfy5d+Oci//nywiZc/IrCBAghzY9s38pWmSu75dg
+B9fMHmA0KqHeFr0QrNwmW3gHi1/Ze9VkLOKOLTSj8x49tPuj5btBrNQ4CCdARe5W
+/2QV/H4BoBZlFFoO/MHS5h+h5o+4/Tcl5iSMaL1y3+1bs1Na1ie3XucljHKfQtn/
+lJ8vJd0dS6/XnJk7HFvJ5517wX0BjIkpAKvjQdhJGKCwE9WBY4jftNndFSLr0h+b
+m8wbgfXef8dpwn3XwxIGrJEtfdOhdVvZpRTCwKzWtxFLJjcT3o6d/S0Xv1EqnKrv
+/om7h8uWONegngl+8jPM9pZsm7VOxoCr0rMYrif2fZ0ZD0LFEeeGv9b0xTnl/Vsi
+z16bhpWKrZuMhOsy2y+Swo1r+UIH3MLnEheaq6NkykquVeJvyAt5QEI4Lu5U7zTr
+/6+eN6+CF9TSfSLCII1+o9Ql
+=yrHo
+-----END PGP SIGNATURE-----
+
+--===============2430839556871285247==--
