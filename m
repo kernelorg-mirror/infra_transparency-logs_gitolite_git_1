@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9199794574505733628=="
+Content-Type: multipart/mixed; boundary="===============2179643153660192744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 May 2021 23:09:09 -0000
-Message-Id: <162146574960.2657.3923935577558957259@gitolite.kernel.org>
+Date: Wed, 19 May 2021 23:09:19 -0000
+Message-Id: <162146575934.2802.4759296365755566294@gitolite.kernel.org>
 
---===============9199794574505733628==
+--===============2179643153660192744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 3a2daa7248647c0e5e165140553f9af5006e93a2
     new: a49e72b3bda73d36664a084e47da9727a31b8095
     log: revlist-3a2daa724864-a49e72b3bda7.txt
 
---===============9199794574505733628==
+--===============2179643153660192744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -273,4 +273,4 @@ daeabf89eb892cf827608177ecae7ca9389c195a mlxsw: spectrum_router: Add support for
 20e76d3d044d936998617f8acd7e77bebd9ca703 net: ethernet: ixp4xx: Fix return value check in ixp4xx_eth_probe()
 a49e72b3bda73d36664a084e47da9727a31b8095 net: qrtr: ns: Fix error return code in qrtr_ns_init()
 
---===============9199794574505733628==--
+--===============2179643153660192744==--
