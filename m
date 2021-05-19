@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0082944427979498041=="
+Content-Type: multipart/mixed; boundary="===============7418857095179928022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 19 May 2021 16:03:26 -0000
-Message-Id: <162144020667.30895.13720797157792252124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 19 May 2021 16:03:33 -0000
+Message-Id: <162144021374.31044.14995544006609425079@gitolite.kernel.org>
 
---===============0082944427979498041==
+--===============7418857095179928022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: 34991ee96fd8477479dd15adadceb6b28b30d9b0
     new: 687c9e3b1a81d43b233482f781bd4e20561bc390
     log: |
          687c9e3b1a81d43b233482f781bd4e20561bc390 regulator: Check ramp_delay_table for regulator_set_ramp_delay_regmap
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/regulator-5.14
     old: 7075359c8e0da1b01e34201b09b9ab2fd23b8a7d
     new: 79c7e1447c1c998e2571191e3cad12f9285ee22e
     log: |
@@ -30,29 +30,29 @@ changes:
          79c7e1447c1c998e2571191e3cad12f9285ee22e regulator: fan53555: Cleanup unused define and redundant assignment
          
 
---===============0082944427979498041==
+--===============7418857095179928022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621440161 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1621440203-ce390d2c07e0f18622c2654465b8931abdd0cabb
+pusher C3F436CA30F5D8EB 1621440169 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1621440211-0aa2a9524ecf8a5706739ad4dc8cb80d5091a75f
 
-34991ee96fd8477479dd15adadceb6b28b30d9b0 687c9e3b1a81d43b233482f781bd4e20561bc390 refs/heads/for-5.13
-7075359c8e0da1b01e34201b09b9ab2fd23b8a7d 79c7e1447c1c998e2571191e3cad12f9285ee22e refs/heads/for-5.14
+34991ee96fd8477479dd15adadceb6b28b30d9b0 687c9e3b1a81d43b233482f781bd4e20561bc390 refs/heads/regulator-5.13
+7075359c8e0da1b01e34201b09b9ab2fd23b8a7d 79c7e1447c1c998e2571191e3cad12f9285ee22e refs/heads/regulator-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmClNqEACgkQJNaLcl1U
-h9DLMQf9HICArB5crHlMGX1sAW7gzYG8xrsA2a3UhPpML01hjQYdBbyEfmzuSkW+
-uj8hfaKPX9VulSFiA7D7aQXJT5f1AEr7kNkcqgrUh3oBvF7ES0z5oXGSF85cfMbN
-oJQfpFZnGYDGCm+XTzZ6djFRx1TX/RyweQy5m5I5Kcq/M6o7su147Q9IukmVKfJK
-shM9Nl0qvx57X7hFuXXvtcAzLA4SZus/GV7vQRPZGuNG0wg/owwIz0PXBxxPQgKz
-ZGcmDucV1Brs7fGUveC5RbWEMrKJshh/7O0lIgJY/I1t7qhnC0HtqUBFVOA9kpEj
-/RMcjXwMjwqCc1Kc8m+8p1UMZELZZg==
-=UjSN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmClNqkACgkQJNaLcl1U
+h9Dh4Af+K9EmEyNG9WPX0eaUSZ+OpKozx35gSuFm6m7Il5UhJzwSlzFW++JKkeyl
+Gc+gJA8pvZMqiBEymu0PG+hD+GshFizR+Gd7vESQXhCyXokJJ72ofaoamB3Hucr7
+Et1BztaXliTBUflcNzjQ3iapJblAfDLxRei+LdrVWpTDV80c4hjmUvVhx7L6iZvt
+HYlqG88JKTClyUncNrwxJJwJGZI11SrHtuWb34+tScNay0WNQx8+rPX20NuJfa0n
+uFPsDMvYq0pbDuCj1DfNNI+qnfoKhCXtOfdhwQOqXA6QbihwpfHmWrB2+efRtSVO
+yN0lhK98Nz22svUPv9sxiyTONhFXJQ==
+=nweK
 -----END PGP SIGNATURE-----
 
---===============0082944427979498041==--
+--===============7418857095179928022==--
