@@ -1,58 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============7418857095179928022=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 May 2021 16:03:33 -0000
-Message-Id: <162144021374.31044.14995544006609425079@gitolite.kernel.org>
-
---===============7418857095179928022==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 19 May 2021 16:03:57 -0000
+Message-Id: <162144023755.31352.7389631790336920187@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.13
-    old: 34991ee96fd8477479dd15adadceb6b28b30d9b0
-    new: 687c9e3b1a81d43b233482f781bd4e20561bc390
+  - ref: refs/heads/for-linus
+    old: b64a8148d78e6989b0a58d1cc8a829d76fbaa137
+    new: de26dfc4fc0c6583ad5f7b2bc88c913e35321a28
     log: |
-         687c9e3b1a81d43b233482f781bd4e20561bc390 regulator: Check ramp_delay_table for regulator_set_ramp_delay_regmap
+         8c08652614cb7468620a6328b37ca2965cd48283 ASoC: SOF: Intel: hda: don't send DAI_CONFIG IPC for older firmware
+         de26dfc4fc0c6583ad5f7b2bc88c913e35321a28 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
-  - ref: refs/heads/regulator-5.14
-    old: 7075359c8e0da1b01e34201b09b9ab2fd23b8a7d
-    new: 79c7e1447c1c998e2571191e3cad12f9285ee22e
+  - ref: refs/heads/for-next
+    old: a0cfcfd0d2ac00b42b2f60451f7d273d1bf9ac64
+    new: 1f762e65d7f6cb10970d8e1f47d168d75e4d6f6f
     log: |
-         a7f003147b785d9780ceeac13a8e344927a3b9ea regulator: fan53555: Fix slew_shift setting for tcs4525
-         79c7e1447c1c998e2571191e3cad12f9285ee22e regulator: fan53555: Cleanup unused define and redundant assignment
+         8c08652614cb7468620a6328b37ca2965cd48283 ASoC: SOF: Intel: hda: don't send DAI_CONFIG IPC for older firmware
+         172dd9216d2b8a3fa162039d89c4361ef35c85ae ASoC: meson: g12a-toacodec: use regmap fields to prepare SM1 support
+         7487238c5f530b418745ce134d1b0a7fba3a0d8d ASoC: meson: g12a-toacodec: add support for SM1 TOACODEC
+         11480dbfe1d59eaa6382864acc476e7621b1da4c ASoC: wm8750: convert to the json-schema
+         8b4ba1d31771114ebb717523c2bdb5ea75b4dec8 ASoC: soc-dai: fix up hw params only if it is needed
+         60339074c4e4445312c7b60b16035cfbd8914e58 Merge series "ASoC: meson: g12a-toacodec: add support for SM1" from Neil Armstrong <narmstrong@baylibre.com>:
+         de26dfc4fc0c6583ad5f7b2bc88c913e35321a28 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         1f762e65d7f6cb10970d8e1f47d168d75e4d6f6f Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
          
-
---===============7418857095179928022==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1621440169 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621440211-0aa2a9524ecf8a5706739ad4dc8cb80d5091a75f
-
-34991ee96fd8477479dd15adadceb6b28b30d9b0 687c9e3b1a81d43b233482f781bd4e20561bc390 refs/heads/regulator-5.13
-7075359c8e0da1b01e34201b09b9ab2fd23b8a7d 79c7e1447c1c998e2571191e3cad12f9285ee22e refs/heads/regulator-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmClNqkACgkQJNaLcl1U
-h9Dh4Af+K9EmEyNG9WPX0eaUSZ+OpKozx35gSuFm6m7Il5UhJzwSlzFW++JKkeyl
-Gc+gJA8pvZMqiBEymu0PG+hD+GshFizR+Gd7vESQXhCyXokJJ72ofaoamB3Hucr7
-Et1BztaXliTBUflcNzjQ3iapJblAfDLxRei+LdrVWpTDV80c4hjmUvVhx7L6iZvt
-HYlqG88JKTClyUncNrwxJJwJGZI11SrHtuWb34+tScNay0WNQx8+rPX20NuJfa0n
-uFPsDMvYq0pbDuCj1DfNNI+qnfoKhCXtOfdhwQOqXA6QbihwpfHmWrB2+efRtSVO
-yN0lhK98Nz22svUPv9sxiyTONhFXJQ==
-=nweK
------END PGP SIGNATURE-----
-
---===============7418857095179928022==--
