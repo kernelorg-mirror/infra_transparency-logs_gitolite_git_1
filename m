@@ -1,61 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6368412929053789034=="
+Content-Type: multipart/mixed; boundary="===============7974687291400504756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 May 2021 16:03:02 -0000
-Message-Id: <162144018272.30542.8828058060735921732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 19 May 2021 16:03:09 -0000
+Message-Id: <162144018960.30636.13565800223361273573@gitolite.kernel.org>
 
---===============6368412929053789034==
+--===============7974687291400504756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: cdf112d4c65f83065793b73b49363123517fdb71
-    new: 8c08652614cb7468620a6328b37ca2965cd48283
+  - ref: refs/heads/for-5.14
+    old: ea030ca688193462b8d612c1628c37129aa30072
+    new: 9dee1f9fc504c48b6b02d8726cc9c868cf41f7be
     log: |
-         8c08652614cb7468620a6328b37ca2965cd48283 ASoC: SOF: Intel: hda: don't send DAI_CONFIG IPC for older firmware
-         
-  - ref: refs/heads/asoc-5.14
-    old: 375904e3931955fcf0a847f029b2492a117efc43
-    new: 60339074c4e4445312c7b60b16035cfbd8914e58
-    log: |
-         172dd9216d2b8a3fa162039d89c4361ef35c85ae ASoC: meson: g12a-toacodec: use regmap fields to prepare SM1 support
-         7487238c5f530b418745ce134d1b0a7fba3a0d8d ASoC: meson: g12a-toacodec: add support for SM1 TOACODEC
-         11480dbfe1d59eaa6382864acc476e7621b1da4c ASoC: wm8750: convert to the json-schema
-         8b4ba1d31771114ebb717523c2bdb5ea75b4dec8 ASoC: soc-dai: fix up hw params only if it is needed
-         60339074c4e4445312c7b60b16035cfbd8914e58 Merge series "ASoC: meson: g12a-toacodec: add support for SM1" from Neil Armstrong <narmstrong@baylibre.com>:
+         1f89d2fe16072a74b34bdb895160910091427891 regmap: Add MDIO bus support
+         9dee1f9fc504c48b6b02d8726cc9c868cf41f7be Merge series "RTL8231 GPIO expander support" from Sander Vanheule <sander@svanheule.net>:
          
 
---===============6368412929053789034==
+--===============7974687291400504756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621440138 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621440180-855255bb48d06b9d9cb47f54c4fe5cfcdc60a925
+pusher C3F436CA30F5D8EB 1621440144 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1621440187-aff565b1db7329cc309fe52225514dfd570add04
 
-cdf112d4c65f83065793b73b49363123517fdb71 8c08652614cb7468620a6328b37ca2965cd48283 refs/heads/asoc-5.13
-375904e3931955fcf0a847f029b2492a117efc43 60339074c4e4445312c7b60b16035cfbd8914e58 refs/heads/asoc-5.14
+ea030ca688193462b8d612c1628c37129aa30072 9dee1f9fc504c48b6b02d8726cc9c868cf41f7be refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmClNooACgkQJNaLcl1U
-h9DRFwf/XcouJSsMvX7HKPTo3fIUUoxKHo1Q4cU4u3Te0DOEOUut0I7txWYKrJnd
-gjJDg0UtVI1HKik1wYDxyVPAsebCrnPVSYofTcu34VoZajmV7vNL5B4ZVSSYRsvS
-sRfpovcV1SSXZjkVZdcUQB1g2uV6M11dCKQcBraKW7vZdgE2uGiDPavWpccvp+S5
-A9DLYFgwTqM2yLApNC38i/Fsd/MIlWIhnpd64h4qvNk5yhJv2PXksuV7QIjjzkZX
-MF3jvzfBUvvHjJJ9/BuqYI57mhxtI3dmtOi1WNJPPRrvm/jR+5M+kDEBBFCBZ84a
-EBWfJ8nR+4/ZXJVaCBBjUv7uaK4isA==
-=dmeD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmClNpEACgkQJNaLcl1U
+h9DAvgf+JPMr6KuXkaqbTqcBNN9F/QDUgRfyGbDAvTErZAdvMb5eLuOqwlfWXg2c
+IHmbnP/eM5EbYcs1WY+Moe0bFYd8657aU/rlPvI4Ko/pPTYsPv2EixluUNpiWink
+GdkcesS+io8cYGhw/LgbNhf+vAbKE13SIjcr0722V+3+b4OYjwz2pgxxznA/Ziim
+yCgxJeAu/ntGAglBjv+hWj3kdP7h2FlauI48aBpBMe6Qj1Il7Qpgo+Px15z9p67K
+d75NaRP1JhicaOSYnezjq6B7HaIgYa3N83432A/XKnDZZVaDPZ7uW6hz1zGPH22u
+uBVA/qydLbnI4/m4SzWhOkBqBx3jrA==
+=M1tm
 -----END PGP SIGNATURE-----
 
---===============6368412929053789034==--
+--===============7974687291400504756==--
