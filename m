@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 19 May 2021 03:16:07 -0000
-Message-Id: <162139416767.20972.8502654807300257426@gitolite.kernel.org>
+Date: Wed, 19 May 2021 03:16:50 -0000
+Message-Id: <162139421003.21261.12774231494092651298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: b9d029d807cc8729484d8c3442434ad555f53e92
-    new: f5e8131daa18c7f560dae294badfba7e15abdaee
+    old: f5e8131daa18c7f560dae294badfba7e15abdaee
+    new: da2f0c7b46171175ab54da248752b1139c42fee4
     log: |
-         f5e8131daa18c7f560dae294badfba7e15abdaee char: tpm: move to use request_irq by IRQF_NO_AUTOEN flag
+         da2f0c7b46171175ab54da248752b1139c42fee4 char: tpm: move to use request_irq by IRQF_NO_AUTOEN flag
          
