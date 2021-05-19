@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 19 May 2021 19:56:10 -0000
-Message-Id: <162145417067.16163.4259550876895117070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 19 May 2021 19:56:46 -0000
+Message-Id: <162145420611.16424.1865422132536580789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
   - ref: refs/heads/master
-    old: 340f42f7ff0b87a92e69b50706a6c872da756c89
-    new: 9287aa2bfd54a8a81f994defabcd92c737511d85
+    old: 980bd585c38a0b9578c0f857c20b86c7fc6feffe
+    new: 2058aadd7607a3c259e6c63c735c8b45640f0b75
     log: |
-         eb0e4d59b6edbe678ecfc5d5b77608b634057f08 net: Add notifications when multipath hash field change
-         7725c1c8f73260de2ef0d01ca23b64260fc66ffd mlxsw: spectrum_router: Replace if statement with a switch statement
-         9d23d3eb6f4134f19947e6319b79ce1e440aba98 mlxsw: spectrum_router: Move multipath hash configuration to a bitmap
-         28bc824807a5cb95edb46807c210dfff37a3a0b3 mlxsw: reg: Add inner packet fields to RECRv2 register
-         b7b8f435ea3b33ba7067f992c5b85a62f24d19ed mlxsw: spectrum_outer: Factor out helper for common outer fields
-         01848e05f8bbff2d799073b307fe2eb42bee764b mlxsw: spectrum_router: Add support for inner layer 3 multipath hash policy
-         daeabf89eb892cf827608177ecae7ca9389c195a mlxsw: spectrum_router: Add support for custom multipath hash policy
-         9287aa2bfd54a8a81f994defabcd92c737511d85 Merge branch 'mlxsw-mphash-policies'
+         01404f570c67281b49cc6da6e3f9331309c3c9a2 mesh: Fix delivery of PB-ACK to acceptors
+         9fd05a6eaea872d210cff214f36ce18f470bcf47 mesh: Normalize endian of public/private ECC keys
+         1441c24039fe79cf29f62dc59532ca21b7090a1c tools/mesh: Add all supported OOB methods to cfgclient
+         7f0a643d5416b25d06821db784de268d2962362b test/mesh: Add support for testing more OOB auth
+         9260107b158ddd9677ccfe1c7968f62eb988fa92 mesh: Add single threading to prov-acp ob messaging
+         2058aadd7607a3c259e6c63c735c8b45640f0b75 mesh: Fix race condition memory leak
          
