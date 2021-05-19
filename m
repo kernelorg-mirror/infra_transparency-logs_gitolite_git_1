@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Wed, 19 May 2021 00:33:02 -0000
-Message-Id: <162138438223.15965.12083086618133066246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 19 May 2021 00:37:03 -0000
+Message-Id: <162138462313.18461.4273267929951137830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/heads/objtool-force-prereq-expansion
+    old: 863b92094c32c068cac57360e7a42175a74ca996
+    new: 4fe7f09b8e1548c7a4e7df1dd0c2caecaf4fa8a0
+    log: |
+         4fe7f09b8e1548c7a4e7df1dd0c2caecaf4fa8a0 kbuild: Fix objtool dependencies for object-specific OBJECT_FILES_NON_STANDARD
+         
