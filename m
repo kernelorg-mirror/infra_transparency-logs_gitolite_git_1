@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 19 May 2021 13:05:41 -0000
-Message-Id: <162142954109.26376.17701686334556361746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Wed, 19 May 2021 13:21:37 -0000
+Message-Id: <162143049725.4068.16180480179632662327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/for-next
-    old: d1dd216738f54c7a29a608c33ac98ce1f41e8fda
-    new: bb63744b02e91df8bdc0d3025c7d9f48b77f6c75
+  - ref: refs/heads/for-kernelci
+    old: b646882b6598c70bb15b03ffaa108012e8aab626
+    new: a67db182d2b2007db563e1c95519fabd15d52095
     log: |
-         d0413118bbc306070d97c6a218960c39cb92ab5d docs: dt: remove stale property-units.txt, link to current schema
-         bb63744b02e91df8bdc0d3025c7d9f48b77f6c75 dt-bindings: pwm: brcm,iproc-pwm: convert to the json-schema
+         4f6d10220dc7efc0f26c45ea54d015f09002e761 memblock: free_unused_memmap: use pageblock units instead of MAX_ORDER
+         628171b643cd42fb8211690774a2855997fbd5e8 memblock: align freed memory map on pageblock boundaries with SPARSEMEM
+         a67db182d2b2007db563e1c95519fabd15d52095 arm: extend pfn_valid to take into accound freed memory map alignment
          
