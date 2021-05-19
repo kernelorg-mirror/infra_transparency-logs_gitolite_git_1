@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2086056421788375497=="
+Content-Type: multipart/mixed; boundary="===============4111801135369916600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 19 May 2021 22:22:59 -0000
-Message-Id: <162146297902.6321.17235889507305615631@gitolite.kernel.org>
+Date: Wed, 19 May 2021 22:23:14 -0000
+Message-Id: <162146299490.6514.14006960733241721530@gitolite.kernel.org>
 
---===============2086056421788375497==
+--===============4111801135369916600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 77d6376a62787b0af5d295af2a8cc211c517d782
     new: 19b9adc67d66e470599528cbcb3f345e8334582d
     log: revlist-77d6376a6278-19b9adc67d66.txt
 
---===============2086056421788375497==
+--===============4111801135369916600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ dd7b79ce3a5cf163f1d615a795769e5a1fb3d159 arm64: select CPUMASK_OFFSTACK if NUMA
 6c30f799c57291d10d875892f7ae79f8c8a89cc3 x86: atomic_set needs WRITE_ONCE
 19b9adc67d66e470599528cbcb3f345e8334582d Merge remote-tracking branch 'gitlab/main' into main
 
---===============2086056421788375497==--
+--===============4111801135369916600==--
