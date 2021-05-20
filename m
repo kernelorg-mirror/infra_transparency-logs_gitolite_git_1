@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Thu, 20 May 2021 15:28:30 -0000
-Message-Id: <162152451062.5379.15849448950140065977@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4890291270225819748=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 20 May 2021 15:29:22 -0000
+Message-Id: <162152456256.5765.17815730759092111310@gitolite.kernel.org>
+
+--===============4890291270225819748==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 8a38d9228960e411ab03e036e6c452c00897d0c3
-    new: 6f6674109a68b23625ecf7f29d2b8b8a00be2471
+  - ref: refs/heads/master
+    old: 01d334f81b8b3d29c034d559f93339a274efb199
+    new: abf5f62cb35d38a4bf98f49cc77dc365544ff2ab
     log: |
-         eb2d0a980c4667df285232840fc45f45978a379b update UAPI header copies
-         8a6250926b52618fbb2f3049a87ade26af9d734d json: improve array print API
-         38cd721796f8b448d592953cfa9c70d21384b541 netlink: add FEC support
-         8145f9521b756acc1b5fe5f92fa1c8f13c75d174 netlink: fec: support displaying statistics
-         67a9ef5516616f0a59b702c46f3ad6b8e87d5af0 ethtool: add nlchk for redirecting to netlink
-         f8d2bc2ccd8bb24f42ce5023227f21a6433c782f netlink: add support for standard stats
-         02255f29f38d51701eac3845169e5bf138dfab43 netlink: stats: add an --all-groups option
-         fcf8c7b2b7adc83c8898c176d28a6b352be47282 test: workaround for FEC encoding parser checks
-         6f6674109a68b23625ecf7f29d2b8b8a00be2471 Merge branch 'review/fec-stats-v3' into master
+         abf5f62cb35d38a4bf98f49cc77dc365544ff2ab Minor visual tweak in output
          
+
+--===============4890291270225819748==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1621524562 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1621524562-3d9213d71d18552f2a679364c11c7548c02430d9
+
+01d334f81b8b3d29c034d559f93339a274efb199 abf5f62cb35d38a4bf98f49cc77dc365544ff2ab refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKaAUgAKCRC2xBzjVmSZ
+bLuWAP9GQmuDV0ENfI8iCrbXXnCH6c4KpDEfaoe3HlHMOBcMGwD/fxPxXnQBpTLO
+9pjn70jw7Wb0Yx8AXlOKYF/y0Wz3KAw=
+=y4YH
+-----END PGP SIGNATURE-----
+
+--===============4890291270225819748==--
