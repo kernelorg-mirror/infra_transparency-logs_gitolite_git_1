@@ -1,112 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============6736615122799690118=="
+Content-Type: multipart/mixed; boundary="===============8319401249876575091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 20 May 2021 06:29:37 -0000
-Message-Id: <162149217725.13913.5558548463808691709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 20 May 2021 06:57:51 -0000
+Message-Id: <162149387186.31735.2367214208102686609@gitolite.kernel.org>
 
---===============6736615122799690118==
+--===============8319401249876575091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/staging-next
-    old: d8218b0de51f36f01ed67731ccf174059a33bb1e
-    new: b9f38e913a926b455e5048a95f53a993b515509f
-    log: revlist-d8218b0de51f-b9f38e913a92.txt
+  - ref: refs/heads/next
+    old: 0aeb996cc0ef25ce07f2e6c059b1bbb68acd0d56
+    new: 928e72b83f63a1ed3c7106c732d6dc2334b5a87f
+    log: |
+         a30e43f61a1e614309875ab7775f2274b4e40742 merge: don't translate literal commands
+         4901884a23c6eaabb0738bddc440f4155f81b973 stash: don't translate literal commands
+         f5f5a61d5a1d54200972e104ffb3640dfa80bfb6 submodule: use the imperative mood to describe the --files option
+         99fc555188681caeedc983b9fc982d6dc8ee2a8c rev-parse: fix segfault with missing --path-format argument
+         e26a60d624c6a2bf4f78f9ae2c42c64d237e5f84 Merge branch 'ah/merge-usage-i18n-fix' into next
+         5d3c8ba2bf27c8bcab2fced1784ad3ed7daa4bee Merge branch 'wm/rev-parse-path-format-wo-arg' (early part) into next
+         68e6a46117948c9e0b53790522a2d92e1d7792c8 Merge branch 'ah/stash-usage-i18n-fix' into next
+         928e72b83f63a1ed3c7106c732d6dc2334b5a87f Merge branch 'ah/submodule-helper-module-summary-parseopt' into next
+         
+  - ref: refs/heads/seen
+    old: c7d175b1b4f6fa4118127b721ff7da4d2b1250a4
+    new: f2817c13318898e76e849e9d27b0d2fb235377f9
+    log: revlist-c7d175b1b4f6-f2817c133188.txt
 
---===============6736615122799690118==
+--===============8319401249876575091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c7d175b1b4f6-f2817c133188.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621492171 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1621492171-94c371fc7662ca28a68065d90768cdf1f4687362
+e22f2daed0fde4595696e09c6802a1ecd5e0c527 docs: improve fast-forward in glossary content
+6aacb7d8619c50b3c92fe3e99b93ffa9b6065dfc clone: clean up directory after transport_fetch_refs() failure
+ae1a7eefffe60425e6bf6a2065e042ae051cfb6c fetch-pack: signal v2 server that we are done making requests
+09667e95163a9d51e569c50b1fdfc78d0a002c23 fetch: improve grammar of "shallow roots" message
+8013d7d9ee7674774f6dbdbaeab11ce173bee016 setup: split "extensions found" messages into singular and plural
+38c021c8f0a95f7336a0dff761c86efcc4aa7b2a Merge branch 'zh/ref-filter-atom-type' into jch
+4c80f6919563c7222e0844d33319de023b055400 Merge branch 'ef/mailinfo-short-name' into jch
+06628a899618c62281b76bc1e2d29c4634ed5feb Merge branch 'mt/parallel-checkout-with-padded-oidcpy' into jch
+ceedfb84fa9dd4e66b8e4d2a36b3204b7caef04e Merge branch 'tz/c-locale-output-is-no-more' into jch
+b7579edb86c282d5dcc3e1aa6f3cb83ebb75982b Merge branch 'ds/sparse-index-protections' into jch
+6143a35e048dd3f03aefb45939b74042b894f6a4 Merge branch 'cs/http-use-basic-after-failed-negotiate' into jch
+b4b57a6415871c2a996efd075160148c64c12b2d Merge branch 'jn/size-t-casted-to-off-t-fix' into jch
+90fc054f3f0dcea63282ff20c8dc74011dd18abb Merge branch 'ah/merge-usage-i18n-fix' into jch
+4e14122abafba77b2b81920aa238c4a105d33445 Merge branch 'wm/rev-parse-path-format-wo-arg' (early part) into jch
+aaac1234a471c94f50aeb22c4996decefa3f45e4 Merge branch 'ah/stash-usage-i18n-fix' into jch
+afba0c24cbb8cd8921f7a391121254c20e0029f3 Merge branch 'ah/submodule-helper-module-summary-parseopt' into jch
+67c192a144f5504c34d99bc694c73691fb7c85d8 ### match next
+b3e43c61b2bd99cdd930b10974cc4af6ecce050c Merge branch 'ah/doc-describe' into jch
+c55d7e49e252cac07f311d0a0183702554ab6358 Merge branch 'ab/test-lib-updates' into jch
+80f6568e1c8ed3affd46a102219ae1488eabae99 Merge branch 'ga/send-email-sendmail-cmd' into jch
+60baac9692b5ddf74b75f4853ab0e653f3afd44b Merge branch 'ds/write-index-with-hashfile-api' into jch
+a17d7053f190a77df861de5419d52d57b11c6090 Merge branch 'jc/clarify-revision-range' into jch
+875b5337408cc48e52643f578714873eaac3e292 Merge branch 'ma/t0091-bugreport-fix' into jch
+b9d7c66b9c461fa778e2cbf1e432ed55acb8a952 Merge branch 'tv/p4-fallback-encoding' into jch
+2d8a9c115516609540c8f5a139f1b7ac93df15ae Merge branch 'ls/fast-export-signed' into jch
+06270f6b00c1fe0ee524f8fbb559962d5c2de624 Merge branch 'ab/trace2-squelch-gcc-warning' into jch
+24a97ace187d061d58924d655e60b8e49047441f Merge branch 'ab/pickaxe-pcre2' into jch
+c496264023333561460b935d7638a7b96eefb878 Merge branch 'ab/describe-tests-fix' into jch
+a4f416664b55d889515598daa2229f9e640f1556 Merge branch 'ab/update-submitting-patches' into jch
+50b23fff295d262e44763cc3ca426b49b5bdaa9a Merge branch 'tl/fix-packfile-uri-doc' into jch
+607320e340bf0c475f980b8e8943b4aead86e839 Merge branch 'jh/simple-ipc-sans-pthread' into jch
+b0fa872f551d9b2d06e702506f31db5688eadeb0 Merge branch 'wm/rev-parse-path-format-wo-arg' into jch
+a84216c68435f545de38d69c771a6f2ade480394 doc: explain the use of color.pager
+bb80333c0853b04ff789de8037bef5a4ade1da8c Documentation/technical: describe remembering renames optimization
+caba91c373127a316b5442a6aac7080fee9bd624 fast-rebase: change assert() to BUG()
+f9500261e0aea2bebb527281462d650be1db38a4 fast-rebase: write conflict state to working tree, index, and HEAD
+a22099f552d5e67dc71c2bd92c4b711387e9695f t6429: testcases for remembering renames
+d29bd6d73da5c40935713731919b1950692aff15 merge-ort: add data structures for in-memory caching of rename detection
+2734f2e3243ce19af1d9c9c92dffae13af7b0fe5 merge-ort: populate caches of rename detection results
+64aceb6d738394130a6e215dc6de51d8452313e0 merge-ort: add code to check for whether cached renames can be reused
+19ceb486f8dd25fb5782724c454edb2f06f1ed71 merge-ort: avoid accidental API mis-use
+d509802993e8423d459a05fcd6151ca1782caa07 merge-ort: preserve cached renames for the appropriate side
+86b41b389546e68164ed58f6e60297a391cdca83 merge-ort: add helper functions for using cached renames
+cbdca289fbb011e7397fecfebeeac3f887ef22d1 merge-ort: handle interactions of caching and rename/rename(1to1) cases
+25e65b6dd52c987056f1cac00fe6073fbf8ea237 merge-ort, diffcore-rename: employ cached renames when possible
+d153fd1240393d10b2fcc68ce6ef4886a43e9c30 Merge branch 'jk/doc-color-pager' into jch
+582fa23e0f860df7aa08b7bf4c58df1e4dc799f9 Merge branch 'jk/clone-clean-upon-transport-error' into jch
+a5733d00cde9cd9c916b3f38812ce0feba0b40b7 Merge branch 'jk/fetch-pack-v2-half-close-early' into jch
+c71211fe03c819dd4772468436f050261d3e7f4c Merge branch 'ah/fetch-reject-warning-grammofix' into jch
+c3713d77bcc7edea533d755f66925efbc56530c8 Merge branch 'ah/setup-extensions-message-i18n-fix' into jch
+583d4611f724c8232523c8eb4f44cd7f84600188 Merge branch 'ry/clarify-fast-forward-in-glossary' into jch
+727fb9a9a340c94b8855721f9e52ee381627fe38 Merge branch 'en/ort-perf-batch-11' into seen
+ed24fbfda4cbe529c9508a104deef26e547a1fa0 Merge branch 'ag/merge-strategies-in-c' into seen
+a7e79785bd64c975da836325d162268b7692c613 Merge branch 'mr/bisect-in-c-4' into seen
+14b21e647f6384fd9dc50849b2c11bf35c960492 Merge branch 'jh/rfc-builtin-fsmonitor' into seen
+34b02cda104de4ad47a4e3050c9db0fc2d78aba4 Merge branch 'tb/multi-pack-bitmaps' into seen
+bc6791f9989d0612e8ba285b145d123321447236 Merge branch 'ao/p4-avoid-decoding' into seen
+73486637c82479703a6f1037ccc66f7874d5f8c2 Merge branch 'hn/prep-tests-for-reftable' into seen
+8dbb04d8ca61a453ec5a1bab0c7ea4de33bb2ba8 Merge branch 'ds/status-with-sparse-index' into seen
+27a8728de71d10c49b916f0c94f8ea3620065679 Merge branch 'hn/reftable' into seen
+f8d7bbc4ef10631dfb6b884ebe39974459e2c706 Merge branch 'hn/refs-errno-cleanup' into seen
+6f3644ec62623d3879abd16adf41b57e3273191d Merge branch 'so/log-m-implies-p' into seen
+d12072f96d679f82413f5292cec2e5e4eb7ff4fe Merge branch 'bc/doc-asciidoctor-to-man-wo-xmlto' into seen
+f2817c13318898e76e849e9d27b0d2fb235377f9 Merge branch 'ab/send-email-optim' into seen
 
-d8218b0de51f36f01ed67731ccf174059a33bb1e b9f38e913a926b455e5048a95f53a993b515509f refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCmAcsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t60QAMNR8LTz9GuJg44Hsy8x
-/ir74v9UnxBuiJUD8rOqzgsWhkXvPCsoUHRQTY4U7CyJEIfhWVVzr0SivWRIscql
-EhJw0wLRU304CQsaCkxxiaD+oWcvC9X9zogkkQxxoyZNhpXRwf3dRX+jB1tr0use
-R5MqfmmbwnySA3p1CbgARPth68jyMFpT9H4VCj7+0ca6v0LQryWwhe3MYT/1UrOP
-nWpO3pfmVVGbAA7oBKNzQSU1MB/M0inz9e6K/AR5rjJ4FLwB7HgCt2xVZzkx2yIL
-nu/t38MW+XkAnZNgGMOMHN4TSiW84ZzAkBWwH5vaAPncr5KDytzTB+OQjkrO3JvO
-pLJyyHyY4L0eoL1XqbDJZvSJm+PXxTdV0b63ZEwhLCsOhZPCilRT9cYYiYtI5GnV
-TJg2tlTkPSfa1038dazWaaw7lWTBidGBDhte+VSQjs5oOryGWfRCwNcc5H7P+vUS
-aGOaQTjLH4DxgvnqhsacUZjGT0xjW+R9kQzESNfQiTtO5YtH1/NdshrQdHPC3ll8
-6HAPusA6lfqaYvarKXSs2MVoyO+eYgpG159PZJmvOYxpQPwn2Pa2o2AUM3hVaU0k
-e/uOxE1OYz4dQqNhcZ0fGalRBbZBfCswzZrpH9FE192stH+16w+AnmEKReKtEbTZ
-0I+5g028fnjDqnEyhbFWc2br
-=DMOk
------END PGP SIGNATURE-----
-
---===============6736615122799690118==
-Content-Type: text/plain; charset="utf-8"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d8218b0de51f-b9f38e913a92.txt
-
-e2a027109422ee07f2a17ee200cfee821b36dc3f staging: rtl8712: fix the bssid in mp_start_test()
-ae12cf6bf9048f037f61cd8bb85be60edfe254d7 staging: rtl8188eu: Drop unnecessary NULL check after container_of
-934de9eef1c535691f003857d21fcd9779f6dc1f staging: rtl8192u: Fix variable shadowing warning
-7f02d57e7c20696d96e78236ff4898bf517730cc staging: rtl8723bs: fix coding style for if comparisions
-509af4f98d44f10b7b0be1b4258c82781d6ac341 staging: rtl8188eu: rename struct field bLedOn
-83e9f677a4efee5200ae3deec0a1f582851173d2 Staging: rtl8723bs: remove unnecessary braces in HalBtc8723b1Ant.c
-426ddc5298771dd3fc2298508ed132ae2b180ee2 Staging: rtl8723bs: fix spaces in HalBtc8723b1Ant.c
-3750ae9e79b601b47920ca642de96bef96a45388 Staging: rtl8723bs: fix indentation in HalBtc8723b1Ant.c
-aa62018944a86af6eb51b57aa9593370d604ca3b Staging: rtl8723bs: fix comparison formatting in HalBtc8723b1Ant.c
-557c2325364afb57c447ee144a661c9fda47798b Staging: rtl8723bs: add missing blank line in HalBtc8723b1Ant.c
-f7d21f444a41e1d2998fe18f940d74395a441ee1 Staging: rtl8723bs: fix line continuations in HalBtc8723b1Ant.c
-0c21b72a7f1983346fcb47eec2e0dd7fa0ad4391 Staging: rtl8723bs: remove dead code in HalBtc8723b1Ant.c
-d5af74ead205c87c3f4ef479dc937a8e628613a0 staging: rtl8188eu: use safe iterator in rtw_free_network_queue
-565a45a1c301908b169eeae56f21b9f306f6346d staging: rtl8188eu: use safe iterator in rtw_free_all_stainfo
-39b19c63a39a2de6516383774a529287f04a243e staging: rtl8188eu: use safe iterator in expire_timeout_chk
-b0f2044c61d9ef309252d25d16d6cce6e8fcae6b staging: rtl8188eu: use safe iterator in rtw_acl_remove_sta
-2253748164d8bbe0831710fcd5d4d2c353b04a70 staging: rtl8188eu: use safe iterator in rtw_sta_flush
-af39f935c1faefa7ab34bf5bd71ecce3f5b86df3 staging: rtl8188eu: use safe iterator in rtw_free_xmitframe_queue
-1c82975b5f4c4843c139b845ff27337dba48af92 staging: vchiq_core: fix return type of vchiq_init_state
-63e24ae26fd500ba41bc3de05d7f9ab30cd9ee90 staging: vchiq_core: drop unnecessary release_count
-21711c7ee13e54e69bb63cb082464701934a0f54 staging: vchiq_core: separate postfix increment
-8ba5f91bab630d3c92cf92b7a850ea78ba987dbe staging: vc04_services: remove __VCCOREVER__
-0705a939c2b836062266c81b53453d3b0effab4b staging: vchiq_arm: balance braces for if-else statements
-20ebcf0bf1fd4e09db27241ebb368da045503893 staging: vchiq_core: introduce poll_services_of_group
-2f440843a7d44fc5e7a30a67ea2b83b40b504d77 staging: vchiq_core: avoid indention in poll_services_of_group
-022b5a3cd8c02502a0892c430a4de5381ab5669f staging: vchiq_arm: Use define for doorbell irq
-618150c1252ade0a0a4b7fee60e1f89b97f7d392 staging: vchiq_arm: drop ftrace-like logging
-a140f3a02a50e6da36d5539a219420684cf3c021 staging: vchiq_arm: Prefer kzalloc(sizeof(*waiter)...)
-fd3e03d71f6eb1764d4b12ff9b6db30bdba92f2d staging: vchiq_arm: drop non-beneficial comments
-f299b34ef27cea62a38265fd877a17e5b3d36f80 staging: vchiq_arm: add blank line after declarations
-7040e9d7b7c59e4989d18fd75eb07672287afff2 staging: vchiq_arm: re-arrange function header
-ed720b2bfad23a59862a755491eccc9c7bcf78f4 staging: vchiq_core: reduce indention in release_service_messages
-1d702f5962f79ebb52b6acf4d972d94e63537da4 staging: vchiq_core: fix comment in vchiq_shutdown_internal
-e39ff0e4eab67d82090906512ee98b7c9a7a76e1 staging: vchiq_arm: make vchiq_shutdown_internal return void
-1a64ab341d5fe9a82accb5aa465d182a5740d9f1 staging: vchiq_arm: Avoid unnecessary line breaks
-4c51210461f9a08787fd20ef22f8c8050aec15c8 staging: vchiq_core: introduce parse_message
-5c56a4485cfc184b877813ed320df878974c1d6e staging: vchiq_core: introduce defines for close_recvd
-286bc9f48cad055a17e89024c68196f5279ea130 staging: vchiq_core: introduce defines for retry_poll
-51d4aa6d6bf35d85d318831df60a34bad27cdb9e staging: rtl8723bs: remove duplicate names for _rtw_read8()
-8ff74e4307b42302c89023faf8fd37dbde4c4666 staging: rtl8723bs: remove duplicate names for _rtw_read16()
-16b1b3c8221a40bf899dfeebdb3d5245ecb65515 staging: rtl8723bs: remove duplicate names for _rtw_read32()
-7f06caf9a40bb3c08fe86c8355ace25b7ce69ba9 staging: rtl8723bs: remove duplicate names for _rtw_write8()
-1c42d72e4747fb546eba53821ae56ecf827202a7 staging: rtl8723bs: remove duplicate names for _rtw_write16()
-4d6bfc6f62705ec5baee9c572d4ca03bc9e36c00 staging: rtl8723bs: remove duplicate names for _rtw_write32()
-3bdc1bc67ed392601d5645c99c37a06410e03768 staging: rtl8723bs: remove duplicate name for _rtw_write_port()
-73861d26a5f430116a82c2e77edb9ee16cafae88 staging: rtl8723bs: remove _rtw_sd_f0_read8()
-6f8ef160190d02c9398294b09bd1890a50dee2e1 staging: vc04_services: fix a whitespace coding style issue
-9b0644fc4381f5b8c466a7588196db151a52ec56 staging: iio: fix some formatting issues
-946c945301db3ca0e48d8ff06aa38d4ff2ba82b2 staging: rtl8192e: delete extra blank lines
-403e6946d119fa6d84f8024f5911131735fafa3f staging: rtl8723bs: remove if (true) statement
-b9f38e913a926b455e5048a95f53a993b515509f staging: comedi: Remove unused variable ‘min_full_scale’ and function 'get_min_full_scales'
-
---===============6736615122799690118==--
+--===============8319401249876575091==--
