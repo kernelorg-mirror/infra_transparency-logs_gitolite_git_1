@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Thu, 20 May 2021 22:32:03 -0000
-Message-Id: <162154992378.22520.1148653290768009056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 20 May 2021 22:40:36 -0000
+Message-Id: <162155043671.27933.2337888669205661276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/pending
-    old: a2a6fda4d7e93044fca4c67870d2ff7e193d3cf1
-    new: e086106b4d81a2079141c848db7695451c04e877
+  - ref: refs/heads/master
+    old: 4d52ebc7ace491d58f96d1f4a1cb9070c506b2e7
+    new: 503c599a4f53fe3d959aebfd22c34da27da49777
     log: |
-         561af4f919b3f1b3d1a213137f1d024420996d56 libndctl: Remove redundant checks and assignments
-         063af7c447d257397a925df81897da2c71e31653 ndctl: Update nvdimm mailing list address
-         e086106b4d81a2079141c848db7695451c04e877 libndctl/papr: Fix probe for papr-scm compatible nvdimms
+         8570e75a55430844a8e85e3458e5701556334ffd selftests: Add .gitignore for nci test suite
+         63e39d29b3da02e901349f6cd71159818a4737a6 ixgbe: fix large MTU request from VF
+         503c599a4f53fe3d959aebfd22c34da27da49777 net: encx24j600: fix kernel-doc syntax in file headers
          
