@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5817182821104772332=="
+Content-Type: multipart/mixed; boundary="===============6592137747940513806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 20 May 2021 09:39:13 -0000
-Message-Id: <162150355328.26764.10975395174230101275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 20 May 2021 09:39:23 -0000
+Message-Id: <162150356386.26902.17232451065837564251@gitolite.kernel.org>
 
---===============5817182821104772332==
+--===============6592137747940513806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 49ae42a307eb7a2ecf491eae9de63712d01fedb0
-    new: 96af5f6cf234978027ec64022a48ac500e4a452a
-    log: revlist-49ae42a307eb-96af5f6cf234.txt
+  - ref: refs/heads/queue-next
+    old: d281cbbaa00516178172f3db573f78c77b69a1f4
+    new: 10b2ad8dede51284189526ea5711f574f4f749dc
+    log: revlist-d281cbbaa005-10b2ad8dede5.txt
 
---===============5817182821104772332==
+--===============6592137747940513806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49ae42a307eb-96af5f6cf234.txt
+Content-Disposition: attachment; filename=revlist-d281cbbaa005-10b2ad8dede5.txt
 
 c69431aab67a912836e5831f03d99a819c14c9c3 bpf: verifier: Improve function state reallocation
 06ab6a505583f9adbf5e1f05d86e7bdd7b02248e bpf: verifier: Use copy_array for jmp_history
@@ -228,6 +228,7 @@ e80fe71b3ffe1ec31c4a9be60170f897bbdf1b92 net: stmmac: Add callbacks for DWC xpcs
 8ed2e60b7788825d71e70ed26160d327a588dee5 Merge branch 'stmmac-xpcs-eee'
 25c55b38d85b54e49f2c9a3c7d483d1a24173b94 net/packet: Remove redundant assignment to ret
 06b38e233ce4745571106cba4f39fc8c5eda9c29 drivers/net: Remove leading spaces in Kconfig
+291621a97e60bb7de7d9614197c9f75845a657e8 Merge branch 'rdma-next' into testing/rdma-next
 119220d81258c1e79db9aa7b52ef09b945aaf46f bpf, arm64: Remove redundant switch case about BPF_DIV and BPF_MOD
 c49661aa6f7097047b7e86ad37b1cf308a7a8d4f skmsg: Remove unused parameters of sk_msg_wait_data()
 fa7b83bf3b156c767f3e4a25bbf3817b08f3ff8e bpf: Check for BPF_F_ADJ_ROOM_FIXED_GSO when bpf_skb_change_proto
@@ -402,5 +403,7 @@ e16b425359ba44caa782649f6218545795f7a949 Merge branch 'mlx5-vdpa' into net-next
 110fa7c4cc5f6b10e4a75a6c5b336a83ed4184f0 Merge branch 'mlx5-queue' into net-next
 cd80b9458fd231a3f4c0fd08ee0d3d1ea8b7bd04 Merge branch 'mlx4-for-net' into net-next
 96af5f6cf234978027ec64022a48ac500e4a452a Merge branch 'mlx5-for-net' into net-next
+11e817e00bba608d31cfdbb1ecf54011323a5ada Merge branch 'net-next' into queue-next
+10b2ad8dede51284189526ea5711f574f4f749dc Merge branch 'testing/rdma-next' into queue-next
 
---===============5817182821104772332==--
+--===============6592137747940513806==--
