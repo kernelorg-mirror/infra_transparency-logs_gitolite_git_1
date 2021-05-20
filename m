@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 20 May 2021 12:21:29 -0000
-Message-Id: <162151328914.6267.2278618011263058030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 20 May 2021 12:24:18 -0000
+Message-Id: <162151345824.7261.401147653865814932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: 2b71b66ac0415db5e4b9e67b11e3af7b485bb421
+  - ref: refs/heads/fixes
+    old: 39a6172ea88b3117353ae16cbb0a53cd80a9340a
+    new: e68671e9e1275dfdda333c3e83b6d28963af16b6
     log: |
-         5b2d3326cdf83fde3590f45c93507c1c852327e8 gpio: crystalcove: remove platform_set_drvdata() + cleanup probe
-         f3019092eca09f3d093dbc306bf118daff15bfd2 gpio: wcove: Use IRQ hardware number getter instead of direct access
-         5d9936648285b8ccb6b61257dd2ddd76f9cd719a gpio: wcove: Unify style of to_reg() with to_ireg()
-         2b71b66ac0415db5e4b9e67b11e3af7b485bb421 gpio: wcove: Split error handling for CTRL and IRQ registers
+         e68671e9e1275dfdda333c3e83b6d28963af16b6 platform/x86: touchscreen_dmi: Add info for the Chuwi Hi10 Pro (CWI529) tablet
          
