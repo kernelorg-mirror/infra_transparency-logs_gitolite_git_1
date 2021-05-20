@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7312580522818393503=="
+Content-Type: multipart/mixed; boundary="===============5339332057358296377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 20 May 2021 15:18:56 -0000
-Message-Id: <162152393605.29413.7091070564266348122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 20 May 2021 15:19:04 -0000
+Message-Id: <162152394471.29761.2482727927753454511@gitolite.kernel.org>
 
---===============7312580522818393503==
+--===============5339332057358296377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 1f06f5713f5278b7768031150ceb43d1127b9ad6
-    new: e0e24208792080135248f23fdf6d51aa2e04df05
+  - ref: refs/heads/staging-linus
+    old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
+    new: e0112a7c9e847ada15a631b88e279d547e8f26a7
     log: |
-         31fae7c8b18c3f8029a2a5dce97a3182c1a167a0 serial: 8250: 8250_omap: Fix possible interrupt storm
-         e0e24208792080135248f23fdf6d51aa2e04df05 serial: 8250_pci: Add support for new HPE serial device
+         e0112a7c9e847ada15a631b88e279d547e8f26a7 staging: emxx_udc: fix loop in _nbu2ss_nuke()
          
 
---===============7312580522818393503==
+--===============5339332057358296377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621523929 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1621523928-35cf3773ffaa40ad8db36a5e70e882f644a23649
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621523938 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1621523938-a2cae850a5629138a358af8b79b806e796d05f86
 
-1f06f5713f5278b7768031150ceb43d1127b9ad6 e0e24208792080135248f23fdf6d51aa2e04df05 refs/heads/tty-linus
+d07f6ca923ea0927a1024dfccafc5b53b61cfecc e0112a7c9e847ada15a631b88e279d547e8f26a7 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCmfdkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4NoQAMvpR+qmanNjVyEASRtz
-52A6ax//2CyEniMcvBfiDtgG++IzstOC8ah/75rktw3S6TZByRMh0HSD4yKgqQ/f
-nqdpW9WHZfHPYrQQ5GxOgDMke7koL+U9ElCwfT3acl5m2K6h/Obd/NoGD1h7nz5x
-y/VODMnVUcYnPBHBAr2xSkQSpZkD3SaR7R8A6q844IwerZmMXfYGkOXqSPpYCb3N
-aY5kCcJ+LbQ4X5yj/IqGpSsZAZVb+9w3S7soDmxexNFU4FZ6q6cvMN5YkwxE/hRS
-kaV6rDwztoD2Q+xPiOSjJHSUkbvh7x5Mal7bxU0TMtLRR5lqtTqhCs5ebBGIZG4x
-pYLbuvgvowxjJEh5iQEnWABYj5mjM+v77YuFc+SrKPO3Z6Q+xhxBsOyCK9e9bvqX
-7Bs9b6GtonbG+bm3hJvAuBFfqd+OvlQgKF5/rPSnAwG6La3eVb0Si14upFZTNv3K
-TBThPwZ8lUkcIdcQSCXWZmSG9oh8Uw2CYYXcC+zjNIZlL2VGvFbNP4uVcPd5nnJD
-RZbVIZIAYMZZueJ2nhJgygjl/E5+AcpBGctyecxR/cZrovg1yxLYcmYy7ryz3CNS
-rc6pPxaYh5h3TayRNNOc5RguWIkUBmSu3yzpGFla5zq3c/BAXePzod0autgjZb2y
-8kx5LXq+qZOnoi1/xBz+aznn
-=oKAM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCmfeIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++nIP/RqGHgYzYPsZspp/J6sl
+KK6esDKUmyM0Uuh13b5t+EeHMMaTZ0K7Dv6/KGjnLtfMjomc+BJBY0RjgPnQCrpB
+d/6d5IGcXOsj/Nwb8hwvADoCExc/3Of5YdFMuV8giengvvMcg19sMYu+gyVzv6N3
+M8zz4G6cHAPpYUlOvBkVKq1oe1MVtHMEo+ZQNvHHa/awHKfW0P7S8UJ+YcstZDhS
+VfzoYSCTnQqgZlBMq0PnbsPVHvGHSayYLJHmuS80D+rdhjGOlpUZ51O0Uf4AJqPq
+KFG+C6/Rr7Vef1pZqByIJc4nTcQsvjRw+iE4iodG5R1Y0psQyPe9qfRRPeqrcXIj
+rWc3JmyMJd6AKcLf+3oJF8aylXMOGSbgBQ6x16ninNmgQq5vYJEg9iNwecBVfUOc
+9SyxSjoIebV6XI2jrLYh9OiKWZyaNGiqwaRrcObLAJ/PM1WYBYlu19VOMg2s9j8O
+22gW/Gn/Rwv02tuDTyuxmVCoauynGCBiyhkvVsYz9T1RW/cDbo8Revod+GaOoaVO
+EmH8ww+HNmijTRwepz3Un67fml9SjUcuKMhOv5Bp2ngcncGBIERw8lGpC2K8t4vq
+jbEBUCWu0I9/ywAEQeLHgeqrC+wU8Dzy5avCGPqBZyNbmWsh3inK48OWPes4m1SV
+J10e9HZnR0Eg7+Br3MlHy0g8
+=90UT
 -----END PGP SIGNATURE-----
 
---===============7312580522818393503==--
+--===============5339332057358296377==--
