@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1104234468956763749=="
+Content-Type: multipart/mixed; boundary="===============8853633921649023688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Thu, 20 May 2021 23:37:58 -0000
-Message-Id: <162155387821.308.13001766098832383043@gitolite.kernel.org>
+Date: Thu, 20 May 2021 23:41:15 -0000
+Message-Id: <162155407532.2950.9103391430246106080@gitolite.kernel.org>
 
---===============1104234468956763749==
+--===============8853633921649023688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: 1a8d6b5871c611087d9d51451f0d2068c522b38c
-    new: f64862ee246b4cfc699261a1bab3a1f5616bf6df
-    log: revlist-1a8d6b5871c6-f64862ee246b.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 5106ab20b700c5278963c5ff127f5938cf595114
+    new: 2a0b7780259bd37818ff3d90d427db39be71d0ce
+    log: revlist-5106ab20b700-2a0b7780259b.txt
 
---===============1104234468956763749==
+--===============8853633921649023688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a8d6b5871c6-f64862ee246b.txt
+Content-Disposition: attachment; filename=revlist-5106ab20b700-2a0b7780259b.txt
 
 8822702f6e4c8917c83ba79e0ebf2c8c218910d4 ALSA: hda/realtek: reset eapd coeff to default value for alc287
 285c0faddcebdf360412fc9ef9cde63cf98da7f6 habanalabs: expose ASIC specific PLL index
@@ -184,21 +184,6 @@ c76d3e496d9e8179d7c1b8abc69ca499b36cb711 mm: thp: page_mapcount_lock: optimize t
 6af9aedfe8023e5856376d787028fb0c116091a6 mm: thp: optimize total_mapcount() with head_compound_mapcount
 1683c35d09aaa7bfe1b6766cc1cb3920e4f9fe05 mm: thp: cleanup and optimize compound_nr
 e13024bdb28cfceda569a5309f862aa80badce2e mm: thp: consolidate policy_nodemask call
-b3f16ecbacfd3de4a8bccf9333203286607aff65 x86: restore the write back cache of reserved RAM in iounmap()
-ed86ab1b96dce269cb71d8b61cc0c906de197bb2 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-eacf6c23e734ec6238719f5a8fb1a4311c178adb x86: deduplicate the spectre_v2_user documentation
-364b457d2dd8581ec73d802948c8a0e736720897 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-b3417a07d5fa2b6bece9f608d21a70e93eb6e77f x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-30d002b5a4d246ed4905e8bfd1fc83591822ac0f sched/fair: skip select_idle_sibling() in presence of sync wakeups
-bff66dceb5a5e47b5226725d189e619a7dc2374c sched/topology: restrict wake_affine_idle() within the NUMA domain
-abd6fd2dadb1dc98de65d4efb3c30655e8bb06ff userfaultfd: UFFDIO_REMAP: rmap preparation
-e4e2e9c9be6f295eb5335838a70ebd7fa154ef4d userfaultfd: UFFDIO_REMAP uABI
-f9348efeae1e52235bb44c2c0c4e4e1b980da6dd mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-6372d211c3e0fa6188e0b6afcabffac96f6c64f2 arm64: select CPUMASK_OFFSTACK if NUMA
-a756294e2b70441bc3933e18ed75f9e7e575a7ef arm64: tlb: skip tlbi broadcast
-5fce3d0996266a118cc0a6b5a0f51f3048947880 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-41284804118e879dcb8d1b50f7253864becd8f14 x86: atomic_set needs WRITE_ONCE
-d93b54da58752ab689ce3ede10edad2cea111977 mm: mm_take_all_locks: add cond_resched()
-f64862ee246b4cfc699261a1bab3a1f5616bf6df Merge remote-tracking branch 'gitlab/main' into main
+2a0b7780259bd37818ff3d90d427db39be71d0ce Merge remote-tracking branch 'gitlab/mapcount_deshare' into mapcount_deshare
 
---===============1104234468956763749==--
+--===============8853633921649023688==--
