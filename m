@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7861373430581066233=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 20 May 2021 19:59:33 -0000
-Message-Id: <162154077314.17737.2204884703304413916@gitolite.kernel.org>
-
---===============7861373430581066233==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 20 May 2021 20:02:54 -0000
+Message-Id: <162154097482.20677.14625710835179814607@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 5e1f198ef2275ca0bd2db0f264ed75ae8561b73d
-    new: 8ca2d7f96a4179015b4f4c30d7b906c1b23abf24
+    old: a49e72b3bda73d36664a084e47da9727a31b8095
+    new: 0f844e4c993d6bbdce8547deeb99e89a5a797fa2
     log: |
-         8ca2d7f96a4179015b4f4c30d7b906c1b23abf24 Cherrypick from the correct series revision
+         e40d2cca01893c1941f5959b14bb0cd0d4f4d099 net: phy: add MediaTek Gigabit Ethernet PHY driver
+         ba751e28d44255744a30190faad0ca09b455c44d net: dsa: mt7530: add interrupt support
+         4006f986c091cda1a66067f77b6f5704a9618562 dt-bindings: net: dsa: add MT7530 interrupt controller binding
+         f494f0935ffb62c1d5463e59dfcd7d89a46c7807 staging: mt7621-dts: enable MT7530 interrupt controller
+         0f844e4c993d6bbdce8547deeb99e89a5a797fa2 Merge branch 'mt7530-interrupt-support'
          
-
---===============7861373430581066233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1621540772 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1621540772-88720f0b92cc3e33765e8c76a187593064f80d9d
-
-5e1f198ef2275ca0bd2db0f264ed75ae8561b73d 8ca2d7f96a4179015b4f4c30d7b906c1b23abf24 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKa/pAAKCRC2xBzjVmSZ
-bDvQAP4sS+Mv3K8Vim4FjAbXxJIjlzJ9TOV+cQc5Esk1OUplkwD6AnpqfKi8jheN
-c5doONy2mDHxLmJlaFuANclCiqbJyA8=
-=81CM
------END PGP SIGNATURE-----
-
---===============7861373430581066233==--
