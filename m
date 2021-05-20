@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 20 May 2021 15:23:48 -0000
-Message-Id: <162152422843.1999.193277132816130437@gitolite.kernel.org>
+Date: Thu, 20 May 2021 15:26:02 -0000
+Message-Id: <162152436261.4225.40702721975316289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 48c8becdd0c39b408860b718147616695da73055
-    new: 3c12c376e96583aaf01fc428ccadf1f8655bdaef
+    old: 3c12c376e96583aaf01fc428ccadf1f8655bdaef
+    new: 7e17367e016922e2862b42e86b0307a95afb6826
     log: |
-         2aaf532ca1b604439b2ebac43657481cd8e0454a Bluetooth: btusb: Use firmware_request_nowarn
-         3c12c376e96583aaf01fc428ccadf1f8655bdaef Bluetooth: btusb: Add support USB ALT 3 for WBS
+         7e17367e016922e2862b42e86b0307a95afb6826 Bluetooth: RFCOMM: Use DEVICE_ATTR_RO macro
          
