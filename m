@@ -1,69 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============6320591947655347591=="
+Content-Type: multipart/mixed; boundary="===============7790535127466653212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 May 2021 22:40:45 -0000
-Message-Id: <162155044554.28073.2427965777994455678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 20 May 2021 22:41:24 -0000
+Message-Id: <162155048415.28363.2663289339217709043@gitolite.kernel.org>
 
---===============6320591947655347591==
+--===============7790535127466653212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 97d3ef9a73c8de5c600cb8b6c6e0066d6ab85f68
-    new: da6b3562f212ff8bf0a24b4ab3642afdb863dc61
-    log: revlist-97d3ef9a73c8-da6b3562f212.txt
+  - ref: refs/heads/master
+    old: a49e72b3bda73d36664a084e47da9727a31b8095
+    new: 92b13cabeacd7d17d49723420d8efc2eae116f9c
+    log: revlist-a49e72b3bda7-92b13cabeacd.txt
 
---===============6320591947655347591==
+--===============7790535127466653212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97d3ef9a73c8-da6b3562f212.txt
+Content-Disposition: attachment; filename=revlist-a49e72b3bda7-92b13cabeacd.txt
 
-8570e75a55430844a8e85e3458e5701556334ffd selftests: Add .gitignore for nci test suite
-63e39d29b3da02e901349f6cd71159818a4737a6 ixgbe: fix large MTU request from VF
-503c599a4f53fe3d959aebfd22c34da27da49777 net: encx24j600: fix kernel-doc syntax in file headers
-af7ae1541577b7437c3ef3fa49540768c59741c7 checkpatch: Fix warnings when --no-tree is used
-f6d8a16538fcf5c6ae9a2aeecabef078fb142e1f checkpatch.pl: seed camelcase from the provided kernel tree root
-78fb20579dfc769a90e47f4138331f9a7afc47c7 ice: Fix a couple off by one bugs
-cbe888a99e1ec89a419d3c4b7049376e30ec7d8e iavf: Fix asynchronous tasks during driver remove
-98605d97c8091c0c62cc7135b20fc7e282071e66 i40e: Fix correct max_pkt_size on VF RX queue
-50491aff98dc4251bef4c28466df7ca76cc78141 iavf: Fix return of set the new channel count
-a204dd180ea8a9a637e5955b0add371f5b240523 i40e: Fix NULL ptr dereference on VSI filter sync
-f75293a594d2dc4a11d64a18aa5fee60ac58475b ice: Fix allowing VF to request more/less queues via virtchnl
-51da9841032fd4e8fbfb4bcd0ad75cd8722acde1 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-7e08a67848768ec4c129f9d60f0ff29a8d2136d2 ice: Fix VF true promiscuous mode
-ef42b9d5c582c3979c6b3984b49b0c15987f4c1f ice: handle the VF VSI rebuild failure
-85f77717bf08e634868169586a05be0a3a402137 i40e: Fix error handling in i40e_vsi_open
-d545256c2bb65c09dbb9387e5675847e8ec70ab9 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-11043022133f06df91e7afd44c228a5b24f92f29 i40e: improve locking of mac_filter_hash
-8dac5893aa163d153f77f448b70dcfed24543fc0 i40e: Fix autoneg disabling for non-10GBaseT links
-a08b35ffef02c41587bde382b73658161492e6dd igb: Check if num of q_vectors is smaller than max before array access
-bc4f3ae51aa31a5dd8aeedd55fa71a97c9e1ea3d ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
-aaa6010146dd5dd787a20f590257979073c477d4 ice: track AF_XDP ZC enabled queues in bitmap
-53a0c969baa43fbf03c69af0b003e95376f0dd29 i40e: Fix warning message and call stack during rmmod i40e driver
-747967a6f2d5ba7600d3e40c201aa836f5f9c3aa i40e: Fix logic of disabling queues
-16733e39bd304f9b5720d50b5519104efe1af7bc igb: Fix XDP with PTP enabled
-1c34f1c87075881d4beb8b336a18f52eed9897f6 ice: Remove toggling of antispoof for VF trusted promiscuous mode
-9c9bb9a39046438fa2010e3dfe02dc478a58c07f ice: report supported and advertised autoneg using PHY capabilities
-b2255f9c6f80c9a9312ae61bf983d7fd6d003633 ice: Allow all LLDP packets from PF to Tx
-887e2af4b5905e2ed0eb8129d45ae871559ae584 ice: fix FDIR init missing when reset VF
-407de827b1308d1694c538fe3598e01038f6ff84 igb: fix netpoll exit with traffic
-eb9ecdbfa3206633f1af0891ba3839436d5dac60 i40e: fix PTP on 5Gb links
-2f4eab0d7c652ea20c93890c028a8474f8c70ed1 i40e: add correct exception tracing for XDP
-5f22c4f4c0d85f69bd1dadf5e1045b39887dc995 ice: add correct exception tracing for XDP
-2e0c047cd8c8eb5d002ee08ef709c3aad5bbf9c0 ixgbe: add correct exception tracing for XDP
-8628ce88cb03c2664d1a30b4bad1297f01c0c6fe igb: add correct exception tracing for XDP
-abefeb60aeee448bc2f3cc843486202f0d994baa ixgbevf: add correct exception tracing for XDP
-61c251da83d23a85da851e18891012be6beca8c0 igc: add correct exception tracing for XDP
-3ee5d45bed7b41d4fce3ac52381123040121940f igc: Fix user-after-free error during reset
-140c5d18b31c5d25fc8415b81b0d4e7b912a7d38 igb: Fix user-after-free error during reset
-da6b3562f212ff8bf0a24b4ab3642afdb863dc61 i40e: Fix failed opcode appearing if handling messages from VF
+e40d2cca01893c1941f5959b14bb0cd0d4f4d099 net: phy: add MediaTek Gigabit Ethernet PHY driver
+ba751e28d44255744a30190faad0ca09b455c44d net: dsa: mt7530: add interrupt support
+4006f986c091cda1a66067f77b6f5704a9618562 dt-bindings: net: dsa: add MT7530 interrupt controller binding
+f494f0935ffb62c1d5463e59dfcd7d89a46c7807 staging: mt7621-dts: enable MT7530 interrupt controller
+0f844e4c993d6bbdce8547deeb99e89a5a797fa2 Merge branch 'mt7530-interrupt-support'
+0c20f2d29fff7ecd3b2802536d0089ed908304a5 igc: Move igc_xdp_is_enabled()
+73a6e3721261524567eb5e319d5dc8e37b5f18dc igc: Refactor __igc_xdp_run_prog()
+f485164867d3b960e811d94fc83e12d5a687ef05 igc: Refactor igc_clean_rx_ring()
+4609ffb9f6157880e76c038f8df4fbf4e148a41a igc: Refactor XDP rxq info registration
+a27e6e73e5501fd0cb84467d71ddeac9a5855e0b igc: Introduce TX/RX stats helpers
+6123429516c7fc6a7ee2f0a9dbef8c0c16ffb7cc igc: Introduce igc_unmap_tx_buffer() helper
+859b4dfa4115d11aa1fda7d0628a93a9d61a7c46 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
+fc9df2a0b520d7d439ecf464794d53e91be74b93 igc: Enable RX via AF_XDP zero-copy
+9acf59a752d4c686739117d3b3129e60af1ba5c1 igc: Enable TX via AF_XDP zero-copy
+2682ea324b000709dafec7e9210caa5189377c45 mISDN: Remove obsolete PIPELINE_DEBUG debugging information
+d96b0e59468dcbd61417b7dd31985a700e58d3b2 net: hns3: refactor dump reg of debugfs
+365e860aa7a74afe1ba7157b3bfc547551c5795e net: hns3: refactor dump reg dcb info of debugfs
+d2f737cf21b87d4239987da69a3b14730c6a57ad net: hns3: refactor queue map of debugfs
+e44c495d95e0dd3a5513f72a830639a72b4c14f1 net: hns3: refactor queue info of debugfs
+b5a0b70d77b9be91b8e6dfa5dd3b39ea9cf6be4c net: hns3: refactor dump fd tcam of debugfs
+7679f28e32a48461be4d4c30c14d7be06300cd5d net: hns3: refactor dump tm map of debugfs
+cad7c215a4b1bc67920ab0d2673ac08a2cc885f1 net: hns3: refactor dump tm of debugfs
+0e32038dc8565e8f1c00129307d56fd336267a56 net: hns3: refactor dump tc of debugfs
+6571ec2eda65d4e19244bb3e001ec64a6eef41dc net: hns3: refactor dump qos pause cfg of debugfs
+28d3bada7d42e324ee8558e6d22c3d768a87af7b net: hns3: refactor dump qos pri map of debugfs
+95b195869b7d1eb7a1f837f024db31cd6fc07981 net: hns3: refactor dump qos buf cfg of debugfs
+484e1ed1b25a6cd02ab25c871e670760f4b627b6 net: hns3: refactor dump qs shaper of debugfs
+7b07ab06e6b00b4421a4dfd732e98b359e0bad91 net: hns3: refactor dump mac tnl status of debugfs
+058c3be95235a12953d6533ef1486dc3d5879688 net: hns3: refactor dump serv info of debugfs
+b4689aaf18633ff1b9ce37b09e226a7964ce9751 net: hns3: remove the useless debugfs file node cmd
+dc185ae6ab879a971d3b5b0cb5c98d4ab14157b7 Merge branch 'hns3-debugfs'
+c169a93c8176e40f8956ca365ce466537101cd51 net: wan: remove leading spaces before tabs
+094fefd663adb651833989bb3cef7d8fd56abfb8 net: usb: remove leading spaces before tabs
+1d314fc1a157f3a39af68518c27a9e98b125053d net: slip: remove leading spaces before tabs
+63b63138f656d2ab9e1e692b6d1e4112406741a0 net: ppp: remove leading spaces before tabs
+d1542f85dfc29f4a012e98730d8b465ea05cd461 net: hamradio: remove leading spaces before tabs
+a597111a3ce330f28fca9cc3806cf7a0b3d5e4c2 net: fddi: skfp: remove leading spaces before tabs
+20a4fc3bc2849068c4119c9ce4d57e8f18a1b329 net: appletalk: remove leading spaces before tabs
+cf9207d77aef758efe884e3edb6bf38baacf24ec ifb: remove leading spaces before tabs
+9e5914cc9571fca4de2978aaa14e7d8a262a7ca4 mii: remove leading spaces before tabs
+938263064ea72bcb1d602585ab187453792480b8 Merge branch 'net-leading-spaces'
+92b13cabeacd7d17d49723420d8efc2eae116f9c Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============6320591947655347591==--
+--===============7790535127466653212==--
