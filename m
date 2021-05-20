@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7134463104625405929=="
+Content-Type: multipart/mixed; boundary="===============6370920490949256613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 20 May 2021 15:34:21 -0000
-Message-Id: <162152486193.9312.11773189376049091737@gitolite.kernel.org>
+Date: Thu, 20 May 2021 15:35:19 -0000
+Message-Id: <162152491909.11026.104813938661919791@gitolite.kernel.org>
 
---===============7134463104625405929==
+--===============6370920490949256613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,20 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 8e9800f9f2b89e1efe2a5993361fae4d618a6c26
-    new: e3c2b047475b52739bcf178a9e95176c42bbcf8f
-    log: revlist-8e9800f9f2b8-e3c2b047475b.txt
-  - ref: refs/heads/xfs-5.13-fixes
-    old: 0000000000000000000000000000000000000000
-    new: e3c2b047475b52739bcf178a9e95176c42bbcf8f
-  - ref: refs/tags/xfs-5.13-fixes-1
-    old: 0000000000000000000000000000000000000000
-    new: 86b40bfba4787caea41eca55ab55b0854a3e5501
+  - ref: refs/heads/master
+    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+    new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
+    log: revlist-0d02ec6b3136-d07f6ca923ea.txt
 
---===============7134463104625405929==
+--===============6370920490949256613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e9800f9f2b8-e3c2b047475b.txt
+Content-Disposition: attachment; filename=revlist-0d02ec6b3136-d07f6ca923ea.txt
 
+1bb5eab30d68c1a3d9dbc822e1895e6c06dbe748 kasan, mm: integrate page_alloc init with HW_TAGS
+da844b787245194cfd69f0f1d2fb1dd3640a8a6d kasan, mm: integrate slab init_on_alloc with HW_TAGS
+d57a964e09c22441e9fb497d1d7a5c1983a5d1fb kasan, mm: integrate slab init_on_free with HW_TAGS
 96d7d1415ae8beb3f6ec62107a97ae73db611213 kasan: docs: clean up sections
 3cbc37dcdca273485f8ef909fab2c41e8fb5d3b9 kasan: docs: update overview section
 86e6f08dd28d6723a19b8a072b6db45cf6a9e4d3 kasan: docs: update usage section
@@ -311,6 +308,7 @@ a5166a194ee46b8daa440b43f24595c9a1312743 Merge branch 'remotes/lorenzo/pci/dwc'
 362e377037b1591528f02c192f6ffd3b0f212e39 Merge branch 'remotes/lorenzo/pci/endpoint'
 1c401162ed110c1ebc04a9954d931d333717f95a Merge branch 'remotes/lorenzo/pci/iproc'
 586fbe90f830285022f886754f25783520156339 Merge branch 'remotes/lorenzo/pci/layerscape'
+8e9800f9f2b89e1efe2a5993361fae4d618a6c26 xfs: don't allow log writes if the data device is readonly
 0b51c08bde08a8ce0f0f0b63a08d7be5cc203039 Merge branch 'remotes/lorenzo/pci/mediatek'
 180594f55f69d3f64a8f67832867845de2018684 Merge branch 'remotes/lorenzo/pci/microchip'
 98d771eb3df23207d671a9efb1160c018ab8e492 Merge branch 'remotes/lorenzo/pci/risc-v'
@@ -1052,9 +1050,5 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 6942d81a8faa17d44d1286b63ccb7d920b29d065 Merge tag 'staging-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
-9d5e8492eee017ffdaa9f0957e91d39d83163197 xfs: adjust rt allocation minlen when extszhint > rtextsize
-676a659b60afb13166371580f3f6f434e9ba6f21 xfs: retry allocations when locality-based search fails
-16c9de54dc868c121918f2ae91e46330f919049f xfs: fix deadlock retry tracepoint arguments
-e3c2b047475b52739bcf178a9e95176c42bbcf8f xfs: restore old ioctl definitions
 
---===============7134463104625405929==--
+--===============6370920490949256613==--
