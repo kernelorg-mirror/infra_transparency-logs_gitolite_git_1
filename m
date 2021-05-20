@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3777925774376551366=="
+Content-Type: multipart/mixed; boundary="===============6443708771656757061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 20 May 2021 12:36:23 -0000
-Message-Id: <162151418308.15218.6078689512230672127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 20 May 2021 12:36:28 -0000
+Message-Id: <162151418892.15365.3644093962605577434@gitolite.kernel.org>
 
---===============3777925774376551366==
+--===============6443708771656757061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: fc995f1e345df3e1faff4ef0f3f6dc3cac3e0fd2
-    new: ab7e765cd0c2d38a6ca9af4a023eeadba98decf5
-    log: revlist-fc995f1e345d-ab7e765cd0c2.txt
+  - ref: refs/heads/queue-rc
+    old: ebd09e0ba52266ca1e532b6502b8e61fc8ec27f8
+    new: 679670a5f54edeea5a4e23ee7c4bac270b5d092b
+    log: revlist-ebd09e0ba522-679670a5f54e.txt
 
---===============3777925774376551366==
+--===============6443708771656757061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc995f1e345d-ab7e765cd0c2.txt
+Content-Disposition: attachment; filename=revlist-ebd09e0ba522-679670a5f54e.txt
 
 e0fc716328ed4fbc6f143488e5bd722c9a8bdf2c net: hso: bail out on interrupt URB allocation failure
 358208d3a1ef31771084ade62e1a19f3c4a162fd net/mlx5e: Fix HW TS with CQE compression according to profile
@@ -40,5 +40,7 @@ cbdc2a1628e8c89c7da26172e72cf70093299438 Merge branch 'patchq/368852' into mlx5-
 adfc0adc713205ebaf14cfeaa8f5f88cb6dab747 Merge branch 'patchq/385612' into mlx5-for-net
 a82e71af58dd14b818c3f011615efa92e849b3bc Merge branch 'mlx4-for-net' into net-rc
 ab7e765cd0c2d38a6ca9af4a023eeadba98decf5 Merge branch 'mlx5-for-net' into net-rc
+e8168d968affe1f911052867e2b60303ae0ab0a4 Merge branch 'net-rc' into queue-rc
+679670a5f54edeea5a4e23ee7c4bac270b5d092b Merge branch 'testing/rdma-rc' into queue-rc
 
---===============3777925774376551366==--
+--===============6443708771656757061==--
