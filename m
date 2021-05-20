@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1595785384398631461=="
+Content-Type: multipart/mixed; boundary="===============1789397043243982991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 20 May 2021 08:51:11 -0000
-Message-Id: <162150067173.9487.7034251593021128588@gitolite.kernel.org>
+Date: Thu, 20 May 2021 08:51:14 -0000
+Message-Id: <162150067415.9603.10738590755903802495@gitolite.kernel.org>
 
---===============1595785384398631461==
+--===============1789397043243982991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,84 +16,94 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: e05d387ba736bcabe414b0aa05831d151ac40385
-    new: 82687646aad21d32440bdfef5b66568779a76251
-    log: revlist-e05d387ba736-82687646aad2.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 689e89aee55c565fe90fcdf8a7e53f2f976c5946
+    new: f1ec7d8be6dbfebea217423af0c2e5327745e1d9
+    log: revlist-689e89aee55c-f1ec7d8be6db.txt
 
---===============1595785384398631461==
+--===============1789397043243982991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621500668 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621500671 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1621500668-5dc460ab04dc6cf4f90243718971ad5255294497
+nonce 1621500670-1ceb216cf6ce1e309c4ef62710b83d964cd3ba4c
 
-e05d387ba736bcabe414b0aa05831d151ac40385 82687646aad21d32440bdfef5b66568779a76251 refs/heads/linux-5.4.y
+689e89aee55c565fe90fcdf8a7e53f2f976c5946 f1ec7d8be6dbfebea217423af0c2e5327745e1d9 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCmIvwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eqcQAIXL1pJdqEESazT/MSvi
-NyZ8qHjLdI0511Oz0kEOKfucQaw+WsGF8hNSkO1NQDgQXVZCtPMCaZUItxQS371E
-sZBHmzU+x/rya9hkcK2W4eiTqgxbyeMLDBE0rnYhZhQd0I2O+nV3+m5BAkFdIong
-ZCax0uEtoacPFPpCp8itz5BaLqTSg0tWWPEvVvc0komRPPz8PVvbru46U9BAMYnR
-+fwRUlrt8AL5lz03bFIkmLU2VJ38PECQUIji9qZ4zpEU4xC/ssm7hj9hrxtbg4sh
-uW5c0QuZmvoTRjgd0o1omjNVEfHvAgi7NjYIZ5kggAVjp5xEfRVA+BDXYn0A67R1
-agYv4c5dQP0MNJQyCIRPSwuGfxsMqPvubwhE8MNgaiaWSQwa8ADfOVCRpBJyo8Tv
-zR1Tf7vMiJiQrD0n7G5tzBquETp1sxpDdHF+TfMLrdUjLUHiOgay9jqK7lEOm17/
-Wkz9iyZdLZBAgRUzP2kEMU/kWNvsHAIf5BFy17TlbwCwNLYh667vrw9tlxVIMg4n
-KsMHyImxqLdn9PicysTqLBnlHoc5hLPIh5fliSOsNrZuaAfR0bIZYpgLo5a+8l09
-Ib6mrpb0ystzPhmMkLLlPws3VB1KWgsxuTnIlD/x786ca2ldqIDvXjTM8CgA+y+s
-AEBzFCuMxne/quw8ToaYPntu
-=OzfQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCmIv8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mKwP/0y4T1oqKx0vAjb04kSK
+j5DRKFwdS47GW6NvXEP1yum2ds5+3+Rn+jnbojagaQDFprklZSvb9XNmk4rxXsl8
+kTtzIRiqHggTi7CJj3yeiirMxGQTvO6pzSDYBsrLXwjPbgX316pJhCQKCd4IPzC5
+Tfqdb7uGhidVl1pPZViztn25rJ4cpWAD4ZYhxqHP72DEhhG/GYKnFjbrIh3dHVQq
+00BAHqGNRS5WuPLWuWb19tVCIqCYsGVZr1dcBfwPIGTu4a+XU2DSDkP622owRfWW
+VSiDXRxTtEREcz6mXidoiATmB2RU/4jwlZpBsPHI61Vmi+FARsgKUJwAKfv6YgDO
+kS7JaEAWrfrDvIVy3O9URJxaPNPjfRCdsM6GJqpl+0fBxPVXmShYVF0qTvMoLA8x
+92GvuzV3Z/SQbeg7g0F4BAkLt3xUQLIlJ8h4hGZEQhnxRoRn16VRvhIvi9c4vWAq
+VFrWiIZQSgNeKbSJw9nB/CMABGE/MwvluUdNB6HhEkbTBZlrsyYQveE/+eZ0dnNV
+ReQDRZLPcDplJFYqIlVZdsNKzyWptiyMOZqydraRlsnxpcVIIO3K9eEnKCYvtxTD
+WqzYDpHs7joMi6fg448QoaUHe/f7hmZFW6aWLHOrmsPWYYAkgfV0EHmC/wnrT+3f
+1TodQ/rDR/fyAL0v4bWr5/WI
+=vL9E
 -----END PGP SIGNATURE-----
 
---===============1595785384398631461==
+--===============1789397043243982991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e05d387ba736-82687646aad2.txt
+Content-Disposition: attachment; filename=revlist-689e89aee55c-f1ec7d8be6db.txt
 
-a362d946fe5b7a796c26dd5d19b0b38d037436eb x86/msr: Fix wr/rdmsr_safe_regs_on_cpu() prototypes
-937feb8ccecc6f8d52eda5165ec32ea17d6da0d3 kgdb: fix gcc-11 warning on indentation
-668dfb0e2c54adc4bc3f7fa1fda616fdc711c8f6 usb: sl811-hcd: improve misleading indentation
-c216f89f16734be37f181762686beb484ed16d49 cxgb4: Fix the -Wmisleading-indentation warning
-3e1364f59e45544a1f62fbbc89a6d66f2edc3a25 isdn: capi: fix mismatched prototypes
-5f9f0889bb570b21df81e26c437cd55afed5d2b1 pinctrl: ingenic: Improve unreachable code generation
-8cfce909936296200e400f3d9c83267f099b3628 xsk: Simplify detection of empty and full rings
-fe4c9569fc5526276ce639620086fa9a1631ae8b virtio_net: Do not pull payload in skb->head
-acaec51364a4446958d785dff607dab6cf27b794 ARM: 9058/1: cache-v7: refactor v7_invalidate_l1 to avoid clobbering r5/r6
-939c8e5f2ce973d6755565ead316ef99e654d481 PCI: thunder: Fix compile testing
-d3b7e8e42b635ef864621bb6a680b2f29fa4c8f9 dmaengine: dw-edma: Fix crash on loading/unloading driver
-fd7203637744a2d043b37e8eaa76b73423aeb2cb ARM: 9066/1: ftrace: pause/unpause function graph tracer in cpu_suspend()
-c80874ad787ecd64fad6b04bd7f2450866693f13 ACPI / hotplug / PCI: Fix reference count leak in enable_slot()
-2d39fec86c28353b882741ecda9be26f414c5d60 Input: elants_i2c - do not bind to i2c-hid compatible ACPI instantiated devices
-320d7f3ee2aca97efd7f4e2365366dad23575f7e Input: silead - add workaround for x86 BIOS-es which bring the chip up in a stuck state
-abc48b5c0c8fb21d5f5221fa037980a3f1806958 um: Mark all kernel symbols as local
-2e9f97208412a54675abd037d517f06c5603f539 um: Disable CONFIG_GCOV with MODULES
-ea4ff3715e1c5e4f0f00d3b2888499ed48f70bba ARM: 9075/1: kernel: Fix interrupted SMC calls
-3e3c3516a1c6954fdb666fb1d59a83a05bd34800 scripts/recordmcount.pl: Fix RISC-V regex for clang
-6d1400efc64a31b742ee3cc1547ab48811180986 riscv: Workaround mcount name prior to clang-13
-6a5b8994a9d07716bff66e17705859ff43b51433 scsi: lpfc: Fix illegal memory access on Abort IOCBs
-65c519edc9df8d4e45771c59d84fc6e2e442e55c ceph: fix fscache invalidation
-886daac85f423dc92ff5ac28dbe3d21b69ba905a scsi: target: tcmu: Return from tcmu_handle_completions() if cmd_id not found
-41b48ae91ee409d7b485de682ddcc6df7671f533 bridge: Fix possible races between assigning rx_handler_data and setting IFF_BRIDGE_PORT bit
-3ecd6cbe36280aa516dec401919a9a3af813f6e9 drm/amd/display: Fix two cursor duplication when using overlay
-d8a42b2b1772b21a02da9200629af5e3b18b46fe gpiolib: acpi: Add quirk to ignore EC wakeups on Dell Venue 10 Pro 5055
-ac871106644d008b4787b53bf8fd6667b0180021 ALSA: hda: generic: change the DAC ctl name for LO+SPK or LO+HP
-fcfdb5555735387d91303022fabe5210ed7474db block: reexpand iov_iter after read/write
-086c4c54514dbe1bbf35a2ea64e28c69aeed99d9 lib: stackdepot: turn depot_lock spinlock to raw_spinlock
-fcdaf4e10be4badab6e870d8c954727dfd9ab452 net: stmmac: Do not enable RX FIFO overflow interrupts
-4e0a4c48136197f1191a0ca2ff8a6c7acd8b0713 ip6_gre: proper dev_{hold|put} in ndo_[un]init methods
-944c210176dce549d15e2cb27f1af1cc02440c7a sit: proper dev_{hold|put} in ndo_[un]init methods
-de57200d90437339427df1adeebcf3de972d9fef ip6_tunnel: sit: proper dev_{hold|put} in ndo_[un]init methods
-255e645d1cae60b72862e44195e329f544e87512 ipv6: remove extra dev_hold() for fallback tunnels
-c16cea4f43583f915e5044f4dc6a636804e6570e KVM: arm64: Initialize VCPU mdcr_el2 before loading it
-4ef4621956c86d1f9bc3a6cc70164fe01c2ab310 tweewide: Fix most Shebang lines
-38323054a9dd59ec90d13d0dbb0f52a63c09cc26 scripts: switch explicitly to Python 3
-82687646aad21d32440bdfef5b66568779a76251 Linux 5.4.121-rc1
+357931400e20bf1ec4c285a25c112d6d24ecc810 x86/msr: Fix wr/rdmsr_safe_regs_on_cpu() prototypes
+ba81b3f8e838a088c63174f67ba030e71ab5043f drm/i915/display: fix compiler warning about array overrun
+b6a4b676f8e4acf64a09a4afcfbc7fa5a021bd31 airo: work around stack usage warning
+1c63c0afab12821443928e2085b2f85672ce7c56 kgdb: fix gcc-11 warning on indentation
+25b658a6721e208a7e3a4f060b106d25d2a8ff74 usb: sl811-hcd: improve misleading indentation
+bc3abd5621315ed3b056eac6f8580df6a37da571 cxgb4: Fix the -Wmisleading-indentation warning
+efa23138806fe15d7e2e7efbe869ab39d56c2c40 isdn: capi: fix mismatched prototypes
+753558b1fa5abfb4c0025c891c82217df65a9a1d virtio_net: Do not pull payload in skb->head
+0c19f64e37ff543ae9a7db054858b2a1111dfee7 ARM: 9058/1: cache-v7: refactor v7_invalidate_l1 to avoid clobbering r5/r6
+a14158da3477aa21105a69b6ed230c0b40458bfa PCI: thunder: Fix compile testing
+1f029aba6265988e8711b484bf7ad23fa8ef33c5 dmaengine: dw-edma: Fix crash on loading/unloading driver
+989948f4000e51ea84b8ae62b81ba9c3fef18224 ARM: 9066/1: ftrace: pause/unpause function graph tracer in cpu_suspend()
+7e1bd3992f89f6e358b64e46558552467e32f8d4 ACPI / hotplug / PCI: Fix reference count leak in enable_slot()
+3cfba6bc9e25fd0150505519e26786d07ae5f8ba PCI: tegra: Fix runtime PM imbalance in pex_ep_event_pex_rst_deassert()
+e0fede75aaa906823139b291441a91af41a458d5 Input: elants_i2c - do not bind to i2c-hid compatible ACPI instantiated devices
+06b51da2082f46f048b1669965436d5b87f8bb57 Input: silead - add workaround for x86 BIOS-es which bring the chip up in a stuck state
+460161420a3541470e1b357e898a2647eb80b2c4 NFS: NFS_INO_REVAL_PAGECACHE should mark the change attribute invalid
+2bca4004ba8c9968264067494dfd481034b9a75b um: Mark all kernel symbols as local
+f7f9c44bf51e84097f6f8d3005d14b8bc63b3c81 um: Disable CONFIG_GCOV with MODULES
+dc61d25ed0ad64b65c7cc74421634f2f0f6677d5 PCI: tegra: Add Tegra194 MCFG quirks for ECAM errata
+844ab961cbfecc8d8d287df4b897075b0c0fa851 ARM: 9075/1: kernel: Fix interrupted SMC calls
+cda5c85bde6cf6433b304bcf1ed19c504abd6579 platform/chrome: cros_ec_typec: Add DP mode check
+99be9e95ed8adfd25bcdc1f81cd365b8f75729d3 riscv: Use $(LD) instead of $(CC) to link vDSO
+6f29b92fd054277e221988ed54496a8e439a56ec scripts/recordmcount.pl: Fix RISC-V regex for clang
+217184996e73fe8bbcf09b56619b844e515cae06 riscv: Workaround mcount name prior to clang-13
+305d380b55271fdbcd4ecdd140a33136e6d3f41a scsi: lpfc: Fix illegal memory access on Abort IOCBs
+14380131f7b7ca16904989620b3891a5d648b059 ceph: fix fscache invalidation
+300ffd6899bf520b27d85db21a1d23641c4366d3 ceph: don't clobber i_snap_caps on non-I_NEW inode
+84bcd3180383eaf193353b10fa004bf220a95b57 ceph: don't allow access to MDS-private inodes
+d402713c7e00a0eff6e7861172e3d4b357f40236 scsi: target: tcmu: Return from tcmu_handle_completions() if cmd_id not found
+5dd73272c758e72f6a3cea0f4c71c76e01d3123e amdgpu/pm: Prevent force of DCEFCLK on NAVI10 and SIENNA_CICHLID
+78a9d0506fc72d3fe04e72f1d1f0abfcff2b8345 bridge: Fix possible races between assigning rx_handler_data and setting IFF_BRIDGE_PORT bit
+1db1e7ab2a027f171dd3a510e5182012f3324130 net: hsr: check skb can contain struct hsr_ethhdr in fill_frame_info
+8cbc708200b34bb50c0bfc7f750f2af08ded3c68 nvmet: remove unsupported command noise
+c44961e243bc1272f87474aa9e29fc9b4c49849a drm/amd/display: Fix two cursor duplication when using overlay
+e30aa6b118bf0ba0bba3871247bc910b7d2d429c gpiolib: acpi: Add quirk to ignore EC wakeups on Dell Venue 10 Pro 5055
+7146ab1d064a7445703e72c37cc3c2c139a3be86 net:CXGB4: fix leak if sk_buff is not used
+58f6d9ec3f6b1551aa463ad4c7f786cd486b5ba9 ALSA: hda: generic: change the DAC ctl name for LO+SPK or LO+HP
+de241b26cebf67d4b91770a201d7093a05dc8859 block: reexpand iov_iter after read/write
+30dc33ef229705cabbb412e15d25b903606be9c6 lib: stackdepot: turn depot_lock spinlock to raw_spinlock
+67eb51223b6275bb02bb513bc2a04762a3f31aa5 net: stmmac: Do not enable RX FIFO overflow interrupts
+f1afc04a9a6ccaec4fe01fd3701d894ff08f29e6 ip6_gre: proper dev_{hold|put} in ndo_[un]init methods
+545eea1994928cf99f8f2bb4461b9524048245d1 sit: proper dev_{hold|put} in ndo_[un]init methods
+896ba2d5c1aae656f1248a8de47dabfbb86436c1 ip6_tunnel: sit: proper dev_{hold|put} in ndo_[un]init methods
+5738a446813099cc5906e300c196458f75aad933 ipv6: remove extra dev_hold() for fallback tunnels
+d21c6754d7378772b43c403e1ba32fcadbe5e2d0 tweewide: Fix most Shebang lines
+465ddf01e7643a48037b3cd6ddb61ed03568825e scripts: switch explicitly to Python 3
+f1ec7d8be6dbfebea217423af0c2e5327745e1d9 Linux 5.10.39-rc1
 
---===============1595785384398631461==--
+--===============1789397043243982991==--
