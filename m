@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4628506898657570298=="
+Content-Type: multipart/mixed; boundary="===============1591078695278263371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 20 May 2021 21:01:29 -0000
-Message-Id: <162154448939.26810.15501664521153797458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 20 May 2021 21:01:36 -0000
+Message-Id: <162154449668.26914.17786468187237861612@gitolite.kernel.org>
 
---===============4628506898657570298==
+--===============1591078695278263371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: 8c08652614cb7468620a6328b37ca2965cd48283
-    new: 833bc4cf9754643acc69b3c6b65988ca78df4460
+  - ref: refs/heads/for-5.14
+    old: 9dee1f9fc504c48b6b02d8726cc9c868cf41f7be
+    new: e56360d6a119f531506658ea87238e48ad4c95c2
     log: |
-         833bc4cf9754643acc69b3c6b65988ca78df4460 ASoC: cs35l33: fix an error code in probe()
-         
-  - ref: refs/heads/asoc-5.14
-    old: 60339074c4e4445312c7b60b16035cfbd8914e58
-    new: aa736700f42fa0813e286ca2f9274ffaa25163b9
-    log: |
-         b9c035aa43b8c074b3bcfdaaa8bea2537d85b7c3 ASoC: topology: Fix using uninitialized pointer
-         623cd9cfcac522647e3624e48bf0661a39e8502a ASoC: dt-bindings: imx-card: Add binding doc for imx sound card
-         aa736700f42fa0813e286ca2f9274ffaa25163b9 ASoC: imx-card: Add imx-card machine driver
+         e56360d6a119f531506658ea87238e48ad4c95c2 regmap: mdio: Don't modify output if error happened
          
 
---===============4628506898657570298==
+--===============1591078695278263371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621544486 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621544486-3003858a2bbb330ff7131fe7cde98b95fc9ae4a5
+pusher C3F436CA30F5D8EB 1621544494 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1621544494-90dd4b06708c2d439bab3c0ec0411af48bf787aa
 
-8c08652614cb7468620a6328b37ca2965cd48283 833bc4cf9754643acc69b3c6b65988ca78df4460 refs/heads/asoc-5.13
-60339074c4e4445312c7b60b16035cfbd8914e58 aa736700f42fa0813e286ca2f9274ffaa25163b9 refs/heads/asoc-5.14
+9dee1f9fc504c48b6b02d8726cc9c868cf41f7be e56360d6a119f531506658ea87238e48ad4c95c2 refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCmziYACgkQJNaLcl1U
-h9Cokwf/R3BOWgYBfpOxU5f3SG7o+iHvGu5byU1muJbwZfMXhyJc/DzVwsTBVw1t
-YmvwSi1ejaEZK/2evrOj+Nm7eIFX93LzceEq65fcZ7G/42MVowH+VpWfXVllaSWL
-IvgEYxgG3ceTgPtTfcufBqiRpHhe9NlMDQZ+ycDjneKFZdbmVwp5ySxNIgZe2WLU
-pIAdSFiOc+sZ4Qcgf4oACGzcRLqxFryG5Qi/IaG3IERZtCLHMtVlpLk31yqTdnsB
-YA6xSQrsqxOR+FXPlBn1F5+qcobA3WMSoWaiOwosElNRiAQJZCiSuAzh15jRVX72
-rPRd/9fhNPe4qq5CcOQcAxR07TbtCQ==
-=zHKW
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCmzi4ACgkQJNaLcl1U
+h9CNzgf4xUxq2GP11W0OLtRPi6Eb7G6TPhg+LczsnfihtJjyAOCzHxHbaRX0NuIu
++NuGKjJuXH0YBFW+IhCTBPclIv4Zu/GyPrzhd0YPxZRlcN3X/MteudeyUUKdjXs6
+pN+VPwYPU/Gu0xoUQ4uGxXPSezrrTJ5gYOttkt+xAurResyv8pqANKFofxADLYsX
+65sijC7N8go2Ncn7LKxEwXVoqHTcldbvLEXeKK+f/nntYSHvJaNFwh84LvmAguvZ
+MKmklk6PIcic+BLaI4aPj7K69Rh7+cFZ/kSP1n1R/FOx+BKtpS4nZPT+eC1XQO+5
+zmgAt0tns3CxQGO0cycRoD5upU61
+=cc4C
 -----END PGP SIGNATURE-----
 
---===============4628506898657570298==--
+--===============1591078695278263371==--
