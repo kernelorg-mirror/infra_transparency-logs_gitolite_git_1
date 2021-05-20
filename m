@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4784718359296711886=="
+Content-Type: multipart/mixed; boundary="===============5388939500317426840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 20 May 2021 11:42:58 -0000
-Message-Id: <162151097859.11566.14748953682761131703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 20 May 2021 11:43:06 -0000
+Message-Id: <162151098626.11684.5369824228998155886@gitolite.kernel.org>
 
---===============4784718359296711886==
+--===============5388939500317426840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 96af5f6cf234978027ec64022a48ac500e4a452a
-    new: 1fe601053724311885948864da05bce03ba6c332
-    log: revlist-96af5f6cf234-1fe601053724.txt
+  - ref: refs/heads/queue-next
+    old: 10b2ad8dede51284189526ea5711f574f4f749dc
+    new: 13797f7572724e98bca97a79d8a8de52c79eda9f
+    log: revlist-10b2ad8dede5-13797f757272.txt
 
---===============4784718359296711886==
+--===============5388939500317426840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96af5f6cf234-1fe601053724.txt
+Content-Disposition: attachment; filename=revlist-10b2ad8dede5-13797f757272.txt
 
 e0fc716328ed4fbc6f143488e5bd722c9a8bdf2c net: hso: bail out on interrupt URB allocation failure
 358208d3a1ef31771084ade62e1a19f3c4a162fd net/mlx5e: Fix HW TS with CQE compression according to profile
@@ -74,5 +74,7 @@ d196e2bc484000f012e416082ce23f4e30b06d13 Merge branch 'patchq/390892' into mlx5-
 911d0318c51a13949288204ab78999c04cbbb807 Merge branch 'mlx5-queue' into net-next
 dca202a20262da15527000a499dbf7d539d7df8d Merge branch 'mlx4-for-net' into net-next
 1fe601053724311885948864da05bce03ba6c332 Merge branch 'mlx5-for-net' into net-next
+cb519d7a8fa6c3f60ea873525835f33a1df3b0aa Merge branch 'net-next' into queue-next
+13797f7572724e98bca97a79d8a8de52c79eda9f Merge branch 'testing/rdma-next' into queue-next
 
---===============4784718359296711886==--
+--===============5388939500317426840==--
