@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5275680348063787412=="
+Content-Type: multipart/mixed; boundary="===============5915736726151663053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 20 May 2021 04:01:49 -0000
-Message-Id: <162148330907.21250.8033852494347959966@gitolite.kernel.org>
+Date: Thu, 20 May 2021 04:03:53 -0000
+Message-Id: <162148343341.21967.7456734856468958996@gitolite.kernel.org>
 
---===============5275680348063787412==
+--===============5915736726151663053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: dbbd49bade0548db87ceb1943951dea456af2e22
-    new: b791c7f94680ba9b60b0c0786b1d0eb4393053d6
-    log: revlist-dbbd49bade05-b791c7f94680.txt
+  - ref: refs/heads/opp/linux-next
+    old: a8bb0e872bfb962de4653ce8f8723c0e1f712ce3
+    new: ac9fd3c8034011cc10a4c161b70a5837d95203f6
+    log: revlist-a8bb0e872bfb-ac9fd3c80340.txt
 
---===============5275680348063787412==
+--===============5915736726151663053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbbd49bade05-b791c7f94680.txt
+Content-Disposition: attachment; filename=revlist-a8bb0e872bfb-ac9fd3c80340.txt
 
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
+75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
 ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
 fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
@@ -1046,9 +1049,6 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-17a8b0b6dde67f8561cf2ccbe945d5089cd70e08 cpufreq: blacklist SC7280 in cpufreq-dt-platdev
-88bf5a85fe9840c9b49c5f6c625cdccd11233943 dt-bindings: dvfs: Add support for generic performance domains
-70d99a8f0442bbc5abfa34ea27ce1fcacff57f90 cpufreq: mediatek: add support for mt8365
-b791c7f94680ba9b60b0c0786b1d0eb4393053d6 cpufreq: scmi: Fix an error message
+ac9fd3c8034011cc10a4c161b70a5837d95203f6 opp: use list_del_init instead of list_del/INIT_LIST_HEAD
 
---===============5275680348063787412==--
+--===============5915736726151663053==--
