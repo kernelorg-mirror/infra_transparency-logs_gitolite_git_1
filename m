@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2813605447426625643=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 21 May 2021 19:33:52 -0000
-Message-Id: <162162563200.16586.17777149302659198193@gitolite.kernel.org>
-
---===============2813605447426625643==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 21 May 2021 19:34:15 -0000
+Message-Id: <162162565501.16832.1686231217797303645@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.13
-    old: 98e48cd9283dbac0e1445ee780889f10b3d1db6a
-    new: 36cb555fae0875d5416e8514a84a427bec6e4cda
+  - ref: refs/heads/for-linus
+    old: 2caad11c18851f0f026736700fa7c40998fd1037
+    new: 3b598c67701afd048a1e453486b18857d1213bdc
     log: |
-         36cb555fae0875d5416e8514a84a427bec6e4cda regulator: scmi: Fix off-by-one for linear regulators .n_voltages setting
+         3b598c67701afd048a1e453486b18857d1213bdc Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
-
---===============2813605447426625643==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1621625629 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621625629-a4a433ae62229195f107f4a80345b0506d95fa0f
-
-98e48cd9283dbac0e1445ee780889f10b3d1db6a 36cb555fae0875d5416e8514a84a427bec6e4cda refs/heads/regulator-5.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCoCx0ACgkQJNaLcl1U
-h9CUTAf7B4P5hpD6br+Bhcfa7wXWk2Mv0VQIjE7H0z6/qgioQqUOOZGybw+B8c4s
-cF1hIr8Ez7p9Rfo2AX5Sat9e3BumyxNTIIDSffd5ESZN7hN1S+lB0Rme+3RzMdF5
-fMCYF0HhFhb4TQrd2G5SX9MTPP8MzOjkvM7jCV5d1e/SeGBaRj/MyZukq9o4PCyi
-SDQx9897eVKvG34WzyfFl63lVeX5XFXcCZp7imfT6hjC467V6FJo73JksfCSBW2O
-+ZNwkLKr6vFpXSyuXOmciqbIjVewSZcrYV1TUorH4MzV0txZs3PR7dXLuBql4q1y
-9Nk1DjBpjJ9AtyvthqV04dU3O/POSw==
-=VwcN
------END PGP SIGNATURE-----
-
---===============2813605447426625643==--
+  - ref: refs/heads/for-next
+    old: 360b3a2878f44d85b20a54b3b34bbe4d7b53f014
+    new: b18a902e455b5fbca4c738b907ab546ab1a758d5
+    log: |
+         c0fbe9fd311a07bd8919e61d412db22e4b08dc43 ASoC: Intel: common: Add entries for sdw codecs in ADL match table
+         03effde3a2ea1d82c4dd6b634fc6174545d2c34f ASoC: Intel: sof_sdw: add quirk support for Brya and BT-offload
+         3b598c67701afd048a1e453486b18857d1213bdc Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         b18a902e455b5fbca4c738b907ab546ab1a758d5 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+         
