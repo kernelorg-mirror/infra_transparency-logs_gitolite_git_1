@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5597667434555554154=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Fri, 21 May 2021 13:06:15 -0000
-Message-Id: <162160237533.26738.16756904559470892149@gitolite.kernel.org>
-
---===============5597667434555554154==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Fri, 21 May 2021 13:48:31 -0000
+Message-Id: <162160491141.19599.5731739895050335230@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 21a3a883974f0bc9569aef0fcc6e14706b810f31
-    new: 9768c88abc66f12a9fa77302a66dc599a987c433
+  - ref: refs/heads/usb-next
+    old: 155591d3ceeec2cd6a50b40278e2014c45f6b5f6
+    new: 17cd3a106e9762cd97883cce884a8bfcf5a476ad
     log: |
-         9768c88abc66f12a9fa77302a66dc599a987c433 Use construct more tolerant to unicode failures
+         3aed3af202aa2f8246d07875809b9bc07a02131b USB: serial: digi_acceleport: reduce chars_in_buffer over-reporting
+         dcbc0ae4f8fcdd4c873e7a9bac49ab84b0453813 USB: serial: digi_acceleport: add chars_in_buffer locking
+         9a8253a7c2da1d78183029a46bf04fb7beb933eb USB: serial: io_edgeport: drop buffer-callback sanity checks
+         683c5cfa5d1c050c698654e9bb13b12c8e60e174 USB: serial: mos7720: drop buffer-callback sanity checks
+         661867161f63bc5cc22b0d1e8ea59a682779a0ef USB: serial: mos7840: drop buffer-callback return-value comments
+         17cd3a106e9762cd97883cce884a8bfcf5a476ad USB: serial: drop irq-flags initialisations
          
-
---===============5597667434555554154==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1621602374 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1621602374-f4bf9898aae8e0e36099431000f5e261704a62f5
-
-21a3a883974f0bc9569aef0fcc6e14706b810f31 9768c88abc66f12a9fa77302a66dc599a987c433 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKewRgAKCRC2xBzjVmSZ
-bIBQAQDQVl2tmZs5eph9VW2HaGOb86hTwDKycN35TKWIZazjmwEA67QUAg7CEMWg
-N188tuEJDCk4wAq8djeoBTORcZLbSws=
-=poa0
------END PGP SIGNATURE-----
-
---===============5597667434555554154==--
