@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6205543069446669241=="
+Content-Type: multipart/mixed; boundary="===============5013546932213541315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 21 May 2021 12:50:31 -0000
-Message-Id: <162160143116.16979.9864599781036028184@gitolite.kernel.org>
+Date: Fri, 21 May 2021 12:51:28 -0000
+Message-Id: <162160148817.17455.284058408151773959@gitolite.kernel.org>
 
---===============6205543069446669241==
+--===============5013546932213541315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: d3a2bfde6b1197a8fe543990090e430b7686be3b
-    new: 8c55a99dc77a76dcda52e5b080f584188b2ce2f0
+    old: 8c55a99dc77a76dcda52e5b080f584188b2ce2f0
+    new: c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040
     log: |
-         8c55a99dc77a76dcda52e5b080f584188b2ce2f0 parport: Use string_upper() instead of open coded variant
+         6a072b2e3722f39c148c2dea35f2485777b3aee5 w1: w1_therm: correct function name bulk_read_support()
+         c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040 w1: w1_therm: fix build warning in w1_seq_show()
          
 
---===============6205543069446669241==
+--===============5013546932213541315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621601422 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621601479 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621601422-accb47f657c839ae0a9366029683101e98d2208a
+nonce 1621601479-09179bced2746ef7d27063d63044a4dda6cb93d3
 
-d3a2bfde6b1197a8fe543990090e430b7686be3b 8c55a99dc77a76dcda52e5b080f584188b2ce2f0 refs/heads/char-misc-testing
+8c55a99dc77a76dcda52e5b080f584188b2ce2f0 c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnrI4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EokQAJF8pDFIX8xe7ggCiUmH
-fRedKpznI+WEfPFQmoy8meVUoCqu1n4CE43hbLvh01EeeP7HTt3fkxir9vE3MKso
-B5UUDQaa939Q2nbB/Eixf/6cNKV4fikpwHmEKq+9PX+Uyy/ACqUBpx/qxAMG4B3x
-3+YMUjJLzqvuoiOnku2QY8C5jr39LOtoAZ8liZfv69iF8I034BvSBRfNDZUi/zNf
-bt7w6LYu+TDCph0iu3Iw8lPEKZrMbawr6AoqT0C7DNP/LS6gtkIO+d+pnfnlMUjD
-XRALXzKuIb4Ei+41uZOw1Ntpd0hdC8zrWCt6DzznIf41WlHV3opUgy+qj+qO4jh1
-7wrjUInUG5owXqsRXw5D/CFzZmJlUj8hIq8Q2k3oJGJTCrXTb1evvXHpmNerqZCb
-vzWwCOsF0Fa4Io/00yio7ynCbOctOUV+Zf3z039oheVd06u2bP1f92xKaoS04Pxa
-pO6jlVOBx/6eUreO/w6Cn+YSDrDeyQ+5pWf5gkHshG5GmS13tNv3Id9PUd34ml9v
-hRRma9VRw2aHRKbDv9mZrETWZU5bGqNIbawAewHgDj3MubWNN0nYotkrxV97kGfM
-2l3XyQRrgVwxKubaNDJrSe/OUVtc2Hce0YhO86yqZM3Y0s+GuN5WsQq/+ni7yOFZ
-AiHbacFf+803drYgsrEJyNen
-=ddi/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnrMcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CmAP/0MOcuxR2ALo0rIwyjav
+BTKijNmrAvGmUvd83W+Z/KCKA1w41/ZMBu+fq8OQ0qQt2Bv2ANA9d0rGiDgpRZFt
+xAsWIUjXt50fb86mSIwIC3Ua86MaWfPN+dx4wRz13jbc7gNlwENEjh1KDvnkDY+T
+VRkrHVp+DfAzShgo5IjxGnuE+NEO5seeHXtCQzCbf6GYFpHtVcyzaTNnFLshs4f2
+c3wcUbwlFfG/aSZ7OyetYUUME47pvpgsKfav2Nb6uQniFkRvxyncxkekYR0rk4Dq
+8aw9nHA2VGL7NjtsK0WvqWbKciHLvOj3maVTs9Hbfd3QjvQhea62CThOMnLtdpUb
+amMFjTbB8mvzDRIS474UMbb3Ajp2aaH5zCzxptw5ZfGwE0nUdgnPjYbPNB1Gd0Tl
+Z3I+Pjr2M0HjO6vxARdwUG2A075VKhxF5zqt/N/tzT/uXdnHK8R7qpSSKZ8Qh9kA
+b3+I945n7csRLdNADb52fgoW9pLIQjVux1VjHxOZ7EdinvUayLRNQu4YeSRgq0Lm
+qSMBO1WsYB6u4/tuF5SCGG852bmDTuD+dMoO/5hknIh3/gv8m5+t2l8MGSSUop+y
+ZBdAwm58J27z1n4yrTHCfjNmxn5Q14VtQqGmNnDEspGOydzlqfKsh7NpIkGnHbzf
+DqR6ZFJ8BTjnuuVirgFGA+jC
+=6+BS
 -----END PGP SIGNATURE-----
 
---===============6205543069446669241==--
+--===============5013546932213541315==--
