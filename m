@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5837103480408749321=="
+Content-Type: multipart/mixed; boundary="===============3343404240755769520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 21 May 2021 18:36:43 -0000
-Message-Id: <162162220326.22186.16384050395528441261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 21 May 2021 18:44:20 -0000
+Message-Id: <162162266000.26113.8234141401251394290@gitolite.kernel.org>
 
---===============5837103480408749321==
+--===============3343404240755769520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: f421ed33ee2bddac5857862da3a37f0ea3f197d8
-    new: 2ac62268a2c0f2ffafc19a7ced6972a9b1330389
+  - ref: refs/heads/driver-core-testing
+    old: e1327a127703f94b8838d756cf6eaac506b329a7
+    new: 2100c9b06046a971dcccadcd6281fab578350bb2
     log: |
-         2ac62268a2c0f2ffafc19a7ced6972a9b1330389 tty: hvc_console: Remove the repeated words 'no' and 'from'
+         2100c9b06046a971dcccadcd6281fab578350bb2 drm/i915/gvt: remove local storage of debugfs file
          
 
---===============5837103480408749321==
+--===============3343404240755769520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621622194 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1621622194-c15a00700a03e6b29e0a97cfdce74f6f09a0d282
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621622651 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1621622651-4c6fe7da5dacf948df52b10b37de5237efd2ac2a
 
-f421ed33ee2bddac5857862da3a37f0ea3f197d8 2ac62268a2c0f2ffafc19a7ced6972a9b1330389 refs/heads/tty-testing
+e1327a127703f94b8838d756cf6eaac506b329a7 2100c9b06046a971dcccadcd6281fab578350bb2 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCn/bIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j8kP/RBmTc4qjL3qtn4KKbo8
-Hk7l1yFKg5iBukBQuTwZ2GOg9OgvVLsCoWNlSVMw2Jg+bi2PtOjCClm13dZ+YGZL
-sd+z3BmOAF0YOo/Ir2s8xLUA5kWhXjPjld8SAvY724pW0qNY0ElJO1ubXf7wIIDd
-WuXvG4Lj4UvKXfUST4b/5AulOZn5Y4jSngj1Ohb0VqaMGLhOFF1PknsRh8aGNTQu
-9Xbvf7IW8vaAbnoQD/p0CXw5WbSCcMMYDSSFj/AuRV/0Xnr3mYpZokP/Ggn1bnZP
-lRFyHsS/J/zzctg+zvPoauiRg+GOM215MSgt47U3H/7eX6mHQ8NHA05+J+S0jirq
-Eac2yIYU5Fryosa8gkI9iNLJ7IqQItOqzba/5gxxrwODTmvCY5DSl5eljGWe9lg3
-IJXs/iZf2FqtCK71xo0O5lZRFGAyg6i7oI+RYyxtmgPX2ugVaLkKiYGvnweUfJJt
-Toa08DJIhkQd4lei+ZO25jNAMDqUHGm35qjaVGTW8B1mz2cx39zB9VnefTURernr
-XmujkF5PZGvVUPByzYYKVPcH7IUt/Rr9Uey4jBWaVqoiHi2iomHsIs/wn0MbyDxj
-FUK0ow36lbNWhA8kcgrXB8HJtTF40oURiz2f+Y96TNrRTeW44Nj1opRRAEo3y4su
-DsyR+9fS2pyAUJJ0MvMgJftQ
-=kR7D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCn/3sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HGYP/jWARrPFP5mOvGnpBfkA
+XP80EstXlf2kwsWYNP4rAU6sTfZtFlbjwYzNq7K6/LinuqpWetPUiqzVK2TPPwD0
+hOocUGG56uny8inL0lWQM3fpg44p8Ls1/fH58/TSTSjsUo/klFEzgwZXRPg78AbY
+Gqgh9FkS0wyQ6Otkp/gfzvKBI6ZouhbbzxUQsmS6B/zLmEXrmwkgJ2RW08DPHVTZ
+xecPFVeVOaOrz6h6YWaLR+u1tu/ORhij9bD9wGWDG7HduFkRwqWWcWBUPmrfwlim
+5MLOHyHqMHmZ2s+kdNjW7xNDTMGfzH/ieAEo1gIvx4mGIjYzo6Q46Efpq/AqPoS1
+pEzJlcNaDT1ciRTNsflr3o6frvkXfbH2xQltqiQb6eIEHn1pOhkbcfVDd20yItR+
+SQge/dVyQ2vaG+YY+6Ray43jXRopKEl8/iuqWT+rKxS4FIyBdwmrrkx7MthvpvY/
+55UHCL/OD2XaLQ8LIu5wHdns1mU0TiF/1EFoFbEi/h78WFi9y/+8UxLLixF2U05f
+DAEpvmLf9n7Y+WZWQCaQxr2jdmzLRT9uHtXIbvMRv7DlddPH5SmOY0vMhzbgHG64
+SRZIJKbPGKMCPjAN85jY3+IAqhUglk5K/8Xn2OyM5TfVAduQRx+Yo0HG9DHYlW5+
+PESre0UroDup23LSkmDyM4t/
+=N251
 -----END PGP SIGNATURE-----
 
---===============5837103480408749321==--
+--===============3343404240755769520==--
