@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============9199847778217074219=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 21 May 2021 15:45:55 -0000
-Message-Id: <162161195583.4519.14510176206032986064@gitolite.kernel.org>
-
---===============9199847778217074219==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 21 May 2021 15:50:42 -0000
+Message-Id: <162161224234.9094.13655412942760870724@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 7a20dcf82257604586b29642d078194447d492b7
-    new: df10eb41f37689ae6732c63770e95bc43bab22fd
+  - ref: refs/heads/dev
+    old: e3a1e8eb70cc1495d789c76237e1bb43ff289c0b
+    new: 75c72c07e117b7d5c17632799e1ce75a53609145
     log: |
-         df10eb41f37689ae6732c63770e95bc43bab22fd Don't crash on absent cover letter
+         3922b2bcc8e7f4db296b9ce569c7ddef1aa84d55 rcu: Mark accesses to ->rcu_read_lock_nesting
+         75c72c07e117b7d5c17632799e1ce75a53609145 rcu: Mark accesses in tree_stall.h
          
-
---===============9199847778217074219==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1621611955 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1621611955-2d57092239f16dbbddbc7dea81b52def467c16fd
-
-7a20dcf82257604586b29642d078194447d492b7 df10eb41f37689ae6732c63770e95bc43bab22fd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKfVswAKCRC2xBzjVmSZ
-bOFiAQDf6mKJoQrwVaC6dsSqyL5TUFnIp/N21n7QiS2Rp6C+VgEAiTvWKvbZob+x
-RSz3BYUQWxnSv6Eqt/2XxvzJfEdpfQk=
-=jXYy
------END PGP SIGNATURE-----
-
---===============9199847778217074219==--
+  - ref: refs/tags/irq-export-set-affinity
+    old: 0000000000000000000000000000000000000000
+    new: 29b0fbc1adf7d918dbe479bc6a617472ddfed448
