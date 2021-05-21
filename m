@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6860941033070108255=="
+Content-Type: multipart/mixed; boundary="===============7567885101351017192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 21 May 2021 13:04:46 -0000
-Message-Id: <162160228637.24720.12291431026363799572@gitolite.kernel.org>
+Date: Fri, 21 May 2021 13:05:42 -0000
+Message-Id: <162160234269.26427.13896647826683155555@gitolite.kernel.org>
 
---===============6860941033070108255==
+--===============7567885101351017192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-linus
-    old: d33ca7d2e8db435ae0e514877e83e07bbf283baa
-    new: 02625c965239b71869326dd0461615f27307ecb3
+    old: 02625c965239b71869326dd0461615f27307ecb3
+    new: bda7d3ab06f19c02dcef61fefcb9dd954dfd5e4f
     log: |
-         02625c965239b71869326dd0461615f27307ecb3 video: hgafb: correctly handle card detect failure during probe
+         bda7d3ab06f19c02dcef61fefcb9dd954dfd5e4f kgdb: fix gcc-11 warnings harder
          
 
---===============6860941033070108255==
+--===============7567885101351017192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621602277 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621602334 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621602277-247bb9f3d49e5741df3bd9af0b0dcf0a9699b143
+nonce 1621602333-082982e1bfe9d78377aa4d4234ffca080c1039c5
 
-d33ca7d2e8db435ae0e514877e83e07bbf283baa 02625c965239b71869326dd0461615f27307ecb3 refs/heads/char-misc-linus
+02625c965239b71869326dd0461615f27307ecb3 bda7d3ab06f19c02dcef61fefcb9dd954dfd5e4f refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnr+UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5QcQAIMz20k7B4t8cvbW6+tK
-aKg7RreneRPN2xP1GzHydmjikcIPSxcUIyNCITLXEBXGbF5feudOqh2cdfx2zkIB
-B2tt3rq941wrnwDfnfddmjML/SATeVLlY0TFADpiLT6maCOz6tHHmpUKPSgVDsZF
-A77siPyqsM2Hkyd/Mut8J7TUL1xKzzKNA6lq0oYR2MT3L0ZluoXQ6RWCtjhwoAg3
-aB0giilgWGdN0m10D4HV0tHQ7kMgwI+5ZNEWUX+WiMhjouBYkfZFe316eP9QnosI
-AnCr5Sn2+WUC10/MDs5LRrRvkWivsIuPhmq6q8EDswZGEiSs0FvTWhJHyeBT4xPJ
-Ug7yoh7yZJUGZzsL4r8DP5WI0G+bhXMhJC5MEPE9sucZ+RyrocBqePV1STk6HRNQ
-5wqKdRNeHuoJVm0CbNyejV0kGAOTm51bQ4U+72djDhMZ0TKipymAw/a/L2Gmea4B
-YlClRmAi3x1nrNOWEVZ2aOmGglt3JOg5Nf/2NpnsnPagkzYGRaKiMWfz3AKMHQSe
-YAzLjb3oUsZCwEZu/vs4/qGv55DNx3y74P/rcTkEx/gtL/4NxsfH51CAr9F41btl
-mhyVoR6ObOolKSdRbyuUNoSzpc4e4E0vK5RNx1Jgl48aJNNcJuzGUL4RRqUToaaK
-czXIRI3lpr518XlczLDKjsi1
-=MJZa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnsB4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ThwP/AhiVWpAdvGAxEMa/tMx
+vBizxScmYwrxMiEaTfcZ7rq5dLbsAnp2HX90txfUUobdbtz5KMi+JsTPYSrQ5AXS
++aqL26dmpQwe//3KcwLgXLCkEgAg17+rEppalZ2U1DMgUp0fhRTeHrpqeMFyiilP
+NsqK5Vh5dzgkU+p3Wf+1ILM3/tgR2KRgP+eh/AVXri2ag849W+7GeFXbaz9u++yt
+QY9pAq1lfCt4euA3Irho2g6zY/Nc4H31wVhrTuMZEEirwiVtMIucrHODttuQ+cDA
+YAk1TLL/UJWtZQqxlsFpSLsnHregLksuSU1GPuqyUg476oAusXi44hub0+aDN4VK
+H2X+iFzaaWlC6bIld874fo5vpOdxcttSu2gd2QM2LtGDDwQ9CBsPTVoo9ugEigNz
+NmVAGJ0Oenlgl2BwP4A76AkSllzfonWT+k9HP4DGONsDzPM6TZkLBRoaroOMUcdH
+Pwff5e48tqlBY6mtgJ1+fw86Q2poNCIF4q48u0EPLes53xtbguA10JPYISOVpRGf
+chJ2k10OJny0YQrB4kedVd7o17pwQoME7ywTqXjUCkX9IxoN2ahHPbB2SFt9q64u
+tpnXsNtz4xpQJ3+tyye2HdkJFlzWK+Iuk9j2V3R0XkJ01mDcRAB4k7liYE0MzfnX
+IdFi8259pNMKvxSdT1ctI0Tm
+=VdX6
 -----END PGP SIGNATURE-----
 
---===============6860941033070108255==--
+--===============7567885101351017192==--
