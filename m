@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5013546932213541315=="
+Content-Type: multipart/mixed; boundary="===============2337749471770972364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 21 May 2021 12:51:28 -0000
-Message-Id: <162160148817.17455.284058408151773959@gitolite.kernel.org>
+Date: Fri, 21 May 2021 12:51:59 -0000
+Message-Id: <162160151909.17764.16690615894402144658@gitolite.kernel.org>
 
---===============5013546932213541315==
+--===============2337749471770972364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 8c55a99dc77a76dcda52e5b080f584188b2ce2f0
-    new: c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040
+    old: c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040
+    new: c999fbbdcf778c2ea77f59e26d7448a1ab8fa8a2
     log: |
-         6a072b2e3722f39c148c2dea35f2485777b3aee5 w1: w1_therm: correct function name bulk_read_support()
-         c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040 w1: w1_therm: fix build warning in w1_seq_show()
+         ddb20bcf77382c92389a5b506e5f52e840dc70a4 w1: ds2438: fixed a coding style issue
+         c9f2713531a9ba2018695a3e191e28d84eaeaae6 w1: ds2438: fixed if brackets coding style issue
+         67c6964228b6c0c759893915f0cb47a564c256dc w1: ds2438: changed sysfs macro for rw file
+         1f5e7518f063728aee0679c5086b92d8ea429e11 w1: ds2438: fixing bug that would always get page0
+         fd6ec5d79507f99639c94f107e8a98550c9e1cf6 w1: ds2438: adding support for reading page1
+         c999fbbdcf778c2ea77f59e26d7448a1ab8fa8a2 w1: ds2438: support for writing to offset register
          
 
---===============5013546932213541315==
+--===============2337749471770972364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621601479 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621601510 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621601479-09179bced2746ef7d27063d63044a4dda6cb93d3
+nonce 1621601510-bca6f542b6e358c92ec09bdd3553faf418493617
 
-8c55a99dc77a76dcda52e5b080f584188b2ce2f0 c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040 refs/heads/char-misc-testing
+c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040 c999fbbdcf778c2ea77f59e26d7448a1ab8fa8a2 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnrMcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CmAP/0MOcuxR2ALo0rIwyjav
-BTKijNmrAvGmUvd83W+Z/KCKA1w41/ZMBu+fq8OQ0qQt2Bv2ANA9d0rGiDgpRZFt
-xAsWIUjXt50fb86mSIwIC3Ua86MaWfPN+dx4wRz13jbc7gNlwENEjh1KDvnkDY+T
-VRkrHVp+DfAzShgo5IjxGnuE+NEO5seeHXtCQzCbf6GYFpHtVcyzaTNnFLshs4f2
-c3wcUbwlFfG/aSZ7OyetYUUME47pvpgsKfav2Nb6uQniFkRvxyncxkekYR0rk4Dq
-8aw9nHA2VGL7NjtsK0WvqWbKciHLvOj3maVTs9Hbfd3QjvQhea62CThOMnLtdpUb
-amMFjTbB8mvzDRIS474UMbb3Ajp2aaH5zCzxptw5ZfGwE0nUdgnPjYbPNB1Gd0Tl
-Z3I+Pjr2M0HjO6vxARdwUG2A075VKhxF5zqt/N/tzT/uXdnHK8R7qpSSKZ8Qh9kA
-b3+I945n7csRLdNADb52fgoW9pLIQjVux1VjHxOZ7EdinvUayLRNQu4YeSRgq0Lm
-qSMBO1WsYB6u4/tuF5SCGG852bmDTuD+dMoO/5hknIh3/gv8m5+t2l8MGSSUop+y
-ZBdAwm58J27z1n4yrTHCfjNmxn5Q14VtQqGmNnDEspGOydzlqfKsh7NpIkGnHbzf
-DqR6ZFJ8BTjnuuVirgFGA+jC
-=6+BS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnrOYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KZIQAJ2n+2pDTURu1sRmxr3h
+N269P1xYWhqMOxa1f7/Yea0n1vJzHUCFEo1WQMFCBsy+9HMnI+8l9BQZyf4byPli
+aY1T3RykZ/H6UIZuA7B2GsRytuL71ATfRdENMp3FI4jHHcaR+6nJMKQF0GQ9niJV
+GnBjbkMJ/PDU9Y5m8PYbZJx7tL3qAL3Ln7Yo6Xn7+8bk86fZWfdBSu3c/1Ypxe5m
+mHpwmOjcVM5QNwcsVTLydOt7oyDMDRjvqAm1Y/Whsk85IQIxmhuU7shJ1HjpWMcp
+k1Dvgwb8NN7uUJ/mef/5rdz/zNHZM1bvG/sJC17ONX1L9jewuqoENSngjuUdBPxx
+bW+UWEvlkGxChEMHDyUcqQ6eX7u23au+wwvsrS8PRluWwQgU1x7sAbydCcEQ2TXQ
+3B/QUmwT5xwKBcFxruae+cERLqgyHuYKVVfQRYFA+ngIRvNasSUKAghD28ArYDbZ
+XVPm56wP6vp8BcNv/AFoVT78ZdIGr1SsyPjp2GgXPt7AABRMYPDPQtk2xfMQtwVK
+tRvjia8Er4rN5PWf+zIeO5yBePN6jRza5fYtQeZFyYn2UJmgsP+HFP29tTxHNWaT
+I9aKLkCpjf3l+431Y//H3G+lMZTuQmC6slCBQAeKq7hYPo7+otpGNTK+iXCUhRDz
+VrwugQWjB6tQe88o3mU5pRSY
+=e42h
 -----END PGP SIGNATURE-----
 
---===============5013546932213541315==--
+--===============2337749471770972364==--
