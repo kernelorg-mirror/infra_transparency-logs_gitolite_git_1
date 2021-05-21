@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 May 2021 21:51:36 -0000
-Message-Id: <162163389693.13531.3261941800388600841@gitolite.kernel.org>
+Date: Fri, 21 May 2021 22:02:53 -0000
+Message-Id: <162163457367.19869.7623495192214720307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: aced3ce57cd37b5ca332bcacd370d01f5a8c5371
-    new: 8f03eeb6e0a0a0b8d617ee0a4bce729e47130036
+    old: 8f03eeb6e0a0a0b8d617ee0a4bce729e47130036
+    new: e29f011e8fc04b2cdc742a2b9bbfa1b62518381a
     log: |
-         8f03eeb6e0a0a0b8d617ee0a4bce729e47130036 net:sfc: fix non-freed irq in legacy irq mode
+         e29f011e8fc04b2cdc742a2b9bbfa1b62518381a ipv6: record frag_max_size in atomic fragments in input path
          
