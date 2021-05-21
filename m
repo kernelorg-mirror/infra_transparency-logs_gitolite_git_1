@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5424846099553617533=="
+Content-Type: multipart/mixed; boundary="===============8344364223105386157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 21 May 2021 20:34:20 -0000
-Message-Id: <162162926052.24901.9967539637459980395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Fri, 21 May 2021 20:42:23 -0000
+Message-Id: <162162974333.30164.16801715759640675775@gitolite.kernel.org>
 
---===============5424846099553617533==
+--===============8344364223105386157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/utils/patatt/patatt
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: b63866efa10ca5e4497f17eb3e3a03dc6929c49e
-    new: 78429edfeed8da0562243e876be46d700f9ed13c
+  - ref: refs/heads/main
+    old: af8a8bc01df2816fcc931e49c4d3911b51fd0f33
+    new: bdd1011f265b3c0da0ff32619c88998cbc4fb262
     log: |
-         78429edfeed8da0562243e876be46d700f9ed13c misc: xilinx-sdfec: Drop unnecessary NULL check after container_of
+         bdd1011f265b3c0da0ff32619c88998cbc4fb262 Give a nicer error when user.email isn't set
          
 
---===============5424846099553617533==
+--===============8344364223105386157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621629252 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621629251-5c7d977a5d55ebdd80cd7d8e2c55c9cd8dcaa962
+pusher B6C41CE35664996C! 1621629742 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1621629742-2980627be15b66545fd79d8cb0346fc9d44962e7
 
-b63866efa10ca5e4497f17eb3e3a03dc6929c49e 78429edfeed8da0562243e876be46d700f9ed13c refs/heads/char-misc-testing
+af8a8bc01df2816fcc931e49c4d3911b51fd0f33 bdd1011f265b3c0da0ff32619c88998cbc4fb262 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCoGUQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AOkP/A8U7COXWg1D6MuJA2++
-zu+7scSTikcjzSE0U5t77izZ6tJCqv5oIZw59E/cHhIM+cNqRUeM+WXASMqtxVI7
-iKIXYjXEml5rrQ+2H5TgXLfX0Dva+mZKKA9TSYOcfoX38IPMUdSd7eoTSrFO+59R
-TQE0eNzVlcDcFrrWvDwWOSkCg0ReL8d5SwiApdof29BK6IbeO8gNwVj0UYcDcC3V
-3MjL3OuescaVwFwxRvGtVgKFZChZWJE/P6+FFfw4RoDYOZDnDSsTQmtVWDkSCC8Y
-1yrXmt9xgYYxv35eR3jsAp0ApkB1N+SgwOwUPH4B4svRYkITuo124ebKxhd8f6Mn
-WP48MEaUrvfARBLVlWCRhBdu8WWhfMtE5CwnNy9agn/A8rWefNiRhlb7HKo1RtmR
-44Nd6vF/zzyfqPchOiN0q3/cguiROdDd0IkMQ4F4gRReR9xzuyDYnj2QDVQWxDQw
-kXksd9pHA5R5r/HEEwtF8oMhqX8Sb1wn3DwdkOLE7QlDBCTO1YMe5cnjTGUdR1RA
-Cf6bgaeW2L1wHXV37rkR1LiBOvQu9OswibN4BfU7sCEKfRx3jFxttnHL/amR+Twy
-AhHaDWEFUOxY+03GtLJWt47av8wWXyvSLGA7pUsd50kU3O28fKcWBs4AyodjZLdU
-TWN4IU2Ivq9Zid7U01F83uFK
-=kcxY
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKgbLgAKCRC2xBzjVmSZ
+bOZbAP98PhRSaDdmi5rtS76jCsPaHWJuekAYikft8dXLfVBP1wEA2CD/rDPyIMog
+EvWzCJzA2BZHh5LpVi5Un8FJy87wEwM=
+=2eWA
 -----END PGP SIGNATURE-----
 
---===============5424846099553617533==--
+--===============8344364223105386157==--
