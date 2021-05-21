@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4251349192846289844=="
+Content-Type: multipart/mixed; boundary="===============6266936986221712510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 21 May 2021 12:09:01 -0000
-Message-Id: <162159894115.20021.9155319628207638248@gitolite.kernel.org>
+Date: Fri, 21 May 2021 12:10:21 -0000
+Message-Id: <162159902112.21872.2505434773593251603@gitolite.kernel.org>
 
---===============4251349192846289844==
+--===============6266936986221712510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 62d472d8ad886d3e3fe2da20ba0965f8628513db
-    new: c63fef4c4302f5d41945f5362ff0cf556cb6db19
+    old: c63fef4c4302f5d41945f5362ff0cf556cb6db19
+    new: 96294b0912eb36d6912f8a1d1ff8a63639cfb459
     log: |
-         7d076c2f5590e7a2eaba73ded1dbf553fa15a6af usb: musb: Check devctl status again for a spurious session request
-         3f87443b4ee6710e682a1ef48cc09316e025257d dt-bindings: usb: sunxi-musb: Add H616 compatible string
-         c63fef4c4302f5d41945f5362ff0cf556cb6db19 dt-bindings: usb: Add H616 compatible string
+         880287910b1892ed2cb38977893b947382a09d21 usb: common: usb-conn-gpio: fix NULL pointer dereference of charger
+         ddaf0d6dc4671e88c72227fad68ecc45e7274559 usb: common: usb-conn-gpio: use dev_err_probe() to print log
+         96294b0912eb36d6912f8a1d1ff8a63639cfb459 Revert "usb: common: usb-conn-gpio: Make VBUS supply optional"
          
 
---===============4251349192846289844==
+--===============6266936986221712510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621598932 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621599012 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1621598932-5b9094a9b6e4e12a9801cc0696b1fed5b5b143ae
+nonce 1621599012-9a326263a1ff884e0d8ac504c682993bf7615de6
 
-62d472d8ad886d3e3fe2da20ba0965f8628513db c63fef4c4302f5d41945f5362ff0cf556cb6db19 refs/heads/usb-testing
+c63fef4c4302f5d41945f5362ff0cf556cb6db19 96294b0912eb36d6912f8a1d1ff8a63639cfb459 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnotQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vVsQAMkXnAN6ukIs7ExiDrz5
-4YkYoyTTzZNAZd+8j1h28w/IYui2nf0xv7bZLSIhBby0EqX7//s4+eyWfN5hQlA3
-zxyVvG0v/Ccfcd4j8oGJ+AnjxThHLif9gvKxGRLolbGXSccpAVM8HIQ3ySHfKFRR
-1J+UOSdbQZ7bUvMf9OO6e0UerBan0SbZg9CQrKTFTAGMtlobd/fzEiklmFUwNMuu
-NatSb7InC3GjlbSoOhtOiFJd5gtQWHXa0x4DYmHQw/zoULQlcDnHRbBXalXW2ZDd
-zKtuJMCl66uIu9XgHbgnIdFzkFzb4dRBlOk+BY8ItqHgq1C6espZIOLposl8kiFZ
-tfL98msfZglP/iJaO274V0E0O5UugU1sdmCzMnG1IrYn6lRftkeAAO0vK5Ue4mJP
-xkSj6WXW6iF0j1FW8ikBcmnoSpdJWOfl7pbpsmrFCEI9Xz04kL/3t6wSxu3JhfKX
-f1qaX18bkrwGaTXVuONtq5Gdan+gEuu1DsXwDJwgjmNW4PRyBh1GI1AKwG/J3V+U
-ttFm26EUEAFEFP45dZqElQOmBCAoD169vKjBJsnWl6yEEWSHr004rozKF88bY3tD
-t2/Y0/Cec5zjW54mTXMB408u7MK9llRbzXXkxS5KorlTL7CakvSXKCxi+71+WqN7
-XuLHkC0kC3Ti6OvHVuyg2Tie
-=KLEU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnoyQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7FMP/igAOBd+aCU0H9Yg/Gp/
+6r1nsx2PBawNIUEVhj0H8+1BwcR7uT6bs+7WFT+DFSbzpxVYvJOZfLBP94d2fpYm
+6/bdZODl1q6ziTQ7VdmVm/+OmsJhTL2R3595ZmDv5qtzuYIFI2y7cB/QFe+eBxZ8
+49KynhT+fRyqrvHYxv35WgTs1C+qdI72VM3clOjN31cRDKHwjR8H4WRRjAE4Og75
+kJGKs6Zk/jgqrzAOuEra+3taajC65+UcbXVgODJ64H3XlCfbCMmahRdr01vmkXDG
+JYrqGOxXtSbO1GrVpV8aXZV5ipyCtT6kEB0c0+v/Z0NaRJ7TbIBBIBRgqnkpPJ+Z
+PYicCBsq0icdaJAvN+h8nfB+J2GDjx1skrM+n+XsMgylEpVZtLQYXm893aSqb7wg
+MpzLiYt48ymNlwMU/ncwqdoXgt5Y4DZAPkBL/gxc8cUfIEoHfwrYpju4uloWhVTX
++zDBXvlwY+OxlaU9lNQBp1yruc1QPj3yBSoHBlpf0OdgDXU6lkhs0HC04Izj/E/m
+vHi0QkENJztRpw6Xb3BgzkPHP+LE7ehLmdmazitHyASqWUiagQfAP6Q254UJqBT0
+Ai7oLZwPrc5c3cYJY6tm10unzxf1fNggD8KYkZEfAVoEDNYIvCX6bDLyPVa/my71
+e3u0wLY9B9KolBk/xZYXB17h
+=SFbj
 -----END PGP SIGNATURE-----
 
---===============4251349192846289844==--
+--===============6266936986221712510==--
