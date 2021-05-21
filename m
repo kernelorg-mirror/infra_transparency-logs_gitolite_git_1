@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 May 2021 22:02:53 -0000
-Message-Id: <162163457367.19869.7623495192214720307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Fri, 21 May 2021 22:19:11 -0000
+Message-Id: <162163555192.29198.7077923245287615350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/master
-    old: 8f03eeb6e0a0a0b8d617ee0a4bce729e47130036
-    new: e29f011e8fc04b2cdc742a2b9bbfa1b62518381a
-    log: |
-         e29f011e8fc04b2cdc742a2b9bbfa1b62518381a ipv6: record frag_max_size in atomic fragments in input path
-         
+  - ref: refs/meta/cgit
+    old: 0000000000000000000000000000000000000000
+    new: 3c89eb0f674792534aff0474e1319eabaa894782
