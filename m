@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 21 May 2021 19:34:15 -0000
-Message-Id: <162162565501.16832.1686231217797303645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 21 May 2021 19:34:34 -0000
+Message-Id: <162162567418.17008.6660501672579378145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 2caad11c18851f0f026736700fa7c40998fd1037
-    new: 3b598c67701afd048a1e453486b18857d1213bdc
+    old: e1b3a8b74477b13d4fff1a2d5ebd5310d2c26375
+    new: c4294ffdaff477784615094e8f3dd139b498711b
     log: |
-         3b598c67701afd048a1e453486b18857d1213bdc Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         36cb555fae0875d5416e8514a84a427bec6e4cda regulator: scmi: Fix off-by-one for linear regulators .n_voltages setting
+         c4294ffdaff477784615094e8f3dd139b498711b Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 360b3a2878f44d85b20a54b3b34bbe4d7b53f014
-    new: b18a902e455b5fbca4c738b907ab546ab1a758d5
+    old: 6f687449bfbf83dbec6b8bd0c5d550eb1c74980d
+    new: 55f0e3d2ed3d198f639dcbef0366732fa7c71816
     log: |
-         c0fbe9fd311a07bd8919e61d412db22e4b08dc43 ASoC: Intel: common: Add entries for sdw codecs in ADL match table
-         03effde3a2ea1d82c4dd6b634fc6174545d2c34f ASoC: Intel: sof_sdw: add quirk support for Brya and BT-offload
-         3b598c67701afd048a1e453486b18857d1213bdc Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
-         b18a902e455b5fbca4c738b907ab546ab1a758d5 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+         36cb555fae0875d5416e8514a84a427bec6e4cda regulator: scmi: Fix off-by-one for linear regulators .n_voltages setting
+         c4294ffdaff477784615094e8f3dd139b498711b Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+         55f0e3d2ed3d198f639dcbef0366732fa7c71816 Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
          
