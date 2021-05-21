@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 21 May 2021 21:06:42 -0000
-Message-Id: <162163120288.14709.3988973967826625150@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6248941185443196485=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Fri, 21 May 2021 21:07:21 -0000
+Message-Id: <162163124109.15036.17171415917664376643@gitolite.kernel.org>
+
+--===============6248941185443196485==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/utils/patatt/patatt
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 030c8198d744e4149da57bd2a73b87aa6a8aa272
-    new: b12a6b7193e1362d297eb30e229ca0392b0583a2
+  - ref: refs/heads/main
+    old: bdd1011f265b3c0da0ff32619c88998cbc4fb262
+    new: ba86ef91f400678b8aed191ad8787a8479e74162
     log: |
-         30a2e9c0f5cf8892255e21153952cd347c81b36b net: dsa: sja1105: stop reporting the queue levels in ethtool port counters
-         039b167d68a3ce401114b1a520843db319277895 net: dsa: sja1105: don't use burst SPI reads for port statistics
-         f07b300c815757b0aabb3a0520249df4a879b416 Merge branch 'sja1105-stats'
-         b193f2ed533f6ddffe947327dcf2e76d8beb72a4 dpaa2-eth: setup the of_node field of the device
-         30f43d6f1cab2eae349a27bd8a0faa795673a97f dpaa2-eth: name the debugfs directory after the DPNI object
-         b12a6b7193e1362d297eb30e229ca0392b0583a2 Merge branch 'dpaa2-eth-of_node'
+         ba86ef91f400678b8aed191ad8787a8479e74162 Return RES_NOKEY when openpgp key is not found
          
+
+--===============6248941185443196485==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1621631240 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1621631240-5effb97fafffa205c585d17cb682a06036a39ff1
+
+bdd1011f265b3c0da0ff32619c88998cbc4fb262 ba86ef91f400678b8aed191ad8787a8479e74162 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKghCAAKCRC2xBzjVmSZ
+bN1eAP4k+2DLRM5nG3EcaVF9SX5QJVnLU5RjzCUxxi1FzI00bAD/ZqHTNHMMePIq
+wjP5/5+7tMaKbkLQiT7cN0mJj9B+CgU=
+=1LHj
+-----END PGP SIGNATURE-----
+
+--===============6248941185443196485==--
