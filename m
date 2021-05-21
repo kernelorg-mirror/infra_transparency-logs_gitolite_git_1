@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7554470210731945940=="
+Content-Type: multipart/mixed; boundary="===============5837103480408749321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 21 May 2021 18:34:33 -0000
-Message-Id: <162162207397.20033.12095355509593382023@gitolite.kernel.org>
+Date: Fri, 21 May 2021 18:36:43 -0000
+Message-Id: <162162220326.22186.16384050395528441261@gitolite.kernel.org>
 
---===============7554470210731945940==
+--===============5837103480408749321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: e0e24208792080135248f23fdf6d51aa2e04df05
-    new: 016002848c82eeb5d460489ce392d91fe18c475c
+  - ref: refs/heads/tty-testing
+    old: f421ed33ee2bddac5857862da3a37f0ea3f197d8
+    new: 2ac62268a2c0f2ffafc19a7ced6972a9b1330389
     log: |
-         016002848c82eeb5d460489ce392d91fe18c475c serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+         2ac62268a2c0f2ffafc19a7ced6972a9b1330389 tty: hvc_console: Remove the repeated words 'no' and 'from'
          
 
---===============7554470210731945940==
+--===============5837103480408749321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621622065 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621622194 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1621622065-f67406856e51884df7d84953f7f424688c98ee24
+nonce 1621622194-c15a00700a03e6b29e0a97cfdce74f6f09a0d282
 
-e0e24208792080135248f23fdf6d51aa2e04df05 016002848c82eeb5d460489ce392d91fe18c475c refs/heads/tty-linus
+f421ed33ee2bddac5857862da3a37f0ea3f197d8 2ac62268a2c0f2ffafc19a7ced6972a9b1330389 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCn/TEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ODAQAKtKT2D1lBcAOLjghhW0
-67t7Nct7jz7pnS3tBSchO4Y9J3HzGMtj1JKgj8ZhF2whaju+DtcRmm7B6Jgwayjp
-fMKGWboU7nRJ5C8/OOoq3QPdlXE6co7bKQKixgiwOLI7J/3QnYYKL2jcwVk2l0pu
-cx9AX+YM3PpMVpdZHIdJr723Qm90oF2D6GFCepJbYjtqiZsedCY2lq+x2b7ro9Vq
-ld+83rPjzSN+GN8aMC/ZenApCfQxmSiw2Q+EzKO96HC5utb1F0fcIzelrZ8RN53I
-3rU7/Q81yKfQemC1aFAdokeHW/aTc4ISSsnuW1HpadE/bb6pmZsW5L0s2fvpHDji
-kIVviKYALvK4pPf07GP9UGxnRtgPsUP0owW+nVqQzNpoCooWK21WRHvjQOpRQxRu
-VfXG+gPAHblS10C81r13o7veg9FywP4mcUp9TYsZ+ZamxcxW/aEdDvqEMURd0DdO
-SNvWld5U3LqMNIdH8FJVtsiEpiRh+vEizygQB+zsz2WPi0rwPuL4NzwMN0K3jhdy
-vWd54wYzDkUgt82LfNxWfn6slkud5ccHSpvjt4N9LqvHuSoSCkWYJBsQ6immpMqX
-VHPACds06Q0XhJHyZa5caAzMuWAVqWl8u/oNF7D/m+iGG94e54N/9rtmFSqgNI3s
-6SQvJ2yUtdIdDCUSTCoGEV5b
-=SPBw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCn/bIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j8kP/RBmTc4qjL3qtn4KKbo8
+Hk7l1yFKg5iBukBQuTwZ2GOg9OgvVLsCoWNlSVMw2Jg+bi2PtOjCClm13dZ+YGZL
+sd+z3BmOAF0YOo/Ir2s8xLUA5kWhXjPjld8SAvY724pW0qNY0ElJO1ubXf7wIIDd
+WuXvG4Lj4UvKXfUST4b/5AulOZn5Y4jSngj1Ohb0VqaMGLhOFF1PknsRh8aGNTQu
+9Xbvf7IW8vaAbnoQD/p0CXw5WbSCcMMYDSSFj/AuRV/0Xnr3mYpZokP/Ggn1bnZP
+lRFyHsS/J/zzctg+zvPoauiRg+GOM215MSgt47U3H/7eX6mHQ8NHA05+J+S0jirq
+Eac2yIYU5Fryosa8gkI9iNLJ7IqQItOqzba/5gxxrwODTmvCY5DSl5eljGWe9lg3
+IJXs/iZf2FqtCK71xo0O5lZRFGAyg6i7oI+RYyxtmgPX2ugVaLkKiYGvnweUfJJt
+Toa08DJIhkQd4lei+ZO25jNAMDqUHGm35qjaVGTW8B1mz2cx39zB9VnefTURernr
+XmujkF5PZGvVUPByzYYKVPcH7IUt/Rr9Uey4jBWaVqoiHi2iomHsIs/wn0MbyDxj
+FUK0ow36lbNWhA8kcgrXB8HJtTF40oURiz2f+Y96TNrRTeW44Nj1opRRAEo3y4su
+DsyR+9fS2pyAUJJ0MvMgJftQ
+=kR7D
 -----END PGP SIGNATURE-----
 
---===============7554470210731945940==--
+--===============5837103480408749321==--
