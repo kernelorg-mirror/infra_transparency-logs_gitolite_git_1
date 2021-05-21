@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 21 May 2021 15:50:42 -0000
-Message-Id: <162161224234.9094.13655412942760870724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Fri, 21 May 2021 16:12:51 -0000
+Message-Id: <162161357195.21487.13284002420746864944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: mjp
 changes:
-  - ref: refs/heads/dev
-    old: e3a1e8eb70cc1495d789c76237e1bb43ff289c0b
-    new: 75c72c07e117b7d5c17632799e1ce75a53609145
+  - ref: refs/heads/next
+    old: 314760fffdbc80784eaf0db4f486b7d65c764f46
+    new: 0aa8adce0794cc6bcb2af834454182a285fa9163
     log: |
-         3922b2bcc8e7f4db296b9ce569c7ddef1aa84d55 rcu: Mark accesses to ->rcu_read_lock_nesting
-         75c72c07e117b7d5c17632799e1ce75a53609145 rcu: Mark accesses in tree_stall.h
+         0aa8adce0794cc6bcb2af834454182a285fa9163 coresight: core: Switch to krealloc_array()
          
-  - ref: refs/tags/irq-export-set-affinity
-    old: 0000000000000000000000000000000000000000
-    new: 29b0fbc1adf7d918dbe479bc6a617472ddfed448
