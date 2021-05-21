@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1194656482836286412=="
+Content-Type: multipart/mixed; boundary="===============6205543069446669241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 21 May 2021 12:42:16 -0000
-Message-Id: <162160093636.10325.12990122228922868903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 21 May 2021 12:50:31 -0000
+Message-Id: <162160143116.16979.9864599781036028184@gitolite.kernel.org>
 
---===============1194656482836286412==
+--===============6205543069446669241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: c58bbe3477f75deb7883983e6cf428404a107555
-    new: 10505b720189ecc3852596a70a7e391b2a5c5b57
+  - ref: refs/heads/char-misc-testing
+    old: d3a2bfde6b1197a8fe543990090e430b7686be3b
+    new: 8c55a99dc77a76dcda52e5b080f584188b2ce2f0
     log: |
-         10505b720189ecc3852596a70a7e391b2a5c5b57 usb: Restore the usb_header label
+         8c55a99dc77a76dcda52e5b080f584188b2ce2f0 parport: Use string_upper() instead of open coded variant
          
 
---===============1194656482836286412==
+--===============6205543069446669241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621600927 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1621600927-c49524915e41dd032c6848cc673895bdc033a65d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621601422 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1621601422-accb47f657c839ae0a9366029683101e98d2208a
 
-c58bbe3477f75deb7883983e6cf428404a107555 10505b720189ecc3852596a70a7e391b2a5c5b57 refs/heads/usb-linus
+d3a2bfde6b1197a8fe543990090e430b7686be3b 8c55a99dc77a76dcda52e5b080f584188b2ce2f0 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnqp8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VlUP/1ORUqh5Q2qCfJ14AtFu
-wEjvCeZqHeFI4Csy/jWGaGyBMjFzLsv7xOwgajbuSo3J4c0dS6KJmTIUV93Vrvil
-01PYpOD40nkq65vZSc0/3QpugUyiksscaR8jxDuLZ/nDVytQPy/awrGZb/HBMD7+
-0m2rwvJ1p8LDIGL4H2EXzVA8tFUcxrUWClBN9J0HGRACsuXrsLlZFB6Ciq1O6O+Q
-gVEm5P8ZltvV16jWTCipv28edtLg8OK0V2E6TAs0SGxwMjlBSIAtkcs/w9c4xv2N
-NMpWWKTDMfqPjSWtMiBItfehKGEGpUMYelvkmmTXIES+uKX3lkAmI6gXWNflGzp1
-Inn9+EUPYLFvyPOt2ou9zWDU8IrQUoLBR+GEfAUcN0+FrS0CDzwXN9wrAFOVPZxJ
-VXk7bfvLXkwrNGyS/9CCxe282tvKoyQWXJNn5ssNY4Z+Sm8a91lhaDZVyLBa1YSY
-rxppci7krc1WbEQIfwbjoFUj/uqiiI8MZqgPH8odc++L1hZyssar7BxV8uw8Rw3p
-1glhs4s+6pAtDlSOE4KnnQPjSUe6vVwgPPuO6NRSIELPNrDoNQvE5+Hv5fuMrmb8
-FoG+lsrF9LYOyesCazs7OaV7PE34dUFDo/hZ84OLtx7aRw4MVJKwKlUmzOopHjHC
-i8srLywRUech/X5gvE1mS6l8
-=+yTc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCnrI4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EokQAJF8pDFIX8xe7ggCiUmH
+fRedKpznI+WEfPFQmoy8meVUoCqu1n4CE43hbLvh01EeeP7HTt3fkxir9vE3MKso
+B5UUDQaa939Q2nbB/Eixf/6cNKV4fikpwHmEKq+9PX+Uyy/ACqUBpx/qxAMG4B3x
+3+YMUjJLzqvuoiOnku2QY8C5jr39LOtoAZ8liZfv69iF8I034BvSBRfNDZUi/zNf
+bt7w6LYu+TDCph0iu3Iw8lPEKZrMbawr6AoqT0C7DNP/LS6gtkIO+d+pnfnlMUjD
+XRALXzKuIb4Ei+41uZOw1Ntpd0hdC8zrWCt6DzznIf41WlHV3opUgy+qj+qO4jh1
+7wrjUInUG5owXqsRXw5D/CFzZmJlUj8hIq8Q2k3oJGJTCrXTb1evvXHpmNerqZCb
+vzWwCOsF0Fa4Io/00yio7ynCbOctOUV+Zf3z039oheVd06u2bP1f92xKaoS04Pxa
+pO6jlVOBx/6eUreO/w6Cn+YSDrDeyQ+5pWf5gkHshG5GmS13tNv3Id9PUd34ml9v
+hRRma9VRw2aHRKbDv9mZrETWZU5bGqNIbawAewHgDj3MubWNN0nYotkrxV97kGfM
+2l3XyQRrgVwxKubaNDJrSe/OUVtc2Hce0YhO86yqZM3Y0s+GuN5WsQq/+ni7yOFZ
+AiHbacFf+803drYgsrEJyNen
+=ddi/
 -----END PGP SIGNATURE-----
 
---===============1194656482836286412==--
+--===============6205543069446669241==--
