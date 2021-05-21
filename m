@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6440989879314043552=="
+Content-Type: multipart/mixed; boundary="===============5620208044988075785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Fri, 21 May 2021 19:44:16 -0000
-Message-Id: <162162625678.23029.1812909985060302815@gitolite.kernel.org>
+Date: Fri, 21 May 2021 19:53:58 -0000
+Message-Id: <162162683844.30522.12360753960046136107@gitolite.kernel.org>
 
---===============6440989879314043552==
+--===============5620208044988075785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/linux-safety
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/usbip_test
+    old: 8a12ab14524ec443c36de13fc4e25e54dd2f5c3a
     new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    log: revlist-a38fd8748464-d07f6ca923ea.txt
+    log: revlist-8a12ab14524e-d07f6ca923ea.txt
 
---===============6440989879314043552==
+--===============5620208044988075785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-d07f6ca923ea.txt
+Content-Disposition: attachment; filename=revlist-8a12ab14524e-d07f6ca923ea.txt
 
 1bb5eab30d68c1a3d9dbc822e1895e6c06dbe748 kasan, mm: integrate page_alloc init with HW_TAGS
 da844b787245194cfd69f0f1d2fb1dd3640a8a6d kasan, mm: integrate slab init_on_alloc with HW_TAGS
@@ -1051,4 +1051,4 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 
---===============6440989879314043552==--
+--===============5620208044988075785==--
