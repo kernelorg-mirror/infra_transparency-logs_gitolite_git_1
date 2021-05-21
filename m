@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 May 2021 21:48:36 -0000
-Message-Id: <162163371642.9599.1293258797305609751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 21 May 2021 21:50:03 -0000
+Message-Id: <162163380307.11959.16756409520454239732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 29bf1993fdba17703a836cf098712cf15f96706d
-    new: aced3ce57cd37b5ca332bcacd370d01f5a8c5371
+    old: b12a6b7193e1362d297eb30e229ca0392b0583a2
+    new: f5120f5998803a973b1d432ed2aa7e592527aa46
     log: |
-         aced3ce57cd37b5ca332bcacd370d01f5a8c5371 RDS tcp loopback connection can hang
+         f5120f5998803a973b1d432ed2aa7e592527aa46 dpaa2-eth: don't print error from dpaa2_mac_connect if that's EPROBE_DEFER
          
