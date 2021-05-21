@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7447840184840381951=="
+Content-Type: multipart/mixed; boundary="===============4093286958226826896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 21 May 2021 19:04:30 -0000
-Message-Id: <162162387057.7785.4107454299458145126@gitolite.kernel.org>
+Date: Fri, 21 May 2021 19:07:06 -0000
+Message-Id: <162162402650.10032.11242345865668462870@gitolite.kernel.org>
 
---===============7447840184840381951==
+--===============4093286958226826896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: 7fd53f41f771d250eb08db08650940f017e37c26
+  - ref: refs/heads/fixes
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    log: revlist-7fd53f41f771-d07f6ca923ea.txt
+    log: revlist-a38fd8748464-d07f6ca923ea.txt
 
---===============7447840184840381951==
+--===============4093286958226826896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7fd53f41f771-d07f6ca923ea.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-d07f6ca923ea.txt
 
 1bb5eab30d68c1a3d9dbc822e1895e6c06dbe748 kasan, mm: integrate page_alloc init with HW_TAGS
 da844b787245194cfd69f0f1d2fb1dd3640a8a6d kasan, mm: integrate slab init_on_alloc with HW_TAGS
@@ -1051,4 +1051,4 @@ f44e58bb1905ada4910f26676d2ea22a35545276 Merge tag 'for-linus-5.13b-rc2-tag' of 
 28183dbf54edba614a90ceb6a1e9464b27845309 Merge tag 'driver-core-5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 d07f6ca923ea0927a1024dfccafc5b53b61cfecc Linux 5.13-rc2
 
---===============7447840184840381951==--
+--===============4093286958226826896==--
