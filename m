@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1361374526659546368=="
+Content-Type: multipart/mixed; boundary="===============8473625120667961146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 21 May 2021 19:33:38 -0000
-Message-Id: <162162561883.16302.4867468896711823853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 21 May 2021 19:33:45 -0000
+Message-Id: <162162562557.16453.1622438447446510729@gitolite.kernel.org>
 
---===============1361374526659546368==
+--===============8473625120667961146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.14
-    old: 9d5536e0e1ca8409665bdd80d951941d5ce19b8a
-    new: 03effde3a2ea1d82c4dd6b634fc6174545d2c34f
+  - ref: refs/heads/for-5.13
+    old: 98e48cd9283dbac0e1445ee780889f10b3d1db6a
+    new: 36cb555fae0875d5416e8514a84a427bec6e4cda
     log: |
-         c0fbe9fd311a07bd8919e61d412db22e4b08dc43 ASoC: Intel: common: Add entries for sdw codecs in ADL match table
-         03effde3a2ea1d82c4dd6b634fc6174545d2c34f ASoC: Intel: sof_sdw: add quirk support for Brya and BT-offload
+         36cb555fae0875d5416e8514a84a427bec6e4cda regulator: scmi: Fix off-by-one for linear regulators .n_voltages setting
          
 
---===============1361374526659546368==
+--===============8473625120667961146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621625616 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621625616-bda747d1321874ae4310e205ccd61d9bb5f33c33
+pusher C3F436CA30F5D8EB 1621625622 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1621625623-cb90c2a2e50dc585b567048a947a5bbac58b37f4
 
-9d5536e0e1ca8409665bdd80d951941d5ce19b8a 03effde3a2ea1d82c4dd6b634fc6174545d2c34f refs/heads/asoc-5.14
+98e48cd9283dbac0e1445ee780889f10b3d1db6a 36cb555fae0875d5416e8514a84a427bec6e4cda refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCoCxAACgkQJNaLcl1U
-h9BCBAf+MomaLc1bHLf/QMtsW0lCbZbjSiuCY5zx4A7NvkL9ESQBrjfaE9IrmMss
-GzIKWcbG9z+S/NbNcO1cUIwgvcoAiS0PBA8zuVc32RC+84Xf06nQyU2Ayf5Fd5G2
-lhanzSHtcOgyhD2swcYphly/CTddeMpJ4PV0XZGLJQmaGU625GULszzow0WFjQJY
-tgzixCQ8UkmHPrBOBwrb2StC+1QWHpbbzvdBzyBPuWmQtpZczfY7xtwJKYmEpvSA
-qzg+IJRqZU5RqGI51NRjnpGTbIti/tztV2z5+EpCH+XIHh+DsrQvfZjMq3zfUFWu
-r32+HFDf7OBGck6gYTtGDckDseLOzg==
-=mjjG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCoCxYACgkQJNaLcl1U
+h9AXvwgAga05UFaISv7Pju3/n0vroBgZ5CRKux7na5NnOVHzyqk4VosmFlBGee+d
+EeWfS30O9cL01RLT35i9/vyN0u6b/YxqVd/u958dfoVWzVeKOJs3tosneZCJXmjS
+ZGAlgDxqJvZIF2UQNIcxcHoeB0f5S03/ixOt1X3im0tkFRb5nzLO1SiF484MqCeM
+hkT7SxHxdJvq4qhs4wgCzRZfRNNeQLTiEYq5FHAFdnI5dYGov+KdtosYFHiSqKLX
+A9UW2eqI1jPbkq08k8IGGfXs3lOuzp1eIzXEV/ibHfHKkcbMIBjV2yRqPdIg3ufJ
+Xyc3KPiBfESZYlTKeHBG9dQR2fXeXQ==
+=czGO
 -----END PGP SIGNATURE-----
 
---===============1361374526659546368==--
+--===============8473625120667961146==--
