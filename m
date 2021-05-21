@@ -1,31 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1149055876855343704=="
+Content-Type: multipart/mixed; boundary="===============6703838574941603578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 21 May 2021 07:18:19 -0000
-Message-Id: <162158149982.9022.1750512978443512655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Fri, 21 May 2021 07:18:35 -0000
+Message-Id: <162158151596.9188.11596951413128674732@gitolite.kernel.org>
 
---===============1149055876855343704==
+--===============6703838574941603578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: f9386c91574fe6da9f4fca9a47734816b0db0019
-    new: 550d489184a065b32ccad0643f2348f7b4a15d4f
-    log: revlist-f9386c91574f-550d489184a0.txt
+  - ref: refs/heads/for-backlight-next
+    old: 04758386757c1ef339b18d996976911be61d5efb
+    new: 190ccab3185eee564c08ec96d9bbf4aff9b764f4
+    log: revlist-04758386757c-190ccab3185e.txt
 
---===============1149055876855343704==
+--===============6703838574941603578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9386c91574f-550d489184a0.txt
+Content-Disposition: attachment; filename=revlist-04758386757c-190ccab3185e.txt
 
+c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
+ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
+fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
+112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
+01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
+5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
+55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
+2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
+8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
+462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
+412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
+6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
+eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
+32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
+444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
+c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
+12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
+9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
+30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
+94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
+c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
+5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
+b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
+ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
+92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
+660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
 91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
 2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
 afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
@@ -1017,38 +1047,8 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-c06a40e9513d246bdeacd290f2357bb99251dc9a mfd: lp87565: Fix typo in define names
-5258f7eed42f4565d065726fd82d3430dd618a68 mfd: lp87565: Move LP87565_regulator_id to .c file
-55d3d229fc55eba1feaf39b6bb3fda0df882ffa5 mfd: intel-lpss: Add Intel Alder Lake-M PCI IDs
-76c4061ed0eb0fefa5b7b9ddab8811c33523abf0 mfd: mp2629: Select MFD_CORE to fix build error
-5317dca75467aa8a41b1585cecf46cf5acd2433b mfd: mt6397: Add MT6358 register definitions for power key
-e3ee026343e9a463481c81de1006d2075d310b13 mfd: mt6397: Use named IRQs instead of index (keys)
-2e254bcd53f004b0ff24bc9845f6acb13b7a5ee2 mfd: mt6397: Add PMIC keys for MT6358
-811a1dcc35d334ca503156fbc3c38db487ee26a4 mfd: si476x-cmd: Fix two typos of 'returned'
-bb1b606b63294495426fc2ac100ff657d75bc477 mfd: wcd934x: Add macro for adding new interrupts
-599901ac63bae17d5892c1c4f14f439030991569 mfd: wcd934x: Add additional interrupts required for MBHC support
-943d5075abd7c08f5f0fbf84a5b445eab932a3b9 mfd: Remove software node conditionally and locate at right place
-f260f9bd624beec322a8b4513a6258da0482c4c3 mfd: syscon: Free the allocated name field of struct regmap_config
-827f0ffd77f1af530920594ced3a38b009508b04 mfd: da9052/stmpe: Add and modify MODULE_DEVICE_TABLE
-c0468cac9836190586872453650ca2bb6aa890bd mfd: lp87565: Handle optional reset pin
-4c496ba62f8c1aa766aec0c71b0e40c46707c57a mfd: google,cros-ec: add DT bindings for a baseboard's switch device
-b6edf0e28e2b21c273fee7056fcb976a475052fd mfd: max8907: Move to use request_irq by IRQF_NO_AUTOEN flag
-1d05c79e115f29ce5583a9506dc7baaf71b18543 mfd: rn5t618: Fix IRQ trigger by changing it to level mode
-900947ffbdd39bdfed291c58baeb263ca9d15d26 backlight: rt4831: Adds DT binding document for Richtek RT4831 backlight
-3a73930d97cbab3f93dd57ad06ad86495f5c3e6c mfd: rt4831: Adds support for Richtek RT4831
-bd018cc4ec89a1981caf9c766496c75435c7472f mfd: rt4831: Adds DT binding document for Richtek RT4831
-cbed8db35fb55e20b9f666f8dd8b11ee6e8aa8fa mfd: mt6360: Rearrange include file
-b36a292e3f2872e56ebdf514c42104a39f208a66 mfd: mt6360: Remove redundant brackets around raw numbers
-ff2d10602f555fbbd5b1bbc4b8561524ac17a1f1 mfd: mt6360: Indicate sub-dev compatible name by using "-"
-2c0dc4dcd90583f7e581d1d2f60ded47b5a8d448 mfd: mt6360: Combine mt6360 pmic/ldo resources into mt6360 regulator resources
-b6a65c0653ff71d7fb5ae70f33c49a806c99d769 mfd: mt6360: Rename mt6360_pmu_data by mt6360_ddata
-ae1c1bc9e89cfc8d27ff363a0ec281989150bada mfd: mt6360: Rename mt6360_pmu by mt6360
-906d1961261104e1e96c3458905848cce2cd8b24 mfd: mt6360: Remove handle_post_irq callback function
-89942892514f43dd01c1daff7333d61f86bf318d mfd: mt6360: Fix flow which is used to check ic exist
-0731e3e5ded05609920f78e6b4a6106686f175f3 mfd: mt6360: Merge header file into driver and remove unuse register define
-86930808d852eedbba49521dd3f43389fb1680d5 mfd: mt6360: Merge different sub-devices I2C read/write
-f152da901833dff99f52a6f348408ef886f11adf mfd: axp20x: Allow AXP 806 chips without interrupt lines
-1f1cd56764200816138bb8fa26fc19ae41ab4b2c mfd: ioc3: Directly include linux/irqdomain.h
-550d489184a065b32ccad0643f2348f7b4a15d4f Revert "MAINTAINERS: Add entry for Intel MAX 10 mfd driver"
+6d1c32dbedd7d7e7372aa38033ec8782c39f6379 backlight: lm3630a_bl: Put fwnode in error case during ->probe()
+f3e6c298e3ede881db473c21e12d49224bbdcf63 backlight: rt4831: Adds DT binding document for Richtek RT4831 backlight
+190ccab3185eee564c08ec96d9bbf4aff9b764f4 backlight: rt4831: Adds support for Richtek RT4831 backlight
 
---===============1149055876855343704==--
+--===============6703838574941603578==--
