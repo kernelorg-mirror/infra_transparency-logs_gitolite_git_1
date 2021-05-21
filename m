@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5748517298136697775=="
+Content-Type: multipart/mixed; boundary="===============7153786276833778863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 21 May 2021 15:03:35 -0000
-Message-Id: <162160941500.7651.8920052214597003564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 May 2021 15:03:42 -0000
+Message-Id: <162160942223.7766.13703507404119424541@gitolite.kernel.org>
 
---===============5748517298136697775==
+--===============7153786276833778863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 833bc4cf9754643acc69b3c6b65988ca78df4460
     new: af2702549d68519ac78228e915d9b2c199056787
     log: |
          af2702549d68519ac78228e915d9b2c199056787 ASoC: qcom: lpass-cpu: Use optional clk APIs
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: aa736700f42fa0813e286ca2f9274ffaa25163b9
     new: 9d5536e0e1ca8409665bdd80d951941d5ce19b8a
     log: |
@@ -35,29 +35,29 @@ changes:
          9d5536e0e1ca8409665bdd80d951941d5ce19b8a ASoC: SOF: Intel: hda: Remove conditions against CONFIG_PCI
          
 
---===============5748517298136697775==
+--===============7153786276833778863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621609411 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1621609412-922821d0a1d6540afcf3a1c5fc975b81cccc464e
+pusher C3F436CA30F5D8EB 1621609419 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1621609419-3f9e83b9e4c11d6cd6e7608be0f29a49c5e2dfc5
 
-833bc4cf9754643acc69b3c6b65988ca78df4460 af2702549d68519ac78228e915d9b2c199056787 refs/heads/for-5.13
-aa736700f42fa0813e286ca2f9274ffaa25163b9 9d5536e0e1ca8409665bdd80d951941d5ce19b8a refs/heads/for-5.14
+833bc4cf9754643acc69b3c6b65988ca78df4460 af2702549d68519ac78228e915d9b2c199056787 refs/heads/asoc-5.13
+aa736700f42fa0813e286ca2f9274ffaa25163b9 9d5536e0e1ca8409665bdd80d951941d5ce19b8a refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCny8QACgkQJNaLcl1U
-h9A23QgAgA7lyadhLMu/N0u6z7kp0mR48CuWmdAowIL6oE+ZCoQ9aBUX7h9NoZlj
-2Ip0awDCziVj2lm1hVZyOf2CyhZg8WoFx1xIYw2+S1WGSROCQk8rZUCi7epXUgOq
-oobj75sD3MZ1C7JMvRCe++juojYbcyuGEOiHyE2uwF0jhouiJJLnYI2hfgUsprO1
-Hiab2L5f6gmIcpL1GrFLe0O4CIsgvfWXnE3gvdRHReHyb22U+xqo9cumpExcTJpo
-ypLyeXobJ7mVarWzFP32PGond/Fg95ns7+ciksHNJB9tSLfIW55ywzXGAN+soi0p
-JQWEoDIpXN4G8pen3uJyLuEDaWvmSw==
-=LKgq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCny8sACgkQJNaLcl1U
+h9DMRAf9Gip4mE8bjmvzXlUQRG9V4BY0zEVgLmwHEElv4CzLSYg/6btdHj54Cn0n
+BlZ+hHu2cM4o439SBMyFhxypOCRqNeCJo/gRGHLKz109J7z3X/bOul7X2f+tuGme
+/N7VGfqZStC4Nyvmmnh0uYq3zJC+gmhBWs91i/PoStUNjUyK39gebkQptwzLvVmR
++lGPx+Q//rt78USl5/i6hr12EqwDdCcwoiA4PgANBYtz4sBxxmcJkaL0eVRymn/t
+VOGcu4Kv74SgTJLN5D9L1oRVJxaNxT+ow9JFHEHHAsFP7sKUKz6Kcbo26OhgZZ7Y
+IUXhcACQ1h+KpUvfKV87z+BiqgKbVA==
+=DLs3
 -----END PGP SIGNATURE-----
 
---===============5748517298136697775==--
+--===============7153786276833778863==--
