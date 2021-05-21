@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 21 May 2021 19:12:33 -0000
-Message-Id: <162162435365.13388.10069505432628777233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 21 May 2021 19:17:16 -0000
+Message-Id: <162162463624.16414.4206372281088195557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/dev-test
-    old: 19d49b51bdf2f1235e19152edde6bbc9d94ced30
-    new: c755a63d54686089aff740eb6e87799ce9639c64
+  - ref: refs/heads/next
+    old: 399d34ebc2483c6091a587e5905c6ed34116fb05
+    new: 35c32e3095d396c750f5cdfdaa94cba83d9b23c6
     log: |
-         3218ff95d95c3e34de34813dea5c63d56ff37532 f2fs-tools: correct get kernel version logic
-         a1cd8b75bc9b65cf68c6ce5e673703d9907ef15b f2fs_io: add to show immutable bit
-         c755a63d54686089aff740eb6e87799ce9639c64 f2fs-tools: support small RO partition
+         35c32e3095d396c750f5cdfdaa94cba83d9b23c6 cxl/docs: Fix "Title underline too short" warning
          
