@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Sat, 22 May 2021 00:25:01 -0000
-Message-Id: <162164310173.12085.2984324535172575024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nmenon/linux
+Date: Sat, 22 May 2021 00:53:57 -0000
+Message-Id: <162164483791.30553.17194831145359496184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/nmenon/linux
+user: nmenon
 changes:
-  - ref: refs/heads/master
-    old: 9e56bced6e389edc636ab430e57e78a314744033
-    new: af77ecf57c5d02c43f13133b49270f2253e7fdc9
+  - ref: refs/heads/ti-k3-dts-next
+    old: cab12badfc99f93c1dccf192dd150f94b687a27c
+    new: 547be9a05dc825fbbaeb970ec9e2313a49bf586f
     log: |
-         df6e6b73286dbb2885c68a6c8c1a8bdd1689c880 avrcp: Fix unregister AVRCP player
-         af77ecf57c5d02c43f13133b49270f2253e7fdc9 tools/mgmt-tester: Fix "Remove Ext Advertising" case
+         547be9a05dc825fbbaeb970ec9e2313a49bf586f arm64: dts: ti: k3-am65-iot2050-common: Disable mailbox nodes
+         
+  - ref: refs/heads/ti-k3-next
+    old: cab12badfc99f93c1dccf192dd150f94b687a27c
+    new: 547be9a05dc825fbbaeb970ec9e2313a49bf586f
+    log: |
+         547be9a05dc825fbbaeb970ec9e2313a49bf586f arm64: dts: ti: k3-am65-iot2050-common: Disable mailbox nodes
          
