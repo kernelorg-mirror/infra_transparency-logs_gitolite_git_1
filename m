@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4315149286478140703=="
+Content-Type: multipart/mixed; boundary="===============2394707591727138642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 22 May 2021 04:39:02 -0000
-Message-Id: <162165834278.16269.11866805530441426334@gitolite.kernel.org>
+Date: Sat, 22 May 2021 04:39:09 -0000
+Message-Id: <162165834931.16368.8051586579056853644@gitolite.kernel.org>
 
---===============4315149286478140703==
+--===============2394707591727138642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,75 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 39107e8577ad177db4585d99f1fcc5a29a754ee2
-    new: 05f7f1b9ee8273eab805da3d5e2d064872aa75b1
-    log: revlist-39107e8577ad-05f7f1b9ee82.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: a944c022d5587f24e6ee99636301a3971840df95
+    new: cdbf3238995e8a74808f03c716c2d401ab7a0e74
+    log: revlist-a944c022d558-cdbf3238995e.txt
 
---===============4315149286478140703==
+--===============2394707591727138642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1621658341 -0400
+pusher 75C5DE3D 1621658347 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1621658341-725c5c94e3ad806bf30c1c040c2830c49af227d7
+nonce 1621658346-a3fb3d93cf99b5312fb06666ccc6d1d7b0175a66
 
-39107e8577ad177db4585d99f1fcc5a29a754ee2 05f7f1b9ee8273eab805da3d5e2d064872aa75b1 refs/heads/queue
+a944c022d5587f24e6ee99636301a3971840df95 cdbf3238995e8a74808f03c716c2d401ab7a0e74 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCoiuUACgkQ7ulgGnXF
-3j0G4w//com3xdDcZx8a3o52H93mXF1x3U2ej1sC7Vp6Oq/iNIlEci2YfSqkNiFd
-Mf5MjfFpllRoooxr2Ti90dn754bUvU+1EfHLbRA1mD7Ck0gyc7vUpwZU/95AKlK9
-G2CX9aky2u1vx7tp6DecOxRKZiq4McVAy8g6n3pAGmZxY4HHWpOYXgKDzDcVdyZY
-Uq9oN+WeawahkudKSqQT7h5r/C0YcHI69zRE3iEZKDIk3m0EQ3OGOo1bfp+uVqLq
-+ef9qfxgXzeSznl5cnYoxlPtKgLzJyj2JgYVRswW9pP5yP5/ADgZWRFS0gv+Z0ej
-d6MrHfYS4EUORvr2Zlucgn5oAyQ1/7b2jCoIDByJG7hDko5X/Xv5GN2txge/7zWX
-Yn4mc1thY1MYWrMls2pmt5JhZicTBGzIQ7zb8HacRFGT7oJPmVWjtp86YlQW2wZd
-uz0izGhAcUoGNE0Qi6/uAOrctm3UHGSMf6qzrWrNQGX3sLOCKdz5n2WSI0j3KaI2
-HTIp68hFe8mmTXLM8iUFMBllkISEbGzY1nF9bmO+GSzYjod77EWMMpH4hLQpWAel
-GfaR3/o2qVtFSCN6J9GWdF9WWfUomQpQH1AUfUbXCUVJG2uMdtAmkdJihxjJ0cEz
-84So2TFPkPOiRmIsP9wZbVe8J0YLhtQItbHYN/xBwjokqGOGhRE=
-=tFF3
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCoiusACgkQ7ulgGnXF
+3j3eIw//S4MR2ymK48YMwB85RnH6E6M8hHLncSf5TQiIKXo+BVBFU3NC2vKakfBq
+cwxTYommVco3R6T27bdSZ1pkq1EKxUuGUOB1shy/risIqeJ3JWPYmjkKJfAu0UFW
+HRnI/R7eBxjx380OLSlW7PzjEfTSG6V93McW5KEa/pYwWXIym0YuDK3sE3Le0VCy
++V0LjS6vzveHwmTwl1OuTKasycWbI73XD9JtZv1uZLyB69URwHGY873zjbITdT6N
+lmNIWsgBSJPQs8aIaB69iss5dI0Ae3oMkyoFzEgfdsMjr90lkVeTs/ASmGppm3Ps
+V2IBG0gQQ6HTfdvANIq3uYnrDaj2GXUGNPUn8D+yBZghSXgIZ3WPoYSbsLFM99PE
+U5OraVOwKd1P0LP6jq8elg3H4wxzwPBiMuXz60pb19Y7DzE3ClJMZtM8/ChUZHXD
+I3f7rHoYzzFZ8Ip1i/+gY42ORPxiAjrbYoukF1Ne5AGa7tGus8/FLhRQFkudMNRx
+ADiWfuONDyIQxmWJkYuDxtMqyUd3tg8SooxZvziue5UiBylnpgUd6+WetY7c09t4
+WWDaG5EJIPID+gR6idkFec6qBxDfvZbR32UyuQRJEvYrIuxUNUkMtgjim++I6t46
+3N2XAokAWdpBbxleEETw8oszl2t4E4Mq3SHwLUnBlEarKb5Cn/s=
+=4Dsj
 -----END PGP SIGNATURE-----
 
---===============4315149286478140703==
+--===============2394707591727138642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39107e8577ad-05f7f1b9ee82.txt
+Content-Disposition: attachment; filename=revlist-a944c022d558-cdbf3238995e.txt
 
-1d8613a23f3c3b8f0101e453ff150e05a0d1cd4f scsi: ufs: core: Introduce HBA performance monitor sysfs nodes
-6ecdafaec79d4b3388a5b017245f23a0ff9d852d scsi: target: cxgbit: Unmap DMA buffer before calling target_execute_cmd()
-9959d45166faaa75d9d4bf2ad8b945dfbe9888f8 scsi: snic: Fix an error message
-8fb82abccc8a4fc25c75bf209da9b2023d064e05 scsi: scsi_debug: Drop if with an always false condition
-998da772fd86bd4ba2ba8c0ac2c9bba4815a952d scsi: target: iscsi: Drop unnecessary container_of()
-09c65383970e79db0322962efc9e56a0785580f3 scsi: qedf: Drop unnecessary NULL checks after container_of()
-2dde5c8d912efea43be94d6a83ac9cb74879fa12 scsi: core: Fix a comment in function scsi_host_dev_release()
-3ac0fcb4b1a34d196da926d302635052fd90379e scsi: target: tcmu: Rename TCM_DEV_BIT_PLUGGED to TCMU_DEV_BIT_PLUGGED
-d5b45dd5ba6c944b17118530843e67bf9c096e49 scsi: ibmvfc: Handle move login failure
-5114975eb2de4e70d9d43b57912e1aee12ec090b scsi: ibmvfc: Avoid move login if fast fail is enabled
-2e51f78b5d8717bba243f5e857031b1d104a3577 scsi: ibmvfc: Reinit target retries
-96f3903c4c7ac2c2794a9d5d6bbd2c84b079c682 scsi: message: fusion: Remove redundant assignment to rc
-f8a78e9118ee6cee7c24113891a0e24b77486f5e scsi: target: sbp_target: Remove redundant assignment to pg_size
-17f947b8b06f57615d31e4159dec1d5d7dda775f scsi: target: core: Unify NAA identifier generation
-2469f1e0412cb053e37b7499ce5e48b6be4d7653 scsi: target: core: Add configurable IEEE Company ID attribute
-64ae33ef7486d01acb1f1d1ea601923973a3a462 scsi: target: core: Bump INQUIRY VERSION to SPC-4
-b790a56d66eaac4a1ac6c558575fd0a694b06159 scsi: target: core: Add the VERSION DESCRIPTOR fields to the INQUIRY data
-4803bd066cb9b31ce41104bc65ff596e32d3c373 scsi: bfa: Remove some unused variables
-4c6cb9ed63dfd53002e76e716a31a77854630726 scsi: ufs: core: Remove usfhcd_is_*_pm() macros
-7f2b3c8bcb7f414c3f3c0a25c352238cbcdc890d scsi: ufs: core: Remove redundant parenthesis
-0edca4fc633ce223753c217f135a8036f516357b scsi: be2iscsi: Remove redundant initialization
-44c5027bb5c8bbdc2aea2141dc32fe72c3f3988a scsi: 3w-9xxx: Use flexible array members to avoid struct padding
-d133b441488d30b0ee1848238a1f6e8da643e19c scsi: 3w-9xxx: Reduce scope of structure packing
-05f7f1b9ee8273eab805da3d5e2d064872aa75b1 scsi: 3w-9xxx: Fix endianness issues in command packets
+b592d66235f5f7c2191cc0348468b343c17c3977 scsi: ufs: ufs-exynos: Move definitions from .h to .c
+2a38d2a8b4a6777d37b7b8b8416b60fe0af73cd2 scsi: qedf: Use vzalloc() instead of vmalloc()/memset(0)
+d9a231226f28261a787535e08d0c78669e1ad010 scsi: arcmsr: Fix doorbell status being updated late on ARC-1886
+8e060b310f8fe208eb9154e9ab3585b948f0db36 scsi: arcmsr: Update driver version to v1.50.00.05-20210429
+faa6c1d92cb0d2a377cc4ca68a3f273e3355e4b3 scsi: scsi_transport_fc: Remove double FC_FPORT_DELETED in mask creation
+2d535031eb2e789c546e979b4109bf1e60e1cd31 scsi: pmcraid: Fix typos
+1ecc820db0b952f055b1a03c1afe4c2679e2276d scsi: bfa: Fix typo
+8f942f9d4b0630e6136803060c481776479e83bf scsi: bfa: Fix inconsistent indenting
+ab17122e758ef68fb21033e25c041144067975f5 scsi: hisi_sas: Propagate errors in interrupt_init_v1_hw()
+e2ac7ab281c06cd367f6bffc4ba445a311a5f52a scsi: ufs: Use designated initializers in ufs_pm_lvl_states[]
+824731258b65f58764786f8d776c2007b084e12c scsi: target: tcmu: Fix boolreturn.cocci warnings
+98f92dff1412d99289f04a8b9a2c107c082313b3 scsi: core: Remove leading spaces in Kconfig
+40d6b939e4df950c33554f1439b49df1752b0047 scsi: Fix spelling mistakes in header files
+ecd7beb37871827c449842ec2c9db106ee5e82f6 scsi: ufs: core: Clean up whitespace
+86cfe4ad248ddf4ce7e4801374ef7f27f23711cf scsi: fas216: Use fallthrough pseudo-keyword
+5ac3c649f11cb457dd40f6dde58cb029181c2700 scsi: ufs: ufs-exynos: Make a const array static, makes object smaller
+cb9eb11fd57215020c6649bbe884232fb0f80bdd scsi: qla2xxx: Remove redundant assignment to rval
+ee8868c5c78f16fb726775741aeab8a233373332 scsi: scsi_dh_alua: Retry RTPG on a different path after failure
+01131e7aae5d30e23e3cdd1eebe51bbc5489ae8f scsi: lpfc: Fix unreleased RPIs when NPIV ports are created
+fa21189db9ab022080e056cc6da219975da48fd6 scsi: lpfc: Fix non-optimized ERSP handling
+e30d55137edef47434c40d7570276a0846fe922c scsi: lpfc: Fix "Unexpected timeout" error in direct attach topology
+1037e4b4f81dc4ddf928e0ca2f1b182efdfdcc9d scsi: lpfc: Add ndlp kref accounting for resume RPI path
+4012baeab6ca22b7f7beb121b6d0da0a62942fdd scsi: lpfc: Fix Node recovery when driver is handling simultaneous PLOGIs
+fe83e3b9b422ac8ece2359c7b7290efe7f0335a2 scsi: lpfc: Fix node handling for Fabric Controller and Domain Controller
+04c1d9c50ae32d6efd0b71024b3829051821c7a2 scsi: lpfc: Ignore GID-FT response that may be received after a link flip
+5aa615d195f1e142c662cb2253f057c9baec7531 scsi: lpfc: Fix crash when lpfc_sli4_hba_setup() fails to initialize the SGLs
+3e49af9393c6e59d579de13333514fc9660a0e92 scsi: lpfc: Add a option to enable interlocked ABTS before job completion
+8eced807077d198fc264629bd2592795d270c9f1 scsi: lpfc: Reregister FPIN types if ELS_RDF is received from fabric controller
+e5e0280db792953ee7acbdbf01179d53187a6083 scsi: lpfc: Update lpfc version to 12.8.0.10
+ea2f0f77538c50739b9fb4de4700cee5535e1f77 scsi: core: Cap scsi_host cmd_per_lun at can_queue
 
---===============4315149286478140703==--
+--===============2394707591727138642==--
