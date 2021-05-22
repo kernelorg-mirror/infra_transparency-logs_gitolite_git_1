@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7043402457007515368=="
+Content-Type: multipart/mixed; boundary="===============8575112044997678083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sat, 22 May 2021 12:37:31 -0000
-Message-Id: <162168705177.2487.13799306209926366078@gitolite.kernel.org>
+Date: Sat, 22 May 2021 12:40:06 -0000
+Message-Id: <162168720669.4786.3251745089549016014@gitolite.kernel.org>
 
---===============7043402457007515368==
+--===============8575112044997678083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
-  - ref: refs/heads/next
-    old: 3a457dd105315386bc85f0af2bf08944cd7fc0dd
-    new: bb11580f61b6c4ba5c35706abd927c8ac8c32852
-    log: revlist-3a457dd10531-bb11580f61b6.txt
+  - ref: refs/heads/urgent
+    old: fb98cc0b3af2ba4d87301dff2b381b12eee35d7d
+    new: 942859d969de7f6f7f2659a79237a758b42782da
+    log: revlist-fb98cc0b3af2-942859d969de.txt
+  - ref: refs/tags/efi-urgent-for-v5.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: cfc94380fedb60888b6b99bb483df59eb89ee535
 
---===============7043402457007515368==
+--===============8575112044997678083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a457dd10531-bb11580f61b6.txt
+Content-Disposition: attachment; filename=revlist-fb98cc0b3af2-942859d969de.txt
 
+211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
+ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
+fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
 112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
 01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
 5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
@@ -1047,8 +1053,5 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 45add3cc99feaaf57d4b6f01d52d532c16a1caee efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
 c4039b29fe9637e1135912813f830994af4c867f efi/libstub: prevent read overflow in find_file_option()
 942859d969de7f6f7f2659a79237a758b42782da efi: cper: fix snprintf() use in cper_dimm_err_location()
-55fc610c8cdae353737dbc2d59febd3c1a697095 efi/apple-properties: Handle device properties with software node API
-edbd1bc4951eff8da65732dbe0d381e555054428 efi/dev-path-parser: Switch to use for_each_acpi_dev_match()
-bb11580f61b6c4ba5c35706abd927c8ac8c32852 x86/efi: Log 32/64-bit mismatch with kernel as an error
 
---===============7043402457007515368==--
+--===============8575112044997678083==--
