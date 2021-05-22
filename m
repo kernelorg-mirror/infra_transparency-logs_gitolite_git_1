@@ -1,83 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============1878385353700240501=="
+Content-Type: multipart/mixed; boundary="===============1031194587837251812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 22 May 2021 08:28:26 -0000
-Message-Id: <162167210655.1711.11310776325882615968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 22 May 2021 08:33:49 -0000
+Message-Id: <162167242903.4931.3049408664921358716@gitolite.kernel.org>
 
---===============1878385353700240501==
+--===============1031194587837251812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 03e3e31ee5c8d45c62c31035578bab5e90133eff
-    new: 78429edfeed8da0562243e876be46d700f9ed13c
-    log: revlist-03e3e31ee5c8-78429edfeed8.txt
+  - ref: refs/heads/usb-next
+    old: 9fbf82c7641408386ddad162fd70234a574fcd3e
+    new: 7257fbc7c598617ca71605089264c61636d52157
+    log: revlist-9fbf82c76414-7257fbc7c598.txt
 
---===============1878385353700240501==
+--===============1031194587837251812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621672098 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621672098-3a551116b4a7c3ca9a023f5ef72f84676cc7983e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621672420 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1621672420-54240d2d32e76aa748ef9cc755a804940e11c56a
 
-03e3e31ee5c8d45c62c31035578bab5e90133eff 78429edfeed8da0562243e876be46d700f9ed13c refs/heads/char-misc-next
+9fbf82c7641408386ddad162fd70234a574fcd3e 7257fbc7c598617ca71605089264c61636d52157 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCowKIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWgP/2wnyrmIK0cta/hStDl9
-q6VSkHbcx8MEFbWDYhhQegb5uAYMPljeDz6BBxUfJT6XFQpw16pLEA8gU8yjV4C1
-0fhS5Y94vPVqMsqDzO2eKqtWSuuWxwfcqoq+wzOTHe//2l7HoedL3VElIxg6JO0U
-dAtc2RHCYTiRB8Rj8lX09HtpKv5sUGXxPrRVZyGaRmpj5fK3J1PxAj1iObmrJVrb
-scYvDIbYGOcBbFVp3JK41avIUzx2eMG61uKA2DYSRkN1CEbCyTWjzxrX2PCVXgiM
-9LWVFZ80w24TUKCg2ng0AhA6J9bhoSzYsFJGaF6euxIvnw/Yf/PfSjTYZoF4AdXr
-MUSOu1mznjb0ew2qnewchggVh9ZhKRuOaMo03KYorGnopk9N02V3B5ad5RykF5nE
-1axNJaTkrjEa7HayJYiJ+aRCmQd8rH7WSEfszDBGuD0Q2R6j0xL34zTrmQrq9z0S
-RtxBtqrWf9TG5fntXlT4YByU6c+i8CmdlfmEfdmC8dWNYalk7e26OQeThxtrv/w1
-1GE00DZmtGPWe/eDweGfwHmQm88lZQIyQqmDzDL2OvUEHqZj6PLXTSiEnoDqqrDK
-+b0Oht1sdOgQKGiDtD54yG7oJruaEd9tyeSaqBRS3dfqV7y+l8/GGWA+KholXEa/
-lLk7K6F0MhQqlQbboB1Ai1cB
-=JCQ4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCoweQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++1gP/iCimoBjzm1ukTflJPyS
+uzOe7+WUIZYJaovhX83GjtN810+/LRjwSDbJes8bHNkiAyIPxeRY4F+m4haSoB9r
+DzqPsjWVMzysuzPNdUGum4kexsKbJfayMpUpqzM4szMuJfx4i9M4BCZ4pcnmXpgK
+qSBYUr3H28ajxR1GBzKPzu7eb9CgWPvOSEL88im2veIEv2fDg+0m1DZOCvmmDphD
+ETLaDxo77QR//MC4qbLFMiXe+tOKe8eNyLp0uiq7VpA4GxCl0r30MHtwToH4dup/
+LkJoseLcSNHLs1iJbO/ry/K3LhPdp9oD/vXEcjgpOUiVEFnesz5d+6v1Z+6iMf0c
+8cjCurKnBrE3ru028gYouTIpsacTDbTX2DI2eYPvb8g2H4V89n/uGETtldfZzGif
+1ewKXnc/+qnRYHb6Q3DPJx2QAAoRSzdVEupSv2i7oC3eEA9kEjjvQsPLUK2Ixekq
+0x6ncio8V+XhlhpFENYN4tVK41q7I5ERsDHti9w0kEEAJteNV3V6Hzpgh2osBadf
+oSmPIDjcHjcdhS2bSurRWUsaMznDC5KwcfLrzS7rsXsmPP+Dbc4pgeATJOOAPXOp
+svn9V3cET0QPV/wtzerzr9IIZkSBc7m6qmGIf7dH5VkGBiY7GY5mrScgfj0MZwMM
+Ug6HRlLzvTkgQXzuXCt6j7yK
+=yBvU
 -----END PGP SIGNATURE-----
 
---===============1878385353700240501==
+--===============1031194587837251812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03e3e31ee5c8-78429edfeed8.txt
+Content-Disposition: attachment; filename=revlist-9fbf82c76414-7257fbc7c598.txt
 
-4e2898164656437f896102b17ec1e86c9953afcb char: pcmcia: cm4000_cs: Remove unused variable 'tmp'
-a9af9ae814434fe2c562d5dfb4268e7acf8bb0ed char: pcmcia: cm4040_cs: Remove unused variable 'uc'
-d80758c02fcf295bbad7c4c73f399f83f0be49d6 char: hpet: Remove unused variable 'm'
-f40b70d3daf5407fbc9c70db93ccc17bad9882e5 char: hw_random: pseries-rng: Demote non-conformant kernel-doc header
-4d070b8b74561e27fb8910c94dabd6263852e077 comedi: comedi_8254: Fix descriptions for 'i8254' and 'iobase'
-7b89d91c5d7fcfc9710d85c28ef94479c4937d43 comedi: drivers: ni_tio: Fix slightly broken kernel-doc and demote others
-69484d97dd3f266f999540c583f1acccfc4a0d81 comedi: drivers: ni_routes: Demote non-conforming kernel-doc headers
-d3a2bfde6b1197a8fe543990090e430b7686be3b comedi: drivers: comedi_isadma: Fix misspelling of 'dma_chan1'
-8c55a99dc77a76dcda52e5b080f584188b2ce2f0 parport: Use string_upper() instead of open coded variant
-6a072b2e3722f39c148c2dea35f2485777b3aee5 w1: w1_therm: correct function name bulk_read_support()
-c6fa1a96db26b22cdfb2055d8b1a79e8c40b1040 w1: w1_therm: fix build warning in w1_seq_show()
-ddb20bcf77382c92389a5b506e5f52e840dc70a4 w1: ds2438: fixed a coding style issue
-c9f2713531a9ba2018695a3e191e28d84eaeaae6 w1: ds2438: fixed if brackets coding style issue
-67c6964228b6c0c759893915f0cb47a564c256dc w1: ds2438: changed sysfs macro for rw file
-1f5e7518f063728aee0679c5086b92d8ea429e11 w1: ds2438: fixing bug that would always get page0
-fd6ec5d79507f99639c94f107e8a98550c9e1cf6 w1: ds2438: adding support for reading page1
-c999fbbdcf778c2ea77f59e26d7448a1ab8fa8a2 w1: ds2438: support for writing to offset register
-d9eb95845dc830365a4a0caeb11c4ea8030eecd2 uio: Remove leading spaces in Kconfig
-208012f051636d1ab8b7f7f86d6988d4b39758af misc: bcm-vk: Replace zero-length array with flexible array member
-46ad057245912fc8a49e18f6f8b57f80ab8d4dc1 sysfs: Add helper BIN_ATTRIBUTE_GROUPS
-b63866efa10ca5e4497f17eb3e3a03dc6929c49e eeprom: ee1004: Let device core handle attribute eeprom
-78429edfeed8da0562243e876be46d700f9ed13c misc: xilinx-sdfec: Drop unnecessary NULL check after container_of
+92c6dc0beb684e3421b61313c5e572cd9c93eab4 usb: typec: wcove: Fx wrong kernel doc format
+e3d59eff47b8cc385acae9d7fb1c787857023376 USB: gadget: lpc32xx_udc: remove debugfs dentry variable
+1531a2bb4494f1960488caeeac3c310c7478f186 USB: gadget: s3c2410_udc: remove dentry storage for debugfs file
+1d50071b53f26a7b8b7d6a0e027b9e6643bb6075 USB: gadget: pxa25x_udc: remove dentry storage for debugfs file
+005775859a3dc4ed3854be5e883ec0716d492135 fsl-usb: add need_oc_pp_cycle flag for 85xx also
+53ad92fdf7c34c3b44566553077176a767612454 usb: gadget: tegra-xudc: Constify static structs
+106133dacc001e4e3a7ebcdb96368f523bf44a89 usb: gadget: s3c-hsudc: Use struct_size() in devm_kzalloc()
+7142452387c72207f34683382b04f38499da58f7 USB: Verify the port status when timeout happens during port suspend
+c5c7489dc98296841fdf4fc4bfc52727a2057f24 Revert "USB: Add reset-resume quirk for WD19's Realtek Hub"
+62d472d8ad886d3e3fe2da20ba0965f8628513db usb: musb: Add missing PM suspend and resume functions for 2430 glue
+7d076c2f5590e7a2eaba73ded1dbf553fa15a6af usb: musb: Check devctl status again for a spurious session request
+3f87443b4ee6710e682a1ef48cc09316e025257d dt-bindings: usb: sunxi-musb: Add H616 compatible string
+c63fef4c4302f5d41945f5362ff0cf556cb6db19 dt-bindings: usb: Add H616 compatible string
+880287910b1892ed2cb38977893b947382a09d21 usb: common: usb-conn-gpio: fix NULL pointer dereference of charger
+ddaf0d6dc4671e88c72227fad68ecc45e7274559 usb: common: usb-conn-gpio: use dev_err_probe() to print log
+24bb0076d7bc0ea4caf0af55bd0273a1c343748a usb: fix spelling mistakes in header files
+abfabc8ae3bd625f57fa35d25f2435bb6465a3b1 usb: isp1760: fix strict typechecking
+1da9e1c06873350c99ba49a052f92de85f2c69f2 usb: isp1760: move to regmap for register access
+03e28d5233d50fb2a27fa02d032e77974d03eb2b usb: isp1760: use relaxed primitives
+f9a88370e6751c68a8f0d1c3f23100ca20596249 usb: isp1760: remove platform data struct and code
+a74f639c5b5618e2c9f311c93bc3e7405de8ca85 usb: isp1760: hcd: refactor mempool config and setup
+3eb96e04be9918afa54b64fac943de86a9798bda usb: isp1760: use dr_mode binding
+60d789f3bfbb7428e6ba2949de70a6db8e12e8fa usb: isp1760: add support for isp1763
+e7a990e00cb13ce66d4008e3b77e8507be0c2e27 dt-bindings: usb: nxp,isp1760: add bindings
+d369c9187c1897ce5339716354ce47b2c2f67352 usb: isp1763: add peripheral mode
+b274e2a44e163461a11e5e19e4ad405062cbf3b4 usb: atm: cxacru: Fix typo in comment
+80a3c7f70e9990ed20634ac1a1c55cfe351be0ea usb: gadget: tegra-xudc: Don't print error on probe deferral
+77b57218ac2f37da4e8b72e78f002944b9f85091 usb: gadget: tegra-xudc: Use dev_err_probe()
+18538a50239b11f07befa18073e00fda3040195c USB: cdnsp: drop irq-flags initialisations
+8879904b1935a1eafa688eb0d86aff0fa7907afb USB: dwc2: drop irq-flags initialisations
+c9c5f057d0d65a5adc1941ca4cecce28438a105d USB: gadget: drop irq-flags initialisations
+56d426146cdfa08dc56cda0d0897af4e5090ffcf dt-bindings: usb: dwc2: add compatible for RK3308 USB controller
+d112efbe6dbf7d4c482e2a3f381fa315aabfe63b usb: typec: tcpm: Fix up PR_SWAP when vsafe0v is signalled
+dea6f87e60d193b2b3e21f9c6d657e53617369da usb: typec: tcpm: Refactor logic to enable/disable auto vbus dicharge
+59d4d06c8ab0375dcc4bab329e6ecd44dd46373e usb: typec: tcpm: Move TCPC to APPLY_RC state during PR_SWAP
+7257fbc7c598617ca71605089264c61636d52157 usb: typec: tcpci: Implement callback for apply_rc
 
---===============1878385353700240501==--
+--===============1031194587837251812==--
