@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Sat, 22 May 2021 04:28:05 -0000
-Message-Id: <162165768524.9406.10949979172995197890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 22 May 2021 04:38:35 -0000
+Message-Id: <162165831530.15608.4893755175318648514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 45e3136e9f3fa849439a104670f4b64ad4c96c1d
-    new: ebef6387d63d10344862f1aca95559f6af7b8d47
+  - ref: refs/heads/experimental
+    old: dcec55a3b34169178874ec96829d5297c5036c46
+    new: 605eb7479d3a76051eea17aaf65fc122f6f1ad71
     log: |
-         aefdc47daffc2a65f6a145ec638ecb92ec6a5da5 procview: limit refresh rate in perf mode to refresh_time
-         ebef6387d63d10344862f1aca95559f6af7b8d47 tuna_gui: add command line option to explicitly disable perf usage
+         c6d4fd0675f37dd13cc2897b401ac52803bf87d1 erofs-utils: prepare for per-(sub)file compress strategies
+         87d2faa75be30e1247d12d3f3a8abf65540f9ae9 erofs-utils: introduce --enable-debug
+         605eb7479d3a76051eea17aaf65fc122f6f1ad71 erofs-utils: support randomizing pclusterblks in debugging mode
          
