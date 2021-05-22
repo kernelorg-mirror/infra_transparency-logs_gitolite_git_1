@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Sat, 22 May 2021 06:32:12 -0000
-Message-Id: <162166513223.25099.7120160356701267327@gitolite.kernel.org>
+Date: Sat, 22 May 2021 06:32:53 -0000
+Message-Id: <162166517339.25438.15328548648734600144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: d74ebb76967f2395128f8cb7e87c31c27758e104
     new: 14462376858e35b83932f94616effc2f49fd8494
     log: |
