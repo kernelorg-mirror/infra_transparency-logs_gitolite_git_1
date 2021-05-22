@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5787090080565826458=="
+Content-Type: multipart/mixed; boundary="===============3048740801808188340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 22 May 2021 04:38:52 -0000
-Message-Id: <162165833298.16017.8711721660119662906@gitolite.kernel.org>
+Date: Sat, 22 May 2021 04:38:57 -0000
+Message-Id: <162165833794.16128.6405240349233343188@gitolite.kernel.org>
 
---===============5787090080565826458==
+--===============3048740801808188340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 10fa46cbedce44b7a3c0f35fbc95f9cbf3581afc
-    new: 0d9381df021f57444080bb724eb2b062f2c1c192
-    log: revlist-10fa46cbedce-0d9381df021f.txt
+  - ref: refs/heads/5.14/scsi-queue
+    old: 39107e8577ad177db4585d99f1fcc5a29a754ee2
+    new: 05f7f1b9ee8273eab805da3d5e2d064872aa75b1
+    log: revlist-39107e8577ad-05f7f1b9ee82.txt
 
---===============5787090080565826458==
+--===============3048740801808188340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1621658331 -0400
+pusher 75C5DE3D 1621658336 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1621658331-b1731dd39952d964d7cae31864db922691454065
+nonce 1621658336-61db39f7cb1b8c7a32c72aa1ca727dc56300cc30
 
-10fa46cbedce44b7a3c0f35fbc95f9cbf3581afc 0d9381df021f57444080bb724eb2b062f2c1c192 refs/tags/mkp-scsi-queue
+39107e8577ad177db4585d99f1fcc5a29a754ee2 05f7f1b9ee8273eab805da3d5e2d064872aa75b1 refs/heads/5.14/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCoitsACgkQ7ulgGnXF
-3j2ezQ//VbTatA7oP2bC8p0YLRJU/bM2qxjE4h7BMlTJ0HQEt0LC92NHxudhM8yT
-KIS5D5nQGvhvy+a5EQcKb7YxYJycSchRti4uRZkBvtEUp4LJyW2lx2+p3de31RxY
-+h0S8XeQotXNglr3cGpfeMIwT6eSHgI7D+q5gTyMfKuvMqQwsSELCasQaxrMTtea
-gT+i8ULWK6tPDtiGF7Pnxpp00KvWlh3TGFGAkknH4UvTlLqHcG9IpiZtt+t/WhIi
-GT8wlQLI4LCSZ6h0DVsWxo/3adUQgBe3J3cIUL8yJmLvvrhU676RmPTPzxFn7jkG
-g0p5rr/cX9I4wg0vVgO9Q2scJ0hbMexSsOvn26p1EyNsknNvjWMCUqi57VNd7rJL
-4xR17SvtusiNZrJ8v+qPiTjYIIyVBEjesgSGItVYNjOQxAWrXCI9oYyALVpIdA7+
-t1RNTMm1GS/McBE3hKUA5/dSHZl4bx0tgLl3/84qmuIYTIF4Rz8euySV0U+z4umB
-SAumsx7R940cQI3Kzr9+gd203NyEnc51yuTf6hzKbxeuFMwoSJP9vOaa3QHe2mpy
-bW0YcvpMoE3jJDqrq40lFGU5TG1/m1ipvbUwxikJbaFKB82SsxUgyCGqy0povCtt
-yhsgoGlgUwFBp43vy2khD3RZx8OlWgXZjrNE4X1ChR8LMujtcts=
-=Un6F
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCoiuAACgkQ7ulgGnXF
+3j2pXA//SZCrFcYnE6CGROyMAqwiZ98tWgA9gAZ5WfNgu/fAGjtx4CarGl2M3vQA
+ZwadBqhicQmqSYJ9098O7blSg89am+X2PAtHLoNwGwHm+bgQr3Vf49XZ0RCS4mBO
+1vAFNFm1aCcAcWHAghjkHg01aFTyH+OCRNUXA8vuaMOPwo2x+DO0FZla0MQs59YR
+dObNgs3k8269R6uPqUcwjSJORdpbFllp9YDkSVxBcOc26T3bw6z/iOaK/JVK02wB
+TaQDOu/pBuBKhgIgyteOn6+CyL76NFicS4TNcF+XhYsklbbQ4eFMPB8TFvCfwrM+
+Y28O8tbiFDKzg/h2S6DGy6N2UN6EpccXZorR7ycJAGjNYXUOnN3ArCj+CTIX5Q7U
+Rwq8uFXLtvaYFvWdWRcbkRmPg17OqlzjCAIZPDsMpje8goyRfEKFk+wuvLWCiYt8
+aYo24Kg+F3KlyT7vX4+H99KpRZXFQehudVXIS/b+Fs2je8/dpCGWva5hzijMnLgT
+o1Oi28kf8JNLjPY+73JXvau5sQC6RYyPsBUJ8BZBGjoCMzgJ55gFb8yFZWG7lcCL
+1g+PkuIXt6mHIMakxkx18h9acBRAZyanRF6SMfsnAiBBLKFDwA/dkXWeLlsX9wb/
+rfUg45ZLA/sOyY4GfQj7qJWYI/D2tY0HEZLJtAYyxVmmXske8J4=
+=jLDp
 -----END PGP SIGNATURE-----
 
---===============5787090080565826458==
+--===============3048740801808188340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10fa46cbedce-0d9381df021f.txt
+Content-Disposition: attachment; filename=revlist-39107e8577ad-05f7f1b9ee82.txt
 
 1d8613a23f3c3b8f0101e453ff150e05a0d1cd4f scsi: ufs: core: Introduce HBA performance monitor sysfs nodes
 6ecdafaec79d4b3388a5b017245f23a0ff9d852d scsi: target: cxgbit: Unmap DMA buffer before calling target_execute_cmd()
@@ -81,4 +81,4 @@ b790a56d66eaac4a1ac6c558575fd0a694b06159 scsi: target: core: Add the VERSION DES
 d133b441488d30b0ee1848238a1f6e8da643e19c scsi: 3w-9xxx: Reduce scope of structure packing
 05f7f1b9ee8273eab805da3d5e2d064872aa75b1 scsi: 3w-9xxx: Fix endianness issues in command packets
 
---===============5787090080565826458==--
+--===============3048740801808188340==--
