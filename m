@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8889529834394858578=="
+Content-Type: multipart/mixed; boundary="===============1354350309804128323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 22 May 2021 08:37:58 -0000
-Message-Id: <162167267857.7805.16498423269327899700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 22 May 2021 08:39:24 -0000
+Message-Id: <162167276423.8326.7123295869084009359@gitolite.kernel.org>
 
---===============8889529834394858578==
+--===============1354350309804128323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 7257fbc7c598617ca71605089264c61636d52157
-    new: 5cc59c418fde9d02859996707b9d5dfd2941c50b
+  - ref: refs/heads/master
+    old: 3d58b0ee2ecaace4683051addc56278a589ca9d1
+    new: 54912f21e11308a474ed1d8f19feb7d1f0892682
     log: |
-         5cc59c418fde9d02859996707b9d5dfd2941c50b USB: core: WARN if pipe direction != setup packet direction
+         54912f21e11308a474ed1d8f19feb7d1f0892682 Linux 4.4.269
          
 
---===============8889529834394858578==
+--===============1354350309804128323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621672670 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1621672669-6b92ec323afd9cdcfc4a1de8b047006b72e5866e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621672763 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1621672762-fd7605f092bed0999dba0c6802411dfebef68e69
 
-7257fbc7c598617ca71605089264c61636d52157 5cc59c418fde9d02859996707b9d5dfd2941c50b refs/heads/usb-testing
+3d58b0ee2ecaace4683051addc56278a589ca9d1 54912f21e11308a474ed1d8f19feb7d1f0892682 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCowt4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D/EQAIHobtlqjPDfGr8RW68p
-W9mGUFBrzLkrUJUerWag20zjfwMnp5QEUFZTCLpzLHPg1QkyxpN4gToPvEvzib84
-oFGtZ0T6LkkXCuOTCiSspOf1i9BJOBa3kKIXkR1fXdSJQmcOFDNifb4OwIjD2o9Z
-GYsithhPZF/RQ23uLoSD9oHUoOFC6u5l+tWpivP69mnztE/y31ygSDC8KXzIWF8+
-RO7RORr61aBUC5qy1rVV9BFAtCHRnavgfNuTN4PkiuyXIr6kY8yND+EFHnESzXwf
-O1dQeJwNW6KXNFj5rO9S7PvyajFeZgKSB39pIQqOHeNAy6iFGQqB8St99PDgur31
-OQ0DJHQLa9b45bu/bUBN3a/+VoCTjZjLAZN+HmH+f0RpE4BUqlPz1BC4GpGrpxdH
-hO2IEklLcdooIejwyoFq8/0iRWCeutYED3AwLS3csaspTiyN2d3UetvHi4fzQzTL
-JJm40PfmjBKBbugPbQd6VvElvuPi+nMMpotQblbLh5apsdg+4cbTer8o+ZWp/P6d
-kPluUsVEpJqOmoHzs63T7j/3K2w+d1GIh9p9H/X5GCXE+IotSiiiA35JUcLNTj8V
-O/SR8Xs0IQVo5nu+Y2KTeCzGyQPB6mHuYxpqJ8nOmsazHOgXpxdi3sIIBU4DU5jL
-hQbrRXBLDNSQE1/FuVpZe5Hb
-=2zBf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCowzsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z3IP/3VoxvJMmuQSSwReyGrE
+qfOwBE4it3h8fyWJyCYLUIdZ9Ej75m1mB7aVyGylI+JN8CQ0vYl541fFpbjTNA5q
+qpgRwlDsZiOBSzCJvZksdGi5x93UrelksXRoDr/GocMKqxZAj0Cehcz0dQOHHYfK
+yKD2WIRH4fPLCLbOaELZUbwo09nRIjpULKlibSCpVOY/BTgkgLTFP1M5M1VrA9Ne
+n/BEzBg48v26W3bIUtSoCZsRv3xU/idHs1lNVJQOOJAic26zvqU/cYkIQHi4KQ+C
+hp91dsSdFQhgBtt94yzzTaOv7XZ6QMyYOYw5KFzpNcRNSlQOjnU7x932mFeEYrD3
+sVwQEQ9SUSzlgnVmMjD8HxnttSRGiJLn9oZ0TEACVKJilOYePsifICeH5RJjB/8/
+fbXSa4zuTPT9f/Co/JdXfDH8h7eBtkMN68RoPUN5eAYFKBi+v90RmlL4OrKt5a/f
+AQBqvmjOc2sN1RJjKscISNqOXVhzKAVoTU004w2Zi40zUj7ZqsOXqlM3jrEnron2
+L3CZg/66LtRZQAUCHSCEPTu7ctt0RzVT+LgOdXzNc4gKtzDWClzjZE+ISb2wyfGt
+hai0mWIUhpRLQr/BH4SoZY2fO55nTIOVi+WNBpNFxDxD2l16ySQEnubLZUBXB6oU
+5/r9BrWzA2nzNsAlovwyVJ7o
+=SOtE
 -----END PGP SIGNATURE-----
 
---===============8889529834394858578==--
+--===============1354350309804128323==--
