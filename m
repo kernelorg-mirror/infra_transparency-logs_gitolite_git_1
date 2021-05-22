@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Sat, 22 May 2021 06:32:53 -0000
-Message-Id: <162166517339.25438.15328548648734600144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 22 May 2021 06:46:36 -0000
+Message-Id: <162166599633.1379.9136582006191879850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: d74ebb76967f2395128f8cb7e87c31c27758e104
-    new: 14462376858e35b83932f94616effc2f49fd8494
+  - ref: refs/heads/for-next
+    old: b493305483cb609abcf24c56f7415746c7e6939a
+    new: 344f0f821a7ee77832f04451e616f313b7d93f1a
     log: |
-         1b1774998b2dec837a57d729d1a22e5eb2d6d206 partitions: msdos: fix one-byte get_unaligned()
-         dd979d7a08adb473744f2e9d4bbaddb039dc39dc apparmor: use get_unaligned() only for multi-byte words
-         8f4e3d48bb50765ab27ae5bebed2595b20de80a1 mwifiex: re-fix for unaligned accesses
-         e3e22076710632250cfaee853499f3de6e9be35d netpoll: avoid put_unaligned() on single character
-         d40d8179482c330df5b9049797fe94c2e8eb4f6e asm-generic: uaccess: 1-byte access is always aligned
-         803f4e1eab7a8938ba3a3c30dd4eb5e9eeef5e63 asm-generic: simplify asm/unaligned.h
-         14462376858e35b83932f94616effc2f49fd8494 Merge branch 'asm-generic-unaligned' into asm-generic
+         344f0f821a7ee77832f04451e616f313b7d93f1a ALSA: firewire-lib: Fix uninitialized variable err issue
+         
+  - ref: refs/heads/master
+    old: bf24b112ff98375ecf821513342972e472415539
+    new: d663a7784f5f5d88c99f13a408610538b83cb871
+    log: |
+         344f0f821a7ee77832f04451e616f313b7d93f1a ALSA: firewire-lib: Fix uninitialized variable err issue
+         e00dab3e425eace5278a84d5f6da2f978b7ebe02 Merge branch 'for-linus'
+         d663a7784f5f5d88c99f13a408610538b83cb871 Merge branch 'for-next'
          
