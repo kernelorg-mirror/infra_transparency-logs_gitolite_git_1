@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7277954157577555539=="
+Content-Type: multipart/mixed; boundary="===============3219950265727561180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 22 May 2021 04:38:36 -0000
-Message-Id: <162165831682.15669.11063562875931534931@gitolite.kernel.org>
+Date: Sat, 22 May 2021 04:38:41 -0000
+Message-Id: <162165832179.15792.17650571693486421922@gitolite.kernel.org>
 
---===============7277954157577555539==
+--===============3219950265727561180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 75430dccdd001827f5d3d45f387abc0651c21e34
-    new: 36226770e3c723c843785c0142fc48cd29aabc88
+  - ref: refs/heads/5.13/scsi-fixes
+    old: d1acd81bd6eb685aa9fef25624fb36d297f6404e
+    new: 2ef7665dfd88830f15415ba007c7c9a46be7acd8
     log: |
          70ca3c57ff914113f681e657634f7fbfa68e1ad1 scsi: target: core: Avoid smp_processor_id() in preemptible code
          b4150b68815e9e4447ce169224ed436b419f0153 scsi: target: tcmu: Fix xarray RCU warning
@@ -32,33 +32,33 @@ changes:
          2ef7665dfd88830f15415ba007c7c9a46be7acd8 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
          
 
---===============7277954157577555539==
+--===============3219950265727561180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1621658315 -0400
+pusher 75C5DE3D 1621658320 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1621658314-f4ac7f9f6d020dc6d502a1a7ef6bc60005041d54
+nonce 1621658319-405f2593b679779bc1c6461c3f0cebb716a0311a
 
-75430dccdd001827f5d3d45f387abc0651c21e34 36226770e3c723c843785c0142fc48cd29aabc88 refs/tags/mkp-scsi-fixes
+d1acd81bd6eb685aa9fef25624fb36d297f6404e 2ef7665dfd88830f15415ba007c7c9a46be7acd8 refs/heads/5.13/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCoissACgkQ7ulgGnXF
-3j2hjA//Q5lqSeN3GBr1JgyrwvVTIZw5elkrFHnM8WrVH9i5mv3Zf1QFoX++4oRz
-AHZxI0t4ywLgoXguTlCPBHrn8QFfNgdC1XjHiDpqEP8hLY63OQgRPSeAtN2sWEhf
-0CgTieZBNTDWOtu8P/0dXWJTAJxn2cg+1hPtDLv9+UfW8NdQOF+woPwIaeo0GVfk
-psgO1KalrBQOlgPF0NRolUZhS/0hhKwaCfSS85gthqKCY6r6wbnY3MGw7wAt5BUL
-E6N/3W7syLHzUAWvrVupx1VFLB2qALG5Nsq54+4/W+sNFYDZmqdYLGk9dXV0ZbGe
-GvjNfkmbzvtHyD6VLIS4oJnWl6wqO4kcW5NkiQ8DN5RcTubWIvYppMqe5YxCRBmw
-SPwWmF+1n+mLBX7Pih+0ub3LSKl1X79h/VwzTIfTGTCcjcyUeLJByz+CBjv4rXx1
-k9iiswXpdxOWl2tVnB8qAoKYz4UHl7TIoCaG+VZDiKLUpINCaw8Z2Q9pIuNC2CiO
-3FkjjTjacBt7pz6yOfI+C34kAdi9F8Y9qfuz6XtGi/2fA3MSx9unVgg8nB5jiGgA
-VxUZI3fGNTXPDDDM65Yf/xcjjnGLndTtKTCr4ValFC/xBhYYfiPgmSgkJc+84qqm
-nR/Ryjk49qgu9dRlKQv3VeKVMXO/3rupu7kdcdRY09fU+nNTGoc=
-=MeQF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCoitAACgkQ7ulgGnXF
+3j0jmg/8Cy5SsPDnWD+Assmf0BLXQpm4OvRE0L+JGj+EpaOnBWXaiSvZL9lrRrXS
+TqznBBt0455mnmV7BJ/u1kI0+kzF5jeHMh5DgNOJtSIUetvTW7BpBn5opS6A0BEB
+W1jimiPoUIC6sqWvBor8UqZz4L5l8x1t/kb+KQNqAogXyHltsVxx++vZzkIpiQYI
+dAyCeYEBCig1RV2d8MXbxhhr2ZFP+uNQrPFSylyG/6afyjfqAXAiasHMWTnIOroH
+nM43UQqUhwz1+WEStUHcc0G6F0K9uduLektSATBX5wKkc3Xu3Ge9IxgCU2noYvIk
+0t3lBoqlWAB0+sQ7KBXaGAU1ywM49diCn+PRreDCg1opBrTt33eJrVU19BY3AeS/
+ngk4WrZBLP5jXVIuBaSbUbZyFn4otRQx5103O1pb3WA3VLOEJnpt6G0cCODxZK3j
+DA/oxG4JqNhKblp03SYrzs+wkeoeQuxvp54XMevL8EQWXWbFwQ6JMWzuAzRUIHG1
+D8UnHmo5gwkMdeCJrJc8vgiHIwVY9ygnfZ9/k5urvz4mtdQfEeWg3fpnlYaVZ0aA
+U6az1BLS2EbhRuuCHiXx+fwO9AyV2/u5vW0OpcXqsG471esfKxD46IFF47igisjp
+cK+D6EeowiC52NVc2T/TPV4hPWQFe3AkxBhmzz3sPfz9DNPm2sw=
+=x19j
 -----END PGP SIGNATURE-----
 
---===============7277954157577555539==--
+--===============3219950265727561180==--
