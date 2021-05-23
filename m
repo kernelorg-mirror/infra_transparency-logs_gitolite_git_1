@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8789105196004658159=="
+Content-Type: multipart/mixed; boundary="===============4165699233973416228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 23 May 2021 09:41:29 -0000
-Message-Id: <162176288944.3964.18085349834039178873@gitolite.kernel.org>
+Date: Sun, 23 May 2021 10:02:46 -0000
+Message-Id: <162176416638.17353.7150295342778035146@gitolite.kernel.org>
 
---===============8789105196004658159==
+--===============4165699233973416228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/efi/urgent
-    old: 429257a430a0e81e9979256e0db718e35e7d9cee
-    new: e169fba4f464760dd9734c9e39e1c2e88e374f32
-    log: revlist-429257a430a0-e169fba4f464.txt
+  - ref: refs/heads/efi/core
+    old: 1c761ee9da1ac6ba7e40d14457fac94c87eaff35
+    new: 267be9dbacf4485f7842a3755eef4bb68dc85fc9
+    log: revlist-1c761ee9da1a-267be9dbacf4.txt
 
---===============8789105196004658159==
+--===============4165699233973416228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-429257a430a0-e169fba4f464.txt
+Content-Disposition: attachment; filename=revlist-1c761ee9da1a-267be9dbacf4.txt
 
-8eedd3a70a70f51fa963f3ad7fa97afd0c75bd44 ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
-622464c893142f7beac89f5ba8c9773bca5e5004 ALSA: hda/realtek: Fix speaker amp on HP Envy AiO 32
-c61287bf17836b67e0b649343778bb4a659bd70d clk: sifive: Add pcie_aux clock in prci driver for PCIe driver
-e4d368e0b632717e57d064ade6afdcf535e58068 clk: sifive: Use reset-simple in prci driver for PCIe driver
 2da0dd5e30af22a125c38137ee980c5bce3da391 MAINTAINERS: Add maintainers for SiFive FU740 PCIe driver
 43cea116be0b2e9636ce72bc8269b99344374a81 dt-bindings: PCI: Add SiFive FU740 PCIe host controller
 5d84b5318d860c9d80ca5dfae0e971ede53b4921 ALSA: hda/realtek: Add fixup for HP OMEN laptop
@@ -1046,9 +1042,13 @@ a3969ef463f970c6ad99f32ca154fbd2a62bf97a Merge tag 'xfs-5.13-fixes-1' of git://g
 45add3cc99feaaf57d4b6f01d52d532c16a1caee efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
 c4039b29fe9637e1135912813f830994af4c867f efi/libstub: prevent read overflow in find_file_option()
 942859d969de7f6f7f2659a79237a758b42782da efi: cper: fix snprintf() use in cper_dimm_err_location()
+55fc610c8cdae353737dbc2d59febd3c1a697095 efi/apple-properties: Handle device properties with software node API
+edbd1bc4951eff8da65732dbe0d381e555054428 efi/dev-path-parser: Switch to use for_each_acpi_dev_match()
+bb11580f61b6c4ba5c35706abd927c8ac8c32852 x86/efi: Log 32/64-bit mismatch with kernel as an error
 23d729263037eddd7413535c68ccf9472a197ccd Merge tag 'for-linus-5.13b-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b9231dfbcbc0034cf333fee33c190853daee48c0 Merge tag 'io_uring-5.13-2021-05-22' of git://git.kernel.dk/linux-block
 4ff2473bdb4cf2bb7d208ccf4418d3d7e6b1652c Merge tag 'block-5.13-2021-05-22' of git://git.kernel.dk/linux-block
 e169fba4f464760dd9734c9e39e1c2e88e374f32 Merge tag 'efi-urgent-for-v5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi into efi/urgent
+267be9dbacf4485f7842a3755eef4bb68dc85fc9 Merge tag 'efi-next-for-v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi into efi/core
 
---===============8789105196004658159==--
+--===============4165699233973416228==--
