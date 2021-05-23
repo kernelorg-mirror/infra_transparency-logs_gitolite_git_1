@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1454784828491483888=="
+Content-Type: multipart/mixed; boundary="===============0763633310349865309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 23 May 2021 10:06:13 -0000
-Message-Id: <162176437317.19932.260571821461031834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 23 May 2021 10:06:42 -0000
+Message-Id: <162176440260.20146.5835386156702678373@gitolite.kernel.org>
 
---===============1454784828491483888==
+--===============0763633310349865309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 78429edfeed8da0562243e876be46d700f9ed13c
-    new: 281e468446994a7672733af2bf941f4110d4a895
+  - ref: refs/heads/tty-next
+    old: f421ed33ee2bddac5857862da3a37f0ea3f197d8
+    new: 2ac62268a2c0f2ffafc19a7ced6972a9b1330389
     log: |
-         281e468446994a7672733af2bf941f4110d4a895 misc: alcor_pci: fix inverted branch condition
+         2ac62268a2c0f2ffafc19a7ced6972a9b1330389 tty: hvc_console: Remove the repeated words 'no' and 'from'
          
 
---===============1454784828491483888==
+--===============0763633310349865309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621764365 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1621764364-7253d3750f42fbc25d419420fe859e511d75e115
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621764394 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1621764394-a3991baf6c8dc28fb4a623bde600d5acc78333c1
 
-78429edfeed8da0562243e876be46d700f9ed13c 281e468446994a7672733af2bf941f4110d4a895 refs/heads/char-misc-next
+f421ed33ee2bddac5857862da3a37f0ea3f197d8 2ac62268a2c0f2ffafc19a7ced6972a9b1330389 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCqKQ0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HXwQAJO229eDkouLYCPU3a2V
-cJIamzLhuRF07bNN9KPYgUvpj4pRpeVAhExo5JOAhz35kRWwbtLBa3uU0B+7DwK/
-OST/livB17GH0yqiXUdQakHxzwQiAQxkV4ZZvRZuZBvhXAUhwfIOhYhvEMJ+nDtP
-ylI7a/EERRgSoAAFoz8dYQnOiqJaRu7Th29EucHuX684lTMym03zkLzJhxs76vvY
-acYYNm4+RPQimCANosE8bXGpm7VXs1LmlFTmbP6+jGIByBOSsWJRgz5YN/Nvo0ax
-Z/nX8SonIOumpC36wNRptcCN5pP8zy1AP1kLDRglulV0Qdt0AjY4/DEOsJlIaZiF
-aPzdYOYzqJQIvUxQ66BwIDhaCJafMTEGJ3OOX1hjxJ8gu4tOzwz49H+QsHrP7Pbt
-P1bCmjTUcEM3hxggJl0/VIxtKlHKwH4GbYhBRwpW2McYXKGx6GrT4zaQwGADulYs
-iZZUukbrLl4LtpANkdC4pYcZ5GugxyhjfWc+O9v4vUBqP1Lg1R5Gl1nWMsP4gHmu
-vFxSxsO4fA2deALgtm4OomxjLvrdbserUuTKM8jo8bj30ESS0OP7n04PfY6ruiGX
-WpZWr5l7FguRvO+QJp6eHLrkDV5DBJtTVyRcUAX+vENw8xD4PxnB7DSKU4yI+Gfu
-1F28npLcDuVzmtqwDxGf4Pwm
-=UNpr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCqKSobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CdYP/09nEbq/qKXSC4bc00fj
+6b6TyndONArdAhP6aHwucS96i+43V/J+e95d+aql4MbKsMlTpNWO4seTnfG2aRAE
+Mj4F859u0RZbR5Z9P6uebPQAJ5dBKmUxTkX9CkaRhKb5IbdAmDk79gCgyxcLOf9d
+RZPbGSCQdZk7FxNQjniHaV7xE5FRwk1XXOzmm25Oh2sAEXTzRpKVu4JWekfy56zf
+Yw3raYKaLvEnA6ORaB936Wa9V72AqhcA4vRY0USJp19bsO9sNwbXj3wUPuf+rGZp
+LK6AcrfJRRxrOZMG+YjDG0wt89ruZiE0ONu9Z6C7beL80li3zr6nOyNE0UJak6Jd
+WbVJKJy365mMiNxRhZ822shRlEp933j9P2IJwGowHhY/9GtaaLPY4oyOzLIaFg3v
+w3/LuJJ0twr2mn4ZcQ9yMk6OEqLEe12sO6O202A0XW2Orw7LZW+BPPfGD+mrO65R
+JRRodrWCFeNtN2ZZJutOApm46k5dSUxeOtZmMf0kzyccpgDV5isQAorwg515LVEn
+xdv/WjOh9HhqA/4FV2pwHyT3Wls2qZCSkzGpmHT1Cmxk52eRyLKL8mYPhiegYGh7
+HLJ7EtgV5plizvNPhcRpd9sYY0Nd4ilho35u5nspBotnz+08PCuYbSzGK0p47kOL
+0GA7G2ABmzEkLnM3yQ6wNIJO
+=8lIG
 -----END PGP SIGNATURE-----
 
---===============1454784828491483888==--
+--===============0763633310349865309==--
