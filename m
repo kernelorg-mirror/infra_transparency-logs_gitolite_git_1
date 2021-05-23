@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sun, 23 May 2021 18:39:49 -0000
-Message-Id: <162179518993.19982.5935869173174164999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 23 May 2021 20:05:42 -0000
+Message-Id: <162180034253.9745.16534461417749484934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 91d594b2db51f680ba52862d1bbe14801b4dcd54
-    new: 6e153938b7f005fde4dd025e3998d94cb27e4148
+  - ref: refs/heads/master
+    old: 0c7d25cc090ca02e74601d3c00c36064c0830563
+    new: 6aa04aec1c4672d20384d6af299022ff9121dc27
     log: |
-         94a7b66910ea6e4583addd8212aa8cd3f7a8c9c1 gpio: xgene: simplify probe, return devm_gpiochip_add_data() directly
-         4d2a72635b5552502f61ff8d3f6e7c78eadffc2b gpio: da9052: remove platform_set_drvdata() + cleanup probe
-         10a476164b08067f2094020f812af52c347542de gpio: gpio-tegra186: remove empty remove hook
-         6e153938b7f005fde4dd025e3998d94cb27e4148 gpio: gpio-tegra186: remove platform_set_drvdata() + cleanup probe
+         232fe7b9148444eaf7b5f17d38dae5e2c24adb89 Fixes for 5.12
+         f593b514c52938736963ded9d0347f858da6a154 Fixes for 5.10
+         d61066b86023e239a48d7857aedfbd82792ed2fe Fixes for 5.4
+         475cbac842ea05e24adb24014a3f804a80c4414c Fixes for 4.19
+         a30ca46a72ab4fa1a42687911b6bdbea7e53f3f8 Fixes for 4.14
+         5ed571619bacc3bb0bd4c171ad3637da8f02dde7 Fixes for 4.9
+         6aa04aec1c4672d20384d6af299022ff9121dc27 Fixes for 4.4
          
