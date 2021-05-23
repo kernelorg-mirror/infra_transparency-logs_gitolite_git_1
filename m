@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 23 May 2021 05:58:38 -0000
-Message-Id: <162174951843.11707.4813501768454357626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 23 May 2021 08:35:00 -0000
+Message-Id: <162175890035.10548.16935375742906255336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 34c5c89890d6295621b6f09b18e7ead9046634bc
-    new: 4d7620341eda38573a73ab63c33423534fa38eb9
+  - ref: refs/heads/for-linus
+    old: 9ebaef0540a981093bce5df15af32354d32391d9
+    new: 2b899f31f1a6db2db4608bac2ac04fe2c4ad89eb
     log: |
-         c6de37dd5e48b883db032aa4dc0547a4858b9f20 tools build: Fix quiet cmd indentation
-         98a499a11ecdd8cb91d03dd5c034aaf7422f2deb scripts/jobserver-exec: Fix a typo ("envirnoment")
-         c93db682cfb213501881072a9200a48ce1dc3c3f kbuild: dummy-tools: adjust to stricter stackprotector check
-         4d7620341eda38573a73ab63c33423534fa38eb9 Merge tag 'kbuild-fixes-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+         2b899f31f1a6db2db4608bac2ac04fe2c4ad89eb ALSA: usb-audio: scarlett2: snd_scarlett_gen2_controls_create() can be static
+         
+  - ref: refs/heads/master
+    old: 269af8e193dfca4c3d4264af777ea082d5ce1f4f
+    new: 029c749cba571edf112e486ef76162b757a88e3d
+    log: |
+         2b899f31f1a6db2db4608bac2ac04fe2c4ad89eb ALSA: usb-audio: scarlett2: snd_scarlett_gen2_controls_create() can be static
+         029c749cba571edf112e486ef76162b757a88e3d Merge branch 'for-linus'
          
