@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3919724682428784598=="
+Content-Type: multipart/mixed; boundary="===============1454784828491483888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 23 May 2021 10:02:51 -0000
-Message-Id: <162176417133.17449.15028489252829203629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 23 May 2021 10:06:13 -0000
+Message-Id: <162176437317.19932.260571821461031834@gitolite.kernel.org>
 
---===============3919724682428784598==
+--===============1454784828491483888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: adba154658a814db4954fce33bdd0e72a2cde776
-    new: 5bb6f82b078c92e1e1f19502e90d6e951d5e01c2
-    log: revlist-adba154658a8-5bb6f82b078c.txt
+  - ref: refs/heads/char-misc-next
+    old: 78429edfeed8da0562243e876be46d700f9ed13c
+    new: 281e468446994a7672733af2bf941f4110d4a895
+    log: |
+         281e468446994a7672733af2bf941f4110d4a895 misc: alcor_pci: fix inverted branch condition
+         
 
---===============3919724682428784598==
+--===============1454784828491483888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adba154658a8-5bb6f82b078c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-668a84c1bfb2b3fd5a10847825a854d63fac7baa efi/fdt: fix panic when no valid fdt found
-45add3cc99feaaf57d4b6f01d52d532c16a1caee efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-c4039b29fe9637e1135912813f830994af4c867f efi/libstub: prevent read overflow in find_file_option()
-942859d969de7f6f7f2659a79237a758b42782da efi: cper: fix snprintf() use in cper_dimm_err_location()
-55fc610c8cdae353737dbc2d59febd3c1a697095 efi/apple-properties: Handle device properties with software node API
-edbd1bc4951eff8da65732dbe0d381e555054428 efi/dev-path-parser: Switch to use for_each_acpi_dev_match()
-bb11580f61b6c4ba5c35706abd927c8ac8c32852 x86/efi: Log 32/64-bit mismatch with kernel as an error
-e169fba4f464760dd9734c9e39e1c2e88e374f32 Merge tag 'efi-urgent-for-v5.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi into efi/urgent
-c86a2a7c728b558b756eb1cf4521656edf03f2ac Merge branch 'efi/urgent'
-267be9dbacf4485f7842a3755eef4bb68dc85fc9 Merge tag 'efi-next-for-v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi into efi/core
-5bb6f82b078c92e1e1f19502e90d6e951d5e01c2 Merge branch 'efi/core'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621764365 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1621764364-7253d3750f42fbc25d419420fe859e511d75e115
 
---===============3919724682428784598==--
+78429edfeed8da0562243e876be46d700f9ed13c 281e468446994a7672733af2bf941f4110d4a895 refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCqKQ0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HXwQAJO229eDkouLYCPU3a2V
+cJIamzLhuRF07bNN9KPYgUvpj4pRpeVAhExo5JOAhz35kRWwbtLBa3uU0B+7DwK/
+OST/livB17GH0yqiXUdQakHxzwQiAQxkV4ZZvRZuZBvhXAUhwfIOhYhvEMJ+nDtP
+ylI7a/EERRgSoAAFoz8dYQnOiqJaRu7Th29EucHuX684lTMym03zkLzJhxs76vvY
+acYYNm4+RPQimCANosE8bXGpm7VXs1LmlFTmbP6+jGIByBOSsWJRgz5YN/Nvo0ax
+Z/nX8SonIOumpC36wNRptcCN5pP8zy1AP1kLDRglulV0Qdt0AjY4/DEOsJlIaZiF
+aPzdYOYzqJQIvUxQ66BwIDhaCJafMTEGJ3OOX1hjxJ8gu4tOzwz49H+QsHrP7Pbt
+P1bCmjTUcEM3hxggJl0/VIxtKlHKwH4GbYhBRwpW2McYXKGx6GrT4zaQwGADulYs
+iZZUukbrLl4LtpANkdC4pYcZ5GugxyhjfWc+O9v4vUBqP1Lg1R5Gl1nWMsP4gHmu
+vFxSxsO4fA2deALgtm4OomxjLvrdbserUuTKM8jo8bj30ESS0OP7n04PfY6ruiGX
+WpZWr5l7FguRvO+QJp6eHLrkDV5DBJtTVyRcUAX+vENw8xD4PxnB7DSKU4yI+Gfu
+1F28npLcDuVzmtqwDxGf4Pwm
+=UNpr
+-----END PGP SIGNATURE-----
+
+--===============1454784828491483888==--
