@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 24 May 2021 23:43:28 -0000
-Message-Id: <162189980808.30876.16723859552440010867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Mon, 24 May 2021 23:49:04 -0000
+Message-Id: <162190014489.2050.8788815760874880862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/pci/reset
-    old: 8648980255a767a977e06faeb626c94321c77100
-    new: 411e2a43d210e98730713acf6d01dcf823ee35e3
+  - ref: refs/heads/master
+    old: 208b4fdd610945134c304a2ed7a00b6ae322ac5a
+    new: 6edab3e51cf8403ed4fbc88ddbb01860297ed5bb
     log: |
-         411e2a43d210e98730713acf6d01dcf823ee35e3 PCI: Work around Huawei Intelligent NIC VF FLR erratum
+         6edab3e51cf8403ed4fbc88ddbb01860297ed5bb selftests/sgx: Refine the test enclave to have storage
          
