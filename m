@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8988005703905782679=="
+Content-Type: multipart/mixed; boundary="===============1060289504770561631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 24 May 2021 11:41:06 -0000
-Message-Id: <162185646691.4615.7958194380770742622@gitolite.kernel.org>
+Date: Mon, 24 May 2021 11:43:48 -0000
+Message-Id: <162185662881.5600.18310503329563050663@gitolite.kernel.org>
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,369 +16,472 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 481b2b1e3e4f950bb1bc748b33927f9e5e2cfbe6
-    new: cd128d98050cde1e165bd6973c60227d9813f8d4
-    log: revlist-481b2b1e3e4f-cd128d98050c.txt
+    old: cd128d98050cde1e165bd6973c60227d9813f8d4
+    new: 58da8adbaa18d2c03dd966e7b92cc9ccc184e99a
+    log: revlist-cd128d98050c-58da8adbaa18.txt
   - ref: refs/heads/queue/4.19
-    old: 152878a18c5d61496e1c7665f8e5edf796ea935d
-    new: 6efd7883eeec56c11c3000e0e29f8b9120b4ef5b
-    log: revlist-152878a18c5d-6efd7883eeec.txt
+    old: 6efd7883eeec56c11c3000e0e29f8b9120b4ef5b
+    new: b3097465a7ae9f77275383e7776de3ec239460c8
+    log: revlist-6efd7883eeec-b3097465a7ae.txt
   - ref: refs/heads/queue/4.4
-    old: c5fafc08df9b7a69b13e1a3064ee21b14537943c
-    new: 057f203de11ac4d9cf493d8721d022b55ab72854
-    log: revlist-c5fafc08df9b-057f203de11a.txt
+    old: 057f203de11ac4d9cf493d8721d022b55ab72854
+    new: d7f190ace1f995a6617026a77ae284739483aa53
+    log: revlist-057f203de11a-d7f190ace1f9.txt
   - ref: refs/heads/queue/4.9
-    old: 858d860b7028de9dabaa1e47753680bd2adb03d5
-    new: e3126cae2baa02d5caed12a8b0ca3cbe1cffc59b
-    log: revlist-858d860b7028-e3126cae2baa.txt
+    old: e3126cae2baa02d5caed12a8b0ca3cbe1cffc59b
+    new: fa115be26be9deb4e7e58f04b1127568aca30511
+    log: revlist-e3126cae2baa-fa115be26be9.txt
   - ref: refs/heads/queue/5.10
-    old: 588486aa172fde4978473965a525127e25e760a7
-    new: 4c9f5e20d84d6ffe131be82a2da3bd96f60e2617
-    log: revlist-588486aa172f-4c9f5e20d84d.txt
+    old: 4c9f5e20d84d6ffe131be82a2da3bd96f60e2617
+    new: ff47cdd3e0623e707bd20011d3b8939bd5390916
+    log: revlist-4c9f5e20d84d-ff47cdd3e062.txt
   - ref: refs/heads/queue/5.12
-    old: bb1483055945147d3f924f7c2b0530e48e31f758
-    new: 87a3027cba0a680c4c8c283c7d63e560bd7fa0fa
-    log: revlist-bb1483055945-87a3027cba0a.txt
+    old: 87a3027cba0a680c4c8c283c7d63e560bd7fa0fa
+    new: 95a5ff779c464e2636575100ae891203e082398f
+    log: revlist-87a3027cba0a-95a5ff779c46.txt
   - ref: refs/heads/queue/5.4
-    old: 1fce66834d645f86b24caa27996c90ebea79bada
-    new: 5b93c196472591b488055d52788f457d84f739a8
-    log: revlist-1fce66834d64-5b93c1964725.txt
+    old: 5b93c196472591b488055d52788f457d84f739a8
+    new: a6b9ee22389797bb0637164cdf94dba26512dbd0
+    log: revlist-5b93c1964725-a6b9ee223897.txt
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-481b2b1e3e4f-cd128d98050c.txt
+Content-Disposition: attachment; filename=revlist-cd128d98050c-58da8adbaa18.txt
 
-fc8bdae9ec6c07c26955d5cbc97aee5db148419c openrisc: Fix a memory leak
-d3bc9da3bdc0095eddc2a09fd774f6b805760898 RDMA/rxe: Clear all QP fields if creation failed
-af5029f8639d4198c33f1418fddf4b2bf40439d3 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-d58661ecb8692777ee6ce9b0c171d2d3efb45fb8 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-318831f87235b60206ed7ff6d1bdaf1d354aeff6 cifs: fix memory leak in smb2_copychunk_range
-e9f1224be7a094a0bb64de8943994f0343e53a4c ALSA: line6: Fix racy initialization of LINE6 MIDI
-40120a55bee601304ef46e7474f69ecf2b76d8eb ALSA: usb-audio: Validate MS endpoint descriptors
-0a35a3da78b47bc0d6dd6b0b50add352db6c6c8f ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-e103e1866f275b249fb6a8d6c1bbd2b15275a9d7 Revert "ALSA: sb8: add a check for request_region"
-679b95215df6abaa701755586bf2c9f538e4a3c3 ALSA: hda/realtek: reset eapd coeff to default value for alc287
-91bbfe181a876cc236ac09f2e3b0366fb098c4d5 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-d1ba3187bf49f3b6dd9a909bc70c1370a0778dd9 rapidio: handle create_workqueue() failure
-d32ddb4c4c965668eac9759bdb0d963116ff04ba xen-pciback: reconfigure also from backend watch handler
-33204d0183bd0ac0dd30a8811502ba0443229313 dm snapshot: fix a crash when an origin has no snapshots
-cd128d98050cde1e165bd6973c60227d9813f8d4 dm snapshot: fix crash with transient storage and zero chunk size
+c3775b3f848753efe408128d45e735bf137e449e openrisc: Fix a memory leak
+30c251f982d1b93dde99905934bc1d9ff4f1b301 RDMA/rxe: Clear all QP fields if creation failed
+a5bf02d48b8a9e525a283a0f479617f2196434bc scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+da5242196c6422d119789a2586cdad8a2baa73d3 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+3a093679343abd1bddf40ea756d5a95a5085dafd cifs: fix memory leak in smb2_copychunk_range
+6839b6eac5df14b99fc5c0d94f080167f18063f0 ALSA: line6: Fix racy initialization of LINE6 MIDI
+025b61b4597d4baba6ee406ca116975d181682fa ALSA: usb-audio: Validate MS endpoint descriptors
+48e77d3a44b908c555bf0739c6bd09e199cc969f ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+f4a3ae66e7ddd62a3249c1b9c69fcae12f60b40a Revert "ALSA: sb8: add a check for request_region"
+2fe47eec0cd0b8da24d12e506a13a413b81ac3ec ALSA: hda/realtek: reset eapd coeff to default value for alc287
+0dc4fdd12f7a65a8f45f31ef3254ba3200465e4d Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+f06f92be4faaa329d85c00c9f2da65e0c6e492ec rapidio: handle create_workqueue() failure
+46f45475ac6b518b70c93623d0b67108fedebc36 xen-pciback: reconfigure also from backend watch handler
+9e1a5f9ccd783cd9787c9b7ebb91c0012be1b40f dm snapshot: fix a crash when an origin has no snapshots
+014753d061c247c8e2f7a7681f23c162a55adcad dm snapshot: fix crash with transient storage and zero chunk size
+bc211acc54ddcda4ada4ad550d8aa1dbf958bf40 Revert "video: hgafb: fix potential NULL pointer dereference"
+473b72379fe0b8c89eec414f316f04db21749f8a Revert "net: stmicro: fix a missing check of clk_prepare"
+99a189e8f9ab57edbcecad9b7773e92cafc00d87 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+a979f783abfde55f7b0447bd88966533e22b98ed Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+4221a010a671e4cd2d04c3a75ab45d897d998a0a Revert "video: imsttfb: fix potential NULL pointer dereferences"
+6e50d9205d169f453b570c5391348a204fca29bb Revert "ecryptfs: replace BUG_ON with error handling code"
+59dc6fa82a03ce56825b5056e74665692fd8d0d5 Revert "gdrom: fix a memory leak bug"
+790a171705d13736c11ca693f7067290727c8fb9 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+d11a35e5904b64a4c8a4aa8920333dd26e5eb355 cdrom: gdrom: initialize global variable at init time
+94a20c1f676655bc8aaa9a9f5861a8cf4b74930d Revert "media: rcar_drif: fix a memory disclosure"
+26322732344f1f663404df84af340f8dc34f1e95 Revert "rtlwifi: fix a potential NULL pointer dereference"
+5e73a80cca6266cea6da4d2b3f5e07d3cfa56231 Revert "qlcnic: Avoid potential NULL pointer dereference"
+3cc9fe857122309d47e2fa9e76e943051a90da5e Revert "niu: fix missing checks of niu_pci_eeprom_read"
+b2ea8be6f0b239c26e54fd7ef7d980ac6304bf51 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+2e6badfd61b733d21c7752e7f9f7e607aaff7a51 net: stmicro: handle clk_prepare() failure during init
+58da8adbaa18d2c03dd966e7b92cc9ccc184e99a net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-152878a18c5d-6efd7883eeec.txt
+Content-Disposition: attachment; filename=revlist-6efd7883eeec-b3097465a7ae.txt
 
-c153e9572be6185179da31eefb001c9db8359d47 firmware: arm_scpi: Prevent the ternary sign expansion bug
-97f3e99a68895115c12cae495ff9742fe4b71658 openrisc: Fix a memory leak
-975c1e41763eda66cb9392f59a64f1e2aaaebc25 RDMA/rxe: Clear all QP fields if creation failed
-94c7bd255f3b739abf166d210ed539e8f0074bf4 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-e930f3053711f2918700c410844085afcff02a56 RDMA/mlx5: Recover from fatal event in dual port mode
-83ad3d3fa5497fd7dc19e155c419b6736cf73094 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-70349e862647d6f726b11bdbdd3003b2ab41d16d ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-c311fad32fe3faffd99b7cee69ae53b9bd4cdfc6 nvmet: seset ns->file when open fails
-ec5d10658bcd9440e2d0134bb1ef41348d8e884f locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-3a7359f41f8af6d43297674addc9581ed4248f89 cifs: fix memory leak in smb2_copychunk_range
-584e4109793bae4e8451f5589ad9f28a2e662875 ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
-9e651b902f2b1ec7bbf5ae549874baa29316623c ALSA: line6: Fix racy initialization of LINE6 MIDI
-87aab42c384b5de565c9ff27dd31cd1631b72edf ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
-015b9b8dbfa73adf7c479e187012e0129ce86fb0 ALSA: usb-audio: Validate MS endpoint descriptors
-70e3de7f97b61f0fcb6d961d8de6997a03779d15 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-93c20031c972cc8613e7423c18b5644e8a9f22e8 Revert "ALSA: sb8: add a check for request_region"
-35c6e4eca0e7b815c4b22d072ebab45f4230639e ALSA: hda/realtek: reset eapd coeff to default value for alc287
-1f1ac7f148164112ee4f4e27890ece1f07b43290 ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
-96ed5b37a0e2a936dab71f68c5604c67b64bffcb Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-267db882879f1a0891e6a6dbf4c995f543e2ba45 rapidio: handle create_workqueue() failure
-ff4cbb31ab0f6cf1edb5a11eb22b06e59ad664ce Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-44e6942bfe8edc66aa868d40c0e95d85651a08e3 xen-pciback: reconfigure also from backend watch handler
-755f606951981d05eed2f67de5fe099090f7a764 dm snapshot: fix a crash when an origin has no snapshots
-6efd7883eeec56c11c3000e0e29f8b9120b4ef5b dm snapshot: fix crash with transient storage and zero chunk size
+e319c0598f4f2b345b1c682333662da49d2a19d3 firmware: arm_scpi: Prevent the ternary sign expansion bug
+5c888879e168f7769d85df1b5c3c55f1ff657a59 openrisc: Fix a memory leak
+5cfc4255f798e4fe66005b0cea008fd78070de69 RDMA/rxe: Clear all QP fields if creation failed
+505103a3048b00bfc3122d397b336769bd46b2a8 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+adce47211d2e679490c7cb22b0ae9b71901b408d RDMA/mlx5: Recover from fatal event in dual port mode
+cca45461dc0c9e52f825fe2d414d29ccba53ffe3 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
+22a568d5d4b63546d6b459c6470c0bb082c6e778 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+742c857c6111465c5159df4ffa0e59b725242b07 nvmet: seset ns->file when open fails
+0faf0554662a27d7739472074758c9b7d381d70d locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
+e37d180b02b8bbcdeaf5366e1ecea0808afa0606 cifs: fix memory leak in smb2_copychunk_range
+e205fa2174df118b164063e770edb6ea1b8aa8c0 ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
+2d0186a62dd1e2faca586f40ccdf1687e4c626f6 ALSA: line6: Fix racy initialization of LINE6 MIDI
+25387ce4949c593994d334c05b3c042bf63daeff ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
+3038d99d298055d06516e0133445bd8783cd7a57 ALSA: usb-audio: Validate MS endpoint descriptors
+b1dc1aac6c8ab83a67b1f562fde1f5699f383c12 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+a8b8d7b9b6257749b0bedf90019102e70612068b Revert "ALSA: sb8: add a check for request_region"
+aa39bdbd308a13af45fbb5dedf06bcd15aae43c3 ALSA: hda/realtek: reset eapd coeff to default value for alc287
+97548f07e13fbac42430d8f43ae93e56f32d112c ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
+386e75dd4f852b86a8c1bc085d8550bd7abf16db Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+7949e17e02ac63ea81c324cd3799469aa84b6856 rapidio: handle create_workqueue() failure
+4b927d1bce7e9056ab222b5337daa6d918bb34c0 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+5d30ae5f8aec2a9b0551f29b089db108240cfb7f xen-pciback: reconfigure also from backend watch handler
+86e94111ba73ccc68fbe119e41e163e4c4858bb0 dm snapshot: fix a crash when an origin has no snapshots
+9bbb04cef52d2421cfaeb6ebe6cfeab205571a15 dm snapshot: fix crash with transient storage and zero chunk size
+a251f66ec0f2035788075cd257dc27d50e07f674 Revert "video: hgafb: fix potential NULL pointer dereference"
+4d36e0be12c2cc95568fa0d339e805fc40a953cc Revert "net: stmicro: fix a missing check of clk_prepare"
+b457ea1967f65b540a9a642aaed8c4c951615d97 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+a90ae0e3a03c68ce0779b17559bc65074b5fb2f2 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+210da5255ee93572461bc9300ced575c707244c0 Revert "video: imsttfb: fix potential NULL pointer dereferences"
+74049303e14dee5e027777488c7092a96597cf80 Revert "ecryptfs: replace BUG_ON with error handling code"
+bb249f64efd49ab2fc0f64f4189801bb2126582b Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+a69aee28d6cefc86b9a93716079a5b2e2f3ec426 Revert "gdrom: fix a memory leak bug"
+2fda60d5a8fed69e88df80aa1ff92394d22e6457 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+9c2ce02a01fbd0c21fc4460297a3d2f4490762b7 cdrom: gdrom: initialize global variable at init time
+df367e4b698d9df88058321cd78ee7572fef8721 Revert "media: rcar_drif: fix a memory disclosure"
+9913d50805e9ec68edd2e9d8202eb13624682076 Revert "rtlwifi: fix a potential NULL pointer dereference"
+86f503fccfa47d37bf1b5638230ce3788eda2b88 Revert "qlcnic: Avoid potential NULL pointer dereference"
+54823a72c03bd7fa80ff3f7c8f2b0b7205c55464 Revert "niu: fix missing checks of niu_pci_eeprom_read"
+4bdaf567f65af2987cc39f826d32ffc6c45ef7a8 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+6a91b0e62668f8a1c5f73f8a15aae306b518c323 net: stmicro: handle clk_prepare() failure during init
+e67d4acd3ba40a88cce11bf538554a89a2fe6aea scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+b3097465a7ae9f77275383e7776de3ec239460c8 net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5fafc08df9b-057f203de11a.txt
+Content-Disposition: attachment; filename=revlist-057f203de11a-d7f190ace1f9.txt
 
-444c01fadf515d185cfa3d15be43ef39d590fe8c openrisc: Fix a memory leak
-08ec37d01803ad4eeff8435fda83dccb94f8aadb scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-b37f5780afea42fd4a3f8cbedfb8cd8f2859037d ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-829a3f30737a8f07217927bcc985464fe4e14577 cifs: fix memory leak in smb2_copychunk_range
-6d018dd51f38406b2525bc81f32d4428c3db74e7 ALSA: usb-audio: Validate MS endpoint descriptors
-0ba634744c9b2ed9da0944fa2472d3008e2299c7 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-9437d78f91600ab3b6331e4da9469eeb777357d3 Revert "ALSA: sb8: add a check for request_region"
-59bb1e90e4b2cea380fa03d2b595608a4161b808 xen-pciback: reconfigure also from backend watch handler
-44cdf0c44998d9edc252f7daf7bd9546160eb7f7 dm snapshot: fix a crash when an origin has no snapshots
-1792eeb480893fc15dce31ff7d8e148c8e659230 dm snapshot: fix crash with transient storage and zero chunk size
-2cd89666e9dd3591be7a6059ceefd4233c693441 Revert "video: hgafb: fix potential NULL pointer dereference"
-1141c3131146fb6ccd2f92d805c7b654ddcdd3aa Revert "net: stmicro: fix a missing check of clk_prepare"
-7d745fdc008384106f4c8e910ee3368762a56e5e Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-6d7aef18404ab001b6cdd9d4a7ba5e558b1aef02 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
-2c57d38ba07d636709e303271dda26c9177b51b1 Revert "video: imsttfb: fix potential NULL pointer dereferences"
-74c1dc8244606573cd12929313a96bb4fe67bace Revert "ecryptfs: replace BUG_ON with error handling code"
-fc40644202ad6862ed4b01c37408e40870fbcf30 Revert "gdrom: fix a memory leak bug"
-9be54444a5e1a63cf05ffed7717a14b9ae63b63e cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
-ff5c5b7924dedb6b68cc44a00e5a7c2e5d0ca887 cdrom: gdrom: initialize global variable at init time
-c50a8c5ebae10ac1daece812cc2effebaf71adbf Revert "rtlwifi: fix a potential NULL pointer dereference"
-a33f575271e9d85691f7d33c6a02d2b71884c9ad Revert "qlcnic: Avoid potential NULL pointer dereference"
-1f32abd367a589c7e0d5c345ed9353c190a80eab Revert "niu: fix missing checks of niu_pci_eeprom_read"
-dcd31605d6f6390a7de170e7dc4a761cfacf7b64 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
-6952d492ee4319f8e3e652521b1f7324d480a207 net: stmicro: handle clk_prepare() failure during init
-057f203de11ac4d9cf493d8721d022b55ab72854 net: rtlwifi: properly check for alloc_workqueue() failure
+93c4d386c87a30626184a6c7000f14e15de63420 openrisc: Fix a memory leak
+72d3cf0ff64a2f165d3b03c940ecbdc5d26409f7 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+d9a4ccfd2e521c44d443e0542e9622f33fc177ba ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+e6cd5d79fb0a045373b83d3256e35137d3de41f4 cifs: fix memory leak in smb2_copychunk_range
+4aac05e4f2f37d374c029f440e27bfe6eccd604e ALSA: usb-audio: Validate MS endpoint descriptors
+83402fa4f73503a2b05da5ab585226fa061175cb ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+1d0155b2e5b00ebe48bc1022b46a36d2c65165f8 Revert "ALSA: sb8: add a check for request_region"
+b4d8dd58c85461233d237986518f3135aa8cd002 xen-pciback: reconfigure also from backend watch handler
+18cecd8a34462598ed20a3cba920f3b42410555a dm snapshot: fix a crash when an origin has no snapshots
+3ebcac84eadf75fab5d3c95130a20f6b8d067d6e dm snapshot: fix crash with transient storage and zero chunk size
+be21e6955c1e091c710caa0b17a1b690bd17c980 Revert "video: hgafb: fix potential NULL pointer dereference"
+f7f38718cd3cfa1f2ccd2016ddee1821838ee9d0 Revert "net: stmicro: fix a missing check of clk_prepare"
+5f758eedafe949eb132b2837e0339d05fa02426d Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+264e00c6021fa223d431933ee97d7d7add8cac62 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+6893c72dd0f047aab1700b581858436ec9e3eded Revert "video: imsttfb: fix potential NULL pointer dereferences"
+04e63f4b72e4deeef55b23021039b2588a4fb52b Revert "ecryptfs: replace BUG_ON with error handling code"
+8d723a79422d0b9e80867dadeb4c4d639b42032b Revert "gdrom: fix a memory leak bug"
+64808a2f757cfc9c404f412a26ddcc03e33953d3 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+d10c1dda7c0ea2a0ec08606854a514b190892863 cdrom: gdrom: initialize global variable at init time
+3563986e89eab679990215ef14cf761d01f81698 Revert "rtlwifi: fix a potential NULL pointer dereference"
+9fc9dd420b4a39e3bf211f798eb87ce3519ece9e Revert "qlcnic: Avoid potential NULL pointer dereference"
+3756a171f375dbe83f520dfda10e2d74a414fd1a Revert "niu: fix missing checks of niu_pci_eeprom_read"
+e37148d7746f9b62b9e34ae5d38fab567ed58fad ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+7e0a9d0a5212dd5ecfcfce48788924524bea7e6c net: stmicro: handle clk_prepare() failure during init
+d7f190ace1f995a6617026a77ae284739483aa53 net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-858d860b7028-e3126cae2baa.txt
+Content-Disposition: attachment; filename=revlist-e3126cae2baa-fa115be26be9.txt
 
-d02d07164f834355634232b8074c9bbe93da557c openrisc: Fix a memory leak
-e42c3355c1068e07cdbc19b68e539ca39f7e8a56 RDMA/rxe: Clear all QP fields if creation failed
-edd4ebed692115fd58002c829aa3bb1eab1f4f93 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-54321010b79f563a923c29e9165177cfc0825911 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-958ecf37fa04dc742f3e9bbc7a690632bb608565 cifs: fix memory leak in smb2_copychunk_range
-42cb0ee4634402096b1ec1d1e5d6d14de54173e5 ALSA: line6: Fix racy initialization of LINE6 MIDI
-5d1285c6c2b863119cf2835d50f3dd53da1d9146 ALSA: usb-audio: Validate MS endpoint descriptors
-dee3781280c03dde11036b1e9f3b098aa6664dfe ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-8bfd03fddf5a0eb78ba500064468595e2c4d8708 Revert "ALSA: sb8: add a check for request_region"
-8289554e42d015a14833b8d9cb529822cd5a71bf Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-64a0fc1790047acd89fb2e13219b353e033fa0c7 rapidio: handle create_workqueue() failure
-7e0c74fb0ca36761b5a07ea910e03054b0dec9e8 xen-pciback: reconfigure also from backend watch handler
-8aab7b08245c6070c61676d46ed39ec45409a00c dm snapshot: fix a crash when an origin has no snapshots
-e3126cae2baa02d5caed12a8b0ca3cbe1cffc59b dm snapshot: fix crash with transient storage and zero chunk size
+c3a6270aa286d7de9bfd0694a8155a19918016ee openrisc: Fix a memory leak
+ef49f6023f46012bbfc52f2a24d32f8ecf49b853 RDMA/rxe: Clear all QP fields if creation failed
+1118394c3f6d3ab5f3a453a4a8352cfcdffcfa3c scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+e75e767ea197423a60f3f7322df65188ff1a0ae1 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+98838b239c710b7852ba4d97ccd2d771097bda28 cifs: fix memory leak in smb2_copychunk_range
+446e6690490bb25f9e2565a157abad671d454863 ALSA: line6: Fix racy initialization of LINE6 MIDI
+75d8dd95c0ccc5a702a4a28d980b97f49e4cfcd7 ALSA: usb-audio: Validate MS endpoint descriptors
+0ed5b9d6c505688212cf354b292a20808c7d9e66 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+a7de58a7290face834ffd2cd8f0c71ebc4a5c815 Revert "ALSA: sb8: add a check for request_region"
+3ef33d90c9c0b0ed07316671b2d4eeaa9da45b05 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+bd99359cc9f862f20dabd0c402aace1a57975642 rapidio: handle create_workqueue() failure
+df4b7110db50e758bb2b913f5f363132927999c3 xen-pciback: reconfigure also from backend watch handler
+e26ed4ea865a44ac1c9cbd37f795cc6e27ca5a47 dm snapshot: fix a crash when an origin has no snapshots
+86503fd2dfd220106eeef8ffe51f4488dafbeaaf dm snapshot: fix crash with transient storage and zero chunk size
+ef4c35e9e5b9b50a76135301e821581ec35d937f Revert "video: hgafb: fix potential NULL pointer dereference"
+f1184fcbdf3db2cdb3452c49c5987329c0ec152f Revert "net: stmicro: fix a missing check of clk_prepare"
+6fb5ff5853a182c7cfcdc6d4f37a2fc8818f57d5 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+0ca355c714777c1e1f2af16f6db1f08dadc7c2a4 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+5732a1ba8b3b4087e14bb05fc6cee7fb2e2d5aba Revert "video: imsttfb: fix potential NULL pointer dereferences"
+843689955750f93408bfd86d252337579acf4879 Revert "ecryptfs: replace BUG_ON with error handling code"
+aafc6af4bf20c50bb6240e4cf46f3976aa1dc4a4 Revert "gdrom: fix a memory leak bug"
+7937e16a62063348b3bd9e1c5a605f6de5f1e283 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+11930ff548f93e28c899131cf4b832ae4e87a4d8 cdrom: gdrom: initialize global variable at init time
+f20ae10ad666e0304f07ceb251082e9e0889a32f Revert "rtlwifi: fix a potential NULL pointer dereference"
+bbeafa511af2033ba59e3bfed8b505c00f324e50 Revert "qlcnic: Avoid potential NULL pointer dereference"
+adbfced1ad6aefcd3e885bd02dbc05e673040dc2 Revert "niu: fix missing checks of niu_pci_eeprom_read"
+aa9bf600025de417f0a269b9c692618c4b61a423 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+822f4466a81566714c68eb40b3641346ee0d2b92 net: stmicro: handle clk_prepare() failure during init
+fa115be26be9deb4e7e58f04b1127568aca30511 net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-588486aa172f-4c9f5e20d84d.txt
+Content-Disposition: attachment; filename=revlist-4c9f5e20d84d-ff47cdd3e062.txt
 
-c96d6d1d14c6f88d53ebe1983f6d4babce805e0a firmware: arm_scpi: Prevent the ternary sign expansion bug
-c20dea2f8ecd9aaf656b8a86b8eed1b2c414d650 openrisc: Fix a memory leak
-f6dad7d045d57fa5169085878bb06be8c8876024 tee: amdtee: unload TA only when its refcount becomes 0
-7f6a80d12509375176af1d1eab53694b6a753f2c RDMA/siw: Properly check send and receive CQ pointers
-44f88e3d694c856731fb22733ecf3ea22a3024b5 RDMA/siw: Release xarray entry
-90fa67d2f481313ce111189fb9a525215b0b6d6c RDMA/core: Prevent divide-by-zero error triggered by the user
-972da3e95dafee62263ca1affa750dd61d8da3f4 RDMA/rxe: Clear all QP fields if creation failed
-c56e73a393e1421b570aec3a1d03d9c7cb0b0e1d scsi: ufs: core: Increase the usable queue depth
-0023f0f6d6fd1582c191b28a171d2cdee886cc53 scsi: qedf: Add pointer checks in qedf_update_link_speed()
-c8d206e8fb9490dcd9324bdab941ed7357998f1b scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-889b80045bbcc5d3ead56e3190b4c68942d2f6b5 RDMA/mlx5: Recover from fatal event in dual port mode
-b4dea09d86b0ff3c86d2fd80efbb2401e56d95b5 RDMA/core: Don't access cm_id after its destruction
-ce3221dfa9ec4687e5f15ea27b3b7f30a83b40d1 nvmet: remove unused ctrl->cqs
-1de71939c835d1eda163b818a4182ae6a8c72121 nvmet: fix memory leak in nvmet_alloc_ctrl()
-7c17f7608c62e1b928c754d629b4448dbd9b12c5 nvme-loop: fix memory leak in nvme_loop_create_ctrl()
-927e532fd73b8af1ab917b9dcc6844572c8ca30e nvme-tcp: rerun io_work if req_list is not empty
-a52c044a2a748722df3c03019373e11f4cffee96 nvme-fc: clear q_live at beginning of association teardown
-679f578ce735837be8c7e5a9c90041f541a14466 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
-4128f51e590d74eac6dfcf2507b60d582dde6f2b platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
-dd13137a586e2d80d96ebd08c7322fb5c5426f87 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-3a008b6418630bec553dc51bf22425f835dbf1f6 RDMA/mlx5: Fix query DCT via DEVX
-b67ceb00dfc532c37ed935a2d72a3b7acc5d60fb RDMA/uverbs: Fix a NULL vs IS_ERR() bug
-680a54ba5020031c902fcc920f72be8965a6739c tools/testing/selftests/exec: fix link error
-3b18e1d249bd6c936540c2aebf3cfee3730103ac powerpc/pseries: Fix hcall tracing recursion in pv queued spinlocks
-08743c4f73ba7e4e26dc7e6008b3c6363bb856ef ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-3414db16ef6af198a2290ab8944c88535b6213b5 nvmet: seset ns->file when open fails
-fa568f7985a8243778e53cea339fe4017ce6a8f5 perf/x86: Avoid touching LBR_TOS MSR for Arch LBR
-1bdfe0418777602e3cd7358370959d81463d996b locking/lockdep: Correct calling tracepoints
-e39d4fdc895bac84795041052db9ae6cd2f501bd locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-7ed358ba259c3b4f8975b2349069ef3bcc92206d powerpc: Fix early setup to make early_ioremap() work
-e4e8b9bb734d1bfd32f788847053a3b7fbbb6024 btrfs: avoid RCU stalls while running delayed iputs
-591172aed5b9436951b4ab90eb4174225f21e482 cifs: fix memory leak in smb2_copychunk_range
-af14b08e3152d8fcff08cbacaec3fdb20064433d misc: eeprom: at24: check suspend status before disable regulator
-acf7e193b6dc332952de9d40ef2ee16a281b2b4b ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
-fcbbb15384e56b4035e6a26da51aa3ba66caeda3 ALSA: intel8x0: Don't update period unless prepared
-0f54df215d827046f79e110b0491855e402057a2 ALSA: firewire-lib: fix amdtp_packet tracepoints event for packet_index field
-0b4f7d3f2aac673c9a5843c3f83332db7bcdc579 ALSA: line6: Fix racy initialization of LINE6 MIDI
-c6ce322930d9fc81addc7902a274aa559ba99ac0 ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
-bb148fe3d3a9b8d824a635b563f19c85b3626564 ALSA: firewire-lib: fix calculation for size of IR context payload
-8f32cfdd3eede3bc313ab1838473af7463b047d2 ALSA: usb-audio: Validate MS endpoint descriptors
-5d9ad1f5339bbfcaeae2cdad116b11d69fd6e777 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-1bbd43ed0c3b147dd53debe5923a32a923668c21 ALSA: hda: fixup headset for ASUS GU502 laptop
-0eb2c39c955141021639113161f354817d55c90c Revert "ALSA: sb8: add a check for request_region"
-9285a43a078fc5d05b2db621a09cf4c33e5704a3 ALSA: firewire-lib: fix check for the size of isochronous packet payload
-760079f49a97239f21f61005cae6ad7e27d5d620 ALSA: hda/realtek: reset eapd coeff to default value for alc287
-4c0ead198d1de79a71e5b55d063b56a6ed5b670c ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
-2470859bc3c9b63df8579328bedb5688647525ca ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
-ac42c7399bba63303ad6b0fb1b295f443f54c7c8 ALSA: hda/realtek: Add fixup for HP OMEN laptop
-3bfd489cf4bdd42f915c5e15dcfb4e0918892ed4 ALSA: hda/realtek: Add fixup for HP Spectre x360 15-df0xxx
-93f8086bd19e7be4dd01e3366cfa5e23e95e03e6 uio_hv_generic: Fix a memory leak in error handling paths
-a374d7c7cba2d78da6181e32e1e465350f442214 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-2d796d82a5e8815903f1f46d4b120fbf4caa456f rapidio: handle create_workqueue() failure
-c6be3981245342f6a915598f00f1e31987691ea2 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-520c52757fa57c83b23a0d48becf5004b5f3f79b nvme-tcp: fix possible use-after-completion
-ca3c47ce4f6c65994c544f5f0cb365a4bf83ce45 x86/sev-es: Move sev_es_put_ghcb() in prep for follow on patch
-4b9e50d392d7a3bbc9e53838e6ebccfb72186f79 x86/sev-es: Invalidate the GHCB after completing VMGEXIT
-033626b0113920de193791f37128ac61deb17a87 x86/sev-es: Don't return NULL from sev_es_get_ghcb()
-58f85d40ff520248373458691d7618b49c5332b8 x86/sev-es: Use __put_user()/__get_user() for data accesses
-8e6fb77deb7e1484f2971a61fe12e4fbb587b7e8 x86/sev-es: Forward page-faults which happen during emulation
-d1fdc70c2d0c3ac4a047a28bf0a60ff958d77e66 drm/amdgpu: Fix GPU TLB update error when PAGE_SIZE > AMDGPU_PAGE_SIZE
-6db1944d2977ce9209f2e460d9079c7bcd0664a8 drm/amdgpu: disable 3DCGCG on picasso/raven1 to avoid compute hang
-e3b70f584f194ea9f59e536d8e962c6274cf35d6 drm/amdgpu: update gc golden setting for Navi12
-7b95a66a0ed6f083ff94316e2aa5986d598be214 drm/amdgpu: update sdma golden setting for Navi12
-d0d9ca5427361f6a72d3b2987146e62cece9dade powerpc/64s/syscall: Use pt_regs.trap to distinguish syscall ABI difference between sc and scv syscalls
-181dcc6b8913ac8c891bab513a7cc4deb2c1a443 powerpc/64s/syscall: Fix ptrace syscall info with scv syscalls
-1f757d2574b851ffa648c4eba2caa32b3febfcc4 mmc: sdhci-pci-gli: increase 1.8V regulator wait
-6d704e9a96fb162ba0bcc2adcddc1f79f7451a2e xen-pciback: redo VF placement in the virtual topology
-15fc7ff13c4efae69bb11af0d71c1f41bd98ca65 xen-pciback: reconfigure also from backend watch handler
-09bcc9f981e5dfe1fd9c335a659d5a46d0e89fbe ipc/mqueue, msg, sem: avoid relying on a stack reference past its expiry
-d949161fc74d984bef74f0f43a2ca783f429faab dm snapshot: fix a crash when an origin has no snapshots
-0d346bb6d3fdf1b1f9aa44d224f61afc22d883ef dm snapshot: fix crash with transient storage and zero chunk size
-4c9f5e20d84d6ffe131be82a2da3bd96f60e2617 kcsan: Fix debugfs initcall return type
+a4935654e9d851f1479f1ec895f72d9d3e5677c8 firmware: arm_scpi: Prevent the ternary sign expansion bug
+437a0a986ce3178687e7b03a8fd1e518b98bafff openrisc: Fix a memory leak
+8a82380fe99e071f96e63df8cf7fd1a22341ef5d tee: amdtee: unload TA only when its refcount becomes 0
+64edeb7ab4c5c36fa023d822dc2ac6e98aa605fc RDMA/siw: Properly check send and receive CQ pointers
+2dd401e44eff66290bf8a18e0773feba6533ba1f RDMA/siw: Release xarray entry
+88e5f1a266a6ed872da682d960f4a70016618e11 RDMA/core: Prevent divide-by-zero error triggered by the user
+49f877f297fe2e90663286ea1ab318ebe3074b28 RDMA/rxe: Clear all QP fields if creation failed
+203a2e517364c08852a758e986ba41e10ca05069 scsi: ufs: core: Increase the usable queue depth
+e724d698c73752a51149c10ec236779afa3ca6bc scsi: qedf: Add pointer checks in qedf_update_link_speed()
+6077a0e5457a499a7a0b885dd852f2be172b0ff9 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+a5674ae3e2f0b2012160773dbb1fcc747ce88528 RDMA/mlx5: Recover from fatal event in dual port mode
+cba50ec1d2b5367bf2b3babbf44767e7b5b97ede RDMA/core: Don't access cm_id after its destruction
+25b8f29d78b604a304b138d1011aac9c64b05540 nvmet: remove unused ctrl->cqs
+5744200bd77ef6fbe0a3fd98b9e948b452f9edff nvmet: fix memory leak in nvmet_alloc_ctrl()
+3744fc0fcac3f1d80af28deab30ac8cb4b0f9982 nvme-loop: fix memory leak in nvme_loop_create_ctrl()
+7d4ec43480b51313e139bd1e73d0e4d4ee25ce96 nvme-tcp: rerun io_work if req_list is not empty
+7378fe7416534f0e6d8e9d9c7ad0b14ddf0e4313 nvme-fc: clear q_live at beginning of association teardown
+579e676974ede72fe887a25e5dd230ba040f5234 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
+1a8422ace4b903c5b43b13c638e084d83c966a84 platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
+d262e15bd484e5ec235a9cbb00016ac794fc146e platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
+86540be49ea619dd3aeeadd3878f3f3fed2cff5c RDMA/mlx5: Fix query DCT via DEVX
+fb00fc4bfbd3e8d44f3f4054538e0557deb7c64d RDMA/uverbs: Fix a NULL vs IS_ERR() bug
+26a69642d17f2c53497f8643180ffdb949fc51a8 tools/testing/selftests/exec: fix link error
+9db2e1acd7562e474afd372c1f56b1059d45b947 powerpc/pseries: Fix hcall tracing recursion in pv queued spinlocks
+43544ad523980f4381203cf124cde5a999cc4c6f ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+021eb9a4e60070e27eacb8ea89739a4f410ab640 nvmet: seset ns->file when open fails
+85614c62fca41770ed86eec29318a0094fa4a8c2 perf/x86: Avoid touching LBR_TOS MSR for Arch LBR
+6bc242188ecfbaf0f2ac632db829d495488174da locking/lockdep: Correct calling tracepoints
+44e34e380a12b20d6310ee756840db60aea38634 locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
+05c4ea19e77e64876caec3df1dc3d4fda4495fe1 powerpc: Fix early setup to make early_ioremap() work
+8c2ba4862cf33d318642897b33a85d5baad5cc5d btrfs: avoid RCU stalls while running delayed iputs
+2d109a7a434d82c6488215760c1d8e4cad0f1616 cifs: fix memory leak in smb2_copychunk_range
+3eae26e00e5ebbe16d37a84f4ebca290abb8f363 misc: eeprom: at24: check suspend status before disable regulator
+04ead22093154d63ba462793f930da5c026e2201 ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
+70504417a82c4f78c257032efa04fd2e5627213c ALSA: intel8x0: Don't update period unless prepared
+90a561b8fd694dafc77923457d9786fb7e423040 ALSA: firewire-lib: fix amdtp_packet tracepoints event for packet_index field
+79f6c61c14f494be123349b109a322486c5b4e4b ALSA: line6: Fix racy initialization of LINE6 MIDI
+1038d576d2e5473949efd7477a03f90f583b1764 ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
+77af45a0ff7a4d2ffbab6ee19291b65a92711599 ALSA: firewire-lib: fix calculation for size of IR context payload
+558db9e5aafc78620c63478e873a30db4be8478e ALSA: usb-audio: Validate MS endpoint descriptors
+cdab726f93ef69bac6e1a6cc80ca03441954f231 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+f549391b354e95c5cabc6502dc2af4277644e455 ALSA: hda: fixup headset for ASUS GU502 laptop
+9d99dfb1e212d776ce10b474583429f112a11b3f Revert "ALSA: sb8: add a check for request_region"
+fabb7e979e76e2a371303bdfba93ed4353530460 ALSA: firewire-lib: fix check for the size of isochronous packet payload
+dbab0d5a5f7155cf7ea811ceaa446d794d88ffd5 ALSA: hda/realtek: reset eapd coeff to default value for alc287
+217371147dec2a2a4a7c5237d0f2f035a4ad1fda ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
+a52cec1e792a5b27a7b4eba7ca6bf7c84f9f98f0 ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
+c6f565376257666787ac5cd34fbb914532c5df6b ALSA: hda/realtek: Add fixup for HP OMEN laptop
+8aa5024b88e9eb6b676cac41af0b18add3672279 ALSA: hda/realtek: Add fixup for HP Spectre x360 15-df0xxx
+893dbb3feee70e20551990b885f5bf6b4e4445b4 uio_hv_generic: Fix a memory leak in error handling paths
+4a742060f2300d134afdde0c439da82e13174896 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+f6aabc730012146c644afa8c3fe73bb9f73e15b2 rapidio: handle create_workqueue() failure
+dcbc5aa3eec3b149e91c5deee5802f4423602050 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+392f3596d25e28bfe47cf6789051333ea66e95e1 nvme-tcp: fix possible use-after-completion
+21f9fb8bf44e1d51ddb130e4d7eb727d9b4ec3a1 x86/sev-es: Move sev_es_put_ghcb() in prep for follow on patch
+4cbbfb634ddcfcbaf63d56cbc709cf81c13107ef x86/sev-es: Invalidate the GHCB after completing VMGEXIT
+49d1b62801d7dc36d617b4d48799baafe8045c14 x86/sev-es: Don't return NULL from sev_es_get_ghcb()
+fa9ec15ae8fd465d90f92de2c426249d089fca35 x86/sev-es: Use __put_user()/__get_user() for data accesses
+6181e80c1652ab629be76ff8c8d199af4448e74a x86/sev-es: Forward page-faults which happen during emulation
+a07848fcc8e2b17d95f83049287ddcf9ba044d06 drm/amdgpu: Fix GPU TLB update error when PAGE_SIZE > AMDGPU_PAGE_SIZE
+8d49371221da36be3556b14f2091ae08f956c51e drm/amdgpu: disable 3DCGCG on picasso/raven1 to avoid compute hang
+84ac983f11ab1c7e813346c489c59a7770f01ec6 drm/amdgpu: update gc golden setting for Navi12
+af396dee823f34d819acf0d59788e1ee31f75436 drm/amdgpu: update sdma golden setting for Navi12
+ed62a0e1e0e596a3a10d2d42a8e2834570ba48b9 powerpc/64s/syscall: Use pt_regs.trap to distinguish syscall ABI difference between sc and scv syscalls
+c643554b32b40e190231e0fb0711bf2355583877 powerpc/64s/syscall: Fix ptrace syscall info with scv syscalls
+8dfb55414431df019f8cad7c2fca7d8173a30e3a mmc: sdhci-pci-gli: increase 1.8V regulator wait
+390aebc913c76b48aa7dae21f674bbc02c61e823 xen-pciback: redo VF placement in the virtual topology
+e1fa1fe1e4db046d311531e6d4ec676fb77f81ef xen-pciback: reconfigure also from backend watch handler
+d51fafb6028c3c337b19672bc64a3d88da0b02e0 ipc/mqueue, msg, sem: avoid relying on a stack reference past its expiry
+ea92aacc1915327c0a797b9d57d3288b932d68bd dm snapshot: fix a crash when an origin has no snapshots
+19b12376b19c2c9894ed1b6f2573001006c5a607 dm snapshot: fix crash with transient storage and zero chunk size
+b6ead3e9ee80db6cd72a0efaa891708191dbeff6 kcsan: Fix debugfs initcall return type
+6833b8b242f68515830fcce25527fbef96d97895 Revert "video: hgafb: fix potential NULL pointer dereference"
+7b1ae61c11912055e6ba340c479fda1701e7b603 Revert "net: stmicro: fix a missing check of clk_prepare"
+3a2024564c506560db4e6727a1ab4e44d03280d1 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+434b07c08ddd2161f5ca2ff2d1d5bb47e4d75a7c Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+dcddd3b226055ea9fa7402765f0c32f43f8d613a Revert "video: imsttfb: fix potential NULL pointer dereferences"
+b773f6d42514dfd9b40793c61fb4828634aafd6c Revert "ecryptfs: replace BUG_ON with error handling code"
+1ec9a1031275f1e2c5c5138d759858bdccc12f25 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+40c59b780180f9586b8e6af135c7bdd9a33ad5ac Revert "gdrom: fix a memory leak bug"
+e9769e1fc039572c8f0f3caa9531e2aa5f05f86a cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+d74e26d24523a8692940173f2ac9611af8d409c2 cdrom: gdrom: initialize global variable at init time
+d5a2a846a88475340a37c258c3fed07c0b406383 Revert "media: rcar_drif: fix a memory disclosure"
+699fa5fea0d1ae5e4301148b176786cb81d40ce4 Revert "rtlwifi: fix a potential NULL pointer dereference"
+9dc1aa4c54e217e2188fa5c673030b9b0a27b877 Revert "qlcnic: Avoid potential NULL pointer dereference"
+65fe0f0721df8b0a411557b9b854d93af60159fb Revert "niu: fix missing checks of niu_pci_eeprom_read"
+f8f9d0d33e10adec2222add64d7356307d172cf2 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+04a52500541fffd008fa79c6f04ddaf49ac16fd7 net: stmicro: handle clk_prepare() failure during init
+60acc08db557b5757bf40a44969e4dfbc8d5f257 scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+ff47cdd3e0623e707bd20011d3b8939bd5390916 net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb1483055945-87a3027cba0a.txt
+Content-Disposition: attachment; filename=revlist-87a3027cba0a-95a5ff779c46.txt
 
-d42f7c14c2db2bdac09354b5f29377032d9ae65b firmware: arm_scpi: Prevent the ternary sign expansion bug
-b324903416a44cc3ce937c91cc4db1c5171f2105 openrisc: Fix a memory leak
-1e5da2a78a21ef996a6797afb5ab7ac75462bbc9 tee: amdtee: unload TA only when its refcount becomes 0
-89b2378215fcebab174251b239dc52057883e1b6 habanalabs/gaudi: Fix a potential use after free in gaudi_memset_device_memory
-07a51438f237c47c4995d7eb8ee1a43ce0a77fde RDMA/siw: Properly check send and receive CQ pointers
-35acc0a73ce583a654b145388147956111f1755d RDMA/siw: Release xarray entry
-601403a89af32f3e4a94cdb4d9d8181ab34ef5a8 RDMA/core: Prevent divide-by-zero error triggered by the user
-aebfedafee6bcb3a37e8613f6301f17da9a602a4 platform/x86: ideapad-laptop: fix a NULL pointer dereference
-5d972b3c7a4e719616dc915f77dcc4a557d48458 RDMA/rxe: Clear all QP fields if creation failed
-b553719bf97b9f185499f2aeb8b1aaba4bc133c3 scsi: ufs: core: Increase the usable queue depth
-a354f43277fc572655bffa6a21c82500f851fe65 scsi: qedf: Add pointer checks in qedf_update_link_speed()
-cc5de602addaebff96cbfd4cb421950393d09ad8 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-5f769cd81ed45d3941bda5dd0a944b2ee652f170 RDMA/mlx5: Recover from fatal event in dual port mode
-e12fc84769ef999b6c8569716ed3d6a967d4b035 RDMA/rxe: Split MEM into MR and MW
-58b3da1aedfbe833306b6d6815e6d952aad51953 RDMA/rxe: Return CQE error if invalid lkey was supplied
-185fc343879f379485251bf1dcb23809698e2fb4 RDMA/core: Don't access cm_id after its destruction
-949d872d7de1b867494dc4dc9df4637628b05d86 nvmet: fix memory leak in nvmet_alloc_ctrl()
-3b43d123e5c97c306950d85ebefa0a0499fa9c3d nvme-loop: fix memory leak in nvme_loop_create_ctrl()
-bfb6c887612a3c4e86b8d760fd5cf8012727f650 nvme-tcp: rerun io_work if req_list is not empty
-3e0d8a47b3ec0e8ba175c60ae1c0cb3d7945918f nvme-fc: clear q_live at beginning of association teardown
-542b17403e9765f0665aeb6e990ca4a53260d243 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
-81935e3d32d73cda6c48dc87c77f2356bfdbe627 platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
-324620293bf9bbef5978315da2f8cd1f34d8655f platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-c684e1b8b2095b46ea62308e8e60233c01a0376d RDMA/mlx5: Fix query DCT via DEVX
-b655afd29199d7170089fe274da0e6b2525ec6e4 RDMA/uverbs: Fix a NULL vs IS_ERR() bug
-de29f8a8149b0229be83b4e8a9bc5973d0e32885 tools/testing/selftests/exec: fix link error
-76842b24dc0c69064e28e46b1cb7a13735f4122a drm/ttm: Do not add non-system domain BO into swap list
-d6f3bfbf5416bb35d929a2374f0c9d7dd741dc96 powerpc/pseries: Fix hcall tracing recursion in pv queued spinlocks
-24d8f70f304c14df1fdcb5e7e50ef7a9d41d3588 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-815997d5f48681b37e154ca2a5eaf0701095d179 nvmet: seset ns->file when open fails
-d2bf722be80c92a9212fb3a171ac3bbfa029b13b perf/x86: Avoid touching LBR_TOS MSR for Arch LBR
-3f194859a4a9e544228dc87f8e71522914818fc1 locking/lockdep: Correct calling tracepoints
-5961cb46182aa9ca3aa0e49c97095b2df65c7300 locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-9394131d22fe5645387496cc246b4f9f8025608a powerpc: Fix early setup to make early_ioremap() work
-8c91f43de62c8a9384ccc94f199941667143fa24 btrfs: avoid RCU stalls while running delayed iputs
-36a0ff2ee391cfbd1ead0e3bc98ffc9ae214b2a2 btrfs: fix removed dentries still existing after log is synced
-9d11eac525ac8b1c09c9c9733d28d7d96e822984 btrfs: zoned: pass start block to btrfs_use_zone_append
-d10cc9896102f82b8ee5feabb0f92d41b4ec03b8 btrfs: zoned: fix parallel compressed writes
-7ef9df2619aed6d0af2988b182da33d527ae2449 cifs: fix memory leak in smb2_copychunk_range
-6c85bf97113b1959ddd9ba291f893f3f30e81d2f fs/mount_setattr: tighten permission checks
-83ec9d14b913b7e44d5cfb7b8e62b4258922a0d6 misc: eeprom: at24: check suspend status before disable regulator
-31d53ec7d8fae248f15959eb2937a29329d4b203 ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
-ceb9c7ed8e7886b0a73dfd444527a51a7299e65a ALSA: intel8x0: Don't update period unless prepared
-2aafec7abff7d380f47c7a3b3535dd1fd4286414 ALSA: firewire-lib: fix amdtp_packet tracepoints event for packet_index field
-17f1bad794b47e14fea310a7771d9fd102b9f9d8 ALSA: line6: Fix racy initialization of LINE6 MIDI
-4b7b5b7da059a34215d596ee97a09239a1498702 ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
-f3f077b6d422f621013847693f8f760e3c224b5f ALSA: firewire-lib: fix calculation for size of IR context payload
-38e5d11abc3c11c4e71888e88fcacf6652d02ec8 ALSA: usb-audio: Validate MS endpoint descriptors
-862ce952301de9d706c4196d73ef8c368100c313 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-05de3b217a7f0d123e4e337533e308f5e685d442 ALSA: hda: fixup headset for ASUS GU502 laptop
-f1d5f4b2632b0471b7c45495f4ee4eb12297688c Revert "ALSA: sb8: add a check for request_region"
-0cb7ec6d2e678131bfeebd10343bb1f39154080b ALSA: firewire-lib: fix check for the size of isochronous packet payload
-bbf30f85b6badd11af44ad7f22725fa7e2973da8 ALSA: hda/realtek: reset eapd coeff to default value for alc287
-0389de5a93ee9111efd45a71d4bbdbc0d2c759c1 ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
-06e0f11d18479d4e29dba3824ba4d41be326bdbd ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
-9a27be1d3d46cf41bebdaf481a1ea26c02db818f ALSA: hda/realtek: Add fixup for HP OMEN laptop
-04cc8a1bb27e900a660e8e0ac37c87cb5dd8602c ALSA: hda/realtek: Add fixup for HP Spectre x360 15-df0xxx
-a5296d4ae10032c63323a1c17812e1ba0d8b80f9 ALSA: usb-audio: Configure Pioneer DJM-850 samplerate
-b19c31604698c046de2e815998d30ed4a0e497ef ALSA: usb-audio: DJM-750: ensure format is set
-9ed7274b25153cd81d6ea3656efe19136e5db659 uio/uio_pci_generic: fix return value changed in refactoring
-085613bc4e14c17a5e027e378819e4654ac56d90 uio_hv_generic: Fix a memory leak in error handling paths
-f0e9d5db8a1db035ec3bcdeef36a71203357f976 uio_hv_generic: Fix another memory leak in error handling paths
-7c0aa9cde96c3ee9607f267bbcf704e6cac981ad platform/x86: ideapad-laptop: fix method name typo
-319907ccb9be93af906db5cc590b073300961a04 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-50712918d581e6a394ab4f2e6efaa78804eba414 rapidio: handle create_workqueue() failure
-46f6d30c1fd72596da5d43991ab5712378b0f210 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-4c994369d3c3b9832c86859833d61059d3ed6247 nvme-tcp: fix possible use-after-completion
-58eeb27465fba1821007b291c08db5ee6e5caf41 x86/build: Fix location of '-plugin-opt=' flags
-1c68d96fe7e03fd340e0df594f1e0069d69c6422 x86/sev-es: Move sev_es_put_ghcb() in prep for follow on patch
-17fb1a6bf75a6d917158ef2ae1b8ea2c4cb5dd3c x86/sev-es: Invalidate the GHCB after completing VMGEXIT
-5c76ef2611b95fca61c4bafb05c117498e49f425 x86/sev-es: Don't return NULL from sev_es_get_ghcb()
-1206738b048d2fa2e8529df8cfcc325bd13868f9 x86/sev-es: Use __put_user()/__get_user() for data accesses
-28dd16eab162b279436b6a40f8c936c48a25817a x86/sev-es: Forward page-faults which happen during emulation
-bccd4f0f4fa75392803aa5584f4f2e999689afa5 drm/i915/gem: Pin the L-shape quirked object as unshrinkable
-fd99d969ff3b5eb8846d5f36d79b30363c25df69 drm/amd/display: Use the correct max downscaling value for DCN3.x family
-23751e44d524cb854c12a1ca1815960b4c903fac drm/radeon: use the dummy page for GART if needed
-db2e007b8eb6a013b4667a2603aa33ad9b8784a4 drm/amdgpu: Fix GPU TLB update error when PAGE_SIZE > AMDGPU_PAGE_SIZE
-781984473077d5317a3cadd35494d4426776b5a4 drm/amdgpu: disable 3DCGCG on picasso/raven1 to avoid compute hang
-1e18e563a26948bf3b245f2621fef79b41fee5c6 drm/amdgpu: update gc golden setting for Navi12
-325347ef64640a2375de1e17e9777bbfc4beafc7 drm/amdgpu: update sdma golden setting for Navi12
-aa127ac61870a39822fe3486d4b68b9549cd74e6 dma-buf: fix unintended pin/unpin warnings
-015e5b7e6e263b5f3f39898659c97a5e69451f67 powerpc/64s/syscall: Use pt_regs.trap to distinguish syscall ABI difference between sc and scv syscalls
-8403e6d2af95ecf3720b6dab3500de22eb144f70 powerpc/64s/syscall: Fix ptrace syscall info with scv syscalls
-b7a50746ed55fdd69500b73183dc7e4c6a533238 mmc: sdhci-pci-gli: increase 1.8V regulator wait
-92c02c5bac371fd269836ddd7cec4c883180fe7d mmc: meson-gx: make replace WARN_ONCE with dev_warn_once about scatterlist offset alignment
-82b8925c80a59a6874190bb1610bd9cad2769aec mmc: meson-gx: also check SD_IO_RW_EXTENDED for scatterlist size alignment
-1ee8be392aafaa7fefa78c875b6297da0f9cd13d gpio: tegra186: Don't set parent IRQ affinity
-4b0f1f215ff54018d930ccef33c90c0a1ad9e715 xen-pciback: redo VF placement in the virtual topology
-6d28a7dbf0663e9f3b4cbf658e96520e75e0e9b1 xen-pciback: reconfigure also from backend watch handler
-fe141f5256511b3096d640b50cc92ffb2f0c2321 ipc/mqueue, msg, sem: avoid relying on a stack reference past its expiry
-8bf9b8a2ef381676e3537d6142405316083254f4 userfaultfd: hugetlbfs: fix new flag usage in error path
-c6b38ba419b00b3258e8627ddb4aa4eaf38ddfea Revert "mm/gup: check page posion status for coredump."
-4622df163f30eb3f32074533f0a1e4bfcde4728c dm snapshot: fix a crash when an origin has no snapshots
-d440a3c321cd2570001d2d1dccdcfc49b8a3c29b dm snapshot: fix crash with transient storage and zero chunk size
-87a3027cba0a680c4c8c283c7d63e560bd7fa0fa kcsan: Fix debugfs initcall return type
+1a86f7de52bac70deb0c9b5e13ae87ec06c035e1 firmware: arm_scpi: Prevent the ternary sign expansion bug
+c6584f9c67b317ed3c02745fad4fa535f2c07784 openrisc: Fix a memory leak
+da84730cdaf4607fd5f76f96370c4bb5fa00f3f0 tee: amdtee: unload TA only when its refcount becomes 0
+a8c080768feb432af24f7078941094765ee8ae8f habanalabs/gaudi: Fix a potential use after free in gaudi_memset_device_memory
+8bf8f756f09128359164c4647ed9492fc71cfc30 RDMA/siw: Properly check send and receive CQ pointers
+be8e3a1f66871ca86c5e88edb4f68b8338e69a4a RDMA/siw: Release xarray entry
+98cb8680e239e9cf302075cd678b70e7d955a683 RDMA/core: Prevent divide-by-zero error triggered by the user
+80a67979b9f9d776485a40c1cb5e4b32ac1fc6d4 platform/x86: ideapad-laptop: fix a NULL pointer dereference
+f4fdbad22187fa03cc7386cf577c146295c9d22e RDMA/rxe: Clear all QP fields if creation failed
+bb94d7ef67febbd8c2684049674d6f8c86eb9f40 scsi: ufs: core: Increase the usable queue depth
+49eb81f8fc47790f663a861136feefd0c2438d49 scsi: qedf: Add pointer checks in qedf_update_link_speed()
+920496a39675a7969dc35a6d8ffbec73fac0af39 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+7c1e29168bf66e6052d170ce3f1f22ccd2649625 RDMA/mlx5: Recover from fatal event in dual port mode
+86daef657fe65300c41faf9f1756f2d6c882d118 RDMA/rxe: Split MEM into MR and MW
+3099f7f8a334e2aaa5b8abb980e74aac6abbaa70 RDMA/rxe: Return CQE error if invalid lkey was supplied
+977b19be15c828279179ee6295f53de8785a6d98 RDMA/core: Don't access cm_id after its destruction
+f3957059f898c0c1b2adf4a048519f5daf26f36b nvmet: fix memory leak in nvmet_alloc_ctrl()
+45df3414711dc1831fc4c5da7cea3c33b399158d nvme-loop: fix memory leak in nvme_loop_create_ctrl()
+453ca56d5fb04673a9ccb6cf80d62989437adb52 nvme-tcp: rerun io_work if req_list is not empty
+e4ffab9551d12682f2e0d4289caf3986e0ded4ca nvme-fc: clear q_live at beginning of association teardown
+7e3cb9576f23f5736bbb6be86f1167f7a46b4e29 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
+f23c6070ff68b630489e7f2b0dba292fbabb3e30 platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
+f5e1ea2227380f69ca10d00aa08a93548d8b7ca4 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
+d0936f87f9a94aaeab8f769ff7dbfad983833e63 RDMA/mlx5: Fix query DCT via DEVX
+3f64187bfb8261e824539f2db25d6828bfffd9fb RDMA/uverbs: Fix a NULL vs IS_ERR() bug
+f901d74abd65f8e94d449c1602714d8331a96ad5 tools/testing/selftests/exec: fix link error
+7a13ccf4e43bb5643816d74e233c0d2794574893 drm/ttm: Do not add non-system domain BO into swap list
+58931315452c808a520e2b0b87d1d009d890da49 powerpc/pseries: Fix hcall tracing recursion in pv queued spinlocks
+b1610ec6d94e7bab24be5317c7fb09dda0b7e03d ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+3561b463b6d00f0fe3bf94f9479011e52a786c82 nvmet: seset ns->file when open fails
+95f24ccab9f11f9a53aaec10a09253ca964476f9 perf/x86: Avoid touching LBR_TOS MSR for Arch LBR
+0172df15872e5f65550ada8adca64ded9303d892 locking/lockdep: Correct calling tracepoints
+a233a5dbc8619ae97ebe2c0e012ef812aa5d6866 locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
+0da00b1013c75be667c65c841536dbc598f783f3 powerpc: Fix early setup to make early_ioremap() work
+9e6d2712335ef6392b1d200ca30ab1353fc28f26 btrfs: avoid RCU stalls while running delayed iputs
+b741c18056973f1d9be73948038995c9444e887e btrfs: fix removed dentries still existing after log is synced
+fe3011937232d39bdbf87423ef7362621203bd2f btrfs: zoned: pass start block to btrfs_use_zone_append
+f4f9c3b3d1273a7413954bd2daa8d20cf5111943 btrfs: zoned: fix parallel compressed writes
+8653efc04d341d1db94d9ccdadffd3aaa98c1627 cifs: fix memory leak in smb2_copychunk_range
+02f92c0d87afcba9ca321fcb5caa5f59019b4eee fs/mount_setattr: tighten permission checks
+a53faf763d6f4de0e0161d3fe8bed86439ed06d1 misc: eeprom: at24: check suspend status before disable regulator
+9d91bb76985f98b1d5b5fdbcecf1ef75a00063ee ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
+163d96d303918fc29fab6e56766f795d068108d3 ALSA: intel8x0: Don't update period unless prepared
+c8d038877a1aa20d8948986e4d6cdfff46481493 ALSA: firewire-lib: fix amdtp_packet tracepoints event for packet_index field
+c76c93087f1dda25a44ea2198fa881000c143698 ALSA: line6: Fix racy initialization of LINE6 MIDI
+8dc687e456fa9ecfc0aeb9a11b7b60c5de3de8be ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
+99607989751fe3fe845a1e386ea6b75e7be79b9a ALSA: firewire-lib: fix calculation for size of IR context payload
+afe1e5a890869aa53765ee56fa060c25af86a744 ALSA: usb-audio: Validate MS endpoint descriptors
+92b62e857a3869df6392afecb5f7dd804473211b ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+8f166147a251a1d35440f2a1c22096fbf7832f0a ALSA: hda: fixup headset for ASUS GU502 laptop
+c7e5612429be24b02e27744c68ea73ffd01e3529 Revert "ALSA: sb8: add a check for request_region"
+a39673dbc21b2b720ee452dd32f542d7ecf6998f ALSA: firewire-lib: fix check for the size of isochronous packet payload
+fbc32cc060dac937ef60963e45963455bd28bbbe ALSA: hda/realtek: reset eapd coeff to default value for alc287
+fb4cabed62abbf413eea99691dc2398997349fce ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
+2424f230ab0ba9436223b89a502e5419832171d9 ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
+ce1749d733db05311601b777ff6188ea73b905ba ALSA: hda/realtek: Add fixup for HP OMEN laptop
+1216ba2bbf3532069b6bea2ba67be251b782aed0 ALSA: hda/realtek: Add fixup for HP Spectre x360 15-df0xxx
+b2f0f3d6dfe5e304adcfc5d722d219d0fce26e2a ALSA: usb-audio: Configure Pioneer DJM-850 samplerate
+65c17d9112abbeb128420a7bef0662ac08c7625f ALSA: usb-audio: DJM-750: ensure format is set
+e6a26b9d92c845e337e787e2458d4ad03308d0d1 uio/uio_pci_generic: fix return value changed in refactoring
+98fab039c0580f7dc254f39b53e45752129db0fe uio_hv_generic: Fix a memory leak in error handling paths
+fe8588401155d4c000c6937c66e0369e450d78f6 uio_hv_generic: Fix another memory leak in error handling paths
+25c12758fd834607a580539b448a5003e11084cc platform/x86: ideapad-laptop: fix method name typo
+cbf48118f11f052ce5c3780f76ebf397fccbd229 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+17e9e5881d14dec7a791200b0ce076ad1665ad4e rapidio: handle create_workqueue() failure
+edfbbe4b6640b8e1ec58c3359fc69f5e0c6f9470 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+d11ffa419591f59137a6e222ecab8a1e94323d17 nvme-tcp: fix possible use-after-completion
+156b4404d30640e4dc4b970746934e598a4bb009 x86/build: Fix location of '-plugin-opt=' flags
+355289f12f07a441dc28373677582fba895fa2ce x86/sev-es: Move sev_es_put_ghcb() in prep for follow on patch
+f48c80b27aed46d0c150dec1094827bad3970b10 x86/sev-es: Invalidate the GHCB after completing VMGEXIT
+33a4502ff672056f2a043dbc769970742bdcd0f7 x86/sev-es: Don't return NULL from sev_es_get_ghcb()
+e45a3315b765c923a9230608af36dc015167a25a x86/sev-es: Use __put_user()/__get_user() for data accesses
+3fc86ce7f648200d5e6d9bf8236ba91914bc4b59 x86/sev-es: Forward page-faults which happen during emulation
+952ab469f0b450d7118838c07bacd33ed52397d0 drm/i915/gem: Pin the L-shape quirked object as unshrinkable
+210a9e2f1ad404c703cc7ce8366670a4708a3518 drm/amd/display: Use the correct max downscaling value for DCN3.x family
+ee0f9d5bb9ffebbf99db615fe5d9e5ed6f0746d5 drm/radeon: use the dummy page for GART if needed
+6501b570c593f684c41f029c5f02257f9f38bf76 drm/amdgpu: Fix GPU TLB update error when PAGE_SIZE > AMDGPU_PAGE_SIZE
+5af95e89946fa978d46048b3457cc88788e0ddb1 drm/amdgpu: disable 3DCGCG on picasso/raven1 to avoid compute hang
+8ed54225f7206534c80989cdb0535bba13d2366b drm/amdgpu: update gc golden setting for Navi12
+b10b562d57fcd7f2d3d2f5612a7103ee2c74ddd2 drm/amdgpu: update sdma golden setting for Navi12
+eb253e8e75e24c611ac24ecaee366ac516ebde22 dma-buf: fix unintended pin/unpin warnings
+f858f35661a0f36d87a093a99f63ff6985852879 powerpc/64s/syscall: Use pt_regs.trap to distinguish syscall ABI difference between sc and scv syscalls
+81e946d969872ba9622611687a8fd848d8a82a61 powerpc/64s/syscall: Fix ptrace syscall info with scv syscalls
+7f7c25f565fb0d143d830ab3d486bf55ee7b9142 mmc: sdhci-pci-gli: increase 1.8V regulator wait
+8a7f76a47cb63279aaf2b204b5c66895f95ffd3e mmc: meson-gx: make replace WARN_ONCE with dev_warn_once about scatterlist offset alignment
+8c5ad04270ad30842e189a6981d9025f63775d47 mmc: meson-gx: also check SD_IO_RW_EXTENDED for scatterlist size alignment
+a0b027b8a78cd23a916920e0bc2cfd5f04e85e97 gpio: tegra186: Don't set parent IRQ affinity
+1cdfcbd482df6606296db47f7a4c9c94a525c982 xen-pciback: redo VF placement in the virtual topology
+b99d9d2a7a710c1b803c7727d6fe635a53b06062 xen-pciback: reconfigure also from backend watch handler
+7ae32f094b62ad1259333698acf61713a0786fee ipc/mqueue, msg, sem: avoid relying on a stack reference past its expiry
+634789b1f13a1b0783be4aff21cb675cb4ee7e3c userfaultfd: hugetlbfs: fix new flag usage in error path
+5e8e95aaf27121744c36532a84abafc8fd26ed36 Revert "mm/gup: check page posion status for coredump."
+3be3f5f1776e0bd36958a2e3f13140fc2d91104f dm snapshot: fix a crash when an origin has no snapshots
+fedc073fd9ddebafcea4d293f01e8e2cc1b5bdcd dm snapshot: fix crash with transient storage and zero chunk size
+b7c9db2e6fa22cc4ee3921b705a500290bf3ce0c kcsan: Fix debugfs initcall return type
+de79245b3141c5cc330183f8f11a3824bf590228 Revert "video: hgafb: fix potential NULL pointer dereference"
+63b9ed3f19966206a991fe697a9ed3e6b1df7448 Revert "net: stmicro: fix a missing check of clk_prepare"
+66335214cbc1382eb20179ae892bfff6ab993463 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+4bdbc0904cb3949a2bdaa7c656f4f535487e47a4 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+a57425dad39de0bdb172e35d9d5ad63931680bc3 Revert "video: imsttfb: fix potential NULL pointer dereferences"
+c601aec7d421d3f3dd31cf530c518c0dbf29e24c Revert "ecryptfs: replace BUG_ON with error handling code"
+17a1bcc24f815a2cf9c64775f2254a07247f7867 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+10153291898a499795a9063e7465b9d7ea664186 Revert "gdrom: fix a memory leak bug"
+857553eb81778d8168b29d4ce86a7f180b5eff97 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+b3149d24a717cf8e9dd541f455f9f88663bfbc4f cdrom: gdrom: initialize global variable at init time
+7130f83c9d5b2bf0df47d971ee2a571734b58309 Revert "media: rcar_drif: fix a memory disclosure"
+2cb48bde639751608d1679ba3ca64e025583c442 Revert "rtlwifi: fix a potential NULL pointer dereference"
+662bde50228bf1c8c89560fbcedbb4e545bf8c3f Revert "qlcnic: Avoid potential NULL pointer dereference"
+d911430a36db43e25660a5d7340d357211529b20 Revert "niu: fix missing checks of niu_pci_eeprom_read"
+be51eaeb7f2d5d01f337a4102321548a35e13107 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+c755841216eef3f3654eccb8659c0c18505c0e0c net: stmicro: handle clk_prepare() failure during init
+7a9e90bdff85e90778da9358b62ba5d56e8fc19c scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+95a5ff779c464e2636575100ae891203e082398f net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==
+--===============1060289504770561631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fce66834d64-5b93c1964725.txt
+Content-Disposition: attachment; filename=revlist-5b93c1964725-a6b9ee223897.txt
 
-d942d125525df8c4f7ad6d9aa3da5301eb6da67a firmware: arm_scpi: Prevent the ternary sign expansion bug
-be4e687e612c983c7bccf8fe8dae6ee89be8be17 openrisc: Fix a memory leak
-3a4fa73acdec58ad98326e38c971ba6de5e85bee RDMA/siw: Properly check send and receive CQ pointers
-a30d5255aa3dd49279b98d902327122d55470aeb RDMA/siw: Release xarray entry
-a071764a864bc1b2a22f2c8805d85f624f546fac RDMA/rxe: Clear all QP fields if creation failed
-6f69e4606407f15ce9d8e0a9d0b775f71928c281 scsi: ufs: core: Increase the usable queue depth
-057e2ad064a7cf614eaf95f7d05658a196e67507 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-9e3698673453337d343b9fa89a50a2cb68598e24 RDMA/mlx5: Recover from fatal event in dual port mode
-76153dcc29538a602992f2e9e1ab40afe66928da RDMA/core: Don't access cm_id after its destruction
-bf587f5850c44a33f8a757214839aaa7817cc817 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
-16f9e5c7f0b43a26a6ebb8cb122bf1e97cc556dc platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-a226336b5927236b2293ae30396aac095838aacc RDMA/uverbs: Fix a NULL vs IS_ERR() bug
-2e0d1c3dc81e1650aeb61ef4d8d2a2be1872b786 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-9df738b7126211666ffcb2f9f52570ae1d1a648d nvmet: seset ns->file when open fails
-3b2b60351aa06badccbc0551263515dc24cb2aee locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-ea1e128824c97bbf9c6949a9aa6a7bf9ea275503 btrfs: avoid RCU stalls while running delayed iputs
-bbcd0193ddfc4d6e45c57025e65e1684f0eada14 cifs: fix memory leak in smb2_copychunk_range
-dcc109d96a8f0a932bfc08c4ae11810bf6db5bfc ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
-cea9fe8a2302ef843ec2baea1bfe1b3b52fdeb2d ALSA: intel8x0: Don't update period unless prepared
-923726cb1a31ae7ebe5c8d59ab4d6666a7c60384 ALSA: line6: Fix racy initialization of LINE6 MIDI
-4a7a83c04a82e07735a5a8e776c1c19ca394de78 ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
-7d0b6e6b09ed0212c03bf4b9aae9f348a4b9c13b ALSA: firewire-lib: fix calculation for size of IR context payload
-5ed0417e1347553ca789b1c1add00976bb14beeb ALSA: usb-audio: Validate MS endpoint descriptors
-d3443331847ef863586ed0ff49f02f674328dceb ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-4e535a99132ce5610ed13484676644d686194b09 ALSA: hda: fixup headset for ASUS GU502 laptop
-035e55ed359e67873c84b46765a5192613bf89c1 Revert "ALSA: sb8: add a check for request_region"
-8d9a7157e84b981da7f28ece4ab7aeb488dfe42e ALSA: firewire-lib: fix check for the size of isochronous packet payload
-4bfcb4a9383b117b711162ffb2119955574276c6 ALSA: hda/realtek: reset eapd coeff to default value for alc287
-fec5df470a97b89787506149efbb94a506b2f1f6 ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
-57e08e98734b7ac66ee945bfc1671ecba4de1a92 ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
-3134e1735203fb0c45d93acc153d3d2d68be20b7 ALSA: hda/realtek: Add fixup for HP OMEN laptop
-5e08ed136cf1af57946eae9d1f72182ceb53d99d ALSA: hda/realtek: Add fixup for HP Spectre x360 15-df0xxx
-710a8aa3123f6d1305ad6885a84153a6406a0d3a uio_hv_generic: Fix a memory leak in error handling paths
-f0ee57b7f93471d8505615636eb49952514f9bc5 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-01ccab74040d1e36c2ff7c8b8af682f5b89ae4d1 rapidio: handle create_workqueue() failure
-49077ebeb6e64ca8e25e6eec276a34e4c9865dfb Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
-7ea78199ef85faaa8d86a017af4568fcc062d457 drm/amdgpu: disable 3DCGCG on picasso/raven1 to avoid compute hang
-6716696ab4b2990fc05fcb6baa7bcd467f2c1d84 drm/amdgpu: update gc golden setting for Navi12
-7f2535ffdbb726a3ab8b84c9d9c5212e645750de drm/amdgpu: update sdma golden setting for Navi12
-108829681111ceb3c6f9b601675a3a6253de280e mmc: sdhci-pci-gli: increase 1.8V regulator wait
-5453f50840e4f5f9b427298bcf8bea454dd264e0 xen-pciback: reconfigure also from backend watch handler
-2d4f6b37cacf1b7607e93c68ea73228ec61d49bd dm snapshot: fix a crash when an origin has no snapshots
-5b93c196472591b488055d52788f457d84f739a8 dm snapshot: fix crash with transient storage and zero chunk size
+6525bfb19eb72011dc2f6d764ddc491fcb446808 firmware: arm_scpi: Prevent the ternary sign expansion bug
+856b04298cd6dcdda479d87f9f620bf538195c45 openrisc: Fix a memory leak
+267193e523ad167f16533a73952a941a67402e20 RDMA/siw: Properly check send and receive CQ pointers
+492f0ccb078b1de3c50a8d64c3d08a88a996239d RDMA/siw: Release xarray entry
+1d5371e0aaa3293cde40b090851b19ed5012d976 RDMA/rxe: Clear all QP fields if creation failed
+b5e799d07732e4203fd634f068070ee811bf7ce0 scsi: ufs: core: Increase the usable queue depth
+efc8c7779cf792b55b72a64d16346a40fa936fd1 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+e1d2dd4b3b1d283266b5c01892cd1a0442e52127 RDMA/mlx5: Recover from fatal event in dual port mode
+300e93ec111beec2f536b8ae5169387b0bbc0e30 RDMA/core: Don't access cm_id after its destruction
+939090bc1e5b77e79935c8a9f5cf8531f66e286f platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
+6e74cc06ec357c772396b4ad0682e474bb600526 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
+ad0c519dfcee0860d4f3cc04c0e732fa1d2ebb1b RDMA/uverbs: Fix a NULL vs IS_ERR() bug
+52ae2f29e4e71d66e981ed8446ed340a2a9d44d4 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+307c29d8d01ba5f67376844fdc98121c2661c19b nvmet: seset ns->file when open fails
+d7904b40353415b3a6b4bb7cc2733601a4088115 locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
+f332f3d114f29dc3040818219ec1dffbcd9fbf0f btrfs: avoid RCU stalls while running delayed iputs
+3959372699e43644ebe355a2796b57e47c15f1be cifs: fix memory leak in smb2_copychunk_range
+67902f0d00e9b2df6a28dd25736ba95fc167a239 ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
+dc8ce933c75073a10da71eb3b2247fb029a8cda3 ALSA: intel8x0: Don't update period unless prepared
+4147d3f6182fa7fc30202d3a1bd57b5b0a1403d0 ALSA: line6: Fix racy initialization of LINE6 MIDI
+9b959a567668da6df921256b910ee61f95a72eb2 ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
+68b95d96afbc45f69a70d840bda4ce7ded07c42d ALSA: firewire-lib: fix calculation for size of IR context payload
+e74b0dff524052eba1bebe335d8f1b51b9b78d7c ALSA: usb-audio: Validate MS endpoint descriptors
+b8e3af164fb0e9bd6f37eea48b700074bd4c8a52 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+3e419c66fa979cfc79a59849417cc4811aaa1700 ALSA: hda: fixup headset for ASUS GU502 laptop
+ed83a521f15219a415383b88d42c30500f4622c6 Revert "ALSA: sb8: add a check for request_region"
+f118fa5f533ef0982237b1129d82bb7b412d9cea ALSA: firewire-lib: fix check for the size of isochronous packet payload
+f97d9afe43ca3856fae55175d0adba92e915a590 ALSA: hda/realtek: reset eapd coeff to default value for alc287
+423ae82b54bddd866be2133748bf98c10b549902 ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
+0f9a210204ec03c5dd71bdfae7ba854445b7fbb6 ALSA: hda/realtek: Fix silent headphone output on ASUS UX430UA
+49cfe7b5e81f9f0cf9006421c4ea3ad2ebd179e5 ALSA: hda/realtek: Add fixup for HP OMEN laptop
+7cf81f5a01fce7f40a3674bdce726cd631bf2664 ALSA: hda/realtek: Add fixup for HP Spectre x360 15-df0xxx
+46ce13313a53e47eba8781e1554e00656dba9b26 uio_hv_generic: Fix a memory leak in error handling paths
+d9c32d9667d61967003d8332b4b81d7f51cbd289 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+79e041d1fb19085a354e8e3785771a7650232207 rapidio: handle create_workqueue() failure
+72f8633e19e87568f6a9f3b589793bad276e24c9 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+3c46d509fe0fb930e178c83fd555ba9c6099d0fb drm/amdgpu: disable 3DCGCG on picasso/raven1 to avoid compute hang
+dc77c56b72f78dbe2bf7633b651e62cce3fa0dcb drm/amdgpu: update gc golden setting for Navi12
+842f6325a0be9984ae0e9b1618abcfe982080b6d drm/amdgpu: update sdma golden setting for Navi12
+f24b62f88bebd1f3490bf96a803de1b337e88ebf mmc: sdhci-pci-gli: increase 1.8V regulator wait
+b6130b8260ab7364b16d699c6257273e66ac6ab1 xen-pciback: reconfigure also from backend watch handler
+8533bc1885f815ef544b6c5910d7a226e7f2f9dc dm snapshot: fix a crash when an origin has no snapshots
+6b9e5c653f0c37135346a3ecf441991245666bb9 dm snapshot: fix crash with transient storage and zero chunk size
+92f8e18c672b63e54decf3ffcc2b996b0b0a0bef Revert "video: hgafb: fix potential NULL pointer dereference"
+7f87b77ebade9d9527eee204a4453ecd736470fe Revert "net: stmicro: fix a missing check of clk_prepare"
+7200fee3dad0c6c56afe14b9454424910aedd52e Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+62a9ee84712951ffea4a575d89ea71cf437452a7 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+5716a1071604a5f9fd70fbc03f2a457d3e88cb06 Revert "video: imsttfb: fix potential NULL pointer dereferences"
+d280eefbbd50e0cc10870baf7f1a831c9ca6a810 Revert "ecryptfs: replace BUG_ON with error handling code"
+baa0a04e94fb2955d72cc3a01b6c766f7a791b99 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+1ac38b02c1f036cb79c13bbce5cab678d88f01ff Revert "gdrom: fix a memory leak bug"
+6eeb344813ddab9f8c302a6bc9466e5c7eafb753 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+8723e808e83905fb38ea21159ab0016588a41a62 cdrom: gdrom: initialize global variable at init time
+260c02026750c0866356f1baa64b4e0f27d68dcd Revert "media: rcar_drif: fix a memory disclosure"
+120aefbd2fd707cba7c0922abade432c0580efed Revert "rtlwifi: fix a potential NULL pointer dereference"
+00291fe9a467703b4eaf212b428a1b4dd75436cb Revert "qlcnic: Avoid potential NULL pointer dereference"
+4c16de0ab87d215a4fd78a4f1142fae66e4c24cf Revert "niu: fix missing checks of niu_pci_eeprom_read"
+595428d19a6bf4cd543714f15480e902fb600948 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+5330e949691f5c1e8bde6c9b5adfb307c53b3b4e net: stmicro: handle clk_prepare() failure during init
+bd7e14ef8c1c224b01c3c8594cbd7e87df4c72da scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+a6b9ee22389797bb0637164cdf94dba26512dbd0 net: rtlwifi: properly check for alloc_workqueue() failure
 
---===============8988005703905782679==--
+--===============1060289504770561631==--
