@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3615208587597307385=="
+Content-Type: multipart/mixed; boundary="===============2929688681436615832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 24 May 2021 17:07:35 -0000
-Message-Id: <162187605528.2107.5203494860271636176@gitolite.kernel.org>
+Date: Mon, 24 May 2021 17:07:42 -0000
+Message-Id: <162187606286.2196.2905020840008724607@gitolite.kernel.org>
 
---===============3615208587597307385==
+--===============2929688681436615832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a49e72b3bda73d36664a084e47da9727a31b8095
     new: ec7d6dd870d421a853ffa692d4bce5783a519342
     log: revlist-a49e72b3bda7-ec7d6dd870d4.txt
 
---===============3615208587597307385==
+--===============2929688681436615832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -114,4 +114,4 @@ f5120f5998803a973b1d432ed2aa7e592527aa46 dpaa2-eth: don't print error from dpaa2
 5d6c3d91ad722bad16346bcd3e839c7649e5dca4 net: r6040: Allow restarting auto-negotiation
 ec7d6dd870d421a853ffa692d4bce5783a519342 ethernet: ucc_geth: Use kmemdup() rather than kmalloc+memcpy
 
---===============3615208587597307385==--
+--===============2929688681436615832==--
