@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1600978981005189999=="
+Content-Type: multipart/mixed; boundary="===============0724250489763847770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 24 May 2021 13:06:02 -0000
-Message-Id: <162186156250.523.2120862521750522456@gitolite.kernel.org>
+Date: Mon, 24 May 2021 13:06:03 -0000
+Message-Id: <162186156307.575.539070501696666525@gitolite.kernel.org>
 
---===============1600978981005189999==
+--===============0724250489763847770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 56bab426de4e8c89b507d12d2a0ee3fabc148c32
-    new: 84d4b0da42206dab9a1d37a5ad5b51bece2bbd82
-    log: revlist-56bab426de4e-84d4b0da4220.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 55c222a8af67ae6f0c5b543e3d46b9d3f1710a72
+    new: 22735c45731bf60fe32b555ac90edfb5832e40a5
+    log: revlist-55c222a8af67-22735c45731b.txt
 
---===============1600978981005189999==
+--===============0724250489763847770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,67 +32,80 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1621861559 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1621861556-6dec766b470b9b5e3bd8cb9910cbee5bc2423c0f
 
-56bab426de4e8c89b507d12d2a0ee3fabc148c32 84d4b0da42206dab9a1d37a5ad5b51bece2bbd82 refs/heads/linux-4.9.y
+55c222a8af67ae6f0c5b543e3d46b9d3f1710a72 22735c45731bf60fe32b555ac90edfb5832e40a5 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCrpLcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3NsP/j6C4YfKV7KNjA0Tnykm
-C7kmGjlX4z3PqcGduadSEgsjbPkNWVVAAciCc0NaKRpcJBpe1jb5zhfLEj7/HGub
-Zd/PhDFEdXyzRUvZSujX0FUE6jpeWDuv6i8G8W5xrEd8f9BsmGwDwgUVQceODBWS
-gLwCNUcLiIQGZsoKp/6wYzDB7DAPwIacvIc6NPWQ11dBipR4ofbPsTasewmKNeee
-MXfPgBNS1ADQdxYJKr7ISvNKCXMf2xg+1ycJdDEntIp5rfGUV0duGe4mTSKoYgg/
-17y81pyctFHtDRldCzGGQaVt0PifyAdwXbFVskNk0FIP1YwKlqOb2DhLVFV9Ur3t
-xlRc6blBWSW08Gblg9bnLFKfIjzxvL42QLnB+Ex+sdQNx5M5FHV8UvppI4H7vb37
-P+9eI7jNEpjb1bW6PC8ptwJu2X0DOQzB/2MiVXCMogeGfVoMJ4VqV4Pq3xY3xJYc
-1yM+923B+wLq8oiYo9ubLo5rHfUnBPkumcJgyJwaBXDvr0xRQWkSau3YVRVlhTcM
-NfWdVvU75yA8lXIO8kF5TJNaCuWd0RG8dqykDpSWlcgdPA5FLeG9uXuqTtO2t/Is
-Ug+ek31jvgvUhsONS1ZEeDPQtaIjAPMd9+OhEV21yGM5DQJq90Sj06hYSW7AjYzW
-fvweanPSUJU2gU6HD7tEILF6
-=9FTO
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5akP/1q6+rjKhyRUwi9Bs9lt
+wEMv1OR/gqXOehiANVBRLXQcUCgVMwng+FXpYLxhOeM/47VRutQjjXlTZ68JSWsm
+rfWFooXdBYAGGdTH5MuyZN7cEnJlCM3B89oakesHulWeLn0pQRhgz30STD8b8IgT
+8NCdeGtK4gaJB4XdtYqCwE8om52SuRqc69JbDYnVdzy3RaBXOrpgnN0v/IKA7wKD
+sHYEwN0k/b9eVLlzGoDQbeAuLqI97aEFzkx2g370930ol9GOS0JeMA9DvN1n2Pw9
+mviCZPWj/HYLHi1RukNMWnxpOXGCL4Q7q5O8z9T6NWi0AUmMkMhZr8sG90276iEP
+kCcslx04EluYp0E6AuzLo3zGCcAA960+F3jaZpI7+hER7jOrBWT/RAhKjDyVc3Dg
+7s9QhRmPUQADAQyDTtViworc7ldDh7DWQ2xFlYxgKlCagQe7BgyWuIRDq+bHUVMS
+CeELycidcriMGN75LLUZAl/1ZIyJ8D298GuICgO+LExm5PemQCHeDWIc98y+lmxt
+CsliIWrLj1Bq39MN9eml+VtrefK21wZh16B77uklWdQd/59Kt1LB1coIAZwYxsqS
++zgopNzTfQqIq6tdACbdTeuZG3un9QY7B5+2BRFKNM8j9Km65je3CBLK36KWOjIT
+5LPY6qu+SCZVvy/XPcIToegB
+=PE7z
 -----END PGP SIGNATURE-----
 
---===============1600978981005189999==
+--===============0724250489763847770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56bab426de4e-84d4b0da4220.txt
+Content-Disposition: attachment; filename=revlist-55c222a8af67-22735c45731b.txt
 
-b046dba5c04359089e670f47f63fe97a39fc8417 openrisc: Fix a memory leak
-625f670edb11c7cb498d30198492705291a3458a RDMA/rxe: Clear all QP fields if creation failed
-4ca79c1fa9846e89bb31cd4339ec4f31bdb2a1db scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-dfc8643d28c73a70c9b33509a7f87adf6f1f86d5 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-f1b7d44c08902431a1e1d61f8e720282aebda8b3 cifs: fix memory leak in smb2_copychunk_range
-b6359940144f28e1d67189d2d227310b0c95bbb6 ALSA: line6: Fix racy initialization of LINE6 MIDI
-cbca637480b701b6be4832f08611a89a0888fcd7 ALSA: usb-audio: Validate MS endpoint descriptors
-d32dd70378d0f77b60f48f1c1814aa31a2532e1a ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
-c6ceafd16e4a11649bb965bc7e70c4acd19759ca Revert "ALSA: sb8: add a check for request_region"
-23ec58c602a03b85bfddf02e0cd08bac74982a5c Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
-7ffbf62ee422af1806092c02c574490005aea609 rapidio: handle create_workqueue() failure
-c8467099a8ced44555bc3b728f19b718f968bbe6 xen-pciback: reconfigure also from backend watch handler
-6cc9e47411c779c332d925774069e5288c04fcd8 dm snapshot: fix a crash when an origin has no snapshots
-95408e2f95badb37767c85a1633430f144f89fe0 dm snapshot: fix crash with transient storage and zero chunk size
-a074435ea36d5e6a29b4fbeb0a0be5a3f20c9706 Revert "video: hgafb: fix potential NULL pointer dereference"
-2e9de693af15ef7fec0d7262e0c1f48d693cc3dd Revert "net: stmicro: fix a missing check of clk_prepare"
-9e81e1badb493158703042f661e80fde95a00ab7 Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
-9c469abdae76a47bf9914368c128176f749d1ed0 Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
-040fb22cdb8f94b23c2089e3bc91cc4fa2b08cce Revert "video: imsttfb: fix potential NULL pointer dereferences"
-4e6224fa777fc491eaa70f257f0c4c05e6bb4b64 Revert "ecryptfs: replace BUG_ON with error handling code"
-a9dbce632bf34d192e095df2b196a268ddb46e48 Revert "gdrom: fix a memory leak bug"
-99ba1161088af83d60e9aa23d83ae5dd9181adcd cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
-6f4e16ada24cbb604692c51effe11bc80dceb1d1 cdrom: gdrom: initialize global variable at init time
-b3202a97544400446fc05e9cd13a37e5a0f46471 Revert "rtlwifi: fix a potential NULL pointer dereference"
-08d21b724e8b4f7f16a34a9233ed6dcca69cbf60 Revert "qlcnic: Avoid potential NULL pointer dereference"
-edb2ee10a7d8f4500fa1ce69ee29e29ea26e18e8 Revert "niu: fix missing checks of niu_pci_eeprom_read"
-e362e74157bdf2679f51c9d8a83427ddd57daf9d ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
-e01be3abe52b6310711f238b4441ea5f865e361d net: stmicro: handle clk_prepare() failure during init
-647aa58a20f5e871ffb50030025646947ce34f30 net: rtlwifi: properly check for alloc_workqueue() failure
-0366369d87f42c52a9955aa343c004c625b9852d leds: lp5523: check return value of lp5xx_read and jump to cleanup code
-b689b702d5128dea865a528a9bb16e2872610fd0 qlcnic: Add null check after calling netdev_alloc_skb
-3622a913fa222bb46dbc32f6a11950353ce413c0 video: hgafb: fix potential NULL pointer dereference
-a7604e98ee43417c5e171cbeeb4c8f0f9f42c862 vgacon: Record video mode changes with VT_RESIZEX
-a2b8f10da9fae39f797fabbfbbb5cd9e22c01fcd vt: Fix character height handling with VT_RESIZEX
-27b927c9a059ed9f4fd2ba810bd6c7d0d498c2e8 tty: vt: always invoke vc->vc_sw->con_resize callback
-4d02b68023c0d80b813ec1fc7893a3544707b90b iio: tsl2583: Fix division by a zero lux_val
-84d4b0da42206dab9a1d37a5ad5b51bece2bbd82 Linux 4.9.270-rc1
+24232ea9b90fab4bf47d49f4760807a0d8a5466b firmware: arm_scpi: Prevent the ternary sign expansion bug
+921663f48cad2548220b66d51aedb3f96931fd7e openrisc: Fix a memory leak
+4bee7ae9768d50cc4565b9f4be3a7008ee94d5a5 RDMA/rxe: Clear all QP fields if creation failed
+2ad854b8996fb30e6f3491e7618778fd26e5ae65 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+95d8495c6b174c105a33a4f4a54c355d2a8cde29 RDMA/mlx5: Recover from fatal event in dual port mode
+5b72e4cbda454fdc6d5f7b338a328c0bd007cb59 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
+5b8378e1d62d0f3f1e683304779731c2b22f714e ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+4d59a8d986e130614b6cb70d5c232b3bf1e3b2a4 nvmet: seset ns->file when open fails
+c9e9a6dea09309cbda35c15a0f1e6418c2f7360c locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
+dead4833ba78bd6806af0472de2e91001b5813e0 cifs: fix memory leak in smb2_copychunk_range
+43a4812fd7062627d4f8f6ccae2d823685dee0c5 ALSA: dice: fix stream format for TC Electronic Konnekt Live at high sampling transfer frequency
+385c1054ecb9b53ddcd5eab18e99cae59a5825ff ALSA: line6: Fix racy initialization of LINE6 MIDI
+b5b87abbbf8934fec24b7ced76fb4db261b33c0b ALSA: dice: fix stream format at middle sampling rate for Alesis iO 26
+7d1299eb7ad1cbb43ca6817c2fbe260eb92f6520 ALSA: usb-audio: Validate MS endpoint descriptors
+3d48367bcabfd0d5f88af2c0c125fb5ff8decaa4 ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro
+01e038351e472dd83564945cfb5fa0e24495ac2e Revert "ALSA: sb8: add a check for request_region"
+7ebd1bf20418a464bfabfe33f6acf0d9f3664fa3 ALSA: hda/realtek: reset eapd coeff to default value for alc287
+68fe96482eddfda408938341f77725f481e03043 ALSA: hda/realtek: Add some CLOVE SSIDs of ALC293
+86d0fa6b5eaf15ab1f68a4246822a7b134973f37 Revert "rapidio: fix a NULL pointer dereference when create_workqueue() fails"
+c52d9749fdcaac19f53af962b55464b3f7b2ba39 rapidio: handle create_workqueue() failure
+0fc7715c3885624de68ed6a51dbcf4a6efc76ee4 Revert "serial: mvebu-uart: Fix to avoid a potential NULL pointer dereference"
+a3a482dd19555cd3057a8bfdd57422add2cbf75b xen-pciback: reconfigure also from backend watch handler
+37b9baf8af71f62ea5e0ee0639fa9e25d22f73de dm snapshot: fix a crash when an origin has no snapshots
+8a0110f8f95ef1be5d0a69db471188d5b077ea76 dm snapshot: fix crash with transient storage and zero chunk size
+11fbde15d2fce2e845c0289ad950da0bdd537eee Revert "video: hgafb: fix potential NULL pointer dereference"
+4183d6ed36cb59aca5339c6a3a67513ebe1a99e7 Revert "net: stmicro: fix a missing check of clk_prepare"
+016f9a23971c25caf97110820d2c594c4a34cf6b Revert "leds: lp5523: fix a missing check of return value of lp55xx_read"
+4361e49ad45690a17a8874cfa345253b9e8b184b Revert "hwmon: (lm80) fix a missing check of bus read in lm80 probe"
+949c88a45c23f4609489e46b90c53c419a0f9d49 Revert "video: imsttfb: fix potential NULL pointer dereferences"
+7a09d20ff93fdc980c7a0e6d3a77e3f889ea9ff5 Revert "ecryptfs: replace BUG_ON with error handling code"
+55b30da329e13ff4cd4290197f7789806138c673 Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
+58cba28f788bbd56cdb350cfb9c2edd949583591 Revert "gdrom: fix a memory leak bug"
+9d368e1d42dfd42796ea24e9ae99a785a1c9b0a7 cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
+a2ea14d8f3c417dd5c8f3978cfbecc79a9f85dbf cdrom: gdrom: initialize global variable at init time
+8f61fa5c92537ba35722c070b34baa86446a66e1 Revert "media: rcar_drif: fix a memory disclosure"
+21385d7320c9b94e911699ae59e6ab121dbb84ac Revert "rtlwifi: fix a potential NULL pointer dereference"
+b2926f28d74b46ea7ca2572a6128d8e2b62b7b5a Revert "qlcnic: Avoid potential NULL pointer dereference"
+5f4ff6772c345bbfcf20cf286fc3c39d37c90bbb Revert "niu: fix missing checks of niu_pci_eeprom_read"
+03758b297728050ef92a74827e1a3d9ca3eb951c ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
+7373ebd4831fc88b069711a6ad140167131e0be7 net: stmicro: handle clk_prepare() failure during init
+28db92c04b0814cf9163ec10b4df88c624c53afc scsi: ufs: handle cleanup correctly on devm_reset_control_get error
+dd30d74e55dee37831ac171ad3a2975e5e31ac6d net: rtlwifi: properly check for alloc_workqueue() failure
+a762314f64d3cd2ad110642de3056ea7f84d17f2 leds: lp5523: check return value of lp5xx_read and jump to cleanup code
+cfc08484044f06d6e88def35b20cdc96c25ffcb5 qlcnic: Add null check after calling netdev_alloc_skb
+8bb3ccec7c60f49b3370b9dacc168b403a13680d video: hgafb: fix potential NULL pointer dereference
+a974ed0db5225b63f87078e46a80cd07b9fed0ba vgacon: Record video mode changes with VT_RESIZEX
+757a768561ac895c3ce0ee73d9a0fb6bb0de9431 vt: Fix character height handling with VT_RESIZEX
+ed57bbf7124698c8b6047cf66836524678840339 tty: vt: always invoke vc->vc_sw->con_resize callback
+63f038ef5f5db85ff02e986e587fcaf2764300e5 x86/Xen: swap NX determination and GDT setup on BSP
+22735c45731bf60fe32b555ac90edfb5832e40a5 Linux 4.19.192-rc1
 
---===============1600978981005189999==--
+--===============0724250489763847770==--
