@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7576971125751864443=="
+Content-Type: multipart/mixed; boundary="===============7570014205995272783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 24 May 2021 11:55:39 -0000
-Message-Id: <162185733903.15075.4318557956711647298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 24 May 2021 11:55:46 -0000
+Message-Id: <162185734605.15229.4966807527159871375@gitolite.kernel.org>
 
---===============7576971125751864443==
+--===============7570014205995272783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: 36cb555fae0875d5416e8514a84a427bec6e4cda
     new: a072cbda97a9367a84d46e7bf78a47abdbfcaea8
     log: |
@@ -27,7 +27,7 @@ changes:
          8d6ee30c11a95f84974c2d7f590a7012f27b8f15 regulator: hisilicon: use the correct HiSilicon copyright
          a072cbda97a9367a84d46e7bf78a47abdbfcaea8 Merge series "Fix MAX77620 regulator driver regression" from Dmitry Osipenko <digetx@gmail.com>:
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/regulator-5.14
     old: 79c7e1447c1c998e2571191e3cad12f9285ee22e
     new: 7c556aec14099c87c95bb7011c74fafe45d93679
     log: |
@@ -36,29 +36,29 @@ changes:
          7c556aec14099c87c95bb7011c74fafe45d93679 regulator: bd70528: Convert to use regulator_set_ramp_delay_regmap
          
 
---===============7576971125751864443==
+--===============7570014205995272783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1621857334 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1621857336-b1cc52f169d6889d56eac78a605cfa0236769820
+pusher C3F436CA30F5D8EB 1621857341 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1621857343-a53171a86010c1684eebc10afd8d484b47b59688
 
-36cb555fae0875d5416e8514a84a427bec6e4cda a072cbda97a9367a84d46e7bf78a47abdbfcaea8 refs/heads/for-5.13
-79c7e1447c1c998e2571191e3cad12f9285ee22e 7c556aec14099c87c95bb7011c74fafe45d93679 refs/heads/for-5.14
+36cb555fae0875d5416e8514a84a427bec6e4cda a072cbda97a9367a84d46e7bf78a47abdbfcaea8 refs/heads/regulator-5.13
+79c7e1447c1c998e2571191e3cad12f9285ee22e 7c556aec14099c87c95bb7011c74fafe45d93679 refs/heads/regulator-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCrlDYACgkQJNaLcl1U
-h9COlAf+LN3Uootq4BcFXISI8J+rLtSCnIQt9CeCdpJAiX5/wGR2R2KXMINQokAT
-b4/+Yb8CurJoGfLleTcHjek9YzhyqVTULRtam4MdHkCskh4ZCA8tMMPKiff0AGLu
-pdbjcgzlg8TE5Jycd2NuC+eHq1M6J5dgg3vF9y8bJ791Wkb8tKHFoh4qLuzLS+Kn
-J90CIJ0960Z3RiaM8xe+tpa7wuJ8wRoyrXRqhshH0VPmUhA1pAUTkabXo2EwGXLr
-suRBWZQoyRhoyZRUEmZWQQZeUXTZfrt9+E4OG0iqq4UZn0PtwvYFF9gVaicAV6Nj
-hqzvNcy3roe+6QOUAfw0d1hROh02Eg==
-=qc7R
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCrlD0ACgkQJNaLcl1U
+h9DdlQf8D3WELAIWxmGCuOr3llhPWw5fV2AUoELySgtrcnaiOxkGuQDJ01/+Z7nQ
+vRbMlBuzk+ZxlMV1q1Mf7Ro7K2mBOMg/AjcibmYiftDdg5P22wGD3XNNbo4JW/V6
+AJCxPtBTI4u3rMcWx1mfc/6agrZHF9OzmmSYYzEbA5ujj0eAi+wMs/KhLgnulW5U
+mvxxZSxmLEAPLOCbjBQB9MMmuTfZauwnyfmOKaD1YpVCHR3GTvl1IfAMo8mmLkJ6
+N7mR5EGn9/fQ74yDDOnmMPnh4zTCIWcGBI+dGrqX5R27Xr+ElxHgWDNHT/AXTHdA
+1QOSe0sl5QKSpvQxgDcaIEqdG/u15g==
+=wBGz
 -----END PGP SIGNATURE-----
 
---===============7576971125751864443==--
+--===============7570014205995272783==--
