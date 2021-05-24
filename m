@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 24 May 2021 19:01:32 -0000
-Message-Id: <162188289246.11591.109763396642793263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Mon, 24 May 2021 19:20:41 -0000
+Message-Id: <162188404138.24299.5231647198363867199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 6e153938b7f005fde4dd025e3998d94cb27e4148
-    new: effe3781b6cc8144d6b55b5159ec5bafd73639f7
+  - ref: refs/heads/fixes-base
+    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    new: d1acd81bd6eb685aa9fef25624fb36d297f6404e
     log: |
-         cc7af0bfa0d953fc9aaf278f11ea6f9b17ac228b gpio: tps6586x: remove platform_set_drvdata() + cleanup probe
-         3660660a8e864922613d6c798a0c99ff36092f45 gpio: tc3589x: emove platform_set_drvdata() + cleanup probe
-         0cef30b8beafb2be1adf0e9b7487e5084eec2376 gpio: tps65218: remove platform_set_drvdata() + cleanup probe
-         effe3781b6cc8144d6b55b5159ec5bafd73639f7 gpio: tps65912: remove platform_set_drvdata() + cleanup probe
+         c625b80b9d00f3546722cd77527f9697c8c4c911 scsi: ufs: ufs-mediatek: Fix power down spec violation
+         56f396146af278135c0ff958c79b5ee1bd22453d scsi: BusLogic: Fix 64-bit system enumeration error for Buslogic
+         d0b2b70eb12e9ffaf95e11b16b230a4e015a536c scsi: ufs: core: Increase the usable queue depth
+         73578af92a0fae6609b955fcc9113e50e413c80f scsi: qedf: Add pointer checks in qedf_update_link_speed()
+         5cb289bf2d7c34ca1abd794ce116c4f19185a1d4 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
+         d1acd81bd6eb685aa9fef25624fb36d297f6404e scsi: pm80xx: Fix drives missing during rmmod/insmod loop
          
