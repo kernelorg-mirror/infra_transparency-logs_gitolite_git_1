@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0629599393385070795=="
+Content-Type: multipart/mixed; boundary="===============6388853041958579326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 24 May 2021 08:55:06 -0000
-Message-Id: <162184650651.8303.10105052126882355278@gitolite.kernel.org>
+Date: Mon, 24 May 2021 08:55:42 -0000
+Message-Id: <162184654292.8565.10519712912359954378@gitolite.kernel.org>
 
---===============0629599393385070795==
+--===============6388853041958579326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: 57c0f72007ca288cb48ad928080a754e637d95ba
     new: 813173012243cea9429a722a811e3ecfcd5a3dca
     log: revlist-57c0f72007ca-813173012243.txt
 
---===============0629599393385070795==
+--===============6388853041958579326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -84,4 +84,4 @@ f34c67e45171d5829bee3940cd17f77e4683dad3 habanalabs: check running index in eqe 
 922381e25e2c774c2a340054737f8e0c427ef77e habanalabs: track security status using positive logic
 813173012243cea9429a722a811e3ecfcd5a3dca habanalabs/gaudi: refactor reset code
 
---===============0629599393385070795==--
+--===============6388853041958579326==--
