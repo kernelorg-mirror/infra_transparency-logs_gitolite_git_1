@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7203053914063788729=="
+Content-Type: multipart/mixed; boundary="===============8007082220472544490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 24 May 2021 16:49:34 -0000
-Message-Id: <162187497407.21068.18289413457755576127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 24 May 2021 16:49:40 -0000
+Message-Id: <162187498006.21256.10744814931030084823@gitolite.kernel.org>
 
---===============7203053914063788729==
+--===============8007082220472544490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 9e8e06c7a2169db945749f338334cd2042e08799
 
---===============7203053914063788729==
+--===============8007082220472544490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -314,4 +314,4 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
 
---===============7203053914063788729==--
+--===============8007082220472544490==--
