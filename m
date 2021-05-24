@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4660991061959853847=="
+Content-Type: multipart/mixed; boundary="===============7726446958479279081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Mon, 24 May 2021 06:43:50 -0000
-Message-Id: <162183863061.30704.7024181275375876960@gitolite.kernel.org>
+Date: Mon, 24 May 2021 06:44:47 -0000
+Message-Id: <162183868720.31174.14818210660837931850@gitolite.kernel.org>
 
---===============4660991061959853847==
+--===============7726446958479279081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/mapcount_deshare
-    old: be968c372421a14b427838ff821fac86eb9802a0
-    new: a8029dbd6ac4d65f268780c5848d1c79cbf70f8a
-    log: revlist-be968c372421-a8029dbd6ac4.txt
+  - ref: refs/heads/master
+    old: 0ec24cd9407237621ce19450e966f0b5926d03b5
+    new: 93436431063891c587afd050f0ea3d1ef7c10e5a
+    log: revlist-0ec24cd94072-934364310638.txt
 
---===============4660991061959853847==
+--===============7726446958479279081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be968c372421-a8029dbd6ac4.txt
+Content-Disposition: attachment; filename=revlist-0ec24cd94072-934364310638.txt
 
 be1c2bb3ba5a39c20b1d54e01ffbcb2b1ca7e46c ARM: PXA: Fix cplds irqdesc allocation when using legacy mode
 5b44955dc19808fa209444ccb192343050e95ab0 irqchip/apple-aic: APPLE_AIC should depend on ARCH_APPLE
@@ -102,33 +102,48 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-fa2ebd6f37cb748ae04d09a861464955f0abd8f6 extraversion
-10ac837c9db54b5baac634e1364d3ee518430648 mm: thp: make the THP mapcount atomic with a seqlock
-415582ee4d9c6e2177beeb9a998ab961fb636262 mm: thp: replace the page lock with the seqlock for the THP mapcount
-57e59dec1faba70e790ed979eb37057f237fc453 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-8a2d970ea58b0f184bd56432abba9d65ab1ea783 mm: thp: introduce page_trans_huge_anon_shared
-4bfc1df9cc5efaabb89d28b29afa2f88ddc34b6c mm: thp: introduce page_mapcount_seq irqsafe version
-ef54272400794bcc19d3b215fd1fd0585f044f02 mm: thp: introduce irqsafe methods to check if anonymous pages are shared
-b1a7c8665aac8b31aafe1522b07d2479ef5f6b52 mm: gup: COR: copy-on-read fault
-9cb1ebda764197b2b2a943f8d80ac833c6aba93f mm: gup: gup_page_unshare()
-5589405941bf0a3d712cca07b2754bcd2291b68f mm: gup: FOLL_UNSHARE
-8b6a0d7978560f9a31bbf7139270a38ee5ba4047 mm: gup: FOLL_UNSHARE: optimize mmu notifier
-68064789749a70b25e22b75d9ca1e49ee994c767 mm: COW: restore full accuracy in page reuse
-55b6ceba0e3d07f83f68457e6c94e3c870675eeb mm: COW: skip the page lock in the COW copy path
-5dfdad1cbe756d5338cdef5706f27eb651eeec23 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-eba23f441db77f2af3996b67ee5840d8853cdc04 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-87b295b7420696e9b021d240063bf0c7b3d1d5f9 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-c6e03e7efa7c9500f52f4aa33283bd087ecefffb mm: gup: document FOLL_MM_SYNC
-c7f78d20cce37fe01f85359ee120322689d9b589 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-b98b032b0c6ebe16f889eff71173b7696723f905 mm: gup: allow FOLL_PIN to scale in SMP
-37fb5de6eaad31967b4906e08d02d873315ab619 mm: gup: pack has_pinned in MMF_HAS_PINNED
-717c16568d57fe4b8ca13e971d8c24053c9f64c4 mm: cacheline alignment for page_table_lock and mmap_lock
-69cce39e7b7df9334de823a15ded404cf26e7a9a mm: thp: page_mapcount_lock: optimize the migrate path
-e0cb83ba7da205bb2da40fa3121d1eaa90866bf7 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
-60675883d1b9d3b5cc68117757aca19f92ec7cd7 mm: thp: optimize total_mapcount() with head_compound_mapcount
-ad9e7a01718a6b01c209251af5095ceda313801d mm: thp: cleanup and optimize compound_nr
-312795fdda8805860d7ba181dd8834afba80ad4e mm: thp: consolidate policy_nodemask call
-4d8f0e700a277aba65d29f1982e47bca2208f13d mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-a8029dbd6ac4d65f268780c5848d1c79cbf70f8a Merge remote-tracking branch 'gitlab/mapcount_deshare' into mapcount_deshare
+86cea4557e9a75b406875f0811e08225c7d049a3 extraversion
+09d2d62774b06ff3a1a852454db42d8110882eaa mm: thp: make the THP mapcount atomic with a seqlock
+e667aa82c548bb3514a63fdce0aeaf8b47da983d mm: thp: replace the page lock with the seqlock for the THP mapcount
+b13ad76ba257f7ab77839195be1c79db8e7094ca mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+f41737adeef3186aafd27c43ed89c69a5bfde369 mm: thp: introduce page_trans_huge_anon_shared
+e6a48ccf669a600c2fbdb65774c97b6af09eb96d mm: thp: introduce page_mapcount_seq irqsafe version
+0cb4aeaf4421a35ff56dc77761ab5f0cbf6be919 mm: thp: introduce irqsafe methods to check if anonymous pages are shared
+f0f878814c2cc83dd4130df96d06466c59e263d9 mm: gup: COR: copy-on-read fault
+cafd99a926be59784e6091de49e67634234ad3d8 mm: gup: gup_page_unshare()
+76a05ecf548520c8799bebc63bc203ed00e3f6d6 mm: gup: FOLL_UNSHARE
+0afc2758f47550b388170febde62535075769fbb mm: gup: FOLL_UNSHARE: optimize mmu notifier
+cd55098d5ddb1130ca4352195579349aed40a7c6 mm: COW: restore full accuracy in page reuse
+403819a8907eae42d57adc122b57f15fdf7e4a6b mm: COW: skip the page lock in the COW copy path
+64ace09bedd28811bc050f7ded022fea9c9b0169 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+f5fbd7e06acee6bdca43d1297ac773c46fc30ee5 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+26d73c6d9b1ae98af1d22d98e400bfb0f58d0e24 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+4132a62f478ac7bada6481a47591b0faa00c2ca3 mm: gup: document FOLL_MM_SYNC
+8e40cc11a37a50c206f13e0fdccda272f9c81e9f mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+c4344a63af9a532a17281226f1d159278a5b58af mm: gup: allow FOLL_PIN to scale in SMP
+84d31071e9855066e57be029a81cbab928f922d7 mm: gup: pack has_pinned in MMF_HAS_PINNED
+07a366934bda0eb73dea824f44090d4570369971 mm: cacheline alignment for page_table_lock and mmap_lock
+ab5f7e3247a6161d98a593b45b8a018b04c2c975 mm: thp: page_mapcount_lock: optimize the migrate path
+472f61d56eb1c4e5be8bc6e6464920d79c24e1a4 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
+69238438ad1a6169966d047c870897d30b18ec75 mm: thp: optimize total_mapcount() with head_compound_mapcount
+dad47d7764bdce3162d6ad2f8219ef5031368038 mm: thp: cleanup and optimize compound_nr
+1e13adea065f5f79779ff0c2d4933221033cc797 mm: thp: consolidate policy_nodemask call
+4445f530d691a1d56053f97f7ddb4f8c7b8badb7 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+7cc16cc05be947cbb769b0a1145d74917aa72524 mm: mm_take_all_locks: add cond_resched()
+784bedea1a5e8e120a03fe2de8ebe5e1bd328ee7 x86: restore the write back cache of reserved RAM in iounmap()
+bea72f2e33cdca1fd4a82e941b587e6d1fbda1d6 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+a13ed8d68b19853952e2a75b4e80c6cfe967d862 x86: deduplicate the spectre_v2_user documentation
+759ce0ca608cc1299a1cf590ac39064dbae8ccca x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+edc464a8679a862115d18802de7289ec9fe711b8 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+bb0156cd82d42adc7b47b9f756ba3bc9190d0f72 x86: atomic_set needs WRITE_ONCE
+f6251ff8d1cfeac88508096bdc8c3c666fc3df8d sched/fair: skip select_idle_sibling() in presence of sync wakeups
+c2df9a3282f2276147bcca239cc1d9839ec98fa7 sched/topology: restrict wake_affine_idle() within the NUMA domain
+614fcec8d2909e5e3693abd3cdca12547fbc127f userfaultfd: UFFDIO_REMAP: rmap preparation
+2a45512ee735b68d1feab6b7a8fbbd576d719bb9 userfaultfd: UFFDIO_REMAP uABI
+142010be54c8df1081c7c3f30f858bec83022c95 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+25a9c6a4d13b27468677561c135648bf2ffede6c arm64: select CPUMASK_OFFSTACK if NUMA
+8250f6e671559e3db1b899e3ce680142a6e5f3b6 arm64: tlb: skip tlbi broadcast
+8c5763b00ed59456d8c6b19ef7fa97650b27ffd3 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+93436431063891c587afd050f0ea3d1ef7c10e5a Merge remote-tracking branch 'gitlab/main' into main
 
---===============4660991061959853847==--
+--===============7726446958479279081==--
