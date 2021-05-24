@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0255096945532283027=="
+Content-Type: multipart/mixed; boundary="===============2839076975921498120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 24 May 2021 16:47:38 -0000
-Message-Id: <162187485852.19978.3981159766297765876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 24 May 2021 16:47:43 -0000
+Message-Id: <162187486399.20107.13082266733638465485@gitolite.kernel.org>
 
---===============0255096945532283027==
+--===============2839076975921498120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c4681547bcce777daf576925a966ffa824edd09d
     log: revlist-c3d0e3fd41b7-c4681547bcce.txt
 
---===============0255096945532283027==
+--===============2839076975921498120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -308,4 +308,4 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
 
---===============0255096945532283027==--
+--===============2839076975921498120==--
