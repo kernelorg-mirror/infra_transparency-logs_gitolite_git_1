@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0177918463228258404=="
+Content-Type: multipart/mixed; boundary="===============3445429365447835091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 24 May 2021 11:56:27 -0000
-Message-Id: <162185738707.15755.14388392134908806615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 24 May 2021 11:56:47 -0000
+Message-Id: <162185740767.16015.3123874335988801735@gitolite.kernel.org>
 
---===============0177918463228258404==
+--===============3445429365447835091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 3b598c67701afd048a1e453486b18857d1213bdc
-    new: 9a2ebf1ffb55436f8cc298a6296662bcf4a2a185
-    log: revlist-3b598c67701a-9a2ebf1ffb55.txt
+    old: c4294ffdaff477784615094e8f3dd139b498711b
+    new: a9ca01a0d1b8bc0b01e48c893031d4cc6976d7f2
+    log: revlist-c4294ffdaff4-a9ca01a0d1b8.txt
   - ref: refs/heads/for-next
-    old: b18a902e455b5fbca4c738b907ab546ab1a758d5
-    new: ad321de079e1ba5b8fc3d8a063a5ba39946fae66
-    log: revlist-b18a902e455b-ad321de079e1.txt
+    old: 55f0e3d2ed3d198f639dcbef0366732fa7c71816
+    new: 67fb42566de9833bafb4fd2e7e254185a845d6dc
+    log: revlist-55f0e3d2ed3d-67fb42566de9.txt
 
---===============0177918463228258404==
+--===============3445429365447835091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b598c67701a-9a2ebf1ffb55.txt
+Content-Disposition: attachment; filename=revlist-c4294ffdaff4-a9ca01a0d1b8.txt
 
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
 0a96c05995ef1085f9c5e6bf005a04915dd2ec6f arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
@@ -319,14 +319,19 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-41daf6ba594d55f201c50280ebcd430590441da1 ASoC: core: Fix Null-point-dereference in fmt_single_name()
-9a2ebf1ffb55436f8cc298a6296662bcf4a2a185 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+6f55c5dd1118b3076d11d9cb17f5c5f4bc3a1162 regulator: max77620: Use device_set_of_node_from_dev()
+62499a94ce5b9a41047dbadaad885347b1176079 regulator: max77620: Silence deferred probe error
+0514582a1a5b4ac1a3fd64792826d392d7ae9ddc regulator: bd70528: Fix off-by-one for buck123 .n_voltages setting
+4c668630bf8ea90a041fc69c9984486e0f56682d regulator: bd71828: Fix .n_voltages settings
+8d6ee30c11a95f84974c2d7f590a7012f27b8f15 regulator: hisilicon: use the correct HiSilicon copyright
+a072cbda97a9367a84d46e7bf78a47abdbfcaea8 Merge series "Fix MAX77620 regulator driver regression" from Dmitry Osipenko <digetx@gmail.com>:
+a9ca01a0d1b8bc0b01e48c893031d4cc6976d7f2 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
 
---===============0177918463228258404==
+--===============3445429365447835091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b18a902e455b-ad321de079e1.txt
+Content-Disposition: attachment; filename=revlist-55f0e3d2ed3d-67fb42566de9.txt
 
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
 0a96c05995ef1085f9c5e6bf005a04915dd2ec6f arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
@@ -617,14 +622,16 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-41daf6ba594d55f201c50280ebcd430590441da1 ASoC: core: Fix Null-point-dereference in fmt_single_name()
-17c2d247ddd231199e682b0a7fda42fe46c2c07b ASoC: dt-bindings: renesas: rsnd: tidyup properties
-cf9d5c6619fadfc41cf8f5154cb990cc38e3da85 ASoC: rsnd: tidyup loop on rsnd_adg_clk_query()
-d6956a7dde6fbf843da117f8b69cc512101fdea2 ASoC: rsnd: add null CLOCKIN support
-17ba36b704692a433d38cb230e99ec333ecd14a2 ASoC: dt-bindings: codecs: Add bindings for nxp, tfa989x
-af00978a0a06bab60bd5adf54a65ea69d19ce35d ASoC: codecs: Add driver for NXP/Goodix TFA989x (TFA1) amplifiers
-eb37ca9c98ae1a61eb9bbe157d320bbe858adbf4 Merge series "ASoC: rsnd: add D3 support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-9a2ebf1ffb55436f8cc298a6296662bcf4a2a185 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
-ad321de079e1ba5b8fc3d8a063a5ba39946fae66 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+6f55c5dd1118b3076d11d9cb17f5c5f4bc3a1162 regulator: max77620: Use device_set_of_node_from_dev()
+62499a94ce5b9a41047dbadaad885347b1176079 regulator: max77620: Silence deferred probe error
+0514582a1a5b4ac1a3fd64792826d392d7ae9ddc regulator: bd70528: Fix off-by-one for buck123 .n_voltages setting
+4c668630bf8ea90a041fc69c9984486e0f56682d regulator: bd71828: Fix .n_voltages settings
+8d6ee30c11a95f84974c2d7f590a7012f27b8f15 regulator: hisilicon: use the correct HiSilicon copyright
+5ba3747dbc9ade2d22a8f5bff3c928cb41d35030 regulator: bd71815: add select to fix build
+8590ccd4dfd207d89c3312cf8a8b25990acaa079 regulator: max8973: Convert to use regulator_set_ramp_delay_regmap
+7c556aec14099c87c95bb7011c74fafe45d93679 regulator: bd70528: Convert to use regulator_set_ramp_delay_regmap
+a072cbda97a9367a84d46e7bf78a47abdbfcaea8 Merge series "Fix MAX77620 regulator driver regression" from Dmitry Osipenko <digetx@gmail.com>:
+a9ca01a0d1b8bc0b01e48c893031d4cc6976d7f2 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+67fb42566de9833bafb4fd2e7e254185a845d6dc Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
 
---===============0177918463228258404==--
+--===============3445429365447835091==--
