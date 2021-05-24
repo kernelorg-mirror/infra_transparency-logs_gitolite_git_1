@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4161774463504462969=="
+Content-Type: multipart/mixed; boundary="===============5474910133626650610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 24 May 2021 12:11:57 -0000
-Message-Id: <162185831710.26436.738606156280056004@gitolite.kernel.org>
+Date: Mon, 24 May 2021 12:12:02 -0000
+Message-Id: <162185832201.26558.11995850933008626683@gitolite.kernel.org>
 
---===============4161774463504462969==
+--===============5474910133626650610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 655a9d76bf8fec8e5df18f6e8323bc21f2681b1c
-    new: 3428ff4f47ba01620d01de4e179105498ac24d8f
-    log: revlist-655a9d76bf8f-3428ff4f47ba.txt
+  - ref: refs/heads/m68k-queue
+    old: 429ae67e6998f0ac623c404a61f7bcf80f97f135
+    new: 1ad5080508974993f1834c3a2baa227e8363e22d
+    log: revlist-429ae67e6998-1ad508050897.txt
 
---===============4161774463504462969==
+--===============5474910133626650610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-655a9d76bf8f-3428ff4f47ba.txt
+Content-Disposition: attachment; filename=revlist-429ae67e6998-1ad508050897.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -620,6 +620,10 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-3428ff4f47ba01620d01de4e179105498ac24d8f Merge tag 'v5.13-rc3'
+5945e552952171ff8d886343eaa0d6606e91c4ad m68k: Drop -fno-strength-reduce from KBUILD_CFLAGS
+962b652e9d2f3db08c76787de5bd1e99b01f70f2 m68k: dma: Remove unnecessary include of asm/cacheflush.h
+13755911d69d17e238b47b175856dd4daeb739ab m68k: atari: usb: Add ISP1160 USB host controller support
+41205b5124c7aae99dc99ba04fcf3ddca735f310 m68k: atari: Update Kconfig.bus help text
+1ad5080508974993f1834c3a2baa227e8363e22d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4161774463504462969==--
+--===============5474910133626650610==--
