@@ -1,171 +1,220 @@
-Content-Type: multipart/mixed; boundary="===============6852739304380832318=="
+Content-Type: multipart/mixed; boundary="===============7318112053948053707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 24 May 2021 00:43:05 -0000
-Message-Id: <162181698572.21285.13521944264093609491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Mon, 24 May 2021 00:55:34 -0000
+Message-Id: <162181773495.30684.1555878041533088683@gitolite.kernel.org>
 
---===============6852739304380832318==
+--===============7318112053948053707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/queue/4.14
-    old: fb7d6b9671b0c29b83dce88ad92f6abbff62aff5
-    new: 2fbe9738ee015a69aaace080d7c2946a6ff1bdbb
+  - ref: refs/heads/deferred-inactivation-5.14
+    old: 761360ffef85d2505e12b7ead37b1bf8d081c9ab
+    new: fe51dd8987c0680c85398038291b6acd1dccf68a
+    log: revlist-761360ffef85-fe51dd8987c0.txt
+  - ref: refs/heads/extsize-fixes-5.13
+    old: 240d59b7c0ab96a5daea0b210e65bdf604cbc922
+    new: c11ab4d2682dff41c5e34c1d422bd4f6faf51aaf
     log: |
-         683e5bdd8ff825bc754ae50c5677c4119e8afd49 openrisc: Fix a memory leak
-         bd2c851dc34660e41bf609ce7326b16654090ad2 RDMA/rxe: Clear all QP fields if creation failed
-         041b426ceb3a25e9439b1030a769cf59f00cf019 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-         2fbe9738ee015a69aaace080d7c2946a6ff1bdbb ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
+         2aae28759abf9ca09b322f04fabff7a3dccee789 xfs: standardize extent size hint validation
+         c11ab4d2682dff41c5e34c1d422bd4f6faf51aaf xfs: validate extsz hints against rt extent size when rtinherit is set
          
-  - ref: refs/heads/queue/4.19
-    old: a1bcf11cef155020793dd7dbd2d760d928b5a786
-    new: 7549be3766e0a7d5ea8653bbe14a1fbd1ca0d7a4
-    log: |
-         bb9bbfa5018bbdd8fd543caf06658c0fe0f8a512 firmware: arm_scpi: Prevent the ternary sign expansion bug
-         a0a8e3d4748ad725b25f589683b4467e33329922 openrisc: Fix a memory leak
-         4da564a9bc22642bcfc9490d3532303018553336 RDMA/rxe: Clear all QP fields if creation failed
-         ef8abff7cef748e32fe1a364b8ba41f04e268dc2 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-         c5aeec743e2d24a9e6989443f3455ab2da30797a RDMA/mlx5: Recover from fatal event in dual port mode
-         3c579e8ff8477df8cc53c554df2dc8001435b58a platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-         2b2b1bf66c79147453d7fe3c8123b744bacc6c56 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-         03ae67fc98b7e49240c63352b290cee22c4ec713 nvmet: seset ns->file when open fails
-         7549be3766e0a7d5ea8653bbe14a1fbd1ca0d7a4 locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-         
-  - ref: refs/heads/queue/4.4
-    old: d3dcdb2872bb1544f9787fac03ac3af0e6c74d2f
-    new: 8f145164bd5c09a0cd814db55e7911e461520ffe
-    log: |
-         d9c696bc7683a1041c1d76797dcdbb92f6668580 openrisc: Fix a memory leak
-         60af2f52b9f3707bccdc03310feda31f7cba3857 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-         8f145164bd5c09a0cd814db55e7911e461520ffe ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-         
-  - ref: refs/heads/queue/4.9
-    old: adfb76bdfc13049632402f0dcf3a1510dbc95bc0
-    new: 623592020e22beeff53aadf6a90b7970f8ef60bb
-    log: |
-         b06ac5362c031733f5fa0b7c0054f4592133aedc openrisc: Fix a memory leak
-         934cbf2757903b85b50ca8964c3716defc58f773 RDMA/rxe: Clear all QP fields if creation failed
-         bf8eec5a2920f65650967b332051fad882aef8a9 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-         623592020e22beeff53aadf6a90b7970f8ef60bb ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-         
-  - ref: refs/heads/queue/5.10
-    old: f348c3db1b367acf0b778c54a39ce00912e6b691
-    new: 72bce5698076438dfb88dd8c9e87b5f05d049666
-    log: revlist-f348c3db1b36-72bce5698076.txt
-  - ref: refs/heads/queue/5.12
-    old: 1796d4e8f240ae70a9fa282a426643a35b3679f8
-    new: 3f03da12545f3c12f748f5d5ba1ccc7fc3af9185
-    log: revlist-1796d4e8f240-3f03da12545f.txt
-  - ref: refs/heads/queue/5.4
-    old: 3a263674fe6916e37a3fe1c361610b237299f1b9
-    new: b26b3301fe454ac11c15d262597e5aed765d19bc
-    log: revlist-3a263674fe69-b26b3301fe45.txt
+  - ref: refs/heads/fix-inode-health-reports-5.14
+    old: 01b2596c473b841a497bbb5f33e5b99f32c38b1a
+    new: c6b060fe0b495e850c21df2550775ec283618630
+    log: revlist-01b2596c473b-c6b060fe0b49.txt
+  - ref: refs/heads/inode-walk-cleanups-5.14
+    old: 8b705bccb99324a6176ea0597f7c77736c8af2db
+    new: f030056f66f95b19121878dd085ba715725d91a9
+    log: revlist-8b705bccb993-f030056f66f9.txt
+  - ref: refs/heads/quotaoff-cleanups-5.14
+    old: 6337f6e913ea464634f1582db813250e7be01438
+    new: e3f3456f132b4e258561fee99cea392caa787561
+    log: revlist-6337f6e913ea-e3f3456f132b.txt
+  - ref: refs/heads/shrink-fixes-5.13
+    old: 0000000000000000000000000000000000000000
+    new: 32f11e62f689c1bc3c3031490ae3d8efc220c597
+  - ref: refs/heads/unit-conversion-cleanups-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 43adbd0732d317012a0238968fdb916535f24572
+  - ref: refs/tags/deferred-inactivation-5.14_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 0c61cb9136426c05cb8c91501a8c17bdefecf61d
+  - ref: refs/tags/extsize-fixes-5.13_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 2c58b9e1353c0a71e803ef2b0629a6a886419e79
+  - ref: refs/tags/fix-inode-health-reports-5.14_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 43dfceb50908ea219c7af17369a71ff5369c08fa
+  - ref: refs/tags/inode-walk-cleanups-5.14_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 0ed3d60de7079edd01be87324d2754de2bfa0e1f
+  - ref: refs/tags/quotaoff-cleanups-5.14_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 41cb9a8fc5081fb59987f00e40e863922fcf42a2
+  - ref: refs/tags/shrink-fixes-5.13_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: bc0b307953a0c1a75097286480a27598e3a59aaa
+  - ref: refs/tags/unit-conversion-cleanups-5.14_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 2239f5232e3cc9645aaf01bf05e6584476f31fef
+  - ref: refs/tags/xfs-5.13-fixes_2021-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 0d9a9b6b1c92eff8f4f71222cd054e66a1ba4463
 
---===============6852739304380832318==
+--===============7318112053948053707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f348c3db1b36-72bce5698076.txt
+Content-Disposition: attachment; filename=revlist-761360ffef85-fe51dd8987c0.txt
 
-6af6d61821e4c043219ac7b3b6ced829ab96a1c6 firmware: arm_scpi: Prevent the ternary sign expansion bug
-fa8edd8fbe7ff3dda463787d6f35d691fc7a8e04 openrisc: Fix a memory leak
-8eb668de59d8724e6dd6f0880e8fe4c2cd239fd5 tee: amdtee: unload TA only when its refcount becomes 0
-bc6f6b0b9a22e03432aef2797687ac489f3dbd2a RDMA/siw: Properly check send and receive CQ pointers
-4053c85155cd96cd49a7637a9bef0d2c5f37b605 RDMA/siw: Release xarray entry
-583b242e9e697374652e702916c719b7ae6a7db8 RDMA/core: Prevent divide-by-zero error triggered by the user
-d00926c67b94392e6212ff325ff63a2ba6e2ebbf RDMA/rxe: Clear all QP fields if creation failed
-31cb33409a49e0c8f8d51544eda8dfc0d856f090 scsi: ufs: core: Increase the usable queue depth
-98d02c9abf3d50af85278a639997876268838980 scsi: qedf: Add pointer checks in qedf_update_link_speed()
-72072e9f7e3bcf987fba74c7c94a54ee041ea905 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-6adb1a035f0a33e652836fea5b96fb88db393dfd RDMA/mlx5: Recover from fatal event in dual port mode
-e350bcb540e91c2f002c8789778555323e178308 RDMA/core: Don't access cm_id after its destruction
-7d440e367b5dc7f090951fc8e3918b48108b1149 nvmet: remove unused ctrl->cqs
-55b6983d42ea1de82aef92f22027de3330d59524 nvmet: fix memory leak in nvmet_alloc_ctrl()
-8c3e5a7bfe9742f9225ff31594b86b97d525aa30 nvme-loop: fix memory leak in nvme_loop_create_ctrl()
-60518e73dfea84a9b8c8ac2c20a979d3ecc6c6a3 nvme-tcp: rerun io_work if req_list is not empty
-0d10af871615f1677e57975e5c77749d33e4c2d5 nvme-fc: clear q_live at beginning of association teardown
-23e8b499d1210d1feb429c460683091e96d5eea4 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
-14744148831d5d6fec1a60ffe83957a83935576c platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
-50439dffea74f92670592c9c17f6aec450602a23 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-1c89fc3316dc2790755e2cacbc248312c7fbc157 RDMA/mlx5: Fix query DCT via DEVX
-171f16d79decfa2ae71a43689dfc292d8e112a16 RDMA/uverbs: Fix a NULL vs IS_ERR() bug
-aaaa817f3f2b746afdd60322bf954045ba1a0332 tools/testing/selftests/exec: fix link error
-5e6d1e4f732abe9448732216c4daa3e44bb351da powerpc/pseries: Fix hcall tracing recursion in pv queued spinlocks
-f677f4635badcb9cdc5bdae7087e8629510fbcad ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-408e77aa09bef7090e0bc1f735946b86e3bcf6b3 nvmet: seset ns->file when open fails
-050de6cf5a0bced9d0df2a7c259235812c9a9eea perf/x86: Avoid touching LBR_TOS MSR for Arch LBR
-4dc416135c5bc7dd05d2f504db05f49589e1b3d8 locking/lockdep: Correct calling tracepoints
-1541bfccb77a5c78258e3a0b0a43863faf348dfb locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-72bce5698076438dfb88dd8c9e87b5f05d049666 powerpc: Fix early setup to make early_ioremap() work
+2aae28759abf9ca09b322f04fabff7a3dccee789 xfs: standardize extent size hint validation
+c11ab4d2682dff41c5e34c1d422bd4f6faf51aaf xfs: validate extsz hints against rt extent size when rtinherit is set
+32f11e62f689c1bc3c3031490ae3d8efc220c597 xfs: check free AG space when making per-AG reservations
+a089c3221bb261fc0ef451306346bb205536e7c6 xfs: Remove redundant assignment to busy
+ce853b165c6a514bd1c52d4cde344a1070ceb888 When building the dbg package, we use a large 'for module in $(find' loop that
+d5657baa09d65aa5d5c72e7537c43b18b04b7207 mtr: Build script adjustments
+43861d56a066d0268acfde76f9987cf613f54446 add machine name to kconfig
+a53bb37e3baf47e7c58fa248455d30b2c030b8cd workqueue: omit "kworker/" from comm
+af88e75b9ed9182d1ca7d91a7a2189a87db36312 slub: print lost object address
+05085122cb981dfc6a96bc2423920ceebc550d37 kconfig: allow setting default cpu mitigations
+a2146e0d3f0ffdd6402eb3426bd78737805b123f vsprintf: disable pointer hashing
+bfbd8e380f41a9f24595b0b4ef75cea85d1c5538 xfs: don't crash with assfail
+a849cf865eed2029376fa9102fd4c9cf12cf9312 xfs: set ip->i_diflags directly in xfs_inode_inherit_flags
+17636466c2a282ad1e6f684724052851e1106cd3 xfs: clean up open-coded fs block unit conversions
+43adbd0732d317012a0238968fdb916535f24572 xfs: remove unnecessary shifts
+3e7ef83a09d3c3152471340b5c6a121f45148c23 xfs: move the quotaoff dqrele inode walk into xfs_icache.c
+557c7d203ac3b7c8ba1847841786228f9cab41db xfs: detach inode dquots at the end of inactivation
+08cccbf035e14b9cebcb98f8d3976a0ec28f2285 xfs: separate the dqrele_all inode grab logic from xfs_inode_walk_ag_grab
+4985379e2585e3b0dbb60db96fa40a63976c183b xfs: drop inactive dquots before inactivating inodes
+e3f3456f132b4e258561fee99cea392caa787561 xfs: move xfs_inew_wait call into xfs_dqrele_inode
+f30204668ab59e1fef91b31fb5abd25ea06b04d4 xfs: remove iter_flags parameter from xfs_inode_walk_*
+7bd389797840b5efe99f13e145a39d04aeb249df xfs: remove indirect calls from xfs_inode_walk{,_ag}
+4582f2e714fe528e17361ac761371e0f3a31f6fd xfs: clean up the blockgc grab and scan calls a little
+d7286481ad6b76e8bdf19dae7ed26d98dd554903 xfs: clean up xfs_dqrele_inode calling conventions
+797ec0c4e96f5152a8e07a63ff85794ac90aae95 xfs: fix radix tree tag signs
+64671c751ff94878f0b7099ace310fa50068256a xfs: pass struct xfs_eofblocks to the inode scan callback
+8cf867b9b99e8e0c2d088cd558aaea464b626e08 xfs: merge xfs_reclaim_inodes_ag into xfs_inode_walk_ag
+f030056f66f95b19121878dd085ba715725d91a9 xfs: refactor per-AG inode tagging functions
+13894da12c9245bd60122de447dce52746558b45 xfs: only reset incore inode health state flags when reclaiming an inode
+d58d6e01d140067f5c06490661dd4bd22981dc9a xfs: drop IDONTCACHE on inodes when we mark them sick
+c6b060fe0b495e850c21df2550775ec283618630 xfs: don't let background reclaim forget sick inodes
+4e0a9ac9c2a47848df9fbc835e8dd3d47479ff4c xfs: refactor the inode recycling code
+16bd44d977720569c331dc39e860facfdc0f3c3e xfs: deferred inode inactivation
+e3c41c57984b1ece0a8a57e562b33b97a43fa359 xfs: expose sysfs knob to control inode inactivation delay
+893e3b4a7852b54847ebe38bd92637e4cea38a31 xfs: force inode inactivation and retry fs writes when there isn't space
+63522481ae912ef9c360e28162f24a1ac1d80a0e xfs: force inode garbage collection before fallocate when space is low
+7550ea77f51b73141e65cdef91397cdba8d85c7b xfs: parallelize inode inactivation
+a50b0eb943fbdb17cc8a69f72cddf9594ea6fa36 xfs: create a polled function to force inode inactivation
+b6cb259684001cce0582a6aabc1f8686ef95c9ff xfs: add inode scan limits to the eofblocks ioctl
+857c46c0abbc3410cacbb7ee8af7178786f4d4d2 xfs: don't run speculative preallocation gc when fs is frozen
+fe51dd8987c0680c85398038291b6acd1dccf68a xfs: avoid buffer deadlocks when walking fs inodes
 
---===============6852739304380832318==
+--===============7318112053948053707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1796d4e8f240-3f03da12545f.txt
+Content-Disposition: attachment; filename=revlist-01b2596c473b-c6b060fe0b49.txt
 
-4702844c2f10233d2273f4144fafa72dedc46336 firmware: arm_scpi: Prevent the ternary sign expansion bug
-106afda1bf0a50248953484e55bca174879f4796 openrisc: Fix a memory leak
-82ccf4445bc37f960e9e06c870d2b8ed8f8dd349 tee: amdtee: unload TA only when its refcount becomes 0
-5182315caf14c1132310880f9ec22fe8c48b2707 habanalabs/gaudi: Fix a potential use after free in gaudi_memset_device_memory
-5a92a8ee5d46a874cd1807f9c823164004361501 RDMA/siw: Properly check send and receive CQ pointers
-3ba669ed9ed1fc8999268a71e044074b5438cda9 RDMA/siw: Release xarray entry
-a163c806506c9b9c77a80e0d69b3c13765070676 RDMA/core: Prevent divide-by-zero error triggered by the user
-865940cccb44377460898a93c82ee11fe584d2a6 platform/x86: ideapad-laptop: fix a NULL pointer dereference
-1220c70d5f99efed727872d7c2cd523047bf090c RDMA/rxe: Clear all QP fields if creation failed
-40885f2e73d842056fd865ed6096d4532376a3b6 scsi: ufs: core: Increase the usable queue depth
-dfdcff45e2167251e57d6ef5149fe99bfc1a16eb scsi: qedf: Add pointer checks in qedf_update_link_speed()
-e60304532070ab5387c09a0a846ccfc3e4f33928 scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-89044de7339a171dc78d7c6035d44f1812b43750 RDMA/mlx5: Recover from fatal event in dual port mode
-cee80279b20eadb586eb11bb9380d9247eb02507 RDMA/rxe: Split MEM into MR and MW
-9b549d9a084d7f39141097839d47b46b67d89bbb RDMA/rxe: Return CQE error if invalid lkey was supplied
-2ea5010d3f419fa381a82e606fb25f381933ce9f RDMA/core: Don't access cm_id after its destruction
-3153c3ddaeb8ca12a9a0a8e4a9e3bc40980f5036 nvmet: fix memory leak in nvmet_alloc_ctrl()
-ac6befdfba38fde65a07a8423707a26fae00633d nvme-loop: fix memory leak in nvme_loop_create_ctrl()
-0ea724459272103ff708f9b44dfb33f1adb9f31e nvme-tcp: rerun io_work if req_list is not empty
-6a648da48799f6d2c881db44afc65f5aac9ded5a nvme-fc: clear q_live at beginning of association teardown
-b3d5689c0d2400c5861d2fd7bfba3063bfd41f5d platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
-6761373dafd374df03d7799b886516165ad11f86 platform/x86: intel_int0002_vgpio: Only call enable_irq_wake() when using s2idle
-9b24c5096ec494bb6bc4559d7f6b4e016f79bf46 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-4c853cdaedfb8f3c7fdb8a39863ddf008f86e443 RDMA/mlx5: Fix query DCT via DEVX
-a0f699c6f3622b16ba10604c85d23e36c665e10d RDMA/uverbs: Fix a NULL vs IS_ERR() bug
-4207e0946b04dd7ab4c2bdfc39b0de927692055a tools/testing/selftests/exec: fix link error
-e283ea75cd8bfd41f0d1b96d9f57499dd3a4370a drm/ttm: Do not add non-system domain BO into swap list
-c979400e219efbba983c6631e6724bc9024bc102 powerpc/pseries: Fix hcall tracing recursion in pv queued spinlocks
-74415c96f2793fcec3844e39e6b76c81a0da42a4 ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-9f8069bde7f16bad1145aad7be185fa00dd6bf76 nvmet: seset ns->file when open fails
-07876bfba6347bccecaa52ef1d87b268a065d5a0 perf/x86: Avoid touching LBR_TOS MSR for Arch LBR
-45e1eecc9093bb83a66490a7be26c633ef9dbcc3 locking/lockdep: Correct calling tracepoints
-b023ae89d22b3452438a8fdd59e4fd4e28dc7506 locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
-3f03da12545f3c12f748f5d5ba1ccc7fc3af9185 powerpc: Fix early setup to make early_ioremap() work
+2aae28759abf9ca09b322f04fabff7a3dccee789 xfs: standardize extent size hint validation
+c11ab4d2682dff41c5e34c1d422bd4f6faf51aaf xfs: validate extsz hints against rt extent size when rtinherit is set
+32f11e62f689c1bc3c3031490ae3d8efc220c597 xfs: check free AG space when making per-AG reservations
+a089c3221bb261fc0ef451306346bb205536e7c6 xfs: Remove redundant assignment to busy
+ce853b165c6a514bd1c52d4cde344a1070ceb888 When building the dbg package, we use a large 'for module in $(find' loop that
+d5657baa09d65aa5d5c72e7537c43b18b04b7207 mtr: Build script adjustments
+43861d56a066d0268acfde76f9987cf613f54446 add machine name to kconfig
+a53bb37e3baf47e7c58fa248455d30b2c030b8cd workqueue: omit "kworker/" from comm
+af88e75b9ed9182d1ca7d91a7a2189a87db36312 slub: print lost object address
+05085122cb981dfc6a96bc2423920ceebc550d37 kconfig: allow setting default cpu mitigations
+a2146e0d3f0ffdd6402eb3426bd78737805b123f vsprintf: disable pointer hashing
+bfbd8e380f41a9f24595b0b4ef75cea85d1c5538 xfs: don't crash with assfail
+a849cf865eed2029376fa9102fd4c9cf12cf9312 xfs: set ip->i_diflags directly in xfs_inode_inherit_flags
+17636466c2a282ad1e6f684724052851e1106cd3 xfs: clean up open-coded fs block unit conversions
+43adbd0732d317012a0238968fdb916535f24572 xfs: remove unnecessary shifts
+3e7ef83a09d3c3152471340b5c6a121f45148c23 xfs: move the quotaoff dqrele inode walk into xfs_icache.c
+557c7d203ac3b7c8ba1847841786228f9cab41db xfs: detach inode dquots at the end of inactivation
+08cccbf035e14b9cebcb98f8d3976a0ec28f2285 xfs: separate the dqrele_all inode grab logic from xfs_inode_walk_ag_grab
+4985379e2585e3b0dbb60db96fa40a63976c183b xfs: drop inactive dquots before inactivating inodes
+e3f3456f132b4e258561fee99cea392caa787561 xfs: move xfs_inew_wait call into xfs_dqrele_inode
+f30204668ab59e1fef91b31fb5abd25ea06b04d4 xfs: remove iter_flags parameter from xfs_inode_walk_*
+7bd389797840b5efe99f13e145a39d04aeb249df xfs: remove indirect calls from xfs_inode_walk{,_ag}
+4582f2e714fe528e17361ac761371e0f3a31f6fd xfs: clean up the blockgc grab and scan calls a little
+d7286481ad6b76e8bdf19dae7ed26d98dd554903 xfs: clean up xfs_dqrele_inode calling conventions
+797ec0c4e96f5152a8e07a63ff85794ac90aae95 xfs: fix radix tree tag signs
+64671c751ff94878f0b7099ace310fa50068256a xfs: pass struct xfs_eofblocks to the inode scan callback
+8cf867b9b99e8e0c2d088cd558aaea464b626e08 xfs: merge xfs_reclaim_inodes_ag into xfs_inode_walk_ag
+f030056f66f95b19121878dd085ba715725d91a9 xfs: refactor per-AG inode tagging functions
+13894da12c9245bd60122de447dce52746558b45 xfs: only reset incore inode health state flags when reclaiming an inode
+d58d6e01d140067f5c06490661dd4bd22981dc9a xfs: drop IDONTCACHE on inodes when we mark them sick
+c6b060fe0b495e850c21df2550775ec283618630 xfs: don't let background reclaim forget sick inodes
 
---===============6852739304380832318==
+--===============7318112053948053707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a263674fe69-b26b3301fe45.txt
+Content-Disposition: attachment; filename=revlist-8b705bccb993-f030056f66f9.txt
 
-552795cc3598d898ffb878d5e9019c20815dca88 firmware: arm_scpi: Prevent the ternary sign expansion bug
-75a64d15a777fa05f34454ab1f3cddaffb9bd1a7 openrisc: Fix a memory leak
-7b9e42cd1b32883a7bc7320f167c07640179017f RDMA/siw: Properly check send and receive CQ pointers
-315c14523b51f6fc12acf4d88c7f94bd93faf6b2 RDMA/siw: Release xarray entry
-cf7ac9e10390dd76d55ed89a6b781e8445114d0b RDMA/rxe: Clear all QP fields if creation failed
-9b87a5d91c2cf00682533d4520dd05ee56ca9988 scsi: ufs: core: Increase the usable queue depth
-23156a7dde7c53619c94ad52b45fa314dcd0599c scsi: qla2xxx: Fix error return code in qla82xx_write_flash_dword()
-8b7430bf5292e45fdfc494958676f79e5bea51b3 RDMA/mlx5: Recover from fatal event in dual port mode
-e89714c25e505778e6420ada88a6011fd24d190b RDMA/core: Don't access cm_id after its destruction
-d6e954851934a85cd7b69c146714a961444f4d46 platform/mellanox: mlxbf-tmfifo: Fix a memory barrier issue
-79d1f6b325c1f5ee4453901e4c0ab2984126ea90 platform/x86: dell-smbios-wmi: Fix oops on rmmod dell_smbios
-ad14121c39fc234a45b746d506275a36a8763c1f RDMA/uverbs: Fix a NULL vs IS_ERR() bug
-8519003eb2c28126beee36d390d39a040378e42a ptrace: make ptrace() fail if the tracee changed its pid unexpectedly
-c2dc52b4d2cabab0998fcd0212279102ea20b2a9 nvmet: seset ns->file when open fails
-b26b3301fe454ac11c15d262597e5aed765d19bc locking/mutex: clear MUTEX_FLAGS if wait_list is empty due to signal
+2aae28759abf9ca09b322f04fabff7a3dccee789 xfs: standardize extent size hint validation
+c11ab4d2682dff41c5e34c1d422bd4f6faf51aaf xfs: validate extsz hints against rt extent size when rtinherit is set
+32f11e62f689c1bc3c3031490ae3d8efc220c597 xfs: check free AG space when making per-AG reservations
+a089c3221bb261fc0ef451306346bb205536e7c6 xfs: Remove redundant assignment to busy
+ce853b165c6a514bd1c52d4cde344a1070ceb888 When building the dbg package, we use a large 'for module in $(find' loop that
+d5657baa09d65aa5d5c72e7537c43b18b04b7207 mtr: Build script adjustments
+43861d56a066d0268acfde76f9987cf613f54446 add machine name to kconfig
+a53bb37e3baf47e7c58fa248455d30b2c030b8cd workqueue: omit "kworker/" from comm
+af88e75b9ed9182d1ca7d91a7a2189a87db36312 slub: print lost object address
+05085122cb981dfc6a96bc2423920ceebc550d37 kconfig: allow setting default cpu mitigations
+a2146e0d3f0ffdd6402eb3426bd78737805b123f vsprintf: disable pointer hashing
+bfbd8e380f41a9f24595b0b4ef75cea85d1c5538 xfs: don't crash with assfail
+a849cf865eed2029376fa9102fd4c9cf12cf9312 xfs: set ip->i_diflags directly in xfs_inode_inherit_flags
+17636466c2a282ad1e6f684724052851e1106cd3 xfs: clean up open-coded fs block unit conversions
+43adbd0732d317012a0238968fdb916535f24572 xfs: remove unnecessary shifts
+3e7ef83a09d3c3152471340b5c6a121f45148c23 xfs: move the quotaoff dqrele inode walk into xfs_icache.c
+557c7d203ac3b7c8ba1847841786228f9cab41db xfs: detach inode dquots at the end of inactivation
+08cccbf035e14b9cebcb98f8d3976a0ec28f2285 xfs: separate the dqrele_all inode grab logic from xfs_inode_walk_ag_grab
+4985379e2585e3b0dbb60db96fa40a63976c183b xfs: drop inactive dquots before inactivating inodes
+e3f3456f132b4e258561fee99cea392caa787561 xfs: move xfs_inew_wait call into xfs_dqrele_inode
+f30204668ab59e1fef91b31fb5abd25ea06b04d4 xfs: remove iter_flags parameter from xfs_inode_walk_*
+7bd389797840b5efe99f13e145a39d04aeb249df xfs: remove indirect calls from xfs_inode_walk{,_ag}
+4582f2e714fe528e17361ac761371e0f3a31f6fd xfs: clean up the blockgc grab and scan calls a little
+d7286481ad6b76e8bdf19dae7ed26d98dd554903 xfs: clean up xfs_dqrele_inode calling conventions
+797ec0c4e96f5152a8e07a63ff85794ac90aae95 xfs: fix radix tree tag signs
+64671c751ff94878f0b7099ace310fa50068256a xfs: pass struct xfs_eofblocks to the inode scan callback
+8cf867b9b99e8e0c2d088cd558aaea464b626e08 xfs: merge xfs_reclaim_inodes_ag into xfs_inode_walk_ag
+f030056f66f95b19121878dd085ba715725d91a9 xfs: refactor per-AG inode tagging functions
 
---===============6852739304380832318==--
+--===============7318112053948053707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6337f6e913ea-e3f3456f132b.txt
+
+2aae28759abf9ca09b322f04fabff7a3dccee789 xfs: standardize extent size hint validation
+c11ab4d2682dff41c5e34c1d422bd4f6faf51aaf xfs: validate extsz hints against rt extent size when rtinherit is set
+32f11e62f689c1bc3c3031490ae3d8efc220c597 xfs: check free AG space when making per-AG reservations
+a089c3221bb261fc0ef451306346bb205536e7c6 xfs: Remove redundant assignment to busy
+ce853b165c6a514bd1c52d4cde344a1070ceb888 When building the dbg package, we use a large 'for module in $(find' loop that
+d5657baa09d65aa5d5c72e7537c43b18b04b7207 mtr: Build script adjustments
+43861d56a066d0268acfde76f9987cf613f54446 add machine name to kconfig
+a53bb37e3baf47e7c58fa248455d30b2c030b8cd workqueue: omit "kworker/" from comm
+af88e75b9ed9182d1ca7d91a7a2189a87db36312 slub: print lost object address
+05085122cb981dfc6a96bc2423920ceebc550d37 kconfig: allow setting default cpu mitigations
+a2146e0d3f0ffdd6402eb3426bd78737805b123f vsprintf: disable pointer hashing
+bfbd8e380f41a9f24595b0b4ef75cea85d1c5538 xfs: don't crash with assfail
+a849cf865eed2029376fa9102fd4c9cf12cf9312 xfs: set ip->i_diflags directly in xfs_inode_inherit_flags
+17636466c2a282ad1e6f684724052851e1106cd3 xfs: clean up open-coded fs block unit conversions
+43adbd0732d317012a0238968fdb916535f24572 xfs: remove unnecessary shifts
+3e7ef83a09d3c3152471340b5c6a121f45148c23 xfs: move the quotaoff dqrele inode walk into xfs_icache.c
+557c7d203ac3b7c8ba1847841786228f9cab41db xfs: detach inode dquots at the end of inactivation
+08cccbf035e14b9cebcb98f8d3976a0ec28f2285 xfs: separate the dqrele_all inode grab logic from xfs_inode_walk_ag_grab
+4985379e2585e3b0dbb60db96fa40a63976c183b xfs: drop inactive dquots before inactivating inodes
+e3f3456f132b4e258561fee99cea392caa787561 xfs: move xfs_inew_wait call into xfs_dqrele_inode
+
+--===============7318112053948053707==--
