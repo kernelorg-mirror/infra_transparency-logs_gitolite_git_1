@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 23 May 2021 23:51:02 -0000
-Message-Id: <162181386235.22207.10271507727362340474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 24 May 2021 00:16:53 -0000
+Message-Id: <162181541320.4587.10233126299453330406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 4cc57309656339876a45efb20cb95585a2c759b8
-    new: dd15994466818f24d1dedd4626a827804f00ce3d
+  - ref: refs/heads/master
+    old: 5eff1461a6dec84f04fafa9128548bad51d96147
+    new: 835744e8b537389d6a448a47d0753734d4777fa4
     log: |
-         2f3877d609e7951ef96d24979eb9d163f1f004f8 clk: rockchip: fix rk3568 cpll clk gate bits
-         dd15994466818f24d1dedd4626a827804f00ce3d Merge branch 'v5.14-clk/next' into for-next
-         
-  - ref: refs/heads/v5.14-clk/next
-    old: 23029150a05b59ebacca6dd76f6c14dc67a95877
-    new: 2f3877d609e7951ef96d24979eb9d163f1f004f8
-    log: |
-         2f3877d609e7951ef96d24979eb9d163f1f004f8 clk: rockchip: fix rk3568 cpll clk gate bits
+         3a62fed2fd7b6fea96d720e779cafc30dfb3a22e net/sched: fq_pie: re-factor fix for fq_pie endless loop
+         e70f7a11876a1a788ceadf75e9e5f7af2c868680 net/sched: fq_pie: fix OOB access in the traffic path
+         835744e8b537389d6a448a47d0753734d4777fa4 Merge branch 'fq_pie-fixes'
          
