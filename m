@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8476623133462618210=="
+Content-Type: multipart/mixed; boundary="===============7588758882944011378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 24 May 2021 03:03:10 -0000
-Message-Id: <162182539087.19865.12920076586540280139@gitolite.kernel.org>
+Date: Mon, 24 May 2021 03:15:49 -0000
+Message-Id: <162182614923.27838.8470198552898061082@gitolite.kernel.org>
 
---===============8476623133462618210==
+--===============7588758882944011378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: c93db682cfb213501881072a9200a48ce1dc3c3f
-    new: c4681547bcce777daf576925a966ffa824edd09d
-    log: revlist-c93db682cfb2-c4681547bcce.txt
+  - ref: refs/heads/kbuild
+    old: 7bcdcd71f432b553a084a88130800196af36e3b1
+    new: 368480b21916e1d853e321b7aecd7e65fef2521e
+    log: revlist-7bcdcd71f432-368480b21916.txt
 
---===============8476623133462618210==
+--===============7588758882944011378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c93db682cfb2-c4681547bcce.txt
+Content-Disposition: attachment; filename=revlist-7bcdcd71f432-368480b21916.txt
 
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
 0a96c05995ef1085f9c5e6bf005a04915dd2ec6f arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
@@ -168,6 +168,9 @@ d1acd81bd6eb685aa9fef25624fb36d297f6404e scsi: pm80xx: Fix drives missing during
 fbb80d5ad400a12ec67214a0e7e9f9497dc9e615 irqchip: Remove redundant error printing
 c1f0616124c455c5c762b6f123e40bba5df759e6 ALSA: intel8x0: Don't update period unless prepared
 9d5e8492eee017ffdaa9f0957e91d39d83163197 xfs: adjust rt allocation minlen when extszhint > rtextsize
+c6de37dd5e48b883db032aa4dc0547a4858b9f20 tools build: Fix quiet cmd indentation
+98a499a11ecdd8cb91d03dd5c034aaf7422f2deb scripts/jobserver-exec: Fix a typo ("envirnoment")
+c93db682cfb213501881072a9200a48ce1dc3c3f kbuild: dummy-tools: adjust to stricter stackprotector check
 4236a26a6b998c8c4fdc0117b8848a38789c48ae cifs: remove deadstore in cifs_close_all_deferred_files()
 055f23b74b20f2824ce33047b4cf2e2aa856bf3b module: check for exit sections in layout_sections() instead of module_init_section()
 145e06b58f8625becc61792a0554726314297a85 drm/i915/gvt: Move mdev attribute groups into kvmgt module
@@ -312,5 +315,17 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
+cf536e185869d4815d506e777bcca6edd9966a6e Makefile: extend 32B aligned debug option to 64B aligned
+1bb0b18a06dceee1fdc32161a72e28eab6f011c4 kbuild: hide tools/ build targets from external module builds
+0d989ac2c90b5f51fe12102d3cddf54b959f2014 kbuild: remove libelf checks from top Makefile
+7d9677835b10b5de9cc4d70a768b2ba18b219f17 kbuild: require all architectures to have arch/$(SRCARCH)/Kbuild
+3d4fba557f13b93db53f3ff31596abf586a4c12a alpha: move core-y in arch/alpha/Makefile to arch/alpha/Kbuild
+944821b55ffd6853cde24c0ed5f3a61050eff50f h8300: move core-y in arch/h8300/Makefile to arch/h8300/Kbuild
+43d6c664303e6e446e37e4eb6121fcc711990b1d hexagon: move core-y in arch/hexagon/Makefile to arch/hexagon/Kbuild
+391392a8ea8ddcee63f977e88c845f7361bb2171 sh: move core-y in arch/sh/Makefile to arch/sh/Kbuild
+243b50c141d71fcf7b88e94474b3b9269f0b1f9d kbuild: merge scripts/mkmakefile to top Makefile
+48631cd68858675f37242fdfbb80e91859be60ef init: use $(call cmd,) for generating include/generated/compile.h
+01097ecc72ef288f6f7523d9a6b547792145b52a kbuild: sink stdout from cmd for silent build
+368480b21916e1d853e321b7aecd7e65fef2521e kbuild: clean up ${quiet} checks in shell scripts
 
---===============8476623133462618210==--
+--===============7588758882944011378==--
