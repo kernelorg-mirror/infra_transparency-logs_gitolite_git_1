@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2804325002564565759=="
+Content-Type: multipart/mixed; boundary="===============4152556462065242063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 24 May 2021 14:09:08 -0000
-Message-Id: <162186534811.13349.13963221682443891941@gitolite.kernel.org>
+Date: Mon, 24 May 2021 14:09:34 -0000
+Message-Id: <162186537460.13570.6057504167418005468@gitolite.kernel.org>
 
---===============2804325002564565759==
+--===============4152556462065242063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 3fb6180b0b978fca73704420b08a5d4df1668788
-    new: 47f4bdf989c095bbe7389b5423d3c09cb84fa313
-    log: revlist-3fb6180b0b97-47f4bdf989c0.txt
+  - ref: refs/heads/fixes
+    old: a1149a6c06ee094a6e62886b0c0e8e66967a728a
+    new: c4681547bcce777daf576925a966ffa824edd09d
+    log: revlist-a1149a6c06ee-c4681547bcce.txt
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
 
---===============2804325002564565759==
+--===============4152556462065242063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fb6180b0b97-47f4bdf989c0.txt
+Content-Disposition: attachment; filename=revlist-a1149a6c06ee-c4681547bcce.txt
 
 f7c475b8dfc23d461a47dfac5e498f8cc96faea5 drm/ttm: Do not add non-system domain BO into swap list
 ffe8768fb8f391cb478466778c55e2110525c15c drm/vc4: remove unused function
@@ -617,44 +620,5 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-0de2718a409539e0fc2c7a261fe59844308e3ef4 mmc: s3cmci: move to use request_irq by IRQF_NO_AUTOEN flag
-adcc34f2531dbd155cd12939d4f79b4fa9f642dc dt-bindings: mmc: sdhci-am654: Remove duplicate ti,j721e-sdhci-4bit
-eb4fe0b9801f581f568a8cbb9be6978c75a45c1d dt-bindings: mmc: rockchip-dw-mshc: add description for rk3568
-1dbd1a5654489a139b8da55efc260a1ffeddc665 mmc: sdhci-acpi: Disable write protect detection on Toshiba Encore 2 WT8-B
-955a0bf2000f0e989b8a196ea788da4ed953233e mmc: core: Drop open coding when preparing commands with busy signaling
-8c0a2922fa465999b172df646e972c179bfde11a mmc: core: Take into account MMC_CAP_NEED_RSP_BUSY for eMMC HPI commands
-8a85c31fe61fdc9ab4994c4b430966c2b271dc1c mmc: core: Re-structure some code in __mmc_poll_for_busy()
-6776f7dc36a88339bc49744732ed1e33ea6891e3 mmc: core: Extend re-use of __mmc_poll_for_busy()
-25c193d3b483cbd038a794f7c978f9e3fbe53989 mmc: core: Enable eMMC sleep commands to use HW busy polling
-b9452a88a59643a6c7a7ec685441914d69d5fc08 mmc: core: Prepare mmc_send_cxd_data() to be re-used for additional cmds
-d2355f548cd9ff6e9d99445c1d185c6efd57a169 mmc: core: Drop open coding in mmc_sd_switch()
-4ab3e75dbd65da117d691d0e12d5f74e061d5270 mmc: core: Parse the SD SCR register for support of CMD48/49 and CMD58/59
-cae548d9c8141c38e84a91a4d67ca289a30d7d7e mmc: core: Read the SD function extension registers for power management
-98ac8c53e1a7ad3194bf08d38cad9adbbaf87166 mmc: core: Read performance enhancements registers for SD cards
-24d558f75ba3bbe76a974c34c05f7a98d2368be3 mmc: core: Add support for Power Off Notification for SD cards
-1ddad40a398d8941334dcf5443f91942ef8e962b mmc: block: Disable CMDQ on the ioctl path
-bf1d491b9189285c37879abafcdc5ead6a9d01b1 mmc: core: Move eMMC cache flushing to a new bus_ops callback
-3902f4e38d8e584e86be1c7c61d9dc90d988814b drivers: memstick: core:ms_block.c: Fix alignment of block comment
-ac5eb12c4dec5d8f648812386dcbd6d84ced5341 mmc: usdhi6rol0: fix error return code in usdhi6_probe()
-48851b13877e31c24e1efa6dd5bd95b535a84199 mmc: jz4740: Remove redundant error printing in jz4740_mmc_probe()
-a3927680df3ae951f781dbdccd3d42a833e2f7a5 dt-bindings: mmc: renesas,mmcif: Convert to json-schema
-d39f68b6e041eac4d26397cdb78237b6f6031d1f mmc: sdhci-pci-gli: Fine tune GL9763E L1 entry delay
-ec6198f88e00dfe325518b3838bfeff12aa2d427 mmc: core: Add support for cache ctrl for SD cards
-28eb8453759d5331066e4f0cbb2fb2fa9f248025 dt-bindings: mmc: add no-mmc-hs400 flag
-5c39b018cf62a59114afaa1e05fac02bad919fc4 mmc: sdhci-esdhc-imx: advertise HS400 mode through MMC caps
-35b958c0f9bdf656b762e09c71684fcc27cea5f9 mmc: core: add support for disabling HS400 mode via DT
-5fae1598bb4d6fa92f78f1a3a1070954f460de40 memstick: rtsx_usb_ms: fix UAF
-e56fb7221439279909266566578b21e430f1ce11 dt-bindings: mmc: rockchip-dw-mshc: Add Rockchip RK1808
-7f89144e3d9cf7cf791ec1d3746f79c127b17a05 mmc: mediatek: use data instead of mrq parameter from msdc_{un}prepare_data()
-fafb011c9f5323929c24cb3365f9d82be8ce1b75 mmc: mediatek: remove useless data parameter from msdc_data_xfer_next()
-260955cb8142ad79240a90902a824336aa202956 dt-bindings: mmc: Clean-up examples to match documented bindings
-fef88f2ed0405fd5b6b19a0f510b556e023e858b mmc: cqhci: fix typo
-c4a0252bdb3523dc3dc25c70b97d6c82fca2b90b mmc: cqhci: introduce get_trans_desc_offset()
-97ef5413beb1f1fefe3293d5fcac7e7bdd8f17b9 mmc: core: Use pm_runtime_resume_and_get() to replace open coding
-ef9d2580da10c26e9772efe462d5cd887345945a mmc: sdhci_am654: Use pm_runtime_resume_and_get() to replace open coding
-094c0a75403923886309688ad49148dd1f764b94 mmc: sdhci-omap: Use pm_runtime_resume_and_get() to replace open coding
-1f3d5758d0a77aa4ca4c744c7e1b01b19e8a3153 mmc: vub3000: fix control-request direction
-57a6b5d77071aef4ac8384d654c7c1c62275e344 mmc: core: Add a missing SPDX license header
-47f4bdf989c095bbe7389b5423d3c09cb84fa313 mmc: sdhci-of-aspeed: Configure the SDHCIs as specified by the devicetree.
 
---===============2804325002564565759==--
+--===============4152556462065242063==--
