@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 24 May 2021 17:53:52 -0000
-Message-Id: <162187883238.1464.130379038006436836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 24 May 2021 18:02:45 -0000
+Message-Id: <162187936571.7102.18249873758942387194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 5df7ae7bed412aa3f2e26ee8271abb24885ee557
-    new: 1434a3127887a7e708be5f4edd5e36d64d8622f8
+  - ref: refs/heads/kvm-arm64/m1
+    old: b32ff928340d1345674c406ec903a6ebc9f64177
+    new: 2d71966b0d3b8a5d2e3de725a5a0bbc5caf9bbeb
     log: |
-         45e1ba40837ac2f6f4d4716bddb8d44bd7e4a251 cgroup: disable controllers at parse time
-         08b2b6fdf6b26032f025084ce2893924a0cdb4a2 cgroup: fix spelling mistakes
-         1434a3127887a7e708be5f4edd5e36d64d8622f8 Merge branch 'for-5.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+         b5a0e6d1570b73ce3741cf57839f990ce66557e7 KVM: arm64: timer: Refactor IRQ configuration
+         570b882e18802c64e93b6922398a08fea2394bbe KVM: arm64: timer: Add support for SW-based deactivation
+         2d71966b0d3b8a5d2e3de725a5a0bbc5caf9bbeb irqchip/apple-aic: Advertise some level of vGICv3 compatibility
          
