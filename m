@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3445429365447835091=="
+Content-Type: multipart/mixed; boundary="===============7771334057895043064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 24 May 2021 11:56:47 -0000
-Message-Id: <162185740767.16015.3123874335988801735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 24 May 2021 11:57:05 -0000
+Message-Id: <162185742564.16261.8019871486698361840@gitolite.kernel.org>
 
---===============3445429365447835091==
+--===============7771334057895043064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: c4294ffdaff477784615094e8f3dd139b498711b
-    new: a9ca01a0d1b8bc0b01e48c893031d4cc6976d7f2
-    log: revlist-c4294ffdaff4-a9ca01a0d1b8.txt
+    old: 840c3e47276e5ee774c3e36b5dc5bb3a67310340
+    new: 3efe284707451f6271583d749cee0a1245461a0f
+    log: revlist-840c3e47276e-3efe28470745.txt
   - ref: refs/heads/for-next
-    old: 55f0e3d2ed3d198f639dcbef0366732fa7c71816
-    new: 67fb42566de9833bafb4fd2e7e254185a845d6dc
-    log: revlist-55f0e3d2ed3d-67fb42566de9.txt
+    old: ad2e8dfcaebd95c1e660e8cd3bba38070c4350ac
+    new: aa946f04d384e8749e9d4e75605c9eebaa82dc66
+    log: revlist-ad2e8dfcaebd-aa946f04d384.txt
 
---===============3445429365447835091==
+--===============7771334057895043064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4294ffdaff4-a9ca01a0d1b8.txt
+Content-Disposition: attachment; filename=revlist-840c3e47276e-3efe28470745.txt
 
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
 0a96c05995ef1085f9c5e6bf005a04915dd2ec6f arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
@@ -319,19 +319,15 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-6f55c5dd1118b3076d11d9cb17f5c5f4bc3a1162 regulator: max77620: Use device_set_of_node_from_dev()
-62499a94ce5b9a41047dbadaad885347b1176079 regulator: max77620: Silence deferred probe error
-0514582a1a5b4ac1a3fd64792826d392d7ae9ddc regulator: bd70528: Fix off-by-one for buck123 .n_voltages setting
-4c668630bf8ea90a041fc69c9984486e0f56682d regulator: bd71828: Fix .n_voltages settings
-8d6ee30c11a95f84974c2d7f590a7012f27b8f15 regulator: hisilicon: use the correct HiSilicon copyright
-a072cbda97a9367a84d46e7bf78a47abdbfcaea8 Merge series "Fix MAX77620 regulator driver regression" from Dmitry Osipenko <digetx@gmail.com>:
-a9ca01a0d1b8bc0b01e48c893031d4cc6976d7f2 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+13817d466eb8713a1ffd254f537402f091d48444 spi: bcm2835: Fix out-of-bounds access with more than 4 slaves
+c4666729a14947a00af3fb4104f7c658bfe28ec9 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+3efe284707451f6271583d749cee0a1245461a0f Merge remote-tracking branch 'spi/for-5.13' into spi-linus
 
---===============3445429365447835091==
+--===============7771334057895043064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55f0e3d2ed3d-67fb42566de9.txt
+Content-Disposition: attachment; filename=revlist-ad2e8dfcaebd-aa946f04d384.txt
 
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
 0a96c05995ef1085f9c5e6bf005a04915dd2ec6f arm64: dts: renesas: Add port@0 node for all CSI-2 nodes to dtsi
@@ -622,16 +618,11 @@ f73d2a429334dbd30bc9a7e5ef5e07a676d3d499 Merge tag 'irq-urgent-2021-05-23' of gi
 0898678c742ee913691d7f4a1606309825eee33b Merge tag 'locking-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6ebb6814a1ef9573d8488232b50dc53b394c025a Merge tag 'perf-urgent-2021-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c4681547bcce777daf576925a966ffa824edd09d Linux 5.13-rc3
-6f55c5dd1118b3076d11d9cb17f5c5f4bc3a1162 regulator: max77620: Use device_set_of_node_from_dev()
-62499a94ce5b9a41047dbadaad885347b1176079 regulator: max77620: Silence deferred probe error
-0514582a1a5b4ac1a3fd64792826d392d7ae9ddc regulator: bd70528: Fix off-by-one for buck123 .n_voltages setting
-4c668630bf8ea90a041fc69c9984486e0f56682d regulator: bd71828: Fix .n_voltages settings
-8d6ee30c11a95f84974c2d7f590a7012f27b8f15 regulator: hisilicon: use the correct HiSilicon copyright
-5ba3747dbc9ade2d22a8f5bff3c928cb41d35030 regulator: bd71815: add select to fix build
-8590ccd4dfd207d89c3312cf8a8b25990acaa079 regulator: max8973: Convert to use regulator_set_ramp_delay_regmap
-7c556aec14099c87c95bb7011c74fafe45d93679 regulator: bd70528: Convert to use regulator_set_ramp_delay_regmap
-a072cbda97a9367a84d46e7bf78a47abdbfcaea8 Merge series "Fix MAX77620 regulator driver regression" from Dmitry Osipenko <digetx@gmail.com>:
-a9ca01a0d1b8bc0b01e48c893031d4cc6976d7f2 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
-67fb42566de9833bafb4fd2e7e254185a845d6dc Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
+13817d466eb8713a1ffd254f537402f091d48444 spi: bcm2835: Fix out-of-bounds access with more than 4 slaves
+42a7dfa26fc6df1624d7c2955200e5053dd0b818 spi: ath79: drop platform data
+ab053f48f9264ed5c714d0427b3115f121d4c476 spi: ath79: set number of chipselect lines
+c4666729a14947a00af3fb4104f7c658bfe28ec9 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+3efe284707451f6271583d749cee0a1245461a0f Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+aa946f04d384e8749e9d4e75605c9eebaa82dc66 Merge remote-tracking branch 'spi/for-5.14' into spi-next
 
---===============3445429365447835091==--
+--===============7771334057895043064==--
