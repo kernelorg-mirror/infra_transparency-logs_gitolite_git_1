@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 25 May 2021 18:31:29 -0000
-Message-Id: <162196748930.16944.5779061154319538050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 25 May 2021 18:37:37 -0000
+Message-Id: <162196785767.20257.14217169764536491013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 6ff152669a1a2ea9496cacf4b4bc0e67fa051f0e
-    new: efa5b0cc62596efc45b43f031a571629d6d7a230
+  - ref: refs/heads/dm-5.14
+    old: 42ee011e2d7504ee9d7ec5ef6c8c548588ccfb53
+    new: 80043c258a55d24642458cccfb9147bcee28f043
     log: |
-         e47bc6ede4ad2d98957efe028d10e70f990668e7 main: Remove dbus-debug -B option
-         efa5b0cc62596efc45b43f031a571629d6d7a230 main: Document '-E', --developer option
+         1b4948ebc3386ed5d04995e6a24187665046f484 dm btree: improve btree residency
+         1c0ccb7a85365554d5e2702979d4524b51bd595f dm space maps: don't reset space map allocation cursor when committing
+         a42f70a52313fb5ae7245510a0a489af7221ba36 dm space maps: improve performance with inc/dec on ranges of blocks
+         80043c258a55d24642458cccfb9147bcee28f043 dm space map disk: cache a small number of index entries
          
