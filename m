@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0290423092200048107=="
+Content-Type: multipart/mixed; boundary="===============2692592680087093238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 25 May 2021 12:13:14 -0000
-Message-Id: <162194479457.20495.14703435728411578439@gitolite.kernel.org>
+Date: Tue, 25 May 2021 12:13:23 -0000
+Message-Id: <162194480300.20589.427548259983276714@gitolite.kernel.org>
 
---===============0290423092200048107==
+--===============2692592680087093238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: f8b61bd20479c094fb421da42fef6b4ff22a589e
     new: a050a6d2b7e80ca52b2f4141eaf3420d201b72b3
     log: revlist-f8b61bd20479-a050a6d2b7e8.txt
 
---===============0290423092200048107==
+--===============2692592680087093238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -125,4 +125,4 @@ f71d49e01be6bb0f96ca33402477162511988e9d Merge tag 'spi-fix-v5.13-rc3' of git://
 1434a3127887a7e708be5f4edd5e36d64d8622f8 Merge branch 'for-5.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 a050a6d2b7e80ca52b2f4141eaf3420d201b72b3 Merge tag 'perf-tools-fixes-for-v5.13-2021-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============0290423092200048107==--
+--===============2692592680087093238==--
