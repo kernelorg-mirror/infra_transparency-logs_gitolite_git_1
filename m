@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7025553285828374061=="
+Content-Type: multipart/mixed; boundary="===============1538395100271646518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Tue, 25 May 2021 13:13:37 -0000
-Message-Id: <162194841796.29811.9224220966272620033@gitolite.kernel.org>
+Date: Tue, 25 May 2021 13:14:36 -0000
+Message-Id: <162194847659.30219.918400150663021984@gitolite.kernel.org>
 
---===============7025553285828374061==
+--===============1538395100271646518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v0.4.2
-    old: 0000000000000000000000000000000000000000
-    new: 8e9b5532c163c251f329a5225b21e0b4f6bf3f92
+  - ref: refs/notes/signatures/tar
+    old: d0733e13a40b9211db67a9d067e147c7f8a5f322
+    new: 67b9eb36c50e17a5e569ef31759f49be0a67350b
+    log: |
+         67b9eb36c50e17a5e569ef31759f49be0a67350b Notes added by 'git notes add'
+         
 
---===============7025553285828374061==
+--===============1538395100271646518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1621948417 -0400
+pusher B6C41CE35664996C! 1621948476 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1621948417-5bcfa755ba0fd2924342b60456609661adf8bd66
+nonce 1621948476-1ed07037f6785dab59ff72d5765a46362b3928e3
 
-0000000000000000000000000000000000000000 8e9b5532c163c251f329a5225b21e0b4f6bf3f92 refs/tags/v0.4.2
+d0733e13a40b9211db67a9d067e147c7f8a5f322 67b9eb36c50e17a5e569ef31759f49be0a67350b refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKz4AQAKCRC2xBzjVmSZ
-bOLQAPwI/IA6qdd/kWuD8N5SOwBqdVlTDsLymBePcLia4rlp6AEA4xzKejxQ5dMz
-wYnUq/OfEIxfomU9jZuzvvB6PHCqvw4=
-=/GzI
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYKz4PAAKCRC2xBzjVmSZ
+bHACAP9FJYfm1Ang/Z9tNB7PSRmAdsBABGRdw5F9ka3gPwZPPQD/T9qhcrynUkhs
+YTHTXGg+hx/mYEoGUYv3eUVcBu1HYgY=
+=CSkV
 -----END PGP SIGNATURE-----
 
---===============7025553285828374061==--
+--===============1538395100271646518==--
