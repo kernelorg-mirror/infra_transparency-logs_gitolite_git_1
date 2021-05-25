@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 25 May 2021 12:49:29 -0000
-Message-Id: <162194696952.13224.2945628338042124513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 25 May 2021 12:50:15 -0000
+Message-Id: <162194701539.16089.5680245626918280607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/review-hans
-    old: 50e72223d367a1e4b531bf9cdc88bc527eb353d6
-    new: 966d0f5b3fa701fdb4b6314213273ea435440471
+  - ref: refs/heads/x86/cpu
+    old: 28188cc461f6cf8b7d28de4f6df52014cc1d5e39
+    new: 2ade8fc65076095460e3ea1ca65a8f619d7d9a3a
     log: |
-         09f533990293ee587513726955fa1d6f9493b338 platform/surface: aggregator_registry: Update comments for 15" AMD Surface Laptop 4
-         48dba1e7b9da1f18714b8d7ac1bbcc0de2afb691 platform/surface: aggregator_registry: Add support for 13" Intel Surface Laptop 4
-         741a063a264a5a6a043bef8a610ec762d0b0a8bc platform/surface: aggregator_registry: Consolidate node groups for 5th- and 6th-gen devices
-         a65916f11fc2f5545773be22d761b1c713aaa8b9 platform/x86: ideapad-laptop: Ignore VPC event bit 10
-         0ab8359fd8cd1b13309401088eee8896288e85ce platform/x86: thinkpad_acpi: Fix inconsistent indenting
-         3a814aba50c16814c868ddcea225fab868770353 platform/x86: dell-wmi: Rename dell-wmi.c to dell-wmi-base.c
-         4e3c85501832d8259665b3746bbe0df65f8084d1 platform/x86: dell-privacy: Add support for Dell hardware privacy
-         89d14d9acbe3ed5ce282e30f1ab1a398f0620852 FIXUP platform/x86: dell-privacy: Add support for Dell hardware privacy
-         966d0f5b3fa701fdb4b6314213273ea435440471 FIXUP platform/x86: dell-privacy: Add support for Dell hardware privacy
+         2ade8fc65076095460e3ea1ca65a8f619d7d9a3a x86/amd_nb: Add AMD family 19h model 50h PCI ids
          
