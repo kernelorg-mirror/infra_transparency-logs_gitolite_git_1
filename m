@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7342106047728233519=="
+Content-Type: multipart/mixed; boundary="===============9220539671864731739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/git/git
-Date: Tue, 25 May 2021 21:35:14 -0000
-Message-Id: <162197851433.7120.8273386024100839434@gitolite.kernel.org>
+Date: Tue, 25 May 2021 22:10:32 -0000
+Message-Id: <162198063274.28893.10093670605131451036@gitolite.kernel.org>
 
---===============7342106047728233519==
+--===============9220539671864731739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,68 +15,77 @@ service: git-receive-pack
 repo: pub/scm/git/git
 user: junio
 changes:
-  - ref: refs/heads/next
-    old: 3a1982b559e5a2c57b0d15527d9ce543b7ecd34f
-    new: 5c116071b177d84e4c9020dbc6470c21e2725af3
-    log: |
-         a96355d84c9fe43db4e62597921667efc32b53f6 t1092: revert the "-1" hack for emulating "no progress meter"
-         5c116071b177d84e4c9020dbc6470c21e2725af3 Merge branch 'ds/t1092-fix-flake-from-progress' into next
-         
   - ref: refs/heads/seen
-    old: 4689afab9bd36d3cad1907e541f297c7bbbcfe4a
-    new: 82b1e475fafec4a68420780d5d5f7b44e7ecf044
-    log: revlist-4689afab9bd3-82b1e475fafe.txt
+    old: 82b1e475fafec4a68420780d5d5f7b44e7ecf044
+    new: debd31dfe87e5053ead57d49e614cc524a227725
+    log: revlist-82b1e475fafe-debd31dfe87e.txt
 
---===============7342106047728233519==
+--===============9220539671864731739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4689afab9bd3-82b1e475fafe.txt
+Content-Disposition: attachment; filename=revlist-82b1e475fafe-debd31dfe87e.txt
 
-a96355d84c9fe43db4e62597921667efc32b53f6 t1092: revert the "-1" hack for emulating "no progress meter"
-e11dd00b64e3972a9c4e276be1ffdb2cc5ed1012 Merge branch 'ds/t1092-fix-flake-from-progress' into jch
-28b3ad92c422754695887999b2db3600f605dc79 Merge branch 'zh/ref-filter-atom-type' into jch
-2bc92b048799220ffe2d4c5c6ef4a5586c2ef329 Merge branch 'ef/mailinfo-short-name' into jch
-526c562606f75ff71700e37c58dc6830f49dc405 Merge branch 'mt/parallel-checkout-with-padded-oidcpy' into jch
-f45b807a49ff58f3670947105cededc27df66352 Merge branch 'jn/size-t-casted-to-off-t-fix' into jch
-2e2d589fe672569e010b00c57e34d2977a3ac98a Merge branch 'ah/merge-usage-i18n-fix' into jch
-9a5e7ab9c6b2b442db7b5b2452d61b5473afc5e3 Merge branch 'ah/stash-usage-i18n-fix' into jch
-caceb5013c942011a98674d90c75d1ce7fabf1f5 Merge branch 'ah/submodule-helper-module-summary-parseopt' into jch
-9ab20ba6ceeaa8699ae6a625809a801b7e3732cd Merge branch 'ah/doc-describe' into jch
-06dfde77afbd1feaf9500562bef797c80b9a0ee4 Merge branch 'ga/send-email-sendmail-cmd' into jch
-55657e7032493125ce65a89d852ae202db3b12bb Merge branch 'jc/clarify-revision-range' into jch
-293d8c5591f22424dac33b9c9bd68eee1472d55a Merge branch 'wm/rev-parse-die-i18n' into jch
-58efa54a665d7364b48fcf4bbd7e7058d402048b Merge branch 'jk/clone-clean-upon-transport-error' into jch
-a55ce04f899cd8ecf5e921748b4db89c980857e9 Merge branch 'ry/clarify-fast-forward-in-glossary' into jch
-fc299f225bd6c9fde93791b013fff48eaaa9d60b Merge branch 'tl/fix-packfile-uri-doc' into jch
-6a16634ea29e0d1a271c6fd4b1b0c5c2beafcc49 ### match next
-dec2440fa78e5e9d8b627980e380a3bb1d1d23ff Merge branch 'ds/write-index-with-hashfile-api' into jch
-878e65c6f4438e863c5cb1aa0ecc016831df4a21 Merge branch 'jk/doc-color-pager' into jch
-bebbadf1a2abe836b7092ca9ad1f748279159399 Merge branch 'jk/fetch-pack-v2-half-close-early' into jch
-ced4672bbec8404115402e73062e2dcdea093466 Merge branch 'en/ort-perf-batch-11' into jch
-0720f8d0d18c5a2dd2105f8981d6e5af73a20de5 Merge branch 'so/log-m-implies-p' into jch
-eca2a4b578ca705f9429f194efce29e37f432c06 Merge branch 'ab/trace2-squelch-gcc-warning' into jch
-a28cb052c74786904b746d383ce4494b3e173072 Merge branch 'ps/rev-list-object-type-filter' into jch
-5595a50ca0376f87a4b1f129b5e0d02a8c43d64c Merge branch 'ab/test-lib-updates' into jch
-61500f10f66d6b0c739d8cbbd999a3598fedb579 Merge branch 'ma/t0091-bugreport-fix' into jch
-1cfd68451418e63bc5da14b8ea87fe67fb4873cd Merge branch 'tv/p4-fallback-encoding' into jch
-93f43e4c24319cf4f6e2e9ebf1ad22d57502af95 Merge branch 'ls/fast-export-signed' into jch
-497a1b15d811c1cdceaf9b8594f14d2cb90f99d2 Merge branch 'ab/pickaxe-pcre2' into jch
-60b19eb9601af35bb95e8f0202c64e538bb77e59 Merge branch 'ab/describe-tests-fix' into jch
-7dca9e4fd2ca49cbf3505fa97509754a46571343 Merge branch 'ab/update-submitting-patches' into jch
-123ef46538870fcac08d2566448f65673facf452 Merge branch 'ah/fetch-reject-warning-grammofix' into jch
-fdc50c18a637ad9166d44fe0d4ba4792e41a62bb Merge branch 'ah/setup-extensions-message-i18n-fix' into jch
-5447a10a18e67e50664082f0fc56f62ecfd67a8e Merge branch 'ag/merge-strategies-in-c' into seen
-da25a947187a6a07b8ea848a6fdde8c87c27b2b4 Merge branch 'mr/bisect-in-c-4' into seen
-92425aed8384abbb48a7488c6b47971d6a764e7f Merge branch 'jh/builtin-fsmonitor' into seen
-2d10538d6a4942230714089658f36766253594f3 Merge branch 'tb/multi-pack-bitmaps' into seen
-22fa8ebbf2ce491831a52260980f3a2e2b3c3252 Merge branch 'ao/p4-avoid-decoding' into seen
-e4c20273d615d603e45fd32b1473591a1c8cffff Merge branch 'hn/prep-tests-for-reftable' into seen
-93bf71499ba3b24547d558d002e8fdd33498f4f8 Merge branch 'ds/status-with-sparse-index' into seen
-b395d070317a4b7bb6499f67ffb47f115c75f0aa Merge branch 'bc/doc-asciidoctor-to-man-wo-xmlto' into seen
-f0e94c0fbaa8d4880342b04b86fe890310a9569b Merge branch 'ab/send-email-optim' into seen
-c7e4a82ef6e4e74829c2b3478575eab954bf7663 Merge branch 'es/trace2-log-parent-process-name' into seen
-209e277ebe9ce5415ff316809b2aa015e1a65f4f Merge branch 'dd/honor-users-tar-in-tests' into seen
-82b1e475fafec4a68420780d5d5f7b44e7ecf044 Merge branch 'fc/doc-build-cleanup' into seen
+e26520a1d0322849c607739bb8a75376d93bb7d3 refs: remove EINVAL specification from the errno sideband in read_raw_ref_fn
+db601663074a383fba19d857a42cf26c172c1345 refs/files-backend: stop setting errno from lock_ref_oid_basic
+4d3a3a6b05b3a4f10e10d90c9882d00e2cd699e0 refs: make errno output explicit for read_raw_ref_fn
+54db81226aedd4dab12c64e9a1a74edbf3e14077 refs: make errno output explicit for refs_resolve_ref_unsafe
+d897daabae86efc10e847d6f0f80aa99a230ff0f refs: add failure_errno to refs_read_raw_ref() signature
+e829a29513c909cecddca68d36ff3d0e980e5d2f refs: clear errno return in refs_resolve_ref_unsafe()
+1a2a73b01da32b2beb361c0bb28d13b2816de942 refs: stop setting EINVAL and ELOOP in symref resolution
+9b0b42bb01e9482fc21c2ec76ac791b5d047c5ec refs: explicitly propagate errno from refs_read_raw_ref
+617480d75bdca266d4549e4047452c633ddb7a52 refs: make explicit that ref_iterator_peel returns boolean
+1c0c645c0dee3525a4e72943734b8f5ebaa71699 refs: document reflog_expire_fn's flag argument
+732fb75028257065577c3569041ed17680627175 refs/debug: trace into reflog expiry too
+f7b9a18a91765b5ca64804f7c70ff37a507045b1 hash.h: provide constants for the hash IDs
+fcaab6543cf7a8b6509c436e4d277584f808ff48 init-db: set the_repository->hash_algo early on
+240f479f58b14e49ec9ada6a38871e5c69717ff6 reftable: add LICENSE
+a47d2c54bc161e2641a6cc249f34b3235f97ed4a reftable: add error related functionality
+9c544dd0e6ace0ee8a2311bdd303d8d10ca45d7f reftable: utility functions
+1ca9ac0f965213e2d566ca41915959251e59b5a3 reftable: add blocksource, an abstraction for random access reads
+b25a3015d696ac1de7168289c4324f868480d508 reftable: (de)serialization for the polymorphic record type.
+891aa744b8d23afc681ef307888422f39df0341b Provide zlib's uncompress2 from compat/zlib-compat.c
+59e4e45d816b1f4cdb9ad6f6f216686a72c3bf55 reftable: reading/writing blocks
+1d8ebfd16163f1dc33ebd0af67038a5f52adb461 reftable: a generic binary tree implementation
+0aff3bb5a17f24a8d6c39c21c184fae54c2861f9 reftable: write reftable files
+db527af5f494e38910284c537f6c8bccd97df8a5 reftable: generic interface to tables
+97a395458f14553682ccd9ffaa9e6238cb10f516 reftable: read reftable files
+7439fbf8768016baac4a730d4a597a8b955a5858 reftable: reftable file level tests
+37bb65d9a3b0bb9b475c0de07c70989d135a55a3 reftable: add a heap-based priority queue for reftable records
+6456393ec43b767632362550492d217ffa572bba reftable: add merged table view
+aef92aec84a9d3fed01fad3566f434c69d62bf9c reftable: implement refname validation
+4409c7877931eadf79cffe319e86e618b02c836c reftable: implement stack, a mutable database of reftable files.
+723fa4fb753d2de4ff4332a58b380b10ec648905 reftable: add dump utility
+6f81a0adfb17a38adf2773b2773ec9f58c6da66c Reftable support for git-core
+736b03a4f077e625f9f403546779b5e969f1bd20 git-prompt: prepare for reftable refs backend
+0fbbaad60631574a3e74fb1bdbaf998918fd7cbe Add "test-tool dump-reftable" command.
+e2f87a903374969ee3e7eefbad193b190aeb93dc t1301: document what needs to be done for REFTABLE
+e6c944299a4207af8762659dd1a8bdd9e343c690 t1401,t2011: parameterize HEAD.lock for REFTABLE
+c57c75a2ef886635fcaf881209a2e547a419f486 t1404: annotate test cases with REFFILES
+c9d43765f22fee96052b16d8e53362a3091d5fee fsck tests: refactor one test to use a sub-repo
+827403282ec9c0565cfbc8900f716f9e6eef8f1c fsck tests: add test for fsck-ing an unknown type
+5570c2022444f46e5e058a68d00130418aba4f05 cat-file tests: test for missing object with -t and -s
+ec4395700adf73398d38bb8b90f95e5f01bd375e cat-file tests: test that --allow-unknown-type isn't on by default
+6c4a284eca5c02675e6e9a50fa22b0e67816a76d rev-list tests: test for behavior with invalid object types
+24a9b0d955a35c6ffe04d50b011bcfea1d18fdfd cat-file tests: add corrupt loose object test
+c68e5981472f19224df65e652d419157eb341792 cat-file tests: test for current --allow-unknown-type behavior
+06887e0586da7c0c40ce2ce041bd7ad90ffdeb96 cache.h: move object functions to object-store.h
+f1c018af1c2179989370c82eb8fdb4be1c1cd386 object-file.c: make parse_loose_header_extended() public
+88e225074d3a5d4379e14429211ada89ef2366fc object-file.c: add missing braces to loose_object_info()
+1607c410d41dc580c96a0d618811b25b0dbc5fe5 object-file.c: stop dying in parse_loose_header()
+ef06fa72842f14a162ad18294e9c37f22d4653b3 object-file.c: return -2 on "header too long" in unpack_loose_header()
+4a8bc2547413a81c8fc77fad179f8b59f1e93047 object-file.c: return -1, not "status" from unpack_loose_header()
+ecfb0988112ba7f8c57fbaf1f20c11da957360ec fsck: don't hard die on invalid object types
+ffdb28ef38cac3e6b717781eda47b543c919ce7f object-store.h: move read_loose_object() below 'struct object_info'
+d7a66c898c1314ed4f68baa2dcd4633402206f9f fsck: report invalid types recorded in objects
+327d120f888e8e69ee525fa5f574c66e4c4aa407 fsck: report invalid object type-path combinations
+fce667435c94f480b3e9a869b70a419209009fa0 quote: add *.quote_buf_with_size functions
+9ba4a4ecb0b7b7541ebfdffde61d3e24e36e9522 ref-filter: support %(contents) for blob, tree
+166ecac122044208a858d82225ccc2baa7381822 SQUASH???
+09bc4f0f66e5e78c834e86d5380790e8155f5ea8 ref-filter: add contents:raw atom
+48c4f6bc2e4dc7a94c66b0f489635fb5640a4826 Merge branch 'zh/ref-filter-raw-data' into seen
+88da49efc1e3c35fb8bb8b0249dec74540b611ff Merge branch 'hn/reftable' into seen
+8d4908b335934772070fdfa776428286ea75ca5a Merge branch 'hn/refs-errno-cleanup' into seen
+debd31dfe87e5053ead57d49e614cc524a227725 Merge branch 'ab/fsck-unexpected-type' into seen
 
---===============7342106047728233519==--
+--===============9220539671864731739==--
