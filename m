@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
-Date: Tue, 25 May 2021 07:39:46 -0000
-Message-Id: <162192838624.20837.2774996836825051731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 25 May 2021 08:07:14 -0000
+Message-Id: <162193003449.6840.10085569465584887708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mel/linux
-user: mel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/mm-pcpburst-v2r3
-    old: 0000000000000000000000000000000000000000
-    new: 45daeef345d9cd2f2dbfb6e9cef4fe7c5dc338db
+  - ref: refs/heads/x86/entry
+    old: b337b4965e3a3e567f11828a9e3fe3fb3faefa47
+    new: 2978996f620001f4e748c79af0fe89be729ef58d
+    log: |
+         2978996f620001f4e748c79af0fe89be729ef58d x86/entry: Use int everywhere for system call numbers
+         
