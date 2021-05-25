@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3911914162671696608=="
+Content-Type: multipart/mixed; boundary="===============2686341191681545141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 May 2021 22:36:39 -0000
-Message-Id: <162198219921.13756.485173613817119078@gitolite.kernel.org>
+Date: Tue, 25 May 2021 22:36:48 -0000
+Message-Id: <162198220844.13895.4656031015715025113@gitolite.kernel.org>
 
---===============3911914162671696608==
+--===============2686341191681545141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5cb4a593821f1964d7176b2e48e019ab5a5d4353
-    new: c1cf1afd8b0f2f1b077df84e90497c07094406fc
-    log: revlist-5cb4a593821f-c1cf1afd8b0f.txt
+  - ref: refs/heads/dev-queue
+    old: 1dbf0c674a45eda95a4aaf8d1eb952aef4f374f1
+    new: 928c8f51df0fd67cf165c18b82fe9b99a687ed08
+    log: revlist-1dbf0c674a45-928c8f51df0f.txt
 
---===============3911914162671696608==
+--===============2686341191681545141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cb4a593821f-c1cf1afd8b0f.txt
+Content-Disposition: attachment; filename=revlist-1dbf0c674a45-928c8f51df0f.txt
 
 430bfe0576120b52cf7f62116bc7549180da4706 net: ethernet: mtk_eth_soc: Fix DIM support for MT7628/88
 e5bfaed7508fd34ae95a79d1eb76c38ecc82c947 MAINTAINERS: s390/net: add netdev list
@@ -59,5 +59,46 @@ a4dd4fc6105e54393d637450a11d4cddb5fabc4f net: appletalk: cops: Fix data race in 
 297739bd73f6e49d80bac4bfd27f3598b798c0d4 sctp: add the missing setting for asoc encap_port
 b2540cdce6e22ecf3de54daf5129cc37951348cc sctp: fix the proc_handler for sysctl encap_port
 c1cf1afd8b0f2f1b077df84e90497c07094406fc net: hns: Fix kernel-doc
+c37e65fe2e81eabc1b294924d265c31a5a05df22 checkpatch: Fix warnings when --no-tree is used
+2e4b337162c27ba22d965e8ad16806dd1f8340bf checkpatch.pl: seed camelcase from the provided kernel tree root
+f96fe1fef63b33e8641ac0ae2b38ebae8f7ebc6e ice: Fix a couple off by one bugs
+1ba836337171d25a9bdf9fd8aa3077390a3acb7c iavf: Fix asynchronous tasks during driver remove
+170fcbef86466791e3eadfa80a2f5fc19e0467f4 i40e: Fix correct max_pkt_size on VF RX queue
+317e0b059c7a957438ac70d4954334fc69baec58 iavf: Fix return of set the new channel count
+841184b0762aa68eaa0216566232d40c68cfccac i40e: Fix NULL ptr dereference on VSI filter sync
+2658d191473d2ee4575b1f0c2559b6149b5d14a5 ice: Fix allowing VF to request more/less queues via virtchnl
+2d537f804b21254b42defc1c00884e8739cc417f ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+b0ca117c5edb426c8781e05bb8a7fa447b845f51 ice: Fix VF true promiscuous mode
+4bfdeaede324ba38c10baecda1dc16955f4d6e2c ice: handle the VF VSI rebuild failure
+b15e9f63c18b22cc48ed9eefea1ad78e1129be69 i40e: Fix error handling in i40e_vsi_open
+909288e279070c93e7b207136eea4b4dbbd24a4e i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+9321d53bcd26adbf1605e1b5c0e8a65d25565aeb i40e: improve locking of mac_filter_hash
+1b6efd44aa1f8f1d84d4604692ded9d7760ed37c i40e: Fix autoneg disabling for non-10GBaseT links
+7b85c009a7caf3e5a50e70501a023740637df5e3 igb: Check if num of q_vectors is smaller than max before array access
+259f31645060145081f4b80b8afb3e70d749117a ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+1100ff201b521adef7b25ca0d9e806eccf2ec863 ice: track AF_XDP ZC enabled queues in bitmap
+84740d12c383e4e06069750f90c0cbf86e851a29 i40e: Fix warning message and call stack during rmmod i40e driver
+a76ac49fca0192671b69f754da85a10df27feff8 i40e: Fix logic of disabling queues
+de5ba20f1d59bfc9c6e2adff2a408e53d6aa1b6b igb: Fix XDP with PTP enabled
+802e2c30aed037f4416dc604b2e7a8adbb2bf175 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+584c9af0c5c081a7dbdf12ee338af52d34390da3 ice: report supported and advertised autoneg using PHY capabilities
+5b162e673fa701499aacda2fa820b3ecd269179f ice: Allow all LLDP packets from PF to Tx
+b5cabcbdb2057130e3ac6a6d9a32a3a83f5147aa ice: fix FDIR init missing when reset VF
+4a447e7cabf28e8a3ffe23cbca6f7a1fdce84ad9 igb: fix netpoll exit with traffic
+bca8e669a01b0da66ac827db33c85779b0123ed7 i40e: fix PTP on 5Gb links
+8888c0b865fe4a3a101616cbb80e18a8923a9297 i40e: add correct exception tracing for XDP
+8b3e2a7075839c6809522d28fdfa8b37bf60a66c ice: add correct exception tracing for XDP
+5b09770bb0ea6b004b590b3123c7ccd6ed3d7c3a ixgbe: add correct exception tracing for XDP
+3d6230db09a408a7f6c8e65239391dd306e14d59 igb: add correct exception tracing for XDP
+8e9eeeaff7b35cb5a5528c1c0363e5ee845635c4 ixgbevf: add correct exception tracing for XDP
+d41b29486935473621eadc6932cd10019e5419cb igc: add correct exception tracing for XDP
+702e16d021cec99dd85328053c1f9491fafc018c igc: Fix user-after-free error during reset
+a4fa89f4672b8fbd7e304d13cdead6f946819be7 igb: Fix user-after-free error during reset
+edc446e9da46aa7d1199343b589c50d36ae56a7c i40e: Fix failed opcode appearing if handling messages from VF
+9054dea0048717d25bbbe880510cc80938f13b22 virtchnl: Add missing padding to virtchnl_proto_hdrs
+fadc5af811c562cd62fbc09263934d902981a12f ice: add ndo_bpf callback for safe mode netdev ops
+2b18390335514420521cd8995cd636c90bb08a44 ice: parameterize functions responsible for Tx ring management
+61f1b117cdd90545854ab2f04ad109f1c3bdcde2 i40e: Fix firmware LLDP agent related warning
+928c8f51df0fd67cf165c18b82fe9b99a687ed08 igc: change default return of igc_read_phy_reg()
 
---===============3911914162671696608==--
+--===============2686341191681545141==--
