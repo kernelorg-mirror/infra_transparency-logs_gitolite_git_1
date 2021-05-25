@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 25 May 2021 20:51:56 -0000
-Message-Id: <162197591651.12280.5011534982431628419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 25 May 2021 21:14:21 -0000
+Message-Id: <162197726180.24502.4549911100492647720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev
-    old: c86fcbf85e98eb1df24d189ea528e9fc6a4ea194
-    new: a93b12b4321acfbf4800bd541b0b633e3eec74b1
+    old: c7d833f1051172eb4b232db9efebb5f0d0994d38
+    new: f62c7c7ef11b639712b737ea711399b07601146f
     log: |
-         a93b12b4321acfbf4800bd541b0b633e3eec74b1 sload.f2fs: use F2FS_COMPRESS_RELEASED instead of IMMUTABLE bit
+         6949b19c7b5fa63413a918f403eecafc58cc1916 f2fs: let's allow compression for mmap files
+         f62c7c7ef11b639712b737ea711399b07601146f f2fs: introduce FI_COMPRESS_RELEASED instead of using IMMUTABLE bit
          
