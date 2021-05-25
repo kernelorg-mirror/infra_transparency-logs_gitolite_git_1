@@ -1,104 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============2686341191681545141=="
+Content-Type: multipart/mixed; boundary="===============5443005873817497712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 May 2021 22:36:48 -0000
-Message-Id: <162198220844.13895.4656031015715025113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 25 May 2021 22:38:06 -0000
+Message-Id: <162198228657.14414.17801685854132901666@gitolite.kernel.org>
 
---===============2686341191681545141==
+--===============5443005873817497712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 1dbf0c674a45eda95a4aaf8d1eb952aef4f374f1
-    new: 928c8f51df0fd67cf165c18b82fe9b99a687ed08
-    log: revlist-1dbf0c674a45-928c8f51df0f.txt
+  - ref: refs/heads/master
+    old: 86fe2f8aa14f6b0b76a1ce3897a3ee1433e5203a
+    new: 687c87adc11a6b1bfae115ee6e7bcf822e7228b3
+    log: revlist-86fe2f8aa14f-687c87adc11a.txt
 
---===============2686341191681545141==
+--===============5443005873817497712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dbf0c674a45-928c8f51df0f.txt
+Content-Disposition: attachment; filename=revlist-86fe2f8aa14f-687c87adc11a.txt
 
-430bfe0576120b52cf7f62116bc7549180da4706 net: ethernet: mtk_eth_soc: Fix DIM support for MT7628/88
-e5bfaed7508fd34ae95a79d1eb76c38ecc82c947 MAINTAINERS: s390/net: add netdev list
-fc516d3a6aa2c6ffe27d0da8818d13839e023e7e net: dsa: bcm_sf2: Fix bcm_sf2_reg_rgmii_cntrl() call for non-RGMII port
-c7718ee96dbc2f9c5fc3b578abdf296dd44b9c20 net: lantiq: fix memory corruption in RX ring
-29bf1993fdba17703a836cf098712cf15f96706d MAINTAINERS: remove Ioana Radulescu from dpaa2-eth
-aced3ce57cd37b5ca332bcacd370d01f5a8c5371 RDS tcp loopback connection can hang
-8f03eeb6e0a0a0b8d617ee0a4bce729e47130036 net:sfc: fix non-freed irq in legacy irq mode
-e29f011e8fc04b2cdc742a2b9bbfa1b62518381a ipv6: record frag_max_size in atomic fragments in input path
-1e69abf98921fa27e2064970b614502d85230f9f MAINTAINERS: Add entries for CBS, ETF and taprio qdiscs
-ad79fd2c42f7626bdf6935cd72134c2a5a59ff2d net: ethernet: mtk_eth_soc: Fix packet statistics support for MT7628/88
-5eff1461a6dec84f04fafa9128548bad51d96147 net: macb: ensure the device is available before accessing GEMGXL control registers
-3a62fed2fd7b6fea96d720e779cafc30dfb3a22e net/sched: fq_pie: re-factor fix for fq_pie endless loop
-e70f7a11876a1a788ceadf75e9e5f7af2c868680 net/sched: fq_pie: fix OOB access in the traffic path
-835744e8b537389d6a448a47d0753734d4777fa4 Merge branch 'fq_pie-fixes'
-474a2ddaa192777522a7499784f1d60691cd831a net: dsa: mt7530: fix VLAN traffic leaks
-4dd649d130c634415c26df771e09e373f77fc688 NFC: nfcmrvl: fix kernel-doc syntax in file headers
-9b76eade16423ef06829cccfe3e100cfce31afcd sch_dsmark: fix a NULL deref in qdisc_reset()
-1a44fb38cc65bc30bac490291412aa1940659fe1 r8152: check the informaton of the device
-1a6e9a9c68c1f183872e4bcc947382111c2e04eb net: hso: fix control-request directions
-ba61cf167cb77e54c1ec5adb7aa49a22ab3c9b28 net: dsa: sja1105: fix VL lookup command packing for P/Q/R/S
-dc596e3fe63f88e3d1e509f64e7f761cd4135538 net: dsa: sja1105: call dsa_unregister_switch when allocating memory fails
-cec279a898a3b004411682f212215ccaea1cd0fb net: dsa: sja1105: add error handling in sja1105_setup()
-6729188d2646709941903052e4b78e1d82c239b9 net: dsa: sja1105: error out on unsupported PHY mode
-ed040abca4c1db72dfd3b8483b6ed6bfb7c2571e net: dsa: sja1105: use 4095 as the private VLAN for untagged traffic
-b38e659de966a122fe2cb178c1e39c9bea06bc62 net: dsa: sja1105: update existing VLANs from the bridge VLAN list
-93c5d741d14b86150e10100de3d85f999e77a03c Merge branch 'sja1105-fixes'
-a4dd4fc6105e54393d637450a11d4cddb5fabc4f net: appletalk: cops: Fix data race in cops_probe1
-48b491a5cc74333c4a6a82fe21cea42c055a3b0b net: hsr: fix mac_len checks
-46a8b29c6306d8bbfd92b614ef65a47c900d8e70 net: usb: fix memory leak in smsc75xx_bind
-8c42a49738f16af0061f9ae5c2f5a955f268d9e3 net: dsa: microchip: enable phy errata workaround on 9567
-297739bd73f6e49d80bac4bfd27f3598b798c0d4 sctp: add the missing setting for asoc encap_port
-b2540cdce6e22ecf3de54daf5129cc37951348cc sctp: fix the proc_handler for sysctl encap_port
-c1cf1afd8b0f2f1b077df84e90497c07094406fc net: hns: Fix kernel-doc
-c37e65fe2e81eabc1b294924d265c31a5a05df22 checkpatch: Fix warnings when --no-tree is used
-2e4b337162c27ba22d965e8ad16806dd1f8340bf checkpatch.pl: seed camelcase from the provided kernel tree root
-f96fe1fef63b33e8641ac0ae2b38ebae8f7ebc6e ice: Fix a couple off by one bugs
-1ba836337171d25a9bdf9fd8aa3077390a3acb7c iavf: Fix asynchronous tasks during driver remove
-170fcbef86466791e3eadfa80a2f5fc19e0467f4 i40e: Fix correct max_pkt_size on VF RX queue
-317e0b059c7a957438ac70d4954334fc69baec58 iavf: Fix return of set the new channel count
-841184b0762aa68eaa0216566232d40c68cfccac i40e: Fix NULL ptr dereference on VSI filter sync
-2658d191473d2ee4575b1f0c2559b6149b5d14a5 ice: Fix allowing VF to request more/less queues via virtchnl
-2d537f804b21254b42defc1c00884e8739cc417f ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-b0ca117c5edb426c8781e05bb8a7fa447b845f51 ice: Fix VF true promiscuous mode
-4bfdeaede324ba38c10baecda1dc16955f4d6e2c ice: handle the VF VSI rebuild failure
-b15e9f63c18b22cc48ed9eefea1ad78e1129be69 i40e: Fix error handling in i40e_vsi_open
-909288e279070c93e7b207136eea4b4dbbd24a4e i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-9321d53bcd26adbf1605e1b5c0e8a65d25565aeb i40e: improve locking of mac_filter_hash
-1b6efd44aa1f8f1d84d4604692ded9d7760ed37c i40e: Fix autoneg disabling for non-10GBaseT links
-7b85c009a7caf3e5a50e70501a023740637df5e3 igb: Check if num of q_vectors is smaller than max before array access
-259f31645060145081f4b80b8afb3e70d749117a ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
-1100ff201b521adef7b25ca0d9e806eccf2ec863 ice: track AF_XDP ZC enabled queues in bitmap
-84740d12c383e4e06069750f90c0cbf86e851a29 i40e: Fix warning message and call stack during rmmod i40e driver
-a76ac49fca0192671b69f754da85a10df27feff8 i40e: Fix logic of disabling queues
-de5ba20f1d59bfc9c6e2adff2a408e53d6aa1b6b igb: Fix XDP with PTP enabled
-802e2c30aed037f4416dc604b2e7a8adbb2bf175 ice: Remove toggling of antispoof for VF trusted promiscuous mode
-584c9af0c5c081a7dbdf12ee338af52d34390da3 ice: report supported and advertised autoneg using PHY capabilities
-5b162e673fa701499aacda2fa820b3ecd269179f ice: Allow all LLDP packets from PF to Tx
-b5cabcbdb2057130e3ac6a6d9a32a3a83f5147aa ice: fix FDIR init missing when reset VF
-4a447e7cabf28e8a3ffe23cbca6f7a1fdce84ad9 igb: fix netpoll exit with traffic
-bca8e669a01b0da66ac827db33c85779b0123ed7 i40e: fix PTP on 5Gb links
-8888c0b865fe4a3a101616cbb80e18a8923a9297 i40e: add correct exception tracing for XDP
-8b3e2a7075839c6809522d28fdfa8b37bf60a66c ice: add correct exception tracing for XDP
-5b09770bb0ea6b004b590b3123c7ccd6ed3d7c3a ixgbe: add correct exception tracing for XDP
-3d6230db09a408a7f6c8e65239391dd306e14d59 igb: add correct exception tracing for XDP
-8e9eeeaff7b35cb5a5528c1c0363e5ee845635c4 ixgbevf: add correct exception tracing for XDP
-d41b29486935473621eadc6932cd10019e5419cb igc: add correct exception tracing for XDP
-702e16d021cec99dd85328053c1f9491fafc018c igc: Fix user-after-free error during reset
-a4fa89f4672b8fbd7e304d13cdead6f946819be7 igb: Fix user-after-free error during reset
-edc446e9da46aa7d1199343b589c50d36ae56a7c i40e: Fix failed opcode appearing if handling messages from VF
-9054dea0048717d25bbbe880510cc80938f13b22 virtchnl: Add missing padding to virtchnl_proto_hdrs
-fadc5af811c562cd62fbc09263934d902981a12f ice: add ndo_bpf callback for safe mode netdev ops
-2b18390335514420521cd8995cd636c90bb08a44 ice: parameterize functions responsible for Tx ring management
-61f1b117cdd90545854ab2f04ad109f1c3bdcde2 i40e: Fix firmware LLDP agent related warning
-928c8f51df0fd67cf165c18b82fe9b99a687ed08 igc: change default return of igc_read_phy_reg()
+d0d62baa7f505bd4c59cd169692ff07ec49dde37 net: xilinx_emaclite: Do not print real IOMEM pointer
+48e8c6f1612b3d2dccaea2285231def830cc5b8e net: phy: add driver for Motorcomm yt8511 phy
+ca021f0dd85140bc96f1381700bbcab753b74658 net: dsa: sja1105: send multiple spi_messages instead of using cs_change
+718bad0e4da9a637a99c13b27dcb030921961bc7 net: dsa: sja1105: adapt to a SPI controller with a limited max transfer size
+44be5c42e3edafac0a8095bf89abd6171c3beb96 Merge branch 'sja1105-spi'
+4926257916496909154857d92413027915a30309 net: wan: fix an code style issue about "foo* bar"
+974221c6cf5441107c82f8c4c0b0694345d6c568 net: wan: add some required spaces
+eab9948140d109fdf42f0477d1b3b85c3a7e3306 net: wan: fix the code style issue about trailing statements
+145efe6c279bbfd0795dcded592147278c22d713 net: wan: remove redundant blank lines
+1bf705d4f2316ec213ada3119bc6cb352f43de64 net: wan: add braces {} to all arms of the statement
+70fe4523c8f6c310c4e5e2c2de5a018a22a6d928 net: wan: add necessary () to macro argument
+faf5954d7f0cdb439da475b21e7a67d51d6fb136 Merge branch 'wan-cleanups'
+ae8102b87b9a91f401841513ceab4fc2c0e14787 caif_virtio: Fix some typos in caif_virtio.c
+4057c58da21ceeecb71c0f2d22c50755d53320e0 net: bonding: bond_alb: Fix some typos in bond_alb.c
+31d990cb2628448806a94e64f07b90994a716c56 sfc: farch: fix compile warning in efx_farch_dimension_resources()
+b269875f91c30c8d18cf6a6fbce40b12965e120f net: phy: Fix inconsistent indenting
+04fdfad68b81cab9de660190ed8c881b1e5bf5fa atm: Fix typo
+030c8198d744e4149da57bd2a73b87aa6a8aa272 net: hns3: Fix return of uninitialized variable ret
+30a2e9c0f5cf8892255e21153952cd347c81b36b net: dsa: sja1105: stop reporting the queue levels in ethtool port counters
+039b167d68a3ce401114b1a520843db319277895 net: dsa: sja1105: don't use burst SPI reads for port statistics
+f07b300c815757b0aabb3a0520249df4a879b416 Merge branch 'sja1105-stats'
+b193f2ed533f6ddffe947327dcf2e76d8beb72a4 dpaa2-eth: setup the of_node field of the device
+30f43d6f1cab2eae349a27bd8a0faa795673a97f dpaa2-eth: name the debugfs directory after the DPNI object
+b12a6b7193e1362d297eb30e229ca0392b0583a2 Merge branch 'dpaa2-eth-of_node'
+f5120f5998803a973b1d432ed2aa7e592527aa46 dpaa2-eth: don't print error from dpaa2_mac_connect if that's EPROBE_DEFER
+52af13a41489d7bbc1932d17583eff6e5fffc820 net: ftgmac100: add missing error return code in ftgmac100_probe()
+3880fc37beba5d6878ef4c8d57f21683974a211b sfc: use DEVICE_ATTR_*() macro
+4934fb7dc409c2b14dc49a1f6d9024bec87431a4 sfc: falcon: use DEVICE_ATTR_*() macro
+0056982f093d6d5f12c43855754a0933b654778d ehea: Use DEVICE_ATTR_*() macro
+190e6e291a4c5b9602817cffeacfd577f805e563 net: r6040: Use logical or for MDIO operations
+06666907a38acdd07058014944d041856a11ebe7 net: r6040: Use ETH_FCS_LEN
+2ae83ed289c0b9add3d5d4d045d5907c1fafc4e6 Merge branch 'r6040-cleanups'
+5d6c3d91ad722bad16346bcd3e839c7649e5dca4 net: r6040: Allow restarting auto-negotiation
+ec7d6dd870d421a853ffa692d4bce5783a519342 ethernet: ucc_geth: Use kmemdup() rather than kmalloc+memcpy
+62f148d8dde6239199af49e52ae43d0820765a65 nfc: st-nci: remove unnecessary assignment and label
+1e6e76101fd9f51319a742991778bdc3b2d992d9 net: hns3: configure promisc mode for VF asynchronously
+4e2471f7b6ef5a564cd05bc5fb9f3ce71b7b7942 net: hns3: use HCLGE_VPORT_STATE_PROMISC_CHANGE to replace HCLGE_STATE_PROMISC_CHANGED
+feeb371272febb2a4fd01bc84b0bfbf8acd07048 Merge branch 'hns3-promisc-updates'
+542043e91df452ed09f382d8c41cdf3788f31b5e net: dsa: sja1105: parameterize the number of ports
+f238fef1b3de2fac2d09d925ebc75aacf5e27fd1 net: dsa: sja1105: avoid some work for unused ports
+82760d7f2ea63829d6ab0f3de7ec98b93132c8ee net: dsa: sja1105: dimension the data structures for a larger port count
+df2a81a35ebb507d8d614d993d3b55425d73ffee net: dsa: sja1105: don't assign the host port using dsa_upstream_port()
+c50376783f23ffd2dd8833c2069e52ba08e82917 net: dsa: sja1105: skip CGU configuration if it's unnecessary
+fd6f2c257b0bc0c656e88dcc2c6fc7ce180fb2de net: dsa: sja1105: dynamically choose the number of static config table entries
+f78a2517cf73fb0de68012ba2f42c9ad65d2aa14 net: dsa: sja1105: use sja1105_xfer_u32 for the reset procedure
+38fbe91f2287c696f290d9115901aa435f7166a8 net: dsa: sja1105: configure the multicast policers, if present
+1bf658eefe38cc26801b5861bbb6dbf3259ba8c1 net: dsa: sja1105: allow the frame buffer size to be customized
+d9d15a662cffe5ce66918606a94bbc8385fbfff0 Merge branch 'sja1105-sja1110-prep'
+8890d0a1891aea989e23e357eac4c8a206152d58 net: wan: remove redundant blank lines
+b32db030b96e380a86b0d8827a902bdf41f7035a net: wan: fix an code style issue about "foo* bar"
+f0328a1922906be3540611e344914b9682fff350 net: wan: add blank line after declarations
+261795f4113bba9b26e76b27c0522c403d90bfe7 net: wan: code indent use tabs where possible
+e5877104b5ec315167e0234110725f6a7c8351ab net: wan: fix the code style issue about trailing statements
+c3b6b5c64f394ce381ae7ce12060dd61768d9dd7 net: wan: add some required spaces
+87feef1cfbbe9233c53d5c4ff03277b70b58c458 net: wan: move out assignment in if condition
+336d781bd952beb1a043b786ced65883d67c34bd net: wan: replace comparison to NULL with "!card"
+80d67b95d1fe3aa629efb453f57dea935e304421 net: wan: fix the comments style issue
+d1406175f96869b653ee1071266a78cb8c70ab80 net: wan: add braces {} to all arms of the statement
+c1eaf3c09c54bdc0886f8ecd6532803ab9d82454 Merge branch 'wan-cleanups'
+ccc882f0d838cb45a1a78ea4e48c219887f920dc net: bridge: remove redundant assignment
+307ea4ce3edd3f7d1130d3c35955aa77063296cc net: hns3: switch to dim algorithm for adaptive interrupt moderation
+687c87adc11a6b1bfae115ee6e7bcf822e7228b3 net/hamradio/6pack: Fix inconsistent indenting
 
---===============2686341191681545141==--
+--===============5443005873817497712==--
