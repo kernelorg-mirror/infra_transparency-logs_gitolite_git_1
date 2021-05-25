@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8879632769800561138=="
+Content-Type: multipart/mixed; boundary="===============0180237692175998738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 25 May 2021 13:49:59 -0000
-Message-Id: <162195059917.21980.5112353189635586482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 25 May 2021 13:50:05 -0000
+Message-Id: <162195060522.23464.9620386359264768109@gitolite.kernel.org>
 
---===============8879632769800561138==
+--===============0180237692175998738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: d3f8f6c7c353f10daf348ea5be1bfef2337d3325
-    new: 7421b8d2d533455c3a3f717129cebe941ca7c199
-    log: revlist-d3f8f6c7c353-7421b8d2d533.txt
+  - ref: refs/heads/queue-rc
+    old: 4633581ea48fc64f1f245d3372766352a9a50f2c
+    new: 002518e71eb689196195f59bf9db161bdc44c557
+    log: revlist-4633581ea48f-002518e71eb6.txt
 
---===============8879632769800561138==
+--===============0180237692175998738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3f8f6c7c353-7421b8d2d533.txt
+Content-Disposition: attachment; filename=revlist-4633581ea48f-002518e71eb6.txt
 
 0b3d29fb2cdec35b49eb33f3636c22f5c0566b55 net/mlx5e: Disable TLS offload for uplink representor
 9aa465279de39c78b2ba0737efb9576435d1ebb2 net/mlx5e: Check for needed capability for cvlan matching
@@ -44,5 +44,7 @@ a5062d0e1ea2c321690b77b5673503c6d2636553 Merge branch 'patchq/393771' into mlx5-
 f35270673f4caafbe205f39f692577132e965563 Merge branch 'patchq/385612' into mlx5-for-net
 d76f8173e30c20fbaea98a03eb3a3acaab04d75b Merge branch 'mlx4-for-net' into net-rc
 7421b8d2d533455c3a3f717129cebe941ca7c199 Merge branch 'mlx5-for-net' into net-rc
+46e20ed6c6a81a4a36a171cfd45936a059017470 Merge branch 'net-rc' into queue-rc
+002518e71eb689196195f59bf9db161bdc44c557 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============8879632769800561138==--
+--===============0180237692175998738==--
