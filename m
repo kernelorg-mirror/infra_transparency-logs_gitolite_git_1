@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6496073068698741178=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 25 May 2021 20:25:55 -0000
-Message-Id: <162197435580.27925.13282963039988991743@gitolite.kernel.org>
-
---===============6496073068698741178==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 25 May 2021 20:49:11 -0000
+Message-Id: <162197575183.8745.13472453950257278529@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 036c0f3f4f17d091556dfc26bee5aa3a29f7912a
-    new: 59c5614e36a343e57326e6190ee33e871f6052ad
+  - ref: refs/heads/dev
+    old: bc4c2cd61e3f8ed09485fdf74b08d35840ced455
+    new: 84bf122bf994b9154564f8ec2213d8c12ab7085b
     log: |
-         59c5614e36a343e57326e6190ee33e871f6052ad Update attestation section in the README
+         aac385ea2494f26c364a856d9be6bf89bd4042f1 rcu-tasks: Don't delete holdouts within trc_inspect_reader()
+         bf30dc63947c46e902f64afe0340ddb1cc8f4e9b rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
+         84bf122bf994b9154564f8ec2213d8c12ab7085b docs: Fix a typo in Documentation/RCU/stallwarn.rst
          
-
---===============6496073068698741178==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1621974355 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1621974355-3874320e265be4863683136cdcac6231822e823a
-
-036c0f3f4f17d091556dfc26bee5aa3a29f7912a 59c5614e36a343e57326e6190ee33e871f6052ad refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYK1dUwAKCRC2xBzjVmSZ
-bGtxAQC8lwEAEldj9uB0HIySyEPoRprIKl52Xc8m0OmDk8+rrQD/ehqtytLGl2np
-OLsGETLm8IAYTXM0lfe/mnRbOmJpxgM=
-=tC/j
------END PGP SIGNATURE-----
-
---===============6496073068698741178==--
