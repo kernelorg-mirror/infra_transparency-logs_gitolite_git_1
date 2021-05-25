@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 25 May 2021 19:16:58 -0000
-Message-Id: <162197021849.13486.682181765023494420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 25 May 2021 19:18:33 -0000
+Message-Id: <162197031377.14030.12198935479048020866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 3c9e8fec3c5a7833d891ac8e58fd9f6c2df0be91
-    new: 5c9d706f61336d9f7f285df64c734af778c70f39
+  - ref: refs/heads/for-next
+    old: f3841a3bfa5846280ffaa754f570cff2512acb4d
+    new: 89588c54a208df86f479824e73026aaea009f798
     log: |
-         5c9d706f61336d9f7f285df64c734af778c70f39 bpf: Fix BPF_LSM kconfig symbol dependency
+         7e1943180602f913aecc46da3df05561d04322ea dm btree: improve btree residency
+         159e60f96695ddc6ff3806c50df38ef8e540aedf dm space maps: don't reset space map allocation cursor when committing
+         fd955e259e40d088608b13e62af29b022ce2908f dm space maps: improve performance with inc/dec on ranges of blocks
+         89588c54a208df86f479824e73026aaea009f798 dm space map disk: cache a small number of index entries
          
