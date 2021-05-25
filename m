@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 May 2021 15:31:05 -0000
-Message-Id: <162195666550.29756.8322658829116536544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 25 May 2021 15:57:24 -0000
+Message-Id: <162195824404.13697.8356224603318740332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/locking/core
-    old: f4addd54b1617067f735ad194a3580a2db7b8bf5
-    new: a82adc7650044b5555d65078bda07866efa4a73d
+  - ref: refs/heads/for-linus
+    old: dad19afce9ad93dda1a10d08afea71b6dd30f19f
+    new: 29c8f40b54a45dd23971e2bc395697731bcffbe1
     log: |
-         a82adc7650044b5555d65078bda07866efa4a73d futex: Deduplicate cond_resched() invocation in futex_wake_op()
+         29c8f40b54a45dd23971e2bc395697731bcffbe1 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
+         
+  - ref: refs/heads/master
+    old: 620ef5e3b37aaa5e7cd7fc73e6db609a9006c189
+    new: 7d9deb444100b8cdc24f0b5bc6b82da165170d1e
+    log: |
+         29c8f40b54a45dd23971e2bc395697731bcffbe1 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
+         7d9deb444100b8cdc24f0b5bc6b82da165170d1e Merge branch 'for-linus'
          
