@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 26 May 2021 23:16:51 -0000
-Message-Id: <162207101138.7418.9709627398900834155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 26 May 2021 23:37:24 -0000
+Message-Id: <162207224411.20632.2182410394184204552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 94952ceca5288ecfde7ee7c17e3a11f325d5edc9
-    new: 2166641a87343ebd414a710dde8f238950620010
+  - ref: refs/heads/dev
+    old: 84bf122bf994b9154564f8ec2213d8c12ab7085b
+    new: bcee11b8230f6ffb4d06613ebeb1430064e4092e
     log: |
-         82d600ac720422d0cbaa08b1fe50531d38581ad4 btrfs: add a btrfs_has_fs_error helper
-         d92bcecb2a3d7dc660669f6226dce4e3c7736ac9 btrfs: do not infinite loop in data reclaim if we aborted
-         c7a395892d33075eda93d2536c04335fbeb22ef3 btrfs: change handle_fs_error in recover_log_trees to aborts
-         10f84a7ac97d737ff070e2392bc9cfba27d61fbd Merge branch 'misc-next' into for-next-next-v5.13-20210527
-         66a35372423f4a47c3945cccd2cb4e9ea1cd9022 Merge branch 'ext/josef/fs-eh' into for-next-next-v5.13-20210527
-         2166641a87343ebd414a710dde8f238950620010 Merge branch 'for-next-next-v5.13-20210527' into for-next-20210527
+         e112ebfcbd092f1df1180e225a7389abe0786368 rcu-tasks: Don't delete holdouts within trc_inspect_reader()
+         05f418f105e5b6e2f6b4213e95e08b4db0b4dbf8 rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
+         c44a4c3859136d0ff7e3b60ab77209eae1de53dc docs: Fix a typo in Documentation/RCU/stallwarn.rst
+         bcee11b8230f6ffb4d06613ebeb1430064e4092e EXP mm, slub: move slub_debug static key enabling outside slab_mutex
          
