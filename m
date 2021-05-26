@@ -1,46 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7234292333425921611=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 26 May 2021 17:33:35 -0000
-Message-Id: <162205041513.10622.6292237356626585903@gitolite.kernel.org>
-
---===============7234292333425921611==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 26 May 2021 17:36:02 -0000
+Message-Id: <162205056299.13173.14888201465038437031@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: c6a1199dcd65fdf2eb1c49295bfcc02932b5ae75
-    new: fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9
+  - ref: refs/heads/bleeding-edge
+    old: b4a1c81b77364a4a4a03bdd47304a74d95ca4d3b
+    new: 065f3a270b6592e433484a445c46420c58a6b756
     log: |
-         fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9 Add new b4 pr flags
+         220fdf33ef452177b650991d99ae84e5bfd05a99 cpufreq: intel_pstate: hybrid: Fix build with CONFIG_ACPI unset
+         065f3a270b6592e433484a445c46420c58a6b756 Merge branch 'pm-cpufreq' into linux-next
          
-
---===============7234292333425921611==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1622050414 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1622050414-33f4558ca6c195d12d765c27e987bc550e5c536b
-
-c6a1199dcd65fdf2eb1c49295bfcc02932b5ae75 fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYK6GbgAKCRC2xBzjVmSZ
-bM8mAP0V3ZBE532oTBUquISvrB+O/nB+HJ1lfPNIUXRXZyRZ2AD+OYeJEJW0xPbB
-QcJ3NpwcVL2UjIY069dI0AkHmH9zzws=
-=1950
------END PGP SIGNATURE-----
-
---===============7234292333425921611==--
+  - ref: refs/heads/linux-next
+    old: b4a1c81b77364a4a4a03bdd47304a74d95ca4d3b
+    new: 065f3a270b6592e433484a445c46420c58a6b756
+    log: |
+         220fdf33ef452177b650991d99ae84e5bfd05a99 cpufreq: intel_pstate: hybrid: Fix build with CONFIG_ACPI unset
+         065f3a270b6592e433484a445c46420c58a6b756 Merge branch 'pm-cpufreq' into linux-next
+         
+  - ref: refs/heads/testing
+    old: b4a1c81b77364a4a4a03bdd47304a74d95ca4d3b
+    new: 065f3a270b6592e433484a445c46420c58a6b756
+    log: |
+         220fdf33ef452177b650991d99ae84e5bfd05a99 cpufreq: intel_pstate: hybrid: Fix build with CONFIG_ACPI unset
+         065f3a270b6592e433484a445c46420c58a6b756 Merge branch 'pm-cpufreq' into linux-next
+         
