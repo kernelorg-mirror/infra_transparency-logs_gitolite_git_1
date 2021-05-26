@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 26 May 2021 14:14:35 -0000
-Message-Id: <162203847508.8881.12839604905174064807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 26 May 2021 14:16:09 -0000
+Message-Id: <162203856910.10909.7013281066500632715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: 368480b21916e1d853e321b7aecd7e65fef2521e
-    new: 386a5354e1cc67730f672d741823f9cd7a297e8d
+  - ref: refs/heads/dev
+    old: cc9a9ddc46162159ed87b353edff0132db394a4e
+    new: 929884ec690d8946a441d890797bffbae82bcd6d
     log: |
-         d92cc4d5164398cc6d191084b46e622976c0ba89 kbuild: require all architectures to have arch/$(SRCARCH)/Kbuild
-         5519f498d59528dd43f4a3f65d638c1c080aa80b alpha: move core-y in arch/alpha/Makefile to arch/alpha/Kbuild
-         0957878f710e87d6ef2aba01a49d8be659c3ce3d h8300: move core-y in arch/h8300/Makefile to arch/h8300/Kbuild
-         3681c854c22eed45e63c164252e5f7e1abeadfb2 hexagon: move core-y in arch/hexagon/Makefile to arch/hexagon/Kbuild
-         92f378f19e947eeffc52c427cd734f7b19eb54c4 sh: move core-y in arch/sh/Makefile to arch/sh/Kbuild
-         e63b79b8aa9e3790fd5eef1eaec92345599ab980 kbuild: merge scripts/mkmakefile to top Makefile
-         cad99f627b8fda2057fa6e2f345b5e71bb919e5c init: use $(call cmd,) for generating include/generated/compile.h
-         eca0ce4d4b045816bba483419c252a0dedce81f5 kbuild: sink stdout from cmd for silent build
-         386a5354e1cc67730f672d741823f9cd7a297e8d kbuild: clean up ${quiet} checks in shell scripts
+         4f55dc2a988b304d3595887f1161151d1c3b1f33 f2fs: return success if there is no work to do
+         0dd571785d61528d62cdd8aa49d76bc6085152fe f2fs: add MODULE_SOFTDEP to ensure crc32 is included in the initramfs
+         e3c548323d32b11d3fba71f993e17b0ccdeca5cb f2fs: let's allow compression for mmap files
+         4a67d9b07ac8dce7f1034e0d887f2f4ee00fe118 f2fs: compress: fix to disallow temp extension
+         8939a8489ca64b56f49428b0d882709080a928d4 f2fs: atgc: export entries for better tunability via sysfs
+         b585a90e9fe22457fe93b2314c18cbf8aa93d8eb f2fs: avoid attaching SB_ACTIVE flag during mount/remount
+         39c036a98d52c88eba83ef3ca5bb854a39bcf441 f2fs: compress: remove unneeded preallocation
+         61ae61f4437b214a9b284b8318ba21a8f0a2f1f7 f2fs: introduce FI_COMPRESS_RELEASED instead of using IMMUTABLE bit
+         929884ec690d8946a441d890797bffbae82bcd6d f2fs: support RO feature
          
