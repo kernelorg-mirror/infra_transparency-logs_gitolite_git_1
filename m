@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0064149690765600089=="
+Content-Type: multipart/mixed; boundary="===============1214715996236512124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 26 May 2021 04:06:20 -0000
-Message-Id: <162200198088.3872.17564518032617186812@gitolite.kernel.org>
+Date: Wed, 26 May 2021 04:06:28 -0000
+Message-Id: <162200198815.3949.16655622617042319045@gitolite.kernel.org>
 
---===============0064149690765600089==
+--===============1214715996236512124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,89 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 05f7f1b9ee8273eab805da3d5e2d064872aa75b1
-    new: ea2f0f77538c50739b9fb4de4700cee5535e1f77
-    log: revlist-05f7f1b9ee82-ea2f0f77538c.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: cdbf3238995e8a74808f03c716c2d401ab7a0e74
+    new: dc4400bd627776ec3a1aa4e94517debd7816d73b
+    log: revlist-cdbf3238995e-dc4400bd6277.txt
 
---===============0064149690765600089==
+--===============1214715996236512124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1622001979 -0400
+pusher 75C5DE3D 1622001985 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1622001978-70faf9cbb4a797ef8199eddf5b3b308129dac146
+nonce 1622001985-3a5309cb97e89ff5e8a5088a228da6d54dfc4393
 
-05f7f1b9ee8273eab805da3d5e2d064872aa75b1 ea2f0f77538c50739b9fb4de4700cee5535e1f77 refs/heads/queue
+cdbf3238995e8a74808f03c716c2d401ab7a0e74 dc4400bd627776ec3a1aa4e94517debd7816d73b refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCtyTsACgkQ7ulgGnXF
-3j1yehAAquqIzv7k3pfFDA/zggI9KrKqBLGFV9wQSP92fyhvbGd6UYzVUy9Kbbv3
-nfpwm13p5j5ouHypAxNjSYLJVr0mrcqPTgLk98jZF9D90u5j7+3C5xorDh9J+Ffh
-paZ5GRolaxhJ4VgPwe6DlI+CVAijKyKMO9nrAsbToVAnxTGemxEbmnXfdSOb5yrI
-7CL/cup0ciPk/8aUpLlXranWMRmVu8/8a6EtAf5M+1L4/cc+qa7LKA8dWaRPUnJM
-WHcK3Z4HMpeElbeYCITMtJxhjW3/2ULgom8LJaMV0p/tX67/OeYAlGMxVZdHI5BX
-aRUCzcDeP2pqLUg3X6DSVYC2WE3Pt0EObbs/Sm8DLxdgs0tvVoQrjv1TtuLLQZlD
-iaVwIgZZCYZ+i/RvC13EBJ+qK1M/fmkjI+ZY5jTleCSLWhueh5fJfmREO804eocx
-p7Oen5+3k4R9TZcgcQUQsSr5ZdJupeECFqlGVcJTqq8CfbZqd0K17CJAtuq/JUei
-cO0qlTr6YYsygRKjPUlDYDbxACof6i65XiWjjJm2P7Mgo6Km1yuKzpGZoLnZIGsh
-LZ2Kxq9ObRkvxxUohAz6HMhGX4ewOAanzfW+Ysm1PQpqrGgfk87opqwVvjvktBV5
-c6fIxaAI6YOxRXQjehDdue80tm9mtsZjuPW8S2ZhIbjcPd4lnkE=
-=Mv2b
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCtyUEACgkQ7ulgGnXF
+3j3MEw/+MuM9SYY3Dsb8J7f+z9QVUG55lkYiicNyEZMoNUBmzRyPaqEwNW27OBAD
+yYghxMjR5N5ul1ll6561mBL5SuKlBP7CTyTJYI771dkVSGd9FPcytnz/5El1HeWL
+jlfWkKwF3oGiUcrS7RDWKNdGkQhN4ipLRgfQ72x/5Ebm8JRG04tDMdASpBQrB5+m
+zbSsRVxNoB7MFZylAgg/h6/Oq1oNn7RNiBLsumKAbZL+vGqWFH68tGENj/+NcmNc
+4YqcgcR9xa+0QVgdGUcple0BzYnhUZcvJzBfeYqNKf+GWsNQ9C/zIWbrR7WE/5iZ
+4umN4/Uw7ISeS9nF1uD5Z1+71OOGoMnIaykUuub7rew6nRk2/yqICQZ5Uj4Q+clY
+rNrzY/8t7nDye/BktxMWfY6uLS/aAF5eFpleQaS49pbKOtFCDgGWgt/oZprhbafs
+HVhYn3qAcEtErTuYUMnOMcszfFsshRQJt6DHqQu7GlS5/JENXoQsnUsUSkg5iPxw
+oeP4R9hZJIbHHnG7GPevpyZRsOE8ni/DC1TD24zjh1RqbesadunbMRt0p9g/W+30
+m7C9N7xDspL2cVfxo3A+wck8IlA4FgLnxkx3EjK2+nj1bhoEk3E4Nendk49LAxGk
+7HzQhWm5HKiKr2ssHr08PLvBKfYGmMjuDzjvzVtPaKXJ0iQF1Ug=
+=0K5f
 -----END PGP SIGNATURE-----
 
---===============0064149690765600089==
+--===============1214715996236512124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f7f1b9ee82-ea2f0f77538c.txt
+Content-Disposition: attachment; filename=revlist-cdbf3238995e-dc4400bd6277.txt
 
-b592d66235f5f7c2191cc0348468b343c17c3977 scsi: ufs: ufs-exynos: Move definitions from .h to .c
-2a38d2a8b4a6777d37b7b8b8416b60fe0af73cd2 scsi: qedf: Use vzalloc() instead of vmalloc()/memset(0)
-d9a231226f28261a787535e08d0c78669e1ad010 scsi: arcmsr: Fix doorbell status being updated late on ARC-1886
-8e060b310f8fe208eb9154e9ab3585b948f0db36 scsi: arcmsr: Update driver version to v1.50.00.05-20210429
-faa6c1d92cb0d2a377cc4ca68a3f273e3355e4b3 scsi: scsi_transport_fc: Remove double FC_FPORT_DELETED in mask creation
-2d535031eb2e789c546e979b4109bf1e60e1cd31 scsi: pmcraid: Fix typos
-1ecc820db0b952f055b1a03c1afe4c2679e2276d scsi: bfa: Fix typo
-8f942f9d4b0630e6136803060c481776479e83bf scsi: bfa: Fix inconsistent indenting
-ab17122e758ef68fb21033e25c041144067975f5 scsi: hisi_sas: Propagate errors in interrupt_init_v1_hw()
-e2ac7ab281c06cd367f6bffc4ba445a311a5f52a scsi: ufs: Use designated initializers in ufs_pm_lvl_states[]
-824731258b65f58764786f8d776c2007b084e12c scsi: target: tcmu: Fix boolreturn.cocci warnings
-98f92dff1412d99289f04a8b9a2c107c082313b3 scsi: core: Remove leading spaces in Kconfig
-40d6b939e4df950c33554f1439b49df1752b0047 scsi: Fix spelling mistakes in header files
-ecd7beb37871827c449842ec2c9db106ee5e82f6 scsi: ufs: core: Clean up whitespace
-86cfe4ad248ddf4ce7e4801374ef7f27f23711cf scsi: fas216: Use fallthrough pseudo-keyword
-5ac3c649f11cb457dd40f6dde58cb029181c2700 scsi: ufs: ufs-exynos: Make a const array static, makes object smaller
-cb9eb11fd57215020c6649bbe884232fb0f80bdd scsi: qla2xxx: Remove redundant assignment to rval
-ee8868c5c78f16fb726775741aeab8a233373332 scsi: scsi_dh_alua: Retry RTPG on a different path after failure
-01131e7aae5d30e23e3cdd1eebe51bbc5489ae8f scsi: lpfc: Fix unreleased RPIs when NPIV ports are created
-fa21189db9ab022080e056cc6da219975da48fd6 scsi: lpfc: Fix non-optimized ERSP handling
-e30d55137edef47434c40d7570276a0846fe922c scsi: lpfc: Fix "Unexpected timeout" error in direct attach topology
-1037e4b4f81dc4ddf928e0ca2f1b182efdfdcc9d scsi: lpfc: Add ndlp kref accounting for resume RPI path
-4012baeab6ca22b7f7beb121b6d0da0a62942fdd scsi: lpfc: Fix Node recovery when driver is handling simultaneous PLOGIs
-fe83e3b9b422ac8ece2359c7b7290efe7f0335a2 scsi: lpfc: Fix node handling for Fabric Controller and Domain Controller
-04c1d9c50ae32d6efd0b71024b3829051821c7a2 scsi: lpfc: Ignore GID-FT response that may be received after a link flip
-5aa615d195f1e142c662cb2253f057c9baec7531 scsi: lpfc: Fix crash when lpfc_sli4_hba_setup() fails to initialize the SGLs
-3e49af9393c6e59d579de13333514fc9660a0e92 scsi: lpfc: Add a option to enable interlocked ABTS before job completion
-8eced807077d198fc264629bd2592795d270c9f1 scsi: lpfc: Reregister FPIN types if ELS_RDF is received from fabric controller
-e5e0280db792953ee7acbdbf01179d53187a6083 scsi: lpfc: Update lpfc version to 12.8.0.10
-ea2f0f77538c50739b9fb4de4700cee5535e1f77 scsi: core: Cap scsi_host cmd_per_lun at can_queue
+dac85b5a3dbccb7e585f4deb0812ee0d5692b33e scsi: st: Return error code in st_scsi_execute()
+42e0185550ac4ba67a958d0c8de3ae394e88a0c3 scsi: scsi_ioctl: Return error code when blk_rq_map_kern() fails
+733ddaace4b8c709e9c96d1f7b4ba75835fef290 scsi: core: Fixup calling convention for scsi_mode_sense()
+92a81bc6b8794dbeddcc033fd89ab063a4957959 scsi: core: Reshuffle response handling in scsi_mode_sense()
+591f18eeac994b6d71a8b3581dacd663261084ba scsi: scsi_dh_alua: Check for negative result value
+636b46780e1e9acbc52ca8d5c98fab4675f7a4f2 scsi: core: Stop using DRIVER_ERROR
+676811a08b9177755c71a725e6831ce4e00dc2c4 scsi: core: Introduce scsi_build_sense()
+eba3831cade34e36dc82106cbddf41af588773c5 scsi: core: Introduce scsi_status_is_check_condition()
+1652ba7c0d093296336c2053d4d479dc4a15d1bd scsi: core: Kill DRIVER_SENSE
+a87068ac27d5be4453305567e7c0c0a78285fe45 scsi: core: Do not use DRIVER_INVALID
+c3685dc29a67a5c8e2071d21b7f630e7c0dbab92 scsi: core: Use DID_TIME_OUT instead of DRIVER_TIMEOUT
+d0704ba4af413637b14f8e2acd11d69eee090c71 scsi: xen-scsiback: Use DID_ERROR instead of DRIVER_ERROR
+468e71604bc609025080f3d7bb9e5dd5f6a9d72d scsi: xen-scsifront: Compability status handling
+befb187b8a3a439491077361a51dbc075bff6486 scsi: core: Drop the now obsolete driver_byte definitions
+fa7108389a588beabba5e7e868a6313ed837efe6 scsi: NCR5380: Fold SCSI message ABORT onto DID_ABORT
+44ac61e436283d5b8bc53deae4f5d8bb4f264308 scsi: core: Add get_{status,host}_byte() accessor functions
+af10caaa41fe466788d9cb5c949474a210a3dc4b scsi: core: Add scsi_msg_to_host_byte()
+c08966bc1d09c07a521aba1b1e0a9208aa7677bb scsi: dc395: Use standard macros to set SCSI result
+595f720e5e06c2e661f2634ed6ff5c6c3307e800 scsi: dc395: Translate message bytes
+e8a04ec2098f2880995a9d8aa6580e6a7cb04824 scsi: qlogicfas408: make Ml_pcmd() a void function
+9408d5e0de6e7d9bccd0d70f0586ce1fe8e3f57c scsi: qlogicfas408: Whitespace cleanup
+f778780de629316f3a2d751c61569b6593cbc2fd scsi: qlogicfas408: Translate message to host byte status
+566402afcce4a929af29dc449e154326855fd317 scsi: nsp32: Whitespace cleanup
+331aa4f199bd664a4ce0e24dfc01694ae1d45eb1 scsi: nsp32: Do not set message byte
+650e4946fcd251f3d299bc008a761fb1e2213e18 scsi: wd33c93: Translate message byte to host byte
+06f5c19f62dbb323d035f8b18df8ef61080a9198 scsi: mesh: Translate message to host byte status
+15f4d3ab51785628c6fc6fd270beb9548fee60b8 scsi: acornscsi: Remove acornscsi_reportstatus()
+1e3eec55fe693c9cfcd9cac7a07688e3ca9e2955 scsi: acornscsi: Translate message byte to host byte
+c0591105a768a385e8ac5f3420ecaf862b5551ab scsi: aha152x: Modify done() to use separate status bytes
+06b093d9a67bb51ab85be6c44dd494e9616384ea scsi: aha152x: Do not set message byte when calling scsi_done()
+d69fd5ae734e17fcab082359a05493609c6a4732 scsi: advansys: Do not set message byte in SCSI status
+8f8713fab638d1a1dc5e5525cb307068b26a2c84 scsi: fas216: Translate message to host byte status
+ef9cb7e1e9dbc6c7b3b57a5b7a1f968ad53aa8bf scsi: fas216: Use get_status_byte() to avoid using Linux-specific status codes
+79bb8dade2bcc84cf6742ba0c6a193eea337fb10 scsi: FlashPoint: Use standard SCSI definitions
+5010a2b7032c23a43331b5c74c056000cd1c53f7 scsi: fdomain: Drop last argument to fdomain_finish_cmd()
+9f75a78711c8c332ec372669ccd4e9f88a93cc78 scsi: fdomain: Translate message to host byte status
+c1af9581e4849bc1084a9c2120012d68cff449c1 scsi: core: Drop message byte helper
+b6c6cefa6b509b9dd4bce73b74132518fafedfa0 scsi: core: Kill message byte
+d1e8eadda5f4b97099201403a5fc9a1ae9187c49 scsi: target: Use standard SAM status types
+57de15221f92e1efbed49004edcd81042ba7a9a9 scsi: core: Drop obsolete Linux-specific SCSI status codes
+2335d2fc759e717c34cd696a5484c1283eb47338 scsi: mpt3sas: Fix deadlock while cancelling the running firmware event
+d5a859c534bb797cb6e5b5031bf04672f32f59a0 scsi: mpt3sas: Handle firmware faults during first half of IOC init
+87d395fe9bdcb818f39a5f4046de16e1d86974cf scsi: mpt3sas: Handle firmware faults during second half of IOC init
+46ded13dd3821d96fee65f0cef4bd8f0184607ab scsi: ufs: Suppress false positive unhandled interrupt messages
 
---===============0064149690765600089==--
+--===============1214715996236512124==--
