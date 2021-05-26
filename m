@@ -1,70 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9013730089297055288=="
+Content-Type: multipart/mixed; boundary="===============3628284128422660642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 26 May 2021 09:05:34 -0000
-Message-Id: <162201993446.22213.10152307625198146317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 26 May 2021 09:28:19 -0000
+Message-Id: <162202129909.3777.7369186072637837537@gitolite.kernel.org>
 
---===============9013730089297055288==
+--===============3628284128422660642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mtd/next
-    old: cc9d663a00a00b4a3d54875e024b79142416caf6
-    new: 10f3b4d79958d6f9f71588c6fa862159c83fa80f
+  - ref: refs/heads/master
+    old: dbd4f85ee00ded83f508c6fce70ea8193933de9f
+    new: 8f822df75aeb5be3ccc64949649603c6331779c4
     log: |
-         bc8e157fdb466536557b97b6c0df6d7b46a2b91b mtd: core: Fix freeing of otp_info buffer
-         c3c8c051df3ee5042dd91593593a8b0e008f4c85 mtd: core: Potential NULL dereference in mtd_otp_size()
-         5c1ce1fb8a2d434a485175d6ae38aea40ebd5de4 mtd: devices: Remove superfluous "break"
-         237960880960863fb41888763d635b384cffb104 mtd: partitions: redboot: seek fis-index-block in the right node
-         eb1765c40530ccc8690b9dad88cec6aaa6bfb498 mtd: partitions: redboot: fix style issues
-         10f3b4d79958d6f9f71588c6fa862159c83fa80f mtd: parsers: qcom: Fix leaking of partition name
+         314bd1653cf14704f832e438cc852b0316f41fda bluetooth patches
+         8f822df75aeb5be3ccc64949649603c6331779c4 Linux 4.4.270
          
-  - ref: refs/heads/nand/next
-    old: fd0d8d85f7230052e638a56d1bfea170c488e6bc
-    new: 681171472de93083875cea8b856d8636246b478c
-    log: revlist-fd0d8d85f723-681171472de9.txt
 
---===============9013730089297055288==
+--===============3628284128422660642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd0d8d85f723-681171472de9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-961965c45c706175b24227868b1c12d72775e446 mtd: rawnand: Add a helper to clarify the interface configuration
-4dd7ef970bee8a93e1817ec028a7e26aef046d0d mtd: rawnand: arasan: Check the proposed data interface is supported
-ed2a491037116387f109e851a2b46adcb5feca3b mtd: rawnand: atmel: Check the proposed data interface is supported
-64de50e38e6fced70d1cb9ad3112de0691d0ed2d mtd: rawnand: onfi: Use the BIT() macro when possible
-b16e0d5d7d693fe93e75569ac1ec80b513902a92 mtd: rawnand: Update dead URL
-dbb7b2e07564443c2d357398e83e27c2fa5a89ed mtd: rawnand: Use more recent ONFI specification wording
-7ce872d9f55f46ef54b60ed39c0144b24578d7c3 mtd: rawnand: Clarify the NV-DDR entries in the ONFI structure
-1666b815ad1a5b6373e950da5002ac46521a9b28 mtd: rawnand: Add NV-DDR timings
-9310668fb60a7ee76c4fdfd6388747a6f2beaf75 mtd: rawnand: Retrieve NV-DDR timing modes from the ONFI parameter page
-94c8ce8e3e96f549ff16381e82974c0af012a7f8 mtd: rawnand: Add an indirection on onfi_fill_interface_config()
-45606518f961b9e7adddc017e7813fa9f92b43fb mtd: rawnand: Add onfi_fill_nvddr_interface_config() helper
-fee9c6d8f098f7054f97ec1dbcfb42a2a3238f23 mtd: rawnand: Avoid accessing NV-DDR timings from legacy code
-d7a773e8812bcf7a5412e4baebc6eb1c11242551 mtd: rawnand: Access SDR and NV-DDR timings through a common macro
-09cdb237c3c8773921a7c265ce1cdd23818a3f14 mtd: rawnand: Handle the double bytes in NV-DDR mode
-e32df79f19c756f072bd517ece65df1efd496f95 mtd: rawnand: Add a helper to find the closest ONFI NV-DDR mode
-f3fe156ede6db96a060cc98ff1bce1ee6417a68b mtd: rawnand: Support enabling NV-DDR through SET_FEATURES
-9d3194bf2aef81c04177ab6bbe50406aa8d550dc mtd: rawnand: Allow SDR timings to be nacked
-a9ecc8c814e9600836e00cb592f1cb5378393126 mtd: rawnand: Choose the best timings, NV-DDR included
-b134ed01d95e195d8fd1c2a1388810496860be5b MAINTAINERS: Add myself as co-maintainer of the Arasan NAND controller driver
-698ddeb89e01840dec05ffdb538468782e641a56 mtd: rawnand: arasan: Fix a macro parameter
-10938a08fc4055667da7518685fbd8ea7d09de1b mtd: rawnand: arasan: Workaround a misbehaving prog type with NV-DDR
-4edde60314587382e42141df2f41ca968dc20737 mtd: rawnand: arasan: Support NV-DDR interface
-6b562738a22cfdbfedaaac7db5f83c11700ebb15 dt-binding: mtd: nand: Document the cs-gpios property
-31df6381cfad18fef295e8cb2997d02d037c1d73 mtd: rawnand: Move struct gpio_desc declaration to the top
-edc0c2ab124703631cbdd95706dc450b6dce912c mtd: rawnand: Add a helper to parse the gpio-cs DT property
-435a225acd6dba2d1d69f0c924412e4e69c95736 mtd: rawnand: arasan: Ensure proper configuration for the asserted target
-33396174ce5bfcbfffcd8f5332d0ceab2589e520 mtd: rawnand: arasan: Leverage additional GPIO CS
-2bd71129b4fc66701ee3ff134a924c171f3a729a mtd: rawnand: qcom: Delete an unneeded bool conversion
-681171472de93083875cea8b856d8636246b478c mtd: spinand: macronix: Add support for serial NAND flash
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622021298 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1622021293-ba1d4025aad84311b3ce710bfe147cd983317d59
 
---===============9013730089297055288==--
+dbd4f85ee00ded83f508c6fce70ea8193933de9f 8f822df75aeb5be3ccc64949649603c6331779c4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCuFLIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2RUP/3+84qtR6drtO32HOEol
+hd06Wk22YYVQadQJRMrD6hhBe1juD9sLMCAymhtUe7cvm5cCaar/Q6LHeVxoJaZa
+y2ckTIKMFS9iKsNb8TYnrkly6QyUm0MZ+icuDT0WRuCO7nAcbQ4hN2KTSLFYAgef
+So1Cr0yRQ4mpYSAJYDJ0PIDA4vn/yZKplFYetajZYk23gfZo7uAn+rS3M6f8rd6S
+eBUrBNu6Q9CojHf8LI+22XQXdeHm0D8C1UdjitpaRi2ujKAqVf2iiY37PO/vl2fW
+AjEV97U5efA+1pijQQY8TqFzrPP38DlvvDxj7B+2oXfLiF9CP+mLJXGPI6HPxAOt
+nIuUA+YSIg/28PdWUHfoWoT+zGcqWed0nvmOQp33pLfoZIy7GgPR5bHR4VwIvyMd
+AVdqJojzpd7CWm2lrBt9Ky0ZiXLODUBf7CcmcYZWp7TVztGTDyCuI5ItZmVZzoce
+eU/QkfPT7UXzS3asCucC0LEx1/hOZLXi52wGojGe1xGfekNjBjBoev6v70MwzYRX
+U1jWkwu5PivYOaiUkUcRj1I4qeP67D48i411lALa48x3boop4byZV5fwjVwF1fXV
+Q3MFxBXBu6xdwbxJP1hcso/RsT+918BOmG/h68KcLjX6gmtklmK7qO8xqXNJFNsF
+ih/V9ixguukosrJXjCZRc2Tq
+=VVeI
+-----END PGP SIGNATURE-----
+
+--===============3628284128422660642==--
