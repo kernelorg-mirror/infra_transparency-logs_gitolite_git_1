@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5934845998780348966=="
+Content-Type: multipart/mixed; boundary="===============8994251216958242356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 26 May 2021 04:06:10 -0000
-Message-Id: <162200197075.3646.8018118485790748266@gitolite.kernel.org>
+Date: Wed, 26 May 2021 04:06:15 -0000
+Message-Id: <162200197570.3769.6332925932098501560@gitolite.kernel.org>
 
---===============5934845998780348966==
+--===============8994251216958242356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0d9381df021f57444080bb724eb2b062f2c1c192
-    new: 326f88dac8217335d2aa829cfa88438bf5c71410
-    log: revlist-0d9381df021f-326f88dac821.txt
+  - ref: refs/heads/5.14/scsi-queue
+    old: 05f7f1b9ee8273eab805da3d5e2d064872aa75b1
+    new: ea2f0f77538c50739b9fb4de4700cee5535e1f77
+    log: revlist-05f7f1b9ee82-ea2f0f77538c.txt
 
---===============5934845998780348966==
+--===============8994251216958242356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1622001969 -0400
+pusher 75C5DE3D 1622001974 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1622001968-9e43e2e1452372423315d1103566c29f96c65430
+nonce 1622001973-57fe7c5259a3f09a4b4b43d16cce4b31d6a9364e
 
-0d9381df021f57444080bb724eb2b062f2c1c192 326f88dac8217335d2aa829cfa88438bf5c71410 refs/tags/mkp-scsi-queue
+05f7f1b9ee8273eab805da3d5e2d064872aa75b1 ea2f0f77538c50739b9fb4de4700cee5535e1f77 refs/heads/5.14/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCtyTEACgkQ7ulgGnXF
-3j1rRRAAmdwaT6YSqaT0R+2eFxnkxUtxbGwBMjKRICD9kmM87kD/5452O7qhm1bC
-wgC0xsobiS6t4pNo8FI+idIiSCU7t//3NexZircT0FrA+cfPeGl8lflnxUXf0wYM
-PhGDcic2LoEaXBvddOxezn705hxBwhTtW+JKsKCNqWEowS2uh5k+0pBbrJ5VDMED
-FcINIxFnZ0YQEQknfxgtZ/zedXpGVyVGeVinkn3wCglef5Z98UBycDixhRO/xe2l
-3SV9IEg+ennKXKPQ30/l4Cv340S0Y8Nqta1CKTAWPjjLjPp1xd8z/sMNw9ToM+Cv
-2bbJF1VS94LA2V8pi/vvZetxIlsubBQI5IzSSd+ct61Dk2pj17HtNDOtrN0xkR/P
-JVny2hOPtHiwoC7Yi/3ixbM6GeM+dtC/wP2f2mMUiEDaX31QcbhAwYrrYUsAVf9W
-yXo+l4RIDVyWgBBtcCvzDW+KF3CtYsaNMOlMrYtbemQKRIj9kQM4GSzhZrz7FLjS
-AAWHq9WbIZmwcgK51LwPEIfFTWL3XR3LjOJMOnIejNgVLEOhdpANTH5CgOxoSHow
-3dDWFYDl5n3Cb1sHmKV6Y2frPyrij6npiT/J3TI+WCUv3mFcc3reIm4cY0cnbqZg
-W/B3WF2xxUO4rHM3+nGJpcG4czYnstGFDwL8smrGF4HcKlqjDEE=
-=aN0V
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCtyTYACgkQ7ulgGnXF
+3j1e5g//bItPzsuKR9V0gzxpbCaVns+5aNQxYEEGmthxNPgMMhzewYG2/uhv63se
+/0T89G8uyGM//+FjCdnB0ADjE/tUOmyyXNr+g/kFmYi4OqI3LqEEMnU+B38RwxH8
+bsyU+4gaHEDUEJ37nvBgFwWjOa4AdLAyhMu0liE0hwHi1JgMrDRBVwHWlcr0Xxdy
+pvmoKY0rEFZKpJIZfWDYupBt+kdRLGXEVR7w0FsLbsxOPiGABJTjQx9MxuTzxget
+LZ2ga7fpI5LnCtj+FVMPoUWbgIXArQvEarJ/dL4aT8DoJph/1A6DcKgyNA8o97Cs
+YyNNo3hAAZ80xlmoZPw/G1qx36zRLZ0iGdVqW2dyVLLrrIEy0d0bLjkDGaCE7Nox
+HT91jgNrkz8Fi9eXkOTS0Gpzu+HioxUhIzCzGJFfpI4kcCQkaI9I/D/Rh1JycfkB
+eTeeu0LtBgL09yMKtM/pDgjoYL5RtTjdRpj/kEMeflUEk+uwadT5coSN055Cwo5Q
+vFjj/1hgpqvBWHXVow6Km9rTEy9SDTAI+1tiY4HjCQyHxCn6pH4WFYFU2TJB3L1S
+h6m5fn2pIqAIx/7+LK9N1IqFoxgmVoN+1MT8ew1gAijUq7EyOy+JqFp4nzeVVPaP
+Yl/lZ07VgiIR/XQWBdno1NC9BKJUQwhPOb0ZaZSdFXpBat3vfX0=
+=XK2y
 -----END PGP SIGNATURE-----
 
---===============5934845998780348966==
+--===============8994251216958242356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d9381df021f-326f88dac821.txt
+Content-Disposition: attachment; filename=revlist-05f7f1b9ee82-ea2f0f77538c.txt
 
 b592d66235f5f7c2191cc0348468b343c17c3977 scsi: ufs: ufs-exynos: Move definitions from .h to .c
 2a38d2a8b4a6777d37b7b8b8416b60fe0af73cd2 scsi: qedf: Use vzalloc() instead of vmalloc()/memset(0)
@@ -87,4 +87,4 @@ fe83e3b9b422ac8ece2359c7b7290efe7f0335a2 scsi: lpfc: Fix node handling for Fabri
 e5e0280db792953ee7acbdbf01179d53187a6083 scsi: lpfc: Update lpfc version to 12.8.0.10
 ea2f0f77538c50739b9fb4de4700cee5535e1f77 scsi: core: Cap scsi_host cmd_per_lun at can_queue
 
---===============5934845998780348966==--
+--===============8994251216958242356==--
