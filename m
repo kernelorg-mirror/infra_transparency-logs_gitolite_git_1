@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 26 May 2021 19:59:01 -0000
-Message-Id: <162205914157.9078.1823669577687161530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 26 May 2021 20:13:45 -0000
+Message-Id: <162206002545.17950.8568885463788402607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dm-5.14
-    old: c1e80baf239deef6375127a8945c889c38250c21
-    new: ac1bf39c86b325fce5eb8d0c1a238c1758e98af3
+  - ref: refs/heads/master
+    old: e4e92ee78702b13ad55118d8b66f06e1aef62586
+    new: c7a551b2e44a65170b5dceaca0afbd59f3715f11
     log: |
-         6856770522e8c934e01309c7871afc54c7349d83 dm: improve kcopyd latency
-         e0c12f2d9db79f1876ab825db3002f13c3257a85 dm writecache: reduce latency by using early kcopyd callback
-         ac1bf39c86b325fce5eb8d0c1a238c1758e98af3 dm writecache: don't split bios when overwriting contiguous cache content
+         568e7142a15f821867a39797f5b098070df4a9c8 nfc: st95hf: remove unnecessary assignment and label
+         c7a551b2e44a65170b5dceaca0afbd59f3715f11 nfc: st-nci: remove unnecessary labels
          
