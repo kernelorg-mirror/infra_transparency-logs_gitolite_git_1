@@ -1,53 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3172389377938906186=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 26 May 2021 00:38:46 -0000
-Message-Id: <162198952684.26902.14161450291171546770@gitolite.kernel.org>
-
---===============3172389377938906186==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 26 May 2021 00:41:36 -0000
+Message-Id: <162198969674.29338.14615903111976531133@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/regulator-5.14
-    old: 7c556aec14099c87c95bb7011c74fafe45d93679
-    new: 5c42903e144b8e914ea22098f872669188680d9b
+  - ref: refs/heads/master
+    old: a720a2a0ad6cb6f769b6c7cbc3c54287a7d54ff8
+    new: 21703cf790c7aa0fd09e1d38df9a5d945244abf8
     log: |
-         e0f339213c3bf1b2a8790bd6b5783e383818526b regulator: qcom_smd: Make pm8953_lnldo linear_ranges entries properly sorted
-         e1e8d55bb90c9a07aa66a0c9fa17bd5a67d2689c regulator: mp886x: Convert to use regulator_set_ramp_delay_regmap
-         15413ce566c248967c96f71f824b79aa8d328e03 regulator: mp5416: Convert to use regulator_set_ramp_delay_regmap
-         5c42903e144b8e914ea22098f872669188680d9b regulator: rt4831: Add missing .owner field in regulator_desc
+         5981881d21dff612abf8fce484f8efa67f49aae4 libbpf: Add libbpf_set_strict_mode() API to turn on libbpf 1.0 behaviors
+         bad2e478af3b4df9fd84b4db7779ea91bd618c16 selftests/bpf: Turn on libbpf 1.0 mode and fix all IS_ERR checks
+         f12b654327283d158de0af170943ec5dd8cd02e5 libbpf: Streamline error reporting for low-level APIs
+         e9fc3ce99b3485586e7e4803b63df8b4c681f897 libbpf: Streamline error reporting for high-level APIs
+         9c6c0449deb41dbe3a66ab9adfd08020bba6c43d bpftool: Set errno on skeleton failures and propagate errors
+         21703cf790c7aa0fd09e1d38df9a5d945244abf8 Merge branch 'libbpf: error reporting changes for v1.0'
          
-
---===============3172389377938906186==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@sirena.org.uk> 1621989560 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1621989524-8a7703fa6f685a9a3a613c6264991559b113e58c
-
-7c556aec14099c87c95bb7011c74fafe45d93679 5c42903e144b8e914ea22098f872669188680d9b refs/heads/regulator-5.14
------BEGIN PGP SIGNATURE-----
-
-iQFKBAABCgA0FiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCtmLgWHGJyb29uaWVA
-c2lyZW5hLm9yZy51awAKCRAk1otyXVSH0Oy7B/9WVuf73piS9/4eEUEjIof8SFAq
-C4elmkP0ePU+wt9vylHMHFN8X0F4rK8VlakJfJa8xhIET/swc4nbgj2TvMybtwUE
-+Y95PgFGJroNCr05KlrZCiI6WVPPbUAkLAgkcf/q/BWyZhsepvl81XJzVJUauXBw
-CTSIMqDSRQ9U+nue+t90oPy+q2FaqKHaZBPBG1do8lZOeLSfzPPu8U3vqajUuZjM
-L8KYvU9LDQqff4CdjjnUQUopeu6kJT3exRLBJ/GjxuER49aKf6jEJP++BXtGelHK
-zC0cThyMEHNGkSLyRDWq1PrE51wUPgZ26C949oj01R0vetg/4Y76raNb13wU
-=c1sR
------END PGP SIGNATURE-----
-
---===============3172389377938906186==--
