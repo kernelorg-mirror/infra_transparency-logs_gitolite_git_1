@@ -1,22 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Wed, 26 May 2021 11:26:49 -0000
-Message-Id: <162202840996.6153.16165773738342065948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 26 May 2021 11:46:02 -0000
+Message-Id: <162202956296.18494.14234892891931330306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
   - ref: refs/heads/master
-    old: 0530e2e0d8c9ecb5171e70bc48e1a6566f317378
-    new: 1f5d54a06df01ca3032ca2d29159584cab7d7509
+    old: 897e798fc0dab2a9f6d9f9a87ef7d045f98d22d4
+    new: b7a07efdcf386b44f5499b0195b3a42e15048784
     log: |
-         7c798f870900f6f4d4647dd3c88318524d7ccee4 imsm: add generic method to resolve "device" links
-         fcebeb77b18842876295b1a0dbc22d173a709434 imsm: add devpath_to_char method
-         8662f92d71f1f88589061272606b8b673d31de05 imsm: Limit support to the lowest namespace
-         1f5d54a06df01ca3032ca2d29159584cab7d7509 Manage: Call validate_geometry when adding drive to external container
+         a8bb07ae9fd62267cb339d630b945ca9dd95271e Fix typo in Makefile.
+         b7a07efdcf386b44f5499b0195b3a42e15048784 Fixing incorrect offsets for data/IV with TCRYPT system-encryption with a detached header
          
+  - ref: refs/heads/v2.3.x
+    old: bee77b2f3555a70bfbc6b83e7a0e59cc332c88cc
+    new: ac9a2c08e33fcdc149f21624ee84a72d2b3761e4
+    log: |
+         ac9a2c08e33fcdc149f21624ee84a72d2b3761e4 Fixing incorrect offsets for data/IV with TCRYPT system-encryption with a detached header
+         
+  - ref: refs/merge-requests/165/head
+    old: 0000000000000000000000000000000000000000
+    new: ac9a2c08e33fcdc149f21624ee84a72d2b3761e4
+  - ref: refs/merge-requests/165/merge
+    old: 0000000000000000000000000000000000000000
+    new: 43a9b9fb208b36b2236f125e902fa02b146fbbca
+  - ref: refs/merge-requests/166/head
+    old: 0000000000000000000000000000000000000000
+    new: b7a07efdcf386b44f5499b0195b3a42e15048784
+  - ref: refs/merge-requests/166/merge
+    old: 0000000000000000000000000000000000000000
+    new: 0ab550ff27e7b14a455b8c8a265e3b79352d521f
