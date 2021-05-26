@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Wed, 26 May 2021 14:44:06 -0000
-Message-Id: <162204024641.28148.14453648141978582381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 26 May 2021 14:44:26 -0000
+Message-Id: <162204026620.28294.8091342255565645251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: c86fcbf85e98eb1df24d189ea528e9fc6a4ea194
-    new: 329321f4609fb1e7e9620342d2684617f38086a5
+  - ref: refs/heads/dev
+    old: 929884ec690d8946a441d890797bffbae82bcd6d
+    new: fe40db6078551484b77699be6846a5c0eb05e9bf
     log: |
-         38e3115c7f244a94651dc64137d1cb57d2d4870a f2fs_io: add to show immutable bit
-         a9594c6f56cfba45f65db8fdb40608441375fc8b fsck.f2fs: add "-l" to show the layout information
-         628592774e87d49715f1811de389fa571d3edece f2fs-tools: support small RO partition
-         329321f4609fb1e7e9620342d2684617f38086a5 sload.f2fs: use F2FS_COMPRESS_RELEASED instead of IMMUTABLE bit
+         fe40db6078551484b77699be6846a5c0eb05e9bf f2fs: support RO feature
          
