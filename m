@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2991182321776179806=="
+Content-Type: multipart/mixed; boundary="===============4275057851408032367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 26 May 2021 00:38:23 -0000
-Message-Id: <162198950329.26518.17335587997332180920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 26 May 2021 00:38:31 -0000
+Message-Id: <162198951114.26654.11544014670092121463@gitolite.kernel.org>
 
---===============2991182321776179806==
+--===============4275057851408032367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: eb37ca9c98ae1a61eb9bbe157d320bbe858adbf4
     new: d5bd87e3a39e2f696583357899fefe1f4c6987c1
     log: revlist-eb37ca9c98ae-d5bd87e3a39e.txt
 
---===============2991182321776179806==
+--===============4275057851408032367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@sirena.org.uk> 1621989536 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1621989500-32693cb55c090fe2fa5282148b3b38668d441807
+pusher Mark Brown <broonie@sirena.org.uk> 1621989544 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1621989508-d859642a868b67419c0bc5df38f57195bf18cace
 
-eb37ca9c98ae1a61eb9bbe157d320bbe858adbf4 d5bd87e3a39e2f696583357899fefe1f4c6987c1 refs/heads/for-5.14
+eb37ca9c98ae1a61eb9bbe157d320bbe858adbf4 d5bd87e3a39e2f696583357899fefe1f4c6987c1 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQFKBAABCgA0FiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCtmKAWHGJyb29uaWVA
-c2lyZW5hLm9yZy51awAKCRAk1otyXVSH0I+yB/4lJAoZWWGhJGdMPyMTYPNsljp0
-VzcbX684BAZn624ttKhYQgU1fQipJFn1cCokkzjZqDMR+XwiCksMC5kyL2YqAMSY
-/nJEbVjXiuUTyAUf+v3PMqA2ZKunEvJq2LPZ3cfGCk2NlhUMwk3DePvuGiZhBNFn
-O/OVWkla0SfuL0yHFzZowDjAfDqLgLqCkrzZA4TqZO+T/4duThA3yQrF13y6gA6j
-6Y+jtk12ANeaWoPoPlSaE4+RI14cwtCXu7Hmy9v/6R1V5IXGON/5JMAfiM+aRVo7
-+BUA7LiDjvvtAuFUL51uz+bVyPOh3RCJZ5whqmOGFlpNVN4tiWdChq8s+Vb8
-=AcSl
+iQFKBAABCgA0FiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCtmKgWHGJyb29uaWVA
+c2lyZW5hLm9yZy51awAKCRAk1otyXVSH0Cg5B/42cAG/1KqT++Xvi9C/Pq09q+WT
+Xxra1zuidRnVCij2bvibuxIXb/2sZoM8cncORkbkWqffhrqiC0idJVyKf5DYrwny
+cJsNOtuG8TRXMEOsczRjzHg+WXS8DLZ0vAHyvii+9FuT1TiKXIQzMHhLx94Pr2h0
+nVXdnDHF/PtfxcuqPg+DvLC/829dbKdm7t/3tL38vXqb4MB5xWSLgNK+ybJ7cFr0
+eKO8WwOiAO1el2QZaWnQ0jeN6EEYkbA9Ypw1XcRP04POMiaN1YdELUcR9y/b0XEs
+Buj45c5f60r8nowSpySQRXKkXITY4hUHTCwm4HzqubeBxciGP3mwx9oYWaDl
+=67KW
 -----END PGP SIGNATURE-----
 
---===============2991182321776179806==
+--===============4275057851408032367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ f5b49d98516c12aff40896782aa37be77d3c616e ASoC: cs42l42: Add support for 2304000 
 2eadc04d83f6c791784190208fd77dac3a2c052b ASoC: tlv320aic26: use DEVICE_ATTR_RW macro
 d5bd87e3a39e2f696583357899fefe1f4c6987c1 ASoC: imx-card: Make some symbols static
 
---===============2991182321776179806==--
+--===============4275057851408032367==--
