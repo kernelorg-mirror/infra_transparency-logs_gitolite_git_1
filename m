@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Wed, 26 May 2021 19:33:02 -0000
-Message-Id: <162205758251.24189.16637166025890185875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 26 May 2021 19:37:14 -0000
+Message-Id: <162205783423.26990.3970716301679719516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/agilex_n5x_bypass
-    old: 0000000000000000000000000000000000000000
-    new: bb318062bff13f4a6ce9cb5164f995d650ac4199
+  - ref: refs/heads/for-next
+    old: 02e71d9bee03399bac6869d9afba8665650ad20a
+    new: 2c286d752cb266dbfc90d7d30c8167e7cb2c3aa2
+    log: |
+         2c286d752cb266dbfc90d7d30c8167e7cb2c3aa2 dm writecache: use early kcopyd callback
+         
