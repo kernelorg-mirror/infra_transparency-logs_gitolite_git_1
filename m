@@ -1,52 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6686415468007225414=="
+Content-Type: multipart/mixed; boundary="===============1641181302960998853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 26 May 2021 17:36:57 -0000
-Message-Id: <162205061718.13530.18289293789766236020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 26 May 2021 17:37:24 -0000
+Message-Id: <162205064439.13790.5528393430114923331@gitolite.kernel.org>
 
---===============6686415468007225414==
+--===============1641181302960998853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: vigneshr
-git_push_cert_status: E
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: c4681547bcce777daf576925a966ffa824edd09d
-    new: a6e2cd4dd28effab117ddce7a62c5a411b282d2e
+  - ref: refs/heads/master
+    old: fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9
+    new: ee5e56d06c786d7906c214fc1f8cbbeeb3e658a6
     log: |
-         5c26d52c9e5c9a22d04b805470e1143716b69789 mtd: spi-nor: nxp-spifi: Use SPI_MODE_X_MASK
-         ccfb7cf18f9680958e76991c8f15562ff42f4bc9 mtd: spi-nor: Add documentation for spi_nor_soft_reset()
-         a6e2cd4dd28effab117ddce7a62c5a411b282d2e mtd: spi-nor: otp: fix kerneldoc typos
+         ee5e56d06c786d7906c214fc1f8cbbeeb3e658a6 Up version to final 0.7.0
          
 
---===============6686415468007225414==
+--===============1641181302960998853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Vignesh Raghavendra <vigneshr@ti.com> 1622050615 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mtd/linux.git
-nonce 1622050615-6b13c4f8cbf1e44e708e5ca107af5c60c063bf71
+pusher B6C41CE35664996C! 1622050643 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1622050643-100fde9b9df34be0bfb5c01d94d03008d673ac34
 
-c4681547bcce777daf576925a966ffa824edd09d a6e2cd4dd28effab117ddce7a62c5a411b282d2e refs/heads/spi-nor/next
+fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9 ee5e56d06c786d7906c214fc1f8cbbeeb3e658a6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFEBAABCAAuFiEEyRC2zAhGcGjrhiNExEYeRXyRFuMFAmCuhzcQHHZpZ25lc2hy
-QHRpLmNvbQAKCRDERh5FfJEW424MB/4/395B/8h1ocgdmRDjLn6WcwOohDJTTQvI
-rFdifpVV0k/KeSa3OsLE91l2OhWD04zhOSlRq0jkS0kpvkwclYac2k764jkQqfN1
-uPMjZxKOEcGPREULspXPexfUd1FkimlF5QSlnH1494SBVdqN37nM7L8DfVocldB4
-iitcFCkpH8WTPjtXnf4RjfzJ/NV4jM/+B+v67k4vODqDiUQbhZlnx4kXnSiLh6Cd
-OMYRl6YVmvzfD4OZNLES3WaHIz0zOrz4CufDizSKRzVmQvnvhYgtyW59BXdtZCb+
-O1fooJzuYgeeO+GsRVagvWHP0+3cNZ58CVK52FWlbQGr+hZ1y6X0
-=Ipzo
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYK6HUwAKCRC2xBzjVmSZ
+bNiXAQDVtXEr7Fot2RLTZdpft0L57Kyv33wUyY0Sxtwg9bWURgD/fpYYyMnC4GHA
+/+kkpZXLRxVqLCxDez/qKoCe8LIoDwk=
+=zAo1
 -----END PGP SIGNATURE-----
 
---===============6686415468007225414==--
+--===============1641181302960998853==--
