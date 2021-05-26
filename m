@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2602719737781775990=="
+Content-Type: multipart/mixed; boundary="===============4297701314288564299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 26 May 2021 21:44:04 -0000
-Message-Id: <162206544462.11514.1553899808778438878@gitolite.kernel.org>
+Date: Wed, 26 May 2021 21:44:11 -0000
+Message-Id: <162206545106.11610.2096786605556925337@gitolite.kernel.org>
 
---===============2602719737781775990==
+--===============4297701314288564299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     new: 04f80b59e59792be4b84b0a4a19f1a8af3aefc54
     log: revlist-6efb943b8616-04f80b59e597.txt
 
---===============2602719737781775990==
+--===============4297701314288564299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -647,4 +647,4 @@ eb802d005506a3a9044070461a104bdaca8fecf7 s390/ccwgroup: use BUS_NOTIFY_UNBOUND_D
 336fd9f1abdf30765227dbfe48eaf83e7ec83df4 s390/ap/zcrypt: notify userspace with online, config and mode info
 04f80b59e59792be4b84b0a4a19f1a8af3aefc54 s390: disable SSP when needed
 
---===============2602719737781775990==--
+--===============4297701314288564299==--
