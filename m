@@ -1,25 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 26 May 2021 20:19:15 -0000
-Message-Id: <162206035523.21505.154324361823619202@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4963627777358125993=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 26 May 2021 20:19:58 -0000
+Message-Id: <162206039848.22858.3026246995086966391@gitolite.kernel.org>
+
+--===============4963627777358125993==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: ac1bf39c86b325fce5eb8d0c1a238c1758e98af3
-    new: 88e9be7ef2cc21a1041039990e6c3fbb5e9e280b
+  - ref: refs/heads/for-5.14
+    old: d5bd87e3a39e2f696583357899fefe1f4c6987c1
+    new: 058efb40641845432c52777443b3372dbc97c032
     log: |
-         d9571f9e26265935b3c7cf3824bd4ed2f13f0219 dm space maps: improve performance with inc/dec on ranges of blocks
-         2fe9dd8694d6b621f5812d9b5cc63c0c23244fd7 dm space map disk: cache a small number of index entries
-         a679c58ef7fffe56b064312caf9c001bc931f8d9 dm kcopyd: avoid useless atomic operations
-         185f5bf3e2afcfd51e01065b33179d4e3fc20e71 dm kcopyd: avoid spin_lock_irqsave from process context
-         da6a76c1f6975aaa20350c266f0f9944601493b4 dm: improve kcopyd latency
-         c4fe4ce7487f5eedc3481e7169c3a7580b4f347b dm writecache: reduce latency by using early kcopyd callback
-         88e9be7ef2cc21a1041039990e6c3fbb5e9e280b dm writecache: don't split bios when overwriting contiguous cache content
+         3ef6253cd0805d281eacbbd6a21e822ef4c3fef5 ASoC: cs42l56: use DEVICE_ATTR_WO macro
+         d04260393ea0ded33448c1fae944cf86c14da994 ASoC: wm8962: Use DEVICE_ATTR_WO macro
+         6405941e6884dac80f836acfc7ec52089ea6aa99 ASoC: cs43130: Use DEVICE_ATTR_RO macro
+         4e7f0ea0e2e73851cd988f7c334c01d131048abf ASoC: cs35l3x: Use neutral language in amp drivers
+         058efb40641845432c52777443b3372dbc97c032 ASoC: cs42l52: use DEVICE_ATTR_WO macro
          
+
+--===============4963627777358125993==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1622060396 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1622060395-d377bb904b95707bef04fa8baf8217850974cbf0
+
+d5bd87e3a39e2f696583357899fefe1f4c6987c1 058efb40641845432c52777443b3372dbc97c032 refs/heads/for-5.14
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCurWwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BnTB/4hcb/HdnUtBEd6uuo/TrT0cQEKANff
+ssPpVBj+Y9YiOw0oRZoUlOH5lJizn8HbxG7CYl6QX8Qc49gxx0xO0aiFe6hLfO/e
+3biUB0h2aXhTvp8JpWfthC9zV86cW7wOTW0p9BWEWYN+DpicMXbSylEkrJLgDnUL
+70HGqX+nY65d4sLP6JmFeu3wTbULAp7s13hRGzfa4fVCbfty65+hIvPfpH/7Y5Te
+lDMaSv4jfBskyeMc67Xp3JdVbIfHi6KCHta7yhSAwZrJUNmyslJ5af0G790tXnjd
+FUd9+fwpSPOK34FzHrxeMS3aHyqJOWl0XOgf1PwdNgaobQMqOEh0lD5i
+=yJev
+-----END PGP SIGNATURE-----
+
+--===============4963627777358125993==--
