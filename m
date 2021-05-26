@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7163499540067808747=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 26 May 2021 14:02:34 -0000
-Message-Id: <162203775443.30856.1451349698787919134@gitolite.kernel.org>
-
---===============7163499540067808747==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 26 May 2021 14:14:22 -0000
+Message-Id: <162203846258.8743.9733551256114405886@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 59c5614e36a343e57326e6190ee33e871f6052ad
-    new: c6a1199dcd65fdf2eb1c49295bfcc02932b5ae75
+  - ref: refs/heads/kbuild
+    old: 368480b21916e1d853e321b7aecd7e65fef2521e
+    new: 386a5354e1cc67730f672d741823f9cd7a297e8d
     log: |
-         c6a1199dcd65fdf2eb1c49295bfcc02932b5ae75 Check uids on the key when using default keyring
+         d92cc4d5164398cc6d191084b46e622976c0ba89 kbuild: require all architectures to have arch/$(SRCARCH)/Kbuild
+         5519f498d59528dd43f4a3f65d638c1c080aa80b alpha: move core-y in arch/alpha/Makefile to arch/alpha/Kbuild
+         0957878f710e87d6ef2aba01a49d8be659c3ce3d h8300: move core-y in arch/h8300/Makefile to arch/h8300/Kbuild
+         3681c854c22eed45e63c164252e5f7e1abeadfb2 hexagon: move core-y in arch/hexagon/Makefile to arch/hexagon/Kbuild
+         92f378f19e947eeffc52c427cd734f7b19eb54c4 sh: move core-y in arch/sh/Makefile to arch/sh/Kbuild
+         e63b79b8aa9e3790fd5eef1eaec92345599ab980 kbuild: merge scripts/mkmakefile to top Makefile
+         cad99f627b8fda2057fa6e2f345b5e71bb919e5c init: use $(call cmd,) for generating include/generated/compile.h
+         eca0ce4d4b045816bba483419c252a0dedce81f5 kbuild: sink stdout from cmd for silent build
+         386a5354e1cc67730f672d741823f9cd7a297e8d kbuild: clean up ${quiet} checks in shell scripts
          
-
---===============7163499540067808747==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1622037754 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1622037753-625e79d7cc846f78bf483f99fba3fe5c98933f47
-
-59c5614e36a343e57326e6190ee33e871f6052ad c6a1199dcd65fdf2eb1c49295bfcc02932b5ae75 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYK5U+gAKCRC2xBzjVmSZ
-bCb+AQD+yLMC81ejBou+mgGt+EzV90e9v+zsNTA003h9ZQIHtAEAkINPzh5sPJ6h
-2gbkrRDnoCRWZpx1uCp73/BGwA51CQA=
-=nzQJ
------END PGP SIGNATURE-----
-
---===============7163499540067808747==--
