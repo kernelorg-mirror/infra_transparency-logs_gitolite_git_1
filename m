@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1641181302960998853=="
+Content-Type: multipart/mixed; boundary="===============0536925633232356765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 26 May 2021 17:37:24 -0000
-Message-Id: <162205064439.13790.5528393430114923331@gitolite.kernel.org>
+Date: Wed, 26 May 2021 17:37:47 -0000
+Message-Id: <162205066729.14004.5996437430591262791@gitolite.kernel.org>
 
---===============1641181302960998853==
+--===============0536925633232356765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9
-    new: ee5e56d06c786d7906c214fc1f8cbbeeb3e658a6
-    log: |
-         ee5e56d06c786d7906c214fc1f8cbbeeb3e658a6 Up version to final 0.7.0
-         
+  - ref: refs/tags/v0.7.0
+    old: 0000000000000000000000000000000000000000
+    new: 7916c7a6f36aade3dcc2a38a72f65c8adbf8c314
 
---===============1641181302960998853==
+--===============0536925633232356765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1622050643 -0400
+pusher B6C41CE35664996C! 1622050666 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1622050643-100fde9b9df34be0bfb5c01d94d03008d673ac34
+nonce 1622050666-d26c6c3edb81a75cefb7ca8324d90f3995497f1c
 
-fbd0377eb080111ab2c6d2e05ecd97125dd1d9d9 ee5e56d06c786d7906c214fc1f8cbbeeb3e658a6 refs/heads/master
+0000000000000000000000000000000000000000 7916c7a6f36aade3dcc2a38a72f65c8adbf8c314 refs/tags/v0.7.0
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYK6HUwAKCRC2xBzjVmSZ
-bNiXAQDVtXEr7Fot2RLTZdpft0L57Kyv33wUyY0Sxtwg9bWURgD/fpYYyMnC4GHA
-/+kkpZXLRxVqLCxDez/qKoCe8LIoDwk=
-=zAo1
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYK6HagAKCRC2xBzjVmSZ
+bHBeAQDTBjEhuoM2K5IytNQ4zY7x4iH6kp262x5hWOBM6Qp2EAEAjWrQhWKxVAvE
+LtCcNnROuBYP1uGWcH+Xz7Ne1J55FQE=
+=+5n1
 -----END PGP SIGNATURE-----
 
---===============1641181302960998853==--
+--===============0536925633232356765==--
