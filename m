@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1214715996236512124=="
+Content-Type: multipart/mixed; boundary="===============7404962315540881614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 26 May 2021 04:06:28 -0000
-Message-Id: <162200198815.3949.16655622617042319045@gitolite.kernel.org>
+Date: Wed, 26 May 2021 04:06:33 -0000
+Message-Id: <162200199317.4072.3256981958430989343@gitolite.kernel.org>
 
---===============1214715996236512124==
+--===============7404962315540881614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: cdbf3238995e8a74808f03c716c2d401ab7a0e74
-    new: dc4400bd627776ec3a1aa4e94517debd7816d73b
-    log: revlist-cdbf3238995e-dc4400bd6277.txt
+  - ref: refs/heads/5.14/scsi-staging
+    old: ea2f0f77538c50739b9fb4de4700cee5535e1f77
+    new: 46ded13dd3821d96fee65f0cef4bd8f0184607ab
+    log: revlist-ea2f0f77538c-46ded13dd382.txt
 
---===============1214715996236512124==
+--===============7404962315540881614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1622001985 -0400
+pusher 75C5DE3D 1622001991 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1622001985-3a5309cb97e89ff5e8a5088a228da6d54dfc4393
+nonce 1622001991-e4cc44d450ecb3f5c8efd7c618b2abe57fc93766
 
-cdbf3238995e8a74808f03c716c2d401ab7a0e74 dc4400bd627776ec3a1aa4e94517debd7816d73b refs/tags/mkp-scsi-staging
+ea2f0f77538c50739b9fb4de4700cee5535e1f77 46ded13dd3821d96fee65f0cef4bd8f0184607ab refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCtyUEACgkQ7ulgGnXF
-3j3MEw/+MuM9SYY3Dsb8J7f+z9QVUG55lkYiicNyEZMoNUBmzRyPaqEwNW27OBAD
-yYghxMjR5N5ul1ll6561mBL5SuKlBP7CTyTJYI771dkVSGd9FPcytnz/5El1HeWL
-jlfWkKwF3oGiUcrS7RDWKNdGkQhN4ipLRgfQ72x/5Ebm8JRG04tDMdASpBQrB5+m
-zbSsRVxNoB7MFZylAgg/h6/Oq1oNn7RNiBLsumKAbZL+vGqWFH68tGENj/+NcmNc
-4YqcgcR9xa+0QVgdGUcple0BzYnhUZcvJzBfeYqNKf+GWsNQ9C/zIWbrR7WE/5iZ
-4umN4/Uw7ISeS9nF1uD5Z1+71OOGoMnIaykUuub7rew6nRk2/yqICQZ5Uj4Q+clY
-rNrzY/8t7nDye/BktxMWfY6uLS/aAF5eFpleQaS49pbKOtFCDgGWgt/oZprhbafs
-HVhYn3qAcEtErTuYUMnOMcszfFsshRQJt6DHqQu7GlS5/JENXoQsnUsUSkg5iPxw
-oeP4R9hZJIbHHnG7GPevpyZRsOE8ni/DC1TD24zjh1RqbesadunbMRt0p9g/W+30
-m7C9N7xDspL2cVfxo3A+wck8IlA4FgLnxkx3EjK2+nj1bhoEk3E4Nendk49LAxGk
-7HzQhWm5HKiKr2ssHr08PLvBKfYGmMjuDzjvzVtPaKXJ0iQF1Ug=
-=0K5f
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmCtyUcACgkQ7ulgGnXF
+3j2kehAAr8FX+/PWPU7SY+cz52O6hlBg+gxmMqueUIB32dOHaQkr9EFiSPbeUJqn
+xXrA4XoihADYvF60QuuqfXeMb+qGf3cKXwhVsa84aqSiyBsLjLDf++bmYcMBdtNL
+xWWtHse/dVM3Bjw3xP1JQFd1xsztufj/n3cpR/gpgGikwo5sNfvlBU6zyp9w1yJh
+lAr9QA+EvER1afOJPrPnKvNarz7l+4QiyRSYGXdAYSSj3SeotaSPJu0GrrNWQkAq
+leCtilbdxja/SinzTQWeKX7hFpxH0g/4Om1Mt092SEJGVjQPRd7NkV3xE2MTox8q
+LNcBanmrUWFlLos4hES+i3Ulhy7zGjjM01h+YJpCqBd5M6/fXbxOav7EpBiZ+GB4
+xBeCWUwYC+bXXkMcme7HmZhYA0bBp9iTgJZ4NHcn6hWiZ2cbEgOHUo9cx/U47VVj
+ZiIk+cQ1abTnO+i5nKTQzse6OWL9ViWmUnv+N0sa3o8tP2n5IT5E568py0d0Okpy
+hCCdH3QQ0SoO1s3J9PRKDzBW+O6zzt1Ury9cKRnDvelbuFFwhugSgrrvMx8aqLq6
+iDZW8Wg/rAx/QD5VhxFEOmuxnJV5QcGOaRs75TfhqKMsxofHhOs8ACCymg8im0ju
+Xl+f7e8l0lB5zJ0lMFQXenNzYAjug5GAkYdL6ILgqkq/l9V11NI=
+=ZOre
 -----END PGP SIGNATURE-----
 
---===============1214715996236512124==
+--===============7404962315540881614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdbf3238995e-dc4400bd6277.txt
+Content-Disposition: attachment; filename=revlist-ea2f0f77538c-46ded13dd382.txt
 
 dac85b5a3dbccb7e585f4deb0812ee0d5692b33e scsi: st: Return error code in st_scsi_execute()
 42e0185550ac4ba67a958d0c8de3ae394e88a0c3 scsi: scsi_ioctl: Return error code when blk_rq_map_kern() fails
@@ -101,4 +101,4 @@ d5a859c534bb797cb6e5b5031bf04672f32f59a0 scsi: mpt3sas: Handle firmware faults d
 87d395fe9bdcb818f39a5f4046de16e1d86974cf scsi: mpt3sas: Handle firmware faults during second half of IOC init
 46ded13dd3821d96fee65f0cef4bd8f0184607ab scsi: ufs: Suppress false positive unhandled interrupt messages
 
---===============1214715996236512124==--
+--===============7404962315540881614==--
