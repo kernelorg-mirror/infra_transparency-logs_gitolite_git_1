@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf
-Date: Thu, 27 May 2021 18:03:40 -0000
-Message-Id: <162213862003.26764.16479242153920525882@gitolite.kernel.org>
+Date: Thu, 27 May 2021 18:11:40 -0000
+Message-Id: <162213910006.32065.11992954332959565704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/pablo/nf
 user: pablo
 changes:
   - ref: refs/heads/master
-    old: 97a7e691298a8c45ce0b939f99675c9ec41a00ef
-    new: 56e4ee82e850026d71223262c07df7d6af3bd872
+    old: 56e4ee82e850026d71223262c07df7d6af3bd872
+    new: 9129606f0182917e84a371b7c542464f53da37a2
     log: |
-         179d9ba5559a756f4322583388b3213fe4e391b0 netfilter: nf_tables: fix table flag updates
-         56e4ee82e850026d71223262c07df7d6af3bd872 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+         9129606f0182917e84a371b7c542464f53da37a2 netfilter: xt_CT: Remove redundant assignment to ret
          
