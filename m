@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3117715230444021941=="
+Content-Type: multipart/mixed; boundary="===============4482907551836234854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 May 2021 07:24:37 -0000
-Message-Id: <162210027705.1993.12025837935051971381@gitolite.kernel.org>
+Date: Thu, 27 May 2021 07:31:30 -0000
+Message-Id: <162210069054.6996.3842182307049129466@gitolite.kernel.org>
 
---===============3117715230444021941==
+--===============4482907551836234854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: baabd69492bbd3250467515a5a6f2bf15ade9b62
-    new: acad3e9c7250c5fd20d9778a163f2adc95de38f5
+    old: acad3e9c7250c5fd20d9778a163f2adc95de38f5
+    new: ab00a41e73dc06b5a140af8c796d1bf03f6ec4ca
     log: |
-         7bf991eab8b21afb7bd130b7065384a6ce2e8789 usb: typec: mux: Use device type instead of device name for matching
-         acad3e9c7250c5fd20d9778a163f2adc95de38f5 usb: typec: mux: Remove requirement for the "orientation-switch" device property
+         ab00a41e73dc06b5a140af8c796d1bf03f6ec4ca usb: dwc3: trace: Remove unused fields in dwc3_log_trb
          
 
---===============3117715230444021941==
+--===============4482907551836234854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622100268 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622100682 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1622100266-f09c88d1d56601bd1465bf0f5d155be8ac17f394
+nonce 1622100680-14ed93d01558e0544c092cec66540b479fd67127
 
-baabd69492bbd3250467515a5a6f2bf15ade9b62 acad3e9c7250c5fd20d9778a163f2adc95de38f5 refs/heads/usb-testing
+acad3e9c7250c5fd20d9778a163f2adc95de38f5 ab00a41e73dc06b5a140af8c796d1bf03f6ec4ca refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvSSwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHIP/jPMh4TQQZ+NK+gHyP+7
-A8hbq2h13RH0O6NcVd2bifd4btVhtJjr9UK9kTgHlsMboMWTpPhd5CpYIvJDbUMS
-YcId3tj4zoMGgN36OMErjFIdRPenpbwCdBpca3zRPrwTqoXNXbyQJLWYj0Mf7ytM
-+jArAwAbLUWdRAewNEmqZU8vzJW5tdHg5wAJ3TsX0elYmDkk3gXlCdrfAZU3X4Lg
-aoiJeNzThIxL7KaFg2U99NzrZKye1ALmEPD5FESXEKFtVixOwCRlDE44D2WSDVPd
-r3KxCa/trKrcPLkwhGKNUTsG7xGE+be2SJ1R4s9QzQ/kZZIBIB1zIT39F3KCD7yJ
-tmivJ+z1ykfzbYouMpZ52IuEqcK18+BL3jQ8funWHp7LsHwGvJvLLWYkhQkKjrTN
-lJwx1i8V/YumYbruojN6yl0BrF9oT0/xltLzWTgN86o37BrpRlGh/XTcs9n/FnZH
-okpMkEFKmqskFwVU4kGaXgptCc/q7WB7ZQT+mDpNra4sLNn55x3wMQVDaB3qXg96
-2OM7STE942AFKrvjifUboFcgjYIS1ao+GbdvFzw0wKMsxMUjoVyfieZ10KX4G1nC
-yquE0CX/u8jFnczEKBeWDJbs/xfEjcLI7FEt/YiECzLIV7BEG71sfHPpVXMrRHZO
-/7MKjv0RdVkGhbnklRvWSlC9
-=CvjU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvSsobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yZAP/3yYsbli0yWCr0zdZXER
+OrTnPh1y5s/0u+7oFKLlXIf3On9JdPPgZypsVqkvDD5qj3hO0GkZGH5IG7hxvi2w
+GUlV9dXxrx46MiLWtAqir0Kj8VAsK9S9BdEZbSUOh6ROodWPgGUK5lqmx8unLQ9/
+mWuWyhoeOH9DJzFhz1KtkDRVKbR7LeUI+pp5SHVQNPgvtt8qUxrm9gVfk6vBCVab
+kjzByjAoxiJ+ITkRxu2agNbleqNSVa8HQvmmL3zXI7Sts4qctupBtBGxTfDGENCY
+oNn94xBQTcW05vMbGi+fLbJS7ZNikcMs4/dYesqCLoyjo0rAPTl1nQdyZLnBPA//
+2zUpr1Fo8WJWRY4FOQfsJ8C5y83bJWPGRjM/+6PKSV0wYRlMgbTNTSV5vGfb4ZW3
+HGk/icl60lOw/uhO4Z1r8cZUTRH+0Mbi0kY/e/z9cMxLOAvFr5nynwfkOAZXufYE
+MPFJTRL3oaD0YNxAX4G/9Zf7t53WapOwMprw5p7iqur+xc5F+5DgVp39EyfxGN1Z
+iO/vFXhPdesXyaxrJEb7km5TW1LJF8U5vusQvKZbkwkhEU3xxwzjzGMDAmRlv/PJ
+vZ0gmYZ3TaeA+hXuBXCilRO6iT9ZRVbhOeoIa/LJwuMPCKbPrg0yP05/L7iTZHom
+BreA5q9yNAp8p67hy7NLfmgC
+=ev+5
 -----END PGP SIGNATURE-----
 
---===============3117715230444021941==--
+--===============4482907551836234854==--
