@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 27 May 2021 06:17:08 -0000
-Message-Id: <162209622808.23169.13840653018058052754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Thu, 27 May 2021 06:29:44 -0000
+Message-Id: <162209698411.31443.13368746518679837046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/md-next
-    old: 0e2ec211ca2c697c8f94137735f779611e6065a9
-    new: a2c3b618dabd6ef07c871b47018ecff3cd6aa803
+  - ref: refs/heads/kprobes/kretprobe-stackfix-v7
+    old: 879b4341f43b829846cfc51b367fe7411032e93f
+    new: 31144cad5c0871a4b2bd92add13148ad2fd04851
     log: |
-         a6996f8cb9e7ae76f8857e141a95cc5371734703 md: add io accounting for raid0 and raid5
-         73a6fd797107935be2ae04d84c43c45fdd2b5c5c md/raid5: move checking badblock before clone bio in raid5_read_one_chunk
-         bcac15a27ae3971bec3b5dfbd6780310abea2e9a md/raid5: avoid redundant bio clone in raid5_read_one_chunk
-         da30d508ad7427e6e195f9fd7da578cae0a84e54 md/raid1: rename print_msg with r1bio_existed
-         b3a6cd8628e4cea48976d05e411a058553a046b4 md/raid1: enable io accounting
-         764ebf7057a6bdb0ae44098b541afeb7b4b50e79 md/raid10: enable io accounting
-         a2c3b618dabd6ef07c871b47018ecff3cd6aa803 md: mark some personalities as deprecated
+         2d74323eb97952145fe3e26d13a0fab203a64940 ARC: Add instruction_pointer_set() API
+         8a198fe93e0e9724ba7b2aac7c6f290818862d78 ia64: Add instruction_pointer_set() API
+         f727fd40e7726d4cb2191d5682317ee4683753b1 arm: kprobes: Make a space for regs->ARM_pc at kretprobe_trampoline
+         1b65a6048bf042113d79c236ea212e98a8d503b8 kprobes: Setup instruction pointer in __kretprobe_trampoline_handler
+         5f6fa34fd3a49facd6976b902b48df79fbf87b71 x86/kprobes: Push a fake return address at kretprobe_trampoline
+         ac3db223446c1d5a62f3fa3bc09b4763062fd869 x86/unwind: Recover kretprobe trampoline entry
+         934338176082e1754f5c6731ddece4985ff5a92b tracing: Show kretprobe unknown indicator only for kretprobe_trampoline
+         31144cad5c0871a4b2bd92add13148ad2fd04851 x86/kprobes: Fixup return address in generic trampoline handler
          
