@@ -1,58 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0294954292009380185=="
+Content-Type: multipart/mixed; boundary="===============0900646592427877439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 May 2021 07:48:11 -0000
-Message-Id: <162210169132.17405.5909927985846503445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Thu, 27 May 2021 07:48:27 -0000
+Message-Id: <162210170792.17556.16339374719529869417@gitolite.kernel.org>
 
---===============0294954292009380185==
+--===============0900646592427877439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/usb-testing
-    old: 58aff959fc841e16f8b45bd01b78b30d23f589f5
-    new: 61a140f08ebb2e9f06b7889463f7ee9c162d98c2
-    log: |
-         5aff197ffef12b87180bc34268bc2719a283ed09 usb: typec: ucsi: Fix copy/paste issue for 'ucsi_set_drvdata()'
-         e0fbc1c0ba375c813f9dd06e2924848a775b0930 usb: gadget: udc: pxa27x_udc: Fix documentation for 'pxa27x_udc_start()'
-         61a140f08ebb2e9f06b7889463f7ee9c162d98c2 usb: gadget: udc: udc-xilinx: Place correct function names into the headers
-         
+  - ref: refs/heads/iosm
+    old: 0000000000000000000000000000000000000000
+    new: 48d067d87f3ed917a72b94a93fdf2475f265da64
 
---===============0294954292009380185==
+--===============0900646592427877439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622101681 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1622101680-94a9ad55580361f5922fbacf2e4eb39027d7207f
+pusher 7BF9099A 1622101674 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
+nonce 1622101673-dc88323401e00bc6995b9db0e5c354b48063fbe7
 
-58aff959fc841e16f8b45bd01b78b30d23f589f5 61a140f08ebb2e9f06b7889463f7ee9c162d98c2 refs/heads/usb-testing
+0000000000000000000000000000000000000000 48d067d87f3ed917a72b94a93fdf2475f265da64 refs/heads/iosm
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvTrEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rxQP/jXCTKIgqCSr1YXoNPpw
-e7fwYXaMNleh92DuMV6U/H/Tvlrb0BXp6pr7yXBzkQACTUIuB7Y1z+pGLXMUWcjT
-GAcHeYdwf9F1o9KTWv3D+87Jlb+rzbU1mXy7idkloZzSUOKKJdY7LMLiG5rnUNOH
-/Q6t3Cmyr0U+iYLHu+80N1ojVJibc2B5b5GUv8n3kD7mQpvScl5Ah8HcnvSd9Nq0
-xE7QHSRTqMoEhCRkRQPyZnLjYoMA7kkxZnX2DM59zqm94DIns2PhTBvL9xX33Lx0
-7xGWSlpOA70vhBgnQlzsGnozdsNXtxwGhGlfgrY97WUPps8ZEv8zVg+VvZXAAnCS
-mu53NNIcbVuqg25KCWJjvDYQlRh4tYxBPHBt2nAs5pdGkU8outb6+iS7nOZm5IB7
-FKJhYe4aacBOxwHt07SnB707wcBoDrcHY5wknAEH90ZJ86jFNX0ydksbeaOMreQN
-07zV4A6uRjPj+LFPbSExw1Vze5bRbY9xUYig5YmDFd1hHDzeQmuJdRZ/+mwgaYcN
-0g0GBtKP/g0gIu5TjeLjkUE/mbuVhonMsISqkfuDbr64epxkxT4EonBu3AKmiVXN
-J+UaGO9t85J8bwiD8CST7I9IrWAkbRc2Wfp1A+M04bBbe43SkA0et3yMIBCt3F7c
-HJ6YkSE03i5kISxAsn/hqvjM
-=QzWP
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmCvTqoACgkQB8qZga/f
+l8So5RAAmie4KpwBTqK9uHJLrMt7Es6mdX1meZ+ri0PEY5+QpYoeCULF0qldp44+
+tC5Wnl3D6Jcho+8vnxmmcG4qF5sLPN3j+HmkHVQc0VI8uVQZk6jHlx3W/knQGWyv
+u0bg86X6arex1d1LRREEVKlPZ0i4QPsG7ggn93rc8eFPnbn8wQYZ7ggZdyrC4oNi
+yIAjcQXfvnQAQY5nfrjGITP3CSP1cP15vr/ADnMMCSuLb7CsvpldI9QZ2ALfZ5Oz
+RB8fBhCdKP5ZDLrqH0JvudGH+3kNrMtTzWvp6KbfZ3/xDcJkMFGrnZR4QUNTufn1
+XzR/alE+JDEZDz32lyN00ffTvebkj8mXaKUb5xEYhpzOHVozSh/CN/p5JABflYnj
+frg5UcpC9G24xDpCBy6TxNApdwQlPTw1RLECXhUkCv9qI8SSRXtwOi+6sDwM2Tir
+ySrfSgeaix09QaknY9QV5otRwIRx4mKzGkqFEfcqBrqhEQaBDJpp2tfke9Ksz55D
+xqTFv+xlPg5chmoofp6l/ERzasqyDDjblsjFeebwmbgEIhRaqsHvPtpaMYlGk+Cc
+IWhBdf65+RgwL5JzjkRP/jm6GESiBAcYoqmrsFip0gKoNM0VjVdkzjAf9RYN0vsQ
+y8zf0ud0CiAw0ETQjZtVjA7ZR5dKQQBC5iJ3Ql52WQbuR5zahMg=
+=Ta7m
 -----END PGP SIGNATURE-----
 
---===============0294954292009380185==--
+--===============0900646592427877439==--
