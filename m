@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 27 May 2021 22:04:33 -0000
-Message-Id: <162215307320.19315.17428798607348037136@gitolite.kernel.org>
+Date: Thu, 27 May 2021 22:05:24 -0000
+Message-Id: <162215312425.21105.12997971270299442579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 0313e938c9c8bb37d71dade239f1f5326677b079
-    new: 3fd60780bc5984639b568e85d31ede7a50f4e1e5
+    old: 3fd60780bc5984639b568e85d31ede7a50f4e1e5
+    new: 575686bb85fa36f326524c505e83c54abc0d2f2b
     log: |
-         ebcdccdeeec1673b8f7b12c4176d19982ddad7cd engines/libpmem: set file open/create mode always to RW
-         0e684e9d0e1605ce31977f697c97e0b78d393638 engines/libpmem: cleanup a little code, comments and example
-         94c0b971d5e535e6b991899a57f88b6512412e58 engines/libpmem: do not call drain on close
-         3fd60780bc5984639b568e85d31ede7a50f4e1e5 Merge branch 'fix-libpmem' of https://github.com/lukaszstolarczuk/fio
+         6df25f781e07e373833ec1629e005d36474c3b67 zbd: add missing client/server support for option max_open_zones
+         575686bb85fa36f326524c505e83c54abc0d2f2b zbd: add a new --ignore_zone_limits option
          
