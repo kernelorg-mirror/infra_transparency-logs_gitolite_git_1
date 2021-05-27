@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1096331433113476051=="
+Content-Type: multipart/mixed; boundary="===============3295465286106408376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 27 May 2021 14:59:26 -0000
-Message-Id: <162212756696.3232.10237482567303421064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 27 May 2021 15:11:41 -0000
+Message-Id: <162212830117.11323.14710304302964659683@gitolite.kernel.org>
 
---===============1096331433113476051==
+--===============3295465286106408376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64/entry/rework
-    old: 9f6e032970520649f1618baacdcb0232b1836377
-    new: efabb33a1ff23836aa4f436a7c54d3f69299abba
-    log: revlist-9f6e03297052-efabb33a1ff2.txt
+  - ref: refs/heads/linux-4.4.y
+    old: adec72d873c39badd7cd94eb184274ec3fa2dd0a
+    new: 50a10183be6255e0423e44fbf075f516dc2f100a
+    log: |
+         6a326b3aa0055cdd324ad9d4dbbb4b41ba8fbf1a mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+         29a7b4c21c5f5e8071b1ad2292281f9b9bf71ebc netfilter: x_tables: Use correct memory barriers.
+         ac5deb5fa32cac399bfca96f54a50269f2c0db7d NFC: nci: fix memory leak in nci_allocate_device
+         50a10183be6255e0423e44fbf075f516dc2f100a Linux 4.4.271-rc1
+         
 
---===============1096331433113476051==
+--===============3295465286106408376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f6e03297052-efabb33a1ff2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a8947bb4f986305c1e7ed1276e53334a218c5e8f arm64: remove redundant local_daif_mask() in bad_mode()
-5870fb9f4f67af01da8170a89c09bfa70377ec98 arm64: entry: unmask IRQ+FIQ after EL0 handling
-1722fd53169c494205e6094373011e4313e62d12 arm64: entry: convert SError handlers to C
-2f68883b3158101d9778c95a40893b31957a7b0a arm64: entry: move arm64_preempt_schedule_irq to entry-common.c
-ddf7906614deb3a16f469542963cd9b3c34e7e9c arm64: entry: move preempt logic to C
-d54df55ba8fe253e894068183e2ca1e8068a1378 arm64: entry: add a call_on_irq_stack helper
-131b3f3a7513c466f026c7820f3e44ec894b1f65 arm64: entry: convert IRQ+FIQ handlers to C
-a2a00f1c2239dd349a24db2cf444449957c1c403 arm64: entry: organise entry handlers consistently
-fc1ba9d6e2f40875ec974eb627e512fe7d27621e arm64: entry: organise entry vectors consistently
-702b6179a572bae7d2149e4c083418aebb4c962e arm64: entry: consolidate EL1 exception returns
-7ff696ba21657e13522ee4a13e4af5c787905daa arm64: entry: move bad_mode() to entry-common.c
-0c8973db5187cf0e89906df09b0920b9b1c18b88 arm64: entry: improve bad_mode()
-dedfa82f82b9eac1adc9cd86ddda040cba65eea1 arm64: entry: template the entry asm functions
-a95d103db9ec9b35faf2f3e883ac9fcfc74a85a0 arm64: entry: handle all vectors with C
-7c9cbd320ac713feeaa0e7e57c10345ed46d2609 arm64: entry: fold el1_inv() into el1h_64_sync_handler()
-71a437beed2f298206de19b89cd7bd80322ed692 arm64: entry: split bad stack entry
-45dc6eadc30ce1836f7b7d921be7fd81e4146755 arm64: entry: split SDEI entry
-2eca3344ba882dbef3d46d3c265273fa61a720de arm64: entry: make NMI entry/exit functions static
-c671bad049eb356aaff676deaf8a791b1bd24cbb arm64: entry: don't instrument entry code with KCOV
-efabb33a1ff23836aa4f436a7c54d3f69299abba arm64: idle: don't instrument idle code with KCOV
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622128300 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1622128298-32a7934a2820e61cde8d98646251a65eb894edcd
 
---===============1096331433113476051==--
+adec72d873c39badd7cd94eb184274ec3fa2dd0a 50a10183be6255e0423e44fbf075f516dc2f100a refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvtqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zz8P/1V7+tBf9I7cafBUR6Us
+mQVAthefIvtHxut+hCOQEFFxu0qEvoE7yAh0JYTE65MsewKGsL9QkB6fs1d7hdy9
+/QW4y9ilREyoKmkoDNBDljfkVSBj7lVT3M9Xn+iw8hvONK+KnSyrx6TOiU7Ic+hD
+ifYUwb53UCVVB2ky6A7V89N1LJlQDtl0gXOuc7++me5srPh/n2+6aeoC5hdY7eDf
+s1cBlA4AlzIAXW/56U+sKM6vnl36Up6myGL+KEgur23sIvWIrq7O4mKD9Mr6eQHL
+dfL+830SMJenhKWZwJeoDxg+YJY5j4izVRyR3zDGFKOAaRrdvXlhZ1v+rHRjlJ1c
+fBuxkQlcDIs0ut+g6TCiHcimkk4LGZGpiVLciuOtjWMBWsfnsi6GbQCOVfVMZO0I
+JxgZ3lmDxQC/BNhn5qndx58fXGrh8JvoEb4rP4I0CggKHGDiEerTfHAjTve5JcCI
+Ln1ZJwNd9+Ppcd5v8ACdC1CpUtusKwGMu1MnUNIlSsL6rn5H9Wwv7KWOD/2ORK3L
+b6WV81MuPc2jDklQxHFQUUN2m+8NhQJAdPXfa3llnp+qG2U5aVgd/y7BBh0Qoeq3
+h424eCNxY9SOvQvFL2rGa2aPscnA6oqSF2UsSXv4VxHhOjqckXmAx2CYtCVYLc/h
+w77powC06GghgsGBc+Vp/xuE
+=Ih+0
+-----END PGP SIGNATURE-----
+
+--===============3295465286106408376==--
