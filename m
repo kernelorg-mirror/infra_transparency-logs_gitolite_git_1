@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3060654432519398626=="
+Content-Type: multipart/mixed; boundary="===============5340276044262154883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 27 May 2021 12:14:05 -0000
-Message-Id: <162211764550.12615.9188831727793309900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Thu, 27 May 2021 12:15:55 -0000
+Message-Id: <162211775525.14690.12297375185483280872@gitolite.kernel.org>
 
---===============3060654432519398626==
+--===============5340276044262154883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 83aacfbcbd42eec3882423bbafcb8b3190376ed8
-    new: a53d1202aef122894b6e46116a92174a9123db5d
-    log: |
-         8cb5d216ab3365bc85aac65da27f1c2b3dd6f366 char: xillybus: Move class-related functions to new xillybus_class.c
-         a53d1202aef122894b6e46116a92174a9123db5d char: xillybus: Add driver for XillyUSB (Xillybus variant for USB)
-         
+  - ref: refs/heads/omap-for-v5.14/dt
+    old: 3d7bf58546ba858ea0a15eb10195a397b9704b51
+    new: 9e7f5ee1137397def6580461e27e5efcb68183ee
+    log: revlist-3d7bf58546ba-9e7f5ee11373.txt
 
---===============3060654432519398626==
+--===============5340276044262154883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3d7bf58546ba-9e7f5ee11373.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622117636 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1622117635-9b60a3e62a5f9a605fa41636cc6d43090c714534
+fb97f63106f3174992a22fe5e42dda96a0810750 ARM: dts: am335x: align GPIO hog names with dt-schema
+bd551acdde3ad40da1a97391abd6e0db7852bf66 ARM: dts: am437x: align gpio hog names with dt-schema
+cfb4ab3b5df86c6001127346d8331f5e87012f91 ARM: dts: omap3: align gpio hog names with dt-schema
+4823117cb80eedf31ddbc126b9bd92e707bd9a26 ARM: dts: omap5-board-common: align gpio hog names with dt-schema
+0c149400c2f676e7b4cc68e517db29005a7a38c7 ARM: dts: dra7x-evm: Align GPIO hog names with dt-schema
+b644c5e01c870056e13a096e14b9a92075c8f682 ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
+2566d5b8c1670f7d7a44cc1426d254147ec5c421 ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
+d7d30b8fcd111e9feb171023c0e0c8d855582dcb ARM: dts: am335x: fix ti,no-reset-on-init flag for gpios
+7260620cd9e31514671ed8770769721c4d39fa19 ARM: dts: dra7-l4: Drop ti,omap4-uart entry from UART nodes
+40a95e2915e3f08145c82507a0df046793810adb ARM: dts: am437x-l4: Drop ti,omap2-uart entry from UART nodes
+71f729ef73ce68de35f15b6ce9c257a4140bec04 ARM: dts: OMAP2420: Drop interrupt-names from mailbox node
+94a69e06264891fc01098aad794a2b327c248d2f ARM: dts: OMAP2/OMAP3: Rename processor sub-mailbox nodes
+8e880dfefd61fdb80945b45978d6ac821e83d29b ARM: dts: AM33xx/AM43xx: Rename wkup_m3 sub-mailbox node
+9e7f5ee1137397def6580461e27e5efcb68183ee ARM: dts: OMAP2+: Replace underscores in sub-mailbox node names
 
-83aacfbcbd42eec3882423bbafcb8b3190376ed8 a53d1202aef122894b6e46116a92174a9123db5d refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvjQQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q44P/RSvKj9GUXeRfGhp/gZa
-fGHZmLao/UA41k5XiugyMvrn+5VSLuNRSXmAmONqrckZ1UJ0hk3vx90+/VI5+pE6
-/kGdSu1UMkYdyMBSObx4eYP6yBmkwjvXgTMGdaKejP3sP7vtx002PFxFrcCjJtdE
-sQLNIB+UBHQ4ffOTPZ9z4IHlXIFvdeaixQzlkYCBBWvg6FSqjn5Ia6aRvLtCRH10
-6icTx0m03ILRJcu09bBEjStB6OzMLr7ROX/7nawYKN6TaD7MsLOfBfPOQ+DY2a9K
-eQomu8Ed8GDdRENW+MrVf2fXDXhAWjIXJufd4UGw1odKdm4AhPtTjfJalDq7+qw4
-ImOsPh7B/OH2eu45fr01JIOMilek3GgiYEI3jjj3Ts7OHoY+VTAHqfZA3ldPQkAx
-7wPAYqkUqOwAc7YYJWQof9hNJ2+5vF67uNP84ng/UsYb9kK6a0BPETUFEvLkA+DT
-d1iBPMk/f1PXa4b5Z0Bo+PMhjer/EB0Zax5t7YKYTJBOVOcrUw2ProYUeTqCylRm
-BgHdAOD7yH/TN2qgMK3v4lo9v0k2Nju6WSuiuiKFKHd8QhuYTcLNmlF8OzXWW1If
-+BpzBniQ+YoaKof7zU+9d8A2R6NcsiPLptEeKx4UI2pwdU8bBQtLHerkU11YIgGn
-OUmGGau7eB0mTrz0K81RlA9u
-=QquV
------END PGP SIGNATURE-----
-
---===============3060654432519398626==--
+--===============5340276044262154883==--
