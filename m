@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 27 May 2021 00:22:38 -0000
-Message-Id: <162207495822.17610.205003515855912408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Thu, 27 May 2021 01:02:18 -0000
+Message-Id: <162207733852.13456.11760010934491520978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/pending
-    old: 88a0608c17c4ae4410363c77215c2b7d80e22d4b
-    new: 6630d31c912ed2dfbc035caf0f54709b50ce779e
+  - ref: refs/heads/imx/bindings
+    old: 54ca489ebae86077442bc0abd4da20266cd7f2e1
+    new: 7ba861fff0cd3c34ca3401067a95eb12a6a581a6
+  - ref: refs/heads/imx/drivers
+    old: c2d7cedf34bc75cc0a1f07741d38b6e5c51ad3c1
+    new: acad945dc22efb867c0a1fa5911361bc746ec05a
     log: |
-         35c32e3095d396c750f5cdfdaa94cba83d9b23c6 cxl/docs: Fix "Title underline too short" warning
-         21e9f76733a8c152b794cba5463ff9bf2db919d4 cxl: Rename mem to pci
-         199cf8c3feec2947015da84643312790b21531cb cxl/pci.c: Add a 'label_storage_size' attribute to the memdev
-         dd2a93a814e7ffbd4d2c3e361f4609c9bd384a96 cxl/mem: Demarcate vendor specific capability IDs
-         5d0c6f02595310a17762755bb6f015786b8900db cxl/mem: Use dev instead of pdev->dev
-         1b0a1a2a193400d305931a40ac68e89bcfdad9c5 cxl/mem: Split creation from mapping in probe
-         1d5a4159074bde1b2d5e4a6f5ed34de70a83a39f cxl/mem: Move register locator logic into reg setup
-         6630d31c912ed2dfbc035caf0f54709b50ce779e cxl/mem: Get rid of @cxlm.base
+         30af8513bdb59a3e57f58f51c340130b6328b59e dt-bindings: power: add defines for i.MX8MM power domains
+         47f87c628055748ad509b2a580fb3135598f7a6d soc: imx: gpcv2: add support for i.MX8MM power domains
+         a36cc1e512e9b9152a340e34d4d7b6dd7f31de3f soc: imx: gpcv2: Add support for missing i.MX8MM VPU/DISPMIX power domains
+         acad945dc22efb867c0a1fa5911361bc746ec05a soc: imx: gpcv2: move reset assert after requesting domain power up
          
