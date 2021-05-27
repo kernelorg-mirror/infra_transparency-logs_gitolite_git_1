@@ -1,46 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 27 May 2021 06:45:08 -0000
-Message-Id: <162209790818.9418.5116938397537683195@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5006270015880095932=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 27 May 2021 06:49:43 -0000
+Message-Id: <162209818340.11274.13619878761036102426@gitolite.kernel.org>
+
+--===============5006270015880095932==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 29c8f40b54a45dd23971e2bc395697731bcffbe1
-    new: 50dbfae972cbe0e3c631e73c7c58cbc48bfc6a49
+  - ref: refs/heads/char-misc-next
+    old: 281e468446994a7672733af2bf941f4110d4a895
+    new: 83aacfbcbd42eec3882423bbafcb8b3190376ed8
     log: |
-         0e68c4b11f1e66d211ad242007e9f1076a6b7709 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
-         bbe183e07817a46cf8d3d7fc88093df81d23a957 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
-         e650c1a959da49f2b873cb56564b825882c22e7a ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
-         50dbfae972cbe0e3c631e73c7c58cbc48bfc6a49 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
+         601a6887999338ec4209b76787e3aaa8fc810d3c w1: ds2482: fix kernel-doc syntax in file
+         83aacfbcbd42eec3882423bbafcb8b3190376ed8 w1: fix build warning in w1_ds2438.rst
          
-  - ref: refs/heads/for-next
-    old: 08e767cd9e8b6682cfc4fba630ec2e46f13e99e0
-    new: d955782da2901f977ef1ededba8a2764e35c1187
-    log: |
-         1519c84c0592f22e6ee9c7a7bce3032a0915e93f sound/oss/dmasound: Remove superfluous "break"
-         93a5b85c3c53ec99782b5973f6f6559c8f0af12c ALSA: drivers: opl3: fix useless self-comparison
-         b5c2e2c79034eaa4c786e304d094618156eea69b ALSA: pci: lx6464es: remove useless self-comparison
-         d955782da2901f977ef1ededba8a2764e35c1187 ALSA: hda/ca0132: Make a const array static, makes object smaller
-         
-  - ref: refs/heads/master
-    old: 7d9deb444100b8cdc24f0b5bc6b82da165170d1e
-    new: 0da0822d6f40be94346000a0ed078864c0ddde78
-    log: |
-         0e68c4b11f1e66d211ad242007e9f1076a6b7709 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
-         bbe183e07817a46cf8d3d7fc88093df81d23a957 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
-         e650c1a959da49f2b873cb56564b825882c22e7a ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
-         50dbfae972cbe0e3c631e73c7c58cbc48bfc6a49 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
-         ffe14117a44d77015eeea7cd71e27aa38895d0a8 Merge branch 'for-linus'
-         1519c84c0592f22e6ee9c7a7bce3032a0915e93f sound/oss/dmasound: Remove superfluous "break"
-         93a5b85c3c53ec99782b5973f6f6559c8f0af12c ALSA: drivers: opl3: fix useless self-comparison
-         b5c2e2c79034eaa4c786e304d094618156eea69b ALSA: pci: lx6464es: remove useless self-comparison
-         d955782da2901f977ef1ededba8a2764e35c1187 ALSA: hda/ca0132: Make a const array static, makes object smaller
-         0da0822d6f40be94346000a0ed078864c0ddde78 Merge branch 'for-next'
-         
+
+--===============5006270015880095932==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622098175 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1622098174-62509f2465713957303471b29bd2b9f7c71691ff
+
+281e468446994a7672733af2bf941f4110d4a895 83aacfbcbd42eec3882423bbafcb8b3190376ed8 refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvQP8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JroQANc20ja9HVyKmWrBM0sX
+2TaFZiMWd6IGkLhbKG36vSfyQgZc26BWvzaFZff46BBDhhcbvWtyhf4UjKA9woG1
+pVAN0yYahR6r6A97J9sUsB1dhy95IXAGiUbOLB+c725SHkboI61A9EMDXBIkPS5U
+M+0xxPx1HQkxDO+OKOgv571sRxKAtaVDhvJ2+LCwE7OmuSt0nzunCwPx1e0OtlH7
+OalM8tysU/1PYXnDi53Om8b5lIczEMOXwx/bihXex9VZu0WHChJgf+1xT0DzfETm
+70KQisC+5CAKLBn8NA3h1EyIR6NdiH5wVcqals3In+KLCOJBh4fgFdVeTewlNEvu
+TmFrcKf5McGAjTcYyxmhgHq5OXgCWQQNCx4BQsQMlTXcRgXALw939poGVkE7ocCH
+t//EgATO/yuM5lwYgDbgzxTWrpoZhnUChEVVnSIR7ZDRIKQyPnR1xBwm9N8vR5aH
+B6Ubco/2UaLdm6BMIRCcwexs50gHC2PY/jVjF1x9k7k6E9Ks8xl7fJYKJEU4g04u
+i9/E+7/bNmkThEALyvskgfRRpVK+mr5ubx3kxB32DcEdkCvXwgeFL8jWplFiW1kH
+0TLj4NNv5qQQ/KeH1OEHTw5fMJlOlJf97fv7z6ZJS8wr873CSEPsHtY3D/li3rKK
+ya/b32a46ggzwNr/rsR4kgY9
+=uyYt
+-----END PGP SIGNATURE-----
+
+--===============5006270015880095932==--
