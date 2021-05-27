@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 27 May 2021 21:45:58 -0000
-Message-Id: <162215195800.7416.13398457977380602432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 27 May 2021 21:49:32 -0000
+Message-Id: <162215217261.8857.1751363435727032584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: d7c5303fbc8ac874ae3e597a5a0d3707dc0230b4
-    new: b28d8f0c25a9b0355116cace5f53ea52bd4020c8
+    old: b14b27fffa2e3dd0b4af052fa19b94e34c33130a
+    new: 557c4d2f780ce73ffad8dfe4d03a27dc9e13dfde
     log: |
-         b28d8f0c25a9b0355116cace5f53ea52bd4020c8 devlink: Correct VIRTUAL port to not have phys_port attributes
+         557c4d2f780ce73ffad8dfe4d03a27dc9e13dfde selftests: devlink_lib: add check for devlink device existence
          
