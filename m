@@ -1,77 +1,84 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 27 May 2021 09:58:02 -0000
-Message-Id: <162210948230.22429.11900429631826244969@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3341104122239652645=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Thu, 27 May 2021 10:12:22 -0000
+Message-Id: <162211034290.31202.1307152351339546889@gitolite.kernel.org>
+
+--===============3341104122239652645==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 0f6827945f568e1a91e83a3aff0a8ce94c6b3ad2
-    new: 5fc8157e03ccf4c175b1a6146e8464ae3dc773fe
-    log: |
-         f20acb9c42a4cf94ea3a05b66bc059dc0a36d59a mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         2cbf15e702653961b36cd2a71a5dd9ec7f598df2 tweewide: Fix most Shebang lines
-         6e399c17381e2d4d3a67c1e9efccfafb15ed69d2 scripts: switch explicitly to Python 3
-         65dcfd9bf65d1e577ba0676d2845f36ccdfcd3da usb: dwc3: gadget: Enable suspend events
-         5fc8157e03ccf4c175b1a6146e8464ae3dc773fe netfilter: x_tables: Use correct memory barriers.
-         
-  - ref: refs/heads/queue/4.19
-    old: 2455c5ca44b481ef8ccf00e5baf5e94f24638853
-    new: 25824b15933898e77fa32c67d7f9d38c516185ad
-    log: |
-         7df93d9bf4c05ad32d1e281cf736fd6eba7397b1 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         25824b15933898e77fa32c67d7f9d38c516185ad usb: dwc3: gadget: Enable suspend events
-         
-  - ref: refs/heads/queue/4.4
-    old: 07f7b4d974c263c37ff73c16fcd08066cb497858
-    new: 3efebbf5263d9fbf3f466475cbebe0c20bb95984
-    log: |
-         5aed5335105677cfeaf02e9c4287fd7ff3026c1a mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         3efebbf5263d9fbf3f466475cbebe0c20bb95984 netfilter: x_tables: Use correct memory barriers.
-         
-  - ref: refs/heads/queue/4.9
-    old: 8e6b57644fa2dbb9df535c55d8078bc530a80b5d
-    new: 36d485e823d28e2d49204325ce9e30ece92af768
-    log: |
-         8e23d16d7e8cd015520a9d8bf15843816c2671f8 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         742f9236194bb45028bab04e47cfd32b3c692266 tweewide: Fix most Shebang lines
-         22f95924996db536528b62bf0e11719e28eccbeb scripts: switch explicitly to Python 3
-         36d485e823d28e2d49204325ce9e30ece92af768 netfilter: x_tables: Use correct memory barriers.
-         
-  - ref: refs/heads/queue/5.10
-    old: 2fb746cad692e5c521aa4d10c98be28a4f3d032e
-    new: c55942c43fff913740d2f1c8d63d9dcc9bf8ea69
-    log: |
-         25b4c408b647e114f9a98fab5bce89bbde2d1003 bpf: Wrap aux data inside bpf_sanitize_info container
-         128670eb1fd148d32edddaff716d840058cadf84 bpf: Fix mask direction swap upon off reg sign change
-         40258381d30fbd8bc8f1b52fbea92108521f4a2c bpf: No need to simulate speculative domain for immediates
-         d053c84000cddf07d6a397bf5b5c9fd9c08fa38f context_tracking: Move guest exit context tracking to separate helpers
-         ca1c7a13e38d9c2869ce134bff25a3aaa990c5e9 context_tracking: Move guest exit vtime accounting to separate helpers
-         c55942c43fff913740d2f1c8d63d9dcc9bf8ea69 KVM: x86: Defer vtime accounting 'til after IRQ handling
-         
-  - ref: refs/heads/queue/5.12
-    old: 649d3f363aafa0046b5419de65c45da0fc08a195
-    new: 6b94e56b9536795916e4c59244f145cc6cba3a54
-    log: |
-         eddb7cc3ac393d252866a4ddfbe1f6ac6929cd36 bpf: Wrap aux data inside bpf_sanitize_info container
-         ad72f9878fd18608c141f6e9e4799e31b058d748 bpf: Fix mask direction swap upon off reg sign change
-         8e6705c2b8ce30c776de17746987b55af07111c0 bpf: No need to simulate speculative domain for immediates
-         890f7c5471d61cb8ac82f8579f74c3dabb7cbe79 context_tracking: Move guest exit context tracking to separate helpers
-         1ef9845ae849854cdc5fe663161b2cbaf19a5aed context_tracking: Move guest exit vtime accounting to separate helpers
-         6b94e56b9536795916e4c59244f145cc6cba3a54 KVM: x86: Defer vtime accounting 'til after IRQ handling
-         
-  - ref: refs/heads/queue/5.4
-    old: fdbc0144438b92729f983fb3da80356ff9798933
-    new: 2e864e6a084ca46fb25d5fa336b1ea759dd9c167
-    log: |
-         74d9efe84256619aa1d73306964f8a030d7d53ac bpf: Wrap aux data inside bpf_sanitize_info container
-         17362be6f37f11ea8ca243f2113b6d6abd903d76 bpf: Fix mask direction swap upon off reg sign change
-         9d77c5a20705b8b306c8cdd93a472d6ed7a9dbf3 bpf: No need to simulate speculative domain for immediates
-         2e864e6a084ca46fb25d5fa336b1ea759dd9c167 usb: dwc3: gadget: Enable suspend events
-         
+  - ref: refs/heads/fscache-iter-2
+    old: b285c26894d96d708ee746d56df1519e42baaeb4
+    new: 3acdf86b5714cc06d3f37fb67f7a62adc1a394c5
+    log: revlist-b285c26894d9-3acdf86b5714.txt
+  - ref: refs/remotes/linus/master
+    old: a050a6d2b7e80ca52b2f4141eaf3420d201b72b3
+    new: 7ac3a1c1ae5152e1d18cf6df5b6c3c9847535e78
+    log: revlist-a050a6d2b7e8-7ac3a1c1ae51.txt
+
+--===============3341104122239652645==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b285c26894d9-3acdf86b5714.txt
+
+f9054cc3b7b196649c997d2e65960f76b25b78ec fscache: Fold fscache_object in cachefiles_object
+4b8564d902e22aa84d6c8233eb57e7251a774567 fscache: Replace the object management state machine
+cb935786f02fe98cd86195e3a791e27117b974e7 afs: Render cache cookie key as big endian
+7bfa3b10168b7548867ce99c481718e01c13ee88 fscache: Keep track of size of a file last set independently on the server
+b04a7ca909be8a2749554d2471dbafd7a5b58ff5 vfs, fscache: Force ->write_inode() to occur if cookie pinned for writeback
+f6ec52fb5076f14193e8cb49fb194ac0bbd54dee cachefiles: trace: Log coherency checks
+46596b1b75a2c3dd932e96aa1e3305281ce9fea7 cachefiles: Implement a content-present indicator and bitmap
+09a28bdc121f4e50c88e665485229075555dadf8 cachefiles: Shape requests from the fscache read helper
+0e1a3a5e94447f7eafe79f45fb2240dfa9a2652c cachefiles: Round the cachefile size up to DIO block size
+17126825c5118a7415f21d3ce8ef01557ea8bfd1 cachefiles: Implement read and write parts of new I/O API
+2ab600a4026eccecbcf2ec3e12f1aa8856bc1be4 cachefiles: Add I/O tracepoints
+1c33a7d38768f419548fdce74a45aecb8d9cc5d7 fscache: Remove more obsolete stats
+750e580a653e77f16483ef74dfac604e7de1ba36 fscache: New stats
+8166fef2aaba28e09854a1db7c85fa56d601bf86 fscache, cachefiles: Rewrite invalidation
+70a5f9a0bde9d6a79e464323f1e3d5a26fe78a35 fscache: disable cookie when doing an invalidation for DIO write
+55eabdb51e794e438cf4e73c01881b05727662d8 fscache: Implement "will_modify" parameter on fscache_use_cookie()
+091a0ba6e2bf1516d7f2393f25a059ba768107cc fscache: Provide resize operation
+2bac973bbbf6ded6a3985f55c74437c6ec4d5035 fscache: Remove the update operation
+95d605f872e5493348a72e386073daeec8f4b77e fscache: Add support for writing to the cache
+0b8d0ffd4ea0783cae9ba5a0d17a95bbb8f8a191 afs: Copy local writes to the cache when writing to the server
+51b500df1dd7bcf74e505d1fe3cdf06b8676c2fb afs: Invoke fscache_resize_cookie() when handling ATTR_SIZE for setattr
+c004a57a2de15d6ccd130b91cf10377d9967861e afs: Add O_DIRECT read support
+2dc832a5eea1109d44cab0bfd047746097e978d1 afs: Skip truncation on the server of data we haven't written yet
+5be646699c8b917f382268b69ef347dda6f2bf4c afs: Make afs_write_begin() return the THP subpage
+ef4e4937ec558f8e84cfcad869f8476ec61092c4 cachefiles: Change to storing file* rather than dentry*
+063f05999b6b561ab800aa984ea4c7d24f0e7874 fixes
+dcfb4807fcaf65b55b82e595b7619c73e6fe7eae cachefiles: Drive FSCACHE_COOKIE_NO_DATA_TO_READ
+3262dd59d33a96945902bf29e9bb5ad32977e798 afs: Fix the nlink handling of dir-over-dir rename
+3acdf86b5714cc06d3f37fb67f7a62adc1a394c5 fscache: Move fscache_update_cookie() complete inline
+
+--===============3341104122239652645==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a050a6d2b7e8-7ac3a1c1ae51.txt
+
+56a8d3fd1f342d10ee7b27e9ac0f4d00b5fbb91c mtd: rawnand: cs553x: Fix external use of SW Hamming ECC helper
+ad9ffdce453934cdc22fac0a0268119bd630260f mtd: rawnand: fsmc: Fix external use of SW Hamming ECC helper
+c4b7d7c480d607e4f52d310d9d16b194868d0917 mtd: rawnand: lpc32xx_slc: Fix external use of SW Hamming ECC helper
+3e09c0252501829b14b10f14e1982aaab77d0b80 mtd: rawnand: ndfc: Fix external use of SW Hamming ECC helper
+46fcb57e6b7283533ebf8ba17a6bd30fa88bdc9f mtd: rawnand: sharpsl: Fix external use of SW Hamming ECC helper
+6a4c5ada577467a5f79e06f2c5e69c09983c22fb mtd: rawnand: tmio: Fix external use of SW Hamming ECC helper
+3d227a0b0ce319edbff6fd0d8af4d66689e477cc mtd: rawnand: txx9ndfmc: Fix external use of SW Hamming ECC helper
+562b4e91d3b221f737f84ff78ee7d348c8a6891f mtd: parsers: ofpart: fix parsing subpartitions
+19dee613816d5065ad09f2ccc20b35d23dca9f28 netfs: Pass flags through to grab_cache_page_write_begin()
+b71c791254ff5e78a124c8949585dccd9e225e06 netfs: Make CONFIG_NETFS_SUPPORT auto-selected rather than manual
+b2db6c35ba986ebe1ddd6b65f21a810346299d7f afs: Fix fall-through warnings for Clang
+ad9f25d338605d26acedcaf3ba5fab5ca26f1c10 Merge tag 'netfs-lib-fixes-20200525' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+bfb819ea20ce8bbeeba17e1a6418bf8bda91fc28 proc: Check /proc/$pid/attr/ writes against file opener
+7ac3a1c1ae5152e1d18cf6df5b6c3c9847535e78 Merge tag 'mtd/fixes-for-5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+
+--===============3341104122239652645==--
