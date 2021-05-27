@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3557230789182990400=="
+Content-Type: multipart/mixed; boundary="===============3648254275010765502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Thu, 27 May 2021 09:53:06 -0000
-Message-Id: <162210918674.18783.17212014705227731113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 27 May 2021 09:53:58 -0000
+Message-Id: <162210923806.19141.1823015799824861828@gitolite.kernel.org>
 
---===============3557230789182990400==
+--===============3648254275010765502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/iosm
-    old: 48d067d87f3ed917a72b94a93fdf2475f265da64
-    new: 400a4588283d05861c0b8ab54c8ab195f7752e6c
+  - ref: refs/heads/master
+    old: 14d85b8deefc685486c8b359aa02b72820aad586
+    new: 36661a8413c9edb9be607d8d00930be47eb4555d
     log: |
-         b2913413846a522ef137f08358570f45e8f59606 wwan: skeleton code for rtnetlink support
-         400a4588283d05861c0b8ab54c8ab195f7752e6c iosm: convert to generic wwan ops
+         36661a8413c9edb9be607d8d00930be47eb4555d 4.4-stable patches
          
 
---===============3557230789182990400==
+--===============3648254275010765502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1622109154 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
-nonce 1622109154-7021bc081a0f1c30e77439dadc3e4f3f9dab8d84
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622109237 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1622109234-4bedd7d6a265f992f1957b521c191e2e47bff894
 
-48d067d87f3ed917a72b94a93fdf2475f265da64 400a4588283d05861c0b8ab54c8ab195f7752e6c refs/heads/iosm
+14d85b8deefc685486c8b359aa02b72820aad586 36661a8413c9edb9be607d8d00930be47eb4555d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmCva+IACgkQB8qZga/f
-l8SqGBAAmCRe6xs9FtW2X2Cht/mk1cljuc/ILKAIth08OyoMv8JcvCyFa0Alv4ZW
-6it9mKwjT5KKyRp6LerFv2IBmVBninhV/qktmxTZVZBPbjFxBhkY4LWw8BLkB6wv
-2Gbh5QyiH7yFRHOvPI7USfbHrE44Kr5MzRR7/P+P0Sju0uObTxFtkIR2/flyVG4N
-7WBDq+VCOWX28RlZoMbGHPr80kMcgXEo64SqbVocOy5p4gEn9mWrnOZrsNQ8dtYw
-28BaKLOgQDeK2p6QlOcyhjZSBfOv2ouIlOoj+mWloSw/sYkTIF3fKP4eOcUe7NX5
-9A1ACpk6T/CFcfsRS+Ic5r444rAl21oRd3n2oafnMQE5JEYivYyxsd87kAoy9M/u
-DxldoCnzk0hXkNMVgCYGKfq1VPuHDkIostQimZCNjIG5KBjMSTx+EaN2ppDHOEm8
-S8oh1aATbSa8A7X/+YcsGiznn1+39UVuPxAxImMwgyqwcPxLTY3QqUKv+R7bFKQY
-Zw07Wg3FaykOlHeSShx6tlygrr4aNoRHDiWvtA97q4TvJC2lD6UlVKCAf2Udjj6E
-EAWDVuNu/rTuUJNG05M6EMuaHn8O3gOgxMgKmOZMHINbOmokTkGT9UHZeQLmhThA
-d8D6Z6NHaTgg2Jcov2qGKHAX59+eqGohoO0mtHMn1ouqgPhAs6c=
-=I+C0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvbDUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nikP+gIG5Y7CN4xtAIGOFndb
+ic6PSaIH2GOWxys63Bulx1Z+zE6R7SQKMJgfSEAMdnWKlcDopl0X6aTCpkiqONkN
+MUTAdT1/9Qxh3/F34lHnjAy9YjPaEazHCM0Y3I5aNSi5Lwscu0kmvw6aB8tVzdU9
+k32fIOpI/KG4nyYZteN97drlKVeact9Hwp44x02ggK+2bhphIMZK+uyzQYl1lSwV
+iA0vqHvOx421ky4LxRzOvsFHZXuBGv8Nyrg7X8sfCDE04MblEy7Pv3WTAcmxkJAP
+yStagHb8kbAUXs8E7cnUCguIL3O5RMmvny/XMjHgYDzPjxokhwhl4lMnfXZOcCk+
+fB+v4678h3YQCLXJKxjYJlbdjCQ8kI3HTHDVsjT7FnIWV36ry9s10DMOMZuWC5Rw
+EoneLk/7QVYomlq2AirFUqgR/GXo9MxptXkq0vz8hyUX+9O94UIhLkLTf9fTTY0U
+OOwxI/ADYikS2BMvJaVjeCMPfvkGK7rgMmHS96GVCe7QAcWpLtyIBPy4UMBLqhxP
+KJrEMcKED3Ys7YKNVvJKCz9OyWw9gX9sd6dns2ZHBTgowwX0zoK8qBg7c5nVNApB
+ah6ZOeAYRUVLUdoGvg5x+qxz+zoEBhucjwg7ioYlluuevWAG4sjGq5C3hBWR1TI/
+WXC+Ktd0flZbf17iD3sYX1tk
+=xe7B
 -----END PGP SIGNATURE-----
 
---===============3557230789182990400==--
+--===============3648254275010765502==--
