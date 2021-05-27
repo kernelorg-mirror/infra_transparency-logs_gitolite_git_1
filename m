@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 27 May 2021 08:41:21 -0000
-Message-Id: <162210488100.19768.15831974992331971848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-stable
+Date: Thu, 27 May 2021 08:47:30 -0000
+Message-Id: <162210525014.23164.8432591383024487406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/iwamatsu/linux-stable
+user: iwamatsu
 changes:
-  - ref: refs/heads/master
-    old: 0a0af6161bfb2ee0b914d09d2ddd1e2e4df8a511
-    new: b97e2145fa44c754ab78dd20e3ca8c13df68b624
-    log: |
-         b97e2145fa44c754ab78dd20e3ca8c13df68b624 po: add xgettext hint for non-c-format string
-         
+  - ref: refs/tags/iwamatsu/linux-4.4.y-20210513
+    old: 0000000000000000000000000000000000000000
+    new: ad99cb129a5ebcdef23a789af1393ceb687a7b4e
