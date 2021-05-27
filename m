@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2202074789702394536=="
+Content-Type: multipart/mixed; boundary="===============9151147213121289691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 May 2021 07:35:47 -0000
-Message-Id: <162210094723.9966.15715976513991992192@gitolite.kernel.org>
+Date: Thu, 27 May 2021 07:40:40 -0000
+Message-Id: <162210124062.12937.15588368752830179282@gitolite.kernel.org>
 
---===============2202074789702394536==
+--===============9151147213121289691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: ab00a41e73dc06b5a140af8c796d1bf03f6ec4ca
-    new: 0f60203d2142e759ac3913bb63017645ddf49f94
+    old: 0f60203d2142e759ac3913bb63017645ddf49f94
+    new: c037b6c818c30b6afa11dc70018fc4a075f26028
     log: |
-         8f6c7c5a11ec599be524190122a56dbb730069a3 USB: chipidea: remove dentry storage for debugfs file
-         0cac357717168f84d2f75e884a9cff52e6471aaa USB: gadget: bcm63xx_udc: remove dentry storage for debugfs file
-         8efd88f946017b69af67931a133b6dce92c27fd0 USB: gadget: pxa27x_udc: remove dentry storage for debugfs file
-         0f60203d2142e759ac3913bb63017645ddf49f94 USB: fotg210-hcd: remove dentry storage for debugfs file
+         70f400d4d957c2453c8689552ff212bc59f88938 driver core: Move the "removable" attribute from USB to core
+         c037b6c818c30b6afa11dc70018fc4a075f26028 PCI: Add sysfs "removable" attribute
          
 
---===============2202074789702394536==
+--===============9151147213121289691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622100936 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622101230 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1622100935-aad9ec834a2d975345557aaf98b399a2d654c71e
+nonce 1622101229-67822bee75d3858603e722ecfd2be0e7045fda54
 
-ab00a41e73dc06b5a140af8c796d1bf03f6ec4ca 0f60203d2142e759ac3913bb63017645ddf49f94 refs/heads/usb-testing
+0f60203d2142e759ac3913bb63017645ddf49f94 c037b6c818c30b6afa11dc70018fc4a075f26028 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvS8gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rxAP/3V6QR0lw7Ue07ZsZsMP
-hfC3f/l+NSQ22MUHCoxovZ+KW0nYnFW9nVOOs61aDdbTcMOreN4R9yFU11iN1kea
-/pFrsjW8qG8ED5UeKJ6OLSHw3P/RgbTfLahC4pjWtqxhEmvIxTqS9Luue+/Js4k7
-9yQoh6tEV/7wOCrNk9vu9R5LSsyr+LJswovIyiKFfXilmJAifnd2Qrh7JM5ZeN/B
-T8tMTicuCOnfO3AshEOCPBDI8AOB5lvJiF9xYpoV16M1oW9Ypnro+yojNqmWtbs0
-QcGDOf/r7mpw3hHnDo9DOBvEf+wzBA5SOnWgPl1wpX6VOMlnDWhF0MOHSy7XGxDl
-wUlz7JQP8uWomQcdnKaG0s9LbeNDGmwCTl732+jQo29WWDP1BfqOxmB0DqUtUPIR
-Bi54KaAVw9LUMslQYSDL9MoKnuFwfDBsma+KLtOpIBiQJ36ngIKPWuZXRyoUHYQ4
-Jc1ssuIlfd4jZNapHGSd84bpWcLZ07fLIcr+/J3ZD8EcrOBbMSJ9oJQgIU3BUW1/
-3TS06Lv6p+ieq7bNV9/aOzk1rb+c34IDMRDbywZ1H45HWlI0H0Nt7p9qPHDfozZa
-jEhE79W8+PamdEzGL9F13cjM7I4GQP9re9pg5nVLbaaykaWE+4f0bNJBsvx7X3Ds
-3I8bdU1ZyBMKzGPmh6uILevU
-=phKQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvTO4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7LcP/2N938raGhYFwOgnw5Av
+VzxQEbIFQBpvR8B1T74bguO2qt/xubtBFt2pIrvn+2Tuex7SHQpJ81qm8rAdzQc1
+9R3jk6DxgZWARDc3Z4f60dLse+hQlZEU4D0nX5ZmV676+pym8Oa1X4DGODTrP9YD
+JmdJo0ujla50l/+nomgaVjpYt4QvJ/XJ4DE7hsjWqxesRDa+6BJaGn0ezSm+PVkO
+X3rFiBQuHH5eBqaOtsg5kwYlirKNksZI1sCuJJQ1wuMI0tYyh7or9kMyZpdwooa3
+iOtxLZtPV3YJL2byM7H0wKoUWT8JZtQnFb1d3g6uYA8+7RqGkwBFqMhgnTf4hmDt
+onEpBCuhGX2mNDa1iv/ECydKiP9hG0noCoXRNY3ES4Gpc3Zt/GmwouLBwyOw4fGE
+I6+jb1wka1IUavDltSnyqtEaLdTbomCSb+F+msxR+K+zsvH609QKlV60OgWcOZiu
+bgiW5vmVV5s/D/cRdwB65xuHdgnLYEhiB3LR4YH5GnyjutHdxlGv5zck1nK8AtzV
+qXGiGi/SZ1AqQZhSkO2QM8+VoILvA2cv+Y0nAoRU8heonoWzN/B6EpCO1sqQ5AJc
+UgTHLojM4j2Ylqse+sGatfQduK8gbPL9MnoP1hp1wNirJ26TsX+YnpnJhzgOurEB
+q/ngx2hQ9/c8gLX9GDCP7lBu
+=lE1Y
 -----END PGP SIGNATURE-----
 
---===============2202074789702394536==--
+--===============9151147213121289691==--
