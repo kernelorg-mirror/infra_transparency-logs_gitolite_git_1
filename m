@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8229515020837202179=="
+Content-Type: multipart/mixed; boundary="===============3813487980439852013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 27 May 2021 10:23:14 -0000
-Message-Id: <162211099465.6873.16535063554285321328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 27 May 2021 10:23:26 -0000
+Message-Id: <162211100654.6980.3306997320553951101@gitolite.kernel.org>
 
---===============8229515020837202179==
+--===============3813487980439852013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0ec44299765636045f4e1fc239e390a02afb399d
-    new: 514d15ebd7b6bf6b7e84d2f8e038fc426ad43b62
+  - ref: refs/heads/debugfs_cleanup
+    old: 2037976307e9c46d61f5b779af836d81795e3a9a
+    new: f6b7084a7c4ba38fd7ea2e59a23eee5cba61464e
     log: |
-         514d15ebd7b6bf6b7e84d2f8e038fc426ad43b62 5.4-stable patches
+         f6b7084a7c4ba38fd7ea2e59a23eee5cba61464e USB: gr_udc: remove dentry storage for debugfs file
          
 
---===============8229515020837202179==
+--===============3813487980439852013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622110993 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1622110989-fe0f4460056cdcb51b692785782b25a5eabf4106
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622110997 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1622110996-cd023a300ce9243ad401e62888611744e56d19d8
 
-0ec44299765636045f4e1fc239e390a02afb399d 514d15ebd7b6bf6b7e84d2f8e038fc426ad43b62 refs/heads/master
+2037976307e9c46d61f5b779af836d81795e3a9a f6b7084a7c4ba38fd7ea2e59a23eee5cba61464e refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvcxEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZEsP/j6HCDLk0gz8ou88W5gc
-wQh6PJmEZUWmqb0CU0TItCdRCwLZSLtkbwJ87pnTBU4jmFCaX4CwGpq1fWPDrG/C
-NCBpRx4yzWVqTa562u4KsQtTU3Q00E+7S+XVAyN+00S1woz1luuWlTD9oiqpjlGS
-sPEJUGqL4Q1dob5IMrHmHU9VhOUwNdVZbWIm7kCHl4WwMfbt6EuNQws6DQdthr2v
-VzvwWfW5+7LE87iU6s9J28/1ewqxxNdJnWl6YNAoSoVU4GGof8iAJpIwuVQamc4j
-dkLbK656z9bKrMK8mG3qC9l8fk/+hWhgEydYKZsmchMH/CFkGXwpnab26zK6fbm9
-7FxJgc2zT2u3VgY9d/OejM/u2nImoi6kxUBsJp8eTeQMsA/cql/I7CHYUB6FR+V9
-YiIg0H22oDszY8u/aMS6ne/y7KF5N/S6cs0mpwF6+1fExdFYGPO1WTGFMngG0TR9
-BmMgVq096/vmxTmIAbR9CEJt9P0HzaRHOOoEJaYOTfnYVZCPPzxxPFEImdCYngYy
-bxpejX4edvxKVmYQ6wQcADOYSq6M3MKHFIqUOT1XSTH26YvM+YhkL8vek9E+ZArR
-F2CrQnhjDT3JC9bjN42sXe5wSLc3i5KrQjNqyJuILxAeKwURqW9nvoB2Tzhu0ng3
-McXi7cF254o8T9M82yDT5md/
-=8v8x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvcxUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gd4P/jTO57YaNkxf7sQE8dem
+pJufp009zafg8RVL4iHtbbueL3rriv9Nl44MyDCN6VY//7O7dv2enH0tXqPrtKYD
+OVEm5dhjJNNdLJ13ZEPmkFrcIAnMXFpKvSWoNRITjIcrxPlTfj0mgl/N9RXWcOps
+8asnoBu0/YybEyFhFzquqCq3L0sYuGiSBAiA931ltakMraLXumPI7af21JH7TRgg
+pMibLTsISYnQe4tSC5Z13lsraQQHOl6SOPSGZSRLUjR9v9O+e15flUAZ6I5lr7Tx
+GvhHAGscTqFHf4wH8d3FHV6JSrztRwgd2jWk4ExmRyTL8a5fQNLfV4pYpFzuicHa
+xKO9p03/EyRsKhJOhh042Fyy9KYJwdigTrUL0oiE+HmfjJGORZpq8U49xJ/W7/tX
+S20JeNsJ0xbjT7WwyivokjX0ShUHLWr+tUpWN2V3aY8dicx35gLUb1L+xYqakFdE
+cEUtL1uyo3QmxNsNwbX5bsgnLhe1xngWY7DVs7vMw/55b1kplh6yt0eeNcwB22eJ
+Rd9CEMUk3aSpzppBbb6nX6KeirW2MEEG8CNBrbtG/ZxbYmRNQRuSFU3MzYdLFYnz
+pQfpsrXiBMoqqtKbUV6vjFoegIj4XgNtgwadc6LgUFySwNxVACqII3NkL5ZtnrV8
+k0vsOfh9tJ8yx2IrpyUMJrFe
+=SZd6
 -----END PGP SIGNATURE-----
 
---===============8229515020837202179==--
+--===============3813487980439852013==--
