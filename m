@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3129948558247646169=="
+Content-Type: multipart/mixed; boundary="===============4743603405729542905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 27 May 2021 15:11:45 -0000
-Message-Id: <162212830587.11531.1464512148727443377@gitolite.kernel.org>
+Message-Id: <162212830598.11554.12982616210795820244@gitolite.kernel.org>
 
---===============3129948558247646169==
+--===============4743603405729542905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,23 +16,21 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 4068786a86905a7a358b9fe1327a480f08fb6a40
-    new: ec1cc3ee7be23032bad8bf00052c9b75fdfe9971
+  - ref: refs/heads/linux-5.12.y
+    old: 55c17a63e51a668438d3d9fa5ff8ef959fe90a4c
+    new: 6fc814b4a8b359a7a3231350692901f00e9d179b
     log: |
-         76474b8ebf9c35f7fb2553e7764fc5736c1cdaf6 bpf: Wrap aux data inside bpf_sanitize_info container
-         25e4df77d39a20ab514639fa8ecfd77aad2d3352 bpf: Fix mask direction swap upon off reg sign change
-         abdc1d45d01a5941e279a95778afe63b93e9f4ae bpf: No need to simulate speculative domain for immediates
-         a838f4e98655a8568eb1a0144619619e0b0e9a86 context_tracking: Move guest exit context tracking to separate helpers
-         cd82d9f6b8a338c22e7107359393c0863befe0f0 context_tracking: Move guest exit vtime accounting to separate helpers
-         e2eeaaad051f5332205c566213c0024e9c329e33 KVM: x86: Defer vtime accounting 'til after IRQ handling
-         36f92efda14622a3abe5201af693d929b892fc19 perf unwind: Fix separate debug info files when using elfutils' libdw's unwinder
-         4211aeffad0355e55b1b3a26fa64d61eddc44c58 perf unwind: Set userdata for all __report_module() paths
-         e1678fdea3833240b4fd5d7b271ac39b3bba6d40 NFC: nci: fix memory leak in nci_allocate_device
-         ec1cc3ee7be23032bad8bf00052c9b75fdfe9971 Linux 5.10.41-rc1
+         9e414f57586823b55ac606829bf0d749e957f3da bpf: Wrap aux data inside bpf_sanitize_info container
+         38298511e82c4854d0de9df116e43745fb862fcf bpf: Fix mask direction swap upon off reg sign change
+         d3cb0149cbfccd85923b1ada1971183ba7ee7a7a bpf: No need to simulate speculative domain for immediates
+         86090acc68c555b4e05f04455b390703b6f2a27f context_tracking: Move guest exit context tracking to separate helpers
+         89e5a3a82781ad124e4a110b157b1e6a2b3d53dd context_tracking: Move guest exit vtime accounting to separate helpers
+         ff0f2a3e2c25c2f7afcd8a3b4bf665edf4a8bd46 KVM: x86: Defer vtime accounting 'til after IRQ handling
+         06195c9a128298e9ab32223586a3b5011fc1e7fa NFC: nci: fix memory leak in nci_allocate_device
+         6fc814b4a8b359a7a3231350692901f00e9d179b Linux 5.12.8-rc1
          
 
---===============3129948558247646169==
+--===============4743603405729542905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,23 +41,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622128304 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1622128300-953b2a8d79bb40da663d91fe76df3670d9e04405
 
-4068786a86905a7a358b9fe1327a480f08fb6a40 ec1cc3ee7be23032bad8bf00052c9b75fdfe9971 refs/heads/linux-5.10.y
+55c17a63e51a668438d3d9fa5ff8ef959fe90a4c 6fc814b4a8b359a7a3231350692901f00e9d179b refs/heads/linux-5.12.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCvtrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CX4QAKiQStfAByAbPB2flzle
-2n1S+y/03cS0SvoKP6tCswINOqtE9bBe8z5PBV3hJCviKTYPHQgrKmlp+uyu49ZU
-PSkfJC/dr1n/A7k4roSN6h/SgZV0H0xEzUJhxR+0cVtprncly8UwSXkxdvMKMFdd
-5yRYntQ1qq5SEPY0U+hQ5/RtrT+aPcNOLs/nt+E6teRL8qPky6Ja7IQ+vPFwL10t
-Qs4iLh3K4Akyx8i52lxj7VZy5mNiUNV0/yYiBWXs42zWKgPjEVEKsYz50QsyZ1kj
-hon5BslyhiUGQv7FVfP1NY9YDJwU1BLuL+/mHsDF2u5wSqUYplLmgXhW/Guhvnqo
-cjdu0m7xl+V50mg3jGMZdeRbnsrmzRbGnb51Ex1Xt/ydD/Vp0HAlvWPMxaLX2UQ5
-K3FXLuP38MJ2U/tOXfctzWF9wjl9ktVaE1Tj4wNEd+007qAfcRo4jzuzM58kOOCM
-UfqZAzKbkM2YWrEu5sE9odmEi5kKg21ly7oTq207B8SruT3z0XWZs+Hx6Rgm9t/Y
-i+vhcKmsKAq9RXUBNe3J+JcC6KNciuiGfWIaz0dS5WsVK/WTTbmLTYhn8UaRgQXL
-q8+xk6uSBT5MRFPJC4tROyfwmuk4/XxjzgUAZ+0JpWdOiEXwLwoVOR8vpNWOcOSS
-pTlROknw4P28xm4SH0RG5PY5
-=DcSr
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y30P/imfquVAqks9xkx3AXUq
+cOtIkeeUbfdgCfzUGRp4SXQVFphjB5H41GkufFu177fOngObgJg3AU//l6Dz4Rp1
++ZtvzBWizsPjgndGlDAoQS2oqVyndAmiirsqpse/FIjHrcVEUu7IeMJhWHEvPzmD
+obw9cr3aktLtcWobFoA7a6pKjrRAA/yuxOkxved3YIblGdteIfVdz+7Fyb5qCVNX
+zhzea84Drnac5bRwNSeNG13rXXOE1wZU2N7LQU2qRBwY+ZUs/cdkM4bVxLr4wjG2
+omAGdMlRHYs9yVMgIu4qeSKX5BDJbJ701M+qje0sw+BrgT2uDu/CyWXYqMKxd0wN
+wGq6IEDktMjTQAVGkkgvzXjPcuBU/miyRfXU1m0uDk2T5PubKTHz7BQDe03GVeIM
+uN7N5Gn6pNeDBiMI7NaIQuaabp5I8w6skvOAn5ENCQ54Ih5bWXhIMzY2ObBUEC9b
+bWpehe0T4WrnSEVC5xpK1Cj8aaLBrF064I+dVNdAU+xWkt6hmoLZDXuyu/oA+bEu
+bnvm4K9MkR7rEL/0IpTdrz+B3PH2gcbKWE/n4o/494WmQPcQu4XmgB2XVx+6sN7Z
+fxkO+spCy4RIjeA7XkJ2RACBzP/eo3varzctmBLW/g/TQbWXRzkI4ef4WU2MMOc7
+/13uh137CI02oTEfvhTuX8Be
+=fvBm
 -----END PGP SIGNATURE-----
 
---===============3129948558247646169==--
+--===============4743603405729542905==--
