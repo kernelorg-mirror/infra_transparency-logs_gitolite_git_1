@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7705699522175152706=="
+Content-Type: multipart/mixed; boundary="===============0679452234078859645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 27 May 2021 17:19:39 -0000
-Message-Id: <162213597941.29754.8115652174789881848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Thu, 27 May 2021 17:19:45 -0000
+Message-Id: <162213598526.29989.15442785124604849340@gitolite.kernel.org>
 
---===============7705699522175152706==
+--===============0679452234078859645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: d7c5303fbc8ac874ae3e597a5a0d3707dc0230b4
     log: revlist-c4681547bcce-d7c5303fbc8a.txt
 
---===============7705699522175152706==
+--===============0679452234078859645==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -268,4 +268,4 @@ f5d287126f63f76bcf50cf0b085199cc34f07d74 Merge git://git.kernel.org/pub/scm/linu
 62f3415db237b8d2aa9a804ff84ce2efa87df179 net: phy: Document phydev::dev_flags bits allocation
 d7c5303fbc8ac874ae3e597a5a0d3707dc0230b4 Merge tag 'net-5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7705699522175152706==--
+--===============0679452234078859645==--
