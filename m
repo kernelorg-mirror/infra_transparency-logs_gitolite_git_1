@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 28 May 2021 18:02:07 -0000
-Message-Id: <162222492764.25349.16264943510598413639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 28 May 2021 18:06:32 -0000
+Message-Id: <162222519207.28198.14916892198074079853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/tmp.master
-    old: 0d17503db0580a6635d103fed030724b38ba1364
-    new: c9d4c106ab95cd8c13af4d29395d86c8f5d2f9ac
+  - ref: refs/heads/gpio/for-next
+    old: bc3aca5393c4d61d7f5ab1dd61b7f2b0536efec6
+    new: c354c29524eeabba63da51f30a09b85ec9dc853a
     log: |
-         3d510406ff3630569a5a9330ca33b00ece9d80da pahole: Add --kabi_prefix flag
-         76f7844c817eeac5d6072e21062a56042a82cae8 libbtf: Fix typo
-         c9d4c106ab95cd8c13af4d29395d86c8f5d2f9ac dwarf_loader: Add define for DW_OP_addrx
+         c80c44352ddadc257410c89a8e044c1804c4f6d2 gpiolib: Split fastpath array to two
+         c354c29524eeabba63da51f30a09b85ec9dc853a gpiolib: Switch to bitmap_alloc()
          
