@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 28 May 2021 08:27:54 -0000
-Message-Id: <162219047414.3632.8827370788902972264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 28 May 2021 08:44:04 -0000
+Message-Id: <162219144437.12788.14930329320655370803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: d1a5f4ca656b1d5fc54e3f4e9c9d00680cc31d48
-    new: 76a2b9a8ab441e4505cebe658feb0c27ba209d44
-    log: |
-         ee39cf8ba10605291f9c1a25c429554844a95822 nvmem: core: constify nvmem_cell_read_variable_common() return value
-         76a2b9a8ab441e4505cebe658feb0c27ba209d44 nvmem: qfprom: Improve the comment about regulator setting
-         
+  - ref: refs/tags/renesas-clk-for-v5.14-tag1
+    old: 0000000000000000000000000000000000000000
+    new: 08b4d3378c27e0c6e04d22606fc066a17ef9ed21
+  - ref: refs/tags/renesas-pinctrl-for-v5.14-tag1
+    old: 0000000000000000000000000000000000000000
+    new: 0bb269d0594a4bf3b47d34c6958c2990aca061a4
