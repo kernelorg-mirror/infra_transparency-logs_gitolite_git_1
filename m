@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1669526897841576240=="
+Content-Type: multipart/mixed; boundary="===============6555220630244412688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 28 May 2021 16:02:57 -0000
-Message-Id: <162221777738.12853.92491191186438795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 28 May 2021 16:03:17 -0000
+Message-Id: <162221779713.13075.3298044882863315988@gitolite.kernel.org>
 
---===============1669526897841576240==
+--===============6555220630244412688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: ab053f48f9264ed5c714d0427b3115f121d4c476
-    new: 5cb4e1f33e5eeadbce3814282e010d4dd31816af
+  - ref: refs/heads/for-linus
+    old: d131d9eeb1eb31aa45a7379c6608644f79eaae08
+    new: 2f0f2b331cc9f246e5b2bded73814c3bac6ddf38
     log: |
-         5cb4e1f33e5eeadbce3814282e010d4dd31816af spi: Enable tracing of the SPI setup CS selection
+         6308c44ed6eeadf65c0a7ba68d609773ed860fbb ASoC: rt5659: Fix the lost powers for the HDA header
+         2f0f2b331cc9f246e5b2bded73814c3bac6ddf38 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: c48946560df605ef72850ca08337f0032653f153
+    new: 4269c4a0443156255c9382b5a20c6a5fe964e582
+    log: revlist-c48946560df6-4269c4a04431.txt
 
---===============1669526897841576240==
+--===============6555220630244412688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c48946560df6-4269c4a04431.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1622217775 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1622217774-9fe299b0e14569e6cdd03b829f497477d22d23ac
+965386c97616c401b34cba4e9e3bfc9c6b215359 ASoC: rsnd: call unregister for null_hw when removed
+6da8f00e7ac277ddfc72e255328dc5ff0378c3ee ASoC: rsnd: ignore runtime NULL case at rsnd_runtime_channel_original_with_params()
+ab62e8a8bce1cc3b730462a7a462107db634bd5c ASoC: rsnd: attach SSIU when SSI was DMA mode
+54e81e9446377c36fdcb952ca7db43e59857e0d7 ASoC: rsnd: check BUIF error everytime
+9ff07d19fb28ce8544d3ee4755673020b00487e6 ASoC: rsnd: indicate unknown error at rsnd_dai_call()
+1788a1520185e69f62e56dd23b33a0992e8187aa ASoC: rsnd: incidate irq error message
+1f9c82b5ab83ff24f5c2b62bf9a912e4aef8905e ASoC: rsnd: add debugfs support
+b43b8ae87c8e0a8b81a26cfc39bd157c5f53ae14 ASoC: rsnd: protect mod->status
+83b220cf8eb2aa9dbe0007bcf43c5e305fe1986d ASoC: rsnd: implement BUSIF related code in ssiu.c
+cfb7b8bf1e2d660583dd91d870cec2f6728cbdbc ASoC: rsnd: tidyup rsnd_ssiu_busif_err_status_clear()
+0ab000e5e57e6dcb34605fbdee92a1b0947606e0 ASoC: rsnd: tidyup rsnd_ssiu_busif_err_irq_ctrl()
+6308c44ed6eeadf65c0a7ba68d609773ed860fbb ASoC: rt5659: Fix the lost powers for the HDA header
+47c0d825b926856d86685a48c82f693f56ca3f6f ASoC: imx-rpmsg: fix platform_no_drv_owner.cocci warnings
+2f0f2b331cc9f246e5b2bded73814c3bac6ddf38 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+4269c4a0443156255c9382b5a20c6a5fe964e582 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
 
-ab053f48f9264ed5c714d0427b3115f121d4c476 5cb4e1f33e5eeadbce3814282e010d4dd31816af refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCxFC8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0IdcCACCnk2yYPOMGDD02QyzQF4aVm4h8hIQ
-/dQM5dVF30Ihxe34wc/+ovcklN4iqN+798kvXQUyH+gV8lXIhySoTmjFqV38rDim
-iNc83SUMZQYo+s1xCvahzmelRrvInfQ+f7Cvz8B+Akvaw24pQkmXGYwU17PMTh5K
-iE5bGTWyAdIC+MWBTZy1iy2Jpuvaue8WVVVOwYPPIhR63H8vrnTAuZ1eeI/rvjoJ
-VSLGbF2oXuYrkcq5sD7szfIr6eOXZ5CuLXn0iT8gOcATjl3MRnL8CgyBMvAU3gCY
-qoH1k5uQ62UgGjrBysDNSaPTqsfp0tolNQOv0pQ2gGdg/RSf0LYhkUg6
-=GppW
------END PGP SIGNATURE-----
-
---===============1669526897841576240==--
+--===============6555220630244412688==--
