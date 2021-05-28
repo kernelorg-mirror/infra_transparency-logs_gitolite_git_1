@@ -1,50 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2350812784931851638=="
+Content-Type: multipart/mixed; boundary="===============1715228432707365625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Fri, 28 May 2021 12:16:55 -0000
-Message-Id: <162220421591.5139.5257602559477514134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable
+Date: Fri, 28 May 2021 12:29:47 -0000
+Message-Id: <162220498736.13377.15261002460032770246@gitolite.kernel.org>
 
---===============2350812784931851638==
+--===============1715228432707365625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/stable/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/devel
-    old: 07d5136f9bf1fa6abe70a1f88b04c1216fbf87a2
-    new: 696beef77521d3e418a2780859d1522c3c39d9b5
+  - ref: refs/heads/linux-rolling-lts
+    old: 57d87f53597b28ba50eb9d0d7610e3cdcf5c86f3
+    new: c168bfe960836847be2760f36305563b8a5c128c
+    log: revlist-57d87f53597b-c168bfe96083.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: 9ba7b3342197fb79bc361c6100e1fb39f4c5049e
+    new: f8c6538e73e9dfefda3a16b40dc2e3943923f6c7
     log: |
-         696beef77521d3e418a2780859d1522c3c39d9b5 pinctrl: mediatek: move bit assignment
+         9accd53bd479974c434554e3446149884890623a bpf: Wrap aux data inside bpf_sanitize_info container
+         4dd2aaaddbcfd8e9f097512c745d69018f8e9801 bpf: Fix mask direction swap upon off reg sign change
+         f3ab9709b00ed389f870f6b20d323193bcf572c8 bpf: No need to simulate speculative domain for immediates
+         e325dc7acbdb4140dc7268caac1fa437e86edc51 context_tracking: Move guest exit context tracking to separate helpers
+         a4367bbe866beba3a4ba8e448181832ab21f1885 context_tracking: Move guest exit vtime accounting to separate helpers
+         a7fcb65fa1cf2a6da7264f4f61a309406f33cb9a KVM: x86: Defer vtime accounting 'til after IRQ handling
+         65234f50a90b64b335cbb9164b8a98c2a0d031dd NFC: nci: fix memory leak in nci_allocate_device
+         cfb3ea79045ad3c7bcaa0036b5a66609ccdadffe Linux 5.12.8
+         f8c6538e73e9dfefda3a16b40dc2e3943923f6c7 Merge v5.12.8
          
-  - ref: refs/heads/for-next
-    old: 9f96bd5ae866e9d061827b9eaa885f611a8afcba
-    new: 2aefadc09b35c59ee3912b66984d617ee5510a55
-    log: revlist-9f96bd5ae866-2aefadc09b35.txt
 
---===============2350812784931851638==
+--===============1715228432707365625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f96bd5ae866-2aefadc09b35.txt
+Content-Disposition: attachment; filename=revlist-57d87f53597b-c168bfe96083.txt
 
-1ca46d3e43569186bd1decfb02a6b4c4ddb4304b pinctrl/amd: Add device HID for new AMD GPIO controller
-9b882b73d37932a5ba20d7fdcbe6e3191d9582cd pinctrl: npcm: Align a few entries in the pin function table
-f56b273cd845a1139f8e37437367bca314e67b1c pinctrl: at91: Constify struct at91_pinctrl_mux_ops
-710071479cf8c6127791427561a6ba4ee916c07f dt-bindings: pinctrl: Add DT bindings for apple, pinctrl
-8b4c397d88d97d4fd9c3f3527aa66688b1a3387a dt-bindings: pinctrl: mt65xx: add mt8365 SoC binding
-9f940d8ecf921d2638b05da60eec0d25459be170 pinctrl: mediatek: don't hardcode mode encoding in common code
-e94d8b6fb83a81fa8c6595fadcada7b349e7694a pinctrl: mediatek: add support for mt8365 SoC
-89be5957e7ec300cae7af4059db69a0e1f45662d dt-bindings: pinctrl: Update enum for adding SGPM2 and SGPS2
-0b9714845935aeab6dfcfbbb796f484aa33058f9 pinctrl: pinctrl-aspeed-g6: Add sgpio pinctrl settings
-b9045af9fb26f2d81acb32a6d6f5bbfe6fb6c670 pinctrl: Fix kernel-doc
-4bc80da53317edd1c31c183203aa7d8809c42667 pinctrl: bcm2835: Accept fewer than expected IRQs
-07d5136f9bf1fa6abe70a1f88b04c1216fbf87a2 docs/pinctrl: fix the reference to the u300 platform
-696beef77521d3e418a2780859d1522c3c39d9b5 pinctrl: mediatek: move bit assignment
-2aefadc09b35c59ee3912b66984d617ee5510a55 Merge branch 'devel' into for-next
+4e2c7b297431457663a90d4186e666b61d5da86c bpf: Wrap aux data inside bpf_sanitize_info container
+c87ef240a8bbbda5913fac1e84209d224c1aaf50 bpf: Fix mask direction swap upon off reg sign change
+27acfd11ba179b746f55077edf9750f8f7cb1cb6 bpf: No need to simulate speculative domain for immediates
+5ae5e3f05831b7629cd33be0a8591905f0898599 context_tracking: Move guest exit context tracking to separate helpers
+77068304b30f553b05934224146813d3cdcaa12c context_tracking: Move guest exit vtime accounting to separate helpers
+514883ebac77ff9939da92e268b24a71c9fe4e05 KVM: x86: Defer vtime accounting 'til after IRQ handling
+53eaf28c056d99a636970b06d5f9916b52973297 perf unwind: Fix separate debug info files when using elfutils' libdw's unwinder
+8d11e6ae4304a575543e5ed4cc9a20a06d34297b perf unwind: Set userdata for all __report_module() paths
+b34cb7ac32cc8e5471dc773180ea9ae676b1a745 NFC: nci: fix memory leak in nci_allocate_device
+33069919e2dce440d3b8cd101b18f37bb35bdddf Linux 5.10.41
+c168bfe960836847be2760f36305563b8a5c128c Merge v5.10.41
 
---===============2350812784931851638==--
+--===============1715228432707365625==--
