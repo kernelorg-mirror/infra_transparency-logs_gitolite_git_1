@@ -1,27 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 28 May 2021 16:03:33 -0000
-Message-Id: <162221781393.13238.1840898884544781231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 28 May 2021 16:03:49 -0000
+Message-Id: <162221782982.13425.9523565361298967381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 2776584b8d8bab37490e589638635d7ae7e516ca
-    new: a980cd334d48d13d4ad5eb0cc1b4529fcd464886
+    old: 3efe284707451f6271583d749cee0a1245461a0f
+    new: f841c27c96c2b2bc1caba9343018fb607920a91b
     log: |
-         a980cd334d48d13d4ad5eb0cc1b4529fcd464886 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+         0ead853ce2170721a8c86bda669944ecae0d6baa Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+         f841c27c96c2b2bc1caba9343018fb607920a91b Merge remote-tracking branch 'spi/for-5.13' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 0c4fad8c45227723fa6e6d8744c6291428b3f07f
-    new: d800ec03309f224b12697750667166c5910a770d
+    old: aa946f04d384e8749e9d4e75605c9eebaa82dc66
+    new: 079ac12d5409f2c3d3e7705249d791b0c5c06ade
     log: |
-         d149b855b955fe92ab16ddd59c1d540f82e6a40f regulator: bd71815: fix platform_no_drv_owner.cocci warnings
-         a980cd334d48d13d4ad5eb0cc1b4529fcd464886 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
-         d800ec03309f224b12697750667166c5910a770d Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
+         5cb4e1f33e5eeadbce3814282e010d4dd31816af spi: Enable tracing of the SPI setup CS selection
+         0ead853ce2170721a8c86bda669944ecae0d6baa Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+         f841c27c96c2b2bc1caba9343018fb607920a91b Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+         079ac12d5409f2c3d3e7705249d791b0c5c06ade Merge remote-tracking branch 'spi/for-5.14' into spi-next
          
