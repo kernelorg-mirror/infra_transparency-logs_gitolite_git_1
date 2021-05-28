@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5110790189491389481=="
+Content-Type: multipart/mixed; boundary="===============1648011737285417934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Fri, 28 May 2021 14:12:21 -0000
-Message-Id: <162221114114.6527.4258154000221926524@gitolite.kernel.org>
+Date: Fri, 28 May 2021 14:14:19 -0000
+Message-Id: <162221125978.7214.3794371344056949753@gitolite.kernel.org>
 
---===============5110790189491389481==
+--===============1648011737285417934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6c25d3f80e00610daa93915e869c94f661079e8d
-    new: 7754d7d35d03b462109c4a93d625f0af21383312
-    log: |
-         7754d7d35d03b462109c4a93d625f0af21383312 Fix lookups for uncommitted keys
-         
+  - ref: refs/tags/v0.4.4
+    old: 0000000000000000000000000000000000000000
+    new: 7f6e0f45569597d472649aebd9aad3db2c9862bd
 
---===============5110790189491389481==
+--===============1648011737285417934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1622211140 -0400
+pusher B6C41CE35664996C! 1622211259 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1622211140-9c6a6ac50e27a37efadabcf2565d69159e27ca51
+nonce 1622211259-cf3cb5404139def5f8c1566665222e5f34119e92
 
-6c25d3f80e00610daa93915e869c94f661079e8d 7754d7d35d03b462109c4a93d625f0af21383312 refs/heads/main
+0000000000000000000000000000000000000000 7f6e0f45569597d472649aebd9aad3db2c9862bd refs/tags/v0.4.4
 -----BEGIN PGP SIGNATURE-----
 
-iHQEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYLD6RAAKCRC2xBzjVmSZ
-bNoAAP0YK9BQiA5jMo/mJblqdd11HAZHcEGxm1Rsii2+Tq9i0AD3cOARZbe7AA3t
-pmxdGkq0o+X5mbdyqDNcfZpFmvWQAg==
-=S6q9
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYLD6uwAKCRC2xBzjVmSZ
+bBiAAQDjoLDhrnR3WPwuhTAFMuw9cfDZgmqM7GNpARApQ9CUmwD9G5ffScR99CWT
+Zh1G2MItIgnwANtTk3vT9iadHTy5HwM=
+=eC7k
 -----END PGP SIGNATURE-----
 
---===============5110790189491389481==--
+--===============1648011737285417934==--
