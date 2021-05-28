@@ -1,20 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Fri, 28 May 2021 09:08:46 -0000
-Message-Id: <162219292688.13769.2504024685498659406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 28 May 2021 09:27:44 -0000
+Message-Id: <162219406417.26769.2235632935704781900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/fs.openat2.unknown_flags
-    old: 0258bc4bf690052433dbe6986e83f4f478599c47
-    new: 2e52627866c45e92e918d8a93282ece2370d7574
+  - ref: refs/heads/for-next
+    old: d955782da2901f977ef1ededba8a2764e35c1187
+    new: d360870a5bcff79bcb9633bd66bd5a63943c5e9d
     log: |
-         7573f64959bfeb3107c8ff81b2d5acf36bd051b4 open: don't silently ignore unknown O-flags in openat2()
-         2e52627866c45e92e918d8a93282ece2370d7574 test: add openat2() test for invalid upper 32 bit flag value
+         f9e5ecdfc2c2f2a87f4aa8aa3d0216016103d769 ALSA: firewire-lib: add replay target to cache sequence of packet
+         39c2649c71d87cda8af6547076ab7abec4b15b23 ALSA: firewire-lib: replay sequence of incoming packets for outgoing packets
+         2f21a177631ae969537cf4ed602293d9aac9f73e ALSA: firewire-lib: transfer rx packets on-the-fly when replaying
+         d360870a5bcff79bcb9633bd66bd5a63943c5e9d ALSA: firewire-lib: support NO_PERIOD_WAKEUP in ALSA PCM runtime
+         
+  - ref: refs/heads/master
+    old: 0da0822d6f40be94346000a0ed078864c0ddde78
+    new: 1c82c7f2e2141d9c9ae9af0df2f15bc0028fdd53
+    log: |
+         f9e5ecdfc2c2f2a87f4aa8aa3d0216016103d769 ALSA: firewire-lib: add replay target to cache sequence of packet
+         39c2649c71d87cda8af6547076ab7abec4b15b23 ALSA: firewire-lib: replay sequence of incoming packets for outgoing packets
+         2f21a177631ae969537cf4ed602293d9aac9f73e ALSA: firewire-lib: transfer rx packets on-the-fly when replaying
+         d360870a5bcff79bcb9633bd66bd5a63943c5e9d ALSA: firewire-lib: support NO_PERIOD_WAKEUP in ALSA PCM runtime
+         1c82c7f2e2141d9c9ae9af0df2f15bc0028fdd53 Merge branch 'for-next'
          
