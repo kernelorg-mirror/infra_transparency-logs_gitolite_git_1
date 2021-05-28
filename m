@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2385143689696978027=="
+Content-Type: multipart/mixed; boundary="===============1025463025121024261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 28 May 2021 22:38:36 -0000
-Message-Id: <162224151684.6921.2915635797890997425@gitolite.kernel.org>
+Date: Fri, 28 May 2021 22:39:11 -0000
+Message-Id: <162224155161.7224.14207813646963328778@gitolite.kernel.org>
 
---===============2385143689696978027==
+--===============1025463025121024261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 05f7f1b9ee8273eab805da3d5e2d064872aa75b1
-    new: ea2f0f77538c50739b9fb4de4700cee5535e1f77
-    log: revlist-05f7f1b9ee82-ea2f0f77538c.txt
+  - ref: refs/heads/for-next
+    old: 31ff791600e32cecaf273ada78f6d47f0060f09f
+    new: 0fa646eba80bcd05e7de4fd1ab5778820fb899f9
+    log: revlist-31ff791600e3-0fa646eba80b.txt
 
---===============2385143689696978027==
+--===============1025463025121024261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f7f1b9ee82-ea2f0f77538c.txt
+Content-Disposition: attachment; filename=revlist-31ff791600e3-0fa646eba80b.txt
 
 b592d66235f5f7c2191cc0348468b343c17c3977 scsi: ufs: ufs-exynos: Move definitions from .h to .c
 2a38d2a8b4a6777d37b7b8b8416b60fe0af73cd2 scsi: qedf: Use vzalloc() instead of vmalloc()/memset(0)
@@ -56,5 +56,6 @@ fe83e3b9b422ac8ece2359c7b7290efe7f0335a2 scsi: lpfc: Fix node handling for Fabri
 8eced807077d198fc264629bd2592795d270c9f1 scsi: lpfc: Reregister FPIN types if ELS_RDF is received from fabric controller
 e5e0280db792953ee7acbdbf01179d53187a6083 scsi: lpfc: Update lpfc version to 12.8.0.10
 ea2f0f77538c50739b9fb4de4700cee5535e1f77 scsi: core: Cap scsi_host cmd_per_lun at can_queue
+0fa646eba80bcd05e7de4fd1ab5778820fb899f9 Merge branch 'misc' into for-next
 
---===============2385143689696978027==--
+--===============1025463025121024261==--
