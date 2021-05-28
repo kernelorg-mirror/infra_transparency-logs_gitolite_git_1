@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 28 May 2021 11:05:55 -0000
-Message-Id: <162219995566.14442.1720220106374579963@gitolite.kernel.org>
+Date: Fri, 28 May 2021 11:07:44 -0000
+Message-Id: <162220006440.15195.16994596636826025086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,72 +12,77 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 29aeef6830deb8ce6bc7d5221f0d553d22222042
-    new: cc9bf83094b3e3af00adfc85d434dbb2beb2dd99
+    old: cc9bf83094b3e3af00adfc85d434dbb2beb2dd99
+    new: f313d2574742c340d99f42db310fb9e1d90afab6
     log: |
-         60f358e7dcd352f21a8e1b08b665c6c63017aca1 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         f3d6b78340e042d5460b70c924ca9a010cfe3162 tweewide: Fix most Shebang lines
-         47b6a6d956c449e5e2dbfda0b8aa428de23b6e2f scripts: switch explicitly to Python 3
-         a468e6a344ce2534561ff54cf6bdd04050997ad8 usb: dwc3: gadget: Enable suspend events
-         cc9bf83094b3e3af00adfc85d434dbb2beb2dd99 netfilter: x_tables: Use correct memory barriers.
+         ed780ce2224b97ebd6ecde20de1784bcb3d9ed54 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+         4a74bdd9c8bc55d25ef532fdeab7fd12ba1b6815 tweewide: Fix most Shebang lines
+         a1d8d45d984a1aeb0916eb79638c92c240517af0 scripts: switch explicitly to Python 3
+         4db35c24df34e204367d0bfaeae4860b0fce6577 usb: dwc3: gadget: Enable suspend events
+         47f8c0f7801e1d3c8490c68d96a20914269034c9 netfilter: x_tables: Use correct memory barriers.
+         f313d2574742c340d99f42db310fb9e1d90afab6 NFC: nci: fix memory leak in nci_allocate_device
          
   - ref: refs/heads/queue/4.19
-    old: 48f1190e2531b6454df78ae41234516e59f68a48
-    new: dcd7f7e74c2c5b668ac82a6082d48bd016929c9f
+    old: dcd7f7e74c2c5b668ac82a6082d48bd016929c9f
+    new: dbaf18e1dc3ec8a2864c97f67e60776400ae815a
     log: |
-         93a09843eaa908759dbe743950436fd8a9ac926f mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         dcd7f7e74c2c5b668ac82a6082d48bd016929c9f usb: dwc3: gadget: Enable suspend events
+         47dd46527a5a33bb17d3016585a3ab8423c77e6e mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+         1b5ffceb82053a1e0d40e232129780f5ae4f5f9c usb: dwc3: gadget: Enable suspend events
+         dbaf18e1dc3ec8a2864c97f67e60776400ae815a NFC: nci: fix memory leak in nci_allocate_device
          
   - ref: refs/heads/queue/4.4
-    old: 56b6bd6cb2ff2a5c6bd494b15860a4686a1af1fc
-    new: 8be1c9e52027c8937361bec7919b73e9b71b7e9f
+    old: 8be1c9e52027c8937361bec7919b73e9b71b7e9f
+    new: e0c2f305ffdd1b21bb6b3540903f486eaf743af3
     log: |
-         c29c083288baf9817a5de95231b231f6065c7145 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         78b3ed43321c36e655fdee36c2e8ceefe7197f3d netfilter: x_tables: Use correct memory barriers.
-         8be1c9e52027c8937361bec7919b73e9b71b7e9f NFC: nci: fix memory leak in nci_allocate_device
+         74f075b9627617ffa14ff20d1fbe88526a5cde65 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+         760f937756de474c03a570f06659f2a3b067a190 netfilter: x_tables: Use correct memory barriers.
+         e0c2f305ffdd1b21bb6b3540903f486eaf743af3 NFC: nci: fix memory leak in nci_allocate_device
          
   - ref: refs/heads/queue/4.9
-    old: 2103321d51018879cb7dea3f2bd35f2276b65c32
-    new: faca6737bb6b5948eb1fd22afac5f61d515e06a1
+    old: faca6737bb6b5948eb1fd22afac5f61d515e06a1
+    new: 6776736a7e0b789e306ff0ae0ecbbb4ba1302cd3
     log: |
-         0998f5f5f50351865bb767521aed218c2ade5572 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         4d914dccee0b5214bbdd0274e28ad83586ed63cf tweewide: Fix most Shebang lines
-         82bc4d3e522cf65c618ab4f5d31f60039ceb2774 scripts: switch explicitly to Python 3
-         e69f6e5a85b3dea50e64ec1c9391d6affa5747fe netfilter: x_tables: Use correct memory barriers.
-         faca6737bb6b5948eb1fd22afac5f61d515e06a1 NFC: nci: fix memory leak in nci_allocate_device
+         1f1954d15ca59450a9d1b9a23a2a75d87ad37080 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+         079874851593cde738b0872b1a150cd9b186dfb6 tweewide: Fix most Shebang lines
+         f52e1fead326729d120d64e1c7cdacd523fe59d3 scripts: switch explicitly to Python 3
+         9a892ff92f22a23991d90e13ad1f9d4c2410aa9d netfilter: x_tables: Use correct memory barriers.
+         6776736a7e0b789e306ff0ae0ecbbb4ba1302cd3 NFC: nci: fix memory leak in nci_allocate_device
          
   - ref: refs/heads/queue/5.10
-    old: 1b534e285a7efcb69f99f199d47c4592d75c72ee
-    new: b0d7164ab3537af3574123585f960ebe9e97f023
+    old: b0d7164ab3537af3574123585f960ebe9e97f023
+    new: 9edf12715b0a76237cb8362baf27ff99fa1a3515
     log: |
-         c22aca968a5db5087e32b80e2310a4b5f1cc0e01 bpf: Wrap aux data inside bpf_sanitize_info container
-         c287df58b731d549b04cfa3d26292a4562c614fb bpf: Fix mask direction swap upon off reg sign change
-         ad0b3edac9408e1f30e11c46e4caa580ee32369b bpf: No need to simulate speculative domain for immediates
-         ec60e5f6e527feed55b15cb651ef82a84b815795 context_tracking: Move guest exit context tracking to separate helpers
-         dea694a131d82868fda8edb3f417e0a017460c9c context_tracking: Move guest exit vtime accounting to separate helpers
-         ca883f22b0ec2dc787cc2d471ce3ace8e6073380 KVM: x86: Defer vtime accounting 'til after IRQ handling
-         086a90d76cabcb3362ad344961f082b3c232be23 perf unwind: Fix separate debug info files when using elfutils' libdw's unwinder
-         b0d7164ab3537af3574123585f960ebe9e97f023 perf unwind: Set userdata for all __report_module() paths
+         09ba3e0d1580fe063327977016e38de3d725c69b bpf: Wrap aux data inside bpf_sanitize_info container
+         275aac49a96d1121cbf88ce1c6f6cd399fd5b432 bpf: Fix mask direction swap upon off reg sign change
+         6037500c4ec3d06c735f679a49fa659c91d45bbe bpf: No need to simulate speculative domain for immediates
+         b571eada53dd0c4fd36864c6fb65d03ef3cc2f21 context_tracking: Move guest exit context tracking to separate helpers
+         f8d81d89a0e6b1d45ac49880ad7e2c25478208ef context_tracking: Move guest exit vtime accounting to separate helpers
+         f67c6a270053d9dcc1b055215bcf9bc8c232aece KVM: x86: Defer vtime accounting 'til after IRQ handling
+         648ccbe86703e5cb796c621563d511790d050d06 perf unwind: Fix separate debug info files when using elfutils' libdw's unwinder
+         dafc9705fcaee34b35c456ba4ffa54ea8c6fecaf perf unwind: Set userdata for all __report_module() paths
+         9edf12715b0a76237cb8362baf27ff99fa1a3515 NFC: nci: fix memory leak in nci_allocate_device
          
   - ref: refs/heads/queue/5.12
-    old: 71f64ab23af61ed1cd2da78156f217839c13caef
-    new: e0904d1691e25b1188b51ab3a62638d0c559c8dd
+    old: e0904d1691e25b1188b51ab3a62638d0c559c8dd
+    new: 0dbab47e4b3cbaa470b6e36bf8b8d54327344f0e
     log: |
-         375685bc53d66facff1e451dfd950f904b67b2f2 bpf: Wrap aux data inside bpf_sanitize_info container
-         71a20bd9768887bbc8b077b0687ecffb6392072e bpf: Fix mask direction swap upon off reg sign change
-         e3751aaf32ecf4de1d50ff40f27c4a980fa3da2b bpf: No need to simulate speculative domain for immediates
-         3dde38c2201e4fd7c5e792e5c66430e52dcf9309 context_tracking: Move guest exit context tracking to separate helpers
-         18517ae2f86690841468cc869f8ec35265499f9b context_tracking: Move guest exit vtime accounting to separate helpers
-         e0904d1691e25b1188b51ab3a62638d0c559c8dd KVM: x86: Defer vtime accounting 'til after IRQ handling
+         eed2461c3b5c5139acd6d2a485f5ec306d01dcb8 bpf: Wrap aux data inside bpf_sanitize_info container
+         3a4a7de2dccc4682f6670d33c42ec5d6c2d0b99e bpf: Fix mask direction swap upon off reg sign change
+         aae9ae7126d1fc5e0dff7390101ff48469cb75dd bpf: No need to simulate speculative domain for immediates
+         d660526273d90d2779d529a9404190b48fac7260 context_tracking: Move guest exit context tracking to separate helpers
+         4e1bf8dc5f0f9592b4ce60ea0ac92ed84dca0e0b context_tracking: Move guest exit vtime accounting to separate helpers
+         e4a698e87df9aab5b0a3ce61ac166d903fc32fe5 KVM: x86: Defer vtime accounting 'til after IRQ handling
+         0dbab47e4b3cbaa470b6e36bf8b8d54327344f0e NFC: nci: fix memory leak in nci_allocate_device
          
   - ref: refs/heads/queue/5.4
-    old: 26e200440e10bf467fd111f21218a7450a26e335
-    new: 0fae24feeac13525c525c743444645b586f7ea18
+    old: 0fae24feeac13525c525c743444645b586f7ea18
+    new: ab5149c31b57e7c079b1bb12b084e899927ab5b7
     log: |
-         1172509f691ec1460df7ee30681297a6670498be bpf: Wrap aux data inside bpf_sanitize_info container
-         9e616b023b948f73a76bccdac6986e0fc3cbead4 bpf: Fix mask direction swap upon off reg sign change
-         1fd1a4e58431d1ba38cae3f0e2e69f39d2d08152 bpf: No need to simulate speculative domain for immediates
-         45376f75a1aca756ed42a5015a964f375559b86e usb: dwc3: gadget: Enable suspend events
-         04724b9cab4eb1a71d2d242ffba3615584526600 perf unwind: Fix separate debug info files when using elfutils' libdw's unwinder
-         0fae24feeac13525c525c743444645b586f7ea18 perf unwind: Set userdata for all __report_module() paths
+         b036e11d9f691dda8c0f0e831a51510c647e0e6b bpf: Wrap aux data inside bpf_sanitize_info container
+         69f59f75adbb281477998d0e336ba2bc6110f103 bpf: Fix mask direction swap upon off reg sign change
+         98fb4a31e84feeda22aaa2476eda8efe7b12f6df bpf: No need to simulate speculative domain for immediates
+         8d8c9c7477f1bc4582dc139ebd921cbfc3ca92f3 usb: dwc3: gadget: Enable suspend events
+         2eaf5ba9f30eef651d8ef81994e4957d83f09f38 perf unwind: Fix separate debug info files when using elfutils' libdw's unwinder
+         320b44b0273ad9da0f0c3b25dca6e3881d77860d perf unwind: Set userdata for all __report_module() paths
+         ab5149c31b57e7c079b1bb12b084e899927ab5b7 NFC: nci: fix memory leak in nci_allocate_device
          
