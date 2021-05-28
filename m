@@ -1,50 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6092811635679444264=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
-Date: Fri, 28 May 2021 10:14:43 -0000
-Message-Id: <162219688361.11774.10040409343374463462@gitolite.kernel.org>
-
---===============6092811635679444264==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Fri, 28 May 2021 10:22:21 -0000
+Message-Id: <162219734106.18377.11640336446857797498@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/balbi/usb
-user: balbi
-git_push_cert_status: E
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/surface-duo
-    old: e2f561f086973425097b5717d361b4fac4c5293e
-    new: 484471eef30dd2c0f432ffc2bae4b09320da72ac
+  - ref: refs/heads/master
+    old: b7a07efdcf386b44f5499b0195b3a42e15048784
+    new: f1d624b6c850dce182cca877cf73750e215fec70
     log: |
-         484471eef30dd2c0f432ffc2bae4b09320da72ac arm64: dts: qcom: add initial device-tree for Microsoft Surface Duo
+         d02c809bc7e8a01c479ac14b0f67359baf8ddc32 po: update cs.po (from translationproject.org)
+         f82d3ee51afc27b9dd1812e4657ca3f0dae923b2 po: update de.po (from translationproject.org)
+         5784692218c43c89fa9b73d62235067e9e3686c4 po: update fr.po (from translationproject.org)
+         51f5f71ee0437fed7a67aa9e28d46a153d90c6e5 po: update ja.po (from translationproject.org)
+         0ae5240f55e7a86a84b43e9b202f268748bc9fd0 po: update pl.po (from translationproject.org)
+         0ec7027d835cb53577bc81740ce57b6671121d12 po: update ru.po (from translationproject.org)
+         3f268c3052fb58c5578c2d48a20afa385424c031 po: update uk.po (from translationproject.org)
+         f1d624b6c850dce182cca877cf73750e215fec70 Add 2.3.6 release notes.
          
-
---===============6092811635679444264==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x35CAA444 1622196873 +0300
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/balbi/usb.git
-nonce 1622196872-a9294aa9a18c0e9fede64881c9dee893ecd3c9ba
-
-e2f561f086973425097b5717d361b4fac4c5293e 484471eef30dd2c0f432ffc2bae4b09320da72ac refs/heads/surface-duo
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEE9DumQ60WEZ09LIErzlfNM9wDzUgFAmCwwokACgkQzlfNM9wD
-zUj4uggAn+7rxLa2GK2HBnVwAWAgTLYWsvyy7ynQXSUvbRYhVBLe/TQLMmkNtPXv
-5KY3BXWlaAbm2dmUTFhxyrT4gQs64qIAE3M9Lf3g994OBfIj0GXZsI2kx3sFjrgK
-hmdhfsfBpHbgp7rPQ1KH7D+3dcSHEyj/7J6WA9Vu8UkW0hRN3Kjd2nKw//HfC044
-GUJP97ELJAHf+ftLj3+WfbjL6+gd94uhxRT2PNPEhF189JSS+k+z5w5Jdfh1DkDl
-+6o68mro9hFeSaAGCK4JModuWE20mYry+oQoHZzHqwnqQLRriQUkLRqBG2klXi4n
-7odLKAxMjBfAo+ehoRCq8tS15o8Kjw==
-=VInT
------END PGP SIGNATURE-----
-
---===============6092811635679444264==--
+  - ref: refs/heads/v2.3.x
+    old: ac9a2c08e33fcdc149f21624ee84a72d2b3761e4
+    new: f95336e116d7f282e0d543db70017f3b2a7bae7f
+    log: |
+         f7fabbe14179e9f6826bcc360fb463d6cf231d69 po: update cs.po (from translationproject.org)
+         a7f3065f6fde7f7d87f8779e66617f0def27a782 po: update de.po (from translationproject.org)
+         7012d031b6e3a2eb9522ba1c12c815574928ee49 po: update fr.po (from translationproject.org)
+         fbea879d1ea61c89f9a168c08d5f51687a3d3669 po: update ja.po (from translationproject.org)
+         44aac4e5a3a6f42c652613a0e9243fdf6a16dc8f po: update pl.po (from translationproject.org)
+         5fd96b75d3c70c0f8859a5126873dc31f0f994cd po: update ru.po (from translationproject.org)
+         3753614517f339d9478ca11cc08e2fdac6a57bd5 po: update uk.po (from translationproject.org)
+         f95336e116d7f282e0d543db70017f3b2a7bae7f Prepare version 2.3.6.
+         
+  - ref: refs/tags/v2.3.6
+    old: 0000000000000000000000000000000000000000
+    new: c02fc890f8d2053e349e10870026297f32c63443
