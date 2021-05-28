@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8630832854662451117=="
+Content-Type: multipart/mixed; boundary="===============3171828032829724859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 28 May 2021 16:02:19 -0000
-Message-Id: <162221773994.12224.345220305820395554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 28 May 2021 16:02:27 -0000
+Message-Id: <162221774734.12328.1464837650336075360@gitolite.kernel.org>
 
---===============8630832854662451117==
+--===============3171828032829724859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 41daf6ba594d55f201c50280ebcd430590441da1
     new: 6308c44ed6eeadf65c0a7ba68d609773ed860fbb
     log: |
          6308c44ed6eeadf65c0a7ba68d609773ed860fbb ASoC: rt5659: Fix the lost powers for the HDA header
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 058efb40641845432c52777443b3372dbc97c032
     new: 47c0d825b926856d86685a48c82f693f56ca3f6f
     log: revlist-058efb406418-47c0d825b926.txt
 
---===============8630832854662451117==
+--===============3171828032829724859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1622217737 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1622217736-bcfb21399e201a657cd8ca750c5d0a668762a7a1
+pusher Mark Brown <broonie@kernel.org> 1622217745 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1622217744-4b3e4836413d3c26587add528b24b9f35f580e61
 
-41daf6ba594d55f201c50280ebcd430590441da1 6308c44ed6eeadf65c0a7ba68d609773ed860fbb refs/heads/for-5.13
-058efb40641845432c52777443b3372dbc97c032 47c0d825b926856d86685a48c82f693f56ca3f6f refs/heads/for-5.14
+41daf6ba594d55f201c50280ebcd430590441da1 6308c44ed6eeadf65c0a7ba68d609773ed860fbb refs/heads/asoc-5.13
+058efb40641845432c52777443b3372dbc97c032 47c0d825b926856d86685a48c82f693f56ca3f6f refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCxFAkTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LmuB/9NpgV3qb3qNVqonzWe2tIIpksvcnCg
-R+n3LM5SNBX6tYUkRRwudtHfLpcbmzCeWjojHC3GVuUvE+C6PaJmBVH0pzaWSkKI
-CjrEG6xzrmuGi9Umvfnkj1vPWpNEjmn7vd3bs6rejl807mZL4QmjcEgB2I7LWWJG
-gwW0IRmt8AyC9Y7LWBUoUpigCX4lmTEGQLlxZYSqCIs8L48vLqMtKFW8BV9DqFnW
-qOAH05v4XXaCargDl67CnwiuVbVyFt7QoyarI48UNIEXOOhnh7G5UsXM/fIRLB1S
-iPQXYsG2E+/f9sXKH3e0ZZ8MnYYrMDnMWY+vJ9Kf2q5yqQR+E2EzJjQi
-=k7wn
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCxFBETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0GJTB/0RIlLqCrA5LpyInzokDiyH+RBIFV77
+K8hKhWDIdDfi88NhqsCMtWFvAyTM//h0loiD1CN1fCZQb0WFiPhj0IU5Ou6KJfCZ
+W4zQW44Knd6dGwWr1vc469FgDsEZn3ZI1F7rj+ZNBhEmDAiN2EzJrty67uMAlINJ
+HhHPcHe8PG0kPsEzBf0nAIoqdpDQFd7u2BIyNi1arIA10LxAr0SCOELLkJJXIOs+
+v8xLQRLbKrM2BHphkOlzdplNYJb2Ak3svszQIZrmYjS6HjAomNBgMTSz2HE1DBL1
++hCfZzgxO5/tepNSMFjbDe/c0ZNzL74GHmXtnaqezJXUW8wsYzu4a45w
+=PJTQ
 -----END PGP SIGNATURE-----
 
---===============8630832854662451117==
+--===============3171828032829724859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ cfb7b8bf1e2d660583dd91d870cec2f6728cbdbc ASoC: rsnd: tidyup rsnd_ssiu_busif_err_
 0ab000e5e57e6dcb34605fbdee92a1b0947606e0 ASoC: rsnd: tidyup rsnd_ssiu_busif_err_irq_ctrl()
 47c0d825b926856d86685a48c82f693f56ca3f6f ASoC: imx-rpmsg: fix platform_no_drv_owner.cocci warnings
 
---===============8630832854662451117==--
+--===============3171828032829724859==--
