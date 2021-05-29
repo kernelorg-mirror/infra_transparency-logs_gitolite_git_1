@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Sat, 29 May 2021 20:16:29 -0000
-Message-Id: <162231938907.6517.5399419413528816769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 29 May 2021 20:34:11 -0000
+Message-Id: <162232045129.17479.1889234634050087987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 62cd0c1853667efb2b929682dcefe4cbf00502a4
-    new: 897389de48283d413728dae7520973872cef8eb2
-    log: |
-         897389de48283d413728dae7520973872cef8eb2 netfilter: nf_tables: remove xt_action_param from nft_pktinfo
-         
+  - ref: refs/heads/riscv-wx-mappings
+    old: 0000000000000000000000000000000000000000
+    new: 345f7d3d5e5850138d5b18039036fa4df5a74770
