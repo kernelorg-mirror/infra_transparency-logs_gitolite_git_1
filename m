@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 29 May 2021 20:37:14 -0000
-Message-Id: <162232063423.19944.14433470777679730147@gitolite.kernel.org>
+Date: Sat, 29 May 2021 20:56:18 -0000
+Message-Id: <162232177847.309.4543295726944214246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: ec3a5cb61146c91f0f7dcec8b7e7157a4879a9ee
-    new: ede6ed4a10ba1de598cf1f9bf0c05c824089d31d
+  - ref: refs/heads/for-next
+    old: 8c9f4940c27dd72ee68ca5af2922e4d83ca9121b
+    new: 010623568222bd144eb73aa9f3b46c79b63d7676
     log: |
-         345f7d3d5e5850138d5b18039036fa4df5a74770 riscv: mm: Fix W+X mappings at boot
-         ede6ed4a10ba1de598cf1f9bf0c05c824089d31d Merge remote-tracking branch 'riscv/riscv-wx-mappings' into fixes
+         3df952ae2ac81fbc5d44b014e5462b53d1decbb5 riscv: Add __init section marker to some functions again
+         010623568222bd144eb73aa9f3b46c79b63d7676 riscv: mm: init: Consolidate vars, functions
          
