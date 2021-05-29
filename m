@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 29 May 2021 16:32:24 -0000
-Message-Id: <162230594452.25566.2216635325468941371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 29 May 2021 16:43:12 -0000
+Message-Id: <162230659255.31649.12198954705363465707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/tags/riscv-for-linus-5.13-rc4
+  - ref: refs/heads/dts-fixes-for-5.13
     old: 0000000000000000000000000000000000000000
-    new: de8ece6f88d7fefa3faa42f7451002aad355c956
+    new: 0fa1baeedf06765ec6b441692ba2a2e83b7d17dc
