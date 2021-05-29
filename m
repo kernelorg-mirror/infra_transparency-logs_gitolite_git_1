@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4667321967508186186=="
+Content-Type: multipart/mixed; boundary="===============4348344039877144404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 29 May 2021 18:22:45 -0000
-Message-Id: <162231256556.32297.14130057742617951761@gitolite.kernel.org>
+Date: Sat, 29 May 2021 18:24:58 -0000
+Message-Id: <162231269860.740.15344456969960691412@gitolite.kernel.org>
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,284 +16,289 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: c145f90c603a3f7fca50ccad8fe81315642de426
-    new: 2034b7e03f46fba7097890092ea204f15af23a46
-    log: revlist-c145f90c603a-2034b7e03f46.txt
+    old: 2034b7e03f46fba7097890092ea204f15af23a46
+    new: 9eedca7b03b6afae8b3eaf753596d4a713af6537
+    log: revlist-2034b7e03f46-9eedca7b03b6.txt
   - ref: refs/heads/queue/4.19
-    old: 123bb65a38b2a87e60acc432ecf79da081a38aab
-    new: f6355c18bc1d54208e07324466284a4fa72d6b8d
-    log: revlist-123bb65a38b2-f6355c18bc1d.txt
+    old: f6355c18bc1d54208e07324466284a4fa72d6b8d
+    new: 85151c3abdc56267d76037a2c01d106528d6d32e
+    log: revlist-f6355c18bc1d-85151c3abdc5.txt
   - ref: refs/heads/queue/4.4
-    old: 4e1581ff73bd1e74059fec1db9778bc5d2445079
-    new: d6cb73e8d2f6ff9dba1346f990c3fca86adc70b6
+    old: d6cb73e8d2f6ff9dba1346f990c3fca86adc70b6
+    new: 199ccd881cf3fe27615163c65fb9b7f0777db630
     log: |
-         cdb287c87ebce640b68f547b62dda54ad9f654a5 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-         e40e884735b49f61e526571b28e6da1d270ff6c4 netfilter: x_tables: Use correct memory barriers.
-         dced71734f2684018dbc8a7adee3f15dc0f5a8d5 NFC: nci: fix memory leak in nci_allocate_device
-         bcb77692b42999e9bf81c6eaf251f0be42fcd35a proc: Check /proc/$pid/attr/ writes against file opener
-         8ab53cb4d156f62fa596493e37abc0fe48a2e386 net: hso: fix control-request directions
-         2e67ecb5c323ca4184d6ccc8778a50ad511f39b0 mac80211: assure all fragments are encrypted
-         07be2ecab625cffb9cc4e28c914b92a28dcc398c mac80211: prevent mixed key and fragment cache attacks
-         77bbea2a32e6de938d48da26eb517c3c87d0bead dm snapshot: properly fix a crash when an origin has no snapshots
-         d6cb73e8d2f6ff9dba1346f990c3fca86adc70b6 kgdb: fix gcc-11 warnings harder
+         1dd81682147e8aec96f413baf8a7dcf2c68459be mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+         21d7d8a9528e3fe554038d2675cb663712573f84 netfilter: x_tables: Use correct memory barriers.
+         eed2879b03cac19abfb627690ee5d503bd68c5a2 NFC: nci: fix memory leak in nci_allocate_device
+         2d89ebf90f8a21931ecc8bfa2596753612c35030 proc: Check /proc/$pid/attr/ writes against file opener
+         0ceded0c298b0dfcac2897727e63dca82b6803a2 net: hso: fix control-request directions
+         e5f841ba7d47de811ebb7925e220bc0e2ab9ecdd mac80211: assure all fragments are encrypted
+         48733d5873e917105c74b490f5a32c1b9de05acd mac80211: prevent mixed key and fragment cache attacks
+         5ce63d2e638c3aeeddafd716e76d35de230fd617 dm snapshot: properly fix a crash when an origin has no snapshots
+         199ccd881cf3fe27615163c65fb9b7f0777db630 kgdb: fix gcc-11 warnings harder
          
   - ref: refs/heads/queue/4.9
-    old: e5df29b44583d17a8262cc5c32fe9a7a47acef14
-    new: 76c9ed2ae7a1434c27c0d85e31136f74c0c4e964
-    log: revlist-e5df29b44583-76c9ed2ae7a1.txt
+    old: 76c9ed2ae7a1434c27c0d85e31136f74c0c4e964
+    new: fdfb8fa65674aff65ada8c13454a8002c8813571
+    log: revlist-76c9ed2ae7a1-fdfb8fa65674.txt
   - ref: refs/heads/queue/5.10
-    old: db37b08608f7db3ccdad307ba1f574697a72e969
-    new: 00a81e68885f982182cdcf81d075527aa6493220
-    log: revlist-db37b08608f7-00a81e68885f.txt
+    old: 00a81e68885f982182cdcf81d075527aa6493220
+    new: f524487677465cf5755e4b6777ffe312e0317a2c
+    log: revlist-00a81e68885f-f52448767746.txt
   - ref: refs/heads/queue/5.12
-    old: 0c053f223af4a07272c304928d77cc5128146532
-    new: ad10bbf28fcea88e6ad647895e92560b7f7fbb1c
-    log: revlist-0c053f223af4-ad10bbf28fce.txt
+    old: ad10bbf28fcea88e6ad647895e92560b7f7fbb1c
+    new: d4f1b01eb53c20ea927bb62fa0d48d6641f387fb
+    log: revlist-ad10bbf28fce-d4f1b01eb53c.txt
   - ref: refs/heads/queue/5.4
-    old: 4f993f074caff6269caac60f08b9a2c1b4174319
-    new: 5222fbb67823e3aabcb565bae0026b0620bce185
-    log: revlist-4f993f074caf-5222fbb67823.txt
+    old: 5222fbb67823e3aabcb565bae0026b0620bce185
+    new: 589476275c7f9730354f54d295ac2e2e6bc8afaa
+    log: revlist-5222fbb67823-589476275c7f.txt
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c145f90c603a-2034b7e03f46.txt
+Content-Disposition: attachment; filename=revlist-2034b7e03f46-9eedca7b03b6.txt
 
-e88262b0051b9c419414c4b3a869c9e5b8921e24 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-6652b5986f3e8516960ba8ceabea6239eef7cc7b tweewide: Fix most Shebang lines
-392d0ecdafb0010f8ee76ac0dfab42798d6cfe6c scripts: switch explicitly to Python 3
-620c0be345e744a3188d57b56bcda6ad950945e4 usb: dwc3: gadget: Enable suspend events
-0c2555bb3906e0d526f24326539c25fd4409825e netfilter: x_tables: Use correct memory barriers.
-a5d3c473fd50c86eb53ae6b9a1e0e50b8074b8ed NFC: nci: fix memory leak in nci_allocate_device
-0e204bb3f799a4e226ecdfb1baf8c0885de20b09 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-cdb03da208df1fa4b32ad96fc2c29b8ada9c21fc iommu/vt-d: Fix sysfs leak in alloc_iommu()
-9f7e8a3af6695230f839cf8eab7e14a9e30631e4 perf intel-pt: Fix sample instruction bytes
-a10b033b2e553884a41e40c7229cf9fea5cb244f perf intel-pt: Fix transaction abort handling
-b5913393456c26597c5c815b1d891ff019ff23da proc: Check /proc/$pid/attr/ writes against file opener
-e6fed040643328eb140b9f3a215c64158b4151ae net: hso: fix control-request directions
-0f5a54234b9a772fe5bc1877d8d8416fea9428c1 mac80211: assure all fragments are encrypted
-3c3060dfb5431a5cb865339ed525aec77eb2a2dd mac80211: prevent mixed key and fragment cache attacks
-8e2d05c4582e5f65badfddf8cab1a2c0607a5620 cfg80211: mitigate A-MSDU aggregation attacks
-cc4189543c92a838a1866ebe8a5157c389c3c2cb mac80211: check defrag PN against current frame
-30f6be2d8905a3d978118b5ea91faf8140e32608 ath10k: Validate first subframe of A-MSDU before processing the list
-2034b7e03f46fba7097890092ea204f15af23a46 dm snapshot: properly fix a crash when an origin has no snapshots
+2ca8ca44a3ebdd52c6804e540e2c76bf92f9af9a mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+40f0eeb502e8a9b04d23b1f09ab6c18341839b3a tweewide: Fix most Shebang lines
+401803f170ab28f62bb966439039314c1867b744 scripts: switch explicitly to Python 3
+af2ebea5666888780432573107a1a9563a3c5ee5 usb: dwc3: gadget: Enable suspend events
+c93bf64f2e7048b34fad2b642c300d05ca8a3e42 netfilter: x_tables: Use correct memory barriers.
+57a126181e0bdef46079f7156dfe0f4a02f0109a NFC: nci: fix memory leak in nci_allocate_device
+c6a7faa3ef8253933a1c61cf475ed48d28e22cee NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+b2cbed0da2861b1e3e8e50317a9cdd447b57bd1a iommu/vt-d: Fix sysfs leak in alloc_iommu()
+e79be51123ca3638ceac2592153467964c1588e7 perf intel-pt: Fix sample instruction bytes
+7771a298b77ad6088aa4a3c2bb4ff813832a52a2 perf intel-pt: Fix transaction abort handling
+f6aab34871c6eb9e96b7b02d7326fa14a727f738 proc: Check /proc/$pid/attr/ writes against file opener
+4048793e27d10ad202096652ccbcd3ede2e61bdf net: hso: fix control-request directions
+b94aef5acb6af014a94e02a9926dba64d13036ff mac80211: assure all fragments are encrypted
+6fd85fa2d074be5c8c5ed3dc818c66585c5e6b76 mac80211: prevent mixed key and fragment cache attacks
+3e5e354cc87be951ab7a972f7801f5296473ce0b cfg80211: mitigate A-MSDU aggregation attacks
+0994bee6238b01efe103a4156875ad0881b6fe33 mac80211: check defrag PN against current frame
+e73925e20f787222d1f7c683f19046eaacb119fe ath10k: Validate first subframe of A-MSDU before processing the list
+5cbaa49968bfec2f2e8e5a21947e95b606899835 dm snapshot: properly fix a crash when an origin has no snapshots
+9eedca7b03b6afae8b3eaf753596d4a713af6537 kgdb: fix gcc-11 warnings harder
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-123bb65a38b2-f6355c18bc1d.txt
+Content-Disposition: attachment; filename=revlist-f6355c18bc1d-85151c3abdc5.txt
 
-ecb1101688ecc2baf22768b16f2e35281a2f1134 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-ed2c56989a26ba4c55c5b272557e6af55db6f261 usb: dwc3: gadget: Enable suspend events
-7027d495fb8fede2967abc4f67d790ab466c6f3a NFC: nci: fix memory leak in nci_allocate_device
-38bd4013536cd7ed78031cfe058abdc89d2466a9 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-112aca7ae9c19c74c67bc8c5fd087f888f1f11ff NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-03503e993de7a33e02bb174517191c2d424aaead iommu/vt-d: Fix sysfs leak in alloc_iommu()
-fdb5ec1f013d1f6f437ea8af00431921af6ca028 perf intel-pt: Fix sample instruction bytes
-fd8042eb604dde0453ff85eda6a46f5207a80265 perf intel-pt: Fix transaction abort handling
-655c20a1b20c5d5614b5d6014b3554ddd4012259 proc: Check /proc/$pid/attr/ writes against file opener
-427578c968cab38b60096e4418ed1f2b4397d05b net: hso: fix control-request directions
-3a9af808727e26e69a878e9cc7f74ce0b94ec489 mac80211: assure all fragments are encrypted
-0d62a01055f6dcb88baedb67f9c0b22c9fdf068b mac80211: prevent mixed key and fragment cache attacks
-5282ac70da40c9dbc65d24150622cc2304e6665d mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-6ed5934e445d3cbcedc4a0e759324b819c286344 cfg80211: mitigate A-MSDU aggregation attacks
-bf916a624635589e686bceaa4893d2b66937aefc mac80211: drop A-MSDUs on old ciphers
-a056b8080b6f214bde7e6162a6311c49e67e8f8b mac80211: add fragment cache to sta_info
-b98c4cbcea2822ec2b715dc82f890b4ce7394afe mac80211: check defrag PN against current frame
-b4e3a268df4197c08f64c98af10bb2ab5c738378 mac80211: prevent attacks on TKIP/WEP as well
-7143a8f04f640bd53fd9e6ab52e9dc1b3571a5de mac80211: do not accept/forward invalid EAPOL frames
-8c7e2919548f7a15e05e5bfb315074f8b0da792f mac80211: extend protection against mixed key and fragment cache attacks
-c5ad366faa22c1867d15507c40ac0bbbb8b97f02 ath10k: Validate first subframe of A-MSDU before processing the list
-f6355c18bc1d54208e07324466284a4fa72d6b8d dm snapshot: properly fix a crash when an origin has no snapshots
+6b6eed3e88267b57f73315f0e68df01d5769e852 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+5c1b0ac38b3f30a1e6160f56f3b6c1772db4e34f usb: dwc3: gadget: Enable suspend events
+cae858979a727ac30f104d6d47506504a00e107a NFC: nci: fix memory leak in nci_allocate_device
+33509195c0409a648a0fad34881825e0b7a4e2cf cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+ff8d36dc739faac648cf9d22580ce99f14fdb6ce NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+33bed70528261d9d3fecfa94ebcffb8d2762e8f7 iommu/vt-d: Fix sysfs leak in alloc_iommu()
+816168048e79faf3fe7f897f677f6a5fe5e2b879 perf intel-pt: Fix sample instruction bytes
+d1ebf130da8da327610de6f7e716d3efe130ac93 perf intel-pt: Fix transaction abort handling
+5382cc665596e2150577417d3d9500fa68e170f3 proc: Check /proc/$pid/attr/ writes against file opener
+a31b5e336d0e8253fbe580597bfe5fe885d0f745 net: hso: fix control-request directions
+6897d3fa574a9f227e19ec996793ac5f39888d00 mac80211: assure all fragments are encrypted
+648d1bfe4cf6bbb299959aa9fbf0da4c76ab8752 mac80211: prevent mixed key and fragment cache attacks
+264b4f4097608f3eeddbdf82f62efe4a8691d8a2 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+83629e326d390b94ea7a8c002b5600d3a237a180 cfg80211: mitigate A-MSDU aggregation attacks
+c0fb7ebfbc22fd479fa92f9b0d8a3258121728b9 mac80211: drop A-MSDUs on old ciphers
+578f7ce23a5d52848a3166606dfa0113e1f007cd mac80211: add fragment cache to sta_info
+3a9e15d3d8efd06b0bfb9c94ba5f0ee605a5a51c mac80211: check defrag PN against current frame
+aa412db0352e025c4eb7e24e8e49c70307a39c76 mac80211: prevent attacks on TKIP/WEP as well
+41e2c239a72a186d04206104805f2046affabc34 mac80211: do not accept/forward invalid EAPOL frames
+c339a4ea359fe6ee77652905d88046a262e60d72 mac80211: extend protection against mixed key and fragment cache attacks
+d6ce6baac89dda6ceb316cad341db3e5aef33c36 ath10k: Validate first subframe of A-MSDU before processing the list
+29733e7fe31b6ff66d022320806dcff825dd192c dm snapshot: properly fix a crash when an origin has no snapshots
+85151c3abdc56267d76037a2c01d106528d6d32e kgdb: fix gcc-11 warnings harder
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5df29b44583-76c9ed2ae7a1.txt
+Content-Disposition: attachment; filename=revlist-76c9ed2ae7a1-fdfb8fa65674.txt
 
-f4d1c23ca1251cc977857252e66a1241a9ff3fc2 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-afecca7c72cc693707c6c81306c95f59f6a87533 tweewide: Fix most Shebang lines
-cc028a81666c84e4a1de9a0c84834f49feb1023b scripts: switch explicitly to Python 3
-f2e34a924eb553d5fe468bca3904c88641ef2b9e netfilter: x_tables: Use correct memory barriers.
-409077321e7bfac6eed278afa40e0d502e325055 NFC: nci: fix memory leak in nci_allocate_device
-002be6a364da88ab501ffb0897e8f9f2cb938a6f NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-b83365bc88f84a0113bdb08cc05049c5662ad92c proc: Check /proc/$pid/attr/ writes against file opener
-9390509d7535b742c7123dae058f425723bbbd0d net: hso: fix control-request directions
-97b7a9d6ddda62bfcb23d8b4bd2c89416938b819 mac80211: assure all fragments are encrypted
-6887fb6c83f0fa73d2f9711d859c8cf08bcbddb2 mac80211: prevent mixed key and fragment cache attacks
-82eba30d91c9c1a20ebec20fdde93b8d2d5b8e38 cfg80211: mitigate A-MSDU aggregation attacks
-ee8c4977fbaabef07ef0d35766d3219fb1b2eea7 mac80211: check defrag PN against current frame
-1200fc9fec27ee5fa4452b9c57c38d4c71604579 ath10k: Validate first subframe of A-MSDU before processing the list
-cac54bae60e95c5a5b63afb18de19fe20a401576 dm snapshot: properly fix a crash when an origin has no snapshots
-76c9ed2ae7a1434c27c0d85e31136f74c0c4e964 kgdb: fix gcc-11 warnings harder
+3eb8cdda821975202a9c2a2fc4480424ffca4d68 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+438156474b6a6aa793138479986edbe1368c5f94 tweewide: Fix most Shebang lines
+38d9405f2ac77205292b86b228c7a7f49c8e1973 scripts: switch explicitly to Python 3
+8ebc1a751d2db4c941067ed98d3e6f055b702c1d netfilter: x_tables: Use correct memory barriers.
+5ba0c4f34792d6f53113fed7f7937280ac648b92 NFC: nci: fix memory leak in nci_allocate_device
+101bd212d6dfbe9aecfd144ff86f771155695ab3 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+937b1eda8a4976b454bc401eaea07f3950347d3f proc: Check /proc/$pid/attr/ writes against file opener
+c17b5b515d685d992ffd710383e0752664c9a4b9 net: hso: fix control-request directions
+45b8615631fa3d31e11603c6e0fe5ddbc5eba84b mac80211: assure all fragments are encrypted
+267a42158db35a1900ce7cbfcc79481923d3e176 mac80211: prevent mixed key and fragment cache attacks
+900b0c6cf98c984557975cd9b640527355dfb339 cfg80211: mitigate A-MSDU aggregation attacks
+74fd8b1f67a5d002ca5c0197282c564a5e03004a mac80211: check defrag PN against current frame
+e753a0815f143b197d62c98b280918a0c282533e ath10k: Validate first subframe of A-MSDU before processing the list
+f161391c389d3d1343a4a39c96341e0dbe4387c2 dm snapshot: properly fix a crash when an origin has no snapshots
+fdfb8fa65674aff65ada8c13454a8002c8813571 kgdb: fix gcc-11 warnings harder
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db37b08608f7-00a81e68885f.txt
+Content-Disposition: attachment; filename=revlist-00a81e68885f-f52448767746.txt
 
-5a416e4a3f5b8dfd8934e597aeeffc8bd7bb54d8 ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
-dc8c4f40418dba66e4aebc3b95b1459175249fb2 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
-08c8cc8429d5c6d75bcfaffb99d8f78e02cdaf27 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
-511aa799f0ab16586a7ba61afe229565d1c8d1f8 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
-50f74fae7f33175e19ffd09da30d7ef1be621894 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
-b829fd9a8dbdfd45fe95be0a2ba00505de98034c ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
-339861aea9e5f11833f82ac992e0b95c89359668 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
-532f601a12c4964a2ea6ab2e91a6e42e7255d90b ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
-ecf8c24d5fb20e89087cd946107caeeaac79f401 ALSA: usb-audio: scarlett2: Improve driver startup messages
-836a72dcd478d1f146cb1c7adbc7e0aaa2558ea0 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-0e85e3dc24a89d5a48a58305b837b454002f8a80 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-df26be0a754f98a71bec9a4f9f74af823790a319 iommu/vt-d: Fix sysfs leak in alloc_iommu()
-1780540103925fb7dba4c1fdf216a7c7d3f94360 perf intel-pt: Fix sample instruction bytes
-70342e8bbbb483c6baccc59a219a3ad49dc75224 perf intel-pt: Fix transaction abort handling
-c930fef4c2bc94d4bf76681c2bb51927f0b35e20 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
-6d4269d0a7e96425999c8437c5394f44f434cf3f perf scripts python: exported-sql-viewer.py: Fix Array TypeError
-e90b16287ef290b108cc49b6223fe736a406847d perf scripts python: exported-sql-viewer.py: Fix warning display
-dbf1feff781355548ca4b83d2f174a80db3e9b01 proc: Check /proc/$pid/attr/ writes against file opener
-fbdae4fdc8692413995b46e0955b79be72948830 net: hso: fix control-request directions
-20eb3daebc635d6eab42407f457a43de894acdd8 net/sched: fq_pie: re-factor fix for fq_pie endless loop
-cd18d2f89d482e6c70b5b13aea6b25be9cf5cb69 net/sched: fq_pie: fix OOB access in the traffic path
-b87eca09a592ffbb58f806017f09bb28d5d4de89 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
-f6e03ecd139f46cf4b0189121bd3e9c8ee024623 mac80211: assure all fragments are encrypted
-3f33bd8a4b8abf5bd125207cb23e05ed99eeca3e mac80211: prevent mixed key and fragment cache attacks
-4f9ebff381f16940f1c28a376fd218374e3b87d0 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-8444b63534ed731a9f723ed48b35c7b0f03cb40b cfg80211: mitigate A-MSDU aggregation attacks
-fbc2e92f99644479cb0f7306c55bad16ffde3368 mac80211: drop A-MSDUs on old ciphers
-51a83253d336a2407fd3811707a99901a2283379 mac80211: add fragment cache to sta_info
-dc0d9b090f82be81ffab4145c5115e4336bc5b84 mac80211: check defrag PN against current frame
-a62eb50572527211efcd8a47717ef95de8fb0267 mac80211: prevent attacks on TKIP/WEP as well
-b452877c1e288b4c8efe7a2be8f6d14aac16ab12 mac80211: do not accept/forward invalid EAPOL frames
-b4f9f38cd6953cbdd30696316b3cd68b37990ab3 mac80211: extend protection against mixed key and fragment cache attacks
-1b4e03f1500fadba8a18d5d0c088427a215ba802 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
-c11db4a16e35c91c1380c6ce8874d4bfc955a93f ath10k: drop fragments with multicast DA for PCIe
-51cfd8f8b9d1cc7fcb2aa3fd615272ba9f6201c9 ath10k: drop fragments with multicast DA for SDIO
-138a1948b3ce5a7a6cb6e647253ca1a4d05c713c ath10k: drop MPDU which has discard flag set by firmware for SDIO
-8a7158a7698048b717e78a087abd75a68d7e2122 ath10k: Fix TKIP Michael MIC verification for PCIe
-bdaf088d3d1d1f182541d8c941785396a7c7e97a ath10k: Validate first subframe of A-MSDU before processing the list
-ad77bce1ffe9318d0a8b3a7232cebe659f0c47cd ath11k: Clear the fragment cache during key install
-e574cadc161cb6be2ca68d1efb1423ebabc5123a dm snapshot: properly fix a crash when an origin has no snapshots
-4901b470e59da4b159cc15e29d79ff6d022c4ee5 drm/amd/pm: correct MGpuFanBoost setting
-e2fa204c2d0198982f656c126f6db5d16a95d8a6 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
-5b53a4210d3d535e146272f349e6897aad3fb99f drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
-a24675ffaf179a109506cb39b4770e061fea20f3 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
-404dd6b4b7ea1c5b5b6c283f7c4a428f23510f57 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
-3ad82bc6bbc45eb26684d752b01fd07992fc428c drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
-27e667a4fd91e11843026599eb21c6af38d71e16 selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
-109a733ffa5080c22c0e6b19e71ef0cd01428c6e selftests/gpio: Move include of lib.mk up
-00a81e68885f982182cdcf81d075527aa6493220 selftests/gpio: Fix build when source tree is read only
+e3f214ea3db2c74c4c1c559f49acec73d4f141c9 ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
+82794403ee26015d6c8e853c003381f0587bbd61 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
+897b54f4389e9b761559719477241f8d5b71ed9a ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
+7c4c4e47f2ac4b20e1da4e34c9056ba4412e0a25 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
+d85edf92f0d112fa8d0e1fc242d4992a70716393 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
+522906c079b50b4a52459c83be2c5f7e4d1498ec ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
+efd5559ed4bbde7d19a0a82a5391f0a7e0a9d87a ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
+c89e3f1cf983d2bb0a333c47933f34539de263d9 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
+8048e2e5eb438a25af00cf1bb18034f245e64ae4 ALSA: usb-audio: scarlett2: Improve driver startup messages
+fae5c758f5925c92cb5e2dfbc45ceb0bb9039286 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+fad478ba118443a14072a885a573b93849f45aad NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+0dae5ac634deb1adb68ed0f52a390181c9afab7a iommu/vt-d: Fix sysfs leak in alloc_iommu()
+f4ce4ee6453b36b5aa71794418625ef4acb7ba8f perf intel-pt: Fix sample instruction bytes
+a177df96abba1e7ebe3c5a302e6a8631b081364d perf intel-pt: Fix transaction abort handling
+6182c1f1927ac8e995368e96f1452ffac07eede0 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
+ec485c8f962986f4a3effe43565b75d0fabe983d perf scripts python: exported-sql-viewer.py: Fix Array TypeError
+6e96d461861323822a971e24b2dfd40f4f349225 perf scripts python: exported-sql-viewer.py: Fix warning display
+d0fb38a737374fc95f91c27b2f1036bc1dcc00fc proc: Check /proc/$pid/attr/ writes against file opener
+f15ca50add5cbea3074dacae13188ffb2bbbc5b9 net: hso: fix control-request directions
+3ad5c24ba2d9a140d1b2c91beac5b61324374214 net/sched: fq_pie: re-factor fix for fq_pie endless loop
+955f2e30cb9b355cc7a397b7b6e3938b25a80a3d net/sched: fq_pie: fix OOB access in the traffic path
+e75724cab709a27c9ee941b37e291867ca1fadc5 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
+5d2461e7a6dee6f3d949314b1730280e6fe3e829 mac80211: assure all fragments are encrypted
+fea79acc7075af0bb8766f0309ca60c40583af52 mac80211: prevent mixed key and fragment cache attacks
+1bed92b2e4996633832b56a4a3217eea3fa09bf8 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+953e8bbc30e8003f8ee8931000d7d333906eef24 cfg80211: mitigate A-MSDU aggregation attacks
+d4b11a4cb55b759ef1f447dc8d5aac75a1395bef mac80211: drop A-MSDUs on old ciphers
+4a96b9a585e17d26157cb27fb0b3711b224e2374 mac80211: add fragment cache to sta_info
+d9bb45e7b17f28ad8cf1e1c94c0db4715f174645 mac80211: check defrag PN against current frame
+aad3c387f5f0b18e5cfdc9c49b7f7f99549a8a10 mac80211: prevent attacks on TKIP/WEP as well
+f723f2a8837828e7763c0a1db948b3ca2d6fcc03 mac80211: do not accept/forward invalid EAPOL frames
+7151e620dd09c66e499789bd5ac94355d0d6d3f7 mac80211: extend protection against mixed key and fragment cache attacks
+8b7656f079165294f964fcdd01dbb63b07d2581e ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+7d72ce3c8ef67e69cc1e25f7480a97b8e8f01a31 ath10k: drop fragments with multicast DA for PCIe
+292f199c7b0b53a9b5c905f9f0b637efd658ce60 ath10k: drop fragments with multicast DA for SDIO
+2206b0c3308cc4d6b0b386dbab243c3d8ab93e13 ath10k: drop MPDU which has discard flag set by firmware for SDIO
+8b8628668a887cc2e059d7a909383fe43e11b7cc ath10k: Fix TKIP Michael MIC verification for PCIe
+ae7adba85ee9cb8083833780147f75da9b53c37e ath10k: Validate first subframe of A-MSDU before processing the list
+0a53c5a5f6fd0e7aa0b55642dcb89d09f5947883 ath11k: Clear the fragment cache during key install
+82e95139b3b20891813fb673c31b85e427ea9b27 dm snapshot: properly fix a crash when an origin has no snapshots
+b64987a1ecb687c9c7431e4c030620bb9910d767 drm/amd/pm: correct MGpuFanBoost setting
+589db99f96e3ae0843413a3a8c2cf537d6a92f57 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
+645ec5bf202ef13635bacc2ca16cd1f57cfa1bbc drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
+6b885d1be8d9f1159aab5745f6f65d6221b82172 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
+fada9c90907cc5a9fbbf0a7f75c8ccb607d1701f drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
+c63315ac452fff1f01cb0822d4d8fe280155e33a drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
+2ffbb3de291f75873edbaadfc25f168c8ff6ce45 selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
+09e3f8390a835618e0c73f7c4914fbf99186c82a selftests/gpio: Move include of lib.mk up
+21ff286395b56f24d5a6756ef3e5dde67b722327 selftests/gpio: Fix build when source tree is read only
+f524487677465cf5755e4b6777ffe312e0317a2c kgdb: fix gcc-11 warnings harder
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c053f223af4-ad10bbf28fce.txt
+Content-Disposition: attachment; filename=revlist-ad10bbf28fce-d4f1b01eb53c.txt
 
-03c17c82b67380ebbca6e0187f8d287c0685335a ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
-bc41a3959a3acdb3e340d54d53a05f6475a53451 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
-0580788b93a1c1840b9655a811e1ec6a9ab6e4c6 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
-675ad3b98c550ba48d3d061db8e17dfa5b7719c3 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
-3fbe17f808cbe426939c19f23423e45d4e496f03 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
-43626674590ead3a3e462918a0368a27fdaa3d8a ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
-c615edd0bf4a7e6e35326eca978e817d73237f82 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
-c736a01297888ed30672e18d0e512d1a8afcf774 ALSA: usb-audio: fix control-request direction
-c2f4b98acd3b57760455dcbde2db8272cce32df8 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
-625d92b388a5ed7201b885d60f079497978cbd4f ALSA: usb-audio: scarlett2: Improve driver startup messages
-af0ddc9ad2e751df63beff2e1de5ef09a85ece86 cifs: fix string declarations and assignments in tracepoints
-30095fad8e876604f5c50d11e4b6a2fa96da92ac cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-0b477a91ff5b291087d91043aa3057f88bd89fe1 mtd: rawnand: cs553x: Fix external use of SW Hamming ECC helper
-0e0d9bf2947ca7a3fef440cdc269f52a130092c0 mtd: rawnand: txx9ndfmc: Fix external use of SW Hamming ECC helper
-01ae0133387bf67704eb95a485072a640bde8150 mtd: rawnand: sharpsl: Fix external use of SW Hamming ECC helper
-a2bc1692fd99e7d06d69bf3b4a612988d4e5335c mtd: rawnand: lpc32xx_slc: Fix external use of SW Hamming ECC helper
-2e4eec32f6c1480ab1ddcc005db8827cb0a2ab74 mtd: rawnand: ndfc: Fix external use of SW Hamming ECC helper
-4e1909d0841b1c6a2761921325ad6fbb1099cb78 mtd: rawnand: tmio: Fix external use of SW Hamming ECC helper
-59edadb6b29e994c6b5079367dd018ebf77b7590 mtd: rawnand: fsmc: Fix external use of SW Hamming ECC helper
-f182ebf0e6ae044e165b307cba97ec4762bca54d can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
-707f97b3371267c0d31523aad920ec9bcecfa9a7 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-f5704dde57cdfc32762aa6cd603f3e1ccb7fad79 scsi: target: core: Avoid smp_processor_id() in preemptible code
-28d9af03172e06b0f47d9ed487a8356d09d3ea1f iommu/vt-d: Fix sysfs leak in alloc_iommu()
-b6824a83fb13b10452ed66447f9c231599334391 s390/dasd: add missing discipline function
-e87f9e7b6c271f2399c7f5257af22d44b379b35b perf intel-pt: Fix sample instruction bytes
-1b93beb541e6bf0c8073fb49d2cadfd8faa40c3d perf intel-pt: Fix transaction abort handling
-4562d39eba2aaad9c3e42b53dc4039e3fbba33af perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
-78fcfd4c230d33c7237645d0db72b078f18ff2ce perf scripts python: exported-sql-viewer.py: Fix Array TypeError
-3b4eee87e77dab9e48c06ea9f68e36e7ca5cd10a perf scripts python: exported-sql-viewer.py: Fix warning display
-7249842e0f5e60cc3ae2335aa166285c5f261c4a proc: Check /proc/$pid/attr/ writes against file opener
-2a93158225c7f4b398e7cfc3ebed582bbd6e23a2 net: hso: fix control-request directions
-22c709db5ca69880737a6652b23a430c791360fc net/sched: fq_pie: re-factor fix for fq_pie endless loop
-42561b8f1a4718833910f38782e1c93d3189401e net/sched: fq_pie: fix OOB access in the traffic path
-c66870d2da2ff1baa0d3b326e86e3eb61a61f434 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
-eba79170573877dc91cb66162f87fb22d0092143 mac80211: assure all fragments are encrypted
-4334ecc5360102e205ea3b35a71aee106d3e2996 mac80211: prevent mixed key and fragment cache attacks
-0453337557bdfede3aef15c71ca3e6347f241e2a mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-0e6cc430d1da79e7f507989ef65051fe43b94b6b cfg80211: mitigate A-MSDU aggregation attacks
-eef31efa1cd064235bf726d404c1ad88f0d3c9c4 mac80211: drop A-MSDUs on old ciphers
-945e468392354d90bd6c23fb20c48975f129f097 mac80211: add fragment cache to sta_info
-cd3cef22485ce66683aa1950a4f710d383fbf505 mac80211: check defrag PN against current frame
-098b3a851c6977f3ea16559d1eeb4c4dcfb946a3 mac80211: prevent attacks on TKIP/WEP as well
-201d3bb0bd8697e8a649b7110cf94c570705718a mac80211: do not accept/forward invalid EAPOL frames
-9bd37907d3ea1d5c364a37bde5a9af9813110e4f mac80211: extend protection against mixed key and fragment cache attacks
-d938327bed557e2de099a2e56c028a60a665806d ath10k: add CCMP PN replay protection for fragmented frames for PCIe
-280523b68fbe94523c72f37926cb4cbb4df08115 ath10k: drop fragments with multicast DA for PCIe
-0d3a6852563fa9d64adf1b17d3bf844bc05e7da3 ath10k: drop fragments with multicast DA for SDIO
-2491dd60902035e53f6b48443b1ed823449319eb ath10k: drop MPDU which has discard flag set by firmware for SDIO
-bf9f628748e3ebd01f6b166bf4fc9db1deb431b3 ath10k: Fix TKIP Michael MIC verification for PCIe
-77ea27e53dd9bcda00614ec40a315ca776c93b4c ath10k: Validate first subframe of A-MSDU before processing the list
-d7ba7c6e2e5c4ad0365980d105934a05d4ca1791 ath11k: Clear the fragment cache during key install
-cc85a737f24450bd5b14ecccca0ac4e1f2afffa5 dm snapshot: properly fix a crash when an origin has no snapshots
-4f6dfb336203c95cb43379cdc88960abb4c8aa7b md/raid5: remove an incorrect assert in in_chunk_boundary
-9fe2e63dbc49a663ce7d955b09ad399e6a08f6a5 drm/i915: Reenable LTTPR non-transparent LT mode for DPCD_REV<1.4
-e2056263826aeacfdc61e75b38bf9d6d4f7d92b7 drm/amd/pm: correct MGpuFanBoost setting
-74e8f5b69d34b0717dd90400940d51075a3c08fe drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
-396343d4744982376b620b87f607b717f71fa310 drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
-8796032d17088d423da6cacb23b7479c8223dd15 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
-57dbd8b81287901d2c6e00b2eca832fa5f003fad drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
-ad10bbf28fcea88e6ad647895e92560b7f7fbb1c drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
+2551d62e38fefb7d76fee17206630d225527a7cc ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
+abf97be4066ca49b20df0e25f1c81d611d12e539 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
+d03d23cecaede7f76695c31fb82007dfbe23b0ab ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
+75c97ec3a79f46895fdef18bda9b4d755e47b044 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
+d3e0aba183f0042cc5d346c70b5659e1cab7e980 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
+9261c033d0b124822c685e5ea38f793148fa1714 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
+6db0ea7eefe12b3db9d811faad7f7c95c466b0bb ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
+9a50c870c38417d6bacf55260b8bf990e85ec701 ALSA: usb-audio: fix control-request direction
+c8ff8c09d583422d7a9cfd7f05bd6ca3eb7df7ee ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
+ffd0497803ceae881b66c26f5838a1e81f9e361b ALSA: usb-audio: scarlett2: Improve driver startup messages
+4058083f948e1244be36a1017abca663e9fc99b7 cifs: fix string declarations and assignments in tracepoints
+296aac8dfbba46fba49b97a8ec1445516430546e cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+64300653dd60e0e17895d7ea000945d73c0d4a70 mtd: rawnand: cs553x: Fix external use of SW Hamming ECC helper
+a10ba40454955ae4a56ac8db3deeb6a92c6acb03 mtd: rawnand: txx9ndfmc: Fix external use of SW Hamming ECC helper
+b5da7644be7ada56398d55cfaa008615398f0cde mtd: rawnand: sharpsl: Fix external use of SW Hamming ECC helper
+3680cfdd8b6d9bd203dc1b901db12fc2c8619aa9 mtd: rawnand: lpc32xx_slc: Fix external use of SW Hamming ECC helper
+9adb399bb4b0b0d94bfdebf55071bd75b70f3485 mtd: rawnand: ndfc: Fix external use of SW Hamming ECC helper
+62100f4d58e51ea547d519bc6d8b633ba447c638 mtd: rawnand: tmio: Fix external use of SW Hamming ECC helper
+7df734f4a46a12970cd362e6de6cfcd218a8d37c mtd: rawnand: fsmc: Fix external use of SW Hamming ECC helper
+dfd581c3296ba502073cb739a8d7854027df68c5 can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
+170e5da11598f90ef6530c3cded0c78f35feac5b NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+905da6777517cba13d7a00a5db74e44deea9901d scsi: target: core: Avoid smp_processor_id() in preemptible code
+2331c2e5ce9e26f4f4e1cf64736d1a85bedd7a94 iommu/vt-d: Fix sysfs leak in alloc_iommu()
+98c506d5a6a4535476ca4b08f8ba9b32e1b52a3f s390/dasd: add missing discipline function
+0985b3f544dc72b93609f10dde273aef54e44216 perf intel-pt: Fix sample instruction bytes
+a93e2fdf793e5e8f2e8842e5a5f481d8177a7ab9 perf intel-pt: Fix transaction abort handling
+2de654110649f2badb70074b5c1577ee6a21b6c2 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
+920ccd7c01cbbf7653828d833dcf43dc7eed32a9 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
+66377b74b295f334eb937f5f83422890aa8a206a perf scripts python: exported-sql-viewer.py: Fix warning display
+04b4326bb9daba902515ad38904ec983e1bd55f8 proc: Check /proc/$pid/attr/ writes against file opener
+0a7c02814497c9d6ec062b3c0d1f4420f748637a net: hso: fix control-request directions
+a11a12da7327d5b72a50166b615b56fd70ed47c3 net/sched: fq_pie: re-factor fix for fq_pie endless loop
+76df98fdea0b68d3ff042dc4f0298d2cf2ed40f0 net/sched: fq_pie: fix OOB access in the traffic path
+20bb7d2832866f81a8253f7a446080b114140759 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
+4bf28544578ce139d97e8dcac56a81c934ccf44a mac80211: assure all fragments are encrypted
+002150c1fd92c5b7ab1bd3a85ec5900a64db4164 mac80211: prevent mixed key and fragment cache attacks
+ea035b6139b86735305a229a03545eca1d4cbbbd mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+e830b5d7866a0aa62c67692b3604a1ef85143278 cfg80211: mitigate A-MSDU aggregation attacks
+f99a0b15352d3ac884952ae533ef77eb0707c2ab mac80211: drop A-MSDUs on old ciphers
+aae1261934b83a8a047d2d68b10b5dc2d6c6a847 mac80211: add fragment cache to sta_info
+f78f07136582109024634a0b0dceefa3940e246b mac80211: check defrag PN against current frame
+970d38efc09a541f524e8535e48b9b678d0bb7c9 mac80211: prevent attacks on TKIP/WEP as well
+8ac94cccef19cc9f76895cc411326d063e047913 mac80211: do not accept/forward invalid EAPOL frames
+2676c9dc04ba026bc9151bbbd0c12d9b4f1bab82 mac80211: extend protection against mixed key and fragment cache attacks
+26f94246f0ea0343f9ba5dec203d08c2eeb55340 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+d4bd6d64b0860bce293f547523b1341658d2dde4 ath10k: drop fragments with multicast DA for PCIe
+1e9ab70b6af4c2e0cc18fecb43864a4cc44e1511 ath10k: drop fragments with multicast DA for SDIO
+dbc13f6dc6f35da70c73a57ce1d364622e1ce2e0 ath10k: drop MPDU which has discard flag set by firmware for SDIO
+251840e1600fe67298dd71e67a268430a65f71b7 ath10k: Fix TKIP Michael MIC verification for PCIe
+426a343b11ea1e10588b2939744a0fc0b4b0cb0a ath10k: Validate first subframe of A-MSDU before processing the list
+97fb4dda00a455b639889a9c44fa90d7c0cda129 ath11k: Clear the fragment cache during key install
+09c5ceca3353b31a08f92007741b02c14001b397 dm snapshot: properly fix a crash when an origin has no snapshots
+167174fa05b54140a791fef86587dbff72e00f1a md/raid5: remove an incorrect assert in in_chunk_boundary
+15b92bd52b0e6b47fd2978556f99b63ace0663b9 drm/i915: Reenable LTTPR non-transparent LT mode for DPCD_REV<1.4
+ed128fa889b5aa1db3cf90bc97ac4431eb6176f1 drm/amd/pm: correct MGpuFanBoost setting
+bda0b1fd552b0f9d29db8bda5d2764e359e36a83 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
+7fcf272a29b7daad6d110c751d3902c3c12f31c9 drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
+c49ccb4224961511d8826de45d222f5affec2f74 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
+15c6762b86bbbf3b42bc61d3ff421982c090d77d drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
+0d81a3a0b2cfbac7fd6c3b2052ea0787d5a64b3a drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
+d4f1b01eb53c20ea927bb62fa0d48d6641f387fb kgdb: fix gcc-11 warnings harder
 
---===============4667321967508186186==
+--===============4348344039877144404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f993f074caf-5222fbb67823.txt
+Content-Disposition: attachment; filename=revlist-5222fbb67823-589476275c7f.txt
 
-518008b0f284a122373d8655d0adbb32bad5f9a4 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
-ac05d2accdb7e52ea84855d2fc49aaff990e1fa5 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
-b98733e0919a7a86d3e01156af2d46fd8a002fb5 ALSA: usb-audio: scarlett2: Improve driver startup messages
-9e8b75ea6d622d505f2e45143aca1969f85c38e3 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-6d7f0db93f86731b8ba369b874d71d3a5db1ffe5 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-be6dcb31b19f3b1580fb6311041211b14f6ed05d iommu/vt-d: Fix sysfs leak in alloc_iommu()
-ca231d076301a7d49a3b57800c589e3a90aba89f perf intel-pt: Fix sample instruction bytes
-aea584c520b866d297a2af078415e46fc7883107 perf intel-pt: Fix transaction abort handling
-1435f3271b94510014efc4c2cc2985df0474ea63 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
-a61008d4ef847af6d46db48c91e85f1da115d1d5 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
-8cabd81fc0985b7737c36c54a9248e063998469e perf scripts python: exported-sql-viewer.py: Fix warning display
-2f55a075e04b3294f336a0ee5d413786b5bffb95 proc: Check /proc/$pid/attr/ writes against file opener
-2dd9b152c8cb477633e95362a39e3b0d39ccf155 net: hso: fix control-request directions
-a661d833ac22e19495d27c8d7ac957c31001ace8 mac80211: assure all fragments are encrypted
-709caf4b5c955105ac3649bf55b3c372929ac0cb mac80211: prevent mixed key and fragment cache attacks
-e9646205dae7c6f8623eb4066281dfc0511d81ee mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-48265cffbbffed514a7aad1dc895275e505f2ed0 cfg80211: mitigate A-MSDU aggregation attacks
-c4a1f404087ffbc6477df5e10e88fdfa92132ebd mac80211: drop A-MSDUs on old ciphers
-9a73d93ef251db1a5ff2a111db5017ccb581385e mac80211: add fragment cache to sta_info
-d5b0bf58fe7df17a1fe5b5d74cfb438bf9b440a8 mac80211: check defrag PN against current frame
-845cdcd99bdd16067f5a0510bd73e7f3c0e355f9 mac80211: prevent attacks on TKIP/WEP as well
-2922fdf5b3ffbf6d648370f9f36d19fa2b82679d mac80211: do not accept/forward invalid EAPOL frames
-bae756d0f1f4d9ca9dbecdfd417b0decec212a22 mac80211: extend protection against mixed key and fragment cache attacks
-f1ea9cdd22108e97b63fab275401132d2a03403c ath10k: add CCMP PN replay protection for fragmented frames for PCIe
-826efd429392fbcdf7d98501470595219efa3b5e ath10k: drop fragments with multicast DA for PCIe
-5d8c3c592ea66bc55d419962b7ce3d667a666014 ath10k: drop fragments with multicast DA for SDIO
-33be5c8fc7070017542e5025873de9be82e41158 ath10k: drop MPDU which has discard flag set by firmware for SDIO
-19532b0ad2b00254b355ea872b9e15c8dabf3316 ath10k: Fix TKIP Michael MIC verification for PCIe
-0402edd337f2625d0ba4af7a795d887c0a0545aa ath10k: Validate first subframe of A-MSDU before processing the list
-dc6c08335d1154b7e03039f74b019aa7e33e8d9f dm snapshot: properly fix a crash when an origin has no snapshots
-440d2223083d27cf117a38ed0307d461305826ff drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
-30b5ca5976cc1cbcb78f309cf3a4aef3b721e13d drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
-ca760a0c54e961e113ba8001fbe6fe771bd9f3c9 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
-8bc2e77c30b6a311e60fed48dd04c2820ff13763 selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
-92c3ea6e80911b2aa02708b36955f01e5c442d0d selftests/gpio: Move include of lib.mk up
-5222fbb67823e3aabcb565bae0026b0620bce185 selftests/gpio: Fix build when source tree is read only
+3a8f80f40eaa6c1b32af3829be02ea3b1e670464 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
+c5719e7f6c90efa91178646664f8c5e5a5589dbe ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
+35470acf619b7820934e477353817dc0f8d6a328 ALSA: usb-audio: scarlett2: Improve driver startup messages
+98614be02eb02cac284e96390ff286bbd571a1f5 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+41df794a23dcf5bddaf1ad24f017878cdb259d3c NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+df1c1ddd866f216dc450cc085bcfc6da76d88141 iommu/vt-d: Fix sysfs leak in alloc_iommu()
+0c54ea24326c817e1cf45eac6ca0732c01293180 perf intel-pt: Fix sample instruction bytes
+8b23f37d24449bacefe82acb02c5aa9c915961f6 perf intel-pt: Fix transaction abort handling
+be415dc3013f99c070b34d79d3952c10f90af742 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
+119af37b60e219928937e029ce2e2c018c1b810f perf scripts python: exported-sql-viewer.py: Fix Array TypeError
+ea290998382638645e8585d1fcb78f16b1d7b03b perf scripts python: exported-sql-viewer.py: Fix warning display
+4d6734cddb82c70af2f31c0ad776631a02a03454 proc: Check /proc/$pid/attr/ writes against file opener
+8b5ff95f0084a69f205515b3ec4d95534399d5e7 net: hso: fix control-request directions
+5211f297e123d3eb387e81aa175dd2d5fc8faf2a mac80211: assure all fragments are encrypted
+1228b4dfe4aaa9bd21f2511e21abf3f99d5a84f9 mac80211: prevent mixed key and fragment cache attacks
+bb3b2cf200b72cd76967c1cd3838db6a0498ecbe mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+f66a66446cf44ebc227f880ab46f06d80ccae59a cfg80211: mitigate A-MSDU aggregation attacks
+9bfcbbe9ccf7b21e08dd1c1ba4892d68d67fe95e mac80211: drop A-MSDUs on old ciphers
+43b643abc266fbb950a5b056535baec4b7b347d2 mac80211: add fragment cache to sta_info
+8fe24ad6ce3e5610a052c47dcdaaaa7d6cd4bff9 mac80211: check defrag PN against current frame
+2694f45ceff6b053ecdf25195e5cb0dd2e7927e8 mac80211: prevent attacks on TKIP/WEP as well
+2f2f1d55c4557d31943ff0156bf83c28b5266fd9 mac80211: do not accept/forward invalid EAPOL frames
+8fc80294f12bc6bb5a0c25e1e8d57f456980cf9b mac80211: extend protection against mixed key and fragment cache attacks
+f18a456e040f90b9ad9e7f0b91e9e3e60c652949 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+aeec543fb15d12054ed77c25b1f4c84702e8b9e4 ath10k: drop fragments with multicast DA for PCIe
+c5c105502e6d32fef5ef55f21c046c56584ee461 ath10k: drop fragments with multicast DA for SDIO
+f4c9f29bf2d2e438f2d385cd599194d2983f2027 ath10k: drop MPDU which has discard flag set by firmware for SDIO
+6e12a961b26a356836235e464b358b1b1122bb2a ath10k: Fix TKIP Michael MIC verification for PCIe
+478c52625d600b5cffe998ec6ce8826235009a82 ath10k: Validate first subframe of A-MSDU before processing the list
+6cbdd786cc284fa20e25911c178211e9a8077047 dm snapshot: properly fix a crash when an origin has no snapshots
+072559969eb5bb26990303442af7409c0b20351a drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
+a4ee4f4868c25b8b54b5b1384bbf7ae8e7fd7751 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
+51064900466980e01ca3c22b8f367a7f07f6f5ab drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
+6fed8a05495c3450edc8e3999c9a6faf737304fb selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
+51bbcd29e91ca7290ddcf78feea0b130514cc0bd selftests/gpio: Move include of lib.mk up
+d4b726cf70652576af8b01e163cad9936960c4e5 selftests/gpio: Fix build when source tree is read only
+589476275c7f9730354f54d295ac2e2e6bc8afaa kgdb: fix gcc-11 warnings harder
 
---===============4667321967508186186==--
+--===============4348344039877144404==--
