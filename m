@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9080722217873426879=="
+Content-Type: multipart/mixed; boundary="===============8870063015157413001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sat, 29 May 2021 14:29:03 -0000
-Message-Id: <162229854324.8586.9563840420101722999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 29 May 2021 14:44:33 -0000
+Message-Id: <162229947310.17541.8015988022227382176@gitolite.kernel.org>
 
---===============9080722217873426879==
+--===============8870063015157413001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/heads/master
+    old: 171bcfb9e19557b55ddd1eda7950751d5efff551
+    new: 259dffda1efc1d33a9e36ad6ee75b386d434430b
+    log: |
+         259dffda1efc1d33a9e36ad6ee75b386d434430b 4.4-stable patches
+         
 
---===============9080722217873426879==
+--===============8870063015157413001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622298538 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1622298537-71cd4e982f3e6e9169098a404dcb458176de3da8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622299472 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1622299470-6bcba4e8479580f476c798ef9248d5128c637fee
 
-0000000000000000000000000000000000000000 ce6471a4dff253eab89bd4eb3a84eef6bdba1f44 refs/tags/v5.13-rc2
-0000000000000000000000000000000000000000 9e8e06c7a2169db945749f338334cd2042e08799 refs/tags/v5.13-rc3
+171bcfb9e19557b55ddd1eda7950751d5efff551 259dffda1efc1d33a9e36ad6ee75b386d434430b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCyT6obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j3MP/2wc/K7hK9WcsaNwreCe
-Y3JKaVZMtOmMoaSYHkSf7OYTKi+a4n0T4xGAGMneE3hrFWMAoCBCkSffBOINcYu2
-kew3+AM71Pdasj33A0x8kA0ctL3iXCSAcHcntJ6T9SzguQ1xC1nJ/4m+dPqEWoDX
-ImE32tByTGdMcWa6AsO/ATM5o/ql2U/L8dlQy3j8QzDa4ij9wW089cLGcXxbl/Am
-JIGdxHrVJYJGn1LYsXsC0iJ81wHYlnqGROlmIMvNvo2gg9Wsdnpb7JJG9DLlNyKC
-7tfMYcio5i/8nbCOykOMO25JzT9uskydYmS6tcP0WrAGwFn8gz+QcvmmfgAlpwT6
-rP4CQuUwl5NZhnNgb928qwpkhXgh1UnVNeHWyCGOwa5bljKxGRQ+bbtQokW6ol5K
-rczvgw9kTzefOycvSkjEIz71usT7br6ShI5tgHXz1/epaDwYRgPEZjQv7q6cXHqu
-PE3bST0dsvL798hprBJcerKeFcEYsK7VQL6+PTAwc7xEMqf8cJpv9XvePY2b0swl
-4okSG5QnFtob0CrSPxeo1nfFm3IiO03VFpoEWVu0TuTrIzWGMk5KSuswY0VpFIqd
-DZsHwg3y2ZLmKCtWILxvVsmLSC2yqMgnYKwSVccGdbAtnkM1lhmQdGg3Mzf3krG1
-qYf/tN5LGM5HizHwe5PgE2ZU
-=c3Ub
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCyU1AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8yEP/1fI1RvsK0MUMSovpRLh
+dtglsc/1Ep3c/bJfFC/lLc72QhoZHRgy/TGr+md8QlfZ7F1F8pN0Eon/Nkwj3elB
+nl41Zh7yGKXcwBAuu2DzQI4gR7S+NiDeNHzK0qbuZVOjETYKBiYVMI525pHwNi9R
+QLacS4hwu/buBBAIiQcLU/q7lH1Cq85iyHV0FOsQdCFwu3w3B3j4kO+AYhCgBnMu
+otB8ClSolclyq3GDx9mMbTrLydH/FrC//rEpbdTd/QCjMrZKrQ+bwQzrfE/paO0u
+mnFVx0trUBdYPmLm8XZIzG2BiR0AxAU/ncobfD6niMQhD7jpyy9lV7ZR7Ej59dv+
++IEnBYZbiT+Er8OTsELeY+arrvX3Rfkp4EaquN3jJztAUBQ2crtf+DVzLRpxzisK
+YvD7RWa9eiGjlRxIG9VzjlbKbXmMmMR7yyPSfEyTBFO19GTSMwmylLW8GyY2Qx60
+JGGwN3QBG0XK0fm5na4aJUhWWEVtW2f/BPHeTIZHP3gOdugUYinP9o3MvaRDoHJp
+w47AK2drXIgeoY6T+Axd/LWCkIYBWKZXlcovwcj8l0gGe9q5GSVEODuY3aQRnCgF
+X+uvXk0CRkAZEskoVEFwpjFnZWeICsK0IOCodZOnrtZuBr9YqkyjwvIz2aEv2/82
+NSGNqgUUeYppGr67lM2cBUBZ
+=VMGE
 -----END PGP SIGNATURE-----
 
---===============9080722217873426879==--
+--===============8870063015157413001==--
