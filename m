@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 30 May 2021 20:48:32 -0000
-Message-Id: <162240771262.9292.11677041775515345860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Sun, 30 May 2021 21:03:59 -0000
+Message-Id: <162240863968.19655.11068628506179460805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: d3f2c48de7b86c17c93d412e08e7214c6e108c8a
-    new: 320daffdf249bb41531c01445054443c80440904
+  - ref: refs/heads/for-next
+    old: e1012160bbbca92d67c729f68108734b7d679db9
+    new: e90abb95bc71566e2016964e98181557929f55f5
     log: |
-         03a6ef31f2bc3e14522298a9617e240fb0f5954b net: axienet: Fix fall-through warning for Clang
-         320daffdf249bb41531c01445054443c80440904 octeontx2-pf: Fix fall-through warning for Clang
+         e90abb95bc71566e2016964e98181557929f55f5 leds: lm36274: Add missed property.h
          
