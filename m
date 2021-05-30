@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-Date: Sun, 30 May 2021 19:12:28 -0000
-Message-Id: <162240194821.14188.1950198116914284644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 30 May 2021 20:42:28 -0000
+Message-Id: <162240734854.5620.15795094315582303705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 2c2bdd2372afcfcf24fe11c65ebe3361b7e1cd9f
-    new: d4826d17b3931cf0d8351d8f614332dd4b71efc4
+    old: 94c1c0d641a140b35e4bc193b4cf43a3bcfdb335
+    new: e0bb91ac138fc9650e666165385a637176f20b29
     log: |
-         02de318afa7a06216570ab69e028751590636a0e mt76: mt7615: do not set MT76_STATE_PM at bootstrap
-         d4826d17b3931cf0d8351d8f614332dd4b71efc4 mt76: mt7921: remove leftover 80+80 HE capability
+         b235dc8e91adb3383714bcbc9a1d8a8fc328a8f8 Fixes for 5.12
+         3b89ece8821a2000eabb3781c2dcd0957de509e7 Fixes for 5.10
+         59074a38ab29c89d15dceec2d98c194d103cf3ea Fixes for 5.4
+         92714d6fb1d027520cb5f4a689b5fc671e720974 Fixes for 4.19
+         edba949093792dbf5b48a18712d271a3a5f1f279 Fixes for 4.14
+         0e1aca53fc9c35d3cf6a0b9cbc5ca05584ad4253 Fixes for 4.9
+         e0bb91ac138fc9650e666165385a637176f20b29 Fixes for 4.4
          
