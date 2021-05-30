@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4608499882767142161=="
+Content-Type: multipart/mixed; boundary="===============6883320647858000093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 30 May 2021 12:34:56 -0000
-Message-Id: <162237809621.14872.17407232923102589134@gitolite.kernel.org>
+Date: Sun, 30 May 2021 12:37:41 -0000
+Message-Id: <162237826123.17300.9059777499242608513@gitolite.kernel.org>
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,460 +16,487 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 0520a00bdf78fd8b31542e0a2bd2363625cdff5f
-    new: 58f23b60147b1c7f9ad73adf35b4681440808071
-    log: revlist-0520a00bdf78-58f23b60147b.txt
+    old: 58f23b60147b1c7f9ad73adf35b4681440808071
+    new: f945f46ed6226e309617dbd0359a279f2b69d789
+    log: revlist-58f23b60147b-f945f46ed622.txt
   - ref: refs/heads/queue/4.19
-    old: 51331aab9c319e08220c27876fe49ebce847e5d0
-    new: e2e7bf8e56c7454cc73fd8eddb13277c9c3c4328
-    log: revlist-51331aab9c31-e2e7bf8e56c7.txt
+    old: e2e7bf8e56c7454cc73fd8eddb13277c9c3c4328
+    new: 637b94c89e44f944c654ef7d9278a170aeb3a250
+    log: revlist-e2e7bf8e56c7-637b94c89e44.txt
   - ref: refs/heads/queue/4.4
-    old: 8bd4a2fa3f2b2d970789d58b7f4710d1d7b31d75
-    new: 981dfa349d4d209a7fbfacd9424827dcdce5afa7
-    log: revlist-8bd4a2fa3f2b-981dfa349d4d.txt
+    old: 981dfa349d4d209a7fbfacd9424827dcdce5afa7
+    new: 10331bb40cb6c13f1666b2760bf01d7a4f7e7656
+    log: revlist-981dfa349d4d-10331bb40cb6.txt
   - ref: refs/heads/queue/4.9
-    old: 0239d66d5682546cfe5b022d83f893054f8b710c
-    new: e31d9b5369271a5762cca992c3dc4e20a6e66d5c
-    log: revlist-0239d66d5682-e31d9b536927.txt
+    old: e31d9b5369271a5762cca992c3dc4e20a6e66d5c
+    new: c56c4386106a861cadeaadf29db69ef8584397e5
+    log: revlist-e31d9b536927-c56c4386106a.txt
   - ref: refs/heads/queue/5.10
-    old: ef14774107584bd6b460d68dbe0e8acc1d1f34c9
-    new: d63ea1802883dfde4b70b3866cc5442c6c5722ea
-    log: revlist-ef1477410758-d63ea1802883.txt
+    old: d63ea1802883dfde4b70b3866cc5442c6c5722ea
+    new: 793b71a7b67bdb55739edf01e1f78e3889e1012f
+    log: revlist-d63ea1802883-793b71a7b67b.txt
   - ref: refs/heads/queue/5.12
-    old: c6a391109100339b463c4e7a3696ae855105f143
-    new: 6c3ef5c07533e3418c5e4c573964e2d37c70c85d
-    log: revlist-c6a391109100-6c3ef5c07533.txt
+    old: 6c3ef5c07533e3418c5e4c573964e2d37c70c85d
+    new: 4100864c887fd75386ad84f83fc53bd2c03b49ba
+    log: revlist-6c3ef5c07533-4100864c887f.txt
   - ref: refs/heads/queue/5.4
-    old: d63041d337a68ff34ff2381066d20bf105712ef0
-    new: d3da5f6022fda1c5795a4c66ed961a751b1efdf9
-    log: revlist-d63041d337a6-d3da5f6022fd.txt
+    old: d3da5f6022fda1c5795a4c66ed961a751b1efdf9
+    new: d77d749198daa9b6a4074640b74afc9f2c1ca9f2
+    log: revlist-d3da5f6022fd-d77d749198da.txt
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0520a00bdf78-58f23b60147b.txt
+Content-Disposition: attachment; filename=revlist-58f23b60147b-f945f46ed622.txt
 
-be55bacff03dde9d895bbe89e818e92ce6134c2e mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-da34f38a903741f8e261846db867094f4ebd098d tweewide: Fix most Shebang lines
-84738dc5b71bffd4e75e2226db0efed2e4d5b491 scripts: switch explicitly to Python 3
-eeffc707899ad1a8b8d681293c1c579f27fa8b25 usb: dwc3: gadget: Enable suspend events
-bc882d18d33363d0ff4c8707faa1fe13b06645ce netfilter: x_tables: Use correct memory barriers.
-aa6ad0d7a07ec0f99e3a74a1e3d2ade469182809 NFC: nci: fix memory leak in nci_allocate_device
-0ab6e1e5e84c27f32eaf467dfe273645b58c4eea NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-f5ed69c5d7442b9d9856de425059f3f1e8dd8c8c iommu/vt-d: Fix sysfs leak in alloc_iommu()
-34456c30fabdcc757d3110e80fe129c96a7642eb perf intel-pt: Fix sample instruction bytes
-0493c6ad7c1ac318491b2066e724a04c7b02909f perf intel-pt: Fix transaction abort handling
-b8f953846ccf2a63f844b043906cc7a7dd19ad7d proc: Check /proc/$pid/attr/ writes against file opener
-9fb0d5ee5bebcc6b6e8cf48c069b0248080de847 net: hso: fix control-request directions
-01bf4dc6c645ed7c00e33ce6c83f9eeee0a7c6b2 mac80211: assure all fragments are encrypted
-cf3dfcfbcba0b0d547cfa5da21e83f38a96bca85 mac80211: prevent mixed key and fragment cache attacks
-facd54fa08c557ea7d49c2f01aaaf3dba5940d04 cfg80211: mitigate A-MSDU aggregation attacks
-4b63c0a76e0b4786ac360b31995c28cc551cd656 mac80211: check defrag PN against current frame
-d2dc4323a73887a667d6a28d5f074915ba6656ff ath10k: Validate first subframe of A-MSDU before processing the list
-119ff568b693c45cec8e221e907a6b54933b644d dm snapshot: properly fix a crash when an origin has no snapshots
-01739cd95526e6c6b4e67a953ac029651b33d747 kgdb: fix gcc-11 warnings harder
-74e003ba90116a5c7472dad9474423d29d36285a misc/uss720: fix memory leak in uss720_probe
-2388067c9e36279f20c6c9ca8d8ca462c6f72cc1 thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-931e6ee19d886c20253d353254aaad2441c5dc46 mei: request autosuspend after sending rx flow control
-c20e2078eade28f133a5592a6a8580b959691a80 staging: iio: cdc: ad7746: avoid overwrite of num_channels
-328558afade72b167460d37d2311593fed83b9d8 iio: adc: ad7793: Add missing error code in ad7793_setup()
-f0cdf402b3760ffc9a2d66a871df2b8ae0aa53f9 USB: trancevibrator: fix control-request direction
-56b3a81db51da196f3aae2ba7e12ab87b87668b7 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
-08bb3b0b794a7003c55a61c05d24a9c0b6adbfe1 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-590aefc6fbfd015c49ebfb501a567539b3fcda12 USB: serial: ti_usb_3410_5052: add startech.com device id
-a080ddbdd57ba2062af12a2f344e73a1692bc052 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-1ea64f10624409e7cc8b3cf56d87a3ef0d40d7ec USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-ef1cd2bf748b93304794f90dea00508a17c92c2d USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-aad14432828cb649a0a5933a6a0bd29d55c720fc usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
-58f23b60147b1c7f9ad73adf35b4681440808071 net: usb: fix memory leak in smsc75xx_bind
+0317db223812f424ea1c693831b165cb2978c720 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+ddbac5be41e4751af26d2fe99ffbcd2f9b57cb97 tweewide: Fix most Shebang lines
+42b4a321b4af7dd965ea96bd4207be6787133fcf scripts: switch explicitly to Python 3
+651eafae5044c1f8003fc7c8826b1516677c4ec0 usb: dwc3: gadget: Enable suspend events
+5499db4f335c832d222ba0a6bc2e8332b6af5e9a netfilter: x_tables: Use correct memory barriers.
+42775ce830e561f14375f2b594706e3effcd2d22 NFC: nci: fix memory leak in nci_allocate_device
+763ebebf5f4ddffc7ba18bb8e55da91153351a0d NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+a825f149b15c688763bbac65895a87513e28a32b iommu/vt-d: Fix sysfs leak in alloc_iommu()
+dca0b61de5a83833e9c28ef64ed931e5751b6747 perf intel-pt: Fix sample instruction bytes
+c45e4aaddc31ba296ffc30b5e2bb8822ef3d38e5 perf intel-pt: Fix transaction abort handling
+467cd6f78a6648ebc9e8bd590be6fcc7d0a427ae proc: Check /proc/$pid/attr/ writes against file opener
+15685fccc41b2367bf1f23f29d7fdcf12ee7871d net: hso: fix control-request directions
+40780e4177c7005a91e1d3ed9fdcd1fa597512b4 mac80211: assure all fragments are encrypted
+2f2023539bc6f9ce3353d5028ff9ed3fd41cb78d mac80211: prevent mixed key and fragment cache attacks
+b3574f990e82000ae097f00c93b3960519a64692 cfg80211: mitigate A-MSDU aggregation attacks
+49428a4b016e3509d974ddb9977152d286ec02ab mac80211: check defrag PN against current frame
+facf67c5e24a0cdf6ceb88bd130d18f134e54bb3 ath10k: Validate first subframe of A-MSDU before processing the list
+c6ae16601127252e3c1a632cb74e83f216a2d5cb dm snapshot: properly fix a crash when an origin has no snapshots
+544d66ba212fe88421cc4cbeebe1b8cac996ca57 kgdb: fix gcc-11 warnings harder
+fdc617c512a1a6918043442bbc150623715fe2d8 misc/uss720: fix memory leak in uss720_probe
+2e1d7dc1b808a65076424494fffbbcdd3c6e3592 thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
+23304419792ce2bdf09e7aca4fe54072fbf3bd03 mei: request autosuspend after sending rx flow control
+e5b0e7a6064eb45dc89ebc43b3936cb4f13d2e36 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+647944fdc3901d3dfd53496106022c01d729fdc4 iio: adc: ad7793: Add missing error code in ad7793_setup()
+e296625202221e7b4dd159c07b5bb05ffd5ef3b9 USB: trancevibrator: fix control-request direction
+57ac4d65a7b74810f3a7bf0149254e4f829b1fdf serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+37d788b1372bb216c0069840a4b5526be1bf32e0 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+eba94da2c1ccad34b137a9c4d5e4b773c6c9a23d USB: serial: ti_usb_3410_5052: add startech.com device id
+31fbc2d75d232559f7f302b503f0882c94738d71 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+5f1357563792fba2852f4b1d953422b42ef9f243 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+84576feed031babec866b2cac432e3104023ca14 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+bafe4849af9e2ec444fab1d2befa9b729227c34a usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+f945f46ed6226e309617dbd0359a279f2b69d789 net: usb: fix memory leak in smsc75xx_bind
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51331aab9c31-e2e7bf8e56c7.txt
+Content-Disposition: attachment; filename=revlist-e2e7bf8e56c7-637b94c89e44.txt
 
-8e46b2a84fd1f45f42fec8af73dcd11008f6f243 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-874cb305bac34033b31ef2cc7911ab575342bd67 usb: dwc3: gadget: Enable suspend events
-a4cd7b7fb9e881bbcc970bcf624831fd532ba68a NFC: nci: fix memory leak in nci_allocate_device
-54d6c2d5049352823fb4fa68ee413344218ee3b2 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-8363de98631a291592cfdb4f73f3e66b454b2c98 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-f6764a98a0c33e052ddd7653a9cc950066829a47 iommu/vt-d: Fix sysfs leak in alloc_iommu()
-65c7fbbeb52bfc1f06917ccd6243fd54d1a516f4 perf intel-pt: Fix sample instruction bytes
-2fdb28631b72f50e670922de3d29decb166a0fca perf intel-pt: Fix transaction abort handling
-195481c7ae766ddcf12da4b86a21662282ca3f0b proc: Check /proc/$pid/attr/ writes against file opener
-dab7e256c0a6442ee98896feec4b3df35929033c net: hso: fix control-request directions
-f5d4780d827c7b819096be02e02e8068f609bb5a mac80211: assure all fragments are encrypted
-c0ea8f7cf242d01916b843148e18b084c1879684 mac80211: prevent mixed key and fragment cache attacks
-3df79b0fb8afb4d8ba28e7d7cde5f4cf5aba8095 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-cf927b00a68b3a9bb3cfeecb90f2ec6e492152f5 cfg80211: mitigate A-MSDU aggregation attacks
-8ab0a9ec7850299474a7cd51a63adaddc4022ded mac80211: drop A-MSDUs on old ciphers
-6a6391823571da9ecacfede081bf153d93950699 mac80211: add fragment cache to sta_info
-e71519138404ea3dc72e3efae0e1953d4583464c mac80211: check defrag PN against current frame
-03d360b31ea8b0092c9b369c783ed6191e322adf mac80211: prevent attacks on TKIP/WEP as well
-1c2449fd14441989ae7b0cadb308225cbf8af912 mac80211: do not accept/forward invalid EAPOL frames
-efb6d92a1b9a44edb5ce257255c634236f90741b mac80211: extend protection against mixed key and fragment cache attacks
-9691c12db6e67a3e18f0d1ff0948a4b872a9ef65 ath10k: Validate first subframe of A-MSDU before processing the list
-cb3422d3fc479ef1bb7a5e8e48f446447cf5e652 dm snapshot: properly fix a crash when an origin has no snapshots
-475dc3e0849212588284a3ebe49af3066038e1e1 kgdb: fix gcc-11 warnings harder
-fc295bd8f665ee877552512c4cbbb2f9cee948d6 misc/uss720: fix memory leak in uss720_probe
-ee4c93c50c85432ad2fc78e48d9bea0ec5aa603a thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-25cbd5aeccc1c28691fe04d18b019747ef80a6fa mei: request autosuspend after sending rx flow control
-3319dbb707bf026f7e2c57d035c2b6c7c22f5b57 staging: iio: cdc: ad7746: avoid overwrite of num_channels
-3a10d4e6db1efd99540e002689398eadf0f13511 iio: adc: ad7793: Add missing error code in ad7793_setup()
-4236a694e7af433a5cdf80d37f7e31031bcbe4e8 USB: trancevibrator: fix control-request direction
-dcfc18f04b591e6daba652ca670c004812444382 USB: usbfs: Don't WARN about excessively large memory allocations
-a175b9dc5cdae643b1a1e61478079da36ca8c4e8 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
-0e9129bec2726dd80b74fffe22237b2ccf13a322 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-cff53807fda9d4806a2cd076075a208cf972c512 USB: serial: ti_usb_3410_5052: add startech.com device id
-280a698e6a15c722e6e8ed98e7ec558530baf4ce USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-3260aa9a6d2a1d29ed44b45ce1f7ee3bfcb299b2 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-84fac03c9c6c0550110c562d943c527e3187525a USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-0196e32c313b7d7274e8676a55ab12fe452ea286 usb: dwc3: gadget: Properly track pending and queued SG
-e2e7bf8e56c7454cc73fd8eddb13277c9c3c4328 usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+28810b47329a6c18f9b151ec8cf262cd1ae48c61 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+195be8318db09df78cb0d73ab0ec2f55f661f53f usb: dwc3: gadget: Enable suspend events
+2b8feb5f86e453204719b52b14a030fcce41dc29 NFC: nci: fix memory leak in nci_allocate_device
+d094830cc049912beb30962cd3775bca76d3e25b cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+cc8d488a8a683663086b33270a2927857c3d2173 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+39e0fcda2eebe7dbf7e33065efb90dbcf3b3d29f iommu/vt-d: Fix sysfs leak in alloc_iommu()
+ca35fa4c17eaf080cff6ebdf641f990da04de3e8 perf intel-pt: Fix sample instruction bytes
+2f55e0bb9183fe3e047d78b08466f5d8f7f6311c perf intel-pt: Fix transaction abort handling
+9f2f00ae296369197338e6336a76132954759927 proc: Check /proc/$pid/attr/ writes against file opener
+f63eb6da9e6036f59c40c7fac21eb519f16cc01a net: hso: fix control-request directions
+ac40647779f23673430a59a8c18c7ffb79b1c3d1 mac80211: assure all fragments are encrypted
+0113c1424e8cf5d9986205148914d1cbde13af9a mac80211: prevent mixed key and fragment cache attacks
+9524d3b3c40b518767396403985d0a8a73dfcf62 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+c4a7ae39c258d2dc3fe8b255de084c60efe7ae15 cfg80211: mitigate A-MSDU aggregation attacks
+7f63340260d446e49f57c93ded3096c43bce8f57 mac80211: drop A-MSDUs on old ciphers
+0c6c5ea17f3d205278d6d44899de7caf02b428e4 mac80211: add fragment cache to sta_info
+74a3664d6338f313cba2519e21b55b487ead6d41 mac80211: check defrag PN against current frame
+a27101602fed6d4a4ccd47c9af01a3989579a740 mac80211: prevent attacks on TKIP/WEP as well
+90f1c14c434f79249bd39b7a1818642692492750 mac80211: do not accept/forward invalid EAPOL frames
+6e1f81b12280b3ea317bfced856a7dcc5f24cf15 mac80211: extend protection against mixed key and fragment cache attacks
+b12c3c57a60c38a8c5b0a32b390cf9adec00b568 ath10k: Validate first subframe of A-MSDU before processing the list
+2b2bcaae597d5dfc128f8d1966104f38219752d8 dm snapshot: properly fix a crash when an origin has no snapshots
+4a3fd0f7dbe967c36766c6ad8b95d120e700a5cc kgdb: fix gcc-11 warnings harder
+dfa9887361afc00a5810c53dc8704f466e96aefc misc/uss720: fix memory leak in uss720_probe
+3c21ea527c9674e1754121af8cc9c48f0310cbcf thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
+fb668bd2df5732c67907e22c39564f4591a3a0a2 mei: request autosuspend after sending rx flow control
+c71a1333e2075f6cac1238edaf9bc8bc8166fa1f staging: iio: cdc: ad7746: avoid overwrite of num_channels
+ec230a67a59c76f7960c81dbac8b0a35d3877ce8 iio: adc: ad7793: Add missing error code in ad7793_setup()
+81bd8901788c86ea82e73dc9c9bc0a6853e921d7 USB: trancevibrator: fix control-request direction
+8b545f6c875c7c68c21545d92f9839ce59db4519 USB: usbfs: Don't WARN about excessively large memory allocations
+585882a4940b469289564d5a43e612db3201a8fa serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+9e4d1c8c1f5edb28679ef41f0533857534aedea7 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+c8e4fb2ac57810b29858477717f0b37ee474aba3 USB: serial: ti_usb_3410_5052: add startech.com device id
+cbb177d64115197fcbbde99314482e2595d8518b USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+61e2169ca4ceaf294f78fa90514fd861f1572c24 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+b777575b63b831246bba0a079b79571833def69e USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+2427d74c737d43e99fcb53b795ea5f5c23e1380b usb: dwc3: gadget: Properly track pending and queued SG
+3ca1d42588d942a9fc72325f68166de42658abe4 usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+fb2067ef2b4ae2f4acd98a2658132a69dd0ab135 net: usb: fix memory leak in smsc75xx_bind
+ad548b4576dcc5ad57191cd7dd0fd00d633d177e bpf: fix up selftests after backports were fixed
+3ebe4090fc7a65d3e03f20d213696cd20d992429 bpf, selftests: Fix up some test_verifier cases for unprivileged
+fd5a32a5d7d45892d8621969484986236ffdbbca selftests/bpf: Test narrow loads with off > 0 in test_verifier
+72ddb21b2d10d68ff847a1a6d8e4dd05ec5f1df5 selftests/bpf: add selftest part of "bpf: improve verifier branch analysis"
+aea4b76de690f2a106400d7094bad40e21420f1d bpf: extend is_branch_taken to registers
+21d20e2d505f97a9be9c5871ad074dfea8868c4a bpf: Test_verifier, bpf_get_stack return value add <0
+bb31e026d7223b5b1e7473b107e9048837e6ae67 bpf, test_verifier: switch bpf_get_stack's 0 s> r8 test
+19c238115abf8c27eb03790b5077b871e9a84411 bpf: Move off_reg into sanitize_ptr_alu
+08fab15af2297669dfd7460c9be736f1919012b3 bpf: Ensure off_reg has no mixed signed bounds for all types
+0104f7bd97f55749a0f5114f1a817aeb7eaa3037 bpf: Rework ptr_limit into alu_limit and add common error path
+ca0e8593f382ee401da8d5ccad6490b4260959fe bpf: Improve verifier error messages for users
+d1cea4c9ab44955a82ff16dbbd033df9fb03196f bpf: Refactor and streamline bounds check into helper
+48f4e9c2e3678a4f40309477aeb6ec78859c81c5 bpf: Move sanitize_val_alu out of op switch
+4def353f6ded750d0212ac39f2b3f8cc244c0133 bpf: Tighten speculative pointer arithmetic mask
+9f1c44f16fb17b948be75dc3726237e38412b0f1 bpf: Update selftests to reflect new error states
+8d87a3972146aefb5bfebd5b264c3deaf0f42647 bpf: Fix leakage of uninitialized bpf stack under speculation
+44a2266d14f980e0b24e993d8b85010fc8d6ff4f bpf: Wrap aux data inside bpf_sanitize_info container
+54aac9bf91b08dbe1d6b4a9d4c25e67efb4c6747 bpf: Fix mask direction swap upon off reg sign change
+eedcf2489b90040cc2e88680b988f8dfc8485387 bpf: No need to simulate speculative domain for immediates
+3d9374281202465359935a73a94381519726d9a0 spi: gpio: Don't leak SPI master in probe error path
+3d97a6ae74d1b48e80acdab564ff851420dcba8f spi: mt7621: Disable clock in probe error path
+637b94c89e44f944c654ef7d9278a170aeb3a250 spi: mt7621: Don't leak SPI master in probe error path
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8bd4a2fa3f2b-981dfa349d4d.txt
+Content-Disposition: attachment; filename=revlist-981dfa349d4d-10331bb40cb6.txt
 
-725a1df6eae00160324d9ebceab4a9029f17b893 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-f39fcd4a01c5f9e13acc986e08f5218cd7e22de0 netfilter: x_tables: Use correct memory barriers.
-85a12ea53ed086344a459cff8f81b9367dd198b0 NFC: nci: fix memory leak in nci_allocate_device
-d0fe124556949a81d6460a8be81347e098eaef1c proc: Check /proc/$pid/attr/ writes against file opener
-49ed9c8d27937861628ab93321b4ea8139d45d93 net: hso: fix control-request directions
-da11a6aad78b8bd828700bbeabb9e0a48140bdf3 mac80211: assure all fragments are encrypted
-52b655de0fb0498a6a6f3dc61e94a92b6bcef9cf mac80211: prevent mixed key and fragment cache attacks
-e44468f0c4a343dfe904037cfd7086e408ae6902 dm snapshot: properly fix a crash when an origin has no snapshots
-cee77bec89c7b00a20eb25265eca388a95f10141 kgdb: fix gcc-11 warnings harder
-07cbbb04c8228fa435f782bbbadffd02a48c4621 misc/uss720: fix memory leak in uss720_probe
-a463f6b376610d725c85680750834eac5a30b8b8 mei: request autosuspend after sending rx flow control
-e56c46a5dceec81e6d8a28c772681a061dcf89a8 staging: iio: cdc: ad7746: avoid overwrite of num_channels
-de3a7d6323c5e093b0a32fc45c705d4cd25d0591 iio: adc: ad7793: Add missing error code in ad7793_setup()
-05f46d087309da1143d3b449cbe472773708a4c1 USB: trancevibrator: fix control-request direction
-facba3a8fbf1fec302e8d728feefbe6e11553e26 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-3794e330053c9ee2ae09c5f973fe65f0a9215cef USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-15f938d5459c109319a8b845235d6ce60ad9f25f USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-9a7e636d9f8c311239c18ae1a7cf659a4d2be7dd USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-ec554d1464ec3707ee234fcc20b62825425ea036 net: usb: fix memory leak in smsc75xx_bind
-3f97337a9b1c36a4010001d72a6768123643c564 spi: Fix use-after-free with devm_spi_alloc_*
-981dfa349d4d209a7fbfacd9424827dcdce5afa7 spi: spi-sh: Fix use-after-free on unbind
+68e02f192bf8c0b0fe1ed40248eae2001aa131de mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+dc52dcf6976596c2d74153a29e63a0d0f87c7b16 netfilter: x_tables: Use correct memory barriers.
+a9f01198692d35e17fe0692589aebdec692c7479 NFC: nci: fix memory leak in nci_allocate_device
+eabd90f7acee2cc3258e7672e2275728f7b4bad6 proc: Check /proc/$pid/attr/ writes against file opener
+4dce28c7ac43853ae8fe04029279ce6166afcd63 net: hso: fix control-request directions
+b7f9fdc747bf1188a053726364548a9b367e0bb1 mac80211: assure all fragments are encrypted
+ce542baeb178cfab222270f5bd203237be40252f mac80211: prevent mixed key and fragment cache attacks
+27954fd9d7c13a8e2c352b034c9b5ee75afd6aa9 dm snapshot: properly fix a crash when an origin has no snapshots
+0fc2b932c11d8edc921e9d05896d6cbecc619728 kgdb: fix gcc-11 warnings harder
+3b698043978d1daf17fce4c5f68be449893cc218 misc/uss720: fix memory leak in uss720_probe
+27627db661deb2566f595490cd0be9392d666a80 mei: request autosuspend after sending rx flow control
+7cff391c737c284cce32e04970badacd65361758 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+f8943aee84d048feaf10d15e6bc9f64c4b92c896 iio: adc: ad7793: Add missing error code in ad7793_setup()
+c96276293175e4cdc02cd1f0e69bdd7ff62576b2 USB: trancevibrator: fix control-request direction
+71ce8d747e6207af8bb9db90d78c98dd9942ff44 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+6628b8e7da53d651dab8892e245aa341158e2f41 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+394e76e54691470d2e236f39723e9c1a93fe4cb1 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+ef4913e406a2780c580ab5b7a3a40639d31f9385 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+724a25b4c2c1bc81bc7e3906d5176fb6145e4cf7 net: usb: fix memory leak in smsc75xx_bind
+616520580dbd072ec8c0666a5c389e7bf92ee9d3 spi: Fix use-after-free with devm_spi_alloc_*
+10331bb40cb6c13f1666b2760bf01d7a4f7e7656 spi: spi-sh: Fix use-after-free on unbind
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0239d66d5682-e31d9b536927.txt
+Content-Disposition: attachment; filename=revlist-e31d9b536927-c56c4386106a.txt
 
-f519fc1502ab5a6e0a1726e986bcb613b94a960a mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-75e2d53b447714303f4df54e490c55eaf6aca9d3 tweewide: Fix most Shebang lines
-2b8826731dc8769598db2da0852265cc49a886e0 scripts: switch explicitly to Python 3
-9426c3afe848a5cb64d3b93a36b2166e096b2e5f netfilter: x_tables: Use correct memory barriers.
-a701a40e2cc686651ccd8f7e79bb03e9411cb1e5 NFC: nci: fix memory leak in nci_allocate_device
-65e9d07b370d4cbbe917129cb5b6dbb792d49b41 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-559fbd009d43709fb9157f093c537759e2066207 proc: Check /proc/$pid/attr/ writes against file opener
-07bb392a2e6c6664313abf32e7ef0f23b4b81803 net: hso: fix control-request directions
-99acfb88ef9268abe170bbaa23c3103a52c0879e mac80211: assure all fragments are encrypted
-cbd5eb5834d826df5dd6f15f6122628ec59b17ac mac80211: prevent mixed key and fragment cache attacks
-29a5f4d07d6084f9e72fdb3853f7c0ef8449f496 cfg80211: mitigate A-MSDU aggregation attacks
-ad6384bc91286ad66f8fee5969e9ef6dfa8070d3 mac80211: check defrag PN against current frame
-cb78697d22dbc3ceca7f44b0ee108c85a53273f7 ath10k: Validate first subframe of A-MSDU before processing the list
-e07aa5c56342df3fea31841cbe7f13bea5f33da4 dm snapshot: properly fix a crash when an origin has no snapshots
-376c4a49f38084b557d995897fefa947642c59cc kgdb: fix gcc-11 warnings harder
-abe36bd208357fe581426defbb7a53b2f20dce5c misc/uss720: fix memory leak in uss720_probe
-0f96b729c98b0989a31e7d6738b766f20209a325 mei: request autosuspend after sending rx flow control
-710da27a8192be1ca10a4ceab0a5804a677190f6 staging: iio: cdc: ad7746: avoid overwrite of num_channels
-34c48c5b245a8936d54648dc13226710d6b70c31 iio: adc: ad7793: Add missing error code in ad7793_setup()
-d489f34acfd2297ebdff3c08c0dfc75800658024 USB: trancevibrator: fix control-request direction
-e1fc10041e551ccffef2b6961b561f6af0246f9d serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-eb91939506bd151b291613ea088a6445594a4a8e USB: serial: ti_usb_3410_5052: add startech.com device id
-7f18903e935307052e318aac453d04f1e9d4c5dc USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-5af0d7477bdaef527cc8d2e7ef138f43ff6a348b USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-e89ce7acf58918ad4335ae12d936f8acac886637 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-a9572992ff8a50a95cdb99f8d1e9dd7b6ad7ed79 net: usb: fix memory leak in smsc75xx_bind
-e31d9b5369271a5762cca992c3dc4e20a6e66d5c spi: Fix use-after-free with devm_spi_alloc_*
+d02925857dfa6fdd310390862169d3e974a18929 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+d83bdccc114a768fb00eefcf814e895425b5a535 tweewide: Fix most Shebang lines
+b90ef1d63b7cf1b566d341d7b2c70aaf6a8c0805 scripts: switch explicitly to Python 3
+6d841c2b5c18d4ba718e085ce1d4d9679cb0b049 netfilter: x_tables: Use correct memory barriers.
+57833210f862b2faa03cf9a6e3cfcb62fe9aaa6c NFC: nci: fix memory leak in nci_allocate_device
+6d829c1b136e47239a4a2b83c9852e4ede86d168 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+9043edf58e96a11af39d7a67ee254d8dcf297acb proc: Check /proc/$pid/attr/ writes against file opener
+63b71c41c0d6e18368d77b8cb8879437b5ed2a48 net: hso: fix control-request directions
+d8bc83257ae7676a766199028e9dc288d74682a0 mac80211: assure all fragments are encrypted
+faaed41b04e82b646103dd30b3fde3720bc7d844 mac80211: prevent mixed key and fragment cache attacks
+21b289753e8b0cccb413be56e5537600dc5c167b cfg80211: mitigate A-MSDU aggregation attacks
+aba9b56515d115467578cda227a3d3e283bb6613 mac80211: check defrag PN against current frame
+a4cd4e579055d65a71f8229f8cd0acf694e3d4ca ath10k: Validate first subframe of A-MSDU before processing the list
+3b148fb751e46ef9bce051510dfc42963a218f68 dm snapshot: properly fix a crash when an origin has no snapshots
+3ef39fcfbb36bd72f3e94191881d0238edf3e17c kgdb: fix gcc-11 warnings harder
+cb56cde6a3f7024b2aad1c90c433945bd1688632 misc/uss720: fix memory leak in uss720_probe
+89e7dc2b4a5068c7ae26ccdf7865f9143366d59d mei: request autosuspend after sending rx flow control
+0b9ed8c5f8e9d305978b586dcf485fa7a83da606 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+15d107f3e51ad936eeff5efbfdf69a6d007f847a iio: adc: ad7793: Add missing error code in ad7793_setup()
+1abf9085c8dd2ef91e4ddcb2b01a3c97ab108967 USB: trancevibrator: fix control-request direction
+a0f1da2d81143ba48c0ace41b23c1a2410ed3c32 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+ec91fe5acc952b3e73227cd05c1b57fb9ea0ebc8 USB: serial: ti_usb_3410_5052: add startech.com device id
+a1fbf0b4ad77a0600f8f916242ebe65f401400b0 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+0bba8d18bd2aa1d9b74445bb81bb1a10638b8e46 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+8421d2771c75afc94d55b57c42af5a55ee567e96 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+6e4e6e3c99183299523134f58eb6f0c86d868208 net: usb: fix memory leak in smsc75xx_bind
+c56c4386106a861cadeaadf29db69ef8584397e5 spi: Fix use-after-free with devm_spi_alloc_*
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef1477410758-d63ea1802883.txt
+Content-Disposition: attachment; filename=revlist-d63ea1802883-793b71a7b67b.txt
 
-d392da8859e6acf9d7a1ce5ebe3c3a991d8cb4bc ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
-1d59c8ae4c690af359bf2a74ab87a41913e331c1 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
-bd6fb5b80130d2e3d0d3b0c97f6567cdb042c372 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
-d52e155cd87e176edfeebea6630d1870d286b85c ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
-26f91a3ad5a576d374cd3b6fecc9bb94f609ce85 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
-1d21b04111ab97a314186dd2bbdc7637a0bca8a8 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
-85911f5f6d08496a29055346ce69913748ca47c5 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
-df4cb793d865e92b9e2936051fbe0846ff5e8bad ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
-c02eca20055dac3019b4d980996a35f020438946 ALSA: usb-audio: scarlett2: Improve driver startup messages
-d9f8982b01a9dbdf676282b2124465f3e16b06cc cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-de4c15bf52f60a51dcf8ed7e322597473f837097 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-c97094925c6728a792ad77c162258defa1f1f1d7 iommu/vt-d: Fix sysfs leak in alloc_iommu()
-46b4c68475c5754ca954d37ce45a532fae83597d perf intel-pt: Fix sample instruction bytes
-b958f263764849e2d1508db3bab63c64232bdbcb perf intel-pt: Fix transaction abort handling
-142da5bdeba33797ba39af50266ae5912339f682 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
-26932b73252a4b594572949647ec21405f8d2996 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
-3ce102cb6393762fabadc0e7d8d6779ed0ea44e8 perf scripts python: exported-sql-viewer.py: Fix warning display
-500dba4d63ee2ed63a225902abbdc27daeb8d3e9 proc: Check /proc/$pid/attr/ writes against file opener
-26f01e8cfe0d725b155e5570e77dc83d3987938a net: hso: fix control-request directions
-eb53a219fbd0656c35f0567f0c90f0b8011eb32a net/sched: fq_pie: re-factor fix for fq_pie endless loop
-a9c33f94f807fe074f6e97853393829d46de3375 net/sched: fq_pie: fix OOB access in the traffic path
-197ced40aef26d9bdaf7f8db6cec2fae8a43f320 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
-62a224a97dea2b4e6dede4f15b8ed36dd81de5e1 mac80211: assure all fragments are encrypted
-ac9735ea3f83cda4f5182907e44875611ca05536 mac80211: prevent mixed key and fragment cache attacks
-7c5cab644a210390a14b5426b83648901b11b998 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-108bcf04e80df209ed7c7294034524be001cc633 cfg80211: mitigate A-MSDU aggregation attacks
-bb36c4b365c4b80731aa0c47271852f0d427ae10 mac80211: drop A-MSDUs on old ciphers
-1558d878957e9c9370221e159382e74b9930787b mac80211: add fragment cache to sta_info
-5d44ee4aa9c0c699290886ba9831e466656250db mac80211: check defrag PN against current frame
-af4807ef6cefcd1a3b1d8306160ff733c691bd5e mac80211: prevent attacks on TKIP/WEP as well
-44133086a6859f6c55d61028b68c5bd78fb94f46 mac80211: do not accept/forward invalid EAPOL frames
-8528446d78e172bb07e2ec1d36165962a5853b60 mac80211: extend protection against mixed key and fragment cache attacks
-e7acf4a9b27d1eaaaf472c71e1473bc2b2c0fd39 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
-42ceb46a01054e702036a1a23a3f67d735488f8e ath10k: drop fragments with multicast DA for PCIe
-4528b28c737eb8d6c04914cb35e283f2f857d6ad ath10k: drop fragments with multicast DA for SDIO
-41081fa67b8135c75303cff43f0971bd0d85fa02 ath10k: drop MPDU which has discard flag set by firmware for SDIO
-d022cd7a7cebd6805cba5362485e638b29728db6 ath10k: Fix TKIP Michael MIC verification for PCIe
-cfb73c5936bc04e4df40954888e43f7133256f27 ath10k: Validate first subframe of A-MSDU before processing the list
-cca90266093f85901a33a45bc498e8c361fe7be2 ath11k: Clear the fragment cache during key install
-6bc64aecb3448cf10d196540f848ed24dd1499e3 dm snapshot: properly fix a crash when an origin has no snapshots
-eb2063b5cd739ac2ee7bf6a7f5ad1ecb00ab40aa drm/amd/pm: correct MGpuFanBoost setting
-9bb512f41dd8a7c398f54b34e9d3088283310846 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
-216df5471e1eed9a1f1e5b63775fd4f6e99dec31 drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
-187068c3408139459fb81fe50e84581b2f077a44 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
-b27f0bd67f0c9a2878312e5271fe1502ca8ab955 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
-7025da92772c608b30df0cdb953211526869f643 drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
-026df784253b7c60a64aff0cfee59921b8000b95 selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
-44fb6b7f9773ca33e2cfac2a0005036429127687 selftests/gpio: Move include of lib.mk up
-17272ad9ad1418282c369f2aee80c4d4cac4533c selftests/gpio: Fix build when source tree is read only
-5c272ecbd190cf65aee54fe2976aec4bf5024e0f kgdb: fix gcc-11 warnings harder
-4235cd2bb47c47399b1658f5428ea5b3ac2d289f Documentation: seccomp: Fix user notification documentation
-d1cd1702a125c8c66d1efa0fe182ac197d3b910f seccomp: Refactor notification handler to prepare for new semantics
-8e2cc71e68a1467cd539f77f959a8d3529ecf253 serial: core: fix suspicious security_locked_down() call
-bc2963ae4659842471abe7395755493ea66f5071 misc/uss720: fix memory leak in uss720_probe
-35151fb68f41baf2a235c21143fe455e4c4df62e thunderbolt: usb4: Fix NVM read buffer bounds and offset issue
-9f7b4bbc4dc8f5c7964ad2b4eed347778d35015a thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-5010f92d6b57330cafd90a9dafa4d427e5313ab3 KVM: X86: Fix vCPU preempted state from guest's point of view
-fcb4f55cb210e2ac2f9d8642856a6a3220ce34d0 KVM: arm64: Prevent mixed-width VM creation
-676aeea04ad51fbca35d996df9133034a47ab190 mei: request autosuspend after sending rx flow control
-b58aefc60c6b950cc72b5243b1b1befef3d4585d staging: iio: cdc: ad7746: avoid overwrite of num_channels
-4ce9e644c41d31497862edd2f45163f07a4be67d iio: gyro: fxas21002c: balance runtime power in error path
-5d28e123602866c161e0922a9903a43af9a32adf iio: dac: ad5770r: Put fwnode in error case during ->probe()
-b6cd27eb2c99fb92951cd1a2caf818d688dae93d iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
-7798070bfe640e401de3b1ebaa013c78b38ac0df iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
-49f1c223caeb346dbff8393714d5c2f9cfabf2ae iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
-3f3fdd9b29b6c84073272013f87af567921d4881 iio: adc: ad7923: Fix undersized rx buffer.
-18aa967ff5e1d852dbeabd348afafbde9535128a iio: adc: ad7793: Add missing error code in ad7793_setup()
-df74a393d29532d1fde81745ab5de3b855b33c85 iio: adc: ad7192: Avoid disabling a clock that was never enabled.
-5b56bb6b057e0b711947fc03e7d8a1e1c0abffaa iio: adc: ad7192: handle regulator voltage error first
-d4f782c1230919d05052e53470259337ca5b5f53 serial: 8250: Add UART_BUG_TXRACE workaround for Aspeed VUART
-4b2ed99ceb9ce53b72088d3b7ab9b0d1514b7f4d serial: 8250_dw: Add device HID for new AMD UART controller
-9aba43945cf7f788ea95dd06d6c37685e3771b86 serial: 8250_pci: Add support for new HPE serial device
-eea895314a307ef6641627d6d28156ca174120b0 serial: 8250_pci: handle FL_NOIRQ board flag
-fd806818fad4d0d39482d1b6cba0b866d957a31c USB: trancevibrator: fix control-request direction
-09a6133068ce68c275c87d1ee1638f99c9cb9b58 Revert "irqbypass: do not start cons/prod when failed connect"
-17f433df6a33f9c3ecc263ef8b4a17b9f627c35a USB: usbfs: Don't WARN about excessively large memory allocations
-33eaf93765865da1d7f76c3a224b50fd1d44ed32 drivers: base: Fix device link removal
-06e2c01833a2b0c7210dd64683e6d5c2938e3be1 serial: tegra: Fix a mask operation that is always true
-0fdf681168604ea0a99c30d3f1f8d7262d366222 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
-e9c96e9584ec70fade44877af88b506544b7c55b serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-52f0a4a3886f4e80be69536395a884a6d73ba82d USB: serial: ti_usb_3410_5052: add startech.com device id
-18965e4cf683ea10bebe3f49c69641798ac6043d USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-8d15d1de8b806b550c974ee2a22346698b115714 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-1e7cefd55bf5d8e1bfc30699001ac8bdcc1e7ec4 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-c7057ef79c14bf14cc7f6a14a6569ec3e9198c6d thermal/drivers/intel: Initialize RW trip to THERMAL_TEMP_INVALID
-5ccdac86e14a46d6b164130e50d5d6d701b3ac9a usb: dwc3: gadget: Properly track pending and queued SG
-2743242547c3d3ab8fd6d67ca897c67c26bee64a usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
-d63ea1802883dfde4b70b3866cc5442c6c5722ea usb: typec: mux: Fix matching with typec_altmode_desc
+359038694fd83d4949a260374212134c234182d2 ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
+0ff1af1817605814c3e8cb6cfc6940a9c8e41544 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
+890292785ccc1656e9f0a6d9a05900ad8fb7f6e8 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
+c676ca81632ded2052b16ce2e1adad8f5b096979 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
+931954efdfb3d3c49e047677f457511aaaff7e64 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
+bcf3b51beee4e8d5fa02d017065a04148a16a6e0 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
+4766a265b990f1f412d2062999505767b757a196 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
+c9ae06f6fb91fa632df230cbc9a6886cc07680f5 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
+36664173b75ecf754450194bc14570ffb3a8f36e ALSA: usb-audio: scarlett2: Improve driver startup messages
+12d74c21e5e0667206b56a94228f3c745d11d819 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+397190693061d7e43b13f1f3d343893d3faca54f NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+cc52bc7f6d614dac2a9fd959ddfda92d82abf699 iommu/vt-d: Fix sysfs leak in alloc_iommu()
+37e73dbce02924eed98c4b9eb6f2df307adbe0cd perf intel-pt: Fix sample instruction bytes
+3cf70e03ffe7ce1106e740a241a8001435f1739b perf intel-pt: Fix transaction abort handling
+db783fd26513544101f97eff4ebb92d400e8faa9 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
+a36d93485a2d692d85c11c2c994494e0091759e0 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
+f2c175b0fcbf5b3484763c20d5df8f3e56eaacd5 perf scripts python: exported-sql-viewer.py: Fix warning display
+693df443339bf1ed9dd646278a7d0786c6b2ab29 proc: Check /proc/$pid/attr/ writes against file opener
+6e48af7c6627d3bded6ecab565607b9a9bfc2bfa net: hso: fix control-request directions
+4227bce29914c42c8871c2346b7e4b02f1219ba4 net/sched: fq_pie: re-factor fix for fq_pie endless loop
+ecb58019c32931a83e03648e60e27f02b2f06b7e net/sched: fq_pie: fix OOB access in the traffic path
+0490492d0085a6456ac9f40d6157afbedf7b1c79 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
+60182d0de9bbcbfc4892d30fa76d2d5d3ac3590f mac80211: assure all fragments are encrypted
+856acc8a497b8639210789a4e541d2045edd95c4 mac80211: prevent mixed key and fragment cache attacks
+80a383efad9abbfeafbf41ecda6f8d62c470826c mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+0e599cfe0bce847cb204b38d963a2d4f37999e15 cfg80211: mitigate A-MSDU aggregation attacks
+af2e0c720aecc24cf3832d9794df4fab3d8b4835 mac80211: drop A-MSDUs on old ciphers
+ece0116ff61eaecdb105be50f4f0456faa0f65c3 mac80211: add fragment cache to sta_info
+f6656262e990d3ef3a845d293c69503c5dc1ee98 mac80211: check defrag PN against current frame
+3c2b60fe3a0afd8b7e54f99173ad3b9124e985d8 mac80211: prevent attacks on TKIP/WEP as well
+a922aebe595f3b4721f11b5e85532a4726f37776 mac80211: do not accept/forward invalid EAPOL frames
+4e8c7bbc41ca0cf16a91bc3d1ed73527bfbaf807 mac80211: extend protection against mixed key and fragment cache attacks
+1fcacc974953141aea8a1642fdac32315353f6f8 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+f943e3705ec6942c8960a13ac6655de3de6b3d6c ath10k: drop fragments with multicast DA for PCIe
+4a2b14035e61559c5d6f3f287b59a31a4ea74e45 ath10k: drop fragments with multicast DA for SDIO
+0cfe3042de10ddebf4a19a56433050d37509b309 ath10k: drop MPDU which has discard flag set by firmware for SDIO
+76f9ff5840d66e89366f7ecf5f6c0699dcb74270 ath10k: Fix TKIP Michael MIC verification for PCIe
+a5561fc65939e5c8dd165a6b1bfe411d439ce593 ath10k: Validate first subframe of A-MSDU before processing the list
+eb5dcb13f444e52b6fd4add054c43afcb2bdf98e ath11k: Clear the fragment cache during key install
+86711bc15bf597527ee6c2c01634c5ddae13767c dm snapshot: properly fix a crash when an origin has no snapshots
+438b8dc51f917cbf4d5726af6398f81ef263b40b drm/amd/pm: correct MGpuFanBoost setting
+a31470371a10c9d7b0aef2b6d4490e1defdf4d11 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
+c56a320e06d603c2667f299d7b122846a9026fcc drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
+997add408a7a2b3ba511a1bff4dddbe092d39d98 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
+a650177242c5214956be23e8148eea3d7640b7c2 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
+24cf15ca69569d7bbf3eee70525c821cb87897ba drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
+74933dab793801a079f58c0f96eb4b2009350b99 selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
+ef5a83eb36bfca1307aeb35ea4e8a623887bfbfc selftests/gpio: Move include of lib.mk up
+350e4e6fd77314fcbfe0330551c2f985e6891183 selftests/gpio: Fix build when source tree is read only
+67b1d0ad82aed0841ec3c203ffe897a6c4b0d109 kgdb: fix gcc-11 warnings harder
+5c4dfe773f7dbe136da16a4169cfed16d8b5ff0e Documentation: seccomp: Fix user notification documentation
+86cd15255b525985617a44e700a25fedecd6dcc3 seccomp: Refactor notification handler to prepare for new semantics
+2909238007272cd3b29b5b56325d8455eb5505d2 serial: core: fix suspicious security_locked_down() call
+0212098286460b958c197575cc408c6a5824a18a misc/uss720: fix memory leak in uss720_probe
+6def97a2f22cf8fb41a3218229306aa46bc67c00 thunderbolt: usb4: Fix NVM read buffer bounds and offset issue
+a85b3848d982c6097116b4b700d3269c8dcadb00 thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
+0f2b6a1c7dcef733e69db2601bcfcb4405495f62 KVM: X86: Fix vCPU preempted state from guest's point of view
+c8d23d2c308524e9e9de9a24c9f964db3144b427 KVM: arm64: Prevent mixed-width VM creation
+6ec77d3bbd8c0d81d9d0a99410cd0952e80f733d mei: request autosuspend after sending rx flow control
+a5966c67bce8ebc3f02c9e2afb7b0f6f1d8fd907 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+d48d5d3d5e4d72135cefaa9d7999a6bb086aa94d iio: gyro: fxas21002c: balance runtime power in error path
+b40087f7b31f9c54805f54a0635c31d5e3e24377 iio: dac: ad5770r: Put fwnode in error case during ->probe()
+9d020f66ddc1e429950b323742d50d15e7104937 iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
+56e43ad771ed4ee90746eb756a43ca6a63db4a6c iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
+fa42bad13cb41baa70b1ed2bbca24b57bf3be814 iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
+5b9159942eebb118764ee6a62107e2d3e9a13762 iio: adc: ad7923: Fix undersized rx buffer.
+f8e7e149e762aab53146da31e40662025c506457 iio: adc: ad7793: Add missing error code in ad7793_setup()
+9acdd6cbdac52a3b8bc23ec5d46b6ce40b10abcd iio: adc: ad7192: Avoid disabling a clock that was never enabled.
+f71d3fe8d60112021c3b0d6b933006b8f6085387 iio: adc: ad7192: handle regulator voltage error first
+95c39916d572fc7833a1fd34e3394680df7ec4dc serial: 8250: Add UART_BUG_TXRACE workaround for Aspeed VUART
+0d794fea7ac2f3f769ecffd49ca23d85097caacd serial: 8250_dw: Add device HID for new AMD UART controller
+49f0555439cb46a7f32d707cc56a7e8091f34b1c serial: 8250_pci: Add support for new HPE serial device
+5b4a846bd2f7685e64617e4105268653e97cb639 serial: 8250_pci: handle FL_NOIRQ board flag
+c554f6a76985c8a600257f564f087aa02db23c51 USB: trancevibrator: fix control-request direction
+05615d9c1fb98f3fa96b794bdef9faa4ad3e50af Revert "irqbypass: do not start cons/prod when failed connect"
+6480ad2dfa91e83f6f2faa2d263495b3fc00476f USB: usbfs: Don't WARN about excessively large memory allocations
+1bbedd490315c89f804a2840b5e293e9f466f145 drivers: base: Fix device link removal
+fb0ee7e408d93a1c589be7f3f611516c7f566355 serial: tegra: Fix a mask operation that is always true
+13473ed8329662a9952c5566ea4d640f4b3d4da6 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+e976d239436f890ed4b2f32b6b3871abb9b0254d serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+5627eb396b880f0955100a227e277fea24b629e1 USB: serial: ti_usb_3410_5052: add startech.com device id
+42e334bf25d5a645c5e2333314c0bc6b16bef4de USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+b0f07b127f2c0d29bcedc4efde26f101a54f4778 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+5147c625085b0e22b82c9cbd3654ad1d9f1490b6 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+e568058327a74b70b28b603e064db729467a5e48 thermal/drivers/intel: Initialize RW trip to THERMAL_TEMP_INVALID
+20364de1e135a5b2b30e8131e09fe1923cf75532 usb: dwc3: gadget: Properly track pending and queued SG
+6e9ac78fd454743826afaa51304918d415f2874e usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+4ff65e469c00e92bdccefa238cc66246faccd2f1 usb: typec: mux: Fix matching with typec_altmode_desc
+793b71a7b67bdb55739edf01e1f78e3889e1012f net: usb: fix memory leak in smsc75xx_bind
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6a391109100-6c3ef5c07533.txt
+Content-Disposition: attachment; filename=revlist-6c3ef5c07533-4100864c887f.txt
 
-48e80e54a26c6aba56151a4224d7a4be693ff33a ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
-485d2509c43059b5fd3da611e3779927c4808d76 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
-071573e27bbc27b8bf4e9c61e9f19e4fc290813d ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
-22b7a1036580a46b24c9261364cf802b762c7102 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
-900d539be6945ce9ec2fafd94a612ded89aea7f3 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
-20a78aa760104bc201491404d0119a413243838a ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
-5afdf2f1ad7fa5c63f777fd7c18d1f72b92ea239 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
-339b7a0eeb6db669e3bf800b2ce8860c2ba0ca36 ALSA: usb-audio: fix control-request direction
-3908ed7a1715e3517bf15bf6d93ed3b7d70b7482 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
-a0ff956b719188fc62cb587bf643f82dff43dad6 ALSA: usb-audio: scarlett2: Improve driver startup messages
-051d2d56a21683db0470b719f0b83df50e33a799 cifs: fix string declarations and assignments in tracepoints
-362e8b0b63bf03ea5d6a46e1ee6d133e1a1e83e7 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-9edc8c41ff733135f96bb2c398d4d16eb6bb3fc6 mtd: rawnand: cs553x: Fix external use of SW Hamming ECC helper
-9ce7a2752ec147f6186f89c703b8bd29357ed0f6 mtd: rawnand: txx9ndfmc: Fix external use of SW Hamming ECC helper
-85924e99c3b54100757bea2195747c4569d66b7f mtd: rawnand: sharpsl: Fix external use of SW Hamming ECC helper
-7416182685673d636c17c47dcb25adac619a8330 mtd: rawnand: lpc32xx_slc: Fix external use of SW Hamming ECC helper
-05b8ba026a342ffbc4e25e5d2021113bcd5363f0 mtd: rawnand: ndfc: Fix external use of SW Hamming ECC helper
-04110b4ff9dda7bf9a16e1120db1ced02f37abe3 mtd: rawnand: tmio: Fix external use of SW Hamming ECC helper
-bfe11c13955c196a0c533605c952e404ade320f6 mtd: rawnand: fsmc: Fix external use of SW Hamming ECC helper
-b5822c16c8dc47ace96897f3087c304e69e53ec6 can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
-26097f9cb411fdb23c23d497242c28bb8baae3b9 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-fb75a3d214d6bd15b2e649b58a1fde587d119994 scsi: target: core: Avoid smp_processor_id() in preemptible code
-1d5884677e77ac1a66a5707ef690de3b4c373492 iommu/vt-d: Fix sysfs leak in alloc_iommu()
-6c7b02e578f05b555382cf33abf01374964d794d s390/dasd: add missing discipline function
-745b3895690e9b7eba439b72f1e7e87c3e8625cc perf intel-pt: Fix sample instruction bytes
-b61c82d68c9a2f8599121fa35f39b36aa24d06a4 perf intel-pt: Fix transaction abort handling
-32e0df087d1bc423e77794a1b00d473ed672ae84 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
-6f79e97b86b33b41a7274ba0a513ef33103025f8 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
-524837e2a785520448eecf65b1aa5fd3c702933d perf scripts python: exported-sql-viewer.py: Fix warning display
-d135595231c870c99cb25c5c48a69fa77403b374 proc: Check /proc/$pid/attr/ writes against file opener
-ba244b13d5b59975db129a92ce229d1d2d2c6645 net: hso: fix control-request directions
-23f202529797ff02c420a3c4b1742ad51ad4a7cf net/sched: fq_pie: re-factor fix for fq_pie endless loop
-f24aaee2bcb89a2ba166e41a8047da1a105807df net/sched: fq_pie: fix OOB access in the traffic path
-0645a4aa2e2ba71705bde7cc926015f8ae788752 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
-15cc92532e609a79f66302eb29ae7dd6c8c6de66 mac80211: assure all fragments are encrypted
-7abc278e1b8bb956c6a4af8a773b4ac1b596cc8b mac80211: prevent mixed key and fragment cache attacks
-641ebab4be05efb9c2186b8107aea4565e1d29e3 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-534f6ae6af85b55bb5a3553b78d171df2da285e6 cfg80211: mitigate A-MSDU aggregation attacks
-803f52debb8a0cdc7e5b0f7a148380d3d5bf44cc mac80211: drop A-MSDUs on old ciphers
-19ee1882e45e464f65a29db528a226e5862044cb mac80211: add fragment cache to sta_info
-922148d76890d6d58e1ea5988fb3b7ebab2befa5 mac80211: check defrag PN against current frame
-8f09c80e9b6af3717515da6bc4ebc5a3765cd137 mac80211: prevent attacks on TKIP/WEP as well
-d3ec90880bba052ee92d2dc7f25a525c91c37961 mac80211: do not accept/forward invalid EAPOL frames
-f3225ab93ea6196d8d0f62cfd071bd6e227451d6 mac80211: extend protection against mixed key and fragment cache attacks
-8a08da231b9ad1aa18674318a5b466bc2ead6efc ath10k: add CCMP PN replay protection for fragmented frames for PCIe
-272412f314eb14ec4526797505bfd84474d8a35b ath10k: drop fragments with multicast DA for PCIe
-d8a20643ccaf285b2b500d61fab836cb4c351124 ath10k: drop fragments with multicast DA for SDIO
-2bfdfd843be466a5d770b239c740821c516c4338 ath10k: drop MPDU which has discard flag set by firmware for SDIO
-b5e52052b9fc02da1a9df00245958e21275757cf ath10k: Fix TKIP Michael MIC verification for PCIe
-a5a9ca7197254de4fd401f5f5bef1d5ec74002b9 ath10k: Validate first subframe of A-MSDU before processing the list
-9d0d6a9ba2abf384f950849070b6bdefa062bc5f ath11k: Clear the fragment cache during key install
-1559f38bdf734eb6e10709a80d2e3456d8b7271b dm snapshot: properly fix a crash when an origin has no snapshots
-86420ac9b4eecc0fdc456e6c4532429aabbf60b2 md/raid5: remove an incorrect assert in in_chunk_boundary
-9fd96d7485933fe6ce555bd310c812343c1bbe60 drm/i915: Reenable LTTPR non-transparent LT mode for DPCD_REV<1.4
-35286ffac88d809c8d2b235d83648e31eb3b4530 drm/amd/pm: correct MGpuFanBoost setting
-2c724695a2e87e842e0da0149520900cd841b681 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
-2cc4d9161847de39c7809ce9854a4bf946e2e899 drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
-6356de8ef3b7a2135d5933441aedcf8e9d3cd1ad drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
-6ea8f6b69334fce1305b828868dab0cf7261f973 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
-6d325824c738a5f224cbf8f306149cf716735fc4 drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
-7b51c95a482acaeb00bbd1626b73fd1ea2d334db kgdb: fix gcc-11 warnings harder
-1cb0a62f11a58f9b5ee6ac8a32b00108ae058556 Documentation: seccomp: Fix user notification documentation
-677d8c873da6663844b4b2537323321ee1016a4d riscv: stacktrace: fix the riscv stacktrace when CONFIG_FRAME_POINTER enabled
-6ef8d607dfa0e4a8f98e878688072340743742e0 seccomp: Refactor notification handler to prepare for new semantics
-86506a3a34d99e31fdbd9bdab70cbd5c1a958802 debugfs: fix security_locked_down() call for SELinux
-3198756659fe71551a3c952bca73216c48ec2ca7 serial: core: fix suspicious security_locked_down() call
-42abd882f305e9a1d8a0eeb794537c865d00b59c misc/uss720: fix memory leak in uss720_probe
-e4a3f93cf07b288fa5bdf1649c5460cd9656b445 thunderbolt: usb4: Fix NVM read buffer bounds and offset issue
-6def97e5ba4b68404981a5d5c64cce9ff0150eca thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-2208b1580d0e06df69598ffe70e0a1be358ec06d KVM: X86: Fix vCPU preempted state from guest's point of view
-f66b68a961048cabf3f27ebf36c67d9da1aa6e95 KVM: arm64: Move __adjust_pc out of line
-e23ebedd5c2db24792ff328c2c5b56a5a4b82afd KVM: arm64: Fix debug register indexing
-09161ac5a0d799d72731a5c3427e75bfbfd22c01 KVM: arm64: Prevent mixed-width VM creation
-892c6a4ecaa78ba343cd45f89ae24df46dbf1804 KVM: arm64: Resolve all pending PC updates before immediate exit
-fb977dcf2332c401f4d3de223059211a786f868e mei: request autosuspend after sending rx flow control
-0f0a0f548ec1fd0a27ead8be69cd916b80932cb9 staging: iio: cdc: ad7746: avoid overwrite of num_channels
-e0245d40a9e351356125eab1d4b707a54d1492c0 iio: gyro: fxas21002c: balance runtime power in error path
-05d6198794e33507260fa5b2f88fe2d2cf7a387a iio: dac: ad5770r: Put fwnode in error case during ->probe()
-4517e291b77850a9256f2c7d1022b0e281ed9bec iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
-7021243c97eaf44dfb8680f785d05807c15a99cf iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
-29138f982e20edfcae38d701ff59e04cf3fba2c9 iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
-737b6d48d8bcd149d9ffc68c34cc5ea9d573908f iio: adc: ad7923: Fix undersized rx buffer.
-7c51fee15c406fc44814a14078a5db9bdedaf7e0 iio: adc: ad7793: Add missing error code in ad7793_setup()
-7819243b1e66568cc40d9f5239e10d9b45a2c9b7 iio: adc: ad7192: Avoid disabling a clock that was never enabled.
-56b2e49a606226ab3ecd0ed7d51c206256514ea9 iio: adc: ad7192: handle regulator voltage error first
-ff3f945e4373eda0fce907ae4780e7ff08fa8077 serial: 8250: Add UART_BUG_TXRACE workaround for Aspeed VUART
-31497fdef1f59a573a87f751f7695f770e738de6 serial: 8250_dw: Add device HID for new AMD UART controller
-8d629e734360a10e75757ae75cd072c48d0df608 serial: 8250_pci: Add support for new HPE serial device
-659a7b2469dfeef081137f8d1b77c23451139655 serial: 8250_pci: handle FL_NOIRQ board flag
-6e1e8c949ba637bf244d50fc2d62e4ad666881ff USB: trancevibrator: fix control-request direction
-ccffe1137a68ac6c4462414897c617404f9b9c27 Revert "irqbypass: do not start cons/prod when failed connect"
-ce7d95965baf2345137b8b99533f49ec59101701 USB: usbfs: Don't WARN about excessively large memory allocations
-2f29e69b79a96de149f31ddc2085249b80cb0371 xhci: fix giving back URB with incorrect status regression in 5.12
-34c5ed71540e5b9d65140afee192ba3ea624fe22 xhci: Fix 5.12 regression of missing xHC cache clearing command after a Stall
-162f3d8233df81bb559bb4f67ee565a93c0a28fa drivers: base: Fix device link removal
-3358fd8743363144c4038c11fa4805b021b4eb9b serial: tegra: Fix a mask operation that is always true
-2ee57f6968cdb1046a94998f4b84e3ef0306e03b serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
-073b48ea5dde272a5c1ce9c31a25bc6254a6461c serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-0430940e738561098035c692b80e21b6f6dc8959 USB: serial: ti_usb_3410_5052: add startech.com device id
-887bf98d0967a9354c5760c6cbdeda318f620f13 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-e07d0098a0b442957b5aeb7e5d8f3bfb66724e39 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-8d7d4b0a8e6f0b06ea3ce89f02b093803b8807a8 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-216a62e17cb3a461781bfb493f28c0bae657313c thermal/drivers/intel: Initialize RW trip to THERMAL_TEMP_INVALID
-4ed93f77e49cc152b37cc76b61a6664880fe1bb0 usb: dwc3: gadget: Properly track pending and queued SG
-ffc35f3937bb92bee2f4a661bdc759195340bd16 usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
-1702bd0a9952a03e4856bf1b86783682fd0e8053 usb: typec: mux: Fix matching with typec_altmode_desc
-2413e0b4f21ea35047f85a32cb4788ee4c837266 usb: typec: ucsi: Clear pending after acking connector change
-31b87f928e46fd8a8a838ae79e620c6867f227c5 usb: typec: tcpm: Use LE to CPU conversion when accessing msg->header
-4fa078b0e6e5c3eae0d164c2c9e566a8d3058496 usb: typec: tcpm: Properly interrupt VDM AMS
-6c3ef5c07533e3418c5e4c573964e2d37c70c85d usb: typec: tcpm: Respond Not_Supported if no snk_vdo
+dea747d28a1d33dd89b4e9c7d169597fc8aed5fd ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
+243e3262f4c99ae2911347ae3846ea0c9f407d97 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
+b5ad14897fda1a07e8404adb34193a0455f62431 ALSA: hda/realtek: Chain in pop reduction fixup for ThinkStation P340
+7ef4ce804db312dc617cc8bf5c254a4889ae91f8 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
+d4e85e22d082b3996b6125043be79f715131bef2 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
+ec577d17c0da8068ff12b32290f57686f7c7d1f8 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 15 G8
+307d8b092e92ead7c9322e85f6126f5f102de887 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook Fury 17 G8
+aab41c28f9c0750b4b65d954b5727db6da89d144 ALSA: usb-audio: fix control-request direction
+193c3d65e4b9a9673e76dced56fb53e360d170d8 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
+50ca43c62a4a724bbcfc8e9891adfd5ca31b34ac ALSA: usb-audio: scarlett2: Improve driver startup messages
+ffc3c39d38d86471f44fe6c9d8e7e1b176f60eb0 cifs: fix string declarations and assignments in tracepoints
+2dd63407caead4d6aa4fca9b7be5510d47b56584 cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+d5a7084119e00292ebf681226297e9d5def5d77a mtd: rawnand: cs553x: Fix external use of SW Hamming ECC helper
+0c7e79b32907bf71f5fcb403c633942d4f75ee9c mtd: rawnand: txx9ndfmc: Fix external use of SW Hamming ECC helper
+3496d9b0d39c1f4c6bc4b3a9bd66d2b56d3a249a mtd: rawnand: sharpsl: Fix external use of SW Hamming ECC helper
+d90b81d8248ecd2a318c6d6a09a0bdadb709f0db mtd: rawnand: lpc32xx_slc: Fix external use of SW Hamming ECC helper
+04c5bf160ceff62ad311dfad87145708ce9e311f mtd: rawnand: ndfc: Fix external use of SW Hamming ECC helper
+324276d53788032180ca9a59be91880bb8c5eefd mtd: rawnand: tmio: Fix external use of SW Hamming ECC helper
+da6e95c618ba5298dc537051f60f0c76c3053fdc mtd: rawnand: fsmc: Fix external use of SW Hamming ECC helper
+581f377b4dab0405f6c924218ad1c95b0ef1cc9c can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
+d0d954127441921bd7f99ae6df64e8e8da6e4f14 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+ba9981cebbdbd958357bfdfe82ff4d6ea909dab7 scsi: target: core: Avoid smp_processor_id() in preemptible code
+15db1bfe34d690ed0936593fc8040e5e2ee2df22 iommu/vt-d: Fix sysfs leak in alloc_iommu()
+6718cedee69523a735e7930d884ed833e364a721 s390/dasd: add missing discipline function
+ad590c02f28df27419ef447d77f7037c3aef2da7 perf intel-pt: Fix sample instruction bytes
+c6044ac78ced98a3708c271c2f6d7236480b5c2b perf intel-pt: Fix transaction abort handling
+3952e4fcbc3a5766ca4ac2626194a21c15d61587 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
+d002f90e67be81585eb40ea645f20b4545f68ec0 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
+a6d0d4ddbf4ad33710fb5d7d24d7e9e31cc22413 perf scripts python: exported-sql-viewer.py: Fix warning display
+39fe6a6d70f10523ece1390460c6c9abd216894e proc: Check /proc/$pid/attr/ writes against file opener
+0223cbec8e547ba918fa6e130f9f0a0122995bdc net: hso: fix control-request directions
+a806caa1f30f541a9e3f83b920f307e0228d2125 net/sched: fq_pie: re-factor fix for fq_pie endless loop
+ca713be305eb3f138a356768e46b2db4d5c813ac net/sched: fq_pie: fix OOB access in the traffic path
+bb863a7b05edd8d17d726c3824c296485eb86f92 netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version
+396e965acb5718e605fd264bd7c7e8255d6f092a mac80211: assure all fragments are encrypted
+b480f875107894097703b846e5e10a412d76646a mac80211: prevent mixed key and fragment cache attacks
+deffadd2a98bd97a7a0e087cfbfb3eabb2743486 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+c11c0cf1c8432f2c59e18a02048f8db3a14a11e8 cfg80211: mitigate A-MSDU aggregation attacks
+a48c7173b9d6f93cb75a14e4f7aa2e8cfac2b657 mac80211: drop A-MSDUs on old ciphers
+ad2eaed6addea545b257bf71099fd2fda705ab08 mac80211: add fragment cache to sta_info
+71f49b79692ed0b3a74746cc1e185c07dc3b201f mac80211: check defrag PN against current frame
+752d476a5e5ad1c81656c9b08e2e620e04f091de mac80211: prevent attacks on TKIP/WEP as well
+08fe83c1b92dbf6735648681aa29bf5e156b9cde mac80211: do not accept/forward invalid EAPOL frames
+44000f77265de9330de7c6d4860c2a4cac14dac2 mac80211: extend protection against mixed key and fragment cache attacks
+868436801247d0b4cd96aed382a285c620e516e1 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+6401c01a0c2bb56b79200b3768fe3aec4fbfde8a ath10k: drop fragments with multicast DA for PCIe
+8344469a50cfac10ed48bf88d737608495c1a677 ath10k: drop fragments with multicast DA for SDIO
+16263dcbb7b8ffe67c93472e12fb84c6a5b8f489 ath10k: drop MPDU which has discard flag set by firmware for SDIO
+05176f9c64434c787dd49f3c3d8dad37cdcb8383 ath10k: Fix TKIP Michael MIC verification for PCIe
+80f96326580c639f82c84a54249c9e68e30b3cb4 ath10k: Validate first subframe of A-MSDU before processing the list
+0b6d8000748f75603d8007670de6c0bff4f1316a ath11k: Clear the fragment cache during key install
+f4410d52968bac0adbeec9544463729ce3aa10c2 dm snapshot: properly fix a crash when an origin has no snapshots
+5a7f4fd4707c9aef225a533e758937d95c76aee6 md/raid5: remove an incorrect assert in in_chunk_boundary
+97ceedbf3ab17eedb58095cd6ee735bf69c4413f drm/i915: Reenable LTTPR non-transparent LT mode for DPCD_REV<1.4
+edf09797474b9e946c88bdf9542f98f4630a98f3 drm/amd/pm: correct MGpuFanBoost setting
+86352a0908078a7511f2df861778d0c0dbf926d4 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
+68db5bab0a0cea401317f8448f32bf48c8314ac5 drm/amdkfd: correct sienna_cichlid SDMA RLC register offset error
+cf3acadba07c01f91a91ae8450df25c6f3953c40 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
+3fbf61760607a812b1257fb31cd08c1759125610 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
+d6cc16cf5293e0dd4264a21f2f4331ecbc5e61e2 drm/amdgpu/jpeg2.0: add cancel_delayed_work_sync before power gate
+8daef581e9d5bd54c2e9c7543bd4862b0e2ce126 kgdb: fix gcc-11 warnings harder
+a7ccb1cf2e8759cb58b127634c4ca0c602a051a0 Documentation: seccomp: Fix user notification documentation
+0d675e80c6918fc4f2f8dc669b5df30641d2fdef riscv: stacktrace: fix the riscv stacktrace when CONFIG_FRAME_POINTER enabled
+98db6a4bbe5061e789c67e99751184e778f5d184 seccomp: Refactor notification handler to prepare for new semantics
+50498d6a95512a341435aee111e5bda35490474b debugfs: fix security_locked_down() call for SELinux
+255f288c5df5b27978a566e4d58822a53de46a5c serial: core: fix suspicious security_locked_down() call
+1f918894c4573098689c27d480a52ae047bf88f2 misc/uss720: fix memory leak in uss720_probe
+c2c4ba5aabc6c46fdde49e1edd89e3dbe59614f7 thunderbolt: usb4: Fix NVM read buffer bounds and offset issue
+2c6c4ccff32fc33cea1905d6e0d165c5ca00253c thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
+43d3ab38da44e460a7339bd9a5b8ffc9c94fef3a KVM: X86: Fix vCPU preempted state from guest's point of view
+f2fcda76e8b9a25fa0903fd4f19fbe2a1f44a846 KVM: arm64: Move __adjust_pc out of line
+f8168b56540c4b5b33c94475b4cf028d11e245e6 KVM: arm64: Fix debug register indexing
+e881b98426d7a377c2c1a2ea57a37b01ed979140 KVM: arm64: Prevent mixed-width VM creation
+4d1e0d6f4c0f3f8a326809f0b7bdcb0123c9440e KVM: arm64: Resolve all pending PC updates before immediate exit
+40ce4826a685d40752041c074ac10209a7b83bce mei: request autosuspend after sending rx flow control
+34a62f7cea1177d912c23f8355ea833053766233 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+cf532c66a5641b18975277a4bac65fab8a6175b1 iio: gyro: fxas21002c: balance runtime power in error path
+e407fd58981a69159c93e7da43cbbde9c5033847 iio: dac: ad5770r: Put fwnode in error case during ->probe()
+6c230a37b27e36897695c4b6c3d0c2a87a2274bc iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
+d83b0776a01773fa91fec21b3eef61563dd18a3d iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
+809b2836a15e39089ac6f4dfd739d33ed2315224 iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
+0de789a6467ad6846bbb5dbac7ea99458261d5b0 iio: adc: ad7923: Fix undersized rx buffer.
+12196e62a690fc6322ede0ce48e4ab9ba0a67587 iio: adc: ad7793: Add missing error code in ad7793_setup()
+fbba377b901cb562bec8a29ebfca37badd002fec iio: adc: ad7192: Avoid disabling a clock that was never enabled.
+2b765378083eeeb0eba7415a74b3c3ab97765484 iio: adc: ad7192: handle regulator voltage error first
+acf6530359dc8d03eade1fe5bb984a91f7164923 serial: 8250: Add UART_BUG_TXRACE workaround for Aspeed VUART
+32d4a98417448f5c4c77e3e7f4f9d0ca4e25cc9c serial: 8250_dw: Add device HID for new AMD UART controller
+3cc6acb78e1114e8c76d1799f9e4cbee0b0ab118 serial: 8250_pci: Add support for new HPE serial device
+9942d0b64fb03c9bfc4c3c12c66191f5ae992787 serial: 8250_pci: handle FL_NOIRQ board flag
+b6f53f9442a18dfbd788eda25c44bb1cfc407b67 USB: trancevibrator: fix control-request direction
+c1810ab1541d9fa0c418818a8878a80150dd1c0f Revert "irqbypass: do not start cons/prod when failed connect"
+730ef601031d76289a005cd112be299060f053ac USB: usbfs: Don't WARN about excessively large memory allocations
+332c8fdc0e1e4c51f38f2b552234eb31438b6295 xhci: fix giving back URB with incorrect status regression in 5.12
+c12e2dba3aaf8e38efa9c41668fe689b9e0f2973 xhci: Fix 5.12 regression of missing xHC cache clearing command after a Stall
+f431c71ec1c65a1f1d560f3c5d0d74214e9813ae drivers: base: Fix device link removal
+dd0ff4bcfc4262a418dcd5233bfafcfa06852e39 serial: tegra: Fix a mask operation that is always true
+b549d14288287cceece6c3252fbda40a4b1d8af2 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+44bee26a4addfdf88826ddb9082feef30395d5e9 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+7291cd6fc5bc4f53e1f6d55046694439917d13e8 USB: serial: ti_usb_3410_5052: add startech.com device id
+660e3d7bc019afb6f22274105af8a373391bffa7 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+f6b7db41ef46982631b63301ef641a4c98fdf569 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+ed5296da762b6adbec89c88d383f511d474ed98e USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+128d921185e3242c9eab9dcd95b45a86e2a21a92 thermal/drivers/intel: Initialize RW trip to THERMAL_TEMP_INVALID
+854b205fe76c2fcf02622009ab48a8a4a2e2f0fa usb: dwc3: gadget: Properly track pending and queued SG
+150b5e90e10c66672aee255032d048ea0c6e5c11 usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+ea32934d6162cea1398c7409befd01712073fe21 usb: typec: mux: Fix matching with typec_altmode_desc
+352b58a71a087675bf87854fe8b9cf735e19913a usb: typec: ucsi: Clear pending after acking connector change
+d4f6d5a9dcd06c4af0f14a53d8b31c46e21e18ba usb: typec: tcpm: Use LE to CPU conversion when accessing msg->header
+b61afe94e34467866814343633b71659c0646b95 usb: typec: tcpm: Properly interrupt VDM AMS
+d08ee445dc93c7d90daa23c363e1a07e4f46c7be usb: typec: tcpm: Respond Not_Supported if no snk_vdo
+4100864c887fd75386ad84f83fc53bd2c03b49ba net: usb: fix memory leak in smsc75xx_bind
 
---===============4608499882767142161==
+--===============6883320647858000093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d63041d337a6-d3da5f6022fd.txt
+Content-Disposition: attachment; filename=revlist-d3da5f6022fd-d77d749198da.txt
 
-86163d70b437949555b3992601b5b8e71b930382 ALSA: hda/realtek: Headphone volume is controlled by Front mixer
-577a54779662662dad7794a1cfca58d5be417711 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
-755d649e2870e91e83c493979289e40f0f9fe3b5 ALSA: usb-audio: scarlett2: Improve driver startup messages
-0ddcbbbc523c0dad6049e6f0c96da893846dfb9d cifs: set server->cipher_type to AES-128-CCM for SMB3.0
-b3c5cfeb0f782150b1827326c341c0fd90122cf6 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-26c0a244c67a783cbaa6d69632d4c8fff17a0868 iommu/vt-d: Fix sysfs leak in alloc_iommu()
-d80a867862e179b063baf8e037552c3a08053c63 perf intel-pt: Fix sample instruction bytes
-43e935eb95b007e3e60b7192671ea98c7373f4c0 perf intel-pt: Fix transaction abort handling
-eda4969a7d81d02b72a8f3b527742b5dda4308ce perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
-043516919f22250751d6e049784926ceba60e4fd perf scripts python: exported-sql-viewer.py: Fix Array TypeError
-15dcd98fd5beac26f4a19dc72c874e49aaedd192 perf scripts python: exported-sql-viewer.py: Fix warning display
-a3d568ef42e0fed88d747587ad04e0a52ed36924 proc: Check /proc/$pid/attr/ writes against file opener
-18c7e6f475e72131d7da789dd93054575b34023b net: hso: fix control-request directions
-dde5fbfc46e2142dafe61963a8c03aea022f7b81 mac80211: assure all fragments are encrypted
-a330840464280c7b06de7a3f454bff2aac341c66 mac80211: prevent mixed key and fragment cache attacks
-4c31f93d3f2833d5193de142409b261a3a75d11c mac80211: properly handle A-MSDUs that start with an RFC 1042 header
-a51ab2a72e40e1000424c8fb5325080c43d6e152 cfg80211: mitigate A-MSDU aggregation attacks
-bd7653ba680c04a70424450aab11be3bdecb7065 mac80211: drop A-MSDUs on old ciphers
-3539784c11c1725d343970c1fc6e413f57325a56 mac80211: add fragment cache to sta_info
-b8d5c419d0f0d89b7b5fbbb4f3fa9102183cd856 mac80211: check defrag PN against current frame
-5b89183e8bd6b6758ec2fb40a35d49ada5474cfe mac80211: prevent attacks on TKIP/WEP as well
-2fd0be0a03240854133166a01fa63185c1f7e418 mac80211: do not accept/forward invalid EAPOL frames
-593dff4c9e6874fe4c5ea7117f55d6e3132510f2 mac80211: extend protection against mixed key and fragment cache attacks
-d7b1c8b64fc629b179179b66a2649c703ff22f03 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
-3dcc6ce41ec5e99c658ffdbe7ff97a8fe5c80cc9 ath10k: drop fragments with multicast DA for PCIe
-a2de9c7ce611ff91f5229377e414525de51a4281 ath10k: drop fragments with multicast DA for SDIO
-2a9bf06d0686ecb5051217ca0237b0106d9d8bc9 ath10k: drop MPDU which has discard flag set by firmware for SDIO
-7429ec2bf35c7a18f54e9e9c0464e764b8294121 ath10k: Fix TKIP Michael MIC verification for PCIe
-c2d7d3e378a51d59ec5585b6f2ccd8d623922e78 ath10k: Validate first subframe of A-MSDU before processing the list
-210d1702af3d6677ce0fe2b4a3080df90c8df640 dm snapshot: properly fix a crash when an origin has no snapshots
-71c62c6236c81c31fca9ca56604c08dcdc9e3579 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
-2067fd081c3fc0c6a65befa668192993af333987 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
-933e6b20764198e0947933d0d194c2177bcf84b1 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
-ee86464cd7f84ef6c9422388bc52ec5be7e6633d selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
-13ff4df469597265b591fb6f3b61be829a97fd13 selftests/gpio: Move include of lib.mk up
-24abdacb8d4393410138ac9ce6ebd10a89461092 selftests/gpio: Fix build when source tree is read only
-12f2f049c1d580c5d03ae9f30fe791ecbcd0cecb kgdb: fix gcc-11 warnings harder
-34efd029c7b0fb1b2633aa866678df23f4033ef3 Documentation: seccomp: Fix user notification documentation
-c4dcbe146d82d5f67ac9816d43a8f2530d23c4f0 serial: core: fix suspicious security_locked_down() call
-2c0d03b6f4e694f80ed8a931a09edda4a45370a6 misc/uss720: fix memory leak in uss720_probe
-73591db38dfa6fa89636d7972262e735da514395 thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-31accd0d614e40d4be3cd7327130514138be7708 mei: request autosuspend after sending rx flow control
-1f41326e4d4e01681cd68471cd9efa5743ede396 staging: iio: cdc: ad7746: avoid overwrite of num_channels
-f5181d62be6977f11d3314429a04c82330d78cbf iio: gyro: fxas21002c: balance runtime power in error path
-70ae2ab3d356063f19fb8b7959f40d33a3d348fa iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
-39c463fd05b5a2be8c2e7cf2b14e4936860ba143 iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
-8bc404438d6a733d6f2e6fe895f030833a6afe76 iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
-7bd6c683c483e6ea9ecd5c8c9b101e2ea588a27e iio: adc: ad7793: Add missing error code in ad7793_setup()
-78d85962e0ad334292dc28217cbead10aad41066 serial: 8250_pci: Add support for new HPE serial device
-6b8b0cbd1495738a99e211e1ecb119b0741328e4 serial: 8250_pci: handle FL_NOIRQ board flag
-bbed6cead7758b2b98eadb147f7bd5d7d64b9fe5 USB: trancevibrator: fix control-request direction
-bb13db9d1ea46366a1245f3835989a0c87f47f23 USB: usbfs: Don't WARN about excessively large memory allocations
-d67e8a526a91ae34d0c365b0f214f989d5880467 serial: tegra: Fix a mask operation that is always true
-642db0010242a2d3f0a3963a3aa7b850a1eab414 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
-b28d135543dbbde1a4b5127580e5cbd6a93d5d4b serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-2208b5fe129c9c72535a3a07fe3aa6384ca388ec USB: serial: ti_usb_3410_5052: add startech.com device id
-1fbae52dd5d6efeedea8938a47f2487c61664d4a USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-8f05436170d6f571591ab1dd62b7faee1fec5960 USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-9d9eebb3ffecbc4d0f4915b110cc351e7c650114 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-e9d5d4eb85ba3209d7875e08b53fea81f887e1cc thermal/drivers/intel: Initialize RW trip to THERMAL_TEMP_INVALID
-c7c12f78bc754388c10b88de4aaa252e96ef9491 usb: dwc3: gadget: Properly track pending and queued SG
-d3da5f6022fda1c5795a4c66ed961a751b1efdf9 usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+ecb5015df750a1ea7c794b4c7acb0ce3bade8eee ALSA: hda/realtek: Headphone volume is controlled by Front mixer
+e28d5ed5c46dbeb8fa28f98d1b705a36c41f4a4e ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
+2dc7e25476fe439071f1bfc96c2f5b34d819eb4d ALSA: usb-audio: scarlett2: Improve driver startup messages
+dadd32c730a6a6f686a87a3ec0b971e30260e45f cifs: set server->cipher_type to AES-128-CCM for SMB3.0
+5decddc3df2e2bff1aadc47fe4751910c3e41b57 NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+b9a9bdb7ed018d7370188ccaf502d8e5022750cb iommu/vt-d: Fix sysfs leak in alloc_iommu()
+d38f2b1e929fd03cab21234319b1ea372e6e4359 perf intel-pt: Fix sample instruction bytes
+d5c1c07e6dbea8c77e192df145704b3b7614a0c8 perf intel-pt: Fix transaction abort handling
+3b1e27c85b754e26875c693464b688e6fef30061 perf scripts python: exported-sql-viewer.py: Fix copy to clipboard from Top Calls by elapsed Time report
+176bbb15212a7185d178f77a4bea86a8035e2624 perf scripts python: exported-sql-viewer.py: Fix Array TypeError
+ad22f3e99c7734444fc3f3e512f510a82f5a09f9 perf scripts python: exported-sql-viewer.py: Fix warning display
+656b6ddcea04fe50432d677adab0481ba46fd2c7 proc: Check /proc/$pid/attr/ writes against file opener
+47fc88a63d169cfdb1caa6e591d298b38e9d1f88 net: hso: fix control-request directions
+a64edb0ff1c43beecc14fec14d26ee7b23480a06 mac80211: assure all fragments are encrypted
+e8500f2d2d2218cc069d2a4eed008d7937714161 mac80211: prevent mixed key and fragment cache attacks
+dcbcc24c4c0a83a990b2f9d8365dbd9156bbba96 mac80211: properly handle A-MSDUs that start with an RFC 1042 header
+b96e2cb5062fbbe85ce0cc28888217818df08a5f cfg80211: mitigate A-MSDU aggregation attacks
+d1f08c0fe23ae119903537d681cd30bb34aa938b mac80211: drop A-MSDUs on old ciphers
+d5bc4a126be06657ec7ea5ed2518242ae7b669ce mac80211: add fragment cache to sta_info
+8203245ee95dc98d2a0de9e2dd5bef5e536d3b47 mac80211: check defrag PN against current frame
+d3d48f24503930f5e81ff1996c012d64c07cb99a mac80211: prevent attacks on TKIP/WEP as well
+b4ef5efe51052c06181b949c7a071b088cc36aa9 mac80211: do not accept/forward invalid EAPOL frames
+dcce521011206378f99f9af935cad9db3e37495e mac80211: extend protection against mixed key and fragment cache attacks
+a8163b73ef152032d033b28e63bda77e502aac07 ath10k: add CCMP PN replay protection for fragmented frames for PCIe
+c2a819890b5a48e891d18e9bfb4d33ad5b3b7fd3 ath10k: drop fragments with multicast DA for PCIe
+29ec4f8ff9dc43203017b9089256e7ba4a474164 ath10k: drop fragments with multicast DA for SDIO
+f05b170831d388a35d8f3ef3955042ce44e03f2a ath10k: drop MPDU which has discard flag set by firmware for SDIO
+c65308f6994a61d5f22e6179ef1f02baca65dcef ath10k: Fix TKIP Michael MIC verification for PCIe
+6f6a10608ee5ca9658c07e03d5a84f279cfef7d8 ath10k: Validate first subframe of A-MSDU before processing the list
+9c355495e360497716506cded2049a20dd64f135 dm snapshot: properly fix a crash when an origin has no snapshots
+712a2002628bbd4b8eafc1fc0a378fa52c3db620 drm/amdgpu/vcn1: add cancel_delayed_work_sync before power gate
+1db597753b799651cd8c7b97d1a4e1849f6dbd38 drm/amdgpu/vcn2.0: add cancel_delayed_work_sync before power gate
+71fc77bc9c52eb755b437d7e4e083f8c0d17ee65 drm/amdgpu/vcn2.5: add cancel_delayed_work_sync before power gate
+a18c107a7c522d04581b65683188dc2dc9d5a73e selftests/gpio: Use TEST_GEN_PROGS_EXTENDED
+32c5dce543b26d015b49fd815e826dbd115f56e6 selftests/gpio: Move include of lib.mk up
+ac7b1721ca95be0c2ef052f3f439d14478377592 selftests/gpio: Fix build when source tree is read only
+c9a2736efa3d8a9a22a673d885216d7ea94fa690 kgdb: fix gcc-11 warnings harder
+7ca274059e7e519f2d171b14663779aef5fd5e46 Documentation: seccomp: Fix user notification documentation
+fbeaf1a020640074a7b612e7e10d28c5978bec93 serial: core: fix suspicious security_locked_down() call
+ce4059f72f009031af5b01818723a260e3775b9f misc/uss720: fix memory leak in uss720_probe
+765b637b99b93acb354b23f6dad52340e9ab65c1 thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
+098704f51366426c03e661dfb7bb9660e6c29e52 mei: request autosuspend after sending rx flow control
+f4a003a6a99a0cbef369e3415f307e6440c6aac4 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+194e424d4eddf73e8153f855e0d31036fd1cfba7 iio: gyro: fxas21002c: balance runtime power in error path
+500dee55b4bf9e4fac841302f532babdab92425f iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
+5246c78ce9e1011d0d461bea73be8ae99d0a3a80 iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
+99d08d3d59464af8a377938c79f388b12f5d2533 iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
+3d300050516137e9fdc2cd3def45df4f5133f540 iio: adc: ad7793: Add missing error code in ad7793_setup()
+c4f5a9adbfebf9dfc59065a6147c2c0b60a66e05 serial: 8250_pci: Add support for new HPE serial device
+535431a3258b0860a6eb90924701976bce7a7d73 serial: 8250_pci: handle FL_NOIRQ board flag
+529585d99c85177aeca9e3858b158cdc428ed174 USB: trancevibrator: fix control-request direction
+74f75ff2e3ebfba7e352c1c058f11ae0550b9d92 USB: usbfs: Don't WARN about excessively large memory allocations
+a131b93d3a009b67a6b9625ef68f93a97888707c serial: tegra: Fix a mask operation that is always true
+c871fb2ce483df0959159a5ae897e4bc7da6b88f serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+085849f0bdfcf95db4468d93447db4b115150d1b serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+92b07585e2c1790a9da92566fd0c492297441c22 USB: serial: ti_usb_3410_5052: add startech.com device id
+40865ff170c7e952d2760d70956b638b3ea81531 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+95f2583630dcf53210feb2eaed057274835ae56f USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+a1556f4d995e02294fcf7a38033b98613ca9de27 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+032b1f414ff3a5de4f52758d503d5ae91f019643 thermal/drivers/intel: Initialize RW trip to THERMAL_TEMP_INVALID
+099835949e7e9c8927528fae5a17e77044d9987a usb: dwc3: gadget: Properly track pending and queued SG
+c8777b7740775d287be0a2ca570ad492ccb9419d usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+a3c4ddb1927d7d89df9d6d7eeef786fc0bbf5c0e net: usb: fix memory leak in smsc75xx_bind
+d77d749198daa9b6a4074640b74afc9f2c1ca9f2 spi: spi-geni-qcom: Fix use-after-free on unbind
 
---===============4608499882767142161==--
+--===============6883320647858000093==--
