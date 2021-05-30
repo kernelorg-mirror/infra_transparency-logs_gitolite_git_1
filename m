@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Sun, 30 May 2021 16:24:16 -0000
-Message-Id: <162239185609.6072.14086038061965664164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
+Date: Sun, 30 May 2021 19:12:28 -0000
+Message-Id: <162240194821.14188.1950198116914284644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
 user: kvalo
 changes:
-  - ref: refs/heads/master-pending
-    old: d03e4b67b3b1fd74d05dfbd18d3f485b924939b3
-    new: 09ee403845dd7c8402d0be31f50f027d14eb79f9
+  - ref: refs/heads/master
+    old: 2c2bdd2372afcfcf24fe11c65ebe3361b7e1cd9f
+    new: d4826d17b3931cf0d8351d8f614332dd4b71efc4
     log: |
-         4bcc5e33de7d037dbaaebfa0663080b188838eca wireless: carl9170: fix LEDS build errors & warnings
-         09ee403845dd7c8402d0be31f50f027d14eb79f9 Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: 85eb320d0f436b055140cbd5d4125a193a6e2101
-    new: 4bcc5e33de7d037dbaaebfa0663080b188838eca
-    log: |
-         4bcc5e33de7d037dbaaebfa0663080b188838eca wireless: carl9170: fix LEDS build errors & warnings
+         02de318afa7a06216570ab69e028751590636a0e mt76: mt7615: do not set MT76_STATE_PM at bootstrap
+         d4826d17b3931cf0d8351d8f614332dd4b71efc4 mt76: mt7921: remove leftover 80+80 HE capability
          
