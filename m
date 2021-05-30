@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4651396523111043728=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 30 May 2021 13:56:40 -0000
-Message-Id: <162238300017.3502.18300600952691717425@gitolite.kernel.org>
-
---===============4651396523111043728==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 30 May 2021 13:57:53 -0000
+Message-Id: <162238307349.3990.15944351749690069704@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfstests-dev
+user: eguan
 changes:
   - ref: refs/heads/master
-    old: 743b8e2383509d510847c9b257740f4e4f2b76bd
-    new: 933cb85a2bf65a9cb047dd57df9b2dafcf87a3bb
+    old: f360daadb2009b3c7a0624b8f0c81e59cf48fadc
+    new: 37881397f1aa62df3c63468049c80b301b0e89eb
     log: |
-         933cb85a2bf65a9cb047dd57df9b2dafcf87a3bb 5.12-stable patches
+         9bc323f334b64a7ad6888de9816b88fb0f4f78ea xfs: fix check of whether the mkfs fail
+         ee7383c5f54c8408ef941fc82a07fb1b8fe0afee common/xfs: Fix _require_scratch_xfs_shrink bug
+         2605c135e15cd07fcedc3a5cc26b58dc77659bab btrfs: add test for multiple fsync with adjacent preallocated extents
+         05fafbff99502563018adc125c0030096bdf0561 generic/042: set size to 38M for f2fs
+         5b44709187ce6d4f9e0d0b41991af0a65c7b2fab fstests: improved .gitignore
+         986733634c61581915deed82692fb92bee587115 fstests: initial bcachefs support
+         37881397f1aa62df3c63468049c80b301b0e89eb ext4: prevent initializing reserved inodes
          
-
---===============4651396523111043728==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622382998 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1622382996-d5ca62a7e1b8f91df91b964558824eca9508f7de
-
-743b8e2383509d510847c9b257740f4e4f2b76bd 933cb85a2bf65a9cb047dd57df9b2dafcf87a3bb refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCzmZYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dgsP/2EsrLXHXpaOFQeJTMNb
-1qKiVV/eBXKKQ9dMNIR4nTOywlmjINvDET7rsxuBDe9Ej4d+MYdY7aUdYPa2l+MC
-l6rwbJLPBaX4BvSqV/PKnKLkKJ7kNjUkrkh32cbJOsVaaBUKBdk6WLy9FxHWly88
-p/OiknwF0zQiB/jW9an/NZQ9WAnWPJhGuSscojpDZvl4Ygp0vvsysZ8pE1KK/Qgm
-OGfrvJTo3+eQU3DTFv7ybzd4nmiQEWxEfnfpmK1+eeLxU364A48K/4cq4j8Lu73j
-Vk/yY7fmjbMaf+Ucilk37acrQahTCd+kojOKBHjSpgLTQYRYeibDktkQEzvHAmyl
-S8kzt7ARFX8XIrgRCOOu0K9sjs1am2as4kfTaDnt8NcH7S2ptVr/r7Cgzy77M1xc
-hVUOJdtNw83VQjwGcjVvB2wW+JIR9YVDufC8mVXhqUR646SPVwG7DnaqE39utBTo
-6cjS8lQOypRzpFTq+B6OprXwcx8ryQT1NqPAI/UsxDWUHYD+igNIxj8Exl1j+a/N
-ZtlN2Ku2AJrz6V9yinqL6mQ9MpmzYN6iyPR0X7zXpmVxUH3zz3nrpNKJrIQieKac
-9Afen1+ki+CQiTU7zqh+C7UQ5fBFnhgFVmjsuNrmYTnaSRSFLpsmq7MpaBiuaX9X
-NSPfUQGqh0yo4QYeWvfd/jCT
-=NrxL
------END PGP SIGNATURE-----
-
---===============4651396523111043728==--
