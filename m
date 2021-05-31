@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9065663162027151017=="
+Content-Type: multipart/mixed; boundary="===============4777573524238322120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 31 May 2021 13:06:43 -0000
-Message-Id: <162246640367.11291.9790885726123069418@gitolite.kernel.org>
+Message-Id: <162246640374.11298.5865849017766842935@gitolite.kernel.org>
 
---===============9065663162027151017==
+--===============4777573524238322120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: ae0933be23c0d27cda2cb84721a2a8432a29b752
-    new: f798f265c7d8ae4dd216617b464a6940bf21c8c2
-    log: revlist-ae0933be23c0-f798f265c7d8.txt
+  - ref: refs/heads/linux-4.14.y
+    old: ceeaaf63b8c59dfcfce6c6d281b51b55630d6005
+    new: 506e0ba115126ff217295dca5197f9688c6f07c0
+    log: revlist-ceeaaf63b8c5-506e0ba11512.txt
 
---===============9065663162027151017==
+--===============4777573524238322120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,97 +32,110 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622466401 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1622466399-9886d54d625be8a19525d5221ff9a0d9f51899f7
 
-ae0933be23c0d27cda2cb84721a2a8432a29b752 f798f265c7d8ae4dd216617b464a6940bf21c8c2 refs/heads/linux-4.9.y
+ceeaaf63b8c59dfcfce6c6d281b51b55630d6005 506e0ba115126ff217295dca5197f9688c6f07c0 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC032EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pMcP/0VUSmpTcaFAlJUyC68A
-WE6isa+GiTKuIL/ckiKH4wU0CvQHe4896KBbdjb0fsq2GWj12IvEY93dPyMLNwy7
-FZUouppgJ6tXTOujD/bXbYYjvasks5h7z/YA7OydmZnBj2Wl6PNSVNP34+MDi7MQ
-5za8Z3+zrzRjJtRFdUDZ5zquYlkKP+VbhvT75n5b4Oo8jO+wYaA/0qPMj99d4IsC
-T8Zelz1NjwtXNH48cSn0yvsGrFSRn82vIgCkWl13BR+Ngp7OMNJ9BUwrMNErG7C4
-Il6VXEtuMEzeQh33wVHUZ/2kslMNF5YBOrT/tT2yoYQXoL5xz4NV4AhifIaGiQcy
-QZDuUCDpsjhTMl8di+RU1blB9r0Qw4APUx+P+8V4uLqVed7WmSafv4f3IILWBnuB
-6neCP7zUnSfvsf1e3V3ec51cyiSjTXy5xr45Mu5/ln7h8aapjqdHt3cdy3vKzkMG
-Ct6vZAGHrovtW8dga95JeZDU8+xfLTBbwwu2t6l7PpMv6k9k51cQUFQjrS6gR9cM
-tSeuw9Ra5FbRzuMtnAuQXbNZlmZ6PokslOzSb7O3U6tY5bIn8Nw+RG6qXBkQcL2R
-AhhQETr5Tng6sqcwvJ9/IKyoSLxgSawROTHF/vKLBNMdDLqgbJfNft/0fW+JinB2
-AZLx1v1xYUTE72KRPz1BDCjc
-=OW3V
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sI8P/33VO88xha3bFjxJrvgA
+IkQkhXGL5FCamF8JlH8pi6GoVtBorwfCWlEwZ585RCGim1V39ps0jir/BpVnN9nr
+vylUXH1NBU0Tn5Q0qlYFDwVJyexQwB+6kQN0ji72BLS+v8gQ0AkNuu4SYz9xVJhu
+PgPzbiu4ia0kjd264Sd4wHOE5WlQcJ7Lh+tmbZ0XTaXQoSwdhqqi0sjrZmZ26vnO
+EhTCHP8MqKokF4C9GlZusGUwNd0sKbCc0EiX0Zexh7CeHPCQ30gvWvaKmc6ykETO
+g80ivqUNdxD+X8BQeUARnnn4CkAhgJHiwiYDNdZr+8ezbAMvqrKh8Fh4tdg727T1
+lBD3MyN4PMjhus04ZhRxNCyU2ljECkKrULJx1uKyYoGFFuoDD2mFO90Y1rO9qjfL
+H3lduty4AX3yeTfd3svhqMp79AUhLr6YOqn22OBwa82Z6vtagv14Ty4yBot6xnbm
+qPeMW0BAR0adbbKA7dsoHim/6vUgQJEoSfvetdPlF6OqsP2QU3d9CLwYKLil23v3
+GR3/WZRI1woKrncC6pwTmHDAdw1fms6IlRNA6F9XAjQr589/tL9lvaifz2tOGeDj
+i31D6HCnU27kGdq34wFkWAO8jG3n2gyOHENbqQWltx4HIEq07jJCtqJfB1SWQ22J
+N2VE9TnTDcjxVJKXsXpcAo03
+=Gzza
 -----END PGP SIGNATURE-----
 
---===============9065663162027151017==
+--===============4777573524238322120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae0933be23c0-f798f265c7d8.txt
+Content-Disposition: attachment; filename=revlist-ceeaaf63b8c5-506e0ba11512.txt
 
-a97fe4d36a3948cd386c002bfc534dc4f4ff1ca5 mm, vmstat: drop zone->lock in /proc/pagetypeinfo
-e22bc4905300ee5313466fa0a53dd19a75faf7af tweewide: Fix most Shebang lines
-8215cb6c74a604abcd555f4c5b840bd9ac7a844e scripts: switch explicitly to Python 3
-26e2b36cfc0770329170b4eb285b7476b319fb14 netfilter: x_tables: Use correct memory barriers.
-54a2b255e4bdf5e198e205fcb7d54bb057bd18d0 NFC: nci: fix memory leak in nci_allocate_device
-dca614ba49777ff3bd720a26fef93ef1fb83f12f NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
-3cd6cb11123ed751d0ff81ff76ecef156a22bb5d proc: Check /proc/$pid/attr/ writes against file opener
-9744dc4bb5d10965654f74aea6e8be84b9ea2403 net: hso: fix control-request directions
-763e9c28a6089ef9e171385d78e8eefd1e0dcca0 mac80211: assure all fragments are encrypted
-d80f5c01e14edf787e08cb3a50d83668d4dec632 mac80211: prevent mixed key and fragment cache attacks
-0e8447474e3ff48fb7d10f01fd35132e24c4a219 cfg80211: mitigate A-MSDU aggregation attacks
-15f3ab351a3b843b2d5a8a5374584cc4d0e6554b mac80211: check defrag PN against current frame
-b5d85f80098200ab1fe88425e61e0ba07d3215db ath10k: Validate first subframe of A-MSDU before processing the list
-61748ab3064e88e270c10d7a5cc67f6d08156133 dm snapshot: properly fix a crash when an origin has no snapshots
-e88e219f546c0c198c191bfe6c0c54b625eefdff kgdb: fix gcc-11 warnings harder
-62e2b57a51f968e05c56a48732f764f47bc1e354 misc/uss720: fix memory leak in uss720_probe
-e849111e7cae44f68a4ce91bf9fd99c2ac603ce7 mei: request autosuspend after sending rx flow control
-04ea0b37c856c06a013fd64f0323a6efe681cfee staging: iio: cdc: ad7746: avoid overwrite of num_channels
-e145a8282b20050bdde1b656bf65f3e6b095cc0d iio: adc: ad7793: Add missing error code in ad7793_setup()
-b98ac8c5a4cfd759c7c5fddc565de13d040825c2 USB: trancevibrator: fix control-request direction
-2ef84c33e516f3b86071ea259b1a2699433639b1 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
-e3fcf14d433a712debfc91d0ab09a30dc899471e USB: serial: ti_usb_3410_5052: add startech.com device id
-9496aed70125e19bbb7ea71ac8bfebd50cf1bce7 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-4ca58e698132a54f8496e8d0af817e164cecf81b USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-5429617ea65e499a20ff2cad5b42d0d1f673dcd5 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
-012ebf960894c6b7ce67ca7e4e5d9d29c5687491 net: usb: fix memory leak in smsc75xx_bind
-d4c5d86b3d613077e19df521461e4900a1d6ac95 spi: Fix use-after-free with devm_spi_alloc_*
-53cad4f50c5efd79724ad98049febf590b596ed6 Bluetooth: cmtp: fix file refcount when cmtp_attach_device fails
-3966933218c0213d4f97f3300fcc341411995acd NFS: fix an incorrect limit in filelayout_decode_layout()
-ef3313238c9385b1f31b2841ce2913c8fc516d61 NFS: Don't corrupt the value of pg_bytes_written in nfs_do_recoalesce()
-87928fe8fa3e570b5d4dd4a3f2e031c12708cc66 NFSv4: Fix v4.0/v4.1 SEEK_DATA return -ENOTSUPP when set NFS_V4_2 config
-5131378017029c6fc668de7facf7ea342390f9b0 net/mlx4: Fix EEPROM dump support
-06662e37225707e4a597504fdd1290984fedf237 Revert "net:tipc: Fix a double free in tipc_sk_mcast_rcv"
-85cfb66d6c91bc604064f3df61bebfc10925fecb tipc: skb_linearize the head skb when reassembling msgs
-7abc312ddc04d40fc7953ab42a31b328bdec8032 i2c: s3c2410: fix possible NULL pointer deref on read message after write
-8b08dbe5d20ea8c4685310079cc687982b14c8d9 i2c: i801: Don't generate an interrupt on bus reset
-7c65e9035a718163b224000c4270b6e4d03672fd perf jevents: Fix getting maximum number of fds
-25290a9df7a1360d76c72782c0fba356ff17c9d7 platform/x86: hp_accel: Avoid invoking _INI to speed up resume
-5aa000d6693bdd187d87e3ca4f4c84ec2321d5ab serial: max310x: unregister uart driver in case of failure and abort
-1f94c665e550ba55e8e1a8c91d24db04d2a394d7 net: fujitsu: fix potential null-ptr-deref
-5aaef50d3c3e6834b000f40c178fb912c5aa61da net: caif: remove BUG_ON(dev == NULL) in caif_xmit
-9aa82b750780ca16f0498dadcef9b9386af2eeee char: hpet: add checks after calling ioremap
-5e57c506bea70181dbaa68e2cfa3cc5bfc34f20b ALSA: sb8: Add a comment note regarding an unused pointer
-8219da635adf37a7684dbf0653b358795cdda37e isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
-f65ff3dc62d8ad835dd568efbc4cf10a2470aff5 dmaengine: qcom_hidma: comment platform_driver_register call
-a66a58dfce4581c096ea42ae84e5f4a8eaf9d6e1 libertas: register sysfs groups properly
-8bd60cb8ea99fba489bc81cc8c50b0bc58c19821 media: dvb: Add check on sp8870_readreg return
-01f3568c4bc6ee851a72940a14163f0b3d2f5e50 media: gspca: properly check for errors in po1030_probe()
-f3ba97248692042bb13135b696b07da468bfd95a scsi: BusLogic: Fix 64-bit system enumeration error for Buslogic
-64a0621683f6f63daef5172b94d108626e5b98ab openrisc: Define memory barrier mb
-7e6a9467c2d9f018aada92b8b43657f32cb81513 btrfs: do not BUG_ON in link_to_fixup_dir
-6b35aebbfa181afb7f6b9434b7a51a88f50402a8 platform/x86: intel_punit_ipc: Append MODULE_DEVICE_TABLE for ACPI
-6724fa49d6eb206fa4c96f8d081a8c807a58b0fa drm/amdgpu: Fix a use-after-free
-51d560adafa4ecfc2a04e312038da52784bfcf45 net: netcp: Fix an error message
-e5a1766d4cc57be9ecb1d6bbaee57591f61da21b net: mdio: thunder: Fix a double free issue in the .remove function
-327a6dc1a35dbf8d2aa17fd0ff9c0ba97d068231 net: mdio: octeon: Fix some double free issues
-2a2eaa857d15e5820a0c77c7253a473c75dffa38 net: bnx2: Fix error return code in bnx2_init_board()
-c294804caef38e449d930b31af22d5f01b813a7e mld: fix panic in mld_newpack()
-49c05d69a295520611593159c74634d1cd5d9e6a staging: emxx_udc: fix loop in _nbu2ss_nuke()
-930de3e29b89d7292f77c467edac3189ea679e70 ASoC: cs35l33: fix an error code in probe()
-dffc4365bdf8fe80a7eee41b1c4fa2da3fe8eff6 scsi: libsas: Use _safe() loop in sas_resume_port()
-e4df2d057757d37c9e12d126e33e800a0190f8d6 sch_dsmark: fix a NULL deref in qdisc_reset()
-72bd49c91ac7c2d9ae4eecbb8011b33df72d00b8 MIPS: alchemy: xxs1500: add gpio-au1000.h header file
-d780b498e8f1dab49ddb8784563109e103b1aa2c MIPS: ralink: export rt_sysc_membase for rt2880_wdt.c
-6279977eba413d2d6d84b9cd87ff736a3d747e61 hugetlbfs: hugetlb_fault_mutex_hash() cleanup
-26ab91642e6554ec54304f1ec1abd1b3094f3d26 usb: core: reduce power-on-good delay time of root hub
-f798f265c7d8ae4dd216617b464a6940bf21c8c2 Linux 4.9.271-rc1
+035dc871562952d2d168163d48de3e4a18be47eb mm, vmstat: drop zone->lock in /proc/pagetypeinfo
+8d35ebc261fbc3a6baf07bd814440b80955298ae tweewide: Fix most Shebang lines
+e2fd9a8389ab00d45ff5b0c2e3f5bcadfc3d237b scripts: switch explicitly to Python 3
+68e6f93f9eb177d10c6e2f3453be452f38225e33 usb: dwc3: gadget: Enable suspend events
+586e766cff53d3d90719c2c31da5618fefdf2350 netfilter: x_tables: Use correct memory barriers.
+b5c4e2f939af5d21874b08216b55fcfdc5d4397e NFC: nci: fix memory leak in nci_allocate_device
+74ca0eab15363f0bc0f20d24cbb27bc66fc846de NFSv4: Fix a NULL pointer dereference in pnfs_mark_matching_lsegs_return()
+2b82b352870fb6fb66e36a88a956a36e4dcfc40e iommu/vt-d: Fix sysfs leak in alloc_iommu()
+b7c8ceb7f8f1d294ca272e6e58ca53e17f654596 perf intel-pt: Fix sample instruction bytes
+a81ea16bebaab8f4d1f38b7dbcc4ae8e7eec9a26 perf intel-pt: Fix transaction abort handling
+c6dd4ff3e3fd2bdb06bda0d39f72212569d0e24d proc: Check /proc/$pid/attr/ writes against file opener
+08efe7916a49b66e855d6c09f84cd37fe439316d net: hso: fix control-request directions
+2f5b460d38df75451744f69e278f2124a5ddafe7 mac80211: assure all fragments are encrypted
+fdcdb1e964f7172741cf14baa2e50d015f418144 mac80211: prevent mixed key and fragment cache attacks
+84bd4cdb072fed0011df462e3fa0429e730ca948 cfg80211: mitigate A-MSDU aggregation attacks
+b0db376304274be4eabc1187190f320ca9165661 mac80211: check defrag PN against current frame
+273267e99c42fe6fd2676bed85b50ce3591345a4 ath10k: Validate first subframe of A-MSDU before processing the list
+4b636fcda966ed67be5f9dfefbb4145177a8db46 dm snapshot: properly fix a crash when an origin has no snapshots
+da0ab22d67e064fd9006a38a231044967e093679 kgdb: fix gcc-11 warnings harder
+2118bdb2a7caee94a7c47b954d1336eff13b48ba misc/uss720: fix memory leak in uss720_probe
+b9dc5e6571ae2950aa9cf54806168621edb42469 thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
+adcfd141897b8cc48a888820f2bb884abed8b6cf mei: request autosuspend after sending rx flow control
+60e98a12edad0222bdf2b5e2bbcac5601af47bd8 staging: iio: cdc: ad7746: avoid overwrite of num_channels
+b61634d69a7264a8ad5d8b7aa72c60c003b104c5 iio: adc: ad7793: Add missing error code in ad7793_setup()
+4f17ff00c3877299a988c8742f9cfa699a644faf USB: trancevibrator: fix control-request direction
+5d52c3399a62b6d7d03aa3510520817feb64e196 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
+9cc7d139b920c73e4abf30246033c8941ab46450 serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
+88f98ae08ec298a4d5e824a51c2be7247cd549ae USB: serial: ti_usb_3410_5052: add startech.com device id
+348ee7c1c8fc6f5d06db85f4c78f2b14a0da10d1 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
+379751407e5de76d7d5fbafede9b9fbeac5d3afa USB: serial: ftdi_sio: add IDs for IDS GmbH Products
+3e23838c53aa89f600736d7603ba1a7bef745219 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
+d846a268e894e10d7aa5a7d9ecfcc65a1ed73ba5 usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
+da99c1d0b23baa94f9bb92c583cd144773eee499 net: usb: fix memory leak in smsc75xx_bind
+9221ce97cf53759273bf1683a9e04acbd3a4a64b Bluetooth: cmtp: fix file refcount when cmtp_attach_device fails
+c7ee705ca63198a4c322d4d28555bb497ca0dbdf NFS: fix an incorrect limit in filelayout_decode_layout()
+f01c80b422e5e14c141fd968090189ce5eb792ff NFS: Don't corrupt the value of pg_bytes_written in nfs_do_recoalesce()
+ddb214f35f11dac7f26f50efb74e6edbe50e9684 NFSv4: Fix v4.0/v4.1 SEEK_DATA return -ENOTSUPP when set NFS_V4_2 config
+226c6bd3f74797936ae1f06d3afbf7581651d5d0 drm/meson: fix shutdown crash when component not probed
+d8a003b02611eac7ed9ef632e61cd7b32f87ea7e net/mlx4: Fix EEPROM dump support
+af92d88631f8c754366e922b3de8ea1a5c3c9ab5 Revert "net:tipc: Fix a double free in tipc_sk_mcast_rcv"
+8e97dfb61e6cc467661349b293ceba8aa5d9be9a tipc: skb_linearize the head skb when reassembling msgs
+aa9ca01868a208dc6df137247e7097e1f0dd1357 i2c: s3c2410: fix possible NULL pointer deref on read message after write
+4ceb6cd002bef79afe3cc32f4b5e76f0d42190be i2c: i801: Don't generate an interrupt on bus reset
+133ee71e7077e86dfcf3ae7c7ecd8183ea4a8c48 perf jevents: Fix getting maximum number of fds
+d639bee365bed91e9737de361ab257b3eeaa3801 platform/x86: hp_accel: Avoid invoking _INI to speed up resume
+23b1108c7474f8612f9ff2ed0915c30950ab1b34 serial: max310x: unregister uart driver in case of failure and abort
+acfcc3d09f093659d454b485bb20ed65277d76c7 net: fujitsu: fix potential null-ptr-deref
+77e783d10aafe30a9e0c76e92f10f3d4092082d3 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
+ebac0496489824bf11c4c8fe04a41d3b7ed46309 char: hpet: add checks after calling ioremap
+337ca8bcbbb86790216d70173516098a493e2f31 ALSA: sb8: Add a comment note regarding an unused pointer
+f9715b363ce0a285298b539ec31dcdc02f0b8240 isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
+3f9395cb608624c4d633297ecaaab33c7eaf85cb dmaengine: qcom_hidma: comment platform_driver_register call
+d52ac230c7ef950859bd8669cff967eac2adbfe6 libertas: register sysfs groups properly
+1f5ea125f29931173544139367870dad5794a7a8 media: dvb: Add check on sp8870_readreg return
+20dacf9584331cfa10b876e1d1318c60ff4a2524 media: gspca: properly check for errors in po1030_probe()
+87bdf4ae82f4a6ebc4b8ad98b0b8b685709dc865 scsi: BusLogic: Fix 64-bit system enumeration error for Buslogic
+be94adfcd841b2a419304b8c4bd6aabc5e6e3cb6 openrisc: Define memory barrier mb
+92e4ebab1e34716a1069f952e4f7ab6dd25b1775 btrfs: do not BUG_ON in link_to_fixup_dir
+4f94d4ffbcb260da9e5412afec55a571742131c1 platform/x86: hp-wireless: add AMD's hardware id to the supported list
+8f4c6ad8257c924c1324e8cefc4da3a29f1c4f98 platform/x86: intel_punit_ipc: Append MODULE_DEVICE_TABLE for ACPI
+59f74c678ee8e1c20ff3934926b45c389d30c4e4 SMB3: incorrect file id in requests compounded with open
+75b289c23a58ac8dd12cf02ab36eb05ce56c33df drm/amdgpu: Fix a use-after-free
+fc4b5b8cf1093f034d876ad945633d8c72323dc2 net: netcp: Fix an error message
+5424a03d2c3bd2d03713cabb2eacbf1cb91c6f62 net: mdio: thunder: Fix a double free issue in the .remove function
+eda34df4a2925460fb1fcb96a2d5eee9f995f949 net: mdio: octeon: Fix some double free issues
+166f47d862a6f2476b9ffd1cc28d01d0ed2a9012 net: bnx2: Fix error return code in bnx2_init_board()
+f3a50b1e7c38698603ad3069bec0a458f742e34d mld: fix panic in mld_newpack()
+12e5fc51f5fcd83f76505f8adf02bbb25a049ecc staging: emxx_udc: fix loop in _nbu2ss_nuke()
+12c942df86bed70487592a38376ff5bf7464edee ASoC: cs35l33: fix an error code in probe()
+4eeae87342b1badfb298601a754c1e9b80552445 bpf: Set mac_len in bpf_skb_change_head
+4ef2f95695051590293c5db728d1a14c9e55a68e ixgbe: fix large MTU request from VF
+25de6dd2e224332198c471a6fdf1e828a6988312 scsi: libsas: Use _safe() loop in sas_resume_port()
+4c2cbe4eaa5478bdd8ce307a8912ef8a858e4ca9 ipv6: record frag_max_size in atomic fragments in input path
+954b0962be80e6c8707547d1e1096860766b9d6c sch_dsmark: fix a NULL deref in qdisc_reset()
+1008f0bd8f9569fcb1439763023f9d39da12edd5 MIPS: alchemy: xxs1500: add gpio-au1000.h header file
+37c23c3145c7640cdea917e2166e105c57cfabb8 MIPS: ralink: export rt_sysc_membase for rt2880_wdt.c
+99da3c3d471751ac4c987273531e35b010a474f7 hugetlbfs: hugetlb_fault_mutex_hash() cleanup
+25d0a35529c37f2db5d8b75f15108f57de0eac8b drivers/net/ethernet: clean up unused assignments
+49807ffb22df012cc79b42529e6f5dea71c27e07 usb: core: reduce power-on-good delay time of root hub
+506e0ba115126ff217295dca5197f9688c6f07c0 Linux 4.14.235-rc1
 
---===============9065663162027151017==--
+--===============4777573524238322120==--
