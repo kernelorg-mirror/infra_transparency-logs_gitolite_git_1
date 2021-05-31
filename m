@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 31 May 2021 13:50:41 -0000
-Message-Id: <162246904184.8300.15686066267944615961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 31 May 2021 14:34:51 -0000
+Message-Id: <162247169160.6381.17124169639987648168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/review-hans
-    old: 9972d91cd41540a1890435034b62653c98da4261
-    new: 65002c91af4dcbd982dc7351a9bda4f45c2f2b8c
+  - ref: refs/heads/experimental
+    old: 835b7bddbfa2c374662a9f8a234c2c2f1aba9a00
+    new: ea237c050c4bc414755eeb8f0406ee5339c8deed
     log: |
-         a1a474268b777e8d79b5d2335128fd5debe59661 platform/x86: touchscreen_dmi: Fix Chuwi Hi10 Pro comment
-         6039ae51f0e0c18b14edc8e1c1b44e3944c1cba2 platform/x86: firmware_attributes_class: Create helper file for handling firmware-attributes class registration events
-         cdf4a5ddfcb1c5928799840243e374579331f349 platform/x86: dell-wmi-sysman: Use firmware_attributes_class helper
-         1ca76f3c4b218963d3a9cd444fbea2bdd1111e53 platform/x86: think-lmi: Add WMI interface support on Lenovo platforms
-         65002c91af4dcbd982dc7351a9bda4f45c2f2b8c platform/x86: thinkpad-lmi: Remove unused display_name member from struct tlmi_pwd_setting
+         89b9b82efaf4f2d0030399059bff6afd24e2ffd5 erofs-utils: README: trivial updates
+         645734f55428a65d27c294e70b0a8f5ab991363b erofs-utils: README: big pcluster feature update
+         ea237c050c4bc414755eeb8f0406ee5339c8deed erofs-utils: support limit max decompressed extent size
          
