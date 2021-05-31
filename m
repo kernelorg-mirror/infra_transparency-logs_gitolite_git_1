@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1230433924077517393=="
+Content-Type: multipart/mixed; boundary="===============4166869027714883035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 31 May 2021 07:09:02 -0000
-Message-Id: <162244494223.21972.16963933812176782554@gitolite.kernel.org>
+Date: Mon, 31 May 2021 07:10:59 -0000
+Message-Id: <162244505928.24037.13799142002424004091@gitolite.kernel.org>
 
---===============1230433924077517393==
+--===============4166869027714883035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: fd03c075e362edc2ad637dfb5b945d304f80efe5
-    new: 39b27e89a76f3827ad93aed9213a6daf2b91f819
-    log: |
-         0d71f80b1898311420b4d07183a1e693c9b20c9e driver core: auxiliary bus: Fix typo in the docs
-         7e7ba9b3d46d47e9f75cbf9d5392583a958a9807 device property: Don't check for NULL twice in the loops
-         82769cc671b6ddfc87654ff8169efdb3925a621b component: Drop 'dev' argument to component_match_realloc()
-         d52ff34ee952b68c6d08eb56f2e99b926188f9e6 component: Rename 'dev' to 'parent'
-         39b27e89a76f3827ad93aed9213a6daf2b91f819 driver core: Drop helper devm_platform_ioremap_resource_wc()
-         
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
 
---===============1230433924077517393==
+--===============4166869027714883035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622444934 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622445050 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1622444933-b36c864d28cab427c1e8d8a11fcbbf9039709005
+nonce 1622445050-b1d94f60b58ae83fc71dd0ce3fa11bfb3cb75222
 
-fd03c075e362edc2ad637dfb5b945d304f80efe5 39b27e89a76f3827ad93aed9213a6daf2b91f819 refs/heads/driver-core-next
+0000000000000000000000000000000000000000 9e8e06c7a2169db945749f338334cd2042e08799 refs/tags/v5.13-rc3
+0000000000000000000000000000000000000000 3d34748611aa9c15509eb286463ebace02eaae14 refs/tags/v5.13-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0i4YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5yMQALdJM5FuRFgZy1LEswyf
-O3pJr7/V9mEiC4I7UMUdAhTNxfHYojNgX4YmBJP/C4Av+C9xJaaBcc8p9dLDAF0s
-g2nsYnC9wfd9fr7yexwoU+uI2ije10T3IGjOdtCScJuRUt4SAw3V+tdU5Gbk8ZnB
-sYepHoailUnp+0nHqpCHoh9F7GnTBPoG+LTxD1xUpZuugjemIa80Saj1Ztq1FeWJ
-qBPqPLYl6AqcvjsIV8wLtjlDr7iWheXAAnXB7RAt3Fgnymbwqpw8Is1fnWgi5Cg/
-1V+lKUdDA+HIWEYPEO0hU+lP+0PoGfmrI1Lggs0neUL3HG3vXxDbrtoZ36wTcByG
-a0XpnIL6I9Uts/450GEtWD7O8u4Z9G59Dr7b3MGuSt1DDEef1cus9DYJyijGTtGk
-ctQE4NnM5MxAV0yWSyJ2HtwNOtNGejdJrfNic8RRBSrTx7n7hFgHpIfKbYaLavT2
-5Vctl8daONMJ3vXGESGPcykrFBt1KIPF9z+/B/xgkeqOJ+ibaz7xSmJ4Gb3gda3g
-M/pzN6KNBGqM50hYap8Av+7XdvXlYSPWyYxJ6p46NPFztJx7mFVZVofvNMetuCyg
-5WKJisi9JtF5nTzxJPAd10Xj/0dpinZzsEkBsM/OcDvY0yghADn8wpbHNuBLVeS5
-H37a633df4E0ZVjSxaqW5hM3
-=RB8f
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0i/obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DYsP/jRC9lCYloblIEyi1yuN
+fE6BflbZnxlOO9sKr8FLszCpVZmaBI2QkkoAvvSe6KQf6ATOkIwb8uYHevrmvrv/
+Ju8wM+7RA4t6JLMMPs6LUze/XMXVncaYQ2nmDyuJQ08jm/oeDU66ugBMyhpj/l/A
+8PXDwJyjJvgf6bNOXlHXaG/8lmwT9FAQgE8KEXK2LBAdb+fLJ77kIVSS1MgYEvLE
+ogO2TYOh2WYDJQFB0xWdv5u/MY1typImqDJ3KqYw0So1mex5Q945ACLjM6lFOyc7
+CuVWv8LVJncNNXi25EGznrE6vAza7r0WkhXvuQpMPog2TOgWgy9zD8ECDAJl2mac
+Yc7yo+NsnXE8OSmdCJ35I8wweeZre+hJh/CNG+PCN/HxM+M1CMHfUehmPrhnp4Q/
+kr0PjWAuK1c4ZvPmo4QBVqKLkJNsM80mDuLzFEpdf7UaPZBYMm9DWUD4pCtpQFmC
+z4QpC/JqPgACjxwygTtlRwWXpabfe2FGcvgGsseahHZsmKN3mm722oCk2x+/dZFb
+j32iQHCuPbaHpF3XuYx7Cler2D6Pk5KIoLk56h99C12QCLilK/IggLD3kiHhRNS6
+OHru8Yi3QQBKp8nN0SvV/HVctV8wk7do4iztHetM8n/0cEEtNWl0E/b/hqILhP3b
+IbqiYq78Fi0BC37RfyhDY6vW
+=ag28
 -----END PGP SIGNATURE-----
 
---===============1230433924077517393==--
+--===============4166869027714883035==--
