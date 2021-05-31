@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7227226347811625842=="
+Content-Type: multipart/mixed; boundary="===============0058953154271436931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 May 2021 07:51:30 -0000
-Message-Id: <162244749076.9895.17155778258290859895@gitolite.kernel.org>
+Date: Mon, 31 May 2021 07:51:43 -0000
+Message-Id: <162244750340.10047.17423863955662695222@gitolite.kernel.org>
 
---===============7227226347811625842==
+--===============0058953154271436931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
+  - ref: refs/heads/usb-linus
+    old: a7f2e9272aff1ccfe0fc801dab1d5a7a1c6b7ed2
     new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-d07f6ca923ea-8124c8a6b353.txt
+    log: revlist-a7f2e9272aff-8124c8a6b353.txt
 
---===============7227226347811625842==
+--===============0058953154271436931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622447482 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622447498 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1622447482-d7d2648f78250f55216cc7798f9de1b64e8e42cf
+nonce 1622447497-8aab01c298a2e9d9a15c169d4f53d5fdd9ea8381
 
-d07f6ca923ea0927a1024dfccafc5b53b61cfecc 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/main
+a7f2e9272aff1ccfe0fc801dab1d5a7a1c6b7ed2 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0lXobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ef0QAIeQeg9sJvNoeR0zv1CZ
-f2lF7JIudkCkfO47Hx6bDOTgHKWBi1pbjY3wF6MssYhak2OaKYDHN4+1fVjwkUIQ
-O0lL2qtaXKpb+exSRDvcae5rZS55HiXppR2+hfqdudG1yx72KlyerWyYfA57/ryD
-aAW3m22O/4H5/4vrldM0IChkHKurvsJECtU49QAsjvlrdHCybW/tPun5GWo2aKNL
-5sFpqKOMed6MzrMqGHoVHQ3bay1Z4MJ9R6mJXYGs43M/uxvdPd5z6BULsRVEYBgB
-XL0tuPK8LJibrMQPNZ2GkVzDAnevWiTyKYx00VnwRrbj4AGXvzfKUy0t7dA6t7Hp
-rQ3oy5Hog24c8f3lZLKnKPrOKhBJGswYPYSkcBZ6ZzrWAHdGCIABTKkYr/KP7l9U
-9lkO7MP+BiKpD81VrQvtq2kmGoGLPqEiHtXYgNqw2UAMcs9SeybgbPPmjmSkopue
-+QnPDhNsVQDsXnrChckhmhSnJ3/ghs73mexfEm8N2c7rJPHLuAQu7PcUucaKMqYu
-2qjRJ6eo5oEgVG6FA0Y6XIZ64YpBBruGXfj8v3UoffU5P7DK6lmVNe8zDaw2n/g/
-GHJscO8kR2/4T8tMxV5uYFEjFL8y2t6eF6kyu83rHG1Nf4aO9BLPsgq0zbSNDnht
-Zc7ILc54sRL1iT9BtB/w4J0g
-=quuy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0lYobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WG0P/2N/akfOYuMK47ASrov5
+cSIVEvXknUY3p+2t/Sr5ITZM1WXBg27PmiP5O2Z+ZySsVbiGbjgbFYepsIVEGj6s
+KoCQfdAPGJxKiz8lNR8CUPbpkC/7wHSuV0z7FFC2xKlr/3DiCdfkPICrgS2jYBiO
+0VezexYfuFwgm04xByCKlGq9FeGNAntIIQWO2dI4M28yDXhwMRqpIRzewxd58zd1
++yV4nCqYBb6qImTklbCauavkMp1jmt6T1wnygh+yhtIT9jtVBy02W0JAP3GnEeDs
+lTOqTtkGyiowGomrlc03PgkPcdb2Llxv+iyt1cdpZKQRxuhnp9bLEAyAb3iMfvFK
+852SNFPpcEmZXdY3uN7htY0ljJzNuSyJBLkvmqqiOhJKkchIV2zyHQxF3VKnNz2g
+vK2NG31ApH/g6N5k/ErTX3SkpEKNuHSiSrxSQMwYo5ycYHIB0B6udEZnJiPMIkGX
+wXTX0WUK7j8pf0gaela3W9QVWOPUL6YyIGGOIEDYLTGW2E6BZ6johnYb1wW/wYya
+PmEAZ4x0AcMqGCHkLlZGgNaxpstsypUHtqMfmxEcz8TqXw67XZwBaxsRMQyhIMdT
+Y8//kht8olMW/IRG55qSxH8D3nAFOi9sP94uqu0/KUth/gBezkSADDbstjwxpU68
+mQhlZcYfB+3MPyUPUjtsJGPx
+=OjaX
 -----END PGP SIGNATURE-----
 
---===============7227226347811625842==
+--===============0058953154271436931==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d07f6ca923ea-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-a7f2e9272aff-8124c8a6b353.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
@@ -89,10 +89,6 @@ b5fd82a7af198db04408e218f64dc3d4178d585a habanalabs: change error level of secur
 c1b55029493879f5bd585ff79f326e71f0bc05e3 ALSA: hda: fixup headset for ASUS GU502 laptop
 4eff124347191d1548eb4e14e20e77513dcbd0fe openrisc: mm/init.c: remove unused memblock_region variable in map_ram()
 371dcaee1ade4b1eefd541ae6ee048b5ce15b37c openrisc: mm/init.c: remove unused variable 'end' in paging_init()
-c5a80540e425a5f9a82b0f3163e3b6a4331f33bc USB: serial: ftdi_sio: add IDs for IDS GmbH Products
-e467714f822b5d167a7fb03d34af91b5b6af1827 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
-89b1a3d811e6f8065d6ae8a25e7682329b4a31e2 USB: serial: ti_usb_3410_5052: add startech.com device id
-f8e8c1b2f782e7391e8a1c25648ce756e2a7d481 USB: serial: pl2303: add device id for ADLINK ND-6530 GC
 d4335d058f8430a0ce2b43dab9531f3a3cf9fe2c ASoC: codecs: lpass-rx-macro: add missing MODULE_DEVICE_TABLE
 14c0c423746fe7232a093a68809a4bc6233eed60 ASoC: codecs: lpass-tx-macro: add missing MODULE_DEVICE_TABLE
 b23584d6ce0212b9ad6cb7be19a7123461ed9e09 ASoC: ak5558: Correct the dai name for ak5552
@@ -128,8 +124,6 @@ b94cbc909f1d80378a1f541968309e5c1178c98b net: dsa: fix error code getting shifte
 297c4de6f780b63b6d2af75a730720483bf1904a net: dsa: felix: re-enable TAS guard band mode
 a00593737f8bac2c9e97b696e7ff84a4446653e8 interconnect: qcom: bcm-voter: add a missing of_node_put()
 1fd86e280d8b21762901e43d42d66dbfe8b8e0d3 interconnect: qcom: Add missing MODULE_DEVICE_TABLE
-07adc0225484fc199e3dc15ec889f75f498c4fca usb: cdns3: Fix runtime PM imbalance on error
-3b414d1b0107fa51ad6063de9752d4b2a8063980 usb: cdnsp: Fix lack of removing request from pending list.
 049c4e13714ecbca567b4d5f6d563f05d431c80e bpf: Fix alu32 const subreg bound tracking on bitwise operations
 35f3f8504c3b60a1ae5576e178b27fc0ddd6157d spi: Switch to signed types for *_native_cs SPI controller fields
 91e02557f377b6837d4f82b14229d92cae231001 ALSA: usb-audio: Fix potential out-of-bounce access in MIDI EP parser
@@ -345,7 +339,6 @@ d1acd81bd6eb685aa9fef25624fb36d297f6404e scsi: pm80xx: Fix drives missing during
 fbb80d5ad400a12ec67214a0e7e9f9497dc9e615 irqchip: Remove redundant error printing
 c1f0616124c455c5c762b6f123e40bba5df759e6 ALSA: intel8x0: Don't update period unless prepared
 9d5e8492eee017ffdaa9f0957e91d39d83163197 xfs: adjust rt allocation minlen when extszhint > rtextsize
-9e3927f6373da54cb17e17f4bd700907e1123d2f usb: chipidea: udc: assign interrupt number to USB gadget structure
 c6de37dd5e48b883db032aa4dc0547a4858b9f20 tools build: Fix quiet cmd indentation
 98a499a11ecdd8cb91d03dd5c034aaf7422f2deb scripts/jobserver-exec: Fix a typo ("envirnoment")
 c93db682cfb213501881072a9200a48ce1dc3c3f kbuild: dummy-tools: adjust to stricter stackprotector check
@@ -501,8 +494,6 @@ e83aa3528a38bddae182a35d0efb5a6c35143c1c cifs: Fix inconsistent indenting
 860b69a9d77160d21ca00357fd6c5217f9d41fb1 Fix kernel oops when CONFIG_DEBUG_ATOMIC_SLEEP is enabled.
 0ab95c2510b641fb860a773b3d242ef9768a8f66 Defer close only when lease is enabled.
 e2f5efd0f0e229bd110eab513e7c0331d61a4649 powerpc: Fix early setup to make early_ioremap() work
-b106776080a1cf953a1b2fd50cb2a995db4732be thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-22c7a18ed5f007faccb7527bc890463763214081 thunderbolt: usb4: Fix NVM read buffer bounds and offset issue
 7e008b02557ccece4d2c31fb0eaf6243cbc87121 dma-buf: fix unintended pin/unpin warnings
 e68671e9e1275dfdda333c3e83b6d28963af16b6 platform/x86: touchscreen_dmi: Add info for the Chuwi Hi10 Pro (CWI529) tablet
 ba5ef6dc8a827a904794210a227cdb94828e8ae7 io_uring: fortify tctx/io_wq cleanup
@@ -576,13 +567,6 @@ d33ca7d2e8db435ae0e514877e83e07bbf283baa Merge tag 'soundwire-5.13-fixes' of git
 af2702549d68519ac78228e915d9b2c199056787 ASoC: qcom: lpass-cpu: Use optional clk APIs
 bda7db1d952c3ff7c24c11bc295aa72aaeb98451 spi: sc18is602: don't consider the chip select byte in sc18is602_check_transfer
 b4e46c9954ad55092502e1e8c44ceb9b6744bade spi: sc18is602: implement .max_{transfer,message}_size() for the controller
-4f2629ea67e7225c3fd292c7fe4f5b3c9d6392de USB: usbfs: Don't WARN about excessively large memory allocations
-25dda9fc56bd90d45f9a4516bcfa5211e61b4290 usb: dwc3: gadget: Properly track pending and queued SG
-dcb4b8ad6a448532d8b681b5d1a7036210b622de misc/uss720: fix memory leak in uss720_probe
-acf5631c239dfc53489f739c4ad47f490c5181ff usb: typec: mux: Fix matching with typec_altmode_desc
-8c9b3caab3ac26db1da00b8117901640c55a69dd usb: typec: ucsi: Clear pending after acking connector change
-c58bbe3477f75deb7883983e6cf428404a107555 usb: typec: tcpm: Use LE to CPU conversion when accessing msg->header
-10505b720189ecc3852596a70a7e391b2a5c5b57 usb: Restore the usb_header label
 02625c965239b71869326dd0461615f27307ecb3 video: hgafb: correctly handle card detect failure during probe
 bda7d3ab06f19c02dcef61fefcb9dd954dfd5e4f kgdb: fix gcc-11 warnings harder
 51cb8e206afd463e66f16869e5ddc95bef107142 ALSA: usb-audio: fix control-request direction
@@ -593,8 +577,6 @@ c1f47ebc9b246e36afaa339cc5ca7ad9d3ae71b2 Merge tag 'modules-for-v5.13-rc3' of gi
 a0e31f3a38e77612ed8967aaad28db6d3ee674b5 Merge branch 'for-v5.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 5328bf8ba44e3f92016bbc800f352db922654f1b Merge tag 'devicetree-fixes-for-5.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 011ff616ffe8df6b86ee54d14a43c8d1a96a6325 Merge tag 'mmc-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-6a4c8f60da8f86bb7cfce4612f8ae6770b232e05 Merge tag 'usb-serial-5.13-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-746e4acf87bcacf1406e05ef24a0b7139147c63e USB: trancevibrator: fix control-request direction
 016002848c82eeb5d460489ce392d91fe18c475c serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
 f248d687e99da6799a25bbf53ca1350b84d41077 Merge remote-tracking branch 'torvalds/master' into perf/urgent
 ec347b7c319156c3b488681d1813d08d88499cc6 tools headers UAPI: Sync linux/fs.h with the kernel sources
@@ -637,7 +619,6 @@ a1caeebab07e9d72eec534489f47964782b93ba9 iio: adc: ad7768-1: Fix too small buffe
 01fcf129f61b26d5b3d2d8afb03e770dee271bc8 iio: adc: ad7923: Fix undersized rx buffer.
 4ed243b1da169bcbc1ec5507867e56250c5f1ff9 iio: adc: ad7793: Add missing error code in ad7793_setup()
 54732a5322ff1fe0f42f2527fa6f5901a4de5111 Merge tag 'iio-fixes-5.13b-take2' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
-2cbd838e0e48bdaa47e56978a8868f2fdd2b196d Merge tag 'usb-v5.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 23d729263037eddd7413535c68ccf9472a197ccd Merge tag 'for-linus-5.13b-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b9231dfbcbc0034cf333fee33c190853daee48c0 Merge tag 'io_uring-5.13-2021-05-22' of git://git.kernel.dk/linux-block
 4ff2473bdb4cf2bb7d208ccf4418d3d7e6b1652c Merge tag 'block-5.13-2021-05-22' of git://git.kernel.dk/linux-block
@@ -672,10 +653,6 @@ e70f7a11876a1a788ceadf75e9e5f7af2c868680 net/sched: fq_pie: fix OOB access in th
 835744e8b537389d6a448a47d0753734d4777fa4 Merge branch 'fq_pie-fixes'
 474a2ddaa192777522a7499784f1d60691cd831a net: dsa: mt7530: fix VLAN traffic leaks
 4dd649d130c634415c26df771e09e373f77fc688 NFC: nfcmrvl: fix kernel-doc syntax in file headers
-0bc3ee92880d910a1d100b73a781904f359e1f1c usb: typec: tcpm: Properly interrupt VDM AMS
-a20dcf53ea9836387b229c4878f9559cf1b55b71 usb: typec: tcpm: Respond Not_Supported if no snk_vdo
-e752dbc59e1241b13b8c4f7b6eb582862e7668fe usb: gadget: udc: renesas_usb3: Fix a race in usb3_start_pipen()
-e6809703e164e0e47d99a42084af06a60e386b13 Merge tag 'thunderbolt-for-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 9b7ff25d129df7c4f61e08382993e1988d56f6a7 ACPI: power: Refine turning off unused power resources
 08b2b6fdf6b26032f025084ce2893924a0cdb4a2 cgroup: fix spelling mistakes
 778a136e48be6b1b703328a0a4d6d459cf97449f KVM: SVM: Drop unneeded CONFIG_X86_LOCAL_APIC check
@@ -710,8 +687,6 @@ dad19afce9ad93dda1a10d08afea71b6dd30f19f Merge tag 'asoc-fix-v5.13-rc3' of https
 f25f8ef70ce2e85bae1a266dd5de714aefda81d2 nvme-fc: short-circuit reconnect retries
 4d9442bf263ac45d495bb7ecf75009e59c0622b2 nvme-fabrics: decode host pathing error for connect
 7cfc4ea78fc103ea51ecbacd9236abb5b1c490d2 drm/meson: fix shutdown crash when component not probed
-a80c203c3f1c06d2201c19ae071d0ae770a2b1ca xhci: fix giving back URB with incorrect status regression in 5.12
-a7f2e9272aff1ccfe0fc801dab1d5a7a1c6b7ed2 xhci: Fix 5.12 regression of missing xHC cache clearing command after a Stall
 e11851429fdc23524aa244f76508c3c7aeaefdf6 drm/i915: Reenable LTTPR non-transparent LT mode for DPCD_REV<1.4
 19dee613816d5065ad09f2ccc20b35d23dca9f28 netfs: Pass flags through to grab_cache_page_write_begin()
 b71c791254ff5e78a124c8949585dccd9e225e06 netfs: Make CONFIG_NETFS_SUPPORT auto-selected rather than manual
@@ -881,4 +856,4 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
 
---===============7227226347811625842==--
+--===============0058953154271436931==--
