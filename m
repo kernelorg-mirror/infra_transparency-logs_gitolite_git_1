@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 31 May 2021 08:16:18 -0000
-Message-Id: <162244897882.25331.9378221060609380916@gitolite.kernel.org>
+Date: Mon, 31 May 2021 08:16:28 -0000
+Message-Id: <162244898865.25480.6582320342734403361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: a8ea6fc9b089156d9230bfeef964dd9be101a4a9
-    new: 23759358d74814cf95d16b2fcc7a4786efe22b2b
+  - ref: refs/heads/perf/core
+    old: 875dd7bf548104bc1d2c5784a6af6cf38215a216
+    new: 82010881dc658c51b284da4887f9c7f88647306e
     log: |
-         af5124cd06b6df67d893fcdf79447b01c3744dd3 sched: Add CONFIG_SCHED_CORE help text
-         e2377748517a2976243f1d103d933c5536d74c38 sched: Optimize housekeeping_cpumask in for_each_cpu_and
-         52253a74dc8379e5fe75361239489379fa4e0782 sched/fair: Fix ascii art by relpacing tabs
-         099a4bc87a10ce794827c5d3dc38e854c0d18fe7 sched: Don't defer CPU pick to migration_cpu_stop()
-         23759358d74814cf95d16b2fcc7a4786efe22b2b sched: Plug race between SCA, hotplug and migration_cpu_stop()
+         a547a8ac57766ca5c32d228ddfe34a3b319bf75f uprobes: Update uprobe_write_opcode() kernel-doc comment
+         b2a94dcf618ea100851556715b420aa9c41a0f0e kprobes: Remove kprobe::fault_handler
+         82010881dc658c51b284da4887f9c7f88647306e x86,kprobes: WARN if kprobes tries to handle a fault
          
