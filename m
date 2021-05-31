@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0709179682922724155=="
+Content-Type: multipart/mixed; boundary="===============0890026255613741768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 31 May 2021 07:45:32 -0000
-Message-Id: <162244713261.4511.11485045651363195908@gitolite.kernel.org>
+Date: Mon, 31 May 2021 07:45:57 -0000
+Message-Id: <162244715729.4744.9426043161628612403@gitolite.kernel.org>
 
---===============0709179682922724155==
+--===============0890026255613741768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,58 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+  - ref: refs/heads/tty-linus
+    old: 56dde68f85be0a20935bb4ed996db7a7f68b3202
     new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-6efb943b8616-8124c8a6b353.txt
+    log: revlist-56dde68f85be-8124c8a6b353.txt
 
---===============0709179682922724155==
+--===============0890026255613741768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622447124 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622447147 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1622447124-90368a41cd2f55cfa9e599febf58a5313e6ed5a4
+nonce 1622447145-fcf27565142acbfcbab654a9404436026970f954
 
-6efb943b8616ec53a5e444193dccf1af9ad627b5 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/main
+56dde68f85be0a20935bb4ed996db7a7f68b3202 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0lBQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DeMP/i7HiUzqr9CSIhKikson
-cOwtCkTDiot5svInPIo+JcvzEAkbE02EtZj824mXbdf1pkogcV/MEDCHO5yGFTJg
-noePBKDierzE9ja4PnS6LQJEW2ejGUbjXacwnX6aHC8P+T/QWUMr6xEGW0fHd/0Y
-u2INzrKnFNgTE1/epB/B4xTdQJHWzaeWuglx5jPDfijFDyc3EWSGFZ/mEnDoIrzT
-34qqJujOTga09+7hRGta8ZW/SG9gCQfPPs0CuSxf6hzh4LNGdEvIrUzQYAT0HDdV
-PQD9tyLDKkl1QiQKzIqpmErNFudEwC+bbRXjZNeuhEBi1/3nkKlmer5W5deDqkLS
-bEgxzBo7Q5DLQrTMw5zRgrWBesUX7QwMRYJPlXyMrB5WKS516gvU+GAvymEEJGv9
-2hKIUnExDE+lhcF9pvs6flFWfJluLYkQdhJGzAm8d4qZUG3uTJCZ8gT426wRAIkJ
-3hdAovk0PBnyMG2rbVEGs+e4IZ9xDZjlrE5qS89L9qoENCZ9cAoevbNpPiERQzM+
-LI/4Rsg+fO+SPXrv07o/7KyEOJz3I2euScOS1hz59clPUhNQS+Paw3qqfKgQl6Fb
-XdZvyqzU2OJRNxjvfdue3km6XIVDBvABs1C55POFdISTdg0T1iB0qSEhcxd+bwfJ
-SNx6oOXI5yYyDmuRd0Lu45Gv
-=QfYx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0lCsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GAwQAMSM9hIHn+gX1lBctDqY
+oRZWMCSxJComWhDkDWvfkyq9rvEwXnGfdgs1UCDO70Qywu52SJf86bKZvfChYY2O
+cochUP4LLBSb3jy/ez/AtEUaCitwI6Wy5u1pc8/lg/ezF8MUN6S5eYcGv5buhPO/
+gJjcyqAGm+EoXqdpfcxl2mrHYganqsVVZ84g9ibW3gfbIqAxe7LgDR6WW/TJDz8T
+ij20H5ZrvABOZM9b/bP9MP54GPyrih2SnoUAQOjYf8pT/wp7ScG+UCedn2KTESp5
+hISYmU9VJvMo4p5gUaNmiSMvUKx9N9kGadG7prbZwk5ean2BiyKi2h/BF6DtJqKV
+bJHAs8ct2WG2OlTk6FYoNRkGHthum8xVdUlv8xvpjBTel9wA4WXZMQ6tBymm7Fxv
+JeaC6UHLV8f41iXsGlaFWcSyVuy1q7KJU8iG2LzC7KY07DXN2LENOPjVxg9N2hc/
+PrXtGVDHyzy0/8mZ4136E33O2U25W3MPwb8DQOzXjFWfIyDo/jPsuTCFGZ4HnkKe
+9u4+XpcUgb15jrtlW9ScvCmZC5UVebchZfGRfEY7W/q9nFH1DfExY0SZZiAONXx3
+QfgnxXmQ7PixOCFuWGvXxjIxMk1+OvD4o/hoYk3+FX/hX5v+s6LeGAy/QTCcEhkb
+9LVaEwaTtTr3gYVOZJVXZ6Mx
+=YGJ2
 -----END PGP SIGNATURE-----
 
---===============0709179682922724155==
+--===============0890026255613741768==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6efb943b8616-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-56dde68f85be-8124c8a6b353.txt
 
+27a9e35daad080f3770401a1a11eda2f9f7732dd habanalabs: ignore f/w status error
+24a107097fbd8fb6a48a0dcb31e64c1de6831a1d habanalabs: wait for interrupt wrong timeout calculation
+115726c5d312b462c9d9931ea42becdfa838a076 habanalabs/gaudi: Fix a potential use after free in gaudi_memset_device_memory
+a298232ee6b9a1d5d732aa497ff8be0d45b5bd82 io_uring: fix link timeout refs
+c1b55029493879f5bd585ff79f326e71f0bc05e3 ALSA: hda: fixup headset for ASUS GU502 laptop
+4eff124347191d1548eb4e14e20e77513dcbd0fe openrisc: mm/init.c: remove unused memblock_region variable in map_ram()
+371dcaee1ade4b1eefd541ae6ee048b5ce15b37c openrisc: mm/init.c: remove unused variable 'end' in paging_init()
+e759959fe3b8313c81d6200be44cb8a644d845ea x86/sev-es: Rename sev-es.{ch} to sev.{ch}
+b81fc74d53d1248de6db3136dd6b29e5d5528021 x86/sev: Move GHCB MSR protocol and NAE definitions in a common header
+059e5c321a65657877924256ea8ad9c0df257b45 x86/msr: Rename MSR_K8_SYSCFG to MSR_AMD64_SYSCFG
+970655aa9b42461f8394e4457307005bdeee14d9 xen/gntdev: fix gntdev_mmap() error exit path
 dbc03e81586fc33e4945263fd6e09e22eb4b980f xen/unpopulated-alloc: fix error return code in fill_list()
 c5a80540e425a5f9a82b0f3163e3b6a4331f33bc USB: serial: ftdi_sio: add IDs for IDS GmbH Products
 e467714f822b5d167a7fb03d34af91b5b6af1827 USB: serial: option: add Telit LE910-S1 compositions 0x7010, 0x7011
@@ -343,10 +354,6 @@ fe1c97d008f86f672f0e9265f180c22451ca3b9f drm/amd/display: Initialize attribute f
 227545b9a08c68778ddd89428f99c351fc9315ac drm/radeon/dpm: Disable sclk switching on Oland when two 4K 60Hz monitors are connected
 3666f83a11293fd3cbeb3c9e0c3c53a33a48c28b drm/amdgpu: set vcn mgcg flag for picasso
 5c1efb5f7682e2072ca5ce12cd616d432604ecc0 drm/amdgpu: update vcn1.0 Non-DPG suspend sequence
-3ddb4ce1e6e3bd112778ab93bbd9092f23a878ec serial: tegra: Fix a mask operation that is always true
-5e722b217ad3cf41f5504db80a68062df82b5242 serial: core: fix suspicious security_locked_down() call
-2ea2e019c190ee3973ef7bcaf829d8762e56e635 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
-3c35d2a960c0077a4cb09bf4989f45d289332ea0 serial: 8250_dw: Add device HID for new AMD UART controller
 a73b6a3b4109ce2ed01dbc51a6c1551a6431b53c ics932s401: fix broken handling of errors when word reading fails
 6a3239a738d86c5e9b5aad17fefe2c2bfd6ced83 Revert "crypto: cavium/nitrox - add an error message to explain the failure of pci_request_mem_regions"
 3e465fc3846734e9489273d889f19cc17b4cf4bd Revert "media: rcar_drif: fix a memory disclosure"
@@ -714,10 +721,6 @@ e380adfc213a13677993c0e35cb48f5a8e61ebb0 btrfs: zoned: pass start block to btrfs
 bc6a385132601c29a6da1dbf8148c0d3c9ad36dc block: fix a race between del_gendisk and BLKRRPART
 5665bc35c1ed917ac8fd06cb651317bb47a65b10 powerpc/64s/syscall: Use pt_regs.trap to distinguish syscall ABI difference between sc and scv syscalls
 d72500f992849d31ebae8f821a023660ddd0dcc2 powerpc/64s/syscall: Fix ptrace syscall info with scv syscalls
-df8f2be2fd0b44b2cb6077068f52e05f0ac40897 serial: 8250: Add UART_BUG_TXRACE workaround for Aspeed VUART
-1f06f5713f5278b7768031150ceb43d1127b9ad6 serial: 8250: Use BIT(x) for UART_{CAP,BUG}_*
-31fae7c8b18c3f8029a2a5dce97a3182c1a167a0 serial: 8250: 8250_omap: Fix possible interrupt storm
-e0e24208792080135248f23fdf6d51aa2e04df05 serial: 8250_pci: Add support for new HPE serial device
 e0112a7c9e847ada15a631b88e279d547e8f26a7 staging: emxx_udc: fix loop in _nbu2ss_nuke()
 676a659b60afb13166371580f3f6f434e9ba6f21 xfs: retry allocations when locality-based search fails
 16c9de54dc868c121918f2ae91e46330f919049f xfs: fix deadlock retry tracepoint arguments
@@ -796,7 +799,6 @@ a0e31f3a38e77612ed8967aaad28db6d3ee674b5 Merge branch 'for-v5.13-rc3' of git://g
 011ff616ffe8df6b86ee54d14a43c8d1a96a6325 Merge tag 'mmc-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 6a4c8f60da8f86bb7cfce4612f8ae6770b232e05 Merge tag 'usb-serial-5.13-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 746e4acf87bcacf1406e05ef24a0b7139147c63e USB: trancevibrator: fix control-request direction
-016002848c82eeb5d460489ce392d91fe18c475c serial: rp2: use 'request_firmware' instead of 'request_firmware_nowait'
 f248d687e99da6799a25bbf53ca1350b84d41077 Merge remote-tracking branch 'torvalds/master' into perf/urgent
 ec347b7c319156c3b488681d1813d08d88499cc6 tools headers UAPI: Sync linux/fs.h with the kernel sources
 4224680ee7aaf0f13ab762ffb2a77373737dce5e tools headers UAPI: Sync linux/perf_event.h with the kernel sources
@@ -1011,7 +1013,6 @@ bedd9195df3dfea7165e7d6f7519a1568bc41936 KVM: x86/mmu: Fix comment mentioning sk
 022b93cf2d6af2acfc13fbe399d9babf76d6eb48 Merge tag 'icc-5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 bbf0a94744edfeee298e4a9ab6fd694d639a5cdf mei: request autosuspend after sending rx flow control
 a799b68a7c7ac97b457aba4ede4122a2a9f536ab nfs: Remove trailing semicolon in macros
-9808f9be31c68af43f6e531f2c851ebb066513fe serial: 8250_pci: handle FL_NOIRQ board flag
 a4b58f1721eb4d7d27e0fdcaba60d204248dcd25 Merge tag 'nvme-5.13-2021-05-27' of git://git.infradead.org/nvme into block-5.13
 b16ef427adf31fb4f6522458d37b3fe21d6d03b8 io_uring: fix data race to avoid potential NULL-deref
 0ee74d5a48635c848c20f152d0d488bf84641304 iommu/vt-d: Fix sysfs leak in alloc_iommu()
@@ -1048,7 +1049,6 @@ b26389e854f7c2f28e8ea754d169834f1fe7e620 Merge tag 'drm-misc-fixes-2021-05-27' o
 aeeb517368822e2b24231f5bd43a98ecdbe65d59 Merge tag 'drm-intel-fixes-2021-05-27' of ssh://git.freedesktop.org/git/drm/drm-intel into drm-fixes
 fed1bd51a504eb96caa38b4f13ab138fc169ea75 i2c: mediatek: Disable i2c start_en and clear intr_stat brfore reset
 24990423267ec283b9d86f07f362b753eb9b0ed5 i2c: s3c2410: fix possible NULL pointer deref on read message after write
-56dde68f85be0a20935bb4ed996db7a7f68b3202 Revert "serial: 8250: 8250_omap: Fix possible interrupt storm"
 8fc4e4aa2bfca8d32e8bc2a01526ea2da450e6cb perf vendor events powerpc: Fix eventcode of power10 JSON events
 8aa0ae439966364da86fc6437375e32f2890c4c3 MAINTAINERS: adjust to removing i2c designware platform data
 aac902925ea646e461c95edc98a8a57eb0def917 Documentation: seccomp: Fix user notification documentation
@@ -1082,4 +1082,4 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
 
---===============0709179682922724155==--
+--===============0890026255613741768==--
