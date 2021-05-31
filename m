@@ -1,48 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3788940895239632583=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Mon, 31 May 2021 15:11:58 -0000
-Message-Id: <162247391876.32761.4332352719795199372@gitolite.kernel.org>
-
---===============3788940895239632583==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 31 May 2021 15:13:22 -0000
+Message-Id: <162247400228.866.8742073107000825933@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/patatt/patatt
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/main
-    old: 7754d7d35d03b462109c4a93d625f0af21383312
-    new: 1fc7ed529fc07036072b79c040f083b1db1c668a
+  - ref: refs/heads/next
+    old: 465e1d1d4199e6b13a7c2c4b0772f8176ac9dee8
+    new: 9b14d297f5392f91648687e62f0f97cd864e94e9
     log: |
-         bce07358d6dfdb84f532ed46acb1af62d3b2f56b Add "frequently seen commentary"
-         30840a6acae935ebc5332d08d61222cebe0b518b Handle MIME encoded-word & other header manglings
-         1fc7ed529fc07036072b79c040f083b1db1c668a Make instructions for automatic signing more reliable
+         df6a241df683f2b66df1de9ea7e90aac7e67e690 habanalabs/gaudi: set the correct cpu_id on MME2_QM failure
+         768da65e147566b4f93d8648cb8558fc9952a435 habanalabs/gaudi: don't use nic_ports_mask in compute
+         fd8e2f877a8c89bff38b5c040a39af30bb14e4d1 habanalabs/gaudi: add ARB to QM stop on error masks
+         cd696a00e5cc7b19a5504a0c6367dc26ed11f0a7 habanalabs: prefer ASYNC device probing
+         6329da52fae0ab213f817d06e1418fd4a452774e habanalabs/gaudi: split host irq interfaces towards FW
+         9b14d297f5392f91648687e62f0f97cd864e94e9 habanalabs/gaudi: update to latest f/w specs
          
-
---===============3788940895239632583==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1622473918 -0400
-pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1622473918-2005447297fc38056fb9b8cce5461ce125f42e14
-
-7754d7d35d03b462109c4a93d625f0af21383312 1fc7ed529fc07036072b79c040f083b1db1c668a refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYLT8vgAKCRC2xBzjVmSZ
-bENLAP9ALaLbZCZsudHCkXd/yyLP96FIa9XeJA9xMzG/uG2IwwEAhp/U/MiXq5p1
-fNYzRmu3FJT4y70Sx7UdmajR2IBU1wQ=
-=xXEW
------END PGP SIGNATURE-----
-
---===============3788940895239632583==--
