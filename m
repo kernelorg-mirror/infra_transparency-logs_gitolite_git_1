@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5062434822911433602=="
+Content-Type: multipart/mixed; boundary="===============7124069895104704287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Mon, 31 May 2021 14:37:51 -0000
-Message-Id: <162247187157.9003.14950369102313139701@gitolite.kernel.org>
+Date: Mon, 31 May 2021 14:37:54 -0000
+Message-Id: <162247187465.9080.6766364262158637400@gitolite.kernel.org>
 
---===============5062434822911433602==
+--===============7124069895104704287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/hwspinlock-next
-    old: 1cb8f3e2d8fe7533c26df9925a83bd3d185b312e
-    new: 3c881e05c814c970e4f9577446a9d3461d134607
-    log: revlist-1cb8f3e2d8fe-3c881e05c814.txt
+  - ref: refs/heads/rpmsg-next
+    old: 26594c6bbb60c6bc87e3762a86ceece57d164c66
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    log: revlist-26594c6bbb60-6efb943b8616.txt
 
---===============5062434822911433602==
+--===============7124069895104704287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cb8f3e2d8fe-3c881e05c814.txt
+Content-Disposition: attachment; filename=revlist-26594c6bbb60-6efb943b8616.txt
 
+d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
+9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
 75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
 c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
@@ -1048,7 +1050,5 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
-f9e784dcb63f56157f7d12abdab584cc393515b1 dt-bindings: hwlock: add sun6i_hwspinlock
-3c881e05c814c970e4f9577446a9d3461d134607 hwspinlock: add sun6i hardware spinlock support
 
---===============5062434822911433602==--
+--===============7124069895104704287==--
