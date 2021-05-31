@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 31 May 2021 10:36:16 -0000
-Message-Id: <162245737601.6028.14630567528020543580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 31 May 2021 10:41:52 -0000
+Message-Id: <162245771202.9260.15005018327142551537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: bccf1ec369ac126b0997d01a6e1deae00e2cf6b3
-    new: b8e00abe7d9fe21dd13609e2e3a707e38902b105
+  - ref: refs/heads/perf/core
+    old: 875dd7bf548104bc1d2c5784a6af6cf38215a216
+    new: 148d40bdd797edc1c28b5364984fe82f295d41de
     log: |
-         fab6216fafdd74cd84de929ffe7b787976d32cff locking/lockdep,doc: Improve readability of the block matrix
-         b8e00abe7d9fe21dd13609e2e3a707e38902b105 locking/lockdep: Reduce LOCKDEP dependency list
+         047c349c68577183abe62bc8c212b706470f8c4b uprobes: Update uprobe_write_opcode() kernel-doc comment
+         bb7729de20cb51ca80ebdad240a71fcdbcc8de09 kprobes: Remove kprobe::fault_handler
+         148d40bdd797edc1c28b5364984fe82f295d41de x86,kprobes: WARN if kprobes tries to handle a fault
          
