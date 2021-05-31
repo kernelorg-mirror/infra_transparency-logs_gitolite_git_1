@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7124069895104704287=="
+Content-Type: multipart/mixed; boundary="===============8801843744014189889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Mon, 31 May 2021 14:37:54 -0000
-Message-Id: <162247187465.9080.6766364262158637400@gitolite.kernel.org>
+Date: Mon, 31 May 2021 14:37:58 -0000
+Message-Id: <162247187809.9191.12517605860076050963@gitolite.kernel.org>
 
---===============7124069895104704287==
+--===============8801843744014189889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 26594c6bbb60c6bc87e3762a86ceece57d164c66
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-26594c6bbb60-6efb943b8616.txt
+  - ref: refs/heads/rproc-next
+    old: edf696f26855788cdff832ac83319e1f2aafcc90
+    new: e50f4bda7539c165f3c8d880b670140ce09a50cf
+    log: revlist-edf696f26855-e50f4bda7539.txt
 
---===============7124069895104704287==
+--===============8801843744014189889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26594c6bbb60-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-edf696f26855-e50f4bda7539.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
-01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
 5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
 d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
 bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
@@ -1050,5 +1041,14 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+95347e734846ac3276f5e1b338c79aec9d9809dd remoteproc: Add kernel-doc comment for is_iomem
+f2867434002387c9739494041ac81c17a3808150 remoteproc: Fix various kernel-doc warnings
+c16ced60f3bf4aeba85e638f2186c468d7892ee0 dt-bindings: remoteproc: k3-r5f: Update bindings for AM64x SoCs
+fee613a6fec64b8f7cae5c3a1e374146e1477bbf Merge tag '20210327143117.1840-2-s-anna@ti.com' into rproc-next
+ee99ee7c929c3e7484b663c4b7da91ab1f050d5b remoteproc: k3-r5: Extend support to R5F clusters on AM64x SoCs
+3e25e407a1c93b53a87a7743ea0cd4703d3985b7 remoteproc: stm32: fix phys_addr_t format string
+34c4da6d5dfba48f49f891ebd75bb55999f0c538 remoteproc: k3-r5: Fix an error message
+cf107e98d024590fe2d0616862a3cc283da61501 dt-bindings: remoteproc: qcom: pas: Convert binding to YAML
+e50f4bda7539c165f3c8d880b670140ce09a50cf dt-bindings: remoteproc: qcom: pas: Add power domains for MSM8996
 
---===============7124069895104704287==--
+--===============8801843744014189889==--
