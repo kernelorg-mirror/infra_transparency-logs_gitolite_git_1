@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0986047297247063178=="
+Content-Type: multipart/mixed; boundary="===============1426481099625792749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 31 May 2021 09:54:48 -0000
-Message-Id: <162245488815.10867.3084040953673690771@gitolite.kernel.org>
+Date: Mon, 31 May 2021 09:55:12 -0000
+Message-Id: <162245491229.12402.8531277200593343086@gitolite.kernel.org>
 
---===============0986047297247063178==
+--===============1426481099625792749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: eeff86b6d18ccd7ef1e663dd428b93f5887d02b5
-    new: b44bf9410a6921a232679124ca48daa2a8a15303
-    log: |
-         9a51ebd7e5b6b8aa826d3c24f2077adf3b5df129 MAINTAINERS, .mailmap: Update Finn Thain's email address
-         b44bf9410a6921a232679124ca48daa2a8a15303 m68k: defconfig: Update defconfigs for v5.13-rc1
-         
-  - ref: refs/heads/for-v5.14
-    old: eeff86b6d18ccd7ef1e663dd428b93f5887d02b5
-    new: b44bf9410a6921a232679124ca48daa2a8a15303
-    log: |
-         9a51ebd7e5b6b8aa826d3c24f2077adf3b5df129 MAINTAINERS, .mailmap: Update Finn Thain's email address
-         b44bf9410a6921a232679124ca48daa2a8a15303 m68k: defconfig: Update defconfigs for v5.13-rc1
-         
-  - ref: refs/heads/master
-    old: 3428ff4f47ba01620d01de4e179105498ac24d8f
-    new: 6dd931313348999a237293aac7824eba2128ce80
-    log: revlist-3428ff4f47ba-6dd931313348.txt
+  - ref: refs/heads/m68k-queue
+    old: 1ad5080508974993f1834c3a2baa227e8363e22d
+    new: 3aab2fb066ca8b748e221879a03c7d85ad975052
+    log: revlist-1ad508050897-3aab2fb066ca.txt
 
---===============0986047297247063178==
+--===============1426481099625792749==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3428ff4f47ba-6dd931313348.txt
+Content-Disposition: attachment; filename=revlist-1ad508050897-3aab2fb066ca.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 a0695853e5906a9558eef9f79856e07659b7a1e6 ASoC: stm32: do not request a new clock consummer reference
@@ -574,7 +560,11 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 9a76c0ee3a759c1aaeedaaac9d3831397f264237 Merge tag 'seccomp-fixes-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
-f4e05b6a154e621abc3fb1216c5d598758e0cc8b Merge tag 'v5.13-rc4'
-6dd931313348999a237293aac7824eba2128ce80 MAINTAINERS, .mailmap: Update Finn Thain's email address
+32b71f9f6485280d53ecf530cc83bbadba9901c1 m68k: Drop -fno-strength-reduce from KBUILD_CFLAGS
+0d320ade9d7125986a8d592914954d0595677ccc m68k: dma: Remove unnecessary include of asm/cacheflush.h
+c66019de977ccfbfcc59676c91937d4162fc3059 MAINTAINERS, .mailmap: Update Finn Thain's email address
+3a170110ec9c616d302f8f02679225857a55f756 m68k: atari: usb: Add ISP1160 USB host controller support
+134e73671a2a16a7038605f43cd9c7b8e6c69ab7 m68k: atari: Update Kconfig.bus help text
+3aab2fb066ca8b748e221879a03c7d85ad975052 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0986047297247063178==--
+--===============1426481099625792749==--
