@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6326602856098804327=="
+Content-Type: multipart/mixed; boundary="===============1454777619444261261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 31 May 2021 07:11:18 -0000
-Message-Id: <162244507845.24208.3705683190527190982@gitolite.kernel.org>
+Date: Mon, 31 May 2021 07:11:30 -0000
+Message-Id: <162244509093.24360.14692050712885453800@gitolite.kernel.org>
 
---===============6326602856098804327==
+--===============1454777619444261261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
+  - ref: refs/heads/driver-core-linus
+    old: 0c8713153fbf7ba4e45172e139d501c86006dc03
     new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-d07f6ca923ea-8124c8a6b353.txt
+    log: revlist-0c8713153fbf-8124c8a6b353.txt
 
---===============6326602856098804327==
+--===============1454777619444261261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622445070 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622445085 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1622445069-7bf826e3d6f3afa3dce5433cbbcbdf5beae99290
+nonce 1622445085-66c865f43801ac33951fbc285dc3f7a3f55e2e1a
 
-d07f6ca923ea0927a1024dfccafc5b53b61cfecc 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/main
+0c8713153fbf7ba4e45172e139d501c86006dc03 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0jA4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xA8P/2obssZ4VuqLwBDGFCKX
-ZI9A7GbOuzSRwWlskRfmkErFXtucb62rHHS3yMVDzxXk57MoSqoXg4Q7u5/Wx4Er
-6s1/onKtIYThbi6FCe26i3boS2hAUCEz817YZVtB/vbbA9y3/m1J6Lh2Ap1eQ25M
-uNvHJaucKmxTU8lCNuKk9BeYp4GstyjX8n5VA1z1ZBOAo6W6uCxCffTgnIm7bHVj
-HNuT+jHi/++Y+9QYreI/h4zTf7RfoyrCQEAk7dLNDnLiuWPTFbsfHkRrjYibV7CA
-9crBvfaLdH7bot1A9iKta6JyoapSvX2iYfo01kXBWLJtaaIKC2/FGZSLoVBAnO+O
-x1lV+6gjW8JjkiFQ5/RLBrwWHv1AL6ukHrLbQoifqW6F2XsvmYvsCkyCcpv22k3r
-Ud/7XdQiSNT+epqQtQ0/5dW059PFJYt1iRh6dMGk9lKvkbCS1zuHezERMaJ3czEj
-Ny5TSUvXoL+6710pAGAwUeCDFMjPvkhX8kk9JFbfE1hwQk5O2zNQRSz9SZe3UoGP
-B7bJIA2P1+o82PbGoIU4zaYcb3jfvK41at6hbcdhLzJNvxC7iGJDOGvQ72LPvhSF
-kbY7Zf7Ti6VXIi75FnuA3tlG53z+fxOZ2vto0uv+v+PAxDF8GZ5Xe0uM7zcOui+5
-sMyBcTlTiUgEQ1Nl+TglTZwP
-=+4rR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0jB0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pJYQAI6WLR7VK87pqjCo0nz6
+z33PoZZZKuPW37b1azSWoVA+DPl8Y3EczV85URbWpOQTfByk2/T5jT7lxK+YV0qk
+i2XfgxUJHTOB4gbhMJX8jYE3aHavwBVJdi76ngh+NErmmgN03lCIbsbASIQCQX2P
+KaIbfkWCMLC6rhme2k9/P3T5YuVNJYHFJwt+cRkN476ssw/DmVG0onTN7UNtGLw7
+P7/8P4gf+weby6q2X1WoETOG10uzaXNNe5I0sWT0MGxnlZ6Tdb2OhRa6Fjmmqvh3
+CuDgb21szwpIDozdrLxJOPtKk3J9jK6QPbchMiJCgCP0h/19ZziUXklc/qBp5HQz
+sZ5SUwLxC1QxQfnG962xSybNR8S5lNE96lsmXEaDJGkm7rLhDVxTxMkZqgcug4Hv
+mQ6alCgeO6yLkxs7avukST+Fr/ojk27bkrvklphe/Uj3spJAmsNODxHY+CsZW28J
+Jiv8BfGtp5OzizhEs7kD3F093dQPGAauwPinPrdZdwJClCy51TTpMS7RJMYcGXpE
+Ai14+Q2KKHcBhQKI6AA9YMjZos8UddwLGTZstbso0OqugmI6c+C3D9YFpgZzOmW9
+L/U8GSHw6Dph4UANwhwcnLZ0s8XXUIgDqJ558pFhIZTu2UDsJVxdtLHPb+rhwkDJ
+L6ekS/7yk/2GQedAYcUfnG9x
+=lt4q
 -----END PGP SIGNATURE-----
 
---===============6326602856098804327==
+--===============1454777619444261261==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d07f6ca923ea-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-0c8713153fbf-8124c8a6b353.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
@@ -408,7 +408,6 @@ cdf112d4c65f83065793b73b49363123517fdb71 ASoC: fsl: fix SND_SOC_IMX_RPMSG depend
 0b07154f066ab2c087c342b372be5771145bdc60 dt-bindings: spi: spi-mux: rename flash node
 d7aed20d446d8c87f5e13adf73281056b0064a45 MAINTAINERS: Add Alain Volmat as STM32 SPI maintainer
 d37316b72e8bf95a52d1c3e93c823d128c09b521 ARM: npcm: wpcm450: select interrupt controller driver
-5881fa8dc2de9697a89451f6518e8b3a796c09c6 debugfs: fix security_locked_down() call for SELinux
 c37fe6aff89cb0d842993fe2f69e48bf3ebe0ab0 Merge tag 'v5.13-rc2' into spi-5.13
 889d916b6f8a48b8c9489fffcad3b78eedd01a51 RDMA/core: Don't access cm_id after its destruction
 976aac5f882989e4f6c1b3a7224819bf0e801c6a kcsan: Fix debugfs initcall return type
@@ -605,8 +604,6 @@ fd931b2e234a7cc451a7bbb1965d6ce623189158 perf scripts python: exported-sql-viewe
 f56299a9c998e0bfbd4ab07cafe9eb8444512448 perf scripts python: exported-sql-viewer.py: Fix warning display
 f42907e8a4515635615a6ffd44242454ef843c04 perf script: Add missing PERF_IP_FLAG_CHARS for VM-Entry and VM-Exit
 f8b61bd20479c094fb421da42fef6b4ff22a589e perf stat: Skip evlist__[enable|disable] when all events uses BPF
-80dd33cf72d1ab4f0af303f1fa242c6d6c8d328f drivers: base: Fix device link removal
-0c8713153fbf7ba4e45172e139d501c86006dc03 drivers: base: Reduce device link removal code duplication
 70ca3c57ff914113f681e657634f7fbfa68e1ad1 scsi: target: core: Avoid smp_processor_id() in preemptible code
 b4150b68815e9e4447ce169224ed436b419f0153 scsi: target: tcmu: Fix xarray RCU warning
 430bfe0576120b52cf7f62116bc7549180da4706 net: ethernet: mtk_eth_soc: Fix DIM support for MT7628/88
@@ -881,4 +878,4 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
 
---===============6326602856098804327==--
+--===============1454777619444261261==--
