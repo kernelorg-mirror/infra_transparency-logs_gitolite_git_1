@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 31 May 2021 11:38:07 -0000
-Message-Id: <162246108765.13517.5367686192932028625@gitolite.kernel.org>
+Date: Mon, 31 May 2021 11:40:12 -0000
+Message-Id: <162246121261.15594.13295211268548509566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
   - ref: refs/heads/next
-    old: fe6f6f95919ccdc8a3e2c5dae9b1740583e16523
-    new: 34163dfad412947c1a413324d0293f1da219231f
+    old: 34163dfad412947c1a413324d0293f1da219231f
+    new: 3caf88871c6ad0bf7c5fca8a6f7fcada1891a891
     log: |
-         9b383037770fcd6b03dd3793c89055b8490957e0 thunderbolt: Split NVM read/write generic functions out from usb4.c
-         34163dfad412947c1a413324d0293f1da219231f thunderbolt: Use generic tb_nvm_[read|write]_data() for Thunderbolt 2/3 devices
+         68977e61ab9e3fbb8ebbb1c7e8c772762d232f7c Documentation / thunderbolt: Clean up entries
+         6026b703e8f61bf9c395bb286fa3b46956ce0496 thunderbolt: Add wake from DisplayPort
+         3caf88871c6ad0bf7c5fca8a6f7fcada1891a891 thunderbolt: Align USB4 router wakes configuration with the CM guide
          
