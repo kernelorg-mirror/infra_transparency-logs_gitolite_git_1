@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7454103471390800711=="
+Content-Type: multipart/mixed; boundary="===============4400405521640911306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 31 May 2021 07:04:24 -0000
-Message-Id: <162244466431.18578.9425686544839978431@gitolite.kernel.org>
+Date: Mon, 31 May 2021 07:04:38 -0000
+Message-Id: <162244467807.18724.8333899721534844359@gitolite.kernel.org>
 
---===============7454103471390800711==
+--===============4400405521640911306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: bbf0a94744edfeee298e4a9ab6fd694d639a5cdf
-    new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-bbf0a94744ed-8124c8a6b353.txt
+  - ref: refs/heads/char-misc-next
+    old: d99247f9b542533ddbf87a3481a05473b8e48194
+    new: 2d06954e23375a8d299131eddede3a1720bf8539
+    log: revlist-d99247f9b542-2d06954e2337.txt
 
---===============7454103471390800711==
+--===============4400405521640911306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622444659 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622444672 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1622444658-10b9b5345ce71a60bc73a6b3fc68b1125d1eee14
+nonce 1622444671-70e42377d9f5290c2a834db12e8c83e2df7a5ea3
 
-bbf0a94744edfeee298e4a9ab6fd694d639a5cdf 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/char-misc-linus
+d99247f9b542533ddbf87a3481a05473b8e48194 2d06954e23375a8d299131eddede3a1720bf8539 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0inMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SVkP/06aGjIlNrL6KZRRRJkL
-U9buP9LwafiSSMTq+0p5jaIPQ7h4jtK+XdK9dpw0kfblljmCMLTRnwQHoRnkpcwp
-HVHfzES9xrFFAvR4m2zK9W2Tt2XzNjctCqz4TY9n92wIiUB3FFk2nCJZibsUfy8t
-CTPuYXO8dxq+fC75ykS+27seLBnBJzjm6tBCQIanRNRA2GXbaNMLV9KFrujrD9Pm
-qnd/tcupCVYV2hHNnhpLmP68H5XrJpW9vjdQZiBKu0hLZq8oY9/aGpZKSm6ha+IH
-aEYAeHwaYrPip+v0zDoMUh9sFJfQz+YOlIRWGONiNSqyrfODsVirL7kNw/aHJiOA
-8QVeeiYu5OFZQ0V26XGGTnZGC8BqhFDyLsxiqKv9oN+RyADJhhyVXkDFR3Ain4Jh
-ckyiEKp1/zb6KiygTl/neC2VHO9NSEjTltQNYP/v3/gRU0ne8sBque5KeiO096je
-sf9Cuq/cLN8MqQdcIoT0dBSOvrmr5SURSOuRGov+HL/fdENHlbZ83i76qhp4mhdp
-fNxHA0KFV4GAfrjCEUqKs7MYY9/+HDKRVmQaAnqTh82ThAd3oQ1xHmc6KBsQRteI
-dhKrcsx39OHGYMJ8Gf5zOFu8Yf28WkmR2HFmFDMBff+UkL4MxZzRa0cdU4IIwOWj
-37BelKKaeWJAO0B1JIx91Kgz
-=yMQm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0ioAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NWgP/1djyFxPtWfmv+ICJzyw
+O2fLcDwKvIc2kX7Y7bmI2FQBFvsr+m+rC5rU80VmBUIxIzhnCwjxOxLs7ooRVnPO
+9sJ7mSoJRaTN1hoingkTaMKgjmdLm2WFt5c4lxn3Gp134p4+1a+aFaurI8WTCe9X
+IbkD3rxbz2GR1MrvakZr8umG4qPipmD7c5pgNeb1mnumt+kVlHtji0h2W3MoIIlS
+2f4ADxtjatGptaOo2mC6J171UsJQaRBnTsG6K1gqXFs1wtiOXNk3HJMxJDkxueyW
+kJDk2EjazO8VnfzYGbCrJe+f0Ik15Drnpudre2x/Y81zKc0cwzkgjrq3H+KTd8Eb
+ULnXacWAh6SKDLFbz2/ieidGtJIfcbl+YXiG9VhNmuDdRRbLttt2lIm1OAQiGsmL
+Jyik5mjfOZGpOLxzOVd3OtBoaO71+jPv0aIIccyte8OMDS2bDMJ1/nHTg7v2KQVI
+kyynfYLmil9qO7cMPneGyYC5q+4X0ejml4GVrxa98YhSNLVNbR3sHPFa3BgZEIG/
+pjEyfnq7hI0XLDGkJeYpBkvewVhMq1Km5XQp1bgM4tplZRgicIe19Pa+P8lL584h
+qWZ/O5q4Ej14mV5Rz2jbdxDGpXu0X62akbJQfexv37eORg1nEiRWFIGpbKxtY6KN
+CBNRLpINq3gSL+5uieTVNj04
+=dr5Q
 -----END PGP SIGNATURE-----
 
---===============7454103471390800711==
+--===============4400405521640911306==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bbf0a94744ed-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-d99247f9b542-2d06954e2337.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
@@ -118,6 +118,8 @@ db825feefc6868896fed5e361787ba3bee2fd906 net/mlx4: Fix EEPROM dump support
 b94cbc909f1d80378a1f541968309e5c1178c98b net: dsa: fix error code getting shifted with 4 in dsa_slave_get_sset_count
 3058e01d31bbdbe50e02cafece2b22817a6a0eae tipc: make node link identity publish thread safe
 297c4de6f780b63b6d2af75a730720483bf1904a net: dsa: felix: re-enable TAS guard band mode
+a00593737f8bac2c9e97b696e7ff84a4446653e8 interconnect: qcom: bcm-voter: add a missing of_node_put()
+1fd86e280d8b21762901e43d42d66dbfe8b8e0d3 interconnect: qcom: Add missing MODULE_DEVICE_TABLE
 07adc0225484fc199e3dc15ec889f75f498c4fca usb: cdns3: Fix runtime PM imbalance on error
 3b414d1b0107fa51ad6063de9752d4b2a8063980 usb: cdnsp: Fix lack of removing request from pending list.
 049c4e13714ecbca567b4d5f6d563f05d431c80e bpf: Fix alu32 const subreg bound tracking on bitwise operations
@@ -201,6 +203,7 @@ ca14f9597f4fdb3679453aec7bb2807f0b8b7363 MAINTAINERS: nfc: drop Clément Perroch
 832ce924b1a14e139e184a6da9f5a69a5e47b256 chelsio/chtls: unlock on error in chtls_pt_recvmsg()
 9e9da02a68d4b7feaa10022fd1135d9b3f2f72d7 percpu_ref: Don't opencode percpu_ref_is_dying
 c547addba7096debac4f99cdfe869a32a81081e2 MAINTAINERS: Add lib/percpu* as part of percpu entry
+da096fbccd52803db3edd9dd0c5ae4079d31c456 soundwire: qcom: fix handling of qcom,ports-block-pack-mode
 3ddb4ce1e6e3bd112778ab93bbd9092f23a878ec serial: tegra: Fix a mask operation that is always true
 5e722b217ad3cf41f5504db80a68062df82b5242 serial: core: fix suspicious security_locked_down() call
 2ea2e019c190ee3973ef7bcaf829d8762e56e635 serial: sh-sci: Fix off-by-one error in FIFO threshold register setting
@@ -474,6 +477,7 @@ ae897fda4f507e4b239f0bdfd578b3688ca96fb4 x86/Xen: swap NX determination and GDT 
 4ba50e7c423c29639878c00573288869aa627068 xen-pciback: redo VF placement in the virtual topology
 c81d3d24602540f65256f98831d0a25599ea6b87 xen-pciback: reconfigure also from backend watch handler
 3b2f17ad1770e51b8b4e68b5069c4f1ee477eff8 perf parse-events: Check if the software events array slots are populated
+d33ca7d2e8db435ae0e514877e83e07bbf283baa Merge tag 'soundwire-5.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-linus
 af2702549d68519ac78228e915d9b2c199056787 ASoC: qcom: lpass-cpu: Use optional clk APIs
 bda7db1d952c3ff7c24c11bc295aa72aaeb98451 spi: sc18is602: don't consider the chip select byte in sc18is602_check_transfer
 b4e46c9954ad55092502e1e8c44ceb9b6744bade spi: sc18is602: implement .max_{transfer,message}_size() for the controller
@@ -484,6 +488,8 @@ acf5631c239dfc53489f739c4ad47f490c5181ff usb: typec: mux: Fix matching with type
 8c9b3caab3ac26db1da00b8117901640c55a69dd usb: typec: ucsi: Clear pending after acking connector change
 c58bbe3477f75deb7883983e6cf428404a107555 usb: typec: tcpm: Use LE to CPU conversion when accessing msg->header
 10505b720189ecc3852596a70a7e391b2a5c5b57 usb: Restore the usb_header label
+02625c965239b71869326dd0461615f27307ecb3 video: hgafb: correctly handle card detect failure during probe
+bda7d3ab06f19c02dcef61fefcb9dd954dfd5e4f kgdb: fix gcc-11 warnings harder
 51cb8e206afd463e66f16869e5ddc95bef107142 ALSA: usb-audio: fix control-request direction
 764fa6e686e0107c0357a988d193de04cf047583 ALSA: usb-audio: scarlett2: Fix device hang with ehci-pci
 265d1a90e4fb6d3264d8122fbd10760e5e733be6 ALSA: usb-audio: scarlett2: Improve driver startup messages
@@ -706,6 +712,8 @@ a2486020a82eefad686993695eb42d1b64f3f2fd KVM: VMX: update vcpu posted-interrupt 
 e67afa7ee4a59584d7253e45d7f63b9528819a13 NFSv4: Fix v4.0/v4.1 SEEK_DATA return -ENOTSUPP when set NFS_V4_2 config
 ae605ee9830840f14566a3b1cde27fa8096dbdd4 xprtrdma: Revert 586a0787ce35
 bedd9195df3dfea7165e7d6f7519a1568bc41936 KVM: x86/mmu: Fix comment mentioning skip_4k
+022b93cf2d6af2acfc13fbe399d9babf76d6eb48 Merge tag 'icc-5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
+bbf0a94744edfeee298e4a9ab6fd694d639a5cdf mei: request autosuspend after sending rx flow control
 a799b68a7c7ac97b457aba4ede4122a2a9f536ab nfs: Remove trailing semicolon in macros
 9808f9be31c68af43f6e531f2c851ebb066513fe serial: 8250_pci: handle FL_NOIRQ board flag
 a4b58f1721eb4d7d27e0fdcaba60d204248dcd25 Merge tag 'nvme-5.13-2021-05-27' of git://git.infradead.org/nvme into block-5.13
@@ -777,5 +785,6 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 9a76c0ee3a759c1aaeedaaac9d3831397f264237 Merge tag 'seccomp-fixes-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
+2d06954e23375a8d299131eddede3a1720bf8539 Merge 5.13-rc4 into char-misc-next
 
---===============7454103471390800711==--
+--===============4400405521640911306==--
