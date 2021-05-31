@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2086792515770634410=="
+Content-Type: multipart/mixed; boundary="===============3141952892719051782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 31 May 2021 07:43:44 -0000
-Message-Id: <162244702484.1933.2482312125809828268@gitolite.kernel.org>
+Date: Mon, 31 May 2021 07:43:57 -0000
+Message-Id: <162244703754.2060.13573594280179396198@gitolite.kernel.org>
 
---===============2086792515770634410==
+--===============3141952892719051782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
+  - ref: refs/heads/staging-linus
+    old: 54732a5322ff1fe0f42f2527fa6f5901a4de5111
     new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-d07f6ca923ea-8124c8a6b353.txt
+    log: revlist-54732a5322ff-8124c8a6b353.txt
 
---===============2086792515770634410==
+--===============3141952892719051782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622447016 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622447032 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1622447015-c479e3bcd6ff308f1f4d9c7a09adc228d326f528
+nonce 1622447031-38731ad6e1d88d1f494c78cb8b0da898af436148
 
-d07f6ca923ea0927a1024dfccafc5b53b61cfecc 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/main
+54732a5322ff1fe0f42f2527fa6f5901a4de5111 8124c8a6b35386f73523d27eacb71b5364a68c4c refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0k6gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UM0QAMwLbI+u/add3Dv2vEV2
-U2C5c0RHVJoouU83btjD6QgAWXPnW+yAD0NTPou5VNppcTWuFHbENo/dTx+yrSA5
-vKsEfD6E7j/Ikgh6CIhqhdLAS+cEDo2JxUtFi5ak2s3cI9AArCBOGyeT6rE6KZcB
-qcpnl4p+oXH078hm/6+Di1NH6SbzbFrqVAJto3a2vqT+1aYeJfMdVAa6+UwZeFl9
-Irk23INTG0MRNfpR9+Oa/t7kUQZAP0ckZACZnkYQp9WDAmNyrJzYa/dnUug22bmx
-Vw8IlQfiJpVcJkWgZcTaYwxszdfCuH5j0s/pt/WpQY1/1a37LSwxSahpn2aoQDbl
-UHAckz0tvSmd/uHn/K4AB7B4bNBbJ+CPAfGKMIioPM2/+hj+UBpoq7CT5j/HjZD+
-gSTm97jVLCW3crSlt7FNX97+RpHltrf1JS6zE+Z0SEVPRNtHkScWsqo0ak3t7j8j
-U18avExiP/Te+knQGOAthufIXqSL21K/ydoM5QTG1AYWg4afi+SGNEyJqx3h6LLA
-uBwqFOdDhXRrfhyw/wVu7iTSKQYfYuC896+MDEHVT6o/xS1Czvdaaw4/StDq34pw
-Q6RG7bj2MQI5B70P8bDWDvKX9eXHQsg47LOsID50UnlgQrv/aLIOucgSidtgWeWf
-9pf1ACKuacG++uYWuG4ozdFd
-=fbAg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC0k7gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sdUQALoHWtl2pRnoxQxl1a7G
+d23QJXmamgYlKKuUCEIygQ1GpOe+giJvyyT3KBmT7WDu29BHHHv+gWJQCsX+E8tg
+bg+ArVHrxBG6TcJ0guITymbb0oeyuON8zxSEWUl6jO/ukqD7v0IeLE4cSQoI7EHC
+6TdBTSua2d3zxwDNUrwhlaWzmyEIdsuZxMFBEpkT33UrPpOYZeulFRnpoKE9Rr5y
+Mu5B0xoeYRDXddorcQfJO8MoItNGb2k79zWpz9UeyMdZL1UO3jzRdb49cmYrRdRR
+ctyIa0isQvchMH2UgKUfn0qlLzZzz/y2Di2vTT/QWAqxp8/dPvP/yyIE26laDAlF
+3SmkYP+OTI8AibHPalEOsMvSYIdA1ShGdXBhm/5DEX8dd+PimTir6m+aBcgcFq3/
+Ajq62/wKim48FT2F36102qL2n6dppdU6AuMQw/PlBXbAFtWSBhvXGZAcaK1BcoUV
+C/O3l476UBXrXaGWHJeaXSIJmKnrfw4UYx7gGUVOhYVFx1gxkb04+Sobr13pNlgM
+IN/tqhb1ND5W7K9MK4fLRX/85ddRPHbyAW8XcER3ACp1n32dt2iIqiOWcv/NkEI9
+1kPUXHNAFK723HpnxwsBRjPNcmE+AGflF4SgiTtwh7PMyQTNW9xO/Ia/zp7cHBMa
+WJ9cf7lhS+Phi/Vb90Q8cVoL
+=e7VY
 -----END PGP SIGNATURE-----
 
---===============2086792515770634410==
+--===============3141952892719051782==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d07f6ca923ea-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-54732a5322ff-8124c8a6b353.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 366db3ac3cdf97e90695282b959c75d5ea58cf00 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Fix CSI40 ports
@@ -237,8 +237,6 @@ bbeb18f27a44ce6adb00d2316968bc59dc640b9b net/smc: properly handle workqueue allo
 4df07045fcfd684379a394d0f2aa0cc4067bda2a Revert "net: caif: replace BUG_ON with recovery code"
 65a67792e3416f7c5d7daa47d99334cbb19a7449 net: caif: remove BUG_ON(dev == NULL) in caif_xmit
 bee1b0511844c8c79fccf1f2b13472393b6b91f7 Revert "net: stmicro: fix a missing check of clk_prepare"
-4573472315f0fa461330545ff2aa2f6da0b1ae76 iio: adc: ad7124: Fix missbalanced regulator enable / disable on error.
-f2a772c51206b0c3f262e4f6a3812c89a650191b iio: adc: ad7124: Fix potential overflow due to non sequential channel numbers
 0c32a96d000f260b5ebfabb4145a86ae1cd71847 net: stmicro: handle clk_prepare() failure during init
 7930742d6a0ff091c85b92ef4e076432d8d8cb79 Revert "niu: fix missing checks of niu_pci_eeprom_read"
 e6e337708c22f80824b82d4af645f20715730ad0 ethernet: sun: niu: fix missing checks of niu_pci_eeprom_read()
@@ -257,9 +255,6 @@ a28591f61b60fac820c6de59826ffa710e5e314e ALSA: sb8: Add a comment note regarding
 58c0cc2d90f1e37c4eb63ae7f164c83830833f78 Revert "video: hgafb: fix potential NULL pointer dereference"
 dc13cac4862cc68ec74348a80b6942532b7735fa video: hgafb: fix potential NULL pointer dereference
 abd7bca23bd4247124265152d00ffd4b2b0d6877 Revert "isdn: mISDNinfineon: fix potential NULL pointer dereference"
-e32fe6d90f44922ccbb94016cfc3c238359e3e39 iio: adc: ad7192: Avoid disabling a clock that was never enabled.
-b0f27fca5a6c7652e265aae6a4452ce2f2ed64da iio: adc: ad7192: handle regulator voltage error first
-04f5b9f539ce314f758d919a14dc7a669f3b7838 staging: iio: cdc: ad7746: avoid overwrite of num_channels
 c446f0d4702d316e1c6bf621f70e79678d28830a isdn: mISDNinfineon: check/cleanup ioremap failure correctly in setup_io
 efba106f89fc6848726716c101f4c84e88720a9c Revert "ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()"
 54433367840b46a1555c8ed36c4c0cfc5dbf1358 ath6kl: return error code in ath6kl_wmi_set_roam_lrssi_cmd()
@@ -517,7 +512,6 @@ df8f2be2fd0b44b2cb6077068f52e05f0ac40897 serial: 8250: Add UART_BUG_TXRACE worka
 1f06f5713f5278b7768031150ceb43d1127b9ad6 serial: 8250: Use BIT(x) for UART_{CAP,BUG}_*
 31fae7c8b18c3f8029a2a5dce97a3182c1a167a0 serial: 8250: 8250_omap: Fix possible interrupt storm
 e0e24208792080135248f23fdf6d51aa2e04df05 serial: 8250_pci: Add support for new HPE serial device
-e0112a7c9e847ada15a631b88e279d547e8f26a7 staging: emxx_udc: fix loop in _nbu2ss_nuke()
 676a659b60afb13166371580f3f6f434e9ba6f21 xfs: retry allocations when locality-based search fails
 16c9de54dc868c121918f2ae91e46330f919049f xfs: fix deadlock retry tracepoint arguments
 e3c2b047475b52739bcf178a9e95176c42bbcf8f xfs: restore old ioctl definitions
@@ -631,12 +625,6 @@ e662502b3a782d479e67736a5a1c169a703d853a scsi: vmw_pvscsi: Set correct residual 
 a3969ef463f970c6ad99f32ca154fbd2a62bf97a Merge tag 'xfs-5.13-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 119b75c150773425a89033215eab4d15d4198f8b ALSA: hda/realtek: Headphone volume is controlled by Front mixer
 9ebaef0540a981093bce5df15af32354d32391d9 ALSA: hda/realtek: the bass speaker can't output sound on Yoga 9i
-2a54c8c9ebc2006bf72554afc84ffc67768979a0 iio: gyro: fxas21002c: balance runtime power in error path
-98b7b0ca0828907dbb706387c11356a45463e2ea iio: dac: ad5770r: Put fwnode in error case during ->probe()
-a1caeebab07e9d72eec534489f47964782b93ba9 iio: adc: ad7768-1: Fix too small buffer passed to iio_push_to_buffers_with_timestamp()
-01fcf129f61b26d5b3d2d8afb03e770dee271bc8 iio: adc: ad7923: Fix undersized rx buffer.
-4ed243b1da169bcbc1ec5507867e56250c5f1ff9 iio: adc: ad7793: Add missing error code in ad7793_setup()
-54732a5322ff1fe0f42f2527fa6f5901a4de5111 Merge tag 'iio-fixes-5.13b-take2' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
 2cbd838e0e48bdaa47e56978a8868f2fdd2b196d Merge tag 'usb-v5.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 23d729263037eddd7413535c68ccf9472a197ccd Merge tag 'for-linus-5.13b-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b9231dfbcbc0034cf333fee33c190853daee48c0 Merge tag 'io_uring-5.13-2021-05-22' of git://git.kernel.dk/linux-block
@@ -881,4 +869,4 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
 
---===============2086792515770634410==--
+--===============3141952892719051782==--
