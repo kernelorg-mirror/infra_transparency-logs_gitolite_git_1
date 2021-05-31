@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6908601947679615688=="
+Content-Type: multipart/mixed; boundary="===============2485351730871947651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 31 May 2021 21:48:27 -0000
-Message-Id: <162249770781.25844.16251602329410605860@gitolite.kernel.org>
+Date: Mon, 31 May 2021 21:48:30 -0000
+Message-Id: <162249771029.25956.12868931693108098102@gitolite.kernel.org>
 
---===============6908601947679615688==
+--===============2485351730871947651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.14
-    old: a4bdd15e799ad335ecf0878d4cd7ea983f484843
-    new: d4282fb4f8f9683711ae6c076da16aa8e675fdbd
-    log: revlist-a4bdd15e799a-d4282fb4f8f9.txt
-  - ref: refs/heads/arm64-defconfig-for-5.14
-    old: 0000000000000000000000000000000000000000
-    new: e353049e12c1eb933b143771b62617a0dabfc7d8
-  - ref: refs/heads/dts-for-5.14
-    old: 0000000000000000000000000000000000000000
-    new: 2011fc7a8b5b7415d7cd885fc84ada88d37569d3
+  - ref: refs/heads/for-next
+    old: cb3f4701db912981edba10d86283561e5d40db04
+    new: 37af6a48ed3c52752553fe1186730e7fd62b32c5
+    log: revlist-cb3f4701db91-37af6a48ed3c.txt
 
---===============6908601947679615688==
+--===============2485351730871947651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4bdd15e799a-d4282fb4f8f9.txt
+Content-Disposition: attachment; filename=revlist-cb3f4701db91-37af6a48ed3c.txt
 
+e353049e12c1eb933b143771b62617a0dabfc7d8 arm64: defconfig: qcom: enable interconnect for SM8350
+a927e48338c7513a1688d646a292d8a2718a0a88 ARM: dts: qcom: Add ADM DMA + NAND definitions to ipq806x
+8e3ce01b542b02619b98536889b74600047587b5 ARM: dts: qcom: Add tsens details to ipq806x
+cf18f424ad7b976af7ae98a52cde668990bbd73d ARM: dts: qcom: Add USB port definitions to ipq806x
+40cf5c884a965554a424797afb424ffbca4c24b3 ARM: dts: qcom: add L2CC and RPM for IPQ8064
+2011fc7a8b5b7415d7cd885fc84ada88d37569d3 ARM: dts: qcom: Enable NAND + USB for RB3011
 58b2785dda93bba47201334c6a4f95712690bda8 arm64: dts: qcom: ipq8074: disable USB phy by default
 af260f1f7dbd336250685fa67b5d0ebe816e0907 arm64: dts: qcom: msm8996: Rename speedbin node
 15c5a08c8427ded579427908ee32ab946cb51f46 arm64: dts: qcom: msm8916-alcatel-idol347: enable touchscreen
@@ -54,5 +54,7 @@ c1124180eb9883891ad2acef89c9d17d6190eab4 arm64: dts: qcom: sc7180: Fix sc7180-qm
 7dbd121a2c587cfbe0a4382e508447292b52cdb1 arm64: dts: qcom: sc7280: Add cpufreq hw node
 422a295221bba81301a87b002b02bb63444edabc arm64: dts: qcom: sc7280: Add clock controller nodes
 d4282fb4f8f9683711ae6c076da16aa8e675fdbd arm64: dts: qcom: sc7180: Move rmtfs memory region
+c7f4a6638b584e80acaedf7a8f2652e85df392a8 Merge branch 'dts-fixes-for-5.13' into for-next
+37af6a48ed3c52752553fe1186730e7fd62b32c5 Merge branches 'arm64-defconfig-for-5.14', 'arm64-for-5.14', 'drivers-for-5.14' and 'dts-for-5.14' into for-next
 
---===============6908601947679615688==--
+--===============2485351730871947651==--
