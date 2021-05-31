@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 31 May 2021 14:58:17 -0000
-Message-Id: <162247309717.23143.18256935129234635096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 31 May 2021 15:00:52 -0000
+Message-Id: <162247325272.25558.9260655640235790939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/experimental
-    old: 8f7302b948dc6b0b588a90a708bfa86256e44ad2
-    new: 646145f30270db8e190667b59ac38bd15b12bbc8
+  - ref: refs/heads/review-hans
+    old: 65002c91af4dcbd982dc7351a9bda4f45c2f2b8c
+    new: 0b9410e8bd97bfdba1dbe637b998fa51fa1f0db1
     log: |
-         646145f30270db8e190667b59ac38bd15b12bbc8 erofs-utils: release 1.3
+         0b9410e8bd97bfdba1dbe637b998fa51fa1f0db1 platform/x86: thinkpad-lmi: Remove unused display_name member from struct tlmi_pwd_setting
          
