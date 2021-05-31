@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8528506171226878726=="
+Content-Type: multipart/mixed; boundary="===============3741034110629802474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 31 May 2021 08:50:07 -0000
-Message-Id: <162245100741.18367.5940654213817563331@gitolite.kernel.org>
+Date: Mon, 31 May 2021 08:50:17 -0000
+Message-Id: <162245101719.18498.15550616145584853896@gitolite.kernel.org>
 
---===============8528506171226878726==
+--===============3741034110629802474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: c4681547bcce777daf576925a966ffa824edd09d
-    new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-c4681547bcce-8124c8a6b353.txt
+  - ref: refs/heads/for-next
+    old: 0a915a2f7150bf3e764af65485425d6888e402dd
+    new: 2417ce7ef4773d130ee62e48dffe598349ca395e
+    log: revlist-0a915a2f7150-2417ce7ef477.txt
 
---===============8528506171226878726==
+--===============3741034110629802474==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c4681547bcce-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-0a915a2f7150-2417ce7ef477.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 a0695853e5906a9558eef9f79856e07659b7a1e6 ASoC: stm32: do not request a new clock consummer reference
@@ -111,9 +111,6 @@ df6f8237036938d48b7705681c170566c00593fa Merge git://git.kernel.org/pub/scm/linu
 bcbda3fc616272686208f9c4d5f6dccb65360bd8 ionic: fix ptp support config breakage
 440c3247cba3d9433ac435d371dd7927d68772a7 net: ipa: memory region array is variable size
 2b17c400aeb44daf041627722581ade527bb3c1d can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
-c6c82e0cd8125d30f2f1b29205c7e1a2f1a6785b vfio-ccw: Check initialized flag in cp_init()
-6c02ac4c9211edabe17bda437ac97e578756f31b vfio-ccw: Reset FSM state to IDLE inside FSM
-2af7a834a435460d546f0cf0a8b8e4d259f1d910 vfio-ccw: Serialize FSM IDLE state with I/O completion
 47c1131633ef6210add63b8b5704497023a3462a ASoC: soc-dai.h: Align the word of comment for SND_SOC_DAIFMT_CBC_CFC
 e072b2671606c77538d6a4dd5dda80b508cb4816 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
 96f685974609d4c315669ef33d55dbc43996491e ASoC: cs53l30: Add missing regmap use_single config
@@ -448,7 +445,6 @@ aaeadd7075dc9e184bc7876e9dd7b3bada771df2 nvmet: fix false keep-alive timeout whe
 9f5815315e0b93146d7b0be4d96ee2d74eeabb98 xfs: add new IRC channel to MAINTAINERS
 7ac3a1c1ae5152e1d18cf6df5b6c3c9847535e78 Merge tag 'mtd/fixes-for-5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 62f3415db237b8d2aa9a804ff84ce2efa87df179 net: phy: Document phydev::dev_flags bits allocation
-ffa99c436aa70c0c0980866523a6ae1023c96768 Merge tag 'vfio-ccw-20210520' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/vfio-ccw into fixes
 d7c5303fbc8ac874ae3e597a5a0d3707dc0230b4 Merge tag 'net-5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 0e68c4b11f1e66d211ad242007e9f1076a6b7709 ALSA: hda/realtek: fix mute/micmute LEDs for HP 855 G8
 bbe183e07817a46cf8d3d7fc88093df81d23a957 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Zbook G8
@@ -560,5 +556,6 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 9a76c0ee3a759c1aaeedaaac9d3831397f264237 Merge tag 'seccomp-fixes-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
+2417ce7ef4773d130ee62e48dffe598349ca395e Merge branch 'features' into for-next
 
---===============8528506171226878726==--
+--===============3741034110629802474==--
