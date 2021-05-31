@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8801843744014189889=="
+Content-Type: multipart/mixed; boundary="===============9003779255951526786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Mon, 31 May 2021 14:37:58 -0000
-Message-Id: <162247187809.9191.12517605860076050963@gitolite.kernel.org>
+Date: Mon, 31 May 2021 14:38:01 -0000
+Message-Id: <162247188168.9302.1143333333741470486@gitolite.kernel.org>
 
---===============8801843744014189889==
+--===============9003779255951526786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: edf696f26855788cdff832ac83319e1f2aafcc90
-    new: e50f4bda7539c165f3c8d880b670140ce09a50cf
-    log: revlist-edf696f26855-e50f4bda7539.txt
+  - ref: refs/heads/for-next
+    old: dc0e14fa833b084315015b9fcc45b11793885a08
+    new: a31c268de289ca4ba2c5906d28521c482536dde1
+    log: revlist-dc0e14fa833b-a31c268de289.txt
 
---===============8801843744014189889==
+--===============9003779255951526786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edf696f26855-e50f4bda7539.txt
+Content-Disposition: attachment; filename=revlist-dc0e14fa833b-a31c268de289.txt
 
-5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
-d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
-bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
 0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
 55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
 2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
@@ -1046,9 +1043,12 @@ f2867434002387c9739494041ac81c17a3808150 remoteproc: Fix various kernel-doc warn
 c16ced60f3bf4aeba85e638f2186c468d7892ee0 dt-bindings: remoteproc: k3-r5f: Update bindings for AM64x SoCs
 fee613a6fec64b8f7cae5c3a1e374146e1477bbf Merge tag '20210327143117.1840-2-s-anna@ti.com' into rproc-next
 ee99ee7c929c3e7484b663c4b7da91ab1f050d5b remoteproc: k3-r5: Extend support to R5F clusters on AM64x SoCs
+f9e784dcb63f56157f7d12abdab584cc393515b1 dt-bindings: hwlock: add sun6i_hwspinlock
+3c881e05c814c970e4f9577446a9d3461d134607 hwspinlock: add sun6i hardware spinlock support
 3e25e407a1c93b53a87a7743ea0cd4703d3985b7 remoteproc: stm32: fix phys_addr_t format string
 34c4da6d5dfba48f49f891ebd75bb55999f0c538 remoteproc: k3-r5: Fix an error message
 cf107e98d024590fe2d0616862a3cc283da61501 dt-bindings: remoteproc: qcom: pas: Convert binding to YAML
 e50f4bda7539c165f3c8d880b670140ce09a50cf dt-bindings: remoteproc: qcom: pas: Add power domains for MSM8996
+a31c268de289ca4ba2c5906d28521c482536dde1 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============8801843744014189889==--
+--===============9003779255951526786==--
