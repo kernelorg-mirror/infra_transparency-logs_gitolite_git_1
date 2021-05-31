@@ -1,22 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 31 May 2021 09:15:58 -0000
-Message-Id: <162245255888.18494.5975276259931257609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Mon, 31 May 2021 09:16:18 -0000
+Message-Id: <162245257802.18660.6647789969229800822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-devel-2021-05-31-v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ff6e525fc6fa2e3d1e3d9141e3ec75034f5cf160
-  - ref: refs/tags/renesas-next-2021-05-31-v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 89679232d759ece6a3c1629d375f77e3ea8d8bd8
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/heads/renesas-pinctrl
+    old: 904ec4bebc1df908a943bf3178f6c633672ce47b
+    new: 85a242cdcd44da30c28ba71f26e487c0ebabba47
+    log: |
+         fd6850132f61d6a784905f1c35a41b726e639c7b pinctrl: renesas: r8a77470: Add bias pinconf support
+         2be3d6024234011217273ceb0437a2be312f82fa pinctrl: renesas: r8a7790: Add bias pinconf support
+         35477d7e90a1aabf863f89c45a1e1fc15dacc305 pinctrl: renesas: r8a7792: Add bias pinconf support
+         009f502238a8464933595a128f812a3841830710 pinctrl: renesas: r8a7794: Add bias pinconf support
+         b764833e36337cb2b574db75c1d31fde7dd6e6e5 pinctrl: renesas: r8a77970: Add bias pinconf support
+         c3975a73ca9410519cf62531f640b68d69b0d798 pinctrl: renesas: r8a77980: Add bias pinconf support
+         85a242cdcd44da30c28ba71f26e487c0ebabba47 pinctrl: renesas: r8a77995: Add bias pinconf support
+         
+  - ref: refs/heads/renesas-pinctrl-for-v5.14
+    old: 904ec4bebc1df908a943bf3178f6c633672ce47b
+    new: 85a242cdcd44da30c28ba71f26e487c0ebabba47
+    log: |
+         fd6850132f61d6a784905f1c35a41b726e639c7b pinctrl: renesas: r8a77470: Add bias pinconf support
+         2be3d6024234011217273ceb0437a2be312f82fa pinctrl: renesas: r8a7790: Add bias pinconf support
+         35477d7e90a1aabf863f89c45a1e1fc15dacc305 pinctrl: renesas: r8a7792: Add bias pinconf support
+         009f502238a8464933595a128f812a3841830710 pinctrl: renesas: r8a7794: Add bias pinconf support
+         b764833e36337cb2b574db75c1d31fde7dd6e6e5 pinctrl: renesas: r8a77970: Add bias pinconf support
+         c3975a73ca9410519cf62531f640b68d69b0d798 pinctrl: renesas: r8a77980: Add bias pinconf support
+         85a242cdcd44da30c28ba71f26e487c0ebabba47 pinctrl: renesas: r8a77995: Add bias pinconf support
+         
