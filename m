@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 01 Jun 2021 15:58:04 -0000
-Message-Id: <162256308491.16162.11299426099464296324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
+Date: Tue, 01 Jun 2021 15:58:33 -0000
+Message-Id: <162256311312.16393.8567257903722913798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/andersson/remoteproc
+user: andersson
 changes:
-  - ref: refs/heads/extcon-next
-    old: ae0c02025e2638f9e833d01ef078284eaed757ec
-    new: 82d7c97beb5ebcacf63bcca52aceab78b03ca0ec
+  - ref: refs/heads/rproc-next
+    old: e50f4bda7539c165f3c8d880b670140ce09a50cf
+    new: 79806d32d5aaafbf170e9b0c03b15d1be77f4c64
     log: |
-         999bcbf0ac0c7ce6e0f917f0edb13da4c2009076 extcon: sm5502: Drop invalid register write in sm5502_reg_data
-         71a45906a24ae0cf45ed4bdd975dab99aea9cde3 extcon: max8997: Add missing modalias string
-         3c4d5b5e505774231f8600ff5db18a6ed72f6e6b extcon: sm5502: Use devm_regmap_add_irq_chip()
-         5a34f4518f56e9a3a7aac5f2b450996abddbdf34 extcon: sm5502: Implement i2c_driver->probe_new()
-         82d7c97beb5ebcacf63bcca52aceab78b03ca0ec dt-bindings: extcon: sm5502: Convert to DT schema
+         bad70abdfac1e27d9aa7cc07b02caad5c06667ba dt-bindings: remoteproc: imx_rproc: add fsl,auto-boot property
+         7a95b19a39c6bc4c107be9f0e8fa6fbee4db777d dt-bindings: remoteproc: imx_rproc: add i.MX7ULP support
+         5dc9e9d1b7582b0b7cba10f22763bcb7b1d33902 dt-bindings: remoteproc: imx_rproc: support i.MX8MN/P
+         e13d1a43aa0f6ef509c9dfda6489fe80b7315620 remoteproc: imx_rproc: parse fsl,auto-boot
+         52bda8d375143585c366a7d4e5b5e680cf14100b remoteproc: imx_rproc: initial support for mutilple start/stop method
+         cc0316c10fb7063022f604fdaee129109723d1ea remoteproc: imx_rproc: make clk optional
+         c8a1a56d8729bdad179e6d4c35830ba3b8dfa20e remoteproc: imx_rproc: support i.MX7ULP
+         79806d32d5aaafbf170e9b0c03b15d1be77f4c64 remoteproc: imx_rproc: support i.MX8MN/P
          
