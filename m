@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 01 Jun 2021 15:58:33 -0000
-Message-Id: <162256311312.16393.8567257903722913798@gitolite.kernel.org>
+Date: Tue, 01 Jun 2021 15:58:35 -0000
+Message-Id: <162256311533.16466.4779852437318703204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: e50f4bda7539c165f3c8d880b670140ce09a50cf
-    new: 79806d32d5aaafbf170e9b0c03b15d1be77f4c64
+  - ref: refs/heads/for-next
+    old: a31c268de289ca4ba2c5906d28521c482536dde1
+    new: c86976deb21cd33e257bb637e5cedb9ea29f85d7
     log: |
          bad70abdfac1e27d9aa7cc07b02caad5c06667ba dt-bindings: remoteproc: imx_rproc: add fsl,auto-boot property
          7a95b19a39c6bc4c107be9f0e8fa6fbee4db777d dt-bindings: remoteproc: imx_rproc: add i.MX7ULP support
@@ -23,4 +23,5 @@ changes:
          cc0316c10fb7063022f604fdaee129109723d1ea remoteproc: imx_rproc: make clk optional
          c8a1a56d8729bdad179e6d4c35830ba3b8dfa20e remoteproc: imx_rproc: support i.MX7ULP
          79806d32d5aaafbf170e9b0c03b15d1be77f4c64 remoteproc: imx_rproc: support i.MX8MN/P
+         c86976deb21cd33e257bb637e5cedb9ea29f85d7 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
          
