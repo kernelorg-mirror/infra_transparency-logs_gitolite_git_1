@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 01 Jun 2021 22:27:23 -0000
-Message-Id: <162258644310.8711.16980748241629923365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 01 Jun 2021 22:27:33 -0000
+Message-Id: <162258645389.8861.12124755359733722297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 68b8c55a701e4e7aba254688b483ef79da8338ed
-    new: 163d01c56e80fdbd3e386162b969d6cb43af3b5c
+    old: dd9082f4a9f94280fbbece641bf8fc0a25f71f7a
+    new: 53d5fa9b234ea0b1adc810d5d2bf4d815ae7db51
     log: |
-         163d01c56e80fdbd3e386162b969d6cb43af3b5c r8152: support pauseparam of ethtool_ops
+         5c37711d9f27bdc83fd5980446be7f4aa2106230 virtio-net: fix for unable to handle page fault for address
+         8fb7da9e990793299c89ed7a4281c235bfdd31f8 virtio_net: get build_skb() buf by data ptr
+         53d5fa9b234ea0b1adc810d5d2bf4d815ae7db51 Merge branch 'virtio_net-build_skb-fixes'
          
