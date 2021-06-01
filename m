@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 01 Jun 2021 07:54:05 -0000
-Message-Id: <162253404508.377.11672901351125338207@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0882367100494083415=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 01 Jun 2021 07:55:05 -0000
+Message-Id: <162253410519.2229.6811526938592581284@gitolite.kernel.org>
+
+--===============0882367100494083415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: bfa8f78e06ed0b495a5736380de0e7f833a5efbe
-    new: 25335b30daf66f4cc03715c2ac9cdc3258fb5531
+  - ref: refs/heads/master
+    old: f4ee47d2a555365d2d792b694db11879d5127981
+    new: b26746bd41bae8af40f559525c3d7a05b10f77ad
     log: |
-         0f28879cf6836f170773a9456c856e1f08f56764 thunderbolt: Log the link as TBT instead of TBT3
-         cae5f5151d76635f6b5c08133184c48048346e63 thunderbolt: Add USB4 port devices
-         ccc5cb8ad5d18ec0e008d1652711fa1c18e9366c thunderbolt: Add support for ACPI _DSM to power on/off retimers
-         3406de7cc20f254010f2f17450a58541fb77ffea thunderbolt: Add additional USB4 port operations for retimer access
-         3fb10ea4ce86d4d06622be894099c59872e92c57 thunderbolt: Add support for retimer NVM upgrade when there is no link
-         ff3a8306456755689babc7bcc29c60e582738c7b thunderbolt: Move nvm_write_ops to tb.h
-         1cbf680f7687f55ae5a1405556519bc70d66a616 thunderbolt: Allow router NVM authenticate separately
-         faa1c615f0bdd4f3ac5288bf2952f49dfeac916c thunderbolt: Add WRITE_ONLY and AUTHENTICATE_ONLY NVM operations for retimers
-         25335b30daf66f4cc03715c2ac9cdc3258fb5531 thunderbolt: Check for NVM authentication status after the operation started
+         00b395569d4ee08bb99872d105ba6a08ba4e49dd drop 4.9 80211 patches to be added later...
+         b26746bd41bae8af40f559525c3d7a05b10f77ad 4.9-stable patches
          
+
+--===============0882367100494083415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622534104 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1622534103-e254528269dd0841d519ba52baedc20490551e2f
+
+f4ee47d2a555365d2d792b694db11879d5127981 b26746bd41bae8af40f559525c3d7a05b10f77ad refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC159gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QbgP/03jRlDsaSTyoP7213Aa
+NYUbnYJu54ii9vMR04YijD7dRIHSrRgg1ygVCkStxdHTfa7GsYbAZEeAM0Hgv7On
+k5kuXMHIttw2uHWtMg+YxV/FWAXafRgW+BxA65aruPBHkaG9aAaXtz1P2jd0Q/Bq
+MCoXo9V7obSoN3EY2y+IuMuHfXlU+CeXz8jtjaaJKqggWaFE3eJSo9DkJywMdlGj
+4eb096iUaJD5LbisA+uYCjpS36O+y0SOzqufG/zpinfddptU+t/VsoIehwGHBBOi
+6p8ojeFPxmFv1WjL3XgpVmFr5b4Le+/L8Cf7tjqL6kJkvsLN6SRmuFJ/3X6NFyY9
+7fqe7EJPtq+/fy7S+qUgNYNG0HBMutks0Hd65lshdVHLC6EltKn17+mvw0E6bFpc
+RiVz00FAg5vI6JcfoBNZ60pouaEmH1yp0w2BLIW/mm+j1NgePJk/n17ZNtgZ70QE
+wWhacEFyPAlW1J/IrQXRv4DsD6OWe1MNCRa75y9V2dx0uKa9E5X/da1sP8IpeUVb
+MVF9ji7DPDAkHcQDtK1+y6Oo6+2QnWqvBXY5Pphl8qB+0PfYxZquy/SDqZkCTvp1
+Krkn5epL1EzCogWA5Pmq4fLdM7RZNAcduuMGmTCDsJXWAWSudlG5xZAkcdgEvjQa
+7Lw8jJDqQGERX568W7EIDro8
+=1hyO
+-----END PGP SIGNATURE-----
+
+--===============0882367100494083415==--
