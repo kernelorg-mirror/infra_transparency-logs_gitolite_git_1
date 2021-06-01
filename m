@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 01 Jun 2021 16:04:08 -0000
-Message-Id: <162256344888.20016.1165870845705245504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Tue, 01 Jun 2021 16:22:41 -0000
+Message-Id: <162256456102.32594.6511097433640899822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/pci/error
-    old: 95ea95396135f3c44ff6265f29343407b4ccf365
-    new: 8e3237989b0d38176a3603422777ac7da6bfab2b
+  - ref: refs/heads/master
+    old: f10b870c25d40362dd98b22f422fbbdde3ad8059
+    new: 1d86dbc6c847620bbd1a5f2e4787d743a561e4c1
     log: |
-         8e3237989b0d38176a3603422777ac7da6bfab2b Documentation: PCI: Fix typo in pci-error-recovery.rst
+         1d86dbc6c847620bbd1a5f2e4787d743a561e4c1 radio-settings: Do not use enum ofono_access_mode
          
