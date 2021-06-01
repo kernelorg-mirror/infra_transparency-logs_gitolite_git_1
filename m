@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 01 Jun 2021 14:47:47 -0000
-Message-Id: <162255886764.539.3981952559258620442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 01 Jun 2021 15:08:30 -0000
+Message-Id: <162256011035.14043.11812028831759671850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
+repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: b6eaaa7f2f6ca4c08eca44b6c550b29945a47ea8
-    new: 0fb2cd6520a3f90dc839d690cdb35e3b8efa7853
+    old: 9518d68d9aca73fd3794bffd38553d59af013143
+    new: c5d1a5c31f54cb19befb29df353247000f7ad7f0
     log: |
-         0fb2cd6520a3f90dc839d690cdb35e3b8efa7853 rtnl: Add l_rtnl_address_clone
+         6e5b26ba64588c42405ca62d593145804587fda5 ip-pool: Track IPv4 addresses in use
+         e56e4ade90f7ecd6eacc124bb866f39b1728721a ip-pool: Add subnet address selection logic
+         c5d1a5c31f54cb19befb29df353247000f7ad7f0 ap: Refactor DHCP settings loading
          
