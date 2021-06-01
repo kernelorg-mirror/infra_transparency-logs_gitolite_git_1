@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 01 Jun 2021 15:22:20 -0000
-Message-Id: <162256094050.24266.7904823446712336339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Tue, 01 Jun 2021 15:35:07 -0000
+Message-Id: <162256170763.32589.2105121949693929761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 7163a9d9d7e042c560e7b74974d8194efd442831
-    new: 2471d4c3cdabd40134e9e14d2a2ef2fa68d265d8
+  - ref: refs/heads/devfreq-next
+    old: 8a227977340155800423310f03f3b2be3c025507
+    new: 64f4d903ce9d489aa90ce815e73dbd3c68f14cab
     log: |
-         fc81e07c13f94de71c6937b167748b46e1f2ace1 autotests: Update APRanges usage in testAP
-         2471d4c3cdabd40134e9e14d2a2ef2fa68d265d8 doc: Update AP settings in iwd.ap(5) and iwd.config(5)
+         a9ceca53d4951d90d2943a2e62916b5adc04c4e2 dt-bindings: devfreq: tegra30-actmon: Convert to schema
+         64f4d903ce9d489aa90ce815e73dbd3c68f14cab dt-bindings: devfreq: tegra30-actmon: Add cooling-cells
          
