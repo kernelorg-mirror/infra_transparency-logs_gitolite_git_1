@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2756941324632472439=="
+Content-Type: multipart/mixed; boundary="===============2573101168458131544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 01 Jun 2021 17:12:15 -0000
-Message-Id: <162256753585.31255.1833998496452092247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 01 Jun 2021 17:12:32 -0000
+Message-Id: <162256755231.31430.2298261344605427578@gitolite.kernel.org>
 
---===============2756941324632472439==
+--===============2573101168458131544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: c4681547bcce777daf576925a966ffa824edd09d
-    new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    log: revlist-c4681547bcce-8124c8a6b353.txt
+    old: a980cd334d48d13d4ad5eb0cc1b4529fcd464886
+    new: 6c746375a2a52db5509da94a9f4df03a62724125
+    log: revlist-a980cd334d48-6c746375a2a5.txt
   - ref: refs/heads/for-next
-    old: 4c82343a5c83297588f9fcd41c5c1bfc0abd622f
-    new: 5587eb7dbdc23d076e2a4aa7f433eed1ec9e2ee9
-    log: revlist-4c82343a5c83-5587eb7dbdc2.txt
+    old: d800ec03309f224b12697750667166c5910a770d
+    new: 5c0a2236c860f143c4e9d704143d286488b0dad8
+    log: revlist-d800ec03309f-5c0a2236c860.txt
 
---===============2756941324632472439==
+--===============2573101168458131544==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c4681547bcce-8124c8a6b353.txt
+Content-Disposition: attachment; filename=revlist-a980cd334d48-6c746375a2a5.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 a0695853e5906a9558eef9f79856e07659b7a1e6 ASoC: stm32: do not request a new clock consummer reference
@@ -564,12 +564,18 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 9a76c0ee3a759c1aaeedaaac9d3831397f264237 Merge tag 'seccomp-fixes-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
+86ab21cc39e6b99b7065ab9008c90bec5dec535a regulator: rtmv20: Fix .set_current_limit/.get_current_limit callbacks
+5f01de6ffae2b00d3795a399d8d630bdae3c8997 regulator: rtmv20: Add Richtek to Kconfig text
+89082179ec5028bcd58c87171e08ada035689542 regulator: mt6315: Fix function prototype for mt6315_map_mode
+46639a5e684edd0b80ae9dff220f193feb356277 regulator: rtmv20: Fix to make regcache value first reading back from HW
+1963fa67d78674a110bc9b2a8b1e226967692f05 regulator: atc260x: Fix n_voltages and min_sel for pickable linear ranges
+6c746375a2a52db5509da94a9f4df03a62724125 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
 
---===============2756941324632472439==
+--===============2573101168458131544==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4c82343a5c83-5587eb7dbdc2.txt
+Content-Disposition: attachment; filename=revlist-d800ec03309f-5c0a2236c860.txt
 
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
 a0695853e5906a9558eef9f79856e07659b7a1e6 ASoC: stm32: do not request a new clock consummer reference
@@ -1105,6 +1111,18 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 9a76c0ee3a759c1aaeedaaac9d3831397f264237 Merge tag 'seccomp-fixes-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
-5587eb7dbdc23d076e2a4aa7f433eed1ec9e2ee9 Merge remote-tracking branch 'regmap/for-5.14' into regmap-next
+86ab21cc39e6b99b7065ab9008c90bec5dec535a regulator: rtmv20: Fix .set_current_limit/.get_current_limit callbacks
+5f01de6ffae2b00d3795a399d8d630bdae3c8997 regulator: rtmv20: Add Richtek to Kconfig text
+89082179ec5028bcd58c87171e08ada035689542 regulator: mt6315: Fix function prototype for mt6315_map_mode
+46639a5e684edd0b80ae9dff220f193feb356277 regulator: rtmv20: Fix to make regcache value first reading back from HW
+1963fa67d78674a110bc9b2a8b1e226967692f05 regulator: atc260x: Fix n_voltages and min_sel for pickable linear ranges
+4c4fce171c4ca08cd98be7db350e6950630b046a regulator: pca9450: Convert to use regulator_set_ramp_delay_regmap
+7f8c8394425fd5e1449bf0a81ab6ec718cd4346b regulator: mt6315: Don't ignore devm_regulator_register failure
+fbd168cd76e4ea80fc22d361b08267664db4d905 regulator: lp8755: Convert to use regulator_set_ramp_delay_regmap
+71de5d6e63c992abe037c43bc581cff432a5a1c4 regulator: bd70528: Drop BD70528 support
+1d15b3e6f9d95865450c8856401b3166ed074c83 regulator: mcp16502: Convert to use .probe_new
+96ec5afeb3001dcb432b9c9e8738aa537c6cdb12 regulator: mcp16502: Convert to use regulator_set_ramp_delay_regmap
+6c746375a2a52db5509da94a9f4df03a62724125 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+5c0a2236c860f143c4e9d704143d286488b0dad8 Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
 
---===============2756941324632472439==--
+--===============2573101168458131544==--
