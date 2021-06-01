@@ -1,49 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6542435863848757213=="
+Content-Type: multipart/mixed; boundary="===============6698770517430913224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Tue, 01 Jun 2021 19:24:28 -0000
-Message-Id: <162257546880.20771.8017028701962792118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Tue, 01 Jun 2021 19:26:51 -0000
+Message-Id: <162257561144.22902.10399332413052788204@gitolite.kernel.org>
 
---===============6542435863848757213==
+--===============6698770517430913224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/ps3-queue
-    old: 88b37cc3400fc8e2c4354873bc9d9e5865f2186f
-    new: 8e1ddeb7922cc43cc9f7ed12ee27112df5caabf4
-    log: revlist-88b37cc3400f-8e1ddeb7922c.txt
+  - ref: refs/heads/next-integrity
+    old: 49219d9b8785ba712575c40e48ce0f7461254626
+    new: 5a25d8ceb8611c06797b74e22d04af2b9fefd130
+    log: revlist-49219d9b8785-5a25d8ceb861.txt
 
---===============6542435863848757213==
+--===============6698770517430913224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88b37cc3400f-8e1ddeb7922c.txt
+Content-Disposition: attachment; filename=revlist-49219d9b8785-5a25d8ceb861.txt
 
-6de5b1113b4139b6281563cf70140cdbde342e75 powerpc/ps3: Add CONFIG_PS3_VERBOSE_RESULT option
-4a0a94f70286928555d6c25781fbe568a8266e4d powerpc/ps3: Warn on PS3 device errors
-bdb59fdac7a2e8e2957248d3f69b60b76c78457d powerpc/ps3: Add dma_mask to ps3_dma_region
-0ce12157d2f495eb6cbc9baf20b6d7fa990bc389 net/ps3_gelic: Add gelic_descr structures
-4aeb2e797a617c579d032d8c636ce31b579b502b powerpc/ps3: Remove a couple of unneeded semicolons
-a374f09ab3295bc451aebab47ddbaa5e469dd787 hvc_console: Allow backends to set I/O buffer size
-b606318981c934b8bcd1a354e89926575cc548e2 powerpc/ps3: Add firmware version to proc
-350ccb1eb9e6a7311ee818a61e2c69f58e1f49da powerpc/ps3: Re-align DTB in image
-26a5e45d65dbe87aa5e7b2b049b2cbbda076a170 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-f99e15df305fdcb88f6cd2b091676bb921866a27 ps3-debugging: Setup DABR register
-cf09291d4c92818807b31e20c29fb3c66bf898c0 ps3_defconfig: Cut down version
-f5ac7156a338388db4485082dee0c90d9f7c14e3 powerpc/ps3: Refresh ps3_defconfig
-490a387304b44cffe314cb65e04a125d0c13f20e local: Add ps3_nfs_defconfig
-3a0355bc559977dc251d70e126a3e0f6cbe4d936 local: ps3_nfs_defconfig: Cut down version
-c73d1c5b0fb45c8a15bae11aa1ccb57b81f65330 local: Refresh ps3_nfs_defconfig
-cafb05fbb1cb9f0fe17ff9511dc7ab1f0d701c49 local: Add ps3_petitboot_defconfig
-e70200c7b7b1800a0be2aaff69e50d2380e76f61 local: Add ps3_petitboot_nfs_defconfig
-d211d5272d703fd42fcdf1830ef722f177376d05 local: ps3_petitboot_nfs_defconfig: ip=dhcp
-8e1ddeb7922cc43cc9f7ed12ee27112df5caabf4 net/ps3_gelic: Cleanups, improve logging
+9eea2904292c2d8fa98df141d3bf7c41ec9dc1b5 evm: Execute evm_inode_init_security() only when an HMAC key is loaded
+aa2ead71d9daa1b6645e1d25b1f14a6286b114d0 evm: Load EVM key in ima_load_x509() to avoid appraisal
+9acc89d31f0c94c8e573ed61f3e4340bbd526d0c evm: Refuse EVM_ALLOW_METADATA_WRITES only if an HMAC key is loaded
+e3ccfe1ad7d895487977ef64eda3441d16c9851a evm: Introduce evm_revalidate_status()
+4a804b8a4572dfc81c3a59709d49ae206e4370ba evm: Introduce evm_hmac_disabled() to safely ignore verification errors
+cdef685be5b4ae55c3959289e72d520402839c29 evm: Allow xattr/attr operations for portable signatures
+7e135dc725417ecc0629afb4b3b24457d2a4869d evm: Pass user namespace to set/remove xattr hooks
+1886ab01a3fb98ee7f7739ae50eb9492f5df3641 evm: Allow setxattr() and setattr() for unmodified metadata
+1434c6a1d32a3a1a77f58a03197b802b1724c740 evm: Deprecate EVM_ALLOW_METADATA_WRITES
+7aa5783d95646f924b99d245338d5b7aa7a2b3c0 ima: Allow imasig requirement to be satisfied by EVM portable signatures
+026d7fc92a9d629630779c999fe49ecae93f9d63 ima: Introduce template field evmsig and write to field sig as fallback
+ed1b472fc15aeaa20ddeeb93fd25190014e50d17 ima: Don't remove security.ima if file must not be appraised
+5a25d8ceb8611c06797b74e22d04af2b9fefd130 Merge branch 'misc-evm-v7' into next-integrity
 
---===============6542435863848757213==--
+--===============6698770517430913224==--
