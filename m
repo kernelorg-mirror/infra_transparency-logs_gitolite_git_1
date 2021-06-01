@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9001912995029268806=="
+Content-Type: multipart/mixed; boundary="===============1950074997037390058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 01 Jun 2021 15:53:43 -0000
-Message-Id: <162256282383.13021.2168268135955765347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Tue, 01 Jun 2021 15:53:47 -0000
+Message-Id: <162256282710.13091.413231442656221493@gitolite.kernel.org>
 
---===============9001912995029268806==
+--===============1950074997037390058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
     log: revlist-d07f6ca923ea-8124c8a6b353.txt
 
---===============9001912995029268806==
+--===============1950074997037390058==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -850,4 +850,4 @@ ddc473916955f7710d1eb17c1273d91c8622a9fe seccomp: Refactor notification handler 
 b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8124c8a6b35386f73523d27eacb71b5364a68c4c Linux 5.13-rc4
 
---===============9001912995029268806==--
+--===============1950074997037390058==--
