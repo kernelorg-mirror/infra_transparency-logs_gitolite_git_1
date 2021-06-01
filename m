@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 01 Jun 2021 14:01:57 -0000
-Message-Id: <162255611704.32607.13125555318752577183@gitolite.kernel.org>
+Date: Tue, 01 Jun 2021 14:02:09 -0000
+Message-Id: <162255612911.304.645348148693872976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 875dd7bf548104bc1d2c5784a6af6cf38215a216
-    new: 00afe83098f59d3091a800d0db188ca495b2bc02
+  - ref: refs/heads/sched/core
+    old: a8ea6fc9b089156d9230bfeef964dd9be101a4a9
+    new: 475ea6c60279e9f2ddf7e4cf2648cd8ae0608361
     log: |
-         9ce4d216fe8b581e4da4406461a4cfc9acbfa679 uprobes: Update uprobe_write_opcode() kernel-doc comment
-         ec6aba3d2be1ed75b3f4c894bb64a36d40db1f55 kprobes: Remove kprobe::fault_handler
-         00afe83098f59d3091a800d0db188ca495b2bc02 x86,kprobes: WARN if kprobes tries to handle a fault
+         7b419f47facd286c6723daca6ad69ec355473f78 sched: Add CONFIG_SCHED_CORE help text
+         15faafc6b449777a85c0cf82dd8286c293fed4eb sched,init: Fix DEBUG_PREEMPT vs early boot
+         08f7c2f4d0e9f4283f5796b8168044c034a1bfcb sched/fair: Fix ascii art by relpacing tabs
+         475ea6c60279e9f2ddf7e4cf2648cd8ae0608361 sched: Don't defer CPU pick to migration_cpu_stop()
          
