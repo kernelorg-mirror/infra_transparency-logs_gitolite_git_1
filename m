@@ -1,79 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============2702120361932883909=="
+Content-Type: multipart/mixed; boundary="===============7675193281462201437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 01 Jun 2021 17:11:12 -0000
-Message-Id: <162256747264.30339.4833760393112504059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 01 Jun 2021 17:11:19 -0000
+Message-Id: <162256747961.30475.1722235870185021172@gitolite.kernel.org>
 
---===============2702120361932883909==
+--===============7675193281462201437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: 6308c44ed6eeadf65c0a7ba68d609773ed860fbb
-    new: b640e8a4bd24e17ce24a064d704aba14831651a8
+  - ref: refs/heads/for-5.13
+    old: a072cbda97a9367a84d46e7bf78a47abdbfcaea8
+    new: 1963fa67d78674a110bc9b2a8b1e226967692f05
     log: |
-         ce1f25718b2520d0210c24f1e4145d75c5620c9f ASoC: topology: Fix spelling mistake "vesion" -> "version"
-         a8437f05384cb472518ec21bf4fffbe8f0a47378 ASoC: fsl-asoc-card: Set .owner attribute when registering card.
-         b640e8a4bd24e17ce24a064d704aba14831651a8 ASoC: SOF: reset enabled_cores state at suspend
+         86ab21cc39e6b99b7065ab9008c90bec5dec535a regulator: rtmv20: Fix .set_current_limit/.get_current_limit callbacks
+         5f01de6ffae2b00d3795a399d8d630bdae3c8997 regulator: rtmv20: Add Richtek to Kconfig text
+         89082179ec5028bcd58c87171e08ada035689542 regulator: mt6315: Fix function prototype for mt6315_map_mode
+         46639a5e684edd0b80ae9dff220f193feb356277 regulator: rtmv20: Fix to make regcache value first reading back from HW
+         1963fa67d78674a110bc9b2a8b1e226967692f05 regulator: atc260x: Fix n_voltages and min_sel for pickable linear ranges
          
-  - ref: refs/heads/asoc-5.14
-    old: 47c0d825b926856d86685a48c82f693f56ca3f6f
-    new: 26bf457b4a39a467522be14fde5202fefd07289d
-    log: revlist-47c0d825b926-26bf457b4a39.txt
+  - ref: refs/heads/for-5.14
+    old: d149b855b955fe92ab16ddd59c1d540f82e6a40f
+    new: 96ec5afeb3001dcb432b9c9e8738aa537c6cdb12
+    log: |
+         4c4fce171c4ca08cd98be7db350e6950630b046a regulator: pca9450: Convert to use regulator_set_ramp_delay_regmap
+         7f8c8394425fd5e1449bf0a81ab6ec718cd4346b regulator: mt6315: Don't ignore devm_regulator_register failure
+         fbd168cd76e4ea80fc22d361b08267664db4d905 regulator: lp8755: Convert to use regulator_set_ramp_delay_regmap
+         71de5d6e63c992abe037c43bc581cff432a5a1c4 regulator: bd70528: Drop BD70528 support
+         1d15b3e6f9d95865450c8856401b3166ed074c83 regulator: mcp16502: Convert to use .probe_new
+         96ec5afeb3001dcb432b9c9e8738aa537c6cdb12 regulator: mcp16502: Convert to use regulator_set_ramp_delay_regmap
+         
 
---===============2702120361932883909==
+--===============7675193281462201437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622567462 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1622567469-4a7ca9fcd9ae04593673996d88810a709d826442
+pusher C3F436CA30F5D8EB 1622567469 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1622567477-f71ad4d8dd2ab103991c5ca2735a3136651aee2e
 
-6308c44ed6eeadf65c0a7ba68d609773ed860fbb b640e8a4bd24e17ce24a064d704aba14831651a8 refs/heads/asoc-5.13
-47c0d825b926856d86685a48c82f693f56ca3f6f 26bf457b4a39a467522be14fde5202fefd07289d refs/heads/asoc-5.14
+a072cbda97a9367a84d46e7bf78a47abdbfcaea8 1963fa67d78674a110bc9b2a8b1e226967692f05 refs/heads/for-5.13
+d149b855b955fe92ab16ddd59c1d540f82e6a40f 96ec5afeb3001dcb432b9c9e8738aa537c6cdb12 refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC2aiYACgkQJNaLcl1U
-h9AS0gf+IY4vU3B0Wu5jANU5Z3NixAxc2jhw7sqCX+wzzSmleSDWEVq8toJzovQw
-wl3dsfW/gUX6h5st8DUDpzZVImzWZ2mS22qJ53giRXfjoWjOtf0r9WlyA35m771o
-2SdUJL4QvV7Vfrjbjt59nbifnb0v0piAyQH1mOiKQiG9wlnlurrUSX41E46RLjDT
-VwGC0VviKhk20z6r6gW7s9lE2M5rQYVQCdcdY6c/Lnu/1OZLLiHopUc2v5TBQcc4
-tNV4UIUxhFYhf/iHgtCsSE5COZ3iLwiUiWKJtQ9XyOAU/riGbjKi2QHJFrYd5Tno
-ATT4hRq6CyMkZ6D1IxZyJ7ednwJVEQ==
-=DTTt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC2ai0ACgkQJNaLcl1U
+h9DRagf/Whs2uSsmeUdQaMAbSGxCF3QbhjFtdx6Mqo/aPHLMoulMaVjjFpIwzYA/
+OwgE5JEt3yzwwVJB31yYIu1b7RxbBue7iq5obT9iOrJI6ZPNM2e0c18Jp9/tkBZS
+6Xiusw9MiTf3tr+lZKVKT7pS3Y137tyrcBz/oSOEzcAHMHFKBbRWUYTpB4BkRZUt
+cZgOuRiFsmu15Pc9UosmRgdFgGG2tXENPF9cAAJQTqgy+0Xo0hUEoh4KyCnpWbSd
+VjIqFpbN7lUJkwpUoMUfcWxe0VYzBluvnNkzJDyr8bdeLV/AcQb7cNx0CPmtXrTx
+t6ZHToKC/QKhvZaIk4xUyv8YJ0R8Pw==
+=I28y
 -----END PGP SIGNATURE-----
 
---===============2702120361932883909==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47c0d825b926-26bf457b4a39.txt
-
-ec02b5a1d1c91b1e05b62f8092252137cf9be488 ASoC: rsnd: tidyup rsnd_parse_connect_common()
-039f2ccc64b8a2649f54d654a4d7d92864c6fdb1 ASoC: rsnd: tidyup rsnd_dma_request_channel()
-73919dbe480d0b6cf3eeb54d25cb2538b6d3b024 ASoC: rsnd: tidyup rsnd_parse_connect_xxx()
-c413983eb66a0f6de37c13f7da3dd5fa488e5967 ASoC: rsnd: adjust disabled module
-44b9f90705bb580a9616ecd5498dd30943c1f1ce ASoC: cs47125: Constify static struct snd_compress_ops
-b6f5d62e7afc398c375855c0d8105e5561f9fc37 ASoC: wm5102: Constify static struct snd_compress_ops
-4127a3a541ac35360cb45909944747d61c606f0a ASoC: wm5110: Constify static struct snd_compress_ops
-a8048051d7ce2349e4cda28954ded733d6c42028 ASoC: qcom: q6asm-dai: Constify static struct snd_compress_ops
-7db43da8c0990bb1276d1b7b185b1b9f9be6dcbb ASoC: SOF: Intel: Constify sof_probe_compressed_ops
-b1b384de0a9be2d2913c8a308f381da0b9184e91 ASoC: ti: omap-mcbsp: use DEVICE_ATTR_RW macro
-7ff562fed98043b9e9eafa11db6100feb08412aa ASoC: SOF: Intel: hda: clean up hda_dsp_dump()
-d95eca7e3b9f7c1361fc1e1329247490abec678c ASoC: SOF: Intel: hda: don't print ROM status if cl_dsp_init() fails
-1f763d0388af6f6cffcdb1080ce112c63d766809 ASoC: SOF: Intel: pci-tgl: add ADL-M support
-d86eb3349b4000c87dabc3c0d676a3d0bec4a3d9 Merge series "ASoC: rsnd: adjust disabled module for R-Car D3" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-26bf457b4a39a467522be14fde5202fefd07289d Merge series "ASoC: Constify snd_compress_ops" from Rikard Falkeborn <rikard.falkeborn@gmail.com>:
-
---===============2702120361932883909==--
+--===============7675193281462201437==--
