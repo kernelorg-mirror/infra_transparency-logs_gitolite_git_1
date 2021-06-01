@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3920866057063351468=="
+Content-Type: multipart/mixed; boundary="===============2702120361932883909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 01 Jun 2021 17:11:05 -0000
-Message-Id: <162256746516.30230.9939614172225135318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 01 Jun 2021 17:11:12 -0000
+Message-Id: <162256747264.30339.4833760393112504059@gitolite.kernel.org>
 
---===============3920866057063351468==
+--===============2702120361932883909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 6308c44ed6eeadf65c0a7ba68d609773ed860fbb
     new: b640e8a4bd24e17ce24a064d704aba14831651a8
     log: |
@@ -24,37 +24,37 @@ changes:
          a8437f05384cb472518ec21bf4fffbe8f0a47378 ASoC: fsl-asoc-card: Set .owner attribute when registering card.
          b640e8a4bd24e17ce24a064d704aba14831651a8 ASoC: SOF: reset enabled_cores state at suspend
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 47c0d825b926856d86685a48c82f693f56ca3f6f
     new: 26bf457b4a39a467522be14fde5202fefd07289d
     log: revlist-47c0d825b926-26bf457b4a39.txt
 
---===============3920866057063351468==
+--===============2702120361932883909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622567454 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1622567462-06f5857adbb670eec6920469a92348a86d610df3
+pusher C3F436CA30F5D8EB 1622567462 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1622567469-4a7ca9fcd9ae04593673996d88810a709d826442
 
-6308c44ed6eeadf65c0a7ba68d609773ed860fbb b640e8a4bd24e17ce24a064d704aba14831651a8 refs/heads/for-5.13
-47c0d825b926856d86685a48c82f693f56ca3f6f 26bf457b4a39a467522be14fde5202fefd07289d refs/heads/for-5.14
+6308c44ed6eeadf65c0a7ba68d609773ed860fbb b640e8a4bd24e17ce24a064d704aba14831651a8 refs/heads/asoc-5.13
+47c0d825b926856d86685a48c82f693f56ca3f6f 26bf457b4a39a467522be14fde5202fefd07289d refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC2ah4ACgkQJNaLcl1U
-h9BzrQf+Ns2yPxhk1jWx71qXHEcqAKojSqtoO1s0WwKJYHgnnniHrINfsBaguhgJ
-P0iC9FQEIHnBTUHFR9m3ijirPqouFor5TmOKXl/o2MJlER5VDU46js+SGWLHZHMy
-Vvh2cal14uHL4iX6UnvjWQxyt2qXny4gH8Shjj3RKc/IdfgO73lqo6uwXKkil5Ml
-FYmiFN6iZat8H0jcdfjzfu5ahaNnZ+F3DrJx8C0h7bBGokM3vdMbwfnqENB/MHwF
-O72nByx1wGMedCV1wfJAZ7+JnolYNFj2J3sT6Bh9zZKp6FnG9rD1q9vjz5hfg1rb
-lFDtYj+G15aIXQf/knVZ8vffcjFfwQ==
-=jZIc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC2aiYACgkQJNaLcl1U
+h9AS0gf+IY4vU3B0Wu5jANU5Z3NixAxc2jhw7sqCX+wzzSmleSDWEVq8toJzovQw
+wl3dsfW/gUX6h5st8DUDpzZVImzWZ2mS22qJ53giRXfjoWjOtf0r9WlyA35m771o
+2SdUJL4QvV7Vfrjbjt59nbifnb0v0piAyQH1mOiKQiG9wlnlurrUSX41E46RLjDT
+VwGC0VviKhk20z6r6gW7s9lE2M5rQYVQCdcdY6c/Lnu/1OZLLiHopUc2v5TBQcc4
+tNV4UIUxhFYhf/iHgtCsSE5COZ3iLwiUiWKJtQ9XyOAU/riGbjKi2QHJFrYd5Tno
+ATT4hRq6CyMkZ6D1IxZyJ7ednwJVEQ==
+=DTTt
 -----END PGP SIGNATURE-----
 
---===============3920866057063351468==
+--===============2702120361932883909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ d95eca7e3b9f7c1361fc1e1329247490abec678c ASoC: SOF: Intel: hda: don't print ROM 
 d86eb3349b4000c87dabc3c0d676a3d0bec4a3d9 Merge series "ASoC: rsnd: adjust disabled module for R-Car D3" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 26bf457b4a39a467522be14fde5202fefd07289d Merge series "ASoC: Constify snd_compress_ops" from Rikard Falkeborn <rikard.falkeborn@gmail.com>:
 
---===============3920866057063351468==--
+--===============2702120361932883909==--
