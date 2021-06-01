@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6740188408141818782=="
+Content-Type: multipart/mixed; boundary="===============7531915987017435151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 01 Jun 2021 03:58:37 -0000
-Message-Id: <162251991796.7277.18425828831917570014@gitolite.kernel.org>
+Date: Tue, 01 Jun 2021 03:58:46 -0000
+Message-Id: <162251992611.7423.15702879101705322745@gitolite.kernel.org>
 
---===============6740188408141818782==
+--===============7531915987017435151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: dc4400bd627776ec3a1aa4e94517debd7816d73b
-    new: 2223151157a8e31a5fcba581b3e90186edbaa618
-    log: revlist-dc4400bd6277-2223151157a8.txt
+  - ref: refs/heads/staging
+    old: 46ded13dd3821d96fee65f0cef4bd8f0184607ab
+    new: 60416449c2615d52c849bf00a64fc88cb1f34944
+    log: revlist-46ded13dd382-60416449c261.txt
 
---===============6740188408141818782==
+--===============7531915987017435151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1622519915 -0400
+pusher 75C5DE3D 1622519924 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1622519914-d999defa1b9205a6b035c5095ae595c140a0e082
+nonce 1622519924-868f6cf35344d67d595672a93344a9dd71d3ffb6
 
-dc4400bd627776ec3a1aa4e94517debd7816d73b 2223151157a8e31a5fcba581b3e90186edbaa618 refs/tags/mkp-scsi-staging
+46ded13dd3821d96fee65f0cef4bd8f0184607ab 60416449c2615d52c849bf00a64fc88cb1f34944 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC1sGsACgkQ7ulgGnXF
-3j3oEQ/9HKyqXGjR7EdE9njylo/elBbzoWo55nI1YB+UopPbKJT7apUqEJZvF6pj
-KXTB5zsY+e4Bv0vp/liXLYNJPJb5JNZOZaD+ICPe+AQD3nbo9lhHQrNAvqRuxeln
-cnkdAPRW5kvorKSLmb/iL+UvCmigYtkbz0rIhnhvCQeFxdyrdVWJCmKe3yM6ALGi
-EvL1flfqeeuRdnED5PRJnFOX3F+9soRxY55iuqiX/B5ekBKcCx+NaYm1h1IQMrBh
-qjX6sdGqMZNUD6U1mBk+K5FRf7/fGpWG1fLGBGfpDcRDltXekmNmjQuKHcMxA9HH
-JYbrZfCM5zuEoCpFiX7jpxf3X92O8C1V971mHB7LTykYgFTlhgIEBzsV4LeRKfDz
-SCABZPhLDknQ1DImdzQ6/jWtuLxi226QuuDtN0WbCDXiylR58ArgK4rg+21/LeIt
-haOtpdkkdGZqH4DzoIoAXkzTFUuSiDmN7578pgNyOs3mjhmGIFIyozqu0r60rFfU
-ALDYYQA7/mZTvtXYP1g4SS0BXi4UwY1BaYEMFOz0qzvmpTzkFjn7t7rd6QPnqMO5
-y5lBbA4BjF/mLQ5M4SAPl1O7X2t3JDtQE9amt1O/hxOt+0hRerG74ZWHqQeZ8aaF
-C29X64gVZWd1XtAQ4NMIctqEsqjsyHX7SoN8Hnk+BO2rl0jQpuo=
-=pP0s
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC1sHQACgkQ7ulgGnXF
+3j2JBhAAiXEKbGE53YPMDseXZBOTgImP7ZQyu8hrA2+XSsnfnYQ8zIUWwckMlgbs
+A79V8Kyc4IEcre5EUOVpwh1X9aVrM0Tb0QuDpTVF0p6MFZSfkfv8+3ISepZBYKpX
+r8Xd5ygaDhUk9wzf479oM4AivBPBxRPUpIM4vk4zIZRcSiK2lduMUkK3rGgGRLQA
+8nL7FsXVzyKPE3zl7GvmqAyMMX6D1DPiYxwXw6BD8/as2FjGxVgCqpyPqiYycpS9
+OZXyUMLIRhyq8VNvvseMnBio5X9gPWXHMXMR1vaE3ger6jefSHFx93+PbiYhAdPa
+Ee1Aw5u7g++34e0AdOhSlTAyE6jh6gynkr+hZ1ft267sE/fvMYaeBdA4imav5Xh4
+sG4Fq28teUftsNLeJmHssUzIb4bqpWg9mmJcSOJAqthCo/DYJyurG72Bb3FRLZaB
+PI5dkTt/xJk/4zNj8TAHo44ZwYnKJUuApZ8pck0HoVYuzBN7wAeaZvfAeEMhif5F
+2tAM2eOCPQgNVbK3N5tqNIg/79AXM98kuvpaXoXAh2xMXu6uBPDa54vd0k9cVZS6
+lTWtszYRw4CFInuqkLCjnzJAlataK7RQaZTc/9JcqVl3GoKNc4wiTPQuiuA+OZ65
+URcGoO+uoPdBN1tGXn77JuE1PmjHX3Pr9hYG8xmSC+iSw3euIVw=
+=MPlI
 -----END PGP SIGNATURE-----
 
---===============6740188408141818782==
+--===============7531915987017435151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc4400bd6277-2223151157a8.txt
+Content-Disposition: attachment; filename=revlist-46ded13dd382-60416449c261.txt
 
 e2fac6c44ae06e58ac02181b048af31195883c31 scsi: mpt3sas: Fix deadlock while cancelling the running firmware event
 19a622c39a9d497d3c06ffe9068ee4c7bbd2bdcc scsi: mpt3sas: Handle firmware faults during first half of IOC init
@@ -101,4 +101,4 @@ a7479a8477e61420df43e1e8964986d90764efca scsi: core: Kill message byte
 502071489548b984957cc84d41da9aca59d92ea7 scsi: pcmcia: nsp_cs: Use SAM_STAT_CHECK_CONDITION
 60416449c2615d52c849bf00a64fc88cb1f34944 scsi: core: Drop obsolete Linux-specific SCSI status codes
 
---===============6740188408141818782==--
+--===============7531915987017435151==--
