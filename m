@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 01 Jun 2021 08:28:18 -0000
-Message-Id: <162253609833.23734.15510833277051218925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 01 Jun 2021 08:38:20 -0000
+Message-Id: <162253670084.29849.16960634722190911522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/v5.14/dt64
-    old: 976e920183e406726637db925efdf8b407a2d03a
-    new: a270a2b24de5be0480136cbbd7805b9134762b97
+  - ref: refs/heads/master
+    old: 50736e4998fde0fff9b7876476137a21b85bd5a6
+    new: a057fdb13a97e51f2dc7a78454655d5618d4868f
     log: |
-         a270a2b24de5be0480136cbbd7805b9134762b97 arm64: dts: meson: set 128bytes FIFO size on uart A
+         635d382146065dc0c0b8c74e658f2ec2c8d8f060 docs: add uclampset to AUTHORS file
+         a057fdb13a97e51f2dc7a78454655d5618d4868f docs: fix typo in v2.37-ReleaseNotes
          
