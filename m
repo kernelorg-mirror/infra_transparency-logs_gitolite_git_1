@@ -1,43 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6561962218610900640=="
+Content-Type: multipart/mixed; boundary="===============3004059917438366465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Tue, 01 Jun 2021 14:10:32 -0000
-Message-Id: <162255663298.9762.1211349645886345488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 01 Jun 2021 14:10:41 -0000
+Message-Id: <162255664155.9867.1675421926391392728@gitolite.kernel.org>
 
---===============6561962218610900640==
+--===============3004059917438366465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: cc65643e0626cb1824080a330a93c07567afb63a
-    new: e0609c617792e167a371c560e278342ac8bbc281
-    log: revlist-cc65643e0626-e0609c617792.txt
+  - ref: refs/heads/tmp.perf/core
+    old: 6ea688382716c2f16b81051b44106229e5bf1fe1
+    new: 79e157b00853af0e96d76997a93feec476a23bfa
+    log: revlist-6ea688382716-79e157b00853.txt
 
---===============6561962218610900640==
+--===============3004059917438366465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc65643e0626-e0609c617792.txt
+Content-Disposition: attachment; filename=revlist-6ea688382716-79e157b00853.txt
 
-056b16697ad5cfd709af365ffed9bd6c54095eaf usb: gadget: Add the gserial port checking in gs_start_tx()
-c3e0507d12e5535d72f47c6fc7733d1561950341 tcp/dccp: drop SYN packets if accept queue is full
-2e9b74ca677fb68086ae4cf056fe4a7be4bbbe9c Hang/soft lockup in d_invalidate with simultaneous calls
-6cd86c778820c75396405fd21f837d862e67aff1 arm64: traps: disable irq in die()
-30a745d90ce7b75317d2d3386532d43a84292590 usb: renesas_usbhs: gadget: fix unused-but-set-variable warning
-23f26a1165db66bf4a5dbad6821f722129f0c7d9 lib/int_sqrt: optimize small argument
-12f57c9c82c925b240ba3ad7d4ff629beccbca4b USB: core: only clean up what we allocated
-3ec5de00489318759f3dace8f13ca2e427f47257 efi: stub: define DISABLE_BRANCH_PROFILING for all architectures
-215260da813d1872c0e4354b593abf0e4d10c2a4 writeback: initialize inode members that track writeback history
-617fef5bbe8319c9b9a9741949ad88aff43e27a2 stmmac: copy unicast mac address to MAC registers
-d55efc0db0754942d272a3e5ca3587b6e65a0c38 btrfs: remove WARN_ON in log_dir_items
-d6db38b0d9499eabaf09ccd31f023b5107bdd6f9 ALSA: compress: add support for 32bit calls in a 64bit kernel
-e0609c617792e167a371c560e278342ac8bbc281 ALSA: rawmidi: Fix potential Spectre v1 vulnerability
+4c62244e035e99a9e43d25a017cbe98f7562b21f perf scripting python: Remove unnecessary 'static'
+6337bd0c91f66527741e61ecb73b9cff0d7f48f8 perf scripting python: Simplify perf-trace-context module functions
+cac30400a6d8159e2510a4a258db9c4ac6fbbba5 perf scripting: Add scripting_context__update()
+67e50ce0e32580d90f64556a51b7cb2a872697ca perf scripting: Add perf_session to scripting_context
+cf9bfa6c150f038328f8059a69a6f1598d6702b2 perf scripting python: Assign perf_script_context
+d9ae9c9776abc60d4bdf2320c4a8f32340cff527 perf script: Factor out script_fetch_insn()
+13c71b92327aaacc7a3c3ca5f003f3f66ba5af65 perf scripting python: Add perf_sample_insn()
+e621b8ffec3dc46105eb3d9b90cdd3bc9632f6d8 perf auxtrace: Factor out itrace_do_parse_synth_opts()
+7d00540d7deb6802cde23b132b0c50347f27cc90 perf scripting python: Add perf_set_itrace_options()
+e79457a526105c94930a5babbecaeeb794593723 perf scripting python: Add perf_sample_srcline() and perf_sample_srccode()
+1a329b1c8e8ebf4107823146b5426900ab1145fe perf scripting python: Update documentation for srcline etc
+2b87386c7a1c0488bf2a27d7f4ac80aa84e22fb5 perf scripting python: exported-sql-viewer.py: Factor out libxed.py
+a483e64c0b62e93a772cbc96f32bad885586fad7 perf scripting python: intel-pt-events.py: Add --insn-trace and --src-trace
+ddc11da5eb37e27a4b66cddcaf11233ef51b3a79 perf tools: Check mem-loads auxiliary event
+d2f327acc638312a96d0c0a20c56c7db945d30d7 perf tools: Support pmu prefix for mem-load event
+a91ffcf30e0002e6f52d4c2cd9639443e514e88a perf tools: Support pmu prefix for mem-store event
+e7ce8d11bfb06a06c1e00830c223514086191649 perf tools: Check if mem_events is supported for hybrid platform
+4a9086adc329c9460aefc563969b24eed534adba perf mem: Support record for hybrid platform
+a6d9de8427584553b71492071f6ffd7c92ec8b99 perf mem: Fix wrong verbose output for recording events
+d5a8bd0fcd069819aa48f5e38548e07d5eb3e651 perf mem: Disable 'mem-loads-aux' group before reporting
+79e157b00853af0e96d76997a93feec476a23bfa perf c2c: Support record for hybrid platform
 
---===============6561962218610900640==--
+--===============3004059917438366465==--
