@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3615561985500116777=="
+Content-Type: multipart/mixed; boundary="===============1319055108060811991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 02 Jun 2021 14:58:33 -0000
-Message-Id: <162264591324.1011.5497897061445306127@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 14:59:53 -0000
+Message-Id: <162264599334.1519.15341272502020978733@gitolite.kernel.org>
 
---===============3615561985500116777==
+--===============1319055108060811991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 03715ea2e3dbbc56947137ce3b4ac18a726b2f87
-    new: b65ba0c362be665192381cc59e3ac3ef6f0dd1e1
+    old: b65ba0c362be665192381cc59e3ac3ef6f0dd1e1
+    new: 6490fa565534fa83593278267785a694fd378a2b
     log: |
-         b65ba0c362be665192381cc59e3ac3ef6f0dd1e1 usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
+         6490fa565534fa83593278267785a694fd378a2b usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
          
 
---===============3615561985500116777==
+--===============1319055108060811991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622645907 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622645987 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1622645906-8d2e8748dd6ea4cf6d2a6ed5e94ce448fbc14377
+nonce 1622645986-cde4860c8500fe106d652bf5d6bb8e6ce26b7984
 
-03715ea2e3dbbc56947137ce3b4ac18a726b2f87 b65ba0c362be665192381cc59e3ac3ef6f0dd1e1 refs/heads/usb-linus
+b65ba0c362be665192381cc59e3ac3ef6f0dd1e1 6490fa565534fa83593278267785a694fd378a2b refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC3nJMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kLkQALlGw3d6algvuDVlsAPg
-QvoGkUdMuVLLr9adXhgJUQXtAupZCOc5OvckxiSwhnadGx8k29h5UTLP1HVsqQAl
-Zy90A3B1yR0EDu4ontgZRLmdH5aDzSx+eERgqb/rUyhod6Fm60vYM4tRPUruOJBE
-tWCIAjHpiPI2//DQGOj3UizcD6gKVT8x0CaOvE7SPtnggGMd7AWj+LIkf7WehQf+
-+CoaxVI3UkbfnYIz38D13dbg9QqcQnJpAiyP6AnKK4okpSl8wXag/25HoBT93h6x
-Rk42EtuUUJKMUVmsgAKDS7ydNmwlql0dLwueB3F1/fQ8guredCVHQPksdg6nzUFa
-kxwgz9llWYKOJVHZEiFtZwHG4jQBTecf+bxXDgwlsXfuYeqDZQ52llM3scR1ubhb
-q7cG4/pJmUfnYu97SfSYJTvVJ95ak8RFwtjTS/qlfjFVmAn95/GBrIt8+9KX/fux
-NtF8B+nXY3CbDT5C0kDRU3mKpp0AEbYywyUXXkyw6LyGZ0jC7OrD55po6a5+NN+n
-yo0UXeAXgGFe0aCgdxC+lSmBc0f3qzi72T35PdgkkuoKcoMn9GR6xapKHVSTgyES
-vAMGM1vIam8RCzXYPNfqt/1afCAzrxHpuY3/L6sHdduRVBNu8sBdDRYEXqUB5Z6i
-zpfCKUSTjEaQIcZjx87QWDwx
-=+ooR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC3nOMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FLoP+wThEnPXsXAnqo3jCoKC
+Jb0tntD4AK35APhAPFWIfiH+LQgDAPFKa8svrVZ+GHM7r/9XS3JZsYOl7v6IbLvf
+q72eJfNehFI2+KpAhhFpLLecaV/6jgA9eZv8w/i6TBh1MdJEnGyStBx+5Xqp216F
+nxXSqswZP2ujQg/foNL8TXzODT5yaiBRq+1qtVWC0+nxp2W9xDxFKXo7EYTToKrb
+j9qTviogjAONGdmgEEPi+M3WD8W3PyeoAqnpHEs4SLu9SgQxuP/d6ZoYmwJG7jDK
+QrWQWcWnMr0TO3y/U0Qeq7PxrhXcFdfVCBQ3p/UkR+/lB9qIofIq4XYJKnp1Cy+Y
+zWn4DB/9ddBW9OZnP2H0imo40eA4IS7DmlZQVDT+uAvAIlqtDlUK/E+ETgFgVD0l
+KGVtMHm9nMEhiGx8mWWIPph+9bul7yZtXlkK3PvhjWbIta472VyildsgZ7R16HnP
+xxLVQRKX1VNhIf/HM4Tix/TsurtexABboZZyNFVhGxr8Dq8z3SfK6X+Cb8OFyhqf
+lGEftPqTAlsZCHnwf8ydZ5xM6aHCMyK7V8LeXuwHwOk9j+kMAdicrT9+JX1x4ARD
+siDXWlN4arw5E/3hRVlyxBkqMBw1INgDvIbs9Uxb+8xO42Us95HsS6WR+yG9Z6Pk
+QmSsjUwLKX9RAsxofvmzS+O+
+=6bV9
 -----END PGP SIGNATURE-----
 
---===============3615561985500116777==--
+--===============1319055108060811991==--
