@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Jun 2021 00:06:07 -0000
-Message-Id: <162259236758.7935.15931005313238126858@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 00:09:05 -0000
+Message-Id: <162259254595.8983.15176556279883273152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,15 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ca746c55a7e6e597cc2d29a094082d345b2c33c9
-    new: e65c27938d8e3dd67d55049a82f27e56ca31e728
+    old: e65c27938d8e3dd67d55049a82f27e56ca31e728
+    new: e0ae757c32353f7d185779f104e7309af81491e1
     log: |
-         26d3f69c500cf950299e9b3d76b6e8e2c6fe00bb macvlan: Fix a typo
-         ec674565fbc6af6fce8451cfd7f215c577216661 gtp: Fix a typo
-         e9a0bf6d002f28bae3f3fcca314d4ea79b21fff0 vrf: Fix a typo
-         f62c4f3870d8114029d3ebfc7ec4421728f07f83 net: usb: Fix spelling mistakes
-         e65c27938d8e3dd67d55049a82f27e56ca31e728 net: mdio: Fix spelling mistakes
+         125217e0967fc905be35a3b2c9ba4db9a8616b92 i40e: Replace one-element array with flexible-array member
+         e860fa9b69e1bf077ba4725ee4be7b9443a3682a iidc: Introduce iidc.h
+         d25a0fc41c1f927bb914e72a03c1898052557406 ice: Initialize RDMA support
+         348048e724a0e8f08b63948d728d27596f6d3769 ice: Implement iidc operations
+         f9f5301e7e2d4fa2445aab3ec889dac6b34ea63e ice: Register auxiliary device to provide RDMA
+         9ed7533121219cb25408888cf7fbb929cedc033c i40e: Prep i40e header for aux bus conversion
+         f4370a85d62e645107afc8a35a979be962b19258 i40e: Register auxiliary devices to provide RDMA
+         e0ae757c32353f7d185779f104e7309af81491e1 Merge branch 'iwl-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/linux
          
