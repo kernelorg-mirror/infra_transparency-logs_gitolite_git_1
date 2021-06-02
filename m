@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/ksmap
-Date: Wed, 02 Jun 2021 09:05:17 -0000
-Message-Id: <162262471745.21705.15923743385935020008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 02 Jun 2021 09:18:25 -0000
+Message-Id: <162262550519.28475.9245791321645128369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/ksmap
-user: narmstrong
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 04c3db5eb47fffe88633fc8b6c1e943a74e95d07
-    new: 3c5a85eaebeacacd528d28d283e93097cbb56c90
-    log: |
-         3c5a85eaebeacacd528d28d283e93097cbb56c90 users: Add Neil Armstrong
-         
+  - ref: refs/heads/WIP.sched/headers
+    old: 0000000000000000000000000000000000000000
+    new: 475ea6c60279e9f2ddf7e4cf2648cd8ae0608361
