@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3351406961071995132=="
+Content-Type: multipart/mixed; boundary="===============0137273710250401134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 02 Jun 2021 21:06:02 -0000
-Message-Id: <162266796204.17201.14065621094183916478@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 21:06:09 -0000
+Message-Id: <162266796993.17315.6114984150560105762@gitolite.kernel.org>
 
---===============3351406961071995132==
+--===============0137273710250401134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 37522393d6d7aa5cff84f39b7548ff0fd3163308
+  - ref: refs/heads/dt/next
+    old: df0c99617e011338a62d84629e39e8b5ba264cf9
     new: 4221015f0a8783e2bf4747fbe82d1255d1363223
-    log: revlist-37522393d6d7-4221015f0a87.txt
+    log: revlist-df0c99617e01-4221015f0a87.txt
 
---===============3351406961071995132==
+--===============0137273710250401134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37522393d6d7-4221015f0a87.txt
+Content-Disposition: attachment; filename=revlist-df0c99617e01-4221015f0a87.txt
 
 e9ab77a4f2aa1de5982a041ffbc1facc96ef0d40 dt-bindings: iio: multiplexer: Convert io-channel-mux bindings to DT schema
 652f2efa93c446cbf439988e77a5c788c0fb5ff4 dt-bindings: net: Convert MDIO mux bindings to DT schema
@@ -39,4 +39,4 @@ d8b457106a98516da906989714a4a997868f31b6 dt-bindings: soc: ti: update sci-pm-dom
 2fa0e0a429d6463fc20b46b81214c922fb7fea24 dt-bindings: clock: update ti,sci-clk.yaml references
 4221015f0a8783e2bf4747fbe82d1255d1363223 dt-bindings: reset: update ti,sci-reset.yaml references
 
---===============3351406961071995132==--
+--===============0137273710250401134==--
