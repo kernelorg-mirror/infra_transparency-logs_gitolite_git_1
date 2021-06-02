@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1632631052441511800=="
+Content-Type: multipart/mixed; boundary="===============0409061002651775618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 02 Jun 2021 16:12:02 -0000
-Message-Id: <162265032206.15838.14960345329248854461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 02 Jun 2021 16:12:08 -0000
+Message-Id: <162265032875.15949.3893363741684583596@gitolite.kernel.org>
 
---===============1632631052441511800==
+--===============0409061002651775618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: b640e8a4bd24e17ce24a064d704aba14831651a8
     new: 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d
     log: |
          19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d ASoC: AMD Renoir - add DMI entry for Lenovo 2020 AMD platforms
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 26bf457b4a39a467522be14fde5202fefd07289d
     new: ae624a38be37e1a3127d5fa32c996e09974bb88d
     log: |
@@ -34,29 +34,29 @@ changes:
          ae624a38be37e1a3127d5fa32c996e09974bb88d ASoC: Intel: Skylake: use DEVICE_ATTR_RO macro
          
 
---===============1632631052441511800==
+--===============0409061002651775618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622650312 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1622650319-d6862513cd5ed2fb5d0b68508ffd6fdf4dc9091b
+pusher C3F436CA30F5D8EB 1622650318 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1622650326-ed08c860d167880c4e547ccd0c38567515b89220
 
-b640e8a4bd24e17ce24a064d704aba14831651a8 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d refs/heads/for-5.13
-26bf457b4a39a467522be14fde5202fefd07289d ae624a38be37e1a3127d5fa32c996e09974bb88d refs/heads/for-5.14
+b640e8a4bd24e17ce24a064d704aba14831651a8 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d refs/heads/asoc-5.13
+26bf457b4a39a467522be14fde5202fefd07289d ae624a38be37e1a3127d5fa32c996e09974bb88d refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC3rcgACgkQJNaLcl1U
-h9CQugf8Dd75pQwIkUZf+D3/15YDzgkP111RhpNHxJw/J7/WWSj4Yhj0DyC6nzXN
-f8MzHykHd4M7KjTcHA8a7vFikCa2xQV+1V87t471E/jqrQKusqBjfcwHuC79Z4TB
-5SYkbWpdcdGjWo+XtIG89Rz6Ku8IDcM0z4lV33ON5su7nN5PVwgqho79SwoeQ5/D
-kK1TGcP34wnTYrcEL0Z/sFZm0o1ZRBGsQxpigYFY+SQMZr21ZnV1bnOnW6PGWKUx
-zLyeWCWc37W3dfsoHzUPgiNkv8ZrcHAqG21CA10tmnGM+LwVgoZX4CBkRKSXBXi1
-b0Lsg6NXFccMCwv/NyNCpQSB3GDcAw==
-=u4Hh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC3rc4ACgkQJNaLcl1U
+h9Br9wf+Kcm8bNT93vdDmAuGMBQxodSH4ReWu8qLzScXTr3pmk9DIq304xwzMnit
+no1T59SIVpOCNc0QLaUa9XMXWxYXTe8+kCOHvma//bzbQVMKH78YUPV+Wn7nw+9W
+KQ/8GaqHWxYzgK7pz6ZuXHF6AesTfBJXt+uGUs+8/ti7K/MQ/hA4/qhNCGcsqEtV
+e/rp5OEggdycB/f7vjie/WiZ5m4zVR5x08SwEG+RSxYHVUGJh3/fRUwqVsJ/QBH/
+YxuLLoOxmDw2X9c1f5qRFLHUnSY7u/iq2jRa1vWUKhTjc6RTHT2gAntXGh41ZXhP
+pXJqUFAOgws0dx4sQLQDKSHjUmJG8Q==
+=stJJ
 -----END PGP SIGNATURE-----
 
---===============1632631052441511800==--
+--===============0409061002651775618==--
