@@ -1,62 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0409061002651775618=="
+Content-Type: multipart/mixed; boundary="===============2932844897065013615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 02 Jun 2021 16:12:08 -0000
-Message-Id: <162265032875.15949.3893363741684583596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 02 Jun 2021 16:12:15 -0000
+Message-Id: <162265033594.16100.10609677058314359238@gitolite.kernel.org>
 
---===============0409061002651775618==
+--===============2932844897065013615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: b640e8a4bd24e17ce24a064d704aba14831651a8
-    new: 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d
+  - ref: refs/heads/for-5.13
+    old: 1963fa67d78674a110bc9b2a8b1e226967692f05
+    new: bc537e65b09a05923f98a31920d1ab170e648dba
     log: |
-         19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d ASoC: AMD Renoir - add DMI entry for Lenovo 2020 AMD platforms
+         bc537e65b09a05923f98a31920d1ab170e648dba regulator: bd718x7: Fix the BUCK7 voltage setting on BD71837
          
-  - ref: refs/heads/asoc-5.14
-    old: 26bf457b4a39a467522be14fde5202fefd07289d
-    new: ae624a38be37e1a3127d5fa32c996e09974bb88d
+  - ref: refs/heads/for-5.14
+    old: 96ec5afeb3001dcb432b9c9e8738aa537c6cdb12
+    new: ba499a50ce5846dd6f7a6df92c1f01d4201b5cce
     log: |
-         f34cd5eb2c57c93bdd7659522da9f7f97e863a0d ASoC: sigmadsp: Remove the repeated declaration
-         513df99993857863e42bf3d7d65d87c191ce9493 ASoC: dt-bindings: nxp,tfa989x: Add tfa9897 support
-         1ba1d69d8aa938f64cb07604b320a5074c3bb107 ASoC: codecs: tfa989x: Add support for tfa9897
-         9cf1a98e2b0171e2586a13197a9a1ad605336166 ASoC: dt-bindings: nxp, tfa989x: Add vddd-supply property
-         8e5607e9941ce915187785bd09805bf7df9f7349 ASoC: codecs: tfa989x: Add support for optional vddd-supply
-         ae624a38be37e1a3127d5fa32c996e09974bb88d ASoC: Intel: Skylake: use DEVICE_ATTR_RO macro
+         a277a2622ca9609de09c18f660f0d10f1ddbb379 regulator: core: Use DEVICE_ATTR_RO macro
+         bce18e52c866ff6ded13ac8ac37e9271f786c005 regulator: rt6160: Add DT binding document for Richtek RT6160
+         de20b747c5836ffc6768914b95d7617139fac4f4 regulator: rt6160: Add support for Richtek RT6160
+         ba499a50ce5846dd6f7a6df92c1f01d4201b5cce regulator: userspace-consumer: use DEVICE_ATTR_RO/RW macro
          
 
---===============0409061002651775618==
+--===============2932844897065013615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622650318 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1622650326-ed08c860d167880c4e547ccd0c38567515b89220
+pusher C3F436CA30F5D8EB 1622650325 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1622650333-a3aaa70b817971d60451314950b4944a61634df0
 
-b640e8a4bd24e17ce24a064d704aba14831651a8 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d refs/heads/asoc-5.13
-26bf457b4a39a467522be14fde5202fefd07289d ae624a38be37e1a3127d5fa32c996e09974bb88d refs/heads/asoc-5.14
+1963fa67d78674a110bc9b2a8b1e226967692f05 bc537e65b09a05923f98a31920d1ab170e648dba refs/heads/for-5.13
+96ec5afeb3001dcb432b9c9e8738aa537c6cdb12 ba499a50ce5846dd6f7a6df92c1f01d4201b5cce refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC3rc4ACgkQJNaLcl1U
-h9Br9wf+Kcm8bNT93vdDmAuGMBQxodSH4ReWu8qLzScXTr3pmk9DIq304xwzMnit
-no1T59SIVpOCNc0QLaUa9XMXWxYXTe8+kCOHvma//bzbQVMKH78YUPV+Wn7nw+9W
-KQ/8GaqHWxYzgK7pz6ZuXHF6AesTfBJXt+uGUs+8/ti7K/MQ/hA4/qhNCGcsqEtV
-e/rp5OEggdycB/f7vjie/WiZ5m4zVR5x08SwEG+RSxYHVUGJh3/fRUwqVsJ/QBH/
-YxuLLoOxmDw2X9c1f5qRFLHUnSY7u/iq2jRa1vWUKhTjc6RTHT2gAntXGh41ZXhP
-pXJqUFAOgws0dx4sQLQDKSHjUmJG8Q==
-=stJJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC3rdUACgkQJNaLcl1U
+h9BbJQf/UceC0c99xN0pojEbEwrdE+zQqqE2ksDKSfiLqnwniMCVenlmtEoRWr6c
+D4XHYwCQba8enBhV2woCTEXNFwgZ/E/2ulcWeZRGegd4jv2lZL57vROHt+hkQi3w
+6lxxQkYmp4vogvtPWS5Fi5nFv0u7YGDxYL1rEjsHuEwQ08MEJvQK3HJlo3U199X8
+rUum9x1+hsblD7iH1lZ+IXQ49ljLfFF7SLETL5a8DFh7ucjvGAK0CXEhKFI2oXOo
+jNe8jL7cCw/cBMiKNn+MiNb4Kj3CRkt3gGP5uOKf+y4M9r40sHG4SYSFGjeDgw9m
+V0Mw/dQZHP7RTS7ijOWS+/ameMXuaw==
+=u7pw
 -----END PGP SIGNATURE-----
 
---===============0409061002651775618==--
+--===============2932844897065013615==--
