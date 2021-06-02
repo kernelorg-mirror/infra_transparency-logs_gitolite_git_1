@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 02 Jun 2021 15:15:52 -0000
-Message-Id: <162264695208.12367.15462065763421683786@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 15:17:04 -0000
+Message-Id: <162264702482.12882.9001899108993777241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next
-    old: c6a8625fa4c6b0a97860d053271660ccedc3d1b3
-    new: 450605c28d571eddca39a65fdbc1338add44c6d9
-    log: |
-         450605c28d571eddca39a65fdbc1338add44c6d9 x86/hyperv: fix logical processor creation
-         
+  - ref: refs/heads/hyperv-fixes
+    old: 292d788c64eb07782f6536a9778a31aad073b543
+    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
