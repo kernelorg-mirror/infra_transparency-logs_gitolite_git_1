@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Jun 2021 20:28:30 -0000
-Message-Id: <162266571077.24615.8469294106592675823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 02 Jun 2021 20:30:24 -0000
+Message-Id: <162266582441.26735.3886331602354488221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 011ab4dffe965c16c2ba27c0b97d42d41a97b4da
-    new: 7f0e869c4e3902abc44ae6a9c9fc4fba6867408e
+    old: b508d5fb69c2211a1b860fc058aafbefc3b3c3cd
+    new: ab00f3e051e851a8458f0d0eb1bb426deadb6619
     log: |
-         7f0e869c4e3902abc44ae6a9c9fc4fba6867408e sit: replace 68 with micro IPV4_MIN_MTU
+         ab00f3e051e851a8458f0d0eb1bb426deadb6619 net: stmmac: fix issue where clk is being unprepared twice
          
