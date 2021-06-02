@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Jun 2021 20:05:31 -0000
-Message-Id: <162266433118.9631.7502770132401671007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 02 Jun 2021 20:06:43 -0000
+Message-Id: <162266440319.10078.11399152190305070568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 5fe8e519e44fde639f8f4977561f1b68b2ec4960
-    new: 011ab4dffe965c16c2ba27c0b97d42d41a97b4da
+    old: 46014be648c51608ba12bc073562225d02fccc5b
+    new: d6e15c04b70dec85b1f5d8d85b947a6758582246
     log: |
-         011ab4dffe965c16c2ba27c0b97d42d41a97b4da dt-bindings: net: brcm,iproc-mdio: convert to the json-schema
+         d6e15c04b70dec85b1f5d8d85b947a6758582246 Bluetooth: btmtkuart: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
          
