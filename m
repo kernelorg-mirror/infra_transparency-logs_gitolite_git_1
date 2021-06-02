@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4107371968177909549=="
+Content-Type: multipart/mixed; boundary="===============1136799745398356835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 02 Jun 2021 16:11:32 -0000
-Message-Id: <162265029240.15487.14130966894596210423@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 16:12:00 -0000
+Message-Id: <162265032033.15764.9299385304881439216@gitolite.kernel.org>
 
---===============4107371968177909549==
+--===============1136799745398356835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: c439c3306fea10eead49d0c628823c1ac95a39c2
     new: ac1c889d37da32c7f3cf3cda51db443fd21ce1ec
     log: revlist-c439c3306fea-ac1c889d37da.txt
 
---===============4107371968177909549==
+--===============1136799745398356835==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -853,4 +853,4 @@ b90e90f40b4ff23c753126008bf4713a42353af6 Merge branch 'i2c/for-current' of git:/
 c75f56b12b4d2864a4472d7be3704140d4e0673d erofs: remove the occupied parameter from z_erofs_pagevec_enqueue()
 ac1c889d37da32c7f3cf3cda51db443fd21ce1ec erofs: clean up file headers & footers
 
---===============4107371968177909549==--
+--===============1136799745398356835==--
