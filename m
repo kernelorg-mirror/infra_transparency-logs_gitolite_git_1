@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 02 Jun 2021 01:30:30 -0000
-Message-Id: <162259743025.2346.6335436007461040333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 02 Jun 2021 02:44:30 -0000
+Message-Id: <162260187054.15372.13351408561176795951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/mlx5-fixes-2021-06-01
+  - ref: refs/heads/generic-string-ops
     old: 0000000000000000000000000000000000000000
-    new: c033e1e87e51a07c6d5b0ef9dabfc711789aa6e8
+    new: 95bd049a56e537a2db74f47cf67cd7a4b3eb8f4a
