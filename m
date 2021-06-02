@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 02 Jun 2021 20:11:21 -0000
-Message-Id: <162266468145.13077.4435255374146690469@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 20:12:45 -0000
+Message-Id: <162266476594.13603.2698900777504227369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: b7f84e216daa18be2e251b5aec0d99a3ca64b997
-    new: 4865bed5d857a74560b0f6f427a4998099a7894c
+    old: 4865bed5d857a74560b0f6f427a4998099a7894c
+    new: 02b3492e6316ba11bb8391434afcab0624259ff1
     log: |
-         4865bed5d857a74560b0f6f427a4998099a7894c Bluetooth: btusb: fix bt fiwmare downloading failure issue for qca btsoc.
+         02b3492e6316ba11bb8391434afcab0624259ff1 Bluetooth: btusb: Add a new USB ID for RTL8822CE
          
