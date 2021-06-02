@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3384869834161963982=="
+Content-Type: multipart/mixed; boundary="===============4789509299348826562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 02 Jun 2021 14:47:36 -0000
-Message-Id: <162264525694.25641.5488851385885195457@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 14:51:22 -0000
+Message-Id: <162264548244.29683.11560678944227296919@gitolite.kernel.org>
 
---===============3384869834161963982==
+--===============4789509299348826562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    new: 8212937305f84ef73ea81036dafb80c557583d4b
+    old: 8212937305f84ef73ea81036dafb80c557583d4b
+    new: 03715ea2e3dbbc56947137ce3b4ac18a726b2f87
     log: |
-         8212937305f84ef73ea81036dafb80c557583d4b usb: dwc3: gadget: Disable gadget IRQ during pullup disable
+         03715ea2e3dbbc56947137ce3b4ac18a726b2f87 usb: dwc3: gadget: Bail from dwc3_gadget_exit() if dwc->gadget is NULL
          
 
---===============3384869834161963982==
+--===============4789509299348826562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622645251 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622645476 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1622645249-87a8ee67dd1cd96e67d7d1da68c4934e49ed971a
+nonce 1622645475-a95eb4d29b34710a5c66f53beb2aa4dce0a3af4f
 
-8124c8a6b35386f73523d27eacb71b5364a68c4c 8212937305f84ef73ea81036dafb80c557583d4b refs/heads/usb-linus
+8212937305f84ef73ea81036dafb80c557583d4b 03715ea2e3dbbc56947137ce3b4ac18a726b2f87 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC3mgMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6oUQAIKWzSo013pZ3dpWmd9A
-h6uISRRtG3fv79bWs2NXIJ9zbKi0ABb9SxCAfpghoQmLSB89sK27l48IYUE6pc7P
-YV7YrldyUb0bhsfXwYIR8RNz2eY2ubz1TMuxbGlEsJQHX3nlpfho1BfyFPE+cGZV
-ypVN/OPPoKcOcM2OmMX8OnlW2OPpwbS3fVQo2H4WLAbUVJBV1HYdj64p6QQvKMRt
-2PoR9aFnpVEyCU7biEBAYgU86wxPU2l1JBiQI4Dh8QBnkHZVwA4968PwPWhXzAwu
-G0HFjJZb+UC/jjd829r+diqbTiIra1w6CEPvyibB4X8o9MW1aXThnUSufB/bwKhV
-uoWBuYQ3LK9IcnWYzFUXYW62Ju9aurO6PHE3aozwyAUDYTQQWf2LsPMyuqMqwbv8
-rhFgCWRtcPN4nZtBU6PoS94kSsddvT2nIigaeIZFpobvsXzUWS2dcgzW2YtcO4YI
-9NWoY9iLf65K0NBSCJCZWlJNMR12Ce9IDDLhSdYI3sUEyjSXXLiXwArlFeKGtuA8
-5cCwN1nyF/5IZTHpURcHBnwJDkk5ob3vmZ1x2Man7jrzOHnzG7e8L+qqRI5+GmK6
-9CKGdIYFr/RG5cwy7eGeaTqFv1rH1rA4dQpH6AxmRPx50cFkslQJ94W+eWBQWeg8
-epTvvev2t+MEJODByWNv2oW4
-=OVVD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC3muQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GbwP/A55rrYROR+h1TE1fcHU
+qDeHumujaCuSgmWGI4xK2zN8GysEB22XZRrbtxs2keIA37GQBElJ8qAhVhdJ5Cbw
+Zp6FUz6StjuUnZSGdZi5bCieqA9MdJjDgseCi58hNxuU8SWa+Zc4+d+8H86hijez
+V795pIbvG25/0u+wiU1x5Sa3uoMpSTuDi+YoPRVq3rX/kP5I4nowvS10DiVlXV4o
+QBreCXmLrHE6pvqU5j4RATnlGYvVP1tASx66X5lzTApN25YwULkM20AQ7q7xdWgs
+kXEXYEdExCu0ki/gkuKhR+2g3SDIWDSSabjERw+q/eDVR9rv6WTMrFoSoPQ0uaP6
+8kSAk2vW6hVua62mcBHgyMpLAMHRfTxqLjJCWDUDwhQlBrKJTtTgUNoe3jdcvlZp
+uLLRBkpIYke5Mr3ENH8rHavJyLhDmn2bSbc9DvnZYoDoXWu28HoMva32ojCdg6pj
+PlsLVDyPCQyDrGewEs+fv/NC4jgqlaruYv0bhZ649vtqx0CKco0ZK39prEZlzfH/
+y5IKDeT7ioECw+B3dEsHKqfIrJ40Gktc8xhQ88cVr6mmxKYtLJs94vRpg1sDdSUD
+TXZ33vIrkhlM6J7bJB58KZkziEGGKW3BtXLDVmOhEAo24qrYEWmhMUurWj/Kquy9
+E9oyABf4pwkum9TXA3XEW+mO
+=ZBP3
 -----END PGP SIGNATURE-----
 
---===============3384869834161963982==--
+--===============4789509299348826562==--
