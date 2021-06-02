@@ -1,60 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5302763928873921457=="
+Content-Type: multipart/mixed; boundary="===============0004400632344184761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 02 Jun 2021 16:12:23 -0000
-Message-Id: <162265034353.16221.13852552821936074942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 02 Jun 2021 16:12:31 -0000
+Message-Id: <162265035130.16367.10744856906452111728@gitolite.kernel.org>
 
---===============5302763928873921457==
+--===============0004400632344184761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.13
-    old: 1963fa67d78674a110bc9b2a8b1e226967692f05
-    new: bc537e65b09a05923f98a31920d1ab170e648dba
+  - ref: refs/heads/for-5.13
+    old: 2ec6f20b33eb4f62ab90bdcd620436c883ec3af6
+    new: f131767eefc47de2f8afb7950cdea78397997d66
     log: |
-         bc537e65b09a05923f98a31920d1ab170e648dba regulator: bd718x7: Fix the BUCK7 voltage setting on BD71837
+         f131767eefc47de2f8afb7950cdea78397997d66 spi: spi-zynq-qspi: Fix some wrong goto jumps & missing error code
          
-  - ref: refs/heads/regulator-5.14
-    old: 96ec5afeb3001dcb432b9c9e8738aa537c6cdb12
-    new: ba499a50ce5846dd6f7a6df92c1f01d4201b5cce
+  - ref: refs/heads/for-5.14
+    old: 1a435466b0d470eb9095da0efefea5f7f69acf9c
+    new: ec679bda639fe84b78d473526ae27c74dea383fb
     log: |
-         a277a2622ca9609de09c18f660f0d10f1ddbb379 regulator: core: Use DEVICE_ATTR_RO macro
-         bce18e52c866ff6ded13ac8ac37e9271f786c005 regulator: rt6160: Add DT binding document for Richtek RT6160
-         de20b747c5836ffc6768914b95d7617139fac4f4 regulator: rt6160: Add support for Richtek RT6160
-         ba499a50ce5846dd6f7a6df92c1f01d4201b5cce regulator: userspace-consumer: use DEVICE_ATTR_RO/RW macro
+         ec679bda639fe84b78d473526ae27c74dea383fb spi: bcm2835: Allow arbitrary number of slaves
          
 
---===============5302763928873921457==
+--===============0004400632344184761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622650332 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1622650340-4fac5b2707ca82d8a5038974192d8f169839b706
+pusher C3F436CA30F5D8EB 1622650341 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1622650348-252cfe73fb2f273dcc04c5d611941e90a6706c7f
 
-1963fa67d78674a110bc9b2a8b1e226967692f05 bc537e65b09a05923f98a31920d1ab170e648dba refs/heads/regulator-5.13
-96ec5afeb3001dcb432b9c9e8738aa537c6cdb12 ba499a50ce5846dd6f7a6df92c1f01d4201b5cce refs/heads/regulator-5.14
+2ec6f20b33eb4f62ab90bdcd620436c883ec3af6 f131767eefc47de2f8afb7950cdea78397997d66 refs/heads/for-5.13
+1a435466b0d470eb9095da0efefea5f7f69acf9c ec679bda639fe84b78d473526ae27c74dea383fb refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC3rdwACgkQJNaLcl1U
-h9AD/gf/ajMX788ZNcpybKiF0P8tuz40p+VppoJlI6BuTNuNGJstz3Ffg4JVuHNT
-LB5nkmX799rcpjn+2vqCDnlFGzlNh0bbC7ql/Y/NZhd0BWQjl524XPe2z3VW9b0l
-9KJkZE2LCkD4yrWDmMFKeWxWMohvFnDS5BQSxMT9TpYTFkjBPEloFD8qNXJDv/kA
-pNmdevLWfCh5wGUPK7DePB6mN9NeqwwSVq+VAb1siyW6ets7iTwe1T3oE1w2O7Tr
-CoUjMSTUJsamh5cVI7jAMEbzUqD0GLG5rh4dprrjNtaQxXpAt3bB5qRJAkCUvjdn
-70PGuFkDHOfRcRePzWcStqypgnRZ6Q==
-=hKO+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC3reUACgkQJNaLcl1U
+h9DHkQf/evmSDjP8UIWqBTiLI98mzGTsZPDPYaQoRM0zcnWNC61uBJMvGgOWq/Nz
+CLF+1bZG6xjjH8ruMpQSAOk2HDMEW+FsNCCN1J96X9owd4l1hcxo/e8E+3IBKUFw
+3F8LDJP/bzyOP1UaLyL2ZQj7+lx1K4GCaaUfyrYw2IU0IxTuSUQf3eFrnTuEQ8RY
+0EXEOLD6odGoUbKa+Epyeha9Loo2hA6Ywn2AvLZY4NpAHlGOPbEBsB8pY+Es9hHW
+uLr/B+SvjaiBk+ejz74WHlWmDbwoVb6d+JZK8jzmoo++T+JPWIngSgjczaJFgEaf
+G+1gHDTznbVAdxyj/5RDX+o2R1TAzA==
+=YoCo
 -----END PGP SIGNATURE-----
 
---===============5302763928873921457==--
+--===============0004400632344184761==--
