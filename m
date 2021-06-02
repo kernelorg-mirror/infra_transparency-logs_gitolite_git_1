@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5103915813497354270=="
+Content-Type: multipart/mixed; boundary="===============4958462107022097723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 02 Jun 2021 08:26:04 -0000
-Message-Id: <162262236460.12129.2874653904475927875@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 08:26:17 -0000
+Message-Id: <162262237702.12269.4941961254204769871@gitolite.kernel.org>
 
---===============5103915813497354270==
+--===============4958462107022097723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-dt
-    old: 4d930c421e3b4f5bb3a9dd6b2eba2b15d458fcb5
-    new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-4d930c421e3b-6efb943b8616.txt
+  - ref: refs/heads/at91-soc
+    old: 41dbf4a146a06443d1cbf39e238f02fa1ca9d626
+    new: 48f78efa7ea5b868c98e454106043462d0505ea2
+    log: revlist-41dbf4a146a0-48f78efa7ea5.txt
 
---===============5103915813497354270==
+--===============4958462107022097723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d930c421e3b-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-41dbf4a146a0-48f78efa7ea5.txt
 
-d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
-9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
-75516c75a72b5629736c611cf45058d95978a9f2 arm64: doc: Add brk/mmap/mremap() to the Tagged Address ABI Exceptions
-c7b397e9ca4d6828e3e3f504c80bcb1fe535c348 Merge tag 'gvt-next-fixes-2021-04-29' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
-211f9f2e0503efa4023a46920e7ad07377b4ec58 orangefs: leave files in the page cache for a few micro seconds at least
-ec8149fba64b719a618b432ce9eea7ce937a523c perf util: Move bpf_perf definitions to a libperf header
-fe3dd8263b9f3912a0f3a2f66c0fdb3987d69a1a perf bpf: check perf_attr_map is compatible with the perf binary
-112cb56164bc2108a55aee785d841a35aab0616a perf stat: Introduce config stat.bpf-counter-events
 01bd8efcec444468db0275bbd71b49927f7e1544 perf stat: Introduce ':b' modifier
 5508c9dae2a4a111acc7472900164f556ae75346 perf stat: Introduce bpf_counter_ops->disable()
 d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
@@ -1050,5 +1042,13 @@ dd3e4012dd360873f95bbe7fe2eb65d951781803 Merge tag 'x86_urgent_for_v5.13_rc1' of
 efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git://anongit.freedesktop.org/drm/drm
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
+8139097bc26a91e3642236c656aeed5ba1bbefb1 ARM: at91: add new SoC sama7g5
+1ef6768555b46d3d182e762b87d9784ae9ba39d2 ARM: at91: debug: add sama7g5 low level debug uart
+43225c4857179197eb0322fa41c0d9c6209cc578 dt-bindings: ARM: at91: document sama7g5ek board
+bffd082588399ed501cb041d72ffa83d43f793ea ARM: dts: at91: add sama7g5 SoC DT and sama7g5-ek
+aa4e380c92d4b6e2554b3a29bed660237b410640 ARM: configs: at91: add defconfig for sama7 family of SoCs
+12bd02820c53b856ab447c953b1c1a6f5ae198e4 ARM: multi_v7_defconfig: add sama7g5 SoC
+0dc6858ecfbb1676bd68ceda415e063b78b36225 ARM: at91: changes to sama7g5 introduction series
+48f78efa7ea5b868c98e454106043462d0505ea2 checkpatch: use python3
 
---===============5103915813497354270==--
+--===============4958462107022097723==--
