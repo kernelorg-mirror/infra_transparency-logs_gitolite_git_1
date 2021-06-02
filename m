@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2820836516684117332=="
+Content-Type: multipart/mixed; boundary="===============3700945311757325762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 02 Jun 2021 08:29:08 -0000
-Message-Id: <162262254843.13636.761517887138951914@gitolite.kernel.org>
+Date: Wed, 02 Jun 2021 08:29:35 -0000
+Message-Id: <162262257584.13841.10837011445926301765@gitolite.kernel.org>
 
---===============2820836516684117332==
+--===============3700945311757325762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-next
-    old: 969bbb49f36c4764ba59fb764f162abc4204a4af
+  - ref: refs/heads/at91-defconfig
+    old: 4136c4443efce6f028eca74885870ac649981da1
     new: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    log: revlist-969bbb49f36c-6efb943b8616.txt
+    log: revlist-4136c4443efc-6efb943b8616.txt
 
---===============2820836516684117332==
+--===============3700945311757325762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-969bbb49f36c-6efb943b8616.txt
+Content-Disposition: attachment; filename=revlist-4136c4443efc-6efb943b8616.txt
 
 d385c16173f28a18866abf54c764200c276dace0 drm/i915/gvt: Prevent divided by zero when calculating refresh rate
 9b924f4f0d8f9557f4ef8a8d1468d507a662cef1 psci: Remove unneeded semicolon
@@ -1051,4 +1051,4 @@ efc58a96adcd29cc37487a60582d9d08b34f6640 Merge tag 'drm-next-2021-05-10' of git:
 6dae40aed484ef2f1a3934dcdcd17b7055173e56 fbmem: fix horribly incorrect placement of __maybe_unused
 6efb943b8616ec53a5e444193dccf1af9ad627b5 Linux 5.13-rc1
 
---===============2820836516684117332==--
+--===============3700945311757325762==--
