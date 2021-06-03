@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3135155753680723045=="
+Content-Type: multipart/mixed; boundary="===============7463055943244407807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Thu, 03 Jun 2021 17:22:55 -0000
-Message-Id: <162274097559.21636.9081541744078511388@gitolite.kernel.org>
+Date: Thu, 03 Jun 2021 17:22:59 -0000
+Message-Id: <162274097919.21765.4201909617583023584@gitolite.kernel.org>
 
---===============3135155753680723045==
+--===============7463055943244407807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d37d358c9ddd4d0972fbcd392ce26df852767948
-    new: 94280ffd71aa5e1da0c36a95e3ea0fac08bca839
-    log: |
-         94280ffd71aa5e1da0c36a95e3ea0fac08bca839 Release as 0.4.5
-         
+  - ref: refs/tags/v0.4.5
+    old: 0000000000000000000000000000000000000000
+    new: 68da642f90092179a124f0768925ac2963e77b0d
 
---===============3135155753680723045==
+--===============7463055943244407807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1622740975 -0400
+pusher B6C41CE35664996C! 1622740978 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1622740975-4fd5a524a4f853f8db2ab4c598cd2d5c2290a5cf
+nonce 1622740978-3c18a9abb382510fe5071e9e1363bb14a128a2d0
 
-d37d358c9ddd4d0972fbcd392ce26df852767948 94280ffd71aa5e1da0c36a95e3ea0fac08bca839 refs/heads/main
+0000000000000000000000000000000000000000 68da642f90092179a124f0768925ac2963e77b0d refs/tags/v0.4.5
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYLkP7wAKCRC2xBzjVmSZ
-bFjUAQCLtZlt+yoA7/1yQd+aa4MOlkS96q9MhRC4NAr/o5IhhAD/ZhexFdWV5Kfb
-QqPYedHC72lwYOCXWAC45k3dhNqxLwQ=
-=+3Ir
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYLkP8gAKCRC2xBzjVmSZ
+bPCnAQCKc49HAayDvDI4OfQxVhFCSZYgX7GRSalwi0+Lhy14KwEA/ZlxgqvHZiZN
+I/+ROb+SPwUWG27Eb38UkjsC1/m/qgg=
+=ByVX
 -----END PGP SIGNATURE-----
 
---===============3135155753680723045==--
+--===============7463055943244407807==--
