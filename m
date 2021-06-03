@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Jun 2021 22:25:37 -0000
-Message-Id: <162275913750.29059.15029047165790457593@gitolite.kernel.org>
+Date: Thu, 03 Jun 2021 22:26:41 -0000
+Message-Id: <162275920153.29435.5082425612793369193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: feb938fad63fb6fdd92ab082d0888ed5694af818
-    new: 92e1b57c3865c508e0ecd9824b7a64256329b8fd
+    old: 92e1b57c3865c508e0ecd9824b7a64256329b8fd
+    new: a10541f5d9fa2aab5ff54311473b05ba75b84226
     log: |
-         92e1b57c3865c508e0ecd9824b7a64256329b8fd bonding: remove redundant initialization of variable ret
+         a10541f5d9fa2aab5ff54311473b05ba75b84226 sch_htb: fix doc warning in htb_add_to_id_tree()
          
