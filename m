@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============5915405931524196597=="
+Content-Type: multipart/mixed; boundary="===============2266881568119774820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 03 Jun 2021 07:10:43 -0000
-Message-Id: <162270424321.19194.15815104965503872502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Thu, 03 Jun 2021 07:19:33 -0000
+Message-Id: <162270477334.13061.10157145050752732507@gitolite.kernel.org>
 
---===============5915405931524196597==
+--===============2266881568119774820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9729409bfbf8fe48a1e02cced7793e9e2ffe99fc
-    new: bb5d9fc85814c51990a399fca11a27a08450a4f3
-    log: |
-         bb5d9fc85814c51990a399fca11a27a08450a4f3 Notes added by 'git notes add'
-         
+  - ref: refs/heads/md-fixes
+    old: cc146267914950b12c2bdee68c1e9e5453c81cde
+    new: 783b5dcba231f07459f30ca508162c1e670b0dcc
+    log: revlist-cc1462679149-783b5dcba231.txt
 
---===============5915405931524196597==
+--===============2266881568119774820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cc1462679149-783b5dcba231.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622704241 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1622704240-a128883fb4c0ba9fcb7003f832c68e8a8139db10
+3596a06583a16cf7f76d836440dfba5714c9c710 nvme: fix potential memory leaks in nvme_cdev_add
+f25f8ef70ce2e85bae1a266dd5de714aefda81d2 nvme-fc: short-circuit reconnect retries
+4d9442bf263ac45d495bb7ecf75009e59c0622b2 nvme-fabrics: decode host pathing error for connect
+c0c8a8397fa8a74d04915f4d3d28cb4a5d401427 s390/dasd: add missing discipline function
+042a3eaad6daeabcfaf163aa44da8ea3cf8b5496 nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
+25df1acd2d36eb72b14c3d00f6b861b1e00b3aab nvmet-tcp: fix inline data size comparison in nvmet_tcp_queue_response
+aaeadd7075dc9e184bc7876e9dd7b3bada771df2 nvmet: fix false keep-alive timeout when a controller is torn down
+094c271addc3e149e09474934c49a6b98f2d087f Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.13
+a4b58f1721eb4d7d27e0fdcaba60d204248dcd25 Merge tag 'nvme-5.13-2021-05-27' of git://git.infradead.org/nvme into block-5.13
+783b5dcba231f07459f30ca508162c1e670b0dcc It needs to check offset array is NULL or not in async_xor_offs
 
-9729409bfbf8fe48a1e02cced7793e9e2ffe99fc bb5d9fc85814c51990a399fca11a27a08450a4f3 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC4gHEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Md0QAL6uWLjkYGnfjZEdnhYU
-tjjaqwCEu5KQ6ruI0/z+x3aXi7TjMOag5BMnqj9Ny/5S6uMzN+g82h+gEcPlXjLZ
-BtlooC5c115+SNvJM3ReqYBz8JosaLj1cxX1i1JVrHIZMc2qivwDZ10g7hpg254l
-a2ZXHkOn+FlVrPVsYRRmDld32+cAAC2NbpiyK7AQoiGdBCZlzEwJkXy9PtZbe+F9
-/t5RgBlBnAn9+3YrgGNtuo/WUEuaJ057aDs7dDKPZo8lCNA3zgQT8Y0BzLVqf1Ik
-WMKKq6J12AdNv3GIukU3Ku3g6kvwnY2PTKuD0GlywJ/fS9NzT02fAi82PWYNdeNZ
-bF8PWXhTsiQJnV6e0weopwXuhuyU2hYmoQOkzpJans5Qbf3ZIE2PrLE5zxZKsWNf
-yHyqYpfV9pqy28OVR3k4HGuiESMVhSYWJVIr0FOb+WhLHWqzy00pffNJQRSE3zF0
-8qQ3qyX3bQz3G1RM4z3VqIJ5lKReiTQojKrJuXugUA8on7lw1I4UlWZQ1bfHxVJ7
-Qi+ojhFQZreqxnMVJQyo9Buycv9FkOhwEhkDx/1Li+3dnf37aAFrpNRh3nAHlR+g
-CgUB2bFfrzaHFO6G7OHswPn2wIYDanoAYEAZYmqpJQovY6S8s0QuUzevbmqZCYJl
-96tgof0Q/VMfjpkFwyvIfC9l
-=ibWp
------END PGP SIGNATURE-----
-
---===============5915405931524196597==--
+--===============2266881568119774820==--
