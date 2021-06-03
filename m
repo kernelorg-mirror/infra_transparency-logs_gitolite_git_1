@@ -1,76 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3402090533228035253=="
+Content-Type: multipart/mixed; boundary="===============3863121196132865942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 03 Jun 2021 18:37:26 -0000
-Message-Id: <162274544601.6445.7628257319248844969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 03 Jun 2021 18:37:33 -0000
+Message-Id: <162274545312.6618.6545368214257307434@gitolite.kernel.org>
 
---===============3402090533228035253==
+--===============3863121196132865942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d
-    new: 8bef925e37bdc9b6554b85eda16ced9a8e3c135f
+  - ref: refs/heads/for-5.13
+    old: bc537e65b09a05923f98a31920d1ab170e648dba
+    new: cb2381cbecb81a8893b2d1e1af29bc2e5531df27
     log: |
-         320232caf1d8febea17312dab4b2dfe02e033520 ASoC: AMD Renoir: Remove fix for DMI entry on Lenovo 2020 platforms
-         d031d99b02eaf7363c33f5b27b38086cc8104082 ASoC: meson: gx-card: fix sound-dai dt schema
-         8bef925e37bdc9b6554b85eda16ced9a8e3c135f ASoC: tas2562: Fix TDM_CFG0_SAMPRATE values
+         50bec7fb4cb1bcf9d387046b6dec7186590791ec regulator: hi6421v600: Fix .vsel_mask setting
+         cb2381cbecb81a8893b2d1e1af29bc2e5531df27 regulator: rt4801: Fix NULL pointer dereference if priv->enable_gpios is NULL
          
-  - ref: refs/heads/asoc-5.14
-    old: ae624a38be37e1a3127d5fa32c996e09974bb88d
-    new: f3b3bceb859c76a91ddd43c602428e4451598b3d
-    log: revlist-ae624a38be37-f3b3bceb859c.txt
+  - ref: refs/heads/for-5.14
+    old: ba499a50ce5846dd6f7a6df92c1f01d4201b5cce
+    new: a747070e9b629eeb70118651dfbd500bf8bb5ebe
+    log: |
+         8f4ef0788c68bf99370a91df5cb83f90d707583e regulator: max77802: Remove .set_ramp_delay from max77802_buck_dvs_ops
+         8cdded982a6cf95d5ed7e3a014fb3d8dde6b3a94 regulator: max77802: Convert to use regulator_set_ramp_delay_regmap
+         30b38b805b36c03db3703ef62397111c783b5f3b regulator: fan53555: Fix missing slew_reg/mask/shift settings for FAN53526
+         b61ac767db4d62540732cdac9f1820e56b9a5008 regulator: fan53555: Convert to use regulator_set_ramp_delay_regmap
+         6041d5fe512cd6ceaf730cdfa1786f2bc9b5b1b5 regulator: bd9576: Constify the voltage tables
+         1623d767c7ec563d6e52ab76426377bfdde68f97 regulator: rt6245: Add the binding document for Richtek RT6245
+         a747070e9b629eeb70118651dfbd500bf8bb5ebe regulator: rt6245: Add support for Richtek RT6245
+         
 
---===============3402090533228035253==
+--===============3863121196132865942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622745433 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1622745442-79ec705e0a2dad60223250279b52279290cc4660
+pusher C3F436CA30F5D8EB 1622745441 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1622745450-4461b04a7fd9c9fd82d596e692db1e913f7c38b1
 
-19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d 8bef925e37bdc9b6554b85eda16ced9a8e3c135f refs/heads/asoc-5.13
-ae624a38be37e1a3127d5fa32c996e09974bb88d f3b3bceb859c76a91ddd43c602428e4451598b3d refs/heads/asoc-5.14
+bc537e65b09a05923f98a31920d1ab170e648dba cb2381cbecb81a8893b2d1e1af29bc2e5531df27 refs/heads/for-5.13
+ba499a50ce5846dd6f7a6df92c1f01d4201b5cce a747070e9b629eeb70118651dfbd500bf8bb5ebe refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC5IVoACgkQJNaLcl1U
-h9DaAwgAhsEfZiXAX+piSVzyFG8z0ahvLluOlVCsEjeYdxcgciJYO8Byt8GcKird
-XZC57Rm2r0SB12CTBCrvCjsTLQqrH0HxT4zPc5zcpVlmd+t29CuUx9Mz/Ip5vPXH
-Z7tHxpB/t+LTPVId2Iw9xpe5bAf3q8BSjGNl1RM/7/2yPafU2Ab4YAm3eHvr6a2k
-+eNF+TWcphgl/pAH3jzhnnLbIYW9HNNErCasQJuI9NYOP0P/o2lSkNhwvgMIbVhj
-NtTJAWfp0KYwiWcGIp6yd/lzqy8QIYzoOPTbUKrNTN7eW3TNaARy/b/nJbERmGqE
-j0nuN5GOEem6UitM+X4up4YjxQ9w+A==
-=ifWg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC5IWEACgkQJNaLcl1U
+h9BLIgf+ONOdjU3Qx5CVtA0pLrtwcFj8IJ+zvGZ5hH2cOTUvkuOAPk5iknTu9cUV
+bwMk07TkuLb54rM0IDtwRKXh0V7/moKtv15onRLKu5rSXdJSgc6cLaOZaLsFoI1v
+bMbEVdXD2ZCUEUqlhRmi92y7TARXom7A/y+SHfQR4shSLikZm+vGpKAHs0ZyK8HI
+G3OJuqT4jP5KJLhFjqZ7JfGw/XVnwgRHXMSyFn1ztX1YSO8HvMV0OcYt+7/SlM4p
+TubMBekpFGhu2iRl9i617qZ4KE/1zn71QKKdm1QDUqhkFaj4OadjqZZKu2is7Rkq
+0ttsweo0yuwDc2PMb3pLSZemy6NzyQ==
+=lQHo
 -----END PGP SIGNATURE-----
 
---===============3402090533228035253==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae624a38be37-f3b3bceb859c.txt
-
-2cdfe6520c939aff60bf78be2fc682e7635d0618 ASoC: rsnd: adg: supply __printf(x, y) formatting for dbg_msg()
-b48e4aa48931030382d26c624cf4ae1c68d15666 ASoC: rsnd: adg: tidyup rsnd_adg_get_clkin/out() parameter
-cb2f97d89f383dafa822bce66f0c3514dfb135b8 ASoC: rsnd: adg: use more simple method for null_clk
-d668a5e2409b2ff9291493b70c961ecbe883bfb2 ASoC: rsnd: adg: check return value for rsnd_adg_get_clkin/out()
-3f4593fb4a9ddb53edefcbf7d4c5fd1f04717422 ASoC: rsnd: tidyup __rsnd_mod_xxx macro comments
-6522a8486c00d130a32a57c6c8a365572958b4df ASoC: atmel: sam9x5_wm8731: use devm_snd_soc_register_card()
-b82d0759a3b1e23d4247523c89bdfb27fffb6089 ASoC: imx-audio-rpmsg: use module_rpmsg_driver to simplify the code
-14aa731dbf464f7272bcc2f0c4f32f6de28cbe8c ASoC: dt-bindings: Convert imx-audmux binding to json schema
-d66e033910593d99700cd9e2a75698395fcd676f ASoC: rsnd: check for zero node count
-28b170110a7683ee12af7e81f1b5868bc7fcb62f ASoC: fsl: imx-es8328: use devm_snd_soc_register_card()
-81aad47278539f02de808bcc8251fed0ad3d6f55 ASoC: img: Fix PM reference leak in img_i2s_in_probe()
-f3b3bceb859c76a91ddd43c602428e4451598b3d Merge series "ASoC: rsnd: tidyup adg and header" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-
---===============3402090533228035253==--
+--===============3863121196132865942==--
