@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 03 Jun 2021 12:47:25 -0000
-Message-Id: <162272444540.27186.15523798045966161274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Thu, 03 Jun 2021 12:47:59 -0000
+Message-Id: <162272447900.27455.17798630698686639298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: 9537e476517f1fd8f2e9ae1469b101baa08e3151
-    new: 7bb4870abf84866bdd40f712dad5e061ef02c9b5
+  - ref: refs/heads/fixes
+    old: d638a4b75da24572cf4866b3352d142d03eb9059
+    new: acbef0922c7db4f5ca57d6b5573f104baa485e88
     log: |
-         60fba46d6e7a6e5de4be2ea158aa6134ec7a161e ARM: dts: rockchip: remove #phy-cells from usbphy node rk3066/rk3188
-         7bb4870abf84866bdd40f712dad5e061ef02c9b5 Merge branch 'v5.14-armsoc/dts32' into for-next
-         
-  - ref: refs/heads/v5.14-armsoc/dts32
-    old: 2fd2300a9c17ee1c48b1b7a7fabbb90fd12a64f1
-    new: 60fba46d6e7a6e5de4be2ea158aa6134ec7a161e
-    log: |
-         60fba46d6e7a6e5de4be2ea158aa6134ec7a161e ARM: dts: rockchip: remove #phy-cells from usbphy node rk3066/rk3188
+         acbef0922c7db4f5ca57d6b5573f104baa485e88 dmaengine: ipu: fix doc warning in ipu_irq.c
          
