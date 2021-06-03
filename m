@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux-dt
-Date: Thu, 03 Jun 2021 07:29:11 -0000
-Message-Id: <162270535119.20372.8738943485832626378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 03 Jun 2021 07:41:19 -0000
+Message-Id: <162270607918.28477.8546512580491977575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux-dt
-user: tomba
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/multistream-milestone-3.1
-    old: e09d2d1c3d70be9ee253afad39e34fa3215c6653
-    new: 80071ad1d98393ff5d919deac50b07ffe90d7a68
+  - ref: refs/heads/for-linus
+    old: ae352822321d2e8eb17347ab4eb64e461bea6971
+    new: b8b90c17602689eeaa5b219d104bbc215d1225cc
     log: |
-         1b2c51c1380f85eff11b819c1d16f5412b9aa36b Add DRA76 EVM FPDLink overlay
-         80071ad1d98393ff5d919deac50b07ffe90d7a68 Add AM654x EVM FPDLink overlay
+         9c1fe96bded935369f8340c2ac2e9e189f697d5d ALSA: timer: Fix master timer notification
+         b8b90c17602689eeaa5b219d104bbc215d1225cc ALSA: hda: update the power_state during the direct-complete
+         
+  - ref: refs/heads/master
+    old: c6f9fdae731b214c067444969e4487078e2902b2
+    new: db3fd5db987a48d76165ba563ce27b02426318f7
+    log: |
+         9c1fe96bded935369f8340c2ac2e9e189f697d5d ALSA: timer: Fix master timer notification
+         b8b90c17602689eeaa5b219d104bbc215d1225cc ALSA: hda: update the power_state during the direct-complete
+         db3fd5db987a48d76165ba563ce27b02426318f7 Merge branch 'for-linus'
          
