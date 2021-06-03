@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 03 Jun 2021 07:41:19 -0000
-Message-Id: <162270607918.28477.8546512580491977575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 03 Jun 2021 08:04:44 -0000
+Message-Id: <162270748420.10754.16459161680112586182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linus
-    old: ae352822321d2e8eb17347ab4eb64e461bea6971
-    new: b8b90c17602689eeaa5b219d104bbc215d1225cc
+  - ref: refs/heads/for-next/scmi
+    old: 0cb7af474e0dbb2f500c67aa62b6db9fafa74de2
+    new: 0aa69c9fc80d777e1b31d59a00f4f2ad02491ec7
     log: |
-         9c1fe96bded935369f8340c2ac2e9e189f697d5d ALSA: timer: Fix master timer notification
-         b8b90c17602689eeaa5b219d104bbc215d1225cc ALSA: hda: update the power_state during the direct-complete
-         
-  - ref: refs/heads/master
-    old: c6f9fdae731b214c067444969e4487078e2902b2
-    new: db3fd5db987a48d76165ba563ce27b02426318f7
-    log: |
-         9c1fe96bded935369f8340c2ac2e9e189f697d5d ALSA: timer: Fix master timer notification
-         b8b90c17602689eeaa5b219d104bbc215d1225cc ALSA: hda: update the power_state during the direct-complete
-         db3fd5db987a48d76165ba563ce27b02426318f7 Merge branch 'for-linus'
+         74ece7309717a8241ac0eafe26087361e5c71b34 firmware: arm_scmi: Fix the build when CONFIG_MAILBOX is not selected
+         21f4a5632e94206a6e63f909e9c486c7d9f362d1 firmware: arm_scpi: Add compatibility checks for shmem node
+         0aa69c9fc80d777e1b31d59a00f4f2ad02491ec7 firmware: arm_scmi: Add compatibility checks for shmem node
          
