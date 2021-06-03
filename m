@@ -1,84 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============5740401181565556403=="
+Content-Type: multipart/mixed; boundary="===============5038999852504160531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 03 Jun 2021 00:33:33 -0000
-Message-Id: <162268041347.19258.38358063020107827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 03 Jun 2021 00:47:00 -0000
+Message-Id: <162268122004.27664.3806454194719799094@gitolite.kernel.org>
 
---===============5740401181565556403==
+--===============5038999852504160531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/dev-queue
-    old: 20cd90b08710c1135740606997c392b1b020239c
-    new: bd8a54e78190ca960a22f94d5bdbadebf7af9219
-    log: revlist-20cd90b08710-bd8a54e78190.txt
+  - ref: refs/heads/clk-next
+    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+    new: f439944a1d1346c910ee8f700a4c963e9cf9bd8c
+    log: revlist-6efb943b8616-f439944a1d13.txt
+  - ref: refs/heads/clk-qcom
+    old: 0000000000000000000000000000000000000000
+    new: ec7e22abec97b6bd577027380077ec395864a3c5
+  - ref: refs/heads/clk-renesas
+    old: 0000000000000000000000000000000000000000
+    new: 6435c49913949f88590271a025db0bea491f6e96
+  - ref: refs/heads/clk-sifive
+    old: 0000000000000000000000000000000000000000
+    new: 06abc7537686ad013825bef6aa0f03fd484ca5ad
+  - ref: refs/heads/clk-versatile
+    old: 0000000000000000000000000000000000000000
+    new: 419b3ab6987f2a108cc4710030184365b17467ac
 
---===============5740401181565556403==
+--===============5038999852504160531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20cd90b08710-bd8a54e78190.txt
+Content-Disposition: attachment; filename=revlist-6efb943b8616-f439944a1d13.txt
 
-d8ec92005f806dfa7524e9171eca707c0bb1267e net/mlx5e: Fix incompatible casting
-b38742e41177c339e891b74f3925862fa36debb1 net/mlx5e: Disable TLS offload for uplink representor
-5940e64281c09976ce2b560244217e610bf9d029 net/mlx5: Check firmware sync reset requested is set before trying to abort it
-afe93f71b5d3cdae7209213ec8ef25210b837b93 net/mlx5e: Check for needed capability for cvlan matching
-2a2c84facd4af661d71be6e81fd9d490ac7fdc53 net/mlx5e: Fix adding encap rules to slow path
-256f79d13c1d1fe53b2b31ab2089b615bbfcd361 net/mlx5e: Fix HW TS with CQE compression according to profile
-5349cbba754ee54f6cca8b946aa9172f1ac60b8c net/mlx5e: Fix conflict with HW TS and CQE compression
-216214c64a8c1cb9078c2c0aec7bb4a2f8e75397 net/mlx5: DR, Create multi-destination flow table with level less than 64
-dd62766239d54e00201a6a75b6b348f816bb96af Merge tag 'mlx5-fixes-2021-06-01' of git://git.kernel.org/pub/scm/linu x/kernel/git/saeed/linux
-b508d5fb69c2211a1b860fc058aafbefc3b3c3cd net: ipconfig: Don't override command-line hostnames or domains
-ab00f3e051e851a8458f0d0eb1bb426deadb6619 net: stmmac: fix issue where clk is being unprepared twice
-faf85a3f615f3d0135d6b4878a7f3384bcf04cda checkpatch: Fix warnings when --no-tree is used
-bf26e7b2274d801da99472446351ee267273c736 checkpatch.pl: seed camelcase from the provided kernel tree root
-bceb8b3ec143c929cd1b052166d8f6d2718672e7 ice: Fix a couple off by one bugs
-ce8c467820c3cc0d716bf562196a3298c6f75337 iavf: Fix asynchronous tasks during driver remove
-f7d29a12ca2ce4c876e2e605776fd16c1d90d048 i40e: Fix correct max_pkt_size on VF RX queue
-24c87250736e5ff2ad836d6d30e0bb01289282be iavf: Fix return of set the new channel count
-528922d0ba1d76eb3497549994163b539d258911 i40e: Fix NULL ptr dereference on VSI filter sync
-6c4689a47b000d81fa3f9679104b5361af32c3c3 ice: Fix allowing VF to request more/less queues via virtchnl
-c6ed54534f0e866a13d66feb7d3937498fc04e36 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-e2c467e9f710d286d8208cefc1fa74e8311c7e95 ice: Fix VF true promiscuous mode
-6cafbdb45dd24700f293fb0ecaf823a3b1166c9d ice: handle the VF VSI rebuild failure
-e2db6ebb6db8afccc8681fba26b9a1aa48091f58 i40e: Fix error handling in i40e_vsi_open
-bc0ab2a30a1732028045425d7c8ddc437355d289 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-761c0a55fc031ff61dbe287752b4c3e0351c825f i40e: improve locking of mac_filter_hash
-e1a01b71466e11de51795ee2d68acca42c7cd7e6 i40e: Fix autoneg disabling for non-10GBaseT links
-c16bccfcafb7fa3ec591b85bd1bc484b45e49393 igb: Check if num of q_vectors is smaller than max before array access
-dcdf7dfd0416fb899b45638cc33976a23944d83d ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
-08501e812b0a424e710065f2309341942f651c73 ice: track AF_XDP ZC enabled queues in bitmap
-3ffdd6cd3e68a5e5136752327ba0ec620cbd9957 i40e: Fix warning message and call stack during rmmod i40e driver
-0f2a1a60c8029656e5ddd7be5495d5a558583219 i40e: Fix logic of disabling queues
-58a7bf57239a2019d3c41cc1345dff17677a2e95 igb: Fix XDP with PTP enabled
-d84a1ea337f5ba235fbc8b296a2b27214e5488a0 ice: Remove toggling of antispoof for VF trusted promiscuous mode
-efedfa18a63689c3e168991856e5188905c28f38 ice: report supported and advertised autoneg using PHY capabilities
-86a3e380bdf1567e11ad7380e7556e9e77d2e67f ice: Allow all LLDP packets from PF to Tx
-ac66622c34eb6ae0c9435f2036339575d5c09913 ice: fix FDIR init missing when reset VF
-f5be9082d6153783a76d16bc437e54cbc7b7b233 igb: fix netpoll exit with traffic
-71e6d5528bb0129b6a1606c1f8917c064507c4ab i40e: fix PTP on 5Gb links
-e0ccbfab538d9dd2522003bea521523a74de4345 i40e: add correct exception tracing for XDP
-bf23c59079c5dbcdc6cef7949c166015001a21b2 ice: add correct exception tracing for XDP
-7ec0272c4ca904d75603208ab5c850fb1c4c8692 ixgbe: add correct exception tracing for XDP
-05e36ebcf46521c9986aba5c83647c8fe2cc27b1 igb: add correct exception tracing for XDP
-2aa025407a34c528f0f3243ea0288995dd815b9e ixgbevf: add correct exception tracing for XDP
-15330218cb64b40df163f2f43b246cc6b7512383 igc: add correct exception tracing for XDP
-76a60ede765e5f70453fb47f5145290fc01b5449 igc: Fix user-after-free error during reset
-6fe351517706d45eceeba801d948fc67a3daaa67 igb: Fix user-after-free error during reset
-a997b3c53cbec28228630ceec4e8367e2c8cd9cf i40e: Fix failed opcode appearing if handling messages from VF
-ff9bda25a61053a62e9ae9bdadeeaebc2d6887d5 virtchnl: Add missing padding to virtchnl_proto_hdrs
-a325f6fd49e9e5210198db793f7eebce7bd1f420 ice: add ndo_bpf callback for safe mode netdev ops
-552df7d1a485e6e1bfe6b9744fb9bfde20c90ad0 ice: parameterize functions responsible for Tx ring management
-d717da1a2312ecc55b521088ac86c892f5797939 i40e: Fix firmware LLDP agent related warning
-8bcc32eb29dff1cf5d2fab2839cc4f930978fa5e igc: change default return of igc_read_phy_reg()
-45be1b03924a430d1583af2725360898a3de00c2 ixgbe: Fix packet corruption due to missing DMA sync
-bd8a54e78190ca960a22f94d5bdbadebf7af9219 i40e: Fix queue-to-TC mapping on Tx
+192c344e7cd4e19a4260752604ba219ffa41deb1 clk: renesas: rcar-gen3: Update Z clock rate formula in comments
+58effcd350c81735154313aa49b1c0801fdb04a2 clk: renesas: rcar-gen3: Make cpg_z_clk.mask u32
+c141897caafb4754b6ef862a67c87b8feed4d921 clk: renesas: rcar-gen3: Remove superfluous masking in cpg_z_clk_set_rate()
+67a1b9b65165bd3204adef13f0d557b5705116b4 clk: renesas: rcar-gen3: Grammar s/dependent of/dependent on/
+50086045bd07a9bc55c113f2b19a8f3746c9f9b0 clk: renesas: rcar-gen3: Increase Z clock accuracy
+3f70795636853214fd941d3ffe0a9701176cb8ba clk: renesas: rcar-gen3: Add custom clock for PLLs
+3a0e84845891eebccce767b4f8cd5ed1b9bffc14 clk: renesas: rcar-gen3: Add boost support to Z clocks
+16927401d92401b8f1fe6b57707e08271347ee80 clk: renesas: r8a779a0: Add ISPCS clocks
+a20a40a8bbc2cf4b29d7248ea31e974e9103dd7f clk: renesas: rcar-usb2-clock-sel: Fix error handling in .probe()
+6c7bc7dbcc4122745a214134749a0b1ab2658c80 clk: renesas: div6: Use clamp() instead of clamp_t()
+23b04c84e201e82c1929144a2ce1442bd64e77f3 clk: renesas: div6: Simplify src mask handling
+c9d1b58b272e272fc7121929e2d0e0755ea1656e clk: renesas: div6: Switch to .determine_rate()
+1c924fc679123e6057239693d226c8d8c5780626 clk: renesas: div6: Consider all parents for requested rate
+02c69593e62d51dd6b29b58724a6947ba72074f0 clk: renesas: div6: Implement range checking
+6bd913f54f2f1973e741c6cf36b90175e8963175 clk: renesas: r9a06g032: Switch to .determine_rate()
+7f891faf596ede96dd209b2257abf9df636b481f clk: qcom: clk-rcg2: Add support for duty-cycle for RCG
+682b108ba598e36d8232c9df14d41b3e9993784f clk: renesas: cpg-mssr: Remove unused [RM]MSTPCR() definitions
+3f6ecaf1cad98b266ba3eea4691a71c9ccac8076 clk: renesas: cpg-mssr: Make srstclr[] comment block consistent
+790c06cc5df263cdaff748670cc65958c81b0951 clk: renesas: r8a77995: Add ZA2 clock
+86881de4939a4d14d773de006de2292fd86b6a08 clk: qcom: Simplify usage of dev_err_probe()
+15abefda7fde690b7091ac5854135da41c7f759c clk: qcom: cleanup some dev_err_probe() calls
+e8f859f8dc63fc046c1ee09e59c23bc690819076 Merge branch 'clk-qcom' into clk-next
+419b3ab6987f2a108cc4710030184365b17467ac clk: versatile: remove dependency on ARCH_*
+497a76f6cd02b5b54055e546f5191cec5c664374 Merge branch 'clk-versatile' into clk-next
+6435c49913949f88590271a025db0bea491f6e96 Merge tag 'renesas-clk-for-v5.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
+9cac4f755407830b1d864b83ada2694df6a10649 Merge branch 'clk-renesas' into clk-next
+c37f1cdd1fc9b128f254c9fb3ec81d0df3cc6117 clk: sifive: Fix kernel-doc
+06abc7537686ad013825bef6aa0f03fd484ca5ad clk: analogbits: fix doc warning in wrpll-cln28hpc.c
+73273b7a1d34c86f0a1a1af5e2a9fd8518cde0a7 Merge branch 'clk-sifive' into clk-next
+6faa7e4ddce6ddd5e93b0e521537e0360c7dac2b dt-bindings: clock: Add MDM9607 GCC clock bindings
+48b7253264eadc05a3d84db9ea11eef528a0108a clk: qcom: Add MDM9607 GCC driver
+52a436e0b7fe00e3f23fa8a7c757ee7a6fbcf3e9 clk: qcom: smd-rpm: Switch to parent_data
+a0384ecfe2aa8f3da7a845dbe9e13c8d38e14ffd clk: qcom: smd-rpm: De-duplicate identical entries
+8ff48c82df66bf8864070922b9d7ddcfd8ab2918 clk: qcom: dispcc-sm8250: Add sc8180x support
+2ebdd326d19954c4705bf4417f33e765bff70c8e clk: qcom: dispcc-sm8250: Add EDP clocks
+ec7e22abec97b6bd577027380077ec395864a3c5 dt-bindings: clock: qcom: rpmcc: Document MSM8226 compatible
+f439944a1d1346c910ee8f700a4c963e9cf9bd8c Merge branch 'clk-qcom' into clk-next
 
---===============5740401181565556403==--
+--===============5038999852504160531==--
