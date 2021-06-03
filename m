@@ -1,49 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3066799916785191399=="
+Content-Type: multipart/mixed; boundary="===============2936707856663094777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 03 Jun 2021 18:38:40 -0000
-Message-Id: <162274552031.7595.17082348476670569343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 03 Jun 2021 18:38:58 -0000
+Message-Id: <162274553800.7833.2293736524907035613@gitolite.kernel.org>
 
---===============3066799916785191399==
+--===============2936707856663094777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 8df4fb4ae8f416aa90bdc85eb9f095453f5fd05a
-    new: c3c945a3b6a9a98341f38954cf0295cf7eb8d633
+    old: 7ddc37efc1481116ad7014e57ef675051845ea7d
+    new: 3fdda0a2ec2bc839e5a3e01ab89466af2dcdeb48
     log: |
-         50bec7fb4cb1bcf9d387046b6dec7186590791ec regulator: hi6421v600: Fix .vsel_mask setting
-         cb2381cbecb81a8893b2d1e1af29bc2e5531df27 regulator: rt4801: Fix NULL pointer dereference if priv->enable_gpios is NULL
-         c3c945a3b6a9a98341f38954cf0295cf7eb8d633 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+         d38fa9a155b2829b7e2cfcf8a4171b6dd3672808 spi: stm32-qspi: Always wait BUSY bit to be cleared in stm32_qspi_wait_cmd()
+         058d24b0ace2c917de37410adebe4c520384489d Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+         3fdda0a2ec2bc839e5a3e01ab89466af2dcdeb48 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 88a0f637b67bf8e05971b5baebfe550c37b8d413
-    new: 55ef1590c8947bd39961bf9e1c273313c5c5388a
-    log: revlist-88a0f637b67b-55ef1590c894.txt
+    old: e1cb4e6408f5975931e2f94d6bec854332f1d34d
+    new: e7cacae458b5918281143674489b5b588a5b41f6
+    log: revlist-e1cb4e6408f5-e7cacae458b5.txt
 
---===============3066799916785191399==
+--===============2936707856663094777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88a0f637b67b-55ef1590c894.txt
+Content-Disposition: attachment; filename=revlist-e1cb4e6408f5-e7cacae458b5.txt
 
-50bec7fb4cb1bcf9d387046b6dec7186590791ec regulator: hi6421v600: Fix .vsel_mask setting
-8f4ef0788c68bf99370a91df5cb83f90d707583e regulator: max77802: Remove .set_ramp_delay from max77802_buck_dvs_ops
-8cdded982a6cf95d5ed7e3a014fb3d8dde6b3a94 regulator: max77802: Convert to use regulator_set_ramp_delay_regmap
-30b38b805b36c03db3703ef62397111c783b5f3b regulator: fan53555: Fix missing slew_reg/mask/shift settings for FAN53526
-b61ac767db4d62540732cdac9f1820e56b9a5008 regulator: fan53555: Convert to use regulator_set_ramp_delay_regmap
-6041d5fe512cd6ceaf730cdfa1786f2bc9b5b1b5 regulator: bd9576: Constify the voltage tables
-1623d767c7ec563d6e52ab76426377bfdde68f97 regulator: rt6245: Add the binding document for Richtek RT6245
-a747070e9b629eeb70118651dfbd500bf8bb5ebe regulator: rt6245: Add support for Richtek RT6245
-cb2381cbecb81a8893b2d1e1af29bc2e5531df27 regulator: rt4801: Fix NULL pointer dereference if priv->enable_gpios is NULL
-c3c945a3b6a9a98341f38954cf0295cf7eb8d633 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
-55ef1590c8947bd39961bf9e1c273313c5c5388a Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
+d38fa9a155b2829b7e2cfcf8a4171b6dd3672808 spi: stm32-qspi: Always wait BUSY bit to be cleared in stm32_qspi_wait_cmd()
+c955a0cc8a286e5da1ebb88c19201e9bab8c2422 spi: spi-mem: add automatic poll status functions
+8941cd8d295e40f8ea1c0a5045d6d068b8e33eec mtd: spinand: use the spi-mem poll status APIs
+86d1c6bbae32122c5f703b2d8acccf5d4258f2bb spi: stm32-qspi: add automatic poll status feature
+5fa5e6dec762305a783e918a90a05369fc10e346 spi: atmel: Switch to transfer_one transfer method
+4abd641501663493764949f045ebf9f8c0da0307 spi: atmel: Reduce spin lock usage
+627bad89ce55ae539a16a6cc21edb12468fe82e3 Merge series "MTD: spinand: Add spi_mem_poll_status() support" from <patrice.chotard@foss.st.com> Patrice Chotard <patrice.chotard@foss.st.com>:
+058d24b0ace2c917de37410adebe4c520384489d Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+3fdda0a2ec2bc839e5a3e01ab89466af2dcdeb48 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+e7cacae458b5918281143674489b5b588a5b41f6 Merge remote-tracking branch 'spi/for-5.14' into spi-next
 
---===============3066799916785191399==--
+--===============2936707856663094777==--
