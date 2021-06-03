@@ -1,21 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 02 Jun 2021 23:45:00 -0000
-Message-Id: <162267750099.20003.15667078937614095207@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0778212457452536394=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 03 Jun 2021 00:33:19 -0000
+Message-Id: <162268039935.19118.17612691871574616853@gitolite.kernel.org>
+
+--===============0778212457452536394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dev
-    old: b887f1d6b7b7d9248580bcbcf9d77e94ce7cc147
-    new: 6203fb6af636b551040a827b3ac24f1e8c870997
-    log: |
-         9a64e4b5d72c5b2b2ea42e0bd6054f2d2eebc271 locktorture: Mark statistics data races
-         5e1b7c5614945c08ff07454f927eebbc76aa5e1a locktorture: Count lock readers
-         6203fb6af636b551040a827b3ac24f1e8c870997 srcutiny: Mark read-side data races
-         
+  - ref: refs/heads/master
+    old: b000372627ce9dbbe641dafbf40db0718276ab77
+    new: ab00f3e051e851a8458f0d0eb1bb426deadb6619
+    log: revlist-b000372627ce-ab00f3e051e8.txt
+
+--===============0778212457452536394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b000372627ce-ab00f3e051e8.txt
+
+d8ec92005f806dfa7524e9171eca707c0bb1267e net/mlx5e: Fix incompatible casting
+b38742e41177c339e891b74f3925862fa36debb1 net/mlx5e: Disable TLS offload for uplink representor
+5940e64281c09976ce2b560244217e610bf9d029 net/mlx5: Check firmware sync reset requested is set before trying to abort it
+afe93f71b5d3cdae7209213ec8ef25210b837b93 net/mlx5e: Check for needed capability for cvlan matching
+2a2c84facd4af661d71be6e81fd9d490ac7fdc53 net/mlx5e: Fix adding encap rules to slow path
+256f79d13c1d1fe53b2b31ab2089b615bbfcd361 net/mlx5e: Fix HW TS with CQE compression according to profile
+5349cbba754ee54f6cca8b946aa9172f1ac60b8c net/mlx5e: Fix conflict with HW TS and CQE compression
+216214c64a8c1cb9078c2c0aec7bb4a2f8e75397 net/mlx5: DR, Create multi-destination flow table with level less than 64
+dd62766239d54e00201a6a75b6b348f816bb96af Merge tag 'mlx5-fixes-2021-06-01' of git://git.kernel.org/pub/scm/linu x/kernel/git/saeed/linux
+b508d5fb69c2211a1b860fc058aafbefc3b3c3cd net: ipconfig: Don't override command-line hostnames or domains
+ab00f3e051e851a8458f0d0eb1bb426deadb6619 net: stmmac: fix issue where clk is being unprepared twice
+
+--===============0778212457452536394==--
