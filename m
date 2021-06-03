@@ -1,27 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 03 Jun 2021 03:27:38 -0000
-Message-Id: <162269085877.5536.4564587957255247350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/fsverity-utils
+Date: Thu, 03 Jun 2021 04:44:40 -0000
+Message-Id: <162269548053.21605.17615361604648482725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/ebiggers/fsverity-utils
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 825bd5dacb98597a5595b470bd275bb103a7b9c2
-    new: 7ae2585b865add6488510c3d257910d8f5f7ae76
-    log: |
-         a9c3d70d902a0473ee5c13336317006a52ce8242 configure: add options ability
-         7ae2585b865add6488510c3d257910d8f5f7ae76 configure: convert LIBBPF environment variables to command-line options
-         
-  - ref: refs/heads/master
-    old: 825bd5dacb98597a5595b470bd275bb103a7b9c2
-    new: 7ae2585b865add6488510c3d257910d8f5f7ae76
-    log: |
-         a9c3d70d902a0473ee5c13336317006a52ce8242 configure: add options ability
-         7ae2585b865add6488510c3d257910d8f5f7ae76 configure: convert LIBBPF environment variables to command-line options
-         
+  - ref: refs/heads/dev
+    old: 0000000000000000000000000000000000000000
+    new: c1fe95d1b536ca1e1cda9ea07f29ed7b1e703b48
