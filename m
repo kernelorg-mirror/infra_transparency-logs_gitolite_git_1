@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3863121196132865942=="
+Content-Type: multipart/mixed; boundary="===============3550964076797604969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 03 Jun 2021 18:37:33 -0000
-Message-Id: <162274545312.6618.6545368214257307434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 03 Jun 2021 18:37:41 -0000
+Message-Id: <162274546119.6758.14559044943581812884@gitolite.kernel.org>
 
---===============3863121196132865942==
+--===============3550964076797604969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: bc537e65b09a05923f98a31920d1ab170e648dba
     new: cb2381cbecb81a8893b2d1e1af29bc2e5531df27
     log: |
          50bec7fb4cb1bcf9d387046b6dec7186590791ec regulator: hi6421v600: Fix .vsel_mask setting
          cb2381cbecb81a8893b2d1e1af29bc2e5531df27 regulator: rt4801: Fix NULL pointer dereference if priv->enable_gpios is NULL
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/regulator-5.14
     old: ba499a50ce5846dd6f7a6df92c1f01d4201b5cce
     new: a747070e9b629eeb70118651dfbd500bf8bb5ebe
     log: |
@@ -36,29 +36,29 @@ changes:
          a747070e9b629eeb70118651dfbd500bf8bb5ebe regulator: rt6245: Add support for Richtek RT6245
          
 
---===============3863121196132865942==
+--===============3550964076797604969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622745441 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1622745450-4461b04a7fd9c9fd82d596e692db1e913f7c38b1
+pusher C3F436CA30F5D8EB 1622745449 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1622745458-c0a1edac26f92fb7c09cbc95a644d0a0b5928d00
 
-bc537e65b09a05923f98a31920d1ab170e648dba cb2381cbecb81a8893b2d1e1af29bc2e5531df27 refs/heads/for-5.13
-ba499a50ce5846dd6f7a6df92c1f01d4201b5cce a747070e9b629eeb70118651dfbd500bf8bb5ebe refs/heads/for-5.14
+bc537e65b09a05923f98a31920d1ab170e648dba cb2381cbecb81a8893b2d1e1af29bc2e5531df27 refs/heads/regulator-5.13
+ba499a50ce5846dd6f7a6df92c1f01d4201b5cce a747070e9b629eeb70118651dfbd500bf8bb5ebe refs/heads/regulator-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC5IWEACgkQJNaLcl1U
-h9BLIgf+ONOdjU3Qx5CVtA0pLrtwcFj8IJ+zvGZ5hH2cOTUvkuOAPk5iknTu9cUV
-bwMk07TkuLb54rM0IDtwRKXh0V7/moKtv15onRLKu5rSXdJSgc6cLaOZaLsFoI1v
-bMbEVdXD2ZCUEUqlhRmi92y7TARXom7A/y+SHfQR4shSLikZm+vGpKAHs0ZyK8HI
-G3OJuqT4jP5KJLhFjqZ7JfGw/XVnwgRHXMSyFn1ztX1YSO8HvMV0OcYt+7/SlM4p
-TubMBekpFGhu2iRl9i617qZ4KE/1zn71QKKdm1QDUqhkFaj4OadjqZZKu2is7Rkq
-0ttsweo0yuwDc2PMb3pLSZemy6NzyQ==
-=lQHo
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC5IWkACgkQJNaLcl1U
+h9DN4Af+Nv4zqbnMwTtlLoEuKGokIPEyEXN75M2dXG7AFpL1IqWQlrsm9QFCm1Bk
+LDGpU1p25zbcOI2DhEcrEI8D5oELg3LEPxgnHCSC5sWfOYRHlHmZt+/w0T+FxBlX
+IGjv8TVXRlkppM03yTR3+gm51PRQDdYIoZ/Ah4p1xnkEH/TeiLxOflh92HW8ZLkZ
+2HFxrUdHS2Jb7SkSc1AGs1r1hJC91oxQ3FRYyExpEn3HsQpMFEY4XuLq8hCaQxcK
+zbx7bRPnBrb1WhQJ4HKPeXuE5eJDtETjjUQSI4Bv3F3YEXxruGGrYfKQ+gF+OHaC
+UDfMrb36RDpN/pvadPUrbeNcMQPvGA==
+=f86h
 -----END PGP SIGNATURE-----
 
---===============3863121196132865942==--
+--===============3550964076797604969==--
