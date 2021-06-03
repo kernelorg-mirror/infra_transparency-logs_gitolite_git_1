@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6612785897292711569=="
+Content-Type: multipart/mixed; boundary="===============3402090533228035253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 03 Jun 2021 18:37:18 -0000
-Message-Id: <162274543850.6340.697672600546436353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 03 Jun 2021 18:37:26 -0000
+Message-Id: <162274544601.6445.7628257319248844969@gitolite.kernel.org>
 
---===============6612785897292711569==
+--===============3402090533228035253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d
     new: 8bef925e37bdc9b6554b85eda16ced9a8e3c135f
     log: |
@@ -24,37 +24,37 @@ changes:
          d031d99b02eaf7363c33f5b27b38086cc8104082 ASoC: meson: gx-card: fix sound-dai dt schema
          8bef925e37bdc9b6554b85eda16ced9a8e3c135f ASoC: tas2562: Fix TDM_CFG0_SAMPRATE values
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: ae624a38be37e1a3127d5fa32c996e09974bb88d
     new: f3b3bceb859c76a91ddd43c602428e4451598b3d
     log: revlist-ae624a38be37-f3b3bceb859c.txt
 
---===============6612785897292711569==
+--===============3402090533228035253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622745426 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1622745435-3db3b4c8aee543c1028ee925f0c7beef04281c82
+pusher C3F436CA30F5D8EB 1622745433 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1622745442-79ec705e0a2dad60223250279b52279290cc4660
 
-19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d 8bef925e37bdc9b6554b85eda16ced9a8e3c135f refs/heads/for-5.13
-ae624a38be37e1a3127d5fa32c996e09974bb88d f3b3bceb859c76a91ddd43c602428e4451598b3d refs/heads/for-5.14
+19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d 8bef925e37bdc9b6554b85eda16ced9a8e3c135f refs/heads/asoc-5.13
+ae624a38be37e1a3127d5fa32c996e09974bb88d f3b3bceb859c76a91ddd43c602428e4451598b3d refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC5IVIACgkQJNaLcl1U
-h9Bvrgf8Ca1g96mCTDJeypFxS/Mi6PPSrqBerv+zGPq0HyV5wTegpVodWDNoLPxD
-qK6jhJLzAhV4xGdOrrIZQrl5iAuCRb+3xuxlVU2JaEv6eyibeKpL0vAm1IXlKsW0
-5Mpdliy9Q66jIBXKLN/cck0yntlIVaO2P56GoJack4d3XUcHr4T5jLvTaZkudLvd
-/q3YOAFtn5yRHyWRCZX+pKyTFDEsyrekZ1TO0JPtj5lntzqhQzTopB63yEXq7+2g
-I1mPEJklEwDK6AMjEzZUd7nzEvny5f1B06L1OWkY6jhnQwJ//snqXkdo+a5utb/V
-Gw2Lt9N5UrKFgZXtxHE0Rcri2ukUrw==
-=Mfec
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC5IVoACgkQJNaLcl1U
+h9DaAwgAhsEfZiXAX+piSVzyFG8z0ahvLluOlVCsEjeYdxcgciJYO8Byt8GcKird
+XZC57Rm2r0SB12CTBCrvCjsTLQqrH0HxT4zPc5zcpVlmd+t29CuUx9Mz/Ip5vPXH
+Z7tHxpB/t+LTPVId2Iw9xpe5bAf3q8BSjGNl1RM/7/2yPafU2Ab4YAm3eHvr6a2k
++eNF+TWcphgl/pAH3jzhnnLbIYW9HNNErCasQJuI9NYOP0P/o2lSkNhwvgMIbVhj
+NtTJAWfp0KYwiWcGIp6yd/lzqy8QIYzoOPTbUKrNTN7eW3TNaARy/b/nJbERmGqE
+j0nuN5GOEem6UitM+X4up4YjxQ9w+A==
+=ifWg
 -----END PGP SIGNATURE-----
 
---===============6612785897292711569==
+--===============3402090533228035253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ d66e033910593d99700cd9e2a75698395fcd676f ASoC: rsnd: check for zero node count
 81aad47278539f02de808bcc8251fed0ad3d6f55 ASoC: img: Fix PM reference leak in img_i2s_in_probe()
 f3b3bceb859c76a91ddd43c602428e4451598b3d Merge series "ASoC: rsnd: tidyup adg and header" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============6612785897292711569==--
+--===============3402090533228035253==--
