@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6094683887974570765=="
+Content-Type: multipart/mixed; boundary="===============8852096468957622164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 03 Jun 2021 18:07:41 -0000
-Message-Id: <162274366192.19208.5783592911617694835@gitolite.kernel.org>
+Date: Thu, 03 Jun 2021 18:08:01 -0000
+Message-Id: <162274368129.19424.1686326858913617531@gitolite.kernel.org>
 
---===============6094683887974570765==
+--===============8852096468957622164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 44160aafaee2ac4cf9abe86c43693452fca4d15d
+  - ref: refs/heads/testing
+    old: ce35d6f799ab751a2712338cd16a37f022b71f6c
     new: eb4e91f42fc9140b7e373675e03a21a7eaec68e3
-    log: revlist-44160aafaee2-eb4e91f42fc9.txt
+    log: revlist-ce35d6f799ab-eb4e91f42fc9.txt
 
---===============6094683887974570765==
+--===============8852096468957622164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44160aafaee2-eb4e91f42fc9.txt
+Content-Disposition: attachment; filename=revlist-ce35d6f799ab-eb4e91f42fc9.txt
 
 9504db5765e83cc919caf6647725f7d022874c9d iio: adc: tsc2046: fix a warning message in tsc2046_adc_update_scan_mode()
 af51ec8c9213ec502c3f5c9f5860dd98fceb3433 iio: hid: trigger: Balance runtime pm + use pm_runtime_resume_and_get()
@@ -57,4 +57,4 @@ ff9111ab3e1f01cad2318c6bc989c8bf51a570ac iio: adc: max11100: Use get_unaligned_b
 b711f687a1c1c14c2da589e84e4f61b975196951 counter: Add support for Intel Quadrature Encoder Peripheral
 eb4e91f42fc9140b7e373675e03a21a7eaec68e3 iio: accel: bma180: Add missing 500 Hz / 1000 Hz bandwidth
 
---===============6094683887974570765==--
+--===============8852096468957622164==--
