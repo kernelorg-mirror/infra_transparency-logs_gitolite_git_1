@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6881115276365109957=="
+Content-Type: multipart/mixed; boundary="===============6872777626888232840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 03 Jun 2021 01:59:51 -0000
-Message-Id: <162268559176.13881.8078742162985235713@gitolite.kernel.org>
+Date: Thu, 03 Jun 2021 01:59:59 -0000
+Message-Id: <162268559981.14039.1255900771424290435@gitolite.kernel.org>
 
---===============6881115276365109957==
+--===============6872777626888232840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dt/next
     old: 5eebde947d05b627cdb47f6a6851167622e99be3
     new: 67a3156453859ceb40dc4448b7a6a99ea0ad27c7
     log: revlist-5eebde947d05-67a315645385.txt
 
---===============6881115276365109957==
+--===============6872777626888232840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ e84881785ea915e9bcff5bf4ed07f6749084ab66 dt-bindings: reset: update ti,sci-reset
 c3c0dc75774b488770f33598109161040d291367 of: address: Use IS_ENABLED() for !CONFIG_PCI
 67a3156453859ceb40dc4448b7a6a99ea0ad27c7 of: Merge of_address_to_resource() and of_pci_address_to_resource() implementations
 
---===============6881115276365109957==--
+--===============6872777626888232840==--
