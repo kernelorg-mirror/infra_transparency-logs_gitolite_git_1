@@ -1,102 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============4396964680211851182=="
+Content-Type: multipart/mixed; boundary="===============3420642277729794301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 03 Jun 2021 14:52:14 -0000
-Message-Id: <162273193438.17230.13067236709118570364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Thu, 03 Jun 2021 14:59:05 -0000
+Message-Id: <162273234546.20872.9084744177961287526@gitolite.kernel.org>
 
---===============4396964680211851182==
+--===============3420642277729794301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/tmp.master
-    old: c917fb3c770ffaf467b4be4936050e82ca1bf925
-    new: 87681e463b4429962cf099508e1091087d4bbbd9
-    log: revlist-c917fb3c770f-87681e463b44.txt
+  - ref: refs/heads/dev
+    old: 6c0912739699d8e4b6a87086401bf3ad3c59502d
+    new: 7bbbf7c385ed724ed64a924062a81c3bf06ae2c6
+    log: |
+         a8867f4e3809050571c98de7a2d465aff5e4daf5 ext4: fix memory leak in ext4_mb_init_backend on error path.
+         b45f189a19b38e01676628db79cd3eeb1333516e ext4: fix accessing uninit percpu counter variable with fast_commit
+         b2676d0f31f211f622a8998268e4ce7c6e95ecf6 ext4: Fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
+         ff18aad7a89cb8c26b8a622b3e84d8d29e8ab119 ext4: fix fast commit alignment issues
+         70ac330690c7c11b8a3bc2eba6f825484bbc82ca ext4: fix memory leak in ext4_fill_super
+         946e59db46bc11f911d52c05ffc69b5bb7e564a6 ext4: fix no-key deletion for encrypt+casefold
+         7bbbf7c385ed724ed64a924062a81c3bf06ae2c6 ext4: Only advertise encrypted_casefold when encryption and unicode are enabled
+         
+  - ref: refs/heads/origin
+    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+    new: 6c0912739699d8e4b6a87086401bf3ad3c59502d
+    log: revlist-0d02ec6b3136-6c0912739699.txt
 
---===============4396964680211851182==
+--===============3420642277729794301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c917fb3c770f-87681e463b44.txt
+Content-Disposition: attachment; filename=revlist-0d02ec6b3136-6c0912739699.txt
 
-88528d94035d722861e626423e3f4d6960f5f31c libbtf: Remove unused btf_elf->raw_btf member
-51cb0088395e518cea65ca561a8490b5cb59eae6 btf_loader: Use btf__endianness() instead of to be removed btfe member
-ef7587f39fcb3e894880d0bf1e4d7d8af4b2cfe8 btf_elf: Remove unused is_big_endian member
-5b1e4317db6bad4620660e0085ca7a5b53b640a5 btf_loader: Use btf__pointer_size() to set cu->addr_size
-3121d246f505134e0e93f7b6bb0cd6927ff90174 btf_elf: Remove unused 'wordsize' member
-1aa8fa7ce6ecb996b29c1347f0bc3635172b1526 btf_encoder: Pass the base BTF object to the BTF encoder
-5792880e3c42020e0d90b538ab1606651d861a3f core: Allow passing the base_btf object via 'struct conf_load'
-0982f5764c85ad5d35cec5374b5d90d713d01f68 pahole: Set conf_load.btf_base when applicable
-80b73fcaefb189e6d66d977a5782b2a78e914880 btf_loader: Use conf_load->base_btf instead of the global btf_base var
-4884162ec53f354c4744832a962454325c6e2e91 pahole: Use conf_load->base_btf to call cu__encode_btf()
-19c7d03eb22a5f96ede5fab82a1153825e70384e libbtf: Remove the 'base_btf' global var, now unused
-1f0dba190eac29259a3f964a2623e3334f280921 btf_loader: Pass cu to the load_sections/types routines
-2d21870e4690e54cd8a0b75217b5ce2fb7e4fc1e btf_loader: Move load_ftype() from btfe to cu
-08994edab816ee994a7152c798ae760b3837aced btf_loader: Move create_new_function() from btfe to cu
-f247d93124c2bfcf6131061e6d94441aefee5953 btf_loader: Move create_new_int_type() from btfe to cu
-373400550b9f84425502d6d43c6fa23c912176ad btf_loader: Move create_new_float_type() from btfe to cu
-09265a5545af93a80594e86d7a401052db43e2b5 btf_loader: Move create_new_array() from btfe to cu
-cb35362cd1b465ce389bd149d55b21982d5dc1d6 btf_loader: The create_members() function doesn't need the btfe arg
-24e0b662aff777e6f84b455b6cf1c4fc107db060 btf_loader: Move create_new_class() from btfe to cu
-2c8934a2f58011e7a88a2e920948a940e45de0a9 btf_loader: Move create_new_union() from btfe to cu
-f53d6d3a8ab6d819749d21850c2e31e94a85f3a1 btf_loader: Move create_new_enumeration() from btfe to cu
-5201cf9c64bced41b66facfd1dd44bc8f1deaa17 btf_loader: Move create_new_subroutine_type() from btfe to cu
-5d13418d43ceb60152ec50f731fcb61e3b4d02ce btf_loader: Move create_new_forward_decl() from btfe to cu
-36c82ce5a6c71b8f5109aff84215614013f0892e btf_loader: Move create_new_typedef() from btfe to cu
-a1923e5179c358c8dfd8a4ac2ab89ced57387517 btf_loader: Move create_new_variable() from btfe to cu
-e9cc9c73e62f83f20396eb87697e5537da56aada btf_loader: Move create_new_datasec() from btfe to cu
-0ea61d6729e0d054ba1931812112e7ef38d040da btf_loader: Move create_new_tag() from btfe to cu
-7ddb731d8dd811ebd4f2e2171a75e913f66fe51c btf_loader: Move load_types() from btf_elf to btf
-7e1a5cc642dfddb3f22926609b399248abf88058 btf_loader: Move load_sections() from btf_elf to btf
-089cdf978a63c5d84b49a390ef8479626826ab7c btf_loader: Add a local 'btf' var to prep next patches
-f421a9ac5a03122e56af395631fa654c96acc9bf btf_elf: Remove unused btfe->priv member
-3ab53762d332837eae31d4444a7e208f92dcad5e btf_loader: class__fixup_btf_bitfields doesn'n need btfe parameter, ditch it
-bf23ba56f3f812c6f0099e51fe7e28f71cbc6b5b btf_loader: cu__fixup_btf_bitfields doesn'n need btfe parameter, ditch it
-5751c4f681bc1290a8b7e605620ff8aa891d4baf btf_loader: Stop using libbtf.h and the btf_elf class
-be1fab8a4ae8272f157276ad1582f0e507eea2f7 btf_encoder: Move printable_name() from btfe to btf
-2b8a23d009ddc3ba0743488e5b17b3b0236d29d6 libbtf: Remove unused btf_elf__load()
-4c98e91b4318b9b0f1e1f3ded4ba9beb4ddf8f3a libbtf: Ditch unused btf_elf__string() method
-5ac44ae23350f318d5dc97d2a4b428f3a0457514 btf_elf: No point in looking at the filename for /sys/kernel/btf in btf_elf__new()
-bbfdbf0cddebe2ccc1ab577d94f0e8725a179e2b btf_elf: No point in falling back to raw BTF in btf_new()
-f3ac8d00ad986f1c293cd00658dcd6a3c664bf44 btf_elf: Remove base_btf member, used only in the constructor
-a61f689e9499643b306f18f95065489f4e3d58ec btf_encoder: Remove 'elf' from btf_elf__int_encoding_str() name
-b3778c853456c6703e0db40142608c2732781e0d btf_encoder: Move log_err() from btf_elf to btf
-7ed377d24b1488d8a1a76602c80aca95b7b67124 btf_encoder: Move log_type() from btf_elf to btf
-95e5d74c1a8d5690fc64baab188f830b3dfc30df btf_encoder: Move log_member() from btf_elf to btf
-4c3e6f313b2aae548f9e6797d55f038dedcb0723 btf_encoder: bpf__log_func_param() doesn't need the btfe arg
-b10719fd6b08c635373e935fa118fdafd8ddedc1 btf_encoder: Move add_float_type() from btf_elf to btf encode_float_type()
-d7330eba8ff4d149e8e40e537e0c4c4f5eccbda3 btf_encoder: Move add_base_type() from btf_elf to btf encode_base_type()
-a0688288414605f14e81183401d08b0f4e5847cc btf_encoder: Move add_member() from btf_elf to btf encode_member()
-b83c1110d91cac613d0d894a041f1bc8c56642fd btf_encoder: Move add_ref_type() from btf_elf to btf encode_ref_type()
-db387dac6d30325e41f571982923ec069fefa487 btf_encoder: Move add_array() from btf_elf to btf encode_array()
-410f7895afa9797891656e531a0c7f41c3a665b3 btf_encoder: Move add_struct() from btf_elf to btf encode_struct()
-9f9c758b58a2f3377034f0f9884230d9e152a26c btf_encoder: Move add_enum() from btf_elf to btf encode_enum()
-a21edfc683d93e6713c840f9a21f111c532ebb7e btf_encoder: Move add_func_proto() from btf_elf to btf encode_func_proto()
-ba60e240e0e91bcc9dcb86987375385c02679793 btf_encoder: Move add_var_type() from btf_elf to btf encode_var_type()
-3fe27b01fc74ea89fdff56e64cd20a42d07a0060 btf_encoder: Move add_var_secinfo() from btf_elf to btf encode_var_secinfo()
-0c2eef97838680d8225f70fc909e30eb43cccc6e btf_encoder: Move add_datasec_type() from btf_elf to btf encode_datasec_type()
-7660240405040b181c4cec56b42c474467409ecf btf_encoder: Move encode_struct_type() from btf_elf to btf
-8f13c4d4daa559423f5f04dd8922629385a61151 btf_encoder: Move encode_enumeration_type() from btf_elf to btf
-b6a7ab05b2af8e1e2f60725fb0f7c20ad85c127b btf_encoder: Replace btfe with btf in tag__encode_btf()
-4d1c4ed82870bce05da3de3061645dd4d495155a btf_encoder: Introduce 'struct btf_encoder' to have all the current globals
-77457d695cf5545dd1e4fabe3a0ebf34b66d4410 btf_encoder: Move 'has_index_type' global variable to 'struct btf_encoder'
-202977e3cf5ae6423c19734c40f18f8e33f90682 btf_encoder: Make tag__encode_btf() its encode_tag() method
-dd4c7a231d2d7940090e089ae72bc5f8b2ba091d btf_encoder: Move 'need_index_type' global variable to 'struct btf_encoder'
-0e2a1bfa015052c28ffd74eb49eb0236ecdb77b1 btf_encoder: Adopt collect_symbol() as a btf_encoder method
-3dc6e50c13fc8a15d96a182251ed229ad3ba893b btf_encoder: Adopt collect_per_cpu_var() as a btf_encoder method
-481a5334dd5d7c31e7cbe6fcb407ff8bd8118923 btf_encoder: Adopt collect_function() as a btf_encoder method
-3964fc16e0dc1c365714d9d22b265a177e13576e btf_encoder: Move percpu vars global variables to btf_encoder class
-37fc18adb74204ec548fa5f62fbd8fdfa1d6b513 btf_encoder: Move 'array_index_id' global variable to 'struct btf_encoder'
-50105e3a1c1ff24f562bde5ffffa0a9009eb4a8e btf_encoder: Add a 'verbose' member for encoder specific logging requests
-59ef68d300fd2211ec0c75c995aabaf61276f779 btf_encoder: Move percpu members from btf_elf to btf_encoder
-33dde0d611c7e67e3b15724326a788d1548be73b btf_encoder: Move 'symtab' from btf_elf to btf_encoder
-87681e463b4429962cf099508e1091087d4bbbd9 btf_encoder: Move ELF's ehdr from btf_elf to btf_encoder
+4d93874b9e9ce582fd4401334c88eaf93b6dff43 ext4: use memcpy_from_page() in pagecache_read()
+bd256fda92efe97b692dc72e246d35fa724d42d8 ext4: use memcpy_to_page() in pagecache_write()
+d699ae4fc27496d01e8bc5ab2106bd79d1e7be92 ext4: updated locking documentation for journal_t
+3042b1b45c4106feff063932d4fd481c5009dbe1 Updated locking documentation for transaction_t
+6b3caab4ba9b2d290162e610810a946a33c65117 ext4: delete some unused tracepoint definitions
+400086d7c11327cfe1b1aa4487adceb41e82b4df ext4: remove unnecessary braces in fs/ext4/dir.c
+471fbbea7ff7061b2d6474665cb5a2ceb4fd6500 ext4: handle casefolding with encryption
+1ae98e295fa2577fb5e492200c58d10230e00e99 ext4: optimize match for casefolded encrypted dirs
+d556435156b7970b8ce61b355df558a5168927cc jbd2: avoid -Wempty-body warnings
+a149d2a5cabbf6507a7832a1c4fd2593c55fd450 ext4: fix check to prevent false positive report of incorrect used inodes
+67d25186046145748d5fe4c5019d832215e01c1e ext4: drop s_mb_bal_lock and convert protected fields to atomic
+b237e3044450fcabc6d63d8578b2fbc8237caba3 ext4: add ability to return parsed options from parse_options
+a6c75eaf11032f4a3d2b3ce2265a194ac6e4a7f0 ext4: add mballoc stats proc file
+4b68f6df105966f04f45f1eca0561b86f2b3551d ext4: add MB_NUM_ORDERS macro
+196e402adf2e4cd66f101923409f1970ec5f1af3 ext4: improve cr 0 / cr 1 group scanning
+f68f4063855903fd3a279e646451eab04db0655f ext4: add proc files to monitor new structures
+21175ca434c5d49509b73cf473618b01b0b85437 ext4: make prefetch_block_bitmaps default
+72ffb49a7b623c92a37657eda7cc46a06d3e8398 ext4: do not set SB_ACTIVE in ext4_orphan_cleanup()
+3cd461712cb450ea6aa8a8200f35f24eb296bfb2 ext4: delete redundant uptodate check for buffer
+ac2f7ca51b0929461ea49918f27c11b680f28995 ext4: always panic when errors=panic is specified
+f88f1466e2a2e5ca17dfada436d3efa1b03a3972 ext4: fix error code in ext4_commit_super
+6810fad956df9e5467e8e8a5ac66fda0836c71fa ext4: fix ext4_error_err save negative errno into superblock
+3b1833e92baba135923af4a07e73fe6e54be5a2f ext4: annotate data race in start_this_handle()
+83fe6b18b8d04c6c849379005e1679bac9752466 ext4: annotate data race in jbd2_journal_dirty_metadata()
+e1262cd2e68a0870fb9fc95eb202d22e8f0074b7 ext4: fix error return code in ext4_fc_perform_commit()
+3088e5a5153cda27ec26461e5edf2821e15e802c ext4: fix various seppling typos
+666245d9a436d9b98c975ca19d0a707d600d8666 ext4: fix trailing whitespace
+fcdf3c34b7abdcbb49690c94c7fa6ce224dc9749 ext4: fix debug format string warning
+4811d9929cdae4238baf5b2522247bd2f9fa7b50 ext4: allow the dax flag to be set and cleared on inline directories
+5afa7e8b70d65819245fece61a65fd753b4aae33 fs: fix reporting supported extra file attributes for statx()
+5899593f51e63dde2f07c67358bd65a641585abb ext4: Fix occasional generic/418 failure
+6c0912739699d8e4b6a87086401bf3ad3c59502d ext4: wipe ext4_dir_entry2 upon file deletion
 
---===============4396964680211851182==--
+--===============3420642277729794301==--
