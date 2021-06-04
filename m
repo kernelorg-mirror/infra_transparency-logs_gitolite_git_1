@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 04 Jun 2021 17:45:24 -0000
-Message-Id: <162282872488.26736.16940132124347474938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 04 Jun 2021 17:46:28 -0000
+Message-Id: <162282878855.27224.4390245869748533483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: zanussi
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/tags/v5.4.122-rt58
-    old: 0000000000000000000000000000000000000000
-    new: 06d7dffb84edbfd89661dd0d9acc290264a38a60
+  - ref: refs/heads/wip/jgg-for-next
+    old: 747d6e6ac9689b11a25f326b12d848696dab470d
+    new: d9926e63a2dc26256af6ca3a6f87920ab709ee0d
+    log: |
+         d9926e63a2dc26256af6ca3a6f87920ab709ee0d RDMA/cxgb4: Fix missing error code in create_qp()
+         
