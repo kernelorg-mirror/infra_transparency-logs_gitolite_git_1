@@ -1,50 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0849210336339070905=="
+Content-Type: multipart/mixed; boundary="===============8030780834883855085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 04 Jun 2021 16:28:12 -0000
-Message-Id: <162282409215.8934.11289984320397901601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 04 Jun 2021 16:28:34 -0000
+Message-Id: <162282411487.9211.42637162404025866@gitolite.kernel.org>
 
---===============0849210336339070905==
+--===============8030780834883855085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: 627bad89ce55ae539a16a6cc21edb12468fe82e3
-    new: 6829222b408f5aa5222c18ea3f492cac19fa9405
+  - ref: refs/heads/for-linus
+    old: 5ad906c936ddff6e183b0ec4b5d12dc4fd019759
+    new: f2aff9d54ff66cd9a23a0cb1e2a04206b8e8f06e
     log: |
-         6829222b408f5aa5222c18ea3f492cac19fa9405 spi: stm32-qspi: Fix W=1 build warning
+         49783c6f4a4f49836b5a109ae0daf2f90b0d7713 ASoC: rt5682: Fix the fast discharge for headset unplugging in soundwire mode
+         f2aff9d54ff66cd9a23a0cb1e2a04206b8e8f06e Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: 61cd091d922681d4b8a32f103f40c87de7d72164
+    new: 9cb7f0a9a1ef92bd433bd0515d2f3ae923f73b31
+    log: revlist-61cd091d9226-9cb7f0a9a1ef.txt
 
---===============0849210336339070905==
+--===============8030780834883855085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-61cd091d9226-9cb7f0a9a1ef.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1622824081 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1622824090-56439e753282273cf69c9449b317b2255c8aabe7
+49783c6f4a4f49836b5a109ae0daf2f90b0d7713 ASoC: rt5682: Fix the fast discharge for headset unplugging in soundwire mode
+50d790012a48f0f2f1dc8e4c214054283e529ae9 ASoC: ti: davinci-mcasp: Fix fall-through warning for Clang
+e78f36bc13591e8d23948996ab6d195f1efa8f40 ASoC: snd-soc-lpass requires REGMAP_MMIO
+c6d25d5786090edc7299b32160644bb2e468c25d ASoC: dt-bindings: wcd934x: add bindings for Headset Button detection
+0e5c9e7ff899808afa4e2b08c2e6ccc469bed681 ASoC: codecs: wcd: add multi button Headset detection support
+9fb9b1690f0ba6b2c9ced91facc1fc44f5a0d5c1 ASoC: codecs: wcd934x: add mbhc support
+c15d4b72098ca3055d98ce0d66127fe37a6a6361 ASoC: qcom: sdm845: add jack support for WCD934x
+ffb2df66ba8c65700e030fc6eeaa24b044c94e43 Merge series "ASoC: codecs: wcd934x: add Headset and button detection support" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
+f2aff9d54ff66cd9a23a0cb1e2a04206b8e8f06e Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+9cb7f0a9a1ef92bd433bd0515d2f3ae923f73b31 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
 
-627bad89ce55ae539a16a6cc21edb12468fe82e3 6829222b408f5aa5222c18ea3f492cac19fa9405 refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC6VJEACgkQJNaLcl1U
-h9Cfqgf+PUV+D+Tjo6+aPJ+4V2NlDtl7KnPdoddrDQ8DinokTcdcq2E3OzPDeXuS
-nglaP4YqZIkXwwszIEIocdXa/b8eHaKYa1FLDFilJ/CUpDgR1XAn5F9tDXRlvk4k
-PWFubo0VRiVF0y57qEDdk+WzjggDH3tHMFYjfBFDSqwG+xQSxh6wLE9eoewz1Vu5
-64EGrOXc5pn6ORrg3sWTgBOFdYk9FskvF0iRBMpMs4afJUQxH1b61DHTc8tXerqR
-bfRF9Ix4xfd3xgAIpbw+y6s4Ff6UwdI+1BZKq+EY6S1f9kxZ33TALujsy3yeKVNK
-WXmcQvUYvkALW0KpMSWBxNJ/C+4mJA==
-=Sb6K
------END PGP SIGNATURE-----
-
---===============0849210336339070905==--
+--===============8030780834883855085==--
