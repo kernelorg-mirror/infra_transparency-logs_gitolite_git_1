@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Fri, 04 Jun 2021 15:36:45 -0000
-Message-Id: <162282100557.7029.3866194493363185506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 04 Jun 2021 15:40:54 -0000
+Message-Id: <162282125439.9748.4793186812429198952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/for-merge-powerpc
-    old: 908050f52c73a6c111091d0c720d88083017923a
-    new: 245897ed65e402686a4b114ba618e935cb5c6506
+  - ref: refs/heads/master
+    old: 3ed5030900ecade5a98eacdf588b06f0ee110693
+    new: ffdd86607a107b7fb9c2464c300a5d98e440ef0b
     log: |
-         41509b2da647cd34b1331cc4756c8774b1e284eb powerpc/ps3: Add firmware version to sysfs
-         245897ed65e402686a4b114ba618e935cb5c6506 powerpc/ps3: Re-align DTB in image
+         a34499274e735bd4ac005baf5940eb55566bc76b dhcp-server: avoid using inet_aton()
+         ffdd86607a107b7fb9c2464c300a5d98e440ef0b AUTHORS: Mention Davide's contributions
          
