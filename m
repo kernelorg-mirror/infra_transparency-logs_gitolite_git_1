@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 04 Jun 2021 00:24:53 -0000
-Message-Id: <162276629386.7277.584269347147275292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Fri, 04 Jun 2021 01:01:56 -0000
+Message-Id: <162276851666.1801.16653897635565770001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/dev
-    old: 6203fb6af636b551040a827b3ac24f1e8c870997
-    new: 6604352253b40fb5d68b28fb51e1944331d0855e
+  - ref: refs/heads/mediatek-drm-next
+    old: 69777e6ca396f0a7e1baff40fcad4a9d3d445b7a
+    new: ec8747c52434b69cea2b18068e72f051e23d3839
     log: |
-         36c41d24412fce4be4f8d212968015bfd98b25df rcu: Mark lockless ->qsmask read in rcu_check_boost_fail()
-         b319bb9b21ff980d1307eb85914d6efba7841d82 torture: Enable KCSAN summaries over groups of torture-test runs
-         6604352253b40fb5d68b28fb51e1944331d0855e torture: Create KCSAN summaries for torture.sh runs
+         6385ed8eaa02190c3a6f9b18790ada785ebf5253 drm/mediatek: dpi: Add dual edge sample mode support
+         be63f6e8601ff21139da93623754717e92cbd8db drm/mediatek: dpi: Add output bus formats to driver data
+         ec8747c52434b69cea2b18068e72f051e23d3839 drm/mediatek: dpi: Add bus format negotiation
          
-  - ref: refs/tags/efi-urgent-2021-06-02
-    old: 0000000000000000000000000000000000000000
-    new: d89419405da5183c71157406464743334a7b36e5
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
