@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 04 Jun 2021 09:00:00 -0000
-Message-Id: <162279720071.19282.4618561904148406458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 04 Jun 2021 09:20:28 -0000
+Message-Id: <162279842878.17693.444202084542128420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: b0f157a9f35c4ec480474c881142cfc1c7848cb0
-    new: 9cfb301be710502720772b936d59579713d8b9dc
+  - ref: refs/heads/i2c/for-next
+    old: f879917af25f2c9e9b4a408c5f49aa3215e8594e
+    new: 435522343c317fff8904bedbb3471896c0f8a517
     log: |
-         9cfb301be710502720772b936d59579713d8b9dc clk: imx: scu: add enet rgmii gpr clocks
+         435522343c317fff8904bedbb3471896c0f8a517 drm/i915/selftests: Rename pm_ prefixed functions names
          
