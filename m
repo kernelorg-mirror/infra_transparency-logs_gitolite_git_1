@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0184244465811640497=="
+Content-Type: multipart/mixed; boundary="===============3453730728479940899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Jun 2021 14:33:43 -0000
-Message-Id: <162281722301.28908.13430804504318520795@gitolite.kernel.org>
+Date: Fri, 04 Jun 2021 14:33:53 -0000
+Message-Id: <162281723359.29068.9757290984635768102@gitolite.kernel.org>
 
---===============0184244465811640497==
+--===============3453730728479940899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: ab00f3e051e851a8458f0d0eb1bb426deadb6619
-    new: 1a8024239dacf53fcf39c0f07fbf2712af22864f
-    log: revlist-ab00f3e051e8-1a8024239dac.txt
+  - ref: refs/heads/dev-queue
+    old: bd8a54e78190ca960a22f94d5bdbadebf7af9219
+    new: 6e8c2146d352a16246b6db1d0c111929efe3e362
+    log: revlist-bd8a54e78190-6e8c2146d352.txt
 
---===============0184244465811640497==
+--===============3453730728479940899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab00f3e051e8-1a8024239dac.txt
+Content-Disposition: attachment; filename=revlist-bd8a54e78190-6e8c2146d352.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 d874e6c06952382897d35bf4094193cd44ae91bd mt76: mt7921: fix possible AOOB issue in mt7921_mcu_tx_rate_report
@@ -70,5 +70,40 @@ d7736958668c4facc15f421e622ffd718f5be80a net/x25: Return the correct errno code
 821bbf79fe46a8b1d18aa456e8ed0a3c208c3754 ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
 e31d57ca146bbd0a7deb7ad8c3380ffa4358e85c Merge tag 'ieee802154-for-davem-2021-06-03' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
 1a8024239dacf53fcf39c0f07fbf2712af22864f virtio-net: fix for skb_over_panic inside big mode
+121f3c8f0d0d70d526076a4084adf070851db91e checkpatch: Fix warnings when --no-tree is used
+4601b12b55a6cf0b55640d2a0bd026c00b4bc835 checkpatch.pl: seed camelcase from the provided kernel tree root
+5ff7488ff13e6da05d2b7cd2c86e759e952b99d3 ice: Fix a couple off by one bugs
+a4ec63a0707b0326d4a601c315de238e99a0cc9a iavf: Fix asynchronous tasks during driver remove
+dd010dc5155a3a2c0ee3de1efedc72cef7bb15a2 i40e: Fix correct max_pkt_size on VF RX queue
+0ded1e84401ae7a26512475a6f7101ea4658fb94 iavf: Fix return of set the new channel count
+dc7d5edfa340537b2dfe7482338a5691e2dbcda9 i40e: Fix NULL ptr dereference on VSI filter sync
+a3b2f3c69e02c9f2507812867bbd7c0bb096a51c ice: Fix allowing VF to request more/less queues via virtchnl
+4d98f170408be352691483c0aa9fc75a00680152 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+f778457fe5e69f65c057775d6d615acb28e1b622 ice: Fix VF true promiscuous mode
+926e1c2e0532d81b6a6d39640a4d4102d8945e7f ice: handle the VF VSI rebuild failure
+15442f012e5afaedac3d65aa494d0ac2e25ef06f i40e: Fix error handling in i40e_vsi_open
+a52dc3441ac1c1d7e6e44102d031c56d98182e9a i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+9acebba7f002c19ae7ca8f81248ea307d88bb820 i40e: improve locking of mac_filter_hash
+4711b3d43eb884f1e66107290c2047d9e1feddbf i40e: Fix autoneg disabling for non-10GBaseT links
+1c9d3640a9a75e65568414f5a47b4c15aaeb6696 igb: Check if num of q_vectors is smaller than max before array access
+a5782122ba3f338a664ea88221e2b2612ad940dd ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+27b0bda5815b2e2d99a21ed7fa04013b091437b4 i40e: Fix warning message and call stack during rmmod i40e driver
+f1fc185610f03391a95bc463537f3185492d1ed6 i40e: Fix logic of disabling queues
+8db9185fd44723d88b01abad35398153fa3a37b2 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+b3d74f3c75327597b71b67aaf7b15bc2caa05872 ice: report supported and advertised autoneg using PHY capabilities
+b3411589734698f6551974fae4db85a6a88bf404 ice: Allow all LLDP packets from PF to Tx
+bd002dea6390b4916e2a659639aafba152c9d0f8 ice: fix FDIR init missing when reset VF
+e3b168f30c85746ecfb0974d7fd834844b902e36 igb: fix netpoll exit with traffic
+2df3dc5b53db6b8f26365d9a28a8fbaafc579b20 i40e: fix PTP on 5Gb links
+61f0e2898fc67a71a98bbddc953d25079ff15981 igc: Fix user-after-free error during reset
+d5928af11e83c94a05302223f362cc517e3755fb igb: Fix user-after-free error during reset
+fe81df9b5dae160f549e92ead78039fa733ac282 i40e: Fix failed opcode appearing if handling messages from VF
+cc540a03877e47607a5c47238636f5a2b2d203f8 virtchnl: Add missing padding to virtchnl_proto_hdrs
+10c746ab284682bab54435740e5235ebbe0cfb44 ice: add ndo_bpf callback for safe mode netdev ops
+0eb47fbf7924ca47997beda64298f672e4ab95f5 ice: parameterize functions responsible for Tx ring management
+7290d97bc616c1df86d4321c295ae011100718a3 i40e: Fix firmware LLDP agent related warning
+bdda50251fd6d6d01cd1079af15e7eaebab7000a igc: change default return of igc_read_phy_reg()
+d4c46d6ae83730fb003b07fa9bb8102ba52d9283 ixgbe: Fix packet corruption due to missing DMA sync
+6e8c2146d352a16246b6db1d0c111929efe3e362 i40e: Fix queue-to-TC mapping on Tx
 
---===============0184244465811640497==--
+--===============3453730728479940899==--
