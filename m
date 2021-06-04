@@ -1,58 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============5745237003283714622=="
+Content-Type: multipart/mixed; boundary="===============6095380001544111296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 04 Jun 2021 06:07:22 -0000
-Message-Id: <162278684260.3537.13258557066456183373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 04 Jun 2021 06:07:53 -0000
+Message-Id: <162278687327.3754.4318967366676388771@gitolite.kernel.org>
 
---===============5745237003283714622==
+--===============6095380001544111296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 2d06954e23375a8d299131eddede3a1720bf8539
-    new: cc196fed0394aa03ec75e22274edb18c8b03ad00
+  - ref: refs/heads/usb-next
+    old: 5ff90af9da8f243133e6f21368e5df15e29037bf
+    new: ca5ce82529104e96ccc5e1888979258e233e1644
     log: |
-         1b1ee3a91d21fdf7d415c1060db1a7a07ae296b6 char: xillybus: Fix condition for invoking the xillybus/ subdirectory
-         b71cdf15fcc1b1bbca01fe940bc9da261a99f20f char: xillybus: Remove unneeded MODULE_VERSION() usage
-         cc196fed0394aa03ec75e22274edb18c8b03ad00 char: xillybus: Fix spelling mistake "overflew" -> "overflowed"
+         32ab701df62634cf3fa6bc0f89bded1c6ba4d641 usb: mtu3: remove mtu3_ep0_setup() declaration in mtu3.h
+         2c09bdaa58c982b8339d6476c8957564acd416fb usb: mtu3: remove repeated setting of speed
+         10e93e081416e2c4651f9e0e9e3e5c5a4e6eb2bc usb: mtu3: dump a status register of IPPC
+         f3ec606efc2015060156729b8533216ae0bacf70 usb: mtu3: use dev_err_probe to print error log about extcon
+         51c236d5e1d13de6a71fab1292bb015df4002515 usb: mtu3: skip getting extcon when use manual drd switch
+         309f5d7944627bd61550c880833a3e9c543018bb dt-bindings: usb: cdns,usb3: Fix interrupts order
+         a8534cb092d7c19ab5ce9f2cd3f7fc1385a73664 usb: phy: introduce usb_phy device type with its own uevent handler
+         ca5ce82529104e96ccc5e1888979258e233e1644 usb: typec: intel_pmc_mux: Update IOM port status offset for AlderLake
          
 
---===============5745237003283714622==
+--===============6095380001544111296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622786837 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1622786837-88b97bbad2402b8fa87c867c6a0aa5d72bfd4ff4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622786868 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1622786868-042793832ce49ad386510c89e42bc9ad9678af2d
 
-2d06954e23375a8d299131eddede3a1720bf8539 cc196fed0394aa03ec75e22274edb18c8b03ad00 refs/heads/char-misc-next
+5ff90af9da8f243133e6f21368e5df15e29037bf ca5ce82529104e96ccc5e1888979258e233e1644 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC5wxUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zVEP/22O7d1fA1w84vHnsGfM
-lA7gRpzncMoThRxJRmXNEpuMOxPgHRaXHRNuNSFsfTP5ZjTFhAaH8QJtWxwhCvYC
-JQ5sXwbhVOT1qKcFoQYL9xxVrkZ450E1DGsmdhA+j80TONLO8B1d7DcR3avVbi62
-dp7YciGdEDDl6LFvi+dCyGjDeQeWFpT1zEHYkJvg8hJZX8ofBtu2TOHQJ+tAIJp8
-7LF+5Hs9StW4cG9pTkIij4gm0tcYR8+SB++IthNgaQduvgWBbkhEQm3oLe7qrIVT
-fWKbi2NRLEYX5DKFPNA0/1vk1JrXHqFjfTmU7h8CVzeW/UbfsgGm5uHAQSa/dXaN
-Pf0fI7WXRn0EmCb+mynm6Fk6Ioa/SGUOsxkoOLdtGPdZ2gBM9S5OJ5Bt3xvGzJfd
-NWrT+P/t5XYdkQ6sENqm0C7H43Aat1ft5VzV0DbXH/3/DNYROdDlx9jtsZ4Ba3sv
-EOKv5pt1d8H5nq1slsmIbZMpfoy57CMS5f/HW1zmy7O1KyTCykjEbO4vaoMLOiIF
-wcdoFOLdwjkROKr6AHfpG1KiQG7vHV9AljELgDNjuMW27s6sDD8XgzzFyQ9Lg5s/
-S/Pa5wkxxwWLFAvw60n/nYdd72g33DY1uslUdKMTsaWIOEMC582BGJdIgR1IcmVK
-oubupsdqXpVbAC1rkeShOJtU
-=eKyZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC5wzQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+awMP/A+zgIsRSKiOxyCmzr9u
+SbZqF5HkUkTOsOmeSygfpt6TuqA8KXEn2/G7y6dYAmvCr75KJWPQQqTAhbwR4cgR
+k5D7DbBrio14qqgehxqSBP2+M/z4s9+U85Fj3naM+8DIqVQxzYm0B1LkblSKdLDe
+43vOdCvexbOZeHpt6lmwaRVmNAvXqbeJY1IDIy79Mw2HKOe/lq0Xw4mGZsas32Af
+Dge/Vs0LFoyiJp4v2N3BELe2Fd0lgbp/fjyKYG6/yUeho4xlDOZ73cnjX+Ny/aHh
+OLBbu/D8qFjuL8z8K0BCfvWiSYAOj6fKa1FSqR+e+z+Vh8HI6cHXiVaBcANEcX1Z
+lxcntJo/cmph62yEG52A7tmdzJsAvu4COzZ4dmCePufYfdDd+ZoivOZOzwp6SkTw
+ixjN9nZaG/wUHJ8TW/A63sDqJeOiCEErmxCyXFzhdtB8GKFANADpz3T0NL+h/Q3T
+bPVoatTwkOcA51PAny8vuwXavOFiBkuOAXu+pJ61r1VDBUhyuRcPg44/VZ7yc/Hv
+iGgaQv2iaTV7qJx6V5BllLy9hcdCTaAFK02QFopxV7CxoPVhpi9WMp0mAc9OXcEo
+yMLzQSoFNa/prC/Y3fanTWCsBL89+YDudwscz3sGdep57MVRCZ1ETSo6TE0k/DRd
+Q8EGgjjhGmnDhJb6nQVtAw0l
+=lOwK
 -----END PGP SIGNATURE-----
 
---===============5745237003283714622==--
+--===============6095380001544111296==--
