@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5609365795019033871=="
+Content-Type: multipart/mixed; boundary="===============1287251738199056192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 04 Jun 2021 16:27:38 -0000
-Message-Id: <162282405882.8293.8411285763100685351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 04 Jun 2021 16:27:45 -0000
+Message-Id: <162282406568.8426.7818526494678553966@gitolite.kernel.org>
 
---===============5609365795019033871==
+--===============1287251738199056192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 8bef925e37bdc9b6554b85eda16ced9a8e3c135f
     new: 49783c6f4a4f49836b5a109ae0daf2f90b0d7713
     log: |
          49783c6f4a4f49836b5a109ae0daf2f90b0d7713 ASoC: rt5682: Fix the fast discharge for headset unplugging in soundwire mode
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: f3b3bceb859c76a91ddd43c602428e4451598b3d
     new: ffb2df66ba8c65700e030fc6eeaa24b044c94e43
     log: |
@@ -35,29 +35,29 @@ changes:
          ffb2df66ba8c65700e030fc6eeaa24b044c94e43 Merge series "ASoC: codecs: wcd934x: add Headset and button detection support" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
          
 
---===============5609365795019033871==
+--===============1287251738199056192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1622824047 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1622824056-7b8b218a38ee8e1a9f918785139e24555595e381
+pusher C3F436CA30F5D8EB 1622824054 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1622824063-946a8db787a5acf8f04495281c70a28421beae22
 
-8bef925e37bdc9b6554b85eda16ced9a8e3c135f 49783c6f4a4f49836b5a109ae0daf2f90b0d7713 refs/heads/for-5.13
-f3b3bceb859c76a91ddd43c602428e4451598b3d ffb2df66ba8c65700e030fc6eeaa24b044c94e43 refs/heads/for-5.14
+8bef925e37bdc9b6554b85eda16ced9a8e3c135f 49783c6f4a4f49836b5a109ae0daf2f90b0d7713 refs/heads/asoc-5.13
+f3b3bceb859c76a91ddd43c602428e4451598b3d ffb2df66ba8c65700e030fc6eeaa24b044c94e43 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC6VG8ACgkQJNaLcl1U
-h9CqqAf+KHAWl/SF2WlYzcrp3Qt/MegzP5Zu/V3XzDIyKMLMAOB3VNLI8B1ZdP7z
-JkzjQJ+AOPd6zjJXo9jP4DrdKmKIj+Qz4d5mQ7nAhzJFwNZjGNMNt0+rd1O9pd17
-aXKvTdhC2vRDPAM/F5XfybvhSlot0hOfHFF91Ovp/AapXCwIxI43LUVrER//6507
-1ln2K+km8WdpbuVBzUEQlOXvblv/SCIYMuLdYh938VEk9qowvmwYJW6ebtSxDLPu
-2yOReeCzhNOxRFKiqHyZZrpg22I/D/ftDxWmdkWhNOQSSpVMw0cQK119tdyVPhlL
-kaFcQ03110evkTsZtx1UZt6GlIRUUQ==
-=ZHad
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC6VHYACgkQJNaLcl1U
+h9CE4wf/ZrCwoYkkMLfATUJP7Ao0HcrHQbM1e1tTI06oXRr0GpUYOBZH4T1oFtBe
+UZEZE9rXyVvFoSaOyeDJ7iPo/ceLF4+hI1/75klXzFN/Wqvm00lrd05HSDMVW/PZ
+3dE1RCSJX14wtRMgTaUkH5GKFSFV37oaOPp0zl5apDdoG2225bhUnZIHTkShys51
+WC9J3MB2p6a9Yc4drMBjDVVr07uTmVx9GIPL1SS1k9c9n1ByYyD77da8EaVcDxmC
+U6yYHmO7yCdf1xAAwitWJllTajcskqlcHaDcJILrtyli5+kapJx5PKZl/jgqB1tn
+8fJ7x7vvLC+YBmt3+qhMmsTOVW5VGA==
+=FQUa
 -----END PGP SIGNATURE-----
 
---===============5609365795019033871==--
+--===============1287251738199056192==--
