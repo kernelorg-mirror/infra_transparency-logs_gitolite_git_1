@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7174563618621263821=="
+Content-Type: multipart/mixed; boundary="===============6616737868199846609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 04 Jun 2021 13:01:59 -0000
-Message-Id: <162281171983.30764.10568552090547126382@gitolite.kernel.org>
+Date: Fri, 04 Jun 2021 13:06:54 -0000
+Message-Id: <162281201451.1288.15487511979267611028@gitolite.kernel.org>
 
---===============7174563618621263821==
+--===============6616737868199846609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    new: f501b6a2312e27fffe671d461770426fe5162184
+  - ref: refs/heads/driver-core-testing
+    old: 92722bac5fe4dc4582282bad02dd1fb95e892705
+    new: 5a576764e4190f7b48cf3cf40f4294f001918605
     log: |
-         f501b6a2312e27fffe671d461770426fe5162184 debugfs: Fix debugfs_read_file_str()
+         4e0c02431a71d4e9bd368320b389371df48d2e66 devcoredump: remove contact information
+         7f787701b2981d1a22f3951612fbb5a97ee658d3 firmware_loader: remove unneeded 'comma' macro
+         5a576764e4190f7b48cf3cf40f4294f001918605 drivers/base: Constify static attribute_group structs
          
 
---===============7174563618621263821==
+--===============6616737868199846609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622811714 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622812009 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1622811714-f896c4cd8965dac555f2582330f288df6a1d52de
+nonce 1622812008-b1602d0ab87419a15a52d0fb4a3a2ed53caaeef3
 
-8124c8a6b35386f73523d27eacb71b5364a68c4c f501b6a2312e27fffe671d461770426fe5162184 refs/heads/driver-core-linus
+92722bac5fe4dc4582282bad02dd1fb95e892705 5a576764e4190f7b48cf3cf40f4294f001918605 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC6JEIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EpoQAMuxBt91g2b353wivdbI
-bdgAX+6jiMeTp/Tt3ZyA0fOHibpMQOjovFk5xZyuruQPiH2mdzxEHcmaqkWbt4Sl
-8fmfnnTgnHExfIHtN9hdVmcC9I8SjYkBn6MYG0CE5QCmWrlEiGVNOf+bRIZMQfau
-7cGZjkzqZiSDbz46yawIHfSi7ZmMt95Zdj9sVdRknYeZRuARKQ63WRVw29PtDYzP
-N5ygfVKks5yN/l7AGjtxWIEbSsB3CIfjhZijUVZTe17LfLn6NyA88UUuzvD6lhky
-lHgjMm/6fmDEEevu/exRZQqCSkvhHR9J+PzuS0ZzRn7yOkdJjEpQJlbFD3rD0S//
-EjiCubLTW5Lc6+MDNRKlNrLwSJS+uVnGoREZfe9uF3UY1KggVaG8jFlib/znR5qZ
-sAIA0xAJIcAuE53VEmGRATnXW40eY6eW81uVW9yIkqrFGrdoyVBLqc9K06AlblI5
-KH3Uy62YpwcscgT40nWEw/yWRo8JTPU2PKQfzLgCn3b7eGDsJfxRneAj6tkUMXcb
-a52Lr3uNZW76aiWIgSsv94W6p81OoBKgrfj1yN0K9uoTlh77/I932Q7TnSSl5tUS
-huCzt9HfnOvfA/jpL1sjmS3oQD8bcFCymEdaCPiZr5S98eZrBJ+ziJfmG/mxXgTo
-HrelfxTie3/JFszguzbq6UKE
-=fz45
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC6JWkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a4oP/0xi79IC0jEwBBvHmaom
+QHF/SEE4uOMab3PvbFFKzCjPAvYmyD4zvtM5+dGYp1ue7cBCU9xcYIVGyak6zgkO
+RiF0L8to8bPIKGbJNzLpsBAMPNtf3m7l5NTO8LhjxsUlc0rH7YMb3j5cO7W6mQSy
+VZu1/vq2ylxOJwYhNaf6HX9vA9fED5I3//BkBZU6ykt8FQaxsCSQZj1/CNHkmVkG
+AmH1XzKra8jRP+9u0mArn+Ugi9HisM/MXInKk3bCkfFKC6MvoIL3i4cp12z/ze6Q
+bA3NdJ8kbcS7rk5+UPlAmvn6LLtd4M18hZqiQ1qK0UaE+BpydcuHdLRjxFZVW0wU
+nLkXARuW8HBS+8z1J7Lt4G5brMT1pKRaVvO1kwVEWJdTM9LXnqprD4e2X1J06mFb
+NYaDzKTZsdR+NeO2/cXsOGGOfb+EDqaE90pur8BCv7Zb9h8S1Zp3QIB4MG2OizWC
+u2fbBk0ocFO+11dbREyKaTV/FK5RO8j6L5UH5M/+NM2zaSICqHK+wvxk5YZZh9Ee
++2awUkwWb1zzRBwe2HBX8JJ4mR8gZz82i8VxtlnC1Z6gWyFe1h6MDQVEtsPHz/JP
+moI1toPF6rlNn3erP0bI8Yg0ukacD27f8ax0MQS/lRkFa9ij4MHf571uo1MujsGV
+I+PSLWbgAwu0oKZXJMcPRdSx
+=7y5v
 -----END PGP SIGNATURE-----
 
---===============7174563618621263821==--
+--===============6616737868199846609==--
