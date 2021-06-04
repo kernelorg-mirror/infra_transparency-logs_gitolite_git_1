@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 04 Jun 2021 03:32:26 -0000
-Message-Id: <162277754629.2726.18260332453403309885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 04 Jun 2021 03:57:03 -0000
+Message-Id: <162277902386.18398.303820566234402712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: b764eb93c13307edbe9c616624205f29c16ae1f3
-    new: ce54d3bc156ab5f11c5ead0c91627db0ae4865b8
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 4814d9c5d3b956c5a8f47acbb6b98fdd4dfe334f
+    new: 9821a195d4e263801884b105554e801642c59f2a
     log: |
-         ce54d3bc156ab5f11c5ead0c91627db0ae4865b8 defer: Update singleton.c to match space/time presentation
+         eed828895b2426a286717c1ddea8af45fa08bfc3 clk: mediatek: remove deprecated CLK_INFRA_CA57SEL for MT8173 SoC
+         9821a195d4e263801884b105554e801642c59f2a dt-bindings: cpufreq: update cpu type and clock name for MT8173 SoC
          
