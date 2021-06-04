@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5075266367610304897=="
+Content-Type: multipart/mixed; boundary="===============5191677494954485020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 04 Jun 2021 15:13:02 -0000
-Message-Id: <162281958278.22356.16260549085635969134@gitolite.kernel.org>
+Date: Fri, 04 Jun 2021 15:13:17 -0000
+Message-Id: <162281959745.22496.18320989015984992056@gitolite.kernel.org>
 
---===============5075266367610304897==
+--===============5191677494954485020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 270d47dc1fc4756a0158778084a236bc83c156d2
-    new: ebbf5fcb94a7f3499747b282420a1c5f7e8d1c6f
-    log: revlist-270d47dc1fc4-ebbf5fcb94a7.txt
+  - ref: refs/heads/dev-queue
+    old: 5db87cd4265714e63df4a9740d83d78fd6e6cc88
+    new: 9d85d3d12ca4028b336984b67d703e97c72ddd54
+    log: revlist-5db87cd42657-9d85d3d12ca4.txt
 
---===============5075266367610304897==
+--===============5191677494954485020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-270d47dc1fc4-ebbf5fcb94a7.txt
+Content-Disposition: attachment; filename=revlist-5db87cd42657-9d85d3d12ca4.txt
 
 490dcecabbf93e705006af498fa6815251404a54 mlx5: count all link events
 e6dfa4a54a908d788858be4cef16e82c3bfa75d3 net/mlx5: Fix duplicate included vhca_event.h
@@ -97,5 +97,97 @@ a10541f5d9fa2aab5ff54311473b05ba75b84226 sch_htb: fix doc warning in htb_add_to_
 118de6106735cfeb04daf9de1d5a9f953ac034ba net: ethernet: rmnet: Restructure if checks to avoid uninitialized warning
 e32ea44c7ae476f4c90e35ab0a29dc8ff082bc11 icmp: fix lib conflict with trinity
 ebbf5fcb94a7f3499747b282420a1c5f7e8d1c6f netdevsim: Fix unsigned being compared to less than zero
+6f696c2e48311b327d735628f7dd92d1ae5ffb26 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+0309091d0a14ada9e270d1ea4b3fa035e4d1a2ef igc: Add UDP segmentation offload support
+8f4c13a96f32dd5b751e5ba0e969b037a8c05327 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+da6f84e4b5c74d603129005d36132bd61f6ab4b3 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
+c180c5143a746be6106ffd9bf60bc046733eb760 ice: Manage VF's MAC address for both legacy and new cases
+51982264eb8bafb8cf38469d02fc1c596a794d91 ice: Save VF's MAC across reboot
+3d529bc037bd11acf430d97153e407b53fa1e3c1 ice: Refactor ice_setup_rx_ctx
+962a7f0395c882c0237f274ebcd949b8b0f9b83f i40e: add support for PTP external synchronization clock
+ac32ad4a90a6f6a86cae2e1ec911c25aa549ca6d iavf: Fix asynchronous tasks during driver remove
+c39d34b28d6f7605f51bebdb3438ca843502e869 i40e: Fix correct max_pkt_size on VF RX queue
+a0e1c699da753214adc07bb34597fe1a74794035 iavf: Fix return of set the new channel count
+d58b5dc27cbce82088f3d185745d32bfa0a01c4e i40e: Fix NULL ptr dereference on VSI filter sync
+4b02c8b9e9f06ae8d8bd020ba7b6a2a583ae53b6 ice: report hash type such as L2/L3/L4
+d535096c23f05596b7c5a70ad9bb0a30df6d452c ice: Fix allowing VF to request more/less queues via virtchnl
+9005542aeb672777c9de1dbd188b53fb17790ae0 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+44ff249303b5d0cf95c56a0d63704dd99e5a84b9 ice: Fix VF true promiscuous mode
+5a882036b026dc812427ff0ba2016590753dff86 ice: handle the VF VSI rebuild failure
+c51f28ca2be7bbc0bb141b8c0e622527e051c91a i40e: clean up packet type lookup table
+e97c6852d0858009281e1cd466dff5a80a988240 iavf: clean up packet type lookup table
+97e9cb4ddad3f4da3541e4e280f03930785d78ae igb: unbreak I2C bit-banging on i350
+5049834986be2e011066d4b4d95e794faa0788ac i40e: Fix error handling in i40e_vsi_open
+59205199497ae59b67b5b786df31a6f714ebc25f i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+c5edb5097c1ecab18451110fa59800f89bd9aec3 ice: Refactor promiscuous functions
+46328ed527960efa6010eb62a59b3123dc41a9d2 ice: Refactor VIRTCHNL_OP_CONFIG_VSI_QUEUES handling
+24e4525bec5c5b796c4bfe7ac83539515d3fa4e3 i40e: improve locking of mac_filter_hash
+ba164248a44f17be48feced5987be768b4d7a8ba e1000e: Add support for Lunar Lake
+ec043fbc9a4729cd77ca02a2d6199c2297cbf899 i40e: Fix autoneg disabling for non-10GBaseT links
+c5c3f37ec0c1d7e2790a6fbb3410c63269f9f911 iavf: do not override the adapter state in the watchdog task
+e43dfd3b0459cb4334d79b6a5255768b3e2ff7dd ice: fix clang warning regarding deadcode.DeadStores
+1acafcb2ab5440e34e4045562e3bde77361c12ff igc: Update driver to use ethtool_sprintf
+5605b9dcc6a75a46fd1fdf9965070bf509839a0a igc: Remove unused asymmetric pause bit from igc defines
+6a5631f9a59dbb5c4bd0d9e6f19031ff2f179e9a igb: Check if num of q_vectors is smaller than max before array access
+13ffb8be73f599955b5460ff0567abadd89231c4 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+a8dd9b953a9d742c1be367a6492ce844a11eeadd ice: Enable configuration of number of qps per VF via devlink
+25822572755a61d9e2b3d83a40e1c3bec9c6bc22 ice: track AF_XDP ZC enabled queues in bitmap
+4e34c6e46b8011b9c5000ac10d9bb4de82392de3 i40e: Fix warning message and call stack during rmmod i40e driver
+a2970aff7cb0ff1f05ba3e3ebc3957a552d09f07 i40e: Fix logic of disabling queues
+6b4f07d7b173b502c36af2b24d0e5e4638b8e6f1 i40e: Fix changing previously set num_queue_pairs for PFs
+e90938d5bed9a0f88f953ecc5a2c59d4e9a99e0d i40e: Fix ping is lost after configuring ADq on VF
+f81c28a9662bf0aa83ab364a6171f16cefb366d3 igb: Add counter to i21x doublecheck
+c87d877d4a45a3bc47e692fcf1bf581d4a9f8107 igb: Fix XDP with PTP enabled
+2714792ba17ac263c643ef8bab14173ae1598ebe ice: set the value of global config lock timeout longer
+f71a430c429ac51a5d591b4b9ced32d87d98cf32 igc: Remove unused MDICNFG register
+179a001d7f4c31fe3ee38cac0202cedab9422a20 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+4455b4a047bb135686b7dfe12df0c67db69a128c ice: report supported and advertised autoneg using PHY capabilities
+572e453332ae132dac3b1934cc987bc16c5cb7b3 ice: Allow all LLDP packets from PF to Tx
+82e932fe7acba3c52e1c9f64dd071310b6346ab0 ice: fix FDIR init missing when reset VF
+87010a308af46e0bb9702cc2c35f93c00e6415e0 igb: fix netpoll exit with traffic
+db1a45ea9c0d753cee85aea90ad0b2c81cc380ef ice: use static inline for dummy functions
+4987f27798ad5825f2e42a0f70157f2aed7784be ice: add extack when unable to read device caps
+b5e53dde73829426c3e774a9dc6184738b74c318 ice: add error message when pldmfw_flash_image fails
+686fb8bde52d449b727ec44de2d978fd082dd74c ice: wait for reset before reporting devlink info
+1487268bb9e9352180eacbd862777dc76ce81577 ice: (re)initialize NVM fields when rebuilding
+98094b484264520b6b3f4d4fdc2d9590fd2fd149 ice: Detect and report unsupported module power levels
+3be4a4aeb615c4158ab812fee9b663702f7efba7 ice: Remove boolean vlan_promisc flag from function
+2eda52f539031bb876ecb5aefeaacf71233d17ad ice: Fix replacing VF hardware MAC to existing MAC filter
+5e504c209c8df42dd3c86f05afa27754f2e66b45 ice: fix incorrect payload indicator on PTYPE
+634eabb99f9fa520bede1e596266dcae501a4305 ice: downgrade error print to debug print
+2646df4833ef7ff36eae000c6ffd7b00284a0aae ice: mark PTYPE 2 as reserved
+b04b7e52d22a08d0ecf47e3b44623e62fd48e05c ice: reduce scope of variables
+d59cc183b7be9283229cb9a6ea50867733d4857e ice: remove local variable
+5e9ae77b4717019cd4caa06f7e10c96e4e137c82 i40e: fix PTP on 5Gb links
+c03141ea74639c7c08640d2f28a69f703b380e7d i40e: add correct exception tracing for XDP
+20c0744f1865780878f8a4834abac645fcd04b9a ice: add correct exception tracing for XDP
+78fc7cbb92f27e927cd040ffce6f5359a75c9577 ixgbe: add correct exception tracing for XDP
+ad523c95283b20f1bac94b61f0dbb21291277ee1 igb: add correct exception tracing for XDP
+7461fd33d7777b988c011216e111f651574aac11 ixgbevf: add correct exception tracing for XDP
+8d6a26ea1f7f8ce927e32b63bf57745aa5d7c812 igc: add correct exception tracing for XDP
+9258dbf84762249554073bbc821c31d81c8a8d5c virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+b2616b6b55a398d9988a561e2972f3f715491869 virtchnl: Use the BIT() macro for capability/offload flags
+7550d2d64fe89ecd4ccac82cca69638c527f2fd8 igc: Fix user-after-free error during reset
+1143c734b8782912ce702fba07693ff84c68a94c igb: Fix user-after-free error during reset
+2c623a6b269706b574039a3af4c188b4873eaee6 i40e: Fix failed opcode appearing if handling messages from VF
+90a40b94de5ced385ebe2bec945900211f0a3856 virtchnl: Add missing padding to virtchnl_proto_hdrs
+c7ac2a9b312d4787d152de81f28ec48ed64c6a99 ice: add ndo_bpf callback for safe mode netdev ops
+fd695ae6d132a7b6652a87a7dae701a61533ee4b ice: parameterize functions responsible for Tx ring management
+f1554d831790eecb2601e41c58bf32e09c006945 ice: add support for sideband messages
+87cd16ca232d2b90001c4babf484999a1dc7b9f2 ice: process 1588 PTP capabilities during initialization
+1e4a5f5e26ad61d88a391b879fea9e3ab384aacf ice: add support for set/get of driver-stored firmware parameters
+ff39b79ef1e093dc16e88df3d5166dcbfdeef0e4 ice: add low level PTP clock access functions
+3cc473bcf33ac73e63864497df6557c96b220b7e ice: register 1588 PTP clock device object for E810 devices
+194375f4bafcb1d93434706e4ca8803f83ae2d0b ice: report the PTP clock index in ethtool .get_ts_info
+b320adf5baa808cd1bf4e6bc052ee0cb5f62f8e5 ice: enable receive hardware timestamping
+8ce32298aab61f922a3e753ccaca378bca074f74 ice: enable transmit timestamps for E810 devices
+2eb9877a7c8233ac49c99606c67e3262ad2c304c i40e: Fix firmware LLDP agent related warning
+442604518219a5b793161e29008fc446593a6c4b igc: change default return of igc_read_phy_reg()
+1d04d427bf5db84998cb76b6109cbe57ff41d8db igc: Indentation fixes
+cfc70ba4a582b1535660ab662906d3c60e660d56 ice: Remove the repeated declaration
+19c57f6c35c102c1e82b22f3c9b467ef21e82577 i40e: Add restoration of VF MSI-X state during PCI reset
+a6f866b7b6351c1da3b975a795b84b6440134d31 ixgbe: Fix packet corruption due to missing DMA sync
+61381c79ad257a2cca9316f07085fb441bdf646a ice: add tracepoints
+9d85d3d12ca4028b336984b67d703e97c72ddd54 i40e: Add additional info to PHY type error
 
---===============5075266367610304897==--
+--===============5191677494954485020==--
