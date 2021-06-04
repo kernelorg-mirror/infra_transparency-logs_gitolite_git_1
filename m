@@ -1,72 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8948428035220877795=="
+Content-Type: multipart/mixed; boundary="===============8968679015953567419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 04 Jun 2021 07:09:38 -0000
-Message-Id: <162279057849.10455.6505955034246251222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 04 Jun 2021 07:10:48 -0000
+Message-Id: <162279064887.12260.14741298825612976713@gitolite.kernel.org>
 
---===============8948428035220877795==
+--===============8968679015953567419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/staging-next
-    old: cb37defbd17a3d5acb34c5c12d9323bf13bcd1c3
-    new: cae6c233a7abb8a1b3dad536baa07c06e751ee93
-    log: revlist-cb37defbd17a-cae6c233a7ab.txt
+  - ref: refs/heads/mlx5-queue
+    old: e88f72e5bdb35c0ef4d4f06ede4a24a651090dad
+    new: 9c6dd1102650e014a79e2cc0e16bb9ab442134ae
+    log: revlist-e88f72e5bdb3-9c6dd1102650.txt
 
---===============8948428035220877795==
+--===============8968679015953567419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e88f72e5bdb3-9c6dd1102650.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622790573 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1622790573-8d929352d16726906dda9c6dd57253b2a7d924c6
+71e119393a6241dbce4ed3deb1541e740051cff0 net/mlx5e: IPoIB, Add support for NDR speed
+6c45e0cd1df8c4176ece9a6abbbafdf40476f7fc lib: bitmap: Introduce node-aware alloc API
+f4d2728db195ede0ee29fdc67d941ae9388bd7e4 net/mlx5: Node-aware allocation for the IRQ table
+bde199b31477e45ffe80955fbde59a277ba095cf net/mlx5: Node-aware allocation for the EQ table
+31830fce64bd721f12bc53427df5613206e2a871 net/mlx5: Node-aware allocation for the generic EQ
+5e73e3af13d47466b1465d8b17f8bec1b610a940 net/mlx5: Node-aware allocation for completion EQs
+7ee4c87cc3005b12faf42aaf85908964f5aa6546 net/mlx5: Node-aware allocation for UAR
+4b14e0bb486ea78423a1edb3406ed4c063efc966 net/mlx5: Node-aware allocation for UAR bitmap arrays
+4e4d7d1e6b83d3da7d776013df7aff45e2de795f net/mlx5: Node-aware allocation for the doorbell pgdir
+4ea483eaeaab620403e3d381ac52e6e3b3d6bf7d net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+e696fe9b2fbd4f15ea2c78b3ccd127ab703df6a9 net/mlx5: Node-aware allocation for buffer metadata
+1814babccdec62459c534f4592e441a226133d54 net/mlx5e: Zero-init DIM structures
+aeef70478fb061e22b12a7b4308988e3529e79e2 net/mlx5e: RX, Re-place page pool numa node change logic
+1a3cca9bf942e455683dd9e2f9149e5cb5cc51b4 net/mlx5e: Disable TX MPWQE in kdump mode
+685bf0341c0dbeb409d47e43baea2c1cf92c771b net/mlx5e: Disable TLS device offload in kdump mode
+38861a73479493b97f58daa17cd99704fc6cf15a net/mlx5e: Remove unreachable code in mlx5e_xmit()
+53f6c4d84076f3fea3ad2baea69d41030ae19e97 netfilter: flowtable: Make sure dst_cache is valid before using it
+b1635b11b6f05782bc05329a9f0f2f63636cca27 Merge branch 'patchq/362918' into mlx5-queue
+e78e0f75501a495f2738be70cbdc1a4093fd20b1 Merge branch 'patchq/398669' into mlx5-queue
+77cf1b271a3748a5ff19b04a623068265b200511 Merge branch 'patchq/398482' into mlx5-queue
+f5dd45a21b2c4f7b267cec6575837d4690f093f6 Merge branch 'patchq/393105' into mlx5-queue
+74acb7a444ffa37df8e37b62ccf78bbf55dce589 Merge branch 'patchq/390986' into mlx5-queue
+9c6dd1102650e014a79e2cc0e16bb9ab442134ae Merge branch 'patchq/391074' into mlx5-queue
 
-cb37defbd17a3d5acb34c5c12d9323bf13bcd1c3 cae6c233a7abb8a1b3dad536baa07c06e751ee93 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC50a0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zxgP/2+THjxwivwMwj+YS0Fo
-2V4jXLtguiAt+/QsFKC78SQtZ4ietMMfoiJzCsBgiOQaljJXRhwV7xknn2BvoHBA
-Hm3X9AE59kwwoG2rEibyOZJoteFOlp3Vcx+srJOhfBj2qtYLOkD3btQ/G0hWa4vp
-4NwBAtyoeCtRR+d3h0dxcdnlxJuHwyVZmv8LherVZc5E96pvoBcmBjpBDDwUGKoK
-F/sTTGrp6y4+ZG/cp3/7pKaOFzAK+q3hNxx++uJZA70EfdnU/bzazoQUtPVHX9k4
-ctG6OBBFTaEZBCSPKaZHwx62DTqDQV6BKmZgud2oEDehPLlNdoESQpQ9/1RVT+bL
-bwxj5EiDe2OdZAp38lrUBTq9cm74bPElIJNrmbu4woXg6nhVCaERd41KpHFjbeB7
-EK7WrLQOLd69670zrQkFroavjkdbEl09vWN87GgaLLltdKrrY6msK4LBI/cDEA4M
-IplyZunPBCpLE57yD1hDnmPvEHpbiY2XeD1B31w6MS72u+C3KWoTv04GnQDvRftW
-JoJXHnxo26mekGdbOJ56bZXJFEkHEJv7LbQVoSLxyLGSuIDFvLou0Gs//KyeP3Li
-SawmH46OpaI1gDScLk7cNUOtdsbKnGTFFKGCybtCPgs1lJwuyN/FhS47rOpCF2y1
-gJdSVVpF94q9uDl2ACX2XlXM
-=QVEa
------END PGP SIGNATURE-----
-
---===============8948428035220877795==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb37defbd17a-cae6c233a7ab.txt
-
-487829879f8bae7e055b7d12407108f5915ac8b3 staging: rtl8192u: Fix shadowed variable name
-6184fa23216c44722c9c3f5c29459ef055aee15f staging: rtl8192u: remove the repeated declaration
-6a80a7abb473c342178a80d8bda8ee68997d3d66 staging: rtl8723bs: core: rtw_mlme_ext.c: remove deadcode
-3efe8c49cc990fc7c665069701ea22f672e291bc Staging: rtl8712: Cleanup coding style warning
-af249fce390ffe2d4938b56c78fae41a21eed5e2 staging: rtl8188eu: use IW_HANDLER to declare wext handlers
-31c809986d8a81cb84134abff1773868376d3a97 staging: rtl8188eu: remove dummy wext handlers
-827dffb1caeec6c7802f439452df6b86960617f2 staging: rtl8188eu: remove dummy setfreq handler
-0ee817dd58985a26903659fd2633e93f83c63730 staging: rtl8188eu: Fix fall-through warnings for Clang
-4ce74e3b50817eea0c81d97996b7bd624b5e18d3 staging: rtl8192u: r8192U_hw.h: fix spaces preferred around that '|' code style error
-ad0129fad5140b97d2cb2e7581ef7d756a6ffbe7 staging: rtl8192u: put parentheses on macros with complex values in r8192U_hw.h
-cae6c233a7abb8a1b3dad536baa07c06e751ee93 staging: rtl8192u: fix spaces in r8192U_hw.h
-
---===============8948428035220877795==--
+--===============8968679015953567419==--
