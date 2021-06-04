@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5261582758692968886=="
+Content-Type: multipart/mixed; boundary="===============7542721260488739531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 04 Jun 2021 13:12:26 -0000
-Message-Id: <162281234692.4681.12662424559697348007@gitolite.kernel.org>
+Date: Fri, 04 Jun 2021 13:13:00 -0000
+Message-Id: <162281238058.4987.9301591288067296760@gitolite.kernel.org>
 
---===============5261582758692968886==
+--===============7542721260488739531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 910cc9537302caddc9777cf3ae2f5582730380c9
-    new: d157fca711ad42e75efef3444c83d2e1a17be27a
+    old: d157fca711ad42e75efef3444c83d2e1a17be27a
+    new: 3b2cd60689fa439481f535ee4463fb223a276f43
     log: |
-         db0a196bd8ad1d6bb4b1a9e54f54c09f8dc2cc25 serial: imx: Add DMA buffer configuration via DT
-         236b26f18814669c6311c067ff4ed0491992e6f2 ARM: dts: imx53-ppd: add dma-info nodes
-         d157fca711ad42e75efef3444c83d2e1a17be27a serial: tty: uartlite: fix console setup
+         3b2cd60689fa439481f535ee4463fb223a276f43 serial: sh-sci: Add support for RZ/G2L SoC
          
 
---===============5261582758692968886==
+--===============7542721260488739531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622812340 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622812375 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1622812339-b60198a560227c2f3c50916f03122f9cd04d07c3
+nonce 1622812374-a804d17c8e361ea830c60363df1f1e5b9eb6ee17
 
-910cc9537302caddc9777cf3ae2f5582730380c9 d157fca711ad42e75efef3444c83d2e1a17be27a refs/heads/tty-testing
+d157fca711ad42e75efef3444c83d2e1a17be27a 3b2cd60689fa439481f535ee4463fb223a276f43 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC6JrQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uqQQAJsgnzLHHSbDZRdCwPrR
-eSzxaJnFpdFN1FNjaED6AFpuVtrlCT3usbNttXykotYabBvtfUAhH3sbsU4Rxi3n
-UjsHxq1rtkOFwNSg+C4RWRBSXdQgtrKNvaHUS/tHvpLNjHToTPxwiCgvjKpG2cQf
-QeIizp1nbC/uRk4rDZdSTXaS8P6YSBwtYPL3JwZq8QoIAEcsGPftU7Q6erD9bVu4
-LSOuGpQFy8Rw2Z43K5Nsa0XXtEFh9XVROk6fuZJSJs87CH4QrWhmM5ayzJ8bAIWL
-rHdgxW27cNKJhsyRWobItz3whdgRIyhPHSlKCqCOqaXS8+m076mjQ4wtpHx5EBY2
-cWU+6+dfFj5GzKjkIAkXogmheP3Qoj0+H2qeMYcoOS48S3YJVGIuwAqjvEicOeBw
-K8YFtYdseSAt8N7BOXi3pwWEFLOidp9APVZZXy5RAE9vH2s91e5rrMiqoZgBzovA
-BWRR3QVR7LAZ7Hg6rlXeEt73FmsS0Uuvcdv1lrd40EwA6BvXZCw51Xb8NKIQaMnJ
-PZjw+PAQLK57YnEP1JNFPcL4xS2iNH6ywJ++EWUOyPzj4TWtdItzWOY2OZ+b0Xh1
-Zg49kdSsXXC2aQ7fqzo9UlVZb3KuIHV0xf4ChkeiOFg71/kzNJgg+gQeQbWl0d08
-dn3+nbRiBxVs8bvM+h6nNzL3
-=K10/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC6JtcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q2UQAMx2kDP9GlqvD6W1yapC
+xzD77Iqe6iBvMBaxoYN5TwYqZ7zUpU7mdweoE9f5LdT/r7Pp03M0MdPxHe/iBcK7
+QGb29NU+zhtvuqtR1gI8YiSwTqwtLdGPyH7CW6lKWC26PTSvQlCxtUkBNRNrSVqz
+3JLR0gRu55D1qRn2ukJlNYU0MhHZxTe5KVcjSB4UmBw+nV41MeV5L2rG8tA9QCH4
+2CHToAWOiesqWnE2a2O06QR67zAdqkM45/SPbRbynJdZIPp3SWvgzdzSuoYL8I2q
+vrpZnUHnfmhVw4phCUcgbQpl++Gga5kjILPSwPni3BN9Tp1Qpqkwn7NCW1W+SM+r
+obNbn5tKGXtR0SiwgOiF6V1KI5o8EtMH7G3hYt+M6w2MqL79Zb9BAEM9LxAV/qh/
+bu0BYLuwk0YHxqYqVhYFe0FSadR5Z1/OUnihXzoLee64GTiTLcmV5WNRW7Kn0bvr
+r4pBc4ESk6Yu3pcP0B2lMKe3jTy+mz1zCtbnXmCERX60MrX7bYItaCqZieKtzCwK
+Ml3yvyw+iwkQziVEXPMNP2pxjcRi8MKaFDYXcXl58jLbaJdYKg62RyenieZYCTP9
+atBIRgPDj9siqtWtPgtO41TjOVd7jkiT1X2MO8KbMHPlsEt1NfOM9TV0zyVGveE0
+Bf40FIxiewh5P0LDqOQkWUj1
+=0L99
 -----END PGP SIGNATURE-----
 
---===============5261582758692968886==--
+--===============7542721260488739531==--
