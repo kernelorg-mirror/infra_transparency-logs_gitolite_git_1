@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 04 Jun 2021 21:46:47 -0000
-Message-Id: <162284320748.21115.11338895478422660462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 04 Jun 2021 21:47:00 -0000
+Message-Id: <162284322046.21298.13450474361692173550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: fcb34635854a5a5814227628867ea914a9805384
-    new: d5a73dcf09010f97ebdff197991f77eb9992f09e
+    old: 944d671d5faa0d78980a3da5c0f04960ef1ad893
+    new: 3822d0670c9d4342794d73e0d0e615322b40438e
     log: |
-         d5a73dcf09010f97ebdff197991f77eb9992f09e net:cxgb3: fix incorrect work cancellation
+         3822d0670c9d4342794d73e0d0e615322b40438e cxgb4: avoid link re-train during TC-MQPRIO configuration
          
