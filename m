@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 04 Jun 2021 22:22:28 -0000
-Message-Id: <162284534858.13053.11181752960644853785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Fri, 04 Jun 2021 22:35:03 -0000
+Message-Id: <162284610384.20502.14480545710347957732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 16f0596fc1d78a1f3ae4628cff962bb297dc908c
-    new: ff6091075a687676d76b3beb24fa77389b387b00
+  - ref: refs/heads/for-next/kspp
+    old: 0850bf2e5ce411f7c1e2879d72d80253cd8db261
+    new: 71ae83a3b6d144f47c6b8d01c9101c205199c8e7
     log: |
-         2ee4c8a268764e751ee44dfffa76c813cfc27aee MAINTAINERS: Add Krzysztof as PCI host/endpoint controllers reviewer
-         85aabbd7b315c65673084b6227bee92c00405239 PCI/MSI: Fix MSIs for generic hosts that use device-tree's "msi-map"
-         ff6091075a687676d76b3beb24fa77389b387b00 Merge tag 'pci-v5.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
+         71ae83a3b6d144f47c6b8d01c9101c205199c8e7 rxrpc: Fix fall-through warnings for Clang
          
