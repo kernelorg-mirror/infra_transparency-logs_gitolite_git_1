@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============7043243933948945583=="
+Content-Type: multipart/mixed; boundary="===============7586964549576295284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 05 Jun 2021 08:36:16 -0000
-Message-Id: <162288217650.16795.379612321751563491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 05 Jun 2021 08:36:35 -0000
+Message-Id: <162288219574.16955.7989879845878281039@gitolite.kernel.org>
 
---===============7043243933948945583==
+--===============7586964549576295284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 910cc9537302caddc9777cf3ae2f5582730380c9
-    new: 2877389f59dc455e4283ae23ad494b410c15b3a3
+  - ref: refs/heads/usb-next
+    old: ca5ce82529104e96ccc5e1888979258e233e1644
+    new: 87191ca9f90244d4e003fbe5c77390b5e585a5ef
     log: |
-         db0a196bd8ad1d6bb4b1a9e54f54c09f8dc2cc25 serial: imx: Add DMA buffer configuration via DT
-         236b26f18814669c6311c067ff4ed0491992e6f2 ARM: dts: imx53-ppd: add dma-info nodes
-         d157fca711ad42e75efef3444c83d2e1a17be27a serial: tty: uartlite: fix console setup
-         3b2cd60689fa439481f535ee4463fb223a276f43 serial: sh-sci: Add support for RZ/G2L SoC
-         2877389f59dc455e4283ae23ad494b410c15b3a3 tty: vcc: use DEVICE_ATTR_*() macro
+         ab1150e9576f5889107568329ebc62902ed83682 doc: dt-binding: cdns,usb3: Add interrupt-names property under required
+         7dc0c55e9f302e7048e040ee4437437bbea1e2cd USB: UDC core: Add udc_async_callbacks gadget op
+         04145a03db9d78469e0817ab3a767c76c0fb0947 USB: UDC: Implement udc_async_callbacks in dummy-hcd
+         b42e8090ba93526d6063108b25e5fc0f11f58770 USB: UDC: Implement udc_async_callbacks in net2280
+         87191ca9f90244d4e003fbe5c77390b5e585a5ef USB: UDC: Implement udc_async_callbacks in net2272
          
 
---===============7043243933948945583==
+--===============7586964549576295284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622882171 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1622882171-102db59e1c33e695c607928f4d6a1051213abdfa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1622882191 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1622882190-83a0a944f75d9b38edd8ff8b8c9efa0ca4acbadf
 
-910cc9537302caddc9777cf3ae2f5582730380c9 2877389f59dc455e4283ae23ad494b410c15b3a3 refs/heads/tty-next
+ca5ce82529104e96ccc5e1888979258e233e1644 87191ca9f90244d4e003fbe5c77390b5e585a5ef refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC7N3sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hg0P/iYk1/iu/CzSWxp6TuyL
-elRcZWsLOC5Og8vGNmll6r2gc0QOOTlXBVUuBhZbikzxq1OXWSnd9kKET31IE75k
-p43bV9Lhw71+DyrfdpBhmWAyp4OcRSBZnsu8Isya/sgFTf8ql5fERK8ke4cn7f76
-3anrzcYaltcjm5A2fiUB5KVbg9mqhQRgNoY3XMSBr0yP+yZgjGIK8iNPqHisdXKT
-hw1qCdgGPR7zYEeVUJrxPEHGcLZv53sAgz6SkPaLxlV/MTB0YNtdiQ8gYyGe9Eu9
-A2jSkvH+AFrd0cXjm+g4j4schxAn74kA5IT4fQtCkZ7OOQfGRNbie9gC1ErpWYc3
-awtGVoi3Y+wgA83ps0vzkHNa+9IfZTm20Erl1+bgBhL6yaJb+IcEouralnLMLL4L
-/NZj9ClhONJq9Kxty/dao0V05N0xE3PCsBplMUsmu16UWHXSG76oAXbJoWPKdsiw
-EyprYL08UYloI7d86bwl6mNIZQcj37bYcwyJ2i4YtoMUtNXdyHM8nzQpTCG0F2yq
-p6hpu1ikkMyfETcNYOqHAAhwp79i8YhAf7yyIf8AEALS+pODqMirKxvjBk1Q6xTG
-wam7HtypHf5DQQkWeUGEQoQpBbF891JORWxoXT08C3vHiB4/Ob0jNKrqyikJIsQI
-KO7n6tAClUEnIdzQWQ6+O1qE
-=RHUV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC7N48bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+40YP/A/MDzNqyRMhgMFH5EHa
+rJ6ihGPpTrKFxkuOenGnTmCMPhkutDDQPMUp3aEMboNkHzLErzsnl7EkVVeL6SCp
+hrNRFaLMjwrHxxxI8jC0b0zIUMpSS5bz70ZNvQE+x/wBhVocVcndIWat4reFHnES
+coDyLoxSUFI8YnM6RFQVa4YFyAogHwxUyExyPifx2at2mjkAv/dbKyaizOQttfw3
+QuwudxYqLzJH3/j37OJMfnEzAx1rCO6iquGG9/uQKOLZrENVn8c5k5zxaDkim0Ym
+oGGDQiW20ISpJZsY/2XqdECg1Mm/p0xne9HIqeOs4QVHm6NwljQF3T5sWYiIEBDt
+IPrVfiZBiRz/KUMckkeM41cTjdb5s+Fb1BJSJ9pBGtCt9kTKF5oTu0uWrlKevdkC
+ncOQP29X2Cpvt4FJB/QUoslYeMcXfzEq8sZyluSoRQz29VKMD9f8IpA7RLUc3wBr
+O7VNYC6VgoYF4LiwVygPZsfvdtDYD9F5fNpnWYGjBKcA/7DYIeZNUmFnHmgHORTn
+FXbpqxi1TmkZDbcAA6YTFBxO+ipA/CdweJtVz+SEJ/iLEQNdkUf95GGVpPn302lQ
+h62l2XVL+riSvFVArIZD3su0zp1WPSFugVmoJPP3ngoFZI+G5cfhKd/umjWvBVXh
+3N45w+D/0utaGkuAr3EFr2Lq
+=4jNt
 -----END PGP SIGNATURE-----
 
---===============7043243933948945583==--
+--===============7586964549576295284==--
