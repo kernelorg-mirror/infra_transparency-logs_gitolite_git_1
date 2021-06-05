@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-Date: Sat, 05 Jun 2021 21:54:11 -0000
-Message-Id: <162293005127.20028.6690778850390666261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Sat, 05 Jun 2021 22:12:04 -0000
+Message-Id: <162293112410.31045.18146805459655056429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-user: zx2c4
+repo: pub/scm/linux/kernel/git/soc/soc
+user: olof
 changes:
-  - ref: refs/heads/master
-    old: fd7a4621a598c63708285a8c36c5b0835173f896
-    new: 91e971fbe92c591b52459ff31dc40af7a992a7b7
-    log: |
-         91e971fbe92c591b52459ff31dc40af7a992a7b7 qemu: add disgusting hacks for RHEL 8
-         
+  - ref: refs/heads/scmi/fixes
+    old: 03f840c49207e8c125b3df8c29c13137c6675d42
+    new: 0000000000000000000000000000000000000000
