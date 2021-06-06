@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 06 Jun 2021 08:34:27 -0000
-Message-Id: <162296846752.31915.1695394882030573421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Sun, 06 Jun 2021 08:34:39 -0000
+Message-Id: <162296847923.32052.14742520058124050087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: 930cf9f0f4f5f7641ed1be253fe8222dd25cbe44
-    new: 322c88e32b659de3d69e09645214580b54da2c0b
+  - ref: refs/heads/stable
+    old: 16c060927c7116e488d94cc2838be6031db05e82
+    new: 7979ec836834f59a3633d4e97e7a218755e04f31
     log: |
-         322c88e32b659de3d69e09645214580b54da2c0b habanalabs/gaudi: remove redundant assignment to variable err
+         7979ec836834f59a3633d4e97e7a218755e04f31 wireguard: selftests: increase default dmesg log size
          
