@@ -1,292 +1,321 @@
-Content-Type: multipart/mixed; boundary="===============5804365602668062390=="
+Content-Type: multipart/mixed; boundary="===============5685358720904041429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 06 Jun 2021 22:06:06 -0000
-Message-Id: <162301716617.16531.15841870716921318781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sun, 06 Jun 2021 22:20:53 -0000
+Message-Id: <162301805303.26504.12614063978934588953@gitolite.kernel.org>
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/queue/4.14
-    old: c3f88167dd62ad7702720b56c90f778fed039a8f
-    new: f2602394f4c43936886a03dc5fdeb16e21c1ad30
-    log: revlist-c3f88167dd62-f2602394f4c4.txt
-  - ref: refs/heads/queue/4.19
-    old: 0d808978c210e5284ca99deac96bd5d6c59a79bb
-    new: 25239439c6dc44fe0374e05d6229b5da9da23c6e
-    log: revlist-0d808978c210-25239439c6dc.txt
-  - ref: refs/heads/queue/4.4
-    old: 53855c4f1cbbd6049677d1d1b300e537c27c64fb
-    new: 58de205c9e100763ea561e2e1a39eff4b1ae8f14
+  - ref: refs/heads/queue-4.14
+    old: 2918f8540ffcd0ab5e80dfea507adcd793f1db40
+    new: 0c6500c7a58e1ff50b5ab1b32c9fc2445340458c
+    log: revlist-2918f8540ffc-0c6500c7a58e.txt
+  - ref: refs/heads/queue-4.19
+    old: 6faf9265b490303a0e03ff6a6850b5decfaca631
+    new: 6a2425cf94e55410c5266404395a76b6c62b48cf
+    log: revlist-6faf9265b490-6a2425cf94e5.txt
+  - ref: refs/heads/queue-4.4
+    old: 75d131323d2bc2c29a9d855ab23ce44961d1237a
+    new: 51d3baafca8896f7c183c2a59e425ef2ee0aa406
     log: |
-         08f59f557a935352106ead3fc94fb461372f8ac3 efi: cper: fix snprintf() use in cper_dimm_err_location()
-         60583c0d37d22a72e21dec65395eaab64a142001 vfio/pci: Fix error return code in vfio_ecap_init()
-         a722bb124b8c09a0b73e5f39055cd2bdbae2ab58 vfio/platform: fix module_put call in error flow
-         3d3182243c94f18f231034ca4ceebbc8b77f8165 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-         668c894e59e9a8c155205d9e481b171c8e7f18c1 HID: pidff: fix error return code in hid_pidff_init()
-         1c029ae300fd534f1c6a9d495bb29d52557229b5 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-         5d78ae1adc2f4041fa499b0b1ff655a0f5373b62 ieee802154: fix error return code in ieee802154_add_iface()
-         58de205c9e100763ea561e2e1a39eff4b1ae8f14 ieee802154: fix error return code in ieee802154_llsec_getparams()
+         c6f994a911b52bca9a30819936a3f2b0d9a7c03a efi: cper: fix snprintf() use in cper_dimm_err_location()
+         2affb65e2e6e20eeba0d7952b6a61383ecb7d208 vfio/pci: Fix error return code in vfio_ecap_init()
+         58176316670d33e44d39cc78ee5f411c139d4e03 vfio/platform: fix module_put call in error flow
+         07add3206d3bc9088df7cbcc7d570ae2f2560e6d ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+         a77b4afd5e5e31ae4ec7817abb6b7149ef7c76fd HID: pidff: fix error return code in hid_pidff_init()
+         88f177397f244741c0e6965a97d5c8c8fd26ece9 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+         6923e38ee3d4550385237169ce95c2e5fe9577ad ieee802154: fix error return code in ieee802154_add_iface()
+         51d3baafca8896f7c183c2a59e425ef2ee0aa406 ieee802154: fix error return code in ieee802154_llsec_getparams()
          
-  - ref: refs/heads/queue/4.9
-    old: 6552fe5b6e5be95039d5150733d5b87238ff9fce
-    new: 3048d41c748ec724f3632f3b9af80f9e7f202597
-    log: revlist-6552fe5b6e5b-3048d41c748e.txt
-  - ref: refs/heads/queue/5.10
-    old: a0ce91e5eb15518ce3868423ba39215aab2b028e
-    new: 29ebe685fc461b9447505f63f175eefef5f6af45
-    log: revlist-a0ce91e5eb15-29ebe685fc46.txt
-  - ref: refs/heads/queue/5.12
-    old: 66d281b0cd06393cd599194601407eae0bef58c5
-    new: 3688c2cd39b3e930080b08260612642913a4b141
-    log: revlist-66d281b0cd06-3688c2cd39b3.txt
-  - ref: refs/heads/queue/5.4
-    old: 9583aaa10c5b2be4f6c5a5a66f34200ff64db930
-    new: ab3aaedd80cf666c5264bfb38c9b7750da2c13c9
-    log: revlist-9583aaa10c5b-ab3aaedd80cf.txt
+  - ref: refs/heads/queue-4.9
+    old: 76db28ec855d3788f6dca704c93d015fe92293e3
+    new: 10b1505a38fc97e417df50346c56f935313c33a4
+    log: revlist-76db28ec855d-10b1505a38fc.txt
+  - ref: refs/heads/queue-5.10
+    old: 86e011023e004def3a03d1766368f5fb59845b5a
+    new: 6da13f1ba8ace78cbd5c0f6d87253ffe7a0aee28
+    log: revlist-86e011023e00-6da13f1ba8ac.txt
+  - ref: refs/heads/queue-5.12
+    old: 168afc54b835c219c2584d7c427aa756a6fae35b
+    new: a0cc81a1f18a7f7a902df47ee515228f68ae54f0
+    log: revlist-168afc54b835-a0cc81a1f18a.txt
+  - ref: refs/heads/queue-5.4
+    old: 87e99328c3530324f501b855960699181749bece
+    new: 81465a97a7ecb814cf669ab7fb637f90cec07840
+    log: revlist-87e99328c353-81465a97a7ec.txt
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f88167dd62-f2602394f4c4.txt
+Content-Disposition: attachment; filename=revlist-2918f8540ffc-0c6500c7a58e.txt
 
-f8e49303d4746e0cf830a369657db87e815cff2c net: usb: cdc_ncm: don't spew notifications
-d6e9130d0310058d7c0ee05b887b433641dd2936 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-660c86ab1cec9cf16724e82791854a18d23a82bd efi: cper: fix snprintf() use in cper_dimm_err_location()
-2689b54a513ea40247e0cbc5e8532e349391d193 vfio/pci: Fix error return code in vfio_ecap_init()
-0000af6184b699f3955e43c0579506bad2d3c322 vfio/pci: zap_vma_ptes() needs MMU
-1f734b7eeb32c799620f352e1e3780268f87abff vfio/platform: fix module_put call in error flow
-32c453e8ee467194425592da12c0d0821b68b33c ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-497bfaf52022705d680b77dd4ac408f23cf476db HID: pidff: fix error return code in hid_pidff_init()
-40fad1875dc1f14fed97cc3b8943d4c0e26e314b HID: i2c-hid: fix format string mismatch
-f5a4117b2cfcdbabe680fd2b0d354410e233b4a3 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-868ed40cd3716da18fdb4824eb12f49a0b6553a0 ieee802154: fix error return code in ieee802154_add_iface()
-f2602394f4c43936886a03dc5fdeb16e21c1ad30 ieee802154: fix error return code in ieee802154_llsec_getparams()
+7f0bb297fc7b5d351dd989c7a4cfc9fb816883ae net: usb: cdc_ncm: don't spew notifications
+2f62852393e2076458c70b130186959e724c0e7a efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+1ae00055639f1b9bc42caf4949435dc04f48a1ec efi: cper: fix snprintf() use in cper_dimm_err_location()
+51962af615fa0f099d66d605e96d0f88cf435297 vfio/pci: Fix error return code in vfio_ecap_init()
+1a04d2d6a5790725ca3d14477ec76dc8a68676d2 vfio/pci: zap_vma_ptes() needs MMU
+ad8764d62a56c59079f4e0bc25d2dbda4692be1f vfio/platform: fix module_put call in error flow
+3e9cfaa279c6cde015c831bb9bc7ede5d1ed3ece ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+531ff6341eec9e5dd4fff873230a94f99a93f040 HID: pidff: fix error return code in hid_pidff_init()
+ab748fe7054d38723a40daecfd2ffd99e652d61a HID: i2c-hid: fix format string mismatch
+034737fc35357ebf53018e7e7fd95e37f0bc51a6 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+1a02b13dd5530fa9eea492d5a23c60fecf5a6e5f ieee802154: fix error return code in ieee802154_add_iface()
+0c6500c7a58e1ff50b5ab1b32c9fc2445340458c ieee802154: fix error return code in ieee802154_llsec_getparams()
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d808978c210-25239439c6dc.txt
+Content-Disposition: attachment; filename=revlist-6faf9265b490-6a2425cf94e5.txt
 
-24a2a607466939f4d17ff2330e3b8d25b9e546ff net: usb: cdc_ncm: don't spew notifications
-063c752405e60a8bc6e54e1a45aa7180bd498aea ALSA: usb: update old-style static const declaration
-274ae2a92eee191dca8fd6c686bffe783d02c9ae nl80211: validate key indexes for cfg80211_registered_device
-5d3924d0eb81e4f5600e99ae949e58a9690e5ce9 netfilter: conntrack: unregister ipv4 sockopts on error unwind
-52bf003e49d062b9f625ef3537da8d0106c6faf8 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-831e91f2afdede0780b7cb2ecf37911cc580fa28 efi: cper: fix snprintf() use in cper_dimm_err_location()
-345c7fe7d006591a264a1cb0ac637620e2cc3caa vfio/pci: Fix error return code in vfio_ecap_init()
-1931676f5246b94ea809858e23a1e24e312c107b vfio/pci: zap_vma_ptes() needs MMU
-2d053c746766d7434d783b862289f42b925d5283 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
-b7f4c46415bbf3be0641ec2eb6a6955b27c4e534 vfio/platform: fix module_put call in error flow
-5a2044ded260ec1028324a658fe0530e03461ff6 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-00844cf689bf2f2ec3a2f63b7db288ccadcfab51 HID: pidff: fix error return code in hid_pidff_init()
-d11f09b1ce8d9f5002f1ffaa4b336c9f079e8cf4 HID: i2c-hid: fix format string mismatch
-203f57791c0c751bce7230badb8085333af26669 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-d3dcf92afdeb6a1626fc0308615b86777ccd4618 ieee802154: fix error return code in ieee802154_add_iface()
-c7d60aef4cf14e1548d1cd1c1b6bbf2e35acdc35 ieee802154: fix error return code in ieee802154_llsec_getparams()
-7d2b076a1faa6138f5e8ab3e736ecb4aa74e67f5 ixgbevf: add correct exception tracing for XDP
-25239439c6dc44fe0374e05d6229b5da9da23c6e i2c: qcom-geni: Add shutdown callback for i2c
+8f65344b2c82267ea975cbf8d0f95ce7c05d496f net: usb: cdc_ncm: don't spew notifications
+e1abcfd816453214e756e449f5278462b6bc4454 ALSA: usb: update old-style static const declaration
+ad2fdeed456edf519a0633de119b3e4b308cebc0 nl80211: validate key indexes for cfg80211_registered_device
+8f960321737342d8031386fe0d4390298323cc29 netfilter: conntrack: unregister ipv4 sockopts on error unwind
+3889d6bfbc17574523acc319c04dc0036d05c014 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+2418973881dd606315ead04c1dc66265c2d55dfa efi: cper: fix snprintf() use in cper_dimm_err_location()
+2b6c25fe0c29e1d369f4ba4eec36fb1e7553df86 vfio/pci: Fix error return code in vfio_ecap_init()
+8c6792906d5a04db9354e3bcae0df9df978f7d82 vfio/pci: zap_vma_ptes() needs MMU
+0af1b9db00b6a9b57685e8cf95247c7cc2d20705 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
+56c93ef6198359cbddda33b6b37ec8145406dff6 vfio/platform: fix module_put call in error flow
+06c9f108c8caa03923411b97cbca89516e2fa6a5 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+ea58d523ad2a4fc8e2f9fe469451415c49a9a2be HID: pidff: fix error return code in hid_pidff_init()
+721279e4bfd017959b33a2606daad0e09470e07c HID: i2c-hid: fix format string mismatch
+63840680a32a562bcbb930410b4364b0e2759a72 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+2c959f831f8bee1e09de7f70263ecda6b57538fd ieee802154: fix error return code in ieee802154_add_iface()
+ed2baf35be0428a55028f6b45c478cdaac86fe02 ieee802154: fix error return code in ieee802154_llsec_getparams()
+d336c8ded2d2955247fbb2ff7ab407e224cdfce7 ixgbevf: add correct exception tracing for XDP
+6a2425cf94e55410c5266404395a76b6c62b48cf i2c: qcom-geni: Add shutdown callback for i2c
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6552fe5b6e5b-3048d41c748e.txt
+Content-Disposition: attachment; filename=revlist-76db28ec855d-10b1505a38fc.txt
 
-c3cb2ed49baec71f408fb702abe02cd0b6297fd1 net: usb: cdc_ncm: don't spew notifications
-b4f3bb45c2481fece982f7649917a96f77f8469f efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-dbdd7fa60cf149ad036899b38fee3e941e4507bc efi: cper: fix snprintf() use in cper_dimm_err_location()
-711d84dea0703d6330553aa762ac952ed8b16639 vfio/pci: Fix error return code in vfio_ecap_init()
-ab04f4482304459f91b37340e5c2bb8261bcddb6 vfio/pci: zap_vma_ptes() needs MMU
-5659a93a9d870ab76d1d94c68af1618296fc9561 vfio/platform: fix module_put call in error flow
-916890ca06ee64e9b5cedec9cb759d687ab396ce ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-8b713190badfc3880001aeb274d02624ce0aefa3 HID: pidff: fix error return code in hid_pidff_init()
-5f78d6ccc3c1b5c48e8c22ecd6381409bc6f2402 HID: i2c-hid: fix format string mismatch
-7598f4c49a42a69ed56d3a259f4f2a1b01872535 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-00817e55480eb70757a0bd26b7642306148eff81 ieee802154: fix error return code in ieee802154_add_iface()
-3048d41c748ec724f3632f3b9af80f9e7f202597 ieee802154: fix error return code in ieee802154_llsec_getparams()
+9e56e2be0b4dee48cb107a55e6d5b93b186a9647 net: usb: cdc_ncm: don't spew notifications
+3efff366c82805f53d7abd4f5384930733a62577 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+d93aa8f1f00b9b43472f2827011dc4b0f15df407 efi: cper: fix snprintf() use in cper_dimm_err_location()
+bb6c3a321a77040a7d7e83fc5d67b6e602a84f5e vfio/pci: Fix error return code in vfio_ecap_init()
+61816af2df475e0bb9cefb4652bfdc8c504ed0df vfio/pci: zap_vma_ptes() needs MMU
+277f521e5d8ae49e46477f9eeeb680e4e0802491 vfio/platform: fix module_put call in error flow
+82124aec1b96fffc01512e19de711804ddc13c05 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+3220bd8e0ba9d240326ef3b41c80a09544f0a3b4 HID: pidff: fix error return code in hid_pidff_init()
+231b004e7cdaa203505ed0164578d31f1eea2386 HID: i2c-hid: fix format string mismatch
+c16841e26d9235cace43c6ca4e264c5262adff75 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+c28cf1148c76881bbcf6305dc4750a0bede92a56 ieee802154: fix error return code in ieee802154_add_iface()
+10b1505a38fc97e417df50346c56f935313c33a4 ieee802154: fix error return code in ieee802154_llsec_getparams()
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0ce91e5eb15-29ebe685fc46.txt
+Content-Disposition: attachment; filename=revlist-86e011023e00-6da13f1ba8ac.txt
 
-63b0dfca867c4db50a536075e390617823651651 btrfs: tree-checker: do not error out if extent ref hash doesn't match
-4b5a1c3d8bbbe7cae34b144f0d56fc06569885c8 net: usb: cdc_ncm: don't spew notifications
-8bb1d33f21021be2ae24f5dc34b0ba8be4914885 hwmon: (dell-smm-hwmon) Fix index values
-e8fe0b6ca19febe98d4c5a2d08a82b8d47f8e32f hwmon: (pmbus/isl68137) remove READ_TEMPERATURE_3 for RAA228228
-93d721cee2d266cd249dad3062670b9977ceeea0 netfilter: conntrack: unregister ipv4 sockopts on error unwind
-be9fe7746aa3b0648b033f28380b29e006d8e26e efi/fdt: fix panic when no valid fdt found
-4443a8914bfb63868f28d0dc9d943e70877b4603 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-dc61cc4caf80832ba928d8f85c239e538fce6b6e efi/libstub: prevent read overflow in find_file_option()
-5c48cff60c451fa7d8265ac79a4f1ff48b1d4472 efi: cper: fix snprintf() use in cper_dimm_err_location()
-6f7ac8075a2572bd920299655db393288b53ca7d vfio/pci: Fix error return code in vfio_ecap_init()
-1c5c06f5350d4d4bed4889d926973c4acc04648c vfio/pci: zap_vma_ptes() needs MMU
-d1cba6ff3a3adee7caac73a15298ea1cc67eb622 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
-fd19c36ee973ed902e4e6ace164c50b6f4035c33 vfio/platform: fix module_put call in error flow
-2882cab66a394ae9befb6a5cf1534fbc97371ba3 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-1d08bbf35f7fae3aed8605fafab2b4427d1a5fc4 HID: logitech-hidpp: initialize level variable
-a2427c59e2ffa27803fdd5d97068ea6fd5dece4e HID: pidff: fix error return code in hid_pidff_init()
-33e5359a9db3443ccb98da3d3fdd50445a2d49ae HID: i2c-hid: fix format string mismatch
-34986ce3481363d61b54638657611500c565d529 devlink: Correct VIRTUAL port to not have phys_port attributes
-0ba1dcf3c1f7b131354a4e13afedb5ce4e27d53b net/sched: act_ct: Offload connections with commit action
-c52f59a1f6fabe771bedb38059505dc59a05168b net/sched: act_ct: Fix ct template allocation for zone 0
-87f4b7790c21a458d4d3319dd3c3ae49ed33f8e5 mptcp: always parse mptcp options for MPC reqsk
-98ff12fa425c34fd60fa4d0e01db72d5eb5cc92d nvme-rdma: fix in-casule data send for chained sgls
-55c84345dda34d31b7dfe71b445c3ed56b08874e ACPICA: Clean up context mutex during object deletion
-f72495056955de616dd0c7ed2a459477ccf0182c perf probe: Fix NULL pointer dereference in convert_variable_location()
-e05a70c9cb4b925b6d37eceb7b588f9f7285caa0 net: dsa: tag_8021q: fix the VLAN IDs used for encoding sub-VLANs
-f5024af40426d5f2cbc5072921a3416763e4fdce net: sock: fix in-kernel mark setting
-5b8c614e339c11a904526c4a590c3e87aba0beb4 net/tls: Replace TLS_RX_SYNC_RUNNING with RCU
-7b9bf3259b09840dfda961f071a48fed8bdaded8 net/tls: Fix use-after-free after the TLS device goes down and up
-5057a250c8c436472ea8dafc1733fa7e1e769d22 net/mlx5e: Fix incompatible casting
-909fe33c07e88a6e7cd8e322f12fb0984a66f908 net/mlx5: Check firmware sync reset requested is set before trying to abort it
-76ba466581b6b942c4258e5d5d47d6dfe4f681ac net/mlx5e: Check for needed capability for cvlan matching
-5bdd5444b1797019a9424fd06e7210896bdc31fa net/mlx5: DR, Create multi-destination flow table with level less than 64
-1f3b40a45a546ace8077941b9c23bc6a54f6435e nvmet: fix freeing unallocated p2pmem
-ac5f142ce1b292cd74330c7d371adc7a65736a42 netfilter: nft_ct: skip expectations for confirmed conntrack
-7b7c300bdbd180c08c4b629f2c7c9ca1b6735ff6 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-0d5c046a81388e51dce43cabbfc00c2fcce711dc drm/i915/selftests: Fix return value check in live_breadcrumbs_smoketest()
-9e111cd1eed5ea5afad815349481762292739976 bpf: Simplify cases in bpf_base_func_proto
-22f97f9ac513d81c4196fc4eb4e18360da6ae89b bpf, lockdown, audit: Fix buggy SELinux lockdown permission checks
-29efb55a22ab776a5c6fccac4464e52c9c6f8755 ieee802154: fix error return code in ieee802154_add_iface()
-7f1833c635a85d8d9a0fd00860b974f5ae299171 ieee802154: fix error return code in ieee802154_llsec_getparams()
-3e6ee684014b1463e32f44d85ba89dd1f7ec3af2 igb: add correct exception tracing for XDP
-d182cd2d6e0a7829e12f562c1c20d6254675bf48 ixgbevf: add correct exception tracing for XDP
-9f29a3ca734c3015f76016bebded824e7708f843 cxgb4: fix regression with HASH tc prio value update
-5c35b7bf0c2281caf2800bcccf6be1719cc621dc ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
-46b1cbfc0b0ec9ed274fa468a2314351b9a15d81 ice: Fix allowing VF to request more/less queues via virtchnl
-2d25b977ea04460dc62cbcf4242e07363a8270e0 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-72ef746f63f606375c1550702772227840b061b1 ice: handle the VF VSI rebuild failure
-4e38ab832fdac9246353fa9cd7b74f53f745391d ice: report supported and advertised autoneg using PHY capabilities
-514743e6dc310337b1ed7045ef2c828463dc8b21 ice: Allow all LLDP packets from PF to Tx
-417d3bfe26cbecbc36f7cfdbe97b5bbf3da1fefe i2c: qcom-geni: Add shutdown callback for i2c
-66d112a2d52e9a4446a4c8b0c00ce3bf20853bfb cxgb4: avoid link re-train during TC-MQPRIO configuration
-6bc82566c1440a476d1661197d6ba55c4d929cff i40e: optimize for XDP_REDIRECT in xsk path
-8a47bb42158ace2edb154aee5ff19d6d3dd0d86e i40e: add correct exception tracing for XDP
-ae87b38cfcddd57feb0fcc28f4e4e35f979b0c98 ice: simplify ice_run_xdp
-e920067e939bb152741ba6afe89362002b2ca73b ice: optimize for XDP_REDIRECT in xsk path
-d903e5a5ce749ca9a1e351531a8b1d436784693a ice: add correct exception tracing for XDP
-53e7b3e85b8f50b41393449102d63edd5fa65c70 ixgbe: optimize for XDP_REDIRECT in xsk path
-29ebe685fc461b9447505f63f175eefef5f6af45 ixgbe: add correct exception tracing for XDP
+e5ab60c37fb7c652444ae867df3ce95f2e78c65a btrfs: tree-checker: do not error out if extent ref hash doesn't match
+eec418354f497b2842bce02c84ea66bc6d264c55 net: usb: cdc_ncm: don't spew notifications
+b23f7be3b3d9b239b163aa03b53402c5a1eefe2c hwmon: (dell-smm-hwmon) Fix index values
+68b6c51701fa11c1abcdf8507660164fdbe332f0 hwmon: (pmbus/isl68137) remove READ_TEMPERATURE_3 for RAA228228
+0ea4eab4a7a56b91afdcc9ba8df1769c420966b9 netfilter: conntrack: unregister ipv4 sockopts on error unwind
+2a50ef23ccea890a6f5fe861bda65d3af331396f efi/fdt: fix panic when no valid fdt found
+e08c9e816b5c27ce47bff9c3a189671179ca0aed efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+af5b4d5b7eb65c6d48281035db61ded04115691e efi/libstub: prevent read overflow in find_file_option()
+cb82ea3f4faea404e0356249fd88512d98f024d2 efi: cper: fix snprintf() use in cper_dimm_err_location()
+1e60fb5ebffd3740626089f8ae47b67eb906645b vfio/pci: Fix error return code in vfio_ecap_init()
+f1a413080501dd4e9590a68e1e8389624516c6c7 vfio/pci: zap_vma_ptes() needs MMU
+e8b9d895aa582051010e8bdac490dbb7376f089d samples: vfio-mdev: fix error handing in mdpy_fb_probe()
+24d6d2e6879d0a9663d144ce8a4d5e31ba33d911 vfio/platform: fix module_put call in error flow
+98fd673bf35257aa9299d0e2ba1ff1cc9b26b837 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+59bb0864365a6b53630e85a6ba8aee5a3552d474 HID: logitech-hidpp: initialize level variable
+c38f018784fece169b80414b3719444e2e45662b HID: pidff: fix error return code in hid_pidff_init()
+7dbbb5cdaa798ae3086e9ce5e3b7cae9fcce9da2 HID: i2c-hid: fix format string mismatch
+69ceeec36692184e8a9e1b4f529d116fec00d09f devlink: Correct VIRTUAL port to not have phys_port attributes
+07b0d1498239e7c6176fe5dafa240549a3eb53e2 net/sched: act_ct: Offload connections with commit action
+268b6df4cd64d20f8ebe272604207615fec2b177 net/sched: act_ct: Fix ct template allocation for zone 0
+3ece04c20c02ce75634b26c37c7e03571e7f510a mptcp: always parse mptcp options for MPC reqsk
+2399377ab9a02b7fa45bda4c0be4e70b2073c046 nvme-rdma: fix in-casule data send for chained sgls
+cdb909ac68375ab530e49dfaa23a67d58884a261 ACPICA: Clean up context mutex during object deletion
+4098517a9de2b60bdc57e3fe3cf0d851aaaf3c47 perf probe: Fix NULL pointer dereference in convert_variable_location()
+cae1ef019f06fe7c312bb411789d1c48bdd82022 net: dsa: tag_8021q: fix the VLAN IDs used for encoding sub-VLANs
+b5bb1856b800616d1b7cf6e549016e0215423c41 net: sock: fix in-kernel mark setting
+de95fa40c3ad7fddf0ac58547f83295b9d8893a4 net/tls: Replace TLS_RX_SYNC_RUNNING with RCU
+8a2f345aa3a155ea65c91109f9a4e1ccb5a12b7f net/tls: Fix use-after-free after the TLS device goes down and up
+97ef6d3b44149e5b2339d49a5ffa962ad6f8f690 net/mlx5e: Fix incompatible casting
+019ed37f2a3af2161947b1d3f740933f273c1a82 net/mlx5: Check firmware sync reset requested is set before trying to abort it
+a8ae1c2e82e6fee734d30622b9736790fa43b14d net/mlx5e: Check for needed capability for cvlan matching
+54b478cb42164e8e269273ab28368184ad085a64 net/mlx5: DR, Create multi-destination flow table with level less than 64
+f2b2f17eeac2066e82eefa388e9748f5b0064de3 nvmet: fix freeing unallocated p2pmem
+1f3e03d2f89d9ffaad18f746298eb0296949af3d netfilter: nft_ct: skip expectations for confirmed conntrack
+a10b0eba51519e295f7916172abde5c16fd4839d netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+2ce7d0da5be944721e19ebf232f55a5cd14e8fff drm/i915/selftests: Fix return value check in live_breadcrumbs_smoketest()
+61c9b3e2444e4fda71d34b624e5cf97ba40c8f1b bpf: Simplify cases in bpf_base_func_proto
+48d82fc33d4b23c75b0037e137318363798bedc3 bpf, lockdown, audit: Fix buggy SELinux lockdown permission checks
+64f0e8058e1d20fced6c6a75dd1b79e856d02467 ieee802154: fix error return code in ieee802154_add_iface()
+0109ff17b4ee6812453c1287a3c6ec7ef01b6bf6 ieee802154: fix error return code in ieee802154_llsec_getparams()
+cfe73e03e5ed9750df7065bbeaec397f1d458089 igb: add correct exception tracing for XDP
+c50f5a6b558e863768512f8ce285618190b2cf19 ixgbevf: add correct exception tracing for XDP
+9cc1cf290ce1c5c546cfddd873db5fc38cc7c15c cxgb4: fix regression with HASH tc prio value update
+afb00a6477dbbd6a11d7860322b0a2885b8137df ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
+8b62fcba3a557bc0c753c138a7840f8ab53ac6d9 ice: Fix allowing VF to request more/less queues via virtchnl
+6c4985d36446f59211d364dbc68873cab06a81f6 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+194bde95b42daad32913090e3c1067cfd46e074d ice: handle the VF VSI rebuild failure
+1c4ac3b9243196f8231111a265e60a846c7548de ice: report supported and advertised autoneg using PHY capabilities
+f47ee39de8f85743a17f6369fd1674eb59e93f19 ice: Allow all LLDP packets from PF to Tx
+a7d626f1a570355bfce69ef9b1533d6727ab6d4a i2c: qcom-geni: Add shutdown callback for i2c
+9b5ff9a69b7e99def795f17741f1339435267e09 cxgb4: avoid link re-train during TC-MQPRIO configuration
+9f44f0c43946a6d5a54fbb480840b99468e37178 i40e: optimize for XDP_REDIRECT in xsk path
+352e6a5175a9d2d783f682e7e153de2d57b3f6ab i40e: add correct exception tracing for XDP
+ede9c1d9a55b6a0fc489ae860a299cca726baa21 ice: simplify ice_run_xdp
+f733e14a5ac353f8fe24c6154f3966175e967661 ice: optimize for XDP_REDIRECT in xsk path
+7e0611d3dd22b610c42fcaaa605c61159bd07e6e ice: add correct exception tracing for XDP
+141cbb39b81a195809222a5eae2c9975c890a873 ixgbe: optimize for XDP_REDIRECT in xsk path
+a72a2a0ff0c8e69e0a0c223e3aac53243e446ac9 ixgbe: add correct exception tracing for XDP
+bf7c30847195f68f76eef3df6e9a21bbd62719d6 arm64: dts: ti: j7200-main: Mark Main NAVSS as dma-coherent
+42b681b71c9d3707226d51382b37c56cddd4586b optee: use export_uuid() to copy client UUID
+bbbd0714bbc86baefa71e9e58b32311218da8c6b bus: ti-sysc: Fix am335x resume hang for usb otg module
+1a1a2ec273e68a357ec968f2fff1695ed951c160 arm64: dts: ls1028a: fix memory node
+a26130c0ea8edd6d73f420bf59db285d58459ae2 arm64: dts: zii-ultra: fix 12V_MAIN voltage
+642aff0d774bc4dccd58ec2c1a4cdff756fc5e25 arm64: dts: freescale: sl28: var4: fix RGMII clock and voltage
+456103031dae998d2cfdbfa8cccd1a3f6fb7767d ARM: dts: imx7d-meerkat96: Fix the 'tuning-step' property
+d17b44cee3d299b409f5f17ea7b150ca12438723 ARM: dts: imx7d-pico: Fix the 'tuning-step' property
+8506c453464294b614230feecd40505a6c3abc32 ARM: dts: imx: emcon-avari: Fix nxp,pca8574 #gpio-cells
+6da13f1ba8ace78cbd5c0f6d87253ffe7a0aee28 bus: ti-sysc: Fix flakey idling of uarts and stop using swsup_sidle_act
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66d281b0cd06-3688c2cd39b3.txt
+Content-Disposition: attachment; filename=revlist-168afc54b835-a0cc81a1f18a.txt
 
-9eea73e6f02c079cbf629b7bf4e54d891a6bc9ed mt76: mt7921: add rcu section in mt7921_mcu_tx_rate_report
-4715431337e1c22bdd6b962c603774324f2f22ec mt76: mt7921: fix possible AOOB issue in mt7921_mcu_tx_rate_report
-e5df5e469ece5634592e2e5f3c81ae0aa067fc29 mt76: mt76x0e: fix device hang during suspend/resume
-d2421b006f6a889317d7c81731ed830ef6dad9de hwmon: (dell-smm-hwmon) Fix index values
-691b6fe7ec17bdeeacb242b742fc6c5e2c5d2d58 hwmon: (pmbus/isl68137) remove READ_TEMPERATURE_3 for RAA228228
-f3eca960355385db872c9e393be83db68def767d netfilter: conntrack: unregister ipv4 sockopts on error unwind
-925b24e7835d778d5c0a31279c3b9d253aab5b70 efi/fdt: fix panic when no valid fdt found
-4e5b02e9332add97200da2d39c326d5e1ea6d7b7 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-c85bdfc6bed74dc7d431ca76e74864d52c957ec0 efi/libstub: prevent read overflow in find_file_option()
-ac48911c5c1615eaa2202bfcd7a0173497368420 efi: cper: fix snprintf() use in cper_dimm_err_location()
-8134ba4b98a8a965c81139f6b2d9795aada613d8 vfio/pci: Fix error return code in vfio_ecap_init()
-cc1446467e7c170360aa956a1dfb895084b13812 vfio/pci: zap_vma_ptes() needs MMU
-bf9445e86a89a15c0a8104a8eb170cca4f1d8454 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
-028fa616db40e4e3660755b5729fe7d656e05500 vfio/platform: fix module_put call in error flow
-9cf2c0f0d071654f4c05dc4a7a65302f7c450dac ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-8a755f4352289398d7615faeb1cc949569a9edf6 HID: logitech-hidpp: initialize level variable
-1ef44dc14564a5caa3c2db18749fd0284d3f55b0 HID: pidff: fix error return code in hid_pidff_init()
-a8f0f71215ad301f5d18a557ce865b7616039140 HID: amd_sfh: Fix memory leak in amd_sfh_work
-8c726ca70851a0bb1c13f46f7c34e0efb2933c85 HID: i2c-hid: fix format string mismatch
-f7f9cf8eb3ebeac6298dc67ebac5053febaf2d05 kbuild: Quote OBJCOPY var to avoid a pahole call break the build
-55fe03ff3ce871d19129f71fba85536200dc2d8b devlink: Correct VIRTUAL port to not have phys_port attributes
-519b7ba4eb953ce8fc6994ecfd417c058d494ef0 net/sched: act_ct: Offload connections with commit action
-e0302a38cfde11660e8e6b89ba3729f2da7a781f net/sched: act_ct: Fix ct template allocation for zone 0
-5045cc7e70b083dafa3948a248ebc3a6cfc1638c mptcp: fix sk_forward_memory corruption on retransmission
-55852ab54c5660d190ae20fe65e686b5b326b0c3 mptcp: always parse mptcp options for MPC reqsk
-94433d752f494983740412b098c67e7c2a7fe013 mptcp: do not reset MP_CAPABLE subflow on mapping errors
-bd571e8268d206540419b40f40307627eacbde32 nvme-rdma: fix in-casule data send for chained sgls
-9707528485375b8e0526b1f2999de66f726cf5b6 ACPICA: Clean up context mutex during object deletion
-42c99d0b97c8d32c3a6eec0dd048f246e2f6111d perf probe: Fix NULL pointer dereference in convert_variable_location()
-56bb393ce9605260a9aeadd180f5808ab450fdd5 net: dsa: tag_8021q: fix the VLAN IDs used for encoding sub-VLANs
-e62e709fbc99ac3c31c49a5b0b244579f5373d89 net: sock: fix in-kernel mark setting
-709a14c77794d49458394d494449247f6ffe6e04 net/tls: Replace TLS_RX_SYNC_RUNNING with RCU
-d9b57baa7bb313dc3c3ae60418f6fc7bdfafd2a6 net/tls: Fix use-after-free after the TLS device goes down and up
-56dfd16887b99eedbfdb52d4b99dd61181d6e143 net/mlx5e: Fix incompatible casting
-65dac7d28c7926e94726949154880b54b09b8d91 net/mlx5: Check firmware sync reset requested is set before trying to abort it
-9da0c35fcf3d4c2841952c9ab382c510c1fdb280 net/mlx5e: Check for needed capability for cvlan matching
-c5bbf68afedff931324be2211c3df0b494b42e68 net/mlx5e: Fix adding encap rules to slow path
-a80e530ad5b8d77930fca1f790e56aefbce2098f net/mlx5: DR, Create multi-destination flow table with level less than 64
-9c96fb2a889ab134f456edd4fe951729b6ec250f nvmet: fix freeing unallocated p2pmem
-c6be3a97974ae01e0d686ecc01ffda8fb7f3becb netfilter: nft_ct: skip expectations for confirmed conntrack
-5a489a008039f54577899b703f0345e89e6fff1f netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-3216ef484937488d5ce5f87ada92d5aa40cf3b40 drm/i915/selftests: Fix return value check in live_breadcrumbs_smoketest()
-09b23ae7f3888afa1f9d8880bb72e2a9fe31d535 bpf, lockdown, audit: Fix buggy SELinux lockdown permission checks
-84b63e26357f0055d831b049ec608a016fde11c7 ieee802154: fix error return code in ieee802154_add_iface()
-1d248ca81bf36e37299f75f3286e7892b35a0da1 ieee802154: fix error return code in ieee802154_llsec_getparams()
-b766f6e36fa9f2d350a8d6a2c7fafdd1814739af igb: Fix XDP with PTP enabled
-068357c04eb1543111e0260dbda12ffee54ce663 igb: add correct exception tracing for XDP
-88eede12030f2301571e50fa3115424404f1e67e ixgbevf: add correct exception tracing for XDP
-8e44d153bae3567b7d5fd0d31a28e0b880b9b0ba ice: track AF_XDP ZC enabled queues in bitmap
-2a91499e181f5267208f453bdf7db938dbef0550 cxgb4: fix regression with HASH tc prio value update
-83cd73b8227496d3df7fe718614c0de6a16bfa95 ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
-04390530ce74d34ca692e03acc3e3154a3f353d1 ice: Fix allowing VF to request more/less queues via virtchnl
-0b7ce902e24637dff25b59d5437933cebd18cd9b ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-846cb318e22e82d23a1c4a7ff17a5841cb6fa713 ice: handle the VF VSI rebuild failure
-e3d1cb5f9bf07d7570976ecb8a7e95b48bc075b2 ice: report supported and advertised autoneg using PHY capabilities
-e44d1e60cd15cf62a1211490bac601974707f0b7 ice: Allow all LLDP packets from PF to Tx
-ff76b260a8e72eaf1673e338c9f94d2a0155035c i2c: qcom-geni: Add shutdown callback for i2c
-1573281b230969a583df63f9874c3bdbdc8769be sch_htb: fix refcount leak in htb_parent_to_leaf_offload
-1d2c4af4333b601631d75facd94d8c6bc5130e47 cxgb4: avoid link re-train during TC-MQPRIO configuration
-a98a8c0efeafa560b50dcff3da8ba6b570b8094b i40e: optimize for XDP_REDIRECT in xsk path
-9a3a17375a50f8fd72eda123a6f2208b0c7325a3 i40e: add correct exception tracing for XDP
-ec62ccd99468c0ad427d30c16c8518416e772c54 ice: optimize for XDP_REDIRECT in xsk path
-7bfa17e7ec22f259188add780a12e4c4fe44bbba ice: add correct exception tracing for XDP
-0e8e6946cba1d88fd7d80008026b9a54f55a7f44 ixgbe: optimize for XDP_REDIRECT in xsk path
-3688c2cd39b3e930080b08260612642913a4b141 ixgbe: add correct exception tracing for XDP
+fcb57c00751d2e58e9f3a483a0fadd6b64bc9334 mt76: mt7921: add rcu section in mt7921_mcu_tx_rate_report
+90665173430288e817531f79a632f9016d81cf9d mt76: mt7921: fix possible AOOB issue in mt7921_mcu_tx_rate_report
+d4eecb6de19407828d0de2c2316af0057037f1be mt76: mt76x0e: fix device hang during suspend/resume
+2d7e37f76c1cb24cedc88ab19bb1b176596e2de6 hwmon: (dell-smm-hwmon) Fix index values
+ede27b40a99a1a9e851bc9d7cdde39521dde0184 hwmon: (pmbus/isl68137) remove READ_TEMPERATURE_3 for RAA228228
+35425542aa273003bc21f2149a461e84d7d2ed2f netfilter: conntrack: unregister ipv4 sockopts on error unwind
+065bd9632d893a9dec6e61167734a5c342b195e0 efi/fdt: fix panic when no valid fdt found
+c545c84f542896ea0d87a1fbed80d4b7679eff73 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+857bdc28df5b2ec281b61dda489d31bfaba269f6 efi/libstub: prevent read overflow in find_file_option()
+054a3584b856cbede398ef42a35845c244de37ed efi: cper: fix snprintf() use in cper_dimm_err_location()
+5b3a18fa933199df8303fd810ff10d5c0184321b vfio/pci: Fix error return code in vfio_ecap_init()
+f9d2fc42851d81245c15478c1417660f0a844c3d vfio/pci: zap_vma_ptes() needs MMU
+b0cc6d4dd5d8de566b195886f1a292b14ac074d1 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
+3ae14990f0aad3573e5797c5ed7f4745b07d3ac9 vfio/platform: fix module_put call in error flow
+7edc99789cf289a179a975c6e70f84c42a1e249d ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+f638371ed99e6eb093493eee89d31ea7e860483b HID: logitech-hidpp: initialize level variable
+e4ebc9f085079f596f3a2c7046464c8975ff0465 HID: pidff: fix error return code in hid_pidff_init()
+665f9f1268751ff5c4e8eaf751d131b6d8a69b2f HID: amd_sfh: Fix memory leak in amd_sfh_work
+105f925f7a0c2c81f71429c961f23752bfcd23f3 HID: i2c-hid: fix format string mismatch
+d3db732da5534a63d195bee8d86844d2d6cb0ce4 kbuild: Quote OBJCOPY var to avoid a pahole call break the build
+17bc23a599a6734197b40543ec1b1c46cd72f57d devlink: Correct VIRTUAL port to not have phys_port attributes
+3332c2f047eb2d72bd2ed21b89437021711b1b4e net/sched: act_ct: Offload connections with commit action
+ee40bc5e27a9f94bce84f82c77b89dd2a3c48851 net/sched: act_ct: Fix ct template allocation for zone 0
+a1b84058e4c6f25292adb0ec316944ebf41ec119 mptcp: fix sk_forward_memory corruption on retransmission
+9ca0fc27c3841e369e30e3961651d460dbf31365 mptcp: always parse mptcp options for MPC reqsk
+ced2fa70c33a59c9b578e6ddb06358383946580b mptcp: do not reset MP_CAPABLE subflow on mapping errors
+a1a9f5d657e3429c7d7eb5f25497a7ddb5566063 nvme-rdma: fix in-casule data send for chained sgls
+1fb9885596544d5029a1d2f00062be436c1d1311 ACPICA: Clean up context mutex during object deletion
+1d00800f712058a726e8759d3d17e38d1fd6564c perf probe: Fix NULL pointer dereference in convert_variable_location()
+77bef73a228b1af274f5496177e1300bb9c5d2ad net: dsa: tag_8021q: fix the VLAN IDs used for encoding sub-VLANs
+ca9f095e7c2b7b7445563731f920a18e05625753 net: sock: fix in-kernel mark setting
+90b3d6669ff46ad3c8e5f542c9d6eb7cd11db411 net/tls: Replace TLS_RX_SYNC_RUNNING with RCU
+77f4848ac5f997f02dcac785133a59b218fcd071 net/tls: Fix use-after-free after the TLS device goes down and up
+65c2901b46ee424dd198adf69c4bde5e16272edf net/mlx5e: Fix incompatible casting
+6ad316f80568cddbcef5254072152383ce404694 net/mlx5: Check firmware sync reset requested is set before trying to abort it
+9b602d59f843cd9e432b8292d2dcf8534e0b9773 net/mlx5e: Check for needed capability for cvlan matching
+a1c5989ed077510d050127b47d91e15d5a93dee3 net/mlx5e: Fix adding encap rules to slow path
+dbefbcf78b1fc5141ddc35fb8a7c9ca1142f2c74 net/mlx5: DR, Create multi-destination flow table with level less than 64
+be40c2e7ea5da9a859fab2b708d63a864dc99a03 nvmet: fix freeing unallocated p2pmem
+6d92210ba2d5ccee0e2d83345bde615565196522 netfilter: nft_ct: skip expectations for confirmed conntrack
+d71cee45252bf848d602b1e5259458c144e32930 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+f63dbd30c626bc0a82f393757534d6ef8a893437 drm/i915/selftests: Fix return value check in live_breadcrumbs_smoketest()
+7641f5539fcf7e8972d04dcc0372eb499b28d789 bpf, lockdown, audit: Fix buggy SELinux lockdown permission checks
+b6f03db9566b5e7be53d35b8c3a6c61b469b9982 ieee802154: fix error return code in ieee802154_add_iface()
+9fc7229a04ea872c9e98e57114cd47b689016b2c ieee802154: fix error return code in ieee802154_llsec_getparams()
+72cc263761618488a70f662ad142ac249723b951 igb: Fix XDP with PTP enabled
+1d43b87dbcbc72c2c994bff129fc8013c826afe5 igb: add correct exception tracing for XDP
+bc7bb46c9aa8a53fe03f916f20185d0040183668 ixgbevf: add correct exception tracing for XDP
+22e20697c12251c901a2b70d636f78d201e98ec2 ice: track AF_XDP ZC enabled queues in bitmap
+5cb2705c8398a982cf54d87452de8511b47e2dc7 cxgb4: fix regression with HASH tc prio value update
+795140db9d6853953aaf6ced5e2aa4cdbe2bf8bb ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
+b14b876011cb2088f20be5cae4ef74e27cae44bf ice: Fix allowing VF to request more/less queues via virtchnl
+188af285c59195cdfc77dfeff988f978bcd36840 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+6f592c302db750067a189c30f22a8057acc539ad ice: handle the VF VSI rebuild failure
+8eb0b5d53cf3a9f33e39cb5e4df47997416883e7 ice: report supported and advertised autoneg using PHY capabilities
+82cc1dbd4a70d33a746cce2c5272cc82d2e9e523 ice: Allow all LLDP packets from PF to Tx
+15eab79378c96c6c5a0e5b060f5d6b6c04f48fc7 i2c: qcom-geni: Add shutdown callback for i2c
+5357e8c2d2cbcc52d48a7bb156de6598f8350412 sch_htb: fix refcount leak in htb_parent_to_leaf_offload
+e3237a2b61d38fd5d5c18dceb7edde4e68387081 cxgb4: avoid link re-train during TC-MQPRIO configuration
+c2684c0d12dc143d51d54e044e70f39e03f45774 i40e: optimize for XDP_REDIRECT in xsk path
+0db41f48fa3d2f98a29da2fd0230c7df0eb12aef i40e: add correct exception tracing for XDP
+2f72430d1a725b34376b5e1b0413f22263838397 ice: optimize for XDP_REDIRECT in xsk path
+dd99d3b00a539e425f023fa6c3ad9867c693717b ice: add correct exception tracing for XDP
+1d3b883b2153c0353fc7e31cbd80078fa388e829 ixgbe: optimize for XDP_REDIRECT in xsk path
+dc1059e4d803ed30c4bdbae5ac3b0ed67b1bc1a0 ixgbe: add correct exception tracing for XDP
+0bbc5af0fd71046a5dc963807d226beb2350408e arm64: dts: ti: j7200-main: Mark Main NAVSS as dma-coherent
+0afb49b656fdb5576d647c4c8ffb6a6e02179414 optee: use export_uuid() to copy client UUID
+c92e1748bd8ee41ce926f41098d77b810e2c2cb2 bus: ti-sysc: Fix am335x resume hang for usb otg module
+978852c9d257c83f122116d04b1af4140df5fc83 arm64: dts: ls1028a: fix memory node
+916c79bacbb5f374c2953b384d442f52edeb326c arm64: dts: zii-ultra: remove second GEN_3V3 regulator instance
+0199b22131a6594f1cf0c83c798f2b071715e9ca arm64: dts: zii-ultra: fix 12V_MAIN voltage
+315de3b09a8a9b007cd675aed6fb73e83086f52d arm64: dts: freescale: sl28: var4: fix RGMII clock and voltage
+4037350884db23e785ec3b3b7a93d0fd4ebd641b arm64: dts: freescale: sl28: var1: fix RGMII clock and voltage
+dffd7f8d99675ca581ad68c154663c170a8f8c3c ARM: dts: imx7d-meerkat96: Fix the 'tuning-step' property
+7d898751d00abac41c0a30b8b7acab9bd63bd385 ARM: dts: imx7d-pico: Fix the 'tuning-step' property
+d6c307730214b5593fe5c42cc286e2640b58bf17 ARM: dts: imx: emcon-avari: Fix nxp,pca8574 #gpio-cells
+1bdf8227df87204d71f9391d246f18662942342b bus: ti-sysc: Fix flakey idling of uarts and stop using swsup_sidle_act
+a0cc81a1f18a7f7a902df47ee515228f68ae54f0 arm64: meson: select COMMON_CLK
 
---===============5804365602668062390==
+--===============5685358720904041429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9583aaa10c5b-ab3aaedd80cf.txt
+Content-Disposition: attachment; filename=revlist-87e99328c353-81465a97a7ec.txt
 
-da647ae6f7b2a77bc035d19441469b481ae3dd15 btrfs: tree-checker: do not error out if extent ref hash doesn't match
-517aa8675eaf1a5d79b021f0c3864006fcc2203c net: usb: cdc_ncm: don't spew notifications
-c8c735665e8b4bfa869bae6de81cb93306792c48 ALSA: usb: update old-style static const declaration
-ead2021d7ba815795611ecba0f703a761e40a9a9 nl80211: validate key indexes for cfg80211_registered_device
-858bdda8383ad196aba84fd306a6dd766abd4e6f hwmon: (dell-smm-hwmon) Fix index values
-52663a1ca9a6fa118e82accf528e121d83dc9784 netfilter: conntrack: unregister ipv4 sockopts on error unwind
-b9bc513e477eb385344d1854aa08b39add1b9678 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-3ce8e4bad6cbc4a028fcad84974cc65bf9c460e9 efi: cper: fix snprintf() use in cper_dimm_err_location()
-c2f9d04332f4b8706170e891e79d802bfe6b0554 vfio/pci: Fix error return code in vfio_ecap_init()
-08bd8e5d0cc41981919fe23f625451b1eda3d0e7 vfio/pci: zap_vma_ptes() needs MMU
-293e31562111610f5c25a06bae7d6d26b02aac50 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
-28b13cd0bf6aba36dbaa73b1b56c6ac3a025e606 vfio/platform: fix module_put call in error flow
-1bf3b46ec32c619ff41a86641f17be5b5891de3b ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-1649657fdff94e1e147b9f0ef504df346cf395ee HID: pidff: fix error return code in hid_pidff_init()
-9ddef9b255d22bf389f81b520ba4609d6899b4ea HID: i2c-hid: fix format string mismatch
-38e328bd72332f79198df4cee8e503d6c9e4bc59 net/sched: act_ct: Fix ct template allocation for zone 0
-0188e12ce9c1c614a73120ddfe9b94393c95f203 ACPICA: Clean up context mutex during object deletion
-badade37bac253bacc8940bd34f5413f9d868986 netfilter: nft_ct: skip expectations for confirmed conntrack
-e41541cf922109fec977f4c27419f827109e3ce4 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-d374afef1db71e1c35f588da88d0f019d093cc04 ieee802154: fix error return code in ieee802154_add_iface()
-8eb0364e2bcfc444d195c675aa7edb2965793d55 ieee802154: fix error return code in ieee802154_llsec_getparams()
-1ccff42a67219fdb369bd0435960d7eb40dd0eb5 ixgbevf: add correct exception tracing for XDP
-17a9d31e6ed0232e834cdd5c39de474ed7bad333 ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
-e642def6cd3e8096bbe798d64f73aeb193895781 ice: write register with correct offset
-a9d18d26d1743f3967e157ddacac8af8c8fb9483 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-3544efcff978e409743e6b1ecb096d44648d7ccc ice: Allow all LLDP packets from PF to Tx
-8c7ecac87a345151cc43fe4a2554d054e9d2a128 i2c: qcom-geni: Add shutdown callback for i2c
-2966b56bec3707982703390f69528815d1869993 i40e: optimize for XDP_REDIRECT in xsk path
-ab3aaedd80cf666c5264bfb38c9b7750da2c13c9 i40e: add correct exception tracing for XDP
+b872d8c60c469d2c5262aaf0389a2fa639f74784 btrfs: tree-checker: do not error out if extent ref hash doesn't match
+fd74443ca0df5f89382b6e0114a5e7789c19587f net: usb: cdc_ncm: don't spew notifications
+969df16442d2dbf43f424940d3bd39d918c45fc7 ALSA: usb: update old-style static const declaration
+84b6452c4cf475413e48cc23598065a9ccca46af nl80211: validate key indexes for cfg80211_registered_device
+284d21b36d8a98155997b6a8a80034ea6d00e78c hwmon: (dell-smm-hwmon) Fix index values
+506832ffc79d87988f6751d4a4ffec1e1e50830d netfilter: conntrack: unregister ipv4 sockopts on error unwind
+17a641e2a4fecd20fa6c374612f9d0e97d0fbe33 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+efe34e7fbf8c1fa31424babe3ccdce437fc615bc efi: cper: fix snprintf() use in cper_dimm_err_location()
+0a30a24168c6f2ce9eceb14281f2f1d9634dda78 vfio/pci: Fix error return code in vfio_ecap_init()
+33b385e1a2283d1bb4ab588f5ca12325a47593c8 vfio/pci: zap_vma_ptes() needs MMU
+d919eac9ad558e47d79649f58cffa038a29f00c7 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
+c372c042f34f7aa588989d7f17ae9866386338ca vfio/platform: fix module_put call in error flow
+a7ea5a911a8a6fb6e09dea138b769ca06e8a4f0e ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+c11367e424cb5dabc02ef67adb2a93dd7bbd356a HID: pidff: fix error return code in hid_pidff_init()
+dd9267e30b509bf59ab75f69a1644026d09625f4 HID: i2c-hid: fix format string mismatch
+5759bb4610ae0abdde250d63ad8f4dd3c76fdc30 net/sched: act_ct: Fix ct template allocation for zone 0
+0e4f28c3c4862c6d222a843c11a8366db9797c7b ACPICA: Clean up context mutex during object deletion
+0176f754b6b3ac6a3dcd57cf1985a39433443aa8 netfilter: nft_ct: skip expectations for confirmed conntrack
+641ab34e281a1cffbb20463841943b644bf52e10 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+13b0be95d7ffd1a895b469cec1bca9066211cd74 ieee802154: fix error return code in ieee802154_add_iface()
+d7393d28a8ac146ac5ae74ee858255122fcdef76 ieee802154: fix error return code in ieee802154_llsec_getparams()
+b7cb299a2acfa7978010ca36c26865b3c3957953 ixgbevf: add correct exception tracing for XDP
+5cba26d3afa51b8f5025dbf664a0873fa980ae7b ipv6: Fix KASAN: slab-out-of-bounds Read in fib6_nh_flush_exceptions
+378de9f4a8d71db07ee7a519d32a8a3537c32d27 ice: write register with correct offset
+ca73464fbd1ec44fd3d0291ef2f917ac75687ec8 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+7cdde3aecdca875d3ee1c9062ed888fa76e2ee4c ice: Allow all LLDP packets from PF to Tx
+b59fd39d489b3c07d2e5493bf6509cf3f575fabb i2c: qcom-geni: Add shutdown callback for i2c
+8b25f26cc6f68104ae842c651150ac7210c4eab2 i40e: optimize for XDP_REDIRECT in xsk path
+3e40f9d584839a535421367b9933e067563ea54c i40e: add correct exception tracing for XDP
+8dd87824537c8268b38df57201f9f2ffca859e44 arm64: dts: ls1028a: fix memory node
+8c6f671c2377aef9d1a7e0b2b07d0d67ebe1c605 arm64: dts: zii-ultra: fix 12V_MAIN voltage
+c1737271fb0705ca207380d54305068a10b522fa ARM: dts: imx7d-meerkat96: Fix the 'tuning-step' property
+834f9e2131e3c65062b437e3d74997fb7fb2f991 ARM: dts: imx7d-pico: Fix the 'tuning-step' property
+b8c006f44a2d655e0852b33819ba5b0c3b48fa34 ARM: dts: imx: emcon-avari: Fix nxp,pca8574 #gpio-cells
+81465a97a7ecb814cf669ab7fb637f90cec07840 bus: ti-sysc: Fix flakey idling of uarts and stop using swsup_sidle_act
 
---===============5804365602668062390==--
+--===============5685358720904041429==--
