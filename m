@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Sun, 06 Jun 2021 09:20:29 -0000
-Message-Id: <162297122924.14914.15891232448334841237@gitolite.kernel.org>
+Date: Sun, 06 Jun 2021 09:22:08 -0000
+Message-Id: <162297132803.15597.5695296595786654718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
 user: zx2c4
 changes:
   - ref: refs/heads/stable
-    old: 29dcd0fdee1692c001b8f5a97dd5386f246fc03f
-    new: f70282fbc58cc5a2dec3ccac9395c697e0cccb03
+    old: f70282fbc58cc5a2dec3ccac9395c697e0cccb03
+    new: a9da8abbfdf4151339a715d8f33d8a3c34fa5ee7
     log: |
-         f70282fbc58cc5a2dec3ccac9395c697e0cccb03 wireguard: selftests: actually test for routing loops
+         a9da8abbfdf4151339a715d8f33d8a3c34fa5ee7 wireguard: selftests: actually test for routing loops
          
