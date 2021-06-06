@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3365977336260091074=="
+Content-Type: multipart/mixed; boundary="===============7319628958186724478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 06 Jun 2021 18:05:30 -0000
-Message-Id: <162300273086.26815.674015241840502196@gitolite.kernel.org>
+Date: Sun, 06 Jun 2021 18:25:08 -0000
+Message-Id: <162300390881.7325.11987351352221377179@gitolite.kernel.org>
 
---===============3365977336260091074==
+--===============7319628958186724478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,26 +16,26 @@ repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
   - ref: refs/heads/irq/generic_handle_domain_irq
-    old: b203845399394ea6fd448aa8c457b9d7c58a1688
-    new: 97ccb88eefbf2d9ec7fd44642ea2b22250e8f4b6
-    log: revlist-b20384539939-97ccb88eefbf.txt
+    old: 97ccb88eefbf2d9ec7fd44642ea2b22250e8f4b6
+    new: c428de80ca857c98a9c02731bff5a6c78a98c242
+    log: revlist-97ccb88eefbf-c428de80ca85.txt
 
---===============3365977336260091074==
+--===============7319628958186724478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b20384539939-97ccb88eefbf.txt
+Content-Disposition: attachment; filename=revlist-97ccb88eefbf-c428de80ca85.txt
 
-9adb92e0f0537b3de9264a337c761b50c2fe9a79 PCI: Bulk conversion to generic_handle_domain_irq()
-580ef55bc1c9eadef91068fc7361313d7e27fdc1 mfd: Bulk conversion to generic_handle_domain_irq()
-3c0d5b859c2910e6e311652559bec78076801308 gpu: Bulk conversion to generic_handle_domain_irq()
-099175462ee9e214a2ecda6a4f339bcd5be9d9c7 SH: Bulk conversion to generic_handle_domain_irq()
-eaab0e4dd99102fd2d17321065df6b939c05bd87 ARM: Bulk conversion to generic_handle_domain_irq()
-ce39f68bbccbd96f612181b707a322fa43a47514 mips: Bulk conversion to generic_handle_domain_irq()
-6f6d9eca9538cfdb5bc339574f0affdf4f03ec56 arc: Bulk conversion to generic_handle_domain_irq()
-9d178484dd0a601996381881c7a3de4dc54d1591 xtensa: Bulk conversion to generic_handle_domain_irq()
-6b60e264e732e466cf62eebb68d2cc197110e4cd nios2: Bulk conversion to generic_handle_domain_irq()
-c65eca36d494ee60ec3264d2a7df582f9caa2ff9 powerpc: Bulk conversion to generic_handle_domain_irq()
-97ccb88eefbf2d9ec7fd44642ea2b22250e8f4b6 genirq: Replace irqaction:irq with a pointer to the irqdesc
+7b012a4ceb053cf1c1867f3efa3ae1f226a1eb88 PCI: Bulk conversion to generic_handle_domain_irq()
+648ac8d8fd068880321711dbc3a50ca2fbdcdf0a mfd: Bulk conversion to generic_handle_domain_irq()
+65c7110c23dc5cf45f2bf742260148c98aa30e8f gpu: Bulk conversion to generic_handle_domain_irq()
+03a3dab752f6da471c53b36bebd2b102cba864d7 SH: Bulk conversion to generic_handle_domain_irq()
+3b0b06822a1eca00101e7ddbb549b38f4c213bf9 ARM: Bulk conversion to generic_handle_domain_irq()
+e1f6e458f85741b718812f4458a9b2c8da94f97b mips: Bulk conversion to generic_handle_domain_irq()
+24b66196503735b313b567809b602c729ae60e9b arc: Bulk conversion to generic_handle_domain_irq()
+92e4eb8ff478dab9958a325dc06e3c5eab0037fe xtensa: Bulk conversion to generic_handle_domain_irq()
+4fc66fc7966939e046accece93a4658b3b9bc506 nios2: Bulk conversion to generic_handle_domain_irq()
+9cf64ee6ebf0c5f2ab453df0ab3ce779b545817a powerpc: Bulk conversion to generic_handle_domain_irq()
+c428de80ca857c98a9c02731bff5a6c78a98c242 genirq: Replace irqaction:irq with a pointer to the irqdesc
 
---===============3365977336260091074==--
+--===============7319628958186724478==--
