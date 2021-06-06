@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 06 Jun 2021 00:19:18 -0000
-Message-Id: <162293875863.13017.14899396391638189512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Sun, 06 Jun 2021 00:41:55 -0000
+Message-Id: <162294011582.27888.734472712901830147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: dc2a881a2fc436b4cca469e07d8b16cb57f9a55d
-    new: 9d97045029115661f983afaa83a451206eef7654
+  - ref: refs/heads/pending
+    old: 8812ce1c6215b1c9e9661db4945fb47b56149880
+    new: 605a5e41db7d8c930fb80115686991c4c1d08ee4
     log: |
-         9d97045029115661f983afaa83a451206eef7654 Sun 06 Jun 2021 12:18:52 AM UTC
+         07d62eac422c5c8aec6ec1dacdc27423334b2d17 cxl/pci: Introduce cxl_decode_register_block()
+         f8a7e8c29be873b90fcc426e93bdb6184df5970e cxl/pci: Reserve all device regions at once
+         30af97296f48d84bc4a6abbaabb92c796a84ca57 cxl/pci: Map registers based on capabilities
+         9a016527dcb71e2ecadfeacf52122a79b428790c cxl/pci: Reserve individual register block regions
+         08422378c4adacf528d573bb1631d4818f8f9a01 cxl/pci: Add HDM decoder capabilities
+         605a5e41db7d8c930fb80115686991c4c1d08ee4 cxl/pci: Fixup devm_cxl_iomap_block() to take a 'struct device *'
          
