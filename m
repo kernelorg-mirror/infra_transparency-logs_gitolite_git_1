@@ -1,44 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1788565481372295860=="
+Content-Type: multipart/mixed; boundary="===============3848699481279791164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 07 Jun 2021 10:02:45 -0000
-Message-Id: <162306016592.31138.8746875644316951664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 07 Jun 2021 10:02:54 -0000
+Message-Id: <162306017421.31253.14561611080621410872@gitolite.kernel.org>
 
---===============1788565481372295860==
+--===============3848699481279791164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
     new: 614124bea77e452aa6df7a8714e8bc820b489922
     log: revlist-8124c8a6b353-614124bea77e.txt
-  - ref: refs/heads/rdma-next
-    old: 779646f022f9b8298f9a9dc8695a9706800c05ce
-    new: 638d5b896379a3e298d67fca5020b3d67aa1eb85
-    log: |
-         0ed1b6082344cbb7fd94fed6463ccf8a8848a86a RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
-         b0a0cadc80dcf0ebf94ba00ee6a03667f0a2fe68 RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
-         eaa1cd8a4ab6bebc31d4d584ffdf201a4de70166 RDMA/mlx5: Change the cache to hold mkeys instead of MRs
-         41fa837cde8a8a7a637209c992089461c66de4d5 RDMA/mlx5: Change the cache structre to an rbtree
-         638d5b896379a3e298d67fca5020b3d67aa1eb85 RDMA/mlx5: Delay the deregistration of a non-cache mkey
-         
-  - ref: refs/heads/testing/rdma-next
-    old: 0c5097e1648e7000b358deaa66fe7f83a3cb6fe6
-    new: f9a94f0b8e7c47ff2c088327adde2e44dba944f6
-    log: revlist-0c5097e1648e-f9a94f0b8e7c.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: f72e27d5c82cd9beec7670141afa62786836c569
-    new: b28b3b0caa94c94b2359d43120153aa4bb895157
-    log: revlist-f72e27d5c82c-b28b3b0caa94.txt
+  - ref: refs/heads/queue-next
+    old: 1ac3b7aaf016b488c02896462f483279c8a72537
+    new: 63a5ba90039edf87e997048156a17ef57c76436c
+    log: revlist-1ac3b7aaf016-63a5ba90039e.txt
+  - ref: refs/heads/queue-rc
+    old: 40b6ba9666319f5b3c07ee831307105cc0b8a258
+    new: f6a86393a4de6d9527684f31cce52d7722764fd6
+    log: revlist-40b6ba966631-f6a86393a4de.txt
 
---===============1788565481372295860==
+--===============3848699481279791164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -377,11 +367,11 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
 
---===============1788565481372295860==
+--===============3848699481279791164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c5097e1648e-f9a94f0b8e7c.txt
+Content-Disposition: attachment; filename=revlist-1ac3b7aaf016-63a5ba90039e.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -723,12 +713,13 @@ eaa1cd8a4ab6bebc31d4d584ffdf201a4de70166 RDMA/mlx5: Change the cache to hold mke
 638d5b896379a3e298d67fca5020b3d67aa1eb85 RDMA/mlx5: Delay the deregistration of a non-cache mkey
 b28b3b0caa94c94b2359d43120153aa4bb895157 Merge branch 'master' into testing/rdma-rc
 f9a94f0b8e7c47ff2c088327adde2e44dba944f6 Merge branch 'rdma-next' into testing/rdma-next
+63a5ba90039edf87e997048156a17ef57c76436c Merge branch 'testing/rdma-next' into queue-next
 
---===============1788565481372295860==
+--===============3848699481279791164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f72e27d5c82c-b28b3b0caa94.txt
+Content-Disposition: attachment; filename=revlist-40b6ba966631-f6a86393a4de.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -1063,5 +1054,6 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
 b28b3b0caa94c94b2359d43120153aa4bb895157 Merge branch 'master' into testing/rdma-rc
+f6a86393a4de6d9527684f31cce52d7722764fd6 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1788565481372295860==--
+--===============3848699481279791164==--
