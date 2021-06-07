@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1636164670488537801=="
+Content-Type: multipart/mixed; boundary="===============2347867124484975351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Jun 2021 18:55:24 -0000
-Message-Id: <162309212402.25142.6965608887414924221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 07 Jun 2021 18:55:41 -0000
+Message-Id: <162309214133.25327.8397823729669409314@gitolite.kernel.org>
 
---===============1636164670488537801==
+--===============2347867124484975351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 2e0d6a3170bdd637d90a2accd056bf2b089d824e
-    new: fabbbfa8c586cfb20581f02b75958ed16f18d0c6
-    log: revlist-2e0d6a3170bd-fabbbfa8c586.txt
+    old: bb4e7ad42ec0ca583b86da7b16e031fb7327d68b
+    new: dd65704e072565d764821f8e2228adc144bcff1f
+    log: revlist-bb4e7ad42ec0-dd65704e0725.txt
   - ref: refs/heads/for-next
-    old: 4eb201f979237c8488d705d206b6b785971a0cc2
-    new: 93f6b6e8c0b80f06525e23ab242bcfd6f9ef38c2
-    log: revlist-4eb201f97923-93f6b6e8c0b8.txt
+    old: a8bc69b7fdfa41a975a7c5cb3c1e765851c74f78
+    new: 39dc764c30d0201dafdef665245acaaa13948edf
+    log: revlist-a8bc69b7fdfa-39dc764c30d0.txt
 
---===============1636164670488537801==
+--===============2347867124484975351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e0d6a3170bd-fabbbfa8c586.txt
+Content-Disposition: attachment; filename=revlist-bb4e7ad42ec0-dd65704e0725.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -362,13 +362,14 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 20e41d9bc80456207deb71141147a3de2c34e676 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
-fabbbfa8c586cfb20581f02b75958ed16f18d0c6 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+7eec532b72223697be42124781e667768f3d3ec2 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+dd65704e072565d764821f8e2228adc144bcff1f Merge remote-tracking branch 'spi/for-5.13' into spi-linus
 
---===============1636164670488537801==
+--===============2347867124484975351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4eb201f97923-93f6b6e8c0b8.txt
+Content-Disposition: attachment; filename=revlist-a8bc69b7fdfa-39dc764c30d0.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -528,13 +529,6 @@ c2131f7e73c9e9365613e323d65c7b9e5b910f56 Merge tag 'gfs2-v5.13-rc2-fixes' of git
 d3fddc355a4a4415e8d43d1faae1be713d65cf5e perf stat: Fix error return code in bperf__load()
 f677ec94f6fb9d895f40403bd54236f7763c29db perf test: Test 17 fails with make LIBPFM4=1 on s390 z/VM
 0b78f8bcf4951af30b0ae83ea4fad27d641ab617 Revert "fb_defio: Remove custom address_space_operations"
-d8570c182f56ca52c98734732fb9a331f7c23f9a mfd: mt6358: Refine interrupt code
-be60652f0260c2f371670ec90f1ac55e2671f793 rtc: mt6397: refine RTC_TC_MTH
-65c1d05325b71b592688590d85c5ef6b360ca3fe dt-bindings: mfd: Add compatible for the MediaTek MT6359 PMIC
-8771456635d595707307210d5aa9f8ce41598f94 dt-bindings: regulator: Add document for MT6359 regulator
-e545b8f380a96174df40db4203d09156e096ee89 mfd: Add support for the MediaTek MT6359 PMIC
-d7a58decc7049e8ca9707b63fcc2556cde3d26c5 regulator: mt6359: Add support for MT6359 regulator
-4cfc965475124c4eed2b7b5d8b6fc5048a21ecfd regulator: mt6359: Add support for MT6359P regulator
 d5b8145455c629e7f157d2da46a9b2fba483f235 Revert "gfs2: Fix mmap locking for write faults"
 4ef8d857b5f494e62bce9085031563fda35f9563 net: dsa: tag_8021q: fix the VLAN IDs used for encoding sub-VLANs
 dd9082f4a9f94280fbbece641bf8fc0a25f71f7a net: sock: fix in-kernel mark setting
@@ -709,12 +703,9 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 20e41d9bc80456207deb71141147a3de2c34e676 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
-4388daa8e2c7ad9db10c424ab416ddf5fa960c47 Merge tag 'tb-mfd-regulator-rtc-v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd into regulator-5.14
-3c37d899ef8bd9940f9eee551c6c0b16b36aa1e2 regulator: max77686: Convert to use regulator_set_ramp_delay_regmap
-431ea63b647fb35a0ff7f40f19c2bbd22abeb564 regulator: mt6358: Use unsigned int for volt_tables
-5a5e31150c9ecdb76d3f87ed852f5c650d70c7d2 regulator: mt6359: Use unsigned int for volt_tables
-73d4ae57f82ec1e5fc92b9acd25bb1db2f8cf8e3 regulator: mt6359: Get rid of linear_range tables
-fabbbfa8c586cfb20581f02b75958ed16f18d0c6 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
-93f6b6e8c0b80f06525e23ab242bcfd6f9ef38c2 Merge remote-tracking branch 'regulator/for-5.14' into regulator-next
+2b2142f247ebeef74aaadc1a646261c19627fd7e spi: hisi-kunpeng: Add debugfs support
+7eec532b72223697be42124781e667768f3d3ec2 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+dd65704e072565d764821f8e2228adc144bcff1f Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+39dc764c30d0201dafdef665245acaaa13948edf Merge remote-tracking branch 'spi/for-5.14' into spi-next
 
---===============1636164670488537801==--
+--===============2347867124484975351==--
