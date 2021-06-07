@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2160206163700329858=="
+Content-Type: multipart/mixed; boundary="===============0197388017960290144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 07 Jun 2021 16:42:20 -0000
-Message-Id: <162308414033.2014.18336244566623615239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 07 Jun 2021 16:43:19 -0000
+Message-Id: <162308419900.2389.12759844506627047940@gitolite.kernel.org>
 
---===============2160206163700329858==
+--===============0197388017960290144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev
-    old: ac1c889d37da32c7f3cf3cda51db443fd21ce1ec
-    new: c5fcb51111b85323cafe3f02784f7f0bf6a7cf07
-    log: revlist-ac1c889d37da-c5fcb51111b8.txt
+  - ref: refs/heads/rdma-core-fault-injection
+    old: c10352e6ee388d8936aa27e400c2400172c05f78
+    new: f91724fb979357a1360f06c571b5eb783f7a419d
+    log: revlist-c10352e6ee38-f91724fb9793.txt
 
---===============2160206163700329858==
+--===============0197388017960290144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac1c889d37da-c5fcb51111b8.txt
+Content-Disposition: attachment; filename=revlist-c10352e6ee38-f91724fb9793.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -358,8 +358,7 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 20e41d9bc80456207deb71141147a3de2c34e676 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
-0508c1ad0f264a24c4643701823a45f6c9bd8146 erofs: fix error return code in erofs_read_superblock()
-7dea3de7d384f4c8156e8bd93112ba6db1eb276c erofs: remove the occupied parameter from z_erofs_pagevec_enqueue()
-c5fcb51111b85323cafe3f02784f7f0bf6a7cf07 erofs: clean up file headers & footers
+40bd57175a5af07f9d3ea735a076b2a5fb4b80c8 RDMA/core: Mark ib_post_send() and ib_post_recv() as error injection sites
+f91724fb979357a1360f06c571b5eb783f7a419d RDMA/core: Enable injection of corrupt L_keys
 
---===============2160206163700329858==--
+--===============0197388017960290144==--
