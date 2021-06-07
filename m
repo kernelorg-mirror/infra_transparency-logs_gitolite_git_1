@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 07 Jun 2021 13:49:28 -0000
-Message-Id: <162307376838.14115.13915863435927439932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Mon, 07 Jun 2021 13:52:48 -0000
+Message-Id: <162307396801.17804.10023909620476142275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 677886da48ea94ca33a47b734daa881e5772b2c1
-    new: 4693fe4cd9d3aafdf06210e22822c6d093c2e099
+  - ref: refs/heads/pci/virtualization
+    old: 0ba5c84d9dc39b65829e912d2bd7e2d5f6b57b66
+    new: abcb1449378eef5df7b99967da78eb6374ba7b7f
     log: |
-         01c3d593be8d3e45fce3644011c60b0645cbdd78 ACPI: OSL: Use DEFINE_RES_IO_NAMED() to simplify code
-         4693fe4cd9d3aafdf06210e22822c6d093c2e099 Merge branch 'acpi-misc' into bleeding-edge
+         2279b38006bc1e11057fd53845580b3423f19437 PCI: Mark TI C667X to avoid bus reset
+         16df8daea0482b76a8c4d51e6fd97db1c854fd12 PCI/IOV: Clarify error message for unbound devices
+         db0842938f666a86f4284852548855552503a77f PCI: Add ACS quirk for Broadcom BCM57414 NIC
+         abcb1449378eef5df7b99967da78eb6374ba7b7f PCI: Mark AMD Navi14 GPU ATS as broken
          
