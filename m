@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 07 Jun 2021 14:31:32 -0000
-Message-Id: <162307629292.14554.12620209262597739283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 07 Jun 2021 14:41:32 -0000
+Message-Id: <162307689216.20738.5733731890084115372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 021542b5e2282dd88af3e682c6b2570c0bcd4ca5
-    new: 07573b762934e34e188a898d471399de8de179fb
-    log: |
-         888be6067b97132c3992866bbcf647572253ab3f ACPI: sysfs: Fix a buffer overrun problem with description_show()
-         07573b762934e34e188a898d471399de8de179fb Merge branch 'acpi-sysfs' into bleeding-edge
-         
+  - ref: refs/tags/intel-pinctrl-v5.14-1
+    old: 0000000000000000000000000000000000000000
+    new: beb060c0dd18fec77270cb4a2340253a8ba5e9dc
