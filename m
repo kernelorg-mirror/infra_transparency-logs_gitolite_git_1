@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 07 Jun 2021 20:17:43 -0000
-Message-Id: <162309706324.13628.15729470638560780093@gitolite.kernel.org>
+Date: Mon, 07 Jun 2021 20:20:20 -0000
+Message-Id: <162309722042.17215.13901992236607583285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 3f07ce8e528746d477cfb301f4dc7b197ad1e2a3
-    new: 4fb473fe7325181f87d586685d21f27a9b9e25f8
+    old: 4fb473fe7325181f87d586685d21f27a9b9e25f8
+    new: ef91f7981036a293ee1fa1cd2f670702a3889f4b
     log: |
-         4fb473fe7325181f87d586685d21f27a9b9e25f8 atm: [br2864] fix spelling mistakes
+         ef91f7981036a293ee1fa1cd2f670702a3889f4b net: gemini: Use devm_platform_get_and_ioremap_resource()
          
