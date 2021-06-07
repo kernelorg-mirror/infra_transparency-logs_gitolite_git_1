@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6321890147077711549=="
+Content-Type: multipart/mixed; boundary="===============5587739013545098986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 07 Jun 2021 15:37:35 -0000
-Message-Id: <162308025525.25365.16644271356006734674@gitolite.kernel.org>
+Date: Mon, 07 Jun 2021 15:37:59 -0000
+Message-Id: <162308027934.25591.7083655127919476640@gitolite.kernel.org>
 
---===============6321890147077711549==
+--===============5587739013545098986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
-    new: 614124bea77e452aa6df7a8714e8bc820b489922
-    log: revlist-8124c8a6b353-614124bea77e.txt
+    new: 1874cb13d5d7cafa61ce93a760093ebc5485b6ab
+    log: revlist-8124c8a6b353-1874cb13d5d7.txt
 
---===============6321890147077711549==
+--===============5587739013545098986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8124c8a6b353-614124bea77e.txt
+Content-Disposition: attachment; filename=revlist-8124c8a6b353-1874cb13d5d7.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -358,5 +358,7 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 20e41d9bc80456207deb71141147a3de2c34e676 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
+5bcbe3285fb614c49db6b238253f7daff7e66312 s390/mcck: fix calculation of SIE critical section size
+1874cb13d5d7cafa61ce93a760093ebc5485b6ab s390/mcck: fix invalid KVM guest condition check
 
---===============6321890147077711549==--
+--===============5587739013545098986==--
