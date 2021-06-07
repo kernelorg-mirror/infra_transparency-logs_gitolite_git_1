@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0233136202031505187=="
+Content-Type: multipart/mixed; boundary="===============7958750244115226446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Jun 2021 14:31:03 -0000
-Message-Id: <162307626328.14225.4600766626429462650@gitolite.kernel.org>
+Date: Mon, 07 Jun 2021 14:31:14 -0000
+Message-Id: <162307627415.14382.10559447671711774501@gitolite.kernel.org>
 
---===============0233136202031505187==
+--===============7958750244115226446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: b44bf9410a6921a232679124ca48daa2a8a15303
-    new: c1367ee016e3550745315fb9a2dd1e4ce02cdcf6
-    log: |
-         c1367ee016e3550745315fb9a2dd1e4ce02cdcf6 m68k: atari: Fix ATARI_KBD_CORE kconfig unmet dependency warning
-         
-  - ref: refs/heads/for-v5.14
-    old: b44bf9410a6921a232679124ca48daa2a8a15303
-    new: c1367ee016e3550745315fb9a2dd1e4ce02cdcf6
-    log: |
-         c1367ee016e3550745315fb9a2dd1e4ce02cdcf6 m68k: atari: Fix ATARI_KBD_CORE kconfig unmet dependency warning
-         
-  - ref: refs/heads/master
-    old: 6dd931313348999a237293aac7824eba2128ce80
-    new: 9a1f66c20bdd605801537cdf8b8b142838166fd2
-    log: revlist-6dd931313348-9a1f66c20bdd.txt
+  - ref: refs/heads/m68k-queue
+    old: 3aab2fb066ca8b748e221879a03c7d85ad975052
+    new: c781c83db4c33aaf2eb0bdf498dae9e508f9022a
+    log: revlist-3aab2fb066ca-c781c83db4c3.txt
 
---===============0233136202031505187==
+--===============7958750244115226446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dd931313348-9a1f66c20bdd.txt
+Content-Disposition: attachment; filename=revlist-3aab2fb066ca-c781c83db4c3.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -370,7 +358,12 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 20e41d9bc80456207deb71141147a3de2c34e676 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 90d56a3d6e0bec69ab58910f4ef56f4ef98d073a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 614124bea77e452aa6df7a8714e8bc820b489922 Linux 5.13-rc5
-2ffa9b75ac74c19610bdd79ede6a2645bc81abdc Merge tag 'v5.13-rc5'
-9a1f66c20bdd605801537cdf8b8b142838166fd2 m68k: atari: Fix ATARI_KBD_CORE kconfig unmet dependency warning
+9c014c3e6b10dfe47fe483637edbd1316e1e9e7f m68k: Drop -fno-strength-reduce from KBUILD_CFLAGS
+1ee77d37758353cbe6c56618cacde70a5fc131c1 m68k: dma: Remove unnecessary include of asm/cacheflush.h
+33ccbb9cb1e6c503d20cb3ac6faee1ead5cc4ad1 MAINTAINERS, .mailmap: Update Finn Thain's email address
+6d753c0a2e7889d5ffeae928b6f45aa45883e92b m68k: atari: Fix ATARI_KBD_CORE kconfig unmet dependency warning
+532218501feceb3f579940069fc19f1a8f1d4303 m68k: atari: usb: Add ISP1160 USB host controller support
+d0d5960b3de64743d5fdc557788f14576ec3caed m68k: atari: Update Kconfig.bus help text
+c781c83db4c33aaf2eb0bdf498dae9e508f9022a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0233136202031505187==--
+--===============7958750244115226446==--
