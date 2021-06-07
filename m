@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5925782478522171353=="
+Content-Type: multipart/mixed; boundary="===============2160206163700329858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 07 Jun 2021 16:41:55 -0000
-Message-Id: <162308411571.1760.6420598025011615876@gitolite.kernel.org>
+Date: Mon, 07 Jun 2021 16:42:20 -0000
+Message-Id: <162308414033.2014.18336244566623615239@gitolite.kernel.org>
 
---===============5925782478522171353==
+--===============2160206163700329858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: ac1c889d37da32c7f3cf3cda51db443fd21ce1ec
     new: c5fcb51111b85323cafe3f02784f7f0bf6a7cf07
     log: revlist-ac1c889d37da-c5fcb51111b8.txt
 
---===============5925782478522171353==
+--===============2160206163700329858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -362,4 +362,4 @@ decad3e1d1ed150588dd9d44beacf82295b9d5a5 Merge tag 'arm-soc-fixes-v5.13-2' of gi
 7dea3de7d384f4c8156e8bd93112ba6db1eb276c erofs: remove the occupied parameter from z_erofs_pagevec_enqueue()
 c5fcb51111b85323cafe3f02784f7f0bf6a7cf07 erofs: clean up file headers & footers
 
---===============5925782478522171353==--
+--===============2160206163700329858==--
