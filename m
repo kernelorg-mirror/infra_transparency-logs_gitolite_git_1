@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6821423377848669496=="
+Content-Type: multipart/mixed; boundary="===============4504948358414015373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Jun 2021 03:02:57 -0000
-Message-Id: <162312137735.22226.2836737675109531769@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 03:03:03 -0000
+Message-Id: <162312138349.22374.5648201971163687915@gitolite.kernel.org>
 
---===============6821423377848669496==
+--===============4504948358414015373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,110 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: e57f5cd99ca60cddf40201b0f4ced9f1938e299c
-    new: 1e0d4e6225996f05271de1ebcb1a7c9381af0b27
-    log: |
-         66a834d092930cf41d809c0e989b13cd6f9ca006 scsi: core: Fix error handling of scsi_host_alloc()
-         3719f4ff047e20062b8314c23ec3cab84d74c908 scsi: core: Fix failure handling of scsi_add_host_with_dma()
-         11714026c02d613c30a149c3f4c4a15047744529 scsi: core: Put .shost_dev in failure path if host state changes to RUNNING
-         1e0d4e6225996f05271de1ebcb1a7c9381af0b27 scsi: core: Only put parent device if host state differs from SHOST_CREATED
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 6019a6d09fedcff5b7cce789fd2626a09ea42c89
+    new: 0961801d5ee810b04b96f912e0f3b46741b82395
+    log: revlist-6019a6d09fed-0961801d5ee8.txt
 
---===============6821423377848669496==
+--===============4504948358414015373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1623121375 -0400
+pusher 75C5DE3D 1623121381 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1623121375-34fe32aa9f4da5c3722a57973e693f559c543dfe
+nonce 1623121381-d5ab4d91b120e5315e4c5921ee0b8968abdf1d91
 
-e57f5cd99ca60cddf40201b0f4ced9f1938e299c 1e0d4e6225996f05271de1ebcb1a7c9381af0b27 refs/heads/fixes
+6019a6d09fedcff5b7cce789fd2626a09ea42c89 0961801d5ee810b04b96f912e0f3b46741b82395 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3d8ACgkQ7ulgGnXF
-3j0J5w/8CVWbH/KqSWI5NhYSEkvhtdCUmAUmyp5tsDwGzCH4MxbO4HkBT0pm3xwK
-Pa81FbY9vpyjA9wEiE8iCp9rmbf61fKpueqg2aOSOOKcbSMnTkWf2F7ILCTiEfnf
-h5rzS1rIzt0RggOz9XlqtIFqexvPIQ9WOP47JyV1jmMt2JDCBOCSMm7xh+yWYTje
-PWWmgbr0lD6y46LswlUvKEI9V1rDB/bkQ/k+DL7YCLviULoNcoTDt0ltPlPfoNhF
-Tw532qqhZBj32wK4zpaNfrlcxV1tHsAzelY2b1Ewzx2KI8aykuTrS5vMuYSahHVr
-tZ1s1721ulVdSOovJ4ca4su0VxFUjUB0LV0Uf4Rftr9FOb04PM+UcAK42AaJo0fN
-Z3f262iYTokuZjt4a3tVAncDYZRouCANWSYK/CHpKPRpdcWJ9jn8exdymvdmJxw+
-qO9RZngvLy4FEPzzHuSkarunnv5R93L0l9uarXCMtyupHy4uI9PZmr/MWVQmVCoe
-SURczIFeb2B2RoRnmSPXRvxmlOHU90AoHNxLF3zFw9RelAW8fdNkDxbG+L2ur0EW
-eSPItJAtuXtQYK12U2VBKtpMnV2kScOgqQJWRlt1lbQC4sb2llK0aCiimEUOP9av
-grB/6IAa6kU+Eg2wC+uCH1yZgSqJANKjl8b54zp58PnLt+OzTNY=
-=q6E3
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3eUACgkQ7ulgGnXF
+3j2hZQ//eukMDmvQj/tuJXt2Y2mdKj3z5kOQcnzZ1hyalpDtQMbw8Sy3TnVSE9m0
+ouzTbRaPbyMMWg7wwaXyZoMpjSA2Ku+8wFNuJXboRNdCX1PlINhfjrT0vCltH9up
+O+bv5DmhNXZT7DDT3JCaTF0agI+Z9nIW/wRytJFRbsz/1pkbqgQu9yN17iEdT+pQ
+bLYiL2qXMtJFVLFQwfo0G5lxcFVlhUcj9NY8+TqSDERPfUB1Mddu3qLysFNyaAxI
+c39y9YpuP6j6pz/zqEokXesjgSCEfxjzphZ2X5hD+grKwBNnyqTUd/C1IKtMAkc4
+oKIj9cLMFbcR2FLAguQxDZd7H27jXBsvMiBlX0PqbzFJlnVwP/YGPnIJ0ymf1i2g
+h2Hi1CYhk10tA9FPKYyXGoRtfDwuqsYuWhBHtLgRbYtgCIosQjpgRNg7KAXphISd
+f91u9adRS+YMnRa0Y9+8a7ZKp1ZvKZJ+OuQdNlarfkktQVyhQo9xnbCiWmHVd1OT
+68OARrqWwk36JAcj10aIk/b5Vg3WpL05VIdBXj18NTl9VZu48r/3eJfUttAwtM56
+6j+4dMcCfiP4QQjeFKsxc9ZWsrK7QZXa4MtemzXJ2XCs/toyLyHkKX2agsLpqR0c
+k5/ScxglHZ0WVuoxmy78mmed93bv5KdZi7z7qWP0QyZuXvP4KsA=
+=sM5N
 -----END PGP SIGNATURE-----
 
---===============6821423377848669496==--
+--===============4504948358414015373==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6019a6d09fed-0961801d5ee8.txt
+
+3a95f5b392543498c638610a3096bb0f9aa56c7a scsi: ufs: core: Export ufshcd_hba_stop()
+f9c602f3bd9c79c06ccd7621744472a64e93fd49 scsi: ufs: ufs-mediatek: Disable HCI before HW reset
+27c707b14659287f793402ad8ca26ada7e3e8c51 scsi: qla2xxx: Log PCI address in qla_nvme_unregister_remote_port()
+84a84cc6aff4243c9f28c879b94d0dd55a310b54 scsi: mpt3sas: Fix fall-through warnings for Clang
+4d431153e751caa93f3b7e6f6313446974e92253 scsi: FlashPoint: Rename si_flags field
+66fc475bd9e1fca7250affe986862e94ae10a8fd scsi: esas2r: Switch to flexible array member
+5250db63d14002efce40f4d4fbfee3b81c829d54 scsi: isci: Use correctly sized target buffer for memcpy()
+f6b414294224bca523e63c9b3d09a2dabe981f23 scsi: ufs: Fix a kernel-doc related formatting issue
+c4f7ac64616ee513f9ac4ae6c4d8c3cccb6974df scsi: mpi3mr: Add mpi30 Rev-R headers and Kconfig
+824a156633dfdb0e17979a0d0bb2c757d1bb949c scsi: mpi3mr: Base driver code
+c9566231cfaf448dd281cd7c516012a7e1c7e448 scsi: mpi3mr: Create operational request and reply queue pair
+023ab2a9b4edd4b1b109d1982cd80e10c327fbb2 scsi: mpi3mr: Add support for queue command processing
+672ae26c82166d63e0352403b7ea16ab4705edc1 scsi: mpi3mr: Add support for internal watchdog thread
+13ef29ea4aa0655feab2462966f83e17df5cdad1 scsi: mpi3mr: Add support for device add/remove event handling
+8e653455547a471d464cdcfe07f925903cb6f2dd scsi: mpi3mr: Add support for PCIe device event handling
+e36710dc06e3994c9abe78b957a07cfd9243a674 scsi: mpi3mr: Additional event handling
+fb9b04574f147831d96b6aead161c8ca26670c97 scsi: mpi3mr: Add support for recovering controller
+54dfcffb41915c2120438d4179dcb82da3bfbaa8 scsi: mpi3mr: Add support for timestamp sync with firmware
+ff9561e910fc590add00d7e0f2792a8ef988ed21 scsi: mpi3mr: Print IOC info for debugging
+8f9c6173ca464822b8877f75dc7ca20f645b0179 scsi: mpi3mr: Add bios_param SCSI host template hook
+e844adb1fbdc41c3e1531a5bdf30f376563945f1 scsi: mpi3mr: Implement SCSI error handler hooks
+0ea177343f1f8a742d11817bc598ed03a52d04a9 scsi: mpi3mr: Add change queue depth support
+82141ddba90a88df8ebde782c5b24c7cc5a9926e scsi: mpi3mr: Allow certain commands during pci-remove hook
+392bbeb85b2a6f80e3036dfccdf55a1d076bba2c scsi: mpi3mr: Hardware workaround for UNMAP commands to NVMe drives
+463429f8dd5c94aae4b0948c56e67eb21cb6964e scsi: mpi3mr: Add support for threaded ISR
+f061178e076210a549a546f3879ed51a61fcf938 scsi: mpi3mr: Complete support for soft reset
+71e80106d0599171581e81ec4979a3f4906f983b scsi: mpi3mr: Print pending host I/Os for debugging
+44dc724f5eecf6ef8ea493e0f0198f297e1c7306 scsi: mpi3mr: Wait for pending I/O completions upon detection of VD I/O timeout
+2f9c4d520aa60f1bc65b791ac2a5fa3ed622d095 scsi: mpi3mr: Add support for PM suspend and resume
+28cbe2f420d338cc4cb8f0cc367b22ea3c41b3b5 scsi: mpi3mr: Add support for DSN secure firmware check
+74e1f30a28680978fa9ddfb5360d0cc644cd348e scsi: mpi3mr: Add EEDP DIF DIX support
+9fc4abfe5a5fc9fabce41b9d2ba8425ef498b32c scsi: mpi3mr: Add event handling debug prints
+79db830162b733f5f3ee80f0673eeeb0245fe38b scsi: megaraid_sas: Send all non-RW I/Os for TYPE_ENCLOSURE device through firmware
+b5438f48fdd8e1c3f130d32637511efd32038152 scsi: megaraid_sas: Fix resource leak in case of probe failure
+ae6874ba4b43c5a00065f48599811a09d33b873d scsi: megaraid_sas: Early detection of VD deletion through RaidMap update
+9bedd36e9146b34dda4d6994e3aa1d72bc6442c1 scsi: megaraid_sas: Handle missing interrupts while re-enabling IRQs
+6143f6f6205267b7cd741e1d9ff1fec2cbbe4edf scsi: megaraid_sas: Update driver version to 07.717.02.00-rc1
+1486a4f5c2f35da5743b56037b8bbfb4eb38fa61 scsi: iscsi: Add task completion helper
+891e2639deae721dc43764a44fa255890dc34313 scsi: iscsi: Stop queueing during ep_disconnect
+27e986289e739d08c1a4861cc3d3ec9b3a60845e scsi: iscsi: Drop suspend calls from ep_disconnect
+06c203a5566beecebb1f8838d026de8a61c8df71 scsi: iscsi: Force immediate failure during shutdown
+b25b957d2db1585602c2c70fdf4261a5641fe6b7 scsi: iscsi: Use system_unbound_wq for destroy_work
+9e5fe1700896c85040943fdc0d3fee0dd3e0d36f scsi: iscsi: Rel ref after iscsi_lookup_endpoint()
+23d6fefbb3f6b1cc29794427588b470ed06ff64e scsi: iscsi: Fix in-kernel conn failure handling
+c0920cd36f17f0729927b33009ca586be50e3d9b scsi: iscsi: iscsi_tcp: Set no linger
+788b71c54f21fd994071c77983fdf1a9c264fc95 scsi: iscsi: iscsi_tcp: Start socket shutdown during conn stop
+b1d19e8c92cfb0ded180ef3376c20e130414e067 scsi: iscsi: Add iscsi_cls_conn refcount helpers
+d39df158518ccc3bf24ee18082b5e100c8f014aa scsi: iscsi: Have abort handler get ref to conn
+fda290c5ae98b591797c96e55a2cfbd30d46a706 scsi: iscsi: Get ref to conn during reset handling
+ec29d0ac29be366450a7faffbcf8cba3a6a3b506 scsi: iscsi: Fix conn use after free during resets
+bdd4aad7ff92ae39c2e93c415bb6761cb8b584da scsi: iscsi: Fix shost->max_id use
+f6f9645744702f4690e884e86523a7ce1895e221 scsi: iscsi: Fix completion check during abort races
+7ce9fc5ecde0d8bd64c29baee6c5e3ce7074ec9a scsi: iscsi: Flush block work before unblock
+99b0603313eecb9b0b99fd2e60bae1e03e6b038b scsi: iscsi: Hold task ref during TMF timeout handling
+a1f3486b3b095ed2259d7a1fc021a8b6e72a5365 scsi: iscsi: Move pool freeing
+5777b7f0f03ce49372203b6521631f62f2810c8f scsi: qedi: Fix null ref during abort handling
+2ce002366a3fcc3f9616d4583194f65dde0ad253 scsi: qedi: Fix race during abort timeouts
+5b04d050cde44c3c1a9a0342da50d785d075b0f6 scsi: qedi: Fix use after free during abort cleanup
+f7eea75262fc8e4f2e329f36ac6daf42da95bbdc scsi: qedi: Fix TMF tid allocation
+140d63b73f42ea696ce7d34e7765e7c7eb121fdb scsi: qedi: Use GFP_NOIO for TMF allocation
+2819b4ae2873d50fd55292877b0231ec936c3b2e scsi: qedi: Fix TMF session block/unblock use
+0c72191da68638a479602dd515b587ada913184a scsi: qedi: Fix cleanup session block/unblock use
+60a0d379f11bc7449c92d21ca8956abff76be20f scsi: qedi: Pass send_iscsi_tmf task to abort
+b40f3894e39ee10d519ef2447d7e56e92a1e0863 scsi: qedi: Complete TMF works before disconnect
+ed1b86ba0fba3d586cd53057551a95197b0a37ad scsi: qedi: Wake up if cmd_cleanup_req is set
+
+--===============4504948358414015373==--
