@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8267865019715640749=="
+Content-Type: multipart/mixed; boundary="===============8949738965186086479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Tue, 08 Jun 2021 12:14:20 -0000
-Message-Id: <162315446091.5021.14503834732938572526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Jun 2021 12:14:33 -0000
+Message-Id: <162315447389.5202.370720567739179936@gitolite.kernel.org>
 
---===============8267865019715640749==
+--===============8949738965186086479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14/arm64/dt
-    old: b8928c2b5dba7484a80077d12be702ff71d8190f
-    new: ff62b09d46cffc8c43649539c304050578371de9
+  - ref: refs/heads/master
+    old: 4a6ed7591a59d37b1647e64ddd995f8d0d76a0b4
+    new: 4afa3d8fb9ab63c2798688238ed5f0ce7c9ed154
     log: |
-         ff62b09d46cffc8c43649539c304050578371de9 arm64: tegra: Audio graph sound card for Jetson Xavier NX
+         4afa3d8fb9ab63c2798688238ed5f0ce7c9ed154 5.12-stable patches
          
-  - ref: refs/heads/for-next
-    old: 6e49cb4501f6ee95aca19626c7b08a66f7c27786
-    new: 68bc483ed413ac02de8485a744b5ad104958d83a
-    log: revlist-6e49cb4501f6-68bc483ed413.txt
 
---===============8267865019715640749==
+--===============8949738965186086479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e49cb4501f6-68bc483ed413.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ff62b09d46cffc8c43649539c304050578371de9 arm64: tegra: Audio graph sound card for Jetson Xavier NX
-5d19cb0887026d238b106b2b080c88cffe4792b2 Merge branch for-5.14/clk into for-next
-3a2db52fc3ccc4f675f353bcfcf68409f2807a0e Merge branch for-5.14/regulator into for-next
-e98efdd6a6a85f86c6c2d370225d0a02a0a108c8 Merge branch for-5.14/phy into for-next
-81c483814cc956d93a64de3dcff6fb00574ff574 Merge branch for-5.14/usb into for-next
-25e12710d65a671c9d42589d54e42bbbef5f30a5 Merge branch for-5.14/dt-bindings into for-next
-0264340a15962525d9c2f04ab77dbd2687cd9fd4 Merge branch for-5.14/soc into for-next
-a8ab29e9eb4b51c3a4022c666b641d8bbe505e20 Merge branch for-5.14/firmware into for-next
-399a9ceb6abc110e599772fabcddcf646942fc25 Merge branch for-5.14/memory into for-next
-993aab78688b0ab9abdc1cd9b0bc51c52cc3f070 Merge branch for-5.14/arm/dt into for-next
-ca3adc8d6ad8c31b9b22c4a99a36fb66555511b4 Merge branch for-5.14/arm/defconfig into for-next
-68bc483ed413ac02de8485a744b5ad104958d83a Merge branch for-5.14/arm64/dt into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623154472 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1623154471-2dcdaaf0acfe360a6afbb808b110af14b73ccd3d
 
---===============8267865019715640749==--
+4a6ed7591a59d37b1647e64ddd995f8d0d76a0b4 4afa3d8fb9ab63c2798688238ed5f0ce7c9ed154 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/XygbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kOgP/2QlrEcsVkLBU58rqXsi
+qGmc17eGa+MF0gHXCV/s3tv9t3VucqHFuCSTQuWyrRppwXlAgKM3s8vtJxDw2YYZ
+VEb3mRZ/tKqbydH1lg5M38NKOcDWksYP0gAXpLrMHBM+438VFXsSIlI4HCj835qk
+PLwVZHP/kc4fyBbul3sJlL1GlDIxUI99Y3IgVCmi4vY21kQ+MtNZi25362AYFeFO
+6rsOv4xFV47vhGUshf6hTCfmc+WG98r22UqJskKukJHhTP03LhuB0nOx/jBAELGK
+EE8qIPNteHQG5nQrgd/Fq7n3tFUPkuOiZ7qbhWxqJYurrUwwtdq80AA5GeLsGRn4
+M35U4M0knTzFL1wBJBmOnR0cjp9vamxErc0npfaikmKvKgtJbvnZp3OtcgFn5/N4
+11FUiKwSLdFz9QWSL228Hj0WtlRUe2rSasZwpIBAHlGRlOSbcb8sHQLq3V4El9UI
+rYJ13fiPYWYWZcKLBJ6SouszNH+feD3HBbdwzMl0NoLIK5tMLpLvURsmjIGL9jDv
+SeIa5TTiZkdmed2NEmGPskHfKLqkdXrta4OqakIhnw8DAk++UWcandUv48lRbDmc
+WcFQ17R13+K9wYulICTqgLdCEXnCLenGzRM8yr2fBFArM5FIvE4a1jiNhapqE4yY
+gslgXT+fGz0uNLe/+xM3YQrS
+=/a/C
+-----END PGP SIGNATURE-----
+
+--===============8949738965186086479==--
