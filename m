@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0345849618210594781=="
+Content-Type: multipart/mixed; boundary="===============7926941804492618242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 08 Jun 2021 21:13:23 -0000
-Message-Id: <162318680373.17566.10191505001107045563@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 21:15:39 -0000
+Message-Id: <162318693979.19848.15275563004583649512@gitolite.kernel.org>
 
---===============0345849618210594781==
+--===============7926941804492618242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 000ac42953395a4f0a63d5db640c5e4c88a548c5
-    new: da27a83fd6cc7780fea190e1f5c19e87019da65c
+  - ref: refs/tags/for-linus
+    old: 51d3b0dcace13bfae51c3431a6760691f0e87d69
+    new: ddba78f8f564e57d18a87b8a14678948c7944f75
     log: |
          4f13d471e5d11034d56161af56d0f9396bc0b384 KVM: SVM: Fix SEV SEND_START session length & SEND_UPDATE_DATA query length after commit 238eca821cee
          e898da784aed0ea65f7672d941c01dc9b79e6299 KVM: LAPIC: Write 0 to TMICT should also cancel vmx-preemption timer
@@ -31,28 +31,28 @@ changes:
          da27a83fd6cc7780fea190e1f5c19e87019da65c kvm: avoid speculation-based attacks from out-of-range memslot accesses
          
 
---===============0345849618210594781==
+--===============7926941804492618242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1623186801 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1623186938 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1623186801-c1fb3a77b4d30d327dc328038bfd0f81e35a2001
+nonce 1623186938-b6078d785e9d5f306c372f0464230ae6e9f660a2
 
-000ac42953395a4f0a63d5db640c5e4c88a548c5 da27a83fd6cc7780fea190e1f5c19e87019da65c refs/heads/master
+51d3b0dcace13bfae51c3431a6760691f0e87d69 ddba78f8f564e57d18a87b8a14678948c7944f75 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmC/3XEUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPZcAf8Cz6XypSI8qfIoR1kaig5XUGow7oR
-ySXT8fnJd0Nyaop7/t3hQgSXdg7oNPRKeJrc+d3lI2YXwEymu2nUqJw7QyYHvB1U
-jXo1QNKtLX7+0qtelSdqVbiv8/SQCuzvHILDmBahyKUnlDERzw/je1fB8fR6f9l3
-V5rbb+XQ9FGE/MYVaXrOvthheSjo6kPg5J4vQXJdnSvxprAZ/+aLLRP4FRhUc488
-wavzYLWrVsFfwvkljg+PyOryXoXAfr5VELLlyDbvHa3MSt/ZvtcuMmr2Dy2P6kQP
-WD/lJvMX5DsARNzdVqdTNIGnXpoQQF0BOjBPgERWPnhonhE7/qUjYS1iHA==
-=TLgb
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmC/3foUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNBAwgAnLrSende3u733eWACC7q4pwu80+i
+1WVaSPim26f0iLKL957B6SxL6CN0BdfMLZ78hM28X79aSRJzbVcJez65h+sxRZy5
+PkH7zHVEyPCJZ0QN9gllkb7SwvivBjfHcEYcqzuLzamRlftjSVVFzooqAEKgpRP+
+HRfUilN6tKMNzNCPdIT9YCKL0ZNzLbGM0+Ag7ruRuVYVmFSVWq7JH/Ah/1BEZ+WW
+oO4qFPgTbGKkb3hh2KtgTidmIW7qI1G2uehKWtd5mcaNBR6484vNMe8oGJ8uu3nV
+JxkNv7kXO5mfru4eS4CaGXq7ur4lRFL8M5j27TVzeVI8Dm7s1QRU/HTt7A==
+=5vh5
 -----END PGP SIGNATURE-----
 
---===============0345849618210594781==--
+--===============7926941804492618242==--
