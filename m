@@ -1,77 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============2087970640321053544=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Jun 2021 03:03:34 -0000
-Message-Id: <162312141427.22968.8796502642456843994@gitolite.kernel.org>
-
---===============2087970640321053544==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dgc/linux-xfs
+Date: Tue, 08 Jun 2021 03:50:51 -0000
+Message-Id: <162312425103.22008.11545650522253801611@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dgc/linux-xfs
+user: dgc
 changes:
-  - ref: refs/heads/for-next
-    old: 1ff28f229bc7fe36735684b25e63b528dbb962a5
-    new: 105424895c02858922e1bf27ef01127e12caca9a
-    log: revlist-1ff28f229bc7-105424895c02.txt
-
---===============2087970640321053544==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1623121412 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1623121412-0c03656662eaf3d6a2b1883d4fda0bcb0747eeb3
-
-1ff28f229bc7fe36735684b25e63b528dbb962a5 105424895c02858922e1bf27ef01127e12caca9a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3gQACgkQ7ulgGnXF
-3j1kPw/+NcBDT8gc5pTC0o9bevLjyhdfHeisbUaswM2DK3AfJLDIm2I0UOaZJ7C4
-m+W9BulFR3OdSjsbgHy1h7aVG2UcbgwyQ5221bc6nyiLxA2r4vnUbhaSL+4y59xr
-wzWBoZmKz3MSqkcUICnlJU5lb90cQGxAfa/x09wRYQC2hcpP9YwRMDHdubQeSF5b
-CE7KqrkFpd2ABEiJ/0YTo9IDahwqU+MFOzK9dtpKVI/95uTWrXyl4OVicueN9pcG
-6pSXlssGRF5okG8OMh/6LXGTkZWqq6xS7r79vhkH4QGjOz1YMiin+91trUTE4x7U
-jPSrt6DIKOg/xdjreKuP1RkE/FWml1IQY1QFcUr27G48UF89XpJW90g3txuQLRLM
-dsRGX50qBTsIVNzpMPHbfoAE/LXJDP/n+6braRfYO4evpiOCVqiTrm/dYVotTvL0
-nHVNJiGE6JwVQXdbLB6HuE1tukO+BGKTEVCdFtnmWLgzHzDV/iqcWsb0TtyPfj8w
-XS9JaL7mpSL08BXOZJXDoTKKu8UCH2XdlkzP4mWQRawTpBA+2Rf281XSXhSdUlsE
-Mgpgfw0FsKUZ7moLWkH4tueLJjaWHaEfZOfuOT4yjYzGDBcyVUH9xRahevagwNh+
-UiGwkQmvyk+beVOWDHdnJQ35cMckBVwozO5/1oUbhlxR1I0z3sg=
-=B/BM
------END PGP SIGNATURE-----
-
---===============2087970640321053544==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ff28f229bc7-105424895c02.txt
-
-d377f415dddc18b33c88dcd41cfe4fe6d9db82fb scsi: libsas: Introduce more SAM status code aliases in enum exec_status
-149d0e489e807f1e6dc265f975a793cea11ecbea scsi: core: Introduce enums for the SAM and host status codes
-62af0ee94bfb9e626ed73b5890fc68c6e1651843 scsi: core: Change the type of the second argument of scsi_host_complete_all_commands()
-1b67f3d74e45e02e159afed6946c6e4ba11b7df6 scsi: qedf: Update the max_id value in host structure
-ebab8e09a07f7f5e253d0b45aae7cbda0e360ebf scsi: fcoe: Statically initialize flogi_maddr
-8b1afb7ab0dbbb8f9186e94ecded6660da1161ae scsi: ufs: core: Remove irrelevant reference to non-existing doc
-80927822e8b6be46f488524cd7d5fe683de97fc4 scsi: scsi_dh_alua: Fix signedness bug in alua_rtpg()
-1cca0c3fdc91db15bbcd58c4dc49b7b97d0891fe scsi: ufs: Remove a redundant command completion logic in error handler
-a45f937110fa6b0c2c06a5d3ef026963a5759050 scsi: ufs: Optimize host lock on transfer requests send/compl paths
-6f7151729647e58ac7c522081255fd0c07b38105 scsi: ufs: Utilize Transfer Request List Completion Notification Register
-61f4f11b48f9b0cd36e88825d5a59d5fda7ec957 scsi: NCR5380: Fix fall-through warning for Clang
-7b8a49881b0157022c7deed1b5950a8a4d5dd095 scsi: mpi3mr: Fix fall-through warning for Clang
-32424902331b35f032fd6152bd4e6e1180329e7d scsi: ufs: core: Remove repeated word in comment
-04c073feb1d7b396992b3c725101872d5fc104b6 scsi: ufs: core: Clean up ufshcd_add_command_trace()
-89ac2c3b283508744de9bc2fba2b57a523990db7 scsi: ufs: core: Let UPIU completion trace print RSP UPIU header
-44b5de363524a1b9b0c9a42502f3a9e1dca9c6c3 scsi: ufs: core: Capture command trace only for the cmd != NULL case
-105424895c02858922e1bf27ef01127e12caca9a scsi: ufs: core: Use UPIU query trace in devman_upiu_cmd()
-
---===============2087970640321053544==--
+  - ref: refs/heads/xfs-buf-bulk-alloc
+    old: 8bb870dee3c14ac0eded777a5c2d6d07a6cdd10c
+    new: 8bcac7448a942fa4662441a310c97d47cec24310
+    log: |
+         54cd3aa6f8102f4648190fc93eb5dd8603de9b52 xfs: remove ->b_offset handling for page backed buffers
+         934d1076bb2c5bbb3d5b0e3892b208d1f537949d xfs: simplify the b_page_count calculation
+         289ae7b48c2c4d9bec515e720c01146498109dee xfs: get rid of xb_to_gfp()
+         170041f71596dad3f34dea40ee0ef0c848d3f906 xfs: cleanup error handling in xfs_buf_get_map
+         8bcac7448a942fa4662441a310c97d47cec24310 xfs: merge xfs_buf_allocate_memory
+         
+  - ref: refs/tags/xfs-buf-bulk-alloc-tag
+    old: ad90d6980094116d18dfd03a3a83ad2043086c51
+    new: eb9ebbd585816fe7ac308c12ea6f871fc364770c
+    log: |
+         54cd3aa6f8102f4648190fc93eb5dd8603de9b52 xfs: remove ->b_offset handling for page backed buffers
+         934d1076bb2c5bbb3d5b0e3892b208d1f537949d xfs: simplify the b_page_count calculation
+         289ae7b48c2c4d9bec515e720c01146498109dee xfs: get rid of xb_to_gfp()
+         170041f71596dad3f34dea40ee0ef0c848d3f906 xfs: cleanup error handling in xfs_buf_get_map
+         8bcac7448a942fa4662441a310c97d47cec24310 xfs: merge xfs_buf_allocate_memory
+         
