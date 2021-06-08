@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4504948358414015373=="
+Content-Type: multipart/mixed; boundary="===============7249794905159573189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Jun 2021 03:03:03 -0000
-Message-Id: <162312138349.22374.5648201971163687915@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 03:03:08 -0000
+Message-Id: <162312138841.22466.16633271144864861246@gitolite.kernel.org>
 
---===============4504948358414015373==
+--===============7249794905159573189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6019a6d09fedcff5b7cce789fd2626a09ea42c89
-    new: 0961801d5ee810b04b96f912e0f3b46741b82395
-    log: revlist-6019a6d09fed-0961801d5ee8.txt
+  - ref: refs/heads/5.14/scsi-queue
+    old: 40d2fd05ecc2b63d1bd8f6686f09941afe85edfe
+    new: ed1b86ba0fba3d586cd53057551a95197b0a37ad
+    log: revlist-40d2fd05ecc2-ed1b86ba0fba.txt
 
---===============4504948358414015373==
+--===============7249794905159573189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1623121381 -0400
+pusher 75C5DE3D 1623121386 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1623121381-d5ab4d91b120e5315e4c5921ee0b8968abdf1d91
+nonce 1623121386-f862da80896c680d981ced9198abc89b7b927bf0
 
-6019a6d09fedcff5b7cce789fd2626a09ea42c89 0961801d5ee810b04b96f912e0f3b46741b82395 refs/tags/mkp-scsi-queue
+40d2fd05ecc2b63d1bd8f6686f09941afe85edfe ed1b86ba0fba3d586cd53057551a95197b0a37ad refs/heads/5.14/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3eUACgkQ7ulgGnXF
-3j2hZQ//eukMDmvQj/tuJXt2Y2mdKj3z5kOQcnzZ1hyalpDtQMbw8Sy3TnVSE9m0
-ouzTbRaPbyMMWg7wwaXyZoMpjSA2Ku+8wFNuJXboRNdCX1PlINhfjrT0vCltH9up
-O+bv5DmhNXZT7DDT3JCaTF0agI+Z9nIW/wRytJFRbsz/1pkbqgQu9yN17iEdT+pQ
-bLYiL2qXMtJFVLFQwfo0G5lxcFVlhUcj9NY8+TqSDERPfUB1Mddu3qLysFNyaAxI
-c39y9YpuP6j6pz/zqEokXesjgSCEfxjzphZ2X5hD+grKwBNnyqTUd/C1IKtMAkc4
-oKIj9cLMFbcR2FLAguQxDZd7H27jXBsvMiBlX0PqbzFJlnVwP/YGPnIJ0ymf1i2g
-h2Hi1CYhk10tA9FPKYyXGoRtfDwuqsYuWhBHtLgRbYtgCIosQjpgRNg7KAXphISd
-f91u9adRS+YMnRa0Y9+8a7ZKp1ZvKZJ+OuQdNlarfkktQVyhQo9xnbCiWmHVd1OT
-68OARrqWwk36JAcj10aIk/b5Vg3WpL05VIdBXj18NTl9VZu48r/3eJfUttAwtM56
-6j+4dMcCfiP4QQjeFKsxc9ZWsrK7QZXa4MtemzXJ2XCs/toyLyHkKX2agsLpqR0c
-k5/ScxglHZ0WVuoxmy78mmed93bv5KdZi7z7qWP0QyZuXvP4KsA=
-=sM5N
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3eoACgkQ7ulgGnXF
+3j2XCg/+M3+jp0tDdw1kJc5x9mn/KwAMQ+nH5CothM+2x6BIlmtErxiJGy+4dIUL
+FmqU1R216nqexBca7ud/G8gd36csI4X9L+4eOPajvrQyBO6ZMqQHOlGowrNfc8NK
+HdyryTJiTCORjTmnNftue362iLoa7Gu4PBOxadBdDMNntkjC4y4zUVHRaoFW1+4/
+8SbSsgLz5si9tmkwTGLAIv3f7ZRPvTqhuoNIxw3R5ARhaHY9YbUsuF5Y035xrG9N
+nmYDBjyDq2VyG+qMYYfBNs3k86JAiG/j8w/QwogkXoTgISY4qWzrsHq6ceZgv3A3
+eJxjSwtTQuOxnun9HKUqAm6GcYawEW59sehuCj6BWdpFgkblU5odliryyI6xabyb
+yTrDqB82wyX7H7ARqXqljLJRMfmpwt+XTAKUfQbndsPGlNw6cPbYKCqJHuync6cp
+rZBvSiNi/KjDxWI5MlmuLm7BpDB5SA4w/+1+EOFGEUR+CtLASIE1PhUWBKTfPL4K
+GJEJAOvuiz3ZxDqzXpMofVu8bpb4MgMNtFdtsm46snk0vGQCTqSCeLFcP7GBBnF1
+1R2DeOTcWITy8hLmw+tJNtWVd6qHc0JCFmfDO68KIJmnM73I/DpzE6rKGc+gESQx
+/Vrg+jAZb8N0nL9EczGGwg2nmCkhzx4eJv1LtmjlsLRlavKnJc8=
+=ngg9
 -----END PGP SIGNATURE-----
 
---===============4504948358414015373==
+--===============7249794905159573189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6019a6d09fed-0961801d5ee8.txt
+Content-Disposition: attachment; filename=revlist-40d2fd05ecc2-ed1b86ba0fba.txt
 
 3a95f5b392543498c638610a3096bb0f9aa56c7a scsi: ufs: core: Export ufshcd_hba_stop()
 f9c602f3bd9c79c06ccd7621744472a64e93fd49 scsi: ufs: ufs-mediatek: Disable HCI before HW reset
@@ -122,4 +122,4 @@ f7eea75262fc8e4f2e329f36ac6daf42da95bbdc scsi: qedi: Fix TMF tid allocation
 b40f3894e39ee10d519ef2447d7e56e92a1e0863 scsi: qedi: Complete TMF works before disconnect
 ed1b86ba0fba3d586cd53057551a95197b0a37ad scsi: qedi: Wake up if cmd_cleanup_req is set
 
---===============4504948358414015373==--
+--===============7249794905159573189==--
