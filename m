@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5765945117065733258=="
+Content-Type: multipart/mixed; boundary="===============1485568874746494602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 08 Jun 2021 17:41:34 -0000
-Message-Id: <162317409453.6686.4057104029544280449@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 17:41:37 -0000
+Message-Id: <162317409713.6772.13324250712118139629@gitolite.kernel.org>
 
---===============5765945117065733258==
+--===============1485568874746494602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,106 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: db507a48851781973fbcaf77b9185543a56bd4b2
-    new: bcf7c322df02555974080f5a4c932fd8050f389c
-    log: revlist-db507a488517-bcf7c322df02.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 16d87556a7684cdb0787101abb97081a1b0fa955
+    new: e0814e7f98273955eba278cf072307ffab605339
+    log: revlist-16d87556a768-e0814e7f9827.txt
 
---===============5765945117065733258==
+--===============1485568874746494602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623174092 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623174094 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1623174091-0b439cbe800ae19e75c78b9cc16fab765ed6b72c
+nonce 1623174093-729fddb72fbd2f8f222447ce69d2a88c7b9867e2
 
-db507a48851781973fbcaf77b9185543a56bd4b2 bcf7c322df02555974080f5a4c932fd8050f389c refs/heads/linux-4.14.y
+16d87556a7684cdb0787101abb97081a1b0fa955 e0814e7f98273955eba278cf072307ffab605339 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/q8wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XVoQAJXuJSxraoLgsPmOfFqy
-MrA4vAuvj+CxN3I3Z7WZNwvNio0NNM2rRaxFoDEl5+ySC8ECMRsAVhI9y5zEfkGL
-0q93OCgiaaQkuHApIjo4aUanrkeTFYfL6hKA85hsQdRhp63iPVuPqMYrI3QL917J
-rjQUNyf5bQpDWeCbASUUFTz37WayTrHCN6VusiN0VG3DtV/46wnAA+2PEaZwX3CH
-WqXXWNUnKKUl+PLG65y7VtM36kZ8bk6K4OXTWtApRpG2kJ+T6c+E7A9I3rL9u/Ui
-79E2WQeeIY5kgNJMJmyk/lCMV8gZI4+HfTfOM5f/c7Uh8xsgaSJQ8foqncdEYndg
-ERXjE0hzEsEcWxo81gKamxEUfKf4zvMcbZ6/Hobq+Ba7Oog/f1KEN4xlYIOAQ7Zq
-AQYmlGAyOHqAM4G9ADs85Tkr5aBYXhBwysV+e7+8U0/GkZyEuG8T6eq4VAJe/NZH
-YPzN1VfFpcjOE71EjfAVp+6oZUupYVAMCzu/jrm+oczzpDtkev/9rk+AJrI4rmap
-FFsB51UJgHpKIRytiSg+uQudJKAHj9QS1UKhyzVC08ghmXkr9wwlIhHC5kB5cIRd
-QOI6vExaJ26SCJYzRx4bbkik9W9wyWl8IUymnNX6pxnYVC+Djf2+cvWHPXO7Clis
-nFTA4FtoUZqH9Hu2CIpXT3nK
-=jDBL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/q84bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V8kQALDjxkNA92yJ4a3m2i/Y
+XjclApTsw/luy3T+sD4HD9V1JExPtaneazv9ZDEC9yoGlh/Cgmknu0mBUVmo49sK
+7n/ekL6T+FJLjOtqODedRfVChzrhZkl9oIumQVBK5dd5VTW6WU2csDp0pJ7H20K8
+4LAI02QZ3fmOH8S6hrLCf9ERyINTcgUUzmXnELWEOsnJ3mykEKlOg6Z78qebpthw
+FzsF1sFYwcdujwlSJL/rwU0TcTBEog1wZ1Beg7J8jb8lpEQ7RW4+kiDZuGLJd7r7
+PIlj0czxTi4oaO/9wrKwEgbF6vs+J3c4ZY9BkomnwYdn1ZEllJ2wH6xLlDvLeZkp
+VI1oMwKxikPHL4KeoQ9FBlOTVMu9olqUA7pSy6jvTEjAPxMqcmkY8J8aDRPbBDbQ
+5fItCxJt1CIbB4qNCoZilki0Ji2und7sXBZfWWxSOB2s5zFx8RmjxnAI5wETcodc
+z7SAeLxCgudLLZ72PT5qe7XAVqAY9GGw8oHx0LPoysJEXx+HCsrxrltK4gmfxu1u
+3xFvxy7MVGIDO7rQslxRiYEpmPhfRz9EoPXeFw7X57LpzJ0B+LhxSjC7Mfj9R3JZ
+8LUbVPIzyOdtkowsKTWJ+J0r8+Ayk4gCR9u2gX/1BmNR5f9LjHG5fvuvaBw59XVd
+ZbMedK7aB2ayueekdY/jms8F
+=LXTT
 -----END PGP SIGNATURE-----
 
---===============5765945117065733258==
+--===============1485568874746494602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db507a488517-bcf7c322df02.txt
+Content-Disposition: attachment; filename=revlist-16d87556a768-e0814e7f9827.txt
 
-664d9afba0ea69a9227d3cac58b10736ae3be55d net: usb: cdc_ncm: don't spew notifications
-ffad85dd8761a08f3bced949fc4488c1f7e12038 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
-c425058136170563871b1b8c816765f530f3c753 efi: cper: fix snprintf() use in cper_dimm_err_location()
-cb0c99d578a5a8ef1156134b506df4c070a36d52 vfio/pci: Fix error return code in vfio_ecap_init()
-0b2f3e4b0d82e8db55fc223b0c7ef0dc13af315f vfio/pci: zap_vma_ptes() needs MMU
-cc4f89522e9fe8d6d76869b7ba51e0cd7e1bb68f vfio/platform: fix module_put call in error flow
-d59f9daed113a4cff76c790d2bb0a4a6839c3b6e ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-b514029c33cc6c4b9d7649f4ffe5db04bafa69c3 HID: pidff: fix error return code in hid_pidff_init()
-6c381d229a26fb4f78aef1680bc627159f7a221b HID: i2c-hid: fix format string mismatch
-364dbc4e16a2c951c7d2a210e198749ce9fb632c netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-556465b60c137d19cc26c2063d5a11d0c710e48e ieee802154: fix error return code in ieee802154_add_iface()
-72aeb86bdf363e787019569441d467c23c497d9d ieee802154: fix error return code in ieee802154_llsec_getparams()
-34477462bd6d2f77f9672c73e0511217568b6630 Bluetooth: fix the erroneous flush_work() order
-dd482b6897767ed1739e305c4b8ddd4e717d501f Bluetooth: use correct lock to prevent UAF of hdev object
-5fef3c27d548e4abc0e00370b12d54d7a0716f8b net: caif: added cfserl_release function
-fe4a09cc735c87ea467f34e102f35a736e09183a net: caif: add proper error handling
-ebac7496ce9c3175e7a387c2d3891e6ccc0aae46 net: caif: fix memory leak in caif_device_notify
-d6a364b19b4c9372ef320c9476d7758bf7e6ed64 net: caif: fix memory leak in cfusbl_device_notify
-c0e2b304cd5eb35fdd4c8d1f9afeb8e5afad0396 ALSA: timer: Fix master timer notification
-0b3585e6359b978e09a9e84d4f56a405e51181bb ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
-e7e1b70d155fb6408a4f3d7bb41468b3454a54e7 pid: take a reference when initializing `cad_pid`
-ac6a5ce6452f909afe6a4c3e0ab0f616a68e6a93 ocfs2: fix data corruption by fallocate
-8e8a1f8523453630ae4c28bebabbc6d19b0ab2b5 nfc: fix NULL ptr dereference in llcp_sock_getname() after failed connect
-ed35130cfb1e6e996441b22c2f591a94bdc60a93 btrfs: fix error handling in btrfs_del_csums
-ef8189d323e12abbafee52b92c0bb8ebe0198435 btrfs: fixup error handling in fixup_inode_link_counts
-d9f7ae836d5a7c6859db5c158dd3b3d512a2a408 mm, hugetlb: fix simple resv_huge_pages underflow on UFFDIO_COPY
-fda18c392e4ba4cc6f5095e09f61bb7486e027af bpf, selftests: Fix up some test_verifier cases for unprivileged
-2c445bad1731b3e1d84b67675688b5fb01e0ed20 bpf: Move off_reg into sanitize_ptr_alu
-f9024c0d81a20b9bea9e294516a57902a76201cc bpf: Ensure off_reg has no mixed signed bounds for all types
-edd6fdd66c85c75de22c0e4ebd0bad6c92c0f97a bpf: Rework ptr_limit into alu_limit and add common error path
-c16b3e11df18483eeb63ce2ae1e9ec51891fdd1b bpf: Improve verifier error messages for users
-f2e6db1a7ccd3ae7f64091b3c5963e92373a9062 bpf: Refactor and streamline bounds check into helper
-e1ff58c9033bce54b18804929893ee7e1b197167 bpf: Move sanitize_val_alu out of op switch
-2bd1c2f05ed0d48efb54b4a4acf5358465efb3db bpf: Tighten speculative pointer arithmetic mask
-9918916b1ea14b9bd0f876366d4e7a2fafb8a28b bpf: Update selftests to reflect new error states
-f7ab9aac04045e3776d59e7d00d841d51eb008f7 bpf: do not allow root to mangle valid pointers
-dd520827a17eab880235711f3e768eb81c1fed36 bpf/verifier: disallow pointer subtraction
-15330df661c8ad3886ead154edab5e0fd9948fdc selftests/bpf: fix test_align
-c3aab0a478d41db73e2be5c8b950ad3d9c29de07 selftests/bpf: make 'dubious pointer arithmetic' test useful
-df11f2909d57dfda929d4c882b31823500fc3f5b bpf: Fix leakage of uninitialized bpf stack under speculation
-446ac5e095853e3ac7811db721347482b26c6600 bpf: Wrap aux data inside bpf_sanitize_info container
-d1769605dd4bdc25f9c2ea599a1f49c21f712058 bpf: Fix mask direction swap upon off reg sign change
-74840b901389f234a17b3e72d5dc01dd697a88e5 bpf: No need to simulate speculative domain for immediates
-70cfd9604f6c3c8e1c3dfa0e1bef8d9b3d8a58a1 bnxt_en: Remove the setting of dev_port.
-6dae1d5fcfd718079b62cf6ea1e6e250636657e5 KVM: SVM: Truncate GPR value for DR and CR accesses in !64-bit mode
-ce37877c2f77365e63093117c86c0a3d93a4455f sched/fair: Optimize select_idle_cpu
-0a66e110a50ade497c7e695a642836487418b027 xen-pciback: redo VF placement in the virtual topology
-bcf7c322df02555974080f5a4c932fd8050f389c Linux 4.14.236-rc1
+bdfb0476a089823c48bcc8bdec5c4e8253a39519 net: usb: cdc_ncm: don't spew notifications
+ab58dd7707a918c64848897d9c246b0739a93a21 ALSA: usb: update old-style static const declaration
+042cb3d131b4221922887329226a040689cbc491 nl80211: validate key indexes for cfg80211_registered_device
+b214848a6d2173b2451261df69ed5c79a535c61a efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+9590d61720e69f0290d8e45f7cd68300a5fb532a efi: cper: fix snprintf() use in cper_dimm_err_location()
+35af8d3415f14caede029a9c712a5726d138b2ef vfio/pci: Fix error return code in vfio_ecap_init()
+612d71139858ad4da3049e5b0334401f06e017c9 vfio/pci: zap_vma_ptes() needs MMU
+cee51a9a0935f4b5e4c07c34e87d785786f3cfd2 samples: vfio-mdev: fix error handing in mdpy_fb_probe()
+d29b1ad309998dd9a572a60f042c0196ec4c4844 vfio/platform: fix module_put call in error flow
+7b4c5213458eeedfdbd81ed57d646906feb7d7b7 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+e5c395b37604ea08d9a908ba3c3f277583183d63 HID: pidff: fix error return code in hid_pidff_init()
+99d91ab088fc4b9a1f3b7fac8531d21fb472b87c HID: i2c-hid: fix format string mismatch
+b6cb3b3432c69b3040476d26f68522caf92f01bc netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+82dc4826fdf92ba6a0ca2cdfe9db3f7ed3ad9563 ieee802154: fix error return code in ieee802154_add_iface()
+a0b6932b057915240a020af3b5edb595577e0b98 ieee802154: fix error return code in ieee802154_llsec_getparams()
+e2d9d41c54e26f04ea257e1b004cc254069024c9 ixgbevf: add correct exception tracing for XDP
+f9abdac9cee8d9366c0a06c9fe0fc51dc7217708 tipc: add extack messages for bearer/media failure
+52be5cf8b0266fa9dc98f7086572f10cd7f9a1ea tipc: fix unique bearer names sanity check
+5c78aca5d64ced9598a134a4e297c752ce685e6c Bluetooth: fix the erroneous flush_work() order
+94e1b9000f6fa6557b0e9824c75bb110f6ac681c Bluetooth: use correct lock to prevent UAF of hdev object
+686592a16085f0c92e8bf20baa8e19e28cc4a5ce net: caif: added cfserl_release function
+b8f49fcb05143ed52526e8ab9c545f4a8ee5ac2e net: caif: add proper error handling
+1f5ae8cf8d27c1dc841805f7ec455f9a54e0d5db net: caif: fix memory leak in caif_device_notify
+f10d1aeac72d6ab691fe6fee99a171944e8bb2d6 net: caif: fix memory leak in cfusbl_device_notify
+59368af2225a901385e60f943c887a96d6af29b0 HID: multitouch: require Finger field to mark Win8 reports as MT
+3394fe235ae3b2689b0abda79228ff0ac7eecaac ALSA: timer: Fix master timer notification
+e4203da112f30775642911374950db2f8a4d990a ALSA: hda: Fix for mute key LED for HP Pavilion 15-CK0xx
+482656308bab2e9b29742e9909f1e1022f4d386b ARM: dts: imx6q-dhcom: Add PU,VDD1P1,VDD2P5 regulators
+bba7a0b3de2d925b9bdc65e142165f19448aa312 ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
+02b59379a09eff433d156d59d7262b1721d23832 usb: dwc2: Fix build in periphal-only mode
+e6f7c2993d4108779d23eef44bb98f3d87f16013 pid: take a reference when initializing `cad_pid`
+9a28b871adb81eeb158dc2decd5d1886d4b66fe1 ocfs2: fix data corruption by fallocate
+9157a6f035278531717125cb8bc5b63dfea4c8f3 nfc: fix NULL ptr dereference in llcp_sock_getname() after failed connect
+22c648cde0d6a874db9f50e8a857cef7785ed504 x86/apic: Mark _all_ legacy interrupts when IO/APIC is missing
+72c2a5a66b855195ff08bf82c94f77c3168b4505 btrfs: mark ordered extent and inode with error if we fail to finish
+04b77a72e5e28665ff68213f02316bcdb21081ac btrfs: fix error handling in btrfs_del_csums
+7607fdecbb0385cba850537e72cb2d6cb9657625 btrfs: return errors from btrfs_del_csums in cleanup_ref_head
+96f9f97c9bb4aab92cc3faccc5ef9f094e10a3e6 btrfs: fixup error handling in fixup_inode_link_counts
+4ffa060bc374c046614a3d84bbbe1a79e1c4e555 mm, hugetlb: fix simple resv_huge_pages underflow on UFFDIO_COPY
+e87d789fabc372d1d2de7a69db11f90896bb10b7 bpf: fix test suite to enable all unpriv program types
+f64f901047aa10511980ce7378f40c882f6c8a6a bpf: test make sure to run unpriv test cases in test_verifier
+063179317f9a2f41e8fc63fba4e2a1a18e20142f selftests/bpf: Generalize dummy program types
+f9d02443972d6053ba2bf9f275f5c481130cdddd bpf: Add BPF_F_ANY_ALIGNMENT.
+d22d03e580c43ce64b65dd570dd69a984ebb1f61 bpf: Adjust F_NEEDS_EFFICIENT_UNALIGNED_ACCESS handling in test_verifier.c
+374866538e1d0cb0c3288226577892102be8272a bpf: Make more use of 'any' alignment in test_verifier.c
+3f87da997229c6fe127213c2df6edefc529823a8 bpf: Apply F_NEEDS_EFFICIENT_UNALIGNED_ACCESS to more ACCEPT test cases.
+f693c483016d637b72c58c8d976887eb7157cf21 selftests/bpf: add "any alignment" annotation for some tests
+81001ae3a1be23aa776c4c7d5d0c017932b236ab selftests/bpf: Avoid running unprivileged tests with alignment requirements
+2b7f15221e176facfbf7f07753b5811e43c095f8 bnxt_en: Remove the setting of dev_port.
+c2d38edafbd5a698f8bbf4a443b346966476ca6e perf/cgroups: Don't rotate events for cgroups unnecessarily
+d8cc6b65ee1ff0c93d8b90f3fffb599d27792974 perf/core: Fix corner case in perf_rotate_context()
+da695b407162e04b02761167ac9e1831b09f8bce btrfs: fix unmountable seed device after fstrim
+c024d4e4b99fde9646a06c3fdb0e8426bcf4e3f6 KVM: SVM: Truncate GPR value for DR and CR accesses in !64-bit mode
+7b33c274d09880bfc99042e9ac7200196fa2500d KVM: arm64: Fix debug register indexing
+04a963dfbdbdf9d18293de41f84f0baf0020d8e3 ACPI: probe ECDT before loading AML tables regardless of module-level code flag
+d75515124740b71892f8e520150ea41e716f2124 ACPI: EC: Look for ECDT EC after calling acpi_load_tables()
+30619ab13b66a80dd6c69634716b348da66cd3b0 sched/fair: Optimize select_idle_cpu
+403580c2c30e0a0e55bc152411805d5a69848389 xen-pciback: redo VF placement in the virtual topology
+33d2d78e324253a94644b480912d210078948189 i2c: qcom-geni: Suspend and resume the bus during SYSTEM_SLEEP_PM ops
+e0814e7f98273955eba278cf072307ffab605339 Linux 4.19.194-rc1
 
---===============5765945117065733258==--
+--===============1485568874746494602==--
