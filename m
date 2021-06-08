@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8635202233444512693=="
+Content-Type: multipart/mixed; boundary="===============8267865019715640749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 08 Jun 2021 12:14:15 -0000
-Message-Id: <162315445548.4910.11876239638869537153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Tue, 08 Jun 2021 12:14:20 -0000
+Message-Id: <162315446091.5021.14503834732938572526@gitolite.kernel.org>
 
---===============8635202233444512693==
+--===============8267865019715640749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/master
-    old: dc66944daa042b5daad026f359cb6c56ecc9fe53
-    new: 4a6ed7591a59d37b1647e64ddd995f8d0d76a0b4
+  - ref: refs/heads/for-5.14/arm64/dt
+    old: b8928c2b5dba7484a80077d12be702ff71d8190f
+    new: ff62b09d46cffc8c43649539c304050578371de9
     log: |
-         4a6ed7591a59d37b1647e64ddd995f8d0d76a0b4 5.10-stable patches
+         ff62b09d46cffc8c43649539c304050578371de9 arm64: tegra: Audio graph sound card for Jetson Xavier NX
          
+  - ref: refs/heads/for-next
+    old: 6e49cb4501f6ee95aca19626c7b08a66f7c27786
+    new: 68bc483ed413ac02de8485a744b5ad104958d83a
+    log: revlist-6e49cb4501f6-68bc483ed413.txt
 
---===============8635202233444512693==
+--===============8267865019715640749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6e49cb4501f6-68bc483ed413.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623154454 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1623154452-5812cf60de6d0b91de6267c6009f0f49e667d41b
+ff62b09d46cffc8c43649539c304050578371de9 arm64: tegra: Audio graph sound card for Jetson Xavier NX
+5d19cb0887026d238b106b2b080c88cffe4792b2 Merge branch for-5.14/clk into for-next
+3a2db52fc3ccc4f675f353bcfcf68409f2807a0e Merge branch for-5.14/regulator into for-next
+e98efdd6a6a85f86c6c2d370225d0a02a0a108c8 Merge branch for-5.14/phy into for-next
+81c483814cc956d93a64de3dcff6fb00574ff574 Merge branch for-5.14/usb into for-next
+25e12710d65a671c9d42589d54e42bbbef5f30a5 Merge branch for-5.14/dt-bindings into for-next
+0264340a15962525d9c2f04ab77dbd2687cd9fd4 Merge branch for-5.14/soc into for-next
+a8ab29e9eb4b51c3a4022c666b641d8bbe505e20 Merge branch for-5.14/firmware into for-next
+399a9ceb6abc110e599772fabcddcf646942fc25 Merge branch for-5.14/memory into for-next
+993aab78688b0ab9abdc1cd9b0bc51c52cc3f070 Merge branch for-5.14/arm/dt into for-next
+ca3adc8d6ad8c31b9b22c4a99a36fb66555511b4 Merge branch for-5.14/arm/defconfig into for-next
+68bc483ed413ac02de8485a744b5ad104958d83a Merge branch for-5.14/arm64/dt into for-next
 
-dc66944daa042b5daad026f359cb6c56ecc9fe53 4a6ed7591a59d37b1647e64ddd995f8d0d76a0b4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/XxYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bXkP/18c4lyjt3adbOmvx1vN
-K4OMLCddtDUdiue4C4jP9jfaw0JAWe6q+AL7Saw4bBefalxlxyiOKhpqj6gn5ukb
-5HKe2l1S0f4Ns//UKMLDPIV+6cLaXNTZKhPtCM7sHdypuJrIjae9V14FU1MZBgkb
-JJ0n4qLxMsvkt2K9ugeqzi8UeOd/F/sirFTg34vzgZ1zcV+fKlvp5Pz84mcjsG4p
-89RSBE4oTI67l+Bv0ynUFmEIau3QCqhiR4/0dVyJRXXXJkfd3vusZX0G0DChbu24
-KY9CQfFJKudL56FUKNc0f+Y3bj9TCJfByL2Y9TTjL0eRdIT9Ew/kcD/kY1q5RurP
-YE01i0Riultmx+rWCPVNpGmaq9RF1e3hyonTvqnSB44UXJMlGsgdjzdo5PwGdjdV
-o8WyGMXxXJFV9rlPpidCC3O6NFzdSRhlHpdZd5pXavzubyJgDC91wG2UeWtpz4+y
-+Q6VqAtiZtfkrUJJTLmGvlcTaFNyLSdkVaGVo0ISgUIT8ailKeHC0KuCCGzK6/ww
-GXMdBtW8Ek7g9HWPJ2fqZoJDoZFP1Y1XnKk/ZSHPewWT8c6u+1X0HS795Wafz5/k
-gSYmep8Zp2UzWog9dTJUWUS7gFbMQKjYmSKmhgbPplTtOYlCWxoX7qdkkdOWYk14
-Slx6XrIwSAwT767tz2qq3uFy
-=A2Nj
------END PGP SIGNATURE-----
-
---===============8635202233444512693==--
+--===============8267865019715640749==--
