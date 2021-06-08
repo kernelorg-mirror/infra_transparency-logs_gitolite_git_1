@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============6979196957821985203=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 08 Jun 2021 20:22:42 -0000
-Message-Id: <162318376205.17600.2175056389264221963@gitolite.kernel.org>
-
---===============6979196957821985203==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 08 Jun 2021 20:28:07 -0000
+Message-Id: <162318408740.21094.16065289525914302211@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: c45fba464ff3442d7dfa5f65092311b4b8d73757
-    new: a06304fcd63facb5e6fea86c8ff8ad42430c4439
+    old: 4f2bedb6602b21a29d0913d66acec38cedb7b1a2
+    new: 7e7d901999fa17121a31116db439c01ab4ab3300
     log: |
-         a06304fcd63facb5e6fea86c8ff8ad42430c4439 Perform an encoding bug avoidance dance
+         686a41b18ce713611d11fe14dce8a0e097943c32 defer: Add simple singleton tests
+         7e7d901999fa17121a31116db439c01ab4ab3300 defer: Enable optimization for singleton
          
-
---===============6979196957821985203==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1623183761 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1623183761-48a63450590859b9b53515e6c39a219fa9c20c0c
-
-c45fba464ff3442d7dfa5f65092311b4b8d73757 a06304fcd63facb5e6fea86c8ff8ad42430c4439 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYL/RkQAKCRC2xBzjVmSZ
-bMhWAP0XLZUGsWMwdjPNQrV2JJID5gjvSZoAslY4kcmz2QJFAgD+JeNyQXMoiUYS
-oimVjKsXYyZYYG+zQK/XaqJZpee4kQk=
-=jyuO
------END PGP SIGNATURE-----
-
---===============6979196957821985203==--
