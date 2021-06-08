@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 08 Jun 2021 21:16:04 -0000
-Message-Id: <162318696463.20086.3622936296167980049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Jun 2021 21:33:08 -0000
+Message-Id: <162318798891.30791.3042732476578536671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: d7a28031718d281f1b9ea593c8a3f395761510ca
-    new: 40d0b84220f7c0ff9c3874656db7f0f8cb6a85e6
+    old: 303597e49b835471dc571849af02a99fa74ba3ae
+    new: 95848099a3dfaff20b3622ee2040b24bf40b2b21
     log: |
-         e1315822835ceaa976a2b8ac6a74ce7bb46b079f t/zbd: Use max_open_zones that fio fetched from device
-         351fe91089c3babb06ae421a1abce3632f42b672 t/zbd: Add ignore_zone_limit option to test with special max_open_zones
-         40d0b84220f7c0ff9c3874656db7f0f8cb6a85e6 t/zbd: Fix write target zones counting in test case #31
+         597a68ce32167e7d07bf40648e1501f786f60f99 net: stmmac: split xPCS setup from mdio register
+         f27abde3042ab4d30d0003eaf5e6641baef94a56 net: pcs: add 2500BASEX support for Intel mGbE controller
+         46682cb86a37da435e5668db98555a1de0f0448b net: stmmac: enable Intel mGbE 2.5Gbps link speed
+         95848099a3dfaff20b3622ee2040b24bf40b2b21 Merge branch 'stmmac-25gbps'
          
