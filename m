@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1797944024940768639=="
+Content-Type: multipart/mixed; boundary="===============8555682027487154380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 08 Jun 2021 14:06:56 -0000
-Message-Id: <162316121643.21344.1223854604134238882@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 14:06:58 -0000
+Message-Id: <162316121896.21490.2665955549453000769@gitolite.kernel.org>
 
---===============1797944024940768639==
+--===============8555682027487154380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,72 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: fc074db66f4e239b9138205560736f5268f30d45
-    new: 57f4ac44213376ed7e491f6e5582955e76f17b27
-    log: revlist-fc074db66f4e-57f4ac442133.txt
+  - ref: refs/heads/linux-4.9.y
+    old: d0291f712a37d9075856822b50178f6d300ab590
+    new: 74b5c6c76e235208439f19f0e11e7dabebf77a9a
+    log: revlist-d0291f712a37-74b5c6c76e23.txt
 
---===============1797944024940768639==
+--===============8555682027487154380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623161214 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623161216 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1623161212-56037e3eb56fd7c3a57bc5bc1ecd7e4b2c6e7f5d
+nonce 1623161215-a4cd28d8c0eb28583e1e0844ff41b7d68e0e774e
 
-fc074db66f4e239b9138205560736f5268f30d45 57f4ac44213376ed7e491f6e5582955e76f17b27 refs/heads/linux-4.4.y
+d0291f712a37d9075856822b50178f6d300ab590 74b5c6c76e235208439f19f0e11e7dabebf77a9a refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/eX4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xEAP/06IcDT8Qcx3rxDhIzdN
-5iw0P9eG2cXNB4eAV3LtdxBRY8Wun2/sOFbmR89shkavsDQLyBeEwlCNfTVwEyEz
-Gl9pquK9oN9jv3z33aa1yCBHGMoIZiwVL4lKroFyW5ERHgNBHxgpRo0TQqtgexzm
-XR7Bo0JqiPX8c/RtS1ADvjA/Z/mnTeKb7C7NRxWgSXLgnNNsVjwJZQwaoZYXuTvN
-8gM5Z7TJo3p09/RVBrEAS8wQqmaymLCr8RhPRTIlPf3AKvforBXnQX9ir5HHYOvz
-n8cKzlXPPr/b2Hiv3w76ynxGBEWxB+3L123QNS7IgNffMWcO2fAKbHG0s3JqytAT
-GFQYXY/RyW8yL+sSAz6P7/861/KcOBUL5kPFj+om6gALOYox8VZtPlE3b8639A8o
-jXBvAfbHIi8NIvJekqAzdLDTatpIh9xuO67yVE3X7+NMohQv5oZ7NLfVGt/IVobI
-sIYc9iw2cqBZUjsKsitLJcrQlvnlRKKWdK7apxoiU2sH19DE4syI+CrYq0E0ycgX
-5/9tRfvxZzYiLVfJ9tnNQUeo8BgXPxoorJmHzTgbPs4oqIp1T9hvEyQzqQg0csoZ
-1GuBwbeVa14X1IzjDEhOqbltLvvkwdcnupbep0zltVl1gUyuC6eiEAwKUa1DxkSN
-RSBTcyLYhJJGDnGNiNsfwLG5
-=PsrS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/eYEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EoEQAI1Wz4vlJd6nW8wiKc6V
+D0dg3vSarTAdQcXFSi0RE0WDiwb4vX+5xYALebfMW5lVxDj8i+iiODa7cYVdECqs
+ClyQzghkJOLYjmCvQnGlChDWxEB3h9u/oj4Dvr+q0K1mVyM4pe8ceNhDRKvT6cXa
+TUL7eHKc+H0LXFTYhJSGxk5BhnPsjjPEJc8nW42fts3+7j8iULw2a4BMjy/0o8xO
+KP3weWFbIXQW0byIgh7/4uoSCMxZpbfMl9ToTXyg4Y/AHMW1PflxQJydw3D9E34O
+LESBMxe/zPF9RNYry5oTr901j+aKHzrFFbs2k6GyZAFs4etXqrK1bUaIQgQTT1bx
+gEaYz1d27tmlEVgwHr99QYlNAppYh/fu+7t22kdw1JarMJHOHmUyIe4QvPY3uFpw
+vyMj1RGx5npThkBckfgqq/2fRPD6p8FHTzhOKtxgKejEajXvUeCxXbkVzZxMPYS8
+fbJeVIbrwkNNIrTiFi5fmreOMWqYIfPjBEvP4ujUls9jL9adJ2DYKDeEpQdPcg5A
+gWVRRebn5gLVbgLEVqdwYXWKZC/3hzlmUl+gifUCHvLJg4mKLHEUxm63Oes3dp4S
+DPS7oO0LgEKr04gQWl81huoGcwU/xA84GZcG3NffbGG1w58VfcImo0VkViaAEFOV
+AMPatOP/wFE328rH5mK4IaYG
+=qlzb
 -----END PGP SIGNATURE-----
 
---===============1797944024940768639==
+--===============8555682027487154380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc074db66f4e-57f4ac442133.txt
+Content-Disposition: attachment; filename=revlist-d0291f712a37-74b5c6c76e23.txt
 
-9eb2047a61b908186924869c95d0a01bf2356385 efi: cper: fix snprintf() use in cper_dimm_err_location()
-b745b2c172f947d6e95c642d900b61f12d16272d vfio/pci: Fix error return code in vfio_ecap_init()
-a3ad80f1cad3112d00e5382068b9781c79c4a2a4 vfio/platform: fix module_put call in error flow
-7654b75fa2be924ec4e11986d224641336078371 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-9f62ac3920715c4463b993cbc04fe068f12bdbc9 HID: pidff: fix error return code in hid_pidff_init()
-180897968c2273d0efd89f44f41e62fdee02b85b netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-a800c41f29c0634e15ee324d298ec49f01042862 ieee802154: fix error return code in ieee802154_add_iface()
-2c009d43b0458a1c56feb5504fe3d1464aae61e8 ieee802154: fix error return code in ieee802154_llsec_getparams()
-69c7271332deb6f371fe927068775693cdc29626 Bluetooth: fix the erroneous flush_work() order
-ccec962e60da8253ec42b9696969068c026a849f Bluetooth: use correct lock to prevent UAF of hdev object
-87d60a7501b4b2025ed3eaa969ec47751df4b235 net: caif: added cfserl_release function
-4bd1c3034997585570e23390071764054865766f net: caif: add proper error handling
-5db69f6dbedc65fbce24c523aa170ea4c057f481 net: caif: fix memory leak in caif_device_notify
-4b771f05d25df84bd574a62dc0775f531fd17668 net: caif: fix memory leak in cfusbl_device_notify
-5a061b14b7df34ad67aa19b58038159a0baa325b ALSA: timer: Fix master timer notification
-f537afcf1fa21d9803a12fdccc5a5966003eb1c4 ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
-b7ee4065b6ef88f9e4242acecbc333ea3122cbda pid: take a reference when initializing `cad_pid`
-9ba9bc624447b151fb651c41d106dce1186fb764 ocfs2: fix data corruption by fallocate
-84f8838c7e484805472e3ea314a7b51c958f8afe nfc: fix NULL ptr dereference in llcp_sock_getname() after failed connect
-ed5c4fe083efb9c976deac1e83059285a20d0d50 btrfs: fixup error handling in fixup_inode_link_counts
-57f4ac44213376ed7e491f6e5582955e76f17b27 Linux 4.4.272-rc1
+1965c891a299b734d86f27001ecb19975858344c net: usb: cdc_ncm: don't spew notifications
+d13929dd4bc679a686bbd79e2af77a92b428f0e1 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+21712685eb3a182d8620c35b65858de2beeb3bc0 efi: cper: fix snprintf() use in cper_dimm_err_location()
+490de8fad3135055ed81f8d71b2cc83098a170f5 vfio/pci: Fix error return code in vfio_ecap_init()
+cec6c93cf93ba600f3a442415c303586c601606c vfio/pci: zap_vma_ptes() needs MMU
+628396e9940dd4e35517b2dfcb494872d757e762 vfio/platform: fix module_put call in error flow
+06720f1e1769dfc88edb13feb17ebb8cdea3361c ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+1bdb23e5e32fb9acc5f80b43d83155c02c1512f6 HID: pidff: fix error return code in hid_pidff_init()
+e3f026e5bf44f2674dc45aed157d18ad2d23aab8 HID: i2c-hid: fix format string mismatch
+406f3d3f6380b6f249f9a857c95a63cdc775c52b netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+d2f82aca8adc151eb418699139cd6f31eb156b59 ieee802154: fix error return code in ieee802154_add_iface()
+dd75313725e9a61081a089973e9de00da98babbd ieee802154: fix error return code in ieee802154_llsec_getparams()
+4f2e5eda3ac0918fbde2e2c62f67fa82e7e7e3aa Bluetooth: fix the erroneous flush_work() order
+e1347e5a70224edcbf2228bce96f6bad116d947b Bluetooth: use correct lock to prevent UAF of hdev object
+7cbd7104958883743cd2864a1138fbffd6b60729 net: caif: added cfserl_release function
+0876f635cfc854e343175d8be2a5e6dd7b7e0e41 net: caif: add proper error handling
+297e3d3f735d8bfd3c2824069e086ad7ce62cc26 net: caif: fix memory leak in caif_device_notify
+bf866b382429a776a5be5451005c7358bcb52ddd net: caif: fix memory leak in cfusbl_device_notify
+9048a3b47619d47103d8429ffca0d569739093a7 ALSA: timer: Fix master timer notification
+97c5002e13c41c82b7654781e3e170d239080708 ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
+6ca76a1422e6d32d0a22d1599b417a7d7f86553a pid: take a reference when initializing `cad_pid`
+11d8836874be54914a8048578d9e712d90e165f2 ocfs2: fix data corruption by fallocate
+a38c1c7de9a6bb7d47fd8cf26528f9d4cfa1485a nfc: fix NULL ptr dereference in llcp_sock_getname() after failed connect
+d97cc9308ac4c700a99d1f9effc0dc05074b732c btrfs: fix error handling in btrfs_del_csums
+becf885c0b96c82c93f29f748ac13c0f80e16380 btrfs: fixup error handling in fixup_inode_link_counts
+74b5c6c76e235208439f19f0e11e7dabebf77a9a Linux 4.9.272-rc1
 
---===============1797944024940768639==--
+--===============8555682027487154380==--
