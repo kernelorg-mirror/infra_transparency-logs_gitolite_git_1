@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3689085358253144605=="
+Content-Type: multipart/mixed; boundary="===============7220975230068348032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Jun 2021 03:03:19 -0000
-Message-Id: <162312139949.22676.2518649836923263586@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 03:03:24 -0000
+Message-Id: <162312140445.22766.6339548070390221081@gitolite.kernel.org>
 
---===============3689085358253144605==
+--===============7220975230068348032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: e18ceb1e73d14e25729af9e6133c6041357f4696
-    new: 9bfbf0a47267774852d3c1c39db4ae1beb1f3a52
-    log: revlist-e18ceb1e73d1-9bfbf0a47267.txt
+  - ref: refs/heads/5.14/scsi-staging
+    old: 1ff28f229bc7fe36735684b25e63b528dbb962a5
+    new: 105424895c02858922e1bf27ef01127e12caca9a
+    log: revlist-1ff28f229bc7-105424895c02.txt
 
---===============3689085358253144605==
+--===============7220975230068348032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1623121397 -0400
+pusher 75C5DE3D 1623121402 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1623121397-e720d3fcdd8747a8d6849427efc726d3d09e5297
+nonce 1623121402-5e31e91f098d5d49f72f4dd2c36f36f3bbe38e92
 
-e18ceb1e73d14e25729af9e6133c6041357f4696 9bfbf0a47267774852d3c1c39db4ae1beb1f3a52 refs/tags/mkp-scsi-staging
+1ff28f229bc7fe36735684b25e63b528dbb962a5 105424895c02858922e1bf27ef01127e12caca9a refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3fUACgkQ7ulgGnXF
-3j1EzA/9EBSqbM/NCsPa8GHNks2lQStBMOZtX03uwsJXNwxv/zKPLZTCJ38rLDEq
-qm2zijtm5w9OVwSlPyp4cCURKFvAZDeYv2pLbN/p2o0QZ+yElELYahBPKuYcLdzR
-FKWkXYGt5qPxuoFbgkwRmNe8Bt2J0rxKD6uI4dgsXeHpxuURp2bH1BeYwj7Ybpr3
-JewwX/fREESIs/Lb7BItiD/is9YeSMGlPeJuF+ayXCti4LlfWnYZ+AARsFYNtNi+
-1EhFjmHE2UEgOl5c1td9sLrxo70CaCtlZRnBedlWkevfeTtKJCByw8vAOsQ4lH1d
-2pYTPOz0RTti2eWnNhD9qMlp2H+Rveh0GrGH0HOO6hGEsL2WEunkD1iP+9io4iQd
-+7WRYtGsDD95AXRd6DgkNybvpUi23Oh7XLJ/619yq68CygbfSqxa3wSUPc+BjThK
-ZsFCNRBEmty1HCeU57wZTkU8Bv5WE+2LglUPvo4Gvsh3wXPDRv4cMU5DWI88fzP4
-8fTGx9n0s8mraiesogLIH55ofPAtGONjtE828pL6HqEQ4CubgQK1OE2rlO4f+8WX
-ad4QwVAD47jZ50P7SxbD2XMwoVCztV2PKv9tOxWbr4oVSm3qJ0H/lY1MrAM8ZFiN
-slZIommFUQ9jph+nzdoHvBSzShgNPgpR2LOK7YUO01nC4iuiLlk=
-=iKHA
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3foACgkQ7ulgGnXF
+3j0/3A//exyl8QU6soPWNcVbEPypepLDovA2/WEs99rKonSG75W3ssq/VVOmomcg
+/7HqJYmFrCz8FigGFd3cKwKlalF/dhQr05ZS4Cr5qJWPaWjMOwtlfbFZErJzzrUd
++ojQEehAa3x3O1F0MNDZKfjKqrspa1Eo2++50knUGflUlXVAC9q4+2VH4c9Q/c4p
+P5jV9IWiLiSkgahgInUmSsra/4gv8sqYNPrUn1j/dPki/OdTdVoXA+LwDuYM+hPt
+aro4lKr2jcmZJVS+Ul1sMx3/nIflWb6J3rI6nwt+mNUukpXg+zLnHcbCQx+ke5Iw
+TMrKfBKuF9YMoX8EQHwd6fE/nbd33XPBr3o3DlmjyD2jz6uUhEwYPLaL1NCA675P
+dtieCoyZw7MjsHqAondlc4MLmpk9+TlSfb1MIAJCJLEevOIdx+CzP846hAkx+Tun
+uBZA0OEPZ7FowmRePmVBeyc8f/txmCHByIrLr/Q49ltiMBnaoW2vvtkmSByAMlr3
+F2yUPbfi1mN0CiMBcUJCHRx2SaXtGOR5u7x+vYjTFEzbJHc/Gk1w2W8o2+T0rkN8
+mkvGx059j87w7ZmJSj9QRlhdDNbY3G09AFQe9yLxyJAweL/ySjixriBd9yq+pVSd
+lhN1Qefgmgu9I3OLWvvTcpBJ00BwspKi1gGhHijiuJTJHaValsQ=
+=0EeM
 -----END PGP SIGNATURE-----
 
---===============3689085358253144605==
+--===============7220975230068348032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e18ceb1e73d1-9bfbf0a47267.txt
+Content-Disposition: attachment; filename=revlist-1ff28f229bc7-105424895c02.txt
 
 d377f415dddc18b33c88dcd41cfe4fe6d9db82fb scsi: libsas: Introduce more SAM status code aliases in enum exec_status
 149d0e489e807f1e6dc265f975a793cea11ecbea scsi: core: Introduce enums for the SAM and host status codes
@@ -74,4 +74,4 @@ a45f937110fa6b0c2c06a5d3ef026963a5759050 scsi: ufs: Optimize host lock on transf
 44b5de363524a1b9b0c9a42502f3a9e1dca9c6c3 scsi: ufs: core: Capture command trace only for the cmd != NULL case
 105424895c02858922e1bf27ef01127e12caca9a scsi: ufs: core: Use UPIU query trace in devman_upiu_cmd()
 
---===============3689085358253144605==--
+--===============7220975230068348032==--
