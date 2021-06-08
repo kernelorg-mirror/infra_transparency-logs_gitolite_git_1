@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6056480138271355611=="
+Content-Type: multipart/mixed; boundary="===============5158584679087002952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 08 Jun 2021 17:41:29 -0000
-Message-Id: <162317408949.6472.13206769933150776030@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 17:41:31 -0000
+Message-Id: <162317409119.6546.3596654558493012988@gitolite.kernel.org>
 
---===============6056480138271355611==
+--===============5158584679087002952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,76 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 57f4ac44213376ed7e491f6e5582955e76f17b27
-    new: 6a18fb76bcf172f3a062a523aed0950ca0bce830
-    log: revlist-57f4ac442133-6a18fb76bcf1.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 74b5c6c76e235208439f19f0e11e7dabebf77a9a
+    new: ac27ecdb08b63371ff1f738966c44320c581ef16
+    log: revlist-74b5c6c76e23-ac27ecdb08b6.txt
 
---===============6056480138271355611==
+--===============5158584679087002952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623174088 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623174089 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1623174086-0d915102d22604b53b395c8bc47b535bd1072caf
+nonce 1623174088-bbd8fb45392c7a996fce2f7670ae0e7b3c3c28ff
 
-57f4ac44213376ed7e491f6e5582955e76f17b27 6a18fb76bcf172f3a062a523aed0950ca0bce830 refs/heads/linux-4.4.y
+74b5c6c76e235208439f19f0e11e7dabebf77a9a ac27ecdb08b63371ff1f738966c44320c581ef16 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/q8gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cnsP/RIVObmwAMm3aBfUn6tn
-kavzijIo8zU/FCJLvuEHkrRvquWp+dSYHtw7vbOQ/Ihyqrw/+JT0WZYqIIjGIZm/
-xtf1mnJevmlEgKyCERRTd4LPohOuUT1da5La9wMv61LUHTORzjQDeJD+HSpfRbGG
-EC1VmBt0xE4VruSLSYVvCM+q5i03uciO1Sc4Uw5UCZfKgOd1mE+YVcnds+PKMocR
-AHWyx0dGMmfdUMg15XnbvarwX1HVwtNyn3ZvOA8jjMAKp3cLfltWl2i1+1hoiDrn
-HSMcCfmz8AxOfd8A2+zaRCvpQ18vCR0adVWbYAJyrDENuW3qNvwsUj/r3Z+GVZMG
-mJqRliJAjamLbbPUmRCmdLOkNBCBlbdKigaC/pLKbMSRYoX+JdpBaikXz+rbW4Ts
-kRWHZ4U21VQFE090P0QZXjVpXH7xBP9kp0XWAlObsydExTHdPAD9h9gVU0VbBu0l
-YVe8GM+NoJJWudUE/rBEVdEZtjcZZwrRZ7/teobpxjDwwcmioPjeKcPoNGjJHF9R
-iTBrYUM+tDcq23HLxvcwXbauwsJMQtE3vZ99lP1LBaiSk9yHrKDO0G5s7JS7CWhW
-1DHWYAN2fQjyZYyoVbYHltJrTRnx4bHG+il8MTqlmDT+huUFsPHs5tkVf7uGXd+6
-Y0KmIyz/EgmnQ9iJ9tKvXNM5
-=UPAJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/q8kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2XoP/02ZhRhnR1PiKJDuzut1
++A3ufI3rUGUuw0ztXutJGHjCsYuj77KbzwodRX631kgGOen1vqHgXpZAR7QjBsH9
+2THcxNBpsRMqhDkxVf5VxnH8UlYJGaBIEfgUpE9DGdSOwZjtE2SyQ56fjjV7QCjC
+8dJBtNUDkV0OhuO+skZdrawjK61q8sTfEYFM2wC1xPOKmDiddwe1RvmFEoMyJxQB
+U+uGxiDIShBEpXT9hPZVnnrvS8AVl5G/w8zrvJOhVm3Tp/y+vTyQLlPuBBTt4fy+
+3twMxmPVsVPM0WnmighZDT+goLgzHQiG6qsPymCfzS2IEfhjiPnNryiNUpnchxTO
+s4zwX+aXpLN3cesXC4dPI9p9GJiWpGQdG75cdbri1JIOosv9tqBBnZfKP01LPgve
+CaUW+WToFJzYnVrI4SORWgKJtMXhqI1cMA/RJpd6BbyUE+2/th1reYtT7eVaNoeW
+gExo7ePKt0uW4iLd6D0X1d6tzBvv0HV2aXeQ9hd7uB+blBYJeNJlqx1USCW/BiQK
+bVrpKjuxh9oLqaTpgt+R791t2hqABA2PUyXWXGjIk4fIxJ6BwYzKUtE3b1Xp4CG4
+wYLd+i8iD9dolXMY11yPcacoiuF1EAV+tB2Kruovg5nM5RhQZL6rc4MY8JyQ4NoK
+F2eYWU4OMXFhBfnAKdhlpUl4
+=kp1u
 -----END PGP SIGNATURE-----
 
---===============6056480138271355611==
+--===============5158584679087002952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57f4ac442133-6a18fb76bcf1.txt
+Content-Disposition: attachment; filename=revlist-74b5c6c76e23-ac27ecdb08b6.txt
 
-3970e9986275ec50a4fef0145bafa63b56155a12 efi: cper: fix snprintf() use in cper_dimm_err_location()
-9bdc38084a093973566deb6b0e4635ee772b930a vfio/pci: Fix error return code in vfio_ecap_init()
-219d59dd468d77062180ddc51db8943c07b5d7b9 vfio/platform: fix module_put call in error flow
-73d0688118ac6cefb95ae0598dd48de129ae9cc8 ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-18f9e28a08d985ae0942e4763c7bdf17048aaaad HID: pidff: fix error return code in hid_pidff_init()
-660b8a799679f8f5eec19e99383b447373a4d4aa netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-674442a753c3247660f79cdcb8840d216f9567e1 ieee802154: fix error return code in ieee802154_add_iface()
-b444ae8b406f1235e1cda499e45c2d8a0500a8a7 ieee802154: fix error return code in ieee802154_llsec_getparams()
-571d0b3920045469d526e710fbc159aa6dd439cc Bluetooth: fix the erroneous flush_work() order
-e4e05ed3cd361782f5ab30eb932e792234cc64f7 Bluetooth: use correct lock to prevent UAF of hdev object
-fb0797bd071c0c1f0541dac444ce256c1ecc4ed0 net: caif: added cfserl_release function
-c8ac1cdd7cf93a0ed581e9c2a4bfb52739883b65 net: caif: add proper error handling
-e498c8cb23ddaa3937c53b899ae855cf5a2a6edc net: caif: fix memory leak in caif_device_notify
-7d734f5be6c405376bdcee3f6fa3556f4dc2389d net: caif: fix memory leak in cfusbl_device_notify
-0d85031ff66ab93f050302794c6681a0ac45167b ALSA: timer: Fix master timer notification
-fd5f7dd9da12eb47384ad04bdb400ab1b8893258 ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
-c556ef22fa37946ff0351aefc79d2053a7dd4716 pid: take a reference when initializing `cad_pid`
-42b387c3c1ae8bd6c5423a6a7c442c20d17f4a1b ocfs2: fix data corruption by fallocate
-6e7e0daf39005b22757d25e1c92cecaef915ab77 nfc: fix NULL ptr dereference in llcp_sock_getname() after failed connect
-79521f9e01218d6d8d1f73b24626324fac95a2d6 btrfs: fixup error handling in fixup_inode_link_counts
-9ef1a874d39060581c4afc02ebe92d5c94c42f3e KVM: SVM: Truncate GPR value for DR and CR accesses in !64-bit mode
-4a7b67e9d0cfeb316cc64acb0f9189ef0cfabd1e arm64: Remove unimplemented syscall log message
-c731b7faeb97cc0169bcde6813d27dfc0b55a2be xen-pciback: redo VF placement in the virtual topology
-6a18fb76bcf172f3a062a523aed0950ca0bce830 Linux 4.4.272-rc1
+9de7cc70848d6f66768224cbcea3be5b8bf5bd73 net: usb: cdc_ncm: don't spew notifications
+aeca37b07aa2c2cd77ccb8b1d813652c84fc6707 efi: Allow EFI_MEMORY_XP and EFI_MEMORY_RO both to be cleared
+71b11b041400d908eb338aa64a1a018cc66050e9 efi: cper: fix snprintf() use in cper_dimm_err_location()
+0810c5d7cceb0896e9f85f0cd77ae8ed8d6b2ef1 vfio/pci: Fix error return code in vfio_ecap_init()
+8d90aa83c94973c1c9510cf894690a809d004ef1 vfio/pci: zap_vma_ptes() needs MMU
+194657348159342af3830efd3de51d66087b1b93 vfio/platform: fix module_put call in error flow
+e0bf32d220d4d1d582de4b41624df941b368774b ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
+3309def7ec9a7c45392e73808cd8262f85b3a468 HID: pidff: fix error return code in hid_pidff_init()
+859258435ba03760263b4e5c3156c539e7651b37 HID: i2c-hid: fix format string mismatch
+c1035baa60b226af0fb093f0b2662e1ff4b9ec2a netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
+77ab9e59db44a5fc688fc1bd73c176e825fb84af ieee802154: fix error return code in ieee802154_add_iface()
+dbddfdc956cad78d282f93ab416bae0b97037022 ieee802154: fix error return code in ieee802154_llsec_getparams()
+095438d328135357a87c96c4c5648cdf3a3d3e20 Bluetooth: fix the erroneous flush_work() order
+5900bf5c9cdba7ae3cc5ed1adeee63f2fc4903ca Bluetooth: use correct lock to prevent UAF of hdev object
+b6c69a0feab397a0b4c6a890bc92a53804bb2db5 net: caif: added cfserl_release function
+219c4af340ef58424977be13c059dddaf1cfc009 net: caif: add proper error handling
+0a04091feaf1add71dc59e99e435c18b5f55e232 net: caif: fix memory leak in caif_device_notify
+ac3808f39a397e79a825d17fee7a7b3f757bb5ee net: caif: fix memory leak in cfusbl_device_notify
+ab3b2d450a4276ba21767e75b11622ba02ad488a ALSA: timer: Fix master timer notification
+b179bcd5dbc604feea5bc9b3455286ac5a1cb97d ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
+5ade9c6fe8eaa6ab51e69506d05670f72f7c6917 pid: take a reference when initializing `cad_pid`
+57dd87c3010cbf9e9b49cd03a22c80fb846e9129 ocfs2: fix data corruption by fallocate
+db1f41e16411717e7562a0bbe722b6572eb245c4 nfc: fix NULL ptr dereference in llcp_sock_getname() after failed connect
+ddd531106fe01a261b2ae5300f279354a9e9f2e3 btrfs: fix error handling in btrfs_del_csums
+013863a02d4145e68e6dc21277536a299b67a74e btrfs: fixup error handling in fixup_inode_link_counts
+092ddb214ae15d6075d0191a518cc8de3ebe41a2 bnxt_en: Remove the setting of dev_port.
+ab489b69debd6445ae0d68ec3a73653d57b7572d KVM: SVM: Truncate GPR value for DR and CR accesses in !64-bit mode
+ebc605ff25ad89b7251a62939d6c88daa6a32bef arm64: Remove unimplemented syscall log message
+55ac282156cf3f7934135d233708934ddd369cd4 xen-pciback: redo VF placement in the virtual topology
+ac27ecdb08b63371ff1f738966c44320c581ef16 Linux 4.9.272-rc1
 
---===============6056480138271355611==--
+--===============5158584679087002952==--
