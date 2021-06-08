@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0911533504679200846=="
+Content-Type: multipart/mixed; boundary="===============4790184559693441549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Jun 2021 03:02:47 -0000
-Message-Id: <162312136740.22041.9302929050458215842@gitolite.kernel.org>
+Date: Tue, 08 Jun 2021 03:02:52 -0000
+Message-Id: <162312137236.22144.4428922939342720975@gitolite.kernel.org>
 
---===============0911533504679200846==
+--===============4790184559693441549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: bcac8858b83cfe324944903a9ae774e90f7d64d1
-    new: 7eb29a08b2a53aded46a52c40e80a7a39b59036e
+  - ref: refs/heads/5.13/scsi-fixes
+    old: e57f5cd99ca60cddf40201b0f4ced9f1938e299c
+    new: 1e0d4e6225996f05271de1ebcb1a7c9381af0b27
     log: |
          66a834d092930cf41d809c0e989b13cd6f9ca006 scsi: core: Fix error handling of scsi_host_alloc()
          3719f4ff047e20062b8314c23ec3cab84d74c908 scsi: core: Fix failure handling of scsi_add_host_with_dma()
@@ -26,33 +26,33 @@ changes:
          1e0d4e6225996f05271de1ebcb1a7c9381af0b27 scsi: core: Only put parent device if host state differs from SHOST_CREATED
          
 
---===============0911533504679200846==
+--===============4790184559693441549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1623121365 -0400
+pusher 75C5DE3D 1623121370 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1623121365-8d55969d71f3c0a7f2821b7ebb4ec29afc51ea6b
+nonce 1623121370-a6e0e5d8e897cb59e43fff4d878f353ba9125156
 
-bcac8858b83cfe324944903a9ae774e90f7d64d1 7eb29a08b2a53aded46a52c40e80a7a39b59036e refs/tags/mkp-scsi-fixes
+e57f5cd99ca60cddf40201b0f4ced9f1938e299c 1e0d4e6225996f05271de1ebcb1a7c9381af0b27 refs/heads/5.13/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3dUACgkQ7ulgGnXF
-3j0VRw//SVX8JABk/St2eK+RoxcRop/Sm9H7XRk6G8nGAWKpGhyUB7+lqCjEM4MJ
-p6TbyKGa47sopCSvvrHUJnRxqutsc2RG71pZPPsv9JqnXE7y+XsPxKqlICMgBmGS
-kLbH4AY1RJqG7gTjcxmRDCLQObclxPNBP6wjOSYPlsJGMNe29dzptWTixiXXg6q5
-WsPrgJWmoSn2GNLQ0JFRuzavEUMqUmXsc5EElU/jY5SB9q5vG6oM7esCrwsZPp16
-o4lCZjClOgx7ATM5qyk/5dKzNUR1kY3QZikcV8zoT2H2AfHUGsTOtxvP1PzLxNxi
-kP/si+C5plOl3cwBVMqD61yKOPgnwevjpSaLcC02dBjJoZo7m53SAv/Xw+v2ydmI
-app93vVtL4i91bo3kXjBnICEwJFvWOk/0QPkAxNlZ7JYMLdJX32FLQliAIEjyNRk
-acH2xAjbgv5WxV0JiC33YbIAHMMJv+SuTZaBI2b+Q+vChnB95d2addbxx7VFUvw5
-FVgv4WDtZP6aQbXJFZb2KgjggauB/U1ANxOXct082fK8XmshFDFQbt25LIQ0lMGm
-PfmlPo0YN1xnYB5CdvDjT/E+TrtEKXOMPoXOagQxMVeC7mK4S8RUfhf9S8awPl1g
-dLarc05AxALEHXoVo39rNm/6afYfiokWqbdvAPoJ9IMOAtscgo0=
-=P8o0
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmC+3doACgkQ7ulgGnXF
+3j2L7w//e9IxL6QPf9Re1RFMOxS54juSC5rmqp2IYgLdZxhnn8iVl+mtDzJP2aKG
+x/rRL+Zi95fim8s6c0R2doICGmOnP0PFhRHDS6m7wHcJwtnZox/YW9MzyY5U6jce
+j12Uy0ZKeSkhPaizUkQ4Cy9c3FmfpPLzISRBOdcgQvancHMiSTpcnuO5S3/oY9AP
+JaDkpuaKf90FkEO2OxbPIG/RTh5TF9xKL/CMYbRHvO0qSFlWaHjIf76ZyYbIuFjg
+5Wmx14K2tPiN24Jdmn8q/xTJUeRCSWfvJ9NUAeYdzClrnNUO8zP3bRI5YFwfn57t
+R1vlMFc7xFP1gsQTNORr4EOxkBtecXeXwD2eto4S1y/Pi/vMTv8nWKscbMxIMBnG
+gF60rK7HqJGtIWPRv2HGhJG2X/C9FMSvtWO1glh+ZyJ/GK0+N6A6CwuI/zJIrJ00
+mjsJQCfnp1unZbAGEjpJv8mSb9kKUqA53PzumJt9J4bTdbFjmUH4FzKq59YY0wts
+wvuHcAGlgyTHMsEot2ASZo1V9zRdwvM4NLV9uzTzeHyrD8NLAIsw1UVlqcjRN65u
+fF/L8A32NIaMJZ6iqf2Q/5aIXnvWcHqYUVR2kkfmXchof+7MHYuY/9bcg01m/ZUI
+S439yl9b5J6SeH8ftLTvGHvHw+6JimkCNwXocyn26UNvw137viY=
+=mkpw
 -----END PGP SIGNATURE-----
 
---===============0911533504679200846==--
+--===============4790184559693441549==--
