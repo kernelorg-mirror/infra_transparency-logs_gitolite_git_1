@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7573595503308187868=="
+Content-Type: multipart/mixed; boundary="===============8050640243283687555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 08 Jun 2021 15:58:58 -0000
-Message-Id: <162316793857.1622.6884564708783229233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 08 Jun 2021 15:59:05 -0000
+Message-Id: <162316794542.1817.1842107030762638609@gitolite.kernel.org>
 
---===============7573595503308187868==
+--===============8050640243283687555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: d38fa9a155b2829b7e2cfcf8a4171b6dd3672808
     new: aceda401e84115bf9121454828f9da63c2a94482
     log: |
          aceda401e84115bf9121454828f9da63c2a94482 spi: tegra20-slink: Ensure SPI controller reset is deasserted
          
 
---===============7573595503308187868==
+--===============8050640243283687555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623167924 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1623167936-37a47852df862ee43fecb2d9d1cdf04b59bc6126
+pusher C3F436CA30F5D8EB 1623167931 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1623167943-ef9ddbd8370e6bf4ca86c122b9979aa0e38355dd
 
-d38fa9a155b2829b7e2cfcf8a4171b6dd3672808 aceda401e84115bf9121454828f9da63c2a94482 refs/heads/for-5.13
+d38fa9a155b2829b7e2cfcf8a4171b6dd3672808 aceda401e84115bf9121454828f9da63c2a94482 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC/k7QACgkQJNaLcl1U
-h9Cjvgf/RU/66SRVrFAxMLH5zpOIrujniRgmmZgbCn0NK8EWf4SNE4AEu3XGYRBc
-2siTiEb2grc54dNetyBW1f4L00ZY6+Hbdtcj6x2msMoSH7w1Fa5fD2wWKwn9G8hc
-AEWVozFVNInnJr5KbLd2bD1/Rpi/joSsxXUFwXaYFdlNhIqCOO3OZ2o2Fa295UZH
-r6BYZhKwyCNhUaofIO15RkmJn70+i2h6rKOWvtnBf51Y1zf51qUUwj5gp2eXdjtG
-PAUrZ2qGXLk06QA89uytkE3jf1LFLZNjyo6U4ruq1hQ6lUPsIzBEYn2jdtmPKozP
-dPNw7L1NtHUu1Mc9nZyHukiWtjrJVQ==
-=CmMW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC/k7sACgkQJNaLcl1U
+h9Bmnwf/Qn0k8mLkzPEmQJ8YJqOkocXkRpyYQGmApBucHgg3AlAkeKbqqFbikRBC
+Qj4SbVsg2iven6pi87110nPLsiPLKCvhO03+m/+fyKLd8AVICnsdMM9iki/MdcGq
+W/8budLgp73cOmoeYUGQGdLP1A0BabBjN7pLX+0exvm9/HBUseis4XctS3ur9pUf
+5pOg5Q/sfGn+hPOQ3PFnHyzGkFhFx99/L+SPdzCnQEKI4IJc3nLtSbHRvPnpLAuS
+1GAhyffdHXV22y4cY6tDcNj8nhWoh/Cv55eZEwEsaDUfc/8Q/5uDrr+7EXVXvmjc
+ZJk1NAQ3fVSGDgL8deqlmgFWekki6A==
+=28zv
 -----END PGP SIGNATURE-----
 
---===============7573595503308187868==--
+--===============8050640243283687555==--
