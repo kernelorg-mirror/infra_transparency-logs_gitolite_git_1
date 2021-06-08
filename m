@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5841513048782126292=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 08 Jun 2021 15:03:18 -0000
-Message-Id: <162316459813.28336.6750165742082679537@gitolite.kernel.org>
-
---===============5841513048782126292==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Tue, 08 Jun 2021 15:03:27 -0000
+Message-Id: <162316460797.28450.4969583798172863764@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: ff259300f790993b367b5ef4993e47aeb0e6ba16
-    new: 85be3e20f2ccfdfcafffb624fb1dfdb5aed4b885
+  - ref: refs/heads/clkdev
+    old: 84587cb0f9ed09b9b7f787276ef05beda4ae0ba8
+    new: 5617c9125bb66a923f3560d5739eb7f3a21c00b5
     log: |
-         85be3e20f2ccfdfcafffb624fb1dfdb5aed4b885 5.12-stable patches
+         4410c4236e6de337f35d4d88e503f414a8d5d10f mips: ar7: convert to clkdev_lookup
+         b408b611eb951594691abfee8ca687b405d27757 mips: ar7: convert to CONFIG_COMMON_CLK
+         35f752be4f412a1a58f4c15fa9282c53b956e067 mips: ralink: convert to CONFIG_COMMON_CLK
+         63aadb77669a6856b26d73da85b4f788731524a3 m68k: coldfire: use clkdev_lookup on most coldfire
+         007f84ede6e3ea893b1a68724e8796c45fa98d85 m68k: coldfire: remove private clk_get/clk_put
+         2f4574dd6dd19eb3e8ab0415a3ae960d04be3a65 clkdev: remove CONFIG_CLKDEV_LOOKUP
+         5617c9125bb66a923f3560d5739eb7f3a21c00b5 clkdev: remove unused clkdev_alloc() interfaces
          
-
---===============5841513048782126292==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623164597 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1623164595-585212951f904877329b34eb62bac9e396e373fb
-
-ff259300f790993b367b5ef4993e47aeb0e6ba16 85be3e20f2ccfdfcafffb624fb1dfdb5aed4b885 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/hrUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SL8P9jznCOK6tyoEd4v+eM3z
-bpXvOu8CVWY01jAaSAZubvaeNzjwcNA5YHEIQQI/TSv8LVneaNFKvaQBtXRuAGky
-80f/vD3f3Y12CkmxATBfRzIGYqgeKZMcDM7AxM/ZZm23YoLvCArnBjDfzlTj6ONG
-KokxCl16QbXuI9butdPqTRS4Y4sDnhj95mrtl9Aj1v48zxNkUNLKQ88QZIUlMDw+
-AMIRDCcQ/rT5ZR/8zNf2weJk6q+VFRwszGBHXat3D7iHHG6TshVCQ4Kl555pk31L
-RjPtk/cPki/KRM5RVKcCovGEAo2v0Cm0HL1s1qiF/LCorpVgQpxu9Ie1w+THZOL/
-8xb6tX7j7cXvEbSGs2Q0snOO9VIiNoLkhh3YobFlNXDqp/KBNRA0gS6OglAXDAFf
-9yxszraUUDB471IRWy72QiRsjqNoSFTqBbzcs9/y/RbZDMve1lNBuI10pBnNaKlT
-AporLpTeINNVtljt4YjB+CZTpJLYt6Iw5kUJK4AZlWJbAwL4OBdsqYRbJjKjBiRR
-NyJTRel32ztQyl6ZHwddLGnPpT3M1QKTApA97lRjtLDJOZBtrko8Lon0dHqbdQj9
-9w7TBZp+VtNPt0ED0JjqixFns+9Q6ZxgvZVimPl9JSJwQqn9lTzXfn05I5YgHuw4
-AweMCmjGfUGy6HObtiEbKkI=
-=nfKO
------END PGP SIGNATURE-----
-
---===============5841513048782126292==--
