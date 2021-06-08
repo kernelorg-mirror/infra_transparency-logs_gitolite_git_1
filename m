@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 08 Jun 2021 17:31:03 -0000
-Message-Id: <162317346340.32350.9009201612640729140@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3946363606070045343=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Jun 2021 17:40:45 -0000
+Message-Id: <162317404545.5943.3452264922955203422@gitolite.kernel.org>
+
+--===============3946363606070045343==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 4c8684fe555e95100030bd330d0a2780ac27952e
-    new: 368094df48e680fa51cedb68537408cfa64b788e
+    old: f4ac75181e5133be157068927a4372a881acf04f
+    new: 27ce1a39393ff423269642876e30740aa5c7f158
     log: |
-         d94b93a9101573eb75b819dee94b1417acff631b ARM: cpuidle: Avoid orphan section warning
-         d4c6399900364facd84c9e35ce1540b6046c345f vmlinux.lds.h: Avoid orphan section with !SMP
-         107866a8eb0b664675a260f1ba0655010fac1e08 xen-netback: take a reference to the RX task thread
-         591a22c14d3f45cc38bd1931c593c221df2f1881 proc: Track /proc/$pid/attr/ opener mm_struct
-         374aeb91db48bb52216bb9308d611c816fb6cacb Merge tag 'orphans-v5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-         368094df48e680fa51cedb68537408cfa64b788e Merge tag 'for-linus-5.13b-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+         27ce1a39393ff423269642876e30740aa5c7f158 4.19-stable patches
          
+
+--===============3946363606070045343==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623174044 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1623174043-de5e8e7cf68a436a605cd262a44bf52c04494b07
+
+f4ac75181e5133be157068927a4372a881acf04f 27ce1a39393ff423269642876e30740aa5c7f158 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmC/q5wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+clsQAMWIgTNRvSMt5/Kuj1jQ
+EiQebqgAHYkgIIyMs6VaMm/muPkg1tsbwlHRSBolbcEUSKEhSXClEhvwZv5sIgWJ
+GSpNIIiRH7aGGABzaGfuO1Lm1UhICCYljLgdc5sfypXvlSOBU3jTV+Glw3ew1Ygf
+Cui42GKIFXHOlUAnHJ0/FEvs7pVi06A+y+OW7bnYE3U1rhaWZRZmzJ1sjWMOd6Mx
+h2URqmtwdhWgladsqudhHMGsCIad5bh2oNkXaru3vAVaE9ooQI1LQ+0f8VRRoxKf
+Y8doz/XUwiaPoCy8ffxbmkrBJ9P9rhcmDs2t7HTIALyJykKzs3MoObZCoCMMoan9
+Af6LIAVrYyHD1wC4dpUKymV00vGrt9Cx8QrUtvADsnvEENVTXlRBoSCzn/9VOtvW
+k8LAW6VO8DQPLbw9NrY+/eN1MPOwSb4rPbTrBs/zFK2Pg8CY7G97EVu+nZKtK+L5
+VM9ZK1VR1ngmO2YqT4tTBODxTjykOfyrPtFI0V/cbkWM9hoerQr/9O1ZAa+juTwE
+qFsNxbGaZsE9WbhfLfrd0KLkPMhyALOsvkQ8+3wxWnRjdzJKrQbl9vlNSbRhuo4g
+0IBxP5mSf1WIRsosfo61feHaSgrZNFBNAvqqfCpLFAWdLPVohBxWLS6DP4RLsOg2
+BAwbQ7KXpLJ3QZa07Pi74oAU
+=xW2e
+-----END PGP SIGNATURE-----
+
+--===============3946363606070045343==--
