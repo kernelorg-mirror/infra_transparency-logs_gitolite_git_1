@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2183423889744917671=="
+Content-Type: multipart/mixed; boundary="===============1141775809393676331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 08 Jun 2021 15:58:17 -0000
-Message-Id: <162316789761.871.12468279655578379486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 08 Jun 2021 15:58:24 -0000
+Message-Id: <162316790466.998.1697845895511654429@gitolite.kernel.org>
 
---===============2183423889744917671==
+--===============1141775809393676331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: c8a4556d98510ca05bad8d02265a4918b03a8c0b
     new: bcc0f0c078771e983a7e602eb14efa02f811445f
     log: revlist-c8a4556d9851-bcc0f0c07877.txt
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: d08c5b76b2706916743ba7a3fa1b4282ee0da27c
     new: 3ea8a7459861def90bbb184396651d47a4cf4f20
     log: |
@@ -29,32 +29,32 @@ changes:
          3ea8a7459861def90bbb184396651d47a4cf4f20 ASoC: remove unneeded semicolons in wcd934x.c
          
 
---===============2183423889744917671==
+--===============1141775809393676331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623167882 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1623167894-75ed59cc4ebccdbaa1ac018c3d107d67e830c47d
+pusher C3F436CA30F5D8EB 1623167890 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1623167901-7a05a16e11ed87fd418026b728326474d190d55f
 
-c8a4556d98510ca05bad8d02265a4918b03a8c0b bcc0f0c078771e983a7e602eb14efa02f811445f refs/heads/for-5.13
-d08c5b76b2706916743ba7a3fa1b4282ee0da27c 3ea8a7459861def90bbb184396651d47a4cf4f20 refs/heads/for-5.14
+c8a4556d98510ca05bad8d02265a4918b03a8c0b bcc0f0c078771e983a7e602eb14efa02f811445f refs/heads/asoc-5.13
+d08c5b76b2706916743ba7a3fa1b4282ee0da27c 3ea8a7459861def90bbb184396651d47a4cf4f20 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC/k4oACgkQJNaLcl1U
-h9CDWgf7BcIuBk4CQuXpNMja3oYfU0YEHfRiNEZ16cftsyclsvmZlepYEB5d0qA5
-pX8xaSLQYCZyACKYHTOCvz0kH/UPFehMXDKg4mo4YRBp+sJ+rASOUFbjg7Lsx3uE
-xp7NU2/c1DEUxFfvtn70RYj/a1psTE3BqciuHGmGXsMbtOZUDutXqBG+d4+3H6do
-4gDuD7JPV08Ns1BMUWCXJNVI2QyblktTGfXDYxBS1fPFYsehauk2DHLKjQNhghij
-Pkq84vQQM8yRr/xd7aHTIaKNUnG+pKum+YxWZtTiQEParmy76vU2zCkUAAPN66PL
-iP+TipsdbIEsMxEhK1HL4RwUcoqPow==
-=vnyC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmC/k5IACgkQJNaLcl1U
+h9DqEQf/elMcYzIyhSO43IIWnwdtAs3n+TVeGBEl+aE23WNIzYq/FEOjpmWj8ez8
+hLXelj3fFMAjp5+3l95WpkBZWOBf/0sOh2HQq/M5XB0/zoJBXNFx8DR2oY/lKFVO
+fd0E/A1Cn/OoQ3W0JcmiHD+SA8uZrNf0PupIhr/W+b6eKppx0SZ5VQPTlqjadp5T
+gqAJ0q1+teYax2ixXYF8cUCjwxtaMh0wVhAPhdDOXtXarj0vFU2olMCJb1oprXFr
+5egfWd1AHLME4wxPIWy+Bpq5urqo+q/Pme5vkSDAxOnTioqy6wudKukzI1Bi2J6x
+aYvTPFixDcImed/90jIS5Jf4iBns4w==
+=ZCpk
 -----END PGP SIGNATURE-----
 
---===============2183423889744917671==
+--===============1141775809393676331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ c0372bc873dd29f325ee908351e0bd5b08d4d608 ASoC: rt5682-sdw: set regcache_cache_on
 5ad1ba99e4784929588c79e9810f5610825f0411 ASoC: rt711-sdca-sdw: add readable for SDW_SDCA_CTL() registers
 bcc0f0c078771e983a7e602eb14efa02f811445f ASoC: rt711-sdca: handle mbq_regmap in rt711_sdca_io_init
 
---===============2183423889744917671==--
+--===============1141775809393676331==--
