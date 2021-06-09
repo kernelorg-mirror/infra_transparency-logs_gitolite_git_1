@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5929067415542955867=="
+Content-Type: multipart/mixed; boundary="===============2174935507119489392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 09 Jun 2021 14:49:28 -0000
-Message-Id: <162325016849.15664.14957593108964735256@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 14:50:07 -0000
+Message-Id: <162325020761.18404.489265770873287208@gitolite.kernel.org>
 
---===============5929067415542955867==
+--===============2174935507119489392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 41340965b4f8055f975f73e1e3d23eff8038f013
     new: 6771fb0b940eb74f1a68fe3f180a7668103397d3
     log: revlist-41340965b4f8-6771fb0b940e.txt
 
---===============5929067415542955867==
+--===============2174935507119489392==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -955,4 +955,4 @@ bc60b0f834a332a07431147e8c1e9acb8d64de91 staging: vchiq_core: store message id i
 54fd727f83a4d2f9c6e85cb1fad88325a56b555f staging: rtl8712: Remove unnecessary alias of printk()
 6771fb0b940eb74f1a68fe3f180a7668103397d3 Merge tag 'iio-for-5.14a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
 
---===============5929067415542955867==--
+--===============2174935507119489392==--
