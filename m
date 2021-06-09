@@ -1,124 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============7554623005511867644=="
+Content-Type: multipart/mixed; boundary="===============0582423148871841430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 09 Jun 2021 00:53:14 -0000
-Message-Id: <162319999476.31470.7774719033716776066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 09 Jun 2021 00:54:47 -0000
+Message-Id: <162320008746.32109.8608042004265315902@gitolite.kernel.org>
 
---===============7554623005511867644==
+--===============0582423148871841430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/dev-queue
-    old: 2b07ce75dd956d554ad64fe84ed853e2e5c933bb
-    new: 65479e4db164d8ab1b48687b10e6d7d4f9d89d16
-    log: revlist-2b07ce75dd95-65479e4db164.txt
+  - ref: refs/heads/for-next
+    old: 6a180b1d35a024ee9b32ee21390bddf96b4f25df
+    new: 7e4311b04be46b71a2008d6922da60d08d05b8bb
+    log: revlist-6a180b1d35a0-7e4311b04be4.txt
+  - ref: refs/heads/xfs-5.14-merge
+    old: 6a180b1d35a024ee9b32ee21390bddf96b4f25df
+    new: 7e4311b04be46b71a2008d6922da60d08d05b8bb
+    log: revlist-6a180b1d35a0-7e4311b04be4.txt
+  - ref: refs/tags/xfs-5.14-merge-2
+    old: 0000000000000000000000000000000000000000
+    new: 699ebc0825ca5f3fbf185aea95907250dd6113a8
 
---===============7554623005511867644==
+--===============0582423148871841430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b07ce75dd95-65479e4db164.txt
+Content-Disposition: attachment; filename=revlist-6a180b1d35a0-7e4311b04be4.txt
 
-36861d1f0408a431ede4184d90f7bf1598d639ca net: qede: Use list_for_each_entry() to simplify code
-3835a6614ae7ee4840459bf47528a97b1dfc5439 net: x25: Use list_for_each_entry() to simplify code in x25_link.c
-e83332842a46c091992ad06145b5c1b65a08ab05 net: lapb: Use list_for_each_entry() to simplify code in lapb_iface.c
-b55b1d50b08ce3b79329f62da8104b25c607bf38 net: stmmac: fix NPD with phylink_set_pcs if there is no MDIO bus
-78595dfcb29b7426410b93c1400dca507e6e899e ethernet/qlogic: Use list_for_each_entry() to simplify code in qlcnic_hw.c
-96bffe70231c871d1b39ecc44288c96bed66422b net: x25: Use list_for_each_entry() to simplify code in x25_forward.c
-de274be32cb288d96b91494aeaafccc34cf4e00f net: dsa: felix: set TX flow control according to the phylink_mac_link_up resolution
-5b38b97f40a7bd8295260c59b997bf47b79c3675 net: nixge: simplify code with devm platform functions
-52481e585951f4a199678cd6e61f85db52548a01 sh_eth: Use devm_platform_get_and_ioremap_resource()
-e67f325e9cd67562b761e884680c0fec03a6f404 net: stmmac: explicitly deassert GMAC_AHB_RESET
-26fd9c5217705d5251d8ed8738569a84ff4fcfc6 i40e/i40evf: cleanup i40e_update_nvm_checksum()
-db926c40a57e751601d5f6d344bd1feeaabd6bf4 igc: Add UDP segmentation offload support
-85c061a4681b58677d93c4bd7cf0cdacca06146d ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-cebd3c80058accf81511e0fd4e85aa99c4f74670 i40e: add support for PTP external synchronization clock
-12dbc70586d031de52d589e663ff0e2aedfd4e91 iavf: Fix asynchronous tasks during driver remove
-b4ef2ceeb726571f6043c1665bd7461ee2671c64 i40e: Fix correct max_pkt_size on VF RX queue
-6ab5a54ca677422c8c4d751af34c70deebe8bdb9 iavf: Fix return of set the new channel count
-b8fab6b47a3a16630fef68aad8e6a8f664b90dd2 i40e: Fix NULL ptr dereference on VSI filter sync
-d7bcc21eb691fd625c029916174d81bfe071479c ice: report hash type such as L2/L3/L4
-5b0819b2100d4fcee4995fc7084499b2ca7b2a0b ice: Fix VF true promiscuous mode
-d08d7ecb8e48f7fb3d8ffc221a6c51b3886532e1 i40e: clean up packet type lookup table
-abe65e5ec4d64541f346068c1160aad13da5da9c iavf: clean up packet type lookup table
-4f84a757c874960f1b5d0b33259ab62cea253590 igb: unbreak I2C bit-banging on i350
-b29732caee888a2c5719ecbdff045aee7b683e9e i40e: Fix error handling in i40e_vsi_open
-f81cea021fe0407150a878ddfe8582bf1fd3379d i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-b310b661cc706e18acd21a48791b817437183ed0 ice: Refactor promiscuous functions
-0d952ac1b83d5b23b54b2f0b5d02740a9437f052 i40e: improve locking of mac_filter_hash
-076f9178b123a584bebb6d8d3dba5eb6f6ec271b e1000e: Add support for Lunar Lake
-41a8e4c27ff186b4a4b4d51f1fa4145436f3d849 i40e: Fix autoneg disabling for non-10GBaseT links
-83cb763f3b8dd54e4947ad674cefc79c0d6ba954 iavf: do not override the adapter state in the watchdog task
-e25d3dec268d79466b9d64529bef3694ec79ee85 igb: Check if num of q_vectors is smaller than max before array access
-2a10f1bd18ec95832c3bd8af292fbbf788a57b17 ice: Enable configuration of number of qps per VF via devlink
-d19430ebd0d33c6b6b64e77f3d514134ade3e31b i40e: Fix warning message and call stack during rmmod i40e driver
-eed61fb3e7c7f66d425f9426fdbd8b367dbf8334 i40e: Fix logic of disabling queues
-1072eaea61aafabdf6aee695b97d5450fa6415e9 i40e: Fix changing previously set num_queue_pairs for PFs
-02e1b050f810bc95acabfde31e7619ab5b612110 i40e: Fix ping is lost after configuring ADq on VF
-3c87aba7fc75948995f8bbbdd0e0199916593e07 igb: Add counter to i21x doublecheck
-e2a48646c772d36c887b4781e0f60d6014e5240d ice: Remove toggling of antispoof for VF trusted promiscuous mode
-3c3cc1ca7f280c215ed7ae2def08fa0a0427620d ice: fix FDIR init missing when reset VF
-7572961c4ce96c15b512af8dd4061e59cb751ab3 igb: fix netpoll exit with traffic
-98c9424e1d4489b4ceb2a5e00a7f9ad19f8e902d ice: Remove boolean vlan_promisc flag from function
-b5f8e8164bfa5e5acfc9da552a63caecfe1d2544 ice: Fix replacing VF hardware MAC to existing MAC filter
-67d01aafbd9cd5148b2a7a0b11030d742b3d72ce ice: fix incorrect payload indicator on PTYPE
-a8a5988ddb88ebcd790250367cc08b11ad666d17 ice: mark PTYPE 2 as reserved
-a34f1f28dd0f86c267e382a71f0bbcdc163ac0bb ice: reduce scope of variables
-e26f1ee645c3ffd279fdbc525d13f6696fadda35 ice: remove local variable
-0a3f5f2e7a5ec82bff8d78089b4a0a8f90de52f8 i40e: fix PTP on 5Gb links
-b2a7b1deee9cc551763884f455e2f400afa9b9f8 virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
-46edd77534331bafc424272efac68f4acc7de8fd virtchnl: Use the BIT() macro for capability/offload flags
-748761e51fdb5a850d97ef60489d132d6a6d6f83 igc: Fix user-after-free error during reset
-ef14495274e11bc90db72591b84053ab91023274 igb: Fix user-after-free error during reset
-e17ce91f177cf992fb3fd12c68c510891a3e1b0f i40e: Fix failed opcode appearing if handling messages from VF
-e496f135ccde3c347427a63f9f47b3684b22c728 ice: add ndo_bpf callback for safe mode netdev ops
-a7ad0779fa8284b694481e9985b68dd6866ae279 ice: parameterize functions responsible for Tx ring management
-cff7c5e311e81eb90419204e589d97a900874860 ice: add support for sideband messages
-0cf4a5b0f588c0d4f0f4db59201fa8ea50882b3a ice: process 1588 PTP capabilities during initialization
-8461c0dd67efd71e6fc34b9708f0fbd5f73a5188 ice: add support for set/get of driver-stored firmware parameters
-f281138b5054b878fc442f9efa6a1db117eaa5e2 ice: add low level PTP clock access functions
-453ba4f87a6bc3aa016158dfb0b2af078d67f645 ice: register 1588 PTP clock device object for E810 devices
-6b936ad225377f085f551696b1f4cdb6695b61bb ice: report the PTP clock index in ethtool .get_ts_info
-0852dccd2a2295e0bcad83845eb162280e524a32 ice: enable receive hardware timestamping
-385b4fcd0f2cf934f3ffc7d8f290f643c6cc3556 ice: enable transmit timestamps for E810 devices
-c8b1d434a77bfcd890be44fea4f82b560ef7a523 i40e: Fix firmware LLDP agent related warning
-1b68130af6226e7f557ff8f30ac936ecfa13be70 igc: change default return of igc_read_phy_reg()
-c2c1df97b65e9d5796d831d8d68ae1b0208af7d2 ice: Remove the repeated declaration
-590ffefbf886aa33933bc0be87bd6ff2fc7192b2 i40e: Add restoration of VF MSI-X state during PCI reset
-6463e6c17fa4f1027e2164894217fd5307446f3f ixgbe: Fix packet corruption due to missing DMA sync
-c06eb5f1c6f401819a6d139886fe0a1226a9b440 ice: add tracepoints
-8b7be6bc642f23082103be4c870df290e74db6a9 i40e: Add additional info to PHY type error
-4f9e91b39aafd6b3f02457fe4141b91c95d00763 iavf: check for null in iavf_fix_features
-6060ab6729eaf7ffd46b48d74e10d944bb5d5c10 iavf: free q_vectors before queues in iavf_disable_vf
-c73e1e2cd807dc8b439d6c2ed3a8f07ba01bfd2b iavf: don't clear a lock we don't hold
-9c6b49527a5effde24fc6b1d212d006986686881 iavf: Fix failure to exit out from last all-multicast mode
-7471262e8eb9210b9cabfc37c32f26aace9a049a iavf: prevent accidental free of filter structure
-e77c29ee0d2614e55253ba58f71336e0d758a097 iavf: validate pointers
-81d3b2787ebb1e0c3f7f7591bc7229d539a5501c iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
-13a8d374ee3ac79b6fa52c5d3c9f2cae4939ef95 iavf: Fix for setting queues to 0
-f62dab47d57434632f127aaadd8356837cad7ecd iavf: correctly track whether the interface is running during resets
-0b3ead4ce6d344c8f6a3885fc35e39172fc8b819 iavf: obtain the crit_section lock in iavf_open() immediately
-8b27716831d2cf316ba5d17e567e2f9715513360 iavf: obtain crit_section lock in iavf_close() immediately
-83a8a06c3f2d34af5590a335875240da1b566fd8 iavf: wrap driver state change in crit_section lock
-863df046022d2b33193b29d303d6aee2e75c8102 iavf: untangle any pending iavf_open() operations from iavf_close()
-f13f43f6447f968ef531623894bed4af4fd43c60 iavf: disable interrupts before disabling napi
-a1b9c1f3347b0186f678b1973e195c1f103349f9 iavf: Restore non MAC filters after link down
-0e1fb85ff280c6d417d2a2ac38bd7037129fb860 iavf: restore MSI state on reset
-5abb0a7f70b7bd68bcbc2a7a99c19a6a12e6070e iavf: Fix carrier on state
-60471655433301b3620e890dfcab388e750cf53d iavf: Add change MTU message
-ef53a7cae68d62ea45c742f4871a8b8403d3ef75 iavf: Prevent changing static ITR values if adaptive moderation is on
-4b9236e865dcca913a4e77c98988709d1137ed93 iavf: Log info when VF is entering and leaving Allmulti mode
-95db80c2a72741a4cd53bcaee0d53456c6785e07 iavf: Set RSS LUT and key in reset handle path
-8de8cab3d59d8d9190b94460fe55c693b119a33a iavf: return errno code instead of status code
-79f31f1201afce6ec5cb490b103c24c47851fe0f iavf: don't be so alarming
-59b8c38812eafa99b423af66b32aa02bd1bdd8d0 e1000e: Check the PCIm state
-65479e4db164d8ab1b48687b10e6d7d4f9d89d16 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+7660a5b48fbef958d7383d873f07d7c10bc24126 xfs: log stripe roundoff is a property of the log
+5fd9256ce156ef7780f05c9ff0a5b9e2ed9f6679 xfs: separate CIL commit record IO
+944f2c49fba1cc4194390af8f422301482b41a3b xfs: remove xfs_blkdev_issue_flush
+db7e30204e4c2054c7c83fc095bc1ced1a73b780 xfs: async blkdev cache flush
+0279bbbbc03f2ce574c5754f90dfb36e29811bbd xfs: CIL checkpoint flushes caches unconditionally
+69d51e0e16864f944a12491850d0fd2ac5f3dfde xfs: remove need_start_rec parameter from xlog_write()
+cb1acb3f324636856cb65bd4857c981a15b7f4d4 xfs: journal IO cache flush reductions
+3682277520d6f4a34a265f495ca7cd987870858d xfs: Fix CIL throttle hang when CIL space used going backwards
+f39ae5297c5ce2f149d55abb35d53b0aaad75424 xfs: xfs_log_force_lsn isn't passed a LSN
+e12213ba5d909a3b1fb3716b198ed93d1af1f4be xfs: AIL needs asynchronous CIL forcing
+facd77e4e38b8f06657fb9eac56aaf9f1590f4ec xfs: CIL work is serialised, not pipelined
+877cf3473914ae48a21f5597924dd472353fde0a xfs: factor out the CIL transaction header building
+fa55689e031e0aa25173c45e783b3dba52196e96 xfs: only CIL pushes require a start record
+58adbf5268b185634afe6e36c372520e7e9881da xfs: embed the xlog_op_header in the unmount record
+1d4f4b375658aa9aa5484d93e110291982bd6cf8 xfs: embed the xlog_op_header in the commit record
+58e54b5e5dcc47bfec503b325a52c5e2d759dff6 xfs: log tickets don't need log client id
+695385a4aa7680262159267454be7b2e8ed53ca4 xfs: move log iovec alignment to preparation function
+b424a7fd981d6125a7d9da485b832679d8eec799 xfs: reserve space and initialise xlog_op_header in item formatting
+b61901c583240a9f6222e1716ec62300ee2f4a3d xfs: log ticket region debug is largely useless
+66fc9ffa8638be23829c4c41fdb17df43834f691 xfs: pass lv chain length into xlog_write()
+a8b8e1c74ea7d368f6ff23a202437867fbe1e9db xfs: introduce xlog_write_single()
+586359999f403f61ed418c2dc58fc3de0e288de0 xfs:_introduce xlog_write_partial()
+46eb52d3150c8bea3b87839be8742021cda908a4 xfs: xlog_write() no longer needs contwr state
+9373dd07362570a4590fec4a494e9510e84fab31 xfs: xlog_write() doesn't need optype anymore
+5e5591ab632a3707d765f57858e5890843eaaa7a xfs: CIL context doesn't need to count iovecs
+0d11bae4bcf4aa92728daf22caffaa4b46396c8e xfs: use the CIL space used counter for emptiness checks
+230b4cc9c9ccc9add19ac6bfefe81f2428d83ca6 xfs: lift init CIL reservation out of xc_cil_lock
+153bd5b5cd986bfc189543469a4a1e1706a1739d xfs: rework per-iclog header CIL reservation
+54cd3aa6f8102f4648190fc93eb5dd8603de9b52 xfs: remove ->b_offset handling for page backed buffers
+934d1076bb2c5bbb3d5b0e3892b208d1f537949d xfs: simplify the b_page_count calculation
+289ae7b48c2c4d9bec515e720c01146498109dee xfs: get rid of xb_to_gfp()
+170041f71596dad3f34dea40ee0ef0c848d3f906 xfs: cleanup error handling in xfs_buf_get_map
+8bcac7448a942fa4662441a310c97d47cec24310 xfs: merge xfs_buf_allocate_memory
+abb48085814358fc077c109f36fcb14a26fff1f7 xfs: introduce CPU hotplug infrastructure
+0e4c3e0ee4fda54ef9e1834b25df0dbf6b11dea0 xfs: introduce per-cpu CIL tracking structure
+a8613836d99e627d5151e923820ec9b4b19e6d18 xfs: implement percpu cil space used calculation
+57edd3f6599e1abe728ea9a468adcfce1b74ce1d xfs: track CIL ticket reservation in percpu structure
+7f3b7c463f00c996333a2924a043e202bf7088d9 xfs: convert CIL busy extents to per-cpu
+be05dd0e68ac9991ee0f3f30dd436e8c7579b5bd xfs: Add order IDs to log items in CIL
+1f18c0c4b78cfb191ddc01c9f34c2493315fd252 xfs: convert CIL to unordered per cpu lists
+a47518453bf9581ee3a46a8236f0e82ff8730d28 xfs: convert log vector chain to use list heads
+a1785f597c8b0608b093bb37c61ffe4a8689b149 xfs: move CIL ordering to the logvec chain
+02f1473ded55164495e71a32fc392f0adc22abfc xfs: avoid cil push lock if possible
+e469cbe84f4ade9c41a3a5c4f3d6c36ef364e54e xfs: xlog_sync() manually adjusts grant head space
+7017b129e69c1b451fa926f2cac507c4128608dc xfs: expanding delayed logging design with background material
+ebf2e3372332267419527574c25e7820018272c1 Merge tag 'xfs-buf-bulk-alloc-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.14-merge2
+c3eabd365034185840fdd26df21cdb03523f7e2b Merge tag 'xfs-perag-conv-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.14-merge2
+9ba0889e2272294bfbb5589b1b180ad2e782b2a4 xfs: drop the AGI being passed to xfs_check_agi_freecount
+f52edf6c54d94987e6bc1541d0fdea2f12e68064 Merge tag 'unit-conversion-cleanups-5.14_2021-06-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+8b943d21d40d5d7f8306e833b156f8d11094470f Merge tag 'assorted-fixes-5.14-1_2021-06-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+ffc18582ed18f1bb16da9ec38a792c7cbc3714a1 Merge tag 'inode-walk-cleanups-5.14_2021-06-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+255794c7ed7adb914e831f5e4905d783d31378d2 xfs: only reset incore inode health state flags when reclaiming an inode
+7975e465af6b46e9d0eaf94f764922dc92b28d9c xfs: drop IDONTCACHE on inodes when we mark them sick
+2d53f66baffde66fe72c360e3b9b0c8a2d7ce7c6 xfs: change the prefix of XFS_EOF_FLAGS_* to XFS_ICWALK_FLAG_
+9492750a8b18f02a8dec2aab594c59aabe2e4d0d xfs: selectively keep sick inodes in memory
+b26b2bf14f823e9597118c01993aeba9aeb9a701 xfs: rename struct xfs_eofblocks to xfs_icwalk
+295abff2fb940362814d12d513d8c443485183db Merge tag 'fix-inode-health-reports-5.14_2021-06-08' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+68b2c8bcdb813cd7e520e8cf54912a3280deb74d Merge tag 'rename-eofblocks-5.14_2021-06-08' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+7e4311b04be46b71a2008d6922da60d08d05b8bb Merge tag 'xfs-cil-scale-2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.14-merge2-cil
 
---===============7554623005511867644==--
+--===============0582423148871841430==--
