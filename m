@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4494547504996832615=="
+Content-Type: multipart/mixed; boundary="===============2336122094329198424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Wed, 09 Jun 2021 14:23:21 -0000
-Message-Id: <162324860157.32383.13207853787180894717@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 14:26:26 -0000
+Message-Id: <162324878637.2471.12433802658944911504@gitolite.kernel.org>
 
---===============4494547504996832615==
+--===============2336122094329198424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,37 @@ repo: pub/scm/linux/kernel/git/jberg/mac80211
 user: jberg
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: d5befb224edbe53056c2c18999d630dafb4a08b9
-    new: a9799541ca34652d9996e45f80e8e03144c12949
-    log: |
-         adaed1b9daf5a045be71e923e04b5069d2bee664 mac80211: fix 'reset' debugfs locking
-         43076c1e074359f11c85d7d1b85ede1bbb8ee6b9 cfg80211: fix phy80211 symlink creation
-         65bec836da8394b1d56bdec2c478dcac21cf12a4 cfg80211: shut down interfaces on failed resume
-         f5baf287f5da5641099ad5c809b3b4ebfc08506d mac80211: move interface shutdown out of wiphy lock
-         a9799541ca34652d9996e45f80e8e03144c12949 mac80211: drop multicast fragments
-         
+  - ref: refs/tags/mac80211-for-net-2021-06-09
+    old: 0000000000000000000000000000000000000000
+    new: 6e7aaa29194eff5fc59902150f1cc19c0d7dfc64
 
---===============4494547504996832615==
+--===============2336122094329198424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1623248570 +0200
+pusher 7BF9099A 1623248758 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1623248570-b22afbb429a0e5dbc17cdb350fde3dc5b754c202
+nonce 1623248758-15dfba69e27cba84c6c10aae7b2fb2fd0724fa13
 
-d5befb224edbe53056c2c18999d630dafb4a08b9 a9799541ca34652d9996e45f80e8e03144c12949 refs/heads/master
+0000000000000000000000000000000000000000 6e7aaa29194eff5fc59902150f1cc19c0d7dfc64 refs/tags/mac80211-for-net-2021-06-09
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmDAzroACgkQB8qZga/f
-l8TNMw/9FTngUbc76PwIXxnrS134cswrB8dQppiuixb0bwRFtYu7luT6icpzTCa/
-QF9tvk2IL8boZ0TV3UUdAKTWug9qURnwCW8fvZ2KjmZDbrTHa1JYHSmLqOErWs3V
-xYsVoKe1nf2bhissuKbfXmVFCu+wA1S0AFRJL59KUGSctv9XtSjOvhnW4xtlSXsv
-QzAByOIW1JY1e//tpnh+G2yKsIinyx78td9x90X0CgAC//yYEBWjyxZ/b1ZClCR7
-OSFZqAg4OiusnMUzDUjBi/3P289l4J9z/o/DQgSGtnCXdl/X4pUPLLqaFxsgFGVo
-I2smdVKpewrS+lNc5/huQZArZwb00R0KelllBjJ7JewldirqgdUdfTl+ToPp/7WU
-uN37D8/AilS+M/5aDzmvPZnPdemwJq45DFT8bs9onqEGX1AERfFSXYloRU7LZF51
-LSiL3zqu/fsJTMN99MxrVBTp/PzEpfHTiJJ+0xiVab7sQXVzK8u2KQrdCIENHiRQ
-g/rQjl50qmwHCpiUsxS8k/ULbwyAUZF4IC/w2+KbfBgbAsm3obbCP2yThDJNJZVB
-y08onp7QwCDGiDxeWp9YHHm5K7vVwQBKtZ5qOu8sRsH+4wr/9VFuuh27haPNgBb8
-K+8CxTRWDnikg5wLlVS7xvbkIJC9qZdAZG+D1fWkHvjWdDlU4/U=
-=uXo6
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmDAz3YACgkQB8qZga/f
+l8RhGg/8DiMmuFXNzfsHz12HkcYkMGXuhJZd22fi/wKONH2KkUc/BDEkIGQLaBqq
+iaCl2MbHOb1MbtpUACgTPvOSIbWr+XAJ8wVofPbJHsicRCJ0YkWg/ax17jBcj3sn
+Wc+sWZ0s7O5dsDg56fBmyCLxbIEPBkKqcpkxwvj0mU58ZkFybCNVCu6Hjd96g7yc
+JdXFXNaBqQwSnPQYVtYpTwx8qm8jGJchPQ7XE1CXmu8BkN4RnbBI8EQdMpujwT+m
+TRt/d6b7NcW3TKnMev1nQavg6rVk8gZoSgvqiIoNOQ6IYTGAK5Vz9eEaoVm/GtlS
+oKDdD8EttNZe9jbb2Bia/8bYn1VUMtHfmhxLRVQzbzSyCPj+5zq7vToEL7hAkMpO
+Zod4in5IvYUlaoGlW6mHpjItbW1aGrSKxBnW4wYA3mnAPYGHTADSr+35svT7XTSw
+8YCdcBvQPKCpkV8I+U3r3mrheHurORMtkpai2iJmqK1mahznlOfJPjmwKgzlFd3f
+chdSBBiyLExixjOOaWtf7cD9iGGtyOZoKMGYW/T0HutnNpDbHj5cvQL3/eWaOcRI
+04Z6jy05BvK0d+0momM4bvVQ4Cc1MMfFOs7aeWt9Q8jOshcmPXne/j/W0Ht0d5Ry
+Oon4bNRwTKkYy30beXOsg5IoGAnUs3VYzYC6KVpY1DFMKPgi+Zc=
+=ta6x
 -----END PGP SIGNATURE-----
 
---===============4494547504996832615==--
+--===============2336122094329198424==--
