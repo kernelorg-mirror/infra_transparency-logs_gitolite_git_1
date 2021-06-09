@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3241524978198756882=="
+Content-Type: multipart/mixed; boundary="===============3555631735114949097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 09 Jun 2021 19:06:19 -0000
-Message-Id: <162326557943.24168.5611546776237292104@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 19:06:33 -0000
+Message-Id: <162326559357.24316.2558793426097365139@gitolite.kernel.org>
 
---===============3241524978198756882==
+--===============3555631735114949097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/stable-0.7.y
-    old: b11e0675b7fb3c35cd19d93511cdd926df584857
-    new: 270c038516881de6bc37714c80c2e8e37e8b9a72
+  - ref: refs/notes/signatures/tar
+    old: 645fc52008976d54341d10969cf09116a63cae35
+    new: 09f1b867e841a43c45e6fb524f38fe083cc7362b
     log: |
-         404167e35d41cd11a710bfdeebe408124b296bba Update patatt to 0.4.6
-         270c038516881de6bc37714c80c2e8e37e8b9a72 Update version to 0.7.2
+         09f1b867e841a43c45e6fb524f38fe083cc7362b Notes added by 'git notes add'
          
 
---===============3241524978198756882==
+--===============3555631735114949097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1623265578 -0400
+pusher B6C41CE35664996C! 1623265593 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1623265578-4c5701a72b5827422946708208b0b5b60502bb6b
+nonce 1623265593-b7b0477d55a0f56bb00f8bcbff9bece0e63b068f
 
-b11e0675b7fb3c35cd19d93511cdd926df584857 270c038516881de6bc37714c80c2e8e37e8b9a72 refs/heads/stable-0.7.y
+645fc52008976d54341d10969cf09116a63cae35 09f1b867e841a43c45e6fb524f38fe083cc7362b refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMERKgAKCRC2xBzjVmSZ
-bN13AQD26zlaECUO/ZUztmqHKfx1q3CiTdEEhnl1VjfdfCqmeAD/TFVjb5Cy3oVN
-ZPT5rAUU0b2EEPHpSRcM5FFbrn1ZAAY=
-=4WjZ
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMEROQAKCRC2xBzjVmSZ
+bM8IAPkBjQDIvidWEAx1f5Z5I6ppmgjAbFgKEvY4zZuuncYltgEA5AigWmdF6Aav
+6SK+uin9ksWttnQB90dxyJfVwgoaogI=
+=m1HT
 -----END PGP SIGNATURE-----
 
---===============3241524978198756882==--
+--===============3555631735114949097==--
