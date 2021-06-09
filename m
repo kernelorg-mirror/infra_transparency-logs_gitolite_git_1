@@ -1,52 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2336122094329198424=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Wed, 09 Jun 2021 14:26:26 -0000
-Message-Id: <162324878637.2471.12433802658944911504@gitolite.kernel.org>
-
---===============2336122094329198424==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 09 Jun 2021 14:26:42 -0000
+Message-Id: <162324880282.2657.13997758684513313353@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/tags/mac80211-for-net-2021-06-09
-    old: 0000000000000000000000000000000000000000
-    new: 6e7aaa29194eff5fc59902150f1cc19c0d7dfc64
-
---===============2336122094329198424==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1623248758 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1623248758-15dfba69e27cba84c6c10aae7b2fb2fd0724fa13
-
-0000000000000000000000000000000000000000 6e7aaa29194eff5fc59902150f1cc19c0d7dfc64 refs/tags/mac80211-for-net-2021-06-09
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmDAz3YACgkQB8qZga/f
-l8RhGg/8DiMmuFXNzfsHz12HkcYkMGXuhJZd22fi/wKONH2KkUc/BDEkIGQLaBqq
-iaCl2MbHOb1MbtpUACgTPvOSIbWr+XAJ8wVofPbJHsicRCJ0YkWg/ax17jBcj3sn
-Wc+sWZ0s7O5dsDg56fBmyCLxbIEPBkKqcpkxwvj0mU58ZkFybCNVCu6Hjd96g7yc
-JdXFXNaBqQwSnPQYVtYpTwx8qm8jGJchPQ7XE1CXmu8BkN4RnbBI8EQdMpujwT+m
-TRt/d6b7NcW3TKnMev1nQavg6rVk8gZoSgvqiIoNOQ6IYTGAK5Vz9eEaoVm/GtlS
-oKDdD8EttNZe9jbb2Bia/8bYn1VUMtHfmhxLRVQzbzSyCPj+5zq7vToEL7hAkMpO
-Zod4in5IvYUlaoGlW6mHpjItbW1aGrSKxBnW4wYA3mnAPYGHTADSr+35svT7XTSw
-8YCdcBvQPKCpkV8I+U3r3mrheHurORMtkpai2iJmqK1mahznlOfJPjmwKgzlFd3f
-chdSBBiyLExixjOOaWtf7cD9iGGtyOZoKMGYW/T0HutnNpDbHj5cvQL3/eWaOcRI
-04Z6jy05BvK0d+0momM4bvVQ4Cc1MMfFOs7aeWt9Q8jOshcmPXne/j/W0Ht0d5Ry
-Oon4bNRwTKkYy30beXOsg5IoGAnUs3VYzYC6KVpY1DFMKPgi+Zc=
-=ta6x
------END PGP SIGNATURE-----
-
---===============2336122094329198424==--
+  - ref: refs/heads/review-hans
+    old: f32ca74c134b8e0e9f5a8b9f177e200a42d28cd9
+    new: 7bcf47e825e94f2d0425a5b5c606ed7440abb972
+    log: |
+         1aedf340ccf8391e6f1fb5177a1183b57af82e44 platform/surface: aggregator: Do not return uninitialized value
+         ef6f01529b8a7b2d7e8b7681a072fa4cd6630d60 platform/surface: aggregator: Drop unnecessary variable initialization
+         1ee26abaa9b1e1a820d098f1139fa8572bc32999 platform/surface: aggregator: Use list_move_tail instead of list_del/list_add_tail in ssh_request_layer.c
+         310dddb6e24e220ff60d03e8ad1cab67d282d5dd platform/surface: aggregator: Use list_move_tail instead of list_del/list_add_tail in ssh_packet_layer.c
+         b6d01ae97b7cb0e7a670ebdeb2b08afac27dd717 platform/x86: hdaps: Constify static attribute_group struct
+         aa1ea5a22d613664cb29541e71833260ae5e5793 platform/x86: intel_pmt_crashlog: Constify static attribute_group struct
+         c6da07b3b85f79dfca195160d2e133a5801dbe50 platform/x86: tc1100-wmi: Constify static attribute_group struct
+         7bcf47e825e94f2d0425a5b5c606ed7440abb972 x86/platform/uv: Constify static attribute_group struct
+         
