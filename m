@@ -1,79 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1816710682986994108=="
+Content-Type: multipart/mixed; boundary="===============8637899072016980399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 09 Jun 2021 17:33:38 -0000
-Message-Id: <162326001822.26976.9650656412910964504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 09 Jun 2021 18:06:54 -0000
+Message-Id: <162326201446.15809.5984383037996274635@gitolite.kernel.org>
 
---===============1816710682986994108==
+--===============8637899072016980399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/rcu/next
-    old: 5587a2080684547b08b76e7817d192177b4f49f6
-    new: 516e52e9f5ec7671c7ed78e4bab040272eb03569
-    log: revlist-5587a2080684-516e52e9f5ec.txt
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/x86_urgent_for_v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 524be9396ed1f8e515e1f81146e96bfbbedc33db
+  - ref: refs/heads/work.iov_iter
+    old: c22b309b1e82157ac79ad87c040e24ae5ec3a8e4
+    new: 9bac55e978941f0d62e982f0feaac3f69f0ba281
+    log: revlist-c22b309b1e82-9bac55e97894.txt
 
---===============1816710682986994108==
+--===============8637899072016980399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5587a2080684-516e52e9f5ec.txt
+Content-Disposition: attachment; filename=revlist-c22b309b1e82-9bac55e97894.txt
 
-9c13885e7e2b111a0c6c78bfb38c474621740ef0 clocksource: Retry clock read if long delays detected
-aa6afaa47b68b41e4b75a4e88518759a2d76c7a3 clocksource: Check per-CPU clock synchronization when marked unstable
-f177b387f33161024a9e7337ea2c57e5d3f4fb0f clocksource: Limit number of CPUs checked for clock synchronization
-685cba6d1b4b5e8018e1644c08ec39ff1cc0a318 clocksource: Reduce clocksource-skew threshold for TSC
-edd2c0b8def668cdd9d13b9cd9480f86e8413e36 clocksource: Provide kernel module to test clocksource watchdog
-023766fbdde49c75c13acd268bf9af810d624c59 clocksource: Print deviation in nanoseconds for unstable case
-2bf6b8f26ff4057fb9702121cfcc92506a02034e Merge branch 'clocksource.2021.06.04a' into HEAD
-5db46dec3d3453a61e2e985aa1f20d0fc5128916 Merge branch 'lkmm-dev.2021.05.10c' into HEAD
-78a4824438c3f9067bc353fb11cd00a9844e9173 refscale: Add measurement of clock readout
-10ea251ac0d5f05238894f32321fef669e6ace88 torture: Add clocksource-watchdog testing to torture.sh
-5eb22915d244a560da0fa7e271992f77fb20f8a8 torture: Make torture.sh accept --do-all and --donone
-904a62d2b3bdae52e314c97df58dd9f161881754 rcu: Fix to include first blocked task in stall warning
-406a2f008f2ef056646630a3b32283d0f320379c rcu: Fix stall-warning deadlock due to non-release of rcu_node ->lock
-01297d385b93f8d3bd63119cfa1722717d4043ad rcutorture: Preempt rather than block when testing task stalls
-01e4a17c94194ea568f1e1284c22ff642e817c65 tools/memory-model: Make read_foo_diagnostic() more clearly diagnostic
-401c77b05c1e390fb7f687c0f7375b12f024195e tools/memory-model: Add example for heuristic lockless reads
-f5863ff1798022f5e476b7297944583fa0e1d3af tools/memory-model: Heuristics using data_race() must handle all values
-1e1cb3343e25c5c43feb791754dcff1031c41492 tools/memory-model: Document data_race(READ_ONCE())
-fa5ea03eb7d5869e7d39fc4233190917dc47a1e0 rcu: Remove special bit at the bottom of the ->dynticks counter
-9f460390aac19a049fb65726a774374c9d1cb563 rcu/nocb: Start moving nocb code to its own plugin file
-edc0e2aa5d1e132fd240532ff760df8f2f99aad3 rcu: Weaken ->dynticks accesses and updates
-4caade90b4608eaec199a95f5c0b92d671428bcd rcu/nocb: Remove NOCB deferred wakeup from rcutree_dead_cpu()
-3699444f04b2fd414a64c56483d556939cfd3780 Documentation/RCU: Fix emphasis markers
-9dc9e5d8cf2e56e76281a0d5bd918cea2628db90 rcu: Mark accesses to ->rcu_read_lock_nesting
-367455053a76bdbf367e8752897367fa095d5e62 rcu: Mark accesses in tree_stall.h
-7862faf56547d8e42834357bec4dc53a74d1e46b Documentation/RCU: Fix nested inline markup
-a3021f46432c46d0c854784b7a76b12653daac67 rculist: Unify documentation about missing list_empty_rcu()
-b1e56d1a28b75583442ac27b4499f1c25d0e05cc rcu/tree: Handle VM stoppage in stall detection
-d490c76d82f8a991bdf63b0635d4fd44faaf4c22 rcu: Do not disable GP stall detection in rcu_cpu_stall_reset()
-49fe638da36301fb27dc185e4ad1a935305955c8 rcu: Start timing stall repetitions after warning complete
-d311b49cc657d3a0b4e2a72ef3a2cefa4a767bcc rcu-tasks: Add comments explaining task_struct strategy
-7a41b207b414a945b42d646f931574cdf3c6d179 rcu-tasks: Mark ->trc_reader_nesting data races
-f9e88a29dd0fdab2b0a170cfbceed17b830c0e79 rcu-tasks: Mark ->trc_reader_special.b.need_qs data races
-6a04a59eacbd6bc03bc874f395da9ffe32751408 rcu-tasks: Don't delete holdouts within trc_inspect_reader()
-dd5da0a9140e2bc087076b4b78eb4412c08a9317 rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
-07aa594a5a6f3e031e6a2f9035443ddc53e015bc docs: Fix a typo in Documentation/RCU/stallwarn.rst
-893432244d63f2c7c530ac4d19ae1765a481fd97 locktorture: Mark statistics data races
-e1b045c2bbd7a7232e3d34604ae8d01346344f7b locktorture: Count lock readers
-3af9ecd55a84194f7bbc371a92e8d672ac2ef7f5 srcutiny: Mark read-side data races
-2ebe14e46d398acb8995bb27e8232b55bf822e2e rcu: Mark lockless ->qsmask read in rcu_check_boost_fail()
-a94316c66c13e3717720cefca6e81626f2c59082 torture: Enable KCSAN summaries over groups of torture-test runs
-daf9767a0a7528823f6a1886656085a62d5e6b12 torture: Create KCSAN summaries for torture.sh runs
-516e52e9f5ec7671c7ed78e4bab040272eb03569 scftorture: Avoid excess warnings
+25bd52836df03fea5af6f9a314d075934b1d996f iov_iter_gap_alignment(): get rid of iterate_all_kinds()
+cd83e0804e6c8029b0c045c1afdd915a5a973fab get rid of iterate_all_kinds() in iov_iter_get_pages()/iov_iter_get_pages_alloc()
+797c3d769c4bf7e1bcd5a63ca4e3439ff8c3588f iov_iter_npages(): don't bother with iterate_all_kinds()
+3a5e9e3adc53123b28bc9e6ca10e671592cf1745 [xarray] iov_iter_npages(): just use DIV_ROUND_UP()
+3b404fd1332b9e84b78e194009959e6f6179844e iov_iter: replace iov_iter_copy_from_user_atomic() with iterator-advancing variant
+477824d4d92a41acfa1d34d5a61eb496f976edf6 csum_and_copy_to_iter(): massage into form closer to csum_and_copy_from_iter()
+8573aeb4599651b77b33705bacabb50dc76dfb3b iterate_and_advance(): get rid of magic in case when n is 0
+5af5d51d76da161f122796e41e94f11eb9a22e17 iov_iter: massage iterate_iovec and iterate_kvec to logics similar to iterate_bvec
+a9891d15bd279c1a622725487f8efaf370ec81b5 iov_iter: unify iterate_iovec and iterate_kvec
+9b012a818b5d87f68a1431ab59f08dde81d70f63 iterate_bvec(): expand bvec.h macro forest, massage a bit
+4c1fb90118cc18bd294e66ca260e862320ec2ed0 iov_iter: teach iterate_{bvec,xarray}() about possible short copies
+c44e4babdcf1ce510d7bf1e1a2b684ef5c7e2544 iov_iter: get rid of separate bvec and xarray callbacks
+181fcb3e19d7a9cd026f5e606cb92b45a0c9914b iov_iter: make the amount already copied available to iterator callbacks
+852ae0220a7ef98b2bbe89b46f5d824af9670018 iov_iter: make iterator callbacks use base and len instead of iovec
+1502a55daa7e22e6c227dc2e3cad12720c015f86 pull handling of ->iov_offset into iterate_{iovec,bvec,xarray}
+56729d032e4a3946fccb1f5e95907883c851627a iterate_xarray(): only of the first iteration we might get offset != 0
+83c9dffce2605a9523c84acb35c56ffdfedb9dc8 copy_page_to_iter(): don't bother with kmap_atomic() for bvec/kvec cases
+96abd3d8b355f6724ac74925cf8f80c51dd56aab copy_page_from_iter(): don't need kmap_atomic() for kvec/bvec cases
+0a14b30b47d3b4bfd10f760383816def93cc591b iov_iter: clean csum_and_copy_...() primitives up a bit
+7942924cf47f81db0352b151971e4467f5f5ec45 pipe_zero(): we don't need no stinkin' kmap_atomic()...
+cfcd0ad2c247d3b964af1a5981da9892e9785491 clean up copy_mc_pipe_to_iter()
+9bac55e978941f0d62e982f0feaac3f69f0ba281 csum_and_copy_to_pipe_iter(): leave handling of csum_state to caller
 
---===============1816710682986994108==--
+--===============8637899072016980399==--
