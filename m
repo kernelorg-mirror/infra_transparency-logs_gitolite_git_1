@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6032769431411298998=="
+Content-Type: multipart/mixed; boundary="===============2847969363242604606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Jun 2021 08:56:27 -0000
-Message-Id: <162322898706.27614.3495248541784143741@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 08:58:09 -0000
+Message-Id: <162322908992.28477.7159957606475507581@gitolite.kernel.org>
 
---===============6032769431411298998==
+--===============2847969363242604606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 5ab14ab1f2db24ffae6c5c39a689660486962e6e
-    new: 184fa76b87ca36c7e98f152df709bf6f492d8e29
+    old: 184fa76b87ca36c7e98f152df709bf6f492d8e29
+    new: 305f670846a31a261462577dd0b967c4fa796871
     log: |
-         1a85b350a7741776a406005b943e3dec02c424ed usb: typec: intel_pmc_mux: Put fwnode in error case during ->probe()
-         843fabdd7623271330af07f1b7fbd7fabe33c8de usb: typec: intel_pmc_mux: Add missed error check for devm_ioremap_resource()
-         184fa76b87ca36c7e98f152df709bf6f492d8e29 usb: typec: intel_pmc_mux: Put ACPI device using acpi_dev_put()
+         305f670846a31a261462577dd0b967c4fa796871 usb: gadget: eem: fix wrong eem header operation
          
 
---===============6032769431411298998==
+--===============2847969363242604606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623228985 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623229088 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623228985-fb5a1ee1556d911bb793e7eaaaedef47c5866865
+nonce 1623229088-7d1423e8b26462de057658744dd47190354aaa4d
 
-5ab14ab1f2db24ffae6c5c39a689660486962e6e 184fa76b87ca36c7e98f152df709bf6f492d8e29 refs/heads/usb-linus
+184fa76b87ca36c7e98f152df709bf6f492d8e29 305f670846a31a261462577dd0b967c4fa796871 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAgjkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yL8P/jK2Mv0pibnTf56TM7N3
-XYNzfxGTBoQq1+WVRUEEqelPo9EYewCjlBubZBp21vv9apQuCXhHyDccMEdGFQRa
-ynk//Q4yywLOkylNQ75bSLTVCbYobX+Gjgk8+RslS/JS4eF/EgIgI6xAnIDkpCj0
-KyG6uASbSP9H6i9honNeD/HIziN3WhNUG6NJsoJoMoIVQP11vI2DoSmD6u9Z1PUN
-EJObGY+x4wJKXtb3Vlro1j+pAQA38aXJavY2fM2fjZCGcqOtbqFIEI8wX647FMFP
-juyk/qq6XIn7azoUm7IWRoU4rO9QNLdUqZAN75WHCG0O1IswM+1IxWw1rofxwrJn
-MTtD5SGJmpkRdMgLxeu4LXCSAFeDLB/rUBT+8qRqDjJDB2I5GMgJUR1Pr28xqaAa
-lRb6xG8IUHuDnoBMpvnYJ0XPPml9bDppU5GgznJAB8Q28MuWcfgIbTl2aZ6HaV4p
-XRN9R6oyVKnkL/sqJlRUekdl38Af5H4hl2nbiUWYb/VCOT/AEP7V/ya3diTBOfA0
-pAdYySYdgs61ViObyGCTiwGrEtD6yqYlfkJ/DUAYAsL53oEktKxBrpLgpDH7pI4N
-oTER59TyWeWdrn7gCYUIo0Wpxrp97SW0UGHHz06TD0AoBH2ER3KPj1vbtiFd3fUS
-6NVSJ+jBls0lk3PSPtqrzUky
-=Dh05
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAgqAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+98gP/i2/E3JfDHQuPiGDtJzG
+H3UaweR6ITTFAagfbeT1UMbMrMwS0TnPNSUMviuS2xAhc2YIdXiNcQPw1Cso+eMe
+5dZXfEtQ4vAQaxthMGUX3HefNvTkwyy+1lelENgirIhvFWEeB0bxxWMpPnDRfekG
+Ml3nT0iyF0njM5R55yR2cC9JurRLLp61qadKdrdMI/Yllc/sBXaQx3hoGz9c59aO
+xQSLq/0KmTJLKH3r9CEIe8/EDHvCHFraCbwDIGV+4j+9wA1lp7rdyWcn+At31YJd
+eZO1ZvTDPFZb6S7Ul+gvo57ux9D0mYn/E7e7QvDPw2zRE/abcwZ+VHolYkE+hfJY
+GEWbc/ZEnTPmkLkeQuuyPAi7MlGHzSU7Smu5e3Jk+gRzMqczQkP4ZczU3KOqzKVk
+Ey2xyIc+PgVT2g18atIiV2iSj7IBhFDCc3Yv1B/oOCmwo8L6RlpAKJjMpmRp7RlU
+QupeB2zFla/9bNeaBgWG12V0LY62DIOd9nARzq1l5/J1BPCmx493EDi+loIvKe3j
+eAYSei9uJjSp0BMUAYdsBVEJKBPVuJbTPP01K3Ahgd1O0RKdnSnst1CAiCm+ggDd
+ZZTYpOaWJXqZuTTrrmhchGtiKQWM1zHd/w6agGDl01CLzkuCOQznPpgCoKid0hGp
+yO9Nx9EvgXmvcA+5J/uCbE93
+=4Z4u
 -----END PGP SIGNATURE-----
 
---===============6032769431411298998==--
+--===============2847969363242604606==--
