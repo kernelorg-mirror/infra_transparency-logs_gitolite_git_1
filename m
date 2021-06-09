@@ -1,62 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============1809550156432264586=="
+Content-Type: multipart/mixed; boundary="===============5100336690679217924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 09 Jun 2021 05:14:06 -0000
-Message-Id: <162321564673.9170.1452159348241339281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 09 Jun 2021 05:45:15 -0000
+Message-Id: <162321751573.29845.2039434861481146257@gitolite.kernel.org>
 
---===============1809550156432264586==
+--===============5100336690679217924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/queue-rc
-    old: 331550c99efacc7688672d04bfb2b2be4f181e85
-    new: 26d0cc99c25aa993ac380b6ae4bc938e39138382
-    log: revlist-331550c99efa-26d0cc99c25a.txt
+  - ref: refs/heads/seen
+    old: 41bd74ee12c363e812ae70f549343eac73f75d99
+    new: d7f512848f3cad0dd9c2a56fda59d7323ccb45ae
+    log: revlist-41bd74ee12c3-d7f512848f3c.txt
 
---===============1809550156432264586==
+--===============5100336690679217924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-331550c99efa-26d0cc99c25a.txt
+Content-Disposition: attachment; filename=revlist-41bd74ee12c3-d7f512848f3c.txt
 
-9f460ae31c4435fd022c443a6029352217a16ac1 batman-adv: Avoid WARN_ON timing related checks
-d612c3f3fae221e7ea736d196581c2217304bbbc net: ipv4: fix memory leak in netlbl_cipsov4_add_std
-5ac6b198d7e312bd10ebe7d58c64690dc59cc49a net: ipv4: Remove unneed BUG() function
-d439aa33a9b917cfbca8a528f13367aff974aeb7 net: appletalk: fix the usage of preposition
-9bb392f62447d73cc7dd7562413a2cd9104c82f8 vrf: fix maximum MTU
-df693f13a18f6eee0355741988f30c7c1e40ed9f Merge tag 'batadv-net-pullrequest-20210608' of git://git.open-mesh.org/linux-merge
-49bfcbfd989a8f1f23e705759a6bb099de2cff9f net: rds: fix memory leak in rds_recvmsg
-1650bdb1c516c248fb06f6d076559ff6437a5853 net: dsa: felix: re-enable TX flow control in ocelot_port_flush()
-504fd6a5390c30b1b7670768e314dd5d473da06a net: ena: fix DMA mapping function issues in XDP
-cc77e679f25c20ba518386e55796aa896455c3a4 net/mlx5e: Fix page reclaim for dead peer hairpin
-168d05b8f088a8636dd97c1538a80e5baa1d4921 net/mlx5e: Fix use-after-free of encap entry in neigh update handler
-3072181411873730dc0f8e43373a79c733782294 net/mlx5: Consider RoCE cap before init RDMA resources
-aafa7b0535fcada24f25638cfe5ddc05f24c41af net/mlx5: DR, Don't use SW steering when RoCE is not supported
-77db7f7b76e34ea24598d747713e7b76e883368c net/mlx5e: Remove dependency in IPsec initialization flows
-c7ceb5efec23202659e2ca379f2105424527a6bb net/mlx5e: Verify dev is present in get devlink port ndo
-af24479f0ce36eae2fda10dfe1656fd93116d3c1 net/mlx5e: Don't update netdev RQs with PTP-RQ
-87b1fa0cb5bb5b3b53b4ee469ae3f2588433aba7 net/mlx5e: Fix select queue to consider SKBTX_HW_TSTAMP
-b17e4ca18b6b17c9523cd2f8e27caace4cb1e0b5 net/mlx5e: Block offload of outer header csum for UDP tunnels
-4a0d3cdfd2a19f086359f85f094623f5ed02e8a4 Revert "net/mlx5: Arm only EQs with EQEs"
-01577c204fcfa0804cda81b1b5361ce59b555c8c net/mlx5e: Block offload of outer header csum for GRE tunnel
-3a0682aae4947305af7fdcf993ed396e9519f9d4 Merge branch 'patchq/401755' into mlx5-for-net
-43929245cfec39a3787bfc0abc8d14dd6d86d0f6 Merge branch 'patchq/396236' into mlx5-for-net
-d8dfbf0b216a52e84566115c5909a49a8b3cbeb4 Merge branch 'patchq/400954' into mlx5-for-net
-4b425a6cf2a84c5cef1130762fe37f5c674d100b Merge branch 'patchq/393577' into mlx5-for-net
-3d1990819c55d2a7be0d2664086e3aa17deb5778 Merge branch 'patchq/391760' into mlx5-for-net
-8ed985a65135d5226a4f76c1c137b8e48919affe Merge branch 'patchq/390892' into mlx5-for-net
-86a077f89f0a9560fa56b857e4bc18ce30f5018d Merge branch 'patchq/394028' into mlx5-for-net
-99ff07082c33474cc07549c55a5e93c769a83238 Merge branch 'patchq/401551' into mlx5-for-net
-64707bcd47872115a93b5ecd8b5914bed97d694c Merge branch 'mlx4-for-net' into net-rc
-654d6b207a2407b100036aee117d3c2ea6e121d8 Merge branch 'mlx5-for-net' into net-rc
-bdec6036c3addb15393c6efe99c4363c4bddaf66 Merge branch 'net-rc' into queue-rc
-26d0cc99c25aa993ac380b6ae4bc938e39138382 Merge branch 'testing/rdma-rc' into queue-rc
+7fd34207440af057c372477fc1fc51fdc169ec89 upload-pack: run is_repository_shallow() before setup_revisions()
+75fbd26b16e055793f16cd4ff363d1cf6271d88a revision.h: unify "disable_stdin" and "read_from_stdin"
+52928aa129cbdb4148eff67176ea6b4d1ad418f6 pack-objects.c: do stdin parsing via revision.c's API
+7c380340c263f108a0277619363e9e3535a50d00 pack-objects.c: make use of REV_INFO_STDIN_LINE_PROCESS
+68d92599766596883d82a1f00f373e0daa831c78 Merge branch 'ab/pack-objects-stdin' into seen
+681d97b9583f12112df604ddfce156cebe96cc95 submodule--helper: introduce add-clone subcommand
+746d36db601035b1de6ff8f2d02b46e0e1cccb60 submodule--helper: introduce add-config subcommand
+140f223a78e8d8d67786d6940c349878c46796f7 Merge branch 'ar/submodule-add' into seen
+f7b3fa16cfb8467e5792f4b7e590d03cefa1c9d7 Documentation: use singular they when appropriate
+78ef2f5b17ff335f932a54583c34b833cabd9ddf *: use singular they in comments
+78af22aa0022255133fd267cf2b1ab9d959df449 *: fix typos
+89435a8bcc71e27ff8158e614620a88be803c07b CodingGuidelines: recommend singular they
+d7f512848f3cad0dd9c2a56fda59d7323ccb45ae Merge branch 'ds/gender-neutral-doc' into seen
 
---===============1809550156432264586==--
+--===============5100336690679217924==--
