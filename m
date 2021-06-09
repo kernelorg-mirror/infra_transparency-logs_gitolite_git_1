@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2426032446176241915=="
+Content-Type: multipart/mixed; boundary="===============6724863514629722909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Jun 2021 12:31:16 -0000
-Message-Id: <162324187625.20968.6491267639949562422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 09 Jun 2021 12:31:22 -0000
+Message-Id: <162324188241.21083.16597990779323103630@gitolite.kernel.org>
 
---===============2426032446176241915==
+--===============6724863514629722909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 654d6b207a2407b100036aee117d3c2ea6e121d8
-    new: 97af1c09c9a90cd0fa6744314a0666a8fa14049b
-    log: revlist-654d6b207a24-97af1c09c9a9.txt
+  - ref: refs/heads/queue-rc
+    old: a85fe9696623d81f675e7584f83d14a52388341e
+    new: febed62301630ef5b182335d5b90431f672e1df0
+    log: revlist-a85fe9696623-febed6230163.txt
 
---===============2426032446176241915==
+--===============6724863514629722909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-654d6b207a24-97af1c09c9a9.txt
+Content-Disposition: attachment; filename=revlist-a85fe9696623-febed6230163.txt
 
 f2386cf7c5f4ff5d7b584f5d92014edd7df6c676 net: lantiq: disable interrupt before sheduling NAPI
 0ff5deedd1c124be5f23a207d0593a8ba4487968 net/mlx5e: Fix an error code in mlx5e_arfs_create_tables()
@@ -50,5 +50,7 @@ c96860fcbd213e55bd727beac4147caad138d346 Merge branch 'patchq/391760' into mlx5-
 4c866b3567c077c73f16f9eea5cf98f319dc752d Merge branch 'patchq/401551' into mlx5-for-net
 fb729a59dd2580effb28db29d12175ceba4de671 Merge branch 'mlx4-for-net' into net-rc
 97af1c09c9a90cd0fa6744314a0666a8fa14049b Merge branch 'mlx5-for-net' into net-rc
+3e67dbe3c143c4cd85720b5809ad1804f93262ac Merge branch 'net-rc' into queue-rc
+febed62301630ef5b182335d5b90431f672e1df0 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2426032446176241915==--
+--===============6724863514629722909==--
