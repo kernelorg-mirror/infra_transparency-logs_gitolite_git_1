@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 09 Jun 2021 19:45:26 -0000
-Message-Id: <162326792649.18008.8711268626197664886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Wed, 09 Jun 2021 19:46:23 -0000
+Message-Id: <162326798322.18370.9715584434545736227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dt/next
-    old: 13542a69b918db0118b75d9825bcc775c9c36ed3
-    new: 000fe96707b4cbffadc884ca750c525f0839695e
+  - ref: refs/heads/fixes-togreg
+    old: 87f36cbec4e1ac1b60d7ad607a73dad302c6aa6c
+    new: ab0c072a6f6ccabe6a2bcb4357fe23d995af31ea
     log: |
-         63f8e9e0ac655fb31f4e69aebd80acbafa2056ab dt-bindings: mtd: Convert mtd-physmap to DT schema
-         000fe96707b4cbffadc884ca750c525f0839695e dt-bindings: watchdog: Convert arm,sbsa-gwdt to DT schema
+         4798b8e7bf413b58783fc65ebba57954e4efbd9a iio: dummy: Fix build error when CONFIG_IIO_TRIGGERED_BUFFER is not set
+         69e8b43592ef94ca3512307522d4537bf426ac2a iio: frequency: adf4350: disable reg and clk on error in adf4350_probe()
+         ab0c072a6f6ccabe6a2bcb4357fe23d995af31ea iio: accel: bma180: Fix BMA25x bandwidth register values
          
