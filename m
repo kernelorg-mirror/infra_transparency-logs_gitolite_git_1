@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0422678583126604272=="
+Content-Type: multipart/mixed; boundary="===============6032769431411298998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Jun 2021 08:53:31 -0000
-Message-Id: <162322881190.24892.11519764760871631224@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 08:56:27 -0000
+Message-Id: <162322898706.27614.3495248541784143741@gitolite.kernel.org>
 
---===============0422678583126604272==
+--===============6032769431411298998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 032e288097a553db5653af552dd8035cd2a0ba96
-    new: 5ab14ab1f2db24ffae6c5c39a689660486962e6e
+    old: 5ab14ab1f2db24ffae6c5c39a689660486962e6e
+    new: 184fa76b87ca36c7e98f152df709bf6f492d8e29
     log: |
-         5ab14ab1f2db24ffae6c5c39a689660486962e6e usb: typec: tcpm: Do not finish VDM AMS for retrying Responses
+         1a85b350a7741776a406005b943e3dec02c424ed usb: typec: intel_pmc_mux: Put fwnode in error case during ->probe()
+         843fabdd7623271330af07f1b7fbd7fabe33c8de usb: typec: intel_pmc_mux: Add missed error check for devm_ioremap_resource()
+         184fa76b87ca36c7e98f152df709bf6f492d8e29 usb: typec: intel_pmc_mux: Put ACPI device using acpi_dev_put()
          
 
---===============0422678583126604272==
+--===============6032769431411298998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623228807 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623228985 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623228807-05e1e855d7a7653862234011c7d0f7de60bf2899
+nonce 1623228985-fb5a1ee1556d911bb793e7eaaaedef47c5866865
 
-032e288097a553db5653af552dd8035cd2a0ba96 5ab14ab1f2db24ffae6c5c39a689660486962e6e refs/heads/usb-linus
+5ab14ab1f2db24ffae6c5c39a689660486962e6e 184fa76b87ca36c7e98f152df709bf6f492d8e29 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAgYcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zIoP/jlK3cGAKOA/gg4xEMy1
-lSJtbGiYNtENi6ZakPNEnE3+Kjg+r+xdBqF8iph0uBkkLdU0RznkutkExjX+01iU
-nV/YFYe5XneeKGB5Zlmv1DPOrJ25GB/EtEV8zupozAT8lHSkG6kldmv4CboHGcr1
-WXBDd0NP4JZk9eNiC25CXtpZATbohUvTgwoKprmMn0nevROBABIgcLQaXK5owPwM
-2ghXqQqYOG8kqjvXsVWcrR3YuSCWAza+JjyOp4j42kpsBFEPm7QWOUVAgQ017c12
-4H6LOVXbsl7sjndTehj9DebQih0aHsOQlyGo6zbEknkJvqnYx+obIVZB4HCGtJEV
-i0M6WYu4Tb42ltNHEr3OVIYItzXEqWcWnHvz5NUMAXo/XWVb7que49gtrO7As08f
-i6FRPOx64Dr/nSF9SExXDse+YEjOtGZGHSdO2VtH+mov25lqjaGABYkJ3ozKxa7q
-b0c8gicyQ8QPyYTsMnVgYdVaWsoq2GUxy5C+yfcIUyf6kFOVDVNAzhq6nYVYUhRN
-yV+e9TLEtuV41uJYzK/XwrCTud8NqZLu8NcuV6R5yKlglh+tp/zhaCgoywTRr0bA
-om86brSXrkFM0FK0IGtxKdN7JvLXnFNJ0fL8NMUk1213TuLPC8cxacdsug0KilKE
-HNz37LApIhpWU3UGpVeIBzzp
-=rlSc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAgjkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yL8P/jK2Mv0pibnTf56TM7N3
+XYNzfxGTBoQq1+WVRUEEqelPo9EYewCjlBubZBp21vv9apQuCXhHyDccMEdGFQRa
+ynk//Q4yywLOkylNQ75bSLTVCbYobX+Gjgk8+RslS/JS4eF/EgIgI6xAnIDkpCj0
+KyG6uASbSP9H6i9honNeD/HIziN3WhNUG6NJsoJoMoIVQP11vI2DoSmD6u9Z1PUN
+EJObGY+x4wJKXtb3Vlro1j+pAQA38aXJavY2fM2fjZCGcqOtbqFIEI8wX647FMFP
+juyk/qq6XIn7azoUm7IWRoU4rO9QNLdUqZAN75WHCG0O1IswM+1IxWw1rofxwrJn
+MTtD5SGJmpkRdMgLxeu4LXCSAFeDLB/rUBT+8qRqDjJDB2I5GMgJUR1Pr28xqaAa
+lRb6xG8IUHuDnoBMpvnYJ0XPPml9bDppU5GgznJAB8Q28MuWcfgIbTl2aZ6HaV4p
+XRN9R6oyVKnkL/sqJlRUekdl38Af5H4hl2nbiUWYb/VCOT/AEP7V/ya3diTBOfA0
+pAdYySYdgs61ViObyGCTiwGrEtD6yqYlfkJ/DUAYAsL53oEktKxBrpLgpDH7pI4N
+oTER59TyWeWdrn7gCYUIo0Wpxrp97SW0UGHHz06TD0AoBH2ER3KPj1vbtiFd3fUS
+6NVSJ+jBls0lk3PSPtqrzUky
+=Dh05
 -----END PGP SIGNATURE-----
 
---===============0422678583126604272==--
+--===============6032769431411298998==--
