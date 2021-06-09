@@ -1,31 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============4630130423632051565=="
+Content-Type: multipart/mixed; boundary="===============2596761091848418098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Jun 2021 11:18:12 -0000
-Message-Id: <162323749278.5140.6175030744286420938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 09 Jun 2021 11:18:26 -0000
+Message-Id: <162323750619.5292.13984007117081729232@gitolite.kernel.org>
 
---===============4630130423632051565==
+--===============2596761091848418098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: fef338e877b90c489d9856f3f1da1700dac968ee
-    new: d88db3287d345a32a4e4ca3f308aa9990c49660d
-    log: revlist-fef338e877b9-d88db3287d34.txt
+  - ref: refs/heads/queue-next
+    old: af70ec21f5aafc384ad823b11dd36661243cd05d
+    new: 5018a2a6bb547369c2077b9fd2f290c0548d90be
+    log: revlist-af70ec21f5aa-5018a2a6bb54.txt
 
---===============4630130423632051565==
+--===============2596761091848418098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fef338e877b9-d88db3287d34.txt
+Content-Disposition: attachment; filename=revlist-af70ec21f5aa-5018a2a6bb54.txt
 
+07ddc8516a0e53e54e3cf5cbbff19cac6cda3d82 RDMA: Verify port when creating flow rule
+e2eed941f912b2068e371fd37f43b8cf5082a0e6 RDMA/core: Simplify addition of restrack object
+14e94e9e04ce8bb13853b344fc6152a615d9fa6b net/sched: Don't print dump stack in event of transmission timeout
+6092b11f4efd7c78140aae252ad50bd5d55562cf net/bnxt: Remove useless check of non-existent ULP id
+72a643135bc51a066d7602e87ef5ddb8215c1bc1 net/bnxt: Use direct API instead of useless indirection
+e730b8045f5f753bb26a0ac02e050afff6a10a18 RDMA/core: Introduce peer memory interface
+82717631ed62d04ecdf7b32e5f9589a85e95e871 RDMA/rdmavt: Decouple QP and SGE lists allocations
+0eaa7180a6d5196817adc6d819983bd28cb942e6 net/mlx5: Add DCS caps & fields support
+c74ab192d622c2662a9e6b3b96b53c75f58baf06 RDMA/mlx5: Move DCI QP creation to separate function
+6b16713122a5f8aba7d58138c2e2332a1bc3d139 RDMA/mlx5: Add DCS offload support
+ec2a536f495f0a5cbe30ed1e52abde098dbc5d17 RDMA/mlx5: Don't add slave port to unaffiliated list
+03c30dd90758981f84c5e574c74c499be4fa7905 RDMA: Fix kernel-doc warnings about wrong comment
+b049146a26fd6703659dc7c653c0995b162b58fe RDMA: Split the alloc_hw_stats() ops to port and device variants
+554a8678fc3585b3c4a0668068c637d6363011d5 RDMA/core: Replace the ib_port_data hw_stats pointers with a ib_port pointer
+442b2592b47a4d5560b2fb2d6c6c80c2fe76505a RDMA/core: Split port and device counter sysfs attributes
+6bebea67c5e20d505b095eb96b7b3841ca57405d RDMA/core: Split gid_attrs related sysfs from add_port()
+46893b3793a87cc3199dae4211d327705bdcd426 RDMA/core: Simplify how the gid_attrs sysfs is created
+6709a0959f08f03a39cb98fac00703ca23b97b65 RDMA/core: Simplify how the port sysfs is created
+625c30867d24cd24332e7f1ef11797cd2881c249 RDMA/core: Create the device hw_counters through the normal groups mechanism
+dd3ba13b034888e571af6ca0eb321a31ffa168b5 RDMA/core: Remove the kobject_uevent() NOP
+34b44a37346709b989be91c72731b48e70e699ce RDMA/core: Expose the ib port sysfs attribute machinery
+20adc2390c83aa69d1325c3e2927c486236562a6 RDMA/cm: Use an attribute_group on the ib_port_attribute intead of kobj's
+2de19f3d50636cd511c8cd8fe08e4fe34de72079 RDMA/qib: Use attributes for the port sysfs
+5a1d1a8e2da4989a849051a8d8c497d553532a0f RDMA/hfi1: Use attributes for the port sysfs
+dd0d2461298c99780fe00d4cadd3c0b4b81de23b RDMA: Change ops->init_port to ops->port_groups
+767f36dee6558fdf0905134acae6a79b1c7706a6 RDMA/core: Allow port_groups to be used with namespaces
+2027108fbb2f5fc68effad84f241555fe41a3727 RDMA: Remove rdma_set_device_sysfs_group()
+0d08aa1efcefe1cbb52da0e03bd171d9ed6053fb RDMA/mlx5: Block FDB rules when not in switchdev mode
+db9b8634d85a9ca71673c388fa53c70e46494c04 RDMA/mlx5: Enable Relaxed Ordering by default for kernel ULPs
+ba734b26db43ea1a1a03fbd6d54558e86597b2c7 IB/cm: Remove dgid from the cm_id_priv av
+1aaef6708bdeaf43f6197b1fb6716869f970187d RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
+5ed619ea2577164ae10e4e0ef8b80b069532d785 RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
+a54ae5e39840a6fb1ccb16e36a3444c0d2d6d1ef RDMA/mlx5: Change the cache to hold mkeys instead of MRs
+259be0f119b38fbc5bb7799c81aca209d59df00c RDMA/mlx5: Change the cache structre to an rbtree
+c9a8530daaf0b91d4c43360d0730de7387fd1f30 RDMA/mlx5: Delay the deregistration of a non-cache mkey
+27e30fac1eb541f9e7d412f826cab1d71223635f RDMA/mlx5: Refactor get_ts_format functions to simplify code
+8f2067793db10f2f63ab076017724fa24d41e2cc RDMA/mlx5: Support real-time timestamp directly from the device
+77315d430c1ba19ae48245821e351dae1a1275e6 Merge branch 'master' into testing/rdma-rc
+85bb429078d79f135b6f1874d606a9a31a857443 Merge branch 'rdma-next' into testing/rdma-next
 2aa8eca6cbb5912aa0c07ebecb846b3d6182415c net: appletalk: fix some mistakes in grammar
 0ff5deedd1c124be5f23a207d0593a8ba4487968 net/mlx5e: Fix an error code in mlx5e_arfs_create_tables()
 1e64b85d310f8ccdaa44e5e7b2d4ef8ff06e4bc6 net/mlx5e: Fix use-after-free of encap entry in neigh update handler
@@ -80,5 +119,7 @@ e10c72c69832a15e1b72eb145b7435b0c5c1f8b1 Merge branch 'mlx4-queue' into net-next
 fcb2af50a33cde6c8836bc970b6c962a05bf9b70 Merge branch 'mlx5-queue' into net-next
 088fe5e5196c1693ec04a36dfe927f3a869f0116 Merge branch 'mlx4-for-net' into net-next
 d88db3287d345a32a4e4ca3f308aa9990c49660d Merge branch 'mlx5-for-net' into net-next
+083407e782141639dde0002564cdaa45da902b09 Merge branch 'net-next' into queue-next
+5018a2a6bb547369c2077b9fd2f290c0548d90be Merge branch 'testing/rdma-next' into queue-next
 
---===============4630130423632051565==--
+--===============2596761091848418098==--
