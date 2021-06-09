@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0466583705594632270=="
+Content-Type: multipart/mixed; boundary="===============5902497214604416696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Jun 2021 12:26:36 -0000
-Message-Id: <162324159685.17616.14409261442547502912@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 12:27:06 -0000
+Message-Id: <162324162652.17863.4649665430360324270@gitolite.kernel.org>
 
---===============0466583705594632270==
+--===============5902497214604416696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f0516d2e8860df8f4ab3a01b8134dd30ef3d5479
-    new: 978d7f0978ef74c8910cedecaa93b686b3a91bc0
+    old: 978d7f0978ef74c8910cedecaa93b686b3a91bc0
+    new: 5697686ed4eda64114b50e6e09d5c647d091b873
     log: |
-         978d7f0978ef74c8910cedecaa93b686b3a91bc0 staging: rtl8723bs: hal: Delete tests with no effects
+         5697686ed4eda64114b50e6e09d5c647d091b873 staging: fpgaboot: change FPGA indirect article to an
          
 
---===============0466583705594632270==
+--===============5902497214604416696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623241594 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623241624 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1623241593-9bd25e15bde3421f8ba91501610995ac5fb9e245
+nonce 1623241624-44871ac447064560825871a02ccee933e4d34876
 
-f0516d2e8860df8f4ab3a01b8134dd30ef3d5479 978d7f0978ef74c8910cedecaa93b686b3a91bc0 refs/heads/staging-testing
+978d7f0978ef74c8910cedecaa93b686b3a91bc0 5697686ed4eda64114b50e6e09d5c647d091b873 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAs3sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jXkP/0mqG+5eLblWN+SHusHY
-zZ1tVoHGwU6hNB0EPNqFSXVx5E81uXzCwhYcvrzeFQdW67BlUngx0erAvwt97bEL
-Fyc1fGHAbYoUWxas5qRq9lOZd1fE65snadMGTwFl8qwxpCLImXcfoI6kIdC+08Bm
-sPHuP+cpm2E9FVndI97cU6CdxRRGbpaUxrGiO1QiBeOZfU9sTu/BnbUYn72G6nDE
-KephfeZrbqaGtmBvM7KFuqqdbNPen9kdVVuFdMxpdKWCWH1ytpNoCBwC/w9pBoDX
-YahWYjtl2M1psWjDJzlCVtfRdQZOhF84kUeCTdk+rb6j47J8G8jpGbb4B4owXq/0
-doJITzPzm1ReF6NK8m07EwpSd5OAZ9XJUrn9WV6jms5wlmhR6scFFUTQ2k/5XXtQ
-VA4gTQ5xbEJaClVQHVJJfzJI6posqBC+Y5LLn57JJLq8sYuSXZ1V0wmPjXQDH7gZ
-AUiSWv73XRikfkC7dSw9WVsHc3F7t3A7oUQevn7VUcM4RLbYsvqMVk2RHNtFEKVv
-PQwC0iIG0j48qEfCyD/pULFyEbrlnHPfqCjE1IHT9CM9gf6K89DeRtKa4UQA72jS
-wwyH5SKYsYL34rcxc87q0ecFr+fYBFoDVYllIER1IPkYkLrUnaAqbv1lLq9L4qUQ
-NwsnQUWfiqJtHZ0iU33m/7aW
-=Q9sI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAs5gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K5MP/3NLkfL3rSqpVjDEis2s
+e3ajMGXoPY6rcqOkrwNeZdilF5nhm6DV5R7723SVy044qSU28nTPFdMadkwB1MZq
+IaxGGUk8/YTQUHaCddysK72xFjeOCsLnTJkAzYAmlxkzRkI1NsjiQFoSPvho/Rq4
+nGK1iye0QQ7TKY82OMpySZLEGkXi9Yg4COnfco6YfacP54Omm9MjIj6nxTd3UIlL
+KMjRrcNO9TEmyTmHTkC3+5HYAyG/d8Ww4CnbA8tDw0NQOU8Sn4HUtle1CgSpXnTo
+RC8VqU9vsPG75KA/GrK6P4auVR0AnCGjBE98xVaZ9WFNC4vl9g9ikPolSqvTitis
+Mnj9ARpJmo+MUbJI38LsSsdOFSL/o8SrsUKZ8SgPFydAv37eEQfkmp7o9uRs38+Q
+ZoTje+3R02CD4jsp4qpSGfiaDeBm8RmNYzaHBQ8YqWTSnaQqHMpE1zUX0dwz0q+E
+g+ZrWKoHC2FXc0SlpkNJ9oHVoZOR5ipsan78GLEF7QTxFEjSXbZCmrhPvFm/Ar8i
+Ppw463vRyp/Hb965xpsh4cE/Wy+9MzeFXdHXHIP0kjjGvRAtnH7h6x5bueu4vTPR
+IzhuP0amKM2ebutKxrw/94teD7pmNNiH4wbjrLGWODXfgKri4MsmRjxGxdYJk7K7
+flRK462xcpP9RnoR8woV+G37
+=AVZd
 -----END PGP SIGNATURE-----
 
---===============0466583705594632270==--
+--===============5902497214604416696==--
