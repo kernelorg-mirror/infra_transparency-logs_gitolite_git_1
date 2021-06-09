@@ -1,63 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7666689562249993883=="
+Content-Type: multipart/mixed; boundary="===============2426032446176241915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Jun 2021 12:30:35 -0000
-Message-Id: <162324183532.20661.4442301681036650811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 09 Jun 2021 12:31:16 -0000
+Message-Id: <162324187625.20968.6491267639949562422@gitolite.kernel.org>
 
---===============7666689562249993883==
+--===============2426032446176241915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/staging-testing
-    old: 3c67430b7f5a1be75b7cdb96f3e3769d8114765f
-    new: 3cac092a05d80ef2eb63e788329bd72b6e764069
-    log: |
-         535ca63b2ae2a2f275033c7113c0c30fab2a6763 staging: rtl8188eu: use safe iterator in stop_ap_mode()
-         b5e944c50cbd10bc35d08b3093de83df10949f17 staging: rtl8188eu: use safe iterator in tx_beacon_hdl()
-         e0f489a25a9928da72dbf697ec52e987041c8dd1 staging: rtl8188eu: use safe iterator in dequeue_xmitframes_to_sleeping_queue()
-         c47bcff9ae42c1cb24c828401f2681003b601564 staging: rtl8188eu: use safe iterator in wakeup_sta_to_xmit()
-         629132b3d523bef7b32657e17c0edc1cdaae7e0a staging: rtl8188eu: use safe iterator in xmit_delivery_enabled_frames()
-         a56d78b5d00db51676cf211e41ec42285fb4a573 staging: rtl8188eu: use safe iterator in rtl8188eu_xmitframe_complete()
-         5bd9e94a11ab76b656c897609b7e0e2bf1e87d09 staging: rtl8188eu: delete some dead code
-         3cac092a05d80ef2eb63e788329bd72b6e764069 staging: gdm724x: emove redundant initialization of variable hci_len
-         
+  - ref: refs/heads/net-rc
+    old: 654d6b207a2407b100036aee117d3c2ea6e121d8
+    new: 97af1c09c9a90cd0fa6744314a0666a8fa14049b
+    log: revlist-654d6b207a24-97af1c09c9a9.txt
 
---===============7666689562249993883==
+--===============2426032446176241915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-654d6b207a24-97af1c09c9a9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623241833 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1623241832-f2dfe2239a54d005707bc4740c3de7d28b045c1e
+f2386cf7c5f4ff5d7b584f5d92014edd7df6c676 net: lantiq: disable interrupt before sheduling NAPI
+0ff5deedd1c124be5f23a207d0593a8ba4487968 net/mlx5e: Fix an error code in mlx5e_arfs_create_tables()
+1e64b85d310f8ccdaa44e5e7b2d4ef8ff06e4bc6 net/mlx5e: Fix use-after-free of encap entry in neigh update handler
+8ee371c00d6952959297705b0e3589d1ad5e3985 net/mlx5e: Remove dependency in IPsec initialization flows
+c5d804a2dccedb81762bad7158a02bf9c89f1204 net/mlx5: Consider RoCE cap before init RDMA resources
+0233942a90b0db80e6f97b6d05237a0da570305b net/mlx5e: Fix page reclaim for dead peer hairpin
+8c123511dcab40b48043b36bdf20095c1b2d1f43 net/mlx5: DR, Don't use SW steering when RoCE is not supported
+6d0d69486080611789e021b0203275824b9475d6 net/mlx5e: Verify dev is present in get devlink port ndo
+8e76baef4e4de3d48459d749fab3f5b2bfcd756b net/mlx5e: Don't update netdev RQs with PTP-RQ
+49d3ec33546fc4d6a03da8afac48123b2b7b716e net/mlx5e: Fix select queue to consider SKBTX_HW_TSTAMP
+a509e53511468c40befd85f43e2055eb5b4c2304 Revert "net/mlx5: Arm only EQs with EQEs"
+fdcb6f539db3f29e573b7b912eb5312f9f2bc999 net/mlx5e: Block offload of outer header csum for UDP tunnels
+1daa00a7e022f9624a8ac3e70106ed55e3524b93 net/mlx5e: Block offload of outer header csum for GRE tunnel
+c28bbc1f945a1a346f6a40ccf1a4eb3384345f3a Merge branch 'patchq/401755' into mlx5-for-net
+398a6f49b4e525afa47a627d0ad75bfe79dd0a51 Merge branch 'patchq/400954' into mlx5-for-net
+812647b0bb19011646222bb62877e3705de82fbf Merge branch 'patchq/400451' into mlx5-for-net
+8c17bffd828351b9e8725ccdb62f579aedcdc057 Merge branch 'patchq/396236' into mlx5-for-net
+2b6308f50183d472371f6848fce6622e54daf021 Merge branch 'patchq/393577' into mlx5-for-net
+c96860fcbd213e55bd727beac4147caad138d346 Merge branch 'patchq/391760' into mlx5-for-net
+314ec63c0698acddd109a467092e043d499dae29 Merge branch 'patchq/390892' into mlx5-for-net
+879990e657bffe13d1e9dd5025315129b92c2424 Merge branch 'patchq/394028' into mlx5-for-net
+4c866b3567c077c73f16f9eea5cf98f319dc752d Merge branch 'patchq/401551' into mlx5-for-net
+fb729a59dd2580effb28db29d12175ceba4de671 Merge branch 'mlx4-for-net' into net-rc
+97af1c09c9a90cd0fa6744314a0666a8fa14049b Merge branch 'mlx5-for-net' into net-rc
 
-3c67430b7f5a1be75b7cdb96f3e3769d8114765f 3cac092a05d80ef2eb63e788329bd72b6e764069 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAtGkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HTAP/1aMSCxEe5eM5Xs1AjPA
-G4h/IldQTwo0bisSFaej/mn/X3Dh87Vuwfo+27jde9Y8lW8KO63LlAtI7xcKT178
-eLYIp6SfvyMBHj11A7fIRr2FfJG3N5ikgsfhGctHhcXumribxWZ5M8FIj/+8ksJC
-huijJiKQGUNafFlNejNFlE0vgJso918btR/u9ptM0BaQG8QWlydmOaP8Ycj61kld
-8aHgaGrpva0rWQxOy3OFpXhDcPVRJu5SCahOcqOr6P0XNeqdVfhFIj4ovtTYyGP0
-FWjeBzykR4TcJyMy86vMWiD5jH1HiqndgEUGpxqL649cz224EJpbLrg6lqrf42Oy
-vVtFpCor8uUJs5oMNGKDa+eLmBfYwpYdAks6VSF1w7rf1uID9vz4MumlX7Fc1fSt
-vy5MneeW9gqUuooh6xbvTen+SzfMAxaVpreFxZPp4cSCL4zWOGzgv8eU5geE+n8I
-/VAzN4tB0+qJAwMCfebt+Rk6liLf9pwH3UIDn0spxt6mkEiuYHXEOD4x+MOGChuy
-WFCzbt2RKcwWhO298ZW7CvGRisM5m1DIONUg4B/tIviEpU35cMqqsY/U3CKiOLd8
-z0SZaiBplLKQWaiAe0V5n8LsPLPKxnhSs4zHTYPMYlywID5X98Dqv52Eq7N0ckFw
-owvLQzodg/1Cyij+H6pzBBnz
-=RLaU
------END PGP SIGNATURE-----
-
---===============7666689562249993883==--
+--===============2426032446176241915==--
