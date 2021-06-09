@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 09 Jun 2021 18:26:49 -0000
-Message-Id: <162326320955.29042.5864690159145590097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 09 Jun 2021 18:30:46 -0000
+Message-Id: <162326344652.31785.14819073705874455600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
-    old: 125fa19faad894b8ca1e6e4d5abe4e0691810f54
-    new: f465a00ff733980ec4d3dbd0ad5b87f34aed9827
+    old: e67f325e9cd67562b761e884680c0fec03a6f404
+    new: 2aa8eca6cbb5912aa0c07ebecb846b3d6182415c
     log: |
-         6031e6b8280cd0e4b7389502241954921b0e8284 btdev: Check advertising/scanning states when changing White List
-         f465a00ff733980ec4d3dbd0ad5b87f34aed9827 btdev: Check advertising/scanning states when changing Resolving List
+         2aa8eca6cbb5912aa0c07ebecb846b3d6182415c net: appletalk: fix some mistakes in grammar
          
