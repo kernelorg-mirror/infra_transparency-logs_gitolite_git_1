@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5902497214604416696=="
+Content-Type: multipart/mixed; boundary="===============6588348806477739979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Jun 2021 12:27:06 -0000
-Message-Id: <162324162652.17863.4649665430360324270@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 12:28:01 -0000
+Message-Id: <162324168114.18236.4715169943082302768@gitolite.kernel.org>
 
---===============5902497214604416696==
+--===============6588348806477739979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 978d7f0978ef74c8910cedecaa93b686b3a91bc0
-    new: 5697686ed4eda64114b50e6e09d5c647d091b873
+    old: 5697686ed4eda64114b50e6e09d5c647d091b873
+    new: 7973bfefb5ad43fbba72607ed72d916ce5ebb4cc
     log: |
-         5697686ed4eda64114b50e6e09d5c647d091b873 staging: fpgaboot: change FPGA indirect article to an
+         fe5fcefc9130ce80cda024ab44c7353a67df5cb6 staging: rtl8188eu: Use is_{zero/broadcast}_ether_addr() instead of memcmp()
+         7973bfefb5ad43fbba72607ed72d916ce5ebb4cc staging: rtl8188eu: Use eth_broadcast_addr() to assign broadcast address
          
 
---===============5902497214604416696==
+--===============6588348806477739979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623241624 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623241679 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1623241624-44871ac447064560825871a02ccee933e4d34876
+nonce 1623241678-bf7db75246be26296f7fe81cb4f794722d6b6d7e
 
-978d7f0978ef74c8910cedecaa93b686b3a91bc0 5697686ed4eda64114b50e6e09d5c647d091b873 refs/heads/staging-testing
+5697686ed4eda64114b50e6e09d5c647d091b873 7973bfefb5ad43fbba72607ed72d916ce5ebb4cc refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAs5gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K5MP/3NLkfL3rSqpVjDEis2s
-e3ajMGXoPY6rcqOkrwNeZdilF5nhm6DV5R7723SVy044qSU28nTPFdMadkwB1MZq
-IaxGGUk8/YTQUHaCddysK72xFjeOCsLnTJkAzYAmlxkzRkI1NsjiQFoSPvho/Rq4
-nGK1iye0QQ7TKY82OMpySZLEGkXi9Yg4COnfco6YfacP54Omm9MjIj6nxTd3UIlL
-KMjRrcNO9TEmyTmHTkC3+5HYAyG/d8Ww4CnbA8tDw0NQOU8Sn4HUtle1CgSpXnTo
-RC8VqU9vsPG75KA/GrK6P4auVR0AnCGjBE98xVaZ9WFNC4vl9g9ikPolSqvTitis
-Mnj9ARpJmo+MUbJI38LsSsdOFSL/o8SrsUKZ8SgPFydAv37eEQfkmp7o9uRs38+Q
-ZoTje+3R02CD4jsp4qpSGfiaDeBm8RmNYzaHBQ8YqWTSnaQqHMpE1zUX0dwz0q+E
-g+ZrWKoHC2FXc0SlpkNJ9oHVoZOR5ipsan78GLEF7QTxFEjSXbZCmrhPvFm/Ar8i
-Ppw463vRyp/Hb965xpsh4cE/Wy+9MzeFXdHXHIP0kjjGvRAtnH7h6x5bueu4vTPR
-IzhuP0amKM2ebutKxrw/94teD7pmNNiH4wbjrLGWODXfgKri4MsmRjxGxdYJk7K7
-flRK462xcpP9RnoR8woV+G37
-=AVZd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAs88bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aNsQAMBPIAIcpYK7oONa6sUi
+IKW5B/xyub0esvUoBJWN1pni28+Zo8Lux878iomBV8/uBxE7gbJ4Hhpu9B8tK7SZ
+xlSXfYxCBNh2ZSg3V23CUVhc1+ZQjpNSk2K/7Ux6P+7FhT1TpzFxZsZdoBtNHNI8
+a5smP5vSCI6FrRm74SIilPIY7xJagaQX0iT7Laot6B82eSaQaZ1RomRYTyhER2ec
+c92xxlPcN5LpCnrOggqBn/r5qACWw0Bd0NwScEKYdIG6byNuVwmMqrgaqw0ODl0V
+uu+oDNOPz3zSU0M4m8hxRudUwkHqINY8rlwKF3REYsIXOE8kAJ70pY0qh9lxy1sS
+6p0uG7ANAZwkaHSc6R6NtMYo1EAqEUY/GY/bLPCgnsUqltAWbckRiUk/iFB/rnzp
+URxzxN1TncQVGMuy+2Nw+yCzgH9/ayCdA9gML3rtFX66qcZU9B39fN7QRz8YdJWi
+4phj4TV7TxMz0eQfy/thojvwstlGfHMg4SK8R88kCfaX+dzWGHf5vWtthmroBcrU
+Pkc/BiaAIskUKT3X079sdgZK9skSnmqpGAwq3TDykQPMh8KUlCErurmJYEAiNRR7
+FfDD+AoSplmoddAcOMb80O/ug6fwSvlgsJIy98PQaNF57eIEGi4cXOp9nEdo+MIJ
+z5EVp9k1YkjwdqZ3cHxFQ32d
+=4qNf
 -----END PGP SIGNATURE-----
 
---===============5902497214604416696==--
+--===============6588348806477739979==--
