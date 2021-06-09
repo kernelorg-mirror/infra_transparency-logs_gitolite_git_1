@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8714386340337996479=="
+Content-Type: multipart/mixed; boundary="===============4467383025890710385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Jun 2021 08:34:36 -0000
-Message-Id: <162322767606.11372.15104496932806548840@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 08:36:19 -0000
+Message-Id: <162322777900.13399.13137143653794518059@gitolite.kernel.org>
 
---===============8714386340337996479==
+--===============4467383025890710385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 40d9e03f414d8b837926a4460788682e59a8c654
-    new: 1958ff5ad2d4908b44a72bcf564dfe67c981e7fe
+    old: 1958ff5ad2d4908b44a72bcf564dfe67c981e7fe
+    new: d1658268e43980c071dbffc3d894f6f6c4b6732a
     log: |
-         3370139745853f7826895293e8ac3aec1430508e USB: f_ncm: ncm_bitrate (speed) is unsigned
-         1958ff5ad2d4908b44a72bcf564dfe67c981e7fe usb: f_ncm: only first packet of aggregate needs to start timer
+         d1658268e43980c071dbffc3d894f6f6c4b6732a usb: pci-quirks: disable D3cold on xhci suspend for s2idle on AMD Renoir
          
 
---===============8714386340337996479==
+--===============4467383025890710385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623227674 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623227777 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623227673-198b3f02483897cd84fe9ef6281feb950886453c
+nonce 1623227776-fe7d9c74dce67f62fa68d3ab02b156542aacd7f2
 
-40d9e03f414d8b837926a4460788682e59a8c654 1958ff5ad2d4908b44a72bcf564dfe67c981e7fe refs/heads/usb-linus
+1958ff5ad2d4908b44a72bcf564dfe67c981e7fe d1658268e43980c071dbffc3d894f6f6c4b6732a refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAfRobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cVoP/3ElXYS3tG1abbj5xfFp
-hU0Oql619avszx5cBYkDwYsqIlqBAUfu1q1PT3dfLqUTQ9pEqQIhmayBMm9K8jeA
-EupC5XJSjnkkO1gmNF+jF6nT1WfFLjTmc87mism2As7slGgu0IX1kul0GrI+TAT4
-wdeJF7f4J/V7265gOm5xXlbVU45U/6qwQBHT5qrC13W1gPRwzM3Pf+Z/q6PtcwRg
-x8gPI1pHWGnx5h3kme7HvV+jL0o+mtYefjTeJq0N1qUPmvI4TfdhbSNRRVq1ojUV
-k49OmMT9MrBbpgWOFRuWUQstYBbZj4KsCjgUYyHvnwxI8knVXkdbnjeu1usGzKpN
-bm05GUxWM1inj57VPwWJI+oFnbXp31aLqsU42IedWcn8LQF3tk/CTPWtHTYBIniQ
-jFu/AaC0w87A+uEOEQ0QfJEqxU66m1E6HbOjcQZ5XV+Kf9F4uyf8cb2VjSsLPqqJ
-XGAFnVjWcNPLbp/fvL4q038Prt+cbBFPeWxixaUWgSdWjP2UOSsfJB/VYxzdh9jb
-8cbDqn/x5SdVHfgLBTHTBeuTGyUhDa4OFlye4fT+TlWM+6JL5pLhT3cPKBrS29ga
-TMcOZHihgE11MOCu4PJ8ZNztWlNltb6UfU+saj63Kch/Ck8hbRlmfSNUqzfaTToV
-2Vhfy5m9NiA3+++LdrVFMLCz
-=4gwD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAfYEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kIoQAM7ahb/mbG3WQyiKdpWj
+t+32kXb1JZiZInn/85DbBlIGpJrWxngu5NeMTeLBLDD89YRhDMcxZKxF9vaxgaAL
+evHB649AFukgv/4d/1QkcG0dbg0S96HZvBiyeVrSDlDr9igqaaqWclryEB9xZDWR
+spXyHkw5KldbkboUF+mkYV8oDiL+KC1wvpvD+rdx2LeeKM873JHqFO+0IIUZnROv
+2E1dAq3ekCYrdCKSW1CT0R0RhrSL2dR+7eRWFZJpVUog0r4cym6QhZOb2yYNUZBk
+hF8rCHVnYzZZSh6YcaLeba9MWkJuYMb6Wn7gmigild+sng88GDsei16nsmav4wGU
+yQ99NPw0Fk1QEaVdSgNJUtHksr4HiG2qLslXEVv3qHJYxq5p3iIlkHeKfMShibRc
+FtvFkQ9tmvF2WryPFHpdNCKZMf1YBmh5pmQOEA251GaiYcKg7H9cVydoKARc6JLb
+ETU8/k2Johvl0gwv4V2yelzTFDcLIp3C0wyGUWEfdNHTcjJ6GfJ6tKDmLYwzN0j7
+dmPFLqftIunn6AxCzG83lYoDUbe2E/hizzRyPlLz6/PJQw4MiJjm9SL9Mkwu6otw
+4v5zOgir0Vpa839WwMoTOx3Jeg1i4bnW34AqyG7ijlZ2CX0KbHyE2GOVn+2eyULx
+QYOurSF6hBPUXKcK848VeZ/7
+=i51e
 -----END PGP SIGNATURE-----
 
---===============8714386340337996479==--
+--===============4467383025890710385==--
