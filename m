@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0973737471761471352=="
+Content-Type: multipart/mixed; boundary="===============7329543117719741807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Jun 2021 08:04:45 -0000
-Message-Id: <162322588583.23927.8195464782286300949@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 08:05:21 -0000
+Message-Id: <162322592149.25577.18242337325191696938@gitolite.kernel.org>
 
---===============0973737471761471352==
+--===============7329543117719741807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 6fc1db5e6211e30fbb1cee8d7925d79d4ed2ae14
-    new: 1ca01c0805b7ea1442b435da56b6a145306009b7
+    old: 1ca01c0805b7ea1442b435da56b6a145306009b7
+    new: a39b7ba35d78b19b90c640a9fa06a8407e40e85d
     log: |
-         eb8dbe80326c3d44c1e38ee4f40e0d8d3e06f2d0 USB: serial: quatech2: fix control-request directions
-         fc0b3dc9a11771c3919eaaaf9d649138b095aa0f USB: serial: omninet: add device id for Zyxel Omni 56K Plus
-         56df0c758aff7e5a7c59e2b255d1846f935b2cea USB: serial: omninet: update driver description
-         bc96c72df33ee81b24d87eab953c73f7bcc04f29 USB: serial: ftdi_sio: add NovaTech OrionMX product ID
-         1ca01c0805b7ea1442b435da56b6a145306009b7 Merge tag 'usb-serial-5.13-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         d6eef886903c4bb5af41b9a31d4ba11dc7a6f8e8 usb: cdns3: Enable TDL_CHK only for OUT ep
+         a9aecef198faae3240921b707bc09b602e966fce usb: cdnsp: Fix deadlock issue in cdnsp_thread_irq_handler
+         a39b7ba35d78b19b90c640a9fa06a8407e40e85d Merge tag 'usb-v5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
          
 
---===============0973737471761471352==
+--===============7329543117719741807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623225883 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623225919 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623225882-26700f7c3413a3e623c504b43c36c979615a8875
+nonce 1623225918-f10039e9b2fd0f0658f1bd89385a7d33ecd8485c
 
-6fc1db5e6211e30fbb1cee8d7925d79d4ed2ae14 1ca01c0805b7ea1442b435da56b6a145306009b7 refs/heads/usb-linus
+1ca01c0805b7ea1442b435da56b6a145306009b7 a39b7ba35d78b19b90c640a9fa06a8407e40e85d refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAdhsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k4sQANVgR9t4r7aRIVmqfxHj
-7EJsPuGEmbBkbgrc51JAyph2rq8UcMxm0JZxt9cKZkUcwPT0C1vPiMu6daolICEK
-uY7pPCkaQiWllQySwCTMz3Qp5ue61yNyEQcXkBE3EXDghseDVx0Z5EUCUXwGvhmW
-u91UzHinuBk4yxjROkR5QI0ftUr2YimjBv8XFo0KohQJGz/YKRG2kVra1M0VfcHA
-HI83QLEYTouDVHA9GyHS6+cDxxBn74SkuwIiW2ldpjTOtVfleRphQdiQJOEWXugA
-cUQYOHPxWOVJ27cYFAlDzgFMo4B+kbUBHMCB0v0vqhOpYDxjJvwG9Jkxf3VVAKOF
-D63s8Q3f8OOH5VPgQatbvul8kMmUunRvx7eQ4M98AT/XFATo80noxOw2jJWmAP2S
-q9fTgmuc0noDSCFf1rSLMxVUaaXtThnSDC7bycRmtizBEBR1OrinEX2rBRUIF/Kt
-DDf87C3tjB3nLUL9StIzrHXtJBg9gmP7UutHKQA6kUhuHrXbtwjeK1flhEWSGZDJ
-4qbeywpBu5oSndN9tjJyd2uM9VcmmgJWpM0VpS8x5y/CZaNgefFQg19Y7hKPiB7m
-GA+RzA2DhoqeZEzdoZrOOwD5nQlLWthiwDm07ZZhfIVY3KFfWQ2QyDKbcNUksyas
-iItRhjkxYKyCc0hFT0cMa7f1
-=qmO7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAdj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+638QAIEBDcXIEMlTAquthuwr
+W5G5fH4YSgAN0vGaJki/Dhe7UtpI1MwH6QXrdm7G1HZlMUsPj7YWGWVh+yzof19S
+0gc5Cps8iFfCK897JBlSrR1zVCnoaxJvQcVu55MQDdwRDndxRubM+HHloU94XdC4
+yMeiXC/w/MMpc439C/A5LsgV/dpB88kIHzh/cth0GtqdgLrQccfis80syXcLuANH
+HCOyGfnk6epfGTeCESTr5iNJjtVVp22rywoI8+zNFf8smKHz6oNGb2IBiha9cWoC
+wfd+ATFqPqnj90agadJhwcf2kLcyN2M2jj3onY+NAg1FkFQfUTuzFT8S1ixiyCxw
+G61U7lDRwC+f7wwPMMCB1pLf+CXaZ/AXF7TT2Vzu+9yA2Kn6oVXiSxwAeflxbtrS
+zmjNoJ4m8Jp7VhpOIECx4BB1a/Ha9IFZcCWsQDBWNU+0Uygi2JbJDps6jH1vrWQL
+3LEy4gwUu/FYpnjNoMUo6GkzIIIrztlNO208JmpKp/k8c8PaZ2Cr8he6ovbKL7G9
+q34oeaAP4PbnCcBc26XvgBSIP/JX1dXuIcybtbZs/fEK7rY+ukcVvjt8+/sZLoo6
+cRrYC/OwUAqh8AN5F/99WB62+1NBOJWpNXzg9tExjJo+VKxIJ3WrGUCI0RfNVJFE
+FyUH1yxNdkIlyDx69HYXk9k+
+=teWB
 -----END PGP SIGNATURE-----
 
---===============0973737471761471352==--
+--===============7329543117719741807==--
