@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4628351563821055443=="
+Content-Type: multipart/mixed; boundary="===============2952123022836210652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 09 Jun 2021 11:12:41 -0000
-Message-Id: <162323716130.1395.6655554176904232804@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 11:12:52 -0000
+Message-Id: <162323717210.1553.9509614406171016336@gitolite.kernel.org>
 
---===============4628351563821055443==
+--===============2952123022836210652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: f8462923ed8fc874f770b8c6dfad49d39b381f14
     new: 0f66b74b6267fce66395316308d88b0535aa3df2
     log: revlist-f8462923ed8f-0f66b74b6267.txt
 
---===============4628351563821055443==
+--===============2952123022836210652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f97e316775237ca5d46a4bc0614a3073ebec5a9e cypress: update firmware for cyw43455 s
 ad185afa1a215affdeb82d9562e5c8abe1d2b827 cypress: update firmware for cyw4373 sdio
 0f66b74b6267fce66395316308d88b0535aa3df2 cypress: update firmware for cyw54591 pcie
 
---===============4628351563821055443==--
+--===============2952123022836210652==--
