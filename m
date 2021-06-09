@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8637899072016980399=="
+Content-Type: multipart/mixed; boundary="===============3710640132923971317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 09 Jun 2021 18:06:54 -0000
-Message-Id: <162326201446.15809.5984383037996274635@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 18:08:56 -0000
+Message-Id: <162326213652.16502.11132799405568421167@gitolite.kernel.org>
 
---===============8637899072016980399==
+--===============3710640132923971317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.iov_iter
-    old: c22b309b1e82157ac79ad87c040e24ae5ec3a8e4
-    new: 9bac55e978941f0d62e982f0feaac3f69f0ba281
-    log: revlist-c22b309b1e82-9bac55e97894.txt
+  - ref: refs/heads/for-next
+    old: ee4d1f823b58fd640020adffadf3e48cd7dd996c
+    new: e8a8879c8e65d11f307bfbfabfcccb80b783341c
+    log: revlist-ee4d1f823b58-e8a8879c8e65.txt
 
---===============8637899072016980399==
+--===============3710640132923971317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c22b309b1e82-9bac55e97894.txt
+Content-Disposition: attachment; filename=revlist-ee4d1f823b58-e8a8879c8e65.txt
 
 25bd52836df03fea5af6f9a314d075934b1d996f iov_iter_gap_alignment(): get rid of iterate_all_kinds()
 cd83e0804e6c8029b0c045c1afdd915a5a973fab get rid of iterate_all_kinds() in iov_iter_get_pages()/iov_iter_get_pages_alloc()
@@ -48,5 +48,7 @@ c44e4babdcf1ce510d7bf1e1a2b684ef5c7e2544 iov_iter: get rid of separate bvec and 
 7942924cf47f81db0352b151971e4467f5f5ec45 pipe_zero(): we don't need no stinkin' kmap_atomic()...
 cfcd0ad2c247d3b964af1a5981da9892e9785491 clean up copy_mc_pipe_to_iter()
 9bac55e978941f0d62e982f0feaac3f69f0ba281 csum_and_copy_to_pipe_iter(): leave handling of csum_state to caller
+9a45f07c12840e496c1efed95b20665d589284c9 Merge branch 'work.namei' into for-next
+e8a8879c8e65d11f307bfbfabfcccb80b783341c Merge branch 'work.iov_iter' into for-next
 
---===============8637899072016980399==--
+--===============3710640132923971317==--
