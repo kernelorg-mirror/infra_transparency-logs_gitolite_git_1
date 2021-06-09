@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Jun 2021 22:36:03 -0000
-Message-Id: <162327816397.32570.894607038437357846@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 22:37:24 -0000
+Message-Id: <162327824454.582.3213860501181789748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: f25247d88708ff0666573541923a7339845403de
-    new: 6fb566c9278a2ea65a12fdff665bead392f4c0d2
+    old: 6fb566c9278a2ea65a12fdff665bead392f4c0d2
+    new: 8b8701d0b4925807a6d4dc4699cb80a1e16218ad
     log: |
-         6fb566c9278a2ea65a12fdff665bead392f4c0d2 net: ena: make symbol 'ena_alloc_map_page' static
+         8b8701d0b4925807a6d4dc4699cb80a1e16218ad net: ethernet: rmnet: Always subtract MAP header
          
