@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6341368524734433816=="
+Content-Type: multipart/mixed; boundary="===============6846793690539032238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Jun 2021 10:06:01 -0000
-Message-Id: <162323316136.24353.9090293294995731964@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 10:06:45 -0000
+Message-Id: <162323320579.24620.3739503531944556805@gitolite.kernel.org>
 
---===============6341368524734433816==
+--===============6846793690539032238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 6a1e649a87d6b3678c906c3ddf0962083be43191
-    new: 33e82ff2a05517c1380f7d765dee9a18b867cea0
+  - ref: refs/heads/staging-linus
+    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
+    new: 43c85d770db80cb135f576f8fde6ff1a08e707a4
+    log: |
+         43c85d770db80cb135f576f8fde6ff1a08e707a4 staging: rtl8723bs: Fix uninitialized variables
+         
 
---===============6341368524734433816==
+--===============6846793690539032238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623233160 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623233203 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1623233160-44b1851f3712673735a3230930cf85f05a745472
+nonce 1623233203-bceb55b061bab6f9722a95d29357e37df0b8e957
 
-6a1e649a87d6b3678c906c3ddf0962083be43191 33e82ff2a05517c1380f7d765dee9a18b867cea0 refs/heads/staging-testing
+8124c8a6b35386f73523d27eacb71b5364a68c4c 43c85d770db80cb135f576f8fde6ff1a08e707a4 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAkogbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SIgP/36xKHyVY3r/rJLdgBrf
-OFG8Ig3LdOiE/sM2dB/ZbLTQSDFa6EIBnoNQcS6o+Fpz1sx2P/QnIchniU1vbT6k
-dZodQoQR+i+nYSulK5lXlCwMWOgYOktmTTiFmtpuoZ6H68x1l2tkVSSt4XJ6FwNz
-vskWTuehguFixCfn7Lw+mdgIeeSn1C9M8WV2aQJw9duG0UVZPHHJoFcch0mIWSOk
-XfTk12S6bc1AqBz+WLr9MFRcqcBGmRrpAm2ku83f6qvHaqHXTPEw25PWwEe54OQp
-XT/bqIpbvwcQ9CWY9ck+JXKKvDifLIYW52L1AjZoH+Jw1oujFcRXlpCH4hznItOe
-EUSD4wDTgSr8zsHXimv4YuSX7/ZFXGj9IojgmQnUA8Cg73kVT5hMyw/QrQ8jxbGe
-qpFxfBA9wjszGiD3Dt16FQxGhq3AczbViIHD09Ct2lA3UoVdOgUfrFqijO0ERIhv
-T5KjQK04KpP7ISKK7kP8WgRh1ZEYRP0D2xtNwcwMIMwWGkLzSFJbKe0AXXmP8SUs
-9HIo9qBnn+gHExAL8c+oFT56W003scGdHz3O+YPR0OLA/fMbvdekHZHfc2FcGz25
-zn1/mhNL5qbXRozTjpjHFe6ZGH2xgw83l+xuezVVjjcyKNnOQrfkycmXDi3nsHYa
-cKKwkeG4asrWpkFGr7rBqTs9
-=Y60I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDAkrQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3IAP/2sftAt/xL9gA9CJJksz
+cIyeDJlWXWlsI/vAahnpOtG2k4BZxkninLAWOagbifdx0Ry4WKN/snq3P48i8Dvt
+Aw+ZxdHyp/XThX0GHioIQKBcpBYlReRu8BsOx+NhdcwgzY6q3b2jjN6XqKgwI5k9
+RRXovh6c3c1L7jz85TVoIout7w5YPsn4U8WfcTSZZzbdbrpDXrnHLBOzRz3nkCVB
+644IVuYu/px3rqy2FtBfRyQ9ZieK79ISSVG1KZRGscLGkCYvRHoDM5uMVn4Pasmk
+ykdk5RHfoMlXv7pkxuUXjz5Zopw0+Qi6QDtLEImh6A5nsL4nUDvhHErUUOdBA0aS
+5usBZToKHyLVvDHUgjo5pUlZVFiN1A8SlnrpCkEXB5kOLliZx32Gy4V91Im78FU7
+x8DHCisPKp3oyYkzS4xJa5X5lEaVllJ9qG3pUYmyhcG4qUIvSWm7+oozevD7GLH9
+QJjcFIzDuZ1XTn+cgx7QIFFeziZidrCqTwsswrDYFcU6u1Z+gErJIEaZqlyK8QeR
+u66nRxB4/goHupPxDA9UD49gXWLVxerBRhw/Gqlnv0hDmIu+MIVC3BkNQH8M5Txz
+E0+kBZv68uK0XIMQXMHOW90nxUgqCb3s1LRRYQ3hKzBtwtmrykxmMjM4LS2uPhI4
+3a+G3uyCcLNTouqsZAyYPr9/
+=MBwz
 -----END PGP SIGNATURE-----
 
---===============6341368524734433816==--
+--===============6846793690539032238==--
