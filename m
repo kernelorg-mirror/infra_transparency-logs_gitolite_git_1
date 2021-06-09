@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6239099078413034707=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 09 Jun 2021 17:16:40 -0000
-Message-Id: <162325900039.15641.14435683689502298871@gitolite.kernel.org>
-
---===============6239099078413034707==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Wed, 09 Jun 2021 17:17:39 -0000
+Message-Id: <162325905922.16030.3938253689824799258@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: fdfc1367c6e45a45f22a52f9a85f5f1f91802f22
-    new: 6ad80240189019ea5957328f3faf20ab0d837a84
+  - ref: refs/heads/libtracefs
+    old: cc57efdb1a027476376d89a88961a9dc6180e6ab
+    new: f415871d3611dbec492c9b06a52e66556cf112b4
     log: |
-         8f072f00b7ed87b486a08a272ed1119bb6cfa1b7 Remove expired subkeys from C532392DE6DA7CE9
-         6ad80240189019ea5957328f3faf20ab0d837a84 Add DDF2BF14A4DEC858 (Alexander Aring)
+         24b4fd4e261c001fb180fbeac9d664e266674460 libtracefs: Fix enable_disable_all() return value
+         55b688d1f9b357c9506b2d7d7a43668d65f48563 libtracefs: Fix event_enable_disable() return value
+         f415871d3611dbec492c9b06a52e66556cf112b4 libtracefs: Fix typo in function name
          
-
---===============6239099078413034707==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1623258999 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1623258999-3cf0cbaee8d60fa073bfb060af77f9d52799fddf
-
-fdfc1367c6e45a45f22a52f9a85f5f1f91802f22 6ad80240189019ea5957328f3faf20ab0d837a84 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMD3dwAKCRC2xBzjVmSZ
-bDZ0AQDfNxHLev/vCVh1CizKN4fI/5iB+vW81O7QZBaNQhZdvQEAn2EcPwWnvAcQ
-7m3mox7sd2LsLbtRuGjhMT0yjmjLkA8=
-=DXP0
------END PGP SIGNATURE-----
-
---===============6239099078413034707==--
