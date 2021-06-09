@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Jun 2021 22:28:11 -0000
-Message-Id: <162327769182.26830.5329431802110165782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 09 Jun 2021 22:29:21 -0000
+Message-Id: <162327776190.27305.317176748021958714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: e77e2cf4a198a3eb0fc25c13bbbbe07afb74079f
-    new: ba539319cce68e670bfc16571da89066046719e2
+    old: a4c30b8691f26c6115db6e11ec837c1fb6073953
+    new: cd1245d75ce93b8fd206f4b34eb58bcfe156d5e9
     log: |
-         d8ea89fe8a49bfa18b009b16b66c137dba263f87 mvpp2: prefetch right address
-         2f128eb3308a74ef478286b75e26aa6d0ed3c6a6 mvpp2: prefetch page
-         0f00658d737813ec1edba9e580fa905035e7c710 Merge branch 'mvpp2-prefetch'
-         ba539319cce68e670bfc16571da89066046719e2 net: ethernet: ti: cpsw-phy-sel: Use devm_platform_ioremap_resource_byname()
+         5fafeeb4da1a1a3452fb8035e422d779777ed844 platform/surface: aggregator_registry: Update comments for 15" AMD Surface Laptop 4
+         2f26dc05af87dfdb8eba831e59878ef3f48767be platform/surface: aggregator_registry: Add support for 13" Intel Surface Laptop 4
+         c0e0436cb4f6627146acdae8c77828f18db01151 platform/x86: thinkpad_acpi: Add X1 Carbon Gen 9 second fan support
+         b430e1d65ef6eeee42c4e53028f8dfcc6abc728b platform/surface: aggregator: Fix event disable function
+         6325ce1542bcee2813558e12055794b7a40d4615 platform/surface: dtx: Add missing mutex_destroy() call in failure path
+         701b54bcb7d0d72ee3f032afc900608708409be0 platform/mellanox: mlxreg-hotplug: Revert "move to use request_irq by IRQF_NO_AUTOEN flag"
+         cd1245d75ce93b8fd206f4b34eb58bcfe156d5e9 Merge tag 'platform-drivers-x86-v5.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
          
