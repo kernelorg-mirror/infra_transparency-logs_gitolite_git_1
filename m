@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 09 Jun 2021 07:53:29 -0000
-Message-Id: <162322520978.17089.9358585153681441627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Wed, 09 Jun 2021 08:00:06 -0000
+Message-Id: <162322560684.22070.1427027641488081617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/network/connman/connman
+user: wagi
 changes:
-  - ref: refs/heads/ffa-ts-dev
-    old: 248aa5ac44f87d4b2e4fcbd7e1cd728ce7e07b8f
-    new: 784ce15fbad003f40f9f2f9187fcdce33edc694a
+  - ref: refs/heads/master
+    old: a368bc405a5b984c1e2617167206b47df61936ee
+    new: e0ee17752bd836e2fcbc352257cc1eca7f2e01d8
     log: |
-         784ce15fbad003f40f9f2f9187fcdce33edc694a firmware: arm_ffa: Use 64bit RXTX_MAP message
+         eceb2e8d2341c041df55a5e2f047d9a8c491463c dnsproxy: Check the length of buffers before memcpy
+         2edaa646b492518e1a82b4af98ebaa9e918c884e AUTHORS: Mention Valery's contributions
+         64ae95403752fa06ac4dae2cf0b2ff5c189b8602 README: fix typo
+         e0ee17752bd836e2fcbc352257cc1eca7f2e01d8 AUTHORS: Mention Alyssa's contributions
          
