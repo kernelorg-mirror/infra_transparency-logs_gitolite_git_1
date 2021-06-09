@@ -1,33 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Wed, 09 Jun 2021 13:31:39 -0000
-Message-Id: <162324549922.28285.6888033940196018313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Wed, 09 Jun 2021 13:34:01 -0000
+Message-Id: <162324564170.29128.8406728666846042501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/devel
-    old: dff32b4f479b78f06e8869d07b62e54dc52e9e39
-    new: ca199e1952cc7cfce9b416547108b52df05f61d4
-    log: |
-         884af72c90016cfccd5717439c86b48702cbf184 pinctrl: mcp23s08: Fix missing unlock on error in mcp23s08_irq()
-         21c423a6511f5a0639501a3100513666c8344372 pinctrl: mediatek: fix mode encoding
-         ca199e1952cc7cfce9b416547108b52df05f61d4 Merge tag 'intel-pinctrl-v5.14-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into devel
-         
-  - ref: refs/heads/fixes
-    old: 3f60aed91708b95db28ce90b99037c20bf04a9a4
-    new: 30e9857a134905ac0d03ca244b615cc3ff0a076e
   - ref: refs/heads/for-next
-    old: 4704dd64c546a396a05315c14a8b9f7dd995fdcb
-    new: 5320c72b23f99b383be1fc1ba3a2c15b7f766e35
+    old: 471e992bc9bbce47879050136bd73643ca8a7501
+    new: e4a9ccdd1c03b3dc58214874399d24331ea0a3ab
     log: |
-         884af72c90016cfccd5717439c86b48702cbf184 pinctrl: mcp23s08: Fix missing unlock on error in mcp23s08_irq()
-         21c423a6511f5a0639501a3100513666c8344372 pinctrl: mediatek: fix mode encoding
-         ca199e1952cc7cfce9b416547108b52df05f61d4 Merge tag 'intel-pinctrl-v5.14-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into devel
-         5320c72b23f99b383be1fc1ba3a2c15b7f766e35 Merge branch 'devel' into for-next
+         d92d88f0568e97c437eeb79d9c9609bd8277406f fuse: Fix crash in fuse_dentry_automount() error path
+         e3a43f2a95393000778f8f302d48795add2fc4a8 fuse: Fix crash if superblock of submount gets killed early
+         e4a9ccdd1c03b3dc58214874399d24331ea0a3ab fuse: Fix infinite loop in sget_fc()
          
