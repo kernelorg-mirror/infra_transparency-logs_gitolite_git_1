@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3413781088717318723=="
+Content-Type: multipart/mixed; boundary="===============0101597658348270101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 09 Jun 2021 00:25:52 -0000
-Message-Id: <162319835210.14147.4194217728035029486@gitolite.kernel.org>
+Date: Wed, 09 Jun 2021 00:26:00 -0000
+Message-Id: <162319836075.14315.14441692592985247972@gitolite.kernel.org>
 
---===============3413781088717318723==
+--===============0101597658348270101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
-    old: 605a5e41db7d8c930fb80115686991c4c1d08ee4
+  - ref: refs/heads/next
+    old: 6630d31c912ed2dfbc035caf0f54709b50ce779e
     new: 54ada34b4dfdb864ac602e13ff87581abe517ce9
-    log: revlist-605a5e41db7d-54ada34b4dfd.txt
+    log: revlist-6630d31c912e-54ada34b4dfd.txt
 
---===============3413781088717318723==
+--===============0101597658348270101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-605a5e41db7d-54ada34b4dfd.txt
+Content-Disposition: attachment; filename=revlist-6630d31c912e-54ada34b4dfd.txt
 
-d03d1021da6fe7f46efe9f2a7335564e7c9db5ab cdrom: gdrom: deallocate struct gdrom_unit fields in remove_gdrom
-566f53238da74801b48e985788e5f7c9159e5940 Revert "char: hpet: fix a missing check of ioremap"
-b11701c933112d49b808dee01cb7ff854ba6a77a char: hpet: add checks after calling ioremap
-4d427b408c4c2ff1676966c72119a3a559f8e39b Revert "scsi: ufs: fix a missing check of devm_reset_control_get"
-2f4a784f40f8d337d6590e2e93f46429052e15ac scsi: ufs: handle cleanup correctly on devm_reset_control_get error
-1dacca7fa1ebea47d38d20cd2df37094805d2649 Revert "ALSA: gus: add a check of the status of snd_ctl_add"
 94f88309f201821073f57ae6005caefa61bf7b7e Revert "ALSA: sb8: add a check for request_region"
 a28591f61b60fac820c6de59826ffa710e5e314e ALSA: sb8: Add a comment note regarding an unused pointer
 4667a6fc1777ce071504bab570d3599107f4790f Revert "ALSA: usx2y: Fix potential NULL pointer dereference"
@@ -1027,6 +1021,12 @@ e5220dd16778fe21d234a64e36cf50b54110025f Merge branch 'akpm' (patches from Andre
 7468bed8f850a6e90884b3b69a74e544a87c3856 Merge tag 'optee-fix-for-v5.13' of git://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
 b9c112f2c223ce50ef6579c9825a62813b205de4 Merge tag 'ti-k3-dt-fixes-for-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/nmenon/linux into arm/fixes
 f5b6eb1e018203913dfefcf6fa988649ad11ad6e Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+07d62eac422c5c8aec6ec1dacdc27423334b2d17 cxl/pci: Introduce cxl_decode_register_block()
+f8a7e8c29be873b90fcc426e93bdb6184df5970e cxl/pci: Reserve all device regions at once
+30af97296f48d84bc4a6abbaabb92c796a84ca57 cxl/pci: Map registers based on capabilities
+9a016527dcb71e2ecadfeacf52122a79b428790c cxl/pci: Reserve individual register block regions
+08422378c4adacf528d573bb1631d4818f8f9a01 cxl/pci: Add HDM decoder capabilities
+605a5e41db7d8c930fb80115686991c4c1d08ee4 cxl/pci: Fixup devm_cxl_iomap_block() to take a 'struct device *'
 082cd4ec240b8734a82a89ffb890216ac98fec68 ext4: fix bug on in ext4_es_cache_extent as ext4_split_extent_at failed
 a7ba36bc94f20b6c77f16364b9a23f582ea8faac ext4: fix fast commit alignment issues
 afd09b617db3786b6ef3dc43e28fe728cfea84df ext4: fix memory leak in ext4_fill_super
@@ -1051,4 +1051,4 @@ b5e774039629d56f6a8a64013a885e284c4b3785 ACPICA: Use ACPI_FALLTHROUGH
 4a2c1dcfaf59be4b357400d893c3f5daff6cab6c ACPICA: Add the CFMWS structure definition to the CEDT table
 54ada34b4dfdb864ac602e13ff87581abe517ce9 Merge branch 'rafael/acpica/cfmws' into for-5.14/cxl
 
---===============3413781088717318723==--
+--===============0101597658348270101==--
