@@ -1,64 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============0571621187277076503=="
+Content-Type: multipart/mixed; boundary="===============6583101774309650507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 10 Jun 2021 06:35:56 -0000
-Message-Id: <162330695628.18864.385362255106654211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 10 Jun 2021 06:36:16 -0000
+Message-Id: <162330697687.19087.7007082306689995098@gitolite.kernel.org>
 
---===============0571621187277076503==
+--===============6583101774309650507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 87191ca9f90244d4e003fbe5c77390b5e585a5ef
-    new: e89bb4288378b85c82212b60dc98ecda6b3d3a70
-    log: |
-         2a042767814bd0edf2619f06fecd374e266ea068 usb: dwc3: core: fix kernel panic when do reboot
-         307462a6f5c5a563ec084bb315f4e0279dfb2026 usb: gadget: function: printer: use list_move instead of list_del/list_add
-         60dfe484cef45293e631b3a6e8995f1689818172 USB: core: Avoid WARNings for 0-length descriptor requests
-         45d39448b4d0260743f25d88fd929451ec8296f2 usb: dwc3: support 64 bit DMA in platform driver
-         ecfbd7b9054bddb12cea07fda41bb3a79a7b0149 usb: gadget: f_fs: Fix setting of device and driver data cross-references
-         aafe93516b8567ab5864e1f4cd3eeabc54fb0e5a usb: dwc2: Don't reset the core after setting turnaround time
-         24f779dac8f3efb9629adc0e486914d93dc45517 usb: gadget: f_uac2/u_audio: add feedback endpoint support
-         40c73b30546e759bedcec607fedc2d4be954508f usb: gadget: f_uac2: add adaptive sync support for capture
-         e89bb4288378b85c82212b60dc98ecda6b3d3a70 usb: gadget: u_audio: add real feedback implementation
-         
+  - ref: refs/heads/staging-next
+    old: 6771fb0b940eb74f1a68fe3f180a7668103397d3
+    new: 3cac092a05d80ef2eb63e788329bd72b6e764069
+    log: revlist-6771fb0b940e-3cac092a05d8.txt
 
---===============0571621187277076503==
+--===============6583101774309650507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623306955 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623306955-9bd6f2343dd28fec4bec464dd49248269c8057b5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623306976 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1623306975-937aace282f3e6a705790f5eb3b71eb66e4d29a0
 
-87191ca9f90244d4e003fbe5c77390b5e585a5ef e89bb4288378b85c82212b60dc98ecda6b3d3a70 refs/heads/usb-next
+6771fb0b940eb74f1a68fe3f180a7668103397d3 3cac092a05d80ef2eb63e788329bd72b6e764069 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDBsssbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JOwQAINKCkvkHkHENTIchw0z
-dACu8a+opyjDZn59FnVNfMuVlqJQwdLnvJ3/nuVfMRTmgyPkMrPxAZDJmadZEvJo
-21R4tzjxvtIV4k+CdUIA9EGZQv8BqZAS4IcXNezAE6BSUA2XNr3fMk3zNkrUFGK/
-hbF49SQnABkyB5F8CFxlOk3AZAXHHuALMTLelIOc3KVWBwQ6NV00MiC4XQP8/8ZG
-Xug1XC8lmqYrMN44wHygq7QknU1MHuCxmjhIsIkH2+Bl/5T1v2iSyyArjTciu4Go
-xUkHmilWIj0/NjrmJ/8/Sdmfydm8oEdj3N/R3ks48YeC16rKLyHeskMEoFisZ5bS
-l20VgdxeF4SiwkizBV4bOqnzlmgltIYUrw9RVVBZ8qQDRjq89fS8azqdoD0YnxJI
-t+k26UjsvPPC4WDT+ilf9YtKgl4txCN58qD095Ha04N7yj0qnjPDkRER1YeCU4OQ
-2aqHrwF5XkRMPa/7ocWtCBX9y4CqzKgFfD0ZSbyrfQAEMyH/IyLijq+yrHaheSr4
-K/zCX3bAvHVu089LPgvYtLxRChhAP33glYuFBMhlYgHCeQTvlc7iPH2Wvp3cSlNj
-V2gQoc6dv5Z8TEu4CKl8+yvKgRqVPOCuii2uD7JilT0VnRAkJcVJYPh5+fJpT1I8
-SlQ+UDKGog8C013xtbcvXpzW
-=bQft
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDBsuAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++uwP/3K9mcFZjAQXNa8Uvwpi
+Tk1KNjNjW8Y/Qo6/f9TeyVZ+emGpVBjWuOc9uwB//JoEO6rT7VmtiKB/53C2Kfru
+DUBQ7ez/uNVTax3ZfkZO5Edfwpm9l/juaW/IQMOEAJqwMDHT/DHvTtLlFHSkjHgB
+IkDkQliiTqdcNWlMMcWnfon2N4PkjsiEip/DBIkRH032kPUygMG2y2p2xd+qlYI2
+0+X0KPrfhdzl5fQgULjwjB05V2jvyGi1CsJplVLFpxSmPbbY9yQMMxgmAvebiGTV
+CoBDotvQTxummYGwC394g3n9LZpGcQZFiDX5DIPpCNd1DLrIolHA1ltmfpLm6rIy
+FU+w7PPuaDA6E8rk6uP5/bSBwuLa1NPO9lSzNubfwyYi1VzuYFetXVlESOZrcwlk
+iP3IE6NBGUAIpb4WGQg/dU/EcW//7ra5bvZj25D2zNGvknz+nt0JdSwvBEZxyJa0
+h8d/HynUaduDM9mRmdLeSEpqEK+RlwkixIaH/JXd3fWxL6ZYRnHw7aKy/IvfnR9o
+Xn4qhAlrHx/raUbdHs4gBqKdKr8aLd1NfzfZOxoEhGVUxIf7BtzMEP/PPnYR93K5
+2BWlY4UXpfz2vEHxEKVVbQ//KrT+jYnt+Az/D+OjVGS6ISSne2WE8eVBIbidA34a
+NWptVpgdF88NbDHLXwmWQjyA
+=Fxho
 -----END PGP SIGNATURE-----
 
---===============0571621187277076503==--
+--===============6583101774309650507==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6771fb0b940e-3cac092a05d8.txt
+
+a3bb1d050e436e5ad301491315ea42c9ac0821c5 staging: mt7621-pci: make cleaner 'mt7621_pcie_enable_ports'
+aa6c32f9fe0de12f685d441faf9a73dd277af209 staging: mt7621-pci: remove 'RALINK_PCI_BAR0SETUP_ADDR' definition
+860bce4565b665adb889e61fb6d8227d99753a00 staging: mt7621-pci: use {readl|writel}_relaxed instead of readl/writel
+cf37f42997a10da6e07d5404fbf4b537d9be32ec staging: mt7621-dts: move some properties into root port child nodes
+2d3d288f0eaf102c3739ad811fa9727c742a49e0 staging: mt7621-pci: parse some dt properties from root port child nodes
+25203e32ce3ef9bfa363cfed7813c4fd7270ce45 staging: mt7621-pci: make use of 'pcie_port_write'
+0a48e46c80c06743cdc438cf9e8b07115fb68f76 staging: rtl8188eu: remove unused RT_PRINT_DATA macro
+b17aad8b567f47c029430486ba0c54a3abdbd4e3 staging: rtl8188eu: remove RT_TRACE and DBG_88E prints from rtw_cmd.c
+d3f3fb9810ac51b18088201c72583cd07cce0db6 staging: rtl8188eu: refactor rtw_lps_ctrl_wk_cmd
+cda915c9c2a3feb725b33718c7f8166e2598a389 staging: rtl8188eu: make rtw_free_recvframe return void
+0acd0c57027f57bf60a43acc73a1294ff3318dd9 staging: rtl8188eu: simplify rtw_get_wireless_stats
+4b3201b71b97b8909411d618c80bcc3674c2eb1e staging: rtl8188eu: remove RT_TRACE and DBG_88E prints from usb_ops_linux.c
+0e37b86d1fcaf2a5ed0f8e3b2e55c05818d9fc61 staging: rtl8188eu: use existing define for ethernet header len
+56b02ba0d2ab065d8432c68991dc381330a0421b staging: rtl8188eu: use standard kthread handling
+f0516d2e8860df8f4ab3a01b8134dd30ef3d5479 staging: rtl8188eu: remove unused function parameter
+978d7f0978ef74c8910cedecaa93b686b3a91bc0 staging: rtl8723bs: hal: Delete tests with no effects
+5697686ed4eda64114b50e6e09d5c647d091b873 staging: fpgaboot: change FPGA indirect article to an
+fe5fcefc9130ce80cda024ab44c7353a67df5cb6 staging: rtl8188eu: Use is_{zero/broadcast}_ether_addr() instead of memcmp()
+7973bfefb5ad43fbba72607ed72d916ce5ebb4cc staging: rtl8188eu: Use eth_broadcast_addr() to assign broadcast address
+3c67430b7f5a1be75b7cdb96f3e3769d8114765f staging: rtl8723bs: use list_for_each_safe in loops deleting iterated items
+535ca63b2ae2a2f275033c7113c0c30fab2a6763 staging: rtl8188eu: use safe iterator in stop_ap_mode()
+b5e944c50cbd10bc35d08b3093de83df10949f17 staging: rtl8188eu: use safe iterator in tx_beacon_hdl()
+e0f489a25a9928da72dbf697ec52e987041c8dd1 staging: rtl8188eu: use safe iterator in dequeue_xmitframes_to_sleeping_queue()
+c47bcff9ae42c1cb24c828401f2681003b601564 staging: rtl8188eu: use safe iterator in wakeup_sta_to_xmit()
+629132b3d523bef7b32657e17c0edc1cdaae7e0a staging: rtl8188eu: use safe iterator in xmit_delivery_enabled_frames()
+a56d78b5d00db51676cf211e41ec42285fb4a573 staging: rtl8188eu: use safe iterator in rtl8188eu_xmitframe_complete()
+5bd9e94a11ab76b656c897609b7e0e2bf1e87d09 staging: rtl8188eu: delete some dead code
+3cac092a05d80ef2eb63e788329bd72b6e764069 staging: gdm724x: emove redundant initialization of variable hci_len
+
+--===============6583101774309650507==--
