@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 10 Jun 2021 03:38:29 -0000
-Message-Id: <162329630910.1624.12237722456110722388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 10 Jun 2021 03:46:00 -0000
+Message-Id: <162329676027.6886.11765949286858532722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/hwmon-next
-    old: c6684f398e1f4a40a49b569c448b0fab11dc830b
-    new: 2d4acf6c1e5e25e1a020c24db4583a41e75484db
+  - ref: refs/heads/master
+    old: 345a255a5c06e2b052961920f5b4713e827a68d6
+    new: 5575e2058785b45cfa69c84434de8a7a8bf82d86
     log: |
-         1dc8e6cfa65b28a9de50af9716e807094eeea9a2 hwmon: (pmbus) Add driver for Delta DPS-920AB PSU
-         58183b26899719418f012eea0db18b9596ca5ef5 dt-bindings: trivial-devices: Add Delta DPS920AB
-         2d4acf6c1e5e25e1a020c24db4583a41e75484db MAINTAINERS: Add Delta DPS920AB PSU driver
+         5575e2058785b45cfa69c84434de8a7a8bf82d86 Thu 10 Jun 2021 03:45:21 AM UTC
          
