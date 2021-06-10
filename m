@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Jun 2021 21:08:57 -0000
-Message-Id: <162335933710.22446.10231898175715198930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Thu, 10 Jun 2021 21:10:10 -0000
+Message-Id: <162335941030.24286.488357365246048038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 9e2b7b0450cfc6a99ceaa37843cb5d0179e1c2ae
-    new: cb8e2e4300fc17e1028cce554ecf72a9e6161742
+  - ref: refs/heads/for-next
+    old: 3857221f50ca1ab9d0a062e80527dc7996e28a54
+    new: ddfa91e38be93eae3de70356ff0669dbb46c4fc6
     log: |
-         bc831facf8a11e4e615dc67ae790325710bc1979 net: x25: Use list_for_each_entry() to simplify code in x25_route.c
-         3e98ae0014cb882a2989cf4465e2b26688d3608d ibmvnic: Use list_for_each_entry() to simplify code in ibmvnic.c
-         73e42909ef2d1fa554b39bf6ae3eb1546dfc97a5 atm: Use list_for_each_entry() to simplify code in resources.c
-         cb8e2e4300fc17e1028cce554ecf72a9e6161742 dccp: tfrc: fix doc warnings in tfrc_equation.c
+         d3d0e1e857110a2f8147b1aa3a045b1fccc1e7c3 dt-binding: memory: pl353-smc: Convert to yaml
+         ddfa91e38be93eae3de70356ff0669dbb46c4fc6 Merge branch 'for-v5.14/pl353' into for-next
+         
+  - ref: refs/heads/for-v5.14/pl353
+    old: 813d52799ad28579da3ed5a88c1bacd8069dd172
+    new: d3d0e1e857110a2f8147b1aa3a045b1fccc1e7c3
+    log: |
+         d3d0e1e857110a2f8147b1aa3a045b1fccc1e7c3 dt-binding: memory: pl353-smc: Convert to yaml
          
