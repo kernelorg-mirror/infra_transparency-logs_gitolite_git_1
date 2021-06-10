@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 10 Jun 2021 14:32:49 -0000
-Message-Id: <162333556935.25998.13242117167922323894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Thu, 10 Jun 2021 14:35:36 -0000
+Message-Id: <162333573653.28377.1414867384475466112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/stm32-next
-    old: 9b8a9b389d8464e1ca5a4e92c6a4422844ad4ef3
-    new: 4bf4abe19089245b7b12f35e5cafb5477b3e2c48
+  - ref: refs/heads/for-next
+    old: 614124bea77e452aa6df7a8714e8bc820b489922
+    new: 9f0558038ea554cb58371afa84694198a2dac602
     log: |
-         4bf4abe19089245b7b12f35e5cafb5477b3e2c48 ARM: dts: stm32: fix stpmic node for stm32mp1 boards
+         9f0558038ea554cb58371afa84694198a2dac602 m68knommu: fix missing LCD splash screen data initializer
          
