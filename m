@@ -1,33 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 10 Jun 2021 13:49:40 -0000
-Message-Id: <162333298098.4162.12064443573752878772@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0606756086857426477=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 10 Jun 2021 13:58:53 -0000
+Message-Id: <162333353386.10862.694165451536806407@gitolite.kernel.org>
+
+--===============0606756086857426477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 790c06cc5df263cdaff748670cc65958c81b0951
-    new: 17f0ff3d49ff1a9d4027f9c2bef4725ab41aa9a5
+  - ref: refs/heads/master
+    old: 9496a6e8fc4682676b016c83c41c358deabbab9b
+    new: 723f4d79a6181b60f03f9573a394a85895f5cf03
     log: |
-         403921373799a133e41b59cb730e2c4239663f51 dt-bindings: clock: Add r9a07g044 CPG Clock Definitions
-         f8ec89126a72b399e63399d8d21fd413f4059f00 dt-bindings: clock: renesas: Document RZ/G2L SoC CPG driver
-         ef3c613ccd68a78727b817c3dacf4a68d1ffc67f clk: renesas: Add CPG core wrapper for RZ/G2L SoC
-         9c094430b9a6478b9a36b747d98331c03e08e623 Merge tag 'renesas-r9a07g044-dt-binding-defs-tag' into renesas-clk-for-v5.14
-         17f0ff3d49ff1a9d4027f9c2bef4725ab41aa9a5 clk: renesas: Add support for R9A07G044 SoC
+         b18f05bdcaae1356124192b81a5e941261e67b63 Update patatt to latest 0.4.6
+         723f4d79a6181b60f03f9573a394a85895f5cf03 Start using pytest for the test framework
          
-  - ref: refs/heads/renesas-clk-for-v5.14
-    old: 790c06cc5df263cdaff748670cc65958c81b0951
-    new: 17f0ff3d49ff1a9d4027f9c2bef4725ab41aa9a5
-    log: |
-         403921373799a133e41b59cb730e2c4239663f51 dt-bindings: clock: Add r9a07g044 CPG Clock Definitions
-         f8ec89126a72b399e63399d8d21fd413f4059f00 dt-bindings: clock: renesas: Document RZ/G2L SoC CPG driver
-         ef3c613ccd68a78727b817c3dacf4a68d1ffc67f clk: renesas: Add CPG core wrapper for RZ/G2L SoC
-         9c094430b9a6478b9a36b747d98331c03e08e623 Merge tag 'renesas-r9a07g044-dt-binding-defs-tag' into renesas-clk-for-v5.14
-         17f0ff3d49ff1a9d4027f9c2bef4725ab41aa9a5 clk: renesas: Add support for R9A07G044 SoC
-         
+
+--===============0606756086857426477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1623333533 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1623333533-903c93293e74e99647b89f74d86be9036046fa05
+
+9496a6e8fc4682676b016c83c41c358deabbab9b 723f4d79a6181b60f03f9573a394a85895f5cf03 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMIanQAKCRC2xBzjVmSZ
+bJMcAP90Ivvo8VMwijNBeRtxB0DVqxdXzVLXOW07nsvu8+c9lgEAzRiTW4zAdmUG
+YOepnhKFv5WDM/dBgB8W5zKXnYa19wk=
+=EYMx
+-----END PGP SIGNATURE-----
+
+--===============0606756086857426477==--
