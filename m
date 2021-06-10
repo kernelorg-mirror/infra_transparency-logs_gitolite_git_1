@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 10 Jun 2021 14:00:24 -0000
-Message-Id: <162333362499.13296.10545042938561392560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 10 Jun 2021 14:04:27 -0000
+Message-Id: <162333386709.18140.401429446864647605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/work.audit
-    old: 24ed25ef0f37ae007c9c3e7c94976c274fa9be97
-    new: 565799de3ee0a295842a07a5f9a459db5e793beb
+  - ref: refs/heads/stm32-next
+    old: f493162319788802b6a49634f7268e691b4c10ec
+    new: 9b8a9b389d8464e1ca5a4e92c6a4422844ad4ef3
     log: |
-         663a40ab49308b5acaba8a335190fce66e17d969 selinux: slow_avc_audit has become non-blocking
-         565799de3ee0a295842a07a5f9a459db5e793beb kill unused 'flags' argument in avc_has_perm_flags() and avc_audit()
+         5247a50c8b53ca214a488da648e1bb35c35c2597 ARM: dts: stm32: Drop unused linux,wakeup from touchscreen node on DHCOM SoM
+         b586250df24226f8a257e11e1f5953054c54fd35 ARM: dts: stm32: Rename eth@N to ethernet@N on DHCOM SoM
+         9b8a9b389d8464e1ca5a4e92c6a4422844ad4ef3 ARM: dts: stm32: Rename spi-flash/mx66l51235l@N to flash@N on DHCOM SoM
          
