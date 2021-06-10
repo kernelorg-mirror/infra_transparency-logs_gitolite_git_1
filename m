@@ -1,77 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============8610509730336793803=="
+Content-Type: multipart/mixed; boundary="===============0571621187277076503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 10 Jun 2021 06:35:16 -0000
-Message-Id: <162330691648.18639.6079097844630272840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 10 Jun 2021 06:35:56 -0000
+Message-Id: <162330695628.18864.385362255106654211@gitolite.kernel.org>
 
---===============8610509730336793803==
+--===============0571621187277076503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 603e4922f1c81fc2ed3a87b4f91a8d3aafc7e093
-    new: 762b296bcbbc7344752ebf3a25583cf38f8adbdc
-    log: revlist-603e4922f1c8-762b296bcbbc.txt
+  - ref: refs/heads/usb-next
+    old: 87191ca9f90244d4e003fbe5c77390b5e585a5ef
+    new: e89bb4288378b85c82212b60dc98ecda6b3d3a70
+    log: |
+         2a042767814bd0edf2619f06fecd374e266ea068 usb: dwc3: core: fix kernel panic when do reboot
+         307462a6f5c5a563ec084bb315f4e0279dfb2026 usb: gadget: function: printer: use list_move instead of list_del/list_add
+         60dfe484cef45293e631b3a6e8995f1689818172 USB: core: Avoid WARNings for 0-length descriptor requests
+         45d39448b4d0260743f25d88fd929451ec8296f2 usb: dwc3: support 64 bit DMA in platform driver
+         ecfbd7b9054bddb12cea07fda41bb3a79a7b0149 usb: gadget: f_fs: Fix setting of device and driver data cross-references
+         aafe93516b8567ab5864e1f4cd3eeabc54fb0e5a usb: dwc2: Don't reset the core after setting turnaround time
+         24f779dac8f3efb9629adc0e486914d93dc45517 usb: gadget: f_uac2/u_audio: add feedback endpoint support
+         40c73b30546e759bedcec607fedc2d4be954508f usb: gadget: f_uac2: add adaptive sync support for capture
+         e89bb4288378b85c82212b60dc98ecda6b3d3a70 usb: gadget: u_audio: add real feedback implementation
+         
 
---===============8610509730336793803==
+--===============0571621187277076503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623306915 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1623306915-b82a7ae09701459cce8d33b49db172641ba29fae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623306955 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1623306955-9bd6f2343dd28fec4bec464dd49248269c8057b5
 
-603e4922f1c81fc2ed3a87b4f91a8d3aafc7e093 762b296bcbbc7344752ebf3a25583cf38f8adbdc refs/heads/char-misc-next
+87191ca9f90244d4e003fbe5c77390b5e585a5ef e89bb4288378b85c82212b60dc98ecda6b3d3a70 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDBsqMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+634P/2tbeXjXEl74dyJxl1mS
-PK4DqhLlCF2kxDbaI0cj0mWUtLl3nc6h6G9iXbSy/QIERpJjaKSYOZZFEuwPJMcM
-4prKB1KgzNy+wxmGC7QjrZi/ODF/y2Rr4HesQf/pfqIeHmwU36qu1bLA5h9y+hu5
-K0Y8R4++6L53gUH/n+GFOo4BbOjR6m9e5gxByp83EYH568XRRG2Zw0E5tUhDRVdW
-2mIGN4d2JyoPr5JUFMPJF0yrJKBoLT9p9+Kw7/5MsWQjFLL1NPzo4gyT1/jVOawg
-e1OXYfusqJlZWidCKpx2UH96CZLRkWwOQNeGNJPF4ZypdJ4v6Wro+1MOUbVDgo8U
-37+Y9Lf9uw9bXzH9ycA8jjy7ye+7jtw+Ezece3w64cGfm0taI2bT8TaRckp3kIxO
-l8lhnv9Rnb89zlfjzIBkNqhtBiNgL8q9aNmuUJWqvLvartr/NFH3OZUdCPTIsfMI
-j2wK2HWjP9sFq9vzsd/y939OcB4q9RINmz8S38Y7KXdVCjqKp65aVpdbBYZOzCbD
-+lhX+Pm8LGoFIiF5SwpLPj/mICyAz0gmOE5FzUnarHFdWLkyYZTNW98ZcwzIn7bH
-LhMn/T2xs+IzKtCQMs3fdhaa7oIQDtD/5zuw0CLAOyEGnj9N9cg/KQe4ktLiO301
-I66M6mrPsOL3IiHJsoEqilw8
-=ipNb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDBsssbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JOwQAINKCkvkHkHENTIchw0z
+dACu8a+opyjDZn59FnVNfMuVlqJQwdLnvJ3/nuVfMRTmgyPkMrPxAZDJmadZEvJo
+21R4tzjxvtIV4k+CdUIA9EGZQv8BqZAS4IcXNezAE6BSUA2XNr3fMk3zNkrUFGK/
+hbF49SQnABkyB5F8CFxlOk3AZAXHHuALMTLelIOc3KVWBwQ6NV00MiC4XQP8/8ZG
+Xug1XC8lmqYrMN44wHygq7QknU1MHuCxmjhIsIkH2+Bl/5T1v2iSyyArjTciu4Go
+xUkHmilWIj0/NjrmJ/8/Sdmfydm8oEdj3N/R3ks48YeC16rKLyHeskMEoFisZ5bS
+l20VgdxeF4SiwkizBV4bOqnzlmgltIYUrw9RVVBZ8qQDRjq89fS8azqdoD0YnxJI
+t+k26UjsvPPC4WDT+ilf9YtKgl4txCN58qD095Ha04N7yj0qnjPDkRER1YeCU4OQ
+2aqHrwF5XkRMPa/7ocWtCBX9y4CqzKgFfD0ZSbyrfQAEMyH/IyLijq+yrHaheSr4
+K/zCX3bAvHVu089LPgvYtLxRChhAP33glYuFBMhlYgHCeQTvlc7iPH2Wvp3cSlNj
+V2gQoc6dv5Z8TEu4CKl8+yvKgRqVPOCuii2uD7JilT0VnRAkJcVJYPh5+fJpT1I8
+SlQ+UDKGog8C013xtbcvXpzW
+=bQft
 -----END PGP SIGNATURE-----
 
---===============8610509730336793803==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-603e4922f1c8-762b296bcbbc.txt
-
-d208cbb0024ec0a5878bfd6c757c7f01872201ea misc/pvpanic: Remove some dead-code
-0508c477907b970a53153365e01463805238a052 dt-bindings: fpga: fpga-region: change FPGA indirect article to an
-f7c2e792c6fe556c68b7771f1596cab978a43f26 Documentation: fpga: dfl: change FPGA indirect article to an
-987b741c52c7c6c68d46fbaeb95b8d1087f10b7f Documentation: ocxl.rst: change FPGA indirect article to an
-df82d2ecd9e85ef32afead1b7f9451c67b4e9a21 fpga: change FPGA indirect article to an
-e7555cf6c263d95d2bb2bddb5bb57c240f0d608a fpga: bridge: change FPGA indirect article to an
-895ec9c09aa77e9f0129576995cb21191d3958f1 fpga-mgr: change FPGA indirect article to an
-011c49e3703854e52c0fb88f22cf38aca1d4d514 fpga: region: change FPGA indirect article to an
-25feb31d26a90d5bd6ec335368bc77c8d4b5842f fpga: of-fpga-region: change FPGA indirect article to an
-8923557bd579f303088c1a20dc0b93669c7f8695 fpga: stratix10-soc: change FPGA indirect article to an
-432b6c56075071c5614beb895e4d9ba9fb378d3d habanalabs/gaudi: remove redundant assignment to variable err
-20827dddf27d433e45703a4f9bf0a66ab957dd0c misc: bcm-vk: use list_move_tail instead of list_del/list_add_tail in bcm_vk_msg.c
-3f6ee1c095156a74ab2df605af13020f1ce3e600 eeprom: idt_89hpesx: Put fwnode in matching case during ->probe()
-e0db3deea73ba418bf5dc21f5a4e32ca87d16dde eeprom: idt_89hpesx: Restore printing the unsupported fwnode name
-75041120657408ada98514617d3c118419f002c4 eeprom: idt_89hpesx: use SPDX-License-Identifier
-762b296bcbbc7344752ebf3a25583cf38f8adbdc uacce: add print information if not enable sva
-
---===============8610509730336793803==--
+--===============0571621187277076503==--
