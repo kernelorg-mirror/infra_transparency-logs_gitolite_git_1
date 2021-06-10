@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3603426166948370265=="
+Content-Type: multipart/mixed; boundary="===============8427433711967373855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 10 Jun 2021 06:38:34 -0000
-Message-Id: <162330711486.20124.10566255505784112646@gitolite.kernel.org>
+Date: Thu, 10 Jun 2021 06:39:22 -0000
+Message-Id: <162330716277.20492.4093977532106935160@gitolite.kernel.org>
 
---===============3603426166948370265==
+--===============8427433711967373855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: 1a36a70e26ad6ad5b97e299a38ced3bae270436e
     new: a569869e56e0938adf11f059ffa5bcaee4c0d680
     log: revlist-1a36a70e26ad-a569869e56e0.txt
 
---===============3603426166948370265==
+--===============8427433711967373855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ db330cfa12e4dd71837be7885559280e2924cfa7 habanalabs: enable stop on error for al
 638f985e4367c0b4db9cbe809a5f7ccefa348626 habanalabs: add hard reset timeout for PLDM
 a569869e56e0938adf11f059ffa5bcaee4c0d680 habanalabs: print firmware versions
 
---===============3603426166948370265==--
+--===============8427433711967373855==--
