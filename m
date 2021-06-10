@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 10 Jun 2021 07:36:34 -0000
-Message-Id: <162331059468.26911.17782617761877318288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 10 Jun 2021 07:36:49 -0000
+Message-Id: <162331060965.27064.17173219181504179008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: a57681531e6e5e3887000144f1a4e9c5998cb474
-    new: 1bedbe4aa1e5a1bbd696a23d470c922526d829cf
-    log: |
-         1bedbe4aa1e5a1bbd696a23d470c922526d829cf Bluetooth: Fix Set Extended (Scan Response) Data
-         
+  - ref: refs/tags/samsung-soc-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 3d4f5af88e9c71c47e2fbee8686f436af075d39f
+  - ref: refs/tags/samsung-dt-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 13adc3737360726a8891aa912515f51aad330533
