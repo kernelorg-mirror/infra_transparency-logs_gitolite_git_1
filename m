@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6878631468643340251=="
+Content-Type: multipart/mixed; boundary="===============4234949965880023212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 10 Jun 2021 14:44:47 -0000
-Message-Id: <162333628741.380.8330447463754156029@gitolite.kernel.org>
+Date: Thu, 10 Jun 2021 14:44:49 -0000
+Message-Id: <162333628990.457.14092506354700733761@gitolite.kernel.org>
 
---===============6878631468643340251==
+--===============4234949965880023212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.14
-    old: ad7395c7482d34b63b2d8547acafc796e331319a
-    new: 729046d4f1abf341b94d39036ad33506ea9f2c7a
-    log: revlist-ad7395c7482d-729046d4f1ab.txt
+  - ref: refs/heads/for-next
+    old: 55ac24b7e57731ceb7aa2394c085d86a470c04a2
+    new: 1af239ff58728d7ae4848d46b90087b1bcc4e729
+    log: revlist-55ac24b7e577-1af239ff5872.txt
 
---===============6878631468643340251==
+--===============4234949965880023212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad7395c7482d-729046d4f1ab.txt
+Content-Disposition: attachment; filename=revlist-55ac24b7e577-1af239ff5872.txt
 
 eb59cd3e39835d7a87d1e2cf4f5eb5f8ecd12bba arm64: dts: qcom: pm6150: Add thermal zone for PMIC on-die temperature
 61f363a625fcbff93171a271b898fcf37dd367c3 arm64: dts: qcom: msm8916-samsung-a2015: Add touch key
@@ -42,5 +42,7 @@ f298167092feb1befe68dab4e896abf9d3c64866 arm64: dts: qcom: sc7180: Remove cros-p
 62b837469e995b5981d2842135551935cd32360c arm64: dts: qcom: sdm845: Remove cros-pd-update on Cheza
 ba5f9b5d7ff3452e69275080c3d59265bc1db8ea arm64: dts: qcom: sc7180: Add wakeup delay for adau codec
 729046d4f1abf341b94d39036ad33506ea9f2c7a arm64: dts: qcom: sc7180-trogdor: Update flash freq to match reality
+4ab04595ecd521862eff07b4d351c92d1d60e7ea Merge branch 'dts-fixes-for-5.13' into for-next
+1af239ff58728d7ae4848d46b90087b1bcc4e729 Merge branches 'arm64-defconfig-for-5.14', 'arm64-for-5.14', 'drivers-for-5.14' and 'dts-for-5.14' into for-next
 
---===============6878631468643340251==--
+--===============4234949965880023212==--
