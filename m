@@ -1,24 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 10 Jun 2021 07:24:26 -0000
-Message-Id: <162330986632.18457.8196638455552502169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Thu, 10 Jun 2021 07:26:54 -0000
+Message-Id: <162331001477.20721.14520931992246848067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 6fb1acc46ceb2257f5415d5c714948c8df680c27
-    new: c4c214806eef5a987b3c9c7f05dacb9d3cd3f3bc
+  - ref: refs/heads/for-next
+    old: 7e3ea2c2deaf640f6f6dcdfe46dd366a7fcb4467
+    new: d1d2b71389c36b4d59b5823a0f15b64936adb551
     log: |
-         61e809347bae3689c3e58bbdf819b4eb16d2fd8b x86/sgx: Add SGX_PAGE_REPEAT flag for SGX_IOC_ENCLAVE_ADD_PAGES
-         292d28f4df890dedc7976b5758ca2eed4ce43fb2 selftests/sgx: Rename 'eenter' and 'sgx_call_vdso'
-         aacd8c3a9feb36ae3e67c5255f505fa061189862 selftests/sgx: Migrate to kselftest harness
-         d7329326961f46c05556c1430f8098e1f95da60b selftests/sgx: Dump enclave memory map
-         3c49459760e243afb4ba63f8c817210e88065672 selftests/sgx: Add EXPECT_EEXIT() macro
-         c4c214806eef5a987b3c9c7f05dacb9d3cd3f3bc selftests/sgx: Refine the test enclave to have storage
+         3b132ab67fc7a358fff35e808fa65d4bea452521 memory: fsl_ifc: fix leak of IO mapping on probe failure
+         8e0d09b1232d0538066c40ed4c13086faccbdff6 memory: fsl_ifc: fix leak of private memory on probe failure
+         729a611e6f53da00ed62a181f2d5d2bcf22d74d1 memory: emif: remove unused frequency and voltage notifiers
+         d1d2b71389c36b4d59b5823a0f15b64936adb551 Merge branch 'mem-ctrl-next' into for-next
+         
+  - ref: refs/heads/mem-ctrl-next
+    old: 717cd731de8983483f6f41611b0d60aa3c267ff9
+    new: 729a611e6f53da00ed62a181f2d5d2bcf22d74d1
+    log: |
+         3b132ab67fc7a358fff35e808fa65d4bea452521 memory: fsl_ifc: fix leak of IO mapping on probe failure
+         8e0d09b1232d0538066c40ed4c13086faccbdff6 memory: fsl_ifc: fix leak of private memory on probe failure
+         729a611e6f53da00ed62a181f2d5d2bcf22d74d1 memory: emif: remove unused frequency and voltage notifiers
          
