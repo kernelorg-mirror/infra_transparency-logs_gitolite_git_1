@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 10 Jun 2021 08:03:14 -0000
-Message-Id: <162331219455.13725.17349188070316062586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 10 Jun 2021 08:03:26 -0000
+Message-Id: <162331220695.13881.17575547970300438643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/1.40
-    old: 0000000000000000000000000000000000000000
-    new: 8cc6841202cc63ce668d26f09a9738c9bfdd0421
+  - ref: refs/heads/irq/irqchip-next
+    old: bf06bd2ae89ed40a2b1e537ccd73d21b9e5219ad
+    new: 8124c8a6b35386f73523d27eacb71b5364a68c4c
