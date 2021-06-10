@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 10 Jun 2021 14:27:14 -0000
-Message-Id: <162333523438.22711.13678511937256437968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 10 Jun 2021 14:32:49 -0000
+Message-Id: <162333556935.25998.13242117167922323894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/irq/nmi-pmr-workaround
-    old: 0000000000000000000000000000000000000000
-    new: 11e62e1c1fbb7d3bf7e6a34090741658d2069440
+  - ref: refs/heads/stm32-next
+    old: 9b8a9b389d8464e1ca5a4e92c6a4422844ad4ef3
+    new: 4bf4abe19089245b7b12f35e5cafb5477b3e2c48
+    log: |
+         4bf4abe19089245b7b12f35e5cafb5477b3e2c48 ARM: dts: stm32: fix stpmic node for stm32mp1 boards
+         
