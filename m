@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4510848288917435342=="
+Content-Type: multipart/mixed; boundary="===============0451152662773431111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Jun 2021 21:28:27 -0000
-Message-Id: <162336050713.3390.3577871766109002473@gitolite.kernel.org>
+Date: Thu, 10 Jun 2021 21:28:41 -0000
+Message-Id: <162336052114.3493.13782034055235733172@gitolite.kernel.org>
 
---===============4510848288917435342==
+--===============0451152662773431111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2aa8eca6cbb5912aa0c07ebecb846b3d6182415c
-    new: 950fd045d76c96ada8c7a6e80f1f4e40de4beb17
-    log: revlist-2aa8eca6cbb5-950fd045d76c.txt
+  - ref: refs/heads/dev-queue
+    old: afcc4ad3acede542d2b26689f3652b7b43db47f6
+    new: 8dc0a23f11b8c1f96d92576e74e11cc0056b4784
+    log: revlist-afcc4ad3aced-8dc0a23f11b8.txt
 
---===============4510848288917435342==
+--===============0451152662773431111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2aa8eca6cbb5-950fd045d76c.txt
+Content-Disposition: attachment; filename=revlist-afcc4ad3aced-8dc0a23f11b8.txt
 
 ef4b65e53cc77e2b3ca4667b461047ad04fb45fa netfilter: nfnetlink: add struct nfgenmsg to struct nfnl_info and use it
 e2b750d78b55d783f6ff4a1ab1e96f01e3e2ccfb netfilter: nf_tables: remove nft_ctx_init_from_elemattr()
@@ -135,5 +135,92 @@ bc831facf8a11e4e615dc67ae790325710bc1979 net: x25: Use list_for_each_entry() to 
 73e42909ef2d1fa554b39bf6ae3eb1546dfc97a5 atm: Use list_for_each_entry() to simplify code in resources.c
 cb8e2e4300fc17e1028cce554ecf72a9e6161742 dccp: tfrc: fix doc warnings in tfrc_equation.c
 950fd045d76c96ada8c7a6e80f1f4e40de4beb17 soc: qcom: ipa: Remove superfluous error message around platform_get_irq()
+2993af5fccf1986f86721387e2a8130ce0c75141 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+5c41e2f360f22033b804adf0bb9fcc694ae96a23 igc: Add UDP segmentation offload support
+cc77b61bbf83570a2fce4a3e0aaf0284d7491ed9 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+c39b33bfb93581caa92c7ab2b7096ece51ae862f i40e: add support for PTP external synchronization clock
+c5f5f9944aadf92ed1a28c251d142f203e720bfa iavf: Fix asynchronous tasks during driver remove
+3f5bb26826823fc4b536de8f43f6b0c6963db12e i40e: Fix correct max_pkt_size on VF RX queue
+ef82530ddee31c59ec3d1d46bc56796263a7eca8 iavf: Fix return of set the new channel count
+fdb2a0ba40698bf33b308b6da6e21158975ce9ac i40e: Fix NULL ptr dereference on VSI filter sync
+cf96757b69921842cfd51683b784b4567ed112b3 ice: report hash type such as L2/L3/L4
+b540c77f69d7d46c9ed38fc2afae6e3d9ba9198c ice: Fix VF true promiscuous mode
+6e172eea67c0272e27d24609dd7e6a721562b5a9 i40e: clean up packet type lookup table
+a26c8ded53a357662771529df75772dc86020e85 iavf: clean up packet type lookup table
+15d9df0de243d3814e59863e679eb0674d704cd0 igb: unbreak I2C bit-banging on i350
+d34ff63170ba0b4c8a2035c10db14f6365b3d08d i40e: Fix error handling in i40e_vsi_open
+00048337d0cf128a5ddd6af5f0bf11c0a740cf0d i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+2d49ce3269404e3574e91938b576a6a22d7f07a6 ice: Refactor promiscuous functions
+5efe96433975d56ef41f93a85e7824f8cf2450a7 i40e: improve locking of mac_filter_hash
+a6abb7ee4c7ef451e1cd3a9b5ead7965af296f9d e1000e: Add support for Lunar Lake
+2e25f8e5ed658ba9d975080953edc579c378e8d2 i40e: Fix autoneg disabling for non-10GBaseT links
+c154411166ed81ef7cb9db357bf09af4f116ab06 iavf: do not override the adapter state in the watchdog task
+59a99b0d1c2365ff2018b65b714c4a3ea1101ba0 igb: Check if num of q_vectors is smaller than max before array access
+900f9fdceb5455885472d3669c39198cae2fbb73 ice: Enable configuration of number of qps per VF via devlink
+c44ddc2bf17bf2e35c74632be9ad2f28e297d2cf i40e: Fix warning message and call stack during rmmod i40e driver
+87271f30c003bf80fb9f6d9fdd4bb7ccf135c7e3 i40e: Fix logic of disabling queues
+94a79dd732f895cf1ba2d8579efa177f98f0e50b i40e: Fix changing previously set num_queue_pairs for PFs
+e3d887bbe665799f76ecb0d2bc91bce057ddaa78 i40e: Fix ping is lost after configuring ADq on VF
+f81096e55dc6219f359946813d113702fae92bf0 igb: Add counter to i21x doublecheck
+38ab4a0ee528ab8919205f7930a0051fc449bc48 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+a71c7d50f757cf9384cf5d3be5e1017c23e26877 ice: fix FDIR init missing when reset VF
+8d25d33cfbe20984a5ff89c2d876d7ecd7fc7684 igb: fix netpoll exit with traffic
+1963660cfae5688bd681938774da826f96c6db7a ice: Remove boolean vlan_promisc flag from function
+25fbe105da98c8ba17a8d612106146c802511959 ice: Fix replacing VF hardware MAC to existing MAC filter
+79f4a2102ac7c8feec0231b86ebeb8219da48347 ice: fix incorrect payload indicator on PTYPE
+756fa991d963133ffb8879229c357a25d4ebe70c ice: mark PTYPE 2 as reserved
+61cc1b46bd9f7d992f331b1058fe3b1a403310c3 ice: reduce scope of variables
+a5e894fc2fdd7792d872c256bca4eee80ec1e5ab ice: remove local variable
+3b78f36a82366a9f01bb4383376f7bccae922fab i40e: fix PTP on 5Gb links
+069a90ead174c72556975de6b50e95c4b60da7b2 virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+ad211948afb0209019f0f6da777806776d45a583 virtchnl: Use the BIT() macro for capability/offload flags
+c8d2fa2a4d4be0dc6abafac0c5ceeabcc23665ea igc: Fix user-after-free error during reset
+8cebdcc9ded2786b54a4c4ab2e0eec126737f350 igb: Fix user-after-free error during reset
+814e0e2619645e39e89141ecb9633a24d8e98ed7 i40e: Fix failed opcode appearing if handling messages from VF
+af1b72ad1c4a756f1cb7f1a0674cb71144b379d4 ice: add ndo_bpf callback for safe mode netdev ops
+5d328ca22bf9354cba4ac7dac09898f285626798 ice: parameterize functions responsible for Tx ring management
+40d0131a5820a8bf0aece8a06822411a921637e9 ice: add support for sideband messages
+94aaff9fbee9bf4968e213bd367334ed580fe923 ice: process 1588 PTP capabilities during initialization
+b132468939ec786f25f62cd02319c920c3be43bb ice: add support for set/get of driver-stored firmware parameters
+7c973108eece022c11bbc48cd376046b42b35035 ice: add low level PTP clock access functions
+6dbee46f861fe2c80eb3fa12dedc0c3312bd45cb ice: register 1588 PTP clock device object for E810 devices
+334eb50cc1c3880f69a0cdd814a8ff47f31c1293 ice: report the PTP clock index in ethtool .get_ts_info
+14db26b2ba0970bfda546ae38eb4a8025cd23d84 ice: enable receive hardware timestamping
+4d6e83a9d648cb12f52834b99b769ef9dbeb5c38 ice: enable transmit timestamps for E810 devices
+4d906aaa01b544a2918b3a42b85b1594b321b356 i40e: Fix firmware LLDP agent related warning
+ffc395574bd8296efa6143e6f7a7ca1103147171 igc: change default return of igc_read_phy_reg()
+20435213c895ec85f3962c9869f3d61eb0b20926 ice: Remove the repeated declaration
+66544c2946fd655590b501fc10bf16c61abcc524 i40e: Add restoration of VF MSI-X state during PCI reset
+5e5e3f61ae1297c694b92405068b50c723a5f86d ixgbe: Fix packet corruption due to missing DMA sync
+1e88a00991acc63e195e116360a55d727a23226c ice: add tracepoints
+9969b51479bc64b23d5f39be3202778bac2da455 i40e: Add additional info to PHY type error
+7c196a831f39461287e0d9bfc57728f70682ce0b iavf: check for null in iavf_fix_features
+7187f14720695ec5ce56ba71d9db3f00531a87ff iavf: free q_vectors before queues in iavf_disable_vf
+675392a815661f926d139994b431f7f3187bcb6d iavf: don't clear a lock we don't hold
+8faaf7557ee7f5e6071ebe50e392137024c78a76 iavf: Fix failure to exit out from last all-multicast mode
+b0ff14e783653e010bfdc09633c84f4c68d76d32 iavf: prevent accidental free of filter structure
+3d40fbd23e88a0f07db2d46a0156fa6e8c3be1e8 iavf: validate pointers
+616acc3536f8da72457e1e79152575fe055c959a iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+9d95ff948a98aafd8a61163887f3a67663b26902 iavf: Fix for setting queues to 0
+8d0003d800cbd69fb575eb059405deee85ef5f92 iavf: correctly track whether the interface is running during resets
+4ccc2f33edc10ba46d530cfd30b30d04c2155b88 iavf: obtain the crit_section lock in iavf_open() immediately
+565ae5b9d36fa6c22d3af9841f07f04b31e24476 iavf: obtain crit_section lock in iavf_close() immediately
+074aea4535948df96560001516fa8eeccd3d8049 iavf: wrap driver state change in crit_section lock
+467491d5cfe804dba7315cd805bf112c81245ebd iavf: untangle any pending iavf_open() operations from iavf_close()
+c87a4955b710dc5c8488acccecc3ea06d84b10a9 iavf: disable interrupts before disabling napi
+0f1079d86e5162bbe87f10d0fed8980c965afdd7 iavf: Restore non MAC filters after link down
+fd67b04727667ca7823d0cec947528c637e8dcae iavf: restore MSI state on reset
+c80fd671f9cfeb7ac9fdc0f506baf2ed3c36e349 iavf: Fix carrier on state
+5326c08e178a484e254965fe6c001cff61539688 iavf: Add change MTU message
+78c51d20e723fdd6e14058d4e779712928f6d2bf iavf: Prevent changing static ITR values if adaptive moderation is on
+c8ae2d8023fab71b54a0022a85a154734ff9a23a iavf: Log info when VF is entering and leaving Allmulti mode
+7789bac12b6ac4b3b8ba39331bc03d344d43b07d iavf: Set RSS LUT and key in reset handle path
+8937507ea6b5e50eb5bbe8557c188d433b71d4fe iavf: return errno code instead of status code
+7b1bca2097265a8a8a887e5ed8215bef9d728270 iavf: don't be so alarming
+570cf16903aaf7dc6f17901da7eb1cb1cd906032 e1000e: Check the PCIm state
+c2ef04f87eb727bf58b5551e7fe29a642af8c2c8 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+506cd7e5e5250fac9e664221815513da5e7e203f igb: Fix position of assignment to *ring
+e954063ad129404d104696dd4b4d302e0b36bcda ice: add support for auxiliary input/output pins
+8dc0a23f11b8c1f96d92576e74e11cc0056b4784 i40e: Refactor arrow operator usage in i40e_update_adq_vsi_queues()
 
---===============4510848288917435342==--
+--===============0451152662773431111==--
