@@ -1,43 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6482691833663520788=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 11 Jun 2021 08:29:28 -0000
-Message-Id: <162340016854.14691.16590965772762807192@gitolite.kernel.org>
-
---===============6482691833663520788==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 11 Jun 2021 08:31:16 -0000
+Message-Id: <162340027640.16790.6639806202340803338@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: fd450fd2a4fb6cb9ac6c6cd365cee1a0ed45883a
-    new: a1c8c49de3d7859db3f5dea72a049b92d7ad2e20
-    log: revlist-fd450fd2a4fb-a1c8c49de3d7.txt
-
---===============6482691833663520788==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd450fd2a4fb-a1c8c49de3d7.txt
-
-f0e70d4946332c681ceaba940652f30c7c33473d arm64: defconfig: Do not override the MTK_PMIC_WRAP symbol
-6c2cfc947607dc8de338377479939893f1288f37 arm64: defconfig: Allow Mediatek boards to boot from the mmc
-eed6ff1bb2da65067d928f4ab322c7d75f944fa4 soc: mtk-pm-domains: do not register smi node as syscon
-f0fce06e345dc4f75c1cdd21840780f5fe2df1f3 soc: mtk-pm-domains: Fix the clock prepared issue
-946437cfb0d2eff41352458847e3a01ad0f1b460 arm64: dts: mt8183: remove syscon from smi_common node
-7e149fd8349034431852fb1f6db0229da935c3fe arm64: dts: mt8183: add supply name for eeprom
-ea8806344743816717280fdc8587d55d1c099040 dt-bindings: mediatek: add compatible for MT8195 pwrap
-e88edc977b00cc467d598e4ea5091b8bb4a7f78d soc: mediatek: pwrap: add pwrap driver for MT8195 SoC
-4fa8492d1e5b11fd810bd746c301fca39c18025d arm64: dts: mt8183: add cbas node under cros_ec
-507b1b28129974691b95d623f78d0604fbaeea09 arm64: dts: mt8183-kukui: Add tboard thermal zones
-a8168cebf1bca1b5269e8a7eb2626fb76814d6e2 arm64: dts: mt8183: Add node for the Mali GPU
-b96b57995b56f61b862223da216f365bca36b4f2 Merge branch 'v5.13-next/dts64' into for-next
-a1c8c49de3d7859db3f5dea72a049b92d7ad2e20 Merge branch 'v5.13-next/soc' into for-next
-
---===============6482691833663520788==--
+    old: 83fbcaed24d797528de00c024674fd58e8f1634f
+    new: 93cd12d6e88a4c6f9204633ff07781cde741e89e
+    log: |
+         c66c63049966a4c23dc429d2e5f4d063c8b78aeb ALSA: bebob: dismiss sleep after breaking connections
+         82fb3bf92c0fb6cd471295ba9c774a47c7d64c8c ALSA: bebob: delete workaround for protocol version 3
+         93cd12d6e88a4c6f9204633ff07781cde741e89e ALSA: bebob: code refactoring for model-dependent quirks
+         
+  - ref: refs/heads/master
+    old: 63ab6f203173f6127436132a41bf6caafc9eb71b
+    new: 12d7810188206f32791cbd7ce96f4766c586d0f7
+    log: |
+         c66c63049966a4c23dc429d2e5f4d063c8b78aeb ALSA: bebob: dismiss sleep after breaking connections
+         82fb3bf92c0fb6cd471295ba9c774a47c7d64c8c ALSA: bebob: delete workaround for protocol version 3
+         93cd12d6e88a4c6f9204633ff07781cde741e89e ALSA: bebob: code refactoring for model-dependent quirks
+         12d7810188206f32791cbd7ce96f4766c586d0f7 Merge branch 'for-next'
+         
