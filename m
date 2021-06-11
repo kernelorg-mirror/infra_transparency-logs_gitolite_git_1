@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Fri, 11 Jun 2021 01:01:34 -0000
-Message-Id: <162337329452.15292.9770716300395133790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Fri, 11 Jun 2021 01:14:14 -0000
+Message-Id: <162337405447.22309.2919934182095977206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/next
-    old: dd8b865cc40832d32bbf912a65c657483533fdd4
-    new: 6ddb5680085a3eefe0c6267e3514060045a13c95
+    old: 869cbeef18e5c4370157e733b947d44f37441ea9
+    new: 648f2c6100cfa18e7dfe43bc0b9c3b73560d623c
     log: |
-         6ddb5680085a3eefe0c6267e3514060045a13c95 audit: remove trailing spaces and tabs
+         648f2c6100cfa18e7dfe43bc0b9c3b73560d623c selinux: use __GFP_NOWARN with GFP_NOWAIT in the AVC
          
