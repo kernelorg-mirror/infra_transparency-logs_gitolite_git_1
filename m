@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 11 Jun 2021 00:04:55 -0000
-Message-Id: <162336989566.7348.4197508125533758561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
+Date: Fri, 11 Jun 2021 00:27:30 -0000
+Message-Id: <162337125013.22429.9095681157291175089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/vgupta/arc
+user: vgupta
 changes:
-  - ref: refs/heads/dev
-    old: 4a4c90cb589b3fa85d81cb8fbda5e38f38f27381
-    new: 9d998f010f59a13cc2dee7cb736eb40e8d837ad1
+  - ref: refs/heads/for-curr
+    old: 536e2f177793c1646c05696167736c5c9e45bbaa
+    new: f98878567c856ec152e514c8c93fb9a67d78685e
     log: |
-         d4e76b528ebdfb89ef5d0973be151cca582cc097 scftorture: Avoid excess warnings
-         85918251dfd7cb6885867005d76a85459e05faa1 rcu: Make rcu_gp_init() and rcu_gp_fqs_loop noinline to conserve stack
-         4d4bbd525d40218f37bf72a0e669a9adfa90ab37 rcu: Remove trailing spaces and tabs
-         14ee6ca0957806bdbe9444504f5644aaecd06dff refscale: Avoid excess warnings in ref_scale_reader()
-         633707fc4383ec3f47e691a0b2f2f1c8214d182b rcu/doc: Add a quick quiz to explain further why we need smp_mb__after_unlock_lock()
-         c2bbc2d7c085eaba724a7f0a67c7736e3a297ff9 EXP mm, slub: move slub_debug static key enabling outside slab_mutex
-         9d998f010f59a13cc2dee7cb736eb40e8d837ad1 EXP clocksource: Forgive repeated long-latency watchdog clocksource reads
+         96f1b00138cb8f04c742c82d0a7c460b2202e887 ARCv2: save ABI registers across signal handling
+         f98878567c856ec152e514c8c93fb9a67d78685e ARC: fix CONFIG_HARDENED_USERCOPY
          
-  - ref: refs/heads/dev.2021.06.09a
-    old: 0000000000000000000000000000000000000000
-    new: f21b8fbdf9a59553da825265e92cedb639b4ba3c
