@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 11 Jun 2021 02:16:58 -0000
-Message-Id: <162337781857.307.9489667507901477769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Fri, 11 Jun 2021 02:24:39 -0000
+Message-Id: <162337827927.5792.16774392643427682591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
   - ref: refs/heads/master
-    old: 940bd9f8f9eb0ca437f4a3f32c1d47c34400f0ca
-    new: f877515c34a88cbd358a3a5f2e589830b0e396ff
+    old: 77f30bfcfcf484da7208affd6a9e63406420bf91
+    new: 2fc2b430f559fdf32d5d1dd5ceaa40e12fb77bdf
     log: |
-         f877515c34a88cbd358a3a5f2e589830b0e396ff Fri 11 Jun 2021 02:15:33 AM UTC
+         2fc2b430f559fdf32d5d1dd5ceaa40e12fb77bdf fscrypt: fix derivation of SipHash keys on big endian CPUs
          
