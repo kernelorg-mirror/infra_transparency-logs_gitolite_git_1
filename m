@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Fri, 11 Jun 2021 00:27:30 -0000
-Message-Id: <162337125013.22429.9095681157291175089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 11 Jun 2021 00:35:06 -0000
+Message-Id: <162337170674.27597.15258822059364520974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-curr
-    old: 536e2f177793c1646c05696167736c5c9e45bbaa
-    new: f98878567c856ec152e514c8c93fb9a67d78685e
+  - ref: refs/heads/work.audit
+    old: 565799de3ee0a295842a07a5f9a459db5e793beb
+    new: 7b4f1c85d9d3a04bc9ebbef82839abe543ed1415
     log: |
-         96f1b00138cb8f04c742c82d0a7c460b2202e887 ARCv2: save ABI registers across signal handling
-         f98878567c856ec152e514c8c93fb9a67d78685e ARC: fix CONFIG_HARDENED_USERCOPY
+         7b4f1c85d9d3a04bc9ebbef82839abe543ed1415 kill unused 'flags' argument in avc_has_perm_flags() and avc_audit()
          
