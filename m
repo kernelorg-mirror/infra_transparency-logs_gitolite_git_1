@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 11 Jun 2021 17:20:56 -0000
-Message-Id: <162343205649.22898.15733500133878964379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Fri, 11 Jun 2021 17:22:48 -0000
+Message-Id: <162343216810.23649.7165638930924045042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/tags/devicetree-fixes-for-5.13-3
-    old: 0000000000000000000000000000000000000000
-    new: 9f1ad5d70a3897aa76fcb42886c0b91ea154e7d1
+  - ref: refs/heads/next
+    old: 6ddb5680085a3eefe0c6267e3514060045a13c95
+    new: 0ecc617858fce305bedcf735eb18a46cb7e9921f
+    log: |
+         0ecc617858fce305bedcf735eb18a46cb7e9921f audit: remove unnecessary 'ret' initialization
+         
