@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 11 Jun 2021 09:15:41 -0000
-Message-Id: <162340294169.28918.15063035858847943297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 11 Jun 2021 09:23:53 -0000
+Message-Id: <162340343375.1899.11083610498748673620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-arm-defconfig-for-v5.14-tag2
+  - ref: refs/tags/renesas-clk-for-v5.14-tag2
     old: 0000000000000000000000000000000000000000
-    new: 251c5cb1f9924f668b6d029cf54664b58dd6d7f7
-  - ref: refs/tags/renesas-arm-dt-for-v5.14-tag2
+    new: d3bd6b86721c6b71f2446ba3435498b8398e9637
+  - ref: refs/tags/renesas-pinctrl-for-v5.14-tag2
     old: 0000000000000000000000000000000000000000
-    new: a19e581a191e210f3f6af64952ab599bbdfdde5e
-  - ref: refs/tags/renesas-drivers-for-v5.14-tag1
-    old: 0000000000000000000000000000000000000000
-    new: 37955d8a3b829fb77f69cd10bbf7511394d9871f
-  - ref: refs/tags/renesas-dt-bindings-for-v5.14-tag1
-    old: 0000000000000000000000000000000000000000
-    new: 2178f01b66febb6836abd7542104acffe0d0a46a
+    new: a731fb6fab978b5edbf8882d5df393934e79dc97
