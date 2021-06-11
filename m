@@ -1,42 +1,56 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 11 Jun 2021 16:14:10 -0000
-Message-Id: <162342805036.9223.13144705462045566615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 11 Jun 2021 16:16:36 -0000
+Message-Id: <162342819633.11570.3458448135542478704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next/cpufeature
-    old: 21047e91a5a674b97ebbf2c2c1751f1e9c317f09
-    new: 873c3e89777c8c56f936ae7aceca1a102aac6b9e
+  - ref: refs/heads/acpica
+    old: 24fa16924021858ab9a0418363a2a0ee4cf1915d
+    new: 9f8c7baedabc9693fbd7890f8fda40578bde4f73
     log: |
-         930a58b4093ebd2a036a0d448a2047477ef90d26 arm64: cpuinfo: Split AArch32 registers out into a separate struct
-         2122a833316f2f3f6ddc78429fa67ef6d3c86636 arm64: Allow mismatched 32-bit EL0 support
-         2f6a49bbc01da17867c26f6f650b1142e1d7c69d KVM: arm64: Kill 32-bit vCPUs on systems with mismatched EL0 support
-         873c3e89777c8c56f936ae7aceca1a102aac6b9e arm64: Kill 32-bit applications scheduled on 64-bit-only CPUs
+         9f8c7baedabc9693fbd7890f8fda40578bde4f73 ACPICA: Add PRMT module header to facilitate parsing
          
-  - ref: refs/heads/for-next/insn
-    old: 71766b81de8204a0fb56de3ad1972516bac99f5b
-    new: 3e00e39d9dad48360ebd518726ebf81da1b84c10
+  - ref: refs/heads/bleeding-edge
+    old: bd8ae083b1f33fcc969fac4384495f21b355e13a
+    new: fce7d470d0dd8960fb8fff2c6adcdea7646a85a9
     log: |
-         78b92c7337e10519312e8aab64d7a1651206bd61 arm64: insn: decouple patching from insn code
-         3e00e39d9dad48360ebd518726ebf81da1b84c10 arm64: insn: move AARCH64_INSN_SIZE into <asm/insn.h>
+         84b7355b7a8acc0c4924424e22b86771a6d7287a Merge back 'acpi-bus' material for v5.14.
+         f19326376d572401e14a0d031ac8844369b78a06 Merge branches 'acpi-bus' and 'acpi-scan' into linux-next
+         80ba63b36de9c712811c6bcc2ad948b0ad69209e Merge branch 'acpica' into linux-next
+         fce7d470d0dd8960fb8fff2c6adcdea7646a85a9 Merge branch 'acpi-prm' into linux-next
          
-  - ref: refs/heads/for-next/perf
-    old: 59d697a99daa4723b62f9b07f41191cca1e44f3f
-    new: 64432f09068a0fa76f20918a3c22ee3484a3762d
+  - ref: refs/heads/linux-next
+    old: a72d57d38055f31e713e57d59999b04027b74e0d
+    new: fce7d470d0dd8960fb8fff2c6adcdea7646a85a9
     log: |
-         4c1daba15c209b99d192f147fea3dade30f72ed2 perf/smmuv3: Don't trample existing events with global filter
-         f8e6d24144d1bfbb8714faa9044e135c0c00bd89 perf: Add EVENT_ATTR_ID to simplify event attributes
-         7ac87a8dfbd9c42fa1920773b09a57586222aad4 drivers/perf: Simplify EVENT ATTR macro in SMMU PMU driver
-         0bf2d7298842afbc28a5413024ebc444a599e980 drivers/perf: Simplify EVENT ATTR macro in qcom_l2_pmu.c
-         78b1d3c72070bbc9793e63dd6528c1e67ee0d52a drivers/perf: Simplify EVENT ATTR macro in qcom_l3_pmu.c
-         b323dfe02e56627e4eaed7cf59dc609da67a1651 drivers/perf: Simplify EVENT ATTR macro in xgene_pmu.c
-         773510f4d2775bda7cec585e8643f4269c4944e5 drivers/perf: Simplify EVENT ATTR macro in fsl_imx8_ddr_perf.c
-         64432f09068a0fa76f20918a3c22ee3484a3762d arm64: perf: Simplify EVENT ATTR macro in perf_event.c
+         9f8c7baedabc9693fbd7890f8fda40578bde4f73 ACPICA: Add PRMT module header to facilitate parsing
+         cefc7ca46235f01d5233e3abd4b79452af01d9e9 ACPI: PRM: implement OperationRegion handler for the PlatformRtMechanism subtype
+         60faa8f1ac6e0588d53eb9a345adcdbcc96a8f47 ACPI: Add \_SB._OSC bit for PRM
+         f39de44fbb478ed476f001ca505b2b58d3345a30 ACPI: Remove redundant clearing of context->ret.pointer from acpi_run_osc()
+         23db673d7e5194c8fbbb8c307e23960767305c09 ACPI: scan: initialize local variable to avoid garbage being returned
+         84b7355b7a8acc0c4924424e22b86771a6d7287a Merge back 'acpi-bus' material for v5.14.
+         f19326376d572401e14a0d031ac8844369b78a06 Merge branches 'acpi-bus' and 'acpi-scan' into linux-next
+         80ba63b36de9c712811c6bcc2ad948b0ad69209e Merge branch 'acpica' into linux-next
+         fce7d470d0dd8960fb8fff2c6adcdea7646a85a9 Merge branch 'acpi-prm' into linux-next
+         
+  - ref: refs/heads/testing
+    old: a72d57d38055f31e713e57d59999b04027b74e0d
+    new: fce7d470d0dd8960fb8fff2c6adcdea7646a85a9
+    log: |
+         9f8c7baedabc9693fbd7890f8fda40578bde4f73 ACPICA: Add PRMT module header to facilitate parsing
+         cefc7ca46235f01d5233e3abd4b79452af01d9e9 ACPI: PRM: implement OperationRegion handler for the PlatformRtMechanism subtype
+         60faa8f1ac6e0588d53eb9a345adcdbcc96a8f47 ACPI: Add \_SB._OSC bit for PRM
+         f39de44fbb478ed476f001ca505b2b58d3345a30 ACPI: Remove redundant clearing of context->ret.pointer from acpi_run_osc()
+         23db673d7e5194c8fbbb8c307e23960767305c09 ACPI: scan: initialize local variable to avoid garbage being returned
+         84b7355b7a8acc0c4924424e22b86771a6d7287a Merge back 'acpi-bus' material for v5.14.
+         f19326376d572401e14a0d031ac8844369b78a06 Merge branches 'acpi-bus' and 'acpi-scan' into linux-next
+         80ba63b36de9c712811c6bcc2ad948b0ad69209e Merge branch 'acpica' into linux-next
+         fce7d470d0dd8960fb8fff2c6adcdea7646a85a9 Merge branch 'acpi-prm' into linux-next
          
