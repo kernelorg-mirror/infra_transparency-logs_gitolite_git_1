@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 11 Jun 2021 23:06:04 -0000
-Message-Id: <162345276416.18240.17310139505004639916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 11 Jun 2021 23:52:27 -0000
+Message-Id: <162345554718.15074.2412915908231951723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 380afe7208966ab59e5215c9daab3f6b06193d8c
-    new: ca16b429f39b4ce013bfa7e197f25681e65a2a42
+  - ref: refs/heads/dev
+    old: 9d998f010f59a13cc2dee7cb736eb40e8d837ad1
+    new: 9d0f6e15a82cecdb9d9c5336a6cb3cc8c8745ea6
     log: |
-         3b3af91cb6893967bbec30f5c14562d0f7f00c2a libbpf: Simplify the return expression of bpf_object__init_maps function
-         ca16b429f39b4ce013bfa7e197f25681e65a2a42 tools/bpftool: Fix error return code in do_batch()
+         4e11cf2732e34e748790c9bc2024bf2477ad7dc6 rcu/doc: Add a quick quiz to explain further why we need smp_mb__after_unlock_lock()
+         db812e3b74f46daa4b0410eb38b8044c9d4c52c1 EXP mm, slub: move slub_debug static key enabling outside slab_mutex
+         9d0f6e15a82cecdb9d9c5336a6cb3cc8c8745ea6 EXP clocksource: Forgive repeated long-latency watchdog clocksource reads
          
