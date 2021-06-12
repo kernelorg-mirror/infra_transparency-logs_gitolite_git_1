@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2657362049523629757=="
+Content-Type: multipart/mixed; boundary="===============4557567095361152551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sat, 12 Jun 2021 15:55:46 -0000
-Message-Id: <162351334611.4816.3567511083680257468@gitolite.kernel.org>
+Date: Sat, 12 Jun 2021 15:55:50 -0000
+Message-Id: <162351335044.4897.7131180454945013664@gitolite.kernel.org>
 
---===============2657362049523629757==
+--===============4557567095361152551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 6799d4f2da496cab9b3fd26283a8ce3639b1a88d
     new: ad347abe4a9876b1f65f408ab467137e88f77eb4
     log: revlist-6799d4f2da49-ad347abe4a98.txt
 
---===============2657362049523629757==
+--===============4557567095361152551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623513345 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623513349 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1623513344-c346d68b60645a1ad1b97e5335a5edbefa6362c6
+nonce 1623513348-d138e24e4ac30b7f3327ec123e03b34e54cd85db
 
-6799d4f2da496cab9b3fd26283a8ce3639b1a88d ad347abe4a9876b1f65f408ab467137e88f77eb4 refs/heads/main
+6799d4f2da496cab9b3fd26283a8ce3639b1a88d ad347abe4a9876b1f65f408ab467137e88f77eb4 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDE2QEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ld4P/i1cAHhoQYhstSw8yTcV
-wpMbaDYfJqlMCYPLKZ2YYmeU/73P/LG6m6eCqbKe+mafbtvqsH3VNhqeEaXMeQTm
-CFnl7NXjC2DqRsLmdhbnWh+geLVRSTPbGZfPyYqXy6V+DwcQSEkK/yMfb/8E3Pe4
-dQqy+rJow6McEWz21alsZQbRkVR+10wvqLtuHDIqAxeBqjcye+lly1PtG8YfzSEK
-ljQ9fKTzREWiM9h/2j8RLkLhFQqOjWW7Ev2fqo/4yVKtZQoR8nQvJPkKP0tVq9qa
-95hmY7FxUUXt4MpbApab62uhKExy8NLeM7vdxAes1ZB5JhNnO4/lSd2F74vx7VDS
-cyAzFbEiepcMx/RX8Es79Jeo3wcpKWWewCqPw+9TKrmjtJsY5ydzZQKs5Hum8RKP
-kxfzjyxSp3g6Qs66WdZBGO7zBdAhc9PBguCJTUNciJ6zJpDF0ye7gpaFtqZ+ARJF
-Aoj2aRGrOdBf50Tf3jECBTZC8BoqH8AjsuOr9EAkUh0gVCJGfMsaWReaqZRzAwhK
-dVAp/115aLZXrw3tfF6ZM4e95he45zD2kDlT6h8FFiAfmNTb3HqJnZxqXEMkGFuW
-QlyQNFcF8zdq/t0dPZArtz793OjAC3bsUj/1xWh+1KgxlVv1hVnVrVOqLsPtNmX3
-Nk6/nyMDC1oOHqDCYML1q8WE
-=Z9hI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDE2QUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BJgP/3F0Im4Y/2gmiS9NnVc5
+TTfPd9Nt29t+Tr+4RJFXyG6JxypuO7TO+DMYPuLPZmLlyDVS4NTNG8chIr/ojJIL
+p2VdJ/LAecdpvfH49tr0Xw5GHgzzvkbUBrROtfApZvzGIsTG4JoAZt5I0YZEir1d
+y5qnTfAAjK87IUYsenquV2Qgjw1oPCyFOzqPGWxLhzBXfgc5gc9DQqHlLQh/FHiC
+wCTr2p/76lDL4GAe1V6hhynbEqUTzHSy1OcdlZGnUmPfJnTBWw165Ne4R9rCdf1v
+JupGvXZcMNEtJHJZAzWiM6jahxERqVfQfUUCqOmtLv9H2YXTKRjs8E34m6XlccIL
+7voXUZwUd7fUQSeioRppfxXkFmMhhWcM9yr77MJ4GFMUkvO52VxJHUzBlN1tX09W
+Uf3CtNOP6MEkCAsbDvpD2OOXRADcH6xpVmLOC0WopT26PADFl/gXP6s6KT7fmjZP
+JLcS3B7WSMkSt3VQOqsSMF4YpWfXWRXpvC8pDduiW8g04ueZzQBB/MTgaUXFve1j
+j2ww1KFm3ZR1J/n5sSb1WvlTXJwVf0wNz/6Gn8sacgGyqCyXH0gOzO6bQK/kT30w
+qRQ9bLgyZCuF9uQ65xxQ3oxuU7IguAhfvxsKQhExyiWD7anYWBxX+Gm7w71fyfiK
+7dVL5y9h9SarX3HUzzdlmLI5
+=xFud
 -----END PGP SIGNATURE-----
 
---===============2657362049523629757==
+--===============4557567095361152551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -688,4 +688,4 @@ e65b7914b2abfff4fde9dcca22bbab99fab5ba05 Merge tag 'gpio-fixes-for-v5.13-rc6' of
 548843c096d08b6c24d2aa1b73783da37c96bb0a Merge tag 'clang-features-v5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 ad347abe4a9876b1f65f408ab467137e88f77eb4 Merge tag 'trace-v5.13-rc5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============2657362049523629757==--
+--===============4557567095361152551==--
