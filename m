@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3726663865365102989=="
+Content-Type: multipart/mixed; boundary="===============4624886610482958070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 12 Jun 2021 09:31:32 -0000
-Message-Id: <162349029266.16431.12883637822595906122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 12 Jun 2021 09:31:47 -0000
+Message-Id: <162349030733.16583.13458455492181910030@gitolite.kernel.org>
 
---===============3726663865365102989==
+--===============4624886610482958070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 97af1c09c9a90cd0fa6744314a0666a8fa14049b
-    new: 055832852844bdda4cbe1db74b010255fee55533
-    log: revlist-97af1c09c9a9-055832852844.txt
+  - ref: refs/heads/queue-rc
+    old: 7eff2b4404085597128e0933c37114938e82f309
+    new: d93ff6e4fe03b5b7915ef62955a6b9d0c9dc14c9
+    log: revlist-7eff2b440408-d93ff6e4fe03.txt
 
---===============3726663865365102989==
+--===============4624886610482958070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97af1c09c9a9-055832852844.txt
+Content-Disposition: attachment; filename=revlist-7eff2b440408-d93ff6e4fe03.txt
 
 0ee4d55534f82a0624701d0bb9fc2304d4529086 mac80211: remove warning in ieee80211_get_sband()
 bd18de517923903a177508fc8813f44e717b1c00 mac80211_hwsim: drop pending frames on stop
@@ -94,5 +94,7 @@ c0c8cc989efc2cde2edb5f0d386f2f34d53b20bf net/mlx5: E-Switch, Read PF mac address
 74e598bd89cf5dcd657817bcf0030362786f1c7d net/mlx5: E-Switch, Allow setting GUID for host PF vport
 14e2d3f9660e26b823c94408501c3789af4d62bd Merge branch 'mlx4-for-net' into net-rc
 055832852844bdda4cbe1db74b010255fee55533 Merge branch 'mlx5-for-net' into net-rc
+46132410aa66233473649e38ba52b6687fb74cb8 Merge branch 'net-rc' into queue-rc
+d93ff6e4fe03b5b7915ef62955a6b9d0c9dc14c9 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============3726663865365102989==--
+--===============4624886610482958070==--
