@@ -1,63 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1031825754626326300=="
+Content-Type: multipart/mixed; boundary="===============7019060939741266795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 12 Jun 2021 13:35:43 -0000
-Message-Id: <162350494398.9460.11563210532126566846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 12 Jun 2021 13:38:21 -0000
+Message-Id: <162350510118.10325.13910624978229212893@gitolite.kernel.org>
 
---===============1031825754626326300==
+--===============7019060939741266795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 800370b05b76c5a6111a97d6f41c9986a29e38a3
-    new: eab61fb1cc2eeeffbceb2cf891c1b7272141af82
+  - ref: refs/heads/staging-testing
+    old: 3cac092a05d80ef2eb63e788329bd72b6e764069
+    new: c57f4f002bbd708c02862b37ab417699d657a9cf
     log: |
-         78a005a22d5608b266eafa011b093a33284c52ce nvmem: sunxi_sid: Set type to OTP
-         c813bb37bd32cb967060a2c573fae4ea518d32eb nvmem: qfprom: minor nit fixes
-         1f7b4d87874624f4beb25253900a25306a193b8b nvmem: core: constify nvmem_cell_read_variable_common() return value
-         989f77e3fdee2e8f414dd1da9b6397d8763d414e nvmem: qfprom: Improve the comment about regulator setting
-         fd307a4ad332ef50be5569c92490219e7cd84ce5 nvmem: prepare basics for FRAM support
-         63879e2964bceee2aa5bbe8b99ea58bba28bb64f nvmem: core: add a missing of_node_put
-         604288bc61965a3acb20e7ff04379a5d3d289bd8 nvmem: eeprom: at25: fix type compiler warnings
-         eab61fb1cc2eeeffbceb2cf891c1b7272141af82 nvmem: eeprom: at25: fram discovery simplification
+         22a9f1c45946780adfa4cb771197d7502403181d staging: rtl8723bs: os_dep: Remove conditions with no effects
+         eff810f82e471034bcfa04c9e10cc2c9b4340403 staging: rtl8712: Replace printk() with netdev_dbg()
+         c57f4f002bbd708c02862b37ab417699d657a9cf staging: rtl8723bs: core: add blank line after variable declaration
          
 
---===============1031825754626326300==
+--===============7019060939741266795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623504943 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1623504942-75551c1b490b07a0338016365214b5d22bc37185
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623505099 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1623505098-34d661bfbe325bbd03180b94646e0f69f5b31398
 
-800370b05b76c5a6111a97d6f41c9986a29e38a3 eab61fb1cc2eeeffbceb2cf891c1b7272141af82 refs/heads/char-misc-next
+3cac092a05d80ef2eb63e788329bd72b6e764069 c57f4f002bbd708c02862b37ab417699d657a9cf refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDEuC8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WsEQAK8MbLK1NCzo6dEjCU52
-s4fwYY6hvOwN4Jh17zzXmtuZ+3I/NNCZapWFyWiY+6IgQYhspCCa2PPyP6scPmsO
-Qu7bRpaLCTripKMxOLl9VGGyYWx20VEqsA7aXiXimLBPcOc40TG/PQulLcFy+pR5
-K88B9Gln8T5+CrJPWC+HfchCtb0vnI4jIaK8P1fpNu1Dki5SR143Yjg/6wqvg51K
-lJErrDOjib0Fy6PqWlpdC5ZCF6mrUP+qkilI+mrzQvWnAs1nn/Aqh65mLdZoIa2Y
-RSY//wnll2u1AJj7s3paUSSuXyb92drMMuNqAdeGIImd/Q/OjxdVNybpEVchVmF0
-dbhNSHnKVm26IuzkALKp2zjrWkpeAUIbAR3jbIqMLn0uoQXkW9HTipe9ZbxTehYT
-xauJY1ZBGXsiGXxXzcpxFStjDizAhgtHPOXlYpuHjCM97Hqay2EmvA7ghJdM6ZSA
-rrTfyeZEowjAVqlhEYvi0sie9hGUClRkzCZ/c2I9Yqu70CqtkQqvEf7RR/s5HEmd
-P1fgEhCnCaLry6iZJuoCMHV/LkCEivSFYPjClHv8cQsUY6CnSQLwVezZi3D6KQRX
-VAkqNYSrO4wNbTWTxMJlQ5L7FWdTG92V6/2wA1MlXgjDxKMypWO4MmH/YOCfRwQW
-8l2RVx19dH9yN4iPLtB8CLoW
-=PbL4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDEuMsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L+gQAJdg9j1+vRNtlLvQujFz
+h3hCydZ178FghZLxfpLKWmrILwHhjB3mQs/3cs++DKKhmNOZ3IJhLABnCEnEo4tU
+y5OHUlO2mu/QE+N883i+TMrSpl6REI66xSDSNeoM9bYJgfz1pA9ytfxywFl1CRJw
+BtgJgfAfkLAP0q1wgQdZzJmdKvbwpoqmRzLEwUrVvaT9Y3ul4oZ0eBgTBLcWQVaH
+GsxBbqLyYLHE7aA1fsfkhZ3wVM1izeuRT8Edec65rnUML2vGPs66mdjiGf9sKcWa
+fkLGr3IbOnRp7bJWy4akxrQmpdX7rL1CGtMPRojXUCfhgUQruWkp3sgBxNzZSUgQ
+DVRmhHtvB9Xt9Vy7DxG1G9kNkE4BmltZeucBLDd729cGFv2gGmy9OX+tc4Ix44SF
+ZMCV93QlutGUwR4uNlpxcBKpXsrMtcMaEZqusDDNRL0QOxVXhXfKzp2s43ldoyxw
+LHCMGJY8f/c1VHo6QrJxqgA9NYEtCJy+SSDNEO+YAZwgPdR2/NJ++hiMDPQfV8/+
+pATbRdkjZ9R2iQVyAsiHNS5L2OkqSnOyTV4ah/ssr0Y5XF/cyVYaIVyMwAMpSkPU
+N6DRIEN/d550Aznc/ONv1ilT2ysrQ3oyCjziAjpsSZ/+UbYxl/8zndye+UViswU9
+GE09ZRaHoOT/TTr4zBDazeiW
+=jkS+
 -----END PGP SIGNATURE-----
 
---===============1031825754626326300==--
+--===============7019060939741266795==--
