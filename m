@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7285672318185027316=="
+Content-Type: multipart/mixed; boundary="===============0854098508476418797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sat, 12 Jun 2021 07:34:10 -0000
-Message-Id: <162348325040.20498.487114954942859190@gitolite.kernel.org>
+Date: Sat, 12 Jun 2021 07:58:21 -0000
+Message-Id: <162348470155.4136.17084730819571979074@gitolite.kernel.org>
 
---===============7285672318185027316==
+--===============0854098508476418797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 user: luca
 changes:
-  - ref: refs/heads/pending
-    old: 43d400b75bbfddf89cd37717a9877b5312d5d32d
-    new: 9dba7c7aa7fbb8c5a38bebd804b54a03ce627527
-    log: revlist-43d400b75bbf-9dba7c7aa7fb.txt
+  - ref: refs/heads/master
+    old: d0f2edda1651c2ce4e7f224ee1656903d1ca3c70
+    new: 080f9c10c773df39ccebe8dc414179d9179005a9
+    log: revlist-d0f2edda1651-080f9c10c773.txt
 
---===============7285672318185027316==
+--===============0854098508476418797==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-43d400b75bbf-9dba7c7aa7fb.txt
+Content-Disposition: attachment; filename=revlist-d0f2edda1651-080f9c10c773.txt
 
+ab96de5def854d8fc51280b6a20597e64b14ac31 nvmet: fix inline bio check for passthru
+8cc365f9559b86802afc0208389f5c8d46b4ad61 nvmet-rdma: Fix NULL deref when SEND is completed with error
+3651aaacd10b2f8cee3780c490fc2df55bd4f543 nvmet: demote discovery cmd parse err msg to debug
 4c2dab2bf5ace0ddc07ca7f04a7ba32fc3b23492 nvmet: use helper to remove the duplicate code
 7a4ffd20ec6d31dfde2cc5608851e5109ffed7c9 nvmet: demote fabrics cmd parse err msg to debug
 88b06399c9c766c283e070b022b5ceafa4f63f19 Merge tag 'for-5.13-rc1-part2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -1047,8 +1050,5 @@ da16f5be45d0458e5240737fe90194ee33314bdf b43: phy_n: Delete some useless TODO co
 d1dbaa54191e0014493cb4065aadb6764b404dd1 b43legacy: Remove unused inline function txring_to_priority()
 fef1cdbba4d12fb67555364c22cc8d7c500600aa b43legacy: Fix spelling mistake "overflew" -> "overflowed"
 080f9c10c773df39ccebe8dc414179d9179005a9 ipw2x00: Minor documentation update
-77ff00de603d89e1a7d0eed1f316b27733eb5245 mei: bus: add client dma interface
-fa89bebffc49412cc7024057efe5f02d15864c09 iwlwifi: mei: add the driver to allow cooperation with CSME
-9dba7c7aa7fbb8c5a38bebd804b54a03ce627527 iwlwifi: integrate with iwlmei
 
---===============7285672318185027316==--
+--===============0854098508476418797==--
