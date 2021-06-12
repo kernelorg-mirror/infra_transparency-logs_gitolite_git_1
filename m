@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4884989796792128025=="
+Content-Type: multipart/mixed; boundary="===============3394347815164890181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 12 Jun 2021 13:39:10 -0000
-Message-Id: <162350515086.10641.1867688159382069811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 12 Jun 2021 13:46:40 -0000
+Message-Id: <162350560067.15800.8264187353468462326@gitolite.kernel.org>
 
---===============4884989796792128025==
+--===============3394347815164890181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: c57f4f002bbd708c02862b37ab417699d657a9cf
-    new: edc64e7a03c81fcddb1c1a0af253705833d704ad
-    log: |
-         922a0524f7c46784fadb75aa2ac85405e0a25696 staging: drop kpc2000 driver
-         edc64e7a03c81fcddb1c1a0af253705833d704ad staging: rtl8188eu: remove ODM_RT_TRACE calls from hal/phy.c
-         
+  - ref: refs/tags/usb-5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3023d261443e35e86645a4d1b6d1b90b3b56f9e4
 
---===============4884989796792128025==
+--===============3394347815164890181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623505148 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1623505148-5fa2751b41b4416a11c20436e16672ab403704bc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623505599 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1623505598-342580ba2e0631aacd2b15bbcd6f3a04c75f9d47
 
-c57f4f002bbd708c02862b37ab417699d657a9cf edc64e7a03c81fcddb1c1a0af253705833d704ad refs/heads/staging-testing
+0000000000000000000000000000000000000000 3023d261443e35e86645a4d1b6d1b90b3b56f9e4 refs/tags/usb-5.13-rc6
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDEuPwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PPQP/2ZOP8mobDqCtF9SmUWe
-gj7GcR7x2/4z1PCkhR0TjVcyFPz6v7VHAGaP8XpXbz0xP6vVR95U4fpdHuUHs41X
-wvonPVRAeDj5fhTqcVjGWMkHJU3L9WtncDLQnf39GRU6wwKuFo8dSuJbCPyiOMPT
-4kFq/jI9O0T3Zb50J4SuE89c59k7G53YpusIf13rUTbtAVUW/QjVvQUIEh2HimCF
-hqXZF2cZ9nKELm6Hd9yub+3svfXojvbK3BWS5PrWlH2NJSL2dBTVe1r1al6h+cWM
-4FGp0Rw/NEFi32sdJMZmReNSVe3g2Wl/ZreXAAvsq5/w4glFpuDcMgxrkmzwTN17
-mW6CXtuqz4qO49qc1Co0u2ca1hA+A/a/9rIRSsLUyc+pTotSvwrng2E1+MrBoRPx
-ITukB63o8lZ9hzuSYv3sKeOh4SA/F1LF40ev0+4dtBwuhQ1il3g0fapLtTdqCb2o
-t1Id0hCz5v8JExeDir/XpwBN/abfMkQ3EmdNdYi01BL5hxPMlxk57qWaW5lQgDMK
-Rv9MN9tGceIDMReowwlINud3OV8FVeKqfP8FEZG0Masg8+7pdG3zA8b6kOL1jQo7
-heHdVE12X4A06T1KSy4O10MK0nubXEPzQleD31s8G5REz5+Qf7vKi59N6kK+HUcW
-7AOTIYTMxtoxesLC9Vqqhdd3
-=6A5T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDEur8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gu0P/j6k6a3SL7+mUIMEDrXF
+w4M7lE/xOe+LzozKjKQ+MmNg01MStmoYxcmu9TkqdxF7UkEi3UWWBZiccVB1KIHi
+yWtLH6NFJKC/lBmZw3xO0PlOWWc49yFcnXibjmDa/ejlPjCrKfEEd3mJKSaROa0h
+2NG17FOscje0OTMTwmQdV7Y3O/TBY2lomq4jUtss3xrLzxzUG3s606rEMeUuKitC
+7kLuiHbTuEcFED6Au1zk5BaH6VbBfRmXt3JF2VEVlJolv1Cdw622fOSVaps4TBxA
+M5T0eJIEzA74JmlSJ6IP9mLlNdmTrD6btBoQcJzuKSWRcwGwzaZeUbJasB+mK4E4
+tNGv+YsNFM1wAIBIDLya7PBgmA7mgAVPSFJgNGQAUBsp3w3D7Iki2lCKO66gSvuo
+sIFTFh0+QYDG6mQmXXbQhwF1+PDCrV5i2is4IyN1bbatLMRMSTxy1kGuqzOhp0ML
+S9f8W5lESSwfinaJ1hTrSNl7wogpH1Mi1ge1cOVmq8TFfy7vLPPsGS9FIHXfii/J
+wNk5nYOHJaOx593KCl8NPOTrJUXxT3ssPBX8R2C2QCma5TcONGLp1OMboOuMGoWU
+ubSwJ1jUyJPSx0DcFSGptuUmdznRGma7YFJnbUDsCb/Q5NepuhiBXCLOoxIaN22D
+Regtf28czoBppRPeepwTqM4z
+=0crJ
 -----END PGP SIGNATURE-----
 
---===============4884989796792128025==--
+--===============3394347815164890181==--
