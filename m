@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 12 Jun 2021 12:31:35 -0000
-Message-Id: <162350109549.1118.11986949825916144541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Sat, 12 Jun 2021 12:32:31 -0000
+Message-Id: <162350115143.1519.2491156364175673162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/watchdog-next
-    old: f447ec3ef33884f8e2d9ca11e05193eb7be69a43
-    new: 64bb1581de56fd4a3d7bf67293b6e71e8b2fda5a
+  - ref: refs/heads/master
+    old: 37896485b63be94d63aaf0c9064d9521177099b2
+    new: 6d47354e630f770c25b635ae80818ee4d37c050c
     log: |
-         8089e4023144c82dbc2c7fa237e680035dbccf43 dt-bindings: watchdog: Add Mstar MSC313e WDT devicetree bindings documentation
-         64bb1581de56fd4a3d7bf67293b6e71e8b2fda5a watchdog: Add Mstar MSC313e WDT driver
+         6d47354e630f770c25b635ae80818ee4d37c050c Release 1.15
          
