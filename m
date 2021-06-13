@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1059927949077778232=="
+Content-Type: multipart/mixed; boundary="===============7236994678908289789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 13 Jun 2021 11:35:29 -0000
-Message-Id: <162358412927.17635.2279772798333376230@gitolite.kernel.org>
+Date: Sun, 13 Jun 2021 11:35:33 -0000
+Message-Id: <162358413338.17711.4244920505276980227@gitolite.kernel.org>
 
---===============1059927949077778232==
+--===============7236994678908289789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
+  - ref: refs/heads/char-misc-linus
+    old: 3df4fce739e2b263120f528c5e0fe6b2f8937b5b
     new: 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2
-    log: revlist-8124c8a6b353-8ecfa36cd4db.txt
+    log: revlist-3df4fce739e2-8ecfa36cd4db.txt
 
---===============1059927949077778232==
+--===============7236994678908289789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584125 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584132 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1623584125-e4835c202b6f7ac09c96b0f2e5b9d6998e1012b4
+nonce 1623584131-69e4cc3185df99c6a2f0bef9a51d34774cdb77d8
 
-8124c8a6b35386f73523d27eacb71b5364a68c4c 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/main
+3df4fce739e2b263120f528c5e0fe6b2f8937b5b 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7X0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rv4P/jyyowpEtsS3ftMXSAEl
-nJsDqh0Q9jV0O6nhz+Q7vQGpLlBsDan6xlAtbq9K/XxQ2KvmEdrXGxnXa9YP9Tc9
-uuGIiyyCiK07kIsUXzj4lUm8rqQQVZ+qXkC/9qmYYpbnT5JY8Pj1ZNYObADURzIR
-uj/O1/bTskIrOWtjjj7Mopkeo2IQ+x4zKRpytG4HtTG29H59M8caSEuH2jWf3HwQ
-xmiz1Hj2UW4qGnOMbc7/JTox8MeFRZy2ulkajS7V1xDfarbBL3f0FUqbZGxW8VPV
-CN1hUk8kHl24j0w3AfGW+0LAnf5WOK5xd1eVBUvf3U1GrS2zop3o6pvT9ACqp4h6
-DdEHNfz6fZyvuKcWPCFQEl0ZGb3o4ORzZbSTUyLIzft8i8FDcNgANVrU0ObY/6Yr
-+j0fQaIRXZGwrUyymlX4QUGhTonS2nHVCnIK16m0ZIxQC24WvDpGwSOX4oRZ5ucW
-eqGd3YEu5nRRncCFIWhdn8NYstvOzcJwpgVgbxtOO9Y21UnxDWpHbrbYylnzNofR
-PR6Iy6kJ/81TS8bu9ak1oSBv753Gpkl3YpTDR5+Gx70lB+nbpAOmFwKEwSbhmV8s
-mrisO+JKcuxZrNfDAcPwZGui31IdSijHcI655v1nZ9dRA2P7HYpTZ8euvMhw0s27
-1Ga6tTtHHqQYX+YNP21Y1phI
-=M9Tq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7YQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ksoQAKu3QYGIRSmKNcqgC9vG
+rL9gTRTG7jqpvRGHEPQKtrI/5XllOMXMvzJeeU/JrRO7QjVuRXQT8SKGZDd4U8C8
+TyolrnO+jdFxeDH2LK+Df4T7PySdywWPmVHvrUdTz+TLXduC5nySlq78P3PrIqXW
+cjZwK69hOuIAunRj/SvZl+ZXeF1KAw87LbgDYnWAO6KS69Sn9nTm1W1mOvXe9Z8K
+c3weZbwf3AxYPDftL+s3casrNboVbFtfoL9Lc0Z7rIHddT52pBX5tXjNYrBoAxrs
+cz7UlkdRdMyJLquWpdQg/ZgV4e45zAKZWMA9z9LEcvlWpcOLcUfGkyw5qO0TZMyH
+rh0L4ILF4ZyUOatJC53FRDS7AbsWeZN4ndtMi772cmg1D7j6GrWVKqE5boWwxmQp
+9kZ2LwEYzJlTMW4i8QUCd/eFzz06EJwO5CfiIJNqONH40xMnHLkrDzL5sER0KG5o
+lokVB90emdVvEBvc7HONX7ahOm3syu3+JVaqly4ZN9yhrC5pdh+Z7ew1eIegiA9i
+hzu+3Ef0sLH+OC9B8rlbYA3yq9HVcvlMR6/kzgDNWBBuRc0bVIYL3VjbS6GYMOGi
+fPqwoGdWz3NMFF8k99UYkHOne/wTDLm2x22cEfA1AkL5QOskMR9sy2QuqfYfyCRt
+NCjwOQ1AOA98/g0onu0SVNXj
+=5MVv
 -----END PGP SIGNATURE-----
 
---===============1059927949077778232==
+--===============7236994678908289789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8124c8a6b353-8ecfa36cd4db.txt
+Content-Disposition: attachment; filename=revlist-3df4fce739e2-8ecfa36cd4db.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -88,7 +88,6 @@ ca0760e7d79e2bb9c342e6b3f925b1ef01c6303e Compiler Attributes: Add continue in co
 4792f9dd12936ec35deced665ae3a4ca8fe98729 clang-format: Update with the latest for_each macro list
 0e4a4a08cd78efcaddbc2e4c5ed86b5a5cb8a15e ARM: dts: imx6dl-yapp4: Fix RGMII connection to QCA8334 switch
 8967b27a6c1c19251989c7ab33c058d16e4a5f53 ARM: dts: imx6q-dhcom: Add PU,VDD1P1,VDD2P5 regulators
-7c2fc79250cafa1a29befeb60163028ec4720814 phy: usb: Fix misuse of IS_ENABLED
 df61cd9393845383adc4ea2410f2a91e1d1972b6 arm64: dts: ti: k3-am654-base-board: remove ov5640
 52ae30f55a2a40cff549fac95de82f25403bd387 arm64: dts: ti: j7200-main: Mark Main NAVSS as dma-coherent
 a0812885fa7a1074c8003484b8176ffe28d5df68 arm64: dts: ti: k3-*: Rename the TI-SCI clocks node name
@@ -231,9 +230,6 @@ a06bc96902617e93920fea4ce376b8aca9dd3326 soc: amlogic: meson-clk-measure: remove
 f268c3737ecaefcfeecfb4cb5e44958a8976f067 tick/nohz: Only check for RCU deferred wakeup on user/guest entry when needed
 6c605f8371159432ec61cbb1488dcf7ad24ad19a perf: Fix data race between pin_count increment/decrement
 4a0e3ff30980b7601b13dd3b7ee275212b852843 perf/x86/intel/uncore: Fix a kernel WARNING triggered by maxcpus=1
-6411e386db0a477217607015e7d2910d02f75426 phy: cadence: Sierra: Fix error return code in cdns_sierra_phy_probe()
-aaac9a1bd370338ce372669eb9a6059d16b929aa phy: phy-mtk-tphy: Fix some resource leaks in mtk_phy_init()
-b8203ec7f58ae925e10fadd3d136073ae7503a6e phy: ti: Fix an error code in wiz_probe()
 1ab19c5de4c537ec0d9b21020395a5b5a6c059b2 gfs2: Fix use-after-free in gfs2_glock_shrink_scan
 e4dfe108371214500ee10c2cf19268f53acaa803 ACPICA: Clean up context mutex during object deletion
 671cc352acd3e2b2832b59787ed8027d9f80ccc9 drm/tegra: Correct DRM_FORMAT_MOD_NVIDIA_SECTOR_LAYOUT
@@ -331,8 +327,6 @@ c5699e2d863f58221044efdc3fa712dd32d55cde drm/amd/display: Fix potential memory l
 07438603a07e52f1c6aa731842bd298d2725b7be drm/amdgpu: make sure we unpin the UVD BO
 e7591a8d56bab89c617dae055446b6337ec32dc9 amd/display: convert DRM_DEBUG_ATOMIC to drm_dbg_atomic
 b45f189a19b38e01676628db79cd3eeb1333516e ext4: fix accessing uninit percpu counter variable with fast_commit
-d6e9e8e5dd53419814eb54803b4ab3682b55cebe phy: ralink: phy-mt7621-pci: drop 'of_match_ptr' to fix -Wunused-const-variable
-d1ce245fe409241ed6168c835a5b55ef52bdb6a9 phy: Sparx5 Eth SerDes: check return value after calling platform_get_resource()
 9c1fe96bded935369f8340c2ac2e9e189f697d5d ALSA: timer: Fix master timer notification
 b8b90c17602689eeaa5b219d104bbc215d1225cc ALSA: hda: update the power_state during the direct-complete
 ad6f5cc5f6c261f881e44ecd750f17952df2b496 net/ieee802154: drop unneeded assignment in llsec_iter_devkeys()
@@ -403,7 +397,6 @@ f41bfc7e9c7c1d721c8752f1853cde43e606ad43 usb: typec: tcpm: Correct the responses
 55b54c269beef13d88dc30544df34763a90dc815 dt-bindings: connector: Add PD rev 2.0 VDO definition
 7ac505103572548fd8a50a49b2c22e1588901731 usb: typec: tcpm: Introduce snk_vdo_v1 for SVDM version 1.0
 80137c18737c30d20ee630e442405236d96898a7 usb: typec: tcpm: Fix misuses of AMS invocation
-757d2e6065164ae406da3e64458426213c884017 Merge tag 'phy-fixes-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-linus
 1d0d3d818eafe1963ec1eaf302175cd14938188e usb: dwc3: meson-g12a: Disable the regulator in the error handling path of the probe
 4d2aa178d2ad2fb156711113790dde13e9aa2376 usb: dwc3-meson-g12a: fix usb2 PHY glue init when phy0 is disabled
 165ea85f14831f27fc6fe3b02b35e42e50b9ed94 btrfs: do not write supers if we have an fs error
@@ -557,10 +550,6 @@ e9de1ecadeab5fbffd873b9110e969c869554a56 staging: ralink-gdma: Remove incorrect 
 c8a570443943304cac2e4186dbce6989b6c2b8b5 drm/mcde: Fix off by 10^3 in calculation
 159d8c274fd92438ca6d7068d7a5eeda157227f4 ACPI: Pass the same capabilities to the _OSC regardless of the query flag
 7c3e8d9df265bd0bdf6e328174cdfba26eb22f1c serial: 8250_exar: Avoid NULL pointer dereference at ->exit()
-c7711c22c6ebc07a19a3dbdf87b05d9aa78f5390 bus: mhi: pci_generic: T99W175: update channel name from AT to DUN
-0b67808ade8893a1b3608ddd74fac7854786c919 bus: mhi: pci_generic: Fix possible use-after-free in mhi_pci_remove()
-5f0c2ee1fe8de700dd0d1cdc63e1a7338e2d3a3d bus: mhi: pci-generic: Fix hibernation
-3df4fce739e2b263120f528c5e0fe6b2f8937b5b misc: rtsx: separate aspm mode into MODE_REG and MODE_CFG
 faffc5d8576ed827e2e8e4d2a3771dbb52667381 dt-bindings: hwmon: Fix typo in TI ADS7828 bindings
 7656cd2177612aa7c299b083ecff30a4d3e9a587 hwmon: (corsair-psu) fix suspend behavior
 78d13552346289bad4a9bf8eabb5eec5e5a321a5 hwmon: (scpi-hwmon) shows the negative temperature properly
@@ -631,4 +620,4 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 2e3025434a6ba090c85871a1d4080ff784109e1f mm: relocate 'write_protect_seq' in struct mm_struct
 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 Merge tag 'riscv-for-linus-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============1059927949077778232==--
+--===============7236994678908289789==--
