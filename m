@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2434645532621334540=="
+Content-Type: multipart/mixed; boundary="===============4532724852577241540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 13 Jun 2021 13:22:10 -0000
-Message-Id: <162359053017.11822.9811366835347358231@gitolite.kernel.org>
+Date: Sun, 13 Jun 2021 13:22:11 -0000
+Message-Id: <162359053119.11874.1647876077626701160@gitolite.kernel.org>
 
---===============2434645532621334540==
+--===============4532724852577241540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,81 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 2b9e462d8dc2b13e6b5d9dc8c7ed95502c9718f5
-    new: 39e7da7ca4f385c2c129f317f889be041344b72a
-    log: revlist-2b9e462d8dc2-39e7da7ca4f3.txt
+  - ref: refs/heads/linux-4.9.y
+    old: d98bf8b949c03b840010c5a4f2671b7c79019d76
+    new: 91fa6758f929d2af6f2e80ac4e7effc0e9c5367e
+    log: revlist-d98bf8b949c0-91fa6758f929.txt
 
---===============2434645532621334540==
+--===============4532724852577241540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623590528 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623590529 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1623590527-a070afe9b4f7cdb5fbea2391547ab806cb44bb04
+nonce 1623590528-c389c9e10cb315b7afcbec919f25ba42440f7db3
 
-2b9e462d8dc2b13e6b5d9dc8c7ed95502c9718f5 39e7da7ca4f385c2c129f317f889be041344b72a refs/heads/linux-4.4.y
+d98bf8b949c03b840010c5a4f2671b7c79019d76 91fa6758f929d2af6f2e80ac4e7effc0e9c5367e refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDGBoAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+thkP/0xdlDKDj2ZemjUYD6DA
-g0KwrErD1CxqMuDEHEWJAOZInLWEg2D3S2/47ydQ8Kp3ff5cgsMACDFn1O5Hbr0/
-06AsKEY8i5vEkYiBtzqMK0EWWcRm/4SJvbbwd9QblH9JhLqQLfiTulcOwacMPnoL
-TI7PBFPz4TwiGakmq3C5f1+jrGbJDTtPArKAE1qio8qgpYolQxt2GEEsvHuE1yJv
-sz01lpLUVn91Q6/q4Sets+zasSkhVw6q1VIdV533RV2xobPpZ9wyp0Oe0RSQPGQr
-dGVp8vfY71s2ASp4xo/T782TWRMAScCTQ4S6nNpJapmDrUZO0ckM0UT/edNRu4zl
-KtAOnFUp/rqINCz62cCetY/66c3uFJzB4C80ET6WKOMX4T+KqyhwofZvqfUugMKm
-mbqkoCK6oR6zhJSu8uZp17ZuJkKVQWM6iyUklegLqjc4ySXy3NEEn84TMtBWK9sO
-cZVRt56XlNNx031l1u/xzi9V/vgiMklrx7MAelOYWSr0tgkossXJ6PMKq6WurBx+
-xYFOH/LShzyNGOptylcvVh80Fi3CQjkPlNBMYb7cCTJ3q5elUyMIStfrIhtZ41wQ
-kg9tXdSfdqNO0ktrvRmCLa4GqxOPBGQOyLQxg3i5Val/6sCGw0FRj9AYBl7eQfA2
-bTjNDnT2RHuVDIVU1iee4N13
-=Akqr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDGBoEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+euEP+wQI7TvKQ5V4hdvJUZ5t
+ec9orX1XDI1I8K5GYUROpB/rV6ycY+eGjHdXpkCDb82UkMwCKW8GcbhgI4mia1ne
+pNNSw03p/kWoaIJ4mIUeNQ4N/nXw9ng3Y2jQ/gB4VcpT4i6OzrhQyoSs/YeKbIBX
+cJlWOHf7lAnuWvW0ckuqau9QIwzMcf5HGUyugx6+WK06euXqLq/Vgv+f03o5pyEg
+juQ8GaI8cX6MUY7FhHmcUOKGD/Bf1i/NoZs5Xj3RsmpR2nTKpJ6tFxCZND3uvFsP
+Tl2GkdmoT48BCEBfCMf5C9L6XT+lw7LvtfaFHMsl7bdJ3qW7CDj9dfCPyPGPQGd6
+4z/KlssCsDnKLtwrdSjJUB2O0xh5XXpSOQ27bFm3geGeDGevuCTve2vlnDXW3ohv
+WeQXj+j02XdfY0PSbPQzm1bJ86CHqGE2Fyukx409eo80F1Dzx4vEZoH7Ch4HeL8j
+zClzOQkYajZXPRh9qO4rKtdnBMBg19KYPHOxGTYcMiU/4Zhm5uBbFegJGZTAni+2
+DtWt6G+UxuACex/b55qo0/SGFNYjuexM+0LiahPE8ykpkwWch/mXOPt9/mw9/dgH
+NUOeqpou/3oiiAWMSAEBFY7jvZKL6I8gQDnC/DbP6Ai2w6tujWzHeICsNUu+gGSF
+etwOcRkm8MVB5BQPESLh+3Ox
+=fUzp
 -----END PGP SIGNATURE-----
 
---===============2434645532621334540==
+--===============4532724852577241540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b9e462d8dc2-39e7da7ca4f3.txt
+Content-Disposition: attachment; filename=revlist-d98bf8b949c0-91fa6758f929.txt
 
-b58d551827604973ddc4261657fbdcdcbaf246e1 proc: Track /proc/$pid/attr/ opener mm_struct
-68a18df26e41a213d59630a3d767a51c44962276 net/nfc/rawsock.c: fix a permission check bug
-bfdf4daf7b54f5cee37a3a7d81943babb0d00e0a ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-9c6f8d22d0e0e3859b26f0989e587dd89116190f isdn: mISDN: netjet: Fix crash in nj_probe:
-138c59264131960df55d5bad8de9a11893a144f0 bonding: init notify_work earlier to avoid uninitialized use
-83e1484b1d1de6169ac01c3c66191e4f1d038a43 netlink: disable IRQs for netlink_lock_table()
-3f6b8acef0e58c9063ae5aa5dd2c7e524a9105a1 net: mdiobus: get rid of a BUG_ON()
-c23c132816de8d7717434b8373e6b2ad9d5e2e53 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-5068df94a261b6d9b5acb1c5ff3514949b7a312d scsi: vmw_pvscsi: Set correct residual data length
-544588becfefa6af89c8da3385f43fcd04a8365d scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-0af0b26971d6a670a9060fc2fb1b35f7bc1909d1 net: macb: ensure the device is available before accessing GEMGXL control registers
-4fb4f088a5dd5a71d70ffb7b125b012e251d0f7b net: appletalk: cops: Fix data race in cops_probe1
-529afa3cf79217401bfd4a2491190f7f44f612d6 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-25076d13029358781aceae23438911cc0e50eda6 bnx2x: Fix missing error code in bnx2x_iov_init_one()
-64ec3bafb805363c05699ff9022d3aec27d12a81 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-1aaceecd5f2ac550adbd1d1fca4a940f349e91bb powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-b9190a0bc7c5711ff0cef43a5634762ea3cd0621 i2c: mpc: Make use of i2c_recover_bus()
-fefcb0c421606bf6925cde2a3eadcba7ce86c95f i2c: mpc: implement erratum A-004447 workaround
-ab803b3af51c4f5f1c85febf1aa969305250f509 kvm: avoid speculation-based attacks from out-of-range memslot accesses
-9a33fc9368c0b7c3991ea6dd518d475558e7ab7d btrfs: return value from btrfs_mark_extent_written() in case of error
-9eee2df23d7a433f3de8eab1465b32b5090b1ba6 cgroup1: don't allow '\n' in renaming
-8b0585864bdfdb81ec599807f0f1ce2b9e253719 USB: f_ncm: ncm_bitrate (speed) is unsigned
-817b0d29202a0c692a915786abf5699f62f093c8 usb: dwc3: ep0: fix NULL pointer exception
-272d3257999a8aa1fe38a8fba5d02b7e230730df USB: serial: ftdi_sio: add NovaTech OrionMX product ID
-3e0739961d777faceeeb709c4a9aaf5fe02183c7 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
-f625978c08d81de3a8d6f3846c10a0d9a4b756bc USB: serial: quatech2: fix control-request directions
-745551de4b0016de9a0dd21ec3cc786d7236a942 usb: gadget: eem: fix wrong eem header operation
-d51069c48a7b0e8464647ad40551de658edebd12 perf: Fix data race between pin_count increment/decrement
-39e7da7ca4f385c2c129f317f889be041344b72a Linux 4.4.273-rc1
+e6515d190538412c1070b20cd0916a4885f78495 proc: Track /proc/$pid/attr/ opener mm_struct
+90c13fe5d3f4b2326443a86d9369b4612d7a7b7e net/nfc/rawsock.c: fix a permission check bug
+290e1834dbac6ee4ae30b6e2d486f14018619728 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+95d7cfd0f5ecd5f65533c812cbf4f6453986b3a6 isdn: mISDN: netjet: Fix crash in nj_probe:
+88136bc934b1a3994701471e10427d93f4baab95 bonding: init notify_work earlier to avoid uninitialized use
+d01444bbaac3e1e6e0dca43ae5c8190074694ce6 netlink: disable IRQs for netlink_lock_table()
+b274030cde28995a04eab3a0168ffd17f4a67da6 net: mdiobus: get rid of a BUG_ON()
+8fe66ce9e3f231450c4be9035dee4becce7c3fbe cgroup: disable controllers at parse time
+485369aa50956b5ffdf5d7e546c4b3a8945a0a70 wq: handle VM suspension in stall detection
+7829a315d6296b821ced514a47c81e0577088794 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+4b0a426bc49f03cb3e54ec730a95f16562e83da7 scsi: vmw_pvscsi: Set correct residual data length
+8278c5d81e6250ff88039d72b24ea7bc61d73b07 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+60dbfb912d08cf7be7a62c021731846926c895ee net: macb: ensure the device is available before accessing GEMGXL control registers
+49a0a57f3086e784f03517775295d1c7b809ed1e net: appletalk: cops: Fix data race in cops_probe1
+55ebc0d312a170a2f49c25bbaa04a4f5ad49f43e MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+7f357ae48579fd171d30ad3ac42e113419bf01dc bnx2x: Fix missing error code in bnx2x_iov_init_one()
+710fa1d008486fb9bdac8e369a0b89c615f1dcab powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+e1e794922b9430421f3892a16ec5a5067cf4c2ba powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+d8c530a4256befe229caf85c1a14f5096d94f92d i2c: mpc: Make use of i2c_recover_bus()
+c4600b4dc8aa563e7bc7864d8dae6c4bf83a3bfa i2c: mpc: implement erratum A-004447 workaround
+69972a93929fa870c7ec1b41e00cbba5081b3811 drm: Lock pointer access in drm_master_release()
+2670478f143b8afb3730d716dd5755a05403ec62 kvm: avoid speculation-based attacks from out-of-range memslot accesses
+887635b606d28f97c04628049043f38525b3d82f btrfs: return value from btrfs_mark_extent_written() in case of error
+bc8bfbccef8dedf5ac9d546471ce64efcb8943a6 cgroup1: don't allow '\n' in renaming
+ab7d59b1824e1cdbc9a75d225b0f749d06f494b3 USB: f_ncm: ncm_bitrate (speed) is unsigned
+b4f84a45408c4882c26556dd53bc3ec5674fb9b6 usb: dwc3: ep0: fix NULL pointer exception
+c475dbaec6667ad963d76a6f1631e0d84131f1aa USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+16700ec2746578b023da7dca816811ae14b2f4e9 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+2ad7b35c195127d18ef771e4290492b693a7e1b4 USB: serial: quatech2: fix control-request directions
+75f38c6d020efb4bfc351a53544bd181dc912747 usb: gadget: eem: fix wrong eem header operation
+989c49f064068052574e3af4106113bc63d2ea8c usb: fix various gadgets null ptr deref on 10gbps cabling.
+ff11ba9eb1d5e914526cd60e42b0aa32a284f3dd usb: fix various gadget panics on 10gbps cabling
+a673b6bd061bbff93445768db8c0a8dc98c1b5f3 regulator: core: resolve supply for boot-on/always-on regulators
+ed1c29b0f3e629cabf43ab9649617e9136a95eaa perf: Fix data race between pin_count increment/decrement
+91fa6758f929d2af6f2e80ac4e7effc0e9c5367e Linux 4.9.273-rc1
 
---===============2434645532621334540==--
+--===============4532724852577241540==--
