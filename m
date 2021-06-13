@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 13 Jun 2021 00:30:03 -0000
-Message-Id: <162354420369.3201.17461606452461800627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sun, 13 Jun 2021 00:51:46 -0000
+Message-Id: <162354550659.16864.9468326922772368138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 5f10d81b1c765dcb06959ce9a35dd1dc1175429e
-    new: 71f8471f85fbb1262522d61cfa2b3315d21660fa
+  - ref: refs/heads/for-next
+    old: 14512690a16537527dacf0f5cd3d2263be317f35
+    new: 0918a3c9b00bf666bd58e3df16179511f5769409
     log: |
-         71f8471f85fbb1262522d61cfa2b3315d21660fa Sun 13 Jun 2021 12:29:33 AM UTC
+         79d9fc9a4a7803ce5d25701a75dd9eb1812e951a riscv: pass the mm_struct to __sbi_tlb_flush_range
+         0918a3c9b00bf666bd58e3df16179511f5769409 riscv: add ASID-based tlbflushing methods
          
