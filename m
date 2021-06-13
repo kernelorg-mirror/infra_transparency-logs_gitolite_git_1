@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2610637257753664223=="
+Content-Type: multipart/mixed; boundary="===============4510234756911545628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 13 Jun 2021 11:34:59 -0000
-Message-Id: <162358409978.15913.5562127136041197379@gitolite.kernel.org>
+Date: Sun, 13 Jun 2021 11:35:04 -0000
+Message-Id: <162358410439.17334.15337646851115718506@gitolite.kernel.org>
 
---===============2610637257753664223==
+--===============4510234756911545628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
+  - ref: refs/heads/staging-linus
+    old: e9de1ecadeab5fbffd873b9110e969c869554a56
     new: 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2
-    log: revlist-8124c8a6b353-8ecfa36cd4db.txt
+    log: revlist-e9de1ecadeab-8ecfa36cd4db.txt
 
---===============2610637257753664223==
+--===============4510234756911545628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584095 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584103 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1623584095-19b80d81bcea2a55da3c112f18c90bfae09427be
+nonce 1623584102-08cae6ba8e59f048ef5d9aef9fc170073532398b
 
-8124c8a6b35386f73523d27eacb71b5364a68c4c 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/main
+e9de1ecadeab5fbffd873b9110e969c869554a56 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7V8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VtsP/3CfEhAdpEusTd9jM84x
-U78Lspp+k5YAOCT4TRtwLUXUYSbrkZhZ2TUaewZ6HS0e/PYCab162K2SJGaHBa70
-EoOOP/4YIkZ8o+0SLHNQq1lxVk50kKSYSkFUl4749lbFV6vq2JpoRa9HazfPY2Aq
-VRlA/lu1sErdgVEJUWCW+o01NqZqOS9T2UdiMkC+wn9o0o9mXZEDYXs9rp+xvRJe
-9PFXJo4IvBCwOO6toDnuC+egTK9j6aZbqMqMRtWAvfXfKZmrH81MZctV8OEwYuZp
-s1ZfgD1/Qde9SEz+EvmBjP+83enhdrsnNP4LrbyH3oPI+/v+MbXFsSAmSM1cJmdG
-lOWstORQhXxLvtwZbTHKIuy6rxHRlcJFNlfeSvFRerDwMXO3MCggfoxRSxaggRPf
-yA0dl/9rZAWu0ahn2YVDk2mjz6SgdcbRe/oD7lXf956jF7Fy4EE43+fK+PJUfPBx
-TfLt0EWw8Ooy3SiDjanJpjeQrItxtBm1zWfrqRaKtJzkyKLN6gQuNgjngL2sq+uv
-R3KvndU+CbYH+xgEb127GPb31zLjvcm/Ch11aFcc7sUhhQgdE4TMynVGi2nfSWMo
-r9vIpFkCpD+r1CgB9DouWPAO7ZGHyfPJxauk6V8LaFBJhEEemIZ+Lbv5AFls+0JR
-JTyDW/rQpoAHpaadvBjSaxOQ
-=NX+y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7WcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xCcP/jTufz1FI2MNQuG1M0Jf
+8VQuBVx0BRKlNFhjuaSUOW5wjKnChCr5J3hSjYAg4XzixMRjkBvvzghlj7EhcxN/
+T7pdjUgv3cUyr8X27+lAAf8iCadeOqj+6eY7+7WaU1rGbT7evM46WL1+FqjuCX32
+LEWDC96Yo2IgtHKzRQPkP2ZtagDQ6O3ZmGYfmxwWgzsbVXZ1D2+OfYjZ5DcUxWxm
+hurObTBloaD9zTLM1mEA6vs9K/fT+PdGFwRWfdmL0oDo8w9+Yjb7cZG3ARzWiDHH
+HVoqi0rrKh9wOcJv377kXh5eWFlKI3SRXCEDsSCFjVQnmId/ZIrqf0sqQ4NJ7BWs
+1u/PlMR04TtQLcrzpnW5zGQnFRTNaTZJIi9WWMiBqPBzijn392n1t3kDCYW8ZopD
+Hm2ZUSh+OFnXOxV/4fbJxP3ulvSxJUJEfTEGoIMMAVCi/EGKv2u6SUyyBvshAHgx
+sFQQrrLFKVk1yVJzw4r7E6eg0oTln1wwPKVk91PJNzK0nHi9t/yAQAyyJ/FMp6ya
+PBkU1Ec9p3rnp1LdXq60N8Wew+I466kkVJns6yHt8gXGj7vYBPgHJJ6nkkK7bjiT
+TnvhBKs5Ibxwc/Mq96RFmgpM7US6J41TZ4P9a/0w0SrhXixbtVMr6VB8M2naQ8qa
+97QSM0jR6rti+lFAOHM7Xpgf
+=H73b
 -----END PGP SIGNATURE-----
 
---===============2610637257753664223==
+--===============4510234756911545628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8124c8a6b353-8ecfa36cd4db.txt
+Content-Disposition: attachment; filename=revlist-e9de1ecadeab-8ecfa36cd4db.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -551,8 +551,6 @@ d1658268e43980c071dbffc3d894f6f6c4b6732a usb: pci-quirks: disable D3cold on xhci
 305f670846a31a261462577dd0b967c4fa796871 usb: gadget: eem: fix wrong eem header operation
 d00889080ab60051627dab1d85831cd9db750e2a usb: dwc3: ep0: fix NULL pointer exception
 fbf649cd6d64d40c03c5397ecd6b1ae922ba7afc usb: misc: brcmstb-usb-pinmap: check return value after calling platform_get_resource()
-43c85d770db80cb135f576f8fde6ff1a08e707a4 staging: rtl8723bs: Fix uninitialized variables
-e9de1ecadeab5fbffd873b9110e969c869554a56 staging: ralink-gdma: Remove incorrect author information
 30e9857a134905ac0d03ca244b615cc3ff0a076e pinctrl: qcom: Make it possible to select SC8180x TLMM
 c8a570443943304cac2e4186dbce6989b6c2b8b5 drm/mcde: Fix off by 10^3 in calculation
 159d8c274fd92438ca6d7068d7a5eeda157227f4 ACPI: Pass the same capabilities to the _OSC regardless of the query flag
@@ -631,4 +629,4 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 2e3025434a6ba090c85871a1d4080ff784109e1f mm: relocate 'write_protect_seq' in struct mm_struct
 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 Merge tag 'riscv-for-linus-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============2610637257753664223==--
+--===============4510234756911545628==--
