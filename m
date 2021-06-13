@@ -1,34 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7965074341493643245=="
+Content-Type: multipart/mixed; boundary="===============7438658332795684422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 13 Jun 2021 09:10:44 -0000
-Message-Id: <162357544444.24127.13341180405816921627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 13 Jun 2021 11:02:19 -0000
+Message-Id: <162358213995.27987.5914577048460441798@gitolite.kernel.org>
 
---===============7965074341493643245==
+--===============7438658332795684422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/auto-latest
-    old: b771c95249042aecaa70b1c470a4050b6fe2a4c3
-    new: 65ff382d8732f4668f54f4bfd296355bc89b59d7
-    log: revlist-b771c9524904-65ff382d8732.txt
   - ref: refs/heads/master
-    old: c9b7281cb6c9e135f7ab92e87562a7fc5738ff3c
-    new: 65ff382d8732f4668f54f4bfd296355bc89b59d7
-    log: revlist-c9b7281cb6c9-65ff382d8732.txt
+    old: 06af8679449d4ed282df13191fc52d5ba28ec536
+    new: 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2
+    log: revlist-06af8679449d-8ecfa36cd4db.txt
 
---===============7965074341493643245==
+--===============7438658332795684422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b771c9524904-65ff382d8732.txt
+Content-Disposition: attachment; filename=revlist-06af8679449d-8ecfa36cd4db.txt
 
 7c2fc79250cafa1a29befeb60163028ec4720814 phy: usb: Fix misuse of IS_ENABLED
 333944c7c3759c546035f1f9b0b4c72bdc5b7878 pinctrl: aspeed: Fix minor documentation error
@@ -40,25 +36,30 @@ fc0b3dc9a11771c3919eaaaf9d649138b095aa0f USB: serial: omninet: add device id for
 a9aecef198faae3240921b707bc09b602e966fce usb: cdnsp: Fix deadlock issue in cdnsp_thread_irq_handler
 dbec64b11c65d74f31427e2b9d5746fbf17bf840 gpio: wcd934x: Fix shift-out-of-bounds error
 6308c44ed6eeadf65c0a7ba68d609773ed860fbb ASoC: rt5659: Fix the lost powers for the HDA header
+7c7ad626d9a0ff0a36c1e2a3cfbbc6a13828d5eb sched/fair: Keep load_avg and load_sum synced
+02da26ad5ed6ea8680e5d01f20661439611ed776 sched/fair: Make sure to update tg contrib for blocked load
+f268c3737ecaefcfeecfb4cb5e44958a8976f067 tick/nohz: Only check for RCU deferred wakeup on user/guest entry when needed
+6c605f8371159432ec61cbb1488dcf7ad24ad19a perf: Fix data race between pin_count increment/decrement
+4a0e3ff30980b7601b13dd3b7ee275212b852843 perf/x86/intel/uncore: Fix a kernel WARNING triggered by maxcpus=1
 6411e386db0a477217607015e7d2910d02f75426 phy: cadence: Sierra: Fix error return code in cdns_sierra_phy_probe()
 aaac9a1bd370338ce372669eb9a6059d16b929aa phy: phy-mtk-tphy: Fix some resource leaks in mtk_phy_init()
 b8203ec7f58ae925e10fadd3d136073ae7503a6e phy: ti: Fix an error code in wiz_probe()
 ce1f25718b2520d0210c24f1e4145d75c5620c9f ASoC: topology: Fix spelling mistake "vesion" -> "version"
 a8437f05384cb472518ec21bf4fffbe8f0a47378 ASoC: fsl-asoc-card: Set .owner attribute when registering card.
 b640e8a4bd24e17ce24a064d704aba14831651a8 ASoC: SOF: reset enabled_cores state at suspend
+848ff3768684701a4ce73a2ec0e5d438d4e2b0da perf/x86/intel/uncore: Fix M2M event umask for Ice Lake server
 19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d ASoC: AMD Renoir - add DMI entry for Lenovo 2020 AMD platforms
 8212937305f84ef73ea81036dafb80c557583d4b usb: dwc3: gadget: Disable gadget IRQ during pullup disable
 03715ea2e3dbbc56947137ce3b4ac18a726b2f87 usb: dwc3: gadget: Bail from dwc3_gadget_exit() if dwc->gadget is NULL
 b65ba0c362be665192381cc59e3ac3ef6f0dd1e1 usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
 6490fa565534fa83593278267785a694fd378a2b usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
-a3e74fb9247cd530dca246699d5eb5a691884d32 RDMA/ipoib: Fix warning caused by destroying non-initial netns
 d6e9e8e5dd53419814eb54803b4ab3682b55cebe phy: ralink: phy-mt7621-pci: drop 'of_match_ptr' to fix -Wunused-const-variable
 d1ce245fe409241ed6168c835a5b55ef52bdb6a9 phy: Sparx5 Eth SerDes: check return value after calling platform_get_resource()
+fcf6631f3736985ec89bdd76392d3c7bfb60119f sched/pelt: Ensure that *_sum is always synced with *_avg
 320232caf1d8febea17312dab4b2dfe02e033520 ASoC: AMD Renoir: Remove fix for DMI entry on Lenovo 2020 platforms
 d031d99b02eaf7363c33f5b27b38086cc8104082 ASoC: meson: gx-card: fix sound-dai dt schema
 8bef925e37bdc9b6554b85eda16ced9a8e3c135f ASoC: tas2562: Fix TDM_CFG0_SAMPRATE values
-a0ffb4c12f7fa89163e228e6f27df09b46631db1 RDMA/mlx5: Use different doorbell memory for different processes
-404e5a12691fe797486475fe28cc0b80cb8bef2c RDMA/mlx4: Do not map the core_clock page to user space unless enabled
+68d7a190682aa4eb02db477328088ebad15acc83 sched/fair: Fix util_est UTIL_AVG_UNCHANGED handling
 8d396bb0a5b62b326f6be7594d8bd46b088296bd usb: dwc3: debugfs: Add and remove endpoint dirs dynamically
 9257bd80b917cc7908abd27ed5a5211964563f62 dt-bindings: connector: Replace BIT macro with generic bit ops
 8f11fe7e40683f8986aff8f1a46361ceca8f42ec Revert "usb: dwc3: core: Add shutdown callback for dwc3"
@@ -103,7 +104,6 @@ ab8363d3875a83f4901eb1cc00ce8afd24de6c85 radeon: use memcpy_to/fromio for UVD fw
 408434036958699a7f50ddec984f7ba33e11a8f5 drm/msm/a6xx: update/fix CP_PROTECT initialization
 b4387eaf3821a4c4241ac3a556e13244eb1fdaa5 drm/msm/a6xx: fix incorrectly set uavflagprd_inv field for A650
 ce86c239e4d218ae6040bec18e6d19a58edb8b7c drm/msm/a6xx: avoid shadow NULL reference in failure path
-edc0b0bccc9c80d9a44d3002dcca94984b25e7cf RDMA/mlx5: Block FDB rules when not in switchdev mode
 e8ba0b2b64126381643bb50df3556b139a60545a tools/bootconfig: Fix error return code in apply_xbc()
 824afd55e95c3cb12c55d297a0ae408be1779cc8 tools/bootconfig: Fix a build error accroding to undefined fallthrough
 6c14133d2d3f768e0a35128faac8aa6ed4815051 ftrace: Do not blindly read the ip address in ftrace_bug()
@@ -140,29 +140,20 @@ faffc5d8576ed827e2e8e4d2a3771dbb52667381 dt-bindings: hwmon: Fix typo in TI ADS7
 7656cd2177612aa7c299b083ecff30a4d3e9a587 hwmon: (corsair-psu) fix suspend behavior
 78d13552346289bad4a9bf8eabb5eec5e5a321a5 hwmon: (scpi-hwmon) shows the negative temperature properly
 6f7ec77cc8b64ff5037c1945e4650c65c458037d USB: serial: cp210x: fix alternate function for CP2102N QFN20
-0159bb020ca9a43b17aa9149f1199643c1d49426 Documentation: Add usecases, design and interface for core scheduling
 156172a13ff0626d8e23276e741c7e2cb2f3b572 irq_work: Make irq_work_queue() NMI-safe again
 a8383dfb2138742a1bb77b481ada047aededa2ba x86/nmi_watchdog: Fix old-style NMI watchdog regression on old Intel CPUs
 584fd3b31889852d0d6f3dd1e3d8e9619b660d2c objtool: Fix .symtab_shndx handling for elf_create_undef_symbol()
 c336a5ee984708db4826ef9e47d184e638e29717 drm: Lock pointer access in drm_master_release()
-2adcb4c5a52a2623cd2b43efa7041e74d19f3a5e RDMA: Verify port when creating flow rule
-6466f03fdf98dd78b9453deb8a7cb0d887c09fec RDMA/mlx5: Delete right entry from MR signature database
-2ba0aa2feebda680ecfc3c552e867cf4d1b05a3a IB/mlx5: Fix initializing CQ fragments buffer
-b7e24eb1caa5f8da20d405d262dba67943aedc42 cgroup1: don't allow '\n' in renaming
 170b763597d3a0a79f135e4d83a38462c3964fdf drm/msm/dsi: Stash away calculated vco frequency on recalc
 63a8eef70ccb5199534dec56fed9759d214bfe55 USB: serial: cp210x: fix CP2102N-A01 modem control
 83e197a8414c0ba545e7e3916ce05f836f349273 ALSA: seq: Fix race of snd_seq_timer_open()
 fb8543fb863e89baa433b4d716d73395caa1b7f4 hwmon: (tps23861) define regmap max register
 b325d3526e14942d42c392c2ac9fbea59c22894c hwmon: (tps23861) set current shunt value
 e13d1127241404f1c3eb1379ac4dd100eaf385b4 hwmon: (tps23861) correct shunt LSB values
-0e5a89dbb49920cea22193044bbbfd76a9b0f458 doc: Remove references to IBM Calgary
-29a877d5768471c5ed97ea967c0ee9436b8c03fc Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 d5ab95da2a41567440097c277c5771ad13928dad usb: typec: wcove: Use LE to CPU conversion when accessing msg->header
 e0e8b6abe8c862229ba00cdd806e8598cdef00bb usb: gadget: fsl: Re-enable driver for ARM SoCs
 f247f0a82a4f8c3bfed178d8fd9e069d1424ee4e usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
 142d0b24c1b17139f1aaaacae7542a38aa85640f usb: typec: mux: Fix copy-paste mistake in typec_mux_match
-f09eacca59d27efc15001795c33dbc78ca070732 Merge branch 'for-5.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-06af8679449d4ed282df13191fc52d5ba28ec536 coredump: Limit what can interrupt coredumps
 992da01aa932b432ef8dc3885fa76415b5dbe43f io_uring: change registration/upd/rsrc tagging ABI
 9690557e22d63f13534fd167d293ac8ed8b104f9 io_uring: add feature flag for rsrc tags
 5e63215c2f64079fbd011df5005c8bea63f149c2 riscv: xip: support runtime trap patching
@@ -174,7 +165,6 @@ f09eacca59d27efc15001795c33dbc78ca070732 Merge branch 'for-5.13-fixes' of git://
 858cf860494fab545abfa206d17efcb8bee73e36 riscv: alternative: fix typo in macro name
 2d49b721dc18c113d5221f4cf5a6104eb66cb7f2 objtool: Only rewrite unconditional retpoline thunk calls
 abd062886cd103196b4f26cf735c3a3619dec76b Revert "usb: gadget: fsl: Re-enable driver for ARM SoCs"
-1d3156396cf6ea0873145092f4e040374ff1d862 x86/sgx: Correct kernel-doc's arg name in sgx_encl_release()
 7c4363d3948535e6a9116a325b2fb56eab6b88ff Merge tag 'usb-serial-5.13-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 bc8865ab32bb8d71b607cf73a8367ceebda88767 Merge branch 'acpi-bus'
 f30dc8f94e4ffe0e0524fbf79cb6602f48068b4f Merge tag 'mmc-v5.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
@@ -203,54 +193,5 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 43cb5d49a99b3ecd9fef9826899aac948c3048da Merge tag 'usb-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2e3025434a6ba090c85871a1d4080ff784109e1f mm: relocate 'write_protect_seq' in struct mm_struct
 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 Merge tag 'riscv-for-linus-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-8a1a6d660942f10443a319fc840ccaef07b12e1d Merge branch 'x86/urgent'
-3c391c9a359e22dd89635fe89fa06d738252d429 Merge branch 'x86/splitlock'
-bbdccc0baa9fea3fb42d222791bdb11d641828f7 Merge branch 'x86/mm'
-db4e8107b8bd3a9e192e292825317c4a278bcce9 Merge branch 'x86/misc'
-d6cfb22f2043c875d932b837f2782e1af90d6492 Merge branch 'x86/irq'
-c31aca8a3a3418909dfc792596b90638f5d57a40 Merge branch 'x86/fpu'
-bf1d029cdab87a5674ec8ebd5b7c3255ca481671 Merge branch 'x86/entry'
-4897b6677ee7e1ed0f4254c1ae43ead81cf071f7 Merge branch 'x86/cpu'
-86b2cfc5bfafae953d2e3df2edfe353f75f56f7d Merge branch 'x86/cleanups'
-3e4e558720a1911d55b49775be9e7379d7102d11 Merge branch 'x86/boot'
-1f1b156bb5d158b1c51f6b609917793626e6a47e Merge branch 'x86/apic'
-62665351c3528c06b86306c8bb8627bb4f319b9c Merge branch 'timers/nohz'
-458cc61b24679f0fd4d0aabc837d6cea3b09dd0a Merge branch 'timers/core'
-9ddda4c730c1219f4617907df6f5d15c5fbbd143 Merge branch 'smp/core'
-81224f031f539fd1f37ec4d8f8467157aea765f7 Merge branch 'sched/core'
-1acbf2dc7a59a1c3aa1beafda076cbeea6fd45b4 Merge branch 'ras/core'
-4e9e2d58a6d660f071ff467693668acb44b33ea5 Merge branch 'perf/core'
-1a486686217874e0d66c7152048786f919db7a20 Merge branch 'objtool/core'
-afab89f5a6b11da9399cd8ea45f7b1a9517422d8 Merge branch 'locking/core'
-a3a98ae03d59c69bfba954484970eecd38dd8455 Merge branch 'irq/core'
-65ff382d8732f4668f54f4bfd296355bc89b59d7 Merge branch 'efi/core'
 
---===============7965074341493643245==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9b7281cb6c9-65ff382d8732.txt
-
-8a1a6d660942f10443a319fc840ccaef07b12e1d Merge branch 'x86/urgent'
-3c391c9a359e22dd89635fe89fa06d738252d429 Merge branch 'x86/splitlock'
-bbdccc0baa9fea3fb42d222791bdb11d641828f7 Merge branch 'x86/mm'
-db4e8107b8bd3a9e192e292825317c4a278bcce9 Merge branch 'x86/misc'
-d6cfb22f2043c875d932b837f2782e1af90d6492 Merge branch 'x86/irq'
-c31aca8a3a3418909dfc792596b90638f5d57a40 Merge branch 'x86/fpu'
-bf1d029cdab87a5674ec8ebd5b7c3255ca481671 Merge branch 'x86/entry'
-4897b6677ee7e1ed0f4254c1ae43ead81cf071f7 Merge branch 'x86/cpu'
-86b2cfc5bfafae953d2e3df2edfe353f75f56f7d Merge branch 'x86/cleanups'
-3e4e558720a1911d55b49775be9e7379d7102d11 Merge branch 'x86/boot'
-1f1b156bb5d158b1c51f6b609917793626e6a47e Merge branch 'x86/apic'
-62665351c3528c06b86306c8bb8627bb4f319b9c Merge branch 'timers/nohz'
-458cc61b24679f0fd4d0aabc837d6cea3b09dd0a Merge branch 'timers/core'
-9ddda4c730c1219f4617907df6f5d15c5fbbd143 Merge branch 'smp/core'
-81224f031f539fd1f37ec4d8f8467157aea765f7 Merge branch 'sched/core'
-1acbf2dc7a59a1c3aa1beafda076cbeea6fd45b4 Merge branch 'ras/core'
-4e9e2d58a6d660f071ff467693668acb44b33ea5 Merge branch 'perf/core'
-1a486686217874e0d66c7152048786f919db7a20 Merge branch 'objtool/core'
-afab89f5a6b11da9399cd8ea45f7b1a9517422d8 Merge branch 'locking/core'
-a3a98ae03d59c69bfba954484970eecd38dd8455 Merge branch 'irq/core'
-65ff382d8732f4668f54f4bfd296355bc89b59d7 Merge branch 'efi/core'
-
---===============7965074341493643245==--
+--===============7438658332795684422==--
