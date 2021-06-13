@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6457622886013419175=="
+Content-Type: multipart/mixed; boundary="===============3362747358906667809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 13 Jun 2021 11:35:59 -0000
-Message-Id: <162358415989.18065.6981840005775600662@gitolite.kernel.org>
+Date: Sun, 13 Jun 2021 11:36:03 -0000
+Message-Id: <162358416360.18146.7528410498079631629@gitolite.kernel.org>
 
---===============6457622886013419175==
+--===============3362747358906667809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
+  - ref: refs/heads/driver-core-linus
+    old: f501b6a2312e27fffe671d461770426fe5162184
     new: 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2
-    log: revlist-8124c8a6b353-8ecfa36cd4db.txt
+    log: revlist-f501b6a2312e-8ecfa36cd4db.txt
 
---===============6457622886013419175==
+--===============3362747358906667809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584156 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584162 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1623584156-5f6985d8e52fce81d508ecca33cde84d0265de75
+nonce 1623584162-70ce7ffbbc5451a71943dc45523d6c6a7de6ef14
 
-8124c8a6b35386f73523d27eacb71b5364a68c4c 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/main
+f501b6a2312e27fffe671d461770426fe5162184 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7ZwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pooQALxlb1IBNBevCi+GoXIV
-mvhfyqCn5VaJaVdjlpgl2NXfOqHPEtPTCky/0jtXdWkWli3MblFrX1cSMOZ9Gast
-H+aeptFlRYs9MN2QyXz0OqtwK80pZPB2sIRoJNofCXStkFQne7m6+04nZo+RZe2+
-4GfaKCBa2BDDjcxPPOOE9OrxdJyPJXJja51WBI8UUxYXEUMKhz6A9rToaac0zKJn
-7xshtbr76QpHzczty/e62tkQgbxA60CcMvlkyrVd4Mecp2xf65G9P0+3CxCPP8nY
-LGQNnKQKrPEWGM/qhPx/C88bBqsbABaaJ2P5ppX1VLV+mEyXObaLSshSNpELfYwZ
-qLuxwRAn96911vvEciCvsOreu7ERLJKkg2HiI4X3nnZzk3oJBrF++IBmVjRBCBEJ
-B/wNlu8Z4E55zTgYPNsccVksjgTMI0U8J7LO+m7oBWH+a/qxet+eTyJkOEggyj9/
-FCwIiooOHmsQMBTY/kGQtSulhyj0AxA32Y4OZV9zwYEOx1TEx1MhcrVTCKHKpeOE
-7QuebqILz6lPZOMT1mrtRV/QBPQ9rJoLXnLnSRkrkbEiMjwqWW8/0UlqYFvAbWaF
-A6pTaqB9IB6rrNDO7NqM7pmDIhgj/bHQuaUaFZIi8ctFiDxvaesFQYoOtlvjzPau
-VSNqLoh25Fo9JLgI4JFcqBCh
-=s/hW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7aIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g+oQAJW1ldRC5+YwZu8lHGCX
+H4v+QaxsjhYNYvxz255aX638y0PJfy+SyRuFH7oD3q03hrFSFiroouIJdBh5tZdm
+dR4WwAXw3ElY1dpleCgAOcYwmdiA8kZEivulVC37xA8B5qfWtnWIPTImeq7JHAZH
+O2maYFk+HRvlD1LNn0LjNerSEUc/xrIrO/dnC40l5QBRY2XI/3w5QVC7cY3CwvYx
+DcMmJQdFFiOKEZyyJtGNgQ9iSFi54IsG5UxMi/oObdV2LeLsVc/D4f54nkQYgTip
+AI5Ots2/R8RckRWW30FvSMn2rqT4c/gztLcFSk0zBwQIv/3cpckLZOHsrC7Gq3kV
+90YPyyng0g4rdTDNGEqoYgU0kk7Ytw260AGU0ZV/XIG9JCFiXCjpXN3WngnCAS7c
+5dyyJSd7T39SqIRbKPfvFz2K6+KMtXd4qRiwCXieDcZR5G6ATynVEF4WQFKJIVWz
+th5pPc8P+sr0o5fBbqxoDNg18pEwfYLC3YW5fLxcEANgGPIoN4lCk2x/gO9vibWZ
+0qY71It49ET+v7VE2asubQotPWnfxjVMzzUiPSsh0bGCEuDMSd8FeLHWXAtIyQQk
+XOGNUkrxFXFxzcb1y23qhITlKSX/Q25q5S88bUfDcM3FJqqSaATmWuxkx8WbnVuA
+mm19Zr3fXrWZ2OYtK41xlw7q
+=eIjQ
 -----END PGP SIGNATURE-----
 
---===============6457622886013419175==
+--===============3362747358906667809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8124c8a6b353-8ecfa36cd4db.txt
+Content-Disposition: attachment; filename=revlist-f501b6a2312e-8ecfa36cd4db.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -416,7 +416,6 @@ aefd7f7065567a4666f42c0fc8cdb379d2e036bf btrfs: promote debugging asserts to ful
 024236abeba8194c23affedaaa8b1aee7b943890 usb: typec: tcpm: cancel send discover hrtimer when unregister tcpm port
 6fc1db5e6211e30fbb1cee8d7925d79d4ed2ae14 usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
 49783c6f4a4f49836b5a109ae0daf2f90b0d7713 ASoC: rt5682: Fix the fast discharge for headset unplugging in soundwire mode
-f501b6a2312e27fffe671d461770426fe5162184 debugfs: Fix debugfs_read_file_str()
 2dc065eae56df804e4da5f8a9e4139033f7ea605 perf evsel: Add missing cloning of evsel->use_config_name
 3cc84399e9b60463bc39cf352ffd8bccb92e02bd perf stat: Honor event config name on --no-merge
 69c9ffed6cede9c11697861f654946e3ae95a930 perf symbol-elf: Fix memory leak by freeing sdt_note.args
@@ -631,4 +630,4 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 2e3025434a6ba090c85871a1d4080ff784109e1f mm: relocate 'write_protect_seq' in struct mm_struct
 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 Merge tag 'riscv-for-linus-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============6457622886013419175==--
+--===============3362747358906667809==--
