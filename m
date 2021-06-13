@@ -1,25 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 13 Jun 2021 16:10:23 -0000
-Message-Id: <162360062382.24290.6280724586499180054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 13 Jun 2021 16:26:27 -0000
+Message-Id: <162360158707.2372.14329565864295508452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: dd562778ca935ea567c670c763860b7b8e43c8b5
-    new: 1c8b154ab9661649ae5d7c2f357e9b04b3c63c35
+  - ref: refs/heads/for-next
+    old: 76fd8793de36f82e08dd2671d93f0dc28cfe05ff
+    new: e4d55a2e7660e8e4f4ce9685fc0c40ec09adefef
     log: |
-         a31c9b8d6a30d929fe7345a6171878a3e65836d9 generic/507: support more filesystems
-         2ac31add10afa153f6649e0e691096c010737a4c overlay/075: add test coverage for clearing immutable/append-only flags
-         559ac446066b7dbe9cf9d37fc1dfbfbe11809ab2 btrfs: support other sectorsizes in _scratch_mkfs_blocksized
-         811fa624781185b391b6f6f061ef12f85e4a7f90 common/rc: fix _scratch_mkfs_blocksized indentation
-         9ff5f0ccac24fb2b37272f8f6efae920104ecee8 ext4/048: add check for od endian flag
-         66734233e510507a78ae17841627ab95d50eb4a5 ext4: test journal checkpoint ioctl
-         1c8b154ab9661649ae5d7c2f357e9b04b3c63c35 btrfs: test incremental send swapping location of a directory with a file
+         3fedcc636e28f6188b6bb126199eda031bc707f3 ARM: dts: rockchip: add labels to the timer nodes on rk3066a
+         51094deb330623a172b80f7f1cb43f2d6e165c4f arm64: dts: rockchip: Add support for USB on helios64
+         1a4eb37f3174d3a54e40392abcfbb9b3949948bb ARM: dts: rockchip: add power controller for RK3036
+         623ba75a5d6b8e196a21f3ed36d26a5f6db459ce ARM: dts: rockchip: add power controller for RK322x
+         d82979e1ac04bbb2fb5dc684b9c529d1639bd0f2 Merge branch 'v5.14-armsoc/dts32' into for-next
+         e4d55a2e7660e8e4f4ce9685fc0c40ec09adefef Merge branch 'v5.14-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v5.14-armsoc/dts32
+    old: f07edc41220b14ce057a4e6d7161b30688ddb8a2
+    new: 623ba75a5d6b8e196a21f3ed36d26a5f6db459ce
+    log: |
+         3fedcc636e28f6188b6bb126199eda031bc707f3 ARM: dts: rockchip: add labels to the timer nodes on rk3066a
+         1a4eb37f3174d3a54e40392abcfbb9b3949948bb ARM: dts: rockchip: add power controller for RK3036
+         623ba75a5d6b8e196a21f3ed36d26a5f6db459ce ARM: dts: rockchip: add power controller for RK322x
+         
+  - ref: refs/heads/v5.14-armsoc/dts64
+    old: 9fcf74b274a1dc5bcda37c34470061ef1e1130dd
+    new: 51094deb330623a172b80f7f1cb43f2d6e165c4f
+    log: |
+         51094deb330623a172b80f7f1cb43f2d6e165c4f arm64: dts: rockchip: Add support for USB on helios64
          
