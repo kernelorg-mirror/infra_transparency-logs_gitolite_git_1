@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1390692296588872604=="
+Content-Type: multipart/mixed; boundary="===============0027183408152182050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 13 Jun 2021 11:36:57 -0000
-Message-Id: <162358421700.18622.14668751844696938491@gitolite.kernel.org>
+Date: Sun, 13 Jun 2021 11:37:02 -0000
+Message-Id: <162358422243.18775.17148779837611033650@gitolite.kernel.org>
 
---===============1390692296588872604==
+--===============0027183408152182050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8124c8a6b35386f73523d27eacb71b5364a68c4c
+  - ref: refs/heads/tty-linus
+    old: 7c3e8d9df265bd0bdf6e328174cdfba26eb22f1c
     new: 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2
-    log: revlist-8124c8a6b353-8ecfa36cd4db.txt
+    log: revlist-7c3e8d9df265-8ecfa36cd4db.txt
 
---===============1390692296588872604==
+--===============0027183408152182050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584213 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623584221 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1623584213-41caf16697e6890efa7b45f0732e1edf2a2755e2
+nonce 1623584220-f2479fd3f219412d441f2274b3c562ea4dcfd0a2
 
-8124c8a6b35386f73523d27eacb71b5364a68c4c 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/main
+7c3e8d9df265bd0bdf6e328174cdfba26eb22f1c 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7dUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6joP+wfuT3Mmi/3+LoOG0MkG
-NEA1XchYhRqOgDrwHoqYERxJjznRmZ/VWn8wRr93w9On0WQMAeUkYXFswcFJZZXF
-w+f50hQy2cepwgSIoq9e4wWheKbZC59gkiMbvcPtX8UP3d7n4AwRGPDbiXsqkpK8
-02ceDdTZ3n7nyT8br0/2siUj/wulDwI1vHtHEm3PSrvzD6Plc7WE4fmdYLBwwBYB
-nQSbf3v/bl8yyG+4Xq8hBVrIxgXkMuP9n42TtAlh9vuN8xl6H/FVhszv63Pe72ja
-hGnBcf2VDOoSxBf/B1SXVv8E5qMPfysUIJ3Ffl+LZX1CH7OnZUW5Os5/b2jdxdEd
-1fR9AHpepcVDG/kF8uJeziSy4o3GetGkG66PGK0d7+761QqFV+Xq2DJAErEggrD7
-DeirWPx7s8S9vFNW0qxXZQp/2NonfFPm7+C58uJ/RIV1cJ73oom8N2i9qLJzq7JA
-a45fJeM2QKtDaPmMgopmd4ePpC+xOzy13xFW+N2H6moFKKgbM623sYsUdCnGnS1H
-quZwvznxXehFvFIiY9Hlqv9CMt9rpF6Rq7HKZAXPZUDKlwS9cajREpTBtjEboiF1
-hlGuX57nkPQxpEbxBPcR2WiE6/2GyD1FannxCb9OH/Rqmqrcexmbcd0+SQriJ4zm
-637ZhlJS/YYgiQ5KFGbpGke2
-=xzez
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDF7d0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FxUQAJgpU5bUfBkdn5pDmBpx
+1fiF9Xq4DcEFLnejY8zvJR/+RB5l4o+qq61Tng3cVe5ojsoZL5XpajFl+ss6ePMQ
+AxjH2xCFxsHPNrdBmn5SoSElZHYaiW1kLQ+TTXZNtoTerCt4T2T3VSekYHrO/05P
+vPrrxfakW6uZ+xRYuLV8KwuYkmjQeSllrONNeH5nn40lUz3LTFqDMSiOuLdiRyh8
+0+m87YOEyXrtgziLrozI34X3mwusE+eFYOA7H7/evI98mzywSJr95fCDTx3rIZth
+mz8mLJT0IL65PsyzC7KrC8n7uVs6DSyN1bGGu0BV1HM3Q8L4b02Fmo0RC8i98Ne2
+4o9rotdb6MTlH+JJAcVGrdV5Z77thloNDsHvIyDAgb7GCcol3qe8G3CW3Ibwwmfe
+U05BOEOIBB4XLJwcVIK2LA9KP26pUyGPyggiD2l9A85b1su/xrnnD8JHMPr8Ip2/
+5qiG3UVRnYSZXwkrv5JjOwiXaye2MTJLQObR0cAUd3XHGPK14Tsl5U5+xOZ98Mq2
+4Ch7JMClFAJgsehMS2BAGqmDvPSvgA5Mazs2OYQDKGxWSKmXlIeXQMPLO6SEXXI2
+pUN7wc4L0idvAjcpu3P346LBs+dzKmacoary2sA5+Emjt3Ttclg3FLkLQHEixUbU
+3at7UiTwPzcYnfdbeNYefIG6
+=jmEE
 -----END PGP SIGNATURE-----
 
---===============1390692296588872604==
+--===============0027183408152182050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8124c8a6b353-8ecfa36cd4db.txt
+Content-Disposition: attachment; filename=revlist-7c3e8d9df265-8ecfa36cd4db.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -556,7 +556,6 @@ e9de1ecadeab5fbffd873b9110e969c869554a56 staging: ralink-gdma: Remove incorrect 
 30e9857a134905ac0d03ca244b615cc3ff0a076e pinctrl: qcom: Make it possible to select SC8180x TLMM
 c8a570443943304cac2e4186dbce6989b6c2b8b5 drm/mcde: Fix off by 10^3 in calculation
 159d8c274fd92438ca6d7068d7a5eeda157227f4 ACPI: Pass the same capabilities to the _OSC regardless of the query flag
-7c3e8d9df265bd0bdf6e328174cdfba26eb22f1c serial: 8250_exar: Avoid NULL pointer dereference at ->exit()
 c7711c22c6ebc07a19a3dbdf87b05d9aa78f5390 bus: mhi: pci_generic: T99W175: update channel name from AT to DUN
 0b67808ade8893a1b3608ddd74fac7854786c919 bus: mhi: pci_generic: Fix possible use-after-free in mhi_pci_remove()
 5f0c2ee1fe8de700dd0d1cdc63e1a7338e2d3a3d bus: mhi: pci-generic: Fix hibernation
@@ -631,4 +630,4 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 2e3025434a6ba090c85871a1d4080ff784109e1f mm: relocate 'write_protect_seq' in struct mm_struct
 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2 Merge tag 'riscv-for-linus-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============1390692296588872604==--
+--===============0027183408152182050==--
