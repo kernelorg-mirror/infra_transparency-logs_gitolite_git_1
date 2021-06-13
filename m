@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2651790005448580487=="
+Content-Type: multipart/mixed; boundary="===============7012592902600870547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 13 Jun 2021 12:25:33 -0000
-Message-Id: <162358713310.7586.4024995572449440439@gitolite.kernel.org>
+Date: Sun, 13 Jun 2021 12:28:20 -0000
+Message-Id: <162358730094.8617.2049100252140894919@gitolite.kernel.org>
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,333 +16,486 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: db14655bb4bf7063c5c922ec3c0426c1daac41ff
-    new: 08d07551c9924880ff63c5681e235321bead2270
-    log: revlist-db14655bb4bf-08d07551c992.txt
+    old: 08d07551c9924880ff63c5681e235321bead2270
+    new: 53254273691289aa49fa90a3509180d7b82d0905
+    log: revlist-08d07551c992-532542736912.txt
   - ref: refs/heads/queue/4.19
-    old: f308aafedd697eee0315fbf700555b0e5d9801dd
-    new: 22d164823df96e5562f0b25cc2b6d368ddae7511
-    log: revlist-f308aafedd69-22d164823df9.txt
+    old: 22d164823df96e5562f0b25cc2b6d368ddae7511
+    new: 901ef5c9ec9ef9d1776b2d9473559e518306110b
+    log: revlist-22d164823df9-901ef5c9ec9e.txt
   - ref: refs/heads/queue/4.4
-    old: 3324b65cacdc25e092bed9ad1d7e1813ca0f317b
-    new: 12482627ff8839472206d37f14a78db2402973e7
-    log: revlist-3324b65cacdc-12482627ff88.txt
+    old: 12482627ff8839472206d37f14a78db2402973e7
+    new: 7225bc668b47e332ff7eecd9178a165b3ab6c1d5
+    log: revlist-12482627ff88-7225bc668b47.txt
   - ref: refs/heads/queue/4.9
-    old: 1c7647be16f2f63de6c0b3a537d7e2c2c6e72497
-    new: c81d0dff8ea15741c155eef6de037b9909faadad
-    log: revlist-1c7647be16f2-c81d0dff8ea1.txt
+    old: c81d0dff8ea15741c155eef6de037b9909faadad
+    new: b05a5b884b30a392ec4317c949cc7994341b8db4
+    log: revlist-c81d0dff8ea1-b05a5b884b30.txt
   - ref: refs/heads/queue/5.10
-    old: 71862092cb77783a8718ec0bddc9b7f69ea30473
-    new: 01ad3ef815ee3c5f20f52d1e6d09f2f825e1cdb0
-    log: revlist-71862092cb77-01ad3ef815ee.txt
+    old: 01ad3ef815ee3c5f20f52d1e6d09f2f825e1cdb0
+    new: 93787b99c47d42d77fd2046f56f01751f00f3302
+    log: revlist-01ad3ef815ee-93787b99c47d.txt
   - ref: refs/heads/queue/5.12
-    old: 5e97c66513652f885f2e5610c4167f83b0058b83
-    new: 20e54953ba5f622bc8e38699419317b3ffc598ce
-    log: revlist-5e97c6651365-20e54953ba5f.txt
+    old: 20e54953ba5f622bc8e38699419317b3ffc598ce
+    new: 817ad5a099e226a87948cde965ff8651bf5c03a8
+    log: revlist-20e54953ba5f-817ad5a099e2.txt
   - ref: refs/heads/queue/5.4
-    old: 7cda316475cf6857ff8e0b4083d08ebb4ce6f1c8
-    new: da35d6ee00bd4f22070731db8dc2f70b59b353cd
-    log: revlist-7cda316475cf-da35d6ee00bd.txt
+    old: da35d6ee00bd4f22070731db8dc2f70b59b353cd
+    new: 3b434e7654aba7c36d3b9597f9b09c8830030692
+    log: revlist-da35d6ee00bd-3b434e7654ab.txt
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db14655bb4bf-08d07551c992.txt
+Content-Disposition: attachment; filename=revlist-08d07551c992-532542736912.txt
 
-6e7394eb2222eefea4439c6379a60ddbd0cdd239 proc: Track /proc/$pid/attr/ opener mm_struct
-519dc28f0d4d2d0728ebba50bbcce2b770cadb9d net/nfc/rawsock.c: fix a permission check bug
-6e7da29c98b3ed7d2f24f96fc25fbc0c6fed6ded ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-fda590c5216acdffce650a574d060a2a15d49b87 isdn: mISDN: netjet: Fix crash in nj_probe:
-e177d26692649bf8d7fa786a18ba485528cd3184 bonding: init notify_work earlier to avoid uninitialized use
-a5a478e6f23e1a80c23a5c3355d837185193beaa netlink: disable IRQs for netlink_lock_table()
-4b5cc1f2342327a3cb7fabe92f16d67efa082b67 net: mdiobus: get rid of a BUG_ON()
-73d7dba386d3bdb5fbd1c2c9601cb3f97035b954 cgroup: disable controllers at parse time
-ab99912100bcbde5c681fde6038247b9a98553d8 wq: handle VM suspension in stall detection
-77278427c2446af8592fbd581117adbc3314099b net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-893fb71e72d774c44a59f920848bb6e643988e9b scsi: vmw_pvscsi: Set correct residual data length
-e53419d487585501bad7ce7d1973e720c57f2071 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-1be3b717b3643ea45fd6839ffea0aeb29a5d257d net: macb: ensure the device is available before accessing GEMGXL control registers
-f620097fdcd08d7da992690c271cd8e3351eb83b net: appletalk: cops: Fix data race in cops_probe1
-7aa0dc83643dc695ff85b2eaa2e832059462c168 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-8d5bdd9323b4c810a55b08790ce2461cccfec0a5 bnx2x: Fix missing error code in bnx2x_iov_init_one()
-439d01ea7012324245b7bba919d603a67ab3ddb6 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-36d92803caa8c23b02ab8885120d187e44f4f724 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-fda330abd0080c7b097c29781caea316af6b86e1 i2c: mpc: Make use of i2c_recover_bus()
-257ddf9172e5465af5b561c5a2fd61501ba6b55b i2c: mpc: implement erratum A-004447 workaround
-b2220280d5fc1a1743298baac494ab15b80934db drm: Fix use-after-free read in drm_getunique()
-b677a99cbb497d7ab083c8595d6ad9c1e2455b49 drm: Lock pointer access in drm_master_release()
-6ea90e0e0a5840ee70e37f86e82fbe49ee45498a kvm: avoid speculation-based attacks from out-of-range memslot accesses
-8b3c8eec1c88cfbe3694e5d85f14a3dfe2c169fa staging: rtl8723bs: Fix uninitialized variables
-c19ab29b039a37e180f004ac073c4328340e4863 btrfs: return value from btrfs_mark_extent_written() in case of error
-15f98196a6391e8bce3e88ef021cfff54721ff5e cgroup1: don't allow '\n' in renaming
-696650115fd855127ff31874984f5549cb0364ae USB: f_ncm: ncm_bitrate (speed) is unsigned
-b9c3a5c8a8b8410c7d7ecd9da259db087f2da3ee usb: dwc3: ep0: fix NULL pointer exception
-1e60ee7ddacb3896b5d77f6f6f6823e2ce5f2cee usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
-21f86d0694d5827f113aa341da8d27035795c983 usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
-5224c836f103f44903c4a99fb52d58f3d3f1e08b USB: serial: ftdi_sio: add NovaTech OrionMX product ID
-948b6e349132e85ab9af5c47adf949297e5df9f0 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
-c087beebf4344cea54387d444f707460710f53d0 USB: serial: quatech2: fix control-request directions
-aa638dbaa4b32b321a8e031fab05764d55175403 usb: gadget: eem: fix wrong eem header operation
-9cb53974a07f152dd9e66253b4571299af7bc211 usb: fix various gadgets null ptr deref on 10gbps cabling.
-08d07551c9924880ff63c5681e235321bead2270 usb: fix various gadget panics on 10gbps cabling
+dc07b5ab3aa092df60831da9c2302896bc8ab04b proc: Track /proc/$pid/attr/ opener mm_struct
+dcc27b957271a6acf0ae3cd50ab6d36624143557 net/nfc/rawsock.c: fix a permission check bug
+9b736bcbb5a326c71fc4eeaaabc47c48da26612a ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+924adbb37a4752094693ab2449e0b857ba571047 isdn: mISDN: netjet: Fix crash in nj_probe:
+fc416809a0237a5148e7db61e140c546f6e0cb81 bonding: init notify_work earlier to avoid uninitialized use
+ceb0954b5cb2b38ded838f482434a71b246d908b netlink: disable IRQs for netlink_lock_table()
+ecd13249497defbe8364f47850c6cbc8afe55b0e net: mdiobus: get rid of a BUG_ON()
+1ec98e7ce52f7860365221817ed17f165d010a99 cgroup: disable controllers at parse time
+d760e47c7c9edb05aa32788db4b682cc6ba229e7 wq: handle VM suspension in stall detection
+cdf4136f359f12173a067e777acecdaba3a0fbb1 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+b024c84094b1cb41a0cb5ab18def25860b954f4d scsi: vmw_pvscsi: Set correct residual data length
+41f7019c6b2f04b51040bccf52508d1f67d7eb32 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+8cc375a5d267af41c4240e51aa3494fd9a7e8b78 net: macb: ensure the device is available before accessing GEMGXL control registers
+b35737620b5aacacac23bad43166d1164e14d45b net: appletalk: cops: Fix data race in cops_probe1
+ec7d5bacd9d7e8afb29f8b098b321ed02f6ef9de MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+405991527b686ab8a88156ca593be1a47688c66d bnx2x: Fix missing error code in bnx2x_iov_init_one()
+5068a3d6b62fdcd5fb89423e3639a91563805927 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+ecba8ed68b8c72e919075188fefa61042a1b4d57 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+69224b5d4888829f9cfa72115f5ac7a431f2e7e8 i2c: mpc: Make use of i2c_recover_bus()
+36427366b60f4af67d5c746cc718b0b3aef1c453 i2c: mpc: implement erratum A-004447 workaround
+788d0dd4fda1d6973f16715fe85b418de15d5e3a drm: Fix use-after-free read in drm_getunique()
+24cff06bd794309c82b96e8cee73abb8c3582e0f drm: Lock pointer access in drm_master_release()
+fb294f3c1086c2824fbbd864a3ab125393be4a69 kvm: avoid speculation-based attacks from out-of-range memslot accesses
+94c313910bdd0687ea1777888ba4d4abe21e08dd staging: rtl8723bs: Fix uninitialized variables
+624ece1bbf06346a919ffd43fece9dbc5e4fd2fe btrfs: return value from btrfs_mark_extent_written() in case of error
+5ea3a5d4a6f2e21cd7ad87b4e4ecfcba00a75c20 cgroup1: don't allow '\n' in renaming
+ba734ff61831f3dd46102e93fea2780be1134db4 USB: f_ncm: ncm_bitrate (speed) is unsigned
+25212fd97fcd20a57ce7a1442cab14f3331b54d6 usb: dwc3: ep0: fix NULL pointer exception
+601ad023321ef9037cc3b974d83dbe391dd4c574 usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
+c362984692d64b220ba2440546216cedf2d7d5de usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
+671fb5650d245d81694a6f1a23ee28ab2033e128 USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+226b38c89eb0629e5b185945a70805543503a717 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+11bcdc58c4147ae21e0470950e8d617752c0f72f USB: serial: quatech2: fix control-request directions
+02d7af8e23644769fdd48775e77504cc10b1bda7 usb: gadget: eem: fix wrong eem header operation
+e4fb8f83f8032d9613d18af04c71788c32d336ff usb: fix various gadgets null ptr deref on 10gbps cabling.
+53254273691289aa49fa90a3509180d7b82d0905 usb: fix various gadget panics on 10gbps cabling
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f308aafedd69-22d164823df9.txt
+Content-Disposition: attachment; filename=revlist-22d164823df9-901ef5c9ec9e.txt
 
-cf4e4c5f534ae3ee14e0b8f7736bd83cfb4123ef perf/core: Fix endless multiplex timer
-4626af3d87d4fa39a7eb2a69a12afb42e3fcfb04 proc: Track /proc/$pid/attr/ opener mm_struct
-03667de509350624398310f4cb13f71f417eb519 net/nfc/rawsock.c: fix a permission check bug
-0ecd070c960f4c9d2537b3442dd20b62b75fefa9 ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
-cb2eb0f11aa49020b69c7b419755b0512f605ed1 ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
-3dfe0baa57c16381f112f547d5470aed830aaf2e ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-0dac50d744b14da24658ef0856df7bc364b39737 isdn: mISDN: netjet: Fix crash in nj_probe:
-a3dd038b5e0fe379e359e7473d4ebf4cc9810905 bonding: init notify_work earlier to avoid uninitialized use
-94ab4536ab7bceb91d41928051bd0ea634b34d3b netlink: disable IRQs for netlink_lock_table()
-f6c3d9ccace9c08a54a5ed80911bfb40bb58ba93 net: mdiobus: get rid of a BUG_ON()
-8d9c5462888559feb62c45423e1e3d313b8b5caf cgroup: disable controllers at parse time
-1378ce1f60e5618366b8c2568cafd9b26a50e8d7 wq: handle VM suspension in stall detection
-0ec7fbeb5783d7ad73baeabdbc0ab8cf33c9174b net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-0786296e2235d90a234127ae1792d318b5811ce2 RDS tcp loopback connection can hang
-548acb7993f643c3236b41e8bd20800543fa872b scsi: bnx2fc: Return failure if io_req is already in ABTS processing
-be165b0d0f1490ddf2b7e5952f3f7a803c95feb3 scsi: vmw_pvscsi: Set correct residual data length
-6fc9c1fe7878c6f24446f739400b3d5ce1cb52bf scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-86b79f84f4376e5b8f46b26dc9235b3f49769510 net: macb: ensure the device is available before accessing GEMGXL control registers
-20eb3a9dad6af8961bb198a722e3ca7c06cbd963 net: appletalk: cops: Fix data race in cops_probe1
-fe5804290d6e9a3d13296b2174ee50e9ece11a74 nvme-fabrics: decode host pathing error for connect
-e806ba01e4148989a1a5ce4aa8326a6f2a523021 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-69f78b6b81cb5a56bd5c7e46a1639129d77b9d2f bnx2x: Fix missing error code in bnx2x_iov_init_one()
-80ef00a969a0c0ba924aa0429b39c373db5c79ef powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-8dd63433394f2ee7787b320496f9f36ea9e2f5e0 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-720bbabfbfbabedfc60840745fe7a67494b39b82 i2c: mpc: Make use of i2c_recover_bus()
-d7b24f18792ac071e95cda72452e9504dfe81ac2 i2c: mpc: implement erratum A-004447 workaround
-f2417dbcb919aea58af3948ef3dad8382b0328f0 ARM: dts: imx6qdl-sabresd: Assign corresponding power supply for LDOs
-22d164823df96e5562f0b25cc2b6d368ddae7511 ARM: dts: imx6q-dhcom: Add PU,VDD1P1,VDD2P5 regulators
+1c6a20d1eb64a5eb0bdbb93050794a8a748df39a perf/core: Fix endless multiplex timer
+9b9d2fe627abbcafe7f5dedadf6c6e6f37415ef7 proc: Track /proc/$pid/attr/ opener mm_struct
+5ff3c2385dcd4508c4b7cdd00896fad05af3b132 net/nfc/rawsock.c: fix a permission check bug
+01c8348b395dbae6b00fe93be0f1d5eed04e98ea ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
+3ec455a4665e81afe07aba429a6b1505c8332d08 ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
+c5eaa57d3484e334f24689575f1758c627964ed5 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+6eb998f9a6e6ea9b5a2262eaead0bfdf59ac6a59 isdn: mISDN: netjet: Fix crash in nj_probe:
+089cc2270ee296da8386152e12c81a31fbd2d9f6 bonding: init notify_work earlier to avoid uninitialized use
+705e48f1e9b898725b22aa57a3637d9b46f40457 netlink: disable IRQs for netlink_lock_table()
+6ad40a4757e02dc35f56acd67bb7687cb806cd5b net: mdiobus: get rid of a BUG_ON()
+c9a47d713b8f86d2c73ae8a22b69546e79b72e9e cgroup: disable controllers at parse time
+77a5dbdaf5902d4034198cc99c5c08fa70c107a8 wq: handle VM suspension in stall detection
+1300015e353c5a1ffda721ab63050e5cfe9c22fb net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+ea0c62322000c78d56468eac9fa41b9b22d6b199 RDS tcp loopback connection can hang
+92dc0b8598f4bd7ce4e8d23cc92d7aa78db3e6d3 scsi: bnx2fc: Return failure if io_req is already in ABTS processing
+b1b9a6c9eac8201ade2f85edc58d4eae88aef5e5 scsi: vmw_pvscsi: Set correct residual data length
+aa69c03c4d96a128925714a7bf66cda52da1337f scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+9f7eb98f17e1abc185e0e49dd9fe867c93ba2661 net: macb: ensure the device is available before accessing GEMGXL control registers
+0b5d6e378ee7a083eb913975f68fd0bbb29dfca1 net: appletalk: cops: Fix data race in cops_probe1
+326319124a71ea8f16d96e2d3f51ac26ec4242bb nvme-fabrics: decode host pathing error for connect
+43798e8fd9cb4d49323e10af206f1ad1cde10498 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+b33aa562a978cb354571a4f6125206d32bfda73f bnx2x: Fix missing error code in bnx2x_iov_init_one()
+d38c2c3816af70e4f773a090dde1b108267ee13a powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+5c019b5cb17b70f8c50fa5df7d0bee1f11d512d8 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+6adf7ec3e202ef307533a71c39a975cc7d6deca0 i2c: mpc: Make use of i2c_recover_bus()
+cf0c7f9f43083d57cf9d05af9065201863708c97 i2c: mpc: implement erratum A-004447 workaround
+3f9c542e23ce4d1847ada4e6d81390d438442cd3 ARM: dts: imx6qdl-sabresd: Assign corresponding power supply for LDOs
+9f2d803a71d98b5ece15d5fdc57e65bb848ea567 ARM: dts: imx6q-dhcom: Add PU,VDD1P1,VDD2P5 regulators
+82686106866d69ff70aea9a00688a3f55a75c2db drm: Fix use-after-free read in drm_getunique()
+0d8c320b9b979eabc3c95db3a0d6014cc9a03c58 drm: Lock pointer access in drm_master_release()
+1e996a9c008584b80c7533f4955efe3e95981d53 kvm: avoid speculation-based attacks from out-of-range memslot accesses
+2cc3e7cbebeeb015cd0d9924e0ae128ce8778d75 staging: rtl8723bs: Fix uninitialized variables
+6fd89b7bbe4342ff3e6ee5ae9e2e378969052655 btrfs: return value from btrfs_mark_extent_written() in case of error
+ec9290e66a44fe2c61686c2ec413cbb757055a25 cgroup1: don't allow '\n' in renaming
+f6bd44294fe4a1a7392e8f62ae581bf055e0b0dc USB: f_ncm: ncm_bitrate (speed) is unsigned
+a699134acc961d4e79b2da5c7f76448603cd5325 usb: f_ncm: only first packet of aggregate needs to start timer
+192dfaab858160e3a21285f1cceab9b7d4aed495 usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
+205d0a3f907a6e51763f4fc6ea32fb0e8d7631ee usb: dwc3: debugfs: Add and remove endpoint dirs dynamically
+7fa2da3dfebdb50d803db2fc2cb9c0177195004a usb: dwc3: ep0: fix NULL pointer exception
+0e93a084dee2a5679ed409dbf805597c7ba99d08 usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
+ca4cc67be3fb4da529e2af4bfaa28b5698cc2aff usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
+149302aa5b61d0d6b9556582bb0c148f883eb77a USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+c4dc5429fcc376c60250f055aa778e78a477c615 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+411142b862bf19d67535e4c68bb8be911fb92dea USB: serial: quatech2: fix control-request directions
+b04a990c6bff2efe7f92d1c4cac6707391809e05 USB: serial: cp210x: fix alternate function for CP2102N QFN20
+83a4be5a5d1408db4aab0fc6fda55daea5dcec78 usb: gadget: eem: fix wrong eem header operation
+9b966fbd495bfcc495d9349e7072b372686abc7e usb: fix various gadgets null ptr deref on 10gbps cabling.
+901ef5c9ec9ef9d1776b2d9473559e518306110b usb: fix various gadget panics on 10gbps cabling
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3324b65cacdc-12482627ff88.txt
+Content-Disposition: attachment; filename=revlist-12482627ff88-7225bc668b47.txt
 
-dcfdbcd83ed106960db5d34673cd2c380ccbfb6f proc: Track /proc/$pid/attr/ opener mm_struct
-523f119bfc3bc45afea7cf917cfb8925c8b00b68 net/nfc/rawsock.c: fix a permission check bug
-528c5acc8232686428f07c00a243a26db2288685 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-a39eacf3b92483bc467f83461d4c16991ff5e751 isdn: mISDN: netjet: Fix crash in nj_probe:
-e221ae8811687ca45694f57d3d78e27d52efb4f0 bonding: init notify_work earlier to avoid uninitialized use
-eb6d39c2198d002accf6a688814a00c1a03850b9 netlink: disable IRQs for netlink_lock_table()
-5ed12c60e0d9cb1fbb388418c75e6010ea5f3199 net: mdiobus: get rid of a BUG_ON()
-acbe10304f4fae27cd4f65187335f516a17c275f net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-2226fb0e7272686dc1f21684cfc5812b0ce1de22 scsi: vmw_pvscsi: Set correct residual data length
-e0fd22df802ec2bc87035fb32ecf7d979da14797 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-827768f2c76bfca5eddbc0968c3caf99bc0b49c4 net: macb: ensure the device is available before accessing GEMGXL control registers
-90728d1b12a94d92d185f53d9ef3ea1facb41fa0 net: appletalk: cops: Fix data race in cops_probe1
-9b0c21841b811fe7497795ebc8221af7c1967f3d MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-6a18611bc99deb7e022d5cb7cf9fc191794e25c8 bnx2x: Fix missing error code in bnx2x_iov_init_one()
-e3f145a182f3ef6e4b6e5fca54ca513ca06995a3 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-6e8595787b42ddd1779ff941ff86f52b955ab2b6 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-a7f4c4c965af39fc30eb7bcb5e2a8002c57345ba i2c: mpc: Make use of i2c_recover_bus()
-b1a97a429b365fe75813ed25e5c0ab3e13cf26ba i2c: mpc: implement erratum A-004447 workaround
-130693382233489ed47e9c8e411744c2a773aac7 kvm: avoid speculation-based attacks from out-of-range memslot accesses
-4ea2aa29b61939fcee2dea8e14c556335ac5643f btrfs: return value from btrfs_mark_extent_written() in case of error
-6b08be92aae2473a851be35f0f7f078a7c7d3e48 cgroup1: don't allow '\n' in renaming
-653a1d4e8450964e17d6bc30d236dd4146d70b74 USB: f_ncm: ncm_bitrate (speed) is unsigned
-e511721062d1249f8625340eaafb1885695960ec usb: dwc3: ep0: fix NULL pointer exception
-cc9324ccf6c3c5ca2de4ed2e0620c4b3a4d3749a USB: serial: ftdi_sio: add NovaTech OrionMX product ID
-7608e0adefb3ea0743621b5d88df715278d078b7 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
-2ae22e08d98925004507dc23c3030edd0f65b4f5 USB: serial: quatech2: fix control-request directions
-12482627ff8839472206d37f14a78db2402973e7 usb: gadget: eem: fix wrong eem header operation
+aed1a577dc0451faccf9de7a31db87512b632f2e proc: Track /proc/$pid/attr/ opener mm_struct
+9d203f6de522dcd10a8b3e33bf7f0fc4020ba9e8 net/nfc/rawsock.c: fix a permission check bug
+c54492887b7654d972df2447f732dc9bc4b2ed2a ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+8a604573bee4c0bd0aa38999cb69bd376bace6a1 isdn: mISDN: netjet: Fix crash in nj_probe:
+26b97be36e909f12064c1f89343e33e087f7886e bonding: init notify_work earlier to avoid uninitialized use
+595f023d99205fe43b2e1a578906931d22118770 netlink: disable IRQs for netlink_lock_table()
+864c75493ad9ce13d98210f0fc9e1b3fa0c971b4 net: mdiobus: get rid of a BUG_ON()
+8105641c533c6edd53338ae20f9f0cd2d70217f3 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+e31f8c7942c8e7eb16538c6272a8a956fd94f7f4 scsi: vmw_pvscsi: Set correct residual data length
+805dd2a6d62175735c477fc5f2c16977acf4c954 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+336a64e689ef480452efe016c2ea18961a34a42b net: macb: ensure the device is available before accessing GEMGXL control registers
+e13be328c75dfda760535553dca75651671e013a net: appletalk: cops: Fix data race in cops_probe1
+cac5c153d50b4c1d97bd936c3a4459737f39c874 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+5516f9de96769ee16c3512970d5fdff7f227332b bnx2x: Fix missing error code in bnx2x_iov_init_one()
+6dcefd7d8685bcaea775af4be35ea138aeddd1c0 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+a12bbc20e9e1c30c1907e3a4fe27dcd6f7f0f43a powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+f99694cf894c234e91da9a1efb5ca5b8371660f8 i2c: mpc: Make use of i2c_recover_bus()
+a7f894726e507efe461cfc39dd8399bc2eb14ec6 i2c: mpc: implement erratum A-004447 workaround
+cb8856dd510c1a78feb42f29e083b9dbd0b0067d kvm: avoid speculation-based attacks from out-of-range memslot accesses
+98a2317cb62a0f14bf7a8c6080d6844a12cf95b0 btrfs: return value from btrfs_mark_extent_written() in case of error
+810a704fbff5b57921b744dcb09c3c3005a09dc6 cgroup1: don't allow '\n' in renaming
+b48c400a5d271bd4eaa2f71700d8c9009d63ded6 USB: f_ncm: ncm_bitrate (speed) is unsigned
+3b7acf76baafa56542868d2beecd9fff33857e5f usb: dwc3: ep0: fix NULL pointer exception
+ff581cecc159ce620c13171f2a86f33ab9cc841b USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+bb5f811ae36b216989ddea030456ed8cb5b8186c USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+eaea1be8f7855e456c847a01593f4abcd8bb5d83 USB: serial: quatech2: fix control-request directions
+7225bc668b47e332ff7eecd9178a165b3ab6c1d5 usb: gadget: eem: fix wrong eem header operation
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c7647be16f2-c81d0dff8ea1.txt
+Content-Disposition: attachment; filename=revlist-c81d0dff8ea1-b05a5b884b30.txt
 
-12a453416bc8c338fc68abbf5b07d00d7e6bc113 proc: Track /proc/$pid/attr/ opener mm_struct
-1c483dee8048d2de04f99b263b1de0f0cb0dc6ca net/nfc/rawsock.c: fix a permission check bug
-73d9e4baa682de8a36de3baaa7e26ab8ae0486fc ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-522504010834332d36eb536ab9f16b995d3ac0b0 isdn: mISDN: netjet: Fix crash in nj_probe:
-ce48e7d787a763e0b3d6f8e104711fdeef08e602 bonding: init notify_work earlier to avoid uninitialized use
-297462a6a045f64a9f7fa402e3c9f27a13126745 netlink: disable IRQs for netlink_lock_table()
-8c3a3af533205ac3410831f7bf0c5acfbb9add87 net: mdiobus: get rid of a BUG_ON()
-e38a0ffcd017d2b1c0aa12a3741ef042a9a96bc9 cgroup: disable controllers at parse time
-33066642f9dcb8335c5f353b7295bd9910826b46 wq: handle VM suspension in stall detection
-98544d348f206744164acb44d124b32444231785 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-f167258415e01134104cc4de691b40df20742156 scsi: vmw_pvscsi: Set correct residual data length
-41bb9f6bdd58fbf8bb7ebd2aea2ab64cc2865843 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-ff26812c477caba0873f332ce668d5fa728b352f net: macb: ensure the device is available before accessing GEMGXL control registers
-22ce479969f4e68b41785fea6e0d2ee79ccbe450 net: appletalk: cops: Fix data race in cops_probe1
-0269e57ccdd9cc0e81ca22daff4b171dbaae38ca MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-21723d05e0a9a606804a0f48d241942a477c330c bnx2x: Fix missing error code in bnx2x_iov_init_one()
-7aad054d6d47c5157b26faa1e15da7928c437eff powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-b6b2ad6b0982aa4d824162dc4dcb2e82f78ddd0b powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-ba25690ece63241d544810cc4e5dbb4a30cd1ecd i2c: mpc: Make use of i2c_recover_bus()
-9188af245ea6cdb3db60a0e34451102766040736 i2c: mpc: implement erratum A-004447 workaround
-263490361a508d88055ab19e86b48c9cd2df98a0 drm: Lock pointer access in drm_master_release()
-dc0e48894a509071fe9ac149c958bb5356910692 kvm: avoid speculation-based attacks from out-of-range memslot accesses
-9c90611128eda22471d1b085eaa985d4be53d63c btrfs: return value from btrfs_mark_extent_written() in case of error
-ed05ef15b29582c6dc64648db3b7906287cca2c2 cgroup1: don't allow '\n' in renaming
-88f1c2aca6b513a1bdf59ecf32f2a4e7aec3c895 USB: f_ncm: ncm_bitrate (speed) is unsigned
-c87e8674ebe8da1bc1955839902772a5e006ae89 usb: dwc3: ep0: fix NULL pointer exception
-6eaa2438d3d88027505eb124202648faa7a5fdd7 USB: serial: ftdi_sio: add NovaTech OrionMX product ID
-ff301adf45d583f6e4e6523065f132d826a23c92 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
-d6e8f5e073ec5da1e49e3299b70b3b389bae749b USB: serial: quatech2: fix control-request directions
-cdd77fc9b0c11ed5c050153e603ff7d08acd2e16 usb: gadget: eem: fix wrong eem header operation
-34879d440d016476bb8292faeb0f95e3eafc5866 usb: fix various gadgets null ptr deref on 10gbps cabling.
-c81d0dff8ea15741c155eef6de037b9909faadad usb: fix various gadget panics on 10gbps cabling
+db2652c873b5deb41b4e859fe4bc746b34ed3fa8 proc: Track /proc/$pid/attr/ opener mm_struct
+ccf2d8a240fe9fa7f7a087b782db768ef2e46a99 net/nfc/rawsock.c: fix a permission check bug
+8eed815e4a05b0951b6b771e956d061b7a004532 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+34340812d824520d1c945db63dee844797b03889 isdn: mISDN: netjet: Fix crash in nj_probe:
+93b1a4e579a31ed68e7d7cd2ec44d6ae5f8e3f16 bonding: init notify_work earlier to avoid uninitialized use
+d8a0cd8f1c733a46e433bc375938f782760dcb0a netlink: disable IRQs for netlink_lock_table()
+9318c58167e2747848014eb1a9f75e8f58304ec9 net: mdiobus: get rid of a BUG_ON()
+ec888f2e39e60bdd8620173a7a61eae478af8818 cgroup: disable controllers at parse time
+cb2bbba0c58b901c56be3be8891c90d7eb151730 wq: handle VM suspension in stall detection
+520078a797e151c56bdce1f7710cbe7b0e867656 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+bcbac3123809d46aa7cb799022290a58f6b24d62 scsi: vmw_pvscsi: Set correct residual data length
+e9907499179f2323163fbdff54fa16e58bea3046 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+89576d4950cd2653045f9518363fb81ca1794c96 net: macb: ensure the device is available before accessing GEMGXL control registers
+70f63a8bd56f39a7623218868842a14729be43b7 net: appletalk: cops: Fix data race in cops_probe1
+fb685b9ae61ee869bf144f0ef8c31a825db3800a MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+e66353ace6814b505866798b1f4ef268d72e9b3c bnx2x: Fix missing error code in bnx2x_iov_init_one()
+50ef8ce3c5d5a83416c045aebbe6ae0142e08828 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+562005eeca30bce73dd080302cb099682d3afb9f powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+f2701898325e5e8263b50ef4f2206159d6812143 i2c: mpc: Make use of i2c_recover_bus()
+b953a3e184637aa22d549d53479304a786daa3e9 i2c: mpc: implement erratum A-004447 workaround
+3e44bc44c17ec95b832de0e761fc0f05b8b68e1e drm: Lock pointer access in drm_master_release()
+a037d53f754e90d671fe5e43948fef4346a770f1 kvm: avoid speculation-based attacks from out-of-range memslot accesses
+4e09205a615542a4285dfa07a9f0d5d91dbd2372 btrfs: return value from btrfs_mark_extent_written() in case of error
+d82eec619d0d040ea7f63672b39866b7c728c43a cgroup1: don't allow '\n' in renaming
+cd235ce10d861510b9f8cb717de50552c33de98a USB: f_ncm: ncm_bitrate (speed) is unsigned
+aae61e1209f9e659b48fa93f219281a742b3cffd usb: dwc3: ep0: fix NULL pointer exception
+f2d52cc0611a75840b327a66cda8dda80727f442 USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+2674a9091db4911e00c351a9fd28265c2d5e4e1f USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+c7fc73d7d984a6457f66b864c06e577ae6be5a5f USB: serial: quatech2: fix control-request directions
+c9cd14e6d85f3bd437d69793815c220547464e86 usb: gadget: eem: fix wrong eem header operation
+0f4b97eb9a9e4964695417cd89010084191553b4 usb: fix various gadgets null ptr deref on 10gbps cabling.
+b05a5b884b30a392ec4317c949cc7994341b8db4 usb: fix various gadget panics on 10gbps cabling
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71862092cb77-01ad3ef815ee.txt
+Content-Disposition: attachment; filename=revlist-01ad3ef815ee-93787b99c47d.txt
 
-89ddee22ad3e14fb8ed695f97dcadcdea24332d6 proc: Track /proc/$pid/attr/ opener mm_struct
-7f15bff79bb0537cc85f15ea316ae82f59bea540 ASoC: max98088: fix ni clock divider calculation
-5b2e89473f38041ee86c61b10fb302b9690faeaa ASoC: amd: fix for pcm_read() error
-e915dab7c9a649b108323c925dccb33784543a86 spi: Fix spi device unregister flow
-c009b03b984085369a4cc22eb9f09aa25f50a28d spi: spi-zynq-qspi: Fix stack violation bug
-68d41961df73144ae4575b713b03e19fa501b681 bpf: Forbid trampoline attach for functions with variable arguments
-0dc844d9d44de531406bcbc47a36931efe70db7c net/nfc/rawsock.c: fix a permission check bug
-a9b7070d0b7c4e9adcc030fa58b7e77dfa7c32bc usb: cdns3: Fix runtime PM imbalance on error
-abcfd2582fa84762de60eef2d03052148b158883 ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
-64f907ca3098112917bfc56771487642a2c6fcef ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
-f0349f277ae82a5c5d9b789db557b6fc9c8dd0a6 bpf: Add deny list of btf ids check for tracing programs
-1f65168766a4ce2ed73f11b66cbce90209bad071 vfio-ccw: Reset FSM state to IDLE inside FSM
-2762ff8b78662dd3a95c3b443107b2e487d8a298 vfio-ccw: Serialize FSM IDLE state with I/O completion
-8002886a1130b312ac4e9cdfe66608a2f9d18f87 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-50beeb3fd3436c35d14c20bb0860ffef76de70ad spi: sprd: Add missing MODULE_DEVICE_TABLE
-253d6887afd18b3628af6555fcf0d6e11925eaa2 usb: chipidea: udc: assign interrupt number to USB gadget structure
-f3de8b554618967b69b61c59df2ae3251abceb9b isdn: mISDN: netjet: Fix crash in nj_probe:
-307578a451a55e940fd3dfb52de7d92cc4d84f04 bonding: init notify_work earlier to avoid uninitialized use
-57eec692318fe1a015c36f7389a9d1de03387a16 netlink: disable IRQs for netlink_lock_table()
-7ef88830be596bea70ed3f6ff08d760c6c73a25b net: mdiobus: get rid of a BUG_ON()
-62702e4587d652956023bb324299418874dddfc0 cgroup: disable controllers at parse time
-f8ea2b088203280c6fd04511c57a804a9f514316 wq: handle VM suspension in stall detection
-229facd0e3816891ac82cf3d67049a20aac1c9b8 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-2fd7d16ed1223c5ec5dbbb37be939cf6ede79f16 RDS tcp loopback connection can hang
-d8ddf7b32c596c57e9f3e192a04a1a0861fdf572 net:sfc: fix non-freed irq in legacy irq mode
-03d45fc792594406a00aa570180988ecd4b1911e scsi: bnx2fc: Return failure if io_req is already in ABTS processing
-0dd83319394ce64e3d38ecc39702e70a85d0b556 scsi: vmw_pvscsi: Set correct residual data length
-b4805f32c9fd2060c81dad5248c95bd150b439cd scsi: hisi_sas: Drop free_irq() of devm_request_irq() allocated irq
-4c1ce98cbc43c81fdcbd4b3eb4bda55e202cd933 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-64d3e2b501badba9d31a4300a308ca6d19d5c082 net: macb: ensure the device is available before accessing GEMGXL control registers
-784496a140911f7d9a74ec36050954c2ad7a2f84 net: appletalk: cops: Fix data race in cops_probe1
-fee49c2ac686ecfbda962f2cfd49e8e43090fd13 net: dsa: microchip: enable phy errata workaround on 9567
-7121fbc2f467fa93617bef24a87e57d1aa1afb51 nvme-fabrics: decode host pathing error for connect
-836144a6241f0b0779ee0c8952e2d400b29a6ab6 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-f9e3e820c1576fe9722a805e318da5e9b4c44846 dm verity: fix require_signatures module_param permissions
-4543feeccf103a1007d1a47237922873c68b9b60 bnx2x: Fix missing error code in bnx2x_iov_init_one()
-8aa7a81b1f07f733ff4b667335b4e0fbbd3422ae nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
-5aaa4d1054aa61cc8262a7fbfe49f6a3af727e33 nvmet: fix false keep-alive timeout when a controller is torn down
-a7a77c10f039beee7080825adbdfc5cfff1857b4 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-1d889ab82272bc21ff7c75b3bbf012d3a93e8b33 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-3f8c8915625dcc0f25b792950a3f3263f5920f1a spi: Don't have controller clean up spi device before driver unbind
-e9e8c7b2293c1a54a18f196afada14953d444b6d spi: Cleanup on failure of initial setup
-04490c6399c2abf3f8d17c533ac2414f5546e47c i2c: mpc: Make use of i2c_recover_bus()
-01ad3ef815ee3c5f20f52d1e6d09f2f825e1cdb0 i2c: mpc: implement erratum A-004447 workaround
+aa874ca794f554ed3f9be88576963e959ed0b049 proc: Track /proc/$pid/attr/ opener mm_struct
+aec809ada94b0a88345d5b22093ef08bcc2e19e3 ASoC: max98088: fix ni clock divider calculation
+fd116e64c8dda4529b324173e5795e32c55cb1a5 ASoC: amd: fix for pcm_read() error
+cbd64a66cef07542a370fea8ef1ba02fc1965a1c spi: Fix spi device unregister flow
+d65713e5babf433e027b07c5c0cbe5f86e356b7f spi: spi-zynq-qspi: Fix stack violation bug
+05fb64a5c47b76637e762e8fc6e14d55f19cfe1a bpf: Forbid trampoline attach for functions with variable arguments
+573d561c35b364fe6e6d0dbf1e77e090cd96e3c4 net/nfc/rawsock.c: fix a permission check bug
+0eec4aacca889c76043b049092ed044fa99119f0 usb: cdns3: Fix runtime PM imbalance on error
+32fd5af920ee2fb79ac2cc203f24d20c853b50fc ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
+1b34205fe766e28e11f229f29401a2c92f7eb9ec ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
+6244edcd4259c8fac39fb923abaa4a347bd89831 bpf: Add deny list of btf ids check for tracing programs
+699d123ef5aab7932a56d5a54fa11eb6790fd893 vfio-ccw: Reset FSM state to IDLE inside FSM
+513ef69450e93ee8c3e513843b8320dd8f37fb5c vfio-ccw: Serialize FSM IDLE state with I/O completion
+ea614a69de04b34730c372ce3fd50198e0cd6c39 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+7799003d3dc0530050f92fdb55bebd603461429c spi: sprd: Add missing MODULE_DEVICE_TABLE
+a58c61eea50f6064006643cc25c2b0da9cccce15 usb: chipidea: udc: assign interrupt number to USB gadget structure
+52a52898e1f68834cc016fd329e61990797efa93 isdn: mISDN: netjet: Fix crash in nj_probe:
+e200a927bcd95c64873f6fa125325b9bdd986ab8 bonding: init notify_work earlier to avoid uninitialized use
+2532ae39096ada8a8735143325559b7c51c71612 netlink: disable IRQs for netlink_lock_table()
+5492372e54054a56df7916bbdafea63df77a64c3 net: mdiobus: get rid of a BUG_ON()
+7f7921509f6f0dd3ce1ed6337d066a59fb58c81e cgroup: disable controllers at parse time
+0f8cfb40377fe7c86fd092628888da0767101d19 wq: handle VM suspension in stall detection
+7e60134a481af1c6359acb928b8ee079111d166b net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+700ae3df57a414de56e0800a7c7964bade875a5b RDS tcp loopback connection can hang
+87eec094fdb53780838c64fab0992f8fb0cf3604 net:sfc: fix non-freed irq in legacy irq mode
+fb6312f703da29373d3988c2dba84cfd2d6384ac scsi: bnx2fc: Return failure if io_req is already in ABTS processing
+2bdd2db96bf32c513fcc503cfed45ad66dac2e73 scsi: vmw_pvscsi: Set correct residual data length
+a3a8fff79f518420618b3219a3a00090b87cf267 scsi: hisi_sas: Drop free_irq() of devm_request_irq() allocated irq
+5a9f4b9052bc291eda4a66e8568099451dad210e scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+74598cbdb35ab8a4f87d22efeb6e7d0e0902adca net: macb: ensure the device is available before accessing GEMGXL control registers
+7e89a172a85f26163c4ac1140bd514f448ae97de net: appletalk: cops: Fix data race in cops_probe1
+facf12f24e1641cee5df26f1bd83b3498953677f net: dsa: microchip: enable phy errata workaround on 9567
+2288f37b88c94f7af7ac2e75aafd47e5fc6e21d5 nvme-fabrics: decode host pathing error for connect
+1b82a522a3e983c6109824a5afb6cd7ebd787f0a MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+affc2b332bceb327cc80dc7425286dd246efd146 dm verity: fix require_signatures module_param permissions
+10548eca970954c3c5d9eeafe2c7828d28e97ddd bnx2x: Fix missing error code in bnx2x_iov_init_one()
+5df9a41cd34e92bb6dacdbbfff24a70223d9e88e nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
+8532810afaeab69a42b0d51400f6062833abc963 nvmet: fix false keep-alive timeout when a controller is torn down
+07b265c7c725e0765ce6fd1f48f7a20ed91e5f23 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+6d660cf1681456ee25a1b17c9440299961689589 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+5bdeb0ef69d35d42798dd07becc90a1acb0c60e7 spi: Don't have controller clean up spi device before driver unbind
+30044cb29a9345d58126f9a8f2451aff8c26dd0c spi: Cleanup on failure of initial setup
+aad89afbd893d4b45205e02dc45741cbebe6bc3a i2c: mpc: Make use of i2c_recover_bus()
+8850d1c413eee9335211fdd49fb28999c3f6bfad i2c: mpc: implement erratum A-004447 workaround
+4bcf1b32d180d513dbbfbe492ce2f78e8ea1bf02 ALSA: seq: Fix race of snd_seq_timer_open()
+4282e0bfe653b67da6e04ebb54fa7024ba616f0d ALSA: firewire-lib: fix the context to call snd_pcm_stop_xrun()
+8cb631a7b98283f983749311998b0f8d2f5af36b ALSA: hda/realtek: headphone and mic don't work on an Acer laptop
+5df5a5fc3b85f03193624a655e4386d5492f5074 ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Elite Dragonfly G2
+30e7ad748426c7c9a7c55061a9952d2ab8acc97b ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP EliteBook x360 1040 G8
+c5af1e5f9f47d1a88ab43915ce42b1fb4c2ff8dd ALSA: hda/realtek: fix mute/micmute LEDs for HP EliteBook 840 Aero G8
+016756c60207b5cdc7acef25007daea96c071535 ALSA: hda/realtek: fix mute/micmute LEDs for HP ZBook Power G8
+2add50cfca6949291ebd2bd3c420b5ccdc09f4b5 spi: bcm2835: Fix out-of-bounds access with more than 4 slaves
+fabd4b52d47c63e9058e716601847af495295b9b Revert "ACPI: sleep: Put the FACS table after using it"
+34ee50447b798905310cfbb8e1bae26ccd96d41e drm: Fix use-after-free read in drm_getunique()
+ccab12f77675d6ac1a65cade332c46f2c8ec3b59 drm: Lock pointer access in drm_master_release()
+45cbc61af126ac65cb46d8c39eacff6681d0be4b perf/x86/intel/uncore: Fix M2M event umask for Ice Lake server
+085e2cc549ebd4618dbf9aab356ca28b4dd35c3b KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+978fa31afd0b6ff2cefa7deae9da20f0de1d299a kvm: avoid speculation-based attacks from out-of-range memslot accesses
+204a9451fbca600b2598d6e2f9f7148e3c1add05 staging: rtl8723bs: Fix uninitialized variables
+ae00ba723d01d3b5305ca01afd90ad0e5c3a84c1 async_xor: check src_offs is not NULL before updating it
+40d89447f778ae0379885d3732a6ec680f32f7be btrfs: return value from btrfs_mark_extent_written() in case of error
+f05133e929be680925bd913704020a089e13aa31 btrfs: promote debugging asserts to full-fledged checks in validate_super
+ebe7c916df0effa4f1a27db3a0bb88213cbdf7d9 cgroup1: don't allow '\n' in renaming
+d9aca95e29d7d3ae1922b3e5500c3b09470c5260 ftrace: Do not blindly read the ip address in ftrace_bug()
+77c50e16d01fb5055d270f40a1d04e518243fa6f mmc: renesas_sdhi: abort tuning when timeout detected
+466b5a0c1c2ef3e2c2669a3cebe7f2ed9a0f1de7 mmc: renesas_sdhi: Fix HS400 on R-Car M3-W+
+6f378accd8a96f64ba7b77468340b0666ce9148d USB: f_ncm: ncm_bitrate (speed) is unsigned
+ab1690ed956e9224bdf108f4f95bc38a3e9de972 usb: f_ncm: only first packet of aggregate needs to start timer
+f13ec3f3bc9b87f034c18d9fe6eb5f0a5071a697 usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
+ab3e25489f9329e6ee4fc6a0ae2e02f9a95b90bf usb: dwc3-meson-g12a: fix usb2 PHY glue init when phy0 is disabled
+297ffb5d5dc7fde9836477d33d924fe7fbe06cf7 usb: dwc3: meson-g12a: Disable the regulator in the error handling path of the probe
+16faa33b5e179227fbd728fb8cbc700e7265fc16 usb: dwc3: gadget: Bail from dwc3_gadget_exit() if dwc->gadget is NULL
+d6e4965e494fd78870b26719c25a3666f12a22e8 usb: dwc3: debugfs: Add and remove endpoint dirs dynamically
+c9f854a3e1750db5e1a7251d6eefbb892b081878 usb: dwc3: ep0: fix NULL pointer exception
+a9ef5493f5c07d8ddc023ed56356a16b84af64c0 usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
+ce0775173b3411a969e69c1cdd46dd29688dd6f5 usb: typec: wcove: Use LE to CPU conversion when accessing msg->header
+5016dc7f430262416cf45ebeadbb2803f7a1788b usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
+2b836f557e5a592c912a0b0db8d1e203de24a604 usb: typec: intel_pmc_mux: Put fwnode in error case during ->probe()
+038b4e3738424a84ffda9fdf52e709aac5fcee8a usb: typec: intel_pmc_mux: Add missed error check for devm_ioremap_resource()
+10c255aa3bc3612a5279fd3863a4052b674423d0 usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
+546aa1510a84ecd65460189951496a3990c8abb8 USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+0c1ce72672d6c0c7b6de1ae083d089551514e0dc USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+da6806e6f806b4c617856a8f0850315c9f1488b6 USB: serial: quatech2: fix control-request directions
+22952acabf9ef6469a41b96d69c67bdc76028168 USB: serial: cp210x: fix alternate function for CP2102N QFN20
+0fb12297e7164c3f75fcb81ea238a9dabefbed6b usb: gadget: eem: fix wrong eem header operation
+d8aaaaf32cd6d7a07f9b999400995eb9c91be18f usb: fix various gadgets null ptr deref on 10gbps cabling.
+bea1575b6e2b5904f377efa90ecafa5609413645 usb: fix various gadget panics on 10gbps cabling
+261345589103ce0460d2171c78b50d7f748723a8 usb: typec: tcpm: cancel vdm and state machine hrtimer when unregister tcpm port
+93787b99c47d42d77fd2046f56f01751f00f3302 usb: typec: tcpm: cancel frs hrtimer when unregister tcpm port
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e97c6651365-20e54953ba5f.txt
+Content-Disposition: attachment; filename=revlist-20e54953ba5f-817ad5a099e2.txt
 
-2ab35653a2f083e20788a43facbf56f00ebc66a3 proc: Track /proc/$pid/attr/ opener mm_struct
-b179578b6dc6ae5ca7506ca419a132c9a59b0008 ASoC: max98088: fix ni clock divider calculation
-369f2c093cc774753c0ed5fb9991aa40532d04e0 ASoC: amd: fix for pcm_read() error
-8bd237fd63a468cddae70fd68c9fc7eb3d222732 spi: Fix spi device unregister flow
-783663792c037b4e1cba704dc783abd9fc8ab040 spi: spi-zynq-qspi: Fix stack violation bug
-49f231a2fd29f4f9da79f39efd62bae50213d4a6 bpf: Forbid trampoline attach for functions with variable arguments
-5a755cfc53bc5459f040d3bdc587841262a0bc7e ASoC: codecs: lpass-rx-macro: add missing MODULE_DEVICE_TABLE
-6bc3b945e2fb3d68ed1b4fe79c774b9d744f4348 ASoC: codecs: lpass-tx-macro: add missing MODULE_DEVICE_TABLE
-e7a6567ac24a296524283ff6073c3e6f5d193df5 net/nfc/rawsock.c: fix a permission check bug
-4a13a479c21514e2c6c48480a38d382ca8fc06bb usb: cdns3: Fix runtime PM imbalance on error
-ce6d7d9f7181140af9da299113489b126c18337b ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
-b0de32521fe0dfc4c6c683ff2b707a79e0973e7b ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
-a103d0a57491778e62c2d5dfce9cf5b96081839f bpf: Add deny list of btf ids check for tracing programs
-b4075ad2e8cd36ba0afc596dad41627e308c1316 vfio-ccw: Reset FSM state to IDLE inside FSM
-2aaf248d657ac495f0fc0a506b50c19012f6ecaf vfio-ccw: Serialize FSM IDLE state with I/O completion
-ee471f6c34b980cad5dffd0e723b17ec8fe2ee1a ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-15ae0beaaf4cc544c7128efec4c41f0ccdfbf0dc spi: sprd: Add missing MODULE_DEVICE_TABLE
-8c51a9c7274a7fcc4edd6a7bfa74e99e879eaf4e usb: chipidea: udc: assign interrupt number to USB gadget structure
-78d46b7a7ac9d6f8b7e6eb554f231fdb028a2fe5 isdn: mISDN: netjet: Fix crash in nj_probe:
-da1c652bac867b5f9dd947f451fb1a1f2df74817 bonding: init notify_work earlier to avoid uninitialized use
-70b9ff9fe10a6ee8c2983672984539592188122a netlink: disable IRQs for netlink_lock_table()
-84c7bdbff0eae7842cf2ee115ee765ebe4e4fc9f net: mdiobus: get rid of a BUG_ON()
-3b5298ee0f64f51fd1869ee95624b30c752c50ad cgroup: disable controllers at parse time
-d3cd2211364d5a74c0f5c42f3cd84558357726d9 wq: handle VM suspension in stall detection
-f08fe6c21627e54f4697d9c0dfe7966afd324e06 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-062e25a34f18012a37206e58fdccde10184df98e RDS tcp loopback connection can hang
-5551e21c5d48f3ed08c53440be2dbd71cf3ad0e1 net:sfc: fix non-freed irq in legacy irq mode
-a5d99310c65fecf6ee26ef7ee19fa453727ade8a scsi: bnx2fc: Return failure if io_req is already in ABTS processing
-1fad5eca51607d1805fd7b2a3a985f464dba649f scsi: vmw_pvscsi: Set correct residual data length
-1fe469e7b7e9985689b895a4ef3bfec2dde10a89 scsi: hisi_sas: Drop free_irq() of devm_request_irq() allocated irq
-0405f716cc42399b4e316feb7706d6a504f610ad scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-4c5a8d33df6b0c65fc3cc89e8244d8289e3e0cea net: macb: ensure the device is available before accessing GEMGXL control registers
-6d9b5268a1379361a83cb6c38b8ff7e71c7d5785 net: appletalk: cops: Fix data race in cops_probe1
-a7a68d28e5a6a855ee3c4638fba8da6e4ba88794 net: dsa: microchip: enable phy errata workaround on 9567
-4ca3990ecfb4e691680a37446d4c1a8983ba2feb Makefile: LTO: have linker check -Wframe-larger-than
-13608bae7b74122285b7da0dba8d353a778c1ed0 nvme-fabrics: decode host pathing error for connect
-c8d755ac2be746ea499a33c5f695abcae97f952e MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-0dca15844ea0766ab9fcbc7ce352e13ee04a24e7 bpf, selftests: Adjust few selftest result_unpriv outcomes
-41fcf5f1941727f5cdce6f31a7f1000f2cab3226 dm verity: fix require_signatures module_param permissions
-8811138adea03b2aea259a2255896272aae9d9cc bnx2x: Fix missing error code in bnx2x_iov_init_one()
-e4270dba8436c7f17362728163456ef7e0da5a13 nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
-1a9a8468ac89ed7cf5974e36cc076791df1bb40e nvmet: fix false keep-alive timeout when a controller is torn down
-0478272df6a35d81e52c7c522219b9f427488258 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-fd059493878c8b829e61f3d75fcf21e850a77460 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-8b42867d02b2d390c95a9ae4f21862605084d943 spi: Don't have controller clean up spi device before driver unbind
-d029abbbcd88a6b123cbd370edff41bbd6eb8412 spi: Cleanup on failure of initial setup
-2950cfd8e9622452b40a76a7fa1ef3846c3f58af i2c: mpc: Make use of i2c_recover_bus()
-20e54953ba5f622bc8e38699419317b3ffc598ce i2c: mpc: implement erratum A-004447 workaround
+7c2e6e97b9158df45968848727338b4717f465cf proc: Track /proc/$pid/attr/ opener mm_struct
+735ea4a84f969dfd4db46d9ec616ea3c1c983dbb ASoC: max98088: fix ni clock divider calculation
+0693c1b1596e4a1a001f408086851db29d66facc ASoC: amd: fix for pcm_read() error
+b5d657a2dcd430ee0ecba24c15874c7279d4d0e1 spi: Fix spi device unregister flow
+5012ee1f5a8ac431b6971433acc2c4321dc67df2 spi: spi-zynq-qspi: Fix stack violation bug
+b5a6a16ef76fa2b58bb45665420c0b0d075ed64e bpf: Forbid trampoline attach for functions with variable arguments
+2dd5d2eabf8099ba63b5026fdf964545bdd97edd ASoC: codecs: lpass-rx-macro: add missing MODULE_DEVICE_TABLE
+81a27d481b3b5757f2c00819068c5bce0fe2798c ASoC: codecs: lpass-tx-macro: add missing MODULE_DEVICE_TABLE
+72d75a5c316aa8e922fd96c7123fc0f6e8b81fa6 net/nfc/rawsock.c: fix a permission check bug
+85d0320fd6e23fea8be3cb199209e04dae2081a8 usb: cdns3: Fix runtime PM imbalance on error
+e65ed15d40855736939f786f1cfe82d7fefd1d8b ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
+dbdc94779b57ddb71ce99a62970392b541b8a1b2 ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
+348fe418e4eecb3b66757f2a1b83c2ac331c7aca bpf: Add deny list of btf ids check for tracing programs
+ae762cc10d24b68e9ead695cfb74eb2828346899 vfio-ccw: Reset FSM state to IDLE inside FSM
+b9eb245c78fde6f9279b6806f8bb85f3f79ec938 vfio-ccw: Serialize FSM IDLE state with I/O completion
+18f0dfd48887d1947c7d2f398dca21f1b1fdf16b ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+66b8553a7af63ba76f63d416f1c09c18c94c80fa spi: sprd: Add missing MODULE_DEVICE_TABLE
+cb24e2f92eca2243b3269af8e7635b570b83bfc4 usb: chipidea: udc: assign interrupt number to USB gadget structure
+d6d82e50e323b9a2f998c69310abe76e12fbf674 isdn: mISDN: netjet: Fix crash in nj_probe:
+4cb3ea427e6f31fb1a9865aed3eb59e476e44738 bonding: init notify_work earlier to avoid uninitialized use
+2de9e43795cce6a0d3ec50919a2fafd1d0af4bbb netlink: disable IRQs for netlink_lock_table()
+8dde7292396521c2a75e679022261dcd5fc4cbf7 net: mdiobus: get rid of a BUG_ON()
+f90cf106b407617253d8e2e6a7017e5623c86dd9 cgroup: disable controllers at parse time
+438cefaa3a318d8cf41cbb0ac7c94b0e8fa171cc wq: handle VM suspension in stall detection
+054d09e95598bfe810b81e1782514d6d618d4070 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+84697f08a80716ff768a0a785c8e26751b374d55 RDS tcp loopback connection can hang
+31b99a459c69463f198bcd68f6c0d7574708d374 net:sfc: fix non-freed irq in legacy irq mode
+a2bd14e9cf22c3321fda383f7d2879d412ce9fac scsi: bnx2fc: Return failure if io_req is already in ABTS processing
+ac376ee75ccbf6762320edf0bd0b2d0b8398c6e0 scsi: vmw_pvscsi: Set correct residual data length
+97e720639305ff623c1f335b9a0bfaa428397ca8 scsi: hisi_sas: Drop free_irq() of devm_request_irq() allocated irq
+3e8b1f45e43d584a137f60380fd42ef3006367f6 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+445dc38940034531409464996babf986c347feb8 net: macb: ensure the device is available before accessing GEMGXL control registers
+56f05851f87228e3471fbd16cba82b3865a5682a net: appletalk: cops: Fix data race in cops_probe1
+3dc0228673d6948669733032c12a9e3cecf0efa0 net: dsa: microchip: enable phy errata workaround on 9567
+289cc97f80164feabfaa1b96f7be9232b3728741 Makefile: LTO: have linker check -Wframe-larger-than
+6573441815ca373a6e5eff4b192ef31465afd263 nvme-fabrics: decode host pathing error for connect
+d4207b6daf30598761da4dc9bc2d696d1fc46085 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+e76f99f203f75f55fca88ae29d1e63aea32ab36a bpf, selftests: Adjust few selftest result_unpriv outcomes
+c659dd0512d7fd78113b03e2df54a82e45b9770a dm verity: fix require_signatures module_param permissions
+8c06f9e20c7fc0970ed90392c6a08bea32515d84 bnx2x: Fix missing error code in bnx2x_iov_init_one()
+3b6b43f8ed0f21534a0c8d61c5f046b22729b2ac nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
+e34ba658e7a5e4ea91527626d68a207a547a7426 nvmet: fix false keep-alive timeout when a controller is torn down
+4c096457283c6ac4652e3057741309975e32d702 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+ade2b041b138e0e2677c1c9b58d88778fbb1ca87 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+0960a8b1fdc5f97bd1383e2802ce7c2c0aa879c4 spi: Don't have controller clean up spi device before driver unbind
+b3c11338bdb14439338579796c20d69c97e4f4c4 spi: Cleanup on failure of initial setup
+e604a259a0414c54f70eee9879742e8628f42472 i2c: mpc: Make use of i2c_recover_bus()
+1b5d892a0e0d4584dc4b95d4d39f4a166f5b3c3f i2c: mpc: implement erratum A-004447 workaround
+1c0d01df610eecdb62b69f50e8c9e7145640925c ALSA: seq: Fix race of snd_seq_timer_open()
+b31f6b6e11bb2e7833fa14624984b0e752ff95fe ALSA: firewire-lib: fix the context to call snd_pcm_stop_xrun()
+5730b30843bacdc4f57461ac0c2ed8e75b38c3fc ALSA: hda/realtek: headphone and mic don't work on an Acer laptop
+bd36ada0ada0196be9cc164b33f2910aa64c8f0e ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP Elite Dragonfly G2
+4d2ad76576925133506eb2a2d3da3132152a4fef ALSA: hda/realtek: fix mute/micmute LEDs and speaker for HP EliteBook x360 1040 G8
+3be34f942c758b7376544878b9c73735dc65a39d ALSA: hda/realtek: fix mute/micmute LEDs for HP EliteBook 840 Aero G8
+26e371bc8907b306150b005df8ecb9af0b3d6754 ALSA: hda/realtek: fix mute/micmute LEDs for HP ZBook Power G8
+b4e9fd3fe3e97630f4628d33e40d3681cebb92f2 spi: bcm2835: Fix out-of-bounds access with more than 4 slaves
+e544c654bf56d391de0e71fd0c472ab4c59d6201 Revert "ACPI: sleep: Put the FACS table after using it"
+37ab7f1ddee3f2a47b4b6fd28469fdce6649fe0d ACPI: Pass the same capabilities to the _OSC regardless of the query flag
+c8e43d63827bc14e9602c61750863fe12cd90315 drm: Fix use-after-free read in drm_getunique()
+e6d363a288ca044cc5c9cd966978f0b9196d2954 drm: Lock pointer access in drm_master_release()
+6724bb8c0091c46fac7ac25439bf77f3acb1b5a9 x86, lto: Pass -stack-alignment only on LLD < 13.0.0
+c3d42dac32ce083bd54125f6bfd2067b5a19c6ad perf/x86/intel/uncore: Fix M2M event umask for Ice Lake server
+8013fc91826b892cb0d216a45e1b8f2916519bca KVM: x86: Unload MMU on guest TLB flush if TDP disabled to force MMU sync
+cb425c721de50f35e185db0adb1119fee5b12927 KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+daab8d25f2e54cfda385f4a72d4600e04e434d40 kvm: avoid speculation-based attacks from out-of-range memslot accesses
+bf8f72e265871a54bd549c8f3624bf20dd1576f2 staging: rtl8723bs: Fix uninitialized variables
+21f5e4937777fb3571cfeafe1b8afa80f09b1280 usb: misc: brcmstb-usb-pinmap: check return value after calling platform_get_resource()
+5375a66ca6b681cc846acaaf9cac9ef26d80c3d3 misc: rtsx: separate aspm mode into MODE_REG and MODE_CFG
+f8311f7d5017f6be64fba82316aac39f831acee1 bus: mhi: pci_generic: Fix possible use-after-free in mhi_pci_remove()
+678912b2d131b0df5311775164c107f1bb3bb6ac tick/nohz: Only check for RCU deferred wakeup on user/guest entry when needed
+673738f66a3b7aec300d23b7245c70dc777ca04f bcache: remove bcache device self-defined readahead
+f8acf6633ca1bcd5d68a3a2925281de98d0ebd20 bcache: avoid oversized read request in cache missing code path
+bb968f62ced522365937e31c09d395b18085b51c async_xor: check src_offs is not NULL before updating it
+b07023c3c4d2be9f6cbe85849179e13da82fcef4 btrfs: do not write supers if we have an fs error
+d479c3f9a6bda949164b73b224a4386aa0432439 btrfs: zoned: fix zone number to sector/physical calculation
+186be5e877b04621a88b7b5546143722dcfb2da9 btrfs: return value from btrfs_mark_extent_written() in case of error
+3a7e0d2761344bc0e2dd3e1ed1ce472d342de1b0 btrfs: promote debugging asserts to full-fledged checks in validate_super
+bd6a467b1acac7d243d48e0f34a35486ea6ce12b coredump: Limit what can interrupt coredumps
+e22fd462d112715d37f93f4f619c4a2802b9f5ab cgroup1: don't allow '\n' in renaming
+ca49a635332a1e96068b013451d969e4cb159053 ftrace: Do not blindly read the ip address in ftrace_bug()
+08430adf6e991084afc1addb3a9069cd87029532 tracing: Correct the length check which causes memory corruption
+f9461c000c8116ee5ba5d18d9b5227683a672fc9 tools/bootconfig: Fix a build error accroding to undefined fallthrough
+a8654370e56daecaf9a78d1f9e3580511ed6e477 mmc: renesas_sdhi: abort tuning when timeout detected
+6e043af9f26941b605d4976e8b66407c5611da4a mmc: renesas_sdhi: Fix HS400 on R-Car M3-W+
+8e968d87a9e24791f84867f4feb568f448c0514d USB: f_ncm: ncm_bitrate (speed) is unsigned
+fed62fa50fcea663d627eaa6ecf4713169b82886 usb: f_ncm: only first packet of aggregate needs to start timer
+62f0823980afc1e5c6f6e381c4a2a95bfe22a1ce usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
+3e40d735bf2dc9a1c9972495f7b339f73279bcba usb: dwc3-meson-g12a: fix usb2 PHY glue init when phy0 is disabled
+43d9b8e6197d1f81809e7c006bd7c76bed69a498 usb: dwc3: meson-g12a: Disable the regulator in the error handling path of the probe
+eb51ef52c4e10b7d8e30cbe16fe0d505316b47fd usb: dwc3: gadget: Bail from dwc3_gadget_exit() if dwc->gadget is NULL
+bbc9c72e1147aced1eb2ed7e07e799e6bf23c598 usb: dwc3: debugfs: Add and remove endpoint dirs dynamically
+6c636c07f89be2581ddf446a26736ff218e184ef usb: dwc3: ep0: fix NULL pointer exception
+36c82e8dd5c663e5d743c532613ad44d11e5037f usb: pci-quirks: disable D3cold on xhci suspend for s2idle on AMD Renoir
+1d3e3f261380e16d4b34a25130c6bb7d79809d5b usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
+43ccff98618d2a1f6f8971fb357f6444ddffc24e usb: typec: wcove: Use LE to CPU conversion when accessing msg->header
+ae0f348cbc3b17fd62149f8c0463c3922ec13d60 usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
+117615bc8eb23f0ba3a17c01e2a1aa372721af79 usb: typec: intel_pmc_mux: Put fwnode in error case during ->probe()
+a79d3d8d5ac24b5011afe16efaeffd5576d38344 usb: typec: intel_pmc_mux: Add missed error check for devm_ioremap_resource()
+8c7930135703bb026c53427fe96a1e4879cd71b3 usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
+286538e4dd70b54c1c50a5747012ad4b7b5005ce USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+8e172f9d1f0a22ef6f8138bb475c4946d63c6540 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+7bcfa0759920c5387a628eede627d5772dc3e16f USB: serial: quatech2: fix control-request directions
+815022544a842bbbd0ac9c8fb246c2e9b8ca5260 USB: serial: cp210x: fix alternate function for CP2102N QFN20
+f479e8c61a68a811f6fb4879218e0151fe0bb32a USB: serial: cp210x: fix CP2102N-A01 modem control
+b50402b8c4f00cea54e05d549718fc41ef74e090 usb: cdnsp: Fix deadlock issue in cdnsp_thread_irq_handler
+3774ed6241ddf205499102a19cb61bce805a8de7 usb: gadget: eem: fix wrong eem header operation
+f6be893ec2caa05ad588b57c31c0dea8029da362 usb: fix various gadgets null ptr deref on 10gbps cabling.
+889f08cba95acce5bdc5f09d2a942c170e3ebcfe usb: fix various gadget panics on 10gbps cabling
+8e1f2a1410557f522872f04bc2322aad7a0f1009 usb: typec: tcpm: Properly handle Alert and Status Messages
+55d61408eba7b6d3020876d0e67e2151e28e12a4 usb: typec: tcpm: cancel vdm and state machine hrtimer when unregister tcpm port
+76f4cb9da21efab5e1f01ee1e507a77286ad73ba usb: typec: tcpm: cancel frs hrtimer when unregister tcpm port
+817ad5a099e226a87948cde965ff8651bf5c03a8 usb: typec: tcpm: Do not finish VDM AMS for retrying Responses
 
---===============2651790005448580487==
+--===============7012592902600870547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cda316475cf-da35d6ee00bd.txt
+Content-Disposition: attachment; filename=revlist-da35d6ee00bd-3b434e7654ab.txt
 
-ea5c9be37d04ac731557b75c5f5ac9df251ac412 proc: Track /proc/$pid/attr/ opener mm_struct
-82182912858007c91ed8955cfbfdcd8a702ea4ca ASoC: max98088: fix ni clock divider calculation
-ad12839c957ae285bd742ebbdebe2cf134a4a8df spi: Fix spi device unregister flow
-c8ff6be6d1edacc8ec3c23f8efc63fb2a8f54e1a net/nfc/rawsock.c: fix a permission check bug
-06482ce76b367b97aa7437de6bb4290e7886a2b4 usb: cdns3: Fix runtime PM imbalance on error
-6837637a50d7fd16e060457a880e7574800e01e2 ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
-165677dac0609294e560a5fe07e325a3e3d0e0d2 ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
-ad5500346b5a7ca47811bff31bc35cb1e3059dbe vfio-ccw: Serialize FSM IDLE state with I/O completion
-ed47103ba4c824be2ffcbaebd5a68e81e3d1e440 ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
-168691efcbdf2b3037a0eff5258a4b97a23a3741 spi: sprd: Add missing MODULE_DEVICE_TABLE
-f981b475cac568a5744cadf0e7161c8aeef35ec1 isdn: mISDN: netjet: Fix crash in nj_probe:
-802fea420157fad704aa374ba7cb6d8d74074dc5 bonding: init notify_work earlier to avoid uninitialized use
-75776932d7bf4d80880aaf177509886beba98090 netlink: disable IRQs for netlink_lock_table()
-809c52972546efd5acb7bedcbd4c85cd281112eb net: mdiobus: get rid of a BUG_ON()
-9bf3c472d9db6a6bdab1f02e49b195a476296011 cgroup: disable controllers at parse time
-52960201f1288ddbfae01e62ca0db38ae220fadd wq: handle VM suspension in stall detection
-072609542b892f15a7e7dc41ecffe0cf7432139c net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-58b3e811a7aeeec9ced3ccfe5a48eb0e08937fe4 RDS tcp loopback connection can hang
-7b9cfa5b04fa73721e686e7cd76f515971175408 scsi: bnx2fc: Return failure if io_req is already in ABTS processing
-ffa46f991146cd7e7affbe5fb45f7bb747c0b4f9 scsi: vmw_pvscsi: Set correct residual data length
-1f554f24008c0099f876fecd44f91fb5ba63f03f scsi: hisi_sas: Drop free_irq() of devm_request_irq() allocated irq
-83b304b41a092cb920bb8268c964b6d9608076be scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-174eaabd2876d272e5e9954441a97b1010b92c5f net: macb: ensure the device is available before accessing GEMGXL control registers
-20f399f27af897034374a9e6985cebc0822c8b71 net: appletalk: cops: Fix data race in cops_probe1
-b5256898be97da1e24cc7b04cf64336294037c9c net: dsa: microchip: enable phy errata workaround on 9567
-bc586697b3ee0360810b7081fbe8b4874331463e nvme-fabrics: decode host pathing error for connect
-f1c1887b03fe3c67ba1fcf39a1687e4d3201421c MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
-25ffa7d5fd9198186b7ab4a33ba9130cd7342841 dm verity: fix require_signatures module_param permissions
-baf151079794e5089164ddfe7b39cd22b1871042 bnx2x: Fix missing error code in bnx2x_iov_init_one()
-586eb7556dd3558b783808d966ccd88521238282 nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
-a2cad0587a8aa8a74b9409346bc5b1b83283bffe powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
-eafc7f165b522f80afa74f690a6374def12c62d2 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
-94fb0a740c1b6456397ba3437a095751c236e296 spi: Don't have controller clean up spi device before driver unbind
-0a0702c8d39c57fdd8c893c91dc8836132054439 spi: Cleanup on failure of initial setup
-5a2930279df759b83915c2410902aeef9d0045e5 i2c: mpc: Make use of i2c_recover_bus()
-2d28f346430ce399d961cc87d3c809233c3db632 i2c: mpc: implement erratum A-004447 workaround
-da35d6ee00bd4f22070731db8dc2f70b59b353cd x86/boot: Add .text.* to setup.ld
+de81b03729829213ff760bde64cbca59abc9cef2 proc: Track /proc/$pid/attr/ opener mm_struct
+b132dba461c79d4b65d285181c1a1dfcfc6ca8fc ASoC: max98088: fix ni clock divider calculation
+b9cdfd5170ff7a9b101c7cfabc95c3a120a27fe6 spi: Fix spi device unregister flow
+bccc62e225d81396f7edac498479e0410badcfb7 net/nfc/rawsock.c: fix a permission check bug
+4e00e0cc1653a0b5c706e79d1488a78ba391963f usb: cdns3: Fix runtime PM imbalance on error
+c56597015f20a47b45da63eeb8f410c5cbe83f5f ASoC: Intel: bytcr_rt5640: Add quirk for the Glavey TM800A550L tablet
+9620823199d30502a7286a32d993a2f1a0a32e1e ASoC: Intel: bytcr_rt5640: Add quirk for the Lenovo Miix 3-830 tablet
+dc1aef88a6996df1de43e7fdaf5a97fe9094e5e7 vfio-ccw: Serialize FSM IDLE state with I/O completion
+e769be598f14f53eed17080d07e126c4503d817e ASoC: sti-sas: add missing MODULE_DEVICE_TABLE
+c1d5f2122ce0f127e4b308c0b9d8328d6388ebb8 spi: sprd: Add missing MODULE_DEVICE_TABLE
+c245b0e12a16c514a9b2c5f2bf1353a0280f9741 isdn: mISDN: netjet: Fix crash in nj_probe:
+e91574489c18d68e937ccdc43f6d3f7f3fe8d3b6 bonding: init notify_work earlier to avoid uninitialized use
+5228cae6f4896066d0dae2fa5ea26063c71e6a3e netlink: disable IRQs for netlink_lock_table()
+28f45c8ba9bb96cebcb53e7772faf5aa0500043a net: mdiobus: get rid of a BUG_ON()
+b6d7f59ed17e1721e4ea2b6cc1be39ae25fa8562 cgroup: disable controllers at parse time
+b13e499d1f8b42deb4f88486eb638d399099488b wq: handle VM suspension in stall detection
+abd8a685959753fe027bcd6f1fa1669d0dbe10f1 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
+39032187cd164ce2b71026454d8c9c55821cedcb RDS tcp loopback connection can hang
+9f7b5da5d751cad7b93be2f3f19e33c14c08f7a2 scsi: bnx2fc: Return failure if io_req is already in ABTS processing
+9a992cd9ea5b9e455aa975895c6f205ea1f0a4e6 scsi: vmw_pvscsi: Set correct residual data length
+3bc5be39a6cbfad04bd4001656d1803f20e3e1c9 scsi: hisi_sas: Drop free_irq() of devm_request_irq() allocated irq
+095646cbe95cf3b0514e5714e09dd112cf69f737 scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
+fee0bf2fa4270f0f890e3c4a1df98342dfd324c9 net: macb: ensure the device is available before accessing GEMGXL control registers
+62e18b63385c04dea1a80f3e299c5edd146b8ade net: appletalk: cops: Fix data race in cops_probe1
+3e769bc72288da91f58382ad12b9109a996fc8db net: dsa: microchip: enable phy errata workaround on 9567
+892b7a96afa4ace0bf3c6e42dfaf6bc5c67197b6 nvme-fabrics: decode host pathing error for connect
+91bcfc650a9dc12212d17200034416b115d0e298 MIPS: Fix kernel hang under FUNCTION_GRAPH_TRACER and PREEMPT_TRACER
+40a12f0f739d118bc2f07c2e57b5c3c09c68db9d dm verity: fix require_signatures module_param permissions
+3e0a4ce40197e0bbb9516790e78a902de7ef10b0 bnx2x: Fix missing error code in bnx2x_iov_init_one()
+8b7486c5570426362a7869aba4eed4ad0a96a9d6 nvme-tcp: remove incorrect Kconfig dep in BLK_DEV_NVME
+600c439ed6d30b0c2a8bfd1255771674cc10f99a powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P2041 i2c controllers
+516234120e5fb2edbb546ab17e9fbe0caf901708 powerpc/fsl: set fsl,i2c-erratum-a004447 flag for P1010 i2c controllers
+f5437c8199957cfb735f8ea2a1ddc4c5626431da spi: Don't have controller clean up spi device before driver unbind
+a223ca9c25f23c4a793d4f0908dfb10542e957b3 spi: Cleanup on failure of initial setup
+84fc079281b15aab96d1a0642e75135f8201932f i2c: mpc: Make use of i2c_recover_bus()
+dd19d4a8e3fff3bc7ead63f79c7a0393db246c81 i2c: mpc: implement erratum A-004447 workaround
+fd8f846aab37920abc0d4b62ab78b6571fc1f4cc x86/boot: Add .text.* to setup.ld
+3ca490bb1bed8c84c2e28b5f79cc4bb9a7b725ea spi: bcm2835: Fix out-of-bounds access with more than 4 slaves
+e0f4c403e2fbbf1c49cbad26932873e651bba03b drm: Fix use-after-free read in drm_getunique()
+3f643572edb366492be501d1f73901948b44696c drm: Lock pointer access in drm_master_release()
+cf23065dea0e1e8719fe3fa8c9669d5f50ab86f6 kvm: avoid speculation-based attacks from out-of-range memslot accesses
+388722353a103efd802a5ddaa09866e7b310cdd9 staging: rtl8723bs: Fix uninitialized variables
+a18312cc5dec63f6537493963bab14860bb1168f btrfs: return value from btrfs_mark_extent_written() in case of error
+603e3465d52afdd66bcf56670caf7a06ebc59959 btrfs: promote debugging asserts to full-fledged checks in validate_super
+8c8ca50e798e3aad3b0d377b93446cd946568c83 cgroup1: don't allow '\n' in renaming
+55a2f90192a6429a3ff55dd45b46e0be76ae3da4 USB: f_ncm: ncm_bitrate (speed) is unsigned
+36473682a3d7a1ba47f2cd195dafd3d108efe01e usb: f_ncm: only first packet of aggregate needs to start timer
+3dd56204913f8a6669c0b95bec13326ffb5ef54a usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
+a940935191e1ea649f84760deb6f5a7923336c1e usb: dwc3: debugfs: Add and remove endpoint dirs dynamically
+98a37775e0f871bcf31de80fae306fa99f92d705 usb: dwc3: ep0: fix NULL pointer exception
+33fd294633a87aaea79c94ad39a85d74ba50958e usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
+40a9e11f55a91cc36d90fddf1038919cbee3f041 usb: typec: wcove: Use LE to CPU conversion when accessing msg->header
+e1ae941eafc0f308ed7c20cfec57cffc3dda59bc usb: typec: ucsi: Clear PPM capability data in ucsi_init() error path
+94a128097fd9d4a45eebd9e867c88de7eea732be usb: gadget: f_fs: Ensure io_completion_wq is idle during unbind
+3d9d7f80fef00fd7b8fbb129a93294e5adc14488 USB: serial: ftdi_sio: add NovaTech OrionMX product ID
+1ae0a4ecbe2b1646c3a2bb7ce25feae4cf27693d USB: serial: omninet: add device id for Zyxel Omni 56K Plus
+cfb77cd97d9dc566b1a5624458c3f1f26e1d4b5f USB: serial: quatech2: fix control-request directions
+642c4888ad8e3f243ccef8e6fd35510002597e5f USB: serial: cp210x: fix alternate function for CP2102N QFN20
+d2e98fc1f2aff1537b2cc41e11f56cdda03bc1d1 usb: gadget: eem: fix wrong eem header operation
+70dc1c597081f3eb22d34227fd8e7a13fe54a536 usb: fix various gadgets null ptr deref on 10gbps cabling.
+3b434e7654aba7c36d3b9597f9b09c8830030692 usb: fix various gadget panics on 10gbps cabling
 
---===============2651790005448580487==--
+--===============7012592902600870547==--
