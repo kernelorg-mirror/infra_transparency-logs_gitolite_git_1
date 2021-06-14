@@ -1,27 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 14 Jun 2021 11:51:27 -0000
-Message-Id: <162367148733.13734.16394455118540619348@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2020326859938362123=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 14 Jun 2021 11:55:52 -0000
+Message-Id: <162367175279.16492.11431599221827334419@gitolite.kernel.org>
+
+--===============2020326859938362123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/next
-    old: b4ae887d22161694441c9e714a7df192df4dc7f4
-    new: ab7c86b545d6a8785c16987039bd0098aed34bdb
-    log: |
-         86ca544fd71def93b090ec5085904ecb9cae4849 habanalabs: print more info when failing to pin user memory
-         d17ffb082838270cd0e90ad1dc660fd73c073d84 habanalabs: zero complex structures using memset
-         1f8b1c8a44f48871f76c4d120bdc99ba1460734e habanalabs: set rc as 'valid' in case of intentional func exit
-         3190bf622354e94fd3e13b3a8d97091cf0026e53 habanalabs: remove node from list before freeing the node
-         4a3e2ac01b39d5e7be8d2961448919d3e16cf08e habanalabs/gaudi: update coresight configuration
-         06fdf230a6660f2d31e0f738e897958bb36c41cc habanalabs/gaudi: set the correct rc in case of err
-         ad398975b3a837a597e6181f8d47bfe21ad94d5f habanalabs: added open_stats info ioctl
-         9721306aa67d6559f6a9392fa11896dc5b5bca76 habanalabs/goya: add '__force' attribute to suppress false alarm
-         ab7c86b545d6a8785c16987039bd0098aed34bdb habanalabs/gaudi: print last QM PQEs on error
-         
+  - ref: refs/heads/master
+    old: 94ba932bc95598d0b2fae6f697824adbbd91dd8c
+    new: 2f01cee1c06d22113d584450e82088279e1efbe6
+    log: revlist-94ba932bc955-2f01cee1c06d.txt
+
+--===============2020326859938362123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-94ba932bc955-2f01cee1c06d.txt
+
+955d35fb5b7701eda75c558c8c6de3562f722b0d ASoC: meson: gx-card: fix sound-dai dt schema
+f474cc930820d0e0559a4c65351bf46d10cfa8d2 dt-bindings: connector: Replace BIT macro with generic bit ops
+102cf9f92fbc484f897b3d5ea0bd138b13277acd dt-bindings: connector: Add PD rev 2.0 VDO definition
+e02679948bc87948c837cd57558367b5ee638a44 Merge tag 'asoc-fix-v5.13-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+fbbff6f384933eadca0895a6fcdc36a150be8043 media: dt-bindings: media: renesas,drif: Fix fck definition
+03478e270d7cd66d9e8fb29a7e3fcee88e549a0a dt-bindings: hwmon: Fix typo in TI ADS7828 bindings
+34edc9eccbdcbe49e0bdd7de59520b3dba0c72a0 Merge tag 'sound-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+160035e9cef84f9601de90390ed1ff2562da5bf0 Merge tag 'devicetree-fixes-for-5.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+1fd2d4d664cfff9d67513dc7e07915c39bd65b52 Merge tag 'usb-5.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+2f01cee1c06d22113d584450e82088279e1efbe6 Merge tag 'v5.13-rc6-dts-raw'
+
+--===============2020326859938362123==--
