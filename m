@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5276751656622393334=="
+Content-Type: multipart/mixed; boundary="===============4421679208292563524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 14 Jun 2021 00:13:06 -0000
-Message-Id: <162362958625.903.3323598780754164758@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 00:13:18 -0000
+Message-Id: <162362959819.1055.8354774227099724593@gitolite.kernel.org>
 
---===============5276751656622393334==
+--===============4421679208292563524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: e13d1127241404f1c3eb1379ac4dd100eaf385b4
-    new: 009c9aa5be652675a06d5211e1640e02bbb1c33d
-    log: revlist-e13d11272414-009c9aa5be65.txt
-  - ref: refs/heads/master
-    old: 8ecfa36cd4db3275bf3b6c6f32c7e3c6bb537de2
-    new: 009c9aa5be652675a06d5211e1640e02bbb1c33d
-    log: revlist-8ecfa36cd4db-009c9aa5be65.txt
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/heads/hwmon-next
+    old: d92a42ae233e8d28e953a1e6d13b8fea81402191
+    new: 8e6f6d9d0e9e39fdbfda666b5ddf1db841213c44
+    log: revlist-d92a42ae233e-8e6f6d9d0e9e.txt
 
---===============5276751656622393334==
+--===============4421679208292563524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e13d11272414-009c9aa5be65.txt
+Content-Disposition: attachment; filename=revlist-d92a42ae233e-8e6f6d9d0e9e.txt
 
 3d681804efcb6e5d8089a433402e19179347d7ae regulator: cros-ec: Fix error code in dev_err message
 f8c8871f5eff3981eeb13421aca2c1cfda4a5204 regulator: fan53555: fix TCS4525 voltage calulation
@@ -285,29 +278,46 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 960f0716d80fb8241356ba862a4c377c7250121f Merge tag 'nfs-for-5.13-3' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 e4e453434a199cdfa1e1e5cc723d8736f522354a Merge tag 'perf-tools-fixes-for-v5.13-2021-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 009c9aa5be652675a06d5211e1640e02bbb1c33d Linux 5.13-rc6
+c20ba0f904d6c8cfcfebe35b4f21274b575a5378 hwmon: (pmbus/zl6100) Add support for ZLS1003, ZLS4009 and ZL8802
+022d6f0a004be4eeb8ec9ed839ebf90fd9d09731 hwmon: (pmbus/zl6100) Update documentation for zl6100 driver
+e6bee4d3aa688061c854f15495b4681877b75fdb hwmon: (lm75) Add TI TMP1075 support
+e2a96ef0b1497e946fd0ade68d813c26e2848cc4 dt-bindings: hwmon: Add Texas Instruments TMP1075
+be4b3dcfc3d324299dbd3ce2e7291b15a5ed558a docs: hwmon: ir36021.rst: replace some characters
+2f38ab4906a7e37ebc381d7ac7de550436cb2d2d docs: hwmon: avoid using UTF-8 chars
+f16118778c0cd0833d256636213e9dd8e4e724a4 hwmon: (lm70) Revert "hwmon: (lm70) Add support for ACPI"
+c9c3f00735a528cd9e317b5606bbbb945f692286 hwmon: (max31722) Remove non-standard ACPI device IDs
+4faebf7f64eab514ae1c46c313ffa0a1ef71943e hwmon: (lm70) Use SPI_MODE_X_MASK
+51ea79dad77c7c4890e3c16894173d2b708ad455 hwmon: (sch56xx) Use devres functions for watchdog
+38ec9c43086755a6fae03f8b9cad8d4e16b04a5d hwmon: (sch56xx-common) Use strscpy
+e819401e417b98edf7fe5a2d31c5dc8ac86d1c59 hwmon: (sch56xx-common) Use helper function
+9bd777573fcf5c8bf6b6683c09e06c720d212f35 hwmon: (sch56xx-common) Simplify sch56xx_device_add
+c46ee78b6fe9dfe6907b99c01bfb76d5eff8e2ab hwmon: (pmbus) Add new flag PMBUS_READ_STATUS_AFTER_FAILED_CHECK
+67580938115e1f1291657e22ae968cbda6021928 hwmon: (pmbus) Add documentation for new flags
+28a9ca181505475852b96d7ba12a334945c68df2 hwmon: (pmbus) Add support for additional Flex BMR converters to pmbus
+91a4e2c3a32a7109996ed9c9f5710e8714aaa073 hwmon: (bt1-pvt) Remove redundant error printing in pvt_request_regs()
+49f47d2d95398357a20cb0d6e0399478ed027455 hwmon: (pmbus) Increase maximum number of phases per page
+cb93c77e768f2d30f6eeaec233b4764ebcb8b45f hwmon: (pmbus) Add support for MPS Multi-phase mp2888 controller
+2c84e210f0dfed13d78731ab89c5b667e0b36c74 dt-bindings: Add MP2888 voltage regulator device
+efabe9bfac78f0e61566d887f840149dd3644761 hwmon: (adm1275) enable adm1272 temperature reporting
+293bf3f84a6d9b36dfd9bca4d54658e1726f6af6 docs: hwmon: Add an entry for mp2888
+6d3979ae2a437c8befde585c0debdc0d539f66c3 hwmon: Add sht4x Temperature and Humidity Sensor Driver
+6e59f7347bd43af6ff9ec332c00365ab9a9bbdf4 hwmon: (sht4x) Fix sht4x_read_values return value
+1bfcc38a86ed76b59fe3eb2e3846f05c7d9a55c0 hwmon: (max31790) Fix fan speed reporting for fan7..12
+a5bb6367546e71281d2bd57b38254a1892766914 hwmon: (max31790) Report correct current pwm duty cycles
+0dda9116fd2346451b78550d1a63c7e229a07875 hwmon: (max31790) Fix pwmX_enable attributes
+8b7d02c8b4528503971a5985bae7bc72da3e42bc hwmon: (max31790) Clear fan fault after reporting it
+1231ef2e9c0a36387c06e14d8567296f2da90814 hwmon: (max31790) Detect and report zero fan speed
+d36c55d5013b297f07373be239badfb864c7fa27 hwmon: (ina3221) use CVRF only for single-shot conversion
+6878066e576918c9dc04aba6ded01f1f6a637f7a hwmon: (pmbus_core) Check adapter PEC support
+13b3db74263f0c694a9cf20efdff119e3a19a0e7 docs: hwmon: adm1177.rst: avoid using ReSt :doc:`foo` markup
+01d6e590dbf30bb84385de838c1524c350c65483 hwmon: (pmbus) Add new pmbus flag NO_WRITE_PROTECT
+793b327d58c5fed3bd809f52636c6aef85a12ba9 hwmon: (pmbus) Add support for reading direct mode coefficients
+1035215be70d740fa527fa72a2865c6cde81284e hwmon: (pmbus) Allow phase function even if it's not on page
+c65b0d90de730ffcf067c0b7d2e0c24e038890e4 hwmon: (pmbus/pim4328) Add PMBus driver for PIM4006, PIM4328 and PIM4820
+d73cf2b6bb7753c5ef0aa428a39fc15d7952992e hwmon: (pmbus/pim4328) Add documentation for the pim4328 PMBus driver
+1f442e213ce5a31891505755f00ecb206830f38f hwmon: (pmbus) Add driver for Delta DPS-920AB PSU
+67f909a530279cf9aa1c955a65fe6011cf3fedb2 dt-bindings: trivial-devices: Add Delta DPS920AB
+5ead6406b9afed4613ea1a620d3cae29e2793bea MAINTAINERS: Add Delta DPS920AB PSU driver
+8e6f6d9d0e9e39fdbfda666b5ddf1db841213c44 hwmon: (ntc_thermistor) Drop unused headers.
 
---===============5276751656622393334==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ecfa36cd4db-009c9aa5be65.txt
-
-f8849e206ef52b584cd9227255f4724f0cc900bb NFSv4: nfs4_proc_set_acl needs to restore NFS_CAP_UIDGID_NOMAP on error.
-0b4f132b15f988831dfca8f96af272e437eacf05 NFS: Ensure the NFS_CAP_SECURITY_LABEL capability is set when appropriate
-476bdb04c501fc64bf3b8464ffddefc8dbe01577 NFS: Fix use-after-free in nfs4_init_client()
-09226e8303beeec10f2ff844d2e46d1371dc58e0 NFS: Fix a potential NULL dereference in nfs_get_client()
-d1b5c230e9cb6dddeab23f0f0c808e2b1c28d1b6 NFS: FMODE_READ and friends are C macros, not enum types
-dfe1fe75e00e4c724ede7b9e593f6f680e446c5f NFSv4: Fix deadlock between nfs4_evict_inode() and nfs4_opendata_get_inode()
-c3aba897c6e67fa464ec02b1f17911577d619713 NFSv4: Fix second deadlock in nfs4_evict_inode()
-66a834d092930cf41d809c0e989b13cd6f9ca006 scsi: core: Fix error handling of scsi_host_alloc()
-3719f4ff047e20062b8314c23ec3cab84d74c908 scsi: core: Fix failure handling of scsi_add_host_with_dma()
-11714026c02d613c30a149c3f4c4a15047744529 scsi: core: Put .shost_dev in failure path if host state changes to RUNNING
-1e0d4e6225996f05271de1ebcb1a7c9381af0b27 scsi: core: Only put parent device if host state differs from SHOST_CREATED
-197eecb6ecae0b04bd694432f640ff75597fed9c perf session: Correct buffer copying when peeking events
-36524112aba3246d1240c1791c72b26fa54008a3 tools headers cpufeatures: Sync with the kernel sources
-331a6edb30af2b06fcc7f2bf734c6f4984b48a31 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-960f0716d80fb8241356ba862a4c377c7250121f Merge tag 'nfs-for-5.13-3' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-e4e453434a199cdfa1e1e5cc723d8736f522354a Merge tag 'perf-tools-fixes-for-v5.13-2021-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-009c9aa5be652675a06d5211e1640e02bbb1c33d Linux 5.13-rc6
-
---===============5276751656622393334==--
+--===============4421679208292563524==--
