@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 14 Jun 2021 18:45:17 -0000
-Message-Id: <162369631799.26319.18417857336198647586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 14 Jun 2021 19:11:06 -0000
+Message-Id: <162369786653.10112.15218177671148035179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 790dfbda79444d11a95a317f6215c57256da3223
-    new: f1feaa94c7a92e5c18fb69e97fd19cd0211e4861
+    old: f4cdcae03f9cfbfd6a74b8d785c92a6b48fd833e
+    new: 4f667b8e049e716a0533fc927f50310fe6e40d22
     log: |
-         1b50808c2958dde32a8fb9e6856bf8013395fc6c libbpf: If LIBBPF_EMBEDDED=OFF and libbpf-dev/pkgconfig is not available, fail the build
-         f1feaa94c7a92e5c18fb69e97fd19cd0211e4861 libbpf: bump dependency to >= 0.4.0
+         1adb20f0d496b2c61e9aa1f4761b8d71f93d258e net: stmmac: dwmac1000: Fix extended MAC address registers definition
+         ea6932d70e223e02fea3ae20a4feff05d7c1ea9a net: make get_net_ns return error if NET_NS is disabled
+         4f667b8e049e716a0533fc927f50310fe6e40d22 sch_cake: revise docs for RFC 8622 LE PHB support
          
