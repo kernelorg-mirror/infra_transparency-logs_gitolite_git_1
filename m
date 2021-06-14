@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 14 Jun 2021 19:46:22 -0000
-Message-Id: <162369998276.3418.8294512618917598924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 14 Jun 2021 19:47:04 -0000
+Message-Id: <162370002431.3753.8696886490324612731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: b84b53ee8337ca69512d25295961571fa08a219d
-    new: ffa85b73c3c4143a8e8087c0930f6c5a6ead8e9f
-    log: |
-         ffa85b73c3c4143a8e8087c0930f6c5a6ead8e9f mld: avoid unnecessary high order page allocation in mld_newpack()
-         
+  - ref: refs/tags/memory-controller-drv-tegra-5.14-2
+    old: 0000000000000000000000000000000000000000
+    new: 1db1878fefcb6205777a31d5741799b9f825f12f
