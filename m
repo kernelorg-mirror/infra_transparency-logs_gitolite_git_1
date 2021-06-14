@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 14 Jun 2021 12:08:29 -0000
-Message-Id: <162367250943.24083.1486049322587497865@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 12:08:38 -0000
+Message-Id: <162367251862.24171.11381858712010446088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/core
-    old: c199f64ff93c48a45add92eee4456ffcabfc838e
-    new: d33b9035e14a35f6f2a5f067f0b156a93581811d
+  - ref: refs/heads/sched/core
+    old: 0159bb020ca9a43b17aa9149f1199643c1d49426
+    new: e766c9bd236e20387771354e7273939381d2ff65
     log: |
-         d33b9035e14a35f6f2a5f067f0b156a93581811d objtool: Improve reloc hash size guestimate
+         7b5f14b611c47e6dea1b24a3aa5413f7721fde9e sched: Optimize housekeeping_cpumask() in for_each_cpu_and()
+         e766c9bd236e20387771354e7273939381d2ff65 psi: Fix race between psi_trigger_create/destroy
          
