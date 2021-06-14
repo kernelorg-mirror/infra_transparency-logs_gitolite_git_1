@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 14 Jun 2021 14:09:29 -0000
-Message-Id: <162367976976.9397.4928999475693439819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 14 Jun 2021 14:29:44 -0000
+Message-Id: <162368098450.22320.13986723911318292233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/master
-    old: 6d47354e630f770c25b635ae80818ee4d37c050c
-    new: 653821c52109738c9c44f591cb7c0d2ea44c339e
+  - ref: refs/heads/stable/v2.37
+    old: fce7b9501c7d9aee6b3eca7ce13971aad5e53344
+    new: bef5ab005e6c2ec2f604739b7bc75edea8d02315
     log: |
-         2a37dba4bf998843c46e29ad4456155677998ea7 autotest: Improve cleanup in testP2P
-         7436cef0129df3f240dedb9687c8d6ad6ff9cd22 eapol: Use constant-time comparison
-         653821c52109738c9c44f591cb7c0d2ea44c339e AUTHORS: Mention Joseph's contributions
+         bef5ab005e6c2ec2f604739b7bc75edea8d02315 include/strutils: fix heap-buffer-overflow in normalize_whitespace()
          
