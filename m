@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2638923172650010893=="
+Content-Type: multipart/mixed; boundary="===============1466104106471695379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/docsko/korg
-Date: Mon, 14 Jun 2021 22:01:12 -0000
-Message-Id: <162370807286.30913.12763226401854623845@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 22:05:04 -0000
+Message-Id: <162370830483.1280.12805998903111754521@gitolite.kernel.org>
 
---===============2638923172650010893==
+--===============1466104106471695379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 564e458501542295025182a8b6be7bdf4d732aee
-    new: 33c649a0f6aa9199b2776f9547425c2fd5cc7c06
+    old: 33c649a0f6aa9199b2776f9547425c2fd5cc7c06
+    new: df5ce5bd2a7b16e542d583dfa6e12b99a5e3e979
     log: |
-         33c649a0f6aa9199b2776f9547425c2fd5cc7c06 Tweak redundant wording
+         df5ce5bd2a7b16e542d583dfa6e12b99a5e3e979 Fix Code of Conduct link
          
 
---===============2638923172650010893==
+--===============1466104106471695379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1623708072 -0400
+pusher B6C41CE35664996C! 1623708304 -0400
 pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
-nonce 1623708072-5f2cbb2ff88fdc6c3dd9179aa7ed2e8830956179
+nonce 1623708304-fbb09265340b45b3ccbd34b70179fb3e4ace9f52
 
-564e458501542295025182a8b6be7bdf4d732aee 33c649a0f6aa9199b2776f9547425c2fd5cc7c06 refs/heads/master
+33c649a0f6aa9199b2776f9547425c2fd5cc7c06 df5ce5bd2a7b16e542d583dfa6e12b99a5e3e979 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMfRqAAKCRC2xBzjVmSZ
-bCPRAQDLmZl+zbrWDLPvbG2hH65viu8sTeEVunlvKohSTkQbIQEA4agSIF36NX83
-851RFpjZH03TXnH45KVmZJf7YH1Wfgc=
-=2iw2
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMfSkAAKCRC2xBzjVmSZ
+bB5NAQCPp0t7zUHAfMLUmkri1tI79ZZf6OjZIrXBtEZWMvbYsgD/Vi35AZJtSplI
+/61KlpaVoxkOP8p1S/brafS9HVS6Awg=
+=fxS+
 -----END PGP SIGNATURE-----
 
---===============2638923172650010893==--
+--===============1466104106471695379==--
