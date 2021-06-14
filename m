@@ -1,46 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Mon, 14 Jun 2021 13:03:02 -0000
-Message-Id: <162367578258.27308.4049533549174757882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 14 Jun 2021 13:10:05 -0000
+Message-Id: <162367620539.32277.7866718975368114984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/tags/net-5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 4fcd27755722483e38f4c4a2b0ad1f15b29e7d2b
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/heads/for-5.13/upstream-fixes
+    old: a94f66aecdaa498d83314cadac466d8b65674b94
+    new: f8e5388a9da05708fb6d5a0137b287dbfd32d29c
+    log: |
+         f8e5388a9da05708fb6d5a0137b287dbfd32d29c HID: intel-ish-hid: Fix minor typos in comments
+         
+  - ref: refs/heads/for-next
+    old: 84b5e4d4ad37db9e7f8576cc21d4966d8ff49e81
+    new: 384ea58ee6bdbaa744ea85950abb4ca7c4d30d27
+    log: |
+         f8e5388a9da05708fb6d5a0137b287dbfd32d29c HID: intel-ish-hid: Fix minor typos in comments
+         384ea58ee6bdbaa744ea85950abb4ca7c4d30d27 Merge branch 'for-5.13/upstream-fixes' into for-next
+         
