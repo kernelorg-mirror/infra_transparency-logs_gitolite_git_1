@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Mon, 14 Jun 2021 16:25:59 -0000
-Message-Id: <162368795943.2972.9229488864281472911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 14 Jun 2021 16:26:18 -0000
+Message-Id: <162368797862.3140.2787330302508998153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
-user: jkirsher
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/tags/net-5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 4fcd27755722483e38f4c4a2b0ad1f15b29e7d2b
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/heads/for-next/kspp
+    old: 81945a97e453ed6267a2fcfef410e056144e8bd6
+    new: a0dc429c3e36e00d48a072aef14be066148f16d3
+    log: |
+         3f1639f8f96c4c60ccf737b02c61eb7c59355a5b MAINTAINERS: Add Clang CFI section
+         590e8a082a5772071d7bcfea2b8e5a2453cecad2 CFI: Move function_nocfi() into compiler.h
+         583bfd484bcc85e9371e7205fa9e827c18ae34fb x86, lto: Enable Clang LTO for 32-bit as well
+         a0dc429c3e36e00d48a072aef14be066148f16d3 Merge branch 'for-next/clang/features' into for-next/kspp
+         
