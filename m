@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 14 Jun 2021 16:26:18 -0000
-Message-Id: <162368797862.3140.2787330302508998153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 14 Jun 2021 16:31:08 -0000
+Message-Id: <162368826854.6174.16201778097931605742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 81945a97e453ed6267a2fcfef410e056144e8bd6
-    new: a0dc429c3e36e00d48a072aef14be066148f16d3
+  - ref: refs/heads/arm64-for-5.14
+    old: c4e61e0af4d9f72f77462b9d6759496c6e9f4c29
+    new: 81cfa462e458405f58b23f45ddd9439c70bf5347
     log: |
-         3f1639f8f96c4c60ccf737b02c61eb7c59355a5b MAINTAINERS: Add Clang CFI section
-         590e8a082a5772071d7bcfea2b8e5a2453cecad2 CFI: Move function_nocfi() into compiler.h
-         583bfd484bcc85e9371e7205fa9e827c18ae34fb x86, lto: Enable Clang LTO for 32-bit as well
-         a0dc429c3e36e00d48a072aef14be066148f16d3 Merge branch 'for-next/clang/features' into for-next/kspp
+         297e6e38320f325eb6763e48847e7dd06fda694b arm64: dts: sc7280: Add interconnect provider DT nodes
+         81cfa462e458405f58b23f45ddd9439c70bf5347 arm64: dts: qcom: sc7180: Add xo clock for eMMC and Sd card
          
