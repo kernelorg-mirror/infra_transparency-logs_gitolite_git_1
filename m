@@ -1,53 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============2815956263633782818=="
+Content-Type: multipart/mixed; boundary="===============2763830122119317728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 14 Jun 2021 06:29:12 -0000
-Message-Id: <162365215215.16547.6260640178450121435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 14 Jun 2021 06:54:35 -0000
+Message-Id: <162365367585.21682.14468762358211480330@gitolite.kernel.org>
 
---===============2815956263633782818==
+--===============2763830122119317728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/heads/for-next
+    old: 93cd12d6e88a4c6f9204633ff07781cde741e89e
+    new: 12c11ba5be833391ec73d33de0360aacd9473569
+    log: revlist-93cd12d6e88a-12c11ba5be83.txt
+  - ref: refs/heads/master
+    old: 12d7810188206f32791cbd7ce96f4766c586d0f7
+    new: a77e1129b7d936fae72f54f1aa5f9c7a7a8ab8c5
+    log: revlist-12d781018820-a77e1129b7d9.txt
 
---===============2815956263633782818==
+--===============2763830122119317728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-93cd12d6e88a-12c11ba5be83.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623652151 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1623652150-bdfac5c4135999b30b6d3fc142ba4ea7bd0066c1
+fd498bba7c5194cdfc3f0d726f99f0fa3b7e51de ALSA: trident: Fix build error
+01893553e67c768985dc1531fa89fb04aa5134ce ALSA: hda/tegra: Use devm_platform_get_and_ioremap_resource()
+be471fe332f7f14aa6828010b220d7e6902b91a0 ALSA: n64: check return value after calling platform_get_resource()
+3b86ec63c06147d24a1b48ba0caab5d051cc0d02 ALSA: firewire-lib: replace in_interrupt() with in_softirq()
+e094b22c8d519e5d5417a57d6f6ddc1b5f0aefaf ALSA: i2c: tea6330t: Remove redundant initialization of variable err
+270e6012b934952650baf39781c9d8cd5dcef684 ALSA: bebob: fulfil device entries
+2e6a58959529e99352af88c1604a7d3febd2061c ALSA: fireworks: fulfil device entries
+1b337e8db797acdc75521d429a6c29db8270865c ALSA: bebob: correct device entry for Mackie D.2 FireWire option card
+971514af352efce3fc4d6bab2525a99542d90df6 ALSA: bebob: correct device entry for Acoustic Reality eAR Master One, Eroica, Figaro, and Ciaccona
+e6b54fbc18b9536833e2374798088741a9ab7332 ALSA: bebob: code refactoring for M-Audio models
+1586d461f641b60040438275e14c7dbcec5907d6 ALSA: bebob: correct device entries for Phonic Helix Board and FireFly series
+12c11ba5be833391ec73d33de0360aacd9473569 ALSA: firewire: fill Kconfig with entries for devices based on DICE ASICs
 
-0000000000000000000000000000000000000000 80bf7a58f3867a1ae15651358747f8e6ea3bbe85 refs/tags/v5.13-rc6
------BEGIN PGP SIGNATURE-----
+--===============2763830122119317728==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-12d781018820-a77e1129b7d9.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDG9zcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CNYP/3Rd6XXvmCfVkfe/045D
-SsXmhClAPd8dWRasU7lAqUvYidp+bEeC3fToFLey/4i4FuDizK/fgYCQN3bgJP8K
-5FeyaLvcwZhz8ORCUYfSikWijee0WbJmUWJA4m2SprGn3K46OmoiADg45HS5Rhgs
-b4lDgKHzp/aTT+svKpxoJ1OlcTOvIG+BhX1hUGgljwxLOqe2eTptPUP5ctIeWlqS
-ckYSmA3I9ojEbz4V7EkxylFjMeVwGsO4lxphLXjQulb4QGTPSp2Hwe6zb0jtelaz
-60cQvmRhLBvtR88zoGUVkKmO1BRHsMRNGUPn2DRSdBOez3Zl8PJ9RifP9tYsfiCV
-E5/vNMUATwwNrTp1k+AtwFT1gTY/yuFagtkiV6uMhJYwwlVN4VZIcZ01c9XfqHzS
-CoUyiB/j0rXmg99pBYi6fPuaqMUYV+5/NsFL2adL25epG7EOgYcpVdgSl4eNgtNl
-EQGEX+2N3hNqO7w2w4dAP1Sw1FVec1I3v3eExxQObVhSGIVjOASuCxbltDNIZClH
-Isf2/20VczoNHjB6O1qLrxMGOsN69yLCJwVP5bWidW/2wX2eanP3iBuP5+4Qt3VK
-PFm9J43FCla7ppwnHL2prIU2BOXnfJj8ekVWF/bn7/MdvNUB5o6WDtFtGgjM3WXp
-Tqnlzq83fsxDBO1kJUQJaU0d
-=ok6O
------END PGP SIGNATURE-----
+fd498bba7c5194cdfc3f0d726f99f0fa3b7e51de ALSA: trident: Fix build error
+01893553e67c768985dc1531fa89fb04aa5134ce ALSA: hda/tegra: Use devm_platform_get_and_ioremap_resource()
+be471fe332f7f14aa6828010b220d7e6902b91a0 ALSA: n64: check return value after calling platform_get_resource()
+3b86ec63c06147d24a1b48ba0caab5d051cc0d02 ALSA: firewire-lib: replace in_interrupt() with in_softirq()
+e094b22c8d519e5d5417a57d6f6ddc1b5f0aefaf ALSA: i2c: tea6330t: Remove redundant initialization of variable err
+270e6012b934952650baf39781c9d8cd5dcef684 ALSA: bebob: fulfil device entries
+2e6a58959529e99352af88c1604a7d3febd2061c ALSA: fireworks: fulfil device entries
+1b337e8db797acdc75521d429a6c29db8270865c ALSA: bebob: correct device entry for Mackie D.2 FireWire option card
+971514af352efce3fc4d6bab2525a99542d90df6 ALSA: bebob: correct device entry for Acoustic Reality eAR Master One, Eroica, Figaro, and Ciaccona
+e6b54fbc18b9536833e2374798088741a9ab7332 ALSA: bebob: code refactoring for M-Audio models
+1586d461f641b60040438275e14c7dbcec5907d6 ALSA: bebob: correct device entries for Phonic Helix Board and FireFly series
+12c11ba5be833391ec73d33de0360aacd9473569 ALSA: firewire: fill Kconfig with entries for devices based on DICE ASICs
+a77e1129b7d936fae72f54f1aa5f9c7a7a8ab8c5 Merge branch 'for-next'
 
---===============2815956263633782818==--
+--===============2763830122119317728==--
