@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 14 Jun 2021 18:21:19 -0000
-Message-Id: <162369487966.11986.11467679585828601427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 14 Jun 2021 18:23:50 -0000
+Message-Id: <162369503056.12845.5499536827609843756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/perf/core
-    old: 0808b3d5b7514dc856178dbc509929329bbf301d
-    new: 1fcc57b7e51e4366f074c7d186ccc6c99a627a51
+  - ref: refs/heads/dev-queue
+    old: caeab79ae39b599c7b451f39801ee66546bdf4d6
+    new: 0fb695405d6a624582cb07f8009f37ccae78c250
     log: |
-         1fcc57b7e51e4366f074c7d186ccc6c99a627a51 perf evsel: Adjust hybrid event and global event mixed group
+         99fa86b499227657839040537f88b80876302597 ixgbe: xsk: fix for metasize when construct skb by xdp_buff
+         614b861e0e196c7a719bf23b22d074fa11980d76 i40e: Fix missing rtnl locking when setting up pf switch
+         97065bc9f24b1c57b3da9394cb32a4ada05177f7 ixgbe: Fix an error handling path in 'ixgbe_probe()'
+         41033a451d5f9a56c573fd4f7a392a32ac59b848 igc: Fix an error handling path in 'igc_probe()'
+         0fb695405d6a624582cb07f8009f37ccae78c250 igb: Fix an error handling path in 'igb_probe()'
          
