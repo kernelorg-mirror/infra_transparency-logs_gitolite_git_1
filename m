@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0915544694216407247=="
+Content-Type: multipart/mixed; boundary="===============7586937974156414167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 14 Jun 2021 07:06:35 -0000
-Message-Id: <162365439514.29947.16128984649094034133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 14 Jun 2021 07:07:02 -0000
+Message-Id: <162365442252.30185.11579855842765919524@gitolite.kernel.org>
 
---===============0915544694216407247==
+--===============7586937974156414167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/heads/seen
+    old: 79eeff8dddcbd3a8c71051b9c8397d9951953ede
+    new: 35561e568c19236ca93621ff71333852d18beccf
+    log: revlist-79eeff8dddcb-35561e568c19.txt
 
---===============0915544694216407247==
+--===============7586937974156414167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-79eeff8dddcb-35561e568c19.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623654393 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1623654392-6a513cdbb7980cc0605e3c0701c31184bc92d302
+2891b82f3d53aa5ff0c4b7300e3f2cbfb4accd84 ref-filter: add obj-type check in grab contents
+56579ae2c7236095dbb4bce455a7f5ca0007acf4 ref-filter: add %(raw) atom
+02b926b95fde7ef9b7f6961a303a05ab3070bc52 ref-filter: use non-const ref_format in *_atom_parser()
+723bc66d1e85dbf4765f1679168208c67d950274 ref-filter: add %(rest) atom
+9c0d17a61d2cd952b182eb2e2d095cbed712d445 t7400-submodule-basic: modernize inspect() helper
+47f006264bb54869e36191c89fdd25e71a9101ef introduce submodule.superprojectGitDir cache
+f939afbf724e0f8a930ee1308f967c91f57b3c58 submodule: cache superproject gitdir during absorbgitdirs
+8701a067697ce920f7d44065a0e5c61d5e7d4356 submodule: cache superproject gitdir during 'update'
+08c74ca977d8e1aa0205158b7e08770e6c9d2a7c Merge branch 'ab/pack-objects-stdin' into seen
+7b6de872d7a24ffae609ec49bac60fc74298ce2f ### CI breakers
+f6bbc1182f29074cc4d6e470d5d2fc1e3b5db244 Merge branch 'zh/ref-filter-raw-data' into seen
+35561e568c19236ca93621ff71333852d18beccf Merge branch 'es/superproject-aware-submodules' into seen
 
-0000000000000000000000000000000000000000 cbc5ad3cbf7aea0154be271694fe419ad5f0af6d refs/tags/v5.13-rc5
-0000000000000000000000000000000000000000 80bf7a58f3867a1ae15651358747f8e6ea3bbe85 refs/tags/v5.13-rc6
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDG//kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gssQAKSqNXQEMccSbrlfm/7A
-n4AlFLsSU/Q2Jz6bJdutBUpv2NGEmhwQFw9ogSVNxVhQCgBhgRqErtDhVOYN6/6F
-GhFhBHh/w8FcRJrc3VWDj6ZxHvrRZG87OE5gwCKkM2lapYYcSpzO2MY7rjD9QFoh
-x5igjVddQ9UrLbECht6xNPhdRqXzgDKBxaw0ai30EBAj79zEwuNXME1WU8WzM241
-5+RbMwUd1EziQKNqWtvMSRORjEFiam6Wa8elxdC+4P7IpLAAsZ8P4LXEfPX+ZJQo
-Dk6c/vjJLsQPwAqXSDBN6eXakHHiBin3y6PcLAMWSTly18exiSHVR3h5zKDTG4dj
-FRqTmy2u3DElPhwA2344QZcfHfItWTOotMSILaulxQ0MAGG9UsKjAhcEVvvsZevi
-gs9S1uYW3lCKbMoJ81t/Us+BbBvImljEEUJSAnB50NIOiunE6e27y9vKBC1QQ7ng
-vVWW2j2It2QW/hmv1AQ2hCrY098XL/cLofMoH/IPbF7NdA6x3jvG8Q97MSeLHP7s
-83h5t/Qc22Ts6YKiscYFnYEf97GwVxFP5CTZKDS8bvS2i+dR8KOd5VkCX19bbmHc
-hji9noLM42FmRSGQjInY2emTIljLId8djroLiBzAMDWT1QzsMJzZ+RN11KF5vQmr
-ZPfy4VgKBV/bvSmliNHPK+J0
-=Ziru
------END PGP SIGNATURE-----
-
---===============0915544694216407247==--
+--===============7586937974156414167==--
