@@ -1,53 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7170020020498304551=="
+Content-Type: multipart/mixed; boundary="===============6812314132877396500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 14 Jun 2021 07:25:39 -0000
-Message-Id: <162365553998.12879.3158808701219265730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 14 Jun 2021 07:25:45 -0000
+Message-Id: <162365554533.13005.13947178278992762381@gitolite.kernel.org>
 
---===============7170020020498304551==
+--===============6812314132877396500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/umn.edu-reverts-round1
-    old: e68775d49af33dc6cae8f6dd466fd46cc7524442
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mlx5-queue
+    old: 24555c152b821a82dafdb1561ecea640431dfd5f
+    new: c247d89d357fc508c292dca9e45364ecfcaad491
+    log: revlist-24555c152b82-c247d89d357f.txt
 
---===============7170020020498304551==
+--===============6812314132877396500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-24555c152b82-c247d89d357f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623655539 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1623655538-6f506ef4979fee9f62921b0284ac10eda94a25ce
+d3c32d9ca9f06b24f2200ef731a1aea6ae7ec1d6 net/mlx5: Lag, refactor disable flow
+242e2a19f104918a18076f24e048dbda9d1d379b net/mlx5: Lag, Don't rescan if the device is going down
+6a995b00352cf8572fc010c19a590e2e6b596b1a lib: bitmap: Introduce node-aware alloc API
+ddff4f1f025c33f135bc27ed1e7a3243a2651009 net/mlx5: Node-aware allocation for the IRQ table
+19b933b6fb0b11801c91eb84570513e038488c43 net/mlx5: Change ownership model for lag
+4b72165ee0be70628bdc468fa5ecd55ec689136f net/mlx5: Node-aware allocation for the EQ table
+ffecd9f4b59fe178fa19febd38617b9f7a53e97c net/mlx5: Node-aware allocation for the generic EQ
+93976880b2c1dc5151d91a4957a69dcd1abf1670 net/mlx5: Node-aware allocation for completion EQs
+f6982e257da3fe4c609c224aada123cb7dc62ae3 net/mlx5: Node-aware allocation for UAR
+89db840ff948d0aad082bdd067ab8c6d5a5b7823 net/mlx5: Node-aware allocation for UAR bitmap arrays
+82483592d843634c8e67773098ee64269a51ada7 net/mlx5: Node-aware allocation for the doorbell pgdir
+73396de2bb232c9c1338978d2c47398da54e8fbd net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+7744fcfc2028c50d00b1eca23a7e6c5a6e051a48 net/mlx5: Node-aware allocation for buffer metadata
+c247d89d357fc508c292dca9e45364ecfcaad491 Merge branch 'patchq/362918' into mlx5-queue
 
-e68775d49af33dc6cae8f6dd466fd46cc7524442 0000000000000000000000000000000000000000 refs/heads/umn.edu-reverts-round1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDHBHMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NmcQAJQc5dMpO7OkfNnScG4l
-R5TIjy+jGlb1bwtBfnJSV67bkuBJ2gwf6R4OoSrEg9nfdSMBzN8yEfRndQFO6sxo
-RnTKJmg7Ngcm8CTanSmbi8MFw/Hvu4Gl3BtUaHShtnfWu9XNz1RDAdho+UOftg9S
-r7ugQuwtRx3PYZ+8RZpfl6/9Roh+Vmxo+8NfsC5n3hJ+z3LGDNrRhLhVDTi5OsGl
-Ue2QrQhX3ZOB3jW0qdozxEEl7mqi9riq1qP/a8ScNZHvoreDMT2IuTGrqDEh+teh
-hMfDr9Dve1IaMBap2glCfM+d9bpBAT52LmHK9yMwYKe2QLengPJ5oYcpyxh2AovN
-gKAiGKnXCHZgeQ2UOmTIdhXzUH/0I0mci5k9varoXBrLbgSQWpp5100+yy5v6Dq/
-EVA5h9FQCIi3town0nCdIFfvOzFQjpzUV35EUxEgHu4mP/m+4IM2/azknYSb3QuU
-eyqnzLYZaqSV2zwEKMNRglnpKL6fQlj+FhUWscKSMfCt29+scTZIF4pUygdsQy0h
-MpG0ZYEsUOxPGXTfob79AR0fZi83I7ksmVVAAtn1fpORmR39WxP14BQcPQaeF27r
-p8072bPgRJ15bPeAO0QBmjYCrW1mBbWhM+e+dm0ja1ulJEOIe/Ody+LBy4BE295k
-yn5C+vMria8/R1ywLAf9hZHa
-=svLd
------END PGP SIGNATURE-----
-
---===============7170020020498304551==--
+--===============6812314132877396500==--
