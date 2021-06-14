@@ -1,24 +1,74 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Mon, 14 Jun 2021 16:58:53 -0000
-Message-Id: <162368993322.23312.1004143900615430808@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7219872964404714955=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 14 Jun 2021 17:52:06 -0000
+Message-Id: <162369312629.25053.6124679815480200640@gitolite.kernel.org>
+
+--===============7219872964404714955==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: bae61369e84c610dc8667040938e51afabb3acff
-    new: 5fc31a78239f7707f8b8d2a97073d943c0b794fa
-    log: |
-         fc0dfa8beb94251f57b845d9225c762c2c8a4c1e coresight: core: Switch to krealloc_array()
-         bd4e19381d869623d2e85f0a35bbbc18a57ffd7b coresight: core: Fix use of uninitialized pointer
-         cb83242d933d89ac2bf9757a6e6e232f88462534 coresight: core: Remove unnecessary assignment
-         e1b01ce7ea47ece1536f86fa323f9e551e3a834d coresight: etm4x: core: Remove redundant check of attr
-         9c82cd279b1f4ee47791be38e958ece1c1eb621a coresight: tmc-etf: Fix global-out-of-bounds in tmc_update_etf_buffer()
-         5fc31a78239f7707f8b8d2a97073d943c0b794fa coresight: Propagate symlink failure
-         
+  - ref: refs/heads/master
+    old: 1f1aa3fe0214a75b45af640ace9684405139e755
+    new: a212d9f33ed0b8399bd9829a779c4024068742a2
+    log: revlist-1f1aa3fe0214-a212d9f33ed0.txt
+
+--===============7219872964404714955==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1f1aa3fe0214-a212d9f33ed0.txt
+
+87c272c618c7197b24fd3acf2d337315bd93b4fa net/af_iucv: clean up some forward declarations
+fbf179683655ca83b442d5f86e17ad25a462560e s390/netiuvc: get rid of forward declarations
+abf6420edb8d8f3be031982e897f78c2a7dd56eb Merge branch 's390-net-updates'
+858252c9c3463abc3f7b13e42aae3b8845f0479d dt-bindings: net: Add 25G BASE-R phy interface
+a56c286865692ac12291afe4c66198915c6b08f9 net: phy: Add 25G BASE-R interface mode
+452d2c6fbae2c11e3b0c17a3afe7b145db2196e7 net: sfp: add support for 25G BASE-R SFPs
+21e0c59edc09ff8d50722071ded66574b1cc4e99 net: phylink: Add 25G BASE-R support
+bf75213f2480b96f7f2d5dd10bdb463327f9a97a Merge branch 'phy-25G-BASE-R'
+fb9349c4163e387db3750a4f2c507c9111ec1ed2 stmmac: intel: move definitions to dwmac-intel header file
+3c3ea630e87c3ab9b91d1800b408dae6fc8ee1aa stmmac: intel: fix wrong kernel-doc
+02b0bb51a8da92e76ab69e49de1f289d413a564b Merge branch 'stmmac-intel-cleanups'
+822ebc2cf50c4f223e859c35393b5cf0d96c56e1 ibmvnic: fix kernel build warning
+73214a690c50a134bd364e1a4430e0e7ac81a8d8 ibmvnic: fix kernel build warnings in build_hdr_descs_arr
+8c713dc93ca9a423d6af8849c9254742a1070c37 rtnetlink: add alloc() method to rtnl_link_ops
+00e77ed8e64d5f271c1f015c7153545980d48a76 rtnetlink: add IFLA_PARENT_[DEV|DEV_BUS]_NAME
+88b710532e53de2466d1033fb1d5125aabf3215a wwan: add interface creation support
+13adac032982c61bb590669e8e87e51558917ca1 net: mhi_net: Register wwan_ops for link creation
+73a378601a25dc6312530c33822fde3e177883d4 Merge branch 'wwan-link-creation'
+0e6af897fcd9c154c06f239669401c64da52d84e net: qualcomm: rmnet: remove some local variables
+bbd45f10ed0e032b599973d56d5c221266cf2ccf net: qualcomm: rmnet: rearrange some NOTs
+9d0407bc4c9ca7a2378230dd86f8ce90a2b6ad09 net: qualcomm: rmnet: show that an intermediate sum is zero
+fab01a6f3a61748b9c2e038c84498c6624b06236 net: qualcomm: rmnet: return earlier for bad checksum
+698aa6c46bf09070310cd2c8893ea2de5a796644 net: qualcomm: rmnet: remove unneeded code
+be754f6435936e78dafe0ebb9d1e9d52c3bde842 net: qualcomm: rmnet: trailer value is a checksum
+411a795e14b1fcbf64bc9ef6869d2bf9a5bf3c9a net: qualcomm: rmnet: drop some unary NOTs
+185a108fe0429ddde6388d5a85d701a39beadfec net: qualcomm: rmnet: IPv6 payload length is simple
+ffbbc5e5c7174dc4732f78b9577a19621079c879 Merge branch 'rmnet-checksums-part-2'
+7e98d785ae6184c7580a33619dae8b651769ff08 net: iosm: entry point
+7f41ce085de0bada1e8c974cb3edd906ee49cb4c net: iosm: irq handling
+dc0514f5d828e8358fdab722cfa9c263bb583fea net: iosm: mmio scratchpad
+3670970dd8c661c10c10c300d726f59428eaad32 net: iosm: shared memory IPC interface
+edf6423c04037040c7e0549fdebc903d68979515 net: iosm: shared memory I/O operations
+30ebda7a313d1b45ea64311d8dbb12ff3961bb80 net: iosm: channel configuration
+10685b6e9868cdee3c747a6b6fce53332875ed2f net: iosm: wwan port control device
+3b575260cb863d063669f382458e94ebdae6843d net: iosm: bottom half
+51c45fa95435c55f2ae161fb9634671ab0411ead net: iosm: multiplex IP sessions
+9413491e20e1aba6e471d90c19cc43e523216a4d net: iosm: encode or decode datagram
+be8c936e540fe6e60d03fa1578205c936e71335b net: iosm: power management
+faed4c6f6f486fbd0bde233dd46beb26ebdb1ab2 net: iosm: shared memory protocol
+64516f633bfd2f576f3a18fe72184595367d11bf net: iosm: protocol operations
+110e6e02eb190ee4a799502d6cfa0f28d4efc294 net: iosm: uevent support
+2a54f2c7793409736f2e5ea101e050b3f1997088 net: iosm: net driver
+f7af616c632ee2ac3af0876fe33bf9e0232e665a net: iosm: infrastructure
+a212d9f33ed0b8399bd9829a779c4024068742a2 Merge branch 'iosm-driver'
+
+--===============7219872964404714955==--
