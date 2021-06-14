@@ -1,60 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3303047080712208375=="
+Content-Type: multipart/mixed; boundary="===============6634174425224101032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 14 Jun 2021 08:38:39 -0000
-Message-Id: <162365991914.27376.17691281075547046610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 14 Jun 2021 08:38:47 -0000
+Message-Id: <162365992711.27537.11136370092995168097@gitolite.kernel.org>
 
---===============3303047080712208375==
+--===============6634174425224101032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 614124bea77e452aa6df7a8714e8bc820b489922
     new: 009c9aa5be652675a06d5211e1640e02bbb1c33d
     log: revlist-614124bea77e-009c9aa5be65.txt
-  - ref: refs/heads/rdma-next
-    old: dca199e61cf37ea2fbade5d3366f9db9946361ba
-    new: 4cd751722fd0ade8c71b0e2a7eb85b6620982764
-    log: revlist-dca199e61cf3-4cd751722fd0.txt
-  - ref: refs/heads/rdma-rc
-    old: 90a0e8c924093cfa50a482880ad7e7edb73dc19a
-    new: e3c7d96212c5b0f62e8b3e32a2460870645f265d
-    log: |
-         2adcb4c5a52a2623cd2b43efa7041e74d19f3a5e RDMA: Verify port when creating flow rule
-         6466f03fdf98dd78b9453deb8a7cb0d887c09fec RDMA/mlx5: Delete right entry from MR signature database
-         2ba0aa2feebda680ecfc3c552e867cf4d1b05a3a IB/mlx5: Fix initializing CQ fragments buffer
-         e3c7d96212c5b0f62e8b3e32a2460870645f265d RDMA/core: Simplify addition of restrack object
-         
-  - ref: refs/heads/testing/rdma-next
-    old: f207d66105e3721a8cb11a66b17b180dac3bb990
-    new: a5e271e3319646662e13bb2e43d4d4b628806a22
-    log: revlist-f207d66105e3-a5e271e33196.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: b8c1079121356b58681bf1002819284d52faaf58
-    new: bdb5d4f536cce29b6e76bba4fbe165c888b9fefb
-    log: revlist-b8c107912135-bdb5d4f536cc.txt
-  - ref: refs/tags/mlx-next
-    old: 61c7d826b81769ea57d094305c900f903768f322
-    new: 2db7b2eac7ad55105fe037b3f8f57d8ecac8c3fb
-    log: revlist-61c7d826b817-2db7b2eac7ad.txt
-  - ref: refs/tags/mlx-rc
-    old: 404e5a12691fe797486475fe28cc0b80cb8bef2c
-    new: 2ba0aa2feebda680ecfc3c552e867cf4d1b05a3a
-    log: |
-         edc0b0bccc9c80d9a44d3002dcca94984b25e7cf RDMA/mlx5: Block FDB rules when not in switchdev mode
-         2adcb4c5a52a2623cd2b43efa7041e74d19f3a5e RDMA: Verify port when creating flow rule
-         6466f03fdf98dd78b9453deb8a7cb0d887c09fec RDMA/mlx5: Delete right entry from MR signature database
-         2ba0aa2feebda680ecfc3c552e867cf4d1b05a3a IB/mlx5: Fix initializing CQ fragments buffer
-         
+  - ref: refs/heads/queue-next
+    old: 8a71340baa6a4e6f23bf5ce273f2028b8e9fc668
+    new: d56e227fbd595c1c52f80237ae1380b6ca24cb4e
+    log: revlist-8a71340baa6a-d56e227fbd59.txt
+  - ref: refs/heads/queue-rc
+    old: d93ff6e4fe03b5b7915ef62955a6b9d0c9dc14c9
+    new: 60c912eea6c5fd088cef84fd1f178a4c88760395
+    log: revlist-d93ff6e4fe03-60c912eea6c5.txt
 
---===============3303047080712208375==
+--===============6634174425224101032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -319,53 +293,11 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 e4e453434a199cdfa1e1e5cc723d8736f522354a Merge tag 'perf-tools-fixes-for-v5.13-2021-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 009c9aa5be652675a06d5211e1640e02bbb1c33d Linux 5.13-rc6
 
---===============3303047080712208375==
+--===============6634174425224101032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dca199e61cf3-4cd751722fd0.txt
-
-bf0480a2df7597b43a8383191e14580243ecc1f9 IB/cm: Remove dgid from the cm_id_priv av
-2db7b2eac7ad55105fe037b3f8f57d8ecac8c3fb RDMA/irdma: Store PBL info address a pointer type
-ce0ce8a970d06ebe48af0608ccfdea02ccbd9db1 net/sched: Don't print dump stack in event of transmission timeout
-fbe0275a11495fd8e2f6c86b47cf8d89cbeb7745 net/bnxt: Remove useless check of non-existent ULP id
-316d77107600ce410aa15d8c0c742ae918182c22 net/bnxt: Use direct API instead of useless indirection
-0132c5ca0a2f48f0bf5938098477e43ba080b5f1 RDMA/core: Introduce peer memory interface
-1c722f89f17d8a209cf55faf16c9182471af6500 RDMA/rdmavt: Decouple QP and SGE lists allocations
-094a862b9d30fce20fc8a0ff5b60857104ba1b3d net/mlx5: Add DCS caps & fields support
-cf2120fdf918803d57a8d2468a3bd0856797da61 RDMA/mlx5: Move DCI QP creation to separate function
-e0257b5f23c92c2adc77f78ce89dbe823c1a835c RDMA/mlx5: Add DCS offload support
-5b87676cdd411db86dee5f52c5e30589cce5de43 RDMA/mlx5: Don't add slave port to unaffiliated list
-028003c407920dc4279e27eb3ed088e32f660d72 RDMA: Fix kernel-doc warnings about wrong comment
-ce9123890d06afe17c8a8566c91d4282e604f912 RDMA: Split the alloc_hw_stats() ops to port and device variants
-fdbd6391dc95594e813bbc78ee15239b249f4b00 RDMA/core: Replace the ib_port_data hw_stats pointers with a ib_port pointer
-8df83682711d3a0d19d8e1f227174c0f6231d6a4 RDMA/core: Split port and device counter sysfs attributes
-b57da69ca6b24c2ca9dca8a1d8d2eb10dc8ac7b3 RDMA/core: Split gid_attrs related sysfs from add_port()
-e0e7848f73eec6bcb5cd4dfd716aaba237868a07 RDMA/core: Simplify how the gid_attrs sysfs is created
-6bd2443d32bb65dfaa23c075c9223bb84f048041 RDMA/core: Simplify how the port sysfs is created
-91ee3966d9e2f463d29ea8f1ee35d495b2d60a89 RDMA/core: Create the device hw_counters through the normal groups mechanism
-152fd5537364f9cd80c1073ff4824724dbe9882a RDMA/core: Remove the kobject_uevent() NOP
-4b4222e9d9e8743e29a061416d707c9c04d30270 RDMA/core: Expose the ib port sysfs attribute machinery
-c063afb00b2ba68eed650c5abcdd6d25538ac15e RDMA/cm: Use an attribute_group on the ib_port_attribute intead of kobj's
-e46d6c88127d28eee22c96a3b81e9c7a48815bd2 RDMA/qib: Use attributes for the port sysfs
-bab0cf024a04f848a2c1d86756d37d0670aa0903 RDMA/hfi1: Use attributes for the port sysfs
-2899c1fe1bb1d00b59ef50a008e5856a83108dbb RDMA: Change ops->init_port to ops->port_groups
-1db9030a4bcd946f644566b25d3ac7f43cdc6cd0 RDMA/core: Allow port_groups to be used with namespaces
-670379b24634788ac0a0bb6f16f1784d52652c00 RDMA: Remove rdma_set_device_sysfs_group()
-c2bd398d8437e776d0f09154c7813f6a8edeaf77 RDMA/mlx5: Enable Relaxed Ordering by default for kernel ULPs
-5445b59a533bd42f5a39f1c0d9ef7d033dc5f0d7 RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
-2aa59623f74ab38a1fa24f100e3a183d144fad0a RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
-7f243affae4f0f8502fa79a67d4024f458532c24 RDMA/mlx5: Change the cache to hold mkeys instead of MRs
-280a3e59e7577324a0a9bb53a37d7c81b1f185e0 RDMA/mlx5: Change the cache structure to an rbtree
-de8bb04e7cda5e55d1d7dcd0089c9bc5ae7e530a RDMA/mlx5: Delay the deregistration of a non-cache mkey
-5da61fa81e1bf40f66639e726f03f9dc19a3bfcf RDMA/mlx5: Refactor get_ts_format functions to simplify code
-4cd751722fd0ade8c71b0e2a7eb85b6620982764 RDMA/mlx5: Support real-time timestamp directly from the device
-
---===============3303047080712208375==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f207d66105e3-a5e271e33196.txt
+Content-Disposition: attachment; filename=revlist-8a71340baa6a-d56e227fbd59.txt
 
 3d681804efcb6e5d8089a433402e19179347d7ae regulator: cros-ec: Fix error code in dev_err message
 f8c8871f5eff3981eeb13421aca2c1cfda4a5204 regulator: fan53555: fix TCS4525 voltage calulation
@@ -659,12 +591,13 @@ e4e453434a199cdfa1e1e5cc723d8736f522354a Merge tag 'perf-tools-fixes-for-v5.13-2
 009c9aa5be652675a06d5211e1640e02bbb1c33d Linux 5.13-rc6
 bdb5d4f536cce29b6e76bba4fbe165c888b9fefb Merge branch 'master' into testing/rdma-rc
 a5e271e3319646662e13bb2e43d4d4b628806a22 Merge branch 'rdma-next' into testing/rdma-next
+d56e227fbd595c1c52f80237ae1380b6ca24cb4e Merge branch 'testing/rdma-next' into queue-next
 
---===============3303047080712208375==
+--===============6634174425224101032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8c107912135-bdb5d4f536cc.txt
+Content-Disposition: attachment; filename=revlist-d93ff6e4fe03-60c912eea6c5.txt
 
 3d681804efcb6e5d8089a433402e19179347d7ae regulator: cros-ec: Fix error code in dev_err message
 f8c8871f5eff3981eeb13421aca2c1cfda4a5204 regulator: fan53555: fix TCS4525 voltage calulation
@@ -922,27 +855,6 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 e4e453434a199cdfa1e1e5cc723d8736f522354a Merge tag 'perf-tools-fixes-for-v5.13-2021-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 009c9aa5be652675a06d5211e1640e02bbb1c33d Linux 5.13-rc6
 bdb5d4f536cce29b6e76bba4fbe165c888b9fefb Merge branch 'master' into testing/rdma-rc
+60c912eea6c5fd088cef84fd1f178a4c88760395 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============3303047080712208375==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61c7d826b817-2db7b2eac7ad.txt
-
-60dff56d77292062789232f68354f567e1ccf1d2 RDMA/core: Use refcount_t instead of atomic_t on refcount of iwcm_id_private
-fcc57a7b2bba3374da1b7df3f65aec35dac37917 RDMA/core: Use refcount_t instead of atomic_t on refcount of iwpm_admin_data
-6448508076bf1e2b9133b34e51c7170b335b9abf RDMA/core: Remove refcount from struct ib_mad_snoop_private
-cd74db6cbb1e5a9d9103ccb41aca777d0e4298cd RDMA/core: Use refcount_t instead of atomic_t on refcount of mcast_member
-58d33b4fa9d7926535c0f2d30bdb21d2e06e6047 RDMA/core: Use refcount_t instead of atomic_t on refcount of mcast_port
-cc9e5a844ab8139085d28efdda9ae1d5625a5319 RDMA/hns: Use refcount_t instead of atomic_t for CQ reference counting
-33649cd3f9497523c7110337b9c6f08ab43746c6 RDMA/hns: Use refcount_t instead of atomic_t for SRQ reference counting
-8f9513d89f0417d3ca0a99b5f63c84b4cf2ed5fa RDMA/hns: Use refcount_t instead of atomic_t for QP reference counting
-7183451f846d22e9fee665756824c9c2cc9cf377 RDMA/cxgb4: Use refcount_t instead of atomic_t for reference counting
-a5e27fb68fcce3885cfc02a1ecd7d02fe3f02a34 RDMA/ipoib: Use refcount_t instead of atomic_t for reference counting
-ec9bf373f2458f4b5f1ece8b93a07e6204081667 RDMA/core: Use refcount_t instead of atomic_t on refcount of ib_uverbs_device
-ac477efcf0998c16a5be70f786b968cc1f973268 RDMA/irdma: Use list_move instead of list_del/list_add
-6246f1ccb9c3aa748cd5622dd6b0ddd432eadd5d RDMA/irdma: Use list_last_entry/list_first_entry
-bf0480a2df7597b43a8383191e14580243ecc1f9 IB/cm: Remove dgid from the cm_id_priv av
-2db7b2eac7ad55105fe037b3f8f57d8ecac8c3fb RDMA/irdma: Store PBL info address a pointer type
-
---===============3303047080712208375==--
+--===============6634174425224101032==--
