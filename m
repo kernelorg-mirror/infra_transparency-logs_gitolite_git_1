@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Jun 2021 11:37:24 -0000
-Message-Id: <162367064479.3754.14166554447061929148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 14 Jun 2021 11:51:27 -0000
+Message-Id: <162367148733.13734.16394455118540619348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/for-5.14
-    old: 5f543c9b9312b442d5357aa8b2d2e2dfd1c51ed1
-    new: 116b1e12b72f308b28af5b17081fdb9e1942a8ea
+  - ref: refs/heads/next
+    old: b4ae887d22161694441c9e714a7df192df4dc7f4
+    new: ab7c86b545d6a8785c16987039bd0098aed34bdb
     log: |
-         7a8e1d44211e16eb394b7b9e0b236ee1503a3ad3 ASoC: hdmi-codec: Add iec958 controls
-         2fef64eec23a0840c97977b16dd8919afaffa876 ASoC: hdmi-codec: Add a prepare hook
-         116b1e12b72f308b28af5b17081fdb9e1942a8ea Merge tag 'asoc-hdmi-codec-improvements-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mripard/linux into asoc-5.14
+         86ca544fd71def93b090ec5085904ecb9cae4849 habanalabs: print more info when failing to pin user memory
+         d17ffb082838270cd0e90ad1dc660fd73c073d84 habanalabs: zero complex structures using memset
+         1f8b1c8a44f48871f76c4d120bdc99ba1460734e habanalabs: set rc as 'valid' in case of intentional func exit
+         3190bf622354e94fd3e13b3a8d97091cf0026e53 habanalabs: remove node from list before freeing the node
+         4a3e2ac01b39d5e7be8d2961448919d3e16cf08e habanalabs/gaudi: update coresight configuration
+         06fdf230a6660f2d31e0f738e897958bb36c41cc habanalabs/gaudi: set the correct rc in case of err
+         ad398975b3a837a597e6181f8d47bfe21ad94d5f habanalabs: added open_stats info ioctl
+         9721306aa67d6559f6a9392fa11896dc5b5bca76 habanalabs/goya: add '__force' attribute to suppress false alarm
+         ab7c86b545d6a8785c16987039bd0098aed34bdb habanalabs/gaudi: print last QM PQEs on error
          
