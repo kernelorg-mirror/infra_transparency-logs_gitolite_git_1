@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4291353406747063093=="
+Content-Type: multipart/mixed; boundary="===============6719559339611893497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Mon, 14 Jun 2021 09:35:20 -0000
-Message-Id: <162366332099.21263.8987164297895127593@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 09:35:59 -0000
+Message-Id: <162366335926.21590.17691717882740211597@gitolite.kernel.org>
 
---===============4291353406747063093==
+--===============6719559339611893497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: cdb17b461cbc42799566f981f456579caa3365ae
     new: 18a50f82cd2ff3e43589d44349e71fdbef0d3fdd
     log: revlist-cdb17b461cbc-18a50f82cd2f.txt
 
---===============4291353406747063093==
+--===============6719559339611893497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ a43f6e8ae429f5ca594ae4463cc31c2a8ad4339c clk: imx: scu: Add A72 frequency scalin
 a82327cc5edb2283efe6a63bde7516e67d02f2a2 clk: imx: scu: add parent save and restore
 18a50f82cd2ff3e43589d44349e71fdbef0d3fdd clk: imx: scu: Do not enable runtime PM for CPU clks
 
---===============4291353406747063093==--
+--===============6719559339611893497==--
