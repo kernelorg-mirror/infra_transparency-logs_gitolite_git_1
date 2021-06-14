@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9147860820528191959=="
+Content-Type: multipart/mixed; boundary="===============7580601458447600054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 14 Jun 2021 18:03:02 -0000
-Message-Id: <162369378214.31497.8632762316464968993@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 18:06:26 -0000
+Message-Id: <162369398675.1676.11014123786823478639@gitolite.kernel.org>
 
---===============9147860820528191959==
+--===============7580601458447600054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: e4cc19c0f3f1fdbe74839d5c7c7b1a7f5552719a
-    new: 4e451f18cdcdbf7ff8c918f290e5dc510623f885
-    log: revlist-e4cc19c0f3f1-4e451f18cdcd.txt
+  - ref: refs/heads/mlx5-queue
+    old: f12af02afbd6b7883398fa24d8a77f6254aeb477
+    new: eac2d96c79580fbbba51d62d244181dd65fcee2e
+    log: revlist-f12af02afbd6-eac2d96c7958.txt
 
---===============9147860820528191959==
+--===============7580601458447600054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4cc19c0f3f1-4e451f18cdcd.txt
+Content-Disposition: attachment; filename=revlist-f12af02afbd6-eac2d96c7958.txt
 
 87c272c618c7197b24fd3acf2d337315bd93b4fa net/af_iucv: clean up some forward declarations
 fbf179683655ca83b442d5f86e17ad25a462560e s390/netiuvc: get rid of forward declarations
@@ -73,5 +73,19 @@ a212d9f33ed0b8399bd9829a779c4024068742a2 Merge branch 'iosm-driver'
 e4864016da77dd872ed7611c628bdb6fb9a72c38 x86/xen: Fix compilation error due to missing nopvspin declaration
 8e129a9d01ea937c5e8089f8f1134ae5a293d1b6 netfilter: flowtable: Make sure dst_cache is valid before using it
 4e451f18cdcdbf7ff8c918f290e5dc510623f885 devlink: Remove node check for mode set call
+695f69b888624037440a2582f91215c911203311 net/mlx5: Lag, refactor disable flow
+7b89f6bc88efccb487dfe867ddbb4bc5a2aea45e net/mlx5: Lag, Don't rescan if the device is going down
+dfaeae80300db7d9099a7a92451af4c132ad1c8d net/mlx5: Change ownership model for lag
+95ffa07999874e0e59701f73ed9568c3021f13ba lib: bitmap: Introduce node-aware alloc API
+c2777653ec737756d710a6675705846930c5bc3b net/mlx5: Node-aware allocation for the IRQ table
+c7173f92a1bb439d81b7e72bf20bac3a23e2323b net/mlx5: Node-aware allocation for the EQ table
+17c1f19495217952e688c292d97bc06126ca1d0e net/mlx5: Node-aware allocation for the generic EQ
+913943d8548e6c7d3289c93a9c4befe106fd4c66 net/mlx5: Node-aware allocation for completion EQs
+31a39e91c3c11a85876d507f16c814610f546be7 net/mlx5: Node-aware allocation for UAR
+662485d078b67146ccaaec23d41416059ce0e050 net/mlx5: Node-aware allocation for UAR bitmap arrays
+0c862ed1d36551447f7ef0b701e478a0fcdf2255 net/mlx5: Node-aware allocation for the doorbell pgdir
+206da46f90ed70a56af4c548c05af09a74d27560 net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+629dcae848168c6d4b0dbd37615445b030eab4e3 net/mlx5: Node-aware allocation for buffer metadata
+eac2d96c79580fbbba51d62d244181dd65fcee2e Merge branch 'patchq/362918' into mlx5-queue
 
---===============9147860820528191959==--
+--===============7580601458447600054==--
