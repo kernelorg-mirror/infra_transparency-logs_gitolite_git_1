@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 14 Jun 2021 16:14:12 -0000
-Message-Id: <162368725253.25052.8368528121344124032@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 16:14:30 -0000
+Message-Id: <162368727035.25247.12631223781022938966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/clang/features
-    old: 0039303120c0065f3952698597e0c9916b76ebd5
-    new: 583bfd484bcc85e9371e7205fa9e827c18ae34fb
+  - ref: refs/heads/for-next/clang/pgo
+    old: e1af496cbe9b4517428601a4e44fee3602dd3c15
+    new: 4356bc4c0425c81e204f561acf4dd0095544a6cb
     log: |
-         3f1639f8f96c4c60ccf737b02c61eb7c59355a5b MAINTAINERS: Add Clang CFI section
-         590e8a082a5772071d7bcfea2b8e5a2453cecad2 CFI: Move function_nocfi() into compiler.h
-         583bfd484bcc85e9371e7205fa9e827c18ae34fb x86, lto: Enable Clang LTO for 32-bit as well
+         d528110f8ec9a1c84a94e7a50584a7c7ae6168c4 MAINTAINERS: Expand and relocate PGO entry
+         65f334961b6c3d717f6608e7e64d7613bdd04db7 pgo: rename the raw profile file to vmlinux.profraw
+         6031c2f99cc6bffd10f9f2ed496227c0d548e29a pgo: Limit allocate_node() to vmlinux sections
+         4521586bd423e3fde1459c9c29efb77f397aebc3 pgo: Fix sleep in atomic section in prf_open()
+         4356bc4c0425c81e204f561acf4dd0095544a6cb pgo: Clean up prf_open() error paths
          
