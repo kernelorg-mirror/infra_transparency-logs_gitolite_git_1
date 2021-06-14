@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8196863247370162000=="
+Content-Type: multipart/mixed; boundary="===============5305163469041806498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Jun 2021 10:07:33 -0000
-Message-Id: <162366525372.8929.14492479293642861105@gitolite.kernel.org>
+Date: Mon, 14 Jun 2021 10:07:38 -0000
+Message-Id: <162366525821.9009.2739072702597316735@gitolite.kernel.org>
 
---===============8196863247370162000==
+--===============5305163469041806498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 9a1f66c20bdd605801537cdf8b8b142838166fd2
-    new: e75a865fa2a36b7adf4ad149d311362333b84c43
-    log: revlist-9a1f66c20bdd-e75a865fa2a3.txt
+  - ref: refs/heads/m68k-queue
+    old: c781c83db4c33aaf2eb0bdf498dae9e508f9022a
+    new: 6fbe4ff2de8139752ced6a1bd64366ce2908f3dc
+    log: revlist-c781c83db4c3-6fbe4ff2de81.txt
 
---===============8196863247370162000==
+--===============5305163469041806498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a1f66c20bdd-e75a865fa2a3.txt
+Content-Disposition: attachment; filename=revlist-c781c83db4c3-6fbe4ff2de81.txt
 
 3d681804efcb6e5d8089a433402e19179347d7ae regulator: cros-ec: Fix error code in dev_err message
 f8c8871f5eff3981eeb13421aca2c1cfda4a5204 regulator: fan53555: fix TCS4525 voltage calulation
@@ -284,6 +284,12 @@ c46fe4aa8271e97b520dc72018688e083460127c Merge tag 'tty-5.13-rc6' of git://git.k
 960f0716d80fb8241356ba862a4c377c7250121f Merge tag 'nfs-for-5.13-3' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 e4e453434a199cdfa1e1e5cc723d8736f522354a Merge tag 'perf-tools-fixes-for-v5.13-2021-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 009c9aa5be652675a06d5211e1640e02bbb1c33d Linux 5.13-rc6
-e75a865fa2a36b7adf4ad149d311362333b84c43 Merge tag 'v5.13-rc6'
+a3dccc42816c6af4065890e30a4fb64b6923218e m68k: Drop -fno-strength-reduce from KBUILD_CFLAGS
+5d7a0738371d4a49e9724289fb3ce9dc9dda7bf1 m68k: dma: Remove unnecessary include of asm/cacheflush.h
+945e39d679dada57ddf2511a78b0b5f324b07b10 MAINTAINERS, .mailmap: Update Finn Thain's email address
+f5e271605c068b7689fc96850539fed49ec36047 m68k: atari: Fix ATARI_KBD_CORE kconfig unmet dependency warning
+571a75eedea50ac43065e5e062500741a0b20c27 m68k: atari: usb: Add ISP1160 USB host controller support
+b4eaa4bfc8a54b9292b9521a14eb9dbcc9e66552 m68k: atari: Update Kconfig.bus help text
+6fbe4ff2de8139752ced6a1bd64366ce2908f3dc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8196863247370162000==--
+--===============5305163469041806498==--
