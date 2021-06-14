@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 14 Jun 2021 18:23:50 -0000
-Message-Id: <162369503056.12845.5499536827609843756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 14 Jun 2021 18:45:17 -0000
+Message-Id: <162369631799.26319.18417857336198647586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/dev-queue
-    old: caeab79ae39b599c7b451f39801ee66546bdf4d6
-    new: 0fb695405d6a624582cb07f8009f37ccae78c250
+  - ref: refs/heads/master
+    old: 790dfbda79444d11a95a317f6215c57256da3223
+    new: f1feaa94c7a92e5c18fb69e97fd19cd0211e4861
     log: |
-         99fa86b499227657839040537f88b80876302597 ixgbe: xsk: fix for metasize when construct skb by xdp_buff
-         614b861e0e196c7a719bf23b22d074fa11980d76 i40e: Fix missing rtnl locking when setting up pf switch
-         97065bc9f24b1c57b3da9394cb32a4ada05177f7 ixgbe: Fix an error handling path in 'ixgbe_probe()'
-         41033a451d5f9a56c573fd4f7a392a32ac59b848 igc: Fix an error handling path in 'igc_probe()'
-         0fb695405d6a624582cb07f8009f37ccae78c250 igb: Fix an error handling path in 'igb_probe()'
+         1b50808c2958dde32a8fb9e6856bf8013395fc6c libbpf: If LIBBPF_EMBEDDED=OFF and libbpf-dev/pkgconfig is not available, fail the build
+         f1feaa94c7a92e5c18fb69e97fd19cd0211e4861 libbpf: bump dependency to >= 0.4.0
          
