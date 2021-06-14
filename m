@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4246288655581982615=="
+Content-Type: multipart/mixed; boundary="===============0536005686937760058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Jun 2021 19:40:37 -0000
-Message-Id: <162369963778.30832.4229482272133614558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Jun 2021 19:40:49 -0000
+Message-Id: <162369964942.30986.6429286174626926400@gitolite.kernel.org>
 
---===============4246288655581982615==
+--===============0536005686937760058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: bcc0f0c078771e983a7e602eb14efa02f811445f
     new: 28108d71ee11a7232e1102effab3361049dcd3b8
     log: revlist-bcc0f0c07877-28108d71ee11.txt
-  - ref: refs/heads/for-5.14
-    old: 116b1e12b72f308b28af5b17081fdb9e1942a8ea
+  - ref: refs/heads/asoc-5.14
+    old: 3ea8a7459861def90bbb184396651d47a4cf4f20
     new: 2e8a8adb96a335a04f1697dd4314f5569521328f
-    log: revlist-116b1e12b72f-2e8a8adb96a3.txt
+    log: revlist-3ea8a7459861-2e8a8adb96a3.txt
 
---===============4246288655581982615==
+--===============0536005686937760058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623699617 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1623699632-e94c83a62a6de908456c6eed2d38eb8bbae3c7ec
+pusher C3F436CA30F5D8EB 1623699626 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1623699642-72d4dd366e10a619ec473a11bd09271d3b68a2f5
 
-bcc0f0c078771e983a7e602eb14efa02f811445f 28108d71ee11a7232e1102effab3361049dcd3b8 refs/heads/for-5.13
-116b1e12b72f308b28af5b17081fdb9e1942a8ea 2e8a8adb96a335a04f1697dd4314f5569521328f refs/heads/for-5.14
+bcc0f0c078771e983a7e602eb14efa02f811445f 28108d71ee11a7232e1102effab3361049dcd3b8 refs/heads/asoc-5.13
+3ea8a7459861def90bbb184396651d47a4cf4f20 2e8a8adb96a335a04f1697dd4314f5569521328f refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDHsKEACgkQJNaLcl1U
-h9DvyAf/RatMKrJE92q1HDfMvJzfXEwRwx/54jKzKnlV7E3fGYu/oGMPFDh6Nw/S
-7mfZydsY2qWR52dq2+sZWsU4456KG5AkJtrDnlvbu9DlkM97XSHYO/XG6muDRXbh
-QoMScoobILBgrXWR5zz9tv3JYrt0NlFA0iCzmOd+l5xF4/nz7zBrhQ4/maY4GQ+x
-9vK53Q9lo/hV2hNIpbWzmJJo5dluzIfKeqlnNY7FNnewwoeN4pkneEg9Yh2MJsot
-QNKWHAvSSyRbUqgDsFFUfB1DM/3F5TKXrbm+N505nLS+rxP7i3rEV3j0AQwGi8Qb
-hlcXhihI9yQIx6A9bYFdN+Yu6+5QRg==
-=58b1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDHsKoACgkQJNaLcl1U
+h9ByeQf+MVh1GMwLmp4SIhQfCTcbdVkvD13BmZOjEIO9nN9238cAtmaEouM+1JXs
+0sMGFQkOixd2BmXj2eEO5Oiox7UPjNx99LPQJzpgGU3u7wZNMdAgXtp0lDqW0iqP
+UfKDx1r4EbtOnu/n5Ch4KOOnDDrGpUZltgjDAqXCOswJuhsb56mhf/1tCnDjZJyO
+u3dl1pZi+G8n+tHnjwOe2JEs26sduRgZyVVk8AuPj1eC41PR32G7lRkc4XhatFhQ
+xbUK2BBB7JLUp9+AA4kyf22yoAEA6IhzrpHK56LwRjqMsrL+qPNk8ACB1gyWYV9M
+BAoMbGN5J/pGwbnm+n7qI9BMkoF0YA==
+=bjd7
 -----END PGP SIGNATURE-----
 
---===============4246288655581982615==
+--===============0536005686937760058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,12 +1081,18 @@ c441bfb5f2866de71e092c1b9d866a65978dfe1a Merge tag 'v5.13-rc3' into asoc-5.13
 f1905ab2a8a2103b7fa74a5f96fb50cce0dee6f5 ASoC: sgtl5000: Add audio-graph-card port
 28108d71ee11a7232e1102effab3361049dcd3b8 ASoC: fsl_spdif: Fix error handler with pm_runtime_enable
 
---===============4246288655581982615==
+--===============0536005686937760058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-116b1e12b72f-2e8a8adb96a3.txt
+Content-Disposition: attachment; filename=revlist-3ea8a7459861-2e8a8adb96a3.txt
 
+aa7899537a4ec63ac3d58c9ece945c2750d22168 ALSA: doc: Clarify IEC958 controls iface
+9eafc11f921b8cb7d7e28ab1fdcf6b92fcbcb0be ALSA: iec958: Split status creation and fill
+366b45b974481bea9603843d308aded519aab7dc ASoC: hdmi-codec: Rework to support more controls
+7a8e1d44211e16eb394b7b9e0b236ee1503a3ad3 ASoC: hdmi-codec: Add iec958 controls
+2fef64eec23a0840c97977b16dd8919afaffa876 ASoC: hdmi-codec: Add a prepare hook
+116b1e12b72f308b28af5b17081fdb9e1942a8ea Merge tag 'asoc-hdmi-codec-improvements-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mripard/linux into asoc-5.14
 da0363f7bfd3c32f8d5918e40bfddb9905c86ee1 ASoC: qcom: Fix for DMA interrupt clear reg overwriting
 03c0cbd946958af9cc10e55bdb047fd37d30735e ASoC: codecs: wcd: Remove unneeded semicolon
 10ee3e07d32bede6cd007fb76150a1ccd0628852 ASoC: dt-bindings: wcd938x: add bindings for wcd938x
@@ -1112,4 +1118,4 @@ c223f41c1a52bfe10f1d3311679b1d1f9813e500 ASoC: qcom: Add four speaker support on
 92570939c8b952272f630f807f8ddfac58411869 ASoC: atmel-pdmic: Use devm_platform_get_and_ioremap_resource()
 2e8a8adb96a335a04f1697dd4314f5569521328f ASoC: fsl_spdif: Remove superfluous error message around platform_get_irq()
 
---===============4246288655581982615==--
+--===============0536005686937760058==--
