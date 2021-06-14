@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Mon, 14 Jun 2021 14:08:30 -0000
-Message-Id: <162367971056.8996.7900237058257619073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 14 Jun 2021 14:09:29 -0000
+Message-Id: <162367976976.9397.4928999475693439819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 18a50f82cd2ff3e43589d44349e71fdbef0d3fdd
-    new: c586f53ae159c6c1390f093a1ec94baef2df9f3a
+  - ref: refs/heads/master
+    old: 6d47354e630f770c25b635ae80818ee4d37c050c
+    new: 653821c52109738c9c44f591cb7c0d2ea44c339e
     log: |
-         c586f53ae159c6c1390f093a1ec94baef2df9f3a clk: imx8mq: remove SYS PLL 1/2 clock gates
+         2a37dba4bf998843c46e29ad4456155677998ea7 autotest: Improve cleanup in testP2P
+         7436cef0129df3f240dedb9687c8d6ad6ff9cd22 eapol: Use constant-time comparison
+         653821c52109738c9c44f591cb7c0d2ea44c339e AUTHORS: Mention Joseph's contributions
          
