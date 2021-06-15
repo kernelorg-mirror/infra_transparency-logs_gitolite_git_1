@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 15 Jun 2021 08:18:02 -0000
-Message-Id: <162374508280.23578.11748680359188151834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 15 Jun 2021 08:21:01 -0000
+Message-Id: <162374526157.27459.12154807449283587927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/next
-    old: ab7c86b545d6a8785c16987039bd0098aed34bdb
-    new: 3752b66562eecfe11b8077390a07246fa3c43df3
+  - ref: refs/heads/todo
+    old: 94390190440bd1fd036dbf43c39a74da95b816cc
+    new: 8b018eb72d3c57d2b2e394f2e7b49cc554b56bd9
     log: |
-         74a771d6ed637f73f5d1ab77f49d2042918a5f42 habanalabs: define uAPI to export FD for DMA-BUF
-         3752b66562eecfe11b8077390a07246fa3c43df3 habanalabs: add support for dma-buf exporter
+         279e009d2c24c53833dd7b744dbffcf043a31369 Meta/cycle-run: use SANITIZE
+         8b018eb72d3c57d2b2e394f2e7b49cc554b56bd9 What's cooking (2021/06 #05)
          
