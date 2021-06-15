@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 15 Jun 2021 08:55:10 -0000
-Message-Id: <162374731002.19487.11735860073288213005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 15 Jun 2021 08:55:42 -0000
+Message-Id: <162374734298.19798.10819187956670321836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/for-5.13/upstream-fixes
-    old: fb1a79a6b6e1223ddb18f12aa35e36f832da2290
-    new: 2b2bcc76e2ffbaff7e6ec1c62cb9c10881dc70cd
-    log: |
-         2b2bcc76e2ffbaff7e6ec1c62cb9c10881dc70cd HID: surface-hid: Fix get-report request
-         
-  - ref: refs/heads/for-next
-    old: a51a7dec4b76fc33ee1b0b6b1a598810a7f90dee
-    new: 88bcf9de46df6d2e705d8569ae82521755c9ef71
-    log: |
-         2b2bcc76e2ffbaff7e6ec1c62cb9c10881dc70cd HID: surface-hid: Fix get-report request
-         88bcf9de46df6d2e705d8569ae82521755c9ef71 Merge branch 'for-5.13/upstream-fixes' into for-next
-         
+  - ref: refs/tags/v5.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
