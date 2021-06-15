@@ -1,64 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============6150504836695621025=="
+Content-Type: multipart/mixed; boundary="===============4323319612189161101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Jun 2021 13:44:32 -0000
-Message-Id: <162376467234.5368.13916675787381165278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Tue, 15 Jun 2021 13:45:44 -0000
+Message-Id: <162376474469.7310.18372383943670808563@gitolite.kernel.org>
 
---===============6150504836695621025==
+--===============4323319612189161101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/usb-testing
-    old: 5f4dee73a4bc25a7781a5406b49439bc640981c2
-    new: bfce43c43e2f1925ea3df928a984c001b148f9b9
-    log: |
-         b057da6d549103268a1fcb54046b209309447ae8 usb: mtu3: power down device IP by default
-         960d3557d20377bb984cdcb5758a2f9fd2eeb850 usb: mtu3: power down port when power down device IP
-         3abf562723d20fef53260464969645e0106f4a93 usb: mtu3: remove wakelock
-         ae634f93212902c03f487649b4ffe07ac00c7fa0 usb: mtu3: drop support vbus detection
-         a04c9f2d5dba6debe9897ab01f56549961c58fbb usb: mtu3: use enum usb_role instead of private defined ones
-         18cfd7b85cedfe51af8f19eef2768daa7648c798 usb: mtu3: rebuild role switch flow of extcon
-         6c7b9497622bd825c77fba776f5958a7aced7da2 usb: mtu3: add helper to get pointer of ssusb_mtk struct
-         13862176a3124e8d6f192e056dd0586e84b7d777 usb: mtu3: use force mode for dual role switch
-         bfce43c43e2f1925ea3df928a984c001b148f9b9 usb: mtu3: rebuild role switch get/set hooks
-         
+  - ref: refs/heads/master
+    old: 5a8e5dae2a22d1580f6d72be54bb57ab29305cc6
+    new: 314538041b5632ffaf64798faaeabaf2793fe029
+    log: revlist-5a8e5dae2a22-314538041b56.txt
 
---===============6150504836695621025==
+--===============4323319612189161101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5a8e5dae2a22-314538041b56.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623764670 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623764669-fd9d131aa249082417c977649bd705ad1b709778
+30657b8ee459f3878647d29799bd13b7cf2c95f9 libertas_tf: Fix wrong function name in comments
+9a0fb9502f0dd4c41e59d6c3390794a81fca2bc3 rtlwifi: Fix wrong function name in comments
+c707db1b2e7ba62e78998544a257fc68a3c4edd7 rsi: Fix missing function name in comments
+c3b67ea3d97a5e08f7ccb0e2c90b0913b92c01cc wlcore: Fix missing function name in comments
+bd65fe550973b8fafea9b06aa7435931ad13ae27 libertas: remove leading spaces before tabs
+084eb606dbcfe363f228d27d211cfcdd69bc0f2f rt2x00: remove leading spaces before tabs
+7b7362ba27a23a9042e2423407e6ce16d388aba0 wlcore: remove leading spaces before tabs
+ad4d74cd81779e8f33e7365ae98280835604e905 rndis_wlan: simplify is_associated()
+d4f23164cff08de41abfd95ad8610b94137cdf9c wilc1000: Fix clock name binding
+d10a87a3535cce2b890897914f5d0d83df669c63 wl1251: Fix possible buffer overflow in wl1251_cmd_scan
+7af305a1245a7ceff2d8577e011d0a0f7cc33e4c rt2x00: do not set timestamp for injected frames
+924599d407928b91cb22d9274a347bb90f6f6129 rtlwifi: 8821a: btcoexist: add comments to explain why if-else branches are identical
+29d97219f4035185f229769313021e350972768b zd1211rw: Prefer pr_err over printk error msg
+b1c3a24897bd528f2f4fda9fea7da08a84ae25b6 rsi: Assign beacon rate settings to the correct rate_info descriptor field
+29ca9e6ca5a5f850829c53557bf18912e56da6c9 rsi: Add support for changing beacon interval
+d56b69c4fbc7fc85d1a232967ff72c99c3ea2b95 rtlwifi: btcoex: 21a 2ant: Delete several duplicate condition branch codes
+dd778f89225cd258e8f0fed2b7256124982c8bb5 cw1200: add missing MODULE_DEVICE_TABLE
+c362dd84013e53ce354a8069d0795280c683450c wl1251: Fix missing function name in comments
+03a1b938cf39469da4f27b48cb47fa7b3a2f440c rtlwifi: rtl8723ae: remove redundant initialization of variable rtstatus
+a99086057e031a88474a7432c7ed0800a3943e84 rtlwifi: Remove redundant assignments to ul_enc_algo
+03611cc526f9d4854dcd7cf3b7d17f5544d967e8 rtlwifi: Fix spelling of 'download'
+3f60f4685699aa6006e58e424637e8e413e0a94d cw1200: Revert unnecessary patches that fix unreal use-after-free bugs
+8667ab49a6e0942d64b0dafd30cbf4e0c8b08a8f libertas: use DEVICE_ATTR_RW macro
+314538041b5632ffaf64798faaeabaf2793fe029 rsi: fix AP mode with WPA failure due to encrypted EAPOL
 
-5f4dee73a4bc25a7781a5406b49439bc640981c2 bfce43c43e2f1925ea3df928a984c001b148f9b9 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDIrr4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SpoP/0SxZ0YSU9vrnRyOusJt
-sAJdjU5uPK8t6c6eJQ2LHJCsUWCAKefpT8t0Nh7mKFmQO2ZoBkeRlWx1z3uSN/op
-8aPGqogE+8FaO8tWaESJgkz18NcZ0FfC7o1X2skIXKZIEs/vD/nIDgPobZMMgMhn
-LcsnF1ESFrN+xod6oqigGb/VkrhohKwqmarnOLtsYkthaMkTDDIJk94BxkzywvSn
-LhwUrwvVoJQgC2cyaJvJwRGMH8MkBOF63ZH9aPOjhp2CLbdpx3iupGpUqt6KkLYf
-I/IUx8wdt5V6QwE/r1NXJ+WcykGjKDbeTBIhvJQT1riKeiQfeUSrbLN/rJnKJt3e
-sDplJuKO/TGckC9pXl5qJGDQR1dDaq7lOpDq/BGAvoYuXQIjPu3fvF/1fRDVmdvW
-BHClZ2KrPZcEbue485NWZVL66cERchVBUM3j2se3R+5pkdPxnba6TGrmaxaD3hEy
-U2v7DqZ5DxOdzEQS+wzw4PSgWD0bXrgezoTMFYAwmgutctmA6u++8YFZR98SvdR+
-MzcqU4y8C+7BH+N7kdRW9Cyb4USXChL/b3J7koIMVBSV4GmnyH6bKZZstSOZ661P
-3gHW1dNPx/Hd23mG6vYV/WkoHQz4pq2gmxwyl78pOiBGI45IlWyoTIMq+JkdDB+y
-ZRcQ7he+hjOZNuA0jsts6aHv
-=ffD8
------END PGP SIGNATURE-----
-
---===============6150504836695621025==--
+--===============4323319612189161101==--
