@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0707932672685676560=="
+Content-Type: multipart/mixed; boundary="===============8148515663256906640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 15 Jun 2021 13:52:58 -0000
-Message-Id: <162376517875.13234.11333367955523024376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 15 Jun 2021 13:53:05 -0000
+Message-Id: <162376518546.13333.15870716516355418547@gitolite.kernel.org>
 
---===============0707932672685676560==
+--===============8148515663256906640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.14
-    old: 00430f71b2b18e42ba3d733cbd2d725ec5b2ca80
-    new: f3f4f37d53be578c65dd32a1ffad432b33aef236
+  - ref: refs/heads/for-5.14
+    old: 3ce6c9e2617ebc09b2d55cc88134b90c19ff6d31
+    new: 6a5976f23dc38749afcb62cc3acf5e3e2b53d5ba
     log: |
-         f3f4f37d53be578c65dd32a1ffad432b33aef236 regulator: rt6160: Remove vsel_active_low from struct rt6160_priv
+         6a5976f23dc38749afcb62cc3acf5e3e2b53d5ba spi: stm32-qspi: Remove unused qspi field of struct stm32_qspi_flash
          
 
---===============0707932672685676560==
+--===============8148515663256906640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623765160 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1623765176-a3db99046762801c8e471fb96058f2a4aa963427
+pusher C3F436CA30F5D8EB 1623765167 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1623765183-096233d4a79f9be0e84098e92304cba7e49dd0b1
 
-00430f71b2b18e42ba3d733cbd2d725ec5b2ca80 f3f4f37d53be578c65dd32a1ffad432b33aef236 refs/heads/regulator-5.14
+3ce6c9e2617ebc09b2d55cc88134b90c19ff6d31 6a5976f23dc38749afcb62cc3acf5e3e2b53d5ba refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDIsKgACgkQJNaLcl1U
-h9Dn1Qf/aDmIzBb93FPVPrbCbcKF0xGRm9OtttJs4Vm1ZOh38c3TZ625dboVrJko
-2ay2Jv8Lo3smQ+A6fQhtIaXoUWKvHlGqpxnn/FOvaUFhq7zalSA+1xpfdPlOvtsB
-Ssad99DRf12m500tOQcAKz8N9C2w3tOR9R2Kcj0nKWKGJ5YSo5Ws3YzB4tfjmupZ
-kpau5eXmukjIT5aW4IdDNzoGEfCSYI3T4b2O2uB2eUhIovFm2qJGrWdYwGtvXLL3
-PbWS6XLm0CmBWbDDJpLHxUbTZdip2YCwA5pvFhOMvrJ4pxVxeF+nI73ooZMprEHC
-LGAueEVsW7I+aiLtPFvZr9URMV1DUw==
-=tJWl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDIsK8ACgkQJNaLcl1U
+h9Ca4gf/bWM8lzMpAvoZo5H/GdcXVpVOY8OoCkhSKyzq7Fpxst3x1TcieZynL4nW
+wf+xZKGrFrE/evH3CzGUBi9TGeEw1F5YuutRDCTparYKlhFa8jqkAz7XDlZOVCBI
+D0HaE7kAVBsRd4/nEUATfZqsCU4YxH6jAuIpykgOdqe2sXjTFfGY3hW/vZ2zxX1e
+lHu7laiyeUvVRpU6han5b1FYKh9yKv2seFUp5TiOVOCN7S7HpDGRp9+wdKagnQ8S
+3ibQ+6Q3/PtF/sjGge8VDezxq71BxpefqeZuG4mBjjumaxUFIm7ymzjf1TJ3Dw9e
+gSdjTLMMG1MD2rBW28kWuKtxi2PWGg==
+=OiEs
 -----END PGP SIGNATURE-----
 
---===============0707932672685676560==--
+--===============8148515663256906640==--
