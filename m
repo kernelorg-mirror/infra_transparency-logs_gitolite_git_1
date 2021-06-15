@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Jun 2021 09:31:32 -0000
-Message-Id: <162374949216.28831.7115469460786946851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 15 Jun 2021 09:37:28 -0000
+Message-Id: <162374984863.32335.16649424541591343250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 0b42677e2e5d87c730ddc41544b289b88596738c
-    new: eb7f1579243fb0c278b883f830302ce3b3dc20c3
+  - ref: refs/heads/cpufreq/cppc
+    old: dae97906afc6cf7b6dfc46753809181a055c88fe
+    new: f777d164d958986bff755465ea723c44e09a5ef5
     log: |
-         d33b9035e14a35f6f2a5f067f0b156a93581811d objtool: Improve reloc hash size guestimate
-         eb7f1579243fb0c278b883f830302ce3b3dc20c3 Merge branch 'objtool/core'
+         f777d164d958986bff755465ea723c44e09a5ef5 arch_topology: Avoid use-after-free for scale_freq_data
          
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
