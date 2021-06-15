@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Jun 2021 17:25:25 -0000
-Message-Id: <162377792547.30812.14923429980485317002@gitolite.kernel.org>
+Date: Tue, 15 Jun 2021 17:27:10 -0000
+Message-Id: <162377803069.31532.7137869763085688422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 89212e160b81e778f829b89743570665810e3b13
-    new: a955318fe67ec0d962760b5ee58e74bffaf649b8
+    old: a955318fe67ec0d962760b5ee58e74bffaf649b8
+    new: 0dca2c7404a938cb10c85d0515cee40ed5348788
     log: |
-         a955318fe67ec0d962760b5ee58e74bffaf649b8 stmmac: align RX buffers
+         0dca2c7404a938cb10c85d0515cee40ed5348788 net/sched: cls_flower: Remove match on n_proto
          
