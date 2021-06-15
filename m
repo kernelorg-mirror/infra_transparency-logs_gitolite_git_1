@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8650863964729870941=="
+Content-Type: multipart/mixed; boundary="===============2823920658786624230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 15 Jun 2021 16:06:27 -0000
-Message-Id: <162377318752.9582.12783044236031948171@gitolite.kernel.org>
+Date: Tue, 15 Jun 2021 16:06:41 -0000
+Message-Id: <162377320188.9706.13487239064655890464@gitolite.kernel.org>
 
---===============8650863964729870941==
+--===============2823920658786624230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: bbf29d3a2e49e482d5267311798aec42f00e88f3
     new: 1f26622b791b6a1b346d1dfd9d04450e20af0f41
     log: revlist-bbf29d3a2e49-1f26622b791b.txt
 
---===============8650863964729870941==
+--===============2823920658786624230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d5e4ddaeb6ab2c3c7fbb7b247a6d34bb0b18d87e bpf: Support socket migration by eBPF.
 c9d0bdef89a6c943e98c851e8cc10c9c534329e6 bpf: Test BPF_SK_REUSEPORT_SELECT_OR_MIGRATE.
 1f26622b791b6a1b346d1dfd9d04450e20af0f41 Merge branch 'bpf-sock-migration'
 
---===============8650863964729870941==--
+--===============2823920658786624230==--
