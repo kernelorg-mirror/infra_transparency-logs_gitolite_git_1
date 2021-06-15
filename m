@@ -1,42 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 15 Jun 2021 12:14:14 -0000
-Message-Id: <162375925474.7585.4700881824144983760@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8182304602975112251=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 15 Jun 2021 12:37:20 -0000
+Message-Id: <162376064068.23833.10596162477261805143@gitolite.kernel.org>
+
+--===============8182304602975112251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/disable-plugins
-    old: 41457dcbc4e1a20d4ee0ece5e156b2a66d459278
-    new: 0000000000000000000000000000000000000000
   - ref: refs/heads/master
-    old: f79ef935a7885f780c8a739c09593023b8b80544
-    new: 05a4d3fe0ae7a9ecf0a880e637a7692ade2590f3
+    old: ab7f1b2a6732d9b48e31d70704a651e1399da6aa
+    new: 1773d363d129244a8adf12a947ccea9c474fae50
     log: |
-         df5e54545ee8ffe655af51841f6f63782686d3d8 Add API and CLI option to disable token plugins.
-         05a4d3fe0ae7a9ecf0a880e637a7692ade2590f3 Use VeraCrypt option by default; add --disable-veracrypt option.
+         1773d363d129244a8adf12a947ccea9c474fae50 Update 1ED2916A667D8802 (Dan Williams)
          
-  - ref: refs/merge-requests/168/head
-    old: 41457dcbc4e1a20d4ee0ece5e156b2a66d459278
-    new: df5e54545ee8ffe655af51841f6f63782686d3d8
-    log: |
-         df5e54545ee8ffe655af51841f6f63782686d3d8 Add API and CLI option to disable token plugins.
-         
-  - ref: refs/merge-requests/168/merge
-    old: 02b93575301e6fc2bb653b4d9c3d629a419fa551
-    new: b2cf4a20fb76b04e6a2526c156e41f24b3a2d281
-    log: |
-         df5e54545ee8ffe655af51841f6f63782686d3d8 Add API and CLI option to disable token plugins.
-         b2cf4a20fb76b04e6a2526c156e41f24b3a2d281 Merge branch 'disable-plugins' into 'master'
-         
-  - ref: refs/merge-requests/169/head
-    old: 0000000000000000000000000000000000000000
-    new: 05a4d3fe0ae7a9ecf0a880e637a7692ade2590f3
-  - ref: refs/merge-requests/169/merge
-    old: 0000000000000000000000000000000000000000
-    new: a18a2340513170fd9954c5546cf1a23e2e8a7c66
+
+--===============8182304602975112251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1623760640 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1623760640-f2647cb97c53a76c786f4434e5828b2f4d4f1a05
+
+ab7f1b2a6732d9b48e31d70704a651e1399da6aa 1773d363d129244a8adf12a947ccea9c474fae50 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYMifAAAKCRC2xBzjVmSZ
+bEmYAQCtPqrxJeRvK68QJl587ceTA8uqUmucMePWnq32okp6hwD+O5lPt/n6T0Pj
+F4EcAmm5cmo6xxq9xz8D2GiVvqJ/hg8=
+=tCE9
+-----END PGP SIGNATURE-----
+
+--===============8182304602975112251==--
