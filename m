@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Jun 2021 18:19:25 -0000
-Message-Id: <162378116576.1534.12588975685207354664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 15 Jun 2021 18:25:15 -0000
+Message-Id: <162378151565.7538.13144055236451212940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: f0c227c7df657a3470cd3ea03d51a71941d1e98f
-    new: b8f6b0522c298ae9267bd6584e19b942a0636910
+    old: e34492dea68d4f09e9989e518fc76cd41909d707
+    new: c1a3d4067309451e68c33dbd356032549cc0bd8e
     log: |
-         b8f6b0522c298ae9267bd6584e19b942a0636910 netlabel: Fix memory leak in netlbl_mgmt_add_common
+         c1a3d4067309451e68c33dbd356032549cc0bd8e net: cdc_ncm: switch to eth%d interface naming
          
