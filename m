@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0861728018748679848=="
+Content-Type: multipart/mixed; boundary="===============8085904533966328084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 15 Jun 2021 15:13:28 -0000
-Message-Id: <162377000890.5049.13072527538723385383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 15 Jun 2021 15:16:12 -0000
+Message-Id: <162377017277.7508.5397177592749227376@gitolite.kernel.org>
 
---===============0861728018748679848==
+--===============8085904533966328084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 01d12a6656f7fa239cddbd713656be83cdbdc9b3
-    new: c7e9967668d98f868fb577fd95d84fdb1ba0446c
+  - ref: refs/heads/driver-core-testing
+    old: d826e0365199ccc084d6b757c966f4c8ca83d20b
+    new: 09705dcb63d269000595284b5dd7f5c938d647b9
     log: |
-         c7e9967668d98f868fb577fd95d84fdb1ba0446c mei: hdcp: SPDX tag should be the first line
+         bbc8f3e79e9e35469ac87b0b3329729afc715885 devres: Make locking straight forward in release_nodes()
+         c3cd0ff7aa18a60229134fb8e467d5e1d92abec3 devres: Use list_for_each_safe_from() in remove_nodes()
+         a7f1d03b6046cf44f1dd702aeaad3b5e4d7b33a5 devres: No need to call remove_nodes() when there none present
+         09705dcb63d269000595284b5dd7f5c938d647b9 devres: Enable trace events
          
 
---===============0861728018748679848==
+--===============8085904533966328084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623770007 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1623770006-2bb9bce4df6e3bb540030ac1032a9ce9213855b2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623770170 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1623770170-87a52fcbd2331b44f120a899061de6cbfd2ec4bc
 
-01d12a6656f7fa239cddbd713656be83cdbdc9b3 c7e9967668d98f868fb577fd95d84fdb1ba0446c refs/heads/char-misc-testing
+d826e0365199ccc084d6b757c966f4c8ca83d20b 09705dcb63d269000595284b5dd7f5c938d647b9 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDIw5cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3sMP/RiUKbTU3kVJYacqdAEF
-6VvIwGEXFkb9ureIZMg+1tbXwUH9qUT0z0T3rLs9G2qlz2XMu60HFSVKP8NH5NM9
-Mq8BYToorvSCTRPJqCBkCCvoMsuO2P4wy8s55fXwWAu1dUa43agSF7vFdJ/7mcY/
-2Od/LChCUCEORRXU1Y4Qrr8KH5S1IEM8hYxIEkcRArl0xXmIYpGiaZ5gNY4ewSUT
-vSMD+pMuNMduDOGhV9n06S3Mpt/+zuUO57uIXR9keYsE239J3P0BIHmhJ2K5i3Dk
-7CdJItLgcUK98yxUac6GEQogGNGMMmoH5dj9DG8I3ZoAobC/qemiZGE6H+/cBVGR
-091H+/goHx4TwHeAGpS+Nsxje2CmwMQF6jDsQnXWQnSJtoj+eIh1L/e9SvkvJFVF
-9bWvmDZCTJn1WxsiXJLaixRkj/Z5aoHYwtPlQv1/EVjKkTza9gmCEeicYtfym4Z+
-XNsdjmbJIjPoaUrZ9zTNCk47qwWEdz16lNRRvVw3EshMK26sFgHxnSRgyk+V5tiG
-+7EFNNh6BFYE72BKAbDU5nx+SOOPo/FniSFWk/ExxE3c75yZNeUgPPuX26Hj5EZq
-QOs6BbRA4sz2i6W2fk7l2ZT1CZHfyLs71ctd/3vk+NG5LtmQrKIIiUb+TyCwXhKZ
-E4cpkCCR1Zzz7cOzW5APFzsC
-=EzDX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDIxDobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b9gP/i2qN2bg5XGvExgIBcIE
+ArABYOXf7mqaZxfglS/+4fbfehcEvnAQUd4H+Egd3mMbkFC4/rZ47LqPEaxrP3Qk
+hEbAxe6UitK2dp2/uHurj/Zf9glLragifqV44uDox1iehJxARkTAD2jleJa3ENr+
+rjyZS7ATcMIlQoorYdzKE1C1gtPbb1q67UoFNY6+CX72gSgrPoTUqaos4XzNLqgK
+Dt6nLYcghQ3CBGOYylzV4X+S9zI8rbEl2VEWQS/uWtN0O7lCtpq+xiiD3wYV8EOC
+DlMYREunU/97ChYIz62Ium39m5y4cE9qWd785Muj1Zoz1OL+LPy0on6AK9SCJsz5
+eRlveb5CC+FmbOFikrD0sCzgnNsyAkRxj4YaIuFrR2BLSFdiWYD9kOC2qbMrYzQ6
+Mmli5YieANsCArvbZIxAWQ2xfjfziefe8vkc8LKrE5rL4rTcd1fgaOeNQiliGEiF
+fSdvb2191f7LRjcaX6+F2wLM7kAhFYiacmnxMf88oM3TU8wCVrCIljyY/AOy9mo7
+S8vX4oMLuCl+8OhNnLQd79XuqeaIKPdfpkkZycAzOP6Bwagyc5Av6BMvHmZoTeGx
+n+cPzqlKdTZJA7OI9vFOSQceBcKoSAj9nuEXO99+33LPllO2Qlz67JMo7wyjUVwm
+JvLvzelzJfffbEBFxoEfidWT
+=i8F0
 -----END PGP SIGNATURE-----
 
---===============0861728018748679848==--
+--===============8085904533966328084==--
