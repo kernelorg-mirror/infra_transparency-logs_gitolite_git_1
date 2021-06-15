@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8780142587749131829=="
+Content-Type: multipart/mixed; boundary="===============5118255802424378775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 15 Jun 2021 11:52:31 -0000
-Message-Id: <162375795198.25619.1996262175875712375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 15 Jun 2021 11:52:38 -0000
+Message-Id: <162375795884.25723.17848774561777611340@gitolite.kernel.org>
 
---===============8780142587749131829==
+--===============5118255802424378775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 2e8a8adb96a335a04f1697dd4314f5569521328f
     new: f35550386041d07668ec6206de8e85763f0ebd98
     log: |
@@ -29,28 +29,28 @@ changes:
          f35550386041d07668ec6206de8e85763f0ebd98 Merge series "Unify NVIDIA Tegra ASoC machine drivers" from Dmitry Osipenko <digetx@gmail.com>:
          
 
---===============8780142587749131829==
+--===============5118255802424378775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623757933 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1623757949-3b51d8aa9ec8347a8fbab280a9718cee93b5f636
+pusher C3F436CA30F5D8EB 1623757940 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1623757956-44ce0de569fbc469f70ab452fab45fddfc2bc86f
 
-2e8a8adb96a335a04f1697dd4314f5569521328f f35550386041d07668ec6206de8e85763f0ebd98 refs/heads/for-5.14
+2e8a8adb96a335a04f1697dd4314f5569521328f f35550386041d07668ec6206de8e85763f0ebd98 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDIlG0ACgkQJNaLcl1U
-h9DI1gf/VxmkuhNba5Xbn+m5sagFhLjD9jP6DHeswKC30l77pqFsUY2j4jxXx/gE
-UanFK/UtO84P6Rj77rlk4S8aPTNPq9rpA30SxBWN8ouRfi182CF8TgU/OoqjUcn9
-IvZ7n5fFI6fRYAB87cta4ZnFl/AnDPEA9w9mWo80xyQFARrOJLBfSARHGKVJg3+2
-/M3tcZLHsKaPcgsNnmrkHL7LB96n6pSurCv4WhWT/4T6Yzg/2h87pbO2Jz/FxYCI
-fR+L4ZTvuz2agh1saBUL/MPYkxak0MqzcDU/6pM14H4OhVdTC59TEqZm7VWSVROG
-Se/2Yq13GGaNo4XnnU6FQtzBkRPYlw==
-=arYe
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDIlHQACgkQJNaLcl1U
+h9AjAQf8Cg2P2ai3TSi19veB1vzvbnaw+YcT9eceooaWDWH5V9S5YlHLvotZG5Fh
+JygHwOhjtNkGp7ZF6fSlaiNICZ/2niRq/72Ng3B/StONIns8vejCleDnChIiT86v
+m4UDxg2KNgRJZESUyO9e4Md06RKnMBGokdo3XQSonUI2ZHkC/wsBDn3pjBckHGVB
+Tyxb6ayNQCc/fsb1nnsS1fn1fyzg3yQld86jk1hbBWRxWWdPHPizG9AF/0bq10o4
+k5jGtko6K9HSu5GrkHUgBVkgFsj60FdY1Z2R8ibLMKqubwdCxYjmzIble805T8ty
+i/FAyazdk23GRCwjDRJaxFoJWjCPyw==
+=EyZz
 -----END PGP SIGNATURE-----
 
---===============8780142587749131829==--
+--===============5118255802424378775==--
