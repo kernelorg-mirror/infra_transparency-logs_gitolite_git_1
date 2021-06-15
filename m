@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5342521529525002463=="
+Content-Type: multipart/mixed; boundary="===============6150504836695621025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Jun 2021 13:41:14 -0000
-Message-Id: <162376447474.4143.9596696301883637517@gitolite.kernel.org>
+Date: Tue, 15 Jun 2021 13:44:32 -0000
+Message-Id: <162376467234.5368.13916675787381165278@gitolite.kernel.org>
 
---===============5342521529525002463==
+--===============6150504836695621025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 1f28f6f091b49040c3e198c982704c3f21cad1e5
-    new: 5f4dee73a4bc25a7781a5406b49439bc640981c2
+    old: 5f4dee73a4bc25a7781a5406b49439bc640981c2
+    new: bfce43c43e2f1925ea3df928a984c001b148f9b9
     log: |
-         6f8d39a8ef55efde414b6e574384acbce70c3119 usb: phy: tegra: Wait for VBUS wakeup status deassertion on suspend
-         7917e90667bc8dce02daa3c2e6df47f6fc9481f7 usb: phy: tegra: Correct definition of B_SESS_VLD_WAKEUP_EN bit
-         e90f9ceb7059518de333bf8b41c06d3dff432d3b usb: renesas-xhci: Replace BIT(15) with macro
-         5f4dee73a4bc25a7781a5406b49439bc640981c2 usb: isp1760: Fix meaningless check in isp1763_run()
+         b057da6d549103268a1fcb54046b209309447ae8 usb: mtu3: power down device IP by default
+         960d3557d20377bb984cdcb5758a2f9fd2eeb850 usb: mtu3: power down port when power down device IP
+         3abf562723d20fef53260464969645e0106f4a93 usb: mtu3: remove wakelock
+         ae634f93212902c03f487649b4ffe07ac00c7fa0 usb: mtu3: drop support vbus detection
+         a04c9f2d5dba6debe9897ab01f56549961c58fbb usb: mtu3: use enum usb_role instead of private defined ones
+         18cfd7b85cedfe51af8f19eef2768daa7648c798 usb: mtu3: rebuild role switch flow of extcon
+         6c7b9497622bd825c77fba776f5958a7aced7da2 usb: mtu3: add helper to get pointer of ssusb_mtk struct
+         13862176a3124e8d6f192e056dd0586e84b7d777 usb: mtu3: use force mode for dual role switch
+         bfce43c43e2f1925ea3df928a984c001b148f9b9 usb: mtu3: rebuild role switch get/set hooks
          
 
---===============5342521529525002463==
+--===============6150504836695621025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623764473 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623764670 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623764472-2054bcce3d7a69910819dcc2db53a49727c8f015
+nonce 1623764669-fd9d131aa249082417c977649bd705ad1b709778
 
-1f28f6f091b49040c3e198c982704c3f21cad1e5 5f4dee73a4bc25a7781a5406b49439bc640981c2 refs/heads/usb-testing
+5f4dee73a4bc25a7781a5406b49439bc640981c2 bfce43c43e2f1925ea3df928a984c001b148f9b9 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDIrfkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v4MQANN01/4P0CKGiAcOJPAg
-+eToqsuRXTjlYcRQ8wYqnr98sUiXn5dmS4axv31SGpvSxW5sk3XMC8dKDhNGNrKR
-dOPWsxcY/h0H2rx7pk63GFpNCO4rzvPT11KCOyWp2bXdqC+NQp3RBhL564YJ3aBV
-jryKOtbMeOI/OHWrFEeDD/dBT9T+8Y6WWBuolGncW0gKjJhwyk1uvWaEpq08Y7p1
-V7T1rvIwYKVJ/1JTvJI1QXZMT6s6ldNBedia36mp7yJoK5YBoL4a9RlVxJe0IFXo
-2f3fBSvKhYcljDNtXcHfGpak18VY7DvyinmOnWFGEBlaw4X8ro6ya8zOND5gF1pn
-/WxCtvWTO24lnhUe7BAtVjl10ypxbIPU5FctebqRury8ennAuh5+6pFLETXEBYFQ
-wjgpkpt3JDBsJ6u5I2KJnldP1WEbrHb3ImdeWUi91U8UgFsVnaP/6w6SSraib6jN
-zMwfqdNdaLvD0DtNEEep3QuBDK8s3M5VM+cK/5eDOe9TBu1nNh9ujw0PdT+CioLi
-TuZKytGXuLBBegLt62LlEyY7CEtUl+L2PiSyTRmegQV/mfyB2kB05DtH2YAJ7k19
-17lJg2934/TUDCUG1kuui7I1LQUG9VPaC+CCJNj+Wr0NBHLAVKHGGacfsVo6xjs1
-Gk812TkFOisEyOERvUZM1SXr
-=x9tx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDIrr4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SpoP/0SxZ0YSU9vrnRyOusJt
+sAJdjU5uPK8t6c6eJQ2LHJCsUWCAKefpT8t0Nh7mKFmQO2ZoBkeRlWx1z3uSN/op
+8aPGqogE+8FaO8tWaESJgkz18NcZ0FfC7o1X2skIXKZIEs/vD/nIDgPobZMMgMhn
+LcsnF1ESFrN+xod6oqigGb/VkrhohKwqmarnOLtsYkthaMkTDDIJk94BxkzywvSn
+LhwUrwvVoJQgC2cyaJvJwRGMH8MkBOF63ZH9aPOjhp2CLbdpx3iupGpUqt6KkLYf
+I/IUx8wdt5V6QwE/r1NXJ+WcykGjKDbeTBIhvJQT1riKeiQfeUSrbLN/rJnKJt3e
+sDplJuKO/TGckC9pXl5qJGDQR1dDaq7lOpDq/BGAvoYuXQIjPu3fvF/1fRDVmdvW
+BHClZ2KrPZcEbue485NWZVL66cERchVBUM3j2se3R+5pkdPxnba6TGrmaxaD3hEy
+U2v7DqZ5DxOdzEQS+wzw4PSgWD0bXrgezoTMFYAwmgutctmA6u++8YFZR98SvdR+
+MzcqU4y8C+7BH+N7kdRW9Cyb4USXChL/b3J7koIMVBSV4GmnyH6bKZZstSOZ661P
+3gHW1dNPx/Hd23mG6vYV/WkoHQz4pq2gmxwyl78pOiBGI45IlWyoTIMq+JkdDB+y
+ZRcQ7he+hjOZNuA0jsts6aHv
+=ffD8
 -----END PGP SIGNATURE-----
 
---===============5342521529525002463==--
+--===============6150504836695621025==--
