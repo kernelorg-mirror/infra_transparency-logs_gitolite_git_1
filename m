@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 15 Jun 2021 23:43:03 -0000
-Message-Id: <162380058312.20225.15425390196580383880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 15 Jun 2021 23:49:21 -0000
+Message-Id: <162380096145.24032.1998923647786825621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: 7705f79110b710d19353e0c710e27cd2227b1aa2
-    new: 7492c8a2dbd1e8a598dffc93a9cd521e6191f4fd
+  - ref: refs/heads/pending
+    old: 87815ee9d0060a91bdf18266e42837a9adb5972e
+    new: 21083f51521fb0f60dbac591f175c3ed48435af4
     log: |
-         7492c8a2dbd1e8a598dffc93a9cd521e6191f4fd Tue 15 Jun 2021 11:42:33 PM UTC
+         6af7139c979474a29a6ad642c9bf32d92e24c5bc cxl/core: Add cxl-bus driver infrastructure
+         8fdcb1704f61a8fd9be0f3849a174d084def0666 cxl/pmem: Add initial infrastructure for pmem support
+         fd14602d05229671be81018fa226f9afdafdba88 libnvdimm: Export nvdimm shutdown helper, nvdimm_delete()
+         2bbafda405c04cfed1b57b761d13ada3154c0f89 libnvdimm: Drop unused device power management support
+         21083f51521fb0f60dbac591f175c3ed48435af4 cxl/pmem: Register 'pmem' / cxl_nvdimm devices
          
