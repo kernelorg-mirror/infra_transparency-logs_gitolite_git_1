@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 16 Jun 2021 19:22:37 -0000
-Message-Id: <162387135702.31290.8103883582070255063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 16 Jun 2021 19:27:11 -0000
+Message-Id: <162387163111.1916.1632061068713355014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 7492c8a2dbd1e8a598dffc93a9cd521e6191f4fd
-    new: f6726ea3de2ceb1999e1fec4b872e3d8b4dc9b12
+  - ref: refs/heads/gpio/for-next
+    old: be4dc321a55cfee3099a1bd9399d0cd4ac080c23
+    new: 6d49b3a0f351925b5ea5047166c112b7590b918a
     log: |
-         f6726ea3de2ceb1999e1fec4b872e3d8b4dc9b12 Wed 16 Jun 2021 07:22:06 PM UTC
+         6d49b3a0f351925b5ea5047166c112b7590b918a gpio: pca953x: Add support for the On Semi pca9655
          
