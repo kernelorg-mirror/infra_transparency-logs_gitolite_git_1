@@ -1,43 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 16 Jun 2021 17:48:44 -0000
-Message-Id: <162386572492.31088.8560144368497468968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 16 Jun 2021 17:50:04 -0000
+Message-Id: <162386580407.1549.4511864714562011974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f345fb812cc54748b0668e0aeb285aa119fcb10d
-    new: 6e92e3ab6c6d4ac9a87fbfae1681ed8515a55809
+  - ref: refs/heads/for-5.14/block
+    old: a72c374f97a4c7b2f9dde5144c867fec4bdcd798
+    new: 828615950b5876e75587fdd5e9d1185be9cabba7
     log: |
-         b7fd255fd2005d382ea1e26d3a6cd98028802541 Merge branches 'acpi-processor', 'acpi-pm', 'acpi-video' and 'acpi-sysfs' into linux-next
-         db9b6d87a8d4552c691c9f008a233985f41a9e4d ACPI: power: Use dev_dbg() to print some messages
-         6e92e3ab6c6d4ac9a87fbfae1681ed8515a55809 Merge branch 'acpi-pm' into bleeding-edge
+         fda0b5ba9d5a9f6bfab9bc195f7a8fce13aedf61 docs: block/bfq: describe per-device weight
+         37fe403898b2fa5fc9d3616fcda2ee6629318aab docs/cgroup-v1/blkio: stop abusing itemized list
+         828615950b5876e75587fdd5e9d1185be9cabba7 docs/cgroup-v1/blkio: update for 5.x kernels
          
-  - ref: refs/heads/linux-next
-    old: a206065a840616e966a96a148a690b169746b642
-    new: b7fd255fd2005d382ea1e26d3a6cd98028802541
+  - ref: refs/heads/for-next
+    old: d3cd40f2fa0a1f8dfe4f884eb87d74efa4c68374
+    new: 33d5bbc5460d95fa948098472009b2777bfb04c4
     log: |
-         69530b434780217053a5a98462d76129ac776451 ACPI: processor_throttling: Remove redundant initialization of 'obj'
-         aa3a522c4f41537909b2ab4da660cb0deee136e8 ACPI: sleep: Fix acpi_pm_pre_suspend() kernel-doc
-         49b9441a258175a6941a29ed23dfc39f1b632723 ACPI: video: Drop three redundant return statements
-         85c1ad47d2c7b9df335511b72b0fb6fdb230811d ACPI: sysfs: Drop four redundant return statements
-         2ef53bf7147778e5784d14bcfedb6d83ba20b9b0 ACPI: processor_throttling: Fix several coding style issues
-         b7fd255fd2005d382ea1e26d3a6cd98028802541 Merge branches 'acpi-processor', 'acpi-pm', 'acpi-video' and 'acpi-sysfs' into linux-next
-         
-  - ref: refs/heads/testing
-    old: a206065a840616e966a96a148a690b169746b642
-    new: b7fd255fd2005d382ea1e26d3a6cd98028802541
-    log: |
-         69530b434780217053a5a98462d76129ac776451 ACPI: processor_throttling: Remove redundant initialization of 'obj'
-         aa3a522c4f41537909b2ab4da660cb0deee136e8 ACPI: sleep: Fix acpi_pm_pre_suspend() kernel-doc
-         49b9441a258175a6941a29ed23dfc39f1b632723 ACPI: video: Drop three redundant return statements
-         85c1ad47d2c7b9df335511b72b0fb6fdb230811d ACPI: sysfs: Drop four redundant return statements
-         2ef53bf7147778e5784d14bcfedb6d83ba20b9b0 ACPI: processor_throttling: Fix several coding style issues
-         b7fd255fd2005d382ea1e26d3a6cd98028802541 Merge branches 'acpi-processor', 'acpi-pm', 'acpi-video' and 'acpi-sysfs' into linux-next
+         fda0b5ba9d5a9f6bfab9bc195f7a8fce13aedf61 docs: block/bfq: describe per-device weight
+         37fe403898b2fa5fc9d3616fcda2ee6629318aab docs/cgroup-v1/blkio: stop abusing itemized list
+         828615950b5876e75587fdd5e9d1185be9cabba7 docs/cgroup-v1/blkio: update for 5.x kernels
+         33d5bbc5460d95fa948098472009b2777bfb04c4 Merge branch 'for-5.14/block' into for-next
          
