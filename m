@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 16 Jun 2021 19:20:44 -0000
-Message-Id: <162387124437.30356.7765398191104275971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 16 Jun 2021 19:21:21 -0000
+Message-Id: <162387128190.30753.15007640665989814993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: f7246bdb3d7d85941efdc828802e9a48012f24f5
-    new: 56a967c4f7e5fed2e66d90906ff5956abf69364a
+    old: a4f0377db1254373513b992ff31a351a7111f0fd
+    new: 8f269102baf788aecfcbbc6313b6bceb54c9b990
     log: |
-         56a967c4f7e5fed2e66d90906ff5956abf69364a net: qualcomm: rmnet: Remove some unneeded casts
+         8f269102baf788aecfcbbc6313b6bceb54c9b990 net: stmmac: disable clocks in stmmac_remove_config_dt()
          
