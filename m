@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 16 Jun 2021 19:13:11 -0000
-Message-Id: <162387079146.23356.17013476457052453882@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 19:16:28 -0000
+Message-Id: <162387098814.25986.5660931107393309787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 61273f9d83148a38cf9b78d43016c29fc80f48e5
-    new: c2ae34a7deaff463ecafb7db627b77faaca8e159
+    old: c2ae34a7deaff463ecafb7db627b77faaca8e159
+    new: d917c35a451e4ebba5c12a51c92cbddce958c91e
     log: |
-         c2ae34a7deaff463ecafb7db627b77faaca8e159 net: hsr: don't check sequence number if tag removal is offloaded
+         d917c35a451e4ebba5c12a51c92cbddce958c91e net: qualcomm: rmnet: Allow partial updates of IFLA_FLAGS
          
