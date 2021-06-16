@@ -1,78 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============7108795604294344588=="
+Content-Type: multipart/mixed; boundary="===============6029975872637937124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 16 Jun 2021 07:21:57 -0000
-Message-Id: <162382811716.9298.12849726391483795426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 16 Jun 2021 07:22:59 -0000
+Message-Id: <162382817983.9713.6399900225087037965@gitolite.kernel.org>
 
---===============7108795604294344588==
+--===============6029975872637937124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 99289bf1a76c0aea6ac0f77335b8c9bdca16aac7
-    new: d495dd743d5ecd47288156e25c4d9163294a0992
-    log: revlist-99289bf1a76c-d495dd743d5e.txt
+  - ref: refs/heads/staging-next
+    old: e02a3b945816a77702a2769a70ef5f9b06e49d54
+    new: 5b4f167ef3555ec4c334a8dc89c1b44bb2c6bff5
+    log: revlist-e02a3b945816-5b4f167ef355.txt
 
---===============7108795604294344588==
+--===============6029975872637937124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623828116 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1623828116-cb570a7045629c5829b8609c08ae197672ccf75a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623828179 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1623828178-73773958000fb2b421fbe4aed9f342462c09c298
 
-99289bf1a76c0aea6ac0f77335b8c9bdca16aac7 d495dd743d5ecd47288156e25c4d9163294a0992 refs/heads/tty-next
+e02a3b945816a77702a2769a70ef5f9b06e49d54 5b4f167ef3555ec4c334a8dc89c1b44bb2c6bff5 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDJppQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RxIQAJrfGjao2kxsqFPZa1g2
-mwg1PWN3vwKodLppZ1sF+PKi4B6ZeVyIo5jEZX7yQGaSBLhKrVhFCG3OHwb6hZ3i
-pHyF7bnyPW4LzR13TgH9iOwODN79N0iUrGZz2Sh0xZNZeVi8mO96CggJQp/9ZSgZ
-Vk4B0V6d1QDJLRK6Wn4S+gT+4571woB0zwCAA0FgBXUGJGVGT8W8BV+tvV+xl4Rr
-cI3PihnDXJS7Ff+RAaUaLSWsoWhFA+lcC6EhXDCSXskuAwLv6JZk51MBXuLGlVgq
-5jXQnZKsP76Q47NFwIxhoMt1z6e0lzYVaRV1u1tliMhFwazUYs1Fsjx5ucCFL3an
-VO5Spo6YQayXLJV3gvbsHyNrDnsPd3lbQcCxKko7nwplruco2nLu0dF0P0KeZITl
-MjXZ1MszXkjgS1zJjQ/b75KzP2h4vMJAU1/U1scFNKpCe27AIUB9ZcQR7EKKE2vF
-x05JdB7ehjfClQibygFmVI2FeRf1jJlZZCsGhyosFdqSLHltug+DVLvEn0dqTuNs
-9xCLdKIq6njGPNcnKkhhUfnmX2sJwRdVCGR73hMxEJTHtpvq7Q6SAPDvv6o8sD6V
-8eGrp9F2Ms5S38iZCR3AHAkBsLmGrbuHrKb+3LjR3vH/ucFA5guMTqko9Ws+1cxB
-zaYBtcZNFS8dFDCSm+xUvdWv
-=ufa4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDJptMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2bUP/3JXYB2bz3I1KgFebMK3
+23KVkJ6/R9sJ6ousFQ0oixu7gWMc0ApOV+PPhoukd88uRMPxxRmayvgyH/lORgH6
+0K20KeKRDTFmu81HhmDOONlrTCK8Qhfft9Xfi4SdA/XequHWL2h4FdZOFlPH8NiF
+wV0SzjXr07sIS5rlpYwB4ElzkkH6XcY1gWBPAf0SmfDCNFbVG6Z4OT0/MraCvu2I
+9WavDZvg8TfNtxoeatLtVr6PO8Ii/IY/2kR70js1qGa+seO04EpDVqvPEwMZgnFB
+c+Q+5ou0m/KXXyOA0OS4tqHKlY/mGO2jIg8EJw2QTr6YDpOl5EyvU1Y3pbvv0fre
+0m1fZkrZSSQjnxzxB12tELrWTrofMuNKe7/kEGgCqon9aCEaDFWpsdcwwB4HoKz6
+Trvu8zmD1NTwZrrBmP73L3PqZXs5kehumza2OYN2RIepX2mXeQVFWvFw7rcttuuw
+mbCOh5FpBL1ucFrozcONgFcqUns4gfG5gbWyhs6tmiZAJcQ71TE/5DrRSQT2Liqg
+N4Pg2gtqNA+B9F6PLBlEg1PnLeqHNi82BHGx4uI6HdpFA3aoV/NPT3qiCb+xVyBP
+SCgk97IXXp/6JWz1/xYFxNyoFc0HPhE1dSsY+zMXLOt2kwQ+GgP1L5VzAu5YFbpV
+Edy6xKEDNkZ6BFALQL8uiDl7
+=M2jd
 -----END PGP SIGNATURE-----
 
---===============7108795604294344588==
+--===============6029975872637937124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99289bf1a76c-d495dd743d5e.txt
+Content-Disposition: attachment; filename=revlist-e02a3b945816-5b4f167ef355.txt
 
-08a84410a04f05c7c1b8e833f552416d8eb9f6fe serial: sh-sci: Stop dmaengine transfer in sci_stop_tx()
-af9a1f61ac331c2f910d9186767d02f8e982c38e serial: tegra-tcu: Reorder channel initialization
-a7770a4bfcf4e6dea406304c2386c6a9505e9999 serial: stm32: defer probe for dma devices
-fb524360f52228201b56149a138369da505141a2 ipwireless: remove unused ipw_tty::closing
-654ee49b7e0883e660be6e6e20876fc4cbdaadd1 tty: make tty_get_{char,frame}_size available
-8ea43acc690ca2fe88500356f25c431d25f8a0bb mxs-auart: redefine AUART_LINECTRL_WLEN to accept bits count
-d8f0209bfedb801d06a81a74b003a882dee3ea3f cypress_m8: switch data_bits to real character bits
-3ec2ff37230e1c961d4b0d0118dd23c46b5bcdbb tty: make use of tty_get_{char,frame}_size
-f771a34b141124a68265f91acae34cdb08aeb9e0 serial: 8250: Dissociate 4MHz Titan ports from Oxford ports
-6cbe45d8ac9316ceedd0749759bd54caf03f7012 serial: 8250: Correct the clock for OxSemi PCIe devices
-1882441cd788a496b378f4d2684fa66cec195051 dt-bindings: serial: Move omap-serial.txt to YAML schema
-b1691bd04952bc6cbb7d75b1758c73942133c8ba serial: 8250: Document SMSC Super I/O UART peculiarities
-78bcae8616ac277d6cb7f38e211493948ed73e30 serial: 8250: Actually allow UPF_MAGIC_MULTIPLIER baud rates
-f7adc73878187be895e8790033cea1fb59ffbc16 serial: 8250: Handle custom baud rates in UPF_MAGIC_MULTIPLIER range
-788847839873ebe9fdf107f86e7e9928515ffbee MIPS: Malta: Enable magic multipliers for Super I/O UARTs
-11b1d881a90fc184cc7d06e9804eb288c24a2a0d serial_cs: remove wrong GLOBETROTTER.cis entry
-d495dd743d5ecd47288156e25c4d9163294a0992 serial_cs: Add Option International GSM-Ready 56K/ISDN modem
+6d400d7cee386adba1c9428865cf1c59f6f92aed staging: unisys: visorhba: Convert module from IDR to XArray
+9a6780227ece18b6ad1ae6514a46a6850dfa9971 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_efuse.c
+ba82ad78925b84c91aa618d74e5c4493418f6658 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_xmit.c
+e83e5dbbf4b79255cbda59522f8bcbda50d26f56 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_mlme_ext.c
+857c3a9e690f6aa6e8e56a3e0edd531a10ff2953 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_wlan_util.c
+31a0e87fbff2adf7e66beeb98dcd8f6af156f1bc staging: rtl8188eu: remove all DBG_88E calls from core/rtw_ap.c
+77555d49a37ba27ed020e9729a6233e508081cdb staging: rtl8188eu: remove all DBG_88E calls from core/rtw_pwrctrl.c
+000d5887ae4b3f35ec80434e71525e54e8c95165 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_ieee80211.c
+847b23462b719e48d518f7b8d104a2e6222c5af5 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_security.c
+089b7e431538cea0789302d074bc4ee383f5ae48 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_ioctl_set.c
+2bcb099dcc64a243d415f0c065a87ad0be227fa9 staging: rtl8188eu: remove all DBG_88E calls from core/rtw_mlme.c
+f4a0ab46339c8cab92c38c652e387c0afa1cd435 staging: rtl8188eu: remove all DBG_88E calls from os_dep/ioctl_linux.c
+4a9b797466903e627ee2d431f77b2fc3e0746d6e staging: rtl8188eu: remove all DBG_88E calls from os_dep/usb_intf.c
+8379df4f375514b8cb8dacbe983a5cab54239dd4 staging: rtl8188eu: remove all DBG_88E calls from os_dep/os_intfs.c
+d3a5c77af7ec0eb98ae9fd09356035cba79092ac staging: rtl8188eu: remove all DBG_88E calls from os_dep/mlme_linux.c
+de7711881eb45463f01e467b21256c5e5417b39d staging: rtl8188eu: remove all DBG_88E calls from os_dep/xmit_linux.c
+f7d851054ac9b4e92652ae1212b8cf55376f6614 staging: rtl8188eu: remove all DBG_88E calls from os_dep/rtw_android.c
+f8b15397b14d210a66ee0529d939761f1e730bb0 staging: rtl8188eu: remove all DBG_88E calls from hal/hal_intf.c
+9a5ad3a2a4e6f948efbc5f4ddde8190dc25d2058 staging: rtl8188eu: remove all DBG_88E calls from hal/rtl8188e_cmd.c
+90da970c55c1e766e53f58eea3275cd385144744 staging: rtl8188eu: remove all DBG_88E calls from hal/pwrseqcmd.c
+325eabd92d46700e0be571435bb713b16921c246 staging: rtl8188eu: remove all DBG_88E calls from hal/rtl8188e_hal_init.c
+574e725d7330261f0d81afc613d5b890c466b76f staging: rtl8188eu: remove all DBG_88E calls from hal/rtl8188e_xmit.c
+b3ccfe3f22011faf456b563a329d67f9d6265472 staging: rtl8188eu: remove all DBG_88E calls from hal/usb_halinit.c
+8e2b258baabb1826d475275dec4d62afb117cc78 staging: rtl8188eu: remove all DBG_88E calls from hal/rtl8188eu_recv.c
+e04bd12f265ba63a7149981eb87674978a506cfd staging: rtl8188eu: remove all DBG_88E calls from hal/rtl8188eu_xmit.c
+7e5bcf11e329d526fba77cb797ebb210987ae6c5 staging: rtl8188eu: remove converted netdev_dbg calls from core/rtw_recv.c
+cfdff814cdbd9f3c620faf11f18d171ede16978f staging: rtl8188eu: remove converted netdev_dbg calls from core/rtw_sta_mgt.c
+2b1b85f0dae0228f1f677ac62723b2331988e5cc staging: rtl8188eu: remove core/rtw_debug.c
+d3cfc3dd40b4bb2e44ca3dbce35e813608b1b601 staging: rtl8188eu: remove DBG_88E macro definition
+a22bda6df28ce1fd197598a9e2613c7693dc5df1 staging: rtl8723bs: remove unused debug macro
+6f8b3e04bfa671d6f3818f449cb581efbfd0a732 staging: rtl8723bs: remove unneeded comments
+298a52a37ab7e48ce2804841073c34bba576ccf5 staging: rtl8723bs: remove unused WAKEUP_GPIO_IDX macro definition
+bb1c456d7f88b60b28b9f51e28031fc67cdb8d7b staging: rtl8723bs: remove unneeded DISABLE_BB_RF macro
+b4e1882d750facd317ac2572d6bf36a05b0b0c36 staging: rtl8723bs: remove HAL_{BB,MAC,RF,FW}_ENABLE macros
+414ce135c4223d59bca4f0e92d27cce64bff8309 staging: rtl8723bs: move LPS_RPWM_WAIT_MS macro
+56addfb0893c02d2b046d682a5cef1d8a76b574a staging: rtl8723bs: remove include/autoconf.h header file from tree
+e0878ad49938cf74260b95fbe6026631b8e754f8 staging: rtl8723bs: remove two unused files from tree
+222b27713d7f7e189cca30ccdcee8e1f953d2c9f MIPS: ralink: Define PCI_IOBASE
+b15606e63ea90ced5044bd2007fd7b54298ce293 staging: mt7621-pci: remove 'mt7621_pci_parse_request_of_pci_ranges'
+5b4f167ef3555ec4c334a8dc89c1b44bb2c6bff5 staging: mt7621-dts: fix pci address for PCI memory range
 
---===============7108795604294344588==--
+--===============6029975872637937124==--
