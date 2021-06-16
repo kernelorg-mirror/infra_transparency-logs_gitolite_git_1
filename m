@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 16 Jun 2021 15:11:56 -0000
-Message-Id: <162385631676.23115.4048977992234886239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-tools
+Date: Wed, 16 Jun 2021 15:13:22 -0000
+Message-Id: <162385640246.23701.11589099720054949622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/colyli/bcache-tools
+user: colyli
 changes:
-  - ref: refs/heads/dev.2021.06.15a
-    old: 0000000000000000000000000000000000000000
-    new: aec6e1b943147877a3f08e73426ae903362758a7
+  - ref: refs/heads/master
+    old: 0c9c733b9d4e522eafee12b634c7058dfd1bcb05
+    new: b8680813238da9fc027051e36bc3957dbdda695c
+    log: |
+         b8680813238da9fc027051e36bc3957dbdda695c bcache-tools: only discard cache device during making when discard is enabled
+         
