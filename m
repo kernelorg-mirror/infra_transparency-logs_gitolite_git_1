@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 16 Jun 2021 19:19:10 -0000
-Message-Id: <162387115038.27252.3760370372707734596@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 19:20:44 -0000
+Message-Id: <162387124437.30356.7765398191104275971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a4fc566543c0dede64b85ca907f34a5d19636292
-    new: f7246bdb3d7d85941efdc828802e9a48012f24f5
+    old: f7246bdb3d7d85941efdc828802e9a48012f24f5
+    new: 56a967c4f7e5fed2e66d90906ff5956abf69364a
     log: |
-         f7246bdb3d7d85941efdc828802e9a48012f24f5 net: iosm: remove the repeated declaration and comment
+         56a967c4f7e5fed2e66d90906ff5956abf69364a net: qualcomm: rmnet: Remove some unneeded casts
          
