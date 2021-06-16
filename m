@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4070804611519196674=="
+Content-Type: multipart/mixed; boundary="===============9216694134826872910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 16 Jun 2021 21:58:30 -0000
-Message-Id: <162388071047.6734.14691312809296460035@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 21:58:40 -0000
+Message-Id: <162388072034.6828.16535894852042755761@gitolite.kernel.org>
 
---===============4070804611519196674==
+--===============9216694134826872910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 113af8e6f457bedc700bdcfc6848e3451394d74f
-    new: 6a92e3f9e81b6203a81d3e8aa0ad9288e26948d5
-    log: revlist-113af8e6f457-6a92e3f9e81b.txt
+  - ref: refs/heads/for-next
+    old: 3ba3a3f77e4fe43d4a8bd538c7207161ac519102
+    new: ce421e6520608d4161f9b04b80540117c9cb18f5
+    log: revlist-3ba3a3f77e4f-ce421e652060.txt
 
---===============4070804611519196674==
+--===============9216694134826872910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-113af8e6f457-6a92e3f9e81b.txt
+Content-Disposition: attachment; filename=revlist-3ba3a3f77e4f-ce421e652060.txt
 
+e73a99f3287a740a07d6618e9470f4d6cb217da8 s390/ap: Fix hanging ioctl caused by wrong msg counter
+f73fc4d7f021ce76b319de7b612c66b1ce45e0c2 s390: fix system call restart with multiple signals
+3e7e01631517971d9be50d6c9414231bea10a986 s390: clear pt_regs::flags on irq entry
+b815c215c9b1abe172a0bb7596ffc9eeb3dacd65 s390/vfio-ap: clean up mdev resources when remove callback invoked
 df6f508c68dbc65def0098cbdf8de7683ae551d2 s390/ap/zcrypt: notify userspace with online, config and mode info
 b5415c8f9755069640aad184293198bcf794f66d s390/entry.S: factor out OUTSIDE macro
 6236172d2d1e39b91bfefc396b50ba2275b437dc s390: setup kernel memory layout early
@@ -57,5 +61,7 @@ c86103076895ec7b2199357dc380dfefb7aa95ca s390/maccess: use register pair instead
 24c55c54e4933a44769c8222e63b67272e9e2bcf s390/sclp: convert list_for_each to entry variant
 5728d3781365ea6b86ec190560e805a86dec365d s390/decompressor: correct BOOT_HEAP_SIZE condition
 6a92e3f9e81b6203a81d3e8aa0ad9288e26948d5 s390/boot: add zstd support
+7c17553efcf046d37e8653763fcd044e0660a0f4 Merge branch 'fixes' into for-next
+ce421e6520608d4161f9b04b80540117c9cb18f5 Merge branch 'features' into for-next
 
---===============4070804611519196674==--
+--===============9216694134826872910==--
