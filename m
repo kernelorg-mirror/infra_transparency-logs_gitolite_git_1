@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 16 Jun 2021 05:25:55 -0000
-Message-Id: <162382115590.30246.3647738448592403484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 16 Jun 2021 05:27:32 -0000
+Message-Id: <162382125210.30918.802106555049007015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/cpufreq/cppc
-    old: 53e28b57e0b7a3a49b618dca7b5cd7684bc68358
-    new: bb82c5afc79ae08a99f62b40c45e5bbff66bb8e3
+  - ref: refs/heads/master
+    old: fd543ef525e8b1254bff4186a4f6a25d604ed4f8
+    new: 94f0b2d4a1d0c52035aef425da5e022bd2cb1c71
     log: |
-         2ffbaf079a21c2810c402cb5bba4e9c14c4a0ff4 cpufreq: Add start_cpu() and stop_cpu() callbacks
-         9dba462b4d09a1a8a9fbb75740b74bf91a09a3e1 arch_topology: Avoid use-after-free for scale_freq_data
-         bb82c5afc79ae08a99f62b40c45e5bbff66bb8e3 cpufreq: CPPC: Add support for frequency invariance
+         a33d62662d275cee22888fa7760fe09d5b9cd1f9 afs: Fix an IS_ERR() vs NULL check
+         94f0b2d4a1d0c52035aef425da5e022bd2cb1c71 proc: only require mm_struct for writing
          
