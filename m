@@ -1,122 +1,203 @@
-Content-Type: multipart/mixed; boundary="===============5414992585159649910=="
+Content-Type: multipart/mixed; boundary="===============1203493132740350569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 16 Jun 2021 23:47:44 -0000
-Message-Id: <162388726439.15409.4747113681108039589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Wed, 16 Jun 2021 23:51:25 -0000
+Message-Id: <162388748597.19546.1222224263536619467@gitolite.kernel.org>
 
---===============5414992585159649910==
+--===============1203493132740350569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0fb695405d6a624582cb07f8009f37ccae78c250
-    new: 3a99bf3cea7b8d186755211b86437acc7e44e90b
-    log: revlist-0fb695405d6a-3a99bf3cea7b.txt
+  - ref: refs/heads/master
+    old: 009c9aa5be652675a06d5211e1640e02bbb1c33d
+    new: e0d2d97b5477f332430e716681a65f5c3f7fc880
+    log: revlist-009c9aa5be65-e0d2d97b5477.txt
+  - ref: refs/heads/xfs-merge-5.14
+    old: 7e4311b04be46b71a2008d6922da60d08d05b8bb
+    new: 742fa8782b8680656441b698862505d8edb3d647
+    log: revlist-7e4311b04be4-742fa8782b86.txt
+  - ref: refs/heads/random-fixes-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 787cfda29b7d00fdaf453240ad59983d40250092
+  - ref: refs/heads/log-recovery-fixes-5.14
+    old: 0000000000000000000000000000000000000000
+    new: e320a034b7f6b427b642b21e51eda8deedccaf01
+  - ref: refs/tags/log-recovery-fixes-5.14_2021-06-16
+    old: 0000000000000000000000000000000000000000
+    new: c52c5c3af16ee4148b29a73098881cc246fd7e68
+  - ref: refs/tags/random-fixes-5.14_2021-06-16
+    old: 0000000000000000000000000000000000000000
+    new: e2a6f802c4cecb2877bf298240739cee7c14a81a
+  - ref: refs/tags/xfs-merge-5.14_2021-06-16
+    old: 0000000000000000000000000000000000000000
+    new: 0876ebf0068f5b32cea0670ac4627e364b09953e
 
---===============5414992585159649910==
+--===============1203493132740350569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fb695405d6a-3a99bf3cea7b.txt
+Content-Disposition: attachment; filename=revlist-009c9aa5be65-e0d2d97b5477.txt
 
-11fc79fc9f2e395aa39fa5baccae62767c5d8280 libbpf: Fixes incorrect rx_ring_setup_done
-1adb20f0d496b2c61e9aa1f4761b8d71f93d258e net: stmmac: dwmac1000: Fix extended MAC address registers definition
-ea6932d70e223e02fea3ae20a4feff05d7c1ea9a net: make get_net_ns return error if NET_NS is disabled
-4f667b8e049e716a0533fc927f50310fe6e40d22 sch_cake: revise docs for RFC 8622 LE PHB support
-994c393bb6886d6d94d628475b274a8cb3fc67a4 net: qualcomm: rmnet: don't over-count statistics
-e175aef902697826d344ce3a12189329848fe898 ethtool: strset: fix message length calculation
-cb3376604a676e0302258b01893911bdd7aa5278 qlcnic: Fix an error handling path in 'qlcnic_probe()'
-49a10c7b176295f8fafb338911cf028e97f65f4d netxen_nic: Fix an error handling path in 'netxen_nic_probe()'
-09427c1915f754ebe7d3d8e54e79bbee48afe916 cxgb4: fix wrong ethtool n-tuple rule lookup
-58af3d3d54e87bfc1f936e16c04ade3369d34011 net: caif: fix memory leak in ldisc_open
-b87b04f5019e821c8c6c7761f258402e43500a1f ipv4: Fix device used for dst_alloc with local routes
-ad9d24c9429e2159d1e279dc3a83191ccb4daf1d net: qrtr: fix OOB Read in qrtr_endpoint_post
-995fca15b73ff8f92888cc2d5d95f17ffdac74ba Bluetooth: SMP: Fix crash when receiving new connection when debug is enabled
-45deacc731d73de7495e3004f7d8d92eb4c1d9eb Merge tag 'for-net-2021-06-14' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth Luiz Augusto von Dentz says:
-d203b0fd863a2261e5d00b97f3d060c4c2a6db71 bpf: Inherit expanded/patched seen count from old aux data
-fe9a5ca7e370e613a9a75a13008a3845ea759d6e bpf: Do not mark insn as seen under speculative path verification
-9183671af6dbf60a1219371d4ed73e23f43b49db bpf: Fix leakage under speculation on mispredicted branches
-973377ffe8148180b2651825b92ae91988141b05 bpf, selftests: Adjust few selftest outcomes wrt unreachable code
-2214fb53006e6cfa6371b706070cb99794c68c3b net: mhi_net: Update the transmit handler prototype
-475b92f932168a78da8109acd10bfb7578b8f2bb ptp: improve max_adj check against unreasonable values
-e34492dea68d4f09e9989e518fc76cd41909d707 net: inline function get_net_ns_by_fd if NET_NS is disabled
-c1a3d4067309451e68c33dbd356032549cc0bd8e net: cdc_ncm: switch to eth%d interface naming
-057d49334c02a79af81c30a8d240e641bd6f1741 qmi_wwan: Do not call netif_rx from rx_fixup
-7ea6cd16f1599c1eac6018751eadbc5fc736b99a lantiq: net: fix duplicated skb in rx descriptor ring
-a4f0377db1254373513b992ff31a351a7111f0fd Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-2030043e616cab40f510299f09b636285e0a3678 can: j1939: fix Use-after-Free, hold skb ref while in use
-8d0caedb759683041d9db82069937525999ada53 can: bcm/raw/isotp: use per module netdevice notifier
-5e87ddbe3942e27e939bdc02deb8579b0cbd8ecc can: bcm: fix infoleak in struct bcm_msg_head
-91c02557174be7f72e46ed7311e3bea1939840b0 can: mcba_usb: fix memory leak in mcba_usb
-8f269102baf788aecfcbbc6313b6bceb54c9b990 net: stmmac: disable clocks in stmmac_remove_config_dt()
-56b786d86694e079d8aad9b314e015cd4ac02a3d net: usb: fix possible use-after-free in smsc75xx_bind
-cb3cefe3f3f8af27c6076ef7d1f00350f502055d net: fec_ptp: add clock rate zero check
-d23765646e71b43ed2b809930411ba5c0aadee7b net: fec_ptp: fix issue caused by refactor the fec_devtype
-c0d982bf825f81d86f4f0b44436c255873881c19 Merge branch 'fec-ptp-fixes'
-d8e2973029b8b2ce477b564824431f3385c77083 net: ipv4: fix memory leak in ip_mc_add1_src
-e82a35aead2fd6d6df461291e634be07f71364b9 Merge tag 'linux-can-fixes-for-5.13-20210616' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-c7d2ef5dd4b03ed0ee1d13bc0c55f9cf62d49bd6 net/packet: annotate accesses to po->bind
-e032f7c9c7cefffcfb79b9fc16c53011d2d9d11f net/packet: annotate accesses to po->ifindex
-1d2ac2033d790f5deaf3d6edfff6a4d901949de2 Merge branch 'net-packet-data-races'
-0fd158b89b50b3a31c97a639ff496e1c59686e97 selftests: net: veth: make test compatible with dash
-a494bd642d9120648b06bb7d28ce6d05f55a7819 net/af_unix: fix a data-race in unix_dgram_sendmsg / unix_release_sock
-1b29df0e2e802cb15a5196c936f494161ec97502 selftests: net: use bash to run udpgro_fwd test case
-99718abdc00e86e4f286dd836408e2834886c16e r8152: Avoid memcpy() over-reading of ETH_SS_STATS
-224004fbb033600715dbd626bceec10bfd9c58bc sh_eth: Avoid memcpy() over-reading of ETH_SS_STATS
-da5ac772cfe2a03058b0accfac03fad60c46c24d r8169: Avoid memcpy() over-reading of ETH_SS_STATS
-60ca2eddb6ddbae167c63c06dcb8b194f3d5c9ec checkpatch: Fix warnings when --no-tree is used
-411cd218c9c00554599d59849d2064b64475f5cf checkpatch.pl: seed camelcase from the provided kernel tree root
-de5558af5d891da6f5488b00d8a80e06d6c278d5 ice: Fix a couple off by one bugs
-8c6f4441f53c4ea5511dca418474939a1593c875 iavf: Fix asynchronous tasks during driver remove
-515fcc89dbef1d7b11c8daae2852db5f547190aa i40e: Fix correct max_pkt_size on VF RX queue
-a2a129408f8014212e4a724a847219e904ae6933 iavf: Fix return of set the new channel count
-2b79e3f064a6e950348f794f5b9b40c016d49215 i40e: Fix NULL ptr dereference on VSI filter sync
-e5c96743cd799c8b28d98553188595bddd5c49aa ice: Fix VF true promiscuous mode
-514c0fbbd9987f1e77d87cbd821ff940238e3c9f i40e: Fix error handling in i40e_vsi_open
-43e0a3933e99ad9c4871dc4906851d0787a1371f i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-6b4c1f697fb2f3095ae85b88e007f2e0ed6e32ea i40e: improve locking of mac_filter_hash
-5d3dacd64994e4ea03e5ee7153e1e7a8bfa43926 i40e: Fix autoneg disabling for non-10GBaseT links
-5ef92af5d421e6b5a113c4d5d0cbbd7d5a6861d2 igb: Check if num of q_vectors is smaller than max before array access
-7c5b59bef77abffe0c346bc3602f3aafb9ce5274 ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
-100e3b911bc87e1cdb2d8d9812093af64e563e7f i40e: Fix warning message and call stack during rmmod i40e driver
-7d44b49e8fc6a89ce26366a04535fffe25d6d1b8 i40e: Fix logic of disabling queues
-f7475c9986bd82194148fda808b6cabfaaa57489 ice: Remove toggling of antispoof for VF trusted promiscuous mode
-fc4c5a6e677229c328e1654a9ae42aec7b03d04d ice: fix FDIR init missing when reset VF
-068c8692447d7270a5ee8f74066081550a0d35c7 igb: fix netpoll exit with traffic
-18ae0afb4b3946e23930710ea55bf2eb6956262e i40e: fix PTP on 5Gb links
-9d6eacde5e81b67a827aa66e185c141f2f3f34b1 igc: Fix user-after-free error during reset
-e8fa240051f058eadd0fe2ce2456d33c4e68f9e0 igb: Fix user-after-free error during reset
-5d68ebceb327b0339dae484587ccba82bb89eea6 i40e: Fix failed opcode appearing if handling messages from VF
-c2acbc603ff800b6a214372149bee42f2480f1f4 i40e: Fix firmware LLDP agent related warning
-3dbd780450bc4be3eed6b80d84dde94523e9a127 igc: change default return of igc_read_phy_reg()
-d4968fa15b18f9617aec292b4c5458bac123a45a ixgbe: Fix packet corruption due to missing DMA sync
-abd81d27405599851b1ab9e2b8a287ac74282553 i40e: Fix queue-to-TC mapping on Tx
-214f0080647fa73144f68a89cf776e52ada57a97 iavf: check for null in iavf_fix_features
-f886e8d616e251763cc1e31447ca167f901c6057 iavf: free q_vectors before queues in iavf_disable_vf
-6be321e7b9e5c86e4527d2d025ff9f5ee2c34fab iavf: don't clear a lock we don't hold
-3af2f431d24d4ea8af3b5e913d4ecc0936ca4ac2 iavf: Fix failure to exit out from last all-multicast mode
-cf1d233a945baa927dd5424a35db111b2ab62d7a iavf: prevent accidental free of filter structure
-07b6a9d6118b97c2dca9dc8f1bd70ea2a0af99fb iavf: validate pointers
-3a85a862f014876cdafb965fa1b0d69146756de2 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
-bb1b4968fd41471d4d32f5274f1db3e25b16e4fb iavf: Fix for setting queues to 0
-d7731e44f144563584e1e9ebf5883954dd6d2cdf e1000e: Check the PCIm state
-672c677073703582f5b2c20aa708c32355c42180 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
-4dc912bd6f894af9bee953b70aace1dd43ae72a3 igb: Fix position of assignment to *ring
-d284b15b6d548bd2a45e294868d6a58255308c62 ixgbe: xsk: fix for metasize when construct skb by xdp_buff
-24e460c167c78cb92c9807c2f6a4e34f51768014 i40e: Fix missing rtnl locking when setting up pf switch
-fbb6fd7e7632183049d4e9a911d83b564be14327 ixgbe: Fix an error handling path in 'ixgbe_probe()'
-e96c575734b53ba787e9b1406a233e4a3020f84b igc: Fix an error handling path in 'igc_probe()'
-42d6542ac3667087c4e71f8bbc4a2a7cb7a6680c igb: Fix an error handling path in 'igb_probe()'
-cf6416de587dbe4ec958142525fe52d9891c5327 ice: do not abort devlink info if PBA can't be found
-4a75040026e5d57dcbb795df4f656d745a96ec15 fm10k: Fix an error handling path in 'fm10k_probe()'
-6bde0bbe3a4fd5c4d3ace3e61da268c0436521a2 e1000e: Fix an error handling path in 'e1000_probe()'
-3a99bf3cea7b8d186755211b86437acc7e44e90b iavf: Fix an error handling path in 'iavf_probe()'
+0a683794ace283984ae95ea6796f37b5f3afc446 xfs: split up xfs_buf_allocate_memory
+07b5c5add42a0afccf79401b12d78043ed6b8240 xfs: use xfs_buf_alloc_pages for uncached buffers
+c9fa563072e13337713a441cf30171feb4e96e6d xfs: use alloc_pages_bulk_array() for buffers
+02c5117386884e06b6e78b72288f1e0af4320dc1 xfs: merge _xfs_buf_get_pages()
+e7d236a6fe5102092c463112124cf52e4d71885e xfs: move page freeing into _xfs_buf_free_pages()
+4126c06e25b38842a254b2de6ffc3019a7b2f0ca xfs: Reverse apply 72b97ea40d
+a8490f699f6ec88843879b92cbb21953dab379ee xfs: Add xfs_attr_node_remove_name
+6286514b63e12d7bedc67e46aa1aeff9ed8378ce xfs: Refactor xfs_attr_set_shortform
+f0f7c502c728d0c6947219739631bad101f8737b xfs: Separate xfs_attr_node_addname and xfs_attr_node_addname_clear_incomplete
+6ca5a4a1f52952790a40099b79b5631d91163ba4 xfs: Add helper xfs_attr_node_addname_find_attr
+5d954cc09f6baed80458ea02ec092031608ea3fe xfs: Hoist xfs_attr_node_addname
+83c6e70789ff371c4eebc54f2c8d979305a1bae8 xfs: Hoist xfs_attr_leaf_addname
+3f562d092bb1edd39bfc0e6808d7108d47f8aa3a xfs: Hoist node transaction handling
+2b74b03c13c444cb5af56804cc975534e2058d06 xfs: Add delay ready attr remove routines
+8f502a4009822a6972772ae65b34078645b3ba16 xfs: Add delay ready attr set routines
+0e6acf29db6f463027d1ff7cea86a641da89f0d4 xfs: Remove xfs_attr_rmtval_set
+4fd084dbbd05402bb6e24782b8e9f9ea3e8ab3d6 xfs: Clean up xfs_attr_node_addname_clear_incomplete
+a7bcb147fef39054fe324a1a988470f5da127196 xfs: clean up open-coded fs block unit conversions
+20bd8e63f30be23ff544d6bd77fc3b933464100b xfs: remove unnecessary shifts
+9bbafc71919adfdf83fafd2ce909853b493e7d86 xfs: move xfs_perag_get/put to xfs_ag.[ch]
+61aa005a5bd7705e0bdca8b40c694369d40fb93f xfs: prepare for moving perag definitions and support to libxfs
+07b6403a6873045344b0c18cbb4a4360854f6d76 xfs: move perag structure and setup to libxfs/xfs_ag.[ch]
+f250eedcf7621b9a56d563912b4eeacd524422c7 xfs: make for_each_perag... a first class citizen
+934933c3eec9e4a5826d3d7a47aca0742337fded xfs: convert raw ag walks to use for_each_perag
+6f4118fc6482b1989cdcb19a1a0ab53b2dca7ab9 xfs: convert xfs_iwalk to use perag references
+7f8d3b3ca6fe9269b3c5deee0dcea38499288e06 xfs: convert secondary superblock walk to use perags
+45d0662117565e6100f9e0cf356cd873542c95b1 xfs: pass perags through to the busy extent code
+30933120ad79f4549d6e364df7eda474cc0d9c65 xfs: push perags through the ag reservation callouts
+58d43a7e3263766ade4974c86118e6b5737ea259 xfs: pass perags around in fsmap data dev functions
+be9fb17d88f08af648a89784d30dbac83d893154 xfs: add a perag to the btree cursor
+fa9c3c197329fdab0efc48a8944d2c4a21c6a74f xfs: convert rmap btree cursor to using a perag
+a81a06211fb43d80ee746e7a40a32ed812002f8e xfs: convert refcount btree cursor to use perags
+289d38d22cd88960cb648dc480c50de5102519bb xfs: convert allocbt cursors to use perags
+7b13c515518264df0cb90d84fdab907a627c0fa9 xfs: use perag for ialloc btree cursors
+50f02fe3338d3fee6b298a1b262a4c562e7d84e0 xfs: remove agno from btree cursor
+4268547305c91b35ae7871374078de788a822ed1 xfs: simplify xfs_dialloc_select_ag() return values
+89b1f55a2951bb89b7ae9f8cb3fd11513ff3f219 xfs: collapse AG selection for inode allocation
+b652afd937033911944d7f681f2031b006961f1d xfs: get rid of xfs_dir_ialloc()
+309161f6603ce1a53b76a42817cde2a9bcd17e82 xfs: inode allocation can use a single perag instance
+8237fbf53d6fd2a3a248fc2a8608e047ef22316c xfs: clean up and simplify xfs_dialloc()
+f40aadb2bb64fe0a3d9b59957e70796d629cdee2 xfs: use perag through unlink processing
+509201163fca3d4d906bd50a5320115d42818748 xfs: remove xfs_perag_t
+5f7fd75086203a8a4dd3e518976e52bcf24e8b22 xfs: sort variable alphabetically to avoid repeated declaration
+9673261c32dc2f30863b803374b726a72d16b07c xfs: Remove redundant assignment to busy
+5a981e4ea8ff8062e7c7ea8fc4a1565e4820a08b xfs: mark xfs_bmap_set_attrforkoff static
+977ec4ddf0b75b30afa443cf71ae80e20f501b15 xfs: don't take a spinlock unconditionally in the DIO fastpath
+7660a5b48fbef958d7383d873f07d7c10bc24126 xfs: log stripe roundoff is a property of the log
+5fd9256ce156ef7780f05c9ff0a5b9e2ed9f6679 xfs: separate CIL commit record IO
+944f2c49fba1cc4194390af8f422301482b41a3b xfs: remove xfs_blkdev_issue_flush
+db7e30204e4c2054c7c83fc095bc1ced1a73b780 xfs: async blkdev cache flush
+0279bbbbc03f2ce574c5754f90dfb36e29811bbd xfs: CIL checkpoint flushes caches unconditionally
+1ad2cfe0a57031505df682dc1e26922d9d43737f xfs: move the quotaoff dqrele inode walk into xfs_icache.c
+3ea06d73e3c02ee2952a62bf92abc18f9c98aba1 xfs: detach inode dquots at the end of inactivation
+df60019739d8850b865d313053d30aa93dc38a65 xfs: move the inode walk functions further down
+c1115c0cba2b82e71ec77e794c684ac87160fcf6 xfs: rename xfs_inode_walk functions to xfs_icwalk
+c809d7e948a131cba8fdf9fbd0b50e1f59255f50 xfs: pass the goal of the incore inode walk to xfs_inode_walk()
+b9baaef42f764db7089a19c82d2b783aef836437 xfs: separate the dqrele_all inode grab logic from xfs_inode_walk_ag_grab
+9d2793ceecb9fd711f70a860685b71129cac5dc9 xfs: move xfs_inew_wait call into xfs_dqrele_inode
+7fdff52623b4df9c9ae665fe8bb727978c29414e xfs: remove iter_flags parameter from xfs_inode_walk_*
+f427cf5c6236acdf72b4d8564b2e18937c4cc8d8 xfs: remove indirect calls from xfs_inode_walk{,_ag}
+d20d5edcf941e70e03cdbda2f8df93e3969c31a2 xfs: clean up inode state flag tests in xfs_blockgc_igrab
+594ab00b760f1722b800c45d37adc21eecf42dc1 xfs: make the icwalk processing functions clean up the grab state
+919a4ddb68413056ecb7c71d9d5465bb54c8032b xfs: fix radix tree tag signs
+9d5ee837595134f91bb2d66f571f498c3b8ab148 xfs: pass struct xfs_eofblocks to the inode scan callback
+f1bc5c5630f90b83b339e8970dcf6d03abba5bd5 xfs: merge xfs_reclaim_inodes_ag into xfs_inode_walk_ag
+c076ae7a9361b87624900c722012a837fee0b1b3 xfs: refactor per-AG inode tagging functions
+69d51e0e16864f944a12491850d0fd2ac5f3dfde xfs: remove need_start_rec parameter from xlog_write()
+cb1acb3f324636856cb65bd4857c981a15b7f4d4 xfs: journal IO cache flush reductions
+3682277520d6f4a34a265f495ca7cd987870858d xfs: Fix CIL throttle hang when CIL space used going backwards
+f39ae5297c5ce2f149d55abb35d53b0aaad75424 xfs: xfs_log_force_lsn isn't passed a LSN
+e12213ba5d909a3b1fb3716b198ed93d1af1f4be xfs: AIL needs asynchronous CIL forcing
+facd77e4e38b8f06657fb9eac56aaf9f1590f4ec xfs: CIL work is serialised, not pipelined
+877cf3473914ae48a21f5597924dd472353fde0a xfs: factor out the CIL transaction header building
+fa55689e031e0aa25173c45e783b3dba52196e96 xfs: only CIL pushes require a start record
+58adbf5268b185634afe6e36c372520e7e9881da xfs: embed the xlog_op_header in the unmount record
+1d4f4b375658aa9aa5484d93e110291982bd6cf8 xfs: embed the xlog_op_header in the commit record
+58e54b5e5dcc47bfec503b325a52c5e2d759dff6 xfs: log tickets don't need log client id
+695385a4aa7680262159267454be7b2e8ed53ca4 xfs: move log iovec alignment to preparation function
+b424a7fd981d6125a7d9da485b832679d8eec799 xfs: reserve space and initialise xlog_op_header in item formatting
+b61901c583240a9f6222e1716ec62300ee2f4a3d xfs: log ticket region debug is largely useless
+66fc9ffa8638be23829c4c41fdb17df43834f691 xfs: pass lv chain length into xlog_write()
+a8b8e1c74ea7d368f6ff23a202437867fbe1e9db xfs: introduce xlog_write_single()
+586359999f403f61ed418c2dc58fc3de0e288de0 xfs:_introduce xlog_write_partial()
+46eb52d3150c8bea3b87839be8742021cda908a4 xfs: xlog_write() no longer needs contwr state
+9373dd07362570a4590fec4a494e9510e84fab31 xfs: xlog_write() doesn't need optype anymore
+5e5591ab632a3707d765f57858e5890843eaaa7a xfs: CIL context doesn't need to count iovecs
+0d11bae4bcf4aa92728daf22caffaa4b46396c8e xfs: use the CIL space used counter for emptiness checks
+230b4cc9c9ccc9add19ac6bfefe81f2428d83ca6 xfs: lift init CIL reservation out of xc_cil_lock
+153bd5b5cd986bfc189543469a4a1e1706a1739d xfs: rework per-iclog header CIL reservation
+54cd3aa6f8102f4648190fc93eb5dd8603de9b52 xfs: remove ->b_offset handling for page backed buffers
+934d1076bb2c5bbb3d5b0e3892b208d1f537949d xfs: simplify the b_page_count calculation
+289ae7b48c2c4d9bec515e720c01146498109dee xfs: get rid of xb_to_gfp()
+170041f71596dad3f34dea40ee0ef0c848d3f906 xfs: cleanup error handling in xfs_buf_get_map
+8bcac7448a942fa4662441a310c97d47cec24310 xfs: merge xfs_buf_allocate_memory
+abb48085814358fc077c109f36fcb14a26fff1f7 xfs: introduce CPU hotplug infrastructure
+0e4c3e0ee4fda54ef9e1834b25df0dbf6b11dea0 xfs: introduce per-cpu CIL tracking structure
+a8613836d99e627d5151e923820ec9b4b19e6d18 xfs: implement percpu cil space used calculation
+57edd3f6599e1abe728ea9a468adcfce1b74ce1d xfs: track CIL ticket reservation in percpu structure
+7f3b7c463f00c996333a2924a043e202bf7088d9 xfs: convert CIL busy extents to per-cpu
+be05dd0e68ac9991ee0f3f30dd436e8c7579b5bd xfs: Add order IDs to log items in CIL
+1f18c0c4b78cfb191ddc01c9f34c2493315fd252 xfs: convert CIL to unordered per cpu lists
+a47518453bf9581ee3a46a8236f0e82ff8730d28 xfs: convert log vector chain to use list heads
+a1785f597c8b0608b093bb37c61ffe4a8689b149 xfs: move CIL ordering to the logvec chain
+02f1473ded55164495e71a32fc392f0adc22abfc xfs: avoid cil push lock if possible
+e469cbe84f4ade9c41a3a5c4f3d6c36ef364e54e xfs: xlog_sync() manually adjusts grant head space
+7017b129e69c1b451fa926f2cac507c4128608dc xfs: expanding delayed logging design with background material
+ebf2e3372332267419527574c25e7820018272c1 Merge tag 'xfs-buf-bulk-alloc-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.14-merge2
+c3eabd365034185840fdd26df21cdb03523f7e2b Merge tag 'xfs-perag-conv-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.14-merge2
+9ba0889e2272294bfbb5589b1b180ad2e782b2a4 xfs: drop the AGI being passed to xfs_check_agi_freecount
+f52edf6c54d94987e6bc1541d0fdea2f12e68064 Merge tag 'unit-conversion-cleanups-5.14_2021-06-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+8b943d21d40d5d7f8306e833b156f8d11094470f Merge tag 'assorted-fixes-5.14-1_2021-06-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+ffc18582ed18f1bb16da9ec38a792c7cbc3714a1 Merge tag 'inode-walk-cleanups-5.14_2021-06-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+255794c7ed7adb914e831f5e4905d783d31378d2 xfs: only reset incore inode health state flags when reclaiming an inode
+7975e465af6b46e9d0eaf94f764922dc92b28d9c xfs: drop IDONTCACHE on inodes when we mark them sick
+2d53f66baffde66fe72c360e3b9b0c8a2d7ce7c6 xfs: change the prefix of XFS_EOF_FLAGS_* to XFS_ICWALK_FLAG_
+9492750a8b18f02a8dec2aab594c59aabe2e4d0d xfs: selectively keep sick inodes in memory
+b26b2bf14f823e9597118c01993aeba9aeb9a701 xfs: rename struct xfs_eofblocks to xfs_icwalk
+295abff2fb940362814d12d513d8c443485183db Merge tag 'fix-inode-health-reports-5.14_2021-06-08' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+68b2c8bcdb813cd7e520e8cf54912a3280deb74d Merge tag 'rename-eofblocks-5.14_2021-06-08' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.14-merge2
+7e4311b04be46b71a2008d6922da60d08d05b8bb Merge tag 'xfs-cil-scale-2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.14-merge2-cil
+4a4957c16dc674d1306a3b43d6b07ed93a7b7a14 xfs: Fix default ASSERT in xfs_attr_set_iter
+816c8e39b7ea0875640312c9ed3be0d5a68d7183 xfs: Make attr name schemes consistent
+4123eea444ab91cdc95a332fa291c0a02dcad54e Merge tag 'xfs-delay-ready-attrs-v20.1' of https://github.com/allisonhenderson/xfs_work into xfs-5.14-merge2-cil-xattr
+78cb6ad1c12d84732fd94ca5478762b89288b070 xfs: perag may be null in xfs_imap()
+c185e2d3b728189d55b962df1e474a893c0a83a5 xfs: Fix 64-bit division on 32-bit in xlog_state_switch_iclogs()
+e0d2d97b5477f332430e716681a65f5c3f7fc880 xfs: remove redundant initialization of variable error
 
---===============5414992585159649910==--
+--===============1203493132740350569==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7e4311b04be4-742fa8782b86.txt
+
+4126c06e25b38842a254b2de6ffc3019a7b2f0ca xfs: Reverse apply 72b97ea40d
+a8490f699f6ec88843879b92cbb21953dab379ee xfs: Add xfs_attr_node_remove_name
+6286514b63e12d7bedc67e46aa1aeff9ed8378ce xfs: Refactor xfs_attr_set_shortform
+f0f7c502c728d0c6947219739631bad101f8737b xfs: Separate xfs_attr_node_addname and xfs_attr_node_addname_clear_incomplete
+6ca5a4a1f52952790a40099b79b5631d91163ba4 xfs: Add helper xfs_attr_node_addname_find_attr
+5d954cc09f6baed80458ea02ec092031608ea3fe xfs: Hoist xfs_attr_node_addname
+83c6e70789ff371c4eebc54f2c8d979305a1bae8 xfs: Hoist xfs_attr_leaf_addname
+3f562d092bb1edd39bfc0e6808d7108d47f8aa3a xfs: Hoist node transaction handling
+2b74b03c13c444cb5af56804cc975534e2058d06 xfs: Add delay ready attr remove routines
+8f502a4009822a6972772ae65b34078645b3ba16 xfs: Add delay ready attr set routines
+0e6acf29db6f463027d1ff7cea86a641da89f0d4 xfs: Remove xfs_attr_rmtval_set
+4fd084dbbd05402bb6e24782b8e9f9ea3e8ab3d6 xfs: Clean up xfs_attr_node_addname_clear_incomplete
+4a4957c16dc674d1306a3b43d6b07ed93a7b7a14 xfs: Fix default ASSERT in xfs_attr_set_iter
+816c8e39b7ea0875640312c9ed3be0d5a68d7183 xfs: Make attr name schemes consistent
+4123eea444ab91cdc95a332fa291c0a02dcad54e Merge tag 'xfs-delay-ready-attrs-v20.1' of https://github.com/allisonhenderson/xfs_work into xfs-5.14-merge2-cil-xattr
+78cb6ad1c12d84732fd94ca5478762b89288b070 xfs: perag may be null in xfs_imap()
+c185e2d3b728189d55b962df1e474a893c0a83a5 xfs: Fix 64-bit division on 32-bit in xlog_state_switch_iclogs()
+e0d2d97b5477f332430e716681a65f5c3f7fc880 xfs: remove redundant initialization of variable error
+59c5bff6aadbb71b1e37b5bd9984f1761468d134 xfs: refactor the inode recycling code
+03743ae9a07a4db24a94ce4a2c790d8dd998e993 xfs: attach dquots earlier in xfs_inactive()
+742fa8782b8680656441b698862505d8edb3d647 xfs: separate primary inode selection criteria in xfs_iget_cache_hit
+
+--===============1203493132740350569==--
