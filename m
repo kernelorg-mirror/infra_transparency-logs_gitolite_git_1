@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1048863615827165766=="
+Content-Type: multipart/mixed; boundary="===============0509037265499137534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 16 Jun 2021 15:28:36 -0000
-Message-Id: <162385731645.2500.14727847380925944680@gitolite.kernel.org>
+Message-Id: <162385731663.2513.6044046103787589382@gitolite.kernel.org>
 
---===============1048863615827165766==
+--===============0509037265499137534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 94ac998a27d889965ac32bba3169281d6986fd13
-    new: b45cb54aa780457be5e6c818e5698a7590ca8263
-    log: revlist-94ac998a27d8-b45cb54aa780.txt
+  - ref: refs/heads/linux-4.14.y
+    old: cfb41ef9deb1e6572ac218ddfcec9567e5d1c101
+    new: 5fea905d8e5c72c300985c91a797fe457bcdcd79
+    log: revlist-cfb41ef9deb1-5fea905d8e5c.txt
 
---===============1048863615827165766==
+--===============0509037265499137534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,45 +32,48 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623857315 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1623857315-b0caa002de08bcf6874d09ff9912180ba347a968
 
-94ac998a27d889965ac32bba3169281d6986fd13 b45cb54aa780457be5e6c818e5698a7590ca8263 refs/heads/linux-4.9.y
+cfb41ef9deb1e6572ac218ddfcec9567e5d1c101 5fea905d8e5c72c300985c91a797fe457bcdcd79 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDKGKMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xs4QAKIQCQKrccPvSku4xaW4
-kt+Y5us7me/0tTeQcz0VPJkHXRCi8T8vSgjzuwpFFkrN3DWU8f0Pc4P4Vww+MGSw
-B2uJwDOEz1qSDLRg6XaOU5PeOH2CwSmZ18cWhQQFFl5XFTpMeZkhNa74oF3E9DFu
-xRfcgDSp0A7AjnfVqiGTAvMyGgLUdCY5T35nxunL0PM7VBM80bf7oTNjIbWXgXEB
-soL1ZaXNFgtZekXcgV+J+89s84DaMYMjiDMI9Iwov1hGnpUNsza69E8h6JoUHzsv
-mS2FlO6/+6hduAbJyCf32Tsf6zd7Gc1hVbbCslQmTvg4KS6p11uav21u5XAyRQrL
-YctYi1IUAzV81ozpcGeA+u9kHc/T8Eu9A9zty2Mar66UlnjOAOaeBOnLzOl1fIqu
-MiGFxJAH5dJHWrMKE0YikLkmUqtXHV7j13bn7puNUH64SNTOBkDv3fCT90o0gWhF
-MKIkPvecDugmI5GJqFaVNPVNLEUPeX9ODQ+haP0GiZi67JHh3PnpbSHFD+SFcysf
-nGTC6ogfKAhqouXiItnbMbBw8Z8jgPw2PC+BCrb6QsJ6NGjc+YLn0QuJf6uWdekL
-yRT6PLyYHntq6JpIqG4sIujS8mUzV1/EXk7dir3p4Nf0THm+UkU9y7t38x+LzdDA
-NGAZDtm6WKaQM6mndzIZphym
-=uu0a
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6vgP/A43LkPY5IP5sRCWLN/j
+MzNBVizVMcMyfEISxUF1nE2WhjOfB2mk4m//tpDj0r32KicPQC+/DUoCBQGpxcoI
+YzQamL1pu3PcdXiIMJEB6pz+5wBmLgPcIFnM2CHrbzQd+9qQUPyrnxY0Bn99Iklc
+eL/b3F5Q9Ditz7I8nLZPBjoNgM2JAnCA+/l9w7mM5ztQSy+fJugUAPhIxbLxtkcV
+bBAV0bcukJWqlFIql3jYvpCPA2yzy7Jy0sGoNeRe226Arati+4IO912esQLoIblY
+SGWtxhdGjpXoXkQl7N2zSi8qKK4jvFoL3LEa0QDO9ONW4knmruVbWeyYjGFZRTS6
+lsR062PYa0ErGZt19iTDYTCMjax4PjOh1qCcwSdyu5wuYvvqMveD3enkQDnqwF5G
+NvlkqpCoLz95m5vw5SsI+Vyn3K3tZvLjxUCnBF740CIyXusam3EponT00MqlCXxY
+cOZ6F4GfmZfZWWt69716H5NMH0EXfkYZvRbl+fTw5IqKEYRvY7KxCVEDuH6pg1E+
+sf1Ub6kbUWk65SFAznUmkYhWI8CwK3dbCCB8r2sW3EoqLOeC2SnHdzPFLkG5f4Un
+6DSu2iNOK2T1vs82zh4rnmv8H4TJnsH9etzcHwmoJULCKrW7E+XxFPFxO1TyLbcr
+03FuKojLTcMAI8HhyOrUyAbz
+=BLIA
 -----END PGP SIGNATURE-----
 
---===============1048863615827165766==
+--===============0509037265499137534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94ac998a27d8-b45cb54aa780.txt
+Content-Disposition: attachment; filename=revlist-cfb41ef9deb1-5fea905d8e5c.txt
 
-900957c5e34cd2e2a63e7f8414fbf4f912f05d2e net: ieee802154: fix null deref in parse dev addr
-958f696a69955b6052003634d6c0ce7800d2d1c3 HID: hid-sensor-hub: Return error for hid_set_field() failure
-c179a849c78ad08abaa5953de295181b419c13a2 HID: Add BUS_VIRTUAL to hid_connect logging
-bcb95558b234d2c39cdffa1dece0d58be9e0be4c HID: usbhid: fix info leak in hid_submit_ctrl
-a17c928e4dfb7a99f15b7aaa58bac1d1d5efa843 ARM: OMAP2+: Fix build warning when mmc_omap is not built
-057c5c09679e9048213602ebf5ffd14791b4b860 HID: gt683r: add missing MODULE_DEVICE_TABLE
-d63fea57f69ef643d7d6090041446d3feebc032d gfs2: Fix use-after-free in gfs2_glock_shrink_scan
-b4fe4822be1a0e4438c33391c7ea73c162677447 scsi: target: core: Fix warning on realtime kernels
-a76f7fa58859de8fd80beaa959d7ee29c017d0d8 ethernet: myri10ge: Fix missing error code in myri10ge_probe()
-6425671fc4e10407a8e4444b2434da40333d7561 net: ipconfig: Don't override command-line hostnames or domains
-013b1f68cc84343621f6ddf1f60bda4e53e8ad82 rtnetlink: Fix missing error code in rtnl_bridge_notify()
-0d21bd2588b6ab02c3fb5a3ab25beafbde5b1d4f net/x25: Return the correct errno code
-7aad6e16ce676ca899b284a14762abe0d9510a45 net: Return the correct errno code
-91c3db154f7147b0ddbdc16d91d81be178f53ac1 fib: Return the correct errno code
-b45cb54aa780457be5e6c818e5698a7590ca8263 Linux 4.9.274-rc1
+d29fe793024f28e339c4121e12775aa1af637eef net: ieee802154: fix null deref in parse dev addr
+18b3bbbf8e1b20e7892f20b8ff483500b9a7ae1a HID: hid-sensor-hub: Return error for hid_set_field() failure
+9882da51cfeea6fa301fc5475449d1891f75940b HID: Add BUS_VIRTUAL to hid_connect logging
+2a7a8992b7d3f8c2f57d8cb3fc3dc314c533ebac HID: usbhid: fix info leak in hid_submit_ctrl
+c271f03ca5c6b24ebcd8cea9402d95b88e3b800f ARM: OMAP2+: Fix build warning when mmc_omap is not built
+869bffa234103d8400d0347a238372493402eab0 HID: gt683r: add missing MODULE_DEVICE_TABLE
+84913f116d7381b538041ad521d5862d17053574 gfs2: Fix use-after-free in gfs2_glock_shrink_scan
+89080d5d4582e5e6d268fd8ab8d24a5583c4141a scsi: target: core: Fix warning on realtime kernels
+f9bf259ff6ecebdbd01aeb18f4e9f3fdb32375c0 ethernet: myri10ge: Fix missing error code in myri10ge_probe()
+adf681640ee3e5a6d1f866eb75514ba34ae87d0f nvme-loop: reset queue count to 1 in nvme_loop_destroy_io_queues()
+f3d5fb7cebf00ac46f64e857471fa7411618be3a nvme-loop: clear NVME_LOOP_Q_LIVE when nvme_loop_configure_admin_queue() fails
+eef2ca494cfd664cddbc261f88d65f4a346abc81 nvme-loop: check for NVME_LOOP_Q_LIVE in nvme_loop_destroy_admin_queue()
+b842e6a2a9393556166bbba61949fa2e6492c79c net: ipconfig: Don't override command-line hostnames or domains
+e331b5ca4919685cde450cbccf0bd8bf806fc813 rtnetlink: Fix missing error code in rtnl_bridge_notify()
+fd0c66221ee4fae69518f7de8b35253993f5668f net/x25: Return the correct errno code
+941c86fc1974aa6bbb48be8b92c1ea1f8dcd6cd3 net: Return the correct errno code
+88cb6c559c97db9f4b6453139948eea3831b94fc fib: Return the correct errno code
+5fea905d8e5c72c300985c91a797fe457bcdcd79 Linux 4.14.238-rc1
 
---===============1048863615827165766==--
+--===============0509037265499137534==--
