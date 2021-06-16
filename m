@@ -1,54 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7607942788310510796=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 16 Jun 2021 16:10:39 -0000
-Message-Id: <162385983910.31602.17506977092047407782@gitolite.kernel.org>
-
---===============7607942788310510796==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 16 Jun 2021 16:11:02 -0000
+Message-Id: <162385986211.31873.18055036215659288849@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.14
-    old: 70d654ea3de937d7754c107bb8eeb20e30262c89
-    new: 7740ab84c13e32002742106afd443a4ca7fe3918
+  - ref: refs/heads/for-linus
+    old: 997233aa9cc43a0e68c31ddd375f4af8c831fe6d
+    new: f672c9ebf36b692de300866347b3a6198025d8b3
     log: |
-         512d895664a318d57de0ca3655d2bf1c280767a0 regulator: rt6160: Fix setting suspend voltage
-         686f6b31bf6cea71ca941b6dbf9e1388d54222b6 regulator: sy7636a: Add terminating entry for platform_device_id table
-         31a89d297e196472875dc7d4a8f5dd0aaefcc0b4 regulator: sy7636a: Make regulator_desc static const
-         830c364f4a2299e8215c40f0a2ba9229c0fdeede regulator: sy7636a: Use rdev_get_drvdata at proper place
-         7740ab84c13e32002742106afd443a4ca7fe3918 regulator: fixed: use dev_err_probe for gpio
+         fac165f22ac947b55407cd3a60a2a9824f905235 ASoC: cs42l42: Correct definition of CS42L42_ADC_PDN_MASK
+         f672c9ebf36b692de300866347b3a6198025d8b3 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
-
---===============7607942788310510796==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1623859819 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1623859836-3bf0e39e023419a41289e23174e30596f2df89a4
-
-70d654ea3de937d7754c107bb8eeb20e30262c89 7740ab84c13e32002742106afd443a4ca7fe3918 refs/heads/regulator-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDKImsACgkQJNaLcl1U
-h9C77Qf+Nlv9tqmWHwBLflyQpd2QHl+ZdaEQFmql1xJKFkebz0YfBcBF+/R1bNRB
-D/CtjnwnIrvBRgN87daZNdGqR7biBlcFWo/5+76UMWMmK/chJ8ygwAjBNgqNSnwO
-q83+1n5OCDovRQTrJxzvdBmC/Tv5H3abGwdFxeSD5dkN+Z49WWXfFSrQ6iUMPy1I
-scdhOx7QEyEbjjYk8N0A5R8iJmUa23yC9K0sjlUsbn/Le4jZSrjKDRaROOSa9vhC
-5Op7r4GmmrkH59JMscPDEP90ZsvOcGN642ySFsV39oJTrlehtkZIG/JUxy1y0Pr8
-nE+dqtIlDcJLXelq1jfMruAjWh1YSw==
-=FunX
------END PGP SIGNATURE-----
-
---===============7607942788310510796==--
+  - ref: refs/heads/for-next
+    old: 193172bdf0ea781bbd66d94a75122f771a2845b0
+    new: c4fee0e615dcc620bec80e34f38ede5497d2b422
+    log: |
+         fac165f22ac947b55407cd3a60a2a9824f905235 ASoC: cs42l42: Correct definition of CS42L42_ADC_PDN_MASK
+         06cc52329cb098ba0858032998e382311dcd9743 ASoC: codecs: Fix duplicate included sound/soc.h
+         4ffbcd4ab0b6f77d29acde69dc25bd95318fae5e ASoC: rockchip: i2s: Use devm_platform_get_and_ioremap_resource()
+         db4d6d2e6472a5a49801bb5f2c1bd96ed6ffa3d1 ASoC: rockchip: pdm: Use devm_platform_get_and_ioremap_resource()
+         3325b1515a92fc07ec16b4d33c8bccc0a83f12ca ASoC: rockchip: spdif: Use devm_platform_get_and_ioremap_resource()
+         83bd5c53ebf6f2f7b8b0b7db4c038ad7a5a5448a ASoC: codecs: wcd938x: fix boolreturn.cocci warning
+         e99d7c69fd4c18e7319f8aab8e252b12130796bf ASoC: hdmi-codec: make hdmi_codec_controls static
+         f672c9ebf36b692de300866347b3a6198025d8b3 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         c4fee0e615dcc620bec80e34f38ede5497d2b422 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+         
