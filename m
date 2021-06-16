@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 16 Jun 2021 08:59:09 -0000
-Message-Id: <162383394950.10333.13891031644799683094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Wed, 16 Jun 2021 09:13:17 -0000
+Message-Id: <162383479746.3278.11919120238360411790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 8a3a74160b96498d672e3652827aa7e6d7f3a120
-    new: 66e259c746e5dc5db7ac6b67c98b0abbc2ab2e6c
+  - ref: refs/heads/for-next
+    old: 7e4e0a140346da61dae1e5786e4cc13fbd460f4d
+    new: 4e7f194f5cb87ab01b33e19d711ae43e6cc91e7b
     log: |
-         66e259c746e5dc5db7ac6b67c98b0abbc2ab2e6c libblkid: fix and cleanup blkid_safe_string()
+         6262e1b906a1ba12688ea6039453b4a088dbaf44 printk: Move EXPORT_SYMBOL() closer to vprintk definition
+         4e7f194f5cb87ab01b33e19d711ae43e6cc91e7b Merge branch 'for-5.13-fixup' into for-next
          
