@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
-Date: Wed, 16 Jun 2021 18:53:38 -0000
-Message-Id: <162386961824.11070.9021449225456863823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 16 Jun 2021 18:59:58 -0000
+Message-Id: <162386999850.14673.1340455582310788548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/luto/linux
-user: luto
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/x86/membarrier
-    old: 07a8b963002cb955b7516e61bad19514a3acaa82
-    new: df3b012fb56f54e581492d7ec053e36d4eacfabc
+  - ref: refs/heads/for-next/kspp
+    old: a45cb78e6a9031e34e34b3171414e88a444fd667
+    new: 90b74633e0f3a612b178c367a40b687883c99d3d
     log: |
-         9f81d011fbe6ff333c5a68e317d7ed7835db699d x86/mm: Handle unlazying membarrier core sync in the arch code
-         7385a90e1d79f0d6d6c4a15a1cf0b1fe1967c3f4 membarrier: Remove membarrier_arch_switch_mm() prototype in core code
-         77bac12bb7899853f4a19463b7e7ab1a7652666e membarrier: Make the post-switch-mm barrier explicit
-         37a761cbae60d1efd4223fe5341270dea17a19f4 membarrier, kthread: Use _ONCE accessors for task->mm
-         36f9ca92f97016e0123873d146dc5b7bdcc6a05f powerpc/membarrier: Remove special barrier on mm switch
-         b67fe567acc812ee0c8f824c3c804139b1bd0835 membarrier: Remove arm (32) support for SYNC_CORE
-         df3b012fb56f54e581492d7ec053e36d4eacfabc membarrier: Rewrite sync_core_before_usermode() and improve documentation
+         1535e7c5a6264a874c65c0e4c7e235f34a285217 media: venus: hfi_msgs.h: Replace one-element arrays with flexible-array members
+         d5f3d2f175ce450938e363cda4efa3e10a8c9b81 media: venus: hfi_cmds: Fix packet size calculation
+         90b74633e0f3a612b178c367a40b687883c99d3d Merge branch 'for-next/Warray-bounds' into for-next/kspp
          
