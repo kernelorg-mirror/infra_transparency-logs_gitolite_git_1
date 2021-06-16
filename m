@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4889320464699085660=="
+Content-Type: multipart/mixed; boundary="===============1048863615827165766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 16 Jun 2021 15:28:35 -0000
-Message-Id: <162385731572.2440.18410747756127035464@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 15:28:36 -0000
+Message-Id: <162385731645.2500.14727847380925944680@gitolite.kernel.org>
 
---===============4889320464699085660==
+--===============1048863615827165766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,61 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 78fba0641f54c8dc3624eba7cbc1252be35fa18e
-    new: eeb2e2f2ab09a74225c0ea2a481c87aef3557245
-    log: revlist-78fba0641f54-eeb2e2f2ab09.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 94ac998a27d889965ac32bba3169281d6986fd13
+    new: b45cb54aa780457be5e6c818e5698a7590ca8263
+    log: revlist-94ac998a27d8-b45cb54aa780.txt
 
---===============4889320464699085660==
+--===============1048863615827165766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623857314 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623857315 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1623857313-0a42d9067bf6dba1cc1ce8442eff60f7aca1148c
+nonce 1623857315-b0caa002de08bcf6874d09ff9912180ba347a968
 
-78fba0641f54c8dc3624eba7cbc1252be35fa18e eeb2e2f2ab09a74225c0ea2a481c87aef3557245 refs/heads/linux-4.4.y
+94ac998a27d889965ac32bba3169281d6986fd13 b45cb54aa780457be5e6c818e5698a7590ca8263 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDKGKIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VroQANixE8Jgjoy9W8KY0q8k
-/xVQSPlI+vBjN86oVOv4SF/PYmLdaoTNctx60U0UPsAJkeki6mW5lGD4unCnE2iE
-fd6UkY0lOTWM63CKzILvUk2G26fkuTSXxYN6LtfDXV3GSWTkah7oqP9wKIBZOAzX
-eB+W2yiH2nayd3gbpYEshVaTv/lHOKrVptFwYQsl0vEzgH/uOyV9lv/2atHnROHc
-Kajwb3WGRuAhYEzZiR673oFbut2kAAPaJeZO03PuLqoIKWGNwN6IdSw9TjYPniAF
-oFPDubiXIpk94BnGpXtfd5Yqi0z4ciLeamuS2YUtqYNWo3MhXk0SpqbB3y6jU8gt
-NT2bVT6BuTJZ4QvOGCl8VPTUKEza2PtF6Ml1MUQAupezz242B+oKRizCJLIQPEAg
-KMNCYSMa2C6dDbFa3Cmxt8N0zWOvT6Z3FtYaqhywRaYbAq2e9MC2gOjUYeZFA6c2
-xfwkGUXgLNzklC4lPIJLqroJl6JSiXhwP5Ym0QITJA6BTjXqMFDNAlSWUo+mtk8L
-E5M/POb6eYWbUJh/boN7SYOrPeC6CI2oyoNZcndSNzePlw3lpMLoSjeEEuF9NHi8
-4ZoZam/ff0zPP3Fxmd8kkjYVpZiSFxFly4Nm7XubQVrGQ4kVnAjq6OWNT5zWTbUf
-9X+HT06sMb2gyuDn4uBQo3Dz
-=f95u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDKGKMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xs4QAKIQCQKrccPvSku4xaW4
+kt+Y5us7me/0tTeQcz0VPJkHXRCi8T8vSgjzuwpFFkrN3DWU8f0Pc4P4Vww+MGSw
+B2uJwDOEz1qSDLRg6XaOU5PeOH2CwSmZ18cWhQQFFl5XFTpMeZkhNa74oF3E9DFu
+xRfcgDSp0A7AjnfVqiGTAvMyGgLUdCY5T35nxunL0PM7VBM80bf7oTNjIbWXgXEB
+soL1ZaXNFgtZekXcgV+J+89s84DaMYMjiDMI9Iwov1hGnpUNsza69E8h6JoUHzsv
+mS2FlO6/+6hduAbJyCf32Tsf6zd7Gc1hVbbCslQmTvg4KS6p11uav21u5XAyRQrL
+YctYi1IUAzV81ozpcGeA+u9kHc/T8Eu9A9zty2Mar66UlnjOAOaeBOnLzOl1fIqu
+MiGFxJAH5dJHWrMKE0YikLkmUqtXHV7j13bn7puNUH64SNTOBkDv3fCT90o0gWhF
+MKIkPvecDugmI5GJqFaVNPVNLEUPeX9ODQ+haP0GiZi67JHh3PnpbSHFD+SFcysf
+nGTC6ogfKAhqouXiItnbMbBw8Z8jgPw2PC+BCrb6QsJ6NGjc+YLn0QuJf6uWdekL
+yRT6PLyYHntq6JpIqG4sIujS8mUzV1/EXk7dir3p4Nf0THm+UkU9y7t38x+LzdDA
+NGAZDtm6WKaQM6mndzIZphym
+=uu0a
 -----END PGP SIGNATURE-----
 
---===============4889320464699085660==
+--===============1048863615827165766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78fba0641f54-eeb2e2f2ab09.txt
+Content-Disposition: attachment; filename=revlist-94ac998a27d8-b45cb54aa780.txt
 
-1d6917a39d9e086799c026e34334499ce0eb4b51 HID: hid-sensor-hub: Return error for hid_set_field() failure
-3586eeb2bc958c0d7235f2d6c8fe8a0dbcf6f99d HID: Add BUS_VIRTUAL to hid_connect logging
-cc28d3310a2048b3403f10c2047b096224db086b HID: usbhid: fix info leak in hid_submit_ctrl
-c2ae9a056a58384297726f3dac80e4e55e93d72e ARM: OMAP2+: Fix build warning when mmc_omap is not built
-24c51134fe81696d19c2317e5622740b0215ad4e HID: gt683r: add missing MODULE_DEVICE_TABLE
-6c6b3bf435b07f4520ecf13056a56c1083c7efae gfs2: Fix use-after-free in gfs2_glock_shrink_scan
-29b7f9ad5f399ea8cee61c8ceb074d0afa34d986 scsi: target: core: Fix warning on realtime kernels
-87e8c5c2c80bb7f5e799fe83caf57eb786fae86f ethernet: myri10ge: Fix missing error code in myri10ge_probe()
-2a14d62b9880a827c19e93c737ff1108c7a88f74 net: ipconfig: Don't override command-line hostnames or domains
-0a7e0e76d6e935bae01c02faeb206da25dd276f0 rtnetlink: Fix missing error code in rtnl_bridge_notify()
-6e9c6b1be4f4f331865c137c1a1204b3bbd7ad63 net/x25: Return the correct errno code
-81fc9f3bb0fedf3a951724f6646c63918c381000 net: Return the correct errno code
-896fb7c6ffc99b2524b78bba9a103e1c014b7298 fib: Return the correct errno code
-eeb2e2f2ab09a74225c0ea2a481c87aef3557245 Linux 4.4.274-rc1
+900957c5e34cd2e2a63e7f8414fbf4f912f05d2e net: ieee802154: fix null deref in parse dev addr
+958f696a69955b6052003634d6c0ce7800d2d1c3 HID: hid-sensor-hub: Return error for hid_set_field() failure
+c179a849c78ad08abaa5953de295181b419c13a2 HID: Add BUS_VIRTUAL to hid_connect logging
+bcb95558b234d2c39cdffa1dece0d58be9e0be4c HID: usbhid: fix info leak in hid_submit_ctrl
+a17c928e4dfb7a99f15b7aaa58bac1d1d5efa843 ARM: OMAP2+: Fix build warning when mmc_omap is not built
+057c5c09679e9048213602ebf5ffd14791b4b860 HID: gt683r: add missing MODULE_DEVICE_TABLE
+d63fea57f69ef643d7d6090041446d3feebc032d gfs2: Fix use-after-free in gfs2_glock_shrink_scan
+b4fe4822be1a0e4438c33391c7ea73c162677447 scsi: target: core: Fix warning on realtime kernels
+a76f7fa58859de8fd80beaa959d7ee29c017d0d8 ethernet: myri10ge: Fix missing error code in myri10ge_probe()
+6425671fc4e10407a8e4444b2434da40333d7561 net: ipconfig: Don't override command-line hostnames or domains
+013b1f68cc84343621f6ddf1f60bda4e53e8ad82 rtnetlink: Fix missing error code in rtnl_bridge_notify()
+0d21bd2588b6ab02c3fb5a3ab25beafbde5b1d4f net/x25: Return the correct errno code
+7aad6e16ce676ca899b284a14762abe0d9510a45 net: Return the correct errno code
+91c3db154f7147b0ddbdc16d91d81be178f53ac1 fib: Return the correct errno code
+b45cb54aa780457be5e6c818e5698a7590ca8263 Linux 4.9.274-rc1
 
---===============4889320464699085660==--
+--===============1048863615827165766==--
