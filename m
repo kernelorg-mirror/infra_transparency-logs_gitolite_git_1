@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Jun 2021 19:50:34 -0000
-Message-Id: <162387303424.19096.10530484853469210204@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 19:52:10 -0000
+Message-Id: <162387313077.19835.9907982697990726636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 1d2ac2033d790f5deaf3d6edfff6a4d901949de2
-    new: 0fd158b89b50b3a31c97a639ff496e1c59686e97
+    old: 0fd158b89b50b3a31c97a639ff496e1c59686e97
+    new: a494bd642d9120648b06bb7d28ce6d05f55a7819
     log: |
-         0fd158b89b50b3a31c97a639ff496e1c59686e97 selftests: net: veth: make test compatible with dash
+         a494bd642d9120648b06bb7d28ce6d05f55a7819 net/af_unix: fix a data-race in unix_dgram_sendmsg / unix_release_sock
          
