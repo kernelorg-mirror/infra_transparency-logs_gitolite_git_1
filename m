@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 16 Jun 2021 19:02:50 -0000
-Message-Id: <162387017075.17190.5706690795977016092@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 19:13:11 -0000
+Message-Id: <162387079146.23356.17013476457052453882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c7654495916e109f76a67fd3ae68f8fa70ab4faa
-    new: 61273f9d83148a38cf9b78d43016c29fc80f48e5
+    old: 61273f9d83148a38cf9b78d43016c29fc80f48e5
+    new: c2ae34a7deaff463ecafb7db627b77faaca8e159
     log: |
-         61273f9d83148a38cf9b78d43016c29fc80f48e5 net: stmmac: Fix error return code in ingenic_mac_probe()
+         c2ae34a7deaff463ecafb7db627b77faaca8e159 net: hsr: don't check sequence number if tag removal is offloaded
          
