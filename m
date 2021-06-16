@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3683122917860282317=="
+Content-Type: multipart/mixed; boundary="===============4331059783082931294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 16 Jun 2021 21:47:15 -0000
-Message-Id: <162388003593.30535.13097842233787221633@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 21:52:04 -0000
+Message-Id: <162388032432.2831.359768892902719295@gitolite.kernel.org>
 
---===============3683122917860282317==
+--===============4331059783082931294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: 0cb6648d6377f854f2889b22ba4cb295bb204621
-    new: af098d7d6af6664fa13cea7116cb5ee5b730b64d
-    log: revlist-0cb6648d6377-af098d7d6af6.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 7365b0834aca4d763456b7798a204de45be995f5
+    new: de1991aa2af9c8a1c3a830bb9635b81353847624
+    log: revlist-7365b0834aca-de1991aa2af9.txt
 
---===============3683122917860282317==
+--===============4331059783082931294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cb6648d6377-af098d7d6af6.txt
+Content-Disposition: attachment; filename=revlist-7365b0834aca-de1991aa2af9.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6c9762a78c325107dc37d20ee21002b841679209 ASoC: max98088: fix ni clock divider calculation
@@ -961,21 +961,6 @@ cc4f597e85bce4542769b60271729e4187f42406 mm: thp: optimize total_mapcount() with
 ad025e5c5cbb37dd6c7d2db94974c7a2301c36f5 mm: thp: cleanup and optimize compound_nr
 b7c9ef9ac5ae90cf011ab43aac26750ab2255191 mm: thp: consolidate policy_nodemask call
 05dc2c56ef79b3836c75fcf68c5b19b08f4e4c58 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-f010fa5de66143abc8b1ef125c609aa8c2168acb mm: mm_take_all_locks: add cond_resched()
-eb96c32a411fd471c0fbfab1f54c79430a2fd84e x86: restore the write back cache of reserved RAM in iounmap()
-843ebd505186be4d5b2ddc5af77f0c188f4739f3 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-dfdd271be889851e28d5cfdff40749fdb70d1d6f x86: deduplicate the spectre_v2_user documentation
-6f96a961c469565354e7b2b1f9aaba5ae0b85dec x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-806563e8c939adc5dcc73da5bb3b217e62ae84a6 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-7d9e635ffc62a28948e3a824707b3599a0b9a064 x86: atomic_set needs WRITE_ONCE
-eaba48eed718eb3433720b0e51902f4fc44d018d sched/fair: skip select_idle_sibling() in presence of sync wakeups
-dcd583f13075cdd95a4729c121bd307c4e690e7d userfaultfd: UFFDIO_REMAP: rmap preparation
-a82e0e1153a078e3f9aaae31161792c65cff4ab8 userfaultfd: UFFDIO_REMAP uABI
-4a0a7935c9639e6191bed41883d39e77b6ae794f mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-fd0bbbf4ecd82df9d08e96fa4e6b6627241de94a arm64: select CPUMASK_OFFSTACK if NUMA
-7e6dfdb161683d1cb7301796c945fb21faf676a6 arm64: tlb: skip tlbi broadcast
-c6d1e3264ef2021759068b8b3a2fa3ade0acbd1c mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-3b144ea277b3d293357c8500883e1d843e736459 mm: thp: make page_vma_mapped_walk() more strict
-af098d7d6af6664fa13cea7116cb5ee5b730b64d Merge remote-tracking branch 'gitlab/main' into main
+de1991aa2af9c8a1c3a830bb9635b81353847624 mm: gup: FOLL_UNSHARE and COR fault
 
---===============3683122917860282317==--
+--===============4331059783082931294==--
