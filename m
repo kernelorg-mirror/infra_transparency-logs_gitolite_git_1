@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 16 Jun 2021 05:27:43 -0000
-Message-Id: <162382126325.31064.220298275026468097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 16 Jun 2021 06:27:57 -0000
+Message-Id: <162382487755.4903.578703494874625378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: fd543ef525e8b1254bff4186a4f6a25d604ed4f8
-    new: 94f0b2d4a1d0c52035aef425da5e022bd2cb1c71
+    old: eebd49a4ffb420a991c606e54aa3c9f02857a334
+    new: 6fd06963fa74197103cdbb4b494763127b3f2f34
     log: |
-         a33d62662d275cee22888fa7760fe09d5b9cd1f9 afs: Fix an IS_ERR() vs NULL check
-         94f0b2d4a1d0c52035aef425da5e022bd2cb1c71 proc: only require mm_struct for writing
+         6fd06963fa74197103cdbb4b494763127b3f2f34 xfrm: Fix error reporting in xfrm_state_construct.
          
