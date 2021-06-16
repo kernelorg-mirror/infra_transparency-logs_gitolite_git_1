@@ -1,82 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4617901630313136697=="
+Content-Type: multipart/mixed; boundary="===============8057824289854332679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 16 Jun 2021 13:50:03 -0000
-Message-Id: <162385140380.29964.4602128723738111023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Wed, 16 Jun 2021 13:51:36 -0000
+Message-Id: <162385149671.31028.12086903208002849466@gitolite.kernel.org>
 
---===============4617901630313136697==
+--===============8057824289854332679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-5.14/block
-    old: ec06c989bb45acc28c7633703685dd684b1b5d9c
-    new: 6a03cd9843fa4dcf827dc3ad60fa9b4217f3057c
-    log: |
-         07a719f8fdbe4ae0f825fa1a6d2755a63deb265e mtd_blkdevs: initialze new->rq in add_mtd_blktrans_dev
-         6a03cd9843fa4dcf827dc3ad60fa9b4217f3057c loop: fix order of cleaning up the queue and freeing the tagset
-         
-  - ref: refs/heads/for-5.14/drivers-late
-    old: b12d17fce6418fc1f48f998d55a86fd794ea6578
-    new: c239959a404904dd19d5e61a313b4b9466d8f3c7
-    log: |
-         c239959a404904dd19d5e61a313b4b9466d8f3c7 nbd: provide a way for userspace processes to identify device backends
-         
-  - ref: refs/heads/for-5.14/libata
-    old: 9c54cd10e43947caa64920aaa7a30858193f8ef5
-    new: 827b3e84fd1d2c43b7c85786d366bc53b02cd8da
-    log: revlist-9c54cd10e439-827b3e84fd1d.txt
-  - ref: refs/heads/for-next
-    old: 1302a9ff039f8e68d5d4bb36adb5fa37ce07cf21
-    new: 71efee5b8b00f91d40b4889eaff72ea67f41924f
-    log: revlist-1302a9ff039f-71efee5b8b00.txt
+  - ref: refs/heads/togreg
+    old: b5af95a8e38ab07f362809969c62c979ff74a46c
+    new: e2a73c4e78fc42ca65cc65abb66d527469bb3a4c
+    log: revlist-b5af95a8e38a-e2a73c4e78fc.txt
 
---===============4617901630313136697==
+--===============8057824289854332679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c54cd10e439-827b3e84fd1d.txt
+Content-Disposition: attachment; filename=revlist-b5af95a8e38a-e2a73c4e78fc.txt
 
-4e7dba070b1f44da9bef4a61fd633f6b73a2e853 ata: include: libata: Move fields commonly over-written to separate MACRO
-071e86fe2872e7442e42ad26f71cd6bde55344f8 ata: ahci: Ensure initialised fields are not overwritten in AHCI_SHT()
-945a0e2875f4d5d0030617f16f48a781d4523f48 ata: sata_sil24: Do not over-write initialise fields in 'sil24_sht'
-e75f41a983e75ffff8b102665580fdb3816b289e ata: sata_mv: Do not over-write initialise fields in 'mv6_sht'
-7d43b8283eb23d7c042d2376c86d2d27365c3ed0 ata: sata_nv: Do not over-write initialise fields in 'nv_adma_sht' and 'nv_swncq_sht'
-76115de698d8d090bdd6463e27e0fa0b40fda033 ata: pata_atiixp: Avoid overwriting initialised field in 'atiixp_sht'
-98eb8a6ba491d8a4288d2de572721eca6354f86e ata: pata_cs5520: Avoid overwriting initialised field in 'cs5520_sht'
-52ebd7124e0d5593b6032743bf3cb46d49b0343d ata: pata_cs5530: Avoid overwriting initialised field in 'cs5530_sht'
-160be1bc0bc3c42db845f8f0c334a05577bfe369 ata: pata_sc1200: sc1200_sht'Avoid overwriting initialised field in '
-ec3d95182b491b1e8cdd470748f133d4c7934f4c ata: pata_serverworks: Avoid overwriting initialised field in 'serverworks_osb4_sht
-827b3e84fd1d2c43b7c85786d366bc53b02cd8da ata: pata_macio: Avoid overwriting initialised field in 'pata_macio_sht'
+ec90b52c07c0403a6db60d752484ec08d605ead0 iio: light: vcnl4035: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+92babc9938ebbf4050f2fba774836f7edc16a570 iio: prox: isl29501: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+12f13d1faead80884f41781e8792ab397812c0c7 iio: hid-sensors: lighten exported symbols by moving to IIO_HID namespace
+40b54cbebf16c4b2275dabe1569d2a3f89d3cc59 iio: imu: mpu6050: Balance runtime pm + use pm_runtime_resume_and_get()
+17181d4dc33094cb0c51369e4b5172086a14812b iio: adc: ads1015: Balance runtime pm + pm_runtime_resume_and_get()
+0e4f336f50debeacd0f81e931e8451f2ae03f685 iio: chemical: atlas-sensor: Balance runtime pm + pm_runtime_resume_and_get()
+c2f89f4ccd7a155af2739300de712b8f96aa76a3 iio: prox: pulsed-light-v2: Use pm_runtime_resume_and_get()
+64f9dc6a68002fc3f1890cb90312a2ace19df99e iio: pressure: icp10100: Balance runtime pm + use pm_runtime_resume_and_get()
+fb226ae750ea09020dbde0ac8769c86820bcb6c0 iio: hid-sensors: Update header includes
+e2a73c4e78fc42ca65cc65abb66d527469bb3a4c iio: accel: bmc150: Use more consistent and accurate scale values
 
---===============4617901630313136697==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1302a9ff039f-71efee5b8b00.txt
-
-4e7dba070b1f44da9bef4a61fd633f6b73a2e853 ata: include: libata: Move fields commonly over-written to separate MACRO
-071e86fe2872e7442e42ad26f71cd6bde55344f8 ata: ahci: Ensure initialised fields are not overwritten in AHCI_SHT()
-945a0e2875f4d5d0030617f16f48a781d4523f48 ata: sata_sil24: Do not over-write initialise fields in 'sil24_sht'
-e75f41a983e75ffff8b102665580fdb3816b289e ata: sata_mv: Do not over-write initialise fields in 'mv6_sht'
-7d43b8283eb23d7c042d2376c86d2d27365c3ed0 ata: sata_nv: Do not over-write initialise fields in 'nv_adma_sht' and 'nv_swncq_sht'
-76115de698d8d090bdd6463e27e0fa0b40fda033 ata: pata_atiixp: Avoid overwriting initialised field in 'atiixp_sht'
-98eb8a6ba491d8a4288d2de572721eca6354f86e ata: pata_cs5520: Avoid overwriting initialised field in 'cs5520_sht'
-52ebd7124e0d5593b6032743bf3cb46d49b0343d ata: pata_cs5530: Avoid overwriting initialised field in 'cs5530_sht'
-160be1bc0bc3c42db845f8f0c334a05577bfe369 ata: pata_sc1200: sc1200_sht'Avoid overwriting initialised field in '
-ec3d95182b491b1e8cdd470748f133d4c7934f4c ata: pata_serverworks: Avoid overwriting initialised field in 'serverworks_osb4_sht
-827b3e84fd1d2c43b7c85786d366bc53b02cd8da ata: pata_macio: Avoid overwriting initialised field in 'pata_macio_sht'
-e412db2acce6e901ea8d6511a743eb54f7783aaf Merge branch 'for-5.14/libata' into for-next
-07a719f8fdbe4ae0f825fa1a6d2755a63deb265e mtd_blkdevs: initialze new->rq in add_mtd_blktrans_dev
-6a03cd9843fa4dcf827dc3ad60fa9b4217f3057c loop: fix order of cleaning up the queue and freeing the tagset
-0784555562011e3e06018a970ff818299e575434 Merge branch 'for-5.14/block' into for-next
-c239959a404904dd19d5e61a313b4b9466d8f3c7 nbd: provide a way for userspace processes to identify device backends
-71efee5b8b00f91d40b4889eaff72ea67f41924f Merge branch 'for-5.14/drivers-late' into for-next
-
---===============4617901630313136697==--
+--===============8057824289854332679==--
