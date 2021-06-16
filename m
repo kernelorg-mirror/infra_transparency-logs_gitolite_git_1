@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1984371202627650006=="
+Content-Type: multipart/mixed; boundary="===============4223509944429641800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 16 Jun 2021 16:10:17 -0000
-Message-Id: <162385981786.31266.12222735019247681762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 16 Jun 2021 16:10:24 -0000
+Message-Id: <162385982464.31373.9742718910013587206@gitolite.kernel.org>
 
---===============1984371202627650006==
+--===============4223509944429641800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 28108d71ee11a7232e1102effab3361049dcd3b8
     new: fac165f22ac947b55407cd3a60a2a9824f905235
     log: |
          fac165f22ac947b55407cd3a60a2a9824f905235 ASoC: cs42l42: Correct definition of CS42L42_ADC_PDN_MASK
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 6fac124455598fd39421577e51ebd5bb32693a9a
     new: e99d7c69fd4c18e7319f8aab8e252b12130796bf
     log: |
@@ -34,29 +34,29 @@ changes:
          e99d7c69fd4c18e7319f8aab8e252b12130796bf ASoC: hdmi-codec: make hdmi_codec_controls static
          
 
---===============1984371202627650006==
+--===============4223509944429641800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623859798 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1623859815-5c84847b889576ec0fc8ee8126453448c6fd2d47
+pusher C3F436CA30F5D8EB 1623859805 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1623859822-05e97ef02f58580a946810f0f31ee2517776dfcd
 
-28108d71ee11a7232e1102effab3361049dcd3b8 fac165f22ac947b55407cd3a60a2a9824f905235 refs/heads/for-5.13
-6fac124455598fd39421577e51ebd5bb32693a9a e99d7c69fd4c18e7319f8aab8e252b12130796bf refs/heads/for-5.14
+28108d71ee11a7232e1102effab3361049dcd3b8 fac165f22ac947b55407cd3a60a2a9824f905235 refs/heads/asoc-5.13
+6fac124455598fd39421577e51ebd5bb32693a9a e99d7c69fd4c18e7319f8aab8e252b12130796bf refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDKIlYACgkQJNaLcl1U
-h9BNaAf/dW3CtRpIFCMiBwi6sXLkOwML9988iBcv477jLJk/wHoqkTMyP6QPDVBU
-m+pAbKW0uqPb9a8wEW23n/UUqBbL/8Zbl6bXvw58SgXlk0b82Zyb1XelZrH2HIvS
-oqQn7MtSuxUtjyvo8ZZiSLrr2sFk3VYwjQ1+wRX51dJtnaBBwZM5nVHZtXEr9nwV
-pqC3YBCMHCNapePbDDwOuybPRCBkRfCkNzl98OyV3feqDO2XYFFSrYK39PulJfbE
-jPRGirfK73EhM1Ks1cnKuX7gr2tNOkicBm4cVLNEFCWlZVSdAfxa12UyVMwYGCCz
-weEBe4TuKPDTg4oKFDXuD5VPRLGFGg==
-=hoLJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDKIl0ACgkQJNaLcl1U
+h9C4Swf/Z+V87xShds9A/N6HsTeQNi1FVDRNGLGKU35lCgc/++TX+TGNKic8HsTn
+hCLJ/EylDuJ37QeS/Rx4SXxaXoxU02EzHbEVlf8xS3uCczXWhsQdU71PXczcEOuF
+LVBE/CNAhpqOvzG1bCwusUitYoPC7dqoCJoPYmUORTb6k66/2hh/m8QdGll//9SX
+Bym85JR0tXIQkES3yXbdRxz+/lmyRlJvANp7JVYrK0Bx5H+0t7DVPq2GjuuRiuCu
+dOpyKaS3KzC996Q+sQo01xjv7aWUyjPiAWEwhnLbCEUQQEeIfbYBCfv05+Nm++lS
+BNIHgvX7eISIFNS226AJdEnzbnms7Q==
+=cKgU
 -----END PGP SIGNATURE-----
 
---===============1984371202627650006==--
+--===============4223509944429641800==--
