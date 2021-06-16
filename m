@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 16 Jun 2021 15:42:00 -0000
-Message-Id: <162385812002.11633.11227622941013689708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 16 Jun 2021 15:55:48 -0000
+Message-Id: <162385894809.21875.14819104961649211241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/usb-next
-    old: 17cd3a106e9762cd97883cce884a8bfcf5a476ad
-    new: 8051334e901f2f7ab9fa30a15b74cdc8e58dfde2
-    log: |
-         8051334e901f2f7ab9fa30a15b74cdc8e58dfde2 USB: serial: cp210x: add support for GPIOs on CP2108
-         
+  - ref: refs/heads/hole_punch_fixes
+    old: 0000000000000000000000000000000000000000
+    new: efe2a99150472853da50e476bb621be3e5c81505
