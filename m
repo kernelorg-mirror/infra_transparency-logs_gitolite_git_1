@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 16 Jun 2021 06:32:19 -0000
-Message-Id: <162382513933.8015.11485328197635494601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Wed, 16 Jun 2021 06:32:53 -0000
+Message-Id: <162382517397.8251.9102378924188479373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/cpufreq/cppc
-    old: bb82c5afc79ae08a99f62b40c45e5bbff66bb8e3
-    new: e7e653ede3ef54acc906d2bde47a3b9a41533404
+  - ref: refs/heads/testing
+    old: 1b50dd478f495c2112d1dd5655b2317d53a0723b
+    new: 30ad6a84f60bdaa32ef5091125299d0d96a330fe
     log: |
-         e7e653ede3ef54acc906d2bde47a3b9a41533404 cpufreq: CPPC: Add support for frequency invariance
+         30ad6a84f60bdaa32ef5091125299d0d96a330fe xfrm: avoid compiler warning when ipv6 is disabled
          
