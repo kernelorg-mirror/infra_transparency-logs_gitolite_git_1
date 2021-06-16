@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 16 Jun 2021 19:48:37 -0000
-Message-Id: <162387291722.15575.18245295499599451501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 16 Jun 2021 19:48:50 -0000
+Message-Id: <162387293042.15724.8992019199856173022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: 7ab34000c672adca90388a8fcb1f70a7d391d35c
-    new: 1f89b5d82163b55932ef5f43dbf4a83be67db812
+  - ref: refs/heads/master
+    old: e82a35aead2fd6d6df461291e634be07f71364b9
+    new: 1d2ac2033d790f5deaf3d6edfff6a4d901949de2
     log: |
-         fe0a892a5867a35dd541ca301ed6675c2777de23 erofs-utils: make some functions static in inode.c
-         1f89b5d82163b55932ef5f43dbf4a83be67db812 erofs-utils: correct the only tail-end data comment in __allocate_inode_bh_data()
+         c7d2ef5dd4b03ed0ee1d13bc0c55f9cf62d49bd6 net/packet: annotate accesses to po->bind
+         e032f7c9c7cefffcfb79b9fc16c53011d2d9d11f net/packet: annotate accesses to po->ifindex
+         1d2ac2033d790f5deaf3d6edfff6a4d901949de2 Merge branch 'net-packet-data-races'
          
