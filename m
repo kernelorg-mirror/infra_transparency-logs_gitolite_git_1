@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2831041806242220493=="
+Content-Type: multipart/mixed; boundary="===============8030792369535813385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 16 Jun 2021 03:45:51 -0000
-Message-Id: <162381515129.26334.17090862454221864616@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 03:45:56 -0000
+Message-Id: <162381515610.26432.12945150264236655552@gitolite.kernel.org>
 
---===============2831041806242220493==
+--===============8030792369535813385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0961801d5ee810b04b96f912e0f3b46741b82395
-    new: e66867890cf267006aa245fe7eafe342c3e7c899
-    log: revlist-0961801d5ee8-e66867890cf2.txt
+  - ref: refs/heads/5.14/scsi-queue
+    old: ed1b86ba0fba3d586cd53057551a95197b0a37ad
+    new: 49d3e5996155a3067782748b0c4edf0309e951b6
+    log: revlist-ed1b86ba0fba-49d3e5996155.txt
 
---===============2831041806242220493==
+--===============8030792369535813385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1623815149 -0400
+pusher 75C5DE3D 1623815154 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1623815149-3be6ee0945e274d3b87a07e059c37f5cf3c44f5b
+nonce 1623815154-fdde1928c6be824673739d2581a9166561f4ecbc
 
-0961801d5ee810b04b96f912e0f3b46741b82395 e66867890cf267006aa245fe7eafe342c3e7c899 refs/tags/mkp-scsi-queue
+ed1b86ba0fba3d586cd53057551a95197b0a37ad 49d3e5996155a3067782748b0c4edf0309e951b6 refs/heads/5.14/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDJc+0ACgkQ7ulgGnXF
-3j27qw/+KuNRT9zxvYSGCxJoYYGbxnjVaC3UO776PutdZBwhMpzNzpui45kT4AVp
-NQWBqIljayD8eBWCD3Z+FC+i4K7YEKCGYKkuFmPYFeeI0t+e1RXW8b8t4OGntldQ
-bvRiu7Y24AZTG4WAatmeCQyypWdT4p6dEuzA/exLnEvxLKzKt3b9yiAzXe1Zny+w
-t8c3D5W0W0IjE4bpexbufnJowdnsxInySSl+/Uzy8AiOzsrJBfPTHwI6/nUPO63Z
-+K7YPf7INdk5dZJk0rg7TjsUZB/3eNqHCNF7SjTw6UHqqLxK9Avrf+tYQXClUOIc
-2me3FyM8AlyK3zDU9Ouj1w5P3Ur06W/5fDHGRL3viA1OBSTtGE0wzvu/sizA2wG/
-dxEMjDbYHDwvWJgMtjAplWLRD01y47rcKIezkhCd/vv+aLvuDLQNNS0tQIoqwasq
-tiYqB9SdNgfJSVmx/F4meHyQ2Qs+nKJlLQW7l5kcGRRKtQgCJg8iiLY8P8dzlshd
-kGhNG6nKh9bu+azq1X5rj4AUXIwU8tFqhr5W2LxL23eZ94ssYipoETmc8Gp4nq71
-qNUMfOiSuOs14y+oP/us44x92ZPdjElkzkSgRExN+ZM34JU7J0ljvpSqQngsYWS2
-+Sunlv7FjLk/w+EGue5fGYKdKVVfANLUGvqSGqnc/tf+IoO9l00=
-=3fPC
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDJc/IACgkQ7ulgGnXF
+3j3jUBAAihn+B/TRTnssE77Ah9oTk97B1KiKO2AYX9vn264T6s/R/DIbq3zqsdRY
+0GpU+9nOs6qHXsimQ5NTvdaVxqsg5o57Jzy/u754D684kSiDxeR1gHuR2BQPTAeJ
+nU7CJmmWrrYarZP+o57KMTBlqasDjH368rRaIS403Z+8RhNtpotsY/YuHLEFAPnB
+gfVVSVpShzVHyW4GDledSwTZNrBvqkMEcIlDfx+2m0B1PnXQvL85JBgHuMASK1Kp
+CzvyHePlL9XRkRn34Cldv2FJNplOqKGj2WbTCpaPNGrkwApGJkiT0MclJtfVbcs9
+bCbpGKlNJugOabvY/E2DSzrhxilach3GWSiSVoL6n3cTr3hk1d3TuePDh1a/ngs/
+th5XqPL4VyJ3Nns8zxcS5IKrHK1QMKBlvhQwkdL4xQUl1T45nJew+f2+/MeeMls5
+b9Up2wc8PVDn7lR+PBTUgQ7CmGhuFxhZu7hgyHzZg69FYczZADqsKUBzDwyjVj7H
+JUkcSNv0QCCVVBGwMWHaBQoSvVnCf3aI0oKlLzsbN872fuxFjsQnvnbWBGhKR9RF
+KDQH5OjrrqQdlfQixovBpeSQzCl7KwSdALSSKE2ep/4SW+gMUkY33++qwwmRxibF
+plrywF2ZNLlS8ZCkbDGXCsTIYOdAZp8ccu+TOSTVAIDEKqGdjnw=
+=+ZEg
 -----END PGP SIGNATURE-----
 
---===============2831041806242220493==
+--===============8030792369535813385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0961801d5ee8-e66867890cf2.txt
+Content-Disposition: attachment; filename=revlist-ed1b86ba0fba-49d3e5996155.txt
 
 00da6a701a69b685ee7cac95b5c276e2d011dbca scsi: st: Return error code in st_scsi_execute()
 21eccf304b3a16c26fc2878faca4665907a318ec scsi: scsi_ioctl: Return error code when blk_rq_map_kern() fails
@@ -132,4 +132,4 @@ adb98ec72b7213f39cf83dae41d6137da33bde5a scsi: qedf: Add vendor identifier attri
 974db67a518b4f2ca690c29923abbbd9d5f1abfd scsi: libfc: FDMI enhancements
 49d3e5996155a3067782748b0c4edf0309e951b6 scsi: fc: FDMI enhancement
 
---===============2831041806242220493==--
+--===============8030792369535813385==--
