@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 16 Jun 2021 22:34:07 -0000
-Message-Id: <162388284796.30017.12190389087201988792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 16 Jun 2021 22:37:05 -0000
+Message-Id: <162388302521.32447.15735402813042016305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 40f996c64afa28ddc0d9a081ba0fac3526d046b9
-    new: dda85ae73f31309dd43b239296d47de6b4bfa132
-    log: |
-         dda85ae73f31309dd43b239296d47de6b4bfa132 monitor: Adding missing device found flag in the parser
-         
+  - ref: refs/tags/mlx5-fixes-2021-06-16
+    old: 0000000000000000000000000000000000000000
+    new: d642284b083acb213a45a4bf521b4a206635dde3
