@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4493645561049171418=="
+Content-Type: multipart/mixed; boundary="===============3235747916030516906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 16 Jun 2021 15:23:31 -0000
-Message-Id: <162385701126.31539.7151863062377708215@gitolite.kernel.org>
+Date: Wed, 16 Jun 2021 15:27:24 -0000
+Message-Id: <162385724437.1918.11128472985354231588@gitolite.kernel.org>
 
---===============4493645561049171418==
+--===============3235747916030516906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/coresight/linux
 user: mjp
 changes:
-  - ref: refs/heads/next
-    old: 5fc31a78239f7707f8b8d2a97073d943c0b794fa
-    new: 60f86b9a1c0d81507133173ba3dcfc3edd4d89a5
-    log: revlist-5fc31a78239f-60f86b9a1c0d.txt
+  - ref: refs/heads/next-system-configuration
+    old: bae61369e84c610dc8667040938e51afabb3acff
+    new: 2c8431c1abdd657203a0996c3934648ae2b3358f
+    log: revlist-bae61369e84c-2c8431c1abdd.txt
 
---===============4493645561049171418==
+--===============3235747916030516906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fc31a78239f-60f86b9a1c0d.txt
+Content-Disposition: attachment; filename=revlist-bae61369e84c-2c8431c1abdd.txt
 
-0ab95c2510b641fb860a773b3d242ef9768a8f66 Defer close only when lease is enabled.
-e2f5efd0f0e229bd110eab513e7c0331d61a4649 powerpc: Fix early setup to make early_ioremap() work
-b106776080a1cf953a1b2fd50cb2a995db4732be thunderbolt: dma_port: Fix NVM read buffer bounds and offset issue
-22c7a18ed5f007faccb7527bc890463763214081 thunderbolt: usb4: Fix NVM read buffer bounds and offset issue
-43a511c44e58e357a687d61a20cf5ef1dc9e5a7c gfs2: Prevent direct-I/O write fallback errors from getting lost
-4194dec4b4169e5a9a5171db60c2ec00c4d8cf16 gfs2: Fix I_NEW check in gfs2_dinode_in
-20265d9a67e40eafd39a8884658ca2e36f05985d gfs2: fix scheduling while atomic bug in glocks
-865cc3e9cc0b1d4b81c10d53174bced76decf888 gfs2: fix a deadlock on withdraw-during-mount
-f5456b5d67cf812fd31fe3e130ca216b2e0908e5 gfs2: Clean up revokes on normal withdraws
-7e008b02557ccece4d2c31fb0eaf6243cbc87121 dma-buf: fix unintended pin/unpin warnings
 e68671e9e1275dfdda333c3e83b6d28963af16b6 platform/x86: touchscreen_dmi: Add info for the Chuwi Hi10 Pro (CWI529) tablet
 ba5ef6dc8a827a904794210a227cdb94828e8ae7 io_uring: fortify tctx/io_wq cleanup
 e380adfc213a13677993c0e35cb48f5a8e61ebb0 btrfs: zoned: pass start block to btrfs_use_zone_append
@@ -1050,5 +1040,15 @@ af36b6859a2ef0af516c5b9118580d1598070942 coresight: etm4x: core: Remove redundan
 01d12a6656f7fa239cddbd713656be83cdbdc9b3 firewire: nosy: switch from 'pci_' to 'dma_' API
 c7e9967668d98f868fb577fd95d84fdb1ba0446c mei: hdcp: SPDX tag should be the first line
 60f86b9a1c0d81507133173ba3dcfc3edd4d89a5 mcb: Remove trailing semicolon in macros
+c74fc23b0fdcd9e6076298ba2dbc6d525ba3deeb coresight: syscfg: Initial coresight system configuration
+eccb8359113db34c79039015b065e1ad9591df86 coresight: syscfg: Add registration and feature loading for cs devices
+65d5bd011ed504da6ff2506e52e523a0d2d0d548 coresight: config: Add configuration and feature generic functions
+a9c94ccdfe0a75b04f60c8dd5bda342942e9a06e coresight: etm-perf: update to handle configuration selection
+d78094226ab7e5cedd0dcb8da9d8fc68bba9de7c coresight: syscfg: Add API to activate and enable configurations
+94bd5c70a07ecc6032b1a4b13b4fd43395bcfc91 coresight: etm-perf: Update to activate selected configuration
+2b503f40378021e94e202cc52ac60cecebfac002 coresight: etm4x: Add complex configuration handlers to etmv4
+5b59b66edadeca69c3fe67cfd01e0e74657903a6 coresight: config: Add preloaded configurations
+a158bc07889e89c180cbde4d7d915bb9ebeab24b coresight: syscfg: Add initial configfs support
+2c8431c1abdd657203a0996c3934648ae2b3358f Documentation: coresight: Add documentation for CoreSight config
 
---===============4493645561049171418==--
+--===============3235747916030516906==--
