@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 17 Jun 2021 22:14:33 -0000
-Message-Id: <162396807322.26506.8268999482824348329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 17 Jun 2021 22:22:06 -0000
+Message-Id: <162396852611.993.18139705168881709279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/dt/next
-    old: 0e407a9a29ff0471a57e88006897d5e7d5cd9505
-    new: cfe34bb7a770c5d8af053d53f5b76d5033667a73
+  - ref: refs/heads/for-next/perf
+    old: 64432f09068a0fa76f20918a3c22ee3484a3762d
+    new: d96b1b8c9f79b6bb234a31c80972a6f422079376
     log: |
-         1fc4f5238d9680c7889cbd56c3c6a8ddd1f74d5c dt-bindings: PCI: ti,am65: Convert PCIe host/endpoint mode dt-bindings to YAML
-         cfe34bb7a770c5d8af053d53f5b76d5033667a73 dt-bindings: drm: bridge: adi,adv7511.txt: convert to yaml
+         4e16f283edc289820e9b2d6f617ed8e514ee8396 perf/arm-cmn: Fix invalid pointer when access dtc object sharing the same IRQ number
+         d96b1b8c9f79b6bb234a31c80972a6f422079376 drivers/perf: fix the missed ida_simple_remove() in ddr_perf_probe()
          
