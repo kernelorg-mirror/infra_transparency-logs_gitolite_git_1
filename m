@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 17 Jun 2021 03:00:03 -0000
-Message-Id: <162389880312.20028.8735013263333293609@gitolite.kernel.org>
+Date: Thu, 17 Jun 2021 03:05:55 -0000
+Message-Id: <162389915565.24287.3445893167054580682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 809ed84de8b3f2fd7b1d06efb94bf98fd318a7d7
-    new: 712b78c697cd75b62b7707b5a20bcd914aedfdaa
+  - ref: refs/heads/master
+    old: 712b78c697cd75b62b7707b5a20bcd914aedfdaa
+    new: 6ffb1eddfb5af3a5736cba10d00a6086a058defd
     log: |
-         712b78c697cd75b62b7707b5a20bcd914aedfdaa bpf: Fix typo in kernel/bpf/bpf_lsm.c
+         6ffb1eddfb5af3a5736cba10d00a6086a058defd samples/bpf: Fix Segmentation fault for xdp_redirect command
          
