@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0534216028853134048=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 17 Jun 2021 13:32:22 -0000
-Message-Id: <162393674205.28449.17366878600389057970@gitolite.kernel.org>
-
---===============0534216028853134048==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Thu, 17 Jun 2021 13:32:35 -0000
+Message-Id: <162393675525.28610.10886633000862585447@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/usb-testing
-    old: e56621580755d40551f3fae5766907ae1c24d1fc
-    new: 73f3d9453dfda055aff6e5ffde37f7ee625c3f38
+  - ref: refs/heads/ixp4xx-armsoc-v5.13-rc1
+    old: 8f213b2f8b331d7d6d8226d3f589ad5495dc172a
+    new: 0da518dae87dd18e5f23e406e15575f393e4a97c
     log: |
-         d6963f22da2ed9c1778be28e87b4453b51be921f usb: host: u132-hcd: remove redundant continue statements
-         73f3d9453dfda055aff6e5ffde37f7ee625c3f38 USB: UDC: net2280: remove redundant continue statement
+         09aa9aabdcc4966270b031816a16d4641fb45dfa soc: ixp4xx: move cpu detection to linux/soc/ixp4xx/cpu.h
+         55712627bffd666c9f25eb23c15c55ec85e5a73f pata: ixp4xx: split platform data to its own header
+         478d2dae73309fbc761891b46a110392ab28c922 hw_random: ixp4xx: enable compile-testing
+         479dfb6d56020548161ecfd3ba0b3770ac5f4bc2 hw_random: ixp4xx: Use SPDX license tag
+         854a004305c202d85e2536459187bc7ab5edef31 hw_random: ixp4xx: Turn into a module
+         cca061b04c0de4c8a0b2cfcdf534ab0a566178c3 hw_random: ixp4xx: Add DT bindings
+         b80e60eb8ecc77e479ed19a70d1b9e86f0fcc2ca hw_random: ixp4xx: Add OF support
+         0da518dae87dd18e5f23e406e15575f393e4a97c ixp4xx: fix spelling mistake in Kconfig "Devce" -> "Device"
          
-
---===============0534216028853134048==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623936740 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623936739-27467854724b8e6fa04bff6eaa36060b7aa5b6b2
-
-e56621580755d40551f3fae5766907ae1c24d1fc 73f3d9453dfda055aff6e5ffde37f7ee625c3f38 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDLTuQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LukP/05uTdwoTyvTWRTQYEYN
-bjz6DDtSUnah1KTpXxdKQs8aS3DiP2ymyI4EFZ2vUFaeA41hfPlcEGqZDEkZOfJ+
-2414bFxd4Y+UQJRE7T7FspzO/BI1rbPor5AaYPTpVRuGJmSQAcVN6sSXXFLTQxT2
-NtAnbiUUlXxnNfWtkixK3DiVeLrfYKoeKBPpAqLbEPxfY9jRJw2OWHcw9jRY5Ifu
-ivNlLXSuaTd9kaBfBBNLZQJd0WsCV/vx/jiIBOgLyhN4W1PYEWFVe+AgtJvTBc6S
-EPryx0YSbyVV3HZ1Qi7NtEjKuLcn82fsHkK/TsIr4l4gkwkrYlxjac4JaRQq9syv
-MVHT8qZ2+QV5FSC5t9RzIqJSwn+CJ9n5Z9oYnDR3v/QjqUn4xwNOJ9+rsoBNFBVH
-zm7IhB0tgHG+J+aPQuBB/uIBQpP5ACZB5sdtnxwukaRrGXrVw/iHhMMsOwHX2fyn
-3bRkV6jZ9oZ3j3fbHdreGL2p/L/D3SF+YJy4cIwHBlyukq/WfbgI38f7cRngPiC2
-JE1TXaHvOi0BBSsmZqWU34znEIito8TVIW35Ooz4RszT5glSbPoq7pAsSRBJPy1X
-DIivkdIkr05mXhw5fnTP5ce4vTg9J9SeZ21CPQdDW/Gv1thvwPmRDtqhzeVPt4mo
-tkXX1BKFe1AD1mBW260T2/EO
-=U0US
------END PGP SIGNATURE-----
-
---===============0534216028853134048==--
