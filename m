@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
-Date: Thu, 17 Jun 2021 03:49:51 -0000
-Message-Id: <162390179110.19913.15627724462515187056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 17 Jun 2021 03:58:02 -0000
+Message-Id: <162390228226.26279.12434954858799579618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/luto/linux
-user: luto
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/x86/membarrier
-    old: df3b012fb56f54e581492d7ec053e36d4eacfabc
-    new: e770825bc146248500e7afca8e9b83ded03e8a73
+  - ref: refs/heads/for-next/Warray-bounds
+    old: d5f3d2f175ce450938e363cda4efa3e10a8c9b81
+    new: 9f6e5c27ef7e3d046985438ff82ca238ca1c8aff
     log: |
-         764be33e0b82bdce7e245d86561d85db9604e2c1 membarrier: Make the post-switch-mm barrier explicit
-         c303b29beb8d5c37cc52e2e88a569757aaa7ce94 membarrier, kthread: Use _ONCE accessors for task->mm
-         1bd333174c46e154971cae8f38b54346f4c0d5eb powerpc/membarrier: Remove special barrier on mm switch
-         b7ddf8385d0ce4eb04cc798b3e37a2beaae6c160 membarrier: Remove arm (32) support for SYNC_CORE
-         e770825bc146248500e7afca8e9b83ded03e8a73 membarrier: Rewrite sync_core_before_usermode() and improve documentation
+         9f6e5c27ef7e3d046985438ff82ca238ca1c8aff Makefile: Enable -Warray-bounds
          
