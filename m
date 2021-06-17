@@ -1,51 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5046396067562202707=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 17 Jun 2021 14:36:09 -0000
-Message-Id: <162394056977.10545.15302930362503051972@gitolite.kernel.org>
-
---===============5046396067562202707==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Thu, 17 Jun 2021 14:36:22 -0000
+Message-Id: <162394058240.10710.11722664662076142012@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/spi-5.14
-    old: 6a5976f23dc38749afcb62cc3acf5e3e2b53d5ba
-    new: 476ad3ff8952db3569a77d9ed4a067c5f0f4b733
+  - ref: refs/heads/android-3.18-preview
+    old: 6ecdfe2e81d495faf61c665e12f4f6fbbf4b0bcc
+    new: d4fc16eaca8d931b1f3b52a634296476c7c78fe7
     log: |
-         aa7968682a2b8a9cecf1d7d07e1c8ae8c08d211e spi: convert Cadence SPI bindings to YAML
-         476ad3ff8952db3569a77d9ed4a067c5f0f4b733 spi: xilinx: convert to yaml
+         70f61b07a78c5792e18bae50b52dee3c87014b96 mmc: core: Set read only for SD cards with permanent write protect bit
+         db6c28cadd45bf89de46ab1285dc07de9280015c fbdev: zero-fill colormap in fbcmap.c
+         4104aa407706fd61c25568e9c70eee2ec2776b1b staging: wimax/i2400m: fix byte-order issue
+         85bde99c44b98dc9751fd7bd1c7b394f0594b901 usb: gadget: uvc: add bInterval checking for HS mode
+         f13764e10b92c46bbbb119dee4c9ea0e1dfbb995 PCI: PM: Do not read power state in pci_enable_device_flags()
+         91fbc71063827282068df65cbd2e2b60b3a5b705 x86/build: Propagate $(CLANG_FLAGS) to $(REALMODE_FLAGS)
+         969768c3c61c7ef7276189496663f5d1a742fe78 phy: phy-twl4030-usb: Fix possible use-after-free in twl4030_usb_remove()
+         3e6b6ef8938e264752bcbc647d2093dfe69bb134 btrfs: convert logic BUG_ON()'s in replace_path to ASSERT()'s
+         9e837b666125794b75ef89d9c2f0cea570fde841 scsi: target: pscsi: Fix warning in pscsi_complete_cmd()
+         d4fc16eaca8d931b1f3b52a634296476c7c78fe7 media: ite-cir: check for receive overflow
          
-
---===============5046396067562202707==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1623940550 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1623940567-91225cba22e9ffeda90dc2dff568c5345c7179a5
-
-6a5976f23dc38749afcb62cc3acf5e3e2b53d5ba 476ad3ff8952db3569a77d9ed4a067c5f0f4b733 refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDLXcYACgkQJNaLcl1U
-h9Aw4gf7B7iG4ybvlFuHTaZllzvAMIkFJxnBCMaX5rSDu0qj8EXbZTpvDN5/S0Tq
-CIS+o30tY17kFMsLgeepI8MzY0oXtnMADx37gJ7BnWOUGQXG9ORb2D6vGNBKJ3nH
-fI94aD0clx//7dQABRrc8O0D+PkVEqXhutJ9DROI92bShueGkZBweGfnecujuKFo
-/xL3kC6ZPMt6mAzKHohDPgyWmtT/nSB5u7fBe1P0upQAcJ5fIEqZhGJqQRYvNHfG
-E3ntm7Jzv9SdpvhpKmheSIb7LIgfcgoVxWhozEtTa9rHuF5raVEF3Yxu2gvjtZTS
-o0Xt/RAfahAmyXEJeJ56H3obA50eew==
-=oQQl
------END PGP SIGNATURE-----
-
---===============5046396067562202707==--
