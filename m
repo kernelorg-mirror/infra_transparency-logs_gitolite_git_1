@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Jun 2021 18:24:16 -0000
-Message-Id: <162395425687.3281.11705100527195581120@gitolite.kernel.org>
+Date: Thu, 17 Jun 2021 18:25:23 -0000
+Message-Id: <162395432324.5130.9785219982232150001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: da5ac772cfe2a03058b0accfac03fad60c46c24d
-    new: c19c8c0e666f9259e2fc4d2fa4b9ff8e3b40ee5d
+    old: c19c8c0e666f9259e2fc4d2fa4b9ff8e3b40ee5d
+    new: 7edcc682301492380fbdd604b4516af5ae667a13
     log: |
-         c19c8c0e666f9259e2fc4d2fa4b9ff8e3b40ee5d be2net: Fix an error handling path in 'be_probe()'
+         7edcc682301492380fbdd604b4516af5ae667a13 net: hamradio: fix memory leak in mkiss_close
          
