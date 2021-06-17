@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Thu, 17 Jun 2021 21:42:49 -0000
-Message-Id: <162396616941.5941.14869103040323357288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 17 Jun 2021 22:14:33 -0000
+Message-Id: <162396807322.26506.8268999482824348329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/ftrace/urgent
-    old: 65ffe944dfd87469daa64bf0f733e70dae5d71c0
-    new: d5320f28d2cb76c8019cbdf9edc26544e28f409f
+  - ref: refs/heads/dt/next
+    old: 0e407a9a29ff0471a57e88006897d5e7d5cd9505
+    new: cfe34bb7a770c5d8af053d53f5b76d5033667a73
     log: |
-         9856e6647c92843641dcf2897b6886e74969d3e0 tracing: Do not stop recording cmdlines when tracing is off
-         a39b0d35f3b97010ab62b82c5be807173ceb0548 tracing: Do not stop recording comms if the trace file is being read
-         d5320f28d2cb76c8019cbdf9edc26544e28f409f tracing: Do no increment trace_clock_global() by one
+         1fc4f5238d9680c7889cbd56c3c6a8ddd1f74d5c dt-bindings: PCI: ti,am65: Convert PCIe host/endpoint mode dt-bindings to YAML
+         cfe34bb7a770c5d8af053d53f5b76d5033667a73 dt-bindings: drm: bridge: adi,adv7511.txt: convert to yaml
          
