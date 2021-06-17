@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 17 Jun 2021 13:27:43 -0000
-Message-Id: <162393646359.25208.16693240448645034280@gitolite.kernel.org>
+Date: Thu, 17 Jun 2021 13:28:36 -0000
+Message-Id: <162393651666.25563.8457235884028994636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 86deb18dc6bf6ba9a281e5b50002c135183defb7
-    new: df079df6a0025310b7221d7b3cd101df33c131c9
+    old: df079df6a0025310b7221d7b3cd101df33c131c9
+    new: bee5eaeee5b6281a82825265a99a06ba2ba5c4a9
     log: |
-         df079df6a0025310b7221d7b3cd101df33c131c9 fixup
+         bee5eaeee5b6281a82825265a99a06ba2ba5c4a9 selftests/sgx: Assign soure for each segment
          
