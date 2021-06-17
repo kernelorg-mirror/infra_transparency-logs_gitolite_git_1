@@ -1,28 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Thu, 17 Jun 2021 14:36:22 -0000
-Message-Id: <162394058240.10710.11722664662076142012@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1442893469290344061=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 17 Jun 2021 14:36:33 -0000
+Message-Id: <162394059324.10874.9853037298916322285@gitolite.kernel.org>
+
+--===============1442893469290344061==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 6ecdfe2e81d495faf61c665e12f4f6fbbf4b0bcc
-    new: d4fc16eaca8d931b1f3b52a634296476c7c78fe7
+  - ref: refs/heads/for-linus
+    old: f672c9ebf36b692de300866347b3a6198025d8b3
+    new: 2825d11947149a08bef87be19b052fc32c77de8e
     log: |
-         70f61b07a78c5792e18bae50b52dee3c87014b96 mmc: core: Set read only for SD cards with permanent write protect bit
-         db6c28cadd45bf89de46ab1285dc07de9280015c fbdev: zero-fill colormap in fbcmap.c
-         4104aa407706fd61c25568e9c70eee2ec2776b1b staging: wimax/i2400m: fix byte-order issue
-         85bde99c44b98dc9751fd7bd1c7b394f0594b901 usb: gadget: uvc: add bInterval checking for HS mode
-         f13764e10b92c46bbbb119dee4c9ea0e1dfbb995 PCI: PM: Do not read power state in pci_enable_device_flags()
-         91fbc71063827282068df65cbd2e2b60b3a5b705 x86/build: Propagate $(CLANG_FLAGS) to $(REALMODE_FLAGS)
-         969768c3c61c7ef7276189496663f5d1a742fe78 phy: phy-twl4030-usb: Fix possible use-after-free in twl4030_usb_remove()
-         3e6b6ef8938e264752bcbc647d2093dfe69bb134 btrfs: convert logic BUG_ON()'s in replace_path to ASSERT()'s
-         9e837b666125794b75ef89d9c2f0cea570fde841 scsi: target: pscsi: Fix warning in pscsi_complete_cmd()
-         d4fc16eaca8d931b1f3b52a634296476c7c78fe7 media: ite-cir: check for receive overflow
+         2825d11947149a08bef87be19b052fc32c77de8e Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: c4fee0e615dcc620bec80e34f38ede5497d2b422
+    new: fa724802a87222584f46d99d32dd323927c99b36
+    log: revlist-c4fee0e615dc-fa724802a872.txt
+
+--===============1442893469290344061==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c4fee0e615dc-fa724802a872.txt
+
+2f1776691978dfab30717548ffec0f3fa4ad0981 ASoC: stm32: i2s: Use devm_platform_get_and_ioremap_resource()
+003ee640abaeeaa7d11f931e5bb86bdc4becb594 ASoC: stm32: sai: Use devm_platform_get_and_ioremap_resource()
+f3babad47e0db3daec301975b46de5bfadc15dd4 ASoC: stm32: spdifrx: Use devm_platform_get_and_ioremap_resource()
+06e6d9044022e1be17757b2db5826115bc634868 ASoC: sti: sti_uniperif: Use devm_platform_get_and_ioremap_resource()
+7d3865a10b9ff2669c531d5ddd60bf46b3d48f1e ASoC: soc-core: Fix the error return code in snd_soc_of_parse_audio_routing()
+19b71456f3684f8dba078619a31afab05ee47c3a ASoC: sprd: Use devm_platform_get_and_ioremap_resource()
+114bacc75c2189a6ed7ee208545e8d6777c94aec ASoC: spear: spdif_out: Use devm_platform_get_and_ioremap_resource()
+4cb9d648f669c4e31bec4447c98553c65079681b Merge series "ASoC: stm32: Use devm_platform_get_and_ioremap_resource()" from Yang Yingliang <yangyingliang@huawei.com>:
+2825d11947149a08bef87be19b052fc32c77de8e Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+fa724802a87222584f46d99d32dd323927c99b36 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+
+--===============1442893469290344061==--
