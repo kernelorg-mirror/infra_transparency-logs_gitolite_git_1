@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2782027147634627069=="
+Content-Type: multipart/mixed; boundary="===============8058995147987061994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 17 Jun 2021 15:15:37 -0000
-Message-Id: <162394293759.6114.11398727252652734143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 17 Jun 2021 15:34:54 -0000
+Message-Id: <162394409418.18485.17604429869588963401@gitolite.kernel.org>
 
---===============2782027147634627069==
+--===============8058995147987061994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-next
-    old: 46cbe4329509eed42c2ef56975e96b55912e3b06
-    new: fca155053151bdb46b982bc7d873f17b76ae19ec
-    log: revlist-46cbe4329509-fca155053151.txt
-  - ref: refs/heads/queue-rc
-    old: 1b40285d21def6596e2ea2b2529a0d56767e3929
-    new: dd37130759d0b92cda21b494d9d85c850f5ab90c
+  - ref: refs/heads/usb-testing
+    old: 03026197bb657d784220b040c6173267a0375741
+    new: b31d9d6d7abbf6483b871b6370bc31c930d53f54
     log: |
-         dd37130759d0b92cda21b494d9d85c850f5ab90c Merge branch 'testing/rdma-rc' into queue-rc
+         ebd88cf50729e1891dbd307dec311b8f05ba2462 xhci: Remove unused defines for ERST_SIZE and ERST_ENTRIES
+         90d551a5bc73d34c600507a1ef61f3a7c0840783 xhci: Add adaptive interrupt rate for isoch TRBs with XHCI_AVOID_BEI quirk
+         271a21d8b280b186f8cc9ca6f7151902efde9512 xhci: handle failed buffer copy to URB sg list and fix a W=1 copiler warning
+         b31d9d6d7abbf6483b871b6370bc31c930d53f54 xhci: solve a double free problem while doing s4
          
 
---===============2782027147634627069==
+--===============8058995147987061994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46cbe4329509-fca155053151.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4429b6b81878a221366b5325b31806667c757b18 RDMA/hns: Implement QP creation validator
-faced399c585ee85000e12d55da17b8d40601320 RDMA/irdma: Validate QP attributes
-4907334b330d25548c56467a99698a8010e4931a RDMA/mlx5: Validate QP creation attributes
-0bc5ac7f41f7bf54ba96a51c8f87c800799fcae7 RDMA/mthca: Validate QP creation attributes
-f2600b221fa750ad6d863ab80c476eeb0a981d3e RDMA/ocrdma: Validate QP attributes
-58557b92135a69bdf31bce4087937ac552864f99 RDMA/qedr: Validate QP attributes
-6e2d31727611fb8a6e403fe5276d34effd6312c1 RDMA/usnic: Validate QP attributes
-b133f22377c8d3768cf793fae13bdf3994763866 RDMA/vmw_pvrdma: Validate QP attributes
-3610e2a084c1b91dce3852e28e145880812af403 RDMA/rdmavt: Validate QP attributes
-a503b174cb88f1252c1506effbdf7fa312479175 RDMA/rxe: Validate QP attributes
-777dc43d82c7f3dd329e468974e69bce5cf6d1ac RDMA/siw: Validate QP attributes
-29e81f665697578b2ae98d8d6506773e611e5634 Merge branch 'rdma-next' into testing/rdma-next
-c262c522df493bddfca341113bf8040f4c1f1a0f Merge branch 'testing/rdma-next' into queue-next
-fca155053151bdb46b982bc7d873f17b76ae19ec devlink: Remove node check for mode set call
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623944091 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1623944090-bfc7989fd286cc15aa7e0e757e38d39286a1b6ed
 
---===============2782027147634627069==--
+03026197bb657d784220b040c6173267a0375741 b31d9d6d7abbf6483b871b6370bc31c930d53f54 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDLa5sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NokP/1TawTVXK9YfAZ2vFfVX
+GPn7o9U1z8Q9+hURfKnbQ1f5AZh5uqN/T1M6H+fLMl0YHWrzD14+PWk/JtI3tjwK
+YRALffC00AW34hcylrvpkuU/va8wqSzlenoCscV5a8bsZH+IJvWzoWq+gAu9axzN
+Rbd5MtUb0EiAbuOcFSDpYawUkaKMpLAhWIa1EUG/mVaiDnhjmSi4Ub85EK4+zbWk
+lb6nxCKUlYmEi0dAhID5fkN3Vl1pd1FbEGTh3nkyDjApW4bmA2BCZGlUF7O6b7QM
+4edrPiXikuUaYAQ2o/u5f7dw4qaFEtATcVVRNNMHnIogcwpMtYS7saAd0UZSAU9h
+rPDNnBw3B7FrAMiI6fBI6LR1DYkthagiPJ6FGB4OQxQUx1feePcV4H/qmz7LfmeG
+cAvLswzczqp6q27uLhJHJqiEmE15YTW3FkKAtwrIj6+YzQG7savngxeSHEIpPA1f
+VJ9vBiu3uY/QR/WgFlkyuGO7j0zfheo4D9rtJ92D0MupH/Z+zQcz6HC+IRxK4yGv
+UU9JOAlKTk8O8kAdCIbkNLlsBHrKXfDVSLFILcAwk6Q7P6aRofOFkOopAKlyMiej
+oDNWiJ9VjE90lHsTQECqRazBrzVk9o5RrEnYlxHuu6THVlbjJzB9kpTPKkCOXs77
+JE2Q3c8+7cIpBTsVCUXnZjL9
+=mwXB
+-----END PGP SIGNATURE-----
+
+--===============8058995147987061994==--
