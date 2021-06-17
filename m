@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 17 Jun 2021 11:06:11 -0000
-Message-Id: <162392797110.24925.15244856871936491545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 17 Jun 2021 11:10:27 -0000
+Message-Id: <162392822789.27833.8282689603553229881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: 28131e9d933339a92f78e7ab6429f4aaaa07061c
-    new: f20792d425d2efd2680f2855c1e3fec01c2e569e
+  - ref: refs/heads/master
+    old: 07e687106a2f3f2b6c67d61e6b15127f391a7bc4
+    new: 06fff682556051585299080811022ac2d8e68cba
     log: |
-         f20792d425d2efd2680f2855c1e3fec01c2e569e selftests/bpf: Fix selftests build with old system-wide headers
+         8f752a2bd7ecf349ed44c3d9999b7f8e78b2b784 Fix a Coverity warning.
+         06fff682556051585299080811022ac2d8e68cba Enable build of LUKS2 external tokens by default.
          
+  - ref: refs/merge-requests/171/head
+    old: 0000000000000000000000000000000000000000
+    new: 06fff682556051585299080811022ac2d8e68cba
+  - ref: refs/merge-requests/171/merge
+    old: 0000000000000000000000000000000000000000
+    new: 7521fee129c085736552d7161699857f13ad0a41
