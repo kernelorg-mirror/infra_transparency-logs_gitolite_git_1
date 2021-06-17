@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7811687653391087850=="
+Content-Type: multipart/mixed; boundary="===============4089139784858620053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 17 Jun 2021 19:52:21 -0000
-Message-Id: <162395954123.30180.11566790585938946528@gitolite.kernel.org>
+Date: Thu, 17 Jun 2021 19:52:48 -0000
+Message-Id: <162395956863.30412.3925485748816904106@gitolite.kernel.org>
 
---===============7811687653391087850==
+--===============4089139784858620053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f20792d425d2efd2680f2855c1e3fec01c2e569e
     new: 8fe088bd4fd12f4c8899b51d5bc3daad98767d49
     log: revlist-f20792d425d2-8fe088bd4fd1.txt
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
 
---===============7811687653391087850==
+--===============4089139784858620053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1051,4 @@ ee58a3c7c6bbabb0bf3685a8b437b5d4be33890c net: hdlc_ppp: remove unnecessary out o
 200cedf1925a13aaa262d3b7118ee5e064fc3cf3 Merge branch 'hdlc_ppp-cleanups'
 8fe088bd4fd12f4c8899b51d5bc3daad98767d49 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============7811687653391087850==--
+--===============4089139784858620053==--
