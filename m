@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5035355133294003271=="
+Content-Type: multipart/mixed; boundary="===============7695941862022056252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 17 Jun 2021 14:35:49 -0000
-Message-Id: <162394054974.10174.14793243154303087654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 17 Jun 2021 14:35:56 -0000
+Message-Id: <162394055633.10270.7692457466217165707@gitolite.kernel.org>
 
---===============5035355133294003271==
+--===============7695941862022056252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: e99d7c69fd4c18e7319f8aab8e252b12130796bf
     new: 4cb9d648f669c4e31bec4447c98553c65079681b
     log: |
@@ -30,28 +30,28 @@ changes:
          4cb9d648f669c4e31bec4447c98553c65079681b Merge series "ASoC: stm32: Use devm_platform_get_and_ioremap_resource()" from Yang Yingliang <yangyingliang@huawei.com>:
          
 
---===============5035355133294003271==
+--===============7695941862022056252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1623940530 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1623940547-8721a3a07ef23d7a7f5cb9caa0a357dd6272c97c
+pusher C3F436CA30F5D8EB 1623940536 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1623940554-3c90666e71a51796dd244ca29909ca5378a6cc55
 
-e99d7c69fd4c18e7319f8aab8e252b12130796bf 4cb9d648f669c4e31bec4447c98553c65079681b refs/heads/for-5.14
+e99d7c69fd4c18e7319f8aab8e252b12130796bf 4cb9d648f669c4e31bec4447c98553c65079681b refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDLXbIACgkQJNaLcl1U
-h9CwYAf+MSr6ghti1NUIEh7YiTcWgAjEERa80/THM3Wbido67ptp/9zBf08KRsHw
-x78Gnv9UOKdmF3KiiqlQz4ZK4vrSttLLiS/Eu/rp7OgOIQzLi3jJjoSZJfZa8R8x
-OgfBzPpaajOxGwiVloMiFIPDqbYUu+KKxH6VZEXN9+lHzLNzwU5tWPMyqO8imo1i
-o2ZFiX6HqRydRfYfdTb4Vltv8fMrEHNhUSaH6tvpzUfOjQLKSqeQhL1pgLQzKPQS
-Rix//HhWLj3B49slKF0b6VHZeTPW33WCtE2/ST+m0IbGjfYusDI7ipplkf08yZj3
-yVsnMnN9Zco4c+m4WqxBw1y05msP3g==
-=YS8x
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDLXbgACgkQJNaLcl1U
+h9DHCAf/eKPwTux7pljJFyj4NaQJCXP4FMSolZ6yscCaBA6lhzsgouf6wMYwFUIw
+9jB8+pKkndFfBDbxDN3YRtDD0Bd/U/8uu0Knv6Idk9qBUGpk27H4lta9/2nKGMJC
+6ZBuqECiwvCMqgI3Zaepekqoyw4EhpfMY0EqQfpOx4fS1ev/QXOrof/gGoHtbYZy
+D1ZZYofrahCLWNhk/ime5wC0SqzC2DRinH99RuP0eWj2jWTavI4IdSc3EiHquQcF
+pjl/m+wvLEvQJET8tG7kinUEWQwrnlkorebtVKcAs923dpERoO8zu2IcFCJY5VWz
+pc0dUkIY6+Epc/MiWimt5o+x5zFbtA==
+=camo
 -----END PGP SIGNATURE-----
 
---===============5035355133294003271==--
+--===============7695941862022056252==--
