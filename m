@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 17 Jun 2021 14:48:11 -0000
-Message-Id: <162394129173.18844.18164990552548151872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Thu, 17 Jun 2021 14:55:44 -0000
+Message-Id: <162394174497.25591.8679688343631520644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/for-next
-    old: 0e407a9a29ff0471a57e88006897d5e7d5cd9505
-    new: cfe34bb7a770c5d8af053d53f5b76d5033667a73
-    log: |
-         1fc4f5238d9680c7889cbd56c3c6a8ddd1f74d5c dt-bindings: PCI: ti,am65: Convert PCIe host/endpoint mode dt-bindings to YAML
-         cfe34bb7a770c5d8af053d53f5b76d5033667a73 dt-bindings: drm: bridge: adi,adv7511.txt: convert to yaml
-         
+  - ref: refs/heads/kprobes/kretprobe-stackfix-v8
+    old: 0000000000000000000000000000000000000000
+    new: d2f402b4133b9d741d4f1e815ed012055b9c4b1c
