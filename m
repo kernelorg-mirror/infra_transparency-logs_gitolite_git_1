@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6341117541004680340=="
+Content-Type: multipart/mixed; boundary="===============7875659689326496729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 17 Jun 2021 11:37:20 -0000
-Message-Id: <162392984058.13757.10664413556338302596@gitolite.kernel.org>
+Date: Thu, 17 Jun 2021 11:37:41 -0000
+Message-Id: <162392986109.13920.4826771273481704198@gitolite.kernel.org>
 
---===============6341117541004680340==
+--===============7875659689326496729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 59c56342459a483d5e563ed8b5fdb77ab7622a73
-    new: 0c33795231bff5df410bd405b569c66851e92d4b
-    log: revlist-59c56342459a-0c33795231bf.txt
+  - ref: refs/heads/testing
+    old: bd573ea5720470d1ea70f3e39fb2e2efad219311
+    new: 376fa224cb2e635ffe3b8879d210b679a7a6fb58
+    log: revlist-bd573ea57204-376fa224cb2e.txt
 
---===============6341117541004680340==
+--===============7875659689326496729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1623929831 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1623929856 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1623929830-09c813333f4f19c105bb32de88e2d406017af198
+nonce 1623929856-801e118a84fadba21cbb01cdf346befbff9f40ee
 
-59c56342459a483d5e563ed8b5fdb77ab7622a73 0c33795231bff5df410bd405b569c66851e92d4b refs/heads/master
+bd573ea5720470d1ea70f3e39fb2e2efad219311 376fa224cb2e635ffe3b8879d210b679a7a6fb58 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmDLM+cTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqXNLB/4n+3mbBKbi07JjJnow7hWAkTgKuIQ9
-ZHbRNsruXGzCsjzTA7K9LT77ObhhfPaJGGKXTay3pnaK+wBesU3GLt15gWvYG5Xt
-ja7pku6h4m8PJ1OGYCTp1/14ra4wiwQO9cLPMhnD066CU5PpY/m3I+68gztVMzUP
-iLQM7VDWaJ0vEdy0XMdtm6MTxtbErS7ptTLPyFoRRU6s7Vx5vtsnW/s46pKR+nKV
-5PdyXipEtcy+VzIMqkfKDmYcDRm86Dd7v3FikPaFkDJcewHqSB1Llosp7uheBE6j
-gvL0oZZf2zWxRt9lbzpqvRHorHSwnYqQrPJHsOr38I66gyZXUDFfiz9m
-=ezVJ
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmDLNAATHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqfdtB/9uFSXv9wLniSAse5YnNcD69PtU1ZW8
+4An+winfGn5iaB8HdMNjxRDPX3+iPokyLkAX5sEt6MCiLSsDhZ4YLFfREJ5iQSuM
+mX3LQkWRugER3Y8xguQNLQCFtFAOeLsuG4/PiTAx32o1nZlUTJWeuvNVsgz4qhYc
+d8CNfr/67fKmDiroeDeAvlCegILVwPo2DU8QNCUaDaMuPCotCn7VQVyEfLZDYZXj
+zyeUp23yzcMc2BWQCguZ4PZiJudPo27vxZGrRTNevKWvfsxHbS++/b6hJFLF266S
+JNeoZ8f+7T5n9NwOrKn7L70M2WK8EBMU1UyLBsNZm3i1lchJJnGkUkZJ
+=4Pje
 -----END PGP SIGNATURE-----
 
---===============6341117541004680340==
+--===============7875659689326496729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59c56342459a-0c33795231bf.txt
+Content-Disposition: attachment; filename=revlist-bd573ea57204-376fa224cb2e.txt
 
-f9f5301e7e2d4fa2445aab3ec889dac6b34ea63e ice: Register auxiliary device to provide RDMA
-9ed7533121219cb25408888cf7fbb929cedc033c i40e: Prep i40e header for aux bus conversion
-f4370a85d62e645107afc8a35a979be962b19258 i40e: Register auxiliary devices to provide RDMA
-897389de48283d413728dae7520973872cef8eb2 netfilter: nf_tables: remove xt_action_param from nft_pktinfo
-3a7244152f9c22f32f37dfba2a9b070a90bf877a octeontx2-af: add support for custom KPU entries
-5d16250b605963b8b45bf824b1889a6b3d64c662 octeontx2-af: load NPC profile via firmware database
-c87e6b1395792d25697927e2a565547ec7a62681 octeontx2-af: adding new lt def registers support
-11c730bfbf5b9eecdf0de1267314ab3e5ea4d896 octeontx2-af: support for coalescing KPU profiles
-f9c49be90c0536c7f51dfab788639586e0ccc2a8 octeontx2-af: Update the default KPU profile and fixes
-d3f2c48de7b86c17c93d412e08e7214c6e108c8a Merge branch 'npc-kpu-updates'
-238ebd8b487b7fc995284e9580257801f2c76aa5 ath9k: ar9003_mac: read STBC indicator from rx descriptor
-7a68cc16b82c963c096387917ced11a27c352261 batman-adv: mcast: add MRD + routable IPv4 multicast with bridges support
-1cf1ef60a1a64cb5e00148b35bb35abad0984234 batman-adv: Remove the repeated declaration
-02de318afa7a06216570ab69e028751590636a0e mt76: mt7615: do not set MT76_STATE_PM at bootstrap
-d4826d17b3931cf0d8351d8f614332dd4b71efc4 mt76: mt7921: remove leftover 80+80 HE capability
-593f555fbc6091bbaec8dd2a38b47ee643412e61 net: stmmac: fix kernel panic due to NULL pointer dereference of mdio_bus_data
-03a6ef31f2bc3e14522298a9617e240fb0f5954b net: axienet: Fix fall-through warning for Clang
 320daffdf249bb41531c01445054443c80440904 octeontx2-pf: Fix fall-through warning for Clang
 7c9896e37807862e276064dd9331860f5d27affc net: dsa: qca8k: check return value of read functions correctly
 9fe99de01440d9ede74d447ac76e9c445d8daae9 net: dsa: qca8k: add missing check return value in qca8k_phylink_mac_config()
@@ -1075,5 +1058,22 @@ f0dd7bf5e33066e554442c509ef6351728b95b51 net/smc: Add netlink support for SMC fa
 13defa275eef90c07886dbd9e74e3dada8af7348 net: marvell: prestera: Add matchall support
 8ac9900a215664e404f0d87a58d6c8460b8c31c3 Merge branch 'marvell-prestera-flower-match-all'
 0c33795231bff5df410bd405b569c66851e92d4b Merge tag 'wireless-drivers-next-2021-06-16' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+cb54e70fc2c5b6da787021923fdb0f225994aedf can: j1939: j1939_sk_sock_destruct(): correct a grammatical error
+91b397bd7b976aa32527bb568500c6bb4fab418f can: j1939: fix checkpatch warnings
+710e3a879636379d80b500ccca8c69a6cfdc8b31 can: j1939: replace fall through comment by fallthrough pseudo-keyword
+4b0fc37309c0659d9bfee7169265abeed27bb354 can: j1939: j1939_session_completed(): use consistent name se_skb for the session skb
+547a94d0e240194a75e3b5881d6ed8de55cc0608 can: j1939: j1939_session_tx_dat(): use consistent name se_skcb for session skb control buffer
+515017f1a5ad9dea8e46134de710dd209000b5c5 can: j1939: j1939_xtp_rx_dat_one(): use separate pointer for session skb control buffer
+dde02b7def568a71e4b64bfc33b9d9c9b29e9657 can: bittiming: fix documentation for struct can_tdc
+2d80fad421123c11b99b3b5f6e4c976f0e9f6cae can: netlink: remove redundant check in can_validate()
+5eb2cd8e2ded43105ce01bb1f3b6c1cec12b3f94 can: netlink: add interface for CAN-FD Transmitter Delay Compensation (TDC)
+1e8ba7282fb02550f9e5b947aee0902c754d4669 can: at91_can: use DEVICE_ATTR_RW() helper macro
+de45db6bec797a5e976eb9467f20d76adeed15ba can: esd_usb2: use DEVICE_ATTR_RO() helper macro
+3ae7d177ac5578fa76a3cd144dcd30bbc7b85da2 can: janz-ican3: use DEVICE_ATTR_RO/RW() helper macro
+98ae2213d7a59adde1f7610e37d32aaa17b4061d can: m_can: use devm_platform_ioremap_resource_byname
+99be8034899d57fd35ac7f1a08ef2a564f0f4a68 can: m_can: remove support for custom bit timing
+1da6aae49fea99905a0f0dee2054123fc73c81ae can: peak_pci: convert comments to network style comments
+9732e5c0f2ab02771bccb25f0cbcaf9ae38997de can: peak_pci: fix checkpatch warnings
+376fa224cb2e635ffe3b8879d210b679a7a6fb58 can: peak_pci: Add name and FW version of the card in kernel buffer
 
---===============6341117541004680340==--
+--===============7875659689326496729==--
