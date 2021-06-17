@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Thu, 17 Jun 2021 13:32:35 -0000
-Message-Id: <162393675525.28610.10886633000862585447@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8764149409756644128=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 17 Jun 2021 13:34:51 -0000
+Message-Id: <162393689156.29479.12807859555948690779@gitolite.kernel.org>
+
+--===============8764149409756644128==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ixp4xx-armsoc-v5.13-rc1
-    old: 8f213b2f8b331d7d6d8226d3f589ad5495dc172a
-    new: 0da518dae87dd18e5f23e406e15575f393e4a97c
+  - ref: refs/heads/usb-linus
+    old: 60ed39db6e861f4a42dfa75f9b53f10093f6d672
+    new: a7d8d1c7a7f73e780aa9ae74926ae5985b2f895f
     log: |
-         09aa9aabdcc4966270b031816a16d4641fb45dfa soc: ixp4xx: move cpu detection to linux/soc/ixp4xx/cpu.h
-         55712627bffd666c9f25eb23c15c55ec85e5a73f pata: ixp4xx: split platform data to its own header
-         478d2dae73309fbc761891b46a110392ab28c922 hw_random: ixp4xx: enable compile-testing
-         479dfb6d56020548161ecfd3ba0b3770ac5f4bc2 hw_random: ixp4xx: Use SPDX license tag
-         854a004305c202d85e2536459187bc7ab5edef31 hw_random: ixp4xx: Turn into a module
-         cca061b04c0de4c8a0b2cfcdf534ab0a566178c3 hw_random: ixp4xx: Add DT bindings
-         b80e60eb8ecc77e479ed19a70d1b9e86f0fcc2ca hw_random: ixp4xx: Add OF support
-         0da518dae87dd18e5f23e406e15575f393e4a97c ixp4xx: fix spelling mistake in Kconfig "Devce" -> "Device"
+         a7d8d1c7a7f73e780aa9ae74926ae5985b2f895f usb: core: hub: Disable autosuspend for Cypress CY7C65632
          
+
+--===============8764149409756644128==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623936889 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1623936889-2d30c81e0fddbdb86da01a39c4fc7b353856b6ab
+
+60ed39db6e861f4a42dfa75f9b53f10093f6d672 a7d8d1c7a7f73e780aa9ae74926ae5985b2f895f refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDLT3kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++pEP/jKw7eDt3+IIyRcrd1pK
+qkJX652136GoxQFShq2ogMxJD1G5Mg+wBzxRwKxtt0ftyXm62cy4a44doNqXBo7z
+XIcK0chxCpV2L+VBWvQNb+cixW5UMq4TN3RLJYmMiha3TGmHnLL0ghCvxfHGftQ7
+naSZRzIAjaojfwLyEZd5VyoCrf9pAjqGvU0EgXUoimGxCKBbGZHRQC4Ztjacb2X3
+oK9MnnpS8yzcOLAnawDnRS5A+TCNaYxAavtA4T61zg5jHvrekI3rRSJwiD9aX+lp
+MaTk8Zf2TioirTkZv7nAzIAyaGX7EHrOi9/8PTvXgl5nJTnwZtTQ/TMdfTgqOuKu
+37gOAloX3WRUAXXQTMnIMwuaM3bSe4woTMyBD/bqXhBEDcymd11GZZbpLxlnTqJL
+wCU3TsM5PxOgWEMNlYIe0ZoTj3TI7c+HHz9yNTN75U0m436XS/ndYDKuL+REovBk
+oB2660xx45ocNcnHkYt+BDnwgxX4RdHJvfz1DguQCrsmsVJU0ZybUxBN0UIQtuQS
+4Uj+5GY9he/Rp/UTM2uZ18UZymSK2/XqPXAbCM1xIbohJRK2ZB0wKHuEX2JwcMf5
+uMuwQTEowC7qPI32O9CJHlzqxLz9lF0gm3w7oR377WwbOeL/7zo1BZLGE3Uv3Lx0
+PHdAOpHOLtg2sTI2xGcvf25e
+=ZYZZ
+-----END PGP SIGNATURE-----
+
+--===============8764149409756644128==--
