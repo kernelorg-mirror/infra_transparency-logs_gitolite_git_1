@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 18 Jun 2021 08:53:40 -0000
-Message-Id: <162400642064.30579.10907705686522749513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 18 Jun 2021 09:08:13 -0000
+Message-Id: <162400729331.24071.11852431392302710500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/kvm-arm64/mmu/stage2-cmos
-    old: ae6d0823769e3ee051905fe8223f1209a6052a36
-    new: 7d99999c5f11600b91c97f66e761771350aa712e
+  - ref: refs/heads/dev
+    old: a529f200d4f963fdb93766c43f8e831bfd78c199
+    new: 554dd1ea0b5ed2883befc3d713b7f69ac366ad73
     log: |
-         bc4277a83c453f7086356d736c8bd78e44b70bf6 KVM: arm64: Introduce two cache maintenance callbacks
-         a32e7742a9d1ffc137688596b9574e2edbfba389 KVM: arm64: Introduce mm_ops member for structure stage2_attr_data
-         9cd550b2cfe953c884f041f980aa1b275441db19 KVM: arm64: Tweak parameters of guest cache maintenance functions
-         7d99999c5f11600b91c97f66e761771350aa712e KVM: arm64: Move guest CMOs to the fault handlers
+         1d16a49783b446f74039b19b0bf3b4ba90e3b2ad f2fs: clean up /sys/fs/f2fs/<disk>/features
+         39d1bfdf9626eea2f8750b481f77248026621389 f2fs: compress: add compress_inode to cache compressed blocks
+         10f764e8ec924214ee8ad9e36b36ce802d30e0fe f2fs: swap: remove dead codes
+         7cc52cc337170dc0c1ad6368f1a98f0121718eab f2fs: swap: support migrating swapfile in aligned write mode
+         554dd1ea0b5ed2883befc3d713b7f69ac366ad73 f2fs: introduce f2fs_casefolded_name slab cache
          
