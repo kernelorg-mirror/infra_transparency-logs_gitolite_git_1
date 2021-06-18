@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8432045931951748747=="
+Content-Type: multipart/mixed; boundary="===============0059750982467072698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Jun 2021 20:25:42 -0000
-Message-Id: <162404794258.23446.11402915112231288945@gitolite.kernel.org>
+Date: Fri, 18 Jun 2021 20:25:58 -0000
+Message-Id: <162404795832.23605.1676906642629045489@gitolite.kernel.org>
 
---===============8432045931951748747==
+--===============0059750982467072698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8fe088bd4fd12f4c8899b51d5bc3daad98767d49
-    new: 4bea7207a80c8bba3b3eb5b84c407b162968475f
-    log: revlist-8fe088bd4fd1-4bea7207a80c.txt
+  - ref: refs/heads/dev-queue
+    old: bd4db3e488622ddac5a683092535f3c86a3d5558
+    new: 5024498a2d53ab79ee50d7a78778a05329f6583a
+    log: revlist-bd4db3e48862-5024498a2d53.txt
 
---===============8432045931951748747==
+--===============0059750982467072698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fe088bd4fd1-4bea7207a80c.txt
+Content-Disposition: attachment; filename=revlist-bd4db3e48862-5024498a2d53.txt
 
 dda90cb90a5ced4ebfb75e3f06d59fa1abb58f65 ice: report hash type such as L2/L3/L4
 c6e088bf30dccb9fb7b7df7c394a2fe10eb3a27a i40e: clean up packet type lookup table
@@ -89,5 +89,88 @@ cc97141afd768d36eaef1b3e1afea2a74da7df27 vsock: rename vsock_has_data()
 5e90abf49c2adfbd6954429c2a1aafdfe9fcab92 net: wwan: Add RPMSG WWAN CTRL driver
 31c143f712750143abaca396236bbe8707700111 net: wwan: Allow WWAN drivers to provide blocking tx and poll function
 4bea7207a80c8bba3b3eb5b84c407b162968475f Merge branch 'RPMSG-WWAN-CTRL-driver'
+18dc393539e297674f1b2fb64c6ac98e2ac59a07 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+2e3fbf38e00406d73520d28426856712f16e4385 igc: Add UDP segmentation offload support
+077738513ebc3c1b17ce98221314e921f7da9bae ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+f791f04de0efe8c65eed8559f3e0acc71c26c40f i40e: add support for PTP external synchronization clock
+5f5ac0bb2f2bc72f70631dbc7709fa9dc0324fa8 iavf: Fix asynchronous tasks during driver remove
+24b467d4e396ba6da1a4916a4b77079b00d0606b i40e: Fix correct max_pkt_size on VF RX queue
+e3d45714904651bf837e93bbcf53d39def3af5de iavf: Fix return of set the new channel count
+852c6e27b0285243b711811dd70a5a616e92e142 i40e: Fix NULL ptr dereference on VSI filter sync
+77082380518c265229a1f2567e614abaa29d0da0 ice: Fix VF true promiscuous mode
+0d856df0d846918a2e53f105175b16a6a3debdc7 igb: unbreak I2C bit-banging on i350
+ab4e1c0a026f3d13e2ccf3b63a2dc5494cac4a32 i40e: Fix error handling in i40e_vsi_open
+978d32f8ef52d4bbdb7e8633c5474771726fe176 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+6466d0c06b2098bb3e80f7ca045ab2e0b57735c3 ice: Refactor promiscuous functions
+73ec71a39e6e63e00708fceef1ff283b99c2c65a i40e: improve locking of mac_filter_hash
+2a0187204d807dfa5e6eb23bb008a1270fd305a5 e1000e: Add support for Lunar Lake
+afed9ac40658598da8eaff92110ca930174f34de i40e: Fix autoneg disabling for non-10GBaseT links
+3ac8c020fe8e9f19098eac04ddd1df89849dd956 iavf: do not override the adapter state in the watchdog task
+8e81300f11dec49a08b2e803372df4f6e0f6c83f iavf: fix locking of critical sections
+cd615f69fc8b4750eb29e3c7e68432f51ae39f73 igb: Check if num of q_vectors is smaller than max before array access
+3b773137daae9283d126bb1e10b71040484d6602 ice: Enable configuration of number of qps per VF via devlink
+71828945318113c525d998c4900167a8121730cc i40e: Fix warning message and call stack during rmmod i40e driver
+4d0b7b41c9ee2c28072b0d7149ed5f878f6134c1 i40e: Fix logic of disabling queues
+4ad06b4063e2e8f3c0fbede13a7159e902bf71ed i40e: Fix changing previously set num_queue_pairs for PFs
+ea0cc8a043f0af2140e08f4c994730f4ebadd4ee i40e: Fix ping is lost after configuring ADq on VF
+6f973957692eb8253c2a8a232d0a3d69ee935934 igb: Add counter to i21x doublecheck
+f58b5f53abcf0b922f271d471872533a0ea78553 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+4ac51a88f3d6dd743189bc7ed5cd89599293cd36 ice: fix FDIR init missing when reset VF
+7af0d8fa24eaa957caf41acfb5ebdfa052816983 igb: fix netpoll exit with traffic
+0e74575c097749ffe8286a6685a951055ed28ac3 ice: Remove boolean vlan_promisc flag from function
+14e3eab263f6de9373fc2d4432d74976b246aa3f ice: Fix replacing VF hardware MAC to existing MAC filter
+1641772d80da1a0b0c33c3f86d21d8b4de44c05e i40e: fix PTP on 5Gb links
+57cf6c7c9b93297973e0c33129667c1acc9f14f6 virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+e1ce50a0aaf30c2be467a635e2b03aa8e546388e virtchnl: Use the BIT() macro for capability/offload flags
+c34638a9d45552c0ed68fd335132314aa0a3877a igc: Fix user-after-free error during reset
+c8abfc6e2e93da9fd142d0ff7fa8beb6ec31d53c igb: Fix user-after-free error during reset
+d884a6804b281016ea832a326c2bd3a3533612d3 i40e: Fix failed opcode appearing if handling messages from VF
+535debd59921075367cb67012759658af5762562 ice: add ndo_bpf callback for safe mode netdev ops
+75036a6af0d64ce53da91b1581b1d6fea5c235e9 ice: parameterize functions responsible for Tx ring management
+c92a8172d08d877bf1cab39339daf11e0159726d i40e: Fix firmware LLDP agent related warning
+01b222e8248739eec3f3fb6c508eb005af13d225 igc: change default return of igc_read_phy_reg()
+9ceefbe7ad32a7cd21692c270ef255fc98b782a2 i40e: Add restoration of VF MSI-X state during PCI reset
+2a50327f3c3faf450b45baffd337dac4888a91de ixgbe: Fix packet corruption due to missing DMA sync
+d57707c137cd053779c84ade33861255d7510407 ice: add tracepoints
+cfbc456b192b45dea93af77ff84bad2af0f173b9 i40e: Add additional info to PHY type error
+73a176249955b30ba93c4537b3bcef522249d80f iavf: check for null in iavf_fix_features
+4ba7ce5a2de755e88f05a03e8d59acbff7e07b6a iavf: free q_vectors before queues in iavf_disable_vf
+47722d1ce8efab8b0795edbae16b1454a60e1c9b iavf: don't clear a lock we don't hold
+36a364ab65d2db901f41ee317dcb16af43c55e93 iavf: Fix failure to exit out from last all-multicast mode
+15505aca9bffe433873304459f43b58ed4caeb1b iavf: prevent accidental free of filter structure
+1a2b6d64448234c6f1fffdd45a207a9a14457731 iavf: validate pointers
+e9f112f3eeb4c9b8fecfa274187b2cff336ac688 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+a440f0dca53ce924d37cec59520b43a19cb1a3a3 iavf: Fix for setting queues to 0
+53dd76a3de6bc911aea2eff033b5071a47c82d61 iavf: Restore non MAC filters after link down
+dc0023375f737208e2246353e46cd35903f5a084 iavf: restore MSI state on reset
+0870fdc10a24e11869679b2de5ddcc631d22a118 iavf: Add change MTU message
+3767f09957a9327a2f773ff3fec1037d37f6cf37 iavf: Prevent changing static ITR values if adaptive moderation is on
+9c3c2f3b25857a00b5209aec3377604c04f215d6 iavf: Log info when VF is entering and leaving Allmulti mode
+98994589f8876b612e9f931008686e681eddd2cb iavf: Set RSS LUT and key in reset handle path
+7f2982772708933aa5cf313d3b6b0e0a9fcb1cf0 iavf: return errno code instead of status code
+80d1ad30868dcff6f6f2c8e8676a36ad2be57308 iavf: don't be so alarming
+bc6f1fa02f36f4123921df4a472e4874ece78501 e1000e: Check the PCIm state
+ff4c51764fcb2cc6c632ff58f37e39e0047ac458 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+a1a4b65d968d9121e0331b73eecff731c05e55c8 igb: Fix position of assignment to *ring
+b25a607b39e9e6afb997446af4275c93d89a54a9 i40e: Refactor arrow operator usage in i40e_update_adq_vsi_queues()
+294779eceebf7fb9a630970193f041dc79159620 ice: add support for auxiliary input/output pins
+d5dcfb4746fe16a84b08250d8cc3b4aa620ec5af i40e: Fix missing rtnl locking when setting up pf switch
+a13233e31a29c8c1495d7ad3f96893d64f337528 ixgbe: Fix an error handling path in 'ixgbe_probe()'
+1c11f39983f7e879e2652b1a89e8b8ea8ecdd9dd igc: Fix an error handling path in 'igc_probe()'
+c0eca817fb3e310c1baab21117f2358957aa47a4 igb: Fix an error handling path in 'igb_probe()'
+00e9ce1e9e1b4ce701ae053a35bba6384dc611db igc: Add possibility to add flex filter
+529e51c535bc3b18e86b9cd19766d4bb8996e1a2 igc: Integrate flex filter into ethtool ops
+5f209ea0e2548f5199472862b8edd650ae9a7ede igc: Allow for Flex Filters to be installed
+b4781e00a91d40863058008671e13c20d5683115 igc: Make flex filter more flexible
+f49f2f8448f19a11052143822a88b6ab5a433c6c igc: Export LEDs
+db1aa4cd6167af6a246bd4c45bd2a9116107fa48 e1000e: Add support for the next LOM generation
+093697c1edfba127ec840d8020e9dd8520031d41 igc: Check if num of q_vectors is smaller than max before array access
+90e8a0ece746becd1d205b94aa80cfdc9049a342 ice: remove the VSI info from previous agg
+c15357cf49e6022a18a827fe1ed81951b60b5073 ice: remove unnecessary VSI assignment
+2cb254dc3eeea4663b8848e55f3484f3bcb400ce ice: do not abort devlink info if PBA can't be found
+b7fe372203c0da9e28fe18e7e65b59fa2d63ab55 fm10k: Fix an error handling path in 'fm10k_probe()'
+a4fa253dfa9bc6d002d0bf949297100aef4c528f e1000e: Fix an error handling path in 'e1000_probe()'
+f4196dbba7df84c177397a0dd38f53d09b03d341 iavf: Fix an error handling path in 'iavf_probe()'
+5024498a2d53ab79ee50d7a78778a05329f6583a e1000e: Add space to the debug print
 
---===============8432045931951748747==--
+--===============0059750982467072698==--
