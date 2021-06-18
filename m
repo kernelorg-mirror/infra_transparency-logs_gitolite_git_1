@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 18 Jun 2021 23:40:28 -0000
-Message-Id: <162405962827.23862.535918331125866120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 18 Jun 2021 23:40:56 -0000
+Message-Id: <162405965611.24058.16879153443438902930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 4cadcdf515f99122231e8e1daff05a8ed86c56bf
-    new: e73f5b442baf495e300641a52a53833e68f436e4
+    old: 728a748b3ff70326f652ab92081d639dc51269ea
+    new: 6fab154a33ba9b3574ba74a86ed085e0ed8454cb
     log: |
-         e73f5b442baf495e300641a52a53833e68f436e4 Fri 18 Jun 2021 11:40:00 PM UTC
+         f9f28e5bd0baee9708c9011897196f06ae3a2733 btrfs: zoned: fix negative space_info->bytes_readonly
+         6fab154a33ba9b3574ba74a86ed085e0ed8454cb Merge tag 'for-5.13-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
          
