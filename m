@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3980241325272800543=="
+Content-Type: multipart/mixed; boundary="===============2560724093207117374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 18 Jun 2021 06:39:53 -0000
-Message-Id: <162399839337.12667.15651059253593218287@gitolite.kernel.org>
+Date: Fri, 18 Jun 2021 06:41:09 -0000
+Message-Id: <162399846992.14540.4349005246810971607@gitolite.kernel.org>
 
---===============3980241325272800543==
+--===============2560724093207117374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: b31d9d6d7abbf6483b871b6370bc31c930d53f54
     new: 04d72afa34edd14d99db7536d22819cdbb2b2e4c
     log: |
@@ -26,34 +26,34 @@ changes:
          04d72afa34edd14d99db7536d22819cdbb2b2e4c Revert "USB: misc: Add onboard_usb_hub driver"
          
 
---===============3980241325272800543==
+--===============2560724093207117374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623998391 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1623998469 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1623998391-a2f905545c338cd84d2bcb306da4ca672a12278b
+nonce 1623998468-4333e6ee5dff3d3ac31709ef0dc3616adeac2a61
 
-b31d9d6d7abbf6483b871b6370bc31c930d53f54 04d72afa34edd14d99db7536d22819cdbb2b2e4c refs/heads/usb-testing
+b31d9d6d7abbf6483b871b6370bc31c930d53f54 04d72afa34edd14d99db7536d22819cdbb2b2e4c refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDMP7cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NSgP/R+gezy/8GB8Yq6dCQpI
-0J7cMrVeqt5wMCrsAr+2/VegZKesO1VupfwpLOKuX4KBhS9NJ5JU9SvuK1JWsNBC
-KhErrL9Wy3QuyTci6PoLgBvFSfDVcP5gC2GLR6kZf2+7BCoTnrVIGIkERiOYCmod
-lxOHBBy3NkrdR8ngS0X3Y6BvUsa/kgJcld9+W1OnbAKZIoNOwXWTDinXBuYtPYcl
-RkKFF3I3ulUgyRE6AE4IQMksP5zg12Lp9JBWLhzNQLYHAjlEKGcw65dSYYjaUzUK
-A1jc3nzuI7m1ztD/7H7sLExn+u54jFnwy84V68YxLpdyGobyp3gQp0GmXq5hmIcI
-DROKmns70alW7BfsyWBHBa9j30UuYIjiH5Bj7dL0Jy6oyEvT2PiAVMzQlxU8th47
-hYARbGFqS0iCDDUm8V1NuIhx6Y9ghNAEZNj9WZzPXNeXgSv51li/6hu9PvAc9Md5
-sJWUYaYHFa3PbclEZXdnu7NFEAGMKBM2zj5RaGYsFppi2a1JOc2dlPxsC5FoFzzN
-ZqfAfNE+8qpkB1n8sXXGJAl/c1hA5Gg8AvvpanikbQc8WYHWh+ZTebgPsx8QLxqO
-sJNVs6jVo6o1oA4QxWQgi8QS0PEuI+dAYH347QTQaRstftU8HWnzHH7nITI8ofWL
-/e+pXrnORIU+IArrZXo3zaYE
-=zbNX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDMQAUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fOsP+gJvjnNw9wurp5Vlq6PG
+nYDYFnKrK/w9Wk1hKJ7EzGiCIog7MmgQrUEQrYd6S6UDhGyVDqR37AC/oE+3qUZN
+SsJChOvBJ0TibvkwVO028slCSbVP8zn1tSXBLvk5B0sjx5J+LacczDqlsrhUCtcg
+0GTq8+A0epqm0bTSFbkYAUPIEa3xR5Mu1JYFpV3+PLqEm4aH7zlO+mLVZnkyNAxs
+6MnkGVkkNDopPWcxyiQJ9myDO+G6G9OS5e2oEdRmCDRcXhmULl6C2Jqie5E5IYvu
+qR1/5UB7oGoP0Dl/uCosdq1oVz+Jnd1TGs42DQtl8kPupMFuXFgrq+xhk5szkKRb
+8IJKFWmY5aXwIChqhuYb6ZVD0US2/uzSziMVN7RL8OWiJV5ODChPOWmCdNtV8cf1
+9id6O9pBj5fyXz8MISnmty/JFY3AgV/Wmfr/sn5P4uEVirXPgOAZ60ZlCruDpogp
+v1seDCtzaajiEyoS1TFeLOwZ0YmwSp63BJjBz1gkwECuv12UgxelI6NkiktWsjqz
+YN0ezrtfDEJtV5xqSpV01ZUwc5l131/mlbDyHemVy6xO5I0AMZb487e8HevwiY+Q
+xf4vnWTIDrTmXoMDdgHFNMVd+uy/4kkH99+qPa8aia74+Jcal+VqA2fvYLp8DKQE
+9TuaH2/CeHocJTFoukKWnypg
+=lWeW
 -----END PGP SIGNATURE-----
 
---===============3980241325272800543==--
+--===============2560724093207117374==--
