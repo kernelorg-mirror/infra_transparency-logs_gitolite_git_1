@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 18 Jun 2021 18:10:34 -0000
-Message-Id: <162403983461.27318.15379169779263165437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 18 Jun 2021 18:10:44 -0000
+Message-Id: <162403984427.27453.14477232424529079046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 19e5cc9b0d1b03b0414b6951a38504edf24ba517
-    new: b6236255d2eddd480bd25cc872eab59f1e26d881
+    old: 0c38740c08962ab109267cb23f4a40df2ccf2bbf
+    new: 85102ba58b4125ebad941d7555c3c248b23efd16
     log: |
-         b6236255d2eddd480bd25cc872eab59f1e26d881 Send hostname as part of DHCP request.
+         85102ba58b4125ebad941d7555c3c248b23efd16 samples/bpf: Fix Segmentation fault for xdp_redirect command
          
