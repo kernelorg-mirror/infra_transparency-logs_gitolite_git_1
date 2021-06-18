@@ -1,53 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============7020901772718846383=="
+Content-Type: multipart/mixed; boundary="===============5472649263943276143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 18 Jun 2021 08:02:07 -0000
-Message-Id: <162400332782.27083.15354856602270131147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Fri, 18 Jun 2021 08:02:11 -0000
+Message-Id: <162400333172.27181.162705902292686780@gitolite.kernel.org>
 
---===============7020901772718846383==
+--===============5472649263943276143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/tags/v5.10.45
+  - ref: refs/heads/pending
+    old: 02d848b9a85f001bb01aa7379d95fd854ecead64
+    new: c25913d2c08cddcc688ae58c63f34cf8ee937e73
+    log: revlist-02d848b9a85f-c25913d2c08c.txt
+  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-06-18
     old: 0000000000000000000000000000000000000000
-    new: d91a3080b41f721eee7fd954a516bfd98b1ed72f
+    new: c25913d2c08cddcc688ae58c63f34cf8ee937e73
 
---===============7020901772718846383==
+--===============5472649263943276143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-02d848b9a85f-c25913d2c08c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624003327 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1624003325-0236d487685f54cb67b79bcf667efde1d1e81b16
+5f5764e04c46f99c3d421a0360e7368db5c13085 iwlwifi: pcie: remove TR/CR tail allocations
+9ee972f19bf1a4119cfbd0ba7eba9c5ee3582bc4 iwlwifi: mvm: Read acpi dsm to get unii4 enable/disable bitmap.
+7c30f85ed2419095034530758b3eba46b9513266 iwlwifi: mvm: Explicitly stop session protection before unbinding
+64df994c8fbb1134851300a1a13ccb43e20e3b9a iwlwifi: mvm: don't request mac80211 to disable/enable sta's queues
+dd25dd6677983839a88bd45cd2ccd7c4e76f2196 iwlwifi: support ver 6 of WOWLAN_CONFIGURATION and ver 10 of WOWLAN_GET_STATUSES
+cd6f4e421430e7e6077041c55c0e7726ce62e772 iwlwifi: mvm: support LONG_GROUP for WOWLAN_GET_STATUSES version
+07e117dbedb791096903afaf565a6aec1687d6cd iwlwifi: pcie: free IML DMA memory allocation
+afb63fb8cbc131016f71ba4fb7114e2b201fea93 iwlwifi: pcie: fix context info freeing
+3d488885f77ccd88757f153b2a8f4f8f25c0a5de iwlwifi: mvm: fill phy_data.d1 for no-data RX
+8230d91a46c1474f88425064fdec21f9eb73c542 iwlwifi: pcie: free some DMA memory earlier
+dc658639e07ffe7ce0bb9f2e246a02ad6cdeb8d7 iwlwifi: fix NUM_IWL_UCODE_TLV_* definitions to avoid sparse errors
+c25913d2c08cddcc688ae58c63f34cf8ee937e73 iwlwifi: mvm: introduce iwl_proto_offload_cmd_v4
 
-0000000000000000000000000000000000000000 d91a3080b41f721eee7fd954a516bfd98b1ed72f refs/tags/v5.10.45
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDMUv8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aEYQAMFG+DR/4LoEtrbrY5x4
-0LkAPL0Xk6iToZl2xqpng/6nsmMgOH3W3K/Y6xHCv0zviyawUX43RgyX5WTd6ERz
-kyYd/5hO2jrGqtGq34CKqJ4SwRs1dD4Hijd9CJ9A8Nki+f7L+4lgWUzEpfJq0iDa
-9lllYlXlatoGbhrnZzqnK4/lu08NgvoL3LhzkuX652HB9zSdO7wl8DkmqkFIe76e
-FMP7J6B4QbzPT4Pmzw1Mg1tnFCeCdqh1ZfoR9VtFKV1piVuREsf+FG/8NRRx4cVs
-v0qvNIvvbTg5kMK63SjsFlmWG0TRors38BuOkHje2uRKYYlp9yk+jT87bKCRngEh
-7FZmF/bX+HM//gG2jmcxDGGGWGpmPgGsqVZ7eOuMf9sVfbUZlq8qxGO+Uuc8LkMI
-XzPm/hLBBG0O2LRJXHBxp7Y7H2PswG9fZPfKi6rGxKgvhihf8JiQHw7NWFQEg746
-NxKG4lzej8LZuf4xaDiLrfmcRZvrxK2y1wui2qV+YEYOK7/9XzKfB/dAqz+cknBl
-8soE9abtd0yZH863EBTxLToWSBxHMyEJi4poZEVPAaxxnOrMQkkN4qxTo8g7Ez5U
-gCS/eztYQamjvWiN+zPEeUR/jh5ZFLbIa7aI3qLlYQGtkzVJyKjz1s/pqKrO3CBN
-riasnFLkI90BaS5NK3tD95yM
-=BjWN
------END PGP SIGNATURE-----
-
---===============7020901772718846383==--
+--===============5472649263943276143==--
