@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6840951738690837369=="
+Content-Type: multipart/mixed; boundary="===============1697639973911221080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 18 Jun 2021 15:06:52 -0000
-Message-Id: <162402881282.1080.3363872658698852019@gitolite.kernel.org>
+Date: Fri, 18 Jun 2021 15:06:59 -0000
+Message-Id: <162402881903.1230.16625928934915841857@gitolite.kernel.org>
 
---===============6840951738690837369==
+--===============1697639973911221080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 6a92e3f9e81b6203a81d3e8aa0ad9288e26948d5
-    new: 6aeb5878a9528c52db3e24b1a2b648ead35ba15d
-    log: revlist-6a92e3f9e81b-6aeb5878a952.txt
+  - ref: refs/heads/for-next
+    old: ce421e6520608d4161f9b04b80540117c9cb18f5
+    new: d241b48a2d08a0309d07e96b1dae41b21b34ba61
+    log: revlist-ce421e652060-d241b48a2d08.txt
 
---===============6840951738690837369==
+--===============1697639973911221080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a92e3f9e81b-6aeb5878a952.txt
+Content-Disposition: attachment; filename=revlist-ce421e652060-d241b48a2d08.txt
 
 0c4f2623b95779fe8cfb277fa255e4b91c0f96f0 s390: setup kernel memory layout early
 6a9100ad132c61e4ff345277862e3fecfb7cdf0e s390/setup: cleanup reserve/remove_oldmem
@@ -68,5 +68,7 @@ d99aea73b4de2357095e1059637ef5427e9473e8 s390/facility: get rid of register asm
 da9057576785aaab52e706e76c0475c85b77ec14 s390/mem_detect: fix tprot() program check new psw handling
 5a4e0f58e2d959e2de0f0f1ddaa169e60711d2f0 s390/ipl: use register pair instead of register asm
 6aeb5878a9528c52db3e24b1a2b648ead35ba15d scripts/min-tool-version.sh: Raise minimum clang version to 13.0.0 for s390
+ddefbaa282eac9657d84f5a71e797652c7c37bf6 Merge branch 'fixes' into for-next
+d241b48a2d08a0309d07e96b1dae41b21b34ba61 Merge branch 'features' into for-next
 
---===============6840951738690837369==--
+--===============1697639973911221080==--
