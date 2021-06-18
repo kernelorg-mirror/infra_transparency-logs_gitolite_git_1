@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 18 Jun 2021 22:43:40 -0000
-Message-Id: <162405622016.16684.4850170150336375709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 18 Jun 2021 22:44:18 -0000
+Message-Id: <162405625835.17009.480545130674218308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/rcu/next
-    old: e133f14a2c54041fb25445fcc5ea2c807960d646
-    new: 8bd5745dc8faaee60839f9a70d63128e428ba422
+  - ref: refs/heads/master
+    old: 0388794dc5fdb73a4ea88bcf148de0a12b4364d4
+    new: 864d03727db35da1d0a0c2c9331c06d5c028ef84
     log: |
-         8bd5745dc8faaee60839f9a70d63128e428ba422 torture: Protect kvm-remote.sh directory trees from /tmp reaping
+         864d03727db35da1d0a0c2c9331c06d5c028ef84 device: Fix enabling temporary timer when TemporaryTimeout=0
          
