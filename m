@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Jun 2021 18:19:51 -0000
-Message-Id: <162404039199.743.1268227435842138462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 18 Jun 2021 18:28:40 -0000
+Message-Id: <162404092068.7282.17846584263125869049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 7c6090ee2a7b3315410cfc83a94c3eb057407b25
-    new: f540a7d2c37f9ae0867de0a14bf06cf50b63d65e
+  - ref: refs/heads/master
+    old: 8fe088bd4fd12f4c8899b51d5bc3daad98767d49
+    new: 275b51c27cc382325cf833dfbe1ce44071c2e2c4
     log: |
-         f540a7d2c37f9ae0867de0a14bf06cf50b63d65e Add documentation for libbpf including API autogen
+         275b51c27cc382325cf833dfbe1ce44071c2e2c4 drivers: net: netdevsim: fix devlink_trap selftests failing
          
