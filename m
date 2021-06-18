@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Fri, 18 Jun 2021 06:57:45 -0000
-Message-Id: <162399946511.25813.823396840914677812@gitolite.kernel.org>
+Date: Fri, 18 Jun 2021 07:02:29 -0000
+Message-Id: <162399974948.28937.6016338600515208773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tmlind/linux-omap
 user: tmlind
 changes:
-  - ref: refs/heads/fixes
-    old: 78b4b165280d3d70e7a217599f0c06a4c0bb11f9
-    new: 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6
-    log: |
-         3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
-         
+  - ref: refs/tags/omap-for-v5.13/fixes-rc6-signed
+    old: 0000000000000000000000000000000000000000
+    new: a981c26bd0c4ea439866314c26766e3451cb3113
