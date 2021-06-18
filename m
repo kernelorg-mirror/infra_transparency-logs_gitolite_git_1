@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6009899355854737640=="
+Content-Type: multipart/mixed; boundary="===============6563631984341115991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Fri, 18 Jun 2021 12:23:59 -0000
-Message-Id: <162401903909.17499.8374340014096547647@gitolite.kernel.org>
+Date: Fri, 18 Jun 2021 12:24:34 -0000
+Message-Id: <162401907421.17802.6838874514668140596@gitolite.kernel.org>
 
---===============6009899355854737640==
+--===============6563631984341115991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: d387c3bb01e90f1a58895fe3eb47f01b1dd001df
     new: d6623476bc875f5212e65eca9d4362b2a8bb836d
     log: revlist-d387c3bb01e9-d6623476bc87.txt
 
---===============6009899355854737640==
+--===============6563631984341115991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ f18cb6b58e34e0c4e8c11940b906c8c945493973 habanalabs/goya: add '__force' attribut
 61e23c1ccece13f3a6fd2e6fc92c2c3b9911565c habanalabs: define uAPI to export FD for DMA-BUF
 d6623476bc875f5212e65eca9d4362b2a8bb836d habanalabs: add support for dma-buf exporter
 
---===============6009899355854737640==--
+--===============6563631984341115991==--
