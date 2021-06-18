@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nmenon/linux
-Date: Fri, 18 Jun 2021 23:31:10 -0000
-Message-Id: <162405907096.18005.12982005287552381157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 18 Jun 2021 23:40:28 -0000
+Message-Id: <162405962827.23862.535918331125866120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nmenon/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/ti-k3-dt-for-v5.14
-    old: 0000000000000000000000000000000000000000
-    new: 2f36712695dc9d7f47d81d00389e7b016f174464
+  - ref: refs/heads/master
+    old: 4cadcdf515f99122231e8e1daff05a8ed86c56bf
+    new: e73f5b442baf495e300641a52a53833e68f436e4
+    log: |
+         e73f5b442baf495e300641a52a53833e68f436e4 Fri 18 Jun 2021 11:40:00 PM UTC
+         
