@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5715315375142315831=="
+Content-Type: multipart/mixed; boundary="===============3046504691270072790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 19 Jun 2021 15:00:07 -0000
-Message-Id: <162411480748.8553.18392634388972618419@gitolite.kernel.org>
+Date: Sat, 19 Jun 2021 15:00:56 -0000
+Message-Id: <162411485637.8927.3391014861602998861@gitolite.kernel.org>
 
---===============5715315375142315831==
+--===============3046504691270072790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 7cd04c863f9e1655d607705455e7714f24451984
+  - ref: refs/heads/testing
+    old: 9849e6af3ddd98f36e35c53561f177e267b62003
     new: 6cbb3aa0f9d5d23221df787cf36f74d3866fdb78
-    log: revlist-7cd04c863f9e-6cbb3aa0f9d5.txt
+    log: revlist-9849e6af3ddd-6cbb3aa0f9d5.txt
 
---===============5715315375142315831==
+--===============3046504691270072790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cd04c863f9e-6cbb3aa0f9d5.txt
+Content-Disposition: attachment; filename=revlist-9849e6af3ddd-6cbb3aa0f9d5.txt
 
 9fdd04918a452980631ecc499317881c1d120b70 net: ieee802154: fix null deref in parse dev addr
 6a01268687c8d00e59dff341c519a337de980d2e HID: semitek: new driver for GK6X series keyboards
@@ -710,6 +710,17 @@ ee82be77be24f6ea2508e5ad2d5ae559c08e7a6d staging: rtl8188eu: remove unused varia
 b16605f9b959c822f931d17ddada562aa4ae6471 staging: rtl8188eu: remove unused variable from os_dep/ioctl_linux.c
 daadab03824acf1b7e2701fd98ac99f1ec75e6e7 staging: rtl8188eu: remove unused variables from hal/rtl8188e_cmd.c
 d78f4549d35b770ef353b5bb40cb681f13c051ea staging: rtl8188eu: remove _dbg_dump_tx_info function
+ec90b52c07c0403a6db60d752484ec08d605ead0 iio: light: vcnl4035: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+92babc9938ebbf4050f2fba774836f7edc16a570 iio: prox: isl29501: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+12f13d1faead80884f41781e8792ab397812c0c7 iio: hid-sensors: lighten exported symbols by moving to IIO_HID namespace
+40b54cbebf16c4b2275dabe1569d2a3f89d3cc59 iio: imu: mpu6050: Balance runtime pm + use pm_runtime_resume_and_get()
+17181d4dc33094cb0c51369e4b5172086a14812b iio: adc: ads1015: Balance runtime pm + pm_runtime_resume_and_get()
+0e4f336f50debeacd0f81e931e8451f2ae03f685 iio: chemical: atlas-sensor: Balance runtime pm + pm_runtime_resume_and_get()
+c2f89f4ccd7a155af2739300de712b8f96aa76a3 iio: prox: pulsed-light-v2: Use pm_runtime_resume_and_get()
+64f9dc6a68002fc3f1890cb90312a2ace19df99e iio: pressure: icp10100: Balance runtime pm + use pm_runtime_resume_and_get()
+fb226ae750ea09020dbde0ac8769c86820bcb6c0 iio: hid-sensors: Update header includes
+e2a73c4e78fc42ca65cc65abb66d527469bb3a4c iio: accel: bmc150: Use more consistent and accurate scale values
+7cd04c863f9e1655d607705455e7714f24451984 iio: light: tcs3472: do not free unallocated IRQ
 8c51c9b59a103fe7f4ab0c81ce9a202af7f1ece1 Merge tag 'iio-for-5.14b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
 594ea7358b051d4638fb587e0234a8a038f47e3d staging: android: ashmem: add size field in procfs fdinfo
 609e9339dc71241512f053adbab6e571c63dffe9 staging: rts5208: remove redundant continue statement
@@ -720,4 +731,4 @@ a85adbb5858a29cf7e364985583724fa996a8839 staging: ks7010: Wrap macro definitions
 78adf574c969c14a470b686af8d6bd7e1dcf142b staging: rtl8723bs: hal: use eth_broadcast_addr() to assign broadcast address
 6cbb3aa0f9d5d23221df787cf36f74d3866fdb78 staging: rtl8723bs: rtw_efuse: Fix coding style
 
---===============5715315375142315831==--
+--===============3046504691270072790==--
