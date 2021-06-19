@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Sat, 19 Jun 2021 07:55:30 -0000
-Message-Id: <162408933069.3163.7955885653121750195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/uml
+Date: Sat, 19 Jun 2021 08:04:58 -0000
+Message-Id: <162408989898.7945.14580607758406520951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/rw/uml
+user: rw
 changes:
-  - ref: refs/heads/mhi-next
-    old: f976d9d8c4ccf4bab9a51d68ad97d42673ce9081
-    new: 704d98540e557fafc64de465ef38c008c6fcb7c7
+  - ref: refs/heads/linux-next
+    old: 80f9733114e8f925b88d8f4e65ee827640ce4253
+    new: 1aee020155f364ef538370d3392969f1077b9bae
     log: |
-         95d3fce6907c44d0be835996a572bbc750a5289e bus: mhi: core: Add support for processing priority of event ring
-         704d98540e557fafc64de465ef38c008c6fcb7c7 bus: mhi: pci_generic: Apply no-op for wake using sideband wake boolean
+         1aee020155f364ef538370d3392969f1077b9bae um: remove unneeded semicolon in um_arch.c
          
