@@ -1,132 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3773427779275291295=="
+Content-Type: multipart/mixed; boundary="===============7205296776208866125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 19 Jun 2021 06:38:06 -0000
-Message-Id: <162408468624.14339.464642298190611978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 19 Jun 2021 06:39:54 -0000
+Message-Id: <162408479427.15045.16967691733074833104@gitolite.kernel.org>
 
---===============3773427779275291295==
+--===============7205296776208866125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: d495dd743d5ecd47288156e25c4d9163294a0992
-    new: b61c8bf4694b5115766849378dcb8787ff54e65e
-    log: revlist-d495dd743d5e-b61c8bf4694b.txt
+  - ref: refs/heads/staging-next
+    old: 8c51c9b59a103fe7f4ab0c81ce9a202af7f1ece1
+    new: 6cbb3aa0f9d5d23221df787cf36f74d3866fdb78
+    log: |
+         594ea7358b051d4638fb587e0234a8a038f47e3d staging: android: ashmem: add size field in procfs fdinfo
+         609e9339dc71241512f053adbab6e571c63dffe9 staging: rts5208: remove redundant continue statement
+         a85adbb5858a29cf7e364985583724fa996a8839 staging: ks7010: Wrap macro definitions in parenthesis
+         3c07e1eaafdb642fe7f8dd050ce04552c875057e staging: r8188eu/core: remove the check for NULL pointer in _rtw_enqueue_cmd()
+         44c26bec861476f89ac5aee0bb19df128a42543b staging: rtl8723bs: os_dep: use eth_broadcast_addr() to assign broadcast address
+         3b0a4a1bdb0f6348dba797a0fa1cf161f5639ded staging: rtl8723bs: core: use eth_broadcast_addr() to assign broadcast address
+         78adf574c969c14a470b686af8d6bd7e1dcf142b staging: rtl8723bs: hal: use eth_broadcast_addr() to assign broadcast address
+         6cbb3aa0f9d5d23221df787cf36f74d3866fdb78 staging: rtl8723bs: rtw_efuse: Fix coding style
+         
 
---===============3773427779275291295==
+--===============7205296776208866125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624084685 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1624084684-91e3bf6c58f8546e5ef056b570e544f845f37c3b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624084793 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1624084791-f4ce2873f0b35c2d229de2e468082624b9709d2a
 
-d495dd743d5ecd47288156e25c4d9163294a0992 b61c8bf4694b5115766849378dcb8787ff54e65e refs/heads/tty-next
+8c51c9b59a103fe7f4ab0c81ce9a202af7f1ece1 6cbb3aa0f9d5d23221df787cf36f74d3866fdb78 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDNkM0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X5UP/1KgpbMOmQdZSekWbOM5
-HScEw4qOrdTrGeayYo7i8evITgLhGOOWAkYdd59YlXIf26B1LdC2/pJx9KAFMFT6
-A8GdPBbGP8FVzDS2HoOviUb6EF+uHOl9yIxA9HUNJmWw6f0CSpGGsil2PwP17bVb
-lA5+qHYb9UNeuwMs+voMmTl3JfEkF2AS5+fSCsurtRjN7zL+utsvYQgBNGjajl9t
-0UE1jb+nUIHZ6dmUv8SguQPAuX529YEiEqXFAXR8ASnkl1b5A2Dg4PnMKpvR1+Jq
-wVzwgwYUeQKZje19sPfSQnjZTCZB5xYjzMm+lxe60dZ19jZLDjWQYvSZr91Fh5sh
-T9PY+oEOpNJvF2cxD/X2+hxWADQ90S/YS54IbMJpacGyl7mUAz6xG+Tv1pmr9Pg4
-fPYFgjva+H6OTz0K3l60pVrcbgPUWhamCPfhqglKv7oKOjOcHak/dCfdbASnjYOh
-HuAWiTOHpgMMX3LEyCv1o/PfK80Q1eIFbn6MLUXHEsFjabQa2ou3YFWxgmT7Znc2
-3EuTBPRtebLjnMcmvvZyvYzoAai0ErDeSlprQ3z3HLauLmgoYxGrQMN9aAdvsSWF
-6/RXcLoQC+LXoTHG2l8MaEcErU8G/Ohbn+gavjuma15yqU2HOMAP2yKnE5+F9/88
-96+uKTemrtWiXcGSFwnbekJk
-=lzOZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDNkTkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kw0P/A1EvHffr1J3MoPx2X+5
+Y15VRw9GnRHDPW5+QcIkoRd2Ct5jwe25qio+FzOAinhUMqp9X0nbmytQ1nlhq1xx
+CywviNa21974QMQirhpdN8W//i2qcyIYNzLNgsr4X1IT5hU2jseN87UaXLmqO3bY
+KC8IOtU5c5zf0VNRSrZUTWysDDP/6n0mVdCjGHyVV31hk72cXL9z6G7EmMd8+eUP
+gq5g1T5n8JBBD7X11oNtFNlQuwrXt40TMCE5rUatUr7d59MZV5sVhk6/vah4bwww
+rfyMXBpqbR3H1JH1R/c7QhTi9x6AcF1oETy2vcZfhMeVHPD4AB2DT0s5kwE2efK4
++flUQfdwXBK1Wg8w+cTea1YWfprgRJOy+o7ZmHTyxyJbF7eGBpsfj4QsVVym76lU
+/lPL6WSsyVHjxRiijzKf4Qwzg0jjCczqEEnHk9dqAYL7BnU5qSV0krvlSbea7AIL
+Rz/kA5R9kV8cmyh99fR1bE7AkN9v1v8A0s3URGs2KQGli89eaRh1trg686cKSUNJ
+BYsZAFJrYdEL+ph1JQawen77uMZd5Xm01T6jKt5D+P7GMNhVWHnTSrJbgu0l7ODl
+pEBXqqrqgV2JbABSqSQwnu8DmljxFff7j/eyXWkcjiMFBtn44q5Hj4ubzrrt86FZ
+W6o6jSHafSucOsFDjzwnGzq7
+=rZRd
 -----END PGP SIGNATURE-----
 
---===============3773427779275291295==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d495dd743d5e-b61c8bf4694b.txt
-
-291343676e328e1493204faa149746829c488b06 mxser: drop ISA support
-152549026901afb1e8143a4e07df6cb8df42f3bf mxser: renumber mxser_cards
-cede216a0539db096e7767e7dd77ac4544415e49 mxser: remove info printout from init
-4463cc5b8cbeb38cf1bf4b25ac285a9cd10a7f2b mxser: integrate mxser.h into .c
-dc33f644f1cbcf333eb13e213f2e4af82af1dfcd mxser: cleanup Gpci_uart_info struct
-3b6618299a38c8bc21c6f70109c52a2dc8627350 mxser: rename CheckIsMoxaMust to mxser_get_must_hwid
-292955a7c011e2351a7ed6f8d7e418d4f3fdd585 mxser: rename mxser_board::chip_flag to must_hwid
-e45583668e0313c422c650d5da11405624cf547c mxser: introduce enum mxser_must_hwid
-58a2ddb3aa859c7e5a7beee2c43c80ac2229c1ca mxser: drop constant board::uart_type
-928f946426905dd3ab4e166699baa26358cd8a8b mxser: move max_baud from port to board
-cef222cbffccab4ac137b2d4d232103ac9ed8a89 mxser: remove nonsense from ISR
-15517806037c8633ff44e6cd2099d3de22233b4a mxser: cleanup LSR handling in mxser_receive_chars
-9e40ea1f785292356cfb39aafff7d346b46d8b4f mxser: extract port ISR
-9cb5c9c3226ba78e33169721f31b459e6791d6ab mxser: simplify mxser_interrupt and drop mxser_board::vector_mask
-e5ce1bcedac6875ce9d1ff4bafdf150a899a5694 mxser: extract mxser_receive_chars_new
-0c4194218cf206405c39e9d3380886a627c0602c mxser: extract mxser_receive_chars_old
-6de6e5c4becb5494d09d44ce4db1c54dc43afbae mxser: remove else from LSR bits checks
-a93963e41ffeff71a735f4fab95d2cbacd9da7a8 mxser: correct types for uart variables
-02e431444b52728872570a14ade413a2a26be657 mxser: make xmit ring buffer variables unsigned
-70640052324b69de70711c2a3e43bb0a8cff5f7a mxser: drop UART_MCR_AFE and UART_LSR_SPECIAL defines
-a7f8f2c9dcb25ae220ce119794fd1eff417f2b03 mxser: drop unused MOXA_DIAGNOSE macro
-413d555e1296e667d574404f00b2e582bb733040 mxser: remove MOXA_GET_MAJOR deprecated ioctl
-ef3dff8a0af9387b881e278676a460ab9c132d12 mxser: remove MOXA_SET_BAUD_METHOD ioctl
-644c55d229537d6770615b01f074537776973a5b mxser: remove MOXA_ASPP_MON and friends
-489435e4abc01682d4da31c9666e2e251e697182 mxser: remove MOXA_ASPP_LSTATUS ioctl
-a1ebc3794e9c737efdaafaeefc054ce473b0751d mxser: remove MOXA_CHKPORTENABLE ioctl
-476c351db8f0e8a837c144a916b23b3abf5a655b mxser: remove MOXA_GETDATACOUNT ioctl
-c94deae5b708b21727eae5bc830cb176c05ec2e8 mxser: remove MOXA_GETMSTATUS ioctl
-a7574ca74a6e9021f6a058aa21dab84e552cab22 mxser: remove MOXA_ASPP_OQUEUE ioctl
-47f82769181fdb755bc86aff881775357383ff68 mxser: remove MOXA_HighSpeedOn ioctl
-95b3ea4c6f45f3172dae29f303579743c2aa303d mxser: remove cnt from mxser_receive_chars
-389fc82e475be8f6c1745f804470bea5e3bf7dc1 mxser: don't allocate MXSER_PORTS + 1
-cc673990292c21c4bc02461e362d920fe8a7858b mxser: drop unused mxser_port::normal_termios
-01c3de9a10bb917b50d98f5565fb50dcafd1239a mxser: remove unused mxser_port::stop_rx
-a6970c39c311f393c2a2b43733e1b4ce2b241f53 mxser: drop mxser_port::baud_base
-d811b26ba3a78d45ccfc8e562323d9104d321c87 mxser: drop mxser_port::custom_divisor
-2c21832b55dd6f2c5be48133997b6614c1e6327b mxser: cleanup mxser_change_speed
-9fae5f857e124e843c7a41a04a49b3f9256a2d77 mxser: extract mxser_ioctl_op_mode
-238d117d17516f92f5db958809ddec30731e9342 mxser: simplify mxser_ioctl_op_mode
-edb7d27cd10382b6fdb3af50873a04f108c4ee64 mxser: dedup mxser_must_set_enhance_mode
-b286484b3bb1d01dfd6095f01c8ad04b78f1a625 mxser: introduce mxser_must_select_bank and use it
-b441eb0f69d19cddf2018ded38a5f3ea7e392836 mxser: clean up the rest of MUST helpers
-57faa7d6148c2de56f7558eb0d4c837264553ba5 mxser: move board init into mxser_initbrd
-d450f0852fccccc4ae7ec4103e146ae1b61a6fef mxser: inline mxser_board_remove into mxser_remove
-dcb04e21bba349875c97467062a0d5cb06f7524d mxser: pci, switch to managed resources
-7f0e79dc09692357ecd9bb7b9674352b74e0ffad mxser: move request irq to probe and switch to managed
-1e37f7333c89a5364511e3a0eaf28ff617ee42ed mxser: remove info message from probe
-c24c31ff4a7d392945293fd61e844921b9f26f33 mxser: remove mxser_cardinfo
-c3db20c3b71bf14d49e4a6582325e22db4e74a75 mxser: cleanup mxser_process_txrx_fifo
-42ad25fc46d3f6b6fe5b4b933dd328677e328ec7 mxser: rework and simplify mxser_open
-13d4aba8a9747c5f88e537cc065a511fe64f92eb mxser: make mxser_board::idx really an index
-f8b6b327aa73dd69577abd4e164447a9cc124315 mxser: alloc struct mxser_board dynamically
-ad1c92ff6ee948584603ef2e004704cfceb899a4 mxser: alloc only needed # of ports
-987a4cfee5765c9d7242a81d2f90e1429c83201b mxser: remove pointless ioaddr checks
-5990843328360dcded98104f75045a92d241c043 mxser: cleanup mxser_rs_break
-007bbdc87522d17d711ca6bef0d4fe85f62f8c84 mxser: cleanup mxser_dtr_rts
-8aff64e00f1eced4e73ca81c7599c06851da4475 mxser: don't start TX from tty_operations::put_char
-be4866671f8302f04e0485573e97d3a5dfe93fca mxser: extract and dedup CTS handling
-740165f7acbf1e73e6a7bfa2e8642b2e86cdee94 mxser: introduce and use start/stop_tx helpers
-265ceff7aeaa1001b4bea810e1b832d138352b3f mxser: remove xmit_cnt < 0 tests
-aaa28e9f250ca0a63b69b7125a10d49e1c264f85 mxser: decrypt FCR values
-464fbf6c4fc22f13df641bacd85840cfb826ba40 mxser: fix typos around enhanced mode
-202acdaa143a75d54dd9eec905c7faca7071c1a8 mxser: access info->MCR under info->slock
-1b3086b6e602f47d73be282d734dbebbce80d39a mxser: use port variable in mxser_set_serial_info
-06cc52ef8284fa8c95552e6ad0da93d89774eb7f mxser: rename flags to old_speed in mxser_set_serial_info
-5d1ea1ad288fc9e76acb5ec8af1bc16bb799c14f mxser: introduce mxser_16550A_or_MUST helper
-a7f6afcd4ec61136fda54abd3555125a32a9d34e mxser: Documentation, remove traces of callout device
-b34440ffada76527dd39a7a6e753ac31ede3ae88 mxser: Documentation, make the docs up-to-date
-0dd77d02c3333c14f8892b379fae3f731af23897 mxser: Documentation, fix typos
-18aaa97eee7ddb770963d84aeaf5e95a8f8af088 MAINTAINERS: add me back as mxser maintainer
-b61c8bf4694b5115766849378dcb8787ff54e65e tty: serial: Add UART driver for Cortina-Access platform
-
---===============3773427779275291295==--
+--===============7205296776208866125==--
