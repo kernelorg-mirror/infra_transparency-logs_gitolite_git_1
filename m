@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 19 Jun 2021 01:39:38 -0000
-Message-Id: <162406677849.3294.7133783811345446555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 19 Jun 2021 02:07:56 -0000
+Message-Id: <162406847638.22251.12407168147735026762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/fixes
-    old: be8f4bd7e64e9033906ba11219f2c7e698f53566
-    new: d23e3949f535cb59fb052984266d63746e57b861
+  - ref: refs/heads/master
+    old: e73f5b442baf495e300641a52a53833e68f436e4
+    new: 2b7e6acdd5b952ec8c4740f6e8cdd73cf061afd8
     log: |
-         d23e3949f535cb59fb052984266d63746e57b861 riscv: Ensure BPF_JIT_REGION_START aligned with PMD size
+         2b7e6acdd5b952ec8c4740f6e8cdd73cf061afd8 Sat 19 Jun 2021 02:07:29 AM UTC
          
