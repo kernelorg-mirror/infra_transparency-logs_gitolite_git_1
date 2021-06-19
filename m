@@ -1,108 +1,132 @@
-Content-Type: multipart/mixed; boundary="===============5574624371293736137=="
+Content-Type: multipart/mixed; boundary="===============3773427779275291295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 19 Jun 2021 06:11:43 -0000
-Message-Id: <162408310380.28962.9503372885758859822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 19 Jun 2021 06:38:06 -0000
+Message-Id: <162408468624.14339.464642298190611978@gitolite.kernel.org>
 
---===============5574624371293736137==
+--===============3773427779275291295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 936c600e28f3adde6591ae3a423d3645e3f4b161
-    new: 7c932e30ee03e1f82b2941a9068876d866149c84
-    log: revlist-936c600e28f3-7c932e30ee03.txt
+  - ref: refs/heads/tty-next
+    old: d495dd743d5ecd47288156e25c4d9163294a0992
+    new: b61c8bf4694b5115766849378dcb8787ff54e65e
+    log: revlist-d495dd743d5e-b61c8bf4694b.txt
 
---===============5574624371293736137==
+--===============3773427779275291295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-936c600e28f3-7c932e30ee03.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-00da6a701a69b685ee7cac95b5c276e2d011dbca scsi: st: Return error code in st_scsi_execute()
-21eccf304b3a16c26fc2878faca4665907a318ec scsi: scsi_ioctl: Return error code when blk_rq_map_kern() fails
-8793613de913e03e7c884f4cc56e350bc716431e scsi: core: Fixup calling convention for scsi_mode_sense()
-64aaa3dd096a1949ab216cdcc105a10059ab1244 scsi: core: Reshuffle response handling in scsi_mode_sense()
-7e26e3ea028740f934477ec01ba586ab033c35aa scsi: scsi_dh_alua: Check for negative result value
-ced202f7bd78eb6a79c441a8b217e0f3d38bccfc scsi: core: Stop using DRIVER_ERROR
-f2b1e9c6f867ec8f929e96ba4e4010e267587448 scsi: core: Introduce scsi_build_sense()
-d0672a03e0af5dd4b07dc9175b38e44290722192 scsi: core: Introduce scsi_status_is_check_condition()
-464a00c9e0ad45e3f42ff6ea705491a356df818e scsi: core: Kill DRIVER_SENSE
-16576ad8a8f0c05f8cd86779e3f2c0ee9f5e5552 scsi: core: Do not use DRIVER_INVALID
-4bd51e54e16ad0b0dba4feb0fdb70861feb2869d scsi: core: Use DID_TIME_OUT instead of DRIVER_TIMEOUT
-58bedf351f3eace10447b5e1f70b9079ab4d04d2 scsi: xen-scsiback: Use DID_ERROR instead of DRIVER_ERROR
-b840abeffc23c5bf2e4dd53f0448d72bdedf1666 scsi: xen-scsifront: Compability status handling
-54c29086195fd72b6a290ef367e71f73fa657b1f scsi: core: Drop the now obsolete driver_byte definitions
-7b25bdb1c828719a4732600faeaf0ba3f34816e6 scsi: NCR5380: Fold SCSI message ABORT onto DID_ABORT
-f6b5a697064900c207876c12af55e176ec83f49e scsi: core: Add get_{status,host}_byte() accessor functions
-735b830c6104af6f4ec0e9a22822cd4067ac0bf5 scsi: core: Add scsi_msg_to_host_byte()
-75dd44395af2b4d4f14d22027411326a07954281 scsi: dc395: Use standard macros to set SCSI result
-5bfaafb652d1659001a68324d47a3a4b149dfd33 scsi: dc395: Translate message bytes
-9a588d239f2392fca24aa9e95d2a9174048db8e9 scsi: qlogicfas408: make ql_pcmd() a void function
-5751a9eaf1870003c7e4541856c00901cd9206b7 scsi: qlogicfas408: Whitespace cleanup
-7e2bc6de92d490aff486d8577a44028e56ca19ad scsi: nsp32: Whitespace cleanup
-0e00ba7338cf07059dec28d1285e2f0af0cfefa3 scsi: nsp32: Do not set message byte
-6e39836ebccd6dfd9ee14ec6cf6acbe0ed0da5c7 scsi: wd33c93: Translate message byte to host byte
-3ff451e929838b368c1be3939045db080058b3df scsi: mesh: Translate message to host byte status
-3c969131457a8e3be8aa7c6e236b0f16121f5b04 scsi: acornscsi: Remove acornscsi_reportstatus()
-a9d2d8065821feec2e061ee39988d2f4d27631ea scsi: acornscsi: Translate message byte to host byte
-aec166fde7827643c8e049f20bc30ea61b14ea53 scsi: aha152x: Modify done() to use separate status bytes
-fdabe57d126954fe4132ef271366dfd75b411224 scsi: aha152x: Do not set message byte when calling scsi_done()
-ac87ee0ac120119f52cfc8e5fce696d8fc84dbb4 scsi: advansys: Do not set message byte in SCSI status
-7f33f56b02ca49d23d3b3014d693a16b0cf6324a scsi: fas216: Translate message to host byte status
-df1303147649e4379d4141206d62ac9bec58a270 scsi: fas216: Use get_status_byte() to avoid using Linux-specific status codes
-a87afe2896e49822b7eff0532c8755097fffb38e scsi: FlashPoint: Use standard SCSI definitions
-b2e88c97c59186584ae6111246aee215ed6ec666 scsi: fdomain: Drop last argument to fdomain_finish_cmd()
-0ee44f900e419efe00a72880256ef9c71cf60225 scsi: fdomain: Translate message to host byte status
-54cf31d07aa859e142c527f04eefa254659e1af2 scsi: core: Drop message byte helper
-a7479a8477e61420df43e1e8964986d90764efca scsi: core: Kill message byte
-14b40c1e7ccc07e486719362f6f29ec5e3151331 scsi: target: Use standard SAM status types
-502071489548b984957cc84d41da9aca59d92ea7 scsi: pcmcia: nsp_cs: Use SAM_STAT_CHECK_CONDITION
-3d45cefc8edd7f560e6c97a8d9928ad571f76dec scsi: core: Drop obsolete Linux-specific SCSI status codes
-1ff28f229bc7fe36735684b25e63b528dbb962a5 Merge branch '5.14/scsi-result' into 5.14/scsi-staging
-d377f415dddc18b33c88dcd41cfe4fe6d9db82fb scsi: libsas: Introduce more SAM status code aliases in enum exec_status
-149d0e489e807f1e6dc265f975a793cea11ecbea scsi: core: Introduce enums for the SAM and host status codes
-62af0ee94bfb9e626ed73b5890fc68c6e1651843 scsi: core: Change the type of the second argument of scsi_host_complete_all_commands()
-1b67f3d74e45e02e159afed6946c6e4ba11b7df6 scsi: qedf: Update the max_id value in host structure
-ebab8e09a07f7f5e253d0b45aae7cbda0e360ebf scsi: fcoe: Statically initialize flogi_maddr
-8b1afb7ab0dbbb8f9186e94ecded6660da1161ae scsi: ufs: core: Remove irrelevant reference to non-existing doc
-80927822e8b6be46f488524cd7d5fe683de97fc4 scsi: scsi_dh_alua: Fix signedness bug in alua_rtpg()
-1cca0c3fdc91db15bbcd58c4dc49b7b97d0891fe scsi: ufs: Remove a redundant command completion logic in error handler
-a45f937110fa6b0c2c06a5d3ef026963a5759050 scsi: ufs: Optimize host lock on transfer requests send/compl paths
-6f7151729647e58ac7c522081255fd0c07b38105 scsi: ufs: Utilize Transfer Request List Completion Notification Register
-61f4f11b48f9b0cd36e88825d5a59d5fda7ec957 scsi: NCR5380: Fix fall-through warning for Clang
-7b8a49881b0157022c7deed1b5950a8a4d5dd095 scsi: mpi3mr: Fix fall-through warning for Clang
-32424902331b35f032fd6152bd4e6e1180329e7d scsi: ufs: core: Remove repeated word in comment
-04c073feb1d7b396992b3c725101872d5fc104b6 scsi: ufs: core: Clean up ufshcd_add_command_trace()
-89ac2c3b283508744de9bc2fba2b57a523990db7 scsi: ufs: core: Let UPIU completion trace print RSP UPIU header
-44b5de363524a1b9b0c9a42502f3a9e1dca9c6c3 scsi: ufs: core: Capture command trace only for the cmd != NULL case
-105424895c02858922e1bf27ef01127e12caca9a scsi: ufs: core: Use UPIU query trace in devman_upiu_cmd()
-eb783bb8bbe72f92947e42f2dbd3ea6185470295 scsi: ufs: core: Fix a possible use before initialization case
-d3d61f9c8c2dbe7e5e6736219afdf9965a7d241a scsi: mpi3mr: Fix a double free
-d46bdecd9f3cdf6c5e1beb5975b5dbf098c1a9f7 scsi: mpi3mr: Delete unnecessary NULL check
-2938bedd0efa0964db563999b9b3b866b2d1a090 scsi: mpi3mr: Fix error handling in mpi3mr_setup_isr()
-d1f2ce77638d681c1e34d597e432a3b28ce15c78 scsi: qedi: Fix host removal with running sessions
-366da0da1f5fe4e7e702f5864a557e57f485431f scsi: hisi_sas: Put a limit of link reset retries
-0f757339919d31533aeadbbfd62f2dd4a49e851f scsi: hisi_sas: Run I_T nexus resets in parallel for clear nexus reset
-2f12a499511f40c268d6dfa4bf7fbe2344d2e6d3 scsi: hisi_sas: Include HZ in timer macros
-63ece9eb350312ee33327269480482dfac8555db scsi: hisi_sas: Reset controller for internal abort timeout
-e8a4d0daaef6fc8f965ca0b8e9585aa9698a0f24 scsi: hisi_sas: Speed up error handling when internal abort timeout occurs
-40445fd2c9fa427297acdfcc2c573ff10493f209 scsi: fc: Correct RHBA attributes length
-8f70328c068f9f5c5db82848724cb276f657b9cd scsi: libfc: Correct the condition check and invalid argument passed
-0726af6bfc6b9f82617da1b7002e33b38453a90e scsi: libfc: Initialisation of RHBA and RPA attributes
-adb98ec72b7213f39cf83dae41d6137da33bde5a scsi: qedf: Add vendor identifier attribute
-82897fefab6811d006531cbc3a6aa03d23b8f8e3 scsi: libfc: Add FDMI-2 attributes
-974db67a518b4f2ca690c29923abbbd9d5f1abfd scsi: libfc: FDMI enhancements
-49d3e5996155a3067782748b0c4edf0309e951b6 scsi: fc: FDMI enhancement
-7dd753ca59d6c8cc09aa1ed24f7657524803c7f3 scsi: sr: Return appropriate error code when disk is ejected
-9e6280ed45fc4b34e81557c028ef196effcba3c9 Merge branch 'fixes' into for-next
-7c932e30ee03e1f82b2941a9068876d866149c84 Merge branch 'misc' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624084685 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1624084684-91e3bf6c58f8546e5ef056b570e544f845f37c3b
 
---===============5574624371293736137==--
+d495dd743d5ecd47288156e25c4d9163294a0992 b61c8bf4694b5115766849378dcb8787ff54e65e refs/heads/tty-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDNkM0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X5UP/1KgpbMOmQdZSekWbOM5
+HScEw4qOrdTrGeayYo7i8evITgLhGOOWAkYdd59YlXIf26B1LdC2/pJx9KAFMFT6
+A8GdPBbGP8FVzDS2HoOviUb6EF+uHOl9yIxA9HUNJmWw6f0CSpGGsil2PwP17bVb
+lA5+qHYb9UNeuwMs+voMmTl3JfEkF2AS5+fSCsurtRjN7zL+utsvYQgBNGjajl9t
+0UE1jb+nUIHZ6dmUv8SguQPAuX529YEiEqXFAXR8ASnkl1b5A2Dg4PnMKpvR1+Jq
+wVzwgwYUeQKZje19sPfSQnjZTCZB5xYjzMm+lxe60dZ19jZLDjWQYvSZr91Fh5sh
+T9PY+oEOpNJvF2cxD/X2+hxWADQ90S/YS54IbMJpacGyl7mUAz6xG+Tv1pmr9Pg4
+fPYFgjva+H6OTz0K3l60pVrcbgPUWhamCPfhqglKv7oKOjOcHak/dCfdbASnjYOh
+HuAWiTOHpgMMX3LEyCv1o/PfK80Q1eIFbn6MLUXHEsFjabQa2ou3YFWxgmT7Znc2
+3EuTBPRtebLjnMcmvvZyvYzoAai0ErDeSlprQ3z3HLauLmgoYxGrQMN9aAdvsSWF
+6/RXcLoQC+LXoTHG2l8MaEcErU8G/Ohbn+gavjuma15yqU2HOMAP2yKnE5+F9/88
+96+uKTemrtWiXcGSFwnbekJk
+=lzOZ
+-----END PGP SIGNATURE-----
+
+--===============3773427779275291295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d495dd743d5e-b61c8bf4694b.txt
+
+291343676e328e1493204faa149746829c488b06 mxser: drop ISA support
+152549026901afb1e8143a4e07df6cb8df42f3bf mxser: renumber mxser_cards
+cede216a0539db096e7767e7dd77ac4544415e49 mxser: remove info printout from init
+4463cc5b8cbeb38cf1bf4b25ac285a9cd10a7f2b mxser: integrate mxser.h into .c
+dc33f644f1cbcf333eb13e213f2e4af82af1dfcd mxser: cleanup Gpci_uart_info struct
+3b6618299a38c8bc21c6f70109c52a2dc8627350 mxser: rename CheckIsMoxaMust to mxser_get_must_hwid
+292955a7c011e2351a7ed6f8d7e418d4f3fdd585 mxser: rename mxser_board::chip_flag to must_hwid
+e45583668e0313c422c650d5da11405624cf547c mxser: introduce enum mxser_must_hwid
+58a2ddb3aa859c7e5a7beee2c43c80ac2229c1ca mxser: drop constant board::uart_type
+928f946426905dd3ab4e166699baa26358cd8a8b mxser: move max_baud from port to board
+cef222cbffccab4ac137b2d4d232103ac9ed8a89 mxser: remove nonsense from ISR
+15517806037c8633ff44e6cd2099d3de22233b4a mxser: cleanup LSR handling in mxser_receive_chars
+9e40ea1f785292356cfb39aafff7d346b46d8b4f mxser: extract port ISR
+9cb5c9c3226ba78e33169721f31b459e6791d6ab mxser: simplify mxser_interrupt and drop mxser_board::vector_mask
+e5ce1bcedac6875ce9d1ff4bafdf150a899a5694 mxser: extract mxser_receive_chars_new
+0c4194218cf206405c39e9d3380886a627c0602c mxser: extract mxser_receive_chars_old
+6de6e5c4becb5494d09d44ce4db1c54dc43afbae mxser: remove else from LSR bits checks
+a93963e41ffeff71a735f4fab95d2cbacd9da7a8 mxser: correct types for uart variables
+02e431444b52728872570a14ade413a2a26be657 mxser: make xmit ring buffer variables unsigned
+70640052324b69de70711c2a3e43bb0a8cff5f7a mxser: drop UART_MCR_AFE and UART_LSR_SPECIAL defines
+a7f8f2c9dcb25ae220ce119794fd1eff417f2b03 mxser: drop unused MOXA_DIAGNOSE macro
+413d555e1296e667d574404f00b2e582bb733040 mxser: remove MOXA_GET_MAJOR deprecated ioctl
+ef3dff8a0af9387b881e278676a460ab9c132d12 mxser: remove MOXA_SET_BAUD_METHOD ioctl
+644c55d229537d6770615b01f074537776973a5b mxser: remove MOXA_ASPP_MON and friends
+489435e4abc01682d4da31c9666e2e251e697182 mxser: remove MOXA_ASPP_LSTATUS ioctl
+a1ebc3794e9c737efdaafaeefc054ce473b0751d mxser: remove MOXA_CHKPORTENABLE ioctl
+476c351db8f0e8a837c144a916b23b3abf5a655b mxser: remove MOXA_GETDATACOUNT ioctl
+c94deae5b708b21727eae5bc830cb176c05ec2e8 mxser: remove MOXA_GETMSTATUS ioctl
+a7574ca74a6e9021f6a058aa21dab84e552cab22 mxser: remove MOXA_ASPP_OQUEUE ioctl
+47f82769181fdb755bc86aff881775357383ff68 mxser: remove MOXA_HighSpeedOn ioctl
+95b3ea4c6f45f3172dae29f303579743c2aa303d mxser: remove cnt from mxser_receive_chars
+389fc82e475be8f6c1745f804470bea5e3bf7dc1 mxser: don't allocate MXSER_PORTS + 1
+cc673990292c21c4bc02461e362d920fe8a7858b mxser: drop unused mxser_port::normal_termios
+01c3de9a10bb917b50d98f5565fb50dcafd1239a mxser: remove unused mxser_port::stop_rx
+a6970c39c311f393c2a2b43733e1b4ce2b241f53 mxser: drop mxser_port::baud_base
+d811b26ba3a78d45ccfc8e562323d9104d321c87 mxser: drop mxser_port::custom_divisor
+2c21832b55dd6f2c5be48133997b6614c1e6327b mxser: cleanup mxser_change_speed
+9fae5f857e124e843c7a41a04a49b3f9256a2d77 mxser: extract mxser_ioctl_op_mode
+238d117d17516f92f5db958809ddec30731e9342 mxser: simplify mxser_ioctl_op_mode
+edb7d27cd10382b6fdb3af50873a04f108c4ee64 mxser: dedup mxser_must_set_enhance_mode
+b286484b3bb1d01dfd6095f01c8ad04b78f1a625 mxser: introduce mxser_must_select_bank and use it
+b441eb0f69d19cddf2018ded38a5f3ea7e392836 mxser: clean up the rest of MUST helpers
+57faa7d6148c2de56f7558eb0d4c837264553ba5 mxser: move board init into mxser_initbrd
+d450f0852fccccc4ae7ec4103e146ae1b61a6fef mxser: inline mxser_board_remove into mxser_remove
+dcb04e21bba349875c97467062a0d5cb06f7524d mxser: pci, switch to managed resources
+7f0e79dc09692357ecd9bb7b9674352b74e0ffad mxser: move request irq to probe and switch to managed
+1e37f7333c89a5364511e3a0eaf28ff617ee42ed mxser: remove info message from probe
+c24c31ff4a7d392945293fd61e844921b9f26f33 mxser: remove mxser_cardinfo
+c3db20c3b71bf14d49e4a6582325e22db4e74a75 mxser: cleanup mxser_process_txrx_fifo
+42ad25fc46d3f6b6fe5b4b933dd328677e328ec7 mxser: rework and simplify mxser_open
+13d4aba8a9747c5f88e537cc065a511fe64f92eb mxser: make mxser_board::idx really an index
+f8b6b327aa73dd69577abd4e164447a9cc124315 mxser: alloc struct mxser_board dynamically
+ad1c92ff6ee948584603ef2e004704cfceb899a4 mxser: alloc only needed # of ports
+987a4cfee5765c9d7242a81d2f90e1429c83201b mxser: remove pointless ioaddr checks
+5990843328360dcded98104f75045a92d241c043 mxser: cleanup mxser_rs_break
+007bbdc87522d17d711ca6bef0d4fe85f62f8c84 mxser: cleanup mxser_dtr_rts
+8aff64e00f1eced4e73ca81c7599c06851da4475 mxser: don't start TX from tty_operations::put_char
+be4866671f8302f04e0485573e97d3a5dfe93fca mxser: extract and dedup CTS handling
+740165f7acbf1e73e6a7bfa2e8642b2e86cdee94 mxser: introduce and use start/stop_tx helpers
+265ceff7aeaa1001b4bea810e1b832d138352b3f mxser: remove xmit_cnt < 0 tests
+aaa28e9f250ca0a63b69b7125a10d49e1c264f85 mxser: decrypt FCR values
+464fbf6c4fc22f13df641bacd85840cfb826ba40 mxser: fix typos around enhanced mode
+202acdaa143a75d54dd9eec905c7faca7071c1a8 mxser: access info->MCR under info->slock
+1b3086b6e602f47d73be282d734dbebbce80d39a mxser: use port variable in mxser_set_serial_info
+06cc52ef8284fa8c95552e6ad0da93d89774eb7f mxser: rename flags to old_speed in mxser_set_serial_info
+5d1ea1ad288fc9e76acb5ec8af1bc16bb799c14f mxser: introduce mxser_16550A_or_MUST helper
+a7f6afcd4ec61136fda54abd3555125a32a9d34e mxser: Documentation, remove traces of callout device
+b34440ffada76527dd39a7a6e753ac31ede3ae88 mxser: Documentation, make the docs up-to-date
+0dd77d02c3333c14f8892b379fae3f731af23897 mxser: Documentation, fix typos
+18aaa97eee7ddb770963d84aeaf5e95a8f8af088 MAINTAINERS: add me back as mxser maintainer
+b61c8bf4694b5115766849378dcb8787ff54e65e tty: serial: Add UART driver for Cortina-Access platform
+
+--===============3773427779275291295==--
