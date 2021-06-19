@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0619405500638895541=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sat, 19 Jun 2021 21:54:24 -0000
-Message-Id: <162413966445.18114.4776606553737240577@gitolite.kernel.org>
-
---===============0619405500638895541==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 19 Jun 2021 21:59:57 -0000
+Message-Id: <162413999774.21375.14737031358442771319@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/linux-can-fixes-for-5.13-20210619
-    old: 390229f33b7e210b441a11cf125dbb448a273d1b
-    new: 1aba1b9446cac5326e8247e667eb011eabe77f1c
+  - ref: refs/heads/master
+    old: d9403d307dba1a71ee6462b22300c2d3be773b1c
+    new: 913ec3c22ef425d63dd0bc81fb008ce7f9bcb07b
     log: |
-         fb8696ab14adadb2e3f6c17c18ed26b3ecd96691 can: gw: synchronize rcu operations before removing gw job entry
-         14a4696bc3118ba49da28f79280e1d55603aa737 can: isotp: isotp_release(): omit unintended hrtimer restart on socket release
-         22c696fed25c63c7f67508309820358b94a96b6d can: j1939: j1939_sk_init(): set SOCK_RCU_FREE to call sk_destruct() after RCU is done
-         ab4a0b8fcb9a95c02909b62049811bd2e586aaa4 net: can: ems_usb: fix use-after-free in ems_usb_disconnect()
+         fc96ec4d5d4155c61cbafd49fb2dd403c899a9f4 perf metricgroup: Fix find_evsel_group() event selector
+         fe7a98b9d9b36e5c8a22d76b67d29721f153f66e perf metricgroup: Return error code from metricgroup__add_metric_sys_event_iter()
+         c087e9480cf33672ef2c6cce4348d754988b8437 perf machine: Fix refcount usage when processing PERF_RECORD_KSYMBOL
+         482698c2f848f9dee1a5bd949793c2fe6a71adc5 perf test: Fix non-bash issue with stat bpf counters
+         ef83f9efe8461b8fd71eb60b53dbb6a5dd7b39e9 perf beauty: Update copy of linux/socket.h with the kernel sources
+         17d27fc314cba0205eec8966735a7a241cc8a5e0 tools headers UAPI: Sync asm-generic/unistd.h with the kernel original
+         1792a59eab9593de2eae36c40c5a22d70f52c026 tools headers UAPI: Sync linux/in.h copy with the kernel sources
+         913ec3c22ef425d63dd0bc81fb008ce7f9bcb07b Merge tag 'perf-tools-fixes-for-v5.13-2021-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
          
-
---===============0619405500638895541==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1624139660 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1624139660-97ef9336e8058304b9e5631aac1f3f3ba4bf1942
-
-390229f33b7e210b441a11cf125dbb448a273d1b 1aba1b9446cac5326e8247e667eb011eabe77f1c refs/tags/linux-can-fixes-for-5.13-20210619
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmDOZ4wTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqSByB/9Vbl1PPmpEG8o3DDgWsIKh+hNeRXfO
-4adtMdjOpKT4G6IkIffWGp2CyvDtskyz3M5T+6HH0g4yVsrGawAowrgVC47xnES2
-gVYUQASF8WEPbHGKNL5yed/nbB7SbtvNUTaH8U+gTbOaoq76COkXS9gjB8D3h4aO
-OedYOlCMPBpGiVl0zXatbk+0EapQfi2Dpf30F6etAeqB0Bd9dRBpUwJoa0o/tdpM
-sUenhr7qQWBP6O1EqH80nFuCskJRibj1U5YkrGsEkKI0vXFRfIRLo8QI4oYC8nGd
-lcIljGASTEG45oUJtzOov+MVzkXRwA+aDkh8RxkDsu3d5JwJ+NF0yNYV
-=8lCV
------END PGP SIGNATURE-----
-
---===============0619405500638895541==--
