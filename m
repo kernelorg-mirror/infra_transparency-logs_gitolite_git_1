@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 19 Jun 2021 06:10:35 -0000
-Message-Id: <162408303546.28177.8097560632023057334@gitolite.kernel.org>
+Date: Sat, 19 Jun 2021 06:10:41 -0000
+Message-Id: <162408304164.28266.3525041489679522476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: e57f5cd99ca60cddf40201b0f4ced9f1938e299c
-    new: 1e0d4e6225996f05271de1ebcb1a7c9381af0b27
+  - ref: refs/heads/fixes
+    old: 1e0d4e6225996f05271de1ebcb1a7c9381af0b27
+    new: 7dd753ca59d6c8cc09aa1ed24f7657524803c7f3
     log: |
-         66a834d092930cf41d809c0e989b13cd6f9ca006 scsi: core: Fix error handling of scsi_host_alloc()
-         3719f4ff047e20062b8314c23ec3cab84d74c908 scsi: core: Fix failure handling of scsi_add_host_with_dma()
-         11714026c02d613c30a149c3f4c4a15047744529 scsi: core: Put .shost_dev in failure path if host state changes to RUNNING
-         1e0d4e6225996f05271de1ebcb1a7c9381af0b27 scsi: core: Only put parent device if host state differs from SHOST_CREATED
+         7dd753ca59d6c8cc09aa1ed24f7657524803c7f3 scsi: sr: Return appropriate error code when disk is ejected
          
