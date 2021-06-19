@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8461417876293800022=="
+Content-Type: multipart/mixed; boundary="===============2055086885085354707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 19 Jun 2021 03:36:05 -0000
-Message-Id: <162407376545.16312.10492186458130437384@gitolite.kernel.org>
+Date: Sat, 19 Jun 2021 03:36:10 -0000
+Message-Id: <162407377046.16384.2459708163270922706@gitolite.kernel.org>
 
---===============8461417876293800022==
+--===============2055086885085354707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 361539184afbd8cfa9e53d0253b6eff9c8f4dde5
-    new: 3814b8664b0124cb55d7f4b9814e6ecf3b6588bb
-    log: revlist-361539184afb-3814b8664b01.txt
+  - ref: refs/heads/5.14/scsi-staging
+    old: ebc076b3eddc807729bd81f7bc48e798a3ddc477
+    new: 041761f4a4db662e38b4ae9d510b8beb24c7d4b6
+    log: revlist-ebc076b3eddc-041761f4a4db.txt
 
---===============8461417876293800022==
+--===============2055086885085354707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1624073763 -0400
+pusher 75C5DE3D 1624073768 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1624073763-5a99930f1fe095550f280e91e56844b437d04d48
+nonce 1624073768-cd9e87708d6d4265dc4acd5962c6f7db5bff96e7
 
-361539184afbd8cfa9e53d0253b6eff9c8f4dde5 3814b8664b0124cb55d7f4b9814e6ecf3b6588bb refs/tags/mkp-scsi-staging
+ebc076b3eddc807729bd81f7bc48e798a3ddc477 041761f4a4db662e38b4ae9d510b8beb24c7d4b6 refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDNZiMACgkQ7ulgGnXF
-3j1WxRAAjBwlpQv0jVTfWGGlBAOOKwWUKnln/k4vzlEtRkYpg9P/A8YEWtYBsft5
-CUTiMp3ljMD5rnHPU/pv1/hHIlNUjUFJ77qrxgIIDXUeJIDay7qER9B1Pg3hrZHT
-0sNlJp+FoIwVM6x5zFQHFUzbspJjIO2kPDZSoMfmntEwXO6GaMdV6Lllpi6zzHpO
-8/dHVFU1l02ysg/1KV6zwxWvrMsXM9NtZFthe7ZoU4Dd9+WYI7yqdlk4nuh0BqaM
-1oi4qH51P+plnUl7VJDBg6ywP3VB/SKMia4jXfu/HoroUagGp2sI7HeY3+0Bkowy
-HG48pE5jpt5CHj1KpO3vefvIpwDsGEVrSSDgHQ+ETqT2fWCIS0CV0K4+nJPsgm4a
-5r3fSEuU+qghk6IouzE9Xa2gSCSvtP+Uq7hvLC6/55toh9M3semSvsiNcb9+v27c
-vVh6PsR1/xkoqtOCKsxqUeUh27V3SEgmWcS4N3flEDdpqHIsUYDR0FVTMj20H516
-RlXajK0NErc9+1U3/oxnuhM1zsqs3UIsQTzSEqfsbQqYlcIHQHS5/W7XpPXAVM3s
-MZgTUOLtKGyDwbYEGNIKmQzqo8t0pjLYbwojuVhaIPY2fLg9idycgzTW4T1rbAl/
-W9v896IeYi0uutBJCDS6ctFUkDcLiIjJNKOAZ6UWLNDkBFn/VwQ=
-=e+Gs
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDNZigACgkQ7ulgGnXF
+3j3BWhAApU9KuDqmnMPQwx8tXu4gz66MQETA77UY/5aNOCqKj/+3uxg4QLhjDwL6
+2SHCLudRUmj4Wd4Tneo6N5eemb4V0tj4o56ol2cJ+nc6UPWYa0Vd92JzjYcovwFy
+/p3CXqPD28nhNZMfVkAzNFuDTty6VLaL1sNBLJhFUg7/HDDYe/CK9uVH63vqMFNS
+V6GusalfFVW1iiTruqfjfQpsCte7yvk/ZIB539KGBRG4xifI3BrvoxHF/Gy4RfoE
+lOk+8ulKKF4EXY6vGEh2AEFYCfH8Pc9Z3LJpFzjiFyx38Prk9L4ZFG1TjsMSSiwm
+RPaQfSOEWSpuRGtVSMsLDwOaLHqD9+Rh6tlkGeWxm1ZHSfGR+Q9wo+mkiF90RPVw
+/1ldVXst4lZz57LY7BxN1IYepoMFYMymXDmb/fFcG7RVw+u419hNFPptEjwc/M/x
+IiC9QJvytJqcbHNEVX4v6mdIB4AOqeugNJohna2p4V+eLKQwnBa9Msd3DMqOWqqW
+hTxNrlYZ+nuXo40XsHgPtNDB9XyCclFyYw1hZCEVjOvm7W4wIWiN1qOvK89hef5s
+VSTq1eiYArCmo6JQhATofoy7/EjsrtWQdjf6nt4MR2XCrX55O1Y5zwl/j+AysfVh
+22GG9tSOgMLBxJV1S2qORCO+9pG0hwWjwrJkYMwNuaATc/Tighk=
+=Wtj5
 -----END PGP SIGNATURE-----
 
---===============8461417876293800022==
+--===============2055086885085354707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-361539184afb-3814b8664b01.txt
+Content-Disposition: attachment; filename=revlist-ebc076b3eddc-041761f4a4db.txt
 
 f9dc034d0402be35288959bfb44a41363be2b13e scsi: mpi3mr: Fix missing unlock on error
 a254eae30b45bb5f03b66e6b1047829cd4337976 scsi: mpi3mr: Fix error return code in mpi3mr_init_ioc()
@@ -81,4 +81,4 @@ d8b34a32a44078abef55e9fee5b3ddc7755d7c30 scsi: ufs: ufs-mediatek: Add missing of
 86a6a0bdbe2beb4cc7bc80eccd835b62a1f0c364 scsi: arcmsr: Avoid over-read of sense buffer
 041761f4a4db662e38b4ae9d510b8beb24c7d4b6 scsi: aha1740: Avoid over-read of sense buffer
 
---===============8461417876293800022==--
+--===============2055086885085354707==--
