@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 19 Jun 2021 04:13:34 -0000
-Message-Id: <162407601401.11642.7455838681030591305@gitolite.kernel.org>
+Date: Sat, 19 Jun 2021 04:13:54 -0000
+Message-Id: <162407603401.11821.882612351746231318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,5 @@ repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: 01f5315dd7327b53a5f538b74a2338a651b1832d
-    new: 3a02764c372c50ff7917fde5c6961f6cdb81d9d5
-    log: |
-         314b781706e337b8cbde98cfefd3975863e032f2 riscv: kasan: Fix MODULES_VADDR evaluation due to local variables' name
-         3a02764c372c50ff7917fde5c6961f6cdb81d9d5 riscv: Ensure BPF_JIT_REGION_START aligned with PMD size
-         
+    old: 3a02764c372c50ff7917fde5c6961f6cdb81d9d5
+    new: 01f5315dd7327b53a5f538b74a2338a651b1832d
