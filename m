@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 20 Jun 2021 19:23:27 -0000
-Message-Id: <162421700748.31554.16936585873671781181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sun, 20 Jun 2021 20:24:07 -0000
+Message-Id: <162422064736.6011.1519547023742913805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: ee5d678b1fac96866819466c69f3bf33bd81a4df
-    new: 3abc7467ba9dc5de8a0899de4c1804a95ae48ffc
+  - ref: refs/heads/rtc-next
+    old: bcae59d0d45b866d5b9525ea8ece6d671e6767c8
+    new: 742b0d7e15c333303daad4856de0764f4bc83601
     log: |
-         47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
-         3abc7467ba9dc5de8a0899de4c1804a95ae48ffc Merge branch 'for-v5.14/tegra-mc-late-or-fixes' into for-next
+         a8fdbefd75f660b471112d7d0bf583adf78f5c34 rtc: sysfs: Correct kerneldoc function name hctosys_show()
+         b958da7919e2c325ba8c6e34c947f745e5c66cef rtc: m41t80: correct kerneldoc function names
+         742b0d7e15c333303daad4856de0764f4bc83601 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
          
-  - ref: refs/heads/for-v5.14/tegra-mc-late-or-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 47661ee1821fc3a6b5ae07aac37410d6ccada976
