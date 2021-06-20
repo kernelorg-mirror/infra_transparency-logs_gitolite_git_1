@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 20 Jun 2021 20:35:49 -0000
-Message-Id: <162422134969.14259.5727427158191320309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sun, 20 Jun 2021 21:05:26 -0000
+Message-Id: <162422312669.1821.12734912590441992224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/rtc-next
-    old: 7e124917809705f05e0c9f0f72a38102e6aa4eff
-    new: 4a7e7408688de048bffa5e0e00d246b5f854bcf7
+  - ref: refs/heads/edac-for-next
+    old: f0a029fff4a50eb01648810a77ba1873e829fdd4
+    new: 0a9ece9ba154dd6205709108180952c55e630833
     log: |
-         4a7e7408688de048bffa5e0e00d246b5f854bcf7 dt-bindings: rtc: ti,bq32k: Convert to json-schema
+         0a9ece9ba154dd6205709108180952c55e630833 EDAC/igen6: fix core dependency
          
