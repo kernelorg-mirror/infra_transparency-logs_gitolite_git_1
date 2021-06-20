@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 20 Jun 2021 22:42:50 -0000
-Message-Id: <162422897046.31007.12537760019010011421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Sun, 20 Jun 2021 23:09:26 -0000
+Message-Id: <162423056698.15841.15623263928495380499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/rtc-next
-    old: 4a7e7408688de048bffa5e0e00d246b5f854bcf7
-    new: 94af1e732abe6e83fb146fc89d6f520e6a939c6a
+  - ref: refs/heads/hyperv-next
+    old: 13d5ac4c5a3d53186bb037fbe5244e24f4901b80
+    new: 7d815f4afa87f2032b650ae1bba7534b550a6b8b
     log: |
-         836e9ea3ccc263d17fdeb90f28089ff1d945500d rtc: pcf2127: Fix the datasheet URL
-         663bff1753a88195328fa7dc97cb96c9916343ed rtc: pcf85063: Fix the datasheet URL
-         94af1e732abe6e83fb146fc89d6f520e6a939c6a rtc: pcf8563: Fix the datasheet URL
+         7d815f4afa87f2032b650ae1bba7534b550a6b8b PCI: hv: Add check for hyperv_initialized in init_hv_pci_drv()
          
