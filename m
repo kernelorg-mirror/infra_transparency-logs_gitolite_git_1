@@ -1,50 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6998406474263005922=="
+Content-Type: multipart/mixed; boundary="===============6519988754678907909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 21 Jun 2021 05:50:19 -0000
-Message-Id: <162425461972.25832.15260480325105661164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 21 Jun 2021 06:19:58 -0000
+Message-Id: <162425639888.11538.18041988602003312241@gitolite.kernel.org>
 
---===============6998406474263005922==
+--===============6519988754678907909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: vigneshr
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 36ac0228626585ba718186b9db2e5986a198152c
-    new: c17e5c85b32f8809135f3211ba2525fb98b5c09f
-    log: |
-         c17e5c85b32f8809135f3211ba2525fb98b5c09f mtd: spi-nor: remove redundant continue statement
-         
+  - ref: refs/heads/next
+    old: 1ed9e566f3d7cbe0b363113249e14984d809e262
+    new: bd1f775d6027810d366600e2490a2ff247e3466e
+    log: revlist-1ed9e566f3d7-bd1f775d6027.txt
 
---===============6998406474263005922==
+--===============6519988754678907909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1ed9e566f3d7-bd1f775d6027.txt
 
-certificate version 0.1
-pusher Vignesh Raghavendra <vigneshr@ti.com> 1624254618 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mtd/linux.git
-nonce 1624254617-27a95034a676c620fe58a26dace63c9278c06a72
+185ff019f6ffce5d1086961d8061a040d37e609e phy: bcm-ns-usb3: Remove redundant dev_err call in bcm_ns_usb3_mdio_probe()
+349f98321121eea3a8f556b85fd1cde5147f6d92 phy: phy-mmp3-hsic: Remove redundant dev_err call in mmp3_hsic_phy_probe()
+779fabf2a030875d203821648a978831eb8bae93 phy: phy-mtk-mipi-dsi: Remove redundant dev_err call in mtk_mipi_tx_probe()
+10d2dece591be8c465fb07291ae0263400209d11 phy: phy-mtk-hdmi: Remove redundant dev_err call in mtk_hdmi_phy_probe()
+307773f525eb9217090bd4b11748d880f7f99355 phy: core: Reword the comment specifying the units of max_link_rate to be Mbps
+ad92330614b93933088764e9098ebaec042bada6 dt-bindings: phy: Add binding for TI TCAN104x CAN transceivers
+a4a86d273ff1b6f7551c67908556fd91c9affd22 phy: phy-can-transceiver: Add support for generic CAN transceiver driver
+de82b841833b584fd799947e60bd5eccd8846baa phy: rockchip: remove redundant initialization of pointer cfg
+ba66207eb01f4b581ce984756f7cd4fbbf4780c3 dt-bindings: phy: add yaml binding for rockchip-inno-csi-dphy
+bd1f775d6027810d366600e2490a2ff247e3466e phy/rockchip: add Innosilicon-based CSI dphy
 
-36ac0228626585ba718186b9db2e5986a198152c c17e5c85b32f8809135f3211ba2525fb98b5c09f refs/heads/spi-nor/next
------BEGIN PGP SIGNATURE-----
-
-iQFEBAABCAAuFiEEyRC2zAhGcGjrhiNExEYeRXyRFuMFAmDQKJoQHHZpZ25lc2hy
-QHRpLmNvbQAKCRDERh5FfJEW47eCB/9YfyU5C8Df9MA4Usj4Nbb2pcDBpOE+czCx
-Eqjjgqj3y29YT6hnAHh8k/k96xSMqOkYfvZH4vkoj6ro0x9yh3p7QLZhrZKOscgB
-ic5vDLpsJ7LmOpY8NKzyYf5JWVtpzw63GEMebikEP9sdwljcUTGnMOz0lkv74xrB
-9Af+nXEFo+NkNS4FEFg4nHNkWGCRV1qJxHU4ux1yLArDuQ55pVurTsofSHieAPs7
-e6Li/8XDndwtpZxLP+tUGyLNqm/VS3DWxve9tLrzPsUTgB9+vhx15bH/WQHI/xE/
-b6ackrlfOdEGnIHII9Kh6oNSddXmb5rHrG32mW43j9UumdjeoiQq
-=CFIy
------END PGP SIGNATURE-----
-
---===============6998406474263005922==--
+--===============6519988754678907909==--
