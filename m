@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6328538499722636388=="
+Content-Type: multipart/mixed; boundary="===============7184940270297369440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 21 Jun 2021 18:32:07 -0000
-Message-Id: <162430032739.1168.9042448722969579869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Jun 2021 18:32:17 -0000
+Message-Id: <162430033706.1333.7039408654437619880@gitolite.kernel.org>
 
---===============6328538499722636388==
+--===============7184940270297369440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: fac165f22ac947b55407cd3a60a2a9824f905235
     new: 3b7961a326f8a7e03f54a19f02fedae8d488b80f
     log: |
@@ -29,37 +29,37 @@ changes:
          489a830a25e1730aebf7ff53430c170db9a1771b ASoC: atmel-i2s: Set symmetric sample bits
          3b7961a326f8a7e03f54a19f02fedae8d488b80f ASoC: atmel-i2s: Fix usage of capture and playback at the same time
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 45ce213392df07b9e2443666c0910e1617882cf3
     new: 439779ffd9096526e57994b118a3169c9ec57f72
     log: revlist-45ce213392df-439779ffd909.txt
 
---===============6328538499722636388==
+--===============7184940270297369440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624300304 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1624300324-ce4372456970c74865fd61f690e49e62736b2070
+pusher C3F436CA30F5D8EB 1624300314 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624300334-dbdd289a86edcca3bb278c42036c4e07fa808a99
 
-fac165f22ac947b55407cd3a60a2a9824f905235 3b7961a326f8a7e03f54a19f02fedae8d488b80f refs/heads/for-5.13
-45ce213392df07b9e2443666c0910e1617882cf3 439779ffd9096526e57994b118a3169c9ec57f72 refs/heads/for-5.14
+fac165f22ac947b55407cd3a60a2a9824f905235 3b7961a326f8a7e03f54a19f02fedae8d488b80f refs/heads/asoc-5.13
+45ce213392df07b9e2443666c0910e1617882cf3 439779ffd9096526e57994b118a3169c9ec57f72 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDQ2xAACgkQJNaLcl1U
-h9B1rAf8CgclOKjy27vHXbmRJunjWl0PLz86/Z8K7B7qKGU0RL47AuL8jsSqoH2B
-CEazq/n1/FKYTlcaiJKFcCzaHBgpy//kNHPH2nnGyXkOo27vnT017C1JoWf+nKMC
-3cejnfbUyuxfTj5q80mMxUGKKZucYFTjzwPKsGJ0sY/qq3Hp+cxdG8YYQQbBX/UP
-e5iC50Xqo5X8Cyc6EO8tx2CEfU7q0I+bNORdWUiTLl7gU6FUm5ZMTJ13+OaSRCsY
-qhObfc4eY8sYjYTJ4kAetqZXrEzB9vb05QT2DYu6a3/CtvCHSC2rDMAKAoCsjqaD
-kCHJGcwgOqUMj+oz91AQ0PFXp2E3rQ==
-=caY0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDQ2xoACgkQJNaLcl1U
+h9Bmsgf+KBAFSnavPofTbni3lTxEs46SHDg8oSwi7Ee/D2DqCpbVBioZHsWpUD0G
+XjLKB0yH5H67EZyLNS3s50DiLC5Ugogubhgjl+8QOXEWNY7nKIz+2Xm1JNAlnvT5
+WknFWnvcBWGrIumRT57RDpifob9RmbWt2basWOk8GQwNb/pDRNkUeoT5Ia8ZA8Ae
+ph3pJub05psZoCIr74/yo7MPBvHGtQIAgdZAYOE4jcGUAksfbvCKNJ6cCIeeq7v+
+ThdQr/sWkWHch3nHWK48J4gVUL44FfTAPoVTaQXrxt/lHQ9vDJ+h31Ut1h9pTN+L
+f7+D/89PTbKG0mmFBkwyPL/VQgC0kg==
+=N0oq
 -----END PGP SIGNATURE-----
 
---===============6328538499722636388==
+--===============7184940270297369440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -99,4 +99,4 @@ ef7eb57d21e88ecb2a4e2c6f2c4118245e2efb21 Merge series "ASoC: sunxi: Use devm_pla
 d7085db6e19237cc4987d5eda95e35b44175a108 Merge series "ASoC: tidyup snd_soc_of_parse_daifmt()" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 439779ffd9096526e57994b118a3169c9ec57f72 Merge series "ASoC: fsl: Use devm_platform_get_and_ioremap_resource()" from Yang Yingliang <yangyingliang@huawei.com>:
 
---===============6328538499722636388==--
+--===============7184940270297369440==--
