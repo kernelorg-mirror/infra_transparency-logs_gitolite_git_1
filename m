@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 21 Jun 2021 20:34:52 -0000
-Message-Id: <162430769214.19302.948475574195356970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 21 Jun 2021 20:58:28 -0000
+Message-Id: <162430910851.3327.17920170595941757539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
   - ref: refs/heads/for-next
-    old: ee55b92a7391bf871939330f662651b54be51b73
-    new: b8e0c7f90e6f99ee64ea60e39253d5fcfb445f9e
+    old: e4a328317f30746410f302477b2aa8ec6d8f9373
+    new: f742f09c6485c07bd0684160685120d71ad0a95e
     log: |
-         867de40c4c23e6d7f89f9ce4272a5d1b1484c122 dm writecache: write at least 4k when committing
-         8e54fbee7c214de4497aedd35ffd2fcf1d12c651 dm writecache: add optional "metadata_only" parameter
-         82079038031f86fe3269b170bb927035d70cc133 dm ps io affinity: remove redundant continue statement
-         628527c91ab3a7f7cdc828f60799a6065ab5f6f4 dm zone: fix dm_revalidate_zones() memory allocation
-         b8e0c7f90e6f99ee64ea60e39253d5fcfb445f9e dm btree remove: assign new_root only when removal succeeds
+         f742f09c6485c07bd0684160685120d71ad0a95e gfs2: Fix underflow in gfs2_page_mkwrite
          
+  - ref: refs/heads/for-next.mmap-fault
+    old: 0000000000000000000000000000000000000000
+    new: 4694ea39443ef90893259558c2871eed2d4bbdc6
