@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1877695299064958632=="
+Content-Type: multipart/mixed; boundary="===============4737469185773149497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 21 Jun 2021 09:05:57 -0000
-Message-Id: <162426635782.31562.2036301553911990066@gitolite.kernel.org>
+Date: Mon, 21 Jun 2021 09:06:03 -0000
+Message-Id: <162426636318.31672.1831346652085489769@gitolite.kernel.org>
 
---===============1877695299064958632==
+--===============4737469185773149497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: e75a865fa2a36b7adf4ad149d311362333b84c43
-    new: 496c768d46ebc427721b85431055fdd0f5b13c24
-    log: revlist-e75a865fa2a3-496c768d46eb.txt
+  - ref: refs/heads/m68k-queue
+    old: 6fbe4ff2de8139752ced6a1bd64366ce2908f3dc
+    new: 3887d7bd0e6bd19777efb6e5a905f1226cbf54da
+    log: revlist-6fbe4ff2de81-3887d7bd0e6b.txt
 
---===============1877695299064958632==
+--===============4737469185773149497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e75a865fa2a3-496c768d46eb.txt
+Content-Disposition: attachment; filename=revlist-6fbe4ff2de81-3887d7bd0e6b.txt
 
 1c4841ccbd2b185587010d6178aac11953f61d4c dmaengine: idxd: add engine 'struct device' missing bus type assignment
 077cdb355b3d8ee0f258856962e6dac06e744401 dmaengine: idxd: add missing dsa driver unregister
@@ -313,6 +313,12 @@ b84a7c286cecf0604a5f8bd5dfcd5e1ca7233e15 Merge tag 'powerpc-5.13-6' of git://git
 9df7f15ee922429dcd6bcde68559ccb23f2dbd20 Merge tag 'irq_urgent_for_v5.13_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cba5e97280f53ec7feb656fcdf0ec00a5c6dd539 Merge tag 'sched_urgent_for_v5.13_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 13311e74253fe64329390df80bed3f07314ddd61 Linux 5.13-rc7
-496c768d46ebc427721b85431055fdd0f5b13c24 Merge tag 'v5.13-rc7'
+6eccfd339a96eeda83a1f1e93a7650721c2aed7c m68k: Drop -fno-strength-reduce from KBUILD_CFLAGS
+1af2bbd8536d7616f9f0b7573002c47eed7bff84 m68k: dma: Remove unnecessary include of asm/cacheflush.h
+ad478f9d588d3f7dec47ea648bd4a77c78c3564a MAINTAINERS, .mailmap: Update Finn Thain's email address
+04daa672eda996b31c6b96fa24d7ef2c76a6d1df m68k: atari: Fix ATARI_KBD_CORE kconfig unmet dependency warning
+c7d03dd94c9df67f67edc6ed3fb649ee02979791 m68k: atari: usb: Add ISP1160 USB host controller support
+8172438126b59b274a32d77fef167a2c8b31e49a m68k: atari: Update Kconfig.bus help text
+3887d7bd0e6bd19777efb6e5a905f1226cbf54da m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1877695299064958632==--
+--===============4737469185773149497==--
