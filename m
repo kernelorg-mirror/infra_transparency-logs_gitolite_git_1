@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Jun 2021 21:51:33 -0000
-Message-Id: <162431229397.7908.12737796812740276795@gitolite.kernel.org>
+Date: Mon, 21 Jun 2021 21:52:26 -0000
+Message-Id: <162431234690.8275.4304806616825580927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 6d5516177d3b723fe9701b89e69db18cf0ca0421
-    new: a3fa449ffcf5bcf9c3dddf62c11599cdc79ef54a
+    old: a3fa449ffcf5bcf9c3dddf62c11599cdc79ef54a
+    new: ef2c3ddaa4ed0b1d9de34378d08d3e24a3fec7ac
     log: |
-         a3fa449ffcf5bcf9c3dddf62c11599cdc79ef54a net: handle ARPHRD_IP6GRE in dev_is_mac_header_xmit()
+         ef2c3ddaa4ed0b1d9de34378d08d3e24a3fec7ac ibmvnic: Use strscpy() instead of strncpy()
          
