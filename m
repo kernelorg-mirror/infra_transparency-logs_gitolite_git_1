@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9083119755947737468=="
+Content-Type: multipart/mixed; boundary="===============6032903700207136748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 21 Jun 2021 10:24:36 -0000
-Message-Id: <162427107641.21538.10679427519689834048@gitolite.kernel.org>
+Date: Mon, 21 Jun 2021 10:24:48 -0000
+Message-Id: <162427108825.21680.1056377635333050451@gitolite.kernel.org>
 
---===============9083119755947737468==
+--===============6032903700207136748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: e73a99f3287a740a07d6618e9470f4d6cb217da8
-    new: 67147e96a332b56c7206238162771d82467f86c0
-    log: revlist-e73a99f3287a-67147e96a332.txt
+  - ref: refs/heads/for-next
+    old: d241b48a2d08a0309d07e96b1dae41b21b34ba61
+    new: 6de0091b92786189fdffca3a62808e5ccd72bc14
+    log: revlist-d241b48a2d08-6de0091b9278.txt
 
---===============9083119755947737468==
+--===============6032903700207136748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73a99f3287a-67147e96a332.txt
+Content-Disposition: attachment; filename=revlist-d241b48a2d08-6de0091b9278.txt
 
 1c4841ccbd2b185587010d6178aac11953f61d4c dmaengine: idxd: add engine 'struct device' missing bus type assignment
 077cdb355b3d8ee0f258856962e6dac06e744401 dmaengine: idxd: add missing dsa driver unregister
@@ -573,5 +573,7 @@ ca1f4d702d534387aa1f16379edb3b03cdb6ceda s390: clear pt_regs::flags on irq entry
 8c0795d2a0f50e2b131f5b2a8c2795939a94058e s390/vfio-ap: clean up mdev resources when remove callback invoked
 9e3d62d55bf455d4f9fdf2ede5c8756410c64102 s390/topology: clear thread/group maps for offline cpus
 67147e96a332b56c7206238162771d82467f86c0 s390/stack: fix possible register corruption with stack switch helper
+629c48f8e9c7cc67483433003b73b55790f4b5da Merge branch 'fixes' into for-next
+6de0091b92786189fdffca3a62808e5ccd72bc14 Merge branch 'features' into for-next
 
---===============9083119755947737468==--
+--===============6032903700207136748==--
