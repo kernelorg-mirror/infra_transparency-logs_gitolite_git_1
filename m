@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Jun 2021 21:42:16 -0000
-Message-Id: <162431173660.32299.3728667244343974602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 21 Jun 2021 21:43:36 -0000
+Message-Id: <162431181616.366.9288325438698420925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c829de3989f53e535bd6ab5b942df8c5c8863d3f
-    new: fe0bdbde0756e29784ec9770d3a418c9d1640eee
+    old: b90788459cd6d140171b046f0b37fad341ade0a3
+    new: c7ff9cff70601ea19245d997bb977344663434c7
     log: |
-         fe0bdbde0756e29784ec9770d3a418c9d1640eee net: add pf_family_names[] for protocol family
+         c7ff9cff70601ea19245d997bb977344663434c7 vsock: notify server to shutdown when client has pending signal
          
