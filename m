@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3346212047387221451=="
+Content-Type: multipart/mixed; boundary="===============0525241582487089800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 21 Jun 2021 09:30:20 -0000
-Message-Id: <162426782088.17064.3381581320222740005@gitolite.kernel.org>
+Date: Mon, 21 Jun 2021 09:31:49 -0000
+Message-Id: <162426790943.17580.4412080919654793113@gitolite.kernel.org>
 
---===============3346212047387221451==
+--===============0525241582487089800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: cfb0276373dfb5dccef0f60df0d1f7c0328918a7
-    new: f2dca339fa7d7089c66ece2ad6b69185093bc06e
+  - ref: refs/heads/usb-testing
+    old: 84524d1232ecca7cf8678e851b254f05cff4040a
+    new: ab37ac690ed08c5f41723f2143e3b9e682f031e6
     log: |
-         440e547dd0f812c3082f81192e5c965e61c64dfa usb: cdns3: Corrected comment to align with kernel-doc comment
-         4ae08bc23e1b29894b1af34990409a454cccf242 usb: cdnsp: Useless condition has been removed
-         3496993d06ffc77dff596bfbed966621e999b2e1 doc: dt-binding: cdns,usb3: Add interrupt-names property under required
-         33e99b65a13495247b4e35ec97ab82696c0fc6e0 usb: cdns3: cdns3-gadget: Use list_move_tail instead of list_del/list_add_tail
-         f2dca339fa7d7089c66ece2ad6b69185093bc06e Merge tag 'usb-v5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
+         ab37ac690ed08c5f41723f2143e3b9e682f031e6 xhci: remove redundant continue statement
          
 
---===============3346212047387221451==
+--===============0525241582487089800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624267819 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624267907 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1624267818-a0792c8bf00b96d1e9f58631d0d00d0c3ed86b00
+nonce 1624267906-2d20a5a0b2f75120f2aa1bd4e42b8c5926e0e3c0
 
-cfb0276373dfb5dccef0f60df0d1f7c0328918a7 f2dca339fa7d7089c66ece2ad6b69185093bc06e refs/heads/usb-next
+84524d1232ecca7cf8678e851b254f05cff4040a ab37ac690ed08c5f41723f2143e3b9e682f031e6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDQXCsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7kcP/i2Qi9qcsupvvoTt/kPt
-S8r1ZBZZxfv53YJwCGreN1/5CwOtWGAu1ExIPc9pfksovSlvBRW/l3aSYV/ev8QS
-5l6kDFHJ85dL5bvTvkJyM/5DPO9LpZtzzZuCv+o3kM1uTeAXf+1q/34tXBtNpOzx
-h2RwCfwtM18JdziimrOPMXJ9D3rd4SvkNEYzVXoGUZoRcPe1y+fXvANzbSVECC35
-LKAk5eQRydsXEPMS34mwxZ0EQVcsFoIXzVdelWG+y2kTF+oJwAsSOwSYeCjToBmq
-aVWl/Kpau8bUB5Dno1veLT4Ke1ojoFan1gG/3hx0bY8tr+pHVPxR9n8jlnSErYrx
-7OkADCKXmOBWDQvp9RZbs7qMtqajgqszAE3meYFMDQme9jCh7QWcOQpviPqP3ASy
-dEzKeQeQTIk2kDhqeUmEXBTTXA4so92v0NGilbstFtGOX+gKi/SBZgPxBji1QCWK
-4p6g9qNJGvAsNMgNKFMnQbOpTAxtWydNr9X9+FybfET3/ILiGt3boP8iXH87jBye
-AiWUS4NIaU56nbFSdqUIZw2rbRS5mcgqGjevPUSCnkjxLW/ED4uySroP3BQpJtXF
-U+Q5r0F0mf3o713zlNHQ4l/pxv/GhPF8DIYZtQCwDX8kO9hW9sC1O8cFgRp8c0K0
-lt+xstAAis2tuPy8l43aMUcu
-=71aj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDQXIMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ljMP/jO/oWUwz6CuoSOqh/sq
+3TnigNBKaHsnMWC1VbKqM+HPp68LW/8GFh6tVafydWzvqXwavdSX43r5M8PUQtqe
+wnHYrvCmzopE86ZBbBzUQu7rPO/A+ldSDjSjs9pa/ydrAz9JE8dt7jAf0QvHMMP2
+fN6apz+ZHQRaIhlfmac+KU2y3XpK++aXxibjGn2zm1KUTDFDBCbLo+i3oIZCbtEz
+fdITEEoZip1wbJXFDYB3MF1230IfsvYW9QH8IfBYA9R1sbhlC1HcjgQFgCww+wXZ
+xyhTwNPxdhZiqTfv+lO0xNjQl3KvQnsb5POXqmTaQ4uNYSt8V6xyqJoIgJGjVJmN
+FOTgAFmevNuhUp2+E2bsb+f0Jw+FtFKFwRkTKtZaSoViHtfMhd9p3SRGIXCnsubB
+lSwRZgkm+SfAnFX9HRTUy2X4dTxqVdiTh7htukDeYYD4E9Qjk5QFoTu5bHp/lMw2
+h0ixNAXOVRwEcrSTqoNaGxFCB+0iwBb2xiVJUMCZA1SrU9GXHQQSjTGizNy7N34/
+ZgvF7ucThsSuNaMdlHS2w1S6I9q6Q47eWBiBSw4UWLoSnujtotS0NU11CF7Rsdyl
+VfwRLFZzX4p/KcRSSlyJVFOjGDExMlHpsfa+D0ASPYvR9gDESbjpEUe6mSftEeeU
+ijyaV9ARgPFbSVFMZGtayPu7
+=lkL4
 -----END PGP SIGNATURE-----
 
---===============3346212047387221451==--
+--===============0525241582487089800==--
