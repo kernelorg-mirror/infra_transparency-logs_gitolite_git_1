@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Jun 2021 21:44:17 -0000
-Message-Id: <162431185746.716.10269789411324579344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 21 Jun 2021 21:45:51 -0000
+Message-Id: <162431195116.2887.3484506703069466585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: fe0bdbde0756e29784ec9770d3a418c9d1640eee
-    new: ce03b94ba682a67e8233c9ee3066071656ded58f
+    old: c7ff9cff70601ea19245d997bb977344663434c7
+    new: b8b79c414eca4e9bcab645e02cb92c48db974ce9
     log: |
-         ce03b94ba682a67e8233c9ee3066071656ded58f net: ll_temac: Remove left-over debug message
+         b8b79c414eca4e9bcab645e02cb92c48db974ce9 net: dsa: mv88e6xxx: Fix adding vlan 0
          
