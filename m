@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3085444715992039946=="
+Content-Type: multipart/mixed; boundary="===============0171512016490499079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 21 Jun 2021 18:32:26 -0000
-Message-Id: <162430034622.1455.11473411652847111527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Jun 2021 18:32:35 -0000
+Message-Id: <162430035545.1626.10042341149517283831@gitolite.kernel.org>
 
---===============3085444715992039946==
+--===============0171512016490499079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: cb2381cbecb81a8893b2d1e1af29bc2e5531df27
     new: 61eb1b24f9e4f4e0725aa5f8164a932c933f3339
     log: |
          61eb1b24f9e4f4e0725aa5f8164a932c933f3339 regulator: hi655x: Fix pass wrong pointer to config.driver_data
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/regulator-5.14
     old: 7740ab84c13e32002742106afd443a4ca7fe3918
     new: d1c02a745179ce9a2ed4c559422bf73bd5d99e1b
     log: revlist-7740ab84c13e-d1c02a745179.txt
 
---===============3085444715992039946==
+--===============0171512016490499079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624300323 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1624300342-21c62ef118c67534d47c58404ed8a952e93181d8
+pusher C3F436CA30F5D8EB 1624300332 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624300351-22d85ba8c7039f141af4317e08d36c24757149b9
 
-cb2381cbecb81a8893b2d1e1af29bc2e5531df27 61eb1b24f9e4f4e0725aa5f8164a932c933f3339 refs/heads/for-5.13
-7740ab84c13e32002742106afd443a4ca7fe3918 d1c02a745179ce9a2ed4c559422bf73bd5d99e1b refs/heads/for-5.14
+cb2381cbecb81a8893b2d1e1af29bc2e5531df27 61eb1b24f9e4f4e0725aa5f8164a932c933f3339 refs/heads/regulator-5.13
+7740ab84c13e32002742106afd443a4ca7fe3918 d1c02a745179ce9a2ed4c559422bf73bd5d99e1b refs/heads/regulator-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDQ2yMACgkQJNaLcl1U
-h9D/mwf+J4NeuMqE15mD8hZY3Vw26h3F5RxLeU45O3M3+4CD4e9aTh53SuG5fYfV
-4ueUK01GocEeDm+5PJqot3xY4LnwhvD7aij4rKw3YB7k5GIfMyzsvsJcbBMqH46t
-sN/L1jQHOHI6SgeFrmuOAhprUc0u5UgTg32c5Cb+HXg5G2HZcnWgBl4i5OhiCaFX
-wG5bRLkoMOdhA34NDQ/vMC8hS4bN1qyDB5xb7knCcn/NcW2l9Tqy/kVepe76e5AD
-4KKkD1vc0g8RxDh51Fo1g+sxZFbUR/h8a5CiT7/InsNsmCHRa2ntPGOzQX9A9ruC
-hMJCYJub4anBomIccUCXp0CkXGn2Gw==
-=4HLd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDQ2ywACgkQJNaLcl1U
+h9BgRAf+NBF1fApRI7HM1hGxce6hj1ug8qkwRAQ3zWeFwvTNmvadVsV3qSBzhqQ3
+LdalEIev9YOIOYVYFETstr/nRFizFptL5Z0V+U6K4B5qQE85NsTnwlVX6l79GKda
+AIBjLIKgrqu3NiegQPDxL0KxtEe15ZAAqzQnDfR0BSUxIUcDknz4SzR6tO2iR+Rc
+pYBslJ1TmfrCXjvwUFf3ZJyvUuLaJ/U5kp/N4Ct/jciMgPkLJMd5Q9HUv/L4KrKn
+/2M0bD+ikvMLbl843JqLtQjj7Vkxih7erzQAKb6fWssEe0JIj4UX8dLycZRa/D7K
+us8KYWfCH1sZbbDv0/8IYs6+DrQvAg==
+=Uw7B
 -----END PGP SIGNATURE-----
 
---===============3085444715992039946==
+--===============0171512016490499079==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1083,4 +1083,4 @@ d55444adedaee5a3024c61637032057fcf38491b MAINTAINERS: Add reviewer for regulator
 9d598cd737d15b5770c5bddf35a512f7ab07b78b Merge series "Extend regulator notification support" from Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>:
 d1c02a745179ce9a2ed4c559422bf73bd5d99e1b Merge series "regulator: qcom,rpmh-regulator: Add support for pmic available on SA8155p-adp board" from Bhupesh Sharma <bhupesh.sharma@linaro.org>:
 
---===============3085444715992039946==--
+--===============0171512016490499079==--
