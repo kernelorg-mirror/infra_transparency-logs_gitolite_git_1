@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6981341177881826218=="
+Content-Type: multipart/mixed; boundary="===============3179168104652928116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 21 Jun 2021 08:56:55 -0000
-Message-Id: <162426581593.8293.15918735573057694782@gitolite.kernel.org>
+Date: Mon, 21 Jun 2021 08:57:01 -0000
+Message-Id: <162426582182.8455.16737624528240517045@gitolite.kernel.org>
 
---===============6981341177881826218==
+--===============3179168104652928116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 009c9aa5be652675a06d5211e1640e02bbb1c33d
+  - ref: refs/heads/usb-linus
+    old: a7d8d1c7a7f73e780aa9ae74926ae5985b2f895f
     new: 13311e74253fe64329390df80bed3f07314ddd61
-    log: revlist-009c9aa5be65-13311e74253f.txt
+    log: revlist-a7d8d1c7a7f7-13311e74253f.txt
 
---===============6981341177881826218==
+--===============3179168104652928116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624265815 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624265820 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1624265814-52742053c3512bd51bbdc658abceb94421af85b1
+nonce 1624265819-2a45fbb582ecc310778fad2a2c3e7e8c6beb57a0
 
-009c9aa5be652675a06d5211e1640e02bbb1c33d 13311e74253fe64329390df80bed3f07314ddd61 refs/heads/main
+a7d8d1c7a7f73e780aa9ae74926ae5985b2f895f 13311e74253fe64329390df80bed3f07314ddd61 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDQVFcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2LsP/21I1WucNeJFAxOuPYCB
-uqTvr2duuNPdP5p66NCiyXccZN+ot/qJZQNFFZ9CiBCVkSJjyU28uM4qAYg5krde
-dto/a8EbrpLMeFPpHuhKd65XBMtM0XZEzAe/ZZjhr6CzRAFdFcnyMpSyxyY8gnoW
-kF6VdBakHI4QqpRf1v+j3/YZrf/4FNsQhpU2F+mOKvjnmmDCVuk1NYJa213JdxrN
-Nyrvn1af5qiVy+G3cjLGO3x1NCUOtr6cZfiX3HBg97ONlFD6EqrP+hupGwEb6u+7
-Let8df5iS5PRaerTmf4bzYTQgca3IcAp89mtrPRvBsWBDBBjY6sqN9TJn4SmGfDk
-FxwNYh8ge36XwZ4m9YcuSfxu3h/Lz/YPvKAbhgtDuF4uhp6CWC5pDXjmFzcr++Zr
-G7muMm1HOzIabiUtCoj+Vcpv1t86mA9ZHyLWukCUFe+3GlixuBIUw56AdS3kb0i2
-Y69OvkX2lmL0siRAndbK4mwxGI6vpYAvRzFjZA3Eu0O4AY5NxXk2XbgyAABD+zoy
-p1XEGIqroICzLpydSlNC+otzzTT4rWEpu3Mdtgd6EzqzQVZNWLTzMaXhVTbck9sj
-TkOBA46CFKppa4AkJyKj53juYzHlqgoNECXJ7IhxBtRPMTrv1T2hJZoQmyQkb13x
-YSuQcws7RbvF3Auh1LyzBWue
-=1KEH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDQVF0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M3UQAJi+eR8DHKoOacFyETBI
+bWJDrU58wokKencYRTBm0yyDhUuzLWuyR+97N4+Q0d01cbSDHh6wH9TJdDWqWb8d
+TSx7hJpLq1GpBtn9I9CyNTdEty+70ZsxB0VDoW8fGelDeqFEyyf2kF16kWsmo3mE
+cTybrMQv3wz3XP7zuk2o7xopSPFEctWbrKj7B1IoDj4ZnvFmkEx14FZ1B1oDswHr
+YwzGi54rFucERvv6lFM6/4/Yrn6Z4T6i5MzNfp9atHI31QPaxsiCtQLmc9KPw3O/
+44cvR76POREH3GOyFj68M0H0EBeh8+0a+lJ8DBrZEQ56nXw4Qmr3Ca46zUhjZ2gx
+zL44sM/RSoCkdwQ1DU5OmIMe9McpGFvNsa0YIEmUy68WbKtulawqKfbnKQ+PazhZ
+J0fExGMrWUkcUTyluikASihPCtyBZBry6mP7GwxbgxpdRroyGVUKx2RWdVe8W+FQ
+RU/2tmBRUOA9OmkVaEtC7mejUtRg1NRsGIkAX+Cq1vbCPXDAdOrUHRl5i4XyO+Gv
+n86n10cnOKERfRBaG4oqx/C8TOP8DV+64vsYgbxT3ifh6Gh9k3Qr67MmKMeuICk9
+YiTMMzD9btM4vBYqdIFmdCyOKxavMOddOWMoWX+Ye3wYBIEN5AvBvGHHnAdI+zK1
+yaZKkqSA+t+jYPbSscZ6dtHB
+=NE1r
 -----END PGP SIGNATURE-----
 
---===============6981341177881826218==
+--===============3179168104652928116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-009c9aa5be65-13311e74253f.txt
+Content-Disposition: attachment; filename=revlist-a7d8d1c7a7f7-13311e74253f.txt
 
 1c4841ccbd2b185587010d6178aac11953f61d4c dmaengine: idxd: add engine 'struct device' missing bus type assignment
 077cdb355b3d8ee0f258856962e6dac06e744401 dmaengine: idxd: add missing dsa driver unregister
@@ -204,7 +204,6 @@ fe9a5ca7e370e613a9a75a13008a3845ea759d6e bpf: Do not mark insn as seen under spe
 2214fb53006e6cfa6371b706070cb99794c68c3b net: mhi_net: Update the transmit handler prototype
 0236526d76b87c1dc2cbe3eb31ae29be5b0ca151 Makefile: lto: Pass -warn-stack-size only on LLD < 13.0.0
 8b1462b67f23da548f27b779a36b8ea75f5ef249 quota: finish disable quotactl_path syscall
-4bf584a03eec674975ee9fe36c8583d9d470dab1 usb: dwc3: core: fix kernel panic when do reboot
 478036c4cd1a16e613a2f883d79c03cf187faacb powerpc: Fix initrd corruption with relative jump labels
 a33d62662d275cee22888fa7760fe09d5b9cd1f9 afs: Fix an IS_ERR() vs NULL check
 4692bc775d2180a937335ccba0edce557103d44a x86/sgx: Add missing xa_destroy() when virtual EPC is destroyed
@@ -215,8 +214,6 @@ c1a3d4067309451e68c33dbd356032549cc0bd8e net: cdc_ncm: switch to eth%d interface
 057d49334c02a79af81c30a8d240e641bd6f1741 qmi_wwan: Do not call netif_rx from rx_fixup
 7ea6cd16f1599c1eac6018751eadbc5fc736b99a lantiq: net: fix duplicated skb in rx descriptor ring
 a4f0377db1254373513b992ff31a351a7111f0fd Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-c6d580d96f140596d69220f60ce0cfbea4ee5c0f usb: chipidea: imx: Fix Battery Charger 1.2 CDP detection
-60ed39db6e861f4a42dfa75f9b53f10093f6d672 Merge tag 'usb-v5.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 6262e1b906a1ba12688ea6039453b4a088dbaf44 printk: Move EXPORT_SYMBOL() closer to vprintk definition
 2030043e616cab40f510299f09b636285e0a3678 can: j1939: fix Use-after-Free, hold skb ref while in use
 8d0caedb759683041d9db82069937525999ada53 can: bcm/raw/isotp: use per module netdevice notifier
@@ -272,7 +269,6 @@ a5ae8fc9058e37437c8c1f82b3d412b4abd1b9e6 net/mlx5e: Don't create devices during 
 0232fc2ddcf4ffe01069fd1aa07922652120f44a net/mlx5: Reset mkey index on creation
 f9f28e5bd0baee9708c9011897196f06ae3a2733 btrfs: zoned: fix negative space_info->bytes_readonly
 a13d0f8d117ca6b7885b51c4b21fe8d5a9eae714 Merge tag 'irqchip-fixes-5.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-a7d8d1c7a7f73e780aa9ae74926ae5985b2f895f usb: core: hub: Disable autosuspend for Cypress CY7C65632
 39519f6a56e398544d270fcb548de99b54421d43 Merge tag 'fixes_for_v5.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 d8ac05ea13d789d5491a5920d70a05659015441d KVM: selftests: Fix kvm_check_cap() assertion
 c19c8c0e666f9259e2fc4d2fa4b9ff8e3b40ee5d be2net: Fix an error handling path in 'be_probe()'
@@ -345,4 +341,4 @@ b84a7c286cecf0604a5f8bd5dfcd5e1ca7233e15 Merge tag 'powerpc-5.13-6' of git://git
 cba5e97280f53ec7feb656fcdf0ec00a5c6dd539 Merge tag 'sched_urgent_for_v5.13_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 13311e74253fe64329390df80bed3f07314ddd61 Linux 5.13-rc7
 
---===============6981341177881826218==--
+--===============3179168104652928116==--
