@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3000700385654082900=="
+Content-Type: multipart/mixed; boundary="===============2060377115489935695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 21 Jun 2021 13:51:11 -0000
-Message-Id: <162428347144.2447.10691813603569987890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 21 Jun 2021 14:02:39 -0000
+Message-Id: <162428415984.9081.3499388654899428803@gitolite.kernel.org>
 
---===============3000700385654082900==
+--===============2060377115489935695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 17fc8693cd60733227204fe31395575778984e3c
-    new: 3e5e56eb0ad620adfd1c26e1a9b3a09a59154165
-    log: revlist-17fc8693cd60-3e5e56eb0ad6.txt
+    old: 8130e859c66a6c0a8df3c47e01e321327bd82246
+    new: 8a663a116cdb54311137ba0d68b2b96672da51d5
+    log: |
+         8a663a116cdb54311137ba0d68b2b96672da51d5 4.4-stable patches
+         
 
---===============3000700385654082900==
+--===============2060377115489935695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17fc8693cd60-3e5e56eb0ad6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c6f36329057cc676725fdf80414ea7b80dcfaad1 fsck.cramfs: use open+fstat rather than stat+open
-1293b0f65db1f219a6e1671c96eeec1d3957cf81 misc: consolidate stat() error message
-0395e8f7d73564eb762b5cef4b1602192891b62b libblkid: check errno after strto..()
-5aa726461a997044bb9d32ad8e9e2bbccabb79de libmount: check errno after strto..()
-b0cfd4ba3a676b9c8e3ce50659d419c71aba1cc4 libuuid: check errno after strto..()
-c9eea1b354297309c4da8f5c2fee663ef1a6e221 ipcs: check errno after strto..()
-9bf8088f258a9b213886e3c663b8e57a3b65bfd3 hwclock: check errno after strto..()
-35d458708e0b1496e586a9be4d07289577cb46c9 lscpu: check errno after strto..()
-fe4e122ab3378dfadaf60c61d0e893be5df1c199 lsmem: check errno after strto..()
-d8a42b67c838418952799cd9f7f3a09b1f878a81 fsck: check errno after strto..()
-2fc2bb7ebd30b25403447fea63dd5f7e69652f44 lslogins: check errno after strto..()
-f1de6d6526425ced227cead1e4914a59368cf16c kill: check errno after strto..()
-93d01a6233ad51d7f97ae6c78d9216f77b97b113 lslocks: check errno after strto..()
-95bfc92361819a4aaba528245f7077944f925087 wipefs: check errno after strto..()
-3e5e56eb0ad620adfd1c26e1a9b3a09a59154165 readprofile: check errno after strto..()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624284158 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1624284158-cf0a9b5e0efc31cd99c025e3ea23bb4e33850760
 
---===============3000700385654082900==--
+8130e859c66a6c0a8df3c47e01e321327bd82246 8a663a116cdb54311137ba0d68b2b96672da51d5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDQm/4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IrYP/2qFt6ROc1sQNj+Z21o5
+1DZGebB3C2TIjhk+44wYwturO5ImDUmP8VCRhTevd/ys2u0+CXq4105IoakEuukF
+PsUdqtIdfcdeOgbYQldSwNslWROpr7KPri7DN+tx0VyA/IZsaktVSZQ6ZEBQ8g/b
+oLOaS2h54NU5yxNGLHD+UJ9U+QSdzYy0KMQlcmQA0pdlW54CrkbCWZxdHS9JLTaL
+UJm1jSR/2EeQlKpS1qNiJVyV6N+RLpGv5c0Smk8XXXF2dlqcP8oLtSt+BnyId+KN
+UKyVh4ZJXk77UzjmM7UmNkkmNaXeoNwOZlrp2VI0TfSxeJpXn6PUFcGJM6aNeWTL
+Nj/RWFAB1NPdOCiIWsOkI2c2URcRLBTkUN5jlifKOhdpQpNCgFjxchLRVYtmUiBr
+kYF5/pU/iQjWYdSIua9EQO1+/eYtmoKdfrYWEh4SjpXT2QpcFfv2/Re+S0113Xhk
+xvVs34zfLmrD+/2LEF1MfdNBcv+JYFn/mOno1syIxA6tv7SlsjDb0hqJYphAV2Ye
+eC9am368hHuSxuznr5sn2EempeOEyrJxiSXyaVjGUvORLtUEB44JFiYxJ6fife9g
++3LnRFbQmsxZsEkVIy1DnvYfcqu3hzr+/UthvigfzexpCDutYQpHA85aET3zgbgA
+EeG+I82Ai4ECrNVQp+eoo+00
+=7Wfq
+-----END PGP SIGNATURE-----
+
+--===============2060377115489935695==--
