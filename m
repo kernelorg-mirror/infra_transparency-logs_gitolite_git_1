@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2635718531674332508=="
+Content-Type: multipart/mixed; boundary="===============3068500611013874730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 21 Jun 2021 16:06:52 -0000
-Message-Id: <162429161221.985.5052056955281836639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 21 Jun 2021 16:07:03 -0000
+Message-Id: <162429162351.1157.6631142575269056229@gitolite.kernel.org>
 
---===============2635718531674332508==
+--===============3068500611013874730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -32,7 +32,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: fa7f6c1d959351eb64586d9965c2a043a51f4494
 
---===============2635718531674332508==
+--===============3068500611013874730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1063,4 +1063,4 @@ b84a7c286cecf0604a5f8bd5dfcd5e1ca7233e15 Merge tag 'powerpc-5.13-6' of git://git
 cba5e97280f53ec7feb656fcdf0ec00a5c6dd539 Merge tag 'sched_urgent_for_v5.13_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 13311e74253fe64329390df80bed3f07314ddd61 Linux 5.13-rc7
 
---===============2635718531674332508==--
+--===============3068500611013874730==--
