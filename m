@@ -1,39 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 21 Jun 2021 05:37:48 -0000
-Message-Id: <162425386864.16000.11709494974022610299@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6998406474263005922=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 21 Jun 2021 05:50:19 -0000
+Message-Id: <162425461972.25832.15260480325105661164@gitolite.kernel.org>
+
+--===============6998406474263005922==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: vigneshr
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: b6910bec11614980a21e46fbccc35934b671bd81
-    new: 72d09e2682a41589b46b8cdd4c393b8ed47ac266
+  - ref: refs/heads/spi-nor/next
+    old: 36ac0228626585ba718186b9db2e5986a198152c
+    new: c17e5c85b32f8809135f3211ba2525fb98b5c09f
     log: |
-         24e7f511fd4acaf48d25374f88dbdbdb277e6a26 fdtdump: Fix signedness comparisons warnings
-         5bec74a6d13519381a40b5433ede7849a75a8d79 dtc: Fix signedness comparisons warnings: reservednum
-         ecfb438c07fa468a129e81c7d84c7c293c7b0150 dtc: Fix signedness comparisons warnings: pointer diff
-         d966f08fcd21ded2ed6608097e9832e9466857fd tests: Fix signedness comparisons warnings
-         910221185560fe0c5dc0997dd7d3b472a0a7cdea fdtget: Fix signedness comparisons warnings
-         69bed6c2418f484561263aadbb886ffb925e6b38 dtc: Wrap phandle validity check
-         b587787ef38802e43972e1b7a36a8358ae25db86 checks: Fix signedness comparisons warnings
-         72d09e2682a41589b46b8cdd4c393b8ed47ac266 Makefile: add -Wsign-compare to warning options
+         c17e5c85b32f8809135f3211ba2525fb98b5c09f mtd: spi-nor: remove redundant continue statement
          
-  - ref: refs/heads/master
-    old: b6910bec11614980a21e46fbccc35934b671bd81
-    new: 72d09e2682a41589b46b8cdd4c393b8ed47ac266
-    log: |
-         24e7f511fd4acaf48d25374f88dbdbdb277e6a26 fdtdump: Fix signedness comparisons warnings
-         5bec74a6d13519381a40b5433ede7849a75a8d79 dtc: Fix signedness comparisons warnings: reservednum
-         ecfb438c07fa468a129e81c7d84c7c293c7b0150 dtc: Fix signedness comparisons warnings: pointer diff
-         d966f08fcd21ded2ed6608097e9832e9466857fd tests: Fix signedness comparisons warnings
-         910221185560fe0c5dc0997dd7d3b472a0a7cdea fdtget: Fix signedness comparisons warnings
-         69bed6c2418f484561263aadbb886ffb925e6b38 dtc: Wrap phandle validity check
-         b587787ef38802e43972e1b7a36a8358ae25db86 checks: Fix signedness comparisons warnings
-         72d09e2682a41589b46b8cdd4c393b8ed47ac266 Makefile: add -Wsign-compare to warning options
-         
+
+--===============6998406474263005922==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Vignesh Raghavendra <vigneshr@ti.com> 1624254618 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mtd/linux.git
+nonce 1624254617-27a95034a676c620fe58a26dace63c9278c06a72
+
+36ac0228626585ba718186b9db2e5986a198152c c17e5c85b32f8809135f3211ba2525fb98b5c09f refs/heads/spi-nor/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFEBAABCAAuFiEEyRC2zAhGcGjrhiNExEYeRXyRFuMFAmDQKJoQHHZpZ25lc2hy
+QHRpLmNvbQAKCRDERh5FfJEW47eCB/9YfyU5C8Df9MA4Usj4Nbb2pcDBpOE+czCx
+Eqjjgqj3y29YT6hnAHh8k/k96xSMqOkYfvZH4vkoj6ro0x9yh3p7QLZhrZKOscgB
+ic5vDLpsJ7LmOpY8NKzyYf5JWVtpzw63GEMebikEP9sdwljcUTGnMOz0lkv74xrB
+9Af+nXEFo+NkNS4FEFg4nHNkWGCRV1qJxHU4ux1yLArDuQ55pVurTsofSHieAPs7
+e6Li/8XDndwtpZxLP+tUGyLNqm/VS3DWxve9tLrzPsUTgB9+vhx15bH/WQHI/xE/
+b6ackrlfOdEGnIHII9Kh6oNSddXmb5rHrG32mW43j9UumdjeoiQq
+=CFIy
+-----END PGP SIGNATURE-----
+
+--===============6998406474263005922==--
