@@ -1,30 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 22 Jun 2021 20:09:53 -0000
-Message-Id: <162439259315.28225.18219211111379717674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 22 Jun 2021 20:23:31 -0000
+Message-Id: <162439341110.6286.92029050049635889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/clk-next
-    old: 53ff0de6f2a063b84d75907c87d7e6bd237dd8c2
-    new: 0eb0a122fa4def158838b379190efa4c38d6cdcc
+  - ref: refs/heads/wip/jgg-for-next
+    old: d5d182ea5aa2ae3cb20f98dddcfeaf263b802c07
+    new: 2d3b2e4427e2d74085bd2c17ffd737875871c983
     log: |
-         4cbf0cd6bf4c704746b6a6c6d42a8ee327070005 clk: meson: pll: switch to determine_rate for the PLL ops
-         bc794f8c56abddf709f1f84fcb2a3c9e7d9cc9b4 clk: meson: g12a: fix gp0 and hifi ranges
-         50cb321f16f6665873071792d89ab8563be1658d clk: meson: axg-audio: improve deferral handling
-         8271813e404cd0620f99fbccffd2746f85a17259 clk: meson: g12a: Add missing NNA source clocks for g12b
-         686f225039be2846845349669edbfc5771ba647a Merge tag 'clk-meson-v5.14-1' of https://github.com/BayLibre/clk-meson into clk-amlogic
-         0eb0a122fa4def158838b379190efa4c38d6cdcc Merge branch 'clk-amlogic' into clk-next
+         fceb24a73eec7bbc717e516d5420ae786c514d38 RDMA/rxe: Fix useless copy in send_atomic_ack
+         230bb836ee88683052b01e3bff3885c440a785b1 RDMA/rxe: Fix redundant call to ip_send_check
+         1993cbed65bb590a3479d175fc1ac3c775b6bba8 RDMA/rxe: Fix extra copies in build_rdma_network_hdr
+         ec0fa2445c18ec49a0b7ee0aaa82d1ec00968fc9 RDMA/rxe: Fix over copying in get_srq_wqe
+         3896bde92d036de4376b9b4dfa3753ea23659f30 RDMA/rxe: Fix extra copy in prepare_ack_packet
+         2d3b2e4427e2d74085bd2c17ffd737875871c983 RDMA/rxe: Fix redundant skb_put_zero
          
-  - ref: refs/heads/clk-amlogic
-    old: 0000000000000000000000000000000000000000
-    new: 686f225039be2846845349669edbfc5771ba647a
-  - ref: refs/heads/clk-rockchip
-    old: 0000000000000000000000000000000000000000
-    new: 14de023dc0f752acad89e6932a96bdded479c60c
