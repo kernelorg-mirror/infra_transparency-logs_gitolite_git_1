@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 22 Jun 2021 14:33:26 -0000
-Message-Id: <162437240609.22781.408880745764004272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Tue, 22 Jun 2021 14:34:55 -0000
+Message-Id: <162437249599.23391.8320282729796845475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/timers/core
-    old: f6b6a80360995ad175e43d220af979f119e52cd3
-    new: 64ab7071254c178e81a6d0203354aad6521258ea
+  - ref: refs/heads/next
+    old: b063d7bc1e5b61f6ed0d6fd67c0bbbfed1ec5c1e
+    new: c6e183701d622623bd3bf3d104d5d2a2715c014d
     log: |
-         64ab7071254c178e81a6d0203354aad6521258ea clockevents: Add missing parameter documentation
+         d5942212e69a20f3b845872014287108397f66d9 KVM: s390: gen_facilities: allow facilities 165, 193, 194 and 196
+         c6e183701d622623bd3bf3d104d5d2a2715c014d KVM: s390: allow facility 192 (vector-packed-decimal-enhancement facility 2)
          
