@@ -1,51 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============3742291099342172716=="
+Content-Type: multipart/mixed; boundary="===============1644809328937245372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 22 Jun 2021 14:49:13 -0000
-Message-Id: <162437335300.3033.9614922832840552170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 22 Jun 2021 14:49:37 -0000
+Message-Id: <162437337742.3291.14760610343553704428@gitolite.kernel.org>
 
---===============3742291099342172716==
+--===============1644809328937245372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: 476ad3ff8952db3569a77d9ed4a067c5f0f4b733
-    new: d90609a4b72dbfe42da2a55f3078c35e669948e0
+  - ref: refs/heads/for-linus
+    old: ad3550f3df1a71fc5689322ef1720193433a1a59
+    new: d0e142724c73ca81b1fe73f8dcf2f9dbf54cde9b
     log: |
-         0c79378c01999bd60057c475f163ec807c24891f spi: add ancillary device support
-         d90609a4b72dbfe42da2a55f3078c35e669948e0 spi: dt-bindings: support devices with multiple chipselects
+         d0e142724c73ca81b1fe73f8dcf2f9dbf54cde9b Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: ee28214adc692e0c9a6fa01a4efc0a6deddc82ba
+    new: 2a6c47512c77999192cb7bb72edd596032d8ff37
+    log: revlist-ee28214adc69-2a6c47512c77.txt
 
---===============3742291099342172716==
+--===============1644809328937245372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ee28214adc69-2a6c47512c77.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1624373330 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1624373350-2351b7cee86929a50cae707dbe918c8e0dc55735
+505351329d26e684588a6919c0407b8a0f5c3813 ASoC: Intel: sof_sdw: use mach data for ADL RVP DMIC count
+b0cf3d3ccf31f31c9c415566968caf1405fc0893 ASoC: Intel: sof_sdw: remove hdac-hdmi support
+590cfb082837cc6c0c595adf1711330197c86a58 ASoC: Intel: sof_rt5682: shrink platform_id names below 20 characters
+bc47256afef38175a0ad6bcfd4dbab9d2c65b377 ASoC: Intel: glk_rt5682_max98357a: shrink platform_id below 20 characters
+94efd726b947f265bd313605c9f73edec5469d65 ASoC: Intel: kbl_da7219_max98357a: shrink platform_id below 20 characters
+1cc04d195dc245457a45df60e6558b460b8e4c71 ASoC: Intel: sof_da7219_max98373: shrink platform_id below 20 characters
+0a1f3958eab16cd31bf3d714363471a7a6722dc9 ASoC: Intel: sof_sdw: fix signed/unsigned warning
+0c52d3e222889138e6a8dd1c1ad05fcc41c6bdfa ASoC: Intel: soc-acpi: add ull suffix for SoundWire _ADR values
+53b98536fb64f1b6ff5a1b2cfc36bbfa90619414 ASoC: Intel: use MODULE_DEVICE_TABLE with platform_device_id tables
+bf35a1eeaca618341409f94c90271bb14d1c484a ASoC: Intel: skl_hda_dsp_generic: Update Kconfig documentation
+8c4863c261c812a1088b0f8c6b66386d885390e1 ASoC: codecs: wcd938x: fix unused variable warning
+d245fff1013cb7456ea9ca3f7b858e438c6bbf79 ASoC: codecs: wcd938x: fix uninitialized symbol warnings
+0ba0f44fd516b34c9f40cd82fd480705d0f378dc ASoC: SOF: imx: Add missing of_node_put() in imx8_probe()
+907f0a3051869a61499905377212500155bd28ec ASoC: simple-card: Fill in driver name
+4b1d51715d1cf78a1527fe426fc0278dcfea1959 ASoC: fsl-asoc-card: change dev_err to dev_dbg for defer probe
+657e473e8813f62c536f74650188d078f9fff345 Merge series "ASoC: Intel: machine driver corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+d0e142724c73ca81b1fe73f8dcf2f9dbf54cde9b Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+2a6c47512c77999192cb7bb72edd596032d8ff37 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
 
-476ad3ff8952db3569a77d9ed4a067c5f0f4b733 d90609a4b72dbfe42da2a55f3078c35e669948e0 refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDR+FIACgkQJNaLcl1U
-h9DTBwf8DKj7fqG5Tm2h8YUrB8dagiVfKVs5rjNtElUMOr14F41BjZw7sdOH6JUW
-9T1T5olfBDZDmpib77X+2ePsCjyriYb5UK9xP8na6SV+7bPQUd+tsZp5WtisxNiS
-PPhX6qJT1zSBT7ZWdaov8PPzdox03uAckGd4SUy1GKXZikbEZLGpv9Nl31e7MQuY
-9E555xAGway2bURAyz9HuXHzCxjF/ruoicV8AYE4/Px7HGuvBjUOpblenq1vpI59
-GOiYlK/kA18roePrhGllvPY6/SgMKvlmlOnIAVCNDWN7LwirjfXgGDMdULH1z6xl
-l9ROgTSovodRJHxVVLVRl9tjQSvn4Q==
-=7Ozx
------END PGP SIGNATURE-----
-
---===============3742291099342172716==--
+--===============1644809328937245372==--
