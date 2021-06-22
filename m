@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0580781102405682403=="
+Content-Type: multipart/mixed; boundary="===============0361162309645729766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 22 Jun 2021 11:34:21 -0000
-Message-Id: <162436166135.27917.3297027204676291688@gitolite.kernel.org>
+Date: Tue, 22 Jun 2021 11:34:30 -0000
+Message-Id: <162436167072.28064.1112104153356721388@gitolite.kernel.org>
 
---===============0580781102405682403==
+--===============0361162309645729766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 1792a59eab9593de2eae36c40c5a22d70f52c026
     new: a96bfed64c8986d6404e553f18203cae1f5ac7e6
     log: revlist-1792a59eab95-a96bfed64c89.txt
 
---===============0580781102405682403==
+--===============0361162309645729766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ cba5e97280f53ec7feb656fcdf0ec00a5c6dd539 Merge tag 'sched_urgent_for_v5.13_rc6' 
 13311e74253fe64329390df80bed3f07314ddd61 Linux 5.13-rc7
 a96bfed64c8986d6404e553f18203cae1f5ac7e6 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 
---===============0580781102405682403==--
+--===============0361162309645729766==--
