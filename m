@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 22 Jun 2021 15:41:35 -0000
-Message-Id: <162437649502.8031.7730881635826747651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Tue, 22 Jun 2021 15:41:42 -0000
+Message-Id: <162437650241.8198.14835684086986503721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 1d11326a5723d2f6087a9733dd9deb40174e1ef9
-    new: 3e26254f3131b9ce25d1f26292aac872420ffb87
-    log: |
-         3e26254f3131b9ce25d1f26292aac872420ffb87 seg6: add support for SRv6 End.DT46 Behavior
-         
-  - ref: refs/heads/master
-    old: 1d11326a5723d2f6087a9733dd9deb40174e1ef9
-    new: 3e26254f3131b9ce25d1f26292aac872420ffb87
-    log: |
-         3e26254f3131b9ce25d1f26292aac872420ffb87 seg6: add support for SRv6 End.DT46 Behavior
-         
+  - ref: refs/heads/misc
+    old: 0000000000000000000000000000000000000000
+    new: 42e87120aa8e1fc3b67db346fa291bede4c6b2b6
