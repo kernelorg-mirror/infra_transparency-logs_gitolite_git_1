@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Jun 2021 17:21:00 -0000
-Message-Id: <162438246095.11785.12475966344156094473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 22 Jun 2021 17:28:37 -0000
+Message-Id: <162438291708.15727.8672887933721052140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 64a81b24487f0d2fba0f033029eec2abc7d82cee
-    new: f2fcffe392c1fd8324f131bf33d7d350eff44bb6
+    old: d1f9028a4c52f781dda6914b04cb7aaf9082b87b
+    new: 13130f31a79027086070987a61d35a35cb42478e
     log: |
-         f2fcffe392c1fd8324f131bf33d7d350eff44bb6 hv_netvsc: Avoid field-overflowing memcpy()
+         13130f31a79027086070987a61d35a35cb42478e selftests/sgx: Create heap for the enclave
          
