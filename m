@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8927849166367311341=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 22 Jun 2021 10:15:17 -0000
-Message-Id: <162435691769.6503.10154767734842182846@gitolite.kernel.org>
-
---===============8927849166367311341==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 22 Jun 2021 10:17:47 -0000
+Message-Id: <162435706785.7378.12890062002129662974@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 7af5e07ded57493af70575007fee99a4aa8f508d
-    new: 4f32db941247f6327025fc0e82645197dff7df55
+  - ref: refs/heads/for-next
+    old: 94f31542f176d4218dfca92a7d9f96ebb0a3ea31
+    new: 71d69e82f4168713afd89804d6e5f52d0e3848a2
     log: |
-         3a2774cc48ded58079c34002b86294231b0164e0 drop sched-fair-correctly-insert-cfs_rq-s-to-list-on-unth.patch
-         4f32db941247f6327025fc0e82645197dff7df55 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         3ece696c1acaa2ecac2e55143fc0c3ac413369c0 platform/x86: Remove "default n" entries
+         a4310246430096a876a8d54ca7ad52d6603b9cda platform/x86: intel_skl_int3472: Free ACPI device resources after use
+         a438dd11081a6ff1b8aa13cc96f07e2ca2f33a36 platform/x86: intel_skl_int3472: Fix dependencies (drop CLKDEV_LOOKUP)
+         719941878bc95af5e1368eca56fd4dcbd3633f10 platform/x86: intel_skl_int3472: Use ACPI GPIO resource directly
+         7b2baa407c3c9e6f74c7edfa181eeb001e75ed3e platform/x86: intel_skl_int3472: Provide skl_int3472_unregister_regulator()
+         7540599a5ef1cbe8d20993ca0c3202d8409338e1 platform/x86: intel_skl_int3472: Provide skl_int3472_unregister_clock()
+         8bd836feb6cad6bd746da09a86bda0f5ee5c4b01 platform/x86: intel_skl_int3472: Move to intel/ subfolder
+         72fbcac2f40e690e1a5584358750e546a2678c2c platform/x86: intel_cht_int33fe: Move to its own subfolder
+         71d69e82f4168713afd89804d6e5f52d0e3848a2 platform/x86: think-lmi: Return EINVAL when kbdlang gets set to a 0 length string
          
-
---===============8927849166367311341==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624356914 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1624356913-1a3fc8b435d6f0fe6b4ba1c81a3c16556755a048
-
-7af5e07ded57493af70575007fee99a4aa8f508d 4f32db941247f6327025fc0e82645197dff7df55 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDRuDIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OXIQAMXNoOCK4eLbAbIUfcE3
-uTK7X7vtblu+ru8ksKtvnGr33M/W5jpHBDI0RaFaZMu/cIxK7+h8ayNjSqK7/rZf
-5AprrlVIp4RPHyIr5goDy2mdVWlVCvGtwazKGT5o0ZoFWWV7Qw0VAzFOZfjVMgHq
-fnQMIPCWtdknZJGbhQRZqAt8JWIEM5CfXaK9ivAH4j1r0nMb5T9ARm0fwaO0ZGay
-q4uffjwH6W2jo5NpGke4qXLBlxfkARLfPX+GNwjehNdWEB0v+fkBdnGbQb6eH2FM
-fSBKSnInYxZlVeTQNguxkigfb6CdHmhAsu1v9vEKYP0QMcpBpkXpkQhxqT+w7Q3E
-LTNSVCZSLtZvv4SraqJGxgbEe0mJ/k94zbY+JQurKSsJ98HJKpBIH1WCpcM4gknL
-DphzI+ZruAoWWGiGGgL8k2L6yIUchbaml1jD6FrdXDg6qs+9yL1y/HbCIihZhzJ8
-CGNLUeGq9Y5+KT4o/VB9if9syRbt2h56s/FOw57NVTSFKP6uGP2cDyDzCiZwqzyM
-4amwJjA/79imYP0vShFRPUQrf8TbBgqXYYdhLGjOhBoE4/wFdnwx8k+ZWP0Tb3Kk
-qMioj4qb+YE5cvba4jizniWdbxeMSGY90IQOCVn3u1k5ZrB0xdlHQx563tttVfqf
-3x3vAfRgXJkMzxkg6Ws/74BB
-=5wz+
------END PGP SIGNATURE-----
-
---===============8927849166367311341==--
