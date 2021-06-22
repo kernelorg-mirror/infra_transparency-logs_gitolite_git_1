@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 22 Jun 2021 07:49:35 -0000
-Message-Id: <162434817530.18554.5513600647855747264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 22 Jun 2021 07:53:09 -0000
+Message-Id: <162434838981.22376.1443503685434896340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/renesas-devel-2021-06-22-v5.13-rc7
+  - ref: refs/heads/kvm-arm64/selftest/sysreg-list-fix
     old: 0000000000000000000000000000000000000000
-    new: 20f12ca361384cd6f1a40cb4660a364ed786201a
+    new: b356a831088730a3ef36848cd9f2d62dcac392bf
