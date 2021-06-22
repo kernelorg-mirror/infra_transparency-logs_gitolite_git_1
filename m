@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9013457515561789199=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 22 Jun 2021 14:11:39 -0000
-Message-Id: <162437109994.7497.4990837633791790680@gitolite.kernel.org>
-
---===============9013457515561789199==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 22 Jun 2021 14:12:23 -0000
+Message-Id: <162437114315.7837.14385290018170703656@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 9622ab417325c6d60f5e9e95f4e3786bf6f0e2d5
-    new: 48bdd2a2de11bfac3ac25fcb9930dbbf44fcddef
+  - ref: refs/heads/for-next
+    old: 6c0a2078134aba6a77291554035304df9e16b85c
+    new: 8c13212443230d03ff25014514ec0d53498c0912
     log: |
-         48bdd2a2de11bfac3ac25fcb9930dbbf44fcddef Additional --guess-base refinements
+         362372ceb6556f338e230f2d90af27b47f82365a ALSA: usb-audio: Fix OOB access at proc output
+         8c13212443230d03ff25014514ec0d53498c0912 ALSA: hda: Add IRQ check for platform_get_irq()
          
-
---===============9013457515561789199==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1624371099 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1624371099-f0c91fb9cb18b5bb956c9a48644f09ffbc57b3ed
-
-9622ab417325c6d60f5e9e95f4e3786bf6f0e2d5 48bdd2a2de11bfac3ac25fcb9930dbbf44fcddef refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYNHvmwAKCRC2xBzjVmSZ
-bFN1AP0RCI98ubTZYJ/ZLw7TepXux59GiyClnjNWyy+It+CTnAD/Trr41ZtI0Vwo
-BGVT3c5NnUWBLuDQ77+zafh+IxOG+QQ=
-=UBBA
------END PGP SIGNATURE-----
-
---===============9013457515561789199==--
+  - ref: refs/heads/master
+    old: c1bd3791a0e8da3a6b173957fd14f1fb99489349
+    new: 6e88ddefb1de45f5ad96ed5e4b3d6b8ab47bed8c
+    log: |
+         362372ceb6556f338e230f2d90af27b47f82365a ALSA: usb-audio: Fix OOB access at proc output
+         c2f50271f6e6e34e61f35352d1510dbfcf6eabe7 Merge branch 'for-next'
+         8c13212443230d03ff25014514ec0d53498c0912 ALSA: hda: Add IRQ check for platform_get_irq()
+         6e88ddefb1de45f5ad96ed5e4b3d6b8ab47bed8c Merge branch 'for-next'
+         
