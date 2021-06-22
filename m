@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7662414482203363381=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 22 Jun 2021 10:54:09 -0000
-Message-Id: <162435924940.1110.12824324853313095944@gitolite.kernel.org>
-
---===============7662414482203363381==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 22 Jun 2021 11:13:47 -0000
+Message-Id: <162436042747.13126.1864230542352891000@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 8254ee0e0ac4a047b8c30a07e85d090fc2ecf7d5
-    new: 40292383640a2a4f73632e08a553681d0d88c80a
+  - ref: refs/heads/locking/core
+    old: 7cb5dd8e2c8ce2b8f778f37cfd8bb955d663d16d
+    new: 12199d2519c8052266f481315d7dc17cdca5b5c8
     log: |
-         09f8c33a4cad3623874766033544abf34e3e365d mei: fix kdoc in the driver
-         40292383640a2a4f73632e08a553681d0d88c80a mei: revamp mei extension header structure layout.
+         5345d859c973a27018983679ee6e70f58351337c locking/lockdep: Fix the dep path printing for backwards BFS
+         ad795c7d9013f4bb59d9805f42aca4d7ddda18f0 locking/lockdep: Remove the unnecessary trace saving
+         8709809acb598dd467a7a99616ba40815d4f3fb5 lockding/lockdep: Avoid to find wrong lock dep path in check_irq_usage()
+         2607108233d476c5e0e28d5e28ffd6729aff5556 locking/selftests: Add a selftest for check_irq_usage()
+         9080610bf24fe725ed8e2b78215ce3bcc16b3fc7 lockdep: Fix wait-type for empty stack
+         5892161250b38be20f8c6b9d8594a5b9ac961a55 lockdep/selftests: Fix selftests vs PROVE_RAW_LOCK_NESTING
+         dabaac67bbcc0819f39b0f01733601c5d329a77f lockdep/selftest: Remove wait-type RCU_CALLBACK tests
+         cf8950cb9614c4f504baac9054f29847d6df2314 futex: Prepare futex_lock_pi() for runtime clock selection
+         12199d2519c8052266f481315d7dc17cdca5b5c8 futex: Provide FUTEX_LOCK_PI2 to support clock selection
          
-
---===============7662414482203363381==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624359247 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1624359243-9e16ba80efa9a1461365b0cedf67e4c06922f367
-
-8254ee0e0ac4a047b8c30a07e85d090fc2ecf7d5 40292383640a2a4f73632e08a553681d0d88c80a refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDRwU8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bsQP/3FzHI96HM6OM3P44Z3t
-/xc8RyPOcTMRFmcUDzaOgio7Cr7m8WQ/VAzL4nFTPNcunPWdJKRBCHP6E3fHIq7G
-zyo9u3aQ7LRLyH9zsl8ojWNMMH12jCor6mslK4CCDQhSsf8n1unj/DwPeipIvZ6S
-0JaRv3Lo8KZ1S85IIDjK2oejgXgJHnlwnKZ2z/0HV+uzfRc+Gj8SyixsF9OyvY4A
-ilwnbqaCDZBZ+kujJkqg/SYoCmnZAeZecUR7KMYQYtDh3A1ljJqu4l4DNDH7dpyv
-zWz5WLkmvi4itfyEaPLU44MAR+jLUpvGnAz1E/CTaJk8OOdsfgdOo+oflBIAVUAu
-OOAA5l070V4S5+tJdP0a9FPDb9I9oQbqL19gWSYAM5asc1N5Y0UaXBm+rrC+OApO
-cREARHu+X7/l2/vxyDKTESAsCfeprpW1yCcNWNd9a50sKZhW3rt2n212wZreHODW
-nrWVnWJtGbW6/aWJiYg9434Cq8x4OynTXzYKNzvcr8olLelz19w0a0MOl1gL+DfV
-5oRjz06Ol8KvyTdJtfPbzTGnxzSkxV41uy2Eck5q6EkXVqNChgNPlseyw1RinKgL
-Vgt9SoCFmJFfQ8T6/+vsFOlJ5N4bgAEcfT8f79JUhjM76dpRV+5eWTaN3T3v8nfj
-c3M7bsKhUDPWUQv2Mptm5OOI
-=+WdG
------END PGP SIGNATURE-----
-
---===============7662414482203363381==--
