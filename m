@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8922901683959893793=="
+Content-Type: multipart/mixed; boundary="===============4692244836872777674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 22 Jun 2021 14:48:37 -0000
-Message-Id: <162437331797.2103.5998960684277287958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 22 Jun 2021 14:48:44 -0000
+Message-Id: <162437332478.2271.11013688980663792647@gitolite.kernel.org>
 
---===============8922901683959893793==
+--===============4692244836872777674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 439779ffd9096526e57994b118a3169c9ec57f72
     new: 657e473e8813f62c536f74650188d078f9fff345
     log: revlist-439779ffd909-657e473e8813.txt
 
---===============8922901683959893793==
+--===============4692244836872777674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624373295 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1624373315-f59392c57e7c08ecca6ec86fbdf0a1aa2f819a0f
+pusher C3F436CA30F5D8EB 1624373302 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624373322-509bd5b6b69bdaabaa0a99b6dec32dbf3289e9a7
 
-439779ffd9096526e57994b118a3169c9ec57f72 657e473e8813f62c536f74650188d078f9fff345 refs/heads/for-5.14
+439779ffd9096526e57994b118a3169c9ec57f72 657e473e8813f62c536f74650188d078f9fff345 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDR+C8ACgkQJNaLcl1U
-h9CjfAf/cx0ZC5caJP3BUmiK1BEcdVtcJ11Y9AzB8W084U5s9aaR20/PZxz2nHX2
-UD3Q1T6Ef7rCJYaRR/n/DLDqBrSXrx6gP4/RNUU55XhX9aHJYu6/gCGkqFJJUETc
-RAaP1+rYcd9Ojd294cMXoWjtvFcGmB02UnGyTDBsL+mLfKvnYAlfFD3eSAE7jlnu
-BwCDAhdh1rO1IMAvu33uhJjKLcZkf1p1FfIOOuoCPE1YdnwJI5JBY+ieRT2QD0lC
-taZqUro4RfX9IAEL6rB0D70oER8Z86kHw+j3VZfXrOQPXcjFxq1uUoI7ELdz5UAJ
-CoKl1jcu1+mjmiG3ebJjzgUJ7s8lxA==
-=UBGg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDR+DYACgkQJNaLcl1U
+h9B/Ywf8DGH6O4s+xV3KgZnAY1aWFWh6vL/pD41+OmudOoEdp7xUITVVtVR/4D2D
+DJJw75DruAY7Wn77LNhR/7acJuO2VmHn1/Q8bckmpnC9YLBfKqQLf/82DahTM40r
+Q1jeu1pFBzURkuAUXBo7Gij80wlM3w//8XIDIqdW3vm0+6gMevsxtF03+h+7hB/6
+8xfhq64pqbMNu+MpSwPI0Vz8jQ/Fmbun331A6RySuP9OpKZD7AAbjgU5S/xfl/N8
+3yzIspT3LiVfUttBncfs0YHI5C0CfLQ6xFU3a8Xja6jz3hwW3nE+Izr335nZvptV
+bgebbes5krYIkQq/kQMv2QecOOElxg==
+=4DhC
 -----END PGP SIGNATURE-----
 
---===============8922901683959893793==
+--===============4692244836872777674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ d245fff1013cb7456ea9ca3f7b858e438c6bbf79 ASoC: codecs: wcd938x: fix uninitialize
 4b1d51715d1cf78a1527fe426fc0278dcfea1959 ASoC: fsl-asoc-card: change dev_err to dev_dbg for defer probe
 657e473e8813f62c536f74650188d078f9fff345 Merge series "ASoC: Intel: machine driver corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============8922901683959893793==--
+--===============4692244836872777674==--
