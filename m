@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Jun 2021 17:19:10 -0000
-Message-Id: <162438235077.8446.3585604777574718420@gitolite.kernel.org>
+Date: Tue, 22 Jun 2021 17:19:57 -0000
+Message-Id: <162438239727.9851.14426529049427374723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 78c235f9ea61ad636a032f2fb1f35ffbf7d02d7c
-    new: ee8e7622e09af0675f4d7c1dec9702791591d02b
+    old: ee8e7622e09af0675f4d7c1dec9702791591d02b
+    new: 64a81b24487f0d2fba0f033029eec2abc7d82cee
     log: |
-         ee8e7622e09af0675f4d7c1dec9702791591d02b octeontx2-af: Avoid field-overflowing memcpy()
+         64a81b24487f0d2fba0f033029eec2abc7d82cee net: dsa: b53: Create default VLAN entry explicitly
          
