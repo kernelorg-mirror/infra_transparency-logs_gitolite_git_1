@@ -1,55 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0829720910184452466=="
+Content-Type: multipart/mixed; boundary="===============6204851027108197242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Jun 2021 17:11:18 -0000
-Message-Id: <162438187847.4037.2507575041533969831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 22 Jun 2021 17:14:56 -0000
+Message-Id: <162438209630.5334.8072198697128295573@gitolite.kernel.org>
 
---===============0829720910184452466==
+--===============6204851027108197242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/master
-    old: 64295f0d01ae0661a2cea42c598070b1c87ca6e0
-    new: 78c235f9ea61ad636a032f2fb1f35ffbf7d02d7c
-    log: revlist-64295f0d01ae-78c235f9ea61.txt
+  - ref: refs/heads/whatamess
+    old: 2909e02fec6c6ca30db7f078fa213d943d245849
+    new: a8f3522c9a1f4a31e93b17f2b5310a2b615f5581
+    log: revlist-2909e02fec6c-a8f3522c9a1f.txt
 
---===============0829720910184452466==
+--===============6204851027108197242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64295f0d01ae-78c235f9ea61.txt
+Content-Disposition: attachment; filename=revlist-2909e02fec6c-a8f3522c9a1f.txt
 
-7c4d7ca8cce3c8167e10f52a5afb553851f2086b Documentation: ACPI: DSD: describe additional MAC configuration
-62a6ef6a996f5eec73d30d079573a1fa8f95fcd9 net: mdiobus: Introduce fwnode_mdbiobus_register()
-33fc11f0983b969f6da3a295567aa814e958980b net/fsl: switch to fwnode_mdiobus_register
-c54da4c1acb1d62b3aec36b18473c430675e26d4 net: mvmdio: add ACPI support
-dfce1bab8fdc2a2603a896ed836905ba63f13384 net: mvpp2: enable using phylink with ACPI
-8d909440ab3b118627b002e4e19e806b866371ba net: mvpp2: remove unused 'has_phy' field
-070258effa3b9603ac0cd6a40297b00a01ea5fd8 Merge branch 'marvell-mdio-ACPI'
-8ce568ed06ce4ca38c0b67d8de9b8d75b731f90a mptcp: drop tx skb cache
-75e908c33615999abe1f3a8429d25dea30d28e4e mptcp: use fast lock for subflows when possible
-3c90e377a1e87a35a7f868ed1c53ea4d62379a8d mptcp: don't clear MPTCP_DATA_READY in sk_wait_event()
-8cfc47fc2eb0fd2d6eaa9e4b23b4bf6ef1bfaeef mptcp: drop redundant test in move_skbs_to_msk()
-06285da96a1cdbad265a212f6729e19a515127a2 mptcp: add MIB counter for invalid mapping
-a4debc4772f44737358ea4210f6fca1f19f5c783 selftests: mptcp: display proper reason to abort tests
-1a77de09b71fe522191b241cfc9fedb5ebab5c69 Merge branch 'mptcp-optimizations'
-f842f48891ad962c1dcac2c162f72862643fc221 wwan_hwsim: support network interface creation
-355a4e7e0a231af80fc0f470235dc6747d2e0936 wwan: core: relocate ops registering code
-58c3b421c62edd30b0b660e3e6711ad91842c271 wwan: core: require WWAN netdev setup callback existence
-f492fccf3d62ba8e8b4d75d3f2ab82af25b18ffa wwan: core: multiple netdevs deletion support
-2f75238014f074daddd79ccc17fa1caf72ff3815 wwan: core: remove all netdevs on ops unregistering
-322a0ba99c50d6abadeda709f0552eb8dac6668c net: iosm: drop custom netdev(s) removing
-9f0248ea476ee59d336d7c8bf1a5d0919d93d030 wwan: core: no more hold netdev ops owning module
-ca374290aaade741a4781ae5f6e1ba7515e4e5fa wwan: core: support default netdev creation
-83068395bbfcd96db74af75c6dc3a87a4f952220 net: iosm: create default link via WWAN core
-699409240389c2994e5fa1cb7d7599129bc7cfdf wwan: core: add WWAN common private data for netdev
-78c235f9ea61ad636a032f2fb1f35ffbf7d02d7c Merge branch 'wwan-link-creation-improvements'
+a79b28c284fd910bb291dbf307a26f4d432e88f3 xfs: separate CIL commit record IO
+b5071ada510a76eac0d02912bf66297b9e30ca59 xfs: remove xfs_blkdev_issue_flush
+0431d926b399d74f1cde2c355d48289c6d7fa882 xfs: async blkdev cache flush
+bad77c375e8de6c776c848e443f7dc2d0d909be5 xfs: CIL checkpoint flushes caches unconditionally
+3468bb1ca6e8840789e13c7b9d8b0c556b4fbe79 xfs: remove need_start_rec parameter from xlog_write()
+eef983ffeae7a1cdde8c3338155ae2dd74b8621b xfs: journal IO cache flush reductions
+19f4e7cc819771812a7f527d7897c2deffbf7a00 xfs: Fix CIL throttle hang when CIL space used going backwards
+5f9b4b0de8dc2fb8eb655463b438001c111570fe xfs: xfs_log_force_lsn isn't passed a LSN
+956f6daa84bf50dd5bd13a64b57cae446bca3899 xfs: add iclog state trace events
+ff7bebeb91f8cc2e26e7dabbf301da5ec0e9328c xfs: refactor the inode recycling code
+77b4d2861e8381d00e4b9bd1be2a355dda99ff60 xfs: separate primary inode selection criteria in xfs_iget_cache_hit
+10be350b8c6c426b82d4df937f25b37eabdc3d67 xfs: fix type mismatches in the inode reclaim functions
+3a1c3abe89710c60c98a8f59a5f16e5dfe249e49 xfs: print name of function causing fs shutdown instead of hex pointer
+c06ad17cfa0bac3b51c9b3448a843860d29bc85a xfs: shorten the shutdown messages to a single line
+81ed94751b1513fcc5978dcc06eb1f5b4e55a785 xfs: fix log intent recovery ENOSPC shutdowns when inactivating inodes
+4e6b8270c820c8c57a73f869799a0af2b56eff3e xfs: force the log offline when log intent item recovery fails
+84d8949e770745b16a7e8a68dcb1d0f3687bdee9 xfs: hold buffer across unpin and potential shutdown processing
+e53d3aa0b605c49d780e1b2fd0b49dba4154f32b xfs: remove dead stale buf unpin handling code
+a8f3522c9a1f4a31e93b17f2b5310a2b615f5581 xfs: fix endianness issue in xfs_ag_shrink_space
 
---===============0829720910184452466==--
+--===============6204851027108197242==--
