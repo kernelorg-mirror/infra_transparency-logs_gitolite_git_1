@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 22 Jun 2021 15:50:15 -0000
-Message-Id: <162437701549.15736.16571048831929591208@gitolite.kernel.org>
+Date: Tue, 22 Jun 2021 15:57:05 -0000
+Message-Id: <162437742558.19531.6698751073372808311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 0c3c64e0b0fddb83245abef58302e398434f5604
-    new: b3e136d53380f0efbc8463aa8fab7a7ee0a35410
+    old: b3e136d53380f0efbc8463aa8fab7a7ee0a35410
+    new: af2a376c0d4042e81af0992cc594ec2b51c84ffa
     log: |
-         b3e136d53380f0efbc8463aa8fab7a7ee0a35410 selftests/sgx: Create heap for the enclave
+         af2a376c0d4042e81af0992cc594ec2b51c84ffa selftests/sgx: Create heap for the enclave
          
