@@ -1,46 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5912128685906850157=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 22 Jun 2021 20:08:24 -0000
-Message-Id: <162439250446.27605.10423733778736310716@gitolite.kernel.org>
-
---===============5912128685906850157==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 22 Jun 2021 20:09:53 -0000
+Message-Id: <162439259315.28225.18219211111379717674@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: c0dd194bdd9318107d187878a7a3b21c6eaf9b3b
-    new: 45ef591d2fb245a06600514d8df57ab64d519fd8
+  - ref: refs/heads/clk-next
+    old: 53ff0de6f2a063b84d75907c87d7e6bd237dd8c2
+    new: 0eb0a122fa4def158838b379190efa4c38d6cdcc
     log: |
-         45ef591d2fb245a06600514d8df57ab64d519fd8 Fix wrong statement on patches without indexes
+         4cbf0cd6bf4c704746b6a6c6d42a8ee327070005 clk: meson: pll: switch to determine_rate for the PLL ops
+         bc794f8c56abddf709f1f84fcb2a3c9e7d9cc9b4 clk: meson: g12a: fix gp0 and hifi ranges
+         50cb321f16f6665873071792d89ab8563be1658d clk: meson: axg-audio: improve deferral handling
+         8271813e404cd0620f99fbccffd2746f85a17259 clk: meson: g12a: Add missing NNA source clocks for g12b
+         686f225039be2846845349669edbfc5771ba647a Merge tag 'clk-meson-v5.14-1' of https://github.com/BayLibre/clk-meson into clk-amlogic
+         0eb0a122fa4def158838b379190efa4c38d6cdcc Merge branch 'clk-amlogic' into clk-next
          
-
---===============5912128685906850157==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1624392504 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1624392504-27ee38538f7f4453496a4b1e46f084f23129813e
-
-c0dd194bdd9318107d187878a7a3b21c6eaf9b3b 45ef591d2fb245a06600514d8df57ab64d519fd8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYNJDOAAKCRC2xBzjVmSZ
-bH6OAP9WqZRx+RfV8dTfU5N4ZeanH+nUQQ5nduK5SLH+08esOAD8CBRbDyIGOrxV
-8ned9Task/I8CY3ys+VBbTPFpN/fBA0=
-=UUlp
------END PGP SIGNATURE-----
-
---===============5912128685906850157==--
+  - ref: refs/heads/clk-amlogic
+    old: 0000000000000000000000000000000000000000
+    new: 686f225039be2846845349669edbfc5771ba647a
+  - ref: refs/heads/clk-rockchip
+    old: 0000000000000000000000000000000000000000
+    new: 14de023dc0f752acad89e6932a96bdded479c60c
