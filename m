@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 22 Jun 2021 20:23:31 -0000
-Message-Id: <162439341110.6286.92029050049635889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 22 Jun 2021 21:04:38 -0000
+Message-Id: <162439587891.32697.12775566811327450224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: d5d182ea5aa2ae3cb20f98dddcfeaf263b802c07
-    new: 2d3b2e4427e2d74085bd2c17ffd737875871c983
+  - ref: refs/heads/topic-rdma-fault-injection
+    old: 2fc0d6964b2e6925cb91009c4bf9de6aeb9cb87a
+    new: 88af5ff04213ee74374b7989d728c44184466f90
     log: |
-         fceb24a73eec7bbc717e516d5420ae786c514d38 RDMA/rxe: Fix useless copy in send_atomic_ack
-         230bb836ee88683052b01e3bff3885c440a785b1 RDMA/rxe: Fix redundant call to ip_send_check
-         1993cbed65bb590a3479d175fc1ac3c775b6bba8 RDMA/rxe: Fix extra copies in build_rdma_network_hdr
-         ec0fa2445c18ec49a0b7ee0aaa82d1ec00968fc9 RDMA/rxe: Fix over copying in get_srq_wqe
-         3896bde92d036de4376b9b4dfa3753ea23659f30 RDMA/rxe: Fix extra copy in prepare_ack_packet
-         2d3b2e4427e2d74085bd2c17ffd737875871c983 RDMA/rxe: Fix redundant skb_put_zero
+         e21e4746c3dbfcecb51660d1ab5b7019eb78c4bc RDMA/core: Add Work Request chain loop helper macros
+         279e893f16af5ad16f8b0993e5795db78431061a RDMA/core: Add helper for displaying WR opcodes symbolically
+         ee1e02204916155b126b1751995556185403133f RDMA/core: Instantiate debugfs entries for fault injection
+         ad3c0156cba80ca32dd09c627b852f7f62a56525 RDMA/core: Allocate a PD/MR pair to be used for error injection
+         f72d9e72854f98f80183a4d5252db95801aa94e5 RDMA/core: Create non-inline variants of ib_post_send() and _recv()
+         048fad3b742741c88cd59f3b7c7ce7a9398e17ab RDMA/core: Inject Send Queue errors
+         88af5ff04213ee74374b7989d728c44184466f90 RDMA/core: Inject Receive Queue errors
          
