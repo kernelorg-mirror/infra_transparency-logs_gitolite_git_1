@@ -1,29 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Tue, 22 Jun 2021 08:00:24 -0000
-Message-Id: <162434882449.28012.14406153178342720519@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5786059228789675298=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 22 Jun 2021 08:15:08 -0000
+Message-Id: <162434970817.5020.10869955069862995875@gitolite.kernel.org>
+
+--===============5786059228789675298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/for-next
-    old: b89ecd60d38ec042d63bdb376c722a16f92bcb88
-    new: c4e0cd4e0c16544ff0afecf07a5fe17de6077233
-    log: |
-         80ef08670d4c28a06a3de954bd350368780bcfef fuse: check connected before queueing on fpq->io
-         49221cf86d18bb66fe95d3338cb33bd4b9880ca5 fuse: reject internal errno
-         2d82ab251ef0f6e7716279b04e9b5a01a86ca530 virtiofs: propagate sync() to file server
-         fe0a7bd81bfefe5eb73bce55682586c6c266e21e fuse: add dedicated filesystem context ops for submounts
-         266eb3f2fae488fd19ee5acfc01ba9d483715699 fuse: Call vfs_get_tree() for submounts
-         29e0e4df9d2bd1f7dd3c7293bf49e08a9d27e811 fuse: Switch to fc_mount() for submounts
-         1b539917374d26fb64395eeb5d4baebd7ad38f61 fuse: Make fuse_fill_super_submount() static
-         6b1bdb56b17c25f640261f3b18030cb0a21d7878 fuse: allow fallocate(FALLOC_FL_ZERO_RANGE)
-         15db16837a35d8007cb8563358787412213db25e fuse: fix illegal access to inode with reused nodeid
-         6c88632be3827899953d9bc2260da378394007b7 fuse: use DIV_ROUND_UP helper macro for calculations
-         c4e0cd4e0c16544ff0afecf07a5fe17de6077233 virtiofs: Fix spelling mistakes
-         
+  - ref: refs/heads/linux-5.10.y-cip
+    old: 3ddbe9bf6a006b50d35887b00f96c5768a32b7f3
+    new: 98eb71578581b23b4cfbeb7227ba109072faed2f
+    log: revlist-3ddbe9bf6a00-98eb71578581.txt
+
+--===============5786059228789675298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3ddbe9bf6a00-98eb71578581.txt
+
+e65007002b80e404a727d51768a1d1b560a1aef5 pinctrl: renesas: r8a77965: Optimize pinctrl image size for R8A774B1
+b5ad62f4dc61d3f502cdfb4402f9e3dfbf0f1bcd pinctrl: renesas: r8a77965: Add QSPI[01] pins, groups and functions
+7670a7c50fde3c3437e25a1794e6ceee99df1039 pinctrl: renesas: r8a7796: Optimize pinctrl image size for R8A774A1
+56a3e1d5c20c63dbf635e2aa7241b81ed3a88a92 pinctrl: renesas: r8a7796: Add QSPI[01] pins, groups and functions
+f77327e34c4559f75408c4afa2ef5a9f40ca237b pinctrl: renesas: r8a77951: Optimize pinctrl image size for R8A774E1
+c461df7d141b6424719815873fcfd0006c3a0791 pinctrl: renesas: r8a77951: Add QSPI[01] pins, groups and functions
+7a0ef9f9136f00febddf5cf4e8644edd81be2111 pinctrl: renesas: r8a77990: Optimize pinctrl image size for R8A774C0
+3e193946850c894b6d1b3d050102e92504fa2f81 pinctrl: renesas: r8a77990: Add QSPI[01] pins, groups and functions
+9c64e44c6ae96162098a96233108ba05c85f27c4 clk: renesas: r8a774c0: Add RPC clocks
+41d4f25b765dbaf5f8c928963dacf860781cf0a7 clk: renesas: r8a774b1: Add RPC clocks
+3d3596504db46671b73cb1db46e26cae122a4609 clk: renesas: r8a774a1: Add RPC clocks
+730a72da6e5c017a9b932e2a1e5d946f84b2daf3 spi: spi-mem: Fix passing zero to 'PTR_ERR' warning
+12ec9fd3154715b3b4b96c3f43b5578a5970df82 memory: renesas-rpc-if: Make rpcif_enable/disable_rpm() as static inline
+4947452edbad38ea59efe6f9c55794b75da82ff9 dt-bindings: PCI: rcar-pci-host: Document r8a774e1 bindings
+0e7839cb21c14519d62268d66603f862d6e290b8 dt-bindings: timer: renesas: tmu: Document r8a774e1 bindings
+98eb71578581b23b4cfbeb7227ba109072faed2f dt-bindings: pci: rcar-pci-ep: Document missing interrupts property
+
+--===============5786059228789675298==--
