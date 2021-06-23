@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2473338649223058799=="
+Content-Type: multipart/mixed; boundary="===============1640176237805119514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 23 Jun 2021 15:56:10 -0000
-Message-Id: <162446377086.8257.15604250623283627636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Jun 2021 15:56:17 -0000
+Message-Id: <162446377780.8393.2803163861326581078@gitolite.kernel.org>
 
---===============2473338649223058799==
+--===============1640176237805119514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: f422316c8e9d3c4aff3c56549dfb44a677d02f14
     new: 0d7993b234c9fad8cb6bec6adfaa74694ba85ecb
     log: |
          0d7993b234c9fad8cb6bec6adfaa74694ba85ecb spi: spi-sun6i: Fix chipselect/clock bug
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/spi-5.14
     old: d90609a4b72dbfe42da2a55f3078c35e669948e0
     new: d74d99229f4d48f42d674f7a8a1137179efd67ac
     log: |
@@ -37,29 +37,29 @@ changes:
          d74d99229f4d48f42d674f7a8a1137179efd67ac Merge series "Support ROCKCHIP SPI new feature" from Jon Lin <jon.lin@rock-chips.com>:
          
 
---===============2473338649223058799==
+--===============1640176237805119514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624463747 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1624463768-58b75d420d2dfb1d643b8e414a2cab8d2156e492
+pusher C3F436CA30F5D8EB 1624463753 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624463775-3da120dd020af63d9d419e9b0d044f3ededff853
 
-f422316c8e9d3c4aff3c56549dfb44a677d02f14 0d7993b234c9fad8cb6bec6adfaa74694ba85ecb refs/heads/for-5.13
-d90609a4b72dbfe42da2a55f3078c35e669948e0 d74d99229f4d48f42d674f7a8a1137179efd67ac refs/heads/for-5.14
+f422316c8e9d3c4aff3c56549dfb44a677d02f14 0d7993b234c9fad8cb6bec6adfaa74694ba85ecb refs/heads/spi-5.13
+d90609a4b72dbfe42da2a55f3078c35e669948e0 d74d99229f4d48f42d674f7a8a1137179efd67ac refs/heads/spi-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWYMACgkQJNaLcl1U
-h9D8twf/UFObIkQ8JPYESlZbs1qNgOo1w3Oplq5HKkRY4i0mB4hMHQImR5CEP397
-sCVOV3RmY0I7Mo7/Ex201scD/+Vhhvc8PX88MPs+nUUxrZJInjti4h+Lqgj6AEQE
-e9/o4egtm9zQtfLMKWzxrfz4THsFNrTfrLz9KxG8FGSHteF/WzVYcamJM7Vk2BMt
-2g5f3jyYgaPlxS+rujZIUQiNfoyxNs9WDFhhKElxrF5FuXoKG8XFtUvjvK+6A0G5
-kC439da99/NCMxWb9DEmqwu7IBQI85GG4dsazsK6ud32vykbgQZ3s7RJzkYgZrjx
-t1Ywl1Yn+rwyl7yOeguleqeRv5rl7g==
-=rxe/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWYkACgkQJNaLcl1U
+h9DbPQf+JnOPKIuJuLaUf1dGWIZu6DFfE+crt5tja4Lc44vJl/H6PLPW197n7JR4
+hqKJCAzXOxNXVXg8FSNfln4lU53Uk65YLG2Ga+I7d1XHkMwygG1nPePHygiWpEsO
+QOd13SRywWfT3MzEIhQ4W0p6bh3eRA/Y8/Wn4DHmxt43YVSyNvCHwfTBSzm34icP
+JiAQ1vD/ZtS4s/mAreAYP9xGTBsgGPTwtUjcvDH6V3Hh6hZm3RTyfIPcS33TjoKY
+RXEWHJAbn26UinwVB2RnMNzcMHaaiBwK8zLXR2FMnrMWpZoB7wEH9hTGgJm8UJzb
+ZDLj0+ni1j7lnj9+Y5fzORzZN/K8ew==
+=ENMq
 -----END PGP SIGNATURE-----
 
---===============2473338649223058799==--
+--===============1640176237805119514==--
