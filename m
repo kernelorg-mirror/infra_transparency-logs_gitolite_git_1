@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 23 Jun 2021 14:11:01 -0000
-Message-Id: <162445746146.520.8102773280930337898@gitolite.kernel.org>
+Date: Wed, 23 Jun 2021 14:11:11 -0000
+Message-Id: <162445747117.628.9083063906131761721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 0213b7083e81f4acd69db32cb72eb4e5f220329a
-    new: 61ab57501122372d482a02f10e35abf36cef66e1
+  - ref: refs/heads/perf/core
+    old: 5471eea5d3bf850316f1064a6f57b34c444bce67
+    new: 41f3e874a4c19d6206f3936a41aa9efa3231a1ce
     log: |
-         7f441702c12a036c2e70a39d41bb0f3ddf7b6c79 sched/fair: Introduce the burstable CFS controller
-         1fdc4b63e66c7bfc887ef7e22781eefc92fa266a psi: Fix race between psi_trigger_create/destroy
-         5e058e9775e2cd3fac315d267884e2c5b12e1245 sched/core: Introduce SD_ASYM_CPUCAPACITY_FULL sched_domain flag
-         35bca39c7f7df72e96bfe4d2fe1e4ed23203c4f4 sched/topology: Rework CPU capacity asymmetry detection
-         61ab57501122372d482a02f10e35abf36cef66e1 sched/doc: Update the CPU capacity asymmetry bits
+         b7608de2c5a78340709a6a611db4945ba2d0429b perf/x86/intel: Fix PEBS-via-PT reload base value for Extended PEBS
+         3faf0e48f6e8583dd33627931cfc08d8785adcb3 perf/x86/intel: Fix fixed counter check warning for some Alder Lake
+         530359fb505b34982f0cadef0c022b6f95a1c741 perf/x86/intel: Add more events requires FRONTEND MSR on Sapphire Rapids
+         843067a0b20a40cf659d383e056531b3d925c837 perf/x86/intel: Fix instructions:ppp support in Sapphire Rapids
+         41f3e874a4c19d6206f3936a41aa9efa3231a1ce perf: Fix task context PMU for Hetero
          
