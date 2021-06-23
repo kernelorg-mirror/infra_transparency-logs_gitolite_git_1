@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8813921318942444630=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
-Date: Wed, 23 Jun 2021 03:10:00 -0000
-Message-Id: <162441780009.25244.3500704728455390600@gitolite.kernel.org>
-
---===============8813921318942444630==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 23 Jun 2021 03:10:23 -0000
+Message-Id: <162441782301.26809.4207979873319369445@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,45 +11,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/morgan/libcap
 user: morgan
 changes:
-  - ref: refs/heads/master
-    old: c8a101dc9d232fe2e16b90f05b09fcca6139c213
-    new: 8c6c3628061dadc58bc6a3ec66b627f8412797ce
-    log: revlist-c8a101dc9d23-8c6c3628061d.txt
-
---===============8813921318942444630==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8a101dc9d23-8c6c3628061d.txt
-
-f38c190ceb6d3f0609b6cb4c295b9879eb599b21 Fix tyop in go pragma.
-cf6ddafe1d34d84e7a30b0b497c6174fc93ba074 Add --explain=cap_foo support to capsh.
-1eb64332b1e6cde634b78d6f15f5ae98e6cfac99 More aggressive cap_test to ensure the launcher isolates context
-13b97f953cb9a4bf50527b1d5c1d98ec96fb8ef4 Add some documentation for capsh --explain=cap_foo
-b48c649ef01b01e3e7d95c070beb6afae2c1cf25 Minor fixes for man pages.
-3f1f067e609fc99342734b2b1ad099aae2b5e4fd Clean up the comments and links in goapps/web/
-954a5ce4fdf195e062909f2c921d8f915d2905b9 Bug fixes identified by static code analysis.
-e3b0094c0d3305cd34b359dcd71bbe152cff0903 Add some man page documentation for the capsh "--iab" argument
-b08b523364b133d7e158968892eba48a18827142 Fruit of more static analysis results
-fe4c27de243b13973acff3cda2c8c8ff4a768855 Add a module argument to pam_cap.so to assist with ambient support
-572b1f8099c05e2840ae66d52d8bee8e547bad39 Validate that user namespaces require CAP_SETFCAP to map UID=0.
-578b4cd7bfd9c5eb46f0191c10ba2434f27562ad Add support for --suggest=phrase to capsh.
-2f9b7f484c035316dc0d77af9422aef7f2764b6c Shorten the URLs for bug reports and mention release notes.
-91455fd109f276f6aab095c08af1cba2c1f7b47c Add a handy update script for the various go.mod files.
-78fded0ec5fb8b5a0b8f704d3b7b7c156b56be54 Skip pam_cap.so build on musl compilation part of make distcheck.
-4408d8ae5b96c0f0ffca625c055fc4383ca9a8b8 Up the release version to 2.50
-21922e27cd50ec766977c6adeea82dc9f4dcbae1 More info for how to coax go.dev into noticing module updates
-fc82332156dc04c24578aefcb7741d749d025032 Make capsh an installed binary again
-071efa09e906a3d6928b49778b1a28ad7c0db5be Add an autoauth module flag to pam_cap.so
-1a5a67b48cbcb83a968f973b2207c1d4b833a6dd Stabilize exporting capabilities into a comparable external format
-c89405455d3b730e933aa0520ca3c57a07117b80 Add fill support for the 1e capabilities
-2c99ecd7ee8580cced618dd9d16473f15e778e5e Add kernel test to quicktest.sh
-2efece0bb49860456ca9357c1e1087bf6f788857 Clean up some compilation warnings
-1b59ff98484b5dd18bd1a0f99a002d67b6d773cd Do away with GOPATH based GO building.
-30698d84b585f629e7a6a7d882c5b87320224f23 No longer need the go/pkg directory.
-3857d17677ab60c35d12c003eee219c6f51da566 Up the release version to 2.51
-06ec53d0c9fcddcc071a0e07731e6c83238400e6 Permit compilation with -std=c89.
-5fabea8cc501b548df400d3d694ce71870237c07 Update comment in gowns sources.
-8c6c3628061dadc58bc6a3ec66b627f8412797ce Minor edits of README.
-
---===============8813921318942444630==--
+  - ref: refs/tags/cap/v1.2.48
+    old: 0000000000000000000000000000000000000000
+    new: ce371953c08cffa5d76cd1d36822d110c3d9c0cc
+  - ref: refs/tags/cap/v1.2.49
+    old: 0000000000000000000000000000000000000000
+    new: a48aec2d52747d8c13d6597a558fd7c8c9a0ac5b
+  - ref: refs/tags/cap/v1.2.49-rc1
+    old: 0000000000000000000000000000000000000000
+    new: da8358234e1cc8324b4046dd5c92ae24f3fbd485
+  - ref: refs/tags/cap/v1.2.49-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3102adf033fe5235c1a98b273e6fb87deb514ac
+  - ref: refs/tags/cap/v1.2.49-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6bcf0e24a74333508baad2b7dc6185196921b1c2
+  - ref: refs/tags/cap/v1.2.50
+    old: 0000000000000000000000000000000000000000
+    new: 57bd19e21ae9098e4f8ace4513ab7ce4011cea64
+  - ref: refs/tags/cap/v1.2.51
+    old: 0000000000000000000000000000000000000000
+    new: 893a60207a54e8f3dc91125275fc2528954a0760
+  - ref: refs/tags/libcap-2.49
+    old: 0000000000000000000000000000000000000000
+    new: ec37fc652bba1de1a808d67c1a0e358dc9027891
+  - ref: refs/tags/libcap-2.50
+    old: 0000000000000000000000000000000000000000
+    new: ea138d4ff9ede2ae6391cf06af5a3fb6a4c83518
+  - ref: refs/tags/libcap-2.51
+    old: 0000000000000000000000000000000000000000
+    new: 4286e47f7b2b41ef18c941bc0d207554258b15c2
+  - ref: refs/tags/libcap-korg-2.49
+    old: 0000000000000000000000000000000000000000
+    new: f87627b16a521581e4a9caeee20d2543e7a9d911
+  - ref: refs/tags/libcap-korg-2.50
+    old: 0000000000000000000000000000000000000000
+    new: 82163e707f8461e711b44b0ce6ecc48be0f69015
+  - ref: refs/tags/libcap-korg-2.51
+    old: 0000000000000000000000000000000000000000
+    new: 0997df61b8ef766c14aad404f346f5975f876b3e
+  - ref: refs/tags/psx/v1.2.48
+    old: 0000000000000000000000000000000000000000
+    new: cf84c1ab21fee0b14207263a08f86b30cf18809c
+  - ref: refs/tags/psx/v1.2.49
+    old: 0000000000000000000000000000000000000000
+    new: bd5610d3003644fec08dc3ba5b9f989106172b21
+  - ref: refs/tags/psx/v1.2.50
+    old: 0000000000000000000000000000000000000000
+    new: 4535b3cd0e0c6472c59a4b31da0e2ff5ac4c6bad
+  - ref: refs/tags/psx/v1.2.51
+    old: 0000000000000000000000000000000000000000
+    new: cf800a590c07f0635e5a7059794e25e40f6fc58d
+  - ref: refs/tags/v1.2.49
+    old: 0000000000000000000000000000000000000000
+    new: df8fc455389792ece9a5214efa2e70a4402d32d4
+  - ref: refs/tags/v1.2.50
+    old: 0000000000000000000000000000000000000000
+    new: da69823f746a0385ab5acf7221bda517a8deff5c
+  - ref: refs/tags/v1.2.51
+    old: 0000000000000000000000000000000000000000
+    new: c5c17fa20ae3932844d0cb72065ed9a416203947
