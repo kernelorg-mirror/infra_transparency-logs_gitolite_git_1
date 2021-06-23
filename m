@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2751979396806631881=="
+Content-Type: multipart/mixed; boundary="===============8501049271802772556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 23 Jun 2021 05:38:29 -0000
-Message-Id: <162442670958.27354.7928838354250739764@gitolite.kernel.org>
+Date: Wed, 23 Jun 2021 05:39:02 -0000
+Message-Id: <162442674283.27671.12118980942135255548@gitolite.kernel.org>
 
---===============2751979396806631881==
+--===============8501049271802772556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 49d3e5996155a3067782748b0c4edf0309e951b6
-    new: 041761f4a4db662e38b4ae9d510b8beb24c7d4b6
-    log: revlist-49d3e5996155-041761f4a4db.txt
+  - ref: refs/heads/for-next
+    old: 7c932e30ee03e1f82b2941a9068876d866149c84
+    new: 5c1d996e5af669f109f974b856516ed22e5f431b
+    log: revlist-7c932e30ee03-5c1d996e5af6.txt
 
---===============2751979396806631881==
+--===============8501049271802772556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49d3e5996155-041761f4a4db.txt
+Content-Disposition: attachment; filename=revlist-7c932e30ee03-5c1d996e5af6.txt
 
 6b658c4863c15936872a93c9ee879043bf6393c9 scsi: cgroup: Add cgroup_get_from_id()
 d2bcbeab4200665b694ec4f92a7a2fd58b70b1e8 scsi: blkcg: Add app identifier support for blkcg
@@ -102,5 +102,8 @@ d8b34a32a44078abef55e9fee5b3ddc7755d7c30 scsi: ufs: ufs-mediatek: Add missing of
 4ab293c2809efa1499c3290ff007d98a9ee2fab2 scsi: ips: Avoid over-read of sense buffer
 86a6a0bdbe2beb4cc7bc80eccd835b62a1f0c364 scsi: arcmsr: Avoid over-read of sense buffer
 041761f4a4db662e38b4ae9d510b8beb24c7d4b6 scsi: aha1740: Avoid over-read of sense buffer
+d1b7f92035c6fb42529ada531e2cbf3534544c82 scsi: sd: Call sd_revalidate_disk() for ioctl(BLKRRPART)
+902a9cf340dd48fd60a0f7e6c3faffb4917ef530 Merge branch 'fixes' into for-next
+5c1d996e5af669f109f974b856516ed22e5f431b Merge branch 'misc' into for-next
 
---===============2751979396806631881==--
+--===============8501049271802772556==--
