@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 23 Jun 2021 18:48:58 -0000
-Message-Id: <162447413875.26767.4569398869537498036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 23 Jun 2021 18:56:56 -0000
+Message-Id: <162447461601.1167.890251247558611389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 7266f2030eb0e17c442aa6cf527263828eed79bd
-    new: 7426cedc7dad67bf3c71ea6cc29ab7822e1a453f
+  - ref: refs/heads/next-integrity
+    old: 52c208397c246f0c31d031eb8c41f9c7e9fdec0e
+    new: 907a399de7b0566236c480d0c01ff52220532fb1
     log: |
-         aceda401e84115bf9121454828f9da63c2a94482 spi: tegra20-slink: Ensure SPI controller reset is deasserted
-         f422316c8e9d3c4aff3c56549dfb44a677d02f14 spi: spi-nxp-fspi: move the register operation after the clock enable
-         7426cedc7dad67bf3c71ea6cc29ab7822e1a453f Merge tag 'spi-fix-v5.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         87ac3d002d567fac3527d6612865e81cfd783727 evm: output EVM digest calculation info
+         907a399de7b0566236c480d0c01ff52220532fb1 evm: Check xattr size discrepancy between kernel and user
          
