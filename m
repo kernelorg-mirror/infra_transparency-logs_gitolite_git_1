@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Wed, 23 Jun 2021 08:15:23 -0000
-Message-Id: <162443612319.3941.359660371235000169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 23 Jun 2021 08:16:03 -0000
+Message-Id: <162443616372.4252.17124829773097927995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/tags/phy-for-5.14_v2
-    old: 0000000000000000000000000000000000000000
-    new: aa8bfcc5e9b32467b7967f2d923465e55a827b0c
+  - ref: refs/heads/sched/core
+    old: 2f064a59a11ff9bc22e52e9678bc601404c7cb34
+    new: 0213b7083e81f4acd69db32cb72eb4e5f220329a
+    log: |
+         fecfcbc288e9f4923f40fd23ca78a6acdc7fdf6c sched/rt: Fix RT utilization tracking during policy change
+         d7d607096ae6d378b4e92d49946d22739c047d4c sched/rt: Fix Deadline utilization tracking during policy change
+         0213b7083e81f4acd69db32cb72eb4e5f220329a sched/uclamp: Fix uclamp_tg_restrict()
+         
