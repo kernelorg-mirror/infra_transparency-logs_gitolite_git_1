@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7339392977533207296=="
+Content-Type: multipart/mixed; boundary="===============6755614405881800453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 23 Jun 2021 13:51:08 -0000
-Message-Id: <162445626857.16574.2188554887878155053@gitolite.kernel.org>
+Date: Wed, 23 Jun 2021 13:51:20 -0000
+Message-Id: <162445628016.16755.4298639332931668310@gitolite.kernel.org>
 
---===============7339392977533207296==
+--===============6755614405881800453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 373f8f449fb8c8b32a233c518b12804efc0730bd
     new: 87e9688481163dee836c7f86e02f9aaf3240af2e
     log: revlist-373f8f449fb8-87e968848116.txt
 
---===============7339392977533207296==
+--===============6755614405881800453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -917,4 +917,4 @@ c46ed2281bbe4b84e6f3d4bdfb0e4e9ab813fa9d tpm_tis_spi: add missing SPI device ID 
 28d62d945dedd880f9180fbf5361951f126af7b6 certs: Trigger creation of RSA module signing key if it's not an RSA key
 87e9688481163dee836c7f86e02f9aaf3240af2e certs: Add support for using elliptic curve keys for signing modules
 
---===============7339392977533207296==--
+--===============6755614405881800453==--
