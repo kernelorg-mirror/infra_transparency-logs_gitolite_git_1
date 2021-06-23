@@ -1,28 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 23 Jun 2021 08:44:01 -0000
-Message-Id: <162443784197.21893.5820046935195939880@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0924970844791104707=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 23 Jun 2021 08:54:31 -0000
+Message-Id: <162443847119.29665.6012342302019465992@gitolite.kernel.org>
+
+--===============0924970844791104707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/hole_punch_fixes_for_5.14-rc1
-    old: 6f067b702e1ccd2fc6f05f303ea89bf6d6532308
-    new: 25e05894f78d5dc3ad72ca763a2fdb6fcdd92101
-    log: |
-         49c212e873bfc528f3c9caad646a92dc29934cda ext4: Convert to use mapping->invalidate_lock
-         b8bcb7175d9bece336027ef9bdf1ddd8c3787127 ext2: Convert to using invalidate_lock
-         639f718659cd03d6801598da295c4d15429556b4 xfs: Refactor xfs_isilocked()
-         598a78b1f875cee6cae6288a3cc55d0ab95f7219 xfs: Convert to use invalidate_lock
-         f2679b5e2d1e847b6df6f107b6dcd244bf98ed44 xfs: Convert double locking of MMAPLOCK to use VFS helpers
-         17bfafba198be3875be6ad48916e0145e8ee2048 zonefs: Convert to using invalidate_lock
-         1474c39351f01795fef08b47c72783d7519ec657 f2fs: Convert to using invalidate_lock
-         32821b7a58b4e8093df9a5b583117893d9e7a542 fuse: Convert to using invalidate_lock
-         8a8c7074e862d29d225963722d81c2a2bfba4529 ceph: Fix race between hole punch and page fault
-         e996ae6bdbd10008b85bf0667c5416b43786a18f cifs: Fix race between hole punch and page fault
-         
+  - ref: refs/heads/for-next
+    old: 91bc92d783fecb77b8bfa80787c8cfca6513a928
+    new: ae44705f98ca0ecb117765c9c03950de2b0686dc
+    log: revlist-91bc92d783fe-ae44705f98ca.txt
+  - ref: refs/heads/master
+    old: fdbecc72110644e98f9cd4ecc63c967bed44f4c0
+    new: 3b18684f187ab6a33190c8885462edab237d3b98
+    log: revlist-fdbecc721106-3b18684f187a.txt
+
+--===============0924970844791104707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-91bc92d783fe-ae44705f98ca.txt
+
+fa4db23233eb912234bdfb0b26a38be079c6b5ea ALSA: firewire-motu: fix detection for S/PDIF source on optical interface in v2 protocol
+25eb438920e43ff49c6041a23619f22af6b21a5c ALSA: firewire-motu: code refactoring for detection of clock source in v2 protocol
+683d36690f8a34a6323b6b3a655e5fa56ef80b5f ALSA: firewire-motu: add support for AES/EBU clock source in v2 protocol
+184aa6b7e1054b235cea3f53ac2dd9276d674659 ALSA: firewire-motu: use macro instead of magic number for clock source in v2 protocol
+53ed8cf625fae18b2557d5b806a50f7c65555f61 ALSA: firewire-motu: code refactoring for packet format detection in v2 protocol
+ef8f14ad2aeceda904b2fdfb54a366f2095620a5 ALSA: firewire-motu: code refactoring for source detection of sampling clock in v3 protocol
+7203233ea7fde84a3f7a3a1b1498988d3db3ce88 ALSA: firewire-motu: use macro instead of magic number for clock source in v3 protocol
+e949e338d7bbd0820b0595f2f44b37dd28ff5fff ALSA: firewire-motu: fix register handling for 828
+ae44705f98ca0ecb117765c9c03950de2b0686dc ALSA: firewire-motu: fix register handling for 896
+
+--===============0924970844791104707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fdbecc721106-3b18684f187a.txt
+
+fa4db23233eb912234bdfb0b26a38be079c6b5ea ALSA: firewire-motu: fix detection for S/PDIF source on optical interface in v2 protocol
+25eb438920e43ff49c6041a23619f22af6b21a5c ALSA: firewire-motu: code refactoring for detection of clock source in v2 protocol
+683d36690f8a34a6323b6b3a655e5fa56ef80b5f ALSA: firewire-motu: add support for AES/EBU clock source in v2 protocol
+184aa6b7e1054b235cea3f53ac2dd9276d674659 ALSA: firewire-motu: use macro instead of magic number for clock source in v2 protocol
+53ed8cf625fae18b2557d5b806a50f7c65555f61 ALSA: firewire-motu: code refactoring for packet format detection in v2 protocol
+ef8f14ad2aeceda904b2fdfb54a366f2095620a5 ALSA: firewire-motu: code refactoring for source detection of sampling clock in v3 protocol
+7203233ea7fde84a3f7a3a1b1498988d3db3ce88 ALSA: firewire-motu: use macro instead of magic number for clock source in v3 protocol
+e949e338d7bbd0820b0595f2f44b37dd28ff5fff ALSA: firewire-motu: fix register handling for 828
+ae44705f98ca0ecb117765c9c03950de2b0686dc ALSA: firewire-motu: fix register handling for 896
+3b18684f187ab6a33190c8885462edab237d3b98 Merge branch 'for-next'
+
+--===============0924970844791104707==--
