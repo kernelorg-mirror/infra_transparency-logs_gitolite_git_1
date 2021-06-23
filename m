@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8277631528589979891=="
+Content-Type: multipart/mixed; boundary="===============7835377877579635360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 23 Jun 2021 15:55:56 -0000
-Message-Id: <162446375632.7952.15976009692448142213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Jun 2021 15:56:03 -0000
+Message-Id: <162446376325.8139.18362252626718615864@gitolite.kernel.org>
 
---===============8277631528589979891==
+--===============7835377877579635360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: 61eb1b24f9e4f4e0725aa5f8164a932c933f3339
     new: 50c9462edcbf900f3d5097ca3ad60171346124de
     log: |
          50c9462edcbf900f3d5097ca3ad60171346124de regulator: mt6358: Fix vdram2 .vsel_mask
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/regulator-5.14
     old: 9bc146acc33125cd9f365b92f1c02ec89f639977
     new: ddf275b219ab22bc07c14ac88c290694089dced0
     log: |
@@ -31,29 +31,29 @@ changes:
          ddf275b219ab22bc07c14ac88c290694089dced0 regulator: bd9576: Fix uninitializes variable may_have_irqs
          
 
---===============8277631528589979891==
+--===============7835377877579635360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624463732 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1624463753-ee2ef6d9bc5384bf8522625c27c9f1ae077ade2f
+pusher C3F436CA30F5D8EB 1624463739 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624463760-35c912d699f72e893d3b09b4964779ffba6c56e9
 
-61eb1b24f9e4f4e0725aa5f8164a932c933f3339 50c9462edcbf900f3d5097ca3ad60171346124de refs/heads/for-5.13
-9bc146acc33125cd9f365b92f1c02ec89f639977 ddf275b219ab22bc07c14ac88c290694089dced0 refs/heads/for-5.14
+61eb1b24f9e4f4e0725aa5f8164a932c933f3339 50c9462edcbf900f3d5097ca3ad60171346124de refs/heads/regulator-5.13
+9bc146acc33125cd9f365b92f1c02ec89f639977 ddf275b219ab22bc07c14ac88c290694089dced0 refs/heads/regulator-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWXQACgkQJNaLcl1U
-h9D2PAf9GYaHAZ3VJ58/jLGb9+Q27N7i++PwCKpp9gtRkVzZHaU7EKjHiCPF6f2q
-hT/TLFxNbIm7d8DLcfmOtS4bJgDqfu7B5+qYyMMaDWWOIwMgB9G4VeRB7Katerkx
-T59pdh8bIRPSkKle4McuD9r/0oGA2sHEev4meyS2AGmJ6Uh4L98HF8Dp+g7s18Mr
-iAA0Jb/ug+IhRyeCLuJO8KvKsMhVtAgL1MYB/7RTcej8F4GLnKF7VhwXP7bNcr8t
-crVlwlHK663LgB4pEQPjam2QMYlFtjD7vK0KDUGYhC1mVq6ooZowi7JWmaGvzGrR
-MQDaBHo2F9aFTXUjI6Pgq0slSdCakg==
-=xAT9
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWXsACgkQJNaLcl1U
+h9CcFgf/eg6AZjggtoPrpbX2EdftfF/EEVJHfF7GCXV2ASnOD8YK9qJcmx28Y9av
+BWO7ZGKeW+Ia1epR+7/r9V7XuwNw3gbw/d3BSKJWqu34p16l6//bbF9e7TuHhPTA
+weTb1lJkLKg0t+rrVmFdp9qo7RXqsULaG6VztGhTrdeG4LslAQVheGTJrAn0OAbc
+MaJ8kpcFEaOHFCmy+E2PFrWF1GQeAQQIiGPsQzBj77hYVPjkxeYczFP7bM88t/0n
+Y5pUvJaHEESzcZ945pFG3/7xK7AKeFcOT8hPOs5F5S86RfYdDPDhMHeULwGhE3zh
+rU5vzyh8gnXy1eqM/F83AdbhbEL8Cg==
+=hqaN
 -----END PGP SIGNATURE-----
 
---===============8277631528589979891==--
+--===============7835377877579635360==--
