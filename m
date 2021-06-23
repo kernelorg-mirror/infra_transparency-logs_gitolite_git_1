@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Wed, 23 Jun 2021 18:25:11 -0000
-Message-Id: <162447271172.13144.13639898915573321527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 23 Jun 2021 18:31:55 -0000
+Message-Id: <162447311553.16855.3306691342218386836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-user: zx2c4
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/jd/nt
-    old: 2469d28c2230b3b6463d7644f42edce267968d19
-    new: b301f8e504f23e425ea550598b396ee8bd34c63b
+  - ref: refs/heads/kvm-arm64/mmu/guest-MMIO-guard
+    old: e96908bce74e7d05ef41e9584f29f9be405ef3a8
+    new: 63d0c848f6eeb82c8abbdc836c6c71a1c907a5cd
     log: |
-         b301f8e504f23e425ea550598b396ee8bd34c63b ipc: add wireguard-nt support
+         de548f16bfaeda7b2c245d48f37325e4908bc496 fixup! fixup! KVM: arm64: Add MMIO checking infrastructure
+         63d0c848f6eeb82c8abbdc836c6c71a1c907a5cd guest hacks
          
