@@ -1,65 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8570689077994806699=="
+Content-Type: multipart/mixed; boundary="===============7558229945028224594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Jun 2021 11:38:11 -0000
-Message-Id: <162444829107.24070.2201407872244517388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbingham/rcar
+Date: Wed, 23 Jun 2021 11:41:19 -0000
+Message-Id: <162444847946.26607.97266710571970712@gitolite.kernel.org>
 
---===============8570689077994806699==
+--===============7558229945028224594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kbingham/rcar
+user: kbingham
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 5471a8123503c6ca694b5f2543f0a6dfd4080976
-    new: d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7
-    log: |
-         ecb5bdff901139850fb3ca3ae2d0cccac045bc52 extcon: intel-mrfld: Sync hardware and software state on init
-         d25b224f8e5507879b36a769a6d1324cf163466c extcon: sm5502: Drop invalid register write in sm5502_reg_data
-         dc11fc2991e9efbceef93912b83e333d2835fb19 extcon: max8997: Add missing modalias string
-         d3a213d23c5248f40986cbf8699c755c204ba90e extcon: sm5502: Use devm_regmap_add_irq_chip()
-         b1b76af23de825fec79369ff5c9d8915b0fae5f0 extcon: sm5502: Implement i2c_driver->probe_new()
-         59ab522d5b6183b4a19f8f8720e9f4806ceb7069 dt-bindings: extcon: sm5502: Convert to DT schema
-         85b8326ed1513bcd9ab79df2d0d5fae11981be90 dt-bindings: extcon: sm5502: Document siliconmitus,sm5504-muic
-         f33c056dea2ea6633d40d36371457380d372c607 extcon: sm5502: Refactor driver to use chip-specific struct
-         d97c0ff5a124f48109c4b32d6471c7bccd497009 extcon: sm5502: Add support for SM5504
-         d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7 Merge tag 'extcon-next-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
-         
+  - ref: refs/heads/kbingham/drm/du/v3u-5-13-rc7
+    old: 8efdae20312ed8ca39703cf2cda7bcbe1a54a0ac
+    new: b8dee566e04c1c7b559d5324f832e86cad111bf7
+    log: revlist-8efdae20312e-b8dee566e04c.txt
 
---===============8570689077994806699==
+--===============7558229945028224594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8efdae20312e-b8dee566e04c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624448289 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1624448288-35eb6628908fad4f7b0828289504135f87234806
+6a4aa02bc6a9cb3d41d1910f435d774197c7f4cc dt-bindings: display: bridge: renesas,dsi-csi2-tx: Add data-lanes
+4006e8c821fea09a02aedb73aa4c0836f1e4d76e drm: rcar-du: Add R-Car DSI driver
+2f95748d1546ebce55e4060a0e496184dcfd6ccc rcar-du: dsi: Unexport clock functions
+f960b9e6387f941e8a1cb256019d50c6c8407539 drm: bridge: dw-hdmi: Attach to next bridge if available
+89bd7a566a6e6be4aa4f19f33978a473b34d82e7 drm: rcar-du: lvds: Convert to DRM panel bridge helper
+61c9cb0de8603f7fb3c090bc8d2b1e001fc2bc24 drm: rcar-du: dw-hdmi: Set output port number
+0bccde83e5ed5a5e609e7fca839d3687ed9aa42c drm: rcar-du: Use drm_bridge_connector_init() helper
+9c83d80688f3fd440b51561c4c0ffbebfc8f57f2 ====================== Kieran ======================
+fd64bfdc547f7c47785bcd99c6c0df9a5fd786d3 media: vsp1: Add support for the V3U VSPD
+9e3da71a8621c4d5fa8b273d1522f834581a9a60 dt-bindings: display: renesas,du: Provide bindings for r8a779a0
+7f913f22b2f660f90956ce3ee25db0f08026f56d drm: rcar-du: Sort the DU outputs
+6fb7aa78e106b4966f300e16c580ce5b11e715d6 drm: rcar-du: Only initialise TVM_TVSYNC mode when supported
+900cc3b4ed70d35bb70a0d13e24eb5ffba728402 drm: rcar-du: Add r8a779a0 device support
+ea3e248f0a35d70d84e8dde53c4036be05f31178 clk: renesas: r8a779a0: Add the DU clock
+e8b388e0d332c77fc4d90dc9ee4933d0f24c8e99 clk: renesas: r8a779a0: Add the DSI clocks
+fd2afe64c50fa4b560917055d4dc174dd4e443d2 arm64: dts: renesas: r8a779a0: Add DU support
+4091186915d1fb81e7964ab704f27b4276e1ba9d arm64: dts: renesas: r8a779a0: Add DSI encoders
+5bb06fe20a2aa167cdc02fc94406a3238b79cc63 arm64: dts: renesas: falcon-cpu: Add DSI display output
+ab4eb500235346276f7bcea7bb7e0ca96fbb2590 drm/bridge: ti-sn65dsi86: Do not display errors when probe deferred
+02656fe462be82b942e4e4747d3de19a30087c90 drm/bridge: ti-sn65dsi86: Add missing platform-data kerneldoc
+b8dee566e04c1c7b559d5324f832e86cad111bf7 Enable debug on SN65DSI86, DU and VSP
 
-5471a8123503c6ca694b5f2543f0a6dfd4080976 d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDTHSEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JfcP/0tWSVSvJ9CXEyUTzSN3
-i6Yt/BcW5te0RcufNUQAFtAAMF/M2mKxhirn7Ra4UjZ4xJtyspN888VAqppxCyJI
-EXJBp/sFUy1Pb8RNTZ5SSddYwPqx74PkdoNIUYltu1ha5Q8afQN1uj3SUFW4O0dt
-88ONpLKsUah+v0g+Zk7cgd58jBJWsiXbIaWOBJKYcObnObmBzzkudAN9y73eOUTI
-KiMBFOSbPOyIcLePrLkdHQrXaB4yg7gsB1e6hrb4Ehn73Dhu1TxJqUG8Oo6Q2w4d
-xwFCgVIOHvATUXRzGBU70bMfQ4pOG7xOGMEnpwjQuur5du7zjfjm8AmHhyQAtmwd
-NHFAg06eN9Ttq/seLQHbzyLjL8NXLhBf0WvxuT+yT90M+EWyJed8T2II4/+R8Dvj
-KAOAy/zuj9InK+KW7KfXUeyc1wCphAWV1hk7MS7nsM0JuX4EhyGH7/Fqfosg5h+4
-9omll2pc5pZ+gWep8tJ2gL3b3+5KPIU79u30bWGgLX1LBv06UuaMQ6KFwNW9Ka1x
-YgK7nux3sneUk3rmbJgYQmhHC063Qc5ghkMuM/DPdKdcIxSSFY16qYRZQlMsqhN8
-JccYjsPk9fBCX7Gl/GhztuhgzAWSNLXwoTM3HaZX1hRot7sOyhu73AvaSDLdNSM0
-GoVZ8soOIbymsNcie5e91Lnc
-=r+uf
------END PGP SIGNATURE-----
-
---===============8570689077994806699==--
+--===============7558229945028224594==--
