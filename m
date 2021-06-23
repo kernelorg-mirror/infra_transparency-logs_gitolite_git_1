@@ -1,73 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
-Date: Wed, 23 Jun 2021 03:10:23 -0000
-Message-Id: <162441782301.26809.4207979873319369445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 23 Jun 2021 04:15:43 -0000
+Message-Id: <162442174345.5678.3470643963931912131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/morgan/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/cap/v1.2.48
-    old: 0000000000000000000000000000000000000000
-    new: ce371953c08cffa5d76cd1d36822d110c3d9c0cc
-  - ref: refs/tags/cap/v1.2.49
-    old: 0000000000000000000000000000000000000000
-    new: a48aec2d52747d8c13d6597a558fd7c8c9a0ac5b
-  - ref: refs/tags/cap/v1.2.49-rc1
-    old: 0000000000000000000000000000000000000000
-    new: da8358234e1cc8324b4046dd5c92ae24f3fbd485
-  - ref: refs/tags/cap/v1.2.49-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b3102adf033fe5235c1a98b273e6fb87deb514ac
-  - ref: refs/tags/cap/v1.2.49-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6bcf0e24a74333508baad2b7dc6185196921b1c2
-  - ref: refs/tags/cap/v1.2.50
-    old: 0000000000000000000000000000000000000000
-    new: 57bd19e21ae9098e4f8ace4513ab7ce4011cea64
-  - ref: refs/tags/cap/v1.2.51
-    old: 0000000000000000000000000000000000000000
-    new: 893a60207a54e8f3dc91125275fc2528954a0760
-  - ref: refs/tags/libcap-2.49
-    old: 0000000000000000000000000000000000000000
-    new: ec37fc652bba1de1a808d67c1a0e358dc9027891
-  - ref: refs/tags/libcap-2.50
-    old: 0000000000000000000000000000000000000000
-    new: ea138d4ff9ede2ae6391cf06af5a3fb6a4c83518
-  - ref: refs/tags/libcap-2.51
-    old: 0000000000000000000000000000000000000000
-    new: 4286e47f7b2b41ef18c941bc0d207554258b15c2
-  - ref: refs/tags/libcap-korg-2.49
-    old: 0000000000000000000000000000000000000000
-    new: f87627b16a521581e4a9caeee20d2543e7a9d911
-  - ref: refs/tags/libcap-korg-2.50
-    old: 0000000000000000000000000000000000000000
-    new: 82163e707f8461e711b44b0ce6ecc48be0f69015
-  - ref: refs/tags/libcap-korg-2.51
-    old: 0000000000000000000000000000000000000000
-    new: 0997df61b8ef766c14aad404f346f5975f876b3e
-  - ref: refs/tags/psx/v1.2.48
-    old: 0000000000000000000000000000000000000000
-    new: cf84c1ab21fee0b14207263a08f86b30cf18809c
-  - ref: refs/tags/psx/v1.2.49
-    old: 0000000000000000000000000000000000000000
-    new: bd5610d3003644fec08dc3ba5b9f989106172b21
-  - ref: refs/tags/psx/v1.2.50
-    old: 0000000000000000000000000000000000000000
-    new: 4535b3cd0e0c6472c59a4b31da0e2ff5ac4c6bad
-  - ref: refs/tags/psx/v1.2.51
-    old: 0000000000000000000000000000000000000000
-    new: cf800a590c07f0635e5a7059794e25e40f6fc58d
-  - ref: refs/tags/v1.2.49
-    old: 0000000000000000000000000000000000000000
-    new: df8fc455389792ece9a5214efa2e70a4402d32d4
-  - ref: refs/tags/v1.2.50
-    old: 0000000000000000000000000000000000000000
-    new: da69823f746a0385ab5acf7221bda517a8deff5c
-  - ref: refs/tags/v1.2.51
-    old: 0000000000000000000000000000000000000000
-    new: c5c17fa20ae3932844d0cb72065ed9a416203947
+  - ref: refs/heads/cpufreq/cppc
+    old: f963d09e57115969dae32827ade5558b0467d3a0
+    new: 0ba5f8a8896faeae48331483fddaf8919151630e
+    log: |
+         5cc50367710f5e2bcb2bb3cddc27d30e9b3069fb cpufreq: Make cpufreq_online() call driver->offline() on errors
+         acd2f1b661083853bafca21982501654a2a2b973 cpufreq: cppc: Migrate to ->exit() callback instead of ->stop_cpu()
+         6144911f36d3d1f5faddf81d744bd39946843f6b cpufreq: intel_pstate: Migrate to ->offline() instead of ->stop_cpu()
+         e40e57a97735614941e9ca7fa2f221f8db9a12b2 cpufreq: powerenv: Migrate to ->exit() callback instead of ->stop_cpu()
+         56e8fadcecf014ef0786499fbf4e93975b123483 cpufreq: Remove stop_cpu() callback
+         4e2bbf9d3270aa5e7d909992a7213714c3f71c00 cpufreq: cppc: Fix potential memleak in cppc_cpufreq_cpu_init
+         9765b77113bd68c3f2c43b777b396613d2befbe3 cpufreq: cppc: Pass structure instance by reference
+         b0650114097a014902df546684784086ad4327b2 arch_topology: Avoid use-after-free for scale_freq_data
+         0ba5f8a8896faeae48331483fddaf8919151630e cpufreq: CPPC: Add support for frequency invariance
+         
