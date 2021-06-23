@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6019275309947024552=="
+Content-Type: multipart/mixed; boundary="===============1034062947121179282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 23 Jun 2021 03:08:07 -0000
-Message-Id: <162441768789.24159.16155897824006371821@gitolite.kernel.org>
+Date: Wed, 23 Jun 2021 03:08:12 -0000
+Message-Id: <162441769281.24280.1023247087162472657@gitolite.kernel.org>
 
---===============6019275309947024552==
+--===============1034062947121179282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 3814b8664b0124cb55d7f4b9814e6ecf3b6588bb
-    new: 6ea429862d459b968aae1fa17832a498d69728e2
-    log: revlist-3814b8664b01-6ea429862d45.txt
+  - ref: refs/heads/5.14/scsi-staging
+    old: 041761f4a4db662e38b4ae9d510b8beb24c7d4b6
+    new: 2506f5dcb8282aa7adf77965ef147bb5b68973e3
+    log: revlist-041761f4a4db-2506f5dcb828.txt
 
---===============6019275309947024552==
+--===============1034062947121179282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1624417685 -0400
+pusher 75C5DE3D 1624417691 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1624417685-278ddfe5e60c5f91402c86d181ed801f29b0c2fb
+nonce 1624417691-c0ee4fa554a8195323936e365519436fdd4dcf3d
 
-3814b8664b0124cb55d7f4b9814e6ecf3b6588bb 6ea429862d459b968aae1fa17832a498d69728e2 refs/tags/mkp-scsi-staging
+041761f4a4db662e38b4ae9d510b8beb24c7d4b6 2506f5dcb8282aa7adf77965ef147bb5b68973e3 refs/heads/5.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDSpZUACgkQ7ulgGnXF
-3j2lUA//dPmJrF3DUeUZOGs5MC1UQGggC7fk+b4t1JmvG8t7XhuzzAJnX7f6cVeu
-zcgnFxBgN9fbLllvNj/0U2MYdBDzNckBZc05Y9Hz6e8rLJEevrzSjiPWxNutqgXW
-PCh+bcWA7K0KlEdCasWYwqVeE54KsP009P8Ujw5hffNdRVgZgMzM1qPXilP0n8Y1
-HMXgRRzkGXX/LN0efebVJpraBq31nZoOjgNspYCs2mBm0znbevznbLpaShndD444
-6XDvkRZr7OsREpM5LRdZGKDpIl9bTKmlquriIWtkp3NgjZWs05k3X9kRAs2PaYWx
-UrP5bCJ0ov/RlkDGc0HRT8z4b3pYwltYU264PKmjveGXrel75Y/h6P1Kyj+rwAZC
-OJdogplo5SKye6udaa+ve0SSdEI+AKoRJfHnu2+bjDAt9KDaRdnZ9PtldI4eha/z
-GoGpRtxWdY/3iuk/L1c2sDcehURRKTKoBx1QUaER/glIAOYi4Vt2VHUYed46cWdu
-bIHBShCV9jA1IabhbXU9kXEjjc/gH8goE1G76jCN5jwRPnfZA2X1BU0nc/U2UDsW
-HEtsg+SUnSKqgxrU5kAC4sIks2rm3+Vv41lf10Ay00kp1DpMtKj8u7eesf3EL0uL
-5uAElC8d+ZqI/havsjqmpvTFy3zXmtKvGHZtBKoYN56uvcLSMso=
-=MqnL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDSpZsACgkQ7ulgGnXF
+3j2+nQ//fxfyigZpg254aZpP49cQWtu5w1DtCebL2rtAPqMYxtCt3xxBEZTXgZPx
+VLBHqpvqL6U2LbkcL+cEJC5gWnFt8DOdCErNiv0dP+TCsHfAwNhcS00c1cFm4lXR
+ZtbQxmzJs9kqdCpS39hg1NUuzBuLLyRSQYMp5M6qT6fCsswgwwSOUxnkSmOfQCFX
+LSv/tRwdLj+4KuznXEeitEV3QSWtO9JC310Fr478gv5q1ngKEDzQ0Xh8F3yTfYWS
+Y0zA0K7012Cwn5bDqanWqq+ulzxx5xjcul6yHK9V+DRt8LTrpy6RILZEB5nKZca6
+VM1psyjsGncMYMPZxP7IQWgDGykiZ6E0lIHYJsShUdIJeQaXzZMZaUT2407DUBP+
+CwMMMOE8fH4jOSdzW5fzeZGP7FnYeDEVPDfRJrN+uRPKMOqIynFEI+OHbk93IcqI
+Ubmr9g/iteeloUZAy1fhvwmQlydLuyAkg22V1+rtZWUoBjF8ac87O8z7GM2lx0IC
+uVksBeogTzWVjNY4E6Lu6CvfSRl3dbuyailAq/wf9m4eSrlTT4eP41Sf1pbX533/
+H76XFm9Av8RUFuQrfOHH8TxuufZ23cOIP7duTAs+4ZBMyx8z4PGMcbp/WT1nlhYE
+rVmZ9XomG1EEpj33FpKUXuDzrdedx/jE8NnVY7CeT/lxqLFUMdQ=
+=6YoL
 -----END PGP SIGNATURE-----
 
---===============6019275309947024552==
+--===============1034062947121179282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3814b8664b01-6ea429862d45.txt
+Content-Disposition: attachment; filename=revlist-041761f4a4db-2506f5dcb828.txt
 
 f6060eb1344717bf22d592a6e1b69818b07cad6e scsi: elx: libefc_sli: Fix ANDing with zero bit value
 f7c95d7460e342f812eaf9b4b74f100d5afaf258 scsi: elx: efct: Fix vport list linkage in LIO backend
@@ -73,4 +73,4 @@ ffa636470aefc41a634025e958b32b006d59a29a scsi: qedi: Use DEVICE_ATTR_RO() macro
 4c92f89802552f345e7577ba614874f1d6a710f4 scsi: megaraid_mbox: Use DEVICE_ATTR_ADMIN_RO() macro
 2506f5dcb8282aa7adf77965ef147bb5b68973e3 scsi: mvsas: Use DEVICE_ATTR_RO()/RW() macro
 
---===============6019275309947024552==--
+--===============1034062947121179282==--
