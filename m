@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Jun 2021 19:34:47 -0000
-Message-Id: <162447688753.25520.10419116815649376968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Jun 2021 19:47:44 -0000
+Message-Id: <162447766488.1822.15751698122465463299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 0a36a75c6818800c67057458376e99b5f77c2a1f
-    new: a7b62112f0abf58a7f6d2bdfef40b637a4a1c4d4
+    old: f4b29d2ee903f15b5e3f9bbb485079b2a7fe6616
+    new: 7c2becf7968bda70c457565d42d06f76251edefe
     log: |
-         5acc44f39458f43dac9724cefa4da29847cfe997 netfilter: nft_exthdr: Search chunks in SCTP packets only
-         06e95f0a2aa24d480cbc0c3bd18ca49e1c85f868 netfilter: nft_extdhr: Drop pointless check of tprot_set
-         836382dc24717af203ce06703530528827086955 netfilter: nf_tables: add last expression
-         62eec0d73393a136b4523952cecbda1438f1f1b9 netfilter: conntrack: pass hook state to log functions
-         3078d964c0fe6cf8eba197c862d1011cb7c0e7b4 docs: networking: Update connection tracking offload sysctl parameters
-         24610ed80df65a564d6165d15505a950d05f9f5a netfilter: nfnetlink_hook: fix check for snprintf() overflow
-         a7b62112f0abf58a7f6d2bdfef40b637a4a1c4d4 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
+         b515d2637276a3810d6595e10ab02c13bfd0b63a xfrm: xfrm_state_mtu should return at least 1280 for ipv6
+         d7b0408934c749f546b01f2b33d07421a49b6f3e xfrm: policy: Read seqcount outside of rcu-read side in xfrm_policy_lookup_bytype
+         6e1e89418a5ccdfb325aed538307c2f9dba6ef51 xfrm: Remove the repeated declaration
+         eebd49a4ffb420a991c606e54aa3c9f02857a334 xfrm: remove the fragment check for ipv6 beet mode
+         6fd06963fa74197103cdbb4b494763127b3f2f34 xfrm: Fix error reporting in xfrm_state_construct.
+         dd72fadf2186fc8a6018f97fe72f4d5ca05df440 xfrm: Fix xfrm offload fallback fail case
+         7c2becf7968bda70c457565d42d06f76251edefe Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
          
