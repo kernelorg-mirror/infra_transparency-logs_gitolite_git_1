@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4481353291365228944=="
+Content-Type: multipart/mixed; boundary="===============3909478564493658421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 23 Jun 2021 15:55:41 -0000
-Message-Id: <162446374128.7694.6830701370955704752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Jun 2021 15:55:49 -0000
+Message-Id: <162446374924.7849.9087682711724156506@gitolite.kernel.org>
 
---===============4481353291365228944==
+--===============3909478564493658421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 3b7961a326f8a7e03f54a19f02fedae8d488b80f
     new: a7a0a2feb957e446b2bcf732f245ba04fc8b6314
     log: |
          a7a0a2feb957e446b2bcf732f245ba04fc8b6314 ASoC: fsl_spdif: Fix unexpected interrupt after suspend
          
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 657e473e8813f62c536f74650188d078f9fff345
     new: 8cc802bd75fbf840635e7d4d48050bbcab4d938d
     log: revlist-657e473e8813-8cc802bd75fb.txt
 
---===============4481353291365228944==
+--===============3909478564493658421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624463715 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1624463736-10e3075d2021e8a4285de4d3c4a70c3db54039e7
+pusher C3F436CA30F5D8EB 1624463724 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624463745-b5cc869fbcc93bfdde55c41013af7357d5ea236f
 
-3b7961a326f8a7e03f54a19f02fedae8d488b80f a7a0a2feb957e446b2bcf732f245ba04fc8b6314 refs/heads/for-5.13
-657e473e8813f62c536f74650188d078f9fff345 8cc802bd75fbf840635e7d4d48050bbcab4d938d refs/heads/for-5.14
+3b7961a326f8a7e03f54a19f02fedae8d488b80f a7a0a2feb957e446b2bcf732f245ba04fc8b6314 refs/heads/asoc-5.13
+657e473e8813f62c536f74650188d078f9fff345 8cc802bd75fbf840635e7d4d48050bbcab4d938d refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWWMACgkQJNaLcl1U
-h9C2Agf/Uit1ZHXVVHqdE8KABXiIIaY55WCYdD/miVHVSlL9HyRs6k3LbhJnkN4x
-uw+i/OgFz2OxJ/mZiLPaIPcBBwpRXInjdaELDVtMafUgvCHK5E+Isw1RR99HmUvh
-2FEBj9R4mhrk5G+Kgr5Px6OvfV44xBApI+9uYhZtuAzgrQW61tzps7QTRz71k7nN
-8UH+NMllG8MiQOmOX3VeSDtHCNzm/p7tmVsJqttTdLtsISs3XVn8V4izjY72VTp6
-jIouqlWr5vj+krqO7i4DOTCiSEsN1WZK8IUxBKbtV6x3kkL6/hBPmOOXPx8K0x8R
-V5wXjy4qv6/EsEaM1grmTAzkNwBWhw==
-=uX6Y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWWwACgkQJNaLcl1U
+h9DC3Af/VEYKx3mAaWbspqrexWl4ysPAABY2iQeNwZdohR+p6Lhj1dMveD2lj9m8
+e7iNP+SNQ//ifLAg+5mW05/nbUcC2z8vEwn0BA0SYttay/FN8IQhaxvCnf0gMAQv
+P/w8epgOd5DhpB+NtCcl6HEDXb/Pvh6V6ysyT7UdBMHRv4IHMY60lsvZpXeSEruJ
+bQ5N3joDrWE/4HCASARp3KZAnLnTr70hljpyxrDHgvXwKCXbarsz3TxQXs33WByQ
+935L5TEGgL62zsQws7tdeL9niVlofNFyrhHWY/BOxuMuciRmwSjDld28Zip5EpOa
+GANiolAuiFJv3Yf+ymLrhPD7oNtrvg==
+=6hH/
 -----END PGP SIGNATURE-----
 
---===============4481353291365228944==
+--===============3909478564493658421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1083,4 @@ b4525b6196cd7f83eba16d8679a55f8bb9571052 ASoC: tlv320aic32x4: add support for TA
 f5e2d697d3cbd6d20684eddd3e280809c30e37a1 Merge series "ASoC: tegra: Use devm_platform_get_and_ioremap_resource()" from Yang Yingliang <yangyingliang@huawei.com>:
 8cc802bd75fbf840635e7d4d48050bbcab4d938d Merge series "ASoC: tlv320aic32x4: Add support for TAS2505" from Claudius Heine <ch@denx.de>:
 
---===============4481353291365228944==--
+--===============3909478564493658421==--
