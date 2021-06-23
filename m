@@ -1,65 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1640176237805119514=="
+Content-Type: multipart/mixed; boundary="===============5910761140593108369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 23 Jun 2021 15:56:17 -0000
-Message-Id: <162446377780.8393.2803163861326581078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 23 Jun 2021 15:56:40 -0000
+Message-Id: <162446380024.8658.17706306238702393477@gitolite.kernel.org>
 
---===============1640176237805119514==
+--===============5910761140593108369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.13
-    old: f422316c8e9d3c4aff3c56549dfb44a677d02f14
-    new: 0d7993b234c9fad8cb6bec6adfaa74694ba85ecb
+  - ref: refs/heads/for-linus
+    old: d0e142724c73ca81b1fe73f8dcf2f9dbf54cde9b
+    new: 1aab0f8da491e573e7dadf403b6035fe8072d227
     log: |
-         0d7993b234c9fad8cb6bec6adfaa74694ba85ecb spi: spi-sun6i: Fix chipselect/clock bug
+         a7a0a2feb957e446b2bcf732f245ba04fc8b6314 ASoC: fsl_spdif: Fix unexpected interrupt after suspend
+         1aab0f8da491e573e7dadf403b6035fe8072d227 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
-  - ref: refs/heads/spi-5.14
-    old: d90609a4b72dbfe42da2a55f3078c35e669948e0
-    new: d74d99229f4d48f42d674f7a8a1137179efd67ac
-    log: |
-         0f4f58b847b23d79185ad20ecf629c9f913f4f41 spi: rockchip: add compatible string for rv1126
-         4a47fcdb5f8b220a396e896a4efed51c13e27d8b spi: rockchip: Set rx_fifo interrupt waterline base on transfer item
-         2758bd093ac35ca5b62dbecfd30dab60e8b59790 spi: rockchip: Wait for STB status in slave mode tx_xfer
-         b8d423711d1870c5e1280d5bbb0639fe6638a60e spi: rockchip: Support cs-gpio
-         736b81e075172f1e6cd7a8bc1a1374a2dee9e4dc spi: rockchip: Support SPI_CS_HIGH
-         c58c7e9bf55ced301fdd9c8c1841361cc5fc8458 spi: spi-rockchip: add description for rv1126
-         29176edd6e7ad7333d0bb19a309b2104fa4f4341 spi: spi-rspi: : use proper DMAENGINE API for termination
-         a26dee29ec04a3f6779684852c36a2a71fd68fd8 spi: spi-sh-msiof: : use proper DMAENGINE API for termination
-         d74d99229f4d48f42d674f7a8a1137179efd67ac Merge series "Support ROCKCHIP SPI new feature" from Jon Lin <jon.lin@rock-chips.com>:
-         
+  - ref: refs/heads/for-next
+    old: 2a6c47512c77999192cb7bb72edd596032d8ff37
+    new: c07adf6925ff47ca90a6ce7fe66fa91071bf56db
+    log: revlist-2a6c47512c77-c07adf6925ff.txt
 
---===============1640176237805119514==
+--===============5910761140593108369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2a6c47512c77-c07adf6925ff.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1624463753 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1624463775-3da120dd020af63d9d419e9b0d044f3ededff853
+a7a0a2feb957e446b2bcf732f245ba04fc8b6314 ASoC: fsl_spdif: Fix unexpected interrupt after suspend
+8ad9e5baa90f76c5125b23419fc458e206371bce ASoC: tegra20: i2s: Use devm_platform_get_and_ioremap_resource()
+8d81f0da47bbea7f4eb6cdae5210c8c3bd8ce50f ASoC: tegra20: spdif: Use devm_platform_get_and_ioremap_resource()
+c29b6382d23c8bea604033f98604b7b1e543b1e7 ASoC: tegra: tegra210_admaif: Use devm_platform_get_and_ioremap_resource()
+fc8344e63e595fa1f2e783aaae0253570cd8eea8 ASoC: tegra30: ahub: Use devm_platform_get_and_ioremap_resource()
+688d47cdd9344b1485eb28c2a7aa99743ed529a3 ASoC: tlv320aic32x4: add type to device private data struct
+b4525b6196cd7f83eba16d8679a55f8bb9571052 ASoC: tlv320aic32x4: add support for TAS2505
+8e0eb2fb5c0732a6fa53f2df7079754152857c24 ASoC: tlv320aic32x4: dt-bindings: add TAS2505 to compatible
+723ca2f89412abe47b7cbb276f683ddb292c172c ASoC: fsl: remove unnecessary oom message
+f5e2d697d3cbd6d20684eddd3e280809c30e37a1 Merge series "ASoC: tegra: Use devm_platform_get_and_ioremap_resource()" from Yang Yingliang <yangyingliang@huawei.com>:
+8cc802bd75fbf840635e7d4d48050bbcab4d938d Merge series "ASoC: tlv320aic32x4: Add support for TAS2505" from Claudius Heine <ch@denx.de>:
+1aab0f8da491e573e7dadf403b6035fe8072d227 Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+c07adf6925ff47ca90a6ce7fe66fa91071bf56db Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
 
-f422316c8e9d3c4aff3c56549dfb44a677d02f14 0d7993b234c9fad8cb6bec6adfaa74694ba85ecb refs/heads/spi-5.13
-d90609a4b72dbfe42da2a55f3078c35e669948e0 d74d99229f4d48f42d674f7a8a1137179efd67ac refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDTWYkACgkQJNaLcl1U
-h9DbPQf+JnOPKIuJuLaUf1dGWIZu6DFfE+crt5tja4Lc44vJl/H6PLPW197n7JR4
-hqKJCAzXOxNXVXg8FSNfln4lU53Uk65YLG2Ga+I7d1XHkMwygG1nPePHygiWpEsO
-QOd13SRywWfT3MzEIhQ4W0p6bh3eRA/Y8/Wn4DHmxt43YVSyNvCHwfTBSzm34icP
-JiAQ1vD/ZtS4s/mAreAYP9xGTBsgGPTwtUjcvDH6V3Hh6hZm3RTyfIPcS33TjoKY
-RXEWHJAbn26UinwVB2RnMNzcMHaaiBwK8zLXR2FMnrMWpZoB7wEH9hTGgJm8UJzb
-ZDLj0+ni1j7lnj9+Y5fzORzZN/K8ew==
-=ENMq
------END PGP SIGNATURE-----
-
---===============1640176237805119514==--
+--===============5910761140593108369==--
