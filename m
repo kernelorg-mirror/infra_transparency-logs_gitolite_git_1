@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Jun 2021 19:56:15 -0000
-Message-Id: <162447817508.9376.2670671230692640624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/misc
+Date: Wed, 23 Jun 2021 20:28:35 -0000
+Message-Id: <162448011515.30017.3692832899483765105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tj/misc
+user: tj
 changes:
   - ref: refs/heads/master
-    old: 7525de2516fba8661bdea409718708c711c5d5e1
-    new: 55d444b310c64b084dcc62ba3e4dc3862269fb96
-    log: |
-         55d444b310c64b084dcc62ba3e4dc3862269fb96 tcp: Add stats for socket migration.
-         
+    old: 7426cedc7dad67bf3c71ea6cc29ab7822e1a453f
+    new: 0c18f29aae7ce3dadd26d8ee3505d07cc982df75
+  - ref: refs/heads/resctl-demo-v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6b328f74ef214c3a865c10ffc5295015398ef2e8
