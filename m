@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 23 Jun 2021 18:37:11 -0000
-Message-Id: <162447343186.20045.11780199549574256895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 23 Jun 2021 18:48:58 -0000
+Message-Id: <162447413875.26767.4569398869537498036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: d3ecf2adfb4615fc1927e65a2446f665ba431ebd
-    new: a53fc3b91344e12b82e93edc843276c044552584
+    old: 7266f2030eb0e17c442aa6cf527263828eed79bd
+    new: 7426cedc7dad67bf3c71ea6cc29ab7822e1a453f
     log: |
-         a53fc3b91344e12b82e93edc843276c044552584 Wed 23 Jun 2021 06:36:40 PM UTC
+         aceda401e84115bf9121454828f9da63c2a94482 spi: tegra20-slink: Ensure SPI controller reset is deasserted
+         f422316c8e9d3c4aff3c56549dfb44a677d02f14 spi: spi-nxp-fspi: move the register operation after the clock enable
+         7426cedc7dad67bf3c71ea6cc29ab7822e1a453f Merge tag 'spi-fix-v5.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
          
