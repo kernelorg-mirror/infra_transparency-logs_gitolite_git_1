@@ -1,150 +1,145 @@
-Content-Type: multipart/mixed; boundary="===============7218729023954719003=="
+Content-Type: multipart/mixed; boundary="===============4907531564152113519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 24 Jun 2021 21:06:03 -0000
-Message-Id: <162456876380.2524.8880770328459854590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Thu, 24 Jun 2021 21:23:33 -0000
+Message-Id: <162456981362.13853.5047196587415883172@gitolite.kernel.org>
 
---===============7218729023954719003==
+--===============4907531564152113519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8418dbd15cf39dc075279f0c7be065fda41f81e4
-    new: abce29e182b8578b0f4c9e1e2c42a97be877576e
-    log: revlist-8418dbd15cf3-abce29e182b8.txt
+  - ref: refs/heads/next
+    old: c3ab0e28a437c213e5e2c1d890f3891b6952b9ca
+    new: e932d682357ba518f7f265ff326d05713efb8ea2
+    log: revlist-c3ab0e28a437-e932d682357b.txt
 
---===============7218729023954719003==
+--===============4907531564152113519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8418dbd15cf3-abce29e182b8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e8b9eab99232c4e62ada9d7976c80fd5e8118289 net: retrieve netns cookie via getsocketopt
-ae24bab257bb2043b53c80e65cdd8b507ace06c4 tools/testing: add a selftest for SO_NETNS_COOKIE
-6d123b81ac615072a8525c13c6c41b695270a15d net: ip: avoid OOM kills with large UDP sends over loopback
-c88c192dc3ea209694cc08f4ccf51f920d26bdae net: mdiobus: fix fwnode_mdbiobus_register() fallback case
-f8c63088a98bac8926cb40ecf46ebd71dc1232c4 dt-bindings: net: sparx5: Add sparx5-switch bindings
-3cfa11bac9bbede3066e15bcd5fb26c755c3da45 net: sparx5: add the basic sparx5 driver
-f3cad2611a77f0229dc16aa7bd2ef63e35ea9fb6 net: sparx5: add hostmode with phylink support
-946e7fd5053a218d3907268cd85c9a519561d5d8 net: sparx5: add port module support
-b37a1bae742f92cc9b1f777d54e04ee3d86bbfc2 net: sparx5: add mactable support
-78eab33bb68b565176917b24a0b72a2f5b938d84 net: sparx5: add vlan support
-d6fce5141929697a27f029c633433d487f6f62cb net: sparx5: add switching support
-0a9d48ad0d09ce869ea44e405e066959aa5d5371 net: sparx5: add calendar bandwidth allocation support
-af4b11022e2d39865e390dd50946c4e8703ec3c7 net: sparx5: add ethtool configuration and statistics support
-d0f482bb06f9447d44d2cae0386a0bd768c3cc16 arm64: dts: sparx5: Add the Sparx5 switch node
-67faf76d2674a013b322d68e1c324c2d8cdd875a Merge branch 'add-sparx5i-driver'
-478890682ff7124bf4eaa6f0af382e9d2c937f73 usbnet: add usbnet_event_names[] for kevent
-c6a7ed77ee6334f3a85a0f3db74ca80101e25304 gve: Update GVE documentation to describe DQO
-dbdaa6754051280d929514a1722b9d5bc7c65a61 gve: Move some static functions to a common file
-35f9b2f43f8e0aee52421640912edc1ec309fd2e gve: gve_rx_copy: Move padding to an argument
-920fb45193551dc0e6cd8fa89e2487906f1867f6 gve: Make gve_rx_slot_page_info.page_offset an absolute offset
-8a39d3e0dadfe27a50019fa83dc57c5158e42ed1 gve: Introduce a new model for device options
-a5886ef4f4bfc305bfd9efdf6166621b5c602fca gve: Introduce per netdev `enum gve_queue_format`
-5ca2265eefc0bdfc80d4cbe9f70a81c40c41ae60 gve: adminq: DQO specific device descriptor logic
-c4b87ac87635879ecf0d26807dc00df9bb7eb508 gve: Add support for DQO RX PTYPE map
-223198183ff1fc099184081f997bf1f710f1ef72 gve: Add dqo descriptors
-a4aa1f1e69df5612bcc0d7cf2ca23b9fae79941b gve: Add DQO fields for core data structures
-1f6228e459f8bcfcda2f6a157bbd1ceb57b566f4 gve: Update adminq commands to support DQO queues
-5e8c5adf95f8a537ec08e8e3798d8bc3464deee8 gve: DQO: Add core netdev features
-9c1a59a2f4bcf9926ac5814ae0ce53e449ee0b95 gve: DQO: Add ring allocation and initialization
-0dcc144a7994007e50afe4806e0e4ef860f58013 gve: DQO: Configure interrupts on device up
-a57e5de476be0b4b7f42beb6a21c19ad9c577aa3 gve: DQO: Add TX path
-9b8dd5e5ea48bbb7532d20c4093a79d8283e4029 gve: DQO: Add RX path
-89bddde389a8a02b678dcb49bd8a10e341b018e5 Merge branch 'gve-dqo'
-44531076338fc9d9556685d3e7efc2526185760d Documentation: net: dsa: add details about SJA1110
-75e994709f8a7c34ae826731b50ec1a0c4d99404 net: dsa: sja1105: document the SJA1110 in the Kconfig
-98ebad48b8866eec6cceb07de304082e8302c1d1 Merge branch 'sja1110-doc'
-ff4222cd802980a106999afac9333a7e3955225b i40e/i40evf: cleanup i40e_update_nvm_checksum()
-80dedca1f271b2b4052603266639174a23c6581e igc: Add UDP segmentation offload support
-3affc0c5d5625ae09632c6add9c1fc1e90f0e1ba ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-4760896e0cc7147f5eaf15d9071fd482f642aa09 i40e: add support for PTP external synchronization clock
-e96b317f477f143d91cc4f99e532d37142ad8edc iavf: Fix asynchronous tasks during driver remove
-ce44a75f58c51c0a9d295d8effe424a2d9df8406 i40e: Fix correct max_pkt_size on VF RX queue
-ed3bddd838ca803e5cb0af178a41631c64a7ed0d iavf: Fix return of set the new channel count
-0bb51615801651510cb82e19e5c039c1272ff740 i40e: Fix NULL ptr dereference on VSI filter sync
-cdf98bf79e7242a80b79824a0f744fb3bf96b875 ice: Fix VF true promiscuous mode
-f527618003201ac2f270fc274920ad8d8e888ac7 igb: unbreak I2C bit-banging on i350
-89672f71a161b7866f2f3cfb355a2e12965b422d i40e: Fix error handling in i40e_vsi_open
-c33e6d09ba2cee7ca599963a38603a03f635d340 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-66a428074ca820ac67dea3c9e72ab2c4c5ed87be ice: Refactor promiscuous functions
-e7a7cba1b790fdc2e8b4c3d0409474de2aec940f i40e: improve locking of mac_filter_hash
-38b4e99215b9b84e2c0cad42db489ff0673c108a e1000e: Add support for Lunar Lake
-3880fa9645173d4212ef1c10325ae142aa702887 i40e: Fix autoneg disabling for non-10GBaseT links
-417dba07605d874eda35b3ad39bd220ceca0b8d4 iavf: do not override the adapter state in the watchdog task
-b7172c1c744bdedcc098bc4e2daa4b9a06c31232 iavf: fix locking of critical sections
-847f1b495a8a86d788e65f795def1a7e0634f100 igb: Check if num of q_vectors is smaller than max before array access
-d96606b6514748a448c52737b12af73d0fbe1523 ice: Enable configuration of number of qps per VF via devlink
-0509fc99617e8bdac090dc9f8cedf62bd60f7d4c i40e: Fix warning message and call stack during rmmod i40e driver
-6a3e8b1f25f3cb76674f1e3f0e9ff91886cd99b4 i40e: Fix logic of disabling queues
-26e28a0bf5232b14a3eac98ac975e528d1869841 i40e: Fix changing previously set num_queue_pairs for PFs
-91adeffb624ae1dc03377102f16a9358a823573c i40e: Fix ping is lost after configuring ADq on VF
-c6961f01caef13eee32548bbae945f8ea02f696c igb: Add counter to i21x doublecheck
-7c91edfbfe70981dbec8161de3610b67cb333157 ice: Remove toggling of antispoof for VF trusted promiscuous mode
-b7b65e64ca1759be1169539bc4ea9a6f1f5b81bd ice: fix FDIR init missing when reset VF
-640f960bd3c994b090ddccb2f08b2edbf70703f4 igb: fix netpoll exit with traffic
-532f4da2e2c2fdf419dd32d7d8b2893edf790dd8 ice: Remove boolean vlan_promisc flag from function
-d40f1fe529931173124072ddbaad894235454cbe ice: Fix replacing VF hardware MAC to existing MAC filter
-01c3a435a2505cff3aaf7f4b8f1c20d2730dfb7e i40e: fix PTP on 5Gb links
-c44bc75f3eb744095a95fac38f07f471f8cb1ed0 virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
-646c9bab961c76db75e2d58a3cb5bd7ce530ba87 virtchnl: Use the BIT() macro for capability/offload flags
-5a19eff5ff32331469c83c67e4cf863a858b0713 igc: Fix user-after-free error during reset
-e33dd09186ad010a6815acc35e9638599a5a5a71 igb: Fix user-after-free error during reset
-4fb45c48248c66c7ce7068394cb23fc6e9983b09 i40e: Fix failed opcode appearing if handling messages from VF
-691c8bb1a38a66a06efa9dd29421411183c77ebf i40e: Fix firmware LLDP agent related warning
-d7beb12fbcc4f0f1913999108316491a86163bf3 igc: change default return of igc_read_phy_reg()
-139208a871789fc2b488253639efa222f404b1ed i40e: Add restoration of VF MSI-X state during PCI reset
-27e62a1d0743884f3246a81c47fdbcdf13a2da1e ixgbe: Fix packet corruption due to missing DMA sync
-fa4ceae410eca245812ffb9546439e0854ac88d9 ice: add tracepoints
-f007bb8da6945be713e6c2d53973be3ea09c4972 i40e: Add additional info to PHY type error
-9f973127cc05343fc444601ae39e272eec1cd759 iavf: check for null in iavf_fix_features
-833f8e9bfbb3ea9b9412b2d6dd41cb036365e9c1 iavf: free q_vectors before queues in iavf_disable_vf
-13bdcce198a1af7b55c6ceef14fd2a6379f70bfe iavf: don't clear a lock we don't hold
-1f32ce19ac1cacd2852fb68eed479695fd1f4b2e iavf: Fix failure to exit out from last all-multicast mode
-173ba6f3b40c6721240cff8efedff632cb33fdd9 iavf: prevent accidental free of filter structure
-c04f2f9c790f19244ce18b8058b6446c3ccc6c93 iavf: validate pointers
-25e070bf399afe1d73792c65170daa65f36d0228 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
-c28a05ed339f48e4d4435c3dc3b755c305e5d376 iavf: Fix for setting queues to 0
-489907a0e4f1d32339b7368ef94e12c1ffe72f23 iavf: Restore non MAC filters after link down
-2f4cdcdcfb89cc7454fdd41ecdd7af25e704c4dc iavf: restore MSI state on reset
-8d6fd20916af07200c1d908644a458b02a5b55c4 iavf: Add change MTU message
-361d11fd4c2b2eb46ce694021f614c60d9340d08 iavf: Prevent changing static ITR values if adaptive moderation is on
-c314cf8beef617519d131557bae497141a8a5a61 iavf: Log info when VF is entering and leaving Allmulti mode
-2eff71472170df2d996d33b0caf718010eb41ef2 iavf: Set RSS LUT and key in reset handle path
-fbc88be9624b3112da3c83f2083f594636ec51fa iavf: return errno code instead of status code
-209c2c35a74e446e36efd048295fbe55a3cb903d iavf: don't be so alarming
-ebbb4d2519beadb4aa552d4064ad97646f394518 e1000e: Check the PCIm state
-6608f23b1946137c7623c79f93c9f99a43575340 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
-5e209f5c1119e2d6d284c18e054e0e90d67f4c60 igb: Fix position of assignment to *ring
-5bf9993b703db58d7623b79f44b422aa9e57488d i40e: Refactor arrow operator usage in i40e_update_adq_vsi_queues()
-25733bfd73ffb480fcbcd438ec7714a9ffe6f511 ice: add support for auxiliary input/output pins
-21e64b20a6120f43349bc8a5b8f8180746351dba i40e: Fix missing rtnl locking when setting up pf switch
-2a13765a33c149bdfa1a6a3a862a056ee94a821a ixgbe: Fix an error handling path in 'ixgbe_probe()'
-a63240f9e8a200d446d19ba95df9be987ee0d6e5 igc: Fix an error handling path in 'igc_probe()'
-c7f4b4e35ee7b5e00c539769a14101eba3d915fc igb: Fix an error handling path in 'igb_probe()'
-24bf7f960797eb0a85657f3caca50099baa10787 e1000e: Add support for the next LOM generation
-97c962544859ac386f810d64cddb8b70696cf1bc igc: Check if num of q_vectors is smaller than max before array access
-3dd13874134f4420d2e699a319a396484cb6ff2f ice: remove the VSI info from previous agg
-018acd982cd44508bbb4c7d2b6c55a79ea66321f ice: remove unnecessary VSI assignment
-fae63f7563ce8370cc891b4af387fbefe0a7697b ice: do not abort devlink info if PBA can't be found
-c831aad6d682b5213ec3fafc06915368b0318aee fm10k: Fix an error handling path in 'fm10k_probe()'
-0189df9154e4ad5af06fda41ff5558ef5ed51846 e1000e: Fix an error handling path in 'e1000_probe()'
-cebd8c6ecd5366faffd095c8e7883665110289ab iavf: Fix an error handling path in 'iavf_probe()'
-718e2006a526d691c7df56650d9d5b5be8650f71 e1000e: Add space to the debug print
-d26ee2cafe86929ee02f6daefe99a69ec907a6b3 i40e: Fix log TC creation failure when max num of queues is exceeded
-0ca1e53644cde6d4c12f04d8562a2f0f2c200b89 igb: Avoid memcpy() over-reading of ETH_SS_STATS
-62723764057ad63190280daa78cd61a76bbe7bb9 e100: Avoid memcpy() over-reading of ETH_SS_STATS
-7eb05465dac077b6cdebfe80541549053ed3a601 i40e: Add ensurance of MacVlan resources for every trusted VF
-d9640f8852c0cd40e5d384cd90b1de731f0ae1af i40e: Fix creation of first queue by omitting it if is not power of two
-5f9a6afee954291079648901206f945ba726e2ab ice: Fix a memory leak in an error handling path in 'ice_pf_dcb_cfg()'
-6c01ad530d27518bc31028b20d1fe11ed4db069c iavf: Add trace while removing device
-abce29e182b8578b0f4c9e1e2c42a97be877576e net/e1000e: Fix spelling mistake "The" -> "This"
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1624569811 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1624569811-467e82e57fc9df59a2441513d4ed3f4512022a44
 
---===============7218729023954719003==--
+c3ab0e28a437c213e5e2c1d890f3891b6952b9ca e932d682357ba518f7f265ff326d05713efb8ea2 refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmDU99MUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOuZwf+MQvZIbF5A+fF3rfsrVArOAC9zPwc
+jbSI4Vhn3nMoO390Isoo6Jx8zQXwqcbYrnOVDzU1tqK1oJH8b+Ao1q3u+AB/C1aZ
+ftQteqsKYpmasD72dhl5/1Uk1Y14+hXvBQCwqtVSDoemVF6Ju/Zy1sFak069zhFi
+/eMqf7ebT74Rah+yOkz4O7sKdrs2P1UutmwXaPjTrg4A5tKqxmvF7V3KFdHucLR8
+yFGNdiiXPcxIbnZVGNJH0xaKxqD3H7k36os5HwX9GWHFdGabuL55Phb6yqFskQAs
+zd+k0YovaTcBoBZKDPUotph5vXZ8CCF4fcEct2ByesbL5ee5w6PkBzXFDA==
+=1wqa
+-----END PGP SIGNATURE-----
+
+--===============4907531564152113519==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c3ab0e28a437-e932d682357b.txt
+
+18f63b15b0283d6f37be3174e2c7b6f2d6ed91cf KVM: x86: Print CPU of last attempted VM-entry when dumping VMCS/VMCB
+e5830fb13b8cad5e3bdf84f0f7a3dcb4f4d9bcbb KVM: selftests: fix triple fault if ept=0 in dirty_log_test
+31c656570065727028f96c811b5ea9fc61502a18 KVM: x86/mmu: Fix uninitialized boolean variable flush
+b33bb78a1fada6445c265c585ee0dd0fc6279102 KVM: nVMX: Handle split-lock #AC exceptions that happen in L2
+ecc3a92c6f4953c134a9590c762755e6593f507c KVM: selftests: Remove errant asm/barrier.h include to fix arm64 build
+96d41cfd1bb9964602fabea9c7e72ca723f749db KVM: selftests: Zero out the correct page in the Hyper-V features test
+7a4f1a75b78c10d0d0e90841f45a60e12f599eff KVM: selftests: Unconditionally use memslot 0 when loading elf binary
+1dcd1c58ae7dc42102d2976421aefb5362427b9e KVM: selftests: Unconditionally use memslot 0 for x86's GDT/TSS setup
+95be3709ff4e3af848c285ebddea9916a24d6d0f KVM: selftests: Use "standard" min virtual address for Hyper-V pages
+a9db9609c0e41d8c06611678d45dff36ded563dc KVM: selftests: Add helpers to allocate N pages of virtual memory
+106a2e766eae7161a0500048004bbc2f75ea9a98 KVM: selftests: Lower the min virtual address for misc page allocations
+5ae4d8706f091278709cd8af410685dd17c1dca9 KVM: selftests: Use alloc_page helper for x86-64's GDT/IDT/TSS allocations
+233446c1e68f6086a7f6738318a5314b528fb642 KVM: selftests: Use alloc page helper for xAPIC IPI test
+408633c326c487f4f32d02c7d891c9b0242d5c45 KVM: selftests: Use "standard" min virtual address for CPUID test alloc
+a75a895e6457784fdf2a0a20a024ae29ff8a7f28 KVM: selftests: Unconditionally use memslot 0 for vaddr allocations
+4307af730b8543714a76be9d77422a5762671435 KVM: selftests: Unconditionally use memslot '0' for page table allocations
+444d084b467ce0e99a8d709100ee7ebb0c493515 KVM: selftests: Unconditionally allocate EPT tables in memslot 0
+cce0c23dd944068d7f07a03938d5b3cbcdaf4148 KVM: selftests: Add wrapper to allocate page table page
+6d96ca6a602b24013c8be1160d40c667e133ddb9 KVM: selftests: Rename x86's page table "address" to "pfn"
+f681d6861b0c7b28af1a339171602a6e82b1cbda KVM: selftests: Add PTE helper for x86-64 in preparation for hugepages
+b007e904b36a945d01a9080d754702ca5f9c68b4 KVM: selftests: Genericize upper level page table entry struct
+ad5f16e422258d51414e7d8aaf856000eec9dfce KVM: selftests: Add hugepage support for x86-64
+ef6a74b2e55e97daf4c7ba2d287878dc3f693b41 KVM: sefltests: Add x86-64 test to verify MMU reacts to CPUID updates
+6c6e166b2c8513721d166c74060d26d3f4aecb48 KVM: x86/mmu: Don't WARN on a NULL shadow page in TDP MMU check
+0193cc908b5ae8aff2e2d2997ca5d4ae26ed24d4 KVM: stats: Separate generic stats from architecture specific ones
+cb082bfab59a224a49ae803fed52cd03e8d6b5e0 KVM: stats: Add fd-based API to read binary stats data
+170a9e1294a76162191705b2ef20a5a92e3dc455 KVM: stats: Support binary stats retrieval for a VM
+da28cb6cd042a66816f2b8933511f21bacfe04ce KVM: stats: Support binary stats retrieval for a VCPU
+a4b86b00ad2495fd1cb4e61cd61d572e9705ec43 KVM: stats: Add documentation for binary statistics interface
+01bb3b73038aae6a4124833d66c8c281e82d724c KVM: selftests: Add selftest for KVM statistics data binary interface
+df40a7ffa87193cf8dd469ea9692992687147a80 KVM: debugfs: Reuse binary stats descriptors
+de50c09cfc482337788672a2f4f1fa2dd5b14d18 KVM: x86/mmu: Remove broken WARN that fires on 32-bit KVM w/ nested EPT
+1812f8d82fe4e80a138f950361c1e0ae89126064 KVM: x86/mmu: Treat NX as used (not reserved) for all !TDP shadow MMUs
+c9d5fd9c9ec07a7486c2a82b601ad1915be87a1c KVM: x86: Properly reset MMU context at vCPU RESET/INIT
+525071dedb541cddaac8afea2602e7f62300722d KVM: x86/mmu: Use MMU's role to detect CR4.SMEP value in nested NPT walk
+ae644b54d152d4a4ba9a0fdf59ea03469e9393d4 Revert "KVM: x86/mmu: Drop kvm_mmu_extended_role.cr4_la57 hack"
+19927a4fa82993ce3a45dff529e5957280951973 KVM: x86: Force all MMUs to reinitialize if guest CPUID is modified
+80d171a6e47f264277789b6524f6c573d5e8d132 KVM: x86: Alert userspace that KVM_SET_CPUID{,2} after KVM_RUN is broken
+7e4ac57ffede32e6ea996f98cc4ce972fa3c094b Revert "KVM: MMU: record maximum physical address width in kvm_mmu_extended_role"
+cbb14814011c078117c1b952ee409ba21c221315 KVM: x86/mmu: Unconditionally zap unsync SPs when creating >4k SP at GFN
+588e951f3dd15c959e3e7a4bfab97cc2f591173a KVM: x86/mmu: Use MMU role to check for matching guest page sizes
+d93c5611ac35243740b297cc7fdb63c25d804026 KVM: x86/mmu: WARN and zap SP when sync'ing if MMU role mismatches
+3045c885cbebae5069ee271091037fd4c9194225 KVM: x86/mmu: comment on kvm_mmu_get_page's syncing of pages
+b9eaaac1d75db3932079555e617b05bc084eaa5c KVM: x86/mmu: Drop the intermediate "transient" __kvm_sync_page()
+00866d18d6fcb4801c134a0f84d06525e7d41dfd KVM: x86/mmu: Rename unsync helper and update related comments
+9f78067206f46512909c55ca119903f2c283cf02 KVM: x86: Fix sizes used to pass around CR0, CR4, and EFER
+c4992a4e6151c81010e7f3fd47cfaa908abdb53f KVM: nSVM: Add a comment to document why nNPT uses vmcb01, not vCPU state
+08abd0762acc1d1e3aee3292cf614c29e9d67a64 KVM: x86/mmu: Drop smep_andnot_wp check from "uses NX" for shadow MMUs
+f46d25db0146938b00321f3d555a5a7f8192ba61 KVM: x86: Read and pass all CR0/CR4 role bits to shadow MMU helper
+8d3d57a742d71e99b5badfd1ca00702a77384803 KVM: x86/mmu: Move nested NPT reserved bit calculation into MMU proper
+3d939f0c9e538c90752f45ab505f09b49e3440ab KVM: x86/mmu: Grab shadow root level from mmu_role for shadow MMUs
+46f00bf9933c76a4fa50a1c7e0ae1f5f456a3c42 KVM: x86/mmu: Add struct and helpers to retrieve MMU role bits from regs
+3e8bc801e276afca5b9779587880360a7bdcb7b9 KVM: x86/mmu: Consolidate misc updates into shadow_mmu_init_context()
+90bee8c5f36c6cb9921485dac1f824856e70005b KVM: x86/mmu: Ignore CR0 and CR4 bits in nested EPT MMU role
+6c872d9fc801213894120417978eb202afd62f73 KVM: x86/mmu: Use MMU's role_regs, not vCPU state, to compute mmu_role
+37daedbf73cfdeda058ecdc8a704d15ce2a9d16f KVM: x86/mmu: Rename "nxe" role bit to "efer_nx" for macro shenanigans
+29cdd9bb9116f7be9aecb0393b1707b03e367024 KVM: x86/mmu: Add accessors to query mmu_role bits
+26857f722d4843a071c7edbb48a5d99274722e81 KVM: x86/mmu: Do not set paging-related bits in MMU role if CR0.PG=0
+d2292e6c66081c6eec749a743a194b25f0d3b0af KVM: x86/mmu: Set CR4.PKE/LA57 in MMU role iff long mode is active
+f1bd2c3b21e46e6509a76569dee0ad4225438f81 KVM: x86/mmu: Always set new mmu_role immediately after checking old role
+a9ee5bfd9d9bcc7e50a0e8db5c2fe67d07a03a18 KVM: x86/mmu: Don't grab CR4.PSE for calculating shadow reserved bits
+1be137a8c71da1f1e6af00b189f4a92ffe98b86c KVM: x86/mmu: Use MMU's role to get CR4.PSE for computing rsvd bits
+476fe8b89d21f5c603e3cd798a953169341c8326 KVM: x86/mmu: Drop vCPU param from reserved bits calculator
+5d9ffd497fcb529a99c0f54db124d555c8bd6b17 KVM: x86/mmu: Use MMU's role to compute permission bitmask
+ad61170c06138d44e996df1dc81926cefbd9ec34 KVM: x86/mmu: Use MMU's role to compute PKRU bitmask
+4a32ceef945943282d54b455f7fd22fa6023b762 KVM: x86/mmu: Use MMU's roles to compute last non-leaf level
+8b06d859c872d9bb0f0033ef06ac23cf7b5c05c7 KVM: x86/mmu: Use MMU's role to detect EFER.NX in guest page walk
+370f7e949d9779569e09a3fc41650dbf9c4b307b KVM: x86/mmu: Use MMU's role/role_regs to compute context's metadata
+eff855399d7bfe82175ba053efcf8ee8c3f35663 KVM: x86/mmu: Use MMU's role to get EFER.NX during MMU configuration
+c9936dc860d86e73481062bf317932acfbb47a4f KVM: x86/mmu: Drop "nx" from MMU context now that there are no readers
+1a3c627ea993bbabaf8ab1d25da90c9566bcac92 KVM: x86/mmu: Get nested MMU's root level from the MMU's role
+795bb83e6472c21dc3041923ab7529accc6807cb KVM: x86/mmu: Use MMU role_regs to get LA57, and drop vCPU LA57 helper
+8d1793592384b196aa06cf956afd59f886e31f29 KVM: x86/mmu: Consolidate reset_rsvds_bits_mask() calls
+1c279bee0ae3ca30c10b2867209563024d9beb22 KVM: x86/mmu: Don't update nested guest's paging bitmasks if CR0.PG=0
+73ff7528eee806ca155925812313d41044c96211 KVM: x86/mmu: Add helper to update paging metadata
+3fe63e95e99e5f96e0bf668dd61295f1bd6ab90f KVM: x86/mmu: Add a helper to calculate root from role_regs
+3af42bf0a372ccfc71b9b757a62856655d619c4e KVM: x86/mmu: Collapse 32-bit PAE and 64-bit statements for helpers
+731783de075dda88eadf235d2d8281137c8474b8 KVM: x86/mmu: Use MMU's role to determine PTTYPE
+855f80f1553a06aab01175e4bfcda7686a96cd2b KVM: x86/mmu: Add helpers to do full reserved SPTE checks w/ generic MMU
+c0511dd9a67ac3d551a94e175a40a629aa45ad46 KVM: x86/mmu: WARN on any reserved SPTE value when making a valid SPTE
+a4d59e58740a84f84c0e05fef8c42a9e38493242 KVM: x86: Enhance comments for MMU roles and nested transition trickiness
+617383692fd3ad007abe5a5b8673f5aea6cc1104 KVM: x86/mmu: Optimize and clean up so called "last nonleaf level" logic
+8effd314ed7b7981788c44adbe6a45dd788b6d4d KVM: x86/mmu: Drop redundant rsvd bits reset for nested NPT
+fd9abfe27bf7cd546e48236201ac750598dfe45b KVM: x86/mmu: Get CR0.WP from MMU, not vCPU, in shadow page fault
+3f7968f81ef2dd98046c02d9e323d8618984fa86 KVM: x86/mmu: Get CR4.SMEP from MMU, not vCPU, in shadow page fault
+10367986189ada21c0de22636ec5c9dca9facdc3 KVM: x86/mmu: Let guest use GBPAGES if supported in hardware and TDP is on
+1edbb0831ae26e52d6b8569c8bb8a35a484a0a03 kvm: x86: Allow userspace to handle emulation errors
+8f71e13bdfe4909437e3f3b96a562449c0281e65 selftests: kvm: Allows userspace to handle emulation errors.
+909d458641782ff026af410482a9aa908186be30 kvm: x86: disable the narrow guest module parameter on unload
+e932d682357ba518f7f265ff326d05713efb8ea2 KVM: x86: rename apic_access_page_done to apic_access_memslot_enabled
+
+--===============4907531564152113519==--
