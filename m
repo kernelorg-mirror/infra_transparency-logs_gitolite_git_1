@@ -1,26 +1,64 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 24 Jun 2021 13:26:53 -0000
-Message-Id: <162454121323.15442.15817696309047639473@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3900958973799074643=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 24 Jun 2021 13:32:23 -0000
+Message-Id: <162454154307.18789.1762297427316798234@gitolite.kernel.org>
+
+--===============3900958973799074643==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13/upstream-fixes
-    old: 2b2bcc76e2ffbaff7e6ec1c62cb9c10881dc70cd
-    new: 424d8237945c6c448c8b3f23885d464fb5685c97
+  - ref: refs/heads/char-misc-testing
+    old: d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7
+    new: 37a0ca7f3e60cb1fc076444b964b45fdaf930a52
     log: |
-         424d8237945c6c448c8b3f23885d464fb5685c97 HID: wacom: Correct base usage for capacitive ExpressKey status bits
+         04831e892b41618914b2123ae3b4fa77252e8656 selftests/lkdtm: Avoid needing explicit sub-shell
+         c2eb472bbe25b3f360990f23b293b3fbadfa4bc0 selftests/lkdtm: Fix expected text for CR4 pinning
+         0acbdbc7205cf754e76c4f234dde4fa42316f50d selftests/lkdtm: Fix expected text for free poison
+         a15676ac8f24a9ac5fd881cf17be4be13fa0910a lkdtm/bugs: XFAIL UNALIGNED_LOAD_STORE_WRITE
+         9c4f6ebc3665b33f15ee97ba1eb2c9bed341b8e6 lkdtm/heap: Add vmalloc linear overflow test
+         f123c42bbeff26bfe8bdb08a01307e92d51eec39 lkdtm: Enable DOUBLE_FAULT on all architectures
+         5b777131bd8005acaf7e9d6e7690214155f42890 lkdtm: Add CONFIG hints in errors where possible
+         b61ce4d81ba29d0b70487635105e12ec44c3a873 selftests/lkdtm: Enable various testable CONFIGs
+         37a0ca7f3e60cb1fc076444b964b45fdaf930a52 lkdtm/heap: Add init_on_alloc tests
          
-  - ref: refs/heads/for-next
-    old: 2f96e824161230407b9ad1abe7d40b73f78e6fc3
-    new: c6f60845f099bbc680d692c7e4617439b5c0aebe
-    log: |
-         424d8237945c6c448c8b3f23885d464fb5685c97 HID: wacom: Correct base usage for capacitive ExpressKey status bits
-         c6f60845f099bbc680d692c7e4617439b5c0aebe Merge branch 'for-5.13/upstream-fixes' into for-next
-         
+
+--===============3900958973799074643==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624541541 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1624541540-febf74eebe472270ac58912d85eb4536618ba5b0
+
+d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7 37a0ca7f3e60cb1fc076444b964b45fdaf930a52 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDUiWUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KfoP/3sEKK5zqSSJxczJ1oE3
+7MdPYunFfuLBIvIjXJ/Vk0KCDhfBrphTqA5Rzp/R6UuYEiXS4DbcaZQVkKN0TpSY
+m8ausDNZcltbn27/1oiN8X8ayeHNokUmDMeNpsjJNC3z1SUL0qakj2IBYHcRtB+W
+97+8Diq6MLMhvb/HaQ/OJx7o7hUCLyHGayinR+02VcLLqNGmV8+7QEsCpE25pyAJ
+mlIXTKvCVLHdC0u4ImswWEuzD1mx/JBm9vGhIpuSPBs06d9s/txqtxTDVmCgHr2b
+lzkru8YTdTRh9DsH4108YARTtx52IV+CgiD4WhM7Tr5COJnjfPdWZS+doQHdbxSu
+DKMTiE0+enu9Oc3PuEr+WRB7c/cuCeK188snHjJRVoTVvIn2Uz4nPSHX1qX0xThy
+oIm0WnPM31uMphqZt/LMJbH6kQq4Q3rHcSfpSil5xy1zj4vxs22yp+tPtQ5bNtP1
+w6A4OQNgUox5yZmYksS8BuBllJlncaMyILU/DE1QUVSXFpn+q3yrI3fHKO6+MjwA
+BMjtDVkQhof5uFDgACtjtoaYTdtbk8Ml1iPA2Lpf+XC7E8NJz1kdBqMbI9TeqtoN
+ixq6976qZl+t5f5Qrx8+lfvhBFGYrMiC6wMM68KCbK8MroUQltQAqcW5kwpC0ZCE
+Xv1muy0igITzbBdhbm/xEq67
+=7GhV
+-----END PGP SIGNATURE-----
+
+--===============3900958973799074643==--
