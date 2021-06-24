@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/swiotlb
-Date: Thu, 24 Jun 2021 19:18:37 -0000
-Message-Id: <162456231788.26582.15732917164456684171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 24 Jun 2021 19:34:56 -0000
+Message-Id: <162456329619.5109.11692986269068523069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/swiotlb
-user: konrad
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/linux-next
-    old: 81367cf6df62de2206298463263c49da043c3680
-    new: b655006619b7bccd0dc1e055bd72de5d613e7b5c
+  - ref: refs/heads/master
+    old: 67faf76d2674a013b322d68e1c324c2d8cdd875a
+    new: 478890682ff7124bf4eaa6f0af382e9d2c937f73
     log: |
-         af452ec1b1a384f28762d033484ef37b0f514f11 swiotlb: Use is_swiotlb_force_bounce for swiotlb data bouncing
-         e38db0d0e7cae16558477bef11b7293e36767133 swiotlb: Move alloc_size to swiotlb_find_slots
-         dc924470ee42a7222f5031b06d48488ed3e75943 swiotlb: Refactor swiotlb_tbl_unmap_single
-         6079c4f9e70aa529873f60aa83ee80be4a2dfc1b swiotlb: Add restricted DMA alloc/free support
-         461021875c5057b3a408db0aa91b15119064ffa8 swiotlb: Add restricted DMA pool initialization
-         081bec2577cda3d04f6559c60b6f4e2242853520 dt-bindings: of: Add restricted DMA pool
-         b655006619b7bccd0dc1e055bd72de5d613e7b5c of: Add plumbing for restricted DMA pool
+         478890682ff7124bf4eaa6f0af382e9d2c937f73 usbnet: add usbnet_event_names[] for kevent
          
