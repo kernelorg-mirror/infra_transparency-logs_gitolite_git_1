@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3334023478877108545=="
+Content-Type: multipart/mixed; boundary="===============0961115482874235618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 24 Jun 2021 06:18:32 -0000
-Message-Id: <162451551240.898.2210845048144620738@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 06:18:46 -0000
+Message-Id: <162451552611.1093.12737084707077701856@gitolite.kernel.org>
 
---===============3334023478877108545==
+--===============0961115482874235618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,11 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/auto-latest
-    old: f10bd30916ba18da9085350f175605c756f40dcb
-    new: e53fbd0a25093c4db4ca8b84c185c280e4b4ce05
-    log: revlist-f10bd30916ba-e53fbd0a2509.txt
-  - ref: refs/heads/master
     old: e53fbd0a25093c4db4ca8b84c185c280e4b4ce05
     new: 6394023b85c120b8599d318d253fc3c5f70bc05f
     log: revlist-e53fbd0a2509-6394023b85c1.txt
 
---===============3334023478877108545==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f10bd30916ba-e53fbd0a2509.txt
-
-dad7b9896a5dbac5da8275d5a6147c65c81fb5f2 ARM: 9081/1: fix gcc-10 thumb2-kernel regression
-d187f217335dba2b49fc9002aab2004e04acddee x86/sev: Make sure IRQs are disabled while GHCB is active
-be1a5408868af341f61f93c191b5e346ee88c82a x86/sev: Split up runtime #VC handler for correct state tracking
-31197d3a0f1caeb60fb01f6755e28347e4f44037 objtool/x86: Ignore __x86_indirect_alt_* symbols
-1b5550506d574800f78ccef1d7c6f082b3514cf0 Merge branch 'objtool/urgent'
-a96bfed64c8986d6404e553f18203cae1f5ac7e6 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-9301982c424a003c0095bf157154a85bf5322bd0 x86/fpu: Preserve supervisor states in sanitize_restored_user_xstate()
-f9dfb5e390fab2df9f7944bb91e7705aba14cd26 x86/fpu: Make init_fpstate correct with optimized XSAVE
-c3d128581f64a9b3729e697a63760ff0a2c4a8fe selftests: futex: Add futex wait test
-7cb5dd8e2c8ce2b8f778f37cfd8bb955d663d16d selftests: futex: Add futex compare requeue test
-62e5f530362ed52c1174a484dcae419f47782994 Merge branch 'linus'
-ca06ea4d6015e45b44077cb02cb1a874e87ba7b0 Merge branch 'x86/urgent'
-a84700ff2df7667f108e47e00e8eab77e2c99bdb Merge branch 'x86/sev'
-f25ac96228297add7b9857101ae3e96f76505aff Merge branch 'locking/core'
-240001d4e3041832e8a2654adc3ccf1683132b92 x86/entry: Fix noinstr fail in __do_fast_syscall_32()
-84e60065df9ef03759115a7e48c04bbc0d292165 x86/xen: Fix noinstr fail in xen_pv_evtchn_do_upcall()
-4c9c26f1e67648f41f28f8c997c5c9467a3dbbe4 x86/xen: Fix noinstr fail in exc_xen_unknown_trap()
-1f008d46f1243899d27fd034ab5c41985bd16cee x86: Always inline task_size_max()
-49faa77759b211fff344898edc23bb780707fff5 locking/lockdep: Improve noinstr vs errors
-a4f21364bc1344852dc75af4e7a69e82fd1fed83 Merge branch 'objtool/urgent'
-fdaba61ef8a268d4136d0a113d153f7a89eb9984 sched/fair: Ensure that the CFS parent is added after unthrottling
-5d010c2ed089eb6418809ddf797577f1f0a21ec5 Merge branch 'sched/urgent'
-399f8dd9a866e107639eabd3c1979cd526ca3a98 signal: Prevent sigqueue caching after task got released
-e53fbd0a25093c4db4ca8b84c185c280e4b4ce05 Merge branch 'core/urgent'
-
---===============3334023478877108545==
+--===============0961115482874235618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +63,4 @@ b51461829674857dda539401b98566e5a0a41ac2 Merge branch 'x86/sev'
 8715dd9427353c83318adaa96b819aca71fc6899 Merge branch 'sched/core'
 6394023b85c120b8599d318d253fc3c5f70bc05f Merge branch 'locking/core'
 
---===============3334023478877108545==--
+--===============0961115482874235618==--
