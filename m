@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/konrad/swiotlb
-Date: Thu, 24 Jun 2021 19:18:17 -0000
-Message-Id: <162456229794.26396.10535091684578205337@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 19:18:37 -0000
+Message-Id: <162456231788.26582.15732917164456684171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/konrad/swiotlb
 user: konrad
 changes:
-  - ref: refs/heads/devel/for-linus-5.14
+  - ref: refs/heads/linux-next
     old: 81367cf6df62de2206298463263c49da043c3680
     new: b655006619b7bccd0dc1e055bd72de5d613e7b5c
     log: |
