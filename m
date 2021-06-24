@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 24 Jun 2021 17:28:15 -0000
-Message-Id: <162455569575.18426.10850462042006171107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 24 Jun 2021 17:28:23 -0000
+Message-Id: <162455570381.18524.5191455617447339969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/tmp.tmp
-    old: 4f0a91899b0473661211b77058ed7f5bc1b3b561
-    new: a4a5d169929f7d6aed1df7fbae9ca88187409942
+  - ref: refs/heads/wip/jgg-for-next
+    old: e7c07d5e0750e921d60e63dd181886c479a0ee19
+    new: 6becfe913bda839ae27224a2ea9d6cfb07c3fa2d
     log: |
-         a4a5d169929f7d6aed1df7fbae9ca88187409942 sched/headers, sched/per_task: Implement central offset registry based PER_TASK facility
+         109d19a5eb3ddbdb87c43bfd4bcf644f4569da64 IB/isert: Align target max I/O size to initiator size
+         6becfe913bda839ae27224a2ea9d6cfb07c3fa2d RDMA/bnxt_re: Fix uninitialized struct bit field rsvd1
          
