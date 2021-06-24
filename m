@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6031122021696842733=="
+Content-Type: multipart/mixed; boundary="===============0663343373843938100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 24 Jun 2021 16:32:07 -0000
-Message-Id: <162455232791.13243.5360483681216480204@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 16:32:17 -0000
+Message-Id: <162455233796.13416.4574518239412126514@gitolite.kernel.org>
 
---===============6031122021696842733==
+--===============0663343373843938100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d452d48b9f8b1a7f8152d33ef52cfd7fe1735b0a
-    new: c2f5c57d99debf471a1b263cdf227e55f1364e95
-    log: revlist-d452d48b9f8b-c2f5c57d99de.txt
+  - ref: refs/heads/dev-queue
+    old: 9ae4a7e8f9b121e10936b7284fb82cd1e1609abe
+    new: a911deee78561298d9a4a2e2e58e6f603db359ff
+    log: revlist-9ae4a7e8f9b1-a911deee7856.txt
 
---===============6031122021696842733==
+--===============0663343373843938100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d452d48b9f8b-c2f5c57d99de.txt
+Content-Disposition: attachment; filename=revlist-9ae4a7e8f9b1-a911deee7856.txt
 
 b515d2637276a3810d6595e10ab02c13bfd0b63a xfrm: xfrm_state_mtu should return at least 1280 for ipv6
 d7b0408934c749f546b01f2b33d07421a49b6f3e xfrm: policy: Read seqcount outside of rcu-read side in xfrm_policy_lookup_bytype
@@ -83,5 +83,53 @@ f4b29d2ee903f15b5e3f9bbb485079b2a7fe6616 Merge git://git.kernel.org/pub/scm/linu
 b2ac9800cfe0f8da16abc4e74e003440361c112e net: bcmgenet: Fix attaching to PYH failed on RPi 4B
 bcc3f2a829b9edbe3da5fb117ee5a63686d31834 ipv6: exthdrs: do not blindly use init_net
 c2f5c57d99debf471a1b263cdf227e55f1364e95 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+7ef2be533f27e7e084c99323af1819ac7b037669 checkpatch: Fix warnings when --no-tree is used
+9197961429f40059dd566142d8c1014e0a813a31 checkpatch.pl: seed camelcase from the provided kernel tree root
+dd4094d041bb3c73910519311b239ed97d85d312 ice: Fix a couple off by one bugs
+9f72743ec91f528e21fc277e8d1f0a6fc5baefe8 iavf: Fix asynchronous tasks during driver remove
+f959896de0a452cfb23843fa643e687b7f7aac91 i40e: Fix correct max_pkt_size on VF RX queue
+80bfc223ebd080dca34482b3044595c5e8cfeb8c iavf: Fix return of set the new channel count
+8379f9e91dc09bc7487a8ba8c6f91d383eaa1c3d i40e: Fix NULL ptr dereference on VSI filter sync
+13edbd172d5cfae188b1929abaf7d895355fcc48 ice: Fix VF true promiscuous mode
+5aa3aa94f420bfa5d26d0c7db62ea2a2bba009a0 i40e: Fix error handling in i40e_vsi_open
+61b29bf918257824dcc6b2cc27e56f53ec551184 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+157ee3c6d2c27ef2e712eb26078ffaad93f2bc7b i40e: improve locking of mac_filter_hash
+dfcde22d4a2471be821ea4ab197541fad2ecb478 i40e: Fix autoneg disabling for non-10GBaseT links
+e4cad587f7db049f9d9fce0b84ff93336b56d95e igb: Check if num of q_vectors is smaller than max before array access
+67cc4275b24cb15a86e873e43646aa0be266f90f ice: Re-organizes reqstd/avail {R, T}XQ check/code for efficiency
+f1713f93a998bebde481f257ef0b450dc402f2c3 i40e: Fix warning message and call stack during rmmod i40e driver
+a0fcdff0ad509bcb2ac7378f9a823007cac89beb i40e: Fix logic of disabling queues
+e4be1bb9b16e6dd34aa744fd9cdd934b9482d058 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+c95b34e58af4d58df562b0f2e13f949a3211dbfa ice: fix FDIR init missing when reset VF
+6c9bd77ee71016ab5d3f68f5e03521c05e5af486 igb: fix netpoll exit with traffic
+79b34506e8feb058623812570a16edb6811387f2 i40e: fix PTP on 5Gb links
+684bcae889a0842b5daccb81a93a0784f112e59c igc: Fix user-after-free error during reset
+1c44560c53ef5cb3a02e8517de11596316cc305b igb: Fix user-after-free error during reset
+8c35225e4163576d9f5ff196fb984fe10f3e931e i40e: Fix failed opcode appearing if handling messages from VF
+65c96a549ab32fbc7e3a8756f8ba9a7acd6453c9 i40e: Fix firmware LLDP agent related warning
+29c468123f2f29a7c60a3ca0d39c9b824ec9b1c7 igc: change default return of igc_read_phy_reg()
+ec768442db82ca744405b5498681acba39741c6f ixgbe: Fix packet corruption due to missing DMA sync
+81b90d2248f26c70545ff0875e5cdf232aa07fe2 i40e: Fix queue-to-TC mapping on Tx
+0bffc90c186e93e4027e18a2a09865acfe5fc66c iavf: check for null in iavf_fix_features
+9abe69f20e9c7e6487b50a849c8066913a83ea22 iavf: free q_vectors before queues in iavf_disable_vf
+5bca82fab7fdf83d97554240934204c9c7171f5d iavf: don't clear a lock we don't hold
+b7de049a1eafbe025abae18405568b53837b46d3 iavf: Fix failure to exit out from last all-multicast mode
+6444c29fc6bd081fda0ec930053f3893cb3ae879 iavf: prevent accidental free of filter structure
+5ad73904c34b0c11e5863784dd442bc9919a11e1 iavf: validate pointers
+d99e5b74cf83892d90d2ada2c852dc412816a1f5 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+92bb0a490dd84a4934ca064e996e8de96b400ad6 iavf: Fix for setting queues to 0
+007cef5b3b370bfa5ed4978c207e5b6a54ead4d2 e1000e: Check the PCIm state
+58258d07e9c70336946353ba82f8179792dcd523 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+0e4643ef0898196e6c70ee12591ae51f00d7a52e igb: Fix position of assignment to *ring
+6860f960178b3cbc700ce1db001153450131c72c i40e: Fix missing rtnl locking when setting up pf switch
+7a85d36593ca1ad44b34f108a8277824777d0918 ixgbe: Fix an error handling path in 'ixgbe_probe()'
+05a664aa825a873d860566b0bed3310efe53e195 igc: Fix an error handling path in 'igc_probe()'
+72329b1fd518230f9da92274d66c790ffb98e173 igb: Fix an error handling path in 'igb_probe()'
+17565cdecf421f720dd0553f0fff1429809d1c8a ice: do not abort devlink info if PBA can't be found
+09aa76a811f92d0ee37690244f28f011b0bd6542 fm10k: Fix an error handling path in 'fm10k_probe()'
+874d85dca5e1e7f800bd6a9fb473b410c591b7a0 e1000e: Fix an error handling path in 'e1000_probe()'
+fcb4de96c71a3aa9525708445bf781670ce3cff3 iavf: Fix an error handling path in 'iavf_probe()'
+2967b7eec2ba6f790320ce5f08194a31b4fbdcff i40e: Fix log TC creation failure when max num of queues is exceeded
+a911deee78561298d9a4a2e2e58e6f603db359ff i40e: Fix creation of first queue by omitting it if is not power of two
 
---===============6031122021696842733==--
+--===============0663343373843938100==--
