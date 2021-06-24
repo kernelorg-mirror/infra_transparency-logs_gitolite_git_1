@@ -1,47 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0202472898356958785=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 24 Jun 2021 19:49:32 -0000
-Message-Id: <162456417238.14578.14673099511935134422@gitolite.kernel.org>
-
---===============0202472898356958785==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Jun 2021 19:50:09 -0000
+Message-Id: <162456420932.17271.7011177915477885786@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 478890682ff7124bf4eaa6f0af382e9d2c937f73
-    new: 89bddde389a8a02b678dcb49bd8a10e341b018e5
-    log: revlist-478890682ff7-89bddde389a8.txt
-
---===============0202472898356958785==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-478890682ff7-89bddde389a8.txt
-
-c6a7ed77ee6334f3a85a0f3db74ca80101e25304 gve: Update GVE documentation to describe DQO
-dbdaa6754051280d929514a1722b9d5bc7c65a61 gve: Move some static functions to a common file
-35f9b2f43f8e0aee52421640912edc1ec309fd2e gve: gve_rx_copy: Move padding to an argument
-920fb45193551dc0e6cd8fa89e2487906f1867f6 gve: Make gve_rx_slot_page_info.page_offset an absolute offset
-8a39d3e0dadfe27a50019fa83dc57c5158e42ed1 gve: Introduce a new model for device options
-a5886ef4f4bfc305bfd9efdf6166621b5c602fca gve: Introduce per netdev `enum gve_queue_format`
-5ca2265eefc0bdfc80d4cbe9f70a81c40c41ae60 gve: adminq: DQO specific device descriptor logic
-c4b87ac87635879ecf0d26807dc00df9bb7eb508 gve: Add support for DQO RX PTYPE map
-223198183ff1fc099184081f997bf1f710f1ef72 gve: Add dqo descriptors
-a4aa1f1e69df5612bcc0d7cf2ca23b9fae79941b gve: Add DQO fields for core data structures
-1f6228e459f8bcfcda2f6a157bbd1ceb57b566f4 gve: Update adminq commands to support DQO queues
-5e8c5adf95f8a537ec08e8e3798d8bc3464deee8 gve: DQO: Add core netdev features
-9c1a59a2f4bcf9926ac5814ae0ce53e449ee0b95 gve: DQO: Add ring allocation and initialization
-0dcc144a7994007e50afe4806e0e4ef860f58013 gve: DQO: Configure interrupts on device up
-a57e5de476be0b4b7f42beb6a21c19ad9c577aa3 gve: DQO: Add TX path
-9b8dd5e5ea48bbb7532d20c4093a79d8283e4029 gve: DQO: Add RX path
-89bddde389a8a02b678dcb49bd8a10e341b018e5 Merge branch 'gve-dqo'
-
---===============0202472898356958785==--
+    old: 624085a31c1ad6a80b1e53f686bf6ee92abbf6e8
+    new: fd7ce282afc41092f64ad9e3d46f2d896ef1e175
+    log: |
+         9c04cfcd4aad232e36306cdc5c74cd9fc9148a7e i40e: Fix error handling in i40e_vsi_open
+         9262793e59f0423437166a879a73d056b1fe6f9a i40e: Fix autoneg disabling for non-10GBaseT links
+         26b0ce8dd3dd704393dbace4dc416adfeffe531f i40e: fix PTP on 5Gb links
+         956e759d5f8e0859e86b951a8779c60af633aafd i40e: Fix missing rtnl locking when setting up pf switch
+         fd7ce282afc41092f64ad9e3d46f2d896ef1e175 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         
