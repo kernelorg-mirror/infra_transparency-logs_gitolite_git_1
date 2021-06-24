@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2194859359292717301=="
+Content-Type: multipart/mixed; boundary="===============6705708520969065407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 24 Jun 2021 17:51:01 -0000
-Message-Id: <162455706162.1993.12681181603595973174@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 17:51:16 -0000
+Message-Id: <162455707619.2308.5830588107483123031@gitolite.kernel.org>
 
---===============2194859359292717301==
+--===============6705708520969065407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0bc919d3e0b8149a60d2444c6a8e2b5974556522
     new: 0cc84b9a6003fa7f6ef5d19e7c8532a01cd41776
     log: revlist-0bc919d3e0b8-0cc84b9a6003.txt
 
---===============2194859359292717301==
+--===============6705708520969065407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ d5789621b658369b21bd13446bab8102cf75df65 nfp: Remove rcu_read_lock() around XDP 
 2f1e432d339c5fed435adf521cae392755721050 stmmac: Remove rcu_read_lock() around XDP program invocation
 0cc84b9a6003fa7f6ef5d19e7c8532a01cd41776 ti: Remove rcu_read_lock() around XDP program invocation
 
---===============2194859359292717301==--
+--===============6705708520969065407==--
