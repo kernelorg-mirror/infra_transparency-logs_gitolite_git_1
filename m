@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 24 Jun 2021 14:36:10 -0000
-Message-Id: <162454537036.721.15048963149559598025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 24 Jun 2021 14:43:22 -0000
+Message-Id: <162454580220.4736.6849941729949430549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: 9f03db6673598f618f10ba01b3f8824bd5f31a41
-    new: 4eb5be10a4f5853dfa05812f2472d06fad62fb2b
+  - ref: refs/heads/master
+    old: 86f05d3946193c447bc8f9120d7046f92da54209
+    new: 1d5c14ae1a6597807f214b2eb50c0eebad75ed24
     log: |
-         98db7259fa7b963d80da49fd636744e28a78981e KVM: arm64: Set the MTE tag bit before releasing the page
-         4eb5be10a4f5853dfa05812f2472d06fad62fb2b Merge branch kvm-arm64/mmu/mte into kvmarm-master/next
+         9fc0f69c255ccd62e5841c6376285e3de8f009b6 include/strutils: consolidate string to number conversion
+         1d5c14ae1a6597807f214b2eb50c0eebad75ed24 misc: improve string to number conversions
          
