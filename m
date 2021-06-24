@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7227208653572229028=="
+Content-Type: multipart/mixed; boundary="===============6136320056139064213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Thu, 24 Jun 2021 01:10:09 -0000
-Message-Id: <162449700924.25517.12556274378184539953@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 01:10:28 -0000
+Message-Id: <162449702879.25789.626905828083999907@gitolite.kernel.org>
 
---===============7227208653572229028==
+--===============6136320056139064213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 3134ed20c7cae145b3dfc2eee6974de554fae649
-    new: bb51a331824e70cbc89479ea4d78dfb70e2a02bc
-    log: revlist-3134ed20c7ca-bb51a331824e.txt
+  - ref: refs/heads/linux-5.4.y
+    old: f708c07a621e4fe49fc18b8ac77fe8415d02576a
+    new: fc94722fe77f9a40e65b1aab7b5abb57568ac64a
+    log: revlist-f708c07a621e-fc94722fe77f.txt
 
---===============7227208653572229028==
+--===============6136320056139064213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3134ed20c7ca-bb51a331824e.txt
+Content-Disposition: attachment; filename=revlist-f708c07a621e-fc94722fe77f.txt
 
-b5a393c8a8d18854203880ddde2a7a15e819061b f2fs: logging neatening
-832ee332626ace67d1475f33a060e056b8e39f70 f2fs: support RO feature
-7004c47db2b66abb63cfd7bc959ebafae1c0a873 f2fs: Show casefolding support only when supported
-d8755821c43875b20f750d3a3e609d40d7729f6f f2fs: Advertise encrypted casefolding in sysfs
-95f2afc02d37b02b748adcc5a7e607297c9f2741 f2fs: add pin_file in feature list
-d90505e519acde51fd97f40883334eaedb1bba71 f2fs: clean up /sys/fs/f2fs/<disk>/features
-ec3ea14d2fd3e1c6c9181440d181f3fe0c3b4a0a f2fs: compress: add compress_inode to cache compressed blocks
-34c703ff0470169c9329843c209f0bb3d0ec1f41 f2fs: swap: remove dead codes
-eaef955b91d10a461eda134c28b3181f92d0a4e0 f2fs: swap: support migrating swapfile in aligned write mode
-44e0be85eb6b89588fd7db6eb5e606c19978d815 f2fs: introduce f2fs_casefolded_name slab cache
-15a475975ec97f6d983fb58a51e9ae60baf7f31a f2fs: fix to avoid adding tab before doc section
-cdeff03989baaeacd6fffbc864036509b487558e f2fs: enable extent cache for compression files in read-only
-c81ac64da10f0d3562528d4de6d8ca187d8834d4 f2fs: remove false alarm on iget failure during GC
-bb51a331824e70cbc89479ea4d78dfb70e2a02bc Revert "f2fs: avoid attaching SB_ACTIVE flag during mount/remount"
+b0a9f86fa00fa8c26fd2cff24953c9e9be08a840 f2fs: restructure f2fs page.private layout
+1426d0a2bba424fe93f607b94e07c4ea69a89b91 f2fs: logging neatening
+60bad8157831a6523da56d1c070d7eb2dfc916bd f2fs: support RO feature
+175903068cc87153d2c684d80a37ce00f8801c64 f2fs: Show casefolding support only when supported
+1c9615506a336ef4d8abccf3f5583d9e0628f6cd f2fs: Advertise encrypted casefolding in sysfs
+5840e5aaabbe9f32ba28c863c185a2b9dfd50526 f2fs: add pin_file in feature list
+92b7f49c2145e65b726d3066516233163687bf0c f2fs: clean up /sys/fs/f2fs/<disk>/features
+9765182bf2672cd558ae639e3365be71bb01c6a6 f2fs: compress: add compress_inode to cache compressed blocks
+2421cdabc506b32c4090bf4ca12468e2aba80b65 f2fs: swap: remove dead codes
+be7f87bfb88c74524ea25b1c183b9062025d51e6 f2fs: swap: support migrating swapfile in aligned write mode
+43c432823a733c97a3a4f407d35f83874abad775 f2fs: introduce f2fs_casefolded_name slab cache
+5173698ac72fae3e687696c45aad3b659e89a5f9 f2fs: fix to avoid adding tab before doc section
+1eb61c1c1bad68df8d0b8ffa52fbd250450d0765 f2fs: enable extent cache for compression files in read-only
+21b3a8857f8382a2c84df9cd3d95dee5bf2d0e5e f2fs: remove false alarm on iget failure during GC
+fc94722fe77f9a40e65b1aab7b5abb57568ac64a Revert "f2fs: avoid attaching SB_ACTIVE flag during mount/remount"
 
---===============7227208653572229028==--
+--===============6136320056139064213==--
