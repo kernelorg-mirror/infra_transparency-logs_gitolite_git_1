@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6569709689170938945=="
+Content-Type: multipart/mixed; boundary="===============3602316265905042162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 24 Jun 2021 13:48:48 -0000
-Message-Id: <162454252835.28934.2835294163796762118@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 13:52:11 -0000
+Message-Id: <162454273172.503.12639924696300131583@gitolite.kernel.org>
 
---===============6569709689170938945==
+--===============3602316265905042162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 37a0ca7f3e60cb1fc076444b964b45fdaf930a52
-    new: d874742f6a734c73c22235f9d56b8f10bcf17c5f
+    old: d874742f6a734c73c22235f9d56b8f10bcf17c5f
+    new: 02b49cd1174527e611768fc2ce0f75a74dfec7ae
     log: |
-         1e2658aef517bec2327b22e1ddb12e33cceee38e fpga: machxo2-spi: Address warning about unused variable
-         75020f2df6e431f0916972f3f816346dcaa0187f siox: Simplify error handling via dev_err_probe()
-         7487257cea875a2ee0aab088ee1dd92cd77698d4 misc: vmw_vmci: return the correct errno code
-         1db376113e45e31eeeda6f91096808cf1827e70c misc: ibmasm: Modify matricies to matrices
-         d874742f6a734c73c22235f9d56b8f10bcf17c5f nitro_enclaves: Set Bus Master for the NE PCI device
+         d0b371e5fba0ef2b4e3f6a3f1b5fe7f8bd97897e stm class: Spelling fix
+         ae128916fb87a91ae41bec0461330e8a81500d84 intel_th: Remove an unused exit point from intel_th_remove()
+         02ca71effb96595fb7e0a17df1aaedc5d2e30747 intel_th: msu: Make contiguous buffers uncached
+         ab1afed701d2db7eb35c1a2526a29067a38e93d1 intel_th: Wait until port is in reset before programming it
+         44b1eba44dc537edf076f131f1eeee7544d0e04f bus: mhi: core: Fix power down latency
+         02b49cd1174527e611768fc2ce0f75a74dfec7ae bus: mhi: Wait for M2 state during system resume
          
 
---===============6569709689170938945==
+--===============3602316265905042162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624542526 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624542729 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1624542525-b01af088cf6208d32a6073194fd85a353fa54d25
+nonce 1624542729-3a838955a258fa6748d67b41660dade4a28b1047
 
-37a0ca7f3e60cb1fc076444b964b45fdaf930a52 d874742f6a734c73c22235f9d56b8f10bcf17c5f refs/heads/char-misc-testing
+d874742f6a734c73c22235f9d56b8f10bcf17c5f 02b49cd1174527e611768fc2ce0f75a74dfec7ae refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDUjT4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NMAP/j1PV6WkNK3vXsri5DDk
-k+Kcmkd2+vE2ajNaTOAPIMM5bWt3c9yRDtllHxhzQAmSJQP8nqZry/JOEUKOvApJ
-8ds3igDp6zjJim2lBB2azInd/IbSklqrE38WXssTFxSjFlFm2Y3JZZ7eESu5ZBQm
-pc0uzhzmYQlHPsABlox64qGuSo5S5dllgBnBHjC2odq8mybBG/ZOCU5XGpEYDndF
-2IkHhbMsMsV3zi+sekPhXXvceQmJbAMQNozFEb2duZkICI6W7XJDLpoLd1p+mZY6
-73PtdKYO5yMXzXn2soOKv3bzGvQchoJT8wgv7JVEDsRn6xr/wqOYCanCCf0b0mZw
-T2YA94kEIeWcMG0bAgLQrSQvPWHRHgM7gB9kbp9MwK5XxGGWEncTgPo+Kx8+SC0J
-QROlDS7xeQA6AuSPFevXOnSLr0mrMyclKULnf308JB7zVMLfy4DTrkKgfeCbdMrb
-jTYcOzHd+PbUYViLU0haB0+tBO/hFQIa8fKFkXIGugrDTC901VG1n69h90Qo1x/i
-xRoe2rmWgrNNY3ojqdZMSTxTwKBJ2WvZCVis3rmFTUyIE1tFS3INgqERjvBSY81K
-Yke3mUtfPrl2xwei4bORbIIqfW5cOb9hdt9lcPAF24m7vRzfnb4X90BMuC1Sctqv
-vVGlMxMGYn6ZOIzzU7F1iDL5
-=g2LI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDUjgkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lfEP/RvGa6SGIqnAnyAcWMfV
+6+d1asNQ3Ci3m8BoBqvsBS/ha/Xnd7NvV6nNn0AsLkjT7AVLZUMyMju+J3snTKBG
+JejRU/USfiTd6hBPrJMexhb4augMoHyOLX/HCUv9yCely/5G7HuOQEwORRpToA07
+lYfdut8SgYLYBLmdoDYAzJ52jc9r7Bnk5hmL/xfrELsej7iL2/+Vf8zh7gcDSUsz
+8jzqCqb7SIakmcunSPTZh1EJAMvKUGvQwuUaYUm+x2ywdo0Iub/wOH9CCXHhEtJG
+YNGmGZud0E9C+H9hIVpjZB78QOvr+VNuUxNRAxBDZT92NJmQsOPk/fS8DzALx4QG
+GepZNIyVzMICr19bNYAgAeuGVLs59u3+J7wO6/QEYhE9XD43tx9WjITz5r32P+Gx
+Xyxq7sBTzlr7V7A05f0pCCnyNuFUy9V2WZ+uXSFcQfBRkVKallS0p4bC/HcGJ08C
+GL3wixt/UwCEDVhbaoWNyC3axGP9wYHsMRW22cxT0CaUErVlAnHwbS6rN/1qzr2a
+XfFt/LyxsxZfsDT4lTK9/xgZ5u2sW9zmj0MhxOZpnrgAbQPd74afn+HKHgXy9vc/
+EDWC4XQD263rb//lJE31wmS8MsETiqnCCflH+8Rey5ilg6y2JmCdx6ES5G26Zwg6
+Np4JahlJm7eGf7mfTP5+doGB
+=kAtq
 -----END PGP SIGNATURE-----
 
---===============6569709689170938945==--
+--===============3602316265905042162==--
