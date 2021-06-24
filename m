@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 24 Jun 2021 11:33:59 -0000
-Message-Id: <162453443912.31612.17104627486555942224@gitolite.kernel.org>
+Date: Thu, 24 Jun 2021 11:35:43 -0000
+Message-Id: <162453454364.1908.2692752447573982000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,978 +11,1380 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/tags/tip-auto-ftrace-next-base-2008-05-26_08_52_Mon
-    old: eb90d81d03c0917b0fd629f6342554a3b58ea52c
+  - ref: refs/heads/acpi-for-len
+    old: fec6c6fec3e20637bee5d276fb61dd8b49a3f9cc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-
-    old: 85d77e482acdc5b6b03502f287a978b96833d16f
+  - ref: refs/heads/auto-bkl-next
+    old: f6597bc0adca32f207b1dfd43721c93cb0265fb6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-08-04-00
-    old: 3ef0b4737662b0f4f484fcda43b9b4ea3d0a52b8
+  - ref: refs/heads/auto-bkl-next-base
+    old: 80f506918fdaaca6b574ba931536a58ce015c7be
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-08-44-35
-    old: 987d303eed66d75ee8aed66b7ea3e358755b1e54
+  - ref: refs/heads/auto-core-next
+    old: 3ab54de55e40ffd8de5d53d8109cf65fca81dec6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-09-40-17
-    old: 7040851d12d60aeaa5fe7b78086f6afb1f3b3cd6
+  - ref: refs/heads/auto-core-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-11-49-42
-    old: ff9ceaaee72d109cf58d1588a34fb4670912006c
+  - ref: refs/heads/auto-cpus4096-next
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-15-23-01
-    old: 5111b01a2da85434c95fb554774d4d160cb80a64
+  - ref: refs/heads/auto-cpus4096-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-19-31-33
-    old: 68ade8a9fb44893aa8de55959c25d7c371eb04a5
+  - ref: refs/heads/auto-fastboot-next
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-19-42-00
-    old: a8afa553435dfbcfbcb76f48c257a5ea2fd9f847
+  - ref: refs/heads/auto-fastboot-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-2008-05-25-21-39-51
-    old: 2cddb19de84428c9d86bb2f5b5d4fbbae439014a
+  - ref: refs/heads/auto-generic-ipi-next
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Fri_May_23_10_06_21_CEST_2008
-    old: 6551c6a89185083ad77b61288f31ca5f9fd61666
+  - ref: refs/heads/auto-generic-ipi-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Fri_May_23_10_27_25_CEST_2008
-    old: 61985a1676a63a7fe946b5080c8fc29a842e99db
+  - ref: refs/heads/auto-genirq-next
+    old: 8e74d1f72e56106cd0fdc4fbe7122d60ca71a3a4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Fri_May_23_10_42_40_CEST_2008
-    old: 82cdd4c781ad7ca67ef6f41c44ef5b89199ee849
+  - ref: refs/heads/auto-genirq-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Fri_May_23_12_42_28_CEST_2008
-    old: ae9150263f62e6607f095bd2e3878fc970c0290c
+  - ref: refs/heads/auto-iommu-next
+    old: a060422015ed54d46dc5910d5eb72540ebdff242
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Fri_May_23_14_47_15_CEST_2008
-    old: 837fe3e0940d53f5d67fcd35db66466c8d839538
+  - ref: refs/heads/auto-iommu-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_09_04_24_CEST_2008
-    old: a355b10c389516da95a8748075d8c674eb5874fe
+  - ref: refs/heads/auto-kmemcheck-next
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_09_21_57_CEST_2008
-    old: 2b6bf3411b4d1e84966c7f46351756962ec7f85d
+  - ref: refs/heads/auto-kmemcheck-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_09_24_39_CEST_2008
-    old: 46814548dd9c69f3726e60ef25edf47fde532bb7
+  - ref: refs/heads/auto-latest
+    old: e471db82dae27dc125f6f8f84de2cc1846df48c8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_10_36_09_CEST_2008
-    old: 304d13ab07c880ebe0ae7cf4992416ce9ba92000
+  - ref: refs/heads/auto-latest-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_10_36_50_CEST_2008
-    old: 09c18fe702ab1100fe3d0a3ad96d3acbcef4ab61
+  - ref: refs/heads/auto-oprofile-next
+    old: 93690c4a9f2a6f2db5f4dfa97535fc9fc2ebb8f1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_10_43_11_CEST_2008
-    old: 5fb481b00cd6c663606f2d01e8e55a8fbbb63c8c
+  - ref: refs/heads/auto-oprofile-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_10_51_43_CEST_2008
-    old: e0bfc7c5604ba06e4b641ec31127159224182262
+  - ref: refs/heads/auto-perf-next
+    old: a8f90e906783f1f815120eefe813b23cb396e9bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_10_57_09_CEST_2008
-    old: 8f28e3307bcae2cdb07cde6256c336dc256bfab4
+  - ref: refs/heads/auto-perf-next-base
+    old: 43c1266ce4dc06bfd236cec31e11e9ecd69c0bef
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_11_03_07_CEST_2008
-    old: 269be34609d247e317f8a78254d494cfe5bd0dc0
+  - ref: refs/heads/auto-ras-next
+    old: 2c53b436a30867eb6b47dd7bab23ba638d1fb0d2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_12_58_23_CEST_2008
-    old: 1aaa842855c071a2bc858f342f88fa81ef4b99e1
+  - ref: refs/heads/auto-ras-next-base
+    old: 2c53b436a30867eb6b47dd7bab23ba638d1fb0d2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_01_37_CEST_2008
-    old: e5737defece10c552c70bfac8fd9f3b504da1e83
+  - ref: refs/heads/auto-rt-next
+    old: 4f34d9c071cbb559a99b8420de6d3b0ad63658e5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_06_05_CEST_2008
-    old: d46b666c310c6821710841c9e8fd37e83c312de0
+  - ref: refs/heads/auto-rt-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_08_55_CEST_2008
-    old: fb6b1dd8fd245ae160d15b426808af1990303bfb
+  - ref: refs/heads/auto-safe-poison-pointers-next
+    old: daac4d35274921c882073704b5dd60abb4c39228
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_17_20_CEST_2008
-    old: 92b5d6f4b5f7987cf99b5020743a4db025f91b27
+  - ref: refs/heads/auto-safe-poison-pointers-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_33_00_CEST_2008
-    old: d19fcb372d5144724fe8cc6578087e04e8225eab
+  - ref: refs/heads/auto-sched-next
+    old: 361d0c11357b375ad70e534874bfb26ae46d99af
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_36_25_CEST_2008
-    old: 925805d2df5a37506c13874c0a93b96d62696e4a
+  - ref: refs/heads/auto-sched-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_40_50_CEST_2008
-    old: 9a8f7ac5ec2c9211a189a5c61b4ed9cde24f9e26
+  - ref: refs/heads/auto-sparseirq-next
+    old: a588abfe0b32ee8a20622e69b56e3c6190798cbe
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_13_45_54_CEST_2008
-    old: 7f72aeeb250f2da8b403b56366eb3a279d5386e9
+  - ref: refs/heads/auto-sparseirq-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Mon_May_19_17_47_21_CEST_2008
-    old: befc3e542aca2052849b1f5b6ce461f372ef61a4
+  - ref: refs/heads/auto-stackprotector-next
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Thu_May_22_09_51_54_CEST_2008
-    old: 5a0fc6f807c02468db9bec631ca1cb75151ec30a
+  - ref: refs/heads/auto-stackprotector-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Thu_May_22_11_14_59_CEST_2008
-    old: 8b53b99dba406be7fa61cc040a82eac212bf3aab
+  - ref: refs/heads/auto-timers-next
+    old: 78f27cdd053839d3f7b18acb6140fbf503338410
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_10_23_25_CEST_2008
-    old: 91648e6a85b133e06ce0837b7ad04feffee821bb
+  - ref: refs/heads/auto-timers-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_13_47_59_CEST_2008
-    old: 319f0bfde79e6efed03cb0ccd74b0ef26577a174
+  - ref: refs/heads/auto-tools-next
+    old: 3568bd9720b4a775f28a718fcbb462ce2f386988
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_14_12_48_CEST_2008
-    old: c6bfb14e423086a74d994e3ffd3c7999c23fe81d
+  - ref: refs/heads/auto-tools-next-base
+    old: 3568bd9720b4a775f28a718fcbb462ce2f386988
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_14_28_41_CEST_2008
-    old: 870d5730bd7a0ec21407560f3264ec90ef4ddf36
+  - ref: refs/heads/auto-tracing-next
+    old: b1ed69e2c69608bb0f926b824c3da301dff19617
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_14_42_52_CEST_2008
-    old: 952714f1431eea121f0ad08d1261c0bbb4a50200
+  - ref: refs/heads/auto-tracing-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_16_43_02_CEST_2008
-    old: 070574856463ea91579ff15ec9365ade4e2d1c10
+  - ref: refs/heads/auto-um-next
+    old: 100b33c8bd8a3235fd0b7948338d6cbb3db3c63d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Tue_May_20_21_57_21_CEST_2008
-    old: a9e1631fe573ebace55bc23c0448ebeaecb8be51
+  - ref: refs/heads/auto-um-next-base
+    old: 100b33c8bd8a3235fd0b7948338d6cbb3db3c63d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Wed_May_21_11_25_49_CEST_2008
-    old: 6dd6ae50c1cb5ee1f0e304373e3558c8ffe080f7
+  - ref: refs/heads/auto-warnings-next
+    old: b119cd071e3f56cadf217b0229e4953c66d8c4b5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Wed_May_21_11_28_52_CEST_2008
-    old: 7d9a95fe286572c8e3ba8db2578739b970ccecb5
+  - ref: refs/heads/auto-warnings-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-history-Wed_May_21_11_33_18_CEST_2008
-    old: c91a26288edf0137fb1bc1562e105729a62e2f59
+  - ref: refs/heads/auto-x86-next
+    old: 47300274edf89c09d11b2f89242e26fab316050e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-latest-base-2008-05-26_08_52_Mon
-    old: eb90d81d03c0917b0fd629f6342554a3b58ea52c
+  - ref: refs/heads/auto-x86-next-base
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-sched-next-base-2008-05-26_08_52_Mon
-    old: eb90d81d03c0917b0fd629f6342554a3b58ea52c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-auto-x86-next-base-2008-05-26_08_52_Mon
-    old: eb90d81d03c0917b0fd629f6342554a3b58ea52c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-build-2008-06-04_18.00_Wed
-    old: 1beee8dc8cf58e3f605bd7b34d7a39939be7d8d2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-build-2008-06-16_09.22_Mon
-    old: cfc05536950da391a3dd1baa82b477040623bbfa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-checkme-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-checkme-2008-06-16_09.22_Mon
-    old: d2516dbad836687dd8f010ba235a73c9cb6375a7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-checkme-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-debugobjects-2008-06-23_08.51_Mon
-    old: 952f4a0a9b27e6dbd5d32e330b3f609ebfa0b061
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-futex-64bit-2008-06-04_18.00_Wed
-    old: 1beee8dc8cf58e3f605bd7b34d7a39939be7d8d2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-futex-64bit-2008-06-25_10.23_Wed
-    old: 453b997a5b61a66bf643d6527bab626fd2fd2f60
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-iter-div-2008-06-16_09.11_Mon
-    old: 9412e28649d0272df5e4af57bb378926fd4df580
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-kill-the-BKL-2008-05-26_08_52_Mon
-    old: fb3ee19ff101fef9dc22bbbb2c81a7238d529ab8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-kill-the-BKL-2008-06-04_18.00_Wed
-    old: 3159067b7f9455af72f36570c21d3952c19b9cc1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-kill-the-BKL-2008-06-25_10.23_Wed
-    old: fa15fd4e2e9b923649385b8e1b9914624dcc9f3a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-locking-2008-05-26_08_52_Mon
+  - ref: refs/heads/base
     old: f26a3988917913b3d11b2bd741601a2c64ab9204
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-misc-2008-06-16_09.11_Mon
-    old: aab2545fdd6641b76af0ae96456c4ca9d1e50dad
+  - ref: refs/heads/bkl/arch
+    old: 8c0daee204f794d095ae301f408c5f9f40e4547d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-misc-2008-06-16_09.12_Mon
-    old: dd8ace9f6fa3d5bfa457c7f7dd5ae91ec3875f55
+  - ref: refs/heads/bkl/core
+    old: 6f15fa50087c8317e353145319466afbeb27a75d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-misc-2008-06-25_10.23_Wed
-    old: 54305ae195acd39363f3409ffa3c45ef22aa3d36
+  - ref: refs/heads/bkl/drivers
+    old: 83cb16727085b18191f45eb0ede6bf1f97d67a7a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-percpu-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/build
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-percpu-2008-06-16_09.12_Mon
-    old: cfcfdff59b411249d7c660dcf08a9a3f3df9e641
+  - ref: refs/heads/cleanup
+    old: 5749270048c0ef4ef4ce4227ab9279a95c891ed4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-printk-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/core/cleanups
+    old: eba3fe4416f3cc2ce043fb304b6c35a69dca3bdb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-rcu-2008-05-26_08_52_Mon
-    old: ec5fa4cfbb25396689027b5d413cc0638778e238
+  - ref: refs/heads/core/core
+    old: 0221c81b1b8eb0cbb6b30a0ced52ead32d2b4e4c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-rcu-2008-06-16_09.23_Mon
-    old: 766d02786ecd22932beeb9ca8bad6d8c5a552ef9
+  - ref: refs/heads/core/debug
+    old: f505c553dbe24b18a8590eb0eb5890a839acd0c3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-rcu-2008-06-23_09.29_Mon
-    old: 1e74f9cbbba5348a6c58988cce0f19d6ef887cc8
+  - ref: refs/heads/core/debugobjects
+    old: 997772884036e6e121de39322179989154437d9f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-rodata-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/core/elf
+    old: 4330ed8ed4da360ac1ca14b0fddff4c05b10de16
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-rodata-2008-06-16_09.24_Mon
-    old: 6d72b7952fa7d7c61d021398970c29afde6a4443
+  - ref: refs/heads/core/futex-64bit
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softirq-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/core/futexes
+    old: 620917de59eeb934b9f8cf35cc2d95c1ac8ed0fc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softirq-2008-06-16_09.24_Mon
-    old: 9583f3d9c00974911daf227cbaa12d6c1caaabad
+  - ref: refs/heads/core/generic-dma-coherent
+    old: cb28a1bbdb4790378e7366d6c9ee1d2340b84f92
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softirq-2008-06-23_08.53_Mon
-    old: a60b33cf59d1c9e0e363287fce799cb23d45660c
+  - ref: refs/heads/core/header-fixes
+    old: 964fe080d94db82a3268443e9b9ece4c60246414
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softirq-2008-06-25_10.23_Wed
-    old: ace7f1b79670aa0c1d9f4b0442be82e565827333
+  - ref: refs/heads/core/hweight
+    old: c59bd5688299cddb71183e156e7a3c1409b90df2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softlockup-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/core/iommu
+    old: c020570138f5d9cb1fc0a853f9cf9e641178b5c5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softlockup-2008-06-16_09.24_Mon
-    old: 8bbd54d69e9c66adbf544e21d8dcfb15fb9198f7
+  - ref: refs/heads/core/ipi
+    old: e03bcb68629c7f0728c95f1afe06ce48565c7713
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-softlockup-2008-06-23_09.29_Mon
-    old: 20eadf4f41b8a20fecfea683f550ec14d5cfb097
+  - ref: refs/heads/core/iter-div
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-stacktrace-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/core/kill-the-BKL
+    old: 9fe6206f400646a2322096b56c59891d530e8d51
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-topology-2008-06-16_09.13_Mon
-    old: aab2545fdd6641b76af0ae96456c4ca9d1e50dad
+  - ref: refs/heads/core/lib
+    old: d974ae379a2fbe8948f01eabbc6b19c0a80f09bc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-urgent-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/core/locking
+    old: 68cc3990a545dc0da221b4844dd8b9c06623a6c5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-urgent-2008-06-16_09.25_Mon
-    old: 2ad39b4f8efc6fc52318207c215c894bfe02c2f1
+  - ref: refs/heads/core/locking-v2
+    old: 7bee946358c3cb957d4aa648fc5ab3cad0b232d0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-urgent-2008-06-19_09.38_Thu
-    old: 9bedbcb207ed9a571b239231d99c8fd4a34ae24d
+  - ref: refs/heads/core/memblock
+    old: 67e87f0a1c5cbc750f81ebf6a128e8ff6f4376cc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-core-urgent-2008-06-23_08.56_Mon
-    old: 481c5346d0981940ee63037eb53e4e37b0735c10
+  - ref: refs/heads/core/misc
+    old: 85462323555dda749f1c5373a8d72679464c968d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-cpus4096-2008-05-26_08_52_Mon
-    old: 4adaa79f416410be9e0f05efb76a4a5ff5c67368
+  - ref: refs/heads/core/percpu
+    old: e1b9aa3f47242e757c776a3771bb6613e675bf9c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-cpus4096-2008-06-16_09.14_Mon
-    old: 5b8201ce87f87af3bebc8072b03d3989f92e144a
+  - ref: refs/heads/core/percpu-zerobased
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-cpus4096-2008-06-25_10.24_Wed
-    old: 517095858737f6c5226b319d82a101b0519c84d6
+  - ref: refs/heads/core/percpu-zerobased-mergefixups
+    old: 45158894d4d6704afbb4cefe55e5f6ca279fe12a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-genirq-2008-06-06_07.38_Fri
-    old: c3b25b32e8bef526cca748e1ba023c6bdd705a99
+  - ref: refs/heads/core/printk
+    old: dd4e5d3ac4a76b868daf30e35bd572def96c30ed
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-27_18.17_Tue
-    old: 86bca9d984376802af3267dda72244cf4de7eff6
+  - ref: refs/heads/core/rcu
+    old: 048b718029033af117870d3da47da12995be14a3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-27_19.30_Tue
-    old: a97f830a6c71e9e68d549d3b0b05d30dc8975fe1
+  - ref: refs/heads/core/resources
+    old: 3ac52669c7a24b93663acfcab606d1065ed1accd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-27_19.36_Tue
-    old: fc5817728243bb0d765b9b6d3be2aac48bc015cb
+  - ref: refs/heads/core/rodata
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-27_22.54_Tue
-    old: 3821a1d918f732211fc68c17fd4c7228cc80652f
+  - ref: refs/heads/core/signal
+    old: f84d49b218b7d4c6cba2e0b41f24bd4045403962
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-27_23.32_Tue
-    old: fcce54d692bbf0d2e510caafd5edc96b84ffe7dd
+  - ref: refs/heads/core/softirq
+    old: 676cb02dc32adef13d9efb5ea52079e4ede1e3ec
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-30_12.39_Fri
-    old: 5f60712f2aadd2ac478f1ec5c14160d2a1b53383
+  - ref: refs/heads/core/softlockup
+    old: e5af02261668350b43eb7381648930bde8e872f7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-30_13.07_Fri
-    old: 351a26bc8c4bb60a6a7b8cb43506ec0614b26527
+  - ref: refs/heads/core/stacktrace
+    old: 4a44bac1f98223ed77e47bf3b42fcfd10cddd85f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-31_08.50_Sat
-    old: a6ab4b54e7ce80f3cb9f31dbbb6293184179fb13
+  - ref: refs/heads/core/topology
+    old: 131b943ae643b1ad6febd67cdbb31d955706ecf4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-05-31_10.33_Sat
-    old: 887ce31350c61be3165e7d2cc3a11077b32668a7
+  - ref: refs/heads/core/ucopyfix
+    old: a252e749f1ae17e43ccc5824f7b1b5854417c98b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-02_12.22_Mon
-    old: 8b1387f1135dd8f5279aa848adfac4b6dd7b0690
+  - ref: refs/heads/core/urgent
+    old: 80e0401e35410a69bfae05b454db8a7187edd6b8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-03_11.29_Tue
-    old: 541507f04cfbf2d68823af83fa2c661e4ebcb5db
+  - ref: refs/heads/core/warn-API
+    old: 85ba94ba0592296053f7f2846812173424afe1cb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-04_09.44_Wed
-    old: 58616371b792faa0379a202a2820a70bccce1bde
+  - ref: refs/heads/core/werror
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-04_18.22_Wed
-    old: b5d80e5f8e35ec2af4a9618f4f41a32e207a00a0
+  - ref: refs/heads/core/xen
+    old: 06fc732c33a7ff5e4c91bcf4a6ca86b5e335ad9a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-04_21.41_Wed
-    old: 8fdab7e6ad9b4dd71021b575ddde70721114b431
+  - ref: refs/heads/cpus4096
+    old: 0221c81b1b8eb0cbb6b30a0ced52ead32d2b4e4c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-05_07.20_Thu
-    old: 339be5ecc1df9a42131240445fa6b9fbd370a251
+  - ref: refs/heads/cpus4096-v2
+    old: ab14398abd195af91a744c320a52a1bce814dd1e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-05_08.00_Thu
-    old: 35ef8327f2c25b5384366fe5c383a444d1baad38
+  - ref: refs/heads/fastboot
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-05_10.34_Thu
-    old: 03fdf4dd893aa0e6b0a4edc54e31038bd2f30490
+  - ref: refs/heads/fastboot-v2
+    old: 0cfd81031a26717fe14380d18275f8e217571615
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-05_13.53_Thu
-    old: 206e903c9d388e84232fa3cbb64a6453f326392c
+  - ref: refs/heads/generic-ipi
+    old: 42a2f217a5e324ed5f2373ab1b7a0a15187c4d6c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-06_08.15_Fri
-    old: 251ea1f2491f9d9721928981151eb4231572f9ed
+  - ref: refs/heads/generic-ipi-mergefixups
+    old: 63cf13b77ab785e87c867defa8545e6d4a989774
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-06_12.22_Fri
-    old: 5f9be579ce3c03640aa12d88685d2a0c4409ef49
+  - ref: refs/heads/genirq
+    old: 5fef06e8c8c52aa7170dbbb068aa996d83738d38
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-06_13.31_Fri
-    old: a61c5deb0b654f84099b5470269306fa6974b522
+  - ref: refs/heads/hrtimers
+    old: e490517a039a99d692cb3a5561941b0a5f576172
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-10_14.27_Tue
-    old: 86af2664465670889810497bab944c0ce1e58364
+  - ref: refs/heads/iommu-for-powerpc
+    old: c7084b35eb1a4d3353a501508baf9d3d82822c93
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-16_10.29_Mon
-    old: 2cb90ced92404a4af8e2b707e594fefe3b514fb6
+  - ref: refs/heads/irq/cleanup
+    old: 8ec4ad2bebd1dd7e782bd1a1ac4c5e17ceb2ff81
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-16_11.03_Mon
-    old: 1ff4fd907d34ffc7d0104800075ecb75630e9538
+  - ref: refs/heads/irq/core
+    old: 9bab0b7fbaceec47d32db51cd9e59c82fb071f5a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-23_23.09_Mon
-    old: f1dd1bb3209bcbd0721c2d5694739c10a6565fca
+  - ref: refs/heads/irq/for-arm
+    old: cfefd21e693dca791bf9ecfc9dd3794facad533c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-24_07.28_Tue
-    old: abfd2ead35293ce2a546d53bf7914286a8d7d96d
+  - ref: refs/heads/irq/for-xen
+    old: dc5f219e88294b93009eef946251251ffffb6d60
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-24_07.45_Tue
-    old: 8162c00a3b3b778b95f18035e30eaf7759800218
+  - ref: refs/heads/irq/genirq
+    old: ebf53826e105f488f4f628703a108e98940d1dc5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-25_09.39_Wed
-    old: 317008a4b46d618b3fa667b481a0c6088f28f279
+  - ref: refs/heads/irq/genirq-v3
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-25_12.22_Wed
-    old: e529def5bf6f68a66bff1d3f5c9d16d91b164e1c
+  - ref: refs/heads/irq/numa
+    old: 1fb0ef31f428f345a7c3666f8e7444a563edd537
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-25_12.40_Wed
-    old: ad4d913b6160243103b02b4f24bfdcd5fccff1f1
+  - ref: refs/heads/irq/sparseirq
+    old: a6bc3262c561780d2a6587aa3d5715b1e7d8fa13
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-25_13.07_Wed
-    old: a545e400f5341501edec463d0ecee76f86f308ba
+  - ref: refs/heads/irq/sparseirq-v2
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-25_13.43_Wed
-    old: a51b318f1f477d0833fab5b94f7cd8969dfe69f8
+  - ref: refs/heads/irq/sparseirq-v3
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-25_14.03_Wed
-    old: 114c5d5ad01a2c9529c55c98911c63a794083f7c
+  - ref: refs/heads/irq/sparseirq-v4
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-06-30_08.08_Mon
-    old: b14e05b7764bf0263ecfe97573d270ff52775f11
+  - ref: refs/heads/irq/threaded
+    old: 4dbc9ca219b0f294332e734528f7b82211700170
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-06_08.16_Sun
-    old: e5a0f72d20f36499144e44d596907fef97808a01
+  - ref: refs/heads/irq/urgent
+    old: eef24afb28561a5a9f4be8f8da97735b7e6a826f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-06_12.20_Sun
-    old: c2780bd66476552c69f6fc3a4c9cdb0c859f3d3c
+  - ref: refs/heads/kill-the-BKL
+    old: 9fe6206f400646a2322096b56c59891d530e8d51
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-08_15.44_Tue
-    old: 704a96dbcfe8e67946876eed7ae830b5302e52e2
+  - ref: refs/heads/kmemcheck
+    old: 65795efbd380a832ae508b04dba8f8e53f0b84d9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-08_15.48_Tue
-    old: e68d7cd7207a44cda25cd3036fa838226d14ea07
+  - ref: refs/heads/kmemcheck-bitfields
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-08_15.58_Tue
-    old: 15dd03fbb545e23491df45c867c4d2e3acea0446
+  - ref: refs/heads/kmemcheck-dma
+    old: 82a28c794f27aac17d7a3ebd7f14d731a11a5532
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-08_16.08_Tue
-    old: 90db23a4bb342136ddf7222c44637a513b735547
+  - ref: refs/heads/kmemcheck-v2
+    old: 2515ddc6db8eb49a79f0fe5e67ff09ac7c81eab4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-10_09.58_Thu
-    old: eb6d4f22158f6cdbcf49c42994308660ba455ad8
+  - ref: refs/heads/kmemcheck2
+    old: fb20871a54961b82d35303b43452928186c1361d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-16_11.08_Wed
-    old: 92b73a5e8bb72d75653ae649152dac7e1ab09fe0
+  - ref: refs/heads/locking
+    old: 493d35863dbb692c38c1415fd83d88dfb902ae37
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-21_12.29_Mon
-    old: 6de15c6bacfe2ea7d914083b36b618581ae4c655
+  - ref: refs/heads/oprofile
+    old: cc49b092d308f8ea8634134b0d95d831a88a674b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-07-23_10.59_Wed
-    old: 5c493ad653efb9a53265439834f8b81d9f2df152
+  - ref: refs/heads/oprofile-v2
+    old: 57f8f7b60db6f1ed2c6918ab9230c4623a9dbe37
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-08-14_09.59_Thu
-    old: dfe3e974434f9df8c0c58e20ce766dd731d7dbdf
+  - ref: refs/heads/out-of-tree
+    old: 205fd78faa1380f54bd14a90771fd7d0592c64af
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-08-14_11.15_Thu
-    old: 0ebefcbf889a45c47749dfbff7fb4028b57e9c99
+  - ref: refs/heads/pci-for-jesse
+    old: c0f4d6d4b14a75a341d972ff73fb9740e1ceb634
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-08-22_12.50_Fri
-    old: d1c5e5a28cfec671e422928b280e532c4acea3ea
+  - ref: refs/heads/pci/dmar
+    old: d210baf53b699fc61aa891c177b71d7082d3b957
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-09-09_09.14_Tue
-    old: c79aebc694e3f4a838d6a1feeaa84a0b08a0e60d
+  - ref: refs/heads/perf/bench
+    old: 12eac0bf0461910ae6dd7f071f156f75461a37cf
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-10-08_08.31_Wed
-    old: ce0de6fe6aea8c58afe6ca8660ec000443d2e1fd
+  - ref: refs/heads/perf/core
+    old: c752d04066a36ae30b29795f3fa3f536292c1f8c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2008-10-08_10.31_Wed
-    old: 76658256045037fa88c186d6c0222b1352585110
+  - ref: refs/heads/perf/diff
+    old: cdccc69003388665e1463003f0488cf8ce9cf9e8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-history-2009-06-12_08.34_Fri
-    old: d4b0a54e3075a99ccab4adcb537cbda51a367106
+  - ref: refs/heads/perf/hw-breakpoints
+    old: 964fe080d94db82a3268443e9b9ece4c60246414
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-kmemcheck-2008-05-26_08_52_Mon
-    old: b9dd0c1a9bb8bada46a033dcb5b612dba11c46ed
+  - ref: refs/heads/perf/jump-label
+    old: c79bd89282136a4516e842fa542d6abf902ddeac
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-kmemcheck-2008-06-23_08.59_Mon
-    old: 1e2697b1ce312f76ecc70051b9298317a4f1f944
+  - ref: refs/heads/perf/live
+    old: a0cccc2e8e9fb16cbed3a117b30e3fbac3092ee3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-kmemcheck-2008-06-25_10.24_Wed
-    old: 3fef475e136e80f31d325c60641dc39e4c51698c
+  - ref: refs/heads/perf/lock
+    old: 65f2ed2b2fa6034ef9890b60c8fd39fbe76b9d37
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-mm-xen-2008-06-23_08.59_Mon
-    old: 066519068ad2fbe98c7f45552b1f592903a9c8c8
+  - ref: refs/heads/perf/mce
+    old: 767df1bdd8cbff2c8c40c9ac8295bbdaa5fb24c4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-out-of-tree-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/perf/nmi
+    old: eb703f98191a505f78d0066712ad67d5dedc4c90
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-out-of-tree-2008-06-04_18.04_Wed
-    old: 22d43306a1ce30c50dd34c547ad779d728879896
+  - ref: refs/heads/perf/pebs
+    old: caa0142d84ceb0fc83e28f0475d0a7316cb6df77
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-out-of-tree-2008-06-16_09.25_Mon
-    old: f361f1e3115d5762b7f8fdce915c08a06f624e50
+  - ref: refs/heads/perf/powerpc
+    old: c86e2eaded39843e1bf4f07d1adfab4494f20894
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-out-of-tree-2008-06-23_08.59_Mon
-    old: a797a9da5eceddf52a4568f9638ef6b2db36e0f5
+  - ref: refs/heads/perf/probes
+    old: e5a11016643d1ab7172193591506d33a844734cc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-out-of-tree-2008-06-25_10.24_Wed
-    old: ea0d6b8a4b8b30e0f99dd8d509d78b7534f849b9
+  - ref: refs/heads/perf/scripting
+    old: 8ea339adc0a48236008e59dd21564d71c37b331c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-pci-for-jesse-2008-05-26_08_52_Mon
-    old: 78b58e549a3098a8c1408d0214bd25e5d5e7a3a3
+  - ref: refs/heads/perf/stat
+    old: c63ca0c01d73563d4e2ab174bb3dd1e5efb907e6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-pci-for-jesse-2008-06-16_09.25_Mon
-    old: 066519068ad2fbe98c7f45552b1f592903a9c8c8
+  - ref: refs/heads/perf/urgent
+    old: 53a019a951fae849471e4a620948c5f6886bd1a4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-safe-poison-pointers-2008-05-26_08_52_Mon
-    old: 3ad5f6353b797a204dc68c21ac66087fda872dcb
+  - ref: refs/heads/perf/x86
+    old: 0b861225a5890f22445f08ca9cc7a87cff276ff7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-safe-poison-pointers-2008-06-16_09.25_Mon
-    old: 9ae76f5d8ab546660cf517bb63c64de51800955d
+  - ref: refs/heads/perfcounters/base
+    old: 7032e8696726354d6180d8a2d17191f958cd93ae
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-safe-poison-pointers-2008-06-25_10.24_Wed
-    old: 5d641e7bbb8ed48f231bc902eecab2cc598f34a4
+  - ref: refs/heads/perfcounters/core
+    old: cdf8073d6b2c6c5a3cd6ce0e6c1297157f7f99ba
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-2008-05-26_08_52_Mon
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/perfcounters/core-v2
+    old: fb20871a54961b82d35303b43452928186c1361d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-2008-06-04_18.04_Wed
-    old: e97dcb0eadbb821eccd549d4987b653cf61e2374
+  - ref: refs/heads/perfcounters/mm
+    old: 4b77a7297795229eca96c41e1709a3c87909fabe
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-2008-06-16_09.15_Mon
-    old: 066519068ad2fbe98c7f45552b1f592903a9c8c8
+  - ref: refs/heads/perfcounters/powerpc
+    old: a3d06cc6aa3e765dc2bf98626f87272dcf641dca
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-2008-06-16_09.25_Mon
-    old: 066519068ad2fbe98c7f45552b1f592903a9c8c8
+  - ref: refs/heads/perfcounters/rename
+    old: 57c0c15b5244320065374ad2c54f4fbec77a6428
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-devel-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/perfcounters/tracing
+    old: d498bc1f6261dd6f655440eb2f1c7fa25694d3ba
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-devel-2008-06-16_09.15_Mon
-    old: f9e8e07e074a880e110922759dcdb369fecdf07c
+  - ref: refs/heads/perfcounters/urgent
+    old: cd74c86bdf705f824d494a2bbda393d1d562b40a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-devel-2008-06-23_09.30_Mon
-    old: 1de8644cc7c826e0c41e52825bd5a12e2e31e6ca
+  - ref: refs/heads/ras/core
+    old: c7cece89f1b00b56276303942f96ec67cf206e1e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-devel-2008-06-25_10.27_Wed
-    old: f57aec5a871907427060196f6bac3d0011b38450
+  - ref: refs/heads/rcu
+    old: 2ba4cc319ab26c56205d4f23724c4748a553c845
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-new-API-sched_setscheduler-2008-06-23_09.00_Mon
-    old: 9bedbcb207ed9a571b239231d99c8fd4a34ae24d
+  - ref: refs/heads/rt/2.6.31
+    old: bfbf2bfd7fef4d41b0878c0e9bc23dd875b64663
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-new-API-sched_setscheduler-2008-06-23_09.30_Mon
-    old: 2d8488b6479bad53bc545990534d6e6206500482
+  - ref: refs/heads/rt/2.6.31-rc6
+    old: 8174797face8a74d162228a598d6adb12e816e7d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-new-API-sched_setscheduler-2008-06-25_10.27_Wed
-    old: 773dc8eacaedb2e8c8d0defb5de2c66ea7dc4a08
+  - ref: refs/heads/rt/2.6.33
+    old: 1df51bdd08ff4e2b46af9131bc565f66eccd55f6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-urgent-2008-06-19_09.38_Thu
-    old: 9bedbcb207ed9a571b239231d99c8fd4a34ae24d
+  - ref: refs/heads/rt/2.6.33-no-vfs
+    old: ddd7b368fccdedf6ad8f5c66fda41a28651bfc2d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-sched-urgent-2008-06-23_09.00_Mon
-    old: 198bb971e256e4167e45e7df643c13ea66f67e3a
+  - ref: refs/heads/rt/2.6.38
+    old: a021baac2ff4c5adcdefebfcbfb3b70bdb8e594f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-scratch-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/rt/apis
+    old: 769610edf15e38b8fa5f6beac8e6bfaeaff690d1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-stackprotector-2008-05-26_08_52_Mon
-    old: e54627f09296bc06d11f5d1efef6087b25dfb574
+  - ref: refs/heads/rt/arm
+    old: 93a5ba103458201ebb0f2e75cd02401e2d169f2d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-stackprotector-2008-06-25_10.27_Wed
-    old: 5ce001b0e56638c726270d4f9e05d46d4250dfbb
+  - ref: refs/heads/rt/atomic-locks
+    old: 0a47df7bd2e94290b19870cd71909d3f24a9e959
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-clockevents-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/rt/base
+    old: f1244df11a400707e8bbd25927d4e199ef2fbbdd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-hpet-2008-05-30_12.09_Fri
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/rt/base-2.6.29
+    old: 0b8dfde6d72ad9edd2288465ec8d18f9278edd26
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-hpet-2008-06-16_09.25_Mon
-    old: c444debaaa22011b4a84e58e5333575b3f800a33
+  - ref: refs/heads/rt/bkl
+    old: 37ffffaf131b6620d27af5a1477f6db507718018
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-hrtimers-2008-05-30_12.09_Fri
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/rt/cherry-picks
+    old: c1554e11a6f2b051497f86e42e90fecb66304654
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-hrtimers-2008-06-16_09.26_Mon
-    old: 7cac7c60c9c5abd3541bbbc6d4ed0febf84e8777
+  - ref: refs/heads/rt/core
+    old: ca554e438bb430e5acc29109e1045ae928414c8f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-nohz-2008-05-30_12.28_Fri
-    old: 916941b2bfd9c4a8b66855f198ae16c3f51ef570
+  - ref: refs/heads/rt/drivers-char
+    old: be791b93a95b8a8808c2f15e1349843aa04e868c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-timers-posixtimers-2008-05-26_08_52_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/rt/drivers-net
+    old: cc78f78d74928e7752e70fdfc16e30b8e97a91b7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tip-2008-05-26_08_52_Mon
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/rt/drivers-pci
+    old: 4be3bd7849165e7efa6b0b35a23d6a3598d97465
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-2008-05-26_08_52_Mon
-    old: 0e666a6d33426ff10de43eced7dde3a390e465e2
+  - ref: refs/heads/rt/head
+    old: 3f76e1e75a63970db9f6c189048bbaeceb511d30
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-2008-06-16_09.16_Mon
-    old: e765ee90da62535ac7d7a97f2464f9646539d683
+  - ref: refs/heads/rt/hrtimer
+    old: 080130e34f472b21b47d1177a6258c64e4f01d9c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-2008-06-16_09.26_Mon
-    old: e765ee90da62535ac7d7a97f2464f9646539d683
+  - ref: refs/heads/rt/hwlat
+    old: 7adc5d16e69dea387c2edb32c7fd885badc1ce0f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-2008-06-23_09.11_Mon
-    old: f34bfb1beef8a17ba3d46b60f8fa19ffedc1ed8d
+  - ref: refs/heads/rt/ipc
+    old: 1920d618c37ee53bb424a32f26076af2fa5b2a8b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-2008-06-25_10.27_Wed
-    old: 97e6722b8d6b5880c4d5751127d5083b1b7df27d
+  - ref: refs/heads/rt/irq
+    old: 22372af413b4015203511b0b05408a50ca2fbfff
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-mergefixups-2008-05-26_08_52_Mon
-    old: 51d1bf2279d94e1dd5275df4cb76210d9a1935c2
+  - ref: refs/heads/rt/kill-the-bkl
+    old: 2187b85684dde43b8c8e75ccf006516448798de3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-mergefixups-2008-06-16_09.16_Mon
-    old: 138e4393c33e2b7bf29b6af05233f5317984d9c5
+  - ref: refs/heads/rt/local-irq
+    old: b67602a5975990e35c964312a9da333e594e3840
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-mergefixups-2008-06-23_09.01_Mon
-    old: 78427da14dc8e54fd4a56a5d92118a5393d6397a
+  - ref: refs/heads/rt/locking
+    old: f3f8f2873afcb1ea9bdd8e6b68b373e034ea6cb3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-ftrace-mergefixups-2008-06-25_10.28_Wed
-    old: b3a61cc8843b7a30e8c324efeb52f0660a996187
+  - ref: refs/heads/rt/misc
+    old: a0da5218e99ade6a4c6c55487696a4bde06f930e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-immediates-2008-05-26_08_52_Mon
-    old: 4d0c09f636744248c4a8ad2b022539e5df213c5f
+  - ref: refs/heads/rt/mm
+    old: e3cf1fe8ff341a026b2128bb5c06dfbfd218df11
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-immediates-2008-06-16_09.16_Mon
-    old: fece486db13f084acefcb52ed0ce8bb8bccc7a57
+  - ref: refs/heads/rt/net
+    old: f9bef36b009e5db7e02436b931ac6be72b4dec08
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-immediates-2008-06-25_10.28_Wed
-    old: eb8cc01d686b1f24c231513130c4556925712428
+  - ref: refs/heads/rt/pagefault
+    old: e34d6077d0c482847728eea55ecdb1eb715042b1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-markers-2008-05-26_08_52_Mon
-    old: 4adbebe1236635afd85a1a1fdf69f661b746a0e4
+  - ref: refs/heads/rt/percpu
+    old: 849ac1ba25f218b94876174bc77c25403420d768
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-markers-2008-06-16_09.16_Mon
-    old: f8413d162b7f8ebaa02a49330969ea90e89b592f
+  - ref: refs/heads/rt/powerpc
+    old: a87f354dbe174dc43a93844f2d3bc7dd990ffb32
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-markers-2008-06-25_10.28_Wed
-    old: ad167a8986188d72f0c48fd48779b1c36c300088
+  - ref: refs/heads/rt/rcu
+    old: b526aded4c39a83d7042b9b16dee342e1f600795
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-2008-05-26_08_53_Mon
-    old: 4d0e364d903b9cf5f62c96f3f6b28cbc22f02764
+  - ref: refs/heads/rt/rt-2.6.31-rc4
+    old: 541780fd29f7d2eb1f500c37f27d3e61af3c31ab
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-2008-06-16_09.16_Mon
-    old: f29a80cf86584a2c234b257043f17cc2602d1a55
+  - ref: refs/heads/rt/rtmutex
+    old: 1169292cf34eacbb63cdc6e44d36574bf66d3661
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-2008-06-16_09.26_Mon
-    old: f29a80cf86584a2c234b257043f17cc2602d1a55
+  - ref: refs/heads/rt/semaphore
+    old: 87980853997b7318a4234e43f4ba33586a4db280
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-2008-06-23_09.11_Mon
-    old: db8ca34d28a35756eedafa78ea8776a0a8194dbc
+  - ref: refs/heads/rt/trace
+    old: a5d1c78f4af784ca7c9bbf3ee8a4ba1a08008774
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-2008-06-25_10.28_Wed
-    old: d2c6b923061f4d14f3be75baf70bf35be15f7f4b
+  - ref: refs/heads/rt/x86
+    old: 3f87904e73bfb67c331016bcb8846771cce43bfc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-mergefixups-2008-05-26_08_53_Mon
-    old: 5912216b697647d0ad5b3b1092a5e091ce9dfcad
+  - ref: refs/heads/safe-poison-pointers
+    old: dcb4a1f0e0367efb813907e5083998bbb98b0456
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-mergefixups-2008-06-16_09.16_Mon
-    old: cb9aa97c21c59ad01c9514d7faf45dc166fba226
+  - ref: refs/heads/sched/balancing
+    old: a8fae3ec5f118dc92517dcbed3ecf69ddb641d0f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-mmiotrace-mergefixups-2008-06-25_10.28_Wed
-    old: f4628e644c34d9e6242ea18487b2ed58ee04e3eb
+  - ref: refs/heads/sched/cleanups
+    old: 6ccf80eb15ccaca4d3f1ab5162b9ded5eecd9971
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-nmisafe-2008-05-26_08_53_Mon
-    old: 2b6f4a5bdd8644ec544a46b938de71b4adf67ff7
+  - ref: refs/heads/sched/clock
+    old: fa84e9eecfff478df2d00e94deb3fc40fe4634ad
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-nmisafe-2008-06-16_09.16_Mon
-    old: 8747a92de8f440c931b840611e008b8fccf887cb
+  - ref: refs/heads/sched/core
+    old: 540f41edc15473ca3b2876de72646546ae101374
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-nmisafe-2008-06-25_10.28_Wed
-    old: 06291d64128959573464f1b95a953ede9b7092c6
+  - ref: refs/heads/sched/core-v2
+    old: 8e0ee43bc2c3e19db56a4adaa9a9b04ce885cd84
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-sched_markers-2008-05-26_08_53_Mon
-    old: 98f7d5b2fe7cc02b8d419b6546c3e255c4b0c57c
+  - ref: refs/heads/sched/cpu-hotplug
+    old: e545a6140b698b2494daf0b32107bdcc5e901390
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-sched_markers-2008-06-16_09.17_Mon
-    old: 4024353eb87d544986291d9b0347cd955db877de
+  - ref: refs/heads/sched/cpuset
+    old: dfb512ec4834116124da61d6c1ee10fd0aa32bd6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-sched_markers-2008-06-25_10.28_Wed
-    old: 8215b8b4e95b88d8d181c53ba7dc8015b0edd9fb
+  - ref: refs/heads/sched/cpusets
+    old: d294eb83d8d39a29f01dad391f15fc3a29aa04f9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-stopmachine-allcpus-2008-05-26_08_53_Mon
-    old: 3da0eac4ac1ad2ecb905c481a1e79c4c78389c23
+  - ref: refs/heads/sched/debug
+    old: af66df5ecf9c9e2d2ff86e8203510c1c4519d64c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-stopmachine-allcpus-2008-06-16_09.26_Mon
-    old: 148a89eb09942fe843fb454d4e0082a1c8ad4903
+  - ref: refs/heads/sched/devel
+    old: 34b3ede2353604ec9861c1d900b2a835ff85de47
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-sysprof-2008-05-26_08_53_Mon
-    old: fb52c1aeaa2a09ab753e7d35c2afaf95affadfd9
+  - ref: refs/heads/sched/devel.smp-group-balance
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-sysprof-2008-06-16_09.17_Mon
-    old: ed9e4996d9a123b7550e63713d563f524fa9d9f0
+  - ref: refs/heads/sched/docs
+    old: 50fa610a3b6ba7cf91d7a92229177dfaff2b81a1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-sysprof-2008-06-25_10.29_Wed
-    old: 37f5d732f34fa099676b2c52b8a57bab01a011de
+  - ref: refs/heads/sched/domains
+    old: 3905c54f2bd2c6f937f87307987ca072eabc3e7b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-textedit-2008-05-26_08_53_Mon
-    old: 3b821308022fe5d830c3ea91beb0249b2af9754d
+  - ref: refs/heads/sched/locking
+    old: bd8e7dded88a3e1c085c333f19ff31387616f71a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-textedit-2008-06-16_09.17_Mon
-    old: 84d3c276dd163557d6af98855df57ec3194a1e5d
+  - ref: refs/heads/sched/new-API-sched_setscheduler
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-tracing-textedit-2008-06-25_10.29_Wed
-    old: 18a8ac18accb465d22bb5e7212dae75549d76bbc
+  - ref: refs/heads/sched/rt
+    old: ceacc2c1c85ac498ca4cf297bdfe5b4aaa9fd0e0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-apic-2008-05-26_08_53_Mon
-    old: 73da10fa722bb6de9a6fb5b0a89fcbc537a80a42
+  - ref: refs/heads/sched/urgent
+    old: d670ec13178d0fd8680e6742a2bc6e04f28f87d8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-apic-2008-06-16_09.26_Mon
-    old: 9c0a26eaa8071782141d9e2ac763211dc0aa93fb
+  - ref: refs/heads/sched2
+    old: ea3f01f8afd3bc5daff915cc4ea5cc5ea9e7d427
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-apm-2008-05-26_08_53_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/scratch
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-bitops-2008-05-26_08_53_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/stackprotector
+    old: 705bb9dc72b2464a7e421ee45d5e4a3f206d5c75
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-build-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/sysfs/firmware-mmap
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-checkme-2008-05-26_08_53_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/timers/cleanup
+    old: ded7c1ee9799fe0ca725b459f151402e3ca4d12b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/timers/clockevents
+    old: ab0e08f15d23628dd8d50bf6ce1a935a8840c7dc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-05-16-11-16-08
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/timers/clocksource
+    old: 06c3df49521c1b112b777cc4946e5de057c814ba
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-05-19-07-23-00
-    old: 70d8707b11618a845b76d6f025a202ef1b60c04e
+  - ref: refs/heads/timers/core
+    old: e35f95b36e43f67a6f806172555a152c11ea0a78
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-05-20-08-21-09
-    old: f818a06b25bc09822d4064d6838987040d05b751
+  - ref: refs/heads/timers/debug
+    old: 322acf6585f3c4e82ee32a246b0483ca0f6ad3f4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-05-26_08_53_Mon
-    old: 485335561b30ffa80fdaf826f045621f798ba17d
+  - ref: refs/heads/timers/hpet
+    old: 18ed61da985c57eea3fe8038b13fa2837c9b3c3f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-06-16_09.17_Mon
-    old: 1791a78c0b10fe548bf08a2ed7f84a4ea1385430
+  - ref: refs/heads/timers/hpet-percpu
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cleanups-2008-06-25_10.29_Wed
-    old: 1262b0088f3c1928c0487d4074c6cda11a8b78c6
+  - ref: refs/heads/timers/hrtimers
+    old: 6626bff24578753808c8b5bd4f1619e14e980f0f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpa-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/timers/migration
+    old: eea08f32adb3f97553d49a4f79a119833036000a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpa-2008-05-17-15-12-20
-    old: 3856aa0c642dc34af7939e30f93e81eefbe0b935
+  - ref: refs/heads/timers/new-apis
+    old: 74019224ac34b044b44a31dd89a54e3477db4896
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpa-2008-06-16_09.18_Mon
-    old: 883890af8d4f542ced8e55755928141407d638aa
+  - ref: refs/heads/timers/nohz
+    old: 001474491fabeca233168a8598f721c808040f90
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpu-2008-05-26_08_53_Mon
-    old: d40ace0c7b4a329f7d869d0fbf27435543bb2acc
+  - ref: refs/heads/timers/ntp
+    old: c95b4502ad7fe8f3b9954aec794b00ac0046ab3a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpu-2008-05-31_08_53_Sat
-    old: 1beee8dc8cf58e3f605bd7b34d7a39939be7d8d2
+  - ref: refs/heads/timers/posixtimers
+    old: a42548a18866e87092db93b771e6c5b060d78401
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpu-2008-06-16_09.27_Mon
-    old: 8281768624fd5b40620bfed8b5c8831822464d54
+  - ref: refs/heads/timers/ptp
+    old: 86ff9baadf16c8a1b452d72f5585be63457d9b15
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-cpu-2008-06-25_10.29_Wed
-    old: 6174882b17f20207436cec912c7728ffdaef1656
+  - ref: refs/heads/timers/range-hrtimers
+    old: 592aa999d6a272856c9bfbdaac0cfba1bb37c24c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-defconfig-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/timers/rtc
+    old: ef68c8f87ed13f65df867dddf36c0e185b27b942
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-delay-2008-06-23_09.02_Mon
-    old: 066519068ad2fbe98c7f45552b1f592903a9c8c8
+  - ref: refs/heads/timers/timer_list
+    old: 870e2a284567714335d125c390366dce882d726f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-delay-2008-06-25_10.30_Wed
-    old: 28f73e51d0f64a5b896ad816ab8df6f3bcec5810
+  - ref: refs/heads/timers/tracing
+    old: 3f0a525ebf4b8ef041a332bbe4a73aee94bb064b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-fixmap-2008-06-23_09.02_Mon
-    old: 9bedbcb207ed9a571b239231d99c8fd4a34ae24d
+  - ref: refs/heads/timers/urgent
+    old: bcd5cff7216f9b2de0a148cc355eac199dc6f1cf
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-fixmap-2008-06-25_10.30_Wed
-    old: 8b7ef4ec5b1ac8b6feebf5ae9cda85a7514728f8
+  - ref: refs/heads/tip
+    old: 1195a818adbd602edc0e47f6e1e40264b98bc19c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-gart-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tmp.perf/trace2
+    old: 5b9c654d17cc044e7a19659ec6c38e211be0bc13
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-gart-2008-05-17-15-12-25
-    old: 538f0fd0f210c2ce5c585799f18d0e5c7cf6155e
+  - ref: refs/heads/tools/kvm
+    old: b73216be2854c56961cd9b07303e2d3937c3a63d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-gart-2008-05-26_08_53_Mon
-    old: 09d5326f95e26d45cda4212ae344c2346c33f62b
+  - ref: refs/heads/tracing/blktrace
+    old: 48dd0fed90e2b1f1ba87401439b85942181c6df3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-gart-2008-06-16_09.27_Mon
-    old: 33ee375b2ea5dd11581a57d67bedd0ca39b19a5e
+  - ref: refs/heads/tracing/blktrace-v2
+    old: d508afb437daee7cf07da085b635c44a4ebf9b38
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-gart-2008-06-25_10.30_Wed
-    old: 037a6079eb925f7653bddf1501f777abcd4fc91e
+  - ref: refs/heads/tracing/branch-tracer
+    old: 98f164047d5e0b092cfa177a4066f08612ae4df5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-i8259-2008-05-26_08_53_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/tracing/core
+    old: ad56b0797e67df5e04b2f1a1e02900145c5c16f2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-i8259-2008-06-25_10.30_Wed
-    old: 48cf937f48f68bd1e61f37c6357dbff5adb95532
+  - ref: refs/heads/tracing/core-v2
+    old: 2e572895bf3203e881356a4039ab0fa428ed2639
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-idle-2008-06-16_09.18_Mon
-    old: 39b945a37bac2b692773a470890c8ba301485b15
+  - ref: refs/heads/tracing/core-v3
+    old: f8d56f1771e4867acc461146764b4feeb5245669
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-idle-2008-06-23_09.16_Mon
-    old: 481c5346d0981940ee63037eb53e4e37b0735c10
+  - ref: refs/heads/tracing/doc
+    old: 42b40b3d55f5782b00b74d9105c3565fbfa5cb80
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-intel-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/docs
+    old: 0a5d649018b151cb9331c213a843ac4a3e7e44ab
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-irq-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/dump-tracer
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-irq-2008-06-16_09.27_Mon
-    old: d939d2851fd12568e2eabb2916769e8a57ba5c89
+  - ref: refs/heads/tracing/events
+    old: de1d7286060430e79a1d50ad6e5fee8fe863c5f6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-irq-2008-06-25_10.30_Wed
-    old: cbd6712406a3ea861b49fbfd46e23cbf5f8e073f
+  - ref: refs/heads/tracing/fastboot
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-irqstats-2008-05-26_08_53_Mon
-    old: b160a258d7dacee8bbdda64b88b6f138d455c764
+  - ref: refs/heads/tracing/fastboot-v2
+    old: f8d56f1771e4867acc461146764b4feeb5245669
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-irqstats-2008-06-16_09.27_Mon
-    old: c54f9da1c8ceee19436430afac0798a989eb886d
+  - ref: refs/heads/tracing/filters
+    old: d94fc523f3c35bd8013f04827e94756cbc0212f4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-kconfig-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/ftrace
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-kconfig-2008-05-26_08_53_Mon
-    old: 7810babce65b53f31bca57cc4c6e7836281b1bcb
+  - ref: refs/heads/tracing/ftrace-mergefixups
+    old: 45158894d4d6704afbb4cefe55e5f6ca279fe12a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-kconfig-2008-06-16_09.28_Mon
-    old: 7aaaec38fcd9ef3172e69f8c19f20113830a8498
+  - ref: refs/heads/tracing/function-graph-tracer
+    old: 0012693ad4f636c720fed3802027f9427962f540
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-kconfig-2008-06-25_10.30_Wed
-    old: 0ed368c71aa65cba8d349432bd4dab4a9a2eb39c
+  - ref: refs/heads/tracing/function-return-tracer
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-ldt-2008-05-26_08_53_Mon
-    old: 78b58e549a3098a8c1408d0214bd25e5d5e7a3a3
+  - ref: refs/heads/tracing/graph-tracer
+    old: 9b03638963e4b239dff1b424b91062a710d4b2e9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mce-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/hw-branch-tracing
+    old: 1cb81b143fa8f0e4629f10690862e2e52ca792ff
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-memtest-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/hw-breakpoints
+    old: 68efa37df779b3e04280598e8b5b3a1919b65fee
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-memtest-2008-05-26_08_53_Mon
-    old: 5c50c4f9abf35d594f712eec256471e14bf9e497
+  - ref: refs/heads/tracing/immediates
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-memtest-2008-06-16_09.19_Mon
-    old: 064a32d82c20cdcb0119a8b316eb520608d8c647
+  - ref: refs/heads/tracing/kmemtrace
+    old: 833bb3046b6cb320e775ea2160ddca87d53260d5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-memtest-2008-06-25_10.31_Wed
-    old: 607baf1f4ef94637ab0f7d0e258932851dc5c0a2
+  - ref: refs/heads/tracing/kmemtrace-v2
+    old: 2121db74ba0fd2259f0e2265511684fadda9ac49
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mm-debug-2008-06-23_09.04_Mon
-    old: 952f4a0a9b27e6dbd5d32e330b3f609ebfa0b061
+  - ref: refs/heads/tracing/kmemtrace2
+    old: 3e80680208ba6ce9635ca7c21ad0019442ea166a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mm-debug-2008-06-23_09.49_Mon
-    old: daa9176ffa39bf43e326fe4b490c7fa64b2fe4e6
+  - ref: refs/heads/tracing/kprobes
+    old: 23e8ec0d1c410f2f1d81050ee155db229abb1707
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mm-remove-arch-get-ram-range-2008-06-23_09.06_Mon
-    old: 952f4a0a9b27e6dbd5d32e330b3f609ebfa0b061
+  - ref: refs/heads/tracing/markers
+    old: 91f73f90d97fa67effbb49e0a79c50cf26dfe324
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mm-remove-arch-get-ram-range-2008-06-23_09.24_Mon
-    old: 087c66c2d6a0112e61add600d7b291dfcc9529dd
+  - ref: refs/heads/tracing/mm
+    old: 3383e37ea796d57d3bf2ce37c607c9a098a5ef83
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mm-remove-arch-get-ram-range-2008-06-25_10.31_Wed
-    old: 5702de6382c977ec832beff88c24ce9bfe81c8a4
+  - ref: refs/heads/tracing/mmiotrace
+    old: 0f9a623dd6c9b5b4dd00c232f29525bfc7a8ecf2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mmio-2008-06-04_18.09_Wed
-    old: 1beee8dc8cf58e3f605bd7b34d7a39939be7d8d2
+  - ref: refs/heads/tracing/mmiotrace-mergefixups
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mpparse-2008-05-26_08_53_Mon
-    old: 3394e163f7191006193a2754a9130431cb71fb5c
+  - ref: refs/heads/tracing/nmisafe
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mpparse-2008-06-16_09.20_Mon
-    old: e4d19a101069771ad4a8c8b0239ea91b9deb320a
+  - ref: refs/heads/tracing/options
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mpparse-2008-06-23_09.51_Mon
-    old: cc94fc54cbc74ade5162cdc5027c9bda597f2fc3
+  - ref: refs/heads/tracing/pipe
+    old: f8d56f1771e4867acc461146764b4feeb5245669
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mpparse-2008-06-25_10.31_Wed
-    old: 2b0d6354ebd74e982bc705e4f3581b87f2092a0c
+  - ref: refs/heads/tracing/power-tracer
+    old: 72b623c73685e86b70a51855e1058ebc98a9f6ed
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-mtrr-2008-05-16-12-09-30
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/tracing/powerpc
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-nmi-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/printk
+    old: 7bffc23e56e92c14b787bf4d95249a32085bfed5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-nmi-2008-06-16_09.20_Mon
-    old: 28638ea4f8adb63f837e4436560ab16ab0388587
+  - ref: refs/heads/tracing/profiling
+    old: 34886c8bc590f078d4c0b88f50d061326639198d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-nmi-2008-06-25_10.31_Wed
-    old: 8700600a74852d75eb965b969dcf9f58e2b32546
+  - ref: refs/heads/tracing/ring-buffer
+    old: 7d7d2b803159d4edeb051b0e5efbc1a8d9ef1c67
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-nmi-watchdog-2008-06-25_10.31_Wed
-    old: e4d210d7937b38d0b708eda55ab76fc248db1bcf
+  - ref: refs/heads/tracing/sched
+    old: 39aeb52f99f2380c1f16036deed2f7bb8b2e0559
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/sched_markers
+    old: c010b2f76c3032e48097a6eef291d8593d5d79a6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-2008-05-26_08_53_Mon
-    old: 1d530d826dd542fb27d0fda3e58692d4aa637eb9
+  - ref: refs/heads/tracing/splice
+    old: e71e99c294058a61b7a8b9bb6da2f745ac51aa4f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-2008-06-16_09.20_Mon
-    old: a579c0f538d34c608b3f10301090e7758240a84c
+  - ref: refs/heads/tracing/stack-tracer
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-2008-06-16_09.28_Mon
-    old: a579c0f538d34c608b3f10301090e7758240a84c
+  - ref: refs/heads/tracing/stat
+    old: f2aebaee653a35b01c3665de2cbb1e31456b8ea8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-2008-06-23_09.52_Mon
-    old: 4b87bbbc38a16c664b84023faeb98258f40ba558
+  - ref: refs/heads/tracing/stopmachine-allcpus
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-2008-06-25_10.31_Wed
-    old: b02a5f81811bca76e48285264993f16f9404b292
+  - ref: refs/heads/tracing/syscalls
+    old: 2fc1dfbe17e7705c55b7a99da995fa565e26f151
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-numa-fixes-2008-05-26_08_53_Mon
-    old: 8033c6e9736c29cce5f0d0abbca9a44dffb20c39
+  - ref: refs/heads/tracing/sysprof
+    old: b22f4858126a6aa852ad745b94f6b25dbdea708e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pat-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tracing/tasks
+    old: a635cf0497342978d417cae19d4a4823932977ff
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pat-2008-05-19-07-23-07
-    old: a8ac1ae3a2a8ceb5bc1d334a502d42f59b91379c
+  - ref: refs/heads/tracing/textedit
+    old: 548c316137901cc81dea35e26362a9d5ba0b89b6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pat-2008-05-26_08_53_Mon
-    old: 71f36ac5f60e60cf211937ef26751818a78b5ce5
+  - ref: refs/heads/tracing/tracepoints
+    old: 0f01f07fad4ee11d98fe6faa442afbeb0328a378
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pat-2008-06-16_09.20_Mon
-    old: faeca31d068090285b77c39574d2bda14b079c50
+  - ref: refs/heads/tracing/urgent
+    old: 292f60c0c4ab44aa2d589ba03c12e64a3b3c5e38
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pci-ioapic-boot-irq-quirks-2008-06-23_09.52_Mon
-    old: 952f4a0a9b27e6dbd5d32e330b3f609ebfa0b061
+  - ref: refs/heads/tracing/workqueues
+    old: 37d0892c5a94e208cf863e3b7bac014edee4346d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pebs-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/tree/gcl
+    old: 04bea68b2f0eeebb089ecc67b618795925268b4a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pebs-2008-05-17-14-01-06
-    old: 0e50a4c6ab94ffe7e5515b86b5df9e5abc8c6b13
+  - ref: refs/heads/um/irq
+    old: 53c39ce56d203d80ba8217a16bb024b25185fb7e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-pebs-2008-06-25_10.32_Wed
-    old: da7878d75b8520c9ae00d27dfbbce546a7bfdfbb
+  - ref: refs/heads/usb-for-greg
+    old: 0af36739af81f152cc24a0fdfa0754ef657afe3d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-ptemask-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/warnings/bug
+    old: e906786236f13bdf50860a1877b14ad5b2774ed2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-ptemask-2008-05-17-13-53-23
-    old: 369ab6dae3c7c0df90cf76223011156b8da7eb7f
+  - ref: refs/heads/warnings/complex
+    old: f8266224efa235a189aa6f0aac9647c43d1ac07f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-ptemask-2008-06-16_09.20_Mon
-    old: 3557b18fcbe0e29706214f3c7cc680a7823605eb
+  - ref: refs/heads/warnings/infrastructure
+    old: 1b959c3d2d44d4bdd3e21960cd12ab2c4f1ee5a8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-resumetrace-2008-05-26_08_54_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/warnings/simple
+    old: 37ab8fbe02bfd574be9ae676c715b9449ad99862
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-scratch-2008-05-26_08_54_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/warnings/ugly
+    old: 0cfd81031a26717fe14380d18275f8e217571615
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-setup-2008-05-30_12.10_Fri
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/x86/acpi
+    old: 0d3a9cf5ab041c15691fd03dab3af0841af63606
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-setup-2008-05-31_10.10_Sat
-    old: e21868a4cdd93e5883ff61579d4cd799d1a3c244
+  - ref: refs/heads/x86/acpi-rename-acpi_nmi
+    old: 5279585ff2bedc8180da5bdf8aa3ff1736466de2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-setup-memory-2008-06-25_10.36_Wed
-    old: 6ee997c9887088eb0ee10fe588846294ae7256d9
+  - ref: refs/heads/x86/alternatives
+    old: 3fb82d56ad003e804923185316236f26b30dfdd5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-smpboot-2008-06-23_09.52_Mon
-    old: 6e538a760016a5afbd33073964f8377768b52005
+  - ref: refs/heads/x86/amd-iommu
+    old: 129d6aba444d1e99d4cbfb9866a4652912426b65
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-smpboot-2008-06-25_10.36_Wed
-    old: 88edf05a9a08d7f633f7198d85630281bae5ba43
+  - ref: refs/heads/x86/amd-nb
+    old: 84fd1d35cc868a4f7590b6dbdae2d7761287b97a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-threadinfo-2008-05-12-10-09-30
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/x86/apic
+    old: 141d55e6cc590293ea1378f55b9ebd38f5024bf0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-threadinfo-2008-06-23_09.53_Mon
-    old: 009b9fc98ddd83f9139fdabb12c0d7a8535d5421
+  - ref: refs/heads/x86/apic-cleanups
+    old: 1c2a48cf65580a276552151eb8f78d78c55b828e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-timers-2008-05-12-10-09-40
-    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
+  - ref: refs/heads/x86/apm
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-timers-2008-05-26_08_54_Mon
-    old: e517b0b5acd816805ccee808db7c978533ed5fbc
+  - ref: refs/heads/x86/asm
+    old: eab9e6137f237681a04649e786cc4d942bedd6d1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-timers-2008-06-16_09.20_Mon
-    old: fd2c17e1777d46cff14c25ea774a4d17459d188a
+  - ref: refs/heads/x86/asm-generic
+    old: 73a2d096fdf23aa841f7595d114a11ec85a85e4d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-timers-2008-06-25_10.37_Wed
-    old: f6477cc76c73833a56e97f1fafc36a7ca92927e5
+  - ref: refs/heads/x86/atomic
+    old: 3824abd1279ef75f791c43a6b1e3162ae0692b42
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-urgent-2008-05-17-17-16-08
-    old: f26a3988917913b3d11b2bd741601a2c64ab9204
+  - ref: refs/heads/x86/audit-speedup
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-urgent-2008-05-19-07-23-11
-    old: 94bde4cc4ea51d51315d84a3ca689110e735a916
+  - ref: refs/heads/x86/bios
+    old: 9ea77bdb39b62c9bf9fd3cdd1c25a9420bccd380
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-urgent-2008-05-26_08_54_Mon
-    old: b3b0431aa535c0ec88fd33530698d00589ecfe3c
+  - ref: refs/heads/x86/bitops
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-urgent-2008-06-16_09.21_Mon
-    old: 875b2845c3be6a717cf3d7c829a3517ce7ef2ba9
+  - ref: refs/heads/x86/bootmem
+    old: d2137d5af4259f50c19addb8246a186c9ffac325
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-urgent-2008-06-19_09.38_Thu
-    old: 9bedbcb207ed9a571b239231d99c8fd4a34ae24d
+  - ref: refs/heads/x86/build
+    old: 079f85e624189292d1c818b47764916bf8cf84a8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-urgent-undo-ioapic-2008-06-16_09.21_Mon
-    old: aafe88d7fcedb6dd6a93ac71368d76a1ad0ca34c
+  - ref: refs/heads/x86/cleanups
+    old: 7e49b1c8c6d64f55ac83e1f5901b22fa9e51ab80
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-uv-2008-06-04_18.11_Wed
-    old: 1beee8dc8cf58e3f605bd7b34d7a39939be7d8d2
+  - ref: refs/heads/x86/commandline
+    old: 516cbf3730c49739629d66313b20bdc50c98aa2c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-uv-2008-06-16_09.21_Mon
-    old: eb6dfa8ca459d3af1a991c0e6f730301374c481d
+  - ref: refs/heads/x86/compiler
+    old: 74fca6a42863ffacaf7ba6f1936a9f228950f657
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-uv-2008-06-25_10.37_Wed
-    old: 2694b0248ac42ab8e13bf1596c38e4abf46bdaf9
+  - ref: refs/heads/x86/copy-user
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-vdso-2008-05-26_08_54_Mon
-    old: 75d3bce2fc0a80f435fe12f2c9ed2632c8ac29e4
+  - ref: refs/heads/x86/core
+    old: 0813e22d4e0d618eac9b47bec942bf856adca4c5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-xen-2008-05-26_08_54_Mon
-    old: 9cb45b8e60ad5affc964ff7a97cace8628bc0497
+  - ref: refs/heads/x86/core-v2
+    old: 8e0ee43bc2c3e19db56a4adaa9a9b04ce885cd84
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-xen-2008-06-16_09.21_Mon
-    old: 688d22e23ab1caacb2c36c615854294b58f2ea47
+  - ref: refs/heads/x86/core-v3
+    old: 0cfd81031a26717fe14380d18275f8e217571615
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tip-x86-xsave-2008-05-26_08_54_Mon
-    old: d40ace0c7b4a329f7d869d0fbf27435543bb2acc
+  - ref: refs/heads/x86/core-v4
+    old: 0cfd81031a26717fe14380d18275f8e217571615
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/cpa
+    old: b380b0d4f7dffcc235c0facefa537d4655619101
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/cpu
+    old: 910b2c5122ab787179a790ca1dec616fc80f0173
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/cpu-v2
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/cpudetect
+    old: f6db44df5bd39ed33883786d35342759af796e4a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/cpufeature
+    old: be604e695f9a0db4cd5c4c232857a10c6bc9dee4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/crashdump
+    old: f5deb79679af6eb41b61112fadcda28b2a4cfb0d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/debug
+    old: fd8fa4d3ddc4cc04ec8097e632b995d535c52beb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/defconfig
+    old: 15d4fcd615989ed83fe848e6a3c7e9f0361cf0d0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/delay
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/detect-hyper
+    old: 24a42bae6852d27ae569757f5415c91538e6a255
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/devel
+    old: a6360dd37e1a144ed11e6548371bade559a1e4df
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/dma-coherent
+    old: 1fca25427482387689fa27594c992a961d98768f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/doc
+    old: 372e22ef0a87d5fc10d387791f9f19721115820c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/dumpstack
+    old: 878719e831d9e076961aa15d4049a57a6668c67a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/dyn_array
+    old: f2d7499be1b1fe1cd8a5e6a01c1f44173894a241
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/early-printk
+    old: 49553c2ef88749dd502687f4eb9c258bb10a4f44
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/efi
+    old: 9d037a777695993ec7437e5f451647dea7919d4c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/entry
+    old: f5412be599602124d2bdd49947b231dd77c0bf99
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/exports
+    old: a03352d2c1dcb00970801fb8b800a39acd3103d9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/fixmap
+    old: 8827247ffcc9e880cbe4705655065cf011265157
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/for-acpi
+    old: 63cf13b77ab785e87c867defa8545e6d4a989774
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/fpu
+    old: 3e7cf5b00dd5b577b4ee9b2a66e40fb670ef210b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/gart
+    old: c387aa3a1a910ce00b86f3a85082d24f144db256
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/gcc46
+    old: fa10ba64ac94fec4611b79804023eb087862ffe0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/generalize-visws
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/geode
+    old: d4f3e350172a1dc769ed5e7f5bd540feb0c475d8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/gpu
+    old: 477346ff74f4c2aed50e8a0db96a61069f3e5b80
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/header-fixes
+    old: dbca1df48e89d8aa59254fdc10ef16c16e73d94e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/header-guards
+    old: 1503af661947b7a4a09355cc2ae6aa0d43f16776
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/headers
+    old: a4d7749be5de4a7261bcbe3c7d96c748792ec455
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/hweight
+    old: 6ebdc661b608671e9ca572af8bb42d58108cc008
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/hwmon
+    old: 9e76a97efd31a08cb19d0ba12013b8fb4ad3e474
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/hyperv
+    old: 6f4151c89b7d036c755d8cf74729e09b76fa6676
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/i8259
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/idle
+    old: ce5f68246bf2385d6174856708d0b746dc378f20
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/intel
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/io
+    old: 1c5b9069e12e20d2fe883076ae0bf73966492108
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/iommu
+    old: 6e9636693373d938aa3b13427be3d212f172ac06
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/irq
+    old: 983bbf1af0664b78689612b247acb514300f62c7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/irqstats
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/kbuild
+    old: c7bd0414d681706a32105895cae20fb9090db52e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/kbuild-phys
+    old: 6799687a53a28536fd027ccb644833f66a778925
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/kconfig
+    old: 063402356280a7b262952d6351d21315336f657b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/kexec
+    old: 050438ed5a05b25cdf287f5691e56a58c2606997
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/kprobes
+    old: 31bbed527e7039203920c51c9fb48c27aed0820c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/ldt
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mce
+    old: c7cece89f1b00b56276303942f96ec67cf206e1e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mce-urgent
+    old: a4d7749be5de4a7261bcbe3c7d96c748792ec455
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mce-vetoed
+    old: 757fd770c649b0dfa6eeefc2d5e2ea3119b6be9c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mce2
+    old: 34f25476ace556263784ea2f8173e22b25557a13
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mce3
+    old: 34f25476ace556263784ea2f8173e22b25557a13
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mce4
+    old: 8051dbd2dfd1427cc102888d7d96bf39de0be150
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mem
+    old: 26afb7c661080ae3f1f13ddf7f0c58c4f931c22b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/memblock
+    old: a150439c4a97db379f0ed6faa46fbbb6e7bf3cb2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/memory-corruption-check
+    old: bb5574608a8375026510b4f983ffbb06ece33fe2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/memtest
+    old: ccc0d38ec13d4649d4168c1db590137df53ad783
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/microcode
+    old: bcb80e53877c2045d9e52f4a71372c3fe6501f6f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/minor-fixes
+    old: 39ba5d43fc9133696240fc8b6b13e7a41fea87cd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mm
+    old: b17a5f97d413c9bd882ea5011462f7a530d37ae0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mm-debug
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mm-debug-v2
+    old: 7aa413def76146f7b3784228556d9e4bc562eab3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mm-remove-arch-get-ram-range
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mm-v2
+    old: 7a203f3b089be4410fe065dd9927027eade94557
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mmio
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/modules
+    old: 5e5a29bf2624a5984e1c36c3a2481ee91249ec9c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mpparse
+    old: 7d3b56ba37a95f1f370f50258ed3954c304c524b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mrst
+    old: 9d037a777695993ec7437e5f451647dea7919d4c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/mtrr
+    old: 50c31e4a2497ea17747b587e8f96b278f07f5483
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/multi-pagetables
+    old: 63cf13b77ab785e87c867defa8545e6d4a989774
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/nmi
+    old: e3a61b0a8c0e342e700a61cd554b01050f333a36
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/nmi-watchdog
+    old: 5b9a0e14eb4bf40a7cb780af4723560e06753f2d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/numa
+    old: 1e01979c8f502ac13e3cdece4f38712c5944e6e8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/numa-fixes
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/old-mrst
+    old: f6614b7bb405a9b35dd28baea989a749492c46b2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/olpc
+    old: 07d5b38e14b7ff98eb52e4a6db4e20abcc608da3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/oprofile
+    old: 20211e4d344729f4d4c93da37a590fc1c3a1fd9b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pagesetup
+    old: d1c6d2e547148c5aa0c0a4ff6aac82f7c6da1d8b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/paravirt
+    old: c8217b8305e5e75c23617f2f4cd262527d952c0a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/paravirt-spinlocks
+    old: 1c29dd9a9e2f83ffb02e50bb3619c3b9db8fd526
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pat
+    old: ad41a1e0cab07c5125456e8d38e5b1ab148d04aa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pat2
+    old: f3b8436ad9a8ad36b3c9fa1fe030c7f38e5d3d0b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pci
+    old: b30a3f6257ed2105259b404d419b4964e363928c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pci-ioapic-boot-irq-quirks
+    old: 7a9787e1eba95a166265e6a260cf30af04ef0a99
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pda
+    old: f3b8436ad9a8ad36b3c9fa1fe030c7f38e5d3d0b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/pebs
+    old: 493cd9122af5bd0b219974a48f0e31da0c29ff7e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/percpu
+    old: bdf977b37418cdf8a2252504779a7e12a09b7575
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/percpu-zerobased
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/platform
+    old: 32a85aa727cefd19640d3f4ea12a6e16ebcc58fb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/process
+    old: e634d8fc792c66c3d4ff45518c04848c1e28f221
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/prototypes
+    old: 8d7ccaa545490cdffdfaff0842436a8dd85cf47b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/ptemask
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/ptrace
+    old: 6dbbe14f21368a45aedba7eab0221857b8ad8d16
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/ptrace-v2
+    old: 325af5fb1418c79953db0954556de048e061d8b6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/quirks
+    old: 38175051f8e79c5e9f65daab7200fd8d1fa4a912
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/rdrand
+    old: 49d859d78c5aeb998b6936fcb5f288f78d713489
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/reboot
+    old: 660e34cebf0a11d54f2d5dd8838607452355f321
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/resumetrace
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/rlimit
+    old: 2854e72b58dad82f5248b30a45dda0df49e5fe05
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/rwsem
+    old: b4bcb4c28c64cc2876b4aef218d992ce806194da
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/s2ram-fix
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/sched
+    old: 2fb6b2a048ed8fa3f049c7d42f7a2dd3f0c8d7a6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/scratch
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/security
+    old: 94462ad3b14739d158a1ab87bb30008c1e5a6bc1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/setup
+    old: 0c61227094b3ddaca2f847ee287c4a2e3762b5a2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/setup-lzma
+    old: 1359096eacb1971be67eead8bf9b582864d92a30
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/setup-memory
+    old: 0a699af8e613a670be50245366fa18cb19ac5172
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/setup-v2
+    old: 3bd323a1da42525317e2ce6c93b97b5ba653bc9d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/signal
+    old: 73d382deccac186d103496bf10388bc2432a8384
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/smep
+    old: de5397ad5b9ad22e2401c4dacdf1bb3b19c05679
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/smpboot
+    old: 14cb6dcf0a023f5977461c94d8d5a163c937979b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/sparse-fixes
+    old: 4db646b1af8fdcf01d690d29eeae44cd937edb0d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/spinlocks
+    old: 695d16f7870847c304a8cb9555572b07a541d4ee
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/step
+    old: 48ae74443403ab25876959e84785f61bf421ccef
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/subarch
+    old: 5662a2f8e7313f78d6b17ab383f3e4f04971c335
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/threadinfo
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/time
+    old: 205516c12dbba003c26b42cfb41e598631300106
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/timers
+    old: 995bd3bb5c78f3ff71339803c0b8337ed36d64fb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/tlbflush
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/tracehook
+    old: 4ab4ba32aa16b012cb0faabf1a27952508fe67f2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/trampoline
+    old: fd5ed43f54270c0a6aedcaf9e46c15cfa1f27a73
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/traps
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/traps-v2
+    old: a9b6148d25f15ddfe9d7a7f3e526fdb64e7cf7da
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/tsc
+    old: df049672dddde4a2fdacf63fb32eb80146e26841
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/txt
+    old: 4bd96a7a8185755b091233b16034c7436cbf57af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/uaccess
+    old: 18114f61359ac05e3aa797d53d63f40db41f798d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/um-header
+    old: 5e1b00758b5a8bee9d42515bffdaf305a32f1b04
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/unify-cpu-detect
+    old: 43603c8df97f246e8be7b9cc92a8f968a85108bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/unify-lib
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/unify-mce
+    old: fec6c6fec3e20637bee5d276fb61dd8b49a3f9cc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/unify-pci
+    old: 3cabf37f6167125cb5185db05f5061650f685ab7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/unify-setup
+    old: b9d2252c1e44fa83a4e65fdc9eb93db6297c55af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/unify-setup-base
+    old: b9d2252c1e44fa83a4e65fdc9eb93db6297c55af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/urgent
+    old: 2b666859ec323403ac9a3a441d16eab30945404b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/urgent-undo-ioapic
+    old: b9d2252c1e44fa83a4e65fdc9eb93db6297c55af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/uv
+    old: 6a469e4665bc158599de55d64388861d0a9f10f4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/uv-v2
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/vdso
+    old: 664ef2123f4abc05857bf9b2dcccb800fa6fce26
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/vm86
+    old: 6554287b1de0448f1e02e200d02b43914e997d15
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/vmalloc
+    old: e621bd18958ef5dbace3129ebe17a0a475e127d9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/vmware
+    old: b0f4c062fb6dd4c02b1fe6de73319ed50a09b27d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/x2apic
+    old: fa47f7e52874683a9659df2f1f143105f676dc0f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/xen
+    old: d7d3756c5b1277fafd132ce7a2211b388c3b5bd2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/xen-64bit
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/xen-64bit-base
+    old: 50515af207d410c9f228380e529c56f43c3de0bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/xen-dom0
+    old: 169aafbc8d3f05431b5cfeb60294a12b8ef2bcee
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/xen-v2
+    old: fd048088306656824958e7783ffcee27e241b361
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/xsave
+    old: 300c6120b4653043e8a80b24e0483c0d223c5aac
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/xen-64bit
+    old: e66d90fb4abd0a27ee96f57a32fb561221c4d6ae
     new: 0000000000000000000000000000000000000000
