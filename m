@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 24 Jun 2021 02:05:19 -0000
-Message-Id: <162450031971.31280.3310562313509344904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Thu, 24 Jun 2021 02:20:49 -0000
+Message-Id: <162450124934.9636.5230418823097505869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 8cf958d05d3a8f2ed7f38d1541c797f80430b0fd
-    new: 3a43a0d955d6fcf4c08f3f9954e9e3827f33452d
+  - ref: refs/heads/misc
+    old: 42e87120aa8e1fc3b67db346fa291bede4c6b2b6
+    new: f61a6d2f7453ca9ce73d969a71f6765202057db6
     log: |
-         445b58405e81d996fb4037223b9e81fc258a07ea cpufreq: cppc: Fix potential memleak in cppc_cpufreq_cpu_init
-         1306da819f4847093e65e0417e6dbe9c28843093 cpufreq: cppc: Pass structure instance by reference
-         5c6734e695eaacaac817e9ccfacbb57ee49c3575 arch_topology: Avoid use-after-free for scale_freq_data
-         b12358dfe8ec190f4e0086540d37934dd1fe8b55 cpufreq: CPPC: Add support for frequency invariance
-         3a43a0d955d6fcf4c08f3f9954e9e3827f33452d Merge branch 'cpufreq/cppc' into cpufreq/arm/linux-next
+         8622da384e86b35fedcfd408f131f56d56f0e0a0 nfs: fix acl memory leak of posix_acl_create()
+         f61a6d2f7453ca9ce73d969a71f6765202057db6 nfs: NFSv3: fix SGID bit dropped when inheriting ACLs
          
