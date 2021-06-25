@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1576928544263229690=="
+Content-Type: multipart/mixed; boundary="===============5294402913684261555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 25 Jun 2021 11:23:54 -0000
-Message-Id: <162462023441.14828.18159851366057137694@gitolite.kernel.org>
+Message-Id: <162462023483.14851.5251899770726129962@gitolite.kernel.org>
 
---===============1576928544263229690==
+--===============5294402913684261555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.12.y
-    old: 1463281b5efd2a55223e4d39e78fbc2e2a5a192f
-    new: 6645d6f022e751498713e7c669a7f3c434d2c652
-    log: revlist-1463281b5efd-6645d6f022e7.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 3de043c6851d7c604e0cabdf8e2aca7797952aa9
+    new: 88b257611f2a985f74b6a788723711223439fbed
+    log: revlist-3de043c6851d-88b257611f2a.txt
 
---===============1576928544263229690==
+--===============5294402913684261555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,41 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624620233 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1624620231-a57f21ec1a0b5e9f53b78d9825d0651a7796f385
 
-1463281b5efd2a55223e4d39e78fbc2e2a5a192f 6645d6f022e751498713e7c669a7f3c434d2c652 refs/heads/linux-5.12.y
+3de043c6851d7c604e0cabdf8e2aca7797952aa9 88b257611f2a985f74b6a788723711223439fbed refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDVvMkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qFEP/RbaM5em3GViTmuzD9Os
-BgiGe116Wan5Xd4320LqMgMH6R6I8fP74eYtRCA2wiaEZIgaFPi/JWHPYQEfSzVc
-KUquQukIl3vI8JfC+Iv9pibfW25VmF8lp2xVP+lNi9gHOrsw4gVnvXXL9iJrgyjm
-T485l7B1TWPvHkqzi2zl3d+ls8P4HbvL8l/Y9sv/qzllaQqHo2tkUbNJ/8DwDBVO
-YXBodbBk0wskH6VE9f0Z7WEDlz8jzLqCL55fjMrt7V+UHWsLY8aUWdzCenfnxx4C
-2hn3F6Y3GZxEikVjlVVGTeAqZ+K7t9aybGjvtaol/FRpjfa+w5YvryqIo8RwEfzw
-/QGNwC+YDN5pJdsmF9HJ8v8IEKCA9VV8ooewpecL/Gck6y4lPzHr5dblNjBNJSen
-H57z2sSicv8on7BQtu1Sft/ciKWa1yGezn7C0513ashV+xxsQtLO7w2v7JBgd6MD
-QltGtsSrpDMTRtZHwpit5Aho3dVNw02+6Mr50UgIFVzprSI5nzTVOZMq8YFeUArq
-yceF7Xf2sT+VyJXYzUP+e0LUFgiySeN8kQrjbTmzN0wJemNy3ef5RlZVrA/M5aRj
-9ngIilpm0NDAQ+9z2X/qJKKfiDufjrYAQB0XdHJcFuX1+oX+mtWsOLu2Ygo0Iakw
-y69rgK7L1qnoc0CQ2sLbr/3A
-=G2u3
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Oq8QAKVTAhVHP66rN1WQOIGZ
+G73X1rM3lmgMu9JYYz6SynjVx/63gsBtbwG71SwIHp1vMX1alqsseidfr3IyGmj+
+TArOTM/7EFK5tYsFU/yfwx0VAHKA6GpbxiMlhJR/qDYkJzqSBCFBbv2Sp6/uWvc1
+nK42nz8KgO6h92px4pvAQYLftHhQa0DeBV4NJ3tJQh7TPVMzYUjqX0jaViUpzNoO
+JNPVSb93HcFh3rTOzepPkLNL0VsiVtymbBhc9G3oYD5Hi2y865nwaUTGix4xedn7
+WVNXwwzAmoxFH0+KDgGUS3AJZhjbjUS7XA9wbDEzoV6V7P60S7N4h4xdtW64HapR
+9MrY6SO6QaLR05cDXqIVQBtQpnEIqp5Ukegzl3qnkwsTZwYNLmCgpL3FbbK5TmDc
+41d7PG00LxL4H/cO6BZNWqRyRKJitYWgSvhX4CtpCxxD1zRhOGRzmRW/LYF07QK1
+iYxtvC7UOHNBveuVLo5MaStqrKsPj8L6O52N0MN/WttNmlYa/wuIByJgHZ8cVeIJ
+K0TQ/Y+MpZfVUAardwnYZOKKiC0ChP6inP8IMIqweSMP34cVRyVlhA8pFdqZl8ej
+PlIIjn5cLIFFaPLcmqluzm4X6uMFtKU/GK9EgthvLSKUBuL1chq7O6IM92ghY0C2
+N+uMXaLKmveDwROOrgYOCEut
+=vVme
 -----END PGP SIGNATURE-----
 
---===============1576928544263229690==
+--===============5294402913684261555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1463281b5efd-6645d6f022e7.txt
+Content-Disposition: attachment; filename=revlist-3de043c6851d-88b257611f2a.txt
 
-b5431fa8654645ade318eac0befe953d46e4bf1d module: limit enabling module.sig_enforce
-b40bc2427e2976eeef86a819da657057bc800c36 Revert "drm/amdgpu/gfx9: fix the doorbell missing when in CGPG issue."
-41fde4429255a9b67f6862dd145f6ff269705098 Revert "drm/amdgpu/gfx10: enlarge CP_MEC_DOORBELL_RANGE_UPPER to cover full doorbell."
-7c67d92565b39a1540cc81d2c137fed061c33b3c drm: add a locked version of drm_is_current_master
-faa33d83f598ecf2cb4933f42bea03b919ffa3c9 drm/nouveau: wait for moving fence after pinning v2
-cf9b47802341a46cdc2baa7a405f6befa7c95846 drm/radeon: wait for moving fence after pinning
-7606c3d3e221c47fb8a62c9c7838f4fc2b7e3edd drm/amdgpu: wait for moving fence after pinning
-219784a8558c06aa9d7a190004752b5a9e15d196 ARM: 9081/1: fix gcc-10 thumb2-kernel regression
-7f722897ffdb7f53ed3dffdd4e4fc49ef36789cb mmc: meson-gx: use memcpy_to/fromio for dram-access-quirk
-8e7e7c45a2e6e8c55d79472f87b448698e03ae17 psi: Fix psi state corruption when schedule() races with cgroup move
-6645d6f022e751498713e7c669a7f3c434d2c652 Linux 5.12.14-rc1
+5aa711c60fe1f88f36dfb63af75a62cda4ec9867 module: limit enabling module.sig_enforce
+94842f921c2e8294927069056d365a1ed925fa9a Revert "drm/amdgpu/gfx9: fix the doorbell missing when in CGPG issue."
+a85286b3da264e7bed28dd0477289809524ab131 Revert "drm/amdgpu/gfx10: enlarge CP_MEC_DOORBELL_RANGE_UPPER to cover full doorbell."
+be5cfab1aefce9ec0164cf96ed2f7ee46ebdb631 drm: add a locked version of drm_is_current_master
+e0264e464159f77a7c35eaf3def19502f8cc083f drm/nouveau: wait for moving fence after pinning v2
+30778ada42c3f501789467d7846e74996f305e89 drm/radeon: wait for moving fence after pinning
+a348bfee21a2cf34ae6b03bd381abb0f3aecddbc drm/amdgpu: wait for moving fence after pinning
+c9df3341e1f99fff4930131cc974e32f0be1b34c ARM: 9081/1: fix gcc-10 thumb2-kernel regression
+b6318bc315273e560df2f4b14e4d41683190c81a mmc: meson-gx: use memcpy_to/fromio for dram-access-quirk
+44a4a2661dbd4a8a46bb62c00ff102d7663c7aa6 MIPS: generic: Update node names to avoid unit addresses
+5a45503cc4e6af6aef842f23f14254f7e40a389b arm64: Ignore any DMA offsets in the max_zone_phys() calculation
+89dbcd4e3b65cbbcf519d37655316027764c6e0c arm64: Force NO_BLOCK_MAPPINGS if crashkernel reservation is required
+88b257611f2a985f74b6a788723711223439fbed Linux 5.10.47-rc1
 
---===============1576928544263229690==--
+--===============5294402913684261555==--
