@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 25 Jun 2021 11:00:50 -0000
-Message-Id: <162461885055.32396.11704260138764658420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 25 Jun 2021 11:15:02 -0000
+Message-Id: <162461970231.7643.7534365554996128075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 35a9b0d5772efb815e3a0ff04f21a7afd0bcdd8f
-    new: 5efc31f9d8c7c95a2895e8d10052be11a66ec569
+    old: 0cc84b9a6003fa7f6ef5d19e7c8532a01cd41776
+    new: a196fa78a26571359740f701cf30d774eb8a72cb
     log: |
-         5efc31f9d8c7c95a2895e8d10052be11a66ec569 cfdisk: optimize mountpoint detection for PARTUUID
+         a196fa78a26571359740f701cf30d774eb8a72cb bpfilter: Specify the log level for the kmsg message
          
