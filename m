@@ -1,84 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7298719548959152077=="
+Content-Type: multipart/mixed; boundary="===============1921526344040086105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 25 Jun 2021 11:52:28 -0000
-Message-Id: <162462194817.3122.16062048908562427442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 25 Jun 2021 11:54:20 -0000
+Message-Id: <162462206031.3819.12316766001067832223@gitolite.kernel.org>
 
---===============7298719548959152077==
+--===============1921526344040086105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7
-    new: 6f746d485fb9188dc67dce7de63d21f0c28a1f2e
-    log: revlist-d4e1406618a1-6f746d485fb9.txt
+  - ref: refs/heads/tty-testing
+    old: 4834446035a1011ff1231626ef33555d64c4fd78
+    new: 15279ebe99d7c6142d9f1a6ae4ded66c0f168678
+    log: |
+         9078204ca5c33ba20443a8623a41a68a9995a70d serial: mvebu-uart: fix calculation of clock divisor
+         ecd6b010d81f97b06b2f64d2d4f50ebf5acddaa9 serial: mvebu-uart: do not allow changing baudrate when uartclk is not available
+         deeaf963569a0d9d1b08babb771f61bb501a5704 serial: mvebu-uart: correctly calculate minimal possible baudrate
+         56b3276954f0e3b32760997a904fcbaec25bc005 dt-bindings: mvebu-uart: fix documentation
+         2cbfdedef39fb5994b8f1e1df068eb8440165975 arm64: dts: marvell: armada-37xx: Fix reg for standard variant of UART
+         15279ebe99d7c6142d9f1a6ae4ded66c0f168678 serial: mvebu-uart: remove unused member nb from struct mvebu_uart
+         
 
---===============7298719548959152077==
+--===============1921526344040086105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624621947 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1624621947-f2a031f9f09e39d8174c8e21f85cd62e778ff54c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1624622058 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1624622058-7d4b2d93c86d0a860a2ca48906b2a4abc226c949
 
-d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7 6f746d485fb9188dc67dce7de63d21f0c28a1f2e refs/heads/char-misc-next
+4834446035a1011ff1231626ef33555d64c4fd78 15279ebe99d7c6142d9f1a6ae4ded66c0f168678 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDVw3sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wiIQALKcjYjfpmuqOq9oVPnP
-RTNAyPAcL34nlhgkH/Js3f8c0NkOLUV8WR7JkY0122024CpWqfO0fQJ5eEYNZPAs
-Mu886zzGXesZFEUD88kWcytISCeIgTAvZuSXPqy/R7U3cBPYtIqhXEiBDCKkN8Sz
-nHeK+cs8MrujLLgNQTA3Qt3HWakJLjq0VZ/rvfc/+853K/+yB7FiAmSunoizoa/M
-CKxk0f/aFjXFLxh9aqa+J+pj5g7b3UQRuE4O1MSbwG0C5kKOzW9jsFMl/uadkqzJ
-SP2OUk1LKK9xDR/QGmm6j6brEYpZDi0FaWRKtlyx/JKmspwoVvk1JQNKSdJP5/pn
-v538oKSHEm93y3BQKRVv060r7LBCtcl7RkCWNAp/uKfC4Z3vqqXwzSZyulbv3k0x
-/MnckdRUp15CE9n5W22hNBraeyZaDBBCIoeTaOGiB2+oDRJsLYIIB973mr6prlBO
-2na+ihtlvrkjnFEs0ZIkDtzeqfPTXWbcH7ckZw9rP8FLL4fNWIuKo/1Z0YPvCgc/
-8jTZ8awkb9gfkIl8M6l8euyGIhYUaVVvR531NNhWmnKId9qfQZ+HIe7pPQ9FCZO1
-HOCvp2DeL+6REZcMhdjuNT3eF6W8MPc9xBfThia8mbWfj2T9bUbz5FOaqbrimcg0
-K+C+xOMflJSnLDFE5HIVwmh8
-=9a6Z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDVw+obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ykQP/iLQtjkQRl+IvyWlgyme
+1o1T6HE0Rz/dHijjcr6BwnVWTQ5eGsgnzagc7VWSawu1B9AeVMPqhZIp34VJ+mtk
+YCYw/cpUQgRJ40M+HAiC9vkym92Ch0SYTo1xp6F6q0YfVzEqvs6MP8LV6UEWEBWN
+HctPxJhyQAiScDZSEmY0h6sZn9vKter/73eM1gSGK1mduFQ2dfz7dONpNM/WlLPe
+rb4fEL+Uc4NpmiNEQJVaTXXgroemcI3WJeUnbEztDIICNCRmITWTMM+aygTxOTDY
+JoAdLSKg+u8AWOIDKtgKws7MbI/sxOrRAGEh6GaHUJIITmVElCadGN3Zvuj5Boww
+hkRTwpluT8vonQZpO/GOYcdrcmiZ1Bgs9wrbBpZpz0LZURkwvNnHm/GVeFPynVVn
+gR3WPG2PRu8YMLa9BfmkLq7c5+4Hlp2uou0rZciqmtPyHs4WVMisb0QnG1TVbmnh
+I3t8RC6xktGp+iCF/I+fIevbozFq6NJQr6PCaf0RgJmZiqjGcrcWd9V095eb1fu2
+7BufZ1sXbGXdaVCrdmDuM5ny2HQ8sbqU5BqfcwpUWuc9/D6Tohg3/yH2XOou0zJo
+SXgPs0Jl47LkXeUQwfPxsetIOsrFAKW4i6sbantRA4AYgrSStlTp7dnwplSSoVtU
+ivE6xg74d3jh2EQcas38ZaMl
+=OAsF
 -----END PGP SIGNATURE-----
 
---===============7298719548959152077==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4e1406618a1-6f746d485fb9.txt
-
-04831e892b41618914b2123ae3b4fa77252e8656 selftests/lkdtm: Avoid needing explicit sub-shell
-c2eb472bbe25b3f360990f23b293b3fbadfa4bc0 selftests/lkdtm: Fix expected text for CR4 pinning
-0acbdbc7205cf754e76c4f234dde4fa42316f50d selftests/lkdtm: Fix expected text for free poison
-a15676ac8f24a9ac5fd881cf17be4be13fa0910a lkdtm/bugs: XFAIL UNALIGNED_LOAD_STORE_WRITE
-9c4f6ebc3665b33f15ee97ba1eb2c9bed341b8e6 lkdtm/heap: Add vmalloc linear overflow test
-f123c42bbeff26bfe8bdb08a01307e92d51eec39 lkdtm: Enable DOUBLE_FAULT on all architectures
-5b777131bd8005acaf7e9d6e7690214155f42890 lkdtm: Add CONFIG hints in errors where possible
-b61ce4d81ba29d0b70487635105e12ec44c3a873 selftests/lkdtm: Enable various testable CONFIGs
-37a0ca7f3e60cb1fc076444b964b45fdaf930a52 lkdtm/heap: Add init_on_alloc tests
-1e2658aef517bec2327b22e1ddb12e33cceee38e fpga: machxo2-spi: Address warning about unused variable
-75020f2df6e431f0916972f3f816346dcaa0187f siox: Simplify error handling via dev_err_probe()
-7487257cea875a2ee0aab088ee1dd92cd77698d4 misc: vmw_vmci: return the correct errno code
-1db376113e45e31eeeda6f91096808cf1827e70c misc: ibmasm: Modify matricies to matrices
-d874742f6a734c73c22235f9d56b8f10bcf17c5f nitro_enclaves: Set Bus Master for the NE PCI device
-d0b371e5fba0ef2b4e3f6a3f1b5fe7f8bd97897e stm class: Spelling fix
-ae128916fb87a91ae41bec0461330e8a81500d84 intel_th: Remove an unused exit point from intel_th_remove()
-02ca71effb96595fb7e0a17df1aaedc5d2e30747 intel_th: msu: Make contiguous buffers uncached
-ab1afed701d2db7eb35c1a2526a29067a38e93d1 intel_th: Wait until port is in reset before programming it
-44b1eba44dc537edf076f131f1eeee7544d0e04f bus: mhi: core: Fix power down latency
-02b49cd1174527e611768fc2ce0f75a74dfec7ae bus: mhi: Wait for M2 state during system resume
-a25d144fb883c73506ba384de476bbaff8220a95 bus: mhi: pci-generic: Add missing 'pci_disable_pcie_error_reporting()' calls
-d02908ad8f34cf98128ee83ec7813ae968b7ea10 PNP: moved EXPORT_SYMBOL so that it immediately followed its function/variable
-6f746d485fb9188dc67dce7de63d21f0c28a1f2e mcb: Use DEFINE_RES_MEM() helper macro and fix the end address
-
---===============7298719548959152077==--
+--===============1921526344040086105==--
