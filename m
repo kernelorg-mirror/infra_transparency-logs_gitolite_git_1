@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Fri, 25 Jun 2021 08:14:59 -0000
-Message-Id: <162460889993.28984.14986400291832587250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Fri, 25 Jun 2021 08:26:15 -0000
+Message-Id: <162460957558.6081.7102273901647412646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: egrumbach
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/iwlmei
-    old: 636b868fcde9d65fa6585bac53454d1ce45a255a
-    new: ff6db0f90b8782ab044f70d25870d5d826f845ca
+  - ref: refs/heads/next
+    old: d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7
+    new: d20c86d49d59a7007030f3e1a07e6847918f15ba
     log: |
-         4319338c5f0851f049826882e38b2a47bee2bffe nl80211: vendor-cmd: add Intel vendor commands for iwlmei usage
-         ff6db0f90b8782ab044f70d25870d5d826f845ca iwlwifi: mvm: add vendor commands needed for iwlmei
+         de01d4e204e34589c6b60024e082a67ea2308c18 habanalabs: support hint addresses range reservation
+         d20c86d49d59a7007030f3e1a07e6847918f15ba habanalabs: allow fail on inability to respect hint
          
