@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 25 Jun 2021 15:08:58 -0000
-Message-Id: <162463373854.11261.332629122257080649@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4179254827453416021=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Fri, 25 Jun 2021 15:19:39 -0000
+Message-Id: <162463437984.17938.10423663984537541974@gitolite.kernel.org>
+
+--===============4179254827453416021==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 6becfe913bda839ae27224a2ea9d6cfb07c3fa2d
-    new: 36941dfe0e8c3e2da7851b9648fd74bd3a3e78ce
-    log: |
-         7364e74d48ec094f46f6a5abfd91dcebece94c0c RDMA/irdma: Remove use of kmap()
-         36f5625af34c89d6c5426c43d321520d668c584c RDMA/hfi1: Remove use of kmap()
-         7ae61c5f16671ecaf23526feb6892c8249d0c2d7 RDMA/hns: Add window selection field of congestion control
-         dc70f7c3ed34b081c02a611591c5079c53b771b8 RDMA/cma: Remove unnecessary INIT->INIT transition
-         ca0c448d2b9f43e3175835d536853854ef544e22 RDMA/cma: Protect RMW with qp_mutex
-         e84045eab69c625bc0b0bf24d8e05bc65da1eed1 RDMA/cma: Fix incorrect Packet Lifetime calculation
-         efcbea302698b610c30f92167b933294f2350d5f RDMA/core/sa_query: Remove unused argument
-         74f160ead74bfe5f2b38afb4fcf86189f9ff40c9 RDMA/cma: Fix rdma_resolve_route() memory leak
-         36941dfe0e8c3e2da7851b9648fd74bd3a3e78ce RDMA/rxe: Missing unlock on error in get_srq_wqe()
-         
+  - ref: refs/heads/ux500-codina-v5.13-rc1
+    old: ec0f62e201d6cfcef23d4120ff1aa843abcee30d
+    new: 0f41a2ad7d3c950a58814b1b2fbfec6f7a69ee97
+    log: revlist-ec0f62e201d6-0f41a2ad7d3c.txt
+
+--===============4179254827453416021==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ec0f62e201d6-0f41a2ad7d3c.txt
+
+8ac9e26558dae86a5960d151d57476edcdef838a ARM: dts: ux500: Add devicetree for Codina
+a17cbc4039832178f89caa88f5dd293bb229b9c9 mmc: mmci: De-assert reset on probe
+49f8f61ab12faf543574ad2b8c93bc9d58aff3f7 mmc: mmci: Implement .hw_reset() callback
+e05ff6444816694e78560d1be7f12a76a445c2c7 mmc: mmci: Add small comment about reset thread
+3b215f7834e55705b26dc4ab1b94afddd5168a99 dt-bindings: clock: u8500: Rewrite in YAML and extend
+b636c1842fd956aca3dad53a0ddc39e7ee15e295 clk: ux500: Add driver for the reset portions of PRCC
+d2ad4f7c368bbdd399847601dc7594090a1a0092 ARM: dts: ux500: Add reset lines to IP blocks
+fef80190a4bdd16c0f8d587366e2b0bb5bcd8e1f ARM: dts: ux500: Add reset capability to Samsung phones
+e6a38fc95752fdebbd15deabfd4cf6b1c5a14e4e drm/dbi: Support DBI typec1 read operations
+0b238cfd276dd255485516b4a09a1b499f1a5986 drm/panel: Add DT bindings for Samsung LMS380KF01
+29fb0431a6ee5c31f1228df824220853fb742c66 drm/panel: ws2401: Add driver for WideChips WS2401
+a640e6d0735c4c14692e48173b4e7138cb06ae81 dt-bindings: input/ts/zinitix: Convert to YAML, fix and extend
+7b78040a0c074c81ff380b45f65d07e15f509b66 Input: zinitix - Handle proper supply names
+0f41a2ad7d3c950a58814b1b2fbfec6f7a69ee97 arm64: dts: qcom: msm8916-samsung-a3u: Fix up touchscreen supplies
+
+--===============4179254827453416021==--
