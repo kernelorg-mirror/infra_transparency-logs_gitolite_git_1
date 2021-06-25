@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3484880292336258000=="
+Content-Type: multipart/mixed; boundary="===============4662631882241335074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Jun 2021 13:07:50 -0000
-Message-Id: <162462647059.21200.15261481068521627255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Jun 2021 13:07:57 -0000
+Message-Id: <162462647712.21347.9075578136506823459@gitolite.kernel.org>
 
---===============3484880292336258000==
+--===============4662631882241335074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 8cc802bd75fbf840635e7d4d48050bbcab4d938d
     new: 6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19
     log: |
          6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19 ASoC: qcom: lpass-cpu: mark IRQ_CLEAR register as volatile and readable
          
 
---===============3484880292336258000==
+--===============4662631882241335074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624626446 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1624626468-69b33d54a0303de55b5b3d9b0799d856ec40d71f
+pusher C3F436CA30F5D8EB 1624626453 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1624626474-46c77dd318213c8acbf2b158029a7026fd826407
 
-8cc802bd75fbf840635e7d4d48050bbcab4d938d 6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19 refs/heads/for-5.14
+8cc802bd75fbf840635e7d4d48050bbcab4d938d 6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19 refs/heads/asoc-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDV1Q4ACgkQJNaLcl1U
-h9CcPgf9Fvt521mluM+EAXlHANDUSuZt0WQBKw2ecBTG2TCRgYOmVvXPs3pSBqhs
-JeFwButWbHLzjvoiyZg6KwUs5aoCwIt/lUmuV6FlJVOf1wHoW4bJNhEbn0kfJJQR
-H8uJhbFoO5OiSdhItfYA1lOy4aAtwYk8pfGrBnFYP0tAVN53EvSuoq7RI7NFIixV
-vhkm1hCqeuUVIP/aiefPkXMnEAfZPqGzIQ+AAt1OwlZmDsqoO710bB5ngDIT2/ZJ
-aUvHFRHG/U1KV8UjmQ2UziiqJoao0Xs+Rgunc4A7J+Zo8Rhdqqy+fX3P8LZfSlLD
-VNXVvLtNNfwi2n6quX8L+wipBnlhEA==
-=xN2L
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDV1RUACgkQJNaLcl1U
+h9BvoQf/Tz2phVuwayO6oQVavp5r84FstHCVWAwQbPxn2mpvD0vPDRC5bx/19tTf
+SEvVZdu2yMTuV633hoED6FBvVHfsULLi3yxWGfKhtosLMsGO8DKDy7XeAuh8PY0M
+YucGFsaqimVSlHYahji+1RkkHpLWEclUSHr+P0M2PgVv6crLNoD3bDXnQPAMJ+y3
+ZptVyRsKe/T1HuQXKkXMXAZplGjJvz+HhWr+82q48BbdjQtEaUqxcd2BjPh+WQF+
+0CkTQsiwFCLs20jRf3CZlmPgiwv3/cTQeMSRfUPgm1sW4LBbfGz3Xvd69B4TSP/6
+hNnWovhIDlC3uxqLQBqxmp2h2Fp9VA==
+=9ZSz
 -----END PGP SIGNATURE-----
 
---===============3484880292336258000==--
+--===============4662631882241335074==--
