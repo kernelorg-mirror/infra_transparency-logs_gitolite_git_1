@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Fri, 25 Jun 2021 18:45:36 -0000
-Message-Id: <162464673614.27176.12587612931200190668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Jun 2021 18:46:45 -0000
+Message-Id: <162464680569.27662.17651996623550550387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/tags/libtraceevent-1.3.3
-    old: 0000000000000000000000000000000000000000
-    new: 729792690d20b9ccc3592547d70431ea592250a3
+  - ref: refs/heads/master
+    old: f92e1869d74e1acc6551256eb084a1c14a054e19
+    new: ac53c26433b51f1835ce5a935970e427d83e3ec5
+    log: |
+         ac53c26433b51f1835ce5a935970e427d83e3ec5 net: mdiobus: withdraw fwnode_mdbiobus_register
+         
