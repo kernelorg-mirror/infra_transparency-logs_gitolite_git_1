@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7021072493257353637=="
+Content-Type: multipart/mixed; boundary="===============3180911477024863129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Fri, 25 Jun 2021 08:14:18 -0000
-Message-Id: <162460885877.28583.18111576969112105404@gitolite.kernel.org>
+Date: Fri, 25 Jun 2021 08:14:55 -0000
+Message-Id: <162460889557.28859.12909772021768018622@gitolite.kernel.org>
 
---===============7021072493257353637==
+--===============3180911477024863129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: b7a71fddc0ddfdd66cdefcf5bf1f59a0f0bdea57
     new: d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7
     log: revlist-b7a71fddc0dd-d4e1406618a1.txt
 
---===============7021072493257353637==
+--===============3180911477024863129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -93,4 +93,4 @@ f274e2962677d77bcd0d1d767e1d2737edf07893 Merge tag 'icc-5.14-rc1' of git://git.k
 5471a8123503c6ca694b5f2543f0a6dfd4080976 Merge tag 'phy-for-5.14_v2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
 d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7 Merge tag 'extcon-next-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 
---===============7021072493257353637==--
+--===============3180911477024863129==--
