@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 25 Jun 2021 12:03:21 -0000
-Message-Id: <162462260176.9944.7814789731989579974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 25 Jun 2021 12:08:20 -0000
+Message-Id: <162462290016.13057.11289147243904549778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: 8090738aa52fbe5dce5723a3b311789f7b90701d
-    new: fd95fd0867cc1c301ff95557045abf5e16e90d56
+  - ref: refs/heads/gpio/for-next
+    old: 45ca16072b700f1e62a908f2de4a12d39edbb49e
+    new: c34c1228fc1cfe83aed909995f5b82e0ab7cb977
     log: |
-         24e166f43e93de0e9b0a460ecfe4bab1f12212d7 HID: core: Add hid_hw_may_wakeup() function
-         978e786c5e9bf538da0a4807539608a52d9be16b HID: usbhid: Implement may_wakeup ll-driver callback
-         622d97cf7f2b4efb36bec3c85b5c1db5e3dfd586 HID: logitech-dj: Implement may_wakeup ll-driver callback
-         498d0ddc6ae931e4e79a57c56b6dd4576aa435b6 HID: multitouch: Disable event reporting on suspend when the device is not a wakeup-source
-         fd95fd0867cc1c301ff95557045abf5e16e90d56 Merge branch 'for-5.14/multitouch' into for-next
+         eda627f6be8aede0e4a80fd0274a2ba944d40f2c dt-bindings: gpio: stp: convert to json-schema
+         cdee1d6222546e9ec886b1deb241ab9566517d97 gpio: mxs: Prefer unsigned int to bare use of unsigned
+         d766dfee58e19d5781f6f9acb5092376742e7888 dt-bindings: gpio: pcf857x: Convert to json-schema
+         c34c1228fc1cfe83aed909995f5b82e0ab7cb977 docs: driver-api: gpio: using-gpio.rst: avoid using ReST :doc:`foo` markup
          
-  - ref: refs/heads/for-5.14/multitouch
-    old: 0000000000000000000000000000000000000000
-    new: 498d0ddc6ae931e4e79a57c56b6dd4576aa435b6
