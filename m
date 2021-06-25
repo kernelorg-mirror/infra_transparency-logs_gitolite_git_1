@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 25 Jun 2021 21:21:32 -0000
-Message-Id: <162465609253.3182.10613172238979754892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 25 Jun 2021 21:44:35 -0000
+Message-Id: <162465747581.16229.7028506483068703336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/dev-queue
-    old: ccf1e33d07ce0dfdd48f5c7b43be12f04169a669
-    new: 33009515d1891307ad89504c57cb1e4ea6f6531d
+  - ref: refs/heads/master
+    old: 190de68ba85c60c14d6b1bb930e259ca6be15e2d
+    new: 2dae9538d5898ce0b891ba77c649bb281dfec6b3
     log: |
-         a2542717cc827d47d9da6fd753883d9babe5772a e1000e: Add handshake with the CSME to support s0ix
-         1377339119090e79dcfe83c017ec74a39bf41daa e1000e: Add polling mechanism to indicate CSME DPG exit
-         33009515d1891307ad89504c57cb1e4ea6f6531d e1000e: Additional PHY power saving in s0ix
+         2dae9538d5898ce0b891ba77c649bb281dfec6b3 Bluetooth: Fix handling of HCI_LE_Advertising_Set_Terminated event
          
