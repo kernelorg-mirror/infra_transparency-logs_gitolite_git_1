@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4662631882241335074=="
+Content-Type: multipart/mixed; boundary="===============3747360092197208674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Jun 2021 13:07:57 -0000
-Message-Id: <162462647712.21347.9075578136506823459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Jun 2021 13:08:04 -0000
+Message-Id: <162462648420.21455.13308491511599308770@gitolite.kernel.org>
 
---===============4662631882241335074==
+--===============3747360092197208674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.14
-    old: 8cc802bd75fbf840635e7d4d48050bbcab4d938d
-    new: 6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19
+  - ref: refs/heads/for-5.14
+    old: d74d99229f4d48f42d674f7a8a1137179efd67ac
+    new: b470e10eb43f19e08245cd87dd3192a8141cfbb5
     log: |
-         6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19 ASoC: qcom: lpass-cpu: mark IRQ_CLEAR register as volatile and readable
+         b01d550663fa5fd40a1785b0f1211fb657892edf spi: Fix self assignment issue with ancillary->mode
+         c58db2abb19fd2bf23fb25bb3630a9f540df6042 spi: convert Xilinx Zynq UltraScale+ MPSoC GQSPI bindings to YAML
+         b470e10eb43f19e08245cd87dd3192a8141cfbb5 spi: core: add dma_map_dev for dma device
          
 
---===============4662631882241335074==
+--===============3747360092197208674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1624626453 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1624626474-46c77dd318213c8acbf2b158029a7026fd826407
+pusher C3F436CA30F5D8EB 1624626460 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1624626481-dcda0358cc0a5490cd97641860893b5552a317fb
 
-8cc802bd75fbf840635e7d4d48050bbcab4d938d 6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19 refs/heads/asoc-5.14
+d74d99229f4d48f42d674f7a8a1137179efd67ac b470e10eb43f19e08245cd87dd3192a8141cfbb5 refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDV1RUACgkQJNaLcl1U
-h9BvoQf/Tz2phVuwayO6oQVavp5r84FstHCVWAwQbPxn2mpvD0vPDRC5bx/19tTf
-SEvVZdu2yMTuV633hoED6FBvVHfsULLi3yxWGfKhtosLMsGO8DKDy7XeAuh8PY0M
-YucGFsaqimVSlHYahji+1RkkHpLWEclUSHr+P0M2PgVv6crLNoD3bDXnQPAMJ+y3
-ZptVyRsKe/T1HuQXKkXMXAZplGjJvz+HhWr+82q48BbdjQtEaUqxcd2BjPh+WQF+
-0CkTQsiwFCLs20jRf3CZlmPgiwv3/cTQeMSRfUPgm1sW4LBbfGz3Xvd69B4TSP/6
-hNnWovhIDlC3uxqLQBqxmp2h2Fp9VA==
-=9ZSz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDV1RwACgkQJNaLcl1U
+h9AuvQf6AjP43+fdaJqShKpFZ2CY1dUEhWz0tCzSBZVLCQ+WodiOeXBBYfwkFMQ/
+TDjxPesEXjkK5I4rp/UopSUMoD5i+VMl8yMTZOuVTfEHXCWlG87NP5z3ege83YrK
+v+zeE7htD3z8TdwIZ19TmbSOLFJ5ew/75TwA8tp0NeS/w1wNDZ8FwQnfBnuC8K/m
+Q8gWL0houUNxO7vmtb3nE4xVbOYUe+WYA2OE2Fr8N3SessrWjORE4cBcglEIV2zr
+sFeMHe54/TlJtLUBsElmmKQEi52FcnjA24pcU1b9hXyh/zASRr52qARaFHBMycBI
+MoFbGPQW4TWK9leNgt2AZ4nPUhS2Gg==
+=EJ71
 -----END PGP SIGNATURE-----
 
---===============4662631882241335074==--
+--===============3747360092197208674==--
