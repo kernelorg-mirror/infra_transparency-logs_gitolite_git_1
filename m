@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 25 Jun 2021 10:41:34 -0000
-Message-Id: <162461769410.18999.15423024097900102539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 25 Jun 2021 11:00:50 -0000
+Message-Id: <162461885055.32396.11704260138764658420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/scmi-fixes-5.13
-    old: c0092149514ad2dab6a78a18ee1e9c09995fe51b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 35a9b0d5772efb815e3a0ff04f21a7afd0bcdd8f
+    new: 5efc31f9d8c7c95a2895e8d10052be11a66ec569
+    log: |
+         5efc31f9d8c7c95a2895e8d10052be11a66ec569 cfdisk: optimize mountpoint detection for PARTUUID
+         
