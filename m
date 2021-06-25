@@ -1,52 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3635950919318259893=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Jun 2021 13:08:10 -0000
-Message-Id: <162462649088.21577.1366719360162419841@gitolite.kernel.org>
-
---===============3635950919318259893==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 25 Jun 2021 13:08:32 -0000
+Message-Id: <162462651285.21813.542317131790078323@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: d74d99229f4d48f42d674f7a8a1137179efd67ac
-    new: b470e10eb43f19e08245cd87dd3192a8141cfbb5
+  - ref: refs/heads/for-linus
+    old: 1aab0f8da491e573e7dadf403b6035fe8072d227
+    new: c073a58a7ec59145f8a0b87403d559645bfd9edb
     log: |
-         b01d550663fa5fd40a1785b0f1211fb657892edf spi: Fix self assignment issue with ancillary->mode
-         c58db2abb19fd2bf23fb25bb3630a9f540df6042 spi: convert Xilinx Zynq UltraScale+ MPSoC GQSPI bindings to YAML
-         b470e10eb43f19e08245cd87dd3192a8141cfbb5 spi: core: add dma_map_dev for dma device
+         c073a58a7ec59145f8a0b87403d559645bfd9edb Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
          
-
---===============3635950919318259893==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1624626466 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1624626488-99bd28698ea52b12bf24d208959b27c213245c73
-
-d74d99229f4d48f42d674f7a8a1137179efd67ac b470e10eb43f19e08245cd87dd3192a8141cfbb5 refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDV1SIACgkQJNaLcl1U
-h9BURgf+OYL//MdaayFufaax04hFDHlzRtQSk5lC0epxoMgfXfXd7h+mPuvVCS/Y
-CJrPq1Ctudu31xoJB/HHzbGtN2JExZR1NR2ZxM/CBAdgf/oBpSjNXR/J34xLJe1p
-Z2IhN0n8thmAzBnpEP0fVbaadNAuX70eelIsRvUGQ2kilCd0EIEtenqokrNZb8nI
-Sfz/vrf/eMkbxU3uiRcTjQp8PkxYUPuvAZ4HjZZ8KJnGWM7ucw5/EXJZaHPkG9dn
-r8UL3uD/mnTSIr5cxReIUWykXDFgd9+sALbrJ0yE4tEhPveB0h9rB4ynWPdziRwl
-T2RGm4h9r11lWZrU7LTo4cxDLz9xKw==
-=WDNB
------END PGP SIGNATURE-----
-
---===============3635950919318259893==--
+  - ref: refs/heads/for-next
+    old: c07adf6925ff47ca90a6ce7fe66fa91071bf56db
+    new: 192664528154a84fab4e6d820f9cb2e2e0835544
+    log: |
+         6a7f5bd6185e1c86256d5e52c3bb7a4d390d6e19 ASoC: qcom: lpass-cpu: mark IRQ_CLEAR register as volatile and readable
+         c073a58a7ec59145f8a0b87403d559645bfd9edb Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         192664528154a84fab4e6d820f9cb2e2e0835544 Merge remote-tracking branch 'asoc/for-5.14' into asoc-next
+         
