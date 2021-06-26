@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0658705136426021812=="
+Content-Type: multipart/mixed; boundary="===============7226074557092836064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 26 Jun 2021 19:25:10 -0000
-Message-Id: <162473551013.23864.1758596047802028242@gitolite.kernel.org>
+Date: Sat, 26 Jun 2021 19:25:21 -0000
+Message-Id: <162473552165.24035.5200845430295084515@gitolite.kernel.org>
 
---===============0658705136426021812==
+--===============7226074557092836064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 370f007f645f70c915dbf5e607df780ad61ffde7
+  - ref: refs/heads/master
+    old: 265954d975d56474b4639be223d5f65d67da042c
     new: f22b04c140ca532f216b8157580663d45ba4fa75
-    log: revlist-370f007f645f-f22b04c140ca.txt
+    log: revlist-265954d975d5-f22b04c140ca.txt
 
---===============0658705136426021812==
+--===============7226074557092836064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-370f007f645f-f22b04c140ca.txt
+Content-Disposition: attachment; filename=revlist-265954d975d5-f22b04c140ca.txt
 
+666fb79200324630205121c1ae5e5c5cb1311cec sched/headers, locking: Move more lock-debug definitions from <linux/lockdep.h> to <linux/lockdep_types.h>
+6a3a59aa306d16549088a84d2fd09c05bf2acd6f sched/headers: Use <linux/lockdep_types.h> instead of <linux/lockdep.h> in <linux/sched.h>
+d3cf2d7b22983a193e946e858b0e1b1d25dc24b7 sched/headers, bitops: Split out <linux/bitops_types.h> header
+a4c7caf09eb1b5146c50b8670a9ca30a0b4b8790 sched/headers, fs: Make <linux/pipe_fs_i.h> build standalone
 93c9bf0f3220cdcc8661c9d7878796f6aa32b5f0 sched/headers, arm64: Remove unnecessary <linux/preempt.h> include from <asm/percpu.h>
 a52e4a4b7a1d3dca37e794e11fb5406c3bb3feeb sched/headers, arm64/mm: Move the arch_faults_on_old_pte(), arch_wants_old_prefaulted_pte() and arch_filter_pgprot() inlines to <asm/pgalloc.h>
 7aeb0f8b610c693d78d7e4303ec9ec9e336ff650 --------------------------------------------------------------
@@ -92,4 +96,4 @@ c18f36681ac4c9326b63d152a951ff110b30aeb8 arm64 allnoconfig fixes - arch/arm64/in
 3adf94f515dda1286c1427107515a62d733cd043 arm64 allnoconfig fixes - include/linux/audit.h
 f22b04c140ca532f216b8157580663d45ba4fa75 arm64 fixes
 
---===============0658705136426021812==--
+--===============7226074557092836064==--
