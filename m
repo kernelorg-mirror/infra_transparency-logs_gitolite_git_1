@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 26 Jun 2021 21:56:21 -0000
-Message-Id: <162474458117.24321.8637997413035253420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Sat, 26 Jun 2021 21:57:39 -0000
+Message-Id: <162474465951.24798.7744979089880629319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/auto-latest
-    old: 4cc251ea93ddebb55082639753b6e279a7f2301b
-    new: 34f22feeb4d82535ad51a46fc4aac97c020e134f
+  - ref: refs/heads/main
+    old: e1d3ac755d37fd7b899c176f168e05fd826a7233
+    new: 6f15c217198c4137f8a5cb329955543d30e4ee23
     log: |
-         276010551664f73b6f1616dde471d6f0d63a73ba time: Improve performance of time64_to_tm()
-         34c7342ac1b4e496315fb615d2a1309df8400403 time/kunit: Add missing MODULE_LICENSE()
-         34f22feeb4d82535ad51a46fc4aac97c020e134f Merge branch 'timers/core'
-         
-  - ref: refs/heads/master
-    old: 4cc251ea93ddebb55082639753b6e279a7f2301b
-    new: 34f22feeb4d82535ad51a46fc4aac97c020e134f
-    log: |
-         276010551664f73b6f1616dde471d6f0d63a73ba time: Improve performance of time64_to_tm()
-         34c7342ac1b4e496315fb615d2a1309df8400403 time/kunit: Add missing MODULE_LICENSE()
-         34f22feeb4d82535ad51a46fc4aac97c020e134f Merge branch 'timers/core'
+         8316825a52398ff8509107f7819a6e7ee820e0b4 man: fix syntax for ip link property
+         6f15c217198c4137f8a5cb329955543d30e4ee23 devlink: Fix link errors on some systems
          
