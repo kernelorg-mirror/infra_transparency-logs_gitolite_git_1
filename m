@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Sat, 26 Jun 2021 05:20:28 -0000
-Message-Id: <162468482870.31217.11465904770111185555@gitolite.kernel.org>
+Date: Sat, 26 Jun 2021 05:53:21 -0000
+Message-Id: <162468680107.19865.17447275058507971968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,51 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
-  - ref: refs/tags/for-net-next-2021-04-07
-    old: 0000000000000000000000000000000000000000
-    new: 7bc7d4b7fc04a7649e151e10da578130e1dece63
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.12-rc1-dontuse
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/heads/master
+    old: 23837a6d7a1a61818ed94a6b8af552d6cf7d32d5
+    new: 1f0536139cb8e8175ca034e12706b86f77f9061e
+    log: |
+         1f0536139cb8e8175ca034e12706b86f77f9061e Bluetooth: hci_uart: Remove redundant assignment to fw_ptr
+         
