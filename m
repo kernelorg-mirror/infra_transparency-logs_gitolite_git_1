@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5964471926374878270=="
+Content-Type: multipart/mixed; boundary="===============7124073975969928628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 26 Jun 2021 23:34:55 -0000
-Message-Id: <162475049581.21906.13310346986061149441@gitolite.kernel.org>
+Date: Sat, 26 Jun 2021 23:35:10 -0000
+Message-Id: <162475051091.23484.11461142678992080755@gitolite.kernel.org>
 
---===============5964471926374878270==
+--===============7124073975969928628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 5ac88d9626f85b31d467682515ef94daf511c15b
+  - ref: refs/heads/master
+    old: f22b04c140ca532f216b8157580663d45ba4fa75
     new: 61441911122889ac73b33f21b88183b11a7be621
-    log: revlist-5ac88d9626f8-614419111228.txt
+    log: revlist-f22b04c140ca-614419111228.txt
 
---===============5964471926374878270==
+--===============7124073975969928628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ac88d9626f8-614419111228.txt
+Content-Disposition: attachment; filename=revlist-f22b04c140ca-614419111228.txt
 
+5fa09b2e9caa067935cda3e3ec786356c1d0b4cf sched/headers: Prepare for header dependency removals
 8cf5bd9a91ab24fd840f3edceece65c75a62d849 sched/headers: Misc dependency fixes
 fa95748ca256fe3c10cadb60c7d7a6489ab32acb sched/headers, sched/core: Uninline scheduler_ipi()
 e0544f98c0f45638cf92275eebb3b7199226a175 sched/headers, rbtree: Uninline rb_link_node() and rb_link_node_rcu()
@@ -603,4 +604,4 @@ f7afef10368613fd61ebc4c8720a6fdd1d654a77 sched/headers, bitops: Split out <linux
 4cde6923a47b524220066d038bc42e9de5772f72 --------------------------------------------------------------
 61441911122889ac73b33f21b88183b11a7be621 sched/headers, sched/per_task, arm64: Add ARM64 support
 
---===============5964471926374878270==--
+--===============7124073975969928628==--
