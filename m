@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Sat, 26 Jun 2021 14:59:48 -0000
-Message-Id: <162471958886.10890.8321120793526301903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 26 Jun 2021 17:14:30 -0000
+Message-Id: <162472767082.589.18085766573387024465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/whatamess
-    old: a8f3522c9a1f4a31e93b17f2b5310a2b615f5581
-    new: 1effb72a8179a02c2dd8a268454ccf50bf68aa50
+  - ref: refs/heads/master
+    old: b7050b242430f3170e0b57f5f55136e44cb8dc66
+    new: 625acffd7ae2c52898d249e6c5c39f348db0d8df
     log: |
-         d3a3340b6af28ab79a66687973fb0287d976d490 xfs: Initialize error in xfs_attr_remove_iter
-         6be001021f0b307c8c1544e8b3ac87de20d711de xfs: don't nest icloglock inside ic_callback_lock
-         b6903358c230c517b29ecdb6123276d96cc0beab xfs: remove callback dequeue loop from xlog_state_do_iclog_callbacks
-         a1bb8505e92101df94080f81298e3640f5fbe037 xfs: Fix a CIL UAF by getting get rid of the iclog callback lock
-         1effb72a8179a02c2dd8a268454ccf50bf68aa50 xfs: don't wait on future iclogs when pushing the CIL
+         fc66127dc3396338f287c3b494dfbf102547e770 s390: fix system call restart with multiple signals
+         ca1f4d702d534387aa1f16379edb3b03cdb6ceda s390: clear pt_regs::flags on irq entry
+         8c0795d2a0f50e2b131f5b2a8c2795939a94058e s390/vfio-ap: clean up mdev resources when remove callback invoked
+         9e3d62d55bf455d4f9fdf2ede5c8756410c64102 s390/topology: clear thread/group maps for offline cpus
+         67147e96a332b56c7206238162771d82467f86c0 s390/stack: fix possible register corruption with stack switch helper
+         625acffd7ae2c52898d249e6c5c39f348db0d8df Merge tag 's390-5.13-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
          
