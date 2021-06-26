@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 26 Jun 2021 12:32:36 -0000
-Message-Id: <162471075627.7856.5879442684514354553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sat, 26 Jun 2021 12:33:14 -0000
+Message-Id: <162471079473.8893.867965792081008253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
   - ref: refs/tags/v2.6.12.1
