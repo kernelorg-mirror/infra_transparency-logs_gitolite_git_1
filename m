@@ -1,51 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0627319604528899104=="
+Content-Type: multipart/mixed; boundary="===============4990436343666798496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 27 Jun 2021 09:11:07 -0000
-Message-Id: <162478506798.22954.2026442955101660990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Sun, 27 Jun 2021 09:15:19 -0000
+Message-Id: <162478531921.25940.2912248795583174845@gitolite.kernel.org>
 
---===============0627319604528899104==
+--===============4990436343666798496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/heads/queue-next
-    old: 3a2f2d58ae010c05af672ad8b9458ff171dcd453
-    new: 0a01ff67af613fdfcbd4200a8013dfb0c9d22b01
-    log: revlist-3a2f2d58ae01-0a01ff67af61.txt
-  - ref: refs/heads/queue-rc
-    old: 829f56dc6c3b473d2c73f54f44e789e06775feee
-    new: 274ff55aac2f0ebfbfa6dd8bed54c79153c56ac9
-    log: |
-         274ff55aac2f0ebfbfa6dd8bed54c79153c56ac9 Merge branch 'testing/rdma-rc' into queue-rc
-         
+  - ref: refs/heads/master
+    old: 7799d774c5346d69cd48cca729599cb31d57b950
+    new: 38729d75d34f0625ca467a41ac684ff11048fafc
+    log: revlist-7799d774c534-38729d75d34f.txt
 
---===============0627319604528899104==
+--===============4990436343666798496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a2f2d58ae01-0a01ff67af61.txt
+Content-Disposition: attachment; filename=revlist-7799d774c534-38729d75d34f.txt
 
-c1dc2c37b08b23bc6628a8e0dac6864d754809f9 RDMA: Use dma_map_sgtable for map umem pages
-5baac1169fcc2a29d2d621dc9ab456720a7825b8 RDMA/core: Introduce peer memory interface
-2d2e263c231c5ca7223f4568f3b1fccdc50c41c9 fixup! RDMA/core: Introduce peer memory interface
-a4f881f64f25fbc937f13d85965ba0c75ab0e0fe RDMA/rdmavt: Decouple QP and SGE lists allocations
-cf4bb92806717dc2c97b7982b8ef85c1965b4f04 net/mlx5: Add DCS caps & fields support
-573adaebf9f2479f10b2cd13b6d347c939dd94bb RDMA/mlx5: Separate DCI QP creation logic
-b878d6e26c8de27db0bec695838a7b62387b8cb2 RDMA/mlx5: Add DCS offload support
-1aa2cbb51bea7823fe17ffdcccc1349668910367 RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
-6c315221b1e2660c1d51fee46f84cf701886e446 RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
-c34c73c06b3ac3c31be802821f267c8b7428192e RDMA/mlx5: Change the cache to hold mkeys instead of MRs
-edcfc6e2481e12459265b2dcc20c4d6473349a2f RDMA/mlx5: Change the cache structure to an rbtree
-b432d5da70cd2549a862edc8006a3cbb71363773 RDMA/mlx5: Delay the deregistration of a non-cache mkey
-36037786cb11873aea09cbfbb3f13c82c982dcbd IB/mlx5: Add ATS support for peer memory
-f84b57d89fbc9676116d016fbd1df66e2fe352e0 Merge branch 'rdma-next' into testing/rdma-next
-0a01ff67af613fdfcbd4200a8013dfb0c9d22b01 Merge branch 'testing/rdma-next' into queue-next
+14936762cbbc685838db8b3a1736c1bd01df19d1 [BUGFIX] iwlwifi: xvt: avoid possible memory leak
+99f39b017c49917c51068492911ddd7178174a43 [BUGFIX] iwlwifi: mei: fix kerneldoc
+9061265d3a6e90e0d0afa14cecfcfa2a4097b62c [BUGFIX] iwlwifi: make iwlmei depend on PM
+d64a886d2ef44ff78e4e931c49bc84599adbe921 Revert "[BUGFIX] iwlwifi: check that RF ID matches in SO/SO-F workaround"
+ed9bfbb85da7de4635cb2f671ca4f988a52f778d Revert "[BUGFIX] iwlwifi: add workaround to match SO PNVM section also with SOF"
+28b943b3296afdee02d86f4adc7fad2050cf8df6 [BUGFIX] iwlwifi: pnvm: accept multiple HW-type TLVs
+f2ce493edfd63a1bef833541d98a760f5b3d5f51 [BUGFIX] iwlwifi: pnvm: don't leak requested firmware
+59774b009c48ec052b870619a300ded35cdf2df9 iwlwifi: pnvm: print out the version properly
+3ba5f7856fdfa6556248a13a3d88adc679d3e798 [BUGFIX] iwlwifi: don't use rekey_data if CONFIG_PM is not enabled
+df14831bd84f091cb32066e997bc77d8198b2b97 [NOUPSTREAM] iwlwifi: mvm: reorder the declarations to match upstream code
+2d47309f2776a3d3138b13e1bd2e88d23f06801e cfg80211: Add support for notifying association comeback
+2f434bf31da11ff26d1a1e8b34c51a6dc7c1f15f mac80211: Notify cfg80211 about association comeback
+af33ef2faaf46b01d261dcb1c22d906c2fbda197 [BUGFIX] iwlwifi: mvm: fix sar_geo_profile debugfs
+5ecb257b78ff34492e016775a8ad5fc479295d2c [BUGFIX] iwlwifi: mvm: fix some kerneldoc issues
+8b2d6938f2397991e40e0b04dde61ecde4e99188 [BUGFIX] iwlwifi: mvm: fix location kerneldoc
+466b68fe9a2e92643a209f53bd730dff64690501 [BUGFIX] iwlwifi: mvm: fix more kerneldoc warnings
+a91fc4340abdcb33a2fd0cdd82f77285d9408396 iwlwifi: mvm: add a debug hook to control TWT
+338c8947560b439cb9825b5dd251b8600c637507 [BUGFIX] iwlwifi: xvt: free nvm_data ptr
+38729d75d34f0625ca467a41ac684ff11048fafc [NOUPSTREAM] iwlwifi: acpi-mockups: add modparam to enable the mockups at runtime
 
---===============0627319604528899104==--
+--===============4990436343666798496==--
