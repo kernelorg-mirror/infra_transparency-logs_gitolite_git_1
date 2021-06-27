@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0126838599090533800=="
+Content-Type: multipart/mixed; boundary="===============3263977259789292871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 08:23:31 -0000
-Message-Id: <162478221185.8185.10817994258745160963@gitolite.kernel.org>
+Date: Sun, 27 Jun 2021 08:23:43 -0000
+Message-Id: <162478222372.8365.8932650591084823689@gitolite.kernel.org>
 
---===============0126838599090533800==
+--===============3263977259789292871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 4c36d673121921c140c994b8c62fce3ff639d42a
     new: ba4eb48df122bd15f643f1ffe167868d01b354e0
     log: revlist-4c36d6731219-ba4eb48df122.txt
 
---===============0126838599090533800==
+--===============3263977259789292871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -637,4 +637,4 @@ c77d2ea8e473fe8fad7103b72c629146af7b7c46 sched/headers, netdevice: Simplify <lin
 a492134e4052e29acc5cb29ff79cb66f4b96c0ca sched/headers, driver/core: Optimize <linux/device_types.h> dependencies
 ba4eb48df122bd15f643f1ffe167868d01b354e0 sched/headers, net: Optimize <linux/netdevice_types.h> dependencies
 
---===============0126838599090533800==--
+--===============3263977259789292871==--
