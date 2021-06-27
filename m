@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8667673340031755129=="
+Content-Type: multipart/mixed; boundary="===============6221154797499105373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 14:28:05 -0000
-Message-Id: <162480408587.27979.220182430769691658@gitolite.kernel.org>
+Date: Sun, 27 Jun 2021 14:28:15 -0000
+Message-Id: <162480409555.28151.3934671408074090690@gitolite.kernel.org>
 
---===============8667673340031755129==
+--===============6221154797499105373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 49c04e21da860d928fc0139defb9709b7147c8ae
+  - ref: refs/heads/master
+    old: 9ffe0e2d5ca89f69a8bd486acfd9d2b32e1223ef
     new: f58812b97080c0e9e1b2333f0e1987bb59a24e03
-    log: revlist-49c04e21da86-f58812b97080.txt
+    log: revlist-9ffe0e2d5ca8-f58812b97080.txt
 
---===============8667673340031755129==
+--===============6221154797499105373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49c04e21da86-f58812b97080.txt
+Content-Disposition: attachment; filename=revlist-9ffe0e2d5ca8-f58812b97080.txt
 
 97c07258721bca01c241dfad4b14778d9203d7b0 sched/headers: Prepare for header dependency removals
 7afdcb2bc0495512928fe4722f3a924e401c50ab sched/headers, sched/core: Uninline scheduler_ipi()
@@ -638,4 +638,4 @@ e57ad9c344ece156a1a598a3eb6ba862337658ab sched/headers, arm64/mm: Prepare <asm/p
 41e6f6ecf09f6eda3be57f5f4a2c9c77de1f32d7 sched/headers, mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
 f58812b97080c0e9e1b2333f0e1987bb59a24e03 sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
 
---===============8667673340031755129==--
+--===============6221154797499105373==--
