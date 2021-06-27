@@ -1,43 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4181666848452252116=="
+Content-Type: multipart/mixed; boundary="===============6557577930671205816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 27 Jun 2021 15:33:05 -0000
-Message-Id: <162480798507.6977.13678118635078191523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sun, 27 Jun 2021 16:41:28 -0000
+Message-Id: <162481208801.18927.12788335156082857034@gitolite.kernel.org>
 
---===============4181666848452252116==
+--===============6557577930671205816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 1c8b154ab9661649ae5d7c2f357e9b04b3c63c35
-    new: 73030114397ba7dc64831c5c51812ba57870cfe6
-    log: revlist-1c8b154ab966-73030114397b.txt
+  - ref: refs/heads/sched/headers
+    old: bb96d80529922237cfe6b3c8471e3424fd8041c3
+    new: 96dbc58564b00a583c240972be881f9b9070dbe1
+    log: revlist-bb96d8052992-96dbc58564b0.txt
 
---===============4181666848452252116==
+--===============6557577930671205816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c8b154ab966-73030114397b.txt
+Content-Disposition: attachment; filename=revlist-bb96d8052992-96dbc58564b0.txt
 
-e486a19d03b2510e653b41633b528c80d358c90e fstests: fix group check in new script
-f390798cebf3a59134998863416285815f1f3962 misc: move exit status into trap handler
-f37ede78703e0447cd8f8938412c58e70b58cd26 fstests: refactor test boilerplate code
-61cdc74109dbbbfc2087774f934f83439efa6bc6 fstests: add tool migrate group membership data to test files
-827136e6f36ddcba5b2c7a625ee00d0ed25a6990 fstests: clean up open-coded golden output
-7e98d41a6e009f348cd328e4b3bda2fd4352b94e fstests: move test group info to test files
-17f6ac8eccb4d3f974aa74350b63e186c092ea16 fstests: automatically generate group files
-5a5f95007a2cf37a3dc2e7fd9672b49a08a0012a fstests: convert nextid to use automatic group generation
-810df5225bae2eadea549f7150189030d42d8ea2 fstests: adapt the new test script to our new group tagging scheme
-b5c1a98c7cc264787d0d46e0db44213a373350e6 check: use generated group files
-112f075534562d695c36e5402b0c3ce77f1d4600 fstests: remove group files
-4d695817c8bd7e894a18f053f26943911271e987 fstests: remove test group management code
-73030114397ba7dc64831c5c51812ba57870cfe6 misc: update documentation to reflect auto-generated group files
+dc81eb6c7d6d0f87bd4d41ca5a8c1fd7d5ba1f9c sched/headers, of: Optimize <linux/of.h> dependencies, remove <linux/of_api.h>
+18f99e76fe08a87119978b72be40b112a6cf40ba sched/headers, ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/irqdomain.h> inclusion
+10014e11fbe71716b3b74b6db33f0274a5c678fb sched/headers, of: Optimize <linux/of_types.h> dependencies
+990013415741005be1cf464ba332042c5e21e515 sched/headers, arm64/mm: Rename <asm/pgtable-types.h> to <asm/pgtable_types.h>
+f50cb541e5224e8f3434e02271106bd0888ba671 sched/headers, arm64/mm: Prepare <asm/pgtable_types.h> for generic use
+60561f5be35fe9ffc591d0b2d96efda6f9000471 sched/headers, mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
+cbead3fcd208a23f3d9e42ec4d56a92548dcea6d sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
+29550bf0fa4dad0c0b4ffb9756a9b76b6fc84abf sched/headers, csd: Move <linux/smp.h> to <linux/smp_api.h>
+6994b02de67714495057311d9f6aab749ba51703 sched/headers, csd: Move 'struct __call_single_data' definition and initialization helpers from <linux/smp_api.h> to <linux/smp_types.h>
+96dbc58564b00a583c240972be881f9b9070dbe1 sched/headers, smp: Optimize <linux/smp.h>, remove <linux/smp_api.h>
 
---===============4181666848452252116==--
+--===============6557577930671205816==--
