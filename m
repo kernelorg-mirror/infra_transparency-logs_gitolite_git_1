@@ -1,25 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 15:09:47 -0000
-Message-Id: <162480658703.23296.12695227622894821465@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4181666848452252116=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 27 Jun 2021 15:33:05 -0000
+Message-Id: <162480798507.6977.13678118635078191523@gitolite.kernel.org>
+
+--===============4181666848452252116==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/fs/xfs/xfstests-dev
+user: eguan
 changes:
   - ref: refs/heads/master
-    old: a74d79b6caadc5afefecb16b226b11130075a793
-    new: bb96d80529922237cfe6b3c8471e3424fd8041c3
-    log: |
-         9fb5a26bbeb696287d0d8b15f75b00a7f509c5ed sched/headers, of: Optimize <linux/of.h> dependencies, remove <linux/of_api.h>
-         1f1dc16f37f2fb5011c22ee12512ef0b14bf7ae1 sched/headers, ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/irqdomain.h> inclusion
-         f2ed2b58bf6bb116a4d4b57233d91a209f145357 sched/headers, of: Optimize <linux/of_types.h> dependencies
-         b2d108c352ecfb8adc6f995295aee56a2b55c35a sched/headers, arm64/mm: Rename <asm/pgtable-types.h> to <asm/pgtable_types.h>
-         3f18d31255ff985b2e372f006370af458922d62e sched/headers, arm64/mm: Prepare <asm/pgtable_types.h> for generic use
-         7a743d59262fec937b692b215f3f9c9b22e7fe6e sched/headers, mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
-         bb96d80529922237cfe6b3c8471e3424fd8041c3 sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
-         
+    old: 1c8b154ab9661649ae5d7c2f357e9b04b3c63c35
+    new: 73030114397ba7dc64831c5c51812ba57870cfe6
+    log: revlist-1c8b154ab966-73030114397b.txt
+
+--===============4181666848452252116==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1c8b154ab966-73030114397b.txt
+
+e486a19d03b2510e653b41633b528c80d358c90e fstests: fix group check in new script
+f390798cebf3a59134998863416285815f1f3962 misc: move exit status into trap handler
+f37ede78703e0447cd8f8938412c58e70b58cd26 fstests: refactor test boilerplate code
+61cdc74109dbbbfc2087774f934f83439efa6bc6 fstests: add tool migrate group membership data to test files
+827136e6f36ddcba5b2c7a625ee00d0ed25a6990 fstests: clean up open-coded golden output
+7e98d41a6e009f348cd328e4b3bda2fd4352b94e fstests: move test group info to test files
+17f6ac8eccb4d3f974aa74350b63e186c092ea16 fstests: automatically generate group files
+5a5f95007a2cf37a3dc2e7fd9672b49a08a0012a fstests: convert nextid to use automatic group generation
+810df5225bae2eadea549f7150189030d42d8ea2 fstests: adapt the new test script to our new group tagging scheme
+b5c1a98c7cc264787d0d46e0db44213a373350e6 check: use generated group files
+112f075534562d695c36e5402b0c3ce77f1d4600 fstests: remove group files
+4d695817c8bd7e894a18f053f26943911271e987 fstests: remove test group management code
+73030114397ba7dc64831c5c51812ba57870cfe6 misc: update documentation to reflect auto-generated group files
+
+--===============4181666848452252116==--
