@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8878001314993382595=="
+Content-Type: multipart/mixed; boundary="===============7596859143220390040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 02:46:20 -0000
-Message-Id: <162476198030.17233.1397956638668856247@gitolite.kernel.org>
+Date: Sun, 27 Jun 2021 02:46:32 -0000
+Message-Id: <162476199239.17388.16653562537752206504@gitolite.kernel.org>
 
---===============8878001314993382595==
+--===============7596859143220390040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 03c791248380ca8dd7ea39aea81addaaddc493f4
     new: 4c36d673121921c140c994b8c62fce3ff639d42a
     log: revlist-03c791248380-4c36d6731219.txt
 
---===============8878001314993382595==
+--===============7596859143220390040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ a072c750681d6674419a12ef503cf7bff0590aa0 sched/headers, time: Move <linux/timerq
 db5bf180d94054af03153e861027f9555a7ed87d sched/headers, time: Move <linux/rbtree.h> to <linux/rbtree_api.h>
 4c36d673121921c140c994b8c62fce3ff639d42a sched/headers, rbtree: Optimize <linux/rbtree.h> dependencies
 
---===============8878001314993382595==--
+--===============7596859143220390040==--
