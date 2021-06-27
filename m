@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7915725864457583392=="
+Content-Type: multipart/mixed; boundary="===============3146486512252249591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 14:33:48 -0000
-Message-Id: <162480442869.31944.5697409235415591172@gitolite.kernel.org>
+Date: Sun, 27 Jun 2021 14:34:01 -0000
+Message-Id: <162480444161.32138.6371564324387555975@gitolite.kernel.org>
 
---===============7915725864457583392==
+--===============3146486512252249591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: f58812b97080c0e9e1b2333f0e1987bb59a24e03
     new: bb03b819102df00860082ec37a4c379c7645ebd9
     log: revlist-f58812b97080-bb03b819102d.txt
 
---===============7915725864457583392==
+--===============3146486512252249591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -638,4 +638,4 @@ ec2cfd1841b26e025e1b05de50cf90d41347130b sched/headers, of: Optimize <linux/of_t
 1c6b2652f8c868b20b6f4ad63c0a96cc1177f8fd sched/headers, mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
 bb03b819102df00860082ec37a4c379c7645ebd9 sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
 
---===============7915725864457583392==--
+--===============3146486512252249591==--
