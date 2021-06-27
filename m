@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0672836270304176954=="
+Content-Type: multipart/mixed; boundary="===============8531669278200728925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 01:34:38 -0000
-Message-Id: <162475767803.2745.2116959309812507464@gitolite.kernel.org>
+Date: Sun, 27 Jun 2021 01:34:47 -0000
+Message-Id: <162475768792.2878.3730642939458337310@gitolite.kernel.org>
 
---===============0672836270304176954==
+--===============8531669278200728925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 61441911122889ac73b33f21b88183b11a7be621
     new: a43f18d0268e16de615746b7c266b46b03649058
     log: revlist-614419111228-a43f18d0268e.txt
 
---===============0672836270304176954==
+--===============8531669278200728925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ fb9cfb83bfd92e0a8ae4e9092bf8faf04d0b0b21 sched/headers, locking: Split <linux/at
 53437618f7adf34e11134be4c251b007e263e95d sched/headers, kref: Split <linux/kref.h> into <linux/kref_types.h> and <linux/kref_api.h>
 a43f18d0268e16de615746b7c266b46b03649058 sched/headers, locking/refcount: Optimize the <linux/refcount.h> header, remove <linux/refcount_api.h>
 
---===============0672836270304176954==--
+--===============8531669278200728925==--
