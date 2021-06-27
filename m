@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 27 Jun 2021 17:02:59 -0000
-Message-Id: <162481337901.1285.17630191347106417839@gitolite.kernel.org>
+Date: Sun, 27 Jun 2021 17:03:38 -0000
+Message-Id: <162481341839.1599.12464462508257995237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
   - ref: refs/heads/sched/headers
-    old: 3423f0198c93f1de0e6f2f5e2766aa264879ebab
-    new: 23bd124b225eb56405fb09bf2c3bc553a62fe237
+    old: 23bd124b225eb56405fb09bf2c3bc553a62fe237
+    new: ba5c2dc69e6a3ab8f71aec8f20bc72395cbb0f3e
     log: |
-         23bd124b225eb56405fb09bf2c3bc553a62fe237 sched/headers, smp: Optimize <linux/smp.h>, remove <linux/smp_api.h>
+         ba5c2dc69e6a3ab8f71aec8f20bc72395cbb0f3e sched/headers, smp: Optimize <linux/smp.h>, remove <linux/smp_api.h>
          
