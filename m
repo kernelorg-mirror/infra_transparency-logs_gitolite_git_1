@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 28 Jun 2021 03:50:58 -0000
-Message-Id: <162485225847.12284.2050742027443032399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 28 Jun 2021 03:52:43 -0000
+Message-Id: <162485236330.13073.11735504811548893845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: cb8930be3efb07271cd83439caff330306553800
-    new: 4f356ed0dd5bb1aacf31de853077615712990e78
+  - ref: refs/heads/next
+    old: 656758425f98693bd61a08f6b51c4c5aa26c9d50
+    new: 8d11cfb0c37547bd6b1cdc7c2653c1e6b5ec5abb
     log: |
-         4f356ed0dd5bb1aacf31de853077615712990e78 Mon 28 Jun 2021 03:50:08 AM UTC
+         536bc5e6fdabbbfd4cb84a2d3b6c1aad17b44757 dmaengine: xilinx: dpdma: Use kernel type u32 over uint32_t
+         72cce7dd9f0aa88f82a5612e7d4f9993c34d0d17 dmaengine: xilinx: dpdma: Fix spacing around addr[i-1]
+         8d11cfb0c37547bd6b1cdc7c2653c1e6b5ec5abb dmaengine: imx-sdma: Remove platform data header
          
