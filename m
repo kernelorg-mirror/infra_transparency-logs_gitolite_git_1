@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3716018993220417356=="
+Content-Type: multipart/mixed; boundary="===============5998363483252971532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 28 Jun 2021 09:29:29 -0000
-Message-Id: <162487256915.17725.11189146676974851716@gitolite.kernel.org>
+Date: Mon, 28 Jun 2021 09:29:36 -0000
+Message-Id: <162487257673.17826.118712072855095846@gitolite.kernel.org>
 
---===============3716018993220417356==
+--===============5998363483252971532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: 13311e74253fe64329390df80bed3f07314ddd61
+  - ref: refs/heads/fixes
+    old: 67147e96a332b56c7206238162771d82467f86c0
     new: 62fb9874f5da54fdb243003b386128037319b219
-    log: revlist-13311e74253f-62fb9874f5da.txt
+    log: revlist-67147e96a332-62fb9874f5da.txt
 
---===============3716018993220417356==
+--===============5998363483252971532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13311e74253f-62fb9874f5da.txt
+Content-Disposition: attachment; filename=revlist-67147e96a332-62fb9874f5da.txt
 
 dad7b9896a5dbac5da8275d5a6147c65c81fb5f2 ARM: 9081/1: fix gcc-10 thumb2-kernel regression
 aceda401e84115bf9121454828f9da63c2a94482 spi: tegra20-slink: Ensure SPI controller reset is deasserted
@@ -40,11 +40,6 @@ af42167f53ec18b0856387fc119b28c8c1ba98a1 drm/panel: ld9040: reference spi_device
 e541845ae0858616c52dd97df4bf91568c7a7a1b drm/atmel-hlcdc: Allow async page flips
 065b6211a87746e196b56759a70c7851418dd741 i2c: i801: Ensure that SMBHSTSTS_INUSE_STS is cleared when leaving i801_access
 2269583753d2b8fdd3c861a516ff0cdbfcf4ef0b i2c: cp2615: check for allocation failure in cp2615_i2c_recv()
-fc66127dc3396338f287c3b494dfbf102547e770 s390: fix system call restart with multiple signals
-ca1f4d702d534387aa1f16379edb3b03cdb6ceda s390: clear pt_regs::flags on irq entry
-8c0795d2a0f50e2b131f5b2a8c2795939a94058e s390/vfio-ap: clean up mdev resources when remove callback invoked
-9e3d62d55bf455d4f9fdf2ede5c8756410c64102 s390/topology: clear thread/group maps for offline cpus
-67147e96a332b56c7206238162771d82467f86c0 s390/stack: fix possible register corruption with stack switch helper
 5f89468e2f060031cd89fd4287298e0eaf246bf6 swiotlb: manipulate orig_addr when tlb_addr has offset
 31197d3a0f1caeb60fb01f6755e28347e4f44037 objtool/x86: Ignore __x86_indirect_alt_* symbols
 1815d9c86e3090477fbde066ff314a7e9721ee0f drm: add a locked version of drm_is_current_master
@@ -140,4 +135,4 @@ b7050b242430f3170e0b57f5f55136e44cb8dc66 Merge tag 'pinctrl-v5.13-3' of git://gi
 b4b27b9eed8ebdbf9f3046197d29d733c8c944f3 Revert "signal: Allow tasks to cache one sigqueue struct"
 62fb9874f5da54fdb243003b386128037319b219 Linux 5.13
 
---===============3716018993220417356==--
+--===============5998363483252971532==--
