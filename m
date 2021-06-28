@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7007557342854107415=="
+Content-Type: multipart/mixed; boundary="===============0125508920775846713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Mon, 28 Jun 2021 03:33:58 -0000
-Message-Id: <162485123830.31540.1690833723966317431@gitolite.kernel.org>
+Date: Mon, 28 Jun 2021 03:34:06 -0000
+Message-Id: <162485124685.31684.17109194085468879567@gitolite.kernel.org>
 
---===============7007557342854107415==
+--===============0125508920775846713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linus
     old: e3a606f2c544b231f6079c8c5fea451e772e1139
     new: 66192b2e3fd8ab97ed518d6c0240e26655a20b4b
     log: revlist-e3a606f2c544-66192b2e3fd8.txt
 
---===============7007557342854107415==
+--===============0125508920775846713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ df941fdd779e43112323a9c057dbbdbc0b1512a2 crypto: sl3516 - Typo s/Stormlink/Storl
 e29dd5c8382e39210a180b75b68912f536893ef0 crypto: sl3516 - Add dependency on ARCH_GEMINI
 66192b2e3fd8ab97ed518d6c0240e26655a20b4b crypto: hisilicon/sec - fix the process of disabling sva prefetching
 
---===============7007557342854107415==--
+--===============0125508920775846713==--
