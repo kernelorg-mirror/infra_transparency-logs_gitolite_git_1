@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0303304924732228367=="
+Content-Type: multipart/mixed; boundary="===============3608677239359915460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 28 Jun 2021 09:47:34 -0000
-Message-Id: <162487365409.29666.6447230131134084449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 28 Jun 2021 09:53:45 -0000
+Message-Id: <162487402580.2357.12292351065207269930@gitolite.kernel.org>
 
---===============0303304924732228367==
+--===============3608677239359915460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
   - ref: refs/heads/master
-    old: 18a3c5f7abfdf97f88536d35338ebbee119c355c
+    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     new: 62fb9874f5da54fdb243003b386128037319b219
-    log: revlist-18a3c5f7abfd-62fb9874f5da.txt
+    log: revlist-6efb943b8616-62fb9874f5da.txt
 
---===============0303304924732228367==
+--===============3608677239359915460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18a3c5f7abfd-62fb9874f5da.txt
+Content-Disposition: attachment; filename=revlist-6efb943b8616-62fb9874f5da.txt
 
 d4b250562fb89ba6f94156b8bea12b8829cfa9a6 i2c: qcom-geni: fix spelling mistake "unepxected" -> "unexpected"
 9dd45bbad947f7cc4f3d4eff7fc02a7e3804e47b i2c: icy: Remove unused variable new_fwnode in icy_probe()
@@ -1051,4 +1051,4 @@ b7050b242430f3170e0b57f5f55136e44cb8dc66 Merge tag 'pinctrl-v5.13-3' of git://gi
 b4b27b9eed8ebdbf9f3046197d29d733c8c944f3 Revert "signal: Allow tasks to cache one sigqueue struct"
 62fb9874f5da54fdb243003b386128037319b219 Linux 5.13
 
---===============0303304924732228367==--
+--===============3608677239359915460==--
