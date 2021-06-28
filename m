@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 28 Jun 2021 10:09:37 -0000
-Message-Id: <162487497775.12674.5016263042820529640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 28 Jun 2021 10:14:25 -0000
+Message-Id: <162487526553.15694.4674104936985152682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/m68k-for-v5.14-tag1
+  - ref: refs/tags/mmc-v5.14
     old: 0000000000000000000000000000000000000000
-    new: 89b1a3d6072c58e036580317a441156f8f1786cc
+    new: 46f6c352c9b0c0533ec1189147c006a13cbb58cd
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
