@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 28 Jun 2021 13:46:27 -0000
-Message-Id: <162488798701.3582.9094463211072123081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 28 Jun 2021 13:49:26 -0000
+Message-Id: <162488816658.4790.17962585482349278385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 328aac5ecd119ede3633f7d17969b1ff34ccc784
-    new: 95b861a7935bf75f647959073093ab8058b88c26
+  - ref: refs/heads/master
+    old: 27fa90b91ae4d33123d8534e72d0cb37b278cd9f
+    new: 210cf2da85100de7425bde07492407febc1f400d
     log: |
-         95b861a7935bf75f647959073093ab8058b88c26 bpf: Allow bpf_get_current_ancestor_cgroup_id for tracing
+         d2938bef812387170541eb2ee889d1cfe50c0d4f Fixes for 5.12
+         a5153dbc345d2f81f9302c70f1448d49eb2ad345 Fixes for 5.10
+         210cf2da85100de7425bde07492407febc1f400d Fixes for 5.4
          
