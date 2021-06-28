@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7644654236460345626=="
+Content-Type: multipart/mixed; boundary="===============7219957261965618367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 28 Jun 2021 22:42:23 -0000
-Message-Id: <162492014356.13215.16056593283459604054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 28 Jun 2021 22:44:12 -0000
+Message-Id: <162492025239.13876.9724730065643265340@gitolite.kernel.org>
 
---===============7644654236460345626==
+--===============7219957261965618367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: e18db3479122ea13194c00242c9e1879b143a43f
-    new: 99b14dd56b0218c61dd26160605e6cea0cc21267
-    log: revlist-e18db3479122-99b14dd56b02.txt
+  - ref: refs/heads/tmp.master
+    old: 1266f5a916c1fc7721aecbc47893769f0d27ec6a
+    new: 82474972521f926f7d66a95d4405ca00d4f807fc
+    log: revlist-1266f5a916c1-82474972521f.txt
 
---===============7644654236460345626==
+--===============7219957261965618367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e18db3479122-99b14dd56b02.txt
+Content-Disposition: attachment; filename=revlist-1266f5a916c1-82474972521f.txt
 
-6aef61212411b740ac61c28a8745db6769baec6c sched/headers, of: Optimize <linux/of.h> dependencies, remove <linux/of_api.h>
-8043deb1b5726ded1bab679d723c32cb7ed7e67d sched/headers, ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/irqdomain.h> inclusion
-d9a62d41db469ce07d82a47ed6aea2de51179935 sched/headers, of: Optimize <linux/of_types.h> dependencies
-a5c67c9df9d3ad8d6d6197040374263534e20f89 sched/headers, arm64/mm: Rename <asm/pgtable-types.h> to <asm/pgtable_types.h>
-323f3e1047889e514db6d14da9a5ff81f6ccd57d sched/headers, arm64/mm: Prepare <asm/pgtable_types.h> for generic use
-2715caccbc59b39f57a8e6b2df0d64862ddea1b0 sched/headers, mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
-eacbc7c832ee8e06ca2b36a07260af502e5fd73a sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
-065664b8ef0eba5fe308a93facede989007519a5 sched/headers, csd: Move <linux/smp.h> to <linux/smp_api.h>
-a40570d50cca1c3f9490d81931641cc515b187f2 sched/headers, csd: Move 'struct __call_single_data' definition and initialization helpers from <linux/smp_api.h> to <linux/smp_types.h>
-501a8f84093da0801babb23289acb90502b5dce6 sched/headers, smp: Optimize <linux/smp.h>, remove <linux/smp_api.h>
-5c7aefa32c496fa8980085e1b5676f576d6fa5cb sched/headers, dma-mapping: Uninline dma_map_single_attrs()
-6531eeee189bd23fafdace3b56d972907fa839d6 sched/headers, mm/fixmap: Don't include <linux/mm_types.h> in a low level header
-a84ecdfe2b878c08895b064c6bd844efccacdaee sched/headers, x86/paravirt: Rename pv_ops.mmu.set_fixmap() to __set_fixmap()
-2f88b7e7e32dbf670640d8525ace3b50e3bc9ad0 sched/headers, mm: Clean up <linux/mm_types.h>, introduce <linux/mm_api.h>
-2be2ffdb17069f60d45cb92fb49a54c49fcc318a sched/headers, mm: Further split up <linux/mm.h> into <linux/mm_types.h> and <linux/mm_api.h>
-1c748e1ac33e9cc82187211ce08556be38f7e6cf sched/headers, mm: Decouple <linux/swap.h> from <linux/vmstat.h>
-b4dbc06bd944fd92f7433aef2b99af44a9ab7af2 sched/headers, mm/thp: Move the PageTrans*() methods to <linux/page-flags-thp.h>
-ae75d5928d327adc5dfa75ecee5792003fd9186f sched/headers, mm: Move <linux/vmstat.h> out of the middle of <linux/mm_api.h> and clean up its dependencies
-17e97e8c2fd2b829deeb674728dbccc7cb0bed8e sched/headers, locking/seqlocks: Split <linux/seqcount_types.h> out of <linux/seqlock_types.h>
-1ac2068da79ef054cd23d265d2e2cd7b10c8a0e9 sched/headers, mm: Simplify <linux/mm_types.h>
-69b1fb69da25d6990b26424386ba1f82b139d143 sched/headers, notifiers: Split <linux/notifier.h> into <linux/notifier_types.h> and <linux/notifier_api.h>
-7b8059e268fb69c95d56e781e0047c0048d588fb sched/headers, uprobes: Optimize <linux/uprobes.h> and x86 <asm/uprobes.h> dependencies
-f7423854b9b5c7899e038cbc0f04de1b585f669e sched/headers, mm: Optimize <linux/mm_types.h> dependencies
-c975ff6fa2a54bb376e865c4f855ef20b1a4efb9 sched/headers, arm64: Duplicate the vabits_actual declaration
-d52bee5d1202f95e83c41bb15a1d1316e13753a8 sched/headers, notifiers: Optimize <linux/notifier.h> dependencies, remove <linux/notifier_api.h> inclusion
-99b14dd56b0218c61dd26160605e6cea0cc21267 sched/headers, mm: Move the minimal KASAN API bits to <linux/mm_api_kasan.h>
+4b59e1b3319dfcd0c21392bf92dc9060b3a622a1 core: Remove unused cu__string() method
+20cd3508ea5e8fe3fdab450addaaa38ee0573b4d core: Remove unused debug_fmt_ops->dwarf__strings_ptr()
+497efa7e9c7d6ec47f4c3e794a24e0937bc7ef73 dwarf_loader: Remove unused strings variable and debug_fmt_ops->{init,exit}()
+ce7490bc6b6390d2e38dc27b844788617b7b81f1 btf_loader: No need for the 'strings' extern, not used
+f8ab49c8576b35cab9f7a255f64e68b482c67fc9 ctf_loader: No need for the 'strings' extern, not used
+26aa701cbd7a34ba53560fdc0a7b786b6c0b69a7 dwarf_loader: Pass conf_load to functions calling attr_string()
+631feb08f404ab3afd5aab6cae58cd60296e57b6 dwarf_loader: Make attr_suffix() handle kabi_prefix
+a9c68de4bd238f524b765a9072ab8943b1149e8f pahole: Use conf_load.kabi_prefix
+6a6b237c72fd74276fc0d37445f20f0869a0406b btf_encoder: Add missing bpf/btf.h include
+deb83080aa7a8913ae7afad417c198762bf06a78 btf_loader: Add missing bpf/btf.h include
+76cb44ae45467232e8c94457c531f4a0ba764c69 libctf: Comment out unused CTF encoding functions
+933c9fcf93f20c56e709212158d9da4c2e3aa8d9 pahole: Add missing bpf/btf.h include
+7a87f032457e7b54c84995887d2221ae05e58646 core: Remove base_type_name_to_size_table.sname, unused
+764e405fbbe5505166a7550655a6cf0912c4274e ctf_loader: Use uint32_t instead of strings_t, that is going away
+1e85ce3d783765a7c6f78edec85ea8e20934b62b core: Remove strings.c, unused
+82474972521f926f7d66a95d4405ca00d4f807fc core: Use namespace->name in class__clone()
 
---===============7644654236460345626==--
+--===============7219957261965618367==--
