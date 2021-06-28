@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1758813171566017217=="
+Content-Type: multipart/mixed; boundary="===============4055506548822031619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 28 Jun 2021 08:14:18 -0000
-Message-Id: <162486805850.15336.5296185705900143569@gitolite.kernel.org>
+Date: Mon, 28 Jun 2021 08:14:31 -0000
+Message-Id: <162486807115.15522.6771268157818324651@gitolite.kernel.org>
 
---===============1758813171566017217==
+--===============4055506548822031619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 0c33795231bff5df410bd405b569c66851e92d4b
-    new: ff8744b5eb116fdf9b80a6ff774393afac7325bd
-    log: revlist-0c33795231bf-ff8744b5eb11.txt
+  - ref: refs/heads/testing
+    old: 376fa224cb2e635ffe3b8879d210b679a7a6fb58
+    new: ca9280f6324bf09ec5d3667579f7dd3f7567e809
+    log: revlist-376fa224cb2e-ca9280f6324b.txt
 
---===============1758813171566017217==
+--===============4055506548822031619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1624868054 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1624868066 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1624868054-1eb2cac1854535f345414632ae8c617bd4821806
+nonce 1624868066-86ed0863510f5079006684c9c17d9bdcd3bc706d
 
-0c33795231bff5df410bd405b569c66851e92d4b ff8744b5eb116fdf9b80a6ff774393afac7325bd refs/heads/master
+376fa224cb2e635ffe3b8879d210b679a7a6fb58 ca9280f6324bf09ec5d3667579f7dd3f7567e809 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmDZhNYTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqV7BB/47G+7Gw0DcRq/qlvS9dCOcOM8HYvYm
-XxOPlKiqQ2XAeThg2PxRDNie/yZRn/mwCBcF9CdFSkbqsTf7snfjlizFChc0n70e
-/Mvv2/AeNJWKVVnRYpjffZQBK1T4Emc78Iwjg9EwaLY+k7xmjsEIEogociPlRY04
-7bQf/lgXUS5RmRYFImfgJY5lxn7K+vAVJtHCiCLBk87+E3xjtmi6vmc+C8Ztj79f
-z0xQHE3Km1L2enAlT8ulpWrZ0aYtMfzFP3BI3EXz7xGgn/Dy3hToU+UDnUgJDRVz
-VOewOJBo02TM5wmTc0PIzM/nKkIOdbVEohZ70dj/o12TIYZaklJ+wwDz
-=mKkb
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmDZhOITHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqQ5PCACuOThxCy/eicOrKE5lNAYcnnkWYCBf
+oUaYAWPZxk4jd+5+tEQJtIMZwHvkahePWbU1gm5j7PhcJ3924ikq4ZbDLGO7HFfH
++wXE5o9KjSl+BcMc0yJ/pjko+a1atFLt4SXRCb8AA+LawhA2h914E2znhGHweZ0N
+12rzAhwt8yFgiFgXVqzD9xtYSorRuMnt9WmjdoY/yXhLB1gpSh/JOkavw1EpRPS1
+6v9MHEFzLqv9c7e6/w0oTj0XBwK84B6AVVhn1mmlj1Ndcfnkr8DTXtbQJmO6WdtR
+XtAgMWVqGkfAK11/xF5Zu4kk4WDB3Vp5OWaJcSRoJ0B2fMRpuwy1WhM7
+=WYdx
 -----END PGP SIGNATURE-----
 
---===============1758813171566017217==
+--===============4055506548822031619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c33795231bf-ff8744b5eb11.txt
+Content-Disposition: attachment; filename=revlist-376fa224cb2e-ca9280f6324b.txt
 
-231bc539066760aaa44d46818c85b14ca2f56d9f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-8a4102a0cf07cc76a18f373f6b49485258cc6af4 riscv: mm: Fix W+X mappings at boot
-b75db25c416b9f0edae7cd86c4901c216a52e7a0 riscv: skip errata_cip_453.o if CONFIG_ERRATA_SIFIVE_CIP_453 is disabled
-da2d48808fbd1eddefefe245c6c0e92a9195df8b RISC-V: Fix memblock_free() usages in init_resources()
-160ce364167fabf8df5bebfff1b38fd5d8c146c9 Merge remote-tracking branch 'riscv/riscv-wx-mappings' into fixes
-a6c144f3d2e230f2b3ac5ed8c51e0f0391556197 nvme-loop: reset queue count to 1 in nvme_loop_destroy_io_queues()
-1c5f8e882a05de5c011e8c3fbeceb0d1c590eb53 nvme-loop: clear NVME_LOOP_Q_LIVE when nvme_loop_configure_admin_queue() fails
-4237de2f73a669e4f89ac0aa2b44fb1a1d9ec583 nvme-loop: check for NVME_LOOP_Q_LIVE in nvme_loop_destroy_admin_queue()
-6622f9acd29cd4f6272720e827e6406f5a970cb0 nvme-loop: do not warn for deleted controllers during reset
-bcd9a0797d73eeff659582f23277e7ab6e5f18f3 nvmet: fix freeing unallocated p2pmem
-3ae72f6ab9c1f688bd578cdc252dabce65fdaf57 ALSA: control led: fix memory leak in snd_ctl_led_register
-19a0aa9b04c5ab9a063b6ceaf7211ee7d9a9d24d ASoC: AMD Renoir - add DMI entry for Lenovo 2020 AMD platforms
-bc537e65b09a05923f98a31920d1ab170e648dba regulator: bd718x7: Fix the BUCK7 voltage setting on BD71837
-f131767eefc47de2f8afb7950cdea78397997d66 spi: spi-zynq-qspi: Fix some wrong goto jumps & missing error code
-10c1f0cbcea93beec5d3bdc02b1a3b577b4985e7 drm/i915/selftests: Fix return value check in live_breadcrumbs_smoketest()
-b87482dfe800f326f8f5b0093273ee6bd5b5fe9f Revert "i915: use io_mapping_map_user"
-8212937305f84ef73ea81036dafb80c557583d4b usb: dwc3: gadget: Disable gadget IRQ during pullup disable
-03715ea2e3dbbc56947137ce3b4ac18a726b2f87 usb: dwc3: gadget: Bail from dwc3_gadget_exit() if dwc->gadget is NULL
-b65ba0c362be665192381cc59e3ac3ef6f0dd1e1 usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
-6490fa565534fa83593278267785a694fd378a2b usb: pd: Set PD_T_SINK_WAIT_CAP to 310ms
-a3e74fb9247cd530dca246699d5eb5a691884d32 RDMA/ipoib: Fix warning caused by destroying non-initial netns
-3bfc6ffb616f14dc268aa121b71637ef06654e92 Merge tag 'hwmon-for-v5.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-0372b6dd6cfef9db032e0ed83a6ddfb84d9920dc Merge tag 'acpi-5.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-324c92e5e0ee0e993bdb106fac407846ed677f6b Merge tag 'efi-urgent-2021-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d94b93a9101573eb75b819dee94b1417acff631b ARM: cpuidle: Avoid orphan section warning
-d4c6399900364facd84c9e35ce1540b6046c345f vmlinux.lds.h: Avoid orphan section with !SMP
-ba8e59773ae59818695d1e20b8939282da80ec8c drm/amd/display: Allow bandwidth validation for 0 streams.
-a53085c1d20f914590fe446d01d4546150758983 drm/amd/display: Fix GPU scaling regression by FS video support
 147feb007685cbb765b16a834d4f00675d589bb4 drm/amdgpu: add judgement for dc support
 5cfc912582e13b05d71fb7acc4ec69ddfa9af320 drm/amdgpu: refine amdgpu_fru_get_product_info
 33f409e60eb0c59a4d0d06a62ab4642a988e17f7 drm/amd/display: Fix overlay validation by considering cursors
@@ -1075,5 +1047,33 @@ ac53c26433b51f1835ce5a935970e427d83e3ec5 net: mdiobus: withdraw fwnode_mdbiobus_
 4e3db44a242a4e2afe33b59793898ecbb61d478e Merge tag 'wireless-drivers-next-2021-06-25' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
 17081633e22d83be928a779fd7acd04b247dec90 net/smc: Ensure correct state of the socket in send path
 ff8744b5eb116fdf9b80a6ff774393afac7325bd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+f1b160c8b5873687e3684cf2b9fa0e3ba07fda4d can: j1939: j1939_sk_sock_destruct(): correct a grammatical error
+563289f4161c81b55ce19c05cd8ba2737fb26240 can: j1939: fix checkpatch warnings
+fc00a3a076f0b2f73a45f87bbc800d18d824356f can: j1939: replace fall through comment by fallthrough pseudo-keyword
+da0c93820767045b4c6ce2fbef24354f8ad85f3f can: j1939: j1939_session_completed(): use consistent name se_skb for the session skb
+a2ea50608a02ac48371a9fab0167c1b44457913e can: j1939: j1939_session_tx_dat(): use consistent name se_skcb for session skb control buffer
+2ec155fa459b4c2f4f70419f74d004ef335daaa7 can: j1939: j1939_xtp_rx_dat_one(): use separate pointer for session skb control buffer
+5d4dcc0ac7d4c82acf5806598580184492459938 can: bittiming: fix documentation for struct can_tdc
+340e5b8ff02df5282517d3d505f6c457f6948345 can: netlink: clear data_bittiming if FD is turned off
+214461d6bce8748f7fbd48647a25cef5209e5d1d can: netlink: remove redundant check in can_validate()
+ecd0522e34f16cfc5118d4523dd0b01452b1d740 can: m_can: use devm_platform_ioremap_resource_byname
+791ae97a9470d51500f44be983650faa445e3842 can: m_can: remove support for custom bit timing
+eeeaa270124446d9f3d1e77cf224f39d275bcbc3 can: esd_usb2: use DEVICE_ATTR_RO() helper macro
+084d6a9cb4a4c9539cbdac2b5451a0deb9e84b64 can: janz-ican3: use DEVICE_ATTR_RO/RW() helper macro
+0549d90cf6fe7477986161976991266ddbe3241c can: at91_can: use DEVICE_ATTR_RW() helper macro
+895c2b17ded8f5d92a55dad234060ce198df5c9a net: at91_can: remove redundant blank lines
+39c7b924108ceb929e8103c80f9874bb5704c90b net: at91_can: add blank line after declarations
+110336714677fcd432c5bc28578e8738efdeb1ef net: at91_can: fix the code style issue about macro
+070c5a706f5a57ca24a77067ba3ad39e355c8bad net: at91_can: use BIT macro
+05f669e73d5b92457ae5b989e9233b50197f5520 net: at91_can: fix the alignment issue
+79a62db4c106296ba8c3aa56ed17e4438065d0fd net: at91_can: add braces {} to all arms of the statement
+eb4c22dac00792e2357ff37b71e62ccbff6c5e03 net: at91_can: remove redundant space
+1f25d031f19c9bcb00886dec4632b3f4ea534d59 net: at91_can: fix the comments style issue
+5547cfedd7a19d873a404d41e48e68a6c8956135 can: peak_pci: convert comments to network style comments
+dfc11d7dcb31bb9f112271cc765c033f8fd337b3 can: peak_pci: fix checkpatch warnings
+f0483f1de0814a830e7e55ea6fffacdc1be998ca can: peak_pci: Add name and FW version of the card in kernel buffer
+94b98cd6e308ce7f4383629ae3b0c11b880e436f can: peak_usb: pcan_usb_get_device_id(): read value only in case of success
+e487a011607209e4f8769eb6d400430ef639e6ca can: peak_usb: PCAN-USB: add support of loopback and one-short mode
+ca9280f6324bf09ec5d3667579f7dd3f7567e809 can: peak_usb: pcan_usb_encode_msg(): adds information
 
---===============1758813171566017217==--
+--===============4055506548822031619==--
