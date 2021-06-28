@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3608677239359915460=="
+Content-Type: multipart/mixed; boundary="===============0274698688094797432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 28 Jun 2021 09:53:45 -0000
-Message-Id: <162487402580.2357.12292351065207269930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 28 Jun 2021 09:54:08 -0000
+Message-Id: <162487404807.2565.11936915096322916769@gitolite.kernel.org>
 
---===============3608677239359915460==
+--===============0274698688094797432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 62fb9874f5da54fdb243003b386128037319b219
     log: revlist-6efb943b8616-62fb9874f5da.txt
 
---===============3608677239359915460==
+--===============0274698688094797432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b7050b242430f3170e0b57f5f55136e44cb8dc66 Merge tag 'pinctrl-v5.13-3' of git://gi
 b4b27b9eed8ebdbf9f3046197d29d733c8c944f3 Revert "signal: Allow tasks to cache one sigqueue struct"
 62fb9874f5da54fdb243003b386128037319b219 Linux 5.13
 
---===============3608677239359915460==--
+--===============0274698688094797432==--
