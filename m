@@ -1,21 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 28 Jun 2021 18:59:42 -0000
-Message-Id: <162490678208.23924.3136787322831935895@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5000655499340348148=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Mon, 28 Jun 2021 19:00:41 -0000
+Message-Id: <162490684166.25798.6852379034578646455@gitolite.kernel.org>
+
+--===============5000655499340348148==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: bd8ca45852734c15fbb7b03090bfb70dc42c4468
-    new: e4fe5668af8badd579f755730848df24092108a0
-    log: |
-         b117ca30c44e45e4ab716ad0c22091e9cd3569f2 thermal/drivers/int340x/processor_thermal: Add PCI MMIO based thermal driver
-         77b6c4044d8f7062b2c1c2a99f4bb076acc7f04f thermal/drivers/mediatek: Add sensors-support
-         e4fe5668af8badd579f755730848df24092108a0 thermal/drivers/int340x: processor_thermal: Fix warning for return value
-         
+  - ref: refs/heads/master
+    old: 65ed489dd27b9eff047feecf872aacc7be73f6f0
+    new: e18db3479122ea13194c00242c9e1879b143a43f
+    log: revlist-65ed489dd27b-e18db3479122.txt
+
+--===============5000655499340348148==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-65ed489dd27b-e18db3479122.txt
+
+720ee5cf02daafcbfdb05169ca43035a0b14bec1 sched/headers, of: Optimize <linux/of.h> dependencies, remove <linux/of_api.h>
+3e1a563558e26d7065da92078d7875314cca0da3 sched/headers, ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/irqdomain.h> inclusion
+9251432204d8e5b66fb7cf000ab0e21677f6f4ff sched/headers, of: Optimize <linux/of_types.h> dependencies
+8a4eb07e62e51ad74a8c0c28f883b776b4a2f800 sched/headers, arm64/mm: Rename <asm/pgtable-types.h> to <asm/pgtable_types.h>
+1421ab6b78478e345c5e90bb6c76399744ff2d1d sched/headers, arm64/mm: Prepare <asm/pgtable_types.h> for generic use
+9f2b2a19c10d5429ea8cec632defa2b66820238d sched/headers, mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
+a00275a990cc5488026e4091af49a76921d37a0f sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
+f8464c57b4e27b1d06bec2d8723b41f33dd091fd sched/headers, csd: Move <linux/smp.h> to <linux/smp_api.h>
+f83045e6a0e4cb9c58fb48e439ff99738c95066a sched/headers, csd: Move 'struct __call_single_data' definition and initialization helpers from <linux/smp_api.h> to <linux/smp_types.h>
+17c50f2e773f7156cab86d9df3b0dc58d57fa585 sched/headers, smp: Optimize <linux/smp.h>, remove <linux/smp_api.h>
+d70d312b182bdd4f3b53b5e7a1ea2176928da5e8 sched/headers, dma-mapping: Uninline dma_map_single_attrs()
+7b85834b5776e390bf4cf175cff4d87e33da3faa sched/headers, mm/fixmap: Don't include <linux/mm_types.h> in a low level header
+196038c006ae8cf6ee43ff8a1f142e0c34bcd776 sched/headers, x86/paravirt: Rename pv_ops.mmu.set_fixmap() to __set_fixmap()
+92faa907e8933c1ef40965c594825b5060a41766 sched/headers, mm: Clean up <linux/mm_types.h>, introduce <linux/mm_api.h>
+aba46495c26d3242aabf15b2607f876162b39ecd sched/headers, mm: Further split up <linux/mm.h> into <linux/mm_types.h> and <linux/mm_api.h>
+045ccd239f8376f9ba05bc5c3e6c5a7e84fed75e sched/headers, mm: Decouple <linux/swap.h> from <linux/vmstat.h>
+c911cf207afa21784f0f5f2a17ee18fbacc0df63 sched/headers, mm/thp: Move the PageTrans*() methods to <linux/page-flags-thp.h>
+e18db3479122ea13194c00242c9e1879b143a43f sched/headers, mm: Move <linux/vmstat.h> out of the middle of <linux/mm_api.h> and clean up its dependencies
+
+--===============5000655499340348148==--
