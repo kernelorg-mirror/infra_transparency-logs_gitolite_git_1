@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3272662537203646742=="
+Content-Type: multipart/mixed; boundary="===============1013230325304617756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 28 Jun 2021 11:48:16 -0000
-Message-Id: <162488089695.14933.12015941406361808339@gitolite.kernel.org>
+Date: Mon, 28 Jun 2021 11:48:40 -0000
+Message-Id: <162488092087.15187.4955293838721570841@gitolite.kernel.org>
 
---===============3272662537203646742==
+--===============1013230325304617756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 3abeeb90bf0ee29db0d9e3bd47183620f08ed9be
     new: 05333d72e9fb69c377e22d2975fdd28a9bdf2e5d
     log: revlist-3abeeb90bf0e-05333d72e9fb.txt
 
---===============3272662537203646742==
+--===============1013230325304617756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ c51e96dace68a67f1fcfa49d4ad1577875f50bf1 Merge branch irq/irqchip-driver-updates
 3d2ce675aba7e2425710e23268579a5d76c7e725 Merge tag 'irqchip-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 05333d72e9fb69c377e22d2975fdd28a9bdf2e5d Merge branch 'irq/core'
 
---===============3272662537203646742==--
+--===============1013230325304617756==--
