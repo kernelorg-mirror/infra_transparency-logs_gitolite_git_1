@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 28 Jun 2021 19:59:49 -0000
-Message-Id: <162491038989.32006.5247217035912303958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 28 Jun 2021 19:59:52 -0000
+Message-Id: <162491039275.32117.7786000017868929823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/pstore-v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 1d6a57fcf303a15ed85695d3582dc93c05e90939
+  - ref: refs/heads/sched/core
+    old: 031e3bd8986fffe31e1ddbf5264cccfe30c9abd7
+    new: 7d29bcad34d042aefd79dec88caf4f0d2c1c961b
+    log: |
+         7d29bcad34d042aefd79dec88caf4f0d2c1c961b sched/core: Disable CONFIG_SCHED_CORE by default
+         
