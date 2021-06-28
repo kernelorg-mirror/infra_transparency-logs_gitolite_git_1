@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8604521458598331060=="
+Content-Type: multipart/mixed; boundary="===============5879246588173838823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 28 Jun 2021 23:19:48 -0000
-Message-Id: <162492238820.5481.11632681566960964551@gitolite.kernel.org>
+Date: Mon, 28 Jun 2021 23:23:25 -0000
+Message-Id: <162492260511.9092.9071996576528319973@gitolite.kernel.org>
 
---===============8604521458598331060==
+--===============5879246588173838823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a78cae2476812cecaa4a33d0086bbb53986906bc
     new: 84fe73996c2e7407006002ef92d7354a56b69fed
     log: revlist-a78cae247681-84fe73996c2e.txt
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
 
---===============8604521458598331060==
+--===============5879246588173838823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1051,4 @@ a358f40600b3b39ae3906b6118625b99c0aa7a34 once: implement DO_ONCE_LITE for non-fa
 127d7355abb355b05ff4b42d6e18cc97aa9d1d11 net: update netdev_rx_csum_fault() print dump only once
 84fe73996c2e7407006002ef92d7354a56b69fed Merge branch 'do_once_lite'
 
---===============8604521458598331060==--
+--===============5879246588173838823==--
