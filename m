@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0876007993124563859=="
+Content-Type: multipart/mixed; boundary="===============3417170770857240253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 29 Jun 2021 19:41:42 -0000
-Message-Id: <162499570231.28840.8362383583249382356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Tue, 29 Jun 2021 19:41:47 -0000
+Message-Id: <162499570733.28925.8476360509785569776@gitolite.kernel.org>
 
---===============0876007993124563859==
+--===============3417170770857240253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: e940dc0506ad0fde6d62e3e918d062c2b2e6b724
-    new: 6d3a2af12bd5442cb0b4cda656e5f57d5765ac0a
-    log: revlist-e940dc0506ad-6d3a2af12bd5.txt
+    old: 31b69f582b7c8b67b757e24d3f4f17dafba22305
+    new: e07adc5a34457d4d5f24f0100d130d93eb887f37
+    log: revlist-31b69f582b7c-e07adc5a3445.txt
 
---===============0876007993124563859==
+--===============3417170770857240253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e940dc0506ad-6d3a2af12bd5.txt
+Content-Disposition: attachment; filename=revlist-31b69f582b7c-e07adc5a3445.txt
 
 9dd45bbad947f7cc4f3d4eff7fc02a7e3804e47b i2c: icy: Remove unused variable new_fwnode in icy_probe()
 52b806e8d6b3c06d5f8415f82d7353695acb2f00 i2c: I2C_HISI should depend on ACPI
@@ -1049,6 +1049,6 @@ b7050b242430f3170e0b57f5f55136e44cb8dc66 Merge tag 'pinctrl-v5.13-3' of git://gi
 625acffd7ae2c52898d249e6c5c39f348db0d8df Merge tag 's390-5.13-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b4b27b9eed8ebdbf9f3046197d29d733c8c944f3 Revert "signal: Allow tasks to cache one sigqueue struct"
 62fb9874f5da54fdb243003b386128037319b219 Linux 5.13
-6d3a2af12bd5442cb0b4cda656e5f57d5765ac0a selinux: add a SELinux specific README.md
+e07adc5a34457d4d5f24f0100d130d93eb887f37 audit: add a Linux Audit specific README.md
 
---===============0876007993124563859==--
+--===============3417170770857240253==--
