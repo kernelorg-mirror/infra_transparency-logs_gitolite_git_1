@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4337082278691006969=="
+Content-Type: multipart/mixed; boundary="===============2996978600661350331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 29 Jun 2021 09:52:14 -0000
-Message-Id: <162496033434.26250.15323156411683023653@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 09:52:50 -0000
+Message-Id: <162496037025.26490.9767434971524881560@gitolite.kernel.org>
 
---===============4337082278691006969==
+--===============2996978600661350331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: b5a1d1fe0cbb9d20ba661134a09561af1dc9ebf5
     new: 84fe73996c2e7407006002ef92d7354a56b69fed
     log: revlist-b5a1d1fe0cbb-84fe73996c2e.txt
 
---===============4337082278691006969==
+--===============2996978600661350331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a358f40600b3b39ae3906b6118625b99c0aa7a34 once: implement DO_ONCE_LITE for non-fa
 127d7355abb355b05ff4b42d6e18cc97aa9d1d11 net: update netdev_rx_csum_fault() print dump only once
 84fe73996c2e7407006002ef92d7354a56b69fed Merge branch 'do_once_lite'
 
---===============4337082278691006969==--
+--===============2996978600661350331==--
