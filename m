@@ -1,46 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Tue, 29 Jun 2021 15:33:13 -0000
-Message-Id: <162498079321.24246.3614792378144345844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Tue, 29 Jun 2021 15:33:46 -0000
+Message-Id: <162498082621.24524.257914342188115734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/tags/dlm-5.14
-    old: 0000000000000000000000000000000000000000
-    new: 1897db3fd50f0d98a4cf285cee5ec9eb28aff474
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/heads/sched/headers
+    old: ed0cf9a578adcd0415dcb91a9fd9cc540adbfabb
+    new: a2302c197d2d7aa8fd5fb8ca8bf977c7de6a7a1a
+    log: |
+         a6e5733717aff2e7721a0fe93d3cac0c4ccfe4ed sched/headers, x86/fpu: Make the <asm/fpu/types.h> header build standalone
+         088803c253457cf7a3f4ffce192798ba48963d59 sched/headers, RCU: Remove __read_mostly annotations from externs
+         a2302c197d2d7aa8fd5fb8ca8bf977c7de6a7a1a sched/headers, x86/cpu: Split out <asm/processor_api.h> from <asm/processor.h>
+         
