@@ -1,84 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============0078210735464645446=="
+Content-Type: multipart/mixed; boundary="===============3152222988035835567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 29 Jun 2021 03:49:36 -0000
-Message-Id: <162493857672.27242.7963224018874960577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Tue, 29 Jun 2021 04:08:40 -0000
+Message-Id: <162493972084.7837.16627783882137967620@gitolite.kernel.org>
 
---===============0078210735464645446==
+--===============3152222988035835567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 233a806b00e31b3ab8d57a68f1aab40cf1e5eaea
-    new: c54b245d011855ea91c5beff07f1db74143ce614
-    log: revlist-233a806b00e3-c54b245d0118.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: a5a570fa2d81bea03c8dcbde44c0d08c62b65401
+    new: ef17ce8f06c1589a8bae65ae0102f4f49f645889
+    log: revlist-a5a570fa2d81-ef17ce8f06c1.txt
 
---===============0078210735464645446==
+--===============3152222988035835567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-233a806b00e3-c54b245d0118.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f9c82a4ea89c384d49ce03768ba88d049ed3f1f0 Increase size of ucounts to atomic_long_t
-905ae01c4ae2ae3df05bb141801b1db4b7d83c61 Add a reference to ucounts for each cred
-b6c336528926ef73b0f70260f2636de2c3b94c14 Use atomic_t for ucounts reference counting
-21d1c5e386bc751f1953b371d72cd5b7d9c9e270 Reimplement RLIMIT_NPROC on top of ucounts
-6e52a9f0532f912af37bab4caf18b57d1b9845f4 Reimplement RLIMIT_MSGQUEUE on top of ucounts
-d64696905554e919321e31afc210606653b8f6a4 Reimplement RLIMIT_SIGPENDING on top of ucounts
-d7c9e99aee48e6bc0b427f3e3c658a6aba15001e Reimplement RLIMIT_MEMLOCK on top of ucounts
-e4aebf06695c32d49f1007f9d252f97b5b2998a7 kselftests: Add test to check for rlimit changes in different user namespaces
-c1ada3dc7219b02b3467aa906c2f5f8b098578d1 ucounts: Set ucount_max to the largest positive value the type can hold
-9b624988221b7cb259da77dd67ef0ee4d6b56d12 ucounts: Count rlimits in each user namespace
-f928ef685db5d9b82c1c1e24e229c167426c5a1f ucounts: Silence warning in dec_rlimit_ucounts
-963cdcc37e98b8dd2894a4a5d48c9d5fe0ae903b tee: Fix fall-through warnings for Clang
-47ce0b65bfb337a7bb4958b076ef8d2865d6d07c atm: fore200e: Fix fall-through warnings for Clang
-18a0e8d0f103af40c82f751fabb0b4cb0bf2f32a watchdog: Fix fall-through warnings for Clang
-fc7980915a8601b9a54c547a74dad0fdffc674a5 vxge: Fix fall-through warnings for Clang
-c3754da3b7391006eaafa41fb28239268655afa5 reiserfs: Fix fall-through warnings for Clang
-ebd0476256bea64fb0146f28a079c9aa9ce670c0 nfp: Fix fall-through warnings for Clang
-9b8b84c168b6c1e033a21b7a6880550a802ad378 netxen_nic: Fix fall-through warnings for Clang
-cc9fd18032efada6433712f52de8d98dfbd00fd2 bnxt_en: Fix fall-through warnings for Clang
-d66aea44b0ac7b58d9da8269ebd053f164e4aa54 qlcnic: Fix fall-through warnings for Clang
-79121184f8e7c41c0ffe483f402b9d7f89256698 ipv4: Fix fall-through warnings for Clang
-f5e9724c42d94b9acf061cc8225c4778b22186b7 braille_console: Fix fall-through warnings for Clang
-5ef73b6e652107bbdcf65d10a477cfc027ee9090 firewire: core: Fix fall-through warnings for Clang
-3752445d79ee73fc2cb08c35c82890b2ef5c9757 hwmon: (corsair-cpro) Fix fall-through warnings for Clang
-58e31cf015e68e2696cbced6f2128ec68162ef17 hwmon: (max6621) Fix fall-through warnings for Clang
-731d5f441e1c6c1c4f012ac43b644f63e9ae8478 ide: Fix fall-through warnings for Clang
-6518e3fc972ed54772f81e8b89b17be47f6d55f3 net: netrom: Fix fall-through warnings for Clang
-5af5a020ddd10afc6caff05b4c941c2b1c17bf1d net/packet: Fix fall-through warnings for Clang
-3754fa747dc0fb41cd1fd9a79bcb442dfe6802b3 rds: Fix fall-through warnings for Clang
-0572b37b27f4f26bfd53f0f10186fa1783b97421 sctp: Fix fall-through warnings for Clang
-1c78ba4924107b06de60f887a0d20d9b3e9bc9e2 tipc: Fix fall-through warnings for Clang
-135436a7d2cdd505aacc142f7f57e388b23ba73e xfrm: Fix fall-through warnings for Clang
-53004ee78d6273c994534ccf79d993098ac89769 xfs: Fix fall-through warnings for Clang
-5e6b8a50a7cec5686ee2c4bda1d49899c79a7eae cred: add missing return error code when set_cred_ucounts() failed
-f49efb108aa4408feeca51ea4b4486075624017b drm/nouveau: Fix fall-through warnings for Clang
-e0e6f9b2a329c2672391fab435240c221d04641c drm/nouveau/therm: Fix fall-through warnings for Clang
-0850bf2e5ce411f7c1e2879d72d80253cd8db261 drm/nouveau/clk: Fix fall-through warnings for Clang
-40e67c120093a918037b6ec589bafd5d96b522a3 rxrpc: Fix fall-through warnings for Clang
-13dfead49db07225335d4f587a560a2210391a1a media: siano: Fix out-of-bounds warnings in smscore_load_firmware_family2()
-6eed261f48d5a53f369c88d4296621f2d8647493 pstore/blk: Improve failure reporting
-2a03ddbde1e1268f15de6f15b09f305a33bff4ba pstore/blk: Move verify_size() macro out of function
-7bb9557b48fcabaa12750a8775352740def381a8 pstore/blk: Use the normal block device I/O path
-c811659bb9a09b319842bf61602ce858b1d1920a pstore/blk: Fix kerndoc and redundancy on blkdev param
-1d1f6cc5818c750ac69473e4951e7165913fbf16 pstore/blk: Include zone in pstore_device_info
-0ae71c7720e3ae3aabd2e8a072d27f7bd173d25c seccomp: Support atomic "addfd + send reply"
-e540ad97e73cefb41e93d0c06d0fe6a8620a77e0 selftests/seccomp: Add test for atomic addfd+send
-93e720d710dfe689099c23bb91414303cf715d27 selftests/seccomp: More closely track fds being assigned
-62ddb91b7771626658c382c2b849a058f1586123 selftests/seccomp: Flush benchmark output
-9a03abc16c77062c73972df08206f1031862d9b4 selftests/seccomp: Avoid using "sysctl" for report
-616ea5cc4a7b058f8c27e37b9a597d8704c49130 Merge tag 'seccomp-v5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-07bdc0746a5a23c5bdd041feb2fd8cd7b5ee7a97 Merge tag 'pstore-v5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-8ec035ac4a1391c16c3cf328e6e8d9531d7a229f Merge tag 'fallthrough-fixes-clang-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
-e17c120f48f7d86ed9fd6e44e9436d32997fd9ec Merge tag 'array-bounds-fixes-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
-c54b245d011855ea91c5beff07f1db74143ce614 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+certificate version 0.1
+pusher 75C5DE3D 1624939719 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1624939719-d74deb078102858224a48147305304ce97d55a6b
 
---===============0078210735464645446==--
+a5a570fa2d81bea03c8dcbde44c0d08c62b65401 ef17ce8f06c1589a8bae65ae0102f4f49f645889 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDanMcACgkQ7ulgGnXF
+3j3wDg/+Ic1cVWBYYaGFkiUweucyzP0+NlAld4GCSc3JJuwZwh2TDjfAWaitAlBU
+baqwY7HQuVcz39y7ROI24HMlPBsPoP2IR3JjVTah9i5Vr97BtD4gID+cgifL3vky
+rBidrmFfLxR5sZbVJbBT8Dv2ZuMDoW0q7DueaKUVueSxUjHKQcMm7ZBF8wAbvc6V
+361h5un39LaXr2j+QNUk4vPglgCy34hCJNJIAdJYIBU3KRBM7QemndhiyOVF54p2
+WLxfi9TdMHDBCfuL6Y5GlRpShNx0VyYmd7Q1mAxDob087l3DTQZ3ujBatetD0xLd
+VzAQEioFNHUtQH4W4l2dtO3M8FfaV/tmAL4x4rMlsQzI+v/TQ/kWPWVBtohiutbX
+GX1bV3HqrGaOF8qnyA0Y7GUVG3UDdb9VfbXXgUpm9kTMQAKJjtT32hyW5SDLRL8I
+aGQKWyV5M7Uv7h1hvxhNooJ1H/ZEmS1aBBFk/KRXThwDSexgaaLWnDc0VbYQVGzX
+6hvVS7rgjauqbs5OkcJ0uuGuJQLKs3dPnRg0q5arzKgcV31ZYhOs4OzRShpkGyzf
+5BySL7GvC9ug7dhMW8AfAw5FvwXqUBUI0tVTbKIZFLJiLd9/LhF9Di8jSSnq6JNw
+PMtusfh6BW3f5bF6LmwPP099Z2tpV949Tqb8Sgl3rv59FaH/jYI=
+=qF4X
+-----END PGP SIGNATURE-----
+
+--===============3152222988035835567==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a5a570fa2d81-ef17ce8f06c1.txt
+
+f6060eb1344717bf22d592a6e1b69818b07cad6e scsi: elx: libefc_sli: Fix ANDing with zero bit value
+f7c95d7460e342f812eaf9b4b74f100d5afaf258 scsi: elx: efct: Fix vport list linkage in LIO backend
+332a9dd1d86f1e7203fc7f0fd7e82f0b304200fe scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+59506abe5e3474cd69b768b2c1a5760f872c72fe scsi: core: Inline scsi_mq_alloc_queue()
+49da96d77938db21864dae6b7736b71e96c1d203 scsi: libsas: Add LUN number check in .slave_alloc callback
+c43ddbf97f46b93727718408d60a47ce8c08f30c scsi: virtio_scsi: Do not overwrite SCSI status
+d94d8158e1841813624e9fecf93a12e64e004dd8 scsi: qla2xxx: Add heartbeat check
+73b306a2bcb75e37b8065aa714ad2c6949c90ebf scsi: bnx2fc: Remove meaningless bnx2fc_abts_cleanup() return value assignment
+75d645a61cf9c960b20650914386f20f993f81bc scsi: ufs: Fix build warning without CONFIG_PM
+030e4138d11fced3b831c2761e4cecf347bae99c scsi: be2iscsi: Fix an error handling path in beiscsi_dev_probe()
+c7fa2c855e892721bafafdf6393342c000e0ef77 scsi: be2iscsi: Fix some missing space in some messages
+1897c5c7597566264cff4827fd4f02e243f773ca scsi: message: mptfc: Switch from pci_ to dma_ API
+ffa636470aefc41a634025e958b32b006d59a29a scsi: qedi: Use DEVICE_ATTR_RO() macro
+80068f82284a3bbb2763a2280027daa95da4f73d scsi: qedf: Use DEVICE_ATTR_RO() macro
+4c92f89802552f345e7577ba614874f1d6a710f4 scsi: megaraid_mbox: Use DEVICE_ATTR_ADMIN_RO() macro
+2506f5dcb8282aa7adf77965ef147bb5b68973e3 scsi: mvsas: Use DEVICE_ATTR_RO()/RW() macro
+
+--===============3152222988035835567==--
