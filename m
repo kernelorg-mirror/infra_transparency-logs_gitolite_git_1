@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4160370270212138810=="
+Content-Type: multipart/mixed; boundary="===============1204992758953506600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 29 Jun 2021 09:42:59 -0000
-Message-Id: <162495977967.18847.13600843127362948119@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 09:49:48 -0000
+Message-Id: <162496018852.23024.15400642743671129567@gitolite.kernel.org>
 
---===============4160370270212138810==
+--===============1204992758953506600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: dd72fadf2186fc8a6018f97fe72f4d5ca05df440
     new: a118ff661889ecee3ca90f8125bad8fb5bbc07d5
     log: revlist-dd72fadf2186-a118ff661889.txt
 
---===============4160370270212138810==
+--===============1204992758953506600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f9beb95e6a2669fa35e34a6ff52808b181efa20f Merge branch 'sctp-size-validations'
 b856150c8098f12996ee81c3ab2a65adbaeeb3ec net: phy: at803x: mask 1000 Base-X link mode
 a118ff661889ecee3ca90f8125bad8fb5bbc07d5 selftests: net: devlink_port_split: check devlink returned an element before dereferencing it
 
---===============4160370270212138810==--
+--===============1204992758953506600==--
