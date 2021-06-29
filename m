@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4150675252429743291=="
+Content-Type: multipart/mixed; boundary="===============2999891689254406856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 29 Jun 2021 11:26:12 -0000
-Message-Id: <162496597225.25849.17271178074429501501@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 11:26:20 -0000
+Message-Id: <162496598092.25970.6414479932027686415@gitolite.kernel.org>
 
---===============4150675252429743291==
+--===============2999891689254406856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/heads/main
-    old: 25ddc612fd2f62190a96245bb3c6ca04d8ea8481
+  - ref: refs/heads/master
+    old: 0f66b74b6267fce66395316308d88b0535aa3df2
     new: d79c26779d459063b8052b7fe0a48bce4e08d0d9
-    log: revlist-25ddc612fd2f-d79c26779d45.txt
+    log: revlist-0f66b74b6267-d79c26779d45.txt
 
---===============4150675252429743291==
+--===============2999891689254406856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25ddc612fd2f-d79c26779d45.txt
+Content-Disposition: attachment; filename=revlist-0f66b74b6267-d79c26779d45.txt
 
+160fd62e7662df212df96650db49baaea1d314cb QCA: Update Bluetooth firmware for QCA6174
+df9acd545d64defe19cf1d97a29fcec81e64ea8e rtl_bt: Update RTL8822C BT(UART I/F) FW to 0x05A8_C6B4
+2fd5139f36a33403305e2e5984fc230693b0758d linux-firmware: update firmware for MT7921 WiFi device to 20210612122753
+0380d7a0c1c17cd379217e94eeaeaa85c70b239a Merge https://github.com/rjliao-qca/qca-btfw into main
+f5a0bc7ede8d183dd6cf89c67810012dd27e5832 rtl_bt: Update RTL8852A BT USB firmware to 0xD9A8_A0CD
+57d8a397abb6e2edc0f4d639e96592e500f39cc8 linux-firmware: Update firmware file for Intel Bluetooth AX201
+34803c20f1e79ea8d5d718b17738e48c61ae9d87 linux-firmware: Update firmware file for Intel Bluetooth AX200
+25ddc612fd2f62190a96245bb3c6ca04d8ea8481 linux-firmware: Update firmware file for Intel Bluetooth AX210
 ae467ccfd0b307c30f51e29548bd86d8eb2e501d amdgpu: update navy flounder firmware from 21.20
 78bdc7f031f62b8c6207938990eb397b9b6c70dc amdgpu: update raven firmware from 21.20
 d1f79ac9fff2d76d6876101d0532cfe618990334 amdgpu: update arcturus firmware from 21.20
@@ -47,4 +55,4 @@ d2386478f76e40ec2ce48269ef00d77a55db8320 amdgpu: update vcn firmware for navi12 
 5f74558879dec8c8a021b8dfcd9e45909638b378 amdgpu: update vcn firmware for renoir for 21.20
 d79c26779d459063b8052b7fe0a48bce4e08d0d9 amdgpu: update vcn firmware for green sardine for 21.20
 
---===============4150675252429743291==--
+--===============2999891689254406856==--
