@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5126243865360401341=="
+Content-Type: multipart/mixed; boundary="===============8314240960371812069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 29 Jun 2021 14:34:01 -0000
-Message-Id: <162497724159.15810.16927043516204533302@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 14:36:20 -0000
+Message-Id: <162497738018.18037.4132583783816209650@gitolite.kernel.org>
 
---===============5126243865360401341==
+--===============8314240960371812069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 103a5348c22c3fca8b96c735a9e353b8a0801842
+  - ref: refs/heads/next
+    old: 98b5ce4c08ca85727888fdbd362d574bcfa18e3c
     new: 77347eda64ed5c9383961d1de9165f9d0b7d8df6
-    log: revlist-103a5348c22c-77347eda64ed.txt
+    log: revlist-98b5ce4c08ca-77347eda64ed.txt
 
---===============5126243865360401341==
+--===============8314240960371812069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-103a5348c22c-77347eda64ed.txt
+Content-Disposition: attachment; filename=revlist-98b5ce4c08ca-77347eda64ed.txt
 
+478036c4cd1a16e613a2f883d79c03cf187faacb powerpc: Fix initrd corruption with relative jump labels
+a33d62662d275cee22888fa7760fe09d5b9cd1f9 afs: Fix an IS_ERR() vs NULL check
+98eaa63e96273de075f3ce4eac0f18b33d28b84c tomoyo: fix doc warnings
 1348924ba8169f35cedfd0a0087872b81a632b8e x86/msr: Define new bits in TSX_FORCE_ABORT MSR
-2c49912f1d66076caf5b8cf2d636e2e35f350cf2 Merge branch 'fixes' into next
-09a8ec9a2d03efa2813d9d306424eb6802146b57 dt-bindings: mmc: sdhci-iproc: Add brcm,bcm7211a0-sdhci
-98b5ce4c08ca85727888fdbd362d574bcfa18e3c mmc: sdhci-iproc: Add support for the legacy sdhci controller on the BCM7211
 ad3c2e174938d72fded674acead42e2464a3b460 x86/events/intel: Do not deploy TSX force abort workaround when TSX is deprecated
 8c485bedfb7852fa4de2a34aac2a6fd911f539f4 regulator: sy7636a: Initial commit
 70d654ea3de937d7754c107bb8eeb20e30262c89 regulator: mt6315: Fix checking return value of devm_regmap_init_spmi_ext
@@ -1051,4 +1051,4 @@ e17c120f48f7d86ed9fd6e44e9436d32997fd9ec Merge tag 'array-bounds-fixes-5.14-rc1'
 c54b245d011855ea91c5beff07f1db74143ce614 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 77347eda64ed5c9383961d1de9165f9d0b7d8df6 mmc: core: clear flags before allowing to retune
 
---===============5126243865360401341==--
+--===============8314240960371812069==--
