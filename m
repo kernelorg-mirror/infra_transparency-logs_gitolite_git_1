@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 29 Jun 2021 18:29:46 -0000
-Message-Id: <162499138649.12473.8251905321565387245@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 18:32:12 -0000
+Message-Id: <162499153265.14883.1132018216309066608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 7f4e5c5b8cb00138ad1a10cab87bbd1e2d4d3376
-    new: 8602e40fc8132383298f304ae060d80f210be23c
+    old: 8602e40fc8132383298f304ae060d80f210be23c
+    new: b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba
     log: |
-         e3ae2365efc14269170a6326477e669332271ab3 net: sock: introduce sk_error_report
-         e6a3e4434000de5c36d606e5b5da5f7ba49444bd net: sock: add trace for socket errors
-         c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
-         8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
+         23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
+         78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
+         b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
          
