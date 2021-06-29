@@ -1,28 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Tue, 29 Jun 2021 15:32:50 -0000
-Message-Id: <162498077059.23970.10032859428471509526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Tue, 29 Jun 2021 15:33:13 -0000
+Message-Id: <162498079321.24246.3614792378144345844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 8b0a3c6352106c47e357b87e97a45c2bc13b9424
-    new: 2692800ca5965bea204f6b5d3867ff487f8a0b6f
-    log: |
-         d85f4b9a266102125a3107181fc99069bdeda046 ALSA: hda/realtek: Remove redundant entry for ALC861 Haier/Uniwill devices
-         39f98249dd4770b78dd0d83bb2208512947da56f usb: gadget: pch_udc: Revert d3cb25a12138 completely
-         2a9386a39ec6adfd440c515ce6be4641a60eff20 usb: gadget: pch_udc: Replace cpu_to_le32() by lower_32_bits()
-         4c623423d97fe16b0c7f97d680a6dca43a5f2fc6 usb: gadget: pch_udc: Check if driver is present before calling ->setup()
-         f8807b11280c5fb40f4f8bae59793c01b9b6290f usb: gadget: pch_udc: Check for DMA mapping error
-         a39d2c2d9c64da910148bcd4caea5daee6a73791 fotg210-udc: Fix DMA on EP0 for length > max packet size
-         0320503d4d669e31d9290b882b359e5d48afc295 fotg210-udc: Fix EP0 IN requests bigger than two packets
-         e9b6593bf845bf45a45922e8557e6a1f983a5b0d fotg210-udc: Remove a dubious condition leading to fotg210_done
-         8f3e407c687c11337e91c17ee2b8399e49fe2963 fotg210-udc: Mask GRP2 interrupts we don't handle
-         2692800ca5965bea204f6b5d3867ff487f8a0b6f fotg210-udc: Don't DMA more than the buffer can take
-         
+  - ref: refs/tags/dlm-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 1897db3fd50f0d98a4cf285cee5ec9eb28aff474
+  - ref: refs/tags/v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/tags/v5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
+  - ref: refs/tags/v5.12-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/tags/v5.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/tags/v5.12-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 939326287f7e63045200ed4ee1653029a7aa8065
+  - ref: refs/tags/v5.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 182c7355be0383c202572eb06d8d2110d6cda003
+  - ref: refs/tags/v5.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
