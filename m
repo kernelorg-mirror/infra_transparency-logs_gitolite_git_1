@@ -1,42 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 29 Jun 2021 06:39:10 -0000
-Message-Id: <162494875056.10673.1237413337818378712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 29 Jun 2021 06:50:21 -0000
+Message-Id: <162494942145.19806.18324861876171578447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/clk-lmk04832
-    old: 6181baa177d417211ea28de793524ec3d13b256d
-    new: bf68fdfdec6cd9a14323a61612ae9d7c510fbbdc
+  - ref: refs/heads/rdma-rc
+    old: 05170b40b39e6c1dff6369409c721cd53c07edaa
+    new: c36fb244900e92ad437baac02aa35ef9131f5b29
     log: |
-         97a1c5cbbfe4b84573df2edc6b782132f8e012ad clk: lmk04832: Depend on SPI
-         bf68fdfdec6cd9a14323a61612ae9d7c510fbbdc clk: lmk04832: Use of match table
+         c36fb244900e92ad437baac02aa35ef9131f5b29 RDMA/core: Always release restrack object
          
-  - ref: refs/heads/clk-next
-    old: 35cf7b4308889115df01bab0d179d0f84b67f8c3
-    new: 41c724a4039c24839871757070894e09193fe929
+  - ref: refs/heads/testing/rdma-next
+    old: 3bfe2e8c74d37c019d093066e22844e9ef9f8357
+    new: 15edc532c180db6063aba1648230f9b5cb1dcceb
     log: |
-         97a1c5cbbfe4b84573df2edc6b782132f8e012ad clk: lmk04832: Depend on SPI
-         bf68fdfdec6cd9a14323a61612ae9d7c510fbbdc clk: lmk04832: Use of match table
-         59474636891376f94da1681a839681f85112844a Merge branch 'clk-lmk04832' into clk-next
-         610a5d83010eaf02a857321092cf0cd02178bee7 clk: zynqmp: Use firmware specific common clock flags
-         1b09c308e64969f545f4b9474b786ad90dddf9a2 clk: zynqmp: Use firmware specific divider clock flags
-         54530ed17d1cc096f9ab0319001c96a63f772c62 clk: zynqmp: Use firmware specific mux clock flags
-         03aea91bbe06d4ffae8c22c9e1e6671a76fd6d5a clk: zynqmp: Handle divider specific read only flag
-         41c724a4039c24839871757070894e09193fe929 Merge branch 'clk-zynq' into clk-next
+         42131b75d767c25271500f1238a1a44672508984 net/mlx5: Don't advertise dynamic MSI-X for devices without resource manager
+         073ec27acb943ca8b6961663c47c5abe78a5c8cc RDMA/core: Always release restrack object
+         0c1eed1ffd3cd343fdb43b852f09902fcb162834 Merge branch 'master' into testing/rdma-rc
+         15edc532c180db6063aba1648230f9b5cb1dcceb Merge branch 'rdma-next' into testing/rdma-next
          
-  - ref: refs/heads/clk-zynq
-    old: b9ec1c1f9c1bd0344a34a3309b9cc8eba59d7da8
-    new: 03aea91bbe06d4ffae8c22c9e1e6671a76fd6d5a
+  - ref: refs/heads/testing/rdma-rc
+    old: a58e1f26f73446e2b7c50943eafaa5e1d4218871
+    new: 0c1eed1ffd3cd343fdb43b852f09902fcb162834
     log: |
-         610a5d83010eaf02a857321092cf0cd02178bee7 clk: zynqmp: Use firmware specific common clock flags
-         1b09c308e64969f545f4b9474b786ad90dddf9a2 clk: zynqmp: Use firmware specific divider clock flags
-         54530ed17d1cc096f9ab0319001c96a63f772c62 clk: zynqmp: Use firmware specific mux clock flags
-         03aea91bbe06d4ffae8c22c9e1e6671a76fd6d5a clk: zynqmp: Handle divider specific read only flag
+         073ec27acb943ca8b6961663c47c5abe78a5c8cc RDMA/core: Always release restrack object
+         0c1eed1ffd3cd343fdb43b852f09902fcb162834 Merge branch 'master' into testing/rdma-rc
          
