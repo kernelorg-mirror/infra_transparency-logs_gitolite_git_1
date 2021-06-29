@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Tue, 29 Jun 2021 09:17:30 -0000
-Message-Id: <162495825097.2188.11944855106788192452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 29 Jun 2021 09:37:29 -0000
+Message-Id: <162495944930.15628.1786750692893305718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/v5.13-rc4
+  - ref: refs/heads/for-5.14-mm-dump_stack-loglvl-conflict
     old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+    new: 0d2e54bcda974cb2775d4ec5ef9158c8e0bb189e
