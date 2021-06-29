@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 29 Jun 2021 12:23:13 -0000
-Message-Id: <162496939387.31906.18038574613559712650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 29 Jun 2021 12:24:56 -0000
+Message-Id: <162496949673.32610.3444483126716131780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/sched/headers
-    old: 2562237272311099d3fe14148af815d3095e0b47
-    new: 73281924721e8111b7a0711081add280fcc7fc49
-    log: |
-         73281924721e8111b7a0711081add280fcc7fc49 sched/headers, cpumask: Optimize <linux/cpumask.h>, remove <linux/cpumask_api.h>
-         
+  - ref: refs/tags/platform-drivers-x86-v5.14-1
+    old: 0000000000000000000000000000000000000000
+    new: f522388f29f1d4aebf7c7954d2ce85a08b797d08
