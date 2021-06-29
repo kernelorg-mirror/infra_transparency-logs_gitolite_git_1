@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 29 Jun 2021 16:46:59 -0000
-Message-Id: <162498521924.8612.2025450996281367779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 29 Jun 2021 16:58:54 -0000
+Message-Id: <162498593435.16816.15574070025047783271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 584377f8f1af370fbaf0abffe9817f326178d663
-    new: ed283d7b14d7b610fc7508b9572d8113a04476d8
-    log: |
-         ed283d7b14d7b610fc7508b9572d8113a04476d8 iwd.service: Add CAP_NET_BIND_SERVICE
-         
+  - ref: refs/heads/rcu/next
+    old: 90d348da28abc1c7772e88006cb7de4884421e81
+    new: 2bf6b8f26ff4057fb9702121cfcc92506a02034e
