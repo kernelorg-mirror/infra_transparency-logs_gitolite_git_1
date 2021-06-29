@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3127300187285956499=="
+Content-Type: multipart/mixed; boundary="===============1835138999808788436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 29 Jun 2021 21:03:49 -0000
-Message-Id: <162500062942.20609.2139553695516218417@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 21:04:05 -0000
+Message-Id: <162500064535.20764.5459138239301572789@gitolite.kernel.org>
 
---===============3127300187285956499==
+--===============1835138999808788436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 2c8ad9da78bb0493baec2d2a85f509782b76c0ec
+  - ref: refs/heads/next
+    old: 87e9688481163dee836c7f86e02f9aaf3240af2e
     new: 135d73979aef4c52fa787b3ecb3af8f4804c34cf
-    log: revlist-2c8ad9da78bb-135d73979aef.txt
+    log: revlist-87e968848116-135d73979aef.txt
 
---===============3127300187285956499==
+--===============1835138999808788436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c8ad9da78bb-135d73979aef.txt
+Content-Disposition: attachment; filename=revlist-87e968848116-135d73979aef.txt
 
 c098564d91c55d408ed31e8885b915a5e2006249 tools: Fix "the the" in a message in kernel-chktaint
 a9edc03f13dbd51095b38ef0371d24e7ec7ae693 docs: fix a cross-ref
@@ -1051,4 +1051,4 @@ c3ed6ab4db2abce17079d08aab61e7e0ace5f210 tpm_tis: Use DEFINE_RES_MEM() to simpli
 489fc41535adbfcef0cf1af07610716c0f785d9e tpm: Replace WARN_ONCE() with dev_err_once() in tpm_tis_status()
 135d73979aef4c52fa787b3ecb3af8f4804c34cf char: tpm: vtpm_proxy: Fix race in init
 
---===============3127300187285956499==--
+--===============1835138999808788436==--
