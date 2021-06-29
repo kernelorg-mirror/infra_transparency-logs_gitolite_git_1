@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 29 Jun 2021 18:35:12 -0000
-Message-Id: <162499171296.17335.3934610152053365228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Tue, 29 Jun 2021 18:36:39 -0000
+Message-Id: <162499179983.17951.11551663144552106791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba
-    new: 66f1546dfd7debe50fc056a84b97f2a56c2d769d
+  - ref: refs/heads/main
+    old: c73fb6607025b7806c636fd52c6b2954388beb41
+    new: 0e7ea3e8fe4004afd1d0896980f8e55ec5aba059
     log: |
-         5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-         945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-         1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
-         66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
+         4ac0383a598d4bddf13cbd8272f0ea7711614b79 utils: Fix BIT() to support up to 64 bits on all architectures
+         33cf9306c824c29c57879fd5182f7a09696af750 devlink: Fix printf() type mismatches on 32-bit architectures
+         0e7ea3e8fe4004afd1d0896980f8e55ec5aba059 v5.13.0
          
