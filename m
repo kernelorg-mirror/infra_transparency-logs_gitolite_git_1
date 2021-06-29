@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 29 Jun 2021 17:52:58 -0000
-Message-Id: <162498917857.20953.9885664115001690278@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 17:54:57 -0000
+Message-Id: <162498929727.21739.233873232648373402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 4205df092ca6201a62426a0bbfc2188558fa6fe6
+  - ref: refs/heads/master
+    old: a2b0d9e476299bd092530a32c21e8c2cea7b6ad2
     new: 707b1634478fa23ec8399dff433fc36c72409126
     log: |
          d073f6af1bd687ec2b710f86a097b3ad707507e5 sched/headers, cpumask: Optimize <linux/cpumask.h>, remove <linux/cpumask_api.h>
