@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5109077442020044883=="
+Content-Type: multipart/mixed; boundary="===============1474126214578080929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 29 Jun 2021 14:55:33 -0000
-Message-Id: <162497853389.32079.10541763855050480595@gitolite.kernel.org>
+Date: Tue, 29 Jun 2021 14:57:18 -0000
+Message-Id: <162497863864.378.2678828881477998466@gitolite.kernel.org>
 
---===============5109077442020044883==
+--===============1474126214578080929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,123 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/topic/renesas-overlays
-    old: e5c6fa64e9dfbcdfaeed679fce55713bd9f541e0
-    new: 0e38674ad80b6bf09f351b3ebf767c0477b32fcf
-    log: revlist-e5c6fa64e9df-0e38674ad80b.txt
+  - ref: refs/heads/topic/overlays
+    old: 077614b5bd95edcb53d9f9abd4a930ca601c5a9e
+    new: 3478d26a7248a73f1270a907137d1b842e348a15
+    log: revlist-077614b5bd95-3478d26a7248.txt
 
---===============5109077442020044883==
+--===============1474126214578080929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5c6fa64e9df-0e38674ad80b.txt
+Content-Disposition: attachment; filename=revlist-077614b5bd95-3478d26a7248.txt
 
+d0713d4ca3e94827de77f8758e3e8045a0d85215 perf data: Add JSON export
+bf8f8587bfb6d1315771a252a1a3be20fda1d783 perf top: Use evlist->events_stat to count events
+0f0abbace3cddc92aaed2db3783c9c501354b3be perf hists: Split hists_stats from events_stats
+55f754443890043956ee81431faa3c529309ba24 perf report: Show event sample counts in --stat output
+2775de0b115a6ffab7882c45c755005ee0ac0122 perf report: Add --skip-empty option to suppress 0 event stat
+8f08cf3330da0582e7a51bd1b999c820147e19d1 perf report: Make --skip-empty as default
+462f57dbf9fa1fdcdeae2e0b19a667f7f9989bdb perf report: Print percentage of each event statistics
+412736119116d0161688e9061485fbc3e25f78d5 tools headers uapi: Update tools's copy of linux/perf_event.h
+6b64833b9e49fda28b0eb94d865c334b37b4662f perf jevents: Support unit value "cpu_core" and "cpu_atom"
+eab35953e67b48c763fbb0e0ffc64dd3152361ea perf pmu: Simplify arguments of __perf_pmu__new_alias
+32705de7d45d0ed989517a63454c2b3e5e5ea267 perf pmu: Save pmu name
+444624307c4e06d35de12df1cfe08a4964ac086f perf pmu: Save detected hybrid pmus to a global pmu list
+c5a26ea490a16798d973e6fa352c6b8375646bc4 perf pmu: Add hybrid helper functions
+12279429d8620fe0cb2cdc0ba68cae3cc2c826f9 perf stat: Uniquify hybrid event name
+9cbfa2f64c04d98ad2bbce93066e2e021d12a24b perf parse-events: Create two hybrid hardware events
+30def61f64bac5f5cfe2a3cf96bae5b889403b4c perf parse-events: Create two hybrid cache events
+94da591b1c7913880957c3477f6abff563783b33 perf parse-events: Create two hybrid raw events
+c93afadc924dbec51a38c4f6f0d07a8adfddd339 perf parse-events: Compare with hybrid pmu name
+5e4edd1f73b5d59905aeb0fe43ab74301c39a5c1 perf parse-events: Support event inside hybrid pmu
+b53a0755d5c2d19b13db897d6faf4969e03e45ae perf record: Create two hybrid 'cycles' events by default
+ac2dc29edd21f9ec011863336ab1c7c9fe77a1d3 perf stat: Add default hybrid events
+92637cc7295510f4b3cb945cafcaec97c82e42f2 perf stat: Filter out unmatched aggregation for hybrid event
+660e533e87ff4e66434f90fca987b929d4eb0059 perf stat: Warn group events from different hybrid PMU
+91c0f5ec812f38f5e900b5557254baf563c4a2e3 perf record: Uniquify hybrid event name
+2541cb63ac0c3dfbbe363dd09a16dfdd4096fc88 perf tests: Add hybrid cases for 'Parse event definition strings' test
+afff9f312e37c64a789aad0fab1ec597404a500f perf tests: Add hybrid cases for 'Roundtrip evsel->name' test
+f15da0b1fb7bdff4891218f648d374cfffeb24fa perf tests: Skip 'Setup struct perf_event_attr' test for hybrid
+43eb05d066795bdfea58a6a0cea77bbaa1a09b30 perf tests: Support 'Track with sched_switch' test for hybrid
+6081e876edd3f5d23273385730e482eca0afb2c8 perf tests: Support 'Parse and process metrics' test for hybrid
+c102038892f73cf70f8c50e4fafb45d6e5465129 perf tests: Support 'Session topology' test for hybrid
+d9da6f70eb23511007cc6ed0aba02d9f61b3d6cf perf tests: Support 'Convert perf time to TSC' test for hybrid
+a37f3b885610f89c3f2285756eb3f386288c3d41 perf tests: Skip 'perf stat metrics (shadow stat) test' for hybrid
+2750ce1d4df2e70630d76bc53da160ca43a80d22 perf Documentation: Document intel-hybrid support
+56d32d4cac645bac05fa70d935fa5040e3ab6bb3 perf tools: Enable libtraceevent dynamic linking
+e1d380ea8b00db4bb14d1f513000d4b62aa9d3f0 perf tools: Change fields type in perf_record_time_conv
+aa616f5a8a2d22a179d5502ebd85045af66fa656 perf jit: Let convert_timestamp() to be backwards-compatible
+050ffc449008eeeafc187dec337d9cf1518f89bc perf session: Add swap operation for event TIME_CONV
+81e70d7ee4ae13d60800958bca9d3c7675de16c9 perf session: Dump PERF_RECORD_TIME_CONV event
+fbed59f844912f377b83cc25594c692b5f6ebae2 perf build: Regenerate the FEATURE_DUMP file after extra feature checks
+19177bc3da7e52bc7fb7e603556f98f06e074092 tools build: Allow deferring printing the results of feature detection
+c6e3bf437184d41d885ba679eab0ddd43f95db56 perf build: Defer printing detected features to the end of all feature checks
+1aec7c3d05670b92b7339b19999009a93808efb9 xfs: remove obsolete AGF counter debugging
+e6c01077ec2d28fe8b6e0bc79eddea8d788f6ea3 xfs: don't check agf_btreeblks on pre-lazysbcount filesystems
+6543990a168acf366f4b6174d7bd46ba15a8a2a6 xfs: update superblock counters correctly for !lazysbcount
+e147a756ab263f9d10eafd08b79b9fac1b08e56c xfs: count free space btree blocks when scrubbing pre-lazysbcount fses
+2675ad3890db93e58f2264d07c2d1f615ec5adf7 xfs: unconditionally read all AGFs on mounts with perag reservation
+16eaab839a9273ed156ebfccbd40c15d1e72f3d8 xfs: introduce in-core global counter of allocbt blocks
+fd43cf600cf61c66ae0a1021aca2f636115c7fcb xfs: set aside allocation btree blocks from block reservation
+d4f74e162d238ce00a640af5f0611c3f51dad70e xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
+07b4523e9e2fe9763e5c62da032d3c444e83d0fd PCI/sysfs: Rename "vpd" attribute accessors
+d93f8399053dcf117ff56a3029ff08c0e36f4b75 PCI/sysfs: Convert "vpd" to static attribute
+1017275d2e43dba68527e0e69f4cc12d2b0f8966 PCI/sysfs: Rename device_has_dsm() to device_has_acpi_name()
+2ed6494155444dd4d2005869edce1ae73b4f23ca PCI/sysfs: Define ACPI label attributes with DEVICE_ATTR*()
+4dd7dfa166d220a245ee21f499bb1084bc249393 PCI/sysfs: Define SMBIOS label attributes with DEVICE_ATTR*()
+506140f9c06b0d136669ae7795e0264c9f21c1a7 PCI/sysfs: Convert "index", "acpi_index", "label" to static attributes
+362fb766264a1d62254ad950304fa1d97172bb44 PCI/sysfs: Tidy SMBIOS & ACPI label attributes
+df1af7cbe7bc11720b3e915771d47acc3604eb44 PCI/sysfs: Rearrange smbios_attr_group and acpi_attr_group
+ad025f8e46f3dbf09b1bf8d7a5b4ce858df74544 PCI/sysfs: Use sysfs_emit() and sysfs_emit_at() in "show" functions
+294353d950ab3e47d7694d382e50c887206f541a PCI: dwc: Move dw_pcie_msi_init() to dw_pcie_setup_rc()
+7d499169f793083c83bcc6e31170be8f36087075 PCI: dwc/intel-gw: Remove unused function
+8bcca26585585ae4b44d25d30f351ad0afa4976b PCI: dwc: Move iATU detection earlier
+d3bf75b579b980b9d83a76d3b4d8bfb9f55b24ca PCI: mediatek-gen3: Add MediaTek Gen3 driver for MT8192
+814cceebba9b7d1306b8d49587ffb0e81f7b73af PCI: mediatek-gen3: Add INTx support
+1bdafba538be706b185c7aded0d42327702d92b7 PCI: mediatek-gen3: Add MSI support
+d537dc125f0756f7eb9f3a2f878fbe2e3179c452 PCI: mediatek-gen3: Add system PM support
+0739191b848136f733978eae9c37e34435c906af MAINTAINERS: Add Jianjun Wang as MediaTek PCI co-maintainer
+f1ce3986baa62cffc3c5be156994de87524bab99 nitro_enclaves: Fix stale file descriptors on failed usercopy
+8ae8932c6a330790c6bf22a43a6960118c34dcb5 Merge tag 'exfat-for-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
+f2c80837e27e67e91ad93f41f0849be28b808b14 Merge tag 'gfs2-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+d2b6f8a179194de0ffc4886ffc2c4358d86047b8 Merge tag 'xfs-5.13-merge-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+767fcbc80f63d7f08ff6c0858fe33583e6fdd327 Merge tag 'for_v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+3644286f6cbcea86f6fa4d308e7ac06bf2a3715a Merge tag 'fsnotify_for_v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+77d51337d650086643e1e96b8a7e1e6cbf0b09ff Merge tag 'mips_5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+d0cc7ecacba8a5b6bbdd5aa6ba3d1bc2fe59b580 Merge tag 'microblaze-v5.13' of git://git.monstr.eu/linux-2.6-microblaze
+635de956a7f5a6ffcb04f29d70630c64c717b56b Merge tag 'x86-mm-2021-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+dfc06b389a4f54e78c03abecd5b42ab6ea8d492a swiotlb: don't override user specified size in swiotlb_adjust_size
+9d31d2338950293ec19d9b095fbaa9030899dcb4 Merge tag 'net-next-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+2840f710f23a3a867426637393acbdfa1f4f1d59 io_uring: fix drain with rsrc CQEs
+dddca22636c9062f284e755e2a49fb8863db8a82 io_uring: dont overlap internal and user req flags
+b0d658ec88a695861c3fd78ef783c1181f81a6e2 io_uring: add more build check for uapi
+6224843d56e0c29c0357e86b02b95801897c2caf io_uring: allow empty slots for reg buffers
+47b228ce6f66830768eac145efa7746637969101 io_uring: fix unchecked error in switch_start()
+cf3770e78421f268dee3c1eef5e8a5d284ec3416 io_uring: Fix premature return from loop and memory leak
+590ade88bafd8a88a2d3f69fa197cda491221b38 Merge branch 'for-5.13/core' into for-linus
+743b357607ee9dabe049a89ac68f878c6e661687 Merge branch 'for-5.13/elan' into for-linus
+8ba3c81c0872e0865a4c68a8eb1683ffd29a4580 Merge branch 'for-5.13/ft260' into for-linus
+cddbefcc174606e3a1c8bc3d5c1aeb640c51321e Merge branch 'for-5.13/i2c-hid' into for-linus
+0b21c35f5cf31399eef17e592156e2e890f6c689 Merge branch 'for-5.13/lenovo' into for-linus
+686e161eea8f4d2c4f3ccdc17323754a36e56af1 Merge branch 'for-5.13/logitech' into for-linus
+275ac61bafb8826686d5589f084e5644c5b650d1 Merge branch 'for-5.13/magicmouse' into for-linus
+cfc9bdfb6ba76de84a9ed8ee75dc56903b505a78 Merge branch 'for-5.13/plantronics' into for-linus
+e50fedec822efc7b7090f95862b782d91ca8aec0 Merge branch 'for-5.13/surface-system-aggregator-intergration' into for-linus
+5a4a13cb47121dd20812e3397d30fd410ebd9f7d Merge branch 'for-5.13/thrustmaster' into for-linus
+6c905ab1ace224e847536f658b7831e458e479dd Merge branch 'for-5.13/wacom' into for-linus
+e16e9f1184181a874cf432302ffe4689cc56b9e2 Merge branch 'for-5.13/warnings' into for-linus
+7942121b8ca073932529e7122a573ec2d1ed0d93 rtc: imx-sc: remove .read_alarm
+64e9d8e4dbc4e9173589ed8d61ea423466172396 rtc: ds1307: replace HAS_ALARM by RTC_FEATURE_ALARM
+4bf84b449a0ea3885397bb5540a8fc68a78edb9d rtc: ds1307: remove flags
+c55c3a516ceff3a041d5e3253d4d9a1b75fbb1d8 rtc: rtc_update_irq_enable: rework UIE emulation
+94959a3a04a574b6234df8ff165bf70135b0bb2b rtc: pcf8523: remove useless define
+b0030af53a74a08c77ea11d3888da21542af2d0e Merge tag 'kbuild-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+8ca5297e7e38f2dc8c753d33a5092e7be181fff0 Merge tag 'kconfig-v5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+13e37b7fb75dfaeb4f5a72468f0bd32853628d28 rtc: pcf8523: add alarm support
+a1cfe7cc3873baf83a26356cb5e10409c6fb942c rtc: pcf8523: report oscillator failures
+204756f016726a380bafe619438ed979088bd04a rtc: ds1307: Fix wday settings for rx8130
+fefbec3a741831bc7791a94a483ad55665160b50 rtc: s5m: Remove reference to parent's device pdata
 e463786f380ab28f1ca6e34ea65bbc2e03b2d325 rtc: omap: use rtc_write to access OMAP_RTC_OSC_REG
 4d0185e67806a233c423c1668e87e137fbda192c rtc: sysfs: check features instead of ops
 94604548aa7163fa14b837149bb0cb708bc613bc seg6: add counters support for SRv6 Behaviors
@@ -944,111 +1050,5 @@ b7872591611fda953c971f2ac946ab54a55f3d86 Documentation: ABI: overlays - per over
 3eb3991e4de6cb55e471a50b9aff483be0631617 of: rename *_node_sysfs to _node_post
 c4fd57308cf16caf9ecc5d2b99953b4460d670e9 kbuild: Enable DT symbols when CONFIG_OF_OVERLAY is used
 3478d26a7248a73f1270a907137d1b842e348a15 kbuild: Allow .dtso format for overlay source files
-49de60a5af314d8f5ea46a7838ffecaf9fc2ab0f ARM: dts: Build all overlays if CONFIG_OF_OVERLAY=y
-cb9a4dbdf09bb67484b147b308fb27af6ae056f3 arm64: dts: Build all overlays if CONFIG_OF_OVERLAY=y
-e6dc215d74f786917f26e476bf9269bc358355c4 ARM: dts: Add overlay to disable QSPI
-d200623844e4f468bb042a94e727ca29665669f7 ARM: dts: armadillo800eva: con15: Add overlay for SCIFA0
-065e92f900480045e22b95b888dbdf5f4074a7e0 ARM: dts: armadillo800eva: con15: Add overlay for SCIFA0 with GPIO RTS/CTS
-dafb2be8ab846e0e9a17c28c038f2731c0be278e ARM: dts: armadillo800eva: con15: Add overlay for SCIFA0 without RTS/CTS
-a3430257dda09ae89533bf41ef49806436fb9fc3 ARM: dts: armadillo800eva: con15: Add overlay for SCIFB
-5f546f2c47168cb22fd76e6c41201ef6fe97e738 ARM: dts: armadillo800eva: con15: Add overlay for SCIFB with GPIO RTS/CTS
-7eaee7fa7418490ef23c7393bf0288f09755331d ARM: dts: hc595s: Add overlay for 20x4 character LCD (4 bit wiring)
-ad91420b9a2102863d4b0d318113275405fb3b41 ARM: dts: hc595s: Add overlay for 20x4 character LCD (8 bit wiring)
-8cc63e4009787f389eb7485dc93c816447ae0f58 ARM: dts: koelsch: Add overlay for GPIO-operated device example
-a06e8935e213a785196a65b240f252e442e6b1f9 ARM: dts: koelsch: exio-a: Add overlay for 3-channel PWM
-fe2a0c3c21947f8390429fc9a2d6eb449140c89a ARM: dts: koelsch: exio-a: Add overlay for 3-channel TPU
-af559553142294a3591d785a9637b4159b8989e4 ARM: dts: koelsch: exio-a: Add overlay for HSCIF1
-3b395fd4fbda7e5fe56a0fddfb01f1d7ea732552 ARM: dts: koelsch: exio-a: Add overlay for HSCIF1 with GPIO RTS/CTS
-2563cc54b66e6cf9d2438f974425ab80f99d4a33 ARM: dts: koelsch: exio-a: Add overlay for HSCIF2
-ca6c258845a0fd7764df01af016eb8319c2fe69f ARM: dts: koelsch: exio-a: Add overlay for HSCIF2 with GPIO RTS/CTS
-2b1e45806f6b285f973597cf37d64a210d42367a ARM: dts: koelsch: exio-a: Add overlay for HSCIF2 without RTS/CTS
-21054797290a70ba49bbc00e4d089a971c45fd5f ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 2xHC595
-eabf4f53449c29cfc3f9dc18b1b2c4a374d4df67 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 3x 25LC040
-3caa1685f15e4bcb11a7b9bdc5cea16b0b091584 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 3x HC595 (active high CS)
-d114bc2ee55804563b3fbb9ce58ea5b7e0627f90 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 3x HC595 (HW CS)
-90b163fd9790765ed8e8a7c022c148d8bdaede3c ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 5x HC595 (GPIO CS)
-b78a7cca7b1ac2ab6868e4154afe7046fa43fecf ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 5x HC595 (HW+GPIO CS BAD)
-2d2b702a22b3ee6e2e82b5a69ef7fe97398b4ce1 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and 5x HC595 (HW+GPIO CS GOOD)
-1b05b1a487e3e2624022fba8554435a1f4dd01c0 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 and spidev
-6f1b070851db67b52c2b00c83ac991b54e66fe76 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_20 and HC595
-a865f8afa5122fd9dea6553c2e061632c2e6c529 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_21 and HC595
-ba263de4da011fc0b88cbd782fe8ad45bd73d4f9 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_23 and 25LC040
-9a891bc1ccbdf9a72ff504d18b914abb419b7f35 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_23 and HC595
-8d7600b4568981f834cd548fefd097791d12e97a ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_24 and 25LC040
-8facbf120fcff57330842fa88d9e5439599dcd27 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_24 and HC595
-f98bcb8d30e921758f8fa299f1532886a72f2460 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_25 and 25LC040
-3f054b1b7f5a7977965fc9414f26400bca64da01 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/GP0_25 and HC595
-2289eaa3d2bc0c99359b2745e060c175b7206dd7 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 SPI slave
-590a3e19f7ba33651dc2e029a09021d3050a8a2e ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/SS1 and HC595
-d6a42f4ce5bcdf01b9d34aa85574bf8f08408762 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/SS2 and HC595
-7b1ce1419f55681d6d6c083a7d9f3532cacbca61 ARM: dts: koelsch: exio-a: Add overlay for MSIOF1/SYNC and HC595
-3fbbad158c6846a65de7457b969f5aa813c7a1db ARM: dts: koelsch: exio-a: Add overlay for MSIOF1 with cs-gpios and 2xHC595
-266399c8d8ea9b875533b3eea7f4b75a0bf2b6a3 ARM: dts: koelsch: exio-a: Add overlay for MSIOF2 and 2xHC595
-ce1db3c2c44bb992821b19158f0fc13e43cc7a0e ARM: dts: koelsch: exio-a: Add overlay for MSIOF2 and 4 SPI slaves
-2df476d77d227a80f66b039b4c620a278ff73f93 ARM: dts: koelsch: exio-a: Add overlay for MSIOF2 and spidev
-25a2ff35a6d2a3fe83712222f54615e072f979f7 ARM: dts: koelsch: exio-a: Add overlay for MSIOF2 SPI slave
-02852be724da6d7b2cb39ac8621227b04e5780fa ARM: dts: koelsch: exio-a: Add overlay for MSIOF2 SPI slave time
-70abcdfddb9db53d818709178949a88b97d3b600 ARM: dts: koelsch: exio-a: Add overlay for QSPI and spidev
-6f80598c0e854cd99a3ba1d138eb4f49f8000695 ARM: dts: koelsch: exio-a: Add overlay for SCIFB0
-eb60983d4a2c7d836663286797251597be589a12 ARM: dts: koelsch: exio-a: Add overlay for SCIFB0 with GPIO RTS/CTS
-41f40d097e941d045f46cbfa4315266a70c963f5 ARM: dts: koelsch: exio-a: Add overlay for SCIFB0 without RTS/CTS
-be9fe59b002ea8f52a5070f2a750daca84aaf16f ARM: dts: koelsch: exio-a: Add overlay for SCIFB1
-ad247fd123ea836ff245909a8b8d297328fb4b30 ARM: dts: koelsch: exio-a: Add overlay for SCIFB1 with GPIO RTS/CTS
-37a4199a11a6031ac864c6f977e67d34be0aebd8 ARM: dts: koelsch: exio-a: Add overlay for YRSK-LCD-PMOD on MSIOF2 (CS0#)
-161381d86db6996d4dcb89f99ac2268fd9dc3c4b ARM: dts: koelsch: exio-a: Add overlay for YRSK-LCD-PMOD on MSIOF2 (CS1#)
-62ddb6fa38332f8b46309f620acdb791439da9ca ARM: dts: koelsch: exio-a: Add overlay for YRSK-LCD-PMOD on MSIOF2 (CS2#)
-233ff0a6696826c8e98d696b9291545985bc7682 ARM: dts: koelsch: exio-a: Add overlay for YRSK-LCD-PMOD on MSIOF2 (CS3#)
-25583ed5383e3907f902b3550eca4c642171a97a ARM: dts: koelsch: exio-b: Add overlay for MSIOF1 and 2xHC595
-a516e1a1da3fabf1ba586e204359bc5c35c01d28 ARM: dts: koelsch: exio-b: Add overlay for MSIOF1 and 4xHC595
-ded5af7a249f0ae5cd201645f50ed4580a4a28da ARM: dts: koelsch: exio-b: Add overlay for MSIOF1 and spidev
-d03b856fc99e1e4db77128387f63c9825c1e134e ARM: dts: koelsch: exio-b: Add overlay for SCIFA3(b)
-45744f3eee0917cc9b500d92a0e65866e1c17c80 ARM: dts: koelsch: exio-c: Add overlay for SCIF3
-5de72545d8a798a72ca74dfd10ffdf09b67ef350 ARM: dts: koelsch: exio-c: Add overlay for SCIF5
-30fcd3a0fadb2202b317a9278f1123a9a4688c3f ARM: dts: koelsch: exio-c: Add overlay for SCIFA5(b)
-52e98c4fa4c357f2bcdc3538deb83657dd213215 ARM: dts: koelsch: exio-c: Add overlay for SCIFA5(c)
-958fdfa8ebcc4714d2bab49154a3570d18249f83 ARM: dts: kzm9g: cn8: Add overlay for MSIOF1 and 2xHC595
-581b00313fee01f89de9333c2f8b18114527c193 ARM: dts: kzm9g: cn8: Add overlay for MSIOF1 and spidev
-a6802114002ce0440f9f9e0d24fd738dcec231d2 ARM: dts: kzm9g: cn8: Add overlay for SCIFA5
-ded7d80b8c104f7bcdd095a14233b26904b67d9c ARM: dts: rskrza1: pmod1: Add overlay for RSPI1 and 2xHC595
-619896634f86b99c8a13ea383894e52e678c89ef ARM: dts: rskrza1: pmod1: Add overlay for RSPI1 and spidev
-83d52d9505f7a79b37a607f060851b3f24bf6fcf ARM: dts: rskrza1: pmod1: Add overlay for YRSK-LCD-PMOD
-fe20fad2fa0ff931ada32d73efc13694b15e6d38 ARM: dts: rskrza1: pmod2: Add overlay for RSPI1 and spidev
-697c08d2b61ce12131104a45f87550f4d8deff9b ARM: dts: rskrza1: pmod2: Add overlay for YRSK-LCD-PMOD
-4d7272d2dd811fb7c38364f260e9494547c50232 ARM: dts: rskrza1: pmod: Add overlay to enable SPI
-1dbe5e7d38304203fb6ed39045ea266ef7f3891d ARM: dts: rskrza1: tft: Add overlay for RSPI1 and spidev
-e891f010969f461994d8c752b92ee8a36df09886 ARM: dts: rza2mevb: cn17: Add overlay for SCIF3
-4509b5fa94328814cf29e27c510f6348c36120f2 arm64: dts: renesas: r8a77990: Add overlay for HSCIF4(A)
-570ca6edbdee954b19ddcb741ad365d0fc2630ba arm64: dts: renesas: r8a77990: Add overlay for HSCIF4(C)
-f327afa5eb522ab1c7d46656dee6351716d92ec7 arm64: dts: renesas: r8a77990: Add overlay for HSCIF4(D)
-12fc3e71709af855eba01eb16b0fbb287a91b07f arm64: dts: renesas: r8a77990: Add overlay for HSCIF4(E)
-2c3257096ed73ef8feedf0f851653de4e6ef74f9 arm64: dts: renesas: r8a77990: Add overlay for MSIOF1 and SYS-DMAC0 and spidev
-1aee8b727f21e838d508a33976b407629b3f2e50 arm64: dts: renesas: r8a77990: Add overlay for MSIOF1 and SYS-DMAC1 and spidev
-389e24475da9fff330a3dcbd64235d2caba942aa arm64: dts: renesas: r8a77990: Add overlay for MSIOF1 and SYS-DMAC2 and spidev
-19573681e4cbdd5b09ce975ebd2126968e6fdce7 arm64: dts: renesas: r8a77990: ebisu: cn41: Add overlay for MSIOF0 and 25LC040
-5b5ce5f91f61389aa04732639dde2ff964f89d25 arm64: dts: renesas: r8a77990: ebisu: cn41: Add overlay for MSIOF0 and 2xHC595
-0728b6e1a9cc84f608c870d5e7abe407526b807a arm64: dts: renesas: r8a77990: ebisu: cn41: Add overlay for MSIOF0 and spidev
-bd08649589aa575c103b50cb762130a8d0a4601a arm64: dts: renesas: r8a77990: ebisu: cn4: Add overlay for HSCIF4
-318745787785bcdfa81f214c01eb48e6cbbcdae7 arm64: dts: renesas: r8a77990: ebisu: cp45: Add overlay for SCIF5 + DMAC0
-92a8dfcbea902fb4c33563fbcc5383dcd2fe189c arm64: dts: renesas: r8a77990: ebisu: cp45: Add overlay for SCIF5 + DMAC1 (broken)
-ab48edb7fc7f9b97741dfc01f78b8d8ff25b6efd arm64: dts: renesas: r8a77990: ebisu: cp45: Add overlay for SCIF5 + DMAC2 (broken)
-05869f46840f67d8295956617ab049857aefabcd arm64: dts: renesas: salvator-x: Add overlay for GPIO keyboard
-ce0c8a965c87db3a24f90132e2647bb7202cf117 arm64: dts: renesas: salvator-x: Add overlay for GPIO LEDs
-f847fa78cae843bcfdfc27f224089e7151453baf arm64: dts: renesas: salvator-x: Add overlay for polled GPIO keyboard
-a16fd1a0f1dfefa9e81a86d54f58d44495d04058 arm64: dts: renesas: salvator-x: cn26: Add overlay for HSCIF1
-22b2b955f3dad40e36d517a95f907782888f2655 arm64: dts: renesas: salvator-x: cn26: Add overlay for SCIF1 with 990 kHz HSCK
-6e3eca0fbb83212fc75c44847f1ddb6df9fb45f5 arm64: dts: renesas: salvator-x: cn26: Add overlay for SCIF1 with GPIO RTS/CTS
-fd1213b26b86fa3d836ef3d761ea1cc828a184c5 arm64: dts: renesas: salvator-x: cn26: Add overlay for SCIF1 without RTS/CTS
-89f6f859b6f5f4d025ca48f750a7157d46cc150c arm64: dts: renesas: salvator-x: cp1: Add overlay for MSIOF0
-7ad263d419a86274385cceed1d522f733d0920a3 arm64: dts: renesas: salvator-x: exio-d: Add overlay for HSCIF3
-fda3f2a2f6e4fdee744bb40531daecc479d6470f arm64: dts: renesas: salvator-x: exio-d: Add overlay for HSCIF4
-a692504b6b6a795d9a10aced4931a3112c77cc4a arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF2(A) and 2xHC595
-9021fcd25716153e75bff6ad0e10eff9ef7f6864 arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF2(A) and spidev
-b91b6389d54d8d6639636132799a459d777910f2 arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF2(B) and 2xHC595
-ed82bdf04393f4c67bd84bd66c3c2301bd763965 arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF2(B) and spidev
-789b01019b8a2374fa941e01425be19ee2152029 arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF2(B) SPI slave
-e305949af6250e14a0c5203737f66b66963c49ad arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF3(A) and 2xHC595
-eb6f08019d3a13b3005005718f33cd8e3faa7d8d arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF3(A) and spidev
-8e17e868860772d934942d1a3f1afe6e598c083a arm64: dts: renesas: salvator-x: exio-d: Add overlay for MSIOF3(A) SPI slave
-0e38674ad80b6bf09f351b3ebf767c0477b32fcf arm64: dts: renesas: salvator-x: exio-d: Add overlay for SCIF3
 
---===============5109077442020044883==--
+--===============1474126214578080929==--
