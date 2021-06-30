@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5113652749272860871=="
+Content-Type: multipart/mixed; boundary="===============2136332793622077467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 30 Jun 2021 15:52:12 -0000
-Message-Id: <162506833221.18038.12529183655376669461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 30 Jun 2021 15:52:19 -0000
+Message-Id: <162506833914.18159.14257088036124481178@gitolite.kernel.org>
 
---===============5113652749272860871==
+--===============2136332793622077467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
   - ref: refs/heads/for-5.14
-    old: d4de9aa58be728025436b0fb2176295abec02635
-    new: 5480da22eab2a618f6662431ca1ae76863caaca7
+    old: 6549c46af8551b346bcc0b9043f93848319acd5c
+    new: 5db5dd5be70eaf808d9fd90174b957fc5c2912cb
     log: |
-         e6b66edfef64698d4d9ed3847c95cdfab9bde579 ASoC: tegra: Use ADMAIF component for DMA allocations
-         2c70ff56e49ae219640689a0c86041c0f656046f ASoC: codecs: allow SSM2518 to be selected by the user
-         5480da22eab2a618f6662431ca1ae76863caaca7 Merge series "arm64: tegra: Enable audio IOMMU support on Tegra194" from Thierry Reding <thierry.reding@gmail.com> Thierry Reding <treding@nvidia.com>:
+         5db5dd5be70eaf808d9fd90174b957fc5c2912cb regulator: hi6421v600: Fix getting wrong drvdata that causes boot failure
          
 
---===============5113652749272860871==
+--===============2136332793622077467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1625068304 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1625068329-d05422589082c6a9eaa5cb4e49ce143a3da3607b
+pusher C3F436CA30F5D8EB 1625068311 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1625068336-01c399d58a379c2eff8832c3fb2bbc85e86b0246
 
-d4de9aa58be728025436b0fb2176295abec02635 5480da22eab2a618f6662431ca1ae76863caaca7 refs/heads/for-5.14
+6549c46af8551b346bcc0b9043f93848319acd5c 5db5dd5be70eaf808d9fd90174b957fc5c2912cb refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDckxAACgkQJNaLcl1U
-h9Cw6wf+IhHVqd/TlT5u3tJuNkfQ0m9bbIBf0WxEj7N5jSeZYxwbmyVhBf9sQlbI
-f7Mz05IBDkj19CP5gVp8/7qqGfc/jhJS0wwuLPzKJntgtJLgDjN2TVU5qbTZT1pW
-3Cw8bV2poYQORWPyItbWzOe+q2UzkYI1rR6U/kNbykndoSGpnEH/YdjhV4oxO51u
-KGKLOYLF13kKRFkUxiJ6BMLuqmVhuqR4t+KhrivIaxgKM+h4a6M4dJaWfNP5zXQH
-1tr/OG25aZ0NRl+5qrp64NsrAg1Go09x/iu1kosuc+PrW1lUcH49umY+ObgOFmFQ
-6/Pbq3yjxnMTAJciF2XZfzKDt/FLCA==
-=TZ+y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDckxcACgkQJNaLcl1U
+h9CFKQf/VgcPE1P/Y9YVl+ztc04CmUdXvihHcuE4Fr8A/jH4kfcJIOgBje5sY8cI
+InQ5DSgxnybEsp7UTzPJaf0RcBUL0aoYiAXxAgaIPyQODm7QBcBBI8dZhtTXKkAR
+c8KvVFPiOmKayoHv/iM4IhElmhXNHh3iiT28Rx7fXfTHLob66rTBDQPktS2DP7yw
+LxQRm43ieEpHX57pmTgYhzpHqxmqszKdBWFtQ473KKoQbplOnum2j3F1se486cDu
+UJkfMNoEPl4+Xt88rMZ/OxwsjVqttbbzDOst7/Y0GOBNQ9Q+zJUXRWWjbQ5dlTRL
+5VV3+CZzBY0fSfRMEXWQonpgmSKb1Q==
+=VZ/6
 -----END PGP SIGNATURE-----
 
---===============5113652749272860871==--
+--===============2136332793622077467==--
