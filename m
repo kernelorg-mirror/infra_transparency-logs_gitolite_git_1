@@ -1,46 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3279124076445420876=="
+Content-Type: multipart/mixed; boundary="===============5113652749272860871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 30 Jun 2021 15:45:47 -0000
-Message-Id: <162506794710.13018.10080368148894503978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 30 Jun 2021 15:52:12 -0000
+Message-Id: <162506833221.18038.12529183655376669461@gitolite.kernel.org>
 
---===============3279124076445420876==
+--===============5113652749272860871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.master
-    old: 51bc160c1972e9966688302abf6a26d1a482c3b0
-    new: c4ff37bf4915aa6f0ba0f0af3c535d0aad246c04
-    log: revlist-51bc160c1972-c4ff37bf4915.txt
+  - ref: refs/heads/for-5.14
+    old: d4de9aa58be728025436b0fb2176295abec02635
+    new: 5480da22eab2a618f6662431ca1ae76863caaca7
+    log: |
+         e6b66edfef64698d4d9ed3847c95cdfab9bde579 ASoC: tegra: Use ADMAIF component for DMA allocations
+         2c70ff56e49ae219640689a0c86041c0f656046f ASoC: codecs: allow SSM2518 to be selected by the user
+         5480da22eab2a618f6662431ca1ae76863caaca7 Merge series "arm64: tegra: Enable audio IOMMU support on Tegra194" from Thierry Reding <thierry.reding@gmail.com> Thierry Reding <treding@nvidia.com>:
+         
 
---===============3279124076445420876==
+--===============5113652749272860871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51bc160c1972-c4ff37bf4915.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-821245662621d9a6a4454d4edfe204acc8717038 core: class_member__clone() doesn't need a 'cu' arg
-2def888e59aa8551582c7dd80cc64b84130d8c62 core: type__clone_members() doesn't need a 'cu' arg
-7d022e75229b8ee5028b35a51fc6fa81a53beb74 core: class_member__delete() doesn't need a 'cu' arg
-a1130ea5292bcd1375cf500800fb85fb78c459c4 core: type__delete_class_members() doesn't need a 'cu' arg
-e418d12b2ce73f5fd9ba7f803f84960f80302123 core: class__delete() doesn't need a 'cu' arg
-2fa3fca7f1302ea4bebe51158ef016e00ef92f67 core: class__clone() doesn't need a 'cu' arg
-3134164ede7c08a35e7378dead170b76cc41d912 core: type__delete() doesn't need a 'cu' arg
-33e3f317d39daecac81b174a10fc2b2e88f05df4 core: enumeration__delete() doesn't need a 'cu' arg
-bbda26f5b0ba1cddc52eda2e90de69f39fda47b3 core: ftype__delete() doesn't need a 'cu' arg
-aca734c15e1be8e307c4a24421f1f80947c74713 core: {tag,function,lexblock}__delete() doesn't need a 'cu' arg
-ef3b8909b21452409baf2b2a11b0ef857d8d2b51 core: namespace__delete() doesn't need a 'cu' arg
-55e4cd225a2f45419479a01be48957161f74c25a core: base_type__name() doesn't need a 'cu' arg
-e88e58c7ae8ff47380eb150be3bc05842db24a65 core: variable__name() doesn't need a 'cu' arg
-647f0467d7abd9f8c48914db6f837e5e23fdda24 core: Ditch tag__free_orig_info(), unused
-6ae693482ce31a3e781a5ba4af2dc61b056e60d4 fprintf: string_type__fprintf() doesn't need a 'cu' arg
-c4ff37bf4915aa6f0ba0f0af3c535d0aad246c04 fprintf: class__vtable_fprintf() doesn't need a 'cu' arg
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1625068304 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1625068329-d05422589082c6a9eaa5cb4e49ce143a3da3607b
 
---===============3279124076445420876==--
+d4de9aa58be728025436b0fb2176295abec02635 5480da22eab2a618f6662431ca1ae76863caaca7 refs/heads/for-5.14
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDckxAACgkQJNaLcl1U
+h9Cw6wf+IhHVqd/TlT5u3tJuNkfQ0m9bbIBf0WxEj7N5jSeZYxwbmyVhBf9sQlbI
+f7Mz05IBDkj19CP5gVp8/7qqGfc/jhJS0wwuLPzKJntgtJLgDjN2TVU5qbTZT1pW
+3Cw8bV2poYQORWPyItbWzOe+q2UzkYI1rR6U/kNbykndoSGpnEH/YdjhV4oxO51u
+KGKLOYLF13kKRFkUxiJ6BMLuqmVhuqR4t+KhrivIaxgKM+h4a6M4dJaWfNP5zXQH
+1tr/OG25aZ0NRl+5qrp64NsrAg1Go09x/iu1kosuc+PrW1lUcH49umY+ObgOFmFQ
+6/Pbq3yjxnMTAJciF2XZfzKDt/FLCA==
+=TZ+y
+-----END PGP SIGNATURE-----
+
+--===============5113652749272860871==--
