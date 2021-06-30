@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Wed, 30 Jun 2021 23:15:02 -0000
-Message-Id: <162509490299.20236.5470081313192536490@gitolite.kernel.org>
+Date: Wed, 30 Jun 2021 23:19:22 -0000
+Message-Id: <162509516207.22598.14540929741206784674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/rostedt/linux-trace
 user: rostedt
 changes:
   - ref: refs/heads/for-next
-    old: 6a2cbc58d6c9d90cd74288cc497c2b45815bc064
-    new: b62613b431bdababc90bf1440b2c7427172d94f4
+    old: b62613b431bdababc90bf1440b2c7427172d94f4
+    new: 78c14b385c195d4f25ab7c19186b8897a5b9ae3f
     log: |
-         b96285e10aad234acfa0628f7e8336990f778c03 tracing: Have osnoise_main() add a quiescent state for task rcu
-         f7d9f6370e006400655ff96cb148f56598492d91 trace/osnoise: Fix 'no previous prototype' warnings
-         2a81afa326fd23add336cfd7e35e1d699d11d9c4 trace/osnoise: Make interval u64 on osnoise_main
-         498627b4ac85780b9962ed9b5c5abbefd884ef8e trace/osnoise: Fix return value on osnoise_init_hotplug_support
-         bd09c0556eca17f55fb09a26b6ed27bedd1b42ef Documentation: Fix a typo on trace/osnoise-tracer
-         b62613b431bdababc90bf1440b2c7427172d94f4 tracing: Fix spelling in osnoise tracer "interferences" -> "interference"
+         9913d5745bd720c4266805c8d29952a3702e4eca tracepoint: Add tracepoint_probe_register_may_exist() for BPF tracing
+         19c3eaa72288ce161441dd6b74b765a094d73488 trace/osnoise: Make 'noise' variable s64 in run_osnoise()
+         6a82f42a2e55d43bd99f1b457982be6c856c800d trace/timerlat: Fix indentation on timerlat_main()
+         bfbf8d157a8e85beca929f1959f567e03eb72c34 tracing: Change variable type as bool for clean-up
+         78c14b385c195d4f25ab7c19186b8897a5b9ae3f treewide: Add missing semicolons to __assign_str uses
          
