@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 30 Jun 2021 13:05:58 -0000
-Message-Id: <162505835858.460.7801677106292306483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 30 Jun 2021 13:11:43 -0000
+Message-Id: <162505870355.3952.5512997477592752600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: fb38ab9c38c97db7ac5711704e41450212ab231d
-    new: 3d8287544223a3d2f37981c1f9ffd94d0b5e9ffc
-  - ref: refs/heads/wip/jgg-for-next
-    old: fb38ab9c38c97db7ac5711704e41450212ab231d
-    new: 3d8287544223a3d2f37981c1f9ffd94d0b5e9ffc
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
