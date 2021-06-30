@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3509515091791854641=="
+Content-Type: multipart/mixed; boundary="===============1730790017145077655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 30 Jun 2021 11:21:31 -0000
-Message-Id: <162505209125.28602.9097677119909357625@gitolite.kernel.org>
+Date: Wed, 30 Jun 2021 11:22:01 -0000
+Message-Id: <162505212132.28888.11724991477998385788@gitolite.kernel.org>
 
---===============3509515091791854641==
+--===============1730790017145077655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 707b1634478fa23ec8399dff433fc36c72409126
     new: 4783ac31af63b27a17fd5398d4bdd8386ab6f416
     log: revlist-707b1634478f-4783ac31af63.txt
 
---===============3509515091791854641==
+--===============1730790017145077655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -680,4 +680,4 @@ f0b0028e4492a304865967e80ba00fa11019c2f5 sched/headers, x86/asm: Make <asm/jump_
 4c3996694c6a04ba989cf02b02a384a1cf3ef060 sched/headers, x86/cpu: Optimize <asm/processor.h> dependencies
 4783ac31af63b27a17fd5398d4bdd8386ab6f416 sched/headers, x86/cpu: Move <asm/processor.h> to <asm/processor_types.h>
 
---===============3509515091791854641==--
+--===============1730790017145077655==--
