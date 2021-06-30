@@ -1,30 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 30 Jun 2021 12:06:10 -0000
-Message-Id: <162505477045.25473.3046412128943227213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 30 Jun 2021 12:15:08 -0000
+Message-Id: <162505530830.31279.18157089892411742850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: c9af248c38aae9222f4cd45710c2f32171a07a56
-    new: c35b896209e56862c920be60a18a440a74cc6e29
+  - ref: refs/heads/tmp.master
+    old: c71cbe9918c40cad2ac8ae982aa8001e7766dd97
+    new: 51bc160c1972e9966688302abf6a26d1a482c3b0
     log: |
-         afb7cd6d01a8e6ec90358fdc1b18323494faceef OpenSSL crypt backend support for OpenSSL3.
-         5a36a1f3a2d583eb21cac13f267d9b2c60736100 OpenSSL crypto backend: suppress deprecation warnings.
-         c35b896209e56862c920be60a18a440a74cc6e29 cryptsetup.spec: remove .la file from plugins build dir.
+         51bc160c1972e9966688302abf6a26d1a482c3b0 pahole: Introduce --prettify option
          
-  - ref: refs/heads/openssl3-fixes
-    old: 5a36a1f3a2d583eb21cac13f267d9b2c60736100
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/183/head
-    old: 0000000000000000000000000000000000000000
-    new: c35b896209e56862c920be60a18a440a74cc6e29
-  - ref: refs/merge-requests/183/merge
-    old: 0000000000000000000000000000000000000000
-    new: 474582bd356c87c5f4eb96e0e1550f88079b63d0
