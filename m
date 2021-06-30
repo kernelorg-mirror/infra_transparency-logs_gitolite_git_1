@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2136332793622077467=="
+Content-Type: multipart/mixed; boundary="===============9162651754679854538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 30 Jun 2021 15:52:19 -0000
-Message-Id: <162506833914.18159.14257088036124481178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 30 Jun 2021 15:52:26 -0000
+Message-Id: <162506834656.18286.465759234760435298@gitolite.kernel.org>
 
---===============2136332793622077467==
+--===============9162651754679854538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
   - ref: refs/heads/for-5.14
-    old: 6549c46af8551b346bcc0b9043f93848319acd5c
-    new: 5db5dd5be70eaf808d9fd90174b957fc5c2912cb
+    old: b470e10eb43f19e08245cd87dd3192a8141cfbb5
+    new: e4a5c19888a5f8a9390860ca493e643be58c8791
     log: |
-         5db5dd5be70eaf808d9fd90174b957fc5c2912cb regulator: hi6421v600: Fix getting wrong drvdata that causes boot failure
+         e4a5c19888a5f8a9390860ca493e643be58c8791 spi: stm32h7: fix full duplex irq handler handling
          
 
---===============2136332793622077467==
+--===============9162651754679854538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1625068311 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1625068336-01c399d58a379c2eff8832c3fb2bbc85e86b0246
+pusher C3F436CA30F5D8EB 1625068318 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1625068344-7393601cf45cac788c15fa274eeaf7ee1490c7ef
 
-6549c46af8551b346bcc0b9043f93848319acd5c 5db5dd5be70eaf808d9fd90174b957fc5c2912cb refs/heads/for-5.14
+b470e10eb43f19e08245cd87dd3192a8141cfbb5 e4a5c19888a5f8a9390860ca493e643be58c8791 refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDckxcACgkQJNaLcl1U
-h9CFKQf/VgcPE1P/Y9YVl+ztc04CmUdXvihHcuE4Fr8A/jH4kfcJIOgBje5sY8cI
-InQ5DSgxnybEsp7UTzPJaf0RcBUL0aoYiAXxAgaIPyQODm7QBcBBI8dZhtTXKkAR
-c8KvVFPiOmKayoHv/iM4IhElmhXNHh3iiT28Rx7fXfTHLob66rTBDQPktS2DP7yw
-LxQRm43ieEpHX57pmTgYhzpHqxmqszKdBWFtQ473KKoQbplOnum2j3F1se486cDu
-UJkfMNoEPl4+Xt88rMZ/OxwsjVqttbbzDOst7/Y0GOBNQ9Q+zJUXRWWjbQ5dlTRL
-5VV3+CZzBY0fSfRMEXWQonpgmSKb1Q==
-=VZ/6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDckx4ACgkQJNaLcl1U
+h9BMVggAhDtVuS4JQOJ4Cop6knYx5gPuZuuZ49RMMSKRFonNavCnNnGPaMGUhGsM
+4TccXqxo+n8dqpfy0ZyEtihCVWmbNCp0G8R4YG4zukzR2t/7/CfRa9+ntk6n9LCb
+TpHr+TRn2Mk5MzMwKJDlGlHWNRNxL771C7+HOBPBntEcFYDn+dQGwkEJQMMnozHX
+d/iEpbt0rW94TaJrwfvjLO8a/p3Inooy96U4Uzz3AmTpqyk7DNf5NckoMscxMnF2
+5xmQN2RQ7OQX2QKigJctP2cgSP91g+Hg2CYmVyVdngt5r9UwmsxxevwbA1QeuBRo
+BSPRJs4wsUHd3u1l1VWifYQxqHRu/g==
+=bIUE
 -----END PGP SIGNATURE-----
 
---===============2136332793622077467==--
+--===============9162651754679854538==--
