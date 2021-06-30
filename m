@@ -1,55 +1,169 @@
-Content-Type: multipart/mixed; boundary="===============4737483297383297131=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Wed, 30 Jun 2021 17:10:11 -0000
-Message-Id: <162507301162.5791.2814353924503406137@gitolite.kernel.org>
-
---===============4737483297383297131==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 30 Jun 2021 17:13:27 -0000
+Message-Id: <162507320700.7305.3376505022663007668@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: b6e32ae2c1e722cafa44ba0f89311cb0c16ead6e
-    new: 96e45e5202377da39d086ec19f8934ebcc5b0fd6
-    log: revlist-b6e32ae2c1e7-96e45e520237.txt
-
---===============4737483297383297131==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6e32ae2c1e7-96e45e520237.txt
-
-3f3e805177afc04dccf43cc58856a14a000a593f pwm: berlin: use consistent naming for variables
-30dffb42fcd4b127474f089e9c03fbc0dfc649a8 pwm: berlin: Implement .apply() callback
-0512f0503b051a98608a9b0d33b75482b960a313 pwm: berlin: Don't check the return code of pwmchip_remove()
-81b7c173e3609ed77a9f9909406aefa122801a38 pwm: pxa: Drop if with an always false condition
-b63d60b2eaf3a20a60cbd3b1f252584604e828c7 pwm: pxa: Always use the same variable name for driver data
-fde25294dfd8e36e4e30b693c27a86232864002a pwm: img: Fix PM reference leak in img_pwm_enable()
-76982e478de4d682cb5fca26d6d3efe2d2545722 pwm: sprd: Don't check the return code of pwmchip_remove()
-b0b8d558efb5b607fc35fbccb9edb5230c41c0ba dt-bindings: pwm: pwm-tiecap: Convert to json schema
-9939648a53c4c795bdac0d54df22423f81ccf5f0 dt-bindings: pwm: pwm-tiecap: Add compatible string for AM64 SoC
-ef3d13b867637f9a791b524100362ba7e2b69810 docs: firmware-guide: ACPI: Add a PWM example
-ca06616b1eed31126138aaf1a6b5bdd149b61da8 pwm: core: Convert to use fwnode for matching
-e5c38ba9f2813beb8cb80ef3f5065bfe98a9a450 pwm: core: Reuse fwnode_to_pwmchip() in ACPI case
-e625fb70a6d21e4d9ca6d91924d4711a66fd634f pwm: core: Unify fwnode checks in the module
-c333b936c1530e76eba4e81091874d1217046131 pwm: core: Remove unused devm_pwm_put()
-9ae241d06ef7aca8ebe8b1df91e0621ba7de5195 pwm: core: Simplify some devm_*pwm*() functions
-c1b8ac969febc8f413c4d71f0eefe2e107610449 pwm: tegra: Drop an if block with an always false condition
-86f7fa71cd830d18d7ebcaf719dffd5ddfe1acdd pwm: tegra: Don't modify HW state in .remove callback
-3b8b571fcc49e794703eb01a97e9ed8b85e88304 pwm: tegra: Don't needlessly enable and disable the clock in .remove()
-2f1a3bd4510afd8cf5ab5a6169ad64981a62dccf pwm: tegra: Assert reset only after the PWM was unregistered
-fb2cb3bff9e0ede1709620809374dd14c07b1e16 pwm: vt8500: Drop if with an always false condition
-868f13bdea3304362dd882f216ba30a8bf4c10c8 pwm: vt8500: Only unprepare the clock after the pwmchip was removed
-6d45374af539c84d17cfcf5a4e96bc4b2ca421e6 pwm: ep93xx: Implement .apply callback
-72cce47fe8f8dec55de8cd4574c574dec5195252 pwm: ep93xx: Unfold legacy callbacks into ep93xx_pwm_apply()
-b235f8a39fc3ee09c804bf711c3039f92d867549 pwm: ep93xx: Prepare clock before using it
-96e45e5202377da39d086ec19f8934ebcc5b0fd6 pwm: ep93xx: Fix read of uninitialized variable ret
-
---===============4737483297383297131==--
+  - ref: refs/tags/block-5.12-2021-02-27
+    old: 0000000000000000000000000000000000000000
+    new: 609b7189fccaf946b427669d739a22abecd1b4f3
+  - ref: refs/tags/block-5.12-2021-03-05
+    old: 0000000000000000000000000000000000000000
+    new: 3d38ae5e95f6f61fc1485e92393cbf91fe69a9bd
+  - ref: refs/tags/block-5.12-2021-03-12
+    old: 0000000000000000000000000000000000000000
+    new: faed9dfd166a57fe0ddfa1f3fc742e2a86527ec2
+  - ref: refs/tags/block-5.12-2021-03-12-v2
+    old: 0000000000000000000000000000000000000000
+    new: 9afae367e34bca84e300d6a32b63c7b42270e1d4
+  - ref: refs/tags/block-5.12-2021-03-19
+    old: 0000000000000000000000000000000000000000
+    new: 63106906becbd55594550fe41516ecf2918fbf6e
+  - ref: refs/tags/block-5.12-2021-03-27
+    old: 0000000000000000000000000000000000000000
+    new: 4f40f6cac2457ee45f13899670538834db780642
+  - ref: refs/tags/block-5.12-2021-04-02
+    old: 0000000000000000000000000000000000000000
+    new: 16513f4fdc051be0fd1e2f06e26d778c1f15eea7
+  - ref: refs/tags/block-5.12-2021-04-23
+    old: 0000000000000000000000000000000000000000
+    new: 0ee0a54da967a306ddf777165f97b6e88df4356b
+  - ref: refs/tags/block-5.13-2021-05-07
+    old: 0000000000000000000000000000000000000000
+    new: ff4300fedefe867ba9fe37961b53eb3ccb683e9f
+  - ref: refs/tags/block-5.13-2021-05-09
+    old: 0000000000000000000000000000000000000000
+    new: 62884b66a65f6f3fc940c8f0d5725b37b5e02a3c
+  - ref: refs/tags/block-5.13-2021-05-14
+    old: 0000000000000000000000000000000000000000
+    new: 621990e666a9ca668d352c94a56582fb821a36ea
+  - ref: refs/tags/block-5.13-2021-05-22
+    old: 0000000000000000000000000000000000000000
+    new: f34772246bdedb7358eaf2e815cdbdc08c66b4d5
+  - ref: refs/tags/block-5.13-2021-05-28
+    old: 0000000000000000000000000000000000000000
+    new: bac8ac2fd93aaab2a986a60b8f957cfec07e3081
+  - ref: refs/tags/block-5.13-2021-06-03
+    old: 0000000000000000000000000000000000000000
+    new: 3f5f07825c0c795749a4f183d7353af507c5e962
+  - ref: refs/tags/block-5.13-2021-06-12
+    old: 0000000000000000000000000000000000000000
+    new: a36533b9c135b7afcd7087bccaf349323882f605
+  - ref: refs/tags/for-5.12/block-2021-02-17
+    old: 0000000000000000000000000000000000000000
+    new: 55838410c80cc2b39fa0bc96fc5fe7fd1a1a747f
+  - ref: refs/tags/for-5.12/block-ipi-2021-02-21
+    old: 0000000000000000000000000000000000000000
+    new: 4e039764b251ef09844eb68777b7b2a5fd7b2894
+  - ref: refs/tags/for-5.12/drivers-2021-02-17
+    old: 0000000000000000000000000000000000000000
+    new: 40b7576e643e7489534e122538819c54cd110e1a
+  - ref: refs/tags/for-5.12/io_uring-2021-02-17
+    old: 0000000000000000000000000000000000000000
+    new: 58e00a147410018c1a914ea86e9f99ae55577109
+  - ref: refs/tags/for-5.12/io_uring-2021-02-25
+    old: 0000000000000000000000000000000000000000
+    new: 66eab1caeba26f8382469095eabaec2450e6f19c
+  - ref: refs/tags/for-5.12/libata-2021-02-17
+    old: 0000000000000000000000000000000000000000
+    new: 47010a578a64acbca50a12b9113482dd26676218
+  - ref: refs/tags/for-5.13/block-2021-04-27
+    old: 0000000000000000000000000000000000000000
+    new: ac3c53c2e2d2ef32ad344705060aa24cd931c4d0
+  - ref: refs/tags/for-5.13/drivers-2021-04-27
+    old: 0000000000000000000000000000000000000000
+    new: 21921d3bada37101cb462d7c510c72af20b7e35a
+  - ref: refs/tags/for-5.13/io_uring-2021-04-27
+    old: 0000000000000000000000000000000000000000
+    new: 5d6b9bbd426694b8f815868476221ffbcbfcf471
+  - ref: refs/tags/for-5.13/libata-2021-04-27
+    old: 0000000000000000000000000000000000000000
+    new: d1216d204d843142d81a205ec8e2248dd68ce166
+  - ref: refs/tags/for-5.14/block-2021-06-29
+    old: 0000000000000000000000000000000000000000
+    new: 86e8f64929365a4dcec713a8f8f001b29fb225f3
+  - ref: refs/tags/for-5.14/dm-changes
+    old: 0000000000000000000000000000000000000000
+    new: cde4a02a0c2484114065b94ef3af31f6f36a643f
+  - ref: refs/tags/for-5.14/drivers-2021-06-29
+    old: 0000000000000000000000000000000000000000
+    new: 9ae1f453c5a2847572e17661e84a104c8b633a63
+  - ref: refs/tags/for-5.14/io_uring-2021-06-29
+    old: 0000000000000000000000000000000000000000
+    new: c5e88cf1d62855320c97df2a239fe8725039507a
+  - ref: refs/tags/for-5.14/libata-2021-06-27
+    old: 0000000000000000000000000000000000000000
+    new: 31dc3e8f3a9763b1323b90c879089fdb25d4f9ad
+  - ref: refs/tags/ide-5.11-2021-02-28
+    old: 0000000000000000000000000000000000000000
+    new: 98e68b658c92d1c9b6da2b404a4c3ff0b69e84e4
+  - ref: refs/tags/io_uring-5.12-2021-03-05
+    old: 0000000000000000000000000000000000000000
+    new: cae298e5c8b339b5e6a47399f2ffe51ade05bbc1
+  - ref: refs/tags/io_uring-5.12-2021-03-12
+    old: 0000000000000000000000000000000000000000
+    new: e0c63396482c67ff789197523fc76521d81e5acf
+  - ref: refs/tags/io_uring-5.12-2021-03-19
+    old: 0000000000000000000000000000000000000000
+    new: c45160f27f43b65b9e5df5335114c246b14ec3f7
+  - ref: refs/tags/io_uring-5.12-2021-03-21
+    old: 0000000000000000000000000000000000000000
+    new: f4007421fef5dc1cbc94084c0289fc0e758b10ee
+  - ref: refs/tags/io_uring-5.12-2021-03-27
+    old: 0000000000000000000000000000000000000000
+    new: b7f56c29e647f0fd7c46d0aad8a5d2266e044e9e
+  - ref: refs/tags/io_uring-5.12-2021-04-02
+    old: 0000000000000000000000000000000000000000
+    new: 3e0d751f26d6e77fb8da9ae1c59eef7d7d1ee6d0
+  - ref: refs/tags/io_uring-5.12-2021-04-03
+    old: 0000000000000000000000000000000000000000
+    new: 1afc7495a8b3b36bf407b3a59459529b5d2ca730
+  - ref: refs/tags/io_uring-5.12-2021-04-09
+    old: 0000000000000000000000000000000000000000
+    new: 805fdc4651ade1f9a614ea0ab70bf536bef50d7d
+  - ref: refs/tags/io_uring-5.12-2021-04-16
+    old: 0000000000000000000000000000000000000000
+    new: e69fc41ddf20cb7ff73fdd5cdc8d65c1dacaf0b1
+  - ref: refs/tags/io_uring-5.13-2021-05-07
+    old: 0000000000000000000000000000000000000000
+    new: 2db3acba0e08155ffa0a93fafacfd39e7afa4755
+  - ref: refs/tags/io_uring-5.13-2021-05-14
+    old: 0000000000000000000000000000000000000000
+    new: 2946db43e57c79f7b7f84196da15dcbde71e39b2
+  - ref: refs/tags/io_uring-5.13-2021-05-22
+    old: 0000000000000000000000000000000000000000
+    new: 5236734553945626c5693e55a6ec862856b8242c
+  - ref: refs/tags/io_uring-5.13-2021-05-28
+    old: 0000000000000000000000000000000000000000
+    new: 4751bc325ff6d69a4f35a9cc36e37e2fccf7be37
+  - ref: refs/tags/io_uring-5.13-2021-06-03
+    old: 0000000000000000000000000000000000000000
+    new: d2ecc8dc9649272db921922c1335bd0656d04ffc
+  - ref: refs/tags/io_uring-5.13-2021-06-12
+    old: 0000000000000000000000000000000000000000
+    new: 764b6f06f4f8da9bdda78b2f786c4e09349089fb
+  - ref: refs/tags/io_uring-worker.v3-2021-02-25
+    old: 0000000000000000000000000000000000000000
+    new: 6525cc00f4e135a935ed489e8167b99a8b10e4e0
+  - ref: refs/tags/misc-5.12-2021-03-02
+    old: 0000000000000000000000000000000000000000
+    new: 16b3ba60a5c9f46f45fd535238a75cfb482d7bb9
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
