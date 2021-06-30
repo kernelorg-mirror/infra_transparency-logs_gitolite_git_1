@@ -1,169 +1,63 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 30 Jun 2021 17:13:27 -0000
-Message-Id: <162507320700.7305.3376505022663007668@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6421756006778238276=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 30 Jun 2021 17:45:43 -0000
+Message-Id: <162507514352.29028.17484251058528846537@gitolite.kernel.org>
+
+--===============6421756006778238276==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/block-5.12-2021-02-27
+  - ref: refs/heads/dev
+    old: 24c95d1af15e700c498d51057e2768b8af4f98e2
+    new: b7cff7061be289b9e9f40883e6756fa99fd9293b
+    log: revlist-24c95d1af15e-b7cff7061be2.txt
+  - ref: refs/heads/dev.2021.06.29a
     old: 0000000000000000000000000000000000000000
-    new: 609b7189fccaf946b427669d739a22abecd1b4f3
-  - ref: refs/tags/block-5.12-2021-03-05
-    old: 0000000000000000000000000000000000000000
-    new: 3d38ae5e95f6f61fc1485e92393cbf91fe69a9bd
-  - ref: refs/tags/block-5.12-2021-03-12
-    old: 0000000000000000000000000000000000000000
-    new: faed9dfd166a57fe0ddfa1f3fc742e2a86527ec2
-  - ref: refs/tags/block-5.12-2021-03-12-v2
-    old: 0000000000000000000000000000000000000000
-    new: 9afae367e34bca84e300d6a32b63c7b42270e1d4
-  - ref: refs/tags/block-5.12-2021-03-19
-    old: 0000000000000000000000000000000000000000
-    new: 63106906becbd55594550fe41516ecf2918fbf6e
-  - ref: refs/tags/block-5.12-2021-03-27
-    old: 0000000000000000000000000000000000000000
-    new: 4f40f6cac2457ee45f13899670538834db780642
-  - ref: refs/tags/block-5.12-2021-04-02
-    old: 0000000000000000000000000000000000000000
-    new: 16513f4fdc051be0fd1e2f06e26d778c1f15eea7
-  - ref: refs/tags/block-5.12-2021-04-23
-    old: 0000000000000000000000000000000000000000
-    new: 0ee0a54da967a306ddf777165f97b6e88df4356b
-  - ref: refs/tags/block-5.13-2021-05-07
-    old: 0000000000000000000000000000000000000000
-    new: ff4300fedefe867ba9fe37961b53eb3ccb683e9f
-  - ref: refs/tags/block-5.13-2021-05-09
-    old: 0000000000000000000000000000000000000000
-    new: 62884b66a65f6f3fc940c8f0d5725b37b5e02a3c
-  - ref: refs/tags/block-5.13-2021-05-14
-    old: 0000000000000000000000000000000000000000
-    new: 621990e666a9ca668d352c94a56582fb821a36ea
-  - ref: refs/tags/block-5.13-2021-05-22
-    old: 0000000000000000000000000000000000000000
-    new: f34772246bdedb7358eaf2e815cdbdc08c66b4d5
-  - ref: refs/tags/block-5.13-2021-05-28
-    old: 0000000000000000000000000000000000000000
-    new: bac8ac2fd93aaab2a986a60b8f957cfec07e3081
-  - ref: refs/tags/block-5.13-2021-06-03
-    old: 0000000000000000000000000000000000000000
-    new: 3f5f07825c0c795749a4f183d7353af507c5e962
-  - ref: refs/tags/block-5.13-2021-06-12
-    old: 0000000000000000000000000000000000000000
-    new: a36533b9c135b7afcd7087bccaf349323882f605
-  - ref: refs/tags/for-5.12/block-2021-02-17
-    old: 0000000000000000000000000000000000000000
-    new: 55838410c80cc2b39fa0bc96fc5fe7fd1a1a747f
-  - ref: refs/tags/for-5.12/block-ipi-2021-02-21
-    old: 0000000000000000000000000000000000000000
-    new: 4e039764b251ef09844eb68777b7b2a5fd7b2894
-  - ref: refs/tags/for-5.12/drivers-2021-02-17
-    old: 0000000000000000000000000000000000000000
-    new: 40b7576e643e7489534e122538819c54cd110e1a
-  - ref: refs/tags/for-5.12/io_uring-2021-02-17
-    old: 0000000000000000000000000000000000000000
-    new: 58e00a147410018c1a914ea86e9f99ae55577109
-  - ref: refs/tags/for-5.12/io_uring-2021-02-25
-    old: 0000000000000000000000000000000000000000
-    new: 66eab1caeba26f8382469095eabaec2450e6f19c
-  - ref: refs/tags/for-5.12/libata-2021-02-17
-    old: 0000000000000000000000000000000000000000
-    new: 47010a578a64acbca50a12b9113482dd26676218
-  - ref: refs/tags/for-5.13/block-2021-04-27
-    old: 0000000000000000000000000000000000000000
-    new: ac3c53c2e2d2ef32ad344705060aa24cd931c4d0
-  - ref: refs/tags/for-5.13/drivers-2021-04-27
-    old: 0000000000000000000000000000000000000000
-    new: 21921d3bada37101cb462d7c510c72af20b7e35a
-  - ref: refs/tags/for-5.13/io_uring-2021-04-27
-    old: 0000000000000000000000000000000000000000
-    new: 5d6b9bbd426694b8f815868476221ffbcbfcf471
-  - ref: refs/tags/for-5.13/libata-2021-04-27
-    old: 0000000000000000000000000000000000000000
-    new: d1216d204d843142d81a205ec8e2248dd68ce166
-  - ref: refs/tags/for-5.14/block-2021-06-29
-    old: 0000000000000000000000000000000000000000
-    new: 86e8f64929365a4dcec713a8f8f001b29fb225f3
-  - ref: refs/tags/for-5.14/dm-changes
-    old: 0000000000000000000000000000000000000000
-    new: cde4a02a0c2484114065b94ef3af31f6f36a643f
-  - ref: refs/tags/for-5.14/drivers-2021-06-29
-    old: 0000000000000000000000000000000000000000
-    new: 9ae1f453c5a2847572e17661e84a104c8b633a63
-  - ref: refs/tags/for-5.14/io_uring-2021-06-29
-    old: 0000000000000000000000000000000000000000
-    new: c5e88cf1d62855320c97df2a239fe8725039507a
-  - ref: refs/tags/for-5.14/libata-2021-06-27
-    old: 0000000000000000000000000000000000000000
-    new: 31dc3e8f3a9763b1323b90c879089fdb25d4f9ad
-  - ref: refs/tags/ide-5.11-2021-02-28
-    old: 0000000000000000000000000000000000000000
-    new: 98e68b658c92d1c9b6da2b404a4c3ff0b69e84e4
-  - ref: refs/tags/io_uring-5.12-2021-03-05
-    old: 0000000000000000000000000000000000000000
-    new: cae298e5c8b339b5e6a47399f2ffe51ade05bbc1
-  - ref: refs/tags/io_uring-5.12-2021-03-12
-    old: 0000000000000000000000000000000000000000
-    new: e0c63396482c67ff789197523fc76521d81e5acf
-  - ref: refs/tags/io_uring-5.12-2021-03-19
-    old: 0000000000000000000000000000000000000000
-    new: c45160f27f43b65b9e5df5335114c246b14ec3f7
-  - ref: refs/tags/io_uring-5.12-2021-03-21
-    old: 0000000000000000000000000000000000000000
-    new: f4007421fef5dc1cbc94084c0289fc0e758b10ee
-  - ref: refs/tags/io_uring-5.12-2021-03-27
-    old: 0000000000000000000000000000000000000000
-    new: b7f56c29e647f0fd7c46d0aad8a5d2266e044e9e
-  - ref: refs/tags/io_uring-5.12-2021-04-02
-    old: 0000000000000000000000000000000000000000
-    new: 3e0d751f26d6e77fb8da9ae1c59eef7d7d1ee6d0
-  - ref: refs/tags/io_uring-5.12-2021-04-03
-    old: 0000000000000000000000000000000000000000
-    new: 1afc7495a8b3b36bf407b3a59459529b5d2ca730
-  - ref: refs/tags/io_uring-5.12-2021-04-09
-    old: 0000000000000000000000000000000000000000
-    new: 805fdc4651ade1f9a614ea0ab70bf536bef50d7d
-  - ref: refs/tags/io_uring-5.12-2021-04-16
-    old: 0000000000000000000000000000000000000000
-    new: e69fc41ddf20cb7ff73fdd5cdc8d65c1dacaf0b1
-  - ref: refs/tags/io_uring-5.13-2021-05-07
-    old: 0000000000000000000000000000000000000000
-    new: 2db3acba0e08155ffa0a93fafacfd39e7afa4755
-  - ref: refs/tags/io_uring-5.13-2021-05-14
-    old: 0000000000000000000000000000000000000000
-    new: 2946db43e57c79f7b7f84196da15dcbde71e39b2
-  - ref: refs/tags/io_uring-5.13-2021-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 5236734553945626c5693e55a6ec862856b8242c
-  - ref: refs/tags/io_uring-5.13-2021-05-28
-    old: 0000000000000000000000000000000000000000
-    new: 4751bc325ff6d69a4f35a9cc36e37e2fccf7be37
-  - ref: refs/tags/io_uring-5.13-2021-06-03
-    old: 0000000000000000000000000000000000000000
-    new: d2ecc8dc9649272db921922c1335bd0656d04ffc
-  - ref: refs/tags/io_uring-5.13-2021-06-12
-    old: 0000000000000000000000000000000000000000
-    new: 764b6f06f4f8da9bdda78b2f786c4e09349089fb
-  - ref: refs/tags/io_uring-worker.v3-2021-02-25
-    old: 0000000000000000000000000000000000000000
-    new: 6525cc00f4e135a935ed489e8167b99a8b10e4e0
-  - ref: refs/tags/misc-5.12-2021-03-02
-    old: 0000000000000000000000000000000000000000
-    new: 16b3ba60a5c9f46f45fd535238a75cfb482d7bb9
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+    new: 24c95d1af15e700c498d51057e2768b8af4f98e2
+
+--===============6421756006778238276==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-24c95d1af15e-b7cff7061be2.txt
+
+740d58a863f34fa6c9f55a63ad0b91ede55d68e8 scftorture: Avoid false-positive warnings in scftorture_invoker()
+42c4702260935814589242984f334a846913a204 rcu: Make rcu_gp_init() and rcu_gp_fqs_loop noinline to conserve stack
+6e64c3bd7cd3854faaa5b6fb8ff4142f3386d48b rcu: Remove trailing spaces and tabs
+50bad89bb200b476d42473afcd4b84b178697f39 refscale: Avoid false-positive warnings in ref_scale_reader()
+3d70c107ceadb25a8d503adbba858330dd27df79 rcu/doc: Add a quick quiz to explain further why we need smp_mb__after_unlock_lock()
+1584d22515835a59457494659170342d5fb30d95 kcsan: Improve some Kconfig comments
+1731d5049878599715d5770e0be0b1a739c52dec kcsan: Remove CONFIG_KCSAN_DEBUG
+2fcbd560d22e67e2b08c9776e05674d92b33d85c kcsan: Introduce CONFIG_KCSAN_STRICT
+0f6cf22ee69a52974588f9332b46cac12b6593c1 kcsan: Reduce get_ctx() uses in kcsan_found_watchpoint()
+dbfa9f77e640c56b51f2e0a36ce92f38facceb6d kcsan: Rework atomic.h into permissive.h
+47bc20bdbfa501955035fa40d73e37f3a080b057 kcsan: Print if strict or non-strict during init
+9a7fbbf819ac0fe9c362cf9adfc7a0706d9f308e kcsan: permissive: Ignore data-racy 1-bit value changes
+013738cbd32d80e2b3189e09a8b1542de1bc2207 kcsan: Make strict mode imply interruptible watchers
+53eb3a932380e198245fb13a9ddbd1f724fee348 torture: Apply CONFIG_KCSAN_STRICT to kvm.sh --kcsan argument
+e1e020c637ae251cd80cd51c97c0ce10bedae73c torture: Make kvm-recheck-scf.sh tolerate qemu-cmd comments
+49ba34ba7187c14ce3baf81539f6f7b04efcb677 torture: Make kvm-recheck-lock.sh tolerate qemu-cmd comments
+098ada530f4904075f02870c75c1759cb8234b8a torture: Log more kvm-remote.sh information
+36afaf2495dfca88fe527ba9c24949172487676d torture: Protect kvm-remote.sh directory trees from /tmp reaping
+07e5d268647ba0f7893731367dd49ffefc30e032 rcuscale: Console output claims too few grace periods
+cb67ff4b7536eceace8f59a048e20b7c7e2fa75c rcu-tasks: Fix synchronize_rcu_rude() typo in comment
+fcbd9685d8e40b13a271bee41532ba47c5bb7d4f torture: Make kvm-recheck.sh skip kcsan.sum for build-only runs
+32809ad0ab74517255c6e741e1419f95c8ead4df torture: Move parse-console.sh call to PATH-aware scripts
+1c034ea8f7dd59086b4b0dde79b15c877a174e39 tools: include: nolibc: Fix a typo occured to occurred in the file nolibc.h
+f4fec80b07c912d720d4ea4330f04bbf67d4e0c1 tools/nolibc: Implement msleep()
+e32fa33c2c7ccaa3b4ad603f0c0b5412ea12a15d scftorture: Add RPC-like IPI tests
+90f71a58666535e68a4db442a8511eea90e7fe9b EXP rcu: Mark accesses in tree_stall.h
+914c439aecca9c004351d6b96cbbf859bbacb6ed doc: Clarify and expand RCU updaters and corresponding readers
+43e6da409e1802b92b780b4d0399f36ecc0bdccd doc: Give XDP as example of non-obvious RCU reader/updater pairing
+6e01be52c819dda21bbeed329c510c082a6a86f2 scftorture: Provide additional debug for memory-ordering diagnostics
+b7cff7061be289b9e9f40883e6756fa99fd9293b rcu: Remove useless "ret" update in rcu_gp_fqs_loop()
+
+--===============6421756006778238276==--
