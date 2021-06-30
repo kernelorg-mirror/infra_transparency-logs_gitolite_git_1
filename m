@@ -1,62 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============5734053949001537709=="
+Content-Type: multipart/mixed; boundary="===============3503401315677553404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 30 Jun 2021 22:33:13 -0000
-Message-Id: <162509239310.25000.12675998805999452385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 30 Jun 2021 22:43:14 -0000
+Message-Id: <162509299466.31110.12104140987897235093@gitolite.kernel.org>
 
---===============5734053949001537709==
+--===============3503401315677553404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 440462198d9c45e48f2d8d9b18c5702d92282f46
-    new: 92183137e6c14b68ff4de51f6ef371b2b1fe6e68
-    log: revlist-440462198d9c-92183137e6c1.txt
+  - ref: refs/heads/seen
+    old: a68dd2adb3a7dfbfc476918b9355c5588b6f4762
+    new: c5dc12929af14984cea527a97078b22e55b19b80
+    log: revlist-a68dd2adb3a7-c5dc12929af1.txt
 
---===============5734053949001537709==
+--===============3503401315677553404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-440462198d9c-92183137e6c1.txt
+Content-Disposition: attachment; filename=revlist-a68dd2adb3a7-c5dc12929af1.txt
 
-2e08fb550a2d1017052685a27691911a633c1771 security/smack/: fix misspellings using codespell tool
-49ec114a6e62d8d320037ce71c1aaf9650b3cafd smackfs: restrict bytes count in smk_set_cipso()
-254c8b96c4af02a09004d605c7f2dfad7f1cb5ca audit: add blank line after variable declarations
-fba472bb38e2d2b9a676364ade4be4e5df665a82 selinux: simplify duplicate_policydb_cond_list() by using kmemdup()
-e1cce3a3cb28ba39d50166a78da91c8b5aae4af1 selinux: constify some avtab function arguments
-8a922805fb0950187ff037801e337aec010a6ccb selinux: delete selinux_xfrm_policy_lookup() useless argument
-7cffc377e1633b84a880b21eebf10562eaa47a23 selinux: Corrected comment to match kernel-doc comment
-fd781f459b60522f9fbfa1e125f122cf86d4a45b selinux: Remove redundant assignment to rc
-869cbeef18e5c4370157e733b947d44f37441ea9 lsm_audit,selinux: pass IB device name by reference
-0169d8f33ab7a58675a94c18122dba58d8f6a1b8 Revert "Smack: Handle io_uring kernel thread privileges"
-fe6bde732be8c4711a878b11491d9a2749b03909 Smack: fix doc warning
-619ed58ac4e2fbed71ac05f664a4a17e32537176 audit: Rename enum audit_state constants to avoid AUDIT_DISABLED redefinition
-dd8b865cc40832d32bbf912a65c657483533fdd4 audit: Use list_move instead of list_del/list_add
-1b8b719229197b7afa1b1191e083fb41ace095c5 LSM: SafeSetID: Mark safesetid_initialized as __initdata
-6ddb5680085a3eefe0c6267e3514060045a13c95 audit: remove trailing spaces and tabs
-648f2c6100cfa18e7dfe43bc0b9c3b73560d623c selinux: use __GFP_NOWARN with GFP_NOWAIT in the AVC
-d0a83314db291fdf2e1c36102212c80e01022d6d selinux: Fix kernel-doc
-b17ec22fb339bfcb1eadd5f5e196dc705dcf3949 selinux: slow_avc_audit has become non-blocking
-d99cf13f14200cdb5cbb704345774c9c0698612d selinux: kill 'flags' argument in avc_has_perm_flags() and avc_audit()
-0ecc617858fce305bedcf735eb18a46cb7e9921f audit: remove unnecessary 'ret' initialization
-3f1639f8f96c4c60ccf737b02c61eb7c59355a5b MAINTAINERS: Add Clang CFI section
-590e8a082a5772071d7bcfea2b8e5a2453cecad2 CFI: Move function_nocfi() into compiler.h
-583bfd484bcc85e9371e7205fa9e827c18ae34fb x86, lto: Enable Clang LTO for 32-bit as well
-380d53c45ff21f66870ee965b62613137f9d010d compiler_attributes.h: define __no_profile, add to noinstr
-ae4d682dfd3350d9836dafeed1fc5aa1e27c4963 compiler_attributes.h: cleanups for GCC 4.9+
-51c2ee6d121ceb31ab8d35aff4ce53007aefb455 Kconfig: Introduce ARCH_WANTS_NO_INSTR and CC_HAS_NO_PROFILE_FN_ATTR
-fca41af18e10318e4de090db47d9fa7169e1bf2f qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
-44b6ed4cfab8474061707b60e35afaf2c92a9dc3 Merge tag 'clang-features-v5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-6bd344e55f73f7ae671bf5c1ebe5bd814f3c4b27 Merge tag 'selinux-pr-20210629' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-290fe0fa6f5a1a3374dfd03fe0eda6c43d53e6cf Merge tag 'audit-pr-20210629' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-5c874a5b29c264f88fafb323e8df7da7b214b6a9 Merge tag 'Smack-for-5.14' of git://github.com/cschaufler/smack-next
-92183137e6c14b68ff4de51f6ef371b2b1fe6e68 Merge tag 'safesetid-5.14' of git://github.com/micah-morton/linux
+dc0592941138df684770bfe800ccad6b810214c3 xmmap: inform Linux users of tuning knobs on ENOMEM
+ffe6e0395dd2a1eb4bfce277b8eee20ed74b7d6b bundle cmd: stop leaking memory from parse_options_cmd_bundle()
+34b8bedf3251f513d687f0f88f7ad7b6ff4e3e53 bundle.c: use a temporary variable for OIDs and names
+f75765930b2bb867319acf63f115e7d5e6c21513 bundle: remove "ref_list" in favor of string-list.c API
+fe7fe62d8da0949d9b2bca34467b349bd294e91b grep: report missing left operand of --and
+806f83287f8d6c0568beed7ca5d603f936d53c40 t6423: test directory renames causing rename-to-self
+a492d5331cb93d8293e72741b4fb9e1ec4ff294b merge-ort: ensure we consult df_conflict and path_conflicts
+3585d0ea232b1a9c5498ab5785b11f61e93967c8 merge-recursive: handle rename-to-self case
+d56769e5093dd79474145d47bcb8a8d6a5668f16 Merge branch 'rs/grep-parser-fix' into jch
+fd2366bec0987a2786915a7ffeda496c1f2cc279 Merge branch 'ar/submodule-add' into seen
+fee64f742b551d8a82ab248268636fd2f809f3f3 Merge branch 'jt/partial-clone-submodule-1' into seen
+100a992c953fc7e4976e75300df26b3cc58667ac Merge branch 'hn/refs-errno-cleanup' into seen
+4d6976ce0ee7bc5f261e2f95049763689ced2057 Merge branch 'jk/doc-max-pack-size' into seen
+26b1c1f66612161ab6d9bca20687a3fba3356c38 Merge branch 'es/trace2-log-parent-process-name' into seen
+57dd396d6e5ec7ea2e3717beb6aa8cdd79396669 Merge branch 'en/ort-perf-batch-12' into seen
+8cb174938b5543a03d503b579992d175526c8e0b Merge branch 'ar/mailinfo-memcmp-to-skip-prefix' into seen
+7e439cbd552c8bc896dd4c37290c113a3c3c3bcc Merge branch 'ar/doc-libera-chat-in-my-first-contrib' into seen
+01ec5192216fb608e23f2f4bf8c65f88f54b21f8 Merge branch 'lh/systemd-timers' into seen
+ca5481e0b508cccd10ab39cd080dc775342835f0 Merge branch 'ab/cmd-foo-should-return' into seen
+eb40659410cce70225fb0415de33b1eebaf6518d Merge branch 'gh/gitweb-branch-sort' into seen
+68606c199eb933c2d70a7e6f4f7fe75fa9dd85e9 Merge branch 'jh/builtin-fsmonitor' into seen
+1981d94c046f30e8c9c471f3849783425bbfdcd4 Merge branch 'ao/p4-avoid-decoding' into seen
+67f4b67a999efb1c764583aecc1711f1f7add07e Merge branch 'ab/send-email-optim' into seen
+8af59ea28b9d3fbb679a2b4a3d52ded3a70ec4f7 Merge branch 'ms/mergetools-kdiff3-on-windows' into seen
+ab2d1992d0dfd6b824d7ceb06bb88e833f7ed795 Merge branch 'ab/xdiff-bug-cleanup' into seen
+66924bf3043abcc031c4b44e1d70411519450def Merge branch 'ab/progress-cleanup' into seen
+09b8566c0ab5ebebba4b4ad96103687a0c07acd0 Merge branch 'ba/object-info' into seen
+104faf1ec4c88bee3c1129b9ef23fcd4e9a46404 Merge branch 'ar/test-code-cleanup' into seen
+a32f8f51d1654bb374471971d94f974733c1b25d Merge branch 'ab/test-tool-cache-cleanup' into seen
+53a0ce1a186d0e93e6bcfd117e8bbfc392300d44 Merge branch 'ab/update-submitting-patches' into seen
+0bda7a56519e3ca3f2d1be2f76ff98a0a9f468e3 Merge branch 'dd/document-log-decorate-default' into seen
+260a7410b542b3e0580e22fa8d9dfb033334402d Merge branch 'ab/pack-objects-stdin' into seen
+0b53d4f9142bc6fbd7f40ab86d2c3cc2e41a645e Merge branch 'en/zdiff3' into seen
+3259b7d789c45e0ecd4996bbd27c14551ec66f73 Merge branch 'pw/diff-color-moved-fix' into seen
+39e2eda7a763efec348faee50b719242f1c4dd56 Merge branch 'ab/doc-retire-alice-bob' into seen
+7ee52d04d1447fff839860e4b30faec803088116 Merge branch 'es/superproject-aware-submodules' into seen
+0ded682b905b16f2a00155f6b8c73f3f67b148df Merge branch 'en/ort-perf-batch-13' into seen
+1707aa538d38f93ff3cc90bc0088b7a6ddb4443b Merge branch 'js/stop-exporting-bogus-columns' into seen
+7d5a283c53ae5b0ca37bc06f67a26da3df4979f9 Merge branch 'ab/serve-cleanup' into seen
+52317186f83888145dc8afdac8958774024e66e9 Merge branch 'ab/config-based-hooks-base' into seen
+95f15612dad5a90dee2d9c489a378838187f19c7 bundle doc: rewrite the "DESCRIPTION" section
+cb17585808fa6bc839671112024de77074c517c8 bundle doc: split out open v.s. closed discussion from <rev-arg>
+bb2e71a4934f2dbcd2b8278b733c7f8f28962e08 bundle doc: elaborate on rev<->ref restriction
+310223d09265bb15882a3f0534b142c03a895dd3 Merge branch 'ab/bundle-doc' into seen
+d7ef8a87a4c7ab7b503d26367e8533ec95516b56 Merge branch 'en/merge-dir-rename-corner-case-fix' into seen
+04fc1d4da0e3703474987606508430fedf270319 Merge branch 'ab/fsck-unexpected-type' into seen
+7fb55229d1e9183877bb869e9da9b5f5b133d7fb Merge branch 'ds/status-with-sparse-index' into seen
+018ec5dbb141b8b7828e25a32b315db2ae20719a Merge branch 'ds/commit-and-checkout-with-sparse-index' into seen
+7ac2a0e1ae97d7ecc959e9ba0bc33425c920c93f Merge branch 'jt/push-negotiation-fixes' into seen
+bf4c99da623bba301bf6edd7ad72545ff3d37be3 Merge branch 'tb/midx-use-checksum' into seen
+f12ff1161ba360a7ae47560676a13887dacb9341 Merge branch 'js/ci-windows-update' into seen
+759aa31e60537e25c5237bef770c9f482740e776 Merge branch 'jk/log-decorate-optim' into seen
+40882bee26f0cb967e310a79b58d743e1ac58c6d Merge branch 'ks/submodule-cleanup' into seen
+735a47b1ce1b9e09c292a267a9788d48cf9c5be0 Merge branch 'ab/pack-stdin-packs-fix' into seen
+8c6f71a67611b01a541542f967a42e75f1149ee9 Merge branch 'js/gfw-system-config-loc-fix' into seen
+1b250f02506b363b7c5243c2af93842d7c0fa6c7 Merge branch 'js/config-mak-windows-pcre-fix' into seen
+a063b4f5921441fad2549f02518b93fb78064bc1 Merge branch 'tb/multi-pack-bitmaps' into seen
+5892474741cf76bd56a01a5408ee2d0864d5ab4d Merge branch 'ew/many-alternate-optim' into seen
+a23d3270ef0aace8bac37dda970a5f8febf5398e Merge branch 'ab/make-tags-cleanup' into seen
+9b7a21120bae0e252d2f404882d067234c8a7190 Merge branch 'ew/mmap-failures' into seen
+43655d0792133f90e397c10f9e3712a4df3a6a1c Merge branch 'ab/make-delete-on-error' into seen
+0c0ddb7d6a30b5096c0edcbdcc8f08351332e8d3 Merge branch 'ab/bundle-updates' into seen
+1e5b5ea5386121fd80c7fe1a05c4e3419584f3c2 send-pack.c: move "no refs in common" abort earlier
+60fadf8bd2abe6bede48bcf42377f6c8b7c1d0bb fetch: document the --negotiate-only option
+a7da2c5f9416a4490c3f1cbd71cfcec85e1a8969 fetch: fix segfault in --negotiate-only without --negotiation-tip=*
+c5dc12929af14984cea527a97078b22e55b19b80 Merge branch 'ab/fetch-negotiate-segv-fix' into seen
 
---===============5734053949001537709==--
+--===============3503401315677553404==--
