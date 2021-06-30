@@ -1,50 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============9162651754679854538=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 30 Jun 2021 15:52:26 -0000
-Message-Id: <162506834656.18286.465759234760435298@gitolite.kernel.org>
-
---===============9162651754679854538==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 30 Jun 2021 15:52:49 -0000
+Message-Id: <162506836927.18499.6654051144698106679@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
-    old: b470e10eb43f19e08245cd87dd3192a8141cfbb5
-    new: e4a5c19888a5f8a9390860ca493e643be58c8791
+  - ref: refs/heads/for-linus
+    old: 666dbf787983b111634e2006595a66dafc75f8b5
+    new: fd9a20e816a67644c5a5042d4b3e94919049a034
     log: |
-         e4a5c19888a5f8a9390860ca493e643be58c8791 spi: stm32h7: fix full duplex irq handler handling
+         e6b66edfef64698d4d9ed3847c95cdfab9bde579 ASoC: tegra: Use ADMAIF component for DMA allocations
+         2c70ff56e49ae219640689a0c86041c0f656046f ASoC: codecs: allow SSM2518 to be selected by the user
+         5480da22eab2a618f6662431ca1ae76863caaca7 Merge series "arm64: tegra: Enable audio IOMMU support on Tegra194" from Thierry Reding <thierry.reding@gmail.com> Thierry Reding <treding@nvidia.com>:
+         8aaf6d7ae340d19d097ab1187770fd19397975ed Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         fd9a20e816a67644c5a5042d4b3e94919049a034 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-
---===============9162651754679854538==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1625068318 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1625068344-7393601cf45cac788c15fa274eeaf7ee1490c7ef
-
-b470e10eb43f19e08245cd87dd3192a8141cfbb5 e4a5c19888a5f8a9390860ca493e643be58c8791 refs/heads/for-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDckx4ACgkQJNaLcl1U
-h9BMVggAhDtVuS4JQOJ4Cop6knYx5gPuZuuZ49RMMSKRFonNavCnNnGPaMGUhGsM
-4TccXqxo+n8dqpfy0ZyEtihCVWmbNCp0G8R4YG4zukzR2t/7/CfRa9+ntk6n9LCb
-TpHr+TRn2Mk5MzMwKJDlGlHWNRNxL771C7+HOBPBntEcFYDn+dQGwkEJQMMnozHX
-d/iEpbt0rW94TaJrwfvjLO8a/p3Inooy96U4Uzz3AmTpqyk7DNf5NckoMscxMnF2
-5xmQN2RQ7OQX2QKigJctP2cgSP91g+Hg2CYmVyVdngt5r9UwmsxxevwbA1QeuBRo
-BSPRJs4wsUHd3u1l1VWifYQxqHRu/g==
-=bIUE
------END PGP SIGNATURE-----
-
---===============9162651754679854538==--
+  - ref: refs/heads/for-next
+    old: 666dbf787983b111634e2006595a66dafc75f8b5
+    new: fd9a20e816a67644c5a5042d4b3e94919049a034
+    log: |
+         e6b66edfef64698d4d9ed3847c95cdfab9bde579 ASoC: tegra: Use ADMAIF component for DMA allocations
+         2c70ff56e49ae219640689a0c86041c0f656046f ASoC: codecs: allow SSM2518 to be selected by the user
+         5480da22eab2a618f6662431ca1ae76863caaca7 Merge series "arm64: tegra: Enable audio IOMMU support on Tegra194" from Thierry Reding <thierry.reding@gmail.com> Thierry Reding <treding@nvidia.com>:
+         8aaf6d7ae340d19d097ab1187770fd19397975ed Merge remote-tracking branch 'asoc/for-5.13' into asoc-linus
+         fd9a20e816a67644c5a5042d4b3e94919049a034 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         
