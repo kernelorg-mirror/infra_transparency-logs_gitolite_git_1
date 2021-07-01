@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6759314699362230203=="
+Content-Type: multipart/mixed; boundary="===============8905645465117962468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 01 Jul 2021 20:28:34 -0000
-Message-Id: <162517131493.12776.17760008008939842692@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 20:28:45 -0000
+Message-Id: <162517132576.12934.455650199179920836@gitolite.kernel.org>
 
---===============6759314699362230203==
+--===============8905645465117962468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/ceph-fscrypt-fnames-experimental
-    old: a238bda399b8e8b25638b4bfeef3a0484e00d1f7
-    new: 532a1ead21cb44459ba93778fdd72152488c7e35
-    log: revlist-a238bda399b8-532a1ead21cb.txt
+  - ref: refs/heads/ceph-fscrypt-size-experimental
+    old: f63ee5a2eb2a6797efb4288bd0618ba3e80028a2
+    new: 2aaa1d1c3af5daa05ab762c57f23635b3da03b1e
+    log: revlist-f63ee5a2eb2a-2aaa1d1c3af5.txt
 
---===============6759314699362230203==
+--===============8905645465117962468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a238bda399b8-532a1ead21cb.txt
+Content-Disposition: attachment; filename=revlist-f63ee5a2eb2a-2aaa1d1c3af5.txt
 
 740fd6b220b65f2d277f0b532d27ca2638821448 ceph: fix memory leak on decode error in ceph_handle_caps
 eaba7ad315cb044b5b7046dfb485a582c95ff09e vfs: export new_inode_pseudo
@@ -50,5 +50,17 @@ a439c2c0fafc2b49f6171f45fe9adc7172b0fe7f ceph: add support to readdir for encryp
 d841f178f01e5be766888c967f0fe343db338ab3 ceph: create symlinks with encrypted and base64-encoded targets
 b6686ac4974a84d463e2a9037cbcc142937c13a4 ceph: make ceph_get_name decrypt filenames
 532a1ead21cb44459ba93778fdd72152488c7e35 ceph: add a new ceph.fscrypt.auth vxattr
+957224bab4a7cfe74ae604c47acb06a7f76a65ef ceph: tone down mdsc get_session/put_session messages
+4f5f5e76b414d8347571ae4b6c817f0d4099bb4d ceph: drop send metrics debug message
+7b5603e8f98292603eef9be43a365922531520ff libceph: allow ceph_osdc_new_request to accept a multi-op read
+62d31e0a8c76b2bde41d764b66a5b0487957cba1 ceph: align data in pages in ceph_sync_write
+0f6ee1c3decfa17089d8e548be1cd7b038f45bc5 ceph: disable fallocate for encrypted inodes
+dc55cb4c1f59ae5d23917b6fc37e88adf85ba2ef ceph: size handling for encrypted inodes in cap updates
+7e5a99507005ef47fc9aca5b9e5a321c34e279f6 ceph: fscrypt_file field handling for truncate (via setattr)
+df1d72aa3e5d67a57cb2421731cf7fde51d1262e ceph: get file size from fscrypt_file when present in inode traces
+f7d72592713af8c0eb077377e0d26d2bff910f0b ceph: handle fscrypt fields in cap messages from MDS
+cbe32623e7b260d0e3f4bd4e0aa074b7b2666fcc SQUASH: set fscrypt_file on atomic open requests
+7d66066d04c15c0095b10cd392978085920a393d SQUASH: fix size handling in ceph_fill_inode
+2aaa1d1c3af5daa05ab762c57f23635b3da03b1e ceph: add some fscrypt guardrails
 
---===============6759314699362230203==--
+--===============8905645465117962468==--
