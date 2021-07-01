@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8944796511764911261=="
+Content-Type: multipart/mixed; boundary="===============2679608293302596463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 01 Jul 2021 21:38:58 -0000
-Message-Id: <162517553856.26812.13068962577138986124@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 21:39:09 -0000
+Message-Id: <162517554917.27002.11745530167772449006@gitolite.kernel.org>
 
---===============8944796511764911261==
+--===============2679608293302596463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: a0fb5c54029494610ce61765c3e013744af798d6
     new: 8db8a1fc92de3764aff0349287e9bfe9c09e961a
     log: revlist-a0fb5c540294-8db8a1fc92de.txt
 
---===============8944796511764911261==
+--===============2679608293302596463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -688,4 +688,4 @@ ca2c9b9d7223a8265b41e2ce306e7d216905c89a sched/headers, locking/atomics: Optimiz
 f75a4e6f749c3f2f996005a625db88e070e797cb headers/deps, PCI: Add a <linux/pci-dma-compat.h> include to files that rely on the legacy PCI DMA APIs
 8db8a1fc92de3764aff0349287e9bfe9c09e961a headers/deps: PCI: Optimize <linux/pci.h>, remove the <linux/pci-dma-compat.h> header
 
---===============8944796511764911261==--
+--===============2679608293302596463==--
