@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3004864080396804363=="
+Content-Type: multipart/mixed; boundary="===============6395038345343621448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 01 Jul 2021 06:23:30 -0000
-Message-Id: <162512061015.6679.13135272700694394785@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 06:24:59 -0000
+Message-Id: <162512069935.7253.2245061250623346838@gitolite.kernel.org>
 
---===============3004864080396804363==
+--===============6395038345343621448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: f2635cdfc6bd657201c2bb0b0e9878964b4ce78a
+  - ref: refs/heads/master
+    old: 306e5a456b5fa9322abd1dbe9fb788d78b383443
     new: 8c08dbb0705ac4e1fc0690624bacf4059d112470
-    log: revlist-f2635cdfc6bd-8c08dbb0705a.txt
+    log: revlist-306e5a456b5f-8c08dbb0705a.txt
 
---===============3004864080396804363==
+--===============6395038345343621448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2635cdfc6bd-8c08dbb0705a.txt
+Content-Disposition: attachment; filename=revlist-306e5a456b5f-8c08dbb0705a.txt
 
 dff6140ad76a9d2eab9396014861b6c5f016d02b sched/headers, cpumask: Optimize <linux/cpumask.h>, remove <linux/cpumask_api.h>
 1639e84b13beb1f04fe49026e80cb53f68ed0bb7 sched/headers, x86/fpu: Make the <asm/fpu/types.h> header build standalone
@@ -46,4 +46,4 @@ bfa25315df6dc4d37086aac4221592ccb6c35554 sched/headers, mm: Optimize <linux/mm_a
 041ec53876e79f60745babc823111d09b1943a60 sched/headers, mm: Optimize <linux/mm_api.h>, remove the <linux/mm_truncate.h> header
 8c08dbb0705ac4e1fc0690624bacf4059d112470 sched/headers, mm: Optimize <linux/mm.h>, remove <linux/mm_api.h> inclusion
 
---===============3004864080396804363==--
+--===============6395038345343621448==--
