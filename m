@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6342079640051046652=="
+Content-Type: multipart/mixed; boundary="===============3732714205285258249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 01 Jul 2021 20:40:19 -0000
-Message-Id: <162517201924.21101.15423296390969795800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 01 Jul 2021 20:41:01 -0000
+Message-Id: <162517206189.21434.9039956689983169726@gitolite.kernel.org>
 
---===============6342079640051046652==
+--===============3732714205285258249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
+  - ref: refs/heads/for-next
+    old: f2ccd0a922b38300c78e779436929853a42455f8
+    new: 89e28ce60cb65971c73359c66d076aa20a395cd5
   - ref: refs/heads/master
-    old: cd1245d75ce93b8fd206f4b34eb58bcfe156d5e9
+    old: f88cd3fb9df228e5ce4e13ec3dbad671ddb2146e
     new: e058a84bfddc42ba356a2316f2cf1141974625c9
-    log: revlist-cd1245d75ce9-e058a84bfddc.txt
+    log: revlist-f88cd3fb9df2-e058a84bfddc.txt
 
---===============6342079640051046652==
+--===============3732714205285258249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd1245d75ce9-e058a84bfddc.txt
+Content-Disposition: attachment; filename=revlist-f88cd3fb9df2-e058a84bfddc.txt
 
 0178f9d0f60ba07e09bab57381a3ef18e2c1fd7f tpm: Replace WARN_ONCE() with dev_err_once() in tpm_tis_status()
 52218fcd61cb42bde0d301db4acb3ffdf3463cc7 arm64: tlb: fix the TTL value of tlb_get_level
@@ -1051,4 +1054,4 @@ a6ecc2a491e378e00e65e59a006d4005e1c2f4af Merge tag 'ext4_for_linus' of git://git
 c288d9cd710433e5991d58a0764c4d08a933b871 Merge tag 'for-5.14/io_uring-2021-06-30' of git://git.kernel.dk/linux-block
 e058a84bfddc42ba356a2316f2cf1141974625c9 Merge tag 'drm-next-2021-07-01' of git://anongit.freedesktop.org/drm/drm
 
---===============6342079640051046652==--
+--===============3732714205285258249==--
