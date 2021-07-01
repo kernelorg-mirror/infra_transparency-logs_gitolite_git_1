@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0145414752343614848=="
+Content-Type: multipart/mixed; boundary="===============5792393851760655583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 01 Jul 2021 07:19:52 -0000
-Message-Id: <162512399237.11340.6016301348467882283@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 07:20:11 -0000
+Message-Id: <162512401158.13260.18003540247688139831@gitolite.kernel.org>
 
---===============0145414752343614848==
+--===============5792393851760655583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 84fe73996c2e7407006002ef92d7354a56b69fed
     new: dbe69e43372212527abf48609aba7fc39a6daa27
     log: revlist-84fe73996c2e-dbe69e433722.txt
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
 
---===============0145414752343614848==
+--===============5792393851760655583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ f4cc74c9382d8b02181cfdc6d29ee5bc7a1f7d02 Merge tag 'microblaze-v5.14' of git://g
 a6eaf3850cb171c328a8b0db6d3c79286a1eba9d Merge tag 'sched-urgent-2021-06-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dbe69e43372212527abf48609aba7fc39a6daa27 Merge tag 'net-next-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============0145414752343614848==--
+--===============5792393851760655583==--
