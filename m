@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3214996241222230777=="
+Content-Type: multipart/mixed; boundary="===============9119337536769470760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 01 Jul 2021 14:08:41 -0000
-Message-Id: <162514852184.12197.12653788748750924141@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 14:08:49 -0000
+Message-Id: <162514852967.12303.15947521808540781007@gitolite.kernel.org>
 
---===============3214996241222230777==
+--===============9119337536769470760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,279 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: bf4fcf14ada9852919b347252fa6143d2396207f
+  - ref: refs/heads/master
+    old: 4ef0b2314a6a2b9a09c4e734f9dc1bb597049bb3
     new: 9b50bc39390fc84daef0019259aa26e270b3d1fc
-    log: revlist-bf4fcf14ada9-9b50bc39390f.txt
+    log: revlist-4ef0b2314a6a-9b50bc39390f.txt
 
---===============3214996241222230777==
+--===============9119337536769470760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf4fcf14ada9-9b50bc39390f.txt
+Content-Disposition: attachment; filename=revlist-4ef0b2314a6a-9b50bc39390f.txt
 
+d67ea13d8564a26d29fb6f0b7b293d1a45e77516 headers/prep: dql: Make the <linux/dynamic_queue_limits.h> header build standalone
+144fa2ad40106c201740750acddc07b8415d05b9 headers/prep: x86/asm: Make the <asm/atomic64_64.h> header build standalone
+1bfd9757f4469d7d6cf031feaaf0bd4aac8eafb9 headers/prep: bitops: Make the <asm-generic/bitops/find.h> header build standalone
+12c268d28f5f0d046c6f4c5f083ae57699ad7572 headers/prep: x86/asm: Make the <asm/jump_label.h> header build standalone
+e44d0578267f17e0c465cd803d4478ad6761ce99 headers/prep: acpi: Make the <acpi/acpi_drivers.h> header build standalone
+4dcbceb8ce9d9d878d8922b35d6f9e1333392c64 headers/prep: x86/fpu: Make the <asm/fpu/types.h> header build standalone
+f06bf31841c1e954e12f6818af6ca80de37c0855 headers/prep: treewide: Prepare for header dependency removals
+dc875805f31f9284115d82e84a7ec8ab86b2e45a sched/headers, uapi/headers: Create usr/include/uapi symbolic link
+95801bd09e11c1db1f023a33a9151721d45493ee sched/headers, sched/core: Uninline scheduler_ipi()
+0230bb2cf09a66bc02dbf662aca3e912ac295586 sched/headers, rbtree: Uninline rb_link_node() and rb_link_node_rcu()
+7eb8ab5c5000ba9a8a956792a071360c88028349 sched/headers, pid: Uninline task_ppid_nr()
+14f9d67dad9ae7b37facf483d486e42ac025920e sched/headers, sched/core: Uninline __cond_resched_rcu()
+889d39186e01ce0f4d7c87c6480bcf6a4f1b1d7a sched/headers, seccomp: Split out <linux/seccomp_types.h>
+7cb237cab219200e4a4d829f0352c5dd673e2594 sched/headers: Move rseq APIs to <linux/sched/rseq_api.h>
+181273d10609461599fc51bc8b727e37dbd26fee sched/headers: Move thread_info APIs to <linux/sched/thread_info_api.h>
+c3eceed6c0b0c5bac87e5bf303be8c3ceda57da8 sched/headers: Use task_thread_info() primitives instead of open coding task->thread_info access
+d744082cc090f8f0ab1ada6e37b826e2661eee03 sched/headers: Move task->thread_info to per_task()
+15a2cd4f40804aeb8e857b37394385c209cb0de8 sched/headers, pid: Move PID type definitions to <linux/pid_types.h>
+ae586cc9f0d73c04512f579f786e9343a0cf1f62 sched/headers, rbtrees: Split <linux/rbtree_types.h> types out of <linux/rbree.h>
+c964395fae06360a3174eac107299a2213d930e5 sched/headers, sched/deadline: Move task->dl to per_task
+24d522cce1ae344388c8cdba94ef0bf55b13ad4d sched/headers, sched/deadline: Move 'struct sched_dl_entity' definition from <linux/sched.h> to <linux/sched/deadline.h>
+5b1ab55ee9ce1f421576a877cf74e3013424a78d sched/headers: Remove the <linux/hrtimer.h> dependency from <linux/sched.h>
+d4155942c23a64b6eabac74241bc06c264f71715 sched/headers, timers/posix-timers: Move posix_cputimers fields out of <linux/sched.h>
+ab8e625a888a03efdb1d25d270950df47c35d1b8 sched/headers: Remove <linux/posix-timers.h> from <linux/sched.h>
+3038240f5a4dbe354bdcc6ed6ddef827b7aa27ea sched/headers: Remove <linux/thread_info.h> dependencies from numerous headers
+c99466abf04dcc76d969b3a310159ddeaecbbfb4 sched/headers: Remove <linux/thread_info.h> dependency from <linux/smp.h>
+ba6fa3e05c3e3c6b43768dbed16b97dffd3a6f9f sched/headers, rbtree: Remove <linux/rcupdate.h> from <linux/rbtree.h>
+fc701c0c025c383045fe04814e2f7fb9f94fed5f sched/headers, ipc: Move the 'struct semid_ds' definition to the C code that uses it
+de653c13d72568a20f2e630f785e49b2b4145b10 sched/headers, ipc/shm: Move the 'struct shmid_ds' definition to ipc/shm.c
+7fb2bdb3448db5ee605ed279e541020e897a8132 sched/headers, ipc/shm: Remove <linux/ipc.h> from <uapi/linux/shm.h>
+056cad5c9e7fe83c5e0813d7cbdcb110edad420a sched/headers: Remove <linux/rcupdate.h> dependency from <linux/sched.h>
+32076dce0cd51398dc812fda85e747a7d028b6a5 sched/headers, ipc/sem: Move thread_struct::sysvsem to per_task()
+b70b6013ef158f9dbf88644a535a5e5be8aefe65 sched/headers, ipc/shm: Move thread_struct::sysvshm to per_task()
+213ef9050fe9f8b29a834288934db38d6f8cb462 sched/headers: Remove <linux/sem.h> from <linux/sched.h>
+dadfa3183f1aa5f5f4f4844bee07ddaa14135dad sched/headers: Remove <linux/shm.h> from <linux/sched.h>
+1609c71ea50a8ae39f982d2bbe0c5d2619d962fc sched/headers: Remove <linux/resource.h> from <linux/sched.h>
+bff951b70a390f606070fc35fa91ca0dc3d67374 sched/headers: Remove <linux/irqflags.h> from <linux/sched.h>
+12ccf39ff76a108c30ce43ebcf678ced5ea732c5 sched/headers: Introduce task_thread() accessor
+490543fb47e3ea50be77f7077a1caa92aa5a4f4f sched/headers: Automated conversion of task->thread accessors to task_thread()
+106d72b672a37fb89b5862b397886682130efeba sched/headers: Convert task_struct::thread to a per_task() field
+1c6b4a8473a39df65ff771dade4df205c6b4172a sched/headers, timers/posix-timers: Move <linux/sched/posix-timers.h> fields to <linux/posix-timers.h>
+ae0ed35860921ddab2b8a3762065c73d384af5a4 sched/headers: Add header guard to kernel/sched/sched.h
+c657aec725e863b4d3580c75520d6455520f353a sched/headers: Add header guard to <linux/sched/deadline.h>
+bdccd14b7222b88ac4cc764f73cf13b2a1336eab sched/headers, sched/core: Move task_struct::on_rq to a per_task field
+4f0e91e51e142b5ad842671e12b31068d0ea4236 sched/headers, sched: Move task_struct::rt to per_task(), convert
+c32c9268fbb0f3b31aebca8af4d4ce498d9ce31c sched/headers, sched/rt: Move task_struct::rt to per_task(), finish
+6ca9d61fde3916473df7ed575464740247f16611 sched/headers, sched/core: Move task_struct::sched_class to per_task(), prepare
+76f2f2fadd90a6ea6b6116909caf1caf4e114cda sched/headers, sched/core: Move task_struct::sched_class to per_task(), convert
+6c10e9369ed37d6d86e58f01db6960121dad1319 sched/headers, sched/core: Move task_struct::sched_class to per_task(), finish
+7048dded47c29e4cefaff6f29f554274cc72370e sched/headers: Move per_task::dl declaration from <linux/sched/deadline.h> to kernel/sched/sched.h
+d3f6d6e896fdeda6919c6524331cb8e320b4d6e0 sched/headers: Move task_struct::se to per_task(), prepare
+ee02021fb2ef82fc8c579fd3b6704dd63f6d19ee sched/headers: Move task_struct::se to per_task(), convert
+7e0a8d607c5cb534fb7cac11ead86e789380b5f0 sched/headers, list.h: Introduce list_for_each_reverse()
+347755a4b6dfc7da09493e43ed3d6fd824db0be8 sched/headers: Move task_struct::se to per_task(), finish
+2853f3289b1d905dab991c962e8aa247f57a2531 sched/headers: Move task_struct::stack to per_task(), prepare
+42194605b112d0c8283fd8e7bc15507b94888387 sched/headers: Move task_struct::stack to per_task(), convert
+42373d3c952028b5c855bf6fd98cfe5ec0bb567b sched/headers: Move task_struct::stack to per_task(), finish
+bd3f8a2e0c5e8811419aae7e4ce0fbbdf551936d sched/headers: Move task_struct::usage to per_task(), prepare
+2701ffa007d474a7859346c60e3cb6a5ff2eb5b4 sched/headers: Move task_struct::usage to per_task(), convert
+9293e48d9185ef9f8d884cc4ae9aaca8019fdf5a sched/headers: Move task_struct::usage to per_task(), finish
+c78b9012e2be944aec56929a3ce3ed3f83c8ad55 sched/headers: Move task_struct::stack_refcount to per_task()
+b10743098837623d93bddeea0f812198db62f5b9 sched/headers: Move task_struct::stack_vm_area to per_task()
+73d49660451d75d5e5f230208b3842490a7dacb0 sched/headers: Move task_on_another_cpu() from unwind.h to <linux/sched/task.h>
+974b2b2c92828c1b4369739643664e9800da07ed sched/headers: Move task_struct::on_cpu to per_task()
+3ef4433a3542fe5018225adce246fdfb2105aff2 sched/headers: Move task_struct::wake_entry to per_task()
+e851ff900d665ff1a166501e56b922b735742001 sched/headers: Move task_struct::cpu to per_task()
+766538b21956ac9b21fad555f86290cb00392059 sched/headers: Move task_struct::wakee_flips to per_task()
+ffacbfb80194d00ba072107fd22837e3a2227558 sched/headers: Move task_struct::wakee_flip_decay_ts to per_task()
+624b5928be7c28afe7e5adafd95d1033e86f2261 sched/headers: Move task_struct::last_wakee to per_task()
+ca92350ab9f7c461aa43f9722087ae5f566616b9 sched/headers: Move task_struct::recent_used_cpu to per_task()
+9979cd03a5c5713f53bec548d5affffc7674a12a sched/headers: Move task_struct::wake_cpu to per_task()
+37d5dbedbd3dac3adb6fbc1a43bca0fca414572a sched/headers: Move task_struct::sched_task_group to per_task()
+13ab940d727e3b8876905255ea6eae6bfa0f15b0 sched/headers: Move task_struct::core_node to per_task()
+4724943eb41eea15357192c5916702609322be12 sched/headers: Move task_struct::core_cookie to per_task()
+1aa33bf2f482544f9e1bd4dfa4e4cf53775b9207 sched/headers: Move task_struct::core_occupation to per_task()
+7eeb3a99aa96b719ddb66d659f976ec66c78b4da sched/headers: Move task_struct::uclamp_req[] to per_task()
+d9617d0acd82e4c1766666c3465dd731d27d34a8 sched/headers: Move task_struct::uclamp[] to per_task()
+9164b9dbff7eb2b8d103c6ed74822f58c4c70b23 sched/headers: Move task_struct::preempt_notifiers to per_task()
+1997b5bbfc972df99f608a5de3a611d4b3b42658 sched/headers: Move task_struct::btrace_seq to per_task()
+27554c8801cb1b05f6412195f7b864d032b6ca99 sched/headers, rcu: Move task_struct::rcu_tasks_nvcsw to per_task()
+b01a266003195c09056ae7bf60c9388fb07e33cb sched/headers, rcu: Move task_struct::rcu_tasks_holdout to per_task()
+98176361b6e069548597cc6c22a4ee64f289285e sched/headers, rcu: Move task_struct::rcu_tasks_idx to per_task()
+4a9ea6e8673eb5f265ba0a002714207d2c2c855c sched/headers, rcu: Move task_struct::rcu_tasks_idle_cpu to per_task()
+32f3f8070cbeec2d3697e35d92ce3e55d1c70f30 sched/headers, rcu: Move task_struct::rcu_tasks_holdout_list to per_task()
+257105c9a9994146cfc0cf82e01cb9e448f65905 sched/headers, cpusets: Move task_struct::mems_allowed to per_task()
+23187abba853fc3ee705bee5f854720199e4af6e sched/headers, cpusets: Move task_struct::mems_allowed_seq to per_task()
+ec1fe018d4e2697f9819ee9365387bae3524ca1d sched/headers, cpusets: Move task_struct::cpuset_mem_spread_rotor to per_task()
+dd17fb0f6b7fdad08c82f0464933f213ae9d5b73 sched/headers, cpusets: Move task_struct::cpuset_slab_spread_rotor to per_task()
+85816311bac441f42a0e6c2b8738b0bfdd872e3e sched/headers: Move task_struct::vtime to per_task()
+cf4ad29a3ff1b82c531c347bebd3904aeae0be90 sched/headers, sched/cputime: Move 'enum vtime_state' and 'struct vtime' to kernel/sched/sched.h
+f06feb056b8e0fcc6ee642ac3637685ccce7f194 sched/headers: Factor out the conditional rescheduling APIs into <linux/sched/cond_resched.h>
+e653923fbbcf27a5570224a6505b06146e2302cc sched/headers, rcu: Move cond_resched_tasks_rcu_qs() from <linux/rcupdate.h> into <linux/sched/cond_resched.h>
+434b5959e316b47a46c8ab9b6faa7e7a5560afcf sched/headers: Add <linux/sched/cond_resched.h> inclusions where needed
+058e2920062a8333104936007f387c698219974f sched/headers: Remove <linux/sched/cond_resched.h> inclusion from <linux/sched.h>
+f4f42911e3dfa0d6701a71c6d802faa06cc0dd73 sched/headers: Remove <linux/seqcount.h> from <linux/sched.h>
+79a5615235d36bc5664a6dba2ef949ec40bd71dd sched/headers, locking/futexes: Move task_struct::futex_exit_mutex to per_task()
+939f7d97bcd8757d922b005be4a793891c365430 sched/headers, perf: Move task_struct::perf_event_ctxp[] to per_task()
+3680312e992884144eeb37a0459d73f89dffc3a4 sched/headers, perf: Move task_struct::perf_event_mutex to per_task()
+90dec704924d97153663d836bf085790eb1f554f sched/headers, perf: Move task_struct::perf_event_list to per_task()
+e71e91fbccc345f05b93ad12b2f4a3ab1072147a sched/headers, perf: Move the 'enum perf_event_task_context' from <linux/sched.h> to <linux/perf_events.h>
+f553846bc087f51160262716d5752a0829ebac2e sched/headers: Move the 'def_root_domain' and 'sched_domains_mutex' declarations to <linux/sched/topology.h>
+e98df328cfdfcd8626dcd69d2a5d3643fbb6b083 sched/headers, locking/mutexes: Move task_struct::blocked_on to per_task()
+a05f41b54cff839541b5f7614c2b884f6947bfc3 sched/headers, kprobes: Move task_struct::kretprobe_instances to per_task()
+bfe17cd84ef654df165d4bfa634061d866d7c8ee sched/headers, plist: Move task_struct::pushable_tasks to per_task()
+2d6aad0619df2dc6c07bf9dfbb06d63ff805e5cb sched/headers: Remove <linux/mutex.h> from <linux/sched.h>
+5226d39c24df53a3454328ead4de6467aed2fb06 sched/headers: Remove <linux/plist.h> from <linux/sched.h>
+10d555f8cf8a18a972ba4cb29cc0d2330839e2df sched/headers, signal: Move task_struct::restart_block to per_task()
+06842b35f54b9316f2bcdd19d9d47dc68b59c54a sched/headers: Remove <linux/restart_block.h> from <linux/sched.h>
+28efed032f108667902d8070d96496d76b08e01d sched/headers: Move task_struct::sched_info to per_task()
+c6b83ed599fea836605278575e0a96ef9283cc67 sched/headers, audit: Move task_struct::loginuid to per_task()
+a92f42cda63646c62751dd9739ec4d4be76347be sched/headers: Remove scheduler internal data types from <linux/sched.h>
+987f9fe71513c1daa860c370a08dd749b8a45974 sched/headers: Remove <linux/uidgid.h> from <linux/sched.h>
+e29dee62f451f2cb5bdcc1ea7dddd68761f754fe sched/headers, sched/core: Move task_struct::cpus_ptr to per_task()
+3b4ab6f10e0db71dfdfa486b5998f63379cd9b3c sched/headers, sched/core: Move task_struct::cpus_mask to per_task()
+2362b21972bc5f798be6d7887c7034fc274931c5 sched/headers: Move CPU affinity APIs from <linux/sched.h> to <linux/sched/affinity.h>
+c7157c91b13f425026a338b2c5fef044058b5a54 sched/headers: Move more CPU affinity APIs from <linux/sched.h> to <linux/sched/affinity.h>
+b8735ebe429b573eadc3230e1aa89e3222d375db sched/headers: Move sched_trace_rd_span() from <linux/sched.h> to <linux/sched/topology.h>
+a8c87f290362e2c581f4716bdc8dc8af8443ce2c sched/headers, x86/cpu: Uninline hypervisor_cpuid_base()
+06f9bc4d3e8977c0e201ad5a9b707beb1045b84e sched/headers, x86/msr: Remove unnecessary <linux/cpumask.h> inclusion from <asm/msr.h>
+e7b56c0ff4e2929f7270710658a1741f8e4e45c1 sched/headers, mm: Remove <linux/cpumas.h> dependency from <linux/mm_types_task.h>
+2aeb70f72edfae23f29c29f7cef88d0613732867 sched/headers, mm: Move task_struct::tlb_ubc to per_task()
+cdd25ad095eb2cbac550c3b0cfa645b40e4cceec sched/headers, mm: Move task_struct::vmacache to per_task()
+68f361d93c60d0c8146c3f37cfea24443f45ce09 sched/headers, net, mm: Move task_struct::task_frag to per_task()
+dab0debe71c4ffa56d865559bc30caed7c0da504 sched/headers, net, mm: Move 'struct page_frag' definition from <linux/mm_types_task.h> to <net/sock.h>
+6bf0cf8e9ce7623f4f4d449c1fb17a4ccf396aed sched/headers, mm: Move task_struct::rss_stat to per_task()
+155ee851f3efd5394c64ef7876f78aa027c5eeed sched/headers: Remove <linux/mm_types_task.h> from <linux/sched.h>
+85d6795391827c3bc5475155ac82f8dd0fec80e8 sched/headers, time: Move task_struct::tick_dep_mask to per_task()
+bb9aec5954bcf7cca56b04c757a95708911e9a36 sched/headers, tracing: Move task_struct::trace_overrun to per_task()
+4209dfcbe5c84b741941e12f8ea8154136459b52 sched/headers, tracing: Move task_struct::tracing_graph_pause to per_task()
+4c69f429168ed950be18052dd2bf325b75f98bd9 sched/headers, seccomp: Move task_struct::seccomp to per_task()
+fe4387e624145c72ed526886f4903c7163bff517 sched/headers: Remove the <linux/seccomp_types.h> inclusion from <linux/sched.h>
+dd2e1bb648f57e791f0cffebc88a6cbb228207f4 sched/headers, rcu: Move task_struct::rcu_users to per_task(), add <linux/rcu_internal.h>
+9161af80e8ddbc72e1356180f2aca58545b0ef68 sched/headers, rcu: Move task_struct::rcu to per_task()
+6f9c06c79e06341d95a6c1f6716b0617f5e5faa7 sched/headers: Remove <linux/refcount.h> from <linux/sched.h>
+ad7905acdee89efaf628b729a7a64c64bbe18f08 sched/headers, signals: Move task_struct::blocked to per_task()
+d815bf8d160135e136d7ade38f6f22763b8c2c6f sched/headers, signals: Move task_struct::real_blocked to per_task()
+1603eb2f52ecc4b94e245cdfcc23e574199ac09d sched/headers, signals: Move task_struct::saved_sigmask to per_task()
+93e97999eed8249bee3aad351fb0d94685eb3a79 sched/headers, signals: Move task_struct::pending to per_task()
+ed80e72e0d26dfc288e986f4636d2065ce6ed99c sched/headers, signals: Move task_struct::last_siginfo to per_task()
+0ae1b0e449d943b472548e2ad0173444792521ba sched/headers: Remove the <linux/signal_types.h> dependency from <linux/sched.h>
+4dfda096fdce1b2e059c68d725d0f64a0b556623 sched/headers, x86/percpu: Reduce the dependency complexity of <asm/percpu.h>
+c0c17df940ddc350bd6911f595f6bd81c6917a11 sched/headers: Move task_struct::pushable_dl_tasks to per_task()
+4ab8d6fb4c9453c74652ce90b2e9a73f563b475a sched/headers, locking/rtmutexes: Move task_struct::pi_waiters to per_task()
+9af654d83b725c6fde883df1b104ed3b52955e77 sched/headers: Uninline task_index_to_char()
+dc0ebecbd910118647b1cbd4724925a702f023a8 sched/headers: Remove <linux/rbtree.h> from <linux/sched.h>
+5d550be3851c5179356ae1bc1c3344ff34d1d04a sched/headers: Move task_struct::prev_cputime to per_task()
+9476455750d25b0e7e482da51c21632f2bf4d1f6 sched/headers: Move 'struct prev_cputime' definition from <linux/sched.h> to <linux/sched/signal.h>
+8e3b7a66b4325a616b93dcd2a109b6e890d8a396 sched/headers: Move task_struct::alloc_lock to per_task()
+94ed55427cb9c0ab5e8af6df6cfd271c9166e087 sched/headers, locking/rtmutexes: Move task_struct::pi_lock to per_task()
+ca8bd13c1df77a99f2a55a3b7aebe16e9a93e186 sched/headers: Move the task_state_index definitions from <linux/sched.h> to <linux/sched/task.h>
+cbd19fd827c3968ca3391d1926803b5e4fac8c84 sched/headers: Remove <linux/nodemask.h> from <linux/sched.h>
+806344d82e3080913c19ea75e73e3a67d6827f63 sched/headers, kcsan: Move task_struct::kcsan_ctx to per_task()
+d475ecc36448bc05509f63a76cbe369bf04d4e17 sched/headers, kcsan: Move task_struct::kcsan_save_irqtrace to per_task()
+3018f654a6c5604b5c587ddb7eb3293c4284d987 sched/headers: Remove <linux/kcsan.h> include from <linux/sched.h>
+ea6fc10beba82559cf68e6f59e6bb6d21406c782 sched/headers, rseq: Move task_struct::rseq to per_task()
+b1aab861b02479a3152d6a3dfdaed43a02b5c535 sched/headers: Remove the <linux/rseq.h> dependency from <linux/sched.h>
+c58348c896e4f7fa114d5de195724c12b89f607d sched/headers: Move task flag definitions & methods into <linux/sched/task_flags.h>
+c502cd434697f26925ee48793c38f40f90ac9475 sched/headers: Remove the <linux/vtime.h> dependency from <linux/hardirq.h>
+f1c17e52b1f936bb22fcbfd9dda20e733d6a17b3 sched/headers, mm: Move task_struct::kmap_ctrl to per_task()
+aecc775b4f2bc913c21bb36eec7af281f4aae5d3 sched/headers: Remove the <asm/kmap_size.h> dependency from <linux/sched.h>
+904a4bff4bed356d1d51a37761355f02f865465d sched/headers: Move the account_*() methods from <linux/kernel_stat.h> to <linux/sched/cputime.h>
+a207fe8272f8359066743ca154d54ca322a39f8f sched/headers: Remove <linux/vtime.h> dependency from <linux/kernel_stat.h>
+7702dd9b37a37850f5fc3183a2095cb1d8c54880 sched/headers: Move the sched_core_*() methods to <linux/sched/topology.h>
+155cbe63701b8be648f6c46bebde77e0e4555308 sched/headers: Move the sched_trace_*() methods to the internal header
+6864c5a7ab856c83e972821157bfbbde84452c77 sched/headers: Move sched_cpu_util() from <linux/sched.h> to <linux/sched/cpufreq.h>
+ac981a638ebbfab129afde972614d4d43d3b198f sched/headers: Add task_flags() accessor
+9c11b37aad07a25ff87be868801180aa6dc2fcca sched/headers: Automated conversion to task_flags() accessors
+535dd478fb22498bf23b36e1efa864b637d04e8e sched/headers: Manual conversion to task_flags() accessors
+e6cff8bec1b3a7292dfa7b74ee44921fe57d5273 sched/headers: Move task_struct::flags to per_task()
+030392a585c03ecd99a2bec7f70cde816e917fd0 sched/headers, cgroups: Move cgroup_task_freeze() to kernel/cgroup/cgroup.c
+bad6a3574302f364c56611445d2cf9f7638da2cb sched/headers, mm: Move current_is_kswapd() from <linux/swap.h> to <linux/sched/task_flags.h>
+31bfdca0fdbf692c67a79e151365e3c03e18bea0 sched/headers, bpf: Remove the <linux/sched/mm.h> dependency from <linux/bpf.h>
+22228626ce99d5916202950e9b90b4e4bd56eff4 sched/headers, rcu: Remove <linux/sched/signal.h> dependency from <linux/rcuwait.h>
+c4f2f5724b617a2b30efa25b50c67f7f3f5c024e sched/headers, mm: Optimize <linux/coredump.h> dependencies
+0441aebbb10527b16583115cf1364c1baaca8c56 sched/headers, printk/ratelimit: Uninline ratelimit_state_init() and ratelimit_state_exit()
+dcc417e27816dd462a28ae2a5f2d5f63c1adb27b sched/headers, printk/ratelimit: Remove the <linux/sched.h> dependency from <linux/ratelimit.h>
+b54ffccb7bbfe74b98393ca9ca5f8f3c6f537ee8 sched/headers, mm: Remove <linux/sched.h> from <linux/mm.h>
+0e6ca48a2d8c90f15646559771351958b79f4d05 sched/headers, x86/mm: Uninline mmap_is_ia32()
+1346a8b4b4b1cf1c4a54eaf33580a8841d793e54 sched/headers, x86/mm: Remove <linux/thread_info_api.h> from <asm/elf.h>
+0cfba25b99bef3d31a3780cca6502ffada2876e1 sched/headers, sched/energy: Uninline em_cpu_energy()
+0a3217b146bfe2cb6badaabe2721c3cd75bb2f09 sched/headers, sched/energy: Remove unnecessary headers from <linux/energy_model.h>
+b723cdac80a6eff3b694a2cda6eb136e54f83664 sched/headers, mm: Move task_struct::pagefault_disabled to per_task()
+86422c7d7f0b322b30de53980d40ae95f4be8681 sched/headers, mm: Move pagefault_disable()/enable() methods from <linux/uaccess.h> to <linux/pagefault_ctrl.h>
+30b7c7c9020e854c7055f6e67dfa53c3cbcee185 sched/headers, mm: Uninline various kmap APIs
+73f871a321139fdf0e731da9cb361e24cdf87cd5 sched/headers, mm: Uninline vma_is_foreign()
+8f3d0066c7188ad1acd11f2bee6b3b0554f4acfc sched/headers, mm: Optimize <linux/uaccess.h>
+33246926c3f6e323263369b960f37856baf918ba sched/headers, rcu/wait: Uninline finish_rcuwait()
+f8faa7861cecddcd4e710a49ec60ad37b8abd963 sched/headers, rcu/wait: Remove <linux/sched/task_flags.h> from <linux/rcuwait.h>
+8509cb60142f430eac3ec89ad4b4022775497bb3 sched/headers, block/ioprio: Uninline task_nice_ioclass(), task_nice_ioprio() and get_current_ioprio()
+8294306caede4f7d0786801908fb3512e0bc0b78 sched/headers, block/ioprio: Remove the <linux/sched.h> dependency from <linux/ioprio.h>
+6f13ab2699a6a5389208ae097b2e35cd753f0393 sched/headers, fs: Uninline mapped_fsuid() and mapped_fsgid()
+3c18f75ba104211124c2152cf571c283e96f54ea sched/headers: Move TASK_COMM_LEN from <linux/sched.h> to <linux/sched/types.h>
+42fe6e499e205e070ee87988e6f425420eda5d2f sched/headers, fs: Remove the <linux/sched.h> and <linux/sched/user.h> includes from <linux/cred.h>
+c2f671552348f76300a88edaed4fd7964251c2bf sched/headers, irq: Remove the <linux/sched.h> header from <linux/hardirq.h>
+bcf21847514f56fd9b40d049b36bc14f33b4245d sched/headers, ACPI: Remove <linux/sched.h> from <acpi/platform/aclinux.h>
+8f7ed24fb8f08e721bc95293e8033a971ccbddaa sched/headers, net: Remove the <linux/sched.h> headers from <linux/skbuff.h>
+1e11f4593b2fe0b2100edc96f9538c6e49eb5f80 sched/headers, nsproxy: Remove the <linux/sched.h> header from <linux/nsproxy.h>
+61dd0840e50342c6dbd6a390c96f6a650111ec15 sched/headers, ns: Remove <linux/sched.h> from <linux/user_namespace.h>
+5c5ad4569006742841f340c752ed9ca3e47ae76a sched/headers, kernel_stat: Remove the <linux/sched.h> header from <linux/kernel_stat.h>
+eaad65676712f7dbc8f5ed1ddde11d555a67a825 sched/headers, psi: Remove the <linux/sched.h> include from <linux/psi_types.h>
+ed734c5ffc1d978d20b365597b0ccc6e62a3bf82 sched/headers: Move 'struct prev_cputime' from <linux/sched/signal.h> to <linux/kernel_stat.h>
+6b0d646dfeef64072a47d66898a92220cc378dae sched/headers, cgroups: Remove the <linux/sched/signal.h> header from <linux/cgroup-defs.h>
+4bca5c90348e5b26b56a28cef68e3b7619eb2fe1 sched/headers, net/scm: Uninline scm_send()
+1cf6cb9bb24db5a94146893207909349e0a605cb sched/headers, net/scm: Remove the <linux/sched/signal.h> header from <net/scm.h>
+02f22ee3914fa51f33fc1160fe7d7e6e682ce74c sched/headers: net: Remove <net/netprio_cgroup.h> from <linux/netdevice.h>
+496b22b23a04c9f6d241baf973c3c02b51d6bf01 sched/headers: Move MAX_SCHEDULE_TIMEOUT from <linux/sched.h> to <linux/sched/types.h>
+98729651075643aeec903b5aa7f8015ed4ab44cc sched/headers, net: Uninline sk_under_memory_pressure() and sk_page_frag()
+3fd125ca19060e0edc635637b78019ba0a887520 sched/headers: Prepare for <net/sock.h> and <linux/i2c.h> simplification changes
+0e2a9c8bf3ebc6eac7b3916972ec6fda18bf7ec8 sched/headers, net: Remove <linux/sched.h> headers from <net/sock.h> and <linux/filter.h>
+ba5150521a5e4dc9752a72affd82440a16772fbc sched/headers, i2c: Remove <linux/sched.h> from <linux/i2c.h>
+4b00f161ce4a139eaf541eb6e12af62308c20b19 sched/headers, tracing: Uninline trace_test_and_set_recursion() and trace_clear_recursion()
+95009e894da8e6575e9cc2f3f5f4b65a530fc4e8 sched/headers, net/scm: Uninline scm_recv()
+83b9102ef628665ade77cc32d5a9363dd69e98bf sched/headers, net, bpf: Uninline bpf_jit_dump()
+69268a50a1720796df62d70437f098d1fc9b1116 sched/headers, net: Move sk_under_cgroup_hierarchy() to the only .c file using it
+e4dab3b7204959f377fa7d0876a43237148418bb sched/headers, sched/wait: Remove <linux/sched.h> from <linux/wait_bit.h>
+80852ba5a6faebf8cd6e2189a74c40f63bfacdd8 sched/headers, ptrace: Move user_single_step_report() from <linux/ptrace.h> to <linux/tracehook.h>
+f7fb7e64300660c2c2c7635bbee04171c087a8a9 sched/headers, ptrace: Factor out ptrace data types into <linux/ptrace_types.h>
+2ea4caa1286d564ec756246618343db20017dabe sched/headers, audit: Split <linux/audit_types.h> from <linux/audit.h>
+f980cc19a2666b8704a2c394e4b8cbede4641a2d sched/headers, audit: Remove <uapi/linux/netfilter/nf_tables.h> include from <linux/audit.h>
+881ce5f98a5f0d370bc4523469c4696bbdea6839 sched/headers, audit: Make <linux/audit.h> build standalone on !CONFIG_AUDIT kernels too
+c5c02179965ae36ecd01e3bbf521f833e4196181 sched/headers, security: Include <linux/audit_types.h> instead of <linux/audit.h>
+71764902d4a68cd3a4597b036bc9ac0d69c94ee6 sched/headers, audit: Uninline audit_inode_child()
+cdf7ec092ab24fb42d4e61807fb1b9f3cf01cde7 sched/headers, tracing: Remove spurious <linux/ptrace.h> inclusion from <linux/ftrace.h>
+2fb563b012ec0ba0c342ebe73bac287507e4cb15 sched/headers, kprobes: Optimize the x86 <asm/kprobes.h> header's dependencies
+54d0ccaf90edc0357b20a166f5a475014ba23101 sched/headers, ftrace: Uninline arch_trace_is_compat_syscall()
+12613341b9eccc8dbb008910bb977b0a80bf7953 sched/headers, ptrace: Move is_syscall_success() to <linux/ptrace_types.h>
+4547882d0c7d028e7beb8010a7e63c95d184eba7 sched/headers, audit: Uninline audit_get_loginuid() and audit_get_sessionid()
+b168df09d1c1c0c6c17528b292899fff74816860 sched/headers, audit: Remove <linux/sched.h> from <linux/audit.h>
+c4353af3884a0f90dbda1743df3f64b52e845d3f sched/headers, elfcore: Uninline the elf_core_*() methods
+c412f87f578a8c964c207d3371944ea66b6bd9f2 sched/headers, elfcore: Remove <linux/ptrace.h> include from <linux/elfcore.h>
+14fdf5384f2339c8ede2243498a99d817fb78a9b sched/headers, bpf: Use <uapi/linux/ptrace.h> in <uapi/asm-generic/bpf_perf_event.h>
+107509429791731cdc2e90153012a8fb4d144940 sched/headers: Move TASK_* definitions to <linux/sched/types.h>
+9f5f18ac5c0486cf23c0bf7f1a5d4ce948f597e2 sched/headers, arm64: Remove unnecessary <linux/preempt.h> include from <asm/percpu.h>
+afadf6ab47ebe89b67aa2ac13d38c2003779e8c5 sched/headers, arm64/mm: Move the arch_faults_on_old_pte(), arch_wants_old_prefaulted_pte() and arch_filter_pgprot() inlines to <asm/pgalloc.h>
+bd4b6982259ce1ebd2d52420a1fbc9d434438ced sched/headers, sched/per_task, arm64: Add ARM64 support
+2f820f55af787f179676c75d83058953a0ca59ec sched/headers, mm: Split <linux/mm_ptlock.h> out of <linux/mm.h>
+56bff9306dbc87d3461f769af1cedc08b61dd35f sched/headers, sched/wait: Include <linux/sched/types.h> in <linux/wait.h>
+9bcb8240af10655e09b37e1f1dfae3f836620f89 sched/headers, sound: Remove spurious <linux/sched.h> inclusion from <linux/sound.h>
+0749ecbec13fcbbfa12f7f2fea15a67e5870fc73 sched/headers, x86/compat: Uninline arch_compat_alloc_user_space(), in_x32_syscall() and in_32bit_syscall()
+a4bb608600457dff3291644bd077e584994aec04 sched/headers, x86/compat: Optimize x86 <asm/compat.h> header dependencies
+2eedd3b20d96d231da1dcbe16c710f79e159ce13 sched/headers, mm: Remove spurious <linux/cgroup.h> include from <linux/memcontrol.h>
+e546549c36995b7c3499f0d7088bf0e99527a0e7 sched/headers, mm: Remove spurious <linux/cgroup.h> include from  <linux/vmpressure.h>
+65a348d6adcd29d4c05059596c6e1279ef0189fa sched/headers, mm/memcontrol: Uninline mem_cgroup_swappiness()
+3a5a1f517cabf2c90c8d7e085e686572c5159864 sched/headers, mm: Optimize <linux/swap.h> dependencies
+57b37170c241529f432c29cd2d53ffb3ec6a6f7c sched/headers, kthread: Remove <linux/sched.h> from <linux/kthread.h>
+a662a271b2960e0fd41f1e6fb9c369507014d1d3 sched/headers, block: Uninline the blk_wake_io_task() and the blk*flush_plug*() functions
+354890d759ade321af7854508bdd2ccc8ff55580 sched/headers, block: Remove the <linux/sched.h> includes from <linux/blkdev.h>
+25c0edc2141f4af347e89e9fe1c9ae3caaf0c109 sched/headers, mm: Uninline io_mapping_map_atomic_wc() and io_mapping_unmap_atomic()
+0799e759668833b0fdf5cf6aad537e36b69787b3 sched/headers, mm: Optimize <linux/io-mapping.h> header dependencies
+c1ac9ee9eefa7b4f0885bd19ad03fadd80b91800 sched/headers, usb: Remove <linux/sched.h> from <linux/usb.h>
+b68ca35aed0b5b7080e756b0e3236ffc6822235d sched/headers, modules: Remove <linux/srcu.h> from <linux/module.h>
+4bafebafa4153f2ec83a68950dec98f82daa71ed sched/headers, rcu: Split <linux/srcu_types.h> out of <linux/srcu.h>
+2ff612c6bd1f4f53d28eb3909816488c831cdb7f sched/headers, x86/mm: Move the pgd_list definitions from <asm/pgtable.h> to <asm/pgalloc.h>
+6fee28bbeae78036f984d03ae9e0579d3419c30f sched/headers, list: Optimize <linux/list.h> header dependencies
+2d42dfd39d18b32d14df16e7255dcbbfe0bd6fc8 sched/headers: Optimize <linux/kernel.h>
+a380e2974812b9162b31326d81314a13e2e4728b sched/headers, printk: Reduce <linux/printk.h> header dependencies
+223749ec603cdd59849a1e9006b6542a3fba86f7 sched/headers, rbtree: Move the rbtree_latch_node definition into <linux/rbtree_latch_types.h>
+5f1659e6b96d1d8e831ad0503a958bb0dfd47819 sched/headers, kref: Remove unnecessary <linux/spinlock.h> include from <linux/kref.h>
+3c743f9426bbf6e44c70757bdd9f1927baf15e37 sched/headers, kobject: Split out <linux/kobject_types.h>
+f3639e7afe6328085e249f46d4481033ca35ddbf sched/headers, sysfs: Split <linux/sysfs_types.h> header from <linux/sysfs.h>
+e62e6261753b5b2a764a2bb462ee423c0ee3e7f4 sched/headers, kobject: Use <linux/sysfs_types.h> in <linux/kobject.h>, remove <linux/sysfs.h> inclusion
+a30578d8e77924e4790afad3b3dccf7b3e46ded7 sched/headers, x86/vdso: Optimize <asm/vdso.h>'s dependencies
 59f0fd7ea45affeb4edfd442a8493b8411a51741 sched/headers: Prepare for <linux/module.h> simplification changes
 51433615f5e13e1df0fff241415bec6450d362f6 sched/headers, module: Optimize <linux/module.h> header dependencies
 217a09d833eec1d2ea7e8a3e78e26f564df0d5d2 sched/headers, time, timerfd: Move itimerspec64_valid() next to its only user
@@ -415,4 +677,4 @@ a253d89912f9261f91dd12002197e62f7882cf8f sched/headers, mm: Optimize <linux/mm_a
 adc76867aa1dbe458531838f1cd52a1d85a83c4a sched/headers, mm: Optimize <linux/mm_api.h>, remove the <linux/mm_truncate.h> header
 9b50bc39390fc84daef0019259aa26e270b3d1fc sched/headers, mm: Optimize <linux/mm.h>, remove <linux/mm_api.h> inclusion
 
---===============3214996241222230777==--
+--===============9119337536769470760==--
