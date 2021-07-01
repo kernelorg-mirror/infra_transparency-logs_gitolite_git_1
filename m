@@ -1,70 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============8951658465377830081=="
+Content-Type: multipart/mixed; boundary="===============1715970249960245991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 01 Jul 2021 12:30:02 -0000
-Message-Id: <162514260284.6373.2056521409067424942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Thu, 01 Jul 2021 12:31:18 -0000
+Message-Id: <162514267833.8031.15153687663473562834@gitolite.kernel.org>
 
---===============8951658465377830081==
+--===============1715970249960245991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 54e91db567d8a20a43770821fb3e61f29f82b625
-    new: 2a17b805c7b799e7a90f40fd66fe2b6961bc2891
-    log: revlist-54e91db567d8-2a17b805c7b7.txt
-  - ref: refs/heads/linux-next
-    old: 349a2d52ffe59b7a0c5876fa7ee9f3eaf188b830
-    new: 608aa3669c2774443d4ba5b8e2af95328ed382f1
-    log: revlist-349a2d52ffe5-608aa3669c27.txt
+  - ref: refs/heads/sched/headers
+    old: 4ef0b2314a6a2b9a09c4e734f9dc1bb597049bb3
+    new: 9d7dc51b0d3e952121bc786ac056c5a394cffcb9
+    log: revlist-4ef0b2314a6a-9d7dc51b0d3e.txt
 
---===============8951658465377830081==
+--===============1715970249960245991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54e91db567d8-2a17b805c7b7.txt
+Content-Disposition: attachment; filename=revlist-4ef0b2314a6a-9d7dc51b0d3e.txt
 
-17a8b0b6dde67f8561cf2ccbe945d5089cd70e08 cpufreq: blacklist SC7280 in cpufreq-dt-platdev
-88bf5a85fe9840c9b49c5f6c625cdccd11233943 dt-bindings: dvfs: Add support for generic performance domains
-70d99a8f0442bbc5abfa34ea27ce1fcacff57f90 cpufreq: mediatek: add support for mt8365
-b791c7f94680ba9b60b0c0786b1d0eb4393053d6 cpufreq: scmi: Fix an error message
-4814d9c5d3b956c5a8f47acbb6b98fdd4dfe334f cpufreq: dt: Rename black/white-lists
-eed828895b2426a286717c1ddea8af45fa08bfc3 clk: mediatek: remove deprecated CLK_INFRA_CA57SEL for MT8173 SoC
-9821a195d4e263801884b105554e801642c59f2a dt-bindings: cpufreq: update cpu type and clock name for MT8173 SoC
-fe2535a44904a77615a3af8e8fd7dafb98fb0e1b cpufreq: CPPC: Fix potential memleak in cppc_cpufreq_cpu_init
-eead1840cbd31e553bf8ccdefbd5b065bf596b71 cpufreq: CPPC: Pass structure instance by reference
-83150f5d05f065fb5c12c612f119015cabdcc124 arch_topology: Avoid use-after-free for scale_freq_data
-1eb5dde674f57b1a1918dab33f09e35cdd64eb07 cpufreq: CPPC: Add support for frequency invariance
-c503c193db7d7ccc0c58b1ef694eaef331318149 Merge branch 'cpufreq/cppc-fie' into cpufreq/arm/linux-next
-4f275eb19447deae43e86723ea240b3c6ba4bebd Merge branches 'pm-cpufreq' and 'pm-cpuidle' into linux-next
-608aa3669c2774443d4ba5b8e2af95328ed382f1 Merge branches 'acpi-misc' and 'acpi-video' into linux-next
-5ddbecb4976835342f913067adf18b41ac6bd978 Merge branch 'cpufreq/arm/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-2a17b805c7b799e7a90f40fd66fe2b6961bc2891 Merge branch 'pm-cpufreq' into bleeding-edge
+33b1bf49437ffb417beaf4c22250f1a1f70128f6 sched/headers, mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
+ecad4e63c1b3119084f53b9151e4b7bc746ea225 sched/headers, csd: Move <linux/smp.h> to <linux/smp_api.h>
+ea0d942f2a526d1aad5852a6d5e7922a804eae01 sched/headers, csd: Move 'struct __call_single_data' definition and initialization helpers from <linux/smp_api.h> to <linux/smp_types.h>
+23754488113a1e66eaf55dd2802e613c71d16044 sched/headers, smp: Optimize <linux/smp.h>, remove <linux/smp_api.h>
+0fd88422c55a25185245130da9640e1aaa01fe2d sched/headers, dma-mapping: Uninline dma_map_single_attrs()
+8b19a958e238e88a6eda09c162bd9456c431b079 sched/headers, mm/fixmap: Don't include <linux/mm_types.h> in a low level header
+96f2d918df7cf085a7bf0c979e58959e63ba8a4c sched/headers, x86/paravirt: Rename pv_ops.mmu.set_fixmap() to __set_fixmap()
+c08e315fef96b5dc1ca0e1f5f9a7d91669c504f5 sched/headers, mm: Clean up <linux/mm_types.h>, introduce <linux/mm_api.h>
+5bb96eed8ddcbeaf39ccf51bfa79f80b81289a80 sched/headers, mm: Decouple <linux/swap.h> from <linux/vmstat.h>
+b5744992049bcc48e5c0dc3d6f3cc029025ec78c sched/headers, mm/thp: Move the PageTrans*() methods to <linux/page-flags-thp.h>
+af86fb40912061d4b0ac762a82cb981b8633b999 arm64 fix
+2cf1b9e99787de58fdabf3c11b8c3909f3c724aa sched/headers, mm: Further split up <linux/mm.h> into <linux/mm_types.h> and <linux/mm_api.h>
+d0fd1fb373bec09e1e8bdf0b8277b6dc1df13c09 sched/headers, mm: Move <linux/vmstat.h> out of the middle of <linux/mm_api.h> and clean up its dependencies
+757491b0e900ea3bd61867674d15d9a6d668556c sched/headers, locking/seqlocks: Split <linux/seqcount_types.h> out of <linux/seqlock_types.h>
+8ba46a57e5990176b5e790b5902f2b17e071b32d sched/headers, mm: Simplify <linux/mm_types.h>
+402987c4bd75b2eedab403d0bf2bbdfbdc79d499 sched/headers, notifiers: Split <linux/notifier.h> into <linux/notifier_types.h> and <linux/notifier_api.h>
+823fb67cadec57d56475c993b1df35153906e4f8 sched/headers, uprobes: Optimize <linux/uprobes.h> and x86 <asm/uprobes.h> dependencies
+b2d1c7575e9309e394336520b72c54933f17a005 sched/headers, mm: Optimize <linux/mm_types.h> dependencies
+37e89ec617211d00ca236eee4bd66228628f042b sched/headers, arm64: Duplicate the vabits_actual declaration
+c3ac78f364e340b9d6bd7dcaa7c5042d0f25a26a sched/headers, notifiers: Optimize <linux/notifier.h> dependencies, remove <linux/notifier_api.h> inclusion
+c1ef00ec10c87105e462ea767ab25cfff09eb7d7 sched/headers, mm: Move the minimal KASAN API bits to <linux/mm_api_kasan.h>
+3c90cb545c12aec4725fe23dca8b613475d7e315 sched/headers, net: Optimize <linux/skbuff_api.h> dependencies, remove <linux/dma-mapping.h>
+04c6227aa08e890d816face0b727ef21c195978b sched/headers, cpumask: Split <linux/cpumask.h> into <linux/cpumask_types.h> and <linux/cpumask_api.h>
+0afe91e1fafe0203270b73044af8e3c357a05fac sched/headers, cpumask: Simplify <linux/cpumask_types.h>
+1e1e635e3becf7301ef02db17a21bcff3eef28e2 sched/headers, cpumask: Optimize <linux/cpumask.h>, remove <linux/cpumask_api.h>
+26d8c3b64c8de8d1de2e3bda0d0b112955fab819 sched/headers, RCU: Remove __read_mostly annotations from externs
+54c573014e9b42e8d0c172ec586c7431cbfc8216 sched/headers, x86/cpu, arm64/cpu: Split out <asm/processor_api.h> from <asm/processor.h>
+d2846727a3530babfa401758018dd7adacea282e sched/headers, x86/asm: Split <asm/segment.h> into <asm/segment_types.h> and <asm/segment_api.h>
+a6bcef2aa6e2dd28037e410dafbf732a275b0f9d sched/headers, x86/cpu: Optimize <asm/processor.h> dependencies
+3872fff3bf17eeb28f59e3009d3089c629c24201 sched/headers, x86/cpu: Move <asm/processor.h> to <asm/processor_types.h>
+b14a0d67e4814230677817c7bcdf817684561e00 sched/headers, arm/mm: Move the VM_DATA_DEFAULT_FLAGS definition from <asm/page.h> to <asm/mmu.h>
+966699590c1315fce3aa6e4d5e9a73ea1055a5fa sched/headers, mm: Move the VM_* flag definitions from <linux/mm_api.h> to <linux/mm_types.h>
+32f0e03024b0ece345ad5c0d7f6a6ddb0a3956ba sched/headers, mm: Move the gate VMA related methods from <linux/mm_api.h> into <linux/mm_api_gate_area.h>
+9e5a867bace1b4920b3f7f302b2617ec2180904d sched/headers, mm: Split <linux/mm_api_kvmalloc.h> methods out of <linux/mm_api.h>
+21eb95fe65bd3328ea0ee8237070d6e5ed025fd0 sched/headers, mm: Split out the <linux/mm_api_truncate.h> APIs from <linux/mm_api.h>
+a46e0b40542e70707fbd36715b4e31f3b93d0b5c sched/headers, kallsyms: Optimize the <linux/kallsyms.h> header, remove <linux/mm_api.h>
+a91b0cde941d5b750a74d0b852db9636f7a56085 sched/headers, fs/xattr: Optimize <linux/xattr.h> dependencies,  use the new <linux/mm_api_kvmalloc.h> header
+9e3c28e1adc1d9ac2525afdb1e87c867939b2b93 sched/headers, arm64: Move the ARCH_LOW_ADDRESS_LIMIT definition from <asm/processor.h> to <asm/dma.h>
+564ba49b166a99afc9020ef99aad11aedba95d07 sched/headers, mm: Optimize <linux/mm_api.h>, remove the <linux/mm_api_gate_area.h> header
+dfa122ada0108d2585ec3aba24b81706f31bf67d sched/headers, mm: Optimize <linux/mm_api.h>, remove the <linux/mm_api_kvmalloc.h> header inclusion
+cc1b8cab6fa8a552d2dea71f84b7bd92911cd7d1 sched/headers, mm: Optimize <linux/mm_api.h>, remove the <linux/mm_truncate.h> header
+9d7dc51b0d3e952121bc786ac056c5a394cffcb9 sched/headers, mm: Optimize <linux/mm.h>, remove <linux/mm_api.h> inclusion
 
---===============8951658465377830081==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-349a2d52ffe5-608aa3669c27.txt
-
-797920a8498e420532ca6a63f9ac30fea477b3ff dt-bindings: arm: msm: Add SAW2 for MSM8226
-0f0ac1e4eef2753d4f9cd0117019da9501921fef cpuidle: qcom: Add SPM register data for MSM8226
-ad6b010d8129c67ff914996a019f7c50c8744b3f Merge tag 'cpuidle-v5.14-rc1' of https://git.linaro.org/people/daniel.lezcano/linux
-49d6feef94c9f47ac4030563058f8a36267597b0 cpufreq: intel_pstate: Combine ->stop_cpu() and ->offline()
-9357a380f90a89a168d505561d11f68272e0e768 cpufreq: CPPC: Migrate to ->exit() callback instead of ->stop_cpu()
-952da0c9ab5b047665442dc239cee36d5c9edb98 cpufreq: powernv: Migrate to ->exit() callback instead of ->stop_cpu()
-3e0f897fd92662f0ff21ca1759d724a9ad574858 cpufreq: Remove the ->stop_cpu() driver callback
-f9ccdec24d91ffddf1c6f4173b0e191fc08c7d14 cpufreq: Reuse cpufreq_driver_resolve_freq() in __cpufreq_driver_target()
-b3beca76181681fce9cf72f37d19c3030e3353c0 cpufreq: Remove ->resolve_freq()
-7718629432676b5ebd9a32940782fe297a0abf8d ACPI: AMBA: Fix resource name in /proc/iomem
-9249c32ec9197e8d34fe5179c9e31668a205db04 ACPI: video: Add quirk for the Dell Vostro 3350
-4f275eb19447deae43e86723ea240b3c6ba4bebd Merge branches 'pm-cpufreq' and 'pm-cpuidle' into linux-next
-608aa3669c2774443d4ba5b8e2af95328ed382f1 Merge branches 'acpi-misc' and 'acpi-video' into linux-next
-
---===============8951658465377830081==--
+--===============1715970249960245991==--
