@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1103870357817309740=="
+Content-Type: multipart/mixed; boundary="===============5387623370951071863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 01 Jul 2021 11:22:13 -0000
-Message-Id: <162513853377.25792.8217215786539502810@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 11:22:58 -0000
+Message-Id: <162513857817.26109.7487834940452858781@gitolite.kernel.org>
 
---===============1103870357817309740==
+--===============5387623370951071863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: d20c86d49d59a7007030f3e1a07e6847918f15ba
     new: 251df86c71aad720fcfcf9072ed03a0860fe7b30
     log: revlist-d20c86d49d59-251df86c71aa.txt
 
---===============1103870357817309740==
+--===============5387623370951071863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ d02908ad8f34cf98128ee83ec7813ae968b7ea10 PNP: moved EXPORT_SYMBOL so that it imm
 35daa310d596ef0624a02f25d40c9150ee46325f habanalabs: support hint addresses range reservation
 251df86c71aad720fcfcf9072ed03a0860fe7b30 habanalabs: allow fail on inability to respect hint
 
---===============1103870357817309740==--
+--===============5387623370951071863==--
