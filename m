@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1951814531840918087=="
+Content-Type: multipart/mixed; boundary="===============4727844458146246605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 01 Jul 2021 18:28:14 -0000
-Message-Id: <162516409450.27337.13413063275060847031@gitolite.kernel.org>
+Date: Thu, 01 Jul 2021 18:28:26 -0000
+Message-Id: <162516410644.27488.3566488274212077058@gitolite.kernel.org>
 
---===============1951814531840918087==
+--===============4727844458146246605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 9675e5ff0e7cdaacbc977f1c82ee19ad48b9c0cf
     new: a0fb5c54029494610ce61765c3e013744af798d6
     log: revlist-9675e5ff0e7c-a0fb5c540294.txt
 
---===============1951814531840918087==
+--===============4727844458146246605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ a934d243c3c6eeaf1429ddb078773be4ad981e87 sched/headers, mm: Optimize <linux/mm_a
 939f245f82be7fa11d33a0341597a1ecfc43da64 sched/headers, mm: Optimize <linux/mm.h>, remove <linux/mm_api.h> inclusion
 a0fb5c54029494610ce61765c3e013744af798d6 sched/headers, locking/atomics: Optimize <linux/atomic.h>, remove the <linux/atomic_api.h> inclusion
 
---===============1951814531840918087==--
+--===============4727844458146246605==--
