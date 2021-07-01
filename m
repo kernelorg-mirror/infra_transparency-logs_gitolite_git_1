@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 01 Jul 2021 16:49:36 -0000
-Message-Id: <162515817676.23803.11305003325332510503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 01 Jul 2021 16:50:03 -0000
+Message-Id: <162515820383.25713.1117953559247944791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 2a17b805c7b799e7a90f40fd66fe2b6961bc2891
-    new: b2c6ba264cd2dc1caa70bcb4c400f6c37c78c0a6
+  - ref: refs/heads/block-5.14
+    old: 2b7a8dc06d0f840345ae3c7ed6f9d55962b5f54a
+    new: 63c38d858e0b064a942383d33ccce4ca56df8283
     log: |
-         75674eb06a28816af2a7331dcee4088cc1ab5f6d PM: sleep: Use ktime_us_delta() in initcall_debug_report()
-         b289848472073301f679741b10d2916387bb4272 Merge branch 'pm-sleep' into bleeding-edge
-         7b167c4cb48ee3912f0068b9ea5ea4eacc1a5e36 ACPI: PM: Only mark EC GPE for wakeup on Intel systems
-         d563561aac994fedf75030d38822172e0937b49a Merge branch 'acpi-pm' into bleeding-edge
-         9b52363b9283376c868679bdcd6e19405a4aca5a ACPI: Kconfig: Provide help text for the ACPI_PRMT option
-         b2c6ba264cd2dc1caa70bcb4c400f6c37c78c0a6 Merge branch 'acpi-prm' into bleeding-edge
+         498dcc13fd6463de29b94e160f40ed04d5477cd8 block: grab a device refcount in disk_uevent
+         63c38d858e0b064a942383d33ccce4ca56df8283 block: remove the bdgrab in blk_drop_partitions
+         
+  - ref: refs/heads/for-next
+    old: 0c8b5712f3f18bd4d0b534382d71c9c21ffb01ee
+    new: 90a9f8a3cd2a5f3264d801c0c50f716fe8319cd3
+    log: |
+         498dcc13fd6463de29b94e160f40ed04d5477cd8 block: grab a device refcount in disk_uevent
+         63c38d858e0b064a942383d33ccce4ca56df8283 block: remove the bdgrab in blk_drop_partitions
+         90a9f8a3cd2a5f3264d801c0c50f716fe8319cd3 Merge branch 'block-5.14' into for-next
          
