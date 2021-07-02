@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6799649586849370316=="
+Content-Type: multipart/mixed; boundary="===============5389165917034056945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 02 Jul 2021 11:56:26 -0000
-Message-Id: <162522698681.1080.14778760541777184967@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 11:56:36 -0000
+Message-Id: <162522699634.1202.6046121005723912390@gitolite.kernel.org>
 
---===============6799649586849370316==
+--===============5389165917034056945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 1b7597fa85d5c0ec11551037de97cfb66371f48f
     new: 64d6f258820f517439fe20d54352077f59ec8d29
     log: revlist-1b7597fa85d5-64d6f258820f.txt
 
---===============6799649586849370316==
+--===============5389165917034056945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d49c78779a0c9edd8b626d67d5cea7029b52f878 headers/deps, net: Move the skb_propaga
 dcf288c2f835a27783e8d17dcbaba10977354346 headers/deps, net: Uninline skb_copy_to_page_nocache()
 64d6f258820f517439fe20d54352077f59ec8d29 headers/deps, net: Optimize <linux/skbuff_api.h>, remove the <linux/skbuff_api_frag.h> inclusion
 
---===============6799649586849370316==--
+--===============5389165917034056945==--
