@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Fri, 02 Jul 2021 13:41:21 -0000
-Message-Id: <162523328101.8002.565686417910480426@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 13:44:40 -0000
+Message-Id: <162523348059.9225.13884845230404809094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/tags/asm-generic-unaligned-5.14
-    old: b1acda19b1c65f94acfa3f49e2e4750579961967
-    new: 1e5efb89f826093d0d6171efbe2698210ea7a7b4
-    log: |
-         1b1774998b2dec837a57d729d1a22e5eb2d6d206 partitions: msdos: fix one-byte get_unaligned()
-         dd979d7a08adb473744f2e9d4bbaddb039dc39dc apparmor: use get_unaligned() only for multi-byte words
-         8f4e3d48bb50765ab27ae5bebed2595b20de80a1 mwifiex: re-fix for unaligned accesses
-         e3e22076710632250cfaee853499f3de6e9be35d netpoll: avoid put_unaligned() on single character
-         d40d8179482c330df5b9049797fe94c2e8eb4f6e asm-generic: uaccess: 1-byte access is always aligned
-         803f4e1eab7a8938ba3a3c30dd4eb5e9eeef5e63 asm-generic: simplify asm/unaligned.h
-         
+  - ref: refs/tags/asm-generic-pci-ioport-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 8327a175abb8cc12f7ad84b938b1736a57b80d41
