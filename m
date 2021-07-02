@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 02 Jul 2021 20:36:52 -0000
-Message-Id: <162525821264.28845.10857455620402565095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Fri, 02 Jul 2021 20:40:10 -0000
+Message-Id: <162525841037.31392.11862967413470264097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
   - ref: refs/heads/master
-    old: a019abd8022061b917da767cd1a66ed823724eab
-    new: 99f47ea437c113df0fb640ea87e0efd3838510aa
+    old: cc6df5fa39098b61212ff2a6a5771f5fc39f3f20
+    new: 9736f533bb90557e4522451b95e357920786f869
     log: |
-         77ac5e40c44eb78333fbc38482d61fc2af7dda0a net/sched: act_ct: remove and free nf_table callbacks
-         7cc93d888df764a13f196e3d4aef38869f7dd217 nfp: flower-ct: remove callback delete deadlock
-         99f47ea437c113df0fb640ea87e0efd3838510aa Merge branch 'nfp-ct-fixes'
+         9736f533bb90557e4522451b95e357920786f869 tests: Do not guess default pbkdf anymore.
          
+  - ref: refs/merge-requests/184/head
+    old: 0000000000000000000000000000000000000000
+    new: 9736f533bb90557e4522451b95e357920786f869
+  - ref: refs/merge-requests/184/merge
+    old: 0000000000000000000000000000000000000000
+    new: 0a8584bd1f0428b87983504f542f8a5c35310f7d
