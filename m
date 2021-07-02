@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 02 Jul 2021 12:05:44 -0000
-Message-Id: <162522754478.7617.16800425938981882236@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 12:05:53 -0000
+Message-Id: <162522755351.7760.4911449159090651832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 38edbc04e15e78d37821253f7d858cf96bde5737
-    new: 00672d7c173281de39dccf752434d42dfc6504e4
+  - ref: refs/heads/locking/core
+    old: 0e8a89d49d45197770f2e57fb15f1bc9ded96eb0
+    new: f0cb128f7acb0ff7d8e164f35dd42226f39238b3
     log: |
-         34511c8189bf2e200f3e51cffe51310469b2e60c jump_label: Fix jump_label_text_reserved() vs __init
-         b4bebc00190595a56caca4b91d7a409253a487d4 static_call: Fix static_call_text_reserved() vs __init
-         00672d7c173281de39dccf752434d42dfc6504e4 kprobe/static_call: Restore missing static_call_text_reserved()
+         044f3d0b0423536002c28a0a06844f2a24a7d917 locking/mutex: Use try_cmpxchg()
+         e489d467aac910f3fb5ae1b48abd9c1f37ea259c locking/mutex: Fix HANDOFF condition
+         358f5e4a8f54d95891c6eb2c90ee6bd22f6bff39 locking/mutex: Introduce __mutex_trylock_or_handoff()
+         f0cb128f7acb0ff7d8e164f35dd42226f39238b3 locking/mutex: Add MUTEX_WARN_ON
          
