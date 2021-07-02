@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9157114321473661904=="
+Content-Type: multipart/mixed; boundary="===============0318875780989842856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 02 Jul 2021 13:35:09 -0000
-Message-Id: <162523290986.4194.6244209024840611429@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 13:35:47 -0000
+Message-Id: <162523294774.4496.15346688633275325032@gitolite.kernel.org>
 
---===============9157114321473661904==
+--===============0318875780989842856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 041761f4a4db662e38b4ae9d510b8beb24c7d4b6
-    new: 2506f5dcb8282aa7adf77965ef147bb5b68973e3
-    log: revlist-041761f4a4db-2506f5dcb828.txt
+  - ref: refs/heads/for-next
+    old: 5c1d996e5af669f109f974b856516ed22e5f431b
+    new: 6c508b3d7e21c442997f82122903a8fe338c6959
+    log: revlist-5c1d996e5af6-6c508b3d7e21.txt
 
---===============9157114321473661904==
+--===============0318875780989842856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-041761f4a4db-2506f5dcb828.txt
+Content-Disposition: attachment; filename=revlist-5c1d996e5af6-6c508b3d7e21.txt
 
 f6060eb1344717bf22d592a6e1b69818b07cad6e scsi: elx: libefc_sli: Fix ANDing with zero bit value
 f7c95d7460e342f812eaf9b4b74f100d5afaf258 scsi: elx: efct: Fix vport list linkage in LIO backend
@@ -42,5 +42,6 @@ ffa636470aefc41a634025e958b32b006d59a29a scsi: qedi: Use DEVICE_ATTR_RO() macro
 80068f82284a3bbb2763a2280027daa95da4f73d scsi: qedf: Use DEVICE_ATTR_RO() macro
 4c92f89802552f345e7577ba614874f1d6a710f4 scsi: megaraid_mbox: Use DEVICE_ATTR_ADMIN_RO() macro
 2506f5dcb8282aa7adf77965ef147bb5b68973e3 scsi: mvsas: Use DEVICE_ATTR_RO()/RW() macro
+6c508b3d7e21c442997f82122903a8fe338c6959 Merge branch 'misc' into for-next
 
---===============9157114321473661904==--
+--===============0318875780989842856==--
