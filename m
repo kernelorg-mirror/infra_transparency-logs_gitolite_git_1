@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1674421622295384083=="
+Content-Type: multipart/mixed; boundary="===============1603743730458707127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 02 Jul 2021 15:15:08 -0000
-Message-Id: <162523890849.11234.7541313874249762881@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 15:15:17 -0000
+Message-Id: <162523891788.11342.17045287722940662134@gitolite.kernel.org>
 
---===============1674421622295384083==
+--===============1603743730458707127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 64d6f258820f517439fe20d54352077f59ec8d29
     new: c6501e288b3466d4140b2be20a206c1ea3eed097
     log: revlist-64d6f258820f-c6501e288b34.txt
 
---===============1674421622295384083==
+--===============1603743730458707127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ ff1413baedcd6ed5ceb7bbd19669f37cf8b1acec headers/deps: Move the dev_alloc*() met
 6eced8b53b58a7e762c611e07a0ced185e568a8a headers/deps, mm: Split the <linux/mm_api_exe_file.h> header out of <linux/mm_api.h>
 c6501e288b3466d4140b2be20a206c1ea3eed097 headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove the <linux/mm_api.h> inclusion
 
---===============1674421622295384083==--
+--===============1603743730458707127==--
