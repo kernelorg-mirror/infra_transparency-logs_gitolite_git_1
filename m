@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5763026004075563019=="
+Content-Type: multipart/mixed; boundary="===============1793578320279758536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 02 Jul 2021 11:46:41 -0000
-Message-Id: <162522640124.25825.13743975939709427275@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 11:46:52 -0000
+Message-Id: <162522641293.25931.15352033405261142664@gitolite.kernel.org>
 
---===============5763026004075563019==
+--===============1793578320279758536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 7e414df75bd85b58fa79f948d8754b1a59650df3
+  - ref: refs/heads/master
+    old: 9759373b81d77c6ef808383425921bb6ab764332
     new: 1b7597fa85d5c0ec11551037de97cfb66371f48f
-    log: revlist-7e414df75bd8-1b7597fa85d5.txt
+    log: revlist-9759373b81d7-1b7597fa85d5.txt
 
---===============5763026004075563019==
+--===============1793578320279758536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e414df75bd8-1b7597fa85d5.txt
+Content-Disposition: attachment; filename=revlist-9759373b81d7-1b7597fa85d5.txt
 
 501a71c21844251122c75110a219982708283370 sched/headers: Add test files & scripts to measure header bloat
 d1c3bbe2b33eff78906bfcef5413fdd9dd7c7b6f headers/prep: arm64: Prevent <generated/asm-offsets.h> namespace collision
@@ -700,4 +700,4 @@ dcf9cbbbe2e719a1c3a0f2de6b6de545e3a947fa headers/deps: dma-mapping: Optimize <li
 b300f205fce7ffc4e74232a193dfc4d966786cd6 headers/deps, net: Uninline skb_copy_to_page_nocache()
 1b7597fa85d5c0ec11551037de97cfb66371f48f headers/deps, net: Optimize <linux/skbuff_api.h>, remove the <linux/skbuff_api_frag.h> inclusion
 
---===============5763026004075563019==--
+--===============1793578320279758536==--
