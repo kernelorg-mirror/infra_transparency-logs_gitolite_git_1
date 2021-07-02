@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 02 Jul 2021 13:12:43 -0000
-Message-Id: <162523156300.19398.1512507730916666274@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 13:12:52 -0000
+Message-Id: <162523157242.19488.1733525933252192649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 0e8a89d49d45197770f2e57fb15f1bc9ded96eb0
-    new: 300b0fedf6b57e35f4a7024c9b0e031f15fe94ab
+  - ref: refs/heads/perf/core
+    old: 012669c740e6e2afa8bdb95394d06676f933dd2d
+    new: 22907b23ef0fdaba8a4531136ecfa1b2b58399d1
     log: |
-         e2d9412f30603faaab24d262c36033c76755d6f9 locking/mutex: Use try_cmpxchg()
-         f41ce2d5cea9350500b4bb82d419bdfd8624446b locking/mutex: Fix HANDOFF condition
-         50b7ce27bc883db582b0311f027ce204ee34b058 locking/mutex: Introduce __mutex_trylock_or_handoff()
-         300b0fedf6b57e35f4a7024c9b0e031f15fe94ab locking/mutex: Add MUTEX_WARN_ON
+         6ede7565f7398cae592b8010bcd92168839fb66f perf/x86/cstate: Add ICELAKE_X and ICELAKE_D support
+         22907b23ef0fdaba8a4531136ecfa1b2b58399d1 perf/x86/intel/uncore: Clean up error handling path of iio mapping
          
