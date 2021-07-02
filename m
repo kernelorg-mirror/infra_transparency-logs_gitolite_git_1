@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 02 Jul 2021 13:59:46 -0000
-Message-Id: <162523438622.20046.638241476470100174@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 13:59:55 -0000
+Message-Id: <162523439590.20181.7706218029291917025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: a22a5cb81e20657194fde6c835e07d28c4dfddbe
-    new: 3e1493f46390618ea78607cb30c58fc19e2a5035
+  - ref: refs/heads/locking/urgent
+    old: 38edbc04e15e78d37821253f7d858cf96bde5737
+    new: 1dcba646c86dc86114ac666a1887e84282154515
     log: |
-         ceb6ba45dc8074d2a1ec1117463dc94a20d4203d sched/fair: Sync load_sum with load_avg after dequeue
-         72d0ad7cb5bad265adb2014dbe46c4ccb11afaba sched/fair: Fix CFS bandwidth hrtimer expiry type
-         3e1493f46390618ea78607cb30c58fc19e2a5035 sched/uclamp: Ignore max aggregation if rq is idle
+         a23fb0cfa911423327e5a2089d33ab6cddc6a6aa locking/lockdep: Fix meaningless usages output of lock classes
+         b1487a958a6dd1f39f6ccd97c915bf132535cd1a jump_label: Fix jump_label_text_reserved() vs __init
+         8e62ef8c9922d7deaa2d92dc30a87ba6f81fdee3 static_call: Fix static_call_text_reserved() vs __init
+         1dcba646c86dc86114ac666a1887e84282154515 kprobe/static_call: Restore missing static_call_text_reserved()
          
