@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 02 Jul 2021 07:27:39 -0000
-Message-Id: <162521085921.32351.11530124949456520754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Fri, 02 Jul 2021 07:30:45 -0000
+Message-Id: <162521104522.2535.4013250424477123372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/sched/headers
-    old: 9759373b81d77c6ef808383425921bb6ab764332
-    new: 7e414df75bd85b58fa79f948d8754b1a59650df3
+  - ref: refs/heads/testing
+    old: 7c1a80e80cde008f271bae630d28cf684351e807
+    new: 2580d3f40022642452dd8422bfb8c22e54cf84bb
     log: |
-         a0bad891bdcf6c637a901ec0485dd78aa90b97cb header/deps: Optimize <linux/xarray.h>, remove the <linux/xarray_api.h> inclusion
-         7e414df75bd85b58fa79f948d8754b1a59650df3 headers/uninline: dma-mapping: Uninline dma_alloc_noncoherent() and dma_free_noncoherent()
+         eaf228263921cd15962654b539d916380a0f076e Revert "xfrm: policy: Read seqcount outside of rcu-read side in xfrm_policy_lookup_bytype"
+         2580d3f40022642452dd8422bfb8c22e54cf84bb xfrm: Fix RCU vs hash_resize_mutex lock inversion
          
