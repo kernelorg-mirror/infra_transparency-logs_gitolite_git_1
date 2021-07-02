@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 02 Jul 2021 08:28:07 -0000
-Message-Id: <162521448772.8057.3149302486943994096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 02 Jul 2021 08:58:03 -0000
+Message-Id: <162521628330.28092.6092036489274734901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/sound-5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 66653c3174dd409f0bc52026ef5bf534e1bc64f2
+  - ref: refs/heads/next/libgpiod-2.0
+    old: e579859fbeb1b4d475abad1efdbfd1419e7370e0
+    new: 18a4fe57149e11e10b0e9e4872cdb4c35a23459a
+    log: |
+         18a4fe57149e11e10b0e9e4872cdb4c35a23459a WIP: core: implement v2.0 API
+         
