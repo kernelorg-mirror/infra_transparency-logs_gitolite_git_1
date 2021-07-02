@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8499470535220786233=="
+Content-Type: multipart/mixed; boundary="===============3835517784217064724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 02 Jul 2021 07:26:01 -0000
-Message-Id: <162521076110.31554.17826069858772424152@gitolite.kernel.org>
+Date: Fri, 02 Jul 2021 07:26:22 -0000
+Message-Id: <162521078248.31806.6749378670976167593@gitolite.kernel.org>
 
---===============8499470535220786233==
+--===============3835517784217064724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 909d46938367e4d6433b08c8ecbe358f73a44952
+  - ref: refs/heads/master
+    old: c0e197e36aced01e669a743b3c2a021694d8f724
     new: 9759373b81d77c6ef808383425921bb6ab764332
-    log: revlist-909d46938367-9759373b81d7.txt
+    log: revlist-c0e197e36ace-9759373b81d7.txt
 
---===============8499470535220786233==
+--===============3835517784217064724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-909d46938367-9759373b81d7.txt
+Content-Disposition: attachment; filename=revlist-c0e197e36ace-9759373b81d7.txt
 
 516b1dfc3bc3ec3cbcfe9c8f5a9e8c3f6f39c278 sched/headers, per_task: Add the per_task infrastructure
 40075b914719e442402fd92069556438e5a4b341 sched/headers, x86/fpu: Make task_struct::thread constant size
@@ -690,4 +690,4 @@ d5ddb81bee9420d094f233e0db95fecfcc6d6d08 sched/headers, locking/atomics: Optimiz
 050c003897767ec327a08d45fa3c6d9c0dd3cbc4 header/deps: Optimize <linux/xarray.h>, remove the <linux/xarray_api.h> inclusion
 9759373b81d77c6ef808383425921bb6ab764332 headers/uninline: dma-mapping: Uninline dma_alloc_noncoherent() and dma_free_noncoherent()
 
---===============8499470535220786233==--
+--===============3835517784217064724==--
