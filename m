@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2544327791125731413=="
+Content-Type: multipart/mixed; boundary="===============6239885298415952228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 03 Jul 2021 09:29:08 -0000
-Message-Id: <162530454898.9220.8189960293656700010@gitolite.kernel.org>
+Date: Sat, 03 Jul 2021 09:29:18 -0000
+Message-Id: <162530455814.9343.5671345384841474536@gitolite.kernel.org>
 
---===============2544327791125731413==
+--===============6239885298415952228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: afeee28b87a31b2fb2b94ccc288571240a9174e1
+  - ref: refs/heads/master
+    old: eee0a54c12b29ca5c10fad05bf48819ad9f756a5
     new: 410e40a20dd022d830ef4c4bd16cddaa602e5836
-    log: revlist-afeee28b87a3-410e40a20dd0.txt
+    log: revlist-eee0a54c12b2-410e40a20dd0.txt
 
---===============2544327791125731413==
+--===============6239885298415952228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afeee28b87a3-410e40a20dd0.txt
+Content-Disposition: attachment; filename=revlist-eee0a54c12b2-410e40a20dd0.txt
 
 62442f0734e5cf31f5f04caa7af616c505ac2c7f sched/headers, locking/atomics: Optimize <linux/atomic.h>, remove the <linux/atomic_api.h> inclusion
 b0fd9a2cabdc0344692d628219c99a24710e74a6 headers/deps, PCI: Add a <linux/pci-dma-compat.h> include to files that rely on the legacy PCI DMA APIs
@@ -68,4 +68,4 @@ df495a3ae0b0ccf1ad2eee0f6b2ffe9b223ad96d headers/deps: dma-mapping: Optimize <li
 f689b0658d8c187439077f701f8c6e5db5fa8e82 headers/deps: PM/runtime: Optimize <linux/pm_runtime.h> dependencies, remove <linux/device_api.h> inclusion
 410e40a20dd022d830ef4c4bd16cddaa602e5836 headers/deps: USB: Optimize <linux/usb.h> dependencies, remove <linux/device_api.h> inclusion
 
---===============2544327791125731413==--
+--===============6239885298415952228==--
