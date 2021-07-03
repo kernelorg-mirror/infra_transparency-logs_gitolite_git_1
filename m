@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5579319932356987170=="
+Content-Type: multipart/mixed; boundary="===============3633063132394602704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 03 Jul 2021 09:06:01 -0000
-Message-Id: <162530316117.26056.1094884642590486626@gitolite.kernel.org>
+Date: Sat, 03 Jul 2021 09:06:13 -0000
+Message-Id: <162530317324.26229.5075283994619359598@gitolite.kernel.org>
 
---===============5579319932356987170==
+--===============3633063132394602704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: c6501e288b3466d4140b2be20a206c1ea3eed097
     new: 162334865b70ff00e48c3e2f1700839ada936eac
     log: revlist-c6501e288b34-162334865b70.txt
 
---===============5579319932356987170==
+--===============3633063132394602704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -726,4 +726,4 @@ e5e1e8122a99b85bf5ee5832463c6fa00080d74d headers/deps: driver/core: Optimize <li
 6507cfeb6194b99a0025108eac2e23b23d1d3354 headers/deps: driver/core: Optimize <linux/platform_device.h> dependencies, remove <linux/device_api.h> inclusion
 162334865b70ff00e48c3e2f1700839ada936eac headers/deps: PM/runtime: Optimize <linux/pm_runtime.h> dependencies, remove <linux/device_api.h> inclusion
 
---===============5579319932356987170==--
+--===============3633063132394602704==--
