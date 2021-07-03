@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 03 Jul 2021 10:59:52 -0000
-Message-Id: <162530999283.4066.18171544327215528217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
+Date: Sat, 03 Jul 2021 11:21:25 -0000
+Message-Id: <162531128587.19419.8224978946018567791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/peter.chen/usb
+user: peter.chen
 changes:
-  - ref: refs/heads/master
-    old: 35db118529eeaf2e6582854f84a25a53abc9eb77
-    new: f292cc0eb770bbc26f03fd460fa4b1f865bb016d
+  - ref: refs/heads/for-usb-fixes
+    old: c6d580d96f140596d69220f60ce0cfbea4ee5c0f
+    new: 42c4417937beaf68a9ab07e95cf8634c7080174c
     log: |
-         36dce38e3044ce119eeebbc0141e7a07586994f8 headers/deps: ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/device_api.h> inclusion
-         5414f783417c1051dd98b0e110776834059e86fc headers/deps: driver/core: Move the dev_driver_string() method from <linux/device_api.h> to <linux/device_types.h>
-         b0ea0c5f213b62467437f08ecbe2bc8419267fad headers/deps: video/hdmi: Optimize <linux/hdmi.h> dependencies, remove <linux/device_api.h>
-         f292cc0eb770bbc26f03fd460fa4b1f865bb016d headers/deps: ALSA: Optimize <sound/core.h> dependencies, remove <linux/drivers_api.h> inclusion
+         ed708e124ac22a5cc72097b5e8ef393c2eaaba65 usb: cdns3: Fixed incorrect gadget state
+         186e4f2798192bb383ec6c2d5effff69208b8142 usb: cdnsp: Fix incorrect supported maximum speed
+         af66f73a09f58ac7eb2a2df9b68e76d29d6faac8 usb: cdnsp: Fixed issue with ZLP
+         42c4417937beaf68a9ab07e95cf8634c7080174c usb: cdnsp: Fix the IMAN_IE_SET and IMAN_IE_CLEAR macro.
          
