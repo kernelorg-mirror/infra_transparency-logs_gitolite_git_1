@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 03 Jul 2021 04:23:40 -0000
-Message-Id: <162528622033.16912.14993594581130446336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
+Date: Sat, 03 Jul 2021 05:20:21 -0000
+Message-Id: <162528962148.21957.13707170540807254806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/dennis/percpu
+user: dennis
 changes:
-  - ref: refs/heads/master
-    old: 6926f78d99fc0e5ed5b10a06ffde79539b70df6a
-    new: f73a3691afe24fec86841eca43f5edcfbde875f3
+  - ref: refs/heads/for-next
+    old: d6b63b5b7d7f363c6a54421533791e9849adf2e0
+    new: c17e9b1715690aea69e56a15ebe9cf2e728ec73d
     log: |
-         69f7ddbb126f7efa1342b25030e8ca48ee5560ba Provide a '--current' command line argument for capsh.
-         f73a3691afe24fec86841eca43f5edcfbde875f3 When --suggest'ing also compare against capability names
+         4364ad379317d8f886b5e8a8bf9c8f1b924e37e9 percpu: flush tlb after pcpu_depopulate_chunk()
+         c17e9b1715690aea69e56a15ebe9cf2e728ec73d Merge branch 'for-5.14-fixes' into for-next
          
+  - ref: refs/heads/for-5.14-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 4364ad379317d8f886b5e8a8bf9c8f1b924e37e9
