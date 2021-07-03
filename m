@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4286835863875913445=="
+Content-Type: multipart/mixed; boundary="===============4672760257378454020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 03 Jul 2021 21:37:29 -0000
-Message-Id: <162534824929.1830.627767366952055337@gitolite.kernel.org>
+Date: Sat, 03 Jul 2021 21:37:37 -0000
+Message-Id: <162534825779.1940.1126956010902714921@gitolite.kernel.org>
 
---===============4286835863875913445==
+--===============4672760257378454020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: f292cc0eb770bbc26f03fd460fa4b1f865bb016d
     new: 5da75be2e8098501f67a45be386d0502d6fd224e
     log: revlist-f292cc0eb770-5da75be2e809.txt
 
---===============4286835863875913445==
+--===============4672760257378454020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -134,4 +134,4 @@ fd33a91aae3676465e0043e0e86ad4a81439ac55 headers/deps: net: Decouple <net/udp.h>
 fa982bca5fc43a82c3ef2867ce639f30fdb052bf headers/deps, net/rds: Decouple <net/rds/rds.h> from <net/sock_api.h>
 5da75be2e8098501f67a45be386d0502d6fd224e headers/deps: net: Optimize <net/ip.h> dependencies, remove <net/route_api.h> and <net/sock_api.h> dependencies
 
---===============4286835863875913445==--
+--===============4672760257378454020==--
