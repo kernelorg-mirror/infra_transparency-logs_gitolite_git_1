@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Sun, 04 Jul 2021 00:33:47 -0000
-Message-Id: <162535882798.18960.1266851440997047825@gitolite.kernel.org>
+Date: Sun, 04 Jul 2021 00:49:22 -0000
+Message-Id: <162535976265.28303.6512341878207119340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/dev
-    old: 498c0e7a656c08e9802acc67be583bd4b5440aca
-    new: 1e5654de0f51890f88abd409ebf4867782431e81
-    log: |
-         1e5654de0f51890f88abd409ebf4867782431e81 exfat: handle wrong stream entry size in exfat_readdir()
-         
+  - ref: refs/tags/exfat-for-5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4129bcad621e8f4222b70c643370dff2c9ab542b
