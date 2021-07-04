@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3742957144341106398=="
+Content-Type: multipart/mixed; boundary="===============1928461484885563592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 04 Jul 2021 06:14:46 -0000
-Message-Id: <162537928650.12023.4914735397468388794@gitolite.kernel.org>
+Date: Sun, 04 Jul 2021 06:14:55 -0000
+Message-Id: <162537929546.12157.1116065477995277922@gitolite.kernel.org>
 
---===============3742957144341106398==
+--===============1928461484885563592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 4fa922e435166a2975341f3c42db73472dc7a2d1
     new: 65cdfb5f20b6b65faa5532c79357612c7171be88
     log: revlist-4fa922e43516-65cdfb5f20b6.txt
 
---===============3742957144341106398==
+--===============1928461484885563592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ b43685149d51a0742bf034135aa2c5270763d6d2 headers/deps: net: Decouple <net/udp.h>
 0fc0308e4a7ffc1e22cec95db15ba1f5135d0b91 headers/deps: net: Optimize <linux/sock_types.h> dependencies
 65cdfb5f20b6b65faa5532c79357612c7171be88 headers/deps: net: Move __inet_lookup_skb() to its primary user, uninline it for the secondary one
 
---===============3742957144341106398==--
+--===============1928461484885563592==--
