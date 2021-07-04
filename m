@@ -1,20 +1,79 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 04 Jul 2021 14:38:13 -0000
-Message-Id: <162540949322.5163.13555062054974785503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Sun, 04 Jul 2021 15:01:37 -0000
+Message-Id: <162541089703.21220.454442479125211441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/dev-test
-    old: 08303fe1cd8cad58cd9da2ccede25b725c2c0f7f
-    new: fcdf08f903322c22838c5b6ea63081b63d64d660
-    log: |
-         74c77e6ccdf921e66ad7fbc0ec401d9ea821986e erofs: iomap support for non-tailpacking DIO
-         fcdf08f903322c22838c5b6ea63081b63d64d660 erofs: dax support for non-tailpacking regular file
-         
+  - ref: refs/tags/memblock-v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 0603a60f0dd8a1d93b71f1080b0bd46e5e1f6c8f
+  - ref: refs/tags/v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 2d073d933799ffaa046c773bfffa01f3aa461701
+  - ref: refs/tags/v5.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
+  - ref: refs/tags/v5.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 45e6659327a54b98d7715964f2993e44dfb2c318
+  - ref: refs/tags/v5.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d61728d5dac3c065b21f39249b406988aaefa193
+  - ref: refs/tags/v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/tags/v5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
+  - ref: refs/tags/v5.12-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/tags/v5.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/tags/v5.12-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 939326287f7e63045200ed4ee1653029a7aa8065
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 182c7355be0383c202572eb06d8d2110d6cda003
+  - ref: refs/tags/v5.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
