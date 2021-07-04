@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 04 Jul 2021 21:13:46 -0000
-Message-Id: <162543322650.5230.11690984672867332427@gitolite.kernel.org>
+Date: Sun, 04 Jul 2021 21:14:14 -0000
+Message-Id: <162543325410.5479.2044091484069480197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/heads/dev
-    old: 3573ad25390e5feb5febf04523672091d8264079
-    new: ad59009b482f4f3c5fe09de3d12ea812c1c7a48a
-    log: |
-         ad59009b482f4f3c5fe09de3d12ea812c1c7a48a clocksource: Prohibit clocksource watchdog test when HZ<100
-         
+  - ref: refs/heads/linus-fixup.2021.07.04a
+    old: 0000000000000000000000000000000000000000
+    new: 948d10a5f2d2f157b1f50cc19b1a7ff4bda491b9
