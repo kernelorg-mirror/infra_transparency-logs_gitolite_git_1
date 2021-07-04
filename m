@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Sun, 04 Jul 2021 17:30:16 -0000
-Message-Id: <162541981699.22826.635025790837206444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 04 Jul 2021 17:31:18 -0000
+Message-Id: <162541987848.23257.12108050038416197098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/erofs/dax
+  - ref: refs/heads/lkmm.2021.05.10c
     old: 0000000000000000000000000000000000000000
-    new: b66cbc2bb23b0dac979d4a9ad2fdb2ae16278630
+    new: d25fba0e34742f19b5ca307c60c4d260ca5a754a
