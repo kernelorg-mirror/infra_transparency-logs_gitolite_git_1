@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5967150636124928806=="
+Content-Type: multipart/mixed; boundary="===============1381758392307176230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Sun, 04 Jul 2021 17:57:10 -0000
-Message-Id: <162542143053.7798.1662882876542984036@gitolite.kernel.org>
+Date: Sun, 04 Jul 2021 17:58:05 -0000
+Message-Id: <162542148588.8177.7694858190874878391@gitolite.kernel.org>
 
---===============5967150636124928806==
+--===============1381758392307176230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/linux-next
+  - ref: refs/heads/thermal/next
     old: 1264017b3ab6d903760673a8515180af6e7a7f28
     new: fe6a6de6692e7f7159c1ff42b07ecd737df712b4
     log: revlist-1264017b3ab6-fe6a6de6692e.txt
 
---===============5967150636124928806==
+--===============1381758392307176230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ acd65d5d1cf4a3324c8970ba74632abe069fe23e thermal/drivers/int340x/processor_therm
 ad079d981db6a4047b60c576df6430bed36bcd7d thermal/drivers/int340x/processor_thermal: Fix warning for return value
 fe6a6de6692e7f7159c1ff42b07ecd737df712b4 thermal/drivers/int340x/processor_thermal: Fix tcc setting
 
---===============5967150636124928806==--
+--===============1381758392307176230==--
