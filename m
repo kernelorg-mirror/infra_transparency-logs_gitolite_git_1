@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Sun, 04 Jul 2021 16:13:04 -0000
-Message-Id: <162541518414.2909.8688847174099165479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Sun, 04 Jul 2021 16:19:44 -0000
+Message-Id: <162541558463.7045.12955692391353341483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
+repo: pub/scm/fs/ext2/xfstests-bld
 user: tytso
 changes:
-  - ref: refs/heads/dev
-    old: 16aa4c9a1fbe763c147a964cdc1f5be8ed98ed13
-    new: ef3130d1b0b8ca769252d6a722a2e59a00141383
+  - ref: refs/heads/master
+    old: 663f8900962c98810dc4c6fd6eb4bcfc4ef0e6f0
+    new: f52ae9b5affa783fbdaa6eb96395962e1b4f02e4
     log: |
-         8813587a996e7d2ae160be3b79f9f70d9fef4583 Revert "ext4: consolidate checks for resize of bigalloc into ext4_resize_begin"
-         558d6450c7755aa005d89021204b6cdcae5e848f ext4: fix WARN_ON_ONCE(!buffer_uptodate) after an error writing the superblock
-         cd84bbbac12a173a381a64c6ec8b76a5277b87b5 ext4: use ext4_grp_locked_error in mb_find_extent
-         abc8250d1f1ea54d06a33c46730a87d677abed5f ext4: possible use-after-free when remounting r/o a mmp-protected file system
-         786c9f3d78495a0a290b27c25af48f6c933a2d91 ext4: fix flags validity checking for EXT4_IOC_CHECKPOINT
-         ef3130d1b0b8ca769252d6a722a2e59a00141383 ext4: inline jbd2_journal_[un]register_shrinker()
+         072e63c5f51467ed1333c6735957e9a0f303ce8c test-appliance: create the fsgqa2 user and group
+         c2e9bc38acea4cd7cf80f316adc1b604a9c4a36a test-appliance: exclude the dax group from the non-dax configurations
+         acc859bbb943907f1031944bb7ae8e12e5de37b5 test-appliance: globally exclude the richacl tests
+         123f117c83ebd236a9439e3afa0197eb4ea47bed test-appliance: setup SCRATCH_LOGDEV to support tests of an external journal
+         5c835d38e7279f903c3ae38d146416b5f5b66d36 test-appliance: enable project quotas for the ext4/quota config
+         84a7250a5c327555522c35846f9b6de9238b2fdf test-appliance: add error checking in runtests.sh
+         965bfefcd64fedddd7f1caecd5d76e4157e695a1 test-appliance: gce-shutdwown: use the runtests.sh if the report is zero length
+         f52ae9b5affa783fbdaa6eb96395962e1b4f02e4 parse_cli: expand the tests prefix recognized by validate_test_name
          
