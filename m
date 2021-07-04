@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5116839308479177043=="
+Content-Type: multipart/mixed; boundary="===============6207283860406199133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 04 Jul 2021 11:32:16 -0000
-Message-Id: <162539833632.10344.9808043126388283456@gitolite.kernel.org>
+Date: Sun, 04 Jul 2021 11:34:09 -0000
+Message-Id: <162539844956.11050.15643888906581241919@gitolite.kernel.org>
 
---===============5116839308479177043==
+--===============6207283860406199133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-fixes
+  - ref: refs/heads/fixes
     old: d4e1406618a1bdb2f5379213a6b8c9c5fa3bdac7
     new: 6f746d485fb9188dc67dce7de63d21f0c28a1f2e
     log: revlist-d4e1406618a1-6f746d485fb9.txt
 
---===============5116839308479177043==
+--===============6207283860406199133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ a25d144fb883c73506ba384de476bbaff8220a95 bus: mhi: pci-generic: Add missing 'pci
 d02908ad8f34cf98128ee83ec7813ae968b7ea10 PNP: moved EXPORT_SYMBOL so that it immediately followed its function/variable
 6f746d485fb9188dc67dce7de63d21f0c28a1f2e mcb: Use DEFINE_RES_MEM() helper macro and fix the end address
 
---===============5116839308479177043==--
+--===============6207283860406199133==--
