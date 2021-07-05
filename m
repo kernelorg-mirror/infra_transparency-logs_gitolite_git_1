@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6907641229872794877=="
+Content-Type: multipart/mixed; boundary="===============3581813782806125836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 05 Jul 2021 07:33:19 -0000
-Message-Id: <162547039974.16546.7345588064134027138@gitolite.kernel.org>
+Date: Mon, 05 Jul 2021 07:33:21 -0000
+Message-Id: <162547040130.16649.7936053095151404114@gitolite.kernel.org>
 
---===============6907641229872794877==
+--===============3581813782806125836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 9f84340f012ee60c12aacc03662bcdd67419a31a
-    new: 7bbc9654862c642cb01fbffce10fda2e13e50453
-    log: revlist-9f84340f012e-7bbc9654862c.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 313e82bbefb3d1d926858b58092f5d50f41d924d
+    new: 6fb138f75307ce541665d2a7094ef6abb05f7f87
+    log: revlist-313e82bbefb3-6fb138f75307.txt
 
---===============6907641229872794877==
+--===============3581813782806125836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,55 +32,52 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625470390 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1625470387-eecf9b9c4b3d1467a7bf962a637d33c03669935b
 
-9f84340f012ee60c12aacc03662bcdd67419a31a 7bbc9654862c642cb01fbffce10fda2e13e50453 refs/heads/linux-4.19.y
+313e82bbefb3d1d926858b58092f5d50f41d924d 6fb138f75307ce541665d2a7094ef6abb05f7f87 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDitbYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HfEQAMYscAezcS1NOyJcwrvf
-T/w3PX1VfNRDF+DTu72NjSubGI5+FRhUZSQgAY3emDK6ksLZmrvla636gSZh87PQ
-t0ETEfNBccJ4M9C4pMy5u1+3D+9kH8qdMo2sQW/nj5D45Cd6ifxRBIptFp2wuyED
-yET+KrttTLF65DBVPNvtv0bgNmg/ctmR3GWtPnmYv+V/9tfRNpYiQ8f9yIC3i4Dm
-3THtmfMRml6R91VGwJNNGBYr6UuXx5ZYztKtykIBrbYOdklBruG/hy28ynX/3w33
-TJ8AlXpfebaDN3UGpt8lYweIKH6GY/s9aNgD+GdW/qtKD1NUy17qBecNEMRrJQUH
-bvpPawQnsaecHavuSOzlT8wKtv9n9Nh/Vjl3BOstrhZm82TpRoFxjymXDo4Crc6f
-kS423nleU2XIZ8x+Kd5UJ/P7fqwUr3dBqLt7SbFRozd/PamyI2ZdqhI/1DjYUSkW
-Ay2FEkmuqOsqh0YmoLS4o+6l54/3eChB1IkGwRKIMFneCp5dDxbBB/LLmsEEPVAO
-/2/5ejIKV8uu+EGcv/rp3FyVVA5w39jLp4OBFaf2v0rKXQqB6K8y6iNJ3Muj3ys+
-kMt4kTY0osyOBbxqvw59Lbi4fyQNFKnOAk2wyG5y6cf3l+6gcYLKB4EWgBf7aICc
-y45M80HYVgHIbGc2p7Ebc33a
-=qSBK
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9csP/RlDNNm8LL4tWhy0824Y
+OxMpL6GwzXrewDea1aFY41LwQaQK9IdrGR/8pkzKUvqCsl5nE55QeRXgrufMokKt
+48tKhtbZ8OhzeYYlqCkgc8Y77f8E0iPqy59K7hMAPCU1/g3rNJGB6mmIWVGOGtj9
+rzue6jfI4v8vg6poCGBh/pNFs7XpJMfaplPgXO3eGAiV+tLS7bxSYgnJMcqyyWr1
+yCnMiaaedBEUuVa9GdkT+CTPvfSVOpU8iToqYD5nw8PYetnDVfFdIw00KOptwqWq
+CxH6dniZFz9tinExW/JJ3CCJqMnBeXc/ni/NLdrM2OEu+bGv2oISAVT+FehmV1/x
+gkSQ7W12vlTjLJhmWKJvuObvlG3TcFIJ95nG1CUlzzIjXUDFloyfHbUvPit+TdPU
+vUnSixhHokG0pzpXz1uPIzN5YmIRRVoHEUuThZpzxe/gDTQ6m4satMefSeGbgRDz
+fSTPLou3G4Fzmu7KgUNheomffcAAj2ii48BIb5NG2FavX5gUn12WWBDjVmRTje1S
+SMTrcO5Y3F7DX+oR7Vw3tJLg3yPU8HvgyWses7NhoMvrq8J5WkiouD/j9pXuccOU
+XBjW8GVssfC3U9S/B8/CcGxk2O510xbru+uWr0UAKESEUgMR0MRnVF1fFtjyBWwm
+EL+tUhHMaBuQDFqQDcYa2mk+
+=wBPn
 -----END PGP SIGNATURE-----
 
---===============6907641229872794877==
+--===============3581813782806125836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f84340f012e-7bbc9654862c.txt
+Content-Disposition: attachment; filename=revlist-313e82bbefb3-6fb138f75307.txt
 
-348b9111611f45b54c9c4cbdc92780b833e4bd80 mm: add VM_WARN_ON_ONCE_PAGE() macro
-e41360b3f895412dfd160b80a2da16a856658eba mm/rmap: remove unneeded semicolon in page_not_mapped()
-dd98a034dc1c1c0dd991696de044c7806db0b6a3 mm/rmap: use page_not_mapped in try_to_unmap()
-f7d3d8c20eae33ab4166ce2d8be2f7c9a11e7cd6 mm/thp: fix __split_huge_pmd_locked() on shmem migration entry
-7a921638fa800de8c7c57328cd492136c697dcec mm/thp: make is_huge_zero_pmd() safe and quicker
-afe74e4203d7e0cc42372223a513f49ac273379c mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
-f87f1aeccce0df6e60fb8cf77974a243906aaa8f mm/thp: fix vma_address() if virtual address below file offset
-bec51bc90a19646d2bfb7771fca5a98fad0e4eb8 mm/thp: fix page_address_in_vma() on file THP tails
-21155b05859fb3cd6a1efa95cd2e824cf8deb139 mm/thp: unmap_mapping_page() to fix THP truncate_cleanup_page()
-71682a4193e46a3bd893ba9ff53af0518817280e mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
-d8633db1b5a203cbe13f96ed0c611d2e6b8a4184 mm: page_vma_mapped_walk(): use page for pvmw->page
-d86e5dd48ecc797105604616b560da22dcfafeb1 mm: page_vma_mapped_walk(): settle PageHuge on entry
-a6b53e85b48a92f8869002883dee74c58377c61e mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
-82b4d71f49bedae8f153beddea76452756001f65 mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
-ea910d93a89f6e4c610b502a11a6d130d7a3f6f1 mm: page_vma_mapped_walk(): crossing page table boundary
-138d9fb38ba0dcb7efdbcca2af2a1dbd28c26e97 mm: page_vma_mapped_walk(): add a level of indentation
-400e2be898b0eaba207e596cdd7417a112fa97d5 mm: page_vma_mapped_walk(): use goto instead of while (1)
-281575ad9a8e3dfa57c8e08d7f989627a1d39e08 mm: page_vma_mapped_walk(): get vma_address_end() earlier
-d50b55e9474eceb1c82781defdea13f90309e677 mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
-45194d91260eae0b6d0742b57eb48a9a289db258 mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
-0f85230a201fe8b13d06bc37f1e2ced39041b569 mm, futex: fix shared futex pgoff on shmem huge page
-e4aebae8e7c7c60773319c14bb972ca969397123 scsi: sr: Return appropriate error code when disk is ejected
-e56e719f456f7e29fcb104d3b9ca64b31a224bd0 drm/nouveau: fix dma_address check for CPU/GPU sync
-bcc012474370ad8c8c528bc25750567590a574b2 ext4: eliminate bogus error in ext4_data_block_valid_rcu()
-7bbc9654862c642cb01fbffce10fda2e13e50453 Linux 4.19.197-rc1
+cd9b6e24c70dc7a0aabeb2dfd8bcd5cacef1e5d5 include/linux/mmdebug.h: make VM_WARN* non-rvals
+10a6bfe938d83f59bb697043016db79a2c6ef3b9 mm: add VM_WARN_ON_ONCE_PAGE() macro
+51de66c005d62f47259ad25866bc0b17cdb6a093 mm/rmap: remove unneeded semicolon in page_not_mapped()
+3c596a704e843697371086086b34fb6bbb14564a mm/rmap: use page_not_mapped in try_to_unmap()
+da278f94f529a3058915d16d18ce7fe581e66346 mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
+a3c83c10533d04194ec9311e91e0154facd494d3 mm/thp: fix vma_address() if virtual address below file offset
+b7af10812c2d630a7cb735a81eecda97567870ae mm/thp: fix page_address_in_vma() on file THP tails
+3e5a930e19dd027ad3b9203ad9f2e33913e0b277 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+0a814b4388baff392a65facd38b7220acc8608bf mm: page_vma_mapped_walk(): use page for pvmw->page
+19e18b1b0fba0d2368dbaf7ae3dc8c6d3aae37f3 mm: page_vma_mapped_walk(): settle PageHuge on entry
+589bccdd7da1d209d3708541d61b44f05bbc7445 mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
+8355432630e220efb472abe55e3cf5af4ed65f95 mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
+99685e5ad1289ee5955f222de370fbe40ab60f41 mm: page_vma_mapped_walk(): crossing page table boundary
+d77e19a1ac5e7a672c32f515b738b2f08f73c563 mm: page_vma_mapped_walk(): add a level of indentation
+48a96621e10cd0117b4aa4b68fd37cc1fe1976f2 mm: page_vma_mapped_walk(): use goto instead of while (1)
+6d4d1a369bd92f431f29665c699f3e1820d1d3e1 mm: page_vma_mapped_walk(): get vma_address_end() earlier
+22271b77f4b674922d2a9ecec4981a864facd931 mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
+27f9ecc8f6da0fa643d9ab8030a6d19dc2c8fa78 mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
+450734b6062f7bdc1dbf69c8cde44ab5d8f5379a mm, futex: fix shared futex pgoff on shmem huge page
+baf4aa4ce799c578b737078a396eb4a8347e2c58 scsi: sr: Return appropriate error code when disk is ejected
+aace5d4b32bb63a0f9cf6a6dddfe749ad801d70e drm/nouveau: fix dma_address check for CPU/GPU sync
+6fb138f75307ce541665d2a7094ef6abb05f7f87 Linux 4.14.239-rc1
 
---===============6907641229872794877==--
+--===============3581813782806125836==--
