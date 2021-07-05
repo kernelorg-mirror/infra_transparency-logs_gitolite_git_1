@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2634395045464925105=="
+Content-Type: multipart/mixed; boundary="===============1294506811202115931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 05 Jul 2021 07:33:17 -0000
-Message-Id: <162547039737.16452.2975902932470647757@gitolite.kernel.org>
+Date: Mon, 05 Jul 2021 07:33:19 -0000
+Message-Id: <162547039914.16519.6218721964042186613@gitolite.kernel.org>
 
---===============2634395045464925105==
+--===============1294506811202115931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,47 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 200ecf5055dfba12b9bff6984830a7cdddee8ab1
-    new: fafbd5d6dfc957648fc51b78c41da228ed49cd3b
+  - ref: refs/heads/linux-4.9.y
+    old: ebeed1e38d45d31da241fd1e4a93c0517a6cb6cf
+    new: 901e917fb1e9ca91beb4e19f2420b7d930933c4b
     log: |
-         e151dde7456264baea418a84b4b3b85c50e2bd03 scsi: sr: Return appropriate error code when disk is ejected
-         f1bb0964e55bf87c57dd0decbf509f27bfcb4771 drm/nouveau: fix dma_address check for CPU/GPU sync
-         fafbd5d6dfc957648fc51b78c41da228ed49cd3b Linux 4.4.275-rc1
+         14e407d16f757ecf56376a274d29e9994fc45f3f include/linux/mmdebug.h: make VM_WARN* non-rvals
+         b8272626fcbdf248913ce8b9439b639f10e9d58a mm: add VM_WARN_ON_ONCE_PAGE() macro
+         3735b98f8c3f1dc12eb82247ee52086e8a12cf47 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+         b5b7971ba48eb58e5ad84816d662cb24df7983df mm, futex: fix shared futex pgoff on shmem huge page
+         ec8fe42453629ec9b7418660e5c34cc2c38f63ef scsi: sr: Return appropriate error code when disk is ejected
+         6c1e94624c6856ff59532f05dd31368bc88dc1b2 drm/nouveau: fix dma_address check for CPU/GPU sync
+         901e917fb1e9ca91beb4e19f2420b7d930933c4b Linux 4.9.275-rc1
          
 
---===============2634395045464925105==
+--===============1294506811202115931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625470387 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625470389 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1625470384-7b08703e7fc8e8ededf739b18e1caf9eabc3ce10
+nonce 1625470387-eecf9b9c4b3d1467a7bf962a637d33c03669935b
 
-200ecf5055dfba12b9bff6984830a7cdddee8ab1 fafbd5d6dfc957648fc51b78c41da228ed49cd3b refs/heads/linux-4.4.y
+ebeed1e38d45d31da241fd1e4a93c0517a6cb6cf 901e917fb1e9ca91beb4e19f2420b7d930933c4b refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDitbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vNUQAK4E6t8052yXucxJYrKY
-S4I9JGmVplcc2yiDRBbm2PRpapjaVa4WN1Cr1TDo1FRfXZFhdQaJUj+miufAZaO5
-QLi0FMrE6kl9TZ9q07Rc7kucMKqYyl4NzpAt8/UQa78XvAHL/FFIAvB4KHW4vAN4
-Vy3tjlVS1nJTYyzHy3Y9yDR83DKMr7lVcRXiSDS3ECfdTk6muaViNjZlicdz7E8m
-gqtXfCkmOiyUTPJi6pn/wW+X4/4tAsDoDyyImk/1dODXVMuOevaTn33rDPSA42w/
-ktyhqdK+a+2zDJQhdwSBGlcgfd66hJyDQYCLq4SSPxdsjiZIV//5Iol4EuX5Xkpc
-3FVK0cnZzC34OpMt3A5dZlzUA1PQaXBRe480RlU50xndN0f3FodsWJhsUV6GYGzN
-m9gxLPp/FL7auE7X/sj34l+fjUJcXhXXhye1SI8t63qDXs4LJ+XTX7mrX6fbzxRC
-lvw0/5pLgeNHzqIdQ66C4ulUjBAo+H5WeJIjuZ6o0shRgE20fYYNMMbxkrkl3sbF
-4HrT9qmxsrLslG1/fym3LFTc+wQwh2WHSMGrsLJ719r0dJamcd38uu5dtafCukXd
-JhdbKWsqYGryw5hjhQJVA+gnkFihWTEcmKESeG9jJAMekAUFMS9ABY90+fuBVV7L
-f+cfLo99UZnz3oCa+orOXF04
-=dtbz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDitbUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZoYP/39tHko4FZj75sJEq0zs
+/GN/lM7r/Qwl1gVMw+oI2gWtn51b2vM4+ITuueaee/VU9zb8//S3R7UQRH/IOlWO
+kIJThFaH8Er5sDpU+4Pz7gXq4dr+DL0gw1nn6yN4Gm112ZeHhfOpOZEdHbhOBqc4
+0FGVdTmy+/BcTDYEMGkrK7kClkNcasfz5GnHEa+g+OmA0GbMBassUeiyoj3cMqp3
+sEnhGdiMMfRdLFjoKt/3YYXsdFIS3BSk7ZQT0nCabGCEUgp+H+pzFb7l3zCPGTKd
+C7rpD5iTnQVBy7YmGZ9fzDch1nVJiZDiqPUKO1E32U9F9B3sImUGM3B2GdeJphmb
+YJngWH1TihOPRjLD1MIWdczZKqqmgwFx3XRULGar9bz4DOv4P5KFjUZizY788srW
+gOwz0gWbJfrdd28ea6tpZHga8eCvRHdzq2hv3dWLNovlgJAW91+3XH/RKh32lhwi
+HGuHiScaYPe6HQqkyNaGu0MWuCqAh9paFNnNiQ5hWRlo3H23loMReOe/+Omy8rp+
+rpy6sz34HU7AIOe1zCtMxp1nmobD8pV9WhSvUFtNB06k4AvLnOlMNZotrW1cBlB9
+ynlTo1hrH8mAIdtysdOupdJ39qGlngrgHzUjN4W69JMdkRczybrhA0Pj0L1SY2us
+AQS0E5ZI8lc9DsdNQpcD/Icv
+=PgMg
 -----END PGP SIGNATURE-----
 
---===============2634395045464925105==--
+--===============1294506811202115931==--
