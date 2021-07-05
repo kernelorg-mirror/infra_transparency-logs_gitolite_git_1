@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 05 Jul 2021 10:26:40 -0000
-Message-Id: <162548080034.20379.13122839064602703853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 05 Jul 2021 10:33:32 -0000
+Message-Id: <162548121213.24126.128117033258034906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/mmc-v5.14-2
-    old: 0000000000000000000000000000000000000000
-    new: 6948817330d3ef52da8ede589f1f596517aa0586
+  - ref: refs/heads/kvm-arm64/none
+    old: ec95bb5a6958d1f360835588b1b6c776b02b2763
+    new: 0a0b5045bf65fcb2c3ea794ba8771e95989c55d3
+    log: |
+         0a0b5045bf65fcb2c3ea794ba8771e95989c55d3 KVM: arm64: Allow KVM to be disabled from the command line
+         
