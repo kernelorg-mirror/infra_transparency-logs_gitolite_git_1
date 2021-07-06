@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5364872987010209375=="
+Content-Type: multipart/mixed; boundary="===============6790672086678720671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 06 Jul 2021 19:55:04 -0000
-Message-Id: <162560130417.8513.13739733539969737377@gitolite.kernel.org>
+Date: Tue, 06 Jul 2021 19:55:13 -0000
+Message-Id: <162560131336.9315.17017869857561595521@gitolite.kernel.org>
 
---===============5364872987010209375==
+--===============6790672086678720671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: a96bfed64c8986d6404e553f18203cae1f5ac7e6
     new: 77d34a4683b053108ecd466cc7c4193b45805528
     log: revlist-a96bfed64c89-77d34a4683b0.txt
 
---===============5364872987010209375==
+--===============6790672086678720671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ df8ba5f160335cf9ea09c0a037235331a171fe1a Merge tag 'kgdb-5.14-rc1' of git://git.
 4c55e2aeb8082cb118cd63596bfe0dc5247b78e1 Merge tag 'for-linus' of git://github.com/openrisc/linux
 77d34a4683b053108ecd466cc7c4193b45805528 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 
---===============5364872987010209375==--
+--===============6790672086678720671==--
