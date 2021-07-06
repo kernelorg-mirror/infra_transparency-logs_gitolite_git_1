@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Tue, 06 Jul 2021 20:33:54 -0000
-Message-Id: <162560363461.994.9146411658473482795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
+Date: Tue, 06 Jul 2021 21:01:26 -0000
+Message-Id: <162560528656.19752.7397786554121340455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: ak
+repo: pub/scm/linux/kernel/git/andersson/remoteproc
+user: andersson
 changes:
-  - ref: refs/tags/v177
+  - ref: refs/tags/hwlock-v5.14
     old: 0000000000000000000000000000000000000000
-    new: eec66726df56faad2a3dd956b4bd13af6bf71b9e
+    new: 1517e2dc8d330e76bda794a9f49244d100305ed4
