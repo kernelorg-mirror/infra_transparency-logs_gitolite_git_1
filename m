@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 06 Jul 2021 00:58:09 -0000
-Message-Id: <162553308961.16827.9404212181745069868@gitolite.kernel.org>
+Date: Tue, 06 Jul 2021 01:04:26 -0000
+Message-Id: <162553346684.23917.12039053786171280155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 01112e5e20f5298a81639806cd0a3c587aade467
-    new: 2629c01e2dc2a5404aa0dc1109bec3fb5fc15c04
+    old: 2629c01e2dc2a5404aa0dc1109bec3fb5fc15c04
+    new: 658e2c5125bbbc9b9b5eac23b3c35b87df3c30b8
     log: |
-         2629c01e2dc2a5404aa0dc1109bec3fb5fc15c04 riscv: Introduce structure that group all variables regarding kernel mapping
+         658e2c5125bbbc9b9b5eac23b3c35b87df3c30b8 riscv: Introduce structure that group all variables regarding kernel mapping
          
