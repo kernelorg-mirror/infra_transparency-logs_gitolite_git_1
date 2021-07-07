@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7285562719490026318=="
+Content-Type: multipart/mixed; boundary="===============3596124195854548972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 07 Jul 2021 00:25:56 -0000
-Message-Id: <162561755682.27481.17615607158939045558@gitolite.kernel.org>
+Date: Wed, 07 Jul 2021 00:26:09 -0000
+Message-Id: <162561756949.27659.16204108531631532143@gitolite.kernel.org>
 
---===============7285562719490026318==
+--===============3596124195854548972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: dbe69e43372212527abf48609aba7fc39a6daa27
     new: 5e437416ff66981d8154687cfdf7de50b1d82bfc
     log: revlist-dbe69e433722-5e437416ff66.txt
 
---===============7285562719490026318==
+--===============3596124195854548972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a03b98d68367b18e5db6d6850e2cc18754fba94a net: dsa: mv88e6xxx: enable SerDes RX s
 953b0dcbe2e3f7bee98cc3bca2ec82c8298e9c16 net: dsa: mv88e6xxx: enable SerDes PCS register dump via ethtool -d on Topaz
 5e437416ff66981d8154687cfdf7de50b1d82bfc Merge branch 'dsa-mv88e6xxx-topaz-fixes'
 
---===============7285562719490026318==--
+--===============3596124195854548972==--
