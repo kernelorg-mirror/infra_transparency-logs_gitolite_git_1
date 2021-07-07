@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5621163378473470882=="
+Content-Type: multipart/mixed; boundary="===============8740503443541113496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Jul 2021 07:18:30 -0000
-Message-Id: <162564231092.3765.10185795030351587401@gitolite.kernel.org>
+Date: Wed, 07 Jul 2021 07:18:37 -0000
+Message-Id: <162564231783.3835.18208184828428538429@gitolite.kernel.org>
 
---===============5621163378473470882==
+--===============8740503443541113496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 3b1f941536af17537da09a7552c8e74804dd6823
     new: 77d34a4683b053108ecd466cc7c4193b45805528
     log: revlist-3b1f941536af-77d34a4683b0.txt
 
---===============5621163378473470882==
+--===============8740503443541113496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625642309 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625642316 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1625642308-b5f6f6f42db239922a30a32467cb3f58dda9c7f1
+nonce 1625642315-8b15ba296a3ff1129a45aa21fa7bd33bdcefad06
 
-3b1f941536af17537da09a7552c8e74804dd6823 77d34a4683b053108ecd466cc7c4193b45805528 refs/heads/driver-core-next
+3b1f941536af17537da09a7552c8e74804dd6823 77d34a4683b053108ecd466cc7c4193b45805528 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDlVUUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M+cQAIUv2ad5Bb2YMXs712Q/
-e45CQYHuS5umSNE8RdCkD4eeuYEYQ6fxxQu1JC4kWK3pzA051QaJCqxVJYzmE6kA
-BoHTuYOphUaAvJryHRYVU5k7wtE4B/W6mfT8GmzNLVYxoZCqQ8uRCVU2lAEuFxvZ
-/VXHo5bBnLCsswSHb6cqYO/qAA0HpuUwxWMjJcCWbJ3IoAYgwQtfukEjmvc8ALtF
-5yrTnL+jye2UaunaTlin09WrsS50BpIFUrivFUYqAq7akjqffHzsY8Dk1KBnnAth
-vUvUPCtLUebIak0NAHm8J3gcPwqzVFR72OSGL7l+Qmn4ESCDeghmYAqrua/WB44R
-vbJe4XTkOpnqVYVk0ZIkDwi3DbXyWcHIIGze/sFvzUUgpHvJXskUH4cbSGTPk4v1
-irWv/giF9ntiBT4WrJIuM4mtw2+3TEDa9recQXcQtTL6FMp40vhzDFBVgDihMWFP
-Xq83/OQY0wc88quZ/kLBCGHVD9bBCeb9vzrHe/ervE/6b0Q6lLwJBpRIVzq07RrK
-+BuQfLMSpSf7c/zut5w5znF2uo9lP/99lupEpxG0KtbO3VV/5KKQL7kQmQxNmcr1
-k7kshiBK5jxPJZe4mCVxtxA8GKcQISMvfj69Svb0fNDlHeD4nF6SNSMWoiWX1WZP
-oPrKUkssAjMW3KV56oUm8ew6
-=bgGJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDlVUwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rFQP/3gr+5u7PcI/a/yKcNS3
+l5fL2mA7JiKesBu/a189S/f5UNlf+QeIm2wuMv7KuhXmextmq/kMs8mTfHaiuU8w
+zupOQ8Ce/CVy5iIBWQCCdF+KJKUYM1qLjhyrNZoTBhqYqgankkvPFtbZbRXMobL1
+SAcAa+eAwNCtVcdWtJEeHezgleTknb1lyCGO/5L1joKDnLdg9OlHVLCmKxY3JgSm
+OgxTrYh/29h/ovHA4pgUAIXyMPKAzF97n4wRNXJsC2cbKWJY8QkyXwbE5QaO5o6i
+Si8NXj2pOcl+7n8n0+3irZ1+AV/NGG9wTlJkelTx6Yljv6EsTZIrXrjpc+8w+rlX
+zA8c9pWpxBZysjTWRM3mW/OI236sh4pS7bZkCStSgj/UZQLBmpDLNCQkB4dsUwpe
+JZxXfrwcreWKQo0iht8NbEAasxv7X2/7Shpv86hg1TfFHwflcOUbzDrzVjhH/1Xe
+ldj3ftWBy86AVjI3qDcyEZJI5onypLOcktmQ9OkegA/nR9oXkBuZXyAZm4dK5xlW
+95HaM5CWEx/vEESJdnVt3n7HQIRyqGnB10KxBoNrQ336LbBLoeHoyCACt1eT7ONu
+4WfcymCXLjdcDHfHaP4Nx0lBSoSRmt3u7hLD3v6SfJYj9ZW7Bk1N1ocyd+abuXv+
+29hD+ytCv77LzpP5Da5hEhef
+=p+34
 -----END PGP SIGNATURE-----
 
---===============5621163378473470882==
+--===============8740503443541113496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ df8ba5f160335cf9ea09c0a037235331a171fe1a Merge tag 'kgdb-5.14-rc1' of git://git.
 4c55e2aeb8082cb118cd63596bfe0dc5247b78e1 Merge tag 'for-linus' of git://github.com/openrisc/linux
 77d34a4683b053108ecd466cc7c4193b45805528 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 
---===============5621163378473470882==--
+--===============8740503443541113496==--
