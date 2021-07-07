@@ -1,27 +1,61 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/storage/autofs/autofs
-Date: Wed, 07 Jul 2021 02:48:49 -0000
-Message-Id: <162562612907.27395.12824883103473879521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Wed, 07 Jul 2021 03:16:35 -0000
+Message-Id: <162562779567.14010.8662378621003672585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/storage/autofs/autofs
-user: raven
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/master
-    old: 26a458b14161bc629ae198754e7e6cd2d3c09b9a
-    new: 386bfd65589869d3b83228f5c0e68caf99251097
+  - ref: refs/heads/maint
+    old: f11448318f99aa5fde27aea6b73420d6c495a4f6
+    new: 657715deb85ce5cdea7bc2cc11dde2058d73f4c9
     log: |
-         a7c25903f76b6c5326185daca1642467bdf7ed54 autofs-5.1.7 - fix lookup_prune_one_cache() refactoring change
-         819885cfb250163df7c60c06ccb78ae26f1e41be autofs-5.1.7 - fix amd hosts mount expire
-         4ee700ed87201aa345fbf3e374c8b6b6c4041063 autofs-5.1.7 - fix offset entries order
-         9c4d186b1a58375b6da73a0d4338602b8d9f03c7 autofs-5.1.7 - use mapent tree root for tree_mapent_add_node()
-         90efdb2c1043f1b2de18738dcaa90d57d55a5f74 autofs-5.1.7 - eliminate redundant cache lookup in tree_mapent_add_node()
-         b96ba5f40d9150f0317502b9ca894b8328535070 autofs-5.1.7 - fix hosts map offset order
-         a2440a33a7ecb6b318482235eb08e36a0cfb9394 autofs-5.1.7 - fix direct mount deadlock
-         b2be38b9984f31b81c496ec652ca10ed303d4b8a autofs-5.1.7 - add missing desciption of null map option
-         386bfd65589869d3b83228f5c0e68caf99251097 autofs-5.1.7 - fix nonstrict offset mount fail handling
+         9d5fdcc5db1b5246028dc871e5f0fb908dd64771 libext2fs: use statement-expression for container_of only on GNU-compatible compilers
+         a39e58bab602dc39cf263954c4484c8d12bf306c libext2fs: use offsetof() from stddef.h
+         63f44aafb1f20f8dffdede1e824ce8cbf252bbfc e2fsck: fix ".." more gracefully if possible
+         2c69c94217b6db083d601d4fd62d6ab6c1628fee e2fsck: fix last mount/write time when e2fsck is forced
+         0af9a7e9dc0f0ff1b55058dfdad349db09c5d150 tune2fs: update overhead when toggling journal feature
+         19e50aa76263793ae46e8a2540d238faaf1492ad libext2fs: improve jbd_debug() implementation
+         6c60acbb945701a08373bee5b0689563eedf6ed2 e2fsck: sync fc_do_one_pass() changes from kernel
+         108f3021a6b68a86eae3bd9da7f9ce8a1568ce50 mke2fs: use ext2fs_get_device_size2() on all platforms
+         b5f2be81eb6df08dc28ecee6a0be857a0b539b74 Fix -Wunused-parameter warnings
+         beb863f144328fcae7ff44c0dba2846f2ea2b625 Fix -Wunused-variable warnings
+         657715deb85ce5cdea7bc2cc11dde2058d73f4c9 libext2fs: fix a -Wunused-label warning
+         
+  - ref: refs/heads/master
+    old: f11448318f99aa5fde27aea6b73420d6c495a4f6
+    new: 657715deb85ce5cdea7bc2cc11dde2058d73f4c9
+    log: |
+         9d5fdcc5db1b5246028dc871e5f0fb908dd64771 libext2fs: use statement-expression for container_of only on GNU-compatible compilers
+         a39e58bab602dc39cf263954c4484c8d12bf306c libext2fs: use offsetof() from stddef.h
+         63f44aafb1f20f8dffdede1e824ce8cbf252bbfc e2fsck: fix ".." more gracefully if possible
+         2c69c94217b6db083d601d4fd62d6ab6c1628fee e2fsck: fix last mount/write time when e2fsck is forced
+         0af9a7e9dc0f0ff1b55058dfdad349db09c5d150 tune2fs: update overhead when toggling journal feature
+         19e50aa76263793ae46e8a2540d238faaf1492ad libext2fs: improve jbd_debug() implementation
+         6c60acbb945701a08373bee5b0689563eedf6ed2 e2fsck: sync fc_do_one_pass() changes from kernel
+         108f3021a6b68a86eae3bd9da7f9ce8a1568ce50 mke2fs: use ext2fs_get_device_size2() on all platforms
+         b5f2be81eb6df08dc28ecee6a0be857a0b539b74 Fix -Wunused-parameter warnings
+         beb863f144328fcae7ff44c0dba2846f2ea2b625 Fix -Wunused-variable warnings
+         657715deb85ce5cdea7bc2cc11dde2058d73f4c9 libext2fs: fix a -Wunused-label warning
+         
+  - ref: refs/heads/next
+    old: f11448318f99aa5fde27aea6b73420d6c495a4f6
+    new: 657715deb85ce5cdea7bc2cc11dde2058d73f4c9
+    log: |
+         9d5fdcc5db1b5246028dc871e5f0fb908dd64771 libext2fs: use statement-expression for container_of only on GNU-compatible compilers
+         a39e58bab602dc39cf263954c4484c8d12bf306c libext2fs: use offsetof() from stddef.h
+         63f44aafb1f20f8dffdede1e824ce8cbf252bbfc e2fsck: fix ".." more gracefully if possible
+         2c69c94217b6db083d601d4fd62d6ab6c1628fee e2fsck: fix last mount/write time when e2fsck is forced
+         0af9a7e9dc0f0ff1b55058dfdad349db09c5d150 tune2fs: update overhead when toggling journal feature
+         19e50aa76263793ae46e8a2540d238faaf1492ad libext2fs: improve jbd_debug() implementation
+         6c60acbb945701a08373bee5b0689563eedf6ed2 e2fsck: sync fc_do_one_pass() changes from kernel
+         108f3021a6b68a86eae3bd9da7f9ce8a1568ce50 mke2fs: use ext2fs_get_device_size2() on all platforms
+         b5f2be81eb6df08dc28ecee6a0be857a0b539b74 Fix -Wunused-parameter warnings
+         beb863f144328fcae7ff44c0dba2846f2ea2b625 Fix -Wunused-variable warnings
+         657715deb85ce5cdea7bc2cc11dde2058d73f4c9 libext2fs: fix a -Wunused-label warning
          
