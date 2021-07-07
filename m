@@ -1,32 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 07 Jul 2021 11:40:18 -0000
-Message-Id: <162565801829.32305.6511783475654303800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 07 Jul 2021 11:43:10 -0000
+Message-Id: <162565819001.1592.8363699175829521791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/for-linus
-    old: ced7c2877523323ff5498890c497f93dc84a0b64
-    new: 31028cbed26a8afa25533a10425ffa2ab794c76c
+  - ref: refs/heads/for-next.iomap
+    old: 9857203709a57de75d578d7598ac664383605c32
+    new: de0dfa418e78558628d174968af76031f464bb35
     log: |
-         31028cbed26a8afa25533a10425ffa2ab794c76c ALSA: isa: Fix error return code in snd_cmi8330_probe()
-         
-  - ref: refs/heads/for-next
-    old: ced7c2877523323ff5498890c497f93dc84a0b64
-    new: 31028cbed26a8afa25533a10425ffa2ab794c76c
-    log: |
-         31028cbed26a8afa25533a10425ffa2ab794c76c ALSA: isa: Fix error return code in snd_cmi8330_probe()
-         
-  - ref: refs/heads/master
-    old: 4caa1affc00c98af8cd9f2de70991fc7172797b0
-    new: 4b514942aff9918259271f1a9376bf2d6fa55192
-    log: |
-         31028cbed26a8afa25533a10425ffa2ab794c76c ALSA: isa: Fix error return code in snd_cmi8330_probe()
-         4b514942aff9918259271f1a9376bf2d6fa55192 Merge branch 'for-linus'
+         2f02b640e2d07d12ca0da73bfc5fcdac7e2ea020 iomap: Permit pages without an iop to enter writeback
+         2daa9998c5155f762f79e0f8dd9e937ada174655 iomap: Don't create iomap_page objects for inline files
+         de0dfa418e78558628d174968af76031f464bb35 iomap: Don't create iomap_page objects in iomap_page_mkwrite_actor
          
