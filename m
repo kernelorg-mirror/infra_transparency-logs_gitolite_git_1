@@ -1,39 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable
-Date: Wed, 07 Jul 2021 12:49:24 -0000
-Message-Id: <162566216474.22998.17021211303867548191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 07 Jul 2021 12:50:07 -0000
+Message-Id: <162566220746.23619.2379991031454978157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/linux-rolling-lts
-    old: c6106fc9c1df214cb84c415a1f80e33b403f3bc1
-    new: 4f399c4fa0dc98d1d920a76accd8fa98b7d7de09
+  - ref: refs/heads/block-5.14
+    old: 585af8ede7035379b712cacca80e9c2c34853d4b
+    new: d80c228d44640f0b47b57a2ca4afa26ef87e16b0
     log: |
-         f77f97238496aeab597d573aa1703441626da999 scsi: sr: Return appropriate error code when disk is ejected
-         d191c3d6ad330a686bfe41e923442594766cc619 gpio: mxc: Fix disabled interrupt wake-up support
-         45ca6df5df11da7f19c85591e093479d5c60262f drm/nouveau: fix dma_address check for CPU/GPU sync
-         348143a38012656f914cc7d3f016849e08a76d82 gpio: AMD8111 and TQMX86 require HAS_IOPORT_MAP
-         4ab869e0289dbab0aeeedea5e5c4536e13af47b2 RDMA/mlx5: Block FDB rules when not in switchdev mode
-         4dc96804286498f74beabcfb7603bb76d9905ad9 Revert "KVM: x86/mmu: Drop kvm_mmu_extended_role.cr4_la57 hack"
-         a09a52277207fa79fc1aa7c32be6035c264a79c4 Linux 5.10.48
-         4f399c4fa0dc98d1d920a76accd8fa98b7d7de09 Merge v5.10.48
+         0755d3be2d9bb6ea38598ccd30d6bbaa1a5c3a50 nvme-tcp: can't set sk_user_data without write_lock
+         c6af8db92b9a9bc89e3d25535fdc26cb61f419d0 Merge branch 'nvme-5.14' of git://git.infradead.org/nvme into block-5.14
+         d80c228d44640f0b47b57a2ca4afa26ef87e16b0 block: fix the problem of io_ticks becoming smaller
          
-  - ref: refs/heads/linux-rolling-stable
-    old: d2896d0b76bf1bbc2d168c2ad96a80e5378bfe7d
-    new: 476eea734327e8331ee7ea1d67b569ff55ae6262
+  - ref: refs/heads/for-next
+    old: 43ba3a2248cb2d29382101521b10018539ff4a67
+    new: 41d748178bb07eecdb01d6ad87aa146acbc65c5b
     log: |
-         b8455cb4b4c9d2fd0e581c040d6132c7623b5154 scsi: sr: Return appropriate error code when disk is ejected
-         2fc4a7f07041ad7d7c7f3a471b36c89e4df4a50f s390/vfio-ap: clean up mdev resources when remove callback invoked
-         72fc8c1e9294dd65beea62939f852e3802a4fd4f gpio: mxc: Fix disabled interrupt wake-up support
-         f809438939f585c83c3acfa6f30669547e2b30e2 drm/nouveau: fix dma_address check for CPU/GPU sync
-         533c5bd68164dd78f7bf0749b7971782c0a6558a gpio: AMD8111 and TQMX86 require HAS_IOPORT_MAP
-         0980e3bec812a8f48f62a31a3e66d283ae2692c6 Revert "KVM: x86/mmu: Drop kvm_mmu_extended_role.cr4_la57 hack"
-         fc3b667678f2513869b20f161d648580c9b2ae62 Linux 5.12.15
-         476eea734327e8331ee7ea1d67b569ff55ae6262 Merge v5.12.15
+         0755d3be2d9bb6ea38598ccd30d6bbaa1a5c3a50 nvme-tcp: can't set sk_user_data without write_lock
+         c6af8db92b9a9bc89e3d25535fdc26cb61f419d0 Merge branch 'nvme-5.14' of git://git.infradead.org/nvme into block-5.14
+         0c9a9fc6faf90461333a8eaa0f4fa4af3ffabace Merge branch 'block-5.14' into for-next
+         d80c228d44640f0b47b57a2ca4afa26ef87e16b0 block: fix the problem of io_ticks becoming smaller
+         41d748178bb07eecdb01d6ad87aa146acbc65c5b Merge branch 'block-5.14' into for-next
          
