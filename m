@@ -1,69 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8451125115149006838=="
+Content-Type: multipart/mixed; boundary="===============6163626778600888938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Jul 2021 07:19:09 -0000
-Message-Id: <162564234998.4336.13246843383109606240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 07 Jul 2021 07:20:13 -0000
+Message-Id: <162564241395.7186.1381995672840980786@gitolite.kernel.org>
 
---===============8451125115149006838==
+--===============6163626778600888938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/auxbus-5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 0b88dbf701077fd09ad74e06c73a6930a54f9f8d
-  - ref: refs/tags/dev_groups_all_drivers
-    old: 0000000000000000000000000000000000000000
-    new: 28fe8066c69fe8d79669fc2d39ae343ad77d1e0b
-  - ref: refs/tags/generic_lookup_helpers
-    old: 0000000000000000000000000000000000000000
-    new: 230e210761c9db43669e582b08fba23edd5578aa
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+  - ref: refs/tags/staging-5.14-rc1
+    old: c61eae4a8652f459ba8febdd5d766bee089a8bb7
+    new: 0000000000000000000000000000000000000000
 
---===============8451125115149006838==
+--===============6163626778600888938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625642337 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1625642336-cd5303ebd0b41dd6f0e95ef2f48bb9abb2d7bdfc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625642413 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1625642412-8b84f1f0338e7db62bf2814c58e8403bdffa81d1
 
-0000000000000000000000000000000000000000 0b88dbf701077fd09ad74e06c73a6930a54f9f8d refs/tags/auxbus-5.11-rc1
-0000000000000000000000000000000000000000 28fe8066c69fe8d79669fc2d39ae343ad77d1e0b refs/tags/dev_groups_all_drivers
-0000000000000000000000000000000000000000 230e210761c9db43669e582b08fba23edd5578aa refs/tags/generic_lookup_helpers
-0000000000000000000000000000000000000000 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2 refs/tags/v5.13
-0000000000000000000000000000000000000000 fa7f6c1d959351eb64586d9965c2a043a51f4494 refs/tags/v5.13-rc7
+c61eae4a8652f459ba8febdd5d766bee089a8bb7 0000000000000000000000000000000000000000 refs/tags/staging-5.14-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDlVWEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HYUQANSTrVbtyK31FpW6z+Qg
-Frp8iP9cmSsus/KT0UkTercjgnbyb27ZV4k1LyIFL/BT0AwBnb6wGH+VZrYd3tc9
-qq7VeBS5WYBQP1Dy6HMRDZCTz/V4m4HWkxUBeh9Z+BB2ltl4NvvlajZfhTXwNcXP
-Hr+j+gtG3AoMhhQDpJBrQt58niVomD56awgy73Q2D0BJ+lpR2pmmL8FEu09PinXI
-D97gVyJKShvyJMBXQUXFIg7Dqelyn/tpq7sXRoLUU5Hj/7xmD/Bk2h/Ikw/aE+Er
-V7r78QgNtNrjxAj51l5MhBTSvIQkYuqeHPKGTvA7K1Zc/sfSC7ZCYDwjwoUwIF/L
-M/EJLWSMLiXCw31+wSwNB3xol8EncjUkNjRl4DrUt5EPVt//mxYxrQW6WIdwTNbN
-HuReAgvx+AsxoKRWZNCtVokFmijgl8L+LXawi9V/S4rSJPYQdHbmKZ2fdBagbq0/
-QsLEmsxa2tcy1ZO3fJadfBWAheLEAzBdSWB5jzq0MmZZFq0ADPs8l7QOEZFeLsPR
-Synj1HU3G8s6t8QO/C8HxZIEo1997CzSoIF4CFd2OVWBpPwCPgVp/cfKXXQNlCGJ
-e6LUpqphwxVNnlbZtvkclH/lJMJTHEh+SXPbmnHJCUNLzTzZrjgvvHO+eoGZ4r0e
-ejPVZiduzE4efAUdPiMkilZR
-=IG4L
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDlVa0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N2QP/1o2+nmStojRqit+R7h7
+P7VEOHOjzWs6DsYF2MpnOhNgLMdBGfWXjMvLMcRTy3wgosf9A2/NTfWReXAO6aBN
+GXfkpacvCN6G3vIGBsCDMk2rIqcmbfHU5BVPb1rpUEErysg5DQVxoGGWMJRf8Z+t
+UD26obxPZdSpsFqycszDQUrt5Acl+2upMKU8QFhbedEuE48IXDVDQmnBBrHA0iLl
+oHqJoT8xZeBz/ze+iE0hxgUpMRoPQx+GeODUKTzcEEgJDuY0rYh/1cAyqsXBMqEv
+4qSsdY4wNp5J9trV9lC3EBleLCb9NpQBIXH1j7YnaGJWnYz5XLELBoPAFdkkki62
+HLGV85yRpLSLW1yXHmqGxeLAO/G5MgW7mVozBLwkFs+Nas3OwLqk68kufXdtuPML
+8tacGLI6boABZFBUqfrUtE2JHKs5wM9g862uwE/Fi20JGL0lsIu8ZYPfNxY6Ci2I
+x2xa66Xu+YVisT/Fb6HaPgMjRPMM9eKNXSFw2M/Cj+aNsnfrTb30uw+bkdlVO2jm
+5Kffg92jkvgRI67YQSzng+HHE2cNz0/EfAnsd1qKEW0SUxQb+63hY7M+wg+jPJ9M
+KnuO2ts8omn52joeaXOMVbxMIONtVS+PIoPJgslL4z52urKKQi8/S7CafF2Jg3C6
+LTkNB54EIaJSZ3X7Py+Ik/C/
+=rD1u
 -----END PGP SIGNATURE-----
 
---===============8451125115149006838==--
+--===============6163626778600888938==--
