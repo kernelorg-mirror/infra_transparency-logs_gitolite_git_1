@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1248942925566754519=="
+Content-Type: multipart/mixed; boundary="===============7554896048502995102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 07 Jul 2021 08:27:01 -0000
-Message-Id: <162564642185.18837.8043787287569181345@gitolite.kernel.org>
+Date: Wed, 07 Jul 2021 08:29:37 -0000
+Message-Id: <162564657715.19859.10551382959836990827@gitolite.kernel.org>
 
---===============1248942925566754519==
+--===============7554896048502995102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 81fd789ec81006914b577742ecf62c0a78247cf2
-    new: 7671dba08cd234e5766c89f50a0c527082859cf7
-    log: revlist-81fd789ec810-7671dba08cd2.txt
+  - ref: refs/heads/net-next
+    old: e8ef2a87a807f47fdbda978050d4de9e5afc73f7
+    new: e8e6b9804bc8505753d4459a6dca0b6de9416e50
+    log: revlist-e8ef2a87a807-e8e6b9804bc8.txt
 
---===============1248942925566754519==
+--===============7554896048502995102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81fd789ec810-7671dba08cd2.txt
+Content-Disposition: attachment; filename=revlist-e8ef2a87a807-e8e6b9804bc8.txt
 
+40be57c2946f97cf97c583603352f13988682d0f net/mlx4_en: Don't allow aRFS for encapsulated packets
+1255e9dafd8bd100bb5544d71bfd3231774a4f0c net/mlx5e: Add NETIF_F_HW_TC to hw_features when HTB offload is available
+eca78edb08e0c443e85c2f18b7b53b53994b667d net/mlx5e: RX, Avoid possible data corruption when relaxed ordering and LRO combined
+566a0153d70c619551e45b9e7609a8aa7aa10f53 net/mlx5e: Consider PTP-RQ when setting RX VLAN stripping
+a8c8aae4b3e203544aa945657eb8c017da6593f0 net/mlx5: Fix return value from tracer initialization
+99c4bde3935c1409779ac4d8204a24f6b7e5220a net/mlx5e: Fix page allocation failure for trap-RQ over SF
+d13e45ea0936035bbc8fdbf4754383a6112e6472 net/mlx5e: Fix page allocation failure for ptp-RQ over SF
+db88adca90386e887b57f98c931fc169be68482d net/mlx5: Unload device upon firmware fatal error
+07cff1d75abdc1334ef932998d49e6f1ff924438 net/mlx5e: Fix nullptr in mlx5e_hairpin_get_mdev()
+c7e1e3cbc88258b3401cbdd3f7871fd921d252c8 net/mlx5e: Add activate/deactivate stage to XDPSQ
+0b6718359b7219f95242707938e75211f897d541 net/mlx5: Fix mlx5_vport_tbl_attr chain from u16 to u32
+2993aeabf513896cfac2e96db33894e0c1188b82 net/mlx5e: Call synchronize_net outside of deactivating a queue
+53fde5071618967d1fcbe778c69b9f150572365e net/mlx5e: Do synchronize_net only once when deactivating channels
+74145af557725b3b4348a0207acab490e65e0cf5 Merge branch 'patchq/410972' into mlx5-for-net
+a9e00810d18172652a0c8bd39302716f8014591f Merge branch 'patchq/410772' into mlx5-for-net
+9c3da254a59d98380e7b8970b8b7c78fc3e0978a Merge branch 'patchq/404748' into mlx5-for-net
+2629ac8eb07d1946e7e74a5d103164e8ecf4eb0d Merge branch 'patchq/408536' into mlx5-for-net
+d37b5323c93f8d7dfca14eee01799642189a7d76 Merge branch 'patchq/402629' into mlx5-for-net
+292132c1b11b19a7f0e4f4f2557db22ea335b132 Merge branch 'patchq/397231' into mlx5-for-net
+1367c5fbb6e7fab1e7065d02ae6309240bb9cf9c Merge branch 'patchq/392631' into mlx5-for-net
+87eacd2c505a43b0c96a52cc4423e0af32426daf Merge branch 'patchq/365904' into mlx5-for-net
 c7c1544d00f5c443ff4a55dcf173a56ec2b08dad mlx5e_rep: Support native XDP
 b2843b76a24b59be4e02e9033adb973068522e99 net/mlx5: Initialize numa node for all core devices
 fec7a7910be2740074956cd6274854ecc2bb62a8 mlx5e_rep: Support zerocopy AF_XDP
@@ -48,5 +69,9 @@ b18f2358f89ef37bf1158fbc0bafcc03de270254 net/mlx5: Node-aware allocation for the
 12449123e736f17f9fc8c232387a850bb9964d22 net/mlx5: Node-aware allocation for buffer metadata
 e846d3a28425d0f8a8a784b9ee47337603612259 Merge branch 'patchq/392655' into mlx5-queue
 7671dba08cd234e5766c89f50a0c527082859cf7 Merge branch 'patchq/362918' into mlx5-queue
+06c301b56f1f98701914868f076503bc29b37c6c Merge branch 'mlx5-vdpa' into net-next
+671dd2c6f0a422dd4a15bed61402465467398b59 Merge branch 'mlx5-queue' into net-next
+054f8331298ed23ca40c897c090b9073a623c962 Merge branch 'mlx4-for-net' into net-next
+e8e6b9804bc8505753d4459a6dca0b6de9416e50 Merge branch 'mlx5-for-net' into net-next
 
---===============1248942925566754519==--
+--===============7554896048502995102==--
