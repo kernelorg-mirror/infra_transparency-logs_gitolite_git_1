@@ -1,51 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6814454549569897825=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 07 Jul 2021 17:21:36 -0000
-Message-Id: <162567849683.4369.184605435068553962@gitolite.kernel.org>
-
---===============6814454549569897825==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 07 Jul 2021 17:24:35 -0000
+Message-Id: <162567867591.5528.5090134357202229288@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
-    old: e4a5c19888a5f8a9390860ca493e643be58c8791
-    new: 7999d2555c9f879d006ea8469d74db9cdb038af0
+  - ref: refs/heads/for-linus
+    old: bfcce85026918c65441ebd3db4cb0d36c5dcda74
+    new: d2755ee2fc31566e82d873e637c96fa2f0f84d59
     log: |
-         135cbd378eab336da15de9c84bbb22bf743b38a5 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
-         7999d2555c9f879d006ea8469d74db9cdb038af0 spi: stm32: fixes pm_runtime calls in probe/remove
+         c9cd752d8f3a6b13afc5332a60bea3e68f141738 regulator: fixed: Mark regulator-fixed-domain as deprecated
+         ea986908ccfcc53204a03bb0841227e1b26578c4 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
+         43bf8843958d8f2d77558c6cd49df8e03cf9a0b7 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+         d2755ee2fc31566e82d873e637c96fa2f0f84d59 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
          
-
---===============6814454549569897825==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1625678465 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1625678494-0d2e27844e4f1f38e4660955caf0140fe7e3cde8
-
-e4a5c19888a5f8a9390860ca493e643be58c8791 7999d2555c9f879d006ea8469d74db9cdb038af0 refs/heads/for-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDl4oEACgkQJNaLcl1U
-h9AW5gf/ZyuFbhsnpo5lny/rO4/7zrqVslTrUVKD3180szlNaenehX0ZLzqp4B9z
-l45uuvPP/C+VE/6f5sCp60cFVK3d1c5DUEO4WkxzAzFGF+Btp9vEb+nqKKQn0z/j
-g94Ng3ExuWnAA7/1E6lCRIx2yqvlnyBmP7tl+AGPoHKB7Bl+eslobo6sTk4f/E4L
-ZdlslK5DAztWWT7WNKID/hkaPIyZ5simjZN/nkhQvtaL/564ngjUEij5i1NfKwmk
-cQRfrBvEWFtvkAQgEtPO6PKY6X7alrVCbIyIhCdsIRPV6PprSstXsGlh0a6XqZjl
-pLj475SxCUXTqO+UnM4+Bj+GXdNLCg==
-=/99k
------END PGP SIGNATURE-----
-
---===============6814454549569897825==--
+  - ref: refs/heads/for-next
+    old: bfcce85026918c65441ebd3db4cb0d36c5dcda74
+    new: d2755ee2fc31566e82d873e637c96fa2f0f84d59
+    log: |
+         c9cd752d8f3a6b13afc5332a60bea3e68f141738 regulator: fixed: Mark regulator-fixed-domain as deprecated
+         ea986908ccfcc53204a03bb0841227e1b26578c4 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
+         43bf8843958d8f2d77558c6cd49df8e03cf9a0b7 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
+         d2755ee2fc31566e82d873e637c96fa2f0f84d59 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+         
