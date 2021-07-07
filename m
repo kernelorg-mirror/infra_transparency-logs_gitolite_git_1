@@ -1,31 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 07 Jul 2021 17:24:35 -0000
-Message-Id: <162567867591.5528.5090134357202229288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 07 Jul 2021 17:24:56 -0000
+Message-Id: <162567869643.5775.8337652496031426088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: bfcce85026918c65441ebd3db4cb0d36c5dcda74
-    new: d2755ee2fc31566e82d873e637c96fa2f0f84d59
+    old: dae778069a225c59f722fe931ec4cf480031a185
+    new: d2e3148a703567070a06eea7383bece862daa0ab
     log: |
-         c9cd752d8f3a6b13afc5332a60bea3e68f141738 regulator: fixed: Mark regulator-fixed-domain as deprecated
-         ea986908ccfcc53204a03bb0841227e1b26578c4 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
-         43bf8843958d8f2d77558c6cd49df8e03cf9a0b7 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
-         d2755ee2fc31566e82d873e637c96fa2f0f84d59 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+         135cbd378eab336da15de9c84bbb22bf743b38a5 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
+         7999d2555c9f879d006ea8469d74db9cdb038af0 spi: stm32: fixes pm_runtime calls in probe/remove
+         e260c4046e39f45f74781c9def4a87e4e773c7e4 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+         d2e3148a703567070a06eea7383bece862daa0ab Merge remote-tracking branch 'spi/for-5.14' into spi-linus
          
   - ref: refs/heads/for-next
-    old: bfcce85026918c65441ebd3db4cb0d36c5dcda74
-    new: d2755ee2fc31566e82d873e637c96fa2f0f84d59
+    old: dae778069a225c59f722fe931ec4cf480031a185
+    new: d2e3148a703567070a06eea7383bece862daa0ab
     log: |
-         c9cd752d8f3a6b13afc5332a60bea3e68f141738 regulator: fixed: Mark regulator-fixed-domain as deprecated
-         ea986908ccfcc53204a03bb0841227e1b26578c4 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
-         43bf8843958d8f2d77558c6cd49df8e03cf9a0b7 Merge remote-tracking branch 'regulator/for-5.13' into regulator-linus
-         d2755ee2fc31566e82d873e637c96fa2f0f84d59 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+         135cbd378eab336da15de9c84bbb22bf743b38a5 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
+         7999d2555c9f879d006ea8469d74db9cdb038af0 spi: stm32: fixes pm_runtime calls in probe/remove
+         e260c4046e39f45f74781c9def4a87e4e773c7e4 Merge remote-tracking branch 'spi/for-5.13' into spi-linus
+         d2e3148a703567070a06eea7383bece862daa0ab Merge remote-tracking branch 'spi/for-5.14' into spi-linus
          
