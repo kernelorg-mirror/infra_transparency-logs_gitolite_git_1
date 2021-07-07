@@ -1,37 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Wed, 07 Jul 2021 13:29:45 -0000
-Message-Id: <162566458529.6207.15558680874457143927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 07 Jul 2021 13:30:08 -0000
+Message-Id: <162566460820.7878.11661565992857802335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/pci
-    old: aa0f03e376386e4d097a3516b9da09ce621832b2
-    new: e3e01466bff42b5ea977340d8d7d90df482b0c97
+  - ref: refs/heads/tmp.perf/core
+    old: 2792ad461513b3381644677116239cea558a4a9b
+    new: e63cbfa3bedb4495029a91b924bf910867416aa2
     log: |
-         e3e01466bff42b5ea977340d8d7d90df482b0c97 MAINTAINERS: Add maintainer for vhost-user RNG implementation
-         
-  - ref: refs/tags/for_autotest
-    old: 747ad818b78e82d6558a0f7050f6308420247f5e
-    new: d7e48a235f91b60db1641a4c90a9649b0cfe3c17
-    log: |
-         e3e01466bff42b5ea977340d8d7d90df482b0c97 MAINTAINERS: Add maintainer for vhost-user RNG implementation
-         
-  - ref: refs/tags/for_autotest_next
-    old: 747ad818b78e82d6558a0f7050f6308420247f5e
-    new: d7e48a235f91b60db1641a4c90a9649b0cfe3c17
-    log: |
-         e3e01466bff42b5ea977340d8d7d90df482b0c97 MAINTAINERS: Add maintainer for vhost-user RNG implementation
-         
-  - ref: refs/tags/for_upstream
-    old: 747ad818b78e82d6558a0f7050f6308420247f5e
-    new: d7e48a235f91b60db1641a4c90a9649b0cfe3c17
-    log: |
-         e3e01466bff42b5ea977340d8d7d90df482b0c97 MAINTAINERS: Add maintainer for vhost-user RNG implementation
+         eb4717f733b5941a29ea4e0aec3227a0e0770487 perf probe: Fix debuginfo__new() to enable build-id based debuginfo
+         87704345cc602a845be713abdc679d65dc600431 perf symbol-elf: Decode dynsym even if symtab exists
+         d5882a92ea7974edb83a0cf6bbe35c31263464ac perf probe: Do not show @plt function by default
+         5a4451e4d562d5c3d24e6ff75c75a29832f273f6 perf annotate: Fix 's' on source line when disasm is empty
+         83952286f26837161f7b4238a73c00f64fb46e96 perf top: Fix overflow in elf_sec__is_text()
+         e63cbfa3bedb4495029a91b924bf910867416aa2 perf trace: Fix the perf trace link location
          
