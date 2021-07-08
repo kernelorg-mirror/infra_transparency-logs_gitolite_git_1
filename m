@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Thu, 08 Jul 2021 14:49:32 -0000
-Message-Id: <162575577288.2841.14257122762295946208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 08 Jul 2021 15:06:33 -0000
+Message-Id: <162575679356.15457.17838188088344461578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/renesas-next-2021-07-08-v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 20ac59789d4ee578776750cd2d6d7b922f1e6c2c
+  - ref: refs/heads/dev
+    old: 3afe21832d80f3cdbe4173809db91ee271b52a76
+    new: 60549d52c3b636f0ddd1d51b0c1517c1dee22595
+    log: |
+         60549d52c3b636f0ddd1d51b0c1517c1dee22595 erofs-utils: add "noinline_data" extended option
+         
