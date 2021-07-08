@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1070211816907417940=="
+Content-Type: multipart/mixed; boundary="===============2817669898815777864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 08 Jul 2021 20:15:34 -0000
-Message-Id: <162577533429.29129.9899927326896962837@gitolite.kernel.org>
+Date: Thu, 08 Jul 2021 20:15:40 -0000
+Message-Id: <162577534021.29260.10714860845313104571@gitolite.kernel.org>
 
---===============1070211816907417940==
+--===============2817669898815777864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: 9b16e33db20d58d6312e514b9d32c0c9908a20c3
     new: 6a942f5780545ebd11aca8b3ac4b163397962322
     log: revlist-9b16e33db20d-6a942f578054.txt
 
---===============1070211816907417940==
+--===============2817669898815777864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ b55e692e6bcbec36b4e0ba683608e7e1e7aab8c7 s390: rename CALL_ON_STACK_NORETURN() t
 4ee471fe5a5a891ac4fcd45b5457fcb17de694de s390/linkage: increase asm symbols alignment to 16
 6a942f5780545ebd11aca8b3ac4b163397962322 s390: preempt: Fix preempt_count initialization
 
---===============1070211816907417940==--
+--===============2817669898815777864==--
