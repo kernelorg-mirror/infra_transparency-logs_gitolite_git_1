@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1122955050737359150=="
+Content-Type: multipart/mixed; boundary="===============0766463123194295650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 08 Jul 2021 14:34:03 -0000
-Message-Id: <162575484363.24714.842424189557990658@gitolite.kernel.org>
+Date: Thu, 08 Jul 2021 14:34:13 -0000
+Message-Id: <162575485367.24897.16021450649669442846@gitolite.kernel.org>
 
---===============1122955050737359150==
+--===============0766463123194295650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: bd39654a2282c1a51c044575a6bc00d641d5dfd1
     new: 9b16e33db20d58d6312e514b9d32c0c9908a20c3
     log: revlist-bd39654a2282-9b16e33db20d.txt
 
---===============1122955050737359150==
+--===============0766463123194295650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ ae43c813f8ac53d4ae477d796d1e81d64d0d47b4 s390: add type checking to CALL_ON_STAC
 79b962e5bcb40efdf09491ebf517402fc1ec0385 s390/linkage: increase asm symbols alignment to 16
 9b16e33db20d58d6312e514b9d32c0c9908a20c3 s390: preempt: Fix preempt_count initialization
 
---===============1122955050737359150==--
+--===============0766463123194295650==--
