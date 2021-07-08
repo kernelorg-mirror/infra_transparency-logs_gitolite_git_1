@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 08 Jul 2021 12:00:03 -0000
-Message-Id: <162574560390.17288.15058160342623072620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 08 Jul 2021 12:09:42 -0000
+Message-Id: <162574618201.22528.13496852528879467334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/sound-fix-5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f16bf7818e8cb66e3149b6d65a502a00632fc375
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/heads/fixes
+    old: d0244847f9fc5e20df8b7483c8a4717fe0432d38
+    new: 900185fe29d31b2bdb3b81978eb1e4217ef242ce
+    log: |
+         5c0777665b3e13b325ca43377f1d507aec1a5738 mmc: core: Use kref in place of struct mmc_blk_data::usage
+         900185fe29d31b2bdb3b81978eb1e4217ef242ce mmc: core: Don't allocate IDA for OF aliases
+         
