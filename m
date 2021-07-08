@@ -1,46 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7603609868150555480=="
+Content-Type: multipart/mixed; boundary="===============8749707655880775058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 08 Jul 2021 12:42:42 -0000
-Message-Id: <162574816260.12261.17838633780831465112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 08 Jul 2021 12:55:04 -0000
+Message-Id: <162574890430.21849.755375893897555727@gitolite.kernel.org>
 
---===============7603609868150555480==
+--===============8749707655880775058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/devel
-    old: 52c535c4eac90635ae5e8cbe52a4ea0c2a00573c
-    new: 875adf0bb44d7986915c1fce1f2f9b35e168a69d
-    log: revlist-52c535c4eac9-875adf0bb44d.txt
+  - ref: refs/heads/ceph-fscrypt-fnames-experimental
+    old: 5ee269f9354ab135d75d6018963086dc94ff83bf
+    new: b1f45c874e7717cd5f328d7d9874eb6a7962dfa7
+    log: revlist-5ee269f9354a-b1f45c874e77.txt
 
---===============7603609868150555480==
+--===============8749707655880775058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52c535c4eac9-875adf0bb44d.txt
+Content-Disposition: attachment; filename=revlist-5ee269f9354a-b1f45c874e77.txt
 
-5c0777665b3e13b325ca43377f1d507aec1a5738 mmc: core: Use kref in place of struct mmc_blk_data::usage
-900185fe29d31b2bdb3b81978eb1e4217ef242ce mmc: core: Don't allocate IDA for OF aliases
-73d8ab0a6a7f81958976a15abff8cd1a1b3f9475 mmc: host: add kdoc for mmc_retune_{en|dis}able
-aa18951855677e0de98667a2d5a45475e4766458 mmc: host: factor out clearing the retune state
-5c967230c05009ef80f343ddb86ec733b5436777 mmc: sdhci-of-arasan: Modified SD default speed to 19MHz for ZynqMP
-f8675b5880ecf4dcd63134f126f023d769aae272 mmc: sdhci-of-arasan: Add "SDHCI_QUIRK_MULTIBLOCK_READ_ACMD12" quirk.
-925be562bda6b662591ee957ae8ffb5215dd1251 mmc: sdhci-of-arasan: Skip Auto tuning for DDR50 mode in ZynqMP platform
-422fd331429d33540a736a8f032c93431cc98fa3 mmc: sdhci-of-arasan: Check return value of non-void funtions
-635888de107de07336fef7ad4ac9155ec0ea80a7 mmc: sdhci-of-arasan: Use appropriate type of division macro
-e11720030cb042b768c9f0d0ecc775613d2552f7 mmc: sdhci-of-arasan: Modify data type of the clk_phase array
-eb0fbd0d1c56b74306635f6d7b450048b265846f mmc: arasan: Fix the issue in reading tap values from DT
-0c2a5216ff982f2693a49175d8562b01d7e196fc dt-bindings: mmc: sdhci-msm: Add compatible string for sc7280
-d1152f0bae3c673d3b1c902be4ab48c33944ea49 mmc: renesas_sdhi_sys_dmac: use proper DMAENGINE API for termination
-6ee38deffdd1bf29f171ef5a43ad1de0e56cc72f mmc: sh_mmcif: use proper DMAENGINE API for termination
-8d290374a8f9ddf9788c71f63dd2fd8149222037 mmc: usdhi6rol0: use proper DMAENGINE API for termination
-875adf0bb44d7986915c1fce1f2f9b35e168a69d mmc: mmci: De-assert reset on probe
+1c19b021bf2f294a9d49ad38b0baf9e371a581be ceph: remove some defunct forward declarations
+64887ecca52b9d754c09837b7242b80463bda63c [DO NOT MERGE] ceph: dump info about cap flushes when we're waiting too long for them
+70ecde65301b6e2d4258707b49975eb3ea9c897c vfs: export new_inode_pseudo
+00b5b1804d58d5f754cbdf15cb649df85ba23815 fscrypt: export fscrypt_base64_encode and fscrypt_base64_decode
+42993754060822bff23df008bf8eabcd83a7c358 fscrypt: export fscrypt_fname_encrypt and fscrypt_fname_encrypted_size
+b98e1e92e6dfea87f983aee8eb0b631b92683dc5 fscrypt: add fscrypt_context_for_new_inode
+53c7f9d5897fb67b6496f7d8553cc6223b7813df ceph: preallocate inode for ops that may create one
+5500a1ca256080cc1493361ac71987bac0e5400b ceph: parse new fscrypt_auth and fscrypt_file fields in inode traces
+fbbe177dea2de80c10651a9434990c56fa272c19 ceph: add fscrypt_* handling to caps.c
+8e9f2288d97c1b4be7a664b6afa2e3d9affd9861 ceph: add ability to set fscrypt_auth via setattr
+530df1f44fa3bd5c02aa58643f48eb26af96a746 ceph: crypto context handling for ceph
+2f7ad12ab971f434b13efb3f81a58ea7c0855e52 ceph: implement -o test_dummy_encryption mount option
+d96a093e4cacde398d6e576189582e5905e38be2 ceph: add fscrypt ioctls
+e5f7ead1341059c379e31b69e1311110c458a781 ceph: decode alternate_name in lease info
+133ee0f18b8e72bc2cd6a83c9b0cc726218b8b08 ceph: make ceph_msdc_build_path use ref-walk
+d51f1bb5ce422f9541fa360fdecceaf92b578a4e ceph: add encrypted fname handling to ceph_mdsc_build_path
+1d15eaf59c8772cea54eaf51937c4c73c8bd131b ceph: send altname in MClientRequest
+e6025fe2ba7d8d83240b4517c4ccac9598735499 ceph: properly set DCACHE_NOKEY_NAME flag in lookup
+ab89090620cf67d4f5475fc29570012a04c2b107 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
+4f108047ada87676a1ef582bf400f5028d561d77 ceph: add helpers for converting names for userland presentation
+16f4c14dd39c84cc22ba120e7c015942c2530f59 ceph: add fscrypt support to ceph_fill_trace
+7418fd1aaefe976da581fa64746757a64c44fb3e ceph: add support to readdir for encrypted filenames
+601b5edc82ac061725decc7c5c23f2cb03fec295 ceph: create symlinks with encrypted and base64-encoded targets
+240eb65661513879f912b28e2810da2333d2ab79 ceph: make ceph_get_name decrypt filenames
+b1f45c874e7717cd5f328d7d9874eb6a7962dfa7 ceph: add a new ceph.fscrypt.auth vxattr
 
---===============7603609868150555480==--
+--===============8749707655880775058==--
