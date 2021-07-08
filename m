@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 08 Jul 2021 18:02:19 -0000
-Message-Id: <162576733970.3659.298906721747855377@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0642784511125551220=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 08 Jul 2021 18:31:53 -0000
+Message-Id: <162576911300.22837.8361200375712473417@gitolite.kernel.org>
+
+--===============0642784511125551220==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pcc_type3
-    old: 1a42145665ac866ddad866309c9d27ec84fe7572
-    new: f2026f2b8fa0e26e300df371691a1615ef138fb7
+  - ref: refs/heads/master
+    old: 39bd3a30cc6ed90f1bc48049937e3b0776e486c2
+    new: d3194d73a3952eb0e071caf6e4bfbbee0d9b0472
     log: |
-         fd12e787c4a5dd3c364d584285723dde929c9261 mailbox: pcc: Use PCC mailbox channel pointer instead of standard
-         677ea97d5cccf4da261249be247c11d6e0b85058 mailbox: pcc: Rename doorbell ack to platform interrupt ack register
-         66090ff3c68b121377f37acc4d2b08967edc8966 mailbox: pcc: Add PCC register bundle and associated accessor functions
-         ce10a4ca6d844b391b4e5a5254f826cd537f60e1 mailbox: pcc: Avoid accessing PCCT table in pcc_send_data and pcc_mbox_irq
-         e3b0b7355094f7abe7ddaa81352cad908040e877 mailbox: pcc: Drop handling invalid bit-width in {read,write}_register
-         6259911a3df9e5a818917de9aab4298c75437832 mailbox: pcc: Add support for PCCT extended PCC subspaces(type 3/4)
-         f2026f2b8fa0e26e300df371691a1615ef138fb7 mailbox: pcc: Move bulk of PCCT parsing into pcc_mbox_probe
+         d3194d73a3952eb0e071caf6e4bfbbee0d9b0472 4.9-stable patches
          
+
+--===============0642784511125551220==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625769111 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1625769111-363a8cd1f24d0c8d98254dc7a244ec92dd0db642
+
+39bd3a30cc6ed90f1bc48049937e3b0776e486c2 d3194d73a3952eb0e071caf6e4bfbbee0d9b0472 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDnRJgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VLIQAL6vmtUub7HHX1WhfQZY
+167qKhwZFfA/xVMd9+0IpEP87oOUCeT1ZYI3whnsXR/P2CPcqvjiaroKU6l35/d3
+sv5E/eZE67OKzb1fHGVwTaRBUxpBq1jvfgcBkxxDfeem6b4a42Bbn34llErMgf4X
+4i6El9ABZf5Sis1b/kYlNkgq1E+IUHSR/5B8zbK0cDkSmr6uoTH4NYk7/ZW/flig
+LmNUCroBq7qI/OsQge7Vr5H0t8lN9hD5SRH1HBGp/2DMYRPNJk2m5OandmJ70xT7
+AclZnAwtBpcj+Sl6qJV4xldn5+HjDz0WfDoahNq9RUwzyHzeYWvpbBUTGSyfuA8V
+lLX2Kf60h8mLdnJ6FKgNIpAjyHgb3XZPR8dSLA5LzT27vTMWjjq0h159QOKu4tKo
++DPG4tTxeZsVltql8GYf21KLoUSyYSfu2KbcW5oicfk0ANh50+wtCpw7KmmAXos+
+5WPOC/hq/BhwmZ2b3naytJznl4caJUBaJ/bt2cGPIlEjcEkIQXUvBxrSDwIrptcv
+V8fQkYfg7HzZ8QdsYijq7wkXSDkY6z78CgoHfV98Can44Tn6yofTsiGokzYyiN3q
+FYfh76ejaS1fQl4cPlPOdJUKsfB2gpVANtluddJjmefsfc8sXBla84sZ60NhAJQD
+y+VKvTOA9qzOUNJgqoBREr2q
+=CO7u
+-----END PGP SIGNATURE-----
+
+--===============0642784511125551220==--
