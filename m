@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0677471963046182703=="
+Content-Type: multipart/mixed; boundary="===============8438284471006481809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 08 Jul 2021 18:36:14 -0000
-Message-Id: <162576937434.26669.17660756693519616536@gitolite.kernel.org>
+Date: Thu, 08 Jul 2021 18:38:16 -0000
+Message-Id: <162576949615.27540.13688652315001140222@gitolite.kernel.org>
 
---===============0677471963046182703==
+--===============8438284471006481809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,156 +16,138 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 5a3562920951b3647f6655bef17ec0f59ced51e6
-    new: 220e9eb6fd2e429561763d32ad05be71058ed9f9
-    log: revlist-5a3562920951-220e9eb6fd2e.txt
+    old: 220e9eb6fd2e429561763d32ad05be71058ed9f9
+    new: 33d1af9afe87d64149ea19bc9a20393e0e9220d4
+    log: revlist-220e9eb6fd2e-33d1af9afe87.txt
   - ref: refs/heads/queue/4.19
-    old: bf1c92d82fb3a45276809a203333f252d55ce0e5
-    new: 1f8c9e7e5ec46332b8d17b8669682ac08c46241d
-    log: revlist-bf1c92d82fb3-1f8c9e7e5ec4.txt
+    old: 1f8c9e7e5ec46332b8d17b8669682ac08c46241d
+    new: d52c5ab631aeb7aa56ad9505e53ad83778c6611b
+    log: revlist-1f8c9e7e5ec4-d52c5ab631ae.txt
   - ref: refs/heads/queue/4.4
-    old: 3d760d2d000beede5d33a7e59090b0374d0634af
-    new: 3c7e3059bfc8980deaf0b8004b8ba5d051ea93fa
+    old: 3c7e3059bfc8980deaf0b8004b8ba5d051ea93fa
+    new: 7d7ba19e392474c4c6f9b77e1a43a3a2634336fb
     log: |
-         3b776d9381a1ec609c2762e06dd25ffba7391826 scsi: sr: Return appropriate error code when disk is ejected
-         bdc417ec07545fc6e763f48f28632c8eb57668ab drm/nouveau: fix dma_address check for CPU/GPU sync
-         3c7e3059bfc8980deaf0b8004b8ba5d051ea93fa xen/events: reset active flag for lateeoi events later
+         8e639f401ba4bff77bc44feb12c0781bf8134f50 scsi: sr: Return appropriate error code when disk is ejected
+         849e4fbe35464a3981cbdae489823d14f5fdec81 drm/nouveau: fix dma_address check for CPU/GPU sync
+         7d7ba19e392474c4c6f9b77e1a43a3a2634336fb xen/events: reset active flag for lateeoi events later
          
   - ref: refs/heads/queue/4.9
-    old: 8de0ec6955e9e49b6ccce4a9b3900cb83a801fda
-    new: 45f8578c005512639976dc8f7f9f2c1617df1a53
+    old: 45f8578c005512639976dc8f7f9f2c1617df1a53
+    new: 4df8b29c426d58828e579ecca81f490ffac58a08
     log: |
-         54b3bdd6998a41c51360f7c5c27090660469dfd0 include/linux/mmdebug.h: make VM_WARN* non-rvals
-         436789d8afa015825594e6a5b96e9a7ac2ba8bdf mm: add VM_WARN_ON_ONCE_PAGE() macro
-         434b454100ac97bc898fbd893d6d7a8a0440e6c1 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
-         f503386004d8d5fbf480bd135254ccda19a9f4d0 mm, futex: fix shared futex pgoff on shmem huge page
-         84254c00db3a6e1cc1df2a12077359c37565d2f7 scsi: sr: Return appropriate error code when disk is ejected
-         7f21910f69841b7cdac25e6b41ba092f25ae9dfc drm/nouveau: fix dma_address check for CPU/GPU sync
-         2e48ee801ed5619f1b60cfbba56b14a6179ad827 kthread_worker: split code for canceling the delayed work timer
-         4d4b60070b0b268a4ff0c62f697bc33e9db730c7 kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
-         45f8578c005512639976dc8f7f9f2c1617df1a53 xen/events: reset active flag for lateeoi events later
+         4d921a96e60257812297afb8565a361a5e3b0225 include/linux/mmdebug.h: make VM_WARN* non-rvals
+         8301c46963f6b379645693d31fab3657c6c124de mm: add VM_WARN_ON_ONCE_PAGE() macro
+         2e376cb79c0c234592e97aa8a7fde6d5f2887e7f mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+         bb0e38eb59544d9000fc8b0b018863c5a08ab89e mm, futex: fix shared futex pgoff on shmem huge page
+         dcf2f8fc98f5019c3c57b149419a245960dd5491 scsi: sr: Return appropriate error code when disk is ejected
+         c6f1d41295ad0adb075ad3c2a053edc5c520f02b drm/nouveau: fix dma_address check for CPU/GPU sync
+         7421c36086477c06f9b6d901c61f5ed27b9b6c44 kthread_worker: split code for canceling the delayed work timer
+         432980f24e3583cd9dd455c8e789c435eb65e1ca kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
+         4df8b29c426d58828e579ecca81f490ffac58a08 xen/events: reset active flag for lateeoi events later
          
   - ref: refs/heads/queue/5.10
-    old: 209c9d1f6abb00cce11edcc0e57dc9cbbce269dd
-    new: b430934a83ebac9a5020343e22384fc9f74512c6
-    log: revlist-209c9d1f6abb-b430934a83eb.txt
-  - ref: refs/heads/queue/5.12
-    old: 9a76cc7cd8f73188ca9d1d61b72b0f4c8d44c73e
-    new: d905881cda162beb149f462a96020dc214a4e3fc
+    old: b430934a83ebac9a5020343e22384fc9f74512c6
+    new: 3a4238ca32e6a32c535f98ebed23bbb369d87815
     log: |
-         b8455cb4b4c9d2fd0e581c040d6132c7623b5154 scsi: sr: Return appropriate error code when disk is ejected
-         2fc4a7f07041ad7d7c7f3a471b36c89e4df4a50f s390/vfio-ap: clean up mdev resources when remove callback invoked
-         72fc8c1e9294dd65beea62939f852e3802a4fd4f gpio: mxc: Fix disabled interrupt wake-up support
-         f809438939f585c83c3acfa6f30669547e2b30e2 drm/nouveau: fix dma_address check for CPU/GPU sync
-         533c5bd68164dd78f7bf0749b7971782c0a6558a gpio: AMD8111 and TQMX86 require HAS_IOPORT_MAP
-         0980e3bec812a8f48f62a31a3e66d283ae2692c6 Revert "KVM: x86/mmu: Drop kvm_mmu_extended_role.cr4_la57 hack"
-         fc3b667678f2513869b20f161d648580c9b2ae62 Linux 5.12.15
-         379a2de2d22d4b2978ac746270b16d8a895fc1ac Hexagon: fix build errors
-         7dbf005b3a2f11a787c02bb995b6a965b34047f2 Hexagon: add target builtins to kernel
-         d905881cda162beb149f462a96020dc214a4e3fc Hexagon: change jumps to must-extend in futex_atomic_*
+         0e164602f3139c38e25f49e7d61825290e61163e KVM: PPC: Book3S HV: Save and restore FSCR in the P9 path
+         0dc755316b4e7309178662ae8863f24ba39b337c media: uvcvideo: Support devices that report an OT as an entity source
+         bc86d1525a974d71607526968a5915114e4420a2 Hexagon: fix build errors
+         11dea811058c40978d6b31c0e08b95fee181c180 Hexagon: add target builtins to kernel
+         3c5ddd94bb0c5add57fa423aa7f5e189f7907c2c Hexagon: change jumps to must-extend in futex_atomic_*
+         3a4238ca32e6a32c535f98ebed23bbb369d87815 xen/events: reset active flag for lateeoi events later
+         
+  - ref: refs/heads/queue/5.12
+    old: d905881cda162beb149f462a96020dc214a4e3fc
+    new: ab5dbb987411eb7a195317c12f97185728c5f78a
+    log: |
+         5efdf73ad144e854c444f735046f54339daf21c1 Hexagon: fix build errors
+         e63f269c12b33d41fe94f7732d5e2fab90788352 Hexagon: add target builtins to kernel
+         ab5dbb987411eb7a195317c12f97185728c5f78a Hexagon: change jumps to must-extend in futex_atomic_*
+         
+  - ref: refs/heads/queue/5.13
+    old: 2bd940f771f17441c03bdc4543fe380fb527b35a
+    new: aaa1f5834d71fe7b687a0c41834bd8d4cc733d90
+    log: |
+         5863699d23914b2526b519adc17cb02fb76c165f Revert "KVM: x86/mmu: Drop kvm_mmu_extended_role.cr4_la57 hack"
+         7f6cbd0b3e1e8c96e1c8773bb3978825dec5d00a mm/page_alloc: correct return value of populated elements if bulk array is populated
+         aaa1f5834d71fe7b687a0c41834bd8d4cc733d90 Linux 5.13.1
          
   - ref: refs/heads/queue/5.4
-    old: e7b0b94811dfe4313ecc4916b5482d9daf0dcafc
-    new: 6d8e718bbb5f95a5dc61d253b05a6bbce2e93e4e
+    old: 6d8e718bbb5f95a5dc61d253b05a6bbce2e93e4e
+    new: dc624c64e20d92cce1d66155b7fd9e4229c9d474
     log: |
-         a6c85a8433e0606a8ad63a44c1aa32963b61a1a2 x86/efi: remove unused variables
-         3edfd34f1338a6c5e105499287a93dec2a80284f scsi: sr: Return appropriate error code when disk is ejected
-         cf5eb82097234b5c77107a58eccf0509c925fa8c drm/nouveau: fix dma_address check for CPU/GPU sync
-         c5fb49e12f2c3c7ea04a343fdba4af265e91b61e gpio: AMD8111 and TQMX86 require HAS_IOPORT_MAP
-         5e8519c4083bfd937f72c729659c714e7b8d5b29 RDMA/mlx5: Block FDB rules when not in switchdev mode
-         8b24c7edc2f285b2eff7af7dcf02f752ae03b5b6 Linux 5.4.130
-         13a0dcda6e09a973593a79705ccb01a3d942d6a8 KVM: SVM: Periodically schedule when unregistering regions on destroy
-         262ec55b89c24b546110e6e464eba1ffe984775e s390/stack: fix possible register corruption with stack switch helper
-         bdbda1f0f990c65d651bd5d7faca748d75e855ce KVM: SVM: Call SEV Guest Decommission if ASID binding fails
-         6d8e718bbb5f95a5dc61d253b05a6bbce2e93e4e xen/events: reset active flag for lateeoi events later
+         d18105bd34f805010745038f542c85b025aa033c KVM: SVM: Periodically schedule when unregistering regions on destroy
+         738c89a436c1f2aeb17484c643ecdffd88a5fd2b s390/stack: fix possible register corruption with stack switch helper
+         fe3867e55ce9daa4db73e447809cddaa1f730bf4 KVM: SVM: Call SEV Guest Decommission if ASID binding fails
+         dc624c64e20d92cce1d66155b7fd9e4229c9d474 xen/events: reset active flag for lateeoi events later
          
 
---===============0677471963046182703==
+--===============8438284471006481809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a3562920951-220e9eb6fd2e.txt
+Content-Disposition: attachment; filename=revlist-220e9eb6fd2e-33d1af9afe87.txt
 
-45cf55a138f3cc81d1d23653e2c9a95ef78064c0 include/linux/mmdebug.h: make VM_WARN* non-rvals
-f020e6b72508f31af9102d32f38eb8770e9f852d mm: add VM_WARN_ON_ONCE_PAGE() macro
-9324fac976ed5586480c7f91eafd9a2ccf3b338c mm/rmap: remove unneeded semicolon in page_not_mapped()
-8b18dc1a94fc989c0424c45ac9aaf98b8752258b mm/rmap: use page_not_mapped in try_to_unmap()
-df33b325943a9474c4730b0a8177a7a7a572635c mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
-8dbd6fb4618ae8965997278547cf4fb9df0c553e mm/thp: fix vma_address() if virtual address below file offset
-c8bbbd230f9b3d649bff920cd614949f24f741a6 mm/thp: fix page_address_in_vma() on file THP tails
-be3d2de1a0c3ea612cd13266fcda1d7c973e5215 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
-e1b8317c0a24005151198523e574a171b4820343 mm: page_vma_mapped_walk(): use page for pvmw->page
-e701550ab5b245629da17dc48e0745a1a651c59e mm: page_vma_mapped_walk(): settle PageHuge on entry
-1bac8983670bf8188cc5501c2e9e8f5de29ae675 mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
-618abb9caece195141659436a52cc7be62cd40fc mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
-4594c4b9425f7e6c291ca7a9a61183ad8be786bc mm: page_vma_mapped_walk(): crossing page table boundary
-e9be58c243b1cea1127fd8fd6e2b9e7da067f23b mm: page_vma_mapped_walk(): add a level of indentation
-089852fce91ab35ce6015c9f7a888e34784dd4c9 mm: page_vma_mapped_walk(): use goto instead of while (1)
-706acec776c95038191914ea67688b95462a81e5 mm: page_vma_mapped_walk(): get vma_address_end() earlier
-63259392f50cb3dd368b9b17b9c1a0fcfdbe3cb7 mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
-ba59adabf16431b11f9f740e164bf69922a3013e mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
-0600a54ce635183bf80c82eb662c74a7441c573b mm, futex: fix shared futex pgoff on shmem huge page
-d75fdd7d4544a2c0623544d0ba6eb7730814e37e scsi: sr: Return appropriate error code when disk is ejected
-a2fd4dc8cea307c3c62dfd3a60dd0f61e75b183e drm/nouveau: fix dma_address check for CPU/GPU sync
-18ee0415b222f4991e6fe5398ad60ac71f22fa16 kfifo: DECLARE_KIFO_PTR(fifo, u64) does not work on arm 32 bit
-cee3ecb9027d76ff0a81ad5468f12ab65176139e kthread_worker: split code for canceling the delayed work timer
-a9ce1ceb0747d3dd55ab7d1a762ab5af00a8d6d6 kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
-220e9eb6fd2e429561763d32ad05be71058ed9f9 xen/events: reset active flag for lateeoi events later
+52e4e4be68a96e4f622bf0808f3f1b8b8e3f024e include/linux/mmdebug.h: make VM_WARN* non-rvals
+1e2226ca2d235f386edc10dff429d1e4b05f1672 mm: add VM_WARN_ON_ONCE_PAGE() macro
+2168fdee1c859f33c91f3bbd4ed80fa316244312 mm/rmap: remove unneeded semicolon in page_not_mapped()
+7725bf71e04204e54f97d796f4a75c55d7769277 mm/rmap: use page_not_mapped in try_to_unmap()
+aa9f6aae7f5049a804039cb6c2eaca207754dfb3 mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
+52a2b84ee08ade9cf21c019279288df85a763fc5 mm/thp: fix vma_address() if virtual address below file offset
+0b135a95855d19e0f4b0cc8e6f1a90991e63732b mm/thp: fix page_address_in_vma() on file THP tails
+4d11ec7de8e3211cc77c7f7971ec487b7f6c0f75 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+0a1aacfa0ad3528e11657e0f929faba4a2aaf9b6 mm: page_vma_mapped_walk(): use page for pvmw->page
+0fc0d5e17050296d7a731b695908fe9a1911e2f7 mm: page_vma_mapped_walk(): settle PageHuge on entry
+dc1f647b5beabe75d2bcbc53a515bc0c703d5fc1 mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
+ddf44d1561e56dd594ec0a11a0ff6251b51023b4 mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
+0687d16703e273684d4307a5598e4345f7858512 mm: page_vma_mapped_walk(): crossing page table boundary
+de73c64afeb9e74c6092ac55f2fef99f0491ddb0 mm: page_vma_mapped_walk(): add a level of indentation
+f73d6ae9563c2c4058fdd55ec6e36089f47c43f4 mm: page_vma_mapped_walk(): use goto instead of while (1)
+f65cf0560902d10b3fe5fafee7f062689b1fe795 mm: page_vma_mapped_walk(): get vma_address_end() earlier
+5db92030676282dbfb00279dc39eb68fd1c7792c mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
+9cef9b4e393746f9a7d1fe596131c1c3c2f5397e mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
+e26ced04d6e3550086c4c7fa0ff3af2295999da7 mm, futex: fix shared futex pgoff on shmem huge page
+ccfff64fbd03e17603868d48dc61a8d31c33e7ff scsi: sr: Return appropriate error code when disk is ejected
+51891552d4b5444991416f058d3e3f1b153f457b drm/nouveau: fix dma_address check for CPU/GPU sync
+e6df5b5e27760dc8cb087ec8a2ba86239b3da366 kfifo: DECLARE_KIFO_PTR(fifo, u64) does not work on arm 32 bit
+2f35322688c139ea041565bc595cc13e37cd4531 kthread_worker: split code for canceling the delayed work timer
+f90170d025a941f81b0bd64758bbd4e36cbd339d kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
+33d1af9afe87d64149ea19bc9a20393e0e9220d4 xen/events: reset active flag for lateeoi events later
 
---===============0677471963046182703==
+--===============8438284471006481809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf1c92d82fb3-1f8c9e7e5ec4.txt
+Content-Disposition: attachment; filename=revlist-1f8c9e7e5ec4-d52c5ab631ae.txt
 
-181f75a0b181799e38a9dc2c1e9827d9f2de6ed7 mm: add VM_WARN_ON_ONCE_PAGE() macro
-4d2f51bfe0dc429179ae2eff48d4a823f83f934f mm/rmap: remove unneeded semicolon in page_not_mapped()
-3ff63103272a1174e0979f8ef45cde8dda97f6bc mm/rmap: use page_not_mapped in try_to_unmap()
-02281c9d2342af37bb7a0cfcfac1a17642be2b4d mm/thp: fix __split_huge_pmd_locked() on shmem migration entry
-3235838abe30833c68dbe344940d85c73006d8b7 mm/thp: make is_huge_zero_pmd() safe and quicker
-8bf534da2e0614abe7c0bbf12b8928ae861850fc mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
-b57ee8f6e74d89f1d877ee81188d16fd467ef297 mm/thp: fix vma_address() if virtual address below file offset
-679dd38e78c713eca8c58b9eb4fcb31271869eb4 mm/thp: fix page_address_in_vma() on file THP tails
-e3ed9b3f81c33a1f9d79df9824c1b06115d12159 mm/thp: unmap_mapping_page() to fix THP truncate_cleanup_page()
-32380258caa00298cb89da43be98128b6ef08d2f mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
-305120c1db0d711f5513536b1b678d95c459bedf mm: page_vma_mapped_walk(): use page for pvmw->page
-51e218a36c15f5c38d7f4483eb07e898873a7ed7 mm: page_vma_mapped_walk(): settle PageHuge on entry
-a042594c5f2a63cf5956148fcdc317b6f5de0294 mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
-7505f54b8ddc13248f702caa82df19cf3355f9e3 mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
-e881f6f4706f44ae0ec7d7e3904b3e1a5d197659 mm: page_vma_mapped_walk(): crossing page table boundary
-ec6f3fe484c1dc32146a42b3ad8597813a8a3a56 mm: page_vma_mapped_walk(): add a level of indentation
-975e06a8bcb2e17d300b7381ed4bfedf004cfb38 mm: page_vma_mapped_walk(): use goto instead of while (1)
-5c156dc947f40a50228913503344502084842715 mm: page_vma_mapped_walk(): get vma_address_end() earlier
-e2c31845bde15df95399c81050d2d6f84951411d mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
-49d5ed9c05ccca5e1711234235ee17775a50dc70 mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
-5ac1c7f207403ef2a35aa41e51cae17b7f1efbf9 mm, futex: fix shared futex pgoff on shmem huge page
-bb734995ec7b1f3f5666b1ed9d88ee7c54c8967b scsi: sr: Return appropriate error code when disk is ejected
-671ebc816a3a1007f8ec586a97fbf5ffceae3267 drm/nouveau: fix dma_address check for CPU/GPU sync
-e1f32636d5c0977c7b7079eab1d86a18c0bb25e2 ext4: eliminate bogus error in ext4_data_block_valid_rcu()
-db0af0ebccf0e0b46316ec2a3ebc0bce4742de6d KVM: SVM: Periodically schedule when unregistering regions on destroy
-15e4ad7f277e8100e380ae0f76215f39c2a7dd48 ARM: dts: imx6qdl-sabresd: Remove incorrect power supply assignment
-dad69b48994c50815473fd9abb965019220802da kthread_worker: split code for canceling the delayed work timer
-6b4e72efa54d1cf425d9fe45113d2de24726c3ea kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
-1f8c9e7e5ec46332b8d17b8669682ac08c46241d xen/events: reset active flag for lateeoi events later
+ba650ec1418e314d29ea4bdd9565dd9adae26ddf mm: add VM_WARN_ON_ONCE_PAGE() macro
+51300d8ed43a3421a311f55b633e12d3d4564995 mm/rmap: remove unneeded semicolon in page_not_mapped()
+365eef1e949e994d3582576f684e2af706c1c46a mm/rmap: use page_not_mapped in try_to_unmap()
+0fac5ed44998f828517d4110b443583570451f02 mm/thp: fix __split_huge_pmd_locked() on shmem migration entry
+08e25e300fb9064d699c2a8669502073a0c6d5a9 mm/thp: make is_huge_zero_pmd() safe and quicker
+bd04482525083a5f316d25c66fb89e25f7373d85 mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
+07d2b6dd330d430443aa6b3fa6cfff2ed23c0f89 mm/thp: fix vma_address() if virtual address below file offset
+93f1a7413d62d6a17784b754ab4c64f14cd6fc27 mm/thp: fix page_address_in_vma() on file THP tails
+7f529fca67d217a12e44d3f0b41af70e260dd1ae mm/thp: unmap_mapping_page() to fix THP truncate_cleanup_page()
+7fc80cf5695d67c64c7db07e41d0b423507c8011 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+655dda76b9d97dbfe0fe3dfa97c7ef760a2af53f mm: page_vma_mapped_walk(): use page for pvmw->page
+af82e0993f8b0179c30e3eb51c4d58f9602ad98d mm: page_vma_mapped_walk(): settle PageHuge on entry
+f930de9138abc563e9ad36ff73c1c900ea0e1cef mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
+6e8a74db5f2076f1ea321ab2efafaf41a9f2007c mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
+a38de48abca95f357d8998ee4c33d1b75768990a mm: page_vma_mapped_walk(): crossing page table boundary
+6daac7e6808d7166892f6af1076ed2e70e560dd5 mm: page_vma_mapped_walk(): add a level of indentation
+8d43aaa73aaaa6fd6e68f37db2cb79c27a005d03 mm: page_vma_mapped_walk(): use goto instead of while (1)
+ad76da08fed312e6681f40b735a375b1885575b4 mm: page_vma_mapped_walk(): get vma_address_end() earlier
+e15fdbd25caf76e70c56b88a854b9916af66f120 mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
+559b622d4881c5b3196590d1c3ba7ca32596a003 mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
+9a7114f0b9fd51c8b10c84c77c4be58e21e8dd12 mm, futex: fix shared futex pgoff on shmem huge page
+a95b9e7efb4b9c5d54d1251ad6a86bb4fc786013 scsi: sr: Return appropriate error code when disk is ejected
+3eb93a1a47c9a4d8aa222e8dd2c2a80b6937ce9a drm/nouveau: fix dma_address check for CPU/GPU sync
+759eebe451e7cc69825df8a1a87c9818ec2fbe93 ext4: eliminate bogus error in ext4_data_block_valid_rcu()
+069a9d083db698334e6066a2f41e2cbb925315d2 KVM: SVM: Periodically schedule when unregistering regions on destroy
+c92fb2d918abc6772190f842f393f5a76a17d350 ARM: dts: imx6qdl-sabresd: Remove incorrect power supply assignment
+22db16492e87ff1f87aab8ef2d7fd9c3ce26bcd2 kthread_worker: split code for canceling the delayed work timer
+bf10ee1b02b2a50061ade9fc6bb7b7110665ce48 kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
+d52c5ab631aeb7aa56ad9505e53ad83778c6611b xen/events: reset active flag for lateeoi events later
 
---===============0677471963046182703==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-209c9d1f6abb-b430934a83eb.txt
-
-f77f97238496aeab597d573aa1703441626da999 scsi: sr: Return appropriate error code when disk is ejected
-d191c3d6ad330a686bfe41e923442594766cc619 gpio: mxc: Fix disabled interrupt wake-up support
-45ca6df5df11da7f19c85591e093479d5c60262f drm/nouveau: fix dma_address check for CPU/GPU sync
-348143a38012656f914cc7d3f016849e08a76d82 gpio: AMD8111 and TQMX86 require HAS_IOPORT_MAP
-4ab869e0289dbab0aeeedea5e5c4536e13af47b2 RDMA/mlx5: Block FDB rules when not in switchdev mode
-4dc96804286498f74beabcfb7603bb76d9905ad9 Revert "KVM: x86/mmu: Drop kvm_mmu_extended_role.cr4_la57 hack"
-a09a52277207fa79fc1aa7c32be6035c264a79c4 Linux 5.10.48
-aaf22519c21120ed61efe6b70f7ff5dae99fb06c KVM: PPC: Book3S HV: Save and restore FSCR in the P9 path
-9de78e56c0caca3bcc439840195deb7d5f015bad media: uvcvideo: Support devices that report an OT as an entity source
-ba100c0e6a0a212d2aba330680e5b31575d00794 Hexagon: fix build errors
-2e1f1a71b306dc761484dd068853f4e756087a93 Hexagon: add target builtins to kernel
-edfc989f504fee8f9f50f90907a0ffdd42d81415 Hexagon: change jumps to must-extend in futex_atomic_*
-b430934a83ebac9a5020343e22384fc9f74512c6 xen/events: reset active flag for lateeoi events later
-
---===============0677471963046182703==--
+--===============8438284471006481809==--
