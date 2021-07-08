@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 08 Jul 2021 21:57:20 -0000
-Message-Id: <162578144029.946.12631827802883980201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Thu, 08 Jul 2021 22:15:21 -0000
+Message-Id: <162578252160.12722.11646318703159103363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/tags/v4.19.196-cip53-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 4897b33734fa72b163be996769fa7c95cc65cf7e
+  - ref: refs/heads/master
+    old: 6f6674109a68b23625ecf7f29d2b8b8a00be2471
+    new: 799146bcad0f57f7b649fd0df37a9d589e2e0e2e
+    log: |
+         25b64c66f58d3df0ad7272dda91c3ab06fe7a303 ethtool: Add netlink handler for getmodule (-m)
+         fc47fdb7c3645815d18d2c33c836d1f8ee7ac4a7 ethtool: Refactor human-readable module EEPROM output for new API
+         b2b19243f7371aa498c8193bca891b8a68491fb7 ethtool: Rename QSFP-DD identifiers to use CMIS
+         79c8b58778f7a4947d434f7d2b0c6b5c59835304 ethtool: Update manpages to reflect changes to getmodule (-m) command
+         4c8f9e3092162822e40607cafe4e9768fb621b5b Merge branch 'review/getmodule-v4' into master
+         601ea409cb54485bfead833454e8a828d850a8bb netlink: work around spurious selftest failure
+         799146bcad0f57f7b649fd0df37a9d589e2e0e2e Release version 5.13.
+         
