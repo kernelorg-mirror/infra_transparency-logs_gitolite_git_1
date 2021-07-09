@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2697508109539499864=="
+Content-Type: multipart/mixed; boundary="===============1433395059316914828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 09 Jul 2021 08:52:13 -0000
-Message-Id: <162582073321.12337.4080696291091550597@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 08:53:32 -0000
+Message-Id: <162582081248.12852.12574768839468595404@gitolite.kernel.org>
 
---===============2697508109539499864==
+--===============1433395059316914828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/printk-rework
-    old: 3342aa8e6b4f6e3f1521e9b4cf5cfe50dbc37774
-    new: 11e4b63abbe23872b45f325a7c6c8b7f9ff42cad
-    log: revlist-3342aa8e6b4f-11e4b63abbe2.txt
+  - ref: refs/heads/for-next
+    old: 48e72544d6f06daedbf1d9b14610be89dba67526
+    new: 70333dec446292cd896cd051d2ebd6808b328949
+    log: revlist-48e72544d6f0-70333dec4462.txt
 
---===============2697508109539499864==
+--===============1433395059316914828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3342aa8e6b4f-11e4b63abbe2.txt
+Content-Disposition: attachment; filename=revlist-48e72544d6f0-70333dec4462.txt
 
+70d654ea3de937d7754c107bb8eeb20e30262c89 regulator: mt6315: Fix checking return value of devm_regmap_init_spmi_ext
 293649307ef9abcd4f83f6dac4d4400dfd97c936 x86/tsx: Clear CPUID bits when TSX always force aborts
 4692bc775d2180a937335ccba0edce557103d44a x86/sgx: Add missing xa_destroy() when virtual EPC is destroyed
 94f0b2d4a1d0c52035aef425da5e022bd2cb1c71 proc: only require mm_struct for writing
@@ -46,7 +47,6 @@ d759cd46b9f15180321b6f246a6e0964d4510aef media: userspace-api: avoid using ReST 
 a169c44e58190bbdaf9c8d345cd445eec2c2b010 media: driver-api: drivers: avoid using ReST :doc:`foo` markup
 6ef43d273e8562366035d8086008e4000a270fd8 media: admin-guide: avoid using ReST :doc:`foo` markup
 60ed39db6e861f4a42dfa75f9b53f10093f6d672 Merge tag 'usb-v5.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-6262e1b906a1ba12688ea6039453b4a088dbaf44 printk: Move EXPORT_SYMBOL() closer to vprintk definition
 2030043e616cab40f510299f09b636285e0a3678 can: j1939: fix Use-after-Free, hold skb ref while in use
 8d0caedb759683041d9db82069937525999ada53 can: bcm/raw/isotp: use per module netdevice notifier
 5e87ddbe3942e27e939bdc02deb8579b0cbd8ecc can: bcm: fix infoleak in struct bcm_msg_head
@@ -559,7 +559,6 @@ ca1f4d702d534387aa1f16379edb3b03cdb6ceda s390: clear pt_regs::flags on irq entry
 8c0795d2a0f50e2b131f5b2a8c2795939a94058e s390/vfio-ap: clean up mdev resources when remove callback invoked
 9e3d62d55bf455d4f9fdf2ede5c8756410c64102 s390/topology: clear thread/group maps for offline cpus
 67147e96a332b56c7206238162771d82467f86c0 s390/stack: fix possible register corruption with stack switch helper
-4249cb7d920060dfa925d3b9f6a37f0a7c025a16 printk: Remove trailing semicolon in macros
 69bb0585ebb0c48c93fc55fc27afbfc06adef2fd arm64: insn: avoid circular include dependency
 61eb1b24f9e4f4e0725aa5f8164a932c933f3339 regulator: hi655x: Fix pass wrong pointer to config.driver_data
 ba5dabf40e9143ff6c48943b76a532d5ab34d0e8 regulator: qcom-rpmh: Cleanup terminator line commas
@@ -1050,5 +1049,6 @@ d8c032145fccfead0c3f733e7b6aaa4e81f9d326 Merge branch 'for-5.14-vsprintf-scanf' 
 b694011a4aec3e8df98bc59fdb78e018b09de79d Merge tag 'hyperv-next-signed-20210629' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 11e4b63abbe23872b45f325a7c6c8b7f9ff42cad printk/console: Check consistent sequence number when handling race in console_unlock()
+70333dec446292cd896cd051d2ebd6808b328949 Merge branch 'rework/fixup-for-5.15' into for-next
 
---===============2697508109539499864==--
+--===============1433395059316914828==--
