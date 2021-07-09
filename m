@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0035344201715393042=="
+Content-Type: multipart/mixed; boundary="===============1032413664598654941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 09 Jul 2021 13:15:48 -0000
-Message-Id: <162583654844.7214.10288209446264365901@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 13:15:58 -0000
+Message-Id: <162583655825.7348.5455228304232174457@gitolite.kernel.org>
 
---===============0035344201715393042==
+--===============1032413664598654941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,47 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 8b24c7edc2f285b2eff7af7dcf02f752ae03b5b6
-    new: 901498b2630533698a5037666f2d140b120ac995
+  - ref: refs/heads/linux-5.10.y
+    old: a09a52277207fa79fc1aa7c32be6035c264a79c4
+    new: 5b40bcb16853d5fa948446202f43ea3fbcc14f33
     log: |
-         822944b9f98479dd02dc355b8d1cdc765ac0fce1 KVM: SVM: Periodically schedule when unregistering regions on destroy
-         a16a5d0f215bd3895a0108722bcba67ba8225fa7 s390/stack: fix possible register corruption with stack switch helper
-         cf1d7e197026500db2a31d0b3bab5c31ba8df98a KVM: SVM: Call SEV Guest Decommission if ASID binding fails
-         a3217c668620b6326857754c9f108c84bc5853db xen/events: reset active flag for lateeoi events later
-         901498b2630533698a5037666f2d140b120ac995 Linux 5.4.131-rc1
+         8edc2d6e96acbf86058bfb9ddf45ca6ffc3e1228 KVM: PPC: Book3S HV: Save and restore FSCR in the P9 path
+         fa4756a04d88e8f9d14d298b76bcb42f070c790a media: uvcvideo: Support devices that report an OT as an entity source
+         167d1433fd16bd0713b6b94e5a4c016305a94fbb Hexagon: fix build errors
+         5538d62b7eafd88e6f576cf3d797f180bf34d7e7 Hexagon: add target builtins to kernel
+         a6f96084ff761e4ddb84cd3e680c5c4160d84d1f Hexagon: change jumps to must-extend in futex_atomic_*
+         89f988b4e0a4d929e2a856da914895d5bbfb6250 xen/events: reset active flag for lateeoi events later
+         5b40bcb16853d5fa948446202f43ea3fbcc14f33 Linux 5.10.49-rc1
          
 
---===============0035344201715393042==
+--===============1032413664598654941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836543 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836553 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1625836542-b1d5af47f0ab0c5d4dcb8f5198ac546bbdf58570
+nonce 1625836553-63f90ad6f69bc2e0cf0a150927a10e2deb3a43b4
 
-8b24c7edc2f285b2eff7af7dcf02f752ae03b5b6 901498b2630533698a5037666f2d140b120ac995 refs/heads/linux-5.4.y
+a09a52277207fa79fc1aa7c32be6035c264a79c4 5b40bcb16853d5fa948446202f43ea3fbcc14f33 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoS/8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fZ0QAIaVvAdR6RYZH9gsxk7z
-RQLJ01QPNhce1rgyUKiKEwWeZaW3j4y17L5Ny3HFXXacUeLhtk5TiPUqLN34UzrC
-XTAji+hf2WK4W7m8I13PTtohfwKbKPRAkndSUIJ1KaNVKTX04QsHrFwRl08JQsU1
-FrZ9e3ZOFFtyIrm8c8bRAG6ddaa3oQx+xNp5YhdVB2+1k/G1JSwcTq3cdzzLLTpS
-fpHPOiuOvsyDB9J+uTl3foy+8kjJ5MScVzf5znNDV7QjlTWMSyjTq7q8reNtaJ79
-J+DbfaVzvybnNSuN1uhgZexvFiFzQrvybDOdUfTtVXLFtXuZJmd+WGsOFNudjoey
-328C00eSexkOhN18yk/MPLOOUBoOOg34ENKsJDQP6s//JdlCfOADTUyBQ5Vu7U7I
-ZlXV15kOTrInRLHAzCaw/2OMAXp3RTYIrt86UbATgWKhOjORuYRO++uMCOsWVaKo
-KeermTHPs5AlEfL4siwE6Rnm0KJ7bDCrkjFuVNLcf/JkSZCdNrvPj6zXEC354F46
-JRmWQqhK26zK6Ku52OtinoNhWO+VNNPRT4B9mQbRfmawN+M97Y655ovDJ5fO/vj9
-/iuLW8XiRVMZvwUQBCjobKPIP4WfLbDKJDTGpIpdZWRCyLl64bH3e+EhLydATHPH
-JiuA+v2C+dsH/IpLOH6dGg08
-=5JdB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoTAobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XZQQAMkWIQDyul8NVn82Z5Oe
+Dvf6uJNAYiZUdUJ37q8JEWNhnABTqBbbEPnvP0N2tUo1Jib0mG3H83GOHaY2OVJF
+PtrprQgnhcDAqMpYnp4C+jIZUfWWso7UHvt9C+Bme7syq0++jZ9/E5UkAtBZQd/P
+R+z9DqK0zkxiCUyRtKZXKfthl5a/eL/IC49dK2GOcnaVf/xdi2cLXxhTnSMRYoq9
+98k6s+QB2U3DmqXyWS/K1N5oTipHPyD4mOOoqlGgcMyNN0RbumTUYxHoVWb3waG/
+fLReT/7b/D/keNIjEHjgSVWIBuOyhI2iAouqEXZiQH+DWJKJ3gSUcoU/aH4wcOqX
+xXaQYc23pt9tofN09aNv8w1HLung3sxN3AfSpewVSqpGbG90PG5z1yrNwwmAcvX8
+rEs57FJom/mBNY1PkPG3BAYdIBWzpZb0wl9T+WMhnX2+mJnbF/Zo5Xu4CbQQvInu
+6qLcHJk8lyoZ2QxFM4ZI6iW1fj7Xj3f2ssfqpGGcOoz+HbVEV32/FpQtOx0QDxDa
+qLQ0I8A1y4LJEMDvTyS6F6MyeLL9+InZlBRAnWLl4Uq5niVFykQCzGjIDwKQWfdb
+2yNLpH1XJ7C3/485f/fpp2GEo9IOa2yIkTspasu7BP+EgU0JeC3cujIHPpFZXKZK
+zqrJuVR972wM4GfGbBAWjelB
+=0Bkp
 -----END PGP SIGNATURE-----
 
---===============0035344201715393042==--
+--===============1032413664598654941==--
