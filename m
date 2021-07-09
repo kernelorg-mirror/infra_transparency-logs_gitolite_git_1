@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4524859780338279091=="
+Content-Type: multipart/mixed; boundary="===============8625807209184911524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 09 Jul 2021 13:15:39 -0000
-Message-Id: <162583653947.7064.7356673035350072639@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 13:15:47 -0000
+Message-Id: <162583654730.7170.17266300751658300738@gitolite.kernel.org>
 
---===============4524859780338279091==
+--===============8625807209184911524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,45 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.13.y
-    old: aaa1f5834d71fe7b687a0c41834bd8d4cc733d90
-    new: 80f33de843bdd118ce659ff03bb173e52e63fe7a
+  - ref: refs/heads/linux-4.4.y
+    old: 200ecf5055dfba12b9bff6984830a7cdddee8ab1
+    new: aaf5d64b8bc08476aa535c19e5c4d7406874a0f4
     log: |
-         80f33de843bdd118ce659ff03bb173e52e63fe7a Linux 5.13.2-rc1
+         bd340d86080f71420570bbe055913c4ed61a0889 scsi: sr: Return appropriate error code when disk is ejected
+         a7ea25dd50e41af1a0c367d03d1e4b9ab4bd13d3 drm/nouveau: fix dma_address check for CPU/GPU sync
+         cb276fb0e91a060ec25e8ba129d2355be7e3c461 xen/events: reset active flag for lateeoi events later
+         344ebaedec680d5731d6a6a839990d26808cd368 arm: kprobes: Allow to handle reentered kprobe on single-stepping
+         aaf5d64b8bc08476aa535c19e5c4d7406874a0f4 Linux 4.4.275-rc1
          
 
---===============4524859780338279091==
+--===============8625807209184911524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836533 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836542 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1625836532-fb641f0966d145a01d5e7a8dcdaddebe6357f661
+nonce 1625836541-ef3946835b5b60cd056b9c6ceb2dda8c4b3d5a66
 
-aaa1f5834d71fe7b687a0c41834bd8d4cc733d90 80f33de843bdd118ce659ff03bb173e52e63fe7a refs/heads/linux-5.13.y
+200ecf5055dfba12b9bff6984830a7cdddee8ab1 aaf5d64b8bc08476aa535c19e5c4d7406874a0f4 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoS/YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SUkP/R8JEVgXrcVuxllGvsOc
-NolT6guuD24i4IpXedMHypuMTBGZZ9HdVfL5JGAjTdwkNE22YLuQ8O1ofEGiUKJO
-qm/O2nw9CkZh1MDrm0O4tLqUrusreEQ8A9h5fdyuTuwcct6nKuUfVFg3pVQFFQEW
-Mdka04Diw1IPlDSdjHzfVDR5ia02Jhs7yWJoNClqwVa2vMTGs4TRX8I9GIvLtkeB
-CpfYMb+Betzo4NOwPMYVv7iuvB9WGBKpFI/h1WnldL14z0Jvp+3ijaEu0ZCOKB6Y
-nP42n1GLs8/Zg62PHLz9GkEnLKP4o4I1G6SzE3Db/pmCdEoG+g0n/D2H+jYhWqdU
-r2Lq+0lJCvz+btndwsQc8VPIumXHu8LzH7IqsIiaIceEA0EaCVoU5+Is3d37+E+1
-awo98Ekp20BIDf8daqYdJOVNgIHDYIRlLW/JTk2Uyu5c5Td/lSW8/TVp/JtrMlUL
-fUTQC8FhGLmhnZhL7qx47xrwqbmkB5xJZ01WEREzXW7cD6GRUmHME5DHwX4nuBQb
-zYRcH8YwQHNSqpIGEH6aKvWIIDPMlRUTxmfAYP7MRE9UM1RnqtsRHx85FzxDj2lq
-nPwU6Hp7+wshGsZqWUonsOtJZPX/VFLnTZME2jSZZbYaLLKfINg7wnQ8/3WYS7e/
-9H3Qhaczj9gq5U0z2jcGw4H8
-=yO18
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoS/4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kuUQANdpA4XuJlQDwzIpfYLW
+Z4MeQo2A/eBCsDv2kaYNZBwjUpkNb1s41iOu1CnLc1B6LQWl3hEULdCNCNG/hj0Y
+pJXgStpLvTlj3+zKZ7UjhW1enu+x8K0U/4GPidveMAQi+bGfrjRjVk9LQRDDjR1w
+Smi91PU/MdZUpedvpDyzwAsGV/hzYnDyZimBFU+vDxYXzDviUhPLbxapjfydmWQ7
+M1pZ+0To0IqBKRfkAYmSGuBEcmJrAOpqOUllvpmQdjb+ks/Tw5sDMCSetd+tlfO/
+BP68ac0m4xMD3JRqbZxVPU66os0QXe2YixzU+/XXkpJJIz/+AVWDaIxeQlpRtiFv
+EqNZwaY1QSoDrSaz4Ht2Uj/1ugoqx7Fg4tfBciLNPUA2NcAQXpmrJy6L6feFBOFE
+Kav5rMfJ6l4hHrZDj1u2cIOSd+rQveBeJfs4CcFW0o9m9pTlfSUNYSaBt3Bzh5QI
+/0L4K7mcQp7ZT2gSv+L3PyS/2YWz6s4et7Jq251lmgbWxGE9X1D6zITGFr3vwoch
+oa4yd6E6lj2CJXqSNH2ptf4+jIlvUImXOl9jN6wO4EoK049Rx9UeYCQ1iVFvGads
+Mx1/xS9XMo4t9a+XwNwvwPNTDHRzMe7vWcfR3WrxFlvKHvX23E+Lc9brIp+qctBz
+VSi3tq1G0246ZL+a45Chbdqd
+=jD9c
 -----END PGP SIGNATURE-----
 
---===============4524859780338279091==--
+--===============8625807209184911524==--
