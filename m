@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2808795283819892487=="
+Content-Type: multipart/mixed; boundary="===============6417044341598446748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Fri, 09 Jul 2021 22:09:34 -0000
-Message-Id: <162586857474.28397.17633513077555829735@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 22:10:24 -0000
+Message-Id: <162586862400.30126.9717042984652059872@gitolite.kernel.org>
 
---===============2808795283819892487==
+--===============6417044341598446748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
 user: djbw
 changes:
-  - ref: refs/heads/libnvdimm-fixes
-    old: de80d578113605164c358e4b532db2be5b71b1a7
-    new: b05d4c576b697b9f462b9c532c997171d5c3b067
-    log: revlist-de80d5781136-b05d4c576b69.txt
+  - ref: refs/heads/master
+    old: 5e60366d56c630e32befce7ef05c569e04391ca3
+    new: 62fb9874f5da54fdb243003b386128037319b219
+    log: revlist-5e60366d56c6-62fb9874f5da.txt
 
---===============2808795283819892487==
+--===============6417044341598446748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de80d5781136-b05d4c576b69.txt
+Content-Disposition: attachment; filename=revlist-5e60366d56c6-62fb9874f5da.txt
 
+d4b250562fb89ba6f94156b8bea12b8829cfa9a6 i2c: qcom-geni: fix spelling mistake "unepxected" -> "unexpected"
+9dd45bbad947f7cc4f3d4eff7fc02a7e3804e47b i2c: icy: Remove unused variable new_fwnode in icy_probe()
+52b806e8d6b3c06d5f8415f82d7353695acb2f00 i2c: I2C_HISI should depend on ACPI
 c4740e293c93c747e65d53d9aacc2ba8521d1489 i2c: sh_mobile: Use new clock calculation formulas for RZ/G2E
 3d0220f6861d713213b015b582e9f21e5b28d2e0 bpf: Wrap aux data inside bpf_sanitize_info container
 bb01a1bba579b4b1c5566af24d95f1767859771e bpf: Fix mask direction swap upon off reg sign change
@@ -1047,8 +1050,5 @@ b7050b242430f3170e0b57f5f55136e44cb8dc66 Merge tag 'pinctrl-v5.13-3' of git://gi
 625acffd7ae2c52898d249e6c5c39f348db0d8df Merge tag 's390-5.13-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b4b27b9eed8ebdbf9f3046197d29d733c8c944f3 Revert "signal: Allow tasks to cache one sigqueue struct"
 62fb9874f5da54fdb243003b386128037319b219 Linux 5.13
-2e29be2e491595407087ab36a5e5a159be693f7b fs/fuse: Remove unneeded kaddr parameter
-44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
-b05d4c576b697b9f462b9c532c997171d5c3b067 dax: Ensure errno is returned from dax_direct_access
 
---===============2808795283819892487==--
+--===============6417044341598446748==--
