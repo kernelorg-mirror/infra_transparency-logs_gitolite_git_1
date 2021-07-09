@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 09 Jul 2021 14:50:06 -0000
-Message-Id: <162584220665.31879.11118424475436974484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Fri, 09 Jul 2021 14:54:41 -0000
+Message-Id: <162584248161.1307.1830217341571852458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/tags/io_uring-5.14-2021-07-09
+  - ref: refs/tags/tegra-for-5.14-arm64-dt-fixes
     old: 0000000000000000000000000000000000000000
-    new: 1f7bc385286271be031aa2e2e74152b2bc0d0366
+    new: 025b2e829a38685aa1014413937a022ff99da63e
