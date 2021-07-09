@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2923988532227097678=="
+Content-Type: multipart/mixed; boundary="===============5756289282023603242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 09 Jul 2021 21:46:47 -0000
-Message-Id: <162586720709.13478.9269848685184453344@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 21:46:59 -0000
+Message-Id: <162586721941.13628.7996149665649606165@gitolite.kernel.org>
 
---===============2923988532227097678==
+--===============5756289282023603242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 0f17d24fb32233dd37db3880abf31f2ab696d609
     new: 6ba6fee714828a0a96d7677e93e76323b428cd18
     log: revlist-0f17d24fb322-6ba6fee71482.txt
 
---===============2923988532227097678==
+--===============5756289282023603242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ae60e12bb63773c8ac894eb336631bce01fcbc7d headers/deps: mm: Move the __pa_symbol(
 8a6df5921a3700e14481fde6d937f6a501e3a47d headers/deps: x86/mm: Optimize <asm/mmu.h> dependencies
 6ba6fee714828a0a96d7677e93e76323b428cd18 headers/deps: mm: Optimize <linux/mm_types.h> dependencies, remove <linux/rwsem_api.h> inclusion
 
---===============2923988532227097678==--
+--===============5756289282023603242==--
