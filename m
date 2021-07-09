@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 09 Jul 2021 18:22:35 -0000
-Message-Id: <162585495514.10392.4179502118129647103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 Jul 2021 18:24:25 -0000
+Message-Id: <162585506564.11116.17910887056195207786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: c47a5599eda324bacdacd125227a0925d6c50fbe
-    new: f47a9c8a5899ff1e76a3afc2b7b55cfb2f1162bf
+  - ref: refs/heads/master
+    old: 2b452550a203d88112eaf0ba9fc4b750a000b496
+    new: 43b90bfad34bcb81b8a5bc7dc650800f4be1787e
     log: |
-         3fd35de1686bf809431c5f0137de8eee5a2811d6 libperf: Add group support to perf_evsel__open()
-         0ec138125eaea5f15157adcecc3e0def1ad2ed22 libperf: Remove BUG_ON() from library code in get_group_fd()
-         f47a9c8a5899ff1e76a3afc2b7b55cfb2f1162bf libperf: Add tests for perf_evlist__set_leader function
+         c78eaeebe855fd93f2e77142ffd0404a54070d84 net: moxa: fix UAF in moxart_mac_probe
+         ad297cd2db8953e2202970e9504cab247b6c7cb4 net: qcom/emac: fix UAF in emac_remove
+         0336f8ffece62f882ab3012820965a786a983f70 net: ti: fix UAF in tlan_remove_one
+         43b90bfad34bcb81b8a5bc7dc650800f4be1787e net: send SYNACK packet with accepted fwmark
          
