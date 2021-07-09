@@ -1,21 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 09 Jul 2021 18:58:45 -0000
-Message-Id: <162585712517.1274.6610900923823331260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 09 Jul 2021 19:14:00 -0000
+Message-Id: <162585804091.10739.8568604406195163961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: f47a9c8a5899ff1e76a3afc2b7b55cfb2f1162bf
-    new: eb7261f14e1a86f0fd299a2ec408990d349ce3d1
-    log: |
-         e2c18168c373c92de476b5592807169941a153f5 libperf: Remove BUG_ON() from library code in get_group_fd()
-         afd4ad01ff0441fdb3f2907f9f8c6e019e62270f libperf: Add tests for perf_evlist__set_leader()
-         eb7261f14e1a86f0fd299a2ec408990d349ce3d1 perf test: Add free() calls for scandir() returned dirent entries
-         
+  - ref: refs/tags/kbuild-v5.14
+    old: 0000000000000000000000000000000000000000
+    new: 5ac771a521297e84567d8215cd87f8a0492fabac
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
