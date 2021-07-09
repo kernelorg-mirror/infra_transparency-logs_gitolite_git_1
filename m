@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 09 Jul 2021 00:37:23 -0000
-Message-Id: <162579104378.8474.6774508643487451065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 Jul 2021 02:36:13 -0000
+Message-Id: <162579817350.26975.15493114272755063672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: b5c3a8d28dc24df1f5819e2a35c8f212b3231852
-    new: 2a355eaa1ddba9da784eead26c14dc234d29fa4b
+  - ref: refs/heads/master
+    old: 5702b81ea47b3ca3db2e5fa4a382e72fd8eef693
+    new: 2b452550a203d88112eaf0ba9fc4b750a000b496
     log: |
-         e7a1d42ac8e1e2bc196aa54ea4b428fed0980115 rcutorture: Upgrade two-CPU scenarios to four CPUs
-         d0e0d74e9fe5cd84a2bb9d70b6144e6933068edc torture: Use numeric taskset argument in jitter.sh
-         8e2e9e2c31cbacffcd1fe740358ffe0dcfa82a9f torture: Consistently name "qemu*" test output files
-         2a355eaa1ddba9da784eead26c14dc234d29fa4b torture: Make kvm-test-1-run-batch.sh select per-scenario affinity masks
+         2b452550a203d88112eaf0ba9fc4b750a000b496 net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
          
