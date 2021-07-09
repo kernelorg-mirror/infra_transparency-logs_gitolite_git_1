@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 09 Jul 2021 15:44:17 -0000
-Message-Id: <162584545701.936.15184971020354933108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Fri, 09 Jul 2021 16:02:08 -0000
+Message-Id: <162584652863.13942.18196759313537359227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: a3a541eb3e69a6e51dcc8c0363277dd45ae5ca0d
-    new: 5d8af1b11329908d036858b69f3c84da9ba41004
+  - ref: refs/tags/fixes-2021-07-09
+    old: 0000000000000000000000000000000000000000
+    new: 2b81d6aecfcbd3c5e0d7c15a1eb67f901b74505e
