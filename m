@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4859263840211533234=="
+Content-Type: multipart/mixed; boundary="===============6532685837821029963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 09 Jul 2021 22:54:15 -0000
-Message-Id: <162587125526.26558.17912858725647042742@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 22:54:25 -0000
+Message-Id: <162587126536.26709.11107873802533185671@gitolite.kernel.org>
 
---===============4859263840211533234==
+--===============6532685837821029963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,66 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: b61ea6e9a728bd8a35a2e4882df4669d0c972725
+  - ref: refs/heads/master
+    old: 6ba6fee714828a0a96d7677e93e76323b428cd18
     new: a5874218d5bd15e863fdda72d478c846fabf100f
-    log: revlist-b61ea6e9a728-a5874218d5bd.txt
+    log: revlist-6ba6fee71482-a5874218d5bd.txt
 
---===============4859263840211533234==
+--===============6532685837821029963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b61ea6e9a728-a5874218d5bd.txt
+Content-Disposition: attachment; filename=revlist-6ba6fee71482-a5874218d5bd.txt
 
+7fe70a15b5a133bc7513a20d8cce0760c19ab782 headers/prep: arm64: Move the ARCH_LOW_ADDRESS_LIMIT definition from <asm/processor.h> to <asm/dma.h>
+0346c929e6843b2322490fa3fefaff71dcbf8fea sched/headers, per_task: Add the per_task infrastructure
+06d41dbcf226f70a069c9623d073d6a7280a87ff sched/headers: x86/fpu: Make task_struct::thread constant size
+233aba9b23e973f58efa1a33f8ea4940ccb07c3e headers/prep: fs: Make the <linux/pipe_fs_i.h> header build standalone
+aeed08711b606de7b27096a8832d189856f38050 headers/prep: seccomp: Make the <linux/seccomp.h> header build standalone
+705f6fe722340ad7066ddeb5ccbd4e1cc5959aa4 headers/prep: locking/bit_spinlock: Make the <linux/bit_spinlock.h> header build standalone
+8aa0a87e54338a9b5b43c3f0a1af37bd518325c5 headers/prep: dql: Make the <linux/dynamic_queue_limits.h> header build standalone
+6a6af9dca18b9412c586ada17f5950b3a28f5629 headers/prep: x86/asm: Make the <asm/atomic64_64.h> header build standalone
+02bd5331888c902ded740240db7824f95bcd0295 headers/prep: bitops: Make the <asm-generic/bitops/find.h> header build standalone
+8abb962ec5a0118f24501de02ca5d596684ba6b6 headers/prep: x86/asm: Make the <asm/jump_label.h> header build standalone
+5ec7648dc0af2d2b76097fc3100acd67fc281f7c headers/prep: acpi: Make the <acpi/acpi_drivers.h> header build standalone
+082efb502afde73ff53b45f9eb101488d7fbd28b headers/prep: x86/fpu: Make the <asm/fpu/types.h> header build standalone
+bb9c6a6a4b19cdb18006812151e02a6ddad53474 headers/prep: x86/asm: Make the <asm/irq.h> header build standalone
+4366a4855210008c4355e8787f0ae003002950f3 headers/prep: x86/mm: Remove unnecessary #ifdef MODULE block from <asm/tlbflush.h>
+5c6b7c7d5991b4728ef694c919e8a9a4b868b6ef headers/prep: kernel.h: Move READ/WRITE definitions to <linux/types.h>
+5689bc4fff37eb73373d33d5f63fed63c49afba8 headers/prep: x86/relocs: Bring the reloc*.c code up to modern kernel standards
+c4a3b0d91a5d9ca29068622160d2b9d2ae9775d8 headers/prep: x86/relocs: Pass in file name from command line
+398f71cbf8d9ecbe3112259bda8b2b729d09c6fd headers/prep: x86/relocs: Add struct section::idx
+84f3f30ff881488a7d2f46542f3ae8fed04f2983 headers/prep: x86/relocs: Improve symbol warning messages
+5432b5c188f3b542edd5b14b948c40798eda6545 headers/prep: reboot: Make the <linux/reboot.h> header build standalone
+1d0e478fdbc18619583c373b3549f58898adb838 headers/prep: watchdog: Make the <linux/watchdog.h> header build standalone
+2f2655709c02cfc17ae7371d697acc3757291775 headers/prep: net: Address namespace collision between netdiag's SOCK_DESTROY and the SOCK_DESTROY socket state
+fc0166e5e20bb06906f8ac753a156cc9e51dc2ac headers/prep: arm64: Prevent <generated/asm-offsets.h> namespace collision
+f8e0827233aa9e1b087e4a1cf24d9ad8cefd6248 headers/prep: arm64/mm: Move the VM_DATA_DEFAULT_FLAGS definition from <asm/page.h> to <asm/mmu.h>
+65ce7ec5de8ed4c49b9af54b1ecba2eadedfddd8 headers/prep: treewide: Prepare for header dependency removals
+d019caf20effd74a2508396f9efdf52175ef0d0f sched/headers, uapi/headers: Create usr/include/uapi symbolic link
+171f956331814db5ad2ac7fdf102554ce03f8930 sched/headers, sched/core: Uninline scheduler_ipi()
+4101b2241b58cdda667bfc587a1990164ff801ba sched/headers, rbtree: Uninline rb_link_node() and rb_link_node_rcu()
+458863a3a96949f87d3bc6795008a70cbed18b74 sched/headers, rbtrees: Split <linux/rbtree_types.h> types out of <linux/rbree.h>
+6357979ab1533472ff0ae6014fa2fa5d3572b621 sched/headers, rbtree: Remove <linux/rcupdate.h> from <linux/rbtree.h>
+8bab14a9b862e17ea4e3b51a995f0c481a149ffd sched/headers, pid: Uninline task_ppid_nr()
+c8866fcfced5af21b7db9ebc71b89ecda59b1270 sched/headers, pid: Move PID type definitions to <linux/pid_types.h>
+bcd7aed659c8ee78ea20368a9aa18fc00c70f296 sched/headers, sched/core: Uninline __cond_resched_rcu()
+62a83120f36b597807c468042b4ea5ea6e3df697 sched/headers, seccomp: Split out <linux/seccomp_types.h>
+a7ed52205c01ef3440182a27480890acbeb86781 sched/headers: Move rseq APIs to <linux/sched/rseq_api.h>
+bc8010ccc89301455761c60e59d2a660311f64b3 sched/headers: Remove the <linux/hrtimer.h> dependency from <linux/sched.h>
+b95c5b5850d2e55943f060091820ecb7ea9a7200 sched/headers, timers/posix-timers: Move posix_cputimers fields out of <linux/sched.h>
+dce937b9e3659eed7c157b295b7a9e6762dda5bd sched/headers, sched/deadline: Move task->dl to per_task
+f297cffb532047eb1863ed16395742e4291913fa sched/headers, sched/deadline: Move 'struct sched_dl_entity' definition from <linux/sched.h> to <linux/sched/deadline.h>
+63d997478e9c14f8aef9f8c7dc51aa2421566f57 sched/headers: Remove <linux/posix-timers.h> from <linux/sched.h>
+393ca73ab8fa935b3ba8550e7b27a27c6dcef5bb sched/headers: Remove <linux/rcupdate.h> dependency from <linux/sched.h>
+be6f36590034d4f5d88952153d6f412c4afbfed4 sched/headers, ipc: Move the 'struct semid_ds' definition to the C code that uses it
+0dafba4d89c3ed747c899a75fe1ef6853074f136 sched/headers, ipc/shm: Move the 'struct shmid_ds' definition to ipc/shm.c
+b45e20a40fe9fc186ee7564ca0dbad50baa38ff9 sched/headers, ipc/shm: Remove <linux/ipc.h> from <uapi/linux/shm.h>
+b255cba1ab55a443c2673a13a146504ec925d064 sched/headers, ipc/sem: Move thread_struct::sysvsem to per_task()
+d686cc275a7114ef9cac0594ad8148f08b80158e sched/headers, ipc/shm: Move thread_struct::sysvshm to per_task()
+da8b09acd3a99b1d5f9948f8f9497142afb53225 sched/headers: Remove <linux/sem.h> from <linux/sched.h>
+6d72473102f002f07882584130ec12a18fa9e26b sched/headers: Remove <linux/shm.h> from <linux/sched.h>
+d85dfce7afe18366c83321881be8939ea642ad47 sched/headers: Remove <linux/resource.h> from <linux/sched.h>
 3c8a432ac14b27ed5c875ae862fc2ffda9e54e9b sched/headers: Move task_struct::vtime to per_task()
 9b453f827efca4807ce17c1610358700eea3f449 sched/headers, sched/cputime: Move 'enum vtime_state' and 'struct vtime' to kernel/sched/sched.h
 14f16ab81c2b9b2f6d2e53d42df0ecdff1388bd0 BACKMERGE TO: ("headers/prep: arm64: Move the ARCH_LOW_ADDRESS_LIMIT definition from <asm/processor.h> to <asm/dma.h>")
@@ -794,4 +843,4 @@ c3364cb01916b8f2245a4fbf349e032bd3853210 headers/deps: mm: Optimize <linux/mm_ty
 1ec703beeae4b1ec8bcac7a0808ae500961563fa headers/deps: x86/mm: Optimize <asm/mmu.h> dependencies
 a5874218d5bd15e863fdda72d478c846fabf100f headers/deps: mm: Optimize <linux/mm_types.h> dependencies, remove <linux/rwsem_api.h> inclusion
 
---===============4859263840211533234==--
+--===============6532685837821029963==--
