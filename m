@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 09 Jul 2021 13:11:08 -0000
-Message-Id: <162583626849.3626.1218982197974401400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 09 Jul 2021 13:11:23 -0000
+Message-Id: <162583628310.3777.11151282974900238993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: afe416705273f61d90eaafebd82ab6bd7ebd12e1
-    new: 4e29e0fe49f12728a85c502674d397708252a2e3
+  - ref: refs/heads/for-next
+    old: 4030a6e6a6a4a42ff8c18414c9e0c93e24cc70b8
+    new: 3ecda64475bccdfdcbfd5b9b7e4bf639d8b233da
     log: |
-         2fff45c2d8fda19be581f3bc2f34b0904cf7b29b perf stat: Add Topdown metrics L2 events as default events
-         d4057bc0f4089c25417e4fecb6c05c6fe0196aa5 perf record: Add a dummy event on hybrid systems to collect metadata records
-         4e29e0fe49f12728a85c502674d397708252a2e3 perf tools: Fix pattern matching for same substring in different PMU type
+         26c563731056c3ee66f91106c3078a8c36bb7a9e tracing/histograms: Fix parsing of "sym-offset" modifier
+         fa73514d5e620c2bb48b63e1dd509ce0942c39cf tracing/selftests: Add tests to test histogram sym and sym-offset modifiers
+         3ecda64475bccdfdcbfd5b9b7e4bf639d8b233da ftrace: Use list_move instead of list_del/list_add
          
