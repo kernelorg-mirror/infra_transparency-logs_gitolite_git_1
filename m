@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6221160068901121124=="
+Content-Type: multipart/mixed; boundary="===============8344642735323684980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 09 Jul 2021 13:16:53 -0000
-Message-Id: <162583661347.7890.5377914336070288716@gitolite.kernel.org>
+Date: Fri, 09 Jul 2021 13:17:10 -0000
+Message-Id: <162583663048.8092.7627262986692484906@gitolite.kernel.org>
 
---===============6221160068901121124==
+--===============8344642735323684980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,81 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 313e82bbefb3d1d926858b58092f5d50f41d924d
-    new: 89bdc2d2afb34594a4865d7be3a8b4b898e0d955
-    log: revlist-313e82bbefb3-89bdc2d2afb3.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 9f84340f012ee60c12aacc03662bcdd67419a31a
+    new: df520a4397b2a281e4b2ac05b0c85f8875c3ea11
+    log: revlist-9f84340f012e-df520a4397b2.txt
 
---===============6221160068901121124==
+--===============8344642735323684980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836608 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836626 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1625836607-d54f40396245440f0b0226a3f2b2c45ff8e07553
+nonce 1625836626-ed47706c8c302e267ee0d1eff292aa716c689648
 
-313e82bbefb3d1d926858b58092f5d50f41d924d 89bdc2d2afb34594a4865d7be3a8b4b898e0d955 refs/heads/linux-4.14.y
+9f84340f012ee60c12aacc03662bcdd67419a31a df520a4397b2a281e4b2ac05b0c85f8875c3ea11 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoTEEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MekP/RGjzBPM87scVTnv3505
-f8fNPffxufJowfn0xUNUDE9ZPYTvgLyfwnX2jukReXe1RHIuC3Wj7c4yIN0CCGLB
-SB2g6ZD1JyL7ugbRFzMNdesEu8iJZB0vgGrFhrZz36E+VfaNyI/ZEstkJQLL5azv
-dc9qnhptTgi/CAou2h7JCUEC7Pr2Cn0Ku07DRa/BJDsD2786FwFpgDnnJJoqFplQ
-fJU5oxdk8BCddXtkEOQIlhGoG5lNRYOZxi7ZdzJlZ/cwV8h4YcMdsa+40OwlmBkx
-CGRfkS6x2+anyqOljy5+PHqUDYdcMrH6hdgFH6YPP1CO3uv8riZVDta/qT7K3ocv
-OJHoVqv56JAy9fhZQjURdNjAFQ2h5940qtdsDEGay68l1+R26Pi7TxlvfAPiDHM9
-PpaZbzdAuL9UEO72WSJjELvZk8ZPOlQhAoOYIHcBndzXHjFC/+hyHodCjdibkRtJ
-PKrvojFL/e3qXQY8+jkaqiEQe3OAo5wMjuwpYs+6OkPKh6hWcXg1vdFun+zQz673
-t3Y4yzePCmNomnRKngYfd3GHbhju+eOuAN39gsD3SD6UJnda+LDHB/Hi3LdNMQeA
-I1UcvEhd1s5ShPdVuLosJj5TFjhw/m/qK7pB24bpGtNwg1S3HmAjoxXWuf4M+KNF
-9NKjA4ZU09Szc4BZC3/QCA1D
-=N9pw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoTFIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8rEP/2zKQhCT7TrloiQsEb12
+UAnL+TaD4S6WgINTAmR2Yc3ooNz7qjtbumUmb7mLhUh+zYHXZzSR4EgO5ZkEyzew
+T0OvbnmrKCpKgG0tTex54yoQFBF5TRDKFp61UMJmFShlEtckc06oYJCiZTFmtvJC
+c3jpdMk0NlaKDIQJQQsfCBtBiLk8lkOJNSd4NpkOcg8b3f/QP7um5cdnwKvx0VPg
+avmkNmV5avFSZiFN/QENh2w5wKHS5p8r43k4epaK2QW0n3O1wSOcOFgb9+buVgIf
+5kMFMhmtQhhCmXWBuZ0JbvkeVLYiPX1NTwMcHvWBSAeY9QzzQtWJcJm1iMVy5Lj2
+H7ducmk2YE1LlfGuUYM3rBCeJoegGAP6rUtfsDzZDnJsDmJti1D4LXazCI2b9j5d
+iJ320wOLEcgwuOo/ubFUBy8HP1sCRsXqTPoTT45tIUoUEvoZ1gGCXb6eKlU5i8sM
+EbHASiJSMYLNi3pip2pklgkZJ+du8MAQItbptC+/ifxJmK7hCFXetgXBigVvto06
+Ne/RyQVeCju4XpXmP5Rxnm6SKKBPNLhJr2XyHWK0TW8YGmUgbnfnUbWhFjJrcx7p
+VUWSXH6/Fb4uoDdMuDWPNMMTP/lBOvrpzXKTU2hgRZwVxkTOO1zFyFP+QtzhdUR0
+sr4roEPDjiCmWMK8wfyN7BYX
+=Ap0v
 -----END PGP SIGNATURE-----
 
---===============6221160068901121124==
+--===============8344642735323684980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-313e82bbefb3-89bdc2d2afb3.txt
+Content-Disposition: attachment; filename=revlist-9f84340f012e-df520a4397b2.txt
 
-799e12e48d3151767c0c1b5861dda8282e32d968 include/linux/mmdebug.h: make VM_WARN* non-rvals
-48ef93842b9d602bf22251021e1eb90ccd80029a mm: add VM_WARN_ON_ONCE_PAGE() macro
-36022c522c2808c572b31a85c9d6106a2538cf6b mm/rmap: remove unneeded semicolon in page_not_mapped()
-32f7513480c4160e8847f9ddfc56441da0e8cf0e mm/rmap: use page_not_mapped in try_to_unmap()
-99752850e5684c201b338e30d1ded717ab1963e5 mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
-fa44d58f06a84c41fa3ef06527191761447ec443 mm/thp: fix vma_address() if virtual address below file offset
-4639c8c8cabbb074c14ef84254366bcbc71b9c54 mm/thp: fix page_address_in_vma() on file THP tails
-c9e869f1f0e82c0b52cebbcd0365c23ec64a0ff5 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
-94fd73aeda226399fdacd9af48d95ffda7a254a6 mm: page_vma_mapped_walk(): use page for pvmw->page
-f0d6b2fcf58d357ee72957a3d89f08b25a899208 mm: page_vma_mapped_walk(): settle PageHuge on entry
-38f8bf0085850e0e5ec606912055f913593b168e mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
-8ea0088ddbf9ffe7c97ea327e2ccf30de69b4de0 mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
-68778a0e7714de78d9a209df455332392f5e4f5b mm: page_vma_mapped_walk(): crossing page table boundary
-4f4063fe004cd1560a8552a2b821a447dd8758b0 mm: page_vma_mapped_walk(): add a level of indentation
-44d9b45b0d9f8d68a9acc755b32e4d1941d5a796 mm: page_vma_mapped_walk(): use goto instead of while (1)
-c01c923dbf69f9f56dd9a5d81811de362da3bf7f mm: page_vma_mapped_walk(): get vma_address_end() earlier
-0e0cf02372158c37d1aa734f4cb1bce22167a4c3 mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
-c96aa2a1759f907cfd92fdd61d0bd3094adee2b1 mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
-554c860e1639bccd3b2e6e4ce09d975d154db340 mm, futex: fix shared futex pgoff on shmem huge page
-452ed7fd723e88329e632ebef8c198a9a37d23fd scsi: sr: Return appropriate error code when disk is ejected
-10b91c65499100ed215a309a0f6c58c27eeecc30 drm/nouveau: fix dma_address check for CPU/GPU sync
-736fd9e662f774b7df08226cf9521caa5444c842 kfifo: DECLARE_KIFO_PTR(fifo, u64) does not work on arm 32 bit
-a0c3e3f4ee34dccd5e2ac09843a0a6784989fdb4 kthread_worker: split code for canceling the delayed work timer
-daf823af93a656bfa8cf5e2da310b9757a282714 kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
-d25720180805d8322555a0b764cd9a06d6d2fdb1 xen/events: reset active flag for lateeoi events later
-89bdc2d2afb34594a4865d7be3a8b4b898e0d955 Linux 4.14.239-rc1
+ef440b9264d33a193a078b9f6f343bf402e2b28f mm: add VM_WARN_ON_ONCE_PAGE() macro
+af9d88e1507d1a10b2a90b063353e3f1980e90e4 mm/rmap: remove unneeded semicolon in page_not_mapped()
+22e78bfcbabf4ab23a904b4536377beb3d10e6c3 mm/rmap: use page_not_mapped in try_to_unmap()
+197f4523ebacb2560fd80dddadff545b09c7be9d mm/thp: fix __split_huge_pmd_locked() on shmem migration entry
+231e4ff8aa76c47f11788acb29e93957d9513a24 mm/thp: make is_huge_zero_pmd() safe and quicker
+c5c55bc14ca3d71aad42bf91bced6de37a777317 mm/thp: try_to_unmap() use TTU_SYNC for safe splitting
+0b6769d9836191080f5b18800dee0f1015b072cd mm/thp: fix vma_address() if virtual address below file offset
+be3c626f1ef4eb6fee298922f2e031366f8bb6df mm/thp: fix page_address_in_vma() on file THP tails
+ff16e6117197f145ed4985ba90fcfc587d034c91 mm/thp: unmap_mapping_page() to fix THP truncate_cleanup_page()
+f17feb0dca45ef740b093a406bbf9aeb391cad8f mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+fd38345c32cd1569ee8495bad75abc00120279e3 mm: page_vma_mapped_walk(): use page for pvmw->page
+efa7debc440f9fe20c72b3e42a1b1e9f1b8dcdd3 mm: page_vma_mapped_walk(): settle PageHuge on entry
+2fe4323b6ca7859711eea756ad98f354862705a9 mm: page_vma_mapped_walk(): use pmde for *pvmw->pmd
+ee03255dfe280cdccb152e70e61bdc94eebe642b mm: page_vma_mapped_walk(): prettify PVMW_MIGRATION block
+7f5021370f94fb0892fa7a5e159c842adb5f7d09 mm: page_vma_mapped_walk(): crossing page table boundary
+8eabf8e633c3e027d08351f5a68cf7a181ed3396 mm: page_vma_mapped_walk(): add a level of indentation
+4bf9d23e9707955949e3bb8520301c7ca81be89e mm: page_vma_mapped_walk(): use goto instead of while (1)
+1275e98670627a524aae9004a74793cd31ffb99f mm: page_vma_mapped_walk(): get vma_address_end() earlier
+17435cc83ca387ba7c1e0a9d9b09388549c0849f mm/thp: fix page_vma_mapped_walk() if THP mapped by ptes
+1d8c7b6a8278ba92ec6317b205e5b58b712258b5 mm/thp: another PVMW_SYNC fix in page_vma_mapped_walk()
+f3d147dd7cf92be770d492dccf235d80a0bddace mm, futex: fix shared futex pgoff on shmem huge page
+a2dcf264f5e440a7643c55048a261f41a8dc4bc0 scsi: sr: Return appropriate error code when disk is ejected
+2dea06fbef0c079cddff41d3b8b5021ed2c6bbda drm/nouveau: fix dma_address check for CPU/GPU sync
+ad505ca03853251bbd28980289a3614cf068f15d ext4: eliminate bogus error in ext4_data_block_valid_rcu()
+97780541708e81136459c598a0b744ba706aec00 KVM: SVM: Periodically schedule when unregistering regions on destroy
+65f2fdd740077f87b6eef5f3b2b7129a48df9d17 ARM: dts: imx6qdl-sabresd: Remove incorrect power supply assignment
+7ff3a4d4307fd19b2c3097601ab154a8521bc53f kthread_worker: split code for canceling the delayed work timer
+041850e46a97ba390e068f3b585bd564fb6fcf87 kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
+cb66a1f48bdbf5ccb5ecaae892e7e51cec0bbea8 xen/events: reset active flag for lateeoi events later
+d61e8c1a72607bfab56671fa073781ac1aca698e KVM: SVM: Call SEV Guest Decommission if ASID binding fails
+47f288b84b58cdf7b47179cf65b2d9865188e2fb ARM: OMAP: replace setup_irq() by request_irq()
+3d819f744a164439f40b4e47382d6f67698d527f clocksource/drivers/timer-ti-dm: Add clockevent and clocksource support
+eb460a45d4eebd63924482628b6a98ae590c13c8 clocksource/drivers/timer-ti-dm: Prepare to handle dra7 timer wrap issue
+d5d2c9eedfbcda7aeabb54e59fbd91da960dc73b clocksource/drivers/timer-ti-dm: Handle dra7 timer wrap errata i940
+df520a4397b2a281e4b2ac05b0c85f8875c3ea11 Linux 4.19.197-rc1
 
---===============6221160068901121124==--
+--===============8344642735323684980==--
