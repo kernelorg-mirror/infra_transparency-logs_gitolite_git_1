@@ -1,20 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 09 Jul 2021 10:09:37 -0000
-Message-Id: <162582537705.13355.15111000064148202184@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5993499405948657089=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 09 Jul 2021 13:09:16 -0000
+Message-Id: <162583615679.1289.6791170550745957672@gitolite.kernel.org>
+
+--===============5993499405948657089==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: aa80a10c008cb23d2944de01014a9ffb6536bd14
-    new: 1fb5ba29ad0835c5cbfc69a27f9c2733cb65726e
+    old: 675cea6f2c937a12b861f89107c868ed809115a3
+    new: 85294e0377ddd20c5ed66665d8409218fb42d000
     log: |
-         f263a81451c12da5a342d90572e317e611846f2c bpf: Track subprog poke descriptors correctly and fix use-after-free
-         1fb5ba29ad0835c5cbfc69a27f9c2733cb65726e bpf: Selftest to verify mixing bpf2bpf calls and tailcalls with insn patch
+         85294e0377ddd20c5ed66665d8409218fb42d000 4.4-stable patches
          
+
+--===============5993499405948657089==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625836155 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1625836154-6c51ec26c0c37398dc161c560f86f457e18c6623
+
+675cea6f2c937a12b861f89107c868ed809115a3 85294e0377ddd20c5ed66665d8409218fb42d000 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDoSnsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MkwP/1kO/ounLXXU8X9pGQ93
+V8riAt9vaLVbPQ4a9EEjDu9YcORQWDgROkTDyFD4R2Nnxu5/YDKJ4rksIQP0nbXE
+qYgiuvOzk7M0kcXf5bwNKOH9Xheo4aEg/nM4T17C/l8RQj6n8B1pYPd+vvX68QP1
++9n1leRf+k8xHU9YSFbDx5PTY6xDIvl5VXIKdVgj6kdjdF0cVVOQWONN5HbifhVH
+W+NLQaHmGrUE34BcL2W7BwfKze9WohEmhTKYp2xUPPG+3SaauQBu4k6KJxiaiY0r
+wTQMR8qUpAsDM43mDWxsSA6+HuGCsfUOuM0dhrjmFkjYukDAsomJPAAFOy9ckFEF
+hTlriaViSkZU47SDrNcJzauKM7IaxKzb4PbcEekbyn6SkgKz6i4Ng7PesdM47wdZ
++8EGXIXRmET5dhVBxqdb0xLtNVgSoaXdCUqAp6w4P+rDLutz5heU7kPD8wjMGxFA
+Wj1y4q7MBYQWwghMx1e80H8M/YasXHvNwt+QQWDdAQ18sd//bLwjLC8AY+nVv3vk
+WWTgqdc9J0xsW/2ycgJ0oQmZOYxJdH0jzbGl9zSXJrJgT4Pt+UyFJ0pUoKylNxUT
+xtkzhRHA4+Dviis7fmEWaBRcgUHJHI1nO2YGUSP/J03zoklk4gXvvlkjomgYuDNh
+r3bCx/FT3DkNpcPzyFQvsFCG
+=s5dX
+-----END PGP SIGNATURE-----
+
+--===============5993499405948657089==--
