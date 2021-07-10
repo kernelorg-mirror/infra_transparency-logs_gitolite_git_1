@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 10 Jul 2021 01:44:00 -0000
-Message-Id: <162588144006.6944.16017748440952412045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sat, 10 Jul 2021 02:51:18 -0000
+Message-Id: <162588547823.19518.3185123369028118359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 5d52c906f059b9ee11747557aaaf1fd85a3b6c3d
-    new: 849fd444dd7383c437699997dcbca8d49d27b836
+  - ref: refs/heads/for-greg/5.13-4
+    old: 798392691a2ca6ec4ed61b5e600f0142cdf38a74
+    new: 5cf549d1c8ca602999f6872b0d80442900487949
     log: |
-         0c71929b5893e410e0efbe1bbeca6f19a5f19956 mptcp: fix warning in __skb_flow_dissect() when do syn cookie for subflow join
-         030d37bd1cd2443a1f21db47eb301899bfa45a2a mptcp: remove redundant req destruct in subflow_check_req()
-         8547ea5f52dd8ef19b69c25c41b1415481b3503b mptcp: fix syncookie process if mptcp can not_accept new subflow
-         6787b7e350d3552651a3422d3d8980fbc8d65368 mptcp: avoid processing packet if a subflow reset
-         a7da441621c7945fbfd43ed239c93b8073cda502 selftests: mptcp: fix case multiple subflows limited by server
-         ce599c516386f09ca30848a1a4eb93d3fffbe187 mptcp: properly account bulk freed memory
-         849fd444dd7383c437699997dcbca8d49d27b836 Merge branch 'mptcp-Connection-and-accounting-fixes'
+         6bd39667d5b0d20048d94e9846b64cae716b7045 i2c: core: Disable client irq on reboot/shutdown
+         c4a961d6bd023d9c999f0fd1770aa01cd7be8cce phy: intel: Fix for warnings due to EMMC clock 175Mhz change in FIP
+         6f7e7a7348c64863e173c4a9f9681d97de91c8ae lib/decompress_unlz4.c: correctly handle zero-padding around initrds.
+         5cf549d1c8ca602999f6872b0d80442900487949 kcov: add __no_sanitize_coverage to fix noinstr for all architectures
          
