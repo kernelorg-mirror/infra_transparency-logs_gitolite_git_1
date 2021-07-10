@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1421781938570375252=="
+Content-Type: multipart/mixed; boundary="===============6393964791162036345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 10 Jul 2021 07:07:46 -0000
-Message-Id: <162590086656.29060.15050476548793585945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 10 Jul 2021 07:20:51 -0000
+Message-Id: <162590165126.6732.123644943219088277@gitolite.kernel.org>
 
---===============1421781938570375252==
+--===============6393964791162036345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/main
     old: 77d34a4683b053108ecd466cc7c4193b45805528
     new: 50be9417e23af5a8ac860d998e1e3f06b8fd79d7
     log: revlist-77d34a4683b0-50be9417e23a.txt
 
---===============1421781938570375252==
+--===============6393964791162036345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625900865 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1625900864-b1c9e8f67675a846dc2eb5bf5b3686f970c29bf9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625901650 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1625901648-d217f4c4d84d0a15c04be53ed0d5b5869c3df33d
 
-77d34a4683b053108ecd466cc7c4193b45805528 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 refs/heads/staging-testing
+77d34a4683b053108ecd466cc7c4193b45805528 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDpR0EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YDAQAJuIEjRKzCw7ojF25ay3
-OyHTrYSFgglrTQV+Y8H4aacF0rV6iBuF6lxPTu08vOM0JdDRlx/rh/AKtMBarj+W
-6bcDx7N1u0tpt6+bD/UR+DLLIJObGaeteVv7ES65nf3i03S9DrLEUkbVNdvWNQPl
-mxyoBqt2qPD7x6UQaXsPaWK76tN0k6cLZbXnPGJCwySq1XlOBYfg56VuPs93a2J5
-JFxByY7poSGgCK6VLYwwPkQotyjhH/8qNqSthpVCXynvy4uOaMLfKMW8GvpxNk7G
-2uPMPeWeIvWQKvzJJSSQeKrojzwKhK6TrQSyNXBw6rPDQlrfs3ucZhZ7i+mk80Ry
-sfKonb8QJgvMw2XUY/wYwPlpcRPA/akf6dOFn7O6al1IobNWr7hn+nl38YU/ELsS
-HzExgaNPs9J7Ze1EV+zqHQn49RkuSMWcxJVFXwd9FvMKFS29Xs8YKF7K0nY4Q98J
-+9GDMjpdeCjDPFuYIFhayvAv2S6pd7lXXHFlBgOEqY/knyNHp9/tvGn0VNUn7/zX
-Q1ZwlQ2enR4fMoq3xevCqnlAPdrXnJ9GHjXx2Up1c0XJFrYjO4dd6xkUptcLks0x
-ar9rN8/IJzIXZVfLmbnl5RkyYg+LS5im+Tp43OJ12bb04uuqpq2qSP2qmLt1K/I2
-SZUDZiyFkp/buRPa5+GoiZOL
-=ZYzn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDpSlIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YrAQALUKnFOxqljmKi7RrIX4
+P4QaaDYtNiOti2aH46Jn+8WX5hebsOhjegX9xzd/vgIajVanqazvzD3Yt9P2nbm7
+2Z5nD8WTPLxvFts0n0HmmE2UDq/62GkFd4NalSSV0BXTRohO+D8xX1JBzvo7YQOH
+MDcMFzH0MTlZDg9+GmrX3BSZFefVNfckpKDvIOFomJPOLQhHMLhY45bQafvRiaIe
+br0R1xltupdbqsmhbYaYYAcusTJw7x+qiy6c04POfiWbaWxEje58yj3Uh+ZLHRll
+CGXqI+CXokvgi6+XflpgbQ7WbP95Ny32evTyD6GvxV1sZb6kdw2ePA8Uar7d5iVQ
+GiaHH2xq8ouX4P/t+Euex9JJvDMs+rrQMOQ+jGnmVchffNcBXywlzCZpmuKvx1/k
+Mig/UCE3ca/CXJ9riOfFIy783vEIrAyA83MO7xvxaK6gir0ZCN0OnpvVNpHnrk75
+8SCKrXrzlRr0VqDKFCfHULH5zdm/L+fW7aj6QM19w5fmRL6ZWxpRl6tp15ZbycdP
+2SBBlmUSn9QGQQWXe/L3ZvC3HGgAxZkgqHBU7SV5d1QkOgjTJgyK4WUK64aRQCmi
+ldacff/RZBfGu/IofjO6rlO7e04VVsw8OLJMudk+t0gVCe/6nSASMsT8lv3f1wo1
+ZH+i0YnWoeKfoQNUAeD2iv65
+=rY2B
 -----END PGP SIGNATURE-----
 
---===============1421781938570375252==
+--===============6393964791162036345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -933,4 +933,4 @@ d8dc121eeab9abfbc510097f8db83e87560f753b Merge branch 'linus' of git://git.kerne
 a022f7d575bb68c35be0a9ea68860411dec652fe Merge tag 'block-5.14-2021-07-08' of git://git.kernel.dk/linux-block
 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 Merge tag 'io_uring-5.14-2021-07-09' of git://git.kernel.dk/linux-block
 
---===============1421781938570375252==--
+--===============6393964791162036345==--
