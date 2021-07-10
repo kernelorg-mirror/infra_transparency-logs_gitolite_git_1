@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4473252918226148930=="
+Content-Type: multipart/mixed; boundary="===============1625211947891120551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 10 Jul 2021 15:53:35 -0000
-Message-Id: <162593241539.6546.7321405806754672942@gitolite.kernel.org>
+Date: Sat, 10 Jul 2021 15:53:48 -0000
+Message-Id: <162593242830.6704.4308794312236037522@gitolite.kernel.org>
 
---===============4473252918226148930==
+--===============1625211947891120551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/togreg
     old: 6cbb3aa0f9d5d23221df787cf36f74d3866fdb78
     new: 50be9417e23af5a8ac860d998e1e3f06b8fd79d7
     log: revlist-6cbb3aa0f9d5-50be9417e23a.txt
 
---===============4473252918226148930==
+--===============1625211947891120551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d8dc121eeab9abfbc510097f8db83e87560f753b Merge branch 'linus' of git://git.kerne
 a022f7d575bb68c35be0a9ea68860411dec652fe Merge tag 'block-5.14-2021-07-08' of git://git.kernel.dk/linux-block
 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 Merge tag 'io_uring-5.14-2021-07-09' of git://git.kernel.dk/linux-block
 
---===============4473252918226148930==--
+--===============1625211947891120551==--
