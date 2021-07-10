@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Sat, 10 Jul 2021 12:12:38 -0000
-Message-Id: <162591915846.20442.16817311874132339383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Sat, 10 Jul 2021 13:42:57 -0000
+Message-Id: <162592457771.14318.16934882408420323486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/tags/mips_5.14_1
+  - ref: refs/tags/s390-5.14-2
     old: 0000000000000000000000000000000000000000
-    new: a59dc58a370cabaa7cf8a2116ad73b8faf49bed3
+    new: 040a6b889df03474899cb97624bd76e8cb6975eb
