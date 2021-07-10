@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3093122008622588413=="
+Content-Type: multipart/mixed; boundary="===============7101441234730260533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 10 Jul 2021 07:21:10 -0000
-Message-Id: <162590167069.7545.157244809719167620@gitolite.kernel.org>
+Date: Sat, 10 Jul 2021 07:21:16 -0000
+Message-Id: <162590167663.7664.11663944412870577401@gitolite.kernel.org>
 
---===============3093122008622588413==
+--===============7101441234730260533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 77d34a4683b053108ecd466cc7c4193b45805528
     new: 50be9417e23af5a8ac860d998e1e3f06b8fd79d7
     log: revlist-77d34a4683b0-50be9417e23a.txt
 
---===============3093122008622588413==
+--===============7101441234730260533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625901669 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1625901675 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1625901668-30bd1ec0a24a13edb56fec03e43ddf043556c7dc
+nonce 1625901674-032fd326fecb6c466ddd14211eedecae9001c19a
 
-77d34a4683b053108ecd466cc7c4193b45805528 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 refs/heads/usb-next
+77d34a4683b053108ecd466cc7c4193b45805528 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDpSmUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+738P/3RdBuvhBo7v2GOep0x1
-BiqIj2s9TeBcwvsaW6zjPpw0slgyycjYgE6/NudCJP0iKNBi6m/9Q2amlrJeVZZv
-V17NW3y6ry10h99mMR3LGP6qgi8I38opYPstW8ujgC0hHhRiBjgA/VBMnP+p2l6a
-/sCpLCgqNKDsMnFA2u6el+XtPx9f0Qq2TDlC1d5nlEgvnBStj0R4lzbbPzVdUvs2
-a7Afuu63dgYL3oNp/xZskCGseFMG4/8uWi5084vhoEeh/NwsClhW6URXaT2V/0eF
-18+KwRSn375AizqGc728J1fhuU+UGsH1z3HMdgL8cZePYN1x7Yt8QB9YqdpMz7Qw
-tL/6qOEaAfNBIOLQUDb3hFrhxK4eLrSIuVNeseNR+ZiTcZDIMTArFz2sOfzY9Prb
-WqxOlbJanT0aqPHsLnyuxs511BlFgBr0npB8Zszvz/kfUhi0/2+1EcFjSefgrlGH
-MPO0cRXTfO9fVeQR4Sb8xgxt/mPpZoCpcAfUl+EFfxkaRHfeY4vX3u7tZ07oAgWj
-pb4r0bjWC6OuLkpLNzddSW8dq44B0Cz5bcMl1ZSjr30umOmtbTCvcUOH/5Bmq7pW
-LYlNqtDxl49Jcku3aAHWS1+ITb6Q4lr2vt2pr5VLQGW/BVtVFcE45ntHO4jaQyZP
-IUr5+oMh8DD816IpMr5uabQr
-=x4Th
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDpSmsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6NgP/jiuC+zEmKMrjZ2X1s+X
+aGnGQR3rNiNea5uiE7016xg61dGKozyLLLheOWXujOOnyza53oQ8h+M2f6OV3zwj
+AdcpKUST53MCXHgrfGmEZwkIMxj7Jc/jzNi2/b/6j78ZAL5TP+t3VoEPI0irEj61
+mUHq+B9CBnJuwzhORBlBaumKVHolwLul7wduBuAy9xKfksBrCBCiPNFmMNzqalrG
+zJgpo7eoA1eYiQ0cQkQkUf5cap3jPp37AOtjhuVrnsdsEfrtnumDJYEusAEOpv8G
+H1bV/ho4NuEypcgcLQ3JEwQ+atmRrajXQa1T64N3AiwpjjUFzYulVRfLeLG20Pd/
+rWNXVGSyryIc9ZP8cz8kN19CcB1dghKTVVGW+AE1fKZSD2MaSHVcDq4s/E0G6ihb
+RogMhg4gXWyNVR3FKxGi9HB/I1lebFL+XcLk8ttE/2RyViPM9P6EBWQt8UYGXV6u
+idoB0jWyaiQRl25GLj7ZmdLIdEb80HgJto4HxugfyajrriDpFh4joWo0PH+qUn0J
+ke2QVYc+emI49tp6qIMI3LYb0u1kG5aolb5iTdXiZ/JCLFA0/G0aJOi/3eGt9Ga/
+QJMTWeDUbzkJQn5brzFcfumBORBDTMEj2v0UKyTzs/ncIiEPA37WhluqYMoTnqso
+V+IaQ22lM2Yssy6r5lszo6nh
+=XRTh
 -----END PGP SIGNATURE-----
 
---===============3093122008622588413==
+--===============7101441234730260533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -933,4 +933,4 @@ d8dc121eeab9abfbc510097f8db83e87560f753b Merge branch 'linus' of git://git.kerne
 a022f7d575bb68c35be0a9ea68860411dec652fe Merge tag 'block-5.14-2021-07-08' of git://git.kernel.dk/linux-block
 50be9417e23af5a8ac860d998e1e3f06b8fd79d7 Merge tag 'io_uring-5.14-2021-07-09' of git://git.kernel.dk/linux-block
 
---===============3093122008622588413==--
+--===============7101441234730260533==--
