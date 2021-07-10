@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0742947773479370235=="
+Content-Type: multipart/mixed; boundary="===============7165304514272918793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 10 Jul 2021 05:14:58 -0000
-Message-Id: <162589409847.18780.11749701910594565480@gitolite.kernel.org>
+Date: Sat, 10 Jul 2021 05:16:52 -0000
+Message-Id: <162589421268.20972.11648925167651010281@gitolite.kernel.org>
 
---===============0742947773479370235==
+--===============7165304514272918793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: a5874218d5bd15e863fdda72d478c846fabf100f
     new: 22c2cc438448c152052efc1891409b911a25f975
     log: revlist-a5874218d5bd-22c2cc438448.txt
 
---===============0742947773479370235==
+--===============7165304514272918793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -820,4 +820,4 @@ e53760f5c1f37715e8de18e9fc5d38b9489bea62 kallsyms/objtool: Make the kallsyms wor
 dcd66e7fff43a10fe02222006a4dec776550cd97 headers/deps: x86/mm: Optimize <asm/mmu.h> dependencies
 22c2cc438448c152052efc1891409b911a25f975 headers/deps: mm: Optimize <linux/mm_types.h> dependencies, remove <linux/rwsem_api.h> inclusion
 
---===============0742947773479370235==--
+--===============7165304514272918793==--
