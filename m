@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3640669529874106825=="
+Content-Type: multipart/mixed; boundary="===============5240619626434156622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 10 Jul 2021 09:06:01 -0000
-Message-Id: <162590796165.28643.13766299302453012320@gitolite.kernel.org>
+Date: Sat, 10 Jul 2021 09:06:16 -0000
+Message-Id: <162590797674.28830.10330852603525081006@gitolite.kernel.org>
 
---===============3640669529874106825==
+--===============5240619626434156622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 3fc33c280b57fa43f54b7cebbd87ff16bb599c5a
     new: dc8b9efdc9d8a36648e4d3a4170a6fe473414f32
     log: revlist-3fc33c280b57-dc8b9efdc9d8.txt
 
---===============3640669529874106825==
+--===============5240619626434156622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -844,4 +844,4 @@ b9ac75ce4bd176af3f02923a2c554c43b648df06 headers/deps: x86/mm: Optimize <asm/mmu
 5be85bac2b7b67c18df45582798b9ecaa29aa32b headers/deps: mm: Optimize <linux/mm_types.h> dependencies, remove <linux/rwsem_api.h> inclusion
 dc8b9efdc9d8a36648e4d3a4170a6fe473414f32 headers/prep: RCU: Make <linux/srcutiny.h> build standalone
 
---===============3640669529874106825==--
+--===============5240619626434156622==--
