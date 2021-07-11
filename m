@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0925875071160954326=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 11 Jul 2021 10:53:27 -0000
-Message-Id: <162600080712.6272.6731820163153773166@gitolite.kernel.org>
-
---===============0925875071160954326==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 11 Jul 2021 10:53:55 -0000
+Message-Id: <162600083502.6543.15831783743813560076@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 2c3760d62a0fe0f6201cd62d564707e018e8ed1c
-    new: bdd0500d37519401ac52478560e80483c441b8dc
+  - ref: refs/heads/queue/5.10
+    old: ef39fe9d42547a70011c5c2c7203e6acbc838fa7
+    new: 4b5b5dbad8ca8046fe559156e499205b9c79d8b0
     log: |
-         bdd0500d37519401ac52478560e80483c441b8dc Notes added by 'git notes add'
+         960d5a157edb999084555e36c70d1ff219596f8c KVM: PPC: Book3S HV: Save and restore FSCR in the P9 path
+         2d7b939164c74edefe693404c256624683a5b2af media: uvcvideo: Support devices that report an OT as an entity source
+         79c45516a0f7a8ae2c669c45e0fb80e0b089e77f Hexagon: fix build errors
+         97cc72a2eda702ae5b8e7522a075b4028b68d01e Hexagon: add target builtins to kernel
+         548df8da4f427e35e6a3caf352d1e535fde0ba56 Hexagon: change jumps to must-extend in futex_atomic_*
+         4b5b5dbad8ca8046fe559156e499205b9c79d8b0 xen/events: reset active flag for lateeoi events later
          
-
---===============0925875071160954326==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000805 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1626000804-d3824ed319a143d97ef23f298aaab075f2e27b4a
-
-2c3760d62a0fe0f6201cd62d564707e018e8ed1c bdd0500d37519401ac52478560e80483c441b8dc refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzaUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+beQP/iFbRuuGUgkWSum4ycMH
-5JkZRejOO6nWASRMoMqY7kzL6R6WlW6jS+uxO9vSxEwHEc3UiCai2h2LcfdOw6vd
-ATfMgEZM3Co8smdqhhk/0omcA0TWemiCIdVDOHaI8sw1UZ/kQSMokb2PBC//VEby
-7RSnaHXrB5yghQI0sqFndcclUXMc5UOV7e9hH/b1J49mZqZea9rAC/PsvJzElW0H
-E1LSMdXOHba22bOiM3rlYFvXu7AhpEMYq9Y8hNjHvj3E+eRLeuCWq6awZ224XK6p
-MODhwJt5IMM+82tDSfOSoQay+inYHN8jjt2Cgnzl0W/OoEESPHThgoNlB/V6GLAq
-sfukAQZCZWWBE4K0/WxU2PF5daMVGkvw+eYWwHeAqSGSlF50OSpTq5dSkgEGMsdH
-5MaITPa+MJ+bk2+x+Ih3WnsFpd14lImctzR5fBcM4LmCNHQTM6A59lBHr4iQIAvc
-aLljUemmXYSJZe+421ZJK2cnIbgoYbe2cdG7FEi0BZZdMyNxhN+3D0qzdR3IpV9+
-obKfyeTsjlCrnOJqEuYftvbJdhMr0zFS0zy6DXZtkyMhN/iqJv5HVzKCo5pwcMAt
-ihjngegVNiq6hmVbroJhCOtOe5UxNKpbTxp6YC8bOLQiiv5W7NOoz3KoGdfvw3Kp
-m5vCcqqRjo9MGi1ye/fUEF07
-=hfIU
------END PGP SIGNATURE-----
-
---===============0925875071160954326==--
+  - ref: refs/heads/queue/5.12
+    old: 26c1ca03fdf27936458148876df8e31eae2c4305
+    new: ab9ccde1fb78da7cbe0baa78252121e634c7afe5
+    log: |
+         0f98f444e1efee803fe2667318ab53ac3f1f8d8a Hexagon: fix build errors
+         7e2e8bee15788a405ae77e952fe7cee3243fd729 Hexagon: add target builtins to kernel
+         af9041ad741d3b0b49612d6d06414489dd429ad9 Hexagon: change jumps to must-extend in futex_atomic_*
+         5c23c458ebb8f8816f97b4c66c6e1a9063985967 mt76: mt7921: check mcu returned values in mt7921_start
+         06844a051abb7265a7ddd047d574f54315d650f3 mt76: mt7921: introduce mt7921_run_firmware utility routine.
+         eac6dd3a65536ae4d8d1c08ece544a3c047af1d8 mt76: mt7921: introduce __mt7921_start utility routine
+         55991d6e9ef35c933e5bce4c139b1a30a715ffb8 mt76: dma: introduce mt76_dma_queue_reset routine
+         f9a27f8a7998bf529e08d76773ea1da320c2e3f3 mt76: dma: export mt76_dma_rx_cleanup routine
+         c03a4de6b35ad34a40b1784346fcaaaaa6a27d60 mt76: mt7921: add wifi reset support
+         2bf0166fd8dd9a8ff2656ab659b90e8b3dfc50f3 mt76: mt7921: abort uncompleted scan by wifi reset
+         ab9ccde1fb78da7cbe0baa78252121e634c7afe5 mt76: mt7921: get rid of mcu_reset function pointer
+         
+  - ref: refs/heads/queue/5.4
+    old: 67b7a9b86c8aea5d8d92eef3cc189c0833325e0c
+    new: 2514d076ab89d0974feb3e8ff7bab42e08242303
+    log: |
+         d77f28d5141de453a010073e22847da71731e439 KVM: SVM: Periodically schedule when unregistering regions on destroy
+         cd06031c3ca821e82e7aac15a001db2ccc38bfb0 s390/stack: fix possible register corruption with stack switch helper
+         bdf6157b92a80db6c0e7dbd6062a66f7e10f3ccd KVM: SVM: Call SEV Guest Decommission if ASID binding fails
+         2514d076ab89d0974feb3e8ff7bab42e08242303 xen/events: reset active flag for lateeoi events later
+         
