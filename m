@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1496577187644509401=="
+Content-Type: multipart/mixed; boundary="===============1681927892796460213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 11 Jul 2021 10:54:15 -0000
-Message-Id: <162600085537.6910.10423000352695080016@gitolite.kernel.org>
+Date: Sun, 11 Jul 2021 10:54:19 -0000
+Message-Id: <162600085963.7051.15141895216550260518@gitolite.kernel.org>
 
---===============1496577187644509401==
+--===============1681927892796460213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 77d34a4683b053108ecd466cc7c4193b45805528
     new: de5540965853e514a85d3b775e9049deb85a2ff3
     log: revlist-77d34a4683b0-de5540965853.txt
 
---===============1496577187644509401==
+--===============1681927892796460213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000854 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000858 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1626000853-d6ab54f849fd675896be533021cc07a530b13878
+nonce 1626000858-d94624983ddc7bb68963ef1a36fcacf6fafb4017
 
-77d34a4683b053108ecd466cc7c4193b45805528 de5540965853e514a85d3b775e9049deb85a2ff3 refs/heads/driver-core-next
+77d34a4683b053108ecd466cc7c4193b45805528 de5540965853e514a85d3b775e9049deb85a2ff3 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzdYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+68wQAI/R3PJyUh1vD7lG47vo
-UXEaUzqCVrDGfAjuIijWrPt5Y+ZQN81FqINIEWJAeSqnxePKrYftgYYEVoRfuEKe
-15yLVrjNLrf4X93aCGKu2/U2rpRttqiZd9CwLiLPFoTHrR57ogmOXm6tytdX3OAO
-o7baZzWo4HL30uUUDfWF7Puy2Qu4ipM/To7s/mEkWIdH4f//kUPPWNUKg7+GkWpb
-5hSHnc+Cs+OSLWEi3o4doRRQ4ON1rTsiKslYIEF8YbfS0K8y+E2VeQGUOb49oWhv
-YaJia0hEXzuvvxXzY8Qi5VvNJaa63rBLL2a/b1mUhdckreun4OcVvBH5JjSF0AnB
-lSU4xNjyCujN+CgC9vsfApnqt1+POaVT2fEJnTkI+dH02tSyJ7uhYmuUwBrnVdf9
-59GIoD7S80PR3UX+27YqSAiT/Z4Kv1IOq51w+j3UUNrW2iLm5fWqIfHHrOIjh/JD
-/Q+udb3EpnKVRIanwdrbl4uexptfhdh1HdzCPLEogb+Lsib9c92gj78nTbcFpund
-peaPjnpy9c04GIRyp/pQVmxBqSEQa/zCR1rka+Qqx1MJ4YDQ64dbUjc3Y/vfgYcj
-G4Q06gxAorqcl6pttgKPjtoXah73dVmbyWs23sSnXBQfAszQl0ujIGfXJHHORDbc
-ojlN1vfDczi3kmlLvj73QFA4
-=Uc4a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzdobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jEgQANaXJm5L/mwusVo78KnA
+yO3My+KyxRHiyVyBAF15HV1WIoh1bXu3Kzl+V5aP8M25YaBfevxGl59Yu6z1tb19
+wKaAKkBKCyEsKg+wFev38AfBqIF4opEN+t81AeThA4FcMsIQxJ2guwx9vmEv/tbt
+mmAIY9hxJh7ZhffQ1OnXcdh2ooxwmOYDd/v626lH1F4t1BB5js0KB25dVLzS1Eag
+NS71DFf2T2h5CQJo8sU+JISQrvq4va+sIUJAXv4fPxEOfyEVEm/l0WWV1yZ26c+c
+MrVJMWS7JiKruE/pNsx6RhLKl1le7DOUFL06AkvtAM36LHQ3QokLxQOwBMghgH2A
+JSBraG4nG7MgMsMu2LDiYa+JuynEDdNoqfP698pa9F2FGkqCoR27w/UxAvZdefzi
+cRPzDcjR8SQiAE7VxAboPA++k8q8iaMOIqD/3Vnr8aSv7Hx4lpMgTG/W5ZcCxAwW
+ZtuNGpSuFpu8h+ctKgnriCaXnQurhrjsitcmwKZdKpBi6ULQ9c6CoQDjpSErqheP
+bdsvSjK8TKNEc3CVgGvPvMGNvsl/QyygioLcBTpi0E8DjbjQ+gHNjEHthqutSu2E
+IESO6CGwp/nolTBbuQ8YpM54aC3NkVyieFC5Gyv1T7KfvmG0J4l9nbw6F/hnhBkl
+gyc8AFB4AlBU1LRIUkVBr7/S
+=R0YT
 -----END PGP SIGNATURE-----
 
---===============1496577187644509401==
+--===============1681927892796460213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f7ea4be434fe7ea38699d14c1192481899e6ac94 Merge tag 'thermal-v5.14-rc1' of git://
 6bce244390a8bad89536ae0ea5c03c59ae155a12 mm/page_alloc: Revert pahole zero-sized workaround
 de5540965853e514a85d3b775e9049deb85a2ff3 Merge tag 'rtc-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 
---===============1496577187644509401==--
+--===============1681927892796460213==--
