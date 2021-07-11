@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 11 Jul 2021 13:39:23 -0000
-Message-Id: <162601076338.9631.14348897919499773276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Sun, 11 Jul 2021 13:42:44 -0000
+Message-Id: <162601096412.12159.2158147956399065274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/tags/irq-urgent-2021-07-11
-    old: 0000000000000000000000000000000000000000
-    new: 9cf6c7ce52256eb825372918bdd8a2c01fbb26ff
+  - ref: refs/heads/dev/ogabbay/dma-buf
+    old: f7437ceee64f21d10073d3ef2904d223658400bb
+    new: 961e833a2ae7f8fe902d123d7428914faa93e014
+    log: |
+         961e833a2ae7f8fe902d123d7428914faa93e014 habanalabs: add support for dma-buf exporter
+         
