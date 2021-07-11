@@ -1,53 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============0304464652128053744=="
+Content-Type: multipart/mixed; boundary="===============6312131736515877732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 11 Jul 2021 10:47:11 -0000
-Message-Id: <162600043177.10394.9759579031498313736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 11 Jul 2021 10:47:25 -0000
+Message-Id: <162600044537.10579.7403380317819321596@gitolite.kernel.org>
 
---===============0304464652128053744==
+--===============6312131736515877732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.9.275
-    old: 0000000000000000000000000000000000000000
-    new: 93d87e5f7761f45a7509b691bdd841a461df0771
+  - ref: refs/heads/linux-4.9.y
+    old: ebeed1e38d45d31da241fd1e4a93c0517a6cb6cf
+    new: e0c3e706e94deeaa75c5f9fb91cd24b3c71b4793
+    log: |
+         88a899fa2032b34ef3ac5dae3c70c8394fa5287c include/linux/mmdebug.h: make VM_WARN* non-rvals
+         2b123e354eff9d24a5e27efb2cb70f2720509f92 mm: add VM_WARN_ON_ONCE_PAGE() macro
+         07cc82b921bc60194bdc4a2ccea7d69f2d789348 mm: thp: replace DEBUG_VM BUG with VM_WARN when unmap fails for split
+         c52e6f64804267cc8c9f26ab41588eeeae6fb9a7 mm, futex: fix shared futex pgoff on shmem huge page
+         8b289e6d55a6dc2341020bc632fe7bddcd5a07d3 scsi: sr: Return appropriate error code when disk is ejected
+         22226752e45934480f63cc8e43abb13b7e59f4fb drm/nouveau: fix dma_address check for CPU/GPU sync
+         392cfdd660491857137c35cba7496fb7446afe4f kthread_worker: split code for canceling the delayed work timer
+         5d27e1503b17db8571a4e71b6146644ab29c18a7 kthread: prevent deadlock when kthread_mod_delayed_work() races with kthread_cancel_delayed_work_sync()
+         01df0e31cb208a6b16b2d19e746a2d203cc24682 xen/events: reset active flag for lateeoi events later
+         e0c3e706e94deeaa75c5f9fb91cd24b3c71b4793 Linux 4.9.275
+         
 
---===============0304464652128053744==
+--===============6312131736515877732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000431 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1626000430-5916ba125d226b7644e82ed977dab3bfada5ca40
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000444 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1626000443-4d698b969ced58988b91d640cf706b048e84a4b3
 
-0000000000000000000000000000000000000000 93d87e5f7761f45a7509b691bdd841a461df0771 refs/tags/v4.9.275
+ebeed1e38d45d31da241fd1e4a93c0517a6cb6cf e0c3e706e94deeaa75c5f9fb91cd24b3c71b4793 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzC8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L5UP/iv2sbMUBluGfVeupfUU
-4PUhX20zEms0FPEfpuMqAdKCVW9oAGD5ws0eWa7iXH2NdrKqlM/Z/0YE+sgZXCAu
-+yPS/4ovYBC7CUvOPHYgkMlDtwOJBwmDP5kAgFIBGo0MxhFYjvoFq3ri+iunvEiZ
-wq7Mr7b58mcfpglQxQ7LHbEqNd8T3MVFfJcEteiLYmvGW2xknHRcshwNAk9JUH/R
-h59i3jHoYuNcQTbVEP1p3CIBXWhpH+as3TLvF1LSFKUhnx0N4R0S/1mUQFX+PSoZ
-sq2XgQFpjm1aRxXnC83/1SXHjrUeNolhVQ4qGyA0vG3pY2lFMW7R2E8sWiCv8Bx5
-grb18bWw1rebFQ2EL/SuibSA10FzROztZs2Y9GjREXf9nsR7dXckIB4ioD9swFQa
-wU6FO2Da6YTIXf37+RfMJ6lNrmV5B6k24ajdMBKOgu3p/J1iryQGigNQsSZ+svCM
-veBSjCEDVx8Je5uD1ppFl24sHuBQ3dyWaYrmN50J1jhAbTfIamcuPUm0Kkh8ToZi
-mvE/+m8Db+OAqG3eBts5Q0xXxGN8WWZF+z6/O7Vqp42T1P1G5FBtwhs3ywEda8Sk
-qljVR+IDwRR40TzpVEVJRygYyL4eLLDeER+JPJ9X60CLGeEHqfEk5WU5DK8qMyS6
-uIvsILjUnuIOrNK7OSm9vwHb
-=S8qO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzDwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+36EQAKQhxAVJwD3I3iVZIxO2
+1VU0NTFwWdN16GeS20XvnESW5mGM0i5sDBzZAJHC8YFlhiWMFfxLZ9LDQlgQQzvk
+l/9ZPp978HoQmQXgP+3/nZrcl06YiJaqxKFiBRsdMs6gMOIQ5Uuc966XiHO+DrYv
+t+ASMZWVaWWqrFVWKJi9165Z81ZKGG/uHYowRvRVPTvv40RHKveBDoyq2U32HX85
+fJOBH/ml0/KkkHzQbrzo8SIsyLGDxGEpC/GlRwioVuQvRLZ2jpk+0BtIMF+mIkLd
+5klLzTpNsmZkfFUiD28t0iQaTimUBhQvr35qfHFwOz+1W8csOw1zFHiCzg5AT5d5
+DsXqE9mP8jKHoHXeUZ4HG/btwN4KbbM+B1p/0qW5c3PIJgYdeP4CTvI4HilBQTjW
+R9H3KEHCEk3bIEGf23WKfPY51oBMUu8Uv5Ba6gVhW4YMcOiYeyoaGdAcuJ6xAS7B
+j1YgzcTd6a6cT5BE5b1WlkRPI1HRQjX8qF26wWlcgn4kJ4Bimc/J5eTbEtY7Xq+Y
+eSE/B5bP+jcMv5kN6gpFyivkhjpiCYTsH+vJ7BNDPoI8GdP4BX7JmSaDJoj+OeVj
+h28ToFOUdmJpZtWaP/SjrvpniSxhwFH6Lqo5gU38qJQLGJ//404btn/cZbxjigsM
+pY6ogvddqAiTFhxGj0P02JN+
+=kp7Y
 -----END PGP SIGNATURE-----
 
---===============0304464652128053744==--
+--===============6312131736515877732==--
