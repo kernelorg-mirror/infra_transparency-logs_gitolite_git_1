@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6257187406220180030=="
+Content-Type: multipart/mixed; boundary="===============7884577503424932488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 11 Jul 2021 12:48:10 -0000
-Message-Id: <162600769067.6724.9681899733695642399@gitolite.kernel.org>
+Date: Sun, 11 Jul 2021 12:48:30 -0000
+Message-Id: <162600771010.6908.12438504789036636757@gitolite.kernel.org>
 
---===============6257187406220180030==
+--===============7884577503424932488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: dc8b9efdc9d8a36648e4d3a4170a6fe473414f32
     new: 1b5993e36a593cdbf8d3577ebed2cb9652f4cc0b
     log: revlist-dc8b9efdc9d8-1b5993e36a59.txt
 
---===============6257187406220180030==
+--===============7884577503424932488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -817,4 +817,4 @@ d3e119172783e857c57774c6d7d209642e49a7f7 headers/deps: mm: Optimize <linux/mm_ty
 c333745be18f00898028d3fd9ac1a9d7b4682fae headers/deps: tracing: Optimize <linux/trace_events.h> dependencies some more
 1b5993e36a593cdbf8d3577ebed2cb9652f4cc0b headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies
 
---===============6257187406220180030==--
+--===============7884577503424932488==--
