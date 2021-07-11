@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1604888326736256350=="
+Content-Type: multipart/mixed; boundary="===============6157315096438219035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 11 Jul 2021 10:46:25 -0000
-Message-Id: <162600038549.9846.8083084169523745160@gitolite.kernel.org>
+Date: Sun, 11 Jul 2021 10:46:28 -0000
+Message-Id: <162600038878.9916.5818328107477696307@gitolite.kernel.org>
 
---===============1604888326736256350==
+--===============6157315096438219035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 200ecf5055dfba12b9bff6984830a7cdddee8ab1
-    new: ee3696c90e3cce141a74b14531cdf2650df2c566
-    log: |
-         e2c309e935e4f645dc473cbdf4fbc0e70f929286 scsi: sr: Return appropriate error code when disk is ejected
-         a5c196badc2ce43c62e689caf2731e8720252cfe drm/nouveau: fix dma_address check for CPU/GPU sync
-         478791754649395287a5a8e3048784f4b2cc79a6 xen/events: reset active flag for lateeoi events later
-         f780f3fc81d54916d94ffef7282be5ca09b5017e arm: kprobes: Allow to handle reentered kprobe on single-stepping
-         ee3696c90e3cce141a74b14531cdf2650df2c566 Linux 4.4.275
-         
+  - ref: refs/tags/v4.4.275
+    old: 0000000000000000000000000000000000000000
+    new: 1a143ea4538b84eb1f84070cee145fab37185ad6
 
---===============1604888326736256350==
+--===============6157315096438219035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000384 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626000387 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1626000383-27c49e4ff468b3ab9ec21c72f7070db1973686de
+nonce 1626000387-cb2991556a807a43b340659f23151a6ee836eda0
 
-200ecf5055dfba12b9bff6984830a7cdddee8ab1 ee3696c90e3cce141a74b14531cdf2650df2c566 refs/heads/linux-4.4.y
+0000000000000000000000000000000000000000 1a143ea4538b84eb1f84070cee145fab37185ad6 refs/tags/v4.4.275
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzAAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3h0QAJba0lv0yk4N78Getl6x
-SSiJFtz8vYctol2byyhJaEnsPUfPoh8U7WmvIWbBbgOvu3MbWD8p7F63IqaNi9Nr
-wDSxwc5qG4TswcwEC4boMFxVghmcSBaocMlmADk+EpF6Kt3fmXyId9xpdS/Cyh26
-fHGThzqOCYoF9+Di3ZV+UqIBdQa/IO0liCUjUm904s1kwZDkA6DG8Hpkf8dLJ+dc
-9a0cZnsbsKFv+5FNHmtbKYeAqYmofu1cAL1X91cGkRBchTQgbfkiP6r0rnrbN/5Z
-zGd9vCSuvmfM2u8wii19dcWciYvOSubisO+qWt8MB8aEd3GguT56ZFeCQkEfOaYY
-uJdpqVWWa4PkW/R1sWWzrhTN/TtV+UKA0tY8G4wYsmPhVzMO7Dqon6gIlMHUJpua
-84PKdzXYee0upiAvkIsoZ0W/TZO5rCcPScVYOgkhfsxZS0fvOPetwrkH5D+X2kSs
-pOfW8Wt1qBCDyOp4jatrzxa3M/RKMameUKJMlCU4Y3QdfO7fPR+nrxpt97PEciV5
-E/7mSaBhKskabzZKP85Dit/Wi1hP8qf79VrN7CSqUaYTO7TeTwv9/6OENmxJsA7X
-Nzcah5JbOYAuEdtj7EB5B1cZXn4Z2d0NdYveZnkdh0rFtlg09D6pJwrs7Fa9M5LF
-P+YLIbwpyH4p5Bj2nomO/PYZ
-=HCsf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzAMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HGAP+wYbCQiKJZwTcR/x3bMQ
+2fHgbYRb9sn975AmcUdfESfLk7t4YfLJK4EofQrCpTvFKhxVqgTi7PyMe05eMR7P
+PoqD3I6yJMllVQb7WO0WTmkryxDJTU7CGDKs1TS/Mf3KmoxFMFjYgThzwRhVV5VO
+pZMi/UGF+Bwc9F7qD0pdqYwKOXN5ID6yK5VFboguNtRLNNSaxcmID1WwJD93SreB
+TA5kbxrzEO2rpJP3d4DgHMKNen6RStqgt/L4DcMU6gag1L7MpFgEIS0Ea9nqfHKM
+PuTER5agNLD3y3fwZyJt+BsLrgM6rOfKOCrdz5OOT1oRa6mzVYgv9Ui3nAPu7odT
+tEH0l5j96Sz6NrAopArWZeN+xJI557zwWXy1ZXlH8sGX+VuxdVyWgQRAqkyjtBPj
+hE/OKGU3Llb9GDkauKJkVU49qhI/PWPE6ZqFzQtK6du4NipplIT0RfHDXAxcoDHj
+OQ9zBd5NT3ricYsI3eMUGoqjxe7jc2KAK9JW2UxMJFI9rSOXC1YRDXGa3XIp8HN8
+VbzJncjiQbb970MT+BE7+Q5UGqIw7ZwGrImNHhzNm13Isz6tbOBrv1Kbe/eV9+Xp
+21As0AwsywelXHtsprK1jOzn24S8GBY/GQ+3mh5+yC74CD2mFabeBuWc9+DdKauH
+yHaYoWgd5QXx6S6ju3XvcK0/
+=FvKU
 -----END PGP SIGNATURE-----
 
---===============1604888326736256350==--
+--===============6157315096438219035==--
