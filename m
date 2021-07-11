@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Sun, 11 Jul 2021 12:28:52 -0000
-Message-Id: <162600653292.26802.3630672248940969914@gitolite.kernel.org>
+Date: Sun, 11 Jul 2021 12:35:26 -0000
+Message-Id: <162600692671.31908.371091628279487089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
   - ref: refs/heads/erofs/lzma
-    old: 53e08e4a80a982e9d1e6069d74ffa206a9e5c2f1
-    new: 366b2358b47680b38febb50ac530af503d2bfe71
+    old: 366b2358b47680b38febb50ac530af503d2bfe71
+    new: 7b0fd4b18c0c2228c19a84736441fced1bbf0dd6
     log: |
-         366b2358b47680b38febb50ac530af503d2bfe71 erofs: lzma compression support
+         7b0fd4b18c0c2228c19a84736441fced1bbf0dd6 erofs: lzma compression support
          
