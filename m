@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8516324765506460310=="
+Content-Type: multipart/mixed; boundary="===============8932979274151620831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 11 Jul 2021 10:57:00 -0000
-Message-Id: <162600102086.9329.16791195370573232783@gitolite.kernel.org>
+Date: Sun, 11 Jul 2021 10:57:04 -0000
+Message-Id: <162600102487.9431.14767924949929685822@gitolite.kernel.org>
 
---===============8516324765506460310==
+--===============8932979274151620831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 50be9417e23af5a8ac860d998e1e3f06b8fd79d7
     new: de5540965853e514a85d3b775e9049deb85a2ff3
     log: revlist-50be9417e23a-de5540965853.txt
 
---===============8516324765506460310==
+--===============8932979274151620831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626001019 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626001023 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1626001019-95c811b965faa7aff6368357480546219787914c
+nonce 1626001023-2748281f4b1418a04ee0cf84192555e14d347fdf
 
-50be9417e23af5a8ac860d998e1e3f06b8fd79d7 de5540965853e514a85d3b775e9049deb85a2ff3 refs/heads/char-misc-next
+50be9417e23af5a8ac860d998e1e3f06b8fd79d7 de5540965853e514a85d3b775e9049deb85a2ff3 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqznsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pZMQAKvnLo0cgVTjcQL+gsSm
-syCWE9Fa9lbLln5pgYVBugd6zFRWh7jFlh0AT24ilQm149iYhMrYIorkarOsqtdo
-uPsDheIGF1pw8TwX24GMyiD1YJzOJdU8Jw+9sZ9i+c2i3zJgK5EgMO1QfYbCIclK
-RkotrL+Cii4aGjWT7TL0ssKCao/WhEbNoWJRIZzvrso0uHvfYYFYIJeaIEdw1OLt
-HBOe3C2K7lGm7zfy410zahaXAzrt4aCf6Mr6PdMZe1sX7/daLmNxbKhpBDKo8LNI
-XVYJe5ssLrAUdvXBNKgU81u5UBuagDo/SA4wVbAe2f/blZxP84iT9HxyRoRZqrlZ
-i60ZS2TLpCTDr0y2r2uVmH2I/Dsp4L8e9M2a1UOCAmht/MYy4x8FaAJKuAjepKxa
-qOR1ZUL9DSybQbiGsfIB9JxCcKduTXPnL8aqi05HXpOA3vcs2cpHQfMHMyHMj5gw
-Nv5n2XRJF3UVWZ75H25MuHieiTBR03PMx8XjSzvV9OEnORC3n8V6As5C8HYPewcC
-CtTEQzoYPzJyvU5ojugL8PUWwKUBIBvEUzTTER+MeFeXMDPmXzAJLKKWbwVF9pJI
-AVOJtTApx3bKegfPPMdmII79XrUuyMYqqvDh8O71pi6fce1sHznOXwAW6lDP6qjk
-DniXy5MAQwk2NAeeeqPZkAx9
-=Qanz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDqzn8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HMIQAKAjjKuHDete8YCqf7ou
+6FQyDd6t9Mm6Ukhz7hdCnFtSxpvRFPOv3+lu74K6aBlBPedEoBL3wlzz8L3vwypB
++hHlKo6zV3pLHavz2Q2/YAyuvbXzj45V03xtDLMh+y3aVyYIsS+m5QAy8kaO4bn9
+MuUkswQg679sb+2eZfi3dZLMRW9LNiUTlJ0v8QMLICcZw/Ilgq1Z9uz+2erpe/Kn
+JSR+0grDP2v+v4Grb2WK2v8RlxnlXJ+R2helDQTGNrqf+IJksf6+KChi6m4GPgDM
+/TGs9v0MLLMVlsAAem68XvRn8TuQyQiBXMMlB7u7/hjRMsgfoMTapVOL3uX9kWpu
+9uH1kiUhC3iacGv6GjaG7KH570lOLH4iVDEnKEiLemGKIUXAjnyvx3ye8cBcTVSp
+wU4dwmYHJmb8nfPuwT8iz05FylAbFUw4Oes37+EWRk9/o3E/vZdF4P+aTs0ZS8jV
+iEtitwoKxB/6MHW0XAXYfqasyntWAfYawkzuI7TIIHGADbqmAoEwLiCl4zBg8OnX
+/FoEyx4/pHz0HHSw5pe84+aYjg7Okswuw7nt4RWHotbuFd9rj6R6XVpGThTj5fNJ
+zHHCJMH9v4G4UHM2MyBPECTKOJp2j9KWdi5pXVUrm0Pl7wSEg30tZKlAslFwDpIl
+0aL5QmlauwfW9NQ91BvcFwuH
+=7LbW
 -----END PGP SIGNATURE-----
 
---===============8516324765506460310==
+--===============8932979274151620831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1016,4 +1016,4 @@ f7ea4be434fe7ea38699d14c1192481899e6ac94 Merge tag 'thermal-v5.14-rc1' of git://
 6bce244390a8bad89536ae0ea5c03c59ae155a12 mm/page_alloc: Revert pahole zero-sized workaround
 de5540965853e514a85d3b775e9049deb85a2ff3 Merge tag 'rtc-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 
---===============8516324765506460310==--
+--===============8932979274151620831==--
