@@ -1,45 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4641132895065507704=="
+Content-Type: multipart/mixed; boundary="===============4302886176699899123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 12 Jul 2021 16:28:57 -0000
-Message-Id: <162610733717.2440.2820767600726318102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 12 Jul 2021 16:47:24 -0000
+Message-Id: <162610844408.14075.17165027840860533590@gitolite.kernel.org>
 
---===============4641132895065507704==
+--===============4302886176699899123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/kunit
-    old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-d07f6ca923ea-e73f0f0ee754.txt
+  - ref: refs/heads/hole_punch_fixes
+    old: 347157fb9dfaf5a7d10e723c773affe147cdff34
+    new: 632c155cb4c2ed25a2dee7f6b265309b8d13784e
+    log: revlist-347157fb9dfa-632c155cb4c2.txt
 
---===============4641132895065507704==
+--===============4302886176699899123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d07f6ca923ea-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-347157fb9dfa-632c155cb4c2.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
-66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
-ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
-6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
-3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
-e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a941a0349cf11ed250a04864fef268c2e05a1d32 Merge tag 'timers-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1036,19 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+9608703e488cf7a711c42c7ccd981c32377f7b78 mm: Fix comments mentioning i_mutex
+744c3f63a701b0da2b3ee0d9d02e73d9d925fbad documentation: Sync file_operations members with reality
+1c5660e228f7517fe529dea7025bef3060040374 mm: Protect operations adding pages to page cache with invalidate_lock
+1078668aab7f3c0d29b88ce057a39c262150766f mm: Add functions to lock invalidate_lock for two mappings
+57bd67970dc97fb690bb58f5fba300500f0b5500 ext4: Convert to use mapping->invalidate_lock
+83574cde5f7eac9be6bafd7360e652616e6e9740 ext2: Convert to using invalidate_lock
+31a7cd6f776ed5cff484d9000725633264780e65 xfs: Refactor xfs_isilocked()
+736ab36728d65344a80104cef6df17bd3e808ab2 xfs: Convert to use invalidate_lock
+a4faf3fe79669eac9af9bb6446325b7f12b930e1 xfs: Convert double locking of MMAPLOCK to use VFS helpers
+eae636dc63d0bae42458eb0236096ddd1e74c051 zonefs: Convert to using invalidate_lock
+11479b85be064d05d31e1b969e74310febe17b26 f2fs: Convert to using invalidate_lock
+5c0765895a884b1577d899851d2e46ff0218ed2d fuse: Convert to using invalidate_lock
+33beccd5d7db4de6299dad5266d3399a0e9265d7 ceph: Fix race between hole punch and page fault
+632c155cb4c2ed25a2dee7f6b265309b8d13784e cifs: Fix race between hole punch and page fault
 
---===============4641132895065507704==--
+--===============4302886176699899123==--
