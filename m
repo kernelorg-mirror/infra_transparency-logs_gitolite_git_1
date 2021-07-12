@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 12 Jul 2021 17:43:24 -0000
-Message-Id: <162611180495.18616.13051370615794584704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 12 Jul 2021 17:46:32 -0000
+Message-Id: <162611199268.21161.12357905265066562503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 0c23af52ccd1605926480b5dfd1dd857ef604611
+  - ref: refs/heads/master
+    old: a5de4be0aaaa66a2fa98e8a33bdbed3bd0682804
+    new: d2eecc596bdf9ca93b3df41e6f38695be37cb2e3
     log: |
-         0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
+         04bef83a3358946bfc98a5ecebd1b0003d83d882 net: bridge: multicast: fix PIM hello router port marking race
+         000b7287b67555fee39d39fff75229dedde0dcbf net: bridge: multicast: fix MRD advertisement router port marking race
+         d2eecc596bdf9ca93b3df41e6f38695be37cb2e3 Merge branch 'bridge-mc-fixes'
          
