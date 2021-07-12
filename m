@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1853362266851109689=="
+Content-Type: multipart/mixed; boundary="===============5286920909179726464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 12 Jul 2021 17:05:14 -0000
-Message-Id: <162610951434.26995.17635181705866225943@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 17:10:35 -0000
+Message-Id: <162610983579.30196.16312353269463825747@gitolite.kernel.org>
 
---===============1853362266851109689==
+--===============5286920909179726464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
+  - ref: refs/heads/devel
     old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     log: revlist-d07f6ca923ea-e73f0f0ee754.txt
 
---===============1853362266851109689==
+--===============5286920909179726464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============1853362266851109689==--
+--===============5286920909179726464==--
