@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7087005818001878918=="
+Content-Type: multipart/mixed; boundary="===============0004913541185988244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 12 Jul 2021 08:12:28 -0000
-Message-Id: <162607754816.31772.12077369965281657551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Mon, 12 Jul 2021 08:12:33 -0000
+Message-Id: <162607755360.31861.10874336134622841078@gitolite.kernel.org>
 
---===============7087005818001878918==
+--===============0004913541185988244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/usb-next
-    old: 8051334e901f2f7ab9fa30a15b74cdc8e58dfde2
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-8051334e901f-e73f0f0ee754.txt
+  - ref: refs/heads/mel_fix
+    old: 002802d4f06696c172891ef0c8b72541f973674e
+    new: 034a09a24c79bb98f417ec52fbaef65033aea017
+    log: revlist-002802d4f066-034a09a24c79.txt
 
---===============7087005818001878918==
+--===============0004913541185988244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8051334e901f-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-002802d4f066-034a09a24c79.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
@@ -1050,5 +1047,8 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+f187056f809fbd14fb7424dc0196098cdb0b3ce2 usb: hub: Fix Link power management max exit latency (MEL) calculations
+bb66da68e38507d1f712dd40585ed3f030f45f09 usb: hub: Disable device initiated lpm if latency is too high
+034a09a24c79bb98f417ec52fbaef65033aea017 Revert "USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set"
 
---===============7087005818001878918==--
+--===============0004913541185988244==--
