@@ -1,36 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============0157069355290507579=="
+Content-Type: multipart/mixed; boundary="===============4750848712133677737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 12 Jul 2021 10:34:46 -0000
-Message-Id: <162608608660.17664.9103857792106878546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 12 Jul 2021 10:35:05 -0000
+Message-Id: <162608610521.18944.8181743587386968802@gitolite.kernel.org>
 
---===============0157069355290507579==
+--===============4750848712133677737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: d2755ee2fc31566e82d873e637c96fa2f0f84d59
-    new: af201f2ec49be0180b19f36c8c7f7a2baf45d809
-    log: revlist-d2755ee2fc31-af201f2ec49b.txt
+    old: d2e3148a703567070a06eea7383bece862daa0ab
+    new: 144d3c5cc79123b729f918b38f565da707178122
+    log: revlist-d2e3148a7035-144d3c5cc791.txt
   - ref: refs/heads/for-next
-    old: d2755ee2fc31566e82d873e637c96fa2f0f84d59
-    new: feb9cd725da738049569b2c139f47ab26609e040
-    log: revlist-d2755ee2fc31-feb9cd725da7.txt
+    old: d2e3148a703567070a06eea7383bece862daa0ab
+    new: 1b88320bc3714ec7899fe1ddcd26bc131f1e2108
+    log: revlist-d2e3148a7035-1b88320bc371.txt
 
---===============0157069355290507579==
+--===============4750848712133677737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2755ee2fc31-af201f2ec49b.txt
+Content-Disposition: attachment; filename=revlist-d2e3148a7035-144d3c5cc791.txt
 
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
@@ -1052,15 +1051,22 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-1c73daee4bf30ccdff5e86dc400daa6f74735da5 regulator: hi6421: Fix getting wrong drvdata
-af201f2ec49be0180b19f36c8c7f7a2baf45d809 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+69e1818ad27bae167eeaaf6829d4a08900ef5153 spi: atmel: Fix CS and initialization bug
+3a70dd2d050331ee4cf5ad9d5c0a32d83ead9a43 spi: mediatek: fix fifo rx mode
+144d3c5cc79123b729f918b38f565da707178122 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
 
---===============0157069355290507579==
+--===============4750848712133677737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2755ee2fc31-feb9cd725da7.txt
+Content-Disposition: attachment; filename=revlist-d2e3148a7035-1b88320bc371.txt
 
+62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a941a0349cf11ed250a04864fef268c2e05a1d32 Merge tag 'timers-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a22c3f615a6fef6553e20c559d31ea817216b4e6 Merge tag 'x86-irq-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1dfb0f47aca11350f45f8c04c3b83f0e829adfa9 Merge tag 'x86-entry-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fca41af18e10318e4de090db47d9fa7169e1bf2f qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
 d915611eda071984f895277ab26bbb80c792f5cb Merge branches 'clk-qcom', 'clk-versatile', 'clk-renesas', 'clk-sifive' and 'clk-ti' into clk-next
 029eae234be34e47a7bcde5c429c04d9e761ad07 Merge branches 'clk-legacy', 'clk-vc5', 'clk-allwinner', 'clk-nvidia' and 'clk-imx' into clk-next
 e51fbc55d3d3f68a9fb37c4e95c88404c4ff244c Merge branches 'clk-rockchip', 'clk-amlogic', 'clk-yaml', 'clk-zynq' and 'clk-socfpga' into clk-next
@@ -2065,25 +2071,19 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-1c73daee4bf30ccdff5e86dc400daa6f74735da5 regulator: hi6421: Fix getting wrong drvdata
-3cb5992c34f7a8693009f969b7d73b6b181ccc8e Merge existing fixes from regulator/for-5.14
-e8608f8956ff4015a206f75631a266d93e84bb2d regulator: hi6421v600-regulator: add a missing dot at copyright
-4ff75a29976590bc7afe3ed75d547c1f2a924c75 regulator: devres: remove devm_regulator_unregister() function
-eed43b96ede9c3f018ad24149de83f24b86ad729 regulator: devres: remove devm_regulator_bulk_unregister_supply_alias()
-4d9f4d1de3ceb84fa6ce68177a26b8fac6a71290 regulator: devres: unexport devm_regulator_unregister_supply_alias()
-b99b7b79a7c57d5f1550b9a507521c791c5f92ed regulator: mt6358: Remove shift fields from struct mt6358_regulator_info
-d6208ba87066c981589ca41f07d29a5803807ead regulator: mt6359: Remove shift fields from struct mt6359_regulator_info
-12401a1cef787167aff52ef2dd28286e61054c38 regulator: mt6397: Remove modeset_shift from struct mt6397_regulator_info
-e301df76472cc929fa62d923bc3892931f7ad71d regulator: tps65910: Silence deferred probe error
-6eb891cf73bd2ecc877e9916951a19f3e4f3c493 regulator: rt5033: Use linear ranges to map all voltage selection
-78bbb7c345ab630cfe8b272c6179bf8b19a6c8aa regulator: machine.h: fix kernel-doc "bad line"
-526e99cf43fe3884014f9e9f2ca5d04d56007287 regulator: rtq6752: Add binding document for Richtek RTQ6752
-f40f9409719fa092924803723b9445be13fac8fb regulator: rt6752: Add support for Richtek RTQ6752
-894cda54a76d7c336b6f301bafe49bf6870d4697 regulator: Replace symbolic permissions with octal permissions
-fedbfea13cc0e513956abfa5c22158f0523d5687 regulator: bd718x7: Suopport configuring UVP/OVP state
-2c8dad1ea815f1a2003f501d9f71b9d9961f2f3a Merge series "Move Hisilicon 6421v600 SPMI and USB drivers out of staging" from Mauro Carvalho Chehab <mchehab+huawei@kernel.org>:
-9705c49c3b5e8640fa1afd24f93a391ac0f793a4 Merge series "regulator: devres: remove unused device-managed unregister APIs" from Alexandru Ardelean <aardelean@deviqon.com>:
-af201f2ec49be0180b19f36c8c7f7a2baf45d809 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
-feb9cd725da738049569b2c139f47ab26609e040 Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
+69e1818ad27bae167eeaaf6829d4a08900ef5153 spi: atmel: Fix CS and initialization bug
+3a70dd2d050331ee4cf5ad9d5c0a32d83ead9a43 spi: mediatek: fix fifo rx mode
+da18edb11ccad3c657a65568275920b93f688f1b Merge existing fixes from spi/for-5.14
+9d5354145104cf392568a948c5ce2cb97f373fd7 spi: stm32: enable pm_runtime autosuspend
+70526e0b7601792bf546044fff92c368112f1d3f spi: stm32: Revert "properly handle 0 byte transfer"
+d87a5d64b5037cfedd7eb47d785b5c159ace8d9b spi: stm32h7: rework rx fifo read function
+dc6620c31326bc50fa22fd8900a9f995d0a04bc1 spi: stm32h7: don't wait for EOT and flush fifo on disable
+7ceb0b8a3ceddc36ae4ef1cba6c25a0e28ed65fc spi: stm32: finalize message either on dma callback or EOT
+8dd591ad0104593f315b6b2ab636a18c002f7d86 spi: <linux/spi/spi.h>: add missing struct kernel-doc entry
+3522d9aa19285bbff14da20cb3481e36ef4835fd spi: mediatek: update spi master bingdings for MT6893 SOC
+162a31effc4182dd5a0675d9fd0336d5096e0ad3 spi: mediatek: add no_need_unprepare support
+65ab894f2e5a0451609d13397f0ccb3ba5b332e9 Merge series "spi: stm32: various fixes & cleanup" from Alain Volmat <alain.volmat@foss.st.com>:
+144d3c5cc79123b729f918b38f565da707178122 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+1b88320bc3714ec7899fe1ddcd26bc131f1e2108 Merge remote-tracking branch 'spi/for-5.15' into spi-next
 
---===============0157069355290507579==--
+--===============4750848712133677737==--
