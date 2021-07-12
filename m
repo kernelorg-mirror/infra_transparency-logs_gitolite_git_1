@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3707058278754383375=="
+Content-Type: multipart/mixed; boundary="===============8035770306662246614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 12 Jul 2021 11:03:47 -0000
-Message-Id: <162608782793.5339.11997353739860313577@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 11:04:13 -0000
+Message-Id: <162608785315.5650.6773665544280616907@gitolite.kernel.org>
 
---===============3707058278754383375==
+--===============8035770306662246614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 8135997a8a80b90ca212c11d37fbc7869ab7db90
     new: d69214b65408f3fbfe5fea7a965f245f93a05303
     log: revlist-8135997a8a80-d69214b65408.txt
 
---===============3707058278754383375==
+--===============8035770306662246614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fa0c80a7cd8fefbaa810123d03a859e2afaf39d4 headers/deps: tracing: Optimize <linux/
 a64af19a24d43178b217f6db5c25e2f96b7d8bf3 headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies
 d69214b65408f3fbfe5fea7a965f245f93a05303 WIP: Fix big omnibus merge artifacts
 
---===============3707058278754383375==--
+--===============8035770306662246614==--
