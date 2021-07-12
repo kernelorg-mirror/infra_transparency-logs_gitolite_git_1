@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 12 Jul 2021 19:27:43 -0000
-Message-Id: <162611806336.25362.1564793182207851735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 12 Jul 2021 19:29:33 -0000
+Message-Id: <162611817361.26101.13236992051718085746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 7fef2edf7cc753b51f7ccc74993971b0a9c81eca
-    log: |
-         efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with mlocked ptes
-         79789db03fdd77510cfb35cb4b3bd52b6c50c901 mm: Make copy_huge_page() always available
-         7fef2edf7cc753b51f7ccc74993971b0a9c81eca sd: don't mess with SD_MINORS for CONFIG_DEBUG_BLOCK_EXT_DEVT
-         
+  - ref: refs/heads/misc-5.13
+    old: aefd7f7065567a4666f42c0fc8cdb379d2e036bf
+    new: 0000000000000000000000000000000000000000
