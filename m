@@ -1,59 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3786289132752917281=="
+Content-Type: multipart/mixed; boundary="===============5211656177518730937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 12 Jul 2021 07:34:38 -0000
-Message-Id: <162607527890.5140.4666028494953126123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 12 Jul 2021 07:41:02 -0000
+Message-Id: <162607566290.10167.3505476595414482145@gitolite.kernel.org>
 
---===============3786289132752917281==
+--===============5211656177518730937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 62266e5e20a328c33577b21c16f8eebd8c76e2b3
-    new: 5ff68220ccb21e4cc1fcaa946a7165d95966bc4e
+  - ref: refs/heads/usb-testing
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 97db1b081e1286bdd9dcd4d25b88d6770ff4a65b
     log: |
-         f4509e9bef64041215e55ca6a9feceef1a5a1b9d 5.4-stable patches
-         7895e31a09fc754886dc3a970361b9a36877f7a9 5.10-stable patches
-         02458b508113a1e58988e95806b4490092f19e1f 5.12-stable patches
-         5ff68220ccb21e4cc1fcaa946a7165d95966bc4e 5.13-stable patches
+         ce7d0008c2356626f69f37ef1afce8fbc83fe142 usb: gadget: udc: core: Introduce check_config to verify USB configuration
+         7adf9e3adc398e5d5b7af91e5fdfafa70e86dd36 usb: gadget: configfs: Check USB configuration before adding
+         9f607a309fbe95fc1f77acce5af70766a7142537 usb: dwc3: Resize TX FIFOs to meet EP bursting requirements
+         fe794e39548308e77e570fdf645d516554b3f873 of: Add stub for of_add_property()
+         cefdd52fa0455c0555c30927386ee466a108b060 usb: dwc3: dwc3-qcom: Enable tx-fifo-resize property by default
+         97db1b081e1286bdd9dcd4d25b88d6770ff4a65b dt-bindings: usb: dwc3: Update dwc3 TX fifo properties
          
 
---===============3786289132752917281==
+--===============5211656177518730937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626075274 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1626075273-994c6502843416fdda01c0d736365cee68e41407
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626075654 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1626075654-5cdb8583f507d09819c6ee0400dd59182155bfb2
 
-62266e5e20a328c33577b21c16f8eebd8c76e2b3 5ff68220ccb21e4cc1fcaa946a7165d95966bc4e refs/heads/master
+e73f0f0ee7541171d89f2e2491130c7771ba58d3 97db1b081e1286bdd9dcd4d25b88d6770ff4a65b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDr8IobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CXcP/3kK+v+7nOrDDoWmoEJ2
-tFRpx/1XZ8WXPrOzfcqgC3O/32CSkMFfynsYUEJuhnOKaiFdQHO3EEBPYbiE5uxA
-vUOY92ykw3KJXOKX3Z8IMpci3pog2GKIqxHDtxD4seYm/kW58dCjdnGg4/qbMCFi
-z5lg21htoqZgK5f/KgHKXkXFgWkKWRPamREUU/Bh36NUB+WzCdRNnCYYZ06HYQ68
-wSrQNnPv2qSx97zHbGPr9T/xtrWnIc3t61uJzqOswRJ3RN5DmlWIMG5yttZaHzgZ
-8j9E4tuWNMGZWfuaFJQuyegkHV21HuA+ouYfSHOB/4m6fgyBqW3rm4alp5xb5JCi
-bY3oyJOVy//IwrzkFBHxZ0Ls8mjYVtchtKKBtDHH1zAAxhOMMI+pqZRlGUqoPeQN
-eeVQlspK4l72iEQrypuzvTEs3+iTzDY7uNTsvHvJ0W2q8KE/WVGbXmmd4yCfFKnc
-ccWaUkogs4j/HKM3oXwya9DOrUPsQSKcmtQJKr/EcVm+2Jv+jUDtkPefebtyJPn7
-R/uMtk/ULio2ZRVea18B4QXLyU0tfffQfRH9B1LSc5XQzYG95pGJcitWFEpykGGR
-ZbLRYW000G9Dj7ZcvqEVJubpWf9AyI8ck3XGJiEa/gQZTnnNvjZ8QneHOGRU+YP+
-H8ZVRzTExRsx5Bd9hKrPkA92
-=/sXH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDr8gYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S3cQAM0/HhDg/8i3gHR0sBVR
+ODfuwtCRxd7KFNKDQkUwZ2brNE6nr+F/DtjktDUC67BQGRhRT3mTRWaVXKiZcClL
+J6RlXAWFRUw4Wy+Jp56bZLllMBeMC8j747WWYkSIKHKm7cLMY8uuFKiWWaRxMT/K
+R0vydBprWn5uN0+CmcfeqYw+oPpoNI+llMwTgy2kAylDPGgUWD3RwtRYNRA5k98D
+OYi7K0BY3FnlOiSn57JhxRBwunNB8N7l0Lvt/HHF24eM1l/3+X8L2UuTh9Xj+auO
+CGZjqsGoOC6Y9JM8P3lzusjc1iyDPXAYzI0rgwPCbOlLZdE8u/EZbdBxwQ6GKt3i
+isC92zr//pDJrEtP1nagR+rJ476LTQYPlJGXa5yC2fUtpiAGjhM4YJ0BM+jnrdQ2
+QBR3xRiqy7nVDHy+xWHo09CnyFUabuQurx7wsQ4JCHAsitU1Sr1ZBbsoe3U8qXoA
+SA+DZlTzJjXvIFeU0fLIztrDwJq6sFhSwKaUqbcicgdfWEH+nA9JctaSZHKp9HV2
+avLx+C0yeIDr36BhsJZOF8uQBRn0U2DZQRyApmm2J+kcRXxTI2Oq3DzH+JUccl8p
+agOAsZhNVoo5UdbuWg3d4wXKdxupuvygudD6kov2HSpvft3vkJsXgDDX5ob6r+gw
+p95TARINASIYZ7lcRZXYvz6L
+=yLqg
 -----END PGP SIGNATURE-----
 
---===============3786289132752917281==--
+--===============5211656177518730937==--
