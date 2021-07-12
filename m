@@ -1,46 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3445772462608780258=="
+Content-Type: multipart/mixed; boundary="===============3624377532629503650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 Jul 2021 12:02:31 -0000
-Message-Id: <162609135182.13070.6916694603530603507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 12 Jul 2021 12:02:59 -0000
+Message-Id: <162609137998.13329.11586622085197529087@gitolite.kernel.org>
 
---===============3445772462608780258==
+--===============3624377532629503650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 340860ab7d4a01103d33f3e0efa07aeb9d135bd9
-    new: c69402538d23ad7bf6a2a1f344a304de0a9beb22
-    log: revlist-340860ab7d4a-c69402538d23.txt
+  - ref: refs/heads/master
+    old: 61e17630932cb1e517a0e7d4d49692254cdc1f23
+    new: 3c037963715cb04671b4fed157cb11268b526adf
+    log: revlist-61e17630932c-3c037963715c.txt
 
---===============3445772462608780258==
+--===============3624377532629503650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-340860ab7d4a-c69402538d23.txt
+Content-Disposition: attachment; filename=revlist-61e17630932c-3c037963715c.txt
 
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
-66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
-ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
-6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
-3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
-e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a941a0349cf11ed250a04864fef268c2e05a1d32 Merge tag 'timers-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a22c3f615a6fef6553e20c559d31ea817216b4e6 Merge tag 'x86-irq-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1dfb0f47aca11350f45f8c04c3b83f0e829adfa9 Merge tag 'x86-entry-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fca41af18e10318e4de090db47d9fa7169e1bf2f qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
 d915611eda071984f895277ab26bbb80c792f5cb Merge branches 'clk-qcom', 'clk-versatile', 'clk-renesas', 'clk-sifive' and 'clk-ti' into clk-next
@@ -1047,8 +1032,23 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-3457923184e4bc46005d54b1c81c9474bfc8aa72 m68k: atari: usb: Add ISP1160 USB host controller support
-9ffb0e6ea4faa5c4a36c0bb5209266f7faa9d9fe m68k: atari: Update Kconfig.bus help text
-c69402538d23ad7bf6a2a1f344a304de0a9beb22 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+2fa9fd69b3ee015a873e44f7c645ad7bcb79d290 clk: renesas: rzg2l: Add multi clock PM support
+e93c1373613fb2f3e59db5f13271f155820e6a67 clk: renesas: r9a07g044: Rename divider table
+fd8c3f6c36eb093039d4aeb20cceee00c7c6ba1a clk: renesas: r9a07g044: Fix P1 Clock
+668756f7299d2d3c75add17cb415717e247450ef clk: renesas: r9a07g044: Add P2 Clock support
+c3e67ad6f5a2c698a055fb297c6f9962f5145edd dt-bindings: clock: r9a07g044-cpg: Update clock/reset definitions
+df140a64b2e9da8af1f4aa4100ce2f123da65269 Merge branch 'renesas-fixes-for-v5.14' into renesas-next
+7d65526857d6d3b3ce462890bcbc329d93365989 ARM: dts: r8a73a4: Remove non-functional DMA support
+21fb652f7343b948a4b886e65d890a51573a32aa ARM: dts: rzg1: Add generic compatible strings to IIC nodes
+dcf899e1993e4ec82d024176803af54251d3c359 arm64: dts: renesas: r8a774c0: Add generic compatible string to IIC node
+79a75e98627e0ae084c3663616d8cdcfeab02900 arm64: dts: renesas: r8a77990: Add generic compatible string to IIC node
+f94cdd3d304c168a1f35ae9fcfff9c563cfd6fec arm64: dts: renesas: salvator-x(s): Factor out HDMI1 parts
+715222aa5b515229737de4fbd6f3f154a9c2b8d2 arm64: dts: renesas: salvator-x(s): Factor out SATA parts
+3cfa74c03019135486def00daa2801858a4b43cf arm64: dts: renesas: salvator-x(s): Factor out USB ch2 parts
+fdac69974690d10f27022beb783f35e75a103f2b arm64: dts: renesas: salvator-xs: Factor out USB ch3 parts
+616772e5940cf5613063e7199a6ba7f41a286280 arm64: dts: renesas: r8a77995: draak: Add SW56 support
+9ea3ddf72ca2358588d6569abe3f88c5664b47ed arm64: dts: renesas: r8a77990: ebisu: Add SW4 support
+cd117793e1ac66174038470d85471fa4d9e226b9 Merge branch 'renesas-arm-dt-for-v5.15' into renesas-next
+3c037963715cb04671b4fed157cb11268b526adf Merge branch 'renesas-next' into renesas-devel
 
---===============3445772462608780258==--
+--===============3624377532629503650==--
