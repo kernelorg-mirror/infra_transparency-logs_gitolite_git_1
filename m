@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7033126652676834110=="
+Content-Type: multipart/mixed; boundary="===============3445772462608780258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 Jul 2021 12:02:21 -0000
-Message-Id: <162609134100.12923.5522201978966051384@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 12:02:31 -0000
+Message-Id: <162609135182.13070.6916694603530603507@gitolite.kernel.org>
 
---===============7033126652676834110==
+--===============3445772462608780258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 2d240d1827a73e291122d37d0e302896cad67b2e
-    new: 311631a32165388e807ffe189dd6637648179842
-    log: revlist-2d240d1827a7-311631a32165.txt
+  - ref: refs/heads/m68k-queue
+    old: 340860ab7d4a01103d33f3e0efa07aeb9d135bd9
+    new: c69402538d23ad7bf6a2a1f344a304de0a9beb22
+    log: revlist-340860ab7d4a-c69402538d23.txt
 
---===============7033126652676834110==
+--===============3445772462608780258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d240d1827a7-311631a32165.txt
+Content-Disposition: attachment; filename=revlist-340860ab7d4a-c69402538d23.txt
 
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
@@ -1049,6 +1047,8 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-311631a32165388e807ffe189dd6637648179842 Merge tag 'v5.14-rc1'
+3457923184e4bc46005d54b1c81c9474bfc8aa72 m68k: atari: usb: Add ISP1160 USB host controller support
+9ffb0e6ea4faa5c4a36c0bb5209266f7faa9d9fe m68k: atari: Update Kconfig.bus help text
+c69402538d23ad7bf6a2a1f344a304de0a9beb22 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7033126652676834110==--
+--===============3445772462608780258==--
