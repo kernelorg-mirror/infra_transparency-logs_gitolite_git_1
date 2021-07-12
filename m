@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5286920909179726464=="
+Content-Type: multipart/mixed; boundary="===============0211374604880601752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 12 Jul 2021 17:10:35 -0000
-Message-Id: <162610983579.30196.16312353269463825747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 12 Jul 2021 17:26:53 -0000
+Message-Id: <162611081359.8757.6131007758676862463@gitolite.kernel.org>
 
---===============5286920909179726464==
+--===============0211374604880601752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/devel
-    old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-d07f6ca923ea-e73f0f0ee754.txt
+  - ref: refs/heads/hyperv-next
+    old: 7d815f4afa87f2032b650ae1bba7534b550a6b8b
+    new: ba3f5839fbeb3f9e65070d90aa4e66008bbea80f
+    log: revlist-7d815f4afa87-ba3f5839fbeb.txt
 
---===============5286920909179726464==
+--===============0211374604880601752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d07f6ca923ea-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-7d815f4afa87-ba3f5839fbeb.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
 23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
@@ -1050,5 +1049,6 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+ba3f5839fbeb3f9e65070d90aa4e66008bbea80f asm-generic/hyperv: Add missing #include of nmi.h
 
---===============5286920909179726464==--
+--===============0211374604880601752==--
