@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0484450013740440620=="
+Content-Type: multipart/mixed; boundary="===============7997260560695402797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 12 Jul 2021 13:20:37 -0000
-Message-Id: <162609603708.1912.15692490782349141646@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 13:22:48 -0000
+Message-Id: <162609616838.2819.2058212198117929654@gitolite.kernel.org>
 
---===============0484450013740440620==
+--===============7997260560695402797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa
-    old: 2963f0e92328fbf035dbbddc7078e3d9bad41293
-    new: dd925db6f07556061c11ab1fbfa4a0145ae6b438
-    log: revlist-2963f0e92328-dd925db6f075.txt
+  - ref: refs/heads/for-linux-next
+    old: 35ba87e913089c42e5b790ecfe33146982dc68bd
+    new: a1c45486b857030eea90a1c06b9e36fea807e494
+    log: revlist-35ba87e91308-a1c45486b857.txt
 
---===============0484450013740440620==
+--===============7997260560695402797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2963f0e92328-dd925db6f075.txt
+Content-Disposition: attachment; filename=revlist-35ba87e91308-a1c45486b857.txt
 
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
-66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
-ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
-6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
 3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
 e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1046,9 +1039,16 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+38e0c99249f8f12e1450234a0f7fb357a1b73843 firmware: arm_scmi: Simplify device probe function on the bus
+5e469dac326555d2038d199a6329458cc82a34e5 firmware: arm_scmi: Ensure drivers provide a probe function
+7a691f16ccad05d770f813d9c4b4337a30c6d63f firmware: arm_scmi: Fix possible scmi_linux_errmap buffer overflow
+070e91281ec59c9285756ea4405f341efccb5d64 firmware: arm_scmi: Fix kernel doc warnings
+6b9324b0fa9a607f8838d2bd63c8a6455d654800 firmware: arm_scpi: Fix kernel doc warnings
 92743071464fca5acbbe812d9a0d88de3eaaad36 firmware: arm_ffa: Ensure drivers provide a probe function
 e362547addc39e4bb18ad5bdfd59ce4d512d0c08 firmware: arm_ffa: Simplify probe function
 ba684a31d3626c86cd9097e12d6ed57d224d077d firmware: arm_ffa: Fix the comment style
 dd925db6f07556061c11ab1fbfa4a0145ae6b438 firmware: arm_ffa: Fix a possible ffa_linux_errmap buffer overflow
+fc8ad9b858f06e3feadfad3354e8e0b86f208531 Merge branch 'for-next/ffa' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+a1c45486b857030eea90a1c06b9e36fea807e494 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============0484450013740440620==--
+--===============7997260560695402797==--
