@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6298054948126493525=="
+Content-Type: multipart/mixed; boundary="===============0506951735935744674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 12 Jul 2021 16:08:54 -0000
-Message-Id: <162610613431.20493.7969651910802028268@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 16:11:56 -0000
+Message-Id: <162610631659.22908.8861175425624965586@gitolite.kernel.org>
 
---===============6298054948126493525==
+--===============0506951735935744674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/cpupower
+  - ref: refs/heads/linux-safety
     old: d07f6ca923ea0927a1024dfccafc5b53b61cfecc
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     log: revlist-d07f6ca923ea-e73f0f0ee754.txt
 
---===============6298054948126493525==
+--===============0506951735935744674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============6298054948126493525==--
+--===============0506951735935744674==--
