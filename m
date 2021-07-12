@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7922402558309289058=="
+Content-Type: multipart/mixed; boundary="===============2942277193207863865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 12 Jul 2021 08:16:54 -0000
-Message-Id: <162607781442.2852.5543522250349030249@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 08:17:27 -0000
+Message-Id: <162607784775.3111.5056282415180151581@gitolite.kernel.org>
 
---===============7922402558309289058==
+--===============2942277193207863865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 78cf0eb926cb1abeff2106bae67752e032fe5f3e
+  - ref: refs/heads/master
+    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-78cf0eb926cb-e73f0f0ee754.txt
+    log: revlist-6efb943b8616-e73f0f0ee754.txt
 
---===============7922402558309289058==
+--===============2942277193207863865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78cf0eb926cb-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-6efb943b8616-e73f0f0ee754.txt
 
 c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============7922402558309289058==--
+--===============2942277193207863865==--
