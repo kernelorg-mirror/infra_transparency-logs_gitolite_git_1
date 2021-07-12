@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4627755178608651850=="
+Content-Type: multipart/mixed; boundary="===============9187014849899785903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 12 Jul 2021 08:12:42 -0000
-Message-Id: <162607756249.31990.16933064683354696478@gitolite.kernel.org>
+Date: Mon, 12 Jul 2021 08:12:53 -0000
+Message-Id: <162607757361.32157.15399626166986903230@gitolite.kernel.org>
 
---===============4627755178608651850==
+--===============9187014849899785903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     log: revlist-a38fd8748464-e73f0f0ee754.txt
 
---===============4627755178608651850==
+--===============9187014849899785903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============4627755178608651850==--
+--===============9187014849899785903==--
