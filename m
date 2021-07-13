@@ -1,31 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============8080118104906009229=="
+Content-Type: multipart/mixed; boundary="===============7850389835261069737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 13 Jul 2021 12:30:43 -0000
-Message-Id: <162617944364.14033.1524996950271434603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 13 Jul 2021 12:30:45 -0000
+Message-Id: <162617944574.14098.9182735578424687513@gitolite.kernel.org>
 
---===============8080118104906009229==
+--===============7850389835261069737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/topic/devres
-    old: f6d74b7c0cc4b846eb6ad5e3c5d9a3027d6dfcc7
-    new: c06e9330fd068766cdd315149a5074d215c59d80
-    log: revlist-f6d74b7c0cc4-c06e9330fd06.txt
+  - ref: refs/heads/x86/mm
+    old: 314a1e1eabea5b86532e90e0d4e217fa88471e3b
+    new: bab01f803618513188ecf9783d9e619f104a1eaa
+    log: revlist-314a1e1eabea-bab01f803618.txt
 
---===============8080118104906009229==
+--===============7850389835261069737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6d74b7c0cc4-c06e9330fd06.txt
+Content-Disposition: attachment; filename=revlist-314a1e1eabea-bab01f803618.txt
 
+ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
+6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
+3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
+e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a941a0349cf11ed250a04864fef268c2e05a1d32 Merge tag 'timers-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a22c3f615a6fef6553e20c559d31ea817216b4e6 Merge tag 'x86-irq-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1dfb0f47aca11350f45f8c04c3b83f0e829adfa9 Merge tag 'x86-entry-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fca41af18e10318e4de090db47d9fa7169e1bf2f qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
+d915611eda071984f895277ab26bbb80c792f5cb Merge branches 'clk-qcom', 'clk-versatile', 'clk-renesas', 'clk-sifive' and 'clk-ti' into clk-next
+029eae234be34e47a7bcde5c429c04d9e761ad07 Merge branches 'clk-legacy', 'clk-vc5', 'clk-allwinner', 'clk-nvidia' and 'clk-imx' into clk-next
+e51fbc55d3d3f68a9fb37c4e95c88404c4ff244c Merge branches 'clk-rockchip', 'clk-amlogic', 'clk-yaml', 'clk-zynq' and 'clk-socfpga' into clk-next
+4f47c91fc6a8f4b274d934648b53cb668c69c986 Merge branches 'clk-lmk04832', 'clk-stm', 'clk-rohm', 'clk-actions' and 'clk-ingenic' into clk-next
+d2b21013bf5fb177c08b2c9c4dfa32ee0fc97b53 Merge branches 'clk-st', 'clk-si' and 'clk-hisilicon' into clk-next
+3563f55ce65462063543dfa6a8d8c7fbfb9d7772 Merge tag 'pm-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+19c3eaa72288ce161441dd6b74b765a094d73488 trace/osnoise: Make 'noise' variable s64 in run_osnoise()
+6a82f42a2e55d43bd99f1b457982be6c856c800d trace/timerlat: Fix indentation on timerlat_main()
+2fc6d0ec54b9574c02f83ee64f42b77ac141ce90 Merge branch 'psy-fixes' into psy-next
+62e528b80d6b5753e03f005e4858eefb7a84f877 scsi: mpi3mr: Fix warnings reported by smatch
+5e6928249b81b4d8727ab6a4037a171d15455cb0 Merge tag 'acpi-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+104739aca4488909175e9e31d5cd7d75b82a2046 scsi: core: Retry I/O for Notify (Enable Spinup) Required error
+7df47cdf199c2d014716d1baa252aa6021063443 scsi: ipr: System crashes when seeing type 20 error
+72ad9f9d215397aa0ffacf88c5f7e020b856d47f Merge tag 'pnp-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+5f638e5ac61ef1b9b588efdf688acc0a4cecdca2 scsi: virtio_scsi: Add validation for residual bytes from response
+600d050944e133fde1f54b9113b01ccefbd82820 Merge tag 'nand/for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
+349a2d52ffe59b7a0c5876fa7ee9f3eaf188b830 Merge tag 'devprop-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+4465b3a621e761d82d1a92e3fda88c5d33c804b8 power: reset: regulator-poweroff: add missing MODULE_DEVICE_TABLE
+073b5d5b1f9cc94a3eea25279fbafee3f4f5f097 power: supply: charger-manager: add missing MODULE_DEVICE_TABLE
+dfe52db13ab8d24857a9840ec7ca75eef800c26c power: supply: ab8500: add missing MODULE_DEVICE_TABLE
+30e677a2ba2920b1234d1b38307dfa1dbb993e20 drivers: power: add missing MODULE_DEVICE_TABLE in keystone-reset.c
+df6f3f7eb70d310c3cee2d8e08ed32067fb6fcf4 power: supply: bq24190_charger: drop of_match_ptr() from device ID table
+0973e96b4bbd19aa50881a8e0e4653b824420de6 power: supply: axp288_fuel_gauge: Rename fuel_gauge_blacklist to no_battery_list
+3a06b912a5ce494d7b7300b12719c562be7b566f power: supply: axp288_fuel_gauge: Make "T3 MRD" no_battery_list DMI entry more generic
+f390e4bd79289b85bfe345d4d9d160dc4926dfc1 power: supply: axp288_fuel_gauge: remove redundant continue statement
+f1c74a6c07e76fcb31a4bcc1f437c4361a2674ce power: supply: ab8500: Fix an old bug
+b6df00789e2831fff7a2c65aa7164b2a4dcbe599 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+4a754d7637026b42b0c9ba5787ad5ee3bc2ff77f RDMA/mlx5: Don't access NULL-cleared mpi pointer
+3d8287544223a3d2f37981c1f9ffd94d0b5e9ffc RDMA/core: Always release restrack object
+65090f30ab791810a3dc840317e57df05018559c Merge branch 'akpm' (patches from Andrew)
+bfa50166cd9d5d190b20dc33d1ec7ae19ced7022 pinctrl: ralink: rt305x: add missing include
+d578b99443fde0968246cc7cbf3bc3016123c2f4 ext4: notify sysfs on errors_count value change
+30d1a556a9970e02794501068fd91d4417363f0a Merge tag 'fs.mount_setattr.nosymfollow.v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 b97902b62ae8d5bdd20f56278d8083b4324bf7b5 Merge tag 'fs.openat2.unknown_flags.v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 bbd91626f71c1582301044f5942751eeb4ca98ba Merge tag '5.14-rc-smb3-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
 8418dabd97ce4b0713c36dd8226978f737c342b0 Merge tag 'gfs2-v5.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
@@ -997,58 +1041,14 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-2e2832562c877e6530b8480982d99a4ff90c6777 ALSA: pcm: Call substream ack() method upon compat mmap commit
-2d52c5dd8e80b50501af51d3c03e4e649d31adbe ALSA: hda/ca0132: remove redundant initialization of variable status
-3b0f7eeff697b04571a5c6329b7e8fdf8f8c85d9 ALSA: ice1724: Remove superfluous loop over model table
-82a60352c2d3ef06815d4ddfd85d5506b5758804 ALSA: x86: simplify with sync_stop PCM ops
-4ff19229487f965118c6f14090edcc8cb6108605 ALSA: hda/hdmi: Add option to enable all pins forcibly
-27757876d1738a2dd528986c8143192f84eaa58a ALSA: intel8x0: Skip ac97 clock measurement on VM
-ef33a7fabf007e3eee29c437393dd0ae8e642080 ALSA: core: Add device-managed page allocator helper
-647fb68a5cbe0d3ba948caf5bdb0ed930fe91bdb ALSA: core: Add managed card creation
-858da0e474334075c2f4f7d7560eff00f586e548 ALSA: intel8x0: Allocate resources with device-managed APIs
-312aa83096a6044c3840fedcded3cf56ebaebefd ALSA: atiixp: Allocate resources with device-managed APIs
-2b5e963b86f274af738ba22940eb0ee7e1c108ec ALSA: hda: Allocate resources with device-managed APIs
-428d888ec39711782d656baf47346954c88da72d ALSA: doc: Add device-managed resource section
-50145827593b8af1701314fe8ac14f32c3dfbfeb ALSA: ad1889: Allocate resources with device-managed APIs
-15385b10629f88a8a8e0ef76b680f880259ed098 ALSA: als300: Allocate resources with device-managed APIs
-356037078b98c059952401e57a503251684d0585 ALSA: als4000: Allocate resources with device-managed APIs
-86fb8f4e4f000f9f76cad7cd0ced63161ad22097 ALSA: azt3328: Allocate resources with device-managed APIs
-883d8c59ca0642113db2454690615e46c9868303 ALSA: bt87x: Allocate resources with device-managed APIs
-cdad9583dc0c0988d78173b55a5a151b5c894acd ALSA: cmipci: Allocate resources with device-managed APIs
-745f62080b54624e7a4f6b9b660e59b3e43d9f12 ALSA: cs4281: Allocate resources with device-managed APIs
-e330d232d6f783280c2555b16135af01afb2e85c ALSA: cs5530: Allocate resources with device-managed APIs
-4bddc4301e488a4dae300ad430423b8b844a67d5 ALSA: ens137x: Allocate resources with device-managed APIs
-00b88c762c1225f9dfc066f8165959a39ec69383 ALSA: es1938: Allocate resources with device-managed APIs
-a7760aa60132fc90d31a4d33c850796a43bd0354 ALSA: es1968: Allocate resources with device-managed APIs
-c9b3e5f3c710328a68531e993971e22f6b1a8a9c ALSA: fm801: Allocate resources with device-managed APIs
-3dc66367237354cfd9cc4558ff7e2ab2c7bb8448 ALSA: maestro3: Allocate resources with device-managed APIs
-f457955aa05cb31e76d9f21206784611a999b88e ALSA: rme32: Allocate resources with device-managed APIs
-64f205f6eaecd3bf02962ea4a40a0eb8d1bab98f ALSA: rme96: Allocate resources with device-managed APIs
-f622390466b2237c1cd17554eae2abecca4aeae7 ALSA: sis7019: Allocate resources with device-managed APIs
-c4ef4020b55385837aa307b865583bf3c913fca0 ALSA: sonicvibes: Allocate resources with device-managed APIs
-34b04bdb8a7ab18fb86c2d62ee2a3ed31f52afa9 ALSA: via82xx: Allocate resources with device-managed APIs
-6bbc936cac4bd3cb0cabbfac9554c18d7a2b4346 ALSA: ali5451: Allocate resources with device-managed APIs
-dcedb1c26d377ed5473374402d193d013f736704 ALSA: au88x0: Allocate resources with device-managed APIs
-2a3ebd9f9f248eabe5090d0bcf43c823db35ab0a ALSA: aw2: Allocate resources with device-managed APIs
-89f2130f1cece8bb4063ecb090d2af3788351fcc ALSA: ca0106: Allocate resources with device-managed APIs
-f0d6f4ee2f33509f82002d92c1c7bb1aa9906d5e ALSA: cs46xx: Allocate resources with device-managed APIs
-ab18805aeb972fe36c6d152e7c8176d1e07a0fd5 ALSA: cs5535audio: Allocate resources with device-managed APIs
-13211284ef0666bd779759ba3da760ccb7c84a01 ALSA: echoaudio: Allocate resources with device-managed APIs
-910f15ef19274fc690623e2e3dbcdbd04ee38398 ALSA: emu10k1: Allocate resources with device-managed APIs
-116b2dddf8fef643445eaab8b7e6fb114c1babe7 ALSA: emu10k1x: Allocate resources with device-managed APIs
-4ae11c7708c00f16d8c4dcc197dab737fd3070e8 ALSA: ice1712: Allocate resources with device-managed APIs
-e84543887cad68d143c60d7816bd3dc7920eb46a ALSA: ice1724: Allocate resources with device-managed APIs
-60a75decf12828eeacbce99c7e0cb0dc7f5024ad ALSA: korg1212: Allocate resources with device-managed APIs
-69ab8c83bb022d16a6dd2a6487ddad45bb8bb5cb ALSA: lola: Allocate resources with device-managed APIs
-4e7b0863369be91cd21a9b8e833b7c4e1a45c779 ALSA: oxygen: Allocate resources with device-managed APIs
-4ddf6012a72f598df3d78caf48d65e552741b803 ALSA: riptide: Allocate resources with device-managed APIs
-5011c41617b058b0c057dd2952f6a821b1bd2e24 ALSA: hdsp: Allocate resources with device-managed APIs
-a4d3ab3b1d05f8e5bae93ee2e0364eb3b85da50f ALSA: hdspm: Allocate resources with device-managed APIs
-240194ad56ec9bd1d4181ed451af337b3021f837 ALSA: rme9652: Allocate resources with device-managed APIs
-c39c61d79c27bbcfd386c98b2b795f4d90fe93a6 ALSA: trident: Allocate resources with device-managed APIs
-48621c1b87e3b0eeec19cf2ae158f1e3bdaee941 ALSA: vx: Manage vx_core object with devres
-a98f01a985b07e38fc9ea3fc6a2aaf4f117a1591 ALSA: vx222: Allocate resources with device-managed APIs
-82a9e795ca815b2368f95604a02ccee0a70ce39c ALSA: ymfpci: Allocate resources with device-managed APIs
-c06e9330fd068766cdd315149a5074d215c59d80 ALSA: x86: Allocate resources with device-managed APIs
+29791d5692fd7d139b1332cdbdc9d793a81d72b5 mm: Update ptep_get_lockless()'s comment
+8a7e88af6ee81aedde5818231fc514c2270fee0f x86/mm/pae: Make pmd_t similar to pte_t
+d012250c475602b30ee83d3ac7408186f91e5bfa sh/mm: Make pmd_t similar to pte_t
+fc5f44518758c908703e5ca9160b7e7ae7885380 mm: Fix pmd_read_atomic()
+544c97087bf11cb0836d10807a4241c5000672fe mm: Rename pmd_read_atomic()
+379783e9521bda32aee3833a391535b84f80b4de mm/gup: Fix the lockless PMD access
+b5cda016a09e55410e4a2fde7fba622fa1329f2e x86/mm/pae: Don't (ab)use atomic64
+0d060bb1b51a936b5afa6e159e88ba1b62670d7c x86/mm/pae: Use WRITE_ONCE()
+bab01f803618513188ecf9783d9e619f104a1eaa x86/mm/pae: Be consistent with pXXp_get_and_clear()
 
---===============8080118104906009229==--
+--===============7850389835261069737==--
