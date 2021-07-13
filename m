@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3259077874824351543=="
+Content-Type: multipart/mixed; boundary="===============1821949274096108957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 13 Jul 2021 02:06:18 -0000
-Message-Id: <162614197807.1412.13340404514585719958@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 02:06:24 -0000
+Message-Id: <162614198423.1535.13712608754265085361@gitolite.kernel.org>
 
---===============3259077874824351543==
+--===============1821949274096108957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 5f638e5ac61ef1b9b588efdf688acc0a4cecdca2
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-5f638e5ac61e-e73f0f0ee754.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 9a8ad1aeaa4e50b744113afda11f25192312ee86
+    new: c59bcaf453c5b7a6b3caeda57c58e2f408af4e54
+    log: revlist-9a8ad1aeaa4e-c59bcaf453c5.txt
 
---===============3259077874824351543==
+--===============1821949274096108957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1626141976 -0400
+pusher 75C5DE3D 1626141982 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1626141975-34ef0a82c497cd7848aa3ea744544c6be95f6803
+nonce 1626141981-4e826defc92ce0516e722ad7a2c77ef1feb0f369
 
-5f638e5ac61ef1b9b588efdf688acc0a4cecdca2 e73f0f0ee7541171d89f2e2491130c7771ba58d3 refs/heads/queue
+9a8ad1aeaa4e50b744113afda11f25192312ee86 c59bcaf453c5b7a6b3caeda57c58e2f408af4e54 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDs9RgACgkQ7ulgGnXF
-3j01SQ//cCt2MW31qOa46eJc6SQRddnnVGIppPraq5c6XTF0YltDvvrT4+OaXSlB
-BaxATgRVucWBPgrd6zUrCfS53iGSVcdHi5hIqPjMNDWuMfWZ0VR14oMyocnY7R6J
-+8OCDS8InzZ4V4jXSp13uX9VviP5Qp20aiacbIq1I2SFaZg64qVHkL9ev5d73rjM
-hE78tzw8GxhuPjnuI22eNILrLXa/khFBhV1Ul1a+nrQ/lLhN3AbfLlQyRiB3IAaG
-GGPJkIgSPau3c/Ij9fgT115uGwcysnYD3RwTfYLjSoFHzE/ojvN8/YAW7yaveBY6
-TMGt6zcPSTTWWgf5vJBCHJq8d1HQkNPOZEsAeqHNsTffR/G1m97UrIo62FtFKcTs
-uguU5UTeZuFUTgmAvhwD8kBvujoDw3Q/eN5DB2sfn+rOz8FuaU6KkJZS7/oKDJku
-kbYCW2u6488igDkEWbV1hf9i233TEF69nrgO30fRsNpwonLmXJZETaEzlEAtJxT9
-PrA5E9LZk/HB5GMay/7Fa0h78AR2mNY6angQ1izl3qQbK6qsYpjY/EkIz9Z7SNZM
-yse/0HKVUHSKGezzZ1ZBhzcgHjf2rp9csNtJ2ChXjLScxYjYJO8z7CtdgAqffuB7
-qX6CQZvvqDaTFXWdfL9Yn5QFMx2+gS0xu22YVXzZSb3xrEReCdY=
-=1j2z
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDs9R4ACgkQ7ulgGnXF
+3j3ZzRAAiBcbxry/SOR549z6mSHHHknKiy1kNpMVI3AOr8OTC4w8LiYCoJeAxHWO
+jmfnHASiq3YReK3L8gwVxncM7fT65wjTrIHndRQvR/l4/2UMBPSR3iishJjOikkY
+5Idkxzs+V5Ub95fGAJnhw87ke9wzxU/3af7/Ppk6GlVLP8hJcJT2ugwUdO3Qhhtu
+o11I+SbkKJ7EhqUacq5aYOAmVp3IuiwuMRXuENSvqEF2wg+BEO6l8zQHE5R073S8
+UNvKOtPDCdGH5En1EMugBSDmzEYQk1UNjFFEQKSgC+PGguHsx70Z7q5a7x0M5BB8
+CdLXuIjS1k5xZSHxoTzMAtiQyvc8Q7MmtGii0lNnrxgA4C0va7U7rAvH32Tv9R36
+6YwT/ksVX8cYwxTeDF4JqYmBhZoRl1qCDJe2oE/K0TPMZwHtcUPpYJT6tQPI7ciL
+i/8bpO2jeCEBlIJQgya5e51FdoXsYY9uJ5KPsL6vAFPZa0j+xkroHEM1xGr0ns09
+xtvUhZqPtwGHe2PRry6zj8EOncX1TSiGb6T4XRm9pnYpA1ri/Gzuae1C75oNfvPr
+7xFysIShKJLY7r/OBFA5CBseQoY7LSPn9T+NCjMrMoeYARmytrpjQvvukHl0gkQy
+k63j1jcKKMYNIqavS5QGqJ7CmsJeDar+T8a3p4vYvT5Jx+YeIVI=
+=f1l/
 -----END PGP SIGNATURE-----
 
---===============3259077874824351543==
+--===============1821949274096108957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f638e5ac61e-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-9a8ad1aeaa4e-c59bcaf453c5.txt
 
 0ed950d1f28142ccd9a9453c60df87853530d778 mm,hwpoison: make get_hwpoison_page() call get_any_page()
 b694011a4aec3e8df98bc59fdb78e018b09de79d Merge tag 'hyperv-next-signed-20210629' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
@@ -1081,4 +1081,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============3259077874824351543==--
+--===============1821949274096108957==--
