@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3988306846274514381=="
+Content-Type: multipart/mixed; boundary="===============8374084280378310283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 13 Jul 2021 06:11:34 -0000
-Message-Id: <162615669423.2048.3667387005948636760@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 06:11:46 -0000
+Message-Id: <162615670665.2211.12839299115836700552@gitolite.kernel.org>
 
---===============3988306846274514381==
+--===============8374084280378310283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 4a03e5b3e9d1358201d71640381ca2b8b0c5a55d
+  - ref: refs/heads/master
+    old: 90822ce6bcec7a2b6f17499ba29e0563e102853e
     new: 3bc63dbc7d1e139f1fda41d7230d28091016507b
-    log: revlist-4a03e5b3e9d1-3bc63dbc7d1e.txt
+    log: revlist-90822ce6bcec-3bc63dbc7d1e.txt
 
---===============3988306846274514381==
+--===============8374084280378310283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a03e5b3e9d1-3bc63dbc7d1e.txt
+Content-Disposition: attachment; filename=revlist-90822ce6bcec-3bc63dbc7d1e.txt
 
+efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with mlocked ptes
+79789db03fdd77510cfb35cb4b3bd52b6c50c901 mm: Make copy_huge_page() always available
+7fef2edf7cc753b51f7ccc74993971b0a9c81eca sd: don't mess with SD_MINORS for CONFIG_DEBUG_BLOCK_EXT_DEVT
+e48a12e546ecbfb0718176037eae0ad60598a29a jump_labels: Mark __jump_label_transform() as __always_inlined to work around aggressive compiler un-inlining
+e9ba16e68cce2f85e9f5d2eba5c0453f1a741fd2 smpboot: Mark idle_init() as __always_inlined to work around aggressive compiler un-inlining
+87f8d121d0eca36b81c10a394f68c384920c6c35 Merge branch 'sched/core'
+dccf8e55f164d6226cf126c9ed8db85bca0e6def Merge branch 'perf/core'
+4b617dd3c2beb92c055e7e5036c28a583c59a4f4 Merge branch 'locking/urgent'
+d6ec338daa3f9bbe6a9b3a6a59ea83e0a8092a23 Merge branch 'locking/core'
+dd9ced4003dd74bdd5a59f005b7ad34fb2d02226 Merge branch 'core/urgent'
+79e920060fa72d0e827a104d74578fa077c59b66 Merge branch 'WIP/fixes'
+53cf5a13087595dae3dcde2548b02592717cf262 sched/headers: Add test files & scripts to measure header bloat
+01e41b93924fad7984c8d118e6175b9636ba5377 headers/prep: x86/fpu: Make the <asm/fpu/types.h> header build standalone
+6ca4b8fd9e1aa31a73d472fc8f1ca33f50c69304 headers/prep: sched/headers: Add header guard to kernel/sched/sched.h
+0d7f4b097f271d2d583cbd8970e164cb99258e36 headers/prep: sched/headers: Add header guard to <linux/sched/deadline.h>
+2517bd6ef0235aaa67d6ad8bb45e6a3f9fa9c583 headers/prep: sched/headers: Add header guard to kernel/sched/stats.h and kernel/sched/autogroup.h
+cb5a8bbdc03c7a06696d85e8730ef2797799ea15 headers/prep: eventpoll: Make the <linux/eventpoll.h> header build standalone
+ba9e0210ce2d77fba4bf37d62a177b6b155042ac headers/prep: mm: Make <linux/huge_mm.h> build standalone
+a83a4427475c8eaf6c738d1e31a490582dd7bd58 headers/prep: net: Maket he <net/dcbnl.h> header build standalone
 121ef3f7d4eda19fd35ed37ed2471f8e965574a7 headers/prep: PCI: Make the <linux/pci-dma-compat.h> header build standalone
 dd5a1b9cf31d550d3f86002a8b0ffe266afe4836 headers/deps: Add initial new headers as identity mappings
 139ad0954c2d2a83bd168d4b932200e3e883fad9 headers/prep: arm64: Move the ARCH_LOW_ADDRESS_LIMIT definition from <asm/processor.h> to <asm/dma.h>
@@ -843,4 +862,4 @@ b79c975dcef970a4b3f9177faffde280bc7f8d68 headers/deps: x86/mm: Optimize <asm/mmu
 e69c96b65c1888b6309e74bf249bd9641aa8c3ef headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies
 3bc63dbc7d1e139f1fda41d7230d28091016507b WIP: Fix big omnibus merge artifacts
 
---===============3988306846274514381==--
+--===============8374084280378310283==--
