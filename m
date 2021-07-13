@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2123933058848157846=="
+Content-Type: multipart/mixed; boundary="===============5815196701646614668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 13 Jul 2021 16:55:53 -0000
-Message-Id: <162619535397.3256.1552024637121256394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 13 Jul 2021 16:56:45 -0000
+Message-Id: <162619540516.3608.803455713069241265@gitolite.kernel.org>
 
---===============2123933058848157846==
+--===============5815196701646614668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/for-next
-    old: b9f83ffaa0c096b4c832a43964fe6bff3acffe10
-    new: 14490d0ff202ad62e99d93438eb07feacff48166
-    log: revlist-b9f83ffaa0c0-14490d0ff202.txt
+  - ref: refs/heads/edac-for-next
+    old: 0a9ece9ba154dd6205709108180952c55e630833
+    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    log: revlist-0a9ece9ba154-e73f0f0ee754.txt
 
---===============2123933058848157846==
+--===============5815196701646614668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9f83ffaa0c0-14490d0ff202.txt
+Content-Disposition: attachment; filename=revlist-0a9ece9ba154-e73f0f0ee754.txt
 
+c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
+8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
+23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
@@ -1047,8 +1050,5 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-5433423332bed24c3bd0db79c937de3a91520b8b NFSD: Clean up splice actor
-3f3cf0776f37fa866255b3a1a93e868bc4e78978 SUNRPC: Add svc_rqst_replace_page() API
-14490d0ff202ad62e99d93438eb07feacff48166 NFSD: Batch release pages during splice read
 
---===============2123933058848157846==--
+--===============5815196701646614668==--
