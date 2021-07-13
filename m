@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 13 Jul 2021 16:32:50 -0000
-Message-Id: <162619397020.19313.10387731104305207505@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 16:43:59 -0000
+Message-Id: <162619463935.25681.9445101258839397927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e56c6bbd98dc1cefb6f9c5d795fd29016e4f2fe7
-    new: b0b33b048dcfbd7da82c3cde4fab02751dfab4d6
+    old: b0b33b048dcfbd7da82c3cde4fab02751dfab4d6
+    new: deb7178eb940e2c5caca1b1db084a69b2e59b4c9
     log: |
-         b0b33b048dcfbd7da82c3cde4fab02751dfab4d6 net: dsa: sja1105: fix address learning getting disabled on the CPU port
+         deb7178eb940e2c5caca1b1db084a69b2e59b4c9 net: fddi: fix UAF in fza_probe
          
