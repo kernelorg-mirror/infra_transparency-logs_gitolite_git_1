@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3710386751515349171=="
+Content-Type: multipart/mixed; boundary="===============7392297202363198047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 13 Jul 2021 02:06:01 -0000
-Message-Id: <162614196195.1068.2318977928790591589@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 02:06:08 -0000
+Message-Id: <162614196800.1146.16900673089795312124@gitolite.kernel.org>
 
---===============3710386751515349171==
+--===============7392297202363198047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: d1b7f92035c6fb42529ada531e2cbf3534544c82
-    new: 053c16ac89050ef0e8ab9dc1edaf157bf104c8c6
-    log: revlist-d1b7f92035c6-053c16ac8905.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 1fbeabde4088e7b27d4d4afff237a47132e4b3f4
+    new: 314deb950dd558aee466d8a823784355b8049cf5
+    log: revlist-1fbeabde4088-314deb950dd5.txt
 
---===============3710386751515349171==
+--===============7392297202363198047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1626141959 -0400
+pusher 75C5DE3D 1626141966 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1626141959-9cd2d78b124128a9e3ab1f58bb12a48b0a39d0b7
+nonce 1626141965-2bc8b1682254af5d29794fcdb095dc0332d21267
 
-d1b7f92035c6fb42529ada531e2cbf3534544c82 053c16ac89050ef0e8ab9dc1edaf157bf104c8c6 refs/heads/fixes
+1fbeabde4088e7b27d4d4afff237a47132e4b3f4 314deb950dd558aee466d8a823784355b8049cf5 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDs9QcACgkQ7ulgGnXF
-3j2XvQ//XySH0+NGXvod63agyq8IbW+qrTS/y7Pl1YNw3U2IBINYV2KypPUVqqem
-koOOjg7alPawlONm5L/pDbMve+YD333YNeO2ry1s0R78YWLfTFPcJ0LvopxidGZ6
-k3Vq3h3B3ahi7DB3OexAExml33olVRchgd2ROgAGUQv5hDKR9URfkOVYsVIKQErb
-Q71t/lXB6cqXeIIUGJ3kxSnS3J2G9Gm77iHJJqYsCrsJh+p+8FvEb0D2o9iKCuHW
-gS4cM0+5YqHtWKDzk2NovY0rhBBV/PotX9UzmmItzESRzF82wChaGxvVslIHlLR/
-XiQYoCSZgC3TV9ork5r58icRhl3BBUvH+iWOFd6oI4wEQa4Ft4luo1tJxz4oGh+J
-Z08YDRcHjvif3tWZwCTYJ7KvHIhyJM0ps0+w+TC0biJAI6iQLMaGW6t9hwsJi9k2
-et4gKACyKHsyrTyHbgjL/zP5F3Y2VA8/8fKuvbX97yTijRMfiDdQ4mwx4mtEb616
-zqRuTUcnggiav2DWN4n378Y8uBzlypWG8/Mj+TJj1dObglzDNZzVMacA9t11Fu4I
-o+Yk9hvdRrEwZFREjbk/G9pJPsonKMkN15TIaG6DD92c3kNsoX3KX4YldZfrIpP7
-4UUB60icTVT1lJPQfToxN7C6BrVVjUkfhGpsdUML99M0UFnEyQQ=
-=nwRy
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmDs9Q4ACgkQ7ulgGnXF
+3j0NCw//cWSPHXb6pUnJT78ZX4D3gtRyMvc72UMHJ95Qit03R+pbuu1K/6kK5jMN
+IRkuZ0hzFiU3y7ZOxIYo/kkJtQPAEW7/66jPRuoZpvdgKhfNm0DT8UkpZRMFyAeK
+9MiP+2zbO1P1+Zz9XtVqj60nRZECsHEf9fVYGCQyfQkK3aDHDd4ymJSy+Gd4BWOa
+65Da4PxsqYV2v8a9DAJ0N1/SWShXtHmv8SWMdCKzOFWpnwCVxXTOW8ok9VGPtLzs
+Oxu1FqqRQAzjI97U+brWzGaSda43iaKw5enNPTPdiCBgUmua/mSgnU/CWx611Vl+
+7sezmYjOJO6m+gL2muKNmzamQclf68ZLXwVyUeCrQxAGjUniB2aTPbB8rW5KCzWw
+L5mliv8WfWQfUKQhh3sgooQ9gXj9scrLWv7UgjeALt+iclCjOJG1T6jCmu6uxYl4
+FKya/s3J5ZjtwRKQDZfjyUlT/pGA/RBMpndJko6cMpcSqfK9zHSmQUIlNTBzV8gQ
+R7Uc/eGAIBmSvQxgGQcG/ggSwOdf7L37jCaXzII215mkaFmUAHDc1OP0Fe0raW9M
+JkZg0LH6eBDhEJsc1bbtHmsyXzJBCg0iBoyGy5VcoiBGGAv0sYCQiRzfd8A0dNgU
+xX8Bkl15mvZMDCMCk6dEKCQB/cX0a6rY4uu6q+hiE/t554i5Nhw=
+=bUYO
 -----END PGP SIGNATURE-----
 
---===============3710386751515349171==
+--===============7392297202363198047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1b7f92035c6-053c16ac8905.txt
+Content-Disposition: attachment; filename=revlist-1fbeabde4088-314deb950dd5.txt
 
+0ed950d1f28142ccd9a9453c60df87853530d778 mm,hwpoison: make get_hwpoison_page() call get_any_page()
+b694011a4aec3e8df98bc59fdb78e018b09de79d Merge tag 'hyperv-next-signed-20210629' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+e3ae2365efc14269170a6326477e669332271ab3 net: sock: introduce sk_error_report
+e6a3e4434000de5c36d606e5b5da5f7ba49444bd net: sock: add trace for socket errors
+c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
+8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
+23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
+78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
+b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
+5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
+945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
 1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
 66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
 ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
@@ -78,12 +89,8 @@ d2b21013bf5fb177c08b2c9c4dfa32ee0fc97b53 Merge branches 'clk-st', 'clk-si' and '
 19c3eaa72288ce161441dd6b74b765a094d73488 trace/osnoise: Make 'noise' variable s64 in run_osnoise()
 6a82f42a2e55d43bd99f1b457982be6c856c800d trace/timerlat: Fix indentation on timerlat_main()
 2fc6d0ec54b9574c02f83ee64f42b77ac141ce90 Merge branch 'psy-fixes' into psy-next
-62e528b80d6b5753e03f005e4858eefb7a84f877 scsi: mpi3mr: Fix warnings reported by smatch
 5e6928249b81b4d8727ab6a4037a171d15455cb0 Merge tag 'acpi-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-104739aca4488909175e9e31d5cd7d75b82a2046 scsi: core: Retry I/O for Notify (Enable Spinup) Required error
-7df47cdf199c2d014716d1baa252aa6021063443 scsi: ipr: System crashes when seeing type 20 error
 72ad9f9d215397aa0ffacf88c5f7e020b856d47f Merge tag 'pnp-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-5f638e5ac61ef1b9b588efdf688acc0a4cecdca2 scsi: virtio_scsi: Add validation for residual bytes from response
 600d050944e133fde1f54b9113b01ccefbd82820 Merge tag 'nand/for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
 349a2d52ffe59b7a0c5876fa7ee9f3eaf188b830 Merge tag 'devprop-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4465b3a621e761d82d1a92e3fda88c5d33c804b8 power: reset: regulator-poweroff: add missing MODULE_DEVICE_TABLE
@@ -1073,12 +1080,5 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-422969bbb5af2f7226cf75cdb4aae02f46299dc2 scsi: core: Fix the documentation of the scsi_execute() time parameter
-fbf1a58701ecbf61211476277a77eaada6c091d4 scsi: fas216: Fix a build error
-93aa71ad7379900e61c8adff6a710a4c18c7c99b scsi: core: Fix bad pointer dereference when ehandler kthread is invalid
-8b3bdd99c092bbaeaa7d9eecb1a3e5dc9112002b scsi: zfcp: Report port fc_security as unknown early during remote cable pull
-bb6beabf2f79ea063750bf16e78b61e5a50f2d5c scsi: pm8001: Clean up kernel-doc and comments
-aa0dc6a73309f1fc779f4560a60ee766a3891adc scsi: mpi3mr: Fix W=1 compilation warnings
-053c16ac89050ef0e8ab9dc1edaf157bf104c8c6 scsi: ufs: core: Add missing host_lock in ufshcd_vops_setup_xfer_req()
 
---===============3710386751515349171==--
+--===============7392297202363198047==--
