@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7850389835261069737=="
+Content-Type: multipart/mixed; boundary="===============6436271280446630337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 13 Jul 2021 12:30:45 -0000
-Message-Id: <162617944574.14098.9182735578424687513@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 12:30:57 -0000
+Message-Id: <162617945742.14253.2414124895109369822@gitolite.kernel.org>
 
---===============7850389835261069737==
+--===============6436271280446630337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm
-    old: 314a1e1eabea5b86532e90e0d4e217fa88471e3b
-    new: bab01f803618513188ecf9783d9e619f104a1eaa
-    log: revlist-314a1e1eabea-bab01f803618.txt
+  - ref: refs/heads/perf/urgent
+    old: d4ba0b06306a70c99a43f9d452886a86e2d3bd26
+    new: 58c40bea5b6daf98d904a200eec7f6ab293f153a
+    log: revlist-d4ba0b06306a-58c40bea5b6d.txt
 
---===============7850389835261069737==
+--===============6436271280446630337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-314a1e1eabea-bab01f803618.txt
+Content-Disposition: attachment; filename=revlist-d4ba0b06306a-58c40bea5b6d.txt
 
+78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
+b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
+5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
+945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
+1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
+66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
 ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
 6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
 3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
@@ -541,8 +547,6 @@ bd7a94c0fa41dfbea8564556c7a28b05e353c5da ACPI: Correct \_SB._OSC bit definition 
 ceb6ba45dc8074d2a1ec1117463dc94a20d4203d sched/fair: Sync load_sum with load_avg after dequeue
 72d0ad7cb5bad265adb2014dbe46c4ccb11afaba sched/fair: Fix CFS bandwidth hrtimer expiry type
 3e1493f46390618ea78607cb30c58fc19e2a5035 sched/uclamp: Ignore max aggregation if rq is idle
-87bf399f86ecf36cc84fbeb7027a2995af649d6e perf/x86/cstate: Add ICELAKE_X and ICELAKE_D support
-d4ba0b06306a70c99a43f9d452886a86e2d3bd26 perf/x86/intel/uncore: Clean up error handling path of iio mapping
 392ed6a789803fbfd49994e95fe99cd07b07eb87 ACPI: Do not singal PRM support if not enabled
 585af8ede7035379b712cacca80e9c2c34853d4b loop: remove unused variable in loop_set_status()
 71bd9341011f626d692aabe024f099820f02c497 Merge branch 'akpm' (patches from Andrew)
@@ -1041,14 +1045,10 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-29791d5692fd7d139b1332cdbdc9d793a81d72b5 mm: Update ptep_get_lockless()'s comment
-8a7e88af6ee81aedde5818231fc514c2270fee0f x86/mm/pae: Make pmd_t similar to pte_t
-d012250c475602b30ee83d3ac7408186f91e5bfa sh/mm: Make pmd_t similar to pte_t
-fc5f44518758c908703e5ca9160b7e7ae7885380 mm: Fix pmd_read_atomic()
-544c97087bf11cb0836d10807a4241c5000672fe mm: Rename pmd_read_atomic()
-379783e9521bda32aee3833a391535b84f80b4de mm/gup: Fix the lockless PMD access
-b5cda016a09e55410e4a2fde7fba622fa1329f2e x86/mm/pae: Don't (ab)use atomic64
-0d060bb1b51a936b5afa6e159e88ba1b62670d7c x86/mm/pae: Use WRITE_ONCE()
-bab01f803618513188ecf9783d9e619f104a1eaa x86/mm/pae: Be consistent with pXXp_get_and_clear()
+efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with mlocked ptes
+79789db03fdd77510cfb35cb4b3bd52b6c50c901 mm: Make copy_huge_page() always available
+7fef2edf7cc753b51f7ccc74993971b0a9c81eca sd: don't mess with SD_MINORS for CONFIG_DEBUG_BLOCK_EXT_DEVT
+7bb2ec852f1ffe74f6c0b4d3ff8da1a19616c518 perf: Fix required permissions if sigtrap is requested
+58c40bea5b6daf98d904a200eec7f6ab293f153a perf: Refactor permissions check into perf_check_permission()
 
---===============7850389835261069737==--
+--===============6436271280446630337==--
