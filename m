@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4258785297640953967=="
+Content-Type: multipart/mixed; boundary="===============7747587075522964045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 13 Jul 2021 18:38:04 -0000
-Message-Id: <162620148494.5415.6549927701701008431@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 18:38:36 -0000
+Message-Id: <162620151699.5667.11950751982983414494@gitolite.kernel.org>
 
---===============4258785297640953967==
+--===============7747587075522964045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: 18b380ed61f892ed06838d1f1a5124d966292ed3
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-18b380ed61f8-e73f0f0ee754.txt
+  - ref: refs/heads/devfreq-testing
+    old: f3ff8a27ab2f41bffcc6d620e6f475a7a8822ccf
+    new: cd633454251e1cf77b6f061e9eaf881299d5c724
+    log: revlist-f3ff8a27ab2f-cd633454251e.txt
 
---===============4258785297640953967==
+--===============7747587075522964045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18b380ed61f8-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-f3ff8a27ab2f-cd633454251e.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
 23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
@@ -1050,5 +1049,6 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+cd633454251e1cf77b6f061e9eaf881299d5c724 PM / devfreq: Add new up_threshold and down_differential sysfs attrs
 
---===============4258785297640953967==--
+--===============7747587075522964045==--
