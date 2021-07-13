@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5969598622537768209=="
+Content-Type: multipart/mixed; boundary="===============1476902802509438123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 13 Jul 2021 08:43:18 -0000
-Message-Id: <162616579873.7317.11962222587500318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 13 Jul 2021 08:43:28 -0000
+Message-Id: <162616580826.7458.8282366777949417087@gitolite.kernel.org>
 
---===============5969598622537768209==
+--===============1476902802509438123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     log: revlist-62fb9874f5da-e73f0f0ee754.txt
 
---===============5969598622537768209==
+--===============1476902802509438123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============5969598622537768209==--
+--===============1476902802509438123==--
