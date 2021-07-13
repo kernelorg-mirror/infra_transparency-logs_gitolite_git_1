@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 13 Jul 2021 09:45:22 -0000
-Message-Id: <162616952280.333.8902806510470118472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+Date: Tue, 13 Jul 2021 10:26:40 -0000
+Message-Id: <162617200056.27711.1533736804994516345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+user: zx2c4
 changes:
-  - ref: refs/heads/atomics/arch-atomic-bitops
-    old: 7f1fb4dc1cb944e762214419fc8ff3baf29e24f5
-    new: 65a9ba8f5af5326c06e612aa53b92ec0dd0946fe
+  - ref: refs/heads/master
+    old: c39c2eab3add530340f5b89dd17545953095919a
+    new: ab264f75f6bb32959bb0fa838c46f652811e1a51
     log: |
-         1cabcd708b7af7ef219fda9340a5d9d34372ca1a locking/atomic: add arch_atomic_long*()
-         65a9ba8f5af5326c06e612aa53b92ec0dd0946fe locking/atomic: always provide arch_* atomic/lock bitops
+         d7b6e5b0a80c973c944cbce7f0b8d60eb977fe19 ipc: add wireguard-nt support
+         9e78059098f51ba512cc03b533d0f3dea4968004 ipc: cache windows lookups to avoid O(n^2) with nested lookups
+         01dcad934cff1e06dbc559b3082c245362bcb007 ipc: remove windows elevation
+         ab264f75f6bb32959bb0fa838c46f652811e1a51 ipc: windows: don't display disabled adapters
          
