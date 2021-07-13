@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5057607637757752037=="
+Content-Type: multipart/mixed; boundary="===============1365568823196076173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 13 Jul 2021 08:46:10 -0000
-Message-Id: <162616597022.9949.17311968003272641619@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 08:46:31 -0000
+Message-Id: <162616599148.10151.2240973367101145032@gitolite.kernel.org>
 
---===============5057607637757752037==
+--===============1365568823196076173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,35 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-pinctrl
-    old: c3975a73ca9410519cf62531f640b68d69b0d798
-    new: e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c
-    log: revlist-c3975a73ca94-e9d66bdbc5ab.txt
-  - ref: refs/heads/renesas-pinctrl-for-v5.15
-    old: 0000000000000000000000000000000000000000
-    new: e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c
+  - ref: refs/heads/renesas-clk
+    old: 2cd1e3883a5739e89bb8bc6050c6f900cf5cc1da
+    new: aaac4af5b01324d7649aaadbe687d76f31149fc6
+    log: revlist-2cd1e3883a57-aaac4af5b013.txt
+  - ref: refs/heads/renesas-clk-for-v5.15
+    old: 2cd1e3883a5739e89bb8bc6050c6f900cf5cc1da
+    new: aaac4af5b01324d7649aaadbe687d76f31149fc6
+    log: revlist-2cd1e3883a57-aaac4af5b013.txt
 
---===============5057607637757752037==
+--===============1365568823196076173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3975a73ca94-e9d66bdbc5ab.txt
+Content-Disposition: attachment; filename=revlist-2cd1e3883a57-aaac4af5b013.txt
 
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
-66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
-ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
-6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
-3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
-e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a941a0349cf11ed250a04864fef268c2e05a1d32 Merge tag 'timers-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a22c3f615a6fef6553e20c559d31ea817216b4e6 Merge tag 'x86-irq-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1dfb0f47aca11350f45f8c04c3b83f0e829adfa9 Merge tag 'x86-entry-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fca41af18e10318e4de090db47d9fa7169e1bf2f qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
@@ -1051,7 +1037,22 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-7ebaa41047738d46fca6376b3f1765ef69c463c5 pinctrl: renesas: rcar: Avoid changing PUDn when disabling bias
-e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c pinctrl: renesas: r8a77995: Add bias pinconf support
+2fa9fd69b3ee015a873e44f7c645ad7bcb79d290 clk: renesas: rzg2l: Add multi clock PM support
+e93c1373613fb2f3e59db5f13271f155820e6a67 clk: renesas: r9a07g044: Rename divider table
+fd8c3f6c36eb093039d4aeb20cceee00c7c6ba1a clk: renesas: r9a07g044: Fix P1 Clock
+668756f7299d2d3c75add17cb415717e247450ef clk: renesas: r9a07g044: Add P2 Clock support
+c3e67ad6f5a2c698a055fb297c6f9962f5145edd dt-bindings: clock: r9a07g044-cpg: Update clock/reset definitions
+0b126578c53bd009d30f516b8217cbf1bdcf1594 clk: renesas: rzg2l: Remove unneeded semicolon
+022fea2de4c461f477f98b93b1fafb542b25b4fe clk: renesas: rzg2l: Fix return value and unused assignment
+9c16890052172ffc9a9311a43349ff9b9da5d54b clk: renesas: rzg2l: Fix a double free on error
+ca6c575cac4e0704a23d9312ed25c1f4beb7032c clk: renesas: rzg2l: Avoid mixing error pointers and NULL
+2bff201e16ad5a849e291850e992f41580bc673f clk: renesas: rzg2l: Fix off-by-one check in rzg2l_cpg_clk_src_twocell_get()
+b827a4efe43352d8ee4a88d935439a5485b0e75f clk: renesas: rzg2: Rename i2c-dvfs to iic-pmic
+380818aef5bd2edff4bf2f969fc3f4013f8a5743 clk: renesas: r8a779a0: Add the DU clock
+e98ccf19e4bbd3f9cadf2a4367783d880994f70c clk: renesas: r8a779a0: Add the DSI clocks
+1f5cda1cc8851f7a0c14cfeed298f4cf792992ad clk: renesas: r9a07g044: Add I2C clocks/resets
+1a95840b0d0d17c3876d14b4afe8517b5003faa8 clk: renesas: r9a07g044: Add DMAC clocks/resets
+3ce0a773e1435167492490a31e5ec35240d63501 clk: renesas: r9a07g044: Add USB clocks/resets
+aaac4af5b01324d7649aaadbe687d76f31149fc6 clk: renesas: r9a07g044: Add SSIF-2 clock and reset entries
 
---===============5057607637757752037==--
+--===============1365568823196076173==--
