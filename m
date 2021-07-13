@@ -1,33 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6563995578932241470=="
+Content-Type: multipart/mixed; boundary="===============5057607637757752037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 13 Jul 2021 08:43:28 -0000
-Message-Id: <162616580890.7482.11631620101779195111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 13 Jul 2021 08:46:10 -0000
+Message-Id: <162616597022.9949.17311968003272641619@gitolite.kernel.org>
 
---===============6563995578932241470==
+--===============5057607637757752037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-6efb943b8616-e73f0f0ee754.txt
+  - ref: refs/heads/renesas-pinctrl
+    old: c3975a73ca9410519cf62531f640b68d69b0d798
+    new: e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c
+    log: revlist-c3975a73ca94-e9d66bdbc5ab.txt
+  - ref: refs/heads/renesas-pinctrl-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c
 
---===============6563995578932241470==
+--===============5057607637757752037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6efb943b8616-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-c3975a73ca94-e9d66bdbc5ab.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
 23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
@@ -1050,5 +1051,7 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+7ebaa41047738d46fca6376b3f1765ef69c463c5 pinctrl: renesas: rcar: Avoid changing PUDn when disabling bias
+e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c pinctrl: renesas: r8a77995: Add bias pinconf support
 
---===============6563995578932241470==--
+--===============5057607637757752037==--
