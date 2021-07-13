@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8751420724729573567=="
+Content-Type: multipart/mixed; boundary="===============5885030726130478944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 13 Jul 2021 07:05:10 -0000
-Message-Id: <162615991014.5389.2627266590224454660@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 07:07:31 -0000
+Message-Id: <162616005186.6238.8073248213667762676@gitolite.kernel.org>
 
---===============8751420724729573567==
+--===============5885030726130478944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: bbb906652ab67bae849cdd6ceb542b0fcc41669c
     new: 8c5a7161860f07000c703599726e2d6f71f42fa3
     log: revlist-bbb906652ab6-8c5a7161860f.txt
 
---===============8751420724729573567==
+--===============5885030726130478944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -123,4 +123,4 @@ fcffa6f99a95a3cfb361089199819c3cfb4c0149 habanalabs: fix type of variable
 e79e8ff4cf53163d4037858941ded8a8669f5413 habanalabs: add asic property of host dma offset
 8c5a7161860f07000c703599726e2d6f71f42fa3 habanalabs: set dma max segment size
 
---===============8751420724729573567==--
+--===============5885030726130478944==--
