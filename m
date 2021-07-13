@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7070809160401130020=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Tue, 13 Jul 2021 16:18:06 -0000
-Message-Id: <162619308655.7086.16502853571230553132@gitolite.kernel.org>
-
---===============7070809160401130020==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 13 Jul 2021 16:20:54 -0000
+Message-Id: <162619325402.10817.2283849152203329111@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/hook-test
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: 2667d928fa31a7d3967610a8a733f59f2df93f10
-    new: f60d0c70b32640f05a3b9c715ab7db260d254464
+  - ref: refs/heads/master
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 7fef2edf7cc753b51f7ccc74993971b0a9c81eca
     log: |
-         f60d0c70b32640f05a3b9c715ab7db260d254464 Another hook update
+         efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with mlocked ptes
+         79789db03fdd77510cfb35cb4b3bd52b6c50c901 mm: Make copy_huge_page() always available
+         7fef2edf7cc753b51f7ccc74993971b0a9c81eca sd: don't mess with SD_MINORS for CONFIG_DEBUG_BLOCK_EXT_DEVT
          
-
---===============7070809160401130020==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1626193086 -0400
-pushee pdx-korg-gitolite-2.ci:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1626193086-74e221ac29ae883949a98e3eb6dfbec5dafa1d7f
-
-2667d928fa31a7d3967610a8a733f59f2df93f10 f60d0c70b32640f05a3b9c715ab7db260d254464 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYO28vgAKCRC2xBzjVmSZ
-bG37AP9Ppu8kEaWtS+XKpZbhgb8vWKgEawXqr2xR9NdTW30EXQD+NDMT7PYEnxYo
-LpGXT6xI7oG982dmf41XcmSLvw2yxgU=
-=IaHh
------END PGP SIGNATURE-----
-
---===============7070809160401130020==--
