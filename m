@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0256220103200118977=="
+Content-Type: multipart/mixed; boundary="===============8115782308092917632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 13 Jul 2021 18:39:47 -0000
-Message-Id: <162620158751.6201.17719102388208457637@gitolite.kernel.org>
+Date: Tue, 13 Jul 2021 18:40:41 -0000
+Message-Id: <162620164140.7949.12340540144695391013@gitolite.kernel.org>
 
---===============0256220103200118977==
+--===============8115782308092917632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: d97c0ff5a124f48109c4b32d6471c7bccd497009
+  - ref: refs/heads/extcon-fixes
+    old: 999bcbf0ac0c7ce6e0f917f0edb13da4c2009076
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-d97c0ff5a124-e73f0f0ee754.txt
+    log: revlist-999bcbf0ac0c-e73f0f0ee754.txt
 
---===============0256220103200118977==
+--===============8115782308092917632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d97c0ff5a124-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-999bcbf0ac0c-e73f0f0ee754.txt
 
 c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============0256220103200118977==--
+--===============8115782308092917632==--
