@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 13 Jul 2021 18:01:23 -0000
-Message-Id: <162619928373.13926.7195362848379896023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 13 Jul 2021 18:04:28 -0000
+Message-Id: <162619946889.15005.7404170420067962481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: c1132702c71f4b95db9435bac5fdc912881563e0
-    new: 8cdd23c23c3d481a43b4aa03dcb5738812831115
+  - ref: refs/heads/fixes-togreg
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 4377d9ab1f162e58e0e5ae89c9a5fd7b4d8a6bdb
     log: |
-         8cdd23c23c3d481a43b4aa03dcb5738812831115 arm64: Restrict ARM64_BTI_KERNEL to clang 12.0.0 and newer
+         4377d9ab1f162e58e0e5ae89c9a5fd7b4d8a6bdb iio: accel: fxls8962af: fix potential use of uninitialized symbol
          
