@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 14 Jul 2021 15:53:11 -0000
-Message-Id: <162627799184.13972.3643075273148095926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 14 Jul 2021 16:10:24 -0000
+Message-Id: <162627902404.25263.6214834824973989586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: b8d99a618baffb4fc03cda4c40e29778b6d77ad4
-    new: be199d34f2698119ea03b4d583421cabcd565980
+  - ref: refs/heads/for-next/clang-fallthrough
+    old: 55f90d1997bd37b67f366b4e235e5e30faf51e69
+    new: b7eb335e26a9c7f258c96b3962c283c379d3ede0
     log: |
-         be199d34f2698119ea03b4d583421cabcd565980 hardlink: remove pcre2posix.h support
+         14158aa4510439c611759d57b74ac01ebcca0081 usb: gadget: fsl_qe_udc: Fix fall-through warning for Clang
+         afbd0d299289a0faaa605af74982f87ad75468fc dmaengine: mpc512x: Fix fall-through warning for Clang
+         104aba8dd7dca85d82e94aba07e71994ccdaf4cf powerpc/smp: Fix fall-through warning for Clang
+         b7eb335e26a9c7f258c96b3962c283c379d3ede0 Makefile: Enable -Wimplicit-fallthrough for Clang
          
