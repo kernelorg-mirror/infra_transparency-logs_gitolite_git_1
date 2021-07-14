@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4925808019630181423=="
+Content-Type: multipart/mixed; boundary="===============6081679946086588118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 14 Jul 2021 17:03:07 -0000
-Message-Id: <162628218742.28772.8151069245411804865@gitolite.kernel.org>
+Date: Wed, 14 Jul 2021 17:09:07 -0000
+Message-Id: <162628254752.32181.3451402923815623063@gitolite.kernel.org>
 
---===============4925808019630181423==
+--===============6081679946086588118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 900185fe29d31b2bdb3b81978eb1e4217ef242ce
-    new: 10252bae863d09b9648bed2e035572d207200ca1
-    log: revlist-900185fe29d3-10252bae863d.txt
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+    new: 441b4dc421dca11af50f1e377a49707fc97ce4ba
+    log: revlist-900185fe29d3-441b4dc421dc.txt
 
---===============4925808019630181423==
+--===============6081679946086588118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-900185fe29d3-10252bae863d.txt
+Content-Disposition: attachment; filename=revlist-900185fe29d3-441b4dc421dc.txt
 
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
-66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
-ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
-6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
-3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
-e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a941a0349cf11ed250a04864fef268c2e05a1d32 Merge tag 'timers-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a22c3f615a6fef6553e20c559d31ea817216b4e6 Merge tag 'x86-irq-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1dfb0f47aca11350f45f8c04c3b83f0e829adfa9 Merge tag 'x86-entry-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fca41af18e10318e4de090db47d9fa7169e1bf2f qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
@@ -1053,5 +1034,21 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 edb25572fc7058db5a98223e11d2d50497178553 mmc: core: Use kref in place of struct mmc_blk_data::usage
 10252bae863d09b9648bed2e035572d207200ca1 mmc: core: Don't allocate IDA for OF aliases
+8b22b1482e73d586b227e56b255c0e50f89ed499 mmc: host: add kdoc for mmc_retune_{en|dis}able
+875610e8a83cf804b6c5822c922c7339389f1279 mmc: host: factor out clearing the retune state
+3dee1ffa1a5bded0f17c8211b84a8bf70525b437 mmc: sdhci-of-arasan: Modified SD default speed to 19MHz for ZynqMP
+b3241cf61a0b27f692136703c41652037b4d72b9 mmc: sdhci-of-arasan: Add "SDHCI_QUIRK_MULTIBLOCK_READ_ACMD12" quirk.
+7864854395ebf90904089d0aeef99254d0189d92 mmc: sdhci-of-arasan: Skip Auto tuning for DDR50 mode in ZynqMP platform
+32588622f81bb2c830705755f379fb98a8d8842a mmc: sdhci-of-arasan: Check return value of non-void funtions
+9d429c0fb39abb6356aab0abc82de71bef56508a mmc: sdhci-of-arasan: Use appropriate type of division macro
+34f7aef7dad5d1972d5c9be4987499fad6b3b953 mmc: sdhci-of-arasan: Modify data type of the clk_phase array
+4fc93e151101aa999ec3662b5f066530fc848936 mmc: arasan: Fix the issue in reading tap values from DT
+692b25a76f380ca7dd8290fcb76de36b34833345 dt-bindings: mmc: sdhci-msm: Add compatible string for sc7280
+e3136fd0e005ae929a17cfa08a5655b830c49541 mmc: renesas_sdhi_sys_dmac: use proper DMAENGINE API for termination
+e50cd0945428c25801ede631849503b12f55cbe1 mmc: sh_mmcif: use proper DMAENGINE API for termination
+040fc9646903ce4ac72f178e3166be581aec7c26 mmc: usdhi6rol0: use proper DMAENGINE API for termination
+425655900fb18cb98c41744220e86c25b1a1bcf9 mmc: mmci: De-assert reset on probe
+bae9fa8c5e8cc7123338b09f7a13a713aad8dd33 mmc: mmc_spi: Simplify busy loop in mmc_spi_skip()
+441b4dc421dca11af50f1e377a49707fc97ce4ba Merge branch 'fixes' into next
 
---===============4925808019630181423==--
+--===============6081679946086588118==--
