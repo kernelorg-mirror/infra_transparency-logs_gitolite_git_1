@@ -1,64 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3139147246851861132=="
+Content-Type: multipart/mixed; boundary="===============2677939823513319837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 14 Jul 2021 15:39:00 -0000
-Message-Id: <162627714008.2830.8244790563957390594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 14 Jul 2021 15:39:07 -0000
+Message-Id: <162627714739.2941.10053226531239990948@gitolite.kernel.org>
 
---===============3139147246851861132==
+--===============2677939823513319837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.14
-    old: c71f78a662611fe2c67f3155da19b0eff0f29762
-    new: 9431f8df233f808baa5fcc62b520cc6503fdf022
+  - ref: refs/heads/for-5.15
+    old: 9705c49c3b5e8640fa1afd24f93a391ac0f793a4
+    new: 77eac0e1ce9c61b66c15f7cc503ae848b74fe42c
     log: |
-         aa21548e34c19c12e924c736f3fd9e6a4d0f5419 ASoC: SOF: Intel: Update ADL descriptor to use ACPI power states
-         9431f8df233f808baa5fcc62b520cc6503fdf022 ASoC: codecs: wcd938x: make sdw dependency explicit in Kconfig
-         
-  - ref: refs/heads/asoc-5.15
-    old: eb82bae1a0025172a01718ae21e9782132ce076e
-    new: f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08
-    log: |
-         3cb97cf3a65a7fdbf4844ccd39b7e96fe14f762b ASoC: Intel: sof_cs42l42: support arbitrary DAI link sequence
-         07acee589f4293cb0ebd77aa201d616e9a296bb9 ASoC: Intel: maxim-common: support max98360a
-         7d1bf46cb233aa80e684f61cde5f91530da3f3ea ASoC: Intel: sof_cs42l42: add support for jsl_cs4242_mx98360a
-         542d7050da19343ffe61f7b5d1fe2d44ccb0451a ASoC: Intel: sof_rt5682: code refactor for max98360a
-         368fa526e6e396972d5f0ed7c2a86ac0c3399ff3 ASoC: Intel: sof_sdw: extends SOF_RT711_JDSRC to 4 bits
-         8e6c00f1fdea9fdf727969d7485d417240d2a1f9 ASoC: Intel: sof_sdw: include rt711.h for RT711 JD mode
-         f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08 ASoC: Intel: sof_sdw: update quirk for jack detection in ADL RVP
+         e98fb032170bfa2e671a01e356a7ee86a2038312 regulator: rtq6752: Refine binding document
+         77eac0e1ce9c61b66c15f7cc503ae848b74fe42c regulator: rtq6752: Fix the typo for reg define and author name
          
 
---===============3139147246851861132==
+--===============2677939823513319837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626277103 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1626277137-024d61672b111ce4f6605b5cf14ae4c293a6086f
+pusher C3F436CA30F5D8EB 1626277111 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1626277144-f6552d3af855f25f03fc21e2740df34ea48fb5f3
 
-c71f78a662611fe2c67f3155da19b0eff0f29762 9431f8df233f808baa5fcc62b520cc6503fdf022 refs/heads/asoc-5.14
-eb82bae1a0025172a01718ae21e9782132ce076e f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08 refs/heads/asoc-5.15
+9705c49c3b5e8640fa1afd24f93a391ac0f793a4 77eac0e1ce9c61b66c15f7cc503ae848b74fe42c refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDvBO8ACgkQJNaLcl1U
-h9ApdAf+JeqeJr9Xqekgu5GKqgKWNOhKJpqWNilTZoP/rtz6RZU1Uv3EyV7GtTY7
-DJfKi9MYGFZL6492t5j32m/TA8b3WdYAY7FtCkDVkLkH9EhS9qGttL+YJ4mJ8BpE
-kzqxtT16hsyhYZhUrY72wab9jAkn/cX0NjG1cnh6ReM34KaV6bHziVylENAr+q8l
-KKAuMSs8S8MYHj7t1PSpzJJXqyDu2GwXAq4FEnglW6l1CLVcqmfpG/0QHY4VWIbt
-IjiVnHbtPjPKST8pNu5rhBpPSCg2t1+7k7/MuxwAfrdLQloO+E/qHAbjEECi4Hwz
-qO12VEdTLwWJa3Jp7hhCusHb3OYA5Q==
-=TZxR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDvBPcACgkQJNaLcl1U
+h9AJEgf+P5CkYhlGAXuhK0Isckan6eeE4nJGKNA4/uZOymaWf1nTc5xjSzOBdVu6
+5P+oqCfu2RX2Y/9jLQxxaeOxyho5o7xnFLgcGrPTLVO+tutD/IWSap8fCV0eMAI5
+babrinOVLdQbO9RYICrgYM3luRENdsVjo+LlJKielYfoamxMFjyoquDm9zMMVo6G
+BJksRzZON2j4PRy3zWT3anI1AL90Jb4pt8KrBzzsaV8EJO26JDKivPs8FDm7ELMw
+Cuh4GXimSgL2mg88MkeWMJd83vpQlik2WV1Ks1rmoL+nxp8C0S3ml8m2Reo3tpuV
+92IHkHy8o0lqbEKKaw0/z6grYzKDxw==
+=SEq0
 -----END PGP SIGNATURE-----
 
---===============3139147246851861132==--
+--===============2677939823513319837==--
