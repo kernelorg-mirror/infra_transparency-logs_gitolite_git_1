@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2224783309019445488=="
+Content-Type: multipart/mixed; boundary="===============6969680947458755045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 14 Jul 2021 19:25:02 -0000
-Message-Id: <162629070254.24891.13260590162980355761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 14 Jul 2021 19:25:09 -0000
+Message-Id: <162629070937.26182.7358678870833588673@gitolite.kernel.org>
 
---===============2224783309019445488==
+--===============6969680947458755045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08
     new: eb14ecca76697930ff86a3401fee198d54ea6524
     log: |
@@ -27,28 +27,28 @@ changes:
          eb14ecca76697930ff86a3401fee198d54ea6524 Merge series "soundwire/ASoC: add mockup codec support" from Bard Liao <yung-chuan.liao@linux.intel.com>:
          
 
---===============2224783309019445488==
+--===============6969680947458755045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626290666 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1626290700-86267e731c7a3714b2c67561721916dff3876dbe
+pusher C3F436CA30F5D8EB 1626290673 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1626290707-6372f57bb7a6b8e8795293c6c48c9f8500f38db6
 
-f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08 eb14ecca76697930ff86a3401fee198d54ea6524 refs/heads/for-5.15
+f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08 eb14ecca76697930ff86a3401fee198d54ea6524 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDvOeoACgkQJNaLcl1U
-h9C+2gf/QO5JOrC7Kuql3rLTp+9nXb47wUlQC19DiQJzPoPSeWeKJtn2xwoAG8kJ
-Y5iqBFkj3UQJnS7rh+3rcvD9FeWA0RnvTwI/yB9hKoJmG3Rj/XKdFl8BLEi8Xe8t
-qis214V7JFPxtWlgVosG2NZXOtTSteF728f5/0JoWxcDoBoV1pPsR1uBAMQNBmOp
-KFLdI+3r5LjwI+FCPQqbavAfrnn2Jb2wSIAPlWUgLsNnGl5YKN8BR6ftU0AIKKPK
-sfqiFg0gXg/pyl8g2ZPJvnyKSECe33wk8UFptzLdo1b4Ww9k49k6asKNnhMRD/N0
-kkrduKjlR0DU/AUkJ+1ugKY86BkWnQ==
-=tJou
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDvOfEACgkQJNaLcl1U
+h9CBugf/TYHrOIk/CfXkhF/GATS7jkcHyYc8qnZ4NerbfX+KHGdnKCmhNwbJR5yN
+9oO7y1/R7RYtyTr+CT3JS29BI0misFdwQ0g8TpxNMueJKDCnvszvbXW9hb89ocuc
+p7gbgkEIPp0lXBZDSy5t2Fh7xXNew8vhgoY/XPfOWTG3tW9IyvweOnd3yepoZmLM
+rMSZOTiL15MuPFzYAb8xOrVlmb/BruKZqQtrnmZHE3Q+6nKMhK6Sb+A2QoXBzc+k
+IEPWuSCFtZxtxXMeNs7oHD/XR/4BbbzR8/i7hDbMQXa9lcr2WoX3dP/WvI0c7+rK
+LB6cmrYy1/MqYvVKgfyBuJ4Q69XQdg==
+=TN4F
 -----END PGP SIGNATURE-----
 
---===============2224783309019445488==--
+--===============6969680947458755045==--
