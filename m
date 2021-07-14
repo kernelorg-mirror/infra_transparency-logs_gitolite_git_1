@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7256983018326111767=="
+Content-Type: multipart/mixed; boundary="===============5851990743996297666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 14 Jul 2021 18:26:13 -0000
-Message-Id: <162628717326.19026.5953164155399024068@gitolite.kernel.org>
+Date: Wed, 14 Jul 2021 18:26:26 -0000
+Message-Id: <162628718675.19194.15100110052708020083@gitolite.kernel.org>
 
---===============7256983018326111767==
+--===============5851990743996297666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5d52c906f059b9ee11747557aaaf1fd85a3b6c3d
-    new: 8096acd7442e613fad0354fc8dfdb2003cceea0b
-    log: revlist-5d52c906f059-8096acd7442e.txt
+  - ref: refs/heads/dev-queue
+    old: e84671cd9648eb1f2b346378c100b4ebfbd1b01c
+    new: 2fed54ad7b898e83e19938f0bfbaf2fb9a03efe2
+    log: revlist-e84671cd9648-2fed54ad7b89.txt
 
---===============7256983018326111767==
+--===============5851990743996297666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d52c906f059-8096acd7442e.txt
+Content-Disposition: attachment; filename=revlist-e84671cd9648-2fed54ad7b89.txt
 
-6ca24c65632e5c8a46641fa81e0c42a81b5822a5 net/mlx4: Fix fall-through warning for Clang
-ba2472eaf7255dfba27cea0b674ffcc0ee348293 drm/amdgpu: return early for non-TTM_PL_TT type BOs
-ba3fea547236bfd325f4713dfb0569e150010894 i3c: master: cdns: Fix fall-through warning for Clang
-77347eda64ed5c9383961d1de9165f9d0b7d8df6 mmc: core: clear flags before allowing to retune
-b2af322792d64d3748b9915cbcbd031dd035d7e2 mmc: sdhci-of-arasan: Use clock-frequency property to update clk_xin
-2f2b73a29d2aabf5ad0150856c3e5cb6e04dcfc1 phy: intel: Fix for warnings due to EMMC clock 175Mhz change in FIP
-49036ba889e346da6ebf2f741fe0b0ee49a11b08 mmc: sdhci: Clear unused bounce buffer at DMA mmap error path
-2fee14ac97dc74f6a8525e69640c6972a4f36899 dt-bindings: mmc: change compatiable string for MT8195 mmc host IP
-9913d5745bd720c4266805c8d29952a3702e4eca tracepoint: Add tracepoint_probe_register_may_exist() for BPF tracing
-82c850c12fc250bdba25e7e66f54adab2ffcfcd6 <linux/dma-resv.h>: correct a function name in kernel-doc
-cd8f318fbd266b127ffc93cc4c1eaf9a5196fafb drm/gma500: Add the missed drm_gem_object_put() in psb_user_framebuffer_create()
-e97bc66377bca097e1f3349ca18ca17f202ff659 NFS: nfs_find_open_context() may only select open files
-df2c7b951f439a0342495a4a049d808f679c474c NFSv4: setlease should return EAGAIN if locks are not available
-e9e8ee40b37af80626236517d6b7f110526bf2ff Merge branch 'leases-devel'
-d915611eda071984f895277ab26bbb80c792f5cb Merge branches 'clk-qcom', 'clk-versatile', 'clk-renesas', 'clk-sifive' and 'clk-ti' into clk-next
-029eae234be34e47a7bcde5c429c04d9e761ad07 Merge branches 'clk-legacy', 'clk-vc5', 'clk-allwinner', 'clk-nvidia' and 'clk-imx' into clk-next
-e51fbc55d3d3f68a9fb37c4e95c88404c4ff244c Merge branches 'clk-rockchip', 'clk-amlogic', 'clk-yaml', 'clk-zynq' and 'clk-socfpga' into clk-next
-4f47c91fc6a8f4b274d934648b53cb668c69c986 Merge branches 'clk-lmk04832', 'clk-stm', 'clk-rohm', 'clk-actions' and 'clk-ingenic' into clk-next
-d2b21013bf5fb177c08b2c9c4dfa32ee0fc97b53 Merge branches 'clk-st', 'clk-si' and 'clk-hisilicon' into clk-next
-19c3eaa72288ce161441dd6b74b765a094d73488 trace/osnoise: Make 'noise' variable s64 in run_osnoise()
-6a82f42a2e55d43bd99f1b457982be6c856c800d trace/timerlat: Fix indentation on timerlat_main()
-2fc6d0ec54b9574c02f83ee64f42b77ac141ce90 Merge branch 'psy-fixes' into psy-next
-62e528b80d6b5753e03f005e4858eefb7a84f877 scsi: mpi3mr: Fix warnings reported by smatch
-104739aca4488909175e9e31d5cd7d75b82a2046 scsi: core: Retry I/O for Notify (Enable Spinup) Required error
-7df47cdf199c2d014716d1baa252aa6021063443 scsi: ipr: System crashes when seeing type 20 error
-5f638e5ac61ef1b9b588efdf688acc0a4cecdca2 scsi: virtio_scsi: Add validation for residual bytes from response
-600d050944e133fde1f54b9113b01ccefbd82820 Merge tag 'nand/for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
-4465b3a621e761d82d1a92e3fda88c5d33c804b8 power: reset: regulator-poweroff: add missing MODULE_DEVICE_TABLE
-073b5d5b1f9cc94a3eea25279fbafee3f4f5f097 power: supply: charger-manager: add missing MODULE_DEVICE_TABLE
-dfe52db13ab8d24857a9840ec7ca75eef800c26c power: supply: ab8500: add missing MODULE_DEVICE_TABLE
-30e677a2ba2920b1234d1b38307dfa1dbb993e20 drivers: power: add missing MODULE_DEVICE_TABLE in keystone-reset.c
-df6f3f7eb70d310c3cee2d8e08ed32067fb6fcf4 power: supply: bq24190_charger: drop of_match_ptr() from device ID table
-0973e96b4bbd19aa50881a8e0e4653b824420de6 power: supply: axp288_fuel_gauge: Rename fuel_gauge_blacklist to no_battery_list
 3a06b912a5ce494d7b7300b12719c562be7b566f power: supply: axp288_fuel_gauge: Make "T3 MRD" no_battery_list DMI entry more generic
 f390e4bd79289b85bfe345d4d9d160dc4926dfc1 power: supply: axp288_fuel_gauge: remove redundant continue statement
 f1c74a6c07e76fcb31a4bcc1f437c4361a2674ce power: supply: ab8500: Fix an old bug
@@ -1050,5 +1017,38 @@ bcb9928a155444dbd212473e60241ca0a7f641e1 net: dsa: properly check for the bridge
 3b0462726e7ef281c35a7a4ae33e93ee2bc9975b cgroup: verify that source is a string
 d1d488d813703618f0dd93f0e4c4a05928114aa8 fs: add vfs_parse_fs_param_source() helper
 8096acd7442e613fad0354fc8dfdb2003cceea0b Merge tag 'net-5.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+3df00b29f3d92b8c862146d28787f250cace7e68 checkpatch: Fix warnings when --no-tree is used
+1c7260e6ae7845ed47aadf696ea29ce18b0ddc79 checkpatch.pl: seed camelcase from the provided kernel tree root
+4754f03de684de00ade07141167310b943f67c78 ice: Fix a couple off by one bugs
+0f9ffa24affb8ff680c5263403b38e155ba85dbd i40e: Fix correct max_pkt_size on VF RX queue
+95c5a882482e6e2885bd8d83bb4ca32fc45e0bee iavf: Fix return of set the new channel count
+8c56834c20ff174be7a928aa78f4b5a4692622b4 i40e: Fix NULL ptr dereference on VSI filter sync
+5235e7d7a3b3d320649cc5f0e5a60b66d7ab218f ice: Fix VF true promiscuous mode
+ca4f7b39c9351e29455180cf3ebe08d7fb58a8f9 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+716e30f812dd82efca9d88871d6e0d21226a47aa i40e: improve locking of mac_filter_hash
+00016296e3fc397b77a17e82697d77e511435897 i40e: Fix warning message and call stack during rmmod i40e driver
+8cc47336d586f74c94e780415770789935d1fdf8 i40e: Fix logic of disabling queues
+ab2f005f421065cfd587dfc6186f3629abf2bcfb ice: Remove toggling of antispoof for VF trusted promiscuous mode
+3c40ee443eb5e6c13a923b9675384056a4b85faa ice: fix FDIR init missing when reset VF
+e7edb5cd29dbf28d1967cd09661fd80787c771ca igb: fix netpoll exit with traffic
+c39b7cc33a7af1694549bcc9eb630786ec10a049 i40e: Fix failed opcode appearing if handling messages from VF
+5da7c44f8898c2539921d748b170af0b50e5bea4 i40e: Fix firmware LLDP agent related warning
+5dc8c60aa690da5c20560903151c1074d7914b7b ixgbe: Fix packet corruption due to missing DMA sync
+2f8ed967f8b1e67e96bd4dc46c334c67e8a55cf2 i40e: Fix queue-to-TC mapping on Tx
+a180e3fa0376e9da1360b62578dcf12b6ff4140e iavf: check for null in iavf_fix_features
+ca27052860dee952ebc1612501cd8db89b90dc7e iavf: free q_vectors before queues in iavf_disable_vf
+b4d2c2715a47f858418e1fad76e9c0418ef61f11 iavf: don't clear a lock we don't hold
+c8ad6408dba35670cdfb65ea1643d200d60b9995 iavf: Fix failure to exit out from last all-multicast mode
+4d91c8a6afe8da02c8a138db8569f52576c4dd28 iavf: prevent accidental free of filter structure
+07a7cfe00f2ecc2edb43bc3f66ffa95e11ac1ccc iavf: validate pointers
+73510d7d141965751b54a66baa17a84bb41600fb iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+5c0bbe894490c38826c729d9b9fcbdc6a8f41c18 iavf: Fix for setting queues to 0
+d681abdc6530c2eca72375ee9c9d975ed3a96ae6 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+c90fcaf08a525f5d62b3e34dd10a50a7f21335ce ice: do not abort devlink info if PBA can't be found
+2ab71d58f14cc236f8f331455532f68c1702365b i40e: Fix log TC creation failure when max num of queues is exceeded
+e91296d9fe9d9cec247b5465ce3f60755509cff4 i40e: Fix creation of first queue by omitting it if is not power of two
+ad4b8d84620bbd4b1a83b25ba6b8fc5f43c33268 iavf: Fix ping is lost after untrusted VF had tried to change MAC
+bc6773922afdb1c771c1003cfda540d8ac0b0b8d ice: Fix perout start time rounding
+2fed54ad7b898e83e19938f0bfbaf2fb9a03efe2 ice: fix build issue if CONFIG_1588_PTP_CLOCk=m
 
---===============7256983018326111767==--
+--===============5851990743996297666==--
