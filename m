@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7607799507161787924=="
+Content-Type: multipart/mixed; boundary="===============6972335059676833307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 14 Jul 2021 02:59:59 -0000
-Message-Id: <162623159908.19084.14162246532839899892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Wed, 14 Jul 2021 03:09:14 -0000
+Message-Id: <162623215488.24947.405247223703746158@gitolite.kernel.org>
 
---===============7607799507161787924==
+--===============6972335059676833307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/fixes
-    old: c4681547bcce777daf576925a966ffa824edd09d
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-c4681547bcce-e73f0f0ee754.txt
+  - ref: refs/heads/for-next
+    old: d97176f6040f8ab11d574ea3437557bc11d1d19a
+    new: e4998f490675a5b71cd42af5025b632045d45835
+    log: revlist-d97176f6040f-e4998f490675.txt
 
---===============7607799507161787924==
+--===============6972335059676833307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4681547bcce-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-d97176f6040f-e4998f490675.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
 23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
@@ -1050,5 +1049,6 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+e4998f490675a5b71cd42af5025b632045d45835 Merge tag 'v5.14-rc1' into for-next
 
---===============7607799507161787924==--
+--===============6972335059676833307==--
