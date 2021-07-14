@@ -1,139 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============1929016035268892793=="
+Content-Type: multipart/mixed; boundary="===============2735007305224889570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 14 Jul 2021 22:53:38 -0000
-Message-Id: <162630321890.2333.9115930502219862383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Wed, 14 Jul 2021 23:13:09 -0000
+Message-Id: <162630438903.14099.6825289589968756589@gitolite.kernel.org>
 
---===============1929016035268892793==
+--===============2735007305224889570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/rcu/next
-    old: 2a2ed5618a0e8a890d948b88b368c0459f35136c
-    new: e107ca1a35b6fd9ec92fe4432bcb77e9284d821e
-    log: revlist-2a2ed5618a0e-e107ca1a35b6.txt
+  - ref: refs/heads/pending-fixes
+    old: 902b4f67cc56066e637e15355def456cb1fa150f
+    new: 315c5bb65361b38a75d1a9441523743c891f95a9
+    log: revlist-902b4f67cc56-315c5bb65361.txt
 
---===============1929016035268892793==
+--===============2735007305224889570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a2ed5618a0e-e107ca1a35b6.txt
+Content-Disposition: attachment; filename=revlist-902b4f67cc56-315c5bb65361.txt
 
-9583a2ff58401dd54e94f97d0caa3207f423104e tools/memory-model:  Document locking corner cases
-b44abe80d0df5f10886cb8a6af7e0a049a97e38a tools/memory-model: Make judgelitmus.sh note timeouts
-764a364550e4030e43a63bf91adfce695b8e2347 tools/memory-model: Make cmplitmushist.sh note timeouts
-8b76e930b54377d3efc212ceceaf61dd5bb11186 tools/memory-model: Make judgelitmus.sh identify bad macros
-39e283154792d93ac21e1e37d4d5f328b825bb44 tools/memory-model: Make judgelitmus.sh detect hard deadlocks
-c2eecf9d62380d7cc547981df848f062a5544972 tools/memory-model: Fix paulmck email address on pre-existing scripts
-97c223dc6023a9cb9aa75d19e49ab1f9f80daa74 tools/memory-model: Update parseargs.sh for hardware verification
-cf36264bf78bc29708fd585252cb1f59cf9deac0 tools/memory-model: Make judgelitmus.sh handle hardware verifications
-14e0dba17fb7acdca79382771c3b9de6a19493e5 tools/memory-model: Add simpletest.sh to check locking, RCU, and SRCU
-6b7ac4645817a7a718a3b0a69cc7dea8bd6b9bab tools/memory-model: Fix checkalllitmus.sh comment
-d0bd10518b25103b62d044bac4dd0fb93993c380 tools/memory-model: Hardware checking for check{,all}litmus.sh
-aaf9728abc9d8acb0e423bbfcb5d015b04ef2fb1 tools/memory-model: Make judgelitmus.sh ransack .litmus.out files
-fa9d6b3493d3f0c4ec79ccdd712cd8a1d2c2ec40 tools/memory-model: Split runlitmus.sh out of checklitmus.sh
-54ab0eea01ee017072a4167bf6f34deef4f8c1ea tools/memory-model: Make runlitmus.sh generate .litmus.out for --hw
-5e5832b8a6afe2b4566a3ae67d8b3e6707102862 tools/memory-model: Move from .AArch64.litmus.out to .litmus.AArch.out
-d265691ba1aea476ac05cf3fc87fa9e595fac43f tools/memory-model: Keep assembly-language litmus tests
-3fdc3fbc7c9508d23ecb2e9087ee8e5beb706cb5 tools/memory-model: Allow herd to deduce CPU type
-16b727cd5830eee2cb937c23618ce4b547b7355c tools/memory-model: Make runlitmus.sh check for jingle errors
-3769ef14080df9b3445c9ff410d7dfe9a0b05d6c tools/memory-model: Add -v flag to jingle7 runs
-61efd6dce9503f1e3252021aa5fd875f0a248902 tools/memory-model: Implement --hw support for checkghlitmus.sh
-8820c20c276a6453809c0232fc64cb24de5e2210 tools/memory-model: Fix scripting --jobs argument
-b21176340aaa9dc40346b3f745004db139c701fe tools/memory-model: Make checkghlitmus.sh use mselect7
-4ab81c527031313304f7d6ecbaf1486ff8297edd tools/memory-model: Make history-check scripts use mselect7
-88dd5fa6a25813a15bf93c21cbc132c86a97c0b7 tools/memory-model:  Add "--" to parseargs.sh for additional arguments
-a2cbaa0e19b7e966e4ffad3b3a81ad976f5c933f tools/memory-model: Repair parseargs.sh header comment
-825736886a95706501e52ae4817c92ab22d1b590 tools/memory-model: Add checktheselitmus.sh to run specified litmus tests
-bb66c90713123f5cb7b3ff176aca02ac61c64225 tools/memory-model: Add data-race capabilities to judgelitmus.sh
-9636d7b9526f258909ede15c55650717568364ec tools/memory-model: Make judgelitmus.sh handle scripted Result: tag
-090bd136b1aa4d75a55cb8ad5a2c06df1a1fdfb4 tools/memory-model: Use "-unroll 0" to keep --hw runs finite
-c7348ee556462a53fda487f83484a08e1af8e6fe Merge branch 'lkmm-dev.2021.05.10c' into HEAD
-d78d8f2a78a8a9109c623dfe13f72e6e4e3abe2b refscale: Add measurement of clock readout
-1a8b5f93b3bad95370a01430c5c1181879caa0c5 torture: Add clocksource-watchdog testing to torture.sh
-d8c79f015238457ab1ac71a700626dcb7a0ce994 torture: Make torture.sh accept --do-all and --donone
-3d956a007e790b08abdbb00cb2168ef3621b0414 rcu: Fix to include first blocked task in stall warning
-7a0de6eed5868d424c630beaeb11589b2c79510b rcu: Fix stall-warning deadlock due to non-release of rcu_node ->lock
-e848aa7bf715383d0983f5717c1ec5a4384f9206 rcutorture: Preempt rather than block when testing task stalls
-bcf326b7dc31d843f94a303a5300c722385ee1d1 tools/memory-model: Make read_foo_diagnostic() more clearly diagnostic
-fec563409eb8caeda024193e95e13a1dad269685 tools/memory-model: Add example for heuristic lockless reads
-4fee7f5b9af9be4ddf16504f24e3858a99aa4914 tools/memory-model: Heuristics using data_race() must handle all values
-92b65e19140ab7ce71a60bd091ee706ebcfc93eb tools/memory-model: Document data_race(READ_ONCE())
-28afef3b581e1fa844cbef99339a2645e81624b2 rcu: Remove special bit at the bottom of the ->dynticks counter
-4c674c220dc49aae3e3c914c7e3b93173b9d185f rcu/nocb: Start moving nocb code to its own plugin file
-35469e285d3f40e7455ba9cb8e73cacb0de92130 rcu: Weaken ->dynticks accesses and updates
-95d595f5cb15c018feb3f49ed0e0a56d998daa61 rcu/nocb: Remove NOCB deferred wakeup from rcutree_dead_cpu()
-2533f46e0903d2c0f259b89fd6e24afb97b9ddcf Documentation/RCU: Fix emphasis markers
-6764d0a06241edb5b93b1c6cb88402eb8213a38d rcu: Mark accesses to ->rcu_read_lock_nesting
-864aee8609f594189bca18d86f4412f559e32023 Documentation/RCU: Fix nested inline markup
-de805a1a6651a4f372f6569bae7a1cc07a6b36d9 rculist: Unify documentation about missing list_empty_rcu()
-8236fa3ce511e463ceeeba7cdccffbaddd130b82 rcu/tree: Handle VM stoppage in stall detection
-817690fd18afe32ea5cc291ded21d6943deffad2 rcu: Do not disable GP stall detection in rcu_cpu_stall_reset()
-9ed9bf0d17cdbc47bfcedf6697eee9f1a1ec1bcc rcu: Start timing stall repetitions after warning complete
-9fc5e619310c11c017b7fe8533f58d2e8807567d rcu-tasks: Add comments explaining task_struct strategy
-314d29a8e8c5e6d163fbe98ef039130be2bcff5d rcu-tasks: Mark ->trc_reader_nesting data races
-5ff6158467cef5fc98ea9e026eba691b544b1338 rcu-tasks: Mark ->trc_reader_special.b.need_qs data races
-0a9f6bd6f720ccde0ca99634a87483f95d02604f docs: Fix a typo in Documentation/RCU/stallwarn.rst
-801c4cfe0ba95c9cfac693c05934a70391723d38 locktorture: Mark statistics data races
-4e96cbd3b00e55653152d323737d903afeda2b50 locktorture: Count lock readers
-277a7d716b306dcb4ad6aa5de3c85e6540a3c9b9 srcutiny: Mark read-side data races
-19c3a93cd7cb0a657521015b8ae3201fe612f9c7 rcu: Mark lockless ->qsmask read in rcu_check_boost_fail()
-d7cbb0d9373b4ed914b4dafad79ba240a7fc21ed torture: Enable KCSAN summaries over groups of torture-test runs
-830550912a3a0e6c70f602c6cbf69fdf8b220c97 torture: Create KCSAN summaries for torture.sh runs
-8c51a918de847e74afa6d292a8d8e9bf01f6e809 rcu: Make rcu_gp_init() and rcu_gp_fqs_loop noinline to conserve stack
-e72d0b7107b9eb92982843e592ef6122eed5b10c rcu: Remove trailing spaces and tabs
-a47006812b5fd14559cd1653980cacd4653f437c rcu/doc: Add a quick quiz to explain further why we need smp_mb__after_unlock_lock()
-50d9fc22ee2ce9cf559c1bb3fd800dc74379cf6f kcsan: Improve some Kconfig comments
-2a797e52eb9f3b891a55d0d1add8721a0065674b kcsan: Remove CONFIG_KCSAN_DEBUG
-e879477de3424325c13fb72c19a65d9ae454602d kcsan: Introduce CONFIG_KCSAN_STRICT
-8e1cabfe729af7ac7055775857d56b94b6df90d9 kcsan: Reduce get_ctx() uses in kcsan_found_watchpoint()
-094abee9dbdb1b5913be841cfb83ec73659fab83 kcsan: Rework atomic.h into permissive.h
-a7fcbe6fe2451888a470658d3e8ccc77fd8b4d45 kcsan: Print if strict or non-strict during init
-4f6f189b51536d768a307024a2cd61fb8b71d21d kcsan: permissive: Ignore data-racy 1-bit value changes
-64fbd8a6c4e947655c219bfcfb187f9f50747a65 kcsan: Make strict mode imply interruptible watchers
-25d40e4ea01e2597d7d709e2bb7ee6d7dcd3f6fd torture: Apply CONFIG_KCSAN_STRICT to kvm.sh --kcsan argument
-7e2dab1a501db67f18eb83841b0e3d2f06985f0e torture: Make kvm-recheck-scf.sh tolerate qemu-cmd comments
-cce60ed72c00175a414bdbe77153cfdc61858014 torture: Make kvm-recheck-lock.sh tolerate qemu-cmd comments
-de35d1cf5cbf0b07927905d9e7685434f0260a6b torture: Log more kvm-remote.sh information
-d4f7bc0a8ae61092f4a835b948962f38b0de339c torture: Protect kvm-remote.sh directory trees from /tmp reaping
-8196ba416bbbf1327f89cb0ebe52e19c10d454ef rcuscale: Console output claims too few grace periods
-ac0f949c659c4b734bfaf966262fd7cced4a9a98 rcu-tasks: Fix synchronize_rcu_rude() typo in comment
-bf95e1a551cb78a9ac3754cff6bb694340b9dedc torture: Make kvm-recheck.sh skip kcsan.sum for build-only runs
-6de82a14f81cd83614bf430b802e5da92ff3b41e torture: Move parse-console.sh call to PATH-aware scripts
-1842e2cf38d488d2444d887a4b3027070fda032d tools: include: nolibc: Fix a typo occured to occurred in the file nolibc.h
-637e784da7f140d9d6b4502abe671975c4717243 tools/nolibc: Implement msleep()
-71cdf62b4ca8516f5152bd04fe80689b703bf6c2 scftorture: Add RPC-like IPI tests
-3634324ebba9cfcea36b38c5c8cc7463e9108327 EXP rcu: Mark accesses in tree_stall.h
-dd25901cc0884eb0e323a06ee603499665b41225 scftorture: Provide additional debug for memory-ordering diagnostics
-c545c5e3e0d1e1c36d739cf4f75d7fbd6dd7bc20 rcu: Remove useless "ret" update in rcu_gp_fqs_loop()
-f67c5bdfeb2dcde9574afb16c9e0b78ce1f5ffaa EXP clocksource: Forgive repeated long-latency watchdog clocksource reads
-9a73bfc3a9b1e47afb48654b122c7bba8333fa72 rcu: Use per_cpu_ptr to get the pointer of per_cpu variable
-d73bda0850cc18297e7021ad60f3c5320a396668 clocksource: Prohibit clocksource watchdog test when HZ<100
-a3ebc1df882c2e1f2a9089e273dad782a7e3adc5 rcu: Explain why rcu_all_qs() is a stub in preemptible TREE RCU
-be42b221bc48d830d4ee555d583edc69b148b19c torture: Put kvm.sh batch-creation awk script into a temp file
-ca919e315efa82f6070e1f8c8ba7c770298a8362 torture: Make kvm.sh select per-scenario affinity masks
-21debe7122a44f29af3ef47a035fa8fb32910b10 torture: Don't redirect qemu-cmd comment lines
-6bf5a4bbbc9b6dfce110563cf71dd8b0093b282d torture: Make kvm-test-1-run-qemu.sh apply affinity
-9588ccc3a192a37eb8cf1450e16c6832d9da8f56 rcutorture: Upgrade two-CPU scenarios to four CPUs
-6d26c0df4129add28e7fa2a04e735667112793ba torture: Use numeric taskset argument in jitter.sh
-9cd95d25a479e09a1812a3d797f821cf84f78456 torture: Consistently name "qemu*" test output files
-8e11853b8c73a3ed5dad2564c9d89e15ac1bce9a torture: Make kvm-test-1-run-batch.sh select per-scenario affinity masks
-a705e02e2466aae437fa4f5d6ed8269c483ea76b torture: Don't use "test" command's "-a" argument
-3e2aa6d9e56a7385de40086d214c0b8d22de5f42 torture: Add timestamps to kvm-test-1-run-qemu.sh output
-d1d881313f053c4b38651c3ced59d58e398f5ada torture: Make kvm-test-1-run-qemu.sh check for reboot loops
-b9b727f1469384012d3b1701b6ee9ceec35b40b3 scftorture: Avoid NULL pointer exception on early exit
-0dbba46d6769b2d079c6203c0648e5871b1e7320 RCU: Fix macro name CONFIG_TASKS_RCU_TRACE
-e1aab4f65fca31ac12e79fc7579a59b26cf6b39c scftorture: Allow zero weight to exclude an smp_call_function*() category
-ccd9519212d60cf48af1d245195851f9b4d95e9a scftorture: Shut down if nonsensical arguments given
-06637fa4ee725589cdc55e1e897bc645f16a5548 scftorture: Account for weight_resched when checking for all zeroes
-eb1563520928513fc4e7611569b0a38ecdd645ad scftorture: Count reschedule IPIs
-e107ca1a35b6fd9ec92fe4432bcb77e9284d821e doc: Update stallwarn.rst with recent changes
+c71f78a662611fe2c67f3155da19b0eff0f29762 ASoC: rt5631: Fix regcache sync errors on resume
+2feeb52859fc1ab94cd35b61ada3a6ac4ff24243 drm/i915/gt: Fix -EDEADLK handling regression
+7dd2dd4ff9f3abda601f22b9d01441a0869d20d7 dmaengine: xilinx_dma: Fix read-after-free bug when terminating transfers
+1da569fa7ec8cb0591c74aa3050d4ea1397778b4 dmaengine: usb-dmac: Fix PM reference leak in usb_dmac_probe()
+da435aedb00a4ef61019ff11ae0c08ffb9b1fb18 dmaengine: idxd: fix array index when int_handles are being used
+d5c10e0fc8645342fe5c9796b00c84ab078cd713 dmaengine: idxd: fix setup sequence for MSIXPERM table
+aa21548e34c19c12e924c736f3fd9e6a4d0f5419 ASoC: SOF: Intel: Update ADL descriptor to use ACPI power states
+9431f8df233f808baa5fcc62b520cc6503fdf022 ASoC: codecs: wcd938x: make sdw dependency explicit in Kconfig
+c934fec1c32840224fd975544c347823962193b2 spi: mediatek: move devm_spi_register_master position
+0abb33bfca0fb74df76aac03e90ce685016ef7be drm/i915/gtt: drop the page table optimisation
+95d429206c97cf109591009fa386004191c62c47 platform/x86: think-lmi: Add pending_reboot support
+95e1b60f8dc8f225b14619e9aca9bdd7d99167db platform/x86: amd-pmc: Fix command completion code
+4c06d35dfedf4c1fd03702e0f05292a69d020e21 platform/x86: amd-pmc: Fix SMU firmware reporting mechanism
+162b937a8064029ed22cd1039d4dcf7f1721f940 platform/x86: amd-pmc: call dump registers only once
+76620567496237f1f1f54683ec7da1755ee501d7 platform/x86: amd-pmc: Add support for logging SMU metrics
+b9a4fa6978bef902409858737fa180fa7b9346ac platform/x86: amd-pmc: Add support for logging s0ix counters
+9422584a601ae8e4af51e890a14a936b2b689628 platform/x86: amd-pmc: Add support for ACPI ID AMDI0006
+83cbaf14275a30f14cf558b09389a1664b173858 platform/x86: amd-pmc: Add new acpi id for future PMC controllers
+a973c983375c37301645d4fea056b1f4bff77bf7 platform/x86: amd-pmc: Use return code on suspend
+9e5c772954406829e928dbe59891d08938ead04b drm/ttm: add a check against null pointer dereference
+2578cc100741306936edf698d1a03f8a1e234bf2 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+19c19a816fc98a55cad4cafa01e72e60be10628e Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+64752a95b702817602d72f109ceaf5ec0780e283 ALSA: usb-audio: Add missing proc text entry for BESPOKEN type
+f3cf800778e9e76b2387d00c9bfbc2e16efdb7ed Merge tag 'kvm-s390-master-5.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+f8f0edabcc09fafd695ed2adc0eb825104e35d5c KVM: selftests: x86: Address missing vm_install_exception_handler conversions
+f0414b078dd11641a7a64027c2741396f47718fd Revert "KVM: x86: WARN and reject loading KVM if NX is supported but not enabled"
+4bf48e3c0aafd32b960d341c4925b48f416f14a5 KVM: x86: Use guest MAXPHYADDR from CPUID.0x8000_0008 iff TDP is enabled
+e39f00f60ebd2e7b295c37a05e6349df656d3eb8 KVM: x86: Use kernel's x86_phys_bits to handle reduced MAXPHYADDR
+fc9bf2e087efcd81bda2e52d09616d2a1bf982a8 KVM: x86/mmu: Do not apply HPA (memory encryption) mask to GPAs
+76ff371b67cb12fb635396234468abcf6a466f16 KVM: SVM: Revert clearing of C-bit on GPA in #NPF handler
+23fa2e46a5556f787ce2ea1a315d3ab93cced204 KVM: mmio: Fix use-after-free Read in kvm_vm_ioctl_unregister_coalesced_mmio
+7234c362ccb3c2228f06f19f93b132de9cfa7ae4 KVM: x86/pmu: Clear anythread deprecated bit when 0xa leaf is unsupported on the SVM
+a7958a21cbe98014c9256979b9d363606edf6dcc KVM: X86: Also reload the debug registers before kvm_x86->run() when the host is using them
+f90eb5a1260f6cdec245985349248cbad82aa2c9 kvm: debugfs: fix memory leak in kvm_create_vm_debugfs
+5d572688492579e14d84fe95db9d3026158f6899 KVM: VMX: Remove vmx_msr_index from vmx.h
+5ca6076a1c72ede5ac51f678465a6ecea0feb05f KVM: selftests: Address extra memslot parameters in vm_vaddr_alloc
+9853f1c97d8353169cf9d7bb6621a4b742abfb96 KVM: SVM: #SMI interception must not skip the instruction
+b66d415aadb6601ec1d3af3bd8e5cee3d279ae18 KVM: SVM: remove INIT intercept handler
+95722b7f251a1830d680d1aad8f62db50103e69f KVM: SVM: add module param to control the #SMI interception
+6e95d3bd7734c1002405e37b22bc56374dbb2714 KVM: SVM: Return -EFAULT if copy_to_user() for SEV mig packet header fails
+bdf4f6a24fe7a8f36307f4ef3d3bfac789be32b5 KVM: SVM: Fix sev_pin_memory() error checks in SEV migration utilities
+2115eb643ccedf2c7c72feb3af1d5caa719c9efe KVM: nSVM: Check the value written to MSR_VM_HSAVE_PA
+34a1882051c539ba453fb7f11493f3632865a316 KVM: nSVM: Check that VM_HSAVE_PA MSR was set before VMRUN
+a140f0de81c9f7d375c7b3c545769b5b8672c8e1 KVM: nSVM: Introduce svm_copy_vmrun_state()
+bc0f9860de454181619bd28da6954c786f2bd4c2 KVM: nSVM: Fix L1 state corruption upon return from SMM
+4b84a588e494212812fb861374040c3783e3c6fa KVM: nSVM: Restore nested control upon leaving SMM
+1889228d80fe3060d3b0bcb6d0f968ab33cce0df KVM: selftests: smm_test: Test SMM enter from L2
+3b0462726e7ef281c35a7a4ae33e93ee2bc9975b cgroup: verify that source is a string
+d1d488d813703618f0dd93f0e4c4a05928114aa8 fs: add vfs_parse_fs_param_source() helper
+8096acd7442e613fad0354fc8dfdb2003cceea0b Merge tag 'net-5.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+edb25572fc7058db5a98223e11d2d50497178553 mmc: core: Use kref in place of struct mmc_blk_data::usage
+10252bae863d09b9648bed2e035572d207200ca1 mmc: core: Don't allocate IDA for OF aliases
+071f948e3e2064b73ac26e2b2ee4d6d7269d726d Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+23e9592b06b43cea4d6799843795beca13437907 platform/x86: wireless-hotkey: remove hardcoded "hp" from the error message
+9c23aa51477a37f8b56c3c40192248db0663c196 r8152: Fix potential PM refcount imbalance
+776ac63a986d211286230c4fd70f85390eabedcd r8152: Fix a deadlock by doubly PM resume
+3ffd3dad4b5d9202c2aff6b7e7d7af7be792f9ed Merge branch 'r8152-pm-fixxes'
+9e822497131c9167f73b84e8e56a2ea335782976 Merge remote-tracking branch 'arm64-fixes/for-next/fixes'
+32fe10ff168fb1762e8ff83937f41e667fd30c1d Merge remote-tracking branch 's390-fixes/fixes'
+76310065b323cb9a1a3f24199e56e935012b0ca1 Merge remote-tracking branch 'net/master'
+0603fb0f2e8af81875d04f3f045abcc5c6913ec8 Merge remote-tracking branch 'bpf/master'
+a48a804b3d0826c6eacf02a2dba9418d55ceec0b Merge remote-tracking branch 'ipsec/master'
+1c0800701aee613229a0d5bc7a435de2ef053aa3 Merge remote-tracking branch 'sound-current/for-linus'
+2cc8b32c40f20f58abd8ab53cfd6de5da1b924fe Merge remote-tracking branch 'sound-asoc-fixes/for-linus'
+e7a5b8d8bb84305b8b96ecc07b96a2ee54dceb93 Merge remote-tracking branch 'regulator-fixes/for-linus'
+eac9c7363a0aa09697ad42bc1c3e20b836e07d85 Merge remote-tracking branch 'spi-fixes/for-linus'
+5a9e678554a1cb630226c1a25062a3c3d73d4902 Merge remote-tracking branch 'usb.current/usb-linus'
+17e30ca34646c186aa9c803a042aa65636dfce9b Merge remote-tracking branch 'usb-serial-fixes/usb-linus'
+97876c3df4b381d9dc21cea1af08a0cd9d1379ff Merge remote-tracking branch 'usb-chipidea-fixes/for-usb-fixes'
+482a0abce6ed01b6baa34a04ca10195f39e2b038 Merge remote-tracking branch 'iio-fixes/fixes-togreg'
+d0aab2af392dc7c6f0484469660c71d834aee6fc Merge remote-tracking branch 'kselftest-fixes/fixes'
+34451aafa6313a9912f6fb4e636ce6516bcbdcfb Merge remote-tracking branch 'dmaengine-fixes/fixes'
+9cde9efc300fc22173278b6121b9d563d813a34b Merge remote-tracking branch 'omap-fixes/fixes'
+14114ab8d51265648c6a166b8744c5fefedaab9b Merge remote-tracking branch 'kvm-fixes/master'
+832ef0cc44bd940e417b885926ce3921b1c7ccb4 Merge remote-tracking branch 'nvdimm-fixes/libnvdimm-fixes'
+caf41af539ca0296f0a526409f6aa1745810184a Merge remote-tracking branch 'btrfs-fixes/next-fixes'
+658a0c9c04b49c588b9fecf02dc462f3721a36dc Merge remote-tracking branch 'vfs-fixes/fixes'
+25b8674069b4b9fc52ff0002f054182ea17696cb Merge remote-tracking branch 'drivers-x86-fixes/fixes'
+74ac4f405a40e000efb2db8084a9e3b6ab90744d Merge remote-tracking branch 'scsi-fixes/fixes'
+66128e0a27b52c730a6e5e9ff5247cb49951600f Merge remote-tracking branch 'drm-fixes/drm-fixes'
+caef66fd28aad1acc8ba47bd1d4aa7d5cc9d64aa Merge remote-tracking branch 'drm-intel-fixes/for-linux-next-fixes'
+b3152dc8a8fa18da23fdb32e1c3e98fc622ac1bc Merge remote-tracking branch 'mmc-fixes/fixes'
+88cab51c9e6dab04eb7cf57b71c18d30c921ae25 Merge remote-tracking branch 'rtc-fixes/rtc-fixes'
+07ed86576707ed69752b64a84d0cfb3c0ecd3a78 Merge remote-tracking branch 'pidfd-fixes/fixes'
+3d4fe6edf8b058ba96bdfe780c1c197ea6cea67e Merge remote-tracking branch 'kunit-fixes/kunit-fixes'
+2a14df30299f52c1cfa3d28a19839345a37dd990 Merge remote-tracking branch 'renesas-fixes/fixes'
+315c5bb65361b38a75d1a9441523743c891f95a9 Merge remote-tracking branch 'drm-misc-fixes/for-linux-next-fixes'
 
---===============1929016035268892793==--
+--===============2735007305224889570==--
