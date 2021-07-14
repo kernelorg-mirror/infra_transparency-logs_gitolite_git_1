@@ -1,59 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8260425121593822578=="
+Content-Type: multipart/mixed; boundary="===============6061077568090016765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 14 Jul 2021 15:39:43 -0000
-Message-Id: <162627718371.3488.11175098860542467136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 14 Jul 2021 15:40:10 -0000
+Message-Id: <162627721005.4192.4331301819710005667@gitolite.kernel.org>
 
---===============8260425121593822578==
+--===============6061077568090016765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: 3a70dd2d050331ee4cf5ad9d5c0a32d83ead9a43
-    new: c934fec1c32840224fd975544c347823962193b2
+  - ref: refs/heads/for-linus
+    old: 3bca1d1d77add271315c4def4e00701f39b5e4c8
+    new: 2559e909cb50e6e7f9c90b479a2bc03514ed40dd
     log: |
-         c934fec1c32840224fd975544c347823962193b2 spi: mediatek: move devm_spi_register_master position
+         c71f78a662611fe2c67f3155da19b0eff0f29762 ASoC: rt5631: Fix regcache sync errors on resume
+         aa21548e34c19c12e924c736f3fd9e6a4d0f5419 ASoC: SOF: Intel: Update ADL descriptor to use ACPI power states
+         9431f8df233f808baa5fcc62b520cc6503fdf022 ASoC: codecs: wcd938x: make sdw dependency explicit in Kconfig
+         2559e909cb50e6e7f9c90b479a2bc03514ed40dd Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-  - ref: refs/heads/spi-5.15
-    old: 65ab894f2e5a0451609d13397f0ccb3ba5b332e9
-    new: 57f1c12e455fc6c4c0db2c9f14e57b95822c2321
-    log: |
-         f84d866ab43fcc27b417c86357d6534f157a3d89 spi: mediatek: add tick_delay support
-         014861c2fb3d7b38b8de32baa953082bb9dabaf4 spi: omap-spi: Convert to json-schema
-         57f1c12e455fc6c4c0db2c9f14e57b95822c2321 spi: spi-geni-qcom: Remove confusing comment about setting the watermark
-         
+  - ref: refs/heads/for-next
+    old: 48b2d8fb74b458c583bb49eb2f634fbae6d22c38
+    new: f3a4fb071cf66b437c20f5eba4f17a4c3629fc13
+    log: revlist-48b2d8fb74b4-f3a4fb071cf6.txt
 
---===============8260425121593822578==
+--===============6061077568090016765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-48b2d8fb74b4-f3a4fb071cf6.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1626277146 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1626277179-5e8c1a5cf6e2d85b8252fdae8d3584fc137573d5
+c71f78a662611fe2c67f3155da19b0eff0f29762 ASoC: rt5631: Fix regcache sync errors on resume
+aa21548e34c19c12e924c736f3fd9e6a4d0f5419 ASoC: SOF: Intel: Update ADL descriptor to use ACPI power states
+9431f8df233f808baa5fcc62b520cc6503fdf022 ASoC: codecs: wcd938x: make sdw dependency explicit in Kconfig
+3cb97cf3a65a7fdbf4844ccd39b7e96fe14f762b ASoC: Intel: sof_cs42l42: support arbitrary DAI link sequence
+07acee589f4293cb0ebd77aa201d616e9a296bb9 ASoC: Intel: maxim-common: support max98360a
+7d1bf46cb233aa80e684f61cde5f91530da3f3ea ASoC: Intel: sof_cs42l42: add support for jsl_cs4242_mx98360a
+542d7050da19343ffe61f7b5d1fe2d44ccb0451a ASoC: Intel: sof_rt5682: code refactor for max98360a
+368fa526e6e396972d5f0ed7c2a86ac0c3399ff3 ASoC: Intel: sof_sdw: extends SOF_RT711_JDSRC to 4 bits
+8e6c00f1fdea9fdf727969d7485d417240d2a1f9 ASoC: Intel: sof_sdw: include rt711.h for RT711 JD mode
+f28fbe57e84b4a6cfad314ea9bc3442d96f4fa08 ASoC: Intel: sof_sdw: update quirk for jack detection in ADL RVP
+2559e909cb50e6e7f9c90b479a2bc03514ed40dd Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+f3a4fb071cf66b437c20f5eba4f17a4c3629fc13 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
 
-3a70dd2d050331ee4cf5ad9d5c0a32d83ead9a43 c934fec1c32840224fd975544c347823962193b2 refs/heads/spi-5.14
-65ab894f2e5a0451609d13397f0ccb3ba5b332e9 57f1c12e455fc6c4c0db2c9f14e57b95822c2321 refs/heads/spi-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDvBRoACgkQJNaLcl1U
-h9BdmAf8CibK1Fpoc4aUtQbNCYpiBbwGMqZbAFRtf8dSzqaWU5OqazSqj1QLAc6b
-rB5/TZaHhgdVcuni0MCePIFowOqtNp+/WZdfFloDTvcLVZNuW8tkzllYcbz54l0l
-4478rXIw5kMGFKVEg32A8Vdw6vqcpRC7+NyMffitLWyU8PXpjw4UKcIsD6jnqDUk
-txsrakVEeJ4XcKdeoI5jLTpHdn/Qt1fmAaz3a5nfrWNvHFRJHU4W7kC6B9KIjMEq
-D2BtHBvLYGvn8ra9sE4Q3fWDmBhhEOXh8u1yXTASRuLo17Xyfdm6dZzjVzRZTdt+
-spTjYqSeaYoWBagjLZ4YCmU5X5xAVg==
-=DxBo
------END PGP SIGNATURE-----
-
---===============8260425121593822578==--
+--===============6061077568090016765==--
