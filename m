@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Jul 2021 17:40:51 -0000
-Message-Id: <162628445115.21395.9355146965810082273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 14 Jul 2021 17:57:27 -0000
+Message-Id: <162628544742.32347.2739610808522981278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: d08c84e01afa7a7eee6badab25d5420fa847f783
-    new: fa2c02e5798c17c89cbb3135940086ebe07e5c9f
-    log: |
-         fa2c02e5798c17c89cbb3135940086ebe07e5c9f tools headers: Remove broken definition of __LITTLE_ENDIAN
-         
+  - ref: refs/tags/net-5.14-rc2
+    old: 572a68043a26dd8bb7181e11b8ca0526d989df20
+    new: 0000000000000000000000000000000000000000
