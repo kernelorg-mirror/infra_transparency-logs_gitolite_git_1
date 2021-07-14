@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3302283800267754245=="
+Content-Type: multipart/mixed; boundary="===============8048255704823864986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 14 Jul 2021 14:41:41 -0000
-Message-Id: <162627370180.18454.6961479424896200709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 14 Jul 2021 14:41:49 -0000
+Message-Id: <162627370929.18557.11590540559809443822@gitolite.kernel.org>
 
---===============3302283800267754245==
+--===============8048255704823864986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 55aeeea5cfc466c6e46be6410d79f42751906b06
 
---===============3302283800267754245==
+--===============8048255704823864986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1057,4 @@ efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with m
 f02bf8578bd8dd400903291ccebc69665adc911c Merge tag 'for-5.14-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 40226a3d96ef8ab8980f032681c8bfd46d63874e Merge tag 'vboxsf-v5.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/hansg/linux
 
---===============3302283800267754245==--
+--===============8048255704823864986==--
