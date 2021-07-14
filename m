@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1173505167359755473=="
+Content-Type: multipart/mixed; boundary="===============3928037065805244467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 14 Jul 2021 08:09:58 -0000
-Message-Id: <162625019822.28054.8429841969659675803@gitolite.kernel.org>
+Date: Wed, 14 Jul 2021 08:10:16 -0000
+Message-Id: <162625021647.29657.8024035693198666457@gitolite.kernel.org>
 
---===============1173505167359755473==
+--===============3928037065805244467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 0a8e6f1ebdc0117683a99dabd85feeb4582e6664
     new: d10b0bc4a684f8d457e388fe717af184282fbb39
     log: revlist-0a8e6f1ebdc0-d10b0bc4a684.txt
 
---===============1173505167359755473==
+--===============3928037065805244467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ed9ade64158c9d060bd32449af2427053e33f731 headers/deps: seccomp: Optimize <linux/
 f0ccd4a81626f85351645835ec6b1f805d158f8e headers/deps: llist: Split <linux/llist.h> into <linux/llist_types.h> and <linux/llist_api.h>
 d10b0bc4a684f8d457e388fe717af184282fbb39 headers/deps: llist: Optimize <linux/llist.h>, remove <linux/llist_api.h> inclusion
 
---===============1173505167359755473==--
+--===============3928037065805244467==--
