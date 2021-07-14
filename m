@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5108273764475550681=="
+Content-Type: multipart/mixed; boundary="===============8853790459649300223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 14 Jul 2021 09:41:00 -0000
-Message-Id: <162625566097.8642.12652990398914420507@gitolite.kernel.org>
+Date: Wed, 14 Jul 2021 09:41:20 -0000
+Message-Id: <162625568039.8836.10851072804610999564@gitolite.kernel.org>
 
---===============5108273764475550681==
+--===============8853790459649300223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-hans
     old: 0e695c3f7f66c66e0a1da90cc5378198a656d494
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     log: revlist-0e695c3f7f66-e73f0f0ee754.txt
 
---===============5108273764475550681==
+--===============8853790459649300223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============5108273764475550681==--
+--===============8853790459649300223==--
