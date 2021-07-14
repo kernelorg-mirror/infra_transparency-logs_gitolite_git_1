@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3351334100389590443=="
+Content-Type: multipart/mixed; boundary="===============9098675405347806299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 14 Jul 2021 09:42:02 -0000
-Message-Id: <162625572206.9146.11887365430987307177@gitolite.kernel.org>
+Date: Wed, 14 Jul 2021 09:43:25 -0000
+Message-Id: <162625580525.9739.224364247154984111@gitolite.kernel.org>
 
---===============3351334100389590443==
+--===============9098675405347806299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/fixes
-    old: 701b54bcb7d0d72ee3f032afc900608708409be0
+  - ref: refs/heads/master
+    old: 009c9aa5be652675a06d5211e1640e02bbb1c33d
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-701b54bcb7d0-e73f0f0ee754.txt
+    log: revlist-009c9aa5be65-e73f0f0ee754.txt
 
---===============3351334100389590443==
+--===============9098675405347806299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-701b54bcb7d0-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-009c9aa5be65-e73f0f0ee754.txt
 
 c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============3351334100389590443==--
+--===============9098675405347806299==--
