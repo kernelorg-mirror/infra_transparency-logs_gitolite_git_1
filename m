@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8178943873060271037=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 14 Jul 2021 14:58:25 -0000
-Message-Id: <162627470593.30900.11619715391850822401@gitolite.kernel.org>
-
---===============8178943873060271037==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 14 Jul 2021 15:00:26 -0000
+Message-Id: <162627482666.10644.11342792539193223192@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: bed6aaaa8f16f016e2ccb416b1c6f7694e5d482c
-    new: 0febadf121706ff998fe171b8c4162f327bb6d61
+  - ref: refs/heads/master
+    old: 0eb84931560a833d06fd99bfcbaeaec7ad3b6d13
+    new: a0277d3ff6ab7d5c9e0534f25b4b40719e999c8e
     log: |
-         0febadf121706ff998fe171b8c4162f327bb6d61 Notes added by 'git notes add'
+         bfe0c7fc5f269e16cbba1d7a38ddc40591410a30 Fix error message for invalid key slot with LUKS2
+         bf915e82f4ad9261c3898ef8fbc45a2fbce46c47 man: Add information about maximum number of key slots to --key-slot
+         06249b8e995ba42845ca263daafe5b15cb2d0837 po: update cs.po (from translationproject.org)
+         3694f9c099001309503b7d3c464856d0150f834b po: update de.po (from translationproject.org)
+         cd374664d4d4e5d3d137c1a458b3ae9cd1b6a5a9 po: update fr.po (from translationproject.org)
+         43827ba38013dcee688e4c32b271afb1e18d4759 po: update ja.po (from translationproject.org)
+         2e809625013607dc0b8b896ac15a5f4cfe7ac9ce po: update pl.po (from translationproject.org)
+         b408b8238ced3672bd1c83afaa86d57b95eb08bb po: update ru.po (from translationproject.org)
+         d8bac63e5c6e53f8db41ba7a181c99223afca3f1 po: update sr.po (from translationproject.org)
+         531ebba50bc7bdc8f4c0d5ad758460f1d9871aef po: update sv.po (from translationproject.org)
+         a0277d3ff6ab7d5c9e0534f25b4b40719e999c8e po: update uk.po (from translationproject.org)
          
-
---===============8178943873060271037==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626274704 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1626274704-2e0b476b0246726263e73b2e90e4c6565cac182e
-
-bed6aaaa8f16f016e2ccb416b1c6f7694e5d482c 0febadf121706ff998fe171b8c4162f327bb6d61 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDu+5AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IqQP/ivbSWMBv/MoC15PM5dF
-/DVAmVbbUMZbVAI/hI1C1ZL/h0/AuEPA2JIWwpR1Uq3iHLgg2PrmKNGMadwh8nLd
-PDdK6XM5XG1+RM841DfEaQ2Hr9bjw5NNTcoNJdIrRXwZulz+zSbBUqGU7UOQkKfa
-PgKZ9joWfWOwsVqw5JGgOWd5AOMZRHIatQM79wrPoOELiztpaAvvtNBxv4fXWTWi
-hBxsWNiIoiiY3N+k8LAsOwcR+7N6kqxN3ueTIyBsi5Nz2K4MwpVHShZik41/ulP4
-+jJk/zCJOxpv4fIhLcPiyWd3aLYny+fnWnFLDphL2l1pwyxvyMXmgKe74K9jaL2F
-ppwQNFzVuOyWzz9tvqyipNAKzBbh6rEltO2s/eLrUAzMSaluhHH4JKPV0g05cfH/
-G7CWp3lS8dcfezkbUJQIXJYexxUZPvZWc7rFMvI41P4+xjRJDXC8P7QJBFflM4Os
-lG+Ah7q3VbiJwP42cWyWKZGC68iuJijNltWQWxeZaT4016MqWCxFLbBcSV5fRoeE
-3CVkXsmgKoGcH3Pq6x+mg/O4eRs3DVzGDfLZf9m7677NQrnYNjMxBayRhY+VXYBB
-R1v9Kcz0LV7szYP48LlmWnT6i9kyQrElASq1jfsrBySwlwn53k31KLz6vne5Dy/O
-U+e+Ax02TPV0jhzS98wgwZSF
-=DjeC
------END PGP SIGNATURE-----
-
---===============8178943873060271037==--
+  - ref: refs/heads/base64
+    old: 0000000000000000000000000000000000000000
+    new: 0f60cf9b6bac8bbcfe5f42bac9a2fe56448fcdaa
+  - ref: refs/merge-requests/186/head
+    old: 0000000000000000000000000000000000000000
+    new: 17791835fb28fbfcc196f16948274c2bbefa2f20
+  - ref: refs/merge-requests/186/merge
+    old: 0000000000000000000000000000000000000000
+    new: be0c758d7bc22fa7f00599c54984574d573eb3cb
+  - ref: refs/merge-requests/187/head
+    old: 0000000000000000000000000000000000000000
+    new: 5a4189e9f8b8f69101505cf22cc769302e468578
+  - ref: refs/merge-requests/187/merge
+    old: 0000000000000000000000000000000000000000
+    new: 62f781210ac84f60a5210ece5d251e8f73679f2c
+  - ref: refs/merge-requests/188/head
+    old: 0000000000000000000000000000000000000000
+    new: bf915e82f4ad9261c3898ef8fbc45a2fbce46c47
+  - ref: refs/merge-requests/188/merge
+    old: 0000000000000000000000000000000000000000
+    new: f9e86af6db454289ffca3e7011c90c4ed30c6698
+  - ref: refs/merge-requests/189/head
+    old: 0000000000000000000000000000000000000000
+    new: 0f60cf9b6bac8bbcfe5f42bac9a2fe56448fcdaa
+  - ref: refs/merge-requests/189/merge
+    old: 0000000000000000000000000000000000000000
+    new: c3d63bd8c1befd5a649bd6c191b9da9a4ac1980d
