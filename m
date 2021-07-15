@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 15 Jul 2021 11:01:22 -0000
-Message-Id: <162634688291.11662.6179097231730731026@gitolite.kernel.org>
+Date: Thu, 15 Jul 2021 11:03:33 -0000
+Message-Id: <162634701342.12467.4927465972357016403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt
-    old: 857e67e935b7f6c6a506cb0f07eedde1ecfb3a31
-    new: a6d05cc7eae6f81896ded5b1e20e5b205af29b96
+  - ref: refs/heads/imx/fixes
+    old: f5adb50e9aa3bc79b612dd0e44d7312f3d6e6063
+    new: ac34de14ac30ba4484d68f8845a54b6b6c23db42
     log: |
-         a6d05cc7eae6f81896ded5b1e20e5b205af29b96 ARM: dts: add SolidRun SolidSense support
+         ac34de14ac30ba4484d68f8845a54b6b6c23db42 Revert "soc: imx8m: change to use platform driver"
          
