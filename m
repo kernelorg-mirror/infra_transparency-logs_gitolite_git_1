@@ -1,24 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 15 Jul 2021 22:03:34 -0000
-Message-Id: <162638661413.13615.17045741503633047382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 15 Jul 2021 22:18:16 -0000
+Message-Id: <162638749622.22633.5940473632334610899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next.mmap-fault
-    old: 1db94c7d23bb8925e27221ebdd5b842d818a20f6
-    new: 3ccd2c3581cef30cf9bc96b82197a3ff805c04a5
+  - ref: refs/heads/dev
+    old: e107ca1a35b6fd9ec92fe4432bcb77e9284d821e
+    new: e92c9172d951eab9a9ac8c1f5e3a2b5bb6c164ec
     log: |
-         10dfd48d211e9a5ba9bf4447e47ce8a97c110c3b iov_iter: Introduce fault_in_iov_iter helper
-         9744208ea4b9990aa4d4dfdab15203222e7a5d5b iomap: Fix iomap_dio_rw return value for page faults
-         58eefe2942f1ebecc4cac874464509f8af11f215 gfs2: Add wrapper for iomap_file_buffered_write
-         9c24edabe1fc870b37006571a539d68db26bbe98 gfs2: Fix mmap + page fault deadlocks for buffered I/O
-         01baff8b8cbd02aab76363ebbac60b418f2724da iov_iter: Introduce ITER_FLAG_FAST_ONLY flag
-         3ccd2c3581cef30cf9bc96b82197a3ff805c04a5 gfs2: Fix mmap + page fault deadlocks for direct I/O
+         32c9c5552ef92316293516db9eeb2898a3875284 fixup! scftorture: Add RPC-like IPI tests
+         e92c9172d951eab9a9ac8c1f5e3a2b5bb6c164ec torture: Make torture.sh print the number of files to be compressed
          
+  - ref: refs/tags/irq-urgent-2021-07-11
+    old: 0000000000000000000000000000000000000000
+    new: 9cf6c7ce52256eb825372918bdd8a2c01fbb26ff
+  - ref: refs/tags/locking-urgent-2021-07-11
+    old: 0000000000000000000000000000000000000000
+    new: 74d26f9baf4af2bdf9de464e526622b33144b47a
+  - ref: refs/tags/perf-urgent-2021-07-11
+    old: 0000000000000000000000000000000000000000
+    new: d8583b821d3d3f852c865e43ddd132b4ff17db70
+  - ref: refs/tags/sched-urgent-2021-07-11
+    old: 0000000000000000000000000000000000000000
+    new: d23b2fef244e0be2fabf0ba128d91e2b03fc8166
+  - ref: refs/tags/v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/x86-fpu-2021-07-07
+    old: 0000000000000000000000000000000000000000
+    new: 56b6b55fff9662a0d18f6f88f3832742ae419a31
