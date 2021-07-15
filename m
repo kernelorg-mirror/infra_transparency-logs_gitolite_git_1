@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5259375819103474394=="
+Content-Type: multipart/mixed; boundary="===============5526528940794579219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Thu, 15 Jul 2021 18:33:03 -0000
-Message-Id: <162637398385.1270.2618620053140601348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 15 Jul 2021 18:33:07 -0000
+Message-Id: <162637398795.1424.15790730473075424664@gitolite.kernel.org>
 
---===============5259375819103474394==
+--===============5526528940794579219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
+  - ref: refs/heads/next/dt
+    old: 135adbbee4c66f89b57519633cbf8c3c35b6c4da
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-6efb943b8616-e73f0f0ee754.txt
+    log: revlist-135adbbee4c6-e73f0f0ee754.txt
 
---===============5259375819103474394==
+--===============5526528940794579219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6efb943b8616-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-135adbbee4c6-e73f0f0ee754.txt
 
 c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============5259375819103474394==--
+--===============5526528940794579219==--
