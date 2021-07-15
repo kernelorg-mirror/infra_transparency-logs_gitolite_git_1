@@ -1,56 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============2208496441479751133=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Jul 2021 17:36:33 -0000
-Message-Id: <162637059376.24688.12539537429212721868@gitolite.kernel.org>
-
---===============2208496441479751133==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 15 Jul 2021 17:37:56 -0000
+Message-Id: <162637067650.25227.15043216224191347884@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 81e65ca8f5d3feb95c759c982dd3e2e1dee1c1ac
-    new: 3dab7d6085e79192feeeec2e9d9cfa3d2d2bd1b1
+  - ref: refs/heads/for-kernelci
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: e6f85cbeb23bd74b8966cf1f15bf7d01399ff625
     log: |
-         3dab7d6085e79192feeeec2e9d9cfa3d2d2bd1b1 5.13-stable patches
+         5f34b1eb2f8d4bba7d6352e767ef84bee9096d97 arm64: fix strlen() with CONFIG_KASAN_HW_TAGS
+         e62e074814862cffd8e60a1bdf52d6b592a03675 arm64: Add missing header <asm/smp.h> in two files
+         c1132702c71f4b95db9435bac5fdc912881563e0 Revert "arm64: cache: Lower ARCH_DMA_MINALIGN to 64 (L1_CACHE_BYTES)"
+         8cdd23c23c3d481a43b4aa03dcb5738812831115 arm64: Restrict ARM64_BTI_KERNEL to clang 12.0.0 and newer
+         295cf156231ca3f9e3a66bde7fab5e09c41835e0 arm64: Avoid premature usercopy failure
+         59f44069e0527523f27948da7b77599a73dab157 arm64: mte: fix restoration of GCR_EL1 from suspend
+         31a7f0f6c8f392f002c937f34f372943cf8be5a9 arm64: entry: add missing noinstr
+         e6f85cbeb23bd74b8966cf1f15bf7d01399ff625 arm64: entry: fix KCOV suppression
          
-
---===============2208496441479751133==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626370592 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1626370591-0e19a5c4174271353d10a3b902d4daaa3b171573
-
-81e65ca8f5d3feb95c759c982dd3e2e1dee1c1ac 3dab7d6085e79192feeeec2e9d9cfa3d2d2bd1b1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDwciAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jagQALyEfA9VkHywlZ0LkNAW
-vtXay9WDmyyoLeDJX3SbBRAKON8+YxIYi4wnln8crM7ToTsE/mXVLuWdVzKlxFDc
-3rryySwTPwLA/Iv5WlpL/9OBb6Br8anzdntcKuKd30GTR0uee5fRbNeM7ef6EU8y
-Sdn9bCASYrituMrok7xhcXgMpOiu56p2roPPZt/bbg3vzSRNvGZ7sz8R14kTk9oS
-c/ZyfMEe2bln35aMkrqdYlvUntRGu3I0Jd12sEVl9GOSfOaAcHyImP5lnGmErJUn
-s5IW0geNSqBJNKgs7cIMGoTvfwCDx031mDESP8HpYW8YSo1KTXKQ0OYOLiUhlNhg
-yUDv9LEY+E+eDhZATpVCgQvhHAC1knzFyBMCr5o0XPw1vr83on3rBn3zKJrRg2O3
-u4ix79oph7N9FdrrfUhq30g2ochoFohJCY2LileGiMCGgrM6I1rRWzFwNg/ZFPz4
-IMoOJbjti1yb/p7h9+CtK9cxwslBIqewnxHVr6XkzG7ruB9a0P+NVaCgKRDCVBRw
-xD+TXmvWitLRgM5yE760xgmfCXs5adSV9mdlsZMwmBMRQP+GmqepvN2nb/HxFCOh
-T8JDoip50vByJbD47EFAvdc8CPRojsaeVabm1kUxasRMvD20QLJHiQR5mw9BlXBW
-AVJI59BrsNDrwH36UTsEdAf+
-=CSTp
------END PGP SIGNATURE-----
-
---===============2208496441479751133==--
+  - ref: refs/heads/for-next/fixes
+    old: 8cdd23c23c3d481a43b4aa03dcb5738812831115
+    new: e6f85cbeb23bd74b8966cf1f15bf7d01399ff625
+    log: |
+         295cf156231ca3f9e3a66bde7fab5e09c41835e0 arm64: Avoid premature usercopy failure
+         59f44069e0527523f27948da7b77599a73dab157 arm64: mte: fix restoration of GCR_EL1 from suspend
+         31a7f0f6c8f392f002c937f34f372943cf8be5a9 arm64: entry: add missing noinstr
+         e6f85cbeb23bd74b8966cf1f15bf7d01399ff625 arm64: entry: fix KCOV suppression
+         
