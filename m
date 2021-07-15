@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0824808077009870628=="
+Content-Type: multipart/mixed; boundary="===============5259375819103474394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 15 Jul 2021 18:33:02 -0000
-Message-Id: <162637398295.1211.2833692966048622882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Thu, 15 Jul 2021 18:33:03 -0000
+Message-Id: <162637398385.1270.2618620053140601348@gitolite.kernel.org>
 
---===============0824808077009870628==
+--===============5259375819103474394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     log: revlist-6efb943b8616-e73f0f0ee754.txt
 
---===============0824808077009870628==
+--===============5259375819103474394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============0824808077009870628==--
+--===============5259375819103474394==--
