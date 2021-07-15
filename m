@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1620714660818581984=="
+Content-Type: multipart/mixed; boundary="===============7613989204147006418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 15 Jul 2021 21:39:55 -0000
-Message-Id: <162638519512.29759.12727021826180638462@gitolite.kernel.org>
+Date: Thu, 15 Jul 2021 21:40:09 -0000
+Message-Id: <162638520985.31297.14553582217670366223@gitolite.kernel.org>
 
---===============1620714660818581984==
+--===============7613989204147006418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 92f666e798bd811b067af86dda2ea54e79ae5595
     new: 3b6480774c36d5c4392af254a7b4eb19395bcd66
     log: revlist-92f666e798bd-3b6480774c36.txt
 
---===============1620714660818581984==
+--===============7613989204147006418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e17a2349c1277bafab93fc8a9f9e0db5d410bb16 headers/deps: Add header dependencies t
 19d82afa0aa298f5851bfa000d5806a6b86e1c4c headers/deps: drivers/core: Move the device_lock*() APIs from <linux/device_api.h> to the new <linux/device_api_lock.h> header
 3b6480774c36d5c4392af254a7b4eb19395bcd66 headers/deps: drivers/core: Optimize <linux/device_api.h> dependencies, remove the <linux/mutex_api.h> inclusion
 
---===============1620714660818581984==--
+--===============7613989204147006418==--
