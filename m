@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0276194192725677242=="
+Content-Type: multipart/mixed; boundary="===============1799597680263483622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 15 Jul 2021 18:39:34 -0000
-Message-Id: <162637437409.5793.15317185974645601644@gitolite.kernel.org>
+Date: Thu, 15 Jul 2021 18:40:01 -0000
+Message-Id: <162637440185.6060.17460778360904414397@gitolite.kernel.org>
 
---===============0276194192725677242==
+--===============1799597680263483622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,132 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5e437416ff66981d8154687cfdf7de50b1d82bfc
-    new: 87117baf4f923a44bab189c37a6c8783f0c03525
-    log: revlist-5e437416ff66-87117baf4f92.txt
+  - ref: refs/heads/dev-queue
+    old: f52d0592d48cff3ca4d26012a72ffb4dd68295f1
+    new: 9a7fa0fcb883b75189d834bf4e2aeddc358227f4
+    log: revlist-f52d0592d48c-9a7fa0fcb883.txt
 
---===============0276194192725677242==
+--===============1799597680263483622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e437416ff66-87117baf4f92.txt
+Content-Disposition: attachment; filename=revlist-f52d0592d48c-9a7fa0fcb883.txt
 
-22634bc5620d29765e5199c7b230a372c7ddcda2 io_uring: add IOPOLL and reserved field checks to IORING_OP_UNLINKAT
-59b735aeeb0f23a760bc21f1c5a1ab6c79e9fe0e io_uring: reduce latency by reissueing the operation
-b2d9c3da77115b5172749dec20312651e67e0adf io_uring: refactor io_arm_poll_handler()
-dd432ea5204eeb92a2abf246ce518e68679da772 io_uring: mainstream sqpoll task_work running
-e5dc480d4ed9884274e95c757fa2d2e9cc1047ee io_uring: remove not needed PF_EXITING check
-4cfb25bf8877c947e5ae4875e387babe87e12afa io_uring: optimise hot path restricted checks
-5182ed2e332e8e11fa3c1649ef6d6546ccca64d0 io_uring: refactor io_submit_flush_completions
-99ebe4efbd3882422db1fd6a1b477291ea8bdab7 io_uring: pre-initialise some of req fields
-915b3dde9b72cb4f531b04208daafcd0a257b847 io_uring: spin in iopoll() only when reqs are in a single queue
-e149bd742b2db6a63fc078b1ea6843dc9b22678d io_uring: code clean for kiocb_done()
-d2efa81dd8ba50b800accb3ef2b73474e5af9648 mtip32xx: simplify sysfs setup
-cc25592caa5dfbb3ae17ef616a8c8f2e910ae549 mtip32xx: use blk_mq_alloc_disk and blk_cleanup_disk
-2f43dbf3a7423ba14d827965d37fb6a56aa90009 null_blk: remove an unused variable assignment in null_add_dev
-7eb90f7e90a85b635b31bc0ac35846880c7470e7 ubd: remove the code to register as the legacy IDE driver
-35efb594c3a8bbd41fca67658b03bf99441d488b ubd: use blk_mq_alloc_disk and blk_cleanup_disk
-6497ef8df568afbf5f3e38825a4590ff41611a54 nbd: provide a way for userspace processes to identify device backends
-249cda3325e0ff35dd8af9b5885f3aaf4ddd165d mmc: remove an extra blk_{get,put}_queue pair
-607d968a5769d8eef20ece19b84937f9c2676491 mmc: switch to blk_mq_alloc_disk
-1033d103a9b795b41ca0bb90587047a65e2ed5ef mmc: initialized disk->minors
-8b52d8be86d723085784317427d339528766d9a3 loop: reorder loop_exit
-bd5c39edad535d9f6ccb99633930f9f7b768593c loop: reduce loop_ctl_mutex coverage in loop_exit
-d6da83d072c187d6a69d5a49e2320f62920889d7 loop: remove the l argument to loop_add
-4157fe0b3d16ceca4316674a90c681405cdd23bf loop: don't call loop_lookup before adding a loop device
-f9d107644aa4943b383986a8aa36125379eeaa81 loop: split loop_control_ioctl
-18d1f200b3807c383d80cc00d6bbdee288e63b1f loop: move loop_ctl_mutex locking into loop_add
-e5d66a10324f2a0c31153fd6210d99a9d00ef047 loop: don't allow deleting an unspecified loop device
-b9848081465d8734441408129bd44311c7b6d644 loop: split loop_lookup
-8e60947d2f1ee675681a526da99fa587e63f78e3 loop: rewrite loop_exit using idr_for_each_entry
-5ec780a6eddacbbbc1c5d5838753c3ca43f93526 block: mark blk_mq_init_queue_data static
-da6269da4cfe29f484e8fd27c1496b81b47e2499 block: remove REQ_OP_SCSI_{IN,OUT}
-c01b5a814e7b28e327883838bad159194bdd68e8 block: support polling through blk_execute_rq
-be42a33b9252f0b3857cadb896e430ee17cccad4 nvme: use blk_execute_rq() for passthrough commands
-fb9b16e15cd70e21d8af7f03d700deb9509c2ce8 block: return errors from blk_execute_rq()
-ae5e6886b4f8d62a9d01fea4221a854e541a1cd0 nvme: use return value from blk_execute_rq()
-efee99e68e69d8a1966f3d426cc0cea73e32c6d7 ubd: remove dead code in ubd_setup_common
-8813587a996e7d2ae160be3b79f9f70d9fef4583 Revert "ext4: consolidate checks for resize of bigalloc into ext4_resize_begin"
-2cfa582be80081fb8db02d4d9b44bff34b82ac54 Merge tag 'for-5.14/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-b5cfbd35eccaa0b532dc0d8a31e4d59b5e314c93 block: check disk exist before trying to add partition
-fe2535a44904a77615a3af8e8fd7dafb98fb0e1b cpufreq: CPPC: Fix potential memleak in cppc_cpufreq_cpu_init
-eead1840cbd31e553bf8ccdefbd5b065bf596b71 cpufreq: CPPC: Pass structure instance by reference
-83150f5d05f065fb5c12c612f119015cabdcc124 arch_topology: Avoid use-after-free for scale_freq_data
-1eb5dde674f57b1a1918dab33f09e35cdd64eb07 cpufreq: CPPC: Add support for frequency invariance
-c503c193db7d7ccc0c58b1ef694eaef331318149 Merge branch 'cpufreq/cppc-fie' into cpufreq/arm/linux-next
-a6ecc2a491e378e00e65e59a006d4005e1c2f4af Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-426e5c429d16e4cd5ded46e21ff8e939bf8abd0f mm: memory_hotplug: factor out bootmem core functions to bootmem_info.c
-6be24bed9da367c29b04e6fba8c9f27db39aa665 mm: hugetlb: introduce a new config HUGETLB_PAGE_FREE_VMEMMAP
-cd39d4e9e71c5437b67c819c3d53032145bf2879 mm: hugetlb: gather discrete indexes of tail page
-f41f2ed43ca5258d70d53290d1951a21621f95c8 mm: hugetlb: free the vmemmap pages associated with each HugeTLB page
-b65d4adbc0f0d4619f61ee9d8126bc5005b78802 mm: hugetlb: defer freeing of HugeTLB pages
-ad2fa3717b74994a22519dbe045757135db00dbb mm: hugetlb: alloc the vmemmap pages associated with each HugeTLB page
-e9fdff87e893ec5b7c32836675db80cf691b2a8b mm: hugetlb: add a kernel parameter hugetlb_free_vmemmap
-4bab4964a59f277915285787c828b810151de7a1 mm: memory_hotplug: disable memmap_on_memory when hugetlb_free_vmemmap enabled
-774905878fc9b0b9a5ee4a889b97f773a077aeee mm: hugetlb: introduce nr_free_vmemmap_pages in the struct hstate
-5fe77be6bf14bf6c471be58c68edc9e0f97b72fb mm/debug_vm_pgtable: move {pmd/pud}_huge_tests out of CONFIG_TRANSPARENT_HUGEPAGE
-b593b90dc9768d4873b8b7c60be2c69d8f5c180e mm/debug_vm_pgtable: remove redundant pfn_{pmd/pte}() and fix one comment mistake
-b2bd53f18bb7f7cfc91b3bb527d7809376700a8e mm/huge_memory.c: remove dedicated macro HPAGE_CACHE_INDEX_MASK
-dfe5c51c6029af0a6c302a0d5dcde3cc4e298a47 mm/huge_memory.c: use page->deferred_list
-e6be37b2e7bddfe0c76585ee7c7eee5acc8efeab mm/huge_memory.c: add missing read-only THP checking in transparent_hugepage_enabled()
-9132a468aafdaed5efd8dd5506b29f55a738782e mm/huge_memory.c: remove unnecessary tlb_remove_page_size() for huge zero pmd
-babbbdd08af98a59089334eb3effbed5a7a0cf7f mm/huge_memory.c: don't discard hugepage if other processes are mapping it
-79c1c594f49a88fba9744cb5c85978c6b1b365ec mm/hugetlb: change parameters of arch_make_huge_pte()
-c742199a014de23ee92055c2473d91fe5561ffdf mm/pgtable: add stubs for {pmd/pub}_{set/clear}_huge
-f7ee1f13d606c1b1be3bdaf1609f3991bc06da87 mm/vmalloc: enable mapping of huge pages at pte level in vmap
-3382bbee0464bf31e63853c6ec2a83ead77a01cc mm/vmalloc: enable mapping of huge pages at pte level in vmalloc
-a6a8f7c4aa7eb50304b5c4e68eccd24313f3a785 powerpc/8xx: add support for huge pages on VMAP and VMALLOC
-22f3c951865be13dd32ba042b50bea3f6f93e115 khugepaged: selftests: remove debug_cow
-8cc5fcbb5be814c115085549b700e473685b11e9 mm, hugetlb: fix racy resv_huge_pages underflow on UFFDIO_COPY
-3bc2b6a725963bb1b441356873da890e397c1a3f mm: sparsemem: split the huge PMD mapping of vmemmap pages
-2d7a21715f25122779e2bed17db8c57aa01e922f mm: sparsemem: use huge PMD mapping for vmemmap pages
-e6d41f12df0efcaa6e30b575d40f2529024cfce9 mm: hugetlb: introduce CONFIG_HUGETLB_PAGE_FREE_VMEMMAP_DEFAULT_ON
-48b8d744ea841b8adf8d07bfe7a2d55f22e4d179 hugetlb: remove prep_compound_huge_page cleanup
-7118fc2906e2925d7edb5ed9c8a57f2a5f23b849 hugetlb: address ref count racing in prep_compound_gigantic_page
-510d25c92ec4ace4199a94f2f0cc9b8208c0de57 mm/hwpoison: disable pcp for page_handle_poison()
-d2c6c06fff5098850b2b3b360758c9cc6102053f userfaultfd/selftests: use user mode only
-ba4f8c355ef96ed521788d6707344f350bf78078 userfaultfd/selftests: remove the time() check on delayed uffd
-4e08e18a785f9e901ca64062b9227c68d1b40ea3 userfaultfd/selftests: dropping VERIFY check in locking_thread
-de3ca8e4a56dda0f0dfb05d4fddab985cde5159a userfaultfd/selftests: only dump counts if mode enabled
-42e584eede17b21b03896961e0df45ece4d01e79 userfaultfd/selftests: unify error handling
-5fc7a5f6fd04bc18f309d9f979b32ef7d1d0a997 mm/thp: simplify copying of huge zero page pmd when fork
-8f34f1eac3820fc2722e5159acceb22545b30b0d mm/userfaultfd: fix uffd-wp special cases for fork()
-00b151f21f390f1e0b294720a3660506abaf49cd mm/userfaultfd: fail uffd-wp registration if not supported
-fb8e37f35a2fe1f983ac21850e856e2c7498d469 mm/pagemap: export uffd-wp protection information
-eb3b2e0039837546b460d8c747b86b2632a975a1 userfaultfd/selftests: add pagemap uffd-wp test
-3460f6e5c1ed94c2ab7c1ccc032a5bebd88deaa7 userfaultfd/shmem: combine shmem_{mcopy_atomic,mfill_zeropage}_pte
-c949b097ef2e332fa90708127c972b823fb58ec1 userfaultfd/shmem: support minor fault registration for shmem
-153132571f0204dc5844faf6b0f8096c6c29d277 userfaultfd/shmem: support UFFDIO_CONTINUE for shmem
-964ab0040ff9598783bf37776b5e31b27b50e293 userfaultfd/shmem: advertise shmem minor fault support
-7d64ae3ab648a967b7ba5cc3e89281d76742c34e userfaultfd/shmem: modify shmem_mfill_atomic_pte to use install_pte()
-fa2c2b58189b28ee7bd830b4cb71abfe5060fff2 userfaultfd/selftests: use memfd_create for shmem test type
-5bb23edb18373b20ff740e56d7c97ea60fb51491 userfaultfd/selftests: create alias mappings in the shmem test
-8ba6e8640844213e27c22f5eae915710f7b7998d userfaultfd/selftests: reinitialize test context in each test
-4a8f021ba0a220a95d4251ea3f199ef693f1249b userfaultfd/selftests: exercise minor fault handling shmem support
-2d2b8d2b67713da5de333a8849342503a9f21c60 mm/vmscan.c: fix potential deadlock in reclaim_pages()
-764c04a9cbe6f66334ed9a8a154e7d1b4b535da9 include/trace/events/vmscan.h: remove mm_vmscan_inactive_list_is_low
-3ebc57f40316049139ab9ca3d19e52449106ee9f mm: workingset: define macro WORKINGSET_SHIFT
-781eb2cdd26f3748be57da9bed98bbe5b0dd99fb mm/kconfig: move HOLES_IN_ZONE into mm
-8d719afcb34434ebfa7911338d8c777eca8452b0 docs: proc.rst: meminfo: briefly describe gaps in memory accounting
-3c36b419b111e28a657e6534aae07964a98a5ca9 fs/proc/kcore: drop KCORE_REMAP and KCORE_OTHER
-2711032c64a9c151a6469d53fdc7f9f4df7f6e45 fs/proc/kcore: pfn_is_ram check only applies to KCORE_RAM
-0daa322b8ff94d8ee4081c2c6868a1aaf1309642 fs/proc/kcore: don't read offline sections, logically offline pages and hwpoisoned pages
-82840451936f0301781ece80322230fd8edfc648 mm: introduce page_offline_(begin|end|freeze|thaw) to synchronize setting PageOffline()
-6cc26d77613a970ed9b5ca66f230b29edf7c917e virtio-mem: use page_offline_(start|end) when setting PageOffline()
-c6d9eee2a68619b5ba1c25e406a9403f33b56902 fs/proc/kcore: use page_offline_(freeze|thaw)
-e3c0db4fec46b46a0c22b46bb55392b36ec940fc mm/z3fold: define macro NCHUNKS as TOTAL_CHUNKS - ZHDR_CHUNKS
-014284a0815f6b9a6e10c8d575d37a5357ce033d mm/z3fold: avoid possible underflow in z3fold_alloc()
-e891f60e28c3e90e2589a7d2147ae192dca11245 mm/z3fold: remove magic number in z3fold_create_pool()
-767cc6c5568afa50ef6abbd4efb61beee56f9cc8 mm/z3fold: remove unused function handle_to_z3fold_header()
-dac0d1cfda56472378d330b1b76b9973557a7b1d mm/z3fold: fix potential memory leak in z3fold_destroy_pool()
-28473d91ff7f686d58047ff55f2fa98ab59114a4 mm/z3fold: use release_z3fold_page_locked() to release locked z3fold page
-f356aeacf7bbf32131de10d3e400b25b62e3eaaa mm/zbud: reuse unbuddied[0] as buddied in zbud_pool
-2a03085ce88792bac2e25319fc2874a885e7e102 mm/zbud: don't export any zbud API
-17adb230d6a6e39f9ba39440ee8441291795dff4 mm/compaction: use DEVICE_ATTR_WO macro
-d2155fe54ddb6e289b4f7854df5a7d828d6efbb5 mm: compaction: remove duplicate !list_empty(&sublist) check
-b55ca5264b0c0092f238e2f4f33319ba6e9901ab mm/compaction: fix 'limit' in fast_isolate_freepages
-b26e517a058bd40c790a1d9868c896842f2e4155 mm/mempolicy: cleanup nodemask intersection check for oom
 7858d7bca7fbbbbd5b940d2ec371b2d060b21b84 mm/mempolicy: don't handle MPOL_LOCAL like a fake MPOL_PREFERRED policy
 95837924587c60425f941dc8cbfba61cb964fcb5 mm/mempolicy: unify the parameter sanity check for mbind and set_mempolicy
 e5947d23edd897ffe068564e91fd186adb95ee6d mm: mempolicy: don't have to split pmd for huge zero page
@@ -1050,5 +935,120 @@ d1d488d813703618f0dd93f0e4c4a05928114aa8 fs: add vfs_parse_fs_param_source() hel
 8096acd7442e613fad0354fc8dfdb2003cceea0b Merge tag 'net-5.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5c2c85315948c42c6c0258cf9bad596acaa79043 bus: mhi: pci-generic: configurable network interface MRU
 87117baf4f923a44bab189c37a6c8783f0c03525 ipv6: remove unnecessary local variable
+44145c3fb750bdb35fde8487bd34cbc7b7c359f4 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+b0fd9483d600f6f51278e602bd472e0e1fb6f2ea igc: Add UDP segmentation offload support
+19dc3b96545064799ebad859319e36c14ffe48f8 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+8696615e87f6f117efd5dd8dd710e33b3a09e211 i40e: add support for PTP external synchronization clock
+2a166442be2e4775884f285b6f554fc777b6b032 iavf: do not override the adapter state in the watchdog task
+40d7abe4ef02ec4bb7c4337120b7a3ccf216e877 iavf: fix locking of critical sections
+d314248212e1b104f512da0c7c739c2edb095e75 i40e: improve locking of mac_filter_hash
+e83b4349646e915a9a9e341ada33a9f53aafd292 i40e: Fix correct max_pkt_size on VF RX queue
+744b3357fa6ca82225ae7f988f542d8cd449304e iavf: Fix return of set the new channel count
+d2a970a2e0111f25b6790d7e61b03c210f28a264 i40e: Fix NULL ptr dereference on VSI filter sync
+cecf75aa627056639a47aeb78d4818cd11680f1f ice: Fix VF true promiscuous mode
+3c796824c6918fe4bfefcf78c602e806a6913359 igb: unbreak I2C bit-banging on i350
+8c2767e108bf12ce4d006e2829c90bcb060da1bd i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+62afd0799adc043a22c155411b7851d4615c7a3d ice: Refactor promiscuous functions
+d2e54158af2ad46ae09a9bf6009330d10bc4d007 e1000e: Add support for Lunar Lake
+dd75eaeaed634ac0063266babd80640792c407ad ice: Enable configuration of number of qps per VF via devlink
+b7b0073aff5976676fdf10656bb8eb4a048d1eb4 i40e: Fix warning message and call stack during rmmod i40e driver
+c273160968ab65613fa78eadef4a9bc747df21c3 i40e: Fix logic of disabling queues
+e55c9d400982792208245db0300eca5b9c231956 i40e: Fix changing previously set num_queue_pairs for PFs
+5c0b3daa63aedf4748a2b1d17cec09c80572f163 i40e: Fix ping is lost after configuring ADq on VF
+a1bba84774dee7373b0de32c6cc52b5d9eb6a5ad igb: Add counter to i21x doublecheck
+dd4a9dd9dc82ee207606d5d8e6fe9f6a45f5532b ice: Remove toggling of antispoof for VF trusted promiscuous mode
+f71d4e06981f742e248726eb9346ff28a81721a3 ice: fix FDIR init missing when reset VF
+323aeb2bb7efd64b8fb572ee8f6c08b0ade49f84 igb: fix netpoll exit with traffic
+a5c82e95e27249c1f21af32905dc375a348fe9d1 ice: Remove boolean vlan_promisc flag from function
+2ad12233038a35292ff0283fc1a29b8f08ed1ab9 ice: Fix replacing VF hardware MAC to existing MAC filter
+0456d9f1b9ba5e98c85c4862b61c96ea2e66bad3 virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+45db687d241a85d47d2e2d20e0380906e881ff29 virtchnl: Use the BIT() macro for capability/offload flags
+8169cb7e29602cf72801ad7d78620c324ee7f622 igc: Fix user-after-free error during reset
+abd5a4f34ede3de9802cd521fa9b8f661c4d2f16 i40e: Fix failed opcode appearing if handling messages from VF
+a9ad9adc199171a6066f7c165a72ddf2a50e1963 i40e: Fix firmware LLDP agent related warning
+4730b15efb33a8b4897ea3c6bab2d39a65350637 ixgbe: Fix packet corruption due to missing DMA sync
+89c7d4f4ac5b9d214c7f2b66bc5b2160455b7c0b i40e: Add additional info to PHY type error
+733e614b35f632f95163cbee7cbba85f359c1cc3 iavf: check for null in iavf_fix_features
+1c887b3480e7ac64547109c1364ba3e8804726a4 iavf: free q_vectors before queues in iavf_disable_vf
+917d6d59c8aec62616cb1ba22adc11e6e488a960 iavf: don't clear a lock we don't hold
+85ef0f1662659dbe4f256eb5b0dd4a706cb653d5 iavf: Fix failure to exit out from last all-multicast mode
+b4e7087751dfa634ea285d4cfb394b7bf914b515 iavf: prevent accidental free of filter structure
+148bb7141ba65a851b519d34bd20d06755671201 iavf: validate pointers
+9fdb5935583c0a34628ee8571a934f8ba55f71e1 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+0499b6faee8beadccc00c446d8df351061ea985b iavf: Fix for setting queues to 0
+d2c530358151a83848f237e5e25a3ad54255326b iavf: Restore non MAC filters after link down
+4a8e05ab6b1c3fb691eaaa2e31b4230975ff9055 iavf: restore MSI state on reset
+f26d7eb9bf235d957493d4d89ab37af06d5506da iavf: Add change MTU message
+fdea06204f78f88ab8c22784ae6324ce35932f09 iavf: Prevent changing static ITR values if adaptive moderation is on
+5019eb95b4dfbf8eacdbda9fcbbb35af4530ad90 iavf: Log info when VF is entering and leaving Allmulti mode
+59fd77e9fc9da994b3bd8dd9d62423284b336fb7 iavf: Set RSS LUT and key in reset handle path
+86e2a981cc73a9135e9646bffdcb92da973225bd iavf: return errno code instead of status code
+0383ce03bca5f7ed0beaad87b5c0da261e7af64a iavf: don't be so alarming
+04f91c6ddbfd50a458dab9bf5dc1b01de2e29ec9 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+f2e45bc8570a69040addfa3eb278e9520ae05218 i40e: Refactor arrow operator usage in i40e_update_adq_vsi_queues()
+cf730bf2b4c0af976bf375a833a8f439f70b66fb e1000e: Add support for the next LOM generation
+58660911aad0ed1da1eab3f96d0a218ebd586084 igc: Check if num of q_vectors is smaller than max before array access
+f7573715a428186fa4936ff59f925270365953d0 ice: do not abort devlink info if PBA can't be found
+4c3298d439a9a4f926848d030bf53a5e9bcaf265 e1000e: Add space to the debug print
+5a74b3ce576effedd839a9fca2227c2c239773a6 i40e: Fix log TC creation failure when max num of queues is exceeded
+0e467097365f99c5f715ba4ba1ffa281fabc240d igb: Avoid memcpy() over-reading of ETH_SS_STATS
+92814a45e844c3f029646322cd1d00a8b39a00ab e100: Avoid memcpy() over-reading of ETH_SS_STATS
+cdd8265115c71055557eb8c18f60665924c876ef i40e: Add ensurance of MacVlan resources for every trusted VF
+1149085e0090db572df731599b969d17bd0bc3de i40e: Fix creation of first queue by omitting it if is not power of two
+9abea75b94cb373b36378a028554f274749e0d1c iavf: Add trace while removing device
+249d06911d5ef2715e1f69bb0d9ab6ae851293aa net/e1000e: Fix spelling mistake "The" -> "This"
+763018d50cd20b63f71c642dce472f3fb503a10c e1000e: Add handshake with the CSME to support s0ix
+137aa2efe05c458d85a7c1713f480c2c65f9d022 e1000e: Add polling mechanism to indicate CSME DPG exit
+0caaea4f0c3d2b058165ce1d0531f8164cf48f6f e1000e: Additional PHY power saving in s0ix
+21ca99c63ffc8c792e2810c2874251d614d21472 iavf: Fix ping is lost after untrusted VF had tried to change MAC
+41b8078a7e6f4c4ec175f8d9b001fab82102cdea ice: support basic E-Switch mode control
+0b8aceabd08e64b1edfce9bc84330fdbb319425a ice: Move devlink port to PF/VF struct
+f1c217cae109dc39dec35a24f258163214665674 ice: introduce VF port representor
+96512b5158aeccd157869d8957aff25a07523e4d ice: allow process VF opcodes in different ways
+d5e8ee62b37c9b57e24032d6533412758ba3ac92 ice: manage VSI antispoof and destination override
+07c7473a0e7f666edbf528c85c7fb10e0f10fcd6 ice: allow changing lan_en and lb_en on dflt rules
+32317006a2dda520697a89a2b30a76593ab3e5d9 ice: set and release switchdev environment
+7df1fa4171bd4024ad9f3a03058c9ce623a633da ice: introduce new type of VSI for switchdev
+c62350affc4c0704c03c25b8ffd09f7fc57af777 ice: enable/disable switchdev when managing VFs
+11164c109f18fbc3af78e4cb07bcc50d3e1229f7 ice: rebuild switchdev when resetting all VFs
+4f8fca243d52bca56c73129e86c4c85622cc5964 ice: switchdev slow path
+1a17c67e985984572a174570bdac6f40cd3cc294 ice: add port representor ethtool ops and stats
+dac1180fbdc59ff07bac4ec1aae672a375792071 ice: Fix failure to re-add LAN/RDMA Tx queues
+aaad8d6ab0a23aca7cf4fe11176c58a67e42cd41 igc: Add possibility to add flex filter
+fdbfc9a142dcb831d7e906de3a01e921c2dfa320 igc: Integrate flex filter into ethtool ops
+00e54f7f6af985ffcd161b556994ce5140d9d0e4 igc: Allow for Flex Filters to be installed
+9ba40914ace10be4cb7584c1af9394cca19cecbb igc: Make flex filter more flexible
+857322f05a296c0f007c4cf594e9c41a4563b654 igc: Export LEDs
+ef982dd108f9fb49be728ee7dfcb44987c797ce0 ixgbevf: Rename MSGTYPE to SUCCESS and FAILURE
+c13737a3d58cd46c88c7b0a7d3634b9411337314 ixgbevf: Improve error handling in mailbox
+760fdcefde271f470bdb7c15065fccd131d8c6ef ixgbevf: Add legacy suffix to old API mailbox functions
+7649e98c208e5a0f2c9726a42472c680b919646f ixgbevf: Mailbox improvements
+f1b2bbc380b22d3b727fefd8300d790cf399b7c5 ixgbevf: Add support for new mailbox communication between PF and VF
+dc7683b7f1fd338bc12d0dd7b620f00fa629e3e6 ice: Fix perout start time rounding
+e00bdff37826dd794f7dac20bcbd49d8b3e063f3 e1000e: Fix the max snoop/no-snoop latency for 10M
+88ef30a715df4b71049e787eb663696834ae9ea5 igc: Remove _I_PHY_ID checking
+d419bc39dd5ad912955241a5fbeafd9cc7128bfc igbvf: Refactor trace
+e8f056fe58e793f218010676d10b996f2aedd6c3 ice: unify xdp_rings accesses
+b67e15cff8813fdcef4af97a9cb98c129513429e ice: optimize XDP_TX descriptor processing
+d5cff4732eb96a7a84104b87c500187b6bb930f6 ice: do not create xdp_frame on XDP_TX
+c010730c3ffbfea1ea0b252431913683463e6fd7 ice: introduce XDP_TX fallback path
+4586009fa30b2b35092bebba7b5a7fd67ebd24a0 ice: fix Tx queue iteration for Tx timestamp enablement
+d5a42c51f907f804e3572d0935afcf873f3e9d69 ice: remove dead code for allocating pin_config
+a91b9542afce33eb0a51c385a7f69d9c7def4b47 ice: add lock around Tx timestamp tracker flush
+d38913ecd17bd5fbd66ddf2cf43136783f959e58 ice: restart periodic outputs around time changes
+5d452da2b8fa4757069115d33e8e8749155dc8c0 ice: introduce ice_base_incval function
+e02bdb4abfdf3133a5585ae49c86ce025800048d ice: PTP: move setting of tstamp_config
+3040fb371821a15b740e41f2942bc858b04e7713 ice: use 'int err' instead of 'int status'
+9db1a13f99331508d40e388fcc5eed33bd962e2d ice: introduce ice_ptp_init_phc function
+11833cfba3ae558cccdcef08d09f6c0e73331d09 ice: convert clk_freq capability into time_ref
+cec3d2fab04e9a347e915aada73f7662b45a63b0 ice: implement basic E822 PTP support
+512c314d040a3f0deafd6260c037acd99a5a104e ice: ensure the hardware Clock Generation Unit is configured
+b84f17b38351b42f1bb9c755ba09812788bcaab7 ice: exit bypass mode once hardware finishes timestamp calibration
+74c816003d9e93842382d1e0fac3b61fdd5804ee ice: support crosstimestamping on E822 devices if supported
+c6aaa548ed866b18578ae04ba68a77727cee167e ice: fix build issue if CONFIG_1588_PTP_CLOCk=m
+63ddbd8214bb6401aa2fca7f6601f1227a0c252d igc: Set QBVCYCLET_S to 0 for TSN Basic Scheduling
+0d6d2e0cbe98742e226ebb8eb503951b024dbb7e igc: Increase timeout value for Speed 100/1000/2500
+e97a4c7b501f9242287c8577ebe8b37ea9f3851d igc: Remove phy->type checking
+9a7fa0fcb883b75189d834bf4e2aeddc358227f4 ice: rearm other interrupt cause register after enabling VFs
 
---===============0276194192725677242==--
+--===============1799597680263483622==--
