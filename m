@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 15 Jul 2021 15:54:31 -0000
-Message-Id: <162636447167.21235.14628465936455170782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 15 Jul 2021 15:55:46 -0000
+Message-Id: <162636454642.23090.13335445876308021587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: aaedde68bfb2d15c3a444df496ba26ac0956445c
-    new: ae5c7cdd710dfa97705d965dcf001a96504e5f31
+  - ref: refs/heads/stm32-next
+    old: e505fdce70816efed994b8c21a6201c49af3c093
+    new: 1631761dc7fb3752f5801c5766ee435f96b86158
     log: |
-         0d71aa983a4dce75a088b3a4831d5b217df066fb dedupe: allow to generate dedupe buffers from working set
-         ae5c7cdd710dfa97705d965dcf001a96504e5f31 Merge branch 'dedupe_workset' of https://github.com/bardavid/fio
+         1631761dc7fb3752f5801c5766ee435f96b86158 ARM: dts: stm32: Prefer HW RTC on DHCOM SoM
          
