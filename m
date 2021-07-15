@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 15 Jul 2021 06:45:44 -0000
-Message-Id: <162633154454.21486.3813024653426975726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Thu, 15 Jul 2021 07:03:15 -0000
+Message-Id: <162633259559.503.3530590745223456626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/for-next
-    old: 27757876d1738a2dd528986c8143192f84eaa58a
-    new: 03a2eac62ba977fb13804acffa86c1f7041f68a4
+  - ref: refs/heads/iommu/fixes
+    old: c987b65a574fad8b598d6f58f010d8f630327428
+    new: 4a5c155a5ab372516a1a5ddd29473f8f696feb79
     log: |
-         1c79a2ef4e23cbac7dc8ce01b1feafd9a5f96101 ALSA: compress: Drop unused functions
-         03a2eac62ba977fb13804acffa86c1f7041f68a4 ALSA: compress: Initialize mutex in snd_compress_new()
+         4a5c155a5ab372516a1a5ddd29473f8f696feb79 MAINTAINERS: Add Suravee Suthikulpanit as Reviewer for AMD IOMMU (AMD-Vi)
          
-  - ref: refs/heads/master
-    old: f6f4f0976b839e2b1699ead35affc36d7ebb1a2a
-    new: afa7162989054b3eccf41711d6c3b89e5ba3043b
+  - ref: refs/heads/next
+    old: c987b65a574fad8b598d6f58f010d8f630327428
+    new: 4a5c155a5ab372516a1a5ddd29473f8f696feb79
     log: |
-         1c79a2ef4e23cbac7dc8ce01b1feafd9a5f96101 ALSA: compress: Drop unused functions
-         03a2eac62ba977fb13804acffa86c1f7041f68a4 ALSA: compress: Initialize mutex in snd_compress_new()
-         afa7162989054b3eccf41711d6c3b89e5ba3043b Merge branch 'for-next'
+         4a5c155a5ab372516a1a5ddd29473f8f696feb79 MAINTAINERS: Add Suravee Suthikulpanit as Reviewer for AMD IOMMU (AMD-Vi)
          
