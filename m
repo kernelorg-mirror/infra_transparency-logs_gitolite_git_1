@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5702255388460822227=="
+Content-Type: multipart/mixed; boundary="===============1752509666011273876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 15 Jul 2021 19:42:55 -0000
-Message-Id: <162637817587.17259.8357808772622859357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 15 Jul 2021 19:43:03 -0000
+Message-Id: <162637818303.17386.11670881600969358521@gitolite.kernel.org>
 
---===============5702255388460822227==
+--===============1752509666011273876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/regulator-5.15
     old: 442a9d105e61591b36b653ba1ee0c02b0482b639
     new: 541ee8f640327f951e7039278057827322231ab0
     log: |
@@ -24,28 +24,28 @@ changes:
          541ee8f640327f951e7039278057827322231ab0 regulator: da9063: Add support for full-current mode.
          
 
---===============5702255388460822227==
+--===============1752509666011273876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626378139 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1626378173-2ea9b4de7a370ee8b2b59055a16f0df6c9c6d0a1
+pusher C3F436CA30F5D8EB 1626378145 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1626378180-7c703521b592008129f70a85f3973b2089e43099
 
-442a9d105e61591b36b653ba1ee0c02b0482b639 541ee8f640327f951e7039278057827322231ab0 refs/heads/for-5.15
+442a9d105e61591b36b653ba1ee0c02b0482b639 541ee8f640327f951e7039278057827322231ab0 refs/heads/regulator-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDwj5sACgkQJNaLcl1U
-h9AiSwf+JXzD0iKtXF4klJ7frsHxgdH4W90gJhSjiaTbZ6J/+94qmToJlkPkKOC6
-qwLO2Z8Zi8jVyPjoCzP7TPYeHhITmHhm7NMmxc8Y61wMgtDmNJOLY4hMPI23iZIU
-9TjFibk/8qTzWCCdDrJq8rPnRvhVU+Xx+CBhZkyy9YVNaYRjE9P+SPFCI6MZdoP3
-vkVUY5AL/jOJMPur3nzpTH4YRBLxa6+qPIlRIdPCDu45kMlBsucKEzN/YJkg9mpN
-7cxTG3V2DNlbELmLQKU4ZS1fgn5nPzOA47H7lDY8ACVppTkKUmjxKq/XrhkdYM9d
-I8UjNDjHzGbU5d6zaorvZQBZIDaUtg==
-=Cv0y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDwj6EACgkQJNaLcl1U
+h9DgEgf+IRdojVjGPV07QUjWMwQdZ3SVFmp+yhWkrySrgMhR9DkdgSJ3t6a/SA7a
+3YlOL0t9UKXL0sMbBGz2tjluLj+Qwxy2P/yRHFGRkEhpfyF2F/q4cZY6ki4uuKQ8
+xzUJBO2S4zB9lvSvisN+y2BunBWf1FgM82mqoVc8DI0l1hSrQdlCWPBZfd3XR+CN
+FdlRVSmauFW+K21ZfPgE4JBIrBLitLCc8HVsMaXbTDQUcloNhqh1UJzzukH1KOPb
+rw/n7YAGcUZaqKrC+QxEjuP7ABfnlMKWEFmdcs+ssJxwWHpZpFoVYSR9VNamzpQu
+O5Wpg9YyWZA2bqb/kAj2DwY10Zr51Q==
+=Qaau
 -----END PGP SIGNATURE-----
 
---===============5702255388460822227==--
+--===============1752509666011273876==--
