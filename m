@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0381223638959417926=="
+Content-Type: multipart/mixed; boundary="===============6632232272763705953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Thu, 15 Jul 2021 14:10:54 -0000
-Message-Id: <162635825489.14154.13456240480742682446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Thu, 15 Jul 2021 14:11:07 -0000
+Message-Id: <162635826746.14264.8615005950596905697@gitolite.kernel.org>
 
---===============0381223638959417926==
+--===============6632232272763705953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 0320ed0a82364b3b175ab83ad11c7e4d9ad828a9
+    old: 76a2b9a8ab441e4505cebe658feb0c27ba209d44
     new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-0320ed0a8236-e73f0f0ee754.txt
+    log: revlist-76a2b9a8ab44-e73f0f0ee754.txt
 
---===============0381223638959417926==
+--===============6632232272763705953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0320ed0a8236-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-76a2b9a8ab44-e73f0f0ee754.txt
 
 c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
 8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 
---===============0381223638959417926==--
+--===============6632232272763705953==--
