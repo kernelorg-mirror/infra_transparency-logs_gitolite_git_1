@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============0800589175933372949=="
+Content-Type: multipart/mixed; boundary="===============3423242583556267272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Thu, 15 Jul 2021 10:34:07 -0000
-Message-Id: <162634524734.25304.17852220508039458651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 15 Jul 2021 10:34:20 -0000
+Message-Id: <162634526052.25507.7857599673906796616@gitolite.kernel.org>
 
---===============0800589175933372949==
+--===============3423242583556267272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/timers/urgent
-    old: f8f908c9d2b2f1e100cd549206c95a4e65e5f023
-    new: aebacb7f6ca1926918734faae14d1f0b6fae5cb7
-    log: revlist-f8f908c9d2b2-aebacb7f6ca1.txt
+  - ref: refs/heads/stm32-next
+    old: 4bf4abe19089245b7b12f35e5cafb5477b3e2c48
+    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    log: revlist-4bf4abe19089-e73f0f0ee754.txt
 
---===============0800589175933372949==
+--===============3423242583556267272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8f908c9d2b2-aebacb7f6ca1.txt
+Content-Disposition: attachment; filename=revlist-4bf4abe19089-e73f0f0ee754.txt
 
+c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
+8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
 23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
@@ -1048,7 +1050,5 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-1a3402d93c73bf6bb4df6d7c2aac35abfc3c50e2 posix-cpu-timers: Fix rearm racing against process tick
-aebacb7f6ca1926918734faae14d1f0b6fae5cb7 timers: Fix get_next_timer_interrupt() with no timers pending
 
---===============0800589175933372949==--
+--===============3423242583556267272==--
