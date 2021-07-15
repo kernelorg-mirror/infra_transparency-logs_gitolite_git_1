@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 15 Jul 2021 15:14:18 -0000
-Message-Id: <162636205809.25806.129764930342894989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 15 Jul 2021 15:15:10 -0000
+Message-Id: <162636211044.27636.9192418609777453285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/kvm-arm64/pmu/reset-values
-    old: 230e1f3a73f78af7efc143de5253423a35e436a3
-    new: 193527ded1bed162df12c5757cde10badf7e824c
+  - ref: refs/heads/stm32-next
+    old: a9877360b05f7f8369e0501525e9c73900a60f73
+    new: fc5045ea6bdfd5be4522d8e2bee6ba8edc6b7201
     log: |
-         f1c0604e51e54c3ba38fc0d92f9eb059cea5556e KVM: arm64: Narrow PMU sysreg reset values to architectural requirements
-         30bd308c6250ef9ba96fbe8e51ee48d489037329 KVM: arm64: Drop unnecessary masking of PMU registers
-         126c2f0bf1c2f8b38418424215dca82a583138c8 KVM: arm64: Disabling disabled PMU counters wastes a lot of time
-         193527ded1bed162df12c5757cde10badf7e824c KVM: arm64: Remove PMSWINC_EL0 shadow register
+         49b3d89ab4214b59931dda65a2dae8e237bf90b9 ARM: dts: stm32: Add coprocessor detach mbox on stm32mp157c-ed1 board
+         fc5045ea6bdfd5be4522d8e2bee6ba8edc6b7201 ARM: dts: stm32: Add coprocessor detach mbox on stm32mp15x-dkx boards
          
