@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2785563916170291497=="
+Content-Type: multipart/mixed; boundary="===============6227942099685057453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 16 Jul 2021 18:19:12 -0000
-Message-Id: <162645955202.6822.4872912332442240315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 16 Jul 2021 18:19:18 -0000
+Message-Id: <162645955878.6928.16598421867378572870@gitolite.kernel.org>
 
---===============2785563916170291497==
+--===============6227942099685057453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
-    old: 0e85ee897858b1c7a5de53f496d016899d9639c5
+  - ref: refs/heads/spi-5.14
+    old: 55cef88bbf12f3bfbe5c2379a8868a034707e755
     new: 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5
     log: |
+         0ccfd1ba84a4503b509250941af149e9ebd605ca spi: spi-cadence-quadspi: Revert "Fix division by zero warning"
+         0e85ee897858b1c7a5de53f496d016899d9639c5 spi: spi-cadence-quadspi: Fix division by zero warning
          9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 spi: cadence-quadspi: Disable Auto-HW polling
          
 
---===============2785563916170291497==
+--===============6227942099685057453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626459550 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1626459549-9de52b175c8492c1d0c375e7584bdce355a389b6
+pusher C3F436CA30F5D8EB 1626459556 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1626459556-3d1e5d0cb19bdea3a87744b89efec311fd3074a4
 
-0e85ee897858b1c7a5de53f496d016899d9639c5 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 refs/heads/for-5.14
+55cef88bbf12f3bfbe5c2379a8868a034707e755 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 refs/heads/spi-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDxzZ4ACgkQJNaLcl1U
-h9AHFAf/XwkFLiiMW1qo0l5gI0Vi7GDYqWZzJqJkMf7qZO5froRdZXoqHbsq1qiG
-zTyhnq3mp6s2rIVtE4LloLoamxIbmEsrXz22zM6iuES0GwY2PRlUwWuK/gtIBQ95
-VzGPS68K0Y1nhdyAgkRY+z7uyXAvt4LmujBc754VnaoC+othiOQ8DX51/L184c1h
-fT772zxDv+yGvi3IB8lU6ELGZgB7RgspcLgYC2BqfAV8JyUo4d3M6z1aKwsdaEUa
-pLH1gi2dvlj5x9vRN82KYrR0F9hcAi+O9bnogaw8PTGFNdHl8iWIkDsDuvUvN4Md
-8VtgR7G3uoBcERjyGvt7S/SEI0CpDQ==
-=TIAd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDxzaQACgkQJNaLcl1U
+h9DGqAf9H05XJLaAW12pIEyZLj8AXhV93bvNqOhtXbqkN5pKHUIp9fI9lp/tZJZk
+BAYBi8RnRSFH+ohxhwqGp8wTNgJKC9M4+U2F8tIqhAyy3pO2h6XtwbcS9/hSKqZB
+N4jEwyQAkZoRuj5nrLA+sdGejxtRh4Y/ZhtPVWrV1YcyhIz3busnI+bATJOiM3m6
+EfSSoUGAiaMgbE7SuGuBv+zl0/xAEmM6zHjgv0fsN1YvPd0OdUURMDgQ4+cBAgmM
+0jQpIFYrDX0qRyFqsbCXXVKLIxm+KAzbSdgcuOL7YrO9BKrcPaP8KRn8OKkAimyb
+1ZUqOEkYdVokNkuncSIZuUzu+Hqmxw==
+=bTFH
 -----END PGP SIGNATURE-----
 
---===============2785563916170291497==--
+--===============6227942099685057453==--
