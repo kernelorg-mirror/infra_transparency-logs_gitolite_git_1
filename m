@@ -1,36 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1393522989855957924=="
+Content-Type: multipart/mixed; boundary="===============6092544350350870196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 16 Jul 2021 16:37:43 -0000
-Message-Id: <162645346301.2919.10361135074976447378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 16 Jul 2021 16:40:26 -0000
+Message-Id: <162645362675.5213.10027661505257913080@gitolite.kernel.org>
 
---===============1393522989855957924==
+--===============6092544350350870196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: b249d97825ff461747421a5009794f395e99a032
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-b249d97825ff-e73f0f0ee754.txt
+  - ref: refs/heads/kvm-arm64/mmu/mapping-levels
+    old: bea2c67a0a587d91201bed15cd54e4700e6218b3
+    new: 6f4ecd7566114d7a9b75291e05134f3f453422d0
+    log: revlist-bea2c67a0a58-6f4ecd756611.txt
 
---===============1393522989855957924==
+--===============6092544350350870196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b249d97825ff-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-bea2c67a0a58-6f4ecd756611.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
 945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
 1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
@@ -1050,5 +1045,10 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+d4ba78ff236e11f45c60dd59aaaf38f7455ab220 KVM: arm64: Walk userspace page tables to compute the THP mapping size
+1cdf6de8187e77cc9ccc4b4ab238087b22a99812 KVM: arm64: Avoid mapping size adjustment on permission fault
+322a5e2ff310eaff971709ed0259656199210904 KVM: Remove kvm_is_transparent_hugepage() and PageTransCompoundMap()
+85bd498d205146523698cb75888529d47c6b108b KVM: arm64: Use get_page() instead of kvm_get_pfn()
+6f4ecd7566114d7a9b75291e05134f3f453422d0 KVM: Get rid of kvm_get_pfn()
 
---===============1393522989855957924==--
+--===============6092544350350870196==--
