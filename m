@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6793254921861372416=="
+Content-Type: multipart/mixed; boundary="===============0597058454987094597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 16 Jul 2021 20:07:04 -0000
-Message-Id: <162646602463.16379.7538305767247740148@gitolite.kernel.org>
+Date: Fri, 16 Jul 2021 20:07:27 -0000
+Message-Id: <162646604784.16645.17720765493229940301@gitolite.kernel.org>
 
---===============6793254921861372416==
+--===============0597058454987094597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 4d9cf7c96ac2fa3995c39a88b0b051e184019742
     new: 9862801669b8c9288439f8dab012d900c16d99da
     log: revlist-4d9cf7c96ac2-9862801669b8.txt
 
---===============6793254921861372416==
+--===============0597058454987094597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e6bd39a378d70b5151767d34c940537538f0e960 headers/deps: Add header dependencies t
 05d6c582e96a8115a08b48631356de77f0c5afbe headers/deps: Add header dependencies to .h files: <linux/rwsem_api.h>
 9862801669b8c9288439f8dab012d900c16d99da headers/deps: locking/rwsems: Optimize <linux/rwsem.h> dependencies, remove <linux/rwsem_api.h> inclusion
 
---===============6793254921861372416==--
+--===============0597058454987094597==--
