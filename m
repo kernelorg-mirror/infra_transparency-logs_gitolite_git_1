@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 16 Jul 2021 14:14:18 -0000
-Message-Id: <162644485840.2217.6341028742468157107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Fri, 16 Jul 2021 14:32:32 -0000
+Message-Id: <162644595289.15567.8773499350030075174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/utils/mdadm/mdadm
+user: jes
 changes:
-  - ref: refs/heads/f2fs-iomap
-    old: 2701388b4c03260adc72e81be2cdc439e818b2a9
-    new: 5c96c6a439f7aad26df8d8c5cbac7620a8c9b99d
+  - ref: refs/heads/master
+    old: 1f5d54a06df01ca3032ca2d29159584cab7d7509
+    new: 5b30a34aa4b5ea7a8202314c1d737ec4a481c127
     log: |
-         551decc773facbdb2ff43d56d3856016d5328582 f2fs: make f2fs_write_failed() take struct inode
-         b563e7731369daf25d38aa924ad5578066feb768 f2fs: remove allow_outplace_dio()
-         64d5d9618ba83196c7b18829ca3fe898d5db2161 f2fs: rework write preallocations
-         99e9b37f63883bce17ef32d625c9ca0efb5d5ed7 f2fs: reduce indentation in f2fs_file_write_iter()
-         f8c0ba600995970793e569f49ae4bf86e3e5a643 f2fs: fix the f2fs_file_write_iter tracepoint
-         9bda4dfb0f098873678de6ca320a6cc0ae9e1d07 f2fs: implement iomap operations
-         8da7e323b21b47aad51fad0ddfa803c25b859670 f2fs: use iomap for direct I/O reads
-         dd7a76deb3719f90c8ba9f59c0b899c37b8796f3 f2fs: use iomap for direct I/O writes
-         5c96c6a439f7aad26df8d8c5cbac7620a8c9b99d f2fs: remove f2fs_direct_IO()
+         f421731c7e1de6608f8fafb551d199ff5f1d6b97 mdadm/super1: It needs to specify int32 for bitmap_offset
+         dca80fcd5d15c37ecbd82763e6fe4aee8c077bf9 Use dev_open in validate geometry container
+         7d8935cbb0fdb2b776b736bffc00323a04e5f788 imsm: correct offset for 4k disks in --examine output
+         8d69bf147ec77447c5d45c17bed7dc017808cc44 Remove Spare drives line from details for external metadata
+         601ffa784f03cea843b9b732e561ffea0b8c036f Don't associate spares with other arrays during RAID Examine
+         ccd61ebfd97fde43768497c79e3d361b484b1520 mdadm: Fix building errors
+         3a85bf0e417d0977136efbade7c7ea269e24bc21 imsm: Fix possible memory leaks and refactor freeing struct dl
+         5b30a34aa4b5ea7a8202314c1d737ec4a481c127 Add error handling for chunk size in RAID1
          
