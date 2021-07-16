@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7528854532972111128=="
+Content-Type: multipart/mixed; boundary="===============7750169755054729725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 16 Jul 2021 07:29:34 -0000
-Message-Id: <162642057486.2527.11950321540980613147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 16 Jul 2021 08:12:24 -0000
+Message-Id: <162642314486.32003.13174069443114493685@gitolite.kernel.org>
 
---===============7528854532972111128==
+--===============7750169755054729725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/for-next
-    old: 4e65a83cd0b9b4848c85eb7c206626cef7f63765
-    new: 053c16ac89050ef0e8ab9dc1edaf157bf104c8c6
-    log: revlist-4e65a83cd0b9-053c16ac8905.txt
+  - ref: refs/heads/master
+    old: 66192b2e3fd8ab97ed518d6c0240e26655a20b4b
+    new: f03a3cab26c1b7f628a3be6d33ae1b483829b630
+    log: revlist-66192b2e3fd8-f03a3cab26c1.txt
 
---===============7528854532972111128==
+--===============7750169755054729725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e65a83cd0b9-053c16ac8905.txt
+Content-Disposition: attachment; filename=revlist-66192b2e3fd8-f03a3cab26c1.txt
 
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
 945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
 1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
 66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
@@ -52,8 +49,12 @@ d2b21013bf5fb177c08b2c9c4dfa32ee0fc97b53 Merge branches 'clk-st', 'clk-si' and '
 19c3eaa72288ce161441dd6b74b765a094d73488 trace/osnoise: Make 'noise' variable s64 in run_osnoise()
 6a82f42a2e55d43bd99f1b457982be6c856c800d trace/timerlat: Fix indentation on timerlat_main()
 2fc6d0ec54b9574c02f83ee64f42b77ac141ce90 Merge branch 'psy-fixes' into psy-next
+62e528b80d6b5753e03f005e4858eefb7a84f877 scsi: mpi3mr: Fix warnings reported by smatch
 5e6928249b81b4d8727ab6a4037a171d15455cb0 Merge tag 'acpi-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+104739aca4488909175e9e31d5cd7d75b82a2046 scsi: core: Retry I/O for Notify (Enable Spinup) Required error
+7df47cdf199c2d014716d1baa252aa6021063443 scsi: ipr: System crashes when seeing type 20 error
 72ad9f9d215397aa0ffacf88c5f7e020b856d47f Merge tag 'pnp-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+5f638e5ac61ef1b9b588efdf688acc0a4cecdca2 scsi: virtio_scsi: Add validation for residual bytes from response
 600d050944e133fde1f54b9113b01ccefbd82820 Merge tag 'nand/for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
 349a2d52ffe59b7a0c5876fa7ee9f3eaf188b830 Merge tag 'devprop-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4465b3a621e761d82d1a92e3fda88c5d33c804b8 power: reset: regulator-poweroff: add missing MODULE_DEVICE_TABLE
@@ -1043,12 +1044,11 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-422969bbb5af2f7226cf75cdb4aae02f46299dc2 scsi: core: Fix the documentation of the scsi_execute() time parameter
-fbf1a58701ecbf61211476277a77eaada6c091d4 scsi: fas216: Fix a build error
-93aa71ad7379900e61c8adff6a710a4c18c7c99b scsi: core: Fix bad pointer dereference when ehandler kthread is invalid
-8b3bdd99c092bbaeaa7d9eecb1a3e5dc9112002b scsi: zfcp: Report port fc_security as unknown early during remote cable pull
-bb6beabf2f79ea063750bf16e78b61e5a50f2d5c scsi: pm8001: Clean up kernel-doc and comments
-aa0dc6a73309f1fc779f4560a60ee766a3891adc scsi: mpi3mr: Fix W=1 compilation warnings
-053c16ac89050ef0e8ab9dc1edaf157bf104c8c6 scsi: ufs: core: Add missing host_lock in ufshcd_vops_setup_xfer_req()
+5261cdf457ce3635bf18d393a3c1991dcfaf9d02 crypto: drbg - select SHA512
+df6313d707e575a679ada3313358289af24454c0 crypto: mxs-dcp - Check for DMA mapping errors
+2e6d793e1bf07fe5e20cfbbdcec9e1af7e5097eb crypto: mxs-dcp - Use sg_mapping_iter to copy data
+cb5f09e8148440d3581403c0415bc9678a64488d crypto: arm/curve25519 - rename 'mod_init' & 'mod_exit' functions to be module-specific
+f0d9ff8c8efb90ae335d41c2fc0d92724af55a63 hwrng: rename 'mod_init' & 'mod_exit' functions to be module-specific
+f03a3cab26c1b7f628a3be6d33ae1b483829b630 crypto: lib - rename 'mod_init' & 'mod_exit' functions to be module-specific
 
---===============7528854532972111128==--
+--===============7750169755054729725==--
