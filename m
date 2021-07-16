@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8345323663537786950=="
+Content-Type: multipart/mixed; boundary="===============2785563916170291497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 16 Jul 2021 18:15:19 -0000
-Message-Id: <162645931943.5185.1007966823309877259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 16 Jul 2021 18:19:12 -0000
+Message-Id: <162645955202.6822.4872912332442240315@gitolite.kernel.org>
 
---===============8345323663537786950==
+--===============2785563916170291497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 054110e28bca601c1f169f89bfbc5b3d782157b0
-    new: dec54c2c2fe20c3606ae151e26d19706a69e0665
+  - ref: refs/heads/for-5.14
+    old: 0e85ee897858b1c7a5de53f496d016899d9639c5
+    new: 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5
     log: |
-         dec54c2c2fe20c3606ae151e26d19706a69e0665 drop queue-5.10/mm-page_alloc-fix-memory-map-initialization-for-descending-nodes.patch
+         9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 spi: cadence-quadspi: Disable Auto-HW polling
          
 
---===============8345323663537786950==
+--===============2785563916170291497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626459318 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1626459317-75c7f2c6af537adf66516e65f63a307384d22e51
+pusher C3F436CA30F5D8EB 1626459550 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1626459549-9de52b175c8492c1d0c375e7584bdce355a389b6
 
-054110e28bca601c1f169f89bfbc5b3d782157b0 dec54c2c2fe20c3606ae151e26d19706a69e0665 refs/heads/master
+0e85ee897858b1c7a5de53f496d016899d9639c5 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmDxzLYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3sUP/1Sf0sM2Ke/Du0vfO1gg
-hE2P8y9reL1B5uZmo+A/j6RXVDr5wNffsdwgHlD5IfSzMKJIsskJjn7CSulUvp3A
-OY86HAxr3q4phekBdYKpTWgrpeG6mMdAcNUrGVQFzCPsr8Sw5SE4YmGHIyY5A5HQ
-lIVeR4i3gKZ0CSqJCJzGzy/o51snisq+b5jkUIIVPTFFHNWHaqF7W39h9bxQ2stX
-3vO/oePTDLgqgEraQOaKh0RLRZ8hjUOW3fM0BMMv0umBkIkgfBKGcNhZNfnJWvEh
-fWpCye25YwzHH7K8hx+JSTjOLdxns1vbOicchuIEzDmSUZ6CN9AEbWaOVG6ELdmQ
-SEMAZlz3+m750Sl+QtWdOf6iop2ZI32QlBA7F64mVXDEohZ2t+cIMGZDtNX4VJZE
-ovPzLVyH9vJxXGz83vVYofUCNpRkP/RdKjOEKhuHiP2KX1hVpCqoZpe6DeZpFJAk
-uYT1kS8bE0qhvoBOWBPRiFPcH/wKICcmBAar8f2kDR/lZoLZVlVVI90jV9Q4zuns
-Uf1c8QVWyHxX/KbZf9yaJFicY7XvTqgfvGdzeTwsKIw7M3yjBSNLEs1AhNRJ99fG
-yvtDc5NJ2qbR68VMrT9hsgrAyVlHvfZ0jdeXtZkXoxpy9aASFgIlStuLh7tP4hLI
-PndIGGDyp8YJTeSbQG4cDjM0
-=/x8B
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDxzZ4ACgkQJNaLcl1U
+h9AHFAf/XwkFLiiMW1qo0l5gI0Vi7GDYqWZzJqJkMf7qZO5froRdZXoqHbsq1qiG
+zTyhnq3mp6s2rIVtE4LloLoamxIbmEsrXz22zM6iuES0GwY2PRlUwWuK/gtIBQ95
+VzGPS68K0Y1nhdyAgkRY+z7uyXAvt4LmujBc754VnaoC+othiOQ8DX51/L184c1h
+fT772zxDv+yGvi3IB8lU6ELGZgB7RgspcLgYC2BqfAV8JyUo4d3M6z1aKwsdaEUa
+pLH1gi2dvlj5x9vRN82KYrR0F9hcAi+O9bnogaw8PTGFNdHl8iWIkDsDuvUvN4Md
+8VtgR7G3uoBcERjyGvt7S/SEI0CpDQ==
+=TIAd
 -----END PGP SIGNATURE-----
 
---===============8345323663537786950==--
+--===============2785563916170291497==--
