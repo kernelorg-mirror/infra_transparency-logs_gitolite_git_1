@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Jul 2021 17:55:02 -0000
-Message-Id: <162645810242.23208.9093452690779253242@gitolite.kernel.org>
+Date: Fri, 16 Jul 2021 17:57:03 -0000
+Message-Id: <162645822388.25050.14155658175695118568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: f79a3bcb1a50d919147b9f22855d355ed8e03031
-    new: a99f030b2488b67a49f44e94f852f2ed9933d552
+    old: a99f030b2488b67a49f44e94f852f2ed9933d552
+    new: 919d527956daa3e7ad03a23ba661beb8a46cacf4
     log: |
-         a99f030b2488b67a49f44e94f852f2ed9933d552 net: switchdev: Simplify 'mlxsw_sp_mc_write_mdb_entry()'
+         919d527956daa3e7ad03a23ba661beb8a46cacf4 bnx2x: remove unused variable 'cur_data_offset'
          
