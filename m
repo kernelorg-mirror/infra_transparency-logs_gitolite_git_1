@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6205735632488825877=="
+Content-Type: multipart/mixed; boundary="===============3543490959619719393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Fri, 16 Jul 2021 06:46:33 -0000
-Message-Id: <162641799319.6513.6129032971588939600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 16 Jul 2021 07:27:46 -0000
+Message-Id: <162642046688.1552.6847221320236290294@gitolite.kernel.org>
 
---===============6205735632488825877==
+--===============3543490959619719393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-next
-    old: cd946cfe2e7e86de5617a87a96619e7a90a300d4
-    new: 47dbd494d67ad4f54fd8b4fbf88ae06d7c31eec9
-    log: revlist-cd946cfe2e7e-47dbd494d67a.txt
+  - ref: refs/heads/fixes-base
+    old: 1e0d4e6225996f05271de1ebcb1a7c9381af0b27
+    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    log: revlist-1e0d4e622599-e73f0f0ee754.txt
 
---===============6205735632488825877==
+--===============3543490959619719393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd946cfe2e7e-47dbd494d67a.txt
+Content-Disposition: attachment; filename=revlist-1e0d4e622599-e73f0f0ee754.txt
 
+c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
+8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
+23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
@@ -1047,8 +1050,5 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-3d5e36b84467fe0597245dfe08f5dc4fbe3d948d ARM: dts: aspeed-g6: Fix HVI3C function-group in pinctrl dtsi
-6e184e1ec42f5110d611b183014323585ad422ee ARM: dts: aspeed: Add Inspur NF5280M6 BMC machine
-47dbd494d67ad4f54fd8b4fbf88ae06d7c31eec9 ARM: dts: everest: Add phase corrections for eMMC
 
---===============6205735632488825877==--
+--===============3543490959619719393==--
