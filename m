@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2389555643323656020=="
+Content-Type: multipart/mixed; boundary="===============7067599779212652877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 16 Jul 2021 14:54:41 -0000
-Message-Id: <162644728124.30190.7921142839287959891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 16 Jul 2021 14:54:48 -0000
+Message-Id: <162644728883.30306.9843328603556886915@gitolite.kernel.org>
 
---===============2389555643323656020==
+--===============7067599779212652877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 9431f8df233f808baa5fcc62b520cc6503fdf022
     new: 6a503e1c455316fd0bfd8188c0a62cce7c5525ca
     log: |
@@ -26,36 +26,36 @@ changes:
          7883490cba002121a5870e786a1dc0acce5e1caf ASoC: amd: reverse stop sequence for stoneyridge platform
          6a503e1c455316fd0bfd8188c0a62cce7c5525ca ASoC: rt5682: Fix the issue of garbled recording after powerd_dbus_suspend
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 622d9ac3d969d0f62bbe68f4844bb5b8adea5a40
     new: d9dbe1f9ae4b3463093fcf027d79f20bb9a337c8
     log: |
          d9dbe1f9ae4b3463093fcf027d79f20bb9a337c8 ASoC: codecs: wcd938x: remove unused port-map reference
          
 
---===============2389555643323656020==
+--===============7067599779212652877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626447244 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1626447278-f39175a1ab2ff7f431c20984077b9e194e9519c3
+pusher C3F436CA30F5D8EB 1626447251 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1626447286-ae17acc5df1784d75007610b91a820ae99edbddd
 
-9431f8df233f808baa5fcc62b520cc6503fdf022 6a503e1c455316fd0bfd8188c0a62cce7c5525ca refs/heads/for-5.14
-622d9ac3d969d0f62bbe68f4844bb5b8adea5a40 d9dbe1f9ae4b3463093fcf027d79f20bb9a337c8 refs/heads/for-5.15
+9431f8df233f808baa5fcc62b520cc6503fdf022 6a503e1c455316fd0bfd8188c0a62cce7c5525ca refs/heads/asoc-5.14
+622d9ac3d969d0f62bbe68f4844bb5b8adea5a40 d9dbe1f9ae4b3463093fcf027d79f20bb9a337c8 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDxnYwACgkQJNaLcl1U
-h9AsHQf+LNeQxRtWYfHK+BAExQvJhcQ8IdMOkHPauuFQe+4xexhxycbwXTmqUcSK
-+MQdlSiU2/nQShdDoIWK/AmywLmFXhyTJgjD85hwa/n55oQFJ5gzVSLRDFtFVy4v
-IlplD4jNKQZ5FOIYJ8t2pVqyus4wZoe19iG/3aA8WmiEoO/yN2CG/URxgiXJ9/PR
-4bYSnKj69KuR/gTyDeTriqD/ASwGCfBOzpHRfLo6xCgPJVNWYI9sSj6RR6eg1uzh
-K7okN+aelHxzFkbEQbN22aRs8NI6tbrvccXaXpVZPIF7C5KEjqWbhHiJnQsE7vh7
-WycVnYxfp6R0Yy51/M0vhQxO040OCQ==
-=JvFN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmDxnZMACgkQJNaLcl1U
+h9DQUQf7BVtZntsTehM6JcVZfjLtxbk7iJ2ZtzJc8RhpdH7b7VY9Huyb0CDu4Y1W
+kYHz36H/3N7UeG0EAdEeE7TFNpel0sqAyOcWYhJxgMP8QgU9D4GAv0mCC8iqC5b8
+Z4yz7ocEYq5L64lRKPtryCeO8GAJIWYi6d26irAiKRQORtzgyIe4aPPyzUCQ3RnN
+3pKuMNZAVTtVN597KRPIR0H0DWv7Yc0j0zPyrY1lOXm4AQxCVR7ZAkYVTFGOmyvs
+WgODtg1U9yd5MmCPF7B4ScscYf6vYbi0Kpu/ulrRJ3qNgmiLiqEgFDK6TSsfJ1EH
+W/b884OCNlyi0VquarwaMwGwwqW9ig==
+=dkQc
 -----END PGP SIGNATURE-----
 
---===============2389555643323656020==--
+--===============7067599779212652877==--
