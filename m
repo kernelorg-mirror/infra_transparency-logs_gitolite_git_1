@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 16 Jul 2021 14:08:26 -0000
-Message-Id: <162644450667.31042.17313680807922102992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 16 Jul 2021 14:14:18 -0000
+Message-Id: <162644485840.2217.6341028742468157107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 916071185b178b052e0ca8bcdf269161b6848da9
-    new: 21bfee9c0c7754408b1f311bffe304caf3e62250
+  - ref: refs/heads/f2fs-iomap
+    old: 2701388b4c03260adc72e81be2cdc439e818b2a9
+    new: 5c96c6a439f7aad26df8d8c5cbac7620a8c9b99d
     log: |
-         8c1b4316c3faa38cb66bde200a8f2942fa6728b6 RDMA/efa: Split hardware stats to device and port stats
-         0bc0602ae8275aadc7288692331589350987cef7 IB/core: Updating cache for subnet_prefix in config_non_roce_gid_cache()
-         36721a6d4cf2a39f411e3ac04d5771d1ffef9d23 IB/core: Shifting initialization of device->cache_lock
-         21bfee9c0c7754408b1f311bffe304caf3e62250 IB/core: Read subnet_prefix in ib_query_port via cache.
+         551decc773facbdb2ff43d56d3856016d5328582 f2fs: make f2fs_write_failed() take struct inode
+         b563e7731369daf25d38aa924ad5578066feb768 f2fs: remove allow_outplace_dio()
+         64d5d9618ba83196c7b18829ca3fe898d5db2161 f2fs: rework write preallocations
+         99e9b37f63883bce17ef32d625c9ca0efb5d5ed7 f2fs: reduce indentation in f2fs_file_write_iter()
+         f8c0ba600995970793e569f49ae4bf86e3e5a643 f2fs: fix the f2fs_file_write_iter tracepoint
+         9bda4dfb0f098873678de6ca320a6cc0ae9e1d07 f2fs: implement iomap operations
+         8da7e323b21b47aad51fad0ddfa803c25b859670 f2fs: use iomap for direct I/O reads
+         dd7a76deb3719f90c8ba9f59c0b899c37b8796f3 f2fs: use iomap for direct I/O writes
+         5c96c6a439f7aad26df8d8c5cbac7620a8c9b99d f2fs: remove f2fs_direct_IO()
          
