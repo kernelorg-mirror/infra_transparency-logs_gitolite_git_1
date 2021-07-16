@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 16 Jul 2021 19:16:52 -0000
-Message-Id: <162646301296.14800.18384251692643875544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 16 Jul 2021 19:20:08 -0000
+Message-Id: <162646320843.18589.11163910034202650750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/for-next
-    old: d4861fc6be581561d6964700110a4dede54da6a6
-    new: c7603cfa04e7c3a435b31d065f7cbdc829428f6e
+  - ref: refs/heads/at91-defconfig
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 150c6a7901f2c59b1795b6f1eaa42703216e1560
     log: |
-         c7603cfa04e7c3a435b31d065f7cbdc829428f6e bpf: Add ambient BPF runtime context stored in current
+         6344032d14d760789cdefeeee11f8a285067da08 ARM: configs: at91: add defconfig for sama7 family of SoCs
+         150c6a7901f2c59b1795b6f1eaa42703216e1560 ARM: multi_v7_defconfig: add sama7g5 SoC
          
