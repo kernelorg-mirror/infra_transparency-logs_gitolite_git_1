@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0014266820265117430=="
+Content-Type: multipart/mixed; boundary="===============3147864578731711497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 16 Jul 2021 01:29:25 -0000
-Message-Id: <162639896582.23926.13088255302025525205@gitolite.kernel.org>
+Date: Fri, 16 Jul 2021 01:29:32 -0000
+Message-Id: <162639897264.24063.772804542299269395@gitolite.kernel.org>
 
---===============0014266820265117430==
+--===============3147864578731711497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 1554a080e76554fa71004bba5b93c4695932a4d7
     new: c50524ec4e3ad97d7d963268abd859c6413fbeb4
     log: revlist-1554a080e765-c50524ec4e3a.txt
 
---===============0014266820265117430==
+--===============3147864578731711497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d950625c81e115e275458b4074f493bf4d1f15de selftests/bpf: Factor out udp_socketpai
 a2ffda38dc01cb3963c78bd34e1ec7226af55028 selftests/bpf: Add test cases for redirection between udp and unix
 c50524ec4e3ad97d7d963268abd859c6413fbeb4 Merge branch 'sockmap: add sockmap support for unix datagram socket'
 
---===============0014266820265117430==--
+--===============3147864578731711497==--
