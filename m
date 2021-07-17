@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 17 Jul 2021 12:54:40 -0000
-Message-Id: <162652648086.20845.1046953832705700625@gitolite.kernel.org>
+Date: Sat, 17 Jul 2021 12:57:00 -0000
+Message-Id: <162652662018.23077.10282824189105307877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental-tests
-    old: 110ee0e38ce512719ed46a1b19cbeaa5600f5c20
-    new: 2818460df24165447e557bb3959bdd6b19cecd72
+    old: 2818460df24165447e557bb3959bdd6b19cecd72
+    new: af7de830f86c2f24a510857e413ea7992e699832
     log: |
-         2818460df24165447e557bb3959bdd6b19cecd72 erofs-utils: tests: check uncompressed image with random dirs
+         af7de830f86c2f24a510857e413ea7992e699832 erofs-utils: tests: check uncompressed image with random dirs
          
