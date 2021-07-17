@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/stalld/stalld
-Date: Sat, 17 Jul 2021 14:22:49 -0000
-Message-Id: <162653176915.18665.9306341469583358401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Sat, 17 Jul 2021 15:30:49 -0000
+Message-Id: <162653584948.31145.4824644415585921934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/stalld/stalld
-user: bristot
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/tags/v1.14.0
-    old: 0000000000000000000000000000000000000000
-    new: e8ff19a1d095459f3d13e12af507d30ae0ab6380
+  - ref: refs/heads/review-hans
+    old: 7f5231b114da76bfd5d0fc685d5cf408d1bbfca7
+    new: f7e506ec4a9966be8b2a87d3324302f0f5dd5a29
+    log: |
+         e62fb1e3faae60f483a96c359c8d72bb04a7b728 platform/x86: think-lmi: Move pending_reboot_attr to the attributes sysfs dir
+         30e78435d3bf803cabdc2a1c2eb36e6983aa4596 platform/x86: think-lmi: Split kobject_init() and kobject_add() calls
+         f7e506ec4a9966be8b2a87d3324302f0f5dd5a29 platform/x86: think-lmi: Fix possible mem-leaks on tlmi_analyze() error-exit
+         
