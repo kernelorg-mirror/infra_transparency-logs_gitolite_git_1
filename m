@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 17 Jul 2021 20:03:24 -0000
-Message-Id: <162655220481.14186.14827901497428905247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 17 Jul 2021 20:03:52 -0000
+Message-Id: <162655223297.14390.6855088767457070750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: ab0441b4a92053228f1f089f66d2fc100f3f9dd3
-    new: 23d2b94043ca8835bd1e67749020e839f396a1c2
+    old: a2f5c5514272953755dfa08733ab78cf9f58fddc
+    new: 48ac4d066a8c71a33908ac446b233dbcb0e76e08
     log: |
-         23d2b94043ca8835bd1e67749020e839f396a1c2 igmp: Add ip_mc_list lock in ip_check_mc_rcu
+         48ac4d066a8c71a33908ac446b233dbcb0e76e08 Sat 17 Jul 2021 08:02:22 PM UTC
          
