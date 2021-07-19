@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0796963118843906658=="
+Content-Type: multipart/mixed; boundary="===============6876648029790517415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 19 Jul 2021 22:45:32 -0000
-Message-Id: <162673473256.17766.18019413434949101006@gitolite.kernel.org>
+Date: Mon, 19 Jul 2021 22:45:42 -0000
+Message-Id: <162673474250.17898.10302248682550973966@gitolite.kernel.org>
 
---===============0796963118843906658==
+--===============6876648029790517415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 9862801669b8c9288439f8dab012d900c16d99da
     new: 814fdb452d48598e4893abad9749a651b3ad3005
     log: revlist-9862801669b8-814fdb452d48.txt
 
---===============0796963118843906658==
+--===============6876648029790517415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f14fa9dcd5b321c4276b431d17dfbe316fe9e729 headers/deps: fs: Optimize <linux/fs.h>
 510a56a2e171a360d2107d18fd696f07cec28c72 headers/deps: fs/seq_file: Move seq_escape_str() next to its only user
 814fdb452d48598e4893abad9749a651b3ad3005 headers/deps: fs: Optimize <linux/seq_file.h> dependencies
 
---===============0796963118843906658==--
+--===============6876648029790517415==--
