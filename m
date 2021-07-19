@@ -1,29 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 19 Jul 2021 17:18:23 -0000
-Message-Id: <162671510304.24954.332732915514360890@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1255917812974608759=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
+Date: Mon, 19 Jul 2021 17:20:54 -0000
+Message-Id: <162671525449.28629.99837632590367989@gitolite.kernel.org>
+
+--===============1255917812974608759==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/utils/grokmirror/grokmirror
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 5f7de43f70bb78d0cd5dca6703d1b3f999aacb8e
-    new: 83a19f5184f0cbd806303dd02b136d2ceeb34777
+  - ref: refs/heads/master
+    old: 7d765c1d91f5ebc7a64ec187ac21bd784c96b983
+    new: 6be3a63687dfd18a19a0e03e3249ce2314d81cb9
     log: |
-         83a19f5184f0cbd806303dd02b136d2ceeb34777 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+         6be3a63687dfd18a19a0e03e3249ce2314d81cb9 Initial grok-pi-indexer implementation
          
-  - ref: refs/heads/for-next
-    old: b0183ddcbe201ab27f07b4419eaad528f9bdbe79
-    new: 9ca49e85e5f30bebea542f73712f57dc24208898
-    log: |
-         34d34a56a5ea1e54a5af4f34c6ac9df724129351 spi: fsi: Reduce max transfer size to 8 bytes
-         2b2d4dfca4e7cb6de70985b1579a6c08c027b8c9 dt-bindings: fsi: Remove ibm,fsi2spi-restricted compatible
-         cfb4dac1296472a75ec8ae813c9ab8764bbb0ca2 Merge series "spi: fsi: Reduce max transfer size to 8 bytes" from Eddie James <eajames@linux.ibm.com>:
-         83a19f5184f0cbd806303dd02b136d2ceeb34777 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         9ca49e85e5f30bebea542f73712f57dc24208898 Merge remote-tracking branch 'spi/for-5.15' into spi-next
-         
+
+--===============1255917812974608759==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1626715254 -0400
+pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
+nonce 1626715254-ee63c0e7902cbb20b6584f38da85d8bac55e9e97
+
+7d765c1d91f5ebc7a64ec187ac21bd784c96b983 6be3a63687dfd18a19a0e03e3249ce2314d81cb9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYPW0dgAKCRC2xBzjVmSZ
+bCtjAP4oRVZNj2TiKhvpkWJJg178uWNUpejc3WbXx+DYutTfYgEA0NO2GUoRjCvA
+RgiBSVRpHq4b6RUSOypsYWiGX/JcCwk=
+=ZvG5
+-----END PGP SIGNATURE-----
+
+--===============1255917812974608759==--
