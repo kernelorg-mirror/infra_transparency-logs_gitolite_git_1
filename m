@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6630734249610884733=="
+Content-Type: multipart/mixed; boundary="===============0738789570012229319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 19 Jul 2021 17:46:50 -0000
-Message-Id: <162671681088.12222.17775751425779721319@gitolite.kernel.org>
+Date: Mon, 19 Jul 2021 17:46:59 -0000
+Message-Id: <162671681938.12390.8901973000737921437@gitolite.kernel.org>
 
---===============6630734249610884733==
+--===============0738789570012229319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 11d8d98cbeef1496469b268d79938b05524731e8
-    new: 6f20c8adb1813467ea52c1296d52c4e95978cb2f
-    log: revlist-11d8d98cbeef-6f20c8adb181.txt
+  - ref: refs/heads/dev-queue
+    old: 230f64d156af9f8637813d11a32b3b4095f067d1
+    new: 51393387d059c3579131ce39d859a744b4969404
+    log: revlist-230f64d156af-51393387d059.txt
 
---===============6630734249610884733==
+--===============0738789570012229319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11d8d98cbeef-6f20c8adb181.txt
+Content-Disposition: attachment; filename=revlist-230f64d156af-51393387d059.txt
 
 5f119ba1d5771bbf46d57cff7417dcd84d3084ba net: decnet: Fix sleeping inside in af_decnet
 5b69874f74cc5707edd95fcdaa757c507ac8af0f bonding: fix build issue
@@ -48,5 +48,40 @@ e314a07ef263916f761b736ded7a30894709dfd7 dt-bindings: net: imx-dwmac: convert im
 77e5253deadf7fae59207330e3a639e592ee7892 arm64: dts: imx8mp: change interrupt order per dt-binding
 a0050653db957270a948ea0519763de802084180 Merge branch 'dt-bindinga-dwmac'
 6f20c8adb1813467ea52c1296d52c4e95978cb2f net/tcp_fastopen: fix data races around tfo_active_disable_stamp
+47953b53ea267cd5b1294d63ce63dad36926d618 checkpatch: Fix warnings when --no-tree is used
+e515790a945cecd5b05c52e8515058a362b348b2 checkpatch.pl: seed camelcase from the provided kernel tree root
+336ad4d4d3aaaed1ecba119fbaa3db5131519976 ice: Fix a couple off by one bugs
+6be431994a24c1d1b20b40c04094a92225906ea3 i40e: Fix correct max_pkt_size on VF RX queue
+467537e9b02b1cfad81015e2ffaf4843750e50db iavf: Fix return of set the new channel count
+fd6cd9cc6f2fa0566427a2b1a5d298c5587ab4bf i40e: Fix NULL ptr dereference on VSI filter sync
+013a154a6951f731f6d729ca93cb48db5c98e102 ice: Fix VF true promiscuous mode
+59d07b120bf7389b6875509669c6ec2c590f268a i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+efaf35fcabc177141fe88f9de4bc69fdb7e081f3 i40e: improve locking of mac_filter_hash
+3bc82d9d1fdcb991a4647e3b49da3d2d54f3a21e i40e: Fix warning message and call stack during rmmod i40e driver
+90cb7f36573ee0e0408940057f2a8121b93d7a1a i40e: Fix logic of disabling queues
+a75f60599c19cdb5a830de051b1d1e7ea8ce4ea1 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+f4407845732fce7ab8b7466d7e4f1fb754819efe ice: fix FDIR init missing when reset VF
+905e243e7ab82b8404a2b9f3ead0e6e0a203816c igb: fix netpoll exit with traffic
+bc09f05cb60175c9e6a1aa080942748f0695f626 i40e: Fix failed opcode appearing if handling messages from VF
+c0203216411bd252595c88458166c5824fa4e107 i40e: Fix firmware LLDP agent related warning
+64d81bcbe6c8aa10e1008df03ccb18e86a035b6e ixgbe: Fix packet corruption due to missing DMA sync
+a77455e74bc148bfd1d4ce293dd2abb89a1110da i40e: Fix queue-to-TC mapping on Tx
+3e7fb3a2cc9de0bfa96ddaaa9130141d0d50491b iavf: check for null in iavf_fix_features
+3f21ee18ab9c8c09aa40006a1a90166567150c70 iavf: free q_vectors before queues in iavf_disable_vf
+42095a899770898a329cc5f84ad677a111bdba79 iavf: don't clear a lock we don't hold
+e0b0858ef78ffc01a3254bba283afa0c9364b0f2 iavf: Fix failure to exit out from last all-multicast mode
+6654b1e2e891606756325de31d00e1a44efb3339 iavf: prevent accidental free of filter structure
+53a82ddd1289b22526bf1b45bcde4c8112b46307 iavf: validate pointers
+e7425999b3238e79d76be101d1788608ff5cd2fb iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+ffcd7fb6e7961fd36e0acda5caaf02296708e894 iavf: Fix for setting queues to 0
+e3786af2dc3b3555a93881d45bf99b2d4ea74d52 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+74dc60901137c3c1f77959c28740b75ebcc34006 ice: do not abort devlink info if PBA can't be found
+1ea19cbc9d618ddc020696fa655b1d93c0973419 i40e: Fix log TC creation failure when max num of queues is exceeded
+dc8be0e16430105dfbc29d069d1f1e264ddf7f48 i40e: Fix creation of first queue by omitting it if is not power of two
+40809b374b272923031bba3e09ab2fef50f2d73e iavf: Fix ping is lost after untrusted VF had tried to change MAC
+5ab1dc491e653ef4a91f117eed8eb74117187468 ice: Fix perout start time rounding
+7178425fff672ba61e3b0eb047deb1026d726925 ice: fix build issue if CONFIG_1588_PTP_CLOCk=m
+c6bf948e5870022de3f00a3f2b4baeb32b0854e1 ice: Fix failure to re-add LAN/RDMA Tx queues
+51393387d059c3579131ce39d859a744b4969404 i40e: Fix pre-set max number of queues for VF
 
---===============6630734249610884733==--
+--===============0738789570012229319==--
