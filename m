@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2159126314025260088=="
+Content-Type: multipart/mixed; boundary="===============6328791865859026882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 19 Jul 2021 09:27:23 -0000
-Message-Id: <162668684353.29753.11920807236051083931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
+Date: Mon, 19 Jul 2021 09:36:10 -0000
+Message-Id: <162668737094.3240.2148519750624742301@gitolite.kernel.org>
 
---===============2159126314025260088==
+--===============6328791865859026882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/mszeredi/vfs
+user: mszeredi
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: 7c9ff3deeee61b253715dcf968a6307af148c9b2
-    log: revlist-6efb943b8616-7c9ff3deeee6.txt
+  - ref: refs/heads/overlayfs-next
+    old: 5e717c6fa41ff9b9b0c1e5959ccf5d8ef42f804b
+    new: 8ffe5f3c17de829378047deaffc96e0dbcd2112c
+    log: revlist-5e717c6fa41f-8ffe5f3c17de.txt
 
---===============2159126314025260088==
+--===============6328791865859026882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6efb943b8616-7c9ff3deeee6.txt
+Content-Disposition: attachment; filename=revlist-5e717c6fa41f-8ffe5f3c17de.txt
 
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
-945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
-1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
 66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
 ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
 6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
@@ -1049,6 +1042,13 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-7c9ff3deeee61b253715dcf968a6307af148c9b2 Drivers: hv: vmbus: Fix duplicate CPU assignments within a device
+577dced0e1fc91519cc99434b0899966e22fce2a ovl: fix mmap denywrite
+d1e717e0032c452891b29957dc33d65bba4910dd fs: add generic helper for filling statx attribute flags
+3132b5adad49413487d5541361dfe0c7d1a9cfcb ovl: pass ovl_fs to ovl_check_setxattr()
+4a035801f617316ab4b9f3edb6573461e63bebd1 ovl: copy up sync/noatime fileattr flags
+d769ec5ee3ac77546062ac7ab507cbaaf14c92b4 ovl: consistent behavior for immutable/append-only inodes
+60876403e23824feca5a1f97a93ae49ca9dc05a3 ovl: disable decoding null uuid with redirect_dir
+c2905d3e1c6f6d8a9fa9f7d0a5c434f5e269370b ovl: add ovl_allow_offline_changes() helper
+8ffe5f3c17de829378047deaffc96e0dbcd2112c ovl: do not set overlay.opaque for new directories
 
---===============2159126314025260088==--
+--===============6328791865859026882==--
