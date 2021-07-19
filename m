@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3290617757783278465=="
+Content-Type: multipart/mixed; boundary="===============1961256441580463136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 19 Jul 2021 12:59:14 -0000
-Message-Id: <162669955499.32294.10209305926399259971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 19 Jul 2021 13:05:25 -0000
+Message-Id: <162669992593.4887.11853730716813595702@gitolite.kernel.org>
 
---===============3290617757783278465==
+--===============1961256441580463136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 44d3ce043de93f7c549786a56e58da3ab8b8d194
-    new: d95d552e36269c1576fc0b043d0b0a3a2c9d63ce
-    log: revlist-44d3ce043de9-d95d552e3626.txt
+    old: 435f9920f94d8bd937cbba7dbb61d3f68925b1e6
+    new: 5d3d8b35170181319d6d006199eb76edb976e9d1
+    log: |
+         5d3d8b35170181319d6d006199eb76edb976e9d1 4.9-stable patches
+         
 
---===============3290617757783278465==
+--===============1961256441580463136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44d3ce043de9-d95d552e3626.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b27ebfe59a414471b4068947291b74e66472ce3a libfdisk: (dos) Recalculate number of cylinders after changing number of heads and sectors
-6fc455661a225877743163a7f35d3bc34bb3a259 libfdisk: (dos) Fix printing number of CHS sectors in check error message
-7ab459dff15b450d968db3af71c3cb6d7e55b60a libfdisk: (dos) Fix check error message when CHS calculated sector does not match LBA
-77b77e98a133bcc485f8e6d6e52d1b3180962b8e libfdisk: (dos) Add check both begin and end CHS partition parameters
-83ff6dfd01e1e1a230fc75852b53629be7cae50e libfdisk: (dos) Put number of CHS check_consistency errors into summart message
-bfdee4708245f4020692ee4fef292ddeeebcd388 libfdisk: (dos) Use helper macros cylinder() and sector() in check_consistency()
-ed5a0f331bd825b9613445fdf2032b6af8ef7949 libfdisk: (dos) Fix setting CHS values when creating new partition
-c0a0e567d84b5fb6cffb58c72c5d40191f30d441 libfdisk: (dos) Fix upper bound cylinder check in check()
-639f6507b6e2b2e9a28a602675ea50c689a2659a libfdisk: (dos) Fix upper bound cylinder check in check_consistency()
-9cade4fbf8c40640d94b5cd8ed1a3ac4b20a965d libfdisk: (dos) Fix determining number of heads and sectors per track from MBR
-5d0f0ca563ebde56f37aa0895a6f1752cf035b6f tests: fdisk: Update CHS values in MBR partitions
-d95d552e36269c1576fc0b043d0b0a3a2c9d63ce Merge branch 'chs' of https://github.com/pali/util-linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626699924 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1626699924-bcae0a3a125fa1f5c923655539d82bfa62d90869
 
---===============3290617757783278465==--
+435f9920f94d8bd937cbba7dbb61d3f68925b1e6 5d3d8b35170181319d6d006199eb76edb976e9d1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD1eJQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zi8P/RjE0hS52NBHHSUUCZ3B
+ROXFq6mt0MSkrUaWD+chRGKevawwFcSXS/l/bJ549dmBr0yUCFs14I6l2NxyTPRT
+yeSNuIf3N+6NEM9eF3EZV0MswQBhKkALq3OuDJFOrumoBEEcW+NBz4HfjMZLiYLe
+Xgu/mqMG+zBrKVCmMDDJ643DPHUSzblm8tnKKsYmawNPcHupy1bKt8XbMswTOcF7
+4jekeaXQbnBdI5ez4IgQn27dEfGGboNA4bSf5nXxm0i+0EWOLbQzsElHPN6O0z3R
+1yLnWzdsumjVj/S7ZZorvm3N6y5roM2svb6j18K3PWeitNVtqKv3T7wbBintQE05
+l+TZHGn0vHz7148o4wdXOwLp3uWF0e9zf6XV43hBPLvMzH4Frzmt5zDJEAfmt08/
+Hfgg1CE4d1THLbx+T6r+sJVrx20p1sT9x9VEvkliBySqKva/zo59jP32vWaSISLB
+Olzzh37OvRe/14pPBvfQPVPHFgHFjY8CstJcxClvTBkDPjkAM+YAllkxGnDk/pb9
+lP+XIzcJFEh+Gzg3QYiWuWc5bBQpZBv1ldAWILkYtju1XOvE46FYJ6m2u/ihFWUe
+pBZARnsbAINORZ3yNnoSksKojAZlh41Gj+/vBtTIxmvaw+oCkcFYWQsAkU1LyRtR
+9I5mqJ3YC5HyYA6etatfGbfA
+=sQhT
+-----END PGP SIGNATURE-----
+
+--===============1961256441580463136==--
