@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8548001627790560917=="
+Content-Type: multipart/mixed; boundary="===============5122853436228923611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 19 Jul 2021 14:24:44 -0000
-Message-Id: <162670468484.2421.8065176823061187466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 19 Jul 2021 14:25:07 -0000
+Message-Id: <162670470794.3628.5240435804383398620@gitolite.kernel.org>
 
---===============8548001627790560917==
+--===============5122853436228923611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: dd2d8ba927739cdb32713f7d43840af4794f1399
-    new: 30920b5b711a3cbc1ecea9ba5667cc73632b7bd9
-    log: revlist-dd2d8ba92773-30920b5b711a.txt
+    old: 2cf40f322df52c35bd518b11d9d0ffead69e8b14
+    new: 5f7de43f70bb78d0cd5dca6703d1b3f999aacb8e
+    log: revlist-2cf40f322df5-5f7de43f70bb.txt
   - ref: refs/heads/for-next
-    old: c1844a8ff1610cb05eee9ac51163cd10c56d7837
-    new: 5c5600cba3a22195a244a3f0e605f4a6adc21b26
-    log: revlist-c1844a8ff161-5c5600cba3a2.txt
+    old: f6bcfe04d8ab9afba2b64bea505cbc23b85d7fe2
+    new: b0183ddcbe201ab27f07b4419eaad528f9bdbe79
+    log: revlist-f6bcfe04d8ab-b0183ddcbe20.txt
 
---===============8548001627790560917==
+--===============5122853436228923611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd2d8ba92773-30920b5b711a.txt
+Content-Disposition: attachment; filename=revlist-2cf40f322df5-5f7de43f70bb.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -508,13 +508,14 @@ fbf1bddc4e171e26ac55a9637c7db13e75acf4fa Merge tag 'iomap-5.14-fixes-1' of git:/
 f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
-30920b5b711a3cbc1ecea9ba5667cc73632b7bd9 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+56912da7a68c8356df6a6740476237441b0b792a spi: cadence: Correct initialisation of runtime PM again
+5f7de43f70bb78d0cd5dca6703d1b3f999aacb8e Merge remote-tracking branch 'spi/for-5.14' into spi-linus
 
---===============8548001627790560917==
+--===============5122853436228923611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1844a8ff161-5c5600cba3a2.txt
+Content-Disposition: attachment; filename=revlist-f6bcfe04d8ab-b0183ddcbe20.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -994,8 +995,12 @@ fbf1bddc4e171e26ac55a9637c7db13e75acf4fa Merge tag 'iomap-5.14-fixes-1' of git:/
 f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
-f020e4d0b4016f5592d082cc3a1db430c567c4dc regulator: Fix a couple of spelling mistakes in Kconfig
-30920b5b711a3cbc1ecea9ba5667cc73632b7bd9 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
-5c5600cba3a22195a244a3f0e605f4a6adc21b26 Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
+56912da7a68c8356df6a6740476237441b0b792a spi: cadence: Correct initialisation of runtime PM again
+e0a6512d29126901dd16dfede314616b57ec8210 spi: pxa2xx: Convert reset_sccr1() to use pxa2xx_spi_update()
+cdcb26ce747a5ec665a98fd6c303248a12418140 spi: pxa2xx: Reset DMA bits in CR1 in reset_sccr1()
+3bbdc083262dc082e5c8e7b0646faf8f4ef894dd spi: pxa2xx: Reuse int_stop_and_reset() in couple of places
+bd9616996bb8cd6fbceedf00f1aa72fd9a845519 spi: imx: Simplify logic in spi_imx_push()
+5f7de43f70bb78d0cd5dca6703d1b3f999aacb8e Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+b0183ddcbe201ab27f07b4419eaad528f9bdbe79 Merge remote-tracking branch 'spi/for-5.15' into spi-next
 
---===============8548001627790560917==--
+--===============5122853436228923611==--
