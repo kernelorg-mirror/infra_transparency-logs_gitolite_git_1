@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9010372000161533604=="
+Content-Type: multipart/mixed; boundary="===============5564449697590927899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 19 Jul 2021 08:19:01 -0000
-Message-Id: <162668274126.30508.3722635238141982712@gitolite.kernel.org>
+Date: Mon, 19 Jul 2021 08:19:08 -0000
+Message-Id: <162668274830.30659.16181029034703166332@gitolite.kernel.org>
 
---===============9010372000161533604==
+--===============5564449697590927899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
     log: revlist-e73f0f0ee754-2734d6c1b1a0.txt
 
---===============9010372000161533604==
+--===============5564449697590927899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -505,4 +505,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 
---===============9010372000161533604==--
+--===============5564449697590927899==--
