@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7201277387395371861=="
+Content-Type: multipart/mixed; boundary="===============6510351196838493097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 19 Jul 2021 19:57:34 -0000
-Message-Id: <162672465431.4178.17425972609062074238@gitolite.kernel.org>
+Date: Mon, 19 Jul 2021 19:57:47 -0000
+Message-Id: <162672466730.4322.8300364961830291120@gitolite.kernel.org>
 
---===============7201277387395371861==
+--===============6510351196838493097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: b0f008551f0bf4d5f6db9b5f0e071b02790d6a2e
     new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
     log: revlist-b0f008551f0b-2734d6c1b1a0.txt
 
---===============7201277387395371861==
+--===============6510351196838493097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -454,4 +454,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 
---===============7201277387395371861==--
+--===============6510351196838493097==--
