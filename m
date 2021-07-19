@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4496882649295943593=="
+Content-Type: multipart/mixed; boundary="===============0668900119425535612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Mon, 19 Jul 2021 00:11:26 -0000
-Message-Id: <162665348611.14658.15546903251584841209@gitolite.kernel.org>
+Date: Mon, 19 Jul 2021 00:11:47 -0000
+Message-Id: <162665350700.14833.12493173643206688087@gitolite.kernel.org>
 
---===============4496882649295943593==
+--===============0668900119425535612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel/bmc
 user: joel
 changes:
-  - ref: refs/heads/dt-for-v5.15
+  - ref: refs/heads/for-next
     old: 315cc563d04727c0ae69ed2e4d511ccf529200db
     new: ded3e2864c735f33ba5abbbe2d7b1c6605242f9b
     log: revlist-315cc563d047-ded3e2864c73.txt
 
---===============4496882649295943593==
+--===============0668900119425535612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -508,4 +508,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 419cc0b8c127193f6f447b905b1240765d2087c7 ARM: dts: aspeed: Add Inspur NF5280M6 BMC machine
 ded3e2864c735f33ba5abbbe2d7b1c6605242f9b ARM: dts: everest: Add phase corrections for eMMC
 
---===============4496882649295943593==--
+--===============0668900119425535612==--
