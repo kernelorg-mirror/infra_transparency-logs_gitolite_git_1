@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Mon, 19 Jul 2021 16:32:13 -0000
-Message-Id: <162671233386.27359.3790332502342665881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/stalld/stalld
+Date: Mon, 19 Jul 2021 16:39:03 -0000
+Message-Id: <162671274352.31048.6482208186548011365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
-user: tnguy
+repo: pub/scm/utils/stalld/stalld
+user: bristot
 changes:
-  - ref: refs/heads/dev-queue
-    old: b7c134f0d3491113958276d631b4e69771a6c5be
-    new: f5cc25b5e7dc1203da85f8400a47d787c4dc4dc2
+  - ref: refs/heads/main
+    old: e8ff19a1d095459f3d13e12af507d30ae0ab6380
+    new: 60db96387ba36d3c5bd1ae664ab29830e761b68f
     log: |
-         f5cc25b5e7dc1203da85f8400a47d787c4dc4dc2 ice: update package file to 1.3.26.0
+         60db96387ba36d3c5bd1ae664ab29830e761b68f Makefile: Set version to 1.14.1
          
