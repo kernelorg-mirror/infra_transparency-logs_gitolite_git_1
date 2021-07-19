@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============7054182020668747306=="
+Content-Type: multipart/mixed; boundary="===============0946940132471997478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 19 Jul 2021 12:47:46 -0000
-Message-Id: <162669886642.24120.18331723040435982541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jeyu/linux
+Date: Mon, 19 Jul 2021 12:53:48 -0000
+Message-Id: <162669922871.29051.16186997070318065321@gitolite.kernel.org>
 
---===============7054182020668747306==
+--===============0946940132471997478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jeyu/linux
+user: jeyu
 changes:
-  - ref: refs/heads/for-next
-    old: 70333dec446292cd896cd051d2ebd6808b328949
-    new: fbdc7b96a5aeca3978adb7944d1501e72366cea6
-    log: revlist-70333dec4462-fbdc7b96a5ae.txt
+  - ref: refs/heads/modules-next
+    old: 2c0f0f3639562d6e38ee9705303c6457c4936eac
+    new: 4c5afb74d9450edc2e2e37243b469cc278b120d4
+    log: revlist-2c0f0f363956-4c5afb74d945.txt
 
---===============7054182020668747306==
+--===============0946940132471997478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70333dec4462-fbdc7b96a5ae.txt
+Content-Disposition: attachment; filename=revlist-2c0f0f363956-4c5afb74d945.txt
 
+8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
+23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
+78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
+b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
 945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
 1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
@@ -33,6 +37,7 @@ Content-Disposition: attachment; filename=revlist-70333dec4462-fbdc7b96a5ae.txt
 ecd89c02da85f724a2d24bc5a7e28043cc24b5d7 gve: DQO: Fix off by one in gve_rx_dqo()
 6706721d82f86e9360c3ad5339fe3da5e0988a51 tcp_yeah: check struct yeah size at compile time
 3f8ad50a9e43b6a59070e6c9c5eec79626f81095 tcp: change ICSK_CA_PRIV_SIZE definition
+e563592c3e4296780e5a184a917b8b86e126f0b3 Merge tag 'printk-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 371fb85457c857eeac1611d3661ee8e637f6548c Merge tag 'smp-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 62180152e0944e815ebbfd0ffd822d2b0e2cd8e7 Merge tag 'smp-urgent-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 21edf50948728f55b685ad95f196ba46196eb767 Merge tag 'irq-core-2021-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1044,11 +1049,6 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-91027d0a7a0e309b94674923dc1b245b709b5c1e string_helpers: Escape double quotes in escape_special
-a1ad4b8a19566b11e0306f8b197f2fd4567340e5 printk: Straighten out log_flags into printk_info_flags
-f3d75cf537db57f7918a17a75527951de850e5ec printk: Rework parse_prefix into printk_parse_prefix
-337015573718b161891a3473d25f59273f2e626b printk: Userspace format indexing support
-ad7d61f159db73974f1b0352f21afe04b0bbd920 printk: index: Add indexing support to dev_printk
-fbdc7b96a5aeca3978adb7944d1501e72366cea6 Merge branch 'for-5.15-printk-index' into for-next
+4c5afb74d9450edc2e2e37243b469cc278b120d4 module: combine constructors in module linker script
 
---===============7054182020668747306==--
+--===============0946940132471997478==--
