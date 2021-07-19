@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 19 Jul 2021 16:31:48 -0000
-Message-Id: <162671230825.27091.12354686076049793027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Mon, 19 Jul 2021 16:32:13 -0000
+Message-Id: <162671233386.27359.3790332502342665881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: bgix
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 16395e11db17c11a0866b1996cf801e750fcfc95
-    new: daea569566cb3209454e4952b14981ab1346f000
+  - ref: refs/heads/dev-queue
+    old: b7c134f0d3491113958276d631b4e69771a6c5be
+    new: f5cc25b5e7dc1203da85f8400a47d787c4dc4dc2
     log: |
-         14c6a73265f1d6d7e417072c97fe5818f9398b1e emulator/btdev: Add support HCI_READ_CLOCK command
-         41bf62e089b0846b661a7a3b300c50c3d93cabab tool/mgmt-tester: Add test cases for Read Clock Information API
-         daea569566cb3209454e4952b14981ab1346f000 tool/mgmt-tester: Add fail_tolerant exception
+         f5cc25b5e7dc1203da85f8400a47d787c4dc4dc2 ice: update package file to 1.3.26.0
          
