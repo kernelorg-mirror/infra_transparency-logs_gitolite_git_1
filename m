@@ -1,50 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2489695515162199609=="
+Content-Type: multipart/mixed; boundary="===============8772790805472075059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 20 Jul 2021 09:48:09 -0000
-Message-Id: <162677448994.22922.3625530907118836495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 20 Jul 2021 09:48:18 -0000
+Message-Id: <162677449830.23047.14721209129080247803@gitolite.kernel.org>
 
---===============2489695515162199609==
+--===============8772790805472075059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: d936eb23874433caa3e3d841cfa16f5434b85dcf
     new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
     log: revlist-d936eb238744-2734d6c1b1a0.txt
-  - ref: refs/heads/rdma-next
-    old: b5f778c93b2d98721f635c0c160f05d33dea9285
-    new: 8eaf125d3bfb463e1641b6f2794203cc93d76c90
-    log: |
-         1c60391dd1a45130343675bc2c15a8239c217f5b RDMA/mlx5: Delete not-available udata check
-         5f65e3382a54cf2143b8a9ea38998e82ec14475c RDMA/core: Delete duplicated and unreachable code
-         8084238e374fe487c3f9728c2ee5ec8736c204d5 RDMA/core: Remove protection from wrong in-kernel API usage
-         328963df8e30bfc040c846d2c7626becd341f3ec RDMA/core: Reorganize create QP low-level functions
-         c5c0e543e666d4402a0d6cdb39d1b0e46d185c60 RDMA/core: Configure selinux QP during creation
-         8057f36af73cebc5e3acfeeea4264f5044734d0c RDMA/core: Properly increment and decrement QP usecnts
-         8eaf125d3bfb463e1641b6f2794203cc93d76c90 RDMA/core: Create clean QP creations interface for uverbs
-         
-  - ref: refs/heads/testing/rdma-next
-    old: b6053c57c68745d34f01aad9641a40b189edcb8e
-    new: 665260b6a8337cc261ac69d22a413c6c2533dfb9
-    log: revlist-b6053c57c687-665260b6a833.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: fd696ca45c0e589a60137ab7283b078c5f026034
-    new: 3319ecb4926d13b78b303ddd6c1053fe618a87f0
-    log: revlist-fd696ca45c0e-3319ecb4926d.txt
-  - ref: refs/tags/mlx-next
-    old: 8c1b4316c3faa38cb66bde200a8f2942fa6728b6
-    new: 923232bbea88a29f18a2361790582a6474a538fc
-    log: revlist-8c1b4316c3fa-923232bbea88.txt
+  - ref: refs/heads/queue-next
+    old: c059f8d20b13937ba43ffc77b8213f6f6b0b8902
+    new: 3134fb70631be616fb643a5365180494c7db525f
+    log: revlist-c059f8d20b13-3134fb70631b.txt
+  - ref: refs/heads/queue-rc
+    old: a4261bcfea25a8c82350bdbf6415f2b5fb838f09
+    new: 2bdb2de413e862f84f927bf861565dc80280de42
+    log: revlist-a4261bcfea25-2bdb2de413e8.txt
 
---===============2489695515162199609==
+--===============8772790805472075059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -250,11 +234,11 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 
---===============2489695515162199609==
+--===============8772790805472075059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6053c57c687-665260b6a833.txt
+Content-Disposition: attachment; filename=revlist-c059f8d20b13-3134fb70631b.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -464,12 +448,13 @@ c5c0e543e666d4402a0d6cdb39d1b0e46d185c60 RDMA/core: Configure selinux QP during 
 8eaf125d3bfb463e1641b6f2794203cc93d76c90 RDMA/core: Create clean QP creations interface for uverbs
 3319ecb4926d13b78b303ddd6c1053fe618a87f0 Merge branch 'master' into testing/rdma-rc
 665260b6a8337cc261ac69d22a413c6c2533dfb9 Merge branch 'rdma-next' into testing/rdma-next
+3134fb70631be616fb643a5365180494c7db525f Merge branch 'testing/rdma-next' into queue-next
 
---===============2489695515162199609==
+--===============8772790805472075059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd696ca45c0e-3319ecb4926d.txt
+Content-Disposition: attachment; filename=revlist-a4261bcfea25-2bdb2de413e8.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -671,24 +656,6 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 3319ecb4926d13b78b303ddd6c1053fe618a87f0 Merge branch 'master' into testing/rdma-rc
+2bdb2de413e862f84f927bf861565dc80280de42 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2489695515162199609==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c1b4316c3fa-923232bbea88.txt
-
-0bc0602ae8275aadc7288692331589350987cef7 IB/core: Updating cache for subnet_prefix in config_non_roce_gid_cache()
-36721a6d4cf2a39f411e3ac04d5771d1ffef9d23 IB/core: Shifting initialization of device->cache_lock
-21bfee9c0c7754408b1f311bffe304caf3e62250 IB/core: Read subnet_prefix in ib_query_port via cache.
-fe87fb17c6febdf6e0f7308cdf175de617d24c72 RDMA/rxe: Move ICRC checking to a subroutine
-36fbb03d05f2799a27bbed51564aba0354f3fee3 RDMA/rxe: Move rxe_xmit_packet to a subroutine
-13050a0b32e3caa8160e940f0d66059ed3e4e62b RDMA/rxe: Fixup rxe_send and rxe_loopback
-1117f26ea7ec233318c66fdbef76ce212414a826 RDMA/rxe: Move ICRC generation to a subroutine
-b6c6cc4acdf68f4c98c25fd8975d068009993cd8 RDMA/rxe: Move rxe_crc32 to a subroutine
-63887510571b072217c20ea6e1f9be744dcd0f29 RDMA/rxe: Fixup rxe_icrc_hdr
-add2b3b80e3a9b8f06562efe79b44809f64640db RDMA/rxe: Move crc32 init code to rxe_icrc.c
-e4f5c82fefa9bce9a5e010901c2d16f2654b1f18 RDMA/rxe: Add kernel-doc comments to rxe_icrc.c
-923232bbea88a29f18a2361790582a6474a538fc RDMA/rxe: Fix types in rxe_icrc.c
-
---===============2489695515162199609==--
+--===============8772790805472075059==--
