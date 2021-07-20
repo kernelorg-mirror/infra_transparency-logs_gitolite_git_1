@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4001802893760549035=="
+Content-Type: multipart/mixed; boundary="===============3196583877190772974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 20 Jul 2021 18:35:45 -0000
-Message-Id: <162680614555.20161.11244391304136974983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 20 Jul 2021 18:35:52 -0000
+Message-Id: <162680615239.20251.4012732315486268660@gitolite.kernel.org>
 
---===============4001802893760549035==
+--===============3196583877190772974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.15
-    old: f020e4d0b4016f5592d082cc3a1db430c567c4dc
-    new: 0555d41497de66d2f07ae36dcb46a32f0ff90d8d
+  - ref: refs/heads/for-5.14
+    old: 56912da7a68c8356df6a6740476237441b0b792a
+    new: c45c1e82bba130db4f19d9dbc1deefcf4ea994ed
     log: |
-         4c922fd3d6fa4d51e1f5bb845548cbefd5de3d14 regulator: rtq2134: Add binding document for Richtek RTQ2134 SubPMIC
-         0555d41497de66d2f07ae36dcb46a32f0ff90d8d regulator: rtq2134: Add support for Richtek RTQ2134 SubPMIC
+         c45c1e82bba130db4f19d9dbc1deefcf4ea994ed spi: spi-bcm2835: Fix deadlock
          
 
---===============4001802893760549035==
+--===============3196583877190772974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626806141 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1626806143-d7f486964b12fc91d48eaecccb8104cda324e173
+pusher C3F436CA30F5D8EB 1626806148 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1626806150-a81535a406cddd85e9180102678b9249cca68bfb
 
-f020e4d0b4016f5592d082cc3a1db430c567c4dc 0555d41497de66d2f07ae36dcb46a32f0ff90d8d refs/heads/regulator-5.15
+56912da7a68c8356df6a6740476237441b0b792a c45c1e82bba130db4f19d9dbc1deefcf4ea994ed refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD3F30ACgkQJNaLcl1U
-h9DCOQf/XmN95X+3Ka85Y7CQAbw6B7T8kaRH4ziHwk0X6CPvrYnlYieemSmvbGap
-YKdI3cQ9kocaBmK8e0vtqeAKIcKlLbiwHoG80RIIudVXDz24RVJZZViPjFFgqssg
-/HjtDqiRZNkkdPKdj3mgcA2zLkGENEaiUXV1Aj9zI1Xs3qE4hEiy1ajQY8ejLRX7
-W6sF0gk0u5FvT+g7/rwYsulCV1lpurcWdIiNVx9na+U4XWXh5a5QfbLgJBYf8c86
-weXkiBF9vaPjkOI2mBihp7hpGpEjtcGyIj821YqfOhN949jor6gTWjz8iyr+FGe6
-vsdyFl8vbF71aNaPD53Tzz7Steh61Q==
-=TggO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD3F4QACgkQJNaLcl1U
+h9A+zAf+KDt8IcYWvOMIDrCCD9Daup6M6PFZMO6QRQ5blxI7pVskoBZFe46U+o56
+il73TX2oQau3jUfbJvFlsUkaxYRqyrKhj+8jNfhb5lZ46rwbVNTJ2A07h2ziCmmt
+Jeday81dMIAIrREiG+lR4ktDsdCNpbfTdAQDMESa/ZxO7IbZ7Oy/KJ4olVVeGh8B
+J20EP7Afw27zI7kbcuo4PvY6LXU4wugtVX09VLDDkku2n3hs5gAPzy8lfUN9jAjI
+oMPFOqQ3kbTLaGNoNidaT0M/vtoPOFxReD28Fm6Oz5JyjryeD9I93CwI3xdrn4X7
+b4LTGrAgaCoFuS0ahZoy6U+OcYsj1g==
+=5g5h
 -----END PGP SIGNATURE-----
 
---===============4001802893760549035==--
+--===============3196583877190772974==--
