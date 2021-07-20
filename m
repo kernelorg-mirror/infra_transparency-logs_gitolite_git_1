@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3703730698824568220=="
+Content-Type: multipart/mixed; boundary="===============2179077323182767007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Jul 2021 13:51:37 -0000
-Message-Id: <162678909716.28406.9721687695435187473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 20 Jul 2021 13:56:54 -0000
+Message-Id: <162678941488.31640.8392194151112852602@gitolite.kernel.org>
 
---===============3703730698824568220==
+--===============2179077323182767007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c18e9405d46aa08bb4b55a35ee9bcc66ef3e89e0
-    new: 08f329fcddd50dc6f12f9bdbf7e4c9afce6e0d82
-    log: revlist-c18e9405d46a-08f329fcddd5.txt
+    old: 4178f4ebaac1f771c919112c398de32dcafd301c
+    new: bc5884deec36707c96e3ec53316aff906c784997
+    log: |
+         bc5884deec36707c96e3ec53316aff906c784997 fix up 4.9 commit
+         
 
---===============3703730698824568220==
+--===============2179077323182767007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c18e9405d46a-08f329fcddd5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0fac6aa098edf91ba65370da03811d9aba5715a9 net: dsa: sja1105: delete the best_effort_vlan_filtering mode
-a81a45744ba5e0de34a3c724c9a9b9c77856a3a3 net: dsa: tag_8021q: use "err" consistently instead of "rc"
-69ebb3706471d29362ae819ded14b8551284432f net: dsa: tag_8021q: use symbolic error names
-8afbea187d31e4e9beb83b7a316d16b7879c2799 net: dsa: tag_8021q: remove struct packet_type declaration
-cedf467064b6b8764fdb2ee6b9e3d18bc81a9d8f net: dsa: tag_8021q: create dsa_tag_8021q_{register,unregister} helpers
-8b6e638b4be2ad77f61fb93b4e1776c6ccc2edab net: dsa: build tag_8021q.c as part of DSA core
-d7b1fd520d5d4271f4ab9b1671afbdcd868039d3 net: dsa: let the core manage the tag_8021q context
-5da11eb407340233a6111c563419e19685a062a4 net: dsa: make tag_8021q operations part of the core
-328621f6131f667c5c328bb72d45442fd76efb81 net: dsa: tag_8021q: absorb dsa_8021q_setup into dsa_tag_8021q_{,un}register
-e19cc13c9c8aba6e310022b050dc60edcb48a20b net: dsa: tag_8021q: manage RX VLANs dynamically at bridge join/leave time
-c64b9c05045a21a5258f6dbd81d94a2a22ff73a2 net: dsa: tag_8021q: add proper cross-chip notifier support
-08f329fcddd50dc6f12f9bdbf7e4c9afce6e0d82 Merge branch 'tag_8021q-cross-chip'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626789408 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1626789407-110389e98bd6c9ce022fdd19d62a3a2aaedfbab0
 
---===============3703730698824568220==--
+4178f4ebaac1f771c919112c398de32dcafd301c bc5884deec36707c96e3ec53316aff906c784997 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD21iAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1H8P/AxNij5/BKN3ZHXduTT4
+HGN8j3M6lUTL9NsMvquq+1qTt6M5l0DqVyvd2F9Zg70Lo3aTNNs0ifhcBXuQQVtV
+BfsITqC9lYVmvq5RBPjSeyBAqeYGKca0T+3FAyLfwZ/a+2XYFgcNj0j55GWF6N1Z
+NVsnMKeKtPTYZEkGkI7z8l83wZurCWBnCSCUp/GUV7G1LpSrac1gjYg5ThkjNHyJ
+EAiVfv5ZsSPoHN01tbDkRraWGjXYA8rasTqOO81hF99wzUMPrichxiobAOgQ1pLY
+wlR7AH0Ge/ORfKpmdsbaqhvrZCCCi41AAfWhNGZPcn5VTVlb3kxylu+4DnP4BD/2
+ZbKy58U98+ST3eVAiP6VfAMc60ifTpWaPZFnbItRLvJXC2/CO2TB7ZnC+frX2zog
+wWVGALcToN0Y4QRBN3S9es2dFw7qZh1w4LO3rgQUo0nD8hhQVPfRF1QZe0v3LFIh
+t78N33ISYRbtG68ESDu6JziwS++8bFFLOkKW/EOwvLeb9DlpUIbvSrA06eWrOLC9
+NGkQ/iw6eqkxj5cfg63aEV25UjG71kaMm540Lom77DPZIDo/OUf055Jiku/veW7F
+eul1rE5AqU0whrm2jYFMnnYLbGGUsEDXyXIEmgLfOzfXIb9I6T5SbIG/sI9wUBJQ
+MZSHggFwXlQZRQTTJ5D93Amz
+=5evB
+-----END PGP SIGNATURE-----
+
+--===============2179077323182767007==--
