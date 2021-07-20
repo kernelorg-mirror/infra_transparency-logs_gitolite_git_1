@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 20 Jul 2021 18:36:24 -0000
-Message-Id: <162680618440.20709.9364450434175441679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 20 Jul 2021 18:36:44 -0000
+Message-Id: <162680620473.20883.18015170039009178621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 85666456ceab4b5d9938b5dbff21b647c8fa003d
-    new: 3c1b3b02665a4762cd1174bb1602387b4446fe9c
+    old: 30920b5b711a3cbc1ecea9ba5667cc73632b7bd9
+    new: a674dd644ca4fc408391cdbf1a204e2453730694
     log: |
-         3c1b3b02665a4762cd1174bb1602387b4446fe9c Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         a674dd644ca4fc408391cdbf1a204e2453730694 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 1537ad364fc47032776bee3f2d29698d2fd8e249
-    new: e4b1ea6d7ae3bc9c26c2f412cc5338e5cdf297de
+    old: 5c5600cba3a22195a244a3f0e605f4a6adc21b26
+    new: baa02c98ac0b31ab5d4dc5ad6513449aecf0cd3c
     log: |
-         1bd80ff2cfb38582e258baf681211a21d448984f ASOC: Intel: sof_sdw: add quirk for Intel 'Bishop County' NUC M15
-         3c1b3b02665a4762cd1174bb1602387b4446fe9c Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-         e4b1ea6d7ae3bc9c26c2f412cc5338e5cdf297de Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         4c922fd3d6fa4d51e1f5bb845548cbefd5de3d14 regulator: rtq2134: Add binding document for Richtek RTQ2134 SubPMIC
+         0555d41497de66d2f07ae36dcb46a32f0ff90d8d regulator: rtq2134: Add support for Richtek RTQ2134 SubPMIC
+         a674dd644ca4fc408391cdbf1a204e2453730694 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+         baa02c98ac0b31ab5d4dc5ad6513449aecf0cd3c Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
          
