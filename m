@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 20 Jul 2021 21:13:32 -0000
-Message-Id: <162681561256.27888.5205548229465784190@gitolite.kernel.org>
+Date: Tue, 20 Jul 2021 21:13:43 -0000
+Message-Id: <162681562373.28083.2738232222252027342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.15
-    old: 962e538360acb21033f4449c188106fd62cbbf6e
+  - ref: refs/heads/for-next
+    old: d9ed8449eaf375833240d281c881d741a9fd366c
     new: e820ba87f9d15399fa565ceba4a92b902c879d29
     log: |
          c2608cebed20bb307056d202258cc96ae8a9631d dm ima: measure data on table load
