@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1957340374116309131=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Jul 2021 23:57:42 -0000
-Message-Id: <162682546287.6661.15551270596027588495@gitolite.kernel.org>
-
---===============1957340374116309131==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 20 Jul 2021 23:58:27 -0000
+Message-Id: <162682550745.6986.10109869699278809487@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 8887ca5474bd9ddb56cabc88856bb035774e0041
-    new: 3389d3027fec5ec8f687fb07fd8e6c1bd102b451
-    log: revlist-8887ca5474bd-3389d3027fec.txt
-
---===============1957340374116309131==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8887ca5474bd-3389d3027fec.txt
-
-3e55d231716ea361b1520b801c6778c4c48de102 e1000e: Add handshake with the CSME to support S0ix
-ef407b86d3cc7ab7ad37658c1c7a094cb8f3b6b4 e1000e: Add polling mechanism to indicate CSME DPG exit
-3ad3e28cb203309fb29022dea41cd65df0583632 e1000e: Additional PHY power saving in S0ix
-820b8ff653a1a07868cb977461a557aaa09e694c e1000e: Add support for Lunar Lake
-8e25c0a212de57efc46b8999e6aee9665ba5dccf e1000e: Add support for the next LOM generation
-ade4162e80f1f4a555d7d61e71774214220ce79d e1000e: Add space to the debug print
-e0bc64d31c98609900ed84b476bfc9d07d7f370f net/e1000e: Fix spelling mistake "The" -> "This"
-373e2829e7c2e1e606503cdb5c97749f512a4be9 igc: Check if num of q_vectors is smaller than max before array access
-7c496de538eebd8212dc2a3c9a468386b264d0d4 igc: Remove _I_PHY_ID checking
-47bca7de6a4fb8dcb564c7ca14d885c91ed19e03 igc: Remove phy->type checking
-62f5bbfb2afd5bcec644f16f503d1a3c0f0c7eb5 igc: Set QBVCYCLET_S to 0 for TSN Basic Scheduling
-b27b8dc77b5e9030b2babb2728f61f9bf6260922 igc: Increase timeout value for Speed 100/1000/2500
-bc71d3ef59b95cae509a1fc3da3162065be0b256 dt-bindings: net: snps,dwmac: add missing DWMAC IP version
-03e85b17030a6516fb76d853d6c74f0181c03180 dt-bindings: net: imx-dwmac: convert imx-dwmac bindings to yaml
-41667a933c8ad141d0ba79d98e5f6458e7e66864 arm64: dts: imx8mp: change interrupt order per dt-binding
-3389d3027fec5ec8f687fb07fd8e6c1bd102b451 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-
---===============1957340374116309131==--
+  - ref: refs/heads/dev
+    old: 0cbdab412e4bbcbc560938139579acc2ded563da
+    new: f98b222f04b749bc31cf517978299fccb4a825bc
+    log: |
+         1ffc8f5f7751f91fe6af527d426a723231b741a6 f2fs: let's keep writing IOs on SBI_NEED_FSCK
+         9de71ede81e6d1a111fdd868b2d78d459fa77f80 f2fs: quota: fix potential deadlock
+         f98b222f04b749bc31cf517978299fccb4a825bc f2fs: fix wrong inflight page stats for directIO
+         
