@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3554744057354822171=="
+Content-Type: multipart/mixed; boundary="===============7131217013922223148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 20 Jul 2021 02:10:34 -0000
-Message-Id: <162674703453.28813.6012521238934674602@gitolite.kernel.org>
+Date: Tue, 20 Jul 2021 02:10:41 -0000
+Message-Id: <162674704102.28947.260794702711509855@gitolite.kernel.org>
 
---===============3554744057354822171==
+--===============7131217013922223148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    log: revlist-e73f0f0ee754-2734d6c1b1a0.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: c59bcaf453c5b7a6b3caeda57c58e2f408af4e54
+    new: 0fd1a233eef16f147f11d9a181ad5a5c9849a79e
+    log: revlist-c59bcaf453c5-0fd1a233eef1.txt
 
---===============3554744057354822171==
+--===============7131217013922223148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1626747032 -0400
+pusher 75C5DE3D 1626747038 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1626747032-57acdc237da90e692a4ca6f91afd158b19e6b391
+nonce 1626747038-96775241a6749ffd49e2c8c0df5e98f46d050d7d
 
-e73f0f0ee7541171d89f2e2491130c7771ba58d3 2734d6c1b1a089fb593ef6a23d4b70903526fe0c refs/heads/queue
+c59bcaf453c5b7a6b3caeda57c58e2f408af4e54 0fd1a233eef16f147f11d9a181ad5a5c9849a79e refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD2MJgACgkQ7ulgGnXF
-3j018A/9E4sTQUHSO6EWXd6PHLvwjyoXh180fGUcukv5GmdIGaSowBi0OG+AfB7N
-x+yd9mQ21UmPC45yi/UYlMz9qLWGDAxl+mTaHpbsqT3u6TICsg49HMlsDHFVq+ae
-LDpaM3YZ/KWrzSKHU2pk54FRgX/o7XIqRI/X8G3yww81w40LlFnObwB2RogzuMlb
-3HYblPbrMazkl9Pc594johS4IIuVFMuboRIk1nnhPtpelcP08HYqwC2b8cZcWhW/
-6SAwCzm+eNjiw/DKqS0z5RPq1ftKCEkwBRKid7I0lrmj48CDuFAhqVdIw2kDTdWx
-YXCnLN3UCPpFrjnzvR+bdWWMjKCovrueqWUsW49IayTPDiTh/Pr0td/W3nY1AU43
-ZtnrlmtgOvKLqD9TGNKGOJxeg10ftbcJXd4e+coCMCXRGzIWQeJnRgdd/OqCUV2N
-r6lQzo95u3a4dygOFNv+m0mLvSWspLjUcwk87nfLMfXBEHleJlAmoUqui8qdQp9U
-Z+6eEkFVO80DXMSqtqzYJKM1sg3osL0AS3P8qCgLu61Ou76jmr8k3qQwlEMWMfwv
-1a+BsHq60QsjD0fcQmAETBYaBnlGW+lFATNThWAoVS0auygZs/YU4hrusTm2BSTN
-jlzkwCvnBj5r8WrgEfx8HxV1ie32aplzr0CN/Mcs/AgtvrWRBIs=
-=gcKG
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD2MJ4ACgkQ7ulgGnXF
+3j0p+A/+PBo1lYaXF7e7ryJ1BbSwqMcztm9XDn5GAzVe7xdkD591h9RN+oCjIyBK
+wK1Tj+oD3tsp2CT2qloFmJ4TQDLRqsUVFdVG4y50R+W95widtjx4EbIDePcG+2ZU
+FoOS/a3nCPoFF2O3vHoZlWe1HwahQwH+Qj5ETDmbuP7QCq85X4YieeRyyfBTwERW
+VXvjISqneAxrmRkoVlnLNTeqL5JFkT5t5So83ToDl6qtDRLolYN88Nn8sPATxyPv
+e1T12z8ChxcS8bSxRuBm3lee3x0/sCJMasFT/wp0JCmwL/4Cj6S0cUn1HlnlNzIe
+Wcwjt+wWt2sbSnA5kVkK+6gKgFupvAL473qnVJVtG+IaiS3S8Yc0GipcfklR4Crp
+0ntoK/oKQqhWGfeoXzwXNCO9orveB9IAj5p/8aWdUHVAgkxCtrwQmttlQCWlDs8N
+zagk7nUeDyfOlqiCw4lP41FU55bOC7sEfpm0dwJlAgUdqU6wX4JN//0v12C5WrpI
+SfoHCDkfFBgRMJKjS5CnO+rlDFdMnlgd6R1R40HLqrqeaSgwari6RnFK3F0xq+KR
+gFHQ2tU67ue7GNJfbw/rxl8Sk0iQOLxqA1Vr7y/4q5nrSyEyWPzrTD6tb0fH0JuH
+YFvQUTLjp3EgW5FG2C1ClGCrBYHvzFQkETGww5K13gKFrun7nNo=
+=rLi+
 -----END PGP SIGNATURE-----
 
---===============3554744057354822171==
+--===============7131217013922223148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-2734d6c1b1a0.txt
+Content-Disposition: attachment; filename=revlist-c59bcaf453c5-0fd1a233eef1.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -534,5 +534,38 @@ fbf1bddc4e171e26ac55a9637c7db13e75acf4fa Merge tag 'iomap-5.14-fixes-1' of git:/
 f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
+1c0810e79cb3d2c46bb8f2a3e98609de1f009f3e scsi: ufs: Refactor ufshcd_is_intr_aggr_allowed()
+7b0ddc1346089b62b45e688e350c9e1c3f7a3ab2 scsi: be2iscsi: Fix use-after-free during IP updates
+37306698c3d023c10a2b1a01baac3089b52412f6 scsi: qla2xxx: Remove redundant continue statement in a for-loop
+904b5bfaa8fe2be032ea81ee95fa28efe21fbef0 scsi: aacraid: Remove an unused include
+ae463b60235e7a5decffbb0bd7209952ccda78eb scsi: lpfc: Fix NVMe support reporting in log message
+e8613084053d406c22914385a488e8b85072100c scsi: lpfc: Remove use of kmalloc() in trace event logging
+16a93e83c87edab9ea646be879a1cbbe7bf3bca6 scsi: lpfc: Improve firmware download logging
+50baa1595d30412177da3b22625bffc1ce4f65d5 scsi: lpfc: Fix function description comments for vmid routines
+e77803bdbf0aad98d36b1d3fa082852831814edd scsi: lpfc: Discovery state machine fixes for LOGO handling
+21990d3d1861c7aa8e3e4ed98614f0c161c29b0c scsi: lpfc: Fix target reset handler from falsely returning FAILURE
+4e670c8afd47d535f65edf0d2b7f54f103fd59a2 scsi: lpfc: Keep NDLP reference until after freeing the IOCB after ELS handling
+2d338eb55b14ab9d245e8b1d982adecca8c4c613 scsi: lpfc: Fix NULL ptr dereference with NPIV ports for RDF handling
+cd6047e92c6a5b0a44479cf98f76aac56ddfe108 scsi: lpfc: Fix memory leaks in error paths while issuing ELS RDF/SCR request
+e78c006f4c888231cdabb8a4286ba17980a903fa scsi: lpfc: Remove REG_LOGIN check requirement to issue an ELS RDF
+affbe24429410fddf4e50ca456c090ed6d8e05bf scsi: lpfc: Fix KASAN slab-out-of-bounds in lpfc_unreg_rpi() routine
+a9978e3978406ef5e35870b10e677cf75a2620b6 scsi: lpfc: Clear outstanding active mailbox during PCI function reset
+137ddf0384722afef308dd40696fba55e6680ad2 scsi: lpfc: Use PBDE feature enabled bit to determine PBDE support
+816bd88dffc5716d8bff7cce9dbaa19ef375bc97 scsi: lpfc: Enable adisc discovery after RSCN by default
+0614568361b0c1827f999b1fff21223a496c740b scsi: lpfc: Delay unregistering from transport until GIDFT or ADISC completes
+c65436b21c3abbdaacd9c9f68bf2fa94e103168d scsi: lpfc: Call discovery state machine when handling PLOGI/ADISC completions
+02607fbaf00d9aac8fe97b1d9643f09ebdb47922 scsi: lpfc: Skip reg_vpi when link is down for SLI3 in ADISC cmpl path
+ab803860882514ddbf97713b143b861b524e8476 scsi: lpfc: Skip issuing ADISC when node is in NPR state
+545a68e711ee4d6ed11cec956bb06cb52c95e83a scsi: lpfc: Update lpfc version to 12.8.0.11
+f2af8ffc63a184ab425e0a02308f7fdcf8a53f1c scsi: lpfc: Copyright updates for 12.8.0.11 patches
+d3af3f647bd57be2f6a007d12eaf55e20524fb96 scsi: smartpqi: Add PCI IDs for H3C P4408 controllers
+889653ecfc989349bf61736e45695b614d5b64d1 scsi: smartpqi: Update copyright notices
+6aa26b5a2c70ca302718dc0d5db092780e4b6f6c scsi: smartpqi: Change driver module macros to Microchip
+8e505fceaa2b7c7841b70ed530167727bb66517b scsi: smartpqi: Change Kconfig menu entry to Microchip
+f0e473e0f603bcd4fbbbd2913208aaad8191efec scsi: smartpqi: Add SCSI cmd info for resets
+e326b97c92ccbe0fa9256902ca0c20e2b6c40168 scsi: smartpqi: Add PCI ID for new ntcom controller
+09d9968a8eff8c098149295ebb62a453a862b9c6 scsi: smartpqi: Add PCI IDs for new ZTE controllers
+0777a3fb98f0ea546561d04db4fd325248c39961 scsi: smartpqi: Fix ISR accessing uninitialized data
+f339c7e491a8150d416d4aa657fe379c20fe6b79 scsi: smartpqi: Update version to 2.1.10-020
 
---===============3554744057354822171==--
+--===============7131217013922223148==--
