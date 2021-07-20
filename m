@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 20 Jul 2021 19:42:41 -0000
-Message-Id: <162681016140.31970.17355173790923900747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 20 Jul 2021 20:21:43 -0000
+Message-Id: <162681250367.27065.17334464301288132399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dm-5.15
-    old: b2d0da233e2198c118e5e2f46ac3786dbd4893f4
-    new: 962e538360acb21033f4449c188106fd62cbbf6e
+  - ref: refs/heads/master
+    old: 08f71a1e39a1f07a464ac782d9b612d6a74c7015
+    new: c39aa21599748f3845a47645f482d94099b11460
     log: |
-         7030585ed34ce8687f617940381dd5f56bd63526 dm: update target status functions to support IMA measurement
-         962e538360acb21033f4449c188106fd62cbbf6e dm: add documentation for IMA measurement support
+         c39aa21599748f3845a47645f482d94099b11460 bpf, selftests: Fix test_maps now that sockmap supports UDP
          
