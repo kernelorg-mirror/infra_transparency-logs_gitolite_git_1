@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1208086702958229965=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 20 Jul 2021 14:05:34 -0000
-Message-Id: <162678993405.23150.15880676557728442373@gitolite.kernel.org>
-
---===============1208086702958229965==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 20 Jul 2021 14:07:00 -0000
+Message-Id: <162679002013.31854.4405635416125263867@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 00f180ac0d2d4d50534a729cd563ea71bb593fc1
-    new: 4be16be032c262693e96b7621e9241fd6cd65ce2
+  - ref: refs/heads/master
+    old: 08f329fcddd50dc6f12f9bdbf7e4c9afce6e0d82
+    new: a38c02ef48a1411ea3fc4403a07e7124ad43d5e6
     log: |
-         4be16be032c262693e96b7621e9241fd6cd65ce2 Notes added by 'git notes add'
+         8b72b301b442907742c1af1b8fcb52e351a2aac1 net: phy: add API to read 802.3-c45 IDs
+         7d901a1e878a1cf8dd3ba7b4c057ad5eb7a40af0 net: phy: add Maxlinear GPY115/21x/24x driver
+         c6451cda100d4ebbc3f6819e1161ce0e38ce7746 net: switchdev: introduce helper for checking dynamically learned FDB entries
+         8ca07176ab00a6d06a9b254dcbb2514b4d607e9c net: switchdev: introduce a fanout helper for SWITCHDEV_FDB_{ADD,DEL}_TO_DEVICE
+         b94dc99c0ddb74713da315853919393fb3e63b96 net: dsa: use switchdev_handle_fdb_{add,del}_to_device
+         083cd5a42d0f676eb5ccb7c5b3a889d7453e367b Merge branch 'fdb-fanout'
+         a38c02ef48a1411ea3fc4403a07e7124ad43d5e6 dt-bindings: net: fec: Fix indentation
          
-
---===============1208086702958229965==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626789933 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1626789932-728ab72be98ff9de3292e50cc62b2a1ad8bdddae
-
-00f180ac0d2d4d50534a729cd563ea71bb593fc1 4be16be032c262693e96b7621e9241fd6cd65ce2 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD22C0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V1oP/2wEkj8CPvOYFXWhzFcv
-dStQh/Hz22v0hCiBtQGVzzigguQKUmlRtJ6x4Q0+AHM1qfWH0g880dOFTP2HJg2m
-yCv9QaMo23EJAi3WZjSFSKyq0Z47xp4gXzcmdWcGzVwfgYmUyW2L/N8RJF4oYlHc
-lzfzWp2Aarh706Ue0VUPyAkU6XQ6IHD5ti1sK+e389gOPeykFyn33borwmpNLFCf
-E8dcjD6b5R03JT+yS/E2WVAn3cpgn5Vk5D8VWmcRQaOlLUrSiUzNqTGGt243DwSs
-DtWf4qfw6Dl3WesE3IgRtVgF6Z5rMDK4hbMbwcWE49eAYQqxXlyvLGBz/39UeS8s
-zD6H2cpTVPT+tUWjFqXcKNwipJpQpr9ZDeuluF2QsRH48zf9ZwstNXj7v70rqW1a
-1KQzWmqqTE0NJSlyUBssCNdjyB8nWzt6jaaf0jqISd2cpEGt1VPiZ0a7ymZJ/Tg0
-JVgb//+nVLKdCvzIpBFCet0awFYLI+fX/bm+ZMC+Z+T+z2xNsFlbtqgL1p7Tn1Nj
-Cw/r38i4sATmPJt4x6n9P0v1hFjGw7QYFeKARKhfQY3fEVElz54nxfPkCNBPrEGN
-GYBAZX5JS6NdyXRbqiW5CqwZp4MQSoV/1cgNlgKR3MdQvt5Bw0tmbsF8/E8s66Vr
-qPFMB+ZIyi9SceRq84Of+OVi
-=wdIr
------END PGP SIGNATURE-----
-
---===============1208086702958229965==--
