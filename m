@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5029823912633764198=="
+Content-Type: multipart/mixed; boundary="===============8673389448110322413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 20 Jul 2021 16:34:16 -0000
-Message-Id: <162679885656.13674.12511303145846413260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 20 Jul 2021 16:34:22 -0000
+Message-Id: <162679886224.13781.10309624875917495754@gitolite.kernel.org>
 
---===============5029823912633764198==
+--===============8673389448110322413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 18af54feb85d1d69dc93431547bdab05c219d2b1
 
---===============5029823912633764198==
+--===============8673389448110322413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -493,4 +493,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 8cae8cd89f05f6de223d63e6d15e31c8ba9cf53b seq_file: disallow extremely large seq buffer allocations
 
---===============5029823912633764198==--
+--===============8673389448110322413==--
