@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6781027415299950943=="
+Content-Type: multipart/mixed; boundary="===============4001802893760549035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 20 Jul 2021 18:35:38 -0000
-Message-Id: <162680613879.20054.7204395882629345031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 Jul 2021 18:35:45 -0000
+Message-Id: <162680614555.20161.11244391304136974983@gitolite.kernel.org>
 
---===============6781027415299950943==
+--===============4001802893760549035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/regulator-5.15
     old: f020e4d0b4016f5592d082cc3a1db430c567c4dc
     new: 0555d41497de66d2f07ae36dcb46a32f0ff90d8d
     log: |
@@ -24,28 +24,28 @@ changes:
          0555d41497de66d2f07ae36dcb46a32f0ff90d8d regulator: rtq2134: Add support for Richtek RTQ2134 SubPMIC
          
 
---===============6781027415299950943==
+--===============4001802893760549035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626806135 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1626806136-c7c3378d457741fa1c5189760b62bb530b53abe3
+pusher C3F436CA30F5D8EB 1626806141 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1626806143-d7f486964b12fc91d48eaecccb8104cda324e173
 
-f020e4d0b4016f5592d082cc3a1db430c567c4dc 0555d41497de66d2f07ae36dcb46a32f0ff90d8d refs/heads/for-5.15
+f020e4d0b4016f5592d082cc3a1db430c567c4dc 0555d41497de66d2f07ae36dcb46a32f0ff90d8d refs/heads/regulator-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD3F3cACgkQJNaLcl1U
-h9AevQf+PWqIFc/7/BDntw7MYBbYTdPSxKus4+v4aY3rztTMeuUdRU+ZYKDcNohx
-fUweDdCO3PsA+/x5UMnsyysQrpOp6jg3k3SexEja0R6D0Jp1XQfGhuaKtDb8VlFq
-grTrbudgpiNhLgMl3jZFKe14VUD0LPIp0bFCQ5O1Ye9NLhbqsXDLplLFIur8knQ1
-NpMCa1L+KvOX/+x4PbIH2bZ/3NuYK3sRge6uDk/0KTA+MXNdUaghlqsKBVquP4+d
-eG+U8zWhkkiLb13uEnuADY6yHify6QsaLA7J6/FAbAI8/+Fk048FWWcR6JlejJLN
-Ugqfi03MmoczyFy1H+4F47WIEtXebw==
-=pPsX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD3F30ACgkQJNaLcl1U
+h9DCOQf/XmN95X+3Ka85Y7CQAbw6B7T8kaRH4ziHwk0X6CPvrYnlYieemSmvbGap
+YKdI3cQ9kocaBmK8e0vtqeAKIcKlLbiwHoG80RIIudVXDz24RVJZZViPjFFgqssg
+/HjtDqiRZNkkdPKdj3mgcA2zLkGENEaiUXV1Aj9zI1Xs3qE4hEiy1ajQY8ejLRX7
+W6sF0gk0u5FvT+g7/rwYsulCV1lpurcWdIiNVx9na+U4XWXh5a5QfbLgJBYf8c86
+weXkiBF9vaPjkOI2mBihp7hpGpEjtcGyIj821YqfOhN949jor6gTWjz8iyr+FGe6
+vsdyFl8vbF71aNaPD53Tzz7Steh61Q==
+=TggO
 -----END PGP SIGNATURE-----
 
---===============6781027415299950943==--
+--===============4001802893760549035==--
