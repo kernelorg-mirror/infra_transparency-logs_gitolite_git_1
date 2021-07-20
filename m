@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7932956044882053384=="
+Content-Type: multipart/mixed; boundary="===============8590714700112616619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 20 Jul 2021 02:19:54 -0000
-Message-Id: <162674759469.2625.17166961283259707802@gitolite.kernel.org>
+Date: Tue, 20 Jul 2021 02:38:22 -0000
+Message-Id: <162674870206.15139.9926104722826495315@gitolite.kernel.org>
 
---===============7932956044882053384==
+--===============8590714700112616619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
-    old: 99d518970c5a1901e83cdd4a0a6ff5a41ba56a56
-    new: 0d6835ffe50c9c1f098b5704394331710b67af48
-    log: revlist-99d518970c5a-0d6835ffe50c.txt
+  - ref: refs/heads/mlx5-queue
+    old: 2babeeb14fddeb8dd8b9015090b67e4351f1493d
+    new: 48eb7fac6db98462a73569cf0ee2357a0a1b03e1
+    log: revlist-2babeeb14fdd-48eb7fac6db9.txt
 
---===============7932956044882053384==
+--===============8590714700112616619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99d518970c5a-0d6835ffe50c.txt
+Content-Disposition: attachment; filename=revlist-2babeeb14fdd-48eb7fac6db9.txt
 
-4a8f021ba0a220a95d4251ea3f199ef693f1249b userfaultfd/selftests: exercise minor fault handling shmem support
-2d2b8d2b67713da5de333a8849342503a9f21c60 mm/vmscan.c: fix potential deadlock in reclaim_pages()
-764c04a9cbe6f66334ed9a8a154e7d1b4b535da9 include/trace/events/vmscan.h: remove mm_vmscan_inactive_list_is_low
-3ebc57f40316049139ab9ca3d19e52449106ee9f mm: workingset: define macro WORKINGSET_SHIFT
-781eb2cdd26f3748be57da9bed98bbe5b0dd99fb mm/kconfig: move HOLES_IN_ZONE into mm
-8d719afcb34434ebfa7911338d8c777eca8452b0 docs: proc.rst: meminfo: briefly describe gaps in memory accounting
-3c36b419b111e28a657e6534aae07964a98a5ca9 fs/proc/kcore: drop KCORE_REMAP and KCORE_OTHER
-2711032c64a9c151a6469d53fdc7f9f4df7f6e45 fs/proc/kcore: pfn_is_ram check only applies to KCORE_RAM
-0daa322b8ff94d8ee4081c2c6868a1aaf1309642 fs/proc/kcore: don't read offline sections, logically offline pages and hwpoisoned pages
-82840451936f0301781ece80322230fd8edfc648 mm: introduce page_offline_(begin|end|freeze|thaw) to synchronize setting PageOffline()
-6cc26d77613a970ed9b5ca66f230b29edf7c917e virtio-mem: use page_offline_(start|end) when setting PageOffline()
-c6d9eee2a68619b5ba1c25e406a9403f33b56902 fs/proc/kcore: use page_offline_(freeze|thaw)
-e3c0db4fec46b46a0c22b46bb55392b36ec940fc mm/z3fold: define macro NCHUNKS as TOTAL_CHUNKS - ZHDR_CHUNKS
-014284a0815f6b9a6e10c8d575d37a5357ce033d mm/z3fold: avoid possible underflow in z3fold_alloc()
-e891f60e28c3e90e2589a7d2147ae192dca11245 mm/z3fold: remove magic number in z3fold_create_pool()
-767cc6c5568afa50ef6abbd4efb61beee56f9cc8 mm/z3fold: remove unused function handle_to_z3fold_header()
-dac0d1cfda56472378d330b1b76b9973557a7b1d mm/z3fold: fix potential memory leak in z3fold_destroy_pool()
-28473d91ff7f686d58047ff55f2fa98ab59114a4 mm/z3fold: use release_z3fold_page_locked() to release locked z3fold page
-f356aeacf7bbf32131de10d3e400b25b62e3eaaa mm/zbud: reuse unbuddied[0] as buddied in zbud_pool
-2a03085ce88792bac2e25319fc2874a885e7e102 mm/zbud: don't export any zbud API
-17adb230d6a6e39f9ba39440ee8441291795dff4 mm/compaction: use DEVICE_ATTR_WO macro
 d2155fe54ddb6e289b4f7854df5a7d828d6efbb5 mm: compaction: remove duplicate !list_empty(&sublist) check
 b55ca5264b0c0092f238e2f4f33319ba6e9901ab mm/compaction: fix 'limit' in fast_isolate_freepages
 b26e517a058bd40c790a1d9868c896842f2e4155 mm/mempolicy: cleanup nodemask intersection check for oom
@@ -1050,5 +1029,26 @@ ce2639ad6921fbaf8a854b5d1b1033adee685e6e vmxnet3: update to version 6
 ab0441b4a92053228f1f089f66d2fc100f3f9dd3 Merge branch 'vmxnet3-version-6'
 23d2b94043ca8835bd1e67749020e839f396a1c2 igmp: Add ip_mc_list lock in ip_check_mc_rcu
 0d6835ffe50c9c1f098b5704394331710b67af48 net: phy: Fix data type in DP83822 dp8382x_disable_wol()
+5f4cb82fdd8e3f9d7543a2d0031f0ee11810a746 netfilter: flowtable: Make sure dst_cache is valid before using it
+0f096e0f3dcfb3367b5ede371623858ff08a7c02 net/mlx5: Initialize numa node for all core devices
+160fd924522980b31b553dbcd7ffc58a73d2f8a5 mlx5e_rep: Support native XDP
+5d5890d45e872f7ca0801ac1f10d0989c46acb4e mlx5e_rep: Support zerocopy AF_XDP
+082d13e83a9cffa47d6e7554bd79e7702586e79c mlx5: Add subtree flag for root namespace
+3ca5d6030e6e0073ba9100ecba739494f6c54d5a mlx5: Add RX flow namespace per rep device
+dc4e20dcce1d434038b6751279c28c944a3d2807 mlx5e_rep: Use per-rep namespace for root ft and ttc ft
+b4967c44415e984a3eeb3b24ae54e49633955b14 mlx5e_rep: Use per-rep namespace for ethtool steering
+2a00d96907ae98e4de597754d6c0251850602b50 mlx5e_rep: Support ethtool steering for VF/SF rep devices
+f09ef6b7fd4c6b14c32f2ec7475d82ff30c6b62f lib: bitmap: Introduce node-aware alloc API
+dd26dcf45c608bfa987d55b02c0114367d3c41c9 net/mlx5: Node-aware allocation for the IRQ table
+17b27a0f3bbf3de3b9d4a02d09d06b96bc675090 net/mlx5: Node-aware allocation for the EQ table
+9229f5552c6088131626c2a6749bc14ff06886d9 net/mlx5: Node-aware allocation for the generic EQ
+b723f01c9a1740d37c74c2fb89c5a6035d97c13f net/mlx5: Node-aware allocation for completion EQs
+daa263d395e91d99a3c69316fb7f6d9b12aac2d5 net/mlx5: Node-aware allocation for UAR
+c0c3cfdd39439d36bf99437bdd54b534b8816d37 net/mlx5: Node-aware allocation for UAR bitmap arrays
+b867dc9a9b5d31dd34cc7ef67a70477dab35be27 net/mlx5: Node-aware allocation for the doorbell pgdir
+70a5ea3dd108f73071cb5d92a7854399e930e958 net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+f4c8baff80146b0f1e220773c93eec0da3134b38 net/mlx5: Node-aware allocation for buffer metadata
+734aa05b27763c802d66f78d787ceb72530dc0c9 Merge branch 'patchq/379402' into mlx5-queue
+48eb7fac6db98462a73569cf0ee2357a0a1b03e1 Merge branch 'patchq/362918' into mlx5-queue
 
---===============7932956044882053384==--
+--===============8590714700112616619==--
