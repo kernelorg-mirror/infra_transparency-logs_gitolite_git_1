@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 20 Jul 2021 18:36:44 -0000
-Message-Id: <162680620473.20883.18015170039009178621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 20 Jul 2021 18:37:00 -0000
+Message-Id: <162680622095.21118.10305717363837751941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 30920b5b711a3cbc1ecea9ba5667cc73632b7bd9
-    new: a674dd644ca4fc408391cdbf1a204e2453730694
+    old: 83a19f5184f0cbd806303dd02b136d2ceeb34777
+    new: 621bdeacf29be29d2418d9115fff0547992a7632
     log: |
-         a674dd644ca4fc408391cdbf1a204e2453730694 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+         c45c1e82bba130db4f19d9dbc1deefcf4ea994ed spi: spi-bcm2835: Fix deadlock
+         621bdeacf29be29d2418d9115fff0547992a7632 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 5c5600cba3a22195a244a3f0e605f4a6adc21b26
-    new: baa02c98ac0b31ab5d4dc5ad6513449aecf0cd3c
+    old: 9ca49e85e5f30bebea542f73712f57dc24208898
+    new: e0cdbc079fd5934b7d4c68e909d670d02b07711e
     log: |
-         4c922fd3d6fa4d51e1f5bb845548cbefd5de3d14 regulator: rtq2134: Add binding document for Richtek RTQ2134 SubPMIC
-         0555d41497de66d2f07ae36dcb46a32f0ff90d8d regulator: rtq2134: Add support for Richtek RTQ2134 SubPMIC
-         a674dd644ca4fc408391cdbf1a204e2453730694 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
-         baa02c98ac0b31ab5d4dc5ad6513449aecf0cd3c Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
+         c45c1e82bba130db4f19d9dbc1deefcf4ea994ed spi: spi-bcm2835: Fix deadlock
+         621bdeacf29be29d2418d9115fff0547992a7632 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+         e0cdbc079fd5934b7d4c68e909d670d02b07711e Merge remote-tracking branch 'spi/for-5.15' into spi-next
          
