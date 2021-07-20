@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 20 Jul 2021 14:08:59 -0000
-Message-Id: <162679013962.999.1987107137326580373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 20 Jul 2021 14:11:13 -0000
+Message-Id: <162679027390.2163.17323764901568220493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 3a1e341c5687b4e8fe51ca1c933b1f23ab3304c1
-    new: 7f6726b63595c7ec8bc410364ab3be6cf4d4d407
-    log: |
-         7f6726b63595c7ec8bc410364ab3be6cf4d4d407 ALSA: nm256: Fix error return code in snd_nm256_create()
-         
   - ref: refs/heads/master
-    old: 850d5da9888ccd09f2746a4170541a49379bc10a
-    new: 89b4a874d2af12ad13c1c36cdc93bbc05f56cd97
+    old: 0ac26271344478ff718329fa9d4ef81d4bcbc43b
+    new: b79c6fba6cd7c49a7dbea9999e182f74cca63e19
     log: |
-         7f6726b63595c7ec8bc410364ab3be6cf4d4d407 ALSA: nm256: Fix error return code in snd_nm256_create()
-         89b4a874d2af12ad13c1c36cdc93bbc05f56cd97 Merge branch 'for-next'
+         6a0eb6c9d9341cb076cd803864fff5889aa3fc03 dt-bindings: net: qcom,ipa: make imem interconnect optional
+         f8bd3c82bf7d7d602f7ee219b8e68ac4dac0a3c5 arm64: dts: qcom: sc7280: add IPA information
+         fd0f72c34bd96a1138b89585ce6bfcd9617ea81e arm64: dts: qcom: sc7180: define ipa_fw_mem node
+         b79c6fba6cd7c49a7dbea9999e182f74cca63e19 Merge branch 'qcom-dts-updates'
          
