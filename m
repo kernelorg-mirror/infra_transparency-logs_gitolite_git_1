@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2599797524728355411=="
+Content-Type: multipart/mixed; boundary="===============3807664943782266049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 20 Jul 2021 02:10:08 -0000
-Message-Id: <162674700871.28319.1360438835732133075@gitolite.kernel.org>
+Date: Tue, 20 Jul 2021 02:10:13 -0000
+Message-Id: <162674701351.28407.3610785551281123159@gitolite.kernel.org>
 
---===============2599797524728355411==
+--===============3807664943782266049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 013270cb83947041d8735a8f15742175e71994b0
-    new: ae7e6191814372ca889787ac897ddfc803f4fa4c
+  - ref: refs/heads/5.14/scsi-fixes
+    old: 053c16ac89050ef0e8ab9dc1edaf157bf104c8c6
+    new: fae21608c31ca987d9dfc0422ac9b5bd21c213a6
     log: |
          e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
          6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
          fae21608c31ca987d9dfc0422ac9b5bd21c213a6 scsi: mpt3sas: Transition IOC to Ready state during shutdown
          
 
---===============2599797524728355411==
+--===============3807664943782266049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1626747006 -0400
+pusher 75C5DE3D 1626747012 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1626747006-683e8e74b7222a041010c2af9367ea72e28811a1
+nonce 1626747011-36c20fcca2a27cb4522039c0352741f2dbd7e87d
 
-013270cb83947041d8735a8f15742175e71994b0 ae7e6191814372ca889787ac897ddfc803f4fa4c refs/tags/mkp-scsi-fixes
+053c16ac89050ef0e8ab9dc1edaf157bf104c8c6 fae21608c31ca987d9dfc0422ac9b5bd21c213a6 refs/heads/5.14/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD2MH8ACgkQ7ulgGnXF
-3j3aeA/9HKONDCYczFcPD4p28tJGFEOwy+hKJho4s4+8OFTrpms8E7YcM3gTkoLE
-Bxhjh1kG9wyddLgxnXZfE3rY18AUqsiY1h2qdXFN/yqSMaDVJFv6tKRwkCFEGxn8
-vwR8yphM5rQvcO48RHePNQUR3SiL5CAJRlwoaGD2d+MD+q4+UOD4lUelgykWG5is
-IJvDWteUwcVj0of2KOKxh3aaRMuBBUu6Cn5cHudVi1PufaH3ou1U5G2YGw0JyVPb
-DvZOgZ+HFNBjd4Btxndh8BQRK/9gNNW+wYY5yGokCota7LK0vvexV3yGOmRAZT/K
-PrBklMI5rBOGsV3b8Zzyd06AVKFx1zsanzILEcb4cMRPU5mpXyWaLs+xORH5hhCQ
-eRog6n2pnxxjP7/XyeU2zfDZ20ZrnTz2AxutA5ZanLZ1CIg+n+CygninRrlq1ulC
-CVzVZ4KR7H3idaTi1tEFt5J4KmPIN1TFo4LXZdWNtTRVsXNeDHRxVwA6+s6WLOdb
-pVcD2xFvaCRrP+ZgYr866NsFk+jzFB7PLvYf2KOZtMUEUhy6DVlwVtiT4waZvXJe
-kKsdbWliU4pnd3CXHqE+5qsJK/A/UFAJmmhPdMmtaog7oikvk0Kwv9jbT7pD+6TF
-IIU3am71beUuvUR5oBgUVBEi+QR1H9/zsjRMg9leC3fh3+Xrj7g=
-=cb1O
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD2MIQACgkQ7ulgGnXF
+3j1T8w//fS35UccI9OxI0Nwkv7qXegTvIkW2H9UsCfBLeZSQ+ssHWaqS4iwZkIfs
+d1BgoKVfRv5+8Z7SndhLI+QquCkBoW78fv1xnceRLzAPriEoaf1Gw5/Ky/qmmPNR
+MwCCuL3phCdDAsxkz5KIZ9mk2M3wp3vAyMoD3wgkPvT9wwyyDtI1rtHc6SWo4B5S
+OmeCwcnt/Vg4mnoRox/i3tSTHdZTKjUT6YhXRkw+hLPqHzlCdSLyfC8HmpBRgiWR
+HER2suhBSpeMs4CVlf433+KPSLo020qChMlLgoetAImwLPYZY0B2zHcRZDD7auoy
+HSpLG8X2rMR4IcTIYs48CfiooDUx29GRJm/pufQvVYWbe7pH9RSPhooSTtPvR8sj
+Asp91NUwarYh4X+TPh/fsmBg/8+ctLrnz7W2Y7sU9kX25FwDb/BRiJZIFNTiDrHF
+/rw+nNpYx7HkweuXEHOBjXAqRYcIAFwPuey43pmJpfsevytw4mwZJMxpRvdB4KSo
+MBGeiZeaQ+GRWKmzD1ZTHCjNfDw46luTq9ZY2Xxstqd5GZsXJmjOe4Ja0d0I/70W
+PvbBnsGGsbRX2A5+Lwh+fIeTgssOjM49Rft2pZkddh5Pgm+I4AcibtLjbE4Vd3ai
+7q+4AJ2qE9q2qhTR5nYqo6xj2RPczwkT2OrLWQNf7ktkVECNz8o=
+=u6pi
 -----END PGP SIGNATURE-----
 
---===============2599797524728355411==--
+--===============3807664943782266049==--
