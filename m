@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3013565125604495571=="
+Content-Type: multipart/mixed; boundary="===============4468031710421222504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 20 Jul 2021 06:24:36 -0000
-Message-Id: <162676227619.1877.8791473259529995858@gitolite.kernel.org>
+Date: Tue, 20 Jul 2021 06:24:41 -0000
+Message-Id: <162676228183.1991.9628383109167799847@gitolite.kernel.org>
 
---===============3013565125604495571==
+--===============4468031710421222504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,395 +16,466 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.13.y
-    old: 6c45a6a40ddee3fd5e7e780dd68cac22203fed77
-    new: 1d9dba03aebe5171ad487d3ec69485c6cd17544a
-    log: revlist-6c45a6a40dde-1d9dba03aebe.txt
+  - ref: refs/heads/linux-4.19.y
+    old: dfee0ece72748f6e5a717edb5eaedcb8fa3060ed
+    new: 9ec1965d618f6ee0de12cfed19640954abd387ae
+    log: revlist-dfee0ece7274-9ec1965d618f.txt
 
---===============3013565125604495571==
+--===============4468031710421222504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626762272 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626762277 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1626762270-55193309dd7289ee43c3c79bb4eb7f967f8df381
+nonce 1626762276-dd9ccbf01aa4ab0ec6468b64af3c831a865dc5ac
 
-6c45a6a40ddee3fd5e7e780dd68cac22203fed77 1d9dba03aebe5171ad487d3ec69485c6cd17544a refs/heads/linux-5.13.y
+dfee0ece72748f6e5a717edb5eaedcb8fa3060ed 9ec1965d618f6ee0de12cfed19640954abd387ae refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD2bCAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vvUP/1mDytwNF3t2svmoz27c
-4tSMNQVXXHB4nFD33T+l5vXrSssjCjEwFoihX7poZJs+bWmZk1MjMXV53mGiyWP8
-/RjMP7lQL/YSgzk46Rc0jzNpz8EquB19fFuFz7/V+x/mklbdCpz7OvprOf2Szz16
-nZgulfNcL8HM1krERfQpVEBc40dZurj7+SlEmYgLD/vJNJHPorAMQoo/rOkdYfEK
-QnowalNBpwa6S4yladgftNPrDBYaIh6viCpauRd7DGq6sK7wFWXbpURwOgzgz9OT
-4x5QZAy5Lbhe/4ID+oPujB1ebDj6uQdm0nFzyIXHMZ3MCke+4rSO1n2jcyb4RP9Z
-m8SBPx5F1mT+D8roPeB665ojQDmbQw1dyAeZ6Au9VL5Om7zg1tFo6BbDpThNt2Kl
-egt3QonK60Ij2obTV+l5iMeS+KieQVdMizzr23hxmBN0iEV1pDlDGiFLD5cHOD4I
-J0hsLQTlnBDQ9eEpoRYIuojQZw9AFAhZqN7dWSHaRXibhhDYEzBayVGibvE1ombl
-mEqCtkjF/oUH8ChvQ6dfjdGUGMpek7Z5IsPwoPUaIjefucjTS3R8SfG3Mo53wkDM
-Bz5KhHXCftPTS8PawVaZAJn8kegGAI434CVfOaeTlsUj3SzYjvz/UM3t/np8hVkA
-0gZx6e3Zo2S2rD1rKZxSh5SO
-=CFXh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD2bCUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gUQP/RCR+AclxGq4l/Pz89sI
+OwIYKDuDXKWYXLu7kvUHLQ9A0knRX3aL/1kq/S8bDSgraXIQpPXuWR1V09jEdeCl
+gzSKpszNk/dMrn9l9B3ZJEnYWnqEmEoOQacRZVBsW0uvUH9WgnIpBX+JbpQC17OM
+mvqYOnqMM2gw19qg9QmzqZvOzAD8SvKYhoxID9Uv3MYe49q63cOFtnUHhINv1mBT
+yH8Ch9A2NuTm076suypSCF1bSHfMRWxDBa2yUlkw2geZmzCenbtCX0uHOsEJ9b+m
+x+DYCDQ5MarKRFYXAQgiIoeRHqC7yr9E4hidCbmS10EM+LOu5+P9l3GTeXCUwjZW
+cQl4De1qL/gCPz9GUGygZGkQZrsRNHwVshSmv5njjb3RgjDasrJuFooRIHQPKLaJ
+fazdikYMTMnZBj2yqxYvyFSqXvw73up9cPdfGmWY5pi355jqtUAXW5MPgNlAfOdv
+RPGScNGCnTtb2N7vSyb0FNK48fGULGv9Q1Pc1u9cHhrcSbkjimaBxHmC+7Iyyymh
++3NpyNiH2FQ61E8tcAequxxEDe0Ms8JntJmuKTLgSlQt1JO3+SOZBQQ9oXtNc5rP
+Vvzi+rEA7D72Gl/+p2oAY8ud/Jwdl4yN6KBtQx8X4JKlZpjqJF1qDEj2/PrS0bij
+NxhQkjJZNiGlVlUSnc2vLuel
+=KsBb
 -----END PGP SIGNATURE-----
 
---===============3013565125604495571==
+--===============4468031710421222504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c45a6a40dde-1d9dba03aebe.txt
+Content-Disposition: attachment; filename=revlist-dfee0ece7274-9ec1965d618f.txt
 
-42bcaf099bc2e3a7233edbed6324b57fc8736d33 cifs: use the expiry output of dns_query to schedule next resolution
-9afdca18585c114d1494d469da7007fc29d3725f cifs: handle reconnect of tcon when there is no cached dfs referral
-f1b4bf08b7c5e8ae75a91b1264b187fe4991b38b cifs: Do not use the original cruid when following DFS links for multiuser mounts
-b13cffd5b9e5b3f252de0ee76be856875d049651 KVM: mmio: Fix use-after-free Read in kvm_vm_ioctl_unregister_coalesced_mmio
-e6af87b8750e2c3b52d343830c0f286d4325325d KVM: selftests: do not require 64GB in set_memory_region_test
-4e31f58a4c6567c50b5bf4c88cae01530898c1b4 KVM: x86: Use guest MAXPHYADDR from CPUID.0x8000_0008 iff TDP is enabled
-976351d74e3785a1e2693315abe05b8f39cf81b8 KVM: x86: Use kernel's x86_phys_bits to handle reduced MAXPHYADDR
-6e833df8404ca5815e96c3cec2903177ed5d1bdf KVM: x86/mmu: Do not apply HPA (memory encryption) mask to GPAs
-894dfc5fce6346c4a39f637f6f910abd41d43140 KVM: SVM: Revert clearing of C-bit on GPA in #NPF handler
-f63a4a820d54b80854f56fbc17ebdcc5cb32d593 KVM: nSVM: Check the value written to MSR_VM_HSAVE_PA
-01ce075353219ac872c0295b767dfd788b5e8be3 KVM: X86: Disable hardware breakpoints unconditionally before kvm_x86->run()
-3b1ccc7b27573860673e7301c000503a3442444a KVM: SVM: #SMI interception must not skip the instruction
-abf26addd1b2a66dee77af003f19472f2cf21932 KVM: SVM: remove INIT intercept handler
-e7971fea1e435dd589833ed9a23a9f3dfb7a4e78 scsi: core: Fix bad pointer dereference when ehandler kthread is invalid
-4849fa353a410176296dadf2b75b9d700a6edfe3 scsi: zfcp: Report port fc_security as unknown early during remote cable pull
-c5dc56a532d96f31e6172686774a10c00f263532 iommu/vt-d: Global devTLB flush when present context entry changed
-ac215b07555d31bf0f9203540b19a5b90ca7630b iommu/vt-d: Fix clearing real DMA device's scalable-mode context entries
-a645d86cbd50e67f2130960f1b6fddc9af52a49a tracing: Do not reference char * as a string in histograms
-6bb6ad7864c19e6a963b1f99c0aaf3635edc4994 drm/amdgpu: add another Renoir DID
-751ec876a9a179f1f0643de930b6ed9c35f7260f drm/i915/gtt: drop the page table optimisation
-c1ea9345d150f263012968547174297222dc38cc drm/i915/gt: Fix -EDEADLK handling regression
-c85a9cefe1fb5ae35e444fecfad13da778dd54ce cgroup: verify that source is a string
-0167a902f74d3cab57b4751fb14f2704ad1b69ec fbmem: Do not delete the mode that is still in use
-b98d3e769002a82d8bda29ad06328406552cb5e6 EDAC/igen6: fix core dependency AGAIN
-f20f4cf2b8beaf4b9dc69c386aee35c967d915fe mm/hugetlb: fix refs calculation from unaligned @vaddr
-69ab2e9d2922ca6c67244f1d38c188ac3ccf6583 arm64: Avoid premature usercopy failure
-441ec69572cd8e325a6e867ec4e8c260b99ba4b5 io_uring: use right task for exiting checks
-358eb588a06ed3db73d30027a60adacb16befbeb btrfs: properly split extent_map for REQ_OP_ZONE_APPEND
-761ac2a0e5e02a77c1aed66fd8d9a2e99b812bca btrfs: zoned: fix types for u64 division in btrfs_reclaim_bgs_work
-731d3ee4877bf2fe52fc4b61f01a62ab6adf5736 btrfs: fix deadlock with concurrent chunk allocations involving system chunks
-fb0949756f956c2ae7d50153e0104a195791b12f btrfs: rework chunk allocation to avoid exhaustion of the system chunk array
-66fd741d4460ace715e609429f7c44fd5278b637 btrfs: don't block if we can't acquire the reclaim lock
-feaaf3e23d676cd2f2a4aab85c4229ac7e4327f4 btrfs: zoned: fix wrong mutex unlock on failure to allocate log root tree
-ea6d92cb5c915c8cafda3891075179d391c3f29b drm/dp_mst: Do not set proposed vcpi directly
-7c2e9072ace3f280fa2025e85f74c8fee67a3198 drm/dp_mst: Avoid to mess up payload table by ports in stale topology
-5ab0a59e466ca29be81b41b6d424637c4f8a2029 drm/dp_mst: Add missing drm parameters to recently added call to drm_dbg_kms()
-394005aca003daf5ad7f0ca38bfe24d0d9b821c1 net: bridge: multicast: fix PIM hello router port marking race
-e2f98a46d26607df766b07ec0e3495a1653a812b net: bridge: multicast: fix MRD advertisement router port marking race
-0d11e403c9ee67a0b65e2bc18057aeef2a37b96d leds: tlc591xx: fix return value check in tlc591xx_probe()
-c1f5995dab6ce602c50f5b08700a6f546f190c69 ASoC: Intel: sof_sdw: add mutual exclusion between PCH DMIC and RT715
-84bb0247cb420ebe6f87e3ce0ec04891d8e7d49e dmaengine: fsl-qdma: check dma_set_mask return value
-8316439ed427d0faa015f60ec6ec67a2cfbeadee scsi: arcmsr: Fix the wrong CDB payload report to IOP
-3a7f360f3350349da288a2d35dc5ab64565fc3a9 srcu: Fix broken node geometry after early ssp init
-bcc170de6cf0dfbc2d605b60e8f160c98a21c7f0 rcu: Reject RCU_LOCKDEP_WARN() false positives
-8694fa77b0dc951aa7590488a681dc506ee36788 soundwire: bus: only use CLOCK_STOP_MODE0 and fix confusions
-ecdfa06676d662d5e0ae8c30ddf459f7f913b27f soundwire: bus: handle -ENODATA errors in clock stop/start sequences
-c5f4a7a41429d3a6be9a82749825db7aff3c00b0 usb: dwc3: pci: Fix DEFINE for Intel Elkhart Lake
-dc530cddeb1bd252895a55501a32abf54583faed tty: serial: fsl_lpuart: fix the potential risk of division or modulo by zero
-bfef8947bd94a2870b47c7567ab346ccad172c88 serial: fsl_lpuart: disable DMA for console and fix sysrq
-736e937997e4b3b07ace1102487ed1d7434f83e0 serial: 8250: of: Check for CONFIG_SERIAL_8250_BCM7271
-8d402d86e3b5e3b06011123e3ae5e8e65a66bbed misc/libmasm/module: Fix two use after free in ibmasm_init_one
-dab645b96bd0632b0564e70da15d8721baf5cfca misc: alcor_pci: fix null-ptr-deref when there is no PCI bridge
-faa6f2dbb4436b5d9715c74e2ea315a7a4a2727d ASoC: intel/boards: add missing MODULE_DEVICE_TABLE
-ce59f0b244741084351c5609e0d3f2984674d952 partitions: msdos: fix one-byte get_unaligned()
-1a41865754e412e9737a9eb6b0dcb4aa7e8479eb iio: imu: st_lsm6dsx: correct ODR in header
-46234acb46c13204aa4a192900187c162c144806 iio: gyro: fxa21002c: Balance runtime pm + use pm_runtime_resume_and_get().
-9a72f1f4ad52ed6888e0752ad011e830b0977e24 iio: magn: bmc150: Balance runtime pm + use pm_runtime_resume_and_get()
-06a0bdc8374a3d912d8d90645577df2a2facdd82 ALSA: usx2y: Avoid camelCase
-b226d66469ccc62c9e3422a6c3a0a4473400e718 ALSA: usx2y: Don't call free_pages_exact() with NULL address
-8b1b87eba743373e20f236f9bc87d09f81940e8e Revert "ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro"
-b05b9cc993b002efcbd4de4feec0ebebbbf86369 usb: common: usb-conn-gpio: fix NULL pointer dereference of charger
-66e0c98ed2e8b44ecd19c993da4179ac09637b87 ASoC: SOF: topology: fix assignment to use le32_to_cpu
-663edc9d020e09726b9751f9d5cd0b0937c32131 w1: ds2438: fixing bug that would always get page0
-b7c258bb0072a1a91010d946b0b58f41e40dec2c scsi: arcmsr: Fix doorbell status being updated late on ARC-1886
-32f6b8d74eac77cff962fb1bf245daeddb1437cd scsi: hisi_sas: Propagate errors in interrupt_init_v1_hw()
-686bb492454bc5b983e05f699bb674d6b3b89aa4 scsi: lpfc: Fix "Unexpected timeout" error in direct attach topology
-c4c226f6073c6abf9ced72b4b0bcb70a96e49d42 scsi: lpfc: Fix crash when lpfc_sli4_hba_setup() fails to initialize the SGLs
-dc58c70f4ac9f267d6f3cf441c44fc11b56b966f scsi: core: Cap scsi_host cmd_per_lun at can_queue
-051cc5f4ea20eb0458adf2e044a3b71cae142345 ALSA: ac97: fix PM reference leak in ac97_bus_remove()
-129a69d74f53be7a9d449121471cc9795787111b ASoC: cs42l42: Fix 1536000 Bit Clock instability
-da319eac4ae16e0bc5edd1645af4b35254f3dea0 tty: serial: 8250: serial_cs: Fix a memory leak in error handling path
-d818d6dcb3d708ab4dd8a01578b24a80e9b44504 scsi: mpt3sas: Fix deadlock while cancelling the running firmware event
-3956f9b2e56d74a42992f4ee7cccda21e6798c54 scsi: core: Fixup calling convention for scsi_mode_sense()
-5c7b7223247224a8e44eac15de0ae9d353f93719 scsi: scsi_dh_alua: Check for negative result value
-b2a1324c62898d782441118b18b991c08cc9c444 fs/jfs: Fix missing error code in lmLogInit()
-c64f9da93a70af3fa7eb743a7c3022bf482dc9a5 scsi: megaraid_sas: Fix resource leak in case of probe failure
-acb6caabee63329831154856e9b2afadbc4aca1d scsi: megaraid_sas: Early detection of VD deletion through RaidMap update
-32b840dd452a7d77bac78ebf98af4d6ea3e3cb91 scsi: megaraid_sas: Handle missing interrupts while re-enabling IRQs
-50dd59a3d2c3908b359f158ec2c9ce427378b817 scsi: iscsi: Add iscsi_cls_conn refcount helpers
-9c7e22ea085b44a05f108dbbc79262f790aa18f6 scsi: iscsi: Fix conn use after free during resets
-47b9274cc31fbb00016ba025bd71ee3255a8268d scsi: iscsi: Fix shost->max_id use
-971f21ad6f3a0867e33d8ddb6a9e46d583bc7350 scsi: qedi: Fix null ref during abort handling
-5bef89a76bee76886a67c5faf6e36bfc238ace7f scsi: qedi: Fix race during abort timeouts
-22eafa0edd8a0c2c8e7b72bc09fc5ab338708018 scsi: qedi: Fix TMF session block/unblock use
-8dd792ffab92dcd789f6beb2160d828e5e94dc61 scsi: qedi: Fix cleanup session block/unblock use
-78718868d2cf4826e7bbbbbfbfdc4748a453cd6c mfd: da9052/stmpe: Add and modify MODULE_DEVICE_TABLE
-0bb25c0cdb63b338f63e945ae28bb610bc7ede32 mfd: cpcap: Fix cpcap dmamask not set warnings
-1f88bb495cf592a30a1664abb5f8172e9b389e16 ASoC: img: Fix PM reference leak in img_i2s_in_probe()
-7ccb8d52110ff93352661af2b0685360248e894c iov_iter_advance(): use consistent semantics for move past the end
-4bc2b41fe918b1bbd5c8e7b41f166613a63e6fa2 fsi: Add missing MODULE_DEVICE_TABLE
-9687befa9db1e923f94530e0ee528057c8e8c8ec serial: tty: uartlite: fix console setup
-1f430c3956571739ceb04e5985f6da841aaaaed9 s390/sclp_vt220: fix console name to match device
-476f436ed6daa6eb05331a0da7cfbb7d464daaab s390: disable SSP when needed
-b74c297d8a0b390432d336c21e7888feecefa72f selftests: timers: rtcpie: skip test if default RTC device does not exist
-03697a3a14661eecb32e7bc38c0253a72f612701 iommu/arm-smmu-qcom: Skip the TTBR1 quirk for db820c.
-8125f8718e5d30bd3c21f4455153c0b7acdb7404 ALSA: sb: Fix potential double-free of CSP mixer elements
-24425678fe84fd05fffebf12b8f5631c1b301dbd powerpc/ps3: Add dma_mask to ps3_dma_region
-f72127ed4a47b6876b11d0a0581665ed66cff616 iommu/arm-smmu: Fix arm_smmu_device refcount leak when arm_smmu_rpm_get fails
-6652f462e1d724dd79340c26df3b2d352c474ef1 iommu/arm-smmu: Fix arm_smmu_device refcount leak in address translation
-ad9aa2e854de27efc40b60aad95366fbfc9fb417 ALSA: n64: check return value after calling platform_get_resource()
-ba7c32316c28d252ebbc1d49e2029d762bc0f161 ALSA: control_led - fix initialization in the mode show callback
-353c2107c8f797edaf108344edd78d9e0134c53a ASoC: soc-pcm: fix the return value in dpcm_apply_symmetry()
-96466901c7aa8520cccafa718570e4a6fc1bb0e1 gpio: zynq: Check return value of pm_runtime_get_sync
-b3e6e62c089fee7aaff4344ecbc6342c75f2988a gpio: zynq: Check return value of irq_get_irq_data
-b68c28a3c02ff9df1d6d024157642e75044c94e7 thunderbolt: Fix DROM handling for USB4 DROM
-3b862a2cc3ca805e9bf6142f80d84ee79b0e1ab6 powerpc/inst: Fix sparse detection on get_user_instr()
-56a60662cfe4f8577e8a1b9e9681c9dc184b1fca scsi: storvsc: Correctly handle multiple flags in srb_status
-597480249cfad88436d5fa2ec7f2278423944ae2 ALSA: ppc: fix error return code in snd_pmac_probe()
-78334d179db472eff66e4e8a1561aca6cc244ca9 selftests/powerpc: Fix "no_handler" EBB selftest
-f450437592242bc87039eff4f49edfed4d5b8e3a gpio: pca953x: Add support for the On Semi pca9655
-efaeb1884d8d19a4bf64b2421576beef98245157 powerpc/mm/book3s64: Fix possible build error
-dcb8caa74f1f00ac6eae714a77bb5fa43e50fd4c ASoC: soc-core: Fix the error return code in snd_soc_of_parse_audio_routing()
-d7d114adeecb76f3994f07ee5aab881d404c33dc xhci: handle failed buffer copy to URB sg list and fix a W=1 copiler warning
-da3373724634476c130b8f62aa2aba1a400c779c habanalabs: check if asic secured with asic type
-210deb9e75e5479f4c9896b0812c0c3fee0df3ea habanalabs/gaudi: set the correct cpu_id on MME2_QM failure
-755c375d57c332101c04d8fe8a47897788bbe451 habanalabs: fix mask to obtain page offset
-2dcb246dda3457fec084fe9472d9f494ca7f1229 habanalabs: set rc as 'valid' in case of intentional func exit
-0f61a8dd54ec82db74f35092d8da0521bb61d5e9 habanalabs: remove node from list before freeing the node
-c14af9cdd2c68551ff104469f3a5eee2be0bf20c habanalabs/gaudi: set the correct rc in case of err
-f6a4ca5002a92ecdecb861bcd00454df184e5f2c s390/processor: always inline stap() and __load_psw_mask()
-fcb0910756436b78b37a793c08b0fe9aed5f60bd s390/ipl_parm: fix program check new psw handling
-7da7a5300e7c0f3aa16e0d8336e062eee70cfc76 s390/mem_detect: fix diag260() program check new psw handling
-7db4b1786083ae10dee86c3ff0eb8770b43ac633 s390/mem_detect: fix tprot() program check new psw handling
-8e251b532fa3164930f942cd8d6b9bee19b18893 Input: hideep - fix the uninitialized use in hideep_nvm_unlock()
-7f7e925bb74297944bc0655747a4fca8c846a50c ALSA: bebob: add support for ToneWeal FW66
-ad13f85616b2bf8bc9eaaee2ab5734441a40ca44 m68knommu: fix missing LCD splash screen data initializer
-a77aa8888b3ccc04ec4ec81658eb1ec03f815bb2 ALSA: usb-audio: scarlett2: Fix 18i8 Gen 2 PCM Input count
-f51817fdc70212ed07bbae290394d80e14447324 ALSA: usb-audio: scarlett2: Fix data_mutex lock
-b3386d66ee012cd79d6821ee08dfec51720f5d07 ALSA: usb-audio: scarlett2: Fix scarlett2_*_ctl_put() return values
-f1641b1b32cf31a0eba396e3f2f57222b669a82e usb: gadget: f_hid: fix endianness issue with descriptors
-70a2adcb3cce111fdefd024385be0fca282e6fb8 usb: gadget: hid: fix error return code in hid_bind()
-90e5a39b692beb4873645c8d1f98a018c74a5760 powerpc/boot: Fixup device-tree on little endian
-af84ba0974256fdfd7ee8176369a0a0dcc553e75 ASoC: fsl_xcvr: check return value after calling platform_get_resource_byname()
-98a9f8de67331676bb90f32ffd4632191fb7762e ASoC: Intel: kbl_da7219_max98357a: shrink platform_id below 20 characters
-50a2062e59d7f5365d835e1d4fa32f393581e3dd backlight: lm3630a: Fix return code of .update_status() callback
-e5cc9e490cfbd4b563de3c738536aae4b71fa70e ALSA: hda: Add IRQ check for platform_get_irq()
-cc2f7409118e3c69b0a23f97a79021c13b7edaa4 ALSA: usb-audio: scarlett2: Fix 6i6 Gen 2 line out descriptions
-f595f8d507746a692f0e8ef388d842628b135d5c ALSA: firewire-motu: fix detection for S/PDIF source on optical interface in v2 protocol
-2e1087aa886d34725a70cd731df572135b8ae0ed leds: turris-omnia: add missing MODULE_DEVICE_TABLE
-3ed3b533b32de36899d73b334b5eeb7b8158f7b7 staging: rtl8723bs: fix macro value for 2.4Ghz only device
-3b2a2f80336ce331195f43146338bd7452f1207c staging: rtl8723bs: fix check allowing 5Ghz settings
-fba6b9bad641b161d99280e1fa8522b0870d3624 intel_th: Wait until port is in reset before programming it
-9cc463702f8fe87cc85154fe951a02b46fc6333a i2c: core: Disable client irq on reboot/shutdown
-898be9f85a4a87228d0655d48407547e0ff75ad7 phy: intel: Fix for warnings due to EMMC clock 175Mhz change in FIP
-c20b743d6437c8087eed42653c85e4611830a3c7 lib/decompress_unlz4.c: correctly handle zero-padding around initrds.
-4feba5b856fec1edffbe94e72aaeacefab664b5f kcov: add __no_sanitize_coverage to fix noinstr for all architectures
-af4fe1fb38ceb0e3aa81be5139fb09865c6d3072 power: supply: sc27xx: Add missing MODULE_DEVICE_TABLE
-02ea791217981b6c326dcdec1b7b1a59378387f9 power: supply: sc2731_charger: Add missing MODULE_DEVICE_TABLE
-9e902c1818e0eec0f6fc1bc280eee90984174aa2 pwm: spear: Don't modify HW state in .remove callback
-a408ed198d4df897dda781458ef6dfd1b396f8e9 PCI: ftpci100: Rename macro name collision
-4a8b04ef07c1347bfeab957260c3beebba4a3db9 power: supply: ab8500: Move to componentized binding
-1c60bbc7714dd85dbb81cfe9dd48360788956c86 power: supply: ab8500: Avoid NULL pointers
-c441107f86c700582789048283ee275c4fbcf7c6 power: supply: ab8500: Enable USB and AC
-548b67a05145d4aa9c6ccd5b66e9cd1f64741a68 PCI: hv: Fix a race condition when removing the device
-dc1fd892ba69ba91dc00c5f376a7080b7a23b78e pwm: pca9685: Restrict period change for enabled PWMs
-f3fcbebe2ffb2ccd666bca45e3a7084f041afc60 power: supply: max17042: Do not enforce (incorrect) interrupt trigger type
-286ebd0c7e4c4e8a7fa6cd4e2c7a2896e853a7d3 power: supply: max17040: Do not enforce (incorrect) interrupt trigger type
-97509c5e73cf74913ed8248274e6157e1858ac92 power: reset: gpio-poweroff: add missing MODULE_DEVICE_TABLE
-4de5a1ea342d5ff5173d669314d3efe8af1b4ef4 ARM: 9087/1: kprobes: test-thumb: fix for LLVM_IAS=1
-d6dcc5f12b21cc6918bfdd01d19fc72ebb022a2b PCI/P2PDMA: Avoid pci_get_slot(), which may sleep
-43fc6ce21c4e7737fd3643d23b96ec94da152621 NFSv4: Fix delegation return in cases where we have to retry
-6d5baf17c182ad81d398a9fb1b760fdf86748cfe PCI: pciehp: Ignore Link Down/Up caused by DPC
-aa2953ed2b2c7b0a634a0cb5eb60f5eddfb2df1e PCI: Dynamically map ECAM regions
-2705960b17a639f48a2297b4c73b8785f6fa798e watchdog: Fix possible use-after-free in wdt_startup()
-2823e1623fa07f4476131df1e89ec56d74b28eea watchdog: sc520_wdt: Fix possible use-after-free in wdt_turnoff()
-b80d32772ecf60553e3ff6ff72aca9ebecc578c3 watchdog: Fix possible use-after-free by calling del_timer_sync()
-1be0ed266a99f80e4af3c36d857db07ae5077b55 watchdog: imx_sc_wdt: fix pretimeout
-4abe045f1ed7a09ae4afa8b35f6d8762c66d7038 watchdog: iTCO_wdt: Account for rebooting on second timeout
-7709079dc5daf085622eab48eab0e7249ec8592d virtiofs: propagate sync() to file server
-925270bf780d6ca1c1b5be11bbc14e6ab219efc1 fuse: fix illegal access to inode with reused nodeid
-15c1b3849382504a3bf366176cbb1a482f21ac72 PCI: mediatek-gen3: Add missing MODULE_DEVICE_TABLE
-9392619439005d4f06097b9d3050c59ec21a579b x86/fpu: Return proper error codes from user access functions
-4b4e2bedce1d57d84bf1015ccbeb4d87a6d00f7c remoteproc: core: Fix cdev remove and rproc del
-0bfd2c4473ab2f4edc06cb18fa2cfb70ee5a7f44 remoteproc: stm32: fix mbox_send_message call
-56a9d4ac08de26d80003e001e06b942280ddbb4f PCI: tegra: Add missing MODULE_DEVICE_TABLE
-740b2107a107c9537475561f335aac2f46dde5b4 NFS: Fix up inode attribute revalidation timeouts
-51e3d529735a967ced03f9a9fb9ee10a84633945 NFSv4: Fix handling of non-atomic change attrbute updates
-a7635f411b638c22204379ddc742ea9c17b2120f orangefs: fix orangefs df output.
-f80b318a365dee4a20929daa908715e5b69dfd27 ceph: remove bogus checks and WARN_ONs from ceph_set_page_dirty
-df0d3e23b5b1e0c59fc4e1de3b284086600ffcb5 drm/gma500: Add the missed drm_gem_object_put() in psb_user_framebuffer_create()
-baf9883c284402e5c79fa4fe23fff83a8e182f78 NFS: nfs_find_open_context() may only select open files
-ee817792db8a67e529813a85f86e8f98e4177e85 power: reset: regulator-poweroff: add missing MODULE_DEVICE_TABLE
-d2d0088caa501271f69deb0ffa99dc1cffc555d9 power: supply: charger-manager: add missing MODULE_DEVICE_TABLE
-1a3f52d40803b4ae73387403deb432cc206b42d7 power: supply: ab8500: add missing MODULE_DEVICE_TABLE
-7e11b77978188fcd42f5edf6e3f8e70f276013b0 power: supply: axp288_fuel_gauge: Make "T3 MRD" no_battery_list DMI entry more generic
-9548d739bc28528317ac072c9429ec6d10c791de drm/amdgpu: fix Navi1x tcp power gating hang when issuing lightweight invalidaiton
-f2f12819295bb11381de3b6d8222db4501d5bf35 drm/amdkfd: fix sysfs kobj leak
-fd7d709ff2f28a195cb31e5b013c405d5fd174fd pwm: img: Fix PM reference leak in img_pwm_enable()
-6ec32047b8d6f38080ae1313132ff9957bdf64e1 pwm: tegra: Don't modify HW state in .remove callback
-44f2a94d313f308eaef20bfeff2ac5d2f7e404f6 ACPI: AMBA: Fix resource name in /proc/iomem
-f6c87fbd8ce889c1ae42e55c38f088544dee7bb9 ACPI: video: Add quirk for the Dell Vostro 3350
-e75814a50ceac5449277cf78159fa8a5b754914b PCI: rockchip: Register IRQ handlers after device and data are ready
-4cef1e20a6b50f38211cf6d9e068b36007affd6d ext4: fix WARN_ON_ONCE(!buffer_uptodate) after an error writing the superblock
-22053dff396305ce86ba8304d7e93345cc9e9987 virtio-blk: Fix memory leak among suspend/resume procedure
-9fb03adb8df6b545875f4c72743b8bb95c4d2c51 virtio_net: Fix error handling in virtnet_restore()
-659e876920b980e0f93deb02d71e06ed74b2586f virtio_console: Assure used length from device is limited
-9d262f8b50fb574e3604a300c213a493de796345 block: fix the problem of io_ticks becoming smaller
-2ca91ccfe51eff9183ab16c54a98747a87848b46 power: supply: surface_battery: Fix battery event handling
-6378139e670e7a12f4671d3733daae924b6a2881 f2fs: atgc: fix to set default age threshold
-16991e43af52980257f4c33de839507e7cb05d51 NFSD: Fix TP_printk() format specifier in nfsd_clid_class
-b4ce5a1058f36898565d940fd3605aeb0e8eb1b0 x86/signal: Detect and prevent an alternate signal stack overflow
-e14a4eb2688366eed0427c4984526a6372b41f96 cpufreq: scmi: Fix an error message
-b976e0f1cef1b286f519f7867ac3a9285aa367e1 pwm: visconti: Fix and simplify period calculation
-3ca8484d15d56517df5560934c479543eb2fd820 module: correctly exit module_kallsyms_on_each_symbol when fn() != 0
-309e6030d086719de8f771d4abe78ce2d5ed0cbf f2fs: add MODULE_SOFTDEP to ensure crc32 is included in the initramfs
-edb3b25261b1c2978116581037ca007c22c7f3db f2fs: compress: fix to disallow temp extension
-327d9acfddb2b8f3ee772f6c0df2b4d0dd0bc2ca remoteproc: stm32: fix phys_addr_t format string
-d81481fe2ab784123516c5314d0b69cdb56f6117 remoteproc: k3-r5: Fix an error message
-8490400a904b35180d711eb234abeb0062d82603 power: supply: surface-charger: Fix type of integer variable
-4afdd4ce56aa06ebed852cc1c2a71f371432ef8b PCI/sysfs: Fix dsm_label_utf16s_to_utf8s() buffer overrun
-b584d7a0d4183e6bff3dcb81929744c38ba1d557 power: supply: rt5033_battery: Fix device tree enumeration
-055ae5c2b6e5ef412381eb2286c3f1cef515fa2e NFSv4: Initialise connection to the server in nfs4_alloc_client()
-d625f5b2637ee95024a8367099495beb6d15cd18 NFSv4: Fix an Oops in pnfs_mark_request_commit() when doing O_DIRECT
-54ea8d801fd3ef71e60b2196eb85b5067080ef2e sunrpc: Avoid a KASAN slab-out-of-bounds bug in xdr_set_page_base()
-e5e2e662255cca71c6b8a150e35e445adffda5f4 um: Fix stack pointer alignment
-ac4e6f4555533de1fb96a1749a38b94f16064cb5 um: fix error return code in slip_open()
-65fd2f2dd5cb67a3a050876cbaaa25e24edf3998 um: fix error return code in winch_tramp()
-f01a1cde922e851119d8567cf3b5f0472cc3866a ubifs: journal: Fix error return code in ubifs_jnl_write_inode()
-747104a6bbcc53fd6c41aadcf13ed5c4b0c3d90a watchdog: keembay: Update WDT pre-timeout during the initialization
-883dbbc713ef805c886aac8e2c17a4d7464c0797 watchdog: keembay: Upadate WDT pretimeout for every update in timeout
-4fdf833428662d9cc78c0b4ab6abc9aeb0965a5c watchdog: keembay: Update pretimeout to zero in the TH ISR
-069d4781bc247da2c107f249d61a3fdaf9f06938 watchdog: keembay: Clear either the TO or TH interrupt bit
-d201ed41cdf0ce4e10f2beb16677c108b2e8ac74 watchdog: keembay: Remove timeout update in the WDT start function
-a759993e3ede49452d1e4b218ef7a351968db8c3 watchdog: keembay: Removed timeout update in the TO ISR
-2027f8a8854057e9abbc748fef9e38c2d2fd8a5c watchdog: aspeed: fix hardware timeout calculation
-e66a379ba5d600cbe4bf97c749f1870fc4966cf4 watchdog: jz4740: Fix return value check in jz4740_wdt_probe()
-436864ea58abb382f07a322da02578b9a7a82182 SUNRPC: prevent port reuse on transports which don't request it.
-ac93204d7f8838ab3179eab3e906115c2d44cd21 nfs: fix acl memory leak of posix_acl_create()
-5b40e07df747d01c76d440ed169aa4c523b0b6b3 ubifs: Set/Clear I_LINKABLE under i_lock for whiteout inode
-fc30bb547791d1cb6c203604a3d9038d176eb350 PCI: iproc: Fix multi-MSI base vector number allocation
-5b3c2034352b0ec553f6444fb46beeeb07b6807d PCI: iproc: Support multi-MSI only on uniprocessor kernel
-d175feaa5d5cfba680fc009b8274c46a7ac7f21a f2fs: fix to avoid adding tab before doc section
-3225583c5305b08f8dd7c7460cb65c338c7b37c8 x86/fpu: Fix copy_xstate_to_kernel() gap handling
-d2ba5e489e697a508af123b1a6624f2696069d91 x86/fpu: Limit xstate copy size in xstateregs_set()
-7d41907f592c39618af9d721229d5f618561392e PCI: intel-gw: Fix INTx enable
-d0a177c374a8de91d2852616e027e1ca5982866d pwm: imx1: Don't disable clocks at device remove time
-124560038c126d89b0557e60c36dd420441b59e8 nfs: update has_sec_mnt_opts after cloning lsm options from parent
-dbb1e7f8d899803597d18e16746ee58e2da29ee5 f2fs: remove false alarm on iget failure during GC
-123354b242e0b609fa08d90d80bdf6a3cc1b00c3 PCI: tegra194: Fix tegra_pcie_ep_raise_msi_irq() ill-defined shift
-60b61da45226a002e9a5d5cd32e1c6ee90e8b3dd arch_topology: Avoid use-after-free for scale_freq_data
-cdf3d657cb2fd1115a5fb3399dc88776ce68fd67 block: grab a device refcount in disk_uevent
-9ae4aa2898a6a1f07e2addfb55acc423fcfc7d26 io_uring: get rid of files in exit cancel
-dd922247b60fca7627683b0e4d8e78cb5a188c59 io_uring: shuffle rarely used ctx fields
-bc66a3eb60b010c28c6ef30eb038c58a22294f90 io_uring: don't bounce submit_state cachelines
-bea64c0a25409474271fa8ad3a0b358f94679a78 io_uring: move creds from io-wq work to io_kiocb
-2a3d18214b4b90a43a859208bee51365b20d668d io_uring: inline __tctx_task_work()
-8d56fdacec35ec364830c4054f356a452b06017f io_uring: remove not needed PF_EXITING check
-2ea5a81cd28a0b1e71f59bfdbc4db8d146183f3c vp_vdpa: correct the return value when fail to map notification
-d977d89a27bada41db6c1f6c4137c822007457fa vdpa/mlx5: Fix umem sizes assignments on VQ create
-ee9b86bef67e9618903a9dc3708431b8d56775fa vdpa/mlx5: Fix possible failure in umem size calculation
-506f25b8e51c4557684a1bc71110e17fb16ae392 vdp/mlx5: Fix setting the correct dma_device
-91c202e814c52f801bab388bbdfdcac4c7a3f67e virtio_net: move tx vq operation under tx queue lock
-d9198c5db215119193a98df81842ecaf26691d8b nvme-tcp: can't set sk_user_data without write_lock
-3b650bb7cd24072dcd1f0239f670b9c64bbee1bc powerpc/bpf: Fix detecting BPF atomic instructions
-25078f1f831cea8d55ffd32210e562b6986b1d16 NFSD: Add nfsd_clid_confirmed tracepoint
-dfe2a8fb9297b2f02f3fa3874a87cfe45618e320 nfsd: move fsnotify on client creation outside spinlock
-3c438bcab02bd67cea4b392edc61caa67fcc772d nfsd: Reduce contention for the nfsd_file nf_rwsem
-9e14aeb0a93bcf654d897e6700de7a9e156cb14a NFSD: Prevent a possible oops in the nfs_dirent() tracepoint
-0d8c88cd75fadfbff801e05f812dae6c35787c03 nfsd: fix NULL dereference in nfs3svc_encode_getaclres
-adfdcd5b4f552ecda6e81fa4ce77d538c2ff00ab ALSA: isa: Fix error return code in snd_cmi8330_probe()
-12187a9febdba995a84db9e37e7a07ddc1939ae6 vdpa/mlx5: Clear vq ready indication upon device reset
-bc5bf4413a7b7a7a500c36670e4a7dc4656dc0dd virtio-mem: don't read big block size in Sub Block Mode
-735b690f9adf1d4ecb6fa1e97b6c0086a2b79753 NFS: Fix fscache read from NFS after cache error
-348562749cfc9b87e096fcef15b2aa75383eef5e NFSv4/pnfs: Fix the layout barrier update
-5413c2f332c5c2473aaa36cd8cae95f645f9265c NFSv4/pnfs: Fix layoutget behaviour after invalidation
-8d1820e9ddb8b95a29636266f2c6bf899c6f9fc4 NFSv4/pNFS: Don't call _nfs4_pnfs_v3_ds_connect multiple times
-622216d47e07265a80317606202503e7ed6cfba0 hexagon: handle {,SOFT}IRQENTRY_TEXT in linker script
-922ef09ffb2aba7e8865aef267c36d06cfc74bea hexagon: use common DISCARDS macro
-f9b8be7363ecaf156ce5e1dd2d97aeb90afd641f ARM: dts: gemini-rut1xx: remove duplicate ethernet node
-7c6a4d91ccf04cc9f6a05e1d250d7ab914e172b7 arm64: dts: rockchip: rename LED label for NanoPi R4S
-426fd7dd181092e042bf487434d08d0bdb2974d1 arm64: dts: rockchip: Drop fephy pinctrl from gmac2phy on rk3328 rock-pi-e
-c1465326be494cb4d7d70bf5348a7c61d48f63da reset: RESET_BRCMSTB_RESCAL should depend on ARCH_BRCMSTB
-1b6ce49aa5a45570eaf684c517e0f47322936c65 reset: RESET_INTEL_GW should depend on X86
-befbb1d4dc04899c17378f6b2e9085d1396596ff reset: a10sr: add missing of_match_table reference
-aa610259251417eedc7921ab3bea49564e61683e ARM: exynos: add missing of_node_put for loop iteration
-b03ac0bb3abb30d71ea3d235e10b63d450fa533f ARM: dts: exynos: fix PWM LED max brightness on Odroid XU/XU3
-edbb475565c6e50e0684364e858fbd700925647a ARM: dts: exynos: fix PWM LED max brightness on Odroid HC1
-cb922daf3a13c50a71963503b4fa2b3acef95448 ARM: dts: exynos: fix PWM LED max brightness on Odroid XU4
-069f78c64434c7f9a5636d591ca8f13b2b266e26 memory: stm32-fmc2-ebi: add missing of_node_put for loop iteration
-ef0993f3ed0a59745c27188a655a2a1310e3f263 memory: atmel-ebi: add missing of_node_put for loop iteration
-43385913181f8c221004c3a7b73188379aa9c947 reset: brcmstb: Add missing MODULE_DEVICE_TABLE
-e03d43b5f472012435ecc56ad8f207a5c36543d8 arm64: defconfig: Do not override the MTK_PMIC_WRAP symbol
-cad68b3c1ffbb824f52294aec135e7197eab8dfd memory: pl353: Fix error return code in pl353_smc_probe()
-f373880c9607e204e1e725ba24400d9551fd1c67 ARM: dts: sun8i: h3: orangepi-plus: Fix ethernet phy-mode
-6b2eb666f92ce9d908a2dc79ed2f712dbb0cb932 rtc: bd70528: fix BD71815 watchdog dependency
-db8919b42c63ce8de881c2b562d9d6fa659474de rtc: fix snprintf() checking in is_rtc_hctosys()
-f2a3be58b138022205e820cb39ffceb3f878aa42 arm64: dts: renesas: v3msk: Fix memory size
-099c1fdd2046203d5e4cd1d8e83da0aaf09823d7 ARM: dts: r8a7779, marzen: Fix DU clock names
-53f404855243112efc778c0b56006593cb530c0d arm64: dts: qcom: sdm845-oneplus-common: guard rmtfs-mem
-da145856c3dbe30d235bfe3a652cf2abd6732636 arm64: dts: ti: k3-am64-mcu: Fix the compatible string in GPIO DT node
-de9e15149f9ef2b0e0b6fd8ba3eced301a34213d arm64: dts: ti: k3-j7200: Remove "#address-cells" property from GPIO DT nodes
-396f6789c70d1a937774a79d81e70928b812e197 arm64: dts: ti: j7200-main: Enable USB2 PHY RX sensitivity workaround
-8646b024b8f30e6d76d368a06dd315e3623a3808 ARM: dts: qcom: sdx55-t55: Represent secure-regions as 64-bit elements
-cd536828d911831b283523f91b198d19c60454a6 ARM: dts: qcom: sdx55-telit: Represent secure-regions as 64-bit elements
-874fc9ca8b1192f8fe1af7f5cc959943ea36174d arm64: dts: renesas: Add missing opp-suspend properties
-a57e6f28642b5e8272f79feb53f120a923ca1245 arm64: dts: renesas: r8a7796[01]: Fix OPP table entry voltages
-aa8dcbef307f6f1102f113d6980c6e68e1a4e420 ARM: dts: stm32: Rework LAN8710Ai PHY reset on DHCOM SoM
-28ce6320b8c067f868fc3142de9015d8c0835f85 arm64: dts: qcom: trogdor: Add no-hpd to DSI bridge node
-da093d9d12256fd205ab29bd7645f791bda4cbb7 arm64: dts: qcom: c630: Add no-hpd to DSI bridge node
-2ed6e606a19700aa871aaf188de11de227fce503 arm64: dts: qcom: sc7180: Fix sc7180-qmp-usb3-dp-phy reg sizes
-f47792408b4ef8d32d65547a64e14558cf940648 firmware: tegra: Fix error return code in tegra210_bpmp_init()
-4c59adf38abf0ab7b1252a6d0ed2ea27f6e2d263 soc: mtk-pm-domains: do not register smi node as syscon
-eff8e7a1a2c23e7c56560c0bd128efbe13eb5148 soc: mtk-pm-domains: Fix the clock prepared issue
-47ce5f62b9ab7403fbd0f5a2a60b30145e8628f9 firmware: arm_scmi: Reset Rx buffer to max size during async commands
-cd85a6f44dd255a32a08f70cc36cfb5b38bde73f dt-bindings: i2c: at91: fix example for scl-gpios
-d75266dfc27b0c5dd8092824e5de735057709972 ARM: dts: BCM5301X: Fixup SPI binding
-dc7e6d50f3fd4894da97589d10e8c37c6760af6c reset: bail if try_module_get() fails
-ff1744a7befcfd212d7c3aa0eba0eb2aed498ba3 arm64: dts: renesas: r8a779a0: Drop power-domains property from GIC node
-8a1e4b5ddad05bf9b82c09d0c761d1960bf88b29 Revert "ARM: dts: bcm283x: increase dwc2's RX FIFO size"
-d34b611dcfca94133431d8823a45f3f7b0ae030e firmware: arm_scmi: Add delayed response status check
-8d96f777681aeffde4f980f1cdae3fba26f6faf4 arm64: dts: ti: k3-j721e-main: Fix external refclk input to SERDES
-7369e5c55d6b1ba34a98ed45b5a30a5d61c03bb1 arm64: dts: ti: k3-j721e-common-proc-board: Use external clock for SERDES
-9fbc95272e765e6b3297ca5df59de70760b04186 arm64: dts: ti: k3-j721e-common-proc-board: Re-name "link" name as "phy"
-15286ddc78ad200057fc121709c5ccf37da1cc92 memory: fsl_ifc: fix leak of IO mapping on probe failure
-361df46924e1de25f5565d015c2ba9f77f3cabaa memory: fsl_ifc: fix leak of private memory on probe failure
-c93ed89ad58cae2ecba35139eb19275ce891ca36 arm64: dts: allwinner: a64-sopine-baseboard: change RGMII mode to TXID
-0cfced3924e8dfd9072854bc5fb4e08a56804bc1 ARM: dts: dra7: Fix duplicate USB4 target module node
-8846901b318cf570b85a95705c976eb6ecab3ce5 ARM: dts: am335x: align ti,pindir-d0-out-d1-in property with dt-shema
-8b6e3ebda10852995457c51e8b07c16a658871c8 ARM: dts: am437x: align ti,pindir-d0-out-d1-in property with dt-shema
-b77e1f0f250402a2326e8f8b34b9aef9fd76a03b thermal/drivers/sprd: Add missing MODULE_DEVICE_TABLE
-7473f8bea9ce14b9b98da898e7c98654a4c1790f ARM: dts: imx6q-dhcom: Fix ethernet reset time properties
-c681b989dbd06d06deedc07ed43ba8efed23c5b6 ARM: dts: imx6q-dhcom: Fix ethernet plugin detection problems
-bab95e89f38cdcab8313ff66ad81ee30147e636a ARM: dts: imx6q-dhcom: Add gpios pinctrl for i2c bus recovery
-9715164dfd27f5f590affeaa4a4cc904e0463740 arm64: dts: ti: k3-am642-main: fix ports mac properties
-c3bf7a57e5820a73dcb31a07c19e144af6a3be1b arm64: dts: ti: am65: align ti,pindir-d0-out-d1-in property with dt-shema
-429becb451a1eda157e0a2214b506c886f9f8565 arm64: dts: ti: k3-am642-evm: align ti,pindir-d0-out-d1-in property with dt-shema
-ff558284da49931e59cde36c072ac2f0bfcacfb2 thermal/drivers/rcar_gen3_thermal: Fix coefficient calculations
-3b8fcb55c94a467d3156ec4841ef68b3aa6db003 kbuild: remove trailing slashes from $(KBUILD_EXTMOD)
-0f80425743c4632d16ef35bb0221d4a2e75ca1d9 firmware: turris-mox-rwtm: fix reply status decoding function
-f2b55d0ce4a662eb19b8f31f2472196a8ee123dc firmware: turris-mox-rwtm: report failures better
-69e719df46a0b041c87bbb1ffd76e908f0ae1750 firmware: turris-mox-rwtm: fail probing when firmware does not support hwrng
-4c9386bf7b716ae99ac8b6c142d72a6b4981d3b2 firmware: turris-mox-rwtm: show message about HWRNG registration
-8e7c50bf82b8ea41d2ea899c09a2088234c6b224 arm64: dts: rockchip: Re-add regulator-boot-on, regulator-always-on for vdd_gpu on rk3399-roc-pc
-850b7fb9547af45516cf9d81a69e298dee144fb3 arm64: dts: rockchip: Re-add regulator-always-on for vcc_sdio for rk3399-roc-pc
-d3c63451ac472696e7ebd0e797e58b0120b7abf4 scsi: be2iscsi: Fix an error handling path in beiscsi_dev_probe()
-cabde10d75aa097fa87b06d52a70959b18954711 sched/uclamp: Ignore max aggregation if rq is idle
-0285182f3a49732603f6b15a215633929d7f48fa jump_label: Fix jump_label_text_reserved() vs __init
-883c45f51c298067e5b2465474e16d04e9f0123c static_call: Fix static_call_text_reserved() vs __init
-6a5c6d216294a7e8521b970c7b05cf2c648d5ec3 kprobe/static_call: Restore missing static_call_text_reserved()
-8d01adf54c1cf62192fd73c97c1054f5de726a6e mips: always link byteswap helpers into decompressor
-4c6be245811d618bd55065028178438138e2b40c mips: disable branch profiling in boot/decompress.o
-a19670b08b38946a8a16bec582eb43d17e1f21e8 perf script python: Fix buffer size to report iregs in perf script
-e5113eead523985963449fd9d76aec381c11f920 s390/irq: remove HAVE_IRQ_EXIT_ON_IRQ_STACK
-27773b326ca93323c28d7a5d6917aad13803000c MIPS: vdso: Invalid GIC access through VDSO
-b91d44e2c1bb2d17c7e3e1b77e3d3172ebbc1804 perf tools: Fix pattern matching for same substring in different PMU type
-4fa470bea9059a3e6a26abe86b3ea8ed4eaccb38 cpufreq: CPPC: Fix potential memleak in cppc_cpufreq_cpu_init
-770104fe75725530ea63a82ade9ab269f9b22ae8 scsi: scsi_dh_alua: Fix signedness bug in alua_rtpg()
-83ba3df415ba1e22d711cc4e4d445f0039c1ca7a misc: alcor_pci: fix inverted branch condition
-1d9dba03aebe5171ad487d3ec69485c6cd17544a Linux 5.13.4-rc2
+7fe60fd67962dbddb01445790440c290288b02c9 scsi: core: Retry I/O for Notify (Enable Spinup) Required error
+c21c05293523d48ff1c8bffaa734ebdc5fb661c8 ALSA: usb-audio: fix rate on Ozone Z90 USB headset
+6099e7fb18f6f6e254207b3e3f010c07398c431c ALSA: usb-audio: Fix OOB access at proc output
+5cc900d27e63766d0f92cd38f57e6ff2a9b1363c media: dvb-usb: fix wrong definition
+40eaf4d82ab840e709d157a368f60cbffa067ddd Input: usbtouchscreen - fix control-request directions
+02c2b902a9b730fcbac5a7d0695526b601c9976f net: can: ems_usb: fix use-after-free in ems_usb_disconnect()
+4c3bb1dde350d4901f2f61d7abf9935fd87a7696 usb: gadget: eem: fix echo command packet response issue
+3b6550ed48379e7d85d71c5228e954a254fdd489 USB: cdc-acm: blacklist Heimann USB Appset device
+3acccdeefc1636ddd7968c6d0bdb1850e3cc1d17 usb: dwc3: Fix debugfs creation flow
+40072088e21920654d6ec4e3c07b561e2f79eb46 usb: typec: Add the missed altmode_id_remove() in typec_register_altmode()
+e8a874f19021995410527b9306a5989a36403918 xhci: solve a double free problem while doing s4
+11f4852d32ea4d5af2448f7393b956ee22a17ec1 ntfs: fix validity check for file name attribute
+3b539f29a03d3c5c992767e1624d423eb67a247b iov_iter_fault_in_readable() should do nothing in xarray case
+79d7f176c328e36795553a3a3dae61d94f4a9057 Input: joydev - prevent use of not validated data in JSIOCSBTNMAP ioctl
+f768182ece9bf24f6e5efb3a1dbc72c838c924ad arm_pmu: Fix write counter incorrect in ARMv7 big-endian mode
+abaa15270fc66151b0b3d4eb25ad612d00a2e5da ARM: dts: at91: sama5d4: fix pinctrl muxing
+79904db6b735f4b7679b0599009f3a03fbbe119b btrfs: send: fix invalid path for unlink operations after parent orphanization
+3f19d57511ca6c7aa25d15d534166a51e29254e9 btrfs: clear defrag status of a root if starting transaction fails
+6bfbddc9792b22500c5787c9be654b92a84f580a ext4: cleanup in-core orphan list if ext4_truncate() failed to get a transaction handle
+da8d40336b8a370ddee844e90d39ca5a18774353 ext4: fix kernel infoleak via ext4_extent_header
+3fd199a4e02c26091a9335566d9d625078183b66 ext4: return error code when ext4_fill_flex_info() fails
+e64a03ef3b749fdf0392254a8a250a95171c4a48 ext4: correct the cache_nr in tracepoint ext4_es_shrink_exit
+382fb2a6bfcb3c5f6034e36ce90a381a071f06c8 ext4: remove check for zero nr_to_scan in ext4_es_scan()
+912eab4debbcfd3f8de7bd47404cc1e7c165d834 ext4: fix avefreec in find_group_orlov
+a6247414c2d6df3803381bfd036eb9ee3b96e62b ext4: use ext4_grp_locked_error in mb_find_extent
+a94135995851a55c90fe3b44ebe2fed612442372 can: bcm: delay release of struct bcm_op after synchronize_rcu()
+c09953311f964eaa156e5da818f4c79265ee1f6b can: gw: synchronize rcu operations before removing gw job entry
+56f1b329eb31640644e6dcc21eaf889abd95f360 can: peak_pciefd: pucan_handle_status(): fix a potential starvation issue in TX path
+c43ad104adaab82cfe11ba5078176f204b13c1ce SUNRPC: Fix the batch tasks count wraparound.
+96700a08ee09f7e5ee47d3d07d780cec5d0996ea SUNRPC: Should wake up the privileged task firstly.
+54a212da239c6c157718ea30aaf32fd97fa69ed0 s390/cio: dont call css_wait_for_slow_path() inside a lock
+96cade0e91c640df2799f8263c4407d3edcdc313 rtc: stm32: Fix unbalanced clk_disable_unprepare() on probe error path
+c77d3204d17c8f066b485385ca1b0707519508de iio: light: tcs3472: do not free unallocated IRQ
+55f361733fc2fd47dfa1ac2cc1601e717baa701d iio: ltr501: mark register holding upper 8 bits of ALS_DATA{0,1} and PS_DATA as volatile, too
+c8980f4583fcd42e34dd844090ca700ae1551b88 iio: ltr501: ltr559: fix initialization of LTR501_ALS_CONTR
+4723ddc211fb1a9831c501514c7be97b49041cab iio: ltr501: ltr501_read_ps(): add missing endianness conversion
+6989a736c8e186b4209c95de82cec464ce8aaddd serial: sh-sci: Stop dmaengine transfer in sci_stop_tx()
+5e2750e8c1ba0a392e061569fe63ffa9422c3574 serial_cs: Add Option International GSM-Ready 56K/ISDN modem
+1683ab31d86614223fe64612df392f911bd2080a serial_cs: remove wrong GLOBETROTTER.cis entry
+5c66326eeebdf786df9c7c35c04a1b078d885e93 ath9k: Fix kernel NULL pointer dereference during ath_reset_internal()
+68b4d19edd93526558f8db134c27b88581ea8d36 ssb: sdio: Don't overwrite const buffer if block_write fails
+9f057b04ccc2dca4a939bd12f01c486e452b1711 rsi: Assign beacon rate settings to the correct rate_info descriptor field
+b2ce9fb554073e542a5404646d5b9d34c1337a41 rsi: fix AP mode with WPA failure due to encrypted EAPOL
+b5aad922a09b1e7cbfc3ef95dd403356c823e331 tracing/histograms: Fix parsing of "sym-offset" modifier
+20daeb1bdc947457ba095c71dab1b42aebb83497 tracepoint: Add tracepoint_probe_register_may_exist() for BPF tracing
+93c21cab1774b247cac8445e2c780883beb2a51f seq_buf: Make trace_seq_putmem_hex() support data longer than 8
+721145078bee51054552ae00cbdf07fe33455845 powerpc/stacktrace: Fix spurious "stale" traces in raise_backtrace_ipi()
+9eede34011ac1afa9614a3f05b944547db0dbd71 evm: Execute evm_inode_init_security() only when an HMAC key is loaded
+f465f7aef7505baa61a76b35f8ade1a4b73825c6 evm: Refuse EVM_ALLOW_METADATA_WRITES only if an HMAC key is loaded
+91b01c946aec34a2904818f0eec7872c9c90dad5 fuse: check connected before queueing on fpq->io
+f6471630490bdee21d50aef237a09ed3036f4629 spi: Make of_register_spi_device also set the fwnode
+b8c9d6dea343cfcfbdc8ccf061f1417da2db8db4 spi: spi-loopback-test: Fix 'tx_buf' might be 'rx_buf'
+a867f6fddbaf7787baaa1fe7ce6c0548bf39283c spi: spi-topcliff-pch: Fix potential double free in pch_spi_process_messages()
+3f844a499e2bf5cc5a4d3e0463765a147931be9b spi: omap-100k: Fix the length judgment problem
+dc2b730c40f51d6c9a46386d399b08c31d5bc832 regulator: uniphier: Add missing MODULE_DEVICE_TABLE
+65a50ec55e227e2bd69fa2c87371c16ac4145432 crypto: nx - add missing MODULE_DEVICE_TABLE
+b871bcf9062f5d460c75374ac59b50b57cc081f1 media: cpia2: fix memory leak in cpia2_usb_probe
+2a2651fedfe057e116451e53194739373e5a02d8 media: cobalt: fix race condition in setting HPD
+e418453f01e56d4aaa20b3711f62134c16c70a73 media: pvrusb2: fix warning in pvr2_i2c_core_done
+d9acecad8d768c8e0268f038b18f00e9a05dd145 crypto: qat - check return code of qat_hal_rd_rel_reg()
+2f4eec6e8fc954358c70fdf2f03bd4d7b4859674 crypto: qat - remove unused macro in FW loader
+0aaef4f0ffb0314d475585e69f5d1240a58854a8 sched/fair: Fix ascii art by relpacing tabs
+cac97ffe48bc8cf7a6864fe2373721fd4ff815e7 media: em28xx: Fix possible memory leak of em28xx struct
+44b0eded3c7262f288669c94a9440659fdb60071 media: v4l2-core: Avoid the dangling pointer in v4l2_fh_release
+4a75964ee66a821f470000ac75b82650db1572b3 media: bt8xx: Fix a missing check bug in bt878_probe
+56578d430b37bb1c6b5b01d5ad47ce2073818f02 media: st-hva: Fix potential NULL pointer dereferences
+9899927afceee218dba9c1997d6ee146ce6bbab5 media: dvd_usb: memory leak in cinergyt2_fe_attach
+e0e99f67a4f68ca8b1bb6c5835acc7f11fbb60c3 mmc: via-sdmmc: add a check against NULL pointer dereference
+a857ed88f5299871e90b7e631fa94b5065da29d7 crypto: shash - avoid comparing pointers to exported functions under CFI
+3b06a93870c8bc33271392a3218ca3734b115c83 media: dvb_net: avoid speculation from net slot
+932eb7c42c6b6ad8a844c9c91ad5a9c9cef6e026 media: siano: fix device register error path
+01d0b7efa000016044352dd7545516868e21d8c8 media: imx-csi: Skip first few frames from a BT.656 source
+1e9fa45d80905dc3ad7cafd49dfaa7481d465632 btrfs: fix error handling in __btrfs_update_delayed_inode
+246872160280ecafa82a9d3729c11cac266c3f75 btrfs: abort transaction if we fail to update the delayed inode
+2ea3e85b80812485e0c060bfbfe89a9b974a96e8 btrfs: disable build on platforms having page size 256K
+f69c0ee77132f921734ee86baee5a7bbb8aa712e regulator: da9052: Ensure enough delay time for .set_voltage_time_sel
+41a6403ae770c6186521891f415d13da8e7102af HID: do not use down_interruptible() when unbinding devices
+d6b0b0340983e9f4ded76d9b31218a11b22565f5 EDAC/ti: Add missing MODULE_DEVICE_TABLE
+b7dbdae8ce476bb2466f45d196999b4b309e8fc6 ACPI: processor idle: Fix up C-state latency if not ordered
+b382bd6e5e20f6a0b5545813aaf957f068f42e4d hv_utils: Fix passing zero to 'PTR_ERR' warning
+506ed5175c8749f183ab3567e240af5ecfc651ea lib: vsprintf: Fix handling of number field widths in vsscanf
+6d412864395fe3f651195fb4c604ba4f58916665 ACPI: EC: Make more Asus laptops use ECDT _GPE
+936131664634e784981b93e20e8245676f08d4fe block_dump: remove block_dump feature in mark_inode_dirty()
+8973e6efd2dad4f92b022c503ba2a7ae1677be15 fs: dlm: cancel work sync othercon
+a543ec047d9e7f0db54945381f0e42c446fdfc2b random32: Fix implicit truncation warning in prandom_seed_state()
+d88da4fb03fcf78031f9c71cf7543b29f15dbfac fs: dlm: fix memory leak when fenced
+196e905a21728e3a8ee05a2c9f94a40141430684 ACPICA: Fix memory leak caused by _CID repair function
+78a884c8e1452daf9060513fec6fdde17ec636d8 ACPI: bus: Call kobject_put() in acpi_init() error path
+2b8f3e8bb0c1ad2a96189c1f24398e04c1780067 platform/x86: toshiba_acpi: Fix missing error code in toshiba_acpi_setup_keyboard()
+f743da5622867fce7315b3a93f9f25d3fbeca8ae clocksource: Retry clock read if long delays detected
+37b1aa26edb7bbdb571fbdffaafc0f39ea5632d7 ACPI: tables: Add custom DSDT file as makefile prerequisite
+2ecfcb230d33bfa37ea22f2d8f5fcae25cde4cff HID: wacom: Correct base usage for capacitive ExpressKey status bits
+ff0131996b5efb6080cf74e2ac89c048752baf0d ia64: mca_drv: fix incorrect array size calculation
+a3ab4ab2d6a09fe814589a7872f7cfe45c82a103 media: s5p_cec: decrement usage count if disabled
+0a384a70c60ee8a02682f928432a96dfe9d7be7a crypto: ixp4xx - dma_unmap the correct address
+57edddb77e222820680290ebe03ab01342c6167e crypto: ux500 - Fix error return code in hash_hw_final()
+dc695e55b5362568071afbf8da87f725443c930b sata_highbank: fix deferred probing
+edf2ace93c2009b6aaa4d6903391ffe2d1817cf0 pata_rb532_cf: fix deferred probing
+64a22dbc642f3e2ed8d2c5f71635335f010941be media: I2C: change 'RST' to "RSET" to fix multiple build errors
+5a61461fd1b707f483cf405b1e8d46ab40104d4f pata_octeon_cf: avoid WARN_ON() in ata_host_activate()
+431d64c893b63dd9f43058df9cea3d5d19da96bd evm: fix writing <securityfs>/evm overflow
+ec55b8a51e69b0768950a2a910f85f9d763892e0 crypto: ccp - Fix a resource leak in an error handling path
+157308b9dff5a5442cb18dc450b2b25e53f66b38 media: rc: i2c: Fix an error message
+9af8f24952cbf096013215065cd3278e976d0fb2 pata_ep93xx: fix deferred probing
+b097deeca2d975088363c3f3f8a834555be3ccd2 media: exynos4-is: Fix a use after free in isp_video_release
+4f1ca3d89e53b9a0febca3ed4fe4123a1ce002ba media: tc358743: Fix error return code in tc358743_probe_of()
+294eaf4a86b5aede6f361f02fefa029609a13f37 media: gspca/gl860: fix zero-length control requests
+1ea7dd40c7180fe02a244249f90f888e6e658481 media: siano: Fix out-of-bounds warnings in smscore_load_firmware_family2()
+09b0c26aac6df85f2f08154f4d30e0beb95e3caa mmc: usdhi6rol0: fix error return code in usdhi6_probe()
+20686629ae97fad6326d146969408d3cfd76ace2 media: s5p-g2d: Fix a memory leak on ctx->fh.m2m_ctx
+4558775d97c13a4dae90f97289aad36b61f83361 hwmon: (max31722) Remove non-standard ACPI device IDs
+56929ada9f9c56aa5ca1f6e19b7e28da60bc7f75 hwmon: (max31790) Fix fan speed reporting for fan7..12
+8790193c4d8df50405f4201dc7188d0cd20d2bad btrfs: clear log tree recovering status if starting transaction fails
+fc1c8917f1f7c1082bc4c52a6075ae400f8a6ac3 spi: spi-sun6i: Fix chipselect/clock bug
+51de1d73207827d713cec8810ac10f539315ee03 crypto: nx - Fix RCU warning in nx842_OF_upd_status
+ad6c4de60b210e5c31d9f1b96a4b6326f157fe8c ACPI: sysfs: Fix a buffer overrun problem with description_show()
+f7cc78f0c1ccc173429b1df7b44de5213b32126c blk-wbt: introduce a new disable state to prevent false positive by rwb_enabled()
+0c51389648fc0f218c097a73cc041c107f48389b blk-wbt: make sure throttle is enabled properly
+30609366412bcd3285c6e41e4ceddb6a339d26f0 ocfs2: fix snprintf() checking
+cd6237458068d804a23f76d0ed5bda5f46c959a1 net: mvpp2: Put fwnode in error case during ->probe()
+4b0e7fc218dc64e0387a571ecaa36c1679271597 net: pch_gbe: Propagate error from devm_gpio_request_one()
+5281673226ccaf1b06020fa088c644d13417caa5 drm/rockchip: cdn-dp-core: add missing clk_disable_unprepare() on error in cdn_dp_grf_write()
+47b0ed9f2dbe50e2e13ea6d799f754e2bee1d64e ehea: fix error return code in ehea_restart_qps()
+1722faaebc2449cbe513fb6f7cfd6300c9953020 RDMA/rxe: Fix failure during driver load
+0e2f3088f450542257981de7c4d11e3d51e9a427 drm: qxl: ensure surf.data is ininitialized
+35e5f4de0e63db15d740d5bb12fb11a187e07e59 tools/bpftool: Fix error return code in do_batch()
+24ff8bd406d78c5e480b47f6a12c22ce99eaf98a wireless: carl9170: fix LEDS build errors & warnings
+07ef08886da040fa05499a606e5a3991d8d0a0a3 ieee802154: hwsim: Fix possible memory leak in hwsim_subscribe_all_others
+1d8851b84f8f1a1f77f0038d5d0375188ddbb2e4 wcn36xx: Move hal_buf allocation to devm_kmalloc in probe
+91b31f562105e24649d48c55a898be307a0a9f77 ssb: Fix error return code in ssb_bus_scan()
+2845f7d4552e533273cef5a75e05851c7dd4cd78 brcmfmac: fix setting of station info chains bitmask
+5313dccd6ddc8690fa11daf70882e1fa79e67884 brcmfmac: correctly report average RSSI in station info
+15118a09566aeb8062b80fd6ca4656fa9b4de780 brcmsmac: mac80211_if: Fix a resource leak in an error handling path
+2cc0469f0dd8686c58f7f120bf7b47217647868d ath10k: Fix an error code in ath10k_add_interface()
+ce40e2d11675e6b42a5ef731d12225f37d14a559 netlabel: Fix memory leak in netlbl_mgmt_add_common
+bf10ba4188468fe24d605fbb4924c0f9d8b8bad6 RDMA/mlx5: Don't add slave port to unaffiliated list
+0bfb22c2182f7006260d74f0fc4ff7e755f8f8c4 netfilter: nft_exthdr: check for IPv6 packet before further processing
+4fd5b670e8c4f5eba9f8180f8c6ceee4d1acac06 netfilter: nft_osf: check for TCP packet before further processing
+13293eeb84069d96c83c0effed85d3f99849523d netfilter: nft_tproxy: restrict support to TCP and UDP transport protocols
+502682fe648326a62113105cdac172422fc216aa RDMA/rxe: Fix qp reference counting for atomic ops
+0d3b5598150db3fe854f374eaa0391c7e1bfc02b samples/bpf: Fix the error return code of xdp_redirect's main()
+e78915af81bf4592ea50b5fdd064c23b2806b620 net: ethernet: aeroflex: fix UAF in greth_of_remove
+87253deae8ca2d24e4b6df95474f5068875567e4 net: ethernet: ezchip: fix UAF in nps_enet_remove
+57a96a4d4e1f1be2cc6acc1d962dfdeaff626602 net: ethernet: ezchip: fix error handling
+64c7748242ee9decaeec5ad1d859baf074dba434 pkt_sched: sch_qfq: fix qfq_change_class() error path
+0b23bf824bcc5270e8ba94f1eae7b925cb8a8a1c vxlan: add missing rcu_read_lock() in neigh_reduce()
+4c5f6d9d20426b76aeb60c7c9283162d66e99980 net/ipv4: swap flow ports when validating source
+3282f98459878a026e51b38f39fbb6b68625236f ieee802154: hwsim: Fix memory leak in hwsim_add_one
+5a2d0ded5e4ca77fd9fa57ac0d32471b1e5f65dc ieee802154: hwsim: avoid possible crash in hwsim_del_edge_nl()
+53a27cb5ccf5eb52e69a2d2b832c43730e73f412 mac80211: remove iwlwifi specific workaround NDPs of null_response
+325d609fe18ed50cd6072563081b17a460f94f9b net: bcmgenet: Fix attaching to PYH failed on RPi 4B
+a77d79897875dbeffb111dc01921e9ab18ba0ae1 ipv6: exthdrs: do not blindly use init_net
+a7a54d3b20c2e5c8b9b25e3bc4d1fe39cb6a26a5 bpf: Do not change gso_size during bpf_skb_change_proto()
+bc2cc6b9afcfc8c60b5204b5c95e7c75f0e2c22b i40e: Fix error handling in i40e_vsi_open
+bf544826e2bdcfc9effa0be4c708d95f248b379e i40e: Fix autoneg disabling for non-10GBaseT links
+e77ba74a3c2ae30b80b2631dd4c917e151f2212e Revert "ibmvnic: remove duplicate napi_schedule call in open function"
+53b34b4fe9828dfc4de61180f877990b1d3108bd ibmvnic: free tx_pool if tso_pool alloc fails
+0a40300fc47f8222bef444e4aae6ae294f82984e ipv6: fix out-of-bound access in ip6_parse_tlv()
+611f8b197cbe97735796e9a2a85c206035252cda Bluetooth: mgmt: Fix slab-out-of-bounds in tlv_data_is_valid
+02092aade5841ff82e500367a2ab612e0faf3a03 Bluetooth: Fix handling of HCI_LE_Advertising_Set_Terminated event
+f63e721fea8c7012939002647904c870b8b40b14 writeback: fix obtain a reference to a freeing memcg css
+86ec7ed4893dc0e9015435e7ddafecd1b58f7c22 net: lwtunnel: handle MTU calculation in forwading
+2ac973478ddd9b0ac5576406d9aa398348a0316d net: sched: fix warning in tcindex_alloc_perfect_hash
+d6ea36326fa273b1d39f91ef3643439c662e92fa RDMA/mlx5: Don't access NULL-cleared mpi pointer
+9e65ba814b7331e261c6c5ba789e0e11a6d44579 tty: nozomi: Fix a resource leak in an error handling function
+e2eee834404737d8c2686179c62e1104ab03210a mwifiex: re-fix for unaligned accesses
+80e0549cd3e94db006994f00c96fa5da909c71e6 iio: adis_buffer: do not return ints in irq handlers
+b730124681cad89433e5cf2c98cda5f6566515a4 iio: accel: bma180: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+614ce6c534efe34b684efceffd14e0cfa952465e iio: accel: bma220: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+aa277281763cbb215ac48392860fb06d18761834 iio: accel: hid: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+23b6198e4eb33e06deacf790f39989ede9364b38 iio: accel: kxcjk-1013: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+af9385b837460fddc3dd38438ab6f3fd8f663c93 iio: accel: stk8312: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+605f7203ba96f26c060c74c2db68113d4cdf26e4 iio: accel: stk8ba50: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+96e77f60568561642f8af2727b8abeb3ffb0ed63 iio: adc: ti-ads1015: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+00d1ba00076accec0f880085c29a05078bf16f78 iio: adc: vf610: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+4b3f1626d1f401a6805307ea4980d23667f76ace iio: gyro: bmg160: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+a0feeb8a8715250ea21489cb51c8f205938becce iio: humidity: am2315: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+38a7eb60a269cfe9937bc1c54bdb1f3382804598 iio: prox: srf08: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+d81550a049d8b37314dfc56268a814268e5f8969 iio: prox: pulsed-light: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+ee823a51bcccc2fd38e3253ea59dc3b2c64b0e59 iio: prox: as3935: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+b28f65880176c51091c02aa03e594e098a1acbf7 iio: light: isl29125: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+204fc3aa8f3c78c61b8b89e6f951046a88fcb6ae iio: light: tcs3414: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+28bbf0622eaf9208ec5c288055c7d992fafdefad iio: light: tcs3472: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+0d46141c64c542c48efc36859adef3c69a9fb5d7 iio: potentiostat: lmp91000: Fix alignment of buffer in iio_push_to_buffers_with_timestamp()
+da36f5e58553d3bc39169b8c976a753388d57b90 ASoC: hisilicon: fix missing clk_disable_unprepare() on error in hi6210_i2s_startup()
+55c81b23e21586f166af8c2a2145c3284b401420 ASoC: rsnd: tidyup loop on rsnd_adg_clk_query()
+f6dcb50c66fe8d8742f8880ee10a7a33cb7fcfad Input: hil_kbd - fix error return code in hil_dev_connect()
+cf42ffc45f1a1c1a235ed6fa44f8e7e78b9400c1 char: pcmcia: error out if 'num_bytes_read' is greater than 4 in set_protocol()
+1274f0d4ce06cd0137d454cd8a7ae26701e92286 tty: nozomi: Fix the error handling path of 'nozomi_card_init()'
+6e37770f97945a3ac83ac56da18edf31b644d4c9 scsi: FlashPoint: Rename si_flags field
+f4d3e3a0da026f5ebe1598b50d0bd8b33487ccff fsi: core: Fix return of error values on failures
+b0ad91b58cfbfef91103433966cfd0e8eaee153b fsi: scom: Reset the FSI2PIB engine for any error
+e8fd522849f34e7d030da412830cc4f263db80d2 fsi/sbefifo: Clean up correct FIFO when receiving reset request from SBE
+ab3d30f80d4f3b7686a8e9c20ecc169637334ef0 fsi/sbefifo: Fix reset timeout
+52d40363d84d158ae904392e13ae81635383faf8 visorbus: fix error return code in visorchipset_init()
+a9c681ea11706da640b63619449d1ddebfdea942 s390: appldata depends on PROC_SYSCTL
+38dc2c0188b5c1ff794246306ed69c5242c3230b eeprom: idt_89hpesx: Put fwnode in matching case during ->probe()
+b01f0d11d6264cfcb3742218e78fc758b7edeaae eeprom: idt_89hpesx: Restore printing the unsupported fwnode name
+07f34868d685278a02c7ab2d47abd250bb95e346 iio: adc: hx711: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+149e8b1581f0a1ac3214bd20b529721029e55474 iio: adc: mxs-lradc: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+70c698a0dedcc9baf7108c4e7b56bfe87ad38aed iio: adc: ti-ads8688: Fix alignment of buffer in iio_push_to_buffers_with_timestamp()
+5e5b72169044457ac48b077519716196ff0035d2 staging: gdm724x: check for buffer overflow in gdm_lte_multi_sdu_pkt()
+950a6c6978b21c44215d321a40d119a1d623fb94 staging: gdm724x: check for overflow in gdm_lte_netif_rx()
+4099f162d417ea9aeca624532a074f486bcb8a36 staging: mt7621-dts: fix pci address for PCI memory range
+c963bb94de1071c3291b41807238c4cd0eab7dab serial: 8250: Actually allow UPF_MAGIC_MULTIPLIER baud rates
+dd3cd8d2987167948a344dd65bd7bfa22db20b04 iio: prox: isl29501: Fix buffer alignment in iio_push_to_buffers_with_timestamp()
+a5d83d2bd863a2eb6926b684211edc367212c494 ASoC: cs42l42: Correct definition of CS42L42_ADC_PDN_MASK
+6220e1f35a1fd3ca341e07d851404b63d3c645b7 of: Fix truncation of memory sizes on 32-bit platforms
+781604520c55aa39743ec9f393c9c609650af410 mtd: rawnand: marvell: add missing clk_disable_unprepare() on error in marvell_nfc_resume()
+19b06bfb0f85aa44e4706c798f86b508f85be768 scsi: mpt3sas: Fix error return value in _scsih_expander_add()
+21d927428b6ea6c5356a1ce759e95644418401f1 phy: ti: dm816x: Fix the error handling path in 'dm816x_usb_phy_probe()
+33e71d03c55d580091e30a5e4d47cedc7798e6cc extcon: sm5502: Drop invalid register write in sm5502_reg_data
+83bd4503c1890d83b742cfc2a9ef34ccccb9dcf2 extcon: max8997: Add missing modalias string
+113862a21388f13ae577ba9487bd041ed4ec59bb ASoC: atmel-i2s: Fix usage of capture and playback at the same time
+15388ef413310f816e897a5aba4718a7e6569453 configfs: fix memleak in configfs_release_bin_file
+66d984dae09a7a56b900aad12cb46f403ac0a637 leds: as3645a: Fix error return code in as3645a_parse_node()
+2a2f3f061f5b2e77979b44c2c2f2af7263f00aed leds: ktd2692: Fix an error handling path
+74a8bba6c111e0dc318aa4fb0c9094535b14ab4e powerpc: Offline CPU in stop_this_cpu()
+afe7d0e8b7580b71446677a837f9723a70de3c3b serial: mvebu-uart: correctly calculate minimal possible baudrate
+6d8d3eb849fc24395b99f411698b1c370f46c9f5 arm64: dts: marvell: armada-37xx: Fix reg for standard variant of UART
+4913cbac8c5904aa50faf5438380ae36c3a7f05e vfio/pci: Handle concurrent vma faults
+32f97921f112f81e1624d3bca9c5399174173b8e mm/huge_memory.c: don't discard hugepage if other processes are mapping it
+d66577815eb129426eb8187bd70b5f9f5c9f2874 selftests/vm/pkeys: fix alloc_random_pkey() to make it really, really random
+5c970b888f25905c93ca438daf607b9fc01c92b8 perf llvm: Return -ENOMEM when asprintf() fails
+f76cc00bf5547fbb3ea01b221f4dafac29227ab9 mmc: block: Disable CMDQ on the ioctl path
+ca66c3465fe51e5264ee238deb43baaa8729d580 mmc: vub3000: fix control-request direction
+7338d57d42a3dba689027d4c8cb7a1ee83fc5c46 drm/mxsfb: Don't select DRM_KMS_FB_HELPER
+069e71116e719a4724bd9da0174e8f52e38837c9 drm/zte: Don't select DRM_KMS_FB_HELPER
+d54bf2aa9923d35e5f5d02877613c42a30686acd drm/amd/amdgpu/sriov disable all ip hw status by default
+c60e1a4c41503dc48ac9ed6e97086889eba19f2b net: pch_gbe: Use proper accessors to BE data in pch_ptp_match()
+b202cf2aa7a2b3941cba145adb6428630b54be0f drm/amd/display: fix use_max_lb flag for 420 pixel formats
+e02036cab9f539fcb8cf4592e06f5b4a445bf7b1 hugetlb: clear huge pte during flush function on mips platform
+5446ba5ebd72f70ec2e2af1803b95f915908ece1 atm: iphase: fix possible use-after-free in ia_module_exit()
+a386050999d506de916a198277914c460b555aff mISDN: fix possible use-after-free in HFC_cleanup()
+5287bc8c7e5a9c9f5837d6543b1116261e025d0c atm: nicstar: Fix possible use-after-free in nicstar_cleanup()
+4569d3bf0e81092f0f78cf3bd20633f882940455 net: Treat __napi_schedule_irqoff() as __napi_schedule() on PREEMPT_RT
+06029ea414c060305973d07ec285a596a2b9a4f3 reiserfs: add check for invalid 1st journal block
+e48efcf609a0b8b1efb4cd45ee8a84d9cac1022d drm/virtio: Fix double free on probe failure
+e7a3eaa70eec83b0bf4af37b8f298c2fe63ba2aa udf: Fix NULL pointer dereference in udf_symlink function
+05a8cf6ef082305e0e1b05834ee8002170796752 e100: handle eeprom as little endian
+11c9a3f37ceb0602c73ec3f8a1dd63cc0b43e72b clk: renesas: r8a77995: Add ZA2 clock
+f321b3c0581ee05d3de6ee6f73ed1f924572dce0 clk: tegra: Ensure that PLLU configuration is applied properly
+b4d9d0e2f244254671de9e09caf6806b3748a3cf ipv6: use prandom_u32() for ID generation
+b01fe6d9407c2a372510f40d7faf93711efdc142 RDMA/cxgb4: Fix missing error code in create_qp()
+b677c435f2398851015ab792148d190a8f381ec7 dm space maps: don't reset space map allocation cursor when committing
+c5c0aee454324862d9ccb7b22ea7eb6328a35d0a pinctrl: mcp23s08: fix race condition in irq handler
+4ace36cd0c0ce93afdd59c75da51673e6826c82f ice: set the value of global config lock timeout longer
+6e0a6d05d9d488d0e4f351167fb272293e676c33 virtio_net: Remove BUG() to avoid machine dead
+0f8c54efa588773b7840fc00184f39dc093dee77 net: bcmgenet: check return value after calling platform_get_resource()
+27b5c7272e6445c6c411d3c62a3a76313cf113ff net: mvpp2: check return value after calling platform_get_resource()
+2d4da76b5dcf37638440056bfb60cbf0e12508b3 net: micrel: check return value after calling platform_get_resource()
+7ce1e91f4edb3f1d65fa03c44c7a01fffe270d52 fjes: check return value after calling platform_get_resource()
+22b82e6ea6e7c557acd4097b180d9238b91b8a6e selinux: use __GFP_NOWARN with GFP_NOWAIT in the AVC
+4c6f10c6fddc18010685a0e98cf1ae15eb57a106 xfrm: Fix error reporting in xfrm_state_construct.
+2b09408399c9bbaa436b162b17153673d39b3b21 wlcore/wl12xx: Fix wl12xx get_mac error if device is in ELP
+a7b164940412eb6643deaf1648e0b7aaba27866f wl1251: Fix possible buffer overflow in wl1251_cmd_scan
+9961f18158a4bdc27e801e5039220b512e13a87d cw1200: add missing MODULE_DEVICE_TABLE
+ecd0398ec92e58240b4a1da87a81ca49df163038 net: fix mistake path for netdev_features_strings
+19edf8badf33fc62f56516f67aa7193bae03575e rtl8xxxu: Fix device info for RTL8192EU devices
+8dece6aebc51fe6004593923bea0bfc7960a392f MIPS: add PMD table accounting into MIPS'pmd_alloc_one
+3f4770b4a9a673b9bf604f98c84e6defe0282d9e atm: nicstar: use 'dma_free_coherent' instead of 'kfree'
+2c28831e366624d5157f80427d2fbdd1d6ea7d23 atm: nicstar: register the interrupt handler in the right place
+37dbf11fef1ec6d5c7caa0facbaf34637b4c3f77 vsock: notify server to shutdown when client has pending signal
+bb872ebaf2aa88811d4c18620665d06976612476 RDMA/rxe: Don't overwrite errno from ib_umem_get()
+99823930e864790a3d92c5d9ab0defecfeacfd9a iwlwifi: mvm: don't change band on bound PHY contexts
+88add2d6a0d922f9ee135dd515027e1cc37224be iwlwifi: pcie: free IML DMA memory allocation
+6a566793cdabf1162f6e279e44f72e3dc34fcb80 sfc: avoid double pci_remove of VFs
+3812afc863d0d4a86b550dae9520fde386033bd8 sfc: error code if SRIOV cannot be disabled
+a85cb5434847c765edff0e31bf54bcc11d53d487 wireless: wext-spy: Fix out-of-bounds warning
+190df1454c3b1bfa8729ab9baa57eeaf2a25610e media, bpf: Do not copy more entries than user space requested
+8341e2623bf0a024b9a74afe186761986b432ecc net: ip: avoid OOM kills with large UDP sends over loopback
+861e3caabed31eb65386143fd9724f37d2f809dd RDMA/cma: Fix rdma_resolve_route() memory leak
+756119b96e6274045406e893e2bda2c807a752a6 Bluetooth: Fix the HCI to MGMT status conversion table
+88d2f6b8e7d9d946116abe83b1c27186d9a1ee8e Bluetooth: Shutdown controller after workqueues are flushed or cancelled
+8a5a10db19593aaa9a30647a7e5fec287d84fd76 Bluetooth: btusb: fix bt fiwmare downloading failure issue for qca btsoc.
+dbc480134a17dacfedda8ea17150c80a60e341fb sctp: validate from_addr_param return
+c8b039868bdd827d71477ddd72c5aa7dd3a72c27 sctp: add size validation when walking chunks
+08284d4c190a2b0cfef7e7d90c8f5d4a81558288 MIPS: set mips32r5 for virt extensions
+1e97e0f1b170ca781bcefdac78af4db0e0dbf2b0 fscrypt: don't ignore minor_hash when hash is 0
+3974f6ab629c7ccbfa7dfa47c663939c7a60e98a bdi: Do not use freezable workqueue
+424c6de73934954cf6d62b56868236cae83dde62 serial: mvebu-uart: clarify the baud rate derivation
+cddad1b8e61438e47c88f03854274f681a81b39b serial: mvebu-uart: fix calculation of clock divisor
+e955de63d73b85050b3b0da97ead58995751b23f fuse: reject internal errno
+3bdef71987566c79d6432d45a4b692cc77b2e094 powerpc/barrier: Avoid collision with clang's __lwsync macro
+8ef40733d378d4563e32dbac18d847c1a55cc99c usb: gadget: f_fs: Fix setting of device and driver data cross-references
+ffcb3237d8f520093c182934a4d31b5b7753b1da drm/radeon: Add the missed drm_gem_object_put() in radeon_user_framebuffer_create()
+691a38f73309c9eedf77d0f8468e5f96449ea3e6 drm/amd/display: fix incorrrect valid irq check
+88bbe3f1cb52b5e252dbb45a5c16e91577c4faf1 pinctrl/amd: Add device HID for new AMD GPIO controller
+e8b15da6bd6d909d1c91bc963f532a61aa1273f3 drm/msm/mdp4: Fix modifier support enabling
+1369e4c9e92eabc40b253c4ff2ec7b16e1cda0b9 mmc: sdhci: Fix warning message when accessing RPMB in HS400 mode
+e3f725e7da229abb14ed613c996f465443d8fd79 mmc: core: clear flags before allowing to retune
+70d70adde73f0d8c599537c886e49767b4f05e98 mmc: core: Allow UHS-I voltage switch for SDSC cards if supported
+61f67fe6eab4c3f7a96b8949cedfd6a8d8c41967 ata: ahci_sunxi: Disable DIPM
+ce5396c5c16eec618572dbd4a38763b67d9567c0 cpu/hotplug: Cure the cpusets trainwreck
+72c1ccf0bb9d258ac34e3daab7b6361ad6837569 clocksource/arm_arch_timer: Improve Allwinner A64 timer workaround
+47cdf84871ff88b0c1766e53cca18b72d53348e2 ASoC: tegra: Set driver_name=tegra for all machine drivers
+32d7bd25d7904c140a67bb671a4a5dc4624413af qemu_fw_cfg: Make fw_cfg_rev_attr a proper kobj_attribute
+229f24bb5cc4718914aab9104324da136fc118b3 ipmi/watchdog: Stop watchdog timer when the current action is 'none'
+4f60caa3a58669959c03e7e99a53b519875f39a8 power: supply: ab8500: Fix an old bug
+9202f0383665c7acf71ba4bc150be16ef2c5ab36 seq_buf: Fix overflow in seq_buf_putmem_hex()
+b1a5dcef873f78f58ad070e3eb26f1bdca3efd00 tracing: Simplify & fix saved_tgids logic
+65e472a8d771598dc408261b00ce255cf972e52d tracing: Resize tgid_map to pid_max, not PID_MAX_DEFAULT
+061f4d0b68a00ccfadd5ee2a26f9d779d3089617 ipack/carriers/tpci200: Fix a double free in tpci200_pci_probe
+a5f0e09eee3b9781e6f12662e3fa77d5f114094e coresight: tmc-etf: Fix global-out-of-bounds in tmc_update_etf_buffer()
+3b979d72203ebd5ff88b376b0d92a412a6f6a25c dm btree remove: assign new_root only when removal succeeds
+223f02419af9382a37962a3c93367b896b8155d8 PCI: Leave Apple Thunderbolt controllers on for s2idle or standby
+5bdb055e8a3def608ad54271557dd8f37fc3b9e8 PCI: aardvark: Fix checking for PIO Non-posted Request
+3ad2fda4555fb883dfe2d20c6967ef9927fe8686 media: subdev: disallow ioctl for saa6588/davinci
+7147469288a7971bd238ad5ae70212712ff3ddd7 media: dtv5100: fix control-request directions
+b2cfef19c0e13fd48b407794e22f66d389c58ab4 media: zr364xx: fix memory leak in zr364xx_start_readpipe
+b7104010ed87240daca6fde94d81fd137534e44f media: gspca/sq905: fix control-request direction
+7e5667d250119b01d3b694433c4212c5f0724b9f media: gspca/sunplus: fix zero-length control requests
+2806b187dba8a8cd4c7d148f2bdcda87240f34b7 media: uvcvideo: Fix pixel format change for Elgato Cam Link 4K
+e2fc6d4ae8d54d33987e8be39255ad4da24ddd20 pinctrl: mcp23s08: Fix missing unlock on error in mcp23s08_irq()
+009ae4db30af45039d5bdba4179292d2321ac199 jfs: fix GPF in diFree
+539e6b6ec4b4c2a23675d50c8cd6b5288b0c044a smackfs: restrict bytes count in smk_set_cipso()
+dee1bb0a661a69cb26633463848299eed78c1913 KVM: x86: Use guest MAXPHYADDR from CPUID.0x8000_0008 iff TDP is enabled
+c6e7de646eb5349a40cc2cc017911b6e3e4e3065 KVM: X86: Disable hardware breakpoints unconditionally before kvm_x86->run()
+ca5b7763a6cb2f8f7c48138c9b3fac2d8ca6f250 scsi: core: Fix bad pointer dereference when ehandler kthread is invalid
+3cf8c4a7b29a7d424e12ff6189672025c3d5e237 tracing: Do not reference char * as a string in histograms
+b15209c4e59e9a883cae76e1e6d25766a03d637a PCI: aardvark: Don't rely on jiffies while holding spinlock
+3d83e049c39d99a458e2c9395040d2b0510de1ce PCI: aardvark: Fix kernel panic during PIO transfer
+54be68ffd624a23fa116bef0394420a3f97f4dec tty: serial: fsl_lpuart: fix the potential risk of division or modulo by zero
+db0089d14468b76c7f88e26b309d583c08c385c7 misc/libmasm/module: Fix two use after free in ibmasm_init_one
+b4ff070a31a243dec26e33beb0d51260fb4377bb Revert "ALSA: bebob/oxfw: fix Kconfig entry for Mackie d.2 Pro"
+c85544e363e97f1b97d87dc08022107d30a6a91c w1: ds2438: fixing bug that would always get page0
+b5019ff74400e39de97dda3254aa61bd5ab3c777 scsi: lpfc: Fix "Unexpected timeout" error in direct attach topology
+d19a18f554088919768f08c6abd668eb577b23d3 scsi: lpfc: Fix crash when lpfc_sli4_hba_setup() fails to initialize the SGLs
+4304ba10dde64552da16b9d7536321ddea5dadc1 scsi: core: Cap scsi_host cmd_per_lun at can_queue
+f663afd29287b60ebb82327f5609fb8e33c0bdec ALSA: ac97: fix PM reference leak in ac97_bus_remove()
+041fc011a95ddc5a3beb5a1026ea9873877c63c7 tty: serial: 8250: serial_cs: Fix a memory leak in error handling path
+223249e4df1fa18a0aa3222050435e6409ce5a43 scsi: scsi_dh_alua: Check for negative result value
+b7beac3c7fc6dc39507d5905144b7932c54b37ef fs/jfs: Fix missing error code in lmLogInit()
+2a67d13e5e6d4a5b3e30c8bac851a5ccbe494515 scsi: iscsi: Add iscsi_cls_conn refcount helpers
+7ce40934c1a91a8079f1f63edd1c7f3a4ae8e608 scsi: iscsi: Fix conn use after free during resets
+58efe3efff030025c0fe15ee7b0fa25386cc9840 scsi: iscsi: Fix shost->max_id use
+db451405593d7533e4db606cf6d79252806f41be scsi: qedi: Fix null ref during abort handling
+5f989c7d82bf603a43858b83ca1d4e1ba68e92e6 mfd: da9052/stmpe: Add and modify MODULE_DEVICE_TABLE
+44eb337fead6f40009265a6311e8432ae8a18f3c s390/sclp_vt220: fix console name to match device
+91a2de7795bde8d704f3a2e84f4c088f84256ce4 selftests: timers: rtcpie: skip test if default RTC device does not exist
+23992d5b58dc929181b7fd31bbb6ce041a7b5bb0 ALSA: sb: Fix potential double-free of CSP mixer elements
+bd6932b33aab425ee2f4c561ec18843f822f2b32 powerpc/ps3: Add dma_mask to ps3_dma_region
+4f82a5393c33eac83e3e40c6bd6e36a7a3e1bf3b gpio: zynq: Check return value of pm_runtime_get_sync
+f916036bf716d7a97f259bf175663d65b3ce2fdc ALSA: ppc: fix error return code in snd_pmac_probe()
+6d46b41bade0875c7ebd7cff7d7b692b10593d11 selftests/powerpc: Fix "no_handler" EBB selftest
+fffa98ab8f9225bb1df00bd768c34275e973afae gpio: pca953x: Add support for the On Semi pca9655
+5165734e34b00decc8ea916b5bba509e5a4825c7 ASoC: soc-core: Fix the error return code in snd_soc_of_parse_audio_routing()
+965528d127e3b378c2e3d8da2e8cda4df28364e7 Input: hideep - fix the uninitialized use in hideep_nvm_unlock()
+a5811a8a28283408dc1c02000d10f6c9933bf55f ALSA: bebob: add support for ToneWeal FW66
+bdb5cb1b7f51a6989e33d763dcaa42878fc4e8dc usb: gadget: f_hid: fix endianness issue with descriptors
+abaeaab2cd800d8d18302a1b0db2fc120681e39f usb: gadget: hid: fix error return code in hid_bind()
+a16b78ac2b23bacc0fb61d5f0cb2e32bb7820c04 powerpc/boot: Fixup device-tree on little endian
+d59cd1f958eedc5947994a3c2c6822fe607d784c backlight: lm3630a: Fix return code of .update_status() callback
+f2a7bddac3cef9838365f7a2a7c581d9da39b332 ALSA: hda: Add IRQ check for platform_get_irq()
+a823073c1fc553c6358369aab2638673c39a735e staging: rtl8723bs: fix macro value for 2.4Ghz only device
+844658ef5ad1d1d56e1735070be4f7c7573e7cd7 intel_th: Wait until port is in reset before programming it
+335b095e1bed5f47a279d11c804728412be9f095 i2c: core: Disable client irq on reboot/shutdown
+4586fd3cb388794545c8ca82772f12dddefcd4c7 lib/decompress_unlz4.c: correctly handle zero-padding around initrds.
+49b8e7a1a8d715f2c09fd49ff8e60b31812e28c5 pwm: spear: Don't modify HW state in .remove callback
+2c71e4f0b89ff73c8cf298136e05570f4ef888d4 power: supply: ab8500: Avoid NULL pointers
+8cc7952b65bfcd62aa352612a69ea35ab243aa1b power: supply: max17042: Do not enforce (incorrect) interrupt trigger type
+9c55771d3f71a3986415f3b3e92184908ee2dc04 power: reset: gpio-poweroff: add missing MODULE_DEVICE_TABLE
+974987e46503b87a3158970e659b3f3e80a52ac6 ARM: 9087/1: kprobes: test-thumb: fix for LLVM_IAS=1
+d4f4ea5300ea91488d1679e8225167a393e20c90 watchdog: Fix possible use-after-free in wdt_startup()
+75331eecab954f9348aac694fd73f63c6b305a5b watchdog: sc520_wdt: Fix possible use-after-free in wdt_turnoff()
+875086924557261dfe74f1da509499d3975b23f2 watchdog: Fix possible use-after-free by calling del_timer_sync()
+8593534486696fc4e33d238c3311e064de8c74fc watchdog: iTCO_wdt: Account for rebooting on second timeout
+eb2bb1a7365966472721ee21e776f275080345c6 x86/fpu: Return proper error codes from user access functions
+59ea1d25b5650ab474b3c9ea53452ced2d838b1a PCI: tegra: Add missing MODULE_DEVICE_TABLE
+ba82330fc9f69dccf38b0008370f92732d34175f orangefs: fix orangefs df output.
+1ceb36dab98fd3ad1a7a9ea93125775a20347f31 ceph: remove bogus checks and WARN_ONs from ceph_set_page_dirty
+58b2489746f2efab6646e4989077930cae2c79a5 NFS: nfs_find_open_context() may only select open files
+f61f735eca9d602fef427a93ea034ff9dbcb68ae power: supply: charger-manager: add missing MODULE_DEVICE_TABLE
+a0f9ab3a97e9f73d816ae32575d182f529ede117 power: supply: ab8500: add missing MODULE_DEVICE_TABLE
+3b0262de8b3abd886beae2ca93def09aeb3c9d46 pwm: tegra: Don't modify HW state in .remove callback
+853e31b47fc759e43c5175005656415e21ec6082 ACPI: AMBA: Fix resource name in /proc/iomem
+f0215d2f2be6ca2cb62b760d03ea741209018fd3 ACPI: video: Add quirk for the Dell Vostro 3350
+586f97378e65f6c26714c97aa84b41f984df9310 virtio-blk: Fix memory leak among suspend/resume procedure
+5f0446a36cbc73a468988c544637a63d0f142075 virtio_net: Fix error handling in virtnet_restore()
+2f1fb5c5eea87eb33b5d535cc629859a8c93c305 virtio_console: Assure used length from device is limited
+4df8283a62fea7f7fce54281573488bed86a7396 f2fs: add MODULE_SOFTDEP to ensure crc32 is included in the initramfs
+967e34a1a488493fed9f0bd700aa8d93ff29589c PCI/sysfs: Fix dsm_label_utf16s_to_utf8s() buffer overrun
+4f0412c6aecbf5519ca04c3b7280ab56a4444850 power: supply: rt5033_battery: Fix device tree enumeration
+e08b8f2d33d21419ead7f4148e09da8e025fb17b NFSv4: Initialise connection to the server in nfs4_alloc_client()
+00aa7f68c18109396b9dd8f61daf2bf0620fa8b7 um: fix error return code in slip_open()
+4f5d85eef2f950616920c0c1026f16466ba88da0 um: fix error return code in winch_tramp()
+e8820cbf2d641786c7951e50606f08f82812a061 watchdog: aspeed: fix hardware timeout calculation
+6f107599c6783cf6e4b2fb52c25358716e5f205e nfs: fix acl memory leak of posix_acl_create()
+486251b5c57d7af60e45782af1504ad364133388 ubifs: Set/Clear I_LINKABLE under i_lock for whiteout inode
+58070c46127d6976a546a56d8f6594e2e015b5fb PCI: iproc: Fix multi-MSI base vector number allocation
+11f0263720b73a407f0e664ac5176df6b27d4131 PCI: iproc: Support multi-MSI only on uniprocessor kernel
+1af219ed7b5d6b6ec4c5c0d5775f3436486417ef x86/fpu: Limit xstate copy size in xstateregs_set()
+e7828dd41564de8f7ce3d60456d7bac4c5028930 virtio_net: move tx vq operation under tx queue lock
+847d69dc8e540ae81bec26d148685325121fdbfb ALSA: isa: Fix error return code in snd_cmi8330_probe()
+c82080b391b698d6123dbad76136768de4074c80 NFSv4/pNFS: Don't call _nfs4_pnfs_v3_ds_connect multiple times
+98aaa38426ea54630d394c74bbcb62896bcba697 hexagon: use common DISCARDS macro
+74aa4cac4feaf323192d3715cfa766103ccab54e reset: a10sr: add missing of_match_table reference
+d1a909a10aa9c43b2c6ddcbcd38ff504361ec17a ARM: dts: exynos: fix PWM LED max brightness on Odroid XU/XU3
+52402ac5a2f3fd61589ee11ed4cb8e4daacb3aa6 ARM: dts: exynos: fix PWM LED max brightness on Odroid HC1
+e98d15140676497cc84d3ed3dbe78a2cce0c111d ARM: dts: exynos: fix PWM LED max brightness on Odroid XU4
+a4d5da951f7194f12aac89719223f7d2719dc8ae memory: atmel-ebi: add missing of_node_put for loop iteration
+1c9af6906dddb425d09c760bf29c39ba89c1e50b rtc: fix snprintf() checking in is_rtc_hctosys()
+bfafa46eb23e1524ea7efb61cf89cddab84702f5 arm64: dts: renesas: v3msk: Fix memory size
+1c92f8271b830c8895c8ea32bb84ab9082b50809 ARM: dts: r8a7779, marzen: Fix DU clock names
+05be2418b0a4b4d06b3451eb41a9fec07c8e8692 ARM: dts: BCM5301X: Fixup SPI binding
+4a2909c67d452fa9f581f0d1b80915b38e7aa9ee reset: bail if try_module_get() fails
+419bcb3f6a6a10f174572866640d7bd164ced52b memory: fsl_ifc: fix leak of IO mapping on probe failure
+295ea6ec4dd97d053b8e49144e4934529ef59cbd memory: fsl_ifc: fix leak of private memory on probe failure
+45e815908b04e67adf006d422ac88394a75bcf19 ARM: dts: am335x: align ti,pindir-d0-out-d1-in property with dt-shema
+08eff82fc6bb10c128f9f3acc030b7f24ca90160 ARM: dts: am437x: align ti,pindir-d0-out-d1-in property with dt-shema
+d6d5f825018962188e39b984b55add187ef72073 ARM: dts: imx6q-dhcom: Fix ethernet reset time properties
+8a687c9606b43bd6ba795f9d07fb5bf6e99ae439 ARM: dts: imx6q-dhcom: Fix ethernet plugin detection problems
+9e969c87b5beda3fb352cc7a1a21093e267260f6 ARM: dts: imx6q-dhcom: Add gpios pinctrl for i2c bus recovery
+ca9d7cf8d4232d866df9d97ffcb02b65c0092285 scsi: be2iscsi: Fix an error handling path in beiscsi_dev_probe()
+178b787016b94c345a8a9b955c1e15661eae6ade mips: always link byteswap helpers into decompressor
+7e8eb376deab26822f67f11cda1728b5679f55f6 mips: disable branch profiling in boot/decompress.o
+e3bffcfc933a69ab6f45e9f169ac30f778a88a5f MIPS: vdso: Invalid GIC access through VDSO
+9d4298423af2a5ee20d0ec2d3169c281016c1cdd net: bridge: multicast: fix PIM hello router port marking race
+ee638cd646af7fc639d9914db18ad5a4e476cd46 scsi: scsi_dh_alua: Fix signedness bug in alua_rtpg()
+9ec1965d618f6ee0de12cfed19640954abd387ae Linux 4.19.198-rc2
 
---===============3013565125604495571==--
+--===============4468031710421222504==--
