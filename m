@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Wed, 21 Jul 2021 05:57:15 -0000
-Message-Id: <162684703523.20506.14099894855712907983@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7702223824672652754=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 21 Jul 2021 06:58:47 -0000
+Message-Id: <162685072746.27088.15956901574524326544@gitolite.kernel.org>
+
+--===============7702223824672652754==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/msi
-    old: 148a9616eb053a8c0d0c9859fde99fa2aee3ccea
-    new: 35fdba2cb09b5819d9391f109f3515932523fa16
+  - ref: refs/heads/usb-linus
+    old: b0863f1927323110e3d0d69f6adb6a91018a9a3c
+    new: 44cf53602f5a0db80d53c8fff6cdbcae59650a42
     log: |
-         fbece06f9a161caf337ae40dd5f981d055c3f382 PCI/MSI: Enable and mask MSIX early
-         cb2d309940b4262a291732aed091e9cb0fa31d04 PCI/MSI: Mask all unused MSI-X entries
-         b21684833b53a9b1185e4047dd0d9698c7affa5c PCI/MSI: Enforce that MSI-X table entry is masked for update
-         f5597a93622ed8ce06d7b61f566a182a6a0c29e9 PCI/MSI: Enforce MSI[X] entry updates to be visible
-         7f702f6679e31f6f941007b80f72f9ec57628890 PCI/MSI: Simplify msi_verify_entries()
-         718b1c9d1fb8c3a8a81ead733ad0c32e2bf5c59b genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
-         d58e3a5ab99dd503367ad3717992665b4353246b x86/ioapic: Force affinity setup before startup
-         35fdba2cb09b5819d9391f109f3515932523fa16 x86/msi: Force affinity setup before startup
+         44cf53602f5a0db80d53c8fff6cdbcae59650a42 Revert "usb: renesas-xhci: Fix handling of unknown ROM state"
          
+
+--===============7702223824672652754==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626850725 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1626850724-31abcdf7e0632dd96deaf899f9c82ad6f1151d81
+
+b0863f1927323110e3d0d69f6adb6a91018a9a3c 44cf53602f5a0db80d53c8fff6cdbcae59650a42 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3xaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zVsP/R+EFXM362b65fCNCUWs
+CDs1t5r+lZJeCOmfZUeIVheiZAibmK3jCr8pH/QsOnSL/6MmbDBw3udCGevSg1Yb
+KdDTwQm9FvD4GfituSpwb5IxeExIQi5A25blQ3EIMVp7jXriwV4vlw4lvlNX+xhv
+k/hVfckzwsywiMXo1xZxzdzXuPGr+FVN1uX52AE9XVnVedlF3ygHfahGWVpDxOa9
+sBXefp2t6fZ6+o0AgkV6sIM9dBcr0MJxYCPZ0BqVUHTvqWq2hLMRAXxe+qqIo32G
+BgcIeTIiRUfji5XHl4RHFmwtJpsBU4qyy9EoiiXvs0I2EjNidCE4kTL+273KZekG
+LM+OnFykz3AmVuTxqQo3dU6pZVsv+y6ZkLSwWyGLPmS2a33YhSamoMxg7Hr2xPXT
+eoxmTzhkCV3UJTbbeIJkCMc7lF81crI6BGfyGByE1dlV6qujCYRadJQFJBXkleip
+X6Ofl0GkigwrgIXpbeSUUGidEi5jdgnSKFUVvVWw0pBfXKTtK+snHL4Xdb7FoGLw
+epX7vweAZkM0X7f/lYQuFxgpf/XvhSaJxFWJHgS80CKdpCwMmIKnZqIxphCa1Rwi
+hAFyF/TLMlcaHNJuAE70eJ4rJxJvP2JFp2CBifNyQg91twtBM+gYyZRbuG/jyRd0
+lMH3cdE6zNptAeEdf+qjPYMW
+=BBOr
+-----END PGP SIGNATURE-----
+
+--===============7702223824672652754==--
