@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5202903496311844457=="
+Content-Type: multipart/mixed; boundary="===============8793022043122177430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 21 Jul 2021 10:50:14 -0000
-Message-Id: <162686461444.7496.15736509532094291524@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 10:52:35 -0000
+Message-Id: <162686475564.8580.2799758052046524536@gitolite.kernel.org>
 
---===============5202903496311844457==
+--===============8793022043122177430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 33969db7abe9e1cea524e1facb416952211e1d7d
-    new: 5b869a06a2790a2d1f3ee965e8f38246bfc32d24
+  - ref: refs/heads/tty-linus
+    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
+    new: 9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72
     log: |
-         ba998c7c3aba194f43f85bb9ce13cb4f077d3b7a amiserial: remove unused DBG_CNT
-         1cd25475a5ebea9a82c61a9a17abea7e78dfff9f amiserial: remove serial_* strings
-         b44206930a27e321b13a651ea176b6ccb4ce701a amiserial: remove stale comment
-         5a7c7a6bb7065625a9802fcd712e50c2424eac6b amiserial: remove serial_state::xmit_fifo_size
-         7ec3114ec78026b132eba2c7f4b1d582fad82047 amiserial: simplify rs_open
-         5d4317abd2223eea5884f7e28d1047d5e87d4a6f amiserial: use memset to zero serial_state
-         935256192996de6317e3afe5dc1b2f8d9c210afd amiserial: expand serial_isroot
-         816807020ea68c889c35b01c38cd2f6d1da69f20 amiserial: expand "custom"
-         f3d788b4254c72d6d6f5e6fc8979f95295865e93 amiserial: pack and sort includes
-         6cc7bda16dfd4a5d89039302cf1668f9820dfb77 amiserial: switch rs_table to a single state
-         5b869a06a2790a2d1f3ee965e8f38246bfc32d24 amiserial: remove unused state from shutdown
+         61acabaae5ba58b3c32e6e90d24c2c0827fd27a8 serial: max310x: Unprepare and disable clock in error path
+         e5227c51090e165db4b48dcaa300605bfced7014 serial: 8250: Mask out floating 16/32-bit bus bits
+         9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
          
 
---===============5202903496311844457==
+--===============8793022043122177430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626864611 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626864752 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1626864611-a717d9d089e19a25d6058d82aa88fc257e03da9e
+nonce 1626864752-4614eb56916bf11d45bc2ce3f3352b046f210e42
 
-33969db7abe9e1cea524e1facb416952211e1d7d 5b869a06a2790a2d1f3ee965e8f38246bfc32d24 refs/heads/tty-testing
+2734d6c1b1a089fb593ef6a23d4b70903526fe0c 9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3++MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MvIP/jB4Abt9qRnnXuGbVZHi
-1krYyMT9bn1UReOORP5SZoxZ+SMD2oT70OAjo7gNtuxmcn5Wy79hMOB4yi0N3Jgz
-+53Y62r+sortOz5EVfIVTDIG5sG9yiD2rnhB2CYGhDP73q5fZqEKqzVgc+T43nTT
-L9l7NlTEX1cFRSlzOgREtFHX2q6tR/Kbz2oF1PTT4EGKJLv/AtdqcggQxTPTmh8t
-cKfILwIJhEwSn+W2mdMRk/kte8wFhgESHopNUdoQh0qN2cJysvNx/og+els7Adkb
-bgKWXQpDj9axgmv5xtDdYdL8+cr9m1i1CETzP2RtQkjy3V+g/mGvrti7riq3SKOo
-bETN9dOtA1/YeTpiEZc4r0bpwg9IqdYJB6bO4+pZgcevyGBycnDYvsQEOhVLS/yu
-gtLLH5boA5HxNEqI7Sml2GNPkCUmkL6QrMh1DDleeFOSR9GFewn4/FLGKAm+TF8L
-dR/hxm57F3moBlh0uYLA6A54t/GXy3SZJTgQ27OuzS5IiYviO7S2SKOA16H+zjYT
-zn6SUoyZGqeeD5d7/rqcvP9k6/WPqYebQ/cuu/K2OUWjwU1DezfbIsouba3Tb+gY
-nTgcIr+NAUT9gdnUoqIBlczo5MdQ2tDBfTBPDqnWMr/yO1lhPP9MofaPHcVu5xba
-6Sd61Ar9agXBNrvo00Mz7ZgW
-=xruG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3/HAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vwsQAItd9IBmwDWAKom2En8r
+iMW8QObbLgf2htaXCkDhL5t3p7G7nHCHrLaUrWvXnpbrG0t03uuvgaVqvrPJrSYa
+Cxq1e0fZRf5EC7zbssVeBXmRfORYdTTtXzQEDim9rT/wnN6m4inwI6JPN/xJw47V
+JWaIX53hhxHEgeyZCD6xqepOpdI94tFpMwmdTDLxf5cKpyM0wZkcfWylsHWPCaHd
+Pmh80EOTW/D4WKhTGzd2lFi46oncxcG1Aq+OKZInpjmyZNW3BJmCDx1+g8/njaAR
+H3sjHUeYsCOgbakqRrjJQeomILc2DAfHeEvZSvWppE+aQz+QH5aDnLKKrwiYYfxS
+1E5IDWM0JRrhu5TlJ9hkALs5qrSc56SshkzKnOMnEchyxFbjpilXus1rR+WniLRN
+pVVmP+vQScgTFG1D566icSpSLXaSfsVFu4zl4VYfM6zwz4zi5K77dzxEoo5KyWS6
+RcEv1c7jd/yZttxSflsC40PxTQFTtMyPciiyA/+JRFNOP52iaVUTr/ZghoiW1zKw
+rGRxdXExx0V2Qq020KiMtPOMBhwLQ+qT+0/5wHQ61bxtcbK8mkb+ahO4ASl51stM
+qvJ/R1SLQoJO+q/HABDyJDzY8P1jPNgxh3GSJR38rGRa6hRoAviGRYbjxtH2ax/2
+HesB8OMYmM74gqqI9U6tg9SC
+=CvnJ
 -----END PGP SIGNATURE-----
 
---===============5202903496311844457==--
+--===============8793022043122177430==--
