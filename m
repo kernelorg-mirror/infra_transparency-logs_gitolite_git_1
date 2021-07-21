@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3871927871967386382=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Wed, 21 Jul 2021 21:05:55 -0000
-Message-Id: <162690155583.408.1175789404956806079@gitolite.kernel.org>
-
---===============3871927871967386382==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Jul 2021 21:31:36 -0000
+Message-Id: <162690309698.17355.6416739971698957920@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/grokmirror/grokmirror
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 0cebec3a7f5fb640c3a71556fd0e7d7c4d6aeb71
-    new: 967f9abdbbb9c64c93a5682646f7e2dac00fb190
+    old: 54cb43199e14c1181ddcd4a3782f1f7eb56bdab8
+    new: dabb5db17c06d25accc3c3b8417b3a0428ba0731
     log: |
-         967f9abdbbb9c64c93a5682646f7e2dac00fb190 Add support for boost and listid priorities
+         240bfd134c592791fdceba1ce7fc3f973c33df2d tcp: tweak len/truesize ratio for coalesce candidates
+         649502a337544840f1fbab8660603e08e86e2f41 dt-bindings: net: fsl,fec: improve the binding a bit
+         dabb5db17c06d25accc3c3b8417b3a0428ba0731 ARM: dts: imx6qdl: move phy properties into phy device node
          
-
---===============3871927871967386382==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1626901555 -0400
-pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
-nonce 1626901555-eb285a3ed1b0025d4e57f73e615b6981f413a54d
-
-0cebec3a7f5fb640c3a71556fd0e7d7c4d6aeb71 967f9abdbbb9c64c93a5682646f7e2dac00fb190 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYPiMMwAKCRC2xBzjVmSZ
-bD/SAP9L+lA8WrfGQcORKzylL+FixXZqhjWwzWdkshkJE7wfvQD+N7vzcgK7aj0W
-zxTIJqLKqJcyRjvVo44QKBIHB4S0vAA=
-=Ft/K
------END PGP SIGNATURE-----
-
---===============3871927871967386382==--
