@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6796749360888348416=="
+Content-Type: multipart/mixed; boundary="===============2256076615154352902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 21 Jul 2021 13:52:26 -0000
-Message-Id: <162687554624.31513.632530920770380191@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 13:55:54 -0000
+Message-Id: <162687575428.1764.4624003992139919696@gitolite.kernel.org>
 
---===============6796749360888348416==
+--===============2256076615154352902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: ebea6761b620d758ed77d2df70fab1ae7a363151
-    new: c453db6cd96418c79702eaf38259002755ab23ff
+  - ref: refs/heads/char-misc-testing
+    old: ddb1381018766202894b167c700e0852f52a9b9d
+    new: 74a03c20bc8809a41d66ea614e55358064adbd7d
     log: |
-         c453db6cd96418c79702eaf38259002755ab23ff nds32: fix up stack guard gap
+         36cdc20b79ef8841d38217ea8ba837a7dbfbe852 lkdtm: remove duplicated include of init.h
+         d1d26f40f71c6eabeb2083e2a18d2e55e9a71336 dio: return -ENOMEM when kzalloc() fails
+         74a03c20bc8809a41d66ea614e55358064adbd7d misc: pci_endpoint_test: Ensure relationship between miscdev and PCI
          
 
---===============6796749360888348416==
+--===============2256076615154352902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626875543 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626875751 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1626875543-029f53e5f4d55e5626904afc21cdea26356d74fd
+nonce 1626875751-2e184991f26ae84b0b72d318d96a2eac57b5ee91
 
-ebea6761b620d758ed77d2df70fab1ae7a363151 c453db6cd96418c79702eaf38259002755ab23ff refs/heads/char-misc-linus
+ddb1381018766202894b167c700e0852f52a9b9d 74a03c20bc8809a41d66ea614e55358064adbd7d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD4JpcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EEsP/jAjUH9BmBi06TjJE0NK
-CLuCSO0FRg08Qme+2zG7D6+5GflA5TpjcqczpzzmVwBtFjarEmOSve8k5xXpm65a
-0GFaMvWrYiSfo+RyVwLeOP3nKHy3UUxZPgDUXBOLFc6CCIv8eT4hF8BfWTJ2vQ3C
-3uS4/zlle+5oG6Y7JridDgEmhU5+SE3g4ax+UfIYhPsM3HNUIDIhIG+TKlL/5FcX
-I5ivNkOm1TuYiBUdLWbBgGDofqK8GSQXm5ALISH5uzvVmCzJdaPCO6ubmdoiv2vt
-4GVjeBOeB0/1UWykCIL3ThpwfdZrfH85cqX8TF1wayM6Dn5z2W1Awnu+iQcRe0Ii
-yrweBMVbENtaR60nQuKVKMRCH2NWILWridd3ge8pTsnprDR3R72ntnQ85dANVpN7
-6VVS2gDibYb3vdUM1FJzP+e+sQwMR8PDcUVuLOtBIfHyUFlFnfDu5l90RArt77SU
-mgs+vz9WTKvrdWac2pIhzQePVuOkjIz99UEvSS1h5jwQDD1bLScsdBQoOaQNzGoy
-MSD4nTBnyZIiO9GE9goggHTqJgnXO2AhxolG+4tcEF5HiWMac3KlLFmR2Q+Ow8eO
-V/1SGkG3+x8u4askw4rK4KRS7f5FGZx6ntZvQ1JENWmOTD0Xv3GX1F6xJ4mJn+lu
-zNQXc5KYeBB27y6fhXLpS41w
-=nxNp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD4J2cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m94QAIh05SYa6ccVndFguM6P
+CLv+W1ib8LmR5nha6UwPkq62bKKiYnDcMs91OkRFD1GW5x8YSXp5eHmIsYPMmk9D
+ksClZfcdmj5N7YhUF4wtljkbF1ZdhpT+msmHNnO6SjPR8WzGxTp7LKke6E/hX5js
+64200K7kJW3Jqe00kNvNyBFFZpc9sQjxTfqBJbvTkNIVKCkG4ySMQkqxrhQDA+UV
+Xs43cCK7LoTKXeTiOQ6miMwKpljDGuaRddDnF20GFJoqcfyBg5W1yUONbjFyWOlH
+1aF84NHuPb6T9h+jMfochX6CzLLumXjMwUOVWUkAfQCAkQwchbVhBgrJv92AYbe7
+R4MyyZqR3IOXigqxjOY9ZOwbDtkq8QE5FSCNxHYD1Qp4sh7sdU+qkadUasMnYm6S
+rG3JD/u+x1+ky522H7PLx8rCr5tjGc9yq7ea9KkD+b4/2Cf+kjumE0VXqA3zJgRN
+gdmTICKV7yIWWEqzXNFv+7Qd9uJefYPoDB9mzL/98U4DEaJn1VRhliMFW6h3/4rZ
+lM6IrLKJxK9+i8dH0DOkXyNSpHGvBWtzktKuHE8gDr6o0xyt9Zd68SFmWZGedzre
+sSZgZNrWOMLboRqM69rOQVnxkkTDNf4bkZsW/f/CrxtYw/SdPeFtbHzbkD65lwve
+aibVqaGi9nQTOFjGoSSyuj/6
+=+niY
 -----END PGP SIGNATURE-----
 
---===============6796749360888348416==--
+--===============2256076615154352902==--
