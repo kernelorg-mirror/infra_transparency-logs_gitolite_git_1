@@ -1,19 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 21 Jul 2021 19:19:00 -0000
-Message-Id: <162689514002.26353.43146589504408702@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3704362148010562167=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 21 Jul 2021 19:47:15 -0000
+Message-Id: <162689683570.12628.13357834279763410398@gitolite.kernel.org>
+
+--===============3704362148010562167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: ostr
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linux-next
-    old: 629a5d87e26fe96bcaab44cbb81f5866af6f7008
-    new: 83f877a09516bcb82e34df621cc3a794509a11a3
-    log: |
-         83f877a09516bcb82e34df621cc3a794509a11a3 xen/events: remove redundant initialization of variable irq
-         
+  - ref: refs/heads/master
+    old: 8cae8cd89f05f6de223d63e6d15e31c8ba9cf53b
+    new: 7b6ae471e5415bc2bf4384a83ccb4c21de7824c0
+    log: revlist-8cae8cd89f05-7b6ae471e541.txt
+
+--===============3704362148010562167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8cae8cd89f05-7b6ae471e541.txt
+
+2b6a761be079f9fa8abf3157b5679a6f38885db4 regulator: rtmv20: Fix wrong mask for strobe-polarity-high
+6549c46af8551b346bcc0b9043f93848319acd5c regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+5db5dd5be70eaf808d9fd90174b957fc5c2912cb regulator: hi6421v600: Fix getting wrong drvdata that causes boot failure
+e4a5c19888a5f8a9390860ca493e643be58c8791 spi: stm32h7: fix full duplex irq handler handling
+8888ef2304d0ae78f3d5ec19653fa7cc4ffdbd7a regulator: bd9576: Fix testing wrong flag in check_temp_flag_mismatch
+c9cd752d8f3a6b13afc5332a60bea3e68f141738 regulator: fixed: Mark regulator-fixed-domain as deprecated
+ea986908ccfcc53204a03bb0841227e1b26578c4 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
+135cbd378eab336da15de9c84bbb22bf743b38a5 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
+7999d2555c9f879d006ea8469d74db9cdb038af0 spi: stm32: fixes pm_runtime calls in probe/remove
+1c73daee4bf30ccdff5e86dc400daa6f74735da5 regulator: hi6421: Fix getting wrong drvdata
+69e1818ad27bae167eeaaf6829d4a08900ef5153 spi: atmel: Fix CS and initialization bug
+3a70dd2d050331ee4cf5ad9d5c0a32d83ead9a43 spi: mediatek: fix fifo rx mode
+c934fec1c32840224fd975544c347823962193b2 spi: mediatek: move devm_spi_register_master position
+55cef88bbf12f3bfbe5c2379a8868a034707e755 spi: spi-cadence-quadspi: Fix division by zero warning
+0ccfd1ba84a4503b509250941af149e9ebd605ca spi: spi-cadence-quadspi: Revert "Fix division by zero warning"
+0e85ee897858b1c7a5de53f496d016899d9639c5 spi: spi-cadence-quadspi: Fix division by zero warning
+9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 spi: cadence-quadspi: Disable Auto-HW polling
+56912da7a68c8356df6a6740476237441b0b792a spi: cadence: Correct initialisation of runtime PM again
+c45c1e82bba130db4f19d9dbc1deefcf4ea994ed spi: spi-bcm2835: Fix deadlock
+6c881ca0b3040f3e724eae513117ba4ddef86057 afs: Fix tracepoint string placement with built-in AFS
+afe6949862f77bcc14fa16ad7938a04e84586d6a afs: check function return
+5a972474cf685bf99ca430979657095bda3a15c8 afs: Fix setting of writeback_index
+b428081282f85db8a0d4ae6206a8c39db9c8341b afs: Remove redundant assignment to ret
+b4e62aaf95e8a340f3a6e0e2fc9a649f875034b3 Merge tag 'afs-fixes-20210721' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+7c3d49b0b545d27372f824dce83139afeea61633 Merge tag 'regulator-fix-v5.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+7b6ae471e5415bc2bf4384a83ccb4c21de7824c0 Merge tag 'spi-fix-v5.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+
+--===============3704362148010562167==--
