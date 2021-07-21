@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3117979262159057680=="
+Content-Type: multipart/mixed; boundary="===============1210499515854802651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 21 Jul 2021 14:30:15 -0000
-Message-Id: <162687781521.28652.8425313977550273077@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 14:30:22 -0000
+Message-Id: <162687782246.28763.7226712171415102717@gitolite.kernel.org>
 
---===============3117979262159057680==
+--===============1210499515854802651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    log: revlist-e73f0f0ee754-2734d6c1b1a0.txt
+  - ref: refs/heads/for-next
+    old: 053c16ac89050ef0e8ab9dc1edaf157bf104c8c6
+    new: c18a4e657ce67416954fa4097782e951f1d6e0d2
+    log: revlist-053c16ac8905-c18a4e657ce6.txt
 
---===============3117979262159057680==
+--===============1210499515854802651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-2734d6c1b1a0.txt
+Content-Disposition: attachment; filename=revlist-053c16ac8905-c18a4e657ce6.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -262,13 +262,6 @@ a72fa6304342a3ad749955fd9007695f761e12d6 Documentation: kunit: drop obsolete not
 58c965d84e14196e762c803c50c7b207a9e352bc kunit: tool: remove unnecessary "annotations" import
 df4b0807ca1a62822342d404b863eff933d15762 kunit: tool: Assert the version requirement
 0c0f6299ba71faf610e311605e09e96331c45f28 selftests: memory-hotplug: avoid spamming logs with dump_page(), ratio limit hot-remove error test
-422969bbb5af2f7226cf75cdb4aae02f46299dc2 scsi: core: Fix the documentation of the scsi_execute() time parameter
-fbf1a58701ecbf61211476277a77eaada6c091d4 scsi: fas216: Fix a build error
-93aa71ad7379900e61c8adff6a710a4c18c7c99b scsi: core: Fix bad pointer dereference when ehandler kthread is invalid
-8b3bdd99c092bbaeaa7d9eecb1a3e5dc9112002b scsi: zfcp: Report port fc_security as unknown early during remote cable pull
-bb6beabf2f79ea063750bf16e78b61e5a50f2d5c scsi: pm8001: Clean up kernel-doc and comments
-aa0dc6a73309f1fc779f4560a60ee766a3891adc scsi: mpi3mr: Fix W=1 compilation warnings
-053c16ac89050ef0e8ab9dc1edaf157bf104c8c6 scsi: ufs: core: Add missing host_lock in ufshcd_vops_setup_xfer_req()
 e181ad43887c6b6b5995e9b191666f04242d77eb drm/msm: Fix fall-through warning in msm_gem_new_impl()
 432b52eea3dcf48083bafa4b2b6ef5b054ead609 ARM: shmobile: defconfig: Restore graphical consoles
 8b43ced64d2baca72a13caf2a7182f2853e054bd nvme-tcp: use __dev_get_by_name instead dev_get_by_name for OPT_HOST_IFACE
@@ -504,5 +497,10 @@ fbf1bddc4e171e26ac55a9637c7db13e75acf4fa Merge tag 'iomap-5.14-fixes-1' of git:/
 f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
+e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
+6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
+fae21608c31ca987d9dfc0422ac9b5bd21c213a6 scsi: mpt3sas: Transition IOC to Ready state during shutdown
+a47fa41381a09e5997afd762664db4f5f6657e03 scsi: target: Fix NULL dereference on XCOPY completion
+c18a4e657ce67416954fa4097782e951f1d6e0d2 Merge branch 'fixes' into for-next
 
---===============3117979262159057680==--
+--===============1210499515854802651==--
