@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8788629862925451783=="
+Content-Type: multipart/mixed; boundary="===============4424004081462082150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 21 Jul 2021 02:20:50 -0000
-Message-Id: <162683405021.8944.3882187832939543665@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 02:20:55 -0000
+Message-Id: <162683405534.9105.11664002803013620606@gitolite.kernel.org>
 
---===============8788629862925451783==
+--===============4424004081462082150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 0fd1a233eef16f147f11d9a181ad5a5c9849a79e
-    new: 41d18af61bb8e9eb907c98cd9162a34187dfc934
+  - ref: refs/heads/5.15/scsi-staging
+    old: f339c7e491a8150d416d4aa657fe379c20fe6b79
+    new: 54815088859fa766c7879a06ee028e0cee4f589e
     log: |
          7ba46799d34695534666a3f71a2be10ea85ece6c scsi: core: Add scsi_prot_ref_tag() helper
          e2e9cd68fb3c673f7c1e12792f3137b77f6f7431 scsi: qla2xxx: Use the proper SCSI midlayer interfaces for PI
@@ -31,33 +31,33 @@ changes:
          54815088859fa766c7879a06ee028e0cee4f589e scsi: ufs: core: Use scsi_get_lba() to get LBA
          
 
---===============8788629862925451783==
+--===============4424004081462082150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1626834048 -0400
+pusher 75C5DE3D 1626834053 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1626834047-50c019f3f805ae054b0924d33df41a36c02e1137
+nonce 1626834053-5b55b60fbfeb8905f5eada95ef512376eaa953fb
 
-0fd1a233eef16f147f11d9a181ad5a5c9849a79e 41d18af61bb8e9eb907c98cd9162a34187dfc934 refs/tags/mkp-scsi-staging
+f339c7e491a8150d416d4aa657fe379c20fe6b79 54815088859fa766c7879a06ee028e0cee4f589e refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD3hIAACgkQ7ulgGnXF
-3j0LOA/9EnX8QQlxdStd0kLJLuiKYjLeNhZvCzthZobjA7wErvPjqg7gAGCFrxfr
-YsXZ4iUKrTerT/ZqR309oI02hj/fdDWXXxEV9NQTqL8y/Rcs1FnJmxEkjOAvtrFL
-VLm9hCJTu12VEILAsrbY0dgrKdAHpomRJ+2vDRuSedHvixWNUn12S/3ZKgS6Gu/c
-Z/GRqEi6cgjyclSSOE+s3DlnjS8bZEmQ25x6cXxyTudfx+G7B1aYlcAcUWaRITtB
-o7DloGoUSk0rRyfHjhxDmyheSkR8j1FPlVFjXltS0vIFSFfaALR/xN9ru65VtbW5
-ryA/PQ2V+ZglfykUUrl72OPnljp7RlYtjDdclYodTtmBde0qbDN5NLYcoUpPa9Td
-Uk2VU9rqgnw6xdxV3ebgbW+iorJppZtAQl0/hFRLX1wKRXm1vgfb8bfHzEXbr5bT
-fowjmpEAKmUaOd+cBYAr6bGP4zHjeHKYFMOSg0y80DEYZIvp/LyINBPvQbZ0GQZI
-hZ7hdMzq1JdBvnLFReg/NAtz6CiMZ9PJ3uZBUBGWlgz2viqpd2eDhGQfLsVINPL3
-XR+eLLAXbhvu7GJ5P9Y8K1cHbemzo67Zb8kDY427KjeCgQ6XA30UDbhXAZjmx91D
-BOK0TwCK80V1ZxuHdmiVD31GX1yP9oKn73lI2lA0QwG5IdKX7W4=
-=UghU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD3hIUACgkQ7ulgGnXF
+3j2i2w/+IispWKvOueMVH50Vzv10NEWlkJZpJyZT2YgEMQoG5xi86f0xYAx9w9hw
+fdoyIxo8v6w/tjkrxgrTY3TQz9zbYEC/69rkIhndvE7CjLmpDqBytiV03w6J5gXg
+F/Jg2F8cDPUzbry6NiQt6xrIKT6SXbJj5mdvSvKySshqPLaLdhHVnX3al9a6ZvEJ
+LHc/YAHWk2JDNCyu/8K/2lMOh5v1GCwOo3FgMV6PSDDRV/NsFZonuD+qkJSVoF7s
+mA3jFEMVddg0nID5lzz1IA7eWgy1scRoldU8pdb7gvjwVTpEGswoMxnQO7Zw5Nni
+8uZILeato7x9dH2gVNYKXvNvde9f7da6IVWdT712CpND9f7tOm0gcSf6xYQvWTS8
+5Nseq9DZxP4mkk3asDzrZ7I+COQlYdNHOvALeVGKnHfk/w32hufI9RQk+Nq3QJqJ
+EdpdCU5ubR8Rx7ypQljxRFktvOjfh/RebZEAa5aZ8CoYKf8NHmI37OHtxFjaaG2X
+BXcDNoEv/Oy5l70UdAI+g75dzQtNNnp0kJOigxHQKmDiSy9tKU0XJzi7L3Pw0Md8
+RaZQUX+QPV2ZdTHuGNozuHKE/gFA8n0HWUmLdoK9H/5i4O+0fTrX+8Rxk0EHRFcZ
+V8F3VASylj1bC9t4ISoAKQ4byzIQAitOYeGOUYmNQKCb8jnY2eA=
+=ckhN
 -----END PGP SIGNATURE-----
 
---===============8788629862925451783==--
+--===============4424004081462082150==--
