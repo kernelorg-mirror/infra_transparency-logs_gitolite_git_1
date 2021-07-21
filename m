@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8793022043122177430=="
+Content-Type: multipart/mixed; boundary="===============5182364420875237601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 21 Jul 2021 10:52:35 -0000
-Message-Id: <162686475564.8580.2799758052046524536@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 10:53:53 -0000
+Message-Id: <162686483385.9142.2901098255792842925@gitolite.kernel.org>
 
---===============8793022043122177430==
+--===============5182364420875237601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    new: 9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72
+    old: 9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72
+    new: 853a9ae29e978d37f5dfa72622a68c9ae3d7fa89
     log: |
-         61acabaae5ba58b3c32e6e90d24c2c0827fd27a8 serial: max310x: Unprepare and disable clock in error path
-         e5227c51090e165db4b48dcaa300605bfced7014 serial: 8250: Mask out floating 16/32-bit bus bits
-         9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
+         cc9ca4d95846cbbece48d9cd385550f8fba6a3c1 serial: tegra: Only print FIFO error message when an error occurs
+         853a9ae29e978d37f5dfa72622a68c9ae3d7fa89 serial: 8250: fix handle_irq locking
          
 
---===============8793022043122177430==
+--===============5182364420875237601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626864752 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626864831 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1626864752-4614eb56916bf11d45bc2ce3f3352b046f210e42
+nonce 1626864830-8343b5c3821757ad416220fe52a1f4a9940ca0ca
 
-2734d6c1b1a089fb593ef6a23d4b70903526fe0c 9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 refs/heads/tty-linus
+9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 853a9ae29e978d37f5dfa72622a68c9ae3d7fa89 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3/HAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vwsQAItd9IBmwDWAKom2En8r
-iMW8QObbLgf2htaXCkDhL5t3p7G7nHCHrLaUrWvXnpbrG0t03uuvgaVqvrPJrSYa
-Cxq1e0fZRf5EC7zbssVeBXmRfORYdTTtXzQEDim9rT/wnN6m4inwI6JPN/xJw47V
-JWaIX53hhxHEgeyZCD6xqepOpdI94tFpMwmdTDLxf5cKpyM0wZkcfWylsHWPCaHd
-Pmh80EOTW/D4WKhTGzd2lFi46oncxcG1Aq+OKZInpjmyZNW3BJmCDx1+g8/njaAR
-H3sjHUeYsCOgbakqRrjJQeomILc2DAfHeEvZSvWppE+aQz+QH5aDnLKKrwiYYfxS
-1E5IDWM0JRrhu5TlJ9hkALs5qrSc56SshkzKnOMnEchyxFbjpilXus1rR+WniLRN
-pVVmP+vQScgTFG1D566icSpSLXaSfsVFu4zl4VYfM6zwz4zi5K77dzxEoo5KyWS6
-RcEv1c7jd/yZttxSflsC40PxTQFTtMyPciiyA/+JRFNOP52iaVUTr/ZghoiW1zKw
-rGRxdXExx0V2Qq020KiMtPOMBhwLQ+qT+0/5wHQ61bxtcbK8mkb+ahO4ASl51stM
-qvJ/R1SLQoJO+q/HABDyJDzY8P1jPNgxh3GSJR38rGRa6hRoAviGRYbjxtH2ax/2
-HesB8OMYmM74gqqI9U6tg9SC
-=CvnJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3/L8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bgoQAKSyrTIjjeIZbcja90hs
+Ij8rlZgm6MwT1Z2EsSDDEnEYqt3a/l99O1y88GoiaQZwUxCdm8Gn+4POYuv3gY0+
+jaINON1eJzjxQhJr73RVOtCNWJrD0yudhpUeImseDpxdCHydfTyU476b4nIKqp0b
+6UJFgTgm4knH5rjR+KWJak8AFN1ZTY6z4jStxhqS9RfM3wzd6i7u/FJbTbnM8CQh
++2gwpIIBe8wOifmnaBPFvJjpDkPpo0eiLH69Rzh5nZ+E7bx4PQoxG1W+QeIakUFp
+YwQfv7WdZ+CyMVWuRS7YR2xK+gDdMxLPtakDhF8ikuUKZVx7KcMKvbMjSbsgfiYX
+blUbk07wr+6/flWrTVUSNhvjjsbw95I2nARyMHdNNTseMvm9pR56SFdD5kbObnag
+2IHvBKcW3sf86+XNIUGab0RK91+l8wOwE+JZdni0dJKAbAIK+QdIadmHwYg33h3f
+CeDfVhQg4mgHCHTXGM6nafntIqrDM5gdAkqeBFebVYqSjQkV4NqHvJCjFYlthe/c
+Q4EjmmdAEpZr36JPMrBPX6+wWzfyLpc4JNQFfXqw++2GgNUHXNskk5bnXigfnFxd
+zjWiFhSu7R4vLxSKBU7uAJHPblO4cnTJKhY1ihS+J5bkZlY1rXWPLmMuJwq4HAVP
+GKMsM83Yi2gWcuaVA6lZnYOY
+=x5aF
 -----END PGP SIGNATURE-----
 
---===============8793022043122177430==--
+--===============5182364420875237601==--
