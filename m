@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7132411765544039640=="
+Content-Type: multipart/mixed; boundary="===============7247439971644326377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jul 2021 08:04:15 -0000
-Message-Id: <162685465541.6833.11020842942534146553@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 08:04:38 -0000
+Message-Id: <162685467820.7066.6449250637181885054@gitolite.kernel.org>
 
---===============7132411765544039640==
+--===============7247439971644326377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 97db1b081e1286bdd9dcd4d25b88d6770ff4a65b
-    new: 091cb2f782f32ab68c6f5f326d7868683d3d4875
+    old: 091cb2f782f32ab68c6f5f326d7868683d3d4875
+    new: 8ae01239609b29ec2eff55967c8e0fe3650cfa09
     log: |
-         c4c1faf8254885a52412b456c90d0acc9e94db22 Revert "usb: host: fotg210: Use dma_pool_zalloc"
-         c2e898764245c852bc8ee4857613ba4f3a6d761d usb: host: fotg210: fix the endpoint's transactional opportunities calculation
-         091cb2f782f32ab68c6f5f326d7868683d3d4875 usb: host: fotg210: fix the actual_length of an iso packet
+         dbaaca9aa5ce36c07a01a157d203071f6332a2af usb: gadget: f_ncm: remove timer_force_tx field
+         cf4e2e880bde13af103d229be261e8f80c37921f usb: gadget: f_ncm: remove spurious boolean timer_stopping
+         ec017d6b60f8aa400987fe95cd839e9ba5dda41d usb: gadget: f_ncm: remove check for NULL skb_tx_data in timer function
+         b88668fec959fec0e77196455ec82778d8065941 usb: gadget: f_ncm: remove spurious if statement
+         6607d1a4c3c946d3420d33d1b561d7bee8f693c9 usb: gadget: f_ncm: ncm_wrap_ntb - move var definitions into if statement
+         8ae01239609b29ec2eff55967c8e0fe3650cfa09 usb: gadget: u_ether: fix a potential null pointer dereference
          
 
---===============7132411765544039640==
+--===============7247439971644326377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626854652 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626854675 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1626854652-2cd719c120df68133acf456c6542bb7f5f47a4ce
+nonce 1626854675-b0ce863c8f2f34c2e4f95089abe1498709a052a2
 
-97db1b081e1286bdd9dcd4d25b88d6770ff4a65b 091cb2f782f32ab68c6f5f326d7868683d3d4875 refs/heads/usb-testing
+091cb2f782f32ab68c6f5f326d7868683d3d4875 8ae01239609b29ec2eff55967c8e0fe3650cfa09 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31PwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fHQP/Ax3gk4dLnahf23PzFU1
-FekpLu8FiKdohk4i5CdQ8FL8rF3xORwNfCiCHeuJIGswR0QfxtZL+Xb6msmkfyqZ
-/FnYiSPN/NIduxKt9s3rtUGwUcixZEANhp60fqmn+kr8WOS49oUJ9gxKR1ZDuj6+
-0I/RrPdixe2/zjunhUyA+7IjxBekdiCn5ZMwcf9ZmWx06UUSRk3tcVZBqKNkjw4B
-/yekXQZMpIMnr5RZmQIyHj7H7cWsimWSKqHwXGVcbbMA4Z4OpVGlFnbnBShwxjDy
-KGPWBtGF08gFl2FVg4fnuvD6L4iqrsNU4quaXZgaF497F3E99n4miV3uTPpwKrf+
-uJts+Y3f2wFYsTYU+edZ07k+n9zTW8dk+2At2L6cccSvtOlcdMWM448S1cj/7pjL
-mw3CwI9gQYSVoBRURVgayODv23pHAaDCR42jEbPxtDLg5lt0tYhRhujjxvdQQxeT
-1gwPD+hrsJBqJMn4XxG6p++DA66aDZAsIvFpd8UI/RbDQzm15P83wfe3GVN9W4GK
-nRmmoDm2QhJk9VkJ7zHc/3Y+HR7nRV+LPr6y6rVTY3eCe56AIzim+5r9YVC97b1o
-33+k2muBPqw53OSX606etrND7pyiuXjwsFXJb16TYQ/93DEEpoUPhLy1Hl1R2LN9
-tzuCKTVfKMCCHGCDxFw0iOOp
-=UagZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31RMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I6IQAMA6lJC/SVDcpwCNFK0g
+HdGVKwuVU7/ndjGIKexav+M8CPdzWYOt6TeILIJet2ZwUsG0/JTRZYYoqaqxechE
+6vw5XwJ63Mfwb1LVL5lpZq92V9TzrQd7sebnYeJaTmEsif2U458Lcypz8nv8qGhh
+zAC+oYET1fPRp50NQv7ymbTFekaMfwptRvSttUG3rQMrJLMmkn4dTpI90F4O2xyB
+WYqWS4FbNhRpglywUDcpzldsNlKd/g4kyftJktdV5VKxyzzAlJGtrON1fbbybBzR
+kvbiUmTflu52p07N02Nm0UZxYif0iQsO4clVayreWEec/qj+emZSgwlYFRDjmbn8
+Q0qcgP7Hs4jDZcao0iTyNrpsbJs8wGbKu5rzMcWEPUDPNgUowt4dsh58P7+V5VqD
+MAa/oEKR4hNsQ+gGcd4Z/pFenKoflSef9wAM/4Qhzypath3fN8sx3MEi+4Di4iMi
+fOUwSfKa6L7scybb5oBWfNpeugFY7E+daUF6hFnCpIxzc+8PG247VC9ZaCUdWkk1
+PdfMkXMXvdeNssYvZHytlnXE2cveskLp+tm4cYGyxJMG+M5UnFltWhiYIu/a3WAg
+EtxkpH9iz77WszwXpJVu4cd+F6cLoRzVWY8gCVxRk1EdbGb1/7aagtJKajP7JxZj
+8agxT635ZeO6M3tu3YaTok6K
+=FLLB
 -----END PGP SIGNATURE-----
 
---===============7132411765544039640==--
+--===============7247439971644326377==--
