@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5594262696373229500=="
+Content-Type: multipart/mixed; boundary="===============1776387639891230654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 21 Jul 2021 10:32:44 -0000
-Message-Id: <162686356401.26193.4874858964100134187@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 10:40:01 -0000
+Message-Id: <162686400102.30195.16787476937127602039@gitolite.kernel.org>
 
---===============5594262696373229500==
+--===============1776387639891230654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    new: b1442c55ce8977aa304c9f5a078e895fac5d1d63
+    old: b1442c55ce8977aa304c9f5a078e895fac5d1d63
+    new: b0819465be8be0c76af15436a9e6db4dab4c196e
     log: |
-         cb3ea80b7c84a2bb521f41af75678667dddca544 serial: 8250: 8250_omap: make a const array static, makes object smaller
-         130432076f3b44dab19a5872b59fcfbb50a4ed2d serial: 8250_pnp: Support configurable clock frequency
-         8a66b31a15966ea4a206819804ae627874b90d15 serial: 8250_bcm7271: use NULL to initialized a null pointer
-         b1442c55ce8977aa304c9f5a078e895fac5d1d63 serial: 8250: extend compile-test coverage
+         e7b91932f6223f2996560662623f1c9730fea21f serial: core: Report magic multiplier extra baud rates
+         240e126c28df084222f0b661321e8e3ecb0d232e tty: serial: jsm: hold port lock when reporting modem line changes
+         8d479237727ce10260bb128c2414489e1d59c103 serial: amba-pl011: add RS485 support
+         b0819465be8be0c76af15436a9e6db4dab4c196e arm pl011 serial: support multi-irq request
          
 
---===============5594262696373229500==
+--===============1776387639891230654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626863558 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626863998 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1626863557-517031097eb5eb692e2ebdc70b74b7479f621bab
+nonce 1626863997-311f22308a51f5260ad6d0d60935de43a3b9c2d0
 
-2734d6c1b1a089fb593ef6a23d4b70903526fe0c b1442c55ce8977aa304c9f5a078e895fac5d1d63 refs/heads/tty-testing
+b1442c55ce8977aa304c9f5a078e895fac5d1d63 b0819465be8be0c76af15436a9e6db4dab4c196e refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD398YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kaEP/3GRmBkO8L5MzHIW3vt2
-GyIMuh8Mdr9VYR51iw2WzLHnQa1uoqVfJkrxPteNIMF8GJd4dgGkp5sfesV+xRQT
-1nrZzgW28fjp3VT9nPsTOEgQ4xUbBueTpWSfEKlKAfuNGywqCJ3Zh+Wb5d5BC83p
-5FObP5LZ4FWVP8XLQ5R02lbWdzNyXk575j4vL3xUXPiAJvETfDM9PDvlc/kG7FcY
-YRmzQYDDmrt0WXpMuFXvG8SpYjZku5tG8Vbv6wKlzpn6gmQ93e5xfu2j5EIjvW1H
-+LX4kQeN75ZDjUE/ABJCjxaDOP74ZB/2y1INuAwtbx5vkJ8008T/MpP1mG1WRoXv
-FsGE1TJjfI5stoQJJkoHzo1Qg8X0SzJKI9k1C6PQTWOSDkqN1CpMW9cnc2eDiXPf
-kR/jI9eUaanE1Rpscv4geLFByPmi0wZERjgQ4HR6CIVTt+kwpqT2DHuGGhjeBj3i
-Iob/NuHDdBHxLm8RPMqbK9S/1XP/3pXK3gUrAzOc3zDxV6f/Ngv6NysmRqU9mtUq
-snxGkjqWaxGmJKaHEihVTRVXLO4BRwnZeqvge4M8R8i43ias7hOrpotrYZ15vVnL
-Nsc5gOnZP2f3pzzs2eX3yR1QAXAGEd8dm4cXj7ywTHCrrY4bO96LZhqNX1BM6Pr1
-xjuXNQQaUyorI55NjRCHr9wY
-=HGqM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3+X4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DjgP/0jlylQf+iHceJoR5gj3
+JjtgAseVMPMbqvzxEuMcXurK1KHwllJ0lkxA8tmc8uX2maPymYXivryl3Jj19SKV
+8adTkMK7Vdx+q5pWebjJX2YlindqRzNG6Hj8dWUYXzeLG4yANqVP62XxbIuzClOT
+ljb395e0SPAVyM8oTjPJhxf7AXFXA5cHx5jzIhbUhddMH+7sy85+ZpD0ZZjeljm0
+lGqwxH8qgVUsSgihA7aaAboVOsCYdKDwQeVcHxnfCPHKzKjrZxQpqBoLatnWwqji
+d1AMx50wtsYJfjD2U3Oymsyrb+DgwV+mvkHPZGitcr6qyV5L7UkvzQHHiAL2aZ1J
+JKHkSucO2CE44f8igwljprdO9mEm+cX4jclCRGsTl2vShA/0nUstVihyGaWEJ/20
+0uoawgV4bVWDN4F2gqsdBTsT2/GmBuJjftsjgeTaSm3ymwsKiE1BVd/G7Rq6z+vc
+lwqxcQdZZ3QxYtZDbzIlVQtMsxqpqZhkhk1uNh0ywrQBm+n/5jmF4Y1azR/3VPl6
+ifds4W2NOWBt0lmxgjOg4DttVewTBNNUIaSWl9qNOa5lKakeksl9CzZxdtgu30jI
+AzgRJEYwyKNsQLrP1kFbdn3KwyYrFvfJ/q6abjWf4vVnP4BJrmXJFF5C4ogGdI1C
+XirvtVBhbxONCG5ALKBa8hTM
+=SKrC
 -----END PGP SIGNATURE-----
 
---===============5594262696373229500==--
+--===============1776387639891230654==--
