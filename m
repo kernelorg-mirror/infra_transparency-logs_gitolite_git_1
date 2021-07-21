@@ -1,55 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2002107118231000905=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 21 Jul 2021 03:22:07 -0000
-Message-Id: <162683772757.16665.186447085121857617@gitolite.kernel.org>
-
---===============2002107118231000905==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 21 Jul 2021 04:15:07 -0000
+Message-Id: <162684090756.18993.9305716226741868037@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/for-next
-    old: 54815088859fa766c7879a06ee028e0cee4f589e
-    new: e15f669cd996b85bb07b0e787fa78806477bf211
+  - ref: refs/heads/for-next.mmap-fault
+    old: bea3a94e724c1f98e26df73fb824b57dcd79b7df
+    new: edfd2ffe34850fd180649eaef1d7e328d6c67e3c
     log: |
-         e15f669cd996b85bb07b0e787fa78806477bf211 scsi: libsas: Allow libsas to include SCSI header files directly
+         2e56aeea33d730ee8c2a5d8436dba91f0e7ae29f iov_iter: Introduce fault_in_iov_iter helper
+         a6f89ab2a8d74ede99b2af61eb79d8d3abfc2049 iomap: Fix iomap_dio_rw return value for page faults
+         45b1b80fe972e8dbe8aef746a5f0e4dfd96a235d gfs2: Add wrapper for iomap_file_buffered_write
+         46127d4b56c72a501b9b835f7ab412cd657a1286 gfs2: Fix mmap + page fault deadlocks for buffered I/O
+         15d24041409dc6ee7fbb51d78e6b369b03d4a869 iov_iter: Introduce ITER_FLAG_NOIO flag
+         edfd2ffe34850fd180649eaef1d7e328d6c67e3c gfs2: Fix mmap + page fault deadlocks for direct I/O
          
-
---===============2002107118231000905==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1626837726 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1626837725-04cba2410759f294ba7a2a6267622368a4a4421d
-
-54815088859fa766c7879a06ee028e0cee4f589e e15f669cd996b85bb07b0e787fa78806477bf211 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD3kt4ACgkQ7ulgGnXF
-3j3zoRAAuXiEGSajLdGr/0B1RIzAs9FuEuU4zEBUnzwG9KNJPNY+dBrZ+vTKXs6F
-erzP4LK1mxJ+NJfqOPR2N+VfHWjd1zaKfwFZpim5BlDnwWJs/9lI2uTWLE+uZc9K
-1orPKY+FgAhZtj9DS4K2fOPAEYKpPZoMhx6De1XIwrK2yfcpSU6FPV1ccEgyN8G+
-iVq2Qxj2QKMySTxpcgVat0XTJtOByn03STt3BJwByuOIwgTMH1wuOJ61BQN/j/lq
-ygAFarmqzumgVWhZGT89eVkxdZ2XZR92tM0Qtmfsg4o3HDBvo6RA9V1CGKYFsq5y
-CdmUush+LMIHSyILAoQ//GQMh/7yxTREmU0W61vqkEz4WIb/v9jkBH2N+8B43pMK
-nGUsBsVHv7ZWauwOpMpy7ihB7IVroTa+DxQBu/FrhU24yeTw91QccU5ZfwyAOAbP
-SEQtOwPzhsPgRx/YaXyS7fa5lRYb8UyL68hkhDe2AniVmAnvt/wLzqbbKpwTnQQS
-6vlNAIYwxrJSVJyC7WrMz3BhonXdk4g5eIlOKYv7lbrSUui8X10vbhUQCsS2AOd2
-AzwW0k/x6aS7EQLJUYlSQ+u8loZu+utv264dpm9UvNW7t6C3g2fFu2+ev8KYceMr
-JH49b59io8b8SWLfgYmMbH/4gbihT2pYHevZ8cT6kDHbZy62DQU=
-=9zFQ
------END PGP SIGNATURE-----
-
---===============2002107118231000905==--
