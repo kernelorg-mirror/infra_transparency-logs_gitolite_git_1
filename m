@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Jul 2021 14:55:07 -0000
-Message-Id: <162687930749.13443.3915159354303969205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Jul 2021 14:58:35 -0000
+Message-Id: <162687951579.14682.17847894256877059049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 09cfae9f13d51700b0fecf591dcd658fc5375428
-    new: e9a72f874d5b95cef0765bafc56005a50f72c5fe
+    old: 7cefb0b0e91191185ddd26912cc52d589218fa47
+    new: f5621a01c86beb5dd83407f6e36d7bae43e8a8be
     log: |
-         e9a72f874d5b95cef0765bafc56005a50f72c5fe r8169: Avoid duplicate sysfs entry creation error
+         f5621a01c86beb5dd83407f6e36d7bae43e8a8be net: phy: at803x: finish the phy id checking simplification
          
