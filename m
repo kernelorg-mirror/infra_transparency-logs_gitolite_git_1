@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5361285985023213933=="
+Content-Type: multipart/mixed; boundary="===============4509259586638443941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jul 2021 07:51:16 -0000
-Message-Id: <162685387622.31627.15803154396600575474@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 07:57:18 -0000
+Message-Id: <162685423833.2808.1724011404722014360@gitolite.kernel.org>
 
---===============5361285985023213933==
+--===============4509259586638443941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: fecb3a171db425e5068b27231f8efe154bf72637
-    new: d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4
+    old: d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4
+    new: 1f958f3dff42a7239bbfdd9a33db5f11574d16bf
     log: |
-         5719df243e118fb343725e8b2afb1637e1af1373 usb: renesas_usbhs: Fix superfluous irqs happen after usb_pkt_pop()
-         c4a0f7a6ab5417eb6105b0e1d7e6e67f6ef7d4e5 usb: dwc2: Skip clock gating on Samsung SoCs
-         d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4 usb: dwc2: gadget: Fix sending zero length packet in DDMA mode.
+         1f958f3dff42a7239bbfdd9a33db5f11574d16bf Revert "arm64: dts: qcom: Harmonize DWC USB3 DT nodes name"
          
 
---===============5361285985023213933==
+--===============4509259586638443941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626853873 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626854235 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1626853872-c2f2eddde44c421a66fb7db9ec3e1de194f3aacb
+nonce 1626854235-ba73e7187283d4bcd4b80d5434b329773ec6f778
 
-fecb3a171db425e5068b27231f8efe154bf72637 d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4 refs/heads/usb-linus
+d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4 1f958f3dff42a7239bbfdd9a33db5f11574d16bf refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD30fEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3tkP+gLr0yeDW9v/xqPT/TqA
-CMCcOOY82mmnTJOIztAT8Kc05i/s31VoXR1CccLQ2yTNN5P4CGsVx6sKyv5Tlpzv
-Al0ASjfcSR8k7f00FhnU9tTkRKJrfhB+/FUhz+I4xHCSboinEZXIm4UHvMpoTGB6
-KoGAw572t1l9aSGoaGzD3J177qABWBIe8rJM68wAeJlm7bUXnL7WSAg64bH851sq
-3S4KvtaYLY6ihtJiCreOeRuMCIlxmblN/+jxVixzHZ8v7tCZF9Ux0knU+fwlCe5r
-sG6mQjtryYhLJI5qBual7TkNomkEggd4A3ARldNR4yuy3xQBfBY29jTY/NAn2ybg
-5AYFFfbEy4zCnaZc9wJC3Y57iA2uwWPNUtwmPI1VQDrl9Pad1jEB+83ubRRq8KiG
-S/4BTMRWsGxOQTt/AsgVrJ6aBCBYod6olw5r9OjsSG48cRTeQxCTIJ4FBDllWZoC
-CjUFUujyRlMXPT3WXR4eBv7FGRgTxBgeGguGTBiJC2yds5H2eQFSNxvZDyh2zjPH
-mi/bEDP2aNRPF3tHQoLiVnDoZyHruYqQDbR+GPa/ozGtUmauj7lbnuXVon1hSj0D
-pZbxBy9pR4+OdK2l2CXJ4CoXaiKuMAF0Y79xEG0uaZcKv0W22DArhdi/AdX1dh68
-cZJiQHQ4fpOxEeduS+4qPUZD
-=lNLW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD301sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+teoP/i1TQYarQA4P0yErl9Sw
+N51ijpP0hO7p/SPifIDQ3vMLmkhJFfaLbOAIweDWmo30tkRctHsV5IUXR2+SS5T5
+aW3AAnM5bVZYof6huG95vJs9ieJFB6NS28CoOhUO1yBh2ZV5k4izF026G1rQ1kCs
+BgmdsZZhxizZkV0Lx6wDiF4GAzfuSk1IBcW7NKCSsYjC98eqjHz/bqkMarFt2gMe
+cfXV+l+SF8EXm6WUKa2FVvWlh5iUXdTqKpI5X4NwZhMpocVa1nmdNPqsHLaJ7hGg
+4sVzKwpoJ+XsvDXhFaQcqtIsaO46JPkI384BLurwR+iT2Hunpu7QRRfWLfLFerF0
+7O9CfXCjt6DSQfSPWRp8Pz/ucV/BlRONyXgJW4nR8RpsPaxMcGQaekLEorsHdmIG
+sKPlMbWBjdIsqx6MlvZJ3jahM3Naqk/vx8rLQHoFMOSzSZV9B7NlccQG7OiunMvg
+9goQAq9lgXUTfVw/RRasbsVSXrV6M4YqmqSK1s872ngNfiSNjpfI2DQX9rFTieq3
+UCWRfsxopA6SoQipoYFy1iSQoScn46hR7y4+rQ7uA4z1eteaXeUOabepvwR7VHXO
+qCd173FYaNEPwO7Mxcq1KQFvPTFp4kTGY63iFPrLAMwYUD44RGwhbSX8XG028DuV
+irTdPji1oQxRXmd7psgTebAf
+=E9NZ
 -----END PGP SIGNATURE-----
 
---===============5361285985023213933==--
+--===============4509259586638443941==--
