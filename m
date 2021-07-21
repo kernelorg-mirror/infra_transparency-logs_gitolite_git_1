@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 21 Jul 2021 15:56:32 -0000
-Message-Id: <162688299219.22536.13122038254852595976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 21 Jul 2021 15:57:53 -0000
+Message-Id: <162688307328.23115.2771346008348883923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: 7c9ff3deeee61b253715dcf968a6307af148c9b2
-    new: f5a11c69b69923a4367d24365ad4dff6d4f3fc42
+  - ref: refs/heads/master
+    old: 3ddaed6b09b09eb8b5d8c7c216a8b285f897370e
+    new: bb55362bd6976631b662ca712779b6532d8de0a6
     log: |
-         f5a11c69b69923a4367d24365ad4dff6d4f3fc42 Revert "x86/hyperv: fix logical processor creation"
+         bb55362bd6976631b662ca712779b6532d8de0a6 ibmvnic: Remove the proper scrq flush
          
