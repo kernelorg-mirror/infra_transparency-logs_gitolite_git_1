@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2742593290825584912=="
+Content-Type: multipart/mixed; boundary="===============5202903496311844457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 21 Jul 2021 10:49:46 -0000
-Message-Id: <162686458633.4984.436060271828919836@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 10:50:14 -0000
+Message-Id: <162686461444.7496.15736509532094291524@gitolite.kernel.org>
 
---===============2742593290825584912==
+--===============5202903496311844457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,50 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 3b0c406124719b625b1aba431659f5cdc24a982c
-    new: 33969db7abe9e1cea524e1facb416952211e1d7d
+    old: 33969db7abe9e1cea524e1facb416952211e1d7d
+    new: 5b869a06a2790a2d1f3ee965e8f38246bfc32d24
     log: |
-         ed623dffdeebcc0acac7be6af4a301ee7169cd21 tty: serial: uartlite: Disable clocks in case of errors
-         5bbe10a6942d668a63bfcb69c8ffdd0660db10f5 tty: serial: uartlite: Add runtime pm support
-         65a2c14d4f008dcea51391bb7189d95ca7656721 dt-bindings: serial: convert Cadence UART bindings to YAML
-         e94159dfba797539d69c14cc142baed0e3e8d53e tty: serial: Fix spelling mistake "Asychronous" -> "Asynchronous"
-         33969db7abe9e1cea524e1facb416952211e1d7d serial: 8250_exar: Add ->unregister_gpio() callback
+         ba998c7c3aba194f43f85bb9ce13cb4f077d3b7a amiserial: remove unused DBG_CNT
+         1cd25475a5ebea9a82c61a9a17abea7e78dfff9f amiserial: remove serial_* strings
+         b44206930a27e321b13a651ea176b6ccb4ce701a amiserial: remove stale comment
+         5a7c7a6bb7065625a9802fcd712e50c2424eac6b amiserial: remove serial_state::xmit_fifo_size
+         7ec3114ec78026b132eba2c7f4b1d582fad82047 amiserial: simplify rs_open
+         5d4317abd2223eea5884f7e28d1047d5e87d4a6f amiserial: use memset to zero serial_state
+         935256192996de6317e3afe5dc1b2f8d9c210afd amiserial: expand serial_isroot
+         816807020ea68c889c35b01c38cd2f6d1da69f20 amiserial: expand "custom"
+         f3d788b4254c72d6d6f5e6fc8979f95295865e93 amiserial: pack and sort includes
+         6cc7bda16dfd4a5d89039302cf1668f9820dfb77 amiserial: switch rs_table to a single state
+         5b869a06a2790a2d1f3ee965e8f38246bfc32d24 amiserial: remove unused state from shutdown
          
 
---===============2742593290825584912==
+--===============5202903496311844457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626864583 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626864611 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1626864582-fbddb33d2944cb2624c68cb0338b061f5271637d
+nonce 1626864611-a717d9d089e19a25d6058d82aa88fc257e03da9e
 
-3b0c406124719b625b1aba431659f5cdc24a982c 33969db7abe9e1cea524e1facb416952211e1d7d refs/heads/tty-testing
+33969db7abe9e1cea524e1facb416952211e1d7d 5b869a06a2790a2d1f3ee965e8f38246bfc32d24 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3+8cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OBgP/iPb/t/KtjPY6m7RhOSo
-zoGGFEHiSCPfz4YMBfoM/rpIwDRlAkqbq3wY0hKfa7lSQRIisJdsIkIB15a5zlyJ
-vX8dhgzR1XrzJE/A4ABfQRwmWkXu7Ux2e79kYGTqqSyQNjJ6E1fc2PLfQGyzdUoz
-hYEUIYh6Q4SG1DM/mvg1q2Q6MxVpXOl8tTyJs50xaRwXMZ6Gl4UgtlNAdEEZPQdv
-oLV/wJGIbe4YzzWtK+LRQFsSz/v/axEvAgLBuRYwDLTXE/iPaEDaGQEM1VA/aXZ2
-4p51LfaBDkvlat4u/rpym+f+C1B8P1dwzpPgrJf2N7lrk/ZXyzeTEesVLUVJ9APD
-7/c8Cxvetm8r3Gd2Gm80Wy/X1BmMzHHCzLXBVTbVvWFNujvFWytKwpnekMvMwPW2
-wOun2O0zv6qD/3xZiEeZQD4sYigmRTDBZ/4rH2+H4q/JniHotyoHWNq8PNFdOARU
-r1RorL5gL8f8ee1xU0k4D4jbRunlrVtWkmlFY84ebLsyz0H3KgRFLVnUcEfo5tZe
-RogRWvx/+aqTyFruolDzoQ3uM3/+untHwhhcn40Oot7UTDLdJHfE12xHGdTbb4Oy
-4ClXA/7waTrxerrpcd2RXL2H2n9TCvpgr/HT3SJcYBC0apzC3FILL4TuBUd12H+G
-DjyAD+fHoEtJJli2ZieHCxHO
-=kPZk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3++MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MvIP/jB4Abt9qRnnXuGbVZHi
+1krYyMT9bn1UReOORP5SZoxZ+SMD2oT70OAjo7gNtuxmcn5Wy79hMOB4yi0N3Jgz
++53Y62r+sortOz5EVfIVTDIG5sG9yiD2rnhB2CYGhDP73q5fZqEKqzVgc+T43nTT
+L9l7NlTEX1cFRSlzOgREtFHX2q6tR/Kbz2oF1PTT4EGKJLv/AtdqcggQxTPTmh8t
+cKfILwIJhEwSn+W2mdMRk/kte8wFhgESHopNUdoQh0qN2cJysvNx/og+els7Adkb
+bgKWXQpDj9axgmv5xtDdYdL8+cr9m1i1CETzP2RtQkjy3V+g/mGvrti7riq3SKOo
+bETN9dOtA1/YeTpiEZc4r0bpwg9IqdYJB6bO4+pZgcevyGBycnDYvsQEOhVLS/yu
+gtLLH5boA5HxNEqI7Sml2GNPkCUmkL6QrMh1DDleeFOSR9GFewn4/FLGKAm+TF8L
+dR/hxm57F3moBlh0uYLA6A54t/GXy3SZJTgQ27OuzS5IiYviO7S2SKOA16H+zjYT
+zn6SUoyZGqeeD5d7/rqcvP9k6/WPqYebQ/cuu/K2OUWjwU1DezfbIsouba3Tb+gY
+nTgcIr+NAUT9gdnUoqIBlczo5MdQ2tDBfTBPDqnWMr/yO1lhPP9MofaPHcVu5xba
+6Sd61Ar9agXBNrvo00Mz7ZgW
+=xruG
 -----END PGP SIGNATURE-----
 
---===============2742593290825584912==--
+--===============5202903496311844457==--
