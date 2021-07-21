@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7717160016074852585=="
+Content-Type: multipart/mixed; boundary="===============2725455395565904659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jul 2021 08:10:44 -0000
-Message-Id: <162685504456.12731.16144062214464635966@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 08:11:07 -0000
+Message-Id: <162685506764.12959.5016337276256310657@gitolite.kernel.org>
 
---===============7717160016074852585==
+--===============2725455395565904659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0c29ec921059abf110434addd8b8ed9032e710c7
-    new: 0356e6283c7177391d144612f4b12986ed5c4f6e
+    old: 0356e6283c7177391d144612f4b12986ed5c4f6e
+    new: 8e6cb5d27e8246d9c986ec162d066a502d2b602b
     log: |
-         b48f8939b9ff593ebed20433bb53c51199920412 usb: audio-v2: add ability to define feature unit descriptor
-         02de698ca8123782c0c6fb8ed99080e2f032b0d2 usb: gadget: u_audio: add bi-directional volume and mute support
-         eaf6cbe0992052a46d93047dc122fad5126aa3bd usb: gadget: f_uac2: add volume and mute support
-         0356e6283c7177391d144612f4b12986ed5c4f6e usb: gadget: f_uac1: add volume and mute support
+         8e6cb5d27e8246d9c986ec162d066a502d2b602b usb: dwc3: dwc3-qcom: Fix typo in the dwc3 vbus override API
          
 
---===============7717160016074852585==
+--===============2725455395565904659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626855040 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626855065 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1626855040-6e01a34fd540320065218017aa56c99902608281
+nonce 1626855064-20edba9ee13a60602bb5f7da61dcf019161e158a
 
-0c29ec921059abf110434addd8b8ed9032e710c7 0356e6283c7177391d144612f4b12986ed5c4f6e refs/heads/usb-testing
+0356e6283c7177391d144612f4b12986ed5c4f6e 8e6cb5d27e8246d9c986ec162d066a502d2b602b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31oEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aEoQAKFgLp2i7POhFSKQJ5tE
-sc0iCqvlTdytqK7UxojONN8xdBmy8vUcVYtCaVv5WD1EPisjgXliArtEMikOlBt6
-RR5vGxkm2AG4FS9BY+MjcpVbPpxAjhPD0UcpS4idBokDxIKmjzj+9E3AkYJJIsly
-air1R5vgsgxgDuwFQFG+ragpQG2BL0iG/leuDCm5euWwC6rvYJaxup02FSCwbs8D
-rCB74ryGJs+Jc34Vj2kV9Ttq2olqlropZ4lD2uhxQOT7umedtwXb98U/R1xOZFgd
-+9QL8eSDq41sxgMVuonTukQVujSdBePdJHqucJGIrJq6dabMacsCXaS/kETOOqGJ
-sZwGLTUZHfQ+AKKlGeVAJlCwyCCI2tEMo5IeGWsVVZYYGVoVTE/3Qrw4POrv35Gj
-afnjRq4Zf0jqvNywOr1obcaIJNNR0sZs88IVjnZ5IutUc2O0NWRLurqpVF16ctsl
-MJd8e74TSIwygtimoRv3SGfAIxQLK746OZ5CDVs3ApLo5RNZmcvMR/1E36VAqOVe
-sLema8YbLBffer/rGuj27Ks7IcmO23gtm3p7j0pfIqXMLil8M8+mLTm8nqW/HhBI
-F/m/rAiSg0m6NQ7gRH2MiHKDV/ULWf6DEQw1713wg49teGZLWsy069AZH4N30MpZ
-eLqLaYCIq2z11LjRvnmcIM79
-=IpfL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31pkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qTYQANZHZ67+Quumpzf8oRt+
+CouqAS0lMrNB6hOo6/WV6bMVDcuSQZkANCt38IkKZ1DYTy0Ecbctc3H+oDyIAX7Q
+xyThdJFDGU6EUiU0T7eaLj/+VJc4fB3hNy/bp4ETx+fp+YRC9HPmSybAaDkviQb/
+5XaZPHB+NswDcf74CzdfC+HJCS+oqURM8UfH/o6xUSrftTT7OpHoxqdm6ot2K5CZ
+XYcf2OMCPQQvB7s1XHt+4wtIKWj9PTNEj5wyfMv941IJWg6ZYJsZYqg9QquXz4L9
+B0ClPSAIUvDnGn2YIB+VQnMjt2O2PwqkMxSYMx3f6W1JjYXpCPiM5DKYhPc0hjxC
+3t/L03mB8kMSFFgIumFkhWqB/omJ5mKTNsUx1rY8HIFU0EGDShpmgKJ8uAXJHH+o
+1DCurdI1G1LH2kitbxbOA9zagdCNjtttbxmksfLY5jZgtsr7Huk4918Mt5iRgZkw
+qvQyHbqrDU7FrFEui0vpNJ2eJqxYNYw0TTXpBn3fW4I0S+c7Z77cgarNuEbOt06r
+Eolm9oUZ/sOQcfXozhykZb6k331ULeFK4yE7HEyIJoAPrUFwou9tl7PqF4VoCdbI
+lV6EYk0oNLIfVl3AFoFmR5h94igsG9HjltDEbRoXyQHowqsOgFsDCU3f+lSLES76
+xfeXYbEG25YVj1PkT+ZNHcLJ
+=YyQS
 -----END PGP SIGNATURE-----
 
---===============7717160016074852585==--
+--===============2725455395565904659==--
