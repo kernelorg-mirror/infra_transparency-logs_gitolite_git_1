@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1601347002333182331=="
+Content-Type: multipart/mixed; boundary="===============7717160016074852585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jul 2021 08:09:48 -0000
-Message-Id: <162685498829.10715.2844406474195339862@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 08:10:44 -0000
+Message-Id: <162685504456.12731.16144062214464635966@gitolite.kernel.org>
 
---===============1601347002333182331==
+--===============7717160016074852585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: b833ce15ce33a6e6b1d729fc78af79362aa8681e
-    new: 0c29ec921059abf110434addd8b8ed9032e710c7
+    old: 0c29ec921059abf110434addd8b8ed9032e710c7
+    new: 0356e6283c7177391d144612f4b12986ed5c4f6e
     log: |
-         31f21e2a09a150972f9188c3a785998131e843ba dt-bindings: usb: generic-ehci: Document dr_mode property
-         0c29ec921059abf110434addd8b8ed9032e710c7 dt-bindings: usb: generic-ohci: Document dr_mode property
+         b48f8939b9ff593ebed20433bb53c51199920412 usb: audio-v2: add ability to define feature unit descriptor
+         02de698ca8123782c0c6fb8ed99080e2f032b0d2 usb: gadget: u_audio: add bi-directional volume and mute support
+         eaf6cbe0992052a46d93047dc122fad5126aa3bd usb: gadget: f_uac2: add volume and mute support
+         0356e6283c7177391d144612f4b12986ed5c4f6e usb: gadget: f_uac1: add volume and mute support
          
 
---===============1601347002333182331==
+--===============7717160016074852585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626854985 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626855040 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1626854985-6f125b1da6f9dd5b5c0ba76934a9f1ed1ba4532e
+nonce 1626855040-6e01a34fd540320065218017aa56c99902608281
 
-b833ce15ce33a6e6b1d729fc78af79362aa8681e 0c29ec921059abf110434addd8b8ed9032e710c7 refs/heads/usb-testing
+0c29ec921059abf110434addd8b8ed9032e710c7 0356e6283c7177391d144612f4b12986ed5c4f6e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31kkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CA8P/RhM1ijGO7/XjUMnRdSJ
-n3ipK6Aye8nc3aHFY4/Xnjz7ak7UVgPl44xK2wLVmn2TqE1QZCQ78sbK7zDqzIFg
-tPc7PRl2ms5HfVxUvUJQCapqoUwatpK2R47szBhmmaOEDVsguKB9AsVCtu5M3O8P
-pFGFOLUVk/GnZfI3x2VBdic0gKfcidNoXd3DMpxnHeIS7tJgmr1Jll15eg4g0bkf
-/LjMLY+h0cFouLv+OJTVRy9fwaF5iu8eu7AItpwU97QN+Ba7XZ6muHW1zW6u0mR4
-H6QxrgD0lGo9cThV4hCmApVBSPWcdt3BFW/l+2tIixW/jC3EwbFI1QLxRpotwqgo
-v36J6MYw0Jx22VHpegpPglgLKA1R5nFnp9p8xg/ZObIIIrT5MDd/JnKYriAlfFW6
-egvt4bJQdJOO8nRyOs7iP0dZ1xiCGQWikZs9McUfwueRUnsvjph39OdlzbfM86VD
-dZjt/WlIhn9sUVxwsj6GUx7/lIx7YEj7lqXGUiEWEvQb22VfjywY1RQAWBxlu/ky
-ecJJK3xEcsS46q5M6huVUkS1U/JPzaue0IkHXcgsNVRfWeZlhyfv8cNHtx2Li50q
-ebdsR0/uKlz4s49xRzHCwWH9HfLwGaKY6KPjQj28V9RIPoqWM7+hbOSQbjz3HzC5
-GKWME1NnZMhSGFdryl6kaBlE
-=P2Lr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31oEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aEoQAKFgLp2i7POhFSKQJ5tE
+sc0iCqvlTdytqK7UxojONN8xdBmy8vUcVYtCaVv5WD1EPisjgXliArtEMikOlBt6
+RR5vGxkm2AG4FS9BY+MjcpVbPpxAjhPD0UcpS4idBokDxIKmjzj+9E3AkYJJIsly
+air1R5vgsgxgDuwFQFG+ragpQG2BL0iG/leuDCm5euWwC6rvYJaxup02FSCwbs8D
+rCB74ryGJs+Jc34Vj2kV9Ttq2olqlropZ4lD2uhxQOT7umedtwXb98U/R1xOZFgd
++9QL8eSDq41sxgMVuonTukQVujSdBePdJHqucJGIrJq6dabMacsCXaS/kETOOqGJ
+sZwGLTUZHfQ+AKKlGeVAJlCwyCCI2tEMo5IeGWsVVZYYGVoVTE/3Qrw4POrv35Gj
+afnjRq4Zf0jqvNywOr1obcaIJNNR0sZs88IVjnZ5IutUc2O0NWRLurqpVF16ctsl
+MJd8e74TSIwygtimoRv3SGfAIxQLK746OZ5CDVs3ApLo5RNZmcvMR/1E36VAqOVe
+sLema8YbLBffer/rGuj27Ks7IcmO23gtm3p7j0pfIqXMLil8M8+mLTm8nqW/HhBI
+F/m/rAiSg0m6NQ7gRH2MiHKDV/ULWf6DEQw1713wg49teGZLWsy069AZH4N30MpZ
+eLqLaYCIq2z11LjRvnmcIM79
+=IpfL
 -----END PGP SIGNATURE-----
 
---===============1601347002333182331==--
+--===============7717160016074852585==--
