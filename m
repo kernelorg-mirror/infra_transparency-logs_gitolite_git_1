@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6075584111620463803=="
+Content-Type: multipart/mixed; boundary="===============6777612287531410724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jul 2021 07:11:04 -0000
-Message-Id: <162685146467.3190.11538145106540649667@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 07:11:43 -0000
+Message-Id: <162685150376.3494.5206118004808045167@gitolite.kernel.org>
 
---===============6075584111620463803==
+--===============6777612287531410724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 44cf53602f5a0db80d53c8fff6cdbcae59650a42
-    new: 57560ee95cb7f91cf0bc31d4ae8276e0dcfe17aa
+    old: 57560ee95cb7f91cf0bc31d4ae8276e0dcfe17aa
+    new: 1b7f56fbc7a1b66967b6114d1b5f5a257c3abae6
     log: |
-         72f68bf5c756f5ce1139b31daae2684501383ad5 xhci: Fix lost USB 2 remote wake
-         57560ee95cb7f91cf0bc31d4ae8276e0dcfe17aa usb: typec: tipd: Don't block probing of consumer of "connector" nodes
+         1bf2761c837571a66ec290fb66c90413821ffda2 usb: hub: Fix link power management max exit latency (MEL) calculations
+         1b7f56fbc7a1b66967b6114d1b5f5a257c3abae6 usb: hub: Disable USB 3 device initiated lpm if exit latency is too high
          
 
---===============6075584111620463803==
+--===============6777612287531410724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626851459 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626851500 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1626851459-ef11dda94c135197b9c02dbe5589d5917774de5f
+nonce 1626851500-e5b5459785ba4237f2eccc1739462b7ec9f8e24e
 
-44cf53602f5a0db80d53c8fff6cdbcae59650a42 57560ee95cb7f91cf0bc31d4ae8276e0dcfe17aa refs/heads/usb-linus
+57560ee95cb7f91cf0bc31d4ae8276e0dcfe17aa 1b7f56fbc7a1b66967b6114d1b5f5a257c3abae6 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3yIMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/IYQALhvoxvKafLLyo0oublU
-4lqv9yMORfw10Ei1+gs+BXKz691kKqzxvJQtQwDuPC3J/LkPWg/5rvDugdHMgJ9S
-iTzrYEELTmgU4x4R8+ATp8vEh8OW3xAQKzjj0DJn10YLbnNeipocIjHUBHHC7yOq
-nXGO8kp6OFypU/uk/EtDop52KvLTG7/yswBfWQZZ3Mo5yDfAJYqBTFAusiWlljAt
-rRlrg5oN9cUnQaQMvtPEpACDvmmrABiNxP01PvtuRatF1svb8l0FSyhmjFNDl89B
-2n4wMiKlbMOUcppk2Zl7Zg+UV0OX6CgJaD2HoHeKGoqkMBG3QSjnUHUSKNrKZ9zz
-esVTaSEYUb3RvCCkqP8wUH/8eJgDfd65BpCtY3CjVPRnUverpt7hPWJKbbmwkVxr
-Ep1SdyIfWmm5VAFGyrY7dnSoJZ8hF49uYm+Qx3ELcAnbAE4l3NV23ZVpLEYaxl1W
-EbvjjKf3KPlyLVyWZwT39PbSJA7g1DL3imOGwubSQifCLpiFOocx4tHQHZflW4u1
-e+6dIpqeQk+v99dQ7HZlMTEmK5mPFwnyG51morpcESl7qHMVWcVC0EylubWtfjFE
-gYDd5KCuLeMT9kR5UVBvifHJMXmHWacJaGjIApy/UBAYh4MAW/pzTIP2rO7E86AC
-GM8+GLKG4dnqBc0t0LtxMJvm
-=dK/o
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD3yK0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WQQQALfyg8cjoRPhpV6LjEFA
+nxFib8dxYxwokpwUa0ByNtivE9RhlwTEbQKFXbdKQFrmTBwHJqEjAW7LiHaA0QXU
+zEE7NmvZmHRgKY2EeCys/8qPtlKJktg7hWBTkFHdWjWPJ9cIE3POCrgyhePR5VOk
+0kWswAJnHHzk6uKUQD6Hl/5uM4sS7u6boR3w/ybi6gdWPIcLeadArma1pTn8only
+4A0GnUGV9ilGyKIJox9EUTwQzlL/0TunObz7X4QmUNBIMcZlYZe40/FRwEoFyGd0
+qe7FFZmUSTAN/VdXDYjrR84d9lCiM5xOlPO7QyjF2PGpNrX5eBuTOSXC/A1XOrcl
+cj/gE15Lsi31KVUAGOQBH2aVLFTUnoipFIXmw1UvmFkWWNSfkb9ppsuIw+9HEOW1
+XsVhXIJoOgbMaQ/Xo7hTacBhtX2Qwqz/he20w/xNUrh/s2cZwIJ9SPOhQ02760we
+omxF2nj4pfFuziLKQo3J2UH9fm2Ar9nAxK1LGepG2gHh46Ui9c7yVtzhcytd2SVx
+l8HvjJOrFLLQG1yQlnvZemu++PI2SBRS4XoO3qBhkgWxbKYuOl4VYoWsk7uBjkhR
+zMmCPA5eFksiOQqFT6C0v6+PKr5rcEkbfifBwzM1vpDVjcdNZ2lKJVqheOGN1/xG
+xMqahfgekhRtVvsaC5Ijq84O
+=Kxfi
 -----END PGP SIGNATURE-----
 
---===============6075584111620463803==--
+--===============6777612287531410724==--
