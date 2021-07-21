@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9107384839535261811=="
+Content-Type: multipart/mixed; boundary="===============3217846319699845185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 21 Jul 2021 14:30:43 -0000
-Message-Id: <162687784348.29021.5391749197687068605@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 14:30:50 -0000
+Message-Id: <162687785061.29127.3960317608353792762@gitolite.kernel.org>
 
---===============9107384839535261811==
+--===============3217846319699845185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc-base
-    old: 041761f4a4db662e38b4ae9d510b8beb24c7d4b6
+  - ref: refs/heads/misc
+    old: 5f638e5ac61ef1b9b588efdf688acc0a4cecdca2
     new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    log: revlist-041761f4a4db-2734d6c1b1a0.txt
+    log: revlist-5f638e5ac61e-2734d6c1b1a0.txt
 
---===============9107384839535261811==
+--===============3217846319699845185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-041761f4a4db-2734d6c1b1a0.txt
+Content-Disposition: attachment; filename=revlist-5f638e5ac61e-2734d6c1b1a0.txt
 
 46b85bf96714267ab7855683b40103c9282aaf4e checkpatch: do not complain about positive return values starting with EPOLL
 86d1919a4fb0d9c115dd1d3b969f5d1650e45408 init: print out unknown kernel parameters
@@ -1051,4 +1051,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 
---===============9107384839535261811==--
+--===============3217846319699845185==--
