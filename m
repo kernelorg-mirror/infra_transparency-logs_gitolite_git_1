@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2725455395565904659=="
+Content-Type: multipart/mixed; boundary="===============5082772890281679380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jul 2021 08:11:07 -0000
-Message-Id: <162685506764.12959.5016337276256310657@gitolite.kernel.org>
+Date: Wed, 21 Jul 2021 08:13:27 -0000
+Message-Id: <162685520799.13853.17804352754146072832@gitolite.kernel.org>
 
---===============2725455395565904659==
+--===============5082772890281679380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 0356e6283c7177391d144612f4b12986ed5c4f6e
-    new: 8e6cb5d27e8246d9c986ec162d066a502d2b602b
+  - ref: refs/heads/usb-linus
+    old: 1f958f3dff42a7239bbfdd9a33db5f11574d16bf
+    new: 5c912e679506ef72adb95616d2f56a8a1b079a3d
     log: |
-         8e6cb5d27e8246d9c986ec162d066a502d2b602b usb: dwc3: dwc3-qcom: Fix typo in the dwc3 vbus override API
+         5c912e679506ef72adb95616d2f56a8a1b079a3d usb: cdc-wdm: fix build error when CONFIG_WWAN_CORE is not set
          
 
---===============2725455395565904659==
+--===============5082772890281679380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626855065 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626855205 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1626855064-20edba9ee13a60602bb5f7da61dcf019161e158a
+nonce 1626855205-bb4359bfcc11daa4ebb469d6931ffd1dab19a8b1
 
-0356e6283c7177391d144612f4b12986ed5c4f6e 8e6cb5d27e8246d9c986ec162d066a502d2b602b refs/heads/usb-testing
+1f958f3dff42a7239bbfdd9a33db5f11574d16bf 5c912e679506ef72adb95616d2f56a8a1b079a3d refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31pkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qTYQANZHZ67+Quumpzf8oRt+
-CouqAS0lMrNB6hOo6/WV6bMVDcuSQZkANCt38IkKZ1DYTy0Ecbctc3H+oDyIAX7Q
-xyThdJFDGU6EUiU0T7eaLj/+VJc4fB3hNy/bp4ETx+fp+YRC9HPmSybAaDkviQb/
-5XaZPHB+NswDcf74CzdfC+HJCS+oqURM8UfH/o6xUSrftTT7OpHoxqdm6ot2K5CZ
-XYcf2OMCPQQvB7s1XHt+4wtIKWj9PTNEj5wyfMv941IJWg6ZYJsZYqg9QquXz4L9
-B0ClPSAIUvDnGn2YIB+VQnMjt2O2PwqkMxSYMx3f6W1JjYXpCPiM5DKYhPc0hjxC
-3t/L03mB8kMSFFgIumFkhWqB/omJ5mKTNsUx1rY8HIFU0EGDShpmgKJ8uAXJHH+o
-1DCurdI1G1LH2kitbxbOA9zagdCNjtttbxmksfLY5jZgtsr7Huk4918Mt5iRgZkw
-qvQyHbqrDU7FrFEui0vpNJ2eJqxYNYw0TTXpBn3fW4I0S+c7Z77cgarNuEbOt06r
-Eolm9oUZ/sOQcfXozhykZb6k331ULeFK4yE7HEyIJoAPrUFwou9tl7PqF4VoCdbI
-lV6EYk0oNLIfVl3AFoFmR5h94igsG9HjltDEbRoXyQHowqsOgFsDCU3f+lSLES76
-xfeXYbEG25YVj1PkT+ZNHcLJ
-=YyQS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD31yUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oFgP/1Gn4oJtF7Jhd8i8Eden
+ZwUmj+wCQGnSRyXpzqSFVY3LqayAH5PCpjyeH5xT+e4mUctbLKvGBYbpGkKhND52
+55/5LO7NP/a7hPLvz8JGWR/6ozOMLxdwBmi1xD4j00K9aXGBFKOWGrmtejjQwJRA
+A1W9ZAcIcfWbh6SCo/Rr9MZyHf5+rdgPxTRkvabFFigHMseP64UxTWvfmb+IYv37
+y5xteD/eO5cek6EoAwXNxdAI8NWnB+oLfnx/W1F2AwLdBxyrjEJh2LAAMcR0sZXj
+4ZlfUxATiVArkOWjT95evI7OODPHGkfB+XMIWRZvfCXU2DEnxHtv6xzdRBWbnNXl
+gCt9Omh41j9ZmS5j1uIrK11SUUUOv3UGmx+5etzx848EIogBkDBRM5eL0ABchVeo
+h8+FjYMi9o/xknHg73y1T7RIUHlkw/YOAhj4lRR4JFbWnT+XBl8I7RdHKFiavr8P
+wsTIqmnZK//TNzl4OKVBFm0u6sbmhsrTt0F8LL00ZHzJAQ7fOBU4iiuDzC21HdPS
+O73PcAsONqSP1myBt4hL34ssOpxeQ+hm695Gai9sVjZ7fd8Pi1NFgnn/I3rwo/kN
+nB1KrZjFldlshcNUDrtH7nE0yXlN10b9FfE8JzrGLyyflL0tdGrX7EYiygvNoGaz
+lGgxb+ceoxxeiAaiXB8a6WDk
+=Nnus
 -----END PGP SIGNATURE-----
 
---===============2725455395565904659==--
+--===============5082772890281679380==--
