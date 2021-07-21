@@ -1,53 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0839916103270150942=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 21 Jul 2021 12:07:36 -0000
-Message-Id: <162686925680.25810.16541783481939589774@gitolite.kernel.org>
-
---===============0839916103270150942==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 21 Jul 2021 12:08:39 -0000
+Message-Id: <162686931921.26269.15331780578425203213@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/bus_remove_return_void
-    old: 0000000000000000000000000000000000000000
-    new: fc7a6209d5710618eb4f72a77cd81b8d694ecf89
-
---===============0839916103270150942==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626869239 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1626869239-56f5fccd49313bdf68dd35c32327bab83d5d5933
-
-0000000000000000000000000000000000000000 fc7a6209d5710618eb4f72a77cd81b8d694ecf89 refs/heads/bus_remove_return_void
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD4DfcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KxAQAIpiGJ6/myW3Kymufhcn
-FotK38nUxdG3SIUTsZ2ELo99+qEuJ8y9L1GcfAQwwsrNywtXwO6UBlkT7POvC0if
-BnMn7H/p4MsaYwgD62Jffz6bz5DevM32nVMZUc+WgZhEQymdJX6jtxyEZzC1YLia
-exTPoQXAWK7nULtEkoUz8tJyuCcor/z36crTFQM7d/eUblAGrK0fik79Fx3y06rz
-4ZHekIQxkf4IJospVIjBpCAqOte/6cmc8aFPB2sf3QH/ZBbRwH44f5pGCM6UUEO1
-QRTao1cGnV9hWIEas0yIC01KuPq1fTOSA3K8Ab27dEebPMCGAC4gbFp8W3Kv6bLe
-wEdZN1nyrSThUMoVVhlsBLkESZyUQqBtCgnfBLB7wPHaxw4OCJveec0lS/eOy9yo
-Q1KHLTF3DPlJ+RgENurvGFhlOB6zuegozbbfBu1IkeOQAcwEYRQCuNV20KhGnv/g
-9cLWMOJb9UC7keZdSMQuECskkbdbFVPf23DNbP7SQ83zDF8Up1p0wtqq1EIpgAMy
-AAP7BgysiH3FCnYiLVtd2mWksSyZTRNRRl7vTFbv7z1HZ4XY9KdMqMuD303sTOMo
-1TRE5NhQOGkMZeqEAR0EAqea3KTnRZYbzPPVqewyHponxBkuOkimdshbTshgeqog
-mDJjA9iPOa5v/Bh4PfyvHBfH
-=/K5W
------END PGP SIGNATURE-----
-
---===============0839916103270150942==--
+  - ref: refs/heads/wip/jgg-for-next
+    old: 923232bbea88a29f18a2361790582a6474a538fc
+    new: 07d0f314ba75cba17c3fad0a3d4e640e757897d7
+    log: |
+         96cd2dd65bb0b94c908f2df32bba7350fc1b954e net/mlx5: Add DCS caps & fields support
+         2013b4d525273e8ce6a6ff6518a4df3f8a8250cb RDMA/mlx5: Separate DCI QP creation logic
+         11656f593a869a4345e3421037614d2b75ae2ad3 RDMA/mlx5: Add DCS offload support
+         07d0f314ba75cba17c3fad0a3d4e640e757897d7 Merge branch 'mlx5_dcs' into rdma.git for-next
+         
