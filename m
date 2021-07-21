@@ -1,29 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
-Date: Wed, 21 Jul 2021 13:38:49 -0000
-Message-Id: <162687472944.20768.7970138869061520814@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3831250288242492871=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Wed, 21 Jul 2021 13:42:08 -0000
+Message-Id: <162687492895.23381.16716962030200882725@gitolite.kernel.org>
+
+--===============3831250288242492871==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: 722d0c0040a811a503ad254e5dffba6ac66782d7
-    new: 97f7de13a76b62f8d27c302dcbbd58bddc4b08c8
+  - ref: refs/heads/fscache-iter-2
+    old: d45090b191774b11ecfe2421f5619827aa08ad00
+    new: 589298a2e3fbae71f425089da4afb5a0fd3f939f
     log: |
-         f65dbd37b720e4897a51f6cfe989928e83a51159 fs: add generic helper for filling statx attribute flags
-         9b2544fb07decc689f3fffba73c01e9819f87cab ovl: pass ovl_fs to ovl_check_setxattr()
-         7d79bbeb09e493c88e254ae74c888b8ccc34c7b7 ovl: copy up sync/noatime fileattr flags
-         3bff98b5ef9c5f6c98e7e76180e2f5522f336e7a ovl: consistent behavior for immutable/append-only inodes
-         70882a5de80241311505042a6237e54dff436e49 ovl: disable decoding null uuid with redirect_dir
-         00aebaed71f696d62478c9df77531edc99576a40 ovl: add ovl_allow_offline_changes() helper
-         c69fba27a80a126cb8a5bac10a73106652aa6d79 ovl: do not set overlay.opaque for new directories
-         fcb7f373684d2c543b0914352f1b57ced181e384 ovl: skip stale entries in merge dir cache iteration
-         84f8d8964db78fea85c8ec9a84ec421f8e11fc4c ovl: relax lookup error on mismatch origin ftype
-         444e085783c6b68381febac54d7218e63c0335fe ovl: skip checking lower file's i_writecount on truncate
-         97f7de13a76b62f8d27c302dcbbd58bddc4b08c8 ovl: update ctime when changing fileattr
+         589298a2e3fbae71f425089da4afb5a0fd3f939f fscache: Fix LRU
          
+  - ref: refs/heads/netfs-regions-experimental
+    old: 4b89cfc076b77dcfe213ffac79da4cb8184e70d2
+    new: 5dafbe3a10649d983690594cfd1e3ed530dee130
+    log: revlist-4b89cfc076b7-5dafbe3a1064.txt
+  - ref: refs/remotes/linus/master
+    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
+    new: 8cae8cd89f05f6de223d63e6d15e31c8ba9cf53b
+    log: |
+         8cae8cd89f05f6de223d63e6d15e31c8ba9cf53b seq_file: disallow extremely large seq buffer allocations
+         
+
+--===============3831250288242492871==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4b89cfc076b7-5dafbe3a1064.txt
+
+589298a2e3fbae71f425089da4afb5a0fd3f939f fscache: Fix LRU
+b8c2de81ab6c95a1acef08e2df55c925cc42396e afs: Sort out symlink reading
+daee46506ebc9b327a62af2cbd8112ccc3a7719a netfs: Add an iov_iter to the read subreq for the network fs/cache to use
+945a07570627f0baab2a3927d508e2125f749e22 netfs: Remove netfs_read_subrequest::transferred
+cc08dc7c77fd6c56265c2e86628a6952843bb036 netfs: Use a buffer in netfs_read_request and add pages to it
+284efa147e37770b9abd913ff04b72c418fdfb36 netfs: Add a netfs inode context
+d7fedda6ce3ea4879d3861d41fac14dc8f8ea364 netfs: Keep lists of pending, active, dirty and flushed regions
+a7a185dc3f19aecee397268afc1a95eb13d2d02d netfs: Initiate write request from a dirty region
+e18ba08934f7132772b20be90c72d1104c22fa62 netfs: Keep dirty mark for pages with more than one dirty region
+385c8bdd3e321b09dab3627741cd640122a257b2 netfs: Send write request to multiple destinations
+5fd1108b1467b9e75d02e88ac1f255731038445c netfs: Do encryption in write preparatory phase
+58ac1b90ea7330e59732d2069fec81bd842b9d40 netfs: Put a list of regions in /proc/fs/netfs/regions
+5dafbe3a10649d983690594cfd1e3ed530dee130 netfs: Export some read-request ref functions
+
+--===============3831250288242492871==--
