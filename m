@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1046116192667692004=="
+Content-Type: multipart/mixed; boundary="===============3688587915508320156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 22 Jul 2021 16:13:54 -0000
-Message-Id: <162697043432.10158.16592027812372681050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 22 Jul 2021 16:14:02 -0000
+Message-Id: <162697044216.10280.316023479890330806@gitolite.kernel.org>
 
---===============1046116192667692004==
+--===============3688587915508320156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 82d28b67f780910f816fe1cfb0f676fc38c4cbb3
     new: 5434d0dc56bce4510109a431a7eb71ec5131ef0f
     log: |
@@ -26,7 +26,7 @@ changes:
          090c57da5fd59fb59adc9d9341a77558c93b0abd ASoC: tlv320aic32x4: Fix TAS2505/TAS2521 processing block selection
          5434d0dc56bce4510109a431a7eb71ec5131ef0f ASoC: amd: enable stop_dma_first flag for cz_dai_7219_98357 dai link
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 1bd80ff2cfb38582e258baf681211a21d448984f
     new: 08413fca62c63ccd245d20985460759c84499ebc
     log: |
@@ -44,29 +44,29 @@ changes:
          08413fca62c63ccd245d20985460759c84499ebc ASoC: amd: enable vangogh acp5x driver build
          
 
---===============1046116192667692004==
+--===============3688587915508320156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626970427 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1626970431-f9de71efb6aaa61a297c7eec316c9b3d24037d18
+pusher C3F436CA30F5D8EB 1626970435 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1626970439-00c8a582ec52f2c9f4d196781729e21f658571a5
 
-82d28b67f780910f816fe1cfb0f676fc38c4cbb3 5434d0dc56bce4510109a431a7eb71ec5131ef0f refs/heads/for-5.14
-1bd80ff2cfb38582e258baf681211a21d448984f 08413fca62c63ccd245d20985460759c84499ebc refs/heads/for-5.15
+82d28b67f780910f816fe1cfb0f676fc38c4cbb3 5434d0dc56bce4510109a431a7eb71ec5131ef0f refs/heads/asoc-5.14
+1bd80ff2cfb38582e258baf681211a21d448984f 08413fca62c63ccd245d20985460759c84499ebc refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD5mTwACgkQJNaLcl1U
-h9AuNAf/TVaEnE/fMSS4cX9OWNl5+i6Y4Vp6Usmw3p47ZIstrA46mHYJMZfMDYWb
-CQL3jsmbhDT75ThB2o63q3ykkm/AbmiEP0AILKfpUgwUlY3sDujN7+plFmA5mTQL
-MzFfIgIb4vmmosPyEMyS7/BLbBIIVh+gI+iDGI/+0nH9/cM2Bb9i2e65nRmlQg8V
-NMdHI/PSb2n6MXEmlQYYw+mI8hvTl7HmLSzUlI5bL7mSx/CCVYeZptFijI+WO4g3
-pd7CR3omQz7YxGkN560UySUCFSRB5NS+1HeFZ/VvgD9DSeFdxI2+ZVOo5kachoYk
-hWMqmvA2tfA0rogfmD+uIfuyuNzRUQ==
-=Diea
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD5mUMACgkQJNaLcl1U
+h9Ct8wf/brdHKhmJ2en4fp6v15aiOcFullDSKtWi23nyJtsZvoejLNkepLJms7tM
+DGlaUBXJM8fcv1KgGQ88BVx5EAOeg2wSo6IA6RrzPOpM/1SoJg+9ooD5/IsfUDWG
+xYoAxt0YMobV2ee2KrJrMlHkkGERAZwVKNeq0W9EPrWgGp7Qu9nAxex9mOK0hkTn
+epXJUfDJIfAGRuYn0vj8bESBVOyptxU3l3EqF/SIfsTK5w638CVSC8//dG+J6UFm
+gofRtIjCeq32gkvbnrXCmrx00a8GW4e7pCcFL4ctrpAMQY5++vlJgWUDICInuX0A
+78Ca23CF5cikPztBNLBYd+eo9BYMsg==
+=Dlyg
 -----END PGP SIGNATURE-----
 
---===============1046116192667692004==--
+--===============3688587915508320156==--
