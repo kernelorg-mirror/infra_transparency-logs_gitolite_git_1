@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 22 Jul 2021 10:30:49 -0000
-Message-Id: <162694984918.32755.6284725625085929079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Thu, 22 Jul 2021 10:38:44 -0000
+Message-Id: <162695032458.4448.15327178493454010261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: egrumbach
 changes:
-  - ref: refs/heads/urgent
-    old: 47e1e233e9d822dfda068383fb9a616451bda703
-    new: 5bb60b28ce5bee48838c3fdc667c7247e722b34d
+  - ref: refs/heads/iwlmei
+    old: e81bfe234fe7d134a8dd16c0b3c48d27e088e340
+    new: 0458ba02f5db1385369cecdec5f22db92661714a
     log: |
-         4152433c397697acc4b02c4a10d17d5859c2730d arm64: efi: kaslr: Fix occasional random alloc (and boot) failure
-         5bb60b28ce5bee48838c3fdc667c7247e722b34d efistub: arm64: relax 2M alignment again for relocatable kernels
+         eb963fb3bc253ed4699b7f168cbb3f9132f79711 iwlwifi: mei: add the driver to allow cooperation with CSME
+         8f5685f7d37ce3e027e07100107615e43e1ce0a2 iwlwifi: mei: add debugfs hooks
+         e98e3feb9a55f03cac95b06048865e9b1f97da69 iwlwifi: integrate with iwlmei
+         01f8f5450b775c1d040e59a40c1442cd81209f1c nl80211: vendor-cmd: add Intel vendor commands for iwlmei usage
+         0458ba02f5db1385369cecdec5f22db92661714a iwlwifi: mvm: add vendor commands needed for iwlmei
          
