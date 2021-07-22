@@ -1,59 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2179420168521555148=="
+Content-Type: multipart/mixed; boundary="===============0781366158601923970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 22 Jul 2021 16:14:30 -0000
-Message-Id: <162697047019.10792.15729446243950001065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 22 Jul 2021 16:14:53 -0000
+Message-Id: <162697049310.11005.15528789948735609321@gitolite.kernel.org>
 
---===============2179420168521555148==
+--===============0781366158601923970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: c45c1e82bba130db4f19d9dbc1deefcf4ea994ed
-    new: e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0
+  - ref: refs/heads/for-linus
+    old: 3c1b3b02665a4762cd1174bb1602387b4446fe9c
+    new: a7b7e43d4747177a8c7508391b64b8a9f1829362
     log: |
-         1d5ccab95f06675a269f4cb223a1e3f6d1ebef42 spi: spi-mux: Add module info needed for autoloading
-         8311ee2164c5cd1b63a601ea366f540eae89f10e spi: meson-spicc: fix memory leak in meson_spicc_remove
-         e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0 spi: update modalias_show after of_device_uevent_modalias support
+         b9a4b57f423ff8ff9ab9b68a238bdc3e7678f723 ASoC: codecs: wcd938x: fix wcd module dependency
+         6d20bf7c020f417fdef1810a22da17c126603472 ASoC: rt5682: Adjust headset volume button threshold
+         d00f541a49406afc2c091aac121e29b3b61480a2 ASoC: amd: renoir: Run hibernation callbacks
+         090c57da5fd59fb59adc9d9341a77558c93b0abd ASoC: tlv320aic32x4: Fix TAS2505/TAS2521 processing block selection
+         5434d0dc56bce4510109a431a7eb71ec5131ef0f ASoC: amd: enable stop_dma_first flag for cz_dai_7219_98357 dai link
+         a7b7e43d4747177a8c7508391b64b8a9f1829362 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-  - ref: refs/heads/spi-5.15
-    old: cfb4dac1296472a75ec8ae813c9ab8764bbb0ca2
-    new: e3aa9acc71778266cc4743217ff1a1a53caf15d6
-    log: |
-         e3aa9acc71778266cc4743217ff1a1a53caf15d6 spi: pxa2xx: Adapt reset_sccr1() to the case when no message available
-         
+  - ref: refs/heads/for-next
+    old: e4b1ea6d7ae3bc9c26c2f412cc5338e5cdf297de
+    new: 86db346793f98efe9fee9795f653b378949e60e5
+    log: revlist-e4b1ea6d7ae3-86db346793f9.txt
 
---===============2179420168521555148==
+--===============0781366158601923970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e4b1ea6d7ae3-86db346793f9.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1626970464 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1626970467-28fee3fcc7002eb264fb4dcd39b4e5e15ba9a510
+b9a4b57f423ff8ff9ab9b68a238bdc3e7678f723 ASoC: codecs: wcd938x: fix wcd module dependency
+6d20bf7c020f417fdef1810a22da17c126603472 ASoC: rt5682: Adjust headset volume button threshold
+d00f541a49406afc2c091aac121e29b3b61480a2 ASoC: amd: renoir: Run hibernation callbacks
+090c57da5fd59fb59adc9d9341a77558c93b0abd ASoC: tlv320aic32x4: Fix TAS2505/TAS2521 processing block selection
+7bf060d0d579129e5f405d2300fbaa5222e3d1cb ASoC: amd: add Vangogh ACP5x IP register header
+4a7151c9688cc166ff6bf5a1a00e3cee429a2f11 ASoC: amd: add Vangogh ACP PCI driver
+5d9ee88a10e854c5c43e0ae6b1bb0ff454cd45d1 ASoc: amd: add acp5x init/de-init functions
+603f2dedccac1ae2d201dfb10df74f3cae3c7832 ASoC: amd: create acp5x platform devices
+77f61444e48b79e991b15da6399cf24685a042c9 ASoC: amd: add ACP5x PCM platform driver
+fc2c8067c76b3f322447491efb9837f051e86c69 ASoC: amd: irq handler changes for ACP5x PCM dma driver
+cab396d8b22c13b424d9ba66f626f036f802658c ASoC: amd: add ACP5x pcm dma driver ops
+e550339ee65226b059b4647f12c16710181e36b2 ASoC: amd: add vangogh i2s controller driver
+b80556addd1a0db551a0c82fb9651e502ac0119b ASoC: amd: add vangogh i2s dai driver ops
+b0a37ac6782fa0a62cf90e40e81e01728b07922a ASoC: amd: add vangogh pci driver pm ops
+361414dc1f07b72f2f6942fca60f2f158c022a6d ASoC: amd: add vangogh i2s dma driver pm ops
+08413fca62c63ccd245d20985460759c84499ebc ASoC: amd: enable vangogh acp5x driver build
+5434d0dc56bce4510109a431a7eb71ec5131ef0f ASoC: amd: enable stop_dma_first flag for cz_dai_7219_98357 dai link
+a7b7e43d4747177a8c7508391b64b8a9f1829362 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+86db346793f98efe9fee9795f653b378949e60e5 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
 
-c45c1e82bba130db4f19d9dbc1deefcf4ea994ed e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0 refs/heads/spi-5.14
-cfb4dac1296472a75ec8ae813c9ab8764bbb0ca2 e3aa9acc71778266cc4743217ff1a1a53caf15d6 refs/heads/spi-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD5mWAACgkQJNaLcl1U
-h9BsfggAg1GB9vNd1rEKuTBn5gFpg9gGQH3N4mPz5GKLqaoB983RMmBsEClNsNSk
-oPxuBwO3zVFZZghG+YEjrQv8hjUttPlJd/NC8npP7tn9+vt5scxopktdM50hoGf+
-gIQJ7/4BKfRQ9SifzPNZA4836FgMfl4oL5N6I4VzkNxu62gK0BSHHfN7ENlV4nh3
-V36Da19dFwx1FuDNbGdDInfGwmt9Wjl3TK0+s7AeI4qajlH2e9AKvqDnsvsqjVX1
-87wM9bz2SHWBkssx6XE+6y1hPgCFaz0Ce9ysg6q/02ivXOChSiCuMcNMu7y/56s7
-0XwBqAjb8AAUdXUmkq0k273fxPU1vQ==
-=9zlR
------END PGP SIGNATURE-----
-
---===============2179420168521555148==--
+--===============0781366158601923970==--
