@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 21 Jul 2021 23:50:36 -0000
-Message-Id: <162691143617.10787.3772688447189311461@gitolite.kernel.org>
+Date: Thu, 22 Jul 2021 00:11:05 -0000
+Message-Id: <162691266591.23214.3765790133812390562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
   - ref: refs/heads/tmp.master
-    old: e5605533d97193055e17dcfad29900fe98df376c
-    new: b4b0baf8e8d7901e359ec098bf1cc41884c65685
+    old: b4b0baf8e8d7901e359ec098bf1cc41884c65685
+    new: 37f4bddb2a91720a82a1ceccc598d6f8501cfea0
     log: |
-         d1d64cd2c990df96491c3287bc3a83411852df68 core: Allow sizing the loader hash table
-         b4b0baf8e8d7901e359ec098bf1cc41884c65685 pahole: Allow tweaking the size of the loader hash tables
+         37f4bddb2a91720a82a1ceccc598d6f8501cfea0 pahole: Allow tweaking the size of the loader hash tables
          
