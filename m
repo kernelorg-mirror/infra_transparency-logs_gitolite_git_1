@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 22 Jul 2021 10:14:01 -0000
-Message-Id: <162694884181.19894.12039555711641978132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Thu, 22 Jul 2021 10:15:47 -0000
+Message-Id: <162694894739.21939.8748768827328056316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/tags/mmc-v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 72f978ea962740f86cfe2c6e479340795362e6bc
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
+  - ref: refs/heads/hyperv-next
+    old: 31e5e64694cf9879e63b2802007fa934f4131126
+    new: 63fb60c2fcc94d595a184fa187bdfb25e5ecd4a2
+    log: |
+         63fb60c2fcc94d595a184fa187bdfb25e5ecd4a2 hv: hyperv.h: Remove unused inline functions
+         
