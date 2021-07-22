@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3419010728641280830=="
+Content-Type: multipart/mixed; boundary="===============8434786146673094717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 22 Jul 2021 16:14:15 -0000
-Message-Id: <162697045559.10540.10453319913796838590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 22 Jul 2021 16:14:23 -0000
+Message-Id: <162697046327.10677.13443632042513806475@gitolite.kernel.org>
 
---===============3419010728641280830==
+--===============8434786146673094717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.15
-    old: 0555d41497de66d2f07ae36dcb46a32f0ff90d8d
-    new: d0f95e6496a974a890df5eda65ffaee66ab0dc73
+  - ref: refs/heads/for-5.14
+    old: c45c1e82bba130db4f19d9dbc1deefcf4ea994ed
+    new: e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0
     log: |
-         d0f95e6496a974a890df5eda65ffaee66ab0dc73 regulator: fixed: use dev_err_probe for register
+         1d5ccab95f06675a269f4cb223a1e3f6d1ebef42 spi: spi-mux: Add module info needed for autoloading
+         8311ee2164c5cd1b63a601ea366f540eae89f10e spi: meson-spicc: fix memory leak in meson_spicc_remove
+         e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0 spi: update modalias_show after of_device_uevent_modalias support
+         
+  - ref: refs/heads/for-5.15
+    old: cfb4dac1296472a75ec8ae813c9ab8764bbb0ca2
+    new: e3aa9acc71778266cc4743217ff1a1a53caf15d6
+    log: |
+         e3aa9acc71778266cc4743217ff1a1a53caf15d6 spi: pxa2xx: Adapt reset_sccr1() to the case when no message available
          
 
---===============3419010728641280830==
+--===============8434786146673094717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1626970449 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1626970453-f40d809eb5e744b52275cd7194641a2e7044c611
+pusher C3F436CA30F5D8EB 1626970457 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1626970460-014f3c1a2792a97e23f505afb78a800b71fa6ea0
 
-0555d41497de66d2f07ae36dcb46a32f0ff90d8d d0f95e6496a974a890df5eda65ffaee66ab0dc73 refs/heads/regulator-5.15
+c45c1e82bba130db4f19d9dbc1deefcf4ea994ed e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0 refs/heads/for-5.14
+cfb4dac1296472a75ec8ae813c9ab8764bbb0ca2 e3aa9acc71778266cc4743217ff1a1a53caf15d6 refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD5mVEACgkQJNaLcl1U
-h9AOPAf/TS5qO23TyrLmjZPubAkGlpNHolM3YJawLW4T19dsF3TkFj4PHfsOKiLw
-oLQWafnxJ0FBbkC9+FXvTtW1DZPYjsedilcc2JZSSaGensO6RPpspM/gc1LiuQXY
-WZHZNhKdw8UpmpShgiQ0a6DIy74oE8UDm1mW9peQt5r5/OsxPeUCMTmp7rbwwXeC
-azKJzUotg8WWJg/2VkJuKR5iDmC4WpvKO48ZCQ7E4pMmjpnw1WqVvNGZliBSODpN
-e3tLF5ZgbkuNeATFuchZo4ieVBAAbh02Li3lQmY+hHjdNHZYHjz8OktjixWooc4S
-3SPWKauxJ576sqqhvGpSiirOTQ+G1Q==
-=+0VL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD5mVkACgkQJNaLcl1U
+h9AhVwf/asFxtBAupPqhjEsu372Jt0PjQKa4GpxPsHv0+bRVKvcULLOjdKziSDkX
+RBaiNminI5/lSWGbK7mS7ibFmnix1ZappJ61lxxDTE+YwG+PUMLLZKfV3R56Fnd5
+I+aAduGnsJywJ3CW/nL87es6Jo+VLBKZmjBdoqhKTypYXiSdt23Ajbb49BTobFyN
+paKet7tV3rHdXKbnJwGhVARI4mAlU4J5qV8ssFInRQ8NTUpJC+pvl88LFm237XDh
+ic9NhmXzJ/EBBndf5D28UWuXOBUmAb/w519PcWv/7DwywOkCHfFJ+FJrTIQawiVy
+fyVTjhiQY4yqxk/fZzVFDgCdUWjywA==
+=vGS3
 -----END PGP SIGNATURE-----
 
---===============3419010728641280830==--
+--===============8434786146673094717==--
