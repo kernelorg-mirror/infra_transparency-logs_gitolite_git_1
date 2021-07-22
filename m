@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3200144447270262793=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 22 Jul 2021 13:38:15 -0000
-Message-Id: <162696109593.26284.2392263075902109098@gitolite.kernel.org>
-
---===============3200144447270262793==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Thu, 22 Jul 2021 13:39:01 -0000
+Message-Id: <162696114157.26633.5267429176390653249@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 5bf17fef65f1388fb79482c0e56cd7078df0f2cf
-    new: 3909e8674dc073578a6c0dc885895aedd721a870
+  - ref: refs/heads/asm-generic-uaccess-5
+    old: 3c47f8ed085aac6a6964a2273369a5c2dd51ccba
+    new: 115d15104a1e07ef402962ce88e06d52537e5a02
     log: |
-         3909e8674dc073578a6c0dc885895aedd721a870 4.4-stable patches
+         20b8409aa1d598fc923969fdfaffd23e8b67d7d8 asm-generic/uaccess.h: remove __strncpy_from_user/__strnlen_user
+         891b6a28c14b6ebc8eb3178588e2b6f309359fcf h8300: remove stale strncpy_from_user
+         97a6d60c7aedf6ca7e03f9eb60a666261024e5c6 hexagon: use generic strncpy/strnlen from_user
+         4db3df5a675677430521581b014f97135b641dd9 arc: use generic strncpy/strnlen from_user
+         0460ddd8777f8ee04def4b94035c08997f9811e7 csky: use generic strncpy/strnlen from_user
+         c4b9d35395f3a77973e546394617ccc0c6f4b4d0 microblaze: use generic strncpy/strnlen from_user
+         b406b17bea3ed65e9dee26171d557aa43a687cf5 asm-generic: uaccess: remove inline strncpy_from_user/strnlen_user
+         babbd0da882859c06eaa72908fcb5d631c7fa001 asm-generic: remove extra strn{cpy_from,len}_user declarations
+         115d15104a1e07ef402962ce88e06d52537e5a02 asm-generic: reverse GENERIC_{STRNCPY_FROM,STRNLEN}_USER symbols
          
-
---===============3200144447270262793==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1626961092 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1626961092-1b4510610472c11c70f273a92654a9c44fd14870
-
-5bf17fef65f1388fb79482c0e56cd7078df0f2cf 3909e8674dc073578a6c0dc885895aedd721a870 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD5dMQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZwcP/2zc44b3Kzs4yU/c5tcd
-Nozo+AiAZcDxJvqQn2QceO3N+3wS+U8aYj/rz8JtG3BJdjPuZES2jmgiLgdyRfLp
-ni2lenBZvMGALIS8I4j2m9p2NA2y/yWMX98fLDCX7NJaW4DXk7UMKvyWLHvOip2V
-yQ2lu/V3MC6JVQm/dUFC0Dtq/kA3XH8aQidIJFaG7rvNxvsgkjoF38vVWurPPEUn
-VK97CoLS0xKSdCJeUNg2zzOGzAqidtjo0mc0IgwJFcOKyLd0XmzgULlgCkUj+LXS
-fwAk/BMUGdWcMkaGcfMg+/PEBLZ2+OAFi2JscFpXPPs0uSYbX+4ccym/ZBUI7dug
-kh+z0R2xdfqIb3dZ2PgXS28q923JL31Ap/S2CUJaGnoEo0qTc5/0t2dRP1vWr38Z
-k9WecdeLacjEIL0C+Ek6sYsd3M5WIk5hjniq35Gd0z4KrzRBxLa0Eh+eVPDqBTHa
-i0EPCoVvR1Qc8+2M/UVbVcBWqMRakNAQ94cPp3q9Neab2C3KOXahirzFYd6heMQG
-Sa2nymCoCMfvlIKJ4j2pPS157rD5VVBPktgAB0unqJlb7dqeCpHjWKzFQ4MnE/iR
-2wzgekOlf1/W989RS7GVTp4oWfw4r3hFqWlIHlOyN10ovPu1GZpdR/uup5jfzQf2
-V7MlPpUstBxE3+DP02OgEDTs
-=K8H6
------END PGP SIGNATURE-----
-
---===============3200144447270262793==--
