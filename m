@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 22 Jul 2021 00:11:05 -0000
-Message-Id: <162691266591.23214.3765790133812390562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 22 Jul 2021 00:12:18 -0000
+Message-Id: <162691273837.23762.5761067663621679126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/tmp.master
-    old: b4b0baf8e8d7901e359ec098bf1cc41884c65685
-    new: 37f4bddb2a91720a82a1ceccc598d6f8501cfea0
+  - ref: refs/heads/dev
+    old: 3bb0d994a7ae52f9e6230720d6c4e1e366eb6737
+    new: 8b4ee4413bba925a57726ca8dcb06579fa142537
     log: |
-         37f4bddb2a91720a82a1ceccc598d6f8501cfea0 pahole: Allow tweaking the size of the loader hash tables
+         8b4a4325a99e28a6671defa3d1ecb0dc47ec839e rcu-nocb: Fix a couple of tree_nocb code-style nits
+         5d9eb5a63ce510862c943306966227346d2e4394 torture: Allot 1G of memory for scftorture runs
+         8b4ee4413bba925a57726ca8dcb06579fa142537 EXP: cpu: Convert timings from jiffies to ktime_get_mono_fast_ns()
          
