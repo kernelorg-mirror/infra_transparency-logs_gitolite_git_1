@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1555108687189253230=="
+Content-Type: multipart/mixed; boundary="===============3743911268944546929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 22 Jul 2021 15:29:38 -0000
-Message-Id: <162696777801.10600.1738431796934935234@gitolite.kernel.org>
+Date: Thu, 22 Jul 2021 15:36:01 -0000
+Message-Id: <162696816165.15839.7580509197873676082@gitolite.kernel.org>
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,443 +16,507 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: b32fe7f2a329633db6f3ec6557351cb3ce203e88
-    new: 690b662f192976352b1b56244204f3854c4a1ce5
-    log: revlist-b32fe7f2a329-690b662f1929.txt
+    old: 690b662f192976352b1b56244204f3854c4a1ce5
+    new: 0301f54a9759ddcdc358883c2a66314d35eb1f57
+    log: revlist-690b662f1929-0301f54a9759.txt
   - ref: refs/heads/queue/4.19
-    old: e59562167312c7b520c085de6e901beef11dbca7
-    new: bc4d36b53eaf05da82661b1c573326828467ede2
-    log: revlist-e59562167312-bc4d36b53eaf.txt
+    old: bc4d36b53eaf05da82661b1c573326828467ede2
+    new: ac53323b1f8f4110b91648c12193b5858243bdd4
+    log: revlist-bc4d36b53eaf-ac53323b1f8f.txt
   - ref: refs/heads/queue/4.4
-    old: 25d7adb31a70ba77e95b99b37c50f24d42c6b3d5
-    new: 93366fac518f37b6833aa717279d1bea8a8d9811
-    log: revlist-25d7adb31a70-93366fac518f.txt
+    old: 93366fac518f37b6833aa717279d1bea8a8d9811
+    new: fb9ce6014670790d66c14e1932967ad7c69282dc
+    log: revlist-93366fac518f-fb9ce6014670.txt
   - ref: refs/heads/queue/4.9
-    old: 474c99107922e75e6a30bc422935b4948c27e236
-    new: cdca11772e58704037eecc9e8a44f4037155cb9f
-    log: revlist-474c99107922-cdca11772e58.txt
+    old: cdca11772e58704037eecc9e8a44f4037155cb9f
+    new: cc388abe09583dc6b098eb178f91a53ab28bb2dd
+    log: revlist-cdca11772e58-cc388abe0958.txt
   - ref: refs/heads/queue/5.10
-    old: 6213bacea7ab1c0f8b124d9a73622bbf5d0b924a
-    new: 26db9df2a8e695e580aa46bb73df11e74cf7e2eb
-    log: revlist-6213bacea7ab-26db9df2a8e6.txt
+    old: 26db9df2a8e695e580aa46bb73df11e74cf7e2eb
+    new: a0005483be1d6287fe38bf6a58b69ead9d695ec9
+    log: revlist-26db9df2a8e6-a0005483be1d.txt
   - ref: refs/heads/queue/5.13
-    old: 3575e440ffb16d71e4d508877bfe7877d6718f37
-    new: ffce4fe62b1619703072c79fc28b1c7d6bba3118
-    log: revlist-3575e440ffb1-ffce4fe62b16.txt
+    old: ffce4fe62b1619703072c79fc28b1c7d6bba3118
+    new: c2d08ef4453eeb477a685454ced3f22a83334625
+    log: revlist-ffce4fe62b16-c2d08ef4453e.txt
   - ref: refs/heads/queue/5.4
-    old: 2eeed5786fb673b996d8ecda14dbb6ccf607f62d
-    new: cd61c3193ecf05d479348558422365919f5939f4
-    log: revlist-2eeed5786fb6-cd61c3193ecf.txt
+    old: cd61c3193ecf05d479348558422365919f5939f4
+    new: 54a8545d36d792865bafdc0912b4586cc7026c7a
+    log: revlist-cd61c3193ecf-54a8545d36d7.txt
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b32fe7f2a329-690b662f1929.txt
+Content-Disposition: attachment; filename=revlist-690b662f1929-0301f54a9759.txt
 
-a5084fcc1633b83c1a445414f8e03b485ec573d6 ARM: dts: gemini: add device_type on pci
-257620a547e2791f003536a036b8844ab25dfbe9 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-e6869ea6f03f162b4d3132e9e4cb55f5ac74ff3a arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
-962079f5f6ea16a9ce002df11251b749f43c80cb ARM: dts: rockchip: Fix the timer clocks order
-66cddf3d83481e1d08393673fe83205f537a9148 ARM: dts: rockchip: Fix power-controller node names for rk3288
-8c16e01fd981b4de5d18cf83bd447dcd590f7d90 arm64: dts: rockchip: Fix power-controller node names for rk3328
-ee9f30a0979a783ad9ccc856885b74efd9908c35 reset: ti-syscon: fix to_ti_syscon_reset_data macro
-baa0e0de71d87b5aa857452dce31f8215d43b655 ARM: brcmstb: dts: fix NAND nodes names
-f3f77e5c0b0b69156131104d328ff7261126f657 ARM: Cygnus: dts: fix NAND nodes names
-0309f5c43c4b37cf3b2a224f13b34419f793bf68 ARM: NSP: dts: fix NAND nodes names
-23f70b5e6082bfc23fdd4bd22badf8c71043b682 ARM: dts: BCM63xx: Fix NAND nodes names
-e700a143086f733144de6c5b269f59b10b88d69e ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-f926f8b61c2691d1bd664d17f720fefef176a8aa ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-425864c89c9cccb3f8f00ae342e641862e4e449a ARM: dts: stm32: fix RCC node name on stm32f429 MCU
-5ed95127bd33e7136b11163129b6822b55b12218 arm64: dts: juno: Update SCPI nodes as per the YAML schema
-db047b057713e6fff3c852873aad69c48ab7355f arm64: dts: ls208xa: remove bus-num from dspi node
-4292d1980fec6138e0f67b3627c75b5f4eecdda6 thermal/core: Correct function name thermal_zone_device_unregister()
-e9f6c007a22ec611e8d632009b5d86b9b19206d4 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-a74ed1b09d0b7dac46c18602d4e48103ce0627ff rtc: max77686: Do not enforce (incorrect) interrupt trigger type
-c394f993f489e15a67f02006ff3d614b32550cb4 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-4988c6a433f8f4def757278b71e39906c9d2a923 scsi: libfc: Fix array index out of bound exception
-a3a1c3ebedea5a868d26cf3074cd89c3672008e3 sched/fair: Fix CFS bandwidth hrtimer expiry type
-6e6b858bbad1cde653963764d44fa21cc0e7321a net: ipv6: fix return value of ip6_skb_dst_mtu
-e61056f04707b95aecfa9a663cc6ccaf473f176e netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
-3bcaf03f6ad7b35057f7df99c7f2e59d5c000080 net: bridge: sync fdb to new unicast-filtering ports
-86294337fb9245918952bd350638d1b77138b84d net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
-7b1692f58d340f5039299904a35073ccc48aabb8 net: moxa: fix UAF in moxart_mac_probe
-83f99124e42cfe568087d74febaab647085bb09e net: qcom/emac: fix UAF in emac_remove
-68b08b9d47cc40fa07d57763215fec78ce5ec03f net: ti: fix UAF in tlan_remove_one
-14b836307105ac3b318d6ad4df84be363373927f net: send SYNACK packet with accepted fwmark
-481c7ab4ec464f0c1b3fd2dc69cce1709bb928e8 net: validate lwtstate->data before returning from skb_tunnel_info()
-690b662f192976352b1b56244204f3854c4a1ce5 dma-buf/sync_file: Don't leak fences on merge failure
+4c405232e022818469fc2d8f54fe68d39cd36688 ARM: dts: gemini: add device_type on pci
+5890d1033aef741f1e11c653d82130b02c7479ef ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
+f9f9e88ca8e28826d85a79453b3b9416d0687069 arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
+d6193644c167fa49821ea20d462de006af2cb815 ARM: dts: rockchip: Fix the timer clocks order
+7ce276233ff0ec5d9a220c12ad48e0b6d6eaff98 ARM: dts: rockchip: Fix power-controller node names for rk3288
+bea118c9bb36ec8dc9993d74096d6f748a0a80ab arm64: dts: rockchip: Fix power-controller node names for rk3328
+f2e79b3504a392a67732eba1070f6cde34db0cb1 reset: ti-syscon: fix to_ti_syscon_reset_data macro
+d330e4f5f0c17b59ba502f6fbc517da5d24f3e11 ARM: brcmstb: dts: fix NAND nodes names
+1ce8e3d2ed95af61917d1ce5048048e8de8f41b3 ARM: Cygnus: dts: fix NAND nodes names
+f68083486363e218f366677a060fad8b25fa91a0 ARM: NSP: dts: fix NAND nodes names
+41237f81197a244324dfaca19836d842561115fb ARM: dts: BCM63xx: Fix NAND nodes names
+70777f423bbc521043a1e2dcf7a841f3c712a1de ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+a0157f80e87b535140671603b5e380e3af5ed055 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+d602e93b90cb1d0b518c38667883d6c4db4d0907 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
+5cbd9379c3d9f77dfc738ab4b848c96ce579dbe1 arm64: dts: juno: Update SCPI nodes as per the YAML schema
+396b541644f3d520c7aada970037642de1b788c9 arm64: dts: ls208xa: remove bus-num from dspi node
+c06c1e7e789c9fcdb65e735ddaa8a4df45a7adb9 thermal/core: Correct function name thermal_zone_device_unregister()
+31ccaafcd08498facea3ef8141fdd88ebb0d864f kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+e3a8af15754279f8ec6eae6240342e95dfaa1d23 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
+ae8c49a9f67a0b85bbe4db6e8be6a1d17e00535b scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+f05b84ea32a95b9eaf2b24928d5645a998b98406 scsi: libfc: Fix array index out of bound exception
+c23f8f44404e2da9fa3734c849febb24ccbd8862 sched/fair: Fix CFS bandwidth hrtimer expiry type
+ee51ed5531161a27170763b2237e1e7e3b8e6608 net: ipv6: fix return value of ip6_skb_dst_mtu
+3b3b53226c7133ddc4f6bbb07dbbba05a9a73498 netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
+632a42b56ccdacf14e9b2f6840554be711e5bf76 net: bridge: sync fdb to new unicast-filtering ports
+8b21de660ee052027c689ce903f74a8589c27b10 net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+b7812020277f16695aaa7ea19d5c29500a145dac net: moxa: fix UAF in moxart_mac_probe
+1a02c5499fbdd1fc26ae6f567d00ea5d37f27fd1 net: qcom/emac: fix UAF in emac_remove
+faca3753068df90a35e552803e4759a9cdb98653 net: ti: fix UAF in tlan_remove_one
+f8c13a3d9101b57a41ab0fc3d8a7d6413eb30996 net: send SYNACK packet with accepted fwmark
+9725696892b8d38f28b39450a8e5880d925d5c15 net: validate lwtstate->data before returning from skb_tunnel_info()
+0301f54a9759ddcdc358883c2a66314d35eb1f57 dma-buf/sync_file: Don't leak fences on merge failure
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e59562167312-bc4d36b53eaf.txt
+Content-Disposition: attachment; filename=revlist-bc4d36b53eaf-ac53323b1f8f.txt
 
-abbb67058e71eb1b50d4b8e7dd92db82f5261e75 ARM: dts: gemini: rename mdio to the right name
-6ccca3dc16a54feeba05eef4fa1eaf5d4bdc0ebb ARM: dts: gemini: add device_type on pci
-ba85574c85f22312cf27234820b1f3c699eaa3aa ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-83d0f3a3f6ec27566d1de6086df4d6739d784dff arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
-5c266cca02a8a1b561c647a6c4db1fc03f75a202 ARM: dts: rockchip: Fix the timer clocks order
-cc4c5f88fbfc3c3b1900e2c90f6a075eaa5caba8 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
-79b4213018decf36cf3142b3fa83823e320d1d23 ARM: dts: rockchip: Fix power-controller node names for rk3288
-5afc94d5ce4f3d979be4f59e9afe5b797272972b arm64: dts: rockchip: Fix power-controller node names for rk3328
-80897f67c86898b198130b1724faab2be4ab6772 reset: ti-syscon: fix to_ti_syscon_reset_data macro
-4c858dcd8e4ac22f3b7b991fa4717e3d057486de ARM: brcmstb: dts: fix NAND nodes names
-e95308d5d5e8a16d6fc0e539f753ee751059f2c3 ARM: Cygnus: dts: fix NAND nodes names
-d80f36cd96229d81e2e8c13e84863a91817c43b1 ARM: NSP: dts: fix NAND nodes names
-f992c4de20308551e62b42cda84fe9850a28592f ARM: dts: BCM63xx: Fix NAND nodes names
-86a264a4afa54bfd977bf2efba15f51f565ca6d4 ARM: dts: Hurricane 2: Fix NAND nodes names
-6479dae6756abc19c59453df94e0914cfad4568c ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-5ff4dec979348faa272153404557b9859298242e ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-76cc3bbfd76f066ca19c5a7e2a203a4bc6b32a96 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
-f1269608dd645af755f968dbe6d45644564d3f4b ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
-a1d254f21ada3431c52ce1d72acf11e8ddf2b55a ARM: dts: stm32: fix RCC node name on stm32f429 MCU
-b8bf97be696987ad479d412df195e646641399ec ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
-a8f8f64a0ed48464c82adfc72620609080d20b0a arm64: dts: juno: Update SCPI nodes as per the YAML schema
-1c12e2e5313eb3a493fcf0f402e9abf70b8a350f ARM: dts: rockchip: fix supply properties in io-domains nodes
-6527cbe4c813f8f163831d08df92a5506a4852f1 ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
-9f361e9f9dbdb6b895994b1acdb4fac45fce9e0f ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
-c3ee7a1d8cbbdb1d384288ecd59694e67e1dc92b soc/tegra: fuse: Fix Tegra234-only builds
-d74c42e615f6d328fcea4ccade221b6d742ef0cc arm64: dts: ls208xa: remove bus-num from dspi node
-7c8e225509373554001a1aaadedc6ea8ca95ced2 thermal/core: Correct function name thermal_zone_device_unregister()
-d277fd429465407840d8dc257a9db501e0579406 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-a9209c4b820dd6f72e246d685d45c6f69138e67d rtc: max77686: Do not enforce (incorrect) interrupt trigger type
-160228611ca9513cae8ca52087b9e7f9aa8a7e68 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-77cf2384c557249b142042778404f4d70730b696 scsi: libsas: Add LUN number check in .slave_alloc callback
-6451e0fe80fbbe7b0a1728ea02647ba0345f4e76 scsi: libfc: Fix array index out of bound exception
-aac4d29b0778cf6e1cd7d0e77c7bb649f16caf18 sched/fair: Fix CFS bandwidth hrtimer expiry type
-a1e66e1b6a52f89d5d3ed39175a60df4b97a546c mm: slab: fix kmem_cache_create failed when sysfs node not destroyed
-2b94d462fea7041730b7da23b8b4497a0cc8151e dm writecache: return the exact table values that were set
-4a0d9e1d4cc9a18cc5bde953609ecc2e67dc6f97 dm writecache: fix writing beyond end of underlying device when shrinking
-62c481241fd476b666dcf46523ada54932e62cb9 net: dsa: mv88e6xxx: enable .rmu_disable() on Topaz
-88429a717401d47d61fa9a1bdca3f708d9925515 net: ipv6: fix return value of ip6_skb_dst_mtu
-2e18431fc34addb4172145c98d00618bc3402f16 netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
-962c91aaaf0ece07cf1bcab75f1b4cb21064dd79 net: bridge: sync fdb to new unicast-filtering ports
-ce23662af504a76784fb18ad72df90176bae926d net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
-9b57dff7c9e331995c2152cb015e5d798e938a5b net: moxa: fix UAF in moxart_mac_probe
-24428736c7004c4cf6c436623e806878c2f72e43 net: qcom/emac: fix UAF in emac_remove
-ba17539fcb2b8e91d7374e09d634fe8efe36585f net: ti: fix UAF in tlan_remove_one
-8baf69447a276ce62b2edccd9fc64ec99848143f net: send SYNACK packet with accepted fwmark
-9bd35dfb7047dec1b9f2c9038967ee059cfdb84e net: validate lwtstate->data before returning from skb_tunnel_info()
-bc4d36b53eaf05da82661b1c573326828467ede2 dma-buf/sync_file: Don't leak fences on merge failure
+4d51aa2491a95d515ed0a27f1ed5f9e18f4afbb7 ARM: dts: gemini: rename mdio to the right name
+c9619d8a6824fa820f779ba11ffec66d24a6ddb3 ARM: dts: gemini: add device_type on pci
+78be9445aeed8951b3b0b435aaa61ff10e3e0ef3 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
+31a734edac228160f3c48d05b80933f81c62767c arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
+274c5172096519020c3a1da071197c785b5f702f ARM: dts: rockchip: Fix the timer clocks order
+074e50875a9af68dafd25ee332ce6f9bcab552b6 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
+bd4a18bb247df59811d9c5d5c5e2b4de1d7c2a5f ARM: dts: rockchip: Fix power-controller node names for rk3288
+5789297d57c21607899f758f074f2724645d8f0d arm64: dts: rockchip: Fix power-controller node names for rk3328
+258486a29239be15bc19ba4680ab5d7379c2c524 reset: ti-syscon: fix to_ti_syscon_reset_data macro
+958d6751fec03fe67b4334628caa2643fa81f152 ARM: brcmstb: dts: fix NAND nodes names
+7fb2cb8502b3452208f693b5aec8ede24273e4d6 ARM: Cygnus: dts: fix NAND nodes names
+5ee916b100151720306361e6b167f344773c193a ARM: NSP: dts: fix NAND nodes names
+325a81fa937467c41a47783779073e8416e04a37 ARM: dts: BCM63xx: Fix NAND nodes names
+b8e45940b3603bd1cd9910f1e7c18e3b7d39c8cc ARM: dts: Hurricane 2: Fix NAND nodes names
+9b54aa40d6ee89d1a9574e141a2e9683ccf9fd5c ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+310a8214459d5cef4bb0e4d44720acba3c79ec73 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+12b653fcfa559725891413cfa39e41a6be423b76 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
+3237724e8888846ca99e9128ab7028576d564d1c ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
+2c133b06d5e3113fb6cc39bf89b61377745eb471 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
+c6feec263343f7a8339547432ad5c68dcfa5a484 ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
+f0cc0d47d3f9f934eb38c89ae06d9fff80c9649d arm64: dts: juno: Update SCPI nodes as per the YAML schema
+8504fd3508448329c19e74f50c72a3f297d763c3 ARM: dts: rockchip: fix supply properties in io-domains nodes
+9966bc8b4752764adea98c9d78ef3da5ea3dd07e ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
+388912008769df2dbb5160b58789263f9de8245d ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
+6229ba918fc27104bd276d00bd958b254cbc4069 soc/tegra: fuse: Fix Tegra234-only builds
+3374bcb11c962f55568648bfd6df744d447fbf85 arm64: dts: ls208xa: remove bus-num from dspi node
+275b12a1108bb1860d3e13b6b51652d82583469a thermal/core: Correct function name thermal_zone_device_unregister()
+492cf4002ce7de398233ad5b60100c130b18bbdf kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+72cf52ac3c9f9940457f1b111fb381bac30b1c5a rtc: max77686: Do not enforce (incorrect) interrupt trigger type
+06cb10e78c96397d24639bc93b79a1b391b981f5 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+28815a3d2bf1b22a1be06420976e37a3edd0479f scsi: libsas: Add LUN number check in .slave_alloc callback
+0e27088c92155045fc52954f26221835eddc2660 scsi: libfc: Fix array index out of bound exception
+6973590cf959e387211c7c9819334ed9c2685e80 sched/fair: Fix CFS bandwidth hrtimer expiry type
+96c404f82ed63f8f4d66ee11f01f2c723a7b1f48 mm: slab: fix kmem_cache_create failed when sysfs node not destroyed
+34bace357c0614aae49bd85c0988dff5f52f959e dm writecache: return the exact table values that were set
+d535e0e4abe0cbdc004ca5d022c87324197569bd dm writecache: fix writing beyond end of underlying device when shrinking
+bd54a4cb9900444ffb48053a9f15ac230a0b2d19 net: dsa: mv88e6xxx: enable .rmu_disable() on Topaz
+4b972ee6a4c4dd90391467082bbf89be68818e71 net: ipv6: fix return value of ip6_skb_dst_mtu
+320bbbecfb1cb688255bc836effd8c4af95484bb netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
+55b86e90f415ffa4e8ba527bd1db3f51893fed87 net: bridge: sync fdb to new unicast-filtering ports
+b488db92091d495fa943befb087e10271ae193ac net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+6e809c41aa22fde8ce93f7ab0349330778a26760 net: moxa: fix UAF in moxart_mac_probe
+a6f1e33dd25cc1b0acc998bfda58fdd59635df81 net: qcom/emac: fix UAF in emac_remove
+546486e482c0f8ed8822deaae6c3d3edece96316 net: ti: fix UAF in tlan_remove_one
+2568c482dd02b6885be9e8904ae516ef31bdd34c net: send SYNACK packet with accepted fwmark
+2748c0af11117787cce18e830fc4a1602930e07d net: validate lwtstate->data before returning from skb_tunnel_info()
+ac53323b1f8f4110b91648c12193b5858243bdd4 dma-buf/sync_file: Don't leak fences on merge failure
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25d7adb31a70-93366fac518f.txt
+Content-Disposition: attachment; filename=revlist-93366fac518f-fb9ce6014670.txt
 
-6eaee3069525447d34306f7ab35c0b8d3537095b ARM: brcmstb: dts: fix NAND nodes names
-6359ccb79564605c01b28faf2fa3dae9e7669f66 ARM: dts: BCM63xx: Fix NAND nodes names
-bd1f277dd186a340921c361f0b84923e10990904 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-513bb57eefbf3f64f60cbc38213ab883e876d33b ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-14255173c10f162e37824f7503f090293e9d585b thermal/core: Correct function name thermal_zone_device_unregister()
-d90bc30de2b4954613a9a5a17f8c7170eb39e101 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-d3cf0305424a78f7f22a30ee6dca40aff4123295 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-12bd9c8d25facd71cf38d67162647d07fbe0eb99 sched/fair: Fix CFS bandwidth hrtimer expiry type
-cf334e7ec92474f3038697bd8562327ded01f18c Revert "memory: fsl_ifc: fix leak of IO mapping on probe failure"
-f54627d38fe19379d95b009bc117d38ec0970588 x86/fpu: Make init_fpstate correct with optimized XSAVE
-8ecaef64f218cf64c142e3560503a223e7a987a2 net: ipv6: fix return value of ip6_skb_dst_mtu
-0902d80ffa62f513fb26700006cceaeefbbc6cbc net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
-cbbdfb3a64dc803ebaf834144503cf9da90e2696 net: moxa: fix UAF in moxart_mac_probe
-edafaf2e77db96e38d352a99cbb744f2f74cfe4b net: ti: fix UAF in tlan_remove_one
-93366fac518f37b6833aa717279d1bea8a8d9811 net: validate lwtstate->data before returning from skb_tunnel_info()
+5c0d0aac01690c0c860399af7b17d683b14654e3 ARM: brcmstb: dts: fix NAND nodes names
+571b970d8096448a598f352b27256bac664dd1e1 ARM: dts: BCM63xx: Fix NAND nodes names
+912b43077c77267c60f50b7d15c3ea45393d0115 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+5774f10c83b8c7152245aaba336ed34fff3e82d0 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+6ecfe26634480026a484b84a1e9460dfd36a995b thermal/core: Correct function name thermal_zone_device_unregister()
+ec59ef9f1e91a1b526799b0d70d98ef650d56e8d kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+a1a2947281bba3bf1f064115d2694c456e1c2321 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+a7e2cb7cfb226e153be7a6c0a168be6a2e077801 sched/fair: Fix CFS bandwidth hrtimer expiry type
+83f37d77a2a8cbf04f8fabffa0d28da2e131754e Revert "memory: fsl_ifc: fix leak of IO mapping on probe failure"
+fc20849217c9a37c00bd7f744238fd138fb3f6bb x86/fpu: Make init_fpstate correct with optimized XSAVE
+68c1d588f679ee63db1bf07aa1454be6629328f4 net: ipv6: fix return value of ip6_skb_dst_mtu
+840ec59d30d62becca3a47a0a460e01311c700e8 net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+9ca8b47b8a46569c8b21e6a62be9870cbcfa70fd net: moxa: fix UAF in moxart_mac_probe
+e842ea05b879a8512cc97bbe60fd7690e4b4059c net: ti: fix UAF in tlan_remove_one
+fb9ce6014670790d66c14e1932967ad7c69282dc net: validate lwtstate->data before returning from skb_tunnel_info()
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-474c99107922-cdca11772e58.txt
+Content-Disposition: attachment; filename=revlist-cdca11772e58-cc388abe0958.txt
 
-7c4c8710f2fe25711494902c0ef09eae4ff6ed39 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-3b25d2b4fda6ac7eaa77c179a681b3788228b1a5 ARM: dts: rockchip: Fix power-controller node names for rk3288
-ac8d0a7683318345b6b82c14e1c847356c3e00ae reset: ti-syscon: fix to_ti_syscon_reset_data macro
-93a67370dc22e78bbc3fef00d92035eb6da95fe6 ARM: brcmstb: dts: fix NAND nodes names
-e7d72da9c3fee5e17822bdcc908f31c471a8a6c3 ARM: dts: BCM63xx: Fix NAND nodes names
-267d660c26a60083f7adfc8325c0c3df4cc8d389 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-7eb5cdc584e36fad29929e73a9b77cd0af4e6182 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-abea5d739ae7b67e46b6ba2bb5dbe61ae53575ea ARM: dts: stm32: fix RCC node name on stm32f429 MCU
-3ded687b5eb6fe125d9bf7105d8dfff32937f446 arm64: dts: juno: Update SCPI nodes as per the YAML schema
-a0ebed101830b8c7ab4471e82ba83b9398b82883 thermal/core: Correct function name thermal_zone_device_unregister()
-2ce9ee953d77eb1cfcddb2267a52f85be9e2ffd2 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-d31588a027c436d10f8cd466d0d5a6b64205a59d rtc: max77686: Do not enforce (incorrect) interrupt trigger type
-6341344505fa33966b455e6d9f006514f820dc30 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-f5ec8d494b14f1a1e23ee5eeaeaa0f2cbe39711c sched/fair: Fix CFS bandwidth hrtimer expiry type
-57bd0f300b8215f6f4c64617dd464bbe31cb227f net: ipv6: fix return value of ip6_skb_dst_mtu
-77e8bdb14193f9870848e96655940e3136a1d476 net: bridge: sync fdb to new unicast-filtering ports
-580b3ff37f6f95afa584d6ea655f7806caef28ca net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
-c3189034344f89638b8b5dc59f4365a794633de0 net: moxa: fix UAF in moxart_mac_probe
-9cfe28a9cda267b7126871564bc976eff0c08f01 net: qcom/emac: fix UAF in emac_remove
-ff05d5757ab9f0ef0112710cf5fa3068c965d5f8 net: ti: fix UAF in tlan_remove_one
-cdca11772e58704037eecc9e8a44f4037155cb9f net: validate lwtstate->data before returning from skb_tunnel_info()
+1c31e12e0fda58e4826079b4b51e8be407d25032 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
+7b610ed4c98b7f73641161bbfad94e95ac12b6d9 ARM: dts: rockchip: Fix power-controller node names for rk3288
+331774f3580ccbea25d7f945c4f63a85bc48cf1f reset: ti-syscon: fix to_ti_syscon_reset_data macro
+2b5c13574af792757efef02acd23722410018488 ARM: brcmstb: dts: fix NAND nodes names
+1fa597309f2b0c3ff77da5a61fdabe4d413b9548 ARM: dts: BCM63xx: Fix NAND nodes names
+d8e47f6c9b083df4cd012c4a001da69bbd82adb4 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+65190afd66fe65b239bf4c296bc7bb9195eb1228 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+244b9d5add287d9b18e3b45298c728231eafa5c4 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
+540dbdbf8310b4c79078030fbc4247e773e8bd57 arm64: dts: juno: Update SCPI nodes as per the YAML schema
+bbf2eadde29585895c9039a463582486c9eaf3e0 thermal/core: Correct function name thermal_zone_device_unregister()
+a1b2814187b69fa477a438de90cd6a5ee2ec79e0 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+a0eb28d3949364095724290bce8e8206e8dc8a86 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
+43bb98756b9218f3f183a80164842f02ccb4d302 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+60814a80450681b1df38ff695c91f3fb54337f86 sched/fair: Fix CFS bandwidth hrtimer expiry type
+26306a348a4bc0e6777caeadf5c7e8de5097dd36 net: ipv6: fix return value of ip6_skb_dst_mtu
+309a0ee18c5d0971b139a7f14ada82e894e3676f net: bridge: sync fdb to new unicast-filtering ports
+1b698018b050adf521bbb0cc1e44f2918f74431d net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+1e263f3e233a2f6cae1a9a34730595d75346a315 net: moxa: fix UAF in moxart_mac_probe
+fbf0712a7d75363a9c8bd40595aa79e365d3f4c1 net: qcom/emac: fix UAF in emac_remove
+5263fd1ef5ce1987734faea9b5491b08933f9f18 net: ti: fix UAF in tlan_remove_one
+cc388abe09583dc6b098eb178f91a53ab28bb2dd net: validate lwtstate->data before returning from skb_tunnel_info()
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6213bacea7ab-26db9df2a8e6.txt
+Content-Disposition: attachment; filename=revlist-26db9df2a8e6-a0005483be1d.txt
 
-1b6e6fb01956967e32dd7ac94cce19993d05eecf ARM: dts: gemini: rename mdio to the right name
-3fc67606834f8177fb780a706e001d6e14d8ac46 ARM: dts: gemini: add device_type on pci
-b8516e79040cf0d108517f88a06b4f6cd08ddb4d ARM: dts: rockchip: Fix thermal sensor cells o rk322x
-e2849bc9bfb6cc11b21a6b549e796a8d78c37749 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-1aa5bf1508b84724c425acd1c47882f020c886ee arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
-9d59175637fbdd8a0b448034bff433efd69df1a4 ARM: dts: rockchip: Fix the timer clocks order
-429aa59b0de33ace31dc2adaa948c2d8faa5ee69 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
-5a8795ff5a7ead6907cf9ab9e9daf44a146542dd ARM: dts: rockchip: Fix power-controller node names for rk3066a
-29188cd2a3a5113a4404bbcaf1bc66887ff60966 ARM: dts: rockchip: Fix power-controller node names for rk3188
-34a7641d4f824bce1c2cff8670671e911eefd11c ARM: dts: rockchip: Fix power-controller node names for rk3288
-2181faf6fc92b081a5c2f1a01ac85f498ee8b68b arm64: dts: rockchip: Fix power-controller node names for px30
-c29c4ebc6261f70f4bd41dbc127d15b7202fe089 arm64: dts: rockchip: Fix power-controller node names for rk3328
-3bc991c9e33bb90d39f63577a5aa73c0421014f9 arm64: dts: rockchip: Fix power-controller node names for rk3399
-03a7774b011f7318486d8ab2f0979812480e324c reset: ti-syscon: fix to_ti_syscon_reset_data macro
-15f8e4bded4aa8839cc68490679911078a30acd5 ARM: brcmstb: dts: fix NAND nodes names
-58d47148ac31734a456cf6cd525d8f9783041003 ARM: Cygnus: dts: fix NAND nodes names
-365939b1e434287852881ed42b53afd09ddb9e38 ARM: NSP: dts: fix NAND nodes names
-8633b3ae89a56018da2ea1f64f0acf3e591a040d ARM: dts: BCM63xx: Fix NAND nodes names
-9c0494b3734bc3328980cec4152b222c89ef33c7 ARM: dts: Hurricane 2: Fix NAND nodes names
-a94b1ec312185272b87ca4b1054f12eee186569c ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-8c4351ef48f4a74cb1a3fab6e2bcf31cfb312753 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-6daaf190b59870a66bdcfe67dd780e1245d821e4 arm64: dts: rockchip: fix regulator-gpio states array
-bce96d19ef7b0a5398f5a14b8934ae2d91067d63 ARM: dts: ux500: Fix interrupt cells
-b5589c74159fce46b87fb5d9849ac2af0425afd1 ARM: dts: ux500: Rename gpio-controller node
-f5a7c02cec01f6ecbdd9901f3da88dc0918eb1d0 ARM: dts: ux500: Fix orientation of accelerometer
-32415232b96de68320a047fd2a26f200551fce0e ARM: dts: imx6dl-riotboard: configure PHY clock and set proper EEE value
-f6c27e942e7610bb981b53570f5036e502ab5767 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
-54f29e109c5a68766a8cc4f42c1230bfaaf4e143 arm64: dts: renesas: beacon: Fix USB extal reference
-ee0aaffbf4b39f9a72e00cdb94ef64783226c5e3 arm64: dts: renesas: beacon: Fix USB ref clock references
-8ddff3a51cecb8cf7866a35cd5a3bac42dd53056 kbuild: sink stdout from cmd for silent build
-498c51e4f800493b3f8281bbe5caafaf46e9350e ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
-3d1c743fc2d4f8c10c237d2e88d5ad63461f7ebb ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
-81bf90fda5826a89e5271ebe9e9cdacb6f5c74d9 ARM: dts: am335x: fix ti,no-reset-on-init flag for gpios
-de0df025d4e4769e43c8878f7377ae4c7da59e65 ARM: dts: OMAP2+: Replace underscores in sub-mailbox node names
-81adce07395787ea9c8ed34a90ce1374f129a85f arm64: dts: ti: k3-am654x/j721e/j7200-common-proc-board: Fix MCU_RGMII1_TXC direction
-c411764eb127cbf95d66c89789a721aa00b2ab41 ARM: tegra: wm8903: Fix polarity of headphones-detection GPIO in device-trees
-2ac9b13dc74f136212384b772c5bccd4a3b09dcc ARM: tegra: nexus7: Correct 3v3 regulator GPIO of PM269 variant
-f87978d1b08202e1f2458f3c92b29dee89d296d3 arm64: dts: qcom: msm8996: Make CPUCC actually probe (and work)
-6ae6c7ee68dc9bd360bf2461fec057b508b76738 arm64: dts: qcom: sc7180: Move rmtfs memory region
-0dc8f471b6c6a383b72f0ea58020b1cbf3eb46fa ARM: dts: stm32: Remove extra size-cells on dhcom-pdk2
-4e7391a7ee38dbcd3553cbe69cda06ad62a80eab ARM: dts: stm32: Fix touchscreen node on dhcom-pdk2
-0bda92c8ebec73e431af6d21844bccd3cb8473df ARM: dts: stm32: fix stm32mp157c-odyssey card detect pin
-cf8d17863c82da4cbef7c0a5204db5894e675abe ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
-43f84b7518d46011138720820d618e4b6150ff89 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
-3f2777adc19f0e70c5d88850dd39d27d062b03ce ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
-1f0aa27eeef3a0e4ef7de2a6dbb20d9fdb3b93a7 memory: tegra: Fix compilation warnings on 64bit platforms
-37dbab484f1d460257bcd92b3dd9521b3bd9afb4 firmware: arm_scmi: Add SMCCC discovery dependency in Kconfig
-266ecda17f62cdab3d8e720ecf941d28fbb3abf6 firmware: arm_scmi: Fix the build when CONFIG_MAILBOX is not selected
-2ca64d99757152e7be83d3670f4b93c5f7e5de78 ARM: dts: bcm283x: Fix up MMC node names
-deb9bb1b47adb25ee0742e385b0fbb85e4d00f85 ARM: dts: bcm283x: Fix up GPIO LED node names
-bed37b8c3caa3677de5d4a4f2e8421099a63c177 arm64: dts: juno: Update SCPI nodes as per the YAML schema
-189f2769ca5e2b97ab5fce2686ac274eb92aa253 ARM: dts: rockchip: fix supply properties in io-domains nodes
-4eee8d82e24ea9df4ab260241b5b63560b75635b ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
-b116bb669512495863b2e26393470a1497225abd ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
-0178d262c2ce7f5c7c9cdabf3c4f1edd003708c6 ARM: dts: stm32: fix the Odyssey SoM eMMC VQMMC supply
-1f4dea6ecd05ed4a6fc172c3ea04bdaff011ece6 ARM: dts: stm32: Drop unused linux,wakeup from touchscreen node on DHCOM SoM
-1f12bb4186f0a844a10a1448b4dedb2524651574 ARM: dts: stm32: Rename spi-flash/mx66l51235l@N to flash@N on DHCOM SoM
-316cb87a54af0d5e81cb22e584b7440b9fbe8982 ARM: dts: stm32: fix stpmic node for stm32mp1 boards
-af65cc339f154c3783044c961c4e084a4b0178f0 ARM: OMAP2+: Block suspend for am3 and am4 if PM is not configured
-336dcee0604f1992ddf43d1d67992898d40ceac7 soc/tegra: fuse: Fix Tegra234-only builds
-fa078763d3c07c07c9de8c401033326a4bcc7649 firmware: tegra: bpmp: Fix Tegra234-only builds
-37b3ddfa5a2d8cf0c121692aa3780e1d8c1e1541 arm64: dts: ls208xa: remove bus-num from dspi node
-87cdf71372239db343d3b5719fa4fdc54c6f4f5d arm64: dts: imx8mq: assign PCIe clocks
-a5bc31792cd75b7977e53607dc52430ec372d138 thermal/core: Correct function name thermal_zone_device_unregister()
-e0245bafa8b04bb3fee08debc358d13921c38f53 thermal/drivers/rcar_gen3_thermal: Do not shadow rcar_gen3_ths_tj_1
-c943a23567bd0e3473f3c1dac9434ab605224f40 thermal/drivers/imx_sc: Add missing of_node_put for loop iteration
-5a251ea2d93f9b11fcb3a601c5755c39fcfe2ed0 thermal/drivers/sprd: Add missing of_node_put for loop iteration
-2ae5b585ffaf7aa448d5139ee620ce119e64f483 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-8c03434edf6912b0b0d5bb90644d77a043de2f7a arch/arm64/boot/dts/marvell: fix NAND partitioning scheme
-0c3a2bacdf82a9b04bbe349d5cd2c6e76172e495 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
-c566b3a2035d953ca2676f59ad94a75d6125b958 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-39ad76f323553c4366ec905fe887fe62f7cb539a scsi: libsas: Add LUN number check in .slave_alloc callback
-06d47a8f39528e62b1fd92157d99b61f6df682d3 scsi: libfc: Fix array index out of bound exception
-81a8efdeae05825f56835ac6d8441504f380c8bf scsi: qedf: Add check to synchronize abort and flush
-f5c4ee8c6b518ef9a3779cce068213c47194a21c sched/fair: Fix CFS bandwidth hrtimer expiry type
-491dec9e905976343b2ab3efa1dc238834bd23d7 perf/x86/intel/uncore: Clean up error handling path of iio mapping
-9b2d2d26a9d6eaf9523c2c7d70eef491ad5a2e95 thermal/core/thermal_of: Stop zone device before unregistering it
-42d9840cfdeaeb44e31f669e1204c559807a7887 s390/traps: do not test MONITOR CALL without CONFIG_BUG
-49afd077f97d6b58411f7cc481ddfa67469da076 s390: introduce proper type handling call_on_stack() macro
-d35811c72e6aa12a5c4750db275e356723bbf56a cifs: prevent NULL deref in cifs_compose_mount_options()
-de88611564d71b2f8a5cf4d1dc67526fbed38d17 firmware: turris-mox-rwtm: add marvell,armada-3700-rwtm-firmware compatible string
-51489ebfcf713e505f833a5d52e4aee03bf3eb82 arm64: dts: marvell: armada-37xx: move firmware node to generic dtsi file
-1faaffa8710c316cb838bf60705edb11300e636f Revert "swap: fix do_swap_page() race with swapoff"
-5f792dd741d3f548fa02671e43c576d88273cd3a f2fs: Show casefolding support only when supported
-c1167134b5b1fc7d83628a0243622427fbdb5c7a mm/thp: simplify copying of huge zero page pmd when fork
-8395eb0a89fe0cd73c5d7ff84245a98976074ce3 mm/userfaultfd: fix uffd-wp special cases for fork()
-7d8fb00f1c04af400b7b6f1d6eb0ae93fd29e976 mm/page_alloc: fix memory map initialization for descending nodes
-762b73ca90295d27b96ecf71bb7ac81430c56092 usb: cdns3: Enable TDL_CHK only for OUT ep
-26db9df2a8e695e580aa46bb73df11e74cf7e2eb Revert "mm/shmem: fix shmem_swapin() race with swapoff"
+a4586d980f1f311baac1eb75d9296dc4626cc4e2 ARM: dts: gemini: rename mdio to the right name
+2deda6b27f0fe90f2fd91ca7c6ad616941d5fe08 ARM: dts: gemini: add device_type on pci
+9fe117860b662d835790023d3edeedafb2996377 ARM: dts: rockchip: Fix thermal sensor cells o rk322x
+10387e7713ca172ab324bd8474820f43a0a0c7ce ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
+04a1d66438e8d6862b409884fb60c8007c309fe7 arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
+f741c91b5fe3f4ac8702e27f233acd9aebd0966a ARM: dts: rockchip: Fix the timer clocks order
+5a54689eba6e87637da8c6717d594e5781d21f2e ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
+bd5b32c3c8bc9891883c42e3937b426a2f07bdf0 ARM: dts: rockchip: Fix power-controller node names for rk3066a
+54814c3aaf1d28a309f04f4775bb478b23b09f0d ARM: dts: rockchip: Fix power-controller node names for rk3188
+8cbac07122774bdb1e4c1dd53c3d0ef6ed445008 ARM: dts: rockchip: Fix power-controller node names for rk3288
+e9ffba089e961101ef5a1a762b9cbc2922a1b035 arm64: dts: rockchip: Fix power-controller node names for px30
+2839477ffc307977e96dc8a00f44d75fa2b8cd62 arm64: dts: rockchip: Fix power-controller node names for rk3328
+0405b1a7347e1c00db20a2a67d0b9dfd0c30c20f arm64: dts: rockchip: Fix power-controller node names for rk3399
+a68f08fdfe459e585c9ab2bf0c366439a40a6bde reset: ti-syscon: fix to_ti_syscon_reset_data macro
+de1aefa0fd0407d595d0bd3973930618b404a048 ARM: brcmstb: dts: fix NAND nodes names
+12e83e6a58ab012fca8da538ed501adfda5c9729 ARM: Cygnus: dts: fix NAND nodes names
+82a6c6f97baa651cc3ab861a1e13c0bee88a3c20 ARM: NSP: dts: fix NAND nodes names
+9db131c3103c08bd6f5c46be5522cd36ffb50a9c ARM: dts: BCM63xx: Fix NAND nodes names
+1090f315c0010b1c4f0cda8aa0fa411e353aba3a ARM: dts: Hurricane 2: Fix NAND nodes names
+ee77c923edb300f483342da0116232777108dd35 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+e22a37570f4ffb7ec5fd8159aac91b28c5f6349f ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+b04c61f3a974fd8263e7613d1243fba20f81e3f8 arm64: dts: rockchip: fix regulator-gpio states array
+2c8bcb967f56e213f6018e393d4b3cecd083fa8c ARM: dts: ux500: Fix interrupt cells
+df09d2a0d1461c29d4881cece432e1b501f08b94 ARM: dts: ux500: Rename gpio-controller node
+00edb4d671def5fcfa9397fcf5da128c9536eda2 ARM: dts: ux500: Fix orientation of accelerometer
+703e9bc9869ac99aafd4c5299f237e3b20be3f24 ARM: dts: imx6dl-riotboard: configure PHY clock and set proper EEE value
+9d0c700a946089b9fe4913a6eb50c9ac2e2fd1d9 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
+d34a45e72f5085ab5b4b9b83c2011be9d48fc8d7 arm64: dts: renesas: beacon: Fix USB extal reference
+cb7a44a1f18c6f5c29c0ebfb5377a334f24f0c4b arm64: dts: renesas: beacon: Fix USB ref clock references
+a9f2764afe5752e23231d22292d837c15dc9bdbd kbuild: sink stdout from cmd for silent build
+8d5a5ad7199ca4dccc830de1545564c38f5826e0 ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
+d39506325a9209041c2427338d73d595af6c18f0 ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
+23b07fa663b389eb8865f7930434a33d392f4d78 ARM: dts: am335x: fix ti,no-reset-on-init flag for gpios
+c6241c4ac2d41a99ebc1c0c0f41d6d0b54e3340e ARM: dts: OMAP2+: Replace underscores in sub-mailbox node names
+2b4ea4a709f9b1e801458493821136b9370f9e05 arm64: dts: ti: k3-am654x/j721e/j7200-common-proc-board: Fix MCU_RGMII1_TXC direction
+96577f436df9ca9e5ba8c227e644ac43d67704aa ARM: tegra: wm8903: Fix polarity of headphones-detection GPIO in device-trees
+75881d9be528e213891321436f736774604f6f7b ARM: tegra: nexus7: Correct 3v3 regulator GPIO of PM269 variant
+57f0cd42811d5707bc08c63c350f0bc287f14371 arm64: dts: qcom: msm8996: Make CPUCC actually probe (and work)
+dd8795e74ed59abed5e580d7d093368bc3795a85 arm64: dts: qcom: sc7180: Move rmtfs memory region
+2a056a82aa7615768b857b2e5b2f388de09b7d13 ARM: dts: stm32: Remove extra size-cells on dhcom-pdk2
+a06b961e3e8992c788d42db4723b325ef3f691cc ARM: dts: stm32: Fix touchscreen node on dhcom-pdk2
+f6feedda41ae3cb6cdb67aa806c03d46cf534669 ARM: dts: stm32: fix stm32mp157c-odyssey card detect pin
+e59011cbdd84a5f16cf838d78eb7036ff17b612a ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
+c58db7849bb7ed9b70af7a990ddf671180263f1a ARM: dts: stm32: fix RCC node name on stm32f429 MCU
+6d43432933d4dc04ebbc436b9afbfbebfb28b469 ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
+4f1838246021fb59c0d7953d71163efe7d1eb1ff memory: tegra: Fix compilation warnings on 64bit platforms
+b032ba87191f371f717605a1cefc41d7d9427091 firmware: arm_scmi: Add SMCCC discovery dependency in Kconfig
+3bb5f68842dc50a08a7cec0fb9976f1bdfa77cea firmware: arm_scmi: Fix the build when CONFIG_MAILBOX is not selected
+01a24896cbc4b0bf32de01c7ed2bde7bbd56bf65 ARM: dts: bcm283x: Fix up MMC node names
+01282525d6aab18538d012e3ac55a13b023d6b98 ARM: dts: bcm283x: Fix up GPIO LED node names
+002a315ba0ee12321b4af9daf09b56b9c2d9aa6d arm64: dts: juno: Update SCPI nodes as per the YAML schema
+c003d6607258f124687744447d3159363c97bac8 ARM: dts: rockchip: fix supply properties in io-domains nodes
+47975355992338c6d5f0fc857efa094a96d63599 ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
+8e7777435e714c9b9928a197278e4a2f9c9e4d3e ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
+8695b56cfcdb2fb823fe53843276f814b80197c9 ARM: dts: stm32: fix the Odyssey SoM eMMC VQMMC supply
+d12da1cc344336253e70752b93ab963bbbf2ee49 ARM: dts: stm32: Drop unused linux,wakeup from touchscreen node on DHCOM SoM
+5320951eedc7b38d8dadcd73fe61ce1f49645af3 ARM: dts: stm32: Rename spi-flash/mx66l51235l@N to flash@N on DHCOM SoM
+78b2810a83909c2fc77ab8a284bba2f3de15b8fb ARM: dts: stm32: fix stpmic node for stm32mp1 boards
+2021bc2516205950709becde8e33c23c728c6950 ARM: OMAP2+: Block suspend for am3 and am4 if PM is not configured
+b546ad5306f6d23835e744cc4f1eb7ae3abff420 soc/tegra: fuse: Fix Tegra234-only builds
+4d18c4e490aa8ecd81615087d8522edfb1bd567e firmware: tegra: bpmp: Fix Tegra234-only builds
+fa039693e39b19e5ce567e3056f3bbd537921be4 arm64: dts: ls208xa: remove bus-num from dspi node
+680c5efef6fa7e41d613d1eabf84a154b2fd8f8b arm64: dts: imx8mq: assign PCIe clocks
+ca4a8d938f2966c0b5ae0ff25e4f50ad95f51a59 thermal/core: Correct function name thermal_zone_device_unregister()
+f639c4a0f2aec10a82ed60c9561ba7a6bd6d8dc6 thermal/drivers/rcar_gen3_thermal: Do not shadow rcar_gen3_ths_tj_1
+e5bf1547f5ed1fe312cdf7246e7beba090829bf6 thermal/drivers/imx_sc: Add missing of_node_put for loop iteration
+c13efa47d1c9abf41c0105acaaf823feeb37ee9c thermal/drivers/sprd: Add missing of_node_put for loop iteration
+92538dd6acad840873c046c6f8ae9ce3643ff1eb kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+253f74019cb88a1833d97d4c01acbce8a4bba04b arch/arm64/boot/dts/marvell: fix NAND partitioning scheme
+ddf156ffdb7b13b49a80b24bf9c8978a2d426ee4 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
+0d9a56e63a82a17ca1c519fd21c50581b47d600f scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+99632b871a5084366a02eaf9fd90d961d8b4231d scsi: libsas: Add LUN number check in .slave_alloc callback
+6958fd1ee2f0f52276912a5e2c5beecdbd811c0f scsi: libfc: Fix array index out of bound exception
+defb5d9c6f11f4feeb72679ba7112e7b69bfa868 scsi: qedf: Add check to synchronize abort and flush
+1ffdfe28028e23f02c29a8ff053629a1fbe5f6fd sched/fair: Fix CFS bandwidth hrtimer expiry type
+11fd0577d14e7339980764fb679836570d45f498 perf/x86/intel/uncore: Clean up error handling path of iio mapping
+a4fc5f02edf857302720a1ef6bca4a397740d632 thermal/core/thermal_of: Stop zone device before unregistering it
+1f4753e745fa7c4a33843f1f07bf93ae0a4a4147 s390/traps: do not test MONITOR CALL without CONFIG_BUG
+0f3c51df383082fa9398279e8295e7093503a00f s390: introduce proper type handling call_on_stack() macro
+fa38c0efcf3fdbfe889449383a9801fc42285271 cifs: prevent NULL deref in cifs_compose_mount_options()
+d34cd187186a177d7f3bf92417e2c5c9e5a0bc11 firmware: turris-mox-rwtm: add marvell,armada-3700-rwtm-firmware compatible string
+c7deb678e54460ebd22c2d1e111971b27898ff4c arm64: dts: marvell: armada-37xx: move firmware node to generic dtsi file
+3a8905ae447f75af69049e6f29b6a6d9f05f66d6 Revert "swap: fix do_swap_page() race with swapoff"
+c192f40fe0cd395527a74ef07eea35002ebdd14b f2fs: Show casefolding support only when supported
+f54152b6fee597ddfa97a82ea398df2d5b84766d mm/thp: simplify copying of huge zero page pmd when fork
+6355b17673c346de865137004e4a11dd04008723 mm/userfaultfd: fix uffd-wp special cases for fork()
+f3b6da8eb3fe16722fac36d45b1b589ea71d27bf mm/page_alloc: fix memory map initialization for descending nodes
+5a41b6cdc59fe710cd7faca2f37f0a8d3a36ad0f usb: cdns3: Enable TDL_CHK only for OUT ep
+fb9e94b4e7a209417dbfec3a77889539069e8d36 net: bcmgenet: ensure EXT_ENERGY_DET_MASK is clear
+a38eadceed8aad1966984113dc5a8f71c0d634ee net: dsa: mv88e6xxx: enable .port_set_policy() on Topaz
+76a1b602ff33c8019af4355c01255131ca3940f2 net: dsa: mv88e6xxx: use correct .stats_set_histogram() on Topaz
+9e50e6e130febe68c0c8d3d6ac8ecb2bd842e1d0 net: dsa: mv88e6xxx: enable .rmu_disable() on Topaz
+3937373ddc7f714332c96392bb97f9c11b239ac3 net: dsa: mv88e6xxx: enable devlink ATU hash param for Topaz
+eb3ed6200b86f96d45a37b221320aa9511b32245 net: ipv6: fix return value of ip6_skb_dst_mtu
+8ec74f08df9679b521612c7711378d8739c7bc00 netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
+c5378a84c95f0ae9cadfd0efa9ac591fc0d4610d net/sched: act_ct: fix err check for nf_conntrack_confirm
+59ca888daf92dc864f019ce471688196093e3af3 vmxnet3: fix cksum offload issues for tunnels with non-default udp ports
+6b674fd55961ca4cb180c53e9f4e3fee73937ed9 net/sched: act_ct: remove and free nf_table callbacks
+b3596fa0b1a16a1ba76b033bcf3aeecbb07ae35d net: bridge: sync fdb to new unicast-filtering ports
+d1ec94ef4362b46a61433c19be30f8de0acfe794 net: netdevsim: use xso.real_dev instead of xso.dev in callback functions of struct xfrmdev_ops
+e18e1b785b26b01d3ad6f402bb9e9ed06bc00b37 net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+3d151eac18e504fbbda3e7c5daab41a2e0955f7f net: ip_tunnel: fix mtu calculation for ETHER tunnel devices
+fb2083e6448409ce29a2a4728a6aa23ddab74919 net: moxa: fix UAF in moxart_mac_probe
+1a578a07441c82c28e38817590544be2c5fa1159 net: qcom/emac: fix UAF in emac_remove
+65ca8acdef90d1f3253a42210fdd7c1f42d0b4ff net: ti: fix UAF in tlan_remove_one
+34b00e5d84ffb713a6020b1b3131f4d84a4cc745 net: send SYNACK packet with accepted fwmark
+10316f21763e06c15cc1336e0ebd99446469098b net: validate lwtstate->data before returning from skb_tunnel_info()
+24cb1517f3f898a03581bfd66b0def6afd795146 Revert "mm/shmem: fix shmem_swapin() race with swapoff"
+0254944d5cfb8087747e914bc82dd7975287e404 net: dsa: properly check for the bridge_leave methods in dsa_switch_bridge_leave()
+4472e775578bc15ce35270ec20b922908254e84a net: fddi: fix UAF in fza_probe
+a0005483be1d6287fe38bf6a58b69ead9d695ec9 dma-buf/sync_file: Don't leak fences on merge failure
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3575e440ffb1-ffce4fe62b16.txt
+Content-Disposition: attachment; filename=revlist-ffce4fe62b16-c2d08ef4453e.txt
 
-3101085da42f7de0c0f2b91daa57a0f3356d92d5 ARM: dts: gemini: rename mdio to the right name
-a5bdd423c0e3d475518eb80bb5249fb6190ae65b ARM: dts: gemini: add device_type on pci
-1a39d57c5d47d592d90d98fd2ab41f818527b03e ARM: dts: rockchip: Fix thermal sensor cells o rk322x
-b64b602334019592192eb414d4f12785f309c16a ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-69f9b48a2b1afca6fdd0ac47f6dc15579206d132 arm64: dts: rockchip: Use only supported PCIe link speed on rk3399
-dcfe8b65aa0a9101909c20de9bd6891d63db234d arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
-0077072f0af55c2544f96bdd3ff425a2b7208bda ARM: dts: rockchip: Fix the timer clocks order
-71e3e1025b9f99926bd81d0d5344d33065046271 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
-8467536f27cf4c08438d647113de82ee75d6d1f9 ARM: dts: rockchip: Fix power-controller node names for rk3066a
-482aa5481d7e786a0b7a9294e4d40f12787324ce ARM: dts: rockchip: Fix power-controller node names for rk3188
-0913eeb1bbdb1d96dca69c288957833937d66383 ARM: dts: rockchip: Fix power-controller node names for rk3288
-04f93cc2c92a83cfcae9a8157d4345bc8ccb7143 arm64: dts: rockchip: Fix power-controller node names for px30
-d6371dac12db2ff74211a506c0f43a946ff98675 arm64: dts: rockchip: Fix power-controller node names for rk3328
-1a0975fe7b00959c21d92fafa9789578baacb98a arm64: dts: rockchip: Fix power-controller node names for rk3399
-276e2ae7c41edc00f6fbb352f9d2e55ba791d4f3 reset: ti-syscon: fix to_ti_syscon_reset_data macro
-258398da6468140d3e3a9c51f43cd1867817c377 ARM: dts: BCM5301X: Fix NAND nodes names
-d7df315c5bb0ffb87e9030e9a9ece8ba6d1d7b3b ARM: brcmstb: dts: fix NAND nodes names
-b35be8ac5fd6956d8ad2cdd8f3f7d4e7f9b81672 ARM: Cygnus: dts: fix NAND nodes names
-c06b2cdc254605fc96ff89a21abc17a40aa110eb ARM: NSP: dts: fix NAND nodes names
-0c1da7398c24efdc5ede905549624af3edd9887d ARM: dts: BCM63xx: Fix NAND nodes names
-723689e8354d5c8a3ab3dee12cf50c036eac4a7a ARM: dts: Hurricane 2: Fix NAND nodes names
-25902b7d0ab6684c1ecce59525df4cdb6bc534c6 ARM: dts: BCM5301X: Fix pinmux subnodes names
-fad800576188a583ffb510a64e82f5dfa30a10e6 soc: bcm: brcmstb: remove unused variable 'brcmstb_machine_match'
-71078e61e5a4b351361622af40396d060a69848c soc: mediatek: add missing MODULE_DEVICE_TABLE
-aff539493d3cf397f81dae8ba0603bc340baf7cb ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-48b7cc598c0692b9674e4d46b992072e656cd0c3 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-15e42bbbd74ec0e7b1085fe599ed28cea8108321 arm64: dts: rockchip: fix regulator-gpio states array
-3c63c2490bca0ced4033c900e4770f9df6a17a8f ARM: dts: ux500: Fix interrupt cells
-de921543c1dcf91fb304b86731676e4c0ac5ff4d ARM: dts: ux500: Rename gpio-controller node
-19ae759d3e25a5a79e33966ecb3f32d71d5619fa ARM: dts: ux500: Fix orientation of accelerometer
-cc6f90e526f4402bdb45ef8824a3cd03624bd731 ARM: dts: ux500: Fix some compatible strings
-2fa505740f6bcbafce9992cc5c4a3f27e21e9570 ARM: dts: imx6dl-riotboard: configure PHY clock and set proper EEE value
-bd163552dc0100c4537a3731c1c131bcadc9d630 ARM: dts: ux500: Fix orientation of Janice accelerometer
-4a9cc2518384c60fa8b73bb293a7dc0515a78e10 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
-845228bbb54e25d1dc367586a25a0b2303ba8264 arm64: dts: renesas: beacon: Fix USB extal reference
-807ecaa927de904a8477ab22dd2627b667086026 arm64: dts: renesas: beacon: Fix USB ref clock references
-a3120b75ff39d82a8eab75a47b3a8402f2490abb kbuild: sink stdout from cmd for silent build
-e4da0a4fd1bc67b01ea274786c6789af2eac620d ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
-e04b74655ab3a060a4461640c51c64db54e8d628 ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
-8d338c535a1dc0b34349955f22455185bed89f80 ARM: dts: am335x: fix ti,no-reset-on-init flag for gpios
-5cec6c60da6ed7800b51bc26d180ad3074fbe4c3 ARM: dts: OMAP2+: Replace underscores in sub-mailbox node names
-ad631c5b4d94a76c7c21b4daf2bb79cb28e9f8f8 arm64: tegra: Add PMU node for Tegra194
-bcc7de8f9938505fa0f34d58832cc6616654b437 arm64: dts: ti: k3-am654x/j721e/j7200-common-proc-board: Fix MCU_RGMII1_TXC direction
-f92898a80ec36cfe138fd9971a755392b4eb65ee ARM: tegra: wm8903: Fix polarity of headphones-detection GPIO in device-trees
-3c1ac6ccae62a7b2d58582f35d73da9a4a40448c ARM: tegra: nexus7: Correct 3v3 regulator GPIO of PM269 variant
-e728055b95317ab5c76abcfffc40b134b99ab4ad arm64: dts: qcom: sm8350: fix the node unit addresses
-f5008409910f1d0e95bbac3bca00471d166d4e18 arm64: dts: qcom: msm8996: Make CPUCC actually probe (and work)
-5cfeea8a835b9b9361f526d81d45a42ca6d2e59e arm64: dts: qcom: sm8250: fix display nodes
-c267a0ce1464c739c5b8f29215c876cd2fcad26e arm64: dts: qcom: sc7180: Move rmtfs memory region
-bb00ec85932db3bf6aa02c65199aff68834e4309 ARM: dts: stm32: Remove extra size-cells on dhcom-pdk2
-37e7cfa09cfb245f1672b9f15ae197b3fb081c01 ARM: dts: stm32: Fix touchscreen node on dhcom-pdk2
-5ff70a5a2d1dc5d11f508987e67a50b5ab64ee9e ARM: dts: stm32: fix stm32mp157c-odyssey card detect pin
-ed7280218ab4f57be440e1a880e33da1dbed835c ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
-26344a8d3dcb6de1a4eee7e4d82914518daa5b5c ARM: dts: stm32: fix RCC node name on stm32f429 MCU
-9985ed7222e5a1702421ea7aa07ee045648947de ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
-71f341d60bc530b1dd1258fdb50c6301041e13ca memory: tegra: Fix compilation warnings on 64bit platforms
-abe12f199c1f0ef407aad7293fc5f3bd8f40d3b6 firmware: arm_scmi: Add SMCCC discovery dependency in Kconfig
-64b8a2e075614dd8a6b59143a1243d441c57163e firmware: arm_scmi: Fix the build when CONFIG_MAILBOX is not selected
-35733009ef1e2d5f123eff7ee512e256cab19ce2 ARM: dts: aspeed: Everest: Fix cable card PCA chips
-3c28623320a3c489ae11609c879398f9123a1814 ARM: dts: bcm283x: Fix up MMC node names
-31adef681c70415f281311ae9371bed7f3a16ac2 ARM: dts: bcm283x: Fix up GPIO LED node names
-51cde147d88b38412a1a68ddaeb14890743c85e3 i3c: master: svc: drop free_irq of devm_request_irq allocated irq
-9f3438935d151d2903596146de18eeff4c7b8dbd arm64: dts: juno: Update SCPI nodes as per the YAML schema
-634aee054b70e1f98f7c6b22d9d7a452c310318e ARM: dts: rockchip: fix supply properties in io-domains nodes
-5095b2cec9ac04d820b296b7aa2582e714a92c91 ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
-fb34074c2f8c4ec5dbb446c6d2c8e4fd32a061d1 ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
-19319ca214174392eb7857a0dedb680a8c089535 ARM: dts: stm32: fix ltdc pinctrl on microdev2.0-of7
-c3eb15f4d9aa8c9bb888df52988bf6abe7ccc5d9 ARM: dts: stm32: fix the Odyssey SoM eMMC VQMMC supply
-4e5b4af849fdcc3716b34fa6c9904460fb05a942 ARM: dts: stm32: Drop unused linux,wakeup from touchscreen node on DHCOM SoM
-fd6f645349a99c676e824968712e7a31898d8e2d ARM: dts: stm32: Rename eth@N to ethernet@N on DHCOM SoM
-d8735f49748fdd369c9946300a0bee26e2b778f3 ARM: dts: stm32: Rename spi-flash/mx66l51235l@N to flash@N on DHCOM SoM
-9961d3511300ada4b2fe0603d447772c38e9b769 ARM: dts: stm32: fix stpmic node for stm32mp1 boards
-49f4b6c8c265249336d61e0e09103f8a820e8e22 arm64: dts: qcom: sc7180: Add wakeup delay for adau codec
-c5f4f9b719a0c8b31468750b325f0e1a61d39625 ARM: OMAP2+: Block suspend for am3 and am4 if PM is not configured
-6c75f6c0d9cb7f649b5a80a408d2f09edf6a42ac soc/tegra: fuse: Fix Tegra234-only builds
-a0da4c045e7a45450d155f51e598f3300679fbc0 firmware: tegra: bpmp: Fix Tegra234-only builds
-7f5ea6b3957346f6d9db67aa43929fd7dfa6e152 arm64: dts: rockchip: Update RK3399 PCI host bridge window to 32-bit address memory
-30219336433972cc0456d62ece8e459a9974b46f arm64: dts: ls208xa: remove bus-num from dspi node
-da597dcedca578213c96b71185237d98c753cc75 arm64: dts: imx8mn-beacon-som: Assign PMIC clock
-ef0a25dd82e88ffcf3938c975b876fb64ceb98f1 arm64: dts: imx8mq: assign PCIe clocks
-d79b1fa7f75e89cab28be2ea48d2e0ee2ef8a39e arm64: dts: imx8: conn: fix enet clock setting
-d6a92e2fc8886bd9e33083e82b6e9ed308fc50a1 thermal/core: Correct function name thermal_zone_device_unregister()
-f6d17ee7bfdcb56eb83a456be177c6806de4d6ab thermal/drivers/rcar_gen3_thermal: Do not shadow rcar_gen3_ths_tj_1
-417d4ad909bab90cae990ac8f934fc0aa51b3ee8 thermal/drivers/imx_sc: Add missing of_node_put for loop iteration
-de7d953d9731b0c14eaff10491bcb6b7c11d4f0f thermal/drivers/sprd: Add missing of_node_put for loop iteration
-e796cc2f8893d5414b9c2a4c4b7d4c41ec84b666 arm64: dts: qcom: sm8250: Fix pcie2_lane unit address
-c3efc2b27b69cd38365ddbaf21b252a704d1e5d6 arm64: dts: qcom: sm8150: Disable Adreno and modem by default
-d6ae5ba7ddf1fc5d79994f7469f9e6bcc3a86a5e kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-868cf386a9acc607cb8499de73930acd7d6f17b9 arch/arm64/boot/dts/marvell: fix NAND partitioning scheme
-e1854b6ebf850fcb21ece16370be8763e9ac1455 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
-4f28aeb1ee8c4fb3e490f64ef160f0689db5aa18 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-9fdae61e60de099241f9169a2737a9ff4780766c scsi: libsas: Add LUN number check in .slave_alloc callback
-b2a509bb5508c276b917b2cabc99f17842697277 scsi: libfc: Fix array index out of bound exception
-c4c05b384243ea4ca91c53e03d516d652fff1990 scsi: qedf: Add check to synchronize abort and flush
-78373bc127c1b47deaab9333b40c55ab7d7bcfd1 sched/fair: Fix CFS bandwidth hrtimer expiry type
-442c03019caad2695e32f012688b9c35ae2eea30 perf/x86/intel/uncore: Clean up error handling path of iio mapping
-e4b5f49f500679ff91d9690006974c1d43e78af0 thermal/core/thermal_of: Stop zone device before unregistering it
-99f64501d20d85d5d0ceba0608264b156d521bcb s390/traps: do not test MONITOR CALL without CONFIG_BUG
-9665ed08166315964a602f53064b5220a4ccccae s390: introduce proper type handling call_on_stack() macro
-a8667f420e1282a0fb2377799e835976fe9081b2 cifs: prevent NULL deref in cifs_compose_mount_options()
-21c3f1b7619ce93ed3994e57feb42e25d4980d43 firmware: turris-mox-rwtm: add marvell,armada-3700-rwtm-firmware compatible string
-ddcbfaeac5d38e29b06eff0cd9febb83440770c3 arm64: dts: marvell: armada-37xx: move firmware node to generic dtsi file
-be6947dc12d6df758611cbb7fd5ee29170e4ab2a Revert "swap: fix do_swap_page() race with swapoff"
-c5cb15dca33d5d43ba4d972f6196bbff930a3323 Revert "mm/shmem: fix shmem_swapin() race with swapoff"
-1a1876b5e2a9ed43e8959110e1f86de442486227 mm/thp: simplify copying of huge zero page pmd when fork
-342ca40950b3aac4e4935a19f66e03079881ce7b mm/userfaultfd: fix uffd-wp special cases for fork()
-ffce4fe62b1619703072c79fc28b1c7d6bba3118 f2fs: Show casefolding support only when supported
+4a91288c40ba5851622dc870e1765d7e221e611e ARM: dts: gemini: rename mdio to the right name
+7c8068bf87b0e11ceb7b9075e2f18bde6188a19f ARM: dts: gemini: add device_type on pci
+a02a4e6b54bc36348371544e93b1cf37e58ce3df ARM: dts: rockchip: Fix thermal sensor cells o rk322x
+ed8b91260d21c4302462f8e5a24fbbbaa2488167 ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
+e7042b22d49ee127f1108328be4877ddcad81de1 arm64: dts: rockchip: Use only supported PCIe link speed on rk3399
+c2de5932adcec7028f96d4a093dc70daab074348 arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
+a84242bfab44484f37fb4cd1410b90f573b379e8 ARM: dts: rockchip: Fix the timer clocks order
+dcd1125b8f55a2a627bc4fab3d573de5e7e215a0 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
+384e19c74be70fc0897ff136cc4c047a4143deae ARM: dts: rockchip: Fix power-controller node names for rk3066a
+d07d5c081057ce4130f4ef8e4769be117eb617fe ARM: dts: rockchip: Fix power-controller node names for rk3188
+7496217465115ff1998a0202c61b44025bf07097 ARM: dts: rockchip: Fix power-controller node names for rk3288
+7bd6b39f07e64f7259920017dbe921596879f91b arm64: dts: rockchip: Fix power-controller node names for px30
+dac73340f825383b565589d133bb69b0105c574a arm64: dts: rockchip: Fix power-controller node names for rk3328
+2ed5b56add56509ebf7356701a4d5da1b396506c arm64: dts: rockchip: Fix power-controller node names for rk3399
+ba8e8cc6d4a452e111fa4de0406849b6dedf8e89 reset: ti-syscon: fix to_ti_syscon_reset_data macro
+963e7f7961f840a409676c0bcfebe2fa58f238f5 ARM: dts: BCM5301X: Fix NAND nodes names
+6a293310312a55831f62aceb8ea47035b92d4573 ARM: brcmstb: dts: fix NAND nodes names
+0bb91097e54bffb9900282161a1512e4bb87901b ARM: Cygnus: dts: fix NAND nodes names
+c4163ed2d9aa2979b4ffd37fb04b068621a04e6a ARM: NSP: dts: fix NAND nodes names
+0ea65261264e678758c1d798725a4c421316207e ARM: dts: BCM63xx: Fix NAND nodes names
+8e24aa9cff1aa27039e742329dfd78d8de0c585b ARM: dts: Hurricane 2: Fix NAND nodes names
+77821e75eed7a75ccac12f81f912c0a4f5ed032d ARM: dts: BCM5301X: Fix pinmux subnodes names
+07ed8c237e33b4e7e030c42f863937d6bc0e0c79 soc: bcm: brcmstb: remove unused variable 'brcmstb_machine_match'
+5a02bfe8b2b845f40f301b9973f7ccaa12111e37 soc: mediatek: add missing MODULE_DEVICE_TABLE
+33a824316e772f9add40ef8cef8ad5218855bf35 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+8188499ee6f78433aa876f71d13f28cc2ddfaee8 ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+632e74cd7579b5f56930acd97bd806b8bcb2c14a arm64: dts: rockchip: fix regulator-gpio states array
+046d0c45792df6c21a846684199ccd4de223c24f ARM: dts: ux500: Fix interrupt cells
+fcae2de7997e94e183985ec37c7db0828c4de2c7 ARM: dts: ux500: Rename gpio-controller node
+fa61838d32db344a464244273d2d59f4578329eb ARM: dts: ux500: Fix orientation of accelerometer
+222e634e55499cbad8e3b4e8391c2f2f3c9e0cfc ARM: dts: ux500: Fix some compatible strings
+300854559ec17730fb21a855b865f0f902d44708 ARM: dts: imx6dl-riotboard: configure PHY clock and set proper EEE value
+7c722ecd7eff379cd2883d474187e05a9c92f4e6 ARM: dts: ux500: Fix orientation of Janice accelerometer
+316697618759496db1558ea6c735ffb251541f8a rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
+8db75b754e51c4ed69fbd3b46a1107259cc0cb7d arm64: dts: renesas: beacon: Fix USB extal reference
+67c5e294a364a7b1a651770442db43b765699f47 arm64: dts: renesas: beacon: Fix USB ref clock references
+1411d6a25d12b057ece0de7790e92b7d2996c585 kbuild: sink stdout from cmd for silent build
+af4282feea2c68ec77cfff7359cd2b35d363e47a ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
+d2adeac133ed354c542b4fbc9b623f653bfb859c ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
+a21a4d4b5c4007a1fcc2002b3740698c48d3ea18 ARM: dts: am335x: fix ti,no-reset-on-init flag for gpios
+adef51c1d34482170cd441f9b388970e98babeaa ARM: dts: OMAP2+: Replace underscores in sub-mailbox node names
+311d8b461e876d9b1932b724d208a72797bcb2dc arm64: tegra: Add PMU node for Tegra194
+4027b8e442b971ff643a6bd5a0f6dccf76af8ab9 arm64: dts: ti: k3-am654x/j721e/j7200-common-proc-board: Fix MCU_RGMII1_TXC direction
+b168b09b1abcb6bf9d3a5005708e598c864e2f28 ARM: tegra: wm8903: Fix polarity of headphones-detection GPIO in device-trees
+8a02eb078f9d6525ce75088f6fc536438039488e ARM: tegra: nexus7: Correct 3v3 regulator GPIO of PM269 variant
+49cac4a724c20bbbd401eeee5a7cd6e1f88ccceb arm64: dts: qcom: sm8350: fix the node unit addresses
+9cb6c8570f9cbef73df52653a945148fced464d6 arm64: dts: qcom: msm8996: Make CPUCC actually probe (and work)
+77c6adc979596e52ee02bf4cd18116d1afefcdd0 arm64: dts: qcom: sm8250: fix display nodes
+1a1c84bc5499dff34580663e6350b11ee618e0ae arm64: dts: qcom: sc7180: Move rmtfs memory region
+7fa9a685c1c07176b9ac27efef3758f7704426bd ARM: dts: stm32: Remove extra size-cells on dhcom-pdk2
+2fb9bd9c380844ba69d4fa60fe8b957dd1cc30de ARM: dts: stm32: Fix touchscreen node on dhcom-pdk2
+dd5a89b6e5472cbd8fa50135c578e86657adb763 ARM: dts: stm32: fix stm32mp157c-odyssey card detect pin
+7b08c969cb661a60b50da5f48162c0dd488011f4 ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
+41b19faf34ac3b496c6191e0da25bb5af4d2a3b5 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
+90e374eb51684e6ceb0573a746a88c0155e77955 ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
+1e65759d31e4ea4b3382de5b3a730abe6335080c memory: tegra: Fix compilation warnings on 64bit platforms
+1b49eef75ae245750426ff168a6aa416fc1bbfa5 firmware: arm_scmi: Add SMCCC discovery dependency in Kconfig
+176cdfe637a78b98d614fa15a4b87e75ff8627ff firmware: arm_scmi: Fix the build when CONFIG_MAILBOX is not selected
+872b1f6d13f20858637f11f3c9d1c29035bd9d6e ARM: dts: aspeed: Everest: Fix cable card PCA chips
+79d7b48fa2355e62ba35dfb559b3ff2ce64b09e8 ARM: dts: bcm283x: Fix up MMC node names
+e35e917ddb31a77b0b1789d2e96e76db3da240af ARM: dts: bcm283x: Fix up GPIO LED node names
+16daf7ecacf7ef6cbff7648d501681e5d814d0ac i3c: master: svc: drop free_irq of devm_request_irq allocated irq
+890ccd9ed4937daff347b27d52b0ba8a0767e48b arm64: dts: juno: Update SCPI nodes as per the YAML schema
+de34244f94f2f083bb2eb39493286d40b6211fba ARM: dts: rockchip: fix supply properties in io-domains nodes
+e8ec284a90cdfb6218226d3b6ed54dfc3c41e3cc ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
+6a2f134a98f1c7521350eae92f8e77df703d3ed1 ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
+112a8d2de27d1220dd4a4ae5559ee12f34856ea0 ARM: dts: stm32: fix ltdc pinctrl on microdev2.0-of7
+6097e77d7f1829c17fd310981a1213067e7ee395 ARM: dts: stm32: fix the Odyssey SoM eMMC VQMMC supply
+a8af3fa46578d8cc1189df98172435934da46f2b ARM: dts: stm32: Drop unused linux,wakeup from touchscreen node on DHCOM SoM
+a455365ebe1f57d15648882cab72092778847fe5 ARM: dts: stm32: Rename eth@N to ethernet@N on DHCOM SoM
+a57a97771480b3aa2d347b310a7ad45e98d2123a ARM: dts: stm32: Rename spi-flash/mx66l51235l@N to flash@N on DHCOM SoM
+65b38bbb11c07bb2e2ce3c26b6e581748b98e6a0 ARM: dts: stm32: fix stpmic node for stm32mp1 boards
+36d44c3cfe1b44138828d89301ec0efd4628da0b arm64: dts: qcom: sc7180: Add wakeup delay for adau codec
+1d818358bb78ccea84c0dbccff16a9b57702eb35 ARM: OMAP2+: Block suspend for am3 and am4 if PM is not configured
+b7a68ed28cd9461793f09a6a226b23d1b5cddf92 soc/tegra: fuse: Fix Tegra234-only builds
+d9b7a494c75e042cc4a9f4defaf8d21fdd69d071 firmware: tegra: bpmp: Fix Tegra234-only builds
+5eca4af7dcc682fef3933d071c953e9892aa91ce arm64: dts: rockchip: Update RK3399 PCI host bridge window to 32-bit address memory
+58e1cd7ad54352a92150778680cf2804f6196bea arm64: dts: ls208xa: remove bus-num from dspi node
+802c8619f4deda6df60b98bacf4460787a72b568 arm64: dts: imx8mn-beacon-som: Assign PMIC clock
+2e6d36736cd9409c262ff9cd566a799b7c22634c arm64: dts: imx8mq: assign PCIe clocks
+dec5692eab50fbc2ed1abca7ffc2415c6a3ef6cd arm64: dts: imx8: conn: fix enet clock setting
+38e559a8a35c47856435d77bd7d51d91d22afdaf thermal/core: Correct function name thermal_zone_device_unregister()
+5b980444f005cb7caedc946b4371af95cec52808 thermal/drivers/rcar_gen3_thermal: Do not shadow rcar_gen3_ths_tj_1
+5b02aae22d86bf5f7c5b5ad223a90fbd71d55f54 thermal/drivers/imx_sc: Add missing of_node_put for loop iteration
+0774067934c2d4b45aa20e5ba05c74f0f880786f thermal/drivers/sprd: Add missing of_node_put for loop iteration
+0ab73fb1d7788ab32848e84aabae53c1ad2d9c94 arm64: dts: qcom: sm8250: Fix pcie2_lane unit address
+45c5ebc3b98c7669c4d49da3d20dbaf761413134 arm64: dts: qcom: sm8150: Disable Adreno and modem by default
+f41df1711cae09ba1f3a54be2f39259ecb63dbf9 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+0689c234c319bb6904aa478736eafe821bced6b6 arch/arm64/boot/dts/marvell: fix NAND partitioning scheme
+2882023619c5f0bdb02dbe6bb701bf6261b4ee9d rtc: max77686: Do not enforce (incorrect) interrupt trigger type
+1c2dfdebdbb629ec6be096b7684d29130da4225a scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+d12aff26832089c7af4986ae50ff7ee63dfe7aef scsi: libsas: Add LUN number check in .slave_alloc callback
+f6a014e5a941c2b7e462871caa3e096687796c16 scsi: libfc: Fix array index out of bound exception
+4fc4b6f1d9b0828efa31d3245a9af274fd37619d scsi: qedf: Add check to synchronize abort and flush
+ed2d7511d287cebff587737c3e3373267b26e4cd sched/fair: Fix CFS bandwidth hrtimer expiry type
+6ea375a328d13dc810aba80dc5e74155ff26a9ef perf/x86/intel/uncore: Clean up error handling path of iio mapping
+a745fc144c1b3de8c1254efebe84e2af42c6523d thermal/core/thermal_of: Stop zone device before unregistering it
+fbf27e3adb381f110cc67f211f1616e59caf2d31 s390/traps: do not test MONITOR CALL without CONFIG_BUG
+ce410b8c61efeae29d2bb7b378a5d008c04cdf8b s390: introduce proper type handling call_on_stack() macro
+3b83f37a4a99830f27c8d2d358f2981ab59d2c23 cifs: prevent NULL deref in cifs_compose_mount_options()
+d0e3d2c523f772d8fb18a2365e21989cc69f154f firmware: turris-mox-rwtm: add marvell,armada-3700-rwtm-firmware compatible string
+58b54a40de798fa5aeef71693e64da423cde1fb2 arm64: dts: marvell: armada-37xx: move firmware node to generic dtsi file
+79316c20a5946679dc9062baaf89bc081b0a25ea Revert "swap: fix do_swap_page() race with swapoff"
+02749242f5e019d3626d43b7223d5daf3f64b846 Revert "mm/shmem: fix shmem_swapin() race with swapoff"
+a2d7e1963478657f82e9f1c48c5a305bff9cde95 mm/thp: simplify copying of huge zero page pmd when fork
+7efae22e28b927ff736a29c2287010934cf143af mm/userfaultfd: fix uffd-wp special cases for fork()
+a92772ff67457326c59c55f55c8ee247c824f153 f2fs: Show casefolding support only when supported
+266e2f2b3c52a990e2571910dddbbcd6e168bb91 net: bcmgenet: ensure EXT_ENERGY_DET_MASK is clear
+172475c22247a3a09dfbd5b1b52d76234b5e756e net: dsa: mv88e6xxx: enable .port_set_policy() on Topaz
+feaded6c371bd5653a6a07167d81f6e0378876df net: dsa: mv88e6xxx: use correct .stats_set_histogram() on Topaz
+dd469a887a2bd5402fccb4f641a5373ef88f3e1f net: dsa: mv88e6xxx: enable .rmu_disable() on Topaz
+02b51c91c44dccc1c21194b02ad17be4a189d602 net: dsa: mv88e6xxx: enable devlink ATU hash param for Topaz
+8147f9447fe99494ab975915469c6ce97d5a686c net: dsa: mv88e6xxx: enable SerDes RX stats for Topaz
+30cf0f439e146933a78f79926167b7d66831372f net: dsa: mv88e6xxx: enable SerDes PCS register dump via ethtool -d on Topaz
+de23eaaa3d819d0fb0f9a7a73591a3156bff447b net: ipv6: fix return value of ip6_skb_dst_mtu
+6128df102034ada38a6be8137f27b4b01cbac95a netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
+24a2fae7123befbe4964b007cde80faace0da907 net/sched: act_ct: fix err check for nf_conntrack_confirm
+e3f9a6ac748add4cbc6483882d1014289ccf1ceb netfilter: nf_tables: Fix dereference of null pointer flow
+1eab68ec444be635a3442b03bee27a6a9adac2c1 vmxnet3: fix cksum offload issues for tunnels with non-default udp ports
+250b0646b8ced7104e0bfd0dbb1945e6b6241a09 net/sched: act_ct: remove and free nf_table callbacks
+9f774f534b130b9290c5efca38f429ef4eb4eb8f net: bridge: sync fdb to new unicast-filtering ports
+76353b417f246a79191d914e1c15de8e0c499392 net: marvell: always set skb_shared_info in mvneta_swbm_add_rx_fragment
+849bc8712e4f3d11c3f6eaee919755d1c38c3b20 net: netdevsim: use xso.real_dev instead of xso.dev in callback functions of struct xfrmdev_ops
+e4a0ee574dc22dc8169e5f45640d138c29e4bc4c net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+10479a6ed7f3169804c64e00249a1259b802ff79 net: ip_tunnel: fix mtu calculation for ETHER tunnel devices
+21cfa6e1cf18c0c8709eeb5f21d3b0e67fa20d29 net: moxa: fix UAF in moxart_mac_probe
+dfaf4cc1281b123641e9f8e22d9117d18b02dc53 net: qcom/emac: fix UAF in emac_remove
+b8c23c77f4f3514ebd81e0309afc0abd9015bb19 net: ti: fix UAF in tlan_remove_one
+c02825b502e7f12498f3fc78558fae863bc9ae24 net: send SYNACK packet with accepted fwmark
+a178e2b104e6a04f1271f2c75e8cbd4bf7edc50d net: do not reuse skbuff allocated from skbuff_fclone_cache in the skb cache
+5b5fd4d775e0657c47b83799767ff6d385be7058 net: validate lwtstate->data before returning from skb_tunnel_info()
+0f508db68d6a7cf3247147406cb402f7b057db54 net: dsa: properly check for the bridge_leave methods in dsa_switch_bridge_leave()
+ee898dd90161ff35da565820e5ea99baa119e0c2 net: fddi: fix UAF in fza_probe
+c2d08ef4453eeb477a685454ced3f22a83334625 dma-buf/sync_file: Don't leak fences on merge failure
 
---===============1555108687189253230==
+--===============3743911268944546929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eeed5786fb6-cd61c3193ecf.txt
+Content-Disposition: attachment; filename=revlist-cd61c3193ecf-54a8545d36d7.txt
 
-813a96470ba9e1ac2c7fc842502e30ff404edbf9 ARM: dts: gemini: rename mdio to the right name
-8b4f4a64edd764a293df5801091b29316423aab0 ARM: dts: gemini: add device_type on pci
-fb4a8a6f6f6822b866d82e3ee4e39e58b83094cd ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
-b46c01c675810aa6099eb67a49cc973e72233ef2 arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
-7a21abc0ccb5a1abb1886bf4e8d3f6d45bca6cba ARM: dts: rockchip: Fix the timer clocks order
-35de3c876ff9f93cfd9f3c46eef809655b8a7409 ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
-e85a53b39301d687d1fc14c31e3c92649a85ac46 ARM: dts: rockchip: Fix power-controller node names for rk3066a
-928779463542bf5ba9068b075d5b087b533f386e ARM: dts: rockchip: Fix power-controller node names for rk3188
-7bd586ee9d88bd74492ea5a11846bdf799f8a72d ARM: dts: rockchip: Fix power-controller node names for rk3288
-38b5095b985f9c54485bb3f61287cb9df958719c arm64: dts: rockchip: Fix power-controller node names for px30
-d2ac5cb5db8fd2c3d7e515f5bc9796f338c6464f arm64: dts: rockchip: Fix power-controller node names for rk3328
-a065173739637a42517d1748e3bfb0fa04ab1bcd reset: ti-syscon: fix to_ti_syscon_reset_data macro
-65a2533304bc10149ed14044573857f4015559de ARM: brcmstb: dts: fix NAND nodes names
-d0ffc9eddb43cd948b39a3320da83ba4e1aee5a1 ARM: Cygnus: dts: fix NAND nodes names
-620c54c850b17b73d638047deee131d98d80af91 ARM: NSP: dts: fix NAND nodes names
-1a42c94502c88ac86607d88a183277d8dde28ce0 ARM: dts: BCM63xx: Fix NAND nodes names
-8435e02468894685d531bbea7fff0e5438a634fa ARM: dts: Hurricane 2: Fix NAND nodes names
-e1c5c8c16ae3572848f8dd3e84f1af9d56f61930 ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
-f2f7fdacf90762e69b06893eab8d33012353bb8c ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
-5754b0db191ef405e739c85f741a6f06e8c797a9 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
-55a2ec16a3786e2ed5711ea58039a9d71c7d73ee kbuild: sink stdout from cmd for silent build
-168089eacd5bcaf95702a515ca0662d80157139a ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
-63ba8bb8c0572abc187b46161f0877251200ea16 ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
-7f5b0b2a1ec56c7cbc6e3c7489511a72726715b4 ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
-990588647ad389232d7b2d9c394afebd8103a7a0 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
-fab178dbe262aff7bcb8267efb41b14a300bae8a ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
-5f620a0891bd06714d8191a27ad207dba0a702dc arm64: dts: juno: Update SCPI nodes as per the YAML schema
-56095c650e0f236bf6ef250e22574c0af5227834 ARM: dts: rockchip: fix supply properties in io-domains nodes
-6a2ca032c62b6b20c53677aeb29833aa614571ac ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
-41cca6262240fc68ad5be87eed2c114794a88007 ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
-180ea0d44bb87a360616e9e494ff79bd6ac606e7 soc/tegra: fuse: Fix Tegra234-only builds
-8d005a662d5ab6f2727853c1e7a7c6fe2b83f385 firmware: tegra: bpmp: Fix Tegra234-only builds
-88bb5359fcba80e6a0891fe86708e94752090ffb arm64: dts: ls208xa: remove bus-num from dspi node
-a2979f8fd5d7412167f200e19a69fff459e0ff6b arm64: dts: imx8mq: assign PCIe clocks
-b6b92ebeb2628e9896daf069e76aa51ab705799b thermal/core: Correct function name thermal_zone_device_unregister()
-a7c7946143c9df71b6bb449f172f68e3078752f7 kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
-5155e6d7c74db79c6c0c19fd8e33d17458968de2 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
-b1313ffa5f11e8d61eaad1c7b39cb5edf19e0d2e scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
-57ef277f76313e58b065d5e40e818704b67922f0 scsi: libsas: Add LUN number check in .slave_alloc callback
-b14987a322354e669f9efc0f91c6c107e71c1e4c scsi: libfc: Fix array index out of bound exception
-13fc6e8a18db747d93ef91f571eb4bd147c1b158 scsi: qedf: Add check to synchronize abort and flush
-199f045081c959c330aad51709c8a838fb1be063 sched/fair: Fix CFS bandwidth hrtimer expiry type
-dff570b40b55b192a546a2a5a058ac862ca3c68f s390: introduce proper type handling call_on_stack() macro
-6ac0dd3cc338c1f7b7f015af45740e2e380af043 cifs: prevent NULL deref in cifs_compose_mount_options()
-0e4baa876be96beeb7abf568e4d17c7bd58c18d4 arm64: dts: armada-3720-turris-mox: add firmware node
-a156b83971bcc154307652864fdb826955f5a955 firmware: turris-mox-rwtm: add marvell,armada-3700-rwtm-firmware compatible string
-f7c4d87317b6bd0152ca4958f53a8a594285cb36 arm64: dts: marvell: armada-37xx: move firmware node to generic dtsi file
-f51d21de1ed4daa8a07899bd0a1ead243f3e3264 f2fs: Show casefolding support only when supported
-f1bb6f6a8517c94a7c17180098fc19bce53955d4 usb: cdns3: Enable TDL_CHK only for OUT ep
-691f3051e1772bac8efba6e3dfd903c3df33d733 mm: slab: fix kmem_cache_create failed when sysfs node not destroyed
-cd61c3193ecf05d479348558422365919f5939f4 dm writecache: return the exact table values that were set
+42d46fece16832d4d7605cc886d52ee6d5d05ae0 ARM: dts: gemini: rename mdio to the right name
+c90c2e7d290b304b8d4d843fabbb55e26c9301b8 ARM: dts: gemini: add device_type on pci
+dec113a701318cfbabbd7e60db03bab6c807770b ARM: dts: rockchip: fix pinctrl sleep nodename for rk3036-kylin and rk3288
+5b5a5d4e9dafcd8a12dddc893243194bf2de433b arm64: dts: rockchip: fix pinctrl sleep nodename for rk3399.dtsi
+7ff2cd766fd57b3af63de2133685f80f755a8310 ARM: dts: rockchip: Fix the timer clocks order
+1d22305cf189bc3319d95679403c2b6958a7705b ARM: dts: rockchip: Fix IOMMU nodes properties on rk322x
+3c634fe92e0d3bf6dea1a4ef5ca4032f0453dcd5 ARM: dts: rockchip: Fix power-controller node names for rk3066a
+c3b47b55991c9a0b89e6e23a128e215e81900d38 ARM: dts: rockchip: Fix power-controller node names for rk3188
+1b9fa09159226b8bde78741066bd8e29751a9734 ARM: dts: rockchip: Fix power-controller node names for rk3288
+7738a674b65f6a11ef3d803b9cb4ec9cf20a77ed arm64: dts: rockchip: Fix power-controller node names for px30
+434724afcdc2a114212878d4bb1ee120cf82e31c arm64: dts: rockchip: Fix power-controller node names for rk3328
+19685c7a0ebd1ea1fef4cb416aae24e896ad1083 reset: ti-syscon: fix to_ti_syscon_reset_data macro
+59f11619324deef272ef1e0d8dd30bc94da56fc6 ARM: brcmstb: dts: fix NAND nodes names
+78e5cf46fef384875bcb57c028c460d9a78bc788 ARM: Cygnus: dts: fix NAND nodes names
+ece9519e25deff384e2e9832f8683788c1c0f99b ARM: NSP: dts: fix NAND nodes names
+d27dc546e56224e7e5e63836f562f185bf0b9fd8 ARM: dts: BCM63xx: Fix NAND nodes names
+0ab6554f56b9257e7e276ab913117013d654f058 ARM: dts: Hurricane 2: Fix NAND nodes names
+058d40a566a0a62a651f0b272e9ed55d52df7dcd ARM: dts: imx6: phyFLEX: Fix UART hardware flow control
+de0f1e9c70c346d116355f09abb518fa86ecbe8b ARM: imx: pm-imx5: Fix references to imx5_cpu_suspend_info
+9349e20377f6441596da9941f36a5ddb35e3d7a8 rtc: mxc_v2: add missing MODULE_DEVICE_TABLE
+e373a7dfc5371f9af0a2de39dca52e562b25dc20 kbuild: sink stdout from cmd for silent build
+e3c6690eeb3a09059eb046adf4e564d3f517d49b ARM: dts: am57xx-cl-som-am57x: fix ti,no-reset-on-init flag for gpios
+589e08916559d097fe2f918f9cbe851a0201c2a7 ARM: dts: am437x-gp-evm: fix ti,no-reset-on-init flag for gpios
+157113fac06bb5d82161936674aeab3b705512ea ARM: dts: stm32: fix gpio-keys node on STM32 MCU boards
+05bd48caca33e9360fb5c87eeae101f42aea6bd3 ARM: dts: stm32: fix RCC node name on stm32f429 MCU
+b1dc28071fba4ca73b68eafdaf6e807d8a5a4a30 ARM: dts: stm32: fix timer nodes on STM32 MCU to prevent warnings
+dcfbfc0d2869c5d941e447bee24cc62a1072cfff arm64: dts: juno: Update SCPI nodes as per the YAML schema
+c4af48d683f6a5e6efe2230c87f78c858c37bd82 ARM: dts: rockchip: fix supply properties in io-domains nodes
+1c3601ef1290f6dbcfc7234df05ac915c44bbef3 ARM: dts: stm32: fix i2c node name on stm32f746 to prevent warnings
+ed35daccfef481201971027fa094c60829a202ae ARM: dts: stm32: move stmmac axi config in ethernet node on stm32mp15
+429533eb77e5b2b22544fbd9b888d1528f03bd2e soc/tegra: fuse: Fix Tegra234-only builds
+d74ada6743b9e27d6ea0f2e5d6f0878dd8dcff9b firmware: tegra: bpmp: Fix Tegra234-only builds
+1e7bd3f747dd35dd82bc92015a2c403c13586763 arm64: dts: ls208xa: remove bus-num from dspi node
+e53f53a12d82ff7d4a2f4b0da8a7e61bef845d2e arm64: dts: imx8mq: assign PCIe clocks
+a22160c249860b79657f1d2b182ff6b42308a728 thermal/core: Correct function name thermal_zone_device_unregister()
+766a877b7bcef381328129e472ba5e87bfd7eb0a kbuild: mkcompile_h: consider timestamp if KBUILD_BUILD_TIMESTAMP is set
+a42a4b4cc0c443788df85208581e0f7bb4df9789 rtc: max77686: Do not enforce (incorrect) interrupt trigger type
+e8127b6168ec3656e0139b3d526c176c5ef79134 scsi: aic7xxx: Fix unintentional sign extension issue on left shift of u8
+11ae7bec7855d83e67981508e46a07fc265cb427 scsi: libsas: Add LUN number check in .slave_alloc callback
+e819c78f92a2ae8e0cdaeb8a70094219c2786f97 scsi: libfc: Fix array index out of bound exception
+bdd1b74767dd10d3f89571dc5605fded4871fe56 scsi: qedf: Add check to synchronize abort and flush
+fa9b8709e25d921132cb8cd4b1627f8b829ade62 sched/fair: Fix CFS bandwidth hrtimer expiry type
+2d352d0683ae88aa481cfe29ccfd4f76ace4f335 s390: introduce proper type handling call_on_stack() macro
+2df6fe4bc65d7f70b9f87f297185fdbd3066e258 cifs: prevent NULL deref in cifs_compose_mount_options()
+9162e2c0b3bef3e356837ff2870ab00edbe0a2a6 arm64: dts: armada-3720-turris-mox: add firmware node
+e93197b50ccb2599f36f52da4f17b3495db2698e firmware: turris-mox-rwtm: add marvell,armada-3700-rwtm-firmware compatible string
+6057bd6e038ee3b7793be0d4972c085843f319bf arm64: dts: marvell: armada-37xx: move firmware node to generic dtsi file
+82d3a602120a1d7952d5ce0270da5f733a868eea f2fs: Show casefolding support only when supported
+3e31ac8b533862ce9079fbb33cd77de9f1aa5bda usb: cdns3: Enable TDL_CHK only for OUT ep
+2ca54e1d4b28e128d49d53b695230f3d2a0f39eb mm: slab: fix kmem_cache_create failed when sysfs node not destroyed
+6d1b6326e1de5685a850b9b520cdba7f2addb5fd dm writecache: return the exact table values that were set
+1f743d65772b844dd88bf28c3912848bd6308cb7 net: dsa: mv88e6xxx: enable .port_set_policy() on Topaz
+9b5f0778d419a02425a6c538a10c4b88d3f492ae net: dsa: mv88e6xxx: enable .rmu_disable() on Topaz
+36f6dd3951569b07473053abf4c5e49030b19518 net: ipv6: fix return value of ip6_skb_dst_mtu
+b8f2b670fb8fcd885dac32281e12126ed9dd4dfd netfilter: ctnetlink: suspicious RCU usage in ctnetlink_dump_helpinfo
+22b433d867d86f81b83f06300a60760bd0228031 net/sched: act_ct: fix err check for nf_conntrack_confirm
+c9346ab8f7cdb18231ae6a914d60597f0a7b9737 net: bridge: sync fdb to new unicast-filtering ports
+dea0162a8a24e28666053f594b3fd5484fa143b4 net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
+e83c5ca7e645c6d7b949315d9e7215d54a9e593f net: ip_tunnel: fix mtu calculation for ETHER tunnel devices
+2b61414f4c080addd6a32fd9d0a3bca0a3465987 net: moxa: fix UAF in moxart_mac_probe
+fa51aadb08e8c112b16e8f183bffc43925684dae net: qcom/emac: fix UAF in emac_remove
+fa970500cc765e22323b411e99274fb52dd8b495 net: ti: fix UAF in tlan_remove_one
+e58e53910e363d6659482c080d2959e380beb420 net: send SYNACK packet with accepted fwmark
+4dd3fc7a042d359adec1922260113322432353d0 net: validate lwtstate->data before returning from skb_tunnel_info()
+e7bf4e2a66ff355a52bdcce51862541e2dce35aa net: fddi: fix UAF in fza_probe
+54a8545d36d792865bafdc0912b4586cc7026c7a dma-buf/sync_file: Don't leak fences on merge failure
 
---===============1555108687189253230==--
+--===============3743911268944546929==--
