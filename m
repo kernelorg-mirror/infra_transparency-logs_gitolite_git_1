@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7252899384789106150=="
+Content-Type: multipart/mixed; boundary="===============1721776968898510494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 22 Jul 2021 14:57:41 -0000
-Message-Id: <162696586156.20912.12967849645413871762@gitolite.kernel.org>
+Date: Thu, 22 Jul 2021 14:59:25 -0000
+Message-Id: <162696596586.21604.960282927861674761@gitolite.kernel.org>
 
---===============7252899384789106150==
+--===============1721776968898510494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: df4b0807ca1a62822342d404b863eff933d15762
+  - ref: refs/heads/fixes
+    old: 0c0f6299ba71faf610e311605e09e96331c45f28
     new: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    log: revlist-df4b0807ca1a-2734d6c1b1a0.txt
+    log: revlist-0c0f6299ba71-2734d6c1b1a0.txt
 
---===============7252899384789106150==
+--===============1721776968898510494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df4b0807ca1a-2734d6c1b1a0.txt
+Content-Disposition: attachment; filename=revlist-0c0f6299ba71-2734d6c1b1a0.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -257,7 +257,10 @@ a1739c307a072e46473a2ba239eb60e6d711c96c net: hdlc: rename 'mod_init' & 'mod_exi
 efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with mlocked ptes
 79789db03fdd77510cfb35cb4b3bd52b6c50c901 mm: Make copy_huge_page() always available
 7fef2edf7cc753b51f7ccc74993971b0a9c81eca sd: don't mess with SD_MINORS for CONFIG_DEBUG_BLOCK_EXT_DEVT
-0c0f6299ba71faf610e311605e09e96331c45f28 selftests: memory-hotplug: avoid spamming logs with dump_page(), ratio limit hot-remove error test
+ed01ad3a2fac8fff63f441ead4f8653da053c65b kunit: tool: Fix error messages for cases of no tests and wrong TAP header
+a72fa6304342a3ad749955fd9007695f761e12d6 Documentation: kunit: drop obsolete note about uml_abort for coverage
+58c965d84e14196e762c803c50c7b207a9e352bc kunit: tool: remove unnecessary "annotations" import
+df4b0807ca1a62822342d404b863eff933d15762 kunit: tool: Assert the version requirement
 422969bbb5af2f7226cf75cdb4aae02f46299dc2 scsi: core: Fix the documentation of the scsi_execute() time parameter
 fbf1a58701ecbf61211476277a77eaada6c091d4 scsi: fas216: Fix a build error
 93aa71ad7379900e61c8adff6a710a4c18c7c99b scsi: core: Fix bad pointer dereference when ehandler kthread is invalid
@@ -501,4 +504,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 8c25c4476496b7136767c4023d1c08990167eaa0 Merge tag 'perf-tools-fixes-for-v5.14-2021-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 
---===============7252899384789106150==--
+--===============1721776968898510494==--
