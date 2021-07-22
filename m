@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 22 Jul 2021 11:08:45 -0000
-Message-Id: <162695212524.24532.3742188879897145016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/i2c-tools/i2c-tools
+Date: Thu, 22 Jul 2021 11:11:05 -0000
+Message-Id: <162695226574.26753.13328857194415864368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/utils/i2c-tools/i2c-tools
+user: jdelvare
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 72b1002eba9349d187e444716cbc9751ba617354
-    new: f7fb64846ab97fc5f456f78c7a6cbc89c04be979
+  - ref: refs/heads/master
+    old: ae658a63f85a98df32a2b3a3b262f2627bfbc1d7
+    new: d8bc1f1ff4b00a6bd988aa114100ae9b787f50d8
     log: |
-         2317dd43fb056ce87f581d479597c95b01970183 habanalabs: define uAPI to export FD for DMA-BUF
-         f7fb64846ab97fc5f456f78c7a6cbc89c04be979 habanalabs: add support for dma-buf exporter
+         d8bc1f1ff4b00a6bd988aa114100ae9b787f50d8 Set version to 4.3
          
