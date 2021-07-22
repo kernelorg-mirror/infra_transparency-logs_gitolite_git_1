@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5103566523805426353=="
+Content-Type: multipart/mixed; boundary="===============7847668771487333259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 22 Jul 2021 13:05:23 -0000
-Message-Id: <162695912356.4872.14327771243335986450@gitolite.kernel.org>
+Date: Thu, 22 Jul 2021 13:08:03 -0000
+Message-Id: <162695928379.5836.17778324530862127581@gitolite.kernel.org>
 
---===============5103566523805426353==
+--===============7847668771487333259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: a3461acc0e32747f97d45abbf8f355e2700e3ab7
-    new: 7e39884995d17bb1e9beb974a4b0f6fbb0026bcc
-    log: revlist-a3461acc0e32-7e39884995d1.txt
+  - ref: refs/heads/net-next
+    old: 240767e9f2c4a5c89732a99cec4e2095ea1a2a59
+    new: 41cbc3f3d9e2b586649ab21811714f3d86ef0001
+    log: revlist-240767e9f2c4-41cbc3f3d9e2.txt
 
---===============5103566523805426353==
+--===============7847668771487333259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3461acc0e32-7e39884995d1.txt
+Content-Disposition: attachment; filename=revlist-240767e9f2c4-41cbc3f3d9e2.txt
 
 8b4b06919fd66caf49fdf4fe59f9d6312cf7956d i40e: improve locking of mac_filter_hash
 22c8fd71d3a5e6fe584ccc2c1e8760e5baefd5aa iavf: do not override the adapter state in the watchdog task
 226d528512cfac890a1619aea4301f3dd314fe60 iavf: fix locking of critical sections
-fef773fc8110d8124c73a5e6610f89e52814637d netlink: Deal with ESRCH error in nlmsg_notify()
-e93abb840a2c356ed2809c31fcedb058601ac2e4 net/tcp_fastopen: remove tcp_fastopen_ctx_lock
-edd2e9d586466fa33027541832ad50a300c74227 Revert "igc: Export LEDs"
 9632233e7de8da43711bb7cd3e054af32fedcc38 net: bridge: multicast: factor out port multicast context
 d3d065c0032bf7043401e34cec2114fc553f919e net: bridge: multicast: factor out bridge multicast context
 adc47037a7d5c8f89ca428bd840c83ab7b62730c net: bridge: multicast: use multicast contexts instead of bridge or port
@@ -153,7 +150,42 @@ f796fcd613a97f39cea2629ac39cc040158812d0 Merge branch 'bridge-port-offload'
 fdc362bff9132e2e15e75d1ac830f91d2d9dee41 net: usb: asix: ax88772: do not poll for PHY before registering it
 9c2670951ed03f8fc6c701d66f5c765929cf1f23 net: usb: asix: ax88772: add missing stop
 802a76affb09263ab6bca9a6ff4765b3a0c40137 net: selftests: add MTU test
+16416d37f0e7b274b425ad5636a10a5c85ad4ab5 nfp: flower: make the match compilation functions reusable
+4b15fb187688b74a946e44367d2f1a9a528fa320 nfp: flower: refactor match functions to take flow_rule as input
+e75dc2650770575299d98d28e25ae98c20dc8bf9 nfp: flower: refactor action offload code slightly
+71e88cfb92601a50e965389a507a71df12056b20 nfp: flower-ct: calculate required key_layers
+5a2b930416462a2ff09e507728ccfbfa7cb65ed8 nfp: flower-ct: compile match sections of flow_payload
+d94a63b480c1c3f71adf8cc2731573122b704be7 nfp: flower-ct: add actions into flow_pay for offload
+453cdc3083a61ab6d9b81c57251b2b241d56d704 nfp: flower-ct: add flow_pay to the offload table
+400a5e5f15a6a64bd4aed59af703efe748a8778a nfp: flower-ct: add offload calls to the nfp
+40c10bd9be3fec47062cd9c074d83854832fe825 nfp: flower-tc: add flow stats updates for ct
+552a2a3f3dc7909ea2aeeb349b32671bd7e68cd1 Merge branch 'nfp-flower-ct-offload'
+176f716cb72fea93d60cb378a3e02d4b630b93c2 ipv6: fix "'ioam6_if_id_max' defined but not used" warn
 91321a5e6d9b21cd64fed20b2c4b3e8b232cefba netfilter: flowtable: Make sure dst_cache is valid before using it
+ed98467c960782888484302a4dc3315cefcb7a8d net/mlx4_en: Don't allow aRFS for encapsulated packets
+10fc5ffde10240716e54823b1cddfa7bf0324e5f net/mlx5e: Prohibit inner indir TIRs in IPoIB
+87e865470b8697167323f1a76445b9f403423fc3 net/mlx5e: Block LRO if firmware asks for tunneled LRO
+199dad9e0d80650b586e6c7682c5bc1cccb1235a net/mlx5e: Disable Rx ntuple offload for uplink representor
+7d2df920615fe35f4ffe3ae680746b4c009d0d36 net/mlx5: E-Switch, Set destination vport vhca id only when merged eswitch is supported
+401bc7a5bc00e26915e352bb4a0254bcadacd2b3 net/mlx5: E-Switch, handle devcom events only for ports on the same device
+36ba9b6c8260e98c2e06c95b91ea04dde9bf50c0 net/mlx5e: RX, Avoid possible data corruption when relaxed ordering and LRO combined
+cde94d642b6f783830b032e3308ebe70078b1728 net/mlx5e: Add NETIF_F_HW_TC to hw_features when HTB offload is available
+30ecc0ac24eed1640196cf5225c72c9bc8ed5116 net/mlx5e: Consider PTP-RQ when setting RX VLAN stripping
+a31111b62b7e6da21f49e9dc4b44728fe7a2c5eb net/mlx5e: Fix page allocation failure for trap-RQ over SF
+9c6f5974f10312a585b3b62411e32842120ad57b net/mlx5e: Fix page allocation failure for ptp-RQ over SF
+f9a218028389df6931c82142cf809b1fd0c82a5c net/mlx5: Unload device upon firmware fatal error
+f3917474fae9cbbb25e5ec1360f5c361aa0b7548 net/mlx5e: Fix nullptr in mlx5e_hairpin_get_mdev()
+2899168ae821036ae8dcb22c518ad29c2a85c0d5 net/mlx5: Fix mlx5_vport_tbl_attr chain from u16 to u32
+37222a9aa90352fb1b1265e35ebee3e73063a10c Merge branch 'patchq/413212' into mlx5-for-net
+d2caf5e4a7f4149e92e2d4feb143834416991a64 Merge branch 'patchq/408884' into mlx5-for-net
+024af6a80dd90c7dfc9b5402717da55f0d764159 Merge branch 'patchq/403041' into mlx5-for-net
+b72284366cd7696f7d17940f1b8f6167a4833ea7 Merge branch 'patchq/410972' into mlx5-for-net
+6cbf9f80fc5325829dff73aff09b23c452a1485d Merge branch 'patchq/410968' into mlx5-for-net
+fa64257943c5ebe62bd8afe1f3ef25f47c3b30c1 Merge branch 'patchq/410772' into mlx5-for-net
+28515485d88ef9e8dbb18cfd11ed97b621a14632 Merge branch 'patchq/408536' into mlx5-for-net
+2d5ea427d1f1a279a8adafb801a61f28fff6e4ad Merge branch 'patchq/402629' into mlx5-for-net
+88e8603681ec43c7631af77aa2e7d35348aecd21 Merge branch 'patchq/397231' into mlx5-for-net
+4061aca5cfc6edc0ce37c4a4adb34b501d1acdbc Merge branch 'patchq/392631' into mlx5-for-net
 d576090268fc51cd6a5ad83b2cf4384179f3adb8 net/mlx5: Initialize numa node for all core devices
 4d232bbf2af79a991ff4e2118a6fc4693986fc68 lib: bitmap: Introduce node-aware alloc API
 79d0737e635b89c6266c729ab1970ff79ab391f8 net/mlx5: Node-aware allocation for the IRQ table
@@ -166,5 +198,9 @@ d9e9496dfe74cf1cc2b519654081259d26de64cd net/mlx5: Node-aware allocation for UAR
 7e241dc37fc75f84ef1f1be27f9d6889751de514 net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
 347d73da1fe6b65078ff6f664b0deb0bb0c96f6f net/mlx5: Node-aware allocation for buffer metadata
 7e39884995d17bb1e9beb974a4b0f6fbb0026bcc Merge branch 'patchq/362918' into mlx5-queue
+2366015719c028e310fccdfd6f1a58e7c0ccde1c Merge branch 'mlx5-vdpa' into net-next
+6ffa293af42ae650bcccb7c6b934671e0fe5cff6 Merge branch 'mlx5-queue' into net-next
+2a0d5457f34c1e9224e118d3f0ecb0833be2402f Merge branch 'mlx4-for-net' into net-next
+41cbc3f3d9e2b586649ab21811714f3d86ef0001 Merge branch 'mlx5-for-net' into net-next
 
---===============5103566523805426353==--
+--===============7847668771487333259==--
