@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Thu, 22 Jul 2021 09:48:46 -0000
-Message-Id: <162694732681.2909.6310352533970988153@gitolite.kernel.org>
+Date: Thu, 22 Jul 2021 10:05:17 -0000
+Message-Id: <162694831780.15488.2388596825841563091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
   - ref: refs/heads/mips-next
-    old: e98b461bb057aaea6fa766260788c08825213837
-    new: 73b9919f3c17851b4c1d90fb6c343d9c438c554c
+    old: 73b9919f3c17851b4c1d90fb6c343d9c438c554c
+    new: d656132d2a2abc06917d822f7adcda86fd6dd192
     log: |
-         faff43da31ae469ff28d71af4aa47f0c08b0b26c mips: cavium-octeon: clean up kernel-doc in cvmx-interrupt-decodes.c
-         73b9919f3c17851b4c1d90fb6c343d9c438c554c mips: netlogic: fix kernel-doc complaints in fmn-config.c
+         d17eef2767d84b7dc4e1b8029be1eacb1d8679f6 mips: replace deprecated EXTRA_CFLAGS with ccflags-y
+         d656132d2a2abc06917d822f7adcda86fd6dd192 mips: clean up kvm Makefile
          
