@@ -1,52 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4451102887357337959=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Fri, 23 Jul 2021 09:49:04 -0000
-Message-Id: <162703374458.7366.10030629549918635080@gitolite.kernel.org>
-
---===============4451102887357337959==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Fri, 23 Jul 2021 10:01:53 -0000
+Message-Id: <162703451310.15848.16053176016012294302@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/tags/mac80211-for-net-2021-07-23
+  - ref: refs/heads/imx/bindings
+    old: d7114b57685997668c4fb7a4d3829f4d6d707cc0
+    new: ffd1e072594f319b94a0ca9f8602050ef6e404fc
+    log: |
+         ffd1e072594f319b94a0ca9f8602050ef6e404fc dt-bindings: arm: fsl: Add DHCOM PicoITX and DHCOM DRC02 boards
+         
+  - ref: refs/heads/imx/dt64
+    old: 6fac89785ac8854271c2302287cca38618332b19
+    new: d5b53631e322f474ad1194243f9d572422e8e16d
+    log: |
+         c4efed6b4a443897fb047425898686f4ebce2806 arm64: dts: imx8mm-venice-gw7901: Remove unnecessary #address-cells/#size-cells
+         390955bb4fdec6c8ae5f27ae6fdbc7b878686c3a arm64: dts: imx8mq-evk: add CD pinctrl for usdhc2
+         65733a83c393d24fb4d901cd31ef5a79f26a4dfc arm64: dts: imx8mq-evk: Remove unnecessary blank lines
+         d5b53631e322f474ad1194243f9d572422e8e16d arm64: dts: imx8m: Replace deprecated fsl,usbphy DT props with phys
+         
+  - ref: refs/heads/imx/fixes
+    old: ac34de14ac30ba4484d68f8845a54b6b6c23db42
+    new: 3d9e30a52047f2d464efdfd1d561ae1f707a0286
+    log: |
+         29f6a20c21b5bdc7eb623a712bbf7b99612ee746 arm64: dts: ls1028: sl28: fix networking for variant 2
+         828db68f4ff1ab6982a36a56522b585160dc8c8e ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
+         20fb73911fec01f06592de1cdbca00b66602ebd7 ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+         3d9e30a52047f2d464efdfd1d561ae1f707a0286 ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
+         
+  - ref: refs/heads/imx/ecspi
     old: 0000000000000000000000000000000000000000
-    new: 6e5297316c70c7c91ced3131afd84509c35fb678
-
---===============4451102887357337959==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1627033706 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1627033705-c0a1b622322fb3cf5f6c8b36ff17c9a2b0e87e5c
-
-0000000000000000000000000000000000000000 6e5297316c70c7c91ced3131afd84509c35fb678 refs/tags/mac80211-for-net-2021-07-23
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmD6kGoACgkQB8qZga/f
-l8RCWQ/8DxubIKHt/Y+EhMLcYPQto/dQ0s27F7oqKRkvmc1op+DREL0/mZN6T6/6
-D3NPrrUNQiS+BW6sNXs1juyVXHcUEjUqJtGzchzup7Q/VmkwG5sdo2lHqxse600v
-DE8isuGuRIrRQOvV2TEoUD9kvT2cHaCUFaPZpr8TQ7rs20bI4cgX50tyiQfHAxwR
-DoqDJumr77/j7ads73awXi+4ZbYE5HDJwENpgFqfxtMr7nY02nnXab9vs1SG6LcX
-/4g38hYlnBAoIjGXdEsRzfCGLChC0cFCeXggD15gdiFj1nfd7kkF3v8EhlTYd90Z
-veJk/1mwDEGVCkMMa/JR/hrTyiqD9Idmya/UMMrA57Qdz9bXkIIbXEfeOVkJmRKB
-ERsSuySy+KL4ERsQ+sUhxIp0Ey+FZUnMvYN6b0qGdHXReCqSg4b7dozM8VQ+sNe7
-9XNataekWII/yYvpVCHNtMd/bWJwbyq4tSglfSYHb7rP9RmIfjXtdfjo4aO412k5
-MzJntqZV+JDhaSxb4TSwIjSZyc2Z5B5Jzz2lNFjfYdHJo4eLI3PcxJOtTXXLUBQ8
-/3LSzdoo6Z6l925pkqh3f6XHotzuMce7oiHzqMGFXxociRVBVNllZKxqnq4g2Oe1
-U3sCoeuRzTiNIgCX318j8DwfJvDosaKShnVQ55wrvNlec4Sd5Ds=
-=V41P
------END PGP SIGNATURE-----
-
---===============4451102887357337959==--
+    new: 4e2b10be1f4fe06c9deaaf2c03a05abcff191791
