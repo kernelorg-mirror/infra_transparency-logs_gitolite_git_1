@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 23 Jul 2021 15:34:31 -0000
-Message-Id: <162705447175.9865.10910018893668749201@gitolite.kernel.org>
+Date: Fri, 23 Jul 2021 15:37:11 -0000
+Message-Id: <162705463195.12166.9472923848101381335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d72e91efcae12f2f24ced984d00d60517c677857
-    new: f8dd60de194817c86bf812700980762bb5a8d9a4
+    old: f8dd60de194817c86bf812700980762bb5a8d9a4
+    new: d237a7f11719ff9320721be5818352e48071aab6
     log: |
-         f8dd60de194817c86bf812700980762bb5a8d9a4 tipc: fix implicit-connect for SYN+
+         d237a7f11719ff9320721be5818352e48071aab6 tipc: fix sleeping in tipc accept routine
          
