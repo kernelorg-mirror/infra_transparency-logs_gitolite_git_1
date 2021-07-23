@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0676582786521083547=="
+Content-Type: multipart/mixed; boundary="===============0955287423454248798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 23 Jul 2021 16:43:09 -0000
-Message-Id: <162705858972.22990.10346966155122425581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 Jul 2021 16:43:16 -0000
+Message-Id: <162705859623.23129.1786500467453453947@gitolite.kernel.org>
 
---===============0676582786521083547==
+--===============0955287423454248798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 08413fca62c63ccd245d20985460759c84499ebc
     new: 718693352d8bcea65276615f4f8c8d531246b644
     log: |
@@ -24,28 +24,28 @@ changes:
          718693352d8bcea65276615f4f8c8d531246b644 ASoC: amd: Use dev_probe_err helper
          
 
---===============0676582786521083547==
+--===============0955287423454248798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627058583 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1627058587-2345e3af904ea44c2332efb180a760be50a9b127
+pusher C3F436CA30F5D8EB 1627058590 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627058594-a6e9db3a4eea53ae4269ec297a0e2300c7dd5db1
 
-08413fca62c63ccd245d20985460759c84499ebc 718693352d8bcea65276615f4f8c8d531246b644 refs/heads/for-5.15
+08413fca62c63ccd245d20985460759c84499ebc 718693352d8bcea65276615f4f8c8d531246b644 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD68ZcACgkQJNaLcl1U
-h9ATVQf8DFLCi8BPkzhXaXiTSTZ47Tkn/lBhW0WcuzAPkw01zsXKeS8AYTAMyI4k
-EgWMytdl6yGpvULDg6yuGl2xtlQr6i9av+Bxu0Y22gsnnlTDmEbsSFzGnVd8bvaY
-b0JHxd2MnQIGvTs5FapLSvy++C9+OyNiu/tJQvJ650m8o8wsD2usniYjvv6vts3E
-i+S+WHiOKa644idauUqu+zL2cGCxKjN/euYa4WzBm6PTdoAmYcqIt81jw7Pww0pk
-RLZYWV/CM1ZBRqojUIV04spHt5bKonxyBsuubmQeKyIdPl8jNF6WNMFcM/PdDDsF
-JUNaor5YqM03vFQATZ3KjmpGWwGA+w==
-=Qepw
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD68Z4ACgkQJNaLcl1U
+h9DkAQf8DaccPxznb/+7IsxBoZtzhjenF/2+BbMRO5NtZxthOzOolg/So7fwjmM1
+eCTht7l84nFSVKBnE97M8qbglfsoy7uWVvUsbg3TBDFwxgU/rF+Rllp66pMBNOoN
+lunv4IaDEYuQ/ODbkjLpTikc8exwa5aZpJVXWwoeqNm5Jb3vvE1kusEcRs246PGZ
+C0Yh8R91RxmY+3STt+pIo6NmtUwraPCnO8vPg1Lbj5eWHmwLcHIUxy+zJ3MCQ/nb
+FiEez6fkMFM12GXX42ub2U7I8shPvfU1EHEB9x+/rVrZ5YHbIx6PXrwQsTiC0jDm
+hLQXKmM4VNzUJus2AV5ZrgwKgIDzQg==
+=C6az
 -----END PGP SIGNATURE-----
 
---===============0676582786521083547==--
+--===============0955287423454248798==--
