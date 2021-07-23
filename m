@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 23 Jul 2021 21:09:08 -0000
-Message-Id: <162707454830.3776.3645135879391896089@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5482410601375283912=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
+Date: Fri, 23 Jul 2021 21:29:21 -0000
+Message-Id: <162707576143.16918.5770325496995691340@gitolite.kernel.org>
+
+--===============5482410601375283912==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/utils/grokmirror/grokmirror
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: e2f55370b42205bda2f8b02c5933b9df2456bd53
+  - ref: refs/heads/master
+    old: 6dc859cd4afeba8bf7ed61a35e952b8355128500
+    new: 3047754fb1b719f7e2f997341ebd313981660956
     log: |
-         e2f55370b42205bda2f8b02c5933b9df2456bd53 MAINTAINERS: Add Rahul Tanwar as Intel LGM Gateway PCIe maintainer
+         3047754fb1b719f7e2f997341ebd313981660956 More work to support public-inbox processing
          
+
+--===============5482410601375283912==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1627075761 -0400
+pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
+nonce 1627075760-97fc7704047c4a8f77f7f3b97f59cfc0e56a611b
+
+6dc859cd4afeba8bf7ed61a35e952b8355128500 3047754fb1b719f7e2f997341ebd313981660956 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYPs0sQAKCRC2xBzjVmSZ
+bJ0oAP463lP7IdfDJQrJBB1oOQC5DhW3bf1TKXxyawCkHZVs1gD9GsYJWHURPCne
+07a9jNWiJ9XGFyhob0PbHav0iy3Wbws=
+=0PpJ
+-----END PGP SIGNATURE-----
+
+--===============5482410601375283912==--
