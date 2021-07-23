@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 23 Jul 2021 15:02:43 -0000
-Message-Id: <162705256342.21379.10728525054054755941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 23 Jul 2021 15:10:40 -0000
+Message-Id: <162705304079.26675.10384300058712121498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 9f42f674a89200d4f465a7db6070e079f3c6145f
-    new: d72e91efcae12f2f24ced984d00d60517c677857
+  - ref: refs/heads/stm32-next
+    old: b462e2fc78f098ab732c7d1aca6ecab879a1d103
+    new: 1f0172c02a3d707026822977fb7c470325f2e7b6
     log: |
-         d72e91efcae12f2f24ced984d00d60517c677857 octeontx2-af: Remove unnecessary devm_kfree
+         1f0172c02a3d707026822977fb7c470325f2e7b6 ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
          
