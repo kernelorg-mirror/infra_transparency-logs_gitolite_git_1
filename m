@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 23 Jul 2021 02:32:28 -0000
-Message-Id: <162700754889.27563.4479794219330400813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 23 Jul 2021 03:03:45 -0000
+Message-Id: <162700942589.14958.1228608903719422800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 9bead1b58c4c4a85319d0fc8a5c83e7374977d28
-    new: e08100fe957e2f0b5ae476c5b5ae0df5ecaa3563
+    old: 9907442fcddbdacf55fa22e31f2306ae0d6172d6
+    new: fb1c85fdc14acdee42425e9a935e43a3badc9514
     log: |
-         615c77eb5e870d1ffa95f4001cba3612bd2f2332 powerpc/pasemi: Fix fall-through warning for Clang
-         e08100fe957e2f0b5ae476c5b5ae0df5ecaa3563 Merge tag 'fallthrough-fixes-clang-5.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
+         f9e41d76a1533c2f121fbd614d92ea9d821c5cbb libbpf: Fix func leak in attach_kprobe
+         5874bd2e61d6133ab1f057921a5c3b334d536cf0 libbpf: Allow decimal offset for kprobes
+         fb1c85fdc14acdee42425e9a935e43a3badc9514 libbpf: Export bpf_program__attach_kprobe_opts function
          
