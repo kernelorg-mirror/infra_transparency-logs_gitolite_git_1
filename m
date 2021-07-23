@@ -1,25 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 23 Jul 2021 20:43:34 -0000
-Message-Id: <162707301492.19605.11392526619122998374@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5415120208285812492=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Jul 2021 20:59:37 -0000
+Message-Id: <162707397770.30176.18212890097629168753@gitolite.kernel.org>
+
+--===============5415120208285812492==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: e820ba87f9d15399fa565ceba4a92b902c879d29
-    new: 53c0c6d4d8a91b7b00afa444b00b661431aaa5b3
-    log: |
-         d69df6d0f7bfddfb26e5828c3569541764958fed dm ima: measure data on table load
-         d8a5469d3512e050b56dce6edc6d0153d1c69b4e dm ima: measure data on device resume
-         5a55cd3745e1eff00f63093e9ce9b9d824a00ce3 dm ima: measure data on device remove
-         9f54ba7ceb6cbfe6d179be744e1197c28150e1e7 dm ima: measure data on table clear
-         6dc5f30d1125d48c85067753c36bc29bd58eb74c dm ima: measure data on device rename
-         a1d5b043b26889dc29d31122d124777ca3c5bddf dm: update target status functions to support IMA measurement
-         53c0c6d4d8a91b7b00afa444b00b661431aaa5b3 dm: add documentation for IMA measurement support
-         
+  - ref: refs/heads/master
+    old: 1f22cf13496ff6717c60bb26fbeee7d07f7ac578
+    new: 5aa1959d18003472cc741dc490c3335c5bd804e2
+    log: revlist-1f22cf13496f-5aa1959d1800.txt
+
+--===============5415120208285812492==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1f22cf13496f-5aa1959d1800.txt
+
+65662a8dcdd01342b71ee44234bcfd0162e195af i40e: Fix logic of disabling queues
+71d6fdba4b2d82fdd883fec31dee77fbcf59773a i40e: Fix firmware LLDP agent related warning
+dc614c46178b0b89bde86ac54fc687a28580d2b7 i40e: Add additional info to PHY type error
+89ec1f0886c127c7e41ac61a6b6d539f4fb2510b i40e: Fix queue-to-TC mapping on Tx
+ea52faae1d17cd3048681d86d2e8641f44de484d i40e: Fix log TC creation failure when max num of queues is exceeded
+0506c93fba05d91d40faa04c579e35783a4aa6f6 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+6840e17b8ea992453e2d6f460d403cb05d194e76 ionic: make all rx_mode work threadsafe
+f79eef711eb57d56874b08ea11db69221de54a6d ionic: catch no ptp support earlier
+a6ff85e0a2d9d074a4b4c291ba9ec1e5b0aba22b ionic: remove intr coalesce update from napi
+76ed8a4a00b484dcccef819ef2618bcf8e46f560 ionic: fix up dim accounting for tx and rx
+f07f9815b7046e25cc32bf8542c9c0bbc5eb6e0e ionic: count csum_none when offload enabled
+5aa1959d18003472cc741dc490c3335c5bd804e2 Merge branch 'ionic-fixes'
+
+--===============5415120208285812492==--
