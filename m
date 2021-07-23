@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 23 Jul 2021 04:34:45 -0000
-Message-Id: <162701488559.12123.7904042330145258982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 23 Jul 2021 05:28:17 -0000
+Message-Id: <162701809750.15071.17887836506344952998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/fixes
-    old: 6d827c111c8c861fac82675288d3dd27bc6a8536
-    new: db6b84a368b495cb7e41be9cb9e73d4d0537d027
+  - ref: refs/heads/extcon-next
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 07de34f5ce1e76811d8567b41ccfff244d78874c
     log: |
-         db6b84a368b495cb7e41be9cb9e73d4d0537d027 riscv: Make sure the kernel mapping does not overlap with IS_ERR_VALUE
+         c3c7ae619c8e0a3e38d6a6efec73cbc09554afcb extcon: usb-gpio: Use the right includes
+         07de34f5ce1e76811d8567b41ccfff244d78874c extcon: max3355: Drop unused include
          
