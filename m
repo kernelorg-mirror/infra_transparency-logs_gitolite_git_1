@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Fri, 23 Jul 2021 14:03:28 -0000
-Message-Id: <162704900896.11045.8134325823826931798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Fri, 23 Jul 2021 14:08:42 -0000
+Message-Id: <162704932297.17623.12770440394233448032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/tags/m68k-for-v5.14-tag2
-    old: 0000000000000000000000000000000000000000
-    new: ecd0e4dc5dc5efbcfc2ebf4e254474aa42402f55
+  - ref: refs/heads/for-next
+    old: 7a1f2a39209dee54aafaa488e9762ce3c1f6afdc
+    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
