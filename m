@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3376526312733747234=="
+Content-Type: multipart/mixed; boundary="===============3193336668745662111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 24 Jul 2021 02:11:43 -0000
-Message-Id: <162709270375.8984.18398083189200632574@gitolite.kernel.org>
+Date: Sat, 24 Jul 2021 02:11:49 -0000
+Message-Id: <162709270995.9116.18177679420892280898@gitolite.kernel.org>
 
---===============3376526312733747234==
+--===============3193336668745662111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,88 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    new: e15f669cd996b85bb07b0e787fa78806477bf211
-    log: revlist-2734d6c1b1a0-e15f669cd996.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 94ecca072649b5f3e02043774d5ddfc850ff78a3
+    new: 8286ab6c17cc4ae7c87cc3df8efe584a3c1de47a
+    log: |
+         f591a2e0548da88130c7b1c79f1f735273adc683 scsi: core: Add new flag BLIST_IGN_MEDIA_CHANGE
+         ed4246d37f3b94e429d020cac692434a00bae4cc scsi: sd: REQUEST SENSE for BLIST_IGN_MEDIA_CHANGE devices in runtime_resume()
+         9abe677951d15a099964b909010daaf92307bd4b scsi: core: Add BLIST_IGN_MEDIA_CHANGE for Ultra HS-SD/MMC USB card readers
+         
 
---===============3376526312733747234==
+--===============3193336668745662111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627092702 -0400
+pusher 75C5DE3D 1627092708 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627092702-1f21ac54e237eba51cc41eb7b49d25fb5ad14ab5
+nonce 1627092707-80ec8f60d4b491447ebf995cf77d2101d2847cb5
 
-2734d6c1b1a089fb593ef6a23d4b70903526fe0c e15f669cd996b85bb07b0e787fa78806477bf211 refs/heads/queue
+94ecca072649b5f3e02043774d5ddfc850ff78a3 8286ab6c17cc4ae7c87cc3df8efe584a3c1de47a refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD7dt4ACgkQ7ulgGnXF
-3j3gtw/+INVYVf79FfJqUeIPITsCdTjkPtTbm25MviEOxgzSZVMBMpaR8BqodWaw
-rR+eWbN40xuArCwusWZvCBW3V0QDJ1w8mz05ES3r52z3n+pl1RbnTAHZUyqLhmwB
-F7gFZ4qODHwulv981iIjTWPAUh2jfkcqabP0YR6pj8Pa+Gpngn5NWIoTxfrqxCQA
-qs3v4inltgsNmgVb5+R4NRQdmC4rErQlGYm3KjPJndnp8Z/Abh71fk9+13ZKFuS5
-AdXHFQTbUhGdF3e99bi+/5eX31nVcKgNHVqDJZmuoeJlgD2wlqaLwhpl8qXcPGYg
-Ra+Lzk2tZ6KtcMlwx7jTQwslw7Py/8cHtigj4QyE/nhAX4Wakdez4QEQVq7iaq+g
-dubLktReoBt0VlEkRYw/ys60Z/cfhuEabJjG/mpgq4MPeCaA/14oYtp61DKkvS9L
-VZ7nF5TAq6Dum3gi0EmLB+bOW3srS1ITQfpT8reuBOhjzB6z1+flgakRpGnnvHpO
-YD+MsHtetoh0PCE+toJiJn1mxpT1qek4WLdaJGzhbzNu8LG7pRwKYDSLnuQSfKOx
-qnnV/k9Z5v822XxwehhkQWDDpEqUURPSGvsfmzOILK/8hZlcGTk2We1uK2lZZr2W
-sYh6VmUXyJ+45tp08slZ6qUlgOPEtpay7DGKguVlnlFXouPARd8=
-=lVZ+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD7duQACgkQ7ulgGnXF
+3j2JfRAAhFXB7i54quU2qiN8isyJXgB3oXGbmL5viyx0M7lUxzR+YfieJeYWyyY+
+G7K3h6NRT6qqNqjAZHgrwYvbNDfpGt5zTvbnIIpWbi1WLHutMbpH0ZoUxDNgOhvH
+Ualh8H3HrUZP5lQ8/vrT46SoqFW5lOHNWx5QDeoOLRmeqjgbfF7Fo/lCf3LxgVpm
+fJ1F+qmDNEMThhsAKqER/I9m9igazko3PSrCEtoHX/QX9kw/9IzGMS9eOFc/FBTo
+XXXSCU3+FY1nEkJe++Jetssdnmceo5uYT9MHZ72FaFc+6SqeXTnJkUZo1znjvxAk
+FMOhsDYOPLo2Z6qd+nw7y3WzSBpMAL06VqCUAzyknxiI6tOT0NQ37qPP5dToFylM
+VWxXUXjxTjMALZFtKKFhifsNlYaK1ERwBjJG7y++kqt0l4Wg/6SyqOkZRgdBdVEI
+6ZOWoJiI7UjdBXparAJipJHgWPPJ3pC9GGinZs7ERvZNZsw7YV1tqeSqOoWU6zcB
+A3pQAmrDRa0vWLs6nEQ7Xn337dX/w3+yagwX7lbcTnQAzjiTrkQ0p+NEQcqbaHSc
+crw466iAEL65qo2B4M+cz01AOzRM3m6khJGNCrf+XSgdtoFjXDAGP6nixVbzB2bs
+CbRP45e/MI8+Qf0vmGQ3AnXPHpTORu7Kh/TxhECDjNvAaigdfGQ=
+=2noc
 -----END PGP SIGNATURE-----
 
---===============3376526312733747234==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2734d6c1b1a0-e15f669cd996.txt
-
-1c0810e79cb3d2c46bb8f2a3e98609de1f009f3e scsi: ufs: Refactor ufshcd_is_intr_aggr_allowed()
-7b0ddc1346089b62b45e688e350c9e1c3f7a3ab2 scsi: be2iscsi: Fix use-after-free during IP updates
-37306698c3d023c10a2b1a01baac3089b52412f6 scsi: qla2xxx: Remove redundant continue statement in a for-loop
-904b5bfaa8fe2be032ea81ee95fa28efe21fbef0 scsi: aacraid: Remove an unused include
-ae463b60235e7a5decffbb0bd7209952ccda78eb scsi: lpfc: Fix NVMe support reporting in log message
-e8613084053d406c22914385a488e8b85072100c scsi: lpfc: Remove use of kmalloc() in trace event logging
-16a93e83c87edab9ea646be879a1cbbe7bf3bca6 scsi: lpfc: Improve firmware download logging
-50baa1595d30412177da3b22625bffc1ce4f65d5 scsi: lpfc: Fix function description comments for vmid routines
-e77803bdbf0aad98d36b1d3fa082852831814edd scsi: lpfc: Discovery state machine fixes for LOGO handling
-21990d3d1861c7aa8e3e4ed98614f0c161c29b0c scsi: lpfc: Fix target reset handler from falsely returning FAILURE
-4e670c8afd47d535f65edf0d2b7f54f103fd59a2 scsi: lpfc: Keep NDLP reference until after freeing the IOCB after ELS handling
-2d338eb55b14ab9d245e8b1d982adecca8c4c613 scsi: lpfc: Fix NULL ptr dereference with NPIV ports for RDF handling
-cd6047e92c6a5b0a44479cf98f76aac56ddfe108 scsi: lpfc: Fix memory leaks in error paths while issuing ELS RDF/SCR request
-e78c006f4c888231cdabb8a4286ba17980a903fa scsi: lpfc: Remove REG_LOGIN check requirement to issue an ELS RDF
-affbe24429410fddf4e50ca456c090ed6d8e05bf scsi: lpfc: Fix KASAN slab-out-of-bounds in lpfc_unreg_rpi() routine
-a9978e3978406ef5e35870b10e677cf75a2620b6 scsi: lpfc: Clear outstanding active mailbox during PCI function reset
-137ddf0384722afef308dd40696fba55e6680ad2 scsi: lpfc: Use PBDE feature enabled bit to determine PBDE support
-816bd88dffc5716d8bff7cce9dbaa19ef375bc97 scsi: lpfc: Enable adisc discovery after RSCN by default
-0614568361b0c1827f999b1fff21223a496c740b scsi: lpfc: Delay unregistering from transport until GIDFT or ADISC completes
-c65436b21c3abbdaacd9c9f68bf2fa94e103168d scsi: lpfc: Call discovery state machine when handling PLOGI/ADISC completions
-02607fbaf00d9aac8fe97b1d9643f09ebdb47922 scsi: lpfc: Skip reg_vpi when link is down for SLI3 in ADISC cmpl path
-ab803860882514ddbf97713b143b861b524e8476 scsi: lpfc: Skip issuing ADISC when node is in NPR state
-545a68e711ee4d6ed11cec956bb06cb52c95e83a scsi: lpfc: Update lpfc version to 12.8.0.11
-f2af8ffc63a184ab425e0a02308f7fdcf8a53f1c scsi: lpfc: Copyright updates for 12.8.0.11 patches
-d3af3f647bd57be2f6a007d12eaf55e20524fb96 scsi: smartpqi: Add PCI IDs for H3C P4408 controllers
-889653ecfc989349bf61736e45695b614d5b64d1 scsi: smartpqi: Update copyright notices
-6aa26b5a2c70ca302718dc0d5db092780e4b6f6c scsi: smartpqi: Change driver module macros to Microchip
-8e505fceaa2b7c7841b70ed530167727bb66517b scsi: smartpqi: Change Kconfig menu entry to Microchip
-f0e473e0f603bcd4fbbbd2913208aaad8191efec scsi: smartpqi: Add SCSI cmd info for resets
-e326b97c92ccbe0fa9256902ca0c20e2b6c40168 scsi: smartpqi: Add PCI ID for new ntcom controller
-09d9968a8eff8c098149295ebb62a453a862b9c6 scsi: smartpqi: Add PCI IDs for new ZTE controllers
-0777a3fb98f0ea546561d04db4fd325248c39961 scsi: smartpqi: Fix ISR accessing uninitialized data
-f339c7e491a8150d416d4aa657fe379c20fe6b79 scsi: smartpqi: Update version to 2.1.10-020
-7ba46799d34695534666a3f71a2be10ea85ece6c scsi: core: Add scsi_prot_ref_tag() helper
-e2e9cd68fb3c673f7c1e12792f3137b77f6f7431 scsi: qla2xxx: Use the proper SCSI midlayer interfaces for PI
-73e61d5c22bfad25573a5373739ee1be8bb7d63d scsi: zfcp: Use the proper SCSI midlayer interfaces for PI
-c78be80d20cd52c302b92640550087ede9c4304a scsi: scsi_debug: Remove dump_sector()
-f7be677227a5375cefd084df2c88864fc673e24a scsi: scsi_debug: Improve RDPROTECT/WRPROTECT handling
-f0f214fe8cd32224267ebea93817b8c32074623d scsi: core: Introduce scsi_get_sector()
-87662a472a9d8980b26ba5803447df2c4981d467 scsi: iser: Use scsi_get_sector() instead of scsi_get_lba()
-d2c945f01d233085fedc9e3cf7ec180eaa2b7a85 scsi: core: Make scsi_get_lba() return the LBA
-54815088859fa766c7879a06ee028e0cee4f589e scsi: ufs: core: Use scsi_get_lba() to get LBA
-e15f669cd996b85bb07b0e787fa78806477bf211 scsi: libsas: Allow libsas to include SCSI header files directly
-
---===============3376526312733747234==--
+--===============3193336668745662111==--
