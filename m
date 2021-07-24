@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 24 Jul 2021 00:10:15 -0000
-Message-Id: <162708541556.25035.16398428844833657880@gitolite.kernel.org>
+Date: Sat, 24 Jul 2021 00:18:05 -0000
+Message-Id: <162708588539.29355.5637396929024347871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: e244d34d0ea1aebf60e83ee6d1701a81448f31c1
-    new: 7a18844223d40b684e2f24a02741a1bd53048218
+  - ref: refs/heads/master
+    old: 7a18844223d40b684e2f24a02741a1bd53048218
+    new: ae7f47041d928b1a2f28717d095b4153c63cbf6a
     log: |
-         7a18844223d40b684e2f24a02741a1bd53048218 selftests/bpf: Document vmtest.sh dependencies
+         ae7f47041d928b1a2f28717d095b4153c63cbf6a bpf/tests: Fix copy-and-paste error in double word test
          
