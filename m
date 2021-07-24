@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7331775379900024950=="
+Content-Type: multipart/mixed; boundary="===============6755516825036034755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 24 Jul 2021 02:11:33 -0000
-Message-Id: <162709269364.8803.14579840392359311083@gitolite.kernel.org>
+Date: Sat, 24 Jul 2021 02:11:38 -0000
+Message-Id: <162709269867.8902.17898233888210515886@gitolite.kernel.org>
 
---===============7331775379900024950==
+--===============6755516825036034755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 7b55ee668eea4ffcb7093049d17de29fd06a96f2
-    new: 56be659638f2a531e86241b18a6f0ff8943362a8
-    log: revlist-7b55ee668eea-56be659638f2.txt
+  - ref: refs/heads/5.15/scsi-queue
+    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
+    new: e15f669cd996b85bb07b0e787fa78806477bf211
+    log: revlist-2734d6c1b1a0-e15f669cd996.txt
 
---===============7331775379900024950==
+--===============6755516825036034755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627092692 -0400
+pusher 75C5DE3D 1627092697 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627092691-d103b2e9d81878077a278cd68f246e664f1bce47
+nonce 1627092696-7c7139ca57b0c63aba0f8d354e86edc8bcd8db82
 
-7b55ee668eea4ffcb7093049d17de29fd06a96f2 56be659638f2a531e86241b18a6f0ff8943362a8 refs/tags/mkp-scsi-queue
+2734d6c1b1a089fb593ef6a23d4b70903526fe0c e15f669cd996b85bb07b0e787fa78806477bf211 refs/heads/5.15/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD7dtQACgkQ7ulgGnXF
-3j3p6hAAhW8m/qztdmRmM0egAJl5bUjgK4l+pklUbEz5JYfNyR2qI+u79BW3AKOi
-NH7bc4izmNYTOWI2jdMkm/TiHGYqapCoRYddgRlTMph6d6o0ZhkKM045MGfZ2dNP
-Y58Sdnqywx9wJUDGno5hq3DRaebk9/c8oI2FGmjfO9g2HJmM/oWpmq0d043o+YJA
-FS3EKDjln4si6XdPeB4TK0RRJDADXSnakMSKQsKknrUpOI4mjR/av6LPFZaVOCJV
-Q1nSwaDcGq6NUaRG9Mj5VEFYPskHHI7Wde3gDKP2XjNEeVFVhR2M0qMTuDbLGHv4
-zHy8IHCmFXUvhfFH+hTrChSWnsNHxeSyUfBYB3WyCWsR5LHK2XvJD9DTvu9nAEEE
-lrKXNTMhn+/X26ijndtXVCzRV+typNg8NJcAu3yoKYYfpKQ8JrTl7tx64yzo5CCy
-9bG03mGN50PAD6m72vUk4Yqc4JWiZ3dmK2lreU9JWrlgfuy4PwidkX5Ok21Asxyx
-LEGFLUteOPbUXcaHuG0MjHjCROAMJg9BujzaM3eFQazV5YiK8DGziIX582KVmmB7
-ohd04qQzcyizSUR/4+vHDXLFZwhNDpcUGFp3gHijnp3Rm+ue/8pRRLtQq775gFQS
-n9RWLFcOGQZRgRl8CwSLpQgXRaC63W6GgFhJc05pRie2TicXPj4=
-=aid2
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD7dtkACgkQ7ulgGnXF
+3j0tQg/+IaE6lRPxdX/opwvQKG3loxRiQh9wJXoDKNDWBdwTX+KOXr5yo3bdbObY
+7nv/PlDiIEcPrTYbmJsbqhQkVUMpi7BxCznRLtccO9EQuc4RkxY8dm/uzAHkrKLa
+UIm4nIWElFeD6sX9SQ/zqCVVrIS/bHy194pwkO75NPLCTU3mwzCtH28BSSr3V2oL
+L1p1KA/whXZLFkABLSKjFzr3dBpdS3BFGqpHXz/qzlQ2y3sTU5/oSqhRDz5+CsVL
+0XKuKTXgUYw7IrZjVsGqbFjsRAymYXLwPJ5HI2n+krTe28lFtNCaABjXMMHBcdeS
+z753YJDWYJTrufw+RyCn+qefHzdJdZkwuCzD3QF68wA4IFStzTrqEuUoQgPSiQ1/
+3nDHzouTcXdHfnSwG8Rxiqc/RjBwPSV+CUYT8qF6g4jZyvZKo06vrh7JSV9pUmjc
+C5jF7PJHKyq2uGo7QXboizxUt3wW1yR/EK17TlfDYFm4oTuB2O9C+56ASv+2tmzm
+zkiUzHAJRcfXvRKG8ic3zZlPNHDWgdGq9B3BUjZ1wuxGs6kEGAXYLQkgdHce6R0n
+/zlZuKQMLJYrstqboBRy7PeHXuncvZfzJl5NIXwTuVE9zVvFde8+SOnWfA0SrLbB
+Vjros2LgBmqJf8JnITngomW7KuiNGOI2EErqmT2ccSCsLPOEoHQ=
+=3Fo1
 -----END PGP SIGNATURE-----
 
---===============7331775379900024950==
+--===============6755516825036034755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b55ee668eea-56be659638f2.txt
+Content-Disposition: attachment; filename=revlist-2734d6c1b1a0-e15f669cd996.txt
 
 1c0810e79cb3d2c46bb8f2a3e98609de1f009f3e scsi: ufs: Refactor ufshcd_is_intr_aggr_allowed()
 7b0ddc1346089b62b45e688e350c9e1c3f7a3ab2 scsi: be2iscsi: Fix use-after-free during IP updates
@@ -100,4 +100,4 @@ d2c945f01d233085fedc9e3cf7ec180eaa2b7a85 scsi: core: Make scsi_get_lba() return 
 54815088859fa766c7879a06ee028e0cee4f589e scsi: ufs: core: Use scsi_get_lba() to get LBA
 e15f669cd996b85bb07b0e787fa78806477bf211 scsi: libsas: Allow libsas to include SCSI header files directly
 
---===============7331775379900024950==--
+--===============6755516825036034755==--
