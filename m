@@ -1,117 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============6522122043975307764=="
+Content-Type: multipart/mixed; boundary="===============7331775379900024950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 24 Jul 2021 01:55:37 -0000
-Message-Id: <162709173780.31583.9746920945999717763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Sat, 24 Jul 2021 02:11:33 -0000
+Message-Id: <162709269364.8803.14579840392359311083@gitolite.kernel.org>
 
---===============6522122043975307764==
+--===============7331775379900024950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-queue
-    old: d0ebe63aa11f8e91fc51c04a37f8764adef63dfe
-    new: a76959d7481063b16c5253ec09a6de0a6d3a26d0
-    log: revlist-d0ebe63aa11f-a76959d74810.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 7b55ee668eea4ffcb7093049d17de29fd06a96f2
+    new: 56be659638f2a531e86241b18a6f0ff8943362a8
+    log: revlist-7b55ee668eea-56be659638f2.txt
 
---===============6522122043975307764==
+--===============7331775379900024950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0ebe63aa11f-a76959d74810.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3914fc80d4de01a4f4d061a32939a4fe03f9ff96 ice: Remove boolean vlan_promisc flag from function
-8c347cc143cd108e384032e83101058a9892212c ice: Fix replacing VF hardware MAC to existing MAC filter
-b088da322a743d48d94fe1843ea5c78efd34f3a9 virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
-fc85a4b9cc7128c732ac13b96a3d8a663908ddd9 virtchnl: Use the BIT() macro for capability/offload flags
-8578cc5692341ae8ff05f189f734ad87fde8f32f i40e: Fix failed opcode appearing if handling messages from VF
-273a61b812e2c7d7c002cebfb2269eb2951a6c95 i40e: Fix firmware LLDP agent related warning
-c23bf77f175a1dbd31e0ab9e8f4f36286d66f8d7 i40e: Add additional info to PHY type error
-a9544bb05433c173d10b352484f9cd65ee888863 iavf: check for null in iavf_fix_features
-b60e0accc5d25a3a625cdba6cbc3303d470f875d iavf: free q_vectors before queues in iavf_disable_vf
-ae828dd466e3743298827204414a7f7c6f0a1091 iavf: don't clear a lock we don't hold
-326bebd1b1af8c78f7753b80f385a7d766b1d92b iavf: Fix failure to exit out from last all-multicast mode
-b2c6287b6b4587c2713d40d8080cf2508df5bf67 iavf: prevent accidental free of filter structure
-30ae0e70b3ae8b62b63dafb0016a1062165d596a iavf: validate pointers
-bac8c6b2b1bbe24d34d2ca153a590dc78e477bf9 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
-9b3bbbb0bbe1608f4bb2d5d1e93b8205c7041e5d iavf: Fix for setting queues to 0
-16779a313f41747480f4baff5fdd159bb3b8b347 iavf: Restore non MAC filters after link down
-755a47a068e890b2d86f63a0e7f9c8b8f73273e0 iavf: restore MSI state on reset
-ce71fbf754e73430417958b9eee45d2fd82c3136 iavf: Add change MTU message
-14b44e8a0cf1386d2c28d6910745dedc7c3e6d37 iavf: Prevent changing static ITR values if adaptive moderation is on
-d570c14e8e588b6908f8a42ce4033b69180c3cf1 iavf: Log info when VF is entering and leaving Allmulti mode
-f8a1153431f716f11eebdd0c107fb3532efb6756 iavf: Set RSS LUT and key in reset handle path
-e4719defce690f8ad88dc311efb5a9d8c47d1c31 iavf: return errno code instead of status code
-0dc6b7f9e20fee5c4f381ec9d7bca46fdb636354 iavf: don't be so alarming
-e2f33ebd9bb9b5d5bec2cb4a665e5ca6236fac7a ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
-a500c4f231e5359708a7c7f391fb578503aa4933 i40e: Refactor arrow operator usage in i40e_update_adq_vsi_queues()
-6dd26c63af2e7152eef8c17d76b96b16b432edef ice: do not abort devlink info if PBA can't be found
-567a737affdf63d3170da72b655ee49aea11ffb7 i40e: Fix log TC creation failure when max num of queues is exceeded
-77f38f13a074a4224e675344da989e8c404005f9 i40e: Add ensurance of MacVlan resources for every trusted VF
-5ddaa2fdafc4a34881e141712ebfda385319b6a1 i40e: Fix creation of first queue by omitting it if is not power of two
-d8ff4c3dd31e78e13e6f727a7d5fe1604b5c6db6 iavf: Add trace while removing device
-d623c75ce1e254e4a55b9f5699a7bbd98faabb8d iavf: Fix ping is lost after untrusted VF had tried to change MAC
-c60f064e1791246310b8813d4083a4c9ee2de541 ice: support basic E-Switch mode control
-9640ce401249e7fe8016aa67ed466f3ece7a3d01 ice: Move devlink port to PF/VF struct
-433cf0686ee508e44fcc83119bc0040b93a668a8 ice: introduce VF port representor
-f16e687445d1c2682266b787f6636cdd1772a7ad ice: allow process VF opcodes in different ways
-b443bfb673d2c3890caefe2f90e1517308df55d3 ice: manage VSI antispoof and destination override
-4baf6e3c8bc0d9258e4146d4709bbf19e0f1306e ice: allow changing lan_en and lb_en on dflt rules
-60b345f331bc980c7c431144b0d4f85d321be150 ice: set and release switchdev environment
-60f64767ccfefdb144949ad20d9a131a1831e399 ice: introduce new type of VSI for switchdev
-111de690a27a1dc40033c69661dfd825072a4970 ice: enable/disable switchdev when managing VFs
-2a0863c5adbcdf64bdc90e1fb1b5be0dc116ab88 ice: rebuild switchdev when resetting all VFs
-da0a4a0a717be724b4aa0c0dde63c1e06001652d ice: switchdev slow path
-294c18227f2b75e133963ae4d692a2fa369d1d26 ice: add port representor ethtool ops and stats
-2ca1475de8405ebb7a7e8ff2f47feb138c5c59d8 ice: Fix failure to re-add LAN/RDMA Tx queues
-495385e26d510e030c2dc064f6a93c7dca42dc68 ixgbevf: Rename MSGTYPE to SUCCESS and FAILURE
-d31053eb0b306c46406fba4d0c8952493fe2fc7d ixgbevf: Improve error handling in mailbox
-bafe1038c484cabd2bb81e517eabe13349a35d4b ixgbevf: Add legacy suffix to old API mailbox functions
-c4cc83e629415241ae32ba3ae6cf902cb55de60e ixgbevf: Mailbox improvements
-15c592885a0531d7d8d13aea7b031d89eb779d42 ixgbevf: Add support for new mailbox communication between PF and VF
-5c9499dfc4a5a4c7d4390e46530b35ef669ba4e1 ice: Fix perout start time rounding
-ce03fdea539cd8c52d36615b868dd7fdeb7c72c6 e1000e: Fix the max snoop/no-snoop latency for 10M
-26190a28ca7ff2184e8dc76e2509744fdf7bb1d8 igbvf: Refactor trace
-9add94c6651e23834c92ddf4962afb8671288093 ice: unify xdp_rings accesses
-13284e3e2465ced9b14c6ba6b640ebeef051cc53 ice: optimize XDP_TX descriptor processing
-2fce35b2c3638d8b39ddf9c12106895ce0f0cd94 ice: do not create xdp_frame on XDP_TX
-5d9f60ef21a6b8ccc4d071c0fe9c1b1fbf47b1c2 ice: introduce XDP_TX fallback path
-6462324ff5945ef7fbc0573b6ed5bda513cab9d7 ice: fix Tx queue iteration for Tx timestamp enablement
-9a14a1a9dfcbcfb2333bbd729b7cbb72b6af42b0 ice: remove dead code for allocating pin_config
-0271da56d9d56c98cb48cbf4473b5fcabf798672 ice: add lock around Tx timestamp tracker flush
-62d8a0b25a91b3e0b27619e7e8745575ace6cf28 ice: restart periodic outputs around time changes
-1227534cf2b532edb7526cef51668838ec9e6819 ice: introduce ice_base_incval function
-1ee97eefc6f44391c6e4d02dcb7156a7afc3b526 ice: PTP: move setting of tstamp_config
-134d5c7596d3eb875fbf27bdf8294fc467ef5bce ice: use 'int err' instead of 'int status'
-6c9a2043aa1d77aea9304eab08084ecca64d15a8 ice: introduce ice_ptp_init_phc function
-b22296f96cfdf2b62c919dde1b1728737093aa91 ice: convert clk_freq capability into time_ref
-c93efa985e26f17489ad4caa378dd2f0ed95471d ice: implement basic E822 PTP support
-5ae5814edf2bb3a4e2a44c912469ae8805ea7f74 ice: ensure the hardware Clock Generation Unit is configured
-3bce693d2458e9140417951f2dfeb74d4019648a ice: exit bypass mode once hardware finishes timestamp calibration
-735ec69378b64148d2095929a8b3448d31f143f7 ice: support crosstimestamping on E822 devices if supported
-b8f281525c53f929aa20874fc19e0b83387f3504 ice: fix build issue if CONFIG_1588_PTP_CLOCk=m
-fc4270e8c2187dba3c15681e7c491dbbc1db5f0e ice: rearm other interrupt cause register after enabling VFs
-1af38b915c38d7a203d83c6cf7b2afc43139598c igc: fix page fault when thunderbolt is unplugged
-28908623040d9f06fde1b1aebf193b39138db56b i40e: Fix pre-set max number of queues for VF
-db63c22a5b61656c8cf86e3dcd31979f90cfa40b iavf: Enable setting RSS hash key
-57f765899ea85c45e9c009259390c34de62b453a ice: Fix static analyzer hit
-a11d21573aedd931a44e99d3d53c31b2bbe30eee ice: Fix link mode handling
-8a65549a148a9c7b53a98659b3c2ec6e2eb89aee ice: Add DSCP support
-e126d52725ae87b723612787a7769cc4c24a423c ice: Add feature bitmap, helpers and a check for DSCP
-b63ecd0f6e91b91b61dfcaa07093a9b5b4376393 ice: Add package PTYPE enable information
-9a40835e7aed740923faaf64a279527868d4a14c ice: refactor PTYPE validating
-1f9ba55bd347b594ad5d0896b1fb4b7e49a186ff ice: Fix macro name for IPv4 fragment flag
-7817e1f81ca24c13741422279bdeed8ef8e5ce52 e1000e: Do not take care about recovery NVM checksum
-5aeadae116399cb0fadda95cb8203a88cde8a5ae igc: Remove media type checking on the PHY initialization
-676d630e2685ca805df32c76fb89dc117503022d ice: Fix crash in switchdev mode during VFR
-fd571a161f777212db893b544a5682bb0daf69a0 igc: Use num_tx_queues when iterating over tx_ring queue
-d45f18e68013e0398a0e975d4609609c1a49b530 i40e: Fix queue-to-TC mapping on Tx
-a76959d7481063b16c5253ec09a6de0a6d3a26d0 i40e: Fix ATR queue selection
+certificate version 0.1
+pusher 75C5DE3D 1627092692 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1627092691-d103b2e9d81878077a278cd68f246e664f1bce47
 
---===============6522122043975307764==--
+7b55ee668eea4ffcb7093049d17de29fd06a96f2 56be659638f2a531e86241b18a6f0ff8943362a8 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD7dtQACgkQ7ulgGnXF
+3j3p6hAAhW8m/qztdmRmM0egAJl5bUjgK4l+pklUbEz5JYfNyR2qI+u79BW3AKOi
+NH7bc4izmNYTOWI2jdMkm/TiHGYqapCoRYddgRlTMph6d6o0ZhkKM045MGfZ2dNP
+Y58Sdnqywx9wJUDGno5hq3DRaebk9/c8oI2FGmjfO9g2HJmM/oWpmq0d043o+YJA
+FS3EKDjln4si6XdPeB4TK0RRJDADXSnakMSKQsKknrUpOI4mjR/av6LPFZaVOCJV
+Q1nSwaDcGq6NUaRG9Mj5VEFYPskHHI7Wde3gDKP2XjNEeVFVhR2M0qMTuDbLGHv4
+zHy8IHCmFXUvhfFH+hTrChSWnsNHxeSyUfBYB3WyCWsR5LHK2XvJD9DTvu9nAEEE
+lrKXNTMhn+/X26ijndtXVCzRV+typNg8NJcAu3yoKYYfpKQ8JrTl7tx64yzo5CCy
+9bG03mGN50PAD6m72vUk4Yqc4JWiZ3dmK2lreU9JWrlgfuy4PwidkX5Ok21Asxyx
+LEGFLUteOPbUXcaHuG0MjHjCROAMJg9BujzaM3eFQazV5YiK8DGziIX582KVmmB7
+ohd04qQzcyizSUR/4+vHDXLFZwhNDpcUGFp3gHijnp3Rm+ue/8pRRLtQq775gFQS
+n9RWLFcOGQZRgRl8CwSLpQgXRaC63W6GgFhJc05pRie2TicXPj4=
+=aid2
+-----END PGP SIGNATURE-----
+
+--===============7331775379900024950==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7b55ee668eea-56be659638f2.txt
+
+1c0810e79cb3d2c46bb8f2a3e98609de1f009f3e scsi: ufs: Refactor ufshcd_is_intr_aggr_allowed()
+7b0ddc1346089b62b45e688e350c9e1c3f7a3ab2 scsi: be2iscsi: Fix use-after-free during IP updates
+37306698c3d023c10a2b1a01baac3089b52412f6 scsi: qla2xxx: Remove redundant continue statement in a for-loop
+904b5bfaa8fe2be032ea81ee95fa28efe21fbef0 scsi: aacraid: Remove an unused include
+ae463b60235e7a5decffbb0bd7209952ccda78eb scsi: lpfc: Fix NVMe support reporting in log message
+e8613084053d406c22914385a488e8b85072100c scsi: lpfc: Remove use of kmalloc() in trace event logging
+16a93e83c87edab9ea646be879a1cbbe7bf3bca6 scsi: lpfc: Improve firmware download logging
+50baa1595d30412177da3b22625bffc1ce4f65d5 scsi: lpfc: Fix function description comments for vmid routines
+e77803bdbf0aad98d36b1d3fa082852831814edd scsi: lpfc: Discovery state machine fixes for LOGO handling
+21990d3d1861c7aa8e3e4ed98614f0c161c29b0c scsi: lpfc: Fix target reset handler from falsely returning FAILURE
+4e670c8afd47d535f65edf0d2b7f54f103fd59a2 scsi: lpfc: Keep NDLP reference until after freeing the IOCB after ELS handling
+2d338eb55b14ab9d245e8b1d982adecca8c4c613 scsi: lpfc: Fix NULL ptr dereference with NPIV ports for RDF handling
+cd6047e92c6a5b0a44479cf98f76aac56ddfe108 scsi: lpfc: Fix memory leaks in error paths while issuing ELS RDF/SCR request
+e78c006f4c888231cdabb8a4286ba17980a903fa scsi: lpfc: Remove REG_LOGIN check requirement to issue an ELS RDF
+affbe24429410fddf4e50ca456c090ed6d8e05bf scsi: lpfc: Fix KASAN slab-out-of-bounds in lpfc_unreg_rpi() routine
+a9978e3978406ef5e35870b10e677cf75a2620b6 scsi: lpfc: Clear outstanding active mailbox during PCI function reset
+137ddf0384722afef308dd40696fba55e6680ad2 scsi: lpfc: Use PBDE feature enabled bit to determine PBDE support
+816bd88dffc5716d8bff7cce9dbaa19ef375bc97 scsi: lpfc: Enable adisc discovery after RSCN by default
+0614568361b0c1827f999b1fff21223a496c740b scsi: lpfc: Delay unregistering from transport until GIDFT or ADISC completes
+c65436b21c3abbdaacd9c9f68bf2fa94e103168d scsi: lpfc: Call discovery state machine when handling PLOGI/ADISC completions
+02607fbaf00d9aac8fe97b1d9643f09ebdb47922 scsi: lpfc: Skip reg_vpi when link is down for SLI3 in ADISC cmpl path
+ab803860882514ddbf97713b143b861b524e8476 scsi: lpfc: Skip issuing ADISC when node is in NPR state
+545a68e711ee4d6ed11cec956bb06cb52c95e83a scsi: lpfc: Update lpfc version to 12.8.0.11
+f2af8ffc63a184ab425e0a02308f7fdcf8a53f1c scsi: lpfc: Copyright updates for 12.8.0.11 patches
+d3af3f647bd57be2f6a007d12eaf55e20524fb96 scsi: smartpqi: Add PCI IDs for H3C P4408 controllers
+889653ecfc989349bf61736e45695b614d5b64d1 scsi: smartpqi: Update copyright notices
+6aa26b5a2c70ca302718dc0d5db092780e4b6f6c scsi: smartpqi: Change driver module macros to Microchip
+8e505fceaa2b7c7841b70ed530167727bb66517b scsi: smartpqi: Change Kconfig menu entry to Microchip
+f0e473e0f603bcd4fbbbd2913208aaad8191efec scsi: smartpqi: Add SCSI cmd info for resets
+e326b97c92ccbe0fa9256902ca0c20e2b6c40168 scsi: smartpqi: Add PCI ID for new ntcom controller
+09d9968a8eff8c098149295ebb62a453a862b9c6 scsi: smartpqi: Add PCI IDs for new ZTE controllers
+0777a3fb98f0ea546561d04db4fd325248c39961 scsi: smartpqi: Fix ISR accessing uninitialized data
+f339c7e491a8150d416d4aa657fe379c20fe6b79 scsi: smartpqi: Update version to 2.1.10-020
+7ba46799d34695534666a3f71a2be10ea85ece6c scsi: core: Add scsi_prot_ref_tag() helper
+e2e9cd68fb3c673f7c1e12792f3137b77f6f7431 scsi: qla2xxx: Use the proper SCSI midlayer interfaces for PI
+73e61d5c22bfad25573a5373739ee1be8bb7d63d scsi: zfcp: Use the proper SCSI midlayer interfaces for PI
+c78be80d20cd52c302b92640550087ede9c4304a scsi: scsi_debug: Remove dump_sector()
+f7be677227a5375cefd084df2c88864fc673e24a scsi: scsi_debug: Improve RDPROTECT/WRPROTECT handling
+f0f214fe8cd32224267ebea93817b8c32074623d scsi: core: Introduce scsi_get_sector()
+87662a472a9d8980b26ba5803447df2c4981d467 scsi: iser: Use scsi_get_sector() instead of scsi_get_lba()
+d2c945f01d233085fedc9e3cf7ec180eaa2b7a85 scsi: core: Make scsi_get_lba() return the LBA
+54815088859fa766c7879a06ee028e0cee4f589e scsi: ufs: core: Use scsi_get_lba() to get LBA
+e15f669cd996b85bb07b0e787fa78806477bf211 scsi: libsas: Allow libsas to include SCSI header files directly
+
+--===============7331775379900024950==--
