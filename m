@@ -1,22 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 24 Jul 2021 17:16:58 -0000
-Message-Id: <162714701897.1142.9104404982560917383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Sat, 24 Jul 2021 17:45:41 -0000
+Message-Id: <162714874169.19925.14780029185870064034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 3887ad35760630adc2f7b4ab09eaabfaf7cc05fd
-    new: 2c4d2eb622912c386fc48dc99e754db087f208f6
+  - ref: refs/heads/maint
+    old: 942b00cb9d2f2b52f4c58877d523145ee59a89b0
+    new: ddee43e8e847b25148d694bb5dbec633729e975b
     log: |
-         e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
-         6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
-         fae21608c31ca987d9dfc0422ac9b5bd21c213a6 scsi: mpt3sas: Transition IOC to Ready state during shutdown
-         a47fa41381a09e5997afd762664db4f5f6657e03 scsi: target: Fix NULL dereference on XCOPY completion
+         83782a687791f98237598d1ef9ff161a8b3a3c13 AOSP: e2fsdroid: Don't over-reserve blocks for files in Base FS.
+         4e424586ccbfceb051781b90770a525e2675b0b4 debian/changelog: fix missing Closed: annotation
+         ddee43e8e847b25148d694bb5dbec633729e975b libext2fs: avoid unnecessary stat(2) calls on mountpoints
+         
+  - ref: refs/heads/master
+    old: 942b00cb9d2f2b52f4c58877d523145ee59a89b0
+    new: 83782a687791f98237598d1ef9ff161a8b3a3c13
+    log: |
+         83782a687791f98237598d1ef9ff161a8b3a3c13 AOSP: e2fsdroid: Don't over-reserve blocks for files in Base FS.
+         
+  - ref: refs/heads/next
+    old: 942b00cb9d2f2b52f4c58877d523145ee59a89b0
+    new: 83782a687791f98237598d1ef9ff161a8b3a3c13
+    log: |
+         83782a687791f98237598d1ef9ff161a8b3a3c13 AOSP: e2fsdroid: Don't over-reserve blocks for files in Base FS.
          
