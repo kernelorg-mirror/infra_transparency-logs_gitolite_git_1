@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4932280356176717119=="
+Content-Type: multipart/mixed; boundary="===============4490627495372175799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Sat, 24 Jul 2021 21:23:54 -0000
-Message-Id: <162716183453.30172.6128504466378274691@gitolite.kernel.org>
+Date: Sat, 24 Jul 2021 21:24:10 -0000
+Message-Id: <162716185070.30337.3390365907828703206@gitolite.kernel.org>
 
---===============4932280356176717119==
+--===============4490627495372175799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,87 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: ff8744b5eb116fdf9b80a6ff774393afac7325bd
-    new: facfbf4f0b5afbf2d9a4147ca57c84dce2c7b8e2
-    log: revlist-ff8744b5eb11-facfbf4f0b5a.txt
+  - ref: refs/heads/testing
+    old: ca9280f6324bf09ec5d3667579f7dd3f7567e809
+    new: 1f67d298793699d5d9f4985bd049482a06a888e7
+    log: revlist-ca9280f6324b-1f67d2987936.txt
 
---===============4932280356176717119==
+--===============4490627495372175799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1627161829 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1627161844 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1627161829-7d9763a893fa73a841fbba6b69885a864aa35606
+nonce 1627161844-6d83ad1dad41354d28feb99dd5c95df21dfd1457
 
-ff8744b5eb116fdf9b80a6ff774393afac7325bd facfbf4f0b5afbf2d9a4147ca57c84dce2c7b8e2 refs/heads/master
+ca9280f6324bf09ec5d3667579f7dd3f7567e809 1f67d298793699d5d9f4985bd049482a06a888e7 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmD8hOUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqaIhB/9RSTqHkvxAQIjr1bS9AB5eSg8LK5oH
-Ail60F2RQGtzVBtRCkrFWFbIn8t/mtRllnniqmbnLe0fs2ZMbRlDS5RrhePfucgY
-cfEmX+dnK3y2R/UdaJZuC4uwlX1cBEQx4zo07xQm2V1kdVoDsMGfpTHRmqr1hBlx
-37ZIciGdYTleuUIizlZgm6Py5xvkwe/vm0s3db8Zy2W8eED7T7+nA0A61ALwXnt1
-b/sr68NP0fd1QXiXVDh6d8snXCOsOxJUKG13wiOwaFCi79KmXn1xMl0kFoBQ/sJq
-zCls9BO/9i8r8YLFl3IG5DzbjEW90uLnJvsnL6/85E563l1N541l1lzg
-=GGY+
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmD8hPQTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqaMxB/48on7j+2n85WLmLiqsQuj3+o/IkYQx
+2hek1lmZfgbhbv5s6eo7adyx5GkbIFJ6sAihAx47fsHLyhNIvHtb/8onpiGXOHAF
+3evxs6lqDu7VjaPFA/OLIrPUounVRohQBfCzJJTP9k4B/JTxX99fzGslhtihwSyw
+xO4Vennme/F9st/rud21T/KEYS56ys5N0iPalHDiVAQ2rndnnakpouoXkwYG7mRN
+sQhIUSMdi/CL0lzgQ/WB+KdNpdJR0h7AddKZl9OSSwfHwAx2OCC5kd/1/wEkeSrm
+4H05hacZWlpBPDfNF+eyK+juqmdV34K0FtJZMIIGAAxJvuUgJvkzojo6
+=unYn
 -----END PGP SIGNATURE-----
 
---===============4932280356176717119==
+--===============4490627495372175799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff8744b5eb11-facfbf4f0b5a.txt
+Content-Disposition: attachment; filename=revlist-ca9280f6324b-1f67d2987936.txt
 
-1d10bf55d85d34eb73dd8263635f43fd72135d2d rcu-tasks: Don't delete holdouts within trc_inspect_reader()
-4e1c8c17ff129ab14a38c461dd9bb8f7ff8a36a0 scsi: aic94xx: Fix fall-through warning for Clang
-f1469e568bf6dcbdff9fd7cd7d2cc9ca9d06efeb Input: Fix fall-through warning for Clang
-ca6eaaa210deec0e41cbfc380bf89cf079203569 riscv: __asm_copy_to-from_user: Optimize unaligned memory access and pipeline stall
-7761e36bc7222d1221242c5f195ee0fd40caea40 riscv: Fix PTDUMP output now BPF region moved back to module region
-ad1f37970875eef98eeaf478f55045f388b794a5 octeontx2-pf: Fix assigned error return value that is never used
-ccd27f05ae7b8ebc40af5b004e94517a919aa862 ipv6: fix 'disable_policy' for fwd packets
-a9ab9cce9367a2cc02a3c7eb57a004dc0b8f380d rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
-2a2ed5618a0e8a890d948b88b368c0459f35136c rcu: Fix pr_info() formats and values in show_rcu_gp_kthreads()
-1958e5aef5098e28b7d6e6a2972649901ebecace riscv: xip: Fix duplicate included asm/pgtable.h
-934bd07fae7e55232845f909f78873ab8678ca74 nfsd: move fsnotify on client creation outside spinlock
-d50295255e787a142a1329d53c7c410227ceaac2 xprtrdma: Fix spelling mistakes
-3518c8666f15cdd5d38878005dab1d589add1c19 nfsd4: Expose the callback address and state of each NFS4 client
-f47dc2d3013c65631bf8903becc7d88dc9d9966e nfsd: fix kernel test robot warning in SSC code
-54185267e1fe476875e649bb18e1c4254c123305 NFSD: Fix error return code in nfsd4_interssc_connect()
-5823e40055166cdf959a77e7b5fe75998b0b9b1f nfs_common: fix doc warning
-f6260b98ec1493b214f13bb9d0545779ffe87748 rpc: remove redundant initialization of variable status
-05570a2b01117209b500e1989ce8f1b0524c489f nfsd: rpc_peeraddr2str needs rcu lock
-99cdf57b33e68df7afc876739c93a11f0b1ba807 lockd: Remove stale comments
-a9ad1a8090f58b2ed1774dd0f4c7cdb8210a3793 lockd: Create a simplified .vs_dispatch method for NLM requests
-a6a63ca5652ea05637ecfe349f9e895031529556 lockd: Common NLM XDR helpers
-cc1029b51273da5b342683e9ae14ab4eeaa15997 lockd: Update the NLMv1 void argument decoder to use struct xdr_stream
-2fd0c67aabcf0f8821450b00ee511faa0b7761bf lockd: Update the NLMv1 TEST arguments decoder to use struct xdr_stream
-c1adb8c672ca2b085c400695ef064547d77eda29 lockd: Update the NLMv1 LOCK arguments decoder to use struct xdr_stream
-f4e08f3ac8c4945ea54a740e3afcf44b34e7cf44 lockd: Update the NLMv1 CANCEL arguments decoder to use struct xdr_stream
-c27045d302b022ed11d24a2653bceb6af56c6327 lockd: Update the NLMv1 UNLOCK arguments decoder to use struct xdr_stream
-16ddcabe6240c4fb01c97f6fce6c35ddf8626ad5 lockd: Update the NLMv1 nlm_res arguments decoder to use struct xdr_stream
-137e05e2f735f696e117553f7fa5ef8fb09953e1 lockd: Update the NLMv1 SM_NOTIFY arguments decoder to use struct xdr_stream
-890939e1266b9adf3b0acd5e0385b39813cb8f11 lockd: Update the NLMv1 SHARE arguments decoder to use struct xdr_stream
-14e105256b9dcdf50a003e2e9a0da77e06770a4b lockd: Update the NLMv1 FREE_ALL arguments decoder to use struct xdr_stream
-e26ec898b68b2ab64f379ba0fc0a615b2ad41f40 lockd: Update the NLMv1 void results encoder to use struct xdr_stream
-adf98a4850b9ede9fc174c78a885845fb08499a5 lockd: Update the NLMv1 TEST results encoder to use struct xdr_stream
-e96735a6980574ecbdb24c760b8d294095e47074 lockd: Update the NLMv1 nlm_res results encoder to use struct xdr_stream
-529ca3a116e8978575fec061a71fa6865a344891 lockd: Update the NLMv1 SHARE results encoder to use struct xdr_stream
-7956521aac58e434a05cf3c68c1b66c1312e5649 lockd: Update the NLMv4 void arguments decoder to use struct xdr_stream
-345b4159a075b15dc4ae70f1db90fa8abf85d2e7 lockd: Update the NLMv4 TEST arguments decoder to use struct xdr_stream
-0e5977af4fdc277984fca7d8c2e0c880935775a0 lockd: Update the NLMv4 LOCK arguments decoder to use struct xdr_stream
-1e1f38dcf3c031715191e1fd26f70a0affca4dbd lockd: Update the NLMv4 CANCEL arguments decoder to use struct xdr_stream
-d76d8c25cea794f65615f3a2324052afa4b5f900 lockd: Update the NLMv4 UNLOCK arguments decoder to use struct xdr_stream
-b4c24b5a41da63e5f3a9b6ea56cbe2a1efe49579 lockd: Update the NLMv4 nlm_res arguments decoder to use struct xdr_stream
-bc3665fd718b325cfff3abd383b00d1a87e028dc lockd: Update the NLMv4 SM_NOTIFY arguments decoder to use struct xdr_stream
-7cf96b6d0104b12aa30961901879e428884b1695 lockd: Update the NLMv4 SHARE arguments decoder to use struct xdr_stream
-3049e974a7c7cfa0c15fb807f4a3e75b2ab8517a lockd: Update the NLMv4 FREE_ALL arguments decoder to use struct xdr_stream
-ec757e423b4fcd6e5ea4405d1e8243c040458d78 lockd: Update the NLMv4 void results encoder to use struct xdr_stream
-1beef1473ccaa70a2d54f9e76fba5f534931ea23 lockd: Update the NLMv4 TEST results encoder to use struct xdr_stream
-447c14d48968d0d4c2733c3f8052cb63aa1deb38 lockd: Update the NLMv4 nlm_res results encoder to use struct xdr_stream
 0ff5b50ab1f7f39862d0cdf6803978d31b27f25e lockd: Update the NLMv4 SHARE results encoder to use struct xdr_stream
 474bc334698df98ce07c890f1898c7e7f389b0c7 nfsd: Reduce contention for the nfsd_file nf_rwsem
 e34c0ce9136a0fe96f0f547898d14c44f3c9f147 nfsd: remove redundant assignment to pointer 'this'
@@ -1075,5 +1029,51 @@ cd74f25b28ce092afb09da734a02912b8bf1ccb1 e100: Avoid memcpy() over-reading of ET
 c65e7025c60310e927c944a3907a415fe06f3999 nfc: port100: constify protocol list array
 94a994d2b2b74420c6fff5100220c2b636317242 net: phy: Remove unused including <linux/version.h>
 facfbf4f0b5afbf2d9a4147ca57c84dce2c7b8e2 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+80cd2e07dba7862c0e220725dc95996210664477 can: j1939: j1939_sk_sock_destruct(): correct a grammatical error
+4f8d474e7e8d284f269f75ededa087a9279b6995 can: j1939: fix checkpatch warnings
+2014e7247e659a61701234829941b7da878a3bd0 can: j1939: replace fall through comment by fallthrough pseudo-keyword
+325f67e16ebcd41dad300d551856b03f6fba9bfb can: j1939: j1939_session_completed(): use consistent name se_skb for the session skb
+b3a493b4a1cea2bbcb3cdddf4236f5c920364755 can: j1939: j1939_session_tx_dat(): use consistent name se_skcb for session skb control buffer
+e2cd301a04f9cb5b706f4b3a82cc3a8d852422d1 can: j1939: j1939_xtp_rx_dat_one(): use separate pointer for session skb control buffer
+28df634266a04edcaa0583c9ed1011e5ca6cc4a4 can: rx-offload: add skb queue for use during ISR
+9a4603c40616b2d2f5ef9e01a067141f110e8778 can: rx-offload: can_rx_offload_irq_finish(): directly call napi_schedule()
+e136b5898627b3b89b8fdce4ae73e1e7f518cb5a can: rx-offload: can_rx_offload_threaded_irq_finish(): add new function to be called from threaded interrupt
+3cf7fa68f472924fc1fd0f53ea0326dc8d7e7513 can: bittiming: fix documentation for struct can_tdc
+dafadfb312e973db2eaa319cc911073d2ef2090f can: netlink: clear data_bittiming if FD is turned off
+bc2b5055f81a462c2bb91c468a3a59e7b05d9980 can: netlink: remove redundant check in can_validate()
+7d9409e7d94a804e3eff110802293de61ed78c4d dt-bindings: net: can: Document transceiver implementation as phy
+e30819f06b00c230cbb3fa2ebb14996514d2fac8 can: m_can: Add support for transceiver as phy
+ff65315486d803260019155d6e329e803de0ab20 can: m_can: use devm_platform_ioremap_resource_byname
+c12fa9c18ef4d63c89dfec742694151cee4a2419 can: m_can: remove support for custom bit timing
+95dc6bb5f98ca87a278181e653553423f4e2ff05 can: mcp251xfd: mcp251xfd_probe(): try to get crystal clock rate from property
+a1872099e180f90a11b9d87388d003eb81e0e3d4 can: mcp251xfd: Fix header block to clarify independence from OF
+f4bc87577b1cfa78d6a13f9b3b885d8a8da966bd can: mcp251xfd: mcp251xfd_open(): request IRQ as shared
+34135d842c152e7af2cd315fd32edfa41aadfbdc can: esd_usb2: use DEVICE_ATTR_RO() helper macro
+7df9bd9030ea05ea974d9f57845bbd072ae7a486 can: janz-ican3: use DEVICE_ATTR_RO/RW() helper macro
+30739442803907fe9dd4aaad63d24f813358d34f can: at91_can: use DEVICE_ATTR_RW() helper macro
+f8c0bd33104aecc66116bad4f2b14071e9e9cebc net: at91_can: remove redundant blank lines
+1c45518d97d0160ff478dd89a531d838ba01a2f8 net: at91_can: add blank line after declarations
+92b52243b7bbfaa15b2e8d8ce4cdb1e3c0ce76a3 net: at91_can: fix the code style issue about macro
+c7cf029d255a74891ac6fcfbb6780baf09006b0a net: at91_can: use BIT macro
+38ffdcb561ae820e11b12bf0972cece37bcb1d3f net: at91_can: fix the alignment issue
+a6e8ba2da861bd9d5b92381edeb516668954d014 net: at91_can: add braces {} to all arms of the statement
+fc8d59060d9da2df8a2f6f0004169220e2acb402 net: at91_can: remove redundant space
+b2d2b0d7ed8740722b47778630d8daa9325b5cdb net: at91_can: fix the comments style issue
+5f3ca9f95e15a2a3b9078f0e42f1a21720d1f702 can: peak_pci: convert comments to network style comments
+75886f997fab05d2e0a5216539508ffc57624d8f can: peak_pci: fix checkpatch warnings
+9c6f82823b82d42b7b19579e4defc76cd4e69f81 can: peak_pci: Add name and FW version of the card in kernel buffer
+19d83c207767bb46c0e7a1d56a108c8067825251 can: peak_usb: pcan_usb_get_device_id(): read value only in case of success
+fc9d14344cbb91d25a0cc82cd912048256cc6b26 can: peak_usb: PCAN-USB: add support of loopback and one-shot mode
+16a89a41e40b928555c0188adee9ce57e9427f78 can: peak_usb: pcan_usb_encode_msg(): add information
+b3899575b1bbce2bce5a3b0e247b42b9a7515810 can: peak_usb: pcan_usb_decode_error(): upgrade handling of bus state changes
+7d563db1730c6521c2726ea1b1d55c1c602db6bb can: etas_es58x: fix three typos in author name and documentation
+7ba97513b993cf222bcdc50b068a4179ebbd4698 can: etas_es58x: use error pointer during device probing
+8150997be072419b812fd26b66c540458712fbea can: etas_es58x: use devm_kzalloc() to allocate device resources
+e074dc5b00a49957e2e7c65ce45ccbba4da00483 can: etas_es58x: add es58x_free_netdevs() to factorize code
+1a8e1c0f4ef3704e1e6162935f22e6c0ee69d4aa can: etas_es58x: use sizeof and sizeof_field macros instead of constant values
+12b738879f71a1ed3487055224edd0375bcbafc2 can: etas_es58x: rewrite the message cast in es58{1,_fd}_tx_can_msg to increase readability
+4f9e1d9d8557871af683884b3e05e6d0acc3fa8f can: flexcan: add platform data header
+e518c7ca0b353973a8f582ac3c27109a2640c842 can: flexcan: add mcf5441x support
+1f67d298793699d5d9f4985bd049482a06a888e7 can: flexcan: update Kconfig to enable coldfire
 
---===============4932280356176717119==--
+--===============4490627495372175799==--
