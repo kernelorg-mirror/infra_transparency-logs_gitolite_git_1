@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 25 Jul 2021 01:02:11 -0000
-Message-Id: <162717493128.7512.8241652719983955559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sun, 25 Jul 2021 02:13:06 -0000
+Message-Id: <162717918610.20153.908254120275126063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 75bed8f80c62126995507a86afb2be36282ab03b
-    new: af661f771f2cfa9b03622e89045c4ee33a9f62a8
+  - ref: refs/heads/untested.m68k
+    old: 5dc1f68987d17a2a43ed628cdbacd83947294abb
+    new: 21cd15c5574732a4a24c9df945de0af0a91950f1
     log: |
-         af661f771f2cfa9b03622e89045c4ee33a9f62a8 Sun 25 Jul 2021 01:01:35 AM UTC
+         21cd15c5574732a4a24c9df945de0af0a91950f1 m68k: leave stack mangling to asm wrapper of sigreturn()
          
