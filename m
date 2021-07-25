@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 25 Jul 2021 09:45:59 -0000
-Message-Id: <162720635992.4016.12608357918236281121@gitolite.kernel.org>
+Date: Sun, 25 Jul 2021 09:47:36 -0000
+Message-Id: <162720645661.4595.4967748637059012538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 149ea30fdd5c28b89a3bfdecfc75cdab1deddb14
-    new: ad4e1e48a6291f7fb53fbef38ca264966ffd65c9
+    old: ad4e1e48a6291f7fb53fbef38ca264966ffd65c9
+    new: 7e4960b3d66d7248b23de3251118147812b42da2
     log: |
-         ad4e1e48a6291f7fb53fbef38ca264966ffd65c9 net: phy: broadcom: re-add check for PHY_BRCM_DIS_TXCRXC_NOENRGY on the BCM54811 PHY
+         7e4960b3d66d7248b23de3251118147812b42da2 mlx4: Fix missing error code in mlx4_load_one()
          
