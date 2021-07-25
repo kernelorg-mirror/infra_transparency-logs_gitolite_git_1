@@ -1,27 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Sun, 25 Jul 2021 15:43:09 -0000
-Message-Id: <162722778910.13298.6687426421443206418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Sun, 25 Jul 2021 16:14:41 -0000
+Message-Id: <162722968143.498.895234866627643808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/dev-test
-    old: 512e29e23668288eb5143a05caf4fba65dec8a3d
-    new: 2d14e07069cfba9f8eb4c3da6cdaf0a92d5df6c8
+  - ref: refs/heads/master
+    old: 8ff663a7615ee7f7ca67d71b00b25f6cfa8250c1
+    new: 7c76d17a9cebdca7824a0d72fb5585681ef51064
     log: |
-         3e679dc78c17825a55e6f2cdb9078e375c945b15 f2fs: make f2fs_write_failed() take struct inode
-         6de8687ccdefed40d617492f4e1b3962eb577b6b f2fs: remove allow_outplace_dio()
-         2eeb0dce728a7eac3e4dfe355d98af40d61f7a26 f2fs: don't sleep while grabing nat_tree_lock
-         898dff6d53ba11ffb78fce0293b6c6c31f47b439 f2fs: add sysfs node to control ra_pages for fadvise seq file
-         3cc5a7becf4ef845447fdd9e04303a45f365ae05 f2fs: change fiemap way in printing compression chunk
-         a7349aba74ce7daf5c7ed96dc8f824a3ccf50318 f2fs: compress: remove unneeded read when rewrite whole cluster
-         d1e0f1e27cbd5a564ca89b6b5cc93cfe7f11b692 f2fs: rework write preallocations
-         5f0f16e0c9d5c42b6cc28d40976a30067eb02f77 f2fs: reduce indentation in f2fs_file_write_iter()
-         2d14e07069cfba9f8eb4c3da6cdaf0a92d5df6c8 f2fs: fix the f2fs_file_write_iter tracepoint
+         7c76d17a9cebdca7824a0d72fb5585681ef51064 ssh token: Make strings in the plugin translatable
          
+  - ref: refs/merge-requests/192/merge
+    old: 054191858bfbab2337cf1e66c0cbab5ef2d98665
+    new: 8b486a1e516c5846a3d3d3c01b6f8a75c6011f88
+    log: |
+         cc374ee10d63379c7931d684dcb3c7fb778c0059 veritysetup: add --root-hash-file option
+         d3ad9fe25f8f8c8e9528fe93781c290cfdb3c789 po: update es.po (from translationproject.org)
+         8ff663a7615ee7f7ca67d71b00b25f6cfa8250c1 po: update sr.po (from translationproject.org)
+         8b486a1e516c5846a3d3d3c01b6f8a75c6011f88 Merge branch 'pin_try_loop' into 'master'
+         
+  - ref: refs/merge-requests/193/head
+    old: 0000000000000000000000000000000000000000
+    new: 7c76d17a9cebdca7824a0d72fb5585681ef51064
+  - ref: refs/merge-requests/193/merge
+    old: 0000000000000000000000000000000000000000
+    new: e12d7f92df8f88cad822a38c56d0be668baa454a
