@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3401267107836449510=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 26 Jul 2021 21:21:31 -0000
-Message-Id: <162733449112.10966.9122268860786468464@gitolite.kernel.org>
-
---===============3401267107836449510==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 26 Jul 2021 21:22:03 -0000
+Message-Id: <162733452318.11237.13306046655325689801@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.14
-    old: e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0
-    new: 53ca18acbe645656132fb5a329833db711067e54
+  - ref: refs/heads/for-linus
+    old: 693d5f625a59e66647f130bafd3f85279691a5d7
+    new: 68843d22cc5b2d3d677479b0e1c45a63ef63458a
     log: |
-         53ca18acbe645656132fb5a329833db711067e54 spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
+         0f32d9eb38c13c32895b5bf695eac639cee02d6c ASoC: Intel: sof_da7219_mx98360a: fail to initialize soundcard
+         68843d22cc5b2d3d677479b0e1c45a63ef63458a Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-
---===============3401267107836449510==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1627334482 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1627334488-a01a850a08b03f48f4cb60fa8c7aa91549a650e2
-
-e09f2ab8eecc6dcbd7013a1303cbe56b00dc9fb0 53ca18acbe645656132fb5a329833db711067e54 refs/heads/spi-5.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmD/J1IACgkQJNaLcl1U
-h9Dd6Af8CmeCUyPDiaPP3JczmemaD1dEZtW9Jn8OCQ/8Vww4Hobl9mnMryt/8BbU
-gpJt3UO3yPB1SIRo371euH6LKQCsZZd267lX7dKtOQm1CNwq7leB7B8iaxSF6v/9
-BJe94oDUnMGWIl9jaCcN5VPAo+Ib5a0fvMH5bmQ6dLp+7C23/W2OdO/7OSvGHozI
-0vdMYXQdDhFx3mdOuhiNFLXjr/QnX/mvBV4w5u4ifTMbC5nAQMGT8sIFDmELJXon
-r1kWJoDJbjxIPYRguJk/SqLpMMOvboZ8M3PauwzF/Ij6WpzftzYjrHCJ9cRLtAff
-7awtfrqKhTLbs3X04yNiZ6UenCL4qQ==
-=959A
------END PGP SIGNATURE-----
-
---===============3401267107836449510==--
+  - ref: refs/heads/for-next
+    old: c895e9de1399b2e8632f89c134b58dd4ae726e66
+    new: c7a8c30688d1695531fa5ade62a9bc4650b7dfe2
+    log: |
+         0f32d9eb38c13c32895b5bf695eac639cee02d6c ASoC: Intel: sof_da7219_mx98360a: fail to initialize soundcard
+         bc1c8e4eee79646b9ae10ededed06a569c7c2bc9 ASoC: rt1015: Remove unnecessary flush work on rt1015 driver
+         68843d22cc5b2d3d677479b0e1c45a63ef63458a Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         c7a8c30688d1695531fa5ade62a9bc4650b7dfe2 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         
