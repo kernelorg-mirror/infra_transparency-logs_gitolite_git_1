@@ -1,53 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============0317637268448328653=="
+Content-Type: multipart/mixed; boundary="===============1120412905267820160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 26 Jul 2021 06:27:28 -0000
-Message-Id: <162728084879.3541.1244245218339742032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 26 Jul 2021 06:27:58 -0000
+Message-Id: <162728087880.3805.12975379406975061070@gitolite.kernel.org>
 
---===============0317637268448328653==
+--===============1120412905267820160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
+  - ref: refs/tags/v4.14.240
+    old: 0000000000000000000000000000000000000000
+    new: b612e25a9835e22b2826c0090fd3b0821c3c7aae
+  - ref: refs/tags/v4.19.198
+    old: 0000000000000000000000000000000000000000
+    new: c95e52bf2580e26f4744d20669401c4f9f120a59
+  - ref: refs/tags/v4.4.276
+    old: 0000000000000000000000000000000000000000
+    new: 438876d897fb3a355daba151ed23082547d69180
+  - ref: refs/tags/v4.9.276
+    old: 0000000000000000000000000000000000000000
+    new: 9fe798256ce2d44fa18b9dcd08932136a3986e22
+  - ref: refs/tags/v5.10.52
+    old: 0000000000000000000000000000000000000000
+    new: f171ff6943001ff3eea62ba5e5f200a40fa825c4
+  - ref: refs/tags/v5.10.53
+    old: 0000000000000000000000000000000000000000
+    new: e9e098c85cd5c0b1113315d44ef3bc3663c4ab19
+  - ref: refs/tags/v5.12.19
+    old: 0000000000000000000000000000000000000000
+    new: 9ccfd7f075208a04e6d5a6b0f6eec478876c4d69
+  - ref: refs/tags/v5.13.4
+    old: 0000000000000000000000000000000000000000
+    new: ff58dcd4b661c8436a2bc0d4000139e0296c7591
+  - ref: refs/tags/v5.13.5
+    old: 0000000000000000000000000000000000000000
+    new: 2a67de36b48ac69b9b2a577e9914a5b6a8a26793
   - ref: refs/tags/v5.14-rc3
     old: 0000000000000000000000000000000000000000
     new: e610ab8323e2278fdf9e9f83eb56183d373257be
+  - ref: refs/tags/v5.4.134
+    old: 0000000000000000000000000000000000000000
+    new: 98dbcfe1c1cecfcec2719684c3cb6c662051d174
+  - ref: refs/tags/v5.4.135
+    old: 0000000000000000000000000000000000000000
+    new: ed3858be5c75179a170ce2d2e1d490943c55c8a3
 
---===============0317637268448328653==
+--===============1120412905267820160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627280847 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1627280847-422cf82eab438bf45565d7b59e8dc57e975d31c5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627280876 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1627280875-dcb94cbe1b38c9d720d2904936e8455f9cf0bd2b
 
+0000000000000000000000000000000000000000 b612e25a9835e22b2826c0090fd3b0821c3c7aae refs/tags/v4.14.240
+0000000000000000000000000000000000000000 c95e52bf2580e26f4744d20669401c4f9f120a59 refs/tags/v4.19.198
+0000000000000000000000000000000000000000 438876d897fb3a355daba151ed23082547d69180 refs/tags/v4.4.276
+0000000000000000000000000000000000000000 9fe798256ce2d44fa18b9dcd08932136a3986e22 refs/tags/v4.9.276
+0000000000000000000000000000000000000000 f171ff6943001ff3eea62ba5e5f200a40fa825c4 refs/tags/v5.10.52
+0000000000000000000000000000000000000000 e9e098c85cd5c0b1113315d44ef3bc3663c4ab19 refs/tags/v5.10.53
+0000000000000000000000000000000000000000 9ccfd7f075208a04e6d5a6b0f6eec478876c4d69 refs/tags/v5.12.19
+0000000000000000000000000000000000000000 ff58dcd4b661c8436a2bc0d4000139e0296c7591 refs/tags/v5.13.4
+0000000000000000000000000000000000000000 2a67de36b48ac69b9b2a577e9914a5b6a8a26793 refs/tags/v5.13.5
 0000000000000000000000000000000000000000 e610ab8323e2278fdf9e9f83eb56183d373257be refs/tags/v5.14-rc3
+0000000000000000000000000000000000000000 98dbcfe1c1cecfcec2719684c3cb6c662051d174 refs/tags/v5.4.134
+0000000000000000000000000000000000000000 ed3858be5c75179a170ce2d2e1d490943c55c8a3 refs/tags/v5.4.135
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+Vc8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3NMP/2gsJ7giMcowCZFohaip
-DJuzOVXvqFLlv8E13kBqgDjRHSfgLB35zeZZx6um2zrNgs/yiFGpnFVY8NF8Q3a+
-IgNovfckMnHv/N6q4KpUHfKM/jH88G3I4bOialvI/9A1Ra9nU9RI3IAskS2BSRKt
-kf0M402bsh+z3c02W4tsQhBIKySrMY/iZyCkhhh1gAGrMPaVyfDVKfYw56eZBliS
-Kx8VKlXMXMNpdHwZMKBcUma4oiVjKpi77W6t1EH4M5DupuDwHwurADjryN50M1G7
-CSLPFYYAr24/Gwux3/kVprNTcTwPX/8FlxvBzJOn5M5Z0J9nBJ1eGjm5VCw4vvqJ
-pA7JFJRz/yv2Iehpsb+dbfFFuPaNWGzZecFU5d+C7iE/XWKq2GcJqEMjhLy/Kls1
-Bkt2GSvRzZI45E7xC113OHMhd9/4s1dX/M6ZNSWY2r2W74ILr0oeiWxGopr7Kxuo
-d6ZqUhStIMreY46nGmgcGsfeQuPrQYUNvBak0/IZD1WZHG84wRusckZwzoobu8bw
-eKurIqIgxEkeW+vmQEm+3dp39pRY0WASMsExXn/VWECABSy3r5BZpGinf75Cx34C
-p9PbwiRa3Xg+31/0zmZBf4WhWmVRVdVkIASZh8v20jBKkTwNwN4+MMHrZjWZ1gsg
-ExpllYa2R/qrnHC0Z7f9DGlB
-=TsGe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+VewbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z8IQAKtmpQJYimjzqBo6H4hB
+pEiE1DIBzqwfJ9wGJwisMa0CeZnZ6FnIiHKa15Nqqv/8QInbq5QoUne9Hao+a/0M
+7Ioyp3DXJnX3LDMwBhH8HB+kx2enOwy8pVIjAcrrX7mSUswMbp1S7h1SFxcN6zsX
+3tO4kONRamTigMvqX2s9KIVPL2CpqNafScUeDXu7M6eRcnp3LeilpSxrcFsrs5s6
+rF1v+Pflv2I3wxROEOdSVHJVRzQNCTK/rUK1BLRVdHTemQu/9KFz5MaLZeuqh/cr
+zjH0vmvQfyZ6t7lFAtbro4QZudBZMQqVFuxXVlh6cOQngS7riQGCzZm+VxSNijUh
+BNFQ8iHTtT/v7X1EwS4pUwllJbVXJcCAFsUGD/nY5P1nF3/Hri48F3r30C59JERM
+RfHwifYWHDEBYW9dYvOy8ESOPOaQz5O3U3I9uG3cRbhW90Tqvm/iSSt4QYaZkTGm
+8uDVGYFWvHZfWzkJ1flmy4onGVijJ5qzWQ8V5mdbscUJ6O23kwl2uuBwnPRU70w9
+Qxglclp2cCGVwHnsajWAdIFl4WClgPiFZXIw884L+oeaEImh5WhK6sSJ/wblFeiJ
+6ff1DNgUVxfjccWXVlNw9baSZtcyus/WCYmgfspFF0bbRSdzic3D8kXZ8ura9HFu
+JGd+ADsb2zMZtLmMXnwTsyF7
+=kyl/
 -----END PGP SIGNATURE-----
 
---===============0317637268448328653==--
+--===============1120412905267820160==--
