@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2536285387249360982=="
+Content-Type: multipart/mixed; boundary="===============7136624006986227049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 26 Jul 2021 09:14:41 -0000
-Message-Id: <162729088119.31002.2454424944661232176@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 09:14:46 -0000
+Message-Id: <162729088645.31127.1837523656932790602@gitolite.kernel.org>
 
---===============2536285387249360982==
+--===============7136624006986227049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+  - ref: refs/heads/usb-linus
+    old: 1d1b97d5e7636d72890a5bdd0b40e980e54b2d34
     new: ff1176468d368232b684f75e82563369208bc371
-    log: revlist-e73f0f0ee754-ff1176468d36.txt
+    log: revlist-1d1b97d5e763-ff1176468d36.txt
 
---===============2536285387249360982==
+--===============7136624006986227049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627290880 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627290885 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1627290879-184351c013d76c6090e7da81a57de9eaba619dc0
+nonce 1627290884-72f6f1329a0c5f27b8a4b5021e67c0a2a38aa8d8
 
-e73f0f0ee7541171d89f2e2491130c7771ba58d3 ff1176468d368232b684f75e82563369208bc371 refs/heads/main
+1d1b97d5e7636d72890a5bdd0b40e980e54b2d34 ff1176468d368232b684f75e82563369208bc371 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+fQAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+phcP/RPeJPr7kH8PtFO/0Ets
-iM15plsHxQ+gFqdRIFKmADu0adaVMQlhig3uyA0mEAy2JG56RJvPpfkas3NMTwP+
-18ZQU+GTF+V27uRrDeVqwWjYqnLh3QrK4xBuzhWtGaxyGuIleCPgAHKQPJvybdbW
-XA79vzfaLqxef4kIGdWBUxjmZS7yivgU9wleMwzRMficJ1w1kT4KaywQsvFw/e2a
-UCubd0j1mng5cpqs39bZTdpFt8WhsKwlGIqtvx6u5jTjF6YDH1ofmRzlBtNczAvD
-1Ph7gS/5mcIlKaUauKupA84owJC+ahymJ0BuuCzvq1H8X4t250/81IMz6Now3uGD
-6YsMBxQSAh3SCAcFrFs7AcP+piPKJniksPpuduk27putM8PhcFexI1iLI3bGI1qs
-DzMenMalh++bSdmOUwS9iD06bDA1QLX+EnYHYGMbZyUi5YENDjscyzRM1v9hjlle
-rvtPCb6yDtqXPHsesbfUdDye90YUuTC8bY09WniI7/FugLtirrEBOgPUvs6yZ8kW
-rRPDIELvdzeaXlVz/XGwGHoRcxtElFAxh3Z4Dm3J4Y9pL6EithsWjJeII2+KhdZk
-woSFzaQdTVxMEVsShIqvOE8G3/1cuOpA8OfBlueMjOhDsYimcQmWXK7O6B9F4RgQ
-ZzO+BuEijt9v1hSufw8u8/Lq
-=2mb9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+fQUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sr0P/jB4xk5ZGq0C+Vkbh3I8
+rDyBWBO6GbQUYlspiXgnyzwWtorBYau/7g1QZuIPs6FqoqxrI0ThGkWV/yO2+90D
+UTpar/NkG0MOTSh7OyDZazTXaP/btJVubuS9CxPhXxfYds1vFbnbrjsbZtaJrW8C
+rryUoa7qA4sqewlV+Aa8ovTu6RiMq4OLGg/D8g8mvOQbz44i2o9w9AmDWC+AbCH+
+GR4CyYSxP7Uz10SU4ZYs1Q3gxNQXqT5uZUEZbO1n1RZs617XpNch1qWIOwsIYNFt
+TypfB6ujC8LPVjCQq/SJuDlmYAhIdLUi6vddKbcV+RAV6UOyPdIypIPONUBqZq+e
+14CnhfgFCcHbGxl63wqzQmSsSFFUx62l7T6GDEjchdz+y6TFJ3VO6OprF/zeunpW
+QG8+vl8kI4CZ1xy2T4wkqsgDPhk5hODF7oJbtzqwAbZwEfG/XffMGRgDSPDYYTgY
+D6S6uvOVPshSHabAXLwsT2Zcm++yNzQPRJVx6IqmuCKRkCbqjo08KGIvyJ3b3mIs
+OZ3mFJ523D/xa0dRYylzB0AjNcP/u+rQTpfBiD/8ZJcFKGGeUJdgUYdmiHSr74Hx
+bzlY4fhQid0XnNAPLwnsRAAnbE0oVjQAg5uZQ4XSbdrD7vXMr68QDY3YONV9WPaR
+sJlOp9yn+Xnp3Iydv6f7YdbX
+=GAMX
 -----END PGP SIGNATURE-----
 
---===============2536285387249360982==
+--===============7136624006986227049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-ff1176468d36.txt
+Content-Disposition: attachment; filename=revlist-1d1b97d5e763-ff1176468d36.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -286,7 +286,6 @@ d2eecc596bdf9ca93b3df41e6f38695be37cb2e3 Merge branch 'bridge-mc-fixes'
 d5c9d0a207f4c61734ccd4b51818788e8b86296a mt76: mt7921: Fix fall-through warning for Clang
 4020f26b368c3e72450afedaefc2fd07ba301d20 nfp: flower-ct: Fix fall-through warning for Clang
 81eb1d17115fba5ea67a4939a136888a7ec05c32 drm/i915: Fix fall-through warning for Clang
-94b619a07655805a1622484967754f5848640456 USB: serial: option: add support for u-blox LARA-R6 family
 2fa9fd69b3ee015a873e44f7c645ad7bcb79d290 clk: renesas: rzg2l: Add multi clock PM support
 e93c1373613fb2f3e59db5f13271f155820e6a67 clk: renesas: r9a07g044: Rename divider table
 fd8c3f6c36eb093039d4aeb20cceee00c7c6ba1a clk: renesas: r9a07g044: Fix P1 Clock
@@ -319,7 +318,6 @@ a1739c307a072e46473a2ba239eb60e6d711c96c net: hdlc: rename 'mod_init' & 'mod_exi
 71ce9d92fc7089f287c3e95a981bdec7545a8588 octeontx2-pf: Fix uninitialized boolean variable pps
 efdb6720b44b2f016d2a04b2c84e577e57ed84bd mm/rmap: fix munlocking Anon THP with mlocked ptes
 79789db03fdd77510cfb35cb4b3bd52b6c50c901 mm: Make copy_huge_page() always available
-b0863f1927323110e3d0d69f6adb6a91018a9a3c USB: core: Fix incorrect pipe calculation in do_proc_control()
 7fef2edf7cc753b51f7ccc74993971b0a9c81eca sd: don't mess with SD_MINORS for CONFIG_DEBUG_BLOCK_EXT_DEVT
 ed01ad3a2fac8fff63f441ead4f8653da053c65b kunit: tool: Fix error messages for cases of no tests and wrong TAP header
 a72fa6304342a3ad749955fd9007695f761e12d6 Documentation: kunit: drop obsolete note about uml_abort for coverage
@@ -672,7 +670,6 @@ cb7a6b3bac1d0d773f2b6cc35f6bab61eb5de5ef octeontx2-af: Prepare for allocating MC
 8d4abca95ecc82fc8c41912fa0085281f19cc29f media: ngene: Fix out-of-bounds bug in ngene_command_config_free_buf()
 fae21608c31ca987d9dfc0422ac9b5bd21c213a6 scsi: mpt3sas: Transition IOC to Ready state during shutdown
 114613f62f42e7cbc1242c4e82076a0153043761 ALSA: hda: intel-dsp-cfg: add missing ElkhartLake PCI ID
-e9db418d4b828dd049caaf5ed65dc86f93bb1a0c USB: serial: cp210x: fix comments for GE CS1000
 47e1e233e9d822dfda068383fb9a616451bda703 efi/mokvar: Reserve the table only if it is in boot services data
 c4824ae7db418aee6f50f308a20b832e58e997fd ALSA: pcm: Fix mmap capability check
 d371588910715ebf7fa8e3a5d21ea5169c852927 ALSA: pcm: Fix mmap without buffer preallocation
@@ -710,32 +707,9 @@ a750bff5b99e4097de2fa0cf00b78abb98a3c0d2 Merge tag 'at24-fixes-for-v5.14' of git
 09cfae9f13d51700b0fecf591dcd658fc5375428 ixgbe: Fix packet corruption due to missing DMA sync
 a47fa41381a09e5997afd762664db4f5f6657e03 scsi: target: Fix NULL dereference on XCOPY completion
 235c3610d5f02ee91244239b43cd9ae8b4859dff drm/ttm: Force re-init if ttm_global_init() fails
-44cf53602f5a0db80d53c8fff6cdbcae59650a42 Revert "usb: renesas-xhci: Fix handling of unknown ROM state"
-72f68bf5c756f5ce1139b31daae2684501383ad5 xhci: Fix lost USB 2 remote wake
-57560ee95cb7f91cf0bc31d4ae8276e0dcfe17aa usb: typec: tipd: Don't block probing of consumer of "connector" nodes
-1bf2761c837571a66ec290fb66c90413821ffda2 usb: hub: Fix link power management max exit latency (MEL) calculations
-1b7f56fbc7a1b66967b6114d1b5f5a257c3abae6 usb: hub: Disable USB 3 device initiated lpm if exit latency is too high
-0b60557230adfdeb8164e0b342ac9cd469a75759 usb: ehci: Prevent missed ehci interrupts with edge-triggered MSI
-6abf2fe6b4bf6e5256b80c5817908151d2d33e9f USB: usb-storage: Add LaCie Rugged USB3-FW to IGNORE_UAS
-86762ad4abcc549deb7a155c8e5e961b9755bcf0 usb: typec: stusb160x: register role switch before interrupt registration
-6b63376722d9e1b915a2948e9b30f4ba2712e3f5 usb: typec: stusb160x: Don't block probing of consumer of "connector" nodes
-a6b125621c081bef519fd78cf336de351390da3f MAINTAINERS: repair reference in USB IP DRIVER FOR HISILICON KIRIN 970
-5b01248156bd75303e66985c351dee648c149979 usb: gadget: Fix Unbalanced pm_runtime_enable in tegra_xudc_probe
-b5fdf5c6e6bee35837e160c00ac89327bdad031b usb: max-3421: Prevent corruption of freed memory
-40edb52298df4c1dbbdb30b19e3ce92cf612a918 usb: dwc3: avoid NULL access of usb_gadget_driver
-4bb233b7ba87785c7ac519863f51ba61f4dbc459 usb: gadget: u_serial: remove WARN_ON on null port
-0665e387318607d8269bfdea60723c627c8bae43 usb: xhci: avoid renesas_usb_fw.mem when it's unusable
-3d11de2d57b92e943767d7d070b0df9b18089d56 usb: phy: Fix page fault from usb_phy_uevent
-fecb3a171db425e5068b27231f8efe154bf72637 usb: dwc2: gadget: Fix GOUTNAK flow for Slave mode.
-5719df243e118fb343725e8b2afb1637e1af1373 usb: renesas_usbhs: Fix superfluous irqs happen after usb_pkt_pop()
-c4a0f7a6ab5417eb6105b0e1d7e6e67f6ef7d4e5 usb: dwc2: Skip clock gating on Samsung SoCs
-d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4 usb: dwc2: gadget: Fix sending zero length packet in DDMA mode.
-1f958f3dff42a7239bbfdd9a33db5f11574d16bf Revert "arm64: dts: qcom: Harmonize DWC USB3 DT nodes name"
 7764656b108cd308c39e9a8554353b8f9ca232a3 nvme-pci: don't WARN_ON in nvme_reset_work if ctrl.state is not RESETTING
 5396fdac56d87d04e75e5068c0c92d33625f51e7 nvme: fix refcounting imbalance when all paths are down
 234211b8dd161fa25f192c78d5a8d2dd6bf920a0 nvme: fix nvme_setup_command metadata trace event
-5c912e679506ef72adb95616d2f56a8a1b079a3d usb: cdc-wdm: fix build error when CONFIG_WWAN_CORE is not set
-f3a1a937f7b240be623d989c8553a6d01465d04f Revert "USB: quirks: ignore remote wake-up on Fibocom L850-GL LTE modem"
 a7c3acca53801e10a77ede6b759a73f5ac4bc261 arm64: smccc: Save lr before calling __arm_smccc_sve_check()
 d8a719059b9dc963aa190598778ac804ff3e6a87 Revert "mm/pgtable: add stubs for {pmd/pub}_{set/clear}_huge"
 2dbd9c27eda5cf83aa990266a3355960d860da71 drm/ttm: add missing NULL checks
@@ -762,7 +736,6 @@ ece1278a9b81bdfc088f087f8372a072b7010956 selftests: net: add ESP-in-UDP PMTU tes
 f5a11c69b69923a4367d24365ad4dff6d4f3fc42 Revert "x86/hyperv: fix logical processor creation"
 bb55362bd6976631b662ca712779b6532d8de0a6 ibmvnic: Remove the proper scrq flush
 161dcc02428858fe338b7493158ed6f5fc2a8f26 net: ixp46x: fix ptp build failure
-d6a206e60124a9759dd7f6dfb86b0e1d3b1df82e USB: serial: cp210x: add ID for CEL EM3588 USB ZigBee stick
 234d8f2726f705d6f6956610da7d42c51f050784 Merge tag 'asoc-fix-v5.14-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 ec3102dc6b36c692104c4a0546d4119de59a3bc1 drm/amd/display: Fix comparison error in dcn21 DML
 32f1d0cfc3444fb44ff1dba10d28e479690bdd3e drm/amd/display: implement workaround for riommu related hang
@@ -813,7 +786,6 @@ b62366181a5e9473e9c10e98f400049491c55876 cifs: support share failover when remou
 7c14e4d6fbdd68bf8026868e8de263017c81b83d Merge tag 'hyperv-fixes-signed-20210722' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 9f42f674a89200d4f465a7db6070e079f3c6145f Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 21a64910997e0c1d268bebf9b1217ba5804d592d CIFS: Clarify SMB1 code for POSIX Create
-1d1b97d5e7636d72890a5bdd0b40e980e54b2d34 Merge tag 'usb-serial-5.14-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 7b09d4e0be94968b7c6c117e34ca90cea9c6d986 CIFS: Clarify SMB1 code for POSIX delete file
 7054133da39a82c1dc44ce796f13a7cb0d6a0b3c Merge tag 'nvme-5.14-2021-07-22' of git://git.infradead.org/nvme into block-5.14
 9bead1b58c4c4a85319d0fc8a5c83e7374977d28 Merge tag 'array-bounds-fixes-5.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
@@ -883,4 +855,4 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
 
---===============2536285387249360982==--
+--===============7136624006986227049==--
