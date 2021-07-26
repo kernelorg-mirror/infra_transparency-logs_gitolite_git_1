@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1628500731639700435=="
+Content-Type: multipart/mixed; boundary="===============4417599545479826325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 26 Jul 2021 10:55:55 -0000
-Message-Id: <162729695531.6988.16585235155591582244@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 10:56:00 -0000
+Message-Id: <162729696032.7118.14131430779922932308@gitolite.kernel.org>
 
---===============1628500731639700435==
+--===============4417599545479826325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
+  - ref: refs/heads/char-misc-linus
+    old: c453db6cd96418c79702eaf38259002755ab23ff
     new: ff1176468d368232b684f75e82563369208bc371
-    log: revlist-2734d6c1b1a0-ff1176468d36.txt
+    log: revlist-c453db6cd964-ff1176468d36.txt
 
---===============1628500731639700435==
+--===============4417599545479826325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627296954 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627296959 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1627296953-1cc2be9c9adfeb4db7cc6d2957854c5ac17d3bf4
+nonce 1627296958-26f46e5ea2584c661c3039458b64c6bb29b9fec4
 
-2734d6c1b1a089fb593ef6a23d4b70903526fe0c ff1176468d368232b684f75e82563369208bc371 refs/heads/main
+c453db6cd96418c79702eaf38259002755ab23ff ff1176468d368232b684f75e82563369208bc371 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+lLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BAgQAMONCaF8bX5VEOq6c4z4
-nElaC/84w9g67viieB4m7/5m2X9s8YkPIbb/9Mxfi+4d1d/80InqB193+5oUnELu
-yG6TxNmvDlx1narxScziEnyDhDWDJIxwZ3dCJTh+PBTqrln7rGjF0/T9ejrhKU8J
-9OnI14eh20jHBldyIycGe2mDR1NNcIKeUn2Vn51ejXdeji4dWje85pfn/6ro/35S
-5Zp4oUQm91YGLNv5MNut94umb7IfF3uv8Rsmi8bxB9TQFDrc/TyPcRKLB8KoB3ZI
-tL0cKqS9/ulJercIcFNKlho//I5bOcJFJqWpn1hH1J3106kevutPMEUQNM8d1nP3
-geTzdVXjqRcmUME82vUr7nVymXXyAthixkZO6SvK6GBocg07jj0oZbRD37uy7WK2
-+LyOtRc/qfn+Ibh4VI7UbTpD+P5vEguKoLW80nIVRPVvNzib4tH07TBIATMPtBad
-g1GYpeXesIdEDvQuvmCB3MUm5CU+wUnVLPxvcaFL8qb7v+If98jdZjVkDWyYZcdm
-thf6Qu66KzdcYTdA3mSO46JMyA27JFDMN62XEAOqL7ZGdIEDOmuWAcEMa7Xi39jw
-IMfAnreiX0q9mYmauBiiPnaX26/ZaqvFWpz+Dnm1PXWpH6JvakWk95i0p8IbZapX
-kP3UiIysq68+tNVx24bVkbkq
-=JLJx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+lL8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9MsP/2+q9j3iGZHzhwzHeU19
+jJOiScmxqcsyojmnCdrCCbkQboH0E3VdpBRl/e5HR9DYyRChmozbwF/cP99gR1FK
+pKdKgD1JPEt7kJ1O7TJkC02B+C9ley1D/DslpoPb3UOvptXYTuspJ0R3Aq1HhZEj
+HX2JuuOBP+1UfTCEIJIct8YyHligix1mK1GXboJyCKtYEHvthi5580S28QSClGRz
+t1q6RjVKBKLiT82ocA8MnXgWRX9nXlFAd13DfAAIvezMpVzQHcOaMQk7tTNtBL4u
+iJu6Ni47+5zhsMl/cmPtuw8sRJurXJNnhXofbJxk6dXuBLg6k+IA7gXsPZNGLmbQ
++Lns2XMTr1GSZ4ZL2+l1nR7ObBHMZ1vTu7YFs4N3vkHXYmVhDKyaiZvep3HDGmtG
+05vkvrc93XD/jUJkq+yPvoizGiuTVDgKQ4idnoqSHbIvDPoiblyYEIpVRrxRcwWm
+j0F1nzvsyMkuY+D+cqfliz7OksO7Bltqm8mkaLY2SUxiPvuQK88QT01W7jyq/hl1
+DlZJAcndx4NJCv88lVYPrymzuRyct3fnITkSSQdJjtRHKvw9c6sSz9sV6DUQfxho
+Pt8yFcOSuvZYF4rhTBD/5Q/Jt8KVcjswosaE1/Y8gc6o/l4Wt9YrcXk3MSUSXcc+
+2WTsoq0iap7nLnP4aGic4Ig/
+=C9MV
 -----END PGP SIGNATURE-----
 
---===============1628500731639700435==
+--===============4417599545479826325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2734d6c1b1a0-ff1176468d36.txt
+Content-Disposition: attachment; filename=revlist-c453db6cd964-ff1176468d36.txt
 
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
 0c4f8fd3ed9cb27228497f0ae495ea6cef7017b1 ASoC: remove zte zx dangling kconfig
@@ -261,12 +261,6 @@ f3a1a937f7b240be623d989c8553a6d01465d04f Revert "USB: quirks: ignore remote wake
 a7c3acca53801e10a77ede6b759a73f5ac4bc261 arm64: smccc: Save lr before calling __arm_smccc_sve_check()
 d8a719059b9dc963aa190598778ac804ff3e6a87 Revert "mm/pgtable: add stubs for {pmd/pub}_{set/clear}_huge"
 2dbd9c27eda5cf83aa990266a3355960d860da71 drm/ttm: add missing NULL checks
-56f6f4c4eb2a710ec8878dd9373d3d2b2eb75f5c bus: mhi: pci_generic: Apply no-op for wake using sideband wake boolean
-546362a9ef2ef40b57c6605f14e88ced507f8dd0 bus: mhi: core: Validate channel ID when processing command completions
-b8a97f2a65388394f433bf0730293a94f7d49046 bus: mhi: pci_generic: Fix inbound IPCR channel
-e703eaff5089da93fd379678f0371f52497042ba MAINTAINERS: Update for VMCI driver
-ebea6761b620d758ed77d2df70fab1ae7a363151 MAINTAINERS: Change ACRN HSM driver maintainer
-c453db6cd96418c79702eaf38259002755ab23ff nds32: fix up stack guard gap
 6c881ca0b3040f3e724eae513117ba4ddef86057 afs: Fix tracepoint string placement with built-in AFS
 afe6949862f77bcc14fa16ad7938a04e84586d6a afs: check function return
 5a972474cf685bf99ca430979657095bda3a15c8 afs: Fix setting of writeback_index
@@ -405,4 +399,4 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
 
---===============1628500731639700435==--
+--===============4417599545479826325==--
