@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 26 Jul 2021 20:51:25 -0000
-Message-Id: <162733268568.23787.7635497342316938884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 26 Jul 2021 21:10:50 -0000
+Message-Id: <162733385096.3045.14673478894561803522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 6abf65fcf126b33458c3762fd7f9553d3c948a02
-    new: 10bef70e0a4aee43123b2465a3d7da9ab3d302ae
+  - ref: refs/heads/dev
+    old: b7d8cb3965dd8f68bf17f7fad2026b5656556962
+    new: 3436c7ceb4b39610af2f02dc650abc08309595bf
     log: |
-         4cbbc7502aa9ee9aa3e8182e74e1351ddb746730 svcrdma: Fewer calls to wake_up() in Send completion handler
-         fb7160da0ca41b95d5bad062ae1217534048bb76 svcrdma: Relieve contention on sc_send_lock.
-         10bef70e0a4aee43123b2465a3d7da9ab3d302ae svcrdma: Convert rdma->sc_rw_ctxts to llist
+         8ca7f97122bfb9cdf0e109b0cfd8e504a9e798d1 rcu: Comment rcu_gp_init() code waiting for CPU-hotplug operations
+         3436c7ceb4b39610af2f02dc650abc08309595bf EXP cpu: Instrument identify_boot_cpu() and smp_store_cpu_info()
          
