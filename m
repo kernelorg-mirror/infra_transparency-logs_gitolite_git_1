@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3508697361222527614=="
+Content-Type: multipart/mixed; boundary="===============2234002532406659895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 26 Jul 2021 17:42:47 -0000
-Message-Id: <162732136741.30787.3575050856517079204@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 17:42:57 -0000
+Message-Id: <162732137785.30887.11558091134592653400@gitolite.kernel.org>
 
---===============3508697361222527614==
+--===============2234002532406659895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 7aaa0f311e2df2704fa8ddb8ed681a3b5841d0bf
     new: 92766c4628ea349c8ddab0cd7bd0488f36e5c4ce
     log: revlist-7aaa0f311e2d-92766c4628ea.txt
 
---===============3508697361222527614==
+--===============2234002532406659895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -413,4 +413,4 @@ eacf078cf4c7aa23e9591738511f142cc39b5186 sctp: send pmtu probe only if packet lo
 2ebda027148315581b89a2ed2fef84ad53b2aedd sctp: delete addr based on sin6_scope_id
 92766c4628ea349c8ddab0cd7bd0488f36e5c4ce net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
 
---===============3508697361222527614==--
+--===============2234002532406659895==--
