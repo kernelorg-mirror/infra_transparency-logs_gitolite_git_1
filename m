@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1548585356403389456=="
+Content-Type: multipart/mixed; boundary="===============5161922891394215558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 Jul 2021 12:55:08 -0000
-Message-Id: <162730410810.28394.1210642048196405257@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 12:55:13 -0000
+Message-Id: <162730411399.28479.10781616839486317831@gitolite.kernel.org>
 
---===============1548585356403389456==
+--===============5161922891394215558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 05f25d0bea1e40424b38787cf1a81f65684e760c
-    new: 0fa29511984b3e62b2ecdec53f7b7ea3c84c4d09
-    log: revlist-05f25d0bea1e-0fa29511984b.txt
+  - ref: refs/heads/m68k-queue
+    old: 88170b021c716703590487b6f5e29a6404968b21
+    new: 639b78f189c11b8355ffcf87f224be9cd71db392
+    log: revlist-88170b021c71-639b78f189c1.txt
 
---===============1548585356403389456==
+--===============5161922891394215558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f25d0bea1e-0fa29511984b.txt
+Content-Disposition: attachment; filename=revlist-88170b021c71-639b78f189c1.txt
 
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
 0c4f8fd3ed9cb27228497f0ae495ea6cef7017b1 ASoC: remove zte zx dangling kconfig
@@ -373,6 +373,9 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 3c0ce1497a449b0d150b455628947152c5f6216a Merge tag 'powerpc-5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
-0fa29511984b3e62b2ecdec53f7b7ea3c84c4d09 Merge tag 'v5.14-rc3'
+19d0ba8138b31663e49b9ba14f68e76b60c87d3a m68k: emu: Fix invalid free in nfeth_cleanup()
+db2da1d3dbc9ead08118b23e1ee7dd2d9c66b62d m68k: atari: usb: Add ISP1160 USB host controller support
+4e93f6fdf585a8a774986f20331c2be822849a9e m68k: atari: Update Kconfig.bus help text
+639b78f189c11b8355ffcf87f224be9cd71db392 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1548585356403389456==--
+--===============5161922891394215558==--
