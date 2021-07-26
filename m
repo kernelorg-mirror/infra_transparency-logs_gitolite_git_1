@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 26 Jul 2021 11:32:40 -0000
-Message-Id: <162729916054.1305.16930850269266070968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 26 Jul 2021 11:32:57 -0000
+Message-Id: <162729917724.1518.8657433301558036981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: eballetbo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: 28620f707a4b7315305d0f3e14b02cccdf7a0055
+    old: 832df96d5f957d42fd9eb9660519a0c51fe8538e
+    new: 94cbe7db7d757c2d481c3617ab5579a28cfc2175
     log: |
-         28620f707a4b7315305d0f3e14b02cccdf7a0055 gitlab-ci: Add CI/CD configuration
+         94cbe7db7d757c2d481c3617ab5579a28cfc2175 net: stmmac: add est_irq_status callback function for GMAC 4.10 and 5.10
          
