@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4417599545479826325=="
+Content-Type: multipart/mixed; boundary="===============8987566549625766183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 26 Jul 2021 10:56:00 -0000
-Message-Id: <162729696032.7118.14131430779922932308@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 10:56:09 -0000
+Message-Id: <162729696906.7215.15866362072919518944@gitolite.kernel.org>
 
---===============4417599545479826325==
+--===============8987566549625766183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: c453db6cd96418c79702eaf38259002755ab23ff
-    new: ff1176468d368232b684f75e82563369208bc371
-    log: revlist-c453db6cd964-ff1176468d36.txt
+  - ref: refs/heads/char-misc-next
+    old: 03b1292d1c0ea195e025e667555d74db7da82026
+    new: 71e69d7adee10a55b817df748dec5bfec7bf4c30
+    log: revlist-03b1292d1c0e-71e69d7adee1.txt
 
---===============4417599545479826325==
+--===============8987566549625766183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627296959 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627296965 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1627296958-26f46e5ea2584c661c3039458b64c6bb29b9fec4
+nonce 1627296964-26fb1e576906adb1760a60c719921017018e2fa5
 
-c453db6cd96418c79702eaf38259002755ab23ff ff1176468d368232b684f75e82563369208bc371 refs/heads/char-misc-linus
+03b1292d1c0ea195e025e667555d74db7da82026 71e69d7adee10a55b817df748dec5bfec7bf4c30 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+lL8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9MsP/2+q9j3iGZHzhwzHeU19
-jJOiScmxqcsyojmnCdrCCbkQboH0E3VdpBRl/e5HR9DYyRChmozbwF/cP99gR1FK
-pKdKgD1JPEt7kJ1O7TJkC02B+C9ley1D/DslpoPb3UOvptXYTuspJ0R3Aq1HhZEj
-HX2JuuOBP+1UfTCEIJIct8YyHligix1mK1GXboJyCKtYEHvthi5580S28QSClGRz
-t1q6RjVKBKLiT82ocA8MnXgWRX9nXlFAd13DfAAIvezMpVzQHcOaMQk7tTNtBL4u
-iJu6Ni47+5zhsMl/cmPtuw8sRJurXJNnhXofbJxk6dXuBLg6k+IA7gXsPZNGLmbQ
-+Lns2XMTr1GSZ4ZL2+l1nR7ObBHMZ1vTu7YFs4N3vkHXYmVhDKyaiZvep3HDGmtG
-05vkvrc93XD/jUJkq+yPvoizGiuTVDgKQ4idnoqSHbIvDPoiblyYEIpVRrxRcwWm
-j0F1nzvsyMkuY+D+cqfliz7OksO7Bltqm8mkaLY2SUxiPvuQK88QT01W7jyq/hl1
-DlZJAcndx4NJCv88lVYPrymzuRyct3fnITkSSQdJjtRHKvw9c6sSz9sV6DUQfxho
-Pt8yFcOSuvZYF4rhTBD/5Q/Jt8KVcjswosaE1/Y8gc6o/l4Wt9YrcXk3MSUSXcc+
-2WTsoq0iap7nLnP4aGic4Ig/
-=C9MV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD+lMUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ruIQALoMGxmckptDB8UPepql
+/nwzRtjJ+FKLF9vmoRIPanFrs64zZrz2r2ZX16QKIk8H0JqXkW2Rfw8Qh0sBmae+
+qtE6GuGOyXm+yw/rWSMzEvwshIDFph8lNf5a7DpUB4x/eXOTu8dwBcfFGdZb8Kyo
+x4agocKuhrQnEXdCPY+uqvKV6F7WQ3lkRX9FjGNqUXNbGP5iDwc7kiMjeu/1ovxN
+RfxXEwDKKCwNXhVrQC2Ggwnhq9Mtmo7jQBszs+lBGWr2hvJMrLzK6D5ffGszK/yd
+32UuMQtJuERPw4sU06Kj0gQcMPhmuNY5lKJaRgij0/7Il4ILAgena64iaZFfX8+9
+iTv7+0ykhKJi8fdtEBH8ztmpWLe2q8zl6lmcNkX+hIKW93xXfpcx/0GqOAzErfOA
+6csOwZaRWhjykgImY3yrbk9UQdxXd+tYsBYH6BvCac9X4SPacaLrTnrGyCcrHqta
+2wV+6UuBuR5LOSTS7crFzE55zLQxa/kUqD7ePXFKUuywcaTOs+r5or835k57QDXG
+5Q44U/UM32KjvpWhvKAtNseRUrxg0cujeGJ4pIASk/KDJpXwMkMJDkg/6OEWXuxn
+RqPSQRr1FwIc8PDZm7Ta3XLtOqOVbTkNYhBFp7VoIrD6sBQhu+RCa99khBDAaSbT
+2cSfL6fTr7y2cMvXxaYwXdqz
+=NvJw
 -----END PGP SIGNATURE-----
 
---===============4417599545479826325==
+--===============8987566549625766183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c453db6cd964-ff1176468d36.txt
+Content-Disposition: attachment; filename=revlist-03b1292d1c0e-71e69d7adee1.txt
 
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
 0c4f8fd3ed9cb27228497f0ae495ea6cef7017b1 ASoC: remove zte zx dangling kconfig
@@ -261,6 +261,12 @@ f3a1a937f7b240be623d989c8553a6d01465d04f Revert "USB: quirks: ignore remote wake
 a7c3acca53801e10a77ede6b759a73f5ac4bc261 arm64: smccc: Save lr before calling __arm_smccc_sve_check()
 d8a719059b9dc963aa190598778ac804ff3e6a87 Revert "mm/pgtable: add stubs for {pmd/pub}_{set/clear}_huge"
 2dbd9c27eda5cf83aa990266a3355960d860da71 drm/ttm: add missing NULL checks
+56f6f4c4eb2a710ec8878dd9373d3d2b2eb75f5c bus: mhi: pci_generic: Apply no-op for wake using sideband wake boolean
+546362a9ef2ef40b57c6605f14e88ced507f8dd0 bus: mhi: core: Validate channel ID when processing command completions
+b8a97f2a65388394f433bf0730293a94f7d49046 bus: mhi: pci_generic: Fix inbound IPCR channel
+e703eaff5089da93fd379678f0371f52497042ba MAINTAINERS: Update for VMCI driver
+ebea6761b620d758ed77d2df70fab1ae7a363151 MAINTAINERS: Change ACRN HSM driver maintainer
+c453db6cd96418c79702eaf38259002755ab23ff nds32: fix up stack guard gap
 6c881ca0b3040f3e724eae513117ba4ddef86057 afs: Fix tracepoint string placement with built-in AFS
 afe6949862f77bcc14fa16ad7938a04e84586d6a afs: check function return
 5a972474cf685bf99ca430979657095bda3a15c8 afs: Fix setting of writeback_index
@@ -398,5 +404,6 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 3c0ce1497a449b0d150b455628947152c5f6216a Merge tag 'powerpc-5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
+71e69d7adee10a55b817df748dec5bfec7bf4c30 Merge 5.14-rc3 into char-misc-next
 
---===============4417599545479826325==--
+--===============8987566549625766183==--
