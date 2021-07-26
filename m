@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 26 Jul 2021 23:18:02 -0000
-Message-Id: <162734148212.20545.7504545197577670672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 26 Jul 2021 23:19:39 -0000
+Message-Id: <162734157956.22307.3640154899276707323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-kernelci
-    old: d0774f014d59a5ad69bed8683cc2505f51921283
-    new: d0ddfa9dcfff571afc2e329204778398681aacd2
+  - ref: refs/heads/dev
+    old: 3436c7ceb4b39610af2f02dc650abc08309595bf
+    new: d9b64d3769ec43ce22a9b0ab7f28a45604938f70
     log: |
-         3abc16af57c9939724df92fcbda296b25cc95168 platform/chrome: cros_ec_proto: Send command again when timeout occurs
-         d0ddfa9dcfff571afc2e329204778398681aacd2 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+         d9b64d3769ec43ce22a9b0ab7f28a45604938f70 EXP mtrr: Instrument set_mtrr_from_inactive_cpu() and mtrr_ap_init()
          
