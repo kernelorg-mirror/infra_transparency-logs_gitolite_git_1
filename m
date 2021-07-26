@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6946571594859910470=="
+Content-Type: multipart/mixed; boundary="===============2673709070280062451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 26 Jul 2021 17:43:03 -0000
-Message-Id: <162732138300.30999.16480579236515495902@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 17:44:56 -0000
+Message-Id: <162732149698.31703.15273806717483197196@gitolite.kernel.org>
 
---===============6946571594859910470==
+--===============2673709070280062451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 4431531c482a2c05126caaa9fcc5053a4a5c495b
     new: af996031e1545c47423dfdd024840702ceb5a26c
     log: revlist-4431531c482a-af996031e154.txt
 
---===============6946571594859910470==
+--===============2673709070280062451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -487,4 +487,4 @@ e129f6b5aeb3e1af8792fd565dc913fecafb76f9 net: mhi: Improve MBIM packet counting
 9d32e4e7e9e11b1dd0ed0d6c294258879ac4d1af nfp: add support for coalesce adaptive feature
 af996031e1545c47423dfdd024840702ceb5a26c net: ixp4xx_hss: use dma_pool_zalloc
 
---===============6946571594859910470==--
+--===============2673709070280062451==--
