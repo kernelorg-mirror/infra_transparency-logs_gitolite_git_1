@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2673709070280062451=="
+Content-Type: multipart/mixed; boundary="===============0163568476667852962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 26 Jul 2021 17:44:56 -0000
-Message-Id: <162732149698.31703.15273806717483197196@gitolite.kernel.org>
+Date: Mon, 26 Jul 2021 17:45:07 -0000
+Message-Id: <162732150744.853.3318780337943611255@gitolite.kernel.org>
 
---===============2673709070280062451==
+--===============0163568476667852962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 4431531c482a2c05126caaa9fcc5053a4a5c495b
-    new: af996031e1545c47423dfdd024840702ceb5a26c
-    log: revlist-4431531c482a-af996031e154.txt
+  - ref: refs/heads/mlx5-queue
+    old: 5b78a3e1cc7ef09d896bf4ae1dad04c30dfd653a
+    new: d07ab74196fe14d73a27f1b3edbc5de826aa448b
+    log: revlist-5b78a3e1cc7e-d07ab74196fe.txt
 
---===============2673709070280062451==
+--===============0163568476667852962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4431531c482a-af996031e154.txt
+Content-Disposition: attachment; filename=revlist-5b78a3e1cc7e-d07ab74196fe.txt
 
 47661ee1821fc3a6b5ae07aac37410d6ccada976 memory: tegra: Add compile-test stub for tegra_mc_probe_device()
 bf3ec9deaa33889630722c47f7bb86ba58872ea7 dt-bindings: arm-smmu: Fix json-schema syntax
@@ -486,5 +486,18 @@ a0302ff5906ac021d1d79cecd7b710970e40e588 nfc: s3fwrn5: remove unnecessary label
 e129f6b5aeb3e1af8792fd565dc913fecafb76f9 net: mhi: Improve MBIM packet counting
 9d32e4e7e9e11b1dd0ed0d6c294258879ac4d1af nfp: add support for coalesce adaptive feature
 af996031e1545c47423dfdd024840702ceb5a26c net: ixp4xx_hss: use dma_pool_zalloc
+b2e3ae47b3539e4fe4a5c78aa1558668bbf0abb2 netfilter: flowtable: Make sure dst_cache is valid before using it
+c82910c31cf5b57e1d25f20a28823c24ba8eb8ba net/mlx5: Initialize numa node for all core devices
+e6fece34954265243738b99075adce952c0156ef lib: bitmap: Introduce node-aware alloc API
+fc9ce28851540893f2cd014b6f8e8a0cc33534e3 net/mlx5: Node-aware allocation for the IRQ table
+bbf36c8439c8f6e5b08c654cc503eba2892afae3 net/mlx5: Node-aware allocation for the EQ table
+f85b3209ae3f2ce1bcc42924701a4deaaa4e838e net/mlx5: Node-aware allocation for the generic EQ
+7f06de79a402bde4ae3224281fc869108eab4dd3 net/mlx5: Node-aware allocation for completion EQs
+fd5b454601e760746fc1cf55e43af8339f7cb9ad net/mlx5: Node-aware allocation for UAR
+1579628eeb47d99d05fa01caae789d2012918e8a net/mlx5: Node-aware allocation for UAR bitmap arrays
+7e37dc0ac875e8c3de09ac7bb9c15c6b121cb25c net/mlx5: Node-aware allocation for the doorbell pgdir
+cfe4d47b151fcad25cc88f91c044dde6276820c1 net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+057bd70a604e24e3a5848aa70a7f7eb75ed863c9 net/mlx5: Node-aware allocation for buffer metadata
+d07ab74196fe14d73a27f1b3edbc5de826aa448b Merge branch 'patchq/362918' into mlx5-queue
 
---===============2673709070280062451==--
+--===============0163568476667852962==--
