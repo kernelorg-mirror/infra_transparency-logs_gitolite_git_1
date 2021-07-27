@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3026229607390715065=="
+Content-Type: multipart/mixed; boundary="===============2097257851794891431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Jul 2021 13:25:14 -0000
-Message-Id: <162739231445.13336.3646334439922429500@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 13:25:39 -0000
+Message-Id: <162739233948.13600.9851385210195899921@gitolite.kernel.org>
 
---===============3026229607390715065==
+--===============2097257851794891431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2
-    new: 7b9148dcb74a004a4df10df3af9239a46dfc2b2f
+    old: 7b9148dcb74a004a4df10df3af9239a46dfc2b2f
+    new: 39f9137268ee3df0047706df4e9b7357a40ffc98
     log: |
-         2a4d15a4ae98e27ed59a70c1c25483d24507171b staging: vchiq: Refactor vchiq cdev code
-         c405028f471d6a7fd694cda34a9135345f80d88b staging: vchiq: Move certain declarations to vchiq_arm.h
-         f05916281fd75db2fe32294e26c04d666c762370 staging: vchiq: Move vchiq char driver to its own file
-         2b5930fb3dc06d86149071f9dc8b6992cac1c3aa staging: vchiq: Make creation of vchiq cdev optional
-         7b9148dcb74a004a4df10df3af9239a46dfc2b2f staging: vchiq: Combine vchiq platform code into single file
+         cfdafb7608b4cf159aec510114be7a364347ca0f staging: sm750fb: Rename maxH to max_h in lynx_cursor
+         39f9137268ee3df0047706df4e9b7357a40ffc98 staging: sm750fb: Rename maxW to max_w in lynx_cursor
          
 
---===============3026229607390715065==
+--===============2097257851794891431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627392311 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627392336 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627392310-9ad6328b916c317e6b8130d84457d1157b0eb0a4
+nonce 1627392336-7928f1a5c7ae67ef2391791324e638edfde9d9f5
 
-050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 7b9148dcb74a004a4df10df3af9239a46dfc2b2f refs/heads/staging-testing
+7b9148dcb74a004a4df10df3af9239a46dfc2b2f 39f9137268ee3df0047706df4e9b7357a40ffc98 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEACTcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F+EQAKr58SeXHgjxVjU3rOA8
-v9FBO2kWbO0C9d4mEdYfpFSU2IrxyaXnHZT0jxqpURV/SaeF1fHAtSZsmXxnDkbm
-pqq6qYkZUQWwWgt4P01nKBmTgKrBS7vPvA6gfS3F2ZmFHRHI0tz3TPWxz+lJnFN6
-/6QadhNHQijW0uiN63Zdnj08HuhkIiAuVQ8d8RWjjI0H7SLR8s5TkCNf2nme6IRX
-cmn76LdHb7LNYS4sdyZ/iHfH5wPIPKZcqLqH+CJueYnn3CcLr8XF4R/FShhjn5M3
-COpjaH8UJ9tFoAT/e7lMTAgUao0ueEznIulyNat3u93NgV8JVJs8FahFqpLHLKYB
-9Jd+QH4E2La5I9EDzg6ivtF0PcE6ty/e8bu1W2t/rR83uXXgLpZP7/ztlUzowFbO
-fH0k/CkLcD1trBUBu7826JbDk/Va2XpSPQ+ti+fhzhACikmXwy/3tDqHjZL5HXc0
-4IkgGhGEC28+BMcouOr//MsPZNd8e11P2KcuZrLh4CjoiiUl8QBxCZbbshfYfXkJ
-xfOJQVCl9ESDqe1v1L4TDhJ9CFu1lrwGHcA2OW6hlWbq7tzGCG0FS1T+eVqFPeOj
-hdx8HmWNXngqmrss5LQUtxQpV8o6+v3VVLo3n/K7zymJuR0kQ6z3G5dodtVLXDCa
-INzEFYttthZ91z41kISOjvue
-=L7gS
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEACVAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i2AP90/TOKyUduWOVHj159Jo
+DxSyz03ULZECSi6z0KBidSiQF978xuL8Q4HVUew8bcurbBPtS5L5tRwdmtPfm646
+Pr9w9BcfGCyYpmq0nTXjP6yD9Lk5LS9E4JhvmH2Wlg5v7DEE+EekRbzgMW2ldQPY
+5JgyLtmX4ck2kyCnWAzis/iEPfzfin7kgCTR/AF40ZlWsURHdkcItZPylbnF83wa
+Kt0Gi45TvYphbxxLQ68PYKzWj1T6IG2fMpMHA1Qb6Mw6Af0yUZ7BBcZRE7P2W06e
+pzSTslS9vuWRY4TNvsDf+6S7NZ71sMz5p2FFWmk5op9yRm3uKPRfkYzZYGkLcrGf
+lO88zU9Eg9npZ2JANhPLdT6b7x7sVXF+UF31hsi+lcYWECr8JJb6upKvhdJiASTb
+GhKmQpiBkgkFKXUkVJO60euIWK9TO0I1Slrug2l6cq/4rlVNMZlaBWWuoFewToG+
+wd78sPLrxcq9mkhQFugstPUreUITtwf2g1K/jedbJaw7O25yOFybHz4cJnnEqFly
+tNCoaSVfO5BxjcicgUv6A5JKSXSok5HyDfZw5jkryl90rRnRbYGifMjOR1gUG5DA
+F4+4eIo2kmo0iXiud2sw+KnZqAGCIV61WyU4t6La44Y7212HEvzEaEYaxyd+N/bX
+H7KF43bIgfj04hbe20/0xXQ=
+=/EIz
 -----END PGP SIGNATURE-----
 
---===============3026229607390715065==--
+--===============2097257851794891431==--
