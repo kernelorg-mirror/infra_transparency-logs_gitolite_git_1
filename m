@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5591685475492422838=="
+Content-Type: multipart/mixed; boundary="===============8731708323976413258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 27 Jul 2021 15:24:37 -0000
-Message-Id: <162739947789.30443.7097510605864922696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 27 Jul 2021 15:24:45 -0000
+Message-Id: <162739948517.30577.17874736837734866069@gitolite.kernel.org>
 
---===============5591685475492422838==
+--===============8731708323976413258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 0f32d9eb38c13c32895b5bf695eac639cee02d6c
     new: 61bef9e68dca4316e1fc5fdf5f0c270bdbd65657
     log: |
          2635c226036c1bf44b86575d0bc721505c8201e3 ASoC: topology: Select SND_DYNAMIC_MINORS
          61bef9e68dca4316e1fc5fdf5f0c270bdbd65657 ASoC: SOF: Intel: hda: enforce exclusion between HDaudio and SoundWire
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: bc1c8e4eee79646b9ae10ededed06a569c7c2bc9
     new: 6b809c19d4ff6756e73b21f7f6cb4babca53d144
     log: |
@@ -37,29 +37,29 @@ changes:
          6b809c19d4ff6756e73b21f7f6cb4babca53d144 Merge series "ASoC: soc-pcm: cleanup cppcheck warning" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
          
 
---===============5591685475492422838==
+--===============8731708323976413258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627399468 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1627399475-6ecce1c0d3a3c4ffb2ba93fd6e0b82c7e2f0d89b
+pusher C3F436CA30F5D8EB 1627399475 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627399482-3472f425379b35a34ce6a06cf3f94fd46bcadac5
 
-0f32d9eb38c13c32895b5bf695eac639cee02d6c 61bef9e68dca4316e1fc5fdf5f0c270bdbd65657 refs/heads/for-5.14
-bc1c8e4eee79646b9ae10ededed06a569c7c2bc9 6b809c19d4ff6756e73b21f7f6cb4babca53d144 refs/heads/for-5.15
+0f32d9eb38c13c32895b5bf695eac639cee02d6c 61bef9e68dca4316e1fc5fdf5f0c270bdbd65657 refs/heads/asoc-5.14
+bc1c8e4eee79646b9ae10ededed06a569c7c2bc9 6b809c19d4ff6756e73b21f7f6cb4babca53d144 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEAJSwACgkQJNaLcl1U
-h9BUWgf+MnCivGEXB0Dw3bn0vN7RFUiGF2ZP/c5LbpCJPrTSOxROOJQC4k6864oF
-rX4cPEBuyTL4nGEmEAVAufbIpAM8WCctMnSWdXtC1dYF7W9WSgGQPuMlZwic/ROv
-8cefS8Mq08uB6rT93hlDocmfeXpuJ4ukfuLtkGt/+dlpkcgyDybv4/Hv14FpEkoW
-zW+20LWrEMAUaiJUIFzf7Kjl2AGKYjCcRSwMcxP6lrKLhpqdQkDK9oJR8euRYywq
-Cmiol9DZno5uftekpOO8PKfGJ5DZOFqJpN9dOeBi84BzPNxqSqN4Wd3VZcGV1JGo
-XtGuYBc6caBhHT8xkXE35RpjXXnYGw==
-=/GxN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEAJTMACgkQJNaLcl1U
+h9Dwjgf/Ty3PpC3y5spucb7ahFruGYcRuFqMC7kY4vIPgjhTlGusYR0j4i1nxpVO
+ACMCjqvSsWfai4IlsvRUq1k3paoZKD7sWpZTrwlSFU9GXBfj27SYGxaW7j63ECzB
+pE0ApVnoYzv2niCkFwzy8RyQMuud8Ha6pocnPd2GpM9bBW/0JwwVoj+rYNkxYHDU
+oFxVNe0CZ7GaYPGhdtSnFjLt9KG98y8OPLHs97/PKmFLXSlWGxf1yPxEzOT62Q90
+UKDg1E6xM+GDcvFnVunwezkmMxLr4jpu7/34wMqXgz/Ugv6wpHSeUtaBedb7cqmD
+heiVKGnP7yg9hm9k3lv+peUWaHHLGw==
+=Q4PK
 -----END PGP SIGNATURE-----
 
---===============5591685475492422838==--
+--===============8731708323976413258==--
