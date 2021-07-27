@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4401196951515842183=="
+Content-Type: multipart/mixed; boundary="===============3292265571325188934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 27 Jul 2021 05:05:09 -0000
-Message-Id: <162736230949.24004.14458856209137074484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 27 Jul 2021 06:08:39 -0000
+Message-Id: <162736611944.30565.2033248453730856671@gitolite.kernel.org>
 
---===============4401196951515842183==
+--===============3292265571325188934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-rc
-    old: 762fd518edb3d572b7d3f0104d460c4e08f443d5
-    new: 2e11d6eab173ec6779e2490f40ab92812c731bef
-    log: revlist-762fd518edb3-2e11d6eab173.txt
+  - ref: refs/heads/tty-testing
+    old: e679004dec37566f658a255157d3aed9d762a2b7
+    new: 854dd8a572a0da57cdb26a7646e48e3b305d118d
+    log: |
+         854dd8a572a0da57cdb26a7646e48e3b305d118d memcg: enable accounting for tty-related objects
+         
 
---===============4401196951515842183==
+--===============3292265571325188934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-762fd518edb3-2e11d6eab173.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-758684e49f4c7ea2a75e249e486659f0950cd63e bnxt_en: Fix static checker warning in bnxt_fw_reset_task()
-e6344c0dde450ffe5cad7e5928ea2c3fd55b9bfb net/mlx4_en: Don't allow aRFS for encapsulated packets
-d0e310aa34ff7a0ed2fb91aa224bc75e280d8e2b net/mlx5e: Disable Rx ntuple offload for uplink representor
-0ed165421981bb3a421a82ea764e6977ae305b5a net/mlx5: E-Switch, Set destination vport vhca id only when merged eswitch is supported
-c1b81f71640932ec074b6b3f250db460d9432029 net/mlx5: E-Switch, handle devcom events only for ports on the same device
-4354a19f0bc93bb970508ae18cd087491d353fbd net/mlx5e: RX, Avoid possible data corruption when relaxed ordering and LRO combined
-1988cfc0bd05d8111df984ff2b6f79c1e2f7e3ec net/mlx5e: Add NETIF_F_HW_TC to hw_features when HTB offload is available
-175326724106e73d8cd577cb0b712ec53329a8b2 net/mlx5e: Consider PTP-RQ when setting RX VLAN stripping
-4fea53963071819a173402c9e247f4d839ac088f net/mlx5e: Fix page allocation failure for trap-RQ over SF
-ac14b507b1f5cd3874b4be01302bb34d71de550c net/mlx5e: Fix page allocation failure for ptp-RQ over SF
-7fcc6aaa773660605af1d5ff286cd054cd27ef27 net/mlx5: Unload device upon firmware fatal error
-565954fc58b53a7afd3cf6680396b8ef544635b9 net/mlx5e: Fix nullptr in mlx5e_hairpin_get_mdev()
-4fc7766c93047120f2cf0afe9083b09eed2e38d4 Merge branch 'patchq/408884' into mlx5-for-net
-dbeac77b7d2c76791d1d2c3115a16598af344101 Merge branch 'patchq/403041' into mlx5-for-net
-5035db6f20e68b683316c975744978b8816a1eb0 net/mlx5: Fix mlx5_vport_tbl_attr chain from u16 to u32
-ec3f91e75d6f21ffcd09f6fd5c4afc50ad7cb483 Merge branch 'patchq/410972' into mlx5-for-net
-acb299d03fb10021896f9698c010aff2eb8cb774 Merge branch 'patchq/410968' into mlx5-for-net
-f1c193972a4c7530127cba40411cecd5faeb8597 Merge branch 'patchq/410772' into mlx5-for-net
-ab00d9c0a5e2f11d9d6153b63a017413502c58ff Merge branch 'patchq/408536' into mlx5-for-net
-56d8bad8f59266b60461c78040b8884469947c78 Merge branch 'patchq/402629' into mlx5-for-net
-291fcf095230c27facc99d2b1bd03b5071c477e9 Merge branch 'patchq/397231' into mlx5-for-net
-3b8bb5843f7551813c7cc0435c748f6425cb9a36 Merge branch 'patchq/392631' into mlx5-for-net
-cfc5cb1ee43f5fbeb77048d5def3d971ce44a34d Merge branch 'mlx4-for-net' into net-rc
-ad5e8ed76a44bd47a3e9b72c3b601d52114070b8 Merge branch 'mlx5-for-net' into net-rc
-bfd79f5fba03f279df4f7e84c12ca53e169c3cf5 Merge branch 'net-rc' into queue-rc
-2e11d6eab173ec6779e2490f40ab92812c731bef Merge branch 'testing/rdma-rc' into queue-rc
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627366116 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1627366114-efd6a56d2e88764b40495f7717d8c0045c91d0f9
 
---===============4401196951515842183==--
+e679004dec37566f658a255157d3aed9d762a2b7 854dd8a572a0da57cdb26a7646e48e3b305d118d refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD/ouQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TzoQAIY+S197numA0aFU+r3W
+SSt5A+12/isMAxpwHXpIm7cWhBO1mCED1bnAV9qHC+Puq69zpeTlKiNPbIgMh9lH
+qcfVznNVJX5YXvLM38BNuPb9PdwhiVnGNkYSBKww6QAX71R5b8CV50ueMHVUirIg
+R1zqf6Q86VANWQvW2UbKbJ9jp/VHZxoNxA904nHS9AbdqsLg1Y/47w8EL2DrLqGd
+e/Ms7OIE5/C4xvylyNYNnx0+BIFzHb34wyhvGsqwvi+90mMiie1/c6P4quEu1JO7
+7J9EVvvP60tr7N0ERKl0H6j5x4CEvcyebnAJktzY9DaavPmlNYZAWPVDT6vzKGV2
+MRwqSxYS6f7sPgnKP3EmTew94/+aBUUrcrp7M72tmeZz5SalYjo5vMvE3W8tEkN+
+yMJWqSIYqqDoC3Be4HcUj8v95FpnZp6QdoJJ/5WITJe7yMhyOQR2N2zWUDBnSVjT
+TcylcCx7hE8SPPzokvulnQzNZiEoaoeReKNuBeD+nnfEOBsDxId4DCxJjGBNHWNn
+rNEn9Ixff4k5+j+70kjMA8fsU+XYyaWKAbRp9Fb/J6Mpm+fVdsgz/7jhu4YRDRkL
+isBAqCOn2GQMT/Dg/dasr3HMQ3u1KOzZH8mBFNFSQWUkqR95Da+rqxBCu7WuTZar
+rLmKER6FIjTokfRGOLM8A5z6
+=+Rvs
+-----END PGP SIGNATURE-----
+
+--===============3292265571325188934==--
