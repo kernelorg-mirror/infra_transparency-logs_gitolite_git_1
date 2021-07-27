@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7497346423682740829=="
+Content-Type: multipart/mixed; boundary="===============5822387488030143510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 27 Jul 2021 14:09:02 -0000
-Message-Id: <162739494267.12003.15749757922117931179@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 14:09:35 -0000
+Message-Id: <162739497539.12261.5318270759589856495@gitolite.kernel.org>
 
---===============7497346423682740829==
+--===============5822387488030143510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
-    new: 9abe677951d15a099964b909010daaf92307bd4b
-    log: revlist-2734d6c1b1a0-9abe677951d1.txt
+  - ref: refs/heads/for-next
+    old: c18a4e657ce67416954fa4097782e951f1d6e0d2
+    new: 88d7bf83f35b8a27c72bee64b8dffe6800c48e20
+    log: revlist-c18a4e657ce6-88d7bf83f35b.txt
 
---===============7497346423682740829==
+--===============5822387488030143510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2734d6c1b1a0-9abe677951d1.txt
+Content-Disposition: attachment; filename=revlist-c18a4e657ce6-88d7bf83f35b.txt
 
 1c0810e79cb3d2c46bb8f2a3e98609de1f009f3e scsi: ufs: Refactor ufshcd_is_intr_aggr_allowed()
 7b0ddc1346089b62b45e688e350c9e1c3f7a3ab2 scsi: be2iscsi: Fix use-after-free during IP updates
@@ -72,5 +72,6 @@ e15f669cd996b85bb07b0e787fa78806477bf211 scsi: libsas: Allow libsas to include S
 f591a2e0548da88130c7b1c79f1f735273adc683 scsi: core: Add new flag BLIST_IGN_MEDIA_CHANGE
 ed4246d37f3b94e429d020cac692434a00bae4cc scsi: sd: REQUEST SENSE for BLIST_IGN_MEDIA_CHANGE devices in runtime_resume()
 9abe677951d15a099964b909010daaf92307bd4b scsi: core: Add BLIST_IGN_MEDIA_CHANGE for Ultra HS-SD/MMC USB card readers
+88d7bf83f35b8a27c72bee64b8dffe6800c48e20 Merge branch 'misc' into for-next
 
---===============7497346423682740829==--
+--===============5822387488030143510==--
