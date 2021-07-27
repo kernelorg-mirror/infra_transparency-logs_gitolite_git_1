@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8818991118524728848=="
+Content-Type: multipart/mixed; boundary="===============5750932095674266187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 27 Jul 2021 10:02:10 -0000
-Message-Id: <162738013047.6134.16128831272875170369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 27 Jul 2021 10:06:27 -0000
+Message-Id: <162738038786.8899.7056687813024911154@gitolite.kernel.org>
 
---===============8818991118524728848==
+--===============5750932095674266187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: bdac4d8abbfc239886103f7c6ee03abb8011a008
-    new: df6192f47d2311cf40cd4321cc59863a5853b665
+  - ref: refs/heads/tty-testing
+    old: e679004dec37566f658a255157d3aed9d762a2b7
+    new: d7aff291d069c4418285f3c8ee27b0ff67ce5998
     log: |
-         895adbec302e92086359e6fd92611ac3be6d92c3 kernfs: add a revision to identify directory node changes
-         c7e7c04274b13f98f758fb69b03f2ab61976ea80 kernfs: use VFS negative dentry caching
-         7ba0273b2f34a55efe967d3c7381fb1da2ca195f kernfs: switch kernfs to use an rwsem
-         47b5c64d0ab5e7136db2b78c6ec710e0d8a5a36b kernfs: use i_lock to protect concurrent inode updates
-         df6192f47d2311cf40cd4321cc59863a5853b665 kernfs: dont call d_splice_alias() under kernfs node lock
+         d7aff291d069c4418285f3c8ee27b0ff67ce5998 serial: 8250: Define RX trigger levels for OxSemi 950 devices
          
 
---===============8818991118524728848==
+--===============5750932095674266187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627380127 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1627380127-f589aabe7dbcab081d4d14e0dc391216bb4dfd1e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627380384 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1627380384-6729fe20ee751ed8cf0174caa43edc685608727e
 
-bdac4d8abbfc239886103f7c6ee03abb8011a008 df6192f47d2311cf40cd4321cc59863a5853b665 refs/heads/driver-core-testing
+e679004dec37566f658a255157d3aed9d762a2b7 d7aff291d069c4418285f3c8ee27b0ff67ce5998 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD/2Z8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Pa4QAM31JP+aYomAlrm/8O+l
-/JOx/LSHrNwBmGwmETWU7vSsB/uHQOEO1QiA50WORFCrpQvE5XHIC59Z0IakDXiH
-aXp1vxyeVyY35wZw0HeGaZmMAKuYpYs9BZBep+0vdJFnIHcWHOz57QKszmLd28cL
-YIqOlzUtNemC2g53LPZYT9GByEUJvQWi/XHx5XCrO9CF8xztPbC45Q/o5Xh6DzNg
-tYO7LQW9VOUjkJ7AsNr2NFZKQd0yQ4p3iOr1CCLazhn8ClzACXIz58FAYHmK9aSo
-PQN1HTqsBbxQhFX6Xpk0iQBBxP/i4YR1LUkZxmY5iKi1efUQm7W4g/fYIb+oSH/D
-w/FCZCWQWbQEJRZwbxkkCOiTPDIU7n9K+XtgXAINZWK9d77oEGttgpG9Cv/EoAdw
-NyYOd6lmqZgZKQv0woWSAuPL/E0rFe3mE1J6U7rcKU+gPBzjIHO3l7qyjV3y5bDY
-AJx5uZJhsP/JzR5Lfam9txtxL9M68tbWRSb8NDhLT9DcBeHSXXSRn1hWWy+uBpQU
-00UCEKj2DkqjzBvugNpFelrYQ3UtIRrwn0qLE1gQP3xIA/7J6f9NEvyShSO24V/l
-atMDyX6ILmMA0QX5QYDcrnaOMlEe4JD5M4FrsMWmzsHt1zK7o4MyrlmFVJE7XF03
-SovYHCJJXrfWrPuVB08b6IRs
-=QQ2V
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD/2qAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5vcP/A3LEJ1FV+1GoDn4Fu4G
+t1vUebPedrweI6ixgUUDsoOjTlRwmhrb7lU4NXWKVAfiza8d0cJq5kN3dpmeVfVf
+h98TuJd+ik75C+FgBX/bOIqFkpJaqDq6C18TGo/mqoDVCy6HKnr1A5B09Fs7+5dF
+ERkfGRdPfHYgY/mVmneHyWf97zs+IiYoAcf4AkLRKnL58kAGdzLXP26jb6FvVRhD
+UyqTh5XuM/jJ2qmoYLD6K8O9VK7QbYR79ocgW1+vO5bPaidxpAQ7KHvSAEr9JS7s
+6B95ZuI8DAHIVnrhJyV6hLWOx8dGCAkfgIxexukpIlmDTxwDpcm5dVviw9PF6ZpF
+H3HDUf4uBo0LIQNby8C6hv4XLD4S53uDbrE5pcUlAy4MIVDN5ZgmPyNGDuDOIGZL
+FOepMavC87/fc7OhpF3sPreqUUOZ6todlFDzwy1CUqai7A+zNhcN5INV2OxEdadJ
+f7KOQti0Fb2mrIsGioHCjCBjjrs9HdQKor2j4ywJsA3FoKNsksSFgJgflhk6GkEw
+4j1KPgZDJ/SkHBVP/1WcK4DJTPGOkN74WH8WiTnMqkUw4ZSz+RuEQUW/IsF1+pje
+Pjl8lX0gGIV0ldW60DlcMmhN6/BLO5/dp3c7enPa4VuSX7QCc2QgRdJFkOiXDmrk
+x/vaCOjI+aqElvriGq5lDgNp
+=NSRQ
 -----END PGP SIGNATURE-----
 
---===============8818991118524728848==--
+--===============5750932095674266187==--
