@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3143886841246610869=="
+Content-Type: multipart/mixed; boundary="===============4579925024408955092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 27 Jul 2021 07:22:53 -0000
-Message-Id: <162737057322.15296.3516713570867675467@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 07:23:06 -0000
+Message-Id: <162737058695.15446.9424486133695423937@gitolite.kernel.org>
 
---===============3143886841246610869==
+--===============4579925024408955092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: e64daad660a0c9ace3acdc57099fffe5ed83f977
-    new: ff1176468d368232b684f75e82563369208bc371
-    log: revlist-e64daad660a0-ff1176468d36.txt
+  - ref: refs/heads/driver-core-next
+    old: e7deeb9d79d8691f1e6c4c6707471ec3d7b9886b
+    new: bdac4d8abbfc239886103f7c6ee03abb8011a008
+    log: revlist-e7deeb9d79d8-bdac4d8abbfc.txt
 
---===============3143886841246610869==
+--===============4579925024408955092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627370572 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627370583 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1627370571-9e6ddb289eb1d708e0ee8f345f6b03fdde932cf9
+nonce 1627370583-efcd45cbd9664205ef07d9be56195f183b19b579
 
-e64daad660a0c9ace3acdc57099fffe5ed83f977 ff1176468d368232b684f75e82563369208bc371 refs/heads/driver-core-linus
+e7deeb9d79d8691f1e6c4c6707471ec3d7b9886b bdac4d8abbfc239886103f7c6ee03abb8011a008 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD/tEwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lOgP/ikGdmiQ1ZhqFyv90AAy
-EpHFw/t+rLUkhTDocEqhkLpZpg3+ylPstMaYwP2ruNcyVB2oFMeFauUDiXruLcIT
-/+ivd+wonQVdmVs4fCsbRmEbdPB/HPPThICmgNCmE0Gk0gZevcQWZDURPQvSwluH
-+70YE+MoGeh6qpN1z7r/k1uDaagjZCwNuy9J3+YVnVFA7Pr5JBx7N1gywSFKKE6E
-z+Mpm3rpmjYQkE0+eC1az18ZmAUekR5z5/n+0jklW1n/uT3B5CzinQN1ISillITM
-1P2704VJrXrx/vl+uQRZ7eKduD2of2owfBt1X5BkUYHqTLqqIkK5UhNF1sgWDqWg
-GIwhBKNgty0VvkqiQAn5sNSjQ1V4v1oYbnJ6joL7xaQuDsQMdROFAbnNXfamrmNz
-NL2sd3DHiBU8gAHsCJpbXT+w6qjbpzt2u6QL8Ez1F20LgF+hXuUx0m0VnZNI04AA
-ol7hurvUbl5IK2xqMHCK6WhqSYG7nL8qgYaT2yCpl+z07fQNX2nen2NYpvoCGqFz
-tbmDkrY1OUdVPbH1ytHA9x2X6zjoqqclGpOWZ+hgzJo/URCttYYDWphHBhXIP4et
-KQUDkBRzQji/hniwnQImu3aSxXLnWS6a2K9XdPVaO3tIDOTdrEFt24t9eyWxXfU6
-j8fmf1vMvTzT0wmEa5FquOz8
-=9y+Z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD/tFcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BK4QALDPXuuIK7UZPnKheR5Y
+2btx6qCKAAitAMGbKVVmc89yiKC3tweoiYG+vGYfAA5xon4M9jUcIgQC+5sJfTow
+DW5qH/+MlQKAl56jKpi7vL3u1mDUVqanrdkMy04YzcXoXDjWC/lbTkYb+t+yg/lM
+T3eX84XtfIzjulHPtQd2jN9LyOSXPBBEDgdY+3X1exw0EsK68T1iZdIXjxgmZjmm
+tRUdblhoFNRGqCFGWl9HzlPiVpgQwhQQEWVJw58ddcNOCDPpjkszdZ0ofw8m7NhR
+3YMQBHvA14/YPFKUjE+MzNQ+R8T4WgvsDYsxo/PRYWGmFRWvYhYYyJmEFissNftl
+W0aPlTFMTfKdSOdTFLbXVXAk67VLizSRYXgwTB0Z6ESo5zDwKbL6ts2jvGCJyvz0
+7jRhQI3cNrDe9GHlnqNn1NcWZGQOkvqtCJD1YM+52pQGXtmq2Wx26xQ4GMNnioHO
+lISRB0vC0pydsWVw8eZpIbQYq6yKcN4b3OGAC2DEswdPz2WoLk6q0RprsMZwyBLk
+dA3eOxY5iYwCzXver+1jnGw1qu4iqfcSqCdE9iaAe6hup4QzgdaEWh5CF46SE0dW
+68mu8FHGS+/pzfYVkccE1w3+6myib/LhXWuAQdHA6OyzyDs6ZP0ZxCx+Nt/YR1mh
+PQurY7ZtX4VxizA3an2aXauA
+=FTwK
 -----END PGP SIGNATURE-----
 
---===============3143886841246610869==
+--===============4579925024408955092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e64daad660a0-ff1176468d36.txt
+Content-Disposition: attachment; filename=revlist-e7deeb9d79d8-bdac4d8abbfc.txt
 
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
 0c4f8fd3ed9cb27228497f0ae495ea6cef7017b1 ASoC: remove zte zx dangling kconfig
@@ -271,9 +271,11 @@ c453db6cd96418c79702eaf38259002755ab23ff nds32: fix up stack guard gap
 afe6949862f77bcc14fa16ad7938a04e84586d6a afs: check function return
 5a972474cf685bf99ca430979657095bda3a15c8 afs: Fix setting of writeback_index
 b428081282f85db8a0d4ae6206a8c39db9c8341b afs: Remove redundant assignment to ret
+4afa0c22eed33cfe0c590742387f0d16f32412f3 driver core: auxiliary bus: Fix memory leak when driver_register() fail
 e9a72f874d5b95cef0765bafc56005a50f72c5fe r8169: Avoid duplicate sysfs entry creation error
 0077a50082729c3f9ea2836f59e35d9b7dacfb12 rbd: resurrect setting of disk->private_data in rbd_init_disk()
 aaeb7bb061be545251606f4d9c82d710ca2a7c8e nvme: set the PRACT bit when using Write Zeroes with T10 PI
+e64daad660a0c9ace3acdc57099fffe5ed83f977 driver core: Prevent warning when removing a device link from unregistered consumer
 58acd10092268831e49de279446c314727101292 sctp: update active_key for asoc when old key is being replaced
 9bfce73c8921c92a9565562e6e7d458d37b7ce80 udp: check encap socket in __udp_lib_err
 6e0b6528d783b2b87bd9e1bea97cf4dac87540d7 drm/i915: Correct the docs for intel_engine_cmd_parser
@@ -402,5 +404,6 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 3c0ce1497a449b0d150b455628947152c5f6216a Merge tag 'powerpc-5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
+bdac4d8abbfc239886103f7c6ee03abb8011a008 Merge 5.14-rc3 into driver-core-next
 
---===============3143886841246610869==--
+--===============4579925024408955092==--
