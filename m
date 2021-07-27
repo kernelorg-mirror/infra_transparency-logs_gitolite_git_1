@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8540374412757233647=="
+Content-Type: multipart/mixed; boundary="===============6766736320587252739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Jul 2021 13:19:59 -0000
-Message-Id: <162739199924.8715.15844180412934725844@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 13:23:10 -0000
+Message-Id: <162739219060.11203.6198833048389415934@gitolite.kernel.org>
 
---===============8540374412757233647==
+--===============6766736320587252739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,64 +17,64 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 1f0873da312d0a7686d628fcab91c0606ffab893
-    new: a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19
-    log: revlist-1f0873da312d-a4fccfcfe7d5.txt
+    old: a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19
+    new: 050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2
+    log: revlist-a4fccfcfe7d5-050cbd980e6b.txt
 
---===============8540374412757233647==
+--===============6766736320587252739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627391995 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627392186 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627391994-f2468e3ab0103f1f52ba676cb96c09e1d78a7a12
+nonce 1627392184-46cdb9494c6ed0537c5b1010e713e95be5adfe80
 
-1f0873da312d0a7686d628fcab91c0606ffab893 a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19 refs/heads/staging-testing
+a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19 050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEAB/sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3tEP+wRxl0nRhoVpMWBVvYTv
-oSEby00F3/b1FxCBbyqARI1F9i1BHjIN9ftvrVSBOkCEuu1ipPe+dfpe3KOcP6GF
-QmlIaRBIVniogCNk+jcTRNv3F+AlDZQkm2EpTJtT+WqSh9O4g1gZc0I+Cpa6I2Il
-Nomln3+CFpwJZV0JOzBq55kbFDgt5Tcg4IncLLwWfxyi/pHCkSLPmPRQgVOe+zeQ
-ljUNWFx98iusv0twC14m5w1xEDsWlQkpQ18nNT+FjhToMptLU1rWpP7bogpMpXxw
-fcEJsP4KlwhD4aVx6rPMQrBtUtIo9yailbR8NpQYRVx0ZbZXniE6oO8awRuATedA
-RAb447JT/pooZzyft5LE99etjmAmZ3F9EGd+P12Ol6n4KgZlYaTtEhNIsmGhMIPk
-8/G6P8g0fJjzzKF2nmYHFuh9fYjQzty7EdIq49NJpXZ1PD+XfJcOEnoc+igJOyj8
-Fd+QnlBdEeptJvsuX1rGXZ2vZuCMi2xumYiKbmd698+Nt9q7kvUiJo0WjqZn6xjK
-ixyIIL19YNbiLanBK4LJ05lAK4ltp346hINg6UDuBjcl77PviBjZBPrtE5VIg5sH
-nP32uO5PxJaUJwQ0Aj0XD43HYcyylsbJqdFSjfw+xEtV5fuhh+snDqdELezm/2lr
-0Fpge25jH3wp+qx1YjSZ37p0
-=nSdd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEACLobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pYcQALcAvIOnGdlbw6J5QIsC
+9BUwg1y9Txxs2NdfMqkmcBk+V9B+Cpi4vpLHS2e4Gun/o4lg9fYjLiiCQ/oEmkT4
+Lk1WaFeLwbt+i2NGjfdltw9BgEFENN3YqDMQOmVr1KvQEcgcDno973/OoiqCRGvr
+45YMtY76nu0ZNbaoLKhuU7KGdGMj2b0qzGsDHG0QSR7QGjSoB2AGcLMGB4AXDupF
+gpEzq9ewVMFLVA8xsaHZWZFgzf1xqP7pO8ndPHmDV8ONGxcpxnujj6ATFwd5ebok
+gtxpPF2YY/sp7VMMm7R8XZ2I6UTlKzoN6LWju3SBuw+UhhsLKhRSPQLXwf0OpkDL
+sbptkqBH7deusSUtgifpW9i2VzS/Av2hwnnFs3UAvq0hX6HNlL215dQJ0k4q8KHX
+VlcDNffxdbNz2bANm6iuEYQ9TTzvQkFZtOC+QZU9zocjMeJRI4OWYylcpQ8z9wUG
+/BLJe6MsqdyRdXF15ck+1pN59MymhEkavhcpj1LLlCNYSH21alWLWpECf9PU0I1F
+lXK04dAIj/P8MoRC5UWGXFVfczfZ5uUlwoR5hxtXYEKf8xL6saWJ58RXgGDBXiQc
+t52I0P9yZcx5/hEXQonVnO+jEJm0IpBRLbBccHVJnJrUfgHc/Q4sh5oNy88y8DRV
+AGBlYdEeswnGlCLcz4kf/1Hz
+=4y1R
 -----END PGP SIGNATURE-----
 
---===============8540374412757233647==
+--===============6766736320587252739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f0873da312d-a4fccfcfe7d5.txt
+Content-Disposition: attachment; filename=revlist-a4fccfcfe7d5-050cbd980e6b.txt
 
-2490e3230245fd0fd3726ec06f3947ca81d0b761 staging: rtl8188eu: remove braces from single line if blocks
-2d9f8c5ae660ba1303d155fc9462de39da440494 staging: rtl8188eu: remove unused defines
-20a55e6c707a24de7fa4dfcd393c4a73272465d5 staging: rtl8188eu: remove HW_VAR_MEDIA_STATUS1
-bb3462f46462e4d5a66170e3b0c63c1a44c6011d staging: rtl8188eu: remove HW_VAR_TXPAUSE
-3e04209f341052b4a885d20dd1c81f409bcf82b6 staging: rtl8188eu: simplify Hal_EfuseParseMACAddr_8188EU
-c51a9ea6b4d00fbd212a96391ca494fb6c926e38 staging: rtl8188eu: remove an unused enum
-b5b6cf1a2643f28c77a13d1c13678cb44cd552a6 staging: rtl8188eu: remove another unused enum
-fc9336eb526c28b92c8e89b735582a3af7af2431 staging: rtl8188eu: remove a bunch of unused defines
-448390332cfb2b033f632f6ec054cdd645a023dc staging: rtl8188eu: remove yet another unused enum
-55937c27cd438a832922f93be2fdd17bdd1b05ed staging: rtl8188eu: remove unused _HAL_INTF_C_ define
-e79942ec2ccbbc26b6a66861377810f9f6db3f4c staging: rtl8188eu: remove write-only power struct component
-bd4680034d1fcb292761bb52a33143827025cac2 staging: rtl8188eu: remove two write-only hal components
-f3946501899998c02f2444a6fbfa5ec46fbe3a86 staging: rtl8188eu: remove unused IntrMask
-99e7a944281e21edff48bab0bbe16a793246c5d8 staging: rtl8188eu: remove write-only HwRxPageSize
-e17c7d42cd33a6744b0fd0bb33a1308094b73457 staging: rtl8188eu: simplify rtl88eu_phy_iq_calibrate
-a70a91b01db1ae821cd939152ffe2b613fb70404 staging: rtl8188eu: simplify phy_iq_calibrate
-b973e25ef6a8f2b7d9bbd0875530a586a0c67087 staging: rtl8188eu: simplify path_adda_on
-5b2bd53d9041fe07ec97712aa9c0765f6a688e30 staging: rtl8188eu: simplify phy_lc_calibrate
-a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19 staging: rtl8188eu: remove unused IQKMatrixRegSetting array
+36174650c4283c9bc1c6e63d3d835c824c7a2903 MAINTAINERS: remove section HISILICON STAGING DRIVERS FOR HIKEY 960/970
+cf79ee6eb0d7d5f45ad58c395ee855e2e1bbc9b2 staging/rtl8192e: Remove all strcpy() uses
+3c6675363de5aa168c23431cf90db455c1901b6e staging/ks7010: Remove all strcpy() uses in favor of strscpy()
+246f920cb731950bea4501dc68ab2f8ad66e8b8d staging/rtl8192u: Remove all strcpy() uses in favor of strscpy()
+14127269cd516fac7c1711accededddf3f2c7ab3 staging: vt6655: remove filename from baseband.h
+cae9546ac9f160573029dea6e6bec8d8aed471b8 staging: vt6655: remove filename from baseband.c
+51f42c766563061d935d5921f3c660bde45a60d1 staging: vt6655: remove filename from card.c
+065dddf31e5a45f67e6de1a18bd3353b4b216327 staging: vt6655: remove filename from card.h
+ec32e0776f43f0965be2c9c6195d2871d129509f staging: vt6655: remove filename from channel.c
+646ce5315f5806d3ac04a47915e4a90ee7c7bd6b staging: vt6655: remove filename from channel.h
+f0d52cd214984144ad9500b4a3feff21d6e403d8 staging: vt6655: remove filename from device_cfg.h
+0e9e3f6170d633a26c3701eaf6a366ac65a1c4e7 staging: vt6655: remove filename from device_main.c
+eee245f5d707f4be2c8592790f15128116a60c3e staging: vt6655: remove filename from dpc.c
+82bcc3174af2472c10d9feeef8ceea32d54d9ef3 staging: vt6655: remove filename from dpc.h
+692b3e44b7afe2c3c348cd20edfa0a5336f13b54 staging: vt6655: remove filename from key.c
+56bfb9bc6cd1e4e91ce4376018e361223b737353 staging: vt6655: remove filename from key.h
+290262b9198d9731e285315056ff4c087f6d92d4 staging: vt6655: kernel style cleanup of mac.c
+ed0b62a568d13c8418a930bb4b36cbfc52f8f39b staging: vt6655: remove filename from mac.h
+050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 staging: vt6655: remove filename from upc.h
 
---===============8540374412757233647==--
+--===============6766736320587252739==--
