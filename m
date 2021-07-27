@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2097257851794891431=="
+Content-Type: multipart/mixed; boundary="===============1659809094576982822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Jul 2021 13:25:39 -0000
-Message-Id: <162739233948.13600.9851385210195899921@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 13:49:06 -0000
+Message-Id: <162739374617.27850.13633336413142551478@gitolite.kernel.org>
 
---===============2097257851794891431==
+--===============1659809094576982822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 7b9148dcb74a004a4df10df3af9239a46dfc2b2f
-    new: 39f9137268ee3df0047706df4e9b7357a40ffc98
+  - ref: refs/heads/staging-linus
+    old: e9e6aa51b2735d83a67d9fa0119cf11abef80d99
+    new: c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127
     log: |
-         cfdafb7608b4cf159aec510114be7a364347ca0f staging: sm750fb: Rename maxH to max_h in lynx_cursor
-         39f9137268ee3df0047706df4e9b7357a40ffc98 staging: sm750fb: Rename maxW to max_w in lynx_cursor
+         c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 staging: mt7621-pci: avoid to re-disable clock for those pcies not in use
          
 
---===============2097257851794891431==
+--===============1659809094576982822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627392336 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627393743 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627392336-7928f1a5c7ae67ef2391791324e638edfde9d9f5
+nonce 1627393741-7a7db03ee2959a041b7783599f525d016e49e728
 
-7b9148dcb74a004a4df10df3af9239a46dfc2b2f 39f9137268ee3df0047706df4e9b7357a40ffc98 refs/heads/staging-testing
+e9e6aa51b2735d83a67d9fa0119cf11abef80d99 c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEACVAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i2AP90/TOKyUduWOVHj159Jo
-DxSyz03ULZECSi6z0KBidSiQF978xuL8Q4HVUew8bcurbBPtS5L5tRwdmtPfm646
-Pr9w9BcfGCyYpmq0nTXjP6yD9Lk5LS9E4JhvmH2Wlg5v7DEE+EekRbzgMW2ldQPY
-5JgyLtmX4ck2kyCnWAzis/iEPfzfin7kgCTR/AF40ZlWsURHdkcItZPylbnF83wa
-Kt0Gi45TvYphbxxLQ68PYKzWj1T6IG2fMpMHA1Qb6Mw6Af0yUZ7BBcZRE7P2W06e
-pzSTslS9vuWRY4TNvsDf+6S7NZ71sMz5p2FFWmk5op9yRm3uKPRfkYzZYGkLcrGf
-lO88zU9Eg9npZ2JANhPLdT6b7x7sVXF+UF31hsi+lcYWECr8JJb6upKvhdJiASTb
-GhKmQpiBkgkFKXUkVJO60euIWK9TO0I1Slrug2l6cq/4rlVNMZlaBWWuoFewToG+
-wd78sPLrxcq9mkhQFugstPUreUITtwf2g1K/jedbJaw7O25yOFybHz4cJnnEqFly
-tNCoaSVfO5BxjcicgUv6A5JKSXSok5HyDfZw5jkryl90rRnRbYGifMjOR1gUG5DA
-F4+4eIo2kmo0iXiud2sw+KnZqAGCIV61WyU4t6La44Y7212HEvzEaEYaxyd+N/bX
-H7KF43bIgfj04hbe20/0xXQ=
-=/EIz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEADs8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tJsP/2mc1D1JTRhBUddGoUkx
+1AgtwJtMo37S68knYTzrAOOvdmWIxQKDpRh33H+HWd/iQNtrNR1dnq3ENp/WEPDA
+7NqZABtX5scwaY/s0mbURtR2UCI9VqNDRjYZrPTlwxmo4jguesOiStVY6M8JUS+f
+3b5kGkWz6+Tt1OHw9hi06uHxncFEGW4BpIAsqlimnZ/E/IZySOaS/jFvA+riwguH
+hu4+2zDEkFKiRmFSt4ToPmWfd9ZaOqlFiNmVBo1lbGJM6Bm/G2yQQVpIFDlQsLzx
+TLgGR1NoqPyEcSItSmVAgfHMg3TXX06UIi2jfWxnXymHr/LkIgIriEsaJZye0EWy
+tjuOQfSmVQt8kizbanaAjGHTwTdYOkxjpjY+53XJLsQHKtDPJQuYBF2R8EZzTaVc
+3JJcxtRqZmhhXVqn5hiAnc1AEZUrMvuyfDmIfLxTu57SxOhd0n8ZRg1YIX7qpgFG
+sXVVaTB19GCA4+K3xf3BoeaEQTMvZrl75ajtPUvUc5pp0qWMUIMwYKuAm7s/HDy6
+DJoXzlagf7yHRHN/JZ9Ltferxq9NNDERHmhl1X5qqQCxN5DHAnl6khi7Fy+ffaXu
+Lm2D7a0TcV+j0jOzWt3MiGf1oqCxYJpDFg5/0Zwqe26NDJ/3y67y79uYlZm0VQNo
+8UEmE5FodwaQ4HdO+gyVu69B
+=X3V4
 -----END PGP SIGNATURE-----
 
---===============2097257851794891431==--
+--===============1659809094576982822==--
