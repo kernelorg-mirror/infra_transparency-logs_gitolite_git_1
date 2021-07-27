@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8831240243261426095=="
+Content-Type: multipart/mixed; boundary="===============9022525146451586702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 27 Jul 2021 19:23:50 -0000
-Message-Id: <162741383085.27878.9787193097476645342@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 19:24:46 -0000
+Message-Id: <162741388618.28295.17476657285358311223@gitolite.kernel.org>
 
---===============8831240243261426095==
+--===============9022525146451586702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-next
-    old: 491db2229ab2615e24e5370765b6000df909c75a
-    new: 8e0f36a9f78bd7d93ce9835434e8af836344ea17
-    log: revlist-491db2229ab2-8e0f36a9f78b.txt
+  - ref: refs/heads/clk-mediatek
+    old: 59895d2b202070e4abefbf579beabc7795b2c575
+    new: d17e4e62df328a5a9e64c014fbeab732ed9d87c4
+    log: revlist-59895d2b2020-d17e4e62df32.txt
 
---===============8831240243261426095==
+--===============9022525146451586702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-491db2229ab2-8e0f36a9f78b.txt
+Content-Disposition: attachment; filename=revlist-59895d2b2020-d17e4e62df32.txt
 
 4a803990aeb1582d32e7661e57863cc189a15446 dt-bindings: ARM: Mediatek: Add new document bindings of MT8192 clock
 d18eb76bbd6998d57ca647bb0561e10afa404eef dt-bindings: ARM: Mediatek: Add mmsys document binding for MT8192
@@ -47,11 +47,6 @@ a1a5b6b0a840dbcd4baa0e775489a52d1e9c2156 clk: mediatek: Add MT8192 msdc clock su
 aff125adc00c80d59c3ebd71fc17242e65b37b76 clk: mediatek: Add MT8192 scp adsp clock support
 25f3d97e39a58fd7f057ce3da787adaf9239484a clk: mediatek: Add MT8192 vdecsys clock support
 441decf91ef01bf2d62f893c33f7ab7d654c5aa1 clk: mediatek: Add MT8192 vencsys clock support
-4ee107c514139960682cc0f3623a24e86fda1a13 clk: qcom: smd-rpm: Fix MSM8936 RPM_SMD_PCNOC_A_CLK
 d17e4e62df328a5a9e64c014fbeab732ed9d87c4 clk: mediatek: make COMMON_CLK_MT8167* depend on COMMON_CLK_MT8167
-4f7930d8d8346a723e24ea42352e4fc837269969 Merge branch 'clk-fixes' into clk-next
-d8f6159aa16ae2a8b0fbaf06d70e0ff078c4ee65 Merge branch 'clk-mediatek' into clk-next
-284c537a8aceb58ebcdc5a6cf7a21645ce6c4111 clk: lmk04832: drop redundant fallthrough statements
-8e0f36a9f78bd7d93ce9835434e8af836344ea17 Merge branch 'clk-lmk' into clk-next
 
---===============8831240243261426095==--
+--===============9022525146451586702==--
