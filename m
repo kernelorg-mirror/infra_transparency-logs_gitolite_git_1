@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 27 Jul 2021 12:15:32 -0000
-Message-Id: <162738813252.31358.9755759460008539021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 27 Jul 2021 12:15:39 -0000
+Message-Id: <162738813996.31502.12896695077634820120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: b44035290005adb19eaaf24c5685a5d5f35ed750
-    new: 082b79ff8ed75336822ea65f4b85cc75776e1bfe
+    old: fcef709c2c4baf758950bd7395e4b10527b81e2c
+    new: c7c9d2102c9c098916ab9e0ab248006107d00d6c
     log: |
-         a2b23d3a91f8f50a64008ba5cda0a71ed020d1db rename: add --all and --last parameters
-         b0e402c354bffed699e66b9eed870c9381a48288 rename: stop after count changes
-         96209c98e624d9db8f0c72dbed05da4e8da291d1 rename: size_t, mutually exclusive parameters
-         082b79ff8ed75336822ea65f4b85cc75776e1bfe Merge branch 'rename-all' of https://github.com/utoddl/util-linux
+         c7c9d2102c9c098916ab9e0ab248006107d00d6c net: llc: fix skb_over_panic
          
