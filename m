@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1612287704015604757=="
+Content-Type: multipart/mixed; boundary="===============8026314459494208788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 27 Jul 2021 04:14:30 -0000
-Message-Id: <162735927050.21077.9264467581402271367@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 04:14:35 -0000
+Message-Id: <162735927566.21150.15897710706279921577@gitolite.kernel.org>
 
---===============1612287704015604757==
+--===============8026314459494208788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 8286ab6c17cc4ae7c87cc3df8efe584a3c1de47a
-    new: 2c25add93fb16b0134cd2db02de687558185333e
-    log: revlist-8286ab6c17cc-2c25add93fb1.txt
+  - ref: refs/heads/5.15/scsi-staging
+    old: 9abe677951d15a099964b909010daaf92307bd4b
+    new: 2c03a047d2fcae6d526e8630c820bc40560ec1eb
+    log: revlist-9abe677951d1-2c03a047d2fc.txt
 
---===============1612287704015604757==
+--===============8026314459494208788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627359267 -0400
+pusher 75C5DE3D 1627359274 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627359267-bde04ca94cfcc4a1a968568cbc5d4cf35679f20e
+nonce 1627359273-c136d167c27d35c6ef325f7e433547fd637875c1
 
-8286ab6c17cc4ae7c87cc3df8efe584a3c1de47a 2c25add93fb16b0134cd2db02de687558185333e refs/tags/mkp-scsi-staging
+9abe677951d15a099964b909010daaf92307bd4b 2c03a047d2fcae6d526e8630c820bc40560ec1eb refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD/iCMACgkQ7ulgGnXF
-3j2HohAApqM7WJf/DepiYvy5NYwLcoWoQqZjqp8pwvuAkM/drTkVnOelPUimaqsW
-/R4CygawB1puczZxhLPEX5oTPsfyAbvPBt12JmnCaEmfhlWXNjHLaQXFfeMMR0iy
-sjuza+Ki8xuyKjAPV6INJyfVkW1Cnwpx1Qq88T8UEj1Pc+/ObCjlhexXsYvaLqDc
-v83m+lO27m2en+gMOsFBW2421A4+GSfPsRsRTw+/GL8JOAvLHbhNXA5/oMf8iiBY
-V3vnWspkTTyYbrIQXKvvvG6TncytUQaFZ+p3H632dkPH7iCJwZUFv4u4IGNbQxl0
-pI7tVUcC/+mVfmTWkXaOJePsVVqKGCOpqAw9eJu6h1URfcl2j1XxtDFqm7LVY1hu
-xAWghPW+PqV49ykZANqcqnygEjU6i1Tuy1ilvPbPKG++ZuVXFCsN/S5HkkCQT8hv
-yZ+N3hH2PuXRscUPDmW/99o7HRSeAxKKXIhni70Hcyb8Ld0uISUAEuVqWFxQvXom
-Br8AI8YU7nDFi5e6SStfECp4EocAxu4ONhr92al8ibFVVDBa59ZMoY1WshDYrrP9
-s2UviU7/YE99Fm4B1KClsHZWUZWgKdZaDBUPVGuHhS0KFfQn/zvjBSS47rVaJCjB
-3Jf9yH1i1rkMut7HBiCcEpzGwsR4Jr3EM1tM2GpsETe3UDZhMvc=
-=2F6D
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmD/iCoACgkQ7ulgGnXF
+3j2wbhAAsyqOzoJRzvAPTJq3bazOC2aHpRgPjFP/zlEMd0mGqlAkiPNhZJm8jftR
+d9BscxWy6Ab8oDHfSQcJMs8tM3zOxM5vWZEeitlB5XlkEdGW9zWSAaG+zU3Dg7OQ
+n1VCSpj7NqSKacfEIMEmfdRY7wxtFxzETDx3STOfGZ8bsqfMm/N+jsvR6rNVDBpQ
+TSaRhecBzuGoDIweqNCTGyJVlJcJJWe9BkATYgz1x+MISHMCpaYq+8USnX4K2+X/
+kvsBFLreAKvDr8Hh9LP7dKPwQX+9qt2L9+0SfSB0ZEkj0C1Xl25Ik1dVu0l7+8Yp
+qJqlXd5Eb9jeY0BuUPekSgUOi583g5mmaK9QQAGtgr8uGSZx6KzfFPDPnKaeVvfw
+W1LszTji2HgxTnMWBfsRCj7ZDe9BXpsAMQ4Zb1mzMPl3eZrQrC+3fUx2yJEZFHIj
+YSMjxW9Kqck1X6g6q9p6gIF0PUYFsqczurRUxoNNymV7xdU47oEG+24zJq9vaVDh
+2adnn9hzDcSV/hjebDRz6mC2Hen2m2b95xKWpYaHhhRWcDjmk8i7IitUpxmGX/i0
+XC6K6e1PBQ7JpglrHkgSA0mdQJSzqHxEQrHbU0TNgseK+R9U+81e9FF3c+nJTcaq
+90biMYOO0xeF4YRzSnCKOWSBKmPi7FJkNIGVg6DVtn4QpHaLMGM=
+=MA99
 -----END PGP SIGNATURE-----
 
---===============1612287704015604757==
+--===============8026314459494208788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8286ab6c17cc-2c25add93fb1.txt
+Content-Disposition: attachment; filename=revlist-9abe677951d1-2c03a047d2fc.txt
 
 f449a3d7a1530db44e7bba1a875f522115e99ab5 scsi: lpfc: Add PCI ID support for LPe37000/LPe38000 series adapters
 df3d78c3eb4eba13b3ef9740a8c664508ee644ae scsi: lpfc: Fix cq_id truncation in rq create
@@ -102,4 +102,4 @@ d4fc9eef7c5bf1d92a7ea843188ac77429dd21be scsi: scsi_ioctl: Remove a very mislead
 6c0ed04a0bb1a07328671cf40acaa30660faa19b scsi: scsi_ioctl: Factor SG_IO handling into a helper
 2c03a047d2fcae6d526e8630c820bc40560ec1eb scsi: scsi_ioctl: Unexport sg_scsi_ioctl()
 
---===============1612287704015604757==--
+--===============8026314459494208788==--
