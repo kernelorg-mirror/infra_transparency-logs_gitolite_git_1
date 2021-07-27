@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0200059364851112445=="
+Content-Type: multipart/mixed; boundary="===============5011982595692214976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 27 Jul 2021 13:59:41 -0000
-Message-Id: <162739438189.2451.11011320472076427531@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 14:00:37 -0000
+Message-Id: <162739443790.4296.12366141030343517443@gitolite.kernel.org>
 
---===============0200059364851112445==
+--===============5011982595692214976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 6b587394c65c23d5ba05a33e5899e2ed8dab3c97
-    new: fc78941d8169cba40e420eb24a88789b0406c738
+    old: fc78941d8169cba40e420eb24a88789b0406c738
+    new: 4356ad83792fe1633b8645f68cd4eefafca079a7
     log: |
-         c6e23b89a95db73bb85be28079664c66389323f0 usb: dwc3: gadget: set gadgets parent to the right controller
-         9973772dbb2b9c12a0707eca692f0dabf6295978 usb: gadget: uvc: make uvc_num_requests depend on gadget speed
-         b9b82d3d0dbc45ee6b4817c7a7275a65152301f5 usb: gadget: uvc: set v4l2_dev->dev in f_uvc
-         e81e7f9a0eb9536d5976acf5d95290338032a198 usb: gadget: uvc: add scatter gather support
-         fc78941d8169cba40e420eb24a88789b0406c738 usb: gadget: uvc: decrease the interrupt load to a quarter
+         39c0bf564eadbc4cb84e1c81cdd215f33b383a91 dt-bindings: usb: ehci: Add Allwinner A83t compatible
+         4356ad83792fe1633b8645f68cd4eefafca079a7 dt-bindings: usb: ohci: Add Allwinner A83t compatible
          
 
---===============0200059364851112445==
+--===============5011982595692214976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627394378 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627394435 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1627394377-986f8e6b436e5b421888e3d13984771e329ba59d
+nonce 1627394434-1d9e14dbdf01a0f3ac802e1f79bb4d02b69d7f1c
 
-6b587394c65c23d5ba05a33e5899e2ed8dab3c97 fc78941d8169cba40e420eb24a88789b0406c738 refs/heads/usb-testing
+fc78941d8169cba40e420eb24a88789b0406c738 4356ad83792fe1633b8645f68cd4eefafca079a7 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEAEUobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KFQP/jRObxlNNbAEhQ25K3vy
-0fmi9KdtY2AYc/2o4ka04/9omK/Ym5ZxI1B58ds+N+CXVQDAZwplIqBQXjwe2BnT
-ZNIimQZttHUflj1cGg8D+hwatLlt2YWtnM+18ODehTpovwTYDEWhZvc6/wnQcPSn
-gfcEE6+Xh77i89dSoyzh7W/mlUhPgFmDUpimbzpFgnV94chEhpWFloQ2VQyC1q5G
-aOaPBqx+BnpwYtXqQYla66aRkjDoXfDw/1OS/Fgg8XxypnsOZWRVRcn//K+y4OAS
-sYVCVzKVKkgZUp7VEQJwGNN8TxXAmiKxgYQo/PgJGKHWdRkgBF86WhZEomjJgfwG
-Y+V3nOjcrP9deM8+1lTIYz9Uu7XrBvwUXe8y0kpl8KsCTJ2/XKQaTIbDpq1X5Kze
-lR8fhgb4pCFaaOpsQcSKGd74zolGFfnT0kBUsUl2GV5wc9LYjLaXpnMVLf9qNjAi
-gTu43JexgRESSvMvfZuocCC0pYSTMvt61guKHrYPiqT+tdI4vjZaQ50l+TZYfXvZ
-AZSfkGGsv7Up6XKHB64V33l/fUG0j6tQqf3rdCzsaw+atHyMi7jIJpiLlcxkVqFx
-evp0d4RPyUGbjL8qKWkmN+nNuVIHkuGwlS4tiVd8U2TyiPsbO8Bj3OICXnLNjbSI
-6RbdoqaKk9umixLbCt+ervin
-=YBK/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEAEYMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MFoQAJijFZxXUyOJ3XLwn2Qr
+deymtXWLcp6cNuq9WZG8Cp+4Vt7P/K6gqKNSZK8dmXPp4XdjlCpWfKpvXXPn3Ale
+jvXqczGWNydY3D4KlwKVo29nCzRWefM11HJfa6/hYpL2LPhmmd5G0pX5aaBtJAub
+qAAz8D2igU7CrQMmks2sFHxgNo+uXl7Jswbo1S6iHxyiZbhIx1dKEw0cHFobFida
+L4Yqa6+to9B1FBZbY+XCBmINDzNNr9fOhl+CJwU3smgs4IqbDb45mfMPcbdlWVbn
+MuSf3wyk4LgjAraUEpsSprXdjDNdmS+oRW9JX6TNCOk2YiPVtr7NrYelr//f0Mv9
+0NGOqrhNMLvRTyIIrQ1ZctePRzIOxnGZff+Ismoq/KXqtvH3juEcXDPhKPyc+GxU
+g/spHRMEczhfBgjJRKAioNjHFQAEJqR31+Y/1PDyapX9MKFdCDWozYEu579oIjv/
+WbYQ65qCk7gfvGqzR/IMjPxvrKEZblrBd1sR0r36Q4wi8mFiPhISXAacqDkVeMaF
+gaA7HeO2Npgwktcbsg6BtMxEABgq9MsEIWcD4aaSNSARBCBjIdHdnCPDKjcTO3yu
+I3CnN5QR4MzAHDrdQaymoPI02mJjYo7O3mNZuL3fItqRwMa52gUNbdPTQwYiOXoY
+I0QZUqgUtTKSw6mh8T9Na3kk
+=eDpB
 -----END PGP SIGNATURE-----
 
---===============0200059364851112445==--
+--===============5011982595692214976==--
