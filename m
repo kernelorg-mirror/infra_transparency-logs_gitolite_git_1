@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4136934788552796009=="
+Content-Type: multipart/mixed; boundary="===============7456002968809554280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 27 Jul 2021 02:35:05 -0000
-Message-Id: <162735330579.22804.17507281402244723982@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 02:35:20 -0000
+Message-Id: <162735332044.22981.3918351736409909701@gitolite.kernel.org>
 
---===============4136934788552796009==
+--===============7456002968809554280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: af996031e1545c47423dfdd024840702ceb5a26c
-    new: 2739bd76fceb07e3ffba025322ae765c337b21a7
-    log: revlist-af996031e154-2739bd76fceb.txt
+  - ref: refs/heads/mlx5-queue
+    old: cafe56d8d3307a67d84226e7cb9d138d69c3a3a4
+    new: 71cb232e83a4ad3282161e863c1871a26afd00f4
+    log: revlist-cafe56d8d330-71cb232e83a4.txt
 
---===============4136934788552796009==
+--===============7456002968809554280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af996031e154-2739bd76fceb.txt
+Content-Disposition: attachment; filename=revlist-cafe56d8d330-71cb232e83a4.txt
 
 04bdec2b904fa7211dcedfc0bd331b639fe80290 can: j1939: j1939_sk_sock_destruct(): correct a grammatical error
 333128737955c8a9f4377c436b0ef98aa866175f can: j1939: fix checkpatch warnings
@@ -105,5 +105,21 @@ f2c1dac0abcfa93e8b20065b8d6b4b2b6f9990aa net: ipa: fix ipa_cmd_table_valid()
 442d68ebf0927681e9405c3db8e9fafb754cb458 net: ipa: kill the remaining conditional validation code
 5bc5588466a1f8b48fb04f56c46474a30508a3d6 net: ipa: use WARN_ON() rather than assertions
 2739bd76fceb07e3ffba025322ae765c337b21a7 Merge branch 'ipa-kill-validation'
+12df2d8b57dbe1249edd401c55fc1c01c4efe137 netfilter: flowtable: Make sure dst_cache is valid before using it
+61b2663b4553f44015674bd40f564c1b0f66fe9a ethtool: Fix rxnfc overflow
+50572658f8f8d850da0842d3244c9dece39b5702 net/mlx5: Fix missing return value in mlx5_devlink_eswitch_inline_mode_set()
+d820f71c91a6604640fb2a9dec129b327da490d7 net/mlx5: Initialize numa node for all core devices
+0b9c7a63fb046e09676898e359e468626b500a14 lib: bitmap: Introduce node-aware alloc API
+eb19767874742b7b38e2a3a9650e4d52046f9055 net/mlx5: Node-aware allocation for the IRQ table
+13eb2e8599b1862b26a14f8c823a995bf76e5faf net/mlx5: Node-aware allocation for the EQ table
+38292a6c395a6c574b38ae94c9808e6b6963b441 net/mlx5: Node-aware allocation for the generic EQ
+5925257f4b8ce8e66217f63212db6c8f0c5f9ada net/mlx5: Node-aware allocation for completion EQs
+947ecba76d0016cd57120e1c504f838b14f5cbd7 net/mlx5: Node-aware allocation for UAR
+f68b280ec07af6f5f281c7f6459ef4c89f9ba807 net/mlx5: Node-aware allocation for UAR bitmap arrays
+b41d2dfa871f36d01a53981a668724d6dabcccb1 net/mlx5: Node-aware allocation for the doorbell pgdir
+14fa0fa47cf1f6f2a1ca32ada4df4d1a5f758d1f net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+4df9547c94ee640ae2ff2e81adcc81b9f67fd7fb net/mlx5: Node-aware allocation for buffer metadata
+aebcb731627ce58ef215d2ab1f94a8f4b90f7fba Merge branch 'patchq/407396' into mlx5-queue
+71cb232e83a4ad3282161e863c1871a26afd00f4 Merge branch 'patchq/362918' into mlx5-queue
 
---===============4136934788552796009==--
+--===============7456002968809554280==--
