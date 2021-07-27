@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 27 Jul 2021 21:39:09 -0000
-Message-Id: <162742194922.20951.10396774955851321262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 27 Jul 2021 21:49:40 -0000
+Message-Id: <162742258020.28564.9263097964189645806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: c139e40a515d2d1e51f7c08bd63ed4d1c7f64163
-    new: 043c5bb3c4f43670ab4fea0b847373ab42d25f3e
-    log: |
-         043c5bb3c4f43670ab4fea0b847373ab42d25f3e libbpf: Fix race when pinning maps in parallel
-         
+  - ref: refs/heads/kspp/memcpy/next-20210726/v1
+    old: 0000000000000000000000000000000000000000
+    new: 831e05d47f76f6e7452fedbcb471dd405242bfaf
