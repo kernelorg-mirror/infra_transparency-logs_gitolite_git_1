@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6766736320587252739=="
+Content-Type: multipart/mixed; boundary="===============3026229607390715065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Jul 2021 13:23:10 -0000
-Message-Id: <162739219060.11203.6198833048389415934@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 13:25:14 -0000
+Message-Id: <162739231445.13336.3646334439922429500@gitolite.kernel.org>
 
---===============6766736320587252739==
+--===============3026229607390715065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,64 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19
-    new: 050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2
-    log: revlist-a4fccfcfe7d5-050cbd980e6b.txt
+    old: 050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2
+    new: 7b9148dcb74a004a4df10df3af9239a46dfc2b2f
+    log: |
+         2a4d15a4ae98e27ed59a70c1c25483d24507171b staging: vchiq: Refactor vchiq cdev code
+         c405028f471d6a7fd694cda34a9135345f80d88b staging: vchiq: Move certain declarations to vchiq_arm.h
+         f05916281fd75db2fe32294e26c04d666c762370 staging: vchiq: Move vchiq char driver to its own file
+         2b5930fb3dc06d86149071f9dc8b6992cac1c3aa staging: vchiq: Make creation of vchiq cdev optional
+         7b9148dcb74a004a4df10df3af9239a46dfc2b2f staging: vchiq: Combine vchiq platform code into single file
+         
 
---===============6766736320587252739==
+--===============3026229607390715065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627392186 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627392311 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627392184-46cdb9494c6ed0537c5b1010e713e95be5adfe80
+nonce 1627392310-9ad6328b916c317e6b8130d84457d1157b0eb0a4
 
-a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19 050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 refs/heads/staging-testing
+050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 7b9148dcb74a004a4df10df3af9239a46dfc2b2f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEACLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pYcQALcAvIOnGdlbw6J5QIsC
-9BUwg1y9Txxs2NdfMqkmcBk+V9B+Cpi4vpLHS2e4Gun/o4lg9fYjLiiCQ/oEmkT4
-Lk1WaFeLwbt+i2NGjfdltw9BgEFENN3YqDMQOmVr1KvQEcgcDno973/OoiqCRGvr
-45YMtY76nu0ZNbaoLKhuU7KGdGMj2b0qzGsDHG0QSR7QGjSoB2AGcLMGB4AXDupF
-gpEzq9ewVMFLVA8xsaHZWZFgzf1xqP7pO8ndPHmDV8ONGxcpxnujj6ATFwd5ebok
-gtxpPF2YY/sp7VMMm7R8XZ2I6UTlKzoN6LWju3SBuw+UhhsLKhRSPQLXwf0OpkDL
-sbptkqBH7deusSUtgifpW9i2VzS/Av2hwnnFs3UAvq0hX6HNlL215dQJ0k4q8KHX
-VlcDNffxdbNz2bANm6iuEYQ9TTzvQkFZtOC+QZU9zocjMeJRI4OWYylcpQ8z9wUG
-/BLJe6MsqdyRdXF15ck+1pN59MymhEkavhcpj1LLlCNYSH21alWLWpECf9PU0I1F
-lXK04dAIj/P8MoRC5UWGXFVfczfZ5uUlwoR5hxtXYEKf8xL6saWJ58RXgGDBXiQc
-t52I0P9yZcx5/hEXQonVnO+jEJm0IpBRLbBccHVJnJrUfgHc/Q4sh5oNy88y8DRV
-AGBlYdEeswnGlCLcz4kf/1Hz
-=4y1R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEACTcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F+EQAKr58SeXHgjxVjU3rOA8
+v9FBO2kWbO0C9d4mEdYfpFSU2IrxyaXnHZT0jxqpURV/SaeF1fHAtSZsmXxnDkbm
+pqq6qYkZUQWwWgt4P01nKBmTgKrBS7vPvA6gfS3F2ZmFHRHI0tz3TPWxz+lJnFN6
+/6QadhNHQijW0uiN63Zdnj08HuhkIiAuVQ8d8RWjjI0H7SLR8s5TkCNf2nme6IRX
+cmn76LdHb7LNYS4sdyZ/iHfH5wPIPKZcqLqH+CJueYnn3CcLr8XF4R/FShhjn5M3
+COpjaH8UJ9tFoAT/e7lMTAgUao0ueEznIulyNat3u93NgV8JVJs8FahFqpLHLKYB
+9Jd+QH4E2La5I9EDzg6ivtF0PcE6ty/e8bu1W2t/rR83uXXgLpZP7/ztlUzowFbO
+fH0k/CkLcD1trBUBu7826JbDk/Va2XpSPQ+ti+fhzhACikmXwy/3tDqHjZL5HXc0
+4IkgGhGEC28+BMcouOr//MsPZNd8e11P2KcuZrLh4CjoiiUl8QBxCZbbshfYfXkJ
+xfOJQVCl9ESDqe1v1L4TDhJ9CFu1lrwGHcA2OW6hlWbq7tzGCG0FS1T+eVqFPeOj
+hdx8HmWNXngqmrss5LQUtxQpV8o6+v3VVLo3n/K7zymJuR0kQ6z3G5dodtVLXDCa
+INzEFYttthZ91z41kISOjvue
+=L7gS
 -----END PGP SIGNATURE-----
 
---===============6766736320587252739==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4fccfcfe7d5-050cbd980e6b.txt
-
-36174650c4283c9bc1c6e63d3d835c824c7a2903 MAINTAINERS: remove section HISILICON STAGING DRIVERS FOR HIKEY 960/970
-cf79ee6eb0d7d5f45ad58c395ee855e2e1bbc9b2 staging/rtl8192e: Remove all strcpy() uses
-3c6675363de5aa168c23431cf90db455c1901b6e staging/ks7010: Remove all strcpy() uses in favor of strscpy()
-246f920cb731950bea4501dc68ab2f8ad66e8b8d staging/rtl8192u: Remove all strcpy() uses in favor of strscpy()
-14127269cd516fac7c1711accededddf3f2c7ab3 staging: vt6655: remove filename from baseband.h
-cae9546ac9f160573029dea6e6bec8d8aed471b8 staging: vt6655: remove filename from baseband.c
-51f42c766563061d935d5921f3c660bde45a60d1 staging: vt6655: remove filename from card.c
-065dddf31e5a45f67e6de1a18bd3353b4b216327 staging: vt6655: remove filename from card.h
-ec32e0776f43f0965be2c9c6195d2871d129509f staging: vt6655: remove filename from channel.c
-646ce5315f5806d3ac04a47915e4a90ee7c7bd6b staging: vt6655: remove filename from channel.h
-f0d52cd214984144ad9500b4a3feff21d6e403d8 staging: vt6655: remove filename from device_cfg.h
-0e9e3f6170d633a26c3701eaf6a366ac65a1c4e7 staging: vt6655: remove filename from device_main.c
-eee245f5d707f4be2c8592790f15128116a60c3e staging: vt6655: remove filename from dpc.c
-82bcc3174af2472c10d9feeef8ceea32d54d9ef3 staging: vt6655: remove filename from dpc.h
-692b3e44b7afe2c3c348cd20edfa0a5336f13b54 staging: vt6655: remove filename from key.c
-56bfb9bc6cd1e4e91ce4376018e361223b737353 staging: vt6655: remove filename from key.h
-290262b9198d9731e285315056ff4c087f6d92d4 staging: vt6655: kernel style cleanup of mac.c
-ed0b62a568d13c8418a930bb4b36cbfc52f8f39b staging: vt6655: remove filename from mac.h
-050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 staging: vt6655: remove filename from upc.h
-
---===============6766736320587252739==--
+--===============3026229607390715065==--
