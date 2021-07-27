@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1659809094576982822=="
+Content-Type: multipart/mixed; boundary="===============1020624827936623176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Jul 2021 13:49:06 -0000
-Message-Id: <162739374617.27850.13633336413142551478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 27 Jul 2021 13:53:08 -0000
+Message-Id: <162739398843.30702.4052309105821425822@gitolite.kernel.org>
 
---===============1659809094576982822==
+--===============1020624827936623176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: e9e6aa51b2735d83a67d9fa0119cf11abef80d99
-    new: c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127
+  - ref: refs/heads/usb-linus
+    old: ff1176468d368232b684f75e82563369208bc371
+    new: 30fad76ce4e98263edfa8f885c81d5426c1bf169
     log: |
-         c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 staging: mt7621-pci: avoid to re-disable clock for those pcies not in use
+         30fad76ce4e98263edfa8f885c81d5426c1bf169 USB: usbtmc: Fix RCU stall warning
          
 
---===============1659809094576982822==
+--===============1020624827936623176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627393743 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627393741-7a7db03ee2959a041b7783599f525d016e49e728
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627393985 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1627393983-e6b8b6c3a86fc7a11a126b2b84c66e03955f5efd
 
-e9e6aa51b2735d83a67d9fa0119cf11abef80d99 c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 refs/heads/staging-linus
+ff1176468d368232b684f75e82563369208bc371 30fad76ce4e98263edfa8f885c81d5426c1bf169 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEADs8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tJsP/2mc1D1JTRhBUddGoUkx
-1AgtwJtMo37S68knYTzrAOOvdmWIxQKDpRh33H+HWd/iQNtrNR1dnq3ENp/WEPDA
-7NqZABtX5scwaY/s0mbURtR2UCI9VqNDRjYZrPTlwxmo4jguesOiStVY6M8JUS+f
-3b5kGkWz6+Tt1OHw9hi06uHxncFEGW4BpIAsqlimnZ/E/IZySOaS/jFvA+riwguH
-hu4+2zDEkFKiRmFSt4ToPmWfd9ZaOqlFiNmVBo1lbGJM6Bm/G2yQQVpIFDlQsLzx
-TLgGR1NoqPyEcSItSmVAgfHMg3TXX06UIi2jfWxnXymHr/LkIgIriEsaJZye0EWy
-tjuOQfSmVQt8kizbanaAjGHTwTdYOkxjpjY+53XJLsQHKtDPJQuYBF2R8EZzTaVc
-3JJcxtRqZmhhXVqn5hiAnc1AEZUrMvuyfDmIfLxTu57SxOhd0n8ZRg1YIX7qpgFG
-sXVVaTB19GCA4+K3xf3BoeaEQTMvZrl75ajtPUvUc5pp0qWMUIMwYKuAm7s/HDy6
-DJoXzlagf7yHRHN/JZ9Ltferxq9NNDERHmhl1X5qqQCxN5DHAnl6khi7Fy+ffaXu
-Lm2D7a0TcV+j0jOzWt3MiGf1oqCxYJpDFg5/0Zwqe26NDJ/3y67y79uYlZm0VQNo
-8UEmE5FodwaQ4HdO+gyVu69B
-=X3V4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEAD8EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RQkQAK9HIXf5DYdFLtQ8Og3n
+FiAn37a443D7s1qfX8ISE4S56rOjEBy7CV3XEP/eFrc4UpXOIMT+uTE+ubcbS5+J
+dsLnLvnZ861B9GfdHCz8jLEY5lVgYYfOKTcU1boucmlv1sLQDGhSRQVf08dHL98i
+ZO+QCp5CSZ4Jh0jkJb8uOlgzLChEX63HBjT9p+b3OIOj82VV0/fRLSIzT04omrLc
+wYdPLxtOc9eul/ut6pQFDqRO7G5cSvxlF9R4q+Mp1ErrT0lFuekmOFSx3NsHR9OC
+Z5xnpDLypgtfe0QoWcgkTCXlI4mP23iJMlizcHLtAkkq0ehFv6SvqMLVx5RCALdC
+iBbQ6VnyTySHQ+KfUXV+bzuj9t1AbUnxpr8RpBvXHgJpChwdE62WNzethyDF24cD
+lG5wtm2TcTRDMqQyKBc44qWp0+QcYRP9DuhsekyCdgPs2Qn4M2VMputtPpKdAxXA
+juxmJo5oIADbcBBSK1MB1H/Qpo9eEKn2NW4SQ8969DOEIC3vQjU5c1EBKMq/8Q45
+tQO++mw2nNyYqxFmcQiVYCazoUgl/li4uE208+X0MA7q1PXoS32+6zZ9wMiH3e5r
+qJViGxrs4tRn7kYv4JBI3ZedsrB7VjXiu9ZJ3m33+PKQwWhHpQvJ7UQqjYSnte7Y
+bQ2jdWbzzWsOYf17bnDxF934
+=XFVe
 -----END PGP SIGNATURE-----
 
---===============1659809094576982822==--
+--===============1020624827936623176==--
