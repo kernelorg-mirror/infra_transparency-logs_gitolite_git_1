@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9137382357149243765=="
+Content-Type: multipart/mixed; boundary="===============7390697325025972510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Tue, 27 Jul 2021 18:31:05 -0000
-Message-Id: <162741066519.25455.48513387642794492@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 18:31:13 -0000
+Message-Id: <162741067306.25562.9783840998714030562@gitolite.kernel.org>
 
---===============9137382357149243765==
+--===============7390697325025972510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/grokmirror/grokmirror
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9c3ed5dfded28797e49ee9526077f1c5018d40a5
-    new: e54b13816d529a70657a023fc8a8fbf0c4160d55
-    log: |
-         e54b13816d529a70657a023fc8a8fbf0c4160d55 Notes added by 'git notes add'
-         
+  - ref: refs/tags/v2.0.10
+    old: 0000000000000000000000000000000000000000
+    new: 5e54894377254c2fb8369e8bc185237d39cd7252
 
---===============9137382357149243765==
+--===============7390697325025972510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1627410664 -0400
+pusher B6C41CE35664996C! 1627410672 -0400
 pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
-nonce 1627410664-23ed182fd3b7ef984debae8dc14967de30bb7d79
+nonce 1627410672-454ed5f7bbd0dca92744a3a4624bbaaba602d323
 
-9c3ed5dfded28797e49ee9526077f1c5018d40a5 e54b13816d529a70657a023fc8a8fbf0c4160d55 refs/notes/signatures/tar
+0000000000000000000000000000000000000000 5e54894377254c2fb8369e8bc185237d39cd7252 refs/tags/v2.0.10
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYQBQ6AAKCRC2xBzjVmSZ
-bDxlAP9s6Ld3h4Lke67V0QJXNcu9pjtwNX81++6495uTEpaccQEA0stgGxNImeV0
-jXYpTwNgNeA7kFztHVMSjFsMyLKgRwE=
-=AZKp
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYQBQ8AAKCRC2xBzjVmSZ
+bM1TAP9sfB0at5gjuDuGtXlmPqesPQm7X+VkYwkjQMWE8dcY1QEAw8KzvQ4akVAB
+eXrYmyNOcLVDNm4zUo5K9Xrd+rLmygk=
+=mukG
 -----END PGP SIGNATURE-----
 
---===============9137382357149243765==--
+--===============7390697325025972510==--
