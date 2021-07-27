@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 27 Jul 2021 12:35:16 -0000
-Message-Id: <162738931621.12308.4638803899774535040@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7749327420586176371=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 27 Jul 2021 12:45:31 -0000
+Message-Id: <162738993190.18433.1548748654468313375@gitolite.kernel.org>
+
+--===============7749327420586176371==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-next
-    old: 58aca3a2b4bd7ecf72db329261610ca769f43948
-    new: 0beaa951ed97dc71a915725f54978ffd2f50d8fb
+  - ref: refs/heads/driver-core-linus
+    old: ff1176468d368232b684f75e82563369208bc371
+    new: 4d1014c1816c0395eca5d1d480f196a4c63119d0
     log: |
-         5ce19878648fa1e463298f1630677e92394f4d25 net: ti: am65-cpsw-nuss: fix wrong devlink release order
-         0cb2984846c406fc6485a212282e92f549b77fda net/mlx5: Don't rely on always true registered field
-         986113be80bf487cf23e54265d4fbcabbcb096a6 devlink: Remove duplicated registration check
-         04d9045d97d7660f0b2d6d57b1fc24c2d96439d5 devlink: Allocate devlink directly in requested net namespace
-         6db2ee64d726b0a847e6ae051be96eb059c18627 Merge branch 'master' into testing/rdma-rc
-         cc75e03bd984cfb0f6b0d288a74b7c00cc870652 Merge branch 'rdma-next' into testing/rdma-next
-         0beaa951ed97dc71a915725f54978ffd2f50d8fb Merge branch 'testing/rdma-next' into queue-next
+         4d1014c1816c0395eca5d1d480f196a4c63119d0 drivers core: Fix oops when driver probe fails
          
-  - ref: refs/heads/queue-rc
-    old: c4dbf21e611ffd0e7d5cdc8cd6aefb2c328a4b0e
-    new: 407d50765866f413f03c1c5b098cac7ecaeabd7e
-    log: |
-         6db2ee64d726b0a847e6ae051be96eb059c18627 Merge branch 'master' into testing/rdma-rc
-         407d50765866f413f03c1c5b098cac7ecaeabd7e Merge branch 'testing/rdma-rc' into queue-rc
-         
+
+--===============7749327420586176371==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627389929 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1627389928-17a36d9c4761b85130affcbdf7c2606aa8706be1
+
+ff1176468d368232b684f75e82563369208bc371 4d1014c1816c0395eca5d1d480f196a4c63119d0 refs/heads/driver-core-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmD//+kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I2oP/2AuU+t3xCkAnElOPITv
+wonPw1g4YgCHpAYct6wulbRvSyBnIcAmh44lmIB8rh9BJuG2NIKt4N3HbGEX2GOH
+sOJxyCU1L7fWOLj3BuSMIVOsCkymoMJW/EzQgnBEy+tg7WDfD/TYA8Vg3xrDSIvH
+lt14VBF845F41qw8olK579twXwOIj4a0ZIHTcGPdDbyd5Cx8BJx+W44+2VCF7PIU
+QC1y6JEovuzXJqIzPvTeToUeJeeKGfDEzOMAl4khLflmGnS2a+RKg+rpFRwYnORh
+qBmZ6VNPYI+qHfMUQiD1BTlfVa71Nq6jNVSEqp0ySdR2NvSEY0hMS6xigWUqVOq1
+xwXRXg4IfifSs7s/bbP7VPedXSeArSN9j0wtuqDM+CJOBekrIxH1clYn2TjdqU4b
+HaSw4aKAWovetUW55vT09kUbOESVCkzNSUUcXmLf898R7DRWrErPTWotX/DdTgMg
+d+BfR+qumt3q8ZvirWNYBvgHaKQ6Geuq1oYPen2OrZVhzUU+2Smr2Cx7Dg4QOd32
+4+qtYzMof3g+SvEBClV3e+mswLuA87pU2qsyuNqXZSZpuQSFNAcW+Udw2w+zIHup
+XfX0ZdSlsBV6ipQcxEov+bte/jgWpuiPgBxRyMtcBOZPxFYVIZoJsA7eNhyO7y2u
+nITmNGr0wH1cTMVWp05T+oMc
+=xh8V
+-----END PGP SIGNATURE-----
+
+--===============7749327420586176371==--
