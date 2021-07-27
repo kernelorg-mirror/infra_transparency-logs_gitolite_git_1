@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 27 Jul 2021 14:46:01 -0000
-Message-Id: <162739716189.4595.16475673713703384644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Tue, 27 Jul 2021 14:46:03 -0000
+Message-Id: <162739716305.4656.17374373312765472362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/irq/generic_handle_domain_irq
-    old: feddcee1016ed236f55ff53a893baaea8fbefd72
-    new: d3126d1af248cba3b70342748d77c2825f37eec2
+  - ref: refs/heads/at91-dt
+    old: c1f00edce5a3ee99521ff08ffb4d903e55b6a53f
+    new: 72d609dad0876dc7dff1d5cc7a2716e3f76f8981
     log: |
-         56b521c481e166d4c7c488bc59752d96f9723b64 genirq: Extract __handle_nested_irq() as a primitive for handle_hested_irq()
-         c0279d786ada3daa6c234a48631bf45a5a098579 genirq: Implement handle_nested_domain_irq()
-         491d5e8b66b7409c7f6cd196ce210d5b9156e1cc gpio: Bulk conversion from handle_nested_irq() to handle_nested_domain_irq()
-         ee1feb26a8757bcd0a0e0113d48df6ef1fced4c9 mfd: Bulk conversion from handle_nested_irq() to handle_nested_domain_irq()
-         6bc3ee50153e24657db0bd557db912969230a378 net: dsa: Bulk conversion from handle_nested_irq() to handle_nested_domain_irq()
-         671f206f4581e6df3dd0a36234b44177de4370a5 pinctrl: Bulk conversion from handle_nested_irq() to handle_nested_domain_irq()
-         d3126d1af248cba3b70342748d77c2825f37eec2 ASoC: codecs: Bulk conversion from handle_nested_irq() to handle_nested_domain_irq()
+         72d609dad0876dc7dff1d5cc7a2716e3f76f8981 ARM: dts: at91: sama5d2_icp: enable digital filter for I2C nodes
          
