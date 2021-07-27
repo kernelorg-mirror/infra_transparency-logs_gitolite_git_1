@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2744800583619019954=="
+Content-Type: multipart/mixed; boundary="===============5844095359089729008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 27 Jul 2021 17:09:00 -0000
-Message-Id: <162740574009.2141.14646179986243517361@gitolite.kernel.org>
+Date: Tue, 27 Jul 2021 17:11:04 -0000
+Message-Id: <162740586456.4232.6419698181512373145@gitolite.kernel.org>
 
---===============2744800583619019954==
+--===============5844095359089729008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,58 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
+  - ref: refs/heads/queue
+    old: 85b724ad50f5c6428cde9b66fdf24f4476d6ba15
+    new: 2e154953511370f839ea6477e8bc48d61a74542a
+    log: revlist-85b724ad50f5-2e1549535113.txt
   - ref: refs/kvm/queue
-    old: 812f17d1e34613b94fc7ecf4fbef88f7efb89033
-    new: cf724826508a88ac6a08ea8608fea01f7be76dbc
-    log: revlist-812f17d1e346-cf724826508a.txt
+    old: cf724826508a88ac6a08ea8608fea01f7be76dbc
+    new: 0000000000000000000000000000000000000000
 
---===============2744800583619019954==
+--===============5844095359089729008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1627405736 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1627405862 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1627405729-2b4aeec98068dae77ae5993c1cc4ebbbcc6999d9
+nonce 1627405861-29835f7a6445592c7d3229222e1509005bd3d9b0
 
-812f17d1e34613b94fc7ecf4fbef88f7efb89033 cf724826508a88ac6a08ea8608fea01f7be76dbc refs/kvm/queue
+85b724ad50f5c6428cde9b66fdf24f4476d6ba15 2e154953511370f839ea6477e8bc48d61a74542a refs/heads/queue
+cf724826508a88ac6a08ea8608fea01f7be76dbc 0000000000000000000000000000000000000000 refs/kvm/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEAPagUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNKdAgAkTQU62gafTUBRo95yf1veB20hVIq
-egxs3gnohJlwm0epOScpDyNmtrZ9+ckruyOtnqkC/dQhDnqd40stFxre5dzjOvgX
-XhANEDi94zrGLSvG4l4MSSWLZv3cNB+tajNoP3kzhXgtZNzG/OLw4LWi4FT8Opc1
-ANgY0za/41RQsBWvP9Vz13Poy/AJMAIh3rA63ZFXuKrKnYASIRMeGW/J5oG3kEUK
-11VUXHZr9kdztgxO/C1XtZA07vprvuYAsyC9hKk1u+JMQtzcb7r2DqMgCeV/Fh0d
-1cezS0j9H0siETaXUnbqEaBqboI6iijNSz8wxJDagqNJMEVdXQz6CMznWw==
-=u+rE
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEAPiYUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMi0Af8D8rZiAr89YDXdVSUzffFjXuRGaxK
+sxwH1drIMPKMiySTZcJiZUJ6DMAHa5UuwuUcc6dlRBY3/TQORM5ngDJwVDuN4FI1
+9uPq8+Zno0UWP1ROvwBxLyAdwaX6xQcYQp92bNCgUSehxN5+7/7K+GkxXtCTOaqA
+PXAecz0ele9xCqvlG860zWZUDhK4P5oKNnjtEAb/8ck8R5tqdwucqEg+zlcLv1Wl
+Z64j0sXhv2oEXk7ehZtp3zw6B1cpfsSGc2M5QxY4vrUqz+9mzZBiC+IVRaJtfHv6
+YQqGPCVA5Kdn+Xjd7ESlWxsz88WpUCzOCVih1FsbbCEp5XRqovf35LCzNg==
+=6dvn
 -----END PGP SIGNATURE-----
 
---===============2744800583619019954==
+--===============5844095359089729008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-812f17d1e346-cf724826508a.txt
+Content-Disposition: attachment; filename=revlist-85b724ad50f5-2e1549535113.txt
 
+4db221f6983aadd6d1975bab170f089afd6fd8d6 MAINTAINERS: Add Joyce Ooi as Altera PCIe maintainer
+39d7101684a74ac478e0b6411bcc68307a7f1c1a Merge branch 'master' of ../net-next/
+6f14078e3ee59ccc5806f7bff0f25f94a6d3ff80 octeontx2-af: DMAC filter support in MAC block
+dbc52debf95f8f902f74309e7ae0de38e1ed4e4c octeontx2-af: Debugfs support for DMAC filters
+79d2be385e9eabe4403eb85bcc7d3efc6b936a76 octeontx2-pf: offload DMAC filters to CGX/RPM block
+764a4af9f04244621964f148053d6e8703505311 Merge branch 'octeontx2-dmasc-filtering'
+856a5c97268d474282360c8a3cf4f37f6036dbec net: wwan: iosm: fix uevent reporting
+3bcfc0a2d3199d0a83d47ed67ad57a1c2f5a16d7 net: wwan: iosm: remove reduandant check
+5bb4eea0c5f5b9383a543293966bdf20e54988aa net: wwan: iosm: correct link-id handling
+c302e3a1c86f78421d58ef564ba22519b0b039c0 net: wwan: iosm: fix netdev tx stats
+d7340f46beae05227f5f4a1c8cb18e81e0c3fe0e net: wwan: iosm: set default mtu
+88827353c696defc40de7a5cdae5a5a084598fe2 Merge branch 'wwan-iosm-fixes'
+5d43f951b1ac797450bb4d230fdc960b739bea04 ptp: add ptp virtual clock driver framework
 73f37068d540eba5f93ba3a0019bf479d35ebd76 ptp: support ptp physical/virtual clocks conversion
 44c494c8e30e35713c7d11ca3c5ab332cbfabacf ptp: track available ptp vclocks information
 acb288e8047b7569fbc9af6fa6e9405315345103 ptp: add kernel API ptp_get_vclocks_index()
@@ -267,8 +284,6 @@ c9ebd3df43c067b57203737484076345b6df2fb4 f2fs: initialize page->private when usi
 70eee556b678d1e4cd4ea6742a577b596963fa25 riscv: ptrace: add argn syntax
 024591f9a6e0164ec23301784d1e6d8f6cacbe59 arm: ioremap: don't abuse pfn_valid() to check if pfn is in RAM
 bc832065b60f973771ff3e657214bb21b559833c bpftool: Properly close va_list 'ap' by va_end() on error
-fb5dad4084f0ea6b6df5fe90f157531ca6e20681 KVM: selftests: introduce P44V64 for z196 and EC12
-cd4220d23bf3f43cf720e82bdee681f383433ae2 KVM: selftests: do not require 64GB in set_memory_region_test
 1df3af6dc3cfe643f43d46f202bd44861ccbdb99 powerpc/64e: Fix system call illegal mtmsrd instruction
 c4edc3ccbc63947e697bd2e30afca8bfaa144998 netfilter: conntrack: improve RST handling when tuple is re-used
 1da4cd82dd180224503e745ccf3220e3490d8897 netfilter: conntrack: add new sysctl to disable RST check
@@ -839,15 +854,6 @@ afbd0d299289a0faaa605af74982f87ad75468fc dmaengine: mpc512x: Fix fall-through wa
 d08c84e01afa7a7eee6badab25d5420fa847f783 perf sched: Cast PTHREAD_STACK_MIN to int as it may turn into sysconf(__SC_THREAD_STACK_MIN_VALUE)
 104aba8dd7dca85d82e94aba07e71994ccdaf4cf powerpc/smp: Fix fall-through warning for Clang
 b7eb335e26a9c7f258c96b3962c283c379d3ede0 Makefile: Enable -Wimplicit-fallthrough for Clang
-f3cf800778e9e76b2387d00c9bfbc2e16efdb7ed Merge tag 'kvm-s390-master-5.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-f8f0edabcc09fafd695ed2adc0eb825104e35d5c KVM: selftests: x86: Address missing vm_install_exception_handler conversions
-f0414b078dd11641a7a64027c2741396f47718fd Revert "KVM: x86: WARN and reject loading KVM if NX is supported but not enabled"
-4bf48e3c0aafd32b960d341c4925b48f416f14a5 KVM: x86: Use guest MAXPHYADDR from CPUID.0x8000_0008 iff TDP is enabled
-e39f00f60ebd2e7b295c37a05e6349df656d3eb8 KVM: x86: Use kernel's x86_phys_bits to handle reduced MAXPHYADDR
-fc9bf2e087efcd81bda2e52d09616d2a1bf982a8 KVM: x86/mmu: Do not apply HPA (memory encryption) mask to GPAs
-76ff371b67cb12fb635396234468abcf6a466f16 KVM: SVM: Revert clearing of C-bit on GPA in #NPF handler
-23fa2e46a5556f787ce2ea1a315d3ab93cced204 KVM: mmio: Fix use-after-free Read in kvm_vm_ioctl_unregister_coalesced_mmio
-7234c362ccb3c2228f06f19f93b132de9cfa7ae4 KVM: x86/pmu: Clear anythread deprecated bit when 0xa leaf is unsupported on the SVM
 3b0462726e7ef281c35a7a4ae33e93ee2bc9975b cgroup: verify that source is a string
 d1d488d813703618f0dd93f0e4c4a05928114aa8 fs: add vfs_parse_fs_param_source() helper
 8096acd7442e613fad0354fc8dfdb2003cceea0b Merge tag 'net-5.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -860,21 +866,6 @@ fa2c02e5798c17c89cbb3135940086ebe07e5c9f tools headers: Remove broken definition
 d3fb38266afefc6424d7179c14936c5908d5e2f2 Documentation/features: Add THREAD_INFO_IN_TASK feature matrix
 530c4374e21ae750c5fa5aa67b36a97635ddb379 docs/zh_CN: add a missing space character
 d549c66766ee42175e2f4a47219b4103ddab4ffa dt-bindings: net: dsa: sja1105: Fix indentation warnings
-004d62eb4e57db3c391ed0df007cc11c93b6fbeb kvm: debugfs: fix memory leak in kvm_create_vm_debugfs
-6f2f86ec28fb68cf6a342767a35f7b13703aa96f KVM: selftests: Address extra memslot parameters in vm_vaddr_alloc
-f85d40160691881a17a397c448d799dfc90987ba KVM: X86: Disable hardware breakpoints unconditionally before kvm_x86->run()
-c0e1303ed4cc9e7ce39f106b471ad92ca559e3d3 KVM: VMX: Remove vmx_msr_index from vmx.h
-991afbbee8ac93b055a27477278a5fb556af1ff4 KVM: SVM: #SMI interception must not skip the instruction
-896707c212d440a6863ce0a3930c8a609e24497d KVM: SVM: remove INIT intercept handler
-4b639a9f82fcf15497d1613a29aa1df798a24029 KVM: SVM: add module param to control the #SMI interception
-b4a693924aab93f3747465b2261add46c82c3220 KVM: SVM: Return -EFAULT if copy_to_user() for SEV mig packet header fails
-c7a1b2b678c54ac19320daf525038d0e2e43ca7c KVM: SVM: Fix sev_pin_memory() error checks in SEV migration utilities
-fce7e152ffc8f89d02a80617b16c7aa1527847c8 KVM: nSVM: Check the value written to MSR_VM_HSAVE_PA
-fb79f566e4c99db8647cf0435e3732f12e856ab0 KVM: nSVM: Check that VM_HSAVE_PA MSR was set before VMRUN
-0a758290762cf6fb69ad09712ac834cd4f07504f KVM: nSVM: Introduce svm_copy_vmrun_state()
-37be407b2ce807179108eeac788805848fe048f1 KVM: nSVM: Fix L1 state corruption upon return from SMM
-bb00bd9c0862558c6528e3ac97470aee222436ef KVM: nSVM: Restore nested control upon leaving SMM
-d951b2210c1ad2dc08345bb8d97e5a172a15261e KVM: selftests: smm_test: Test SMM enter from L2
 e8917266ae0944385d50da5e691c89f64c5975a3 dt-bindings: More dropping redundant minItems/maxItems
 f88321a3bf775649c685379a25fb9f3f79836bfd dt-bindings: Move fixed string 'patternProperties' to 'properties'
 58b63e0f556c2debb8c942abcc9e6beadc4a07f0 pd: fix order of cleaning up the queue and freeing the tagset
@@ -1075,5 +1066,18 @@ c725316d9b442137899a3f2bab9f25b85e970ab3 KVM: VMX: Smush x2APIC MSR bitmap adjus
 bd53bc63cfaf1d4790bff0b75ad3f4004bf27641 KVM: SVM: Emulate #INIT in response to triple fault shutdown
 d89e5c4f86586cef33b2a731a02fb94955748ae0 KVM: SVM: Drop redundant clearing of vcpu->arch.hflags at INIT/RESET
 cf724826508a88ac6a08ea8608fea01f7be76dbc KVM: x86: Preserve guest's CR0.CD/NW on INIT
+fd2cc3d7fd5a308155ce7de8ce6e9ecb04b4161d KVM: Allow to have arch-specific per-vm debugfs files
+944da091daf11f5921fe52f1a86173bc64bb4eaf KVM: X86: Introduce kvm_mmu_slot_lpages() helpers
+9e2c8ecccd66d100649565a34ada14dd9f5f4d3a KVM: X86: Introduce mmu_rmaps_stat per-vm debugfs file
+64113dc2caa7f3294454941fb2d32df94a646139 KVM: selftests: Add a test of an unbacked nested PI descriptor
+00418f1a313a578a86820f30f144275a696af312 KVM: Block memslot updates across range_start() and range_end()
+e554de44d06560f596c671851bbc9883ac70b722 KVM: nVMX: observe the VMCS_ENUM field
+8e09d204f850606815722b89828d32ce1ea29bfd KVM: x86: hyper-v: Deactivate APICv only when AutoEOI feature is in use
+6ef5ebc408b12772b95ee467ffa6299187159ad3 KVM: x86: Wake up a vCPU when kvm_check_nested_events fails
+e64cf479e5bba11736626499d4b3fd5c16fcbc01 KVM: selftests: Introduce prepare_tpr_shadow
+5b56cbf1163432e07d29bb4ab472bcb575fdceab KVM: Don't take mmu_lock for range invalidation unless necessary
+b2e76b4d4c65647da8064e11538618685cc17c4e kvm: x86: abstract locking around pvclock_update_vm_gtod_copy
+bc357ff09219f34af792d51a87fa678e2a6532c1 kvm: x86: protect masterclock with a seqcount
+2e154953511370f839ea6477e8bc48d61a74542a KVM: x86: do not fixup hypercalls in L2
 
---===============2744800583619019954==--
+--===============5844095359089729008==--
