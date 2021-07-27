@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5872166650679752213=="
+Content-Type: multipart/mixed; boundary="===============4401196951515842183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 27 Jul 2021 05:04:58 -0000
-Message-Id: <162736229840.22518.14418108438447571993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 27 Jul 2021 05:05:09 -0000
+Message-Id: <162736230949.24004.14458856209137074484@gitolite.kernel.org>
 
---===============5872166650679752213==
+--===============4401196951515842183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: da764c0c562a520b9a2053139e6e23e1505d644f
-    new: ad5e8ed76a44bd47a3e9b72c3b601d52114070b8
-    log: revlist-da764c0c562a-ad5e8ed76a44.txt
+  - ref: refs/heads/queue-rc
+    old: 762fd518edb3d572b7d3f0104d460c4e08f443d5
+    new: 2e11d6eab173ec6779e2490f40ab92812c731bef
+    log: revlist-762fd518edb3-2e11d6eab173.txt
 
---===============5872166650679752213==
+--===============4401196951515842183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da764c0c562a-ad5e8ed76a44.txt
+Content-Disposition: attachment; filename=revlist-762fd518edb3-2e11d6eab173.txt
 
 758684e49f4c7ea2a75e249e486659f0950cd63e bnxt_en: Fix static checker warning in bnxt_fw_reset_task()
 e6344c0dde450ffe5cad7e5928ea2c3fd55b9bfb net/mlx4_en: Don't allow aRFS for encapsulated packets
@@ -50,5 +50,7 @@ ab00d9c0a5e2f11d9d6153b63a017413502c58ff Merge branch 'patchq/408536' into mlx5-
 3b8bb5843f7551813c7cc0435c748f6425cb9a36 Merge branch 'patchq/392631' into mlx5-for-net
 cfc5cb1ee43f5fbeb77048d5def3d971ce44a34d Merge branch 'mlx4-for-net' into net-rc
 ad5e8ed76a44bd47a3e9b72c3b601d52114070b8 Merge branch 'mlx5-for-net' into net-rc
+bfd79f5fba03f279df4f7e84c12ca53e169c3cf5 Merge branch 'net-rc' into queue-rc
+2e11d6eab173ec6779e2490f40ab92812c731bef Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5872166650679752213==--
+--===============4401196951515842183==--
