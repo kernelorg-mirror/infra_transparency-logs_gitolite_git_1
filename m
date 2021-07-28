@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4112807612947712467=="
+Content-Type: multipart/mixed; boundary="===============1915948376201043805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 28 Jul 2021 18:20:16 -0000
-Message-Id: <162749641659.19087.2549875504789726724@gitolite.kernel.org>
+Date: Wed, 28 Jul 2021 18:20:33 -0000
+Message-Id: <162749643320.19278.14004043151544265041@gitolite.kernel.org>
 
---===============4112807612947712467==
+--===============1915948376201043805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.master
+  - ref: refs/heads/next
     old: 5293416589eac372293c1d9af2868c1cb7d834f3
     new: a22ea8322f0a697bd96c0f85b24e4aa03cdecfad
     log: revlist-5293416589ea-a22ea8322f0a.txt
 
---===============4112807612947712467==
+--===============1915948376201043805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -152,4 +152,4 @@ bc74d8704c73633218d80ac0c36ab68513d6d02d dwarf_loader: Use a per-CU frontend cac
 da1f7fc81ac5c0d7faf08e03482c3bcb15f0d7a9 list: Adopt list_next_entry() from the Linux kernel
 a22ea8322f0a697bd96c0f85b24e4aa03cdecfad btf_encoder: Add methods to maintain a list of btf encoders
 
---===============4112807612947712467==--
+--===============1915948376201043805==--
