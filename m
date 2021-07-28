@@ -1,116 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============0674707659682412578=="
+Content-Type: multipart/mixed; boundary="===============8873082398482345635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 28 Jul 2021 06:26:14 -0000
-Message-Id: <162745357448.16992.6776097436265489965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Wed, 28 Jul 2021 06:50:36 -0000
+Message-Id: <162745503623.1676.11549562083764719264@gitolite.kernel.org>
 
---===============0674707659682412578==
+--===============8873082398482345635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/staging-next
-    old: f133717efc6f28052667daf682e99ffd4b3d7588
-    new: 5c872e1d25958aaa9102c57ab8bc4ca591b0e363
-    log: revlist-f133717efc6f-5c872e1d2595.txt
+  - ref: refs/heads/rtmutex
+    old: ff1176468d368232b684f75e82563369208bc371
+    new: 54cd56dc3be1a5803c7117cc975a68213051cff6
+    log: revlist-ff1176468d36-54cd56dc3be1.txt
 
---===============0674707659682412578==
+--===============8873082398482345635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ff1176468d36-54cd56dc3be1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627453571 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627453571-9b1ccaf83c1da570e10a9a8284bd6df5e07e6bb2
+66a5480bef552e140d181f08514ae1635433a904 sched: Split out the wakeup state check
+a38981eba6eadca2617b3f646e1788c3bca95166 sched: Introduce TASK_RTLOCK_WAIT
+0bf7591328947195d6e1a1c975fb516ff3deec58 sched: Prepare for RT sleeping spin/rwlocks
+762261396d1a6541151d8b4eee32343a347ff0f3 sched: Rework the __schedule() preempt argument
+d84a5296ed55b911ef6c70d082f910086c09a36e sched: Provide schedule point for RT locks
+a238c0ce60edd29b8a99ef4ea7d9fc6fdb975b55 sched/wake_q: Provide WAKE_Q_HEAD_INITIALIZER
+8d438f586a95e761f69fd7064c0d47839b04ca00 media/atomisp: Use lockdep instead of *mutex_is_locked()
+9484985f9547a0118ab1c5fcae9f199a41c011ba rtmutex: Remove rt_mutex_is_locked()
+96cbfe7d807153fa8e47a6020824f7babd2afa58 rtmutex: Convert macros to inlines
+ba98b84cad05ee02c3a61e73f98b082ee896b336 rtmutex: Switch to try_cmpxchg()
+6f28dca2c7791dd4b1eef1ca082e8acedaff082b rtmutex: Split API and implementation
+2789b87a5157a3446b2a189a7754fc2dc91afea0 rtmutex: Split out the inner parts of struct rtmutex
+cdaea1ac935272c339ca972eddac2c85667fde98 locking/rtmutex: Provide rt_mutex_slowlock_locked()
+c7703c43ab86e41bd4eb7390d48b4662ef5eb9b6 rtmutex: Provide rt_mutex_base_is_locked()
+b85d4c85705871ee5065a53cb38e56f1c03a3066 locking: Add base code for RT rw_semaphore and rwlock
+54697f789f669760b462fb2485b2a7e5920ddabc locking/rwsem: Add rtmutex based R/W semaphore implementation
+917238f19647225df8ec9016e58ed544debcf601 locking/rtmutex: Add wake_state to rt_mutex_waiter
+9227cc12cd229ed27690bf5b329dfc16ecb2f42e locking/rtmutex: Provide rt_wake_q and helpers
+c4937b2fe7e7fe89787e0e26a27a7b7d02ff98a9 locking/rtmutex: Use rt_mutex_wake_q_head
+b5c24495080e48b51ebe0d101ec16b9b7a61579b locking/rtmutex: Prepare RT rt_mutex_wake_q for RT locks
+062c525b1bc2615746cfd6a22c3e5e67669ac3ac locking/rtmutex: Guard regular sleeping locks specific functions
+4a7d0e988eef10c11806d481f610cc5fc835a3bb locking/spinlock: Split the lock types header
+7ca475aa4bd04a5a321b4071a63f394c95cacb00 locking/rtmutex: Prevent future include recursion hell
+17167ab9efe42fa366f1de5bceb7264055391e95 locking/lockdep: Reduce includes in debug_locks.h
+0529317a17a848a99f7451b843d7162c43c87722 rbtree: Split out the rbtree type definitions
+1226eb398dba18a25a88037961a42be391ec2fd4 locking/rtmutex: Include only rbtree types
+71354f8e83a8da4a416cef0519ab65531fb9ae6b locking/spinlock: Provide RT specific spinlock type
+0fcaadf79a45a83e82bf42b92d1ca454426751e1 locking/spinlock: Provide RT variant header
+c7397c015105e99aceb0e021e22d23d66125b89c locking/rtmutex: Provide the spin/rwlock core lock function
+33765822f5d8d293f6f4c09c1f0dc96b8f8af757 locking/spinlock: Provide RT variant
+c1866a64335c9921f97dba78b94e79b79c4719ec locking/rwlock: Provide RT variant
+d442b2a9847c1ac8ea9c1c18070028b8a40e4807 locking/mutex: Consolidate core headers
+1018e7398ee3ef781d415fc23683f9eeabda228e locking/mutex: Move waiter to core header
+6e1db939cfe37c1d0edc519955d7a28417e06c5a locking/ww_mutex: Move ww_mutex declarations into ww_mutex.h
+7ddc66f1fbfe6bcd4d00a719f0b83f7456893d2d locking/mutex: Make mutex::wait_lock raw
+b85f1c21a9220a232f4621771b4dc69eff6e4ebd locking/ww_mutex: Simplify lockdep annotation
+ef3d8e088f162dd2c0a280790555248313a745d8 locking/ww_mutex: Gather mutex_waiter initialization
+1560ffd5198398964c3a0a4a488c7c210fb33475 locking/ww_mutex: Split up ww_mutex_unlock()
+64724080b276364d9c28ab1304f1e5e7f1e2844d locking/ww_mutex: Split W/W implementation logic
+e90cd70e95ae82fe43869b07db15c127fcab74b9 locking/ww_mutex: Remove __sched annotation
+513e82a058a7f7ed714a1b517f52b51bfc5c3325 locking/ww_mutex: Abstract waiter iteration
+7e53e287cc5dd0694e6830d020660a4d63f0151c locking/ww_mutex: Abstract waiter enqueueing
+0a291725447decff243f0e25eafd5653408be333 locking/ww_mutex: Abstract mutex accessors
+4fc0ae73f46eca27bce49c477ea6dc49b8bc7225 locking/ww_mutex: Abstract mutex types
+0d2e4b2a2f654e496b03fef84f871b10b8b9cd7c locking/ww_mutex: Abstract internal lock access
+3cb2e0120a9343c07c8a39afa6f28d2661c96196 locking/ww_mutex: Implement rt_mutex accessors
+e91d8149a3bc2f33672078b82daaadd7801f5e7e locking/ww_mutex: Add RT priority to W/W order
+5ecacc5ed70721781e3cce022a6d8ab212193d82 locking/ww_mutex: Add rt_mutex based lock type and accessors
+e3633d00d6f2cf8db9cca3756a15416cfb0a667f locking/rtmutex: Extend the rtmutex core to support ww_mutex
+c92d41fab68824c52029a84c9f28ee590dbf7fae locking/ww_mutex: Implement rtmutex based ww_mutex API functions
+65ed53581806249baaf6749f5b9fa7ab335485f9 locking/rtmutex: Add mutex variant for RT
+6aa59277c962a6d605c80377ca022242ac7c6ba4 lib/test_lockup: Adapt to changed variables.
+3abf7d9cd59e002e2ebfb8adcc6e8c1a446b62f7 futex: Validate waiter correctly in futex_proxy_trylock_atomic()
+80fd0a8b9698a8cfd11514984633bc100b4b0ed2 futex: Cleanup stale comments
+f0c2db70929a5191c06b7c3af01e7e465ca0bdfc futex: Correct the number of requeued waiters for PI
+fab46c0d4a1a9d3603a6e4aa8396260ce48fd9c3 futex: Restructure futex_requeue()
+ce7e87bcc9a8e52f5c3b35cbe50d3e8e4a45e8c1 futex: Clarify comment in futex_requeue()
+dc3e1e7085e6011b751c70937d9cd140b69bfe26 futex: Prevent requeue_pi() lock nesting issue on RT
+a6ada0133dfd53a50a51a3fcc579673bf1690b57 rtmutex: Prevent lockdep false positive with PI futexes
+9cfbe564f72440e4ea6c987f53d18520ebced30d preempt: Adjust PREEMPT_LOCK_OFFSET for RT
+556ac4e83e6613d1426206e200286ed9ad1f248d locking/rtmutex: Implement equal priority lock stealing
+54cd56dc3be1a5803c7117cc975a68213051cff6 locking/rtmutex: Add adaptive spinwait mechanism
 
-f133717efc6f28052667daf682e99ffd4b3d7588 5c872e1d25958aaa9102c57ab8bc4ca591b0e363 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEA+IQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VtwP/0VpxQ4tY5h08HB1KfNa
-65jAE5Y0HTVUkdBAB+13XYCftQwfp+jTYvNVNnz2d3JgQwJRLjIjoKV5tUnt3nnT
-XKkgYxzylZ+hUDhb0NgJwvJPFwFEdNBoqv5Ry5caYVuOOh8HfkLQdHgaRkAJ59S6
-ZWxdsI+HhggoUaNhV498ZwaTO1jGNY1D36FRXJ1N1dKmpMR3BULcZ3tGQYteaJgo
-uLN9lt0wIuUeEquLhINflsxjcirod1OA8wiDRfVX+r0zi4Wuo3CEE4uuKsXv9EVx
-D5pUMYnjCgvmQi+ZdbP4pK7nLGmyrsNhNd3uBTbStXeJOdZ25PCSikgWmeznSo0A
-lX3yYQoiSAIn1Xr3OddqhMuorYOXixY4Fl2x4LSB6z0xGtw0gb+dPKao38DBWXLT
-oh+Wzs3VP7y4ZPLa/YVD9FH5J/sDw+rbPJpcskjcF0FD1BuoJzjsagv+ULDGAX96
-Ar5D/8fPhRHTsVFf/7wjY2oUhQg3baODFm/bSe1oIH4QaVS4oHBqie6HQfu1c8ab
-P0cw4D9FxZBJR13KA7GpVlG9sn2vCpa4wP2gZoiTykVSubLJDv4f8Vb4cbXr9H/7
-LdqtZ8+rjElpul3ByiBTJPxCigT2yQlRbppza+FLUe+hCAef1SDL/eE355HUc9SZ
-kp6PSqCrmVMOvC64vC5MUqiu
-=PdE4
------END PGP SIGNATURE-----
-
---===============0674707659682412578==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f133717efc6f-5c872e1d2595.txt
-
-35c83e29639e5a4ed28d9a77c381a553f723d9f2 staging: rtl8188eu: Remove unused iw_operation_mode[]
-0104c061a880471c6cc66a65c932b74138e04e14 staging: rtl8188eu: remove unnecessary blank lines in core/rtw_ap.c
-66c1c64ea89d98f971201f3172674ded735642c0 staging: rtl8188eu: Line over 100 characters
-56315e55119c0ea57e142b6efb7c31208628ad86 staging: ks7010: Fix the initialization of the 'sleep_status' structure
-fa8db3989362866ea1beb1314fc4e86f373a6425 staging/most: Remove all strcpy() uses in favor of strscpy()
-c10fe0cc3ec4089d5da21faa732d74a40efbc07a staging/wlan-ng: Remove all strcpy() uses in favor of strscpy()
-eeacf4cce0b183c2cf61a9c1ea6db7a0ab9c2600 staging: rtl8188eu: Replace a custom function with crc32_le()
-51f59d684b0c65563ad16e5e179ad021a05951c5 staging: rtl8188eu: Remove no more used functions and variables
-1f0873da312d0a7686d628fcab91c0606ffab893 staging: rtl8188eu: remove blank lines
-2490e3230245fd0fd3726ec06f3947ca81d0b761 staging: rtl8188eu: remove braces from single line if blocks
-2d9f8c5ae660ba1303d155fc9462de39da440494 staging: rtl8188eu: remove unused defines
-20a55e6c707a24de7fa4dfcd393c4a73272465d5 staging: rtl8188eu: remove HW_VAR_MEDIA_STATUS1
-bb3462f46462e4d5a66170e3b0c63c1a44c6011d staging: rtl8188eu: remove HW_VAR_TXPAUSE
-3e04209f341052b4a885d20dd1c81f409bcf82b6 staging: rtl8188eu: simplify Hal_EfuseParseMACAddr_8188EU
-c51a9ea6b4d00fbd212a96391ca494fb6c926e38 staging: rtl8188eu: remove an unused enum
-b5b6cf1a2643f28c77a13d1c13678cb44cd552a6 staging: rtl8188eu: remove another unused enum
-fc9336eb526c28b92c8e89b735582a3af7af2431 staging: rtl8188eu: remove a bunch of unused defines
-448390332cfb2b033f632f6ec054cdd645a023dc staging: rtl8188eu: remove yet another unused enum
-55937c27cd438a832922f93be2fdd17bdd1b05ed staging: rtl8188eu: remove unused _HAL_INTF_C_ define
-e79942ec2ccbbc26b6a66861377810f9f6db3f4c staging: rtl8188eu: remove write-only power struct component
-bd4680034d1fcb292761bb52a33143827025cac2 staging: rtl8188eu: remove two write-only hal components
-f3946501899998c02f2444a6fbfa5ec46fbe3a86 staging: rtl8188eu: remove unused IntrMask
-99e7a944281e21edff48bab0bbe16a793246c5d8 staging: rtl8188eu: remove write-only HwRxPageSize
-e17c7d42cd33a6744b0fd0bb33a1308094b73457 staging: rtl8188eu: simplify rtl88eu_phy_iq_calibrate
-a70a91b01db1ae821cd939152ffe2b613fb70404 staging: rtl8188eu: simplify phy_iq_calibrate
-b973e25ef6a8f2b7d9bbd0875530a586a0c67087 staging: rtl8188eu: simplify path_adda_on
-5b2bd53d9041fe07ec97712aa9c0765f6a688e30 staging: rtl8188eu: simplify phy_lc_calibrate
-a4fccfcfe7d5488a071665ea98f7c88b8ea3aa19 staging: rtl8188eu: remove unused IQKMatrixRegSetting array
-36174650c4283c9bc1c6e63d3d835c824c7a2903 MAINTAINERS: remove section HISILICON STAGING DRIVERS FOR HIKEY 960/970
-cf79ee6eb0d7d5f45ad58c395ee855e2e1bbc9b2 staging/rtl8192e: Remove all strcpy() uses
-3c6675363de5aa168c23431cf90db455c1901b6e staging/ks7010: Remove all strcpy() uses in favor of strscpy()
-246f920cb731950bea4501dc68ab2f8ad66e8b8d staging/rtl8192u: Remove all strcpy() uses in favor of strscpy()
-14127269cd516fac7c1711accededddf3f2c7ab3 staging: vt6655: remove filename from baseband.h
-cae9546ac9f160573029dea6e6bec8d8aed471b8 staging: vt6655: remove filename from baseband.c
-51f42c766563061d935d5921f3c660bde45a60d1 staging: vt6655: remove filename from card.c
-065dddf31e5a45f67e6de1a18bd3353b4b216327 staging: vt6655: remove filename from card.h
-ec32e0776f43f0965be2c9c6195d2871d129509f staging: vt6655: remove filename from channel.c
-646ce5315f5806d3ac04a47915e4a90ee7c7bd6b staging: vt6655: remove filename from channel.h
-f0d52cd214984144ad9500b4a3feff21d6e403d8 staging: vt6655: remove filename from device_cfg.h
-0e9e3f6170d633a26c3701eaf6a366ac65a1c4e7 staging: vt6655: remove filename from device_main.c
-eee245f5d707f4be2c8592790f15128116a60c3e staging: vt6655: remove filename from dpc.c
-82bcc3174af2472c10d9feeef8ceea32d54d9ef3 staging: vt6655: remove filename from dpc.h
-692b3e44b7afe2c3c348cd20edfa0a5336f13b54 staging: vt6655: remove filename from key.c
-56bfb9bc6cd1e4e91ce4376018e361223b737353 staging: vt6655: remove filename from key.h
-290262b9198d9731e285315056ff4c087f6d92d4 staging: vt6655: kernel style cleanup of mac.c
-ed0b62a568d13c8418a930bb4b36cbfc52f8f39b staging: vt6655: remove filename from mac.h
-050cbd980e6bc882b8c2a6e954ada48cbd5ce5c2 staging: vt6655: remove filename from upc.h
-2a4d15a4ae98e27ed59a70c1c25483d24507171b staging: vchiq: Refactor vchiq cdev code
-c405028f471d6a7fd694cda34a9135345f80d88b staging: vchiq: Move certain declarations to vchiq_arm.h
-f05916281fd75db2fe32294e26c04d666c762370 staging: vchiq: Move vchiq char driver to its own file
-2b5930fb3dc06d86149071f9dc8b6992cac1c3aa staging: vchiq: Make creation of vchiq cdev optional
-7b9148dcb74a004a4df10df3af9239a46dfc2b2f staging: vchiq: Combine vchiq platform code into single file
-cfdafb7608b4cf159aec510114be7a364347ca0f staging: sm750fb: Rename maxH to max_h in lynx_cursor
-39f9137268ee3df0047706df4e9b7357a40ffc98 staging: sm750fb: Rename maxW to max_w in lynx_cursor
-5c872e1d25958aaa9102c57ab8bc4ca591b0e363 dt-bindings: hisilicon,hi6421-spmi-pmic.yaml: make some rules stricter
-
---===============0674707659682412578==--
+--===============8873082398482345635==--
