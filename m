@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7417872280593420300=="
+Content-Type: multipart/mixed; boundary="===============2584244374480199911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 28 Jul 2021 17:35:05 -0000
-Message-Id: <162749370528.19472.13354253340506917814@gitolite.kernel.org>
+Date: Wed, 28 Jul 2021 17:35:26 -0000
+Message-Id: <162749372607.19667.16055043332312377209@gitolite.kernel.org>
 
---===============7417872280593420300==
+--===============2584244374480199911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: df6192f47d2311cf40cd4321cc59863a5853b665
-    new: b2c943e52705b211d1aa0633c9196150cf30be47
+  - ref: refs/heads/driver-core-next
+    old: bdac4d8abbfc239886103f7c6ee03abb8011a008
+    new: df6192f47d2311cf40cd4321cc59863a5853b665
     log: |
-         b2c943e52705b211d1aa0633c9196150cf30be47 nubus: Make struct nubus_driver::remove return void
+         895adbec302e92086359e6fd92611ac3be6d92c3 kernfs: add a revision to identify directory node changes
+         c7e7c04274b13f98f758fb69b03f2ab61976ea80 kernfs: use VFS negative dentry caching
+         7ba0273b2f34a55efe967d3c7381fb1da2ca195f kernfs: switch kernfs to use an rwsem
+         47b5c64d0ab5e7136db2b78c6ec710e0d8a5a36b kernfs: use i_lock to protect concurrent inode updates
+         df6192f47d2311cf40cd4321cc59863a5853b665 kernfs: dont call d_splice_alias() under kernfs node lock
          
 
---===============7417872280593420300==
+--===============2584244374480199911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627493702 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627493723 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1627493702-34c106adbd00fbc2329a75c6c01f106b34e8a614
+nonce 1627493723-770b08eeeeaf2b580167faa9fb12ba4678257eb0
 
-df6192f47d2311cf40cd4321cc59863a5853b665 b2c943e52705b211d1aa0633c9196150cf30be47 refs/heads/driver-core-testing
+bdac4d8abbfc239886103f7c6ee03abb8011a008 df6192f47d2311cf40cd4321cc59863a5853b665 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEBlUYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c4YP/RewdEVhNOeL/gMx29JQ
-pOiLu9CSMVmzaO+ZjusKTz1rYysmqWSRniWFe2M4SQvLFV7SvAw2iY1rOXbkW6hm
-vXNCIjva2tqU3VkfVE3LBeCZEVSjEZAXIB9NN9kZ1uCHXjNziAmTrzj9HtPbSrOV
-ZGlWa+M4d7YPMkMlutO0KRqkhAhn/lIQC8LpuY4Tsc1DFnuVp1rgRksBSJTeYzTe
-qGBH3o4Xiv3KvGEOkev/fSLYqsSJc2fYRjs63hmO5olxKeCCJ0ZPVpP4JquvePny
-vHOI06CqEjduNLPzvGKP1T0fmI8D+2a5rSgG/R3p/8/buEHOmr0tV0+JIsA6zjK2
-Cfph5L4vfPACNe1F8R7/5K2XadrL1t+IvtffJGogc/tt9d6drJh8OAq7c5VSRE+Q
-8IqAY+88HPqH1BGX4iOHnmdWHOkxqklnPuZOBghEgymDDDg2SD9+mm4BRYvKaAbz
-paTuH+D5++guQXANoasuHKzc6vHlhBzhWZCTnfYAmFrLCPv5zyr9Gik77SJQxGod
-yh2nKEeUhiMbj35KgEzPc4VroT1TqGX55YsJC4rJqpO2O9IYgU0ut56t9hDd7GxT
-cI+mswg9iMZ8jU1o/X6JoUFTOXXP4mcG3tzHAqdS+BCgB1lKQvq/lHkBkHoVeZd0
-9eg8+6k9o16eGudiu73YXoWH
-=OOue
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEBlVsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m9wQAIwVbO/43Ls8PcoeHORm
+B96n0VdRZVw4IN//32ng/9GHP5Pz83uDb6C+XX/cAwSY2q56aCLcLjoQTYjX08TN
+D7el5WB9V9Tzf5qEYSd87oPeFvuHyjudQffHWWcNv7oI3BhADl3INiubuE7HvkH3
+WTCb8dSV9FadWi6CKiKYDIL9yInBtpOHuEByl7zLqhAhkoSRF6WINEts25A8TJ+O
+GXKfZ7HH9aITTW3/oaOgR4voh/WWjn2mAEtrzj0CjMvKwwh6xbWNlkfPjFooGbWg
+2ibjp420liFoYaoduNUrBWnIifgbdd030lOfkra9ILBEudXEELO3poOI7blWIdXH
+Pnz4Z0EIHqkfFAjhkF9SdwsijLxd6d/0mNmrL0jbhyZPx4epMq7RCS1nY6wehCRE
+UwYfSQjPiLGY/lpvKA7ZHZ8rPorjdkvUO2kUastRMbg02BZ08X7g8tIc/xPKPB0u
+DH9Pbjk5OV1dT22m4ErOMTt3gihTw0IA+YHJBSaB8jwFQ+dUzYHrkAoJNKiZYzE9
+WGOBYzJ3cNtceqiu4hUeN1Mu5nbzIUIEkElmtrG9XTQTgsm7Jiqio5cmtdUT5C4K
+LUiHoYOd2tdiKmgAl62THNKE5BZF9Pij45fwGKJw3AyyWfPpMFE7ZNd18Jr46yBt
+ewoGZWE9e5D+KryGdW1Ln8Dj
+=YFqY
 -----END PGP SIGNATURE-----
 
---===============7417872280593420300==--
+--===============2584244374480199911==--
