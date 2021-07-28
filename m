@@ -1,39 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 28 Jul 2021 16:25:27 -0000
-Message-Id: <162748952737.6065.12366766104697934977@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7302800081807179856=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
+Date: Wed, 28 Jul 2021 16:32:31 -0000
+Message-Id: <162748995102.9897.4535128548094691453@gitolite.kernel.org>
+
+--===============7302800081807179856==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/utils/grokmirror/grokmirror
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 760710b87fb333936b78e5aa42ffc4ea1771f3e9
-    new: daf138d437ddcf33d69276ba345693792f9572c4
+  - ref: refs/heads/master
+    old: 4293e802ca9bd45727f5cb81671d2316d4f53636
+    new: 77c62d68b841f295b2ab72e15e59821d2e4c4473
     log: |
-         daf138d437ddcf33d69276ba345693792f9572c4 selftest: fix build error in tools/testing/selftests/vm/userfaultfd.c
+         77c62d68b841f295b2ab72e15e59821d2e4c4473 Fix missed post_work_hook invocation
          
-  - ref: refs/heads/queue/4.19
-    old: 116a79b4125df86eb55da74eb0dd866b0bbf1513
-    new: d3bf4f492000cedf97442c061a3d18a96d425220
-    log: |
-         2fcae1cb94826b2d1c67bea6b6d61f20d1a41992 selftest: fix build error in tools/testing/selftests/vm/userfaultfd.c
-         d3bf4f492000cedf97442c061a3d18a96d425220 iio: dac: ds4422/ds4424 drop of_node check
-         
-  - ref: refs/heads/queue/5.10
-    old: 08277b9dde633e1447e96b8cb89da2b40f96ae69
-    new: 8d71121686cb26c666d038d2df1c83ca5ee58c9c
-    log: |
-         8d71121686cb26c666d038d2df1c83ca5ee58c9c tools: Allow proper CC/CXX/... override with LLVM=1 in Makefile.include
-         
-  - ref: refs/heads/queue/5.4
-    old: 14f6cda7319f63b2bd98091fa8ec5c87b673c268
-    new: 1b91efd17c3861ae5248f372c56d40d4ff8d3b77
-    log: |
-         0c1951efbb56628989af5f593e5f5b8a66ca7b68 selftest: fix build error in tools/testing/selftests/vm/userfaultfd.c
-         1b91efd17c3861ae5248f372c56d40d4ff8d3b77 tools: Allow proper CC/CXX/... override with LLVM=1 in Makefile.include
-         
+
+--===============7302800081807179856==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1627489950 -0400
+pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
+nonce 1627489950-53bf47c4ed151569de60b869af79f38ab856d6c8
+
+4293e802ca9bd45727f5cb81671d2316d4f53636 77c62d68b841f295b2ab72e15e59821d2e4c4473 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYQGGngAKCRC2xBzjVmSZ
+bHpAAP484AnH6uoU6Pt63xn1FLqpjVXuYNCFlbZqo4MgkGeMagD5AdcNLyK9GnHL
+jWbhvXcEPY7+S1nYi5m/A3cbu/3UUw0=
+=HiBL
+-----END PGP SIGNATURE-----
+
+--===============7302800081807179856==--
