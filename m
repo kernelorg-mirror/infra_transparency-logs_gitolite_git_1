@@ -1,69 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============7225594866115720389=="
+Content-Type: multipart/mixed; boundary="===============5596925978283639943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 28 Jul 2021 05:23:57 -0000
-Message-Id: <162744983742.8376.10934848377618437890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 28 Jul 2021 06:04:21 -0000
+Message-Id: <162745226106.1258.7538454516654349729@gitolite.kernel.org>
 
---===============7225594866115720389==
+--===============5596925978283639943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/seen
-    old: dbf640e875ad94734ba8c178b90ec95bc48d8619
-    new: e5c19a93b727986de62ffbc9cd32c01e0e12f8d3
-    log: revlist-dbf640e875ad-e5c19a93b727.txt
+  - ref: refs/heads/tty-next
+    old: e679004dec37566f658a255157d3aed9d762a2b7
+    new: 3df15d6f37246d2f12f53d915c41d806289d3d46
+    log: revlist-e679004dec37-3df15d6f3724.txt
 
---===============7225594866115720389==
+--===============5596925978283639943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbf640e875ad-e5c19a93b727.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2bfb39d00f8b25f1b0930bc210e49b73cbb4e25b ll-merge: teach ll_binary_merge() a trivial three-way merge
-6177dfa0d2536ba3c7ad405798bac587418a496f Merge branch 'jc/trivial-threeway-binary-merge' into jch
-89c90cd5765ae2526486029ea3fc6ee6a9531726 Merge branch 'ar/submodule-add-config' into seen
-a0de5e54cd2a1d3fb7cb530192ade4500de9759a Merge branch 'ab/refs-files-cleanup' into seen
-45ad4c528c88aad372bfb05fc5090f178553b7f9 Merge branch 'hn/refs-errno-cleanup' into seen
-18fcb18f3d9dce899e94796946de956b79631761 Merge branch 'es/trace2-log-parent-process-name' into seen
-533579664ef2dcc04e5da3ca9df51c1be5ee07b9 Merge branch 'bc/inactive-submodules' into seen
-3e8aa4dc8aff381554ec4656f54fc9febb957ca6 Merge branch 'lh/systemd-timers' into seen
-312aae50a3a836e2abbafbcf21496bc3a3d9becb Merge branch 'gh/gitweb-branch-sort' into seen
-1e607b8d0f9f14615760b01816c46fe23605260c Merge branch 'ao/p4-avoid-decoding' into seen
-98473bd00998e2844631f1a6dd161b7e59211c0a Merge branch 'ab/test-tool-cache-cleanup' into seen
-77d7407e790770f53740e277361f20cd90b08ce5 Merge branch 'ab/update-submitting-patches' into seen
-6bed1a08758f0679477922b2b8e4db64384941bf Merge branch 'ab/pack-objects-stdin' into seen
-a6f665cce679dadcd0ac38f0b0b951bdfc8043e3 Merge branch 'en/zdiff3' into seen
-31c7d2f7e5e188d039c5cb2b241751ac4cbd1e6a Merge branch 'es/superproject-aware-submodules' into seen
-7341e7fb7c6afd326ba256e5b02725a2680824cd Merge branch 'ab/serve-cleanup' into seen
-b1d67096b4d5bc1ec3cb4faa349576627cc2723c Merge branch 'ab/config-based-hooks-base' into seen
-c7a66663450f3409a96ff7f7ac9be0329ab072b1 Merge branch 'ab/fsck-unexpected-type' into seen
-f984070af0108d6b30ca7cace61ac930f931dbc1 Merge branch 'ds/commit-and-checkout-with-sparse-index' into seen
-b7262053514ed942c09ed75371e171081ffe66b0 Merge branch 'ab/pack-stdin-packs-fix' into seen
-b569790f21e7523706d3baa499c8de7037200b49 Merge branch 'en/ort-perf-batch-14' into seen
-4fde5f9ffe04badfc83a1a60efb9221b0b45a1fa Merge branch 'ab/make-tags-cleanup' into seen
-fe418fc4f2b69dda61af92452618273376e7a08e Merge branch 'dt/submodule-diff-fixes' into seen
-c82f6b20e0d8934bf01f34d52a909697022d4908 Merge branch 'tb/multi-pack-bitmaps' into seen
-350652342a0f13abf2ede09a16f5a85864de6709 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
-25c2b8948a2a033d3d4d6ee19d1889047b201785 Merge branch 'ab/doc-retire-alice-bob' into seen
-2959fb66f28da143f32f69e03775a809bc42d225 Merge branch 'jh/builtin-fsmonitor' into seen
-c941cfb579a3b1a25637cbbfe40b5b28c9d6e15e Merge branch 'zh/ref-filter-raw-data' into seen
-197249104c5406929e49f1db8b982c63186ec176 Merge branch 'es/config-based-hooks' into seen
-71a3b3d5093970e021485ae11fa94792b901c51e Merge branch 'ds/add-with-sparse-index' into seen
-3f8933f1c3462e109aaf9f5816fdf7d24d3e7b51 Merge branch 'ab/lib-subtest' into seen
-8f61a4f8584ee147c19f319a2fb2b2d83128d6e7 Merge branch 'en/ort-perf-batch-15' into seen
-3647c7b14e58d21371eff571a3158cf52bd66ec2 Merge branch 'ab/http-drop-old-curl' into seen
-4d4edbbee3f69b535fc0c80de292c1955610c051 Merge branch 'ab/progress-users-adjust-counters' into seen
-5b9c95405a57a1810fb325f14428e05d31f9804c Merge branch 'ab/only-single-progress-at-once' into seen
-8b56c55cba159018dc508c6c22e142c6a306a7cd Merge branch 'pb/merge-autostash-more' into seen
-f29f7de9ca2e593761c891a4d06f73e4a72f7a72 Merge branch 'fs/ssh-signing' into seen
-e0c79f197eacaff6ee09e79e4216c84c966feed6 ### CI Breakers
-e5c19a93b727986de62ffbc9cd32c01e0e12f8d3 Merge branch 'hn/reftable' into seen
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627452258 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1627452258-296dd42c10e8323111c71b47892a0b4f14e3c4e0
 
---===============7225594866115720389==--
+e679004dec37566f658a255157d3aed9d762a2b7 3df15d6f37246d2f12f53d915c41d806289d3d46 refs/heads/tty-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEA82IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7KEQAKvMyRMUN+KBkz+0e+A+
+PcFoMjWzCCq1fUFornYD/so2MPW70LI3h+tNNxwAMCp7KbtSJIAg8HefMWEiBXIq
+sVABsKkVXJQfuqIz82525fYiBdIU72/Epx5tw+KYIYTF/gVa2/z4JAbvAAVgPyJJ
+EAZBRLbmWy7H+m10s13pnv0bQHdfhwnJfvHw5ZDW4x1/goJB00l4Cwid3h4U6zGu
+CDWhauC/V1GPNsDygxhGFJZXAlwis8PalAccOyIwgAt2aUd3Nj/salH6PVrEGNyU
+kncWrbA9dexcFPZsORHp20PEBM1QDZky46cRHH6qUk7hEDU5d3n58YDAJdne48U6
+RLr3TbR9G98kxuOtA+xesaaoRVUae5VzKBeT0NsU66uELMJ6FlnSh+0ZRxRPpbCB
+ntiFqLhGAY/qtwcHX5CLOtWvVy76vNIlLdccodkW6NDyFjg8lEneV3qcbsN1IVCW
+2L21VoEljDAUeeOiM/ToJcOelqJkV+7fudzFoPRn5z4s13gjkDCLFb4FUjGDi1TO
+wna6iqa3GcTSTZgOXJrleo97U1O3ELaLVa0ltg79PQFx1r4AFlBYnDpivx7BO1P7
+Q+vSY80bUAX2ogUqr6ZZJjtX1V3eA94z9/SiPVaM4y3pxFzoghFckecJHurS5m23
+YPhEo0W4qmBhXIeUhZHla+su
+=ooqZ
+-----END PGP SIGNATURE-----
+
+--===============5596925978283639943==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e679004dec37-3df15d6f3724.txt
+
+d7aff291d069c4418285f3c8ee27b0ff67ce5998 serial: 8250: Define RX trigger levels for OxSemi 950 devices
+f444f34b4a1afcd2133daaa73778673ca09fb564 dt-bindings: serial: 8250: Add Exar compatibles
+0a9410b981e961a24057dceee54bb5d36309a0c4 serial: 8250_lpss: Enable DMA on Intel Elkhart Lake
+3d1fa055ea7298345795b982de7a5b9ec6ae238d serial: max310x: Use clock-names property matching to recognize EXTCLK
+0e9ffdb236b8d273a086e86887192a62dd8f144a cx20442: tty_ldisc_ops::write_wakeup is optional
+8496f60a670debe356a9168a66b7560641e53e93 v253_init: eliminate pointer to string
+4d3d947866c2da405a6257158e42077fa3c95755 tty: move tty_driver related prototypes to tty_driver.h
+890ebae627708cd530592b524efd5d26d9fdb2ec tty: include kref.h in tty_driver.h
+a24bc667ac1f19cdda8a998cdaf7fbdd4fc0a040 tty: move ldisc prototypes to tty_ldisc.h
+abca990183e933d8448a4791c2912b509a17e290 tty: include list & lockdep from tty_ldisc.h
+56eef46aa830824d5046a765d695a78bc0c34fed tty: move tty_ldisc_receive_buf to tty_flip.h
+8d29e0024437ae9184ae24f817ef0fda80b8cd3c tty: move tty_buffer definitions to new tty_buffer.h
+67b94be44771ab99bdbd019e19314f268fa1ff8c tty: move tty_port to new tty_port.h
+52c27f13b52cd7b7893de4fc11f1555d3917c3e6 tty: tty_flip.h needs only tty_buffer and tty_port
+23411c720052ad860b3e579ee4873511e367130a xtensa: ISS: don't panic in rs_init
+7ccbdcc4d08a6d7041e4849219bbb12ffa45db4c hvsi: don't panic on tty_register_driver failure
+0524513afe45a4a79f418c0377160b7712cab78a tty: don't store semi-state into tty drivers
+39b7b42be4a82f036c392abc71724b4b7752ac03 tty: stop using alloc_tty_driver
+56ec5880a28eae0f508e88e9e80d2e82a471c9be tty: drop alloc_tty_driver
+cb9ea618ee60313d9278b2ba75f56da2531c8cac tty: make tty_set_operations an inline
+9f90a4ddef4e4d3aa4229f6b117d4e57231457b3 tty: drop put_tty_driver
+72fdb403008c598dca535cfe8ade25eb2253c1d2 tty: pdc_cons, free tty_driver upon failure
+481975b24c3996352c100be1c3f962bc54ec552d dt-bindings: serial: Add compatible for Mediatek MT7986
+3a96e97ab4e835078e6f27b7e1c0947814df3841 serial: 8250_pci: make setup_port() parameters explicitly unsigned
+c92bbbfe21efaa4344871bd2fb5a7649c0b07b84 vt: keyboard: treat kbd_table as an array all the time.
+3df15d6f37246d2f12f53d915c41d806289d3d46 vt: keyboard.c: make console an unsigned int
+
+--===============5596925978283639943==--
