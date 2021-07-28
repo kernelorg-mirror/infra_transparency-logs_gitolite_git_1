@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Wed, 28 Jul 2021 16:09:29 -0000
-Message-Id: <162748856915.25699.5485227733965224195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
+Date: Wed, 28 Jul 2021 16:12:21 -0000
+Message-Id: <162748874198.28037.1158713780833758134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/morse/linux
+user: morse
 changes:
-  - ref: refs/heads/master
-    old: 86ec0baea42b693143fab5c06b97a3b94fea4410
-    new: 71cfcd377461a2c73335054bb98ded28a22e035f
+  - ref: refs/heads/mpam/resctrl_merge_cdp/v6
+    old: 4cc40ef8c7779c932269f4abda4f00540310c667
+    new: b2b8aad3081f7d548eab8755f53a670dd949322d
     log: |
-         71cfcd377461a2c73335054bb98ded28a22e035f dhcp-lease: Check duplicate options in _dhcp_lease_parse_options
+         b2b8aad3081f7d548eab8755f53a670dd949322d x86/resctrl: Tweak for_each_rdt_resource() to avoid undefined behaviour
          
