@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 28 Jul 2021 17:40:43 -0000
-Message-Id: <162749404331.22781.1754686484449233315@gitolite.kernel.org>
+Date: Wed, 28 Jul 2021 17:40:52 -0000
+Message-Id: <162749405296.22933.13223357949123623971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: cmarinas
 changes:
-  - ref: refs/heads/for-next/mte
+  - ref: refs/heads/for-next/core
     old: 42b6b10a54f0bf00397511fc6d5b8a296b405563
     new: d914b80a8f567d052d621197974ae08f729c963d
     log: |
