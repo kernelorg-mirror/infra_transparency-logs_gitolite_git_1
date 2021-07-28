@@ -1,171 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============1216356394295854224=="
+Content-Type: multipart/mixed; boundary="===============7225594866115720389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 28 Jul 2021 01:50:04 -0000
-Message-Id: <162743700407.31199.1143715029252437354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 28 Jul 2021 05:23:57 -0000
+Message-Id: <162744983742.8376.10934848377618437890@gitolite.kernel.org>
 
---===============1216356394295854224==
+--===============7225594866115720389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/block-5.14
-    old: b93af3055d6f32d3b0361cfdb110c9399c1241ba
-    new: 340e84573878b2b9d63210482af46883366361b9
-    log: |
-         5ab189cf3abbc9994bae3be524c5b88589ed56e2 blk-iocost: fix operation ordering in iocg_wake_fn()
-         340e84573878b2b9d63210482af46883366361b9 block: delay freeing the gendisk
-         
-  - ref: refs/heads/for-5.15/block
-    old: a17c945347f546016e4a8f7516b4e339d9eaf243
-    new: 9b99b733701d61ba34ca46df19137e5ad8692d0f
-    log: revlist-a17c945347f5-9b99b733701d.txt
-  - ref: refs/heads/for-5.15/drivers
-    old: e431fe3f64adfe6b3b07b94ac334c0b3245bbbfe
-    new: 002b8753da4a4a004c8e5c29051d42adf5f78d31
-    log: revlist-e431fe3f64ad-002b8753da4a.txt
-  - ref: refs/heads/for-next
-    old: f4cae27ed899710062c95715c517c5776d5dd74a
-    new: e9c737bb75a10f75c4e635d5dc4540694f0289bf
-    log: revlist-f4cae27ed899-e9c737bb75a1.txt
-  - ref: refs/heads/for-5.15/libata
-    old: 0000000000000000000000000000000000000000
-    new: 3ad4a31620355358316fa08fcfab37b9d6c33347
+  - ref: refs/heads/seen
+    old: dbf640e875ad94734ba8c178b90ec95bc48d8619
+    new: e5c19a93b727986de62ffbc9cd32c01e0e12f8d3
+    log: revlist-dbf640e875ad-e5c19a93b727.txt
 
---===============1216356394295854224==
+--===============7225594866115720389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a17c945347f5-9b99b733701d.txt
+Content-Disposition: attachment; filename=revlist-dbf640e875ad-e5c19a93b727.txt
 
-3ce6e1f662a910970880188ea7bfd00542bd3934 loop: reintroduce global lock for safe loop_validate_file() traversal
-b93af3055d6f32d3b0361cfdb110c9399c1241ba blk-mq-sched: Fix blk_mq_sched_alloc_tags() error handling
-5ab189cf3abbc9994bae3be524c5b88589ed56e2 blk-iocost: fix operation ordering in iocg_wake_fn()
-340e84573878b2b9d63210482af46883366361b9 block: delay freeing the gendisk
-319906c4191ae2fd1ec85708dbc9e63c8dd22713 Merge branch 'block-5.14' into for-5.15/block
-ebdad322cdeef0d2429ae27d3437ef5f92aa6a33 ioprio: move user space relevant ioprio bits to UAPI includes
-4bc78bd5aa68d2c3ed60bfe8d1b7a10ad9040ef6 MIPS: don't include <linux/genhd.h> in <asm/mach-rc32434/rb.h>
-0c6696f3940e0315bb64f9030478d2613a13bb14 bvec: fix the include guards for bvec.h
-913656ae40b2e053e272ca5bcbaea7972becd780 bvec: add a bvec_kmap_local helper
-9b6bf5c8ac11e4fdb8b32f33ba0930a297005d55 bvec: add memcpy_{from,to}_bvec and memzero_bvec helper
-b86d14cf7dd20c934e2e2f4e6b95871f7b50c286 block: use memzero_page in zero_fill_bio
-d39f1d3e1a98cdf4d4a7fcc714e2c624067c1ce0 rbd: use memzero_bvec
-bd532fbfab76ad0b4272bd47c82d3b5c092b269f dm-writecache: use bvec_kmap_local instead of bvec_kmap_irq
-226a08419dc1d5fc5d0d9ac852336594230b4113 ps3disk: use memcpy_{from,to}_bvec
-41f52719a6f89ca1bd4b806d0cfdb48742b27708 block: remove bvec_kmap_irq and bvec_kunmap_irq
-6db4ab2c8905d719cc6a7070c7329da12a3c2275 block: rewrite bio_copy_data_iter to use bvec_kmap_local and memcpy_to_bvec
-5cc4862dc349dc09155bf798d235de1ae1659666 block: use memcpy_to_bvec in copy_to_high_bio_irq
-f1cb206f9915f45f9a25b6a99a8367f025edd762 block: use memcpy_from_bvec in bio_copy_kern_endio_read
-fc0dfee487b36d988b4091ad8b7e2dac81e6b3b3 block: use memcpy_from_bvec in __blk_queue_bounce
-89cf2a7e3b979efb79aed794d4ca273475640f80 block: use bvec_kmap_local in t10_pi_type1_{prepare,complete}
-6cbbf9af226d7165ee36c7c323b4e069915d3d05 block: use bvec_kmap_local in bio_integrity_process
-4e1f588ad96b8269c39e895f2356a23b816cf18d block: assert the locking state in delete_partition
-0a82043c13c8a57b5923d3665a3b901945a9e0b6 block: unhash the whole device inode earlier
-acac3d5406143826da250819286ec927b62c052b block: allocate bd_meta_info later in add_partitions
-9d54b5b84fd7bc99d266c36d601742cb5f18dea7 block: change the refcounting for partitions
-6cf66ffff3d048116d22c283f6114d2edeef64ce loop: don't grab a reference to the block device
-0175ebd544fa1377f02541540b8b215bb9de9d55 block: remove bdgrab
-40116ccedb80d270fc5291957b52206a111a2b79 block: remove bdput
-89dcb168a295de19c005572dafad9f6ea528acf6 block: reduce stack usage in diskstats_show
-49648ed958028a8e999bb109dda5c1a065d52c59 block: use the %pg format specifier in printk_all_partitions
-4634b043877ce595b7f5315826c1301c556d2ebb block: use the %pg format specifier in show_partition
-397b4022135231503c3f35054da0a790df0c4f03 block: simplify printing the device names disk_stack_limits
-f96a9c57084a2b04f07b885b23ba957cd38ef3c4 block: simplify disk name formatting in check_partition
-9b99b733701d61ba34ca46df19137e5ad8692d0f block: remove disk_name()
+2bfb39d00f8b25f1b0930bc210e49b73cbb4e25b ll-merge: teach ll_binary_merge() a trivial three-way merge
+6177dfa0d2536ba3c7ad405798bac587418a496f Merge branch 'jc/trivial-threeway-binary-merge' into jch
+89c90cd5765ae2526486029ea3fc6ee6a9531726 Merge branch 'ar/submodule-add-config' into seen
+a0de5e54cd2a1d3fb7cb530192ade4500de9759a Merge branch 'ab/refs-files-cleanup' into seen
+45ad4c528c88aad372bfb05fc5090f178553b7f9 Merge branch 'hn/refs-errno-cleanup' into seen
+18fcb18f3d9dce899e94796946de956b79631761 Merge branch 'es/trace2-log-parent-process-name' into seen
+533579664ef2dcc04e5da3ca9df51c1be5ee07b9 Merge branch 'bc/inactive-submodules' into seen
+3e8aa4dc8aff381554ec4656f54fc9febb957ca6 Merge branch 'lh/systemd-timers' into seen
+312aae50a3a836e2abbafbcf21496bc3a3d9becb Merge branch 'gh/gitweb-branch-sort' into seen
+1e607b8d0f9f14615760b01816c46fe23605260c Merge branch 'ao/p4-avoid-decoding' into seen
+98473bd00998e2844631f1a6dd161b7e59211c0a Merge branch 'ab/test-tool-cache-cleanup' into seen
+77d7407e790770f53740e277361f20cd90b08ce5 Merge branch 'ab/update-submitting-patches' into seen
+6bed1a08758f0679477922b2b8e4db64384941bf Merge branch 'ab/pack-objects-stdin' into seen
+a6f665cce679dadcd0ac38f0b0b951bdfc8043e3 Merge branch 'en/zdiff3' into seen
+31c7d2f7e5e188d039c5cb2b241751ac4cbd1e6a Merge branch 'es/superproject-aware-submodules' into seen
+7341e7fb7c6afd326ba256e5b02725a2680824cd Merge branch 'ab/serve-cleanup' into seen
+b1d67096b4d5bc1ec3cb4faa349576627cc2723c Merge branch 'ab/config-based-hooks-base' into seen
+c7a66663450f3409a96ff7f7ac9be0329ab072b1 Merge branch 'ab/fsck-unexpected-type' into seen
+f984070af0108d6b30ca7cace61ac930f931dbc1 Merge branch 'ds/commit-and-checkout-with-sparse-index' into seen
+b7262053514ed942c09ed75371e171081ffe66b0 Merge branch 'ab/pack-stdin-packs-fix' into seen
+b569790f21e7523706d3baa499c8de7037200b49 Merge branch 'en/ort-perf-batch-14' into seen
+4fde5f9ffe04badfc83a1a60efb9221b0b45a1fa Merge branch 'ab/make-tags-cleanup' into seen
+fe418fc4f2b69dda61af92452618273376e7a08e Merge branch 'dt/submodule-diff-fixes' into seen
+c82f6b20e0d8934bf01f34d52a909697022d4908 Merge branch 'tb/multi-pack-bitmaps' into seen
+350652342a0f13abf2ede09a16f5a85864de6709 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+25c2b8948a2a033d3d4d6ee19d1889047b201785 Merge branch 'ab/doc-retire-alice-bob' into seen
+2959fb66f28da143f32f69e03775a809bc42d225 Merge branch 'jh/builtin-fsmonitor' into seen
+c941cfb579a3b1a25637cbbfe40b5b28c9d6e15e Merge branch 'zh/ref-filter-raw-data' into seen
+197249104c5406929e49f1db8b982c63186ec176 Merge branch 'es/config-based-hooks' into seen
+71a3b3d5093970e021485ae11fa94792b901c51e Merge branch 'ds/add-with-sparse-index' into seen
+3f8933f1c3462e109aaf9f5816fdf7d24d3e7b51 Merge branch 'ab/lib-subtest' into seen
+8f61a4f8584ee147c19f319a2fb2b2d83128d6e7 Merge branch 'en/ort-perf-batch-15' into seen
+3647c7b14e58d21371eff571a3158cf52bd66ec2 Merge branch 'ab/http-drop-old-curl' into seen
+4d4edbbee3f69b535fc0c80de292c1955610c051 Merge branch 'ab/progress-users-adjust-counters' into seen
+5b9c95405a57a1810fb325f14428e05d31f9804c Merge branch 'ab/only-single-progress-at-once' into seen
+8b56c55cba159018dc508c6c22e142c6a306a7cd Merge branch 'pb/merge-autostash-more' into seen
+f29f7de9ca2e593761c891a4d06f73e4a72f7a72 Merge branch 'fs/ssh-signing' into seen
+e0c79f197eacaff6ee09e79e4216c84c966feed6 ### CI Breakers
+e5c19a93b727986de62ffbc9cd32c01e0e12f8d3 Merge branch 'hn/reftable' into seen
 
---===============1216356394295854224==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e431fe3f64ad-002b8753da4a.txt
-
-3ce6e1f662a910970880188ea7bfd00542bd3934 loop: reintroduce global lock for safe loop_validate_file() traversal
-b93af3055d6f32d3b0361cfdb110c9399c1241ba blk-mq-sched: Fix blk_mq_sched_alloc_tags() error handling
-5ab189cf3abbc9994bae3be524c5b88589ed56e2 blk-iocost: fix operation ordering in iocg_wake_fn()
-340e84573878b2b9d63210482af46883366361b9 block: delay freeing the gendisk
-319906c4191ae2fd1ec85708dbc9e63c8dd22713 Merge branch 'block-5.14' into for-5.15/block
-ebdad322cdeef0d2429ae27d3437ef5f92aa6a33 ioprio: move user space relevant ioprio bits to UAPI includes
-4bc78bd5aa68d2c3ed60bfe8d1b7a10ad9040ef6 MIPS: don't include <linux/genhd.h> in <asm/mach-rc32434/rb.h>
-0c6696f3940e0315bb64f9030478d2613a13bb14 bvec: fix the include guards for bvec.h
-913656ae40b2e053e272ca5bcbaea7972becd780 bvec: add a bvec_kmap_local helper
-9b6bf5c8ac11e4fdb8b32f33ba0930a297005d55 bvec: add memcpy_{from,to}_bvec and memzero_bvec helper
-b86d14cf7dd20c934e2e2f4e6b95871f7b50c286 block: use memzero_page in zero_fill_bio
-d39f1d3e1a98cdf4d4a7fcc714e2c624067c1ce0 rbd: use memzero_bvec
-bd532fbfab76ad0b4272bd47c82d3b5c092b269f dm-writecache: use bvec_kmap_local instead of bvec_kmap_irq
-226a08419dc1d5fc5d0d9ac852336594230b4113 ps3disk: use memcpy_{from,to}_bvec
-41f52719a6f89ca1bd4b806d0cfdb48742b27708 block: remove bvec_kmap_irq and bvec_kunmap_irq
-6db4ab2c8905d719cc6a7070c7329da12a3c2275 block: rewrite bio_copy_data_iter to use bvec_kmap_local and memcpy_to_bvec
-5cc4862dc349dc09155bf798d235de1ae1659666 block: use memcpy_to_bvec in copy_to_high_bio_irq
-f1cb206f9915f45f9a25b6a99a8367f025edd762 block: use memcpy_from_bvec in bio_copy_kern_endio_read
-fc0dfee487b36d988b4091ad8b7e2dac81e6b3b3 block: use memcpy_from_bvec in __blk_queue_bounce
-89cf2a7e3b979efb79aed794d4ca273475640f80 block: use bvec_kmap_local in t10_pi_type1_{prepare,complete}
-6cbbf9af226d7165ee36c7c323b4e069915d3d05 block: use bvec_kmap_local in bio_integrity_process
-4e1f588ad96b8269c39e895f2356a23b816cf18d block: assert the locking state in delete_partition
-0a82043c13c8a57b5923d3665a3b901945a9e0b6 block: unhash the whole device inode earlier
-acac3d5406143826da250819286ec927b62c052b block: allocate bd_meta_info later in add_partitions
-9d54b5b84fd7bc99d266c36d601742cb5f18dea7 block: change the refcounting for partitions
-6cf66ffff3d048116d22c283f6114d2edeef64ce loop: don't grab a reference to the block device
-0175ebd544fa1377f02541540b8b215bb9de9d55 block: remove bdgrab
-40116ccedb80d270fc5291957b52206a111a2b79 block: remove bdput
-89dcb168a295de19c005572dafad9f6ea528acf6 block: reduce stack usage in diskstats_show
-49648ed958028a8e999bb109dda5c1a065d52c59 block: use the %pg format specifier in printk_all_partitions
-4634b043877ce595b7f5315826c1301c556d2ebb block: use the %pg format specifier in show_partition
-397b4022135231503c3f35054da0a790df0c4f03 block: simplify printing the device names disk_stack_limits
-f96a9c57084a2b04f07b885b23ba957cd38ef3c4 block: simplify disk name formatting in check_partition
-9b99b733701d61ba34ca46df19137e5ad8692d0f block: remove disk_name()
-b3912ae619982f7737945c0f52be00f8b1a9c726 block/rnbd-clt: Use put_cpu_ptr after get_cpu_ptr
-002b8753da4a4a004c8e5c29051d42adf5f78d31 block/rnbd: Use sysfs_emit instead of s*printf function for sysfs show
-
---===============1216356394295854224==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4cae27ed899-e9c737bb75a1.txt
-
-3ce6e1f662a910970880188ea7bfd00542bd3934 loop: reintroduce global lock for safe loop_validate_file() traversal
-b93af3055d6f32d3b0361cfdb110c9399c1241ba blk-mq-sched: Fix blk_mq_sched_alloc_tags() error handling
-5ab189cf3abbc9994bae3be524c5b88589ed56e2 blk-iocost: fix operation ordering in iocg_wake_fn()
-3ad4a31620355358316fa08fcfab37b9d6c33347 ata: sata_dwc_460ex: No need to call phy_exit() befre phy_init()
-340e84573878b2b9d63210482af46883366361b9 block: delay freeing the gendisk
-319906c4191ae2fd1ec85708dbc9e63c8dd22713 Merge branch 'block-5.14' into for-5.15/block
-ebdad322cdeef0d2429ae27d3437ef5f92aa6a33 ioprio: move user space relevant ioprio bits to UAPI includes
-4bc78bd5aa68d2c3ed60bfe8d1b7a10ad9040ef6 MIPS: don't include <linux/genhd.h> in <asm/mach-rc32434/rb.h>
-0c6696f3940e0315bb64f9030478d2613a13bb14 bvec: fix the include guards for bvec.h
-913656ae40b2e053e272ca5bcbaea7972becd780 bvec: add a bvec_kmap_local helper
-9b6bf5c8ac11e4fdb8b32f33ba0930a297005d55 bvec: add memcpy_{from,to}_bvec and memzero_bvec helper
-b86d14cf7dd20c934e2e2f4e6b95871f7b50c286 block: use memzero_page in zero_fill_bio
-d39f1d3e1a98cdf4d4a7fcc714e2c624067c1ce0 rbd: use memzero_bvec
-bd532fbfab76ad0b4272bd47c82d3b5c092b269f dm-writecache: use bvec_kmap_local instead of bvec_kmap_irq
-226a08419dc1d5fc5d0d9ac852336594230b4113 ps3disk: use memcpy_{from,to}_bvec
-41f52719a6f89ca1bd4b806d0cfdb48742b27708 block: remove bvec_kmap_irq and bvec_kunmap_irq
-6db4ab2c8905d719cc6a7070c7329da12a3c2275 block: rewrite bio_copy_data_iter to use bvec_kmap_local and memcpy_to_bvec
-5cc4862dc349dc09155bf798d235de1ae1659666 block: use memcpy_to_bvec in copy_to_high_bio_irq
-f1cb206f9915f45f9a25b6a99a8367f025edd762 block: use memcpy_from_bvec in bio_copy_kern_endio_read
-fc0dfee487b36d988b4091ad8b7e2dac81e6b3b3 block: use memcpy_from_bvec in __blk_queue_bounce
-89cf2a7e3b979efb79aed794d4ca273475640f80 block: use bvec_kmap_local in t10_pi_type1_{prepare,complete}
-6cbbf9af226d7165ee36c7c323b4e069915d3d05 block: use bvec_kmap_local in bio_integrity_process
-4e1f588ad96b8269c39e895f2356a23b816cf18d block: assert the locking state in delete_partition
-0a82043c13c8a57b5923d3665a3b901945a9e0b6 block: unhash the whole device inode earlier
-acac3d5406143826da250819286ec927b62c052b block: allocate bd_meta_info later in add_partitions
-9d54b5b84fd7bc99d266c36d601742cb5f18dea7 block: change the refcounting for partitions
-6cf66ffff3d048116d22c283f6114d2edeef64ce loop: don't grab a reference to the block device
-0175ebd544fa1377f02541540b8b215bb9de9d55 block: remove bdgrab
-40116ccedb80d270fc5291957b52206a111a2b79 block: remove bdput
-054fcd15c8ef58c4d2c2471f871f8939a158e447 Merge branch 'for-5.15/block' into for-next
-89dcb168a295de19c005572dafad9f6ea528acf6 block: reduce stack usage in diskstats_show
-49648ed958028a8e999bb109dda5c1a065d52c59 block: use the %pg format specifier in printk_all_partitions
-4634b043877ce595b7f5315826c1301c556d2ebb block: use the %pg format specifier in show_partition
-397b4022135231503c3f35054da0a790df0c4f03 block: simplify printing the device names disk_stack_limits
-f96a9c57084a2b04f07b885b23ba957cd38ef3c4 block: simplify disk name formatting in check_partition
-9b99b733701d61ba34ca46df19137e5ad8692d0f block: remove disk_name()
-b3912ae619982f7737945c0f52be00f8b1a9c726 block/rnbd-clt: Use put_cpu_ptr after get_cpu_ptr
-002b8753da4a4a004c8e5c29051d42adf5f78d31 block/rnbd: Use sysfs_emit instead of s*printf function for sysfs show
-e9c737bb75a10f75c4e635d5dc4540694f0289bf Merge branch 'for-5.15/drivers' into for-next
-
---===============1216356394295854224==--
+--===============7225594866115720389==--
