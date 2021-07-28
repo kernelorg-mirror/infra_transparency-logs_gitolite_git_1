@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 28 Jul 2021 00:28:19 -0000
-Message-Id: <162743209910.4416.11208931087571163226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 28 Jul 2021 00:30:20 -0000
+Message-Id: <162743222038.6614.15355196708188327321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: acd5aea400494ce960904cca4626dfbbe307dd47
-    new: 73333364afebb5e45807139bc79e6a6574c1874b
+    old: 06510e2fdbed61cfe0b068ea46b36b23653ab3db
+    new: 7158edb16b77fefece71ef92b547570d0156bd33
     log: |
-         73333364afebb5e45807139bc79e6a6574c1874b Bluetooth: defer cleanup of resources in hci_unregister_dev()
+         7158edb16b77fefece71ef92b547570d0156bd33 Wed 28 Jul 2021 12:29:51 AM UTC
          
