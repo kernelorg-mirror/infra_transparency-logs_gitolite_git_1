@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3853675616621201190=="
+Content-Type: multipart/mixed; boundary="===============4750743796579499167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 28 Jul 2021 10:00:35 -0000
-Message-Id: <162746643584.7905.2071038423033906727@gitolite.kernel.org>
+Date: Wed, 28 Jul 2021 10:01:22 -0000
+Message-Id: <162746648276.8338.10997690543471410410@gitolite.kernel.org>
 
---===============3853675616621201190==
+--===============4750743796579499167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 7b944bdaa8335b73336b223ff44b015a72b87597
+  - ref: refs/heads/auto-latest
+    old: de35038b40c12814cb736cb495d9a15c7a0b0979
     new: 1606b3aadfab884614467fd201288ddcdcd1ee7d
-    log: revlist-7b944bdaa833-1606b3aadfab.txt
+    log: revlist-de35038b40c1-1606b3aadfab.txt
 
---===============3853675616621201190==
+--===============4750743796579499167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b944bdaa833-1606b3aadfab.txt
+Content-Disposition: attachment; filename=revlist-de35038b40c1-1606b3aadfab.txt
 
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
 0c4f8fd3ed9cb27228497f0ae495ea6cef7017b1 ASoC: remove zte zx dangling kconfig
@@ -388,4 +388,4 @@ d0a68fd9a381bd2e42f30303c8d0ecb506e37d5d Merge branch 'sched/core'
 ede334b94cde54e74138cb0d92ecdcdaa98d04be Merge branch 'timers/urgent'
 1606b3aadfab884614467fd201288ddcdcd1ee7d Merge branch 'x86/cpu'
 
---===============3853675616621201190==--
+--===============4750743796579499167==--
