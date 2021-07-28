@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 28 Jul 2021 09:49:07 -0000
-Message-Id: <162746574707.31757.14175003523826065324@gitolite.kernel.org>
+Date: Wed, 28 Jul 2021 09:51:29 -0000
+Message-Id: <162746588949.1791.15252006253783646765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-5.15/goodix
-    old: 18eeef46d3593e3bc3d6a8f7a6f94ace356578ff
-    new: 25ddd7cfc582d6001c3b9e18e96c9b3a58523d66
-    log: |
-         25ddd7cfc582d6001c3b9e18e96c9b3a58523d66 HID: i2c-hid: goodix: Use the devm variant of regulator_register_notifier()
-         
   - ref: refs/heads/for-next
-    old: 0b0aa842c083cef40b0f34ae9b9e240b16dfb3b1
-    new: fd6a9e2afda9fbb34bc2136de0f85148f6a84322
+    old: fd6a9e2afda9fbb34bc2136de0f85148f6a84322
+    new: 28bac493196c5c4e586dbfe1d61fca62c3018ae7
     log: |
-         25ddd7cfc582d6001c3b9e18e96c9b3a58523d66 HID: i2c-hid: goodix: Use the devm variant of regulator_register_notifier()
-         fd6a9e2afda9fbb34bc2136de0f85148f6a84322 Merge branch 'for-5.15/goodix' into for-next
+         bebf8820b355e6ac00487f3f36440d502eb4a44c HID: cmedia: add support for HS-100B mute button
+         28bac493196c5c4e586dbfe1d61fca62c3018ae7 Merge branch 'for-5.15/cmedia' into for-next
          
+  - ref: refs/heads/for-5.15/cmedia
+    old: 0000000000000000000000000000000000000000
+    new: bebf8820b355e6ac00487f3f36440d502eb4a44c
