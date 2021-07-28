@@ -1,60 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3079757642642509265=="
+Content-Type: multipart/mixed; boundary="===============6483089874944193090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 28 Jul 2021 23:08:26 -0000
-Message-Id: <162751370693.11326.17958310576831311189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 28 Jul 2021 23:08:34 -0000
+Message-Id: <162751371402.11458.5296652639912000461@gitolite.kernel.org>
 
---===============3079757642642509265==
+--===============6483089874944193090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.14
-    old: 61bef9e68dca4316e1fc5fdf5f0c270bdbd65657
-    new: 830b69f6c059bc46451e7c4be8b796d483acb0bd
+  - ref: refs/heads/for-5.14
+    old: 53ca18acbe645656132fb5a329833db711067e54
+    new: 36c2530ea963884eeb0097169f853fdc36f16ad7
     log: |
-         31428c78748cafdd9352e1f622eb89bf453d9700 ASoC: component: Remove misplaced prefix handling in pin control functions
-         acbf58e530416e167c3b323111f4013d9f2b0a7d ASoC: wm_adsp: Let soc_cleanup_component_debugfs remove debugfs
-         830b69f6c059bc46451e7c4be8b796d483acb0bd MAINTAINERS: Add sound devicetree bindings for Wolfson Micro devices
-         
-  - ref: refs/heads/asoc-5.15
-    old: 6b809c19d4ff6756e73b21f7f6cb4babca53d144
-    new: 14db5499d583e0952606fbca3eb37a0f28008d30
-    log: |
-         0f6b04adb58d80e7fb5f8d9229ad22c9931c3bd1 ASoC: Intel: Fix spelling contraction "cant" -> "can't"
-         14db5499d583e0952606fbca3eb37a0f28008d30 ASoC: bcm: cygnus-pcm: Fix unused assignment about 'rc'
+         36c2530ea963884eeb0097169f853fdc36f16ad7 spi: imx: mx51-ecspi: Fix CONFIGREG delay comment
          
 
---===============3079757642642509265==
+--===============6483089874944193090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627513697 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1627513704-e11095b52237ee05655d88848475e6e4d7285474
+pusher C3F436CA30F5D8EB 1627513704 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1627513711-2385dc7b6539f406219b72f92a014a7734b76b38
 
-61bef9e68dca4316e1fc5fdf5f0c270bdbd65657 830b69f6c059bc46451e7c4be8b796d483acb0bd refs/heads/asoc-5.14
-6b809c19d4ff6756e73b21f7f6cb4babca53d144 14db5499d583e0952606fbca3eb37a0f28008d30 refs/heads/asoc-5.15
+53ca18acbe645656132fb5a329833db711067e54 36c2530ea963884eeb0097169f853fdc36f16ad7 refs/heads/for-5.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEB42EACgkQJNaLcl1U
-h9CEDQf/QAbpYtyYO+wvkw847pB+XGipYvVwqeGKCMDBvIyXaSxdXWK3Ln9BoD2K
-7pPk4fKzDMqwZvpVdJHX3n43MxuHMYPCoa+RtDJCFBRldIV/nnhwuPMfubqPtnEh
-XlSkZglLaArfxQhmp5qfqlNkE/PYj+pKOU/vX8rRYMcWPghTu/Y7bSoUNJY1mBd6
-VyZu24Mf41X8zc93f5BYZDC2ynS36Sg/PlBMi/4dk3CK7tEG7n1O97ucUaJ/Dj6F
-/f0V0Mk4w7ozOWXTi47KDI3S5SMbPzTLDEewU3VHiwRWC9FXo8xi4VEtapSrbTep
-+L71Q7cpWgaWA+sbhzh8lRCTpNOdXg==
-=CfS5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEB42gACgkQJNaLcl1U
+h9AVeQf/e67wjwpRKO+RwwP868cQBnwSoKrb76DYT0kMSQPxLVqGs+BrqmuPwSLH
+V4Cd7l0QzJGQh8uB4zwxcvi5X2Y2Hrc/fV1qRhFsZ8xjKjzf9UhK6Z9t/g3kVAyh
+tIpYd94x4DocOloygIKSSFZabenUEL/SE3OFDjDoDdn80pEV1hbuxr53Sgoxzf//
+i26O6CewtD2y7SErlqRzSwnBdXxB0nNGq7ISl7gYFagvlQqe2z473bLbuXo0WgRr
+hRw3LGcrBJQk3ZxpkaSDwPtuEGiEiBq/RLEwFCK12eWd0MGO8Hndh5hLd7WBElhZ
+hgsxIvIGQ+C8n0IVKdmOo7RGD3M06g==
+=7qd5
 -----END PGP SIGNATURE-----
 
---===============3079757642642509265==--
+--===============6483089874944193090==--
