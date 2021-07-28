@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1700848212204386722=="
+Content-Type: multipart/mixed; boundary="===============5627085701407669376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 28 Jul 2021 18:05:20 -0000
-Message-Id: <162749552062.7668.14625586518101127212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 28 Jul 2021 18:05:55 -0000
+Message-Id: <162749555564.7973.7975609237823756185@gitolite.kernel.org>
 
---===============1700848212204386722==
+--===============5627085701407669376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 03726fd90f4bc4ea309f9bf6faf24960d6d2e986
+  - ref: refs/heads/master
+    old: ceb310a6160c1a002e66e9d86f996dbfef96ea69
+    new: 387a2af437f6865258d35803f93b0d6edd1bfd32
     log: |
-         03726fd90f4bc4ea309f9bf6faf24960d6d2e986 hwmon: sht4x: update Documentation for Malformed table
+         387a2af437f6865258d35803f93b0d6edd1bfd32 5.10-stable patches
          
-  - ref: refs/heads/hwmon-next
-    old: 88316b6c34b4bccab3b9d67a9b311b41a0ad2723
-    new: 36c4d19d52b01d8dec42d0bb27c03d9f28774462
-    log: revlist-88316b6c34b4-36c4d19d52b0.txt
 
---===============1700848212204386722==
+--===============5627085701407669376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88316b6c34b4-36c4d19d52b0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-03726fd90f4bc4ea309f9bf6faf24960d6d2e986 hwmon: sht4x: update Documentation for Malformed table
-9746b81bec2903e8a0fffacf7fb503207a4af708 hwmon: (k10temp) support Zen3 APUs
-93483bf411f9e0494c5545cf026623d950a07221 hwmon: (ntc_thermistor) Use library interpolation
-142c34e2a85fe4182bbd01a67f10e30267712044 hwmon: (pmbus/bpa-rs600) Support BPD-RS600
-ad7f8ba0b61e601a996a8eb1518ae9d001986387 hwmon: (w83627ehf) Use platform_create_bundle
-80c67e449edef3a7d3a1558ae7196c8c26ed849d hwmon: (w83627ehf) Remove w83627ehf_remove()
-36fd0166cbacd456779c464c2a7e1ba00ae3a865 hwmon: intel-m10-bmc-hwmon: add n5010 sensors
-8fece1f63e9f7ed82af7d63878e528fa69b9c3be dt-bindings: firmware: update arm,scpi.yaml reference
-16c04e5fa1ad898b7ff1e631ead3d0445e5fe27d hwmon: (w83627ehf) Switch to SIMPLE_DEV_PM_OPS
-7d4699fd96ebaa562cac4123099a59ba24d1d2cc hwmon: (w83627ehf) Make DEVICE_ATTR_RO static
-4f5b70eb322a2ab7efc7a60a572fa72e46c89f16 hwmon: Add support for SB-RMI power module
-c3d8fa397d8a014576a6d069e9fbab90dc0340f8 hwmon: (sbrmi) Add Documentation
-36c4d19d52b01d8dec42d0bb27c03d9f28774462 dt-bindings: sbrmi: Add SB-RMI hwmon driver bindings
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627495554 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1627495554-b535d0a014ac34c219358ba0a53e648db5951592
 
---===============1700848212204386722==--
+ceb310a6160c1a002e66e9d86f996dbfef96ea69 387a2af437f6865258d35803f93b0d6edd1bfd32 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEBnIIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5EAQANayL7eCYUgMrZYtazkw
++r4d9TepnOWEQkfWbgwkroN7xox30RJN+UW4RH6SHd2M3KinaEoEmMr9PjnDBQ6j
+U3gPts15h6ubwhBXN95xDz9yBjCam8qhPQZuqCrscOpKl3DytWBSJir4nBSurflD
+pg2FH50sFgFubRuS4XCb508iCJjzP1m1A0xwulCLICNp36gnCSUvCBpNFrdVKHlP
++ePn1C/qh06NO+fdIZjMckizyOxTVbwXWoommh8ycd66aiIaD9fsRXSjyL57dmuA
+v/TcUYlnJjio+Lr93/tUwZ1hNbb581Aq8doFO5M7voHl/i0uNwE4V82qW8OpWmsc
++WRk5Wsvd0AAv0mk7ft9U5HaVB96n3dhGzoYWMQmTBfOLhQPX9odIyUgNpxEFlOs
+m7h/3PnVZkD4WlhOvOR5VWThmlj/ByUHxdcGhp1Z3XJWXtzC2GB1UQs4TxbkG7vD
+o2RjcWTFT/kWeBYJAc9Dm/OXoZLcp34JptSGUfRB8C16yA0vuBffEBqD5P5IAkpD
+jgXd1NTnv21g6BiaCit6v92KAl6bIyQqU+Fo2n3NePkJ9u654eS28oqlq77osf0G
+6DT1P4QEtFyopor7Qf90oaKv2SA38qoc1JsBgYDA+Wlpox06YNOUZeOdUzBuHfYR
+P5MOo7yts1ZIlQlVYYFCzhgk
+=S3Aw
+-----END PGP SIGNATURE-----
+
+--===============5627085701407669376==--
