@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4074761699799768117=="
+Content-Type: multipart/mixed; boundary="===============2753031232162389117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 29 Jul 2021 05:21:01 -0000
-Message-Id: <162753606197.32711.2239158194495678302@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 05:21:27 -0000
+Message-Id: <162753608777.458.5821903576032269568@gitolite.kernel.org>
 
---===============4074761699799768117==
+--===============2753031232162389117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 9abe677951d15a099964b909010daaf92307bd4b
-    new: 08dc2f9b53afbbc897bc895aa41906194f5af1cf
-    log: revlist-9abe677951d1-08dc2f9b53af.txt
+  - ref: refs/heads/for-next
+    old: 88d7bf83f35b8a27c72bee64b8dffe6800c48e20
+    new: 549cd449ebb2d2aa4606c4361f230ee892ab626e
+    log: revlist-88d7bf83f35b-549cd449ebb2.txt
 
---===============4074761699799768117==
+--===============2753031232162389117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abe677951d1-08dc2f9b53af.txt
+Content-Disposition: attachment; filename=revlist-88d7bf83f35b-549cd449ebb2.txt
 
 f449a3d7a1530db44e7bba1a875f522115e99ab5 scsi: lpfc: Add PCI ID support for LPe37000/LPe38000 series adapters
 df3d78c3eb4eba13b3ef9740a8c664508ee644ae scsi: lpfc: Fix cq_id truncation in rq create
@@ -71,5 +71,15 @@ a9705477f552c1c9a2da8e94bb9914086f7798bf scsi: scsi_ioctl: Remove a very mislead
 2102a5cc1233ff84a0ebf95bbc4d346eb4927c8f scsi: scsi_ioctl: Factor SCSI_IOCTL_GET_IDLUN handling into a helper
 b2123d3b0987a2164e5bef116cafe19ac2281e34 scsi: scsi_ioctl: Factor SG_IO handling into a helper
 08dc2f9b53afbbc897bc895aa41906194f5af1cf scsi: scsi_ioctl: Unexport sg_scsi_ioctl()
+d712d3fb484b7fa8d1d57e9ca6f134bb9d8c18b1 scsi: pm80xx: Fix TMF task completion race condition
+77541f78eadfe9fdb018a7b8b69f0f2af2cf4b82 scsi: megaraid_mm: Fix end of loop tests for list_for_each_entry()
+b1d5de8c6ea261667348424133a4f648ea48e7ca scsi: ufs: Fix memory corruption by ufshcd_read_desc_param()
+fb5d909021b4b987c5ddf997fcfa91920ef0f2a2 scsi: scsi_dh_rdac: Avoid crash during rdac_bus_attach()
+85601d88eccc19a809e00389ade0671e63c03683 scsi: core: Avoid printing an error if target_alloc() returns -ENXIO
+73bfdf707d0189c33a46fd04e3140351a6ff346f scsi: ibmvfc: Fix command state accounting and stale response detection
+eea4d790a8d755942e399111decd241a2a66398e scsi: sr: Return correct event when media event code is 3
+d5c8db0e5cd41e92d6f9e715df30bc0ca974da80 scsi: core: Fix capacity set to zero after offlinining device
+03f39ec5f1cd0b49cf3a33526885c83672a9b7ed Merge branch 'fixes' into for-next
+549cd449ebb2d2aa4606c4361f230ee892ab626e Merge branch 'misc' into for-next
 
---===============4074761699799768117==--
+--===============2753031232162389117==--
