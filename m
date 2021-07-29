@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1174661043676881695=="
+Content-Type: multipart/mixed; boundary="===============7437596870253496847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
 Date: Thu, 29 Jul 2021 11:28:32 -0000
-Message-Id: <162755811201.31340.13963419428601616135@gitolite.kernel.org>
+Message-Id: <162755811231.31360.1981844989500711872@gitolite.kernel.org>
 
---===============1174661043676881695==
+--===============7437596870253496847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8cb79af5c63ff2dbcab048085302256dd7e8208d
-    new: 658e6b1612c6cc680381b6827dca9c3ee8862ee6
-    log: revlist-8cb79af5c63f-658e6b1612c6.txt
+    old: 08ef1d438dbdfeb3f6f88512ce44e6c48e3af3f4
+    new: b194bda81344de0d9fe269fe946f87e786cb370a
+    log: |
+         b194bda81344de0d9fe269fe946f87e786cb370a 5.4-stable patches
+         
 
---===============1174661043676881695==
+--===============7437596870253496847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cb79af5c63f-658e6b1612c6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-dd8987a394c0730380167e0b0aebd766cf3511e1 nfc: constify passed nfc_dev
-894a6e15863307d8821857aaa2ecf80cde2a6c82 nfc: mei_phy: constify buffer passed to mei_nfc_send()
-9a4af01c35a5bed9d717433651629e4c9865f8f2 nfc: port100: constify several pointers
-ea050c5ee74a996ee4577a5c3852c53cd8219412 nfc: trf7970a: constify several pointers
-83428dbbac514f33597e6c8c571969027b3fac82 nfc: virtual_ncidev: constify pointer to nfc_dev
-582fdc98adc8a0f4286cff0e2c6226750cf190ee nfc: nfcsim: constify drvdata (struct nfcsim)
-6c755b1d251180fbdfe458591fc4dfe8704b0006 nfc: fdp: drop unneeded cast for printing firmware size in dev_dbg()
-c3e26b6dc1b4e3e8f57be4f004b1f2a410c5c468 nfc: fdp: use unsigned int as loop iterator
-3d463dd5023b5a58b3c37207d65eeb5acbac2be3 nfc: fdp: constify several pointers
-a751449f8b477e0e1d97f778ed97ae9f6576b690 nfc: microread: constify several pointers
-fe53159fe3e0639a75ffbe320b9909e0055c743f nfc: mrvl: constify several pointers
-2695503729dae562aea5e9bbd1722aa5fa1f05bf nfc: mrvl: constify static nfcmrvl_if_ops
-658e6b1612c6cc680381b6827dca9c3ee8862ee6 Merge branch 'nfc-const'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627558111 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1627558110-b4c782964843a9cd366d13ea7a5dd421f634e30a
 
---===============1174661043676881695==--
+08ef1d438dbdfeb3f6f88512ce44e6c48e3af3f4 b194bda81344de0d9fe269fe946f87e786cb370a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmECkN8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FFEP/09WNDNjKw7YJNe7yXCw
+WXGMBkSA1EeJ6bcY082+B/RYDmp4KXc8Jv8oMZpb+ST188LeIIvLAEnsdknkKolt
+PvWZXg+lhMm+zte/16A6U9QBQzF/B+ZooG7upMV5JLNL10zcQnaFtlYLBIkfR9YR
+VejRH8r/CRJ3DQFdl/Bt7EJK777+LNBZPgsz+s2ixrIOFDwJZodsYhxaVPL1oeai
+ACM6P3kRuDt48TecufqFqX18Bh5AdojQx8GBZoapL6Mw2Ohuf4apuM+68CMnD7xz
+C5FuJvj49bmRQONvnc6RlEtbjEtQXcK7f/CHI8NL9ff7ooTXIHJM70EUvSrMNXlg
+q3eQ91KSVtMYxfMax8ixwhiUNoCmXSpaC+9dFGor5WQW9QQ5MGcT3/mlm56NAr+O
+etMyv3PgFxDEpVMsLkSYHkIS0FuNeeqQUk5woW1+0G83z+0Wn+H1SlZSQEbPVSEa
+hrC6TTXQ9btV6AHtz5lmDr3G+yYmh7rI4TG//Hf4xoEj008L1YE2ARCVZRP3a9CR
+SBhK6r/bRNVo8/d5GXh3NptmdkBFzq3n0dTfYji3XDWOUSiXl2F/moMrrFChE/Tc
+VQUn0tCVt8oizCrZh/6AWl72CZW1k0W3Tt6vYiIpRXqaiDtZuXzNWcq9RzKzxHE/
+HPbZ+qsop01/uatuDWmFZ1kQ
+=C4fN
+-----END PGP SIGNATURE-----
+
+--===============7437596870253496847==--
