@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4172518260601413404=="
+Content-Type: multipart/mixed; boundary="===============4724172094875512078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 29 Jul 2021 15:45:22 -0000
-Message-Id: <162757352206.12713.6401607460787007478@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 15:45:36 -0000
+Message-Id: <162757353684.12863.1244680505376775575@gitolite.kernel.org>
 
---===============4172518260601413404==
+--===============4724172094875512078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,61 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm
-    old: 314a1e1eabea5b86532e90e0d4e217fa88471e3b
-    new: fc8c0faae12d98242c4a025e21144744d69cc421
-    log: revlist-314a1e1eabea-fc8c0faae12d.txt
+  - ref: refs/heads/x86/paravirt
+    old: ab234a260b1f625b26cbefa93ca365b0ae66df33
+    new: 87bce581e1c31e4f878bc4ce74f28dc5b9633cdb
+    log: revlist-ab234a260b1f-87bce581e1c3.txt
 
---===============4172518260601413404==
+--===============4724172094875512078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-314a1e1eabea-fc8c0faae12d.txt
+Content-Disposition: attachment; filename=revlist-ab234a260b1f-87bce581e1c3.txt
 
-2de7e4f67599affc97132bd07e30e3bd59d0b777 ixgbevf: use xso.real_dev instead of xso.dev in callback functions of struct xfrmdev_ops
-a22c39b831a081da9b2c488bd970a4412d926f30 bonding: fix suspicious RCU usage in bond_ipsec_del_sa()
-b121693381b112b78c076dea171ee113e237c0e4 bonding: disallow setting nested bonding + ipsec offload
-9a5605505d9c7dbfdb89cc29a8f5fc5cf9fd2334 bonding: Add struct bond_ipesc to manage SA
-955b785ec6b3b2f9b91914d6eeac8ee66ee29239 bonding: fix suspicious RCU usage in bond_ipsec_offload_ok()
-168e696a36792a4a3b2525a06249e7472ef90186 bonding: fix incorrect return value of bond_ipsec_offload_ok()
-5ddef2ad96019d9495424c6d5139dcb5b732bd58 Merge branch 'bonding-ipsec'
-7a5e9a17b2d8905e368ddfb33ddd40ef57f2d7cc Merge tag 'exfat-for-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
-729437e334a9d9e079e2be9a42629316bee8a17e Merge tag 'for-linus-5.14-ofs1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
-8e4f3e15175ffab5d2126dc8e7c8cfcc1654a5aa Merge tag 'fuse-update-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-76e2d16bd5d0193f891a0e30f14ef5c8c370bc8f Merge branch 'for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
-df8ba5f160335cf9ea09c0a037235331a171fe1a Merge tag 'kgdb-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
-4c55e2aeb8082cb118cd63596bfe0dc5247b78e1 Merge tag 'for-linus' of git://github.com/openrisc/linux
-77d34a4683b053108ecd466cc7c4193b45805528 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-07b72960d2b4a087ff2445e286159e69742069cc drm/i915/display: Do not zero past infoframes.vsc
-995e9bcb42f99b68a45400f51bbbf41bb871ba2f drm/i915/display/dg1: Correctly map DPLLs during state readout
-320ad343ea3023b4035dc4b5091eb19060391dbc drm/i915: Use the correct IRQ during resume
-3dd6c11b60d2f1e4082221a8831f91093c4494aa drm/i915: Drop all references to DRM IRQ midlayer
-31da94c25aea835ceac00575a9fd206c5a833fed riscv: add VMAP_STACK overflow detection
-22b6d14992b733e9421a475f4d43df24629737ab scftorture: Avoid false-positive warnings in scftorture_invoker()
-05bc276cf243d90b9f1eb6ae2962f41eeb53a741 refscale: Avoid false-positive warnings in ref_scale_reader()
-1d10bf55d85d34eb73dd8263635f43fd72135d2d rcu-tasks: Don't delete holdouts within trc_inspect_reader()
-4e1c8c17ff129ab14a38c461dd9bb8f7ff8a36a0 scsi: aic94xx: Fix fall-through warning for Clang
-f1469e568bf6dcbdff9fd7cd7d2cc9ca9d06efeb Input: Fix fall-through warning for Clang
-ca6eaaa210deec0e41cbfc380bf89cf079203569 riscv: __asm_copy_to-from_user: Optimize unaligned memory access and pipeline stall
-7761e36bc7222d1221242c5f195ee0fd40caea40 riscv: Fix PTDUMP output now BPF region moved back to module region
-ad1f37970875eef98eeaf478f55045f388b794a5 octeontx2-pf: Fix assigned error return value that is never used
-ccd27f05ae7b8ebc40af5b004e94517a919aa862 ipv6: fix 'disable_policy' for fwd packets
-a9ab9cce9367a2cc02a3c7eb57a004dc0b8f380d rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
-2a2ed5618a0e8a890d948b88b368c0459f35136c rcu: Fix pr_info() formats and values in show_rcu_gp_kthreads()
-1958e5aef5098e28b7d6e6a2972649901ebecace riscv: xip: Fix duplicate included asm/pgtable.h
-934bd07fae7e55232845f909f78873ab8678ca74 nfsd: move fsnotify on client creation outside spinlock
-d50295255e787a142a1329d53c7c410227ceaac2 xprtrdma: Fix spelling mistakes
-3518c8666f15cdd5d38878005dab1d589add1c19 nfsd4: Expose the callback address and state of each NFS4 client
-f47dc2d3013c65631bf8903becc7d88dc9d9966e nfsd: fix kernel test robot warning in SSC code
-54185267e1fe476875e649bb18e1c4254c123305 NFSD: Fix error return code in nfsd4_interssc_connect()
-5823e40055166cdf959a77e7b5fe75998b0b9b1f nfs_common: fix doc warning
-f6260b98ec1493b214f13bb9d0545779ffe87748 rpc: remove redundant initialization of variable status
-05570a2b01117209b500e1989ce8f1b0524c489f nfsd: rpc_peeraddr2str needs rcu lock
-99cdf57b33e68df7afc876739c93a11f0b1ba807 lockd: Remove stale comments
-a9ad1a8090f58b2ed1774dd0f4c7cdb8210a3793 lockd: Create a simplified .vs_dispatch method for NLM requests
-a6a63ca5652ea05637ecfe349f9e895031529556 lockd: Common NLM XDR helpers
-cc1029b51273da5b342683e9ae14ab4eeaa15997 lockd: Update the NLMv1 void argument decoder to use struct xdr_stream
-2fd0c67aabcf0f8821450b00ee511faa0b7761bf lockd: Update the NLMv1 TEST arguments decoder to use struct xdr_stream
 c1adb8c672ca2b085c400695ef064547d77eda29 lockd: Update the NLMv1 LOCK arguments decoder to use struct xdr_stream
 f4e08f3ac8c4945ea54a740e3afcf44b34e7cf44 lockd: Update the NLMv1 CANCEL arguments decoder to use struct xdr_stream
 c27045d302b022ed11d24a2653bceb6af56c6327 lockd: Update the NLMv1 UNLOCK arguments decoder to use struct xdr_stream
@@ -105,6 +61,11 @@ c9cd752d8f3a6b13afc5332a60bea3e68f141738 regulator: fixed: Mark regulator-fixed-
 ea986908ccfcc53204a03bb0841227e1b26578c4 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
 135cbd378eab336da15de9c84bbb22bf743b38a5 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
 31028cbed26a8afa25533a10425ffa2ab794c76c ALSA: isa: Fix error return code in snd_cmi8330_probe()
+ab4e4d9f79b2c95ef268985d2a9625a03a73c49a locking/mutex: Use try_cmpxchg()
+048661a1f963e9517630f080687d48af79ed784c locking/mutex: Fix HANDOFF condition
+ad90880dc9625682a58897cba2ecff657a2aa60b locking/mutex: Introduce __mutex_trylock_or_handoff()
+e6b4457b05f36bb9e371f29ab1dd2d97272a1540 locking/mutex: Add MUTEX_WARN_ON
+d1bbfd0c7c9f985e57795a7e0cefc209ebf689c0 Documentation/atomic_t: Document cmpxchg() vs try_cmpxchg()
 c6af8db92b9a9bc89e3d25535fdc26cb61f419d0 Merge branch 'nvme-5.14' of git://git.infradead.org/nvme into block-5.14
 d80c228d44640f0b47b57a2ca4afa26ef87e16b0 block: fix the problem of io_ticks becoming smaller
 eb4717f733b5941a29ea4e0aec3227a0e0770487 perf probe: Fix debuginfo__new() to enable build-id based debuginfo
@@ -728,6 +689,16 @@ f99986c0fcad8e1d7d842e9a636f55bcc6748da5 ASoC: codecs: wcd938x: setup irq during
 674a9f1f6815849bfb5bf385e7da8fc198aaaba9 efi/tpm: Differentiate missing and invalid final event log table.
 2bab693a608bdf614b9fcd44083c5100f34b9f77 firmware/efi: Tell memblock about EFI iomem reservations
 947228cb9f1a2c69a5da5279c48f02bb4f49ce32 efi/libstub: Fix the efi_load_initrd function description
+9d7a6c95f62bc335b62aaf9d50590122bd03a796 perf: Fix required permissions if sigtrap is requested
+b068fc04de10fff8974f6ef32b861ad134d94ba4 perf: Refactor permissions check into perf_check_permission()
+d4e5076c3522658996dbb050aa6c708bd2c1a3c1 locking/rwsem: Remove an unused parameter of rwsem_wake()
+47401d94947d507ff9f33fccf490baf47638fb69 locking/atomic: simplify ifdef generation
+f3e615b4db1fb7034f1d76dc307b77cc848f040e locking/atomic: remove ARCH_ATOMIC remanants
+e3d18cee258b898017b298b5b93f8134dd62aee3 locking/atomic: centralize generated headers
+67d1b0de258ad066e1fc85d0ceaa75e107fb45bb locking/atomic: add arch_atomic_long*()
+cf3ee3c8c29dc349b2cf52e5e72e8cb805ff5e57 locking/atomic: add generic arch_*() bitops
+3f2cbe3810a60111a33f5f6267bd5a237b826fc9 perf/x86/intel/uncore: Fix IIO cleanup mapping procedure for SNR/ICX
+92279a3b11a0a8486ce6b92384ddc0849eb4060f perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
 937654ce497fb6e977a8c52baee5f7d9616302d9 perf test bpf: Free obj_buf
 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 spi: cadence-quadspi: Disable Auto-HW polling
 50d8d7e19c4398da74d028f367754e73547b078b dt-bindings: display: renesas,du: Make resets optional on R-Car H1
@@ -1041,14 +1012,43 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 3c0ce1497a449b0d150b455628947152c5f6216a Merge tag 'powerpc-5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
-99034966417cc146fcf25cc54ef0e57424132b47 mm: Update ptep_get_lockless()'s comment
-43862dda01307aef88847dc527cbb43d2e2ced66 x86/mm/pae: Make pmd_t similar to pte_t
-8a3e4ed5b9b8b82641bf83f59b93a81c315972f5 sh/mm: Make pmd_t similar to pte_t
-799ce2d15d417971e63f414a691030f3f75b2e15 mm: Fix pmd_read_atomic()
-663bc20614d30436e65c78ce78e9e804e06951b4 mm: Rename pmd_read_atomic()
-34a5eab1ac2da27b434ee4643c5e17a36f920203 mm/gup: Fix the lockless PMD access
-af8d3718b6b3f50487e9a1855beafe6f5c43f4c2 x86/mm/pae: Don't (ab)use atomic64
-e2d95de2ffa400b0e4699af04efa996e5dc49269 x86/mm/pae: Use WRITE_ONCE()
-fc8c0faae12d98242c4a025e21144744d69cc421 x86/mm/pae: Be consistent with pXXp_get_and_clear()
+bb7262b295472eb6858b5c49893954794027cd84 timers: Move clearing of base::timer_running under base:: Lock
+c52787b590634646d4da3d8f23c4532ba050d40d x86/smp: Add a per-cpu view of SMT state
+371b09c6fdc436f2c7bb67fc90df5eec8ce90f06 x86/mm: Refactor cond_ibpb() to support other use cases
+58e106e725eed59896b9141a1c9a917d2f67962a sched: Add task_work callback for paranoid L1D flush
+8aacd1eab53ec853c2d29cdc9b64e9dc87d2a519 x86/process: Make room for TIF_SPEC_L1D_FLUSH
+b5f06f64e269f9820cd5ad9e9a98afa6c8914b7a x86/mm: Prepare for opt-in based L1D flush in switch_mm()
+e893bb1bb4d2eb635eba61e5d9c5135d96855773 x86, prctl: Hook L1D flushing in via prctl
+b7fe54f6c2d437082dcbecfbd832f38edd9caaf4 Documentation: Add L1D flushing Documentation
+1ad0079f154a7c817bd74334c5ecd0be3742a3e9 Merge branch 'locking/core'
+deec4dd8f3c619f48491d59e3351081cefef88a6 Merge branch 'perf/core'
+1a094c96bdfe2212b47f72de7833b02415158ce9 Merge branch 'perf/urgent'
+d0a68fd9a381bd2e42f30303c8d0ecb506e37d5d Merge branch 'sched/core'
+ede334b94cde54e74138cb0d92ecdcdaa98d04be Merge branch 'timers/urgent'
+1606b3aadfab884614467fd201288ddcdcd1ee7d Merge branch 'x86/cpu'
+9bde0ae3bcec4d2e6b0c2c2e70c81970b9ddf5dd x86/xen: Mark cpu_bringup_and_idle() as dead_end_function
+828df5eacd2f0bbf575b73270d3857091d0eafa9 objtool: Introduce CFI hash
+12b590431dbe294988985bedd584666a595e4bd2 objtool: Handle __sanitize_cov*() tail calls
+5859491c57b08b5b41ccb35cd3d649181431ccc6 x86/kvm: Always inline sev_*guest()
+60715c245ce11c4171d11a42ee42805b0b0e28b6 x86/kvm: Always inline vmload() / vmsave()
+bb12518e6c8e761fde9c76b96a48e68360ec7f45 x86: Always inline context_tracking_guest_enter()
+5490ec0285e184d1b34d2262b9220bca0e135a5a x86/kvm: Always inline to_svm()
+bf94ace3c732a0188b4403627f24040c42730c3a x86/kvm: Always inline evmcs_write64()
+034d767f173681b45dd3aa6ea1e0651d27b8070f x86: Always inline ip_within_syscall_gap()
+dd01dad70804a771b68f0e1053ea473892ee68d0 x86/sev: Fix noinstr for vc_ghcb_invalidate()
+eb166b8821b935d06b244cf84e5f1ff875032cdc locking/lockdep: Avoid RCU-induced noinstr fail
+efec34673ef1dc23b3ac52dd0b4f69e07309569c x86/paravirt: Mark arch_local_irq_*() __always_inline
+9675ed0e7ef0b724a3ef360faf53f99e8ada04a5 x86/paravirt: Use PVOP_* for paravirt calls
+4dcdd3a31e75d362c639a52e1df24e392a272d81 x86/xen: Make read_cr2() noinstr
+01a0b5913cbdf257ef6bd99d0962c03ab78e0ebc x86/xen: Make write_cr2() noinstr
+145cf923d393d171fadbe2884f9b4e826d1362ab x86/xen: Make get_debugreg() noinstr
+4ec097a3cd796a4d15062edad1386064c881d15e x86/xen: Make set_debugreg() noinstr
+5202fb52f9d10c5729cd0f0552520e12da833399 x86/xen: Make save_fl() noinstr
+81f7ccbf120e1cdb8eafea73dab4cd0c77596372 x86/xen: Make hypercall_page noinstr
+1fbf37204e433eb1bb386b9e24f0f1e440100851 x86/xen: Make irq_enable() noinstr
+07cf02345e06835fef94fda31ac47dafa4f58e06 x86/xen: Make irq_disable() noinstr
+03162f23d96e60da89709fe8fa10affc29dc9189 x86/xen: Mark xen_force_evtchn_callback() noinstr
+797b082778600f3aa078f124693cd32a4bc84b0b x86/xen: Rework the xen_{cpu,irq,mmu}_ops[] arrays
+87bce581e1c31e4f878bc4ce74f28dc5b9633cdb objtool: Support pv_opsindirect calls for noinstr
 
---===============4172518260601413404==--
+--===============4724172094875512078==--
