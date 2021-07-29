@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6885424865261564563=="
+Content-Type: multipart/mixed; boundary="===============4990181950519918391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 29 Jul 2021 13:51:40 -0000
-Message-Id: <162756670031.30531.1454856264814896631@gitolite.kernel.org>
+Message-Id: <162756670060.30584.12727654759259301699@gitolite.kernel.org>
 
---===============6885424865261564563==
+--===============4990181950519918391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,69 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: a89b48fe9308d976d9dcb2112e264d647f7efce4
-    new: 3b0f6d777e8545324198eca00a5758c7b287aee7
-    log: revlist-a89b48fe9308-3b0f6d777e85.txt
+  - ref: refs/heads/linux-5.13.y
+    old: 6fdb13a7e573640853c481ddabf7a192fff42bba
+    new: a572733cda320244f6671ae091728a755de1b031
+    log: revlist-6fdb13a7e573-a572733cda32.txt
 
---===============6885424865261564563==
+--===============4990181950519918391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627566698 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627566699 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1627566698-e9216e3c4b69a0c2ebefec2a79e7c3c408f31bd5
 
-a89b48fe9308d976d9dcb2112e264d647f7efce4 3b0f6d777e8545324198eca00a5758c7b287aee7 refs/heads/linux-4.19.y
+6fdb13a7e573640853c481ddabf7a192fff42bba a572733cda320244f6671ae091728a755de1b031 refs/heads/linux-5.13.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmECsmobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tswQAKXt8ck6zCqnSBD+ZMcL
-g72mbYr/83xVrXNB0qpLfKyzjKeIR2+3WuzV2hbOWM7s071TLZnQwoz6L6juiRBz
-aTXCf64kk1n0BlecOH157DuuyYpYcrPqQPsdbJi6juivgYdDViU296rQv4+3cy5+
-GCTAgzImWDwnVV+ZN30QcZ9mEvvYRFGeXjD/xulbX5OPzu9Y+xPjQJRDAkulU1hJ
-JCvLH7B4RrWDALVz9fY7J46dubNg/HE4x3cZydKNOEQ3Vo7mmlcpd1IkBFf2xU2U
-dbKGAuvXHPeddluduV5k9VpMM7g91u9Sj/gTcVOeiI9eqB5BpAigJvwk4iJCLIEb
-6cNbYWJbNy532afKlZVY6YNDHguvGVb0v8tA1+4+pGLZtUwYZ0nrhpK8AE3YXmjP
-KSeT20ljPy4mtolYsllUwkbo6G2CNYFVm23WaTyxtKzD8xJR5g5wYIVnbX7odqKp
-zzY4u8//UHuZ+PThOha4YrGF4MjARm7/HtXQweG6Vc5/lHZ0cOREmfa8ZXWgFbFO
-cFtJqj1/3tJF6Wwoonh/qJM7wlX1Ej2FP68rupwE4kXmrKeyC5mlt3UZCwHKCyy6
-5qY85eXrXN4CA/VCNq8yCDt5iuTHuW/W6s6NSEgqBEAdm/FsZAS7FjaNlEWgn/io
-PKwhtwagd17CwR6N4i+1az3B
-=Ijcy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmECsmsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4NYP+wSqpi1uyWOw/AumjZ8Z
+EsDM3dMLZTcmaOKjHGlEJnLC5ptM0fv/nSU0yweHGtp+JKxyYgV4rrBLnj7NTBFa
+kTLpA9N2ABYLDVHlfag8ku1K31oK8KbxSZILi+U29Nqi/7CLsVNllOcoUQAF2XLS
+qxZVyGjc68OmFcnvvy7nhPMvZ19vQvXQdYlcR6Z3fgLAQIc9CTUjpdQBr4hxQ90l
+zfzI1FULcjGLqNOYVIGHAytW652vLYdqpIdzUwmQRkOShQ+zbsLKqH+8m49UhROp
+BJlgqgfsx8oXzn4T4q7uEeffShwBVM5xcogZsC08/1uEcv3CIK+kdflfBfkNN51T
+6ypGxfppR+4XbiGZOhThTYhvMFTquXCKtGPksEP0tuY9bJbeBZBwQuGUNJKt6z3S
+4QonsOa62NQK7Q6hfpB4TVKNb0FmfBHZYLDc2CwL8VfBiClgmySndiZWLsi6Y6D6
+GOWSsuk6ZMlGjRmiax1cMWMXL5/odeIJC2Gt6tOFLK4CX1dlekFhJKLsRwxbz+Cg
+om1greGBBLb1CkM4Hzr2CsJaMB7HA93ifE4OhMwDQVs7Nz6S+CpZSC7z8FI5vMcd
+nNREi5WrY7ryaZfezwAML6rBOHrLhY51B7VIpk1HhQ2yRG4DTquoM4FLHje+EP8u
+HM6dcQanWazYYgL9ggoAoj4P
+=tp1O
 -----END PGP SIGNATURE-----
 
---===============6885424865261564563==
+--===============4990181950519918391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a89b48fe9308-3b0f6d777e85.txt
+Content-Disposition: attachment; filename=revlist-6fdb13a7e573-a572733cda32.txt
 
-3a5179f14f2c05a6bd84a08b3ead36a8d69e290f selftest: fix build error in tools/testing/selftests/vm/userfaultfd.c
-67674d0ae93579a05a32c0fc1feab91e673bc427 iio: dac: ds4422/ds4424 drop of_node check
-07880a19ce085a7cd295462ce0ed5603b92c8d73 KVM: x86: determine if an exception has an error code only when injecting it.
-e9daa11bd4df5549f759434b2281e341b40a32b4 net: split out functions related to registering inflight socket files
-1667f83e2cb4dacee30d0994002fa3ebada9bf1f af_unix: fix garbage collect vs MSG_PEEK
-ff78ef0c42f2a5dac29706f9d9b628da330f31dc workqueue: fix UAF in pwq_unbound_release_workfn()
-e2075194ede5789f4afadf29ecec4209cdee7351 net/802/mrp: fix memleak in mrp_request_join()
-8800f2381cf2bb04d1f3b7b7f16efec1ac638015 net/802/garp: fix memleak in garp_request_join()
-afccc7abcccca51174cdbd8af6113b13b682a23d net: annotate data race around sk_ll_usec
-0b4f5aca7ed3f75caece77ed7cf6a67f0c8288ea sctp: move 198 addresses from unusable to private scope
-2a4ded64fc44da55cb828f1ff0db3a4c03d08323 hfs: add missing clean-up in hfs_fill_super
-3a032e16c1cd49b3f2d8363b2f577c3bc37e3cc2 hfs: fix high memory mapping in hfs_bnode_read
-c194fd241631a5e5e37b02b92bfc640f5039ea07 hfs: add lock nesting notation to hfs_find_init
-ea2144c227f5fe4b3952da2d9a49cec31052d884 firmware: arm_scmi: Fix possible scmi_linux_errmap buffer overflow
-37ca796e6e2c1569ba05a4f65e879209138072b0 firmware: arm_scmi: Fix range check for the maximum number of pending messages
-53cc3a89eafecdf0a4e3fe948c9515edd3e43fa0 cifs: fix the out of range assignment to bit fields in parse_server_interfaces
-6cf69d9d2b66a94e0742f320e0c9190c71a5afe9 ARM: dts: versatile: Fix up interrupt controller node names
-3b0f6d777e8545324198eca00a5758c7b287aee7 Linux 4.19.200-rc1
+3793be6272e3f45fbc2a6ee0837238c5b0d0eb13 af_unix: fix garbage collect vs MSG_PEEK
+38b3e7da57bc920691e2840a180c1ae78de5ab43 workqueue: fix UAF in pwq_unbound_release_workfn()
+85c60218d3e2c7c5742774ef5be28790155a00a5 cgroup1: fix leaked context root causing sporadic NULL deref in LTP
+2d37e893e2ea7e7a0a6c9fef6d08f8ebdab9178f net/802/mrp: fix memleak in mrp_request_join()
+898fb7df9bba307a2c0ea967da94040e90c5d52a net/802/garp: fix memleak in garp_request_join()
+2483e2482785829a1dddf57e6e7dc0f013251597 net: annotate data race around sk_ll_usec
+1b918d74a0b5e876814fa065b710807f7a61e74e sctp: move 198 addresses from unusable to private scope
+0299098bdcb10e2ea9880f064dea9c901eb7cdb9 rcu-tasks: Don't delete holdouts within trc_inspect_reader()
+085b6c59b34eee26b01817db603a468c9f1549a3 rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
+12d5947f5e8e1f7669eb2b57adef9dd091388c71 ipv6: allocate enough headroom in ip6_finish_output2()
+c49e96f3a1b4767174caf5fc1200e7d74a33801c nvme-pci: fix multiple races in nvme_setup_io_queues
+b624841cacf1a0232f85dfcaa51f9819b3ce698b drm/ttm: add a check against null pointer dereference
+a88e73945ccb0b0932281c15f7b92a8b10e0cbf6 hfs: add missing clean-up in hfs_fill_super
+b5827f32a13119861a573a4c0b3b18ba7ac36c74 hfs: fix high memory mapping in hfs_bnode_read
+0efa80e5d539fc8534ec212af4199b41d93b249d hfs: add lock nesting notation to hfs_find_init
+945a031e8194a050f158852311d778d2016a9c99 firmware: arm_scmi: Fix possible scmi_linux_errmap buffer overflow
+9b88fcaf431d351911895fc9ffdfee450225c9d6 firmware: arm_scmi: Fix range check for the maximum number of pending messages
+00e98fd5a36cc9693e463f85e364b91bd8d06e49 cifs: fix the out of range assignment to bit fields in parse_server_interfaces
+f18c282a6364c2c5c7bfb50f3bf9692287682e9a iomap: remove the length variable in iomap_seek_data
+646466e33421c5da18418da034774491136a4e22 iomap: remove the length variable in iomap_seek_hole
+c995c980f95ee19e215234b2504e0e50c418440f ARM: dts: versatile: Fix up interrupt controller node names
+afb76ce905fe2f0ddff92add9e9ff7685f942936 ipv6: ip6_finish_output2: set sk into newly allocated nskb
+a572733cda320244f6671ae091728a755de1b031 Linux 5.13.7-rc1
 
---===============6885424865261564563==--
+--===============4990181950519918391==--
