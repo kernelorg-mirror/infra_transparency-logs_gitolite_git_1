@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 29 Jul 2021 19:12:27 -0000
-Message-Id: <162758594780.21847.16128664119092048938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Thu, 29 Jul 2021 19:25:53 -0000
+Message-Id: <162758675335.31827.2259844823838432745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
   - ref: refs/heads/master
-    old: 340cd23d9dec58b1b07ecaa205a161faf50eab8a
-    new: cbe6a0441315dfc0d6db62da3904d5f6d5747fab
+    old: 7bf95ac0512595988f51e309185b0437397a13a8
+    new: eebecc6f639643490c8d0efc834afda58dfb2c3d
     log: |
-         cbe6a0441315dfc0d6db62da3904d5f6d5747fab Bluetooth: btusb: Enable MSFT extension for WCN6855 controller
+         58228d1038bdba38d5f3c09d488caaac0f4279b3 trace-cmd: Remove traceevent/ and tracefs/ from include headers
+         48862aa4b453b8a9a546b7989ed6e9cab5df2d17 trace-cmd: Remove leftover traces of libtraceevent in Makefiles
+         eebecc6f639643490c8d0efc834afda58dfb2c3d trace-cmd: Remove remnants of KernelShark build
          
