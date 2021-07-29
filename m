@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3998152378560830887=="
+Content-Type: multipart/mixed; boundary="===============1088723620615995997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 29 Jul 2021 16:52:34 -0000
-Message-Id: <162757755400.26218.15830229974370172283@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 16:52:42 -0000
+Message-Id: <162757756222.26358.8281972317742009283@gitolite.kernel.org>
 
---===============3998152378560830887==
+--===============1088723620615995997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5aa1959d18003472cc741dc490c3335c5bd804e2
-    new: fc16a5322ee6c30ea848818722eee5d352f8d127
-    log: revlist-5aa1959d1800-fc16a5322ee6.txt
+  - ref: refs/heads/dev-queue
+    old: b370eb8c4502c5e7ea0de48d7642ba632861f610
+    new: 98be9d240be9213cd478f1cf0f9da13e0f3505e2
+    log: revlist-b370eb8c4502-98be9d240be9.txt
 
---===============3998152378560830887==
+--===============1088723620615995997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5aa1959d1800-fc16a5322ee6.txt
+Content-Disposition: attachment; filename=revlist-b370eb8c4502-98be9d240be9.txt
 
 59089a189e3adde4cf85f2ce479738d1ae4c514d bpf: Remove superfluous aux sanitation on subprog rejection
 e042aa532c84d18ff13291d00620502ce7a38dda bpf: Fix pointer arithmetic mask tightening under state pruning
@@ -83,5 +83,38 @@ b1c2f6312c5005c928a72e668bf305a589d828d4 net/mlx5e: Fix nullptr in mlx5e_hairpin
 f5e81d1117501546b7be050c5fbafa6efd2c722c bpf: Introduce BPF nospec instruction for mitigating Spectre v4
 2039f26f3aca5b0e419b98f65dd36481337b86ee bpf: Fix leakage due to insufficient speculative store bypass mitigation
 fc16a5322ee6c30ea848818722eee5d352f8d127 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+bb9a8c5a09f05a190d51b4694db506e02fa2171a checkpatch: Fix warnings when --no-tree is used
+269a53fb24193202ac5bc7bc7e94b3634c99f189 checkpatch.pl: seed camelcase from the provided kernel tree root
+d6dace9ca2c0f5b77ff9ad7bbdcb8a47140773a4 ice: Fix a couple off by one bugs
+b2710e556c062c76c0cec1e293667403448b13ab i40e: Fix correct max_pkt_size on VF RX queue
+16b6e7cc74f77d00b7ab053a097ef4e4fb87f7d6 iavf: Fix return of set the new channel count
+1826db3d9159ace3824e92963f10942452f70adc i40e: Fix NULL ptr dereference on VSI filter sync
+41a04df24700e3ca36ddf42db66d9c5450fdc97b ice: Fix VF true promiscuous mode
+9adfdee18e3b0296a325518d136996968187eca5 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+987dbc0799da6f797eefb4b6f69d1a6bcb9fffdb i40e: improve locking of mac_filter_hash
+fea924d669bb5391fe24807687ace1debaad5adb i40e: Fix warning message and call stack during rmmod i40e driver
+c5f78ce53bb7868c4693f10ffdaec39dd6c82bb6 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+145be13599c9ab342db619c9a6644271cbfaa46b ice: fix FDIR init missing when reset VF
+cb62e042a9155416ff321cd9d2911225d00b9f6a i40e: Fix failed opcode appearing if handling messages from VF
+25e27dd86f2be9bd431373b108c501bc600bc3b5 iavf: check for null in iavf_fix_features
+79755af0348d02b5fa0689b0a2daa388d3f45d57 iavf: free q_vectors before queues in iavf_disable_vf
+a7955bc3e7ec792aad8179234b3b407f0448ecaa iavf: don't clear a lock we don't hold
+4cacb998644d44c63ab95b6c2b3e214efe4aad45 iavf: Fix failure to exit out from last all-multicast mode
+cf6521c60424dd79023513329f5870ddf59a00a6 iavf: prevent accidental free of filter structure
+7808a8e7aa3af5fd7e8b4075d8f546bf86745b6a iavf: validate pointers
+dc049638a592e3817ec95161029f1723ff9fbc58 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+0150b129c662cdd6a762ee39f9b1712d10f5567e iavf: Fix for setting queues to 0
+b3449aca9df8d93a1684702c6e6db5528df002e0 ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
+f1c8f8d8dff08262164f7de70184df6ef497fcb1 ice: do not abort devlink info if PBA can't be found
+ed1ecbb31b70ac8013a45bc81c24411a39d77834 i40e: Fix creation of first queue by omitting it if is not power of two
+cd669eac171fe643039187bb306d74d900561bc1 iavf: Fix ping is lost after untrusted VF had tried to change MAC
+00bdfff8a75b70784e55521a86751c927ac63933 ice: Fix perout start time rounding
+c2d940b871c2ae412241020f2962a541fc5e8cc4 ice: fix build issue if CONFIG_1588_PTP_CLOCk=m
+31214238a5b25baffaea1cc32ea7757a332d6ac3 ice: Fix failure to re-add LAN/RDMA Tx queues
+cf828c98485ab11d5b8d8d10b02db82ab578daf9 i40e: Fix pre-set max number of queues for VF
+3339d71a147fd0a3cde03217ef80b92c48d71663 igc: Use num_tx_queues when iterating over tx_ring queue
+d312a9dcd049076aa3f0e585b2f329a09eacd94d i40e: Fix ATR queue selection
+183063150efdf181d929fc6b817ed5347f998070 ice: Prevent probing virtual functions
+98be9d240be9213cd478f1cf0f9da13e0f3505e2 ice: don't remove netdev->dev_addr from uc sync list
 
---===============3998152378560830887==--
+--===============1088723620615995997==--
