@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 29 Jul 2021 15:45:59 -0000
-Message-Id: <162757355991.13182.14138512058960210170@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 15:46:10 -0000
+Message-Id: <162757357063.13283.2162737822339747661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/cleanup
+  - ref: refs/heads/locking/wip-cna
     old: 0000000000000000000000000000000000000000
-    new: 346f870e507e5b19417575cef69eb1764e1cf43f
+    new: f67ed372f9d481f5199a8e16c3665fc2d057e1b4
