@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 29 Jul 2021 07:03:21 -0000
-Message-Id: <162754220131.754.8526483376601191184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Thu, 29 Jul 2021 07:06:59 -0000
+Message-Id: <162754241973.3623.8422419386481773590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/for-v5.15/omap-gpmc
+  - ref: refs/heads/for-5.15
     old: 0000000000000000000000000000000000000000
-    new: 77ed5e9dec551765bde9f2e4b7ed9071ff03d61d
+    new: e563592c3e4296780e5a184a917b8b86e126f0b3
