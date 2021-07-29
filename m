@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3392338325255380306=="
+Content-Type: multipart/mixed; boundary="===============6379899228727426575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 29 Jul 2021 03:36:07 -0000
-Message-Id: <162752976729.27356.18154615638043321168@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 03:36:12 -0000
+Message-Id: <162752977251.27448.10827593263773090023@gitolite.kernel.org>
 
---===============3392338325255380306==
+--===============6379899228727426575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 442258f44d0ca31c6aae56e1d17e3d3b6225fa11
-    new: 37c15c3dd76ea8f79e2afa61bcadb4cac1adea5c
+  - ref: refs/heads/5.14/scsi-fixes
+    old: a47fa41381a09e5997afd762664db4f5f6657e03
+    new: d5c8db0e5cd41e92d6f9e715df30bc0ca974da80
     log: |
          d712d3fb484b7fa8d1d57e9ca6f134bb9d8c18b1 scsi: pm80xx: Fix TMF task completion race condition
          77541f78eadfe9fdb018a7b8b69f0f2af2cf4b82 scsi: megaraid_mm: Fix end of loop tests for list_for_each_entry()
@@ -30,33 +30,33 @@ changes:
          d5c8db0e5cd41e92d6f9e715df30bc0ca974da80 scsi: core: Fix capacity set to zero after offlinining device
          
 
---===============3392338325255380306==
+--===============6379899228727426575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627529765 -0400
+pusher 75C5DE3D 1627529770 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627529765-f244ce51dcd95629647301a773dcc866dc6608a1
+nonce 1627529770-4a58ec6b286899c884adf29c1314f05913e780ad
 
-442258f44d0ca31c6aae56e1d17e3d3b6225fa11 37c15c3dd76ea8f79e2afa61bcadb4cac1adea5c refs/tags/mkp-scsi-fixes
+a47fa41381a09e5997afd762664db4f5f6657e03 d5c8db0e5cd41e92d6f9e715df30bc0ca974da80 refs/heads/5.14/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmECIiUACgkQ7ulgGnXF
-3j3p4RAAjFIKM0fJIkEENavPptvmoyrAgGs7KgfIBumlMJR1ZCUmOYLVPHsbyi+/
-yPANy0zCiGA6C2J2V0Dl0j+GYPFVMtChnNS4U8X5tU4EtMjWpM+X6zoRnHuNvPdn
-7Us8GR1IJX1GoU0GvJZlEymtW0P4aktfmqrA5Z7i5qmF/m72T69rcDSGpzvQ6s/w
-gzPEk8dKBugBqYgKSHoCz//1RF/YZpuU8X1LEHSTdf7MnrzzO3B9NFcROlbe6KIm
-ib0DKzFv1iqCLpbEVgWfyKOCw6bl+MYIWOjwNV5cQjpUAN5o/NoH0/zgS7hEGiF9
-zJNTseFb6b9q02Esuo8sJtuTxvHam4GRA5Zwz1RSKKuG0ainR2FFTev7aiVC00TR
-HAXxScV40wb5MnqtTA/328aQv7cOMY4ioswgRs/1XRk76wv1FsoqoVvfQs6Rdr8E
-OpKU3mdrIA6rG6o3zn5DgZKLQLYKjs3utvSSKE/i1J+ArXGIKjk/sp9qQsRDpcw2
-idCvOJpDFMyk1ojOrRRI6ctdwNf7Y6kC6zE++ZEXFMzM2fHxuTCW5MJm2hxWOEY3
-0bJVs86N6GlhW91aqHyAw/R/ekN0ivvFGnp59UDOUNNJW4BP43+07AUpThCiGHAv
-JCs4COXbC2XdHMKMN61JXLx4jX3FnoSul9LXuNZMQsI9r0DihCs=
-=VCIz
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmECIioACgkQ7ulgGnXF
+3j35dg//VQm2CcAwkrMtF2NKn08m9ocBlxCbXTx8eybRmpgH2vrgkxsyBFTyXgtb
+3e//kYrRCRC6BS6ykstldDbY/2zJYayAW0AWfONA/yM5v08jZc7W3A3rFM0YyM9B
+mYzi83yb3kNxEbkPm7T4brllroSvsVQde+OQjETtJhu2vGAeOZwFuAYP9BmcNtGM
+oNm+zd6LuMfBb99WqQWBWNp7pWiQ4oadT2vNwNVfJv1bQVuYjz58vf0yzTseBfSW
+zg0L3yIifjHxXz9C0lpD/vK4Rh4jQASE9DY7/J50RxNlkU/fpfFweYeiegJ8SY1W
+UECZI0HyFqGLbc0l6FHV4uRHjYL+OuGEFuQgm1bF5giXhCzH74TRd+gsujKMhEiU
+dTY+voY9zujDOTHjD2qnSb8SV310nVQGs753X77Vme0JW1Z9JXKGiUCfOwJc9Rfj
+HB0XApvCFqvOjxANk+0F7/oJyTza8b9kxo6cedolIDvF2Uw9qw2cEnSC317jY6gi
+LcLQlGhyf9Bhbg9V2Bv7nexDLk/3bee8wIos2POiTvlGfu+fJq75pUShZwWmLNJs
+suEz7nt59+w/4kXQEN+jYi1WAv1lqdcnL8ZFuCWWDCU587F3wfCZPH6MqaCLrFDj
+Vnmn1VdiNlNHpPMp3tPJ7n3/bIN3L8lUCICZ/3AUdhwJ3ilDNWs=
+=5nCF
 -----END PGP SIGNATURE-----
 
---===============3392338325255380306==--
+--===============6379899228727426575==--
