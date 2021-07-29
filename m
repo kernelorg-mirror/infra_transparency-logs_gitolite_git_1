@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 29 Jul 2021 17:41:59 -0000
-Message-Id: <162758051928.25772.3924016095607789152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 29 Jul 2021 17:49:06 -0000
+Message-Id: <162758094636.30835.13657991961133397467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: f3f1017a98f91355671feb0e741391999a43b55d
-    new: e5de9d283a36a2923f7f309050b8c51b14753c3a
+  - ref: refs/heads/for-next/clang-fallthrough
+    old: 6a8c3492420661bf905f0f1f4cddde0ec8bde6d8
+    new: cb163627e6d32dbaca4d89b2292788cee895b06d
     log: |
-         4e804c39f1be4498d80f379e5b7bc6d4f80f813c gpiolib: convert 'devprop_gpiochip_set_names' to support multiple gpiochip banks per device
-         0fb903914914a10b04dc8e5e5b09c8dca452ca91 gpio: mt7621: support gpio-line-names property
-         e5de9d283a36a2923f7f309050b8c51b14753c3a gpio: brcmstb: remove custom 'brcmstb_gpio_set_names'
+         696e572dc85c674b31f4f13f59d8e217ee1b057f ARM: riscpc: Fix fall-through warning for Clang
+         eb4f520ca691f109f5fb1d16fc9cc26447a941e1 scsi: acornscsi: Fix fall-through warning for clang
+         cb163627e6d32dbaca4d89b2292788cee895b06d scsi: fas216: Fix fall-through warning for Clang
          
