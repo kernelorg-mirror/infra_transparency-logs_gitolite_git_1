@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3341096204742206263=="
+Content-Type: multipart/mixed; boundary="===============8546531812538472568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Thu, 29 Jul 2021 10:13:43 -0000
-Message-Id: <162755362370.12212.14090827209934740009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Thu, 29 Jul 2021 10:14:15 -0000
+Message-Id: <162755365553.12535.11950802140278763867@gitolite.kernel.org>
 
---===============3341096204742206263==
+--===============8546531812538472568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
+repo: pub/scm/linux/kernel/git/rppt/memblock
 user: rppt
 changes:
-  - ref: refs/heads/memblock/hide-find-in-range
+  - ref: refs/heads/for-kernelci
     old: a7952e9b7cc1a4fef2969ce182dabbc08aa9dbed
     new: 5f9f16b2f2a5ff8312559374af53e8262f6f7eef
     log: revlist-a7952e9b7cc1-5f9f16b2f2a5.txt
 
---===============3341096204742206263==
+--===============8546531812538472568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -375,4 +375,4 @@ a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced in
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
 5f9f16b2f2a5ff8312559374af53e8262f6f7eef memblock: make memblock_find_in_range method private
 
---===============3341096204742206263==--
+--===============8546531812538472568==--
