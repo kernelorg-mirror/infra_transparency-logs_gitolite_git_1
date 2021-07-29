@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5913060938792714277=="
+Content-Type: multipart/mixed; boundary="===============2577881739387149685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 29 Jul 2021 16:29:03 -0000
-Message-Id: <162757614399.9484.14875348774656441824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 29 Jul 2021 16:29:11 -0000
+Message-Id: <162757615110.9595.15780638516619989155@gitolite.kernel.org>
 
---===============5913060938792714277==
+--===============2577881739387149685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 14db5499d583e0952606fbca3eb37a0f28008d30
     new: ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01
     log: revlist-14db5499d583-ff6c95d25161.txt
 
---===============5913060938792714277==
+--===============2577881739387149685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627576133 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1627576141-49a52a8c8a41141639d64fc1c5edcb1f77bb2728
+pusher C3F436CA30F5D8EB 1627576140 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627576148-439a1c4706ad339882cf0262e65ca373808bd032
 
-14db5499d583e0952606fbca3eb37a0f28008d30 ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01 refs/heads/for-5.15
+14db5499d583e0952606fbca3eb37a0f28008d30 ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEC10UACgkQJNaLcl1U
-h9CUOAf+JjrNm3P1JRSf28jDgVfoFR/zEGZHTcJ3OWBxhHOW5oF7ymFRA4BXrN+0
-mQDag42cl+XDTZ0ci0bphSHAbe2VdJ6JJGJvggWmmdwpAEERbxmg1Y1KmpTwapKg
-/5Sf17qrwwB42HY70waCb8i7hVYpS0mRUsepJtw/PJW9iyW6Nu7oWMTtDKQoC6JA
-zcGqM5xpSmgrZhO3WKsWGewzzmeyQF6etczBO9k0EN9dk6tTL2f5y/zcH36t2OEa
-DJj0OyQe28rAeDKle779G/qAYa5k/Fg32TNTMD9PpBtDZpV/kRP827vgRoK8oLHW
-Kbaj2FZlt5p4CnbsmRqdLYFhUW/Fgw==
-=bYB5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEC10wACgkQJNaLcl1U
+h9A4yAf9GrELXrr2yI+yBGQ1/6eUWrTJBD0+8mPrtAbbhxEp3TXL2fUZnWnENPzx
+4pKhabazfyBCJ2JcRLVbLxcWjk1oaXFQzu7+UaSKw/xjm9wceo+gXZXNAIdGfOwT
+I0UvaK9B6dSi1Qn9SC3hf72f4SxN/2U5rVhuUf1jk+FTYx3dapX/NBBWcp+dKsGq
+BxQAD+fjWTLB+ZB9/n/9/uMp1x0w4+Nqf0y9b1PIzaVdX9kEQ4gUtYV4D9K/Cc6g
+NV1xcmgXoU7m555U0SZfUvnXnLykuLBFwvJ+A3+D3+4arCjoymAzom4DfNCmSk5W
+5xYs1UwyMTEXY4z4rTlEn0sDAvFwlQ==
+=j1wC
 -----END PGP SIGNATURE-----
 
---===============5913060938792714277==
+--===============2577881739387149685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ d7a3a6801913a4b57a7e525c4906d348213acfb0 ASoC: cx20442: tty_ldisc_ops::write_wak
 dfe1114638d1888916fd9ceb50314e19f632dfad ASoC: v253_init: eliminate pointer to string
 ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01 Merge series "ASoC: soc-core: cleanup cppcheck warning" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============5913060938792714277==--
+--===============2577881739387149685==--
