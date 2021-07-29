@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5049200585834491161=="
+Content-Type: multipart/mixed; boundary="===============1963514415137950495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Thu, 29 Jul 2021 10:44:21 -0000
-Message-Id: <162755546195.32550.2784421849893469790@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 10:47:56 -0000
+Message-Id: <162755567632.2882.15121372411965709188@gitolite.kernel.org>
 
---===============5049200585834491161==
+--===============1963514415137950495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: c586f53ae159c6c1390f093a1ec94baef2df9f3a
     new: e576ef09cf744b9299b26cc8d27d239175a80cb2
     log: revlist-c586f53ae159-e576ef09cf74.txt
 
---===============5049200585834491161==
+--===============1963514415137950495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 54236dda185f440949c1ceb7b62e2975c8a1cf3a clk: imx8mm: use correct mux type for clkout path
 e576ef09cf744b9299b26cc8d27d239175a80cb2 clk: imx8mn: use correct mux type for clkout path
 
---===============5049200585834491161==--
+--===============1963514415137950495==--
