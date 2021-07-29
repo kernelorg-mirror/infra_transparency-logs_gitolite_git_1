@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 29 Jul 2021 11:38:50 -0000
-Message-Id: <162755873055.5897.2600923611449002975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Thu, 29 Jul 2021 11:47:36 -0000
+Message-Id: <162755925675.11450.13042071996553787656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/master
-    old: a25fca4d3c18766b6f7a3c95fa8faec23ef464c5
-    new: 92fe24a7db751b80925214ede43f8d2be792ea7b
+  - ref: refs/heads/clk/imx
+    old: e576ef09cf744b9299b26cc8d27d239175a80cb2
+    new: fb3f4bca19b362c57e1d17b0c1aedd7450f0588e
     log: |
-         92fe24a7db751b80925214ede43f8d2be792ea7b Bluetooth: skip invalid hci_sync_conn_complete_evt
+         fb3f4bca19b362c57e1d17b0c1aedd7450f0588e clk: imx: clk-divider-gate: Switch to clk_divider.determine_rate
          
