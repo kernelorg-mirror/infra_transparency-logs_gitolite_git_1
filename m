@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 29 Jul 2021 04:40:54 -0000
-Message-Id: <162753365468.6232.8142020329488248528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 29 Jul 2021 05:20:21 -0000
+Message-Id: <162753602133.32292.15544607527878709531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/fscrypt-pending
-    old: acc266e7840d727f4106957475dca16b8818bea5
-    new: 38ef66b05cfa3560323344a0b3e09e583f1eb974
+  - ref: refs/heads/fixes-base
+    old: 053c16ac89050ef0e8ab9dc1edaf157bf104c8c6
+    new: a47fa41381a09e5997afd762664db4f5f6657e03
     log: |
-         38ef66b05cfa3560323344a0b3e09e583f1eb974 fscrypt: document struct fscrypt_operations
+         e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
+         6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
+         fae21608c31ca987d9dfc0422ac9b5bd21c213a6 scsi: mpt3sas: Transition IOC to Ready state during shutdown
+         a47fa41381a09e5997afd762664db4f5f6657e03 scsi: target: Fix NULL dereference on XCOPY completion
          
