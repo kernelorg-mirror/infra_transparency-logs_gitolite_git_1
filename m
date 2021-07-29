@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7333841369878275167=="
+Content-Type: multipart/mixed; boundary="===============4352407720823908521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 29 Jul 2021 15:03:21 -0000
-Message-Id: <162757100165.16321.15551051199886974265@gitolite.kernel.org>
+Date: Thu, 29 Jul 2021 15:06:22 -0000
+Message-Id: <162757118260.18761.17134174596430643365@gitolite.kernel.org>
 
---===============7333841369878275167==
+--===============4352407720823908521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: ccd1c4d7947907b723a5d43d61383578c2f130b6
-    new: 6c44eb5905f6cc731b36c4170f703f81e477f039
+  - ref: refs/heads/tty-linus
+    old: 7f0909db761535aefafa77031062603a71557267
+    new: 06e91df16f3e1ca1a1886968fb22d4258f3b6b6f
     log: |
-         33e5571ebdec49cb87e8cbba730cf046dfb44e80 serial: omap: Disable PM runtime autoidle to remove pm_runtime_irq_safe()
-         6c44eb5905f6cc731b36c4170f703f81e477f039 serial: omap: Only allow if 8250_omap is not selected
+         06e91df16f3e1ca1a1886968fb22d4258f3b6b6f tty: serial: fsl_lpuart: fix the wrong return value in lpuart32_get_mctrl
          
 
---===============7333841369878275167==
+--===============4352407720823908521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627570999 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627571180 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1627570998-d69a265bcf823c2bcc8e05dfd45ad6992ebf1b34
+nonce 1627571179-c486dee512335b5af548d8fba05942d48dc15df9
 
-ccd1c4d7947907b723a5d43d61383578c2f130b6 6c44eb5905f6cc731b36c4170f703f81e477f039 refs/heads/tty-testing
+7f0909db761535aefafa77031062603a71557267 06e91df16f3e1ca1a1886968fb22d4258f3b6b6f refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmECwzcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vzQP/iyGEyi5fb5QKbNhU0aY
-BG6no+PlZp6gbEC/tlZJryN9GUTs3hS1e8UPhxDxLgg42X8c/SQYYc8vHOkC1QFa
-7r8tzvp3qOJabXTtwHy7qsPeoiThHC//pW3neZP+zw7Z/DpH6iUgycAzFfUyfoto
-L2IveQDIlDoU8Gg3RFqs0VkYzsZ9Lj5KCodoLXce2rcUeSVlsGQAxoYvFrywZ/Bm
-kIKAZ2cCp7iyXgzk6qCbItIIHneIE+g68s5mEQHr7zldOmHSET763puJ29DX5RZF
-vUpTUqyJnDZ5lM5R69vqpA6LY44LqbZCRo1WNdeOs0GymTYuHrLJhgxIU7XbOTWz
-1MZIebeN+PCJ+v20vSLuUfdqseL5U6qRMB8v1V5Mu1fUsKzGLQ7UeQYLrA9ACeP5
-fqC7PVK0HPBoPZWsxMOulNa5JbLXBI59FHFZwMVWGdy1syS0XDgdj2WGmj5c6tKq
-oAUdJn9D4j+lUma0hgzmRuEAAXYe6hsBJ7PnUcHmckhSd8kH2SGEIXy5zx6QK6xp
-h9ZezI9BsA0Ddf1fBBUjHlQc5uFntfUCPXIX2sn4ggm2xhrEh+obKAHB2+heS4A4
-vUnKIB71YYKpV7oKeiGWb4LKHlqdRP4CX/liWHlK/RdC5xiWs4+woyYVWYtbPY0r
-ZRmmhrfkd0U1TnvXBwDigtLR
-=MrSw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmECw+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zI8P/j1Il1HY4WjPNteJNoWI
+e5e6v/kCpfwrr9WxY+ZVXboCM6uTdNwsbwI4gCKsv5nxddikDgOxMAlmvSlv7neu
+9yHD6xYpAbUOnBV+JluzgqekNX2YmWJu+9l/Gundl79+MoHsZl0jK3anfzwagfeB
+zoGyUTk4341qp8hth4FgaH3J0bqqZAY5weahTO8DY2Jp3P3c0yp9Kf7M/9ihi/eb
+xhDYw6aKyPbS5Q4IueQqLTqzlZ19tRbZr8u7YAHpd2m4uju14gWN4iL8hyN8Q4Sw
+tLGJBG20KZMcaDKULIvWeg5OuxoKy8w2WXLv5VMdm/QPcC0fINrcW8vmYUcGcLTX
+733jjGW2HffV/n7+3F2Xn9nObYNkqvUlqOFFTkFKW4uEqvDQt/lj/1W50rsIUIIN
+QmEhOkMwWRMuyQHitHNIcfmsv3/HD5y28sVUTcxE7wt/gtnul//AhCznNnjS2x9P
+FB7KvJjj7mlcOL5Cd4NpbY6qWDp619wnNt47B2YtoaT+YT3FmUUybZfCQk4o4Ruf
+rGSDnwrSkwpd1Y/phPkfmHj0yWEnl7BT9tNa4fGnAmBWpXlVowjQ2aW9zQ12KkrO
+ohl4db3XvKn0qvKA+6yFy76c5mr0zdUXlxtd0yoi6RVX01R1SiwPqYYBxfYQbEON
+ttdvESZe1E+xMo5njMgJkxry
+=SI15
 -----END PGP SIGNATURE-----
 
---===============7333841369878275167==--
+--===============4352407720823908521==--
