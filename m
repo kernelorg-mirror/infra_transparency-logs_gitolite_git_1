@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Fri, 30 Jul 2021 11:04:41 -0000
-Message-Id: <162764308184.13677.18039040765013835166@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5369056101875989409=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 30 Jul 2021 11:06:48 -0000
+Message-Id: <162764320847.15810.6567756675518926418@gitolite.kernel.org>
+
+--===============5369056101875989409==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc3-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: 2d8c1020e976073510124a5eb7f8befe51344558
-  - ref: refs/tags/v5.14-rc3-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: d818ebf5567495febc595d0ad369520f596ea9c9
+  - ref: refs/heads/tty-linus
+    old: 7c4a509d3815a260c423c0633bd73695250ac26d
+    new: 341abd693d10e5f337a51f140ae3e7a1ae0febf6
+    log: |
+         341abd693d10e5f337a51f140ae3e7a1ae0febf6 serial: 8250_pci: Avoid irq sharing for MSI(-X) interrupts.
+         
+
+--===============5369056101875989409==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627643205 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1627643205-edd5b4f963ef571b41113373ab6aca98c5aef367
+
+7c4a509d3815a260c423c0633bd73695250ac26d 341abd693d10e5f337a51f140ae3e7a1ae0febf6 refs/heads/tty-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmED3UUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xr4QAKiWethfcrgkjsiMYjtR
+Hf0f50zmxRPDwCn8Q5mL1rhQmQlt156SjrJb3++xeL1gqH007iob+eOVX7gzj9Eh
+SlvVbANxl1dNqMNCo9+gtpNqFQR+oPr0L3C0tjb0YlF02NYYgBMWoBM+sAzbb/TM
+8SP3RXVCS6uWaWkGPIglyNI2rZDzuRLKyKyX8F3deV5GegeNHcp5ADQUA2voPieB
++kg9MEosgRRFGIk5+jDHG6A5q8MsAB1Y6EpT/xyliXS2QGAzHlfwZkYN3PiRSx88
+wqX8oATkUOeVbml/ozY+iLK9bciVE2JaJPVbxXiE43/ElIUzjUFArXZB1wfXAoe/
+L/w3o0gWx0MNSsrSQowoH0vSPBCpG7bz3r/hMouwoS7seu3f5uc+udQ3QtJPBRcR
+oFut9PFLUQnHxMI/829m4cMUsCpsIeEeoLxmR7LhMLgF6OlE3B/9ewvR6EycT1bq
+xPFEKBruKO7P6K2GIxSMwBErYCf4fK2iB6LCzDzdXrX+cF/4YynnqZh1vvCwTZZS
+UVvrmTUaVPClLSTbyU8eZ8uN7b3OXua1nZMxY80Xx3pmwnHo7k6Uk76Ztc/Vzf/V
+7sfaRKKpHhSqEKhszaghmVahEg7wJYCJy5Qb9CNgY2UfSTE0ySx6wde5G+wmmySJ
+lm8zrNSlZMeiG48+6+0SzdxB
+=NqfZ
+-----END PGP SIGNATURE-----
+
+--===============5369056101875989409==--
