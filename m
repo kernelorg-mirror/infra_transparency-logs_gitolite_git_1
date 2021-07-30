@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 30 Jul 2021 19:54:28 -0000
-Message-Id: <162767486879.14495.13807141360579671547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 30 Jul 2021 19:54:52 -0000
+Message-Id: <162767489205.14762.9262735490062825425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: rpeterso
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next.next5
-    old: 0000000000000000000000000000000000000000
-    new: 05f877a599cbad2236c8f7d883ba743b88bc5853
+  - ref: refs/heads/master
+    old: bc830525615df6b6b1793ac23750f32695903fd0
+    new: a432934a30679c0e3c47b87f13e4901bc1a3fc03
+    log: |
+         a432934a30679c0e3c47b87f13e4901bc1a3fc03 sk_buff: avoid potentially clearing 'slow_gro' field
+         
