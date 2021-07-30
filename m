@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0317212034792077735=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 30 Jul 2021 14:06:57 -0000
-Message-Id: <162765401705.8586.8677977779997219917@gitolite.kernel.org>
-
---===============0317212034792077735==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 30 Jul 2021 14:10:22 -0000
+Message-Id: <162765422203.11156.2183530584751158026@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/staging-testing
-    old: 792a00c16597415e8058c1f4ff8226866e8accf8
-    new: 658dfbec96620ff08ef17c87b35b6a6bb8d52fc0
+  - ref: refs/heads/wip/jgg-for-next
+    old: 07d0f314ba75cba17c3fad0a3d4e640e757897d7
+    new: 991c4274dc17b58b642894a48ccae85c9e53aad6
     log: |
-         d8062f6adca1ef13a0bab70ddcd67881d483338e staging: r8188eu: clean up comparsions to NULL in os_dep directory
-         658dfbec96620ff08ef17c87b35b6a6bb8d52fc0 staging: rtl8723bs: remove unused BIT macros definitions
+         e9901043b25000ed21c7073373a7d9fd64f3d1e3 IB/hfi1: Indicate DMA wait when txq is queued for wakeup
+         62004871e1fa7f9a60797595c03477af5b5ec36f IB/hfi1: Adjust pkey entry in index 0
+         a0293eb24936ff30e5a23f9438fd4ad1c4009dbf RDMA/hfi1: Convert from atomic_t to refcount_t on hfi1_devdata->user_refcount
+         e677b72a0647249370f2635862bf0241c86f66ad RDMA/iwcm: Release resources if iw_cm module initialization fails
+         bdb0e4e3ff19b6699ab82828412f2fd9ad811b1d RDMA/iwpm: Remove not-needed reference counting
+         bbafcbc2b1c9a9b01ecd97020cf5057a22cb20b2 RDMA/iwpm: Rely on the rdma_nl_[un]register() to ensure that requests are valid
+         8d7e415d55610d503fdb8815344846b72d194a40 docs: Fix infiniband uverbs minor number
+         991c4274dc17b58b642894a48ccae85c9e53aad6 RDMA/hfi1: Fix typo in comments
          
-
---===============0317212034792077735==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627654013 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627654013-38239d0cbf6ecce8a88a590aa9f4b3da35e53bab
-
-792a00c16597415e8058c1f4ff8226866e8accf8 658dfbec96620ff08ef17c87b35b6a6bb8d52fc0 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEEB30bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZecP/RuwM7WCu8FTyW1xHZez
-X7IImiAGk2xoSfo/dLZrYLe1YtuR7jU4NbWf2CQeZHz6AjFrj7rGU/EfXFkUS5V8
-oETBPZ3cd9yVexz+d0eO2G9K6IYmsmcRs7+1ebQSWTV8ylvo5Opw1kDfXM4iIEwh
-T4rOl2f6s7WZHug0/6K5UD/pAf+sVoSNN/HmASf7mXUS1rtAbI7xuEF2BtDE7fA+
-Vn2pBVNsdaDLwAQqx5ySCWgT3hRtPTLfEXSJqeIh3C3AJpb5X+Ew5FMBl5l0TFtk
-N+tAtSHiO2uaJ2MKHk5ZS6lxNRHee/R/ApL90NUOipkyGHv7qg0i6VH82+R5Wty/
-eBbw0erhCf8JKpyp4USO4jDkzkW0lgeMVe8/ALqkqfEq4YuW70FQ2erOqWTecQbr
-5Qx8Ba6xaGyvkCisA5olm46qzVXGc/dAXAyDJxU7pxKmjlXti1q1K0OJRBp4jddG
-TLhHnZYsQPS3VTtykOddwQyTiHtK4J1vPO2jcSWushwZC9oRUGJp/23WqFVjUq33
-LKHYTKTqCWvfn5EswTpwKjpeBAyHP9vma3rS40XODyBDMq/FGRAmVTJ79slp2WR2
-cevyP/xcdU44g04tm7fVLvpKx4jvoxud2P8dEqzR0OlD/dAM42eMRRMqIHRo9Pre
-tLDaN19oGCch26gLbCXL7t8m
-=vq7a
------END PGP SIGNATURE-----
-
---===============0317212034792077735==--
