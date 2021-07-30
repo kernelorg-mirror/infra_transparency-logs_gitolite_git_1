@@ -1,73 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5507862709661656222=="
+Content-Type: multipart/mixed; boundary="===============1146237516904507328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 30 Jul 2021 14:11:34 -0000
-Message-Id: <162765429437.11623.7357609663252827856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 30 Jul 2021 14:16:42 -0000
+Message-Id: <162765460235.14871.6794834067631607343@gitolite.kernel.org>
 
---===============5507862709661656222==
+--===============1146237516904507328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/staging-testing
-    old: 658dfbec96620ff08ef17c87b35b6a6bb8d52fc0
-    new: 86949b521fa4e4c88e6ff7be6a1ce2c7c064a0f0
-    log: revlist-658dfbec9662-86949b521fa4.txt
+  - ref: refs/heads/devel
+    old: af0ca06f8781499bd889658b47df75ee2da8ca8f
+    new: d7eb35beda59beed2c3589ec43ec0537452c9446
+    log: revlist-af0ca06f8781-d7eb35beda59.txt
 
---===============5507862709661656222==
+--===============1146237516904507328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-af0ca06f8781-d7eb35beda59.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627654290 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627654289-e586ad3a9d89c7d5958015496d8f65d4ed3e3fdd
+7ebaa41047738d46fca6376b3f1765ef69c463c5 pinctrl: renesas: rcar: Avoid changing PUDn when disabling bias
+e9d66bdbc5abecaf705bf5a2f4f6279b9e313b0c pinctrl: renesas: r8a77995: Add bias pinconf support
+91d1be9fb7d667ae136f05cc645276eb2c9fa40e pinctrl: renesas: Fix pin control matching on R-Car H3e-2G
+ff128cdb7f3ddf237989c4ff925b42c9def33f7e pinctrl: imx8mn: Constify imx_pinctrl_soc_info
+b013dc8a02d9a604767d589feb6549e2da6a9133 pinctrl: imx8qxp: Constify imx_pinctrl_soc_info
+2fefcf2400659f3f2d2c5ed87a4ceebde3dad7a8 pinctrl: imx8dxl: Constify imx_pinctrl_soc_info
+6ceb3c64063cd7b7155709f5ff67b85aa8a0e20b pinctrl: pistachio: Make it as an option
+153df45acda08afec4bd13dd9145464111ef7ba7 dt-bindings: pinctrl: pinctrl-zynq: Convert to yaml
+ef641c449e8083c4314c125d8e32b37644ddd852 dt-bindings: pinctrl-zynq: Replace 'io-standard' with 'power-source'
+cdd57325548af9803f0602914de16a8ddcb5bec0 pinctrl: pinctrl-zynq: Add support for 'power-source' parameter
+d7eb35beda59beed2c3589ec43ec0537452c9446 Merge tag 'renesas-pinctrl-for-v5.15-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
 
-658dfbec96620ff08ef17c87b35b6a6bb8d52fc0 86949b521fa4e4c88e6ff7be6a1ce2c7c064a0f0 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEECJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p7QP/ivK1oYoDAuvNyC6Hjuc
-pbG86r1tC78fZbloJ9BFMP9Kub+aIh0zDPvw8AI+gBE3rzu8ndcUelQZp6yQ7on0
-Y9aqx3X9j4TToAX2qBaJth6JqHRiaHzYYy3w/t91e3yJ0/3lUZraPLU/02E064np
-05swL6LL5ZIQw/3Qqb7XEFELasQ9fqOoWwDriB+6plIE5JJ9aNyY0fcNvRhmb2EO
-BtZ0SxEds4yIcQNLADHM2aspKgHypgUx5fjrm7DMaZ5g3nEPQtGrsjW4xCi1/foX
-pnPJWNkxwV7yHlEyNe8xyNoDl3EtWt31qf7IP88WbRn+2nVyoM+eyf31KJwLq79R
-JgBAjRihIue36lRtm5H3BvwhutolWtaZwt+GZ6NJKOmPYDgJ1hKjtDFb/icE6Yhq
-uAOsF+NB1Pi46+veGqIrUpj+2om5jtXzhunhCw9LSYh0qFG1p2Bsd4RjvtUaZGBd
-Firg3hdbDt/6eDbWe/lvF33kBqBboHQWrzEA24ThycyXz0902+jpjeghpcjEoQ6X
-eSspZZs7BwKJmxV9GZ0mQ0aNq8Y8lGE1Ug36uu2QpJouFeK7rNfCcbvfrL848YjP
-EmFMCIbR6wivCw4IO/f90hTkkqSt/Arv084qxHHBtkzZqCoYSjSkmHdzav8/KNqE
-E5XWxBKszxnw/kJC3dIzRv8D
-=TBfR
------END PGP SIGNATURE-----
-
---===============5507862709661656222==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-658dfbec9662-86949b521fa4.txt
-
-cea32de203f2dc4eccd4dc3d9ef0f833efe534d1 staging: r8188eu: remove empty ODM_ResetIQKResult() function
-67431f25259aec381c8d3b983718d7fcb892d49f staging: r8188eu: move ODM_TARGET_CHNL_NUM_2G_5G
-f624b4f1cae3383d843b8044522f46e13eec4482 staging: r8188eu: move ODM_GetRightChnlPlaceforIQK()
-099a6ee02488d5a98f8e10d82aaa8213af897fcc staging: r8188eu: remove include/h2clbk.h
-4cd1746aa746916db5aa5e351dcbfd54f2538637 staging: r8188eu: remove include/autoconf.h
-b3e8e29bc262def7540a4979888ef96c85924b49 staging: r8188eu: remove include/Hal8188EReg.h
-b6f700b4b12ea3abcde3726de7483190a06c9ddd staging: r8188eu: remove rtw_mfree2d() function
-c7e88ecbe328e2bcd892d84c4b26eff86cb776ef staging: r8188eu: remove rtw_buf_free() function
-3130547cac53835fa8d7d56f772f8dab2ad69fd7 staging: r8188eu: remove unused enum _NIC_VERSION
-18e94ed5f99cde4874b83b9f9f4b1895aea84990 staging: r8188eu: remove include/nic_spec.h
-48f1f36ae153e3e83680ad3d0e65be2d7f8dfd89 staging: r8188eu: remove rtw_usb_bulk_msg() macro
-86949b521fa4e4c88e6ff7be6a1ce2c7c064a0f0 staging: r8188eu: remove rtw_usb_control_msg() macro
-
---===============5507862709661656222==--
+--===============1146237516904507328==--
