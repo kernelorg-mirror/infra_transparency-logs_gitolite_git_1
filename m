@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 30 Jul 2021 13:50:06 -0000
-Message-Id: <162765300644.27776.8486667515889604610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 30 Jul 2021 13:53:54 -0000
+Message-Id: <162765323429.29145.14138397645693275430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/tags/stm32-dt-for-v5.14-fixes-1
-    old: 0000000000000000000000000000000000000000
-    new: 82eca595bd9db56e4bf0c9ca835fd66e12df703d
+  - ref: refs/heads/icc-next
+    old: 2092cdb412f0586b90591c55121f77050ba702f8
+    new: f84f5b6f72e68bbaeb850b58ac167e4a3a47532a
+    log: |
+         ce5a595744126be4f1327e29e3c5ae9aac6b38d5 interconnect: qcom: icc-rpmh: Ensure floor BW is enforced for all nodes
+         f84f5b6f72e68bbaeb850b58ac167e4a3a47532a interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
+         
