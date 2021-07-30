@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 30 Jul 2021 15:22:10 -0000
-Message-Id: <162765853050.27180.13237920294496593726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 30 Jul 2021 15:29:11 -0000
+Message-Id: <162765895108.30879.5211413722764673681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: 3e12361b6d23f793580a50a6008633501c56ea1d
-    new: 79976892f7ea37f44f8bcfb6d266954e8ae0124d
-    log: |
-         79976892f7ea37f44f8bcfb6d266954e8ae0124d net: convert fib_treeref from int to refcount_t
-         
+  - ref: refs/heads/renesas/sdhi/for-5.15
+    old: 0000000000000000000000000000000000000000
+    new: 70a0956844d85e322400aa829a182a5b16c7a62a
