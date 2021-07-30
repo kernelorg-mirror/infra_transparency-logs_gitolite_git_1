@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 30 Jul 2021 12:03:05 -0000
-Message-Id: <162764658593.19452.1074512556853721897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 30 Jul 2021 12:19:46 -0000
+Message-Id: <162764758602.30261.18065907615112239158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/rtmutex
-    old: 977db8e523f5dfb10f75ee9c29c682a71e7202f7
-    new: da122d2d056a3f810d049e278d727c83cedeca04
+  - ref: refs/heads/master
+    old: 6eb1c01e9dd25a73100f06db37190c63fd57d4d9
+    new: 5cc37e883ee5dbe59a89b925e06f3a92d54cbb29
     log: |
-         da122d2d056a3f810d049e278d727c83cedeca04 locking/rtmutex: Use adaptive spinwait for all rtmutex based locks
+         5cc37e883ee5dbe59a89b925e06f3a92d54cbb29 Revert "sulogin: fix getpasswd()"
          
