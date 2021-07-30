@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5472106112328958625=="
+Content-Type: multipart/mixed; boundary="===============3782401447906831046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 30 Jul 2021 18:54:35 -0000
-Message-Id: <162767127548.5803.7136271130456640233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 30 Jul 2021 18:54:42 -0000
+Message-Id: <162767128274.5942.12078161593182782513@gitolite.kernel.org>
 
---===============5472106112328958625==
+--===============3782401447906831046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 926ef1a4c245c093acc07807e466ad2ef0ff6ccb
     new: 1d25684e22516f1cff77176d288b1da02fff57bb
     log: |
@@ -26,7 +26,7 @@ changes:
          bb6a40fc5a830cae45ddd5cd6cfa151b008522ed ASoC: kirkwood: Fix reference to PCM buffer address
          1d25684e22516f1cff77176d288b1da02fff57bb ASoC: nau8824: Fix open coded prefix handling
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01
     new: 219691cf360136591e627badbd62f54097f99fc0
     log: |
@@ -37,29 +37,29 @@ changes:
          219691cf360136591e627badbd62f54097f99fc0 Merge series "Add RZ/G2L Sound support" from Biju Das <biju.das.jz@bp.renesas.com>:
          
 
---===============5472106112328958625==
+--===============3782401447906831046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627671264 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1627671272-1ca849d22fd6e86c159f93cf317f2101d8fc4fbe
+pusher C3F436CA30F5D8EB 1627671271 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627671280-f7881262360b8d000546c1bc6e3bf28cfd60fa9d
 
-926ef1a4c245c093acc07807e466ad2ef0ff6ccb 1d25684e22516f1cff77176d288b1da02fff57bb refs/heads/for-5.14
-ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01 219691cf360136591e627badbd62f54097f99fc0 refs/heads/for-5.15
+926ef1a4c245c093acc07807e466ad2ef0ff6ccb 1d25684e22516f1cff77176d288b1da02fff57bb refs/heads/asoc-5.14
+ff6c95d251617f5b2eb1e7ea1d32d51a162e6a01 219691cf360136591e627badbd62f54097f99fc0 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEESuAACgkQJNaLcl1U
-h9AaJQf/bN53uuAVC8wyrfhnEm6AiSRp3GCoGoABleTpdXdsdvxM1JKts8+QJNH6
-omgnlRgoMTsKJlgQSsOCBbO7ncucDSbxnpQY4tu0QUedxJzfsQfMCsVbvjoMIHR4
-0WL7/xra5i3L4gNMRsH7y3ChdOSKz3R5sVCeGqxS7Di5kWJABH1f4VA5DzBr3g4f
-XXAlStxM/fZBlB2c/DHBJ+BzLhnp7CzPedWeBFr3FPxo9vkhF6MLZoie4rUYx7uJ
-dxZDK+4SZU+XONNHHmPNxfDtCRHv9kbPDQojs2Bdg+Myd3F8nXiRNk3t+aJ/fi2e
-RB+4RoBA5slJnRoo8lfzRl7GFaKEjA==
-=WI8V
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEESucACgkQJNaLcl1U
+h9C/EAf+Px9AbA22qZk/oRhTY2+CZFdQDP80ubyj/gHhYIIf7ynyJ1aW9z/L2mFT
+jANsjjuLdiroBKYT0d6/vX5iKTlfY3jFW+tKIlovjkyZPx73SfZ9EXj8UVbTTxVb
+YQj6FSfh8QYesM8nYhcI8vooZx/14MPQ+/f+Dc5GZLFA/LGYSwJET57/RBiGZ0Ij
+5KjZZwMKju5HJHh6Gqr5AIVX2DawkGamvA2U00Qvybrlv/BE43AnYsvs5jyoOVFU
+Y12m72QRe9DUBRXyOUNim+nY8+w+MzmdWsOZrk+a7IH4rX3BIDCTCis3ZOWWM+an
+80MRZHXEZMzR4uUTGhElsOZjcWRRQw==
+=NR9B
 -----END PGP SIGNATURE-----
 
---===============5472106112328958625==--
+--===============3782401447906831046==--
