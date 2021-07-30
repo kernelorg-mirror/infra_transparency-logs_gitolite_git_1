@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0180174736902327963=="
+Content-Type: multipart/mixed; boundary="===============3679980323120372440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 30 Jul 2021 06:59:05 -0000
-Message-Id: <162762834507.31189.7748933430622524342@gitolite.kernel.org>
+Date: Fri, 30 Jul 2021 06:59:14 -0000
+Message-Id: <162762835458.31296.15806857182682883133@gitolite.kernel.org>
 
---===============0180174736902327963==
+--===============3679980323120372440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,57 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 4c85e57575fb9e6405d02d55aef8025c60abb824
-    new: fc16a5322ee6c30ea848818722eee5d352f8d127
-    log: revlist-4c85e57575fb-fc16a5322ee6.txt
+  - ref: refs/heads/testing
+    old: 2f1d5522011f0edc3fb955df3a4c808cc23a88d7
+    new: 928150fad41ba16df7fcc9f7f945747d0f56cbb6
+    log: revlist-2f1d5522011f-928150fad41b.txt
 
---===============0180174736902327963==
+--===============3679980323120372440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1627628341 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1627628351 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1627628341-28e2badc322dca3be90d0e003873b62c9dd9ad32
+nonce 1627628351-7d6ef08d1a5816ed4f86536637ec1d8a6a40fb0a
 
-4c85e57575fb9e6405d02d55aef8025c60abb824 fc16a5322ee6c30ea848818722eee5d352f8d127 refs/heads/master
+2f1d5522011f0edc3fb955df3a4c808cc23a88d7 928150fad41ba16df7fcc9f7f945747d0f56cbb6 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmEDozYTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqRk2B/4wnmDFKbK71Zthgc+4PiLba8XP39t0
-ZEMyoflss0QoprZ7Wu21rTCNWMnBzPIvTCzvFMuDQ2MfTScmX9r6v8ts1HyvVzIf
-HY4xT0b4JRdqltcuv8DkVmve2hA5WSgONhgs0VyU55Dqv/OtTU+zRcCqJ+AKmtku
-cVvcusY9q50VgAW6A9B07qjMr45Zu+P3jL9rPrHJwGnikYNLKpZklCJrJT1CdqP5
-jsew9yxEm4QZ9UIkT5Jf6zSsugc5rV9qZSMb9rz3Rdgl7fcnjEa56nXP4FA3/Cdc
-lRMFYFaUWSbq38quiN34UipuiAFDUe4bjI9ZvmjRwwFuzqZzc3iKQ888
-=Jme0
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmEDoz8THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqa4IB/9oLQeccQGVhqc87HaMS/+UqcwOEecF
+KQ/pLiJs0Du7Xm0Ch9yqmKIPj5Shzx/AQf1CGS+RIwZJ+jEf4AHIf5xEz9w4Nfpg
+hUgdXkVdyeSHvzlQl/Rjj8hJvB28XhRI+xxevC5zCl1TFBAaAb5kuYSYoJAbTA7v
+BX5+9xE+2uWociojYKKylupHrSQrIoUKQtjDyb0kzwBql1v9MgMfIY573bROck1M
++ZYB+7xoq7QlbqzFSsye6ZhLaSgVSA1vFOKGZmqR2dpxAMefHp55WpVVfex0iy8N
+glkZfYhpmHQFspDLDCe7103DgTsaYdm242TJvG3Vhpw3/V70RqKv4ELN
+=QZ0h
 -----END PGP SIGNATURE-----
 
---===============0180174736902327963==
+--===============3679980323120372440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c85e57575fb-fc16a5322ee6.txt
+Content-Disposition: attachment; filename=revlist-2f1d5522011f-928150fad41b.txt
 
 59089a189e3adde4cf85f2ce479738d1ae4c514d bpf: Remove superfluous aux sanitation on subprog rejection
 e042aa532c84d18ff13291d00620502ce7a38dda bpf: Fix pointer arithmetic mask tightening under state pruning
 a6c39de76d709f30982d4b80a9b9537e1d388858 bpf, selftests: Add test cases for pointer alu from multiple paths
 d6371c76e20d7d3f61b05fd67b596af4d14a8886 bpf: Fix OOB read when printing XDP link fdinfo
+f5d156c7bfab7d728b2fd35bc63eab12eda18125 arm64: dts: imx8mp: remove fallback compatible string for FlexCAN
+54f93336d000229f72c26d8a3f69dd256b744528 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
+0c71437dd50dd687c15d8ca80b3b68f10bb21d63 can: j1939: j1939_session_deactivate(): clarify lifetime of session object
+c6eea1c8bda56737752465a298dc6ce07d6b8ce3 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
+590eb2b7d8cfafb27e8108d52d4bf4850626d31d can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
+ef68a717960658e6a1e5f08adb0574326e9a12c2 can: mcp251xfd: mcp251xfd_irq(): stop timestamping worker in case error in IRQ
+e394f1e3b13946b200935310ebdd5583cf374bba Merge tag 'linux-can-fixes-for-5.14-20210724' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+3cf4375a090473d240281a0d2b04a3a5aaeac34b tipc: do not write skb_shinfo frags when doing decrytion
+89bc7f456cd40e0be7b94f4fdae9186f22b76a05 bnxt_en: Add missing periodic PHC overflow check
+ac059d16442f30e6a9a95d41655153e01247e710 octeontx2-af: Fix PKIND overlap between LBK and LMAC interfaces
+69f0aeb13bb548e2d5710a350116e03f0273302e octeontx2-pf: Fix interface down flag on error
+4c85e57575fb9e6405d02d55aef8025c60abb824 octeontx2-pf: Dont enable backpressure on LBK links
 149ea30fdd5c28b89a3bfdecfc75cdab1deddb14 devlink: Fix phys_port_name of virtual port and merge error
 ad4e1e48a6291f7fb53fbef38ca264966ffd65c9 net: phy: broadcom: re-add check for PHY_BRCM_DIS_TXCRXC_NOENRGY on the BCM54811 PHY
 7e4960b3d66d7248b23de3251118147812b42da2 mlx4: Fix missing error code in mlx4_load_one()
@@ -96,5 +108,11 @@ b1c2f6312c5005c928a72e668bf305a589d828d4 net/mlx5e: Fix nullptr in mlx5e_hairpin
 f5e81d1117501546b7be050c5fbafa6efd2c722c bpf: Introduce BPF nospec instruction for mitigating Spectre v4
 2039f26f3aca5b0e419b98f65dd36481337b86ee bpf: Fix leakage due to insufficient speculative store bypass mitigation
 fc16a5322ee6c30ea848818722eee5d352f8d127 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+8a7b46fa7902a3d36ce44a64f4d66586d66206ea MAINTAINERS: add Yasushi SHOJI as reviewer for the Microchip CAN BUS Analyzer Tool driver
+f6b3c7848e66e9046c8a79a5b88fd03461cc252b can: hi311x: fix a signedness bug in hi3110_cmd()
+fc43fb69a7af92839551f99c1a96a37b77b3ae7a can: mcba_usb_start(): add missing urb->transfer_dma initialization
+0e865f0c31928d6a313269ef624907eec55287c4 can: usb_8dev: fix memory leak
+9969e3c5f40c166e3396acc36c34f9de502929f6 can: ems_usb: fix memory leak
+928150fad41ba16df7fcc9f7f945747d0f56cbb6 can: esd_usb2: fix memory leak
 
---===============0180174736902327963==--
+--===============3679980323120372440==--
