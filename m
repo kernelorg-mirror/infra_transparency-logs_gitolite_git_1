@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0694333688392393351=="
+Content-Type: multipart/mixed; boundary="===============0987899435546545183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 30 Jul 2021 05:13:11 -0000
-Message-Id: <162762199104.26120.16671533197479180321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 30 Jul 2021 05:15:28 -0000
+Message-Id: <162762212878.28356.4854326808116470726@gitolite.kernel.org>
 
---===============0694333688392393351==
+--===============0987899435546545183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: cbbdb3fe0d974d655c87c3e6ba2990d5496b9f82
-    new: 64cd4271ea8e6247f7ed14c443e41d0f5866aac0
+  - ref: refs/heads/tty-linus
+    old: 06e91df16f3e1ca1a1886968fb22d4258f3b6b6f
+    new: 7c4a509d3815a260c423c0633bd73695250ac26d
     log: |
-         0132bf6f395837fc77fb38ac3d2806d22426be51 drivers: usb: dwc3-qcom: Add sdm660 compatible
-         64cd4271ea8e6247f7ed14c443e41d0f5866aac0 usb: gadget: pxa25x_udc: Constify static struct pxa25x_ep_ops
+         7c4a509d3815a260c423c0633bd73695250ac26d serial: 8250_mtk: fix uart corruption issue when rx power off
          
 
---===============0694333688392393351==
+--===============0987899435546545183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627621990 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1627621989-8d01ec15ea2503c905fde9ba66b4cdd64c35bcc4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627622126 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1627622125-35ca8f93bdf1b3892911ee5ceae4e612ad24a110
 
-cbbdb3fe0d974d655c87c3e6ba2990d5496b9f82 64cd4271ea8e6247f7ed14c443e41d0f5866aac0 refs/heads/usb-next
+06e91df16f3e1ca1a1886968fb22d4258f3b6b6f 7c4a509d3815a260c423c0633bd73695250ac26d refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEDimYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f4wQAMPJMsml9yguXkQQoSr5
-KNFqhKqDzwRWY1NVEeODLI/+yn1+FNRISdLzotoxtZ329xhv91mQanQoy5029uy4
-lXkbKrJ94EwW7Hc4WyJweG2L6ePZQqQSszLtIi9SJVWNEPgZs9+Rp+Obg6j4geB0
-pyxplkMnFEYPY0plnhJpZ/ZagHFCCI3NE1c32mM15Q7w+8BiwRIASdA52v2KU10+
-w8y0PXlynrQ0zBm5p6z8vZ/uHajgpMXCCnGdASL/OqOsXMHPCb9e6npUmt6kNGwV
-1hs4yDA3Hq+NPdShGNrxr0JwX1jWPtRHkPn9K3+O+9QT2h7kY78TMMa6x38RWifO
-MmN1GDsmwWXCuqE4c2n+ZGQKGSf+x+mVvyfhHJlQxrtwl9iZIxPx6qhTK3yPWy2w
-ZtwIf9JiE3E2axqz9fxbjLeVYR5GVsdeKc2gGC9ZKJuz+aJtA8Hai59W5pROcoRr
-McEa2qK0r4iqNdGxHhd65OCTic9Q9xPI35+QTKxaPX/jzRudrNPf9aMOV8bpznb8
-+emVk1dWGQ/vXiejL1NWAG0hZaP/b61L8S7V8QPe23qTxHJ0xLEevi7GRlFxejW0
-baYDl/AdzdOhLpKpuCoMNltFDo5zFectDZjHpTr8R70EC5SUHeTchGKO9HVt/SXA
-j/RJySOaSJ8I1zmLMeb5tCdK
-=1rlR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEDiu4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JWUP/0PGcrzbkGPpztdSnZpY
+KB5WoTAvnfImq+vy2044qzXzXyPmhLjllCGbW+FAVeP34WEUml6VaVcGXlQbXhQG
+FulRw4fEVzq2cnBP2f+CL6xiY4AqOsYBpGpI+DB90WcOHFCcUAKz17FsUrVwzaPQ
+mRD6unlw6qa9X/KLKMrhaMagdWp5Cs90uFN/1Tyr48bUO1fGn/kFxQQ7OrAcPcjh
+gmIY/Aw9OCChDYzsNWwY8mCe1JVK7y/78Y+JmDtBmcnZnrhgFumDZCJUMLNdtcUV
+e9kvoD3NCjA/Zx3GFTowi1ANrvtQQXOev+MaQIph8hWENB4CWfyQ7WhOZb8yvpBS
+2+xag6DTX4Ofm23Oudc6nM2XGdb9QG0DGUFAPx5RPZBMdGacaTFE3J6WRu0TSCEX
+T8Wbo05jufdXgZ81fdWqt1BmVnUDRHNpjYbksbLgiSBrbdZS6yub7Ty07Ek7EXiT
+MLU7NLoYP9LUpypyeg5DWMjDs8PcJS9vBR2zdPLyKqY7sp7coAcgXZ0is5ZcDmlf
+anWJXM6AHaoCKABwqkCsF9MyPMAJw/JtAHMDX0WWDZ+gxLJbAu7Qn0l1wLJ3Dei8
+LZyYO7VuJ7OK+hIs8doKepNIdZ2wgzqtokUbWnPFo+jGL7ha95KX3HQDiXNDKAU7
+9OAOB6QYjzNMra9XDBLA591W
+=QFxk
 -----END PGP SIGNATURE-----
 
---===============0694333688392393351==--
+--===============0987899435546545183==--
