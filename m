@@ -1,59 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============8592382948913299246=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 30 Jul 2021 14:56:26 -0000
-Message-Id: <162765698662.9964.4876538146551354841@gitolite.kernel.org>
-
---===============8592382948913299246==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 30 Jul 2021 15:00:18 -0000
+Message-Id: <162765721863.12796.17361988707956968017@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/staging-testing
-    old: 78f2b22efc8f7649dcde44143e78149457f1162c
-    new: 9b6818c1ac0e545c632265e4bf0aa1171347ebea
+  - ref: refs/heads/features
+    old: 3da77cf33cf8caf60d5cf29987885abb997a38fa
+    new: e3d43d60160b18c2c429c9c931bbd85e58a1481c
     log: |
-         76ac3b19a702d346674c7b2082af9654b2e58c50 staging: rtl8723bs: fix camel case issue in struct wlan_bssid_ex
-         8255017976dec902e25fe7669605aa58a6e7c0ac staging: rtl8723bs: remove unnecessary parentheses
-         b8afef0e13720739d41808f0b88970b84c1ec3ff staging: rtl8723bs: align condition to match open parentheses
-         9b6818c1ac0e545c632265e4bf0aa1171347ebea staging: rtl8723bs: put condition parentheses at the end of a line
+         14b41949462d81b14a8822f5815a149d0be62ebf kfence, x86: only define helpers if !MODULE
+         ca1dab066741a481bf3e1a1bc395e696531aca36 s390/mm: implement set_memory_4k()
+         901e072d192398cacd93c3f80724413714eed12b kfence: add function to mask address bits
+         5c97b14032ec0e2c9fe11967d120fdc940199f42 s390: add support for KFENCE
+         9dc03a2ca21a22c9fe6d9622c5fd5c944e0987ea s390: add kfence region to pagetable dumper
+         e31798a6ded510265d1a2c9231c9ac397c5f47e6 kcsan: use u64 instead of cycles_t
+         1d1c7a6657605c3b0c3c3362a6340e2fde3ad309 s390: enable KCSAN
+         e3d43d60160b18c2c429c9c931bbd85e58a1481c s390: move the install rule to arch/s390/Makefile
          
-
---===============8592382948913299246==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627656983 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1627656983-29b84955c190c309a3d12a176072ebdb9a244e37
-
-78f2b22efc8f7649dcde44143e78149457f1162c 9b6818c1ac0e545c632265e4bf0aa1171347ebea refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEEExcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O0EP/13/7i1AVjfP6i3V6ZaX
-RraRsN3itrdFlN+vrtQTuxqCQG0Eag+f+MdODWxQEZc7bW1lwo8eBZ/2RBtlk4J5
-DIEGA6HYBCznHNXW+296TiNeSxLSESqYAnO+LGMABHffV4/uI3ibeu665dweQuFo
-IdFxFAfYILpkTifvNshLDWep0X1JUIYfqgXvnUX1vWfE8tetkIsrsyqMmta5hMhl
-O1136emIIa6Nbipb4HmAQn8qUABUIFDguEJZj88f4hXQOnwk23svg+VhjsauTrCs
-lhXDr1MELgZXhvC0bNvI4KdJ70ivcp0Krlqm3SuZSvUDpb8PttsqLlVdf0Ich4Z0
-cgx7tlWRISrdDMo+gMrLYZoladBkRZzN6ZN9mNPD4J0cDXTKxW4wEPZl1Dv59avp
-w8pckuwavBs3IvOzWc41V2VXLuwYuLcyiqSz2RNfdIbEuf5hZP7/uCGdINXQrhBA
-+PVLmeesCZXxsd9ILQmCBHLX+/qURR5pWcgfsukDOWdqshWCqSCLX/JpsbW663Mw
-wxehlB4GMAQ2lS6nLbagfbeQ3z4vRqyM3YBHcYA+rL4OHjOdz1hLkD9a7GCBc3K4
-vx906FTVRQemcgknO0bukYgX7DekzrJnlmK7/TCkaxctnWTDaXIAZeXrqrmXmo4o
-nYlI9iVuXBuVxjJYMwxsl6H2
-=W/vR
------END PGP SIGNATURE-----
-
---===============8592382948913299246==--
+  - ref: refs/heads/fixes
+    old: ff1176468d368232b684f75e82563369208bc371
+    new: 7b5c3a680852ef8b5152cf457dd5596d13ffa039
+    log: |
+         41fadc7b21914276751d51b0e01cfe05cb49ccf3 s390/vdso: add .got.plt in vdso linker script
+         7b5c3a680852ef8b5152cf457dd5596d13ffa039 s390/boot: fix zstd build for -march=z900
+         
