@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1600721576685992419=="
+Content-Type: multipart/mixed; boundary="===============2988700791524932824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 30 Jul 2021 17:12:40 -0000
-Message-Id: <162766516047.2678.16600847722297868385@gitolite.kernel.org>
+Date: Fri, 30 Jul 2021 17:13:26 -0000
+Message-Id: <162766520698.2990.8303679562434509772@gitolite.kernel.org>
 
---===============1600721576685992419==
+--===============2988700791524932824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 1606b3aadfab884614467fd201288ddcdcd1ee7d
-    new: 9a176651708e9de31a19b1208845438e3761b54d
-    log: revlist-1606b3aadfab-9a176651708e.txt
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
+    new: f6a71a5ebe2354888c7fa45b579f18180f2f6b7e
+    log: revlist-1606b3aadfab-f6a71a5ebe23.txt
+  - ref: refs/heads/master
+    old: 9a176651708e9de31a19b1208845438e3761b54d
+    new: f6a71a5ebe2354888c7fa45b579f18180f2f6b7e
+    log: |
+         b860d367586aed8c88bf020191777af2cfe737a7 Merge branch 'x86/cpu'
+         2f9eeec3f447cb6aa4f5fabb348c603815296b2c Merge branch 'timers/urgent'
+         ed7c691b4de690906f65eaba6fc9fe5aaf6e5109 Merge branch 'sched/core'
+         a4d7292e2c1a773be6f71c2c34814b70dd0fb767 Merge branch 'perf/urgent'
+         3e2cd37c296b32c299f6f67707f5a888eab6a8a4 Merge branch 'perf/core'
+         f6a71a5ebe2354888c7fa45b579f18180f2f6b7e Merge branch 'locking/core'
+         
 
---===============1600721576685992419==
+--===============2988700791524932824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1606b3aadfab-9a176651708e.txt
+Content-Disposition: attachment; filename=revlist-1606b3aadfab-f6a71a5ebe23.txt
 
 0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
 6407c69dc51fbd7cf7b6760cd8aefb105d96ff5b RDMA/irdma: Fix unused variable total_size warning
@@ -132,6 +140,11 @@ cb163627e6d32dbaca4d89b2292788cee895b06d scsi: fas216: Fix fall-through warning 
 cade08a57244497216c46df5e9cbe8f18e143519 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mattst88/alpha
 c71a2f65e7a13a05f49b1d9afce6af3afcefab1b Merge tag 'fallthrough-fixes-clang-5.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 764a5bc89b12b82c18ce7ca5d7c1b10dd748a440 Merge tag 'drm-fixes-2021-07-30' of git://anongit.freedesktop.org/drm/drm
-9a176651708e9de31a19b1208845438e3761b54d Merge branch 'linus'
+b860d367586aed8c88bf020191777af2cfe737a7 Merge branch 'x86/cpu'
+2f9eeec3f447cb6aa4f5fabb348c603815296b2c Merge branch 'timers/urgent'
+ed7c691b4de690906f65eaba6fc9fe5aaf6e5109 Merge branch 'sched/core'
+a4d7292e2c1a773be6f71c2c34814b70dd0fb767 Merge branch 'perf/urgent'
+3e2cd37c296b32c299f6f67707f5a888eab6a8a4 Merge branch 'perf/core'
+f6a71a5ebe2354888c7fa45b579f18180f2f6b7e Merge branch 'locking/core'
 
---===============1600721576685992419==--
+--===============2988700791524932824==--
