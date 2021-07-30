@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5369056101875989409=="
+Content-Type: multipart/mixed; boundary="===============6681680334209903636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 30 Jul 2021 11:06:48 -0000
-Message-Id: <162764320847.15810.6567756675518926418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 30 Jul 2021 11:53:58 -0000
+Message-Id: <162764603895.13563.2761517715869576169@gitolite.kernel.org>
 
---===============5369056101875989409==
+--===============6681680334209903636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 7c4a509d3815a260c423c0633bd73695250ac26d
-    new: 341abd693d10e5f337a51f140ae3e7a1ae0febf6
+  - ref: refs/heads/master
+    old: 8750f9bbda115f3f79bfe43be85551ee5e12b6ff
+    new: fa7a549d321a4189677b0cea86e58d9db7977f7b
     log: |
-         341abd693d10e5f337a51f140ae3e7a1ae0febf6 serial: 8250_pci: Avoid irq sharing for MSI(-X) interrupts.
+         fa7a549d321a4189677b0cea86e58d9db7977f7b KVM: x86: accept userspace interrupt only if no event is injected
+         
+  - ref: refs/heads/next
+    old: 8750f9bbda115f3f79bfe43be85551ee5e12b6ff
+    new: fa7a549d321a4189677b0cea86e58d9db7977f7b
+    log: |
+         fa7a549d321a4189677b0cea86e58d9db7977f7b KVM: x86: accept userspace interrupt only if no event is injected
          
 
---===============5369056101875989409==
+--===============6681680334209903636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627643205 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1627643205-edd5b4f963ef571b41113373ab6aca98c5aef367
+pusher Paolo Bonzini <pbonzini@redhat.com> 1627646037 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1627646037-383d3894d988a5d650a1c7d7b6a1536b5d1ab33a
 
-7c4a509d3815a260c423c0633bd73695250ac26d 341abd693d10e5f337a51f140ae3e7a1ae0febf6 refs/heads/tty-linus
+8750f9bbda115f3f79bfe43be85551ee5e12b6ff fa7a549d321a4189677b0cea86e58d9db7977f7b refs/heads/master
+8750f9bbda115f3f79bfe43be85551ee5e12b6ff fa7a549d321a4189677b0cea86e58d9db7977f7b refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmED3UUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xr4QAKiWethfcrgkjsiMYjtR
-Hf0f50zmxRPDwCn8Q5mL1rhQmQlt156SjrJb3++xeL1gqH007iob+eOVX7gzj9Eh
-SlvVbANxl1dNqMNCo9+gtpNqFQR+oPr0L3C0tjb0YlF02NYYgBMWoBM+sAzbb/TM
-8SP3RXVCS6uWaWkGPIglyNI2rZDzuRLKyKyX8F3deV5GegeNHcp5ADQUA2voPieB
-+kg9MEosgRRFGIk5+jDHG6A5q8MsAB1Y6EpT/xyliXS2QGAzHlfwZkYN3PiRSx88
-wqX8oATkUOeVbml/ozY+iLK9bciVE2JaJPVbxXiE43/ElIUzjUFArXZB1wfXAoe/
-L/w3o0gWx0MNSsrSQowoH0vSPBCpG7bz3r/hMouwoS7seu3f5uc+udQ3QtJPBRcR
-oFut9PFLUQnHxMI/829m4cMUsCpsIeEeoLxmR7LhMLgF6OlE3B/9ewvR6EycT1bq
-xPFEKBruKO7P6K2GIxSMwBErYCf4fK2iB6LCzDzdXrX+cF/4YynnqZh1vvCwTZZS
-UVvrmTUaVPClLSTbyU8eZ8uN7b3OXua1nZMxY80Xx3pmwnHo7k6Uk76Ztc/Vzf/V
-7sfaRKKpHhSqEKhszaghmVahEg7wJYCJy5Qb9CNgY2UfSTE0ySx6wde5G+wmmySJ
-lm8zrNSlZMeiG48+6+0SzdxB
-=NqfZ
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmED6FUUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP9Gwf7Bi9McRERtCe2+CwGAGVB/wt3tDyl
+Hm/UBFV7dB4dKub+yh5ZGouTc3HQMKFwtSLpt3dVintI51roYKWXtS1kc5ARNWUS
+fCN5ndwxY49iGPQ0dRm4gP2hwgAMMqNa9PazDUFAcMky7QP6X9xpyZ1eGckjhQBl
+ARUtBVlNfKqJH9yH9w1gUBWw2oE3vEBpC0dC1qL+ZE9i4+oqd1jkr4rMgNT6dOgL
+FIsaafmcVLo2b+xwYmEFLtP0ZKtJ1IinGuylwKcP2fn0M0sj0um9t9rLhI+kd1Qe
+IvEaJOXCyotrivZjwMuxA9gbqXHTGebotGK1ndHNzqKoAbpwsm08Q1d8nA==
+=4yEl
 -----END PGP SIGNATURE-----
 
---===============5369056101875989409==--
+--===============6681680334209903636==--
