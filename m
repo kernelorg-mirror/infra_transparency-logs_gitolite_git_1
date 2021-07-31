@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 31 Jul 2021 00:30:18 -0000
-Message-Id: <162769141829.1622.3018573627646894639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 31 Jul 2021 00:41:45 -0000
+Message-Id: <162769210504.7932.11329581582447214917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 5eb7525e2f7338ea6b817c145a9b4da60e6871d1
-    new: 2d8caf24073c3091e1fc6ff33ff11497552ccb1a
+    old: e19b3bf6e96fc80fa2eaa0dc3b13e51de2bebd1d
+    new: 81ac880aa626e77f92caaeb76edb3def70355a0b
     log: |
-         c22ab0542dbfef84a0d24212c1aa263e0a80edac datastruct: Add comments for test-strategy additions
-         2d8caf24073c3091e1fc6ff33ff11497552ccb1a datastruct: Add validation section for hash table
+         81ac880aa626e77f92caaeb76edb3def70355a0b Sat 31 Jul 2021 12:41:08 AM UTC
          
