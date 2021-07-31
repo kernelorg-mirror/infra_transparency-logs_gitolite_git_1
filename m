@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8504084701544147746=="
+Content-Type: multipart/mixed; boundary="===============0951660513246933816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sat, 31 Jul 2021 07:26:39 -0000
-Message-Id: <162771639906.20677.17943378415402548377@gitolite.kernel.org>
+Message-Id: <162771639987.20774.12899366965514997737@gitolite.kernel.org>
 
---===============8504084701544147746==
+--===============0951660513246933816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,73 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 21f3893a7df995a856fcf80bc56cbe06a81b9a88
-    new: 72acd6f4edb78cbf511e9c3f5ebeff7de4c36d05
-    log: revlist-21f3893a7df9-72acd6f4edb7.txt
+  - ref: refs/heads/linux-5.10.y
+    old: a542d3db70720dd7404be4afceceb336dc5702f9
+    new: 65d2f1e1446bd6469b036a0c7c80bda078adbc02
+    log: revlist-a542d3db7072-65d2f1e1446b.txt
 
---===============8504084701544147746==
+--===============0951660513246933816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627716397 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627716398 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1627716395-eb7eaf27c8965a6073e4e5a92936543cbeba5a83
+nonce 1627716397-572fa5e7488e2eb0d5802109e4f6d9a36060fe97
 
-21f3893a7df995a856fcf80bc56cbe06a81b9a88 72acd6f4edb78cbf511e9c3f5ebeff7de4c36d05 refs/heads/linux-4.9.y
+a542d3db70720dd7404be4afceceb336dc5702f9 65d2f1e1446bd6469b036a0c7c80bda078adbc02 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEE+y0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d+UQAJ5aXZtF9OdsRsMBYxwK
-Pw1hSme/5FBdg/Z0j/dDp6OF4krfZz6rT1EPwT5jB7GKO+sCUHVgT1ri4bvBJoxI
-SFlqXMy6WYKMZC17kDuAOZAcVzw0wCKIPoaGnstOfCx2sX141K6Dogza2TE3+ynd
-7ZdionEb43HbCE3TaIbm+AqMdlNdN4+E6HX+dDA46h3UCpPbDrgYpHRnLw0iSM1B
-69dDqC+YB0dQBnNVdWnXhvRugf3n/hFKL+BiE2tMgLAhumxn15L+6glO/VGgNbiW
-kJJg48Eir1uFp0q15HnszOLhzvpOXPM5v6M+PghECRbyfB3z9ouurOzE3iD8CKl0
-mQQWNuOY+5eN0rSFtpCaE8+RMLVrUkyONRK3dzhL8nLIS/xgTeEtRSiMdX77uUtS
-4f3naqp0uEpjK5TXwqg5MzaGG/NNzbKHdQrmqRhu3/NFtQSz9R8sCa1tZqUgC13V
-p6Qi5Lud4exS/vGcU4yRiawguviilTDO8byg1+sCr2JSgPv+80UZXg62Kq+3IdM4
-mUxQ1FVe6Plo/pd+UQXGuiRCKkCp6taEO5t4BtMkM7PhdVDC71pqSCM+6r6JNjUR
-tC6aPleWznqnXSMl8vXpoVmxSroVHJ9d+pv5wNH3PdPHC5OuErroublMxvDxb74d
-y3/1cwEsyju9qpIG2eqr/tui
-=Dy8L
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEE+y4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aVAQAIn47dtqluRZPVZ6Nu6j
+fIEixEQN1i1wg1tD3avCaumEEFGRcpJyHUmCXkVfqk1BQ6ke46RyVDXRtqzom7im
+fcBETBxHtcFYKQvZ84xngdZ3H0E64CO9QRjcggPU5y8c6KxGY9FKGQZjAwZ/lwvo
+U0IqJGyIXW+ISFPFFojsHYM1Wkt5sdwbHmyyFHSNNZQLzvJGBf0ZqfzcGARZfcSA
+8d9hZVZOd9Bu/tkFbeAOFPApTK4jzCnVGjKXvZDYlFJB8pA3JVoQNUDb7VuJbji7
+pWecVT8gJQowaKK6z4obTvdWcXx+Zg92YCayDGV4wn0Zs+HXMWchYgqhmYLtIqMZ
+Hii/qNruCLRyDqHx1F6V654ZNQohqPINAEUyAMBDE2ukldbMYzGXRPJcsJDqTc26
+ABvpo5R+RrxDIDBQe1e2dVZMe432jrE3CD2MDYxQQkhUSzO0Zb9hSKBTks10la3H
+tR7uwhKc7PB526mL3PqylwzxMmtHPvY7evNzI7RTYLk0KZzU4QQM/XN8stYphmdh
+rt/HQdW3gZoEM+yfrSzyT7BFDKMOgHuPbarj5CACDMzw6xJsRYmDqK9P/UK1wd9t
+G5+K/zoT41B9IoOY9sT+7PbQ5JF+BYF8IvSG9XGlJgzw//CEMbML6gGicrHytzWV
+pFiaVwIviIHVGwWe5BPiWe9W
+=aybo
 -----END PGP SIGNATURE-----
 
---===============8504084701544147746==
+--===============0951660513246933816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21f3893a7df9-72acd6f4edb7.txt
+Content-Disposition: attachment; filename=revlist-a542d3db7072-65d2f1e1446b.txt
 
-f2bb6200a27e362c0950023791fecdf33e908f0d iommu/amd: Fix backport of 140456f994195b568ecd7fc2287a34eadffef3ca
-4e8d66cb3275576cf07937cbdf92fb20fb939f6e tipc: Fix backport of b77413446408fdd256599daf00d5be72b5f3e7c6
-568c8d143529dd0975d654c5449a4f2766761857 net: split out functions related to registering inflight socket files
-59d2455adeb16cdc7118369a6b0a808444e00476 af_unix: fix garbage collect vs MSG_PEEK
-a58804e07755c8eb11a56ab5a3fcebfaf8742bd9 workqueue: fix UAF in pwq_unbound_release_workfn()
-2feb6c738044910050b59574039a14dd3cbf83dc net/802/mrp: fix memleak in mrp_request_join()
-69ed517d35625acb36798037779454e096ef0a7f net/802/garp: fix memleak in garp_request_join()
-4455295bb3b4c47ee47af2ff6e252e4c0cb00bf6 sctp: move 198 addresses from unusable to private scope
-425684ae6d056902c70a5ba827b08e5ce35de3ff hfs: add missing clean-up in hfs_fill_super
-43a9c3c6307e25c990dcb09d9dff67bbd4ad19e9 hfs: fix high memory mapping in hfs_bnode_read
-ab1cb710ef338889307ba89e748d788d354c4386 hfs: add lock nesting notation to hfs_find_init
-a9380f6ed60b1df20741eca79e8e857a18486316 ARM: dts: versatile: Fix up interrupt controller node names
-3f5680817d27fdd2f478b39a6f55789e232acc69 lib/string.c: add multibyte memset functions
-07cbafbce70c170b4686ade5b10abd7a8ebf5f4f ARM: ensure the signal page contains defined contents
-8fcb7652fcbc9aebab8c6673a0782963cdc50021 x86/kvm: fix vcpu-id indexed array sizes
-67c96564bb67671bbcd1030563cc269cb8192b75 ocfs2: fix zero out valid data
-f08e265d12354aed74f3c1642a94b3d61a1655be ocfs2: issue zeroout to EOF blocks
-a4cabb9ef9b960301aa5572aaabb585e36b4e1c9 can: usb_8dev: fix memory leak
-0e7d54c2a812e21eb4bcdfea9be61bf7f077544d can: ems_usb: fix memory leak
-0858b96a8871cd8499b2344e99a0c986fdc69a92 can: esd_usb2: fix memory leak
-8ff1e748345d1448b7b1d260cd6ebb71cb1b3f81 NIU: fix incorrect error return, missed in previous revert
-fb49875356d4cedcf1b0f5ca17559f8e287adffa nfc: nfcsim: fix use after free during module unload
-3b74090d4e0a9e7150e10a05956c7fbc80e1404f x86/asm: Ensure asm/proto.h can be included stand-alone
-72acd6f4edb78cbf511e9c3f5ebeff7de4c36d05 Linux 4.9.278-rc1
+12c6d788869bc7df4033bd2be0118168aabbd962 io_uring: fix null-ptr-deref in io_sq_offload_start()
+f96918682ee2bf72fd3b2c6a440c2c1f7d667780 x86/asm: Ensure asm/proto.h can be included stand-alone
+c57803d9940467fc1e648d1e9d8ef53f94e1bfe9 pipe: make pipe writes always wake up readers
+dc068d08e83270a9227b4af944cebef19aec6a04 btrfs: fix rw device counting in __btrfs_free_extra_devids
+0f2d9bf137674030e63daadf69e4b7f8647023b6 btrfs: mark compressed range uptodate only if all bio succeed
+e59ab9170054a7da86be03d134c54c61c934475b Revert "ACPI: resources: Add checks for ACPI IRQ override"
+af1c6dbb78b3ce25d6571d014a99832d932c1c06 ACPI: DPTF: Fix reading of attributes
+89c429e11948647972ea6878ef532a70cbc31b49 x86/kvm: fix vcpu-id indexed array sizes
+7edd243afdedbaedca3f817f2316054d2e5e92a0 KVM: add missing compat KVM_CLEAR_DIRTY_LOG
+a4174e8261fb431019baeb8a4cc386b32a8a8216 ocfs2: fix zero out valid data
+0f58ff4ac32f882457ccd17898510513318af8b0 ocfs2: issue zeroout to EOF blocks
+c1a15d6bd0b5c1f47daab418a455409c7c1d51c9 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
+1d5ad2ccdf1771594d990e1c5d6aa92de4c33a0e can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
+3dc403fa35d27960800257b40bd9544e6a1e6a41 can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
+5747625446218958df35bcfe7646a352fbaeae31 can: mcba_usb_start(): add missing urb->transfer_dma initialization
+02a8ea4145ad649b74fe2644c1a3cb491dee190d can: usb_8dev: fix memory leak
+b8127d470d62e1ccb69d7cf52019a0d965f983c8 can: ems_usb: fix memory leak
+99a6487ea7cd85b8d8ba4e1bfb2d0ce76c7a148d can: esd_usb2: fix memory leak
+8c274f6ea716b764decd79f3982f8a06147ae250 alpha: register early reserved memory in memblock
+e3b038136ad8c04c42b03ceca4cf4159b2ee2b1c HID: wacom: Re-enable touch by default for Cintiq 24HDT / 27QHDT
+0b99676f3f49be6ee78822d36734bbe6c0fe0325 NIU: fix incorrect error return, missed in previous revert
+3fb4c1a515ed5b43cc3858021ed173194c35182e drm/amd/display: ensure dentist display clock update finished in DCN20
+27b716d8d6333c580908156032f2e983bc5a9c27 drm/amdgpu: Avoid printing of stack contents on firmware load error
+5911a936cb9b37cf816e672531fa455d03bfddf5 drm/amdgpu: Fix resource leak on probe error path
+e3f1af31106e5b7e2a90a511e9bf46df2891e1f4 blk-iocost: fix operation ordering in iocg_wake_fn()
+8ac74c40ccf4f9949db8b3df27407b1916a2b225 nfc: nfcsim: fix use after free during module unload
+65d2f1e1446bd6469b036a0c7c80bda078adbc02 Linux 5.10.56-rc1
 
---===============8504084701544147746==--
+--===============0951660513246933816==--
