@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1806764153170229786=="
+Content-Type: multipart/mixed; boundary="===============6085754000886066451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 31 Jul 2021 01:38:32 -0000
-Message-Id: <162769551238.11866.3526315040470129193@gitolite.kernel.org>
+Date: Sat, 31 Jul 2021 01:59:19 -0000
+Message-Id: <162769675925.25431.16957049986361369495@gitolite.kernel.org>
 
---===============1806764153170229786==
+--===============6085754000886066451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,69 @@ repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
   - ref: refs/heads/mlx5-queue
-    old: 0b83d601a7322947a86b7575eed0ba7b45ee10a4
-    new: 5e135d6cbe3690a89d536dd21e373ef7e03d957c
-    log: revlist-0b83d601a732-5e135d6cbe36.txt
+    old: 5e135d6cbe3690a89d536dd21e373ef7e03d957c
+    new: 7510c60bdd21d1fb4527e2accb038ae3749710a0
+    log: revlist-5e135d6cbe36-7510c60bdd21.txt
 
---===============1806764153170229786==
+--===============6085754000886066451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b83d601a732-5e135d6cbe36.txt
+Content-Disposition: attachment; filename=revlist-5e135d6cbe36-7510c60bdd21.txt
 
-1ef0fe04391639016372754e4ee7d114747da831 net/mlx5: Fix typo in comments
-2f05d7ef6587bd469a58fe97c486f8136685be7d net/mlx5: Fix missing return value in mlx5_devlink_eswitch_inline_mode_set()
-8bdb9773e313d4f26d2bb40f6124e3b497e3beca net/mlx5e: Remove redundant tc act includes
-ea520b1c2998b95050399fa3fb0f7dbcb4107017 net/mlx5: SF, use recent sysfs api
-4d2423c88d679a77f2ef4ebb9bb1fc95f5e6cdf6 net/mlx5e: Remove redundant filter_dev arg from parse_tc_fdb_actions()
-a2501f816f55e61eef6e88e5bbc6f06406ab2ef7 net/mlx5e: Remove redundant cap check for flow counter
-ae5d326a1d52ec8e9b4b4979cd276362a6a3e5cf net/mlx5e: Remove redundant parse_attr arg
-3cc0d965129f2a32fc5a7bd5b6817c0c548e3f8e net/mlx5e: Remove redundant assignment of counter to null
-d09ecc15134ca1573d655f9653fd1e8dfb49fdfb net/mlx5e: Return -EOPNOTSUPP if more relevant when parsing tc actions
-31597e5c5da298b709d3fb082bfbf4a1b1400b8c net/mlx5: Reorganize current and maximal capabilities to be per-type
-7b0d6c7e503b668a82d832d33fc61956f3d326d0 net/mlx5: Allocate individual capability
-ca06fd23dad0a093b17494a3a53a1a9acfec1e1e net/mlx5e: Use a new initializer to build uniform indir table
-3e9a792b618dfc5d859ba3731d3e084f04cfb182 net/mlx5e: Introduce mlx5e_channels API to get RQNs
-da423482b8198c71e5ba945432cee001a2f5603e net/mlx5e: Hide all implementation details of mlx5e_rx_res
-4d360c65aaf97ef10e73165051043f1e7ad6159f net/mlx5e: Allocate the array of channels according to the real max_nch
-544498c1d0cf8f6d9c415b6bf79f262b3e39ecec net/mlx5e: Rename traffic type enums
-655c9c72e49d9653cb73dc838476710516e238ef net/mlx5e: Rename some related TTC args and functions
-f56e97314055d6a8b82b3203459cb821baa05c11 net/mlx5e: Decouple TTC logic from mlx5e
-ef9edd9548704c153c11aa1e6542db2f0e16aa92 net/mlx5: Move TTC logic to fs_ttc
-ad15cc19fb1ae0555696431efb8ad027fa2cce62 net/mlx5: Embed mlx5_ttc_table
-dee455fb84bd4ead6f540cf6ec6991e343212f27 net/mlx5: Lag, fix multipath lag activation
-ef0dbb4ff43c19ddaa9a5cd1bf960cd8662bd0a6 net/mlx5: Return mdev from eswitch
-cd4f6b3e352a6858a05f43c4ff366520d67f75e7 net/mlx5: Lag, add initial logic for shared FDB
-9c2c9c603ec5aafc804a1eab6ec55692a4e6ed09 RDMA/mlx5: Fill port info based on the relevant eswitch
-0e4a3bf67b6b5cd0ba3ed427a66992ed415953f1 {net, RDMA}/mlx5: Extend send to vport rules
-8458a823339887398a8cbde68157677ed9089a0f RDMA/mlx5: Add shared FDB support
-b1298366998febcf2eea7ef382303772d15d8a21 net/mlx5: E-Switch, set flow source for send to uplink rule
-de484327427486106fe89c2b6bf3e9c440ee3740 net/mlx5e: Add an option to create a shared mapping
-52db628ad94732289d147a8bdbc67f126857a20f net/mlx5e: Use shared mappings for restoring from metadata
-aa2b18b618fe795b005e7f0a5198504c1c4ea0d9 net/mlx5: E-Switch, Add event callback for representors
-013f5cd559581f7155199d33e49db6803aa290c1 net/mlx5: Add send to vport rules on paired device
-b3fc04a563d82e9cb3d74108b4e4cefcec75dcb1 net/mlx5: Lag, properly lock eswitch if needed
-a2cf43767e65dc5ba9bdaefb73ac1ed5ea94683b net/mlx5: Lag, move lag destruction to a workqueue
-925caa8a761870b7d9d61e611e9ca60cde8d3f3a net/mlx5/ E-Switch, add logic to enable shared FDB
-9ddfcb27b86fa6da0e363298bebb4cdf497e5662 net/mlx5: Lag, Create shared FDB when in switchdev mode
-523ac812d55a6e37417be0a8eba02c0eb95da77a net/mlx5: Initialize numa node for all core devices
-ca718e6c16492f4fad631a40d04508e6a6bcd9f6 lib: bitmap: Introduce node-aware alloc API
-9428cb4f4172156821c6c8a641705f44da2e2aac net/mlx5: Node-aware allocation for the IRQ table
-8606a0bb62a2926e5aa073b6c90ad034ef197e25 net/mlx5: Node-aware allocation for the EQ table
-8d83dd0d575af9e4dc679cbc47ef016fe07458ed net/mlx5: Node-aware allocation for the generic EQ
-409dc014bdac84c06ba9d7b6ff3217779b7eecfe net/mlx5: Node-aware allocation for completion EQs
-f3b4323d34cb6ed3794e701eb4ca5bebef1d81b7 net/mlx5: Node-aware allocation for UAR
-734a803a6a7a9f69bccf03d3fee07d5e9855def3 net/mlx5: Node-aware allocation for UAR bitmap arrays
-4740c82dacae511a22f6696801a3e71ccf6f1a30 net/mlx5: Node-aware allocation for the doorbell pgdir
-c81edff2344677271f89087f462bf20f506d7a56 net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
-b02c5904e5a60d05638d0991dd0deb23f19a79c6 Merge branch 'patchq/397917' into mlx5-queue
-30d570193a750310d09541664e69736bb88d5002 net/mlx5: Node-aware allocation for buffer metadata
-18a69ba9256aa4311ab52a66e766b8b190b19736 Merge branch 'patchq/417107' into mlx5-queue
-4bfc9369497ad67bfb7976f92bb49c0d5418bbec Merge branch 'patchq/414336' into mlx5-queue
-a28a45331df45b9d092b75843471028c4b41c9d8 Merge branch 'patchq/412107' into mlx5-queue
-287c05282ccd5ce450cbb5b0cbcdd998e2557db2 Merge branch 'patchq/411074' into mlx5-queue
-2edf0944423f3bf87dba2831f46e351bb80d4c1c Merge branch 'patchq/400401' into mlx5-queue
-2849cce6bd0bc66674ca9b04b2ab6ade62adfa77 Merge branch 'patchq/407396' into mlx5-queue
-5e135d6cbe3690a89d536dd21e373ef7e03d957c Merge branch 'patchq/362918' into mlx5-queue
+18b5a9c064144c1eb79cea995660aac98cdd8a65 net/mlx5: Fix typo in comments
+bab2bc868b2640ea49fcf1cacbfe5b9c9f2e90bb net/mlx5: Fix missing return value in mlx5_devlink_eswitch_inline_mode_set()
+a9cca179085bfe8a465204096229a480603984d4 net/mlx5e: Remove redundant tc act includes
+65013a7f71c7f3b2034220edd30d07d24fb575b2 net/mlx5: SF, use recent sysfs api
+93e8c9d34693c2a9d24b79f77d4e96471703f243 net/mlx5e: Remove redundant filter_dev arg from parse_tc_fdb_actions()
+6d80c51d98c9d0e9e9fe7c9bda3a69ce77606533 net/mlx5e: Remove redundant cap check for flow counter
+9699feb4732b9b5e723f42cd31c53cf424769bed net/mlx5e: Remove redundant parse_attr arg
+df058e01cda6c1b719aa2851a858b9cdf0b24eca net/mlx5e: Remove redundant assignment of counter to null
+6593c9551267cf5226b96101daa264040f996b39 net/mlx5e: Return -EOPNOTSUPP if more relevant when parsing tc actions
+f154713455ca68faa5118717f25d467e45cb56a3 net/mlx5: Reorganize current and maximal capabilities to be per-type
+89446f511e8f589f027361cf3d2a4184f69f6458 net/mlx5: Allocate individual capability
+42376624b2d92b6c3ec8ed802601216e46193e86 net/mlx5e: Use a new initializer to build uniform indir table
+9e104fdda1694e219e67dd6eef15a1a1fb8933cb net/mlx5e: Introduce mlx5e_channels API to get RQNs
+8cfb0dbbca1282b5921d2eabe5e0fe89f7316a37 net/mlx5e: Hide all implementation details of mlx5e_rx_res
+298e38335bf80be0c3cf55a2e9a8c062dbfcc6c4 net/mlx5e: Allocate the array of channels according to the real max_nch
+f02602390e9c1598489401ae549205eb4ba596af net/mlx5e: Rename traffic type enums
+51569dec27ee0cc471d2189264d7e0069b16ae79 net/mlx5e: Rename some related TTC args and functions
+81a352662673841f3a5b0e5deacc3ef3df3ba792 net/mlx5e: Decouple TTC logic from mlx5e
+2bae7cc2674e5d985caf6bc9b4220b765346328e net/mlx5: Move TTC logic to fs_ttc
+da8a643e8fe0f31afa618e322865d19a77d5b04a net/mlx5: Embed mlx5_ttc_table
+0a5db6aeb65da551a5a4276bbe2af2626dcf778e net/mlx5: Lag, fix multipath lag activation
+bb2aefa87771da4c54d545829b4949086bc3e309 net/mlx5: Return mdev from eswitch
+c761919bd1fa0d6c33f4f4a18256759a38f6972e net/mlx5: Lag, add initial logic for shared FDB
+51dadedeba4e1daf887a4b0a71d78dbc271ae1dd RDMA/mlx5: Fill port info based on the relevant eswitch
+6b80dae1bbca69ad3059998ce259459c5ba5ae8f {net, RDMA}/mlx5: Extend send to vport rules
+fe807cb256d4416dc58366a0c707dd3586357dcd RDMA/mlx5: Add shared FDB support
+18b6bad17c03b276e2e61d508263018ca4bd8fe7 net/mlx5: E-Switch, set flow source for send to uplink rule
+90d2e6523adc4b3f1346d2678906d15ee3f3349d net/mlx5e: Add an option to create a shared mapping
+ca7da0cc79f2ef5731d2e84d13fe9253566c6e29 net/mlx5e: Use shared mappings for restoring from metadata
+712b9164dd7ab1f6b007619c9fb9a6b3bb0baf23 net/mlx5: E-Switch, Add event callback for representors
+2956eab715ff2874ca056fa4834280cc9263e645 net/mlx5: Add send to vport rules on paired device
+352480c98c125fa499e3f538ae7cad0a2713aec2 net/mlx5: Lag, properly lock eswitch if needed
+7e31b9abd64f6602ea494e301be5aaf3e4574bde net/mlx5: Lag, move lag destruction to a workqueue
+eaad62d0a3132ae2e63cd3ea87becdcc48940cf5 net/mlx5/ E-Switch, add logic to enable shared FDB
+5610dfb1662386563855ec1b226eca8ec580d699 net/mlx5: Lag, Create shared FDB when in switchdev mode
+1850b5c698bb10ef1ff8cfe63abc3857452c9d01 net/mlx5: Initialize numa node for all core devices
+1f9a1200ef090525b4775e1c7f445376ec0c60a3 lib: bitmap: Introduce node-aware alloc API
+fe3c01dfc8cb4edcaaa8324456c79fb98dd64957 net/mlx5: Node-aware allocation for the IRQ table
+ba8d0e8f687c53c0bef532f321b1a82aacb21229 net/mlx5: Node-aware allocation for the EQ table
+5ad96039b9e7970b778d1a19e8e49c7ef6ff6ef7 net/mlx5: Node-aware allocation for the generic EQ
+08edaa424a2160540621e6295003a73fb13b75ae net/mlx5: Node-aware allocation for completion EQs
+c7481b4c3c2ffd8af4fac21bc9c88b0d973ac73d net/mlx5: Node-aware allocation for UAR
+2b3bf8b757ebbd49e950a7815af63584d9ef5f23 net/mlx5: Node-aware allocation for UAR bitmap arrays
+57ad6297a06aa6779d273b60d9c95cbc1e2f271a net/mlx5: Node-aware allocation for the doorbell pgdir
+badff325e7076c65c9b244b7ab0ad48faf04f868 net/mlx5: Node-aware allocation for the doorbell pgdir bitmap
+c19baeee7670120be025ac52b33ba502c2af93ee Merge branch 'patchq/397917' into mlx5-queue
+d08a22462d801e4bfdf3ac9e58d4afc59fec8c38 Merge branch 'patchq/417107' into mlx5-queue
+8d3860b9707c73bf0fbd1d9c841b3d1aa1953178 net/mlx5: Node-aware allocation for buffer metadata
+5d70c3cae5db357a60370fac9de4f6a6fa89d528 Merge branch 'patchq/414336' into mlx5-queue
+fd74f61c13bb13c8a0106e3e83168e93880a5420 Merge branch 'patchq/412107' into mlx5-queue
+1213c1ffca60d560ac8cd657f24b3fa29ad5d207 Merge branch 'patchq/411074' into mlx5-queue
+f25165ad7d66689d30632901b03f8eabe30b2c43 Merge branch 'patchq/400401' into mlx5-queue
+020ada2ccd031fcf5f232f7696c1edc6a952d3e4 Merge branch 'patchq/407396' into mlx5-queue
+7510c60bdd21d1fb4527e2accb038ae3749710a0 Merge branch 'patchq/362918' into mlx5-queue
 
---===============1806764153170229786==--
+--===============6085754000886066451==--
