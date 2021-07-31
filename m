@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4612411969012173514=="
+Content-Type: multipart/mixed; boundary="===============5036869731950424296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 31 Jul 2021 00:29:19 -0000
-Message-Id: <162769135987.32041.2937922850948165818@gitolite.kernel.org>
+Date: Sat, 31 Jul 2021 00:29:31 -0000
+Message-Id: <162769137135.32189.13470176134513515884@gitolite.kernel.org>
 
---===============4612411969012173514==
+--===============5036869731950424296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 27932b6a2088eac7a5afa5471963b926cfbb4de7
     new: ff1176468d368232b684f75e82563369208bc371
     log: revlist-27932b6a2088-ff1176468d36.txt
 
---===============4612411969012173514==
+--===============5036869731950424296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d1b178254ca39a89b3c6407e29e87dd25734399e Merge tag 'locking-urgent-2021-07-25' o
 a1833a54033e4ca760ad58fa2a6469ad59b3fa1a smpboot: fix duplicate and misplaced inlining directive
 ff1176468d368232b684f75e82563369208bc371 Linux 5.14-rc3
 
---===============4612411969012173514==--
+--===============5036869731950424296==--
