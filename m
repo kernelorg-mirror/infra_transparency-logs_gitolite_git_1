@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4553283811561445454=="
+Content-Type: multipart/mixed; boundary="===============1020967840539344404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 31 Jul 2021 07:26:03 -0000
-Message-Id: <162771636369.20038.130006730256273553@gitolite.kernel.org>
+Date: Sat, 31 Jul 2021 07:26:04 -0000
+Message-Id: <162771636454.20118.3425133750076892391@gitolite.kernel.org>
 
---===============4553283811561445454==
+--===============1020967840539344404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 11fe69a17195cf58eff523f26f90de50660d0100
-    new: a542d3db70720dd7404be4afceceb336dc5702f9
-    log: revlist-11fe69a17195-a542d3db7072.txt
+  - ref: refs/heads/linux-5.13.y
+    old: f17352f54186bbf084d147e15efb5340430aacae
+    new: fac9dcc4f758b1299fc8e3323f26ac1cf7acb803
+    log: revlist-f17352f54186-fac9dcc4f758.txt
 
---===============4553283811561445454==
+--===============1020967840539344404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,59 +30,66 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627716362 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1627716361-4b05cbdc2a53f1f7acc8382d8d3cfb842ed2f49f
+nonce 1627716362-de0786a8dff5ed7f99e2d2fdf705fc4609d38747
 
-11fe69a17195cf58eff523f26f90de50660d0100 a542d3db70720dd7404be4afceceb336dc5702f9 refs/heads/linux-5.10.y
+f17352f54186bbf084d147e15efb5340430aacae fac9dcc4f758b1299fc8e3323f26ac1cf7acb803 refs/heads/linux-5.13.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEE+wobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JFQP/jshk0aZ2XbdLC6smgBi
-0ScqXwj9o5lfyTzXb8a9k9Z9+sXaQ21YmmY3KbyfPcxkC+tBJqwnoO3HR8sLCM24
-YNz2/AbTtqryWnGClg5H53c1Fo7rjh6aJbeN3+7hvxQw66P7EWf8rZWvwGdKeDja
-RPGEdq726eGrVmjNKirEXfbIueGwLMglzl1f1WpRkWfiwRntfyj4VR39llXMRI2f
-YjHhNqg+Z+9G75x78kRtsYBzyUqypmX9I6KZZR5L/nkJHBG2g/jW9mTy3bS4z4FL
-ZrMRCZUQYQFTQDoH4Q5242LYY3FhfotlqszznjKXrBUJI46/uaHOK99+FayZOtnt
-T217ngY2azC3HE16/grcOT+AsQEIUR2kZnEcmfyanRFR3KqJ7EvB4TN7TRLCoAib
-J7dXCQd8k0+Z+6efDDQypN4U1N4Z0IqKRjP9noOZm6AJvzrKrOcolJ9OwAhZsmJm
-K75DYbP3zf76RPbwXGGUx5aydiqON/nCDELKv8tNZyQayblbYSu8xv0matEybeju
-KmnLzST4i6ypVY7EIky0yjSI2a3h7vA49xfFZCJSLVWg2hiTsVgvr1RlDy+hPsLb
-KTmz7XgIAKUMV1eEfmOBOlAYhTMH4clVxNwOCeyO1psXnrXaFI2oYqV7rgXvTb6D
-H/E/FXAZ0AtlDSsYk04PHldW
-=culB
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yr0P/0AonCl44Wy+bVe2BF/Q
+oFtprFT9jDghV0U9SK65v4OLtXmdHaS3/ymS9pvJmSTiPsSskMNyQfq3D4gc4A6a
+ohQAIAQBxCdVY0nYoNSg9U9el3f5XfC8ZyjhxYw4snXzCZq0wyTl5WDYKL/NcVQ3
+Fk10hxe9jlVi24iSfdyhS0jXhAGKBrq095ZbS68+cJwSi3oRQ78pe0lTxoXQWb7o
+rHuyhoPjECvAxh7E3SJ1CL2pe9nSa+Kd/uQ1VRCG+QhNS3Tmbv6U9EtpzeSnjAbq
+fdHv7M5R3fppbK4B/8SRV8vgbi6BBtKIIpJyuZaYXoMKFwMQlIbM481SLDQL+iPm
+GrXz8FeUv0hOpjejdWJ70RIxg/toRYE5dDwv1PhPWNlV/UR6e61VSdyzvlVEQtMj
+JQfuwj8e4u4uAPXyZ4QM16lVxYCtzRjPG84zMCqfA/yWgV4WdSfv0jy5UsJdwlQr
+z+wV3O/vIeffPf1wwsJydBjDDX6k+R3+8/P+BQ50dDK2Rcn+gVF2P5mxhj2Fgvx5
+08c8YJD8iSctklVZqi6xNJO4bYGOzzlu8KUwbMlfaqC5SaCQzhOK6AGQ7CETv8Hk
+XBN5OFBfpHBV/zyO7UQ9ipxFIJ3aZCBE3YelabYzBoNs0qG9Xb37dZBsHkS22hJj
+b4bU22JIrem6ddJnVjKG5cBf
+=DijA
 -----END PGP SIGNATURE-----
 
---===============4553283811561445454==
+--===============1020967840539344404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11fe69a17195-a542d3db7072.txt
+Content-Disposition: attachment; filename=revlist-f17352f54186-fac9dcc4f758.txt
 
-8fcc437003c787a60e1eef5f009efef942dc0fe6 io_uring: fix null-ptr-deref in io_sq_offload_start()
-07289607a6b3ffce58bbb748a75c6e1e366fa12a x86/asm: Ensure asm/proto.h can be included stand-alone
-a087aae3a522e54320df3569a1e6918f034be9f6 pipe: make pipe writes always wake up readers
-57ec7a7a8874b7a5b00cef118b73947403a7aabd btrfs: fix rw device counting in __btrfs_free_extra_devids
-4f1450c1940eb455557f29dd2880118d28032330 btrfs: mark compressed range uptodate only if all bio succeed
-d015bf4ffca0631f379eca6ba8db3a8d2c26400b Revert "ACPI: resources: Add checks for ACPI IRQ override"
-0187e86803c3803003370f2379dee81950893b2b ACPI: DPTF: Fix reading of attributes
-185b20a77a53107df1b760f580ceeb5468434265 x86/kvm: fix vcpu-id indexed array sizes
-cce1b806b314f30b726c9a1e1bfd2dad046fc68e KVM: add missing compat KVM_CLEAR_DIRTY_LOG
-9558e4259c7356bdaf60ed683ad3f8a89adcc75f ocfs2: fix zero out valid data
-937586a29992f16c0cd4b5847e8f037bbb73f42f ocfs2: issue zeroout to EOF blocks
-7ac3ab59b1eee16c42914c7ef89fecba278b5e01 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
-d18bc19510ee7db2e7d41682a499d0b47c7d981a can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-0089b73fa27caa0a065f63df5e7c50e82d1aa25c can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
-a0453af1678712ad27daa07d86adfb9b53211335 can: mcba_usb_start(): add missing urb->transfer_dma initialization
-46bae437e32869ab3010da6dde90669be6847c57 can: usb_8dev: fix memory leak
-388feb54b20e8f947f600abda67cb41ba7d3af93 can: ems_usb: fix memory leak
-6f1c9eae2ed330694503d6ce4a251dd2611b8e23 can: esd_usb2: fix memory leak
-2e9560ca35930c0e06ae2fb0f431d86a91d27e4b alpha: register early reserved memory in memblock
-5ddf1f1d1450dedf01561b12f8ca2ddfa166b092 HID: wacom: Re-enable touch by default for Cintiq 24HDT / 27QHDT
-71a16a04719e2664986fb9e0289bb7614556648c NIU: fix incorrect error return, missed in previous revert
-858693154ed54817dfd340cd9656fc9e7d38f266 drm/amd/display: ensure dentist display clock update finished in DCN20
-4de676fd259a0038301a8fe8b25c231b4de4c35d drm/amdgpu: Avoid printing of stack contents on firmware load error
-98845a777a0d153887b0b2601a3e3d2209473b82 drm/amdgpu: Fix resource leak on probe error path
-3409e7290c2dfb96c91b559522468f1e397295f1 blk-iocost: fix operation ordering in iocg_wake_fn()
-21b11c2ffdb93a237b6101738ab0d75b2f92271a nfc: nfcsim: fix use after free during module unload
-a542d3db70720dd7404be4afceceb336dc5702f9 Linux 5.10.56-rc1
+d4bb560780702213a9793d77082618c2879fc5eb pipe: make pipe writes always wake up readers
+ef951254b6a2b86582ca82fb675ca2115ee1d6e1 fs/ext2: Avoid page_address on pages returned by ext2_get_page
+ac5aad6290cba7be8f00f4c464fd71a60b90d744 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+c7fb63187b80048001322c07e6e3160747b2e73c btrfs: fix rw device counting in __btrfs_free_extra_devids
+712a950cb43e538b5c4c6ca823b681eea389654d btrfs: mark compressed range uptodate only if all bio succeed
+3c2ad749f5849ecdd03313e716c7cb91ee6bea7e Revert "ACPI: resources: Add checks for ACPI IRQ override"
+d788dbddf8ead54747514a46d7e2ba57d0ca0440 ACPI: DPTF: Fix reading of attributes
+d220cdd7b16a0cc1e3f86499e510c86110dfaaf8 x86/kvm: fix vcpu-id indexed array sizes
+41cad96f19bf1394d15d0d775e076c489cae0de0 KVM: add missing compat KVM_CLEAR_DIRTY_LOG
+be572690cec009ef88c55553149286278a3a4f66 ocfs2: fix zero out valid data
+e980dc95cd989dfaad7554566cdaaf1e462d4752 ocfs2: issue zeroout to EOF blocks
+319f668a24bf4203c727fa308564aa4646965a1a mm: memcontrol: fix blocking rstat function called from atomic cgroup1 thresholding code
+a982d479b123f9fc4a7c34bc5d9ec3f9ced5996e mm/memcg: fix NULL pointer dereference in memcg_slab_free_hook()
+95e1597cce23e2c59f671eabb308b284a1623ecd can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
+6ae18cfca6ca0b7a92f0167543724cf90d339b71 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
+b1852fbe35fa53164bd2e336cb7e02ce6920d78d can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
+e13bbc465289673d53befecfcebd28d6a19b2292 can: mcba_usb_start(): add missing urb->transfer_dma initialization
+e79c613dfc1b2fb4f407829f0c411b69fc5e9e2d can: usb_8dev: fix memory leak
+e8f1b1150235a8be4c8e9d1fe602026555bfd3a8 can: ems_usb: fix memory leak
+5e4877f4060aea1988b1afc62bee85250b66de17 can: esd_usb2: fix memory leak
+1a9530df95f01205a048b9bc6fe1f429c2824b0e alpha: register early reserved memory in memblock
+f38170856fae162bfec30a03b1caecb5a995f715 HID: wacom: Re-enable touch by default for Cintiq 24HDT / 27QHDT
+27979c54c1f97559b1d4580a0649df7fcf60f020 net: stmmac: add est_irq_status callback function for GMAC 4.10 and 5.10
+f7a1cc5be964deb2907a31694a4adf378e63d48c NIU: fix incorrect error return, missed in previous revert
+5d110ca261f7aeaec19d965412dfe7764cdf7d15 drm/amd/display: ensure dentist display clock update finished in DCN20
+cdf49089173760d70c818fbe60c65a444934de7b drm/amdgpu: Check pmops for desired suspend state
+54a5eb11917f30653e1894c907d5a3ee1505854f drm/amdgpu: Avoid printing of stack contents on firmware load error
+80b9cf35e252743aff1c304d5c49d482fdc15c1f drm/amdgpu: Fix resource leak on probe error path
+10d7e2ac54ac7ab7a8e51167e5c911d653bd4d7f blk-iocost: fix operation ordering in iocg_wake_fn()
+ad500fe5c8947d84fb668f9ff11a0d30f4be1368 nfc: nfcsim: fix use after free during module unload
+482fa3fec6f09178f1054089ca25814987cf9db4 io_uring: fix io_prep_async_link locking
+50e8ee6acc893c3508b8cf913770eb6e53492147 io_uring: don't block level reissue off completion path
+6b334d978e28dbb6b9cfa19d005b2d230abfafa6 io_uring: fix poll requests leaking second poll entries
+fac9dcc4f758b1299fc8e3323f26ac1cf7acb803 Linux 5.13.8-rc1
 
---===============4553283811561445454==--
+--===============1020967840539344404==--
