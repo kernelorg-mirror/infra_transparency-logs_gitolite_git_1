@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8773466169190363567=="
+Content-Type: multipart/mixed; boundary="===============7222651333294118337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 31 Jul 2021 05:57:35 -0000
-Message-Id: <162771105568.22106.12131680714698455971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 31 Jul 2021 06:14:16 -0000
+Message-Id: <162771205681.31786.7330243423072203473@gitolite.kernel.org>
 
---===============8773466169190363567==
+--===============7222651333294118337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 4480b40b4fa33664257936f046e207e394a49fcc
-    new: 8f5f8d6b6f18b3e07731df414d605c7093b36015
+  - ref: refs/heads/master
+    old: 642c0248749b56ebe847e395731d3c0c867cd7bf
+    new: c10b8ee854cb18ce695a8d89619b35942feab91b
     log: |
-         8f5f8d6b6f18b3e07731df414d605c7093b36015 i2c: dev: zero out array used for i2c reads from userspace
+         6f4a605bedbe98fdf9b337f14487adda2f1ab8ba move 5.13 queue back for release
+         c10b8ee854cb18ce695a8d89619b35942feab91b Linux 5.13.7
          
 
---===============8773466169190363567==
+--===============7222651333294118337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627711053 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1627711052-9dbb4ee9ce79a64a605d11d0d0d529740cf46083
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627712055 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1627712055-a7cc15ac55ec8572aea6a63489b6f7c0c56116c6
 
-4480b40b4fa33664257936f046e207e394a49fcc 8f5f8d6b6f18b3e07731df414d605c7093b36015 refs/heads/debugfs_cleanup
+642c0248749b56ebe847e395731d3c0c867cd7bf c10b8ee854cb18ce695a8d89619b35942feab91b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEE5k0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dwIQALL/4RV9n1krz3EVMDS4
-lp1AGq8Zoa0iqpcoMhGMaCP1DvYhwRQcoThbk+siEmi0QRq4mYGjoyx8K1yfXDI2
-UB4i6CHw3kMXFd66VhMiFeVCkbPWchLhSQA5ymeR+ATZc1oHgImumiBg5KYF8REm
-VIdyGLHE2oMhF/vXJZEPdBeVIHCuXXX0ND7Bl4xlhmWMklKQ0V+0eiayaA6jL8v4
-6hmDXnWf2yEqrMa6lyl6TsZD1A5+nykP7a2VYYo3pLHvUQeFahOyD7PK4VpVi7Nx
-bsJWaBcFCeNaZ1/Hl0QyXJuDA6HkLet0ovcp3XfTb/fO8EnG+Zop9yhJJYMPSuao
-w2HZ1FGGfNcSbyFDBl6yG6y+8Seb9jTSwm6eb+IA+KhC4O3rgRq33xgN6FUlacY/
-uTbxDvskFDBH98Wz4ptMugPGB0bQlkdodhiMVMWqUgZMoBaZGGGAaGX8VHCnRma0
-qFfd7BUz/ILJ9/OeUOfPTR/64q7+H5Yr4vCbPEgroz3V9il/fBe0eYW8PPgZT10Q
-8N0FcsDcfTMtjykvVUBYK30IcA6rweeiYADt10C5uq3fuvIW0dC7vS0xQQP/fOIC
-Em2BkVtaIGm6SVkoYLeazR5nNncZZBwA2jP7XNUVY9KmPx5p/POccY63iF9HlOMl
-KvzyQxpZp0nSgVULsyJncWRt
-=0bff
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEE6jcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hd8QANeeqrGL4SoGdLME6zCZ
+9UxuDo1X4t951JsadyxGYRcdvVsRTWkH7kAy6l7Lsdewziq60DZIA8Kpphci38o6
+kHynfT0rsTRqJdUBZXbka1FMvEUaSLC3ODGGGNx8Oqv9JLOXpM1hWoKoMVErLhOP
+v2DJJZex4qJRSIsGSsXTuxhJ4P4UZCUESkKe6JP9bUBgHWzZ0x+bGUDTxhmrRySJ
+/MpCmIWn9ssoJByMen8dyYTrVvC9bpEp0CiHkc30Qs3bQr+kAbYMU8BSRI1PjAa2
+ccO40vWwEkOsdNbdSFESphrPIc/XCeZUv+tvNGKd3slOy69UToVFOpxGtwwE6OIe
+0bjeCRtrdoxbqGHs3yk/Z0joK+LCgzB2HL6T65wnp0cFFG76wZBud1F/sLDLLcbY
+34uwWG2YOuHrLdPS+keanKuqmPZW/MhgNxD6vh3lveIfHSuND/xxxwAOd3EA4v4w
+WwgF/5Z0+iAFteYt88vRMaBgpLQ/8J+nw+SdU3ebdA1ZQtmQTLfkCSUG+6Xceqxf
+oJG6FS6hEvHF1SNR2K72xTokCLzV9LNeXVWVqzQZrDEioCbtiI4a1j65iBIfKNNq
+2vo5CDgnyF/yD+ZoS1h8hx2cB2uObPpgGT4BkPBMA3eUcwgYpqwer77oJmvvHgdw
+iE/Mdhvf0ENqERAoO+rmQ7aJ
+=yvIM
 -----END PGP SIGNATURE-----
 
---===============8773466169190363567==--
+--===============7222651333294118337==--
