@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5045714797214137283=="
+Content-Type: multipart/mixed; boundary="===============6947473323938080846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 31 Jul 2021 04:03:54 -0000
-Message-Id: <162770423486.11337.12063915348194880953@gitolite.kernel.org>
+Date: Sat, 31 Jul 2021 04:03:59 -0000
+Message-Id: <162770423989.11468.6953330712255497373@gitolite.kernel.org>
 
---===============5045714797214137283==
+--===============6947473323938080846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 8e0c9171115ebb5c46463b4a3624bec2181e583d
-    new: 6dc3e53cf46c2e9ad6532fdae3d41a86986e7351
+  - ref: refs/heads/5.15/scsi-staging
+    old: 08dc2f9b53afbbc897bc895aa41906194f5af1cf
+    new: 1084514ca9aa5b3fcc485b378b92b632918237f4
     log: |
          ba51bdafaafc065019c6f6a2cdae006d176cee48 scsi: sr: cdrom: Move cdrom_read_cdda_bpc() into the sr driver
          ead09dd3aed5cc6a6c6288a87a5bfa9bbc8d5ecf scsi: bsg: Simplify device registration
@@ -30,33 +30,33 @@ changes:
          1084514ca9aa5b3fcc485b378b92b632918237f4 scsi: ufs: Allow async suspend/resume callbacks
          
 
---===============5045714797214137283==
+--===============6947473323938080846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627704232 -0400
+pusher 75C5DE3D 1627704238 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627704232-4adf17c8646aca8b63f7650528f368b9e8900b8e
+nonce 1627704238-672359faa3b965b022ac0c9db2b2be2b75fde52e
 
-8e0c9171115ebb5c46463b4a3624bec2181e583d 6dc3e53cf46c2e9ad6532fdae3d41a86986e7351 refs/tags/mkp-scsi-staging
+08dc2f9b53afbbc897bc895aa41906194f5af1cf 1084514ca9aa5b3fcc485b378b92b632918237f4 refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEEy6kACgkQ7ulgGnXF
-3j3djQ//XL5rjziNoF0y04fmrUDicV0H3ZxcKzKDCNumO8odUf36x9+hwEj+/Vq/
-OA6IXbrS6/nWlvyqW4rQPvgiej54f5Ln0pVJybG62wOhGGep53hZHEPe2BAxfEu0
-/n8gTGaaXLXdc/X91gHMLotm0tZpzlIaAK1K9KyPJIObPU08hHFOb6hyN6WGFqrW
-lYpmNB/dz9fKiRqA4z0GXfoH6+ABA9K3KhQBIYxIJYpAD5UNmarYg3Kx/DiNvVTT
-heGoK1XuVNNK6mA+CeRlQetNl5yr1v4nUJ1ZvvytfLU3DmMry0E4Ii5DTzMlmunV
-WyzCyLQOUiivOSkdgb1kPXL57AU4E2o+PQQ41ltct0l9R4Q5CGpTf/3bE0fu+FsV
-s3l82OLz0zuHLmWhr0/T0PvJNHWwo6/AigkzIB2lo9X5UmvYrdzAXDTkizKAiRn5
-Q+KreKZEKBj4FpM3QECowE3q7O/WPqSw6B8f2GmjogYgR5Er/qBwFK8qXRHoNzcA
-E+nVvO0ZbCxZTDwrMb9+0JH84XBy/UrgFEbfYJtUAFMb6NuWty/bzaOHRI3oaIRb
-3+P6MEGGQn0Dnx88U6Rzf+CKJlEu6AsT450EerOY1PeB+/nv4MoI3waHrBfteK4E
-A5mXqlXCmM5EAuqh2y8AaVsPPyvBFPHTHzLmKu2JK4xc245odLw=
-=cI+8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEEy64ACgkQ7ulgGnXF
+3j0o0g//cKoT9a1B7TIjfzZsdKtOMoKlTWEZcXe6xjhCzKHO1bHEfthlCfwoZIb+
+DV74RHZC32S/vwKJMV0tC8vQ68TXHvUXEqwiysBxpin/ztb/Dm9sn8UwPTAFGzA4
+dCSUBYcsHFxrmN261PfU9vesLnL3pQVWLSPEvvaa+M5Ms93Fs4D+sqp59zKmD/M6
+VQWcNYP5iQhQgbiGk6D+d+QVDo2EDSofSGOdCkRP5wvn2Njf29dDUUIf3k1kRhRw
+iU/bAvPyPbVDTksYq1lbZpuX854qLgkf8LabrERnvLwtzpBg4Yaba825k8Lsu4Cg
+4CDVHR1dsayZIuqQwwHs39e+BF5wcafnHUp/9TaSma1W5W/E+7heQso6yXTH409M
+2lud+NsZ1cnYB5iJ2qK3l7M/lmu/MGX+i7rVWf7QxOxEMSOTwgsYi9sBuFigMPMb
+yc5svad3SS9veafyDGher59XyOUE9sSGZ4Ul1qDk7bQhw7Vffz2fzu9yTgU6jMQA
+jTqE4gXqk7vlQs9j8dkwj2PNdXoeb7fODyXQPWVnHJAXNoY4U3w+ceqPV6rshtB3
+LWewbAm/y3IDk1qVgL6CxxoA+fSYTXMXSAjFWLI/aSDDHUOGPt2ht8WA2+ssgWX7
++wjjDOYRKFfBayVYVBixMNu8gnoZo2pMyWrfUEpW6e9pj8Uvw7A=
+=ScQ6
 -----END PGP SIGNATURE-----
 
---===============5045714797214137283==--
+--===============6947473323938080846==--
