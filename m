@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5962446216638258499=="
+Content-Type: multipart/mixed; boundary="===============3344708476691501116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sat, 31 Jul 2021 07:26:01 -0000
-Message-Id: <162771636103.19816.11081687455304604999@gitolite.kernel.org>
+Message-Id: <162771636127.19836.14284510897860724754@gitolite.kernel.org>
 
---===============5962446216638258499==
+--===============3344708476691501116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 53bd76690e27f37c9df221a651a52cea04214da9
-    new: 313d71087166dc2f0394f750fd393d23fe732ec0
-    log: revlist-53bd76690e27-313d71087166.txt
+  - ref: refs/heads/linux-4.4.y
+    old: b9a023d8c8ab07d360fd4b67cc6d1c1087de2a7e
+    new: ae8917b62ba40ce33d0098611031d9ce4338f028
+    log: revlist-b9a023d8c8ab-ae8917b62ba4.txt
 
---===============5962446216638258499==
+--===============3344708476691501116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,45 +32,50 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627716359 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1627716358-fd0f7e62b6244498ec14c9d862b198901c3d676e
 
-53bd76690e27f37c9df221a651a52cea04214da9 313d71087166dc2f0394f750fd393d23fe732ec0 refs/heads/linux-4.19.y
+b9a023d8c8ab07d360fd4b67cc6d1c1087de2a7e ae8917b62ba40ce33d0098611031d9ce4338f028 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEE+wcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ldwQALguhhu18ddKRLE84wqD
-hKpqQNNR+1G7MvJjP6d0dR00ul4dCwggIO5sH+YX654sZaqvMboP/VQnplcbPSGp
-bfpGOlkLSfPQQardq+lI2LnB93tdlt/K6zezbY1rrUmI79hr6W4veY8DEjkRiQEy
-jv/eD+zvdpg3vz8aPugIAFXd/fg8ekJjLYzLeWrXt4KB3TMsR3frnsOO7ejd8dzG
-J9g5KdXkSNWhv8raKbkHKncHDHxsWwc18nfQKLOZip/Z7dJ1ZW48+r1eN7mdhCE9
-rUu2Dj617sHjCJvcLSYFhw3FSdxG1xcBKu3hIo32TDRS26ASinhU3rUi25yticvI
-RFZgAdzhYX6zUBBjDKSW2u4q7WUMT4fdOPhJjZGQNYbIYffnCD6B2HPWSNeSLmJB
-0gqpofTISiMz1in4KkLDW5tC/N/o368y3ms1ez9jW1ZT0FPlCuG+cSbNBLOAD+jS
-JG0DWMPQKYSojGt23IZDGHlHsf3Det/5zvCzXOak2UOI90Yk9SV7Vx7p3KwZurhc
-73vLnRMZYjyIn6J1mpddNV3+NEYVNXfleK6BfPopDSXX66y6cO9OPrcsC7Zo3i7S
-4Ym7+0IBsNb8nUn7pbAHtPAoQwqZkmQTjudbGdjFCm3WT/RQWHS+yHbPOYnArJIk
-7UefODHo81Zq1hS2lwfHPVwx
-=UGgM
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+138P/1oOYbiJ3OfWauAXhtHd
+DdgBe3cA3YX1uJFkd3axfFO5/rWk3KT+o05z2hQoSOZxNwCO+AA+Ob98h28ugXIN
+WQZO2ndBsxzCBb61l6N1pkXK+MO8mYWTcTUxGn7OMGU4q77/TF1mvf8tQ6rDGtl4
+FWvZnJNv8jokdb1QC8+EKOb+cseKnOJJvbPToT2r1qB83/HU1mhkQhpHBDMNzNvp
+oehkBmYH64VSuzgarWHWhBnWPJPGOVJ6yz+tBV7bAaghfTe6oem3z6x5eZAQ0PFZ
+dh7o+uCoD+nDnOOLJHHrOeBq1bSMkgAKpXfRDTIMO+AsipJqjRPdjtdDUPDN46YJ
+bRhc9j+MQig4eWfz0mbQYhpx8WI6PTzbts9xK/8py+YEbX3+RJHCfxMMQxgoFIqh
+GxRbChnNVbnt37yCcdtPSp+ZrmaSaUxlllV360zYNgk4wBv+0lrfIs4qiu9qyl/b
+ibp2YNg9+Gwg6wnjPMxvpWJnMpjFvNSqsPx8KaCcp+dYUY/6QyPk88BCuU3AlJsY
+5L0fC4Q0TqgvV/LSUPqbJmy6JDnBwW0J4lCU9lYulSfacnPo/VIv1wUgr3+NJMub
+dL0Zr1Xcu3hbi4oyK2TZbdgy2u0M8XNaeSUXq4/NPEjEPompunXcIU2oGkotjx5Y
+xInLrWkhFxcO9xDmDpTPv3YK
+=ssK3
 -----END PGP SIGNATURE-----
 
---===============5962446216638258499==
+--===============3344708476691501116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53bd76690e27-313d71087166.txt
+Content-Disposition: attachment; filename=revlist-b9a023d8c8ab-ae8917b62ba4.txt
 
-61710454b0ad5596ee2ed849b684ceda31062792 virtio_net: Do not pull payload in skb->head
-d0d5f9fbfc959e443faffedc942d8cc73abbfb41 gro: ensure frag0 meets IP header alignment
-fa331e55bf55100e07a14171424b9bb52181d858 x86/asm: Ensure asm/proto.h can be included stand-alone
-a2c4493a0bfbc65d35b976613c7823e93f2bf3f3 btrfs: fix rw device counting in __btrfs_free_extra_devids
-b01272f3963d844fb0d075a4453f4d87e28c7607 x86/kvm: fix vcpu-id indexed array sizes
-c2b8c8d355e0350d4ff22a6362e6041e6d59a7bb ocfs2: fix zero out valid data
-d920db16f1e01b4274eab69d488304d3ff2c6e3c ocfs2: issue zeroout to EOF blocks
-69f7b8e1e388785d9f4b9e3d6324e3896984597c can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-6a77819537be8c0e4aa9d0fdcc383d872bfdb2a4 can: mcba_usb_start(): add missing urb->transfer_dma initialization
-7746324e30d2e4e97332d7d82c9b5332ce37c520 can: usb_8dev: fix memory leak
-72bffd9fa076c3a01a6f107bf78806a75f988ca2 can: ems_usb: fix memory leak
-a3e38578b6056a2385d77db1e911af32c5b026b4 can: esd_usb2: fix memory leak
-859a3a9b699e5084a532f2cc6df10a3a1c5f7a5d NIU: fix incorrect error return, missed in previous revert
-429d048bf8ea12369b26822f3240165659880252 nfc: nfcsim: fix use after free during module unload
-313d71087166dc2f0394f750fd393d23fe732ec0 Linux 4.19.201-rc1
+2f892d4ba634eaba65249d0ec35aa8fc6cc8e6ee net: split out functions related to registering inflight socket files
+caf0454f55a7b2b068588fa29244c979580badda af_unix: fix garbage collect vs MSG_PEEK
+b646233017c7c12327fc294ab07d127eb5005170 workqueue: fix UAF in pwq_unbound_release_workfn()
+1f99489283f038c09eca12e399cd901e82cdb8cb net/802/mrp: fix memleak in mrp_request_join()
+9aab5fc66b21676df3eaace9b3cd8a348e9d7214 net/802/garp: fix memleak in garp_request_join()
+b2bd8d7a8c7c94d2f366a5456f60eb747f2b59a6 sctp: move 198 addresses from unusable to private scope
+97dc826acefbdc9a2374d5e8f1b68a227e9871d2 hfs: add missing clean-up in hfs_fill_super
+dfac772cecd03ea43fee711e889299695cf5d395 hfs: fix high memory mapping in hfs_bnode_read
+be8333a8c62461382869b42559d788ae86507800 hfs: add lock nesting notation to hfs_find_init
+a1a57fff9464090ada71facd93425efded616274 ARM: dts: versatile: Fix up interrupt controller node names
+51642f4c1112ab557e09d9c3b05cb26db5ef4bc2 lib/string.c: add multibyte memset functions
+ac3ceca43b49a17a3bd7034f94fd82eef33fb07b ARM: ensure the signal page contains defined contents
+eaabebd0b4d727d9ee5fc0aef8aedb525fdd3912 ocfs2: fix zero out valid data
+d42c27e219cb90adc7a1135367ef431bffa78db0 ocfs2: issue zeroout to EOF blocks
+5295190668576428c0cabee273b407e4c98dcc41 can: usb_8dev: fix memory leak
+98342d5f27bba897ba7b4acb277aae49e586e5cd can: ems_usb: fix memory leak
+0ed0d2a3186d12e73ee2a45e7b272a35a50240a1 can: esd_usb2: fix memory leak
+37d2f24750c09cbe1af65085982ad7e351ace489 NIU: fix incorrect error return, missed in previous revert
+48a2f82f88f280c3a9747d6be81bb37480aac90c x86/asm: Ensure asm/proto.h can be included stand-alone
+ae8917b62ba40ce33d0098611031d9ce4338f028 Linux 4.4.278-rc1
 
---===============5962446216638258499==--
+--===============3344708476691501116==--
