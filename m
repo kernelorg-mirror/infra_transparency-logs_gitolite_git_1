@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4581995808968642723=="
+Content-Type: multipart/mixed; boundary="===============1237295312190132805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 01 Aug 2021 21:09:45 -0000
-Message-Id: <162785218541.12736.5568190246290297240@gitolite.kernel.org>
+Date: Sun, 01 Aug 2021 21:09:56 -0000
+Message-Id: <162785219635.12851.13698517177319716778@gitolite.kernel.org>
 
---===============4581995808968642723==
+--===============1237295312190132805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 3dde7f085ef6b73936632ba6042aed26a35ab950
     new: 2468bb45f20ce6bc176577f116ff6b98f558ca9c
     log: revlist-3dde7f085ef6-2468bb45f20c.txt
 
---===============4581995808968642723==
+--===============1237295312190132805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ bf097683f9c8aa0477f1b0ffb5254d4cbda4acb8 headers/uninline: mm: Uninline mm_init_
 eedd4733751bcdd024d1d8e6e850d375ac558316 headers/deps: PCI: Convert pci_is_enabled() to a macro
 2468bb45f20ce6bc176577f116ff6b98f558ca9c headers/deps: PCI: Optimize <linux/pci.h> dependencies, remove <linux/atomic_api.h> inclusion
 
---===============4581995808968642723==--
+--===============1237295312190132805==--
