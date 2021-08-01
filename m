@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4073889496183520474=="
+Content-Type: multipart/mixed; boundary="===============6792452072685520429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 01 Aug 2021 20:49:08 -0000
-Message-Id: <162785094832.32721.13019778140863430570@gitolite.kernel.org>
+Date: Sun, 01 Aug 2021 20:49:24 -0000
+Message-Id: <162785096410.451.6815444029565234733@gitolite.kernel.org>
 
---===============4073889496183520474==
+--===============6792452072685520429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 4dc7948b1e8c5f2887fc3c2f323b51c895647466
     new: 3dde7f085ef6b73936632ba6042aed26a35ab950
     log: revlist-4dc7948b1e8c-3dde7f085ef6.txt
 
---===============4073889496183520474==
+--===============6792452072685520429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e3bc6b488ef40bb7df33ccfe62d2580d3a8c3d6f headers/deps: net: Move per-cpu stats m
 d28afce0c894c31c0509611d7c8ac99152a6272b headers/deps: net: Optimize <linux/netdevice_api.h> dependencies, remove <linux/cpumask_api.h> inclusion
 3dde7f085ef6b73936632ba6042aed26a35ab950 headers/deps: acpi: Optimize <acpi/acpi_bus.h> dependencies
 
---===============4073889496183520474==--
+--===============6792452072685520429==--
