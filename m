@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4265584811359992877=="
+Content-Type: multipart/mixed; boundary="===============6785710334207102101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 01 Aug 2021 20:13:22 -0000
-Message-Id: <162784880256.8883.789825410476237794@gitolite.kernel.org>
+Date: Sun, 01 Aug 2021 20:13:27 -0000
+Message-Id: <162784880728.8966.3123535031698631754@gitolite.kernel.org>
 
---===============4265584811359992877==
+--===============6785710334207102101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 6dc3e53cf46c2e9ad6532fdae3d41a86986e7351
-    new: 365c25a4fb3ef12601b0c267299b512a435f7f33
-    log: revlist-6dc3e53cf46c-365c25a4fb3e.txt
+  - ref: refs/heads/5.15/scsi-staging
+    old: 1084514ca9aa5b3fcc485b378b92b632918237f4
+    new: f95f59a2bb60f917faf516f2f0a679dc4e58f490
+    log: revlist-1084514ca9aa-f95f59a2bb60.txt
 
---===============4265584811359992877==
+--===============6785710334207102101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627848800 -0400
+pusher 75C5DE3D 1627848805 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627848800-3677094805cc97f9e7cfd2e329659b5ebb4ffa1c
+nonce 1627848805-504cd6ed4f7cebeec9073abd3c88383a35d124c8
 
-6dc3e53cf46c2e9ad6532fdae3d41a86986e7351 365c25a4fb3ef12601b0c267299b512a435f7f33 refs/tags/mkp-scsi-staging
+1084514ca9aa5b3fcc485b378b92b632918237f4 f95f59a2bb60f917faf516f2f0a679dc4e58f490 refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEHAGAACgkQ7ulgGnXF
-3j1u8g//ecFSOhVStQGqbzEJY79b50VcMJaJMorH5OxrHpPQtHfog4MCwKn/tvU+
-Df7evtNu4KJpq0Wor+8S0BmzvoVH9I1aTKPC7dH9M0jtfRbSMngcaP6oOACYYVoR
-T189Q+cB1T2VP6G+/FNeljB3uiMdUro1YYVuYYaLPCiRdFIJZOh+MZ4eOeu4ng6S
-r+bBV+GjSp6SkxLqW2psi7L9f/cg3FU895hHNZ3F6ZzoElwiNKNy6X1AuH6ENrJc
-5TstZHdHyq8Ykl/BYsIlztDDrMnte8Rg24hIteV7lIbdPCwK9yaXgFuHL6qHBIFf
-STClrT/6bnWlvRc9z8bUEZdRgZ/3ubRCQaCPZwfUjA3S7UwEo4kf2/1Q/wV6c0UM
-9PcmsmPoIHOTx+rAqeM1dIvs1ZZk9GGz4r4k8EiFDc000U7k9fPMtIiO2Ngm7Pkj
-715nSS7xtmpxjCRxRh3kCfCUFMimPHAX9mddwfkW8g42s3gesACxhlJEnr7VzDls
-ZKPvrrE+LtEpLD7sEwaZJ7UcdVssvPHJhdeAc3kPxBAtI1wKHpCE3yR8VANQNJ0/
-hKtpmY8PC5so9EWYLhhH/MU3c6zKuPJJ/qOFYNCqdFhBI5ZbPQcuMbPBJaacL1A6
-zuvtPULiI0NYrroZ/Bf+2WfQX3jne8Wn4I/mdG+fDVCPWOegOTg=
-=Y0U/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEHAGUACgkQ7ulgGnXF
+3j3aww/+JaJJycWoM8E1ugEo1ZGDpg4EJoSHTgJpXM3T0UbQbx7b3M6W8GU1yc50
+YY5sfDeEMxy5Y5P3FUpoDmF2uvuc/uf4r428k0ywN4IpUWoMOV1wtlFmdl3px98A
+zDtnVyZL9fzKULKwPJvFKQLNJ0H8+kG37qnC0tfhgcWIczw2ck9bDVkng/xMiV/D
+CACMemPfL9c/or85kq3FJ0ick6Ls6WCXmD0HaV1NYnAZNhTjwYPL/7WNwFtdZN8J
+IUbXHXCz1tFhOWZ2tVrzmeiOt059JW5Khbz/IpKVpe21PYhOKhSThqmbhy+PLwRd
+UTRQfTQw76zsFgCkoNa8DQPbzbCWgmkZfDZRgeaDY+SPA+byXgzu221i86gAvWY7
+ZfLNoQyn7D5GHzPXfhf9qWV5Pwty1ZeWye/mj3E/xSmLO29vTQ0uro5Rwx+9ttwT
+WtN/+9VTqMBekI7pTPRCRfK/1NzD+V/ubXOLd19rw0y0CF1J4DeVuDxpeBXcPMsR
+4syFnKYJP2rfhQKyB7buwDqkbzGmpvSEQxnjnjVdo6A/gp+bc+5fAsY3YkMym6Cx
+IqyRiQuhy6g44r5z7XtYGeO3403exCeBGYJNglhxMq+W4wJwWjLcq7BCA/so/BYN
+Ggj/f+42M4xFuXnn1SrRRw2nw0OJYpnE6sTCmlV4zadfQY8SjTo=
+=vpwe
 -----END PGP SIGNATURE-----
 
---===============4265584811359992877==
+--===============6785710334207102101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dc3e53cf46c-365c25a4fb3e.txt
+Content-Disposition: attachment; filename=revlist-1084514ca9aa-f95f59a2bb60.txt
 
 5c0f61377b765e650b1bc85298b79add1148c97f scsi: bsg: Fix commands without data transfer in scsi_bsg_sg_io_fn()
 659a37844abc00c3dc676bb1faed29c1dacbf59f scsi: bsg-lib: Fix commands without data transfer in bsg_transport_sg_io_fn()
@@ -79,4 +79,4 @@ c76a188856413f0a40585a7bc6801c755a4c0c8d scsi: ufs: ufshpb: Add reads counter
 5dea655a09e6395f461ba0f9d38914c2c0d772e4 scsi: ufs: ufshpb: Add support for host control mode
 f95f59a2bb60f917faf516f2f0a679dc4e58f490 scsi: ufs: ufshpb: Make host mode parameters configurable
 
---===============4265584811359992877==--
+--===============6785710334207102101==--
