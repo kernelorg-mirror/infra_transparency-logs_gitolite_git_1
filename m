@@ -1,48 +1,109 @@
-Content-Type: multipart/mixed; boundary="===============5912606610292896258=="
+Content-Type: multipart/mixed; boundary="===============7862937128655493713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 01 Aug 2021 16:32:41 -0000
-Message-Id: <162783556157.29891.16787579110670825002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Sun, 01 Aug 2021 18:18:22 -0000
+Message-Id: <162784190206.31876.11777517104329433629@gitolite.kernel.org>
 
---===============5912606610292896258==
+--===============7862937128655493713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
   - ref: refs/heads/master
-    old: dad0c0a852d1b10e7da285f29e99397dec0efec1
-    new: c0135a6f045770739389443648cb6a45af05a8b1
-    log: revlist-dad0c0a852d1-c0135a6f0457.txt
+    old: e8d1af22feca0603e7c25d97d1b679811a6bfaaa
+    new: 39b24e56deab4fce090f305b20a546511305a552
+    log: revlist-e8d1af22feca-39b24e56deab.txt
 
---===============5912606610292896258==
+--===============7862937128655493713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dad0c0a852d1-c0135a6f0457.txt
+Content-Disposition: attachment; filename=revlist-e8d1af22feca-39b24e56deab.txt
 
-793ad50d595b9518611efc04943d9d2401812646 overlay: add test for copy up of lower file attributes
-80395bbcdb6baf149756414b223e1729f1690ee7 tools: add a dm-logwrites replay tool
-e52ceab66d76496a377372e58595a474187bc2bc generic: test for file loss after mix of rename, fsync and inode eviction
-b030dd07324fbfa417855fbd03e17a063db6de17 generic: test small swapfile without page-aligned contiguous blocks
-a8b4f1be7d401ecfb364afe8a2079b7a51f98011 misc: tag all tests that examine crash recovery in a loop
-5a501c2635ded65d4a4282eae1e8325e25fe4ced xfs/106: fix golden output regression in quota off test
-057869ad38aeed3091df8a54c1de8db3a4aa7ed8 check: don't leave the scratch filesystem mounted after _notrun
-7446ce37eac47c5f68a1999c361335b5bd7edd4b check: back off the OOM score adjustment to -500
-4fdd27ce193ec2a388d0b7d0f5ea1067c3cc876d xfs/530: skip test if user MKFS_OPTIONS screw up formatting
-6d8a6d743a7d824cce61ffa4545d595587c90788 xfs/007: fix regressions on V4 filesystems
-96eefa4a7dbbf81982335cd62fe7bd6a26d69d68 common/config: disable udevadm settle if CONFIG_NET is disabled
-8bd9c9700849db6d1d0c55582a06d828b2b70a4f common/scsi_debug: use udevadm settle instead of sleeping
-edc78b9897b90e6fe314629650ca7622653d05f2 ext4/003: Fix this test on 64K platform for dax config
-9567432e3ac984293af0bbe92bb8dd5fa58591dd ext4/027: Correct the right code of block and inode bitmap
-2a8ee2afe5febe67e9e54c92fe59a8e3bce8ed7b ext4/306: Add -b blocksize parameter too to avoid failure with DAX config
-1d0af6eb4a2f8bb85d1bdc6f1ed4d31b67843390 ext4/022: exclude this test for dax config on 64KB pagesize platform
-04d6fca959cf447ba057b86e02a3efed0381aa96 common/attr: Cleanup end of line whitespaces issues
-c0135a6f045770739389443648cb6a45af05a8b1 common/attr: Reduce MAX_ATTRS to leave some overhead for 64K blocksize
+c7603cfa04e7c3a435b31d065f7cbdc829428f6e bpf: Add ambient BPF runtime context stored in current
+8886534747c2e56d9d3b978c99e92dc479cd9426 bpf, doc: Add heading and example for extensions in cbpf
+1373ff59955621b7e71e7a1152036c93a5780c11 libbpf: Introduce 'btf_custom_path' to 'bpf_obj_open_opts'
+18353c87e0e0440d4c7c746ed740738bbc1b538e libbpf: Fix the possible memory leak on error
+f0b7d119254247cc373d1695889e5216f13fddcd selftests/bpf: Switch existing selftests to using open_opts for custom BTF
+334faa5ce5232b281ba955d4b13d44f197e92070 Merge branch 'Add btf_custom_path in bpf_obj_open_opts'
+920d16af9b42adfc8524d880b0e8dba66a6cb87d libbpf: BTF dumper support for typed data
+17283337ff86a1956940bc6bfb3f7dafe82304f3 selftests/bpf: Add ASSERT_STRNEQ() variant for test_progs
+70a9241fbce5398965bf05a595ee892845ae31e9 selftests/bpf: Add dump type data tests to btf dump tests
+068dfc655b666b54e08fc3d7108b309d7f906d34 Merge branch 'libbpf: BTF dumper support for typed data'
+8d44c3578b48d5f605eddcfd6a644e3944455a6b libbpf: Clarify/fix unaligned data issues for btf typed dump
+04eb4dff6a64d842f7f2c85c7cb1affc5ab3ebc9 libbpf: Fix compilation errors on ppc64le for btf dump typed data
+add192f81ab21b58471577c75e7be9c9add98223 libbpf: Btf typed dump does not need to allocate dump data
+78e4a955928ef4a3e68cc371ac8c70fd150f873b Merge branch 'libbpf: BTF typed dump cleanups'
+a21ab4c59e09c2a9994a6e393b7484e3b3f78a99 libbpf: Fix removal of inner map in bpf_object__create_map
+08f71a1e39a1f07a464ac782d9b612d6a74c7015 selftests/bpf: Check inner map deletion
+c39aa21599748f3845a47645f482d94099b11460 bpf, selftests: Fix test_maps now that sockmap supports UDP
+875fc315dbc3cdd3a5cab57b2bb7c1976ec8df44 selftests, bpf: test_tc_tunnel.sh nc: Cannot use -p and -l
+a1d3cc3c5eca598cfabee3a35f30f34fbe2f709b libbpf: Avoid use of __int128 in typed dump display
+a17553dde294289c5f45dd79b6cfd532df610b5f selftests/bpf: Add __int128-specific tests for typed data dump
+720c29fca9fb87c473148ff666b75314420cdda6 libbpf: Propagate errors when retrieving enum value for typed data display
+807b8f0e24e6004984094e1bcbbd2b297011a085 Merge branch 'libbpf: btf typed data dumping fixes (__int128 usage, error propagation)'
+16c5900ba776c5acd6568abd60c40f948a96e496 bpf: Fix pointer cast warning
+724f17b7d45d62c71e92471666647a823cb9baa9 bpf: Remove redundant intiialization of variable stype
+9907442fcddbdacf55fa22e31f2306ae0d6172d6 selftests/bpf: Mute expected invalid map creation error msg
+1f71a468a75ff4f13c55966c74284aa4a6bcc334 libbpf: Fix func leak in attach_kprobe
+e3f9bc35ea7e9871667d7f769cf0079211828e89 libbpf: Allow decimal offset for kprobes
+da97553ec6e1ba229f5b90c0e25799ea8afede51 libbpf: Export bpf_program__attach_kprobe_opts function
+525e2f9fd0229eb10cb460a9e6d978257f24804e tcp: seq_file: Avoid skipping sk during tcp_seek_last_pos
+ad2d61376a0517f19f49fc23de9e12d2b06484fc tcp: seq_file: Refactor net and family matching
+62001372c2b6cdf2346afb2cf94ed3d950eee64c bpf: tcp: seq_file: Remove bpf_seq_afinfo from tcp_iter_state
+b72acf4501d7c31e96749f0f5052b3bcb25fc2cb tcp: seq_file: Add listening_get_first()
+05c0b35709c58b83d4dc515d2ac52e9c0f197d03 tcp: seq_file: Replace listening_hash with lhash2
+04c7820b776f1c4b48698574c47de9e940d368e8 bpf: tcp: Bpf iter batching and lock_sock
+3cee6fb8e69ecd79be891c89a94974c48a25a437 bpf: tcp: Support bpf_(get|set)sockopt in bpf tcp iter
+eed92afdd14c26b1e319fbe9eaa80e62ffa97a2c bpf: selftest: Test batching and bpf_(get|set)sockopt in bpf tcp iter
+d9e8d14b12202504bfa04182d3fae68d137ea39b Merge branch 'bpf: Allow bpf tcp iter to do bpf_(get|set)sockopt'
+e244d34d0ea1aebf60e83ee6d1701a81448f31c1 libbpf: Add bpf_map__pin_path function
+7a18844223d40b684e2f24a02741a1bd53048218 selftests/bpf: Document vmtest.sh dependencies
+ae7f47041d928b1a2f28717d095b4153c63cbf6a bpf/tests: Fix copy-and-paste error in double word test
+2b7e9f25e590726cca76700ebdb10e92a7a72ca1 bpf/tests: Do not PASS tests without actually testing the result
+6e43b28607848eeb079c033f415b410788569b27 libbpf: Cleanup the layering between CORE and bpf_program.
+3ee4f5335511b5357d3e762b3461b0d13e565ad5 libbpf: Split bpf_core_apply_relo() into bpf_program independent helper.
+301ba4d710284e088d278adc477b7edad834577f libbpf: Move CO-RE types into relo_core.h.
+b0588390dbcedcd74fab6ffb8afe8d52380fd8b6 libbpf: Split CO-RE logic into relo_core.c.
+793eccae89bb495cfb44dceeaa13044160c49611 Merge branch 'libbpf: Move CO-RE logic into separate file.'
+4cda0c82a34bce96a4e7f229e48a0a57f39acd1b selftests/bpf: Use ping6 only if available in tc_redirect
+7d07006f05922b95518be403f08ef8437b67aa32 samples: bpf: Fix tracex7 error raised on the missing argument
+05e9b4f60d31a03815a699be24226bf26b7021f9 samples: bpf: Add the omitted xdp samples to .gitignore
+c139e40a515d2d1e51f7c08bd63ed4d1c7f64163 libbpf: Fix comment typo
+043c5bb3c4f43670ab4fea0b847373ab42d25f3e libbpf: Fix race when pinning maps in parallel
+33b57e0cc78eb82f2921eb4c6d1c8fcaa733823b bpf: Increase supported cgroup storage value size
+5aad03685185b5133a28e1ee1d4e98d3fd3642a3 tools/resolve_btfids: Emit warnings and patch zero id for missing symbols
+d36216429ff3e69db4f6ea5e0c86b80010f5f30b bpf: Emit better log message if bpf_iter ctx arg btf_id == 0
+6d2d73cdd673d493f9f3751188757129b1d23fb7 libbpf: Return non-null error on failures in libbpf_find_prog_btf_id()
+3c7e58590600eca3402f08e7fbdf4f2d1e36c5c8 libbpf: Rename btf__load() as btf__load_into_kernel()
+6cc93e2f2c1c865acadedfea174bde893a2aa376 libbpf: Rename btf__get_from_id() as btf__load_from_kernel_by_id()
+369e955b3d1c12f6ec2e51a95911bb80ada55d79 tools: Free BTF objects at various locations
+86f4b7f2578f69284fa782be54e700c42c757897 tools: Replace btf__get_from_id() with btf__load_from_kernel_by_id()
+61fc51b1d3e5915e356f2c0b67cd3bb13b640413 libbpf: Add split BTF support for btf__load_from_kernel_by_id()
+211ab78f7658b50ea10c4569be63ca5009fd39b4 tools: bpftool: Support dumping split BTF by id
+f309b4ba989d96c192edd0d730d85bc1dd92a64a Merge branch 'libbpf: rename btf__get_from_id() and btf__load() APIs, support split BTF'
+a710eed386f182fcbfe517b659f60024fdb7c40c libbpf: Add btf__load_vmlinux_btf/btf__load_module_btf
+0b846445985895e75958ecd59061fd7bf77e0c3f unix_bpf: Fix a potential deadlock in unix_dgram_bpf_recvmsg()
+510b4d4c5d4cbfdeaf35e4bc6483e8afa16b0e9e tools: bpftool: Slightly ease bash completion updates
+a2b5944fb4e05d6fe032ab130bfd1738481b892a selftests/bpf: Check consistency between bpftool source, doc, completion
+b544342e52fc3dfcc1d430fff8d1a7a3be920ffd tools: bpftool: Complete and synchronise attach or map types
+c07ba629df97b796ca7bbdfbf4748266ead27745 tools: bpftool: Update and synchronise option list in doc and help msg
+da87772f086fc40e0ced9deb939400b09a182194 selftests/bpf: Update bpftool's consistency script for checking options
+8cc8c6357c8fa763c650f1bddb69871a254f427c tools: bpftool: Document and add bash completion for -L, -B options
+475a23c2c15fb2af76a27f89f632a48c03166f45 tools: bpftool: Complete metrics list in "bpftool prog profile" doc
+ab0720ce227cc54a2b841dc3c926ed83a819e4fb Merge branch 'tools: bpftool: update, synchronise and validate types and options'
+d39e8b92c34113e0e406c9853d655b1350a15624 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+5ff013914c62c493c206d70554cfb1d311ea481a brcmfmac: firmware: Allow per-board firmware binaries
+18cb62367a8fb357d32cbb132eb1073fdee5ca7e libertas: Remove unnecessary label of lbs_ethtool_get_eeprom
+92acb05d535ca7faedf5fecd520728ff2e467667 Merge remote-tracking branch 'net-next/master'
+7dd0905f75d0d9e5ec40f4a4ee218619eb6d38fb Merge remote-tracking branch 'wireless-drivers/master'
+712aa787c4714d720fac2e7bb2f32265f6a6fb9b Merge remote-tracking branch 'wireless-drivers-next/master'
+39b24e56deab4fce090f305b20a546511305a552 Add localversion to identify builds from this tree
 
---===============5912606610292896258==--
+--===============7862937128655493713==--
