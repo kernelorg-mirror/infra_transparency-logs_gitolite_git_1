@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 02 Aug 2021 14:11:56 -0000
-Message-Id: <162791351610.1418.8377746642905311219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 02 Aug 2021 14:13:23 -0000
+Message-Id: <162791360330.2007.14965738965170923192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: rpeterso
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next.next5
-    old: ccc499ca75f2217380bdb82225cfb248acd95244
-    new: 2be150d4044259bc5245bfe94aaf8770da758440
+  - ref: refs/heads/master
+    old: 35d7a6f1fb53479965e9f99e8c87edc642336eba
+    new: 29a097b7747725da003245412dab61093d4e5976
     log: |
-         2be150d4044259bc5245bfe94aaf8770da758440 gfs2: Remove redundant check from gfs2_glock_dq
+         29a097b7747725da003245412dab61093d4e5976 net: dsa: remove the struct packet_type argument from dsa_device_ops::rcv()
          
