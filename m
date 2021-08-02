@@ -1,38 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5417293284367901385=="
+Content-Type: multipart/mixed; boundary="===============8373924499800338934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 02 Aug 2021 08:14:19 -0000
-Message-Id: <162789205934.18724.7743454211859329436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 02 Aug 2021 08:14:27 -0000
+Message-Id: <162789206721.18841.12282543335149534853@gitolite.kernel.org>
 
---===============5417293284367901385==
+--===============8373924499800338934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: ff1176468d368232b684f75e82563369208bc371
     new: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
     log: revlist-ff1176468d36-c500bee1c5b2.txt
-  - ref: refs/heads/rdma-next
-    old: ffe3d0eec024114ab3dc4c1ad2592fe492d229b2
-    new: c3b9a4b5039a5dc631a09c2a6596a8648a2b7761
-    log: revlist-ffe3d0eec024-c3b9a4b5039a.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 71583699e9f57d9c1a568fff75572d23b74ad139
-    new: 7532a9744879c1ef2d2b00248d001506fd67425b
-    log: revlist-71583699e9f5-7532a9744879.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: f6498cb9b6d92566b949916d932bd7cb84869b02
-    new: e40af71f1a393b0b8d1b41ec9af836adf6ce85b2
-    log: revlist-f6498cb9b6d9-e40af71f1a39.txt
+  - ref: refs/heads/queue-next
+    old: c06f16ce104b272c3f4eaafe3e6e3a07aa777ad5
+    new: 013fb55c1398fabc141684fe0162524eaf8ecabf
+    log: revlist-c06f16ce104b-013fb55c1398.txt
+  - ref: refs/heads/queue-rc
+    old: 33e6eb937ab3a6970a874d3656659c64f1d5f4a7
+    new: 1c4167e08c7521fa4a8b38891c503f9fccba9d00
+    log: revlist-33e6eb937ab3-1c4167e08c75.txt
 
---===============5417293284367901385==
+--===============8373924499800338934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -314,65 +310,11 @@ c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
 
---===============5417293284367901385==
+--===============8373924499800338934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffe3d0eec024-c3b9a4b5039a.txt
-
-e9901043b25000ed21c7073373a7d9fd64f3d1e3 IB/hfi1: Indicate DMA wait when txq is queued for wakeup
-62004871e1fa7f9a60797595c03477af5b5ec36f IB/hfi1: Adjust pkey entry in index 0
-a0293eb24936ff30e5a23f9438fd4ad1c4009dbf RDMA/hfi1: Convert from atomic_t to refcount_t on hfi1_devdata->user_refcount
-e677b72a0647249370f2635862bf0241c86f66ad RDMA/iwcm: Release resources if iw_cm module initialization fails
-bdb0e4e3ff19b6699ab82828412f2fd9ad811b1d RDMA/iwpm: Remove not-needed reference counting
-bbafcbc2b1c9a9b01ecd97020cf5057a22cb20b2 RDMA/iwpm: Rely on the rdma_nl_[un]register() to ensure that requests are valid
-8d7e415d55610d503fdb8815344846b72d194a40 docs: Fix infiniband uverbs minor number
-991c4274dc17b58b642894a48ccae85c9e53aad6 RDMA/hfi1: Fix typo in comments
-090473004b026747a2795244ecd67bd51a24c923 RDMA/qed: Use accurate error num in qed_cxt_dynamic_ilt_alloc
-0050a57638ca4d681ff92bee55246bf64a6afe54 RDMA/qedr: Improve error logs for rdma_alloc_tid error return
-150d9a073e2921379ff24c599b4ec35607edc72c lib/scatterlist: Provide a dedicated function to support table append
-c83987356b553a37296d49936fc2017a6c3de6d7 lib/scatterlist: Fix wrong update of orig_nents
-4642ba8d5640aba33fbf5f0ddd71438443fcec4d RDMA: Use the sg_table directly and remove the opencoded version from umem
-1f8e945147638332b0534321681da4908646737f net/sched: Don't print dump stack in event of transmission timeout
-02af653cc8465230d99c8291f058c185f841c2cb RDMA/core: Introduce peer memory interface
-550de4d9e0249de707afdc0c8d797eb570dabf7c RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
-9eac484f9df1907b61e63618f758efbf7a3f84a8 RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
-85663a07fd4259c931dae93108b4a9af03d8f104 RDMA/mlx5: Change the cache to hold mkeys instead of MRs
-bac693e26967a5fd2f7f3d90ec373982401b6670 RDMA/mlx5: Change the cache structure to an rbtree
-2c336c0a7bb93cc6fcb45a235f1fef31957b005d RDMA/mlx5: Delay the deregistration of a non-cache mkey
-4ad060d20be5a4d0ecd68cc3c59013de1b45be8d IB/mlx5: Add ATS support for peer memory
-dd324de9760cb564529f8ebaf81142109f03a5fd IB/mlx5: Rename is_apu_thread_cq function to is_apu_cq
-b221d9776c16cba665c1093a63e3f6caae54bd1a configfs: fix the read and write iterators
-93a5ff1cf547689926eab70d7459be5d9e1ec823 RDMA/hns: Don't skip IB creation flow for regular RC QP
-05ff1bf369f888726cdabf0a6ec964429f1b0700 RDMA/hns: Don't overwrite supplied QP attributes
-50a19010c81fdd6827959ac1a04f01cb21a003a8 RDMA/efa: Remove double QP type assignment
-4182329d5fde2d848a3efba27e45d61957950969 RDMA/mlx5: Cancel pkey work before destroying device resources
-95e75b86290aa84d4aedd3c45a8d105cec06b32b RDMA/mlx5: Delete device resource mutex that didn't protect anything
-b4c36340a5ef152c6371161f953c57ab249c9cb0 RDMA/mlx5: Rework custom driver QP type creation
-8137d2ce6fb2ee078e5a433db6650fc0f2b0d89a RDMA/rdmavt: Decouple QP and SGE lists allocations
-2b58b0834b375b8531b47e69a87b81d5b2e66934 RDMA: Globally allocate and release QP memory
-a8af4b1aea7a0d6813ab79e267b9e1820619bf1c RDMA/mlx5: Drop in-driver verbs object creations
-e6f817e10ff2934fa02e3f5f1b6a0fb157c18770 RDMA/mlx5: Delete not-available udata check
-0a24e11e68bd91fe501fb4f2e825e99846381e4e RDMA/core: Delete duplicated and unreachable code
-91e5fc4deb030e4abbbec4acea9311659cb1bd43 RDMA/core: Remove protection from wrong in-kernel API usage
-a399e24cec8e1cbd2cd447c324c2c833d5e8bd18 RDMA/core: Reorganize create QP low-level functions
-0fae50858fc6c372bf5371c3241cc90a85c68916 RDMA/core: Configure selinux QP during creation
-82b9edf88b00efc55db2447651437091cd65f5ad RDMA/core: Properly increment and decrement QP usecnts
-973cd76652f584dde773bd822a26a858f8368e48 RDMA/core: Create clean QP creations interface for uverbs
-08512ffcb28ac04f18118345901c88cc5e914e0b ionic: drop useless check of PCI driver data validity
-5f518347888ff75fc2b86fb9aa9dbb66d119284f ionic: cleanly release devlink instance
-453008b783aefcef3d4de633856e14039d9266f5 net: ti: am65-cpsw-nuss: fix wrong devlink release order
-de60eb360331cc1686a573fbdc06f6d3cad76bac net/mlx5: Don't rely on always true registered field
-f7de9eda804cc6ead21a4e809989022edc913179 devlink: Remove duplicated registration check
-4ef224887881ce1f0caa6192e584c6d56ff7bf20 devlink: Break parameter notification sequence to be before/after unload/load driver
-7de71195fec13a0c6fb8eb47e88167f76a6dd958 devlink: Allocate devlink directly in requested net namespace
-c3b9a4b5039a5dc631a09c2a6596a8648a2b7761 devlink: Count struct devlink consumers
-
---===============5417293284367901385==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71583699e9f5-7532a9744879.txt
+Content-Disposition: attachment; filename=revlist-c06f16ce104b-013fb55c1398.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 80d9ac9bd7b9366c2a89d2716a397749299728e7 KVM: arm64: Fix detection of shared VMAs on guest fault
@@ -398,7 +340,6 @@ e48bf29cf9d6d60d810e2af71e54b71a324094e0 HID: intel-ish-hid: use async resume fu
 59089a189e3adde4cf85f2ce479738d1ae4c514d bpf: Remove superfluous aux sanitation on subprog rejection
 e042aa532c84d18ff13291d00620502ce7a38dda bpf: Fix pointer arithmetic mask tightening under state pruning
 a6c39de76d709f30982d4b80a9b9537e1d388858 bpf, selftests: Add test cases for pointer alu from multiple paths
-cfbe3650dd3ef2ea9a4420ca89d9a4df98af3fb6 netfilter: nf_tables: fix audit memory leak in nf_tables_commit
 7f5231b114da76bfd5d0fc685d5cf408d1bbfca7 platform/x86: amd-pmc: Fix undefined reference to __udivdi3
 e62fb1e3faae60f483a96c359c8d72bb04a7b728 platform/x86: think-lmi: Move pending_reboot_attr to the attributes sysfs dir
 30e78435d3bf803cabdc2a1c2eb36e6983aa4596 platform/x86: think-lmi: Split kobject_init() and kobject_add() calls
@@ -408,62 +349,8 @@ d6371c76e20d7d3f61b05fd67b596af4d14a8886 bpf: Fix OOB read when printing XDP lin
 1e7107c5ef44431bc1ebbd4c353f1d7c22e5f2ec cgroup1: fix leaked context root causing sporadic NULL deref in LTP
 b42b0bddcbc87b4c66f6497f66fc72d52b712aa7 workqueue: fix UAF in pwq_unbound_release_workfn()
 69de4421bb4c103ef42a32bafc596e23918c106f drm/ttm: Initialize debugfs from ttm_global_init()
-ec61cd49bf566401306cfc4855bda8c08bbaa46c mac80211: Do not strip skb headroom on monitor frames
-1a7915501ca94a1f10288defe333cd5ade210b63 mac80211: fix starting aggregation sessions on mesh interfaces
-a5d3cbdb09ff1f52cbe040932e06c8b9915c6dad mac80211: fix enabling 4-address mode on a sta vif after assoc
-17109e9783799be2a063b2bd861a508194b0a487 virt_wifi: fix error on connect
-0d059964504a1605d84938c0b5b38f6573121c4a nl80211: limit band information in non-split data
-f9a5c358c8d26fed0cc45f2afc64633d4ba21dff cfg80211: Fix possible memory leak in function cfg80211_bss_update
-32c3973d808301e7a980f80fee8818fdf7c82b09 netfilter: flowtable: avoid possible false sharing
-32953df7a6eb56bd9b8f18a13034d55f9fc96cfa netfilter: nft_last: avoid possible false sharing
-30a56a2b881821625f79837d4d968c679852444e netfilter: conntrack: adjust stop timestamp to real expiry value
-a33f387ecd5aafae514095c2c4a8c24f7aea7e8b netfilter: nft_nat: allow to specify layer 4 protocol NAT only
-217e26bd87b2930856726b48a4e71c768b8c9bf5 netfilter: nfnl_hook: fix unused variable warning
-65662a8dcdd01342b71ee44234bcfd0162e195af i40e: Fix logic of disabling queues
-71d6fdba4b2d82fdd883fec31dee77fbcf59773a i40e: Fix firmware LLDP agent related warning
-dc614c46178b0b89bde86ac54fc687a28580d2b7 i40e: Add additional info to PHY type error
-89ec1f0886c127c7e41ac61a6b6d539f4fb2510b i40e: Fix queue-to-TC mapping on Tx
-ea52faae1d17cd3048681d86d2e8641f44de484d i40e: Fix log TC creation failure when max num of queues is exceeded
-d72e91efcae12f2f24ced984d00d60517c677857 octeontx2-af: Remove unnecessary devm_kfree
-f8dd60de194817c86bf812700980762bb5a8d9a4 tipc: fix implicit-connect for SYN+
-d237a7f11719ff9320721be5818352e48071aab6 tipc: fix sleeping in tipc accept routine
-227adfb2b1dfbc53dfc53b9dd7a93a6298ff7c56 net: Set true network header for ECN decapsulation
-46c7655f0b56b1ac864115441064cde9ed124f4a ipv6: decrease hop limit counter in ip6_forward()
-c92c74131a84b508aa8f079a25d7bbe10748449e net: dsa: mv88e6xxx: silently accept the deletion of VID 0 too
-68d1f1d4af188c290087958c75c7b89a816e1137 wwan: core: Fix missing RTM_NEWLINK event for default link
 3ce6e1f662a910970880188ea7bfd00542bd3934 loop: reintroduce global lock for safe loop_validate_file() traversal
-9986066d94c971edf19464ed7bf5b26a91520e97 octeontx2-af: Fix uninitialized variables in rvu_switch
-200bd5668c04d35510d152aa2f74c659f705a5b3 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
-52f3456a96c06760b9bfae460e39596fec7af22e net: qrtr: fix memory leaks
-15bbf8bb4d4ab87108ecf5f4155ec8ffa3c141d6 NIU: fix incorrect error return, missed in previous revert
-1f22cf13496ff6717c60bb26fbeee7d07f7ac578 Merge tag 'mac80211-for-net-2021-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
-0506c93fba05d91d40faa04c579e35783a4aa6f6 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-6840e17b8ea992453e2d6f460d403cb05d194e76 ionic: make all rx_mode work threadsafe
-f79eef711eb57d56874b08ea11db69221de54a6d ionic: catch no ptp support earlier
-a6ff85e0a2d9d074a4b4c291ba9ec1e5b0aba22b ionic: remove intr coalesce update from napi
-76ed8a4a00b484dcccef819ef2618bcf8e46f560 ionic: fix up dim accounting for tx and rx
-f07f9815b7046e25cc32bf8542c9c0bbc5eb6e0e ionic: count csum_none when offload enabled
-5aa1959d18003472cc741dc490c3335c5bd804e2 Merge branch 'ionic-fixes'
-f5d156c7bfab7d728b2fd35bc63eab12eda18125 arm64: dts: imx8mp: remove fallback compatible string for FlexCAN
-54f93336d000229f72c26d8a3f69dd256b744528 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-0c71437dd50dd687c15d8ca80b3b68f10bb21d63 can: j1939: j1939_session_deactivate(): clarify lifetime of session object
-c6eea1c8bda56737752465a298dc6ce07d6b8ce3 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
-590eb2b7d8cfafb27e8108d52d4bf4850626d31d can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
-ef68a717960658e6a1e5f08adb0574326e9a12c2 can: mcp251xfd: mcp251xfd_irq(): stop timestamping worker in case error in IRQ
-e394f1e3b13946b200935310ebdd5583cf374bba Merge tag 'linux-can-fixes-for-5.14-20210724' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-3cf4375a090473d240281a0d2b04a3a5aaeac34b tipc: do not write skb_shinfo frags when doing decrytion
-89bc7f456cd40e0be7b94f4fdae9186f22b76a05 bnxt_en: Add missing periodic PHC overflow check
-ac059d16442f30e6a9a95d41655153e01247e710 octeontx2-af: Fix PKIND overlap between LBK and LMAC interfaces
-69f0aeb13bb548e2d5710a350116e03f0273302e octeontx2-pf: Fix interface down flag on error
-4c85e57575fb9e6405d02d55aef8025c60abb824 octeontx2-pf: Dont enable backpressure on LBK links
-149ea30fdd5c28b89a3bfdecfc75cdab1deddb14 devlink: Fix phys_port_name of virtual port and merge error
-ad4e1e48a6291f7fb53fbef38ca264966ffd65c9 net: phy: broadcom: re-add check for PHY_BRCM_DIS_TXCRXC_NOENRGY on the BCM54811 PHY
-7e4960b3d66d7248b23de3251118147812b42da2 mlx4: Fix missing error code in mlx4_load_one()
 44379b986424b02acfa6e8c85ec5d68d89d3ccc4 drm/panel: panel-simple: Fix proper bpc for ytc700tlag_05_201c
-795e3d2ea68e489ee7039ac29e98bfea0e34a96c net: qede: Fix end of loop tests for list_for_each_entry
-058e6e0ed0eace43401c945082dec1d669b5b231 sctp: improve the code for pmtu probe send and recv update
-eacf078cf4c7aa23e9591738511f142cc39b5186 sctp: send pmtu probe only if packet loss in Search Complete state
-832df96d5f957d42fd9eb9660519a0c51fe8538e Merge branch 'sctp-pmtu-probe'
 9f66861181e64dc192bea136da6c91528910002e m68k/coldfire: change pll var. to clk_pll
 e4b016f4b44176807e545fd437cd519b6380e86f alpha: __udiv_qrnnd should be exported
 a09c33cbf3db545d44eab16eb528acf834310690 alpha: Kconfig: Replace HTTP links with HTTPS ones
@@ -482,19 +369,15 @@ d7f237df53457cf0cbdb9943b9b7c93a05e2fdb6 drm/i915/bios: Fix ports mask
 b4bde5554f70fb04ff07989fdc1356ab84d6f482 drm/i915/display: split DISPLAY_VER 9 and 10 in intel_setup_outputs()
 e1ab9a730b426fadc018f91b7c98412473e542fb Merge branch 'fixes' into next
 f0c6225531e4a9e43e51c5f7b02089bdd725c734 ACPI: PM: Add support for upcoming AMD uPEP HID AMDI007
-94cbe7db7d757c2d481c3617ab5579a28cfc2175 net: stmmac: add est_irq_status callback function for GMAC 4.10 and 5.10
-2ebda027148315581b89a2ed2fef84ad53b2aedd sctp: delete addr based on sin6_scope_id
 9a9e74819bb0e4694279fb437e136fe485878d25 KVM: nSVM: Rename nested_svm_vmloadsave() to svm_copy_vmloadsave_state()
 2bb16bea5feaa582fbbdbfd84ecaa1ab61bbb34c KVM: nSVM: Swap the parameter order for svm_copy_vmrun_state()/svm_copy_vmloadsave_state()
 0e691ee7b5034c91a31b565d3ff9a50e01dde445 KVM: Documentation: Fix KVM_CAP_ENFORCE_PV_FEATURE_CPUID name
 3b1c8c5682672d73c1e977944af8c3ebed4a0ce1 docs: virt: kvm: api.rst: replace some characters
 0a31df6823232516f61f174907e444f710941dfe KVM: x86: Check the right feature bit for MSR_KVM_ASYNC_PF_ACK access
-92766c4628ea349c8ddab0cd7bd0488f36e5c4ce net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
 44eff40a32e8f5228ae041006352e32638ad2368 io_uring: fix io_prep_async_link locking
 d47255d3f87338164762ac56df1f28d751e27246 drm/amdgpu: Fix resource leak on probe error path
 110aa25c3ce417a44e35990cf8ed22383277933a io_uring: fix race in unified task_work running
 6aade587d329ebe88319dfdb8e8c7b6aede80417 drm/amdgpu: Avoid printing of stack contents on firmware load error
-758684e49f4c7ea2a75e249e486659f0950cd63e bnxt_en: Fix static checker warning in bnxt_fw_reset_task()
 f2a26a3cff27dfa456fef386fe5df56dcb4b47b6 SMB3: fix readpage for large swap cache
 5ad4df56cd2158965f73416d41fce37906724822 smb3: rc uninitialized in one fallocate path
 9f59efcd51e332aad01e7fa2b3a97cd22d347ceb HID: ft260: fix format type warning in ft260_word_show()
@@ -689,12 +572,13 @@ f7de9eda804cc6ead21a4e809989022edc913179 devlink: Remove duplicated registration
 c3b9a4b5039a5dc631a09c2a6596a8648a2b7761 devlink: Count struct devlink consumers
 e40af71f1a393b0b8d1b41ec9af836adf6ce85b2 Merge branch 'master' into testing/rdma-rc
 7532a9744879c1ef2d2b00248d001506fd67425b Merge branch 'rdma-next' into testing/rdma-next
+013fb55c1398fabc141684fe0162524eaf8ecabf Merge branch 'testing/rdma-next' into queue-next
 
---===============5417293284367901385==
+--===============8373924499800338934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6498cb9b6d9-e40af71f1a39.txt
+Content-Disposition: attachment; filename=revlist-33e6eb937ab3-1c4167e08c75.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 80d9ac9bd7b9366c2a89d2716a397749299728e7 KVM: arm64: Fix detection of shared VMAs on guest fault
@@ -720,7 +604,6 @@ e48bf29cf9d6d60d810e2af71e54b71a324094e0 HID: intel-ish-hid: use async resume fu
 59089a189e3adde4cf85f2ce479738d1ae4c514d bpf: Remove superfluous aux sanitation on subprog rejection
 e042aa532c84d18ff13291d00620502ce7a38dda bpf: Fix pointer arithmetic mask tightening under state pruning
 a6c39de76d709f30982d4b80a9b9537e1d388858 bpf, selftests: Add test cases for pointer alu from multiple paths
-cfbe3650dd3ef2ea9a4420ca89d9a4df98af3fb6 netfilter: nf_tables: fix audit memory leak in nf_tables_commit
 7f5231b114da76bfd5d0fc685d5cf408d1bbfca7 platform/x86: amd-pmc: Fix undefined reference to __udivdi3
 e62fb1e3faae60f483a96c359c8d72bb04a7b728 platform/x86: think-lmi: Move pending_reboot_attr to the attributes sysfs dir
 30e78435d3bf803cabdc2a1c2eb36e6983aa4596 platform/x86: think-lmi: Split kobject_init() and kobject_add() calls
@@ -730,62 +613,8 @@ d6371c76e20d7d3f61b05fd67b596af4d14a8886 bpf: Fix OOB read when printing XDP lin
 1e7107c5ef44431bc1ebbd4c353f1d7c22e5f2ec cgroup1: fix leaked context root causing sporadic NULL deref in LTP
 b42b0bddcbc87b4c66f6497f66fc72d52b712aa7 workqueue: fix UAF in pwq_unbound_release_workfn()
 69de4421bb4c103ef42a32bafc596e23918c106f drm/ttm: Initialize debugfs from ttm_global_init()
-ec61cd49bf566401306cfc4855bda8c08bbaa46c mac80211: Do not strip skb headroom on monitor frames
-1a7915501ca94a1f10288defe333cd5ade210b63 mac80211: fix starting aggregation sessions on mesh interfaces
-a5d3cbdb09ff1f52cbe040932e06c8b9915c6dad mac80211: fix enabling 4-address mode on a sta vif after assoc
-17109e9783799be2a063b2bd861a508194b0a487 virt_wifi: fix error on connect
-0d059964504a1605d84938c0b5b38f6573121c4a nl80211: limit band information in non-split data
-f9a5c358c8d26fed0cc45f2afc64633d4ba21dff cfg80211: Fix possible memory leak in function cfg80211_bss_update
-32c3973d808301e7a980f80fee8818fdf7c82b09 netfilter: flowtable: avoid possible false sharing
-32953df7a6eb56bd9b8f18a13034d55f9fc96cfa netfilter: nft_last: avoid possible false sharing
-30a56a2b881821625f79837d4d968c679852444e netfilter: conntrack: adjust stop timestamp to real expiry value
-a33f387ecd5aafae514095c2c4a8c24f7aea7e8b netfilter: nft_nat: allow to specify layer 4 protocol NAT only
-217e26bd87b2930856726b48a4e71c768b8c9bf5 netfilter: nfnl_hook: fix unused variable warning
-65662a8dcdd01342b71ee44234bcfd0162e195af i40e: Fix logic of disabling queues
-71d6fdba4b2d82fdd883fec31dee77fbcf59773a i40e: Fix firmware LLDP agent related warning
-dc614c46178b0b89bde86ac54fc687a28580d2b7 i40e: Add additional info to PHY type error
-89ec1f0886c127c7e41ac61a6b6d539f4fb2510b i40e: Fix queue-to-TC mapping on Tx
-ea52faae1d17cd3048681d86d2e8641f44de484d i40e: Fix log TC creation failure when max num of queues is exceeded
-d72e91efcae12f2f24ced984d00d60517c677857 octeontx2-af: Remove unnecessary devm_kfree
-f8dd60de194817c86bf812700980762bb5a8d9a4 tipc: fix implicit-connect for SYN+
-d237a7f11719ff9320721be5818352e48071aab6 tipc: fix sleeping in tipc accept routine
-227adfb2b1dfbc53dfc53b9dd7a93a6298ff7c56 net: Set true network header for ECN decapsulation
-46c7655f0b56b1ac864115441064cde9ed124f4a ipv6: decrease hop limit counter in ip6_forward()
-c92c74131a84b508aa8f079a25d7bbe10748449e net: dsa: mv88e6xxx: silently accept the deletion of VID 0 too
-68d1f1d4af188c290087958c75c7b89a816e1137 wwan: core: Fix missing RTM_NEWLINK event for default link
 3ce6e1f662a910970880188ea7bfd00542bd3934 loop: reintroduce global lock for safe loop_validate_file() traversal
-9986066d94c971edf19464ed7bf5b26a91520e97 octeontx2-af: Fix uninitialized variables in rvu_switch
-200bd5668c04d35510d152aa2f74c659f705a5b3 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
-52f3456a96c06760b9bfae460e39596fec7af22e net: qrtr: fix memory leaks
-15bbf8bb4d4ab87108ecf5f4155ec8ffa3c141d6 NIU: fix incorrect error return, missed in previous revert
-1f22cf13496ff6717c60bb26fbeee7d07f7ac578 Merge tag 'mac80211-for-net-2021-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
-0506c93fba05d91d40faa04c579e35783a4aa6f6 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-6840e17b8ea992453e2d6f460d403cb05d194e76 ionic: make all rx_mode work threadsafe
-f79eef711eb57d56874b08ea11db69221de54a6d ionic: catch no ptp support earlier
-a6ff85e0a2d9d074a4b4c291ba9ec1e5b0aba22b ionic: remove intr coalesce update from napi
-76ed8a4a00b484dcccef819ef2618bcf8e46f560 ionic: fix up dim accounting for tx and rx
-f07f9815b7046e25cc32bf8542c9c0bbc5eb6e0e ionic: count csum_none when offload enabled
-5aa1959d18003472cc741dc490c3335c5bd804e2 Merge branch 'ionic-fixes'
-f5d156c7bfab7d728b2fd35bc63eab12eda18125 arm64: dts: imx8mp: remove fallback compatible string for FlexCAN
-54f93336d000229f72c26d8a3f69dd256b744528 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-0c71437dd50dd687c15d8ca80b3b68f10bb21d63 can: j1939: j1939_session_deactivate(): clarify lifetime of session object
-c6eea1c8bda56737752465a298dc6ce07d6b8ce3 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
-590eb2b7d8cfafb27e8108d52d4bf4850626d31d can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
-ef68a717960658e6a1e5f08adb0574326e9a12c2 can: mcp251xfd: mcp251xfd_irq(): stop timestamping worker in case error in IRQ
-e394f1e3b13946b200935310ebdd5583cf374bba Merge tag 'linux-can-fixes-for-5.14-20210724' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-3cf4375a090473d240281a0d2b04a3a5aaeac34b tipc: do not write skb_shinfo frags when doing decrytion
-89bc7f456cd40e0be7b94f4fdae9186f22b76a05 bnxt_en: Add missing periodic PHC overflow check
-ac059d16442f30e6a9a95d41655153e01247e710 octeontx2-af: Fix PKIND overlap between LBK and LMAC interfaces
-69f0aeb13bb548e2d5710a350116e03f0273302e octeontx2-pf: Fix interface down flag on error
-4c85e57575fb9e6405d02d55aef8025c60abb824 octeontx2-pf: Dont enable backpressure on LBK links
-149ea30fdd5c28b89a3bfdecfc75cdab1deddb14 devlink: Fix phys_port_name of virtual port and merge error
-ad4e1e48a6291f7fb53fbef38ca264966ffd65c9 net: phy: broadcom: re-add check for PHY_BRCM_DIS_TXCRXC_NOENRGY on the BCM54811 PHY
-7e4960b3d66d7248b23de3251118147812b42da2 mlx4: Fix missing error code in mlx4_load_one()
 44379b986424b02acfa6e8c85ec5d68d89d3ccc4 drm/panel: panel-simple: Fix proper bpc for ytc700tlag_05_201c
-795e3d2ea68e489ee7039ac29e98bfea0e34a96c net: qede: Fix end of loop tests for list_for_each_entry
-058e6e0ed0eace43401c945082dec1d669b5b231 sctp: improve the code for pmtu probe send and recv update
-eacf078cf4c7aa23e9591738511f142cc39b5186 sctp: send pmtu probe only if packet loss in Search Complete state
-832df96d5f957d42fd9eb9660519a0c51fe8538e Merge branch 'sctp-pmtu-probe'
 9f66861181e64dc192bea136da6c91528910002e m68k/coldfire: change pll var. to clk_pll
 e4b016f4b44176807e545fd437cd519b6380e86f alpha: __udiv_qrnnd should be exported
 a09c33cbf3db545d44eab16eb528acf834310690 alpha: Kconfig: Replace HTTP links with HTTPS ones
@@ -804,19 +633,15 @@ d7f237df53457cf0cbdb9943b9b7c93a05e2fdb6 drm/i915/bios: Fix ports mask
 b4bde5554f70fb04ff07989fdc1356ab84d6f482 drm/i915/display: split DISPLAY_VER 9 and 10 in intel_setup_outputs()
 e1ab9a730b426fadc018f91b7c98412473e542fb Merge branch 'fixes' into next
 f0c6225531e4a9e43e51c5f7b02089bdd725c734 ACPI: PM: Add support for upcoming AMD uPEP HID AMDI007
-94cbe7db7d757c2d481c3617ab5579a28cfc2175 net: stmmac: add est_irq_status callback function for GMAC 4.10 and 5.10
-2ebda027148315581b89a2ed2fef84ad53b2aedd sctp: delete addr based on sin6_scope_id
 9a9e74819bb0e4694279fb437e136fe485878d25 KVM: nSVM: Rename nested_svm_vmloadsave() to svm_copy_vmloadsave_state()
 2bb16bea5feaa582fbbdbfd84ecaa1ab61bbb34c KVM: nSVM: Swap the parameter order for svm_copy_vmrun_state()/svm_copy_vmloadsave_state()
 0e691ee7b5034c91a31b565d3ff9a50e01dde445 KVM: Documentation: Fix KVM_CAP_ENFORCE_PV_FEATURE_CPUID name
 3b1c8c5682672d73c1e977944af8c3ebed4a0ce1 docs: virt: kvm: api.rst: replace some characters
 0a31df6823232516f61f174907e444f710941dfe KVM: x86: Check the right feature bit for MSR_KVM_ASYNC_PF_ACK access
-92766c4628ea349c8ddab0cd7bd0488f36e5c4ce net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
 44eff40a32e8f5228ae041006352e32638ad2368 io_uring: fix io_prep_async_link locking
 d47255d3f87338164762ac56df1f28d751e27246 drm/amdgpu: Fix resource leak on probe error path
 110aa25c3ce417a44e35990cf8ed22383277933a io_uring: fix race in unified task_work running
 6aade587d329ebe88319dfdb8e8c7b6aede80417 drm/amdgpu: Avoid printing of stack contents on firmware load error
-758684e49f4c7ea2a75e249e486659f0950cd63e bnxt_en: Fix static checker warning in bnxt_fw_reset_task()
 f2a26a3cff27dfa456fef386fe5df56dcb4b47b6 SMB3: fix readpage for large swap cache
 5ad4df56cd2158965f73416d41fce37906724822 smb3: rc uninitialized in one fallocate path
 9f59efcd51e332aad01e7fa2b3a97cd22d347ceb HID: ft260: fix format type warning in ft260_word_show()
@@ -963,5 +788,6 @@ c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
 e40af71f1a393b0b8d1b41ec9af836adf6ce85b2 Merge branch 'master' into testing/rdma-rc
+1c4167e08c7521fa4a8b38891c503f9fccba9d00 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5417293284367901385==--
+--===============8373924499800338934==--
