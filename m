@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/man-pages
-Date: Mon, 02 Aug 2021 10:29:50 -0000
-Message-Id: <162790019007.28306.12159685425774033221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 02 Aug 2021 10:35:34 -0000
+Message-Id: <162790053468.615.15153629548985956652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/man-pages
-user: brauner
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/fs.mount_setattr
-    old: 0000000000000000000000000000000000000000
-    new: d936ad4dfacb7f25df3396456af57e2e16eb610d
+  - ref: refs/heads/at91-dt
+    old: e16e26bed7db8effb9c5036b57ef33e3c7e97f25
+    new: 818c4593434e81c9971b8fc278215121622c755e
+    log: |
+         818c4593434e81c9971b8fc278215121622c755e ARM: dts: at91: use the right property for shutdown controller
+         
