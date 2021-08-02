@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 02 Aug 2021 14:11:49 -0000
-Message-Id: <162791350910.1295.17197639704733700762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 02 Aug 2021 14:11:56 -0000
+Message-Id: <162791351610.1418.8377746642905311219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: rpeterso
 changes:
-  - ref: refs/heads/master
-    old: 1e0dd56e962e23f7738b32e8eed9ff96177c7fcb
-    new: 35d7a6f1fb53479965e9f99e8c87edc642336eba
+  - ref: refs/heads/for-next.next5
+    old: ccc499ca75f2217380bdb82225cfb248acd95244
+    new: 2be150d4044259bc5245bfe94aaf8770da758440
     log: |
-         35d7a6f1fb53479965e9f99e8c87edc642336eba nfc: hci: pass callback data param as pointer in nci_request()
+         2be150d4044259bc5245bfe94aaf8770da758440 gfs2: Remove redundant check from gfs2_glock_dq
          
