@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 02 Aug 2021 11:23:09 -0000
-Message-Id: <162790338902.2973.337415158454066887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 02 Aug 2021 11:25:01 -0000
+Message-Id: <162790350148.3885.4406336896399782872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 8ad22184b5cdc2c81d61b9f6b283d08e588fcb08
-    new: 2d29fccaad267d1b003dc0ed2bb9634ff76f3e49
+    old: ebca25ead0711729e0aeeec45062e7ac4df3e158
+    new: 40e159403896f7d55c98f858d0b20fee1d941fa4
     log: |
-         afaece0eb2bc9db7e5b0847265e43e80be8f0e71 libmount: assert() is enough [lgtm scan]
-         2d29fccaad267d1b003dc0ed2bb9634ff76f3e49 libfdisk: add new Linux GPT partition types
+         40e159403896f7d55c98f858d0b20fee1d941fa4 mhi: Fix networking tree build.
          
