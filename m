@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8691789020273690765=="
+Content-Type: multipart/mixed; boundary="===============0684212970640272467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 02 Aug 2021 12:18:33 -0000
-Message-Id: <162790671384.12999.14832379715780759955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Aug 2021 12:22:49 -0000
+Message-Id: <162790696988.17276.16116157482658126004@gitolite.kernel.org>
 
---===============8691789020273690765==
+--===============0684212970640272467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: ff1176468d368232b684f75e82563369208bc371
-    new: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
-    log: revlist-ff1176468d36-c500bee1c5b2.txt
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/heads/kvm-arm64/mmu/kmemleak-pkvm
+    old: f5e7b1422049450393a64ac37b1204f03e38baa5
+    new: aa0f549aa1ff22d07031a2292627ba4f4f429fe6
+    log: revlist-f5e7b1422049-aa0f549aa1ff.txt
 
---===============8691789020273690765==
+--===============0684212970640272467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1176468d36-c500bee1c5b2.txt
+Content-Disposition: attachment; filename=revlist-f5e7b1422049-aa0f549aa1ff.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
@@ -304,5 +301,7 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
+a9039da55c03d8ef00abca5912d74b23b20f5963 arm64: Move .hyp.rodata outside of the _sdata.._edata range
+aa0f549aa1ff22d07031a2292627ba4f4f429fe6 KVM: arm64: Unregister HYP sections from kmemleak in protected mode
 
---===============8691789020273690765==--
+--===============0684212970640272467==--
