@@ -1,71 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============9190125823475834833=="
+Content-Type: multipart/mixed; boundary="===============8451778101271531785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Aug 2021 18:53:43 -0000
-Message-Id: <162793042380.30232.1005943247585813810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 02 Aug 2021 18:53:45 -0000
+Message-Id: <162793042579.30354.16675486676740359758@gitolite.kernel.org>
 
---===============9190125823475834833==
+--===============8451778101271531785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/topic-rpc-with-tls
-    old: f1ba6890d0c0fb6803805c7d3813380045591ff0
-    new: 0f6858c97cfa690d41316a16fc2e2f4dfe767180
-    log: revlist-f1ba6890d0c0-0f6858c97cfa.txt
-  - ref: refs/tags/v5.10.55
-    old: 0000000000000000000000000000000000000000
-    new: 5d06fc98e2b7945ed41a357b6d63917d3f513b57
+  - ref: refs/heads/mlx5-queue
+    old: fe0496ca959d33d64b0bf048c068da3228babef5
+    new: 551fb7a0e761de81fe533a4782ca7381bf3820a5
+    log: revlist-fe0496ca959d-551fb7a0e761.txt
 
---===============9190125823475834833==
+--===============8451778101271531785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1ba6890d0c0-0f6858c97cfa.txt
+Content-Disposition: attachment; filename=revlist-fe0496ca959d-551fb7a0e761.txt
 
-475312897ea6b4b9a9a56c838aec6370c42f7315 tools: Allow proper CC/CXX/... override with LLVM=1 in Makefile.include
-6f5d7a45f58d3abe3a936de1441b8d6318f978ff io_uring: fix link timeout refs
-dee8119eaa9e00f0d1e14f050e1867813a49a1bb KVM: x86: determine if an exception has an error code only when injecting it.
-93c5951e0ce137e994237c19cd75a7caa1f80543 af_unix: fix garbage collect vs MSG_PEEK
-dcd00801f3d93bd898b697b7cfc5a5a8069648d2 workqueue: fix UAF in pwq_unbound_release_workfn()
-df34f888628e961d8158dbd9712ebf04dfa4ad8c cgroup1: fix leaked context root causing sporadic NULL deref in LTP
-5d93810761b4beda2341372bd9d34a78cb9b22c2 net/802/mrp: fix memleak in mrp_request_join()
-92289f58f01d1a7f76c763dbdf1ae4f02ddfab75 net/802/garp: fix memleak in garp_request_join()
-915226f31fd489f9a37894caacd9b4e5f5904a26 net: annotate data race around sk_ll_usec
-4d972881f8d8e80e0320169e681284785cfe51e2 sctp: move 198 addresses from unusable to private scope
-55ddab2bfd7035347765e62748fd1e30cb3528d6 rcu-tasks: Don't delete holdouts within trc_inspect_reader()
-86cb49e7314eb1ef53a4f7a015536febc889995e rcu-tasks: Don't delete holdouts within trc_wait_for_one_reader()
-2323690eb05865a657709f4d28eb9538ea97bfc2 ipv6: allocate enough headroom in ip6_finish_output2()
-5c3d753b872a706af9317fef4edfb6b640d8a71e drm/ttm: add a check against null pointer dereference
-680b2917e60ed0cf80d7d4479004844f9cddda81 hfs: add missing clean-up in hfs_fill_super
-06b3d9923fa05f300c1d92a9259c01f7de72e670 hfs: fix high memory mapping in hfs_bnode_read
-d01328fef6afffd1bdce6e8ead707b6f5a5de7a7 hfs: add lock nesting notation to hfs_find_init
-8f8e5475a369d5424b2cac061b47ee08ef285db0 firmware: arm_scmi: Fix possible scmi_linux_errmap buffer overflow
-fe5fe0b1c8b91877c3b35482fc08c35cc9586842 firmware: arm_scmi: Fix range check for the maximum number of pending messages
-65039407489c3baddbd883acc243867c2c28f9c3 cifs: fix the out of range assignment to bit fields in parse_server_interfaces
-8659186e72d0770720d052d39e4bee4a47366fd3 iomap: remove the length variable in iomap_seek_data
-3510b9b41c70e2d51a05e2c6f558b522de8ab646 iomap: remove the length variable in iomap_seek_hole
-a74054ca75533dd9a0747b6c308daf27a6433ab4 ARM: dts: versatile: Fix up interrupt controller node names
-984e93b8e20731f83e453dd056f8a3931b4a66e5 ipv6: ip6_finish_output2: set sk into newly allocated nskb
-11fe69a17195cf58eff523f26f90de50660d0100 Linux 5.10.55
-388b7528ef3ebf23244d973fc44a0849ba12d1c4 Dirty initial port of Tempesta TLS into the kernel
-f3497286279795c2050503e60da249e0796b48c0 SUNRPC: Add RPC_AUTH_TLS protocol numbers
-41e684433bcee78bebc2c4802c308657c2366485 SUNRPC: Add RPC client support for the RPC_AUTH_TLS authentication flavor
-b8d3dbb06143db244fd4332205d806b9185f76ff SUNRPC: Refactor rpc_call_null_helper()
-f456c39fc717dee4a1eb8fa1c586caa6fb553446 SUNRPC: Add RPC_TASK_CORK flag
-d7e63873d25665ece7451bb2ec141f026a763b26 SUNRPC: Add a cl_tls_policy field
-d7b4142966ee0794dfe1eaddbba6bef09dad28ad SUNRPC: Expose TLS policy via the rpc_create() API
-91b2aa1e0bb1166fee2accadb69d7cf4d3a059aa SUNRPC: Add infrastructure for async RPC_AUTH_TLS probe
-b3927287d074358d529a9613d3c37bd53b4b3885 SUNRPC: Add FSM machinery to handle RPC_AUTH_TLS on reconnect
-b966aaf8989ffa598717edd66c38c5cd92679e23 SUNRPC: Reject TLS_REQUIRED on xprts that don't support TLS
-995467d1a31efa80b268c0a4b5eef254f4994a63 NFS: Replace fs_context-related dprintk() call sites with tracepoints
-aca233bc9c6f735e1059413de9a34e0cad41d404 NFS: Have struct nfs_client carry a TLS policy field
-0f6858c97cfa690d41316a16fc2e2f4dfe767180 NFS: Add a "tls=" NFS mount option
+11b937d339952f8a503c273297765ea6296c374e net/mlx5: SF, use recent sysfs api
+50c05829bff25f349754f21d627bf6cc50535946 net/mlx5e: Remove redundant tc act includes
+25550c6e225dc3998f899485b24c75a3e88052f5 net/mlx5e: Remove redundant filter_dev arg from parse_tc_fdb_actions()
+3a22ebc3e602bd073bc3199693a964e726225ebf net/mlx5e: Remove redundant cap check for flow counter
+8e85fba83555584a844f554224eb04ebc3234cac net/mlx5e: Remove redundant parse_attr arg
+4866562b1609488a9ade39496d5de1206aac9ec5 net/mlx5e: Remove redundant assignment of counter to null
+0ff909d23d81e6981980802dcb56182392b544c7 net/mlx5: Reorganize current and maximal capabilities to be per-type
+40663ae627beb197af49cc64c024a9d17d2d1222 net/mlx5e: Return -EOPNOTSUPP if more relevant when parsing tc actions
+37e2f9a8d5d69dc93bf6a13fe2e21db816c9d4d3 net/mlx5e: Use a new initializer to build uniform indir table
+68a71b8f9c42afe3f3b9d33041d512d34cd38e4c net/mlx5: Allocate individual capability
+0d4dbab22a5dcafd2e9eb8241117ff5e2cb1915c net/mlx5e: Introduce mlx5e_channels API to get RQNs
+6807abceedb2b8f0b1532cc7a167e3686a9abe30 net/mlx5e: Hide all implementation details of mlx5e_rx_res
+47d554d6bd1b9a11bb5bfa13a1a7e3a994ddfa8e net/mlx5e: Allocate the array of channels according to the real max_nch
+9ca09dc27749d873a1dad8168bd0e0e78000312d net/mlx5e: Rename traffic type enums
+49bf2323eac036627a02b4ad919b500469836c2b net/mlx5e: Rename some related TTC args and functions
+253b47344572292371b0a8c90bdcdd264cb25071 net/mlx5e: Decouple TTC logic from mlx5e
+8fbff7d7eee9d546dad532e14b98fb05cca21fb7 net/mlx5: Move TTC logic to fs_ttc
+1c5dea6ca1276c7adc1c9d8947f2d05d96e1912b net/mlx5: Embed mlx5_ttc_table
+136fc0cee478bf45af1981791eae15fb2fc9914e net/mlx5: Lag, fix multipath lag activation
+7ab4bd2671af9ce30d931e76f6af9fef6dbac250 net/mlx5: Return mdev from eswitch
+fbb0eb0eda686df1e6ac6b8bf023ace5b087ecf1 net/mlx5: Lag, add initial logic for shared FDB
+b1ddb716b2757fb7a18ed239d2a26655360d8d53 RDMA/mlx5: Fill port info based on the relevant eswitch
+826bb51dba054268c6d96626733c340242d3a767 {net, RDMA}/mlx5: Extend send to vport rules
+a1afb065820119b05d58d0bf640adccc27b444db RDMA/mlx5: Add shared FDB support
+e707183ce3aaf0cee72915058e4c1084050e349a net/mlx5: E-Switch, set flow source for send to uplink rule
+3d6be29f44433def86885d2f7d0640f662290ae6 net/mlx5e: Add an option to create a shared mapping
+0987298c4fc11c4f5ccb3c0b7c2c45f8c0b4b8c9 net/mlx5e: Use shared mappings for restoring from metadata
+d6cb90064f71ecdfaaf898854ad82a15f4a8409f net/mlx5: E-Switch, Add event callback for representors
+82954b6d66874dc2abc5ad7ad1dacb977cd3b37a net/mlx5: Add send to vport rules on paired device
+769bc9b10accfe9bb608142b7c54965fe332fb71 net/mlx5: Lag, properly lock eswitch if needed
+70e65a025ea8e1bb44fbd5598cb74d81f1ceeea4 net/mlx5: Lag, move lag destruction to a workqueue
+b13fc5870811f8b3b99ad1882d99f1d112d7cf72 net/mlx5/ E-Switch, add logic to enable shared FDB
+96613dc536f99c593d07802ab12e34f00588fdcb net/mlx5: Lag, Create shared FDB when in switchdev mode
+0f47ab8fdeb2d30fd8a21a798b0845fd4ed69288 net/mlx5: Initialize numa node for all core devices
+5b7c720f0562fddd6f68721896556e13afdaa083 Merge branch 'patchq/417107' into mlx5-queue
+a3de9186a8fc2dac145828ff1260ea27f3b9e37d Merge branch 'patchq/414336' into mlx5-queue
+c9b7126f07d01bbc06893e5e40a7e9b789c27263 Merge branch 'patchq/412107' into mlx5-queue
+45380021ffd0f7ef28359c9aed2920498de11739 Merge branch 'patchq/411074' into mlx5-queue
+9beb95623b1335ca6bf7d74ba19c0b8cb692fe4f Merge branch 'patchq/400401' into mlx5-queue
+551fb7a0e761de81fe533a4782ca7381bf3820a5 Merge branch 'patchq/407396' into mlx5-queue
 
---===============9190125823475834833==--
+--===============8451778101271531785==--
