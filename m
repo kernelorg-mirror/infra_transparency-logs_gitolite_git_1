@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8460921002312226248=="
+Content-Type: multipart/mixed; boundary="===============6053887331306289318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Aug 2021 20:28:40 -0000
-Message-Id: <162793612007.28222.9136991303053657335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Aug 2021 20:28:47 -0000
+Message-Id: <162793612727.28415.15124624350220061308@gitolite.kernel.org>
 
---===============8460921002312226248==
+--===============6053887331306289318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 170c0d7460fc4aa522995ae4096b5a442f50a1fc
     new: b189dde9d3e54b607791e9cdf28c7881eac8a37e
     log: revlist-170c0d7460fc-b189dde9d3e5.txt
 
---===============8460921002312226248==
+--===============6053887331306289318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627936106 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1627936117-a211516c229e9209869f352989ca75016d738354
+pusher C3F436CA30F5D8EB 1627936113 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627936124-9e5e5bc75bc66b2a6487ce0088e5a63fb0c5f7c7
 
-170c0d7460fc4aa522995ae4096b5a442f50a1fc b189dde9d3e54b607791e9cdf28c7881eac8a37e refs/heads/for-5.15
+170c0d7460fc4aa522995ae4096b5a442f50a1fc b189dde9d3e54b607791e9cdf28c7881eac8a37e refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEIVWoACgkQJNaLcl1U
-h9AIwAf/fKAomn/spV7GiLeOMt3uvGItfdV6jlS5N7eADr6+KiPjMeqYVImBBgdc
-qZq4UdXDbRU7i9VH0P4zFU2UoyFPatp0UNhckHMA1p0Fm+KPtvoNociJgDelXCkp
-3W3ZBk4cpDEiqlk67msd5ts53nHXBQmCqVuiqmjL+Mhex76Emy4PgJp8jiAQGpAq
-9aT36m0fa9JzsSZEbCHA5F1WnK4WdBJUKrkzhzLdDoKZQ6zmFH3P6TcfHaytSZr6
-dVCqUGyrlafAJM+Xd0DVQT94CN8zUi96/5DGpUMLY61wlRz9tqPW91Yy5aVsefq5
-5LsOauOdYEKYzD4hx6EYfIBAy2+T+A==
-=5ohl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEIVXEACgkQJNaLcl1U
+h9BhbQf7B19C1hyD0lCNqaH5dZEXv1TVat7uhdWBYgqkOgQ9qm/Rec4vL6dqZCDM
+ylziGVm3B0UMZutavPeJIdxN0qJ8j9JPAk3ql+mGiIK+qz6nWgpbWbCuVrTjM111
+6krmiN9UANMCP+1J0umW4Qnxdvvu4xs2qbCDT4NG5HAvLH8TiYsCekVLdWcIsF3/
+agEAYWYCXV+uvjeC9BkoKhCTL+GQ59oOjr0+zcTBNeFRoaYr2hCLtqwjxqyjUWqh
+OFQMQ45u/1Qxn3lnvbfGQdIPrTJZ9S0ddeMlvOudKtTAJ5F558QNqrgfnjh04Vv2
+llPjo9wjALNJ7CqTnzMCaC9sVM6t8g==
+=A1zD
 -----END PGP SIGNATURE-----
 
---===============8460921002312226248==
+--===============6053887331306289318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ ea9df9840fd5d766b9e98b0073890de4be68b062 ASoC: tlv320aic32x4: make array clocks 
 2f535e2cd513571dce1226361dfc0ee160744f41 Merge series "ASoC: Intel: bytcr_rt5640: Fix HP ElitePad 1000 G2 audio routing" from Hans de Goede <hdegoede@redhat.com>:
 b189dde9d3e54b607791e9cdf28c7881eac8a37e Merge series "soundwire/ASoC: abstract platform-dependent bases" from Bard Liao <yung-chuan.liao@linux.intel.com>:
 
---===============8460921002312226248==--
+--===============6053887331306289318==--
