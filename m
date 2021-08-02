@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7492526809580526289=="
+Content-Type: multipart/mixed; boundary="===============2085081338890938507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 02 Aug 2021 12:32:12 -0000
-Message-Id: <162790753245.24017.6191557700015979426@gitolite.kernel.org>
+Date: Mon, 02 Aug 2021 12:32:42 -0000
+Message-Id: <162790756278.24304.2223156889775470149@gitolite.kernel.org>
 
---===============7492526809580526289==
+--===============2085081338890938507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 9bac1bd6e6d36459087a728a968e79e37ebcea1a
     new: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
     log: revlist-9bac1bd6e6d3-c500bee1c5b2.txt
 
---===============7492526809580526289==
+--===============2085081338890938507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -299,4 +299,4 @@ c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
 
---===============7492526809580526289==--
+--===============2085081338890938507==--
