@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 02 Aug 2021 13:50:42 -0000
-Message-Id: <162791224255.17259.8638872353235960820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Aug 2021 13:51:40 -0000
+Message-Id: <162791230093.17656.14671768724313987275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 2d29fccaad267d1b003dc0ed2bb9634ff76f3e49
-    new: 5f8244c66e9190135c84c0fb5af5e1671c929f94
+  - ref: refs/heads/kvm-arm64/misc-5.15
+    old: 38f703663d4c82ead5b51b8860deeef19d6dcb6d
+    new: 013cc4c6788f1ce9885d3c0281904f93ee8f2271
     log: |
-         5f8244c66e9190135c84c0fb5af5e1671c929f94 libfdisk: (dos) index partition from zero for DBG()
+         013cc4c6788f1ce9885d3c0281904f93ee8f2271 KVM: arm64: Fix comments related to GICv2 PMR reporting
          
