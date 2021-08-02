@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0396095969999857660=="
+Content-Type: multipart/mixed; boundary="===============8626850287852463682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 02 Aug 2021 13:43:40 -0000
-Message-Id: <162791182083.9394.11242050359718863336@gitolite.kernel.org>
+Date: Mon, 02 Aug 2021 13:43:45 -0000
+Message-Id: <162791182569.9595.4787675736813699910@gitolite.kernel.org>
 
---===============0396095969999857660==
+--===============8626850287852463682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,87 +16,114 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: db4bddb4a5cb2fd336c0a508883eae22a1f56add
-    new: 6049e03b1cecf58b1cb94bf92c713eb5a89dcea4
-    log: revlist-db4bddb4a5cb-6049e03b1cec.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 40145e6e215cbe0600195f112ef9b918493d5d70
+    new: f9063e43ccbb353c5b2cafe59c6b9534aa7ddc14
+    log: revlist-40145e6e215c-f9063e43ccbb.txt
 
---===============0396095969999857660==
+--===============8626850287852463682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627911818 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1627911822 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1627911818-2272dde0ac703c5b7aab07bb86f8f11418f706c9
+nonce 1627911822-1973cba3ffc0bf302df942363a9b921ea40e5483
 
-db4bddb4a5cb2fd336c0a508883eae22a1f56add 6049e03b1cecf58b1cb94bf92c713eb5a89dcea4 refs/heads/linux-5.4.y
+40145e6e215cbe0600195f112ef9b918493d5d70 f9063e43ccbb353c5b2cafe59c6b9534aa7ddc14 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEH9oobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GO8P/jNVMpc2S5W4IpoidHCA
-Ci5zFfG2so7Rxrmu4O0LcyuN1nfc12nAKoukerXnAaOIsDeS2Jl36Rse6y9Q5fp8
-sBiR+WBHhoh/IR5tTtfPWu0xCHqDEmG9ls/gNBJ8khnExdu6HzHktZdu3ku99SEb
-uu/3tQSB7rmcKa4HbpFdxFFeAeY/cPQVDJ9l0Rvq5g1M59VN8OJNBp2DAkq+hBxj
-seXCxpkupTFRNoLiLCC3P7D1spxgKbpQVBt12gQxhOMLP7SdcqpIETzhdpK3pJLv
-B+w85piXYGBxLXBYsM3Uxb2joaJ/WSLn7ZQfdcRqOCt4/Bw27w2+kvN7ihrdhUnm
-aqZ2kJkW2mBAWF62a/n7VIX/d61oNnPAIxCehkYfoJHKqPfV0JwwrgEeJ/JUD+Wk
-Ai1Oob6pg5avPpQcg7eL+hP9PKIHEDFvReC9vfPAodbmOCLO0XZR4YYeChVACzcf
-kS3eAfNdbI0ZCu6wvAFOzDUPoqdB1Z5O09Ct8dNPltKVekZSTWBd1Y1SDukK7vDn
-aG2/Vzv/BPO3ezE4gcY04xnpREUlvDIvImN4AAlotzNmRQIOi3/L44xrEQjksqt4
-VcIrlr5C20YfiCA+kJ992Cvbjvdx2npR3/z15YYnBjUd42YvkaRLLPJjZ52RjMK9
-O9mIjDf5e9xvBLQ/8Do7bwHZ
-=dJiB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEH9o4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++fYP/1kzvTCFHVc+lG4BJUKa
+zCDAjQjbD1pK3PQ6NTSiMn3AYUXdeDKO+lEqKYyPpby/SRfyYQYXObz7SZQ/efUl
+W4AvXrTSBxzv8ufGPhxk1WJ7jsuJZlZfWwc9IZ1BVvgtny/pZSLh+E0TJ+lgnMjK
+Tl8ZubT1Vo1WQtjKXW4Hq0QdqlrhLrjLdAkaKSsvCNhtgY8NsKGh5qef8qZNUWNR
+/sacfI/jemjs6Bk25D0ZlbTsgD+gF5vCH0dVSi9UtvoMtKeXGMli4NA8rJQ85P26
+fSIovXwVfvrf/3mqN/wOL1UJZpamKDVFurEAlTIxatf+KDQmHspbQY4v34uj9mHO
+eWK8RP0rzOPZdg43In4LomWzurcV2yQaDR5Lor2aMoDyHzlWrvpu29aATaOJPLLv
+vtCorsfB5t2XzUk8wXCRC+16leM24BQSWdjueNcPu72jCF3RqviyN8tgyuFhWF93
++t4cjyCi8dyDyAdahnvxZFbv+RtM0fUprYMaEOZl7+WYw0Lk0v3XEWf6TNMbKk1x
+qYd2sKSMyl0cWNvcDOXzvV1ULPszyNllSRSSYsrW7NwbvZmy7pZz+E+uFps7PVX9
+Xo+/ckqjygn0MCE307RTpxur+mWSmo+rxxi/R56Q00jsGK9+23f1S7Qlpb6HVmxQ
+BXIsiZZnxs8XZrS0VRpHrqhR
+=5F8U
 -----END PGP SIGNATURE-----
 
---===============0396095969999857660==
+--===============8626850287852463682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db4bddb4a5cb-6049e03b1cec.txt
+Content-Disposition: attachment; filename=revlist-40145e6e215c-f9063e43ccbb.txt
 
-0f89ff12764dde8e457396b2e69beb4d21160bf8 net_sched: check error pointer in tcf_dump_walker()
-d72b734379ad9a83ae2fcfdf72fa16464bb786f9 x86/asm: Ensure asm/proto.h can be included stand-alone
-ddcd0accae486fb0d259e1e75747c87334b21381 btrfs: fix rw device counting in __btrfs_free_extra_devids
-99a7c436497648973dddcfa0ee05c3678b366e93 btrfs: mark compressed range uptodate only if all bio succeed
-1e7be53c3f421173df9b133df947ad768156509a Revert "ACPI: resources: Add checks for ACPI IRQ override"
-0fbc372d510f98c2a4b960e63631bd94ff4febd7 x86/kvm: fix vcpu-id indexed array sizes
-6a1b1cc3b7ec0009ac0600d4b5e65b9db8df6497 KVM: add missing compat KVM_CLEAR_DIRTY_LOG
-7099bc7a9b7d1b10dab9e482606cdfb58383147c ocfs2: fix zero out valid data
-53a0b17ddc81f072d25ff8df354a9e6212ec90f8 ocfs2: issue zeroout to EOF blocks
-fc1f629890a702da2438e15fcc932c1f856f2ac2 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
-62f1350e4d5e5d531d18d0a867c8e6630e9177c9 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-27a5c74dd17692b53b182013c75b23eedbb6d413 can: mcba_usb_start(): add missing urb->transfer_dma initialization
-393bd89a90f90717e4edffbbf1595fba6ca51cbe can: usb_8dev: fix memory leak
-d2a68030942e5db49161c94772b33f72de3a6127 can: ems_usb: fix memory leak
-6e5e8fee8372a60c4b49f11a9872a38222947478 can: esd_usb2: fix memory leak
-0ee06f6e5b1a8d2219f601eb01cebdc546085fee HID: wacom: Re-enable touch by default for Cintiq 24HDT / 27QHDT
-7da4b577a5e2bae7df57e75e3fc762ce27170e31 NIU: fix incorrect error return, missed in previous revert
-1b2190425b63ad0f950ec8e3fadc25dcfbe60620 nfc: nfcsim: fix use after free during module unload
-4e995f1396f7b6e920c3172daa34a953d2eb2399 cfg80211: Fix possible memory leak in function cfg80211_bss_update
-aa6fbe98f082c71487a178523df945f575baa97e netfilter: conntrack: adjust stop timestamp to real expiry value
-28967025b73d38f94c3d6387fb2298cf831b639d netfilter: nft_nat: allow to specify layer 4 protocol NAT only
-f89ae3ea2501e57772e09645ecae4578daff9460 i40e: Fix logic of disabling queues
-fae6fd6f62693f328583abafb60c17d054fc130d i40e: Fix firmware LLDP agent related warning
-d518a3f6a4a07144870012d140512495ad7c25ab i40e: Fix queue-to-TC mapping on Tx
-fc79b7ea11a2b0073a4ae565ee444af48d6c98c1 i40e: Fix log TC creation failure when max num of queues is exceeded
-37d7e66ca8109f1f74e2c22af15d0e31dc9cb214 tipc: fix sleeping in tipc accept routine
-557d8148e48050331d166a8ccbc3c787868338bb net: Set true network header for ECN decapsulation
-faa2d71e506bcb78e279dd3fdd1b67bbf2d46f00 mlx4: Fix missing error code in mlx4_load_one()
-f02294e2769603556bf8e8e88baae04182166b3d net: llc: fix skb_over_panic
-38a7db7e4616a0782be48979e1438995d8eb423e net/mlx5: Fix flow table chaining
-a633081b0485091b01f5139e94e13955ccc4cf55 net/mlx5e: Fix nullptr in mlx5e_hairpin_get_mdev()
-242165de8337ba801d1454c589ee6cee419696d6 sctp: fix return value check in __sctp_rcv_asconf_lookup
-7b53eaff523e238b1b33fa28a78bd771418fdd35 tulip: windbond-840: Fix missing pci_disable_device() in probe and remove
-4436cc43de2d04dbd117f1d737030816cd092bc4 sis900: Fix missing pci_disable_device() in probe and remove
-c07380a396a1969bedee711680c38f7367dfcb5c can: hi311x: fix a signedness bug in hi3110_cmd()
-99f4734d2bcb0316476b2428f4627aa3ab48edfb PCI: mvebu: Setup BAR0 in order to fix MSI
-e83fb2cf0a2fc10e57f18f05e0363dad0e9608b6 powerpc/pseries: Fix regression while building external modules
-cf11999f8ec03a0aa5b8e3afd37c7e47a5f40146 Revert "perf map: Fix dso->nsinfo refcounting"
-67a7ed31915fda5540ecb5e40e69d0dfa954bff4 i40e: Add additional info to PHY type error
-ffe93c2549ac028bbb5e634ac29ffe40c7164858 can: j1939: j1939_session_deactivate(): clarify lifetime of session object
-6049e03b1cecf58b1cb94bf92c713eb5a89dcea4 Linux 5.4.138-rc1
+802da17622c28c5ef7ff227966b368308efd1e80 io_uring: fix null-ptr-deref in io_sq_offload_start()
+fc9e6c4a0e0d141d0fd20505e37da97f410fe704 x86/asm: Ensure asm/proto.h can be included stand-alone
+1728612e2eb78ed6a2c45158ad679e238ef909d3 pipe: make pipe writes always wake up readers
+53f7a3d619d42811a35efb567f9ed2ab3297a07b btrfs: fix rw device counting in __btrfs_free_extra_devids
+f0aa5ed24dc67d6a1cdf7d94b3f59519e0f31635 btrfs: mark compressed range uptodate only if all bio succeed
+fb163576b9b8c595b6809fbd53f62ad0d24fd9c0 Revert "ACPI: resources: Add checks for ACPI IRQ override"
+a8f11c9456ad7b19b746969ccf01f420b26a59da ACPI: DPTF: Fix reading of attributes
+441397652890514d65764b899a2e930db46879d1 x86/kvm: fix vcpu-id indexed array sizes
+3925d8c6fce642f5020dc06f3bba20bbe0d1e9d7 KVM: add missing compat KVM_CLEAR_DIRTY_LOG
+9ca61d48f56678c03b8aade6034f09ddf28ae3dd ocfs2: fix zero out valid data
+ba6021c4a6334288543658c176dfa492571234ed ocfs2: issue zeroout to EOF blocks
+6040a5b047aef30585c625d5384b3b0b81c4b065 can: j1939: j1939_xtp_rx_dat_one(): fix rxtimer value between consecutive TP.DT to 750ms
+779f4e44078f38b790c3c623a3206d51717949af can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
+ad182b2c0736b5b46b6d4c9535104e4ed13b40ad can: peak_usb: pcan_usb_handle_bus_evt(): fix reading rxerr/txerr values
+fc2efc8f084392715471adf584ae76337e73ea91 can: mcba_usb_start(): add missing urb->transfer_dma initialization
+2d3de35bfd4711e465fb83caa0eecf38e0a2b161 can: usb_8dev: fix memory leak
+91bbf9dd65e73dbb225401b348dff361501429ca can: ems_usb: fix memory leak
+7cb2c0448dc69ac83fe84848320c423de05e6f54 can: esd_usb2: fix memory leak
+138c682d9368a4b59ee147bdd8aff7d933b752fd alpha: register early reserved memory in memblock
+69167f0fc4eb8369db5d935453882bf073ce4259 HID: wacom: Re-enable touch by default for Cintiq 24HDT / 27QHDT
+58b4c2ec78db04d0ab305bd490c775d30d47db32 NIU: fix incorrect error return, missed in previous revert
+3f1f9f64dceb8736dec735d9b8e2ddbfdbb1c693 drm/amd/display: ensure dentist display clock update finished in DCN20
+35434311126bff677f465f2d3d7f40815ae3019f drm/amdgpu: Avoid printing of stack contents on firmware load error
+9a2bd549946816ab55b65989956602c81bd6f98b drm/amdgpu: Fix resource leak on probe error path
+9d83e6686ccbe5ae41764991d41730efd5f806ba blk-iocost: fix operation ordering in iocg_wake_fn()
+09e4e3d375caa15d4d17ffd488a857cb1f826078 nfc: nfcsim: fix use after free during module unload
+dd5f2ec6fc3c7b1650da6202b57871037a7a2e23 cfg80211: Fix possible memory leak in function cfg80211_bss_update
+497bd32f433f4ea2788da678abfd38a52b89de56 RDMA/bnxt_re: Fix stats counters
+61f075e44a3f1fb2b59b31b45ff6afa0d1cfe6a2 bpf: Fix OOB read when printing XDP link fdinfo
+e71a26646366cbe251214237ae1a703537434ae7 mac80211: fix enabling 4-address mode on a sta vif after assoc
+723d827cc1bde9f283ced64b108391b61965fcc1 netfilter: conntrack: adjust stop timestamp to real expiry value
+f2531db8c981b425ba0ee30e05678f61f976ebee netfilter: nft_nat: allow to specify layer 4 protocol NAT only
+9cfa41cb1ed8bc3e3630e3f5145a028bfeccf538 i40e: Fix logic of disabling queues
+91e286ac7a6a0b1faa311e4220925cb86ebb0d1c i40e: Fix firmware LLDP agent related warning
+81fbaa3d1acf9049f45e5f0a4ae982a3b3dd91db i40e: Fix queue-to-TC mapping on Tx
+872c7e850dd931224b188966154c0279e072848d i40e: Fix log TC creation failure when max num of queues is exceeded
+5e86123ebc606f6040e13b8784be2e05bc7f1aa8 tipc: fix implicit-connect for SYN+
+236bf5f015a9df1d9dda98176b07ce083c688a0e tipc: fix sleeping in tipc accept routine
+314a6b6d441482aedd79f839ebece072b0725bea net: Set true network header for ECN decapsulation
+0f66942e35c693896c2105775a5a77a3b1c5bb0e net: qrtr: fix memory leaks
+4b25b94e933aa2021de57ed23a5c36f4de7559a0 ionic: remove intr coalesce update from napi
+516085fad5aa9945cc61545cc6efa378adc49579 ionic: fix up dim accounting for tx and rx
+75e43a277770cf8dea5675d8aca07e4bd482bf94 ionic: count csum_none when offload enabled
+5f64d12fc387e365356e3e1660b11ede51c5b24c tipc: do not write skb_shinfo frags when doing decrytion
+ef973a00ef4f23e512189ba7448eac8ba43d3a27 octeontx2-pf: Fix interface down flag on error
+cf5b60446c1817d2033281eed850c956912f78ae mlx4: Fix missing error code in mlx4_load_one()
+c0e1dcc0742c8f3f2f7c9b124ccb2d834710efa0 KVM: x86: Check the right feature bit for MSR_KVM_ASYNC_PF_ACK access
+6819a455d758d2c56468ce06f27ab6b8f0924bed net: llc: fix skb_over_panic
+2c04e8b9ee58d89c81634f66fc2515ae67b4b455 drm/msm/dpu: Fix sm8250_mdp register length
+01e57af9ae9f3d189fa73c95a09aa3c4dd7d3889 drm/msm/dp: Initialize the INTF_CONFIG register
+5483cbcd925201e9737329199208b63dd64cc81e skmsg: Make sk_psock_destroy() static
+f768435469bfea2f0a8c7d050174e150a406ca13 net/mlx5: Fix flow table chaining
+863f753dbf2040c5326bbd235e791d77f48f1081 net/mlx5e: Fix nullptr in mlx5e_hairpin_get_mdev()
+1e9e1bcc94e04ebb66c1b6d08cce3210e08d26f2 sctp: fix return value check in __sctp_rcv_asconf_lookup
+dfa8ef31cbde59056087b414ddf4cbd2ea38c88a tulip: windbond-840: Fix missing pci_disable_device() in probe and remove
+762139e21609c2e8ebbc609fbf46ead7a127593a sis900: Fix missing pci_disable_device() in probe and remove
+c380c0a5c176c6270db5c1eb5e75eae3b8c01601 can: hi311x: fix a signedness bug in hi3110_cmd()
+6e1f5710c3aefe27b80c8032b8b5b09f21bd4c03 bpf: Introduce BPF nospec instruction for mitigating Spectre v4
+4177b9028da129e5b751d8ed95ccaea8a1cead5c bpf: Fix leakage due to insufficient speculative store bypass mitigation
+ff7b2de0f9884f7f79930d3e257d0bd67d3d1889 bpf: Remove superfluous aux sanitation on subprog rejection
+a1a4c87c4dba2b20c5f7968e1517f1e1d231da32 bpf: verifier: Allocate idmap scratch in verifier env
+7b9f3fcf1c08108a7ebcfd36a737bf7777791923 bpf: Fix pointer arithmetic mask tightening under state pruning
+b84e700038373e13fd1fa24fa837fdef37bb681e SMB3: fix readpage for large swap cache
+2dbbe20fcfc6569f8a813533d1612f59428effb2 powerpc/pseries: Fix regression while building external modules
+31b36576e66aeea3227934a513208de11e8d69be Revert "perf map: Fix dso->nsinfo refcounting"
+5a42d69bfeb4525f727851c7c86e26c9160997ba i40e: Add additional info to PHY type error
+9cc14a7267cb34e2a6c9565ce0b0b7aa4175f6fd can: j1939: j1939_session_deactivate(): clarify lifetime of session object
+f9063e43ccbb353c5b2cafe59c6b9534aa7ddc14 Linux 5.10.56-rc1
 
---===============0396095969999857660==--
+--===============8626850287852463682==--
