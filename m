@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7126399678411553403=="
+Content-Type: multipart/mixed; boundary="===============0970347274918503064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 02 Aug 2021 14:48:53 -0000
-Message-Id: <162791573393.26818.18324192100407968396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Aug 2021 14:49:00 -0000
+Message-Id: <162791574052.27228.2168565818625933440@gitolite.kernel.org>
 
---===============7126399678411553403==
+--===============0970347274918503064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/regmap-5.15
     old: d63aa09f7c53bdeb83edb4d84c07d759a92223bb
     new: 29c34975c9391d3ad1fd5dd3c92ba0d41afe9549
     log: |
          29c34975c9391d3ad1fd5dd3c92ba0d41afe9549 regmap: allow const array for {devm_,}regmap_field_bulk_alloc reg_fields
          
 
---===============7126399678411553403==
+--===============0970347274918503064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627915720 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1627915731-32101d086f92ba01802fcdd9ccf66a6354159e3e
+pusher C3F436CA30F5D8EB 1627915727 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627915738-44cb2effb8590619f98ec9f22f9f665f5f11fa9a
 
-d63aa09f7c53bdeb83edb4d84c07d759a92223bb 29c34975c9391d3ad1fd5dd3c92ba0d41afe9549 refs/heads/for-5.15
+d63aa09f7c53bdeb83edb4d84c07d759a92223bb 29c34975c9391d3ad1fd5dd3c92ba0d41afe9549 refs/heads/regmap-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEIBcgACgkQJNaLcl1U
-h9Djdwf8DvP8uJ76s6HzqG+ahZj5Yqih1duUmndUPlTVajlZSGxEPIKZnN7YNJ2/
-VD6zQD4blr85Gw/0Cp2grCYZ1Z21zHzPX0so41JEvB5/EFTGvNKAFLtzEcKrH2aD
-ZQyTQppGsP8m3ZcFunT5hQSqYbWsmIqyOnQpOHgXLRuKXd8hpMJEiYls/KS1BYG8
-+8TdUHZoBz/DjWR0ugiKy+hdbPr3Mp7GAF0gAw9KmRus5KS15WeFSAE8p7YSQpbm
-NUA4eECSWkuFvJaZO6v/hj08tGO7DWvvOK8hAKgrdKGpDCVnNMJ9ur5FGXNg7Urb
-/W2DixHFIT79iHycCbn4/tH032Uv0w==
-=Zz49
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEIBc8ACgkQJNaLcl1U
+h9Bgqwf+Ne18uszmUNS1GcYf+5YQJjEAzVW4X7o8CladQfWyU1WklTve2gp70pvB
+hxldBUDryTxB4j78Wxy+gWv4d8WLWWnu1FyBVNOzEJPn4NZzjE7BpAOaU0fpTpxi
+u3WHmnlXXqbLPbnlSL0tLyk0XvmIiYzDKigWs5qAOD7CERzT7iGa9vVKZgSZRACL
+tCey/3Ac9eFd47ZgbQ+gStyym47A9t08t0F47WK0jW3pbGqb9A9TwjMWvCehmba5
+H6YlvIB7dTUYALL/rBLZue4OqN7ugdEcDH/m+c1vU5kxV94Rdmh9E/3As/0b1hz9
+Y+TjXmUm/cecbKJf/vxqC/qJi1ryoQ==
+=92Aj
 -----END PGP SIGNATURE-----
 
---===============7126399678411553403==--
+--===============0970347274918503064==--
