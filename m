@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5402594115184793310=="
+Content-Type: multipart/mixed; boundary="===============8438524824181328984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Aug 2021 14:48:39 -0000
-Message-Id: <162791571914.25863.9658575120961180456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Aug 2021 14:48:46 -0000
+Message-Id: <162791572651.26146.3943958923942760417@gitolite.kernel.org>
 
---===============5402594115184793310==
+--===============8438524824181328984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 1d25684e22516f1cff77176d288b1da02fff57bb
     new: 8b5d95313b6d30f642e4ed0125891984c446604e
     log: |
          8b5d95313b6d30f642e4ed0125891984c446604e ASoC: amd: Fix reference to PCM buffer address
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 219691cf360136591e627badbd62f54097f99fc0
     new: 170c0d7460fc4aa522995ae4096b5a442f50a1fc
     log: |
@@ -35,29 +35,29 @@ changes:
          170c0d7460fc4aa522995ae4096b5a442f50a1fc Merge series "ASoC: soc-topology: cleanup cppcheck warning" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
          
 
---===============5402594115184793310==
+--===============8438524824181328984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1627915705 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1627915716-39364926f164ea5b2a64963cff57f4bdb4ee8d74
+pusher C3F436CA30F5D8EB 1627915712 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1627915723-e8ee34f39bb8cf15158fa579d4eec9350eb9b89e
 
-1d25684e22516f1cff77176d288b1da02fff57bb 8b5d95313b6d30f642e4ed0125891984c446604e refs/heads/for-5.14
-219691cf360136591e627badbd62f54097f99fc0 170c0d7460fc4aa522995ae4096b5a442f50a1fc refs/heads/for-5.15
+1d25684e22516f1cff77176d288b1da02fff57bb 8b5d95313b6d30f642e4ed0125891984c446604e refs/heads/asoc-5.14
+219691cf360136591e627badbd62f54097f99fc0 170c0d7460fc4aa522995ae4096b5a442f50a1fc refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEIBbkACgkQJNaLcl1U
-h9Dorwf/aBP6vMJU4YEtRRCqjc5s+KRAl2i9Pha36HB8DJP1B1s8Tljk6kSfqVhg
-dDG/8nQV95PVONFl4SYKoqauvdjst0zbQj2nD8/xbOnMMx4Nm/+WpQAoQcz+US36
-nEU7lOMavY+KTeR1QpRsaYBGIJMMzmqdWZdi3dw43hhowdsoONHtzLhX+vAMc2lF
-D2SfJzzKrHgmt1YExgBMHHKwVl47pGaUDwr/h3IQ68mep1uKKsEwJA2/m+5qX4Hy
-CFA0YlmGHIscD+9XPS/ax97G28ZhdfecKi06bXnB3D1boV72JpHqk5SNLvVibVj9
-TPWcqJa6e0HMaiTg6k8l+KiMAt+ndQ==
-=KpAL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEIBcAACgkQJNaLcl1U
+h9CiBAf+INabsyZpmyFzqOHvtlIFzvW1V80zy2b+en/TwwwRWUrochcPOs/dW7wA
+SzN4hmJT2mOJP8N/KbfkILoqEEQlSq1SK2M8WqhTCO2nczzq0AmKCNSy9xdA0aX9
+eOn3+SZ/I/H456zr1A0DDuRveQ9foZqImi5C1NafyvrXlnOhTRLPoYQzUaoAkAjr
+B0tLQC6gWo/FcK2W9BDTTe3i1uzaXkCXadYo7/7110wngt4W1omvuYexkRo33ABB
+UJE21ZNWL6RGLfMYbK/LUl9AC6JbeZZ+8ZOASlBDsCdAmoafJGiuKHukJ4meQll4
+khdT0h5zbRV8aKbCSRCviGeXMPLrUg==
+=Aa9O
 -----END PGP SIGNATURE-----
 
---===============5402594115184793310==--
+--===============8438524824181328984==--
