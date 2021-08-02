@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5671980124278520853=="
+Content-Type: multipart/mixed; boundary="===============7698418054371751730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 02 Aug 2021 22:12:15 -0000
-Message-Id: <162794233550.32078.15997275480832606771@gitolite.kernel.org>
+Date: Mon, 02 Aug 2021 22:12:48 -0000
+Message-Id: <162794236851.32375.5570738003454303215@gitolite.kernel.org>
 
---===============5671980124278520853==
+--===============7698418054371751730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 344a5797417c04b1e551af6e047333bd57281046
     new: b61a28cf11d61f512172e673b8f8c4a6c789b425
     log: revlist-344a5797417c-b61a28cf11d6.txt
 
---===============5671980124278520853==
+--===============7698418054371751730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ d5731f891a0c194fa4231c67a984b75f55c7674f dpaa2-eth: make the array faf_bits stat
 7cdd0a89ec70ce6a720171f1f7817ee9502b134c net/mlx4: make the array states static const, makes object smaller
 b61a28cf11d61f512172e673b8f8c4a6c789b425 bpf: Fix off-by-one in tail call count limiting
 
---===============5671980124278520853==--
+--===============7698418054371751730==--
