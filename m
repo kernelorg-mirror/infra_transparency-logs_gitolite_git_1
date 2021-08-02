@@ -1,27 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 02 Aug 2021 19:06:35 -0000
-Message-Id: <162793119558.6466.17707127986389150632@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6109156232050910072=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Mon, 02 Aug 2021 19:25:17 -0000
+Message-Id: <162793231751.19335.4043891211299331591@gitolite.kernel.org>
+
+--===============6109156232050910072==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/heads/dev-test
-    old: fa2cc12dfd46f4b20f18b832cab401d22690fb70
-    new: 21fd7f2ada03a4a6254830a0d09a7a1121d948af
-    log: |
-         7eab7a6968278c735b1ca6387056a408f7960265 f2fs: compress: remove unneeded read when rewrite whole cluster
-         b7ec2061737f12c33e45beeb967d17f31abc1ada f2fs: do not submit NEW_ADDR to read node block
-         093f0bac32b617960899c7e00f4550373c383dd0 f2fs: change fiemap way in printing compression chunk
-         4931e0c93e124357308893a3e5e224cbeeabc721 f2fs: turn back remapped address in compressed page endio
-         2e650912c037a501ea6fc367c7075ead63a114f7 f2fs: show sbi status in debugfs/f2fs/status
-         277afbde6ca2b38729683fc17c031b4bc942068d f2fs: fix wrong checkpoint_changed value in f2fs_remount()
-         2787991516468bfafafb9bf2b45a848e6b202e7c f2fs: fix to force keeping write barrier for strict fsync mode
-         dc675a97129c4d9d5af55a3d7f23d7e092b8e032 f2fs: fix min_seq_blocks can not make sense in some scenes.
-         21fd7f2ada03a4a6254830a0d09a7a1121d948af f2fs: add sysfs node to control ra_pages for fadvise seq file
-         
+  - ref: refs/heads/pending
+    old: e89178b22fbfc648216de3a1998f0207556eda96
+    new: 00b5084be918438e663d6f4ca5cd61f8fe95af93
+    log: revlist-e89178b22fbf-00b5084be918.txt
+  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-08-02-part4
+    old: 0000000000000000000000000000000000000000
+    new: 00b5084be918438e663d6f4ca5cd61f8fe95af93
+
+--===============6109156232050910072==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e89178b22fbf-00b5084be918.txt
+
+80721fc0fd61579f869b85aac470955982b06dd8 iwlwifi: mvm: d3: separate TKIP data from key iteration
+9130db608b77e52099bec052940cb72e8ece442e iwlwifi: mvm: d3: remove fixed cmd_flags argument
+78e431c9aaeb1e509cacdef99541ba1d4fbbc0cd iwlwifi: mvm: d3: refactor TSC/RSC configuration
+c99f8642370297c7a5fc89c0c572421c9b77cb5c iwlwifi: mvm: d3: add separate key iteration for GTK type
+c6f77325c430b187b352a1b18b6a3ac54fcfa3d6 iwlwifi: mvm: d3: make key reprogramming iteration optional
+28cd065e8c4aaaf71772dc9f0b944b73d2c917e7 iwlwifi: mvm: d3: implement RSC command version 5
+a751177743c65730b6ca7c2b45662bf63a3b9c97 iwlwifi: mvm: silently drop encrypted frames for unknown station
+02512b7a14438f16f01267c946d197430c1e4843 iwlwifi: mvm: Refactor setting of SSIDs for 6GHz scan
+fd8b5791ab44931d088dfc9b845ed9a6d6ea19b2 iwlwifi: mvm: fix access to BSS elements
+65591c9fa2afcbd2f9d7cc7173c8376e3c604252 iwlwifi: rename ACPI_SAR_NUM_CHAIN_LIMITS to ACPI_SAR_NUM_CHAINS
+01530088097f8506735b2f67c69ee75a1416167b iwlwifi: convert flat SAR profile table to a struct version
+00b5084be918438e663d6f4ca5cd61f8fe95af93 iwlwifi: remove ACPI_SAR_NUM_TABLES definition
+
+--===============6109156232050910072==--
