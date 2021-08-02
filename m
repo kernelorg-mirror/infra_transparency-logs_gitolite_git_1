@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Mon, 02 Aug 2021 14:44:43 -0000
-Message-Id: <162791548328.22642.14694371469604037228@gitolite.kernel.org>
+Date: Mon, 02 Aug 2021 14:45:16 -0000
+Message-Id: <162791551667.24337.1307106982530680874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
 user: mark
 changes:
-  - ref: refs/heads/master
-    old: 3728ea63cd051991be019ae07601b4b9a4f21a0b
+  - ref: refs/heads/cleanup-base
+    old: b4fd21bb97a9a20bfa1c882d0743564df031b76c
     new: f8fc0c92e5bc22d2acc8ea82453cbddbb5e822e3
     log: |
          cf13c653db78c849ac404a89e54f25d47154bd83 Fix arch counter frequency
