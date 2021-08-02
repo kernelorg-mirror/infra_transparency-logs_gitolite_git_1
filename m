@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 02 Aug 2021 19:05:14 -0000
-Message-Id: <162793111405.5950.7045649702985262230@gitolite.kernel.org>
+Date: Mon, 02 Aug 2021 19:06:35 -0000
+Message-Id: <162793119558.6466.17707127986389150632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 972afa376543f882b0ed9532aa3ceb2882565f71
+  - ref: refs/heads/dev-test
+    old: fa2cc12dfd46f4b20f18b832cab401d22690fb70
     new: 21fd7f2ada03a4a6254830a0d09a7a1121d948af
     log: |
          7eab7a6968278c735b1ca6387056a408f7960265 f2fs: compress: remove unneeded read when rewrite whole cluster
