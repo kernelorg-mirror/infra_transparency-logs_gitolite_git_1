@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7209926342344118002=="
+Content-Type: multipart/mixed; boundary="===============8967818361447737670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 02 Aug 2021 12:25:23 -0000
-Message-Id: <162790712383.19856.12197523848210548272@gitolite.kernel.org>
+Date: Mon, 02 Aug 2021 12:25:47 -0000
+Message-Id: <162790714703.20101.8782495022125074946@gitolite.kernel.org>
 
---===============7209926342344118002==
+--===============8967818361447737670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: ff1176468d368232b684f75e82563369208bc371
     new: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
     log: revlist-ff1176468d36-c500bee1c5b2.txt
 
---===============7209926342344118002==
+--===============8967818361447737670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -302,4 +302,4 @@ c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
 
---===============7209926342344118002==--
+--===============8967818361447737670==--
