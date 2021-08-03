@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6478253750997286572=="
+Content-Type: multipart/mixed; boundary="===============6798049883106548915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 Aug 2021 03:39:35 -0000
-Message-Id: <162796197553.22922.8253143776756936521@gitolite.kernel.org>
+Date: Tue, 03 Aug 2021 03:39:40 -0000
+Message-Id: <162796198030.23052.3619787687789697905@gitolite.kernel.org>
 
---===============6478253750997286572==
+--===============6798049883106548915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 365c25a4fb3ef12601b0c267299b512a435f7f33
-    new: bb183f136acc67e2194074b68af419e148b403d0
-    log: revlist-365c25a4fb3e-bb183f136acc.txt
+  - ref: refs/heads/5.15/scsi-staging
+    old: f95f59a2bb60f917faf516f2f0a679dc4e58f490
+    new: 823a1923e2430f3c2e1e1e5989f2dc774d7c14df
+    log: revlist-f95f59a2bb60-823a1923e243.txt
 
---===============6478253750997286572==
+--===============6798049883106548915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627961973 -0400
+pusher 75C5DE3D 1627961978 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627961973-c4bcf61d355fb380bc3ce87258d4327862f05a2e
+nonce 1627961978-84bfe5b0f08f8f767b4377cfbb85db778906d1f6
 
-365c25a4fb3ef12601b0c267299b512a435f7f33 bb183f136acc67e2194074b68af419e148b403d0 refs/tags/mkp-scsi-staging
+f95f59a2bb60f917faf516f2f0a679dc4e58f490 823a1923e2430f3c2e1e1e5989f2dc774d7c14df refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEIunUACgkQ7ulgGnXF
-3j2elA/9EjklMQwTi1QecifIkdJmFTpwGOKgFQydkOHiKmZui4tKJkNNpcwUiV2d
-yJC7g1wd0GPXBE41ckpco8t5a/Rbj3UQ0cETluiiMSAmDFSsecWWlO8/MSArsYuo
-ic3kqRslvjdjuAKPMICmxbp1J+Eb0fo+U90N4mRgvsP0LQGkUGDwHTAhQ8/ZzFZw
-grJrCPXBaGWCW52zPbsh4SEuzLKuixbihkwfrk3onbcV0Zsd73xzz4Ed8c8jShhr
-4i/x/CKLG3oJBy03s2RYXM+pM7g/DrfPu4iSPofmijeUHYxHfeXltzalGebS9HEy
-ll1IpvvbLX2V+FOu5fRoleyb8vIANEgN99en1APxy5fpzdNodYZ4g2UtmDKKjVBV
-dpzBgmLdmwXLJYUDn2RM7AWpqzJ9ZH9bKPp3aOgx4URmPeB1p1KgKh0U9uZ33aGn
-m11U1xEOMmafOL0Lbkex0hK5By9dQVW6TYgT7kBnzo4lsD3NkcdGHvO8Np4d5T0f
-ErEBEwIi3Ijak76J26xmT9NaGDYblo3nPLXPpUuPwyS1COVvZnE8EPC0jYEjjycU
-gw4phJgR1SGln1lcourCYBE13P9lbtQVZgu9Vq4xHPp8rx/GyqBaXvTcCmQb2RMh
-87XG3v2OCivU1WVnmeCg+mtLe16g80Gt9eTMjJGKK32grLcN9VM=
-=p0y9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEIunoACgkQ7ulgGnXF
+3j1w8w//Z6o2ytcNYgot7xDknNlsEtL6YmxhwzhNYCP2flBB7Xn6FWvkTQFgpbIo
+ftTdXq/UILRGC3OH3TEa73oQzetPcaPApg+J6pdZncdv49bLqALzKXPr+PvoIZGy
+G2C27b0Fl+zx4qYXVYNIJ/24GJuyatx5U4d1h2ZAYeCwrxh7BLhyiwDjQWChJGfG
+KFUXMwfokaUvPcJeiMuPY5HtJwv8nQMuJbjXDPeE16OAPpbtHRl7tL11sVQufHeX
+A89YZhoJm3zUAhDbS5Djpn8XqY9WWeAWqDgc5N9YW6gOy9yAF0/cv9KEqCW331MD
+rUYufTyMwfmJ5PTWSzozcFKiPBBr/QCaGHD0BXjzlr0I8tRnqq0zJzfnKBwBm3hX
+M0O40jtYcItbPIXLAXAxAnIkWdWvpkRsoQVbjAJJM+2mIhzZTxAMD4cuYa1GdyLq
+oeGrdtTJl97Q/zf63PQHwBTMlLNT638KjjZ3qw5NDhHZKt1wnkb0x53Rl5eIeKSM
+ZdQ/ddzMG4K5egRxASGOs8nllQCxGSrEquv8PAxQkjXI2aY8HPzOZTalaNt2n+62
+e/hHtIu/qdhYEBpU0PwV1buNQyiUn0eqH6niouYc18vRdikqRjYviCuv2b1cVGiv
+tXQc3A8pc0LdDRacn6c8ZWF8Kxybfz4cSXvHQBUdly/u5TK+SEs=
+=6xU6
 -----END PGP SIGNATURE-----
 
---===============6478253750997286572==
+--===============6798049883106548915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-365c25a4fb3e-bb183f136acc.txt
+Content-Disposition: attachment; filename=revlist-f95f59a2bb60-823a1923e243.txt
 
 d3d9c4570285090b533b00946b72647361f0345b scsi: ufs: Fix memory corruption by ufshcd_read_desc_param()
 f1ecbe1e54d5709b839e71f48ab26aab42cb7b82 scsi: ufs: Reduce power management code duplication
@@ -79,4 +79,4 @@ a113eaaf86373362b053279049907ff82b5df6c8 scsi: ufs: Synchronize SCSI and UFS err
 2e1bd2243fdf9efe00331e8b3f6cde19e6989ea8 scsi: target: sbp: Drop incorrect ASC/ASCQ usage
 823a1923e2430f3c2e1e1e5989f2dc774d7c14df scsi: target: core: Drop unnecessary se_cmd ASC/ASCQ members
 
---===============6478253750997286572==--
+--===============6798049883106548915==--
