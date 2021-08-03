@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6305638031575740189=="
+Content-Type: multipart/mixed; boundary="===============3818011367326203278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 Aug 2021 11:29:06 -0000
-Message-Id: <162799014644.23753.4570902417177711695@gitolite.kernel.org>
+Date: Tue, 03 Aug 2021 11:29:11 -0000
+Message-Id: <162799015124.23858.5232098001660751904@gitolite.kernel.org>
 
---===============6305638031575740189==
+--===============3818011367326203278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: bb183f136acc67e2194074b68af419e148b403d0
-    new: 7d41788e98e11503d33fc1ac753deca11ac2cecc
+  - ref: refs/heads/5.15/scsi-staging
+    old: 823a1923e2430f3c2e1e1e5989f2dc774d7c14df
+    new: 40fd8845c025c33629e469f1383151096a21d524
     log: |
          c11a1ae9b8f65ef7b82a5a1155581a6e6bafa375 scsi: ufs: Add fault injection support
          018c14911dd7e2feedd96d440f12ea999e459fff scsi: target: tcmu: Add new feature KEEP_BUF
@@ -27,33 +27,33 @@ changes:
          40fd8845c025c33629e469f1383151096a21d524 scsi: target: core: Drop unnecessary se_cmd ASC/ASCQ members
          
 
---===============6305638031575740189==
+--===============3818011367326203278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1627990144 -0400
+pusher 75C5DE3D 1627990149 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1627990144-fed5c85195c0a04f496b621c3956a60e0fd5120a
+nonce 1627990149-17563c1ad588dc6b8fd8c5b8d8e36c2f587abae7
 
-bb183f136acc67e2194074b68af419e148b403d0 7d41788e98e11503d33fc1ac753deca11ac2cecc refs/tags/mkp-scsi-staging
+823a1923e2430f3c2e1e1e5989f2dc774d7c14df 40fd8845c025c33629e469f1383151096a21d524 refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEJKIAACgkQ7ulgGnXF
-3j2/0g//Sq0RuAjZdk4sRqiAxKd39nU4SV49vjeexNDzZsivXvb8Q+5k4aocybpU
-rk32VRSfftYFoKfp7koPeppNAYNyMd0l1bfXz7+eDZn9nV9KTVtuJt5BukDlxbTN
-T3XNBQlFji7YzJ5uUzhtz1GDs2su3YSd+0QMoKgZ+c99da/4MXYjsV5yFzSp8u/q
-dHdWuQE3mbJHBQmQENvekQYAI3+pt5uEMXlJM/Ftj4C1CS4WdSv1FxVyUvohX/zt
-ZZsKJDygJpFxOL4Qdy47eRnJSgr+PHjB3ssyQw/jsa45OJRKPHlDhCjtFnDYBPHn
-T4Z5iW406GCzBo4vamHOq+VwH8oQ6VWQsRq06oFu/w9QrZHenBkJ6gYmFQwwIbvw
-ZuW/bx24uNVHRmyctXewujBghfmVNOCjPnY2OYefHezyOyxgNeht/pH1mU1T7WGl
-uCw+D80hJBd5tNJMT8B0J4jAJ87zGQOjSIqjKqdmK5o/VaJu/D7t4dg395wlaCt5
-eMsf5YknPrMZcQTVLOu+6JGzBD+iiNlWX8qjgbgoqdM2GY5xUDQbsnDYCKzH7CWi
-djEkTgjA8DFEPEkzMV4j3H0acNEV+L42Jt2xtgzCMHOgN84rIAZQbfi9LIqjYYXQ
-bOcAB2+ZEI7B4NZS3HAgiEiSUW9hOEdYnQW2g2kuoXjeb5vVjfE=
-=CSJm
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEJKIUACgkQ7ulgGnXF
+3j1ARw//Z6UrcMf7jrmJ8x4REBz04YU0952FqXOgX2CKx+S1GLH/zC9tHOPt0Ql4
+dfpnR8yWMh9jYuVe7O8l84pRel/BzV4cB2sRTJ9zjl8GcClQe05A6R+DUy5mD9PL
+sGHiINDhMcvyEHddD4UGEcbAMMWXRJHBP2iQX5jaAiqXma/+SUtRnDQ+hxVcaW9X
+ZQYajPboqi/9JH/ODgT6xd/N9x58pZo8BEwMY+gZac47MGezrLGDOBod68hGE4cp
+//Z9qQEqypmoZ7fQJhO8dorpEkIm3CHyqYM/f/V70DisO1JD9havY1/ZhypnfAky
+hcW/TmtJ1yr+OaxKQEUovzPPpyv8AXESHvmmpFu4A/rVx7tkSJ+L4lrEMjMJ2LYl
+YfI9Y42hGPCmJUIU8OZ9tyLd2on7BWQ6RnpK2u7pGRlJfWbaJNpQ6bLWWkY8y8bv
+ERf4ptX5n7Dx78eRSW5Sz3kwOtTBZFUcq4D8Mw9vpcENTHQh4cn6beKk6RHumgkM
+MwP4/WxhNH9x2E3geJnk8nl0LWhPogEygYCpq9IqDJYTUfzXB/5mcjJesOuhMTVF
+d7CzQ94reEC8dVNz/c8WG3UuFlUOKMCK3xBYPDUGfM2WXGfS8xhbpp7geZBS+Lvh
+jeCrarIYBhoYKZ9cbe9xmynQHUstUVPVzqq28b7webBVP60z9j0=
+=qJqf
 -----END PGP SIGNATURE-----
 
---===============6305638031575740189==--
+--===============3818011367326203278==--
