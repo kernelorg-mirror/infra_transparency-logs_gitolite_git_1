@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Aug 2021 10:43:58 -0000
-Message-Id: <162798743813.24103.3553925875632692444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 03 Aug 2021 10:45:14 -0000
+Message-Id: <162798751435.26011.3121662088125745067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ce78ffa3ef1681065ba451cfd545da6126f5ca88
-    new: ae954bbc451d267f7d60d7b49db811d5a68ebd7b
+    old: 07e1d6b3e0203a47128dd7d490e73ebe6dae7c4d
+    new: 995c3d49bd71605c8179e1e129773e37b2da9b20
     log: |
-         ae954bbc451d267f7d60d7b49db811d5a68ebd7b sctp: move the active_key update after sh_keys is added
+         995c3d49bd71605c8179e1e129773e37b2da9b20 qed: Avoid db_recovery during recovery
          
