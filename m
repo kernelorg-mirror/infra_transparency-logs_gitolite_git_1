@@ -1,53 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4820386335175587098=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 03 Aug 2021 15:23:35 -0000
-Message-Id: <162800421505.24182.6841188754597648826@gitolite.kernel.org>
-
---===============4820386335175587098==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 03 Aug 2021 15:47:19 -0000
+Message-Id: <162800563962.6689.12197850564146890682@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 98c758ff7b9ab1a571d278c74f4b6c38295fc83d
-    new: 6edc636bb497de461739e10000a29165df08c3dc
+  - ref: refs/heads/for-next/core
+    old: 4f0afd1d3c8cfeb0e7895c0e01617040e92f3212
+    new: 51f5a6e8586f6cf02ed73a7a01904a56c42ca980
     log: |
-         6edc636bb497de461739e10000a29165df08c3dc Don't consider signature contents for trailers
+         7a062ce31807eb402c38edbec50c1b848b4298f3 arm64/cpufeature: Optionally disable MTE via command-line
+         70a4039bd4d723c9b86b365bf1cd2395beed2d07 arm64: move the (z)install rules to arch/arm64/Makefile
+         312b7104f39bcb4f7fb4dceeab1e9ae82c7083c8 arm64: fix typo in a comment
+         7710861017ac25b9b459f3a7f8f1a3332db9ccbe kselftest/arm64: Provide a helper binary and "library" for SVE RDVL
+         b43ab36a6d86f6c693f5919ee2cf25c543446213 kselftest/arm64: Validate vector lengths are set in sve-probe-vls
+         95cf3f23877b682c56899aa34f9cdd2f910b8924 kselftest/arm64: Add tests for SVE vector configuration
+         e96595c55d2397dde599779d75112d21989b37b9 kselftest/arm64: Add a TODO list for floating point tests
+         51f5a6e8586f6cf02ed73a7a01904a56c42ca980 Merge branches 'for-next/mte', 'for-next/misc' and 'for-next/kselftest' into for-next/core
          
-  - ref: refs/heads/stable-0.7.y
-    old: d0e8fa3bb2475187fbf9fcfe73c38ec83ad7e6b5
-    new: fb9c3b878d22f6e52285ebbb2c667b979bf13069
+  - ref: refs/heads/for-next/kselftest
+    old: dac3ce63bffe0ef5c0a3fa9b5f6140b633cbc830
+    new: e96595c55d2397dde599779d75112d21989b37b9
     log: |
-         fb9c3b878d22f6e52285ebbb2c667b979bf13069 Don't consider signature contents for trailers
+         7710861017ac25b9b459f3a7f8f1a3332db9ccbe kselftest/arm64: Provide a helper binary and "library" for SVE RDVL
+         b43ab36a6d86f6c693f5919ee2cf25c543446213 kselftest/arm64: Validate vector lengths are set in sve-probe-vls
+         95cf3f23877b682c56899aa34f9cdd2f910b8924 kselftest/arm64: Add tests for SVE vector configuration
+         e96595c55d2397dde599779d75112d21989b37b9 kselftest/arm64: Add a TODO list for floating point tests
          
-
---===============4820386335175587098==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1628004214 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1628004214-5f58a65c1b67712edf082baf5e58f9d54ac3ed4e
-
-98c758ff7b9ab1a571d278c74f4b6c38295fc83d 6edc636bb497de461739e10000a29165df08c3dc refs/heads/master
-d0e8fa3bb2475187fbf9fcfe73c38ec83ad7e6b5 fb9c3b878d22f6e52285ebbb2c667b979bf13069 refs/heads/stable-0.7.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYQlfdgAKCRC2xBzjVmSZ
-bEu+AP90DS0npVm5tHsKjH8/d75AZmPyfIblpeBd3HfJK3jFqQEAnPeUfCUiqmrN
-THgwntqWMKIntPpxqzpdk+FM6qf61gU=
-=F9ei
------END PGP SIGNATURE-----
-
---===============4820386335175587098==--
+  - ref: refs/heads/for-next/misc
+    old: b24b5205099a342ee38f7db7c18e39da2f2ae8e8
+    new: 312b7104f39bcb4f7fb4dceeab1e9ae82c7083c8
+    log: |
+         70a4039bd4d723c9b86b365bf1cd2395beed2d07 arm64: move the (z)install rules to arch/arm64/Makefile
+         312b7104f39bcb4f7fb4dceeab1e9ae82c7083c8 arm64: fix typo in a comment
+         
+  - ref: refs/heads/for-next/mte
+    old: 767215030150d9d01ff65fbc1c5dff515ffdcfe3
+    new: 7a062ce31807eb402c38edbec50c1b848b4298f3
+    log: |
+         7a062ce31807eb402c38edbec50c1b848b4298f3 arm64/cpufeature: Optionally disable MTE via command-line
+         
