@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6699597992830452592=="
+Content-Type: multipart/mixed; boundary="===============5496693793733669107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 03 Aug 2021 11:05:15 -0000
-Message-Id: <162798871584.8953.3237480024334982898@gitolite.kernel.org>
+Date: Tue, 03 Aug 2021 11:08:16 -0000
+Message-Id: <162798889656.10054.8751888477763481876@gitolite.kernel.org>
 
---===============6699597992830452592==
+--===============5496693793733669107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,102 +16,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 81289ca343e3094525f463769c3517dc6c3c85ad
-    new: c427fb6156e0144abf3aa3007f68498fbe1e6cdb
+    old: c427fb6156e0144abf3aa3007f68498fbe1e6cdb
+    new: 20a47ca23273bbe0c07add55ee601cbae3df38c5
     log: |
-         c427fb6156e0144abf3aa3007f68498fbe1e6cdb btrfs: mark compressed range uptodate only if all bio succeed
+         20a47ca23273bbe0c07add55ee601cbae3df38c5 btrfs: mark compressed range uptodate only if all bio succeed
          
   - ref: refs/heads/queue/4.19
-    old: 50a9e83931604102253d7bc9aa7838abdcc89d1f
-    new: 58b77ca574e8208bad7f34917f3879ce8559e07e
+    old: 58b77ca574e8208bad7f34917f3879ce8559e07e
+    new: a4076ed4f9f4d9b69915800ca201c3b462e1894d
     log: |
-         58b77ca574e8208bad7f34917f3879ce8559e07e btrfs: mark compressed range uptodate only if all bio succeed
+         a4076ed4f9f4d9b69915800ca201c3b462e1894d btrfs: mark compressed range uptodate only if all bio succeed
          
   - ref: refs/heads/queue/4.4
-    old: cd71e39a70abfd340628654f53c83e4895f6d58d
-    new: 21b067c323b7583b6ed5456b1f1b4b9476fb198b
-    log: revlist-cd71e39a70ab-21b067c323b7.txt
-  - ref: refs/heads/queue/4.9
-    old: f2205734111d4c088d58e3e6f655b2e5c0ceaa86
-    new: b74013ac6a91c095efe8b352dfd9f023cd1b8e02
+    old: 21b067c323b7583b6ed5456b1f1b4b9476fb198b
+    new: 17aefbafed7b8cb3a8b131c4c5fd0c9b8226ed83
     log: |
-         b74013ac6a91c095efe8b352dfd9f023cd1b8e02 btrfs: mark compressed range uptodate only if all bio succeed
+         17aefbafed7b8cb3a8b131c4c5fd0c9b8226ed83 btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/4.9
+    old: b74013ac6a91c095efe8b352dfd9f023cd1b8e02
+    new: d18cfe467e8136e5fccfb45a93bbac51eeca6f92
+    log: |
+         d18cfe467e8136e5fccfb45a93bbac51eeca6f92 btrfs: mark compressed range uptodate only if all bio succeed
          
   - ref: refs/heads/queue/5.10
-    old: 00eb39d4d40c61d566b7ff4764bd20234d3f337d
-    new: c034ce8bbed0f321ba0f70fd23135642d1acbcc0
+    old: c034ce8bbed0f321ba0f70fd23135642d1acbcc0
+    new: 48156f3dce81b215b9d6dd524ea34f7e5e029e6b
     log: |
-         eeab3eca28bfc900da378bb11b5a364bca8ed918 drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
-         2719893bd6eba468e9467590924ad8cb6e3b7f03 Revert "drm/i915: Propagate errors on awaiting already signaled fences"
-         7670518cdcfd1c1f043c7785eea11f72572f9f04 btrfs: fix race causing unnecessary inode logging during link and rename
-         c034ce8bbed0f321ba0f70fd23135642d1acbcc0 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+         b1c92988bfcb7aa46bdf8198541f305c9ff2df25 drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+         2fb9fc485825505e31b634b68d4c05e193a224da Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+         474a423936753742c112e265b5481dddd8c02f33 btrfs: fix race causing unnecessary inode logging during link and rename
+         48156f3dce81b215b9d6dd524ea34f7e5e029e6b btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
          
   - ref: refs/heads/queue/5.13
-    old: fcea70b2a2a7bc35147ee408bb35b6a1d4823398
-    new: 03129ff81a084ce878c68294362602580a97ac96
-    log: revlist-fcea70b2a2a7-03129ff81a08.txt
+    old: 03129ff81a084ce878c68294362602580a97ac96
+    new: 46719403ead9ebb7bcdfa04ac1a6ba3d1884dcca
+    log: revlist-03129ff81a08-46719403ead9.txt
   - ref: refs/heads/queue/5.4
-    old: 81a8ddf65701849f39ecafef6a30470e94a89b77
-    new: 759df0db364c2e6e5167ccef423d055db85f640a
+    old: 759df0db364c2e6e5167ccef423d055db85f640a
+    new: 2645f0d8ddfb64be3876d60794747bf45b13ed56
     log: |
-         60cb4feacbbab416e8a9f8d0afcf9765935d56ac btrfs: delete duplicated words + other fixes in comments
-         ef4ffb265bbf4ee079ab4366020405f6238fe2e7 btrfs: do not commit logs and transactions during link and rename operations
-         148debee8ce519092961af6c8936aa449629ddbc btrfs: fix race causing unnecessary inode logging during link and rename
-         759df0db364c2e6e5167ccef423d055db85f640a btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+         a44c7ff8f7fec9f5ebae4bd478b32f36a0a3a44b btrfs: delete duplicated words + other fixes in comments
+         31e4074edff2276d70c979773432f5c7e0570d2b btrfs: do not commit logs and transactions during link and rename operations
+         cac45563809889778f1357505db20daaffe90755 btrfs: fix race causing unnecessary inode logging during link and rename
+         2645f0d8ddfb64be3876d60794747bf45b13ed56 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
          
 
---===============6699597992830452592==
+--===============5496693793733669107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd71e39a70ab-21b067c323b7.txt
+Content-Disposition: attachment; filename=revlist-03129ff81a08-46719403ead9.txt
 
-12dfe45bb9432c74b552aa05641b15d753b31091 net: split out functions related to registering inflight socket files
-b5cf1a0e4648da70aeda63133ea1c5eb5374e73d af_unix: fix garbage collect vs MSG_PEEK
-0bf64fe5dc1e3160b4ce0becb558908f2745d36d workqueue: fix UAF in pwq_unbound_release_workfn()
-3236424b61453225025a5c08aabd65b789c69290 net/802/mrp: fix memleak in mrp_request_join()
-a538e87553c5048a32a8e7c007dcffa44a4729ef net/802/garp: fix memleak in garp_request_join()
-9e743f63a3d9f1e05ddacc270b2eb37331460650 sctp: move 198 addresses from unusable to private scope
-570a1326ea639290a18169b2152fac468804ff56 hfs: add missing clean-up in hfs_fill_super
-4ff0b056c54aa59e213895f15e927c991f5eb502 hfs: fix high memory mapping in hfs_bnode_read
-d1fced85f5c57b03682aa6bd9461298c6b2da7b5 hfs: add lock nesting notation to hfs_find_init
-a99b4d6b2f598b39fc441102c3dd1b1ec1d0f304 ARM: dts: versatile: Fix up interrupt controller node names
-73d03542e874131aea7f80df822168f8e1da179e lib/string.c: add multibyte memset functions
-55e32c63e4adf1397e3acddbcf77ba674be7f19c ARM: ensure the signal page contains defined contents
-c59f59cde00fb5814ac7e80d3c0b4554fca8eebf ocfs2: fix zero out valid data
-ee5543306c3f75473bea82ff90c5f611b52b6d2d ocfs2: issue zeroout to EOF blocks
-8e24f20113a77b9d2a0fcc36a2a6de9c0ec03b59 can: usb_8dev: fix memory leak
-997acb15c51fbe293918bbadda870a3fb049eb93 can: ems_usb: fix memory leak
-bd43580d6e888bb2ceeef356c8885b93c962226c can: esd_usb2: fix memory leak
-b839ec809a6db3f414656ee0c5c58d77ac8a7906 NIU: fix incorrect error return, missed in previous revert
-77d4bbd8d6fd78d1e5548a83ccd4729ce44ad279 x86/asm: Ensure asm/proto.h can be included stand-alone
-524617b5c1fa67e2d3b50f160ea6ccbcfa3719aa cfg80211: Fix possible memory leak in function cfg80211_bss_update
-7e0c7fc00e65b46dcfdbecc5e8c662fc25b31b3f netfilter: nft_nat: allow to specify layer 4 protocol NAT only
-2877374d6de994244a80c693388f983a3fb7aefb tipc: fix sleeping in tipc accept routine
-e3b60d646092b86ae60a6932ff645a173cbc0379 mlx4: Fix missing error code in mlx4_load_one()
-6a4f215e1e22a3a0d0f0f42bd4d60d89cd5125cf net: llc: fix skb_over_panic
-b18c9b19f9c6757ce6a9849e2c74b9f83d59b15a tulip: windbond-840: Fix missing pci_disable_device() in probe and remove
-e3ced4cce41aed97666da82ac805ba4f1c6295df sis900: Fix missing pci_disable_device() in probe and remove
-21b067c323b7583b6ed5456b1f1b4b9476fb198b btrfs: mark compressed range uptodate only if all bio succeed
+841049a1011688e97b510671bc25eaee3cee76a3 drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+ea38a990a50bff36003e6d073658b787f9fc3bfd Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+beadfe44b55d1e1c0a6fe41492ee9675f1b9da6a power: supply: ab8500: Call battery population once
+3cee6c3783cde685464e2a595325c6dfc170de49 skmsg: Increase sk->sk_drops when dropping packets
+6559f2d6cf04685fbf4d9eb944e387a70784490b skmsg: Pass source psock to sk_psock_skb_redirect()
+cc2226f2bb7d7333b24a8826ccc59088bfb55109 bpf, sockmap: On cleanup we additionally need to remove cached skb
+7c4084152c14c8252681e250610872681c8a935a cifs: use helpers when parsing uid/gid mount options and validate them
+ecc407a149f92ed71c2531a09461ad7f2406d5f9 cifs: add missing parsing of backupuid
+f7952a3afb0c76f7e9a485085b6deb44ba37e059 net: dsa: sja1105: parameterize the number of ports
+e29feb15eda283e3ae1244649db9e0eeb8144284 net: dsa: sja1105: fix address learning getting disabled on the CPU port
+9c1fab5d1c985583d94414c92e1231a90dfcf5f1 ASoC: Intel: boards: handle hda-dsp-common as a module
+42dda39fa730421d18cf8085f54ddd31c0405bd9 ASoC: Intel: boards: create sof-maxim-common module
+46719403ead9ebb7bcdfa04ac1a6ba3d1884dcca ASoC: Intel: boards: fix xrun issue on platform with max98373
 
---===============6699597992830452592==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcea70b2a2a7-03129ff81a08.txt
-
-a3c57ef2410707162cbd8db284ce0f989432110a drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
-22213e4d3cdf735a180950466388d86d4867fdd0 Revert "drm/i915: Propagate errors on awaiting already signaled fences"
-3f04f0efe3af23e567acd5907eb82557ab52b150 power: supply: ab8500: Call battery population once
-57273162a728b211a59a94f7a686b56b1e7b46d8 skmsg: Increase sk->sk_drops when dropping packets
-5cab056d807c142e5bfffe479bdc7f80e105dbc9 skmsg: Pass source psock to sk_psock_skb_redirect()
-ef25eb273b558e4f055b6a9228cba35c9fece00d bpf, sockmap: On cleanup we additionally need to remove cached skb
-b507491afbb6e7995eda346280225361af073b7a cifs: use helpers when parsing uid/gid mount options and validate them
-fca9de42740924066b7c662534a1ba576371eac7 cifs: add missing parsing of backupuid
-1f867b849933c23de59a2f06c970a7af6c12f45f net: dsa: sja1105: parameterize the number of ports
-bd409fe0d923632d2e1544256d189ad309bb0dfd net: dsa: sja1105: fix address learning getting disabled on the CPU port
-6246a5506c78c0d78a3c5a1d6ed8498d1f78c83e ASoC: Intel: boards: handle hda-dsp-common as a module
-21cce31563849f233e649e78cd39012c8e231c78 ASoC: Intel: boards: create sof-maxim-common module
-03129ff81a084ce878c68294362602580a97ac96 ASoC: Intel: boards: fix xrun issue on platform with max98373
-
---===============6699597992830452592==--
+--===============5496693793733669107==--
