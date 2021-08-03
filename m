@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 03 Aug 2021 21:24:46 -0000
-Message-Id: <162802588600.3649.2706593839664997470@gitolite.kernel.org>
+Date: Tue, 03 Aug 2021 21:27:14 -0000
+Message-Id: <162802603471.5817.7400035360183312963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: c8f6c77d06fe6147d07cb0e4952db008f72767cb
-    new: bebc3bbf5131b7f792b207e8fcac9a798bb23bbf
+    old: bebc3bbf5131b7f792b207e8fcac9a798bb23bbf
+    new: a0221a0f9ba5820c4a5c0625f965684c6fe76ad7
     log: |
-         bebc3bbf5131b7f792b207e8fcac9a798bb23bbf net: decnet: Fix refcount warning for new dn_fib_info
+         8578880df39cb02dd19812eaa834bfada9e8516f octeontx2-af: Fix spelling mistake "Makesure" -> "Make sure"
+         a0221a0f9ba5820c4a5c0625f965684c6fe76ad7 Revert "Merge branch 'qcom-dts-updates'"
          
