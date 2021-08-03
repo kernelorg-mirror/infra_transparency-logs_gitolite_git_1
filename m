@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 03 Aug 2021 21:56:05 -0000
-Message-Id: <162802776596.25887.8356826994004986998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Tue, 03 Aug 2021 21:57:52 -0000
+Message-Id: <162802787271.26535.9426814199789081010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/pci/enumeration
-    old: 21d8e94253eb09f7c94c4db00dc714efc75b8701
-    new: d6b1715999fc2e215d35f581fb7471bc9c6f16e9
+  - ref: refs/heads/for-next
+    old: 8aa41952ef245449df79100e1942b5e6288b098a
+    new: 64f67b5240db79eceb0bd57dae8e591fd3103ba0
     log: |
-         a8bd29bd49c4156ea0ec5a97812333e2aeef44e7 PCI: Return ~0 data on pciconfig_read() CAP_SYS_ADMIN failure
-         d6b1715999fc2e215d35f581fb7471bc9c6f16e9 PCI: Return int from pciconfig_read() syscall
+         64f67b5240db79eceb0bd57dae8e591fd3103ba0 leds: trigger: audio: Add an activate callback to ensure the initial brightness is set
          
