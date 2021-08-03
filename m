@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
-Date: Tue, 03 Aug 2021 21:57:52 -0000
-Message-Id: <162802787271.26535.9426814199789081010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 03 Aug 2021 22:02:05 -0000
+Message-Id: <162802812569.29421.8796833208638183455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pavel/linux-leds
-user: pavel
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 8aa41952ef245449df79100e1942b5e6288b098a
-    new: 64f67b5240db79eceb0bd57dae8e591fd3103ba0
+  - ref: refs/heads/master
+    old: 5f3b82c55e6b9af6501f090f643375e9d82f4417
+    new: 5a094ce3a887e8bf75f47bc90e57f04671d909c0
     log: |
-         64f67b5240db79eceb0bd57dae8e591fd3103ba0 leds: trigger: audio: Add an activate callback to ensure the initial brightness is set
+         5a094ce3a887e8bf75f47bc90e57f04671d909c0 selftests/sgx: Make data measurement for an enclave segment optional
          
