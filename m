@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Aug 2021 21:32:48 -0000
-Message-Id: <162802636884.9370.16015976348743557124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 03 Aug 2021 21:34:04 -0000
+Message-Id: <162802644487.9909.7090388474943444769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: abc7285d89ffd089739a1a3059ddd843dd019637
-    new: e3ea110d6e796146920e1be0108464ebcf283ef7
+    old: 2e19bb35ce15a8b49f4a809469163f668e2d539f
+    new: 421297efe63f328c872e6aec059463c37d7bcdd8
     log: |
-         e3ea110d6e796146920e1be0108464ebcf283ef7 VSOCK: handle VIRTIO_VSOCK_OP_CREDIT_REQUEST
+         421297efe63f328c872e6aec059463c37d7bcdd8 net: dsa: tag_sja1105: consistently fail with arbitrary input
          
