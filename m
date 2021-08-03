@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 03 Aug 2021 21:29:30 -0000
-Message-Id: <162802617091.6750.18322093775713816643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 03 Aug 2021 21:31:20 -0000
+Message-Id: <162802628071.8804.14193642940444505808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 5ddd8cd51c9bd46274283548c1c036fba76a6cc0
-    new: 97c4d64f66ae04cd7fe552013ab833d59b3dd358
+    old: a0221a0f9ba5820c4a5c0625f965684c6fe76ad7
+    new: 2e19bb35ce15a8b49f4a809469163f668e2d539f
     log: |
-         97c4d64f66ae04cd7fe552013ab833d59b3dd358 monitor: Track connections for analyze function
+         2e19bb35ce15a8b49f4a809469163f668e2d539f net: bridge: switchdev: fix incorrect use of FDB flags when picking the dst device
          
