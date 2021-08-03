@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 03 Aug 2021 21:27:14 -0000
-Message-Id: <162802603471.5817.7400035360183312963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Aug 2021 21:29:16 -0000
+Message-Id: <162802615676.6590.8522986758011535367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: bebc3bbf5131b7f792b207e8fcac9a798bb23bbf
-    new: a0221a0f9ba5820c4a5c0625f965684c6fe76ad7
+    old: 4039146777a91e1576da2bf38e0d8a1061a1ae47
+    new: abc7285d89ffd089739a1a3059ddd843dd019637
     log: |
-         8578880df39cb02dd19812eaa834bfada9e8516f octeontx2-af: Fix spelling mistake "Makesure" -> "Make sure"
-         a0221a0f9ba5820c4a5c0625f965684c6fe76ad7 Revert "Merge branch 'qcom-dts-updates'"
+         abc7285d89ffd089739a1a3059ddd843dd019637 mptcp: drop unused rcu member in mptcp_pm_addr_entry
          
