@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Tue, 03 Aug 2021 13:59:39 -0000
-Message-Id: <162799917918.27811.18099426997416142810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Tue, 03 Aug 2021 14:05:28 -0000
+Message-Id: <162799952805.3681.9470751092346654227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/tags/net-5.10-rc7
-    old: e6a9e3fe2a8fa7b7a3b6259a5883d32a92f59278
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/net-5.13-rc5
-    old: 4fcd27755722483e38f4c4a2b0ad1f15b29e7d2b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/net-next-5.11
-    old: d036668bb92786751142520b6e2f50f9256ef9c9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for_autotest
+    old: 019f7550ec08987aca9cbcfc39419c7c0f86d5eb
+    new: c826b318b8f955fe11d5cf64e36d26d579b637ae
+    log: |
+         ca1fb07b1b8274f9b6b995ddb25dde5a6d12e7b0 intel_iommu: Fix typo in comments
+         
+  - ref: refs/tags/for_autotest_next
+    old: 019f7550ec08987aca9cbcfc39419c7c0f86d5eb
+    new: c826b318b8f955fe11d5cf64e36d26d579b637ae
+    log: |
+         ca1fb07b1b8274f9b6b995ddb25dde5a6d12e7b0 intel_iommu: Fix typo in comments
+         
+  - ref: refs/tags/for_upstream
+    old: 019f7550ec08987aca9cbcfc39419c7c0f86d5eb
+    new: c826b318b8f955fe11d5cf64e36d26d579b637ae
+    log: |
+         ca1fb07b1b8274f9b6b995ddb25dde5a6d12e7b0 intel_iommu: Fix typo in comments
+         
