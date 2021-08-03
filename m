@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1167157687430792263=="
+Content-Type: multipart/mixed; boundary="===============1356340596825398463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Aug 2021 22:27:54 -0000
-Message-Id: <162802967480.13787.6304694873591133938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Aug 2021 22:28:01 -0000
+Message-Id: <162802968169.13925.4007173990605346673@gitolite.kernel.org>
 
---===============1167157687430792263==
+--===============1356340596825398463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 8b5d95313b6d30f642e4ed0125891984c446604e
     new: 8b353bbeae20e2214c9d9d88bcb2fda4ba145d83
     log: |
@@ -25,37 +25,37 @@ changes:
          30615bd21b4cc3c3bb5ae8bd70e2a915cc5f75c7 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
          8b353bbeae20e2214c9d9d88bcb2fda4ba145d83 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: b189dde9d3e54b607791e9cdf28c7881eac8a37e
     new: f3f5798d65167c0f3d50123d7f3df513b73bc9d1
     log: revlist-b189dde9d3e5-f3f5798d6516.txt
 
---===============1167157687430792263==
+--===============1356340596825398463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628029660 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1628029672-ffaedd63b7f1484c8d6a77740542b9fcf875bf12
+pusher C3F436CA30F5D8EB 1628029667 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1628029679-ce4e4924fd93322b1b4f1d3df50fb4ece58567e3
 
-8b5d95313b6d30f642e4ed0125891984c446604e 8b353bbeae20e2214c9d9d88bcb2fda4ba145d83 refs/heads/for-5.14
-b189dde9d3e54b607791e9cdf28c7881eac8a37e f3f5798d65167c0f3d50123d7f3df513b73bc9d1 refs/heads/for-5.15
+8b5d95313b6d30f642e4ed0125891984c446604e 8b353bbeae20e2214c9d9d88bcb2fda4ba145d83 refs/heads/asoc-5.14
+b189dde9d3e54b607791e9cdf28c7881eac8a37e f3f5798d65167c0f3d50123d7f3df513b73bc9d1 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEJwtwACgkQJNaLcl1U
-h9DB+wf+N7e+mVIzTeIRBGSyaZa6giAec+mEIqNPB5d4YdcLH65Ady+1xIxWFchz
-jaoUZWzxSteLBP/o+XEAvwJ4GKWgR3mzuYLr/1gziXF9CP4vlJmbZSOfnoiBamkz
-CJ90Q4kYkBQnVd/Lqt7KVKZ+vHkWUnWKh1k1S3fms65jg6g7zpLzsBQKkG1DwpD7
-RbxTNxqpLoUeavRhvMVY4q3pcBQwU1yoklB4qSfvN69CV1sGpooqZ+qpuQalZ0/p
-tMxacxo3l9lxk7cL8p5Rw2SWqaGw2aJ9P3P9FlUlyJjiEoj0JeOcFS0338LgDZRo
-ale1QR0q8Qo5ElY3V0NpL598Wovowg==
-=njD0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEJwuMACgkQJNaLcl1U
+h9CscAf/XUR9DjDbNMxscAvpnIiWCl8Qg2DjlatAgKIqM+klfQqavvklXXXgplBH
+bgHxlra/iBTHlNAOx0PBZz5pT/n4iJKecCS7+7Ibqznz2Dhx1crNWzmh6qvWCvxJ
+IQZL/UKEcN+wPnCDQBPJTyWgGUkMb1d+pKTP5ut9+0OZbaMSB2dJMROn7UYJKVx7
+zZy7Bg60JU/jHnqJy6jDHLqUypnCeTYbAVLDJogS9/j96donHSsNlgsMnD8QM0aK
+vrU+x3hsK4hwV/QDNgLHW1Xl0AUXC+MOAgc7fawahQ79ADJ405x0cDXWM/UQl9p7
+RZ8B4Zri3E7BmyejK7Fp2pU/EJEGEg==
+=NdnS
 -----END PGP SIGNATURE-----
 
---===============1167157687430792263==
+--===============1356340596825398463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ b285b51018a7ca206401829fb83c8b967c22bfa5 ASoC: soc-ops: cleanup cppcheck warning
 8ff9392460ae52846d14f3be3ce7c7bed42fbc68 Merge series "ASoC: SOF/Intel: machine driver updates" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 f3f5798d65167c0f3d50123d7f3df513b73bc9d1 Merge series "ASoC: soc-ops: cleanup cppcheck warning" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============1167157687430792263==--
+--===============1356340596825398463==--
