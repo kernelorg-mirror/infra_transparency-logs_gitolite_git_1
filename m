@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 03 Aug 2021 10:49:40 -0000
-Message-Id: <162798778054.29202.14186856542391729452@gitolite.kernel.org>
+Date: Tue, 03 Aug 2021 10:51:20 -0000
+Message-Id: <162798788064.31278.10067832321854138648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 493c3ca6bd754d8587604496eb814f72e933075d
-    new: 2414d628042b61fc8af427a160379ff7e11fc59b
+    old: 2414d628042b61fc8af427a160379ff7e11fc59b
+    new: 0547ffe6248cd90361dfa627c4566afb81f06c2b
     log: |
-         2414d628042b61fc8af427a160379ff7e11fc59b qed: Remove duplicated include of kernel.h
+         3a755cd8b7c601f756cbbf908b84f7cc8c04a02b bonding: add new option lacp_active
+         0547ffe6248cd90361dfa627c4566afb81f06c2b net: Keep vertical alignment
          
