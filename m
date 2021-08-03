@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Aug 2021 22:51:55 -0000
-Message-Id: <162803111542.31503.16633582484419600916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 03 Aug 2021 23:36:59 -0000
+Message-Id: <162803381984.27317.14805962533353790307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-linus
-    old: 5c9da81d6b923f1aafce460a529cca7e1b63421c
-    new: f4435ea0be2f5e880b38b53eb704217e83dff114
+  - ref: refs/heads/wip/jgg-for-next
+    old: 20da44dfe8eff5b61685e394dec690a5d9dc36ce
+    new: d2b10794fc1312f856d67d0a6454aaa3ae96c595
     log: |
-         f4435ea0be2f5e880b38b53eb704217e83dff114 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 73886417104bc8451cc31caefb7dd6626dc36bf9
-    new: 0feb027adc68dca26a71e12c5f7fb849e119a2f3
-    log: |
-         edcade2e5e942453f001bd7a0d31f55059cec34f ASoC: mediatek: mt6359: convert to use module_platform_driver
-         f4435ea0be2f5e880b38b53eb704217e83dff114 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-         0feb027adc68dca26a71e12c5f7fb849e119a2f3 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         5f6bb7e32283b8e3339b7adc00638234ac199cc4 RDMA/mlx5: Delete not-available udata check
+         8fc3beebf623092e446f4c88fca1699c868ca86d RDMA/core: Delete duplicated and unreachable code
+         20e2bcc4c2a8ede2fe6e335b9eea357bcfbe79bb RDMA/core: Remove protection from wrong in-kernel API usage
+         8da9fe4e4fa7d561df0f3fe65bfa6dbf78aa7590 RDMA/core: Reorganize create QP low-level functions
+         00a79d6b996d46e9077b0d02a19c87b99305b94a RDMA/core: Configure selinux QP during creation
+         5507f67d08cdd947714647caa5c60f96b719fcb7 RDMA/core: Properly increment and decrement QP usecnts
+         d2b10794fc1312f856d67d0a6454aaa3ae96c595 RDMA/core: Create clean QP creations interface for uverbs
          
