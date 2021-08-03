@@ -1,22 +1,79 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 03 Aug 2021 13:50:03 -0000
-Message-Id: <162799860307.22418.3826301780829773512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Tue, 03 Aug 2021 13:59:02 -0000
+Message-Id: <162799914224.27424.661409793826742897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/io_uring-bio-cache.2
-    old: ce33f04d02114ccbbc908909a519e1412727b77b
-    new: bd93da043556c30c68f14f276865d16e129c8e04
-    log: |
-         401814040971164b2af2e0c25982b3cf33f7c397 io_uring: wire up bio allocation cache
-         8d872b715e375bce8399a50e8723ed3d14df2bcf block: enable use of bio allocation cache
-         4e8725474d927bfc76de717cf9aad8f39f7eca7a iomap: enable use of bio allocation cache
-         bd93da043556c30c68f14f276865d16e129c8e04 io_uring: use kiocb->private to hold rw_len
-         
+  - ref: refs/tags/net-5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: e6a9e3fe2a8fa7b7a3b6259a5883d32a92f59278
+  - ref: refs/tags/net-5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4fcd27755722483e38f4c4a2b0ad1f15b29e7d2b
+  - ref: refs/tags/net-next-5.11
+    old: 0000000000000000000000000000000000000000
+    new: d036668bb92786751142520b6e2f50f9256ef9c9
+  - ref: refs/tags/v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/tags/v5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
+  - ref: refs/tags/v5.12-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/tags/v5.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/tags/v5.12-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 939326287f7e63045200ed4ee1653029a7aa8065
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 182c7355be0383c202572eb06d8d2110d6cda003
+  - ref: refs/tags/v5.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+  - ref: refs/tags/v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/v5.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
+  - ref: refs/tags/v5.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e610ab8323e2278fdf9e9f83eb56183d373257be
+  - ref: refs/tags/v5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
