@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 03 Aug 2021 18:05:01 -0000
-Message-Id: <162801390141.32632.15662875684293569111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 03 Aug 2021 18:07:49 -0000
+Message-Id: <162801406921.2631.10495143782698232399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next.mmap-fault
-    old: 7ce7b3e3a33391304eea2e0316c204b95abf3ac2
-    new: a0e4cb34df6ca5c3ac3545f94bbb2691d5738b2b
+  - ref: refs/heads/master
+    old: ab8bc83b05dc9777d8ceb7324366719b09086160
+    new: cc0d3b7d4bddbded08ccd15b2405a2c4bcf23e5f
     log: |
-         c682f5665a947e28bbf5cab353af2f2f72dc5de2 gfs2: Fix mmap + page fault deadlocks for buffered I/O
-         dd3d7c30b80350d1dcbda69f1431371e417791fd iomap: Fix iomap_dio_rw return value for user copies
-         3f10c09f2cd4fb676f32833695ba347a12f29e2b iomap: Support restarting direct I/O requests after user copy failures
-         7c744b3fa53dd9f5085297c2a9b482d7a0136de1 iomap: Add done_before argument to iomap_dio_rw
-         c2cd135419a6dd2989df84d743864f821f8f4903 iov_iter: Introduce noio flag to disable page faults
-         a0e4cb34df6ca5c3ac3545f94bbb2691d5738b2b gfs2: Fix mmap + page fault deadlocks for direct I/O
+         ccd7e07f5e647bf43ebb1d8775c8bad01fa3deaf count: Change mid-sentence \Cref to \cref
+         cc0d3b7d4bddbded08ccd15b2405a2c4bcf23e5f SMPdesign: Add validation section for double-ended queues
          
