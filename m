@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Tue, 03 Aug 2021 14:21:45 -0000
-Message-Id: <162800050516.15042.274033192794407894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Tue, 03 Aug 2021 14:24:59 -0000
+Message-Id: <162800069947.16144.2191570819271967274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: rpeterso
 changes:
-  - ref: refs/heads/master
-    old: 2b2c5668fd291136174d3b1aad94d0def8642161
-    new: b8bbf264ee336a196409bf10a497384a4a5a1b50
+  - ref: refs/heads/for-next.holder_stealing2
+    old: a84ab140146c227602cff2bc340df9a81ba1b646
+    new: f3473ebc02c29e2ce556b7ecf065ac093a44364b
     log: |
-         0663137c77bc848b2927075c077b545fceeb4dae Add monitor delay parameter to mdadm.conf
-         e6878148c1742b1f78a659503f5e5067501ebf73 Assemble: skip devices that don't match uuid instead of aborting the assembly.
-         b8bbf264ee336a196409bf10a497384a4a5a1b50 Release mdadm-4.2-rc2
+         f3473ebc02c29e2ce556b7ecf065ac093a44364b gfs2: Introduce holder flag for glock stealing
          
