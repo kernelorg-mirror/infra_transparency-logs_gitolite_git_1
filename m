@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8959699215971033360=="
+Content-Type: multipart/mixed; boundary="===============3264383097533472451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 03 Aug 2021 22:29:16 -0000
-Message-Id: <162802975631.15098.9348215212176540684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 03 Aug 2021 22:29:33 -0000
+Message-Id: <162802977393.15264.13534283538739125586@gitolite.kernel.org>
 
---===============8959699215971033360==
+--===============3264383097533472451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a14c44fea95e588e712ac1c5118d7d0c1a918b8a
-    new: 742c28e7bb662bb7ad30037c7f7ea729e4be2b44
-    log: revlist-a14c44fea95e-742c28e7bb66.txt
+    old: ffaff51043fe074380f4ff6af101dd05f0c1087e
+    new: b75524c6efbff2cb5ecbc1d4d8f7e2b1f7a0fc76
+    log: revlist-ffaff51043fe-b75524c6efbf.txt
   - ref: refs/heads/for-next
-    old: b75bd4525f11e2d21e997306346a958abf350890
-    new: c4ca33f6610d7361a157017f2239a6ffda83620f
-    log: revlist-b75bd4525f11-c4ca33f6610d.txt
+    old: 4296a65e1d9d9bc42a6d40539d4cffb16628ef64
+    new: f461098ed7ac9651dc8acc3f45ce123468327296
+    log: revlist-4296a65e1d9d-f461098ed7ac.txt
 
---===============8959699215971033360==
+--===============3264383097533472451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a14c44fea95e-742c28e7bb66.txt
+Content-Disposition: attachment; filename=revlist-ffaff51043fe-b75524c6efbf.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
@@ -305,13 +305,14 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
-742c28e7bb662bb7ad30037c7f7ea729e4be2b44 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+0d5c3954b35eddff0da0436c31e8d721eceb7dc2 spi: mediatek: Fix fifo transfer
+b75524c6efbff2cb5ecbc1d4d8f7e2b1f7a0fc76 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
 
---===============8959699215971033360==
+--===============3264383097533472451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b75bd4525f11-c4ca33f6610d.txt
+Content-Disposition: attachment; filename=revlist-4296a65e1d9d-f461098ed7ac.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
@@ -588,12 +589,12 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
-784ed36958390c511cd48db061401f9ba20ba67a regulator: sy8824x: Enable REGCACHE_FLAT
-6bdd1c672a2afbcd1a6d50dc2351ef4ea0bbfc61 regulator: sy8827n: Enable REGCACHE_FLAT
-e5dad32d90e0e9b006f5c330e92fa0ec9042ae79 regulator: sy7636a: Remove the poll_enable_time
-4cafe1aeb5fb4eb1778d5e1b91d50a078369dbe1 regulator: sy7636a: Use the parent driver data
-d38d49b140043bba3ea27b89cca5fefaf08e2034 regulator: sy7636a: Store the epd-pwr-good GPIO locally
-742c28e7bb662bb7ad30037c7f7ea729e4be2b44 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
-c4ca33f6610d7361a157017f2239a6ffda83620f Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
+0d5c3954b35eddff0da0436c31e8d721eceb7dc2 spi: mediatek: Fix fifo transfer
+6e95b23a5b2d1fcbe5a84a362170a4871a3d5731 spi: imx: Implement support for CS_WORD
+7c72dc56a631b87043e3c5838f5094db30d8c58d spi: spi-ep93xx: Prepare clock before using it
+b09bff2676be3ae286e6161a1a581a40c53a3c62 spi: bcm2835aux: use 'unsigned int' instead of 'unsigned'
+726e6f31b1026f62206f1d32b5cbb7e9582c4d03 Merge series "arm: ep93xx: CCF conversion" from Nikita Shubin <nikita.shubin@maquefel.me>:
+b75524c6efbff2cb5ecbc1d4d8f7e2b1f7a0fc76 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+f461098ed7ac9651dc8acc3f45ce123468327296 Merge remote-tracking branch 'spi/for-5.15' into spi-next
 
---===============8959699215971033360==--
+--===============3264383097533472451==--
