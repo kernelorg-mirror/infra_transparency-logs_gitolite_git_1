@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Tue, 03 Aug 2021 15:51:10 -0000
-Message-Id: <162800587006.10903.17560182430940096953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 03 Aug 2021 15:59:07 -0000
+Message-Id: <162800634779.14908.15220427402456074425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: ea6a6059a8a9850d16ddb7588aceac9886cc4f8a
-    new: 452848e18bba8fa7e2a56aba2cdd18d13fcf6d31
+  - ref: refs/heads/dev
+    old: f6eb1254345926e305ac4766a288ca3949d534a7
+    new: 55f0e65ec2ab1db288f4b1c3661c3f17834edd6e
     log: |
-         452848e18bba8fa7e2a56aba2cdd18d13fcf6d31 coresight: Replace deprecated CPU-hotplug functions.
+         3f11ed0942bcfa98535deb4e3bf8c3927420aadc rcu: Replace deprecated CPU-hotplug functions.
+         55f0e65ec2ab1db288f4b1c3661c3f17834edd6e torture: Replace deprecated CPU-hotplug functions.
          
