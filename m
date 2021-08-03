@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 Aug 2021 20:34:51 -0000
-Message-Id: <162802289129.2350.9070207060657281983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 03 Aug 2021 20:35:10 -0000
+Message-Id: <162802291039.3872.13446243874574933456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 120a36bd0e1c3e75c2374e137ee4675d7a6717f2
-    new: 6452b881d66ef372a44fedea9d6190d0a48003ee
+  - ref: refs/heads/master
+    old: 1c69d7cf4a8b6b6cfd920a1e809f1cd33ae4369c
+    new: 4039146777a91e1576da2bf38e0d8a1061a1ae47
     log: |
-         4ab4f08f01aa57cb5bc54a513092276f73ee922a Revert "PCI: Make pci_enable_ptm() private"
-         2ea42c0f46e2626ca56d0b8d1f07eea48e8f06f7 PCI: Add pcie_ptm_enabled()
-         2ae5018bd3b8d9a2da84df93f225b210672e1205 igc: Enable PCIe PTM
-         6452b881d66ef372a44fedea9d6190d0a48003ee igc: Add support for PTP getcrosststamp()
+         0541a6293298fb52789de389dfb27ef54df81f73 net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
+         ce78ffa3ef1681065ba451cfd545da6126f5ca88 net: really fix the build...
+         ae954bbc451d267f7d60d7b49db811d5a68ebd7b sctp: move the active_key update after sh_keys is added
+         f41e57af926ad840d114439d34cafc0533bf25f0 net: sparx5: fix bitmask on 32-bit targets
+         c87a4c542b5a796f795fec2b7a909c7d3067b11c net: flow_offload: correct comments mismatch with code
+         0161d151f3e36306219f5aa6f5f6b3877038afd3 net: sched: provide missing kdoc for tcf_pkt_info and tcf_ematch_ops
+         9fdc5d85a8fe684cdf24dc31c6bc4a727decfe87 nfp: update ethtool reporting of pauseframe control
+         4039146777a91e1576da2bf38e0d8a1061a1ae47 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
          
