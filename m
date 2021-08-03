@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 03 Aug 2021 15:50:03 -0000
-Message-Id: <162800580370.9725.11199958519359972956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Tue, 03 Aug 2021 15:51:10 -0000
+Message-Id: <162800587006.10903.17560182430940096953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: mjp
 changes:
-  - ref: refs/heads/io_uring-5.14
-    old: a890d01e4ee016978776e45340e521b3bbbdf41f
-    new: 866bc8e9f434030c2c41ba376c68370a72be3ca4
+  - ref: refs/heads/next
+    old: ea6a6059a8a9850d16ddb7588aceac9886cc4f8a
+    new: 452848e18bba8fa7e2a56aba2cdd18d13fcf6d31
     log: |
-         866bc8e9f434030c2c41ba376c68370a72be3ca4 io-rw: fix race between worker exiting and activating free worker
+         452848e18bba8fa7e2a56aba2cdd18d13fcf6d31 coresight: Replace deprecated CPU-hotplug functions.
          
