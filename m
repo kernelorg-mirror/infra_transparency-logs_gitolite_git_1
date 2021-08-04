@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 04 Aug 2021 11:42:38 -0000
-Message-Id: <162807735898.25943.2679161039009019852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Aug 2021 11:43:35 -0000
+Message-Id: <162807741537.26285.11336783134868265182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a54182b2a51886597116b3097a2d2fbf9d9b1a84
-    new: 625af9f0298b72f5dd23460fa01bb77d6f942dcb
+    old: d00551b402015c519d19e1535bf2b5398854b0dd
+    new: 396492b4c5f249f616002bb5de787d060d2b2974
     log: |
-         625af9f0298b72f5dd23460fa01bb77d6f942dcb tc-testing: Add control-plane selftests for sch_mq
+         396492b4c5f249f616002bb5de787d060d2b2974 docs: networking: netdevsim rules
          
