@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 03 Aug 2021 23:40:18 -0000
-Message-Id: <162803401814.29816.663042163389470405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Wed, 04 Aug 2021 00:56:40 -0000
+Message-Id: <162803860025.14077.936353350875491509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/pci/virtualization
-    old: 319e4c98dd7fe498a602d4cca260025af72ac702
-    new: f8bd7c48ecb0e94d2b2cf1b21385ba27f0cd15d9
+  - ref: refs/heads/libtracefs-1.2
+    old: 803ef8ba59a8e644bbdc194f02068ece7a15381b
+    new: 3b1059867091d425e3c507c099797f38db10fbaf
     log: |
-         d08c8b855140e9f5240b3ffd1b8b9d435675e281 PCI: Add ACS quirks for NXP LX2xx0 and LX2xx2 platforms
-         f8bd7c48ecb0e94d2b2cf1b21385ba27f0cd15d9 PCI/ACS: Enforce pci=noats with Transaction Blocking
+         2eda88190f3ae49080031b667a78f9ee0cabc487 libtracefs: Silence sometimes-uninitialized warning
+         3b1059867091d425e3c507c099797f38db10fbaf libtracefs: version 1.2.5
          
