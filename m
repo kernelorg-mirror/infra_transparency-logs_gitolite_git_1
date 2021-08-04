@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 04 Aug 2021 14:13:24 -0000
-Message-Id: <162808640458.24260.17203081517669500539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Wed, 04 Aug 2021 14:14:39 -0000
+Message-Id: <162808647917.24848.14352534772492590765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/heads/review-andy
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 7d354dade4e35cd15dabc42d996d7e6926191014
+    log: |
+         7d354dade4e35cd15dabc42d996d7e6926191014 pinctrl: tigerlake: Fix GPIO mapping for newer version of software
+         
