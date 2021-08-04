@@ -1,46 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 04 Aug 2021 10:50:06 -0000
-Message-Id: <162807420667.4182.13061692216423294669@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0460094947871009854=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 04 Aug 2021 10:52:46 -0000
+Message-Id: <162807436664.26681.5176848065983142359@gitolite.kernel.org>
+
+--===============0460094947871009854==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: b65ee9727d2fc8cc0bd0bf3bed008b1b444708a4
-    new: 6a60478d897debb1f27d2131bf48fc3df121a943
+  - ref: refs/heads/master
+    old: c94b346fc48fbdac8ff2532812a67dd81052850e
+    new: 09fd3622aadaf750209da4e2a6b4cae02a48c358
     log: |
-         6a60478d897debb1f27d2131bf48fc3df121a943 btrfs: mark compressed range uptodate only if all bio succeed
+         09fd3622aadaf750209da4e2a6b4cae02a48c358 move 5.10 and 5.13 queues back in place
          
-  - ref: refs/heads/queue/4.19
-    old: e5c4b6fc4d5ed51b0a4cbd60de3966f444384dcf
-    new: 2ad4cadeb1c53f2ef4d279e1b50e8f872bfe5c62
-    log: |
-         2ad4cadeb1c53f2ef4d279e1b50e8f872bfe5c62 btrfs: mark compressed range uptodate only if all bio succeed
-         
-  - ref: refs/heads/queue/4.4
-    old: 9f4e2917cfefb63b93ac773e012005f34235c9ef
-    new: c2c56a5ef830ca890503c0fd0b44844daebca06a
-    log: |
-         c2c56a5ef830ca890503c0fd0b44844daebca06a btrfs: mark compressed range uptodate only if all bio succeed
-         
-  - ref: refs/heads/queue/4.9
-    old: 75e9790bba1aac0b55765e2e0d5df6405d021504
-    new: 02c9a01abf13fe3faf055f868ff577a857b765c1
-    log: |
-         02c9a01abf13fe3faf055f868ff577a857b765c1 btrfs: mark compressed range uptodate only if all bio succeed
-         
-  - ref: refs/heads/queue/5.4
-    old: 28399c9006848ce82004e487da50c61bd1587e9e
-    new: 3321b6662276369c29d5357d7b8a016ff2a15185
-    log: |
-         0c08cefe98808f96da1ca31edc43ecb9d208f151 btrfs: delete duplicated words + other fixes in comments
-         16027fa087fbccea8b2d1a05d3a4bdafa2494255 btrfs: do not commit logs and transactions during link and rename operations
-         64f2eef8c6e12ecddb1ebd6ba5fdcecf64519222 btrfs: fix race causing unnecessary inode logging during link and rename
-         3321b6662276369c29d5357d7b8a016ff2a15185 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
-         
+
+--===============0460094947871009854==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628074365 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1628074364-49cf8fa225e1d8042e26a7bc8cdd437519d91245
+
+c94b346fc48fbdac8ff2532812a67dd81052850e 09fd3622aadaf750209da4e2a6b4cae02a48c358 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEKcX0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0i8P/i2gDWRa57glGPrDQBlo
+5YcK06QKEmzY5L+taEBquPYcPZQO8Fpo49e8d+U/YSZysdJ58OgEyGE0sjb60Yiw
+3q5M/p3BSaqf6vLYWN8GAwIvSsgwh3HvOmj954CY8LrxgldKtTSICf7RegV2FF0/
+1X/HVIKqGAjJAPd0e7SGlUr28LiVjgAkUfIWcAPm9nFwhGaG+ufc/BpD4kdfn46z
+r9RcVk9SSfLXlVcvzCnB2egrTabXA9Q/Xcojn6sbC4aGz034duRKcQ3DqHB+dfKQ
+K6KMojZZHRWP6lpKiyX+KlDd9DeoeENwNWuk6CbosYCYhQGJN7ZPOoHhNAJB4Aog
+ojIbBtFNiRJWH6SDWc0X1Sb/p0VirwuGtErWXMukydW+g460j2RMDyOaWX8PB9/7
+R+pVLUKNkj49b4IVeiWRU/NY7PgNDnVe+YaPb1PZ7HqmFgzth/N9uspcbuDUAZNR
+l9ad4Ru87eIAHkTFpj5ioGnKLc4r2UtakQY/mglBs6KH2omBro29OS4tNpZSxKC0
+L8fJagN7tt1UfJeoAlGXatRx5EJaPU1ORLJQ7e0g2xPQIPRnQVu5Y7pyMHqeIS4J
+RivuKZCLHX6x9qklnRLCNxPD3DW/BG/rIr+okN4igq5TFJ8AxVDCYs+QuNFMqxhw
+jA+aYo8/FUVRPlE78pFHGFzS
+=hbMc
+-----END PGP SIGNATURE-----
+
+--===============0460094947871009854==--
