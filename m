@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2092060839101621109=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 04 Aug 2021 06:52:23 -0000
-Message-Id: <162805994309.26589.3680402107684483362@gitolite.kernel.org>
-
---===============2092060839101621109==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 04 Aug 2021 06:53:42 -0000
+Message-Id: <162806002264.27115.2892470936674949704@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 0fc7ca624b1452050d31b05cd198e38a1b74d1b3
-    new: e67adaa1754d5383583c35a703518507e457482b
+  - ref: refs/heads/for-next.holder_stealing2
+    old: 6af2ffaed52783f15505255e62c43d2083a4a3a2
+    new: a9fa4be1ba374616707400bec76a7f56e8badd91
     log: |
-         1ae14df56cc3e87d56f3c159803a289021f8ef7d binder: Add invalid handle info in user error log
-         e67adaa1754d5383583c35a703518507e457482b sgi-xpc: Replace deprecated CPU-hotplug functions.
+         199d82160295d7a7e70a8875512fdcaab9dbacb6 iov_iter: Introduce fault_in_iov_iter_writeable
+         0a8f2cbc528fcd5d1eb897954866e15973d8d8a4 gfs2: Add wrapper for iomap_file_buffered_write
+         107e29235b22426d4b5c3e0c25cd7dfc51245058 gfs2: Fix mmap + page fault deadlocks for buffered I/O
+         6ea578e19f4296e3aa8f6731d21ddc1111b8d378 iomap: Fix iomap_dio_rw return value for user copies
+         b3b6239fc128fb15f1972ba6b95b08f291f97744 iomap: Support restarting direct I/O requests after user copy failures
+         e357c9ffd1fcc9fa163041474e03c857e983172b iomap: Add done_before argument to iomap_dio_rw
+         9ecc9e00944e0c1757e6553489dd78f0a3200b49 iov_iter: Introduce noio flag to disable page faults
+         4181f1f83a1627ea6a72cc0d4186f3b832697e98 gfs2: Fix mmap + page fault deadlocks for direct I/O
+         a9fa4be1ba374616707400bec76a7f56e8badd91 gfs2: Introduce holder flag for glock stealing
          
-
---===============2092060839101621109==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628059942 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1628059941-8cbd298f5fae993455af69b1cf3f707f7ed4acab
-
-0fc7ca624b1452050d31b05cd198e38a1b74d1b3 e67adaa1754d5383583c35a703518507e457482b refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEKOSYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+54EP/Ar2xtdce0JOxpnri+EE
-XXdytSPNAJiCPBx/Qng75jSXc6C69eMbVg5wqjT4BThihEiPn5+Wo46NCfpBmaVi
-IQUk3ItfBFSEM9Yn4Wu+Hqre1O9JsHoDJwKUz7s/SnM4hsXXHi//B2US0NLgiStL
-18sI2CwiZk5j2vPW/vTioSqLjFcbG0ktF+U+dziseF0u37ZoKQvpAEmmkhgxAAht
-fqrRkDEg07vWCpmFuPELo565K8/ukGo41MiN4rRpl9MVJoOp2NWUEOwIFVkWC1mO
-evavHKPuIU7KRDE/zaPBg4mqWmQLFDCDK1cWNMQpqk5X9SuXvxcX/+1u3UXF6sdS
-+8md5WqjjV7+9qLtWGAH+U3f7qeCxMB8CEx7HZFe0cVi9n/nbs/ZMEwZ5hq58oa9
-bpMoFTNhjY7ElSYxtBHhqdirH3wIv9dqftiIiMHTqJOo2Fv80YaYJfuRFw7DjV3i
-V47JMAAdPE9f+khxHnwM+rupqMaGYmal4uZBhuVaslhkV6Va763AamWx7fsIuTmn
-2PAb5n+uBmziOknonehxBHP2L870RhjHYiqOSR41ocuiGA8FcBhhH2zxru+yQN/L
-g2zuxvEoUXRut3IRnD9pNplDSMQXcTxqVlPb11212PtDja4tufxTydAhcUW/hLUR
-hJDLLbCwhXij7o6tnNpik5AS
-=iCMg
------END PGP SIGNATURE-----
-
---===============2092060839101621109==--
