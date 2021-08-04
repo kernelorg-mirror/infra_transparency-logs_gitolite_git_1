@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 04 Aug 2021 04:27:14 -0000
-Message-Id: <162805123457.27747.8418400109014737041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 04 Aug 2021 04:50:58 -0000
+Message-Id: <162805265898.11578.16352271324150641603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/fixes
-    old: d09560435cb712c9ec1e62b8a43a79b0af69fe77
-    new: a18b14d8886614b3c7d290c4cfc33389822b0535
+  - ref: refs/heads/master
+    old: 6c4d057e3dae6c05d22f2be466006ffaa1506f32
+    new: e6cea965f04258e222f5e76b40519ef6496a3aea
     log: |
-         a18b14d8886614b3c7d290c4cfc33389822b0535 riscv: Disable STACKPROTECTOR_PER_TASK if GCC_PLUGIN_RANDSTRUCT is enabled
+         e6cea965f04258e222f5e76b40519ef6496a3aea Wed 04 Aug 2021 04:46:33 AM UTC
          
