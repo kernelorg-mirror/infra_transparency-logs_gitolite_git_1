@@ -1,151 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============3528118036515127013=="
+Content-Type: multipart/mixed; boundary="===============6009888290155246426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 04 Aug 2021 01:32:46 -0000
-Message-Id: <162804076695.9318.6266957427603518291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Wed, 04 Aug 2021 02:38:42 -0000
+Message-Id: <162804472255.19353.5282691251142539701@gitolite.kernel.org>
 
---===============3528118036515127013==
+--===============6009888290155246426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: broonie
 changes:
-  - ref: refs/heads/seen
-    old: 426ff2c49e127363355833250905a7b4203cd8d6
-    new: ddd54fe36b14398d767dc21dfa3ceec13f59ccc0
-    log: revlist-426ff2c49e12-ddd54fe36b14.txt
+  - ref: refs/heads/pending-fixes
+    old: be32e0f17dc184e41da2e83e5bf700f3f1c7e93f
+    new: b828f2c9def4b4f5a95181d789384142b1e7955a
+    log: revlist-be32e0f17dc1-b828f2c9def4.txt
 
---===============3528118036515127013==
+--===============6009888290155246426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-426ff2c49e12-ddd54fe36b14.txt
+Content-Disposition: attachment; filename=revlist-be32e0f17dc1-b828f2c9def4.txt
 
-62a15162fe60f11c515bec116c9a1f58173a032f merge-ort: remove compile-time ability to turn off usage of memory pools
-326f261b5e79c372ff5138d30d4d814591b604f0 cherry-pick: fix bug when used with GIT_CHERRY_PICK_HELP
-86215558032cea84dcc14da1fa58286c333d58f8 cherry-pick: use better advice message
-c2223851649c88a4723b79e6c2fe87efe6feffc1 ssh signing: preliminary refactoring and clean-up
-3a3fdc0b4ea60f884f3bdb18058111e47014c998 ssh signing: add test prereqs
-c7e2d30efec488ff34afa5560c3f0fa364d04fbf ssh signing: add ssh key format and signing code
-54937221225569332b92f6cd7876d4fa08dc3277 ssh signing: retrieve a default key from ssh-agent
-6869f1f60c1e9c9fa226d8d67ce11df904aaa963 ssh signing: provide a textual signing_key_id
-9048bb3c9b829cb19298532e960a1e735b2f1b18 ssh signing: verify signatures using ssh-keygen
-587967698ab2d679a53f79162a35fda6e2eaac08 ssh signing: duplicate t7510 tests for commits
-52ac6bd36f7435c9f2b68be6691eacfcf5a80538 ssh signing: tests for logs, tags & push certs
-4ff5911494cb29f9ce073368544193f9283b2617 ssh signing: test that gpg fails for unkown keys
-2758983793a7ec961d62e108600f80e4c1b71ca0 git-rebase.txt: correct antiquated claims about --rebase-merges
-e268e64a08a6d7dc99b6f3bd764f53257f429793 directory-rename-detection.txt: small updates due to merge-ort optimizations
-c7503745810f2a0022adf20c6aa795a95d4d9dad Documentation: edit awkward references to `git merge-recursive`
-e2e6bc2afcf70eb94d274d064a30ded8ba95cef3 merge-strategies.txt: update wording for the resolve strategy
-1b1c37d3134cc28c77173cad017c20444dd4294f merge-strategies.txt: do not imply using copy detection is desired
-9e251a81b876bdd09dd7d46825c0b7eb296d2d3d merge-strategies.txt: avoid giving special preference to patience algorithm
-3dd83bbdb8739ed459c84c5c18f8bd39e9838fc0 merge-strategies.txt: explain why no-renames might be useful
-641528d38092c1ef971134a583afcf415232eb70 merge-strategies.txt: fix simple capitalization error
-bb669d8c888264b45c2831026ffe6cf389a97ebe Documentation: add coverage of the `ort` merge strategy
-dfb1d86002343052ce9345f92d56d6a353bd620a Update error message and code comment
-d018751748e9ece7b6b9fe71d6f3225719459ca5 connect, protocol: log negotiated protocol version
-993b69e5baa4515f97c93e26956ff8618b0f0054 Makefile: mark "check" target as .PHONY
-b0b9d4f3a2f68017c19b1b5261d9ec2926eae264 Makefile: stop hardcoding {command,config}-list.h
-cfd9bd26a1171153dccedda2f612cef5e80c2da4 Makefile: remove an out-of-date comment
-4a832f0e4e6d619fef7e2933933350d8ab317788 hook.[ch]: move find_hook() to this new library
-bb7449213c1301424ebdcf791bb2d90fe48d7de6 hook.c: add a hook_exists() wrapper and use it in bugreport.c
-f1f399d19632546ec71d50dc07ed558619efdf05 hook.c users: use "hook_exists()" insted of "find_hook()"
-117a741a6ec6ffa613eb1713ce9be384b36da4da hook-list.h: add a generated list of hooks, like config-list.h
-91ebe8e76feeff99f8a3d0701bbd928a1a3f3f97 hook: add 'run' subcommand
-22f54200dc0918c97856e2f31c1139dd73e33029 gc: use hook library for pre-auto-gc hook
-aec5e6f509e7977213970ea59244a15b1b923e10 rebase: convert pre-rebase to use hook.h
-406b8fdfc86a4cc7de3ae86105f47f350e48548e am: convert applypatch to use hook.h
-47ed741eafcfff13acf0835d7fdac011b173ef53 hooks: convert 'post-checkout' hook to hook library
-f91d94abc2b0dbd5018d1aee09c9e1c5a14ca9b9 merge: convert post-merge to use hook.h
-2a83a2fa5b556d859956da0f4e542b717200c0b7 git hook run: add an --ignore-missing flag
-7a0bcb5fb74c191fd36af11b61011570392bfe94 send-email: use 'git hook run' for 'sendemail-validate'
-c4642909e217e0423949a6b0bd84c0acd1a9ea8b git-p4: use 'git hook' to run hooks
-66d2308d1f287362b00171c293a3e8b47671a1ec commit: convert {pre-commit,prepare-commit-msg} hook to hook.h
-b33b42e68951be3dd8056c61d7016edd32b1904a read-cache: convert post-index-change to use hook.h
-6e9209ee93dbefe856e9181b6e8ecac45531eb61 receive-pack: convert push-to-checkout hook to hook.h
-3b819b8bd5f51494ea9782c5f28fa633bee5127e run-command: remove old run_hook_{le,ve}() hook API
-fe4ce60e0dcf47a52d4cc5d593e0f5ee65b51b22 run-command: allow stdin for run_processes_parallel
-4787177bdd8e4a6e7d59bc124917448539cf47bb hook: support passing stdin to hooks
-580bc69cb6581a7f343e0f8264a9a113f6c1901a am: convert 'post-rewrite' hook to hook.h
-c623a9a2e6f6ab30c42bd0df35eca562e091883e run-command: add stdin callback for parallelization
-c848767a58e71c35135f6683d87f083af49408d1 hook: provide stdin by string_list or callback
-73edbd92757b086e5e184481618afe5e0969311e hook: convert 'post-rewrite' hook in sequencer.c to hook.h
-c5f26cb3d5e4fce09d740c4d746164e2a1953b47 transport: convert pre-push hook to hook.h
-09dfbb9151f3c2462fff6ac9b0166901cf3cbfbe hook tests: test for exact "pre-push" hook input
-33f69adb1b8b7c8d4aa4ba2c67b6d99be68581d4 hook tests: use a modern style for "pre-push" tests
-2832b22fbecc29c6eb1fa27acca0c3474382e8c0 reference-transaction: use hook.h to run hooks
-2a7f82cc5caf324a0a501ba3d1bfb25256204988 run-command: allow capturing of collated output
-9ca517b509914c504fb04741edb103b4b9186f1d hooks: allow callers to capture output
-6ca3e24b8e923b4484586051088350b9f3b67c2d receive-pack: convert 'update' hook to hook.h
-908ed9a5db4da3ea01bae95e74fd0450915321e9 post-update: use hook.h library
-4e5f31ba423c11ef17d8c51e3421684bd88666b8 receive-pack: convert receive hooks to hook.h
-76f440d4f743433796e06a921ee68273edf17c17 hooks: fix a TOCTOU in "did we run a hook?" heuristic
-e4dba8981ab57bf230d0c8e34bc22f7c5059b2e0 fixup! {upload,receive}-pack tests: add --advertise-refs tests
-858f020b44804708eeffeb84ec2a01d5d50fe4d1 Merge branch 'hn/refs-test-cleanup' into jch
-58f2257e477ffb897bfac67b6ca5002adbc9b6b2 Merge branch 'ar/submodule-add' into jch
-de778c076ac8043e09304973d2638c7d0e1e2bb0 Merge branch 'ah/plugleaks' into jch
-ccc1215a9cf9b41a5ed32ed16c782ac5d2a9a130 Merge branch 'ab/update-submitting-patches' into jch
-3ba538314e80f1200d5c0bc1f9c75cc95c6c2384 Merge branch 'ds/commit-and-checkout-with-sparse-index' into jch
-c283a779c7c904f21bbd2f602d4cd6393fa9276e Merge branch 'en/ort-perf-batch-14' into jch
-45a333840f9a1b7c1d74900a2d72538648ad1d5b Merge branch 'pb/merge-autostash-more' into jch
-be8de7f3d528ad9bc70ede8b9a78695a9c48ca2c Merge branch 'jc/bisect-sans-show-branch' into jch
-55afef3b195f9edb343013f5cbfcf40a74bbe8e8 Merge branch 'ds/add-with-sparse-index' into jch
-dae07c07453e08317d2d6db28335fb2196d9b4dc Merge branch 'rs/use-fspathhash' into jch
-635586f4e29e49d75bba2f4ab022480f89566124 Merge branch 'ab/getcwd-test' into jch
-ac810e54caefc136d99c7d2bc3255b01aa8d84a7 Merge branch 'ar/doc-markup-fix' into jch
-4126be3fb7ee3e12e6e7e4156f317f5983716849 Merge branch 'ab/http-drop-old-curl' into jch
-ef87996e94f70ff75cb01008ba1b423930d0cae3 ### match next
-23638c8135bde2d0e49eed2daa8389f4053079ee Merge branch 'ab/pack-stdin-packs-fix' into jch
-269df2ab61fb7e483755b869aa204f7ade2696cb Merge branch 'ab/progress-users-adjust-counters' into jch
-02b52d9025f029c6245bf90e8aee6525f2699df7 Merge branch 'ab/refs-files-cleanup' into jch
-0ba2c98722c12f8e058fd3e9a65997b1c30e8696 Merge branch 'hn/refs-errno-cleanup' into jch
-340b8d60b70da2ba8d52f0a593b6c9f985693f8f Merge branch 'zh/ref-filter-raw-data' into jch
-83bf2b50f88f6b17c2167bc1ea830a4153999ec4 Merge branch 'tv/p4-fallback-encoding' into jch
-3cd42fd49229cba99054236199d6e115e48734cc Merge branch 'fc/completion-updates' into jch
-e1e87d8340a25147224f8eb67a45eaa68fe3f408 Merge branch 'jt/push-negotiation-fixes' into jch
-05f2442926b3bd4bc3323a632da67dced30a819d Merge branch 'en/pull-conflicting-options' into jch
-39b9e17eabdc6cf8d9db7a065a6410e0a41e1089 Merge branch 'ab/bundle-doc' into jch
-8ef42096cd1db8ea769880153f4d388f955049f8 Merge branch 'pw/diff-color-moved-fix' into jch
-567b5f09ce9393fb2ae447b7723ecf6249e64992 Merge branch 'js/expand-runtime-prefix' into jch
-d9d2f3a76b3ac19d9b07817482a13620274a8d3d Merge branch 'zh/cherry-pick-help-is-only-for-sequencer' into jch
-81e120520db72e440c34f72f7eb457ccfc8fb4f1 Merge branch 'os/bisect-runs-show-branch-without-pager' into jch
-58bef537465f58228c961d29167fdf39ac6d54de Merge branch 'jc/trivial-threeway-binary-merge' into jch
-8717487f61f7ba2f5842f3400f7f48edff2357ad Merge branch 'tb/mingw-rmdir-symlink-to-directory' into jch
-c853c230187526dc80214661e224403265bdbc1d Merge branch 'cb/t7508-regexp-fix' into jch
-4cfefce954045923577e0b3bf31ff73e3923f29e Merge branch 'en/merge-strategy-docs' into jch
-6e7b8f66fb222de6019716148ed2bd027c0ee163 Merge branch 'js/log-protocol-version' into jch
-74aafa37dd7f4636b187255703579662e88121ad clone: Allow combining --bare and --origin
-ad57917693ca91c1d842f1ac48ba97aeed36fe37 Merge branch 'ow/clone-bare-origin' into jch
-c68a75a7eed0bae393a37f10eabe2d6549191dde Merge branch 'ar/submodule-add-config' into seen
-4e3a3872e80cb3845ce5fb2d590384deca1ee4df Merge branch 'es/trace2-log-parent-process-name' into seen
-80d1dc8d75b2d9660295e3f579f7219f88ed7ee5 Merge branch 'bc/inactive-submodules' into seen
-bb1a1f793f001d49ed0fc07035b5649dc41c20cc Merge branch 'lh/systemd-timers' into seen
-240a6451494325ae5d1318fe8ea059e43bcb95a6 Merge branch 'gh/gitweb-branch-sort' into seen
-123fc8f5ebe52769b5e29566312fc607f3049d67 Merge branch 'ao/p4-avoid-decoding' into seen
-11036b17fc2310cad0892b9ca1ee68292933ea4b Merge branch 'ab/test-tool-cache-cleanup' into seen
-0f689f5aba512a2bfd4605c5b6eb8d3cb8e690b5 Merge branch 'ab/pack-objects-stdin' into seen
-f570d521daae9a619a9a90c61ea1c8e737c75b43 Merge branch 'en/zdiff3' into seen
-ec4ddc26d5f214dccc218639dcdb1e564d847a68 Merge branch 'es/superproject-aware-submodules' into seen
-80e3a99001899470c9b68d7a30523fac9d244e91 Merge branch 'ab/serve-cleanup' into seen
-5c5624e39163bb5d44369bc3403142bd763ed9a8 Merge branch 'ab/config-based-hooks-base' into seen
-a39f1a0b6f71fad7056d2c07e9f761bffcd77d27 Merge branch 'ab/fsck-unexpected-type' into seen
-43b4338b25f9c66a540afa830dee6aecd34b9b56 Merge branch 'ab/make-tags-cleanup' into seen
-3e305dfb5b2f15f89ce76a7513ec11f0f11bd81e Merge branch 'dt/submodule-diff-fixes' into seen
-1adc4db2b7b60728ea63b3311975f8c9c6879c5c Merge branch 'tb/multi-pack-bitmaps' into seen
-4914e1a9c2025c5021556061b19a21c207eb0b9f Merge branch 'cf/fetch-set-upstream-while-detached' into seen
-1f3dceff872e4b74c1bf6b6a78ac0451c2f91a66 Merge branch 'jh/builtin-fsmonitor' into seen
-59f4053a7cebb2decb690e42dad69eed6960905c Merge branch 'ab/lib-subtest' into seen
-2dae0b2f58496fe667b592a86021689d2950b2c0 Merge branch 'en/ort-perf-batch-15' into seen
-2c5801745efdc6468dabc2c10df4431ff84b3139 Merge branch 'ab/only-single-progress-at-once' into seen
-cea53963f2d3ec2aacd75c0bc04cf1fb5f472eb7 Merge branch 'fs/ssh-signing' into seen
-7ee170c4e88d555cdcece12773f91cfa65125f10 Merge branch 'ab/test-columns' into seen
-9094bb6d38d546493f1d2bdc2e03a170e0b747ca ### CI Breakers
-3a7adf186c2f4f69b944b42a3dad4b5678426d75 Merge branch 'hn/reftable' into seen
-ddd54fe36b14398d767dc21dfa3ceec13f59ccc0 Merge branch 'cb/reftable-fixup' into seen
+456a9dace42ecfcec7ce6e17c18d1985d628dcd0 interconnect: Zero initial BW after sync-state
+73606ba9242f8e32023699b500b7922b4cf2993c interconnect: Always call pre_aggregate before aggregate
+24b5b1978cd5a80db58e2a19db2f9c36fe8d4f7a clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+953a92f0e55f370ec76e7f85e332906f1e898ef4 clk: hisilicon: hi3559a: select RESET_HISI
+4ee107c514139960682cc0f3623a24e86fda1a13 clk: qcom: smd-rpm: Fix MSM8936 RPM_SMD_PCNOC_A_CLK
+2bcc025ab9bbd029b1730cde71cb4e4f0ed35d0f clk: tegra: Implement disable_unused() of tegra_clk_sdmmc_mux_ops
+ce5a595744126be4f1327e29e3c5ae9aac6b38d5 interconnect: qcom: icc-rpmh: Ensure floor BW is enforced for all nodes
+f84f5b6f72e68bbaeb850b58ac167e4a3a47532a interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
+f828b0bcacef189edbd247e9f48864fc36bfbe33 clk: fix leak on devm_clk_bulk_get_all() unwind
+85b1ebfea2b0d8797266bcc6f04b6cc87e38290a interconnect: Fix undersized devress_alloc allocation
+0d5c3954b35eddff0da0436c31e8d721eceb7dc2 spi: mediatek: Fix fifo transfer
+232eee380e7604c2c88daec67e7409179b202f06 Merge tag 'fpga-fixes-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-linus
+e89afb51f97ae03ee246c1fd0b47e3e491266aef drm/vmwgfx: Fix a 64bit regression on svga3
+6b994c554ebc4c065427f510db333081cbd7228d ASoC: SOF: Intel: Kconfig: fix SoundWire dependencies
+973b393fdf073a4ebd8d82ef6edea99fedc74af9 ASoC: SOF: Intel: hda-ipc: fix reply size checking
+8861452b2097bb0b5d0081a1c137fb3870b0a31f soc: ixp4xx: fix printing resources
+a8eee86317f11e97990d755d4615c1c0db203d08 soc: ixp4xx/qmgr: fix invalid __iomem access
+e30e8d46cf605d216a799a28c77b8a41c328613a arm64: fix compat syscall return truncation
+64ee84c75b5f75132eec97f2c7a201a056d53698 arm64: move warning about toolchains to archprepare
+f9c4ff2ab9fe433d44ebbc2e3c2368a49df44798 arm64: fix the doc of RANDOMIZE_MODULE_REGION_FULL
+8d5903f457145e3fcd858578b065d667822d99ac arm64: stacktrace: fix comment
+0c32706dac1b0a72713184246952ab0f54327c21 arm64: stacktrace: avoid tracing arch_stack_walk()
+ce78ffa3ef1681065ba451cfd545da6126f5ca88 net: really fix the build...
+2e2f1e8d0450c561c0c936b4b67e8b5a95975fb7 KVM: x86: hyper-v: Check access to hypercall before reading XMM registers
+f5714bbb5b3120b33dfbf3d81ffc0b98ae4cd4c1 KVM: x86: Introduce trace_kvm_hv_hypercall_done()
+4e62aa96d6e55c1b2a4e841f1f8601eae81e81ae KVM: x86: hyper-v: Check if guest is allowed to use XMM registers for hypercall input
+2476b5a1b16ced78a80629da8ff87538d5c95073 KVM: selftests: Test access to XMM fast hypercalls
+ae954bbc451d267f7d60d7b49db811d5a68ebd7b sctp: move the active_key update after sh_keys is added
+f41e57af926ad840d114439d34cafc0533bf25f0 net: sparx5: fix bitmask on 32-bit targets
+a02215ce72a37a19a690803b23b091186ee4f7b2 libbpf, doc: Eliminate warnings in libbpf_naming_convention
+9c9c6d0ab08acfe41c9f7efa72c4ad3f133a266b drm/i915: Correct SFC_DONE register offset
+1354d830cb8f9be966cc07fc61368af27ffb7c4a drm/i915: Call i915_globals_exit() if pci_register_device() fails
+97367c97226aab8b298ada954ce12659ee3ad2a4 ALSA: seq: Fix racy deletion of subscriber
+c87a4c542b5a796f795fec2b7a909c7d3067b11c net: flow_offload: correct comments mismatch with code
+0161d151f3e36306219f5aa6f5f6b3877038afd3 net: sched: provide missing kdoc for tcf_pkt_info and tcf_ematch_ops
+9fdc5d85a8fe684cdf24dc31c6bc4a727decfe87 nfp: update ethtool reporting of pauseframe control
+4039146777a91e1576da2bf38e0d8a1061a1ae47 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
+6bfc5272904af6873aa6bc7cd5732552f9c6e955 Merge tag 'icc-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
+ecd92e2167c30faa18df21e3ec3dbec510ddebaa s390: update defconfigs
+785ee9834968bee3cdb4a7d33e5c51e32d508792 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+d5ad8ec3cfb56a017de6a784835666475b4be349 Merge tag 'media/v5.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+30615bd21b4cc3c3bb5ae8bd70e2a915cc5f75c7 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+8b353bbeae20e2214c9d9d88bcb2fda4ba145d83 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+abc7285d89ffd089739a1a3059ddd843dd019637 mptcp: drop unused rcu member in mptcp_pm_addr_entry
+e3ea110d6e796146920e1be0108464ebcf283ef7 VSOCK: handle VIRTIO_VSOCK_OP_CREDIT_REQUEST
+d1a58c013a5837451e3213e7a426d350fa524ead net: dsa: qca: ar9331: reorder MDIO write sequence
+742c28e7bb662bb7ad30037c7f7ea729e4be2b44 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+b75524c6efbff2cb5ecbc1d4d8f7e2b1f7a0fc76 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+f4435ea0be2f5e880b38b53eb704217e83dff114 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+331588e89f568310e3f1037a54b5fbc0387b3d2a Merge remote-tracking branch 'arc-current/for-curr'
+f8f88c1b7d6795aae0049ef7da83cdbf4ad1caa1 Merge remote-tracking branch 'arm64-fixes/for-next/fixes'
+8ae63acf56db40121593251e274550888d96e788 Merge remote-tracking branch 'arm-soc-fixes/arm/fixes'
+26f0fa9c79e899d14160b197f986b484d1bd663a Merge remote-tracking branch 's390-fixes/fixes'
+b80eeadd65be193336e0dc474587404d79331611 Merge remote-tracking branch 'net/master'
+e773fbb48ce5a6dcff8187c1a76d756f8c73a539 Merge remote-tracking branch 'bpf/master'
+14aeeac5b08556e938ffac10ae8baddcdaa9e1a4 Merge remote-tracking branch 'ipsec/master'
+34954c4f638d326df28f487b208593e38f98a826 Merge remote-tracking branch 'netfilter/master'
+acfb12024ac527a53bae17eb0f39584d9dc40326 Merge remote-tracking branch 'wireless-drivers/master'
+97d87dffb374494b21d892d8d5dc1d48c0264083 Merge remote-tracking branch 'sound-current/for-linus'
+cd65eec5af8f44ad549115b5893169d2a682f101 Merge remote-tracking branch 'sound-asoc-fixes/for-linus'
+0a8fc55405fd44205077fa7f0420f39d8ed96b4e Merge remote-tracking branch 'regulator-fixes/for-linus'
+d6edaae87226931bb4654db47c2d12a9619710bd Merge remote-tracking branch 'spi-fixes/for-linus'
+dd28e2be78a34250d0fadde5f325568868c61fcf Merge remote-tracking branch 'pci-current/for-linus'
+7bdcae3c83a600a99cc6ba6ec9c0844328be38d0 Merge remote-tracking branch 'driver-core.current/driver-core-linus'
+949a2905994fc09b212349ae13655681e0f108e7 Merge remote-tracking branch 'tty.current/tty-linus'
+d9a5253a7224ee8b0516d2ef743e22ac671ecebb Merge remote-tracking branch 'usb.current/usb-linus'
+2cba8e0b139d5d0c56539c1fc46023d500b24d1f Merge remote-tracking branch 'usb-serial-fixes/usb-linus'
+a427ea9f1db7300ac10003bcf705292ba445edc4 Merge remote-tracking branch 'staging.current/staging-linus'
+bf6101786964aff7b5def8c9383bfd65d2526876 Merge remote-tracking branch 'iio-fixes/fixes-togreg'
+6185aa1a4640a8d2d5e83376c24456c1fb53461d Merge remote-tracking branch 'char-misc.current/char-misc-linus'
+5b06cfcc6745193cbd5a330386c6da44bf5a4a1f Merge remote-tracking branch 'kselftest-fixes/fixes'
+7f13a2fb3c902b1240e67dcd1ea617adaa839ebe Merge remote-tracking branch 'dmaengine-fixes/fixes'
+a92748decb12c06bf3727e5d5b9193c6be9581c6 Merge remote-tracking branch 'mtd-fixes/mtd/fixes'
+7e75b60a9e5bea01cf94417ab4b288cc5f48abb6 Merge remote-tracking branch 'reset-fixes/reset/fixes'
+97abcc5035abe8d175db1e8d806059e0374673f5 Merge remote-tracking branch 'omap-fixes/fixes'
+c3d6e9ceb1842f704fe7e019d63118e147adebb0 Merge remote-tracking branch 'kvm-fixes/master'
+f86db21253c858274dedfc65f17f8c66463ada96 Merge remote-tracking branch 'hwmon-fixes/hwmon'
+b0ddfd432e97032dc6324c1d87f3a26e1e6f2648 Merge remote-tracking branch 'nvdimm-fixes/libnvdimm-fixes'
+af19ac6350d3368154fbc7a021b87f89261b6a6e Merge remote-tracking branch 'btrfs-fixes/next-fixes'
+566523cdff559657ba66406635ad8f76083dc6cd Merge remote-tracking branch 'vfs-fixes/fixes'
+3353812ef05e25bdf40e4c2270b1a6a80de4db13 Merge remote-tracking branch 'drivers-x86-fixes/fixes'
+7c1da731187b1b21d39b83dc2642daed173091f3 Merge remote-tracking branch 'scsi-fixes/fixes'
+2e55d84bd6aa0ec6956e9fb914f6ff64a024e4ab Merge remote-tracking branch 'drm-intel-fixes/for-linux-next-fixes'
+00bdff6ed87dda0ba2f95b9501e7e19a0bb4573b Merge remote-tracking branch 'rtc-fixes/rtc-fixes'
+ad1891804c46461f13f8fab8737f192a36e48b82 Merge remote-tracking branch 'pidfd-fixes/fixes'
+39d3d24a6bb140e7db096212e82d43539fcb9b7d Merge remote-tracking branch 'gpio-brgl-fixes/gpio/for-current'
+b828f2c9def4b4f5a95181d789384142b1e7955a Merge remote-tracking branch 'drm-misc-fixes/for-linux-next-fixes'
 
---===============3528118036515127013==--
+--===============6009888290155246426==--
