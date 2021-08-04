@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 04 Aug 2021 16:06:24 -0000
-Message-Id: <162809318405.3642.4972888698635366000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 04 Aug 2021 16:17:31 -0000
+Message-Id: <162809385171.10547.2873438195237840773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/for-next
-    old: 83f31535565c63ac4f62c7b8592210929a630d3d
-    new: db517c8f8556c369a886f2ece72c1aba84130c8c
+  - ref: refs/heads/v5.14-next/dts64
+    old: 278ef7fd4db45cf9cf7fb36bc9ce4e3ee1e80318
+    new: f27124b783b19a2035b50937efb4cf6ab3c94f86
     log: |
-         db517c8f8556c369a886f2ece72c1aba84130c8c bpf-next: fix bpf_prog_test_run_xdp logic after merge
+         411faba0c1b1fef3f4d6500b2efc00c839217507 arm64: dts: mt8183: kukui: Use aliases to mmc nodes
+         f27124b783b19a2035b50937efb4cf6ab3c94f86 arm64: dts: mt8173: elm: Use aliases to mmc nodes
          
