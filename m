@@ -1,56 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============8271664602772474830=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 04 Aug 2021 10:24:57 -0000
-Message-Id: <162807269739.4381.11272849378834525996@gitolite.kernel.org>
-
---===============8271664602772474830==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Wed, 04 Aug 2021 10:25:15 -0000
+Message-Id: <162807271558.9845.18287566622715850028@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 8e4034600b7953518fc426c1da8b73dc475f15f3
-    new: e16573ba1ea37c0926f8b3b6a075261d5a98d9b8
+  - ref: refs/heads/ixp4xx-net-arnd
+    old: b9ce474cc7758470da9d124fda8982ebe8d9fe5d
+    new: 3a5e743fe812ba5929ce714f23d2e45a92b5f7f2
     log: |
-         e16573ba1ea37c0926f8b3b6a075261d5a98d9b8 Notes added by 'git notes add'
+         75a4649137f893aad89d1d07d27056259f63548a ixp4xx_eth: Add devicetree bindings
+         2bb62033767a1fcc6d0d9e4c39d2783d1ee70a55 ixp4xx_eth: Probe the PTP module from the device tree
+         3a5e743fe812ba5929ce714f23d2e45a92b5f7f2 ARM: dts: Add PTP timesource to the IXP456x
          
-
---===============8271664602772474830==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628072696 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1628072695-5cf25ce27a7063be42110e12a301573fe074a281
-
-8e4034600b7953518fc426c1da8b73dc475f15f3 e16573ba1ea37c0926f8b3b6a075261d5a98d9b8 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEKavgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KOIQANdQQGir4hONgEUAcA/Q
-gpNlABeg+yf3ncTFX0wEkcEkdKWzxeOAypmRDEux7I6X0BIKh1j5qZc3FnIPyBsd
-FGfZv9TDSIAJZz301ts70hB+O3CnS/bd+tufQvpKFW1BaAtZXAMS29L7q29FwH01
-74sWhWetoYyt2dCGB46xZ49WV7Y3hokZITlbxiBeVYiA3loE47OTBxZ2h2rua9HO
-jXHsUg3TrMrODi2BTHt13xWjlsHW7cJ9smMdo4aM6wPp7/LI2rvE2/7aFMw3h5K+
-ut4rBxDJuil0Om9Fpn8YEf8Vb+xHJmVNMNnAjxjTfWMXPWRhei0cnmuOy5Hn/EUu
-O8GEpr4nvWNHT1CWMovT4x69/rScvM3LQbBuZAffk/KzPGbo338vr9VSF6UnbLvV
-WQyjxhhb4kyvxegEOIX64v+Ss217xkTENvGrQN2uZDHbVo/lQsFzOGhGaSqxDD1/
-kYXUynpBZkipksWpRC58nqvTAECyjJZIt3qsp9Tsy4oHl6J29SQKTpAXyueL/BKH
-zpWCWSqLxUTTypKS9f7O679UwPTluMCH4tjT14/vvbcQoH/oFiY9+OpVzQJV9pPu
-v1BMA/NmYMcBLfnqWP26rscoYmttnNMf3P/5uFmJ0AGz5hJo47yBpBk8638WORYx
-jpH3TX1bU77xa+VCME7/YR5p
-=PwXz
------END PGP SIGNATURE-----
-
---===============8271664602772474830==--
+  - ref: refs/heads/ux500-codina-v5.14-rc1
+    old: e30e8f084a36c9bd4ceab63745e8d2a4d9739aed
+    new: 677469a1178eaea3cd0f038cec9f8fd279def36b
+    log: |
+         159ecf117f66640ee4858d4e43f466118faf4c7c brcmfmac: firmware: Allow per-board firmware binaries
+         f4902753cd9bc8992be8c651dea4b89692ef1da3 brcmfmac: firmware: Fix firmware loading
+         677469a1178eaea3cd0f038cec9f8fd279def36b brcmfmac: firmware: Print helpful FW load info
+         
+  - ref: refs/heads/ux500-gavini-v5.14-rc1
+    old: 70fdf7c47e11bb3f603d36793fcb8d3e56e46e75
+    new: 9428e22a17145ed6c3d931b5f2dbe21467117018
+    log: |
+         9428e22a17145ed6c3d931b5f2dbe21467117018 brcmfmac: firmware: Fix firmware loading
+         
+  - ref: refs/heads/ixp4xx-drivers-arm-soc-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 47adef20e67d657696c953f4b8023017c6005c1b
