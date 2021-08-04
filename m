@@ -1,20 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Wed, 04 Aug 2021 04:20:41 -0000
-Message-Id: <162805084126.24159.9933787713686392463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Wed, 04 Aug 2021 04:23:53 -0000
+Message-Id: <162805103385.25314.671146849713876191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
+repo: pub/scm/fs/ext2/e2fsprogs
 user: tytso
 changes:
-  - ref: refs/heads/master
-    old: a512ad4bd1872c8789a0920a6b9bfe5c950cf99f
-    new: fa6410d922d38735a5f69345221f8eacb3ae1af5
+  - ref: refs/heads/maint
+    old: e20b37fac1fc357f0424a99414fcdb0a628bcff7
+    new: 838f94f263432dac6867ab4122167cd9f8562cea
     log: |
-         0df8581fef1b1dee5b216e2acea7a7133b0abb70 test-appliance: correct package name for LIBCOMERR when using buster-backports
-         fa6410d922d38735a5f69345221f8eacb3ae1af5 test-appliance: add support for ntfs and ntfs3 file systems
+         dfe01a11a499b2a87d7d64df46e4feaf86f7dcb0 quota: Do not account space used by project quota file to quota
+         abbc58381d0d9f4277659acbc24b0b87afffd066 e2image: Dump quota files
+         838f94f263432dac6867ab4122167cd9f8562cea mke2fs: fix a file descriptor leak when creating a file system image file
+         
+  - ref: refs/heads/master
+    old: e20b37fac1fc357f0424a99414fcdb0a628bcff7
+    new: 838f94f263432dac6867ab4122167cd9f8562cea
+    log: |
+         dfe01a11a499b2a87d7d64df46e4feaf86f7dcb0 quota: Do not account space used by project quota file to quota
+         abbc58381d0d9f4277659acbc24b0b87afffd066 e2image: Dump quota files
+         838f94f263432dac6867ab4122167cd9f8562cea mke2fs: fix a file descriptor leak when creating a file system image file
+         
+  - ref: refs/heads/next
+    old: e20b37fac1fc357f0424a99414fcdb0a628bcff7
+    new: 838f94f263432dac6867ab4122167cd9f8562cea
+    log: |
+         dfe01a11a499b2a87d7d64df46e4feaf86f7dcb0 quota: Do not account space used by project quota file to quota
+         abbc58381d0d9f4277659acbc24b0b87afffd066 e2image: Dump quota files
+         838f94f263432dac6867ab4122167cd9f8562cea mke2fs: fix a file descriptor leak when creating a file system image file
          
