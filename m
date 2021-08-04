@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 04 Aug 2021 14:51:53 -0000
-Message-Id: <162808871337.18591.18164805992740649729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 04 Aug 2021 14:52:55 -0000
+Message-Id: <162808877552.18997.5941681330080875091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/bluetooth/bluez
+user: janc
 changes:
   - ref: refs/heads/master
-    old: 67cbdd74c4cba378a715003923fc418a10349fae
-    new: e947802657cb6f540ba04f498dfd4938ed6c569e
+    old: 97c4d64f66ae04cd7fe552013ab833d59b3dd358
+    new: 1b5abf42bc0ca4a7619e3068ebec6a1b433d2a32
     log: |
-         0b10c8c84c0c78ba4456bdbeb8a5b6ee58f47e39 Bluetooth: btusb: Record debug log for Mediatek Chip.
-         e947802657cb6f540ba04f498dfd4938ed6c569e Bluetooth: btusb: Support Bluetooth Reset for Mediatek Chip(MT7921)
+         1b5abf42bc0ca4a7619e3068ebec6a1b433d2a32 monitor: Fix truncated server socket path parameter
          
