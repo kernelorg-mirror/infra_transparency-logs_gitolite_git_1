@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5237871615066821529=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 04 Aug 2021 10:48:52 -0000
-Message-Id: <162807413289.626.186510577167444920@gitolite.kernel.org>
-
---===============5237871615066821529==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 04 Aug 2021 10:50:06 -0000
+Message-Id: <162807420667.4182.13061692216423294669@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 5c6efbb3093f79dd759b2c7f2115150e19c14310
-    new: 1c527d29afe06d468e0773dafdcd5f7a78234b61
+  - ref: refs/heads/queue/4.14
+    old: b65ee9727d2fc8cc0bd0bf3bed008b1b444708a4
+    new: 6a60478d897debb1f27d2131bf48fc3df121a943
     log: |
-         1c527d29afe06d468e0773dafdcd5f7a78234b61 Notes added by 'git notes add'
+         6a60478d897debb1f27d2131bf48fc3df121a943 btrfs: mark compressed range uptodate only if all bio succeed
          
-
---===============5237871615066821529==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628074130 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1628074129-a99a4ad3abf7538c50415de9d2dda83bb3bec5c0
-
-5c6efbb3093f79dd759b2c7f2115150e19c14310 1c527d29afe06d468e0773dafdcd5f7a78234b61 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEKcJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/r0P/0z5mBM2MxjIV+HJDpqO
-7WMRCjd3vva8b/Oh8mpWfV6NjvjYUongtaDVEcOCXmHscT9RB6cNUr1PJChHNRP1
-G421bOCbC+dA6LkFbf2z1C5bbgJyplMKT5F2t4PCWNIEDx65GIBtDCnF6VQ69inc
-MXpma/R9zuLq/nTFn9ta7qLEVQ3Fyp7evQgGraUfrSYnSIFwABF34r1CptTFAf6L
-rlSNqlAK40Vv+Dtd1QqYt7nv3cZomffkGJfqrRHZNIi342qDevlwuMGFzty3hP5C
-fk/3s0t7i5/r7SwW4XPb7NHdGh4K3ZU6HLwdUPuPTIISVEM7sFuUMaC9SHtt/MUQ
-L3dkL9FT0EWDcKa2lUkG3diOHWCAetDGnqdw/kwYnR/jpOcx3nYZv75VicTepgfD
-0wb5/lSFGxzfhFh/lEdXR2fssUz+AYlXP5sKYlEo0uzcfTLsda395zsXNmsF+fNx
-GDSa/wazc7lGqpqZHzgKmRpYG4fkM4A7Af4NmAaaS/cFaPmHpvS2IP6tB+2f48tf
-T1YVVSDKosZBH3mq97ZKO4aAzYvgA7He668H61EVDrBj+MukpHHKicE2yDzplpkP
-w+8vm4oBuQHXA66y95sc8mWuc+eUe+hpFo8uGIU7tT6emjm75Ln2wST77wvot7wI
-UY9CTfdXkRecr/b53t+upw/X
-=cCOA
------END PGP SIGNATURE-----
-
---===============5237871615066821529==--
+  - ref: refs/heads/queue/4.19
+    old: e5c4b6fc4d5ed51b0a4cbd60de3966f444384dcf
+    new: 2ad4cadeb1c53f2ef4d279e1b50e8f872bfe5c62
+    log: |
+         2ad4cadeb1c53f2ef4d279e1b50e8f872bfe5c62 btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/4.4
+    old: 9f4e2917cfefb63b93ac773e012005f34235c9ef
+    new: c2c56a5ef830ca890503c0fd0b44844daebca06a
+    log: |
+         c2c56a5ef830ca890503c0fd0b44844daebca06a btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/4.9
+    old: 75e9790bba1aac0b55765e2e0d5df6405d021504
+    new: 02c9a01abf13fe3faf055f868ff577a857b765c1
+    log: |
+         02c9a01abf13fe3faf055f868ff577a857b765c1 btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/5.4
+    old: 28399c9006848ce82004e487da50c61bd1587e9e
+    new: 3321b6662276369c29d5357d7b8a016ff2a15185
+    log: |
+         0c08cefe98808f96da1ca31edc43ecb9d208f151 btrfs: delete duplicated words + other fixes in comments
+         16027fa087fbccea8b2d1a05d3a4bdafa2494255 btrfs: do not commit logs and transactions during link and rename operations
+         64f2eef8c6e12ecddb1ebd6ba5fdcecf64519222 btrfs: fix race causing unnecessary inode logging during link and rename
+         3321b6662276369c29d5357d7b8a016ff2a15185 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+         
