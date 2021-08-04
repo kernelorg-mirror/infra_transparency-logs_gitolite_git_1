@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 04 Aug 2021 04:02:12 -0000
-Message-Id: <162804973250.9997.10459527326489127473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 04 Aug 2021 04:16:18 -0000
+Message-Id: <162805057857.19674.15628053077952635653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: d66cd5dea551e974580a64bf80b337b9a09ce63e
-    new: f7d635883fb73414c7c4e2648b42adc296c5d40d
+  - ref: refs/heads/dev
+    old: 10eb05ec52330471bd9b624d6d2363826c120cb3
+    new: d449212f99f34d731ff564a7a48a34a878fc918c
     log: |
-         f7d635883fb73414c7c4e2648b42adc296c5d40d cpufreq: arm_scmi: Fix error path when allocation failed
+         3602476209597b1a727fc9a1a11f0f50c81e8b91 rcutorture: Suppressing read-exit testing is not an error
+         d449212f99f34d731ff564a7a48a34a878fc918c EXP cpu: Add ->thread_ack to multi_cpu_stop() debugging
          
