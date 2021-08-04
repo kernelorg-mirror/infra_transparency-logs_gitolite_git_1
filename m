@@ -1,56 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============4768747495718091476=="
+Content-Type: multipart/mixed; boundary="===============3505555547475944401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 04 Aug 2021 10:28:58 -0000
-Message-Id: <162807293803.30085.18331180157268187811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 04 Aug 2021 10:30:08 -0000
+Message-Id: <162807300833.30814.2207549904790644472@gitolite.kernel.org>
 
---===============4768747495718091476==
+--===============3505555547475944401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e16573ba1ea37c0926f8b3b6a075261d5a98d9b8
-    new: 6983de3c3d027764e66e0741ba5c4c461f4f6a12
+  - ref: refs/heads/queue/4.14
+    old: ef9363ae54c057a55282d4b937355aa31fe2c28f
+    new: 36aa26a752f8829b603d65002ab07c1c5a284ed6
     log: |
-         6983de3c3d027764e66e0741ba5c4c461f4f6a12 Notes added by 'git notes add'
+         36aa26a752f8829b603d65002ab07c1c5a284ed6 btrfs: mark compressed range uptodate only if all bio succeed
          
+  - ref: refs/heads/queue/4.19
+    old: a3a8d060434c38f8ed0ac6420a35dca0a6acf77f
+    new: 189c0cba9e7e9bb09336b01557ceeadf4650ea53
+    log: |
+         189c0cba9e7e9bb09336b01557ceeadf4650ea53 btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/4.4
+    old: 5a0d8bcc283216cd8b20829846f75fb70df490ab
+    new: 6496b29ac51dcf0ca9b6badb5a2be34f564f76cf
+    log: |
+         6496b29ac51dcf0ca9b6badb5a2be34f564f76cf btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/4.9
+    old: e36870e141bc1be1ae099f10a91b16e507b49929
+    new: 7e5ec1941e1cebbefad1a86b8446bea71411600f
+    log: |
+         7e5ec1941e1cebbefad1a86b8446bea71411600f btrfs: mark compressed range uptodate only if all bio succeed
+         
+  - ref: refs/heads/queue/5.10
+    old: 45123cb97b068ab022b9ec8ba9b2e544eaa48ac2
+    new: 11449c357228572c4a858c5c3e3bd574b603b130
+    log: |
+         8acc8eeebc2e6055277716c12deb4889861e98f7 drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+         8753bbdc973e80082e1650ac532bd7b02316684b Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+         4d98c543307af16e64c65d89d6f916886124d9ae btrfs: fix race causing unnecessary inode logging during link and rename
+         11449c357228572c4a858c5c3e3bd574b603b130 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+         
+  - ref: refs/heads/queue/5.13
+    old: fb9290fac42a2ff9c0e7acfda151585f4ffd4cde
+    new: 61a6baaf5f3e6280d91aeebc79c4fd60d0b4e78c
+    log: revlist-fb9290fac42a-61a6baaf5f3e.txt
 
---===============4768747495718091476==
+--===============3505555547475944401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fb9290fac42a-61a6baaf5f3e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628072936 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1628072935-c2c4becd53a796dbc26ec1d678559e65844e0b1f
+e0813a51f77cd7c805e4c44490a9a42859643474 drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+9776497edb868e6d6783b38fa29a02e0e1194f39 Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+10dc081b8b8493be2ba410b6d733f912a6c1e5c7 power: supply: ab8500: Call battery population once
+781dc9e3eceb20fe527cb2e14e4fd613d8444d71 skmsg: Increase sk->sk_drops when dropping packets
+6b6772359c51a661b48cf1cd497a7dff9efb75b3 skmsg: Pass source psock to sk_psock_skb_redirect()
+52196f64051e3edf1e4c0789443ddefcee102301 bpf, sockmap: On cleanup we additionally need to remove cached skb
+a112393d2c6c0954844d649fe4469f87e4fa03fd cifs: use helpers when parsing uid/gid mount options and validate them
+5e1ea3d8f0356fc613372a71d3aa3b37c5564ba6 cifs: add missing parsing of backupuid
+8ab593070724aa9a879765b77f4b3bf932c6d676 net: dsa: sja1105: parameterize the number of ports
+cfb315adeeb646f8406f8e9b9229c50605dbd9f9 net: dsa: sja1105: fix address learning getting disabled on the CPU port
+646fccdcb2d839ba6cc611e85f9b0f0ebe63ac8a ASoC: Intel: boards: handle hda-dsp-common as a module
+e68dcb0d4cf6826243235a54d70a3ca3f2c39ef1 ASoC: Intel: boards: create sof-maxim-common module
+61a6baaf5f3e6280d91aeebc79c4fd60d0b4e78c ASoC: Intel: boards: fix xrun issue on platform with max98373
 
-e16573ba1ea37c0926f8b3b6a075261d5a98d9b8 6983de3c3d027764e66e0741ba5c4c461f4f6a12 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEKa+gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6EAP/0HZhx0IH2RPtMnXQMSt
-s9a+UEHYAxtk7ar77Vfnfw4Tb6vfnD7iB7h4dckhkjQkQ4Wwyb2afnObnIHAcqEE
-/Xb9K+NYbWr8A7ZUmtNUEU3al7teouwj0RBgpl46h4urmlsg6Q5RbVwQRRwcQsnH
-vI5jA9QvNNbfEpNb15xy7nl60pcixaK6Ltq0BdUIxjl0d7BPTvVgEyyNhfi4oDOR
-UvZ4yyuTTi1/ROEb00/KcZc9K2Qu6qZKsvPTh4AY3Vh717JeKUgz+T+WS2xtFPRi
-TESCkI/FFvJEndpM0IWkYcYTwiwSTAKNVCdsSuUyyJOeMS4LHXpLRj75qXPJ12vm
-JYBppx2DrZg1Bd0gOwN5xJoOPqaW23TMyeZk7hSEUA1dOj0I161w1gfeFIGIA9qG
-ihavG1wrDOQ9UASt2jQyBp/KBVnkmYZWpumYiIbp+wMsMeKUiJBuQ2X9vIkofBxs
-J8IYtSpVU8sPn3Typ4x4vKOkDzvITrPsLESGGgQ6yFs5EmJb381j0eOF+a2qMH8E
-bp+LMj4sGbx6i/ZepUXc4NIDis7g1wX7WM+LnHvIwMYa26U8HeaWwO4f/epkKtJm
-/agtJ2Ga+DeI0a+kft5BlJR/IBYAne7kh5JmRLaAVGCfEJ093o9FHjk4hNj/toTF
-iSMvKuohVnL4gQDkEzA1N87/
-=ex+I
------END PGP SIGNATURE-----
-
---===============4768747495718091476==--
+--===============3505555547475944401==--
