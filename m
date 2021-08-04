@@ -1,48 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6499053508033323551=="
+Content-Type: multipart/mixed; boundary="===============6704049405535451941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 04 Aug 2021 22:50:04 -0000
-Message-Id: <162811740402.12217.10755190313117839266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 04 Aug 2021 22:59:15 -0000
+Message-Id: <162811795512.16781.1612182980165425631@gitolite.kernel.org>
 
---===============6499053508033323551==
+--===============6704049405535451941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: rpeterso
 changes:
-  - ref: refs/heads/block-5.14
-    old: 402e0b8cd00284a25c6eb8c0a43319bc8430b1c7
-    new: cc396d27d8d5884bbb555efd7783b9e9e2b41dc2
-    log: |
-         5ba03936c05584b6f6f79be5ebe7e5036c1dd252 md/raid10: properly indicate failure when ending a failed write request
-         cc396d27d8d5884bbb555efd7783b9e9e2b41dc2 Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.14
-         
-  - ref: refs/heads/master
-    old: d5ad8ec3cfb56a017de6a784835666475b4be349
-    new: 251a1524293d0a90c4d5060f65f42a3016280049
-    log: revlist-d5ad8ec3cfb5-251a1524293d.txt
+  - ref: refs/heads/for-next
+    old: a6579cbfd7216b071008db13360c322a6b21400b
+    new: 477448413342b9e152e154dd3923d095cb76ad06
+    log: revlist-a6579cbfd721-477448413342.txt
 
---===============6499053508033323551==
+--===============6704049405535451941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5ad8ec3cfb5-251a1524293d.txt
+Content-Disposition: attachment; filename=revlist-a6579cbfd721-477448413342.txt
 
-ec7099fdea8025988710ee6fecfd4e4210c29ab5 Revert "gpio: mpc8xxx: change the gpio interrupt flags."
-d712d3fb484b7fa8d1d57e9ca6f134bb9d8c18b1 scsi: pm80xx: Fix TMF task completion race condition
-77541f78eadfe9fdb018a7b8b69f0f2af2cf4b82 scsi: megaraid_mm: Fix end of loop tests for list_for_each_entry()
-bc546c0c9abb3bb2fb46866b3d1e6ade9695a5f6 scsi: scsi_dh_rdac: Avoid crash during rdac_bus_attach()
-70edd2e6f652f67d854981fd67f9ad0f1deaea92 scsi: core: Avoid printing an error if target_alloc() returns -ENXIO
-a264cf5e81c78e2b9918b8b9ef2ace9dde1850df scsi: ibmvfc: Fix command state accounting and stale response detection
-5c04243a56a7977185b00400e59ca7e108004faf scsi: sr: Return correct event when media event code is 3
-f0f82e2476f6adb9c7a0135cfab8091456990c99 scsi: core: Fix capacity set to zero after offlinining device
-9b87f43537acfa24b95c236beba0f45901356eb2 gpio: tqmx86: really make IRQ optional
-0c2e31d2bd432147f348f024e40779fa4d0dc2b9 Merge tag 'gpio-updates-for-v5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-251a1524293d0a90c4d5060f65f42a3016280049 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+9d9b16054b7d357afde69a027514c695092b0d22 gfs2: Fix glock recursion in freeze_go_xmote_bh
+cd837a6eb25738d7040c30c999c41f12fe149b70 gfs2: Eliminate go_xmote_bh in favor of go_lock
+2960eb0ba40f72ddfe1a80cef1c9f6ea1949f9db gfs2: be more verbose replaying invalid rgrp blocks
+d45253ed6a3de7c017b8781beff48c4757340834 gfs2: trivial clean up of gfs2_ail_error
+289343eb19a4d88b2501730c6ad103c2617924c3 gfs2: tiny cleanup in gfs2_log_reserve
+df93918f29644fd89f350d81e7ebd39177367be9 gfs2: init system threads before freeze lock
+b1732d4c309da430cbefcca59aa66afb3aaa2e56 gfs2: Don't release and reacquire local statfs bh
+3d1d0f62e990b5e120ab5d59df9d19565463c355 gfs2: Make recovery error more readable
+a9f6e38978b6ac82b7d1c97a59eb030544aa0c55 gfs2: Eliminate vestigial HIF_FIRST
+8cfbfa4cf8673ea2aaad04fa1659a5b95d182872 gfs2: nit: gfs2_drop_inode shouldn't return bool
+127d63c9d6d9743f4f7242e5fa63ca6273d9d5c4 gfs2: Mark journal inodes as "don't cache"
+841a837a57c38fb8cb7f691c0a445acf0ceca4f3 gfs2: don't stop reads while withdraw in progress
+42f60503328b46d8fdfac063f434f711c2f62d7a gfs2: Don't call dlm after protocol is unmounted
+68ac5f7674279b4da89a7b884373d5f7f575f6fe gfs2: Delay withdraw from atomic context
+477448413342b9e152e154dd3923d095cb76ad06 gfs2: Remove redundant check from gfs2_glock_dq
 
---===============6499053508033323551==--
+--===============6704049405535451941==--
