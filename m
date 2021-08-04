@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 04 Aug 2021 06:57:52 -0000
-Message-Id: <162806027228.30255.3434294512820451057@gitolite.kernel.org>
+Date: Wed, 04 Aug 2021 06:58:02 -0000
+Message-Id: <162806028209.30431.8759816986592538349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 031e3bd8986fffe31e1ddbf5264cccfe30c9abd7
-    new: 187a1cacaf3e5f03e37851117449355585b5014f
+  - ref: refs/heads/locking/core
+    old: cf3ee3c8c29dc349b2cf52e5e72e8cb805ff5e57
+    new: b86d48a2c204f100f004f19ad8e08a24e3b6a6cd
     log: |
-         d18ec465583359cd64975523b8a58828c913bd19 sched/numa: Fix is_core_idle()
-         b3608fec893be89223d01a084a001f03f2aeee15 sched: remove redundant on_rq status change
-         273e39f3bdf198ee8db22dbea193a6c98b3950a7 sched/deadline: Fix reset_on_fork reporting of DL tasks
-         187a1cacaf3e5f03e37851117449355585b5014f sched: Don't report SCHED_FLAG_SUGOV in sched_getattr()
+         1559464aaa6965a52f1bda8082c3196a26c75e33 locking/atomic: simplify non-atomic wrappers
+         b86d48a2c204f100f004f19ad8e08a24e3b6a6cd Documentation/atomic_t: Document forward progress expectations
          
