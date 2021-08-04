@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3801961492170027044=="
+Content-Type: multipart/mixed; boundary="===============2533919017173624274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Wed, 04 Aug 2021 19:14:43 -0000
-Message-Id: <162810448370.30244.15874177206644019411@gitolite.kernel.org>
+Date: Wed, 04 Aug 2021 19:14:46 -0000
+Message-Id: <162810448685.30363.4940422525629800776@gitolite.kernel.org>
 
---===============3801961492170027044==
+--===============2533919017173624274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 6efb943b8616ec53a5e444193dccf1af9ad627b5
-    new: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    log: revlist-6efb943b8616-e73f0f0ee754.txt
+  - ref: refs/heads/rproc-next
+    old: aef6a521e5bf61b3be4567f6c88776956a6d8b32
+    new: a0a77028c85ad1f6f36c3ceea21b30dc43721665
+    log: revlist-aef6a521e5bf-a0a77028c85a.txt
 
---===============3801961492170027044==
+--===============2533919017173624274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6efb943b8616-e73f0f0ee754.txt
+Content-Disposition: attachment; filename=revlist-aef6a521e5bf-a0a77028c85a.txt
 
-c79fa61c94f7a7aa7a185509fca1e1ae5c44ab23 Merge branch 'inet-sk_error-tracers'
-8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
-23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
-78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
-b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
-5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
 945beb7556334166900508fab7e4f50fcd233593 stmmac: intel: Enable PHY WOL option in EHL
 1dd53a61488d3fd916967fa334e95866637b0b2a stmmac: intel: set PCI_D3hot in suspend
 66f1546dfd7debe50fc056a84b97f2a56c2d769d Merge branch 'stmmac-phy-wol'
@@ -1050,5 +1044,11 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
+1fcef985c8bdd542c43da0d87bd9d51980c3859b remoteproc: qcom: wcnss: Fix race with iris probe
+c080128b6f05cb803d830e6bf2ec0b214435ce38 remoteproc: fix an typo in fw_elf_get_class code comments
+147b589c5f446d602215577835356a96c40a4044 remoteproc: fix kernel doc for struct rproc_ops
+3ad51c1743ebd23ec3b5ebc6195dafe867eaebb1 remoteproc: use freezable workqueue for crash notifications
+f35ef8e4ea0a2b2b35a2c7009fc07b6d80a2b2f3 dt-bindings: remoteproc: qcom: adsp: Add SDM660 ADSP
+a0a77028c85ad1f6f36c3ceea21b30dc43721665 remoteproc: q6v5_pas: Add sdm660 ADSP PIL compatible
 
---===============3801961492170027044==--
+--===============2533919017173624274==--
