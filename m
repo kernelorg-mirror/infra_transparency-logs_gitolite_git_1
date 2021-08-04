@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Aug 2021 11:51:28 -0000
-Message-Id: <162807788879.637.1752364633784179177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Aug 2021 11:53:01 -0000
+Message-Id: <162807798164.1339.2420625862260124818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 396492b4c5f249f616002bb5de787d060d2b2974
-    new: 6b67d4d63edece1033972214704c04f36c5be89a
+    old: 625af9f0298b72f5dd23460fa01bb77d6f942dcb
+    new: 773bda96492153e11d21eb63ac814669b51fc701
     log: |
-         6b67d4d63edece1033972214704c04f36c5be89a net: usb: lan78xx: don't modify phy_device state concurrently
+         04190bf8944deb7e3ac165a1a494db23aa0160a9 sock: allow reading and changing sk_userlocks with setsockopt
+         773bda96492153e11d21eb63ac814669b51fc701 ptp: ocp: Expose various resources on the timecard.
          
