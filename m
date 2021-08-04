@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Wed, 04 Aug 2021 09:08:19 -0000
-Message-Id: <162806809935.4177.14579153355153619677@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4270271872887179200=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Aug 2021 09:29:48 -0000
+Message-Id: <162806938897.18794.16048778687220783715@gitolite.kernel.org>
+
+--===============4270271872887179200==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 0f3f1a26fb53e9bca164ce504b13536ef116dffc
-    new: 587e74b74381a41711fd31ad1bbbb67c05d73843
-    log: |
-         be1438f387190dac6a1fd210eed7eb79df022159 efi: cper: fix snprintf() use in cper_dimm_err_location()
-         e42c59f046fe041e9a4b5ce761fc80d9341a5a57 vfio/pci: Fix error return code in vfio_ecap_init()
-         9598e0ee6e360615a585d8c24a64f293a6677dad ipvs: ignore IP_VS_SVC_F_HASHED flag when adding service
-         35a7a430216f9887e370b4081a7a9ba3b39d93e5 HID: pidff: fix error return code in hid_pidff_init()
-         23930e0ea0fb3a90bf52b8328a444bf4bbb63465 netfilter: nfnetlink_cthelper: hit EBUSY on updates if size mismatches
-         c2eefb3f472ff80de309cf9e94cee79b1baada7d ieee802154: fix error return code in ieee802154_add_iface()
-         e31d58bc40787cf9a59ac1757165aa0a43652691 ieee802154: fix error return code in ieee802154_llsec_getparams()
-         6e63e2862ad7ac1cef2ef28aa785493d2a67632f Bluetooth: fix the erroneous flush_work() order
-         08072bcadb39642d11ae61c98725f8e542eb9b8e Bluetooth: use correct lock to prevent UAF of hdev object
-         587e74b74381a41711fd31ad1bbbb67c05d73843 net: caif: added cfserl_release function
-         
+  - ref: refs/heads/master
+    old: 8679c31e0284aa3aaba038035e443180b5bacb99
+    new: 8eceea41347eb3a5ec8e23c4a303e95be8b85383
+    log: revlist-8679c31e0284-8eceea41347e.txt
+
+--===============4270271872887179200==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8679c31e0284-8eceea41347e.txt
+
+271e5b7d00aeff7c61fb6c5415d14dbedb783b68 net: add netif_set_real_num_queues() for device reconfig
+e874f4557b365fc07f960c0e5a224f9ecaedd838 nfp: use netif_set_real_num_queues()
+8730379ee067ccbd2ea24eb02ea623d688e9707b Merge branch 'queues'
+aa730a9905b7b079ef2fffdab7f15dbb842f5c7c net: wwan: Add MHI MBIM network driver
+7ffa7542eca6fa910edbecf13899cb74a699f37e net: mhi: Remove MBIM protocol
+93bbcfee0575e5f6526a5bbf213b205eeae60c59 Merge branch 'mhi-mbim'
+decfef0fa6b21508657a6e54a01508196988bc95 net: ipa: use gsi->version for channel suspend/resume
+4a4ba483e4a56cb469f067493265f0173e06d060 net: ipa: move version check for channel suspend/resume
+a7860a5f898c9f5850ff9d72e6ee473791e5a6cf net: ipa: move some GSI setup functions
+1657d8a45823429aabee0a3282b2d249abbd3831 net: ipa: have gsi_irq_setup() return an error code
+b176f95b5728e355ea6b61725cf240a575621e51 net: ipa: move gsi_irq_init() code into setup
+45a42a3c50b583e78d96038e834909de627f87f1 net: ipa: disable GSI interrupts while suspended
+8eceea41347eb3a5ec8e23c4a303e95be8b85383 Merge branch 'ipa-pm-irqs'
+
+--===============4270271872887179200==--
