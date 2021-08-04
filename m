@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4792720270917825765=="
+Content-Type: multipart/mixed; boundary="===============2810442116186963789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Wed, 04 Aug 2021 15:55:55 -0000
-Message-Id: <162809255583.29101.14072407628370475082@gitolite.kernel.org>
+Date: Wed, 04 Aug 2021 15:57:03 -0000
+Message-Id: <162809262397.29558.8650946382501531080@gitolite.kernel.org>
 
---===============4792720270917825765==
+--===============2810442116186963789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: ff1176468d368232b684f75e82563369208bc371
-    new: d5ad8ec3cfb56a017de6a784835666475b4be349
-    log: revlist-ff1176468d36-d5ad8ec3cfb5.txt
+  - ref: refs/heads/nvdimm-meta
+    old: e9d63ebcb289612237d5a62fa9876114798555eb
+    new: a12f8ec824edd1317f14882c7d0aee5e5c941edd
+    log: revlist-e9d63ebcb289-a12f8ec824ed.txt
 
---===============4792720270917825765==
+--===============2810442116186963789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1176468d36-d5ad8ec3cfb5.txt
+Content-Disposition: attachment; filename=revlist-e9d63ebcb289-a12f8ec824ed.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
@@ -312,5 +312,17 @@ d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
 785ee9834968bee3cdb4a7d33e5c51e32d508792 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 d5ad8ec3cfb56a017de6a784835666475b4be349 Merge tag 'media/v5.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+09a31ec7a0f484b137058fd3350875e120f8835b bcache: add initial data structures for nvm pages
+da05534f417ed026a9683528f1616b8412046f30 bcache: initialize the nvm pages allocator
+0d07ce7a8c13630bf25984af28168edad77b8799 bcache: initialization of the buddy
+f92e225ad7ec4b16df737845e13cbf5f42bb34ce bcache: bch_nvmpg_alloc_pages() of the buddy
+47ac4e5709c5b3fc3b1be867f5a5a04f24a3ed96 bcache: bch_nvmpg_free_pages() of the buddy allocator
+e3b5f363fb1c0c8c33749e143cfa07bfd10dd3fc bcache: get recs list head for allocated pages by specific uuid
+4524e10f37eb950d0ab33bf13c8224337ad66341 bcache: use bucket index to set GC_MARK_METADATA for journal buckets in bch_btree_gc_finish()
+7d6f2a61448ec39ccb562138744bbd4b25a55f3d bcache: add BCH_FEATURE_INCOMPAT_NVDIMM_META into incompat feature set
+b69347828345aa3c4b263fae58f985553f4aa9e0 bcache: initialize bcache journal for NVDIMM meta device
+20568d93942264b194f3e90b3c5ef213755d8306 bcache: support storing bcache journal into NVDIMM meta device
+5f408d113974d2bb3eb1b237d549724f7509ab23 bcache: read jset from NVDIMM pages for journal replay
+a12f8ec824edd1317f14882c7d0aee5e5c941edd bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
 
---===============4792720270917825765==--
+--===============2810442116186963789==--
