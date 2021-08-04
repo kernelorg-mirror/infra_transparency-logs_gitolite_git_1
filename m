@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 04 Aug 2021 14:37:50 -0000
-Message-Id: <162808787093.8525.9915931385505144658@gitolite.kernel.org>
+Date: Wed, 04 Aug 2021 14:51:53 -0000
+Message-Id: <162808871337.18591.18164805992740649729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 654e6f7700c46017af309aab594f0afdebc30740
-    new: 67cbdd74c4cba378a715003923fc418a10349fae
+    old: 67cbdd74c4cba378a715003923fc418a10349fae
+    new: e947802657cb6f540ba04f498dfd4938ed6c569e
     log: |
-         102793136ce9dacae77c2d1f8dd6878b480f4b95 Bluetooth: HCI: Add proper tracking for enable status of adv instances
-         c45074d68a9b1e893d86520af71fab37693c3d7e Bluetooth: Fix not generating RPA when required
-         67cbdd74c4cba378a715003923fc418a10349fae Bluetooth: hci_bcm: Fix kernel doc comments
+         0b10c8c84c0c78ba4456bdbeb8a5b6ee58f47e39 Bluetooth: btusb: Record debug log for Mediatek Chip.
+         e947802657cb6f540ba04f498dfd4938ed6c569e Bluetooth: btusb: Support Bluetooth Reset for Mediatek Chip(MT7921)
          
