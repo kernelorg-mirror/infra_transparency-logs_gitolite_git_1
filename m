@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 04 Aug 2021 14:14:39 -0000
-Message-Id: <162808647917.24848.14352534772492590765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 04 Aug 2021 14:18:21 -0000
+Message-Id: <162808670149.27698.361344872901311381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/heads/review-andy
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 7d354dade4e35cd15dabc42d996d7e6926191014
+    old: 40bb0e3e270a33b03a39cdd77bf03fc18dfe2fab
+    new: 636ed9742a296900e3aecf3a3dafb5a886a75e19
     log: |
-         7d354dade4e35cd15dabc42d996d7e6926191014 pinctrl: tigerlake: Fix GPIO mapping for newer version of software
+         636ed9742a296900e3aecf3a3dafb5a886a75e19 gpiolib: Deduplicate forward declaration in the consumer.h header
          
