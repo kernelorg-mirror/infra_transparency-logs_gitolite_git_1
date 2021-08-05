@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 05 Aug 2021 17:50:02 -0000
-Message-Id: <162818580297.14962.12387897886899463833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 05 Aug 2021 17:53:05 -0000
+Message-Id: <162818598501.17195.14308801927232545652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/block-5.14
-    old: cc396d27d8d5884bbb555efd7783b9e9e2b41dc2
-    new: 2e9fb2c11e0ec3113fcf0e8e052c99ecd82fcd4e
+  - ref: refs/heads/dev
+    old: 78381301f8e6b3121ad7d9793b9096de90c9d77c
+    new: 7153ac6d3f6636304c2011ff1eb6fc9acad47481
     log: |
-         8d75d0eff6887bcac7225e12b9c75595e523d92d blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
-         2e9fb2c11e0ec3113fcf0e8e052c99ecd82fcd4e block/partitions/ldm.c: Fix a kernel-doc warning
+         7153ac6d3f6636304c2011ff1eb6fc9acad47481 torture: Make kvm-remote.sh print size of downloaded tarball
          
