@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6774285879518529543=="
+Content-Type: multipart/mixed; boundary="===============2965007654360180307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 05 Aug 2021 15:58:19 -0000
-Message-Id: <162817909917.5377.6294436439456999934@gitolite.kernel.org>
+Date: Thu, 05 Aug 2021 15:58:21 -0000
+Message-Id: <162817910154.5458.14128354704522404965@gitolite.kernel.org>
 
---===============6774285879518529543==
+--===============2965007654360180307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.15
-    old: 4f365c75a342c82b431e361631c5004779ebcd2a
-    new: 97ec669dfcfa22f8a595356ceb6ce46e7b4a82e9
-    log: revlist-4f365c75a342-97ec669dfcfa.txt
-  - ref: refs/heads/drivers-for-5.15
-    old: 18785c94ab6357338cf4aa872aabacbcc7178e83
-    new: e3d4571955050736bbf3eda0a9538a09d9fcfce8
-    log: |
-         6feba6a62c577e98bd9214b73c17860166ac8b91 PM: AVS: qcom-cpr: Use nvmem_cell_read_variable_le_u32()
-         cb531cab62a19e97d8de0a2c9935daed93ec3736 soc: qcom: geni: move GENI_IF_DISABLE_RO to common header
-         0fa8266294754978da34d7ea785d621f51d939f2 soc: qcom: geni: Add support for gpi dma
-         593cb55b4cdd18a2946efd67c29ec4c6081dea8f soc: qcom: smd-rpm: Add SM6115 compatible
-         a95fc720844154acc79064c222335165fe7cb136 dt-bindings: qcom: geni-se: document iommus
-         ad68c620b7b296aab9cbe61802e329c04fde8385 soc: qcom: mdt_loader: be more informative on errors
-         c73a6852b42c8c80cc46590dbbcfa6c448fdbc63 soc: qcom: smsm: Implement support for get_irqchip_state
-         e3d4571955050736bbf3eda0a9538a09d9fcfce8 soc: qcom: smsm: Fix missed interrupts if state changes while masked
-         
-  - ref: refs/heads/dts-for-5.15
-    old: 537fd19738eb4d32ed15dda12ecf256422fcf44a
-    new: f95c4c56d65225a537a2d88735fde7ec4d37641d
-    log: |
-         b05f82b152c905425586f07fb2575011f67a5053 ARM: dts: qcom: msm8974: Add blsp2_uart7 for bluetooth on sirius
-         8822c0d49c730f47ebbdcf481afd55b05f6af8d4 ARM: dts: qcom: msm8974: castor: Add Bluetooth-related nodes
-         4cae3413c5f497acbf5b03572e693eabbadb70d9 ARM: dts: qcom: Fix up APQ8060 DragonBoard license
-         f95c4c56d65225a537a2d88735fde7ec4d37641d ARM: dts: qcom: add ahb reset to ipq806x-gmac
-         
-  - ref: refs/heads/arm64-defconfig-for-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 20d7a9fb00ebc53e73d49df0048afb02ef92a635
+  - ref: refs/heads/for-next
+    old: 3f8b3dfa5522b8aa4c12c717a590bb52207cefe0
+    new: 57249830120b710b62c0ec21cb33be995cadbda4
+    log: revlist-3f8b3dfa5522-57249830120b.txt
 
---===============6774285879518529543==
+--===============2965007654360180307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f365c75a342-97ec669dfcfa.txt
+Content-Disposition: attachment; filename=revlist-3f8b3dfa5522-57249830120b.txt
 
+6feba6a62c577e98bd9214b73c17860166ac8b91 PM: AVS: qcom-cpr: Use nvmem_cell_read_variable_le_u32()
 db718417e87f1eb4562d8bc8b02fb108e80d63a1 arm64: dts: qcom: Add PMI8996 DTSI file
 a569b10bf74ff9d62d3deb98890ff4a4b75eb81a arm64: dts: qcom: Add MSM8996v3.0 DTSI file
 08972f34a264a80c5113706fccc1984f87dd2dbf arm64: dts: qcom: msm8996-*: Disable HDMI by default
 9da65e441d4d7a492ce139e4938ac75fa70f449d arm64: dts: qcom: Add support for SONY Xperia X Performance / XZ / XZs (msm8996, Tone platform)
+cb531cab62a19e97d8de0a2c9935daed93ec3736 soc: qcom: geni: move GENI_IF_DISABLE_RO to common header
+0fa8266294754978da34d7ea785d621f51d939f2 soc: qcom: geni: Add support for gpi dma
+20d7a9fb00ebc53e73d49df0048afb02ef92a635 arm64: defconfig: Enable Qualcomm MSM8996 CPU clock driver
 b9650a9e9c576ebe6276581fe325e54fc57c717a arm64: dts: qcom: sm8150-mtp: Add 8150 compatible string
 ce3b50cf621c018a8bcbc7720e154926fc736c67 arm64: dts: qcom: sm8150: Fix incorrect cpu opp table entry
 26e02c98a9ad63eb21b9be4ac92002f555130d3b arm64: dts: qcom: sdm630: Rewrite memory map
@@ -98,7 +77,16 @@ e634d8196f7da05b81a4574e1572ef559f1ba85f arm64: dts: qcom: sdm630-nile: Enable u
 712e245fcbfd92f385ea5bc12af399d97953a298 arm64: dts: qcom: sdm630: Add DMA to I2C hosts
 2e01e0c2145998ad0b2dfa4a990cc55436194099 arm64: dts: qcom: sdm850-yoga: Enable IPA
 59983a5c918ed5aad51d866d320c4beb3b952a08 arm64: dts: qcom: sm8250: Add DMA to I2C/SPI
+593cb55b4cdd18a2946efd67c29ec4c6081dea8f soc: qcom: smd-rpm: Add SM6115 compatible
+a95fc720844154acc79064c222335165fe7cb136 dt-bindings: qcom: geni-se: document iommus
+ad68c620b7b296aab9cbe61802e329c04fde8385 soc: qcom: mdt_loader: be more informative on errors
+c73a6852b42c8c80cc46590dbbcfa6c448fdbc63 soc: qcom: smsm: Implement support for get_irqchip_state
+e3d4571955050736bbf3eda0a9538a09d9fcfce8 soc: qcom: smsm: Fix missed interrupts if state changes while masked
 cff4bbaf2a2dee244f852a1c888b281064a9296c arm64: dts: qcom: Add support for SM6125
+b05f82b152c905425586f07fb2575011f67a5053 ARM: dts: qcom: msm8974: Add blsp2_uart7 for bluetooth on sirius
+8822c0d49c730f47ebbdcf481afd55b05f6af8d4 ARM: dts: qcom: msm8974: castor: Add Bluetooth-related nodes
+4cae3413c5f497acbf5b03572e693eabbadb70d9 ARM: dts: qcom: Fix up APQ8060 DragonBoard license
+f95c4c56d65225a537a2d88735fde7ec4d37641d ARM: dts: qcom: add ahb reset to ipq806x-gmac
 82e1783890b773e30705be70db5896ebc67b4f22 arm64: dts: qcom: sm6125: Add support for Sony Xperia 10II
 184adb500f72d8a65e3cb05d28a0a7de9561734b arm64: dts: qcom: msm8996: don't use empty memory node
 d53dc79f9b5699873423b7912d835be4594b3577 arm64: dts: qcom: msm8998: don't use empty memory node
@@ -146,5 +134,10 @@ b547b216228fde064e196838f695c2b0d6c110ae arm64: dts: qcom: sc7180: assign DSI cl
 3289022b32985871cdb5e82d3473eafac6033869 arm64: dts: qcom: sdm845: assign DSI clock source parents
 77246d45d28f32fee3f92421aaca0e24c97ce6d1 arm64: dts: qcom: sdm845-mtp: assign DSI clock source parents
 97ec669dfcfa22f8a595356ceb6ce46e7b4a82e9 arm64: dts: qcom: sm8250: assign DSI clock source parents
+0e5ded926f2a0f8b57dfa7f0d69a30767e1ea2ce arm64: dts: qcom: msm8994-angler: Disable cont_splash_mem
+d77c95bf9a64d8620662151b2b10efd8221f4bcc arm64: dts: qcom: sdm845-oneplus: fix reserved-mem
+b79470da835c97ac13b912f6881e260b7b81af64 Merge branch 'arm64-fixes-for-5.14' into for-next
+df9ff3051a001f39cece49d91652968d1d0b7717 Merge branches 'arm64-defconfig-for-5.15', 'arm64-for-5.15', 'drivers-for-5.15' and 'dts-for-5.15' into for-next
+57249830120b710b62c0ec21cb33be995cadbda4 Merge remote-tracking branch 'refs/remotes/origin/for-next' into for-next
 
---===============6774285879518529543==--
+--===============2965007654360180307==--
