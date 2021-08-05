@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Thu, 05 Aug 2021 03:57:45 -0000
-Message-Id: <162813586500.23627.4499456937216866025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 05 Aug 2021 04:13:28 -0000
+Message-Id: <162813680810.613.15948286002544319085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-next
-    old: a55db824dd51d52f68811f8f82bcf0bbada69abf
-    new: 5d5b74aa9c766f0dd37d5cc1a2a7a94586130501
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: f7d635883fb73414c7c4e2648b42adc296c5d40d
+    new: 5d79e5ce5489b489cbc4c327305be9dfca0fc9ce
     log: |
-         62dd1fc8cc6b22e3e568be46ebdb817e66f5d6a5 fuse: move fget() to fuse_get_tree()
-         5d5b74aa9c766f0dd37d5cc1a2a7a94586130501 fuse: allow sharing existing sb
+         5d79e5ce5489b489cbc4c327305be9dfca0fc9ce cpufreq: blocklist Qualcomm sm8150 in cpufreq-dt-platdev
          
