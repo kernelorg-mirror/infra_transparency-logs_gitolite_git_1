@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Thu, 05 Aug 2021 11:58:43 -0000
-Message-Id: <162816472386.2625.8182054737190614182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 05 Aug 2021 12:06:27 -0000
+Message-Id: <162816518711.8049.8940186665504727262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 87663c39f898b18905499126548da61450628682
-    new: 9344988d2979ce9eefe136a69efcf692615ebba8
+  - ref: refs/heads/for-pkvm/mmio-guard
+    old: 1d6647a156d6d4c26c31e53e232a6ef48cd79c9d
+    new: b49f6b74eecf077a33563df166a915cfa2e15e40
     log: |
-         ff1199db8c3b7cdc3ac4430badfd254023c5142e netfilter: ctnetlink: add and use a helper for mark parsing
-         9344988d2979ce9eefe136a69efcf692615ebba8 netfilter: ctnetlink: allow to filter dump by status bits
+         0da83709530436c8001e2c7ff802ba486ae7bf8d KVM: arm64: more traces for MMIO guard
+         b49f6b74eecf077a33563df166a915cfa2e15e40 KVM: arm64: Add dummy hypercalls for memory sharing
          
