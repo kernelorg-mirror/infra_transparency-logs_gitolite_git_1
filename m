@@ -1,47 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============8299957459050267231=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 05 Aug 2021 21:04:52 -0000
-Message-Id: <162819749222.18402.1930873179209337811@gitolite.kernel.org>
-
---===============8299957459050267231==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 05 Aug 2021 21:06:16 -0000
+Message-Id: <162819757685.20272.14890410917931620702@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: a56e653c0e903fcadda08c334e2b11f116cb568f
-    new: 13ef700517624b968ad4ed59d0444dee7f2d408b
-    log: revlist-a56e653c0e90-13ef70051762.txt
-
---===============8299957459050267231==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a56e653c0e90-13ef70051762.txt
-
-96cd2dd65bb0b94c908f2df32bba7350fc1b954e net/mlx5: Add DCS caps & fields support
-616d5769345528b989294a242a5906b157a92837 IB/mlx5: Rename is_apu_thread_cq function to is_apu_cq
-97a8a8c1f985baf13a3d0d252b787850330d2ea7 net/mlx5: Return mdev from eswitch
-af8c0e25f249abf8829f0cfa074b08d7398e3e38 net/mlx5: Lag, add initial logic for shared FDB
-6aeb16a1345e480bd395b9168570e93c902a05f3 RDMA/mlx5: Fill port info based on the relevant eswitch
-979bf468fc543444eb750c8f8817407f509bd504 {net, RDMA}/mlx5: Extend send to vport rules
-c446d9da64075b1c8b55df9acaae72c7686c59a5 RDMA/mlx5: Add shared FDB support
-d04442540372b1c0ae0e13eaca5851cb0a4464af net/mlx5: E-Switch, set flow source for send to uplink rule
-5d5defd6b8915d031af5b71bf463991d14644f89 net/mlx5e: Add an option to create a shared mapping
-2198b93279b2fa36bfc51c621d14f93244fb4965 net/mlx5e: Use shared mappings for restoring from metadata
-c8e6a9e6d6bb29db08e0b69ae97f1e46ccc5691c net/mlx5: E-Switch, Add event callback for representors
-898b07861565e7276de6f179a196b062a2c72f8d net/mlx5: Add send to vport rules on paired device
-cac1eb2cf2e338260c5e2ffb098dfa0508ee40aa net/mlx5: Lag, properly lock eswitch if needed
-63d4a9afbcee4167ffb0d126b23b8884b15e5837 net/mlx5: Lag, move lag destruction to a workqueue
-db202995f5035f13a11df48a0af05edbb3720659 net/mlx5: E-Switch, add logic to enable shared FDB
-598fe77df855feeeca9dfda2ffe622ac7724e5c3 net/mlx5: Lag, Create shared FDB when in switchdev mode
-13ef700517624b968ad4ed59d0444dee7f2d408b Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
-
---===============8299957459050267231==--
+  - ref: refs/heads/master
+    old: b8803e535be6c73e80d284471c3caae8a2e78bef
+    new: 7b15db5f1e255042b4b9ff44d300fc0242b8eea2
+    log: |
+         a28491700e5a5bcfe6aa972303e52910ad75f9f4 certs: Trigger creation of RSA module signing key if it's not an RSA key
+         7b15db5f1e255042b4b9ff44d300fc0242b8eea2 certs: Add support for using elliptic curve keys for signing modules
+         
