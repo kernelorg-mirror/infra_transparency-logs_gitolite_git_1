@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1393097654402599844=="
+Content-Type: multipart/mixed; boundary="===============0319670761235215907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 05 Aug 2021 11:46:24 -0000
-Message-Id: <162816398424.26737.18252110353752165285@gitolite.kernel.org>
+Date: Thu, 05 Aug 2021 11:57:02 -0000
+Message-Id: <162816462223.2007.10407047128439734861@gitolite.kernel.org>
 
---===============1393097654402599844==
+--===============0319670761235215907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: ff1176468d368232b684f75e82563369208bc371
-    new: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
-    log: revlist-ff1176468d36-c500bee1c5b2.txt
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+    new: 14ccc638b02f9ec500c17d9e39efe979145a4b61
+    log: revlist-ff1176468d36-14ccc638b02f.txt
 
---===============1393097654402599844==
+--===============0319670761235215907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1176468d36-c500bee1c5b2.txt
+Content-Disposition: attachment; filename=revlist-ff1176468d36-14ccc638b02f.txt
 
 ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
 0c23af52ccd1605926480b5dfd1dd857ef604611 RDMA/bnxt_re: Fix stats counters
@@ -307,5 +301,9 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
+fa953adfad7cf9c7e30d9ea0e4ccfd38cfb5495d x86/tools/relocs: Fix non-POSIX regexp
+28bbbb9875a35975904e46f9b06fa689d051b290 mips: Fix non-POSIX regexp
+54eacba0e3bbda9777788b44b45a5186918569f2 scripts: checkversion: modernize linux/version.h search strings
+14ccc638b02f9ec500c17d9e39efe979145a4b61 kbuild: cancel sub_make_done for the install target to fix DKMS
 
---===============1393097654402599844==--
+--===============0319670761235215907==--
