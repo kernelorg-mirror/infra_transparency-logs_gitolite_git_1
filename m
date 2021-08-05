@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 05 Aug 2021 16:51:54 -0000
-Message-Id: <162818231418.9151.13662724107468281995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Thu, 05 Aug 2021 16:57:53 -0000
+Message-Id: <162818267302.12575.10362264819973711320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/for-pkvm/mmio-guard-merge
-    old: 24242c4cb8c0a25f5c4c2f90a98cb29658ac34d7
-    new: d5c09a9274265de003c0edc4294152efa78085b5
-    log: |
-         b933290e330991018f62a2abfdaba2b89b919349 ANDROID: usb: host: fix slab-out-of-bounds in xhci_vendor_get_ops
-         d5c09a9274265de003c0edc4294152efa78085b5 fixup! mm/ioremap: Add arch-specific callbacks on ioremap/iounmap calls
-         
+  - ref: refs/heads/for-v5.14
+    old: 0000000000000000000000000000000000000000
+    new: 345daff2e994ee844d6a609c37f085695fbb4c4d
