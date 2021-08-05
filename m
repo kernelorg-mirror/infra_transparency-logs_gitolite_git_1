@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 05 Aug 2021 15:51:23 -0000
-Message-Id: <162817868303.1655.15543845281728538341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 05 Aug 2021 15:58:16 -0000
+Message-Id: <162817909624.5301.3426099258244168168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 317e345a6aff01711c7909d0189470358575edc8
-    new: aa7845ca98d3b5d1116f8d495c7f629298c9e90a
+  - ref: refs/heads/arm64-fixes-for-5.14
+    old: 4cbb02fa76de4bbada0af9409fcce3aa747880ea
+    new: d77c95bf9a64d8620662151b2b10efd8221f4bcc
     log: |
-         aa7845ca98d3b5d1116f8d495c7f629298c9e90a netdev: update frequency on channel switch events
+         0e5ded926f2a0f8b57dfa7f0d69a30767e1ea2ce arm64: dts: qcom: msm8994-angler: Disable cont_splash_mem
+         d77c95bf9a64d8620662151b2b10efd8221f4bcc arm64: dts: qcom: sdm845-oneplus: fix reserved-mem
          
