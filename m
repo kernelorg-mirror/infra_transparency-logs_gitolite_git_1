@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 05 Aug 2021 22:53:36 -0000
-Message-Id: <162820401602.25961.9768377697945212141@gitolite.kernel.org>
+Date: Thu, 05 Aug 2021 22:55:29 -0000
+Message-Id: <162820412941.28081.10285537097257886573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: ec15a979340c9a9993f384f2f5062d93170a6ea0
-    new: 989aa32c7692336c07df9c1e2ead5ef077db93aa
+    old: 989aa32c7692336c07df9c1e2ead5ef077db93aa
+    new: 082b952ba5f2ba4f7c8ec6a06a2d18ab3c7e4683
     log: |
-         989aa32c7692336c07df9c1e2ead5ef077db93aa selftests/sgx: Postpone the test enclave creation
+         082b952ba5f2ba4f7c8ec6a06a2d18ab3c7e4683 selftests/sgx: Postpone the test enclave creation
          
