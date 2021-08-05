@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7878152840720922276=="
+Content-Type: multipart/mixed; boundary="===============1978259995590162544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 05 Aug 2021 11:45:10 -0000
-Message-Id: <162816391067.26153.5053520279892426211@gitolite.kernel.org>
+Date: Thu, 05 Aug 2021 11:45:25 -0000
+Message-Id: <162816392594.26316.2237789974593888424@gitolite.kernel.org>
 
---===============7878152840720922276==
+--===============1978259995590162544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 5656d9931be6a31cfe6db5bd78be038601d42230
+  - ref: refs/heads/master
+    old: 2468bb45f20ce6bc176577f116ff6b98f558ca9c
     new: ca917f0efc9fa1f2b43fdc6c989e27c9bd15187b
-    log: revlist-5656d9931be6-ca917f0efc9f.txt
+    log: revlist-2468bb45f20c-ca917f0efc9f.txt
 
---===============7878152840720922276==
+--===============1978259995590162544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5656d9931be6-ca917f0efc9f.txt
+Content-Disposition: attachment; filename=revlist-2468bb45f20c-ca917f0efc9f.txt
 
 a33b3298f2a66af8a3aa69e24481bf5249c3fd16 sched/headers, audit: Move task_struct::loginuid to per_task()
 30c70e3fb6b2b79ee5ac9202d2d74797a047724f sched/headers: Remove scheduler internal data types from <linux/sched.h>
@@ -1051,4 +1051,4 @@ afa6e1a4e04799f03122c16dc04cd95ae3660fbd headers/deps: Add header dependencies t
 56774e7bcfe9e5cb485f5c7a863c86efd69ea030 headers/deps: Add header dependencies to all .c files: <linux/jiffies.h>
 ca917f0efc9fa1f2b43fdc6c989e27c9bd15187b headers/deps: time: Optimize <linux/ktime_api.h> dependencies, remove <linux/jiffies.h> inclusion
 
---===============7878152840720922276==--
+--===============1978259995590162544==--
