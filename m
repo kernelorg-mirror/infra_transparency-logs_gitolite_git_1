@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5724542080782735329=="
+Content-Type: multipart/mixed; boundary="===============5376828513529254736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 05 Aug 2021 12:25:34 -0000
-Message-Id: <162816633445.21253.12002484812857764623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 05 Aug 2021 12:26:47 -0000
+Message-Id: <162816640701.21746.2366343169299006@gitolite.kernel.org>
 
---===============5724542080782735329==
+--===============5376828513529254736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: d229f0fb10250173989d2086073ff702980ef48b
-    new: a8f80c20b373bb46670643db81f043ba7da6a537
+  - ref: refs/heads/char-misc-testing
+    old: e67adaa1754d5383583c35a703518507e457482b
+    new: 72674e86b6fe2f656c93564635b675bcdf012844
     log: |
-         a8f80c20b373bb46670643db81f043ba7da6a537 staging: r8188eu: Remove unneeded comments in rtw_mp_ioctl.h
+         5f1895e0e381f04ef759cd33636d861b0fdcb3d1 fpga: Fix spelling mistake "eXchnage" -> "exchange" in Kconfig
+         1604986c3e6bd84f3f3fd709c1a619c6fc9d79a9 fpga: dfl: expose feature revision from struct dfl_device
+         4f45f3404960109843eaa92c8a4a850d6bdd9981 spi: spi-altera-dfl: support n5010 feature revision
+         72674e86b6fe2f656c93564635b675bcdf012844 Merge tag 'fpga-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-next
          
 
---===============5724542080782735329==
+--===============5376828513529254736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628166331 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1628166331-6abbef493e98fe06dd323691156ae587f122ec45
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628166403 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1628166403-97587d2f67d3deef7faf97f7db15b3ef89ea7b24
 
-d229f0fb10250173989d2086073ff702980ef48b a8f80c20b373bb46670643db81f043ba7da6a537 refs/heads/staging-testing
+e67adaa1754d5383583c35a703518507e457482b 72674e86b6fe2f656c93564635b675bcdf012844 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEL2LsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wm4P/jRlj1KLZsmxAvOiNv9n
-Yuc9iQeQnvwRE+BP+VaJJzNA/hSfWjtFNQe8azT2IN4lPzm3e0H5t7A7vXxdVMGp
-tzg8JcxkIKpozlU2sYSPDbLWsViD/BBMoyONRMQWZdnxu2fJzePrbBlGUgHy7kIq
-XMENoi8WyG49qWlxtsy8zFj4YOEM1HFVy1Cwxg8sFhO2xrL+4CB7kqRxX4uIsmlm
-0LQmGCEc6d3sKJBfvw/ZMiYZ67M713RTRLF+3ZCzHnxuQ5ABZG3ENfZo5rq3wOVK
-r55aFlh6XSgUXPAXPgFzo0Bt0RIw6PDOP2pEXsD1+gK0T2xn3cFhvwpkgKp3DUb2
-D1YLq586x5r+lTASNg6440IvkXX/qr6Xyy8hMD+bj7QFIweNcIrtSx40HMa/7YNL
-gJ1jBsEdufJ8NZl9rrHYJ3BG02/91QpJfYZF+22b6JKgKUe13rAqMb7/QB+J/Yuz
-HBrRpREn5M8hnRhh1oGZOw8yeMbUJnjCpbSNfzbEpaIKakQj5waC18IogagTOZ5A
-RLXk0UXfy3LQGtAJC7SvyHrbWr84YbPejNDZifjQoeW/EZ1DqkwG2v4LcIJ4jqfw
-XKwY13tX/W/+XChab8et6grA3L+tj92nb4V0DQUivVlQsloptGPCcGqkQ5Jng5xZ
-dl5m5R9iNiyAXCkYIfz0MAcD
-=2GO6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEL2QMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UacP/iaYM0caMok2qCLfNcY9
+aBbm0lp7tXDTz0Hu1BBMZy+tORUqNtSpmMzPTrTn8flWKuuHAXqBPaQBXMVOR+BC
+pYuYHpaGgL9bXjoIF1jNDoYfFCumX5bA5CvSP1mzU7tjkmw09ujzSKS+O9188A6Z
+B1KLXQsAxzHGSw5dJDmjw90LGnHAV2nZwDItJbrFHfTskQZGAUtL/rwuEq1Ss2WW
+hNoutZP44OlXEaK56zC+kGtdzaka6vc2+p0emSktK1eatdehENBzEc/uFQMiABEh
+6ziH4EWyOoqJkT9FDb6lrbStX54bBgZ78JWvRoJOL5dkGDpAmMWF2Wg7uJ+lo/rU
+P/sqEI7OiieI9eFe5S054qK5bBIz7Fz22LgRoYbb+d9SOW/PynA6A/4Z5pzx20FO
+Zn0nKpgV7Xnj6pK4VIgtP8vpsdTI1Emb+fRJTHKs7D/MMIClWxGW/pusc+xHy9zK
+8r8hg4+uORF/ZpI6gHl322jeCiDB60N6z94J0Hvw+9xv8JDyzjk22O6I6pCsei9L
+DnwDOkd/9ZHo4XekTRIF2aI8uzdyNBNn5kXSY51CavwKw3oRETTIy6/EMWHMLc/z
+dE6to6WTGNscyBH5SwSRUgp3Me3AexRvFrdA5tMDHGBDHtfsr2qVk2F8WH16HdTY
+zCB/8J6TD+ReNQClWzMFbJlq
+=egLI
 -----END PGP SIGNATURE-----
 
---===============5724542080782735329==--
+--===============5376828513529254736==--
