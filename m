@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Aug 2021 09:34:13 -0000
-Message-Id: <162815605330.646.32064785181793445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 05 Aug 2021 09:46:11 -0000
+Message-Id: <162815677110.8735.2998730050664790837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/locking/core
-    old: cf3ee3c8c29dc349b2cf52e5e72e8cb805ff5e57
-    new: 55bccf1f93e4bf1b3209cc8648ab53f10f4601a5
+  - ref: refs/heads/mips-fixes
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 6aa32467299e9e12280a6aec9dbc21bf2db830b0
     log: |
-         9248e52fec9536590852844b0634b5d20483c1ab locking/atomic: simplify non-atomic wrappers
-         55bccf1f93e4bf1b3209cc8648ab53f10f4601a5 Documentation/atomic_t: Document forward progress expectations
+         6aa32467299e9e12280a6aec9dbc21bf2db830b0 MIPS: check return value of pgtable_pmd_page_ctor
          
