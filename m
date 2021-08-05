@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 05 Aug 2021 09:53:18 -0000
-Message-Id: <162815719872.13945.1141257336697373742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Thu, 05 Aug 2021 09:55:48 -0000
+Message-Id: <162815734832.16242.3767810665390444337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/heads/pci/aardvark
-    old: 0000000000000000000000000000000000000000
-    new: 43f5c77bcbd27cce70bf33c2b86d6726ce95dd66
+  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-08-02-part4
+    old: 00b5084be918438e663d6f4ca5cd61f8fe95af93
+    new: 0000000000000000000000000000000000000000
