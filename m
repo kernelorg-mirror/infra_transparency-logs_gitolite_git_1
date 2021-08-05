@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 05 Aug 2021 20:34:21 -0000
-Message-Id: <162819566176.30760.11860359345421467601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 05 Aug 2021 21:01:22 -0000
+Message-Id: <162819728242.16937.4271492717355612930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 6138d3576aa1af9bf37af1bddfc73c009d56959c
-    new: 4d0ed1a07ceacf7162da29e7060619a2ca7d84a5
+    old: 9bead1b58c4c4a85319d0fc8a5c83e7374977d28
+    new: 7105235e196dc653e0ed801100198cca0b329882
     log: |
-         eb41d42ba8aa6dd1f2b74b05277ec1475fea7ad6 selftests/sgx: Dump segments and /proc/self/maps only on failure
-         4d0ed1a07ceacf7162da29e7060619a2ca7d84a5 selftests/sgx: Introduct setup_test_encl()
+         32c4bed6bc4cf55b64e1316e2f222ff2a41747d2 char: tpm: Kconfig: remove bad i2c cr50 select
+         7105235e196dc653e0ed801100198cca0b329882 char: tpm: cr50_i2c: convert to new probe interface
          
