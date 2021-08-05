@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 05 Aug 2021 10:10:28 -0000
-Message-Id: <162815822850.25758.13476055542994155913@gitolite.kernel.org>
+Date: Thu, 05 Aug 2021 10:10:37 -0000
+Message-Id: <162815823765.25936.5057891584081719346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: f558c2b834ec27e75d37b1c860c139e7b7c3a8e4
-    new: f957b8a2cff39a90d51a5ef2894db9f7206100a6
+  - ref: refs/heads/sched/core
+    old: 56498cfb045d7147cdcba33795d19429afcd1d00
+    new: fdf9484243e5fde73d93436fb7a875a7e95ab1c9
     log: |
-         f957b8a2cff39a90d51a5ef2894db9f7206100a6 sched/deadline: Fix missing clock update in migrate_task_rq_dl()
+         0a54b5dd2ed52480f1715532a72483f9848bdecd sched: Fix UCLAMP_FLAG_IDLE setting
+         fdf9484243e5fde73d93436fb7a875a7e95ab1c9 sched: Skip priority checks with SCHED_FLAG_KEEP_PARAMS
          
