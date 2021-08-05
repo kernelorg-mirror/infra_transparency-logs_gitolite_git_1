@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 05 Aug 2021 13:12:39 -0000
-Message-Id: <162816915945.19847.15777311209882705220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Thu, 05 Aug 2021 13:13:54 -0000
+Message-Id: <162816923469.20365.2563936868178650735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/arnd/playground
+user: arnd
 changes:
-  - ref: refs/tags/s390-5.14-4
+  - ref: refs/heads/ptp-1588-optional-v5
     old: 0000000000000000000000000000000000000000
-    new: 23be54af08e2fb434107a71036fbf95b5c2a4dbe
+    new: d0ecfa33783f7bea522369c6b684f19639cb6483
