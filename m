@@ -1,48 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 05 Aug 2021 07:25:13 -0000
-Message-Id: <162814831301.30120.14349924195760522357@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1411512119142857784=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Thu, 05 Aug 2021 07:35:56 -0000
+Message-Id: <162814895684.4168.6648908615885734214@gitolite.kernel.org>
+
+--===============1411512119142857784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: bb2c20c976aa1018851f1c619a9049dff9331d64
-    new: c6caf0e9c1bf063aaaac5246b1205aa9f914e741
+  - ref: refs/heads/master
+    old: 13c2c3cfe01952575b1dd5e24d450fcccff93bc0
+    new: d5aaad6f83420efb8357ac8e11c868708b22d0a9
     log: |
-         0cdcca7ec37cfe54cd2f0668eddcf5aef87a05e3 arm64: dts: exynos: add CPU topology to Exynos5433
-         a2798e309f3c67ab69073582dc4b8102a9013e25 ARM: dts: exynos: add CPU topology to Exynos3250
-         900dd07d13e46b2937522ac7cc46a9ceb49284b6 ARM: dts: exynos: add CPU topology to Exynos4210
-         1fb5b5b0dc491613eaa42bc39457589bfcb2b2b9 ARM: dts: exynos: add CPU topology to Exynos4412
-         fc6d5c9953757c61042676db9bb32ecd7af958f3 ARM: dts: exynos: add CPU topology to Exynos5250
-         fa0c56dbc3a1b116d280c3a3a97052ea38e4ea2b ARM: dts: exynos: add CPU topology to Exynos5260
-         a73d3069f6f7717bbd31a2fcfe8ddb3d98076b1d ARM: dts: exynos: add CPU topology to Exynos5420
-         6cad6db75231a18f25dc7d610d5a0683160ac545 ARM: dts: exynos: add CPU topology to Exynos5422
-         0c276a61b6a400fdd47087b10ba81d48848bc094 arm64: dts: exynos: add CPU topology to Exynos5433
-         903559e9e7b049d788853bd0d64380ded46d023c Merge branch 'next/dt' into for-next
-         c6caf0e9c1bf063aaaac5246b1205aa9f914e741 Merge branch 'next/dt64' into for-next
+         d5aaad6f83420efb8357ac8e11c868708b22d0a9 KVM: x86/mmu: Fix per-cpu counter corruption on 32-bit builds
          
-  - ref: refs/heads/next/dt
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 0c276a61b6a400fdd47087b10ba81d48848bc094
+  - ref: refs/tags/for-linus
+    old: 94d8cb055bef9cc9148a85fa1e119c0727c725da
+    new: 976c9bc4e39638f129851f30afeca449003698ae
     log: |
-         a2798e309f3c67ab69073582dc4b8102a9013e25 ARM: dts: exynos: add CPU topology to Exynos3250
-         900dd07d13e46b2937522ac7cc46a9ceb49284b6 ARM: dts: exynos: add CPU topology to Exynos4210
-         1fb5b5b0dc491613eaa42bc39457589bfcb2b2b9 ARM: dts: exynos: add CPU topology to Exynos4412
-         fc6d5c9953757c61042676db9bb32ecd7af958f3 ARM: dts: exynos: add CPU topology to Exynos5250
-         fa0c56dbc3a1b116d280c3a3a97052ea38e4ea2b ARM: dts: exynos: add CPU topology to Exynos5260
-         a73d3069f6f7717bbd31a2fcfe8ddb3d98076b1d ARM: dts: exynos: add CPU topology to Exynos5420
-         6cad6db75231a18f25dc7d610d5a0683160ac545 ARM: dts: exynos: add CPU topology to Exynos5422
-         0c276a61b6a400fdd47087b10ba81d48848bc094 arm64: dts: exynos: add CPU topology to Exynos5433
+         d5aaad6f83420efb8357ac8e11c868708b22d0a9 KVM: x86/mmu: Fix per-cpu counter corruption on 32-bit builds
          
-  - ref: refs/heads/next/dt64
-    old: 178a5d90dc0419b2bdaa5be213ca12ea8929ff35
-    new: 0cdcca7ec37cfe54cd2f0668eddcf5aef87a05e3
-    log: |
-         0cdcca7ec37cfe54cd2f0668eddcf5aef87a05e3 arm64: dts: exynos: add CPU topology to Exynos5433
-         
+
+--===============1411512119142857784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1628148955 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1628148954-1e34f69fe5d9383f850908d07fc30d1f23893e0f
+
+13c2c3cfe01952575b1dd5e24d450fcccff93bc0 d5aaad6f83420efb8357ac8e11c868708b22d0a9 refs/heads/master
+94d8cb055bef9cc9148a85fa1e119c0727c725da 976c9bc4e39638f129851f30afeca449003698ae refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmELlNsUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP6Swf/SDrGQ3hHPpfDPVX6o6kQ+YXQ8P0O
+1f6M5TYRrOeLbCz/Q3X4E9PZky6kNJ1B5eZrogBggrf80zwnuz8S8fm/z14tPajY
+9KOaN7wtYTCWy32dIO/Zebj1wrpgH4ylmONMrmyoQmcrhjdfk1pETCCYdFqFvash
+KXQoEWy9Bu+YSv9VLHwbemrmxQ5uW76gXVhaZXGjfMyHy5phTCTUQkWDPv4DGdfu
+ogmrk0WV+IorsZzoYo/0Eq7E60cxDNUFiaDQI7kTYSbdKrcoP4L9bCJxxiK4nsxC
+6vhHXsE6QVqpTwCmC08CWXJgRdVebwj2N901w18tmw3y5RtUXkI45hHopQ==
+=T9Fs
+-----END PGP SIGNATURE-----
+
+--===============1411512119142857784==--
