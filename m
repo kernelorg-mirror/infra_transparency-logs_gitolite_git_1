@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5695901916207043283=="
+Content-Type: multipart/mixed; boundary="===============8299957459050267231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 05 Aug 2021 21:03:16 -0000
-Message-Id: <162819739610.17730.12438134936101239710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 05 Aug 2021 21:04:52 -0000
+Message-Id: <162819749222.18402.1930873179209337811@gitolite.kernel.org>
 
---===============5695901916207043283==
+--===============8299957459050267231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 616d5769345528b989294a242a5906b157a92837
-    new: 598fe77df855feeeca9dfda2ffe622ac7724e5c3
-    log: revlist-616d57693455-598fe77df855.txt
+  - ref: refs/heads/net-next-mlx5
+    old: a56e653c0e903fcadda08c334e2b11f116cb568f
+    new: 13ef700517624b968ad4ed59d0444dee7f2d408b
+    log: revlist-a56e653c0e90-13ef70051762.txt
 
---===============5695901916207043283==
+--===============8299957459050267231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-616d57693455-598fe77df855.txt
+Content-Disposition: attachment; filename=revlist-a56e653c0e90-13ef70051762.txt
 
+96cd2dd65bb0b94c908f2df32bba7350fc1b954e net/mlx5: Add DCS caps & fields support
+616d5769345528b989294a242a5906b157a92837 IB/mlx5: Rename is_apu_thread_cq function to is_apu_cq
 97a8a8c1f985baf13a3d0d252b787850330d2ea7 net/mlx5: Return mdev from eswitch
 af8c0e25f249abf8829f0cfa074b08d7398e3e38 net/mlx5: Lag, add initial logic for shared FDB
 6aeb16a1345e480bd395b9168570e93c902a05f3 RDMA/mlx5: Fill port info based on the relevant eswitch
@@ -40,5 +42,6 @@ cac1eb2cf2e338260c5e2ffb098dfa0508ee40aa net/mlx5: Lag, properly lock eswitch if
 63d4a9afbcee4167ffb0d126b23b8884b15e5837 net/mlx5: Lag, move lag destruction to a workqueue
 db202995f5035f13a11df48a0af05edbb3720659 net/mlx5: E-Switch, add logic to enable shared FDB
 598fe77df855feeeca9dfda2ffe622ac7724e5c3 net/mlx5: Lag, Create shared FDB when in switchdev mode
+13ef700517624b968ad4ed59d0444dee7f2d408b Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 
---===============5695901916207043283==--
+--===============8299957459050267231==--
