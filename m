@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 05 Aug 2021 12:30:28 -0000
-Message-Id: <162816662839.25032.17592245738727951742@gitolite.kernel.org>
+Date: Thu, 05 Aug 2021 12:31:36 -0000
+Message-Id: <162816669673.25506.4360045592997720791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b37a466837393af72fe8bcb8f1436410f3f173f3
-    new: f8b17a0bd96065e4511858689916bb729dbb881b
+    old: f8b17a0bd96065e4511858689916bb729dbb881b
+    new: 23809a726c0d004b9d2474333181f8da07360469
     log: |
-         f8b17a0bd96065e4511858689916bb729dbb881b net: dsa: tag_sja1105: optionally build as module when switch driver is module if PTP is enabled
+         23809a726c0d004b9d2474333181f8da07360469 netdevsim: Forbid devlink reload when adding or deleting ports
          
