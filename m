@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 06 Aug 2021 14:08:36 -0000
-Message-Id: <162825891646.19249.8652844455654731739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 06 Aug 2021 14:15:59 -0000
+Message-Id: <162825935989.24557.255538888210839831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/tags/soc-fixes-5.14-2
-    old: 0000000000000000000000000000000000000000
-    new: 082947e5a95d7a61d702389281df0137549bbd99
+  - ref: refs/heads/master
+    old: a337097749445670c416455012f3c160c668681d
+    new: 8867c391088b2a4097b4b5a5301216a7b5749f30
+    log: |
+         8867c391088b2a4097b4b5a5301216a7b5749f30 monitor: Add further stats to analzye functionality
+         
