@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 06 Aug 2021 09:50:06 -0000
-Message-Id: <162824340671.3695.2486430384242230159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 Aug 2021 09:52:02 -0000
+Message-Id: <162824352230.4426.3361513599779741189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: a39c5e0fbce65c75a33d66b62d5c6e857c1ca00f
-    new: 80b118bb3024ae373934ad88ab1aa42a89dd6818
+  - ref: refs/heads/master
+    old: 596690e9f4fc8f062a3f52b42071086721fd76fe
+    new: 370cb73a38747379bfc559b5fe61e575c3bb4f31
     log: |
-         8ddc0a78727f12a48941d7f140505beecd7a5c7d f2fs: support fault injection for f2fs_kmem_cache_alloc()
-         81f4019f296e1ed38ba3d78ed11683748c971628 f2fs: compress: do sanity check on cluster
-         91999c34fcbe4e1bd841448a28228e6a7ec82c49 f2fs: fix to do sanity check for sb/cp fields correctly
-         c106adef15f8f0414e26e832da8abd8f3e9402c5 f2fs: avoid unneeded memory allocation in __add_ino_entry()
-         4fbcd190811facffcfaed808960044cb51d38fa7 f2fs: multidevice: support direct IO
-         bac38d215f5fb0d2858e70bf12dc3f120fdfe1ca f2fs: reduce expensive checkpoint trigger frequency
-         23bdcf43f5f35123918f5a11aca73906d2735173 f2fs: fix to keep isolation of atomic write
-         80b118bb3024ae373934ad88ab1aa42a89dd6818 f2fs: avoid attaching SB_ACTIVE flag during mount
+         d12f23fa5142594796a0498d11b5f21463060dac ptp: ocp: Fix the error handling path for the class device.
+         0d43d4f26cb2b051ad430629d2f0c5866822656a ptp: ocp: Add the mapping for the external PPS registers.
+         37a156ba4cbb44037355087ade03268435a77225 ptp: ocp: Remove devlink health and unused parameters.
+         ef0cfb3460a40942c901e15e3df9822b63cb159e ptp: ocp: Use 'gnss' naming instead of 'gps'
+         1a052da92924413d8fab15ccf293f886148e8fc9 ptp: ocp: Rename version string shown by devlink.
+         8ef8ccbc69677e663925f3e758b077d1ad3cd836 ptp: ocp: Remove pending_image indicator from devlink
+         370cb73a38747379bfc559b5fe61e575c3bb4f31 Merge branch 'ptp-ocp-fixes'
          
