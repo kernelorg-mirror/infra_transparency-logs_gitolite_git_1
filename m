@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 06 Aug 2021 21:48:45 -0000
-Message-Id: <162828652558.2561.8752145875250107178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 06 Aug 2021 21:50:03 -0000
+Message-Id: <162828660352.4614.15784291108653877483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: rostedt
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/tags/v5.10.56-rt48-rebase
-    old: 0000000000000000000000000000000000000000
-    new: e4f9e4018462bcb2e726b4d5dc78481b463e4db4
+  - ref: refs/heads/for-next
+    old: 391719dce5ebd416347f35d7a136feb6a04cecb8
+    new: 6ea0126631b0c3fb03ad69832c409b00a250d8dd
+    log: |
+         e11544d0cdc16d59a4685872db5d81cd521819d3 power: supply: sbs-battery: relax voltage limit
+         6ea0126631b0c3fb03ad69832c409b00a250d8dd power: supply: sbs-battery: add support for time_to_empty_now attribute
+         
