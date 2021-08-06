@@ -1,73 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3908232006922932141=="
+Content-Type: multipart/mixed; boundary="===============6752629088829480774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 06 Aug 2021 10:46:34 -0000
-Message-Id: <162824679404.6694.7077154761518288411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 06 Aug 2021 10:46:56 -0000
+Message-Id: <162824681653.6887.4089913736352930564@gitolite.kernel.org>
 
---===============3908232006922932141==
+--===============6752629088829480774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 4a956abc170acc8c096b86d6e7f2b02b024b25f7
-    new: 282bd08229761af5c7d529befe38f56c20f77c54
-    log: revlist-4a956abc170a-282bd0822976.txt
+  - ref: refs/heads/driver-core-next
+    old: b2c943e52705b211d1aa0633c9196150cf30be47
+    new: 112cedc8e600b668688eb809bf11817adec58ddc
+    log: |
+         f52c9ccb86237378d354f7bd71b6fcc9f3ff7f67 nubus: Simplify check in remove callback
+         fe976c4aadae80e4a5a3f665de685ce4f0b0426c sh: superhyway: Simplify check in remove callback
+         18d214cc1d83af5dadf12c383686715497f20571 zorro: Simplify remove callback
+         fac58b4a5287c9d37c39d09d9bdc80846b744649 zorro: Drop useless (and hardly used) .driver member in struct zorro_dev
+         112cedc8e600b668688eb809bf11817adec58ddc debugfs: Return error during {full/open}_proxy_open() on rmmod
+         
 
---===============3908232006922932141==
+--===============6752629088829480774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628246793 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1628246792-efe1cb40dea884bd0436edae33b10c5facf12ece
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628246815 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1628246815-def25da57898d53ebd05b3219c9c98eb178cc5a4
 
-4a956abc170acc8c096b86d6e7f2b02b024b25f7 282bd08229761af5c7d529befe38f56c20f77c54 refs/heads/staging-testing
+b2c943e52705b211d1aa0633c9196150cf30be47 112cedc8e600b668688eb809bf11817adec58ddc refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmENEwkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GH8P/3JBtKIuqocoMmZzw5XW
-9jqF/rlTLeJxH3lbSoFZyELPuuzPEnb5b5XHSxrJ1f9dMjDqtI2deoZG7MijKzSP
-lZdCeCcmlLdDhGQkm8hlGBHz2hM82KOVP//dNXTZawo5AVTUEdLKuQ/inWKaZsyJ
-vwbgwymSgEhWpxUTxt3eqj1jPN9riKWFVtvv8CL7QumExUlCypSHxH4xEEfYUD/3
-Hm5WthaYdQuSy/b46B2aafaonvXkQHkrDKPLHL9izC66tvvgbBFgQW3RE8b2UQ9p
-bXvUjDgUpgz6nHtIhkIYxTqAh6fXfJNhfeMSPoeiw2RfzTur2/Y8agZWCeODXDcy
-A0bFpGJ8cih/hoJwnkS21sK+DyaPukrQEWYL0yNLdbq8U/Btp3BF7qZ3Xg42+Ujl
-1k+Q3xQ2o83QM5kfM1S7b2vOw/737ZMRLbATYkf/NpkCQ5KbjwmZeIO7Vhn99Uhv
-rDJy/kq6L5Np4pMgEcPNhl8ToIXjj67iorDFGdAc+7WMTsbLsLpjs5nvroVsHMGA
-UWu7xaWu+jKD35prywEUSzd89L1uuR4C5krWkkhpeDy6AvTOvprm/hamePgDLmGf
-BB/zLkBPcJ/ITUiWx6vIdyK0tPgpDocNxb6j8xRMkoQZTIL/f/SRvhNVclzTnBut
-07t8oHiDgXZCIRGdFWoGMCFX
-=iDXm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmENEx8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QGYP/iptUk1NE1/UuMyLrGX/
+8xTjt3w2Ss+gJIzpA8EMQ7xp4gcMlwtnPWu6TZe+DOJ8P7voEgbrrm6cofTUWmMI
+JbVYqyFMIlT7+z3v+rSFvSFpsaeKzjtH1pXYEhohbRm6umH3Zul6Xf6OMZrERuRB
+BCybLKPZ2gXUhD85pv3GXdKBckAqSJ55VaApxikPyM9rea+7TkwjZyY/sp9HsM/P
+xKMILHav8Lm9TXJvKeqJzmOHMhO/hL7qSSGN/05CGzNZKwSFVMRwQNxjJ6+Ca1EB
+O4W39lMNprek4hMeig2rXczNd5eOI3damGvtL3p2B/OJrZSuJ+m9YmYxNVLKy8ql
+1VIdOpJjTlf6xKnhgu5KOz2NRoMQCrIed1UWBcZwVpEYfgGNdGIEbFs/xsakQAzg
+io7ZIWNp3fkR/BHN/i2u9GM3QmRpC/+uT8nXSxH524kZW+V1GXlpuNO2St+317FD
+Lmza3igw33/LFYnsvLe1xe1UviTtLMXPe3SAXbZhRed8OZTlJbjnQn5vH+vZtT5t
+tmRL0ndRDjVPKCMzY4puP+xMtLR5SKwv/ifUcHUyT49OCvsgbA3ptHE1HCYhnRXG
+OxRm61ZzrcT2WRk50xT6RNhvBzQ6/bCBj36GEqq6k0CjdAOHuqDdKN+CJQMdLibD
+uHtRpuA03KG8bEvo+ETp5Y3/
+=PPx3
 -----END PGP SIGNATURE-----
 
---===============3908232006922932141==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a956abc170a-282bd0822976.txt
-
-b72290ce7da235f458316978bf0d38fb10640e50 staging: r8188eu: remove RT_TRACE calls from core/rtw_cmd.c
-ef0661507147179afbab278e1364715fd905b7ab staging: r8188eu: remove RT_TRACE calls from core/rtw_ioctl_set.c
-2965d4b44b3e39632c6235aa8981631aa976415e staging: r8188eu: remove RT_TRACE calls from core/rtw_mlme.c
-a0adc4cc74d98ef8aa12d19bf1c8e2890d326d2b staging: r8188eu: remove RT_TRACE calls from core/rtw_mlme_ext.c
-fea8d09f804f324d0095d5b3d7938589008e47a7 staging: r8188eu: remove RT_TRACE calls from core/rtw_mp.c
-de30da13709b8f1aa4b9da5135119a3f37a7e0de staging: r8188eu: remove RT_TRACE calls from core/rtw_security.c
-5833ca54050768a328ca01c1ef29a4aa6d45ec4a staging: r8188eu: remove RT_TRACE calls from core/rtw_sta_mgt.c
-9bb2e9b1f5b17b79d95a4ad1007292cda839c5b4 staging: r8188eu: remove RT_TRACE calls from core/rtw_xmit.c
-5ea6417afa721c65690f64285aa9b779a6a9eb6a staging: r8188eu: remove RT_TRACE calls from core/rtw_recv.c
-fe4bbfb44a222059ae2625b89ab5007cca130b8b staging: r8188eu: fix unused variable warnings in core/rtw_ieee80211.c
-d28a4c009bfbbdd26fa196b7b8af1d879470211b staging: r8188eu: remove two set but unused variables in core/rtw_mp_ioctl.c
-282bd08229761af5c7d529befe38f56c20f77c54 staging: r8188eu: replace custom macros with is_broadcast_ether_addr
-
---===============3908232006922932141==--
+--===============6752629088829480774==--
