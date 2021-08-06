@@ -1,63 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============7403411422410321539=="
+Content-Type: multipart/mixed; boundary="===============3908232006922932141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 06 Aug 2021 10:46:02 -0000
-Message-Id: <162824676238.6480.4232951224660645695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 06 Aug 2021 10:46:34 -0000
+Message-Id: <162824679404.6694.7077154761518288411@gitolite.kernel.org>
 
---===============7403411422410321539==
+--===============3908232006922932141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 64cd4271ea8e6247f7ed14c443e41d0f5866aac0
-    new: 548011957d1d72e0b662300c8b32b81d593b796e
-    log: |
-         9311a531064be7e136e13df672959c635463be9e usb: gadget: Fix inconsistent indent
-         90059e9395cae00d79ecb1f7e1e702756416bc6a usb: gadget: remove useless cast
-         e21dd90eb86488fb2689c766311eb6fce98b2eb7 usb: misc: adutux: use swap()
-         59e477af7b1a2a0d1d4c934f9cfda7b753341f12 usb: gadget: f_uac2: remove redundant assignments to pointer i_feature
-         9c0edd5649a26e380ed2e687a20f7b301a66c746 docs: usb: fix malformed table
-         177cd475e1f12d256c9bf7de274fef7bea30cddb dt-bindings: usb: renesas,usbhs: Document RZ/G2L bindings
-         b8731209958a1dffccc2888121f4c0280c990550 usb: xhci-mtk: Do not use xhci's virt_dev in drop_endpoint
-         548011957d1d72e0b662300c8b32b81d593b796e usb: xhci-mtk: relax TT periodic bandwidth allocation
-         
+  - ref: refs/heads/staging-testing
+    old: 4a956abc170acc8c096b86d6e7f2b02b024b25f7
+    new: 282bd08229761af5c7d529befe38f56c20f77c54
+    log: revlist-4a956abc170a-282bd0822976.txt
 
---===============7403411422410321539==
+--===============3908232006922932141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628246761 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1628246761-28db38b689c58b2147d06f34efe10ca66cade2f9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628246793 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1628246792-efe1cb40dea884bd0436edae33b10c5facf12ece
 
-64cd4271ea8e6247f7ed14c443e41d0f5866aac0 548011957d1d72e0b662300c8b32b81d593b796e refs/heads/usb-next
+4a956abc170acc8c096b86d6e7f2b02b024b25f7 282bd08229761af5c7d529befe38f56c20f77c54 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmENEukbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wVcP/jwpJIa+MP97k45HaMMH
-ZOrWEjekxPJMat7jrC7dS+metMhea0Q+fsJ0s+n81qdrVrPjuwp3ZUsESqiT/yUd
-DnkZyUMLegD9n7QfAF4q7uFx0AegkELt9rNlWW/O/OD716FURtVV+xw/Ov0jS7+I
-IV6ztTskzCH1O+qamjLJgEJS9g2GGXPXkDYk2aDRj5qlSY/rQNva9ffkZz+FLtn0
-EaDB0jNJJFWhq9Ny55Hxy+y9zCGDjyPMPJ03jqj6uATkHblcKNZdCJ7xHmSS5QeY
-7a3dSmU97Rg2dJtN0D5YsNMpzAi94kboz98UzHDeXXhDA64fOXgJgORdQk+Ovbk0
-2p9TkT6y/tSsa+BMCAzYleAxD52d9e2tryT7dosu4inZK6bFkjNcNPxzbDNtSsB0
-gHU2E2TH6ZLnPk0wLVsKXEkpJXplCz/dRKJkwwQvqNZnCyjqKeqjKPQK7EVwYKj8
-iGISM/pU8F8zjZEBAd7gdq+q78G6ruLLmNrn8OfuOWHqj6aZyHOocD0IB0EZboPi
-SGmHGZlWfZvxU95Oy9ByM5l9b7arMR0hS2WyGOqMbaOWXwzASqoCx28tsv2NnQE0
-rfaAppHK0vrNioxEx5Yrh7t1uS+kP1A3CqFUi6wDvKSq1PYK2O5UN8Ui8YgvXPyK
-EF+UoTOZRJlwmsVWPm1FIhcA
-=V7kr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmENEwkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GH8P/3JBtKIuqocoMmZzw5XW
+9jqF/rlTLeJxH3lbSoFZyELPuuzPEnb5b5XHSxrJ1f9dMjDqtI2deoZG7MijKzSP
+lZdCeCcmlLdDhGQkm8hlGBHz2hM82KOVP//dNXTZawo5AVTUEdLKuQ/inWKaZsyJ
+vwbgwymSgEhWpxUTxt3eqj1jPN9riKWFVtvv8CL7QumExUlCypSHxH4xEEfYUD/3
+Hm5WthaYdQuSy/b46B2aafaonvXkQHkrDKPLHL9izC66tvvgbBFgQW3RE8b2UQ9p
+bXvUjDgUpgz6nHtIhkIYxTqAh6fXfJNhfeMSPoeiw2RfzTur2/Y8agZWCeODXDcy
+A0bFpGJ8cih/hoJwnkS21sK+DyaPukrQEWYL0yNLdbq8U/Btp3BF7qZ3Xg42+Ujl
+1k+Q3xQ2o83QM5kfM1S7b2vOw/737ZMRLbATYkf/NpkCQ5KbjwmZeIO7Vhn99Uhv
+rDJy/kq6L5Np4pMgEcPNhl8ToIXjj67iorDFGdAc+7WMTsbLsLpjs5nvroVsHMGA
+UWu7xaWu+jKD35prywEUSzd89L1uuR4C5krWkkhpeDy6AvTOvprm/hamePgDLmGf
+BB/zLkBPcJ/ITUiWx6vIdyK0tPgpDocNxb6j8xRMkoQZTIL/f/SRvhNVclzTnBut
+07t8oHiDgXZCIRGdFWoGMCFX
+=iDXm
 -----END PGP SIGNATURE-----
 
---===============7403411422410321539==--
+--===============3908232006922932141==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4a956abc170a-282bd0822976.txt
+
+b72290ce7da235f458316978bf0d38fb10640e50 staging: r8188eu: remove RT_TRACE calls from core/rtw_cmd.c
+ef0661507147179afbab278e1364715fd905b7ab staging: r8188eu: remove RT_TRACE calls from core/rtw_ioctl_set.c
+2965d4b44b3e39632c6235aa8981631aa976415e staging: r8188eu: remove RT_TRACE calls from core/rtw_mlme.c
+a0adc4cc74d98ef8aa12d19bf1c8e2890d326d2b staging: r8188eu: remove RT_TRACE calls from core/rtw_mlme_ext.c
+fea8d09f804f324d0095d5b3d7938589008e47a7 staging: r8188eu: remove RT_TRACE calls from core/rtw_mp.c
+de30da13709b8f1aa4b9da5135119a3f37a7e0de staging: r8188eu: remove RT_TRACE calls from core/rtw_security.c
+5833ca54050768a328ca01c1ef29a4aa6d45ec4a staging: r8188eu: remove RT_TRACE calls from core/rtw_sta_mgt.c
+9bb2e9b1f5b17b79d95a4ad1007292cda839c5b4 staging: r8188eu: remove RT_TRACE calls from core/rtw_xmit.c
+5ea6417afa721c65690f64285aa9b779a6a9eb6a staging: r8188eu: remove RT_TRACE calls from core/rtw_recv.c
+fe4bbfb44a222059ae2625b89ab5007cca130b8b staging: r8188eu: fix unused variable warnings in core/rtw_ieee80211.c
+d28a4c009bfbbdd26fa196b7b8af1d879470211b staging: r8188eu: remove two set but unused variables in core/rtw_mp_ioctl.c
+282bd08229761af5c7d529befe38f56c20f77c54 staging: r8188eu: replace custom macros with is_broadcast_ether_addr
+
+--===============3908232006922932141==--
