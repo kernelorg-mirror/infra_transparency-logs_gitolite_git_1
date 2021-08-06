@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 06 Aug 2021 10:50:49 -0000
-Message-Id: <162824704959.11071.13355485690841907336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 06 Aug 2021 10:56:13 -0000
+Message-Id: <162824737396.14209.8731037864310051027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/tags/stm32-dt-for-v5.15-1
-    old: 0000000000000000000000000000000000000000
-    new: 3087ea8ff0f9ce18ce11a342321de2f4c978bae9
+  - ref: refs/heads/v5.14-next/soc
+    old: 5fe5952710756ae53629b03d0c044110af592f29
+    new: b703ddeafaf3c04dcfa305dd82399a1b1109dab4
+    log: |
+         b703ddeafaf3c04dcfa305dd82399a1b1109dab4 soc: mediatek: mmsys: Fix missing UFOE component in mt8173 table routing
+         
