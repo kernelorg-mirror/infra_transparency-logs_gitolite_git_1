@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 06 Aug 2021 14:43:35 -0000
-Message-Id: <162826101501.9926.705313328225201566@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 14:44:24 -0000
+Message-Id: <162826106464.10349.15415272013062165688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.14-next/soc
-    old: b703ddeafaf3c04dcfa305dd82399a1b1109dab4
-    new: 25423731956b3d72bc35d336227c88ada49148e8
+  - ref: refs/heads/v5.14-next/dts64
+    old: b488f2c3ac056a8410e9e3196894060dbc89910c
+    new: ce5db043d2e8811f30de3ebb5d9e6bd8a33596c4
     log: |
-         bc3fc5c05100712fa56418f4e3e38f30e6e6f1e7 soc: mediatek: mmsys: add MT8365 support
-         25423731956b3d72bc35d336227c88ada49148e8 soc: mediatek: mmsys: Fix missing UFOE component in mt8173 table routing
+         42a495fb94d17589aba826bcb392da721877302f arm64: dts: mt8183: kukui: Use aliases to mmc nodes
+         a5d68a87f8f29dabd6990f13acdc77cfb6dc5dfe arm64: dts: mt8173: elm: Use aliases to mmc nodes
+         109fd20601e2bdab641eec26e28351477f311ff0 arm64: dts: mediatek: mt8173: Add domain supply for mfg_async
+         02912fb79e7076b1667572a713f6f2433f45dc27 arm64: dts: mt8183: add mediatek,gce-events in mutex
+         ce5db043d2e8811f30de3ebb5d9e6bd8a33596c4 dt-bindings: mediatek: Add optional mediatek,gce-events property
          
