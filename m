@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 06 Aug 2021 19:40:08 -0000
-Message-Id: <162827880851.15345.191343750225053078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Fri, 06 Aug 2021 19:46:00 -0000
+Message-Id: <162827916055.18724.11390980414267321262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/master
-    old: 8f9e6b3f7626e31949f06336b8ed098376b4cb1d
-    new: da0fa4e01292ef0ace2e361a572af49334a96cda
+  - ref: refs/heads/mtd/fixes
+    old: ba356289261975ff061580ff30d1026448b9ffd2
+    new: b48027083a78b13356695555a05b0e085e378687
     log: |
-         f24cfa481b0c70c605bcccf5cce77b8328c90766 handshake: Add setter for vendor IEs
-         7e9971661bcb6fac5f8bd6f2c013354c56d8b396 netdev: Append any vendor IEs from the handshake
-         da0fa4e01292ef0ace2e361a572af49334a96cda station: Set network's vendor IEs into handshake
+         99dc4ad992bf156692b088fab4d98deab7cbd3e6 mtd: devices: mchp48l640: Fix memory leak on cmd
+         b7abb051682263e51866bc78762fd0083d64c5ed mtd: fix lock hierarchy in deregister_mtd_blktrans
+         b48027083a78b13356695555a05b0e085e378687 mtd: rawnand: Fix probe failure due to of_get_nand_secure_regions()
          
