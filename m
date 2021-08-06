@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0850358486257621786=="
+Content-Type: multipart/mixed; boundary="===============4089456757752547374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 06 Aug 2021 08:11:12 -0000
-Message-Id: <162823747207.17908.5715894685692490257@gitolite.kernel.org>
+Message-Id: <162823747257.17936.12284157306020391586@gitolite.kernel.org>
 
---===============0850358486257621786==
+--===============4089456757752547374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 512c2f42018aaa56d095003a029aa0fd3d118424
-    new: 155338eca25e98640866913820fbb3c0d3efed49
+  - ref: refs/heads/linux-4.9.y
+    old: 973e6de1bccded350bd108b0a132b72d68808569
+    new: 36c4ea3b072f93b011cbb5d863808049e393bdff
     log: |
-         cbf8f2af59fd96a308a0cc6e473a7e7611d8ad1d btrfs: mark compressed range uptodate only if all bio succeed
-         42503bb5fa5142282e49e758155bf55391ecaa45 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-         6ceb28efaf12eaa3af3735060c338ebd5ec84890 r8152: Fix potential PM refcount imbalance
-         e95a75538cd521ce4f17c37ce849d463648e3131 net: Fix zero-copy head len calculation.
-         ed6c402d0f80da2eaf020922a57fbfbce111944f Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-         50cc0fdae20cb95647a7278ffc93398602798e76 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-         155338eca25e98640866913820fbb3c0d3efed49 Linux 4.4.279-rc1
+         079056406221e06eeb947e57f41d4b226f8a4d52 btrfs: mark compressed range uptodate only if all bio succeed
+         396d2d2709219d353f98df75ed37696c9fe8c253 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+         d8e5304795738b97371740491605f6696dcad562 r8152: Fix potential PM refcount imbalance
+         cf82719a7887b1e20558bba59916388ab911b335 net: Fix zero-copy head len calculation.
+         2344e5fa2319475f6e9f763c224e2ee479bae51c Revert "spi: mediatek: fix fifo rx mode"
+         cccc0d67ec81779a9d8a1819e8d558d7154ac7c1 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+         766457df06d2c34f40cb134f19dbfd7f6f6640a3 can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
+         36c4ea3b072f93b011cbb5d863808049e393bdff Linux 4.9.279-rc1
          
 
---===============0850358486257621786==
+--===============4089456757752547374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237470 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237471 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1628237470-2b91cb0f961ea9e5e058e9a4ab8ebc3f0a6ac5a9
 
-512c2f42018aaa56d095003a029aa0fd3d118424 155338eca25e98640866913820fbb3c0d3efed49 refs/heads/linux-4.4.y
+973e6de1bccded350bd108b0a132b72d68808569 36c4ea3b072f93b011cbb5d863808049e393bdff refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM7p4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jYEQAJJMLvdks2nuXGm12Bq3
-M+9+MN6Jx34jbYeNkbfaSQlKKNYRIvYnghb6r7ttLE/FReRkm8vOOQU9XUK/25o+
-+YX63MKbZc6bsY1vt2Gp3YA+uBC3woSZnMiEG3xOv3lhQIBI3IFMjHrSy88okY+b
-xYMJ+mERJQNkGtDUNtk0tabpZ1GW9hIejEiFf+XqPgixUQcNvMtORTQ89z//pBVM
-SivmoqaGikAssbImSrbumqG2//EfqWZdaoU6gihfD3ZVdKMkJpi6Hw29BF34TE0u
-TqO6VIib2Y+qhn/iS9hDVrCSY7VEtnu33Gz88R2Hl43EfUc/bcSYUgtbk/GPNzM3
-vBinaXg1Nx4OC7LM3VFtliP9LXHw9BdiIwJZlnjDTwZzxawTzqb1TZVsddvPWkJg
-cgiV25z3FwKExtCvLeBPdrS6EVDFuYMdpbEMyI8edcOjMmCdqN7PE6JRDj+SfBJF
-9+avNlS1I1jWmJVgVVXvLSxlKeHne0GZFeD+eM/9PeCjXPAMSHogKsVCqsM6Iwz0
-HAdt/xHOfEttje3XunB9UCMGd3oo7OAlW5ahu/4+I4Uj5TkW//aX0rbPFbzho7U8
-E9LGYe5HeAXLMHW/mEDno0HVnWyIUQ07dPdvkUJG1uaa3o6A6ulABEUIKeMLIPxO
-2IKoTbN4XH9lTJjK+dDfSN1X
-=FrE9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM7p8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XdgP/05T7X0LWXNptOuZ2zFh
+1iEwl9HC89LjzZu+MJMUTFRnozYv3PwdBK+NpC+TR2C0s9YMNsm9I9eo0tzbeaXn
+1cXtDXRWBzd/UOf/K3mfydq9Qf8+0Z1uxznACyStt1ddUw2de0pwbUt2GV+bYWA1
+zJ8tJITJWpoSajGWhG6vS82fGZeGZEoif8n1zPdUCSbFc/UyYlagHN4PkMLo28Aw
+t84hYYX6kCP6BII/6jxKfpaG6krQ7h9L2wofauU6s3OrVpvO+jh54FVR28keIDjc
+WKTtCo9ThMYnlTdAzfxCb2nHloTyndPmyPk3bPgbe8Qjjoi1GqQbYidz7h1FDdvS
+Je3EC6+Cv3JqdWmKV2auafR8/xe1c+k0f/SLDIndhaWSsZErb+LZ3BuTWpoMydJC
+72CHCqipp2/ghytt3E+Zr5bwMpXSbj8NIf+tkQzW5IEj6FqS+7dRMv93LB5eA0OU
+u6JhsyDuIFjxNfijv0i2nRuNSaOdMbxUcDbq1ADicGd2HzfjjBFyoclrpElH1VV+
+BWSYAR0hrYGFxxV3gut0jzKwWbSVHrOmCCPChDJKWiT/8hL6b8cm7N7p6VxAFCoy
+YSl9aEScL9pOnCbRWl1NFb7izcg7fqhSSP6bwjdj55hOQgReOREPm5JeqZ+Hrjw5
+YBDbKmOqIpfuhWmGw92yCzSk
+=jQSo
 -----END PGP SIGNATURE-----
 
---===============0850358486257621786==--
+--===============4089456757752547374==--
