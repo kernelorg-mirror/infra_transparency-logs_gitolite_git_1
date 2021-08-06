@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3786087639780242323=="
+Content-Type: multipart/mixed; boundary="===============2778647604017289518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 06 Aug 2021 12:15:18 -0000
-Message-Id: <162825211815.2585.1083822199785548797@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 12:15:31 -0000
+Message-Id: <162825213124.2744.14017605986931807077@gitolite.kernel.org>
 
---===============3786087639780242323==
+--===============2778647604017289518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm
-    old: 314a1e1eabea5b86532e90e0d4e217fa88471e3b
-    new: d78a04026a9e8d989297d216ee7015317682fb83
-    log: revlist-314a1e1eabea-d78a04026a9e.txt
+  - ref: refs/heads/x86/paravirt
+    old: ab234a260b1f625b26cbefa93ca365b0ae66df33
+    new: eb50dc6c9c778bd60fd6abf2580e0cb4cc8d0262
+    log: revlist-ab234a260b1f-eb50dc6c9c77.txt
 
---===============3786087639780242323==
+--===============2778647604017289518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-314a1e1eabea-d78a04026a9e.txt
+Content-Disposition: attachment; filename=revlist-ab234a260b1f-eb50dc6c9c77.txt
 
-d26a357fe88e3875bcdf4a167d4182228c7e8964 s390: rename PIF_SYSCALL_RESTART to PIF_EXECVE_PGSTE_RESTART
-4516f355c55f6da231c494c6d2be7d863d02f13c s390/ap: get rid of register asm in ap_dqap()
-938e02beb3a0181ed1c7828e8939ffa32c350bea s390/irq: simplify do_softirq_own_stack()
-2ae6521504941650fd48bcefd288730c3e44211a s390/irq: inline do_softirq_own_stack()
-bb250e64e4702774ddee052b57136ab222f59ce1 s390/irq: simplify on_async_stack()
-41d71fe59cce41237f24f3b7bdc1b414069a34ed s390: introduce proper type handling call_on_stack() macro
-7c496e66a20865b79ebd271b323b3c7e222bfa03 s390/mm: use call_on_stack() macro
-de556892dc96e33bba7cda6a398f4d367cead50e s390/irq: use call_on_stack() macro
-845370f47fa0833d1b39be189c8bfea29a78ecc0 s390/kexec: use call_on_stack() macro
-0f541cc20129b8529c33f8aa42734f8bdd006582 s390/smp: use call_on_stack() macro
-58d4a785da45984ff7cf3046d5c3c35002c9d721 s390/lib: use call_on_stack() macro
-b8f4c89fd719289cee5634e0b1e918ab081ece35 s390/softirq: use call_on_stack() macro
-60a4813c4794281084a0f3de544ccf209f29a957 s390: remove old CALL_ON_STACK() macro
-a9b660849ffa70aaef868d0bc54e325919fe1281 s390: add type checking to CALL_ON_STACK_NORETURN() macro
-b55e692e6bcbec36b4e0ba683608e7e1e7aab8c7 s390: rename CALL_ON_STACK_NORETURN() to call_on_stack_noreturn()
-4ee471fe5a5a891ac4fcd45b5457fcb17de694de s390/linkage: increase asm symbols alignment to 16
-6a942f5780545ebd11aca8b3ac4b163397962322 s390: preempt: Fix preempt_count initialization
-b9d233ea21f192702f8bbf3f5f640e2dde308b25 atl1c: fix Mikrotik 10/25G NIC detection
-c34269041185dad1bab7a34f42ef9fab967a1684 mt76: mt7921: continue to probe driver when fw already downloaded
-015fe6fd29c4b9ac0f61b8c4455ef88e6018b9cc cxgb4: fix IRQ free race during driver unload
-96248d6da65744e1baaa29e5c4e5dc233e29838b net: microchip: sparx5: fix kconfig warning
-27fa107d3b8d13a57cdd7c7a40bd6548d4b9cef8 net/ncsi: fix restricted cast warning of sparse
-abd2fddc94a619b96bf41c60429d4c32bd118e17 net/ncsi: add NCSI Intel OEM command to keep PHY up
-163f5de509a8ec193df94a9b9afbeb1a9e3f46a6 net/ncsi: add dummy response handler for Intel boards
-5702b81ea47b3ca3db2e5fa4a382e72fd8eef693 Merge branch 'ncsi-phy-link-up'
-e0a3cbcd5cef00cace01546cc6eaaa3b31940da9 cifs: use helpers when parsing uid/gid mount options and validate them
-2b452550a203d88112eaf0ba9fc4b750a000b496 net: bcmgenet: Ensure all TX/RX queues DMAs are disabled
-1fee9db9b42d821e8007289d4eea74bdf85b1543 irqchip/mips: Fix RCU violation when using irqdomain lookup on interrupt entry
-f263a81451c12da5a342d90572e317e611846f2c bpf: Track subprog poke descriptors correctly and fix use-after-free
-1fb5ba29ad0835c5cbfc69a27f9c2733cb65726e bpf: Selftest to verify mixing bpf2bpf calls and tailcalls with insn patch
-3efe180d5105d367ae1dfadb97892ab93a89a783 drm/qxl: add NULL check for bo->resource
-47ce8527fbba145a7723685bc9a27d9855e06491 MIPS: vdso: Invalid GIC access through VDSO
-48400483565f0b7e633cbef94b139ff295b59de3 Merge tag 'irqchip-fixes-5.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-9ce85ef2cb5c738754837a6937e120694cde33c9 io_uring: remove dead non-zero 'poll' check
-ecef6a9effe49e8e2635c839020b9833b71e934c libata: fix ata_pio_sector for CONFIG_HIGHMEM
-34e0fc345ae728cd974d9ee09832abf62cf054c6 arm64: tegra: Enable audio IOMMU support on Tegra194
-c667dcd4dfcd515ad2c9b3953a33d742985a0b5e arm64: tegra: Enable SMMU support for USB on Tegra194
-bd9c3506032983d7bc3245015951db0aad9e6e3d Merge branch 'akpm' (patches from Andrew)
-227c4d507c71acb7bece298a98d83e5b44433f62 Merge tag 'f2fs-for-5.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-96890bc2eaa1f6bfc1b194e0f0815a10824352a4 Merge tag 'nfs-for-5.14-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 47a7ce62889a52841bcc8cec98dd3bf45af3b4f0 Merge tag 'ceph-for-5.14-rc1' of git://github.com/ceph/ceph-client
 e49d68ce7cc5a865ce14c1e57938438ab01c3ce3 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 38fe0e0156c037c060f81fe4e36549fae760322d libperf: Move 'idx' from tools/perf to perf_evsel::idx
@@ -486,6 +446,16 @@ a6c39de76d709f30982d4b80a9b9537e1d388858 bpf, selftests: Add test cases for poin
 674a9f1f6815849bfb5bf385e7da8fc198aaaba9 efi/tpm: Differentiate missing and invalid final event log table.
 2bab693a608bdf614b9fcd44083c5100f34b9f77 firmware/efi: Tell memblock about EFI iomem reservations
 947228cb9f1a2c69a5da5279c48f02bb4f49ce32 efi/libstub: Fix the efi_load_initrd function description
+9d7a6c95f62bc335b62aaf9d50590122bd03a796 perf: Fix required permissions if sigtrap is requested
+b068fc04de10fff8974f6ef32b861ad134d94ba4 perf: Refactor permissions check into perf_check_permission()
+d4e5076c3522658996dbb050aa6c708bd2c1a3c1 locking/rwsem: Remove an unused parameter of rwsem_wake()
+47401d94947d507ff9f33fccf490baf47638fb69 locking/atomic: simplify ifdef generation
+f3e615b4db1fb7034f1d76dc307b77cc848f040e locking/atomic: remove ARCH_ATOMIC remanants
+e3d18cee258b898017b298b5b93f8134dd62aee3 locking/atomic: centralize generated headers
+67d1b0de258ad066e1fc85d0ceaa75e107fb45bb locking/atomic: add arch_atomic_long*()
+cf3ee3c8c29dc349b2cf52e5e72e8cb805ff5e57 locking/atomic: add generic arch_*() bitops
+3f2cbe3810a60111a33f5f6267bd5a237b826fc9 perf/x86/intel/uncore: Fix IIO cleanup mapping procedure for SNR/ICX
+92279a3b11a0a8486ce6b92384ddc0849eb4060f perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
 937654ce497fb6e977a8c52baee5f7d9616302d9 perf test bpf: Free obj_buf
 9cb2ff11171264d10be7ea9e31d9ee5d49ba84a5 spi: cadence-quadspi: Disable Auto-HW polling
 50d8d7e19c4398da74d028f367754e73547b078b dt-bindings: display: renesas,du: Make resets optional on R-Car H1
@@ -918,6 +888,7 @@ b53e041d8e4308f7324999398aec092dbcb130f5 drm/amd/display: ensure dentist display
 f2ad3accefc63e72e9932e141c21875cc04beec8 drm/amdgpu/display: only enable aux backlight control for OLED panels
 ec30ce41f03820b6289513344b4281ca3a1151f4 maintainers: add bugs and chat URLs for amdgpu
 773af69121ecc6c53d192661af8d53bb3db028ae io_uring: always reissue from task_work context
+bb7262b295472eb6858b5c49893954794027cd84 timers: Move clearing of base::timer_running under base:: Lock
 8373cd38a8888549ace7c7617163a2e826970a92 net: hns3: change the method of obtaining default ptp cycle
 82d712f6d147a2fb9998d0ede483949e80fed759 Merge branch 'for-5.14-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 76b4f357d0e7d8f6f0013c733e6cba1773c266d3 x86/kvm: fix vcpu-id indexed array sizes
@@ -959,6 +930,13 @@ b1c2f6312c5005c928a72e668bf305a589d828d4 net/mlx5e: Fix nullptr in mlx5e_hairpin
 e9c6729acb38bcf027e40a5b50b2e1b0aa4bc170 HID: fix typo in Kconfig
 ebe0b42a4252333aa4af60fd4d11b69405aa6068 HID: apple: Add support for Keychron K1 wireless keyboard
 0818ec1f508fc3b8e957f6c7f77b988c5bc24da7 HID: Kconfig: Fix spelling mistake "Uninterruptable" -> "Uninterruptible"
+c52787b590634646d4da3d8f23c4532ba050d40d x86/smp: Add a per-cpu view of SMT state
+371b09c6fdc436f2c7bb67fc90df5eec8ce90f06 x86/mm: Refactor cond_ibpb() to support other use cases
+58e106e725eed59896b9141a1c9a917d2f67962a sched: Add task_work callback for paranoid L1D flush
+8aacd1eab53ec853c2d29cdc9b64e9dc87d2a519 x86/process: Make room for TIF_SPEC_L1D_FLUSH
+b5f06f64e269f9820cd5ad9e9a98afa6c8914b7a x86/mm: Prepare for opt-in based L1D flush in switch_mm()
+e893bb1bb4d2eb635eba61e5d9c5135d96855773 x86, prctl: Hook L1D flushing in via prctl
+b7fe54f6c2d437082dcbecfbd832f38edd9caaf4 Documentation: Add L1D flushing Documentation
 6ca2350e11f09d5d3e53777d1eff8ff6d300ed93 HID: wacom: Re-enable touch by default for Cintiq 24HDT / 27QHDT
 7cc8524f65ce1a350042836c7cf837046aaa6e21 HID: wacom: Skip processing of touches with negative slot values
 a59c7b6c6ff6d5437f293709e766f939d7107266 platform/x86: intel-hid: add Alder Lake ACPI device ID
@@ -1017,6 +995,12 @@ fc43fb69a7af92839551f99c1a96a37b77b3ae7a can: mcba_usb_start(): add missing urb-
 928150fad41ba16df7fcc9f7f945747d0f56cbb6 can: esd_usb2: fix memory leak
 094121ef815f29d9e6a01fafca365831454ce293 arch: Kconfig: clean up obsolete use of HAVE_IDE
 028a71775f811e9d60664ba2c248ff95c6cf57cb gve: Update MAINTAINERS list
+b860d367586aed8c88bf020191777af2cfe737a7 Merge branch 'x86/cpu'
+2f9eeec3f447cb6aa4f5fabb348c603815296b2c Merge branch 'timers/urgent'
+ed7c691b4de690906f65eaba6fc9fe5aaf6e5109 Merge branch 'sched/core'
+a4d7292e2c1a773be6f71c2c34814b70dd0fb767 Merge branch 'perf/urgent'
+3e2cd37c296b32c299f6f67707f5a888eab6a8a4 Merge branch 'perf/core'
+f6a71a5ebe2354888c7fa45b579f18180f2f6b7e Merge branch 'locking/core'
 b2ff70a01a7a8083e749e01e5d3ffda706fe3305 lib/test_string.c: move string selftest in the Runtime Testing menu
 f267aeb6dea5e468793e5b8eb6a9c72c0020d418 ocfs2: fix zero out valid data
 9449ad33be8480f538b11a593e2dda2fb33ca06d ocfs2: issue zeroout to EOF blocks
@@ -1041,14 +1025,30 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
-4cf0771d1ab363feb40bc27f4e29c293e5ee961d mm: Update ptep_get_lockless()'s comment
-138521ac68bc98e713d4276af7dc2664d9b623b9 x86/mm/pae: Make pmd_t similar to pte_t
-bb4c7dd5ec02618ebc544c110913f33b4d067591 sh/mm: Make pmd_t similar to pte_t
-d88a53d5c0050a1389e2afadaa422c54e36ba9ea mm: Fix pmd_read_atomic()
-bbd77a8d5670e733907c7ccc437652e046a2868d mm: Rename pmd_read_atomic()
-afb3d6c60e49808aec3f1ef52f685fff381748e3 mm/gup: Fix the lockless PMD access
-c307453a836a35e35366b5a8e6a0a563495bb48f x86/mm/pae: Don't (ab)use atomic64
-0b8c87ff6640d99d53166a3dd91dd78d1ef12e69 x86/mm/pae: Use WRITE_ONCE()
-d78a04026a9e8d989297d216ee7015317682fb83 x86/mm/pae: Be consistent with pXXp_get_and_clear()
+5ecff47c6eefec4523f55a2baaa596a308c24e14 Merge branch 'tip/master'
+969e761d4c7d944ce47281d945a3dc5b38b2372d x86/xen: Mark cpu_bringup_and_idle() as dead_end_function
+c2b2837fcd920925f76b05774cc60c760bebaa27 objtool: Introduce CFI hash
+aa3d946bfe3a6b80293623d4e67883b68d0417a3 objtool: Handle __sanitize_cov*() tail calls
+fee94d58f1aa4b0834385e8ead7aa6e1b6fef9c7 x86/kvm: Always inline sev_*guest()
+2ec7b1886666d49020fc42bc535d168b4fdda7a7 x86/kvm: Always inline vmload() / vmsave()
+ac2782ef0375869188a68a61ce5eb5e501bc5ed9 x86: Always inline context_tracking_guest_enter()
+e6ad2ecef4821e7da20461382be44dea6d0c174d x86/kvm: Always inline to_svm()
+1039891b2bd262f996f7fc03e554750b3984bd05 x86/kvm: Always inline evmcs_write64()
+a3ce1f5a205964a3844d324b1a6d7a9db9835200 x86: Always inline ip_within_syscall_gap()
+0b19f83d178144e0c32c2c713d35c9916d5c120e x86/sev: Fix noinstr for vc_ghcb_invalidate()
+8a49f165245579362ec5d7f96170417bff21ebb1 locking/lockdep: Avoid RCU-induced noinstr fail
+63f126e9dda6fbc152ce98a24f424edac23a4e95 x86/paravirt: Mark arch_local_irq_*() __always_inline
+bc8ec578e1ba9973f7a645a42dee13ba8de35e83 x86/paravirt: Use PVOP_* for paravirt calls
+532586ee112f0383966747010ac3dd6b8bbba609 x86/xen: Make read_cr2() noinstr
+415a24a38a62fa26e582851cc784b5c714a27093 x86/xen: Make write_cr2() noinstr
+b8b201f4fda0fb3cbf27eadbf7c240cc72563580 x86/xen: Make get_debugreg() noinstr
+68568f239cdee77a0e9549e26be5279053b524c1 x86/xen: Make set_debugreg() noinstr
+95574f14d4b49cdcdceb92c3cd8991d2ceb82458 x86/xen: Make save_fl() noinstr
+ebef08bb4f25a9351551dec5ea8ae3ca3b5f30e6 x86/xen: Make hypercall_page noinstr
+3e13a129ae443e91420d849980af3d764859a15a x86/xen: Make irq_enable() noinstr
+20379bdbff24fc7d466414273b42ad82afb1bb42 x86/xen: Make irq_disable() noinstr
+b1e4a6c3ac465500731432328fb140fdd2468a7a x86/xen: Mark xen_force_evtchn_callback() noinstr
+1a5d933e5d5a26580550ff42f0499329a262fdb3 x86/xen: Rework the xen_{cpu,irq,mmu}_ops[] arrays
+eb50dc6c9c778bd60fd6abf2580e0cb4cc8d0262 objtool: Support pv_opsindirect calls for noinstr
 
---===============3786087639780242323==--
+--===============2778647604017289518==--
