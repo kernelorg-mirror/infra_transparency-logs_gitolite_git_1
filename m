@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 06 Aug 2021 10:25:15 -0000
-Message-Id: <162824551559.26335.13200623180830478228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 06 Aug 2021 10:43:39 -0000
+Message-Id: <162824661975.4151.17772029842259479925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: f55be401884d651350f15881cb5a9b8a8f120b24
-    new: 4be393a4ba59a2cada9d374c059544ea2bc0c0ad
-    log: |
-         9ea47344ca59f1fb9fc5dfb11f223a309c0644e3 lib/buffer: add support for "safe" encoding
-         4be393a4ba59a2cada9d374c059544ea2bc0c0ad libsmartcols: use lib/buffer, remove local implementation
-         
+  - ref: refs/heads/stm32-dt-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 1e6bc5987a5252948e3411e5a2dbb434fd1ea107
