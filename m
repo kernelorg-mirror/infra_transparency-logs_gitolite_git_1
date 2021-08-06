@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6798930082760030748=="
+Content-Type: multipart/mixed; boundary="===============0361955249768317265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 06 Aug 2021 08:08:55 -0000
-Message-Id: <162823733549.14775.10988707170901735372@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 08:08:56 -0000
+Message-Id: <162823733622.14840.6875259922107917596@gitolite.kernel.org>
 
---===============6798930082760030748==
+--===============0361955249768317265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,21 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 29bb8b3fc24fda91eecc1df462f055d60eab817f
-    new: 973e6de1bccded350bd108b0a132b72d68808569
-    log: |
-         fea0d1ea2848b12eb7abcbcf63777fb70a7e4714 btrfs: mark compressed range uptodate only if all bio succeed
-         0bf54c7c164df0bf34e410a1fad700f8a7293876 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-         fd55515da2fd068423d4a0615b00104378ca2399 r8152: Fix potential PM refcount imbalance
-         d2a6bd99dfe712fb1944e291c48abfe70da5b17b net: Fix zero-copy head len calculation.
-         cf4288ccf783f0a195c9540583af366ee4d1b34c Revert "spi: mediatek: fix fifo rx mode"
-         cf00a0e33d816b8c9500967f565ba4e0c8c5bc82 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-         e09df736fb16f34c7a189554ddef18cc5e5241bf can: raw: raw_setsockopt(): fix raw_rcv panic for sock UAF
-         973e6de1bccded350bd108b0a132b72d68808569 Linux 4.9.279-rc1
-         
+  - ref: refs/heads/linux-4.14.y
+    old: 94cb1fed447ac8d328a8b50f9583df4ce70793e2
+    new: 260898df6bba8375f1c0f444bf9e0fa07605f639
+    log: revlist-94cb1fed447a-260898df6bba.txt
 
---===============6798930082760030748==
+--===============0361955249768317265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,25 +30,44 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237334 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1628237333-ad97da363cb2d7e34a0ea6a5d1cda1f4bb29d4e0
+nonce 1628237334-44287bfe1bcb6682a1d400edaed52ec584970923
 
-29bb8b3fc24fda91eecc1df462f055d60eab817f 973e6de1bccded350bd108b0a132b72d68808569 refs/heads/linux-4.9.y
+94cb1fed447ac8d328a8b50f9583df4ce70793e2 260898df6bba8375f1c0f444bf9e0fa07605f639 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM7hYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z5gP/0n3UpFJc2xtFW+JirvY
-MgLLsKXzV7T8kIeLDeWoj+DlyaTBqTH3mIAy5xNi61MdcDWkPpPCvxNwBcV0BhsB
-NEO6oVnuNyUv74ergfEiTPwpFrwZbAnDlAED72+MnjJnBT0KfiI/8npElHsPErp0
-dGT0IWvu48l/LJ5/n9rFhrtelhiSkG9eoRhdpx+akDjLWu5a/GUdk1hvQfp9Hb82
-JUzr53Qopn17yhwUpObLk+mlX0wWcTF65ZNcheH+Im4LRJ7Wl2ONqdqfBC4lvnbk
-aHPcda5pCMGIqqlke3dyECKJMiB02Qs/2rl/fAq32767L/mCq2becXu7C7oGD2OA
-pOwm3aMBVilExZ0xjSSo/qZy3n7VzD3ejyhvWcm7km38rxV1rDCDCs4NZTuuxUnu
-nfSZwjoF1c6BVMyojoyw///OcfecF1sIfXBeoLl8Ina7RhxCyD4/JI6CirrBinN8
-Gqup/pg8UkOVI+1X4gsVmna7FtibWM8C/aG9xeuQf6CNXFl+bo3Dqh6msywcMN3S
-/1eL2TigSdpATVC+t8+g2H5kJPPmd7gBUD/Pecv9ZtdL4+3MKsKMtmz8gPFu02nI
-/B0zhHiugDLKxoVf647P2pNP/NJZxhXY2r4yPuw1b90fh/xCNYB83wwpWuWJuu9C
-o5TM6jCYLUvgCcnRwaEJq2d5
-=kfjd
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fz0P/1z5Zt38z2hO2ND0ymcY
+GiVnyXrqEOWiHGHY1fXK2YELZaINrJeAqcInRput0gwL3cL2ZoA3+fLithhqTYlK
+5XFrJUwWp3kkQQKefdH55Um6IZZqq1yoOyNhwfg8iPfOCXIuuTB9oYwL748UYoif
+XFjLDPtI3isoSZl0ZfQMU0jgZ2qerZpqpfotddEg2Fs7zo81vir8ZsfHh/UpTVVO
+y0effdKE80QBWjx5HeCFr0egzohAFqDPA2xYrXrfAzjLM2WBb1xHyEVVlFpqOsXm
+8CETsgpoVEe5Nc3lAH340ZZA0qkP5BnmwBEDZhszT/T5tIl5ZN5cKPJ0ypnQcNkd
+dvEmwq0aoy4UczxXjI5fBYwsC1QvouXmT/w0CwGXTxg6mmSR84QMc88r+n/GgdR9
+iafKI/HWHh18LxfSgi1QUHm4zdMsZ8O49NPRJ9YXZHBxrNUl27wGEQ+scOBxt7QA
+32LQEs1iz2S8lEQbWkkI0GH8QUoHCneDPGIIYJLvRPHvhAC7iEL/1sv0mrX7LYi6
+eopJgxeoyumXvOAZMnd9W91Znj2zjoQ7m7Q2FT3p+MSKyN50Tu0fBie3QiQ6I3If
+RbXaj4eZo2b26dBVOhx7OdrTF7obD9WqWEl8acnAje3Cs79tOuriXoKrRF0TxxZ9
+XtkRzz6yJPrtojbHi/QBh1th
+=Q8BD
 -----END PGP SIGNATURE-----
 
---===============6798930082760030748==--
+--===============0361955249768317265==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-94cb1fed447a-260898df6bba.txt
+
+f7131f7815f75b272e7de33e7d79626469ff62bc btrfs: mark compressed range uptodate only if all bio succeed
+ee5dd7d6baf100ad2b761604c4d0d2547bb9918b regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+fbb4fc2353eba5b07793cb389b13098e48d113ec r8152: Fix potential PM refcount imbalance
+c7daca2b386a6fd31fb91ffacaa9b51eb99d3710 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+b1b021ee1d57cde7c08ec7df76a9ab7a264f14fe net: Fix zero-copy head len calculation.
+0d11f953a324613eccd3109cb5d684c91ba28b5a Revert "spi: mediatek: fix fifo rx mode"
+5343c63beba6b02a0ac89a06747d4e643685286c Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+c2faa99032af452d87a3175afdf988ea0d620053 KVM: do not assume PTE is writable after follow_pfn
+b29d26122cc456b259c325f4e301f2930d574d66 KVM: do not allow mapping valid but non-reference-counted pages
+c1c4fb8367a424e24d2c1c11f25230e351d4c63e KVM: Use kvm_pfn_t for local PFN variable in hva_to_pfn_remapped()
+a8bb119870e7b2c91c1acab00313cb7f721e19c6 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
+260898df6bba8375f1c0f444bf9e0fa07605f639 Linux 4.14.243-rc1
+
+--===============0361955249768317265==--
