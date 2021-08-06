@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 06 Aug 2021 14:22:53 -0000
-Message-Id: <162825977346.29592.11482474829104557914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 06 Aug 2021 14:43:35 -0000
+Message-Id: <162826101501.9926.705313328225201566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/topic-rpc-with-tls
-    old: 5c40038363a9a35d404288277c2c2328d864943e
-    new: 6a51eeb6ee4c53505692db0030e8a6b02653a029
+  - ref: refs/heads/v5.14-next/soc
+    old: b703ddeafaf3c04dcfa305dd82399a1b1109dab4
+    new: 25423731956b3d72bc35d336227c88ada49148e8
     log: |
-         3c06d8b6722124339bdb32b748d843fa1877abc9 SUNRPC: Expose TLS policy via the rpc_create() API
-         717f0b0614bacb47eb63bf08ac84842464df11ca SUNRPC: Add infrastructure for async RPC_AUTH_TLS probe
-         131c5be97000ca2eb925d4932079581f934235b3 SUNRPC: Add FSM machinery to handle RPC_AUTH_TLS on reconnect
-         ace457f19a74e01ba8c58fc1a715ef734092d00b SUNRPC: Reject TLS_REQUIRED on xprts that don't support TLS
-         1f4e50cd06c86a27f376e41b935e6b8f00247dbd NFS: Replace fs_context-related dprintk() call sites with tracepoints
-         bcabf906588f61ef760531f8a1b6db7aa424d9d1 NFS: Have struct nfs_client carry a TLS policy field
-         6a51eeb6ee4c53505692db0030e8a6b02653a029 NFS: Add a "tls=" NFS mount option
+         bc3fc5c05100712fa56418f4e3e38f30e6e6f1e7 soc: mediatek: mmsys: add MT8365 support
+         25423731956b3d72bc35d336227c88ada49148e8 soc: mediatek: mmsys: Fix missing UFOE component in mt8173 table routing
          
