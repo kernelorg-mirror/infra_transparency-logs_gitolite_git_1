@@ -1,30 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 06 Aug 2021 00:40:58 -0000
-Message-Id: <162821045891.1335.15498997428592235861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Fri, 06 Aug 2021 00:44:32 -0000
+Message-Id: <162821067255.2732.9155853842374871480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/for-linus
-    old: b75524c6efbff2cb5ecbc1d4d8f7e2b1f7a0fc76
-    new: 37610bcbf59c4991f9fff52c971956a9130d2f9b
+  - ref: refs/heads/pending-5.10
+    old: 38052d0be96b8f53d41512e5e409bfd643a2293f
+    new: 254eb2ab23751db14d5c2356239b22693d82b500
     log: |
-         0395be967b067d99494113d78470574e86a02ed4 spi: cadence-quadspi: Fix check condition for DTR ops
-         37610bcbf59c4991f9fff52c971956a9130d2f9b Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+         254eb2ab23751db14d5c2356239b22693d82b500 xfrm: policy: Read seqcount outside of rcu-read side in xfrm_policy_lookup_bytype
          
-  - ref: refs/heads/for-next
-    old: f461098ed7ac9651dc8acc3f45ce123468327296
-    new: 14b55b2076253f68879482183cfb82868afe1c12
+  - ref: refs/heads/pending-5.13
+    old: f7617e41ed8da22f2136bbd7fad4ccd75980b27a
+    new: af94cbab01cc23139bdf25372f8e33895a5650e8
     log: |
-         8c33ebfeeb597ea953df93f84ea25482d29c664f spi: move cs spi_delay to spi_device
-         04e6bb0d6bb127bac929fb35edd2dd01613c9520 spi: modify set_cs_timing parameter
-         0395be967b067d99494113d78470574e86a02ed4 spi: cadence-quadspi: Fix check condition for DTR ops
-         37610bcbf59c4991f9fff52c971956a9130d2f9b Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         14b55b2076253f68879482183cfb82868afe1c12 Merge remote-tracking branch 'spi/for-5.15' into spi-next
+         c1aff127f21bfdeeb58f0864b9c7e9ed76e08a07 usb: typec: tcpm: Ignore Vsafe0v in PR_SWAP_SNK_SRC_SOURCE_ON state
+         fd5461b39060978a8e24f5a30d08aa07c70efaa5 drm/amd/display: Add fallback and abort paths for DP link training.
+         a3c985af72f255b42fdf11f09bc9e9f32dd490fc drm/amd/display: Revert "Guard ASSR with internal display flag"
+         f3449ece3a38219c82ca916d3bef62da622e72d8 drm/amd/display: fix gcc set but not used warning of variable 'old_plane_state'
+         4d789dbaf5bac96d1d1d975116146ce895def1bc Revert "drm/amd/display: Fix overlay validation by considering cursors"
+         b7ad0b2295c98d8ea603c7e916745bd55c645f2f s390/signal: switch to using vdso for sigreturn and syscall restart
+         af94cbab01cc23139bdf25372f8e33895a5650e8 drm/amd/display: Fix ASSR regression on embedded panels
          
