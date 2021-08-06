@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 06 Aug 2021 14:02:12 -0000
-Message-Id: <162825853216.12225.13830625643270872455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 06 Aug 2021 14:08:36 -0000
+Message-Id: <162825891646.19249.8652844455654731739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/dmaengine-fix-5.14
+  - ref: refs/tags/soc-fixes-5.14-2
     old: 0000000000000000000000000000000000000000
-    new: d971371c56c588e0df0da6ca6896a51f2626c558
+    new: 082947e5a95d7a61d702389281df0137549bbd99
