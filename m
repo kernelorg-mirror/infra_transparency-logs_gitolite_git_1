@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8502742278805878404=="
+Content-Type: multipart/mixed; boundary="===============0950436237763068378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 06 Aug 2021 11:03:49 -0000
-Message-Id: <162824782905.18373.15194610564107171470@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 11:07:17 -0000
+Message-Id: <162824803790.20897.4935081551725479386@gitolite.kernel.org>
 
---===============8502742278805878404==
+--===============0950436237763068378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/sysfs_defferred_iomem_get_mapping-5.15
-    old: 0000000000000000000000000000000000000000
-    new: bb1b79c95e4002a013af34648c8844fde6f15264
+  - ref: refs/heads/driver-core-testing
+    old: 112cedc8e600b668688eb809bf11817adec58ddc
+    new: 96ba6c6e8922e89ca4908c650072d8f8d7b39cbc
+    log: |
+         93bb8e352a9136a56dd26762bf54cf6554cfa96c sysfs: Invoke iomem_get_mapping() from the sysfs open callback
+         f06aff924f975881a6abf91d2af0078fc8cd37bf sysfs: Rename struct bin_attribute member to f_mapping
+         96ba6c6e8922e89ca4908c650072d8f8d7b39cbc Merge tag 'sysfs_defferred_iomem_get_mapping-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core driver-core-next
+         
 
---===============8502742278805878404==
+--===============0950436237763068378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628247823 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628248035 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1628247823-ff13b2368e178c334b9cf9410f332e19d3c2cd75
+nonce 1628248034-0937e2b47acef26bb6770abf70c74b0a2cee60d9
 
-0000000000000000000000000000000000000000 bb1b79c95e4002a013af34648c8844fde6f15264 refs/tags/sysfs_defferred_iomem_get_mapping-5.15
+112cedc8e600b668688eb809bf11817adec58ddc 96ba6c6e8922e89ca4908c650072d8f8d7b39cbc refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmENFw8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DeQP/3Cy0A5qOSOWeuUTRwLj
-KjzkSOznRDs57aradkIY0JVVe3V+UPqKF6TAZROzHECHHODfSde9k5hbyEweqaGG
-EuHbmX2Tr+q9uueVv02f8dxjU4GzhuHfMbhD8/4hB74pHwJyl/45DnSHmvxuM23/
-R45XHtt3uDM1YhpkDiZyMfwmt2RZjZ6dMl8V0ORToMuPs5fyC3mfATXbMo3h62en
-RkZ632Ro9XnpBdiO+AzXhxDd/UY6V67tk+m+n7i0ZgdHOR6FKSwf2SpAlyEXsaWU
-V6SwlRX6FzO1KXdqiQDCSdxS+y1bZ02EGL1HGdghH1nHW6YzPzizkk9vFi4/su2z
-8ZHun+kHsRcKXqe4ZKwSgtToR64se+wTwKSAIO3Efyww21rOcLGqVP51SZhAmF76
-u6Ybs/Q7IwVwL9j+sohZjy8NWgdKTuibigtxwWLAaLWiEzd/EyOPHwEvNp7w8zdO
-G8D1lnMPzOBGfXrgMHycsEN5PhDs7I17z5PzYLmYdiGD4upNLgHtpWOWXRX/WrPC
-ib7G+sD5g8JWc5srUHToteY7F2WOkMMW2fX4L9Lehe1ad0RI1I/qE+0usIBLrtBg
-T0V9pZ+4YQjo6ex93rExXeaNI39y8iNTzKAk+rFb7IkPNfgwOlwy1tU6GVgfD38M
-TP8LkRJx2RPF4+1R/p3YpLzr
-=REiI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmENF+MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a9MP/AiF5p0ZWyrd6g0rBVzr
+e5U1nzo/3uXuey03xi0JzQpKVfHQaLnthbb1VWVpEf3RoxSvQ49Akx2czgjQhVv+
+qEN9OvMkSqu3XewzGf+OBvzfASU8VJgPYYJ4l8rrqJCVT0EnpevXhpDwr0+KAFfD
+4emDtq2HHF7Vu7wEkOZfCNURURoJ3c1eNJuOVA2pRUMiJGoS25+ScC2UOMo3B5lU
+Gho1+kJdcicHrt0aaFC53LXQSdFdFv3IF/WcrEI1GyIzbNRzu2cAZ98SgDATV+yp
+tzTx2qD1MjF+u4yJcNqBH2CdLq/Yjo43R8k6MlWjCIf7I6sPEDpFImo3npNggYdI
+ftXOl33zfu19JxMN3/upVDeugQE63EgwzLblR2tgh+6uwQXIua5Debhc1GqzczTF
+T309fD9xziDumgvO5LqGxO9fPcz7P9L0SpS8RNZ+fCfX/t1JCvNhdVo/V0dcE5Xx
+QUXIz4B/WQ7cCOpq6iSCvytNOTFdE3lxNTG2B3XI7xyRRZa0x+UD0UsgGa9+ctZ3
+Hd0Hf9CByFfFu1W6M0YQjBO4jHQoliRDoQkH/3FAyzebl7MsSoR9MbTAnZ+tM5Et
+5rTpyrazRUcI91MEncEUORSNtS4Xcvw087zGXjm1ZA+oT4NdP9iT4T865IcErzwx
+hORCRXUM32UCmZ5Zi//74CVI
+=YICw
 -----END PGP SIGNATURE-----
 
---===============8502742278805878404==--
+--===============0950436237763068378==--
