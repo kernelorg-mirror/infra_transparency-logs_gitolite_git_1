@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5806813825676589322=="
+Content-Type: multipart/mixed; boundary="===============8840990864881327561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 06 Aug 2021 08:11:13 -0000
-Message-Id: <162823747371.18020.10825301671199680309@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 08:11:14 -0000
+Message-Id: <162823747453.18069.13838838531336270703@gitolite.kernel.org>
 
---===============5806813825676589322==
+--===============8840990864881327561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,63 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 260898df6bba8375f1c0f444bf9e0fa07605f639
-    new: d7decc4b25e5f95848a688261db9ff2d18604b39
-    log: revlist-260898df6bba-d7decc4b25e5.txt
+  - ref: refs/heads/linux-4.19.y
+    old: f3d55b3a53615681172ce5c9783a93773548f93d
+    new: 9c68cf432f4cb6091ecc834b0e3a729892247335
+    log: revlist-f3d55b3a5361-9c68cf432f4c.txt
 
---===============5806813825676589322==
+--===============8840990864881327561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237471 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237472 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1628237471-694e5aa15b5b17c948985469446a5693e9058fdc
+nonce 1628237472-328e7ea822bebcbb469428f500f9254039cd7fef
 
-260898df6bba8375f1c0f444bf9e0fa07605f639 d7decc4b25e5f95848a688261db9ff2d18604b39 refs/heads/linux-4.14.y
+f3d55b3a53615681172ce5c9783a93773548f93d 9c68cf432f4cb6091ecc834b0e3a729892247335 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM7qAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RjIQAK5IVsxFdPJN2uP72GLq
-SvkDmO8rdgp0l93w8JB+etEJSNGiV2YUmIRDUQeW0hjyu/PSe+TbPt5zt0ut4fpu
-KhvXEosPg1qGhUyU9osCVLwzr4a8F33NXXG4CUEMVYdgUXpD8meTUAXZvYSz5CIz
-yMrdWkuYSfOarevmvuPfTyVjQEKbnNJNYDyjh391zAIxqKx5qZzU5N0qUrvyPrZT
-Gf304nvhIllzwcNDvUbliMmPUPO9NP5UaET6AthOf7WxNM+HY7u2RHn2hGoyIpxP
-MdS9AYAHrtbW/jU/3cpqu9OJu1DUKL8EHEScXIzXPbvJOGOpc+QUzmZWZhvMXzkj
-A5vFHgwA9oz7cQ8dJDQvBuG6WpscYlRCA26pB0b+9AoOvlscm0SIWLXidGtP/ZSH
-pkl/ZUDdF37VYNRhXAR9jys96Kv3iFEFJ7Yc2MvlDhzhjc3q2D+pJfnR8gJ5ju1z
-UgVxxSsQAcAnp7RJzvFBupmA4Zm8jXHE6vhFquvO4Qf65HJfapxqpl/XydeqsOwq
-4YmnLamkowV3tISN8q3DQoafKAxPbrBCpeqdYzu9APlNXk08WjDg6tvDklf7G2CX
-rdUmWHPD/wkr8aSbU60EH+I12DM3/BTIPwD2833+4l74/scWxpLend8rxqGM/sj8
-AdTdwrADisZUxm120/uR2MFH
-=gTLp
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EfAP/2gpzvKgvvuW5z7gyoDd
+UMqGjMnG1S538x0EgEPvsYs3WGRD6fryZGFkcBClZCbPQXeWtruNIhEOaaVztK9z
+4csjVCnZ8LsG6qe70k/yPXF2U4aQ5HjaeC0zWvSDU+Cm04vI2bnwtyu74y/+RZ4P
+id9Q2EW3LcxRWPlEDwR83XhahUgPEi+HjI9WSI2pCvTjJRDU32r5Cqf67Oz6HBOH
+RCqVDzaGT/A18rqSa/uUF2wZgvFSzj+WPLhBGlXwuy+Thl5dFxUrBZJcBOCQw94J
++zzPOL7a7jdb2vfK3oiVDXia33eGFeBXVhRuvdL7vYsacOHYPREuZrjPl4fI7hFW
+WmGgtGK7u7gxQOlPApzP4Rcn6vf9yifHbIRcriMH6sPU5BhNdo3U7ysxFJGfsWa/
+Q2a9QZDM7iujlVv+M3Csvaumdnwf9ldk0Lhg7eFc2XAl/TOYGIjfF+IsnyX3JikX
+iNnM+2ahdwExK8IQPMHJ+/Ms3EUGsYORQsJxf+b5fr+PnZrmJ5zEcO+88IBf7suM
+ZeqpXzcqNs4bt+YWGkfKScuGHS9PRxMVzgxtWtTlOEIgWTcohHjv6162b84Wmg8Z
+45Udn3UBE8RbUesaATdOZ4QYjG9l2aXd4lryPZoC0BE3ZRgvDN/vSJozl+CMrYSj
+oPtFkMD9PCiKHAgf9Z4U8tFI
+=hxDO
 -----END PGP SIGNATURE-----
 
---===============5806813825676589322==
+--===============8840990864881327561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-260898df6bba-d7decc4b25e5.txt
+Content-Disposition: attachment; filename=revlist-f3d55b3a5361-9c68cf432f4c.txt
 
-f4eaf4767cf95ec3586cd3428681c2445eb541e0 btrfs: mark compressed range uptodate only if all bio succeed
-9f2b754070c6597efa0ac9adeebd4ef9f8168a3d regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-9b9f357906815a6ce57674a6438c66e7f1549453 r8152: Fix potential PM refcount imbalance
-861d0f5c072a6aa7dbe6238544e6496d128ddfeb qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-f78fb2e8baee065db1c11b916ac56e2a93b52a33 net: Fix zero-copy head len calculation.
-5e378077f01ccae947bdfe987cf782be1a8af825 Revert "spi: mediatek: fix fifo rx mode"
-c60399a31d8e6c5ae51824aaf8f92b395fd1403b Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-62ded58c7299885067ffa1faf950c8f8d2d68932 KVM: do not assume PTE is writable after follow_pfn
-08ba0dcff47d232c4c32fdfa74076632adc88efd KVM: do not allow mapping valid but non-reference-counted pages
-d61e2c01bbe0112bbcc5f933716dcc533a614110 KVM: Use kvm_pfn_t for local PFN variable in hva_to_pfn_remapped()
-846c4659cbefd2a9c73d0aee03f52346218e33d0 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
-d7decc4b25e5f95848a688261db9ff2d18604b39 Linux 4.14.243-rc1
+30fc31ce11efe44858c84ad4bff334b0a94d4468 btrfs: mark compressed range uptodate only if all bio succeed
+fe14a076d5438638e91d48d73102ac2d74876dd9 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+37996468c20cdd1ff1dd481689ec73349945fd8f ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
+fedca6cb4bbd13199f44d44359bc9d6d06387dd7 r8152: Fix potential PM refcount imbalance
+311ba504070f7b4d835c8e46c406e3d6da86fd0a qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+0a9333f484fd1087b79aee386c7f21a82400cb42 net: Fix zero-copy head len calculation.
+82c62be8891a69620142e9edfe169ced1cf87fbe bdi: move bdi_dev_name out of line
+08619bf617c92c1a55e655d2e68272e80e89db28 bdi: use bdi_dev_name() to get device name
+8eb1812649f25b12a49024f2b52450dbd97a748f bdi: add a ->dev_name field to struct backing_dev_info
+871c4422c01da5f43e1d35d00f8298f44ecc4e7b Revert "spi: mediatek: fix fifo rx mode"
+9b3dfadfd211245519d54a165289991d2acbe724 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+b5535589616fbf269e14a61a14d245e37f32d79b drm/i915: Ensure intel_engine_init_execlist() builds with Clang
+9937be594b4e30f3b2966c249fb3a1bc68d93c41 firmware: arm_scmi: Ensure drivers provide a probe function
+0401b91abafab56105c78de50c4037bc488f2617 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
+add58d022e3fab3c312977ec99b038cc51fa98b5 padata: validate cpumask without removed CPU during offline
+a5e28ce825123bfbabbe93e05479ade7a24a64ea padata: add separate cpuhp node for CPUHP_PADATA_DEAD
+9c68cf432f4cb6091ecc834b0e3a729892247335 Linux 4.19.202-rc1
 
---===============5806813825676589322==--
+--===============8840990864881327561==--
