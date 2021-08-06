@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 06 Aug 2021 21:32:57 -0000
-Message-Id: <162828557709.24482.16227220480840497803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 06 Aug 2021 21:32:58 -0000
+Message-Id: <162828557838.24546.1682518673502325279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 4415e4cea4e6db863829914a48b68b7797db2f59
-    new: cc2712f24e032f2bebf4355207638bf15ca676b5
+  - ref: refs/heads/tmp.master
+    old: cc0212340b1d5bce5c2ac312daac23992e274081
+    new: 037f0f239a46c90bd6f0f3b64666b8b79a45ab2e
     log: |
-         83abf9e150f36c6e03644c0608c5f60cd9661a6c dt-bindings: power: supply: axp20x: Add AXP803 compatible
-         cc2712f24e032f2bebf4355207638bf15ca676b5 dt-bindings: power: supply: axp20x-battery: Add AXP209 compatible
+         faee7d56cd2a5ef1f4996067563966e0bf630023 pahole: Improve the type sorting routine to consider multiple types with same name
+         d26ca046501c88174024b1bf700e56f0f4410dfb core: Introduce helpers for getting the first and next members of a type
+         aa8b5575308d2ffdacecd900c2de84ff5ea8e0b3 pahole: Consider type members's types when comparing unions, structs
+         037f0f239a46c90bd6f0f3b64666b8b79a45ab2e pahole: Consider type members's names when comparing unions, structs
          
