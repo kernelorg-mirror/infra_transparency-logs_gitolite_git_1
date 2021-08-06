@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2823212188646366476=="
+Content-Type: multipart/mixed; boundary="===============7123916168618912077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 06 Aug 2021 08:11:16 -0000
-Message-Id: <162823747625.18213.9090955181688994925@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 08:11:17 -0000
+Message-Id: <162823747761.18274.10197445598198871064@gitolite.kernel.org>
 
---===============2823212188646366476==
+--===============7123916168618912077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,77 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 7b90d57b09fa3513a31e6f05f07a5f1f19438e15
-    new: e6d9a103071fd29a034b969983747f48d429ce9b
-    log: revlist-7b90d57b09fa-e6d9a103071f.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 9746c25334cb364ab6651ee6dfd4cab3218d0c06
+    new: 2966d5d5122963b08200afc8de1d4f284cd6c31d
+    log: revlist-9746c25334cb-2966d5d51229.txt
 
---===============2823212188646366476==
+--===============7123916168618912077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237474 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628237475 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1628237473-5c73aeaa75a5ddb0239c60ba401696256f4dbf03
+nonce 1628237474-12dc9673172974d2203359960c8b0ad9f31518ed
 
-7b90d57b09fa3513a31e6f05f07a5f1f19438e15 e6d9a103071fd29a034b969983747f48d429ce9b refs/heads/linux-5.4.y
+9746c25334cb364ab6651ee6dfd4cab3218d0c06 2966d5d5122963b08200afc8de1d4f284cd6c31d refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM7qIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SPsQAKYRrrCaf/Ilnz0kVfWf
-Cu9vsVbO2FhY/8U7AgadUzTPLxMZy8gpH/gXsLrDThs7KYuL7KPoHR1vv9KGq22i
-3c3wV9Q86aMI7zaMOwwhQiNVuexXMTXcPtyaWUhs/FeAJNEKhaWP4uKo/WwvVV+E
-9gndUHfh9zbo0boVu9nqtuH9yMob3P3MSKWIO9drC3emrwTfi3frVoLuvPKTBYFy
-shvdmZva3OqkN1y+oKX1ORPB+Z0fHwXezHcobC1sazHWnk6eNaUWJ3E/I7etbB5j
-C74F6psYa6jQbgrl/0ewkn3bJ14vGv8x4sJ2KXR1SoRwMdBTB6X34a+/rlcJve2X
-ukh5BeEFdjQoWdegxWZgWNSaBuiKB+Ovja+ITU0aksBoW48EsudP/DS+pw8uRxH2
-LRf1IAhqXyBj/RL7eSxhbMTogEIsw9X3UuKjvIm/vBbSDvrNR2uElwFUW0bMVF3j
-uf2O5Uv77Kc6c5EgQSuiy8Bm3CqSq9nuyYr4EulV+z1Rj4cBOrbR3G5PtyGbQeFI
-3oDZobfYg0hgEseiTq5E3nW2em7hCQQaEDIY2D03Ud1sD0QozKnALSBP2fqYgA6I
-55mF329DRPNiJng7y9ylbbSuR79mqc3IWqRaukOHqzsoSRKWfnv17cCwp4Bf1GlZ
-Dk1ISlCCuFfbniBtxnF2mH8G
-=E0/e
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM7qMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K/8P/3rTxNyOXFBaOyHDfIQy
+eJluFII4+3RXLtqmMKRGR0GoS8a36gMwKGK+rcHSvsAzGRnCwuoFiBo1bBGmOee8
+u8/ZO3JTsbvRnmjIv8BfuDcNPj2k8IUDO+ZnZzRz2wsFnqaCq/Vx27tP8OeuTdfr
+oJKSErw0bG/BrBEM5oVsiF+Js4LuQKyUJIDAA+kVGOoAW6m74Lyisv6UK/fh+Rz/
+vhwUAonR30kzi3aK2094lIukMF0mECgnFhsb3oRgLISqZltwgpdrmyH7nSsPlO/B
+6nnphuLHGMyIsK7OOcI6RQ5tm3Yad76ndU5pytfWVcGcl4X3faEY+u0ZMe2FK2wz
+RCiGKTm3RdFAH/XdgnbPLfO4vqfBv/XPRI3XPmFfJOycNhP6syFKQ40ahdlYwJ1E
+YGZIoLGMy+ZDU1hd5X1LUF4RbMTg07plQg7NV+wiG3yoCY1fkmwJ0H3MpV33Ia9z
+CXBAxsHqQSBUcD47YcPjYwwr/kyF5SVRL8lYWwDfF68f56U3MPh50xS+khreuiA2
+A3hv9gVJ/YxcRVsQkLycrKrn9dr0FYKKUUPAJva/8lBgH65S7kFa9KZoW95VMXhr
+ukiXodTVQ6EduC5ohUD6+3d1PeF8JRxM5kRoPOnl6th7zcDUojr3ZqtfiytbKWQZ
+hgzuIxtZ76ONtstyZMtfxKar
+=X6df
 -----END PGP SIGNATURE-----
 
---===============2823212188646366476==
+--===============7123916168618912077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b90d57b09fa-e6d9a103071f.txt
+Content-Disposition: attachment; filename=revlist-9746c25334cb-2966d5d51229.txt
 
-1be3eae8b36a0acd434c48a1b25604f8dbf62087 btrfs: delete duplicated words + other fixes in comments
-b5e2a1161e56356c8f30c5ef77d33f07f2ee86f1 btrfs: do not commit logs and transactions during link and rename operations
-662711bef0b26cc641dfdaf37fce9663e12a8164 btrfs: fix race causing unnecessary inode logging during link and rename
-7a9af49b4a70986d0aa225f1f9e43193abcfdef9 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
-03064aca5c8ac17647ad644c2f0e6ceb7d4742f5 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-2cdffbb70e5e8773e1eddde70dc6c59a99135c18 spi: stm32h7: fix full duplex irq handler handling
-9da3d484c4a99d0f9b1c0f37a69cf4f83948c671 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
-5282681d09c474e7cd72ef69deeb235a7a8bc8da r8152: Fix potential PM refcount imbalance
-a30d501116cfd362c0baafdba393b648773dcc44 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-6b137b2285b388e5108588fd3e6c879ff994f130 net: Fix zero-copy head len calculation.
-486624b85ddabd0288153e4f94ea2fe7700ac8bb nvme: fix nvme_setup_command metadata trace event
-466261ca17729c594710d843088f141cca028290 ACPI: fix NULL pointer dereference
-fc931e296d0b1c55689736e9b71b99bcd0c7df97 Revert "spi: mediatek: fix fifo rx mode"
-967754a5e36ab3389a314f70291d6e1bfd48233f Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-70914a4ea55357dbbecda21463bc34762677ceb6 firmware: arm_scmi: Ensure drivers provide a probe function
-ba15be7904783dedf97057d049e3d553723a6d46 firmware: arm_scmi: Add delayed response status check
-f9b50048e1c8b5221b1e78c39d9e15fcfcdf9e39 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
-3c1e341a0e100aecd637071565962892f170b11a bpf: Inherit expanded/patched seen count from old aux data
-d1d2bfd068f4ad591d0853cb2a410d1ad13fef49 bpf: Do not mark insn as seen under speculative path verification
-ba7c84e99c5e4b311bf03bbc414d15a49f696186 bpf: Fix leakage under speculation on mispredicted branches
-ac8448dd062bf7b9b2ab5307cb93f26a0a23051d bpf: Test_verifier, add alu32 bounds tracking tests
-638848bcd95fb34ddea5373f16b7405c0c36be36 bpf, selftests: Add a verifier test for assigning 32bit reg states to 64bit ones
-f9a8cc78a0ae507be8bf8d06a923db6751fed5be bpf, selftests: Adjust few selftest outcomes wrt unreachable code
-e6d9a103071fd29a034b969983747f48d429ce9b Linux 5.4.139-rc1
+a67a81793b5ec6c1dabf5b5540e2feb103e4b45d drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+e6fd3c483e43a8372e1d6c4f176f2ba38c34b096 Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+56f101112661b2d2cd89f90342b8dbcc9fb834e1 btrfs: fix race causing unnecessary inode logging during link and rename
+2cb8f8215c481639ad2b1033b01774cd62958ca7 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+ee4b29e25e523f368f9283ea93718681e94c1f67 regulator: rtmv20: Fix wrong mask for strobe-polarity-high
+a0f20e54c1aa493d9ad2ce38327a36cdf1ae9a31 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+cda752049046ad3a79b54ced042ea269ea35470c spi: stm32h7: fix full duplex irq handler handling
+93aab78fcb97c2e35eccd8391fd7cd7f44b64294 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
+b932c01e337c99d8002c87e67f6992774906631e r8152: Fix potential PM refcount imbalance
+746c29842460922dfec363bb26cbb945119ae650 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+f47b1c129be69b8bf1c55e42a650d8cc4f96c637 ASoC: rt5682: Fix the issue of garbled recording after powerd_dbus_suspend
+6f61db911ff787472c05a8b0fbb98dc898f79766 net: Fix zero-copy head len calculation.
+d12fe099c1d707bfff171ce7f44ccbbe2e0b11e2 ASoC: ti: j721e-evm: Fix unbalanced domain activity tracking during startup
+b8e24ebb45d63b5dc91bc66c9804d85cc12d31ce ASoC: ti: j721e-evm: Check for not initialized parent_clk_id
+7ec88300add4de3b54213bef67dac14c1f178dda efi/mokvar: Reserve the table only if it is in boot services data
+07b4c584c4c8ddb2bdb7f376b4e464bb5eb8c517 nvme: fix nvme_setup_command metadata trace event
+be211f498b306e1826de51f5306c44487e76c99c drm/amd/display: Fix comparison error in dcn21 DML
+4a36311333c94a376d26ad9f37ebe3c25262f901 drm/amd/display: Fix max vstartup calculation for modes with borders
+60947d6a2052c59a8cfb527f475c9938111135b1 ACPI: fix NULL pointer dereference
+ec42cb841c69df504f31b212367336a817c4762e Revert "spi: mediatek: fix fifo rx mode"
+e7a226cc8647bc9b4b9e094005d18080cf8f8067 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+faeaa6107cabb4f2cc22f1303e40bc33a30788e5 firmware: arm_scmi: Ensure drivers provide a probe function
+8bb31a7de55eee9b2697dc77120df5a067b45a16 firmware: arm_scmi: Add delayed response status check
+938010f6fc8756eafe227db153d167abf289ec21 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
+7c6f43e5e3f0a35185e2c012ac1296200cc26cc0 selftests/bpf: Add a test for ptr_to_map_value on stack for helper access
+f42b563a7cee6254347d5f7147b69306d7507ff5 selftest/bpf: Adjust expected verifier errors
+62cb8dcf50893031d91b352ab0e44efb97194895 bpf, selftests: Adjust few selftest result_unpriv outcomes
+91cf4218d9690f6afb7adb70b3b3192d0a1554b9 bpf: Update selftests to reflect new error states
+c32f5b24f96f46abee096eaef3a41e7c398efed6 bpf, selftests: Adjust few selftest outcomes wrt unreachable code
+c9850a7995ef3f4a24a5c889e4192aefeb257592 selftest/bpf: Verifier tests for var-off access
+2966d5d5122963b08200afc8de1d4f284cd6c31d Linux 5.10.57-rc1
 
---===============2823212188646366476==--
+--===============7123916168618912077==--
