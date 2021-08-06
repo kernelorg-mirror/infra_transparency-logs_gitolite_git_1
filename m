@@ -1,56 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============4338390151030296483=="
+Content-Type: multipart/mixed; boundary="===============1915054725339182790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 06 Aug 2021 04:35:12 -0000
-Message-Id: <162822451207.2365.4175209383367551926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 06 Aug 2021 04:35:26 -0000
+Message-Id: <162822452699.2539.9736239379384755345@gitolite.kernel.org>
 
---===============4338390151030296483==
+--===============1915054725339182790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a02663fbdeed17ed3e2d3cd7aad7753fc637893a
-    new: bc8cc09063ddfa0c7174fd312416d31e0bfab459
-    log: |
-         bc8cc09063ddfa0c7174fd312416d31e0bfab459 5.4-stable patches
-         
+  - ref: refs/heads/staging-next
+    old: 4a956abc170acc8c096b86d6e7f2b02b024b25f7
+    new: d28a4c009bfbbdd26fa196b7b8af1d879470211b
+    log: revlist-4a956abc170a-d28a4c009bfb.txt
 
---===============4338390151030296483==
+--===============1915054725339182790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628224511 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1628224510-cb559ea9cc4ecc1605a99db0a3ab272c14768f84
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628224523 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1628224523-f471a5e509cd4cf5d617ca1c5efcb8ab26cf1552
 
-a02663fbdeed17ed3e2d3cd7aad7753fc637893a bc8cc09063ddfa0c7174fd312416d31e0bfab459 refs/heads/master
+4a956abc170acc8c096b86d6e7f2b02b024b25f7 d28a4c009bfbbdd26fa196b7b8af1d879470211b refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEMu/8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++zkQAIAiJi2XImY7Yx6CCZEf
-BC4x3akbwq8OYoXOd6kpk4hJG0nQ0fcOAeEP7macb0tmNRlvlsaGvR9BhRBO/tNU
-MklbEUGeua/lr5D8/sEJQzQ9wN98lCQpAqEdUl53njIRF9SJTzgnqGHEQBl2VUaF
-W2nay3KPqTuvPPXiK4mJVUryKZSgHYFy7px6+/AACPlbAA5mRSXr/PQuDx/CiNP4
-nJG+733tjmRSPnkUAayFerWOwZjJg+BLd9h1l//SBpV7DDcpsUkZrdXBroH9/+SI
-Bf2Pu27cN5OCzcz6WQEOr/jCcplCduIhpPtTgbB4S9PsQtonN6e3ZsW+vUqfiGY9
-h0iDRS34sUymogifR2gWyBnYq0FqymD1tR+oiueeuAQPkZANQZGqGHccsmpPj+8A
-rMn6KFbep0bTU7xG7fEJQu2uKaEuGfOQWsxe3CbRqrRliPFkhwLOtT7JbGxrXE+o
-s4KfbQ3n/2830QMfWZvadoBG0QHGZ2GjwQN7IYRMEJouatgAgRu2N38vtzOqEW3R
-8Cn31xBP7/HiDQWpkmmcDJe5kAlyDvKe/cUiihD5kZ3FHmQKQi2gq2HY0BWwsk5d
-NU0ZKfDtXDyxUzLnBGdYKuMygornBlO0W4PuIBkcL7NzhRvl26gm/XfxMws1fe+9
-m3DR+TWnVRdxETonW720uG3X
-=uwke
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEMvAsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2Y8QAICDb0SZhm3gf0O4EOQG
+OuRt8AOCF9LMyZs1uqWbo1IRSHlsukRd53JD21W60IJ1Z1xaBd2XZ0fGZJe5iqc0
+dilO7O6ln7enuQZsQNwPN2MVq3tqCaqkD1xL7K5Fhu+k6/fU5TdDGLU1+TBh7LN7
+FzTIkmmesmSj3RzFnvAag7Qc++4g7Mf8dtYRTthRZJIX0wGVXPNq8MBGBSDySt2v
+F7F/wtYhHQoGu63EZFNmm9nharKXkleKRuWZxi2Cqs6C505ghm9mpshEn2+Q68hy
+a4ij92WZeGrFqCRZh06iMXfF8MvMGLGPxx5x8x7JURcHTJ1VxcBCs1hW2lzOlTer
+Fkz7nw34a3lg8o22Ksbs1YGZf6G6gD22rbesZtpz9St5RXbvtKL1VSxQ82awJ7SY
+AT6EOJjWPgW9gcXBRa48zx/23XWpkzev1DHOHIe6ZsytBIQG4vsUK+5CqnJochL+
+nQr1kCIiXA5NpLpiCcbse2n8CczCpGFvPF3QeEeraJdVgx3rm/eCjaiSINyQicqG
+F+3PTsJ+TWxYRCn1M7rBALeSvdW8YHvdBGTkN+qg7YTID+ZSG7kKyFdgfsmcZjCc
+B1ifMiRlRXp/7DQchSrdpt7O8W2AcilOJK3+VxODrvlQTFIUEm6OTEBvWdStnEdH
+C8GgJxFP/PYAaTPTtYsN/uNH
+=jTLe
 -----END PGP SIGNATURE-----
 
---===============4338390151030296483==--
+--===============1915054725339182790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4a956abc170a-d28a4c009bfb.txt
+
+b72290ce7da235f458316978bf0d38fb10640e50 staging: r8188eu: remove RT_TRACE calls from core/rtw_cmd.c
+ef0661507147179afbab278e1364715fd905b7ab staging: r8188eu: remove RT_TRACE calls from core/rtw_ioctl_set.c
+2965d4b44b3e39632c6235aa8981631aa976415e staging: r8188eu: remove RT_TRACE calls from core/rtw_mlme.c
+a0adc4cc74d98ef8aa12d19bf1c8e2890d326d2b staging: r8188eu: remove RT_TRACE calls from core/rtw_mlme_ext.c
+fea8d09f804f324d0095d5b3d7938589008e47a7 staging: r8188eu: remove RT_TRACE calls from core/rtw_mp.c
+de30da13709b8f1aa4b9da5135119a3f37a7e0de staging: r8188eu: remove RT_TRACE calls from core/rtw_security.c
+5833ca54050768a328ca01c1ef29a4aa6d45ec4a staging: r8188eu: remove RT_TRACE calls from core/rtw_sta_mgt.c
+9bb2e9b1f5b17b79d95a4ad1007292cda839c5b4 staging: r8188eu: remove RT_TRACE calls from core/rtw_xmit.c
+5ea6417afa721c65690f64285aa9b779a6a9eb6a staging: r8188eu: remove RT_TRACE calls from core/rtw_recv.c
+fe4bbfb44a222059ae2625b89ab5007cca130b8b staging: r8188eu: fix unused variable warnings in core/rtw_ieee80211.c
+d28a4c009bfbbdd26fa196b7b8af1d879470211b staging: r8188eu: remove two set but unused variables in core/rtw_mp_ioctl.c
+
+--===============1915054725339182790==--
