@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 06 Aug 2021 12:26:38 -0000
-Message-Id: <162825279812.11381.5289040208474420586@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 12:26:48 -0000
+Message-Id: <162825280866.11523.1720719651652474750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: df51fe7ea1c1c2c3bfdb81279712fdd2e4ea6c27
-    new: acade6379930dfa7987f4bd9b26d1a701cc1b542
+  - ref: refs/heads/locking/core
+    old: 55bccf1f93e4bf1b3209cc8648ab53f10f4601a5
+    new: b1c78f5af54f357ce8b113b1798c9756b108879c
     log: |
-         acade6379930dfa7987f4bd9b26d1a701cc1b542 perf/x86/intel: Apply mid ACK for small core
+         b1c78f5af54f357ce8b113b1798c9756b108879c static_call: Update comment
          
