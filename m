@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3755994693435748485=="
+Content-Type: multipart/mixed; boundary="===============4455015130149816778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 06 Aug 2021 04:07:32 -0000
-Message-Id: <162822285280.13826.175502563852313407@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 04:07:37 -0000
+Message-Id: <162822285795.13959.1621749482475510308@gitolite.kernel.org>
 
---===============3755994693435748485==
+--===============4455015130149816778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7d41788e98e11503d33fc1ac753deca11ac2cecc
-    new: b91ee1833a5aa8d9ec8cd88482a993fc61c69450
+  - ref: refs/heads/5.15/scsi-staging
+    old: 40fd8845c025c33629e469f1383151096a21d524
+    new: f5efd4fe78de871515444b660029074be17ec11f
     log: |
          e3d2612f583ba6e234cb7fe4559132c8f28905f1 scsi: qla2xxx: Fix use after free in debug code
          77d0f07abada8c9aeb54caba879a298a0b94c02a scsi: qla2xxx: Remove redundant initialization of variable num_cnt
@@ -27,33 +27,33 @@ changes:
          f5efd4fe78de871515444b660029074be17ec11f scsi: ufs: core: Add lu_enable sysfs node
          
 
---===============3755994693435748485==
+--===============4455015130149816778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1628222851 -0400
+pusher 75C5DE3D 1628222856 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1628222850-b0ed9dc6ba1407427981d47398cd4a4d608d26ad
+nonce 1628222855-2b4e7673da2241caf993e7c05911b8940ada8b6d
 
-7d41788e98e11503d33fc1ac753deca11ac2cecc b91ee1833a5aa8d9ec8cd88482a993fc61c69450 refs/tags/mkp-scsi-staging
+40fd8845c025c33629e469f1383151096a21d524 f5efd4fe78de871515444b660029074be17ec11f refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEMtYMACgkQ7ulgGnXF
-3j3csQ//RKx/6LsHfekSLkNuHiVbTUOSuoi94d+Ps86PqnXrO6qkTZ0Cnaw5shIz
-CMWZfZGnCNV5t+TQy47Yu6IlVUYw4ZT6koZaULvGXdTDGd1aqjrjhA4J2PDl2bCJ
-eTXFXFARafegrvOaVhyrQLaY1GjQMBce9bDQjJDzGFEk8YrcbU9ZXvIuIES6O3Ko
-6RkBfZz2HIFLjldg5eXPosAjCgcO8wnhkfsdLfrzDLyLGmVxru/OU7X55pYmxo1Y
-+akgY8jL3JnOkenP8jO65bGKI7WOoweDyIjnGAjcqeVaAJnluPMlNvmyaD/3OuUK
-INWoV72wfgt0Kb0uig+abgwxPvElxiP7HuozYa44mu/3Uco0Vj85q0K3FKoABXJP
-uyuIG4d+LKdChBjDXs70Db3woXBdWw6m1/E5Dp9gPvcvfvbhZo22Dm4j8faP2aQK
-u1O1oZgd0gzYys/ITos0aSNFa+J5zdbMJSsIxXxAC4+Xi/zDmFRjSv1FKHhAs6AM
-D9fSR0janZwy1oOlk5F/oD4ErJPlBj31VAJ0qytPxyJf7Bg4dba3p+A/vjlM2ZYE
-diMnPUIA6M2VJ72xtuhYaHB35To2wRxvE0mfA1no4kDUIOvfyGmVfBAqhr2vfI/C
-+/UTl/RP3FczPdJdvBdct+WpevgFzUqmlzjvqXR3cMYfWowIjuI=
-=n03i
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEMtYgACgkQ7ulgGnXF
+3j0AyA/+J6LdBbqOdPSlxPlQXWUk/xb6aKpxoyruPp4U54C+h9a6GV6IHmYZyTLc
+DsN6sc5IvzOqqgSKVXSmx4vFHgG97SxePOcIwQRvvjieY2Ec0wLUcB7zoz18vyLr
+8EXtNri5UjTFJ2buqAHYmNZkd8o7yzGQUNDKiAddGaLvZq1igO6DEFNOo5OgIyZ+
+EpewSXDPZcIY7CBPMyVeAT9IxD1AweCkPnYudpLVF+MA6b0QMGhfbMEHtE/FHNcE
+lrQzR1CjnfI2FxFGXdkvriPSiVb2fpOPw6C8fhk6NfSjRDFE0krCbb9zGz1WKq+S
+JCXIO5LYu6oyPiOWRkaOGSI97mTpraYsb1nn9Y24EXrjyMfeAfGCt8SRY80lPmYX
+1D2TzXDLS8YNPGv2UmX2/HVM1uJxNpIyqjymiZd58IKFKyu+jwMlgFt+cX1mKEmG
+p3ezlzQ+QJuma8GVkwubEN2KRKzhefdsI5VaWo5f/r8PaYRORjTtVI6iQraIwqcM
+6ueMZ41oxVp5p9YQTAfzAVeNkWRRdRBMoW3yItIdH785SSw0odN0A5NcMSBOsrr5
+Zu/iBru+Jk2MZXbtz1CEnOopEXWLw6bavNGetZI5Ufqef2NE+GdWYvhzCS3bqVeU
+nzAqfWbYATDMd1rZuF7oTcsWxq2SrRW2TJY3ysbdAOW7aMzQ7mY=
+=TMC6
 -----END PGP SIGNATURE-----
 
---===============3755994693435748485==--
+--===============4455015130149816778==--
