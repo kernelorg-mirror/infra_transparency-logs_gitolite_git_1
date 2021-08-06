@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Aug 2021 12:50:35 -0000
-Message-Id: <162825423514.29208.2569349941139647858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 06 Aug 2021 12:52:30 -0000
+Message-Id: <162825435061.29938.12375881010255317652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/sched/core
-    old: 56498cfb045d7147cdcba33795d19429afcd1d00
-    new: f4dddf90d58d77b48492b775868af4041a217f4c
+  - ref: refs/heads/master
+    old: 1804fdf6e494e5e2938c65d8391690b59bcff897
+    new: 146af22649020e6b163482bc66150683ebf893bf
     log: |
-         b4da13aa28d4fd0071247b7b41c579ee8a86c81a sched/deadline: Fix missing clock update in migrate_task_rq_dl()
-         ca4984a7dd863f3e1c0df775ae3e744bff24c303 sched: Fix UCLAMP_FLAG_IDLE setting
-         f4dddf90d58d77b48492b775868af4041a217f4c sched: Skip priority checks with SCHED_FLAG_KEEP_PARAMS
+         146af22649020e6b163482bc66150683ebf893bf Bluetooth: btusb: Fix fall-through warnings
          
