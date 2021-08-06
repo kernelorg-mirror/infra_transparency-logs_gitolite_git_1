@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1459161182171619539=="
+Content-Type: multipart/mixed; boundary="===============2867067368682608830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Aug 2021 00:39:40 -0000
-Message-Id: <162821038040.31428.14646876655288029442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 06 Aug 2021 00:39:47 -0000
+Message-Id: <162821038744.31569.9645202032732218318@gitolite.kernel.org>
 
---===============1459161182171619539==
+--===============2867067368682608830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.14
+  - ref: refs/heads/asoc-5.14
     old: 8b353bbeae20e2214c9d9d88bcb2fda4ba145d83
     new: e5ada3f6787a4d6234adc6f2f3ae35c6d5b71ba0
     log: |
@@ -25,37 +25,37 @@ changes:
          3a5d89a9c6fe306d35dce4496abbb464c1454da0 ASoC: cs42l42: Constrain sample rate to prevent illegal SCLK
          e5ada3f6787a4d6234adc6f2f3ae35c6d5b71ba0 ASoC: cs42l42: Fix mono playback
          
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: f2553d46783409656d82e46913354ed0c058cc0c
     new: 585fb31c2c3aad38a5add009171d7e3277b76d45
     log: revlist-f2553d467834-585fb31c2c3a.txt
 
---===============1459161182171619539==
+--===============2867067368682608830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628210364 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1628210377-8bb780dc616a26001bb77d1ba18e2a8f90897d87
+pusher C3F436CA30F5D8EB 1628210371 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1628210384-3bfd83f381224ed9858eb63a80285fa7553e0098
 
-8b353bbeae20e2214c9d9d88bcb2fda4ba145d83 e5ada3f6787a4d6234adc6f2f3ae35c6d5b71ba0 refs/heads/for-5.14
-f2553d46783409656d82e46913354ed0c058cc0c 585fb31c2c3aad38a5add009171d7e3277b76d45 refs/heads/for-5.15
+8b353bbeae20e2214c9d9d88bcb2fda4ba145d83 e5ada3f6787a4d6234adc6f2f3ae35c6d5b71ba0 refs/heads/asoc-5.14
+f2553d46783409656d82e46913354ed0c058cc0c 585fb31c2c3aad38a5add009171d7e3277b76d45 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEMhLwACgkQJNaLcl1U
-h9BqGAf/YoGtVZ+M7blELZMTrW+ccaeyFHek9bF/iPeE9njQZYLLmYPaWShdOuDL
-JxNfeTQriX6RlxHcySE1TeQBgEG/ochL2h/Qvke0wZurI0zOs2fWKOMU+cBknQov
-ZwBmR5EwZwIkJKNnYbAFu14bFVysrU8y9tX2+Kl2MnAxf6MUfIJxI1E3+EsnZu5z
-i2eBT1aCDfKV6Gggb92/GE9u9JNVdKuCw/0M+SIHLxmzfubvjGH85rh6cJUhYRUW
-wFf22a2JJ1US5H/iRpE9WoLmGMD42muPhtM0Kxqh6RwnigLoP9qmDBYRfD5zyl0r
-K1HG8VS+RAEQ2H56hr2mZ4VyMxo2ng==
-=1JGj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEMhMMACgkQJNaLcl1U
+h9Af7wf5AU6NCcCMeag1PEm/BT94wKFjzvTkxXZ6YgeCqROsXYX7dyrhQR0j3Sgk
+9olOT/V8790b9/wzN/nN5jF4KYUs9z7sASnuunySpxRxje4Ro2ELh2bXS2FP0NZz
+KMwgJqVFNcxXmWxYPX2RD3SxxWMQ3UxnedYI6pwqWK7TFZUEaJL7N55hYV4bo9Vg
+5obxVCANA9DM1BfQob/q6EMv+vDWHC1ALAd+sKATzF+VkiOpKzfTt0m04HFIXmrn
+nckTIoS3m/RzR1FKeFSllxcITna0C/oYTL1jxZzSqGLPlTsCYzHijygZRjGUDK6c
+S13TeRPWHTpTFgXfqkUgkvN7WQdRKA==
+=2uQT
 -----END PGP SIGNATURE-----
 
---===============1459161182171619539==
+--===============2867067368682608830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ c18abd00333b8b4c6432f4a6789aa02e3b18fdc8 ASoC: mt6359-accdet.c: remove useless a
 bcee7ed09b8e70b65d5c04f5d1acd2cf4213c2f3 ASoC: codecs: wcd938x: add Multi Button Headset Control support
 585fb31c2c3aad38a5add009171d7e3277b76d45 ASoC: rt5640: Silence warning message about missing interrupt
 
---===============1459161182171619539==--
+--===============2867067368682608830==--
