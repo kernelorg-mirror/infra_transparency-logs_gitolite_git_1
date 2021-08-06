@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2581777641137208488=="
+Content-Type: multipart/mixed; boundary="===============0964711746374172177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 06 Aug 2021 06:34:16 -0000
-Message-Id: <162823165650.15780.5914166937087375819@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 06:36:41 -0000
+Message-Id: <162823180151.18082.3678042564906386001@gitolite.kernel.org>
 
---===============2581777641137208488==
+--===============0964711746374172177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,162 +16,177 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 4bbd5ca11953dc9887b678dcc3df51edf3ab9dd0
-    new: da3bf7e832df618a97256646fcfdbec224aaacce
-    log: |
-         1d00025dfffe5cf3a64d6e6e3182d6daca818c19 btrfs: mark compressed range uptodate only if all bio succeed
-         0474c27d932691aa9c4246076c15795ab2e5f573 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-         09b662e23f48a85a8362003f015906b6d90dcfed r8152: Fix potential PM refcount imbalance
-         a3be7f69cb5a05c9115158967326d2326fe318e9 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-         9d4039f1f3d11c77a1e2e787658fbec79728b8b3 net: Fix zero-copy head len calculation.
-         17350304fddeef788e96dc0a48ca10a583a7a478 Revert "spi: mediatek: fix fifo rx mode"
-         da3bf7e832df618a97256646fcfdbec224aaacce Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-         
+    old: da3bf7e832df618a97256646fcfdbec224aaacce
+    new: 45b01e7c3188d18def40813b1d89562f1a8d866b
+    log: revlist-da3bf7e832df-45b01e7c3188.txt
   - ref: refs/heads/queue/4.19
-    old: 0bdb8864dde6b2db63f99eb5d537fbe125d9e119
-    new: 62b68e4e42f13445b67c174dd0a22324c56c7777
-    log: revlist-0bdb8864dde6-62b68e4e42f1.txt
+    old: 62b68e4e42f13445b67c174dd0a22324c56c7777
+    new: 5743288985f3ca4f52238bcf0e9bf84c62666af3
+    log: revlist-62b68e4e42f1-5743288985f3.txt
   - ref: refs/heads/queue/4.4
-    old: 3f69fbab7d09b4228bbcee87d96217cfd605620b
-    new: 95147d1ac92de1c9cfe9845990a5cb2fb7d545b4
+    old: 95147d1ac92de1c9cfe9845990a5cb2fb7d545b4
+    new: e91a836a20c6f3eb7575f8707414a72a999c590a
     log: |
-         48d8d5d754cca3b152d051f834af7db479bcaebf btrfs: mark compressed range uptodate only if all bio succeed
-         fb65f823fd5f9bfafe6a6df74bca7f0c29998420 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-         4d3888a8d2d3b0f30d40fd17807620c61acc8b90 r8152: Fix potential PM refcount imbalance
-         7b77e58dea9697f01e990509138c4f7ca44973f1 net: Fix zero-copy head len calculation.
-         95147d1ac92de1c9cfe9845990a5cb2fb7d545b4 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+         473988b1372da73c6fa9e9359c4820822adff1ba btrfs: mark compressed range uptodate only if all bio succeed
+         969469b830bba42a86c261b3269ccea1d939a709 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+         5bde06240009b646ff788967cd2e478ebf34d875 r8152: Fix potential PM refcount imbalance
+         779c21041483c8ab1bbadecfda364af1bbbbfe00 net: Fix zero-copy head len calculation.
+         e91a836a20c6f3eb7575f8707414a72a999c590a Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
          
   - ref: refs/heads/queue/4.9
-    old: 1854f50a58f50d02a738b9228cbaeaca2cf68bae
-    new: e1eb8a43ffbad2b1d366bc1f2fae8358e01a4fdb
+    old: e1eb8a43ffbad2b1d366bc1f2fae8358e01a4fdb
+    new: 289266ac6f245f8244a617326864594ee81b1825
     log: |
-         98bba238586e7fecdf55dae4cbd0d52b0afebc93 btrfs: mark compressed range uptodate only if all bio succeed
-         06cd20873e7866f5bf68d7b9d67722973dc60cb3 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-         defa78662e8a0aa8a24e5380bdbf5ac9eef1d9bb r8152: Fix potential PM refcount imbalance
-         beb9cfe3405c5d4759a6731391fb49dd99a4cbcf net: Fix zero-copy head len calculation.
-         f090e015b060bff700489477214ab92778eec4af Revert "spi: mediatek: fix fifo rx mode"
-         e1eb8a43ffbad2b1d366bc1f2fae8358e01a4fdb Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+         b0e348204e29f4d01f6fe22e0cb37f14a4011539 btrfs: mark compressed range uptodate only if all bio succeed
+         0946179e0e5bd90d73d01a0e8ffab04b5994e467 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+         ebd79f129c044de030a127df03028de6bf00e9f3 r8152: Fix potential PM refcount imbalance
+         efc2e4710b84dc8f8f30d1c927510478fca88148 net: Fix zero-copy head len calculation.
+         dd3b903149f799305d4867d38fae6ec603d1aa1a Revert "spi: mediatek: fix fifo rx mode"
+         289266ac6f245f8244a617326864594ee81b1825 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
          
   - ref: refs/heads/queue/5.10
-    old: 00f7bc875b30d1d2ff7c8652f4130de8226b35a5
-    new: 4fe8232f1812b267ae8c0b31b17631943e4c9f0c
-    log: revlist-00f7bc875b30-4fe8232f1812.txt
+    old: 4fe8232f1812b267ae8c0b31b17631943e4c9f0c
+    new: 98e75611981870542e23b06815b18372697d4ec6
+    log: revlist-4fe8232f1812-98e756119818.txt
   - ref: refs/heads/queue/5.13
-    old: d8a5aa498511c9f57f0a64e68cfe4af9b32ee423
-    new: a4d4297c794b308dd8c0e0e38d196379ce699b35
-    log: revlist-d8a5aa498511-a4d4297c794b.txt
+    old: a4d4297c794b308dd8c0e0e38d196379ce699b35
+    new: 108258e3856ec447f7aadebfb4fcdea0a5c55837
+    log: revlist-a4d4297c794b-108258e3856e.txt
   - ref: refs/heads/queue/5.4
-    old: e260fd2fcbfb4cdba7e6b072949c9992e5592b73
-    new: 4e935c1d4ff6935d1865bd2854377b5ce821b61d
-    log: revlist-e260fd2fcbfb-4e935c1d4ff6.txt
+    old: 4e935c1d4ff6935d1865bd2854377b5ce821b61d
+    new: 44dd4e4a3d9da5da215a13a6cf085630cb3ceb60
+    log: revlist-4e935c1d4ff6-44dd4e4a3d9d.txt
 
---===============2581777641137208488==
+--===============0964711746374172177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bdb8864dde6-62b68e4e42f1.txt
+Content-Disposition: attachment; filename=revlist-da3bf7e832df-45b01e7c3188.txt
 
-20540487a611f80ab2fc4ece6d4fb287574a41a6 btrfs: mark compressed range uptodate only if all bio succeed
-5803f4f4234001491633ab3f7614d33690196e7b regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-da5e2935909234c23d4cbb72a80db7881afbe2b8 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
-936678679f3200ee1e0f0c76e4e5b8c306a83332 r8152: Fix potential PM refcount imbalance
-602c2dc6abb14c2609b093d7a319004be7c1d8f1 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-883b0d11f4f0ed163de0d5b5239fdfd3e709f91d net: Fix zero-copy head len calculation.
-01178ef8addd3721d68353f7c5b7c15c7d8acd59 bdi: move bdi_dev_name out of line
-fb7e1ada4b066c4953dbf3d026298a1211e72137 bdi: use bdi_dev_name() to get device name
-4a3a4888a2df63169ca34b427ddfc10dace37ea1 bdi: add a ->dev_name field to struct backing_dev_info
-0a3ff7aadd292f9d3ca601ed45f5dcafd0059946 Revert "spi: mediatek: fix fifo rx mode"
-922d2b7aa0b2c40f53982642cd00306792f0ea3a Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-62b68e4e42f13445b67c174dd0a22324c56c7777 drm/i915: Ensure intel_engine_init_execlist() builds with Clang
+3873e6f5264e5e1aa8e94b392a045302c15b88df btrfs: mark compressed range uptodate only if all bio succeed
+a8012693158527c19e7fac308b00dd474f60aac1 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+4db3e938d151300b7cf497ec73e8132017510e85 r8152: Fix potential PM refcount imbalance
+01f08de5e348f49d6ec2faf25832c12fb07935bd qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+93337f32cdb0e5a5c9432b75ae4fb2d80ce4c50d net: Fix zero-copy head len calculation.
+529f7988563e0deafeee6d1f88285d707c1b84ea Revert "spi: mediatek: fix fifo rx mode"
+3bcd72cd3e194da969138baf417382ba676e8c12 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+0fc0e8d28734d5ab79b8e358ebac081899e22c80 KVM: do not assume PTE is writable after follow_pfn
+5e10bb8e9807931803b20f1775aaee7e21707fa5 KVM: do not allow mapping valid but non-reference-counted pages
+b8b0ee38c733e7b87bc2a8a1a1b2c5ed3dc4776f KVM: Use kvm_pfn_t for local PFN variable in hva_to_pfn_remapped()
+45b01e7c3188d18def40813b1d89562f1a8d866b Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
 
---===============2581777641137208488==
+--===============0964711746374172177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00f7bc875b30-4fe8232f1812.txt
+Content-Disposition: attachment; filename=revlist-62b68e4e42f1-5743288985f3.txt
 
-3627c8cfdc256f8abd28c6f92117feba5ab924db drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
-7193b8c1eba1b41e830a0d25f3fda1c1d9c8f8db Revert "drm/i915: Propagate errors on awaiting already signaled fences"
-95ed323b62dafbdafcc197a98dcda5e6beb64029 btrfs: fix race causing unnecessary inode logging during link and rename
-235f00f5c45569c7994998db22204f145d44ddf8 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
-ef06a4d848129f0a219b49746c4e474fae7ec92e regulator: rtmv20: Fix wrong mask for strobe-polarity-high
-7dd65638e9dfed5f76c6d1d4b8fb6ba34fe75ef6 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-e1e6ec6638066fb95824dee0e7b04dc45b005ee9 spi: stm32h7: fix full duplex irq handler handling
-572896465926dc1dbe168be721f6fdb2a766c6e1 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
-a445392bd0270c116840cf60df58dc484e9c67ed r8152: Fix potential PM refcount imbalance
-1de6222447e4ca47f61c9981daedd005e459324f qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-9af6227de744cb7d49ef458f39a5fe86df58041d ASoC: rt5682: Fix the issue of garbled recording after powerd_dbus_suspend
-cbd1f3f377b8755d6212797d3513c5b48d8ad09b net: Fix zero-copy head len calculation.
-5fba9bfd5be73edb9d45947af191b5854f5923e3 ASoC: ti: j721e-evm: Fix unbalanced domain activity tracking during startup
-e3eb6d0b596d90d08b5b815aea3d7fb00babe1c5 ASoC: ti: j721e-evm: Check for not initialized parent_clk_id
-ca89853a594748aef63ac2aaf253e7335a6aae37 efi/mokvar: Reserve the table only if it is in boot services data
-8c33d0e5e5b15fb233f7303a10ee40faf6ce5526 nvme: fix nvme_setup_command metadata trace event
-2b951acdecbf1392f2a9c495a18e05108aed7552 drm/amd/display: Fix comparison error in dcn21 DML
-d996c7c00ae8178eb0205f695f2b7e265ca36a89 drm/amd/display: Fix max vstartup calculation for modes with borders
-c67a8c7d4e7fa974441addf699210ae1153fbf9b ACPI: fix NULL pointer dereference
-84df6d713c98557b1498443e7dd3d84ab7d00a5e Revert "spi: mediatek: fix fifo rx mode"
-4fe8232f1812b267ae8c0b31b17631943e4c9f0c Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+87ce102d5c7588d937b75ad2103dd5d4081cdd49 btrfs: mark compressed range uptodate only if all bio succeed
+4ca4a40f80b4e1de163ca3c0386b280d052f1b20 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+448722d97595c6a505e0f0541a6b418d22ea06fe ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
+17350192f98bb91248a86f54dfc62cf17028a131 r8152: Fix potential PM refcount imbalance
+276e215b7ab23325865bcc5b7d78b6fdad4ca8af qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+1bbed550372a8c250b18f1fec031b079191c2ee3 net: Fix zero-copy head len calculation.
+4b81c593d75197f1fe9b33ac16eb5fab8e095eea bdi: move bdi_dev_name out of line
+42a931ece9e16308ca179c20d721ab6b29ff559f bdi: use bdi_dev_name() to get device name
+423ceb52e96f58b712e284bbf2a905773de924e3 bdi: add a ->dev_name field to struct backing_dev_info
+68339fa97d0a12bad1b23f576c3faf0739ff6804 Revert "spi: mediatek: fix fifo rx mode"
+8b3f80aca813387f503d2bb770fbe3eeb4f9e399 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+5adfa323f1293ac2e712578734366c661cd8d9bd drm/i915: Ensure intel_engine_init_execlist() builds with Clang
+32e19fbd7953978524639936c5507571c5b7d85c firmware: arm_scmi: Ensure drivers provide a probe function
+5743288985f3ca4f52238bcf0e9bf84c62666af3 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
 
---===============2581777641137208488==
+--===============0964711746374172177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8a5aa498511-a4d4297c794b.txt
+Content-Disposition: attachment; filename=revlist-4fe8232f1812-98e756119818.txt
 
-d465522cb98966bb5ea180df3995900600d15748 drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
-7e35b207635fae0646843b8ee6c7223110ec9fdd Revert "drm/i915: Propagate errors on awaiting already signaled fences"
-a8885dedf24c8cf47acede7080217f64f6b248d4 power: supply: ab8500: Call battery population once
-cde5085a913ddd24e6c20e94b42c881d31599a1c skmsg: Increase sk->sk_drops when dropping packets
-3e00145367144260088ff5f851d5f73290e78ad9 skmsg: Pass source psock to sk_psock_skb_redirect()
-367fd5230a7f824b019120ffa9af7d74de0f3f05 bpf, sockmap: On cleanup we additionally need to remove cached skb
-007d6c6e9a32f354ef9bf963b492e126d290e3ad cifs: use helpers when parsing uid/gid mount options and validate them
-489ae883ebd9bd69bf0d96fe50bcba0052a47a8a cifs: add missing parsing of backupuid
-7ffd24ea10231fd153f3e209f36523cc9244a4f2 net: dsa: sja1105: parameterize the number of ports
-c8c703855213f38804c939e1d5c760ecea500e07 net: dsa: sja1105: fix address learning getting disabled on the CPU port
-46eaac243cfd196fb9801ddc3ee0c66f47a78d84 ASoC: Intel: boards: handle hda-dsp-common as a module
-6bd29597bdf26d814098eeb1e14dfa75d5c5fd9b ASoC: Intel: boards: create sof-maxim-common module
-88330291dbe6ff409a37778dd2a7293a3fc198b2 ASoC: Intel: boards: fix xrun issue on platform with max98373
-3c96330746e8c055fed648b76052e7ceb15f0378 regulator: rtmv20: Fix wrong mask for strobe-polarity-high
-9ca4f825dee61d3690aef5dc80b0ae05e1246e85 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-d67fbdcbe7da16e6856cf6b58896e0282a6dfc6f spi: stm32h7: fix full duplex irq handler handling
-fe834098f9039169916a4d847d068768885ebbf4 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
-f07e1419909350e15a6901e464da7ac2be9276b2 regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
-d4789280dbfed2865ca678c406caa24eabf532d8 r8152: Fix potential PM refcount imbalance
-36342c1dda9fff69a9eea83401c6c63530d31f28 r8152: Fix a deadlock by doubly PM resume
-a6472e4c19bb8fe5426692eb68ca8f882999c60e qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-61e557c941c7570269bd3d0af4f336215d0d06ea ASoC: rt5682: Fix the issue of garbled recording after powerd_dbus_suspend
-b99e1f654e0ba37e3f38f312b28bdb54735893b7 net: Fix zero-copy head len calculation.
-c41b2c48fc0889c6feecaca85106bc9edd398902 ASoC: ti: j721e-evm: Fix unbalanced domain activity tracking during startup
-4c2f748e45af9d9105f5d6fc85061e371eaac9a3 ASoC: ti: j721e-evm: Check for not initialized parent_clk_id
-07beda631e2d1a4078e0fd4f92f553604da4860d efi/mokvar: Reserve the table only if it is in boot services data
-b7f379c0457c6fbbb27ca0b69237a324f0fd5158 nvme: fix nvme_setup_command metadata trace event
-1e9a808c844f6b648935ec21b13da29fa9a21d1b drm/amd/display: Fix comparison error in dcn21 DML
-2e12e62cccf488b3034f841971976632f4439995 drm/amd/display: Fix max vstartup calculation for modes with borders
-7067199971d73c06e1c928b430545f346eaaf874 io_uring: never attempt iopoll reissue from release path
-772e505fb774f6726058480d2e7ef1c042410ded io_uring: explicitly catch any illegal async queue attempt
-c2fe45d0e072dd8fe02991ea6406a34528e83e2d Revert "spi: mediatek: fix fifo rx mode"
-0af25e6a2171f81c54926ec1217a537b6dc738b9 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
-a4d4297c794b308dd8c0e0e38d196379ce699b35 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
+58c91a58fc2057c390aa2f56ef8100eecdba616d drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+64226b21bd77f51c3305499c1d9ab823ed272fa0 Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+2094eae044836a3c55f1eb1763bbce78c8e780ed btrfs: fix race causing unnecessary inode logging during link and rename
+9527be20a66624f05eaf7f92c465eaac7663ba15 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+c0608cff0ec5a6265f4050ad2726becc55892a84 regulator: rtmv20: Fix wrong mask for strobe-polarity-high
+ef18cd013398e0e281af9f756058915bd5768e3a regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+b7e478635b318e4b9933328ff300bb6a0e82648b spi: stm32h7: fix full duplex irq handler handling
+501aceb117278a7eaaf0abd77f36c0423c56575f ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
+af78020add704a40dc49e8c38f816e5b2158ff40 r8152: Fix potential PM refcount imbalance
+711f4de154703687d59c0892237a5f2d6c64c471 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+5c8ba3ef482308ded0a7320741bc6b26207fcb17 ASoC: rt5682: Fix the issue of garbled recording after powerd_dbus_suspend
+305b8d6f0b10d338d8833b8ace5171ebf2870d0c net: Fix zero-copy head len calculation.
+5a18ba0b30e3368380490368812d532c07f4ade6 ASoC: ti: j721e-evm: Fix unbalanced domain activity tracking during startup
+3c88b674b6a0c67e9df29b7652ddb9ffce9add05 ASoC: ti: j721e-evm: Check for not initialized parent_clk_id
+a1e1a75dc9b352cd49bfe54bd2c7571872bfb68a efi/mokvar: Reserve the table only if it is in boot services data
+ebaa64674b67a7d269604940ecfc89bf0cb965e1 nvme: fix nvme_setup_command metadata trace event
+60c9b5fa205dd8f12a2433466c08a146c62cd86a drm/amd/display: Fix comparison error in dcn21 DML
+221c3914652ff72f42cad1ad5d7283b8822e3b01 drm/amd/display: Fix max vstartup calculation for modes with borders
+36fd4fc9fc69b684de91f8717e8675182680a38d ACPI: fix NULL pointer dereference
+037eaddda2b9696dac42c5140741a584d03a33b6 Revert "spi: mediatek: fix fifo rx mode"
+98e75611981870542e23b06815b18372697d4ec6 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
 
---===============2581777641137208488==
+--===============0964711746374172177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e260fd2fcbfb-4e935c1d4ff6.txt
+Content-Disposition: attachment; filename=revlist-a4d4297c794b-108258e3856e.txt
 
-20d3f52a6b424d95d1402ed30e17869606388a84 btrfs: delete duplicated words + other fixes in comments
-df67920df1c4929ec28638081268b42a2c56cdb9 btrfs: do not commit logs and transactions during link and rename operations
-1ab27b4f01cae66edc924b24990b2b53b17599db btrfs: fix race causing unnecessary inode logging during link and rename
-a4d28420abb46ae9780801a0af1887e1783e4939 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
-39d6ac197c5a14bddf1b9874c45b90c7f5d5f44b regulator: rt5033: Fix n_voltages settings for BUCK and LDO
-6636bb3a1c4cf6890d3a3a7333b5e0c656b2ef41 spi: stm32h7: fix full duplex irq handler handling
-1c57740abb43b49784a0afab0105b428a012979f ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
-4d3de0962b14d3a79770a2b25aee04b0dede798c r8152: Fix potential PM refcount imbalance
-22164e6ed8a1a5f0ba8c4b8f7562692fe140a39a qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
-20316c828a9b4a57ffb3eea4952a8cf6a2c1eaf2 net: Fix zero-copy head len calculation.
-7d0cc8862ced895149a742f45b3d9f899dc737b4 nvme: fix nvme_setup_command metadata trace event
-49085413d1aaab068d3c3dc4713f7e803da5e775 ACPI: fix NULL pointer dereference
-d3db0390e9fbd65354a3a581af43e6499e4a16be Revert "spi: mediatek: fix fifo rx mode"
-4e935c1d4ff6935d1865bd2854377b5ce821b61d Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+432a1df4b1f4f5e24989cccf4cdcd89791961ffa drm/i915: Revert "drm/i915/gem: Asynchronous cmdparser"
+a61b96a0fdcd917bba6154437dfdca9c9dd086fd Revert "drm/i915: Propagate errors on awaiting already signaled fences"
+1b0074effa0a88975f1113dc44045352fa2d8d54 power: supply: ab8500: Call battery population once
+d3df3e0987021ba12a7357432c6799f54122acca skmsg: Increase sk->sk_drops when dropping packets
+83923b8fa66cdb19bc0fba166f87788e420312d0 skmsg: Pass source psock to sk_psock_skb_redirect()
+c87b9156dc945604440eae268f71daca5dc8906f bpf, sockmap: On cleanup we additionally need to remove cached skb
+0afb6d34e43d84e3c24befc0162d24fd9b385687 cifs: use helpers when parsing uid/gid mount options and validate them
+4e4bd7ce9ad7a35ac8479191be82f8389aab6c00 cifs: add missing parsing of backupuid
+b2993ee72297ea9ce06cf49958b0542201f22efa net: dsa: sja1105: parameterize the number of ports
+4bdb13e25a6e8dcdee922b68e1def0567c796510 net: dsa: sja1105: fix address learning getting disabled on the CPU port
+febdf4e4f524aca6f2644bc73f2d0287a0683b7a ASoC: Intel: boards: handle hda-dsp-common as a module
+679fb68fbbec75e47c159003e682908857039842 ASoC: Intel: boards: create sof-maxim-common module
+f859f0cdc386fc453cf515b232244b8908260a31 ASoC: Intel: boards: fix xrun issue on platform with max98373
+e4f16dec7ebdc66d1167c6aaaefc9907ab60d0a3 regulator: rtmv20: Fix wrong mask for strobe-polarity-high
+c85cefca0a8ac0c79305b07e78585d02eb6edf2a regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+3097db26af0007a8636194f385228b0020180d05 spi: stm32h7: fix full duplex irq handler handling
+ad23fd7efa82a4c2bcfc89d31a792b3c0d06f080 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
+c69b10b572c6c78420c351016e82b11ddd2f045b regulator: mtk-dvfsrc: Fix wrong dev pointer for devm_regulator_register
+a82f979b1bdc05a2081d7bc48940127b2c694c7b r8152: Fix potential PM refcount imbalance
+5ea7bdf8b45c1e39d679d71c4778fd737f1f5f3c r8152: Fix a deadlock by doubly PM resume
+c30f77a0370e8265e1afbc71166a3247e2977921 qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+f1740f3cc8338ce0f575d0351cd381cc6fb0e7ea ASoC: rt5682: Fix the issue of garbled recording after powerd_dbus_suspend
+a49d94670a7ece936805b448ac694bae2c97fdac net: Fix zero-copy head len calculation.
+f86212782c6f1b8db107c5c4778a8677458f146a ASoC: ti: j721e-evm: Fix unbalanced domain activity tracking during startup
+6bf932e36d64b7747fa6741b106ba34f4ef5c121 ASoC: ti: j721e-evm: Check for not initialized parent_clk_id
+b35f4cab3350d3e6fd2790593a7a0027ecf651af efi/mokvar: Reserve the table only if it is in boot services data
+9d785a8ed2fa41c81af8592f71cc11e237b79c31 nvme: fix nvme_setup_command metadata trace event
+85697dc28abd305d58bc5136a0e7dd78142f3af4 drm/amd/display: Fix comparison error in dcn21 DML
+4829e442e0d2a26e5ea53a021f8994e43527b0ee drm/amd/display: Fix max vstartup calculation for modes with borders
+647dc03c5cb2549db58ef842a8f1c059b6026603 io_uring: never attempt iopoll reissue from release path
+39bfffd44d6882b9a360fbb0a2bd15274fc6a702 io_uring: explicitly catch any illegal async queue attempt
+877268722e775fccb3c2a28d643a3aab40fb9f63 Revert "spi: mediatek: fix fifo rx mode"
+7a322e08445b3de788c14dd44c0ff34596486a40 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+108258e3856ec447f7aadebfb4fcdea0a5c55837 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
 
---===============2581777641137208488==--
+--===============0964711746374172177==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4e935c1d4ff6-44dd4e4a3d9d.txt
+
+5cc61fb4506789a880c0a30a85f2c477e66f4125 btrfs: delete duplicated words + other fixes in comments
+5275d8cce3c5a9e7b0eec6b230ffb20f5f978a06 btrfs: do not commit logs and transactions during link and rename operations
+e1cc705813728739ae43d4a28b4ecdee2a8393aa btrfs: fix race causing unnecessary inode logging during link and rename
+9ab7618af99a59782cbc39c38925ec5620dfde00 btrfs: fix lost inode on log replay after mix of fsync, rename and inode eviction
+155dc724d521226b808884fe7ca6d62b2339f322 regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+36015ae7636ba47f9b282c9c70266b48bde740c7 spi: stm32h7: fix full duplex irq handler handling
+442d1d2ae46ef4bce4ccd29cdcdcab323665f7b1 ASoC: tlv320aic31xx: fix reversed bclk/wclk master bits
+f808dceb6899f609d2bb1be9136d2c17e9d6f49f r8152: Fix potential PM refcount imbalance
+9451050f2f46a672479a88ec50b5f2868511010d qed: fix possible unpaired spin_{un}lock_bh in _qed_mcp_cmd_and_union()
+d4a13cff53180432ed027abefad71dd6be13a7d8 net: Fix zero-copy head len calculation.
+e23e4f537f06947d0321487dde28baf1cbc1aa3f nvme: fix nvme_setup_command metadata trace event
+d10b521ac9ad7215f08a7bb6d5db86f6636931e1 ACPI: fix NULL pointer dereference
+08b2111467951ad15ca6155153986485eb4e9a9b Revert "spi: mediatek: fix fifo rx mode"
+dc359485d3a45964e1723feca37e7eb5e246d601 Revert "Bluetooth: Shutdown controller after workqueues are flushed or cancelled"
+87a654567d52018e6a2ef0405f95b8bae5d5f55b firmware: arm_scmi: Ensure drivers provide a probe function
+9b1ad89cec0f75bb01155005c260638ec3d2c5f9 firmware: arm_scmi: Add delayed response status check
+44dd4e4a3d9da5da215a13a6cf085630cb3ceb60 Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
+
+--===============0964711746374172177==--
