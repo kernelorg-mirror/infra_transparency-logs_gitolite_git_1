@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7871459463635737849=="
+Content-Type: multipart/mixed; boundary="===============7641299024345234399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 06 Aug 2021 18:49:55 -0000
-Message-Id: <162827579595.14129.6856250319601684529@gitolite.kernel.org>
+Date: Fri, 06 Aug 2021 18:50:04 -0000
+Message-Id: <162827580415.15406.6640829164869035050@gitolite.kernel.org>
 
---===============7871459463635737849==
+--===============7641299024345234399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
     new: 894d6f401b21865962aba776ecaa918b2f0abaa6
     log: revlist-c500bee1c5b2-894d6f401b21.txt
 
---===============7871459463635737849==
+--===============7641299024345234399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -197,4 +197,4 @@ b4b927fcb0b2cdd344501b409f2bc68265aab45f Merge tag 'for-linus' of git://git.kern
 4f1be39638a538f6495c0a29e648255fb8c54f8b Merge tag 'dmaengine-fix-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 894d6f401b21865962aba776ecaa918b2f0abaa6 Merge tag 'spi-fix-v5.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============7871459463635737849==--
+--===============7641299024345234399==--
