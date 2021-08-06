@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Fri, 06 Aug 2021 06:21:10 -0000
-Message-Id: <162823087078.8125.15174214664181257700@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8664599933782824824=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 06 Aug 2021 06:30:57 -0000
+Message-Id: <162823145797.14143.827291346017794172@gitolite.kernel.org>
+
+--===============8664599933782824824==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: f311aeb7b1119fcf8a8958ab59de20755f1fbcee
-    new: 211547cf39294bc466b229a998f784feb19e087f
+  - ref: refs/heads/master
+    old: bc8cc09063ddfa0c7174fd312416d31e0bfab459
+    new: d6d01aab825fe14c3c19abbd653924e9ded33032
     log: |
-         45082f7c22101b970ef5f254335a40f733eab2bf arm64: Remove unimplemented syscall log message
-         8f18e95f7ce08927424e0ad2143bd450c5f7c04d proc: Track /proc/$pid/attr/ opener mm_struct
-         0f3afe55751fe724bf6b6bb6bcd14cbf96e6f4fd net/nfc/rawsock.c: fix a permission check bug
-         b8278d93345268ac512f327292cfbf55afed3ca2 isdn: mISDN: netjet: Fix crash in nj_probe:
-         f08d08a95a7fce239cdcf48d214269865d600748 netlink: disable IRQs for netlink_lock_table()
-         7aeb97ca0162c5fdceda8748f231e53033131c58 net: mdiobus: get rid of a BUG_ON()
-         2d06cb8be85dbb8b4b0b4f1664f926e813a83a99 net/qla3xxx: fix schedule while atomic in ql_sem_spinlock
-         45beae2427f050a8ffa0fe621f8ecf2e22153e37 scsi: vmw_pvscsi: Set correct residual data length
-         3aa009b3999528230a7ad8e2760c24f10481c4cd scsi: target: qla2xxx: Wait for stop_phase1 at WWN removal
-         211547cf39294bc466b229a998f784feb19e087f net: macb: ensure the device is available before accessing GEMGXL control registers
+         d6d01aab825fe14c3c19abbd653924e9ded33032 5.13-stable patches
          
+
+--===============8664599933782824824==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628231457 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1628231456-db47bf85ec18cc374c9bdff778fb3bd11f1265ec
+
+bc8cc09063ddfa0c7174fd312416d31e0bfab459 d6d01aab825fe14c3c19abbd653924e9ded33032 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEM1yEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ApYP/1wUowR8nYkcKjqSxrlc
+7uz+JfcVV+G+XrzFXGqqQ6zLZEdz8gPlOyxxJE0+DuU3rnLQuITw41sYn8WiqQbc
+ofhTnUCYyPgAGWLCV6KYFhHomuDrsYL3GXUcjKMAhjKIcwQNMi/+0lkZL+Pojv9X
+5Snxjs6OjcdHINmVbCFpby3fK1PwNGOHyGPagMUT5YCCFI+jk794acrwL+fESoYS
+4risiIKg0K9hoHq9usO+In1d1DApCUBi/EugySOPizrrYhiG9LrTqBi9qA2w4rZz
+5QsI4x8+LPVOWaFkJzSXWqr64K6rRn4E0zvioX3KjFidUsVmkEhSi8UyzA+FVVZW
+TqSyd2FTvtrmQZYvN8F0iNkEyB0UMqRYu2ZDo+a4528T994Z687tS/QEPFW8rUoA
+XfBHDrRjWhebMqGGotaNlG7+1M7b1t2QZW8+QLq3ak3hNpi8WVHssYD0Lyfp++Hr
+s83HG2KtXXCjE908Q8AdCGp45CgJL9YtiiZDX2zJJs5Z2QMtfYd5E5tprxSl9mUk
+xu+Uautb9L5bEIjSMY3C9CdxU75V8nu5ei3EGgI9nOEX9PIXNQ2xMYZ7ZoYqTa86
+78pbh2UevoXfzUfSHqb7IF69ITKpA3sMXWNl7Qq+hPfYouXtqvEYJBN1NoD6Az7p
+iO/kBfmqhSMesh286xU80dun
+=70hN
+-----END PGP SIGNATURE-----
+
+--===============8664599933782824824==--
