@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 07 Aug 2021 08:36:00 -0000
-Message-Id: <162832536032.12176.7471473015109049375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 07 Aug 2021 08:40:02 -0000
+Message-Id: <162832560273.14238.705862024825101393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 47fac45600aafc5939d9620055c3c46f7135d316
-    new: 34737e1320db6d51f0d140d5c684b9eb32f0da76
+    old: 35ba6abb73e4d2ba21a566d3671618f4a5503c27
+    new: 17bd3a1e10615b7a790faf5ff4cd87401d447e7c
     log: |
-         34737e1320db6d51f0d140d5c684b9eb32f0da76 net: wwan: mhi_wwan_ctrl: Fix possible deadlock
+         17bd3a1e10615b7a790faf5ff4cd87401d447e7c tulip: Remove deadcode on startup true condition
          
