@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Sat, 07 Aug 2021 03:10:27 -0000
-Message-Id: <162830582759.17794.7715500214343362156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 07 Aug 2021 03:20:30 -0000
+Message-Id: <162830643055.25258.6833921835996562379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: da0fa4e01292ef0ace2e361a572af49334a96cda
-    new: 80fec3f5f4e284c4b1555a0c1ac7279d9e54fe2f
+    old: 635a7df4125850695946f95e0a2642bd6da56d15
+    new: 9a446568e4385af47149aa9792baaf73817f780b
     log: |
-         80fec3f5f4e284c4b1555a0c1ac7279d9e54fe2f netdev: allow reassociation for auth-protos
+         9a446568e4385af47149aa9792baaf73817f780b Sat 07 Aug 2021 03:19:50 AM UTC
          
