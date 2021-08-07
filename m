@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8574714262980305951=="
+Content-Type: multipart/mixed; boundary="===============1730794267463829360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 07 Aug 2021 17:06:17 -0000
-Message-Id: <162835597711.5574.17160682916989318920@gitolite.kernel.org>
+Date: Sat, 07 Aug 2021 17:07:18 -0000
+Message-Id: <162835603889.5981.2119806395407150717@gitolite.kernel.org>
 
---===============8574714262980305951==
+--===============1730794267463829360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 08dc2f9b53afbbc897bc895aa41906194f5af1cf
-    new: 33529018294f1eabc6b5bb2672941165e658e96a
-    log: revlist-08dc2f9b53af-33529018294f.txt
+  - ref: refs/heads/for-next
+    old: 3c896446918b065216524c8eaf82b1fa971246a3
+    new: b697c84780d3b940fff0cce656b10ea2d98a3387
+    log: revlist-3c896446918b-b697c84780d3.txt
 
---===============8574714262980305951==
+--===============1730794267463829360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08dc2f9b53af-33529018294f.txt
+Content-Disposition: attachment; filename=revlist-3c896446918b-b697c84780d3.txt
 
 ba51bdafaafc065019c6f6a2cdae006d176cee48 scsi: sr: cdrom: Move cdrom_read_cdda_bpc() into the sr driver
 ead09dd3aed5cc6a6c6288a87a5bfa9bbc8d5ecf scsi: bsg: Simplify device registration
@@ -40,5 +40,6 @@ cf93a27446fe1a6e0acb9bbedf5fce1e98e4fc5b scsi: block: Remove BLK_SCSI_MAX_CMDS
 a40662c90d974a89d2f5d627542b63bed88e72f0 scsi: BusLogic: Avoid unbounded vsprintf() use
 2127cd21fb78c6e22d92944253afd967b0ff774d scsi: BusLogic: Use %X for u32 sized integer rather than %lX
 33529018294f1eabc6b5bb2672941165e658e96a scsi: qla4xxx: Convert uses of __constant_cpu_to_<foo> to cpu_to_<foo>
+b697c84780d3b940fff0cce656b10ea2d98a3387 Merge branch 'misc' into for-next
 
---===============8574714262980305951==--
+--===============1730794267463829360==--
