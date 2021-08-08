@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 08 Aug 2021 19:05:09 -0000
-Message-Id: <162844950941.26155.12441674910261011520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 08 Aug 2021 19:57:51 -0000
+Message-Id: <162845267175.26745.7297169276844281140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/timers/tval-ectomy
-    old: 4aca10120b40da8f9277ee419a1d48d907f27981
-    new: e09844d79adb4921b2b3e748f2eef8553dc7a521
+  - ref: refs/heads/master
+    old: 64ec13ec92d5b28371cb620928588a324cc74f54
+    new: cfe908c11659180e336a36f6f5a1c6591cfd3fc5
     log: |
-         a0a056106e83287a1e7aad073b86dd0ec919e86e clocksource/arm_arch_timer: Move MMIO timer programming over to CVAL
-         8915c316c54052f8189077b9efff30df7493d68d clocksource/arm_arch_timer: Remove any trace of the TVAL programing interface
-         1aa146b9a49a43e005fa0c8123c47fbefc43cdc2 clocksource/arm_arch_timer: Drop unnecessary ISB on CVAL programming
-         d11b9a3ae1bb8095dde7c32126673bb289abad65 arm64: Add a capability for FEAT_EVC
-         e09844d79adb4921b2b3e748f2eef8553dc7a521 arm64: Add CNT{P,V}CNTSS_EL0 alternatives to cnt{p,v}ct_el0
+         045c45d1f598c65806f885b59f6fbc4cebb62b15 net: dsa: centralize fast ageing when address learning is turned off
+         4eab90d9737b348094a99ba4e4c473e91a8b8038 net: dsa: don't fast age bridge ports with learning turned off
+         9264e4ad26112a496398159d200af017e37d97e3 net: dsa: flush the dynamic FDB of the software bridge when fast ageing a port
+         5313a37b881e57767bc37185bef2873862be8d47 net: dsa: sja1105: rely on DSA core tracking of port learning state
+         5126ec72a094bd3a721941323c48cc80c60139d9 net: dsa: sja1105: add FDB fast ageing support
+         cfe908c11659180e336a36f6f5a1c6591cfd3fc5 Merge branch 'sja1105-fast-ageing'
          
