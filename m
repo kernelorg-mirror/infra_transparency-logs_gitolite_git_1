@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 08 Aug 2021 07:03:07 -0000
-Message-Id: <162840618703.23784.1400286651185129551@gitolite.kernel.org>
+Date: Sun, 08 Aug 2021 07:03:37 -0000
+Message-Id: <162840621716.24028.6632006153986608375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,8 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: 739d0959fbed23838a96c48fbce01dd2f6fb2c5f
-    new: 0a081189b9fdf9141f1e39d886be1d4cf142039f
-    log: |
-         0a081189b9fdf9141f1e39d886be1d4cf142039f ALSA: cs46xx: Fix possible mmap breakage
-         
+    old: 0a081189b9fdf9141f1e39d886be1d4cf142039f
+    new: 739d0959fbed23838a96c48fbce01dd2f6fb2c5f
   - ref: refs/heads/master
-    old: 37319267a74384b5830d35a8fc7b87f07f3a5ee4
-    new: f97a9ff498ad1b4a79911c5bcd6e9fa2c9b61742
-    log: |
-         0a081189b9fdf9141f1e39d886be1d4cf142039f ALSA: cs46xx: Fix possible mmap breakage
-         f97a9ff498ad1b4a79911c5bcd6e9fa2c9b61742 Merge branch 'for-linus'
-         
+    old: f97a9ff498ad1b4a79911c5bcd6e9fa2c9b61742
+    new: 37319267a74384b5830d35a8fc7b87f07f3a5ee4
