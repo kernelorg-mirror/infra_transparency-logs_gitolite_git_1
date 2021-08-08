@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 08 Aug 2021 15:38:41 -0000
-Message-Id: <162843712156.22357.9302064164611703123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 08 Aug 2021 15:47:15 -0000
+Message-Id: <162843763539.27945.14043854686302661177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: c0135a6f045770739389443648cb6a45af05a8b1
-    new: ab9b671c554960fde00658ff1b1122960e010db0
+  - ref: refs/heads/testing
+    old: ee8ea7472ff7e56d015fcaf0924c043688ca29e8
+    new: 52ae7c708d970e28848f206573a9f11a7826a980
     log: |
-         4b7ea02dc05b231bbdc23793431ee44ae5b42180 common/rc: only force nfs4.2 non-default SEEK_HOLE behaviour
-         da693469b7a1c6a48a7ec2f9f97c676272d1908f btrfs: verify the behavior of deleting non-existing device
-         c124d3a3116da44ed896d778c12eee34f5635f1c xfs: quota state command should report upg grace times separately
-         de1196dcd9b618d777604cdaa030f0c06e7a8c64 overlay/078: Fix cleanup with unpatched kernel
-         9c1f3149271f556c031b6a348acfae5ce47ce18f dmflakey: support external log and realtime devices
-         ab9b671c554960fde00658ff1b1122960e010db0 dmerror: export configuration so that subprograms don't have to reinit
+         84c31a0466c12110af72d56c1dcc40759e848c55 dt-bindings: iio: accel: bma255: Add interrupt-names
+         02104141f3fa08c0b8d3924e0db4744212ed5b9a dt-bindings: iio: accel: bma255: Add bosch,bmc156_accel
+         73d672e63f3062e987f9c92abdeb332e280f47db iio: accel: bmc150: Make it possible to configure INT2 instead of INT1
+         52ae7c708d970e28848f206573a9f11a7826a980 iio: accel: bmc150: Add support for BMC156
          
