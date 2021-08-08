@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 08 Aug 2021 12:08:02 -0000
-Message-Id: <162842448234.22390.2930720809714528585@gitolite.kernel.org>
+Date: Sun, 08 Aug 2021 12:08:56 -0000
+Message-Id: <162842453682.22796.17406841479891744802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2f5501a8f1cd795f36c0a8a3ed868ac53b6be802
-    new: 2459dcb96bcba94c08d6861f8a050185ff301672
+    old: 2459dcb96bcba94c08d6861f8a050185ff301672
+    new: 3125f26c514826077f2a4490b75e9b1c7a644c42
     log: |
-         2459dcb96bcba94c08d6861f8a050185ff301672 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+         3125f26c514826077f2a4490b75e9b1c7a644c42 ppp: Fix generating ppp unit id when ifname is not specified
          
