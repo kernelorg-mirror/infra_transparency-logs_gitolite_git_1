@@ -1,66 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============9173693065956517314=="
+Content-Type: multipart/mixed; boundary="===============1572805518218888643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 08 Aug 2021 07:17:42 -0000
-Message-Id: <162840706297.13360.12175262860419187940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 08 Aug 2021 07:22:23 -0000
+Message-Id: <162840734389.16743.4506201661526567441@gitolite.kernel.org>
 
---===============9173693065956517314==
+--===============1572805518218888643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fbe71b1b79e72be3b9afc44b5d479e7fd84b598a
-    new: bd62f2240be5a2e29bb5fe2512cc863bcfe2766d
-    log: revlist-fbe71b1b79e7-bd62f2240be5.txt
+  - ref: refs/heads/linux-4.4.y
+    old: aff9d4e6115abc1732aef71bea36cf3beb9b2c53
+    new: ed64e21faa7c363631146450958652fc0eca52ff
+    log: |
+         d321baecb47a95b5943c0151d3ce21a04c4c1b75 futex: Rename free_pi_state() to put_pi_state()
+         4bedfc87b202f21913015880016274ad392d5ec9 futex: Cleanup refcounting
+         b31c31f789d6a732528857362b1493eb758a780f futex,rt_mutex: Introduce rt_mutex_init_waiter()
+         df096ff471bed13273c8e7436fbb08d3ee71864e futex: Pull rt_mutex_futex_unlock() out from under hb->lock
+         831b40f25e682e0509db7a1d3a9781b4b7f3c24a futex: Rework futex_lock_pi() to use rt_mutex_*_proxy_lock()
+         72029475c7b0299f43f165e99da92ab3d48b56d5 futex: Futex_unlock_pi() determinism
+         ed9a718a3264761845611aacf3ca31c1a5688d30 rtmutex: Make wait_lock irq safe
+         e3b26dca96f9f740724c289cf7e858fddcac60a3 futex: Handle transient "ownerless" rtmutex state correctly
+         35f361fe3cba66f4c8a7d046c6d1c834c825130f futex: Avoid freeing an active timer
+         7c895f502b061129c1fc00cdec273426d283a7f0 futex,rt_mutex: Fix rt_mutex_cleanup_proxy_lock()
+         061a8729dfc1ca0594ceb894dd4bdf0ae1a699a5 rcu: Update documentation of rcu_read_unlock()
+         ed64e21faa7c363631146450958652fc0eca52ff Linux 4.4.280-rc1
+         
 
---===============9173693065956517314==
+--===============1572805518218888643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbe71b1b79e7-bd62f2240be5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-aa1f53ccf9d973098e4ce4b90461cb7a241bfdba Various pages: Consistently use '*argv[]'
-2f05137b6a5a724fab3ce678e605ddf0a5cb4dba path_resolution.7: tfix
-36e6250f145ec7283ece3a1ef2914b3d0b403b13 capabilities.7: tfix
-57fb49f9ae4f2135098f2cc94993be42a536b110 user_namespaces.7: Fix a reference to a kernel document
-5612f82093330c81718de90d88d504d349e91b58 recv.2: tfix
-33e2aa41ff45e400a1086929a28bf5a5fff17112 ascii.7: ffix: add vertical rule to separate the two columns
-1d32ab01fced929a656d7f25f8b16f0f4deb0fdd scripts/bash_aliases: tfix
-85ac075357f80d3e7bb93b9ebf4016fd5b8c844c tkill.2: tfix
-bd9aa1b76246833bad55964d308650ba2a16f19f proc.5: tfix
-136ae439fb6ce5e8a2f87e90ea15bbebf732a8e6 wait.2: Add ESRCH for when pid == INT_MIN
-a42acb62df146c707de3d185d3085c45d3e1ff06 wait.2: Minor fixes to Richard Palethorpe's patch
-6b1817e09d47572f3b1b8cc2cd762d219713fd81 printf.3: tfix
-f05d7043fe9652fed7471813f23a303bcb671ab2 namespaces.7: Fix confusion caused by text reorganization
-ec415ad9705fe642d00ea8aa7abcb2f4b47992bd strstr.3: Document special case for empty needle
-f95aa6f05bd7616e0c2935e88389d83ceb43aa76 strstr.3: wfix
-c9992ba76c8da418f9b1d044e74c3da8fd9ac662 time.2: wfix regarding year-2038
-5fc054ecd9610345b549f38a59a68ade40be6305 vdso.7: Update CLOCK_REALTIME_COARSE and CLOCK_MONOTONIC_COARSE info for powerpc
-f5dfd9a0324b9f4cd04c74a7437bc9bbe8e859be vdso.7: srcfix
-20c2c5ced3d0c13b8d6295dc930304b60123565c posixoptions.7: Fix legacy functions list (s/getcwd/getwd/)
-6131983d2480ae721d3a9de7240c667d8b50a63f man2/fallocate.2: tfix documentation of shared blocks
-3e2656812f240aa25db29f4c8ee85f199cb5a66a seccomp_unotify.2: Document SECCOMP_ADDFD_FLAG_SEND
-1cca69d3a70439e84a9e15c7d675883d44e42bfe seccomp_unotify.2: Minor tweaks to Rodrigo's patch
-54ae7ac44184c62beb8d60610e3a95ef8cd88ff9 seccomp_unotify.2: Minor tweaks (part 2) to Rodrigo's patch
-515fa99a9a6502801138590f14bead2d7f0b2747 seccomp_unotify.2: tfix
-8a7dd01825ec866f078362e0b712b8141d58646b execve.2: SEE ALSO: getauxval(3)
-dc3037bf4df4eb45fd8051d21153443d3aba7f36 getauxval.3: SEE ALSO: add execve(2)
-21b8af1f3c6a1ba2eb22e1ebdc7bff678ee6c7f6 execve.2: The pathname given to interpreter is not necessarily absolute
-afaa08a48121f7fad79609eb787fd8f15d1fb87d strlen.3, wcslen.3: Recommend alternatives where input buffer might not be null-terminated
-7a398162a89982c69fbbf1018906d52d9e8b6a5c vdso.7: Add y2038 compliant gettime for ppc/32
-ae5cc0dc572116c9f4125a1de52e6c613e6659f3 vdso.7: Minor tweak to Alejandro Colomar's patch
-f2ec5c2b1a4a3a2979e8e99f4b217a2858d42a6f readv2: Note preadv2(..., RWF_NOWAIT) bug in BUGS section
-f09b616d072c7812e76e66d1e58169b0d0ef0930 readv.2: Minor tweaks to Will Manley's patch
-76dec7bbd4e8761249a339db5f13f7e63a37aac3 readv.2: Minor fixes (part 2) to Will Manley's patch
-29c1f3cf960495be9659486e194539f107ad03b5 capabilities.7, user_namespaces.7: Describe CAP_SETFCAP
-c83edb030c53a262a28bb0b6c273bb0aeaafccea capabilities.7: Minor tweaks to Kir's patch
-bd62f2240be5a2e29bb5fe2512cc863bcfe2766d capabilities.7, user_namespaces.7: Minor tweaks (part 2) to Kir Kolyshkin's patch
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628407342 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1628407338-276573b91911d1b92e875253cdab05842805e898
 
---===============9173693065956517314==--
+aff9d4e6115abc1732aef71bea36cf3beb9b2c53 ed64e21faa7c363631146450958652fc0eca52ff refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEPhi4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nkEP+gJ74v1GWLG6OBhwaRQD
++mWpaLt04d/bjhYVTUIAUPws2tAMktLF/1irKXcn7UVSBsXfK1X8VGJtrUy0EpI/
+WObMnBv4rTDbonNH0m1HG2/OgmvSnKxYuNnfCLMPKZGU+jWtl32QtQRYE9sIqQJa
+bemQ5u268aotx+xYDsog77tuHna9P400hW2iiW+OAH4ZHQJNbdn0/yyCT6SEKXtO
+tAK7oCxh0I3LdwLtuZU51Mnbr2BJYxnhiCdFqsy21kLPe5YzzRnHpOESI7kM4P7w
+wFTArFbOyiOhNQNDtSgfh011HQrvzkdpyZR9TPEE6KVGtyPDsKSOQud4sxUvqBBc
+WdIG/RwAFQvrhn88RV23Ec6nvLrWfZmFe5snN6eT/l8IsIfXH05xMcbydQfUH3VH
+1uPFQSOgqWaFukYbWga6+a8meVMDQklrvgzxBkkjVEAsVaiLjt61xgQ0dT1aT61v
+525R0Q8Kd27dkrX0Ccfbp5E4e+vCumGhWtf5TyL8XdfumnhKw6oUL+Ih3fSOgAHy
+87enQDCN79Szs4P4FERd8/u2AuX6+edIppNBpkE/bg9oG+tLk3Ma+NbOSm5oHy9m
+Z3hWoTI0xSQGU56bMZUjeXo7y/9WL/2qA5fIMHmgD0BlxGU+dvR/qbPZ7ooyKVgL
+aYTrkHJGqXPMdnTjbfA8MjP1
+=ZugX
+-----END PGP SIGNATURE-----
+
+--===============1572805518218888643==--
