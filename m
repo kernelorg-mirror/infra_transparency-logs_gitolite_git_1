@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4389509921126039311=="
+Content-Type: multipart/mixed; boundary="===============8663136814046650208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 08 Aug 2021 02:25:46 -0000
-Message-Id: <162838954679.4244.4718440632538127786@gitolite.kernel.org>
+Date: Sun, 08 Aug 2021 02:33:46 -0000
+Message-Id: <162839002679.8284.9444048622125753773@gitolite.kernel.org>
 
---===============4389509921126039311==
+--===============8663136814046650208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/pending-5.10
-    old: 13e8fcf1ce7e4ae6d7ec2b4d73fbe61684a05d79
-    new: 20ec5addff0233cfff079df64ee0e374fa8b3eb5
-    log: revlist-13e8fcf1ce7e-20ec5addff02.txt
+  - ref: refs/heads/pending-5.4
+    old: e8cf8ae881c641ce9cfabd39d4ef980caea767fd
+    new: 0a9a139938c364f34e8c077ff6f104319e895a16
+    log: revlist-e8cf8ae881c6-0a9a139938c3.txt
 
---===============4389509921126039311==
+--===============8663136814046650208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13e8fcf1ce7e-20ec5addff02.txt
+Content-Disposition: attachment; filename=revlist-e8cf8ae881c6-0a9a139938c3.txt
 
-a98ad5021269058efbac3004c4b1f52a882467f7 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
-a5166ca1250d24af5781741492854540ccbcb894 spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
-452822ef31fabe7a7670fcec40a7e741c75db135 scsi: sr: Return correct event when media event code is 3
-a0159450a8c87ec20a90585602fdcb0a0952e257 media: videobuf2-core: dequeue if start_streaming fails
-849546e5a490ac43005a20cb4b1cf96554bab218 ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
-b74ef6de152fb08537d7358c92303dddfea77c62 ARM: dts: stm32: Fix touchscreen IRQ line assignment on DHCOM
-6449029ae0aebc38d30a29195e3143d1240fde9d dmaengine: imx-dma: configure the generic DMA type to make it work
-266a5e0be1f616d40dcb7fa9649f71092525aeb8 net, gro: Set inner transport header offset in tcp/udp GRO hook
-60d0386d13dbde76ab274a98cf299311169ae09d net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
-27e558deacbec7c0a6749099c173f13837260a3e net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
-86550569123d762a2f743184be7e35f192d6ab74 net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
-2c51a7bcb3acc5eb816dd1a3d3faa0bb25852e71 net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
-777cb11bb4fb3d0633c695bbc2e23c3dd718959c net: phy: micrel: Fix detection of ksz87xx switch
-30e0883f4a705e5d974bbe083b560396464940ec net: natsemi: Fix missing pci_disable_device() in probe and remove
-cb50fe07fc140def5bf7c9317ffba72325bfe246 gpio: tqmx86: really make IRQ optional
-ebdb41b11881d11b677cf8527fbd79aac8527b9d RDMA/mlx5: Delay emptying a cache entry when a new MR is added to it recently
-1218a36fc91663755334bec23450b7431574019e net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
-964294240059638ed07f1d3b7a5bd4a85cb83fd4 sctp: move the active_key update after sh_keys is added
-fb0bb7e251ccf9162d9990068d602ed3e2f047fd nfp: update ethtool reporting of pauseframe control
-843c2c1c1b7e01a131bdd87372f4bd31f7faa305 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
-df888060e03d108fe59cce0615a934e4d240fbf2 VSOCK: handle VIRTIO_VSOCK_OP_CREDIT_REQUEST
-68f541ffe004458deba609486ad61a72c20c7c39 net: dsa: qca: ar9331: reorder MDIO write sequence
-1c7528f6b7fc421b9f176df9474be7947b20929e net: sched: fix lockdep_set_class() typo error for sch->seqlock
-9d804f1164f1c3a446ebbeb3e779f8dcd2f37778 MIPS: check return value of pgtable_pmd_page_ctor
-bde56fd3941fd20c6acd335b2aecc6fbc2bba063 mips: Fix non-POSIX regexp
-8d60985142ea0e62a446c5f3172688ce65db0c7d bnx2x: fix an error code in bnx2x_nic_load()
-3d921e16129f4337aa037e9bcdaeb2466a2b78b0 net: pegasus: fix uninit-value in get_interrupt_interval
-ca7c22a7def97a76268be1fd0ee34c866d72577b net: fec: fix use-after-free in fec_drv_remove
-06ccd6cea1a37dea3f50c955faaf0facb48c1c80 net: vxge: fix use-after-free in vxge_device_unregister
-49596306e102e1adbe1e705dd66c57baa1f25f84 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
-20ec5addff0233cfff079df64ee0e374fa8b3eb5 Bluetooth: defer cleanup of resources in hci_unregister_dev()
+f09b940dfb17ac01c630e0ed2aea3adcf6c00c6a arm64: dts: ls1028a: fix node name for the sysclk
+f5f5abb6144242d3541694740ab74f8bbb55d7a9 ARM: imx: add missing iounmap()
+37a2b97623fd9a1e382b7439853f77a5c06ccf0b ARM: imx: add missing clk_disable_unprepare()
+a0088abfa10dfb7282bd944703bb6b4839ec209d ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
+cbb846803201d2205c61d2eddef5aba0b1d0ec0f ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
+d4fa6f0edb398c5c628833b3ab42b3673d76f62c ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+41c713f159906b4a9841aa1201f1e490103c10ca ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
+ba743c6977a88196bc000177328575c58368a87c arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
+1241a24532ec3afa06b96a8bb1236a3d7120ef25 ALSA: usb-audio: fix incorrect clock source setting
+a717a3428c43f2d67aa68610653e8f131f4e0db8 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+8d7d3e99a2ddcd5273618c302a92a7e7ce805942 ARM: dts: am437x-l4: fix typo in can@0 node
+0a9a139938c364f34e8c077ff6f104319e895a16 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
 
---===============4389509921126039311==--
+--===============8663136814046650208==--
