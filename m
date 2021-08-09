@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 09 Aug 2021 09:17:03 -0000
-Message-Id: <162850062355.10722.16462264654047965698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 09 Aug 2021 09:18:21 -0000
+Message-Id: <162850070140.11395.13611019601235336682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 0fa32ca438b42fadfb293d72690e117ab3d67489
-    new: acc68b8d2a1196c4db806947606f162dbeed2274
+    old: 403fa18691b7370ad7508292769824ba298c184b
+    new: 94c0a6fbd5cfc34d3ce5fea5867123402cdc8794
     log: |
-         acc68b8d2a1196c4db806947606f162dbeed2274 net: ethernet: ti: cpsw: fix min eth packet size for non-switch use-cases
+         94c0a6fbd5cfc34d3ce5fea5867123402cdc8794 wwan: mhi: Fix missing spin_lock_init() in mhi_mbim_probe()
          
