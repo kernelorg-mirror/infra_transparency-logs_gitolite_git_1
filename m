@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7764235636260638578=="
+Content-Type: multipart/mixed; boundary="===============0532291262115957344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Aug 2021 11:25:52 -0000
-Message-Id: <162850835299.5738.2627376727086121469@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 11:26:33 -0000
+Message-Id: <162850839395.6076.2595322918798086249@gitolite.kernel.org>
 
---===============7764235636260638578==
+--===============0532291262115957344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0fa29511984b3e62b2ecdec53f7b7ea3c84c4d09
-    new: 5f10755da6b9281682cd3cd9b5d868d1c94c0e03
-    log: revlist-0fa29511984b-5f10755da6b9.txt
+  - ref: refs/heads/for-next
+    old: a0b22464ce9352c4a3e100f10f976c85b0ae6690
+    new: 2189e928b62e91d8efbc9826ae7c0968f0d55790
+    log: |
+         07aa6c73e7c670c1917e3b2447e8f1b4c236315e m68k: defconfig: Update defconfigs for v5.14-rc1
+         2189e928b62e91d8efbc9826ae7c0968f0d55790 m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
+         
+  - ref: refs/heads/for-v5.15
+    old: a0b22464ce9352c4a3e100f10f976c85b0ae6690
+    new: 2189e928b62e91d8efbc9826ae7c0968f0d55790
+    log: |
+         07aa6c73e7c670c1917e3b2447e8f1b4c236315e m68k: defconfig: Update defconfigs for v5.14-rc1
+         2189e928b62e91d8efbc9826ae7c0968f0d55790 m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
+         
+  - ref: refs/heads/m68k-queue
+    old: 639b78f189c11b8355ffcf87f224be9cd71db392
+    new: 3debf536c7ef26211db7101c2131144693b232fc
+    log: revlist-639b78f189c1-3debf536c7ef.txt
 
---===============7764235636260638578==
+--===============0532291262115957344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fa29511984b-5f10755da6b9.txt
+Content-Disposition: attachment; filename=revlist-639b78f189c1-3debf536c7ef.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -624,8 +638,10 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
-09842d789cc443303146ee1703d38e14f287e744 m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
-afaaab323fc11e2c2bc63ebe0793b2ec1655fdd3 Merge tag 'v5.14-rc4'
-5f10755da6b9281682cd3cd9b5d868d1c94c0e03 Merge tag 'v5.14-rc5'
+0ccb06395c909b57e082f25d78ccf3a184d99e14 m68k: emu: Fix invalid free in nfeth_cleanup()
+9087499aebee24b8b58fd597f31b303cd7974538 m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
+260376e2022456ffbe34e577664f0bda057ab5c1 m68k: atari: usb: Add ISP1160 USB host controller support
+0564a27f5b2f5dddae9c41b8213285b6d495e3e4 m68k: atari: Update Kconfig.bus help text
+3debf536c7ef26211db7101c2131144693b232fc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7764235636260638578==--
+--===============0532291262115957344==--
