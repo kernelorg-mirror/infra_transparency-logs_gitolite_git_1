@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 09 Aug 2021 04:01:49 -0000
-Message-Id: <162848170923.19620.5441151123801328450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 09 Aug 2021 04:30:16 -0000
+Message-Id: <162848341658.7116.11620286577690966121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 5d79e5ce5489b489cbc4c327305be9dfca0fc9ce
-    new: 484f2b7c61b9ae58cc00c5127bcbcd9177af8dfe
+  - ref: refs/heads/next
+    old: 7b15db5f1e255042b4b9ff44d300fc0242b8eea2
+    new: b0e77c4a957e22d580b7c5ce35d70a39e0da27c0
     log: |
-         484f2b7c61b9ae58cc00c5127bcbcd9177af8dfe cpufreq: armada-37xx: forbid cpufreq for 1.2 GHz variant
+         b0e77c4a957e22d580b7c5ce35d70a39e0da27c0 certs: Add support for using elliptic curve keys for signing modules
          
