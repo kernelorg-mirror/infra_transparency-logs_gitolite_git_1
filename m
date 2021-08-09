@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 09 Aug 2021 20:12:58 -0000
-Message-Id: <162853997849.9407.2797206775166108910@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7734872109832593126=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
+Date: Mon, 09 Aug 2021 20:22:57 -0000
+Message-Id: <162854057795.18668.13177632859124995595@gitolite.kernel.org>
+
+--===============7734872109832593126==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/mricon/hook-test
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 9c38b671ebd5297d861522806e09cf9e639d0af6
-    new: 7c0223e1ddd7d1c16b76adf8c9c352771856c632
+  - ref: refs/heads/main
+    old: f60d0c70b32640f05a3b9c715ab7db260d254464
+    new: c7ebb8ce2910799bc2ab7a724ec7b839d07dadda
     log: |
-         b7ae6d43786ed6b834892d444cee28eba24e56f6 perf script python: Fix unintended underline
-         1ea3cb159e304f83136ebeb0e56b0cb8a7203cda perf auxtrace: Use WRITE_ONCE() for updating aux_tail
-         1fc7e593e2028f5e0949a67050b4c15167698a4f perf auxtrace: Drop legacy __sync functions
-         9d6450330879791831e6fd3fc20a55990c889a7d perf auxtrace: Remove auxtrace_mmap__read_snapshot_head()
-         65c45afb14691d431a9b9faef10700f740ab1ba0 perf: Cleanup for HAVE_SYNC_COMPARE_AND_SWAP_SUPPORT
-         60fa754b2a5a4e0c44669f8d926a5a980c50b1e8 tools: Remove feature-sync-compare-and-swap feature detection
-         7c0223e1ddd7d1c16b76adf8c9c352771856c632 perf env: Track kernel 64-bit mode in environment
+         c7ebb8ce2910799bc2ab7a724ec7b839d07dadda 3->4
          
+
+--===============7734872109832593126==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1628540577 -0400
+pushee pdx-korg-gitolite-2.ci:pub/scm/linux/kernel/git/mricon/hook-test
+nonce 1628540577-ea55260bde4f93088a8943ae492f3d702c935664
+
+f60d0c70b32640f05a3b9c715ab7db260d254464 c7ebb8ce2910799bc2ab7a724ec7b839d07dadda refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYRGOoQAKCRC2xBzjVmSZ
+bK4mAQCDK0plgdzYX1e0J57gyFUex22z9iaa8Bj0sUZT2x6TsgD9G+28B/KeAzsP
+0bOxBF70/IqUwoPFnX3myWEmppxrTAU=
+=7C/7
+-----END PGP SIGNATURE-----
+
+--===============7734872109832593126==--
