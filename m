@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 09 Aug 2021 14:29:31 -0000
-Message-Id: <162851937124.3452.6590693535225628726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
+Date: Mon, 09 Aug 2021 14:30:03 -0000
+Message-Id: <162851940350.4208.12326212252505894336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/morgan/libcap
+user: morgan
 changes:
-  - ref: refs/heads/timers/tval-ectomy
-    old: 51d55e3eba271ee73b4528478fc27dde9d9755d3
-    new: 5806432c712ea492c33513d70c795a3f3c267777
-    log: |
-         71e14ec73c074012803649f60016e9b96adeea94 clocksource/arm_arch_timer: Remove any trace of the TVAL programming interface
-         3084a50003cd76fdd4595966368755a60a9c87e6 clocksource/arm_arch_timer: Drop unnecessary ISB on CVAL programming
-         636b7362d4813917dcddc9216496b98cc9d305e4 arm64: Add a capability for FEAT_EVC
-         974f6e8c6d08b93bb4927bf7f1bfb46a5bef3123 arm64: Add CNT{P,V}CTSS_EL0 alternatives to cnt{p,v}ct_el0
-         5806432c712ea492c33513d70c795a3f3c267777 clocksource/arm_arch_timer: Fix masking for high freq counters
-         
+  - ref: refs/tags/cap/v1.2.52
+    old: 0000000000000000000000000000000000000000
+    new: b8af89dddeb2882ea458f1325d13052bf8598732
+  - ref: refs/tags/libcap-2.52
+    old: 0000000000000000000000000000000000000000
+    new: 3ba4f95a3a71bed458f65aa59455f09d1089b989
+  - ref: refs/tags/libcap-korg-2.52
+    old: 0000000000000000000000000000000000000000
+    new: ec652074c73aa81747580241f39affcf30cb4b4a
+  - ref: refs/tags/psx/v1.2.52
+    old: 0000000000000000000000000000000000000000
+    new: 477fbb10b463e67947793ddd2cb31f124ef70d66
+  - ref: refs/tags/v1.2.52
+    old: 0000000000000000000000000000000000000000
+    new: 17c3ed8f1b890684854c3716a4288c7430b715f0
