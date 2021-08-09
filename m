@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8996626111363263750=="
+Content-Type: multipart/mixed; boundary="===============0363421356544460959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 09 Aug 2021 12:54:38 -0000
-Message-Id: <162851367857.584.18047333938952361461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Aug 2021 12:54:45 -0000
+Message-Id: <162851368522.741.2735927192851590610@gitolite.kernel.org>
 
---===============8996626111363263750==
+--===============0363421356544460959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/spi-5.15
     old: 04e6bb0d6bb127bac929fb35edd2dd01613c9520
     new: d05aaa66ba3ca3fdc2b5cd774ff218deb238b352
     log: |
@@ -25,28 +25,28 @@ changes:
          d05aaa66ba3ca3fdc2b5cd774ff218deb238b352 spi: mxic: patch for octal DTR mode support
          
 
---===============8996626111363263750==
+--===============0363421356544460959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628513662 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1628513676-d3b58a3e03a06f1b0fb6d13600a028fa837bf436
+pusher C3F436CA30F5D8EB 1628513668 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1628513683-33eb3749b7c2f14af0a568063c8f9ed64a9be243
 
-04e6bb0d6bb127bac929fb35edd2dd01613c9520 d05aaa66ba3ca3fdc2b5cd774ff218deb238b352 refs/heads/for-5.15
+04e6bb0d6bb127bac929fb35edd2dd01613c9520 d05aaa66ba3ca3fdc2b5cd774ff218deb238b352 refs/heads/spi-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmERJX4ACgkQJNaLcl1U
-h9BCigf8CdTPCXfiBAWD+b+0d4wnMSRBlH1UsDD8CClOZnLWRiH5JCHG+KtLgAEI
-YdONzpPHdpGjgIX4fTP1rSGQQyn4DXmPRW7nAGuJtEaZvOt3HCejzKiq1cmo+O4o
-9YjPIr5aObTA7EwwKVhF3aMulsM/hjm5MPBpDEshkPUVY26k9JCciUOD9Hw+37zl
-kTtb6iEB0LmoyijiytE8/JKPCBLMR+YT9DiE5SWiTIbfxW4G5T9TGmZjlphmmstk
-O1ZP2pgBapNiOHeUBz51wUCMTckm4+dMquTDrduSSh6NutNL+Hjg034VGIWBQeFe
-22hyBHjHJ3l4TwpHI4yWsWctLapdWQ==
-=+jfJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmERJYQACgkQJNaLcl1U
+h9Cligf/ad26jhYCq3wlUuP2MgQMfHcT1hQXvlV3ZEqID2AgZsBNxnSS0rpH2AE1
+aP5aV+jjzFqqAIg2eWXBmogtO348E7hRYQqlTkS1o9tOU4o9YfX6hoyLTEkOm/Tm
+IUQsJTgYH4Pg6yxsMv2aBAQKRs3AoiJZaXvup3djCyhhq2Ww6KwyiR7wf+XorqQf
+k/YEQQmIi3rBSBXefkBRfb0ezl/ClyMgnu28XilTF+53H6XTqZMTajOnhiZJPqZp
+Y52jEZw8vNe0XutRwM9Y0Csbuh1RAR2vGa+JMvDu/f7/MkRk1lWe5I8ox0Ewag+P
+GOml+UZz8GegzhbbniUwKzpxSdTTlg==
+=Iusr
 -----END PGP SIGNATURE-----
 
---===============8996626111363263750==--
+--===============0363421356544460959==--
