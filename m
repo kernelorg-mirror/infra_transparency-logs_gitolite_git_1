@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3919325287431321741=="
+Content-Type: multipart/mixed; boundary="===============8996626111363263750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Aug 2021 12:54:31 -0000
-Message-Id: <162851367180.480.18362214441074345505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 09 Aug 2021 12:54:38 -0000
+Message-Id: <162851367857.584.18047333938952361461@gitolite.kernel.org>
 
---===============3919325287431321741==
+--===============8996626111363263750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.15
-    old: d38d49b140043bba3ea27b89cca5fefaf08e2034
-    new: 27fdd3bbb7a13830c05b6bf777e45c392cb00f63
+  - ref: refs/heads/for-5.15
+    old: 04e6bb0d6bb127bac929fb35edd2dd01613c9520
+    new: d05aaa66ba3ca3fdc2b5cd774ff218deb238b352
     log: |
-         27fdd3bbb7a13830c05b6bf777e45c392cb00f63 regulator: sy7636a: Use the regmap directly
+         e4bb903fda0e9bbafa1338dcd2ee5e4d3ccc50da spi: tegra20-slink: Improve runtime PM usage
+         26c863418221344b1cfb8e6c11116b2b81144281 spi: tegra20-slink: Don't use resource-managed spi_register helper
+         d05aaa66ba3ca3fdc2b5cd774ff218deb238b352 spi: mxic: patch for octal DTR mode support
          
 
---===============3919325287431321741==
+--===============8996626111363263750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628513655 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1628513669-1088f30467591d051cb3ad1c1f414fce76bfbd81
+pusher C3F436CA30F5D8EB 1628513662 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1628513676-d3b58a3e03a06f1b0fb6d13600a028fa837bf436
 
-d38d49b140043bba3ea27b89cca5fefaf08e2034 27fdd3bbb7a13830c05b6bf777e45c392cb00f63 refs/heads/regulator-5.15
+04e6bb0d6bb127bac929fb35edd2dd01613c9520 d05aaa66ba3ca3fdc2b5cd774ff218deb238b352 refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmERJXcACgkQJNaLcl1U
-h9ArPQf/RVOKE2xRxPSjg5gAFQ07IUm+rlAl1ClaQajJJxT+UdRx9SdfJGPpyKzh
-wL4GxQ+OaM++vmH1slkuRSQSKXx8BiYIMBtQc5RKBL2P+Bigkk1qq2/DUVWxQQ1C
-7s366Og8zhu7nffoyn9vx3FGYp4umDV6MEyv0uk71kuqiS/BH2nNHVJm9yQHjNS1
-4+MoflbMLBOuAEYOm0d9Ln8jZjgxHmSzO69M/A9xd7+xkboQJx0RMFalBbKSwXt6
-OLIkZmOcBcMr8zl85aO7PKDYhjVclO1Bu9cOt4ov3G8UHUWFRGcWXVeXppxjxVk9
-iXQzZd+OQItO9muyfREaQmg/0344dQ==
-=vWEU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmERJX4ACgkQJNaLcl1U
+h9BCigf8CdTPCXfiBAWD+b+0d4wnMSRBlH1UsDD8CClOZnLWRiH5JCHG+KtLgAEI
+YdONzpPHdpGjgIX4fTP1rSGQQyn4DXmPRW7nAGuJtEaZvOt3HCejzKiq1cmo+O4o
+9YjPIr5aObTA7EwwKVhF3aMulsM/hjm5MPBpDEshkPUVY26k9JCciUOD9Hw+37zl
+kTtb6iEB0LmoyijiytE8/JKPCBLMR+YT9DiE5SWiTIbfxW4G5T9TGmZjlphmmstk
+O1ZP2pgBapNiOHeUBz51wUCMTckm4+dMquTDrduSSh6NutNL+Hjg034VGIWBQeFe
+22hyBHjHJ3l4TwpHI4yWsWctLapdWQ==
+=+jfJ
 -----END PGP SIGNATURE-----
 
---===============3919325287431321741==--
+--===============8996626111363263750==--
