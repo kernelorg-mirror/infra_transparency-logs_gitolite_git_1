@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4111215310227051558=="
+Content-Type: multipart/mixed; boundary="===============7331224415514362823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 09 Aug 2021 23:19:38 -0000
-Message-Id: <162855117846.6403.12273544838870014706@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 23:20:05 -0000
+Message-Id: <162855120526.8057.3876197045928401282@gitolite.kernel.org>
 
---===============4111215310227051558==
+--===============7331224415514362823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
+  - ref: refs/heads/fixes
+    old: 14ccc638b02f9ec500c17d9e39efe979145a4b61
     new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
-    log: revlist-c500bee1c5b2-36a21d51725a.txt
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
+    log: revlist-14ccc638b02f-36a21d51725a.txt
 
---===============4111215310227051558==
+--===============7331224415514362823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c500bee1c5b2-36a21d51725a.txt
+Content-Disposition: attachment; filename=revlist-14ccc638b02f-36a21d51725a.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -283,10 +280,6 @@ b46c5795d641b759eb0f001ab21852fe5df5ef92 net: wwan: iosm: endianness type correc
 c98f5220e9703db2d73b4e89c07879dc61eeab14 net: wwan: iosm: correct data protocol mask bit
 679505baaaabed98359c1dfb78f81600e299af21 net: wwan: iosm: fix recursive lock acquire in unregister
 afa00d3f5800a83228311636fc69fd28fb7af205 Merge branch 'eean-iosm-fixes'
-fa953adfad7cf9c7e30d9ea0e4ccfd38cfb5495d x86/tools/relocs: Fix non-POSIX regexp
-28bbbb9875a35975904e46f9b06fa689d051b290 mips: Fix non-POSIX regexp
-54eacba0e3bbda9777788b44b45a5186918569f2 scripts: checkversion: modernize linux/version.h search strings
-14ccc638b02f9ec500c17d9e39efe979145a4b61 kbuild: cancel sub_make_done for the install target to fix DKMS
 fb653827c758725b149b5c924a5eb50ab4812750 bnx2x: fix an error code in bnx2x_nic_load()
 ae03d189bae306e1e00aa631feee090ebda6cf63 net: ethernet: ti: am65-cpsw: fix crash in am65_cpsw_port_offload_fwd_mark_update()
 51397dc6f283bb570e1cf8226017d300d8ea1f5b tracing: Quiet smp_processor_id() use in preemptable warning in hwlat
@@ -353,4 +346,4 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
 
---===============4111215310227051558==--
+--===============7331224415514362823==--
