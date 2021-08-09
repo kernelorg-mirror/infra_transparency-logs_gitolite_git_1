@@ -1,29 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Aug 2021 15:48:05 -0000
-Message-Id: <162852408539.25597.17766816106082244873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 09 Aug 2021 16:19:47 -0000
+Message-Id: <162852598772.14382.3502205698305376339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: fe2166daccfd79b01f623a7c7447a066fedfc789
-    new: 5446b51c8cef63424cbf6a1f01037a3a359d7a17
+  - ref: refs/heads/dev
+    old: 6805789f5092589c10307f3ef1c8c59964db39a2
+    new: 771c994ea51f572539ca3961c6a7706862b147e2
     log: |
-         5446b51c8cef63424cbf6a1f01037a3a359d7a17 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         a08e67a0280215f74eccf14fda81dd7fed6596ba erofs: iomap support for non-tailpacking DIO
+         06252e9ce05b94b587e522667b85848a30197b15 erofs: dax support for non-tailpacking regular file
+         61dc131cecaecfa1ade0f932f306544861e83718 Merge tag 'iomap-5.15-merge-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
+         771c994ea51f572539ca3961c6a7706862b147e2 erofs: convert all uncompressed cases to iomap
          
-  - ref: refs/heads/for-next
-    old: 9f596667e4a03bd0d510cf327d7c2f888d0c15b6
-    new: b6ba7f5d4e8abf104b693814e1772489da30da5d
+  - ref: refs/heads/dev-test
+    old: 6805789f5092589c10307f3ef1c8c59964db39a2
+    new: 771c994ea51f572539ca3961c6a7706862b147e2
     log: |
-         a10facb752535c078c914b1910dd72eb2e8d584b ASoC: max98390: Add support change dsm param name
-         6d0a764d418fb508119e129c73f39ecc66826675 ASoC: rt1015p: add new acpi id and comapatible id
-         064478e4877c76b0c1fd1155934f226f1561aab3 ASoC: dt-bindings: rt1015p: add new compatible id
-         5446b51c8cef63424cbf6a1f01037a3a359d7a17 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-         b6ba7f5d4e8abf104b693814e1772489da30da5d Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         a08e67a0280215f74eccf14fda81dd7fed6596ba erofs: iomap support for non-tailpacking DIO
+         06252e9ce05b94b587e522667b85848a30197b15 erofs: dax support for non-tailpacking regular file
+         61dc131cecaecfa1ade0f932f306544861e83718 Merge tag 'iomap-5.15-merge-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
+         771c994ea51f572539ca3961c6a7706862b147e2 erofs: convert all uncompressed cases to iomap
          
