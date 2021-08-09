@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0038952404357203798=="
+Content-Type: multipart/mixed; boundary="===============6786652578137251727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 Aug 2021 06:58:17 -0000
-Message-Id: <162849229790.28349.329308716898152708@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 06:58:22 -0000
+Message-Id: <162849230257.28435.10940627497029887861@gitolite.kernel.org>
 
---===============0038952404357203798==
+--===============6786652578137251727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: ff1176468d368232b684f75e82563369208bc371
+  - ref: refs/heads/char-misc-linus
+    old: 6bfc5272904af6873aa6bc7cd5732552f9c6e955
     new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
-    log: revlist-ff1176468d36-36a21d51725a.txt
+    log: revlist-6bfc5272904a-36a21d51725a.txt
 
---===============0038952404357203798==
+--===============6786652578137251727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492296 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492301 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1628492296-956081e5d26b2c9ad008d8a9fefc606577da93e0
+nonce 1628492301-2de87e2367867437579896274e6bd50f961fd658
 
-ff1176468d368232b684f75e82563369208bc371 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/main
+6bfc5272904af6873aa6bc7cd5732552f9c6e955 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ0ggbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NzQP/RdNn8hxo3B+Sl363v5H
-y5j8zFffEr00CUUIzsMHOYzUxnSLZFSq5mXqs2lU1/1rAPRBKv1vbscqwDcVs6MD
-xcSFsUF+n4J68ky55cfdT6uB5H1hqzUtNvpGEYznnRZbx/Tcm7F/h4W10CEZ1nQ/
-VqACt85202MZO5wbw7nShod3ecPcWUlYmhjkDPgmObi8LSk9MhWCiiWUR6JkWrGW
-lpPaOdgUDURGMgHj5rAfwrtkDdC2Tkr/+QZsDjepJCTODi6jt5Wwqnh9GY7ECcY9
-J3YWmFtN8msZICM5uVIANCsMTiTxfdNFpDm8Gp9F03Z4uKf41FgWhsqRKSD6FZei
-Qty8GRpa0XPcwakEuezTwELrzHHSApE9FSJkl+WJ5lVDlGOsDpY8JG6tN/7+OGlS
-tV4POb7195J6Ff0sBr+NieHcy/5sYLNsL4tmHQdTV+B1fkYY+bDteuGAx8ljv1mW
-b+GGsIT7FPab/hZ+okL1Ig8zjdyu7QwijUMfPjYGA5E44zZ8T1MUTzfVM0P944vB
-Cmy1CFvl83PpA0LwW5TohgfO3sL5/ZM4L4LVG/xsVRuj3t9bvTa3DNb+WF9SkPam
-f4Vt7TmNkTV/XsPdDmxZdYhldnQ4g51nGUk92+Qdlt2Euc+GABsAo1E2oCezrDXC
-4KH1B+rrqNtchnpK0CC0Cijb
-=ZJth
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ0g0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yo8QAI/KtYHwe226ysHZW6pH
+xk0rjhAgr65vxOJpibirivgAp+sCfDOJrxZU91n0l05N5EKVm5EimzPHoUFGRxZL
+mQhAaDVlDTwderT9CjsyiBaDsVCuIZPKZLPzllTIA459Pwv1V08WAQS7s9sWRaBZ
+lKDlbOReOhGbhhgJGQued5dkMOafV2GcdsQJxhAghCJLj2SRgXxLRmUJh5dHeVCw
+YAEnraWjBp7em4tTfhVM9MjsBqPJTLrmzrNyBWHa0ZC6J6rkzbtNeT5t9NZ18lj2
+J68V4lmsNjGZPkdxKP4kuTNXAwqaL6EUGU1fzdwI01GcAtBt5P5/Nwtw9mKJHh4I
+F+e0ksNw/srznQLn5c1kWY1PsLrl51GFao24v+iv7/RkjO9EgcUmCkMv0u56yDVF
+zM9XYDL6ivw4Npz8h4qlb4fDAgb5Ga2cP5tbB48k422EnzqIM+yxDPpuM92vO++L
+z6SJ42Kfbk0/S0AbZsSl5QknGJFGLh4DWoYB09NkEjdce2HMJ5eNJXjPvtkLE+74
+WUDDsr+vEDNAsNkB3VPWoW8+DR2F5AbcjS6balF4ChQ0/I6/xxVPNv7sj7vUQjeD
+kqm5+Uc4POENLGMrqEIoY8VtqNSw0cENvFsQo/OMje0BS817OqTbTSGX/hwogfT7
+bAccBA+COq6Lih2aTxPwF0Ie
+=DOex
 -----END PGP SIGNATURE-----
 
---===============0038952404357203798==
+--===============6786652578137251727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1176468d36-36a21d51725a.txt
+Content-Disposition: attachment; filename=revlist-6bfc5272904a-36a21d51725a.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -138,8 +138,6 @@ cc9ca4d95846cbbece48d9cd385550f8fba6a3c1 serial: tegra: Only print FIFO error me
 cb7abd1db6e5f99a05f1a00b65be29029a6a152a staging: rtl8723bs: select CONFIG_CRYPTO_LIB_ARC4
 1e7107c5ef44431bc1ebbd4c353f1d7c22e5f2ec cgroup1: fix leaked context root causing sporadic NULL deref in LTP
 b42b0bddcbc87b4c66f6497f66fc72d52b712aa7 workqueue: fix UAF in pwq_unbound_release_workfn()
-456a9dace42ecfcec7ce6e17c18d1985d628dcd0 interconnect: Zero initial BW after sync-state
-73606ba9242f8e32023699b500b7922b4cf2993c interconnect: Always call pre_aggregate before aggregate
 7cb745800df9d352db83f163778fdfc301457625 Merge branch 'xfrm/compat: Fix xfrm_spdattr_type_t copying'
 69de4421bb4c103ef42a32bafc596e23918c106f drm/ttm: Initialize debugfs from ttm_global_init()
 1d5ccab95f06675a269f4cb223a1e3f6d1ebef42 spi: spi-mux: Add module info needed for autoloading
@@ -280,7 +278,6 @@ afcff6dc690e24d636a41fd4bee6057e7c70eebd usb: gadget: f_hid: added GET_IDLE and 
 68d9f95d6fd5399d105eaf2308c243536c5d7664 usb: musb: Fix suspend and resume issues for PHYs on I2C and SPI
 00de6a572f30ee93cad7e0704ec4232e5e72bda8 usb: host: ohci-at91: suspend/resume ports after/before OHCI accesses
 bf88fef0b6f1488abeca594d377991171c00e52a usb: otg-fsm: Fix hrtimer list corruption
-4c4c1257b844ffe5d0933684e612f92c4b78e120 virt: acrn: Do hcall_destroy_vm() before resource release
 b910a0206b59eb90ea8ff76d146f4c3156da61e9 drm/msm/dpu: Fix sm8250_mdp register length
 bceddc2cb581dffc94370517f7eedbd9aa16c74b drm/msm: Fix display fault handling
 7591c532b818ef4b8e3e635d842547c08b3a32b4 drm/msm/dp: use dp_ctrl_off_link_stream during PHY compliance test run
@@ -297,7 +294,6 @@ b53e041d8e4308f7324999398aec092dbcb130f5 drm/amd/display: ensure dentist display
 f2ad3accefc63e72e9932e141c21875cc04beec8 drm/amdgpu/display: only enable aux backlight control for OLED panels
 ec30ce41f03820b6289513344b4281ca3a1151f4 maintainers: add bugs and chat URLs for amdgpu
 773af69121ecc6c53d192661af8d53bb3db028ae io_uring: always reissue from task_work context
-ec6446d5304b3c3dd692a1e244df7e40bbb5af36 fpga: dfl: fme: Fix cpu hotplug issue in performance reporting
 4ee107c514139960682cc0f3623a24e86fda1a13 clk: qcom: smd-rpm: Fix MSM8936 RPM_SMD_PCNOC_A_CLK
 bb7262b295472eb6858b5c49893954794027cd84 timers: Move clearing of base::timer_running under base:: Lock
 8373cd38a8888549ace7c7617163a2e826970a92 net: hns3: change the method of obtaining default ptp cycle
@@ -434,8 +430,6 @@ fa7a549d321a4189677b0cea86e58d9db7977f7b KVM: x86: accept userspace interrupt on
 3a0670824979a986a2314c921aa092e60730eeae ARM: dts: stm32: Prefer HW RTC on DHCOM SoM
 36862c1ebc92a7e6fcc55002965c44b8ad17d4ca ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
 15f68f027ebd961b99a1c420f96ff3838c5e4450 ARM: dts: stm32: Fix touchscreen IRQ line assignment on DHCOM
-ce5a595744126be4f1327e29e3c5ae9aac6b38d5 interconnect: qcom: icc-rpmh: Ensure floor BW is enforced for all nodes
-f84f5b6f72e68bbaeb850b58ac167e4a3a47532a interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
 094121ef815f29d9e6a01fafca365831454ce293 arch: Kconfig: clean up obsolete use of HAVE_IDE
 7561c14d8a4d1a24a40b1839d927d488e2d6345a s390/vdso: add .got.plt in vdso linker script
 88731c8f3636b133e27df88febcd7cd2fdece0a7 s390/boot: fix zstd build for -march=z900
@@ -474,7 +468,6 @@ c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
 eda80d7c9c4db0f55f130e38c682e19b58d5add7 ALSA: memalloc: Fix regression with SNDRV_DMA_TYPE_CONTINUOUS
 1159e25c137422bdc48ee96e3fb014bd942092c6 qede: fix crash in rmmod qede while automatic debug collection
 d51c5907e9809a803b276883d203f45849abd4d6 net, gro: Set inner transport header offset in tcp/udp GRO hook
-85b1ebfea2b0d8797266bcc6f04b6cc87e38290a interconnect: Fix undersized devress_alloc allocation
 ebca25ead0711729e0aeeec45062e7ac4df3e158 net/sched: taprio: Fix init procedure
 0d5c3954b35eddff0da0436c31e8d721eceb7dc2 spi: mediatek: Fix fifo transfer
 40e159403896f7d55c98f858d0b20fee1d941fa4 mhi: Fix networking tree build.
@@ -506,7 +499,6 @@ d6793ca97b76642b77629dd0783ec64782a50bdb RDMA/mlx5: Delay emptying a cache entry
 db4657afd10e45855ac1d8437fcc9a86bd3d741d RDMA/cma: Revert INIT-INIT patch
 e2a05339fa1188b6b37540f4611893ac4c534fa2 RDMA/rxe: Use the correct size of wqe when processing SRQ
 ef4b96a5773d7f6568363b3d0c3c3f371fb690bd RDMA/rxe: Restore setting tot_len in the IPv4 header
-232eee380e7604c2c88daec67e7409179b202f06 Merge tag 'fpga-fixes-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-linus
 e89afb51f97ae03ee246c1fd0b47e3e491266aef drm/vmwgfx: Fix a 64bit regression on svga3
 0541a6293298fb52789de389dfb27ef54df81f73 net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
 8861452b2097bb0b5d0081a1c137fb3870b0a31f soc: ixp4xx: fix printing resources
@@ -530,7 +522,6 @@ c87a4c542b5a796f795fec2b7a909c7d3067b11c net: flow_offload: correct comments mis
 0161d151f3e36306219f5aa6f5f6b3877038afd3 net: sched: provide missing kdoc for tcf_pkt_info and tcf_ematch_ops
 9fdc5d85a8fe684cdf24dc31c6bc4a727decfe87 nfp: update ethtool reporting of pauseframe control
 4039146777a91e1576da2bf38e0d8a1061a1ae47 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
-6bfc5272904af6873aa6bc7cd5732552f9c6e955 Merge tag 'icc-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 ecd92e2167c30faa18df21e3ec3dbec510ddebaa s390: update defconfigs
 c2ec772b87408259cb01209a22fb4e1ae7d346de cpuidle: teo: Fix alternative idle state lookup
 4adae7dd10db10f20f51833dc11b3cf7a342ad38 cpuidle: teo: Rename two local variables in teo_select()
@@ -656,4 +647,4 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
 
---===============0038952404357203798==--
+--===============6786652578137251727==--
