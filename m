@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8913903938281373128=="
+Content-Type: multipart/mixed; boundary="===============7205982291249025597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 09 Aug 2021 07:00:28 -0000
-Message-Id: <162849242889.30980.7682063222969450160@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 07:00:36 -0000
+Message-Id: <162849243690.31106.10217472443636411832@gitolite.kernel.org>
 
---===============8913903938281373128==
+--===============7205982291249025597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127
-    new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
-    log: revlist-c7b65650c7f4-36a21d51725a.txt
+  - ref: refs/heads/staging-next
+    old: 282bd08229761af5c7d529befe38f56c20f77c54
+    new: 96020566a5756d667252a42a26ddf1628dbb49d6
+    log: revlist-282bd0822976-96020566a575.txt
 
---===============8913903938281373128==
+--===============7205982291249025597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492427 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492433 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1628492427-b0bf636ad5e4cba04668136dc84939c6633d23e2
+nonce 1628492433-867f737d104d73d5427b5cb62c8cefbcfc3a6988
 
-c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/staging-linus
+282bd08229761af5c7d529befe38f56c20f77c54 96020566a5756d667252a42a26ddf1628dbb49d6 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ0owbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tXoQANQiCfWcweb2aHhWf1NS
-37Bmk+hxLdoSTjhKtMxBt7kfVPiWuAxHYmoY3snDk3QTyhZAX1FUrotiM64GHUw6
-WjnXW2LzWuFx1tv6OrOcir/9ufOCyQJY8mCcc2IntbD6Shl6u4pgyMC1TEjR2LFX
-vyMMp6q9m4GoyKFMExQzTz37CF4RYMAd7CVWVB7fR3NJEyEfl/ZzAomj8/Ik5qUX
-rStxA+wF1FWvKh2OTqeFdQ0Hl3LvBnBoDttqZkSp27wSvrCNnRs/NAVmWqqaq4A1
-UPyqCIVh8z95YbD6g5WKHe61kHmEudh9KP9HFbzWSMOhS6PsycumT8m2HJbxkZEo
-AIU7L89lumPManHOtLhclbQXmEkJIuumZEA3tnIg5LrtfudgIaKCdUI3NLwTulDN
-FMX3YntetbP+8rKUzcd+BqDVl7bbM9wNWYqnYnKuUEC7szIuXi49FGdUG31DetGg
-yXXndacolT47YQcXotasOVb6oT22d7nrE4d989btWy3NLkf0VUjKwkf36AqLaaD3
-rWGKkLMeuwMgjH43pF4vw++goxa4z242HcldJA2DtZv/+Yo3rsDMriyOynUchqc6
-q0Xsuo2vta3RyAWmh3R4kQSMND4shWDXM+1pzo//bmPOy1giWEus4tK9KYel8uPs
-ImpbO1tbxwvJVzRtgUEay7eT
-=zLdD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ0pEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XfwQAJARHUFlim+jFPm8vFyp
+YI+h3R2oEiXNWOJT0kG8AX9AXQdNxkW/yIxqyZakvOjvgFLFhpXM8TbvK+A6Nyl2
+HEQi8MLTvgPzlYTiohs0Cl9RD1wYI7UaTof2HWiBHq4BL2ik+fLbbg0TV97Knler
+gP1ueodl4Stt33HvBPGqCdm1ukzu1xhy7BDOHbWAJYExFnyGzZj+51UeyO2+7eoY
+DXc5t6ZuCPP2VIhrbqyeKGFBor9GahPYvEl3Xb7rfWxZpYtR5tmNajXXndgtY8Ie
+2LYKTkyiW4g4Dfn38T+Hy7LByMUhLqGkl87BQ3nqJ1eSI7XJgP9wdYH6wHytk9ha
+ITVAmOdDdd82F2MVjeXJfCPvMqyp6JmLHZdzyFHLEQ2kXv+SduwnwYjC6ZMzWYQv
+gk2WoVbkKEwGDQ59jQvQ+8LEqCSZz6uqZpvYpsLWcmlmUxqzq57YIEWlAFHU01HH
+3aOFq2e1I8/xxFPFywy2ff8VCK1BX0qPiAgxfA2dL+a/akgYpaaKoOMbLBGl2oQJ
+uMkEwQPqm6Ig+6BIWfpZP1rNlkZRop1ZA49wfAPo1NfN0g1iP6mWEJKU8I8TrEtz
+JD0zegznS8Uq/AVyLa0fix2r9akrwvYKkz9wDtQuvkEw4ufH53SHSjAhdcYprKGj
+l0KmEK947EKXHMPmxLurZvJ7
+=OcQA
 -----END PGP SIGNATURE-----
 
---===============8913903938281373128==
+--===============7205982291249025597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7b65650c7f4-36a21d51725a.txt
+Content-Disposition: attachment; filename=revlist-282bd0822976-96020566a575.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
@@ -329,6 +329,7 @@ d53dc38857f6dbefabd9eecfcbf67b6eac9a1ef4 usb: dwc2: gadget: Fix sending zero len
 234211b8dd161fa25f192c78d5a8d2dd6bf920a0 nvme: fix nvme_setup_command metadata trace event
 5c912e679506ef72adb95616d2f56a8a1b079a3d usb: cdc-wdm: fix build error when CONFIG_WWAN_CORE is not set
 f3a1a937f7b240be623d989c8553a6d01465d04f Revert "USB: quirks: ignore remote wake-up on Fibocom L850-GL LTE modem"
+990e4ad3ddcb72216caeddd6e62c5f45a21e8121 staging: rtl8723bs: Fix a resource leak in sd_int_dpc
 a7c3acca53801e10a77ede6b759a73f5ac4bc261 arm64: smccc: Save lr before calling __arm_smccc_sve_check()
 d8a719059b9dc963aa190598778ac804ff3e6a87 Revert "mm/pgtable: add stubs for {pmd/pub}_{set/clear}_huge"
 61acabaae5ba58b3c32e6e90d24c2c0827fd27a8 serial: max310x: Unprepare and disable clock in error path
@@ -353,6 +354,7 @@ e9a72f874d5b95cef0765bafc56005a50f72c5fe r8169: Avoid duplicate sysfs entry crea
 0077a50082729c3f9ea2836f59e35d9b7dacfb12 rbd: resurrect setting of disk->private_data in rbd_init_disk()
 aaeb7bb061be545251606f4d9c82d710ca2a7c8e nvme: set the PRACT bit when using Write Zeroes with T10 PI
 e64daad660a0c9ace3acdc57099fffe5ed83f977 driver core: Prevent warning when removing a device link from unregistered consumer
+cb7abd1db6e5f99a05f1a00b65be29029a6a152a staging: rtl8723bs: select CONFIG_CRYPTO_LIB_ARC4
 58acd10092268831e49de279446c314727101292 sctp: update active_key for asoc when old key is being replaced
 9bfce73c8921c92a9565562e6e7d458d37b7ce80 udp: check encap socket in __udp_lib_err
 6e0b6528d783b2b87bd9e1bea97cf4dac87540d7 drm/i915: Correct the docs for intel_engine_cmd_parser
@@ -615,6 +617,9 @@ c7c9d2102c9c098916ab9e0ab248006107d00d6c net: llc: fix skb_over_panic
 4d1014c1816c0395eca5d1d480f196a4c63119d0 drivers core: Fix oops when driver probe fails
 55f24c27b6c1a840b62fe297616f1f9ea3576cb7 dmaengine: uniphier-xdmac: Use readl_poll_timeout_atomic() in atomic state
 801e541c79bbc63af852ca21b713ba87cc97c6ad nfc: s3fwrn5: fix undefined parameter values in dev_err()
+9be550ee43919b070bcd77f9228bdbbbc073245b staging: rtl8712: get rid of flush_scheduled_work
+e9e6aa51b2735d83a67d9fa0119cf11abef80d99 staging: rtl8712: error handling refactoring
+c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 staging: mt7621-pci: avoid to re-disable clock for those pcies not in use
 30fad76ce4e98263edfa8f885c81d5426c1bf169 USB: usbtmc: Fix RCU stall warning
 fa4a8dcfd51b911f101ebc461dfe22230b74dd64 usb: gadget: remove leaked entry from udc driver list
 2867652e4766360adf14dfda3832455e04964f2a usb: gadget: f_hid: fixed NULL pointer dereference
@@ -997,5 +1002,6 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
+96020566a5756d667252a42a26ddf1628dbb49d6 Merge 5.14-rc5 into staging-next
 
---===============8913903938281373128==--
+--===============7205982291249025597==--
