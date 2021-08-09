@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2830895970588099627=="
+Content-Type: multipart/mixed; boundary="===============7400436833600835617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 09 Aug 2021 07:04:34 -0000
-Message-Id: <162849267425.704.1650533180537779642@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 07:04:42 -0000
+Message-Id: <162849268232.852.11425748593052774195@gitolite.kernel.org>
 
---===============2830895970588099627==
+--===============7400436833600835617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 75d95e2e39b27f733f21e6668af1c9893a97de5e
-    new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
-    log: revlist-75d95e2e39b2-36a21d51725a.txt
+  - ref: refs/heads/driver-core-next
+    old: 96ba6c6e8922e89ca4908c650072d8f8d7b39cbc
+    new: bd935a7b21340e2e37f51a7f2d3188145e2fcf1f
+    log: revlist-96ba6c6e8922-bd935a7b2134.txt
 
---===============2830895970588099627==
+--===============7400436833600835617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492673 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492679 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1628492673-21833c9599e103dfdf1adbc562323bc3ae43aa60
+nonce 1628492678-f988f40b90fc338e35cc4bef4b7fbff016bd539e
 
-75d95e2e39b27f733f21e6668af1c9893a97de5e 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/driver-core-linus
+96ba6c6e8922e89ca4908c650072d8f8d7b39cbc bd935a7b21340e2e37f51a7f2d3188145e2fcf1f refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ04EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sqAQANA4EE9WIpmXBH/5pfoy
-R4O6b0YzFgiuKjZacXdfyJt9ygEIVHcwJgix0KcqX5wIXnWQ8n+UGYrXJYCeAYxU
-Np5oIh+t60sakiMIzg8oRHM0FzznIk8uNz17ThcZP/9g6EqZ+/AauNOdRm1FXjhE
-1DPv5yvsbAQZ07RYztzj+ccO5F0yy0s4Ae/me9WNfjnWDU2tKzqDhVmnwIGgSuI/
-WpihSKdEvLnT0ZG9EFYZhcNu96pqnUGz+JvEKsB8vVC7+ZAQLGIuCuKqWkgmJv7S
-g++uqct2tjbeO7I617RQl+Wwu19AP8dTRuPLdpeFVMaMfHiDpC6GwdylyArOSwG7
-JAEyXc11M2RzgrISK1kblK6GO0sdxsAvky2GPmTQYaGlC1+szSaSumcYTmcCRd1w
-oy2csC+NxGOP/cCSgWPVrHAOX50bRejyk18EVqEIwCEwA4o53d8zvXDxMHHchmYy
-MTvyPTva6scEqMRzKTIk7AsV+XFIVF1PPUbvggvGPb4KF+rHqaVbLSAksWWMdxrx
-Z3IgK24aWUriAl+vCx1yU3NwnKzPA5iQhtNGQ1Z8jCkjQNOPwWD/szRG3kmNE/Qk
-h9QbX5ydBgefT0uVIZMV6gsEHj7JExKxhjeV7EI4CV9NaYDPOYgJvFTl9mgHXU9E
-KnjtbMTPPAcLhJKzxiLOQU/S
-=bHJQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ04cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3A8P/1cEz9EagH34FeAbqKl1
+CayJmGdnzZZXeIM/ouDOaYf6Wd1Rt8Y+myyU+L345T7Q8dS2mPQCtBvS0l6IdGqj
+ekv2g23GnCbVyXKXZQ3fOl8GQx2tstdBSf/KJCoHEf6lD4L9ANkLL8taOsA+dqTR
+LghdO4V9gkIQl4xYHPdALCutnRQ+UdPPVINOel16/TfNb8al/vsCuX/q1JN9mMoB
+BxN+HxBf3RNMK3MMk8F37yF8d/R0TkgZvHSiPCBOTbyLGKT/REZu8woss1KAdY86
+OX1W/bHp9SODAHws5PL2RU2RvfRMKQ6FBk8tNYt9ZKqAA8xYwNNkLa1atPLjeV26
+AWGT8Wchj1+sLz3SJnHMggPTsv9WOkVqPqxPL9nnQFxd/ByvGU5YBDAmTBFfURrp
+yn5PtHD2S6k7tVzd303WwF9GoEq+DNumR6STB1h5hNh0VXze7Cxo1sNa2ktvt2XN
+prmt90DTdhrNruNSpwWrbcnVSy8rzky9lUI/kGFKsr/TJUfsIZNccX59ky4CYMLG
+Z+sR36udX5GJX64thdsU01anUCARcrISz6LrnLGsIAAL8+h2DSIOosHUPaZd2KSb
+S/e9FcluFnUKSp5jrfZgJQJ0Jp91flZhfUNQzBwIumUllFCdVXVIz195pdtg2I/w
+fdJa1AM6/hO8o+OVG/VDcq15
+=UaZQ
 -----END PGP SIGNATURE-----
 
---===============2830895970588099627==
+--===============7400436833600835617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75d95e2e39b2-36a21d51725a.txt
+Content-Disposition: attachment; filename=revlist-96ba6c6e8922-bd935a7b2134.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -267,6 +267,7 @@ c68ef4ad180e09805fa46965d15e1dfadf09ffa5 omap5-board-common: remove not physical
 fcef709c2c4baf758950bd7395e4b10527b81e2c octeontx2-af: Do NIX_RX_SW_SYNC twice
 c7c9d2102c9c098916ab9e0ab248006107d00d6c net: llc: fix skb_over_panic
 8ee18e769dd621104fecad584c84ec3c4c9ef3fa Merge drm/drm-fixes into drm-misc-fixes
+4d1014c1816c0395eca5d1d480f196a4c63119d0 drivers core: Fix oops when driver probe fails
 55f24c27b6c1a840b62fe297616f1f9ea3576cb7 dmaengine: uniphier-xdmac: Use readl_poll_timeout_atomic() in atomic state
 801e541c79bbc63af852ca21b713ba87cc97c6ad nfc: s3fwrn5: fix undefined parameter values in dev_err()
 9be550ee43919b070bcd77f9228bdbbbc073245b staging: rtl8712: get rid of flush_scheduled_work
@@ -388,6 +389,8 @@ db8d3a21275c807a4047a21bde3b57d49ca55d82 HID: ft260: fix device removal due to U
 a88603f4b92ecef9e2359e40bcb99ad399d85dd7 powerpc/vdso: Don't use r30 to avoid breaking Go lang
 06e91df16f3e1ca1a1886968fb22d4258f3b6b6f tty: serial: fsl_lpuart: fix the wrong return value in lpuart32_get_mctrl
 7c4a509d3815a260c423c0633bd73695250ac26d serial: 8250_mtk: fix uart corruption issue when rx power off
+0d6434e10b5377a006f6dd995c8fc5e2d82acddc firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
+75d95e2e39b27f733f21e6668af1c9893a97de5e firmware_loader: fix use-after-free in firmware_fallback_sysfs
 b1e27239b9169f07edba0ca0e52805645a1768ba xfs: flush data dev on external log write
 b5d721eaae47eaa4b4c2754699dadacc4cbca2e0 xfs: external logs need to flush data device
 9d3920644081edf311878b56e0c1e1477991a195 xfs: fold __xlog_state_release_iclog into xlog_state_release_iclog
@@ -652,5 +655,6 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
+bd935a7b21340e2e37f51a7f2d3188145e2fcf1f Merge 5.14-rc5 into driver-core-next
 
---===============2830895970588099627==--
+--===============7400436833600835617==--
