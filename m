@@ -1,59 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============1093999752420543315=="
+Content-Type: multipart/mixed; boundary="===============2823757664437230709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 09 Aug 2021 00:37:08 -0000
-Message-Id: <162846942865.14198.7752015310795281025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 09 Aug 2021 03:50:03 -0000
+Message-Id: <162848100307.11943.4816999198242099987@gitolite.kernel.org>
 
---===============1093999752420543315==
+--===============2823757664437230709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: bd62f2240be5a2e29bb5fe2512cc863bcfe2766d
-    new: c2d505de654b6b4567225fd9bfc57e51be4a971c
-    log: revlist-bd62f2240be5-c2d505de654b.txt
+    old: 85a90500f9a1717c4e142ce92e6c1cb1a339ec78
+    new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+    log: revlist-85a90500f9a1-36a21d51725a.txt
 
---===============1093999752420543315==
+--===============2823757664437230709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd62f2240be5-c2d505de654b.txt
+Content-Disposition: attachment; filename=revlist-85a90500f9a1-36a21d51725a.txt
 
-9b94b63df56421eb8f207a07e8aa462e2fe4e3d6 readv.2, pipe.7: Make text on pipe writes more general to avoid a confusion in writev(2)
-1b8089e1d1e9b966d84ccd3f81a06698748405c0 namespaces.7: ffix
-c99dbb27763f914a3fb62c02866e629ae5c7cbfb man-pages.7: wfix
-dc2c64be7a43f18e1dcd7e8dc5861525384b8727 regex.3: wfix
-dbba2b268ba4f06b6113e3d908690c41474e3b2e unix.7: tfix
-b9a8ee5a978654091a0a925843c8f31eaa4d75e5 termios.3: Document missing baud-rate constants
-69452aadaf0e75078b51bf1800348d408b0c79ba termios.3: Use bold style for Bnn and EXTn macro constants
-4e972a7c8455207a9aeec8055a5ee260817e8d8d termios.3: Add information how to set baud rate to any other value
-a53fba5e42816559ff24600cffeb255a079f15d2 termios.3: ffix
-19ddd96b520567ec2d9625a0b572cacc64e41982 termios.3: SPARC architecture has 4 different Bnnn constants
-d192b1c7b479721825b42ec27b54db2cd5002610 termios.3: wfix
-95dedaa0614915ac91a7175359f17fa8bb54614c ioctl_tty.2: Update DTR example
-aad1f0e89098b35f6a35fb92556dadc622f0d00c ioctl_tty.2: Document ioctls: TCGETS2, TCSETS2, TCSETSW2, TCSETSF2
-572422a678f59de3cc9fc591831e13a6d140300a ioctl_tty.2: Document ioctls: TCGETS2, TCSETS2, TCSETSW2, TCSETSF2
-5d9f0bc6c549b49cc607965ea42913405b35c472 ioctl_tty.2: Minor wording clean-ups
-c8219af76709a3f7911df65302ddb2592db04e06 ioctl_tty.2: Note kernel version that added TCGETS2, TCSETS2, TCSETSW2, and TCSETSF2
-71a62d6c3c56b2cec56858f19b8b419c1355db17 close_range.2: Glibc added a wrapper recently
-87ce949275b6d4ebafc62684e4c4e5f073c9456d getopt.3: Further clarification of optstring
-c6d8334b5824b6b799d283728f1ae2fc597187b3 getopt.3: Minor tweak to James's patch
-e6b7a7b823d825e85b34daa9d00aa7643dbd319d nl_langinfo.3: wfix
-5e833e276d0dbddfbd4ca9d6e50f9c573afe3426 localedef.1, access.2, ioctl_console.2, ioctl_fslabel.2, openat2.2, write.2, dlsym.3, getopt.3, nl_langinfo.3, termios.3, xcrypt.3, hosts.equiv.5, nsswitch.conf.5, cgroups.7, man-pages.7, netlink.7, system_data_types.7: srcfix: semantic newlines
-06501029e1108eb92cb68d8a4ba9482a707a15c6 ldd.1: Fix example command
-9b6cce9936d521580f8927fb1d73bec9156545ef path_resolution.7: Improve description of trailin slashes
-7dd4af5158b307619930f527cb6774b2680b568f sigaction.2: Document SA_EXPOSE_TAGBITS and the flag support detection protocol
-4e7bd2d06bd42686dcfbb8b4549c8535aaa50b00 sigaction.2: Minor tweaks to Peter's patch
-1875f177534000e898ad34ef81317911f136b883 sigaction.2: Minor clean-ups to Peter Collingbourne's patch
-ef0350ce4cf5159224a6bce71e1a5c22ff72b523 sigaction.2: Minor tweaks to the code example
-eb0ea88505da9ed72f3b663fb3f53788aaa9ce05 sigaction.2: Minor reworking of Alejandro Colomar's patch
-c2d505de654b6b4567225fd9bfc57e51be4a971c syscalls.2: Add system calls that are new in 5.13
+9d7a6c95f62bc335b62aaf9d50590122bd03a796 perf: Fix required permissions if sigtrap is requested
+b068fc04de10fff8974f6ef32b861ad134d94ba4 perf: Refactor permissions check into perf_check_permission()
+990e4ad3ddcb72216caeddd6e62c5f45a21e8121 staging: rtl8723bs: Fix a resource leak in sd_int_dpc
+61acabaae5ba58b3c32e6e90d24c2c0827fd27a8 serial: max310x: Unprepare and disable clock in error path
+e5227c51090e165db4b48dcaa300605bfced7014 serial: 8250: Mask out floating 16/32-bit bus bits
+9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
+cc9ca4d95846cbbece48d9cd385550f8fba6a3c1 serial: tegra: Only print FIFO error message when an error occurs
+853a9ae29e978d37f5dfa72622a68c9ae3d7fa89 serial: 8250: fix handle_irq locking
+7f0909db761535aefafa77031062603a71557267 serial: 8250_pci: Enumerate Elkhart Lake UARTs via dedicated driver
+cb7abd1db6e5f99a05f1a00b65be29029a6a152a staging: rtl8723bs: select CONFIG_CRYPTO_LIB_ARC4
+456a9dace42ecfcec7ce6e17c18d1985d628dcd0 interconnect: Zero initial BW after sync-state
+73606ba9242f8e32023699b500b7922b4cf2993c interconnect: Always call pre_aggregate before aggregate
+4d1014c1816c0395eca5d1d480f196a4c63119d0 drivers core: Fix oops when driver probe fails
+9be550ee43919b070bcd77f9228bdbbbc073245b staging: rtl8712: get rid of flush_scheduled_work
+e9e6aa51b2735d83a67d9fa0119cf11abef80d99 staging: rtl8712: error handling refactoring
+c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 staging: mt7621-pci: avoid to re-disable clock for those pcies not in use
+30fad76ce4e98263edfa8f885c81d5426c1bf169 USB: usbtmc: Fix RCU stall warning
+fa4a8dcfd51b911f101ebc461dfe22230b74dd64 usb: gadget: remove leaked entry from udc driver list
+2867652e4766360adf14dfda3832455e04964f2a usb: gadget: f_hid: fixed NULL pointer dereference
+afcff6dc690e24d636a41fd4bee6057e7c70eebd usb: gadget: f_hid: added GET_IDLE and SET_IDLE handlers
+68d9f95d6fd5399d105eaf2308c243536c5d7664 usb: musb: Fix suspend and resume issues for PHYs on I2C and SPI
+00de6a572f30ee93cad7e0704ec4232e5e72bda8 usb: host: ohci-at91: suspend/resume ports after/before OHCI accesses
+bf88fef0b6f1488abeca594d377991171c00e52a usb: otg-fsm: Fix hrtimer list corruption
+4c4c1257b844ffe5d0933684e612f92c4b78e120 virt: acrn: Do hcall_destroy_vm() before resource release
+8e3341257e3b5774ec8cd3ef1ba0c0d3fada322b Revert "thunderbolt: Hide authorized attribute if router does not support PCIe tunnels"
+ec6446d5304b3c3dd692a1e244df7e40bbb5af36 fpga: dfl: fme: Fix cpu hotplug issue in performance reporting
+bb7262b295472eb6858b5c49893954794027cd84 timers: Move clearing of base::timer_running under base:: Lock
+fa20bada3f934e3b3e4af4c77e5b518cd5a282e5 usb: gadget: f_hid: idle uses the highest byte for duration
+aa35772f61752d4c636d46be51a4f7ca6c029ee6 usb: cdns3: Fixed incorrect gadget state
+aa82f94e869edd72f4fadb08c6ffca8927e4934e usb: cdnsp: Fix incorrect supported maximum speed
+e913aada06830338633fb8524733b0ad3d38a7c1 usb: cdnsp: Fixed issue with ZLP
+5df09c15bab98463203c83ecab88b9321466e626 usb: cdnsp: Fix the IMAN_IE_SET and IMAN_IE_CLEAR macro
+a154c43b95e860a305d8c943fb3a16ece9a69715 Merge tag 'usb-v5.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
+3c18e9baee0ef97510dcda78c82285f52626764b USB: serial: ch341: fix character loss at high transfer rates
+06e91df16f3e1ca1a1886968fb22d4258f3b6b6f tty: serial: fsl_lpuart: fix the wrong return value in lpuart32_get_mctrl
+7c4a509d3815a260c423c0633bd73695250ac26d serial: 8250_mtk: fix uart corruption issue when rx power off
+0d6434e10b5377a006f6dd995c8fc5e2d82acddc firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
+75d95e2e39b27f733f21e6668af1c9893a97de5e firmware_loader: fix use-after-free in firmware_fallback_sysfs
+341abd693d10e5f337a51f140ae3e7a1ae0febf6 serial: 8250_pci: Avoid irq sharing for MSI(-X) interrupts.
+ce5a595744126be4f1327e29e3c5ae9aac6b38d5 interconnect: qcom: icc-rpmh: Ensure floor BW is enforced for all nodes
+f84f5b6f72e68bbaeb850b58ac167e4a3a47532a interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
+1e9faef4d26de33bd6b5018695996e7394119e5b USB: serial: pl2303: fix HX type detection
+85b1ebfea2b0d8797266bcc6f04b6cc87e38290a interconnect: Fix undersized devress_alloc allocation
+232eee380e7604c2c88daec67e7409179b202f06 Merge tag 'fpga-fixes-for-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-linus
+6bfc5272904af6873aa6bc7cd5732552f9c6e955 Merge tag 'icc-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
+5648c073c33d33a0a19d0cb1194a4eb88efe2b71 USB: serial: option: add Telit FD980 composition 0x1056
+3212a99349cee5fb611d3ffcf0e65bc3cd6dcf2f USB: serial: pl2303: fix GT type detection
+f558c2b834ec27e75d37b1c860c139e7b7c3a8e4 sched/rt: Fix double enqueue caused by rt_effective_prio
+f4b4b45652578357031fbbef7f7a1b04f6fa2dc3 perf/x86: Fix out of bound MSR access
+df51fe7ea1c1c2c3bfdb81279712fdd2e4ea6c27 perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
+8da0e55c7988ef9f08a708c38e5c75ecd8862cf8 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+b47b0b6d0843d665f263762382bfbd658f436d84 Merge tag 'usb-serial-5.14-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+d25d85061bd856d6be221626605319154f9b5043 usb: dwc3: gadget: Use list_replace_init() before traversing lists
+cb10f68ad8150f243964b19391711aaac5e8ff42 usb: dwc3: gadget: Avoid runtime resume if disabling pullup
+43ad944cd73f2360ec8ff31d29ea44830b3119af usb: typec: tcpm: Keep other events when receiving FRS and Sourcing_vbus events
+acade6379930dfa7987f4bd9b26d1a701cc1b542 perf/x86/intel: Apply mid ACK for small core
+6a65554767546881e3e50f3734364021d11b703d Merge tag 'usb-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+6463e54cc64ec87d550ae86c697b466fecf7ba7b Merge tag 'tty-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+911c3c5e01516a1339eb54d9ca478a789002936b Merge tag 'staging-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+289ef7befb65f82a148981ad5c133f57f6dda1df Merge tag 'driver-core-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+66745863ecdec7abbfc3325c2d917eecb739c069 Merge tag 'char-misc-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+74eedeba459d878484634cbfd5d1c2fbaf7178b9 Merge tag 'perf-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
 
---===============1093999752420543315==--
+--===============2823757664437230709==--
