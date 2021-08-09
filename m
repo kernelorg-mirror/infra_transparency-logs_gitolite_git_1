@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8445276781953142189=="
+Content-Type: multipart/mixed; boundary="===============2940461549206724233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 09 Aug 2021 06:13:32 -0000
-Message-Id: <162848961201.7999.1392998651021713849@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 06:13:36 -0000
+Message-Id: <162848961604.8076.4149955366614925779@gitolite.kernel.org>
 
---===============8445276781953142189==
+--===============2940461549206724233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: ff1176468d368232b684f75e82563369208bc371
+  - ref: refs/heads/usb-linus
+    old: 43ad944cd73f2360ec8ff31d29ea44830b3119af
     new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
-    log: revlist-ff1176468d36-36a21d51725a.txt
+    log: revlist-43ad944cd73f-36a21d51725a.txt
 
---===============8445276781953142189==
+--===============2940461549206724233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628489611 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628489615 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1628489610-5d80db1fedea9bf38c590341e0b1e93f2eb06ff0
+nonce 1628489614-4aed9f9b8f62e29bf21aa46c229f643c5d760e3f
 
-ff1176468d368232b684f75e82563369208bc371 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/main
+43ad944cd73f2360ec8ff31d29ea44830b3119af 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQx4sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MF0P/2PmITBSuB7pS4vdiopx
-s27+owYy4THOrM+9zKJxCL3nDj+HILQj46tdqj0dudI+dlEnHaBWUgFf3tNcJtKU
-YabgKOlFPe/6W24bSBu0Ng9b0pffaH6icWzrg0Pf6dkeCokeknEmvqoaBE4L+Iwn
-ttI8AM3Q6AbQuti6wxPTXbwvPW/xcR/hMro6yfkxUadTgtSyZHAuKudnoijGacLM
-fH1NG3im0WBEf8SjbySUTjkd21rn9reJliLmN93yFZN4iB1bDLS4n8SfuKSqhsMW
-V632Ict8oGONXwVBW2uW06bJXA3sLZQJesIhztwmUtS89GNLvYti2+vASnn63moT
-ALcRmrR9ypMf98pxmG7xOYBz86h0OI6S/MuGTv21eJzMimWztniwSY51Shc+NCOV
-EJJBWXpNdOshiuwyNXR4PIDjtcKT65EI7FoaXFUg8PbfRAmT9V5LPCoM2nwrASMX
-YJv5q0bx+6+ie6+EWco/q70t4FITrCjAHZCN+lhZubASlHpyotR1BWcBAxKVVXoF
-OOyEBgfIFEg/nL7KB+ZN77GFa+hHd6XMcSaQL2MHY0nBXW0+CgaNGtWt6MRtwWJP
-hPAz3GdOM/dpq71/oCoT6ZILTgFeTLQuB/qX5Cxxe89Y30/lv/EYeN+cRxtOfelZ
-m8Eza+kOYsRuCRBOcoM1ZiI1
-=4+Vc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQx48bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nr0QAMqM4QFO2E/NiRXQZKWT
+iMr7EZRNPcxvyuRlQg5BSzUZusJTYnNgz8SFNblBAhwU7LF4m1Z2f5rRUz0WtHpg
+oEL1z/oat9NC+jD895yGlwXEXHzRVygr4yEx4ZC5f7fOU5vPer26sI5jKR6hIltM
+RyZQp12U7ufIiQ7vJ3PZm0xPREZwcAMFdhSNeo1obz++gjw3dEDzRPvfHPVAzkfG
+eCDeVKH5APNa32rylh8Xtod0yuJEJDr+Oe8av4epLzn3I8zFk9MWv2a3aEup/hHL
+2o10W68DIuIe7OhJZWR5DiYHgXqXhPevsx9hRNP3Z641WO7uq91n+SOzYRkxdTfv
+g+U4qa4OW9CL80/XRPwdhOTgo6OTJjqqcidBd8oJKcx3AZxVSWyDs2Io2jHMUOeX
+gw/crRvG3EZyoQm3qxc7/jndTycB4LLQpmSgeiuaCeaPsrrgZex2HA1oTiTVLIsg
+ZQpt4e/x+5l05ls33qXpJH6lqb7bKSmisldknY9NvsF8PAIFtrYg26l+NPtzKADz
+P4eh77377m1RUELg+NqSiv9MBbOpNiwnUbWzvD6n3U1NyR4/JyT4e1BXyCTt3IBI
+kLsK+U5J2XNz9iI9QZJSyRVU84z5CU7suaBrymGJ6iy+b2YWl344RMQhWQ9DUFdK
+Ul2WoA/3x62gnppjzTjFtr1R
+=dhiB
 -----END PGP SIGNATURE-----
 
---===============8445276781953142189==
+--===============2940461549206724233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1176468d36-36a21d51725a.txt
+Content-Disposition: attachment; filename=revlist-43ad944cd73f-36a21d51725a.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -273,13 +273,6 @@ c7c9d2102c9c098916ab9e0ab248006107d00d6c net: llc: fix skb_over_panic
 9be550ee43919b070bcd77f9228bdbbbc073245b staging: rtl8712: get rid of flush_scheduled_work
 e9e6aa51b2735d83a67d9fa0119cf11abef80d99 staging: rtl8712: error handling refactoring
 c7b65650c7f41d3946c4e2f0bb56dfdb92cfe127 staging: mt7621-pci: avoid to re-disable clock for those pcies not in use
-30fad76ce4e98263edfa8f885c81d5426c1bf169 USB: usbtmc: Fix RCU stall warning
-fa4a8dcfd51b911f101ebc461dfe22230b74dd64 usb: gadget: remove leaked entry from udc driver list
-2867652e4766360adf14dfda3832455e04964f2a usb: gadget: f_hid: fixed NULL pointer dereference
-afcff6dc690e24d636a41fd4bee6057e7c70eebd usb: gadget: f_hid: added GET_IDLE and SET_IDLE handlers
-68d9f95d6fd5399d105eaf2308c243536c5d7664 usb: musb: Fix suspend and resume issues for PHYs on I2C and SPI
-00de6a572f30ee93cad7e0704ec4232e5e72bda8 usb: host: ohci-at91: suspend/resume ports after/before OHCI accesses
-bf88fef0b6f1488abeca594d377991171c00e52a usb: otg-fsm: Fix hrtimer list corruption
 4c4c1257b844ffe5d0933684e612f92c4b78e120 virt: acrn: Do hcall_destroy_vm() before resource release
 b910a0206b59eb90ea8ff76d146f4c3156da61e9 drm/msm/dpu: Fix sm8250_mdp register length
 bceddc2cb581dffc94370517f7eedbd9aa16c74b drm/msm: Fix display fault handling
@@ -288,7 +281,6 @@ f9a39932fa54b6421e751ada7a285da809146421 drm/msm/dp: Initialize the INTF_CONFIG 
 afc9b8b6bab8d3d3a9ae67e1d64093ad626c92a0 drm/msm/dp: signal audio plugged change at dp_pm_resume
 fc71c9e6f41f9912d22a75dfa76bc10811af7e22 drm/msm/dp: Initialize dp->aux->drm_dev before registration
 48e8a7b5a551f956002b60d2095bdfb58db96e59 perf cs-etm: Split --dump-raw-trace by AUX records
-8e3341257e3b5774ec8cd3ef1ba0c0d3fada322b Revert "thunderbolt: Hide authorized attribute if router does not support PCIe tunnels"
 c07d5c9226980ca5ae21c6a2714baa95be2ce164 perf pmu: Fix alias matching
 91e273712ab8dd8c31924ac7714b21e011137e98 drm/amdgpu: Check pmops for desired suspend state
 c8f8e96805b54968b4d1d54850f87fc39128a532 drm/amd/display: Guard DST_Y_PREFETCH register overflow in DCN21
@@ -334,7 +326,6 @@ b1c2f6312c5005c928a72e668bf305a589d828d4 net/mlx5e: Fix nullptr in mlx5e_hairpin
 740452e09cf5fc489ce60831cf11abef117b5d26 net/mlx5: Fix mlx5_vport_tbl_attr chain from u16 to u32
 5ab189cf3abbc9994bae3be524c5b88589ed56e2 blk-iocost: fix operation ordering in iocg_wake_fn()
 340e84573878b2b9d63210482af46883366361b9 block: delay freeing the gendisk
-fa20bada3f934e3b3e4af4c77e5b518cd5a282e5 usb: gadget: f_hid: idle uses the highest byte for duration
 d54db74ad6e0dea8c253fb68c689b836657ab914 dmaengine: stm32-dma: Fix PM usage counter imbalance in stm32 dma ops
 baa16371c9525f24d508508e4d296c031e1de29c dmaengine: stm32-dmamux: Fix PM usage counter unbalance in stm32 dmamux ops
 eda97cb095f2958bbad55684a6ca3e7d7af0176a dmaengine: of-dma: router_xlate to return -EPROBE_DEFER if controller is not yet available
@@ -375,16 +366,10 @@ fc16a5322ee6c30ea848818722eee5d352f8d127 Merge git://git.kernel.org/pub/scm/linu
 d712d3fb484b7fa8d1d57e9ca6f134bb9d8c18b1 scsi: pm80xx: Fix TMF task completion race condition
 77541f78eadfe9fdb018a7b8b69f0f2af2cf4b82 scsi: megaraid_mm: Fix end of loop tests for list_for_each_entry()
 640b7ea5f888b521dcf28e2564ce75d08a783fd7 alpha: register early reserved memory in memblock
-aa35772f61752d4c636d46be51a4f7ca6c029ee6 usb: cdns3: Fixed incorrect gadget state
-aa82f94e869edd72f4fadb08c6ffca8927e4934e usb: cdnsp: Fix incorrect supported maximum speed
-e913aada06830338633fb8524733b0ad3d38a7c1 usb: cdnsp: Fixed issue with ZLP
-5df09c15bab98463203c83ecab88b9321466e626 usb: cdnsp: Fix the IMAN_IE_SET and IMAN_IE_CLEAR macro
-a154c43b95e860a305d8c943fb3a16ece9a69715 Merge tag 'usb-v5.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 d28e2568ac26fff351c846bf74ba6ca5dded733e Merge tag 'amd-drm-fixes-5.14-2021-07-28' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 0d4867a185460397af56b9afe3e2243d3e610e37 ALSA: hda/realtek: add mic quirk for Acer SF314-42
 db8d3a21275c807a4047a21bde3b57d49ca55d82 HID: ft260: fix device removal due to USB disconnect
 7280305eb57dd32735f795ed4ee679bf9854f9d0 btrfs: calculate number of eb pages properly in csum_tree_block
-3c18e9baee0ef97510dcda78c82285f52626764b USB: serial: ch341: fix character loss at high transfer rates
 333cf507465fbebb3727f5b53e77538467df312a powerpc/pseries: Fix regression while building external modules
 a88603f4b92ecef9e2359e40bcb99ad399d85dd7 powerpc/vdso: Don't use r30 to avoid breaking Go lang
 06e91df16f3e1ca1a1886968fb22d4258f3b6b6f tty: serial: fsl_lpuart: fix the wrong return value in lpuart32_get_mctrl
@@ -439,7 +424,6 @@ f84f5b6f72e68bbaeb850b58ac167e4a3a47532a interconnect: qcom: icc-rpmh: Add BCMs 
 094121ef815f29d9e6a01fafca365831454ce293 arch: Kconfig: clean up obsolete use of HAVE_IDE
 7561c14d8a4d1a24a40b1839d927d488e2d6345a s390/vdso: add .got.plt in vdso linker script
 88731c8f3636b133e27df88febcd7cd2fdece0a7 s390/boot: fix zstd build for -march=z900
-1e9faef4d26de33bd6b5018695996e7394119e5b USB: serial: pl2303: fix HX type detection
 4d77f36f2c8c62b230f4a5eb264c169fa04c4a5a drm/amdgpu: Fix out-of-bounds read when update mapping
 1c0539a6fc8a4a4b77278e35d763073890de96b9 drm/amdgpu: fix the doorbell missing when in CGPG issue for renoir.
 028a71775f811e9d60664ba2c248ff95c6cf57cb gve: Update MAINTAINERS list
@@ -544,10 +528,8 @@ e3ea110d6e796146920e1be0108464ebcf283ef7 VSOCK: handle VIRTIO_VSOCK_OP_CREDIT_RE
 d1a58c013a5837451e3213e7a426d350fa524ead net: dsa: qca: ar9331: reorder MDIO write sequence
 d09560435cb712c9ec1e62b8a43a79b0af69fe77 riscv: dts: fix memory size for the SiFive HiFive Unmatched
 a18b14d8886614b3c7d290c4cfc33389822b0535 riscv: Disable STACKPROTECTOR_PER_TASK if GCC_PLUGIN_RANDSTRUCT is enabled
-5648c073c33d33a0a19d0cb1194a4eb88efe2b71 USB: serial: option: add Telit FD980 composition 0x1056
 06f5553e0f0c2182268179b93856187d9cb86dd5 net: sched: fix lockdep_set_class() typo error for sch->seqlock
 13a9c4ac319a23c792e2e03ac73777b6710132c3 net/prestera: Fix devlink groups leakage in error flow
-3212a99349cee5fb611d3ffcf0e65bc3cd6dcf2f USB: serial: pl2303: fix GT type detection
 8a160e2e9aeb8318159b48701ad8a6e22274372d net: usb: pegasus: Check the return value of get_geristers() and friends;
 bc65bacf239d0bc1d00d92cd535a4031921dd78a net: usb: pegasus: Remove the changelog and DRIVER_VERSION.
 ff0ee9dfe8a3277b1d2be3bb3e689a1cef01f13e Merge branch 'pegasus-errors'
@@ -575,12 +557,7 @@ b18b851ba85a5855cb53865fcff3cd2c17b44b0b scripts/recordmcount.pl: Remove check_o
 1c0cec64a7cc545eb49f374a43e9f7190a14defa scripts/tracing: fix the bug that can't parse raw_trace_func
 cc396d27d8d5884bbb555efd7783b9e9e2b41dc2 Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.14
 d5aaad6f83420efb8357ac8e11c868708b22d0a9 KVM: x86/mmu: Fix per-cpu counter corruption on 32-bit builds
-8da0e55c7988ef9f08a708c38e5c75ecd8862cf8 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
-b47b0b6d0843d665f263762382bfbd658f436d84 Merge tag 'usb-serial-5.14-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-d25d85061bd856d6be221626605319154f9b5043 usb: dwc3: gadget: Use list_replace_init() before traversing lists
-cb10f68ad8150f243964b19391711aaac5e8ff42 usb: dwc3: gadget: Avoid runtime resume if disabling pullup
 6aa32467299e9e12280a6aec9dbc21bf2db830b0 MIPS: check return value of pgtable_pmd_page_ctor
-43ad944cd73f2360ec8ff31d29ea44830b3119af usb: typec: tcpm: Keep other events when receiving FRS and Sourcing_vbus events
 5a7c1b2a5bb4461967b15f3484a0ff75d3199719 net: wwan: iosm: fix lkp buildbot warning
 b46c5795d641b759eb0f001ab21852fe5df5ef92 net: wwan: iosm: endianness type correction
 c98f5220e9703db2d73b4e89c07879dc61eeab14 net: wwan: iosm: correct data protocol mask bit
@@ -656,4 +633,4 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
 
---===============8445276781953142189==--
+--===============2940461549206724233==--
