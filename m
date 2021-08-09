@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5006486934404739266=="
+Content-Type: multipart/mixed; boundary="===============3690239492297552749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 09 Aug 2021 19:07:18 -0000
-Message-Id: <162853603883.27384.7395651706261336546@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 19:08:27 -0000
+Message-Id: <162853610726.27837.2653880136730646208@gitolite.kernel.org>
 
---===============5006486934404739266==
+--===============3690239492297552749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 0eb743da7f87c1fb9414add5f071bc139b66930a
-    new: 4e8c3e88666998cd31cf17ef8318ff6184d7defd
-    log: revlist-0eb743da7f87-4e8c3e886669.txt
+  - ref: refs/heads/net-mlx5
+    old: 8838058779e748b793c6b95774091af91ee626f6
+    new: 8a321cb7592c5e4be97f2efba6627fe91f123905
+    log: revlist-8838058779e7-8a321cb7592c.txt
 
---===============5006486934404739266==
+--===============3690239492297552749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0eb743da7f87-4e8c3e886669.txt
+Content-Disposition: attachment; filename=revlist-8838058779e7-8a321cb7592c.txt
 
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
 eaf228263921cd15962654b539d916380a0f076e Revert "xfrm: policy: Read seqcount outside of rcu-read side in xfrm_policy_lookup_bytype"
@@ -82,24 +82,7 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
-1159e25c137422bdc48ee96e3fb014bd942092c6 qede: fix crash in rmmod qede while automatic debug collection
-d51c5907e9809a803b276883d203f45849abd4d6 net, gro: Set inner transport header offset in tcp/udp GRO hook
-ebca25ead0711729e0aeeec45062e7ac4df3e158 net/sched: taprio: Fix init procedure
-40e159403896f7d55c98f858d0b20fee1d941fa4 mhi: Fix networking tree build.
-cb81698fddbcc9a3ee75857e99dfc29caa96135b net: dsa: sja1105: fix static FDB writes for SJA1110
-e11e865bf84e3c6ea91563ff3e858cfe0e184bd2 net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
-6c5fc159e0927531707895709eee1f8bfa04289f net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
-728db843df88753aeb7224314807a203afa8eb32 net: dsa: sja1105: ignore the FDB entry for unknown multicast when adding a new address
-589918df93226a1e5f104306c185b6dcf2bd8051 net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
-47c2c0c2312118a478f738503781de1d1a6020d2 net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
-cebb5103f07e0924ff3e2a7feaf962d6f0c0aa88 Merge branch 'sja1105-fdb-fixes'
 4c156084daa8ee70978e4b150b5eb5fc7b1f15be selinux: correct the return value when loads initial sids
-a5e63c7d38d548b8dab6c6205e0b6af76899dbf5 net: phy: micrel: Fix detection of ksz87xx switch
-7fe74dfd41c428afb24e2e615470832fa997ff14 net: natsemi: Fix missing pci_disable_device() in probe and remove
-6387f65e2acb9a63044bd64464401771b8cf1acc net: sparx5: fix compiletime_assert for GCC 4.9
-66e0da21728343bd3e75230a53d909e045fb9dd7 docs: operstates: fix typo
-7a7b8635b622add64d98cff84bf3ee71eac36237 docs: operstates: document IF_OPER_TESTING
-1c69d7cf4a8b6b6cfd920a1e809f1cd33ae4369c Revert "mhi: Fix networking tree build."
 9b87f43537acfa24b95c236beba0f45901356eb2 gpio: tqmx86: really make IRQ optional
 0541a6293298fb52789de389dfb27ef54df81f73 net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
 ce78ffa3ef1681065ba451cfd545da6126f5ca88 net: really fix the build...
@@ -119,6 +102,8 @@ d5ad8ec3cfb56a017de6a784835666475b4be349 Merge tag 'media/v5.14-2' of git://git.
 abc7285d89ffd089739a1a3059ddd843dd019637 mptcp: drop unused rcu member in mptcp_pm_addr_entry
 e3ea110d6e796146920e1be0108464ebcf283ef7 VSOCK: handle VIRTIO_VSOCK_OP_CREDIT_REQUEST
 d1a58c013a5837451e3213e7a426d350fa524ead net: dsa: qca: ar9331: reorder MDIO write sequence
+5f7b51bf09baca8e4f80cbe879536842bafb5f31 netfilter: ipset: Limit the maximal range of consecutive elements to add/delete
+38ea9def5b62f9193f6bad96c5d108e2830ecbde netfilter: nf_conntrack_bridge: Fix memory leak when error
 06f5553e0f0c2182268179b93856187d9cb86dd5 net: sched: fix lockdep_set_class() typo error for sch->seqlock
 13a9c4ac319a23c792e2e03ac73777b6710132c3 net/prestera: Fix devlink groups leakage in error flow
 8a160e2e9aeb8318159b48701ad8a6e22274372d net: usb: pegasus: Check the return value of get_geristers() and friends;
@@ -138,47 +123,11 @@ a9d10ca4986571bffc19778742d508cc8dd13e02 tracing: Reject string operand in the h
 b18b851ba85a5855cb53865fcff3cd2c17b44b0b scripts/recordmcount.pl: Remove check_objcopy() and $can_use_local
 1c0cec64a7cc545eb49f374a43e9f7190a14defa scripts/tracing: fix the bug that can't parse raw_trace_func
 d5aaad6f83420efb8357ac8e11c868708b22d0a9 KVM: x86/mmu: Fix per-cpu counter corruption on 32-bit builds
-df7ba0eb25edded52b1b3f6bb6ab0c0048a7e0bb mctp: remove duplicated assignment of pointer hdr
-0fd75f5760b6a7a7f35dff46a6cdc4f6d1a86ee8 net: ipa: fix IPA v4.9 interconnects
-0e8eb9a16e2569ff72f9d2f43d665e15d52bfa2e net: dsa: rename teardown_default_cpu to teardown_cpu_ports
-2c0b03258b8bda0ef6339229d18fbb2594317dbe net: dsa: give preference to local CPU ports
-30a100e60cf36ade9902dc71610f93563d0bd7b0 net: dsa: sja1105: configure the cascade ports based on topology
-3fa212707b8e6026cea6a92faea87f556e0cba9b net: dsa: sja1105: manage the forwarding domain towards DSA ports
-c513002980838af4d65551497f63e403d961ea36 net: dsa: sja1105: manage VLANs on cascade ports
-777e55e30d1275e0ddd70efdbcd8cf6f4dae554e net: dsa: sja1105: increase MTU to account for VLAN header on DSA ports
-0f9b762c097c1816bba072fb44b9018a41e2e65b net: dsa: sja1105: suppress TX packets from looping back in "H" topologies
-81d45898a59a5fb443406603b126a4d1856a1007 net: dsa: sja1105: enable address learning on cascade ports
-1f52247ef840db6ddd727fb1bd1c38b7153120c3 Merge branch 'sja1105-H'
-30c2515b89f1a6361170961e72bebd375f611b9b net: ipa: don't suspend/resume modem if not up
-10cc73c4b7feaa74abfbead404ae4eb28ba60310 net: ipa: reorder netdev pointer assignments
-8ee7c40a25c70951c6e5db8e921fd08e4e038c6d net: ipa: improve IPA clock error messages
-73ff316dac17accc05e28ae4939426044fb437ec net: ipa: move IPA power operations to ipa_clock.c
-afe1baa82db2b7345944b042a6c84757639a4283 net: ipa: move ipa_suspend_handler()
-afb08b7e220ef7278ffceb4f9e201c2a904e18a9 net: ipa: move IPA flags field
-839454801e08b8ff6c8d97007d044a53fe96f7fa Merge branch 'ipa-runtime-pm'
 5a7c1b2a5bb4461967b15f3484a0ff75d3199719 net: wwan: iosm: fix lkp buildbot warning
 b46c5795d641b759eb0f001ab21852fe5df5ef92 net: wwan: iosm: endianness type correction
 c98f5220e9703db2d73b4e89c07879dc61eeab14 net: wwan: iosm: correct data protocol mask bit
 679505baaaabed98359c1dfb78f81600e299af21 net: wwan: iosm: fix recursive lock acquire in unregister
 afa00d3f5800a83228311636fc69fd28fb7af205 Merge branch 'eean-iosm-fixes'
-af352460b465d7a8afbeb3be07c0268d1d48a4d7 net: fix GRO skb truesize update
-4167a960574fcadc9067f4280951a35b8c021c68 net/ipv4: Revert use of struct_size() helper
-893b195875340cb44b54c9db99e708145f1210e8 net: bridge: fix ioctl locking
-cbd7ad29a5070a75dd076118ce7e400ce4b8d8d1 net: bridge: fix ioctl old_deviceless bridge argument
-9384eacd80f3da8d05fd17073eafd1f7fef80b26 net: core: don't call SIOCBRADD/DELIF for non-bridge devices
-d15040a33883c3ab2ee2ea17e6427ce24e9f3ac0 Merge branch 'bridge-ioctl-fixes'
-db243b796439c0caba47865564d8acd18a301d18 net/ipv4/ipv6: Replace one-element arraya with flexible-array members
-e6a1f7e0b0fe5997b896b793c70d12fc5ed06cdd net/ipv4/igmp: Use struct_size() helper
-e11c0e258c1a87e478a7a44e7c3d9e8ea4b8438c net/ipv6/mcast: Use struct_size() helper
-ab996c420508761f3313c15c5f72d06ca7dc1a5b wwan: mhi: Fix build.
-7d1575014a63caeebb13b000ee152ce711580119 selftests/net: GRO coalesce test
-5ebfb4cc3048380b43506ffc71b9cf8b83128989 selftests/net: toeplitz test
-6234219d7fe8bb709f1e9d5afcb420d9cb30beac Merge branch 'GRO-Toeplitz-selftests'
-a85b99ab6abb583e051d266c2138647daa5c0ecc Revert "wwan: mhi: Fix build."
-1160dfa178eb848327e9dec39960a735f4dc1685 net: Remove redundant if statements
-b37a466837393af72fe8bcb8f1436410f3f173f3 netdevice: add the case if dev is NULL
-f8b17a0bd96065e4511858689916bb729dbb881b net: dsa: tag_sja1105: optionally build as module when switch driver is module if PTP is enabled
-23809a726c0d004b9d2474333181f8da07360469 netdevsim: Forbid devlink reload when adding or deleting ports
 fb653827c758725b149b5c924a5eb50ab4812750 bnx2x: fix an error code in bnx2x_nic_load()
 ae03d189bae306e1e00aa631feee090ebda6cf63 net: ethernet: ti: am65-cpsw: fix crash in am65_cpsw_port_offload_fwd_mark_update()
 51397dc6f283bb570e1cf8226017d300d8ea1f5b tracing: Quiet smp_processor_id() use in preemptable warning in hwlat
@@ -195,86 +144,42 @@ af35fc37354cda3c9c8cc4961b1d24bdc9d27903 net: pegasus: fix uninit-value in get_i
 0b53abfc5f66449d42fb1738c1c191e29e3be2e4 Merge tag 'selinux-pr-20210805' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 e04480920d1eec9c061841399aa6f35b6f987d8b Bluetooth: defer cleanup of resources in hci_unregister_dev()
 902e7f373fff2476b53824264c12e4e76c7ec02a Merge tag 'net-5.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0ca8d3ca4561535f97b31e7b8de569c69bc3b27b Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-1f88d5d566b8be60ce8f8b53132a706fe3184e9e net: ethernet: ti: cpsw: switch to use skb_put_padto()
-61e7a22da75b5ca97e89f6a935352e6528342b99 net: ethernet: ti: davinci_emac: switch to use skb_put_padto()
-9ffc513f95eea67bbdee615637c24d131a2b3186 net: ethernet: ti: davinci_cpdma: drop frame padding
-a5516053cd442f58929590349809ca0b6f154fdb Merge branch 'cpsw-emac-skb_put_padto'
-5c0418ed16109759c7aec86b72f9bf56a0358526 netdevsim: Protect both reload_down and reload_up paths
-596690e9f4fc8f062a3f52b42071086721fd76fe ethtool: return error from ethnl_ops_begin if dev is NULL
-d12f23fa5142594796a0498d11b5f21463060dac ptp: ocp: Fix the error handling path for the class device.
-0d43d4f26cb2b051ad430629d2f0c5866822656a ptp: ocp: Add the mapping for the external PPS registers.
-37a156ba4cbb44037355087ade03268435a77225 ptp: ocp: Remove devlink health and unused parameters.
-ef0cfb3460a40942c901e15e3df9822b63cb159e ptp: ocp: Use 'gnss' naming instead of 'gps'
-1a052da92924413d8fab15ccf293f886148e8fc9 ptp: ocp: Rename version string shown by devlink.
-8ef8ccbc69677e663925f3e758b077d1ad3cd836 ptp: ocp: Remove pending_image indicator from devlink
-370cb73a38747379bfc559b5fe61e575c3bb4f31 Merge branch 'ptp-ocp-fixes'
-47bfc4d128dedd9e828e33b70b87b591a6d59edf net: ti: am65-cpsw-nuss: fix RX IRQ state after .ndo_stop()
-3bacbe04251b7bc5049a8951563d3a9a9b854dc1 net: ethernet: ti: am65-cpsw: use napi_complete_done() in TX completion
-7df4e7449489d82cee6813dccbb4ae4f3f26ef7b net: dsa: stop syncing the bridge mcast_router attribute at join time
-cbbf09b5771e6e9da268bc0d2fb6e428afa787bc net: dsa: mt7530: remove the .port_set_mrouter implementation
-c73c57081b3d59aa99093fbedced32ea02620cd3 net: dsa: don't disable multicast flooding to the CPU even without an IGMP querier
-9b9311af4e8657be85bb1d083c531cfb6afb0d9c Merge branch 'dsa-cpu-flood'
-8fbebef80107d779b8e356cf60323454a4099d76 net: dsa: mt7530: drop untagged frames on VLAN-aware ports without PVID
-06669e6880be7422bb9926f71be39c4924b92fea vrf: fix NULL dereference in vrf_finish_output()
-35ba6abb73e4d2ba21a566d3671618f4a5503c27 net: ethernet: ti: davinci_cpdma: revert "drop frame padding"
-17bd3a1e10615b7a790faf5ff4cd87401d447e7c tulip: Remove deadcode on startup true condition
-60bb1089467d52c68190f813105c897b0933bbcc s390/qeth: Register switchdev event handler
-4e20e73e631ac4c2f7af603f14bd44a6d77d919c s390/qeth: Switchdev event handler
-f7936b7b2663c99a096a5c432ba96ab1e91a6c0f s390/qeth: Update MACs of LEARNING_SYNC device
-709db03a8afaf5196b36e633fbaa68b42fba95d5 Merge branch 's390-qeth'
-4367355dd90942a71641c98c40c74589c9bddf90 net: ethernet: stmmac: Do not use unreachable() in ipq806x_gmac_probe()
-f9be84db09d2e8930319503683305781378a7dbf net: bonding: bond_alb: Remove the dependency on ipx network layer
-39f32101543be35c60dd984b44c620d565083d33 net: dsa: don't fast age standalone ports
-82564f6c706a37e5f7dec962375581cc9f8fca5d devlink: Simplify devlink port API calls
-64ec13ec92d5b28371cb620928588a324cc74f54 atm: horizon: Fix spelling mistakes in TX comment
-045c45d1f598c65806f885b59f6fbc4cebb62b15 net: dsa: centralize fast ageing when address learning is turned off
-4eab90d9737b348094a99ba4e4c473e91a8b8038 net: dsa: don't fast age bridge ports with learning turned off
-9264e4ad26112a496398159d200af017e37d97e3 net: dsa: flush the dynamic FDB of the software bridge when fast ageing a port
-5313a37b881e57767bc37185bef2873862be8d47 net: dsa: sja1105: rely on DSA core tracking of port learning state
-5126ec72a094bd3a721941323c48cc80c60139d9 net: dsa: sja1105: add FDB fast ageing support
-cfe908c11659180e336a36f6f5a1c6591cfd3fc5 Merge branch 'sja1105-fast-ageing'
-a4ffe09fc2d7138d28b225cc20893f506f2712cf net: dsa: still fast-age ports joining a bridge if they can't configure learning
-bee7c577e6d7b51fa0d2b30747c2cd3499ef778e net: dsa: avoid fast ageing twice when port leaves a bridge
-003352377f15f0014c752a6b7edf8bd947eecc7f Merge branch 'dsa-fast-ageing'
-10d6393dc471de5b8be84a19a967e51058ac5d1e net/af_iucv: support drop monitoring
-4eb9eda6ba64114d98827e2870e024d5ab7cd35b net/af_iucv: clean up a try_then_request_module()
-ff8424be8ce326e046982768bd20a245714e05b6 net/af_iucv: remove wrappers around iucv (de-)registration
-50348fac29211a54702b375e6e5717198a7d0cf6 net/iucv: get rid of register asm usage
-8c39ed4876d4e541e2044f313c56b1eb20810fe1 net/iucv: Replace deprecated CPU-hotplug functions.
-403fa18691b7370ad7508292769824ba298c184b Merge branch 'iucv-next'
-94c0a6fbd5cfc34d3ce5fea5867123402cdc8794 wwan: mhi: Fix missing spin_lock_init() in mhi_mbim_probe()
-919d13a7e455c2e7676042d7a5f94c164e859d8a devlink: Set device as early as possible
-67161779a9ea926fccee8de047ae66cbd3482b91 net/smc: Allow SMC-D 1MB DMB allocations
-e08d6d42b6f9aaf627df2e0a4c8b1e27ce70fe87 net: fec: fix build error for ARCH m68k
-2a2b6e3640c43a808dcb5226963e2cc0669294b1 devlink: Fix port_type_set function pointer check
-d265f5f3c170f910283c83d68cc4b91ecc323363 net/mlx5: Fix typo in comments
-c3b3725cae4b08aa31cfe383bb4df03eb9937696 net/mlx5: Add DCS caps & fields support
-15d76b5b373c09d41bfcb1407008151a5e4e601c IB/mlx5: Rename is_apu_thread_cq function to is_apu_cq
-ef82ad22a4ab08f0e2f40eb92003b46ebdb81ff9 net/mlx5: Return mdev from eswitch
-540728d3799c7a1df30a1ef37c5b5d09f1beb2cf net/mlx5: Lag, add initial logic for shared FDB
-f4985301fd939aa2c8f0a4aaf92bec02ed0787df RDMA/mlx5: Fill port info based on the relevant eswitch
-484a697f08907b907e1cb726b931078ff11ef708 {net, RDMA}/mlx5: Extend send to vport rules
-128d9355f71b4ecff419808ac8cb04253dfbe823 RDMA/mlx5: Add shared FDB support
-299c90ea5d176412575aa735c19820e3e84b6c65 net/mlx5: E-Switch, set flow source for send to uplink rule
-7f0686443f9e56d01c77b3d08854a4b9725c78e3 net/mlx5e: Add an option to create a shared mapping
-16f93ec4c41dbca7b1a7ce8573622ab0c64e3e8a net/mlx5e: Use shared mappings for restoring from metadata
-53203052220c8bf0886d840ad05e0f2c1403928b net/mlx5: E-Switch, Add event callback for representors
-edcb3e6618c020c2f542be445b846683d5f1285f net/mlx5: Add send to vport rules on paired device
-9f465d26f5c6bf2595a591dcc7584c2a86c7ab4e net/mlx5: Lag, properly lock eswitch if needed
-bbc88aa33bb8362bb9980711674ccf357ee9f505 net/mlx5: Lag, move lag destruction to a workqueue
-2d77c31612ff7fe4f7b0005316bfd57c4dda689c net/mlx5: E-Switch, add logic to enable shared FDB
-a9542b289254d0dc2fb63b63827700b2fa94d144 net/mlx5: Lag, Create shared FDB when in switchdev mode
-1e05933d8e4d2a5da61a542f06824b8dc508f865 net/sched: cls_api, reset flags on replay
-14a7e06257385116eb468e43fd28a71bf22c32e7 net/mlx5: SF, use recent sysfs api
-831a1e95421812c692658099fcc31e3e1c943557 net/mlx5: Reorganize current and maximal capabilities to be per-type
-8735df2dae04e3130fa2d40299d323f494ccc816 net/mlx5: Allocate individual capability
-e59e772f96d8de9a6acf931342e1c08dc16a5546 net/sched: cls_api, reset flags on replay
-40caad971bbf5a43a4b7d48790efac37219ceb23 net/mlx5: Lag, fix multipath lag activation
-7c16ff23cfb323ab073f98a97d7e4aa165bc34f6 net/mlx5: Initialize numa node for all core devices
-03b8567481c5878fa9279f4e268be10f24abd72b Merge branch 'patchq/414336' into mlx5-queue
-c1d4ee10adbf2542a48fa06fa7b6641bb035c793 Merge branch 'patchq/412107' into mlx5-queue
-0c6dda6540d739898bed9646ad9625e355141cb0 Merge branch 'patchq/411074' into mlx5-queue
-4e8c3e88666998cd31cf17ef8318ff6184d7defd Merge branch 'patchq/407396' into mlx5-queue
+aff51c5da3208bd164381e1488998667269c6cf4 net: dsa: mt7530: add the missing RxUnicast MIB counter
+704e624f7b3e8a4fc1ce43fb564746d1d07b20c0 net: mvvp2: fix short frame size on s390
+4608fdfc07e116f9fc0895beb40abad7cdb5ee3d netfilter: conntrack: collect all entries in one cycle
+61e0c2bc555a194ada2632fadac73f2bdb5df9cb netfilter: nfnetlink_hook: strip off module name from hookfn
+a6e57c4af12bbacf927d7321c3aa894948653688 netfilter: nfnetlink_hook: missing chain family
+3d9bbaf6c5416bfc50f014ce5879c8c440aaa511 netfilter: nfnetlink_hook: use the sequence number of the request message
+69311e7c997451dd40942b6b27b522cc3b659cef netfilter: nfnetlink_hook: Use same family as request message
+4592ee7f525c4683ec9e290381601fdee50ae110 netfilter: conntrack: remove offload_pickup sysctl again
+269fc69533de73a9065c0b7971bcd109880290b3 netfilter: nfnetlink_hook: translate inet ingress to netdev
+cc4e5eecd43b780093bf431304e3aebdd8418091 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+78d14bda861dd2729f15bb438fe355b48514bfe0 libbpf: Fix probe for BPF_PROG_TYPE_CGROUP_SOCKOPT
+c34c338a40e4f3b6f80889cd17fd9281784d1c32 libbpf: Do not close un-owned FD 0 on errors
+7c4a22339e7ce7b6ed473a8e682da622c3a774ee libbpf, doc: Eliminate warnings in libbpf_naming_convention
+c4eb1f403243fc7bbb7de644db8587c03de36da6 bpf: Fix integer overflow involving bucket_size
+84103209bab24440a156c476c2af890cec1f87d5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+2115d3d482656ea702f7cf308c0ded3500282903 Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
+9c40186488145b57f800de120f0872168772adfe r8169: change the L0/L1 entrance latencies for RTL8106e
+d992e99b87ec6ac59d95a1e3de0cde8a996c7697 Merge branch 'r8169-RTL8106e'
+47fac45600aafc5939d9620055c3c46f7135d316 net: dsa: qca: ar9331: make proper initial port defaults
+34737e1320db6d51f0d140d5c684b9eb32f0da76 net: wwan: mhi_wwan_ctrl: Fix possible deadlock
+2383cb9497d113360137a2be308b390faa80632d net: phy: micrel: Fix link detection on ksz87xx switch"
+d329e41a08f37c478159d5c3379a17b9c07befa3 ptp: Fix possible memory leak caused by invalid cast
+1027b96ec9d34f9abab69bc1a4dc5b1ad8ab1349 once: Fix panic when module unload
+fbfee25796e2688004d58ad4d0673279366b97dd bnxt_en: Update firmware interface to 1.10.2.52
+9e26680733d5c6538ba2e7a111fb49c9ac2dc16a bnxt_en: Update firmware call to retrieve TX PTP timestamp
+92529df76db5ab184b82674cf7a4eef4b665b40e bnxt_en: Use register window 6 instead of 5 to read the PHC
+2f5501a8f1cd795f36c0a8a3ed868ac53b6be802 Merge branch 'bnxt_en-ptp-fixes'
+2459dcb96bcba94c08d6861f8a050185ff301672 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+3125f26c514826077f2a4490b75e9b1c7a644c42 ppp: Fix generating ppp unit id when ifname is not specified
+86aab09a4870bb8346c9579864588c3d7f555299 dccp: add do-while-0 stubs for dccp_pr_debug macros
+0fa32ca438b42fadfb293d72690e117ab3d67489 page_pool: mask the page->signature before the checking
+acc68b8d2a1196c4db806947606f162dbeed2274 net: ethernet: ti: cpsw: fix min eth packet size for non-switch use-cases
+8f3d65c166797746455553f4eaf74a5f89f996d4 net/smc: fix wait on already cleared link
+64513d269e8971aabb7e787955a1b320e3031306 net/smc: Correct smc link connection counter in case of smc client
+605bb4434d28930fd12c79af24bf6247cbf944be Merge branch 'smc-fixes'
+d09c548dbf3b31cb07bba562e0f452edfa01efe3 net: sched: act_mirred: Reset ct info when mirror/redirect skb
+8a321cb7592c5e4be97f2efba6627fe91f123905 net/mlx5: Don't skip subfunction cleanup in case of error in module init
 
---===============5006486934404739266==--
+--===============3690239492297552749==--
