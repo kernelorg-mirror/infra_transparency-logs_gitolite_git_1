@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1849875370885157071=="
+Content-Type: multipart/mixed; boundary="===============7436342179642399784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 09 Aug 2021 08:44:32 -0000
-Message-Id: <162849867277.3013.12156497209238027528@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 08:47:32 -0000
+Message-Id: <162849885263.5586.492818258516323413@gitolite.kernel.org>
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,303 +16,332 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 682ec3bfad7eaca7fe9e910c487f6c5f6cb24454
-    new: d187242e6e12096aee3b16da41c386586fd4c29b
-    log: revlist-682ec3bfad7e-d187242e6e12.txt
+    old: d187242e6e12096aee3b16da41c386586fd4c29b
+    new: 6a7cc02356469fea969217d165d9d613617e6312
+    log: revlist-d187242e6e12-6a7cc0235646.txt
   - ref: refs/heads/queue/4.19
-    old: 99cf19c1c463cbdd4b17d7dfe08209c80be76296
-    new: d5f7f22df9469debc08c8c96a8ed384fafbb6ef4
-    log: revlist-99cf19c1c463-d5f7f22df946.txt
+    old: d5f7f22df9469debc08c8c96a8ed384fafbb6ef4
+    new: bd273a86268215825cac4c17674927dc31616613
+    log: revlist-d5f7f22df946-bd273a862682.txt
   - ref: refs/heads/queue/4.4
-    old: 76d16d2ab436088c85ff69080d5b6d15ed5c5449
-    new: ecd3fdb8a389c32cf53fad9ca4f293fae42bea13
-    log: revlist-76d16d2ab436-ecd3fdb8a389.txt
+    old: ecd3fdb8a389c32cf53fad9ca4f293fae42bea13
+    new: fcce2dfd9022db2534b810ad643bee7a704b61ac
+    log: revlist-ecd3fdb8a389-fcce2dfd9022.txt
   - ref: refs/heads/queue/4.9
-    old: 4a94b50996682fc19f6845d520d66c258913d212
-    new: 848a7778af309c594d13419641d9932339111bc2
-    log: revlist-4a94b5099668-848a7778af30.txt
+    old: 848a7778af309c594d13419641d9932339111bc2
+    new: 182558a6998d3d23ffd0eafc2c8cc6c050871e8b
+    log: revlist-848a7778af30-182558a6998d.txt
   - ref: refs/heads/queue/5.10
-    old: e8547162ea141d87f5e3a601375439e92c497218
-    new: 6781505fcc0c7591bf86017e190c2db6aa1d762b
-    log: revlist-e8547162ea14-6781505fcc0c.txt
+    old: 6781505fcc0c7591bf86017e190c2db6aa1d762b
+    new: 0093c32436328f7714afd4386d1bb75f08e204ad
+    log: revlist-6781505fcc0c-0093c3243632.txt
   - ref: refs/heads/queue/5.13
-    old: 10ea5227ab255cd286a3493df804bf1bbb8b04d7
-    new: 41383e95ffc29fcede28b9638756a0152f858871
-    log: revlist-10ea5227ab25-41383e95ffc2.txt
+    old: 41383e95ffc29fcede28b9638756a0152f858871
+    new: 17897c29c187f349165cd1fa9568e8df81416346
+    log: revlist-41383e95ffc2-17897c29c187.txt
   - ref: refs/heads/queue/5.4
-    old: 579764b5dc7e90d57489991652782c58079fc26e
-    new: 26bfbfce41e75325fc3567402b08e66e98348ebe
-    log: revlist-579764b5dc7e-26bfbfce41e7.txt
+    old: 26bfbfce41e75325fc3567402b08e66e98348ebe
+    new: 7daef5a5f62f07e2f02d6cba63e295f7bea091fb
+    log: revlist-26bfbfce41e7-7daef5a5f62f.txt
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-682ec3bfad7e-d187242e6e12.txt
+Content-Disposition: attachment; filename=revlist-d187242e6e12-6a7cc0235646.txt
 
-bbf5b5c723e55a17d3abae721e8cad7452808ba0 Revert "ACPICA: Fix memory leak caused by _CID repair function"
-cf6f6982be155505594925bf3efd444f7a47d5d4 ALSA: seq: Fix racy deletion of subscriber
-5c8622f3ce4dc4fef01145eadbde889e7353612d clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-780009f1a17719155a2ce7e8ba185ff78eb5a157 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-4e4a581898ccc0ce6057692909715cd3be9312bc scsi: sr: Return correct event when media event code is 3
-324c135ab9b2be2fc130770a3493c482f6d60d09 media: videobuf2-core: dequeue if start_streaming fails
-576cdf58a15abebad416887f94bb94eb2f9c4227 net: natsemi: Fix missing pci_disable_device() in probe and remove
-c8d5c44d3aeb3ea73d8353d63120bc08738d0856 nfp: update ethtool reporting of pauseframe control
-ab03f5980f9b19000d39e166bd7c84abb32b9a9a mips: Fix non-POSIX regexp
-0b98c4d2326807428fde02c5a49e6e548d929060 bnx2x: fix an error code in bnx2x_nic_load()
-917adedaefb9bf0cba2a913079856e0fb9f7a617 net: pegasus: fix uninit-value in get_interrupt_interval
-f8149d91734d7f4ca85babb7b1dfb860d941b4fd net: fec: fix use-after-free in fec_drv_remove
-705c39913b9170529e895016a0e69ec5bf71bd44 net: vxge: fix use-after-free in vxge_device_unregister
-62013962f4cfd955b508f8fdde00dacc5db37e03 Bluetooth: defer cleanup of resources in hci_unregister_dev()
-26767c35cffa07a990846dc0c3b4cb88edc98d64 USB: usbtmc: Fix RCU stall warning
-9ad0559ac579e3b35122c4f4150841e5f7a9f3e4 USB: serial: option: add Telit FD980 composition 0x1056
-b322598b5201561a5f94f23796bed070a480a83c USB: serial: ch341: fix character loss at high transfer rates
-d187242e6e12096aee3b16da41c386586fd4c29b USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+0f40a566e91d8f33dddf35cbac142b16c044e4f7 Revert "ACPICA: Fix memory leak caused by _CID repair function"
+0d2b43bb163544b1b1e48ad979da9fce1e287da6 ALSA: seq: Fix racy deletion of subscriber
+a207f742566d44e069e8040c42941d9fea73a15b clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+2faccf9186dede4eef78db1511940d9a255543c4 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
+c04efb5164531207dd5723089a671ef2d8cefc21 scsi: sr: Return correct event when media event code is 3
+235ab85841d5b9f707809fa3b44200553394278e media: videobuf2-core: dequeue if start_streaming fails
+eee29fcef870de81989370e5785ca4771e2090bc net: natsemi: Fix missing pci_disable_device() in probe and remove
+1a8e8bbb58e515b47ad69052ce928814615f140c nfp: update ethtool reporting of pauseframe control
+a8c02b0ec69ef91fae62f18f7116ccb4ae4924cd mips: Fix non-POSIX regexp
+4087a8e6ac0ff9795d1cf71be285d3bd0752dc18 bnx2x: fix an error code in bnx2x_nic_load()
+b99616d72326687dfcd14ef8770582f0982bb963 net: pegasus: fix uninit-value in get_interrupt_interval
+5336c25ed41c21c136a8e739da128500628a3ed7 net: fec: fix use-after-free in fec_drv_remove
+1fff530c7455e69ec7011defcd31e276e83ebc4c net: vxge: fix use-after-free in vxge_device_unregister
+4e2fed3b5dd225d5a00220bffb009ce31ad5980d Bluetooth: defer cleanup of resources in hci_unregister_dev()
+1ea438440967b0dae3e34ce48bff32c8a1c81825 USB: usbtmc: Fix RCU stall warning
+2ecc2addcf556ac7602333ea5931571d2abde23b USB: serial: option: add Telit FD980 composition 0x1056
+015c608086f8e354aacbea0bbbdcd51b969f64fc USB: serial: ch341: fix character loss at high transfer rates
+6a7cc02356469fea969217d165d9d613617e6312 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99cf19c1c463-d5f7f22df946.txt
+Content-Disposition: attachment; filename=revlist-d5f7f22df946-bd273a862682.txt
 
-ae52f6c49da7189ffdae02b3abbdeedfbf2a9794 Revert "ACPICA: Fix memory leak caused by _CID repair function"
-c841ca1651f6ba5ff1d3cb322dd20963362bfa2f ALSA: seq: Fix racy deletion of subscriber
-07aad266fcf080ff2114a39aad3968eb1a767ac9 ARM: imx: add missing iounmap()
-f1527dbe2bf330c783d14c6eba5ee6e7a781ba40 ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
-1eaf84596a8d40e4147c6412f4d84c1cdcccc0e3 ALSA: usb-audio: fix incorrect clock source setting
-66f3f23bcd74a3ffb1e295c6d83db9917722b779 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-981cf1cd86588523cac1e52a310a0d02e8c2f232 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-29b119a4fc333b8002eb98c3df69e627defbe78f scsi: sr: Return correct event when media event code is 3
-624f7e43e5f09a2507b8d1334419693142583909 media: videobuf2-core: dequeue if start_streaming fails
-8c9899c114dd8cc2e251429ecfcc80c2deb19352 net: natsemi: Fix missing pci_disable_device() in probe and remove
-d6248d1e34dc885a40d5355f3ef4ec200c5020e6 sctp: move the active_key update after sh_keys is added
-72e097c1dc19c7ac363bcaadf89b5ab954465f5e nfp: update ethtool reporting of pauseframe control
-266e3d06c7cd4d76dd0623b8b3493ae28f8058ef net: ipv6: fix returned variable type in ip6_skb_dst_mtu
-b49d213f6de525ca11be1ee4c08f9e1b1f53b0e5 mips: Fix non-POSIX regexp
-5edb9cd8277095fba380b69fa11df8f97aed339c bnx2x: fix an error code in bnx2x_nic_load()
-aa76969cefb9bb2c53a9757af8aa71b990743ca1 net: pegasus: fix uninit-value in get_interrupt_interval
-d5af5bc4a9340c1f05e275ac666a2cc37045e2e0 net: fec: fix use-after-free in fec_drv_remove
-47270d05d362db8578e5dad27afb94525097f738 net: vxge: fix use-after-free in vxge_device_unregister
-ed50e2ec42ec73d928660ce3a8a2ef323d464ad7 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
-d5f7f22df9469debc08c8c96a8ed384fafbb6ef4 Bluetooth: defer cleanup of resources in hci_unregister_dev()
+f4a67324b3519aab052f76ee3bf0f82c6522f7fb Revert "ACPICA: Fix memory leak caused by _CID repair function"
+42fa447dc601b61cf2493db319fa0a8b6600d26a ALSA: seq: Fix racy deletion of subscriber
+d17fe74d5aeb2d4e95aeeac92b6e6cd120feb935 ARM: imx: add missing iounmap()
+958e9573db3f001996df5e495365c4a3248b2eee ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
+d85281fb3ce3b39af361f2615b493b0901514ceb ALSA: usb-audio: fix incorrect clock source setting
+4f4e36afc622e6b6b5d54232797ef3d96e9b149e clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+18e37bf7023301e7e80d23d4b9ff0facc1f9d617 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
+78e95591d19b4bda9ba7d0082b80205c545a6c21 scsi: sr: Return correct event when media event code is 3
+71c875120bd8311dbdcd2541ca93af082fa0c783 media: videobuf2-core: dequeue if start_streaming fails
+d95d1e9e4bb7e87b83dc5ad16a74399bc24cafb8 net: natsemi: Fix missing pci_disable_device() in probe and remove
+9fbcee4c93724eb908ad0978e2fbc8765b298181 sctp: move the active_key update after sh_keys is added
+844405bb3d0c65989608b8bfdeb148ab988c3210 nfp: update ethtool reporting of pauseframe control
+76750480a4b6c995165d64f1ca9c04e0c686bfb3 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
+662535397e5ea1ed693af32c14d7211685f72636 mips: Fix non-POSIX regexp
+daafead812757ec0362f3ec7723483324a294281 bnx2x: fix an error code in bnx2x_nic_load()
+c8b20d38ce3114041ccedc0251b23f7db4851823 net: pegasus: fix uninit-value in get_interrupt_interval
+ff4684ceeca14f19b1c393ca016ece66da70ef71 net: fec: fix use-after-free in fec_drv_remove
+56e69c01a7d7e5e429f5b5fbcb7f1c7202f5b94e net: vxge: fix use-after-free in vxge_device_unregister
+99031f85ea50f9517a86b7a912d0b496bd903209 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
+0543078cffbe05407b27cd2b86e79c85d4e8be22 Bluetooth: defer cleanup of resources in hci_unregister_dev()
+7a4b4aa14ee75791184248fa1cf32b5c926af100 USB: usbtmc: Fix RCU stall warning
+9db7f4ee9040ddf2857ebf11a688421c536d37f3 USB: serial: option: add Telit FD980 composition 0x1056
+8491da6be1e3c615853f65b3619c20e5e4615bab USB: serial: ch341: fix character loss at high transfer rates
+60786a58612d83c3f50858a86c3047ca32282885 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+48369a495c1df5c169885410c7bafd3335b3b1b9 firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
+bd273a86268215825cac4c17674927dc31616613 firmware_loader: fix use-after-free in firmware_fallback_sysfs
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76d16d2ab436-ecd3fdb8a389.txt
+Content-Disposition: attachment; filename=revlist-ecd3fdb8a389-fcce2dfd9022.txt
 
-e037b5c0b927df2b3e0b5119657335829af90051 ALSA: seq: Fix racy deletion of subscriber
-c80e8c7981bc1e8273f84387bf2afe2206840448 scsi: sr: Return correct event when media event code is 3
-16e5d84428f37e263f0e379f9caf70f3f7963170 media: videobuf2-core: dequeue if start_streaming fails
-d02d7ba995ce1293d15f833ae939c6487c99614a net: natsemi: Fix missing pci_disable_device() in probe and remove
-0472f6951d37d3b9998c7f1ea4047c1e7ee850dc mips: Fix non-POSIX regexp
-97cc15f33f5a3cd0544537e04d1b436ea0e2e52f bnx2x: fix an error code in bnx2x_nic_load()
-a9e701849f4b21e2014d38f8225fd973e3f08d07 net: pegasus: fix uninit-value in get_interrupt_interval
-2b0ebfb534c6b8b83ad79d3853474ae6ccc20d8d net: vxge: fix use-after-free in vxge_device_unregister
-3fcd5f6cebebd2487da23d4a961be19ba73cbd0a Bluetooth: defer cleanup of resources in hci_unregister_dev()
-b075145e339bb8e3aa179505c6880dd8fc209743 USB: serial: option: add Telit FD980 composition 0x1056
-02ba10a00c1858ff9a9e8ea5b2745cd707de6270 USB: serial: ch341: fix character loss at high transfer rates
-ecd3fdb8a389c32cf53fad9ca4f293fae42bea13 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+7f13acac59c67cfc6a0c5408dbae73760fc20ac9 ALSA: seq: Fix racy deletion of subscriber
+f710f1b50db7399c813bedcac7457dcf82726a29 scsi: sr: Return correct event when media event code is 3
+0589f004b1df66e7316ab898795212474883d779 media: videobuf2-core: dequeue if start_streaming fails
+2eaa70b9fbe7223891e3e3b7097a3c6fe3f758ab net: natsemi: Fix missing pci_disable_device() in probe and remove
+f87c6e4fc167d62b04b37f9b651ddeb133fdf1a3 mips: Fix non-POSIX regexp
+1cb617b81ac91d5044dda2696c44e090da4ffeb7 bnx2x: fix an error code in bnx2x_nic_load()
+c147cc8567031766a355c8e8ac508b0945aa26f2 net: pegasus: fix uninit-value in get_interrupt_interval
+cb861320980398026e08f12718add40fd4eb1125 net: vxge: fix use-after-free in vxge_device_unregister
+30e29630e25fdbc4d7715118dd7beed8193d93ab Bluetooth: defer cleanup of resources in hci_unregister_dev()
+f202121d68a2b69ed782dc56f72f6e6fd760e97e USB: serial: option: add Telit FD980 composition 0x1056
+fe408eb3435265c4da2fc9cd5347cca810927515 USB: serial: ch341: fix character loss at high transfer rates
+fcce2dfd9022db2534b810ad643bee7a704b61ac USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a94b5099668-848a7778af30.txt
+Content-Disposition: attachment; filename=revlist-848a7778af30-182558a6998d.txt
 
-06548f6658e82fa4e0dba659fffc1cdd9bb6a4d1 ALSA: seq: Fix racy deletion of subscriber
-fe7a3b1580ecff598de17b2bec7cb6c11585700e scsi: sr: Return correct event when media event code is 3
-2804401bb664b78a60b391db06274c723aee4899 media: videobuf2-core: dequeue if start_streaming fails
-d9093ba72023808b0bd93f9959c1021871edaba7 net: natsemi: Fix missing pci_disable_device() in probe and remove
-3bd3f86af1a9a72eb397420df3f472edad853431 mips: Fix non-POSIX regexp
-9f84808da0e954b6cc48036a4933513d97fbf446 bnx2x: fix an error code in bnx2x_nic_load()
-ca7ce77fd918356d4d178cbafba0aba0b5c5e46e net: pegasus: fix uninit-value in get_interrupt_interval
-d4cf060cc575afe7a681431ec3a415ba09cd2859 net: fec: fix use-after-free in fec_drv_remove
-993c63496b177da7ff312cdbf47f6a437a1f9bbc net: vxge: fix use-after-free in vxge_device_unregister
-8c8ab70e32ac78f080ee84bbb7cf903e264956f4 Bluetooth: defer cleanup of resources in hci_unregister_dev()
-52f322b6cbf75cc2fcf648f1833f5e48d575e248 USB: usbtmc: Fix RCU stall warning
-3e7d747a5b4f3cb0dd8a75855a8bc60638ff294f USB: serial: option: add Telit FD980 composition 0x1056
-cf268db394de149a73d45b3faf031574f8c3edca USB: serial: ch341: fix character loss at high transfer rates
-848a7778af309c594d13419641d9932339111bc2 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+f86a5bec3f17e93748dd965daba7b67bf5855c9a ALSA: seq: Fix racy deletion of subscriber
+46ae9d965a8838f2906e3bfdcb035058e5d7d5ce scsi: sr: Return correct event when media event code is 3
+2f284c747c04079a675fb812678ca916a1b05125 media: videobuf2-core: dequeue if start_streaming fails
+f197b8255fca5edb256819ca67a1d3e8bca4cba3 net: natsemi: Fix missing pci_disable_device() in probe and remove
+b45be1d12c97a4238743ae522e76bd612575a6ca mips: Fix non-POSIX regexp
+e47dd1ff78a88b36fb39dc005d1b460049990234 bnx2x: fix an error code in bnx2x_nic_load()
+ff8e8f023097c2587c11a7556a11c848e2339a48 net: pegasus: fix uninit-value in get_interrupt_interval
+ea5475167ea6542835d9c2c85568dda10bd7e4d3 net: fec: fix use-after-free in fec_drv_remove
+76c20cd9da9ce0fae3de0e6d7a4ced6e665c8dc8 net: vxge: fix use-after-free in vxge_device_unregister
+341c16266b5c22507fb587fc48db44ca480aa03a Bluetooth: defer cleanup of resources in hci_unregister_dev()
+d2e2fdd82de4778f2264eaed07097d470d54f2d2 USB: usbtmc: Fix RCU stall warning
+bc71184c4d0557dad96ee4d4f56d7bc65a4e497d USB: serial: option: add Telit FD980 composition 0x1056
+960ded4bc8bc2d9cc9ed825d2246dc6f25f246cb USB: serial: ch341: fix character loss at high transfer rates
+182558a6998d3d23ffd0eafc2c8cc6c050871e8b USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8547162ea14-6781505fcc0c.txt
+Content-Disposition: attachment; filename=revlist-6781505fcc0c-0093c3243632.txt
 
-56bf6e80b9c989e5392824e01f2951df96a30f95 Revert "ACPICA: Fix memory leak caused by _CID repair function"
-cc6002a24fa3f6f10187295305624c126b6e3518 ALSA: seq: Fix racy deletion of subscriber
-7b0b4b656ea8f2e74a603f47e74133216ac6e66e bus: ti-sysc: Fix gpt12 system timer issue with reserved status
-2f8d5e7d74da43be90df7787007c796e02df0109 net: xfrm: fix memory leak in xfrm_user_rcv_msg
-3a2ea721fdd0d03bc5c0aec3e4485456faea3ad3 arm64: dts: ls1028a: fix node name for the sysclk
-e2010c30f1c45ed15d3f0c4cef079e9ec8907d96 ARM: imx: add missing iounmap()
-cab2a6b0ea59a437f2f5dcb034ce696059569660 ARM: imx: add missing clk_disable_unprepare()
-6cdb7b615505913abbfd85f33411a27fa1abc2fe ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
-a5dabd7a666a02a3c2bc85ca7358cd955fd930eb arm64: dts: ls1028: sl28: fix networking for variant 2
-156cb83b41910e096ebc2556e863324c62a50987 ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
-32973dddc8673745c569c441fbd1eb2ef35e9630 ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
-2ffa0d8ccfd6401484e1aabe1141ff66dca4f274 ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
-fade59040da17948cb978a7c61321b696aad59d6 arm64: dts: armada-3720-turris-mox: fixed indices for the SDHC controllers
-a3bb3ffb426cef2848efbeabf6faf98d5fefd74e arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
-b468f514083655ff114416c7543c179592da3a40 ALSA: usb-audio: fix incorrect clock source setting
-62db40834cd68d0efd918bb0936733db8ca4ac6c clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-175eaeb6dedfe0f4ba0d132bb27d32a14ad93108 ARM: dts: am437x-l4: fix typo in can@0 node
-b0a15fd083fe0089b1c53c238838b8a77acdcb87 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-4abbcec90c66326a9227e85f0eb9daf656e588b4 dmaengine: uniphier-xdmac: Use readl_poll_timeout_atomic() in atomic state
-4dfcca7e796ac617fcaa8778b286cd11576aa0f8 clk: tegra: Implement disable_unused() of tegra_clk_sdmmc_mux_ops
-2fb0c56085e646aa92b844ae5562a0f4a74a5e40 dmaengine: stm32-dma: Fix PM usage counter imbalance in stm32 dma ops
-8a2c53fc0bcb89448784ef8c59327e76b949c4a6 dmaengine: stm32-dmamux: Fix PM usage counter unbalance in stm32 dmamux ops
-b0d975cc0aa76b6e79abdff0f26a4b2a4d9b1098 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
-2b3796445a5ee5abe15fcd426febbef6cf6775e0 spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
-b5f3529917340209aa449123155e82285d0d6bb5 scsi: sr: Return correct event when media event code is 3
-5a6abb890c347c7f170d8a66d2c9e39cdec3ac57 media: videobuf2-core: dequeue if start_streaming fails
-b398e1c5c112b2114075d3add6936b5048ce19e8 ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
-7b606d9784032eb47161932d39bc3e191f74bfbc ARM: dts: stm32: Fix touchscreen IRQ line assignment on DHCOM
-232fd2b5c5cf7db4980b3693bd2788cf8aa77050 dmaengine: imx-dma: configure the generic DMA type to make it work
-f472777ecdee3e50998b83068743877935ec51d9 net, gro: Set inner transport header offset in tcp/udp GRO hook
-1d1e6e551bf4e54974832ce78a5ef3957611d2ef net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
-0f18c5a71335222d3c997eaa8a36e976975fa7b0 net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
-6d6f20cc11a6be6bf367ad4a876bd02366b63fa9 net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
-c12ca835258fea19823e802bf4f057394465f31a net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
-61daaba936aea218be6d526991a7ab3c8039dd25 net: phy: micrel: Fix detection of ksz87xx switch
-08c8843f9cceba277911f29b8d58c2bbf4572669 net: natsemi: Fix missing pci_disable_device() in probe and remove
-921499730d3fa739924923aae768f4bf9f874954 gpio: tqmx86: really make IRQ optional
-05fa8d02004df36d925504cfccc89f8792d76e98 RDMA/mlx5: Delay emptying a cache entry when a new MR is added to it recently
-891074b320f77c128f0b7a2d964e4150d48fe864 sctp: move the active_key update after sh_keys is added
-ef236854cb5b98bc4cc5b908fa9ab2d5e028b72b nfp: update ethtool reporting of pauseframe control
-698ef6db13101db2e9f1ae1772fb5d5dbbae50cc net: ipv6: fix returned variable type in ip6_skb_dst_mtu
-1c0bdb70ba5bcf5cef9adfabdbc46e20d272dcb7 net: dsa: qca: ar9331: reorder MDIO write sequence
-cb9eeaca56fd0ef24b9abe9adff1262e32fa9974 net: sched: fix lockdep_set_class() typo error for sch->seqlock
-ef73ceaeb66cfef13723a61b0799f64d4e9ba5c6 MIPS: check return value of pgtable_pmd_page_ctor
-29e845376d6b505a2a12236bcaf9e27011790236 mips: Fix non-POSIX regexp
-b2ffdee5067e3670f3b6df33cca9346ec09cb9e5 bnx2x: fix an error code in bnx2x_nic_load()
-559c5f721e55e0b46e8c1cf2e497d0a062880eba net: pegasus: fix uninit-value in get_interrupt_interval
-75730c750ba20a4fed3d6928de6af67243466864 net: fec: fix use-after-free in fec_drv_remove
-e196ba6119b7a001cc420fdaf099e72399a0da93 net: vxge: fix use-after-free in vxge_device_unregister
-7d18ef31a1878328282aa105a2d844b713dc8469 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
-6781505fcc0c7591bf86017e190c2db6aa1d762b Bluetooth: defer cleanup of resources in hci_unregister_dev()
+c1b008f63ad576790b31f59b80edad9934a441ce Revert "ACPICA: Fix memory leak caused by _CID repair function"
+d26cc3eb72d9827017c52e6b95c1483250027fc5 ALSA: seq: Fix racy deletion of subscriber
+d9eb6762f23a6934b0accac3c8914c15ac63844a bus: ti-sysc: Fix gpt12 system timer issue with reserved status
+8518cececbe41170743a1bb767e7a08e383d0b10 net: xfrm: fix memory leak in xfrm_user_rcv_msg
+d33161f38d7b68f5ff728c08c868167fc850a606 arm64: dts: ls1028a: fix node name for the sysclk
+db3657567dfea9b1e4b4b48a8b68db68b7799141 ARM: imx: add missing iounmap()
+b13ccf35ff5cb538bd32552e99b592337b48468b ARM: imx: add missing clk_disable_unprepare()
+d49d03ad4733cacf8249ec2bd20e27637de33f83 ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
+236b93741403a7d7d6b63a53aaeabcc4cdc8d5a0 arm64: dts: ls1028: sl28: fix networking for variant 2
+bf4679038e1d1688c113e08713a51788c7a0eedc ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
+990388616772f08416a75156c9a5dbec4fec4c35 ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+e39f8e5c2a7725c1fa56f4a63dc0e7149da5db55 ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
+cffa307d4f92c55657891d617473c63b57eaa8eb arm64: dts: armada-3720-turris-mox: fixed indices for the SDHC controllers
+8b809c3159b94fe80d3dd09deeaa02db5e2c575d arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
+ce6c43c18c920ae164267a26b6284d3e7d668f7f ALSA: usb-audio: fix incorrect clock source setting
+c1574ad64d24657382c542d3842eebcd705d1277 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+6f60c47937593a523986296a436ec4ab11c11d69 ARM: dts: am437x-l4: fix typo in can@0 node
+2ead3dedfe0bfe6bb39cead380d8ff2e735c6659 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
+724d5ababacabc6a489a51a9de3f9a443e48e657 dmaengine: uniphier-xdmac: Use readl_poll_timeout_atomic() in atomic state
+4bfbb26ef04b03efbb81a5882f33a24659618a54 clk: tegra: Implement disable_unused() of tegra_clk_sdmmc_mux_ops
+50f71989e2fe4c9fb941b82b28f48661fa4418ac dmaengine: stm32-dma: Fix PM usage counter imbalance in stm32 dma ops
+a1a035f0c331d6b8746561a8b5f751dbb5ce1ec3 dmaengine: stm32-dmamux: Fix PM usage counter unbalance in stm32 dmamux ops
+5348ed94d3924acdbbe9e1f88115b6e65dd8a9e6 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
+acf912476b6bd4b798120ca7b6950ed3829c784c spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
+70caecb3d8ba644d72635d1dc1de4af691f2bbab scsi: sr: Return correct event when media event code is 3
+e39953b10fa360c4fb2b959b531243a47a86ea1c media: videobuf2-core: dequeue if start_streaming fails
+d23818821ef949edab92eb0b7c9df456ddde5b4f ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
+6c205e553346c29abe019c0d79a01c20d15ca4ed ARM: dts: stm32: Fix touchscreen IRQ line assignment on DHCOM
+89e7a6b5d2def8ace112583c4deac7345665c028 dmaengine: imx-dma: configure the generic DMA type to make it work
+b425db0bfeb35cc17ba26cb04761a0fb97c86824 net, gro: Set inner transport header offset in tcp/udp GRO hook
+41fd0747e2d3898c8cdabe8ec8f9cba0b0523203 net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
+c280e375a24342ee9337e4d62013dbe895505768 net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
+894547d12af0b3e88b122a10f3e3d6f08e2b51c3 net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
+173e26e8c0425f390a15074dd89dfb07776cd048 net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
+55eff027a586146b2777b0213e7c52763e9b0bbf net: phy: micrel: Fix detection of ksz87xx switch
+8213ef8c69c0bd261e75d505cbe433288cd27c29 net: natsemi: Fix missing pci_disable_device() in probe and remove
+284685a548bbc36ed8ec6aa1b0c4e497c7748386 gpio: tqmx86: really make IRQ optional
+4b7b3e0fbcb112ccdcafad7152725f935f271281 RDMA/mlx5: Delay emptying a cache entry when a new MR is added to it recently
+de4f3ad56f9551251a587d9d14e79f86c5e599ce sctp: move the active_key update after sh_keys is added
+01714a6bedfc7f9a1db4768c7c26fe38c7799164 nfp: update ethtool reporting of pauseframe control
+6ad94b61162be565da13bb02a4fdc301b1c4f78c net: ipv6: fix returned variable type in ip6_skb_dst_mtu
+6e8b3fee35be1a4d6c8d3d3b2da1e231483c4ef7 net: dsa: qca: ar9331: reorder MDIO write sequence
+5e53654e4d705c7b2a9f62bb84f06112bf866943 net: sched: fix lockdep_set_class() typo error for sch->seqlock
+f294c8a8ba0302b92b051590fa5f5446f1a8d6be MIPS: check return value of pgtable_pmd_page_ctor
+b3236f79cfc199bec162c2f8853bc2f5f022bd4f mips: Fix non-POSIX regexp
+eeb5f0dd25bec3ba79f6c73a4ec4b20ad2498fd4 bnx2x: fix an error code in bnx2x_nic_load()
+b94792942374d07cb2334cc718e6cd57ef1cb09c net: pegasus: fix uninit-value in get_interrupt_interval
+583ed7962c4207c2ec0ddb39c98d41eec3c3dcdb net: fec: fix use-after-free in fec_drv_remove
+4ff2a7525e261b500db87b6714ca180f95ec5016 net: vxge: fix use-after-free in vxge_device_unregister
+7ddd3812190d95c4c5dcbbfbf9137bcf63acea53 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
+89cc940f3a5684cb839fffb772fa05e5c4331a03 Bluetooth: defer cleanup of resources in hci_unregister_dev()
+b8d929b2c251490b429493ab1e2f9e8366d954d6 USB: usbtmc: Fix RCU stall warning
+52d43efc5c6d4472a2d75503e151b24761bef200 USB: serial: option: add Telit FD980 composition 0x1056
+64ba8c0cf07f783421a0f0e8b80dca42c78482d9 USB: serial: ch341: fix character loss at high transfer rates
+b88b065f03aecb33de8c5b0575c28ae2bfc8f442 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+259df1d12fac96485ff10e389c6fcdd56a36a3d1 firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
+efb326aa895d3d032e26e01c9735442a878e4d11 firmware_loader: fix use-after-free in firmware_fallback_sysfs
+0093c32436328f7714afd4386d1bb75f08e204ad drm/amdgpu/display: fix DMUB firmware version info
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10ea5227ab25-41383e95ffc2.txt
+Content-Disposition: attachment; filename=revlist-41383e95ffc2-17897c29c187.txt
 
-df34c2741cb722d9e0b77bd3eb6a55fccf864fce Revert "ACPICA: Fix memory leak caused by _CID repair function"
-b159663b74f5239879b373b3cf0b59ae95ad0e6b ALSA: seq: Fix racy deletion of subscriber
-d99235df9093fa6054767c48d945cbf360c82537 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
-10be48af1b20fd894488f60dd6ecc0fa27c6a993 net: xfrm: fix memory leak in xfrm_user_rcv_msg
-5f14b40da72d1538a73eea506dc84c94edec0c27 arm64: dts: ls1028a: fix node name for the sysclk
-745114953eded8cb869348e3ef8519f0e8abf96f dmaengine: idxd: fix array index when int_handles are being used
-f227fea2cb42432be086524ab6964919d079ad19 dmaengine: idxd: fix setup sequence for MSIXPERM table
-438789e9db4f2fe60eb45c08bc068d981120e579 ARM: imx: add missing iounmap()
-08d1b0f33a159065fffbc3705882de8c398d6859 ARM: imx: add missing clk_disable_unprepare()
-f66a65ca8b22bc19d860052c55e4efc95c0cd84b ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
-87deb710d0f87df40821bf2c813d20358bf9f0d9 Revert "soc: imx8m: change to use platform driver"
-8416634e9682f0d1aec1a8ee7d2041cd2134971e dmaengine: idxd: fix desc->vector that isn't being updated
-afdb0d7afc118d399de6039cb8982c908fb123a6 dmaengine: idxd: fix sequence for pci driver remove() and shutdown()
-a2a18dcdb51e0e8ff86b5a316c025adc5339c059 dmaengine: idxd: fix submission race window
-eda822b235a7505198b0622322ed426b17e3591d arm64: dts: ls1028: sl28: fix networking for variant 2
-c4746fe8114c3d5d8281d5e89e43b48d24f657cd ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
-66bcd6fd7ce0ea3fe43b3263400a13393c1b23de ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
-d92cdd1b8f067162f4dfe47cce24017d264576a1 ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
-bcf13352e52cce4767e84de1d34f87190330a8d0 arm64: dts: armada-3720-turris-mox: fixed indices for the SDHC controllers
-60df764edc1afc3c48ae4903891a411b128d4bb6 ext4: fix potential uninitialized access to retval in kmmpd
-683c7e60edf349d964f3ae7b086551bd6e6e7ff9 arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
-5aa0aa9ddd6b71b84235a502e9eeb463d068140b ALSA: usb-audio: fix incorrect clock source setting
-18f8947b711825f9db9d5f397156f23ff97bc2e1 riscv: stacktrace: Fix NULL pointer dereference
-e07abcd6d0cd0960ef30b99a990a76b288b6d5de clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-429326a28ea0c0730de69f0267527e87c020d16b ARM: dts: am437x-l4: fix typo in can@0 node
-2ce37ed5475dd2c28502171919d896aae35847a9 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-274ab359dff02140908b0baad1e8730a69eca645 dmaengine: uniphier-xdmac: Use readl_poll_timeout_atomic() in atomic state
-cced515714319a108cb15a76fc5bb3ac6902a937 clk: tegra: Implement disable_unused() of tegra_clk_sdmmc_mux_ops
-ebab034c3f7b48dedc055fec7ecd55bfdb955be1 dmaengine: stm32-dma: Fix PM usage counter imbalance in stm32 dma ops
-ba965a2d8010d6ca0a0d6358a0307bfe90b60e65 dmaengine: stm32-dmamux: Fix PM usage counter unbalance in stm32 dmamux ops
-503d52e2c34894847ac8f42fe0e1166a507156f0 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
-53b79252437e57b106eeab6d5bea2ce7963be99e spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
-69d81a8676efe82d72652b8cc998d1cf11243cec drm/kmb: Enable LCD DMA for low TVDDCV
-84afe1cd71c36bc6bfd4e16360b96867f5611dc1 scsi: sr: Return correct event when media event code is 3
-67076ea4f1f540f6dfb9fdc209c9b213cc7a7d9d media: videobuf2-core: dequeue if start_streaming fails
-3f508a19ac8e1333581a259774aaec09fd666477 ARM: dts: stm32: Prefer HW RTC on DHCOM SoM
-a08fda27fbd33b4ad075872e3d07d0f52d1d85de ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
-90e3b2f047196643e70102e65400f55cc2200431 ARM: dts: stm32: Fix touchscreen IRQ line assignment on DHCOM
-b2b2adda66e7bda5283f4c6e0b958bf4795d0187 dmaengine: imx-dma: configure the generic DMA type to make it work
-c22ffb91060e275c76fb69ef7aa02445ab987c46 net, gro: Set inner transport header offset in tcp/udp GRO hook
-f0fa936ff3a67bc58041aff1da0918e66882ee15 net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
-a09c615a325afe9d16fd0970ee9ee1cdf049273d net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
-dc40fcdaeb1e15edf472964103c72137a3345b93 net: dsa: sja1105: ignore the FDB entry for unknown multicast when adding a new address
-12750da91820c8e5ca4d976105a9991b0e271bde net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
-91bc62364234f911a3f2f11b4c956d5fd0a06d9a net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
-925686be96790398f97b8cc11300f4594b8c30e2 net: phy: micrel: Fix detection of ksz87xx switch
-d6d225beff1228615125e167a7b1a8b4297233f0 net: natsemi: Fix missing pci_disable_device() in probe and remove
-b96f6b17b2701e8fa8c6ac92acb2523385b6cd20 gpio: tqmx86: really make IRQ optional
-f644bcac70dc255968fce31ec6b0c31c9c90a28c RDMA/mlx5: Delay emptying a cache entry when a new MR is added to it recently
-418bcab7efb29f802c95834fdbbc5e9b9407eb46 net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
-1b37e7f4ecaafd85805a310299a6535815d7de55 sctp: move the active_key update after sh_keys is added
-853fdea49afb1c2016036b8b1a0defeaa20cefcc drm/i915: Call i915_globals_exit() if pci_register_device() fails
-99179c6d8dd74faa576e442f5f1c18dceb2edf62 nfp: update ethtool reporting of pauseframe control
-dd1a1e75fcea52f28c2f6dabcb22de4f173c2d3d net: ipv6: fix returned variable type in ip6_skb_dst_mtu
-f74d7ac0f93cf6d97fa8651c7711d2de8b8cbbb0 RDMA/hns: Fix the double unlock problem of poll_sem
-ff22319eaffab62bff372d7b96eed5e528138a0c net: dsa: qca: ar9331: reorder MDIO write sequence
-5f8069341685218353c745d8e677ce7c2090e370 riscv: Disable STACKPROTECTOR_PER_TASK if GCC_PLUGIN_RANDSTRUCT is enabled
-abd5f8e55708602a5837b2ba972655a142fea7e6 net: sched: fix lockdep_set_class() typo error for sch->seqlock
-e38ceb99a0599646e6554cf6145f77d4f46c05d5 drm/i915: fix i915_globals_exit() section mismatch error
-b52b544857a9760793f81cfffe758cec09bf77c7 MIPS: check return value of pgtable_pmd_page_ctor
-b176b371b75608c0243731b78b9f28fd0fd9c6ea x86/tools/relocs: Fix non-POSIX regexp
-412f1d1590603ea8a48e5adc84e6eef10217f117 mips: Fix non-POSIX regexp
-8d267a50b4618c062f3d22177ed464700129f0c9 kbuild: cancel sub_make_done for the install target to fix DKMS
-c9c1438478f48cd02610290b906d7de8d2c94948 bnx2x: fix an error code in bnx2x_nic_load()
-afa604cafbf493954b4683e6bd090a2560089938 net: ethernet: ti: am65-cpsw: fix crash in am65_cpsw_port_offload_fwd_mark_update()
-71dba05c8716976a8a534ee375595ed8d56fc2fe net: pegasus: fix uninit-value in get_interrupt_interval
-1e944e1e0013020618459a6f497150745ae5f8e6 net: fec: fix use-after-free in fec_drv_remove
-2afbb077564ac795a2f7f5ba05ca72205a241d6c net: vxge: fix use-after-free in vxge_device_unregister
-82497fa69a9cf1eb948292015b8e8bfc5cab3a61 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
-5f1815b7b1b2a163b8cb89808152e8cf4a9e4fbc Bluetooth: defer cleanup of resources in hci_unregister_dev()
-f0b1e6dcede4b38a8452f8cbc49f12e56610e2d9 io-wq: fix no lock protection of acct->nr_worker
-41383e95ffc29fcede28b9638756a0152f858871 io-wq: fix lack of acct->nr_workers < acct->max_workers judgement
+7ddbdda5d3b69cacbcab6742f0b1fe731bc14c3b Revert "ACPICA: Fix memory leak caused by _CID repair function"
+816968f0777981d2ec99321fee82e4850c0b2cac ALSA: seq: Fix racy deletion of subscriber
+93ce2844a99189da83b789642c82139c2ff98676 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
+0a85567928bb096ced29bbd85897f0f216fb1bfe net: xfrm: fix memory leak in xfrm_user_rcv_msg
+2b4f5fb7476285a880c0bd7d337918caf63cb96c arm64: dts: ls1028a: fix node name for the sysclk
+c35cfdecbc1b43021552f2387244e5ab07207243 dmaengine: idxd: fix array index when int_handles are being used
+ae989c565dabc75e6fdf998f750e13e5a2852a30 dmaengine: idxd: fix setup sequence for MSIXPERM table
+28f0a2c183ff9302dcc9ece2e7b7dd912ca36f8f ARM: imx: add missing iounmap()
+d629c360989d2c8c52a3856a29d2e3df954fec84 ARM: imx: add missing clk_disable_unprepare()
+385ddcff9772f93647b8bff9df57fef6376bd83c ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
+6085cc85ba09aa875df0b2b3d74b9d5f7a24385c Revert "soc: imx8m: change to use platform driver"
+97a1335332fee30a2018d2915928019765263643 dmaengine: idxd: fix desc->vector that isn't being updated
+7156b902552b0b9fc6c67506c666744a8ac3fe27 dmaengine: idxd: fix sequence for pci driver remove() and shutdown()
+76ec0ff50aa9b575f3ac9872650e8443289474ef dmaengine: idxd: fix submission race window
+dfe2af12ec356b7ab36cf8be16e9b59d405cdb75 arm64: dts: ls1028: sl28: fix networking for variant 2
+591483390ca42d7a5bf9becdbaf6fb3be2e3ea2b ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
+3c95f03cf4f82e90202f1bfd90d9bdf29e50844c ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+b9a31e6ff6da8bc9196b691e4d5289eb66479d43 ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
+6011096a13f18b21a72a0d3ed2f29bee9bdfda6e arm64: dts: armada-3720-turris-mox: fixed indices for the SDHC controllers
+e123d18737ff572000e629b052749d138a03facd ext4: fix potential uninitialized access to retval in kmmpd
+e9d5803b86bf279ac38cda99ce1bb3d95034694d arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
+0e8cc1fa67aa017f423905863847a5e318232da0 ALSA: usb-audio: fix incorrect clock source setting
+683a0068f9f957bfa3da0e850f329cd193f6c593 riscv: stacktrace: Fix NULL pointer dereference
+0a4356ce1042c65b7a08c28a5148afb6f52c3ad2 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+7249ed7f69e7949b8f90469fcba37dc4e1ce0396 ARM: dts: am437x-l4: fix typo in can@0 node
+ae9d051bcc815d277f5efc044cdb679eaea5b25c omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
+02d5e0af8e905b8db439cb2109b27184d80e1f8b dmaengine: uniphier-xdmac: Use readl_poll_timeout_atomic() in atomic state
+01d420d9c3cf26abeae7b78dfeddd3bd2bccd47d clk: tegra: Implement disable_unused() of tegra_clk_sdmmc_mux_ops
+4a308f1e295c25fb2ddf3335c83ce29f1ebcc70f dmaengine: stm32-dma: Fix PM usage counter imbalance in stm32 dma ops
+617eb8036abd04cb92cb4e213649fd11fcae7951 dmaengine: stm32-dmamux: Fix PM usage counter unbalance in stm32 dmamux ops
+4505c4b7702e0c6b9b1cc5e5f7192126a3aee8d8 spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
+c12d7bea9c60a3f28eb9ce0cb8264756c4ec8039 spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
+0a7ca5b1fbeae420503299a5952d0c691c938829 drm/kmb: Enable LCD DMA for low TVDDCV
+4bc5a62de27b0439a2b6987466baff73eea13063 scsi: sr: Return correct event when media event code is 3
+cf23ad5a2d3247bbce96d0c9efc68e2b32f24877 media: videobuf2-core: dequeue if start_streaming fails
+bd0170549d69f9948904c1c796355542fe79d5a9 ARM: dts: stm32: Prefer HW RTC on DHCOM SoM
+efa6406d4bbb43edb40bdb71c9031d45ca24f8c1 ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
+511982c447d4b580064f55d748c026def7db68e1 ARM: dts: stm32: Fix touchscreen IRQ line assignment on DHCOM
+35dba272989aa0ecbf6ffe93c2035663856550a9 dmaengine: imx-dma: configure the generic DMA type to make it work
+44569b7d3eb16e1f28fe2e74890995111eb75765 net, gro: Set inner transport header offset in tcp/udp GRO hook
+158c0ed71d3d4c1822ccdce18a3078d0831127a7 net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
+639c50f4afe2dafd9bb966c0f6c6622f5c6da740 net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
+4ba828d17800acd013f6af7c214669c6286bfb1f net: dsa: sja1105: ignore the FDB entry for unknown multicast when adding a new address
+80f6652f5c7d98f99359cf00530bd059d9f98bdb net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
+10dd88103a95db713d6b332a8d106d0f0642cedc net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
+1902e50e21caa7d6466c081a8c145b9773ac4160 net: phy: micrel: Fix detection of ksz87xx switch
+51009b770a54234e905fb5b5ab72673eb2333470 net: natsemi: Fix missing pci_disable_device() in probe and remove
+fa238e954e7338efa08d5d0cc0aee7cd09e49c38 gpio: tqmx86: really make IRQ optional
+eb57327340ca527a384ea3d37515b640facb7828 RDMA/mlx5: Delay emptying a cache entry when a new MR is added to it recently
+8032bd03769a66fc8d62bce4b8fdc18469ef421d net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
+6c7d8a9590001a1e846d955e322d2c64871c69a4 sctp: move the active_key update after sh_keys is added
+53c5122e4eb4b6c03126cf3a6dacdfb2a76b76d3 drm/i915: Call i915_globals_exit() if pci_register_device() fails
+700ffd56085fe96b74df6a1f00175e293efe8544 nfp: update ethtool reporting of pauseframe control
+2b1448f51c5ab99b18ae4c67a6095c86aa18aa1b net: ipv6: fix returned variable type in ip6_skb_dst_mtu
+e1982f31e0af551247a35e93feb6d4512e646284 RDMA/hns: Fix the double unlock problem of poll_sem
+a5afe56bf41835c09074258bf8e1508852ea73e4 net: dsa: qca: ar9331: reorder MDIO write sequence
+4811f13606a72386d4fd68858636b7e408b6b1df riscv: Disable STACKPROTECTOR_PER_TASK if GCC_PLUGIN_RANDSTRUCT is enabled
+6455628e0c08e8ba29c6201144a94ec769acde99 net: sched: fix lockdep_set_class() typo error for sch->seqlock
+7147afc01eefc2c209d7ff35d4210fb04411a21b drm/i915: fix i915_globals_exit() section mismatch error
+e0b72080139874c0ee4b0c81553ad4060391aee8 MIPS: check return value of pgtable_pmd_page_ctor
+a74befae09e2236260354b1a4e374dfa10b1638a x86/tools/relocs: Fix non-POSIX regexp
+b05f5d470774ce243e44aeaee5de630d102398f5 mips: Fix non-POSIX regexp
+a4341e21c2473b72e747cc1737643d26ceca27ef kbuild: cancel sub_make_done for the install target to fix DKMS
+5e885efb6f7b299948d14f1510d6c3bdd892d062 bnx2x: fix an error code in bnx2x_nic_load()
+0aa73aa1c886d93917f3950a2af0632104d0f718 net: ethernet: ti: am65-cpsw: fix crash in am65_cpsw_port_offload_fwd_mark_update()
+c5ae5f0f09fb29f4e0402a5fa2317903e8d54c68 net: pegasus: fix uninit-value in get_interrupt_interval
+3b12b708b1cad12aec501108534d9280ebb47801 net: fec: fix use-after-free in fec_drv_remove
+99b9eb1f36257e7bb664e5ad4b1d230a63fa7a05 net: vxge: fix use-after-free in vxge_device_unregister
+2f58ef7a64765963687751222fac92dd86a993c0 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
+beecbd4472c28b4976205822c915e57881086e9e Bluetooth: defer cleanup of resources in hci_unregister_dev()
+7c732de06b959c5963c105348355aef4677cda14 io-wq: fix no lock protection of acct->nr_worker
+2d8d2f412a03f206eac62689c200e3614ff4a6a4 io-wq: fix lack of acct->nr_workers < acct->max_workers judgement
+95344a1f5ee0d40236cdaf6dd51d8b849b4691a7 USB: usbtmc: Fix RCU stall warning
+8115878c83b060772a951cd0bb796a41143141d8 USB: serial: option: add Telit FD980 composition 0x1056
+29de23930304d3769e4c3066cd2b378b5ddcf609 USB: serial: ch341: fix character loss at high transfer rates
+17a35a97a36832ee1b3a293f24ca7f91ecba78bb USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+cd6a441ffcc5b56692dcb9f6846a22c9bd2082dd USB: serial: pl2303: fix HX type detection
+81841f48463f1a6e6001bf15cf23f13491106f23 USB: serial: pl2303: fix GT type detection
+eab0f49e32f00b267c9b171f7e1635e41b406ba6 firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
+d2c1862f6626117307d8b312d875f03fe378e550 firmware_loader: fix use-after-free in firmware_fallback_sysfs
+af2457451154a82cc6ff1eeaa8db19e46ec0b93b drm/amdgpu: fix checking pmops when PM_SLEEP is not enabled
+17897c29c187f349165cd1fa9568e8df81416346 drm/amdgpu/display: fix DMUB firmware version info
 
---===============1849875370885157071==
+--===============7436342179642399784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-579764b5dc7e-26bfbfce41e7.txt
+Content-Disposition: attachment; filename=revlist-26bfbfce41e7-7daef5a5f62f.txt
 
-062a756c2eea3c9b804b20d0868a8e0f1d42e303 Revert "ACPICA: Fix memory leak caused by _CID repair function"
-8757684cdd90e738b33e9f88882f21589b8c895a ALSA: seq: Fix racy deletion of subscriber
-e95659cdef8d4e648f0ef4c6224e1b5d0daa9574 arm64: dts: ls1028a: fix node name for the sysclk
-2934decfd5717bdb7648d24eba48b30f2612a660 ARM: imx: add missing iounmap()
-d2b088c0cc88916406f8540ab4356f4c4ebd78c9 ARM: imx: add missing clk_disable_unprepare()
-9a6e77e20bb492ac5b8e7518cb3fdf59c656476b ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
-c59558313be1fbe47ea72fbb92a74821329ba7b4 ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
-366f0635b129fa41bd03282d0fef860beb4c2a27 ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
-1a6b3a352cc5b30f5fc13a5bfc7a54387832476c ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
-a0452f5a11c7653579f76cd1e65406dbd944b9d2 arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
-7905abf21b80c181d5c6a23e1c8446db3649b44e ALSA: usb-audio: fix incorrect clock source setting
-0f5417d0df4e8b4c7e4525d0280ccf1ca84be90d clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-4259cf92966b79781619e3cc66fd51da8fd41bc1 ARM: dts: am437x-l4: fix typo in can@0 node
-942cd15d54fddf87df6747b81f9b57e59ce2a16c omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-0129ccdb61085cfa38821a2a870bea4002ac2d1f spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
-63b5c92d335cd415de5fe98353b96fde2452018e spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
-e3f7b4cb17027a672e5d232045fe6d9b96541703 scsi: sr: Return correct event when media event code is 3
-b24e955d13d8c7b2e8ee878a0bad0246654e2fed media: videobuf2-core: dequeue if start_streaming fails
-85669e55354e06c6f6e98d7de57eabde0c8ab303 dmaengine: imx-dma: configure the generic DMA type to make it work
-eba532d71a9f03c277f6180b2ca9442babe98937 net, gro: Set inner transport header offset in tcp/udp GRO hook
-347bf172dfacd853f5825c13de83935eb50bf53b net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
-90fcf6cde8873dc7b07702b221fd02e6dd9fe0ad net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
-7ac0dc3f2a1562acb20c0316fab69389e4552cc9 net: phy: micrel: Fix detection of ksz87xx switch
-f2a13660256f5473ad2d19e1bf83a80d0976a62f net: natsemi: Fix missing pci_disable_device() in probe and remove
-07785c982abdf717a725bedea6075be840cad74d gpio: tqmx86: really make IRQ optional
-c2df5b30e2c0544591cb4000cfa745c37efa0cdc sctp: move the active_key update after sh_keys is added
-7c23ecb67aac763ce2150dc063dda2fd03c93338 nfp: update ethtool reporting of pauseframe control
-dfc0415d67832c3d5fc7bdbe97173c9d14d9e208 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
-bf184f65c2059936ea0019a4dfb448b738e3acf1 mips: Fix non-POSIX regexp
-cc79f49133e769f41fa0c9b14815800ddfece64f bnx2x: fix an error code in bnx2x_nic_load()
-85df64a4652dac140209834bb8d285d25d5ad8d9 net: pegasus: fix uninit-value in get_interrupt_interval
-77b510f03e7166a1c25ccc578b60301ad0b48159 net: fec: fix use-after-free in fec_drv_remove
-11b4dfc881097060e8307a0ab11aa6d2810e756e net: vxge: fix use-after-free in vxge_device_unregister
-bf9d3ac3758dbe8cebd2fb2c316fce438a3de251 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
-26bfbfce41e75325fc3567402b08e66e98348ebe Bluetooth: defer cleanup of resources in hci_unregister_dev()
+6f7b9cae16a8265239135305ab498a05877df137 Revert "ACPICA: Fix memory leak caused by _CID repair function"
+db85fd8cb8381b6ed33ee7f52ad83d9c57bafc14 ALSA: seq: Fix racy deletion of subscriber
+467c192899447335a29dde78d2063afa693ae883 arm64: dts: ls1028a: fix node name for the sysclk
+0ed1f8838ca0033a750f618431d2600743c5ee11 ARM: imx: add missing iounmap()
+4e065e5ec388f91ce748ec501944d77c47061eba ARM: imx: add missing clk_disable_unprepare()
+0403a1bd643209aeabea488ef61c122049eb1133 ARM: dts: imx6qdl-sr-som: Increase the PHY reset duration to 10ms
+7e47bd1f3293fb8129a2b2507a6d1bebc17120f8 ARM: dts: colibri-imx6ull: limit SDIO clock to 25MHz
+2cc3a07fdb176ea33a91bef7d1b0e8737448f68d ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+4c9dda1772ccae98753c489249b881c681cc297d ARM: dts: imx: Swap M53Menlo pinctrl_power_button/pinctrl_power_out pins
+518c50868bf12d802a5b2caddeb73d5a9a5038cc arm64: dts: armada-3720-turris-mox: remove mrvl,i2c-fast-mode
+0061a3acd076a1f3e9d2c97969d2730df8354dd1 ALSA: usb-audio: fix incorrect clock source setting
+39745904a5ce29b3960c6f7a6eaacb02f35cb061 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+51b6aa21f01d0c0dce468348150a68e8168200af ARM: dts: am437x-l4: fix typo in can@0 node
+bc294843511b1eff7579f0b7b638065b9515c4f1 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
+42c36f957949e10c69ed68eafddfaa7da1a0227e spi: imx: mx51-ecspi: Reinstate low-speed CONFIGREG delay
+227f1745afa378403d48f9e099593ac99a30e7c7 spi: imx: mx51-ecspi: Fix low-speed CONFIGREG delay calculation
+0bc825e9075b3ec041b4e64959f6c601f43286fe scsi: sr: Return correct event when media event code is 3
+1a18ef739bbeabfc4b731f9df27b96d7bc142450 media: videobuf2-core: dequeue if start_streaming fails
+a8252939f59fde050c9c88ce69fb6e0c742af12e dmaengine: imx-dma: configure the generic DMA type to make it work
+320586382ae890c056e8ff0da8b03a323ed93d1b net, gro: Set inner transport header offset in tcp/udp GRO hook
+74d84b66e21be506de40fb0f629270304e3a3cc2 net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
+4e70a10bad3f1a2aac52b010442ce99f0f870b72 net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
+7480cbb58daaef895790294d7f6fc79cd77b0b0b net: phy: micrel: Fix detection of ksz87xx switch
+99a06258b6b0f9709c079a55907bdbe637f08d43 net: natsemi: Fix missing pci_disable_device() in probe and remove
+a0d0a7f1f0e8be349a62d3f28f6bfd47f9480e3f gpio: tqmx86: really make IRQ optional
+dc8b82f4f4294164e39c38ff31f103326f9f30b1 sctp: move the active_key update after sh_keys is added
+529ce0706001d07b410b42b89c6674b0561609d0 nfp: update ethtool reporting of pauseframe control
+afed33bbf56f3ce39a06c18fa17ea491ecd7ab24 net: ipv6: fix returned variable type in ip6_skb_dst_mtu
+f38d7f02ecd62550e7a4614f995ee57ba3cef2ac mips: Fix non-POSIX regexp
+88f618ba5feed2bae14505405df07d8ebb1226e3 bnx2x: fix an error code in bnx2x_nic_load()
+648fcb145b7a890207704aa48c017a34c2968d93 net: pegasus: fix uninit-value in get_interrupt_interval
+45b741551f21e15f7c318876db430ac433d21fb0 net: fec: fix use-after-free in fec_drv_remove
+3c0e88df49c5bc16abf2103ab4c6a7522da465d0 net: vxge: fix use-after-free in vxge_device_unregister
+dc5348507892e5a2f44cdb86e4e474f64692cd73 blk-iolatency: error out if blk_get_queue() failed in iolatency_set_limit()
+b846c08ff06daf20f813f9a3c89990c3f8b76f46 Bluetooth: defer cleanup of resources in hci_unregister_dev()
+04b0d7a14d32126c6547387933bfe7e6182c718d USB: usbtmc: Fix RCU stall warning
+c31fcfa7ac5b12b0fa1754c94b425b5209e7e1d0 USB: serial: option: add Telit FD980 composition 0x1056
+496ef3d74ca3b76fadd2ad481a5ba2ddc535cef6 USB: serial: ch341: fix character loss at high transfer rates
+fff5eabf13a4dcaafe683c4423e1fbecb9ee5e57 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+9159c57a853489e6bb181e37ae7739898609a280 firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
+7daef5a5f62f07e2f02d6cba63e295f7bea091fb firmware_loader: fix use-after-free in firmware_fallback_sysfs
 
---===============1849875370885157071==--
+--===============7436342179642399784==--
