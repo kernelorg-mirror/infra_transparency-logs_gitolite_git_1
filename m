@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9052651134982720042=="
+Content-Type: multipart/mixed; boundary="===============0973317830714264802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 09 Aug 2021 06:53:29 -0000
-Message-Id: <162849200983.25030.18081834630384147728@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 06:53:37 -0000
+Message-Id: <162849201738.25118.15191392079211335840@gitolite.kernel.org>
 
---===============9052651134982720042==
+--===============0973317830714264802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 341abd693d10e5f337a51f140ae3e7a1ae0febf6
-    new: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
-    log: revlist-341abd693d10-36a21d51725a.txt
+  - ref: refs/heads/tty-next
+    old: 1fe0e1fa3209ad8e9124147775bd27b1d9f04bd4
+    new: 15e580283f2654b3455970c404ae363197aa176d
+    log: revlist-1fe0e1fa3209-15e580283f26.txt
 
---===============9052651134982720042==
+--===============0973317830714264802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492008 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492014 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1628492008-451f71173b21fcd89aac5131085c75a8fa200d1d
+nonce 1628492013-d2fc2a479b01c85e2f1aca43785c68616c9d9cf8
 
-341abd693d10e5f337a51f140ae3e7a1ae0febf6 36a21d51725af2ce0700c6ebcb6b9594aac658a6 refs/heads/tty-linus
+1fe0e1fa3209ad8e9124147775bd27b1d9f04bd4 15e580283f2654b3455970c404ae363197aa176d refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ0OgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CUYP/i8dTJFhf4HX9wISwMZh
-ww77Whc0kQoeP3xK2mgNnj1YcNMc/pR7eQpV246JawBTANVQzmKpRhA85WbozNL6
-gABnPXfYKYXHfEPnK8LrKMxsz09rVADCcSl58Goq2AfFXIeEDJY3BRjGXEUtrqMD
-lNnSRmxuMDRdQ9+Dv2L4PgnOTU2TQLqKMeeq9+iQHJvd8WtM7lrhoTcwH7t14DrI
-LsIQp22ky6rpAh7gqPufqUk+iPGrLimqUVrvCr4lBFIxFDc2ZsuKgDbxKKJTD0oO
-6Q7u3J6iBRIuFa4359AAJijBMltjgRVfe1f3Y4GrlGGu9tskIwAUUe5xLPIBPWYY
-Ry0ipJfCDxI+w9ttNgxwL5L14s47jGgwZeUag2bC61SU51HRKtMH1267f1N45XSC
-/NBVULEksQ8DyVcLG390pvLGEOv632+rRhkwh3Ej+vBcnp86II5Z0pDWpJj0qUAR
-aYOJvhhfkWe89vXLgqp8eklUfWeovmWpO+csnHuIXF8YWLmMTgeJe8FAa1sC2ALO
-gqSqVjzV2tAaJFUX0a7l8BvqsHc/N6vXbSns8GGa8Qm8jZPZCJG5hrrzETVgn6d6
-L23JieS3F4Wr78gj5r+jU8YsH2hP6E21LLjVi3N/XNlAJB1EH5aTyW5yRtQMmNI4
-fjHSLJ/439qpwZzNikLtfTia
-=/+cx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ0O4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tDQQAJPizFykdjqwJ2JIsAO9
+8VzdAXp4kIwyeA+qPnsXiJyzZihYT3BT6+LGPhGj4X3GON0xl+Is4oWoP+3m6B2i
+z8auhqLuN8/wetpgyc7EAkAWtItQYxxqrjOOaCiSPccTqVh8SmgW3EDbOpQWViLr
+DqBtT06bvV4njPxp9l6rlEiTSLkYpvc3mc2M09iCwR8LWv/DGa3Q/tlKcyROx93S
+RxaIF99a+aNEd9l8jsuws4lpVL0cZWrI+p5RJZw9tlIGyOJT6U07sgBDwRjHFWPl
++v228I/sE+pO9n/spaFWdHYnDV2A78I2/8Ri1tjrpTVyoPXwi7W31+QHpcoqEA7M
+r7A3ZPNQog5l0jy70GJJP6QLGcO6voiQKPQcVjtvyoDxmIs+BFnv33nDgQFEDcro
+xKGRM5s6pnVf952ZBsOnrK+/eNp/xNiRF8YpyhQJP5gV/tQsWtu4/HgdHecl9v+u
+GIHi0KdNeFyHsQLpTCD/1zmcpqx0BtSZTFsdt/+rZnXkSfBmICAcEA9tHgxiycEa
+sTSB8njoop/GRs5hCFNGFQMGOH2DXEcmmLwDCM0Cn1tFBchCnKtEbbzzIPHvn27G
+4t8LCgwV8J6VQP3acCLu1dfGQWoG1dBVwV1RIKZq1NyHNVIxB1U7vJpHKkihUYSy
+/SIUMLpL+4b0t6CFXVdIOd15
+=sh9a
 -----END PGP SIGNATURE-----
 
---===============9052651134982720042==
+--===============0973317830714264802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-341abd693d10-36a21d51725a.txt
+Content-Disposition: attachment; filename=revlist-1fe0e1fa3209-15e580283f26.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 33c8516841ea4fa12fdb8961711bf95095c607ee ASoC: Intel: boards: fix xrun issue on platform with max98373
@@ -332,6 +332,12 @@ f3a1a937f7b240be623d989c8553a6d01465d04f Revert "USB: quirks: ignore remote wake
 990e4ad3ddcb72216caeddd6e62c5f45a21e8121 staging: rtl8723bs: Fix a resource leak in sd_int_dpc
 a7c3acca53801e10a77ede6b759a73f5ac4bc261 arm64: smccc: Save lr before calling __arm_smccc_sve_check()
 d8a719059b9dc963aa190598778ac804ff3e6a87 Revert "mm/pgtable: add stubs for {pmd/pub}_{set/clear}_huge"
+61acabaae5ba58b3c32e6e90d24c2c0827fd27a8 serial: max310x: Unprepare and disable clock in error path
+e5227c51090e165db4b48dcaa300605bfced7014 serial: 8250: Mask out floating 16/32-bit bus bits
+9a936d6c3d3d6c33ecbadf72dccdb567b5cd3c72 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
+cc9ca4d95846cbbece48d9cd385550f8fba6a3c1 serial: tegra: Only print FIFO error message when an error occurs
+853a9ae29e978d37f5dfa72622a68c9ae3d7fa89 serial: 8250: fix handle_irq locking
+7f0909db761535aefafa77031062603a71557267 serial: 8250_pci: Enumerate Elkhart Lake UARTs via dedicated driver
 2dbd9c27eda5cf83aa990266a3355960d860da71 drm/ttm: add missing NULL checks
 56f6f4c4eb2a710ec8878dd9373d3d2b2eb75f5c bus: mhi: pci_generic: Apply no-op for wake using sideband wake boolean
 546362a9ef2ef40b57c6605f14e88ced507f8dd0 bus: mhi: core: Validate channel ID when processing command completions
@@ -728,6 +734,8 @@ db8d3a21275c807a4047a21bde3b57d49ca55d82 HID: ft260: fix device removal due to U
 3c18e9baee0ef97510dcda78c82285f52626764b USB: serial: ch341: fix character loss at high transfer rates
 333cf507465fbebb3727f5b53e77538467df312a powerpc/pseries: Fix regression while building external modules
 a88603f4b92ecef9e2359e40bcb99ad399d85dd7 powerpc/vdso: Don't use r30 to avoid breaking Go lang
+06e91df16f3e1ca1a1886968fb22d4258f3b6b6f tty: serial: fsl_lpuart: fix the wrong return value in lpuart32_get_mctrl
+7c4a509d3815a260c423c0633bd73695250ac26d serial: 8250_mtk: fix uart corruption issue when rx power off
 0d6434e10b5377a006f6dd995c8fc5e2d82acddc firmware_loader: use -ETIMEDOUT instead of -EAGAIN in fw_load_sysfs_fallback
 75d95e2e39b27f733f21e6668af1c9893a97de5e firmware_loader: fix use-after-free in firmware_fallback_sysfs
 b1e27239b9169f07edba0ca0e52805645a1768ba xfs: flush data dev on external log write
@@ -768,6 +776,7 @@ fe911792eae32f03d27d8f3de2f0271862d435ac media: Revert "media: rtl28xxu: fix zer
 76f22c93b209c811bd489950f17f8839adb31901 media: rtl28xxu: fix zero-length control request
 c592b46907adbeb81243f7eb7a468c36692658b8 media: videobuf2-core: dequeue if start_streaming fails
 f1de1c7803595e937ce9b922807f499851225021 media: atmel: fix build when ISC=m and XISC=y
+341abd693d10e5f337a51f140ae3e7a1ae0febf6 serial: 8250_pci: Avoid irq sharing for MSI(-X) interrupts.
 fa7a549d321a4189677b0cea86e58d9db7977f7b KVM: x86: accept userspace interrupt only if no event is injected
 3a0670824979a986a2314c921aa092e60730eeae ARM: dts: stm32: Prefer HW RTC on DHCOM SoM
 36862c1ebc92a7e6fcc55002965c44b8ad17d4ca ARM: dts: stm32: Disable LAN8710 EDPD on DHCOM
@@ -993,5 +1002,6 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
+15e580283f2654b3455970c404ae363197aa176d Merge 5.14-rc5 into tty-next
 
---===============9052651134982720042==--
+--===============0973317830714264802==--
