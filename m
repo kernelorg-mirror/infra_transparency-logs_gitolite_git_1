@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3373083383669690882=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 09 Aug 2021 15:17:07 -0000
-Message-Id: <162852222791.3635.14208201427300047011@gitolite.kernel.org>
-
---===============3373083383669690882==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 09 Aug 2021 15:21:56 -0000
+Message-Id: <162852251656.8005.5840955627088188220@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 0f3012dd0a92a0cd3c02d3d5fa83f4894b6849b0
-    new: 228fcbc2e6e4be245b15035aa58b2c39147666ea
+  - ref: refs/heads/mem-ctrl-next
+    old: e460a86aab669e00c5952a7643665f3096fbfe27
+    new: c28b584deb1bc81f8a2454b43c82cdda17ed29f6
     log: |
-         228fcbc2e6e4be245b15035aa58b2c39147666ea Update 2DFBF4523E542FD9 (Will Deacon)
+         eaf89f1cd38cf7256ab64424fe94014632044d57 memory: tegra: fix unused-function warning
+         10dd9a8a5f7ec6799fc48548623b4fa58dc000bf Merge branch 'for-v5.15/tegra-mc' into for-next
+         0f78964b523fe9920deae3455324060356ae53d0 memory: omap-gpmc: Clear GPMC_CS_CONFIG7 register on restore if unused
+         77ed5e9dec551765bde9f2e4b7ed9071ff03d61d memory: omap-gpmc: Drop custom PM calls with cpu_pm notifier
+         c28b584deb1bc81f8a2454b43c82cdda17ed29f6 Merge branch 'for-v5.15/omap-gpmc' into for-next
          
-
---===============3373083383669690882==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1628522227 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1628522227-1efa95bcfb1de5f9f288c547ab687c3c38629e6b
-
-0f3012dd0a92a0cd3c02d3d5fa83f4894b6849b0 228fcbc2e6e4be245b15035aa58b2c39147666ea refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYRFG8wAKCRC2xBzjVmSZ
-bHctAP9QSOxl7DbPXheq502uChnStTWsSbwoppsWRxGVAd7gcQD/X4QawPQo34uj
-sBLekX1lUP8cYEos4YnKsXQWWd/FcAE=
-=XNVn
------END PGP SIGNATURE-----
-
---===============3373083383669690882==--
