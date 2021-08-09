@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 09 Aug 2021 19:23:37 -0000
-Message-Id: <162853701763.6691.11473310339013495086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 09 Aug 2021 19:33:28 -0000
+Message-Id: <162853760868.12810.2581223476264977140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/testing
-    old: 3304d2b69a36996fb9bf708310de5cd76a04c09e
-    new: 94a853eca720ac9e385e59f27e859b4a01123f58
+  - ref: refs/heads/tmp.perf/core
+    old: 46f815323b5a8f0e7156f50ea87c354424210e97
+    new: 9c38b671ebd5297d861522806e09cf9e639d0af6
     log: |
-         94a853eca720ac9e385e59f27e859b4a01123f58 counter: 104-quad-8: Describe member 'lock' in 'quad8'
+         b6ac16eed3080169b674bf6e960bd2d272dd1cd3 perf vendor events: Add metrics for Icelake Server
+         9c38b671ebd5297d861522806e09cf9e639d0af6 perf cs-etm: Add warnings for missing DSOs
          
