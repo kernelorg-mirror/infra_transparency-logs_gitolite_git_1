@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6185317951444202051=="
+Content-Type: multipart/mixed; boundary="===============7252175740174974350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Aug 2021 12:55:15 -0000
-Message-Id: <162851371528.2511.14674172188826858999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 09 Aug 2021 12:55:40 -0000
+Message-Id: <162851374074.2772.9947940571668878960@gitolite.kernel.org>
 
---===============6185317951444202051==
+--===============7252175740174974350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: b7b9d3e8649d6f758b6ad403d660eaee955ddb0b
-    new: cfe763dcbd727419b68c7a53124346b0c17fce1f
-    log: revlist-b7b9d3e8649d-cfe763dcbd72.txt
+    old: 742c28e7bb662bb7ad30037c7f7ea729e4be2b44
+    new: 25b549d69e17b24ae7fee1fdf657027c28ea0654
+    log: revlist-742c28e7bb66-25b549d69e17.txt
   - ref: refs/heads/for-next
-    old: b215d22ba05b41f8cfe1be4b4822910553b0bd07
-    new: b9a9cb6a0bc743d3171e12c1940aefc36f495653
-    log: revlist-b215d22ba05b-b9a9cb6a0bc7.txt
+    old: c4ca33f6610d7361a157017f2239a6ffda83620f
+    new: 4addb9a0c520199de865b6134a201faa6018a707
+    log: revlist-c4ca33f6610d-4addb9a0c520.txt
 
---===============6185317951444202051==
+--===============7252175740174974350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7b9d3e8649d-cfe763dcbd72.txt
+Content-Disposition: attachment; filename=revlist-742c28e7bb66-25b549d69e17.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -353,13 +353,13 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
-cfe763dcbd727419b68c7a53124346b0c17fce1f Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+25b549d69e17b24ae7fee1fdf657027c28ea0654 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
 
---===============6185317951444202051==
+--===============7252175740174974350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b215d22ba05b-b9a9cb6a0bc7.txt
+Content-Disposition: attachment; filename=revlist-c4ca33f6610d-4addb9a0c520.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -684,8 +684,8 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
-1e2c7845421b785282c098712a81556a2b8917a5 ASoC: qcom: apq8016_sbc: Add SEC_MI2S support
-cfe763dcbd727419b68c7a53124346b0c17fce1f Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-b9a9cb6a0bc743d3171e12c1940aefc36f495653 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+27fdd3bbb7a13830c05b6bf777e45c392cb00f63 regulator: sy7636a: Use the regmap directly
+25b549d69e17b24ae7fee1fdf657027c28ea0654 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+4addb9a0c520199de865b6134a201faa6018a707 Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
 
---===============6185317951444202051==--
+--===============7252175740174974350==--
