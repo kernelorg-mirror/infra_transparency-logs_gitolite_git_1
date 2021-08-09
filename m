@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7788898926922327729=="
+Content-Type: multipart/mixed; boundary="===============7230953606824285550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 09 Aug 2021 07:04:46 -0000
-Message-Id: <162849268604.990.6480538825369648724@gitolite.kernel.org>
+Date: Mon, 09 Aug 2021 07:06:51 -0000
+Message-Id: <162849281167.3204.439515588422170563@gitolite.kernel.org>
 
---===============7788898926922327729==
+--===============7230953606824285550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 96ba6c6e8922e89ca4908c650072d8f8d7b39cbc
-    new: bd935a7b21340e2e37f51a7f2d3188145e2fcf1f
-    log: revlist-96ba6c6e8922-bd935a7b2134.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 8f5f8d6b6f18b3e07731df414d605c7093b36015
+    new: bef41fa4e05e5f033d1b86869f4b4947930e68be
+    log: revlist-8f5f8d6b6f18-bef41fa4e05e.txt
 
---===============7788898926922327729==
+--===============7230953606824285550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492685 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628492807 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1628492684-5555c8d439e1a17ed2752912ded68672d33f128b
+nonce 1628492807-71b4faf53ef55d9ebaef75a40bd8e03ea2d489ff
 
-96ba6c6e8922e89ca4908c650072d8f8d7b39cbc bd935a7b21340e2e37f51a7f2d3188145e2fcf1f refs/heads/driver-core-testing
+8f5f8d6b6f18b3e07731df414d605c7093b36015 bef41fa4e05e5f033d1b86869f4b4947930e68be refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ040bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X3IQAKPeBab5U5HeFwj6GU5a
-6FVmVNwX4mFWtmYreyvJ0xi0W48d+Ce7G8c58twl+PfOfzkVUUfZEC23CV+NLowW
-yZ6USgeIf6c2+SJqIZKQbEDJtlGmbS9yZv5FZXz0zPf6UWSovbYddbmOp3rdGTgl
-2Ke0B11kqVpm47WgLbRQ4AHE52oG5X9Jem1e8AXA3xQvlQnhY2tnLX/2woJhQLIn
-GkEsr8dhUmey4Pzrpddce0qXG3jd+XOLBicBYb11ij8EP8SUIsM/GKVIzGwlNvA2
-dFXHboi7GPNY6mXzpIZ9pgs20aih6cxZd2QmV1PKrYq7VYhDuZ+WD2+YcUFhvyi9
-ejnb3v2cIHMsh36dV6H+qC7G6xncCICglqM2VveWWiUnkAZ14wn9noAYrtfL7hrL
-ZR5k2NtdFT21JMHH6tr+i6lVgmCnkimOTlmBZwvmWsbauiOzXGDHPE/OWP2hJao2
-JSM3Cbg/5zfk7uXl8I+DfCF6iDMSkNvEG0A3v3ZxgY9WiKGPyC9qUVf3jhw6Ys1t
-VH9dwqLmtX7/XhzeujWQupNpv3d39K4IcqUqG3k0RbaMHgKg/XMJI0MMhczTK5uj
-xlnZPC9A0dCFPsncqV6DjD8a50hK5BylG9VDIqRhnpzNBqpGXT0qemsrrz41a1Ph
-mdgAxkYVUOeUAbKLsDyT1sV3
-=/BZX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEQ1AcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QjMQAKq+nbbyDJFJCoIJgX6a
+R0VYQE5r1CbkdQMMGQRY/6lUwyoCjL2K+14hJCl2OwrTN2U8PrQC2W+p81+umoZ6
+pdDK2w83ZBE4iFX9lpI7sbKEDGDHYXiMhffUB0p3aIHqEZCS9ivezuv99Vmmm5j9
+d9aGzNGOxEzRcS5ygnQvUWNMAzyCdn1aTKD5f98PFolFZiGFFXp/GmPyMIqzXX7S
+YgBhRndSswK4tkC2a6vSqUy6w1MDL0vM3B0J0q7qnxcTEy/Cy9oHh/SOyMJcmBUp
+6mj2j+g4yxunCFQLGjex8VA/PzVgbBC9ymAzOyBA0T5iiOlzPtwcb1ZkMmvPZK/s
+N9phcjBqQH6Nv8X533HuUacrPqZOULPFFobwqLopaBU59V+u2jQnlUZuq5c3uP3M
+/ipoNiUqlfnSMIgcTdBCZd5CN8IgSxl5fXp9XBZ47lyqO2U2i4g0sxkWJOvzInUV
+tSpkTui+WMRRW31vc+5YTWVaQOJon5TWpLjY1HztKmgg3WowYlQKKfxVP6XUmrBm
+Fin/fLIn5Ln+VzsgSQ9bgMzvzMhffR3X2xeWjanj7HxFkXBdmxj0uJb1OdrrCE8a
+pcFL4jiOYGvSOsX+Dl4flbQSUNt+QyxN94NbpM8ZNiNR6svIxnSrmmJF6P90wknH
+BRwronEgwFz/p8KwjsfG74iE
+=7Oc3
 -----END PGP SIGNATURE-----
 
---===============7788898926922327729==
+--===============7230953606824285550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96ba6c6e8922-bd935a7b2134.txt
+Content-Disposition: attachment; filename=revlist-8f5f8d6b6f18-bef41fa4e05e.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -655,6 +655,12 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
-bd935a7b21340e2e37f51a7f2d3188145e2fcf1f Merge 5.14-rc5 into driver-core-next
+7e030ffe6d288ddf757139404b47b0da402c099f percpu: remove export of pcpu_base_addr
+0bc4bc684404cc05caf6b5135f524528e334ee72 serial: 8250_pci: make setup_port() parameters explicitly unsigned
+79a4e64ba7f37e5c129578a3ba763a86f5b8923e vt: keyboard: treat kbd_table as an array all the time.
+77ff8b2df106038e679da2af7246dbe414070aea vt: keyboard.c: make console an unsigned int
+e27d4ec750c5090c48bae354ffc3114e591d6243 mm: change fault_in_pages_* to have an unsigned size parameter
+95aa810bbd9884534f099d808209a0917e41790a fs: make d_path-like functions all have unsigned size
+bef41fa4e05e5f033d1b86869f4b4947930e68be i2c: dev: zero out array used for i2c reads from userspace
 
---===============7788898926922327729==--
+--===============7230953606824285550==--
