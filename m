@@ -1,51 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============0138485586542494298=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 10 Aug 2021 14:31:34 -0000
-Message-Id: <162860589419.29770.8208259610618015940@gitolite.kernel.org>
-
---===============0138485586542494298==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Tue, 10 Aug 2021 14:31:36 -0000
+Message-Id: <162860589659.29818.1815073008537972677@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-5.15
-    old: 5c842e51ac63130a1344650b0a95bdc398666947
-    new: 976c1de1de147bb7f4e0d87482f375221c05aeaf
+  - ref: refs/heads/devel
+    old: d7eb35beda59beed2c3589ec43ec0537452c9446
+    new: 5fa9d19b3fb640e3616de2a7615236c0cc45e702
     log: |
-         209ab223ad5b18e437289235e3bde12593b94ac4 spi: spi-fsl-dspi: Fix issue with uninitialized dma_slave_config
-         976c1de1de147bb7f4e0d87482f375221c05aeaf spi: spi-pic32: Fix issue with uninitialized dma_slave_config
+         d1945f6c5bf82e9eb477565f3496396db4f4d6e5 dt-bindings: pinctrl: qcom: Add SM6115 pinctrl bindings
+         4b77f1dff5a67bbae9ec44ab97c1e354d893d975 drivers: qcom: pinctrl: Add pinctrl driver for sm6115
+         182700f258531c75846cb0f070e847e8b4c457b2 pinctrl: qcom: spmi-gpio: Add pmc8180 & pmc8180c
+         d789a490d32fdf0465275e3607f8a3bc87d3f3ba pinctrl: single: Fix error return code in pcs_parse_bits_in_pinctrl_entry()
+         2ac48d0d486d9dbdcca2e6d945031541d880df3b pinctrl: single: Move test PCS_HAS_PINCONF in pcs_parse_bits_in_pinctrl_entry() to the beginning
+         510fc3487b09ad4a921e18c60de7e3c634eb6e4e dt-bindings: pinctrl: stm32: add new compatible for STM32MP135 SoC
+         a022135a19a1b2f8ee1f9e90d5d9de419543904c pinctrl: stm32: Add STM32MP135 SoC support
+         1b73e588f47397dee6e4bdfd953e0306c60b5fe5 pinctrl: stmfx: Fix hazardous u8[] to unsigned long cast
+         5fa9d19b3fb640e3616de2a7615236c0cc45e702 pinctrl: aspeed: placate kernel-doc warnings
          
-
---===============0138485586542494298==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1628605876 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1628605891-982c9993174c81b5a924b0218515d6017ee023da
-
-5c842e51ac63130a1344650b0a95bdc398666947 976c1de1de147bb7f4e0d87482f375221c05aeaf refs/heads/for-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmESjbQACgkQJNaLcl1U
-h9AZ5wf/U7DWyyYcrUx1oZSFZgGomp/SvDOTBFbtZ5pmCMYhOloW3TdKKfeBLbE4
-QaHuEar4jzq6vvjr/jvHUcIuqI0NIFSFYO26F9EceMECH3YQnd/tp/i3G+tuwGd9
-HtfGeM5DbBITHBzhhrMDTGr0wb1JvoAYR7XBNPWpoqbhnpz8wAeTmVxq4LkUPaqI
-lkqfGHpUcYuRgkVAIn+mhXh8yngkleanJErxQq5/NJXx6y/LV1AH0Cn1jx/8IBlU
-1I0UCP9sOU6TGMubvFX3EuwgG8LkolfLORT5FqYfWAXeBXrBcs2Votj2Pu12Xmlq
-UHjs+/BVEp1z9CsY6OfEXD6dJf7LNQ==
-=QFFW
------END PGP SIGNATURE-----
-
---===============0138485586542494298==--
+  - ref: refs/heads/fixes
+    old: 798a315fc359aa6dbe48e09d802aa59b7e158ffc
+    new: d1dee814168538eba166ae4150b37f0d88257884
+    log: |
+         d1dee814168538eba166ae4150b37f0d88257884 pinctrl: sunxi: Don't underestimate number of functions
+         
