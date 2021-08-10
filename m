@@ -1,47 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1949239346684307313=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 10 Aug 2021 06:24:13 -0000
-Message-Id: <162857665370.32494.10153086436684956132@gitolite.kernel.org>
-
---===============1949239346684307313==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 10 Aug 2021 06:43:12 -0000
+Message-Id: <162857779297.11699.8473040143988695720@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/tags/linux-can-fixes-for-5.14-20210810
-    old: 0000000000000000000000000000000000000000
-    new: 74721bc3aaae6960b3e686f9e2a824a0ce2e3d30
-
---===============1949239346684307313==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1628576648 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1628576648-cbcadf0d3d4713ce6b40752462adeeb06e583e0e
-
-0000000000000000000000000000000000000000 74721bc3aaae6960b3e686f9e2a824a0ce2e3d30 refs/tags/linux-can-fixes-for-5.14-20210810
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmESG4kTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqYMOCAC2fvrDPXfhZIoC4xfWJ30jKDfQR07g
-RiYxZ0dvqr7bY+RYAVrhGXcpX0IJfAlcCEbgZKNguZIAV1KEsCsuqTnW+WCNpg9G
-1qrtmuDByS0j0ag6H2dnXVJYVG6V/fhQ0mprKWreMpO8yvKJPvS5fUN6KMyO3VS4
-oiz+P4hzVktvsZjChSrLQlp90WnuACH3sxjyO9mosDsnJFgsqlDQIqvkjWrJDRZk
-i4pqJJECLqITnBA9mPnnamSvZYumY7Agy88dZcKlSEZPKnzXD+I/Sdm3TAwph0B+
-TmHHq3ohZw4bRxIQEY2pf9tV87AgNHQqvVNFPIAGb4Rq2t3QF8hL3480
-=1+Hi
------END PGP SIGNATURE-----
-
---===============1949239346684307313==--
+  - ref: refs/heads/master
+    old: 0e8a773e53472ae5440058703cfef7fd572627c3
+    new: c61a1c396eafe04de5b7a15619e79923544bb6d2
+    log: |
+         3e3764560d1c218329a1495fc4abb978bbcb6e1d signal.2: srcfix
+         bb75585de601f0f14e9e7fea4d09e60513e8f505 unicode.7: tfix
+         8e5918c2ec8eac25979479e27e3b1f0b8c53e211 seccomp.2: Clarify that bad system calls kill the thread
+         d96bf5f5bf8d4572da63092c2324ff144b848058 man-pages.7: wfix: s/null character/null byte/
+         c61a1c396eafe04de5b7a15619e79923544bb6d2 wcstok.3: Fix type mismatch in the example
+         
