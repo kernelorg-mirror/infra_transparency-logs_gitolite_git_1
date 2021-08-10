@@ -1,64 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 10 Aug 2021 17:38:51 -0000
-Message-Id: <162861713168.19721.15819138855014827046@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1482509137246638137=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Aug 2021 17:49:58 -0000
+Message-Id: <162861779840.27434.5201550852370949841@gitolite.kernel.org>
+
+--===============1482509137246638137==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/tags/block-5.14-2021-07-08
-    old: 0000000000000000000000000000000000000000
-    new: ffcae881792aeb1b4ff4fc5f555aecd0792dba56
-  - ref: refs/tags/block-5.14-2021-07-16
-    old: 0000000000000000000000000000000000000000
-    new: b7aabc46906adb332bd02982f62e528ad1d5114e
-  - ref: refs/tags/block-5.14-2021-07-24
-    old: 0000000000000000000000000000000000000000
-    new: e75db9414691c149ee092636262597e49da87df4
-  - ref: refs/tags/block-5.14-2021-07-30
-    old: 0000000000000000000000000000000000000000
-    new: e616a54ae11207a17465c330e3a2416d415a7d0f
-  - ref: refs/tags/block-5.14-2021-08-07
-    old: 0000000000000000000000000000000000000000
-    new: edf4d252a0d0230425c7b3dc8d6f688b45564d78
-  - ref: refs/tags/for-5.14/io_uring-2021-06-30
-    old: 0000000000000000000000000000000000000000
-    new: 669c376efd653309fdc5974c238fe4a922e82871
-  - ref: refs/tags/io_uring-5.14-2021-07-09
-    old: 0000000000000000000000000000000000000000
-    new: 1f7bc385286271be031aa2e2e74152b2bc0d0366
-  - ref: refs/tags/io_uring-5.14-2021-07-16
-    old: 0000000000000000000000000000000000000000
-    new: 7eef77544686736641d96720af1d88d66095c2a1
-  - ref: refs/tags/io_uring-5.14-2021-07-24
-    old: 0000000000000000000000000000000000000000
-    new: b4fefa19e7262a4208ebf2fbca6e62c183d5863e
-  - ref: refs/tags/io_uring-5.14-2021-07-30
-    old: 0000000000000000000000000000000000000000
-    new: d6a3423845ea17b94de461bef9fbc5ad93d14258
-  - ref: refs/tags/io_uring-5.14-2021-08-07
-    old: 0000000000000000000000000000000000000000
-    new: cc20a87da81021b706791394878b5f01a7d20c4d
-  - ref: refs/tags/libata-5.14-2021-07-30
-    old: 0000000000000000000000000000000000000000
-    new: 4f504a9e9896178fe0643dbe627dddbae0f5d25b
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
+  - ref: refs/heads/tmp.perf/core
+    old: 7c0223e1ddd7d1c16b76adf8c9c352771856c632
+    new: 8ee465a181d0100533c6039bbbcea5517a049aec
+    log: revlist-7c0223e1ddd7-8ee465a181d0.txt
+
+--===============1482509137246638137==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7c0223e1ddd7-8ee465a181d0.txt
+
+f2c24ebadd90b4165ce2c49c3c6a100312266f54 perf docs: Fix accidental em-dashes
+4241eabf59d5b7e9b5b567526f6e319f81dff894 perf bench: Add benchmark for evlist open/close operations
+517db3b59537a59f6cc251b1926df93e93bb9c87 perf jevents: Make build dependency on test JSONs
+19ac3df32f883a8341b1ceaad40be33b3ac85f23 perf test: Factor out pmu-events event comparison
+35267cea901456d16fb3841ab44347937bf0b087 perf jevents: Relocate test events to cpu folder
+c81e823ff8667f19d2b6ee0ab0e919e3043abd36 perf test: Declare pmu-events test events separately
+e386acd79017952ba032aad60e8307befc5aa378 perf test: Factor out pmu-events alias comparison
+3bc4526b30f14b70280ec2a7a02fbfdab2ebdb0a perf test: Test pmu-events core aliases separately
+5806099a2e2ab36fa7a7705faaf3d7296b701e67 perf pmu: Check .is_uncore field in pmu_add_cpu_aliases_map()
+5a65c0c8f6fd5e0708e52131940f2306a3be4e55 perf test: Re-add pmu-event uncore PMU alias test
+6a86657fbc245119190f3f6a477f2331e882af0c perf test: Add more pmu-events uncore aliases
+e199f47f159d72f12b91d2b33cee78f95ff8ff59 perf pmu: Make pmu_add_sys_aliases() public
+5abd3988b0382d31a35600732a46fa7f90740658 perf jevents: Print SoC name per system event table
+8ee465a181d0100533c6039bbbcea5517a049aec perf test: Add pmu-events sys event support
+
+--===============1482509137246638137==--
