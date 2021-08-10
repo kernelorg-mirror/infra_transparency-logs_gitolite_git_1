@@ -1,39 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 10 Aug 2021 11:42:21 -0000
-Message-Id: <162859574111.7130.16134426171685602022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 10 Aug 2021 12:03:50 -0000
+Message-Id: <162859703050.21932.17340487998525299619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/renesas-clk
-    old: d28b1e03dc8d1070538ca3ea3f4e6732109ddf42
-    new: 0dd74702c4bb5fe250b7ce19193d1a1e5b359b6a
+  - ref: refs/heads/master
+    old: 019d8e2cb1c0bf332b058d7699e106462877762f
+    new: f8739799a1e96d69d97b7a953133e4c9947b6482
     log: |
-         0dd74702c4bb5fe250b7ce19193d1a1e5b359b6a clk: renesas: rzg2l: Add support to handle MUX clocks
-         
-  - ref: refs/heads/renesas-clk-for-v5.15
-    old: d28b1e03dc8d1070538ca3ea3f4e6732109ddf42
-    new: 0dd74702c4bb5fe250b7ce19193d1a1e5b359b6a
-    log: |
-         0dd74702c4bb5fe250b7ce19193d1a1e5b359b6a clk: renesas: rzg2l: Add support to handle MUX clocks
-         
-  - ref: refs/heads/renesas-pinctrl
-    old: 91d1be9fb7d667ae136f05cc645276eb2c9fa40e
-    new: 824c2faeb88fa07e4697b5a8cba09cecafc4f29e
-    log: |
-         7958f88aa6636f1927513c887a00e83168f12e35 dt-bindings: pinctrl: renesas: Add DT bindings for RZ/G2L pinctrl
-         824c2faeb88fa07e4697b5a8cba09cecafc4f29e pinctrl: renesas: Add RZ/G2L pin and gpio controller driver
-         
-  - ref: refs/heads/renesas-pinctrl-for-v5.15
-    old: 91d1be9fb7d667ae136f05cc645276eb2c9fa40e
-    new: 824c2faeb88fa07e4697b5a8cba09cecafc4f29e
-    log: |
-         7958f88aa6636f1927513c887a00e83168f12e35 dt-bindings: pinctrl: renesas: Add DT bindings for RZ/G2L pinctrl
-         824c2faeb88fa07e4697b5a8cba09cecafc4f29e pinctrl: renesas: Add RZ/G2L pin and gpio controller driver
+         ad797a04f1294b48b0e17c1e858b71ea1b1a77d9 Merge branch 'for-linus' into for-next
+         2c86446f8e0428cd5c9bb37f9c6727bd4830967d ALSA: harmony: Drop superfluous address setup
+         f89ee9ae09a43fba51f7e47057d2c80de64d738a Merge branch 'for-next'
+         cbea6e5a7772b7a5b80baa8f98fd77853487fd2a ALSA: pcm: Check mmap capability of runtime dma buffer at first
+         0899a7a23047f106c06888769d6cd6ff43d7395f ALSA: pci: rme: Set up buffer type properly
+         4d9e9153f1c64d91a125c6967bc0bfb0bb653ea0 ALSA: pci: cs46xx: Fix set up buffer type properly
+         7de1d18ee58cee2ef2abc2cc094b9af92490ee2e Merge branch 'for-next'
+         ca4c5b334f1036d567b6a7d1f695430d7e4fd8a3 ALSA: msnd: Use proper mmap method
+         f8739799a1e96d69d97b7a953133e4c9947b6482 Merge branch 'for-next'
          
