@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 10 Aug 2021 14:42:43 -0000
-Message-Id: <162860656356.5159.4554892271520017308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 10 Aug 2021 14:46:36 -0000
+Message-Id: <162860679610.8075.4333026161502713976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/review-hans
-    old: 0aa25a371f447b0c68a4f93105246df0d93ce5bd
-    new: 93f96787234f0ad907f9079b371b8103cb8bfa9e
+  - ref: refs/heads/irq/core
+    old: af5b7fe6bb77ac775d446e2f25f013d5df551e9a
+    new: 1d07a835819e2d3c85af8f093a02c2e6bca422d6
     log: |
-         93f96787234f0ad907f9079b371b8103cb8bfa9e platform/x86: add meraki-mx100 platform driver
+         1d07a835819e2d3c85af8f093a02c2e6bca422d6 genirq/matrix: Fix kernel doc warnings for irq_matrix_alloc_managed()
          
