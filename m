@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Aug 2021 14:08:16 -0000
-Message-Id: <162860449636.13336.10016629462236824676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 10 Aug 2021 14:21:20 -0000
+Message-Id: <162860528082.23188.12688183044458312201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/irq/core
-    old: 5a6c76b5de59ed508d7cb133327a7c54e77fed97
-    new: af5b7fe6bb77ac775d446e2f25f013d5df551e9a
+  - ref: refs/heads/next-fixes
+    old: ff4502c88fea119bca6db7e4a76a8528c4893c9b
+    new: b8e1315dd5abc34411cfa4e0d99449d833646e22
     log: |
-         af5b7fe6bb77ac775d446e2f25f013d5df551e9a genirq: Change force_irqthreads to a static key
+         7280305eb57dd32735f795ed4ee679bf9854f9d0 btrfs: calculate number of eb pages properly in csum_tree_block
+         378bd784aa572ea07ba0a421cd38c4c9893be3cf btrfs: zoned: suppress reclaim error message on EAGAIN
+         9b3855ce9e8e7e9629bf8454c0d3bee6b13d5724 btrfs: zoned: fix block group alloc_offset calculation
+         b8e1315dd5abc34411cfa4e0d99449d833646e22 Merge branch 'misc-5.14' into next-fixes
          
