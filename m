@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2146244144212320878=="
+Content-Type: multipart/mixed; boundary="===============6588224782024039462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 10 Aug 2021 08:22:58 -0000
-Message-Id: <162858377826.14021.3238063666286421504@gitolite.kernel.org>
+Date: Tue, 10 Aug 2021 08:23:10 -0000
+Message-Id: <162858379028.14188.14612425523855263272@gitolite.kernel.org>
 
---===============2146244144212320878==
+--===============6588224782024039462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 0541a6293298fb52789de389dfb27ef54df81f73
-    new: 143a8526ab5fd4f8a0c4fe2a9cb28c181dc5a95f
-    log: revlist-0541a6293298-143a8526ab5f.txt
+  - ref: refs/heads/testing
+    old: c7d102232649226a69dddd58a4942cf13cff4f7c
+    new: aae32b784ebdbda6f6055a8021c9fb8a0ab5bcba
+    log: revlist-c7d102232649-aae32b784ebd.txt
 
---===============2146244144212320878==
+--===============6588224782024039462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1628583774 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1628583785 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1628583773-577375fe518db9b62778b756595d6d192f4e5482
+nonce 1628583784-bb46f9beab90eb339eb50950ff7a3d20c4a5eaab
 
-0541a6293298fb52789de389dfb27ef54df81f73 143a8526ab5fd4f8a0c4fe2a9cb28c181dc5a95f refs/heads/master
+c7d102232649226a69dddd58a4942cf13cff4f7c aae32b784ebdbda6f6055a8021c9fb8a0ab5bcba refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmESN14THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqV0jCACJo2lRRWpmXcUzmnA/7Q9OoJRlEDz1
-+IYiXrj0x3Kwg6SR98ifsQyQ36gd+uilAYt2Ar0AcXe5fyCpg7kOJAVOT3oiTN4g
-3Y/HAtGM8gzLjCKqGuocdBq36o+uJE1yrrYZrNH+ePZaS4LC2Feo+GXpO3Lkh9s3
-TN+HDDos1Mvibv8aOFblZn9uy0o+ER0zP913e33YYsoXeoz/gCEDqSCXkTT3v6JQ
-e3FuMquYe1bJPwxV8kZ0LYEBQikyI2JdKtZzZdRJckqZ931lQGuxR34lUqqSZMyP
-KXZHfYdqFoGldeOTnW/ZYC+eEnrLev56r+YyG6skuqXO2v6U0rVVKtBj
-=/Tsy
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmESN2kTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqaiZB/0QodWG+J4uaAB30N4GwNGJI0dQi1Y2
+kHTbCZcmSyOQdYiW6bARiSASJCxwcr/u2gh/9R1fh/5INkSnAT+QPCM37rqvu9kO
+ZDEfKjN2tDzk3KFO9P/PvzMqx1ItWGOIu7px4nsidrBGKoZupL66r19tT+grTLd4
+b5SPPaRLrQK/DCtn/9lT6tqeHAooE1V+oKF+uGpYPcS4qI1zFM9n7C2jZ1/NOPDZ
+0Dg9EB70kGf8Oz8WHYtbeqGHSaY5TFdV2MPOdXbJgHXWFEuVSQvyfh6jtoub/jvN
+d0fq436RLA4w9yEgMZpa8jI5e3ZgRIefHO3B95SH834XVkXi/0jWJiVh
+=bMVz
 -----END PGP SIGNATURE-----
 
---===============2146244144212320878==
+--===============6588224782024039462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0541a6293298-143a8526ab5f.txt
+Content-Disposition: attachment; filename=revlist-c7d102232649-aae32b784ebd.txt
 
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
 eaf228263921cd15962654b539d916380a0f076e Revert "xfrm: policy: Read seqcount outside of rcu-read side in xfrm_policy_lookup_bytype"
@@ -107,8 +107,26 @@ aa6603266cc0760ebb83cf11cb5a2b8fca84cd68 Merge tag 'xfs-5.14-fixes-2' of git://g
 c82357a7b32c0690b8581f72f197b1ce6118543c Merge tag 'powerpc-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d4affd6b6e81443ec8d00de0306ca61911e81441 Merge tag 'perf-tools-fixes-for-v5.14-2021-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c500bee1c5b2f1d59b1081ac879d73268ab0ff17 Linux 5.14-rc4
+1159e25c137422bdc48ee96e3fb014bd942092c6 qede: fix crash in rmmod qede while automatic debug collection
+d51c5907e9809a803b276883d203f45849abd4d6 net, gro: Set inner transport header offset in tcp/udp GRO hook
+ebca25ead0711729e0aeeec45062e7ac4df3e158 net/sched: taprio: Fix init procedure
+40e159403896f7d55c98f858d0b20fee1d941fa4 mhi: Fix networking tree build.
+cb81698fddbcc9a3ee75857e99dfc29caa96135b net: dsa: sja1105: fix static FDB writes for SJA1110
+e11e865bf84e3c6ea91563ff3e858cfe0e184bd2 net: dsa: sja1105: overwrite dynamic FDB entries with static ones in .port_fdb_add
+6c5fc159e0927531707895709eee1f8bfa04289f net: dsa: sja1105: invalidate dynamic FDB entries learned concurrently with statically added ones
+728db843df88753aeb7224314807a203afa8eb32 net: dsa: sja1105: ignore the FDB entry for unknown multicast when adding a new address
+589918df93226a1e5f104306c185b6dcf2bd8051 net: dsa: sja1105: be stateless with FDB entries on SJA1105P/Q/R/S/SJA1110 too
+47c2c0c2312118a478f738503781de1d1a6020d2 net: dsa: sja1105: match FDB entries regardless of inner/outer VLAN tag
+cebb5103f07e0924ff3e2a7feaf962d6f0c0aa88 Merge branch 'sja1105-fdb-fixes'
 4c156084daa8ee70978e4b150b5eb5fc7b1f15be selinux: correct the return value when loads initial sids
+a5e63c7d38d548b8dab6c6205e0b6af76899dbf5 net: phy: micrel: Fix detection of ksz87xx switch
+7fe74dfd41c428afb24e2e615470832fa997ff14 net: natsemi: Fix missing pci_disable_device() in probe and remove
+6387f65e2acb9a63044bd64464401771b8cf1acc net: sparx5: fix compiletime_assert for GCC 4.9
+66e0da21728343bd3e75230a53d909e045fb9dd7 docs: operstates: fix typo
+7a7b8635b622add64d98cff84bf3ee71eac36237 docs: operstates: document IF_OPER_TESTING
+1c69d7cf4a8b6b6cfd920a1e809f1cd33ae4369c Revert "mhi: Fix networking tree build."
 9b87f43537acfa24b95c236beba0f45901356eb2 gpio: tqmx86: really make IRQ optional
+0541a6293298fb52789de389dfb27ef54df81f73 net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
 ce78ffa3ef1681065ba451cfd545da6126f5ca88 net: really fix the build...
 2e2f1e8d0450c561c0c936b4b67e8b5a95975fb7 KVM: x86: hyper-v: Check access to hypercall before reading XMM registers
 f5714bbb5b3120b33dfbf3d81ffc0b98ae4cd4c1 KVM: x86: Introduce trace_kvm_hv_hypercall_done()
@@ -207,5 +225,7 @@ d09c548dbf3b31cb07bba562e0f452edfa01efe3 net: sched: act_mirred: Reset ct info w
 beb7f2de5728b0bd2140a652fa51f6ad85d159f7 psample: Add a fwd declaration for skbuff
 d6e712aa7e6a3d5a9633f4bcbe2237f3edc292bd net: openvswitch: fix kernel-doc warnings in flow.c
 143a8526ab5fd4f8a0c4fe2a9cb28c181dc5a95f bareudp: Fix invalid read beyond skb's linear data
+7b637cd52f02c6d7ff0580143a438940978fc719 MAINTAINERS: fix Microchip CAN BUS Analyzer Tool entry typo
+aae32b784ebdbda6f6055a8021c9fb8a0ab5bcba can: m_can: m_can_set_bittiming(): fix setting M_CAN_DBTP register
 
---===============2146244144212320878==--
+--===============6588224782024039462==--
