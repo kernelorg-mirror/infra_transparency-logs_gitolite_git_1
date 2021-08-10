@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3513196896769570744=="
+Content-Type: multipart/mixed; boundary="===============8712907204748630638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 10 Aug 2021 21:23:30 -0000
-Message-Id: <162863061067.9697.8359233431168440964@gitolite.kernel.org>
+Date: Tue, 10 Aug 2021 21:23:49 -0000
+Message-Id: <162863062932.9949.122271137247422115@gitolite.kernel.org>
 
---===============3513196896769570744==
+--===============8712907204748630638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d1a4e0a9576fd2b29a0d13b306a9f52440908ab4
     new: ebd0d30cc5e44ed3a6db7683bd357b3eea636e74
     log: revlist-d1a4e0a9576f-ebd0d30cc5e4.txt
 
---===============3513196896769570744==
+--===============8712907204748630638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ db202995f5035f13a11df48a0af05edbb3720659 net/mlx5: E-Switch, add logic to enable
 598fe77df855feeeca9dfda2ffe622ac7724e5c3 net/mlx5: Lag, Create shared FDB when in switchdev mode
 ebd0d30cc5e44ed3a6db7683bd357b3eea636e74 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 
---===============3513196896769570744==--
+--===============8712907204748630638==--
