@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4780069098495817771=="
+Content-Type: multipart/mixed; boundary="===============5745104186081813037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 10 Aug 2021 05:48:31 -0000
-Message-Id: <162857451127.8293.880863645880761200@gitolite.kernel.org>
+Date: Tue, 10 Aug 2021 05:48:57 -0000
+Message-Id: <162857453786.9622.1403567840973857963@gitolite.kernel.org>
 
---===============4780069098495817771==
+--===============5745104186081813037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 33529018294f1eabc6b5bb2672941165e658e96a
-    new: f5efd4fe78de871515444b660029074be17ec11f
-    log: revlist-33529018294f-f5efd4fe78de.txt
+  - ref: refs/heads/for-next
+    old: b697c84780d3b940fff0cce656b10ea2d98a3387
+    new: 394a5f529e59536dae4a575c1524fabca2f21026
+    log: revlist-b697c84780d3-394a5f529e59.txt
 
---===============4780069098495817771==
+--===============5745104186081813037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33529018294f-f5efd4fe78de.txt
+Content-Disposition: attachment; filename=revlist-b697c84780d3-394a5f529e59.txt
 
 f02bc9754a6887bf5e286889265d24ce5e3b1952 scsi: ufs: ufshpb: Introduce Host Performance Buffer feature
 4b5f49079c52a7eadd2defbd8d2a270664a881d4 scsi: ufs: ufshpb: L2P map management for HPB read
@@ -69,5 +69,10 @@ e3d2612f583ba6e234cb7fe4559132c8f28905f1 scsi: qla2xxx: Fix use after free in de
 f0101af435c4640e78c0fa0dbacb443c0f31cfb7 scsi: ufs: core: Remove redundant call in ufshcd_add_command_trace()
 63522bf3aced0a782b59f0314dbad5cdc8b14c59 scsi: ufs: core: Add L2P entry swap quirk for Micron UFS
 f5efd4fe78de871515444b660029074be17ec11f scsi: ufs: core: Add lu_enable sysfs node
+9977d880f7a3c233db9165a75a3a14defc2a4aee scsi: lpfc: Move initialization of phba->poll_list earlier to avoid crash
+dbe7633c394be4a500b887fe8f9ad486dcba9d77 scsi: storvsc: Log TEST_UNIT_READY errors as warnings
+40d32727931cee82cdc5aaca25ce725d1f3ac864 scsi: mpt3sas: Fix incorrectly assigned error return and check
+84d192d60656ff0fb73ea4fa067d5daec684e971 Merge branch 'fixes' into for-next
+394a5f529e59536dae4a575c1524fabca2f21026 Merge branch 'misc' into for-next
 
---===============4780069098495817771==--
+--===============5745104186081813037==--
