@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1267755226943731122=="
+Content-Type: multipart/mixed; boundary="===============0138485586542494298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Aug 2021 14:31:26 -0000
-Message-Id: <162860588637.29634.3237572320655094685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 10 Aug 2021 14:31:34 -0000
+Message-Id: <162860589419.29770.8208259610618015940@gitolite.kernel.org>
 
---===============1267755226943731122==
+--===============0138485586542494298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.14
-    old: e5ada3f6787a4d6234adc6f2f3ae35c6d5b71ba0
-    new: f4eeaed04e861b95f1f2c911263f2fcaa959c078
+  - ref: refs/heads/for-5.15
+    old: 5c842e51ac63130a1344650b0a95bdc398666947
+    new: 976c1de1de147bb7f4e0d87482f375221c05aeaf
     log: |
-         f4eeaed04e861b95f1f2c911263f2fcaa959c078 ASoC: Intel: Fix platform ID matching
-         
-  - ref: refs/heads/asoc-5.15
-    old: 064478e4877c76b0c1fd1155934f226f1561aab3
-    new: eb7ab747efd600382bc2e9406ea1fc2a867e9804
-    log: |
-         eb7ab747efd600382bc2e9406ea1fc2a867e9804 ASoC: dt-bindings: rt1015p: fix syntax error in dts-binding document
+         209ab223ad5b18e437289235e3bde12593b94ac4 spi: spi-fsl-dspi: Fix issue with uninitialized dma_slave_config
+         976c1de1de147bb7f4e0d87482f375221c05aeaf spi: spi-pic32: Fix issue with uninitialized dma_slave_config
          
 
---===============1267755226943731122==
+--===============0138485586542494298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628605868 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1628605883-c53fb1cb30fadd033a57139b03c26616e643e529
+pusher C3F436CA30F5D8EB 1628605876 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1628605891-982c9993174c81b5a924b0218515d6017ee023da
 
-e5ada3f6787a4d6234adc6f2f3ae35c6d5b71ba0 f4eeaed04e861b95f1f2c911263f2fcaa959c078 refs/heads/asoc-5.14
-064478e4877c76b0c1fd1155934f226f1561aab3 eb7ab747efd600382bc2e9406ea1fc2a867e9804 refs/heads/asoc-5.15
+5c842e51ac63130a1344650b0a95bdc398666947 976c1de1de147bb7f4e0d87482f375221c05aeaf refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmESjawACgkQJNaLcl1U
-h9Dnqgf9EsUa/VvW6lTYCxqFG8ww1RHpTGJpg4quuTE9OikQNtLrnGxnzGoYukQg
-QitjnsUdlrKy7KGKe194LgyRHPB8VB0W8ku5XIhtqfXrzVCsEkRoVgNl9leAdlPq
-JDh54dZ1JFnRR16peRrQ2A4ZDh8ws8+1TtXGj3ahyeNFkJT2GFNOcRN48B3M2pJJ
-sRvenWQ0UOpBG6TSvGr1WKd4vMaLM3c7Rq3z0hMh2YkSBR3ys7qihMkWOtyuaUlI
-ZLMm1v8z8/X9lr7JLLYmoPIeTT5dpco2cemY8uoB9BXzTjjgNT/cQ3ny3kxXb/Ol
-/iqukw9PItMlEc0yo+/VwwwJXmTihg==
-=R32S
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmESjbQACgkQJNaLcl1U
+h9AZ5wf/U7DWyyYcrUx1oZSFZgGomp/SvDOTBFbtZ5pmCMYhOloW3TdKKfeBLbE4
+QaHuEar4jzq6vvjr/jvHUcIuqI0NIFSFYO26F9EceMECH3YQnd/tp/i3G+tuwGd9
+HtfGeM5DbBITHBzhhrMDTGr0wb1JvoAYR7XBNPWpoqbhnpz8wAeTmVxq4LkUPaqI
+lkqfGHpUcYuRgkVAIn+mhXh8yngkleanJErxQq5/NJXx6y/LV1AH0Cn1jx/8IBlU
+1I0UCP9sOU6TGMubvFX3EuwgG8LkolfLORT5FqYfWAXeBXrBcs2Votj2Pu12Xmlq
+UHjs+/BVEp1z9CsY6OfEXD6dJf7LNQ==
+=QFFW
 -----END PGP SIGNATURE-----
 
---===============1267755226943731122==--
+--===============0138485586542494298==--
