@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4412278113072989703=="
+Content-Type: multipart/mixed; boundary="===============6650824695011382460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 10 Aug 2021 05:07:35 -0000
-Message-Id: <162857205503.13296.985000711682564958@gitolite.kernel.org>
+Date: Tue, 10 Aug 2021 05:07:40 -0000
+Message-Id: <162857206014.13426.9742425133768542498@gitolite.kernel.org>
 
---===============4412278113072989703==
+--===============6650824695011382460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: b91ee1833a5aa8d9ec8cd88482a993fc61c69450
-    new: ad4e62254897fb5915ca2e02bffa83c6b110bcae
-    log: revlist-b91ee1833a5a-ad4e62254897.txt
+  - ref: refs/heads/5.15/scsi-staging
+    old: f5efd4fe78de871515444b660029074be17ec11f
+    new: b9420b668f20776b99768a4c131597730e6fab3c
+    log: revlist-f5efd4fe78de-b9420b668f20.txt
 
---===============4412278113072989703==
+--===============6650824695011382460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1628572052 -0400
+pusher 75C5DE3D 1628572058 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1628572052-285245338e6bc6fcdf95f113adc95bffe0323889
+nonce 1628572058-d6cf9d6ad396ad158a8c5cede47b01e4ded53365
 
-b91ee1833a5aa8d9ec8cd88482a993fc61c69450 ad4e62254897fb5915ca2e02bffa83c6b110bcae refs/tags/mkp-scsi-staging
+f5efd4fe78de871515444b660029074be17ec11f b9420b668f20776b99768a4c131597730e6fab3c refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmESCZQACgkQ7ulgGnXF
-3j2eUw//Y2UUTw/c3Z2tv7ylVCWRF3ABG1ckmqHbHcmb6tH0mbQb/N4SxvG76TsZ
-T6zWbIcRvAUA5lCJC/Dd79mQ02lclj92QCYThIBbW1BWofAIbi9e1+nNbACUUkTn
-xOw1b2zKJhHmDBqFE9GVOm/iK+wTthwqx3szqNdN+3dS6UdHvlqzjD3Zv6IZ/6KV
-Wy6P5jZMb2NYqzEDv4yCI8BdJhtD6t1thaFIict3bGZ/JuE1n4EUEUrl3WZBh6s4
-U+/MmeosVbs4RykcjJgyJs66GnPs7h3vKRXIMtlsBPywMm1N4SFBvTGNctbXCkB2
-FAIpAT1JfgL9K9yH47zmh+B6d9MzXk8W1pi5PUUOm4JfRjDLx3fAJdgJ5jnGMktf
-8lHyKuGQL0OEJd+jrF2QgoYFExkBQlrZJqGGiGp8P1NJayXPbWL60OqZa7LkuwKV
-+NfR3exSpsR73iyBtRDe31IUsdtRPNSEHzuX/dgCALgnAAVIvE8pVAiX/BsX42xa
-xYZJipeuBpAu51kU602OjPWFcr9qZQVDXdZxTUU6+0NizjcsbhjoXklIWnmUD3wP
-xD8tcoJ7ctY1N667QCaRBzxmkLFxhZvE3H1L4Yg0hr/fglL7/nRFIJx/UkSRkOrt
-Rd0UEkA2cF3S1m/C7J+d2nCNU0DBHUkS7rDk9o8+kUsZpGYjpdE=
-=4ySP
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmESCZoACgkQ7ulgGnXF
+3j1t4Q/+Nj/ajKnW5p/awl3jU7m0o8jerlwCsM4AFBOyQa/iFm9Y0X6xPe2lX+KQ
+gQyjS50rDyl/J8hP/I4gAD4mdV3Bjm2wjgs7aUxQpJ5nCgtw/oFekreDYinfww7Q
+OhHuPgCVNo5LbfsBOoSBVaKgeoh2F9xpW8roBTlouiVyJtw+XzkPMqD2cTr4NjIf
+H7BtHwp5FVun4FmRwEkyC+hLqUCeBPLTUi2JnaZqBKhRAfuqxKEIxhp6j2GU3ovu
+E/hxNig0pyGwGHLBDFgSc+C0Oc1/9+sMQCIs4zk6Z1rlAa1CKg07fcWCqT90diZF
+9iWW4VuhywZ7AJ5/yoKeNRstA4880XdCKzGU0tvFQSWJrVKV10aoH4pE4qrtKLqk
+RhvTRSfB35MSl2NhEeqkbbUyHZwIqVkJ0kKKJekl8+ah9qzBQUXvu403X4c6O2I6
+e8M8KHzRMdmtAzT2P2jL91FqHbICx5nSMuLoyFyxFQwj2i0fvzADoNayaVBGvQY5
+kHglwaqt653Zv25+JpiACHYEaVN9aFvNePlJmXkezxOzsgN9+b1XpmFygaXZz8hQ
+HP4wTv8eo79tWuNSBax3dgxx0oof28PCrS10h7JGhQtqNhdL/L9siOLDsZAK0bkK
+EooPW5cBqZaGuaOJhaSAr34sDWxo5+3piDIYL+gEHnFJ5Prgciw=
+=/4Is
 -----END PGP SIGNATURE-----
 
---===============4412278113072989703==
+--===============6650824695011382460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b91ee1833a5a-ad4e62254897.txt
+Content-Disposition: attachment; filename=revlist-f5efd4fe78de-b9420b668f20.txt
 
 432bc7caef4eaacc1101ee2569bb870bdfeed7ce scsi: mpt3sas: Add io_uring iopoll support
 44f88ef3c9f1edf4f8229508649965d85bc6f186 scsi: mpt3sas: Bump driver version to 38.100.00.00
@@ -130,4 +130,4 @@ bfd7238b06e45fddb47fb50dd070fda699cd3059 scsi: xen-scsifront: Use scsi_cmd_to_rq
 7c2703590c23a29ccdf42295a3af6183b33192f9 scsi: core: Add helper to return number of logical blocks in a request
 b9420b668f20776b99768a4c131597730e6fab3c scsi: isci: Use the proper SCSI midlayer interfaces for PI
 
---===============4412278113072989703==--
+--===============6650824695011382460==--
