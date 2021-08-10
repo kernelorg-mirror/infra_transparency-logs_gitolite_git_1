@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/man-pages
-Date: Tue, 10 Aug 2021 21:16:28 -0000
-Message-Id: <162863018818.4366.2291574416017245179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 10 Aug 2021 21:22:32 -0000
+Message-Id: <162863055293.9175.8180905789569223958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/man-pages
-user: jarkko
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 039790ccd48d5cf84b9df5c95897df5d8a28a128
-    new: e3777c7c84d2124cf1aa2d5afe7b53bfa34cc5c9
+  - ref: refs/heads/rtc-next
+    old: 1d1bb12a8b1805ddeef9793ebeb920179fb0fa38
+    new: b02c96464f443e030be74ddd450c46703fe7ba8c
     log: |
-         e3777c7c84d2124cf1aa2d5afe7b53bfa34cc5c9 sgx.7: New page with overview of Software Guard eXtensions (SGX)
+         5546e3dfb65a4389e747766ac455a50c3675fb0f rtc: lib_test: add MODULE_LICENSE
+         b02c96464f443e030be74ddd450c46703fe7ba8c rtc: move RTC_LIB_KUNIT_TEST to proper location
          
