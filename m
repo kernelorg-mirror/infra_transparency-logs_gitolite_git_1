@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 10 Aug 2021 19:28:57 -0000
-Message-Id: <162862373757.28676.18102549921790169384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/man-pages
+Date: Tue, 10 Aug 2021 19:38:05 -0000
+Message-Id: <162862428580.2128.10912052282309543854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/jarkko/man-pages
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 44a16bcb618469edf50931b6306525b5bee95de9
-    new: f22c1e6c209ca593acc861063537d05c08e403df
+    old: d9f688af727d8e713231a94ed8f84842fe13921c
+    new: e9f0f3fc5319d070b74890daad404637438370a2
     log: |
-         f22c1e6c209ca593acc861063537d05c08e403df ioctl_tty.2: Remove duplicated text
+         e9f0f3fc5319d070b74890daad404637438370a2 sgx.7: New page with overview of Software Guard eXtensions (SGX)
          
