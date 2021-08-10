@@ -1,33 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 10 Aug 2021 14:31:36 -0000
-Message-Id: <162860589659.29818.1815073008537972677@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4827225026155317675=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Aug 2021 14:31:42 -0000
+Message-Id: <162860590258.29976.3887888678645065966@gitolite.kernel.org>
+
+--===============4827225026155317675==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: d7eb35beda59beed2c3589ec43ec0537452c9446
-    new: 5fa9d19b3fb640e3616de2a7615236c0cc45e702
+  - ref: refs/heads/spi-5.15
+    old: 5c842e51ac63130a1344650b0a95bdc398666947
+    new: 976c1de1de147bb7f4e0d87482f375221c05aeaf
     log: |
-         d1945f6c5bf82e9eb477565f3496396db4f4d6e5 dt-bindings: pinctrl: qcom: Add SM6115 pinctrl bindings
-         4b77f1dff5a67bbae9ec44ab97c1e354d893d975 drivers: qcom: pinctrl: Add pinctrl driver for sm6115
-         182700f258531c75846cb0f070e847e8b4c457b2 pinctrl: qcom: spmi-gpio: Add pmc8180 & pmc8180c
-         d789a490d32fdf0465275e3607f8a3bc87d3f3ba pinctrl: single: Fix error return code in pcs_parse_bits_in_pinctrl_entry()
-         2ac48d0d486d9dbdcca2e6d945031541d880df3b pinctrl: single: Move test PCS_HAS_PINCONF in pcs_parse_bits_in_pinctrl_entry() to the beginning
-         510fc3487b09ad4a921e18c60de7e3c634eb6e4e dt-bindings: pinctrl: stm32: add new compatible for STM32MP135 SoC
-         a022135a19a1b2f8ee1f9e90d5d9de419543904c pinctrl: stm32: Add STM32MP135 SoC support
-         1b73e588f47397dee6e4bdfd953e0306c60b5fe5 pinctrl: stmfx: Fix hazardous u8[] to unsigned long cast
-         5fa9d19b3fb640e3616de2a7615236c0cc45e702 pinctrl: aspeed: placate kernel-doc warnings
+         209ab223ad5b18e437289235e3bde12593b94ac4 spi: spi-fsl-dspi: Fix issue with uninitialized dma_slave_config
+         976c1de1de147bb7f4e0d87482f375221c05aeaf spi: spi-pic32: Fix issue with uninitialized dma_slave_config
          
-  - ref: refs/heads/fixes
-    old: 798a315fc359aa6dbe48e09d802aa59b7e158ffc
-    new: d1dee814168538eba166ae4150b37f0d88257884
-    log: |
-         d1dee814168538eba166ae4150b37f0d88257884 pinctrl: sunxi: Don't underestimate number of functions
-         
+
+--===============4827225026155317675==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1628605884 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1628605900-96f8d7cc8d4aa149ce48de8321713aaec08ecc03
+
+5c842e51ac63130a1344650b0a95bdc398666947 976c1de1de147bb7f4e0d87482f375221c05aeaf refs/heads/spi-5.15
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmESjbwACgkQJNaLcl1U
+h9Awnwf+NpMDGqiTeXLtei+Z4lDzP0VMNFm2kWXuT+kwo6WSL9Miq6lAR1fB81QJ
+zcLdTRqbmRgif9p91outgJ+b+rzAkW+wbf8Lw+Gi//GJletduj66LydigMywW0m8
+JPPnwVK0lxG6Y3QUsMM9zQ5foTHcbqKvgS6i3S3s8cvd9J3obRp9irAJklJQ5/6p
+yGI1cw/b9/rY9kjy1ZqJv2x74DvbAuqHhQSavmgPbTFIuZsu5xcCzlBNUn3ByGAA
+bzcb6Lon/IjHysJR5yCDFQ2z6J+oohmVLHdkse4p2VDCPOJkaTFtj2ZndJLwhUbA
+Ezj2ijBlxUMo2VOkvukVJS0egUjcAg==
+=nJPp
+-----END PGP SIGNATURE-----
+
+--===============4827225026155317675==--
