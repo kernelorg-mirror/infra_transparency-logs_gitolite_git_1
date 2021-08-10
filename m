@@ -1,34 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Tue, 10 Aug 2021 19:39:12 -0000
-Message-Id: <162862435274.2652.12028930865059926185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 10 Aug 2021 20:06:42 -0000
+Message-Id: <162862600271.21458.12177150400347564081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/maint
-    old: aec460db9a931d1702f9a5a979e2a95dcf0cd4f4
-    new: be85d6c380dec129f6a9a8553290145fcd4cdf7c
-    log: |
-         95954ac7b4bb0ffb6dffa101ef6d575ff228dd1a libext2fs: fix coverity nits in tdb.c
-         be85d6c380dec129f6a9a8553290145fcd4cdf7c e2fsck: add maximum string length specifiers to fscanf format strings
-         
   - ref: refs/heads/master
-    old: aec460db9a931d1702f9a5a979e2a95dcf0cd4f4
-    new: be85d6c380dec129f6a9a8553290145fcd4cdf7c
+    old: 642fa5722559717c102d9bb03477e7438052e3a0
+    new: 84a8fdf01a90e0b7bbdfd00cb4f242a4efd64ce4
     log: |
-         95954ac7b4bb0ffb6dffa101ef6d575ff228dd1a libext2fs: fix coverity nits in tdb.c
-         be85d6c380dec129f6a9a8553290145fcd4cdf7c e2fsck: add maximum string length specifiers to fscanf format strings
-         
-  - ref: refs/heads/next
-    old: aec460db9a931d1702f9a5a979e2a95dcf0cd4f4
-    new: be85d6c380dec129f6a9a8553290145fcd4cdf7c
-    log: |
-         95954ac7b4bb0ffb6dffa101ef6d575ff228dd1a libext2fs: fix coverity nits in tdb.c
-         be85d6c380dec129f6a9a8553290145fcd4cdf7c e2fsck: add maximum string length specifiers to fscanf format strings
+         84a8fdf01a90e0b7bbdfd00cb4f242a4efd64ce4 Tue 10 Aug 2021 08:06:12 PM UTC
          
