@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2175715791141666837=="
+Content-Type: multipart/mixed; boundary="===============4312992060327618783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 10 Aug 2021 05:07:17 -0000
-Message-Id: <162857203796.12996.10428109077402561954@gitolite.kernel.org>
+Date: Tue, 10 Aug 2021 05:07:23 -0000
+Message-Id: <162857204302.13099.5229970599302286182@gitolite.kernel.org>
 
---===============2175715791141666837==
+--===============4312992060327618783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 69d2270efdb98dba982ab573add7b92c6c8e18ac
-    new: eb06164405f781949b1314222dd5a652319cbf04
-    log: revlist-69d2270efdb9-eb06164405f7.txt
+  - ref: refs/heads/5.15/scsi-queue
+    old: 33529018294f1eabc6b5bb2672941165e658e96a
+    new: f5efd4fe78de871515444b660029074be17ec11f
+    log: revlist-33529018294f-f5efd4fe78de.txt
 
---===============2175715791141666837==
+--===============4312992060327618783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1628572036 -0400
+pusher 75C5DE3D 1628572041 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1628572035-4a0a2d9ce3d71a3c27eba87601c6b0bba99d208d
+nonce 1628572041-e8f233a6523d6611202e16ae58635dee651d8ad6
 
-69d2270efdb98dba982ab573add7b92c6c8e18ac eb06164405f781949b1314222dd5a652319cbf04 refs/tags/mkp-scsi-queue
+33529018294f1eabc6b5bb2672941165e658e96a f5efd4fe78de871515444b660029074be17ec11f refs/heads/5.15/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmESCYQACgkQ7ulgGnXF
-3j0wpw//ZZ72U5CkjlIffGLKLoqty322bNOAGLmCAdjJWXI92WevN3OjXTYpxY/c
-7yumeFJa2FTyU4QTp7YNPbTyadxX25JrEUIJSe0FIZWo4EnrUd0mTLUWbRsJCZBN
-QSNfrZEEBvffAp6cStzcdffRnJj+qm/qlfovPolnT75VoUkVkb6JvYti4oIsHB6E
-+B1crgqiNg5bPw9AjaQe9OR2ou7WIeTw2mt78l3Fi/ImH53ByQqKySkvjoweAGHH
-DZuoUecevKAADP2ExsFyfKrOoA3m4hmSExuOayY6fjvFYzoGZ9+dkIeLPRC9tYbD
-2MRH3EUgb8q2Hn6eihoEIElqJYTDFTDTZbAspboHmShu/2kaCelL+xRWSSqGOUtN
-MVZHiWEumNdY9pqh3cG5mM8RsWdxMZq8sk2oPjP4+C45Z1j0LXEsV5z2152GZTCq
-kR778gVxT/uPa2RQTgcTI9H0mER2+YIMWxDTgggt1dLdx9O63K0PyguuUVE1/3qt
-bjp96PYGhsgQdkQ8CkO4TAgbHLfKKMDjyIsuOFgq54nbjNnFBPA+5u6wftR007J0
-dX23UGWneKCZ8eKB7agrqNNr9NHmPjiT3RRG1WDpyXqgGRqHuYIkokiuC+ZK0uMu
-S9m3O5JE+7l1CSnmKG8/sSvEp0hgPnMIw2o+5PsQJi7DtCtX9RY=
-=GTM3
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmESCYkACgkQ7ulgGnXF
+3j1x0g//VswT0EDyGkmGqLRUJfxnX8h/G5GRH6jjiKfv3yQChnDhCsgc36PncJAe
+G8gR/ijq3ny+fHOt913SLYLRx8iSP+yhHxLkMUAr8l7P0H5Zut9N/stuDzgr/RAu
+dmYpkHWZoMYDV32lTrnAA9lsoIm6Du7YnENgMH6/jUr45i4IglkOF9osoENDhqw7
+3zXSxwJO/15bQja/fcXYXnNi+KScUbKMkx451/r/6+Yykv8pf4gAkWlJF7Dzce0B
+Y1U8sUAvbjvS+OySvBIWuEZQn1+ECCt3RBLyFXkIFuaD8t2dpv5GAXVfnIHJnUeO
+FIVjndT1pl2oXB6y+pE6vqq4x8xSpf3U4r41NAicunXTqpGIl5qty4n9qSSCVGTk
+ky3CgchjboXb7lEtnjjImXFKoeoEIH0B5/MRgVdrK5TV380GWxRa9fVmaWmzlOUV
+Wjgtw16uz0sw74dmV7xJBNsfSNY9/2vottJDUUWstPFFskRZAIjJcWiY0pt4u/R5
+FjmyJGMgc8mg1BM+DaXnMrY+ovOeBbMj6g6kVSTu48KgI/qoDekkmEz8vXI0knFl
+PW3HrIGAgoAzknA67/mJTkLOS6ElIIXoqyJTpx1Jzr9RQglUAdLMd5E8+QuK/sMD
+GTxCW7ba2kGTscRakh5Hy75ASsM9oDqshDAkhhgtea7WbZsbU1M=
+=mIQ7
 -----END PGP SIGNATURE-----
 
---===============2175715791141666837==
+--===============4312992060327618783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69d2270efdb9-eb06164405f7.txt
+Content-Disposition: attachment; filename=revlist-33529018294f-f5efd4fe78de.txt
 
 f02bc9754a6887bf5e286889265d24ce5e3b1952 scsi: ufs: ufshpb: Introduce Host Performance Buffer feature
 4b5f49079c52a7eadd2defbd8d2a270664a881d4 scsi: ufs: ufshpb: L2P map management for HPB read
@@ -100,4 +100,4 @@ f0101af435c4640e78c0fa0dbacb443c0f31cfb7 scsi: ufs: core: Remove redundant call 
 63522bf3aced0a782b59f0314dbad5cdc8b14c59 scsi: ufs: core: Add L2P entry swap quirk for Micron UFS
 f5efd4fe78de871515444b660029074be17ec11f scsi: ufs: core: Add lu_enable sysfs node
 
---===============2175715791141666837==--
+--===============4312992060327618783==--
