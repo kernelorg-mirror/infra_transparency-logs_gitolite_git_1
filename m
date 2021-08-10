@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1242198462399279581=="
+Content-Type: multipart/mixed; boundary="===============1394982205217288584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Aug 2021 12:54:12 -0000
-Message-Id: <162860005270.26182.4365121910567058558@gitolite.kernel.org>
+Date: Tue, 10 Aug 2021 12:58:01 -0000
+Message-Id: <162860028155.28893.7453159441110038397@gitolite.kernel.org>
 
---===============1242198462399279581==
+--===============1394982205217288584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/timers/core
-    old: 2d0a9eb23ccfdf11308bec6db0bc007585d919d2
-    new: 698429f9d0e54ce3964151adff886ee5fc59714b
-    log: revlist-2d0a9eb23ccf-698429f9d0e5.txt
+  - ref: refs/heads/smp/core
+    old: 130708331bc6b03a3c3a78599333faddfebbd0f3
+    new: 844d87871b6e0ac3ceb177535dcdf6e6a9f1fd4b
+    log: revlist-130708331bc6-844d87871b6e.txt
 
---===============1242198462399279581==
+--===============1394982205217288584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d0a9eb23ccf-698429f9d0e5.txt
+Content-Disposition: attachment; filename=revlist-130708331bc6-844d87871b6e.txt
 
 e39f00f60ebd2e7b295c37a05e6349df656d3eb8 KVM: x86: Use kernel's x86_phys_bits to handle reduced MAXPHYADDR
 fc9bf2e087efcd81bda2e52d09616d2a1bf982a8 KVM: x86/mmu: Do not apply HPA (memory encryption) mask to GPAs
@@ -1049,6 +1049,6 @@ fb7b9b0231ba8f77587c23f5257a4fdb6df1219e kyber: make trace_block_rq call consist
 713f0f37e8128e8a0190a98f5a4be71fb32a671a Merge tag 'sched-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cceb634774efca60f8cc57041234f00faf97f22d Merge tag 'timers-urgent-2021-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 36a21d51725af2ce0700c6ebcb6b9594aac658a6 Linux 5.14-rc5
-698429f9d0e54ce3964151adff886ee5fc59714b clocksource: Replace deprecated CPU-hotplug functions.
+844d87871b6e0ac3ceb177535dcdf6e6a9f1fd4b smpboot: Replace deprecated CPU-hotplug functions.
 
---===============1242198462399279581==--
+--===============1394982205217288584==--
