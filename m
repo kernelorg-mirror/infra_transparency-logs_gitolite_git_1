@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 10 Aug 2021 12:04:06 -0000
-Message-Id: <162859704682.22120.798494369879356436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Aug 2021 12:10:12 -0000
+Message-Id: <162859741264.26996.17400714221275211631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/topic/memalloc-noncontig
-    old: 1ad83773e86dffc73ea1fc990d16bb686ea1f453
-    new: 80b4d9a4e1d285c019a70b5744c8ddf8cc8098ca
+  - ref: refs/heads/master
+    old: 75d45ef3fe3c2a281181f398fd56d297df084804
+    new: 929b1ffb577d391fdee60aa526c7464edfcb2580
     log: |
-         e976e9e6e6f17e054cf57dd5fa2864f42bf4d5b2 ALSA: pcm: Add SNDRV_PCM_INFO_EXPLICIT_SYNC flag
-         b654d97732a2ab3e17dfd13b1a0356c93ee5ea65 ALSA: memalloc: Assign ops field to snd_dma_buffer
-         3c6e4660cbbdda098f83adc445efc4b11ecb0664 ALSA: memalloc: Support for non-contiguous page allocation
-         80b4d9a4e1d285c019a70b5744c8ddf8cc8098ca ALSA: memalloc: Support for non-coherent page allocation
+         a71c9db4ffecdd162e281af95df154d7a5eb8f2b Fixes for 5.13
+         e85d1a8705e99670949d49e4e3cee6997b1c4703 Fixes for 5.10
+         7a37dbef307f6257e62dcc2f92b401af3f5ae002 Fixes for 5.4
+         2485b86aab8bcbce140c0724d20e76ae95b8a5b3 Fixes for 4.19
+         d08bc5d860aea5dc1207798089ad58c3c770419f Fixes for 4.14
+         436d65dd594c7803bb91d4cec48cf3fde958fcc1 Fixes for 4.9
+         929b1ffb577d391fdee60aa526c7464edfcb2580 Fixes for 4.4
          
