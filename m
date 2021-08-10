@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Tue, 10 Aug 2021 06:59:18 -0000
-Message-Id: <162857875829.22553.16865048525366654327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 10 Aug 2021 07:04:17 -0000
+Message-Id: <162857905795.25714.2697305367485114856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/omap-for-v5.15/dt
-    old: c477358e66a3a6db4f1799b7415068d6660c95c3
-    new: 29fabf5274bfb89124918840c79851659a25ba79
-    log: |
-         7244c8af762a0e2ad09d58a71d7440cbd7d6ccb7 ARM: dts: am335x-sancloud-bbe: Fix missing pinctrl refs
-         29fabf5274bfb89124918840c79851659a25ba79 ARM: dts: am335x-sancloud-bbe: Drop usb wifi comment
-         
+  - ref: refs/heads/cpufreq/em
+    old: 0000000000000000000000000000000000000000
+    new: 87fecd84e3f6ff6f153be14b0d53de93c0b04ae6
