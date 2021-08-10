@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 10 Aug 2021 18:35:56 -0000
-Message-Id: <162862055625.26787.13176853867294920158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 10 Aug 2021 18:40:39 -0000
+Message-Id: <162862083952.29771.14140662104464919467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: e1dee2c1de2b4dd00eb44004a4bda6326ed07b59
-    new: 55981d3541812234e687062926ff199c83f79a39
+  - ref: refs/heads/dev
+    old: fbf7000a46852865bfdcfe132eeb270aa63d124a
+    new: 89846ee52b8df56ec5cf6686014c6629897b9475
     log: |
-         55981d3541812234e687062926ff199c83f79a39 Bluetooth: btusb: check conditions before enabling USB ALT 3 for WBS
+         74524c78ec920d9a1177797499baac2e1cf60f5f rcu: Make rcu_normal_after_boot writable again
+         89846ee52b8df56ec5cf6686014c6629897b9475 rcu: Make rcu update module parameters world-readable
          
