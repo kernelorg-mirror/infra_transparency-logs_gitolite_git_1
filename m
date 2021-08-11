@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 11 Aug 2021 14:36:32 -0000
-Message-Id: <162869259240.31554.6496834105497533104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 11 Aug 2021 14:38:52 -0000
+Message-Id: <162869273202.32474.4344021314875540454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: 04329ffa6b0397e82c7576bfc5ca04cbf4f37a6d
-    new: d4dc95c7274843cf2494cc084f8aae601014a5ba
+  - ref: refs/heads/master
+    old: 6e68b841449ba5fac183167ef62a23878a520e9e
+    new: 926cb4d039344065768b835785317591d812b884
     log: |
-         6fadc1241c33fe0228c94bc6a1aa6c1da8872e8b KVM: arm64: perf: Replace '0xf' instances with ID_AA64DFR0_PMUVER_IMP_DEF
-         b31578f627177bda5c16894e3170a7a6a1236136 arm64/mm: Define ID_AA64MMFR0_TGRAN_2_SHIFT
-         d4dc95c7274843cf2494cc084f8aae601014a5ba Merge branch kvm-arm64/misc-5.15 into kvmarm-master/next
+         3b511f71a4922d9dea034c5af47fb236df47079a lscpu:Add Phytium FT-2000+ & S2500 support
+         926cb4d039344065768b835785317591d812b884 Merge branch 'master' of https://github.com/panchenbo/util-linux
          
