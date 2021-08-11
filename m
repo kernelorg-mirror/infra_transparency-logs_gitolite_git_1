@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 11 Aug 2021 09:05:17 -0000
-Message-Id: <162867271755.3535.3423201236397500901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 11 Aug 2021 09:13:35 -0000
+Message-Id: <162867321514.7778.8080237884919367334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 9c35c5728b4887da73a95283c6a5f1d7c26c7abc
-    new: 77d4e97784714a4862334fa05ab8590735d0eab6
+    old: 84a8fdf01a90e0b7bbdfd00cb4f242a4efd64ce4
+    new: f25303b5373e634b6f422d4cd481bd3b9f5393e0
     log: |
-         28af0586b7ea96efe04fc96cb23613d77445b1c2 docs: fix info about LIBSMARTCOLS_DEBUG_PADDING
-         642a1a00a52a8c9ef8d48980a8567ab0aa307d0c lscpu:Add Phytium aarch64 cpupart
-         77d4e97784714a4862334fa05ab8590735d0eab6 Merge branch 'master' of https://github.com/panchenbo/util-linux
+         f25303b5373e634b6f422d4cd481bd3b9f5393e0 Wed 11 Aug 2021 09:13:05 AM UTC
          
