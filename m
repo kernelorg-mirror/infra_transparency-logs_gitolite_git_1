@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4666602886658326746=="
+Content-Type: multipart/mixed; boundary="===============5655521187825551418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 11 Aug 2021 07:41:58 -0000
-Message-Id: <162866771893.27905.7163525210418580547@gitolite.kernel.org>
+Date: Wed, 11 Aug 2021 07:42:24 -0000
+Message-Id: <162866774469.28143.1551527235649981423@gitolite.kernel.org>
 
---===============4666602886658326746==
+--===============5655521187825551418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 987219ad34a67b6160e6f5247578596a1a887031
-    new: dcda94c9412a079df2e7b6b7e167342349db3a3f
+    old: dcda94c9412a079df2e7b6b7e167342349db3a3f
+    new: e3027f25c6f756056a314b82c11971349cca7a62
     log: |
-         dcda94c9412a079df2e7b6b7e167342349db3a3f staging: r8188eu: Replace BITn with BIT(n)
+         e3027f25c6f756056a314b82c11971349cca7a62 staging: r8188eu: Use GFP_ATOMIC under spin lock
          
 
---===============4666602886658326746==
+--===============5655521187825551418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628667714 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628667741 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1628667714-65be0e9ed7a93480cb91065df53291104ea006d1
+nonce 1628667741-fa948ebac02d96da4138b0db8d786ee973a48208
 
-987219ad34a67b6160e6f5247578596a1a887031 dcda94c9412a079df2e7b6b7e167342349db3a3f refs/heads/staging-testing
+dcda94c9412a079df2e7b6b7e167342349db3a3f e3027f25c6f756056a314b82c11971349cca7a62 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmETf0IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wxEQALMd1K77oC5Xgl9m5cg8
-mPlQ6lDWG7tYRiEhTNbDPnXz5LwFZ3rwmgPmKoZk3UqEjY2pah+BuEKOxY81EzCD
-iyxC212NRbm7XF0u6kkduR0Ltsjm3QVNnZz8pujbnipbrPN6S+KrGjIrcQIJXSO7
-R9a4Ac17RqKRtvOjTLtklsZy83Zs+Py3yJImCVNxMMUwZDhjq37GOYx+/6DwYNE1
-55yoCsAbSX/ebwLXmXiT07KguBxXVHrn89vS2W3PcWTIbFq/4LEwCJ719dllhug3
-/18QhHNVm6Wdxpc5B4+QnUwGgtUs/nD8PhaU9YeDU2Ihc0TY+uiKS4T3I8rDDWyq
-/TjAI68K7P39BlAguksiPNjD/hMzz91B/RZlqogGM8WL2tow+J4FhMJ7OvpPzphc
-0BqGA+LoxRBBdyyDuV9Dh7uiAm77UIJGmi7iDR41FxLPUmpEM3eW8Mn9y2yBzbdH
-0R75QBUi2r/XL2qe8InXbrJA3S9ZqhnVaxPeISE7u2LFnrt3kwXZRLBDM+xh+d0D
-eE+Is/xJNGB5DBpmXw5xtG5eWGxXwsjCWYd8AVsRccWxwWZ3m1g1HwBTX3kyrOW+
-gSfvg+b+U7vLmB1Xn+FcqmW8MUAodkxfvPsHrB8DHPh61ArhOIbzygs0HH6yl4Kh
-NlQgrr5wxXJie+qC0ECskW8o
-=AAoc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmETf10bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tsIP/Rbe07ufnKdA+0kY4DF1
+YRsL2NAtc/T8uLB7B932mtzmtKrQ1tNidmsbag1xbts7rF0Yqs9DGGF7ZliSNH6o
+2X8jwFeCnXklqdklDuVZosl8x3YdfVeQYcTxYhLmPyKotNU2Z0ZPZLxbN5lU/+un
+Zn54R2Ln9zCfiIqOhq0hq9WzC5J1JNz7fYMq+gfZbsRyJn9t+rhha0juL1VcWoGV
+cxawtRNtJPZL5HvEwnyoh6mOv9l1F8RVIDZZhNJjsO1XReCjyF9lh7ypAUV+uNiY
+5r28HdAqQiRfnqfVRfZ+d+qXt5Pc+zu4wGHGtZR6fvGdYrJX27FlxhSqO2OH0g4b
+1nEgX3dZ6T4PbnQog14kMH2CZyTLG6sJwxXjM6zOOijD5EV8fXFOhkTDO9OfUwN2
+4wsLHq48gTqFdCTaqPgeVfOyBV9meKEQO42Z0bAsnyHDdLiPNFU8Q2VEyN1Pw2I7
+R5+0r/gutJUc2yCY/rGfyicFgsKqv/FwqAMTvP8xRAReBXZAWzr5AXn2qRg4GW4V
+2/4ueLu5ZGbVyGcsHX4xx376rziMYm1Vfi2koS7jtojndi4iRCIZLlsypFGakk1H
+OtiDxUit6gVluttmLZSsJpFuqWRihau7RdQIAp7aq8V2LhTXslWZWqpUJ3AP0pNQ
+vs7yYZWA4Wap96dP9j4T3mp4
+=9b5R
 -----END PGP SIGNATURE-----
 
---===============4666602886658326746==--
+--===============5655521187825551418==--
