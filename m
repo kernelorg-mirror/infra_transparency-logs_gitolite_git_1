@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 11 Aug 2021 01:48:52 -0000
-Message-Id: <162864653239.25384.5469240983924036349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 11 Aug 2021 01:50:03 -0000
+Message-Id: <162864660302.26933.18200858953668322663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dev-test
-    old: 771c994ea51f572539ca3961c6a7706862b147e2
-    new: d252ff3de786a28b1bedf4c03fb31d142d32219b
+  - ref: refs/heads/io_uring-irq
+    old: 5b948e3be301dbb28d1b580cce7eebe0db4ae96a
+    new: af05b4c016b21af89c24447cd309bb93db3c0367
     log: |
-         f4d4e5fc2b3d03c7e4f3c24ee694a01f8fe27d53 erofs: directly use wrapper erofs_page_is_managed() when shrinking
-         d252ff3de786a28b1bedf4c03fb31d142d32219b erofs: remove the mapping parameter from erofs_try_to_free_cached_page()
+         76801ae56018d4004b871a16dd5733f49594e1d1 io_uring: run timeouts from task_work
+         44ada34f9b47daa1665ed5a3b9a126d2ea379d73 io_uring: run linked timeouts from task_work
+         0c6828d5572324aa46e1eff58a7ed16f52e03bcd io_uring: run regular file completions from task_work
+         af05b4c016b21af89c24447cd309bb93db3c0367 io_uring: remove IRQ aspect of io_ring_ctx completion lock
          
