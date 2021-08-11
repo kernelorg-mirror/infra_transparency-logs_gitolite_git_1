@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6037841746687382858=="
+Content-Type: multipart/mixed; boundary="===============0067152508906635646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 11 Aug 2021 15:46:12 -0000
-Message-Id: <162869677231.13634.3094252882728757979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 11 Aug 2021 15:46:26 -0000
+Message-Id: <162869678672.13868.17002564293095415804@gitolite.kernel.org>
 
---===============6037841746687382858==
+--===============0067152508906635646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: d9191ec2345d657f90943791d1ec1131d78f21dc
-    new: ee6cb383885cebe7560e166fbfcb95d95485b0b6
-    log: revlist-d9191ec2345d-ee6cb383885c.txt
+  - ref: refs/heads/queue-next
+    old: 4a41df7662fc54f47dc9c486016ae9e24c23a12b
+    new: 2bb9ce36e349c7ec29e08514540d824d0d88ce35
+    log: revlist-4a41df7662fc-2bb9ce36e349.txt
 
---===============6037841746687382858==
+--===============0067152508906635646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9191ec2345d-ee6cb383885c.txt
+Content-Disposition: attachment; filename=revlist-4a41df7662fc-2bb9ce36e349.txt
 
-96cd2dd65bb0b94c908f2df32bba7350fc1b954e net/mlx5: Add DCS caps & fields support
 616d5769345528b989294a242a5906b157a92837 IB/mlx5: Rename is_apu_thread_cq function to is_apu_cq
 241d1af4c11a75d4c17ecc0193a6ab60553efbfc netfilter: nft_compat: use nfnetlink_unicast()
 92fb15513edc6ae1eb51f717e70d4d3d538c2d09 netfilter: flowtable: remove nf_ct_l4proto_find() call
@@ -205,5 +204,7 @@ a24e421e6c7aa3ce715636c21014918e000f2f0a Merge branch 'patchq/407396' into mlx5-
 3b1de77efe032ff60803ce423fdda3d93ee3f8bd Merge branch 'mlx5-queue' into net-next
 476b5e708f9e7885a3f7710b310620edaf6a8a4e Merge branch 'mlx4-for-net' into net-next
 ee6cb383885cebe7560e166fbfcb95d95485b0b6 Merge branch 'mlx5-for-net' into net-next
+3289b7e92176ec38c186247302de7ea061da9bff Merge branch 'net-next' into queue-next
+2bb9ce36e349c7ec29e08514540d824d0d88ce35 Merge branch 'testing/rdma-next' into queue-next
 
---===============6037841746687382858==--
+--===============0067152508906635646==--
