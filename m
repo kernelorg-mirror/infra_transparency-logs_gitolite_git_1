@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Aug 2021 12:47:32 -0000
-Message-Id: <162868605277.20258.11840600718535762347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 11 Aug 2021 13:02:23 -0000
+Message-Id: <162868694362.30669.11830478984545767812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/smp/core
-    old: ebca71a8c96f0af2ba482489ecc64d88979cd825
-    new: 49b3bd213a9f3d685784913c255c6a2cb3d1fcce
+  - ref: refs/heads/devel
+    old: 936c985478716b228f42f47c075d4ea10dfa98bb
+    new: f03f5c75f5dddda2a615a9640f4385138e0ba43b
     log: |
-         49b3bd213a9f3d685784913c255c6a2cb3d1fcce smp: Fix all kernel-doc warnings
+         328fb93a84686d8884b9b7ce1107ae0a46c194f7 dt-bindings: pinctrl: qcom-pmic-gpio: Convert qcom pmic gpio bindings to YAML
+         f03f5c75f5dddda2a615a9640f4385138e0ba43b dt-bindings: pinctrl: qcom-pmic-gpio: Remove the interrupts property
          
