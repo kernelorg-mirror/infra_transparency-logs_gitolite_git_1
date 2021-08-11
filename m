@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Wed, 11 Aug 2021 01:31:27 -0000
-Message-Id: <162864548770.14769.9486347777087188585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 11 Aug 2021 01:48:52 -0000
+Message-Id: <162864653239.25384.5469240983924036349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 8070dfec397c5baf83dc5e9a342eb0248c8e7947
-    new: 4db87d88aec313b6fda78b48b3f28fdc6c751180
+  - ref: refs/heads/dev-test
+    old: 771c994ea51f572539ca3961c6a7706862b147e2
+    new: d252ff3de786a28b1bedf4c03fb31d142d32219b
     log: |
-         b56ffb05b423ad9d28b16c2662f41584f1fac2ff Add some documentation concerning the cap.FuncLauncher() behavior.
-         4db87d88aec313b6fda78b48b3f28fdc6c751180 Noticed that this pam_cap/Makefile comment had unintentionally migrated
+         f4d4e5fc2b3d03c7e4f3c24ee694a01f8fe27d53 erofs: directly use wrapper erofs_page_is_managed() when shrinking
+         d252ff3de786a28b1bedf4c03fb31d142d32219b erofs: remove the mapping parameter from erofs_try_to_free_cached_page()
          
