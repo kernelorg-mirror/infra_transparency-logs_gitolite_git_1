@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4071061441911567481=="
+Content-Type: multipart/mixed; boundary="===============5549233201435102427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 11 Aug 2021 17:55:46 -0000
-Message-Id: <162870454698.3776.946399986048345292@gitolite.kernel.org>
+Date: Wed, 11 Aug 2021 17:55:57 -0000
+Message-Id: <162870455700.3898.6039424301798971484@gitolite.kernel.org>
 
---===============4071061441911567481==
+--===============5549233201435102427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,82 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 2a2b6e3640c43a808dcb5226963e2cc0669294b1
-    new: 88be3263490514854a1445ae95560585601ff160
-    log: revlist-2a2b6e3640c4-88be32634905.txt
+  - ref: refs/heads/mlx5-queue
+    old: a24e421e6c7aa3ce715636c21014918e000f2f0a
+    new: 6c56ddeac6510ad6f9ba45925ba47c5231ffced6
+    log: revlist-a24e421e6c7a-6c56ddeac651.txt
 
---===============4071061441911567481==
+--===============5549233201435102427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a2b6e3640c4-88be32634905.txt
+Content-Disposition: attachment; filename=revlist-a24e421e6c7a-6c56ddeac651.txt
 
-96cd2dd65bb0b94c908f2df32bba7350fc1b954e net/mlx5: Add DCS caps & fields support
-616d5769345528b989294a242a5906b157a92837 IB/mlx5: Rename is_apu_thread_cq function to is_apu_cq
 241d1af4c11a75d4c17ecc0193a6ab60553efbfc netfilter: nft_compat: use nfnetlink_unicast()
 92fb15513edc6ae1eb51f717e70d4d3d538c2d09 netfilter: flowtable: remove nf_ct_l4proto_find() call
 7c1829b6aa74fff71abc1c9565151e50ad1aa3e1 netfilter: ipt_CLUSTERIP: only add arp mangle hook when required
 ded2d10e9ad816e1f962def22191e38ebfb4bb11 netfilter: ipt_CLUSTERIP: use clusterip_net to store pernet warning
 f2e3778db7e13fd9a83c309dd8c9fbe69ba8efbe netfilter: remove xt pernet data
 87663c39f898b18905499126548da61450628682 netfilter: ebtables: do not hook tables by default
-b61a28cf11d61f512172e673b8f8c4a6c789b425 bpf: Fix off-by-one in tail call count limiting
-83f31535565c63ac4f62c7b8592210929a630d3d bpf, unix: Check socket type in unix_bpf_update_proto()
-6d4eb36d65979ad48f4b05c3309e0c74f04e5ac6 bpf: Fix bpf_prog_test_run_xdp logic after incorrect merge resolution
-34ad6d9d8c27293e1895b448af7d6cf5d351ad8d bpf, samples: Add missing mprog-disable to xdp_redirect_cpu's optstring
-372642ea83ff1c71a5d567a704c912359eb59776 selftests/bpf: Move netcnt test under test_progs
 ff1199db8c3b7cdc3ac4430badfd254023c5142e netfilter: ctnetlink: add and use a helper for mark parsing
 9344988d2979ce9eefe136a69efcf692615ebba8 netfilter: ctnetlink: allow to filter dump by status bits
-97a8a8c1f985baf13a3d0d252b787850330d2ea7 net/mlx5: Return mdev from eswitch
-af8c0e25f249abf8829f0cfa074b08d7398e3e38 net/mlx5: Lag, add initial logic for shared FDB
-6aeb16a1345e480bd395b9168570e93c902a05f3 RDMA/mlx5: Fill port info based on the relevant eswitch
-979bf468fc543444eb750c8f8817407f509bd504 {net, RDMA}/mlx5: Extend send to vport rules
-c446d9da64075b1c8b55df9acaae72c7686c59a5 RDMA/mlx5: Add shared FDB support
-d04442540372b1c0ae0e13eaca5851cb0a4464af net/mlx5: E-Switch, set flow source for send to uplink rule
-5d5defd6b8915d031af5b71bf463991d14644f89 net/mlx5e: Add an option to create a shared mapping
-2198b93279b2fa36bfc51c621d14f93244fb4965 net/mlx5e: Use shared mappings for restoring from metadata
-c8e6a9e6d6bb29db08e0b69ae97f1e46ccc5691c net/mlx5: E-Switch, Add event callback for representors
-898b07861565e7276de6f179a196b062a2c72f8d net/mlx5: Add send to vport rules on paired device
-cac1eb2cf2e338260c5e2ffb098dfa0508ee40aa net/mlx5: Lag, properly lock eswitch if needed
-63d4a9afbcee4167ffb0d126b23b8884b15e5837 net/mlx5: Lag, move lag destruction to a workqueue
-db202995f5035f13a11df48a0af05edbb3720659 net/mlx5: E-Switch, add logic to enable shared FDB
-598fe77df855feeeca9dfda2ffe622ac7724e5c3 net/mlx5: Lag, Create shared FDB when in switchdev mode
-277b134057036df8c657079ca92c3e5e7d10aeaf selftests/bpf: Fix bpf-iter-tcp4 test to print correctly the dest IP
-579345e7f2190c1ee97f44154526dcd458ea790d selftests/bpf: Rename reference_tracking BPF programs
-29f24c43cbe09b83162776a370848d5a782dc3b7 samples/bpf: xdpsock: Make the sample more useful outside the tree
-f4700a62c27161e364f66fdce527e8b04083c444 samples/bpf: xdpsock: Remove forward declaration of ip_fast_csum()
-c83ae15dc9470da6ddfcb9485235cba1a3ed8740 Merge branch 'samples/bpf: xdpsock: Minor enhancements'
 fdacd57c79b79a03c7ca88f706ad9fb7b46831c1 netfilter: x_tables: never register tables by default
-a815bde56b15ce626caaacc952ab12501671e45d net, bonding: Refactor bond_xmit_hash for use with xdp_buff
-879af96ffd72706c6e3278ea6b45b0b0e37ec5d7 net, core: Add support for XDP redirection to slave device
-9e2ee5c7e7c35d195e2aa0692a7241d47a433d1e net, bonding: Add XDP support to the bonding driver
-aeea1b86f9363f3feabb496534d886f082a89f21 bpf, devmap: Exclude XDP broadcast to master device
-689186699931313c7a42462602bd5c03eef77f9f net, core: Allow netdev_lower_get_next_private_rcu in bh context
-95413846cca37f20000dd095cf6d91f8777129d7 selftests/bpf: Fix xdp_tx.c prog section name
-6aab1c81b98a90a9289a4d5256b6f7374872cc3f selftests/bpf: Add tests for XDP bonding
-57f05bc2ab2443b89c2e2562c05053bcc7d30e8b page_pool: keep pp info as long as page pool owns the page
-0e9d2a0a3a836c37528899010e73b5be8111753e page_pool: add interface to manipulate frag count in page pool
-53e0961da1c7bbdabd1abebb20de403ec237ec09 page_pool: add frag page recycling support in page pool
-93188e9642c3ce11d11b2663905b703dfe89e349 net: hns3: support skb's frag page recycling based on page pool
-4ef3960ea19c3b2bced37405b251f05fd4b35545 Merge branch 'add-frag-page-support-in-page-pool'
-d692a637b4c5151a064f1eabd404944b31e28336 samples, bpf: Add an explict comment to handle nested vlan tagging.
-b55dfa850015453144c969208a7518e7095259a4 bpf, tests: Add BPF_JMP32 test cases
-565731acfcf28ffdaeeae3f03f3ced719f30bd99 bpf, tests: Add BPF_MOV tests for zero and sign extension
-e92c813bf1193248dd9f938e76af545fa9cf7361 bpf, tests: Fix typos in test case descriptions
-ba89bcf78fba8ff99d84b762c56fbfdabc97731c bpf, tests: Add more tests of ALU32 and ALU64 bitwise operations
-0f2fca1ab18319dcb47f6b15b7c5d3f29da84b6d bpf, tests: Add more ALU32 tests for BPF_LSH/RSH/ARSH
-3b9890ef80f4285d32f2274d20db108e064e5e9e bpf, tests: Add more BPF_LSH/RSH/ARSH tests for ALU64
-faa576253d5fe757f0c573ef7e183b3416c58dae bpf, tests: Add more ALU64 BPF_MUL tests
-84024a4e86d9b2085f3444190b30d5f88c76e07b bpf, tests: Add tests for ALU operations implemented with function calls
-e5009b4636cb593c06243197fd0742ed2e6ac510 bpf, tests: Add word-order tests for load/store of double words
-66e5eb8474554bc021e8a221c336bdaef13f7a69 bpf, tests: Add branch conversion JIT test
-53e33f9928cd61272e8e7902a876cb8cdf3f5c07 bpf, tests: Add test for 32-bit context pointer argument passing
-e4517b3637c648b215307e3343900ec675fde607 bpf, tests: Add tests for atomic operations
-6a3b24ca489ea01d5b4d5a2539e75dfb5e1e18be bpf, tests: Add tests for BPF_CMPXCHG
-874be05f525e87768daf0f47b494dc83b9537243 bpf, tests: Add tail call test suite
-d1a4e0a9576fd2b29a0d13b306a9f52440908ab4 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 8702997074363c294a1f83928cd0c33ca57bf813 netfilter: nf_queue: move hookfn registration out of struct net
-ebd0d30cc5e44ed3a6db7683bd357b3eea636e74 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 a5397d68b2dbdb8f725ab2ff420171fbde39dbe5 net/sched: cls_api, reset flags on replay
 d3432bf10f17bd8ef7d6ca0a268f63bfb0c3d372 net: Support filtering interfaces on no master
 6f45933dfed0c1d90c2d9acfe6b782c5560ee038 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
@@ -134,5 +79,46 @@ f1dacd7aea34333620bd5177a8808a3296a63184 net: dsa: create a helper that strips E
 5d928ff4865641309e39e9ec8eec1022f8a0c0ac net: dsa: create a helper for locating EtherType DSA headers on RX
 a72808b65834e99534f6c5c7134c201c72fe92aa net: dsa: create a helper for locating EtherType DSA headers on TX
 88be3263490514854a1445ae95560585601ff160 Merge branch 'dsa-tagger-helpers'
+d7c7a121491a98590f8d93fc3871246da99d299e net/mlx5: Fix typo in comments
+51659840785fee1f9099e2ebe8b021fc6acfba7c net/mlx5e: Make use of netdev_warn()
+97f46517b7164bf3e59e4e5992afc7f678536a6e net/mlx5: Fix inner TTC table creation
+969914ea45b78dd917b2572bc2c65341e63b62e6 net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+a4697b34e8857c03f54e0deef84709a97df31fdc net/mlx5: DR, Split modify VLAN state to separate pop/push states
+3cce63ffaca436e2a693266d52c092740c58115a net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+98bff3a08146a415ab01e513e954695853f3dfd1 net/mlx5: DR, Enable QP retransmission
+77907de90fc27393e93508484085062a9852861f net/mlx5: DR, Improve error flow in actions_build_ste_arr
+c311038479cfd648b6671856e5f3bf3ef8334dc9 net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+1d4a2b2a0b159e00b084646d08ca864408ff123c net/mlx5: DR, Reduce print level for FT chaining level check
+77a89efa44947431672e237274a78982b2df6769 net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+036e4a47f23dbdfa4aba6b52f8e7a633ed013b4a net/mlx5: DR, replace uintN_t with kernel-style types
+8ab868f8630462db077fb832683b2c25d5b7c140 net/mlx5: DR, Use FW API when updating FW-owned flow table
+c24e774866abcad7c50845d425f86ccf651e9dd0 net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+9de646999aae31ae8ad764987ae923806f0ef010 net/mlx5: DR, Skip source port matching on FDB RX domain
+b12e55f4d9ab20b7eb6fbb2a22fb3c8214a00421 net/mlx5: DR, Merge DR_STE_SIZE enums
+b9126133ee0c151aa4d86debd82fbfa5e508a6e8 net/mlx5: DR, Remove HW specific STE type from nic domain
+3af5f39e2579f33f86e7e5f6cf8bbe59d2e6381c net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+ae1272f50cdb19c16e8ed9999c8de0fe8f2236ec net/mlx5: DR, Improve rule tracking memory consumption
+678ee3e7c2e68d2a5f6270693267d1832b199e55 net/mlx5: DR, Add support for update FTE
+67f7ba029e3c767df235335fe562d135acaa5f89 net/mlx5: Delete impossible dev->state checks
+0c378ee798a462fd395b5a5c447d03ffa4fd70d4 net/mlx5: DR, Fix code indentation in dr_ste_v1
+51eb3fa2a26643eb449d25d2a6c5fa73ce672601 net/mlx5: Align mlx5_irq structure
+d57df703a1e2222146d7dd4753d217a8661d9cf9 net/mlx5: Change SF missing dedicated MSI-X err message to dbg
+f0b6cdc812efd0c25f717307fb700a5434486c1a net/mlx5: Refcount mlx5_irq with integer
+fb7ac21f2c1e83ca5dc265a4415bd90eb88fe3f7 net/mlx5: SF, use recent sysfs api
+5aa1a2132f80344a199f9fa764d47f878bc4949a net/mlx5: Reorganize current and maximal capabilities to be per-type
+98020f405996ddc763542a8d7e75a9de1eade737 net/mlx5: Allocate individual capability
+cca474730ff1bda60f272033b939d3736da32d40 net/mlx5: Fix typo in comments
+e534a3bd7a398dd978a250ecbee532d16d2a09ac net/mlx5: Lag, fix multipath lag activation
+ae2b10756664b1f171a5efd186df7f9b1350e0e0 net/mlx5: Initialize numa node for all core devices
+ab413727745a467b86f32a8a0310a231ebf34399 Merge branch 'patchq/421246' into mlx5-queue
+14a1d8196b7d793c6e29f415cc0ac9b42accfc15 Merge branch 'patchq/413311' into mlx5-queue
+e26f78832a6c2905a149c48c80d081eccb8fa3f2 Merge branch 'patchq/420077' into mlx5-queue
+7a574b254d1ce41c9e349976d89996d958f868b8 Merge branch 'patchq/419320' into mlx5-queue
+bc24c2a75994e16ec9da097cad93edcaefce181d Merge branch 'patchq/408757' into mlx5-queue
+dcdd70a5bef7bc3f0d2659614d7bd47c1ab6f495 Merge branch 'patchq/397917' into mlx5-queue
+ec33782fa06e1697086841fc0d65edcd986d2e31 Merge branch 'patchq/414336' into mlx5-queue
+b0248d3c1456c82aa6bdba046fea324573457658 Merge branch 'patchq/412107' into mlx5-queue
+81ec1d9835f67a33f759465fdcbb7289f70eeca4 Merge branch 'patchq/411074' into mlx5-queue
+6c56ddeac6510ad6f9ba45925ba47c5231ffced6 Merge branch 'patchq/407396' into mlx5-queue
 
---===============4071061441911567481==--
+--===============5549233201435102427==--
