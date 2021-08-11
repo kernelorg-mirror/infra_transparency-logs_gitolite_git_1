@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 11 Aug 2021 17:59:13 -0000
-Message-Id: <162870475370.5161.4818135506235212797@gitolite.kernel.org>
+Date: Wed, 11 Aug 2021 18:14:43 -0000
+Message-Id: <162870568350.14589.7762802868394335237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 519133debcc19f5c834e7e28480b60bdc234fe02
-    new: e636ff76509d08bac42624fb507014147496b57c
-    log: |
-         e636ff76509d08bac42624fb507014147496b57c net/mlx5: Lag, fix multipath lag activation
-         
+  - ref: refs/tags/mlx5-updates-2021-08-11
+    old: 0000000000000000000000000000000000000000
+    new: 1ad46908747dbc64b9e369937fc5cd2c36e891dd
