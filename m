@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1382256359187807421=="
+Content-Type: multipart/mixed; boundary="===============3795889464342448807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Aug 2021 14:11:12 -0000
-Message-Id: <162869107268.14571.11144916179067960606@gitolite.kernel.org>
+Date: Wed, 11 Aug 2021 14:11:32 -0000
+Message-Id: <162869109274.14793.1146980891945755460@gitolite.kernel.org>
 
---===============1382256359187807421==
+--===============3795889464342448807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: ebd0d30cc5e44ed3a6db7683bd357b3eea636e74
     new: 25dc3895baaa0b2b11b5e48cc8f6b074fa200d38
     log: revlist-ebd0d30cc5e4-25dc3895baaa.txt
 
---===============1382256359187807421==
+--===============3795889464342448807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ a72808b65834e99534f6c5c7134c201c72fe92aa net: dsa: create a helper for locating 
 88be3263490514854a1445ae95560585601ff160 Merge branch 'dsa-tagger-helpers'
 25dc3895baaa0b2b11b5e48cc8f6b074fa200d38 selftests/bpf: Fix running of XDP bonding tests
 
---===============1382256359187807421==--
+--===============3795889464342448807==--
