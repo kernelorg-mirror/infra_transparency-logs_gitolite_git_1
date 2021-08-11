@@ -1,71 +1,170 @@
-Content-Type: multipart/mixed; boundary="===============3815482107530084891=="
+Content-Type: multipart/mixed; boundary="===============7642957124571025378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 11 Aug 2021 00:49:00 -0000
-Message-Id: <162864294049.14260.10081211481696524911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 11 Aug 2021 00:50:04 -0000
+Message-Id: <162864300414.15641.4065077332736346655@gitolite.kernel.org>
 
---===============3815482107530084891==
+--===============7642957124571025378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/rcu/next
-    old: 195671c13d06a9eb07d137351e27145d83c88b4e
-    new: 7f331fc57eafebe07e77a828741084db8d3b1dfe
-    log: revlist-195671c13d06-7f331fc57eaf.txt
+  - ref: refs/heads/for-5.15/io_uring
+    old: 111671659c966c39500440b8a0a6bbc2fb2e4a91
+    new: 7015b25d7a87b207e766807aa1852875eb84ecd4
+    log: revlist-111671659c96-7015b25d7a87.txt
+  - ref: refs/heads/for-next
+    old: 3ee2fcbd3ed28a1d32cf78babe612fbec7b62427
+    new: 9b1a1a00a51ed3139c1a16cb4bdad037959943bc
+    log: revlist-3ee2fcbd3ed2-9b1a1a00a51e.txt
+  - ref: refs/heads/io_uring-irq
+    old: 72b4ff941b013ccd9b5a2a59163bc24f97057481
+    new: 5b948e3be301dbb28d1b580cce7eebe0db4ae96a
+    log: revlist-72b4ff941b01-5b948e3be301.txt
+  - ref: refs/heads/master
+    old: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+    new: 9e723c5380c6e14fb91a8b6950563d040674afdb
+    log: revlist-36a21d51725a-9e723c5380c6.txt
 
---===============3815482107530084891==
+--===============7642957124571025378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-195671c13d06-7f331fc57eaf.txt
+Content-Disposition: attachment; filename=revlist-111671659c96-7015b25d7a87.txt
 
-d3dd95a8853f1d588e38e9d9d7c8cc2da412cc36 rcu: Replace deprecated CPU-hotplug functions
-ed4fa2442e87bf9143d608473df117589e4bfc70 torture: Replace deprecated CPU-hotplug functions.
-b770efc4608d24fb446b94e1087d9989425dd39b Merge branches 'doc.2021.07.20c', 'fixes.2021.08.06a', 'nocb.2021.07.20c', 'nolibc.2021.07.20c', 'tasks.2021.07.20c', 'torture.2021.07.27a' and 'torturescript.2021.07.27a' into HEAD
-10e192c8b2dba68fad57f8bc4e2ea5a2f5de0191 Merge branch 'kcsan.2021.07.20c' into HEAD
-a6c343d1853bad25a921e61ff46307b64700e972 Merge branch 'lkmm.2021.07.27a' into HEAD
-eedbbd1bbdc8b91431810a17ae1698c41b534809 Merge branch 'lkmm-dev.2021.07.20a' into HEAD
-dfa949a3b16c28db5d27acfea781c3c25eaffdcc Merge branch 'clocksource.2021.07.20c' into HEAD
-f55088ee95f1d923fc45d10d732845abec191a5b torture: Apply CONFIG_KCSAN_STRICT to kvm.sh --kcsan argument
-b7cf8b572fa72c23227ceb22e4f4721ac6059e81 scftorture: Allow zero weight to exclude an smp_call_function*() category
-2678d628c74311da6613f03e7f178f6f27ad90a2 scftorture: Shut down if nonsensical arguments given
-ac986f377e6d6fcf560720edb08c0f69f626615d scftorture: Account for weight_resched when checking for all zeroes
-7ea6167cc6a1b9ae40cbba0c1bfeb8dd75975f29 scftorture: Count reschedule IPIs
-9f121dc9e40c4813f0b05755c938510ef9dc3b8d torture: Make torture.sh print the number of files to be compressed
-1a0d28e902c491ec589872b597aa24f87772bbc4 tools/rcu: Add an extract-stall script
-2aefb8e769c87ede4f6421c930160a1ab1aed1b1 rcu: Mark accesses to rcu_state.n_force_qs
-d1f1f891e8fd913791cc8fda5a1cf8637ffa13d1 rcu-nocb: Fix a couple of tree_nocb code-style nits
-eee2c635160be3ab545776b0a21d07bdc6c17c07 torture: Allot 1G of memory for scftorture runs
-ef62bf7e92d8fc890cbee204bdd7a74744d501ee irq: abstract irqaction handler invocation
-2eeaae3c02b9bf3df43f9c6b217a042f9df77988 irq: detect long-running IRQ handlers
-f926bf0f57d2f9ee4969dd833901d87c3ad05988 rcu: Eliminate rcu_implicit_dynticks_qs() local variable rnhqp
-c2a27b8f49da707b8ccaa7c7fafd756749b7e996 rcu: Eliminate rcu_implicit_dynticks_qs() local variable ruqp
-671353b28f4330eb0e460e7cd4045d20303869aa doc: Add another stall-warning root cause in stallwarn.rst
-871c225c941e7579287c3bc201ad2cf65ca9653b rcu: Fix undefined Kconfig macros
-044b364b0a483598152a49201d3878414385f050 rcu: Comment rcu_gp_init() code waiting for CPU-hotplug operations
-d6ee1c8fc09ed3441a517e4282ac6cd4a099517d clocksource: Forgive repeated long-latency watchdog clocksource reads
-0eb479d9ee9e4e38332e42cd40c0f6569f6c7062 rcu-tasks: Wait for trc_read_check_handler() IPIs
-7609dfe9d08f2588a5994ea8fa986911e45fa679 rcu-tasks: Simplify trc_read_check_handler() atomic operations
-a6f03ea9a951e630a98ad26d6ba76eb998cf43f4 rcu-tasks: Add trc_inspect_reader() checks for exiting critical section
-84291a7e0dd4af06309b16ad4227962761e8e6a9 rcu-tasks: Remove second argument of rcu_read_unlock_trace_special()
-6b2c2fba544793402840080b7dd8897cab27351f rcu: Move rcu_dynticks_eqs_online() to rcu_cpu_starting()
-f5413b21d6e5c274df7f82cf54ff1ae984bf3334 rcu: Simplify rcu_report_dead() call to rcu_report_exp_rdp()
-76ae8a54e35c69e6098a783fc630e07fad1c4253 rcu: Make rcutree_dying_cpu() use its "cpu" parameter
-c9d6dfea63dc56662ca60bd07956d5151d19bf44 rcutorture: Suppressing read-exit testing is not an error
-3d0479957dec315971c2d777fce9cbc7d4d91014 rcu-tasks: Fix s/instruction/instructions/ typo in comment
-7217f112d8a2d5468845c5f060e13f7da69ef363 torture: Make kvm-remote.sh print size of downloaded tarball
-4cf160473c27264fb748b64c369d006036b67fd6 rcutorture: Warn on individual rcu_torture_init() error conditions
-2ca6b3a4b815a454ae26ed7bf92d70e11a0978a2 locktorture: Warn on individual lock_torture_init() error conditions
-3368a3069374b1a93db6e19f971f4b335c7247cb refscale: Warn on individual ref_scale_init() error conditions
-6fa803cd23f9b46ae9491f00f0e2849c63a325c1 rcuscale: Warn on individual rcu_scale_init() error conditions
-257a474dd8922667611c2f6bc3595ee6be8b2c19 scftorture: Warn on individual scf_torture_init() error conditions
-7f331fc57eafebe07e77a828741084db8d3b1dfe rcutorture: Don't cpuhp_remove_state() if cpuhp_setup_state() failed
+36ac281018ff2c88e288b69bfb73e2a23efd9737 io_uring: be smarter about waking multiple CQ ring waiters
+5133a6714e1254dfe0a9498be2e50f950f39108e io_uring: use kvmalloc for fixed files
+b9d6d382af4c2ad6fdd56e447c58280a1d894c14 io_uring: inline fixed part of io_file_get()
+8260368457e9b6d5a52f771e756f4a4753c308cf io_uring: rename io_file_supports_async()
+c0c2dcc94e91e5a840b8e8368943fa2f29dafd67 io_uring: avoid touching inode in rw prep
+d2424c332cacd05925644c0473f617f81f10d0e7 io_uring: clean io-wq callbacks
+96f638c0e22accdd963cf79fee200ccd88e5c281 io_uring: remove unnecessary PF_EXITING check
+c43287aa4fe1c8465bf72fe2bf188e06fa4e340e io-wq: improve wq_list_add_tail()
+0767a98a39f59c529c939ebd595b83b28ac45750 io_uring: refactor io_alloc_req
+4730f05eadd58a2d790fd8c4613c5963ce825ae4 io_uring: don't halt iopoll too early
+4ec2c18f7a103f381adef7bc52f653f17680c424 io_uring: add more locking annotations for submit
+ce67fd47eb7572036679238dab12d2910f114069 io_uring: optimise io_cqring_wait() hot path
+bbf18d476963e1526da9b87720a6dc6f64e5f73f io_uring: extract a helper for ctx quiesce
+0c52e5e799e4695239d81df50d692dfa6bc1d1ef io_uring: move io_put_task() definition
+003cda4b07d82bb1acf8f9fd6463767c64819b7a io_uring: move io_rsrc_node_alloc() definition
+74e739d99ea897a96f7a3d1333ef2f128d1e8c6c io_uring: inline io_free_req_deferred
+fdc019991dd4b7d07ad59b831163d7d7413e5b22 io_uring: deduplicate open iopoll check
+78a189a62591425062d325690fe17bd60a85327b io_uring: improve ctx hang handling
+dae1c59dddfa04babeeab31531c02d12ba9635cd io_uring: kill unused IO_IOPOLL_BATCH
+4ddc28d9773afc57c0579103ece93d134b594d79 io_uring: drop exec checks from io_req_task_submit
+96b0fdd60ffea4052600bac377a010968f4a6827 io_uring: optimise putting task struct
+180686a79a71662473bdd99dda5156d7c0ea706f io_uring: move io_fallback_req_func()
+a8b225274797367c8e7007cc4066ac7db55e0c60 io_uring: cache __io_free_req()'d requests
+6b3e79e8e2a0b132e2fa14912faf1b6a623725b4 io_uring: remove redundant args from cache_free
+6bfba7674974ad366cd1cf20ef93ee6500c53d9c io_uring: use inflight_entry instead of compl.list
+d10299e14aae35a30a1691cf5935b2da70cb110f io_uring: inline struct io_comp_state
+88c2d13e6e05d0e8bd4d50aaafe8ed88d4287e57 io_uring: remove extra argument for overflow flush
+3b8fa628e7e55a855871a4e43666fd5f4f710d9d io_uring: inline io_poll_remove_waitqs
+825763bae1b80b68b989f33c007000dc9598f6ea io_uring: clean up tctx_task_work()
+7015b25d7a87b207e766807aa1852875eb84ecd4 io_uring: remove file batch-get optimisation
 
---===============3815482107530084891==--
+--===============7642957124571025378==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3ee2fcbd3ed2-9b1a1a00a51e.txt
+
+36ac281018ff2c88e288b69bfb73e2a23efd9737 io_uring: be smarter about waking multiple CQ ring waiters
+5133a6714e1254dfe0a9498be2e50f950f39108e io_uring: use kvmalloc for fixed files
+b9d6d382af4c2ad6fdd56e447c58280a1d894c14 io_uring: inline fixed part of io_file_get()
+8260368457e9b6d5a52f771e756f4a4753c308cf io_uring: rename io_file_supports_async()
+c0c2dcc94e91e5a840b8e8368943fa2f29dafd67 io_uring: avoid touching inode in rw prep
+d2424c332cacd05925644c0473f617f81f10d0e7 io_uring: clean io-wq callbacks
+96f638c0e22accdd963cf79fee200ccd88e5c281 io_uring: remove unnecessary PF_EXITING check
+c43287aa4fe1c8465bf72fe2bf188e06fa4e340e io-wq: improve wq_list_add_tail()
+0767a98a39f59c529c939ebd595b83b28ac45750 io_uring: refactor io_alloc_req
+4730f05eadd58a2d790fd8c4613c5963ce825ae4 io_uring: don't halt iopoll too early
+4ec2c18f7a103f381adef7bc52f653f17680c424 io_uring: add more locking annotations for submit
+ce67fd47eb7572036679238dab12d2910f114069 io_uring: optimise io_cqring_wait() hot path
+bbf18d476963e1526da9b87720a6dc6f64e5f73f io_uring: extract a helper for ctx quiesce
+0c52e5e799e4695239d81df50d692dfa6bc1d1ef io_uring: move io_put_task() definition
+003cda4b07d82bb1acf8f9fd6463767c64819b7a io_uring: move io_rsrc_node_alloc() definition
+74e739d99ea897a96f7a3d1333ef2f128d1e8c6c io_uring: inline io_free_req_deferred
+fdc019991dd4b7d07ad59b831163d7d7413e5b22 io_uring: deduplicate open iopoll check
+78a189a62591425062d325690fe17bd60a85327b io_uring: improve ctx hang handling
+dae1c59dddfa04babeeab31531c02d12ba9635cd io_uring: kill unused IO_IOPOLL_BATCH
+4ddc28d9773afc57c0579103ece93d134b594d79 io_uring: drop exec checks from io_req_task_submit
+96b0fdd60ffea4052600bac377a010968f4a6827 io_uring: optimise putting task struct
+180686a79a71662473bdd99dda5156d7c0ea706f io_uring: move io_fallback_req_func()
+a8b225274797367c8e7007cc4066ac7db55e0c60 io_uring: cache __io_free_req()'d requests
+6b3e79e8e2a0b132e2fa14912faf1b6a623725b4 io_uring: remove redundant args from cache_free
+6bfba7674974ad366cd1cf20ef93ee6500c53d9c io_uring: use inflight_entry instead of compl.list
+d10299e14aae35a30a1691cf5935b2da70cb110f io_uring: inline struct io_comp_state
+88c2d13e6e05d0e8bd4d50aaafe8ed88d4287e57 io_uring: remove extra argument for overflow flush
+3b8fa628e7e55a855871a4e43666fd5f4f710d9d io_uring: inline io_poll_remove_waitqs
+825763bae1b80b68b989f33c007000dc9598f6ea io_uring: clean up tctx_task_work()
+7015b25d7a87b207e766807aa1852875eb84ecd4 io_uring: remove file batch-get optimisation
+9b1a1a00a51ed3139c1a16cb4bdad037959943bc Merge branch 'for-5.15/io_uring' into for-next
+
+--===============7642957124571025378==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-72b4ff941b01-5b948e3be301.txt
+
+36ac281018ff2c88e288b69bfb73e2a23efd9737 io_uring: be smarter about waking multiple CQ ring waiters
+5133a6714e1254dfe0a9498be2e50f950f39108e io_uring: use kvmalloc for fixed files
+b9d6d382af4c2ad6fdd56e447c58280a1d894c14 io_uring: inline fixed part of io_file_get()
+8260368457e9b6d5a52f771e756f4a4753c308cf io_uring: rename io_file_supports_async()
+c0c2dcc94e91e5a840b8e8368943fa2f29dafd67 io_uring: avoid touching inode in rw prep
+d2424c332cacd05925644c0473f617f81f10d0e7 io_uring: clean io-wq callbacks
+96f638c0e22accdd963cf79fee200ccd88e5c281 io_uring: remove unnecessary PF_EXITING check
+c43287aa4fe1c8465bf72fe2bf188e06fa4e340e io-wq: improve wq_list_add_tail()
+0767a98a39f59c529c939ebd595b83b28ac45750 io_uring: refactor io_alloc_req
+4730f05eadd58a2d790fd8c4613c5963ce825ae4 io_uring: don't halt iopoll too early
+4ec2c18f7a103f381adef7bc52f653f17680c424 io_uring: add more locking annotations for submit
+ce67fd47eb7572036679238dab12d2910f114069 io_uring: optimise io_cqring_wait() hot path
+bbf18d476963e1526da9b87720a6dc6f64e5f73f io_uring: extract a helper for ctx quiesce
+0c52e5e799e4695239d81df50d692dfa6bc1d1ef io_uring: move io_put_task() definition
+003cda4b07d82bb1acf8f9fd6463767c64819b7a io_uring: move io_rsrc_node_alloc() definition
+74e739d99ea897a96f7a3d1333ef2f128d1e8c6c io_uring: inline io_free_req_deferred
+fdc019991dd4b7d07ad59b831163d7d7413e5b22 io_uring: deduplicate open iopoll check
+78a189a62591425062d325690fe17bd60a85327b io_uring: improve ctx hang handling
+dae1c59dddfa04babeeab31531c02d12ba9635cd io_uring: kill unused IO_IOPOLL_BATCH
+4ddc28d9773afc57c0579103ece93d134b594d79 io_uring: drop exec checks from io_req_task_submit
+96b0fdd60ffea4052600bac377a010968f4a6827 io_uring: optimise putting task struct
+180686a79a71662473bdd99dda5156d7c0ea706f io_uring: move io_fallback_req_func()
+a8b225274797367c8e7007cc4066ac7db55e0c60 io_uring: cache __io_free_req()'d requests
+6b3e79e8e2a0b132e2fa14912faf1b6a623725b4 io_uring: remove redundant args from cache_free
+6bfba7674974ad366cd1cf20ef93ee6500c53d9c io_uring: use inflight_entry instead of compl.list
+d10299e14aae35a30a1691cf5935b2da70cb110f io_uring: inline struct io_comp_state
+88c2d13e6e05d0e8bd4d50aaafe8ed88d4287e57 io_uring: remove extra argument for overflow flush
+3b8fa628e7e55a855871a4e43666fd5f4f710d9d io_uring: inline io_poll_remove_waitqs
+825763bae1b80b68b989f33c007000dc9598f6ea io_uring: clean up tctx_task_work()
+7015b25d7a87b207e766807aa1852875eb84ecd4 io_uring: remove file batch-get optimisation
+60ce13b83ccd5ed7668c9d90411152218af7f009 io_uring: run timeouts from task_work
+82f6f9f3fa995088d45d440dfc6c33005127548c io_uring: run linked timeouts from task_work
+348e834a776765dac9cc9e99b451c8bc0512b91c io_uring: run regular file completions from task_work
+7341dab82ac2caf322717171b3cd9e5aef4eccc6 io_uring: remove IRQ aspect of io_ring_ctx completion lock
+5b948e3be301dbb28d1b580cce7eebe0db4ae96a io_uring: timeout locking fixes
+
+--===============7642957124571025378==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-36a21d51725a-9e723c5380c6.txt
+
+c3df5fb57fe8756d67fd56ed29da65cdfde839f9 cgroup: rstat: fix A-A deadlock on 32bit around u64_stats_sync
+153cca9caa81ca8912a70528daca4b9a523c6898 platform/x86: Add and use a dual_accel_detect() helper
+085fc31f81765e061c78cdcab0e5516fd672bff7 platform/x86: Make dual_accel_detect() KIOX010A + KIOX020A detect more robust
+9d7b132e62e41b7d49bf157aeaf9147c27492e0f platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
+9a73fa375d58fee5262dd16473c8e7522bdf44de Merge branch 'for-5.14-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+9011c2791e63fc05721b545c41ad025d8073566e ovl: skip stale entries in merge dir cache iteration
+9b91b6b019fda817eb52f728eb9c79b3579760bc ovl: fix deadlock in splice write
+580c610429b3994e8db24418927747cf28443cde ovl: fix uninitialized pointer read in ovl_lookup_real_one()
+427215d85e8d1476da1a86b8d67aceb485eb3631 ovl: prevent private clone if bind mount is not allowed
+b3f0ccc59cfeb508a3774e8653069d76ffadc37e Merge tag 'ovl-fixes-5.14-rc6-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
+9e723c5380c6e14fb91a8b6950563d040674afdb Merge tag 'platform-drivers-x86-v5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+
+--===============7642957124571025378==--
