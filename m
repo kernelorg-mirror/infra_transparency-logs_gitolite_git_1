@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 11 Aug 2021 01:50:03 -0000
-Message-Id: <162864660302.26933.18200858953668322663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 11 Aug 2021 02:38:59 -0000
+Message-Id: <162864953953.25015.14650768388939456784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/io_uring-irq
-    old: 5b948e3be301dbb28d1b580cce7eebe0db4ae96a
-    new: af05b4c016b21af89c24447cd309bb93db3c0367
+  - ref: refs/heads/master
+    old: 9e723c5380c6e14fb91a8b6950563d040674afdb
+    new: 761c6d7ec820f123b931e7b8ef7ec7c8564e450f
     log: |
-         76801ae56018d4004b871a16dd5733f49594e1d1 io_uring: run timeouts from task_work
-         44ada34f9b47daa1665ed5a3b9a126d2ea379d73 io_uring: run linked timeouts from task_work
-         0c6828d5572324aa46e1eff58a7ed16f52e03bcd io_uring: run regular file completions from task_work
-         af05b4c016b21af89c24447cd309bb93db3c0367 io_uring: remove IRQ aspect of io_ring_ctx completion lock
+         d4067395519b40d4ee9b7c26347233e4ae59f900 arc: Prefer unsigned int to bare use of unsigned
+         81e82fa58098b13af206c8ba4edb690bf5b7d5d5 arc: Fix spelling mistake and grammar in Kconfig
+         bf79167fd86f3b97390fe2e70231d383526bd9cc ARC: Fix CONFIG_STACKDEPOT
+         3a715e80400f452b247caa55344f4f60250ffbcf ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
+         669d94219d91a2ba950bb12ece69cf0ada53ad4f MAINTAINERS: update Vineet's email address
+         761c6d7ec820f123b931e7b8ef7ec7c8564e450f Merge tag 'arc-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
          
