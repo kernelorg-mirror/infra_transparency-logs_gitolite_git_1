@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4337228546496791423=="
+Content-Type: multipart/mixed; boundary="===============0413224041076160601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 11 Aug 2021 15:49:01 -0000
-Message-Id: <162869694102.16193.11234154053783296751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 11 Aug 2021 15:49:08 -0000
+Message-Id: <162869694870.16353.16845540827480816004@gitolite.kernel.org>
 
---===============4337228546496791423==
+--===============0413224041076160601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 52525a36298ebc8b7906a7009858668b339d64e1
-    new: 3a08cb6806f0c9b6423376e0354f243b8bc79417
-    log: revlist-52525a36298e-3a08cb6806f0.txt
+  - ref: refs/heads/queue-rc
+    old: f229836c01b164e33d2ce6f9780ff8913730775f
+    new: 25bf2e459af91d7505c1eb6b2a543c4e17cdf5ef
+    log: revlist-f229836c01b1-25bf2e459af9.txt
 
---===============4337228546496791423==
+--===============0413224041076160601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52525a36298e-3a08cb6806f0.txt
+Content-Disposition: attachment; filename=revlist-f229836c01b1-25bf2e459af9.txt
 
 50ac7479846053ca8054be833c1594e64de496bb ice: Prevent probing virtual functions
 c503e63200c679e362afca7aca9d3dc63a0f45ed ice: Stop processing VF messages during teardown
@@ -90,5 +90,7 @@ df21dfd9bfc21e0f0769177d723a6dea0ed4825e Merge branch 'patchq/390802' into mlx5-
 a2352b5ffeea00a1d794912537567e66ea1171ff Merge branch 'patchq/408611' into mlx5-for-net
 cdb0960eb8fbf9a55dfa89284f98a5c7b48d5cfa Merge branch 'mlx4-for-net' into net-rc
 3a08cb6806f0c9b6423376e0354f243b8bc79417 Merge branch 'mlx5-for-net' into net-rc
+93c05bc7316e310176abeab8b1f31e6798ff6cd3 Merge branch 'net-rc' into queue-rc
+25bf2e459af91d7505c1eb6b2a543c4e17cdf5ef Merge branch 'testing/rdma-rc' into queue-rc
 
---===============4337228546496791423==--
+--===============0413224041076160601==--
