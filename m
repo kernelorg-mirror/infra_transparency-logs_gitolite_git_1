@@ -1,34 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Wed, 11 Aug 2021 09:45:53 -0000
-Message-Id: <162867515386.30147.8705392269993367415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 11 Aug 2021 10:16:06 -0000
+Message-Id: <162867696698.16984.13699504974834546223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/net-5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 59ecbe92433a2bbb9168e356be21a80c9f640c19
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/heads/kvm-arm64/misc-5.15
+    old: 013cc4c6788f1ce9885d3c0281904f93ee8f2271
+    new: 676ffd34807e4ce3ec2af7952c22608e08c4b085
+    log: |
+         676ffd34807e4ce3ec2af7952c22608e08c4b085 KVM: arm64: perf: Replace '0xf' instances with ID_AA64DFR0_PMUVER_IMP_DEF
+         
