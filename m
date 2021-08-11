@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 11 Aug 2021 14:55:32 -0000
-Message-Id: <162869373272.12461.11856988614721306307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 11 Aug 2021 15:01:48 -0000
+Message-Id: <162869410834.16155.13470802552698196491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for_next
-    old: 8c3f90d839b572c7f4a164295d0970bd832998e9
-    new: ca6e04e8f8d17e6987aa652594afda7cc2750937
+  - ref: refs/heads/kvm-arm64/misc-5.15
+    old: b31578f627177bda5c16894e3170a7a6a1236136
+    new: 5e5df9571c319fb107d7a523cc96fcc99961ee70
     log: |
-         781d2a9a2fc7d0be53a072794dc03ef6de770f3d udf: Check LVID earlier
-         04e8ee504a677d07dd60f6c8aae912e4842301c8 udf: Remove unused declaration
-         b3c8c9801eb9b8e0f73246b4b14efbde1a4c570c udf: Get rid of 0-length arrays
-         979a6e28dd969a2222545001f79566b4bfaf06c0 udf: Get rid of 0-length arrays in struct fileIdentDesc
-         ca6e04e8f8d17e6987aa652594afda7cc2750937 Pull udf cleanups and LVID check fix.
+         5e5df9571c319fb107d7a523cc96fcc99961ee70 KVM: arm64: Restrict IPA size to maximum 48 bits on 4K and 16K page size
          
