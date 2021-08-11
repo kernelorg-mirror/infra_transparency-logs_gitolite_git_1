@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Aug 2021 22:00:37 -0000
-Message-Id: <162871923707.4739.1139240643571807487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 11 Aug 2021 22:01:40 -0000
+Message-Id: <162871930023.5190.5474153681023564109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: bc8968e420dcff8d240fe1d49fd0b2214be98ca5
-    new: 6e98893ec0f198ab1be66e149173afe49b3dc578
+    old: 6922110d152e56d7569616b45a1f02876cf3eb9f
+    new: 0271824d9ebe945a2ecefdb87e1ce0a520be704d
     log: |
-         891a88f4f5768b1e6ff52a2386d48558aa5a3f63 bonding: remove extraneous definitions from bonding.h
-         6569fa2d4e0147759f7580cb36fd6505feab12f7 bonding: combine netlink and console error messages
-         6e98893ec0f198ab1be66e149173afe49b3dc578 Merge branch 'bonding-cleanup-header-file-and-error-msgs'
+         2cad5d2ed1b47eded5a2f2372c2a94bb065a8f97 net: pcs: xpcs: fix error handling on failed to allocate memory
+         6de035fec045f8ae5ee5f3a02373a18b939e91fb tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+         0271824d9ebe945a2ecefdb87e1ce0a520be704d MAINTAINERS: switch to my OMP email for Renesas Ethernet drivers
          
