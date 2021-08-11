@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 11 Aug 2021 14:38:52 -0000
-Message-Id: <162869273202.32474.4344021314875540454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 11 Aug 2021 14:55:32 -0000
+Message-Id: <162869373272.12461.11856988614721306307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: 6e68b841449ba5fac183167ef62a23878a520e9e
-    new: 926cb4d039344065768b835785317591d812b884
+  - ref: refs/heads/for_next
+    old: 8c3f90d839b572c7f4a164295d0970bd832998e9
+    new: ca6e04e8f8d17e6987aa652594afda7cc2750937
     log: |
-         3b511f71a4922d9dea034c5af47fb236df47079a lscpu:Add Phytium FT-2000+ & S2500 support
-         926cb4d039344065768b835785317591d812b884 Merge branch 'master' of https://github.com/panchenbo/util-linux
+         781d2a9a2fc7d0be53a072794dc03ef6de770f3d udf: Check LVID earlier
+         04e8ee504a677d07dd60f6c8aae912e4842301c8 udf: Remove unused declaration
+         b3c8c9801eb9b8e0f73246b4b14efbde1a4c570c udf: Get rid of 0-length arrays
+         979a6e28dd969a2222545001f79566b4bfaf06c0 udf: Get rid of 0-length arrays in struct fileIdentDesc
+         ca6e04e8f8d17e6987aa652594afda7cc2750937 Pull udf cleanups and LVID check fix.
          
