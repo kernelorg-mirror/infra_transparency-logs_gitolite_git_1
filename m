@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4994620225336693182=="
+Content-Type: multipart/mixed; boundary="===============5955928860737903536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 12 Aug 2021 08:28:18 -0000
-Message-Id: <162875689820.6870.10244113911339552961@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 08:28:45 -0000
+Message-Id: <162875692553.7195.8328975056472766637@gitolite.kernel.org>
 
---===============4994620225336693182==
+--===============5955928860737903536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 221abd4d478ab52fd17de9287fa302ac0e06f7b3
-    new: 0d5e4bfe47eaf6080c812748a359f64be8073b3c
+    old: 0d5e4bfe47eaf6080c812748a359f64be8073b3c
+    new: 626520f4ba27d92c8caaf2d1f70c4bca4ea3f9de
     log: |
-         4d50f76395122d1a4e24bbba79986889e4b457ff staging: r8188eu: Fix Smatch warnings for core/*.c
-         178cd80dc15c9f47a839e4a65242cfca5eca4c70 staging: r8188eu: Fix smatch problems in hal/*.c
-         0d5e4bfe47eaf6080c812748a359f64be8073b3c staging: r8188eu: Fix smatch warnings in os_dep/*.c
+         0ea03f795df43643a932cd9ee809fdc7ecafa873 staging: r8188eu: Fix a couple scheduling in atomic bugs
+         626520f4ba27d92c8caaf2d1f70c4bca4ea3f9de staging: r8188eu: scheduling in atomic in rtw_createbss_cmd()
          
 
---===============4994620225336693182==
+--===============5955928860737903536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628756893 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628756922 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1628756893-300c1a5b47a61a38ffdd8c668c0823d8495495f9
+nonce 1628756921-b78fc402f9de80e606430271a833286f59fda5f1
 
-221abd4d478ab52fd17de9287fa302ac0e06f7b3 0d5e4bfe47eaf6080c812748a359f64be8073b3c refs/heads/staging-testing
+0d5e4bfe47eaf6080c812748a359f64be8073b3c 626520f4ba27d92c8caaf2d1f70c4bca4ea3f9de refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEU250bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZTkP/ju07tHkpxYSCRYibq+H
-AZv4XMmE6TdjuJ50hxOKDWliLGd1qHai8Gk9Q6vzpjtU7s5aZulyKYNMkArAWZC9
-8anDMJJYoGQow9yPDZqcALH1ZOt5C1AjH0qU1mG96n21izLRav5Cv76iXofzV5KY
-Zpe65R4RotvMoXTbXgbRC9Suq1PE/AzrrW2lQIE5Sc85ZmEkvRlOUJCdefFr00me
-yZlOquJ3iTW+9f/8haKCsfeluP6OUS6MRZYc0rqas0EhRAXFpTiyBp4rGWUyIUgM
-KWPasOxTRo9xky3ylkjcGGn5s0aTYeQrBTHZkHtneGhEcmWeRiait8s1vvAkQhzt
-9X5vqv6gijeE+7mXc7oPv9RM1pv8UiFF/ks2BH/Oh1xl8IlTu606dVwhys7eKerQ
-Oa1/we1G5kffcUKuLCR6Hw6St4Nu3NkWuQnwaChHqzWrIhHD55LPET6N4zDHjk7+
-eg3ZlI3trbfCxKQw1Yq1PVIwX7AXBQeimAJaQpBSm1/Cjw7PwSa/w8YPWNKBMKjD
-U1+hiL8M93T2BkosZm037sRjJl7h423Ptdu8eX6qDEvZM8nTF4jjb2zXdlGYPPX5
-V/i3nfSx/Kfg77B42R4Q/o2t8aiP6h6h5brJ3IkgXoQIL343lnTHdUBiVNQYPdMs
-buEf1+OKZrL3e5n/DG8OcroF
-=p/+j
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEU27obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cSYQAKr1/fLAU9LyL5I33Rm5
+05Qm5vYXa1MhLCTz6Fayx/NTFaeP563HjP1r6SNXo3nUn3ivRRUZSfi69JGPu/PZ
+wy6ikFVqiCyxrWQ9IpxlXLObmSXeaeBgdPlaJI8qwsyUHHOytWa8kpNr7dJB+Nal
+GmdLzsW13FaOIvyRj8X75Wne/0YVVRyLtCewYmrClg68EZvYfQFTZ/oY/bSZ33PI
+W6ka66uZ/Ar+S+TnCcdtFMbGg70XDEIDWxmUlHaWzvht1Tfbbfj1Zp4xyhLULexR
+52NVbI9NxTea/S1VwyAcPdufBQAnnhGTJ0ARBoUho1l11un8QWKOj9cMsqJC8t6B
+WrmtgJ5FZi6o9NwnelSMM+Wz5iBBoWOb67YyOUV2XPWnYQVHgs/IaIf2PqjOgspa
+pxlP8DtMRehxHkixL8pS+xHcPz6pgw+Iu2ltEd6kXhfwRSAutHxQcTvoHO4+MIDz
+ei4N7F17XCiHkv4LjgoXWIwghz3y3Pg2FnTIv1AI1imSOhbh+GyTklUIP+QYpuTW
+5VNykxVcwlDM3YC1UaO1ipAqOaZFX0JRgKD//Mq0Gla9a9PeUfVvS2WzdEOoTo3t
+TIqR2fr9gYEoVcHQ3TUQJB89a647KJ4NwvkfLZUBnkzhNcAZS1CcJrajNAzEiQ2n
+WLhjH/ScSPMCY5fvGdWY+ABx
+=+PMo
 -----END PGP SIGNATURE-----
 
---===============4994620225336693182==--
+--===============5955928860737903536==--
