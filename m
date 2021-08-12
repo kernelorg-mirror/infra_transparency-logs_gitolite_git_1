@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8398978465339767260=="
+Content-Type: multipart/mixed; boundary="===============2389091041269321963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Thu, 12 Aug 2021 15:20:13 -0000
-Message-Id: <162878161330.17351.17339684032262809240@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 15:20:16 -0000
+Message-Id: <162878161619.17468.5448629272576800955@gitolite.kernel.org>
 
---===============8398978465339767260==
+--===============2389091041269321963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 168452ee695b5edb9deb641059bc110b9c5e8fc7
-    new: 24c4a85d85142b9b502af0c71a3372a128b4e65d
-    log: revlist-168452ee695b-24c4a85d8514.txt
+  - ref: refs/heads/dev-queue
+    old: 308938b0f1483974c3dac724b22b6e4793a9cc7d
+    new: 157e8cf2d5f61d65be5e3066520fa2ce7ee2c60c
+    log: revlist-308938b0f148-157e8cf2d5f6.txt
 
---===============8398978465339767260==
+--===============2389091041269321963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-168452ee695b-24c4a85d8514.txt
+Content-Disposition: attachment; filename=revlist-308938b0f148-157e8cf2d5f6.txt
 
 5dd32d878e7561789422f3e1fe0f7c48fcc00e04 qca: Add firmware files for BT chip WCN6750.
 2ea630c8f25625abbf96e8f59a454d06e3b5c851 i915: Add v2.12 DMC for TGL
@@ -56,5 +56,6 @@ d7b50e61669dc137924337d03d09b8986eb752a3 amdgpu: revert back to older picasso sd
 99d72504bff7ab40c261b8509c0b9d8abf98b296 amdgpu: revert back to older raven sdma firmware
 d843e520a4b0d92b986645548d11ade3b9b239a4 amdgpu: revert back to older raven2 sdma firmware
 24c4a85d85142b9b502af0c71a3372a128b4e65d Merge branch 'master' of https://github.com/suraj714/linux-firmware-BT into main
+157e8cf2d5f61d65be5e3066520fa2ce7ee2c60c ice: update package file to 1.3.26.0
 
---===============8398978465339767260==--
+--===============2389091041269321963==--
