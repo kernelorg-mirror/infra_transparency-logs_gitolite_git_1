@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3120450304771520750=="
+Content-Type: multipart/mixed; boundary="===============5867611482049871123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 12 Aug 2021 12:22:10 -0000
-Message-Id: <162877093095.22352.1028503917810500226@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 12:22:33 -0000
+Message-Id: <162877095353.22572.3779094119924110770@gitolite.kernel.org>
 
---===============3120450304771520750==
+--===============5867611482049871123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 168452ee695b5edb9deb641059bc110b9c5e8fc7
     new: 24c4a85d85142b9b502af0c71a3372a128b4e65d
     log: revlist-168452ee695b-24c4a85d8514.txt
 
---===============3120450304771520750==
+--===============5867611482049871123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ d7b50e61669dc137924337d03d09b8986eb752a3 amdgpu: revert back to older picasso sd
 d843e520a4b0d92b986645548d11ade3b9b239a4 amdgpu: revert back to older raven2 sdma firmware
 24c4a85d85142b9b502af0c71a3372a128b4e65d Merge branch 'master' of https://github.com/suraj714/linux-firmware-BT into main
 
---===============3120450304771520750==--
+--===============5867611482049871123==--
