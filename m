@@ -1,42 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0377516097365867045=="
+Content-Type: multipart/mixed; boundary="===============1297892860347447351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 12 Aug 2021 10:30:45 -0000
-Message-Id: <162876424595.8667.16268504287064409503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 12 Aug 2021 10:35:56 -0000
+Message-Id: <162876455607.11768.5399411475714766911@gitolite.kernel.org>
 
---===============0377516097365867045==
+--===============1297892860347447351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/queue-rc
-    old: 25bf2e459af91d7505c1eb6b2a543c4e17cdf5ef
-    new: 54c54c1015051913f8c500ed4db806c9b49b8b03
-    log: revlist-25bf2e459af9-54c54c101505.txt
+  - ref: refs/heads/irq/generic_handle_domain_irq
+    old: 6ce40f3bacda086ed8583a2e58eb5de13b40afc5
+    new: da0cc79689d5842e87d7ce4685d87516314fa32e
+    log: revlist-6ce40f3bacda-da0cc79689d5.txt
 
---===============0377516097365867045==
+--===============1297892860347447351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25bf2e459af9-54c54c101505.txt
+Content-Disposition: attachment; filename=revlist-6ce40f3bacda-da0cc79689d5.txt
 
-e636ff76509d08bac42624fb507014147496b57c net/mlx5: Lag, fix multipath lag activation
-6922110d152e56d7569616b45a1f02876cf3eb9f net: linkwatch: fix failure to restore device state across suspend/resume
-2cad5d2ed1b47eded5a2f2372c2a94bb065a8f97 net: pcs: xpcs: fix error handling on failed to allocate memory
-6de035fec045f8ae5ee5f3a02373a18b939e91fb tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-0271824d9ebe945a2ecefdb87e1ce0a520be704d MAINTAINERS: switch to my OMP email for Renesas Ethernet drivers
-b69dd5b3780a7298bd893816a09da751bc0636f7 net: igmp: increase size of mr_ifc_count
-d99e51c8215004eeddf677ab3e68b01f497e4142 net/mlx4_en: Don't allow aRFS for encapsulated packets
-0d6fbe036b4535ed0ce9d4c60aaedbf00bcf57aa net/mlx5: Fix variable type to match 64bit
-2d89b45bfb7221cabdb39c1ab43cf673251f4ac8 Merge branch 'mlx4-for-net' into net-rc
-2a371573f0e70c216d19668dd14b76a89401e945 Merge branch 'mlx5-for-net' into net-rc
-5daa2bfb9a9503503e578c0906dd63e54efc015f Merge branch 'net-rc' into queue-rc
-54c54c1015051913f8c500ed4db806c9b49b8b03 Merge branch 'testing/rdma-rc' into queue-rc
+7088e3bcc20448d6b38151f02448b3a950f7f86c Documentation: Update irq_domain.rst with new lookup APIs
+ee083ac948cb300b19332fa403a77b45db9e75fe gpio: Bulk conversion to generic_handle_domain_irq()
+608a005d412117cdcc8bff9029034d2aace70980 pinctrl: Bulk conversion to generic_handle_domain_irq()
+e7941c9a7f407aff1080a97900cb925f3a9c0632 mfd: Bulk conversion to generic_handle_domain_irq()
+caf3b9b8e33162ed9e4ec9afda1bf3c80e5dd9e9 ARM: Bulk conversion to generic_handle_domain_irq()
+ad3d72882fd565e93d365086f6f8492e8ab0b9f4 arc: Bulk conversion to generic_handle_domain_irq()
+1a30641eb8a934855ca8761d2b9be5d13f591c03 mips: Bulk conversion to generic_handle_domain_irq()
+a7bff055cc05ce3e80bc777ddb1cc9e9d28b6851 gpu: Bulk conversion to generic_handle_domain_irq()
+7b9a86c3aff434ad69fbd577ff6b478c06427bd6 SH: Bulk conversion to generic_handle_domain_irq()
+1923cc8f36410abd3a23a4f076aa20cd1ba1788c xtensa: Bulk conversion to generic_handle_domain_irq()
+db99b87760d7a39d47974a1803ba2d22014e154e nios2: Bulk conversion to generic_handle_domain_irq()
+b8f612845ddec05700ebab907dfd59d741bca0c5 powerpc: Bulk conversion to generic_handle_domain_irq()
+da0cc79689d5842e87d7ce4685d87516314fa32e EDAC/altera: Convert to generic_handle_domain_irq()
 
---===============0377516097365867045==--
+--===============1297892860347447351==--
