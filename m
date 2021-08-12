@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5119174741489822359=="
+Content-Type: multipart/mixed; boundary="===============0751647569161701758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 12 Aug 2021 12:47:21 -0000
-Message-Id: <162877244198.5530.6686062851167979023@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 12:47:28 -0000
+Message-Id: <162877244854.5668.16214929298076362466@gitolite.kernel.org>
 
---===============5119174741489822359==
+--===============0751647569161701758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/tmp.master
     old: 037f0f239a46c90bd6f0f3b64666b8b79a45ab2e
     new: 06159b029031f85028219ccd2dec8c2f57da4470
     log: revlist-037f0f239a46-06159b029031.txt
 
---===============5119174741489822359==
+--===============0751647569161701758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -181,4 +181,4 @@ d80cbd3da2755ec7eee2881512dd783953703b0f MANIFEST: Add buildcmd.sh
 1c2176aab5769f8e064a10d61a41c6aff19945a6 README.tarball: Remove hardcoded version, get it from 'git tag'
 06159b029031f85028219ccd2dec8c2f57da4470 spec: Remove deleted libbtf.h from the RPM file list
 
---===============5119174741489822359==--
+--===============0751647569161701758==--
