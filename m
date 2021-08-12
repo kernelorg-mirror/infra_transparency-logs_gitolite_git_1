@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 12 Aug 2021 05:22:00 -0000
-Message-Id: <162874572049.12876.12818116319232446032@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 05:22:09 -0000
+Message-Id: <162874572900.12996.8090762695140782898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: 867432bec1c6e7df21a361d7f12022a8c5f54022
-    new: 589be135381f42c095d102fff978e75fa7d061ce
+  - ref: refs/heads/for-next
+    old: 9f2a5aebb03c19180e3be75ed7263c6ab510b75e
+    new: 59a27e1122133831111f9e2e40fec2307d742487
     log: |
-         589be135381f42c095d102fff978e75fa7d061ce riscv: kexec: do not add '-mno-relax' flag if compiler doesn't support it
+         59a27e1122133831111f9e2e40fec2307d742487 riscv: Optimize kernel virtual address conversion macro
          
