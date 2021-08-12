@@ -1,33 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 12 Aug 2021 14:21:17 -0000
-Message-Id: <162877807793.9419.8285419041860603651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 12 Aug 2021 14:50:03 -0000
+Message-Id: <162877980390.28076.527934746701526780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-5.15/arm64/dt
-    old: 8a9dee7e7beb57504aa17166f0d8d6998ac098af
-    new: d6ff10e072e1150a9a135e355b1f85479609bab2
+  - ref: refs/heads/for-5.15/io_uring
+    old: a1e981ea2c6679ca49bcd8b16fd7a833e691561a
+    new: f26dbf4c58d4a33abe56cbaa69bc9dc0a19dbcc3
     log: |
-         d6ff10e072e1150a9a135e355b1f85479609bab2 arm64: tegra: Add missing interconnects property for USB on Tegra186
+         5f8bc6154b5ff1b2dcf4195d23da3faaa3342e74 io_uring: run timeouts from task_work
+         ff87e07c6b67b5540cc28ed6278e0a9c16a5cd3e io_uring: run linked timeouts from task_work
+         e6cc584adfb675c2197031d0a237488a18d2335c io_uring: run regular file completions from task_work
+         3e8325f8dedd17f3affab5112e61d8b90e92d983 io_uring: remove IRQ aspect of io_ring_ctx completion lock
+         8dd256ddbba6518ff5c67b9a5e0e218af3e750eb io_uring: move req_ref_get() and friends
+         31c2572d80b5771f63632b8a8524434bf904776b io_uring: remove req_ref_sub_and_test()
+         f9d830be4e7d9d2c065a627df4504df64e60378c io_uring: remove submission references
+         001229d8abd2e4d0be202be250ed37a0e446df87 io_uring: skip request refcounting
+         f26dbf4c58d4a33abe56cbaa69bc9dc0a19dbcc3 io_uring: optimise hot path of ltimeout prep
          
   - ref: refs/heads/for-next
-    old: c7a649669f307491f131e454f56679bb7b85fa7b
-    new: 2138510cb6e1465f0e5fc8061167661a4d799d71
+    old: a3bb6c0114b9df2bc65b55e04b345357c8288d21
+    new: 7923e2e298b8886782d5a61d0b86b7aeb66912d9
     log: |
-         d6ff10e072e1150a9a135e355b1f85479609bab2 arm64: tegra: Add missing interconnects property for USB on Tegra186
-         1366572aa47ba235b996987657f0f33eda0745a5 Merge branch for-5.14/arm64/dt into for-next
-         e933af6b8aa85437d347eafe5bdca129af248b4f Merge branch for-5.15/dt-bindings into for-next
-         479fe0e112e76830432c02a47b1a059674659b0a Merge branch for-5.15/firmware into for-next
-         71c68784d9d7ce4e590abb85d07c10a5ce23d76a Merge branch for-5.15/soc into for-next
-         cc9809e23b09864be8f00688b845b7fb416d8310 Merge branch for-5.15/clk into for-next
-         b21f5d5982279a9a852735bea786f397a0262284 Merge branch for-5.15/arm/dt into for-next
-         7a7e7c5178aa909415b2f2fc0b80f303b17590d3 Merge branch for-5.15/arm/defconfig into for-next
-         2138510cb6e1465f0e5fc8061167661a4d799d71 Merge branch for-5.15/arm64/dt into for-next
+         5f8bc6154b5ff1b2dcf4195d23da3faaa3342e74 io_uring: run timeouts from task_work
+         ff87e07c6b67b5540cc28ed6278e0a9c16a5cd3e io_uring: run linked timeouts from task_work
+         e6cc584adfb675c2197031d0a237488a18d2335c io_uring: run regular file completions from task_work
+         3e8325f8dedd17f3affab5112e61d8b90e92d983 io_uring: remove IRQ aspect of io_ring_ctx completion lock
+         8dd256ddbba6518ff5c67b9a5e0e218af3e750eb io_uring: move req_ref_get() and friends
+         31c2572d80b5771f63632b8a8524434bf904776b io_uring: remove req_ref_sub_and_test()
+         f9d830be4e7d9d2c065a627df4504df64e60378c io_uring: remove submission references
+         001229d8abd2e4d0be202be250ed37a0e446df87 io_uring: skip request refcounting
+         f26dbf4c58d4a33abe56cbaa69bc9dc0a19dbcc3 io_uring: optimise hot path of ltimeout prep
+         f655d2ed551ac6dd5d194acc2861bca40eef5513 Merge branch 'for-5.15/block' into for-next
+         7923e2e298b8886782d5a61d0b86b7aeb66912d9 Merge branch 'for-5.15/io_uring' into for-next
          
