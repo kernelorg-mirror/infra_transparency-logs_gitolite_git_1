@@ -1,40 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5884030589029720296=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 12 Aug 2021 04:27:26 -0000
-Message-Id: <162874244661.9279.6891001600428873730@gitolite.kernel.org>
-
---===============5884030589029720296==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 12 Aug 2021 04:28:05 -0000
+Message-Id: <162874248540.9573.1980983097442802576@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 484f2b7c61b9ae58cc00c5127bcbcd9177af8dfe
-    new: 8158488baa1ea1aebd09c8d256db7420051d05ac
-    log: revlist-484f2b7c61b9-8158488baa1e.txt
-
---===============5884030589029720296==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-484f2b7c61b9-8158488baa1e.txt
-
-bb8c26d9387fe428068dcab35b1873ea3b881de1 cpufreq: vexpress: Set CPUFREQ_IS_COOLING_DEV flag
-c17495b01b72b53bd290f442d39b060e015c7aea cpufreq: Add callback to register with energy model
-94ab4c3c259c7d00746e5cafb55b5f5125f34b71 cpufreq: dt: Use .register_em() to register with energy model
-fcd300c685d5152e76a811c492b0e6eccde29717 cpufreq: imx6q: Use .register_em() to register with energy model
-3701fd64a3fb947fc805ca0d108ab87562a9659b cpufreq: mediatek: Use .register_em() to register with energy model
-361a172d230964807c0b479738749c50d95d7b50 cpufreq: omap: Use .register_em() to register with energy model
-e96c2153d0fc0a1c218bf5ba149ccdf75d19a275 cpufreq: qcom-cpufreq-hw: Use .register_em() to register with energy model
-a214649dfcbc812ddf6b3906315da166caf01964 cpufreq: scpi: Use .register_em() to register with energy model
-b64eea485feb5cfb18e74e100dea49c917d4474a cpufreq: vexpress: Use .register_em() to register with energy model
-8158488baa1ea1aebd09c8d256db7420051d05ac cpufreq: scmi: Use .register_em() to register with energy model
-
---===============5884030589029720296==--
+  - ref: refs/heads/seen
+    old: 20401cbce8723f9d336174b70a40d7502ebf90f6
+    new: 62610790a78616abd055c14af66d85c053a6967f
+    log: |
+         c551037886b5c843393d96edfcad9351269849ce clone: set submodule.recurse=true if user enables feature.experimental flag
+         30a1fbe22667a1998ad55e61f174714dda2f383a Merge branch 'mk/clone-recurse-submodules' into seen
+         9219f56e264f4ac437aa8148c169670efaddcbfc ### CI Breakers
+         e9fda05b20e7c2f7177625ce3fe00806d80aee73 Merge branch 'dt/submodule-diff-fixes' into seen
+         18904cfba0340b3776b42a30ff66ca5ba6e4b7f6 Merge branch 'hn/reftable' into seen
+         b41456fdf16dd772b8611889702a2c5d46bc2a35 Merge branch 'cb/reftable-fixup' into seen
+         62610790a78616abd055c14af66d85c053a6967f Merge branch 'jh/builtin-fsmonitor' into seen
+         
