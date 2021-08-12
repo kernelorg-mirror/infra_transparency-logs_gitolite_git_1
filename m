@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 12 Aug 2021 07:27:33 -0000
-Message-Id: <162875325313.31117.10243619493100896513@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 07:27:52 -0000
+Message-Id: <162875327275.31332.13808476488568332982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
-    old: 93f96787234f0ad907f9079b371b8103cb8bfa9e
+  - ref: refs/heads/for-next
+    old: 0aa25a371f447b0c68a4f93105246df0d93ce5bd
     new: 636a1e697555e73c28cdd6952a409edbfdd16475
     log: |
          d36d4a1d75d2a8bd14ec00d5cb0ce166f6886146 platform/x86: ISST: Fix optimization with use of numa
