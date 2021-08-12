@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 12 Aug 2021 15:24:08 -0000
-Message-Id: <162878184891.19109.8173599071939340227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 12 Aug 2021 15:25:04 -0000
+Message-Id: <162878190431.20878.2734460163598982118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/renesas/gpio-logic-analyzer-v3
-    old: 71f4d764ea9109bb5889e3d78d05c91ab75fae1e
-    new: 16247bc184b355204f718c9e61588e23e1127682
+  - ref: refs/heads/review-hans
+    old: 411f48bb58f49c40a627b052402a90e8301cd07e
+    new: 382b91db8044669d254006df799df9d85d4ad891
     log: |
-         2b3f2f1ff2d368598101e0d646dbc23605a4c5b1 add fail function
-         efd7ff747cfe8a3399e687b5ade040c7169515b2 SYSFSDIR checks
-         ce2e2504408e47e3c1298dc33366548f1a882437 remove another !
-         60b00f1548e9e49134ca737e2cae9b69aca747b4 better name
-         16247bc184b355204f718c9e61588e23e1127682 lowercase
+         ca91ea34778f9b2a44a391b10164bcd73b4b0f25 asus-wmi: Add panel overdrive functionality
+         98829e84dc67630efb7de675f0a70066620468a3 asus-wmi: Add dgpu disable method
+         382b91db8044669d254006df799df9d85d4ad891 asus-wmi: Add egpu enable method
          
