@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 12 Aug 2021 23:51:12 -0000
-Message-Id: <162881227206.3190.3595736856043854672@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 23:51:19 -0000
+Message-Id: <162881227949.3342.4421477460211887233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/tmp.next
     old: 00cb89fb9af0355b8b4b64e26d3afa2348efb80d
     new: 118ac9afdf97e43d95686f4e73e87f7a1e00835b
     log: |
