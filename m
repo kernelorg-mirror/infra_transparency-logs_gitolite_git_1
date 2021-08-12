@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5119817479313078339=="
+Content-Type: multipart/mixed; boundary="===============4695850860655426674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 12 Aug 2021 13:22:40 -0000
-Message-Id: <162877456047.30378.9662465783087210819@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 13:24:38 -0000
+Message-Id: <162877467836.31264.7978278533227111804@gitolite.kernel.org>
 
---===============5119817479313078339==
+--===============4695850860655426674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,154 +16,154 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 6e70eb87ab4b31964edd788bd7b1c1a5acfb0f9a
-    new: 4444489a8fba825a281b9ae717bc79f3ec3b005e
-    log: revlist-6e70eb87ab4b-4444489a8fba.txt
+    old: 4444489a8fba825a281b9ae717bc79f3ec3b005e
+    new: cd75c55a5afc3cc59113fcdcd4c923f0fe391b54
+    log: revlist-4444489a8fba-cd75c55a5afc.txt
   - ref: refs/heads/queue/4.19
-    old: c7b396e67447aa2ff67eb759784642932c02bf97
-    new: 76db50e10d5090a73e4f97959fb1d3ef345dfced
+    old: 76db50e10d5090a73e4f97959fb1d3ef345dfced
+    new: b3d9f9f4f698a26c54d4351139d01527376c64f9
     log: |
-         a085180e4b89c7ba874d2245d6472ea5cc9b3940 KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
-         76db50e10d5090a73e4f97959fb1d3ef345dfced usb: dwc3: gadget: Use list_replace_init() before traversing lists
+         ff4e24fed906679480061f92c000e37d0cfdd3ab KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+         b3d9f9f4f698a26c54d4351139d01527376c64f9 usb: dwc3: gadget: Use list_replace_init() before traversing lists
          
   - ref: refs/heads/queue/4.4
-    old: f3a2610543da555da721c9436c9d26027ee03a50
-    new: 6fa0731b579ecd54f2668da8c1b13bcfcc1d47fa
-    log: revlist-f3a2610543da-6fa0731b579e.txt
+    old: 6fa0731b579ecd54f2668da8c1b13bcfcc1d47fa
+    new: 734b6f166fd00205ae6af280bff7633ac460d7cd
+    log: revlist-6fa0731b579e-734b6f166fd0.txt
   - ref: refs/heads/queue/4.9
-    old: 942872c2c8bcf201841c106c18d719771f440af3
-    new: 16514c391835428e89ac3e4caf41df0346350571
-    log: revlist-942872c2c8bc-16514c391835.txt
+    old: 16514c391835428e89ac3e4caf41df0346350571
+    new: a6f14e5ced1e87a662fd9615cd15d4f46297247b
+    log: revlist-16514c391835-a6f14e5ced1e.txt
   - ref: refs/heads/queue/5.10
-    old: 12644815a0fc8c01634415e790d1a70fe2e9526f
-    new: 4784166102ef42328b1e26735b65bd3112a8c94c
+    old: 4784166102ef42328b1e26735b65bd3112a8c94c
+    new: 906cd6fc30f875963b6f867e341f74343a97a7e5
     log: |
-         3ae280636bc8eae2c02580e33e1d267f9f5dc907 KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
-         0218ba5402989090606585f440a59ebb55a40d55 tee: Correct inappropriate usage of TEE_SHM_DMA_BUF flag
-         2198afcc173d636001549888d589ddd2a199c686 usb: dwc3: gadget: Use list_replace_init() before traversing lists
-         4784166102ef42328b1e26735b65bd3112a8c94c firmware: tee_bnxt: Release TEE shm, session, and context during kexec
+         d08d9bdaecd074a20f5dbe207928ba71d95b886e KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+         ff177a35a1ff714398f2ec2c2679317ee5529e1e tee: Correct inappropriate usage of TEE_SHM_DMA_BUF flag
+         d2c3a3137d04936a84d46627dd74c249482b7257 usb: dwc3: gadget: Use list_replace_init() before traversing lists
+         906cd6fc30f875963b6f867e341f74343a97a7e5 firmware: tee_bnxt: Release TEE shm, session, and context during kexec
          
   - ref: refs/heads/queue/5.13
-    old: 7696c3192715eb148fa8b4b21f3e9b701e46b526
-    new: fda0a8cde0723df6c5806192d7ad6e714642c9fd
+    old: fda0a8cde0723df6c5806192d7ad6e714642c9fd
+    new: c85d412c71ccf43738cd9f0de7ea43cff68c48f5
     log: |
-         fda0a8cde0723df6c5806192d7ad6e714642c9fd firmware: tee_bnxt: Release TEE shm, session, and context during kexec
+         c85d412c71ccf43738cd9f0de7ea43cff68c48f5 firmware: tee_bnxt: Release TEE shm, session, and context during kexec
          
   - ref: refs/heads/queue/5.4
-    old: 53f0bb08ee59cf9bf495f8387af1b6a2349c15af
-    new: b45ce4c98fdfcf67903d44912058727099168c19
+    old: b45ce4c98fdfcf67903d44912058727099168c19
+    new: 53f010fe123e3bd944b1136514e29ebb03c3415b
     log: |
-         98b8213854b79bcee5d73d99613ee10e3ba79006 KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
-         62583aa2421499225b14629ba1b0d4cae0861e19 tee: Correct inappropriate usage of TEE_SHM_DMA_BUF flag
-         addf4d5c6a65c241b21231b5dc64f7d057948b42 usb: dwc3: gadget: Use list_replace_init() before traversing lists
-         b45ce4c98fdfcf67903d44912058727099168c19 media: v4l2-mem2mem: always consider OUTPUT queue during poll
+         1fbc75c7f309c28003945baaab77f75d91f4103f KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+         92385495298c984d92f7a890274e526109987945 tee: Correct inappropriate usage of TEE_SHM_DMA_BUF flag
+         c6df472bfa7ef27f3f3e96edaca420ef31f9917b usb: dwc3: gadget: Use list_replace_init() before traversing lists
+         53f010fe123e3bd944b1136514e29ebb03c3415b media: v4l2-mem2mem: always consider OUTPUT queue during poll
          
 
---===============5119817479313078339==
+--===============4695850860655426674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e70eb87ab4b-4444489a8fba.txt
+Content-Disposition: attachment; filename=revlist-4444489a8fba-cd75c55a5afc.txt
 
-6f7c35ec0e85e472261bbabc78dd47ea4367532f Revert "ACPICA: Fix memory leak caused by _CID repair function"
-763e87aafd04445e3c4caeb7779066165c237e18 ALSA: seq: Fix racy deletion of subscriber
-965c0744194e0119d4c315562cacfd186d1d4ff5 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-cd1e7e84bac68a13acf874377ae5e39d657e6981 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-6c406ec750ec0fb6a90da0cd37d3aecd85b3e725 scsi: sr: Return correct event when media event code is 3
-1dd0d6f160abe25d39922ad0843df12d66721fde media: videobuf2-core: dequeue if start_streaming fails
-c952ce2ba05cc531f0033c1025c83558fd6242a3 net: natsemi: Fix missing pci_disable_device() in probe and remove
-aebac9146091c1a8348509b9ed8a5ab205e5ba03 nfp: update ethtool reporting of pauseframe control
-401819bd62d0a5c820430f0ca88040f0cde67653 mips: Fix non-POSIX regexp
-71a7291800a3d11d780892617c1c2913d412cd07 bnx2x: fix an error code in bnx2x_nic_load()
-da80b5d03e2a0e69b70c31bd1aa280e8fa46e2bc net: pegasus: fix uninit-value in get_interrupt_interval
-d1e83e608f79738a3e28be48d5e5e99f512b2959 net: fec: fix use-after-free in fec_drv_remove
-a46174a67462be7a0f7e8a3f155cf12226089568 net: vxge: fix use-after-free in vxge_device_unregister
-d5c5915d631ed262cd3de9cbad1d657e46cbc848 Bluetooth: defer cleanup of resources in hci_unregister_dev()
-a45b5cd82857f0ae60491c56e44799108321709d USB: usbtmc: Fix RCU stall warning
-192eee5676886d2a9971cf988b28b0e26968ba13 USB: serial: option: add Telit FD980 composition 0x1056
-782f4edab43a2ea562405f3f1bdd29075f77834c USB: serial: ch341: fix character loss at high transfer rates
-ebfc4c5e7309451f6d0235873d47be1be0e37a0e USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
-17d0d512a2d032fc758b4be0dbae8edc5da1b232 usb: gadget: f_hid: added GET_IDLE and SET_IDLE handlers
-29b33d923685a416fae8595545418820988ca2e1 usb: gadget: f_hid: fixed NULL pointer dereference
-0d78f61884ce6a8baed25569bd6a0d5326147ab1 usb: gadget: f_hid: idle uses the highest byte for duration
-94426e85f8dcd7cfd78d81da6d1c42e3dbb5505f usb: otg-fsm: Fix hrtimer list corruption
-762eff7c27661b05a532a1ae36fe01bd57178249 scripts/tracing: fix the bug that can't parse raw_trace_func
-f132c2f853fd5058dd2626e93b29bc2a68f12250 staging: rtl8723bs: Fix a resource leak in sd_int_dpc
-3a4cd6c3e24c28829da5a18ff0991728b2bd2d4f media: rtl28xxu: fix zero-length control request
-58e16c64a46e13f135e26c8a6dfecdf22c86f064 pipe: increase minimum default pipe size to 2 pages
-d73028f50525e542745f9d0939eaf8b9a14b4438 ext4: fix potential htree corruption when growing large_dir directories
-abaa45ba0bc3fb14550286d2f138c1b9b51261f0 serial: 8250: Mask out floating 16/32-bit bus bits
-7e3a8af0342cafad3e6a801fef0bb14e38713cf6 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
-a66f144025d74396e7581011edbc2b2750dde682 pcmcia: i82092: fix a null pointer dereference bug
-dae7dc3061f76e0d7d7e770ed47475a775923185 spi: meson-spicc: fix memory leak in meson_spicc_remove
-8768371127b56c5d57cda9fb0189d49b9ab7c616 perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
-3db008e468737a3a8a1c1a634f1e803ffb6cba66 qmi_wwan: add network device usage statistics for qmimux devices
-ea078ad5da485efd7c4bfa44bc1f639e65bdc0ec libata: fix ata_pio_sector for CONFIG_HIGHMEM
-0de3acd329a4845f1d4b96acb9926a03e8d66fa0 reiserfs: add check for root_inode in reiserfs_fill_super
-248bbcb757e9bd965bb5c223c954de88b33db5a5 reiserfs: check directory items on read from disk
-e00ea4dc8d06b53b74d88f7f6a278431155144a9 alpha: Send stop IPI to send to online CPUs
-4444489a8fba825a281b9ae717bc79f3ec3b005e net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
+faa7b6b3246f0915339035f5ed9836249c20cd03 Revert "ACPICA: Fix memory leak caused by _CID repair function"
+defa8f30f4645eda92f96f425840d4e48edc0440 ALSA: seq: Fix racy deletion of subscriber
+552d2b26020ef7089edc2aa07b3f8221a9312cd9 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
+cbdf65277c60c20612224939b08f09c5afa2d2a9 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
+6615992f1ccd46c6e18194117170e15ce4cfcce7 scsi: sr: Return correct event when media event code is 3
+e56059199b7aa651e45fc35ceaacf830fd0b99fb media: videobuf2-core: dequeue if start_streaming fails
+75b5be60b1bb4c5ec1afcf35eed3604ba7977fc1 net: natsemi: Fix missing pci_disable_device() in probe and remove
+37905e8937b35f21d09826d48c3427bc177a5cdd nfp: update ethtool reporting of pauseframe control
+29263996c762e54a5310269fe0ed6e4d84bc8aa0 mips: Fix non-POSIX regexp
+bc2e5a24e79040b20f010b3773fd2198da82fb09 bnx2x: fix an error code in bnx2x_nic_load()
+ba37ce578b87a567b9d75d5b99aff9603c8e8c25 net: pegasus: fix uninit-value in get_interrupt_interval
+1a6e3002148653c8762aa52853bda814c44ea29c net: fec: fix use-after-free in fec_drv_remove
+ef3b4b9037782470f41518a8aa1392a7c0789cca net: vxge: fix use-after-free in vxge_device_unregister
+c95c3b28f201e1163512134d6bb0a0a046184a5a Bluetooth: defer cleanup of resources in hci_unregister_dev()
+44a02a8c05648074c1cb8589bac553b0c2c5a156 USB: usbtmc: Fix RCU stall warning
+26c314affe574a6137d00c100c1c04774463a58e USB: serial: option: add Telit FD980 composition 0x1056
+ff99c86d7f3dfd7195383a9f3d9c505353b39289 USB: serial: ch341: fix character loss at high transfer rates
+0da09b2c4ac20ecbdb8ce6155c86341313569b7a USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+387540664b133bc7ea8e22cde61a460272eec92c usb: gadget: f_hid: added GET_IDLE and SET_IDLE handlers
+e13e95e0ee648e5c3d1ebe966cfafe513949af7b usb: gadget: f_hid: fixed NULL pointer dereference
+ae65d2319d5cf834214983cfe7a9881aa9e2906c usb: gadget: f_hid: idle uses the highest byte for duration
+bba1f1529132ee78a00cedee94cf627f49b949b8 usb: otg-fsm: Fix hrtimer list corruption
+2eda97dd13352e3ae22c983ff6a60ef9bb5daa64 scripts/tracing: fix the bug that can't parse raw_trace_func
+55968913a5ca0a5270de0c59278dc1b00c195614 staging: rtl8723bs: Fix a resource leak in sd_int_dpc
+a4814ebc2a202a6a09712ca0f25d35a87120a3c0 media: rtl28xxu: fix zero-length control request
+37dec1b6ec42943b23a40b43e2388f1edb2bdcdb pipe: increase minimum default pipe size to 2 pages
+1d32e15d9ddaf76962f8e76a34c6deb4061d7d95 ext4: fix potential htree corruption when growing large_dir directories
+b2c6cb9c7d6bea7472df1adecf8aef0144610967 serial: 8250: Mask out floating 16/32-bit bus bits
+63075c31810ad49e5ac9b45800086bcd6515ef8d MIPS: Malta: Do not byte-swap accesses to the CBUS UART
+42d3a947c4d5107b1d78004fb14e5b5048910bde pcmcia: i82092: fix a null pointer dereference bug
+034a10305dd79887c92e3641b0ccda9e8c498e3c spi: meson-spicc: fix memory leak in meson_spicc_remove
+567899b0f50bbf2d7ba7a3493dc2643f9bf18401 perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
+447bfedb9e67668ec10e7562827c23e8bd8bb8e4 qmi_wwan: add network device usage statistics for qmimux devices
+207aec8d5dc7f4ec0650083d0b5eac359c86815c libata: fix ata_pio_sector for CONFIG_HIGHMEM
+5fa5948675cd8e1e026389392e2dd6a8003e6558 reiserfs: add check for root_inode in reiserfs_fill_super
+959004d557b026567bfe8f3fcefcc46adb143cc2 reiserfs: check directory items on read from disk
+fd13f374da56af6f386c46e3b151496949c3600c alpha: Send stop IPI to send to online CPUs
+cd75c55a5afc3cc59113fcdcd4c923f0fe391b54 net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
 
---===============5119817479313078339==
+--===============4695850860655426674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3a2610543da-6fa0731b579e.txt
+Content-Disposition: attachment; filename=revlist-6fa0731b579e-734b6f166fd0.txt
 
-8a2f4e8ad08a3817a01979f38e23600088890a4c ALSA: seq: Fix racy deletion of subscriber
-43f750db7ae48ffac7e0ae4ed654696e148d6ffd scsi: sr: Return correct event when media event code is 3
-938808b70146b17776698770084abd11a96226a8 media: videobuf2-core: dequeue if start_streaming fails
-f8c8de1a7176c2c1a7564b35310a2815cf856e94 net: natsemi: Fix missing pci_disable_device() in probe and remove
-2645e61e6d839e0a8ad4cd5c7df8b15d19cec708 mips: Fix non-POSIX regexp
-d90c245ff8e5818298676cfeadb00e338f296a2b bnx2x: fix an error code in bnx2x_nic_load()
-ec8570755f837682a066ddbd5b7f03f3f06f16d5 net: pegasus: fix uninit-value in get_interrupt_interval
-ae7865b257ecfbc261f4e2195b21b5fbd7c603a6 net: vxge: fix use-after-free in vxge_device_unregister
-ea8972bb80271575bc9cf5c401d25be7c0fc1d01 Bluetooth: defer cleanup of resources in hci_unregister_dev()
-0432640b1e69310ef6420705f3ec3bb8b239278b USB: serial: option: add Telit FD980 composition 0x1056
-98c41ce4df3d862ec74350daedb38c73cae4d40f USB: serial: ch341: fix character loss at high transfer rates
-e0a75504d957c73c1ec4a4c8d015026a0dfc27d8 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
-e4ddff87733f60502ade25dad4cad7bb798459e4 scripts/tracing: fix the bug that can't parse raw_trace_func
-477c186289dd2952eb81e04ba97aa245e46dc838 media: rtl28xxu: fix zero-length control request
-69b44e51be0f227c19c42ef2f99842b83c8dfb25 serial: 8250: Mask out floating 16/32-bit bus bits
-1555a9db402821e02199809d6df26c643fc1ef16 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
-a8eec5585ae3c5357da74f4441ae15e8acebc83a pcmcia: i82092: fix a null pointer dereference bug
-146c36e38499d87ebcb9d0c476b4a5133c1accc6 reiserfs: add check for root_inode in reiserfs_fill_super
-2390ef38da1a7b4549a6ece25ea0f4e310a5a28b reiserfs: check directory items on read from disk
-25e48eb7f382ab877fd4676158b828cf6c841769 alpha: Send stop IPI to send to online CPUs
-f39090699439dd91ecf55d555048c91998ed516c net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
-6fa0731b579ecd54f2668da8c1b13bcfcc1d47fa pipe: increase minimum default pipe size to 2 pages
+5cd25d564dad469fb2e44daa05748d9f53ddb22c ALSA: seq: Fix racy deletion of subscriber
+5bc17ef7a6f52ad287fbbbd2a84641f2fae20a08 scsi: sr: Return correct event when media event code is 3
+cb4a3cc2c73d7a7330226ba227dc4c1956d28630 media: videobuf2-core: dequeue if start_streaming fails
+87e4c5a749edd9b7336504a02bf6c38ac71b618b net: natsemi: Fix missing pci_disable_device() in probe and remove
+f6fcfb5dd92dedb7c7bab07f08b8dc300c309d10 mips: Fix non-POSIX regexp
+d9c099491f91248ea3c7be830cef6e26b7ee2091 bnx2x: fix an error code in bnx2x_nic_load()
+63dcea391a128323a00d8e73573753eb86f61f46 net: pegasus: fix uninit-value in get_interrupt_interval
+f4f260c63e8e5e57b0394281203405c7e9b50bd1 net: vxge: fix use-after-free in vxge_device_unregister
+8e2429f94a67b783e73d1bfe361c6f956268729e Bluetooth: defer cleanup of resources in hci_unregister_dev()
+21d0ebc20f30230b2a5c52672bfa26c170eea1b0 USB: serial: option: add Telit FD980 composition 0x1056
+1320056bcc26e4111b74aaff7439af692716a627 USB: serial: ch341: fix character loss at high transfer rates
+a39428ee6633b8228ae4cbe0499e1f1d55da5c8b USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+e16044be9e851d0432b35a500293a9a9e51195ad scripts/tracing: fix the bug that can't parse raw_trace_func
+2d84dbce64aa3375301292e3f5e439e66e7acb24 media: rtl28xxu: fix zero-length control request
+c40885f6d291e6b3513b28f62e7ccfd62b94bac9 serial: 8250: Mask out floating 16/32-bit bus bits
+4070a4be31197b2002399c1b285d174022b2db0f MIPS: Malta: Do not byte-swap accesses to the CBUS UART
+857bc3018ad87376feaec756c33a6f48a341427f pcmcia: i82092: fix a null pointer dereference bug
+f3fa320e89bf8c38a5ba616295b28950829ae242 reiserfs: add check for root_inode in reiserfs_fill_super
+9fc70d91399d896acc9837eae0ebb7b16643f0c6 reiserfs: check directory items on read from disk
+ab7ca82fdc3381c425360e3b27559e55edeeac16 alpha: Send stop IPI to send to online CPUs
+d9a55b425bc7e428907f102e5ef8773725751fb1 net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
+734b6f166fd00205ae6af280bff7633ac460d7cd pipe: increase minimum default pipe size to 2 pages
 
---===============5119817479313078339==
+--===============4695850860655426674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-942872c2c8bc-16514c391835.txt
+Content-Disposition: attachment; filename=revlist-16514c391835-a6f14e5ced1e.txt
 
-b27dc6e64fadd58c35e78fc1da4ac85923917f27 ALSA: seq: Fix racy deletion of subscriber
-c8ab6329801de589484df6ada99348b459710fd1 scsi: sr: Return correct event when media event code is 3
-68cdb5591c47dbb213c3128b4d1da3895eaf3df0 media: videobuf2-core: dequeue if start_streaming fails
-760c461c04e54826f86b240a4de9f8045026325a net: natsemi: Fix missing pci_disable_device() in probe and remove
-082ae26f49dad029fd06b15b7e762a2ec64df575 mips: Fix non-POSIX regexp
-d4a24270246a2420ad302e6f07ac60d9e0df3fa7 bnx2x: fix an error code in bnx2x_nic_load()
-12790a9ad0940b80a4ad9234c6e9e28c948682f0 net: pegasus: fix uninit-value in get_interrupt_interval
-f264ed2fdae4e80381179a47d547e567702fe73a net: fec: fix use-after-free in fec_drv_remove
-79e2c92ccd3cdbf0a801f546cdfeaaa7d560677c net: vxge: fix use-after-free in vxge_device_unregister
-b941d14923395d045597063621094b15ebc3785f Bluetooth: defer cleanup of resources in hci_unregister_dev()
-4ffbef9d03fb902a72d9473ea2112d2b5db0ebb0 USB: usbtmc: Fix RCU stall warning
-aa6ebe1c997afe0fda3d0cac8afd556872428323 USB: serial: option: add Telit FD980 composition 0x1056
-d553bac51e8ec06413ee0c264b743d263bf26562 USB: serial: ch341: fix character loss at high transfer rates
-fe7fd024667ac077c56f29784be3783c92d837e0 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
-be22a637a4bde843eebf1641f696c680067df436 usb: otg-fsm: Fix hrtimer list corruption
-7d8c829d2bbcf4b94d788527a73fa863f6df0eef scripts/tracing: fix the bug that can't parse raw_trace_func
-ccbfe8d0189fe540e28d41646069363be0a4862e media: rtl28xxu: fix zero-length control request
-4f0c923dc98201a82c7b029c6fdea60897c702ca pipe: increase minimum default pipe size to 2 pages
-32ea389dfaba323246fd9f7494e925e7b773b1cf serial: 8250: Mask out floating 16/32-bit bus bits
-df8f632029d152ed397811cea07d5e4e048cc6e0 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
-85314d80c9bef48064c566bda7dc2c89dd2c37ef pcmcia: i82092: fix a null pointer dereference bug
-5fa48de2527b60110cbc6b876127e66079336d46 perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
-b1c6e7336299604778db0bc383275d901f159c41 reiserfs: add check for root_inode in reiserfs_fill_super
-2ca832d78cd57cf166fa2d1e5f99789a7bf17154 reiserfs: check directory items on read from disk
-8c2ffc2695330312aaa6c668d3a9ecbf11955a75 alpha: Send stop IPI to send to online CPUs
-16514c391835428e89ac3e4caf41df0346350571 net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
+16dda7891fc635b7154ae322e0f0a1ca096d80f0 ALSA: seq: Fix racy deletion of subscriber
+beee737f6b59a8e892fc0495d0f1ce642fd52464 scsi: sr: Return correct event when media event code is 3
+8f1965874310f4da115a054c485bd376badc64d6 media: videobuf2-core: dequeue if start_streaming fails
+2e53144007f5f0039f4568a91ebd68f55830935c net: natsemi: Fix missing pci_disable_device() in probe and remove
+6f4fb65287a98a0d20107c38fadc030d9b50b589 mips: Fix non-POSIX regexp
+bab6dcedc6c7a5cf8b647a04e6bcfe8bda825ba7 bnx2x: fix an error code in bnx2x_nic_load()
+343647ab81991f755b09ba3d516611ae2a8a48c9 net: pegasus: fix uninit-value in get_interrupt_interval
+763fb1ff27b73c23d206262da507e895195953c2 net: fec: fix use-after-free in fec_drv_remove
+8885162b66f442a02458771d0865c091c8fb449b net: vxge: fix use-after-free in vxge_device_unregister
+dc7ac80a1d6a20e215d613c6b144ffda5341c680 Bluetooth: defer cleanup of resources in hci_unregister_dev()
+9ca6f693740125daf70887db229c2f462fd16e86 USB: usbtmc: Fix RCU stall warning
+f7a0d3dab7e25aa701e0655a99499253de2afb3b USB: serial: option: add Telit FD980 composition 0x1056
+e8032049e126930d1118acf869ba2708f734bd7c USB: serial: ch341: fix character loss at high transfer rates
+9ace3bbc323b165a46280c11d793de5621292aba USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
+d44d50cbd7597de252049cbdf290a9187ad3026f usb: otg-fsm: Fix hrtimer list corruption
+6fb93bd8846eb5ded8d262ddf2847273cef865f2 scripts/tracing: fix the bug that can't parse raw_trace_func
+496426d1acd7b9914830366d69ab856fd514759a media: rtl28xxu: fix zero-length control request
+5ef72c00063e409163089daeacb29bb674d19b57 pipe: increase minimum default pipe size to 2 pages
+25bfa2b9318a0b489f9a2b51f09e6e2560a3895e serial: 8250: Mask out floating 16/32-bit bus bits
+10b6a7a0c14d5231e5e62e517bf77a225faf0896 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
+845a805f097fbc1c72c679f569ede20cbd3c1510 pcmcia: i82092: fix a null pointer dereference bug
+c0eb8933b2b607edc598e368b753aa9b6bc439ad perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
+1010ace1ed195311a9c0727b341c9980e5578801 reiserfs: add check for root_inode in reiserfs_fill_super
+b7c68f83ba06b93ef83f7d6cf240357abc2a974e reiserfs: check directory items on read from disk
+74c343765ed52259ee0e9671d3ca282707cc57b4 alpha: Send stop IPI to send to online CPUs
+a6f14e5ced1e87a662fd9615cd15d4f46297247b net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
 
---===============5119817479313078339==--
+--===============4695850860655426674==--
