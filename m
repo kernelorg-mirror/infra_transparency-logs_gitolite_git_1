@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8199651566304291482=="
+Content-Type: multipart/mixed; boundary="===============6618883058257573461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 12 Aug 2021 03:23:39 -0000
-Message-Id: <162873861963.31655.7321209762355734851@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 03:23:44 -0000
+Message-Id: <162873862452.31773.8941412902585481984@gitolite.kernel.org>
 
---===============8199651566304291482==
+--===============6618883058257573461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 528fdc274d12413ec67756fb1e08f42f2ad9f386
-    new: 2ada5466cf4e11a9d01ac23c3097bde4b88fa0a8
-    log: revlist-528fdc274d12-2ada5466cf4e.txt
+  - ref: refs/heads/5.15/scsi-staging
+    old: 16dbb2e1e25bf8101fcae62cad33d65af000740c
+    new: bd19573e05f6e643f003672c799b3b2301f2f493
+    log: revlist-16dbb2e1e25b-bd19573e05f6.txt
 
---===============8199651566304291482==
+--===============6618883058257573461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1628738616 -0400
+pusher 75C5DE3D 1628738623 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1628738616-34cc52685d87f83bfcb3f6c39822da2cc212fda0
+nonce 1628738622-24814f82631c6af0106cc41ed327e430dd9ab98d
 
-528fdc274d12413ec67756fb1e08f42f2ad9f386 2ada5466cf4e11a9d01ac23c3097bde4b88fa0a8 refs/tags/mkp-scsi-staging
+16dbb2e1e25bf8101fcae62cad33d65af000740c bd19573e05f6e643f003672c799b3b2301f2f493 refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEUlDgACgkQ7ulgGnXF
-3j03cg//TySLloBx+KTN81TCBzjI0tZPHxBUGkXs6M/A6Tj6U7c/cvVWRFHYs1rq
-liIzS1B3XQY+ZrHEDdPpOvzM7albf2tfG+rzuooIzSbW4TITOwNoVwxr+zkS6cxu
-pZQVju3lcb4ExPRTmGLrQ2H3aanfnjKvU2xNqqYxvmw2k0vdvjeXiYkEmIHxSL3e
-OLwO5gY8L5fS7HXgsEur+oZG/9f40EL3wMmJEk0Sk+DyMatckcoDLA2VH0ReVthf
-aogc14iMAIJx0XVgw/J0l+JmGtT6HYNw4aFKZL5rXh8jrAUyiE031D9Hq2QgDeWK
-ObgXELh5cDR7k6e4zQ8UmFZL4uiajxRWmmjEqL8Jp6Iw9Ikclze957kvaBzGT5Bz
-lNKYZLxTGW6lp3rejpZGLHqVBqkJrwM+p+hzqCa/gmQ4IkdWT0dRj6MaJo8ytJTO
-x6HpvO+pPEx7MJHW5OwSEJ5BIrgAFUcMN8NAcgZ4wYUFuc8T5lLSMRFtsylrx7hX
-Hsz0KpBvB+QVm3DzdATvUUo+6XfAPgKRLMdFIl3sT7ad3vKO8o4JzmBU4tFIgU7t
-BznmKXk3OLIzZ3DHl1km3P6PBjtpuqycGcA/7rxj5p297xnIh/V6iIZ5aeMBbdYX
-s7P0oxFCf+oxkljpJagLbNpGkF/yJqkTp2k6HO1HVss1G/0j+Qk=
-=r2zI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEUlD8ACgkQ7ulgGnXF
+3j1CyxAAmXjUAn8CzCy9Q47SKzEyQ/5H/y9tAhEL2fFe6DVf5zuryapnijpQYEam
+ImLjsI7Wc5XLygCOYC3vXhZq3Q2oH/j/Z3Blx7eaf7RzGtLPlDeDQNO6H+4MnTBO
+21lzaIp2y+2I9QMdJ+li2x0+kUdp5hnHPGrwfN3PusixP+asKMY6fzU+OgOOWPMu
+j63dpvBHZ3WCUOpzN2JMcrAhdVcyFG7Xn+9QpBKJL8quTjKNeCt5GgVwEfZCkdVc
+pp5VK+COI8qtn4oug+NPMewFkMOP1ExZtvxwYkDQQQQWl/Xl8aEVyiHd2ITXYf6H
+yvZPHWH8I8QBTZsKDp9r9e18ivpFWwwdzxw2O/zO2Mi1kEc1WRDT5hi4LUu82/Hy
+X/6XDtyDjHb6/4HS32iaRGuevDpIvTFCjvb1lmmEDvKhtEgEAmyOfjVIErShTnnM
+lIm6Km6Xnn8KFDRSsu1ZLKJIwURV4jP4K9RO21X92d3MBS2s2pCOyza+vSPAfOEK
+JwCtrEJDJPxaVImPE6ITw2yUPUfPjSdyJ2IxTemUyN9CTSap3w0VdIFeSmPdarT0
+VQt1CMXoiBAyA0NFVTeiiTqCAN/2a3I7ROJLLbrO9/06xelMFMxE/H5Lk0Hv8vqX
+dqZ9WyCkOzPEW2Pf8bQG0gq3WpI53hxUzKwJj+/QOlEr03Md9Qo=
+=mf0G
 -----END PGP SIGNATURE-----
 
---===============8199651566304291482==
+--===============6618883058257573461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-528fdc274d12-2ada5466cf4e.txt
+Content-Disposition: attachment; filename=revlist-16dbb2e1e25b-bd19573e05f6.txt
 
 e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
 6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
@@ -143,4 +143,4 @@ a5741427322b6158fbe9f1a4c118e95a05cecd53 scsi: qla2xxx: Suppress unnecessary log
 c8fadf019964d0eb1da410ba8b629494d3339db9 scsi: qla2xxx: Sync queue idx with queue_pair_map idx
 bd19573e05f6e643f003672c799b3b2301f2f493 scsi: qla2xxx: Update version to 10.02.06.100-k
 
---===============8199651566304291482==--
+--===============6618883058257573461==--
