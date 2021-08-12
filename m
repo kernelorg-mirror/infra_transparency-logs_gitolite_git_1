@@ -1,107 +1,159 @@
-Content-Type: multipart/mixed; boundary="===============9183945125357959066=="
+Content-Type: multipart/mixed; boundary="===============8762332501583543346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 12 Aug 2021 13:48:59 -0000
-Message-Id: <162877613928.15642.1606617501525846425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Thu, 12 Aug 2021 13:53:23 -0000
+Message-Id: <162877640353.18740.1967361319195989524@gitolite.kernel.org>
 
---===============9183945125357959066==
+--===============8762332501583543346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15/arm64/dt
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 8a9dee7e7beb57504aa17166f0d8d6998ac098af
+  - ref: refs/heads/fixes
+    old: 43e8f76006592cb1573a959aa287c45421066f9c
+    new: cbc06f051c524dcfe52ef0d1f30647828e226d30
     log: |
-         bf2942a8b7c38e8cc2d5157b4f0323d7f4e5ec71 arm64: tegra: Fix Tegra194 PCIe EP compatible string
-         dbb096d34a84b2010f6989d013171887b591bd1c arm64: tegra194: p2888: Correct interrupt trigger type of temperature sensor
-         913f8ad4fad09510d8ab493dd3393aaaecbc9b2e arm64: tegra: Add PWM nodes on Tegra186
-         8a9dee7e7beb57504aa17166f0d8d6998ac098af arm64: tegra: Add NVIDIA Jetson TX2 NX Developer Kit support
+         98694166c27d473c36b434bd3572934c2f2a16ab powerpc/interrupt: Fix OOPS by not calling do_IRQ() from timer_interrupt()
+         01fcac8e4dfc112f420dcaeb70056a74e326cacf powerpc/interrupt: Do not call single_step_exception() from other exceptions
+         cbc06f051c524dcfe52ef0d1f30647828e226d30 powerpc/xive: Do not skip CPU-less nodes when creating the IPIs
          
-  - ref: refs/heads/for-5.15/soc
-    old: 92b8b40ecdc7db9c4d3c28da99de54d5e0beeca2
-    new: 59c6fceb2ecc382c3d20508a235b539bf23af1f0
+  - ref: refs/heads/fixes-test
+    old: 43e8f76006592cb1573a959aa287c45421066f9c
+    new: cbc06f051c524dcfe52ef0d1f30647828e226d30
     log: |
-         158a9b47a491dd73e73a306e962d4c9a01270132 soc/tegra: bpmp: Remove unused including <linux/version.h>
-         9c93ccfc86f2cdeab8a34408759abad594e439b9 soc/tegra: pmc: Prevent racing with cpuilde driver
-         a65a4ea1563218b401a9a638a198e2b8165e967a soc/tegra: fuse: Clear fuse->clk on driver probe failure
-         24a15252ff049ca76bdcc51dd445503b88b2c6df soc/tegra: fuse: Add runtime PM support
-         59c6fceb2ecc382c3d20508a235b539bf23af1f0 soc/tegra: fuse: Enable fuse clock on suspend for Tegra124
+         98694166c27d473c36b434bd3572934c2f2a16ab powerpc/interrupt: Fix OOPS by not calling do_IRQ() from timer_interrupt()
+         01fcac8e4dfc112f420dcaeb70056a74e326cacf powerpc/interrupt: Do not call single_step_exception() from other exceptions
+         cbc06f051c524dcfe52ef0d1f30647828e226d30 powerpc/xive: Do not skip CPU-less nodes when creating the IPIs
          
-  - ref: refs/heads/for-next
-    old: 5a1ab00454cc047f8077989d07dcec9ec010781a
-    new: c7a649669f307491f131e454f56679bb7b85fa7b
-    log: revlist-5a1ab00454cc-c7a649669f30.txt
-  - ref: refs/heads/for-5.15/dt-bindings
-    old: 0000000000000000000000000000000000000000
-    new: 900a486ac73dfdf9b1629e7e4df6eacc92da7578
-  - ref: refs/heads/for-5.15/firmware
-    old: 0000000000000000000000000000000000000000
-    new: dd00d75007d27677158bf6e64000d2e266035294
-  - ref: refs/heads/for-5.15/clk
-    old: 0000000000000000000000000000000000000000
-    new: faa8605f9f92e36c724ecaf03b466cfe31b04b06
-  - ref: refs/heads/for-5.15/arm/dt
-    old: 0000000000000000000000000000000000000000
-    new: b3b3e68aaab6a7f233fbf05ec30ace9ddcb36e51
-  - ref: refs/heads/for-5.15/arm/defconfig
-    old: 0000000000000000000000000000000000000000
-    new: 806b99206b840bcf3bfa44227dc978880d13ed1b
+  - ref: refs/heads/master
+    old: 9a73fa375d58fee5262dd16473c8e7522bdf44de
+    new: 1746f4db513563bb22e0ba0c419d0c90912dfae1
+    log: revlist-9a73fa375d58-1746f4db5135.txt
+  - ref: refs/heads/merge
+    old: 6f3d46e4a4a9ca09288540d39c0a31c9802d2602
+    new: 01dc10da827c1725c0f5491c78d700a4478aae08
+    log: revlist-6f3d46e4a4a9-01dc10da827c.txt
+  - ref: refs/heads/next-test
+    old: 5e3aa4531ecc7febbfa18218145c903dab17e651
+    new: aaf01a9f507c108cc8e86f420b0a81e21354be1b
+    log: revlist-5e3aa4531ecc-aaf01a9f507c.txt
 
---===============9183945125357959066==
+--===============8762332501583543346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a1ab00454cc-c7a649669f30.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bf2942a8b7c38e8cc2d5157b4f0323d7f4e5ec71 arm64: tegra: Fix Tegra194 PCIe EP compatible string
-158a9b47a491dd73e73a306e962d4c9a01270132 soc/tegra: bpmp: Remove unused including <linux/version.h>
-9c93ccfc86f2cdeab8a34408759abad594e439b9 soc/tegra: pmc: Prevent racing with cpuilde driver
-a65a4ea1563218b401a9a638a198e2b8165e967a soc/tegra: fuse: Clear fuse->clk on driver probe failure
-24a15252ff049ca76bdcc51dd445503b88b2c6df soc/tegra: fuse: Add runtime PM support
-59c6fceb2ecc382c3d20508a235b539bf23af1f0 soc/tegra: fuse: Enable fuse clock on suspend for Tegra124
-e278718f314d305e4ad80c64d016cdc617e7356c Merge branch 'for-5.15/soc' into for-5.15/clk
-faa8605f9f92e36c724ecaf03b466cfe31b04b06 clk: tegra: Remove CLK_IS_CRITICAL flag from fuse clock
-ffd8969c91000c5e914e3a6e9dd108b80a935910 ARM: tegra: Add SoC thermal sensor to Tegra30 device-trees
-00786f61df89c45c83d04e07f4021acc8fb87287 ARM: tegra: ouya: Add interrupt to temperature sensor node
-a371e9698e8912ddae6cff65cb5bd068e45efe80 ARM: tegra: paz00: Add interrupt to temperature sensor node
-4eb121af6184dcbae39438a4e6a5cfbac820cdd4 ARM: tegra: nexus7: Add interrupt to temperature sensor node
-c626fd7eeb11934af7b59b330885ff8f96e2c2a0 ARM: tegra: acer-a500: Add interrupt to temperature sensor node
-303e2f343403472f3a8421bdd9f62525117507d7 ARM: tegra: nyan: Correct interrupt trigger type of temperature sensor
-61f8c4f6eefb1f5053ba208c872bceac057747ff ARM: tegra: apalis: Correct interrupt trigger type of temperature sensor
-ad86e473e1f3a7faa034535a91c9e594dd038830 ARM: tegra: cardhu: Correct interrupt trigger type of temperature sensor
-0a6e9f9cc27be904f32ed40742f3b74a8fc2690d ARM: tegra: dalmore: Correct interrupt trigger type of temperature sensor
-3970dc6444c5902463b50b10f04d3b0f576077bf ARM: tegra: jetson-tk1: Correct interrupt trigger type of temperature sensor
-0c3136565b64e6e90ab5f9bd6b6c12d5b506c335 ARM: tegra: acer-a500: Remove bogus USB VBUS regulators
-ebfbd63602b036f523514c48b5d1d36bef481d51 ARM: tegra: acer-a500: Add power supplies to accelerometer
-0cae833ff5187f9f629ef8b97543eb24d2c64faa ARM: tegra: acer-a500: Use verbose variant of atmel,wakeup-method value
-d97a74513cec1e378de9ffb6e5f512703db447d4 ARM: tegra: acer-a500: Improve thermal zones
-b3b3e68aaab6a7f233fbf05ec30ace9ddcb36e51 ARM: tegra: nexus7: Improve thermal zones
-dbb096d34a84b2010f6989d013171887b591bd1c arm64: tegra194: p2888: Correct interrupt trigger type of temperature sensor
-4398a03fd199f920f6924bf27767319bf7fc90b1 ARM: tegra: Enable CONFIG_TEGRA30_TSENSOR
-a422eec5bec79fc4a27da84e96a24c8ca3798341 ARM: tegra: Enable CONFIG_FB
-9265d64e846b17dbe2853ce327ecdcc4751a3c55 ARM: tegra: Enable Acer A500 drivers
-6c3f29edd75f504ec92acb85bc082b19b3de7dcf ARM: tegra: Enable CONFIG_CROS_EC
-a1bff9474f101f785c727f221f96e412ba240029 ARM: tegra: Rebuild default configuration
-7fa990a028a9fea55b2330f1924b53752e097e1a ARM: multi_v7_defconfig: Enable Acer A500 drivers
-806b99206b840bcf3bfa44227dc978880d13ed1b ARM: multi_v7_defconfig: Enable CONFIG_TEGRA30_TSENSOR
-dd00d75007d27677158bf6e64000d2e266035294 firmware: tegra: Stop using seq_get_buf()
-900a486ac73dfdf9b1629e7e4df6eacc92da7578 dt-bindings: tegra: Document NVIDIA Jetson TX2 NX developer kit
-913f8ad4fad09510d8ab493dd3393aaaecbc9b2e arm64: tegra: Add PWM nodes on Tegra186
-8a9dee7e7beb57504aa17166f0d8d6998ac098af arm64: tegra: Add NVIDIA Jetson TX2 NX Developer Kit support
-40e2e6f1c05ed9838fe3ef8af6cc2415462d26e0 Merge branch for-5.14/arm64/dt into for-next
-7ff355f4fcbb809073802f176bb0fbe1de64e3b8 Merge branch for-5.15/dt-bindings into for-next
-cd836f98cc2255bf6fdf4d2dfcba614ebdbeeb91 Merge branch for-5.15/firmware into for-next
-999b262c6dfeae95b3886d321650b00cbbb7fc1b Merge branch for-5.15/soc into for-next
-c45894e793355986a619c44f2381c5349c048d65 Merge branch for-5.15/clk into for-next
-fc3f1d2ba02e384edabbde79870bf715de5bcc5d Merge branch for-5.15/arm/dt into for-next
-1a168ba44368f9b7e948fb3c9f6507ec8653938e Merge branch for-5.15/arm/defconfig into for-next
-c7a649669f307491f131e454f56679bb7b85fa7b Merge branch for-5.15/arm64/dt into for-next
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1628776378 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1628776377-ca4e09f4885f093605fb0e22438d321467ed429f
 
---===============9183945125357959066==--
+43e8f76006592cb1573a959aa287c45421066f9c cbc06f051c524dcfe52ef0d1f30647828e226d30 refs/heads/fixes
+43e8f76006592cb1573a959aa287c45421066f9c cbc06f051c524dcfe52ef0d1f30647828e226d30 refs/heads/fixes-test
+9a73fa375d58fee5262dd16473c8e7522bdf44de 1746f4db513563bb22e0ba0c419d0c90912dfae1 refs/heads/master
+6f3d46e4a4a9ca09288540d39c0a31c9802d2602 01dc10da827c1725c0f5491c78d700a4478aae08 refs/heads/merge
+5e3aa4531ecc7febbfa18218145c903dab17e651 aaf01a9f507c108cc8e86f420b0a81e21354be1b refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmEVJ7oTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgB+sD/9ZqRNtiONom8SAxg7nY1P4d2CK02YB
+ZBWVhe/umFOLxUvMczY7vBxB78z2V8HGSh6Arc+6XXhbixno6qxdxjjDg2zujuky
+RctAdhkLdzFFExq32tgQWN5Z1Afvu9lLHxM1MXP8eaFj15Bq3Knb3REmlmFzzuWz
+N49Icm5fTCw4wNFd56KOV6lTazk6cSE6dYCZLkdv5LhdvDQ7pc2ho8im3HFUq+8x
+Il+ztR6+b3LILm7sr/Z0rSEYIOq5j/D6dX1p3SvqUTitVRstx1uP3PPANTm0HH5c
+sS+mDvjsCwgIspXrQMigAwMoJW+282VTJS5dGfhDZky6coiNqSaK5Ljxk2FgZ3zE
+xgIffqFnDOyyL0S5p1OIhC36q35PU416UB6TC/g9/GguTbpdqWx7KPoBMt6a6czZ
+h/Ezmn/VUYrH8A745Gax5KHBh0J5tUJMYjX+xVj3KeQ1TwwD3WADGrX+WUMw3OIE
+YiNmLXCjRGvPiJ6iHbW30aeQwjpgMNw9sSskxLSztKLcQFjMZFoPUxlaTas4f6Wk
+L6VM6zhvsMSQUfCqZgP/biOeHRIacBKBirxaZinleNX5kHtj0E/SMdDrHdT+HeKi
+HoofnXMXHquVAQ14vVo9XMtAkaeXAONUWF14do8U8kFAKj3SM76G2FTflCxiojoB
+fiHMVXxX1CPiZw==
+=RulV
+-----END PGP SIGNATURE-----
+
+--===============8762332501583543346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9a73fa375d58-1746f4db5135.txt
+
+19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
+153cca9caa81ca8912a70528daca4b9a523c6898 platform/x86: Add and use a dual_accel_detect() helper
+d4067395519b40d4ee9b7c26347233e4ae59f900 arc: Prefer unsigned int to bare use of unsigned
+81e82fa58098b13af206c8ba4edb690bf5b7d5d5 arc: Fix spelling mistake and grammar in Kconfig
+bf79167fd86f3b97390fe2e70231d383526bd9cc ARC: Fix CONFIG_STACKDEPOT
+3a715e80400f452b247caa55344f4f60250ffbcf ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
+085fc31f81765e061c78cdcab0e5516fd672bff7 platform/x86: Make dual_accel_detect() KIOX010A + KIOX020A detect more robust
+9d7b132e62e41b7d49bf157aeaf9147c27492e0f platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
+669d94219d91a2ba950bb12ece69cf0ada53ad4f MAINTAINERS: update Vineet's email address
+9011c2791e63fc05721b545c41ad025d8073566e ovl: skip stale entries in merge dir cache iteration
+9b91b6b019fda817eb52f728eb9c79b3579760bc ovl: fix deadlock in splice write
+580c610429b3994e8db24418927747cf28443cde ovl: fix uninitialized pointer read in ovl_lookup_real_one()
+427215d85e8d1476da1a86b8d67aceb485eb3631 ovl: prevent private clone if bind mount is not allowed
+b3f0ccc59cfeb508a3774e8653069d76ffadc37e Merge tag 'ovl-fixes-5.14-rc6-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
+9e723c5380c6e14fb91a8b6950563d040674afdb Merge tag 'platform-drivers-x86-v5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+761c6d7ec820f123b931e7b8ef7ec7c8564e450f Merge tag 'arc-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+b4d8a58f8dcfcc890f296696cadb76e77be44b5f seccomp: Fix setting loaded filter count during TSYNC
+848378812e40152abe9b9baf58ce2004f76fb988 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+fd66ad69ef5a59f303b595ac8ecf454f213cb7e6 Merge tag 'seccomp-v5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+1746f4db513563bb22e0ba0c419d0c90912dfae1 Merge tag 'orphans-v5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+
+--===============8762332501583543346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6f3d46e4a4a9-01dc10da827c.txt
+
+19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
+153cca9caa81ca8912a70528daca4b9a523c6898 platform/x86: Add and use a dual_accel_detect() helper
+d4067395519b40d4ee9b7c26347233e4ae59f900 arc: Prefer unsigned int to bare use of unsigned
+81e82fa58098b13af206c8ba4edb690bf5b7d5d5 arc: Fix spelling mistake and grammar in Kconfig
+bf79167fd86f3b97390fe2e70231d383526bd9cc ARC: Fix CONFIG_STACKDEPOT
+3a715e80400f452b247caa55344f4f60250ffbcf ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
+085fc31f81765e061c78cdcab0e5516fd672bff7 platform/x86: Make dual_accel_detect() KIOX010A + KIOX020A detect more robust
+9d7b132e62e41b7d49bf157aeaf9147c27492e0f platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
+669d94219d91a2ba950bb12ece69cf0ada53ad4f MAINTAINERS: update Vineet's email address
+9011c2791e63fc05721b545c41ad025d8073566e ovl: skip stale entries in merge dir cache iteration
+9b91b6b019fda817eb52f728eb9c79b3579760bc ovl: fix deadlock in splice write
+580c610429b3994e8db24418927747cf28443cde ovl: fix uninitialized pointer read in ovl_lookup_real_one()
+427215d85e8d1476da1a86b8d67aceb485eb3631 ovl: prevent private clone if bind mount is not allowed
+b3f0ccc59cfeb508a3774e8653069d76ffadc37e Merge tag 'ovl-fixes-5.14-rc6-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
+9e723c5380c6e14fb91a8b6950563d040674afdb Merge tag 'platform-drivers-x86-v5.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+761c6d7ec820f123b931e7b8ef7ec7c8564e450f Merge tag 'arc-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+b4d8a58f8dcfcc890f296696cadb76e77be44b5f seccomp: Fix setting loaded filter count during TSYNC
+848378812e40152abe9b9baf58ce2004f76fb988 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+fd66ad69ef5a59f303b595ac8ecf454f213cb7e6 Merge tag 'seccomp-v5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+1746f4db513563bb22e0ba0c419d0c90912dfae1 Merge tag 'orphans-v5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+98694166c27d473c36b434bd3572934c2f2a16ab powerpc/interrupt: Fix OOPS by not calling do_IRQ() from timer_interrupt()
+01fcac8e4dfc112f420dcaeb70056a74e326cacf powerpc/interrupt: Do not call single_step_exception() from other exceptions
+cbc06f051c524dcfe52ef0d1f30647828e226d30 powerpc/xive: Do not skip CPU-less nodes when creating the IPIs
+63f5b16dfe5dd43f01013d49419e3fd4c6eb5002 Automatic merge of 'master' into merge (2021-08-12 23:46)
+01dc10da827c1725c0f5491c78d700a4478aae08 Automatic merge of 'fixes' into merge (2021-08-12 23:46)
+
+--===============8762332501583543346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5e3aa4531ecc-aaf01a9f507c.txt
+
+69b76e8267b60b2e978ecbe298d64b8abff8e18f powerpc/bug: Provide better flexibility to WARN_ON/__WARN_FLAGS() with asm goto
+8352ae6d1ac953f62532c1bfee786ab54d108929 powerpc/pseries: rename min_common_depth to primary_domain_index
+066209007046fa12cb8f02a49133240d1ef50393 powerpc/pseries: Rename TYPE1_AFFINITY to FORM1_AFFINITY
+388e46492a994ff9e583a21be5446383902d7db6 powerpc/pseries: Consolidate different NUMA distance update code paths
+919ecff2d820fba8f60d0c682f1e3e5112177141 powerpc/pseries: Add a helper for form1 cpu distance
+5cc9f87bb7d8b839aced9e40de420eebb23622f3 powerpc/pseries: Add support for FORM2 associativity
+fe69a0e58b2b53edfb88d55dd6dd9dbd2ea1a795 powerpc/pseries: Consolidate form1 distance initialization into a helper
+26a85dea2d098c4e09fae6e73e06f25f579e6500 powerpc: wii.dts: Reduce the size of the control area
+9f8cc5a99eacc7bbf281c0fc09a192ef9801fc88 powerpc: wii.dts: Expose the OTP on this platform
+4f67dcecd1a1d24eabae3dc434501206375d5166 powerpc: wii_defconfig: Enable OTP by default
+aaf01a9f507c108cc8e86f420b0a81e21354be1b cpufreq: powernv: Fix init_chip_info initialization in numa=off
+
+--===============8762332501583543346==--
