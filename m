@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 12 Aug 2021 14:16:04 -0000
-Message-Id: <162877776422.4615.7016761808631837004@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 14:17:07 -0000
+Message-Id: <162877782734.5065.10938226589962204473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: 007666bcc606fd6a1972acd9a6cd27304bc57d0f
-    new: 1e2a2fc85da3607248e79bfa27e2de630d893a10
+    old: 1e2a2fc85da3607248e79bfa27e2de630d893a10
+    new: fdf3a7a1e0a67a52f631b055975c6ac7e0e49a65
     log: |
-         aedefd0549556fe4ec3feda67df0192b58df41fc riscv: kexec: do not add '-mno-relax' flag if compiler doesn't support it
-         1e2a2fc85da3607248e79bfa27e2de630d893a10 riscv: Fix comment regarding kernel mapping overlapping with IS_ERR_VALUE
+         030d6dbf0c2e5fdf23ad29557f0c87a882993e26 riscv: kexec: do not add '-mno-relax' flag if compiler doesn't support it
+         fdf3a7a1e0a67a52f631b055975c6ac7e0e49a65 riscv: Fix comment regarding kernel mapping overlapping with IS_ERR_VALUE
          
