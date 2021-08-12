@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 12 Aug 2021 19:39:42 -0000
-Message-Id: <162879718225.25263.1081021878274920474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 12 Aug 2021 19:46:14 -0000
+Message-Id: <162879757471.30213.8164078271059567021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 46557dcad93c1aad53b6123bbd7f0e2d002d6652
-    new: 00cb89fb9af0355b8b4b64e26d3afa2348efb80d
+  - ref: refs/heads/master
+    old: 42e38eb612b55466e4a4a312685faa9411a7cc97
+    new: ada16d6b0f0a0d50647999a636a867d87df2760f
+    log: |
+         ada16d6b0f0a0d50647999a636a867d87df2760f tpm: ibmvtpm: Avoid error message when process gets signal while waiting
+         
