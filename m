@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7663764777296204237=="
+Content-Type: multipart/mixed; boundary="===============7177558697985671359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 12 Aug 2021 09:32:31 -0000
-Message-Id: <162876075158.1569.4679617056149667563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 12 Aug 2021 09:32:39 -0000
+Message-Id: <162876075972.1728.4788060280409630229@gitolite.kernel.org>
 
---===============7663764777296204237==
+--===============7177558697985671359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: ee6cb383885cebe7560e166fbfcb95d95485b0b6
-    new: dc85cef1e2c3054f2f04b2f51b26b57b8b2a62e1
-    log: revlist-ee6cb383885c-dc85cef1e2c3.txt
+  - ref: refs/heads/queue-next
+    old: 2bb9ce36e349c7ec29e08514540d824d0d88ce35
+    new: 5b2b078ca41bc6b3ea1277b6fbbb0acc3069fe76
+    log: revlist-2bb9ce36e349-5b2b078ca41b.txt
 
---===============7663764777296204237==
+--===============7177558697985671359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee6cb383885c-dc85cef1e2c3.txt
+Content-Disposition: attachment; filename=revlist-2bb9ce36e349-5b2b078ca41b.txt
 
 50ac7479846053ca8054be833c1594e64de496bb ice: Prevent probing virtual functions
 c503e63200c679e362afca7aca9d3dc63a0f45ed ice: Stop processing VF messages during teardown
@@ -139,5 +139,7 @@ e13433f5351917f46d4acb5033eebd14b43c366d Merge branch 'patchq/407396' into mlx5-
 fe08a58e2dc195fe76a1a8da703910605fbced24 Merge branch 'mlx5-queue' into net-next
 400a1a32bd5404050a6420b73e2b62cddc2d9514 Merge branch 'mlx4-for-net' into net-next
 dc85cef1e2c3054f2f04b2f51b26b57b8b2a62e1 Merge branch 'mlx5-for-net' into net-next
+9cb6f24be11e343cbca7a3db039a6d4689809c39 Merge branch 'net-next' into queue-next
+5b2b078ca41bc6b3ea1277b6fbbb0acc3069fe76 Merge branch 'testing/rdma-next' into queue-next
 
---===============7663764777296204237==--
+--===============7177558697985671359==--
