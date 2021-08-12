@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0062702502913126916=="
+Content-Type: multipart/mixed; boundary="===============2715525260465617524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Aug 2021 11:59:16 -0000
-Message-Id: <162876955611.6055.995808251527524027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 12 Aug 2021 11:59:23 -0000
+Message-Id: <162876956369.6153.16479844001613943235@gitolite.kernel.org>
 
---===============0062702502913126916==
+--===============2715525260465617524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.14
-    old: f4eeaed04e861b95f1f2c911263f2fcaa959c078
-    new: cf2a19f7d2b7d777b4a0ec6f3faa7fe3e4ad568e
+  - ref: refs/heads/for-5.15
+    old: 976c1de1de147bb7f4e0d87482f375221c05aeaf
+    new: aca196842a9729a198af57c417725c3ac9ca05db
     log: |
-         cf2a19f7d2b7d777b4a0ec6f3faa7fe3e4ad568e ASoC: rt5682: Adjust headset volume button threshold again
-         
-  - ref: refs/heads/asoc-5.15
-    old: eb7ab747efd600382bc2e9406ea1fc2a867e9804
-    new: 772d44526e203c062171786e514373f129616278
-    log: |
-         772d44526e203c062171786e514373f129616278 ASoC: rt5682: Properly turn off regulators if wrong device ID
+         aca196842a9729a198af57c417725c3ac9ca05db spi: mxic: add missing braces
          
 
---===============0062702502913126916==
+--===============2715525260465617524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628769536 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1628769553-8158170b702a03e876a6ca4ce797ac66d633493d
+pusher C3F436CA30F5D8EB 1628769544 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1628769561-7772689858cfd27f8b5afb156302f679e8673bde
 
-f4eeaed04e861b95f1f2c911263f2fcaa959c078 cf2a19f7d2b7d777b4a0ec6f3faa7fe3e4ad568e refs/heads/asoc-5.14
-eb7ab747efd600382bc2e9406ea1fc2a867e9804 772d44526e203c062171786e514373f129616278 refs/heads/asoc-5.15
+976c1de1de147bb7f4e0d87482f375221c05aeaf aca196842a9729a198af57c417725c3ac9ca05db refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEVDQAACgkQJNaLcl1U
-h9BjBwf+O/Z98LVRTGGS3nLkC8Zh+lbxrEeX90Tdr5Tw6Un2P+SIz8nr3wcioRly
-nNMupY2jrn5fnZnlOd352ho2qGY21pnISZCYQAsM5IIGtgKWRYZyCayabA8EZe6F
-UlIRoEYVWcraYwgFwV4XF7mFu1mb822HE7ddIOUOOh3KZPegsZRlSI7+X3xk6bW8
-Dt3jkzwMDUJe0/c9lGGPNzGEX0QPImFO71ba4XfCnOa7+/CrrW11uTTLWMrimfXX
-ayU2EJmJLU4GRqKs3Gy13mK8EcLc2WUnWUeYnegDpbYqzGrizg8KuEubyXcxFsw5
-U9RAO6z5s0XTTpV3kLC+dNRUILF3Nw==
-=nSuJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEVDQgACgkQJNaLcl1U
+h9Bz6gf9GDv9ck5+nzuhu6BrZcq7QpwgoKsrcTxsqDVUB0/vBwpLLuNoi3duia49
+Q6wRFPdS9dWa++FI1NF3WVF+8Kn15hddCMmyIb3dBsmKIolxT4j9Myj1Tz4B5S8w
+4BHro7vzjQ5p7fXF/VDDiiYxqHRAu9QRVnruHESjd+lcMuYGbNt/h7LnChMQo5zw
+Y9HVQr9eExItbfPiUHgmH5uexaiiW6uGMWgHdFyWi9j5nSru/J7ju84tKlU8P4MZ
+3eQSHaSmJr3GfnEe+xhWS3GYmcTYL+Mdy+5wH/AEvtizgYQGDjPST2qQfgnUK6Kk
+BzCslDkiri07OO/zi8o3jxrywLk4ZA==
+=bnIN
 -----END PGP SIGNATURE-----
 
---===============0062702502913126916==--
+--===============2715525260465617524==--
