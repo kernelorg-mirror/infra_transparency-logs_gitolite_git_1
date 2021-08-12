@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 12 Aug 2021 01:07:44 -0000
-Message-Id: <162873046436.6883.11434693484900533991@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 01:40:39 -0000
+Message-Id: <162873243984.30098.5285111592545473699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 9f2a5aebb03c19180e3be75ed7263c6ab510b75e
-    new: e45023811742b4cbba28f81f996d3f045f14beae
+    old: e45023811742b4cbba28f81f996d3f045f14beae
+    new: 59a27e1122133831111f9e2e40fec2307d742487
     log: |
-         e45023811742b4cbba28f81f996d3f045f14beae riscv: Optimize kernel virtual address conversion macro
+         59a27e1122133831111f9e2e40fec2307d742487 riscv: Optimize kernel virtual address conversion macro
          
