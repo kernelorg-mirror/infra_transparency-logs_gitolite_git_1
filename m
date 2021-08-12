@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2511598256445854319=="
+Content-Type: multipart/mixed; boundary="===============5560647395695441584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 12 Aug 2021 20:43:43 -0000
-Message-Id: <162880102362.4199.17471562595332810321@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 20:43:57 -0000
+Message-Id: <162880103799.4460.15029630312534724827@gitolite.kernel.org>
 
---===============2511598256445854319==
+--===============5560647395695441584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/auto-latest
+  - ref: refs/heads/master
     old: c5ee8ababa9be56241c949d5c3b9e29a1d0300d6
     new: 607a4143d9a400ddbf2aa67c09346be4870c1748
     log: revlist-c5ee8ababa9b-607a4143d9a4.txt
 
---===============2511598256445854319==
+--===============5560647395695441584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,4 +85,4 @@ a8bebdcd42c5cfdf786a9ce1fc9ef8fa4cda5763 Merge branch 'smp/core'
 0c542a874b4e56af7307f30090911203beb77014 Merge branch 'x86/misc'
 607a4143d9a400ddbf2aa67c09346be4870c1748 Merge branch 'x86/urgent'
 
---===============2511598256445854319==--
+--===============5560647395695441584==--
