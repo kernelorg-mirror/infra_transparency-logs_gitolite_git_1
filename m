@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4189948059046508528=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Aug 2021 11:59:31 -0000
-Message-Id: <162876957121.6288.13767953801863225603@gitolite.kernel.org>
-
---===============4189948059046508528==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Aug 2021 11:59:57 -0000
+Message-Id: <162876959793.6529.235315866821278092@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.15
-    old: 976c1de1de147bb7f4e0d87482f375221c05aeaf
-    new: aca196842a9729a198af57c417725c3ac9ca05db
+  - ref: refs/heads/for-linus
+    old: f114f4be00e1516245e98c2f049a6beaa9b6bb14
+    new: 66479edf46aa8ead738d1cc3040717c377a97533
     log: |
-         aca196842a9729a198af57c417725c3ac9ca05db spi: mxic: add missing braces
+         cf2a19f7d2b7d777b4a0ec6f3faa7fe3e4ad568e ASoC: rt5682: Adjust headset volume button threshold again
+         66479edf46aa8ead738d1cc3040717c377a97533 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-
---===============4189948059046508528==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1628769551 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1628769568-5bb0e7e547249b34619fd08e70e017d1948e554d
-
-976c1de1de147bb7f4e0d87482f375221c05aeaf aca196842a9729a198af57c417725c3ac9ca05db refs/heads/spi-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEVDQ8ACgkQJNaLcl1U
-h9BAWQf/Uaab89conp65TkYBDZVUb98wmPg5y75EKC5GGI9O6BsthP0ACmckZfNj
-hxYoVMNbJ9wfHjHVZb5SxAj3nPy9qSpR9FFEw8sq9jLQgvi/SrMtvXWC8vL3BN9C
-hR3SNNl3CiFf6GYnLGKK4UrbNANYXYsFAfyKEr0pfeFltaLaeni3UFxrliXyrIK+
-D8YpVQ/CTT/8ESnOwgpmJ2heXu1C46vCPHmVzUbnsQ+GeOsyJ/DrMw7vxXb9PyCG
-vXuvQHl5HFpVWHI4klDWGP9S6DtNtyH464lGGqPg76eOpqWeJapkzrIwQ1siLVA7
-uYlHqKLcF+/inCGnWNLsiC1Woin9PQ==
-=qO4F
------END PGP SIGNATURE-----
-
---===============4189948059046508528==--
+  - ref: refs/heads/for-next
+    old: 6b4b0c47bdfeecbbe2393d4e73bfe625d51d4972
+    new: 98ed18e10de5ab41659de7b184e9f84e65f8ab56
+    log: |
+         cf2a19f7d2b7d777b4a0ec6f3faa7fe3e4ad568e ASoC: rt5682: Adjust headset volume button threshold again
+         772d44526e203c062171786e514373f129616278 ASoC: rt5682: Properly turn off regulators if wrong device ID
+         66479edf46aa8ead738d1cc3040717c377a97533 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         98ed18e10de5ab41659de7b184e9f84e65f8ab56 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         
