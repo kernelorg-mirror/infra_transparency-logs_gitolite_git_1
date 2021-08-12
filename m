@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3464539812952993627=="
+Content-Type: multipart/mixed; boundary="===============3653114798331952694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Thu, 12 Aug 2021 21:01:45 -0000
-Message-Id: <162880210533.18951.14343060638025451068@gitolite.kernel.org>
+Date: Thu, 12 Aug 2021 21:02:44 -0000
+Message-Id: <162880216413.19314.908101292117961282@gitolite.kernel.org>
 
---===============3464539812952993627==
+--===============3653114798331952694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: 14462376858e35b83932f94616effc2f49fd8494
     new: fc062ad8e406a08b624b3ab3427434800ff886f8
     log: revlist-14462376858e-fc062ad8e406.txt
 
---===============3464539812952993627==
+--===============3653114798331952694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f0eb870a84224c9bfde0dc547927e8df1be4267c Merge tag 'xfs-5.14-fixes-1' of git://g
 2734d6c1b1a089fb593ef6a23d4b70903526fe0c Linux 5.14-rc2
 fc062ad8e406a08b624b3ab3427434800ff886f8 asm-generic: ffs: Drop bogus reference to ffz location
 
---===============3464539812952993627==--
+--===============3653114798331952694==--
