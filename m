@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Thu, 12 Aug 2021 13:47:21 -0000
-Message-Id: <162877604147.13608.16105409441677895433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 12 Aug 2021 13:47:57 -0000
+Message-Id: <162877607724.13903.6198172741691440075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/fs.idmapped.nested_userns
-    old: efa7bf4aadad3b131a1249b85d95b9b9a68ea196
-    new: 55372164dd5049216f4663d0e3ace58a1585cc25
+  - ref: refs/heads/dev
+    old: 771c994ea51f572539ca3961c6a7706862b147e2
+    new: d252ff3de786a28b1bedf4c03fb31d142d32219b
     log: |
-         ad665d5da061e3c724a452628c81c067d711996b idmapped-mounts: use die() helper
-         1b8a00379ab3a9f91c6d5da42e7f7a082f41d2e0 idmapped-mounts: switch to getopt_long_only()
-         94908bf2c6031ecd7e57af471daf2d3bc3d98bf0 idmapped-mounts: introduce an explicit command line switch for testsuite
-         5959d8dfaab0902a828336b18cc2f6ba4bd2320c generic/640: add fscaps regression test
-         ffa3e9ba52d72fbafaf07ea8e33b1bbf7bd723fb idmapped-mounts: refactor helpers
-         b8b8352e032d5b97c6bbae359b2bbbbb484bf158 idmapped-mounts: add nested userns creation helpers
-         15df088e3774566ba9100460799f305e6bd6b51e generic/641: add nested user namespace tests
-         55372164dd5049216f4663d0e3ace58a1585cc25 btrfs/244: introduce btrfs specific idmapped mounts tests
+         f4d4e5fc2b3d03c7e4f3c24ee694a01f8fe27d53 erofs: directly use wrapper erofs_page_is_managed() when shrinking
+         d252ff3de786a28b1bedf4c03fb31d142d32219b erofs: remove the mapping parameter from erofs_try_to_free_cached_page()
          
