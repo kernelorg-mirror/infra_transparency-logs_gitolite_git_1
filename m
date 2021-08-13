@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Fri, 13 Aug 2021 01:32:38 -0000
-Message-Id: <162881835846.8910.10783021946720171538@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 01:32:58 -0000
+Message-Id: <162881837884.9111.13894449555954214437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel/bmc
 user: joel
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dt-for-v5.15
     old: dbc97765328ad03f853b8975c421d65dbf9619ff
     new: 40cb6373b46cc5bf7d98e23a0c05f6186b23916b
     log: |
