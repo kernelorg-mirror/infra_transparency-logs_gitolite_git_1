@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 13 Aug 2021 21:06:00 -0000
-Message-Id: <162888876008.6570.10426220527295109835@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 21:30:03 -0000
+Message-Id: <162889020345.21840.12393918308341774872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 876c14ad014d0e39c57cbfde53e13d17cdb6d645
-    new: 39a0876d595bd7c7512782dfcce0ee66f65bf221
+    old: 39a0876d595bd7c7512782dfcce0ee66f65bf221
+    new: afa79d08c6c8e1901cb1547591e3ccd3ec6965d9
     log: |
-         39a0876d595bd7c7512782dfcce0ee66f65bf221 net, bonding: Disallow vlan+srcmac with XDP
+         afa79d08c6c8e1901cb1547591e3ccd3ec6965d9 net: in_irq() cleanup
          
