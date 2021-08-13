@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5547419301972763909=="
+Content-Type: multipart/mixed; boundary="===============9196888323769987662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 13 Aug 2021 19:28:38 -0000
-Message-Id: <162888291865.5929.14966960031734369026@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 19:28:50 -0000
+Message-Id: <162888293011.6137.5363553514024493270@gitolite.kernel.org>
 
---===============5547419301972763909==
+--===============9196888323769987662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: e636ff76509d08bac42624fb507014147496b57c
-    new: 36d8d9070a9322768d94ed6098a9459d4b135084
-    log: revlist-e636ff76509d-36d8d9070a93.txt
+  - ref: refs/heads/net-mlx4
+    old: 519133debcc19f5c834e7e28480b60bdc234fe02
+    new: 9d5e6a7076337374261d13930ea844edfb4cdd1d
+    log: revlist-519133debcc1-9d5e6a707633.txt
 
---===============5547419301972763909==
+--===============9196888323769987662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e636ff76509d-36d8d9070a93.txt
+Content-Disposition: attachment; filename=revlist-519133debcc1-9d5e6a707633.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
@@ -346,6 +346,5 @@ f8e6dfc64f6135d1b6c5215c14cd30b9b60a0008 Merge tag 'net-5.14-rc6' of git://git.k
 e8d8c5d80f5e9d4586c68061b62c642752289095 bnxt: make sure xmit_more + errors does not miss doorbells
 fb9f7190092d2bbd1f8f0b1cc252732cbe99a87e bnxt: count Tx drops
 9d5e6a7076337374261d13930ea844edfb4cdd1d Merge branch 'bnxt-tx-napi-disabling-resiliency-improvements'
-36d8d9070a9322768d94ed6098a9459d4b135084 net/mlx5: Lag, fix multipath lag activation
 
---===============5547419301972763909==--
+--===============9196888323769987662==--
