@@ -1,79 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============2375752881249154760=="
+Content-Type: multipart/mixed; boundary="===============1706676522921060818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 13 Aug 2021 11:12:16 -0000
-Message-Id: <162885313673.24026.9939104508189043195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 13 Aug 2021 11:13:52 -0000
+Message-Id: <162885323252.24685.7781904219115982952@gitolite.kernel.org>
 
---===============2375752881249154760==
+--===============1706676522921060818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15/arm/dt
-    old: b3b3e68aaab6a7f233fbf05ec30ace9ddcb36e51
-    new: 2af8d585c30ad0ff9a89887066a016e150680bc1
-    log: revlist-b3b3e68aaab6-2af8d585c30a.txt
-  - ref: refs/heads/for-next
-    old: 2138510cb6e1465f0e5fc8061167661a4d799d71
-    new: b724dc6d778c54a57fd7542a62ba379e7e9d6db9
-    log: revlist-2138510cb6e1-b724dc6d778c.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 74041f50700a9cb18dca2c7809a0ddb59d6d1fbf
+    new: 6a9fa625ffb1e04f77df8e94b8823bdd38ca3387
+    log: revlist-74041f50700a-6a9fa625ffb1.txt
 
---===============2375752881249154760==
+--===============1706676522921060818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3b3e68aaab6-2af8d585c30a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-13a2a5ea1a36d32c3b26f52df7a7c6035d552cbc ARM: tegra: Add SoC thermal sensor to Tegra30 device-trees
-da0ad8983cc486449b8d6668b5f91334fd35803b ARM: tegra: ouya: Add interrupt to temperature sensor node
-155bfaf7ee1df9c4b1aa2737d394b34bc7a2d746 ARM: tegra: paz00: Add interrupt to temperature sensor node
-b844468615cd6cdaef2b2c69d2d33180f375886e ARM: tegra: nexus7: Add interrupt to temperature sensor node
-8d78c750e3f623f85e70d8693e2733a8c3478530 ARM: tegra: acer-a500: Add interrupt to temperature sensor node
-965832950e60bc48a762792902546d5daf833823 ARM: tegra: nyan: Correct interrupt trigger type of temperature sensor
-382397f8d66daf8c0cd840b17ad5fd7c39b6381b ARM: tegra: apalis: Correct interrupt trigger type of temperature sensor
-d8b17f31f12d9433f5cc636788e60c67bc701362 ARM: tegra: cardhu: Correct interrupt trigger type of temperature sensor
-e824fdfc7149f6ce709172d2b7d432bc1406e66f ARM: tegra: dalmore: Correct interrupt trigger type of temperature sensor
-457f620150806db94aedb63690be05a0414a98f9 ARM: tegra: jetson-tk1: Correct interrupt trigger type of temperature sensor
-70e740ad55e5f93a19493720f4105555fade4a73 ARM: tegra: acer-a500: Remove bogus USB VBUS regulators
-d8c6c30bd868682a422473faf6b0573965d938c3 ARM: tegra: acer-a500: Add power supplies to accelerometer
-c60e6e981812cf44aec9c579f79d7b5e055a9035 ARM: tegra: acer-a500: Use verbose variant of atmel,wakeup-method value
-3f9c8c113fc86dd132129559c93b4d2591dc89c2 ARM: tegra: acer-a500: Improve thermal zones
-2af8d585c30ad0ff9a89887066a016e150680bc1 ARM: tegra: nexus7: Improve thermal zones
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628853231 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1628853229-b8faaec81e3a6e30a6a3dde939487e30a052083e
 
---===============2375752881249154760==
+74041f50700a9cb18dca2c7809a0ddb59d6d1fbf 6a9fa625ffb1e04f77df8e94b8823bdd38ca3387 refs/heads/linux-4.19.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEWU+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OVEQAIE6a76HXhnmKFsi2Tl6
+Syz7lJVO8j+tiP4PVToqE67ykoDKPqSeaqUPwMJczIdLPXWaEbl1CaoMrmStaBWD
+Xc03oaSOXRLi333Uo2VQw0oLEA+WxjxZY6i3+OXFrh9NmfmabQKeZ4YyKMlXtzYm
+IKLXUU6qAJTA83ANaT67YiZJr+M1TKYpFC7BJN4YdCrVVzeUMdgGMmqREq3k4u01
+cVpFtlQdbQtRuuvv0iQlt1NInPdGMrYLjAYTBMwXZGPSJogRM8q6vhTp7CdeaXME
+CPcmBezQfza2kDiDRZZgE7awmhXf/kz/JEfzyQ69oW63JK3EQMTFOb27YtCavZ4v
+no5rHOZ1yomU5TdgOfylSXdGTw5pk2UuK0wwGtEcvgvsIqVL1ekuhmeF0aza2xea
+LhgYoQ8iSup050ZocOQKpiDMdu5PGZNlFAcLlPzvoCMuSMfqyJpr7Oh4jjUO5cMt
+0BcryelUEJJaBdzmJbqDdCTt3/6uRvO8OLGsqPi+brNijMnT4pJojNMzsp4GDaHR
+VPVr4S4kVgxU+nsZbp3Ng2DcCzl/zT64z3ecK5MSxzdW6bFFFNBBG+di32NuOHNo
+N3hHdjUEuB2Ut3RebtTYadEwHmhVcAyeZfQC46yk09swHAW7JSDN+nXjqCX2b6qe
+2vqOfQIcQXfutH20IXx0/DFm
+=W9w/
+-----END PGP SIGNATURE-----
+
+--===============1706676522921060818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2138510cb6e1-b724dc6d778c.txt
+Content-Disposition: attachment; filename=revlist-74041f50700a-6a9fa625ffb1.txt
 
-13a2a5ea1a36d32c3b26f52df7a7c6035d552cbc ARM: tegra: Add SoC thermal sensor to Tegra30 device-trees
-da0ad8983cc486449b8d6668b5f91334fd35803b ARM: tegra: ouya: Add interrupt to temperature sensor node
-155bfaf7ee1df9c4b1aa2737d394b34bc7a2d746 ARM: tegra: paz00: Add interrupt to temperature sensor node
-b844468615cd6cdaef2b2c69d2d33180f375886e ARM: tegra: nexus7: Add interrupt to temperature sensor node
-8d78c750e3f623f85e70d8693e2733a8c3478530 ARM: tegra: acer-a500: Add interrupt to temperature sensor node
-965832950e60bc48a762792902546d5daf833823 ARM: tegra: nyan: Correct interrupt trigger type of temperature sensor
-382397f8d66daf8c0cd840b17ad5fd7c39b6381b ARM: tegra: apalis: Correct interrupt trigger type of temperature sensor
-d8b17f31f12d9433f5cc636788e60c67bc701362 ARM: tegra: cardhu: Correct interrupt trigger type of temperature sensor
-e824fdfc7149f6ce709172d2b7d432bc1406e66f ARM: tegra: dalmore: Correct interrupt trigger type of temperature sensor
-457f620150806db94aedb63690be05a0414a98f9 ARM: tegra: jetson-tk1: Correct interrupt trigger type of temperature sensor
-70e740ad55e5f93a19493720f4105555fade4a73 ARM: tegra: acer-a500: Remove bogus USB VBUS regulators
-d8c6c30bd868682a422473faf6b0573965d938c3 ARM: tegra: acer-a500: Add power supplies to accelerometer
-c60e6e981812cf44aec9c579f79d7b5e055a9035 ARM: tegra: acer-a500: Use verbose variant of atmel,wakeup-method value
-3f9c8c113fc86dd132129559c93b4d2591dc89c2 ARM: tegra: acer-a500: Improve thermal zones
-2af8d585c30ad0ff9a89887066a016e150680bc1 ARM: tegra: nexus7: Improve thermal zones
-3e3885e7b6497be7870afda79d3bc2ec905ac335 Merge branch for-5.14/arm64/dt into for-next
-d17dcef95ba8279af56ef3bbb35ffabb5cf8329c Merge branch for-5.15/dt-bindings into for-next
-eaf4a01b851992577da06a615d23b44d114fdc2b Merge branch for-5.15/firmware into for-next
-57f026436b26da13eed9697f1e8076d04329c2c5 Merge branch for-5.15/soc into for-next
-8a1800ab50d8a1bf92e5b17e0e0ad77aa395d54e Merge branch for-5.15/clk into for-next
-5edf6721cd6d8fc53db32b3c564ca29370f47a99 Merge branch for-5.15/arm/dt into for-next
-c16625d54d7c39358f125106f6fcdf59c3388473 Merge branch for-5.15/arm/defconfig into for-next
-b724dc6d778c54a57fd7542a62ba379e7e9d6db9 Merge branch for-5.15/arm64/dt into for-next
+de80c74cc6ddf6d115b4acd95d41f1a24b2e02cf KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+2d25b9538bb055826ee6fdb4ea54f2cdd4858dd3 tracing: Reject string operand in the histogram expression
+e5e054ffbb3619694c5d64e1d226df89ef25cb30 bpf: Inherit expanded/patched seen count from old aux data
+8fdd955dee50da2fe3dc05e1d0faf4c29e869fea bpf: Do not mark insn as seen under speculative path verification
+6861d68cc511f981b2d7a7b9158aff02f32ecd75 bpf: Fix leakage under speculation on mispredicted branches
+df706f555e2a01b5510e6320e0ac79a9cee73d68 bpf, selftests: Adjust few selftest outcomes wrt unreachable code
+44053f5c9d01abf354c2b27ee2b183886e24dedd KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+5dfe7cc47b63d1429163433efd60144bcb8a4cfc USB:ehci:fix Kunpeng920 ehci hardware problem
+2b5d48f90094c6efdfb1d6fd5119ebb9927f4ae0 ppp: Fix generating ppp unit id when ifname is not specified
+de4e5652d765c8fe3059b3ac15492b31812d00b2 ovl: prevent private clone if bind mount is not allowed
+99d44ddb28907e05c5c969dcd2bd1d332cd37913 net: xilinx_emaclite: Do not print real IOMEM pointer
+6a9fa625ffb1e04f77df8e94b8823bdd38ca3387 Linux 4.19.204-rc1
 
---===============2375752881249154760==--
+--===============1706676522921060818==--
