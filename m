@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6967001964491070594=="
+Content-Type: multipart/mixed; boundary="===============8226881344300776812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 13 Aug 2021 13:51:44 -0000
-Message-Id: <162886270425.32600.5569489764843650083@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 13:51:54 -0000
+Message-Id: <162886271422.308.14356208044188736423@gitolite.kernel.org>
 
---===============6967001964491070594==
+--===============8226881344300776812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 7d6cddbea040c0a8b814574fd7b1846cbc30ccc5
+  - ref: refs/heads/master
+    old: e6c3bfdd3fe86a78d2a26036b184eb969cbc3e62
     new: 6b58dd619b9e9ed8a155439f1f57912461164596
-    log: revlist-7d6cddbea040-6b58dd619b9e.txt
+    log: revlist-e6c3bfdd3fe8-6b58dd619b9e.txt
 
---===============6967001964491070594==
+--===============8226881344300776812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d6cddbea040-6b58dd619b9e.txt
+Content-Disposition: attachment; filename=revlist-e6c3bfdd3fe8-6b58dd619b9e.txt
 
 e930285d5f58d81fae5a17266cb6923f917d39ed sched/headers, list: Optimize <linux/list.h> header dependencies
 8c2f8eba9fe1f8730bad28f160c80a86e9936d78 sched/headers: Optimize <linux/kernel.h>
@@ -1051,4 +1051,4 @@ dcfc6bd21f7e35c91d88fffd9af82e4718c7ecb0 <net/netlink_api.h>
 493748497c811b01ee6bcb181c45964694aed00b <uapi/linux/ipv6.h>
 6b58dd619b9e9ed8a155439f1f57912461164596 ==================================================================
 
---===============6967001964491070594==--
+--===============8226881344300776812==--
