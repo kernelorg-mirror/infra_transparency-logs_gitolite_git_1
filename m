@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7501858957460849248=="
+Content-Type: multipart/mixed; boundary="===============3885258105507319468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 Aug 2021 15:05:26 -0000
-Message-Id: <162886712696.22431.8154778340107260769@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 15:05:27 -0000
+Message-Id: <162886712776.22511.11281993589446605282@gitolite.kernel.org>
 
---===============7501858957460849248==
+--===============3885258105507319468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,74 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 58fff7715c9cd556451c23d17c67277a833491a7
-    new: 5124b049250fa384487453ee2be70fbf82aea45c
-    log: revlist-58fff7715c9c-5124b049250f.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 0df52a145f8bd7865e0c8634f24bbfc1a882ec0e
+    new: df6ce9b59c705e13e7fdf19dbba5a715b993b712
+    log: revlist-0df52a145f8b-df6ce9b59c70.txt
 
---===============7501858957460849248==
+--===============3885258105507319468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628867125 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628867126 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1628867124-91f9fe19c4e8a759edd901e11fbacc7b125162b0
+nonce 1628867125-270b8a5171a5b5194f0e02e436f3c735eb661405
 
-58fff7715c9cd556451c23d17c67277a833491a7 5124b049250fa384487453ee2be70fbf82aea45c refs/heads/linux-4.9.y
+0df52a145f8bd7865e0c8634f24bbfc1a882ec0e df6ce9b59c705e13e7fdf19dbba5a715b993b712 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEWijUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YqwP/2DsVBBehCgKLOpunPDh
-VykBmhHLn2QsPJhioUMO2F+DswGAlouCw6v+T7siY8sxVXjRhiQp56B267MdFrPv
-OR/iwlxG07mVSH7W8chibMyjnpHRJHj87EcivW3yYy6La8tXKYdTSutHsmKZhQn2
-gDvV/9+SLnjk2tOKEiIuTpUT/DJppo0rffyVwC7roHH9gjuRxNpJfR4IhL1tyRdN
-ePjahgzQ58VKzpqQovT7FcdM08K47GlnfIT0/nLphqt1H7pX5Sv9KYJKFzKLp3k/
-mK+dfgp7kSGnowsdaBSUAuEzAWGXq5MHEkqUizYffeYHh8rDaNcz/XnfcTAZeg83
-FWExACEcNKVDYV5qGLkouLuDQaSlXhA4a00VgfGBdHIiN+SDbIhMwtd0wh2lsprJ
-aaUKnBlqnGH5iF6Mar0cEfUGsPcsYGCa84SV4f/LFFbO+669qoatj9789dTQpA2m
-xWvPOFjHDAary4+ah+hFHk8I0q40alHbXZQCSZAEAb15lynxoVNGtY8Z1ca3n53Q
-QfeQsDx3tBh4Mw/gL8u7y1l5uypmhH7UUp8uqlYgy1J4vGvprPe7oPTrfGFOYjLz
-OuuYMQgSkPQwkxx7cp3gA5nFC4giCb1ZI0+stoXT5u8K7KgXCBq1R/7vm1yQ6vkf
-44EkRLQKj7y+vd2oM4+XCOMq
-=YGnK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEWijYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RjsP/1SxamJGFOmaLCtgF4Zy
+h478Yq3LDw9WoWu3sPdK5mVtAYANepMsQhistlGaxiHLbQZVPS9oRd+uzfeksC1S
+Cgr3jhAOI4Bf727445c1/iYLk/f7QTRu9kkRp3XhQrGLOSQXIQ0TK+adRzsIGRlg
+/iGWZyDTThZqtdbMSNTPoWbk9XT7pS6WnQ8hTZLiZQxZlSc26yXBoo6Oo+T+mqCW
+STDCWzWshJY2Lvl1tU7QDb+Sknuh342wMTTfv7vVUe4s74qwtCATZ2yNVeNQeHp3
+esIjMthol0TJglWuvoEOmR1AAtkKRzqxfJP2qHKcWAXGUbnkNCVsGwwPg6EgcJx6
+FX8+wwlT6f3jFhs7AVhJxdpmq9Mla8l3AxN91wYzlByxnMATet6Gnki0vDcsiPOF
+3L03WCicCe3pa8ZZbqXQMqFxHA3T2hlbJvNmB703oQRVvCEu3dIBg6Ekc0kIuqpA
+TKZzaDk2R4SbhXoOSK6vhkHrAot8f+KsIupgvEe08ugjADxLRFjO0o6UMOZQa+dV
+O8dMxHPMnC4O7WW0OdK66wZ/WjDJQddShdSZQ4T22zJAwJ7BgEaBcFs8AEH+nLdH
+AEz0cLOmW76bSy6NH+gTCrXLf+ckAqstPi3WeZogikxzFE2mqe1RVx4TE9gf8dXE
+e5zHlxI2qX7zmjXw9SDekIAX
+=eyZc
 -----END PGP SIGNATURE-----
 
---===============7501858957460849248==
+--===============3885258105507319468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58fff7715c9c-5124b049250f.txt
+Content-Disposition: attachment; filename=revlist-0df52a145f8b-df6ce9b59c70.txt
 
-72ebd035c42cd5d8013b1039f2340437918e304a ALSA: seq: Fix racy deletion of subscriber
-8a94a18ea8336a8ba1bce58e8b9dfd96fb975a99 scsi: sr: Return correct event when media event code is 3
-ac77df178182dab599c8fbff44600f4d87877d05 media: videobuf2-core: dequeue if start_streaming fails
-1048ebce3e0ad2a093fda8dd858b2a69afda69d4 net: natsemi: Fix missing pci_disable_device() in probe and remove
-26dafdae19121b6656afe41a95ad9eaeec8cdb2c mips: Fix non-POSIX regexp
-209fdc5e31baa15a131ba86adedd50a496e44c08 bnx2x: fix an error code in bnx2x_nic_load()
-8a06d057ddd800e0744aa7b424eba7ac636cc901 net: pegasus: fix uninit-value in get_interrupt_interval
-8aa088a2b8856787e1e16d7517f4d7fb8dc8b060 net: fec: fix use-after-free in fec_drv_remove
-58d75d77e61c54bf514c5fe4707803a085e1c5c3 net: vxge: fix use-after-free in vxge_device_unregister
-e6d04badcb5e82f5f24e2d315e610c2f469a0a36 Bluetooth: defer cleanup of resources in hci_unregister_dev()
-45577bd5b54ca5d5e2008446837275002a7eae28 USB: usbtmc: Fix RCU stall warning
-0c2b2629c0fd1e31057608575f4a503cf15ddbae USB: serial: option: add Telit FD980 composition 0x1056
-05bbfeaca9ca6051edc167f143fa83fe19d531e5 USB: serial: ch341: fix character loss at high transfer rates
-3803d6b680cfad0c47a97eaf001619bbd99ea559 USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
-96db2b339f6316294d1ea984d9ead999dded449c usb: otg-fsm: Fix hrtimer list corruption
-015918f1bd94ff5ab6f2cabe40f53e9f23591203 scripts/tracing: fix the bug that can't parse raw_trace_func
-a0f11feda124566ccd966e349e8f171acde9d1e2 media: rtl28xxu: fix zero-length control request
-34bb9c6a77790ef285b5b841ce9b7196c83bcc96 pipe: increase minimum default pipe size to 2 pages
-203f0720a7467c2fc6a13444b93e0f5fda65567b serial: 8250: Mask out floating 16/32-bit bus bits
-8d2fdd9a3001d2cc8894b401014de5556b219f49 MIPS: Malta: Do not byte-swap accesses to the CBUS UART
-6f8c0c98a3f3ca9383fd056b1a18e0107db5d382 pcmcia: i82092: fix a null pointer dereference bug
-04f7b961785acd6581372e2a4fdf1262e3807ba5 perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
-6c46ac1b606c1d338fa2c69b44861630a8ecce41 reiserfs: add check for root_inode in reiserfs_fill_super
-f2eedb196f11a2d74b257ea5ce577d60ba21b9d6 reiserfs: check directory items on read from disk
-0d9d891ccab5bca81b67d4ace8b5182215fe10b2 alpha: Send stop IPI to send to online CPUs
-745bd161c337c8074c4d71374f76aa3cec973e43 net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
-e4a63c944d29f069e487ffe1f426b143e186d624 USB:ehci:fix Kunpeng920 ehci hardware problem
-31ce46e5516813c7531a2f688280dffca586dc1a ppp: Fix generating ppp unit id when ifname is not specified
-1c2473b2ae32eb1f94ade2dccf6c67cbf2bbf0ff net: xilinx_emaclite: Do not print real IOMEM pointer
-63fa6742f9c1042cdc49382b7c3f11b2f18b3315 ovl: prevent private clone if bind mount is not allowed
-5124b049250fa384487453ee2be70fbf82aea45c Linux 4.9.280-rc1
+fcb3e7ba128fbce34a8845c0257a3f0e5c479d58 KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+0e2b1f95116b3a3ae226ffa69922dd96469bfdf5 tee: Correct inappropriate usage of TEE_SHM_DMA_BUF flag
+40fd887989479ff86693a0a2c6f8a7aca3d08566 media: v4l2-mem2mem: always consider OUTPUT queue during poll
+3160a6257670333989c2c3ad2eb00883805a21ac tracing: Reject string operand in the histogram expression
+52c4bfdfb801ee6d9b469afea5bc50810947da5d usb: dwc3: Stop active transfers before halting the controller
+b88bfa095f47f65becd70d371d81597ef6eb960e usb: dwc3: gadget: Allow runtime suspend if UDC unbinded
+1e3712c48a10a023933062dab154b9b5925d762a usb: dwc3: gadget: Restart DWC3 gadget when enabling pullup
+ec158a5eacc1cdd6f044104e396a619c7da7a969 usb: dwc3: gadget: Prevent EP queuing while stopping transfers
+bd88fe2f6090ba5c5201ae33aa3cc7847fed759f usb: dwc3: gadget: Clear DEP flags after stop transfers in ep disable
+63cab2e9cdbcdc613165e33f218bf24c3e8203cf usb: dwc3: gadget: Disable gadget IRQ during pullup disable
+d2a9ffce007817b8a9dc3418c4dd7eb0f65bd61a usb: dwc3: gadget: Avoid runtime resume if disabling pullup
+08758df9e5dbaf6a5a4c4212355b64e106a2da7c KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+4c5cc74e6d6c7eeb6c36c1efdee04612218483a6 USB:ehci:fix Kunpeng920 ehci hardware problem
+81316a53cd32f1d4ccb4e63dc05da29a50cf385b ALSA: hda: Add quirk for ASUS Flow x13
+7eb13ba06a8a656e24cbdceb3c6e46f4cd2953b0 ppp: Fix generating ppp unit id when ifname is not specified
+015e4c53ec7f69be833efaa53efffbf453060f6e ovl: prevent private clone if bind mount is not allowed
+0c0f46b397e2023b40b0919ed36e855fd1567a45 btrfs: make qgroup_free_reserved_data take btrfs_inode
+913f87ef57fb95dbaad086e14e3853760d3ba0fe btrfs: make btrfs_qgroup_reserve_data take btrfs_inode
+dcdaeb6afddaf807a692f3a9c07659c83e9c354d btrfs: qgroup: allow to unreserve range without releasing other ranges
+a24708eb19db8bb359d103046c912b5248624e41 btrfs: qgroup: try to flush qgroup space when we get -EDQUOT
+f7e32e09b38724bcc0fb8d043b0b95ce05290599 btrfs: transaction: Cleanup unused TRANS_STATE_BLOCKED
+8b42033e3f4c591dfae5710bdf36c08cfbb9ec0b btrfs: qgroup: remove ASYNC_COMMIT mechanism in favor of reserve retry-after-EDQUOT
+453c06eefe3f858b6b309c934228e9a3b883e93b btrfs: fix lockdep splat when enabling and disabling qgroups
+f618f65bab4d12113c6bdc5795e2ac3e7a07b585 net: xilinx_emaclite: Do not print real IOMEM pointer
+f590feef38849bcff7041f5116feb8bf28b097a3 btrfs: qgroup: don't commit transaction when we already hold the handle
+5cf0c5e70d8a128f75c3060bc02a34b99b360369 btrfs: export and rename qgroup_reserve_meta
+cfbba58d17d7a1e2c341bbb65539ef3abe3cac32 btrfs: don't flush from btrfs_delayed_inode_reserve_metadata
+df6ce9b59c705e13e7fdf19dbba5a715b993b712 Linux 5.4.141-rc1
 
---===============7501858957460849248==--
+--===============3885258105507319468==--
