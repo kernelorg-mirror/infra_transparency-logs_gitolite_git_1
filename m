@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============4474859670427686364=="
+Content-Type: multipart/mixed; boundary="===============7429798305206704570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 13 Aug 2021 17:07:02 -0000
-Message-Id: <162887442290.9737.11302726634836051969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 13 Aug 2021 17:07:28 -0000
+Message-Id: <162887444877.9967.11442999506752979082@gitolite.kernel.org>
 
---===============4474859670427686364==
+--===============7429798305206704570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.15
-    old: 772d44526e203c062171786e514373f129616278
-    new: 31e53e137c5a1e48cd21b45089ca232d355d064c
-    log: revlist-772d44526e20-31e53e137c5a.txt
+  - ref: refs/heads/for-linus
+    old: 66479edf46aa8ead738d1cc3040717c377a97533
+    new: fcccea2dd0db7eeece39b0df5d2c6e5ad9ea857c
+    log: |
+         fcccea2dd0db7eeece39b0df5d2c6e5ad9ea857c Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 98ed18e10de5ab41659de7b184e9f84e65f8ab56
+    new: f7c0c6dcc230f1b734460154f9623121820cff5b
+    log: revlist-98ed18e10de5-f7c0c6dcc230.txt
 
---===============4474859670427686364==
+--===============7429798305206704570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1628874402 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1628874420-48ad24e417f4af783fe94c387dcce0e96f4649fa
-
-772d44526e203c062171786e514373f129616278 31e53e137c5a1e48cd21b45089ca232d355d064c refs/heads/asoc-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEWpqMACgkQJNaLcl1U
-h9DZ/Qf7BbPM6FTLT5L5pOlHlTdHevBMA08jZjvaIin3cwgfG0E6PjgWpXOPCWxr
-cHhJ7bkmbr10KdeSwU4FyKxQUbs/W7bciAqqbjfbBhtw63YnZ8J5YMpx7m5Dyuce
-kDkUJs404fhty2NqxbR+j6F/+NH1+N4MsywBaoMYxLTNipR3i9SpOd253Avdz8MP
-rjhSAfBKu9/ajXsL3mropOss/30od5Mvd44X4pAeNcTbrTAZR0/hK0/DoFuz7Ywb
-m5BX0ZRN9jYlCkWxyxVtWFi7C3UdSpjpIcGMlQDTODBOYZftBe+HK32MRisfiBS2
-CMmysZ5brdXYGAVAPeNa4Xt+92RCCw==
-=KqYp
------END PGP SIGNATURE-----
-
---===============4474859670427686364==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-772d44526e20-31e53e137c5a.txt
+Content-Disposition: attachment; filename=revlist-98ed18e10de5-f7c0c6dcc230.txt
 
 6f28c883b7ba8c611a842b4701eb4fb8bd76b70b ASoC: SOF: Intel: Kconfig: clarify DMI L1 option description
 d2556edadbf2929dd7b04de59daeb0a571dc0349 ASoC: SOF: Intel: hda-stream: remove always true condition
@@ -70,5 +51,7 @@ f1f8a9615451ec3762a45b6985e072c44a995a45 ASoC: Intel: remove device_properties f
 6d9d1652de79e190cefc40bb6cb1ea0c1dc1e874 Merge series "ASoC: SOF: Intel: DMI L1 power optimization for HDaudio platforms" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 f84f6ee0366fe89d1673e3597b308538886e66d3 Merge series "Add RZ/G2L Sound support" from Biju Das <biju.das.jz@bp.renesas.com>:
 31e53e137c5a1e48cd21b45089ca232d355d064c Merge series "ASoC: Intel: boards: use software node API" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+fcccea2dd0db7eeece39b0df5d2c6e5ad9ea857c Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+f7c0c6dcc230f1b734460154f9623121820cff5b Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
 
---===============4474859670427686364==--
+--===============7429798305206704570==--
