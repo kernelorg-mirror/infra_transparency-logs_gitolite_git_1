@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 13 Aug 2021 18:28:01 -0000
-Message-Id: <162887928125.31577.10807125635898255926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 13 Aug 2021 18:49:43 -0000
+Message-Id: <162888058303.13076.18443711108446575113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/tmp.master
-    old: 4cf57cd6c1d94cf44635685d5265a31a0bb832d6
-    new: 854366502392b63fe12ef13bf3031ff8e174f2e6
-    log: |
-         d0ac1005f67032bad96df0eda1e1a09903a35dc3 cmake: Add a module to find if obstack is in a separate library
-         915a3279b59981041d8cda4553ab3cd9a5c2bf9b CMakeList.txt: Look for obstack outside libc
-         854366502392b63fe12ef13bf3031ff8e174f2e6 pahole: Add missing limits.h include to get ULLONG_MAX definition
-         
+  - ref: refs/heads/dev.2021.08.02a
+    old: 0000000000000000000000000000000000000000
+    new: fb843d5528f5b743729424561673203a71dd71de
