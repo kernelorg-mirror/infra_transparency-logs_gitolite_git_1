@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 13 Aug 2021 11:22:08 -0000
-Message-Id: <162885372895.32160.6585905644951663560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 13 Aug 2021 12:22:25 -0000
+Message-Id: <162885734512.6058.5771087096920346568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/review-hans
-    old: e4ec7a49ef8bb4edc85a0eee005d59fa65c94a0e
-    new: ca42c119fc6746e65423257e7eddf5fc9e96edc2
-    log: |
-         8599a12b1e01039efb13151ff922bc16e5013767 platform/x86: Update Mario Limonciello's email address in the docs
-         ca42c119fc6746e65423257e7eddf5fc9e96edc2 platform/x86: acer-wmi: Add Turbo Mode support for Acer PH315-53
-         
+  - ref: refs/tags/net-5.14-rc6
+    old: 7bb5653fc4e56563842be367cc1966ac91876c7b
+    new: 0000000000000000000000000000000000000000
