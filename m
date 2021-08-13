@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1706676522921060818=="
+Content-Type: multipart/mixed; boundary="===============6069364362203216094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 Aug 2021 11:13:52 -0000
-Message-Id: <162885323252.24685.7781904219115982952@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 11:13:54 -0000
+Message-Id: <162885323414.24772.3487993930540640777@gitolite.kernel.org>
 
---===============1706676522921060818==
+--===============6069364362203216094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,49 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 74041f50700a9cb18dca2c7809a0ddb59d6d1fbf
-    new: 6a9fa625ffb1e04f77df8e94b8823bdd38ca3387
-    log: revlist-74041f50700a-6a9fa625ffb1.txt
+  - ref: refs/heads/linux-5.13.y
+    old: 22e76c328b34958e873ab578df9a20dc7298a193
+    new: 40768025d8593c1210d1cfdb3926e5fc67f06be9
+    log: |
+         f87c8e25a4e4aa7920c5ba2a5d08aca36bd4b372 firmware: tee_bnxt: Release TEE shm, session, and context during kexec
+         128853a48b4aa7cda324530f327c6c9526e32ffe bpf: Add _kernel suffix to internal lockdown_bpf_read
+         6d4801359a63604f8ecdc94f719e78dce22316ec bpf: Add lockdown check for probe_write_user helper
+         118c2ffa923406c0b8f878ab4c4e8299bff9b107 ALSA: pcm: Fix mmap breakage without explicit buffer setup
+         0a963f3191e9e48facea1780087e851c58f29b53 ALSA: hda/realtek: fix mute/micmute LEDs for HP ProBook 650 G8 Notebook PC
+         5e914ee5d8abebf0787cd1247e2a37f03adebc77 ALSA: hda: Add quirk for ASUS Flow x13
+         69336c3da351906f03a52a9123ebb6da925c411d ppp: Fix generating ppp unit id when ifname is not specified
+         ba5b603621ab2e73f004ebeaaace3f74592497dd ovl: prevent private clone if bind mount is not allowed
+         40768025d8593c1210d1cfdb3926e5fc67f06be9 Linux 5.13.11-rc1
+         
 
---===============1706676522921060818==
+--===============6069364362203216094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628853231 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628853232 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1628853229-b8faaec81e3a6e30a6a3dde939487e30a052083e
+nonce 1628853231-8e56646f791ec8942f54a6fe35804973a777accc
 
-74041f50700a9cb18dca2c7809a0ddb59d6d1fbf 6a9fa625ffb1e04f77df8e94b8823bdd38ca3387 refs/heads/linux-4.19.y
+22e76c328b34958e873ab578df9a20dc7298a193 40768025d8593c1210d1cfdb3926e5fc67f06be9 refs/heads/linux-5.13.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEWU+8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OVEQAIE6a76HXhnmKFsi2Tl6
-Syz7lJVO8j+tiP4PVToqE67ykoDKPqSeaqUPwMJczIdLPXWaEbl1CaoMrmStaBWD
-Xc03oaSOXRLi333Uo2VQw0oLEA+WxjxZY6i3+OXFrh9NmfmabQKeZ4YyKMlXtzYm
-IKLXUU6qAJTA83ANaT67YiZJr+M1TKYpFC7BJN4YdCrVVzeUMdgGMmqREq3k4u01
-cVpFtlQdbQtRuuvv0iQlt1NInPdGMrYLjAYTBMwXZGPSJogRM8q6vhTp7CdeaXME
-CPcmBezQfza2kDiDRZZgE7awmhXf/kz/JEfzyQ69oW63JK3EQMTFOb27YtCavZ4v
-no5rHOZ1yomU5TdgOfylSXdGTw5pk2UuK0wwGtEcvgvsIqVL1ekuhmeF0aza2xea
-LhgYoQ8iSup050ZocOQKpiDMdu5PGZNlFAcLlPzvoCMuSMfqyJpr7Oh4jjUO5cMt
-0BcryelUEJJaBdzmJbqDdCTt3/6uRvO8OLGsqPi+brNijMnT4pJojNMzsp4GDaHR
-VPVr4S4kVgxU+nsZbp3Ng2DcCzl/zT64z3ecK5MSxzdW6bFFFNBBG+di32NuOHNo
-N3hHdjUEuB2Ut3RebtTYadEwHmhVcAyeZfQC46yk09swHAW7JSDN+nXjqCX2b6qe
-2vqOfQIcQXfutH20IXx0/DFm
-=W9w/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEWU/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7rkQAK+QRJAUJJ8DwQ8TAeT2
+8uuWExvQsEafEodZrzpHeZCMaWdXLm/TK89HAHhMnr6fgAiAh6U7gRDuxnBfJebQ
+UBCkF0jwiYVAiMZkZj1WMhjAC5Fv1g5M7HO5ehTWwpUf2MS9/rNbJBQUrgiFc9d2
+9jk+7lJGQeNk0tsFtwX5YVeUOuwafC+Be7OICwkNtftNIs72EdaLVsyKJYWU8t4L
+Z6Z7dTNAuCqx+h5JAHLJBWEqxsxcmJGF9DsTxc5VYGPrwYQYEpPmp6714F3mtDfu
+NotAGW1+mEwdKajovmKqtGXS3BtHBcMr8zsQyNrtbCzt11dNI2AdH54umV3djvEn
+OIEm7vnWEVs/t/oAuvK4Xqwq93F5ZWG0LcGQ4k+Ho0Eb1xa/rjfi0Zmp/QVFX3X2
+vU1QriS1RUWUDEMqU+Mv+khllulKj5nfMvOdrgelx42W+DQfYrneQiAb5tJGWn0n
+ECLYllYA5QOvipHo/+1XG2G6x20579M9P6EWmBfZ2lnrxZnzbiSCXIPQ4xgJzzum
+WwM1c2LCMQ8Uu6DW9Kh2VVQeOiW+dI0z5g/e3kEBsLNpfNROBgv+rjfLCe39Upmm
+NdYaQO4RkjIXNHHF3gY5/uodJi1ACjNUzdyOyjjl2schznG2Oqgth6+tQmlvNiy/
+RfkmQVraPlVS513BZUcxLImn
+=JBxG
 -----END PGP SIGNATURE-----
 
---===============1706676522921060818==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74041f50700a-6a9fa625ffb1.txt
-
-de80c74cc6ddf6d115b4acd95d41f1a24b2e02cf KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
-2d25b9538bb055826ee6fdb4ea54f2cdd4858dd3 tracing: Reject string operand in the histogram expression
-e5e054ffbb3619694c5d64e1d226df89ef25cb30 bpf: Inherit expanded/patched seen count from old aux data
-8fdd955dee50da2fe3dc05e1d0faf4c29e869fea bpf: Do not mark insn as seen under speculative path verification
-6861d68cc511f981b2d7a7b9158aff02f32ecd75 bpf: Fix leakage under speculation on mispredicted branches
-df706f555e2a01b5510e6320e0ac79a9cee73d68 bpf, selftests: Adjust few selftest outcomes wrt unreachable code
-44053f5c9d01abf354c2b27ee2b183886e24dedd KVM: X86: MMU: Use the correct inherited permissions to get shadow page
-5dfe7cc47b63d1429163433efd60144bcb8a4cfc USB:ehci:fix Kunpeng920 ehci hardware problem
-2b5d48f90094c6efdfb1d6fd5119ebb9927f4ae0 ppp: Fix generating ppp unit id when ifname is not specified
-de4e5652d765c8fe3059b3ac15492b31812d00b2 ovl: prevent private clone if bind mount is not allowed
-99d44ddb28907e05c5c969dcd2bd1d332cd37913 net: xilinx_emaclite: Do not print real IOMEM pointer
-6a9fa625ffb1e04f77df8e94b8823bdd38ca3387 Linux 4.19.204-rc1
-
---===============1706676522921060818==--
+--===============6069364362203216094==--
