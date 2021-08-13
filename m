@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 13 Aug 2021 01:29:52 -0000
-Message-Id: <162881819217.6410.5019517381196916086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Fri, 13 Aug 2021 01:30:35 -0000
+Message-Id: <162881823581.8144.10056894730605306672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: ec83a81c156a79f84500df867e41b1dc5448bb8a
-    new: fdfb9ca7330af05ad7b5b6f7342635f8f3d2d8ae
+  - ref: refs/heads/jd/ring-buffer-handshake-queue
+    old: e8b9652b73d6e83ee7ce38f1ec7252d7889144b6
+    new: afecbe736d9bfb2b0d1749faeba830286c5f9800
     log: |
-         ffdcada033f381a3b269939e32778cf6f1e41164 dhcp-server: Fix double free in l_dhcp_server_expire_by_mac
-         1bbf91d5d2e65a921e185f97cf0b826e0386c050 dhcp-server: Validate chaddr against source MAC
-         fdfb9ca7330af05ad7b5b6f7342635f8f3d2d8ae unit: In test-dhcp update rx callback parameters
+         afecbe736d9bfb2b0d1749faeba830286c5f9800 wireguard: receive: drop handshakes if queue lock is contended
          
