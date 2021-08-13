@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 13 Aug 2021 15:59:07 -0000
-Message-Id: <162887034772.27515.18326871335194321283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 13 Aug 2021 16:01:51 -0000
+Message-Id: <162887051187.30001.15904222341078876276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: d328c686b45efde04a689a06c1d281a35bb73a25
-    new: 6119eab52f8f8db4896e7c3e5a7c6fd5c8bf4171
+  - ref: refs/heads/master
+    old: 543196617ce45b6a04fb039a3b9c6d06c9b58309
+    new: df9e8b65a52fdab5a1ac48847c44d7201faa3cf1
     log: |
-         b348918c545389dc918a18c160a699f3383db8ca iio: adc: rn5t618: Add iio map
-         6119eab52f8f8db4896e7c3e5a7c6fd5c8bf4171 power: supply: rn5t618: Add voltage_now property
+         2819492b94f9ef901178e6972e0e5784ef3a8be9 engines/dfs: add support for 1.3 DAOS API
+         df9e8b65a52fdab5a1ac48847c44d7201faa3cf1 Merge branch 'dfs_update_13_api' of https://github.com/johannlombardi/fio
          
