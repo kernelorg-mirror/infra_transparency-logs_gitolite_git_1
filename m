@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0856557010498064761=="
+Content-Type: multipart/mixed; boundary="===============6290215651818974472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 13 Aug 2021 19:58:30 -0000
-Message-Id: <162888471018.25513.16854085100324365868@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 19:58:39 -0000
+Message-Id: <162888471970.25665.2127006331688386918@gitolite.kernel.org>
 
---===============0856557010498064761==
+--===============6290215651818974472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 88be3263490514854a1445ae95560585601ff160
-    new: f4083a752a3b7dc2076432129c8469d02c25318e
-    log: revlist-88be32634905-f4083a752a3b.txt
+  - ref: refs/heads/mlx5-queue
+    old: e13433f5351917f46d4acb5033eebd14b43c366d
+    new: 1ff7115721a9d210804d6faf557a5835a72c1a30
+    log: revlist-e13433f53519-1ff7115721a9.txt
 
---===============0856557010498064761==
+--===============6290215651818974472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88be32634905-f4083a752a3b.txt
+Content-Disposition: attachment; filename=revlist-e13433f53519-1ff7115721a9.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
@@ -459,5 +459,40 @@ b769cf44ed55f4b277b89cf53df6092f0c9082d0 dt-bindings: net: qcom,ipa: make imem i
 3a03c67de276a6abb412771311f93a73e192b615 Merge tag 'ceph-for-5.14-rc6' of git://github.com/ceph/ceph-client
 f8e6dfc64f6135d1b6c5215c14cd30b9b60a0008 Merge tag 'net-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f4083a752a3b7dc2076432129c8469d02c25318e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+65bf0d1822699677c76ba411b6a881701164d717 net/mlx5e: Do not try enable RSS when resetting indir table
+f36bd2632fdf4f071e8b9474863a20c6e61747d4 net/mlx5e: Introduce TIR create/destroy API in rx_res
+2ad8521387412d90f7bed4e1fee8681ac98bc041 net/mlx5e: Introduce abstraction of RSS context
+00550b731636574e52c2a885572751024e163208 net/mlx5e: Convert RSS to a dedicated object
+95b115445f8724690604bc61df8c2b1dceded681 net/mlx5e: Dynamically allocate TIRs in RSS contexts
+26fd9d81d5e59897e9a3074c2054a11588d2d328 net/mlx5e: Support muiltiple RSS contexts
+7746084cb07e72ae5b75689289b9571742f89d47 net/mlx5e: Support flow classification into RSS contexts
+a15e45908cb7377cdbb90de1139e42dc3e5a25cd net/mlx5e: Abstract MPQRIO params
+47d4d1d0c3e4766720996dee207ccc14f9568f1d net/mlx5e: Maintain MQPRIO mode parameter
+3943e1db3ae5ac753263ab177a2aabfdd2e38f5e net/mlx5e: Handle errors of netdev_set_num_tc()
+a7fbf6c045eea8ba01806f5011a7b075a1a7782a net/mlx5e: Support MQPRIO channel mode
+2f8e0a059794ea0eefddd983134c375bebab8d26 net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+ba7ece28ef256a704bbf0c2d8b3b005c4d95e463 net/mlx5: DR, Split modify VLAN state to separate pop/push states
+d56198fcaa68baaefeea14b0c9f51f99b905afa2 net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+22efa2c5320c9aeb93c8dbdf7a8c066841b07802 net/mlx5: DR, Enable QP retransmission
+67169d74bba6a61bede1c50214f7ba60cd2da032 net/mlx5: DR, Improve error flow in actions_build_ste_arr
+e0d912ea74749aa4735fac48ad6371c9cdca9bb5 net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+7b8118c2167ae47d59c6d3baf69bdbba07116f68 net/mlx5: DR, Reduce print level for FT chaining level check
+469d70dc2a09343a824fb61542e6a96a1e13327a net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+5c2a73f8ee8a599c75c61774e2cff4905c67396f net/mlx5: DR, replace uintN_t with kernel-style types
+e70336e250df8e3c809a67eae176a869e192d43b net/mlx5: DR, Use FW API when updating FW-owned flow table
+a75b71827b4f432d44f080eb579fee15e1b20f9a net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+88e5bf1716930ee4fdbc42fdced846c73ed4199b net/mlx5: DR, Skip source port matching on FDB RX domain
+08f276cd5fee36947f42954614acc537ec66392f net/mlx5: DR, Merge DR_STE_SIZE enums
+61555e08416946d035162f132a6c2b3867573ca7 net/mlx5: DR, Remove HW specific STE type from nic domain
+91eb7eb38885f79093c3e5ea93b089f58939d0b7 net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+acadaae250b405f96fb2abc7378115a9ed06e3e6 net/mlx5: DR, Improve rule tracking memory consumption
+99149fedc1fb978e564d1217af358d3d973df016 net/mlx5: DR, Add support for update FTE
+f4a996838b45f8a10842d576950a0cdeeba716c7 net/mlx5: DR, Fix code indentation in dr_ste_v1
+998d36bb25a9a377ab82f65f0ec50bc99b9a87df Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+2cee66d1e93c189a8a065c81df4b2f3508686377 net/mlx5: Lag, fix multipath lag activation
+a1ffffd2447ec6774cd1114db0e0d5668ebd9f6f Merge branch 'patchq/413311' into mlx5-queue
+1fa863c69eced391d906f67fc987e7a42a456677 Merge branch 'patchq/419320' into mlx5-queue
+1566731abc18e04eb53602883e1a3b9d93dd8a50 Merge branch 'patchq/412107' into mlx5-queue
+1ff7115721a9d210804d6faf557a5835a72c1a30 Merge branch 'patchq/411074' into mlx5-queue
 
---===============0856557010498064761==--
+--===============6290215651818974472==--
