@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 13 Aug 2021 15:50:56 -0000
-Message-Id: <162886985659.22590.16731505364367749567@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 15:51:43 -0000
+Message-Id: <162886990313.22933.10034795861434436015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,10 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 836f0d9a08cee9a99935ed2b238c51d71467da2c
-    new: ea3ce7a11932808b2e1934de344154ff4c2937e8
+    old: ea3ce7a11932808b2e1934de344154ff4c2937e8
+    new: ba6c8174d28331a9b94651bea9156b88b1112013
     log: |
-         ea3ce7a11932808b2e1934de344154ff4c2937e8 station: set autoconnect via setter
+         c23c37c07c309d165039943a1f7ebbe686d57cd0 test-runner: print uncaught test exceptions always
+         89bddf551a259ba21318f8f33e2f9d0bb4ca4c1b test-runner: pass **kwargs in dbg()
+         ba6c8174d28331a9b94651bea9156b88b1112013 test-runner: run individual test functions manually
          
