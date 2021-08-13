@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1747516504520472181=="
+Content-Type: multipart/mixed; boundary="===============4474859670427686364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 13 Aug 2021 17:06:55 -0000
-Message-Id: <162887441584.9589.17179388614144004275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 13 Aug 2021 17:07:02 -0000
+Message-Id: <162887442290.9737.11302726634836051969@gitolite.kernel.org>
 
---===============1747516504520472181==
+--===============4474859670427686364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 772d44526e203c062171786e514373f129616278
     new: 31e53e137c5a1e48cd21b45089ca232d355d064c
     log: revlist-772d44526e20-31e53e137c5a.txt
 
---===============1747516504520472181==
+--===============4474859670427686364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1628874395 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1628874413-981fdbbba817d7bf76878e817360b470b0909bfb
+pusher C3F436CA30F5D8EB 1628874402 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1628874420-48ad24e417f4af783fe94c387dcce0e96f4649fa
 
-772d44526e203c062171786e514373f129616278 31e53e137c5a1e48cd21b45089ca232d355d064c refs/heads/for-5.15
+772d44526e203c062171786e514373f129616278 31e53e137c5a1e48cd21b45089ca232d355d064c refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEWppsACgkQJNaLcl1U
-h9B/5Af+PdbYgFfy3/5u+tfp7OyZp0lzGorCzYHj5wuPv97MDcY7GwQc+HVMb1Vp
-m+lGp7E2+l223CftTDa5hEXa1Sm6ynH1LQoDc1fTMwsuy/CJAbyrvYcIq2YTORsr
-WUi5nMEDEhGFmJUO8lQG2tv/jiXFXLVc5AWf5feP3K/b/7staO7ytzaajGLkv+TC
-zK9ySDOp8jimluYdv6HaizNleHLvDLetNOZSSdSx25C1a3H3AADwAuqWKn+XiZOf
-CPkHmNWzNUaNBEr/aom1+rzBgeBu3eWE75l7t5muoHD85zIP4jVqdyEhO74db9/1
-7zhWAQzg74cKifaIlezXl+huolUQtg==
-=/Brf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEWpqMACgkQJNaLcl1U
+h9DZ/Qf7BbPM6FTLT5L5pOlHlTdHevBMA08jZjvaIin3cwgfG0E6PjgWpXOPCWxr
+cHhJ7bkmbr10KdeSwU4FyKxQUbs/W7bciAqqbjfbBhtw63YnZ8J5YMpx7m5Dyuce
+kDkUJs404fhty2NqxbR+j6F/+NH1+N4MsywBaoMYxLTNipR3i9SpOd253Avdz8MP
+rjhSAfBKu9/ajXsL3mropOss/30od5Mvd44X4pAeNcTbrTAZR0/hK0/DoFuz7Ywb
+m5BX0ZRN9jYlCkWxyxVtWFi7C3UdSpjpIcGMlQDTODBOYZftBe+HK32MRisfiBS2
+CMmysZ5brdXYGAVAPeNa4Xt+92RCCw==
+=KqYp
 -----END PGP SIGNATURE-----
 
---===============1747516504520472181==
+--===============4474859670427686364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ f1f8a9615451ec3762a45b6985e072c44a995a45 ASoC: Intel: remove device_properties f
 f84f6ee0366fe89d1673e3597b308538886e66d3 Merge series "Add RZ/G2L Sound support" from Biju Das <biju.das.jz@bp.renesas.com>:
 31e53e137c5a1e48cd21b45089ca232d355d064c Merge series "ASoC: Intel: boards: use software node API" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============1747516504520472181==--
+--===============4474859670427686364==--
