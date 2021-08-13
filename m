@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5288831104431129296=="
+Content-Type: multipart/mixed; boundary="===============1748080909208949492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 13 Aug 2021 15:40:05 -0000
-Message-Id: <162886920599.14135.17983539456161851266@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 15:40:38 -0000
+Message-Id: <162886923822.14448.7977239740105969454@gitolite.kernel.org>
 
---===============5288831104431129296==
+--===============1748080909208949492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 25dc3895baaa0b2b11b5e48cc8f6b074fa200d38
     new: 5236ad82962ec8d6801ee5ea4cc7132a696cec51
     log: revlist-25dc3895baaa-5236ad82962e.txt
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
 
---===============5288831104431129296==
+--===============1748080909208949492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -464,4 +461,4 @@ f8e6dfc64f6135d1b6c5215c14cd30b9b60a0008 Merge tag 'net-5.14-rc6' of git://git.k
 f4083a752a3b7dc2076432129c8469d02c25318e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5236ad82962ec8d6801ee5ea4cc7132a696cec51 selftests/bpf: Fix running of XDP bonding tests
 
---===============5288831104431129296==--
+--===============1748080909208949492==--
