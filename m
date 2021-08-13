@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Fri, 13 Aug 2021 08:00:22 -0000
-Message-Id: <162884162205.6392.1247744962870039604@gitolite.kernel.org>
+Date: Fri, 13 Aug 2021 08:00:55 -0000
+Message-Id: <162884165511.6659.8815920126624126646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 4177b6f2fb86b0e968dd53d5cabbc2d779f7c686
-    new: cf5002b772962274a11f6a6823d3937931e1b05e
+  - ref: refs/heads/v1.6.x
+    old: bb4e5ce7071feed41bd3f0d9a62b5033fd483a18
+    new: 6e8a881a7d5c969ee3881ee0a67cfd445535dafb
     log: |
-         ab52d2a703507daadf74eee2b2b385f3f826869c configure: Fix 'flase' typo in bats dependency test
-         cf5002b772962274a11f6a6823d3937931e1b05e configure: Drop unnecessary double-quote character
+         ce9c0de0da5dfec7bca9d549833902e14aeca374 configure: Fix 'flase' typo in bats dependency test
+         6e8a881a7d5c969ee3881ee0a67cfd445535dafb configure: Drop unnecessary double-quote character
          
