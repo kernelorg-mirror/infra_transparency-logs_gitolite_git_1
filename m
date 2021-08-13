@@ -1,30 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2896713250911020018=="
+Content-Type: multipart/mixed; boundary="===============4861794448261371394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 13 Aug 2021 02:58:21 -0000
-Message-Id: <162882350150.739.3582226154703114883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 13 Aug 2021 04:27:36 -0000
+Message-Id: <162882885679.26315.2699121536453824251@gitolite.kernel.org>
 
---===============2896713250911020018==
+--===============4861794448261371394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 607a4143d9a400ddbf2aa67c09346be4870c1748
+    new: 0b52902cd2d9a36b357af14515d76de5c82d1fd6
+    log: revlist-607a4143d9a4-0b52902cd2d9.txt
   - ref: refs/heads/master
-    old: f8fbb47c6e86c0b75f8df864db702c3e3f757361
-    new: f8e6dfc64f6135d1b6c5215c14cd30b9b60a0008
-    log: revlist-f8fbb47c6e86-f8e6dfc64f61.txt
+    old: 607a4143d9a400ddbf2aa67c09346be4870c1748
+    new: 0b52902cd2d9a36b357af14515d76de5c82d1fd6
+    log: revlist-607a4143d9a4-0b52902cd2d9.txt
 
---===============2896713250911020018==
+--===============4861794448261371394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8fbb47c6e86-f8e6dfc64f61.txt
+Content-Disposition: attachment; filename=revlist-607a4143d9a4-0b52902cd2d9.txt
 
 e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
 889d0e7dc68314a273627d89cbb60c09e1cc1c25 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
@@ -152,5 +156,20 @@ a1fa72683166b3c69511d5f2ffb37b9f49f48fea Merge tag 'drm-misc-fixes-2021-08-12' o
 82cce5f4291e089d44b7b9bc77918cbcd52d429e Merge tag 'drm-fixes-2021-08-13' of git://anongit.freedesktop.org/drm/drm
 3a03c67de276a6abb412771311f93a73e192b615 Merge tag 'ceph-for-5.14-rc6' of git://github.com/ceph/ceph-client
 f8e6dfc64f6135d1b6c5215c14cd30b9b60a0008 Merge tag 'net-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+2b29fc9f279a02e57118942347f4f99804deb637 Merge branch 'x86/urgent'
+292995c69291c622e2c675e6bd76811834052124 Merge branch 'x86/misc'
+3fdba618d9c1d9f9c8a7dee286b20f30be27d586 Merge branch 'x86/irq'
+fca190041e80ecfcbd7b55e4af579a9aa11e65cf Merge branch 'x86/cpu'
+b5905977989ea3e89e8ee2c205120c5a63397ca8 Merge branch 'x86/cleanups'
+84a995e554eeeb242096fd154c306ab99aa55d3d Merge branch 'x86/cache'
+8bea2d96cffc837042b47941c0fa849453f52158 Merge branch 'timers/core'
+4969e5771b01f323f6159c3acdd8538d3e1943d2 Merge branch 'smp/core'
+f18d1e5dfac96913ed75de0cc4b8983f2fe74b10 Merge branch 'sched/core'
+96a348ce9c9686a3578fd2f4964623b1597664f6 Merge branch 'perf/core'
+d4ece34d3efc70ea33df2704cf018fb2cf3865c4 Merge branch 'locking/urgent'
+efaf0820884ac44d22b67845a858d586b4c6cf3e Merge branch 'locking/core'
+caeff2561a048bee6c4517564eb689ce513746bd Merge branch 'irq/urgent'
+6068faaa480f2f9dfcc8ac1a1ce73cb0b2480c75 Merge branch 'irq/core'
+0b52902cd2d9a36b357af14515d76de5c82d1fd6 Merge branch 'efi/urgent'
 
---===============2896713250911020018==--
+--===============4861794448261371394==--
