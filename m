@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7650349613873799181=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 13 Aug 2021 14:42:43 -0000
-Message-Id: <162886576337.4915.6176426173309765275@gitolite.kernel.org>
-
---===============7650349613873799181==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 13 Aug 2021 14:46:22 -0000
+Message-Id: <162886598205.8049.10690515828634487694@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 09f1b867e841a43c45e6fb524f38fe083cc7362b
-    new: 65f5a8488a9ac131112727a990ba2ef7fd37a862
+  - ref: refs/heads/master
+    old: 67a4cb7847396952479ddd9fcb5c676a8fd23d6a
+    new: 008f8a6e60063e8b35a425cee95a7942053b007c
     log: |
-         65f5a8488a9ac131112727a990ba2ef7fd37a862 Notes added by 'git notes add'
+         008f8a6e60063e8b35a425cee95a7942053b007c Fri 13 Aug 2021 02:45:24 PM UTC
          
-
---===============7650349613873799181==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1628865762 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1628865762-3db2d82572a5b0884b05d2dfce188272bb42dc22
-
-09f1b867e841a43c45e6fb524f38fe083cc7362b 65f5a8488a9ac131112727a990ba2ef7fd37a862 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYRaE4gAKCRC2xBzjVmSZ
-bJYaAQDbB9GwNy27BG2qXRj+tZGHdEPdeWaCjI01Id8rQl8qJAD5AdICBWGgUVtB
-ARldBdijF9sRKHxSMbSepaTQtso8OQI=
-=zek7
------END PGP SIGNATURE-----
-
---===============7650349613873799181==--
