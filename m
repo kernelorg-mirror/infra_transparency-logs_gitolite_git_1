@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 14 Aug 2021 00:22:12 -0000
-Message-Id: <162890053229.7228.509328967633180953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 14 Aug 2021 00:23:57 -0000
+Message-Id: <162890063747.7966.5013955721530536509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: a44fc4b6afc2ee9d186a2dcca64b5eaabab969d1
-    new: b697d9d38a5a5ab405d7cc4743d39fe2c5d7517c
+    old: 9d5e6a7076337374261d13930ea844edfb4cdd1d
+    new: 5f773519639041faed4132f5943d7895f9078a4c
     log: |
-         b697d9d38a5a5ab405d7cc4743d39fe2c5d7517c net: phy: marvell: add SFP support for 88E1510
+         5f773519639041faed4132f5943d7895f9078a4c ice: Fix perout start time rounding
          
