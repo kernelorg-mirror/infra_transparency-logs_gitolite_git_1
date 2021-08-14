@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 14 Aug 2021 03:50:19 -0000
-Message-Id: <162891301986.13032.13928264801215311716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Sat, 14 Aug 2021 04:41:09 -0000
+Message-Id: <162891606923.17665.4767269773886859807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 6dea1813f269f9c03cea226fffdd75670c70ea01
-    new: d5daba542ae15cf47752ab5430ded4cd0d0a7ce3
+  - ref: refs/heads/for-next
+    old: fb31f0a499332a053477ed57312b214e42476e6d
+    new: 8ba1a8b77ba1eb3aef441ed2caf28ab2b1261f5f
     log: |
-         d5daba542ae15cf47752ab5430ded4cd0d0a7ce3 Support distributions that build libcap with aggressive link options.
+         8ba1a8b77ba1eb3aef441ed2caf28ab2b1261f5f riscv: Support allocating gigantic hugepages using CMA
          
