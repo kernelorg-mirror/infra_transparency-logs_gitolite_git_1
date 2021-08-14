@@ -1,44 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 14 Aug 2021 07:32:54 -0000
-Message-Id: <162892637409.32326.8225062317568187189@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7697357449739802792=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 14 Aug 2021 07:52:10 -0000
+Message-Id: <162892753021.13235.2534314306595313428@gitolite.kernel.org>
+
+--===============7697357449739802792==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 503bc421503ff83114f078e55f3ce36d1773801c
-    new: b484ae362bbcc854fdfed0c353c7990aa2d0e107
+  - ref: refs/heads/staging-next
+    old: 626520f4ba27d92c8caaf2d1f70c4bca4ea3f9de
+    new: 0bd35146642bdc56f1b87d75f047b1c92bd2bd39
     log: |
-         fadbd4e7847905d61dd333a0d3d31654f4510bc6 dt-bindings: power: add rk3568-pmu-io-domain support
-         28b05a64e47cbceebb8a5f3f643033148d5c06c3 soc: rockchip: io-domain: add rk3568 support
-         2e9ce86bbea81022540ede98cac152df5566205e arm64: dts: rockchip: add core io domains node for rk356x
-         915186bd99a55642ae77d7f9c46e295b3fd9dc1c arm64: dts: rockchip: enable io domains on rk3568-evb1-v10
-         e3f6b997b6b17810583af79f458b35fc0a34d939 arm64: dts: rockchip: add regulators of rk809 pmic to rk3568-evb1-v10
-         ef180dba76f583efc19c7d5f3d2809e0aa8856e8 arm64: dts: rockchip: add node for sd card to rk3568-evb1-v10
-         eb8d07586e13fc7aa4ed68820240d36a03418193 arm64: dts: rockchip: add pinctrl and alias to emmc node to rk3568-evb1-v10
-         c8db0ed11fdd86e4bb8cffd70c2bacaf2d0576a5 Merge branch 'v5.15-armsoc/drivers' into for-next
-         b484ae362bbcc854fdfed0c353c7990aa2d0e107 Merge branch 'v5.15-armsoc/dts64' into for-next
+         347c9e5201a3e2bb2c84bcb7a04a6ac6b6c3cc33 staging: r8188eu: replace custom hwaddr_aton_i() with mac_pton()
+         32755b2434967e9d88ad626820c5506513c5c728 staging: r8188eu: Remove unused static inline functions in rtw_recv.h
+         72a5e1d7496309e9734d20073a81a9bbffd8d79d staging: r8188eu: Remove uninitialized use of ether_type in portctrl()
+         0bd35146642bdc56f1b87d75f047b1c92bd2bd39 staging: r8188eu: Reorganize error handling in rtw_drv_init()
          
-  - ref: refs/heads/v5.15-armsoc/drivers
-    old: 959e131fb5c3a08293178e94a184b5bf28974bb4
-    new: 28b05a64e47cbceebb8a5f3f643033148d5c06c3
-    log: |
-         fadbd4e7847905d61dd333a0d3d31654f4510bc6 dt-bindings: power: add rk3568-pmu-io-domain support
-         28b05a64e47cbceebb8a5f3f643033148d5c06c3 soc: rockchip: io-domain: add rk3568 support
-         
-  - ref: refs/heads/v5.15-armsoc/dts64
-    old: 440f361af90acff36eb3d89c1f03debeab7b3fb8
-    new: eb8d07586e13fc7aa4ed68820240d36a03418193
-    log: |
-         2e9ce86bbea81022540ede98cac152df5566205e arm64: dts: rockchip: add core io domains node for rk356x
-         915186bd99a55642ae77d7f9c46e295b3fd9dc1c arm64: dts: rockchip: enable io domains on rk3568-evb1-v10
-         e3f6b997b6b17810583af79f458b35fc0a34d939 arm64: dts: rockchip: add regulators of rk809 pmic to rk3568-evb1-v10
-         ef180dba76f583efc19c7d5f3d2809e0aa8856e8 arm64: dts: rockchip: add node for sd card to rk3568-evb1-v10
-         eb8d07586e13fc7aa4ed68820240d36a03418193 arm64: dts: rockchip: add pinctrl and alias to emmc node to rk3568-evb1-v10
-         
+
+--===============7697357449739802792==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1628927529 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1628927528-af11f52f3928d01cf0ba97ac10b088d4776f5317
+
+626520f4ba27d92c8caaf2d1f70c4bca4ea3f9de 0bd35146642bdc56f1b87d75f047b1c92bd2bd39 refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEXdikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FrsP/0C8e4yrcaz5Am/tzfEU
+Ew0u4ovInjUfRuEHcEnq0AjSgZeisN6ksXsUFEN4F86Oh36hPXpT0chAZYr517yG
+oxJqJUCwRQwq5827puAEShfbNC515WPMuqlEKqdoJpQx5/+mSXPYaIOBB9jhXJrX
+d3K8cCIJBjMv98Ze5WdjIz3yy6vOAuyZm/FMebiuTvgWdOf4p54k57nxtD/lPbuK
+uxsuCDKXTolz9x92NCkFKDSG+5T0VfFmB3yVot42t1L+JAVZdeL7R1ptyXidIhCJ
+e1JbCrKEHUfDkivF94D20QwB1VImZMIx6ch55Ay4kOdQoXaRLmelrdncYumSIXIb
+/tEBeXdNsfDeyBl1EzhvbegBhCll050Ogj4JHyUIEbLcHlClEqLU5SOgbwzP4CC0
+8eJUS42JcU52trh0Lg6MQIX5qdtcYfVua8RsHeyDLV13A9IApw+NRvIyBzSOos83
+Pk/7nc1mrvfgPOrgHmJZISmKgH2iIK4Z1m7p4+kZPDCqy8rcl0Q5QJMQYK1VEYAl
+nB1JtW0iolUnE/7rIAvnUhbpXM9l7LxcRAT3sHJXAhdWwMtrTVSkN17af6h0Alnp
+rIGB3meUwCqflyhK+Shl/2QFFv4x6x5MekJqSSSk+VK5XCnTCoRCAIG/7co1thE3
+gI5INSl5jHBxx+NM8/iIMdoG
+=NKhC
+-----END PGP SIGNATURE-----
+
+--===============7697357449739802792==--
