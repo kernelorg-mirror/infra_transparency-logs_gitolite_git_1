@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 15 Aug 2021 11:41:38 -0000
-Message-Id: <162902769848.4190.8822847414443459413@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5084722471692015421=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 15 Aug 2021 11:42:49 -0000
+Message-Id: <162902776923.4660.2248556710054949373@gitolite.kernel.org>
+
+--===============5084722471692015421==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 8216c0114fef4d70b9d792dbaa1b717f8d07e92b
-    new: b51f752c586c2a5b93790896093713e5537f849f
+  - ref: refs/heads/master
+    old: 792e115eb0749258b5840e0a171843d123320f63
+    new: dff7141f88070e94b35503640dc24098c8cb7ebe
     log: |
-         cfd322bace1a975d1203c9822863f5f5c93ca372 hwmon: (axi-fan-control) Support temperature vs pwm points
-         c4e10e2c3b02c475587ff09f8aa82afa102e0dd4 hwmon: (pmbus/bpa-rs600) Don't use rated limits as warn limits
-         84ec4ce7d583c2f88c2b5719a14b6cc346ac45d5 hwmon: (pmbus/bpa-rs600) Add workaround for incorrect Pin max
-         9c750c03435eaa49f289dfea61619201411f1c55 hwmon: (dell-smm) Mark tables as __initconst
-         af0b345eb31d2625e02ade3f359ae4f0470d3ff5 hwmon: (dell-smm) Mark i8k_get_fan_nominal_speed as __init
-         b51f752c586c2a5b93790896093713e5537f849f hwmon: (dell-smm) Rework SMM function debugging
+         dff7141f88070e94b35503640dc24098c8cb7ebe drop bpf-add-_kernel-suffix-to-internal-lockdown_bpf_read.patch
          
+
+--===============5084722471692015421==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629027764 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1629027764-8df01eb6a859a3c07e375775be4613f00947b22c
+
+792e115eb0749258b5840e0a171843d123320f63 dff7141f88070e94b35503640dc24098c8cb7ebe refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEY/bUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rPMQANIKLCsA/GZg1jPC5vgs
+7NmixQdrHn9OVIyyj0LZ0OgNrpFQ9oxM+EKhXJhvZ/KM+LGiDtJB3ybfOizU/9C6
+uxMVpyu+D4qdNSMzL/e3fxZwLGIrCLIIHpPiBlpITotWEHTIAMilxC4UkjB8h+lO
+YjpATaURnMQktO8opIp7U/0O9rw6/b7jtdvlSw2WF12XCD59upPaFD3OKh/bRto5
+Dn8Fj83WJZOlEVg+ISFGPS+Q2DcNROeBgAeLk+MSAsxT5fJjGrapdt4Rdo/7oeng
+OH9yxQQzzmKhj2hppIR73GEDpodOBMeGdlohGUWyLzQgfTCTr6ZSlvwzW4sd5Vlw
+Uga5aYhXHmpuuQvHNaljNb5gPutzsOC+Ff/5jaiV5xftDQ/XDm2PrbjX/pc1XhI7
++x/VkCIQePEI9zfC9rjsATfwNrQdEqt6mIzhuxm7EwjMIiAMEI9h7mBTuTg1OFho
+uVpLICu+8MGfhQCldLgFJzsJW1Zon8VLEcUzZvIADdckOVv/ZDwG7dJIsyxXEqG3
+PTB0R17uP+TnvRie+Oma9xHhUEaAwh7usgjXUx4WiRleS6Z6uW3DmgtmsKyY77Xw
+JXZGs5z6JxYR2ANAYxUh64OUKPSA9RUNknapCUVu8ecNW3B/RueDvrtlALcxS+qr
+Vpr6m+HoSvtTC8PgHnddnY9M
+=uqHg
+-----END PGP SIGNATURE-----
+
+--===============5084722471692015421==--
