@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 15 Aug 2021 11:13:28 -0000
-Message-Id: <162902600871.29689.16711476830211374616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 15 Aug 2021 11:30:55 -0000
+Message-Id: <162902705574.30281.15576823902289674302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/experimental
-    old: a5934d01ec69fcff2196ecf813332630c7027397
-    new: 3b1af9b09b003d5a777e4b06c1815c64a5d6e0f2
+  - ref: refs/heads/master
+    old: 251db77c97035036f132cb9db4333a42410495cb
+    new: 0e23dff584dab8b5c9322ecd9c44c39092e7eae8
     log: |
-         3b1af9b09b003d5a777e4b06c1815c64a5d6e0f2 tmp
+         0e23dff584dab8b5c9322ecd9c44c39092e7eae8 Sun 15 Aug 2021 11:30:24 AM UTC
          
