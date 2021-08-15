@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7256344735333130020=="
+Content-Type: multipart/mixed; boundary="===============4948550436911618679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Aug 2021 06:54:50 -0000
-Message-Id: <162901049082.16211.1712909193139764045@gitolite.kernel.org>
+Date: Sun, 15 Aug 2021 06:55:23 -0000
+Message-Id: <162901052374.17837.11143943077064470291@gitolite.kernel.org>
 
---===============7256344735333130020==
+--===============4948550436911618679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 4880c62df4dfeeb06814cf8a282e7f1534990ea1
-    new: a0ec793065d364a90f6663feabb8b205193748ff
-    log: revlist-4880c62df4df-a0ec793065d3.txt
+    new: 5b38334330db0396aa56c34a6ee88b06425a0986
+    log: revlist-4880c62df4df-5b38334330db.txt
+  - ref: refs/heads/master
+    old: a0ec793065d364a90f6663feabb8b205193748ff
+    new: 5b38334330db0396aa56c34a6ee88b06425a0986
+    log: revlist-a0ec793065d3-5b38334330db.txt
 
---===============7256344735333130020==
+--===============4948550436911618679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4880c62df4df-a0ec793065d3.txt
+Content-Disposition: attachment; filename=revlist-4880c62df4df-5b38334330db.txt
 
 2e29be2e491595407087ab36a5e5a159be693f7b fs/fuse: Remove unneeded kaddr parameter
 44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
@@ -98,6 +102,44 @@ ba31f97d43be41ca99ab72a6131d7c226306865f Merge tag 'for-linus-5.14-rc6-tag' of g
 12f41321ce769b10a3770f6b39e14cb5d6ee97a4 Merge tag 'usb-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 7ba34c0cba0b4e64ff321c9a74272eaab7b27bca Merge tag 'libnvdimm-fixes-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 0aa78d17099b04fd9d36fe338af48ad6fe2d7fca Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-a0ec793065d364a90f6663feabb8b205193748ff Merge branch 'linus'
+1d0cba97cd0fea81d6f8a45476a905e29e9c6ea2 Merge branch 'x86/urgent'
+43dca7c996fb0fe7b826fdb209f3f436820354f7 Merge branch 'x86/misc'
+22f909324d98441dc08842c120d4e349d45e9ff9 Merge branch 'x86/irq'
+49f637352ab84722c825789c3e0b3324c2ddbfa9 Merge branch 'x86/cpu'
+51c6cc1454bda5783915a690be1319465d4b90f0 Merge branch 'x86/cleanups'
+02e3c405b82127dd7e62ad2c6b1bfcb161eb7aaa Merge branch 'x86/cache'
+3494685bf77f9df490de32fc55c835ea809909ec Merge branch 'timers/core'
+fce772e536383fde3e764d7303eb56bfd49d4d82 Merge branch 'smp/core'
+8a133298a5960914eb8d5188141bc25727226de5 Merge branch 'sched/core'
+b159b9a1e6b7ba6fcfc3e514034fbe843ad32eff Merge branch 'perf/core'
+a2e4e2c52d2a3ca4d91aadd2548911594caaa2f3 Merge branch 'locking/urgent'
+bf80b271a8bbbfbb4ff70a2961a886e9f12d1eee Merge branch 'locking/core'
+bdc889c0d68dcd16e0ebba413cf7f935117461f4 Merge branch 'irq/urgent'
+9d0a3bfbef2fd57109cd02c9a86954f5be05ba9e Merge branch 'irq/core'
+e38c37302a4cecf86801d273397fbbcfcee52e86 Merge branch 'efi/urgent'
+5b38334330db0396aa56c34a6ee88b06425a0986 Merge branch 'core/debugobjects'
 
---===============7256344735333130020==--
+--===============4948550436911618679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a0ec793065d3-5b38334330db.txt
+
+1d0cba97cd0fea81d6f8a45476a905e29e9c6ea2 Merge branch 'x86/urgent'
+43dca7c996fb0fe7b826fdb209f3f436820354f7 Merge branch 'x86/misc'
+22f909324d98441dc08842c120d4e349d45e9ff9 Merge branch 'x86/irq'
+49f637352ab84722c825789c3e0b3324c2ddbfa9 Merge branch 'x86/cpu'
+51c6cc1454bda5783915a690be1319465d4b90f0 Merge branch 'x86/cleanups'
+02e3c405b82127dd7e62ad2c6b1bfcb161eb7aaa Merge branch 'x86/cache'
+3494685bf77f9df490de32fc55c835ea809909ec Merge branch 'timers/core'
+fce772e536383fde3e764d7303eb56bfd49d4d82 Merge branch 'smp/core'
+8a133298a5960914eb8d5188141bc25727226de5 Merge branch 'sched/core'
+b159b9a1e6b7ba6fcfc3e514034fbe843ad32eff Merge branch 'perf/core'
+a2e4e2c52d2a3ca4d91aadd2548911594caaa2f3 Merge branch 'locking/urgent'
+bf80b271a8bbbfbb4ff70a2961a886e9f12d1eee Merge branch 'locking/core'
+bdc889c0d68dcd16e0ebba413cf7f935117461f4 Merge branch 'irq/urgent'
+9d0a3bfbef2fd57109cd02c9a86954f5be05ba9e Merge branch 'irq/core'
+e38c37302a4cecf86801d273397fbbcfcee52e86 Merge branch 'efi/urgent'
+5b38334330db0396aa56c34a6ee88b06425a0986 Merge branch 'core/debugobjects'
+
+--===============4948550436911618679==--
