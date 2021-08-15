@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6363834135116185918=="
+Content-Type: multipart/mixed; boundary="===============3210921978522196929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Aug 2021 06:24:27 -0000
-Message-Id: <162900866791.28401.9684805420572223054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 15 Aug 2021 06:30:53 -0000
+Message-Id: <162900905394.905.15887415630940161370@gitolite.kernel.org>
 
---===============6363834135116185918==
+--===============3210921978522196929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: 0b52902cd2d9a36b357af14515d76de5c82d1fd6
-    new: 4880c62df4dfeeb06814cf8a282e7f1534990ea1
-    log: revlist-0b52902cd2d9-4880c62df4df.txt
-  - ref: refs/heads/master
-    old: 0b52902cd2d9a36b357af14515d76de5c82d1fd6
-    new: 4880c62df4dfeeb06814cf8a282e7f1534990ea1
-    log: revlist-0b52902cd2d9-4880c62df4df.txt
+  - ref: refs/tags/staging-5.14-rc6
+    old: fc355ae58575359f59d0b214b231b94da51dd1ad
+    new: 0000000000000000000000000000000000000000
 
---===============6363834135116185918==
+--===============3210921978522196929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b52902cd2d9-4880c62df4df.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4bedcc28469a24fe481a8a31b3584e6070457ddb debugobjects: Make them PREEMPT_RT aware
-7a3dc4f35bf8e1a07e5c3f8ecc8ac923f48493fe driver core: Add missing kernel doc for device::msi_lock
-04c2721d3530f0723b4c922a8fa9f26b202a20de genirq: Fix kernel doc indentation
-ff49346c54b2caf2ee71ae552c0c3229bfe1644e Merge branch 'x86/urgent'
-05d696d2fe8ba16885791501dd5be21784b1015c Merge branch 'x86/misc'
-5ae85acb9179cf64defd4c7b6637578106099d30 Merge branch 'x86/irq'
-8e37fa89d0038c8b451729ea68add6e0bacd15b1 Merge branch 'x86/cpu'
-ad45366b496fb5553c14cd74c839cb24748afb87 Merge branch 'x86/cleanups'
-6ab7802431617959f574f4ee570fe6ea5059521a Merge branch 'x86/cache'
-08c23cbaa21e637889e141411f3bfa3acd8a2f48 Merge branch 'timers/core'
-39d1d845fcb48dfecf6e8a61523e804622664b40 Merge branch 'smp/core'
-b57f99f8e0b62be6274160eb8fbd735cbabf54aa Merge branch 'sched/core'
-c6dcf751519098dc947b8aeca945cb24fa110778 Merge branch 'perf/core'
-d80ec0adfabdfd979ef7bcb9a1e034f8f21afc07 Merge branch 'locking/urgent'
-f599131920ebe8d33ebcfd5d66da84136067911d Merge branch 'locking/core'
-41e49d3fda2cb2bcfec5b712f48bef67bcfa62ab Merge branch 'irq/urgent'
-e1a01b58fcac286fc3f8d985f3fc726f1afb93c8 Merge branch 'irq/core'
-38cd5929d5009d42fc650213c749a91b716081af Merge branch 'efi/urgent'
-4880c62df4dfeeb06814cf8a282e7f1534990ea1 Merge branch 'core/debugobjects'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629009050 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1629009050-e07014dcc0e173e3148d3072fd7f5f0368b5562f
 
---===============6363834135116185918==--
+fc355ae58575359f59d0b214b231b94da51dd1ad 0000000000000000000000000000000000000000 refs/tags/staging-5.14-rc6
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEYtJobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bJMP/RPuazdx6JZcxbUSUEw1
+RkPH/c9NE0BNOX9EJPydjZ+dZe26NfoMp6wbCJy8qzSmlr55Hb/wEgRLTZDDojgG
+kDKlGdHvEkbKt9ME62enKNAr9pcuzBtl8AMn7ixIslLezloceH+3bVmH64YvfHhi
+S4Befyz+cqjUS7RlzcWHd4BfphhJfJo6X/GeBtJQoIrPHGhGjRJrKR4yMpIf+uDZ
+lFaIt6DzMB4AchHIgx9A8LXJ6G0HdIb9N788i83qIvCxFoUlOuaGg8qS9BALGsOk
+dwLwznyZiohIFtsjozL07MiFCQHxa+dWc8fw+chINnH3FJ3znfPWvEnNz2V1D8Vi
+LrwJJIoNPMHA/PlIu5pHwg30d245KO3vT2Rrr2TywMFiqACdnLJOtdKjQ4h3IqAb
+1Oam42i3/ef7xGqdzzGhh9x7u3Y7z6aZ9YUANr98aDywLAfnn8ufieIE6gumCWQO
+eIl9inwW74z56CKU0qi1chbWYH4Qmkv3NDrrpAqUzL7C9c4fH4pCKnR5cjulvu1Z
+blaPcqzaO4ss8C5DxqdzGAo+KQyiKd6MO/Mfgq7N74xTDLL2S23a3bde7yK1GXP8
+AkegA0ekITBdMuscQWp6jttvgYYYmiLBrcKccEOnoal0E4vwmP6srjfufxicNF+b
+zCYwriazrBugv//D95zLq8dh
+=3xFP
+-----END PGP SIGNATURE-----
+
+--===============3210921978522196929==--
