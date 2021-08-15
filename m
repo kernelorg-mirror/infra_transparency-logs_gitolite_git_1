@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4102046992475767645=="
+Content-Type: multipart/mixed; boundary="===============6363834135116185918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 15 Aug 2021 06:04:25 -0000
-Message-Id: <162900746570.15115.7977253754474328922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 15 Aug 2021 06:24:27 -0000
+Message-Id: <162900866791.28401.9684805420572223054@gitolite.kernel.org>
 
---===============4102046992475767645==
+--===============6363834135116185918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 0b52902cd2d9a36b357af14515d76de5c82d1fd6
+    new: 4880c62df4dfeeb06814cf8a282e7f1534990ea1
+    log: revlist-0b52902cd2d9-4880c62df4df.txt
   - ref: refs/heads/master
-    old: 12f41321ce769b10a3770f6b39e14cb5d6ee97a4
-    new: 0aa78d17099b04fd9d36fe338af48ad6fe2d7fca
-    log: revlist-12f41321ce76-0aa78d17099b.txt
+    old: 0b52902cd2d9a36b357af14515d76de5c82d1fd6
+    new: 4880c62df4dfeeb06814cf8a282e7f1534990ea1
+    log: revlist-0b52902cd2d9-4880c62df4df.txt
 
---===============4102046992475767645==
+--===============6363834135116185918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12f41321ce76-0aa78d17099b.txt
+Content-Disposition: attachment; filename=revlist-0b52902cd2d9-4880c62df4df.txt
 
-2e29be2e491595407087ab36a5e5a159be693f7b fs/fuse: Remove unneeded kaddr parameter
-44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
-b05d4c576b697b9f462b9c532c997171d5c3b067 dax: Ensure errno is returned from dax_direct_access
-9977d880f7a3c233db9165a75a3a14defc2a4aee scsi: lpfc: Move initialization of phba->poll_list earlier to avoid crash
-dbe7633c394be4a500b887fe8f9ad486dcba9d77 scsi: storvsc: Log TEST_UNIT_READY errors as warnings
-40d32727931cee82cdc5aaca25ce725d1f3ac864 scsi: mpt3sas: Fix incorrectly assigned error return and check
-b93dfa6bda4d4e88e5386490f2b277a26958f9d3 ACPI: NFIT: Fix support for virtual SPA ranges
-d9cee9f85b22fab88d2b76d2e92b18e3d0e6aa8c libnvdimm/region: Fix label activation vs errors
-f21453b0ff6e307bfd59e7a126d9848cea25315c tools/testing/nvdimm: Fix missing 'fallthrough' warning
-96dcb97d0a40a60b9aee9f2c7a44ce8a1b6704bc Merge branch 'for-5.14/dax' into libnvdimm-fixes
-7ba34c0cba0b4e64ff321c9a74272eaab7b27bca Merge tag 'libnvdimm-fixes-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
-0aa78d17099b04fd9d36fe338af48ad6fe2d7fca Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+4bedcc28469a24fe481a8a31b3584e6070457ddb debugobjects: Make them PREEMPT_RT aware
+7a3dc4f35bf8e1a07e5c3f8ecc8ac923f48493fe driver core: Add missing kernel doc for device::msi_lock
+04c2721d3530f0723b4c922a8fa9f26b202a20de genirq: Fix kernel doc indentation
+ff49346c54b2caf2ee71ae552c0c3229bfe1644e Merge branch 'x86/urgent'
+05d696d2fe8ba16885791501dd5be21784b1015c Merge branch 'x86/misc'
+5ae85acb9179cf64defd4c7b6637578106099d30 Merge branch 'x86/irq'
+8e37fa89d0038c8b451729ea68add6e0bacd15b1 Merge branch 'x86/cpu'
+ad45366b496fb5553c14cd74c839cb24748afb87 Merge branch 'x86/cleanups'
+6ab7802431617959f574f4ee570fe6ea5059521a Merge branch 'x86/cache'
+08c23cbaa21e637889e141411f3bfa3acd8a2f48 Merge branch 'timers/core'
+39d1d845fcb48dfecf6e8a61523e804622664b40 Merge branch 'smp/core'
+b57f99f8e0b62be6274160eb8fbd735cbabf54aa Merge branch 'sched/core'
+c6dcf751519098dc947b8aeca945cb24fa110778 Merge branch 'perf/core'
+d80ec0adfabdfd979ef7bcb9a1e034f8f21afc07 Merge branch 'locking/urgent'
+f599131920ebe8d33ebcfd5d66da84136067911d Merge branch 'locking/core'
+41e49d3fda2cb2bcfec5b712f48bef67bcfa62ab Merge branch 'irq/urgent'
+e1a01b58fcac286fc3f8d985f3fc726f1afb93c8 Merge branch 'irq/core'
+38cd5929d5009d42fc650213c749a91b716081af Merge branch 'efi/urgent'
+4880c62df4dfeeb06814cf8a282e7f1534990ea1 Merge branch 'core/debugobjects'
 
---===============4102046992475767645==--
+--===============6363834135116185918==--
