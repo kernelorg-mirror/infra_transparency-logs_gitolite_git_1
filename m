@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6472083828337120283=="
+Content-Type: multipart/mixed; boundary="===============3772098161946218806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Sun, 15 Aug 2021 03:00:23 -0000
-Message-Id: <162899642330.27941.11448006735360819448@gitolite.kernel.org>
+Date: Sun, 15 Aug 2021 03:00:56 -0000
+Message-Id: <162899645696.28190.28608810026643672@gitolite.kernel.org>
 
---===============6472083828337120283==
+--===============3772098161946218806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: 66192b2e3fd8ab97ed518d6c0240e26655a20b4b
     new: 5261cdf457ce3635bf18d393a3c1991dcfaf9d02
     log: revlist-66192b2e3fd8-5261cdf457ce.txt
 
---===============6472083828337120283==
+--===============3772098161946218806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
 5261cdf457ce3635bf18d393a3c1991dcfaf9d02 crypto: drbg - select SHA512
 
---===============6472083828337120283==--
+--===============3772098161946218806==--
