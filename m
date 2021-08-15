@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7343445486216850950=="
+Content-Type: multipart/mixed; boundary="===============0126566591778868959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 15 Aug 2021 14:29:43 -0000
-Message-Id: <162903778375.24804.15734403426636084805@gitolite.kernel.org>
+Date: Sun, 15 Aug 2021 14:29:57 -0000
+Message-Id: <162903779751.24975.9268356946508753810@gitolite.kernel.org>
 
---===============7343445486216850950==
+--===============0126566591778868959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 94a853eca720ac9e385e59f27e859b4a01123f58
     new: f805ef1ce5d695c260986fdf2e28f5d6c98cf3a8
     log: revlist-94a853eca720-f805ef1ce5d6.txt
 
---===============7343445486216850950==
+--===============0126566591778868959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7dd1a58ce708ae965c143ed6837b503d98cacfa staging: r8188eu: remove CONFIG_USB_HCI
 0bd35146642bdc56f1b87d75f047b1c92bd2bd39 staging: r8188eu: Reorganize error handling in rtw_drv_init()
 f805ef1ce5d695c260986fdf2e28f5d6c98cf3a8 Merge tag 'iio-for-5.15a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
 
---===============7343445486216850950==--
+--===============0126566591778868959==--
