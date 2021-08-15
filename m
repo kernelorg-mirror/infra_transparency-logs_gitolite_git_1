@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sun, 15 Aug 2021 20:05:52 -0000
-Message-Id: <162905795266.16014.1483208672395628273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 15 Aug 2021 20:24:16 -0000
+Message-Id: <162905905685.27919.12736296951418131167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: ccb0f7c0b2898b5e1647d65dadc750d63cbd3a46
-    new: 9b66d0d0395ebd0d858ee969b8088f54c67a77a6
+    old: 3275a066f3ade4454009e5134e96ed6860e08bd3
+    new: 9dc94db6380b70c0af51cf030b1b5d66e1bd54d7
     log: |
-         8606342b5377935e05bdd37e81962573c31d39d9 Limit GitHub Actions job to this repository.
-         f702246d78d8961fb398b8ecf10c335617eb5375 Remove test images dir once test is finished.
-         adff844c466b4832784042b186665673fb767d8a Remove test image in SSH test if ssh config fails.
-         9b66d0d0395ebd0d858ee969b8088f54c67a77a6 Add experimental GitLab CI config.
+         9dc94db6380b70c0af51cf030b1b5d66e1bd54d7 Sun 15 Aug 2021 08:23:38 PM UTC
          
-  - ref: refs/pipelines/353541343
-    old: 0000000000000000000000000000000000000000
-    new: 9b66d0d0395ebd0d858ee969b8088f54c67a77a6
