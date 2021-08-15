@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6567872838197643103=="
+Content-Type: multipart/mixed; boundary="===============0496448192967679599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 15 Aug 2021 06:33:19 -0000
-Message-Id: <162900919906.1835.9648302123448221160@gitolite.kernel.org>
+Date: Sun, 15 Aug 2021 06:34:21 -0000
+Message-Id: <162900926165.2307.10645905215147726403@gitolite.kernel.org>
 
---===============6567872838197643103==
+--===============0496448192967679599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/staging-next
     old: 0bd35146642bdc56f1b87d75f047b1c92bd2bd39
     new: f805ef1ce5d695c260986fdf2e28f5d6c98cf3a8
     log: revlist-0bd35146642b-f805ef1ce5d6.txt
 
---===============6567872838197643103==
+--===============0496448192967679599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629009194 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629009260 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1629009194-17fd5966d982815fd776466e890b73b2cb4e258b
+nonce 1629009260-28c1cba7c92051f07f953d46d9d07ae287a6b51d
 
-0bd35146642bdc56f1b87d75f047b1c92bd2bd39 f805ef1ce5d695c260986fdf2e28f5d6c98cf3a8 refs/heads/staging-testing
+0bd35146642bdc56f1b87d75f047b1c92bd2bd39 f805ef1ce5d695c260986fdf2e28f5d6c98cf3a8 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEYtSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W5cQAIWB+dW4SMjpavD/EdQQ
-yAlXwe6qiZgRoAIq8fZhbG0TQb8CWZ8N+whGdmoTMy4v3Q4izqqgGynfoto1DxYI
-R8hA2tMy8ojw5pwehKjr8uUyGmnGGBuRGaYfNu2i4ZnWDDuU+4fE20yYQ6sTuMEq
-VPMSGmCTMU/zV+x8ojn69RbDNwpe6QINavMwd2GYR90Fl7nydtEn/6YlT8MMuHwd
-Iw89U8wbRLfgt7G0Jj/n2Nc5GqFgKRZbA4pJsx5VkfwIcdZs0hnhaXCEsohBAKHt
-1u67EaJeFXyWUqJf87gmmrZ4vo+KABrTJZlD33sTO+y9xHkpeqWTPwWIXkcY46jH
-6iVEmSHETzTtBnRqx1xlTrmEXM9Esb4NTiETVrl7E3TiFp1Tk+wCMQq1oAgzAnJB
-gn+0sVOpbcqzdmsdgb7ucLm6jlgUatLh/koeNQPM1MJ2MIWMQhbAJEorA7Yn5Yw9
-iKe8I5lRM9HQmndJI68CCU8SU9Q5KrQflZ+M37362ufBFcIaNaM+7mAGuPbb2Ya3
-L5zj4Ha9yH/ikzzLFn24zqdaGNIlxyElrtOU9FUD2YHXAFzJwlXBzyRa1f5qIpsL
-uGJuMz5AsX4y3Y5BuU1Vpt9t35jubY+tm3dsq/urdJPplUAUE8sbqzTX0Ue4nuiS
-2VE76UAQ/Y0roSjzULnXo+bK
-=Wfk/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEYtWwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1n8P/28yaXyJUbx0TxnNiZ4d
+dbSsQ+aPZzm216ZRcFDQgUhB2aLKGxkZWtDU/IoqYHKEknc+fkWGD0DhJq2fLDz+
+D40a7rx4B8hmI3zvW8jvx4ywszNTazDgT1jfgyf01QSh0qJnJkHfACBxnuDYNY7G
+n2tkvqWo26MmMVD2kUvDAVbfybbHhNJkky9Tm+kD4kkrrpzvcn1qsah4RCBdZC/0
+CpLDFIE2VoGvkyvTBVI39DFm5MzIsytbZgQ3tkTd4qMOJdLk+upxqwFEZO/nlWOZ
+lPwoj5Pk68Ua39TyEnS64WZLlno6oVAoZ8DaRyk7lua9VXmsBRSoPOkRS7g4V2ec
+iSkhW2g7yTgI5/QNQnCV7g4lcvhIdhdEz557ODsZ5Y7/qZyP6618tkDpwbnoGWfK
+HzZFQAZqg9LmaAI/vuaYFQ1oAYaqnUCHUPZmyq/47I3ap0nQ7X7Bj6RsUCqnXAUi
+zvxxR9sC8gxvEGYR3scV1OuwVLmZoXkuFzEZxhhWHA5UbjW7CsgDnmvVWoYdDW6a
+WgE/cBh2+u6po2JC5yBZhHhfLWuyFqcDspURU/WKpl2gguDf0CbSqadygPtEBePv
+vGAMkOf7X5A84G5u6n1xjqzprl61TVYfkj/Vka3IPJcdhl1+zISMjVxmk9rHJ6r9
+xEKYFmAyFdwoHF8Q2bigy56r
+=dArh
 -----END PGP SIGNATURE-----
 
---===============6567872838197643103==
+--===============0496448192967679599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -136,4 +136,4 @@ e2ff3198c580a3a3acfdc50cce5b5f8a941cbcd1 counter: Standardize to ERANGE for limi
 94a853eca720ac9e385e59f27e859b4a01123f58 counter: 104-quad-8: Describe member 'lock' in 'quad8'
 f805ef1ce5d695c260986fdf2e28f5d6c98cf3a8 Merge tag 'iio-for-5.15a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
 
---===============6567872838197643103==--
+--===============0496448192967679599==--
