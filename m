@@ -1,53 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3206626117842456248=="
+Content-Type: multipart/mixed; boundary="===============3267008685922498941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 15 Aug 2021 12:02:28 -0000
-Message-Id: <162902894843.18902.14520565667003756146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 15 Aug 2021 12:02:38 -0000
+Message-Id: <162902895881.19120.7891602519476058689@gitolite.kernel.org>
 
---===============3206626117842456248==
+--===============3267008685922498941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.13.11
-    old: 0000000000000000000000000000000000000000
-    new: 8af890a6571988cee7eff8c4f8ef78d88f2625cf
+  - ref: refs/heads/linux-5.13.y
+    old: a37da2be8e6c85c438a1528f9c971e1811086db3
+    new: a3f1a03f54fc08ca86ad0759a46244a771ce6547
+    log: |
+         ea56b15b909c65f8c65f93b02820eaf2682ef18c firmware: tee_bnxt: Release TEE shm, session, and context during kexec
+         95421b33f9a24421bfc58b0a916bd819585a2591 bpf: Add lockdown check for probe_write_user helper
+         c67b3ee8ca4627806e2001ab7f01b17a57f7542c ALSA: pcm: Fix mmap breakage without explicit buffer setup
+         1252406498a665012b2f4f8e753e0374a9b36807 ALSA: hda/realtek: fix mute/micmute LEDs for HP ProBook 650 G8 Notebook PC
+         9153106ca7e3bddb15cc38e6e90f60965ac4d1ea ALSA: hda: Add quirk for ASUS Flow x13
+         2b187b56d531baa0a7810e69c92427464d65fc36 ppp: Fix generating ppp unit id when ifname is not specified
+         41812f4b84484530057513478c6770590347dc30 ovl: prevent private clone if bind mount is not allowed
+         a3f1a03f54fc08ca86ad0759a46244a771ce6547 Linux 5.13.11
+         
 
---===============3206626117842456248==
+--===============3267008685922498941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629028947 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1629028947-2c3c52e4b45357572322a7afab7d55f361e69ec6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629028957 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1629028956-2c3ceae1a7730bfd8de10db685807bda280eea42
 
-0000000000000000000000000000000000000000 8af890a6571988cee7eff8c4f8ef78d88f2625cf refs/tags/v5.13.11
+a37da2be8e6c85c438a1528f9c971e1811086db3 a3f1a03f54fc08ca86ad0759a46244a771ce6547 refs/heads/linux-5.13.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEZAlMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v9IQAMHkuhneCrabMeJGDJ69
-whPaJV/zURBwWJn9AT8eEQdjlj1LvR0t4//mV5UkouThnXVQxnhF1cRXwvYiPcDV
-unRaw6ikogYelQFyAU3a1KO0MW5f98ccLM6B9t1kzB1jvtiMJuvFV6vYrcbG4MHH
-D2/8i5jtyFF3N88naYbRC/t9ZBjiR1Jgt/nuJnf9DRsHAkJEjHYqpY9Jb3sy/1dy
-VwmJCClaevA1K+MnzgL0S2Yf/ODxTXUGEKoeOF2Gtxa3P3couCVz9/obPajsr7Z8
-UNuaN+jWR91L6Ueb5+WQUuZUCkxKNUDPG+WIKB6XoL55J0dRaHYz76Vx/xH0lKiZ
-4wMZkYDF8tNjgXWQUdMkPkoIc3GPmqB7fFzLnyHE+ywcdRS9jDZDCZUBExsl29FS
-bIaWSp1QkcL0ZHIR+oLsTu33ahogag8fOZA1356+YxqOubch7uGGLWDY9O/x02gu
-VskUqVWQB50kC1B4DYBHaoMhw6QEmn8fq9f/8lsxqD9wCk37DSqervSE63gPlI8P
-BCxFs+SoJ/YjjnOCIz1u+co56LTFSy9W8qdGaDVmg05leUejhS/affxJAM6BQUE1
-4Wd+GEunpj9YL8wAdKzp//EnRU+NQzbr6olzCbnD3Lyws8Vvy3XCBJDVxygb3yCD
-HNf45ufxatZJyJnZLGds3N69
-=Amxi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEZAl0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ta4P/0p3FFyVmECCUBJuoNN9
+rmkBuPK0waolckgw9Lzgh4TftAK/XbR6MgsfXKaJPanwnGIUob/WTL74noTiNK78
+8gfY8a0lrvoW6dM0k3ZOBq0zXwhif9KC1jJtTX3NjGUDyhFo4ECMys/hIxvk8Gb4
+Dz63gV/n+/yQPaU2kt968P2SG6zrFYtr53SNq5Xlhtmb9uU2CkxGDcOVsoHoo0yi
+4GoJm4wknenmqlKydibLQMbUUXhMs3JxXDrVHRgfE3r0QMFFrh/PhP3De203jbo+
+UqQ2murHdbstO2aToC2ph702o8CFZnvm5WuH9I0Jl9TeYwwTCbjfIWTPrQfiQWtf
+4JM5p6t2hsdbgAc1dpKdFVKC256H78SktPnXQ4nDQOQdmZnPCrlMw4R7eoDebRGL
+Xi80qcl147V0lGQgfKUH7KZA8ZOj9oOdrzpJhDX5NIsjISub4YTm4Do7y2cOU/8v
+13xRYL/c3KFv+7k8mwuO43UJe+gRogGZ6/nRvSD+ADBE0aP1Xni7b3007xWWyc90
+YQshpOjs3pZOySJs6EPRHUQMXQpHPKvN6tuKS0Ezcm0lzDexMgi7YPIIboPAVWwV
+aPtWEkE995xiEytiF+SHVwqrTNQxCB/2dmswhZZx1eBk2sdNsfvZYyQYoaUQ7l0e
+8yIIu3KhYD3jicP44dulVF57
+=W9ND
 -----END PGP SIGNATURE-----
 
---===============3206626117842456248==--
+--===============3267008685922498941==--
