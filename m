@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5514284582909015365=="
+Content-Type: multipart/mixed; boundary="===============5495238104406718785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 15 Aug 2021 12:49:04 -0000
-Message-Id: <162903174468.29633.14593237571139492635@gitolite.kernel.org>
+Date: Sun, 15 Aug 2021 12:50:25 -0000
+Message-Id: <162903182563.31743.5915151962833336222@gitolite.kernel.org>
 
---===============5514284582909015365==
+--===============5495238104406718785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,107 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: d6f911040ca00aef80f7fe68b2c7c6d8efcf3673
-    new: 4f2c74d645a23f3adf570c15c1851f1428e49a93
-    log: revlist-d6f911040ca0-4f2c74d645a2.txt
-  - ref: refs/heads/queue/4.19
-    old: 30db27e5663de1f715f16ba90763dbb640372124
-    new: 3a3ff57f7262b652b018495fa9a7f3b65ec29cf1
-    log: revlist-30db27e5663d-3a3ff57f7262.txt
-  - ref: refs/heads/queue/4.4
-    old: e871ffb48a93d43ac5e8d6dccb882a5085e9e3e3
-    new: 165fe3bb4e8882375548f63b5a2e9c31f78c561b
+    old: 4f2c74d645a23f3adf570c15c1851f1428e49a93
+    new: 44c35838673f66d53c69109ba0d10d8176d5f242
     log: |
-         2dd3fcf6c330cefdd8a2af2c3de25488b714ce85 ASoC: intel: atom: Fix reference to PCM buffer address
-         165fe3bb4e8882375548f63b5a2e9c31f78c561b i2c: dev: zero out array used for i2c reads from userspace
+         c4806077ff4fccf514743f725b78bd226b8a5086 iio: humidity: hdc100x: Add margin to the conversion time
+         e6940f8a566cbf224979cb5bdd8c9bee60452a99 iio: adc: Fix incorrect exit of for-loop
+         ddeeb2f3cfde2324fc8a74677be738406fe4c9bb ASoC: intel: atom: Fix reference to PCM buffer address
+         bf64f58155de3f99a21be09b7faa8c1b8d6d9b39 i2c: dev: zero out array used for i2c reads from userspace
+         44c35838673f66d53c69109ba0d10d8176d5f242 ACPI: NFIT: Fix support for virtual SPA ranges
+         
+  - ref: refs/heads/queue/4.19
+    old: 3a3ff57f7262b652b018495fa9a7f3b65ec29cf1
+    new: c0577694826f8b852d056368a508e8631006f6aa
+    log: |
+         109d096c76e67015afdb415aed733953f84a0063 iio: humidity: hdc100x: Add margin to the conversion time
+         35ed2570c93dea66e30ce55c7198c4b44b1b191d iio: adc: Fix incorrect exit of for-loop
+         0e4d6e7e724dddafb1eb85d3dc8c50fe418bc24e ASoC: intel: atom: Fix reference to PCM buffer address
+         3afb907e3e266ba830b6e5bc877cfcba5a459cda i2c: dev: zero out array used for i2c reads from userspace
+         c0577694826f8b852d056368a508e8631006f6aa ACPI: NFIT: Fix support for virtual SPA ranges
+         
+  - ref: refs/heads/queue/4.4
+    old: 165fe3bb4e8882375548f63b5a2e9c31f78c561b
+    new: 650eeab5e507e96f6fc85e3f1baefe0012897113
+    log: |
+         579ff03e6fd4f636140af0f6b854f36bd555b03b ASoC: intel: atom: Fix reference to PCM buffer address
+         650eeab5e507e96f6fc85e3f1baefe0012897113 i2c: dev: zero out array used for i2c reads from userspace
          
   - ref: refs/heads/queue/4.9
-    old: f01c81ce9bed1eb5a577fb0b5fe320dd49958c8a
-    new: 2202c8bc97dd9fc96e768496fb40ec45bf01f24b
+    old: 2202c8bc97dd9fc96e768496fb40ec45bf01f24b
+    new: a8dd58bceff459da94e48ef1cae2f6c64483ee79
     log: |
-         81d9ce258f8d771b5f21891bcc140504050b3631 iio: adc: Fix incorrect exit of for-loop
-         8d4ab55967c1ea973426e5e7a5cd543d7ff2a6c1 ASoC: intel: atom: Fix reference to PCM buffer address
-         b3064755e804c301305f3496c21d5b8d9343363b i2c: dev: zero out array used for i2c reads from userspace
-         2202c8bc97dd9fc96e768496fb40ec45bf01f24b ACPI: NFIT: Fix support for virtual SPA ranges
+         219d5483f03f6e6177b2724705e81fe07bbd46f3 iio: adc: Fix incorrect exit of for-loop
+         d5e7957e09f18f1f212e905c16f2f2333bde8cc0 ASoC: intel: atom: Fix reference to PCM buffer address
+         d1991a388852fe5ebeeb65d068e61a0a0f713d85 i2c: dev: zero out array used for i2c reads from userspace
+         a8dd58bceff459da94e48ef1cae2f6c64483ee79 ACPI: NFIT: Fix support for virtual SPA ranges
          
+  - ref: refs/heads/queue/5.4
+    old: 26542c2698c2749ee3556e1287a29838d54609df
+    new: 9a635d0a9b01f1e4e412ba88fcf7eb75d39886c6
+    log: revlist-26542c2698c2-9a635d0a9b01.txt
 
---===============5514284582909015365==
+--===============5495238104406718785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6f911040ca0-4f2c74d645a2.txt
+Content-Disposition: attachment; filename=revlist-26542c2698c2-9a635d0a9b01.txt
 
-b211b2eff4c1bd8af21d3ec42d1a473b8328f5b4 Revert "ACPICA: Fix memory leak caused by _CID repair function"
-f8927c61c3e00830db135b96fb01808e303c2df8 ALSA: seq: Fix racy deletion of subscriber
-a2cbb5615baa6412c49bff05294ac00e75cb2303 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs
-7d40962a25a959000f0a335927ac7437802934a1 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator
-f27bc704e2e04f6d600342572834a090ea5e73cc scsi: sr: Return correct event when media event code is 3
-9e38c674ed71a7a05f9c35660951d0956134b6b2 media: videobuf2-core: dequeue if start_streaming fails
-4c9ce62020ef23754e8cb6f19dce83c5e76a7c1d net: natsemi: Fix missing pci_disable_device() in probe and remove
-f97f6b83e5403b52f085918fa27e8915fec09c4e nfp: update ethtool reporting of pauseframe control
-2a465b741e7dafaa216c0e11a0fa06d24252bd0f mips: Fix non-POSIX regexp
-f34f46ca638ef743596cc57d12313aa92531c5ed bnx2x: fix an error code in bnx2x_nic_load()
-961f330f9a905e629953b49d681e4b04864e74de net: pegasus: fix uninit-value in get_interrupt_interval
-26c54e7122a0a40073ddc8b733173c38e72afe14 net: fec: fix use-after-free in fec_drv_remove
-0efd5912b7e753b799500af5b8ab0a42b10f0594 net: vxge: fix use-after-free in vxge_device_unregister
-0782c8c7f80c9dd457acdfe16fd0f339f0e73093 Bluetooth: defer cleanup of resources in hci_unregister_dev()
-fd82bbdacd86e901aa9a684c8b8826db62c3b88f USB: usbtmc: Fix RCU stall warning
-f2fa3deb27538ed18e0b9f1d1df7f38207807a6f USB: serial: option: add Telit FD980 composition 0x1056
-89b2dafd273b5b16e0669578591ac66aca2f1aff USB: serial: ch341: fix character loss at high transfer rates
-4eaa17d99d2dc689aa34e15155db2bcfc0265d4c USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2
-2ef2d25cd49211f42be6b36b2d7203e82799ca06 usb: gadget: f_hid: added GET_IDLE and SET_IDLE handlers
-9d25976d99a0dae8d32ac7685a34def12671c9d2 usb: gadget: f_hid: fixed NULL pointer dereference
-ad6a82a4f4f94fe82ff218bed5927deb35e08d17 usb: gadget: f_hid: idle uses the highest byte for duration
-18bbb1d1654c65afdb0ca408e102544efeaec853 usb: otg-fsm: Fix hrtimer list corruption
-7f192414da9c538a5ae3316e8d42f2e385ab9974 scripts/tracing: fix the bug that can't parse raw_trace_func
-15b70fa9f9fc705ec5f87f0f2321849fb045e466 staging: rtl8723bs: Fix a resource leak in sd_int_dpc
-78eea0f6607df1f97645b03d13a1e6a3b9376b38 media: rtl28xxu: fix zero-length control request
-d346d23d68ed0adcbddb23e8342aaa5c470b929a pipe: increase minimum default pipe size to 2 pages
-db97d2f3720a8f0fd1bee4d0c0f904a8eb58ffaa ext4: fix potential htree corruption when growing large_dir directories
-a4e8e60e3fc1fff59ac4e6461fcd8d6f62389cb1 serial: 8250: Mask out floating 16/32-bit bus bits
-1ff630a6b8853e68a2b3f18eee5ee305e5a010aa MIPS: Malta: Do not byte-swap accesses to the CBUS UART
-75a8a40d881102973124ad38bd9c1f79f9ab2331 pcmcia: i82092: fix a null pointer dereference bug
-ff056817560d72363b463ddac27822dc8c121280 spi: meson-spicc: fix memory leak in meson_spicc_remove
-254f73e235eec6d278fec6eb463225bbfc75b617 perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest
-da2861064fd338e114f80928ea81bf803bfe8075 qmi_wwan: add network device usage statistics for qmimux devices
-010594adafd2d6d07354a64c2cb219a8e9d6aee8 libata: fix ata_pio_sector for CONFIG_HIGHMEM
-3593093803ebd092f53f75d48428f51d36444833 reiserfs: add check for root_inode in reiserfs_fill_super
-7dc28a8a10cac76df8d2400b8bfcf3b2dfd732e1 reiserfs: check directory items on read from disk
-56893b8fe3a4cb1ee93a67218d777617a07f513e alpha: Send stop IPI to send to online CPUs
-7fdd390a344d19aae6689f64824c905ea30984a7 net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset
-6589c9cdc7b9c57ccd3b91470c2a273f65a8eafa USB:ehci:fix Kunpeng920 ehci hardware problem
-f2fa74800da1aa01fb4e12fbe90f8632293cabf3 ppp: Fix generating ppp unit id when ifname is not specified
-517b875dfbf58f0c6c9e32dc90f5cf42d71a42ce ovl: prevent private clone if bind mount is not allowed
-1994eacac7af52da86e4b0cb6ae61621bef7393f net: xilinx_emaclite: Do not print real IOMEM pointer
-162b95d01320370b80cb2d5724cea4ae538ac740 Linux 4.14.244
-c036cf3a9f62983012894acaa5ebc48fd4f19416 iio: humidity: hdc100x: Add margin to the conversion time
-acd004aaf265ad3c19310559a62d284d1ed9f1c0 iio: adc: Fix incorrect exit of for-loop
-718191dac09c9fe20a0469e7bf0c18d3687098f9 ASoC: intel: atom: Fix reference to PCM buffer address
-502d4e2d3fee398689c0570c8dd5b61cc067343e i2c: dev: zero out array used for i2c reads from userspace
-4f2c74d645a23f3adf570c15c1851f1428e49a93 ACPI: NFIT: Fix support for virtual SPA ranges
+5b774238e8afade606657196d68092e1d2028a4f KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+236aca70929db3aa87dfb8fbc5329aa027a62e91 tee: Correct inappropriate usage of TEE_SHM_DMA_BUF flag
+28276c280f2e757d3415e945f4ceab8ba3d0a9a8 media: v4l2-mem2mem: always consider OUTPUT queue during poll
+396f29ea0cd2a89cea8a7ad39533e31b55ba478e tracing: Reject string operand in the histogram expression
+5f081a928d5533dfaf858409ee1dfff151efb5cd usb: dwc3: Stop active transfers before halting the controller
+25a0625fa96fe76aadaddfc85f9ddc1e4396ad1f usb: dwc3: gadget: Allow runtime suspend if UDC unbinded
+823f692508634f0481cdaaf34a82346a55a05d88 usb: dwc3: gadget: Restart DWC3 gadget when enabling pullup
+e36245a68eb1e6b6fe1a64568407cfb5c9b02a69 usb: dwc3: gadget: Prevent EP queuing while stopping transfers
+54b7022f2878385868d321aad8410b2339c070ee usb: dwc3: gadget: Clear DEP flags after stop transfers in ep disable
+1782c4af6bd017601d30880811f8a1c17f4b2e3a usb: dwc3: gadget: Disable gadget IRQ during pullup disable
+5f4ab7e25fbb57a6e2e927ba5d09675b332c833e usb: dwc3: gadget: Avoid runtime resume if disabling pullup
+d28adaabbbf4a6949d0f6f71daca6744979174e2 KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+81d1a3f97631c20ad4b68c9bb49b90b392fc348c USB:ehci:fix Kunpeng920 ehci hardware problem
+3460f3959d1c5cba6c3806b8ba037d5e62e81d84 ALSA: hda: Add quirk for ASUS Flow x13
+eeb4742501e09c0cc58f500ebae9efd65d33eb67 ppp: Fix generating ppp unit id when ifname is not specified
+812f39ed5b0b7f34868736de3055c92c7c4cf459 ovl: prevent private clone if bind mount is not allowed
+dfadea4061a24e2a3a4e55d1ff0e6cda59411a60 btrfs: make qgroup_free_reserved_data take btrfs_inode
+b7a722fd75a1701011056b76da5020ec4b295a4e btrfs: make btrfs_qgroup_reserve_data take btrfs_inode
+5c79287c2b6d3be01c5ba0b1306e8529137ae28d btrfs: qgroup: allow to unreserve range without releasing other ranges
+36af2de520cca7c37974cc4944b47850f6c460ee btrfs: qgroup: try to flush qgroup space when we get -EDQUOT
+fdaf6a322fcc5b4355eadfdb32dcb0502a32804e btrfs: transaction: Cleanup unused TRANS_STATE_BLOCKED
+c55442cdfdb88deda480ff11c4c9fae05b40ba4d btrfs: qgroup: remove ASYNC_COMMIT mechanism in favor of reserve retry-after-EDQUOT
+654c19a7e8d8702adbd9944e98cdd6cbdce2d8f0 btrfs: fix lockdep splat when enabling and disabling qgroups
+38b8485b72cbe4521fd2e0b8770e3d78f9b89e60 net: xilinx_emaclite: Do not print real IOMEM pointer
+41a9b8f36de75dd87caf367d3a85b9fb253873f8 btrfs: qgroup: don't commit transaction when we already hold the handle
+ea13f678a3fdd01fac59919dc64d635d654e5801 btrfs: export and rename qgroup_reserve_meta
+983d6a6b7e3cd6cfc05d903a08b52a99740fdf0d btrfs: don't flush from btrfs_delayed_inode_reserve_metadata
+b704883aa8dc4d1d232d3a3cdc438a64889fcc6e Linux 5.4.141
+dcbce3446f48cf8b8555a91dca796160c3b14125 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
+189098a2e0c8a40074ebed3bdb03fd2d2f448703 iio: humidity: hdc100x: Add margin to the conversion time
+44bca07333767e446dc691783a3ce10b8a168541 iio: adc: Fix incorrect exit of for-loop
+ac6290b2310d0747c57a0943ac438f95e5e59e8c ASoC: xilinx: Fix reference to PCM buffer address
+f99208db26ed2bada7f93eb567c0da133d27de28 ASoC: intel: atom: Fix reference to PCM buffer address
+9ad9cb098dd8af72b1a90c1062995583cccfa1b7 i2c: dev: zero out array used for i2c reads from userspace
+b2b75e0d3690e4e6e235464d64dcd63e21060a49 ceph: reduce contention in ceph_check_delayed_caps()
+45cc6ca765d056995329d5f5183354a7685dbea8 ACPI: NFIT: Fix support for virtual SPA ranges
+9a635d0a9b01f1e4e412ba88fcf7eb75d39886c6 libnvdimm/region: Fix label activation vs errors
 
---===============5514284582909015365==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30db27e5663d-3a3ff57f7262.txt
-
-17b9e2da62d7400763262b164bab3efe31ef08e7 KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
-7c165d58effc19fdf68196d4ceebf940d5da777d tracing: Reject string operand in the histogram expression
-0abc8c9754c953f5cd0ac7488c668ca8d53ffc90 bpf: Inherit expanded/patched seen count from old aux data
-c510c1845f7b54214b4117272e0d87dff8732af6 bpf: Do not mark insn as seen under speculative path verification
-9df311b2e743642c5427ecf563c5050ceb355d1d bpf: Fix leakage under speculation on mispredicted branches
-c15b387769446c37a892f958b169744dabf7ff23 bpf, selftests: Adjust few selftest outcomes wrt unreachable code
-4c07e70141eebd3db64297515a427deea4822957 KVM: X86: MMU: Use the correct inherited permissions to get shadow page
-6b862aa345f04b33e44c606abc9698eef42f62e5 USB:ehci:fix Kunpeng920 ehci hardware problem
-ef8e4a33c0b89677cb8f158413bff2fa594696f2 ppp: Fix generating ppp unit id when ifname is not specified
-963d85d630dabe75a3cfde44a006fec3304d07b8 ovl: prevent private clone if bind mount is not allowed
-9322401477a6d1f9de8f18e5d6eb43a68e0b113a net: xilinx_emaclite: Do not print real IOMEM pointer
-59456c9cc40c8f75b5a7efa0fe1f211d9c6fcaf1 Linux 4.19.204
-10f356058b2028c2c616aec2957f3e6681b54e36 iio: humidity: hdc100x: Add margin to the conversion time
-b28d314972e8bd8c241bc3c3c51b2a04e2eb23a8 iio: adc: Fix incorrect exit of for-loop
-41e0bf508805a0f0938471a74e7904f03c06d472 ASoC: intel: atom: Fix reference to PCM buffer address
-32a87d5fe1b869d609a4a69f759dedfffa974905 i2c: dev: zero out array used for i2c reads from userspace
-3a3ff57f7262b652b018495fa9a7f3b65ec29cf1 ACPI: NFIT: Fix support for virtual SPA ranges
-
---===============5514284582909015365==--
+--===============5495238104406718785==--
