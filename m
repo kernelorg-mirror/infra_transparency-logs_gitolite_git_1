@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6900029949804258641=="
+Content-Type: multipart/mixed; boundary="===============3699961338269776127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 15 Aug 2021 16:59:45 -0000
-Message-Id: <162904678552.25888.1282727397834256700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 15 Aug 2021 18:52:43 -0000
+Message-Id: <162905356360.1874.9461180783051890298@gitolite.kernel.org>
 
---===============6900029949804258641==
+--===============3699961338269776127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 0aa78d17099b04fd9d36fe338af48ad6fe2d7fca
     new: ecf93431963a95c0f475921101bedc0dd62ec96d
     log: revlist-0aa78d17099b-ecf93431963a.txt
 
---===============6900029949804258641==
+--===============3699961338269776127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ b045b8cc865316062e520693ad6c8bac85aabece Merge tag 'x86_urgent_for_v5.14_rc6' of
 c4f14eac22468b76476b8ee2a5d1d3555a1d8307 Merge tag 'irq-urgent-2021-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ecf93431963a95c0f475921101bedc0dd62ec96d Merge tag 'powerpc-5.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============6900029949804258641==--
+--===============3699961338269776127==--
