@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 15 Aug 2021 15:47:20 -0000
-Message-Id: <162904244010.10776.4614601561118194292@gitolite.kernel.org>
+Date: Sun, 15 Aug 2021 15:49:26 -0000
+Message-Id: <162904256631.12874.638524014233690753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 0923d7bf02d6df5461cdf70dcb9528fea921a11b
-    new: b8b0446ffa7a63f2eba52c28d8c12264228b11c6
+    old: b8b0446ffa7a63f2eba52c28d8c12264228b11c6
+    new: 44d6f16ddcb7048760c50212aa69e8b891efb5c1
     log: |
-         b8b0446ffa7a63f2eba52c28d8c12264228b11c6 iio: adc: rockchip_saradc: add voltage notifier so get referenced voltage once at probe
+         44d6f16ddcb7048760c50212aa69e8b891efb5c1 iio: pressure: hp03: update device probe to register with devm functions
          
