@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 16 Aug 2021 18:31:25 -0000
-Message-Id: <162913868593.26055.6236470121164511973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 16 Aug 2021 18:35:56 -0000
+Message-Id: <162913895640.29067.14116600387562286800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 767f4b620edadac579c9b8b6660761d4285fa6f9
-    new: 7d07deb3b838ae93994003cf824515acb352eef3
+  - ref: refs/heads/dev-queue
+    old: f52f62b0344a0cac5095dd9bf366a64d4df87a05
+    new: f5eee94c150d9c0eebb2a4d1677679bcaf189d42
     log: |
-         7d07deb3b838ae93994003cf824515acb352eef3 EDAC/altera: Skip defining unused structures for specific configs
+         ce993465544f9f26752fd4d326adc5475d9080d2 igc: Use default cycle 'start' and 'end' values for queues
+         ffe0d6737f8ccb03373078543e6bac5a41f2fbf4 igc: Simplify TSN flags handling
+         f5eee94c150d9c0eebb2a4d1677679bcaf189d42 igc: Add support for CBS offloading
          
