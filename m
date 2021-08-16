@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5456918823805091270=="
+Content-Type: multipart/mixed; boundary="===============6836392442985069448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 16 Aug 2021 08:30:07 -0000
-Message-Id: <162910260718.15150.15253891427754990569@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 08:33:34 -0000
+Message-Id: <162910281446.16455.11496800661066261320@gitolite.kernel.org>
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,412 +16,454 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 8281b97ee3d29eb5944bc48e817f2bf7e1540fb0
-    new: e8056c8b550a4ddd65a10582fa157f43535f6734
-    log: revlist-8281b97ee3d2-e8056c8b550a.txt
+    old: e8056c8b550a4ddd65a10582fa157f43535f6734
+    new: 4bfb43d45afa9552fbd9d5e593ecbf645f1f922a
+    log: revlist-e8056c8b550a-4bfb43d45afa.txt
   - ref: refs/heads/queue/4.19
-    old: 9b91a85d2ae793fe0ba7392041cb49c2462cbf78
-    new: d1df3a96c7b03a6bfc0571bdec7224a013b84a99
-    log: revlist-9b91a85d2ae7-d1df3a96c7b0.txt
+    old: d1df3a96c7b03a6bfc0571bdec7224a013b84a99
+    new: 0c6e4901dcb9989c9ee8c6c34906efc656501822
+    log: revlist-d1df3a96c7b0-0c6e4901dcb9.txt
   - ref: refs/heads/queue/4.4
-    old: f2f0b60eb91e2a3bdf002fba30388408e02d9fac
-    new: 867882e4b1101fd47084bb975da7bb5e47dc7da2
+    old: 867882e4b1101fd47084bb975da7bb5e47dc7da2
+    new: 019123ad163ca2eef8f80eb56069c964590e62f0
     log: |
-         494ee352241124f69d2691b2e2dee9d5dea1918b ASoC: intel: atom: Fix reference to PCM buffer address
-         689e0ab62af964ec293c224070bc7edf6f413d46 i2c: dev: zero out array used for i2c reads from userspace
-         bc7df9ddcb95a906b2efd2471666cf69735bd7a0 net: Fix memory leak in ieee802154_raw_deliver
-         64a25e8eb936410341f74d10b2da97a1f506aa80 xen/events: Fix race in set_evtchn_to_irq
-         2f3767c9382ac5dfe0011e33dd3dd82cd40b9ed0 x86/tools: Fix objdump version check again
-         d07fe8d8c7412d1dae28b0a89abb8ce339e90258 PCI/MSI: Enable and mask MSI-X early
-         9e532042f3ac4e53a30f05ee128a7710c2f09faa PCI/MSI: Do not set invalid bits in MSI mask
-         09858a5ea43709b7de0f2272f0f265377353af6d PCI/MSI: Correct misleading comments
-         f027e9fb56729fbef68eef4c5231dfaee4ca5d77 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-         867882e4b1101fd47084bb975da7bb5e47dc7da2 PCI/MSI: Protect msi_desc::masked for multi-MSI
+         156a37cfb80fe9fa51bec30f4bcdd3b94a6508c7 ASoC: intel: atom: Fix reference to PCM buffer address
+         349d61192c0a088e4b0a209e6c0d0ef35dfe4474 i2c: dev: zero out array used for i2c reads from userspace
+         b3c6956bf6e976d5ce46528247eac50b258f20cb net: Fix memory leak in ieee802154_raw_deliver
+         e8a74fc8ec3e65f3d43e8f031c7f856ba2fc13da xen/events: Fix race in set_evtchn_to_irq
+         a3da0d53acc8db1efff32e5648bbf0282ba47837 x86/tools: Fix objdump version check again
+         b4b94527e7e0b5193cc2c102891cf313a598a702 PCI/MSI: Enable and mask MSI-X early
+         44e4bd11607df1afbf093d2a58971e0d43a3f40c PCI/MSI: Do not set invalid bits in MSI mask
+         e5e7f518ebe1e8722f8f093a2d677eb1e6ba7649 PCI/MSI: Correct misleading comments
+         95f0483127e4b40a1db35e5fa02ca4cc9f49b3e2 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+         019123ad163ca2eef8f80eb56069c964590e62f0 PCI/MSI: Protect msi_desc::masked for multi-MSI
          
   - ref: refs/heads/queue/4.9
-    old: bfcf3ecd72ed2d98bdb36ebe615755c169bd8985
-    new: 6db8733ad5c02f0df5eb37027335431b6dad19e2
-    log: revlist-bfcf3ecd72ed-6db8733ad5c0.txt
+    old: 6db8733ad5c02f0df5eb37027335431b6dad19e2
+    new: 19355fb425aab427b77ad79eccab88fad52efb9c
+    log: revlist-6db8733ad5c0-19355fb425aa.txt
   - ref: refs/heads/queue/5.10
-    old: b0f6de33ec36c1bbf49c725d69cb8b5a5c85091d
-    new: 3c5b830843e7ffbf3db5a580a0e1528e0d232265
-    log: revlist-b0f6de33ec36-3c5b830843e7.txt
+    old: 3c5b830843e7ffbf3db5a580a0e1528e0d232265
+    new: 4e8133e56d2e982db2592587e4936a130bf333a8
+    log: revlist-3c5b830843e7-4e8133e56d2e.txt
   - ref: refs/heads/queue/5.13
-    old: cf928bdf81ee94151a8e96afcd8f2513633bf4fe
-    new: 1eb926901599617e63a315c914897204398c558c
-    log: revlist-cf928bdf81ee-1eb926901599.txt
+    old: 1eb926901599617e63a315c914897204398c558c
+    new: 58962fa38b57ce20482fac2286a77d196de56c88
+    log: revlist-1eb926901599-58962fa38b57.txt
   - ref: refs/heads/queue/5.4
-    old: af11ef9fcedb0bade1f975e430e63ec32238abdd
-    new: 94636373b52270571ee6718135fc223eb5578509
-    log: revlist-af11ef9fcedb-94636373b522.txt
+    old: 94636373b52270571ee6718135fc223eb5578509
+    new: 7936806bd30bfe19c56717321e4496e86d536aea
+    log: revlist-94636373b522-7936806bd30b.txt
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8281b97ee3d2-e8056c8b550a.txt
+Content-Disposition: attachment; filename=revlist-e8056c8b550a-4bfb43d45afa.txt
 
-f8d5ef6b11d335647fc35c91668bb863c574cf98 iio: humidity: hdc100x: Add margin to the conversion time
-b3a0ff6c3cfdb946754cde97c155861443328aed iio: adc: Fix incorrect exit of for-loop
-771bf482850ef1ac202924ca9ce1f81a04570386 ASoC: intel: atom: Fix reference to PCM buffer address
-0bc3ddb51464dc7d263d8046cd5e5ea49b6d829c i2c: dev: zero out array used for i2c reads from userspace
-567f0aa85dc2c94359880be04ea772634d6a6912 ACPI: NFIT: Fix support for virtual SPA ranges
-8ba28410a48319809c6e75926571deb2b1b3a282 ASoC: cs42l42: Correct definition of ADC Volume control
-babe225b5f21525416c9493a2be6589d201e2926 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-f66faf833b6260a3c2a1ca3e053a706f7498daa8 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-22f72e98c8f09787fcf86d569f6e2f0e11fa9f6b ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-33060f38d9d2526f2c8cdce40dcd7d36d4ffbcac net: dsa: mt7530: add the missing RxUnicast MIB counter
-4924b2260a82ad626750178dff2b6ec85e32f098 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-e96767895f7794f5ea4f216c7500bda80df3c0b9 psample: Add a fwd declaration for skbuff
-f32467a534c9e0119b6d556690d0a5372ec5692f net: Fix memory leak in ieee802154_raw_deliver
-d7adf2daa2f74ffd31fa368a1eff63fcfc2338b3 net: bridge: fix memleak in br_add_if()
-c3f3d4ecc0439e9e89f23a310915465f65dfdc2e tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-0e50eb4b82c0a67810effe5e4fe8d8e1477fa926 xen/events: Fix race in set_evtchn_to_irq
-299fda26791f4949d9120eceb82c3b9e620c4fc4 vsock/virtio: avoid potential deadlock when vsock device remove
-0d9092eed94aa4717c545a5b4113b1cddd7a80fd powerpc/kprobes: Fix kprobe Oops happens in booke
-bef9445c16f3d30cc11305b330235e7673dbbfde x86/tools: Fix objdump version check again
-96dc6842ed9c833e6aa75ab9943192c45353810e x86/resctrl: Fix default monitoring groups reporting
-8e9572d50bc08a87d649709b6652242be5beae7c PCI/MSI: Enable and mask MSI-X early
-2a7a194e467b1b66ca02d1e09a439e01d060bc2d PCI/MSI: Do not set invalid bits in MSI mask
-2e221efb985f90d7e036cb63af7d450dd199dcca PCI/MSI: Correct misleading comments
-8defc144e0dc151d78aaa2b855393de0b7fafaff PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-e8056c8b550a4ddd65a10582fa157f43535f6734 PCI/MSI: Protect msi_desc::masked for multi-MSI
+ddc459be6165d813c564f1121316711d0f6d1dc8 iio: humidity: hdc100x: Add margin to the conversion time
+c9b45fcbc54790e41ced9dafc112df03871c7489 iio: adc: Fix incorrect exit of for-loop
+b61fd9e7a00e565c947c3134172825af33de2230 ASoC: intel: atom: Fix reference to PCM buffer address
+63339283bf9e296b2e116f15abe8b9672ee8a6b8 i2c: dev: zero out array used for i2c reads from userspace
+9c4fb58a6a8ded1bfbfc0941277223e674938461 ACPI: NFIT: Fix support for virtual SPA ranges
+529773c27bb15475fb0d31aa77db4e9184c06cec ASoC: cs42l42: Correct definition of ADC Volume control
+5b25a1ec1745e5bb77620811aa12c3bcc859a9e8 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+8ec7890a236a293df8b3130b22d29aef0a26f24d ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+e69d98e3ff9e3a198f5952bcab218e3aae53496d ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+c63b62a799a9919a2453e2c8c3899aa09bcecd3b net: dsa: mt7530: add the missing RxUnicast MIB counter
+9d72406b419a51975cd159b22614a0bb90e3dd26 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+a551a9b1a2778748e6f377d2433912591e6636ba psample: Add a fwd declaration for skbuff
+22d0603062253715c95fd95b51980e3f3d350f3d net: Fix memory leak in ieee802154_raw_deliver
+7bd37b66769b2e94789482cf70f9643044beb61d net: bridge: fix memleak in br_add_if()
+07ac656bad0f44623185de9844c2e313acaff9f5 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+2829d93382ac6b9b31572cee1d55679b145737f8 xen/events: Fix race in set_evtchn_to_irq
+e541f14a3bcbf70837004f775b427fbb82ae9c66 vsock/virtio: avoid potential deadlock when vsock device remove
+0dc5e2ee2cb3f984b0da1ad0ccd1d1db5e136110 powerpc/kprobes: Fix kprobe Oops happens in booke
+9ed8a110504a16bbcb627379692b766256ec015c x86/tools: Fix objdump version check again
+7d689d73cc107519d6e9394793e9ffc7ed3b506f x86/resctrl: Fix default monitoring groups reporting
+365505e8292f91789e607d5365c2304400efb03a PCI/MSI: Enable and mask MSI-X early
+da80332bffb4c24a0e772cd5c2683fdfcd49c18d PCI/MSI: Do not set invalid bits in MSI mask
+a8c970dd5bea6467c9751723023c40f2845dd6ce PCI/MSI: Correct misleading comments
+74a8a2d2ae5393c0b509114ecca0c796425adb9b PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+4bfb43d45afa9552fbd9d5e593ecbf645f1f922a PCI/MSI: Protect msi_desc::masked for multi-MSI
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b91a85d2ae7-d1df3a96c7b0.txt
+Content-Disposition: attachment; filename=revlist-d1df3a96c7b0-0c6e4901dcb9.txt
 
-4301e8f0d3a64afd9706486f9772a0ec9c52d944 iio: humidity: hdc100x: Add margin to the conversion time
-703c2a5b2f7e03cf8ecddc72b5e94b12705ea9db iio: adc: Fix incorrect exit of for-loop
-fc64703a0318664dbd0cfebcb4270eb2508d9305 ASoC: intel: atom: Fix reference to PCM buffer address
-8aa7d82980727f2d08165211576ae006bfcc28b7 i2c: dev: zero out array used for i2c reads from userspace
-9ccb60c19583455671805a278efb2de96de14a21 ACPI: NFIT: Fix support for virtual SPA ranges
-cc0eb4bdbfe7881cd4d39c22f0c3b730a1c2110c ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
-dbd62aca92e1edb2949da7a9c933e8e3704f10b0 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
-2da0ea51ce7c6ceb52b782b37e960fe81fb60662 ASoC: cs42l42: Correct definition of ADC Volume control
-60a4ac0fbfe738341040360c2c1de0779983dad6 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-8ec8b19e7f6f28941be60def2eebb6c91700ef19 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-2cf2b7840551557c10189bb494bb4c6901460078 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-4843e6e88b4ddd82aaa6d28594dbc4a9ae530a1f ASoC: cs42l42: Fix LRCLK frame start edge
-d556dbfa0f153ac8b6ab5d5605632fdbf023c8df net: dsa: mt7530: add the missing RxUnicast MIB counter
-e6f4f66c7c5ca790aa1cfb0ad520d594dbfdcc38 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-de3448c3a336f7fc0d55096169c99d3bedd85d46 psample: Add a fwd declaration for skbuff
-4eedd8d4f10329404fe2d3a24ec29d9785b8777a net: Fix memory leak in ieee802154_raw_deliver
-b6d2b5a0908ffee6de0fa228279b490bf0d036d6 net: igmp: fix data-race in igmp_ifc_timer_expire()
-6664761ba4095e007bc806b65cbc77868c4d1373 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
-b8bf627765ef6973b74980de8a266bfa177b9228 net: bridge: fix memleak in br_add_if()
-d2464c36e507fcace71a4fc94f2a31fcbf2849e9 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-ae99fea11d27374a0371e65171f46832db63f1e8 net: igmp: increase size of mr_ifc_count
-d374f0aa7cb646f6347454227a72a9fa55122341 xen/events: Fix race in set_evtchn_to_irq
-10f827b41f7256c3dd78418aede32e6064f4813a vsock/virtio: avoid potential deadlock when vsock device remove
-3a4bdef78d632a79bb608e969719e88ea6fed837 powerpc/kprobes: Fix kprobe Oops happens in booke
-3936b482e6b169929a5fe39dbe8dd058a13c55e4 x86/tools: Fix objdump version check again
-afd49db7f7c1dea2145d7d2d89c72c4fc4d28cfd genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
-3f414c3245a3f4c12b028f33353a3e55c9e0e8c4 x86/msi: Force affinity setup before startup
-871bbd0b35b647913d00756edba0617911790024 x86/ioapic: Force affinity setup before startup
-f9ccf36ba51bc7cf616d8e32fde39d84c2736e54 x86/resctrl: Fix default monitoring groups reporting
-b96bce2c275812f263716f847f5513cc8a77d8de genirq/msi: Ensure deactivation on teardown
-d1df3a96c7b03a6bfc0571bdec7224a013b84a99 PCI/MSI: Enable and mask MSI-X early
+af9f66a5fa7c14cf8d3e98809ea61759770efd65 iio: humidity: hdc100x: Add margin to the conversion time
+61b5608a1e87e87a0870fcfe222321c9806cd10c iio: adc: Fix incorrect exit of for-loop
+d60a8f49feccf3baa532a9e6700420475e4de75e ASoC: intel: atom: Fix reference to PCM buffer address
+0904e94288c0061d7cd98d27eed2d41fc521a473 i2c: dev: zero out array used for i2c reads from userspace
+1c5243d077429e6be58a7f2a827a730273bc61bf ACPI: NFIT: Fix support for virtual SPA ranges
+7ec885a758f5e77820ede8780848de946c5cfb5f ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
+769da816e814407c951d3277b9c2c978843dce54 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
+c9a4a8fd74fb65459521a31790441628e369aabc ASoC: cs42l42: Correct definition of ADC Volume control
+5aa53ecb83ceed13f69bd91e8c53cc4caa204658 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+6d407da1e3410d6a3c348c6078ae9fbdd11e615a ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+a70a672b3ece3b152ece58ddb31259a8861ffbab ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+88d538022b2f6ff62c72a5568888bddabfe23bd7 ASoC: cs42l42: Fix LRCLK frame start edge
+f9422ec14563b733694138af367043e055f8ece2 net: dsa: mt7530: add the missing RxUnicast MIB counter
+cd4e03ce5e7d5e3a5d38c926e889893174030844 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+3a333670dd13be40cb52185922fd194b774089bb psample: Add a fwd declaration for skbuff
+c43ca16c86674b875415058296837c50516108f8 net: Fix memory leak in ieee802154_raw_deliver
+6558512e409f359c55ee0847bb9f928da36bdd40 net: igmp: fix data-race in igmp_ifc_timer_expire()
+838419b2c16582686e8629763d586b1eda20bdcd net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
+e7083b558db97fcd28355e2b0f3f512b0da1aef4 net: bridge: fix memleak in br_add_if()
+3b025bda91314ca41bdb9b109f951f2a223f315a tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+f10bfa585b2752e3092f5c1d2f21b98f7445be50 net: igmp: increase size of mr_ifc_count
+6953e248e079b2808bc088338395cc590980d44d xen/events: Fix race in set_evtchn_to_irq
+a74205c118a816629bd8ccd8264aea7ea5a81f87 vsock/virtio: avoid potential deadlock when vsock device remove
+bb6e8633ab9d37db2f37ddd1b865aac5d3663d0b powerpc/kprobes: Fix kprobe Oops happens in booke
+4a130c6b6d8d9b046e7a2cfb4f9adc2d626b75fc x86/tools: Fix objdump version check again
+fd6cd365f9b0089a986c02b900ae5699cf66b7dc genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
+978cc1944a1a0d84019d0c88b59d00a9fb3a9f55 x86/msi: Force affinity setup before startup
+c8bf11ed15820ef5b40bc4123833ebee81300d3e x86/ioapic: Force affinity setup before startup
+72546870de600a38f590d44bbdccd852942fd571 x86/resctrl: Fix default monitoring groups reporting
+75ff880c2948efbe16b832b71a915e2242afb3cb genirq/msi: Ensure deactivation on teardown
+d6f33b44d6d6269fdc09f68c7c7409bc1afa6f2d PCI/MSI: Enable and mask MSI-X early
+94e084e82c49ab836903013a0e3c7323d0920a86 PCI/MSI: Do not set invalid bits in MSI mask
+2be4864749afa04206623855533c53f3d3d8c61c PCI/MSI: Correct misleading comments
+c4e2c077cd86e9f1ddaf8aab3484a60105dfce59 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+0c6e4901dcb9989c9ee8c6c34906efc656501822 PCI/MSI: Protect msi_desc::masked for multi-MSI
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfcf3ecd72ed-6db8733ad5c0.txt
+Content-Disposition: attachment; filename=revlist-6db8733ad5c0-19355fb425aa.txt
 
-c6d36fb45432c07435d4cbb83aebabd72c45e091 iio: adc: Fix incorrect exit of for-loop
-bfb52022f539cd3e985a4c45c4854f8069aeb3e5 ASoC: intel: atom: Fix reference to PCM buffer address
-9439a6c15768ce269eb0ba7f9cd3d0948d8db0b0 i2c: dev: zero out array used for i2c reads from userspace
-38dbefc7f401961efd13ab868fd51f18af47adf1 ACPI: NFIT: Fix support for virtual SPA ranges
-c06d151db13a1aa2a6462e3c0b634f3a3c959c01 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-98542dbcf1f628c1987207fb4e66262f6462daae net: Fix memory leak in ieee802154_raw_deliver
-1906e17b757835e5b878b20ec9b9e0794302f229 net: bridge: fix memleak in br_add_if()
-2bf98fb51acfc0cae68540ce8733492ca0d95863 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-61a6b1dc6301d0342409f6ae5549fdcc3668f91e xen/events: Fix race in set_evtchn_to_irq
-5aee29dbaa31ad6ae62fc5a6c22e4ae94436ad3f x86/tools: Fix objdump version check again
-c85b7228ca45a8e757fe7f079b8f9c0b390ed4e7 PCI/MSI: Enable and mask MSI-X early
-a5d08407ff864eb77804d4e2be2cbc9f8c7b8f17 PCI/MSI: Do not set invalid bits in MSI mask
-4fb003f325640bd82f2a8bcfd0a253cfbe51db57 PCI/MSI: Correct misleading comments
-459233eeee7e41823cc1ad6bda39ef50c1fa8a89 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-6db8733ad5c02f0df5eb37027335431b6dad19e2 PCI/MSI: Protect msi_desc::masked for multi-MSI
+624811f6d1c7b146632a0abfdc1968b11fdf208f iio: adc: Fix incorrect exit of for-loop
+c0aec704e553761b8274ab74561a90b32c1964b5 ASoC: intel: atom: Fix reference to PCM buffer address
+d00c4074a82b6d08780e64433d13f5db567b50a1 i2c: dev: zero out array used for i2c reads from userspace
+b490918bf4ec8b4befb444c256a9f876798aba4d ACPI: NFIT: Fix support for virtual SPA ranges
+7688dd23d98d80bc1f0f57c5431a34a944841c1d ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+df6aa1cfcbcde3872901a7e978871c3661e8adb2 net: Fix memory leak in ieee802154_raw_deliver
+bff2980efba91dc14c710249bc16206088463427 net: bridge: fix memleak in br_add_if()
+bdcf8c0079ade5b98768352fc9a06fc661a198f3 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+499c6d3eee428706bfa407e39b8ce48a78500838 xen/events: Fix race in set_evtchn_to_irq
+2d504d6a7a957f43f4c21042d348891bc04d9122 x86/tools: Fix objdump version check again
+47b6795a3cf4c983fc0a69b1a12b42b074fedc09 PCI/MSI: Enable and mask MSI-X early
+44fc7054d8d38a9bf7bd4765bdf1a2f3f3bb6a9d PCI/MSI: Do not set invalid bits in MSI mask
+7344140c8565119df1c4f1dc6261a9a7f88f65e0 PCI/MSI: Correct misleading comments
+72a1b9f0bc658b3972407b79843a7be090972b0e PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+19355fb425aab427b77ad79eccab88fad52efb9c PCI/MSI: Protect msi_desc::masked for multi-MSI
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0f6de33ec36-3c5b830843e7.txt
+Content-Disposition: attachment; filename=revlist-3c5b830843e7-4e8133e56d2e.txt
 
-435fec9873e71ee27e5041592ee4c83087922282 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
-4187c493a9f91f82da472bbb87c678e15e7079f6 iio: adis: set GPIO reset pin direction
-fd69de95e9f8e33b2fb46af36c640f3c550051fe iio: humidity: hdc100x: Add margin to the conversion time
-8ceb2803a0b8d094bb5337a7d34756e5f2237854 iio: adc: Fix incorrect exit of for-loop
-b80afb669025717bbd12697276122a7fa74138d6 ASoC: amd: Fix reference to PCM buffer address
-cbaae64d4512e94439bb21d08d8c58edc5509d97 ASoC: xilinx: Fix reference to PCM buffer address
-9ca33e615afd07173ccb1f083a0fdedb03309bde ASoC: uniphier: Fix reference to PCM buffer address
-bf4816c5f2b67019eaa25dd113dd5a556789e20b ASoC: tlv320aic31xx: Fix jack detection after suspend
-a74016ed53b5b476d9d52091c23effa1f0487ae3 ASoC: intel: atom: Fix reference to PCM buffer address
-0c1a9790d257c44f44ee6ee0ab769df1ce9718aa i2c: dev: zero out array used for i2c reads from userspace
-42ce769903e4a6ce9417c3b6d42500c9a0080e55 cifs: create sd context must be a multiple of 8
-9d453837b708dce46706af022c0abb1da67a1508 scsi: lpfc: Move initialization of phba->poll_list earlier to avoid crash
-149c29c2455831576d91b07411462b21b25167b4 seccomp: Fix setting loaded filter count during TSYNC
-f8b125e117acc13b5a9fb367b20fd44a43827e82 net: ethernet: ti: cpsw: fix min eth packet size for non-switch use-cases
-0bec76dd0b0ba45ebfb61ec5eba052dcc7ce1efb ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
-f47e471d28ae9723a2d61caa960a2232cbca6d8e ceph: reduce contention in ceph_check_delayed_caps()
-b01f8d2ee7e640da9ee7a1c00c11be06dd2551d6 ACPI: NFIT: Fix support for virtual SPA ranges
-96e625a81fdfe70d58988d101fffe6e108c32111 libnvdimm/region: Fix label activation vs errors
-35cbe6ef756a40df15032eeea698933fe4462f28 drm/amd/display: Remove invalid assert for ODM + MPC case
-07c2a0a34c7133b5ed31f8f7d5bb66635f91b461 drm/amd/display: use GFP_ATOMIC in amdgpu_dm_irq_schedule_work
-fd7182169d8897e668756bb9913c677e434245db drm/amdgpu: don't enable baco on boco platforms in runpm
-e8ddcfb208e9cf632c4268805428620c4eb3efea ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
-f23829fc2acd3a837c7e4ce97238d12d8225bfa1 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
-63c3c4aa847f784afa2a3a4d3e260dd112f90e25 pinctrl: mediatek: Fix fallback behavior for bias_set_combo
-6330fe0f0f7e90a9099e71dae585002987b29a22 ASoC: cs42l42: Correct definition of ADC Volume control
-fd8985f23b60636da12de22fa8a019bfbeb6a7e3 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-526a53b3b83efdc2fd0dbf4f41894b8dbd64cfe6 interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
-0de682fb416a3a5af779f48bdf35f4d3ba932275 ASoC: SOF: Intel: hda-ipc: fix reply size checking
-55201519cf79c2329f1cc31fb5feaf473622f76c ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-bc53518f1fdb36989b8de2cd778c542067218caf ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-8f0445957df4fb55e0e15275f0cfffc65d31fc08 netfilter: nf_conntrack_bridge: Fix memory leak when error
-012e08a358c291abc9cd478ffa34acfc55353452 pinctrl: tigerlake: Fix GPIO mapping for newer version of software
-344c11a8bda84bde450e65c254e688077c28d6ae ASoC: cs42l42: Fix LRCLK frame start edge
-607b2a65be6f9ff40c142600e9cc3190ab36c9fa net: dsa: mt7530: add the missing RxUnicast MIB counter
-f2c8b56370df7e0b066c87aa646d6f2d0cd087d2 net: mvvp2: fix short frame size on s390
-a98510178cbe8a5c38d19f26fd42dc7fff0b9ab2 platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
-aa560dc792f4ea69672080e39be65d268f4a1338 libbpf: Fix probe for BPF_PROG_TYPE_CGROUP_SOCKOPT
-7d1c5aad54e9eb6aac4ec945b87b2a9f8a1a30b6 bpf: Fix integer overflow involving bucket_size
-f8c45c093eb821163c65bc2529424c9ec2d39ac7 net: phy: micrel: Fix link detection on ksz87xx switch"
-0b30d398e1b0ef0959e545377104e0045b562476 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-33feb3727bdf2631d172825746edd40135cd0aac net/smc: fix wait on already cleared link
-d7fda54bdaa9ce49bf2418b349434353393401ca net: sched: act_mirred: Reset ct info when mirror/redirect skb
-51e45b6518e11b13f6cabdaefd541242cb52eb5b ice: Prevent probing virtual functions
-ad31f399983e01e93c19ccb1fcd22f58372c9183 ice: don't remove netdev->dev_addr from uc sync list
-dbe266da134b8cd036a377fbc1e9fc5e829680fe iavf: Set RSS LUT and key in reset handle path
-5b0e387aca40cdbbc287fd1c25ad53c06ecfb692 psample: Add a fwd declaration for skbuff
-f3bf533ceefcb6e0328c54d4fc0af81e17d8ca81 bareudp: Fix invalid read beyond skb's linear data
-b7b6d7efd29697728881510e13da0409f15b8c1c net/mlx5: Synchronize correct IRQ when destroying CQ
-053ca9bc06a3b3dfcc79ab99e24de7d691f74c97 net/mlx5: Fix return value from tracer initialization
-46605d621f0ede9f398be6b13964f605dd8d24a2 drm/meson: fix colour distortion from HDR set during vendor u-boot
-5f0901f535e6e6fde225fed8ce17249a8fd1b039 net: dsa: microchip: Fix ksz_read64()
-ef79733138b3676e160c8b4a0618bfd2c16d0ae2 net: dsa: microchip: ksz8795: Fix VLAN filtering
-92455cfe63da22adbf1e46401e0814c8f754e980 net: Fix memory leak in ieee802154_raw_deliver
-61870e9523f1a135fab89182813ae3745de510f1 net: igmp: fix data-race in igmp_ifc_timer_expire()
-a960b703dc88785f4c562fcf04d6715cd9174041 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
-ea3525d87b298bcfee05d393aaa049652ff762e5 net: dsa: lantiq: fix broken backpressure in .port_fdb_dump
-e9a947633518d2d1994d865942a46d1ae608f729 net: dsa: sja1105: fix broken backpressure in .port_fdb_dump
-df3d5f83fd0fd344bb3c53bb4828c5e5c337d94c net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
-4e00cf5224bb6d3e86838b8ec7a2d00472b73d29 net: bridge: fix flags interpretation for extern learn fdb entries
-d27e29c8f4d30e9fb01ccd4c94891c6743a47fdd net: bridge: fix memleak in br_add_if()
-c04d235f4de5942d5054512b97192f0d1c0e5bc8 net: linkwatch: fix failure to restore device state across suspend/resume
-75804b4eb84c2a626ebe855a414b2b760e905be9 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-e289ac9eb5738bc28b36df454abb684e48cdbf2b net: igmp: increase size of mr_ifc_count
-aacad36a6a0655daf0591ec65ab501ae5c41b98a drm/i915: Only access SFC_DONE when media domain is not fused off
-544cff34f45a9e2eab5449e9386f41f2f84e2a9f xen/events: Fix race in set_evtchn_to_irq
-988ed9907333e1ee47be8eecd10f198519b735fd vsock/virtio: avoid potential deadlock when vsock device remove
-023eed2a097da1b07fa49f8c89a82b71a25cff18 nbd: Aovid double completion of a request
-e3af747772480647c96094acf58b407255b4c7a0 arm64: efi: kaslr: Fix occasional random alloc (and boot) failure
-8b07af3c994f464c584950c4c8b7d7da1052f683 efi/libstub: arm64: Force Image reallocation if BSS was not reserved
-2a45ddcc75b98a683d5480a4cf63a2f9692315d0 efi/libstub: arm64: Relax 2M alignment again for relocatable kernels
-968e88ab9dd652b8dabc5db075491652fc8a80e6 powerpc/kprobes: Fix kprobe Oops happens in booke
-197c9a23a98d04a7f3254451ff881ddb94b61aae x86/tools: Fix objdump version check again
-2ad0ecd9d9ec1943c000a981a75689edf70679c2 genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
-2afefd53049a38b5387808602ef70e6ebf43eaff x86/msi: Force affinity setup before startup
-805d437cd99db6663a1a96d2d42536465656980f x86/ioapic: Force affinity setup before startup
-0b10ae61de16a0bd041b54f359a6961889a2bf26 x86/resctrl: Fix default monitoring groups reporting
-b7d0a97a6021326b0be4d63d5d5550b1296c6c54 genirq/msi: Ensure deactivation on teardown
-f1a507bfc7f743ea324336f8cd93929c4ce1c423 genirq/timings: Prevent potential array overflow in __irq_timings_store()
-3c5b830843e7ffbf3db5a580a0e1528e0d232265 PCI/MSI: Enable and mask MSI-X early
+5d35cabe2bf0f15de705c3f4c2d8fd4bda23b703 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
+1c1c11868e741e54088412f2c68b95de373792fa iio: adis: set GPIO reset pin direction
+4384564a27f1a5a79a1e2754439c31bdb1e6ca31 iio: humidity: hdc100x: Add margin to the conversion time
+790990db8f79c0a295f57e7d70943dc37fb1be78 iio: adc: Fix incorrect exit of for-loop
+a6e60be34754d77eab911cf6ca3e4c179770b307 ASoC: amd: Fix reference to PCM buffer address
+b5d5bdf43441c1ca14982c95d25916528454bdc4 ASoC: xilinx: Fix reference to PCM buffer address
+c56f7249346194853520015e7ff4ba418b8af9b8 ASoC: uniphier: Fix reference to PCM buffer address
+d2409b1d83c88f2969f786b04d000dbf09db837f ASoC: tlv320aic31xx: Fix jack detection after suspend
+8240319e23fb6a6b2496c88cea7575ac54f1beab ASoC: intel: atom: Fix reference to PCM buffer address
+ce688e4201dbe819a4c441ef2a5efac3f315e81b i2c: dev: zero out array used for i2c reads from userspace
+d90ee6ab0c4c7881545b31fec171eaed47954838 cifs: create sd context must be a multiple of 8
+477b6568c3e39b7b8a7c75bd8e4a70dd4b0609ec scsi: lpfc: Move initialization of phba->poll_list earlier to avoid crash
+30633235d61b04c46c92a7f71103e90927bb7e99 seccomp: Fix setting loaded filter count during TSYNC
+5b8fe869dcd0b9be6f7a478fd464196b6d44824b net: ethernet: ti: cpsw: fix min eth packet size for non-switch use-cases
+67f57cd53f74846677f1203f48aaa0aa16a6986b ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
+2dae21acb3c7471571ed0b645a86d8fd32f9b529 ceph: reduce contention in ceph_check_delayed_caps()
+e3096c9e86adb87c110a80df4949c6d0605d3570 ACPI: NFIT: Fix support for virtual SPA ranges
+1e9884cbbd6ef555b291bcac8e94316fc06bf76c libnvdimm/region: Fix label activation vs errors
+89b310db8de3804d0731532a53e674003e5e87f4 drm/amd/display: Remove invalid assert for ODM + MPC case
+fcbad4035224e6bc68403be7a5b38874c6956e93 drm/amd/display: use GFP_ATOMIC in amdgpu_dm_irq_schedule_work
+8e871f8c147ca27dc46ec14361b37ce7332b869e drm/amdgpu: don't enable baco on boco platforms in runpm
+99469bb6d69c5b214b0e39aa3bb2acfcd12a0bdc ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
+dd14e259879dc45ebe4bf5a1bcb6e44a0f3cf351 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
+911d2487eac11c94a900b80be8818c952774604d pinctrl: mediatek: Fix fallback behavior for bias_set_combo
+ef14fb85e6ae682b9b90e4fc3f63ef2271dde477 ASoC: cs42l42: Correct definition of ADC Volume control
+85b140434c2cd392b363bd9adced554a4de7034f ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+5257a860174943f82fdc7185879567141483a97c interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
+b2d95613e9516a88bba12316c667ad63d4665d2d ASoC: SOF: Intel: hda-ipc: fix reply size checking
+b06cbb01f67d72c1f5d0e58cae2a13df922fdfa4 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+5a3e0fff524d491225a5c712dc87cdf205428f06 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+e1a633d30a985f3c84d66a52e88c1afad359a708 netfilter: nf_conntrack_bridge: Fix memory leak when error
+9f40bdc2fe01311678fb571819b821f4896bf065 pinctrl: tigerlake: Fix GPIO mapping for newer version of software
+128c2c20b5e3174677f4e1fb26e922878a775f77 ASoC: cs42l42: Fix LRCLK frame start edge
+f8ddbc8a1ab8f342a828637fb3ecedb746d81a41 net: dsa: mt7530: add the missing RxUnicast MIB counter
+2e2145eb621a173dbaef7ff6ec0a7cbfb9dbfcf0 net: mvvp2: fix short frame size on s390
+2ab09320153c013178b15290ac53fb4e34f241d1 platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
+7386a50c253c70b281a61a601f265f78973e4865 libbpf: Fix probe for BPF_PROG_TYPE_CGROUP_SOCKOPT
+5ef4b3c3861bbb29b055b84e55f37ea5a716f2df bpf: Fix integer overflow involving bucket_size
+5e23c21a652b38842e7a3323bdf92bbe4e56aed5 net: phy: micrel: Fix link detection on ksz87xx switch"
+c882e5dff5dbd22144ae2ee706ed0f1d9f85eb67 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+cd80c6aeca09d8c235350fd9da131aa4b9e5270b net/smc: fix wait on already cleared link
+7eb9c7b378b9a814f23a680c77a618ed7450acf8 net: sched: act_mirred: Reset ct info when mirror/redirect skb
+01f06e810c14aaa8a14225c3e2328f874374793a ice: Prevent probing virtual functions
+279dcc6c75f27065c8d80500d8e76c4d106cf776 ice: don't remove netdev->dev_addr from uc sync list
+fb1dfe8c176008ab954bf2e9805f6ab57d17fdd3 iavf: Set RSS LUT and key in reset handle path
+3d169cfb28c20cde6ae15cce243f5e210a0927cc psample: Add a fwd declaration for skbuff
+f09afd67fdb53295ed01119f91e8fa2af612a774 bareudp: Fix invalid read beyond skb's linear data
+99d3b8ea9bf16ba3aea8ea08284aa0df19bdb676 net/mlx5: Synchronize correct IRQ when destroying CQ
+e6da503f839de8daf5ce6845b28551db8d8b4d3b net/mlx5: Fix return value from tracer initialization
+5a86db1c844f7615ced7c506b4c83dd9494bf3aa drm/meson: fix colour distortion from HDR set during vendor u-boot
+16dc2a5ba9c24669d54d0c97a8ad01cf65436543 net: dsa: microchip: Fix ksz_read64()
+55bd41ee8b9d30f3c80aad9d37b87bc8121fbaf6 net: dsa: microchip: ksz8795: Fix VLAN filtering
+cce13033879e2915305788939530460b6a56ae11 net: Fix memory leak in ieee802154_raw_deliver
+30f5e44f39ff98a3fd92520bfde636fd9d03bfca net: igmp: fix data-race in igmp_ifc_timer_expire()
+ec62f46791db08baef47b366f15f9db82ee05bf0 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
+f5bee19321571fdaa7922fd0986bcaab76f3dfe3 net: dsa: lantiq: fix broken backpressure in .port_fdb_dump
+a8175895dc782c99259fd7ffc964d106994d5a1e net: dsa: sja1105: fix broken backpressure in .port_fdb_dump
+58fa1428ac06b20afb03784174979ccfe366c029 net: bridge: validate the NUD_PERMANENT bit when adding an extern_learn FDB entry
+8a9931ee06a325e86b7748b7d5bfe9091d7889cc net: bridge: fix flags interpretation for extern learn fdb entries
+277c9b504286fd594e0613360a29098ed866644b net: bridge: fix memleak in br_add_if()
+e94c432cc6e2329ae905cf3991b57fb32bc396da net: linkwatch: fix failure to restore device state across suspend/resume
+5fbf293a6caeddc68db253a60c5b19e9c4936e85 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+0bab23f8434aa12d57d5c4f606e4c4f44d155d4e net: igmp: increase size of mr_ifc_count
+3d67aa1684b1a9c6d9b4e568ae7359e67fca8cc9 drm/i915: Only access SFC_DONE when media domain is not fused off
+ec3660fdc1a32fee5ed1061754c1e112e6063c49 xen/events: Fix race in set_evtchn_to_irq
+98e94b206edaf11cbaff97a53ab94e87f0d06404 vsock/virtio: avoid potential deadlock when vsock device remove
+e772fce2fafbb06853d7e4c6e9b2994911c3616c nbd: Aovid double completion of a request
+3656df17fa58e5eed76ddb20d4af60f2da631222 arm64: efi: kaslr: Fix occasional random alloc (and boot) failure
+7eb36d4923f147478e5c655e3ac8d9eeb9fae382 efi/libstub: arm64: Force Image reallocation if BSS was not reserved
+beb12034ece64da5662cb7ca39d3095b350abc2c efi/libstub: arm64: Relax 2M alignment again for relocatable kernels
+6a900d91befa288c8793eb430fe3aa99bcadbd85 powerpc/kprobes: Fix kprobe Oops happens in booke
+0d1668c73d8f0bd13dbd916cb416534a327e2637 x86/tools: Fix objdump version check again
+72c7fe08fd1ab45ef4b6d15340999b9547a8a78f genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
+b8cc542bef8abec5e8f72d9dcccdbf3466408ba4 x86/msi: Force affinity setup before startup
+f1a0af44c133981db551444442bb29968d360e44 x86/ioapic: Force affinity setup before startup
+9082dd4d4017f7f151b66991d18433456ac30ce1 x86/resctrl: Fix default monitoring groups reporting
+30600ba6cb4d663d1005c8c621df5194fb28b840 genirq/msi: Ensure deactivation on teardown
+509562e5c1204c6b74e4da6a66684d076a26206d genirq/timings: Prevent potential array overflow in __irq_timings_store()
+85cdb202bf0f84d563fa3e282eb263f4b616c755 PCI/MSI: Enable and mask MSI-X early
+823b6740a39c9144bdb557817e0650593602b236 PCI/MSI: Mask all unused MSI-X entries
+73e3d120e3e7696713f73ac6fca88af931f07009 PCI/MSI: Enforce that MSI-X table entry is masked for update
+d41bc99a1335672d4f0d29cd5fa8f5e364b140f9 PCI/MSI: Enforce MSI[X] entry updates to be visible
+a2660c491c6ab43ef97c5275ab84cca61d993e58 PCI/MSI: Do not set invalid bits in MSI mask
+8099a689e73e7b3dc418f78bca33c6dbb2048a67 PCI/MSI: Correct misleading comments
+8afcff18db16eff1abb8c4b9aba82c09833aebd0 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+5d293734d54b80ef9386b1ea154764fac33827a4 PCI/MSI: Protect msi_desc::masked for multi-MSI
+85f5624b51f17ff4ed2d134b41d7f65c94442939 powerpc/smp: Fix OOPS in topology_init()
+7c29886cdaea52366c920eeb8e546feec1920ca7 efi/libstub: arm64: Double check image alignment at entry
+461f4e4342702c8d2366372078bcd8126ab2ae19 KVM: VMX: Use current VMCS to query WAITPKG support for MSR emulation
+4e8133e56d2e982db2592587e4936a130bf333a8 KVM: nVMX: Use vmx_need_pf_intercept() when deciding if L0 wants a #PF
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf928bdf81ee-1eb926901599.txt
+Content-Disposition: attachment; filename=revlist-1eb926901599-58962fa38b57.txt
 
-dd7e32bd66973f5682c30657dcbf4ba1e6d19ae9 lib: use PFN_PHYS() in devmem_is_allowed()
-c8d045cd7f40e8fb5452a316e27db7a938d29b1d Revert "usb: dwc3: gadget: Use list_replace_init() before traversing lists"
-03f4b448afa382bf754df7c84c00c21e21e86811 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
-1e1b4b760a6f6e40cff4e74010aaa63a05deb97b iio: adis: set GPIO reset pin direction
-593560260e9babd23e425ea63b0f9e88b48d435e iio: humidity: hdc100x: Add margin to the conversion time
-84707a2519a6afb49deb03108daa3f6f81fa5b68 iio: adc: Fix incorrect exit of for-loop
-b5749318dac056d0f2b791aa1e142230901a31bc ASoC: amd: Fix reference to PCM buffer address
-f263a09584c0e51aa2cf93ad5be1cc51ba6321ed ASoC: xilinx: Fix reference to PCM buffer address
-adf673e918fb21813f8c63f902a60a3a15c17222 ASoC: uniphier: Fix reference to PCM buffer address
-20a826d7489096a50aef8e0c23024d2f350ce80b ASoC: tlv320aic31xx: Fix jack detection after suspend
-2df3183e7541649f4d35b8bc7255575ef977a62c ASoC: kirkwood: Fix reference to PCM buffer address
-1c04e8101f5697b21aeae6d3e229dce9882385c8 ASoC: intel: atom: Fix reference to PCM buffer address
-2422243d9a7d39df300c5bc7f640b1c66750a6cb i2c: dev: zero out array used for i2c reads from userspace
-8b16348da1a87984df3314288bbc58d9ea179768 cifs: Handle race conditions during rename
-6b7941d18484c6bd42f60d92877fdb19faea4503 cifs: create sd context must be a multiple of 8
-4157b551ad8a0fefdfb91c5edb690de3ee43352a cifs: Call close synchronously during unlink/rename/lease break.
-5b3571e820213fa2d7583236f104b4b361e31ab7 cifs: use the correct max-length for dentry_path_raw()
-95e13fd4e71245f736018d04dfeb043a1df341f3 io_uring: drop ctx->uring_lock before flushing work item
-f683f39a86bab035caac0baa5adf383cb1288e1c io_uring: fix ctx-exit io_rsrc_put_work() deadlock
-e6c862bdeb9e2a985ba17e27353e701d7deceb10 scsi: lpfc: Move initialization of phba->poll_list earlier to avoid crash
-b92303dd0b1ac7efcea4335298bfc35edab6ad6f cgroup: rstat: fix A-A deadlock on 32bit around u64_stats_sync
-9b724237c5cfe827d4001a4c6779c1b9b03cb916 seccomp: Fix setting loaded filter count during TSYNC
-289dd5da4f89bfb56bbb142921b3a6fc7cf6771e net: wwan: mhi_wwan_ctrl: Fix possible deadlock
-8fd124b6fd38ec35a97e3130b338a4d4d7ffaded net: ethernet: ti: cpsw: fix min eth packet size for non-switch use-cases
-3329a6300cf77da1a6a773f7c4477c6381e63b53 ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
-d52ab5218f1a023302ad50cbcbcb03d068e1e94f ceph: reduce contention in ceph_check_delayed_caps()
-fed4eea03b9c5fd2750efd6e6199c6b7ecae61c7 pinctrl: k210: Fix k210_fpioa_probe()
-ae2c5764b94a369a11a2d100de522a00891f696d ACPI: NFIT: Fix support for virtual SPA ranges
-d0bd2517c72963768649b4ff6c8e49f3cae02329 libnvdimm/region: Fix label activation vs errors
-df51686214dbda590ccd0c900457f648a9d26e34 riscv: kexec: do not add '-mno-relax' flag if compiler doesn't support it
-bc0ec2552fa0ec05db058e6703b17f4fc32600da vmlinux.lds.h: Handle clang's module.{c,d}tor sections
-b9410ac6c7c5c728e50a366fe765256719f11d72 drm/i915/gvt: Fix cached atomics setting for Windows VM
-b83a53377112365e58e53af2b4afade6b5f36768 drm/i915/display: Fix the 12 BPC bits for PIPE_MISC reg
-2daad70b8926a2ddf9ffdfbcdf953ee37c7879aa drm/amd/display: Remove invalid assert for ODM + MPC case
-97c69ff72352ef544d2088703817bc1ecf3e1775 drm/amd/display: use GFP_ATOMIC in amdgpu_dm_irq_schedule_work
-d853b671ea6e7019f15aac92e2580572285fa79d drm/amdgpu: Add preferred mode in modeset when freesync video mode's enabled.
-db29360baa6d038879a410432cd698b1b89635fb drm/amdgpu: don't enable baco on boco platforms in runpm
-ab8f3972bf60fc8b61854410be2574a9c1af7ae7 drm/amdgpu: handle VCN instances when harvesting (v2)
-c26da4df39dbe9ff4f6ba65d382f12609375cdbd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
-9979e661ba5d2527daf3622e0854290d837c281e ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
-e2d8b19bccd2bab1505821ea24408f3b59e0a12a drm/mediatek: Fix cursor plane no update
-26183c40e817fc57fc660f5024c461e4d91703cf pinctrl: mediatek: Fix fallback behavior for bias_set_combo
-7e421f96a7d2f89f44242b11dbae0e9baae38254 ASoC: cs42l42: Correct definition of ADC Volume control
-9939244c59ce026f8f057498c349b1d3a299b7a6 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-cf67a7e952aace7eb6479a100658909861d26cc3 ASoC: cs42l42: Fix bclk calculation for mono
-9929f3babb0a0b0474ace0abbe0bf4735b190268 interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
-cf9f757e0a589858341490b6df4f970d6b76024e selftests/sgx: Fix Q1 and Q2 calculation in sigstruct.c
-575a4cd08e27a961f261dcd03fdaea96a8465073 ASoC: SOF: Intel: Kconfig: fix SoundWire dependencies
-d1fe9017419b1d50aa09d8b76162bda2b5040a77 ASoC: SOF: Intel: hda-ipc: fix reply size checking
-f89ea9dd265242cf2272b0a240c6e06af42d2143 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-a43ecbb583acb74153ca2b1260265852b5257909 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-13ed9be5c58c1876af12a6164f3203560b851415 netfilter: nf_conntrack_bridge: Fix memory leak when error
-282e6695b21ba3b0da8d66e1961d068aac8bf565 pinctrl: tigerlake: Fix GPIO mapping for newer version of software
-aa8a85cd691df49572eedfbc8008109a123d62dd ASoC: cs42l42: PLL must be running when changing MCLK_SRC_SEL
-2897332fde778ce3901d83757adc3771ff71d09f ASoC: cs42l42: Fix LRCLK frame start edge
-689ee4b522b06d401e69e436b99fc9377f7a2c50 ASoC: cs42l42: Fix mono playback
-adcea1b6f0b1528a980703793eb0535f7269ce25 net: dsa: mt7530: add the missing RxUnicast MIB counter
-9e1143481867af59a575b92560603b0f5eb14931 net: mvvp2: fix short frame size on s390
-cf9447764eaee5d4a99777159e0d988ea1a0c938 platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
-c5a218534f1a6bc6ba9ee463719fccb809e92e9d perf/x86/intel: Apply mid ACK for small core
-5f4c4e26a1b49e907e3e51a3d8d84e5c2ddcac74 drm/amd/pm: Fix a memory leak in an error handling path in 'vangogh_tables_init()'
-e5fc1b5cf5a9d6f37d106e0a1c58d7be38af3b69 libbpf: Fix probe for BPF_PROG_TYPE_CGROUP_SOCKOPT
-e9f74aa564e33e7cb9e32f2e57864fa6a3027782 libbpf: Do not close un-owned FD 0 on errors
-dd9af13e502f73fe19d51463a9527ff26d617458 bpf: Fix integer overflow involving bucket_size
-c401e15c574ab548893fed2a0fcccbf61c7c5d9e net: dsa: qca: ar9331: make proper initial port defaults
-c89db1cc87cb43e9e29239154a0bd3ff4700fb46 net: phy: micrel: Fix link detection on ksz87xx switch"
-2209f161c766434798a7db21a63177f67a6ff48a ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-2cbee93b72430cf880cd43e8f9d38e5996bf68e1 io_uring: clear TIF_NOTIFY_SIGNAL when running task work
-d475fbf1005234eb9aae2c31b2658d540ff0fc6d net/smc: fix wait on already cleared link
-051d4d1d5675e026dc65d415bcfff9ef552f1284 net/smc: Correct smc link connection counter in case of smc client
-6502d7ed1aded9af1b794e5916a47564dd153284 net: sched: act_mirred: Reset ct info when mirror/redirect skb
-1d5b4b06097696912618aac187fd9bab6471aead ice: Prevent probing virtual functions
-844f23da49bc0cb4dae36eb82cd9669786ac681d ice: Stop processing VF messages during teardown
-f496598612c147606488c5476844851407821032 ice: don't remove netdev->dev_addr from uc sync list
-01e9bbaa9fe7cac4fa4f96e6978fa5ae923209a6 iavf: Set RSS LUT and key in reset handle path
-83187189c824bfe87b55a74da397c7e04fa2f078 psample: Add a fwd declaration for skbuff
-2774cc382f3820a2b9623cd72fc7e100b19b3985 bareudp: Fix invalid read beyond skb's linear data
-83b6f23b4735cb0591dc6314a31cede5c03a4380 io-wq: fix bug of creating io-wokers unconditionally
-efd3917d61141d5ad7f212a9beb05a8b016b9462 io-wq: fix IO_WORKER_F_FIXED issue in create_io_worker()
-6a6b5513779c1044c255d366e2149e3d9d2ff975 net/mlx5: Don't skip subfunction cleanup in case of error in module init
-7dcdff3660ede60e92de658a07590dab044c6d62 net/mlx5: DR, Add fail on error check on decap
-d86f30471429425f1e76907d70ac21577e492693 net/mlx5e: Avoid creating tunnel headers for local route
-f58ea5343395152efc2a3a333107d218830fbb26 net/mlx5e: Destroy page pool after XDP SQ to fix use-after-free
-fca06bbb32f750c51c74e60299e467e0cab406d4 net/mlx5: Block switchdev mode while devlink traps are active
-29ec2f4e884ecb33b6300781ed9e29fab2e0ddfe net/mlx5e: TC, Fix error handling memory leak
-3993a5052319e94c89b08581ed6e1f0da515532e net/mlx5: Synchronize correct IRQ when destroying CQ
-5e538106538d2285c971e7db46b101afad064963 net/mlx5: Fix return value from tracer initialization
-ff8e6721db7870250471088bced7042deeddccad drm/meson: fix colour distortion from HDR set during vendor u-boot
-93ac2a1a54acb39e73b1c78a24ebaa4dad6246a4 ovl: fix deadlock in splice write
-af3d144addf25bc8b85d27c4ac70129333d46c58 bpf: Fix potentially incorrect results with bpf_get_local_storage()
-a7d269956be7ae7a5bfb9daf4555c44bad6a9efd net: dsa: microchip: Fix ksz_read64()
-f1f57ba15387a67a00e2943c3f65b06abae70be8 net: dsa: microchip: ksz8795: Fix PVID tag insertion
-8f0fb703392d9e17fdf41efb42c9cf3a9d626596 net: dsa: microchip: ksz8795: Reject unsupported VLAN configuration
-173f7221bffde9dd400d2f690884eb8abeffb40b net: dsa: microchip: ksz8795: Fix VLAN untagged flag change on deletion
-8233ebeb8be345f66bf84a7897eb1499ea8a562e net: dsa: microchip: ksz8795: Use software untagging on CPU port
-2d1933e193107f181729fb14bc4dbd7c095ff6d0 net: dsa: microchip: ksz8795: Fix VLAN filtering
-26946d4e441962eeddb57f91b53f30903449e155 net: dsa: microchip: ksz8795: Don't use phy_port_cnt in VLAN table lookup
-d022d99d4920cdbad2d582e114384880d56ffdc3 net: Fix memory leak in ieee802154_raw_deliver
-97c2d78ffbc1f5b43583638d4dacd867967db656 net: igmp: fix data-race in igmp_ifc_timer_expire()
-191d59f67891d5fc82de43e89f91cf824480b294 net: dsa: hellcreek: fix broken backpressure in .port_fdb_dump
-8577c676e061cdfa0b358617efb4cb9f73f27d24 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
-8cc219deb077b0657f79aeae28526d4d18a61421 net: dsa: lantiq: fix broken backpressure in .port_fdb_dump
-2e5358eb8863d9c8f1edf224f105b348cfb8fb0f net: dsa: sja1105: fix broken backpressure in .port_fdb_dump
-6abc77c9001afb682ba719a0849794884c234317 pinctrl: sunxi: Don't underestimate number of functions
-d7dfc3d3aa4e82d6885d022783eb95eea8fae54f net: bridge: fix flags interpretation for extern learn fdb entries
-e41519895940d2a71fc908bee3096c7f7fb0507d net: bridge: fix memleak in br_add_if()
-073c9aaffe1c4d12023cdda485640c3155ea77bf net: linkwatch: fix failure to restore device state across suspend/resume
-93fefc529436f33bab1158f5bb0fb64b8fd6bac5 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-9f4f5f0041c3bd019756893bb268814898eec3c6 net: igmp: increase size of mr_ifc_count
-833c012c9cbd1bd640b3f0d755e16389cdf5be82 drm/i915: Only access SFC_DONE when media domain is not fused off
-4531ed3323b05aab167f83ca0f2bede32b6b8973 xen/events: Fix race in set_evtchn_to_irq
-f6543ba4d7506ef6369a138928a5d5bd37a8332c vsock/virtio: avoid potential deadlock when vsock device remove
-261e2a3a9238f0b407098d2119c9e50e90c0d58e nbd: Aovid double completion of a request
-53878fd3fdc7b00e60cbe95c3a24eda565f8dfc3 arm64: efi: kaslr: Fix occasional random alloc (and boot) failure
-d1a790ea4c5fe15b103bfbaa8c7491b778c998a0 KVM: arm64: Fix off-by-one in range_is_memory
-d690f42f0de4409bda108da81e0520872fea23a3 efi/libstub: arm64: Force Image reallocation if BSS was not reserved
-6ab79a1e997d88a5a183961736ded947758db779 efi/libstub: arm64: Relax 2M alignment again for relocatable kernels
-7a30b06141b9527de78a340b94f0cef82735c3c5 powerpc/kprobes: Fix kprobe Oops happens in booke
-93c8e7712ae7cf3a188a0596e3fe0ed6a6455b4c i2c: iproc: fix race between client unreg and tasklet
-39b876f7f8b3b0fc238d2b1bf309777c15a10d3b x86/tools: Fix objdump version check again
-97fe16648f4569ea2b219eedac2165e6d67401e6 genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
-3d62f2edcec49e5e76ba31c4ce1be39e529eb69a x86/msi: Force affinity setup before startup
-97e395e83d67806c639f295de93bf769c1a8a440 x86/ioapic: Force affinity setup before startup
-c30c9d6bf41445308be210687f6609b178f88a65 x86/resctrl: Fix default monitoring groups reporting
-16a2332a4823c34e0977bf1538306a24c859f1a8 genirq/msi: Ensure deactivation on teardown
-d1f0f718ae004e42979388673e7a2e62635f1f14 genirq/timings: Prevent potential array overflow in __irq_timings_store()
-5d200178e1c7da91afc49678adbbaee45ed9d5de powerpc/interrupt: Fix OOPS by not calling do_IRQ() from timer_interrupt()
-1eb926901599617e63a315c914897204398c558c PCI/MSI: Enable and mask MSI-X early
+778c3f726ceb1e7c8abec4a91f349fc374da660c lib: use PFN_PHYS() in devmem_is_allowed()
+4127d0be6535e19c2592ed973c0c5339ca70074b Revert "usb: dwc3: gadget: Use list_replace_init() before traversing lists"
+31794e1dc4faf9afb7cde7990b1c558a37412b40 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
+6e9c2b75a3218c9cf0fa6ba84d4ad826b3e6123a iio: adis: set GPIO reset pin direction
+f0dc405b79773b6920db9d16253f13e6456abb42 iio: humidity: hdc100x: Add margin to the conversion time
+8d7f3029a9b4e363e311c62b1b7b8e4e4afa3d6e iio: adc: Fix incorrect exit of for-loop
+a31d1dd18bfd2419f827c4499cf8b9be78bc2da4 ASoC: amd: Fix reference to PCM buffer address
+bcf4924bb9d8c93e0cc3e49969dfe97c8abac6a3 ASoC: xilinx: Fix reference to PCM buffer address
+1f986792985fb5ee7b671df7a0773c3895bb2747 ASoC: uniphier: Fix reference to PCM buffer address
+17bfe89af5a7d2962d6bc8ff84f5c2486b346104 ASoC: tlv320aic31xx: Fix jack detection after suspend
+1ace18d9ed809ce26563d97e84dff8898d9888fc ASoC: kirkwood: Fix reference to PCM buffer address
+440484700f3887b602c3bf43269eebad0bb7eeff ASoC: intel: atom: Fix reference to PCM buffer address
+962c0332aee4dc85547f15818ff9f9bea0860fd2 i2c: dev: zero out array used for i2c reads from userspace
+8e3550d3606fea4f7f302324d63354654b3bb5c5 cifs: Handle race conditions during rename
+80486349c7fb50581fa5be2340568273c8c0c64a cifs: create sd context must be a multiple of 8
+c6c7a346ef4fc0abb1a07768a13c109d93e60295 cifs: Call close synchronously during unlink/rename/lease break.
+ecbe2866f984c6630bd8ae98ebc6499dbbd057b5 cifs: use the correct max-length for dentry_path_raw()
+7431c1c1a6431d2b265189cf8e2275cb147360f2 io_uring: drop ctx->uring_lock before flushing work item
+d44aa8be01aea7ad6d10cf56cf316a83c0fe6ebf io_uring: fix ctx-exit io_rsrc_put_work() deadlock
+a3ed5b0befa52552420a0705f12810e2e197d435 scsi: lpfc: Move initialization of phba->poll_list earlier to avoid crash
+5ce3a253a2f18fadbd7aa751d50c1c9eaffc67ec cgroup: rstat: fix A-A deadlock on 32bit around u64_stats_sync
+97cc0a222ed9533d25078156b0ecda4f29d57bc4 seccomp: Fix setting loaded filter count during TSYNC
+bbb0a24301738fe7ed39eb015de1f8a2fb515ca5 net: wwan: mhi_wwan_ctrl: Fix possible deadlock
+6b9cd203d18d49a6b90f80e5b27ab9cb65b9b086 net: ethernet: ti: cpsw: fix min eth packet size for non-switch use-cases
+65a93104438635dd39b3aa17ea82446f557900aa ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
+70c0461f8198e1f4693ed010ce3a55bb7cb77dbb ceph: reduce contention in ceph_check_delayed_caps()
+22bbd2d53d157b8d7e0a4beb7195253dd0ec5be7 pinctrl: k210: Fix k210_fpioa_probe()
+89640dbcb82c18272deac5c57e746b6ac5ef5a8f ACPI: NFIT: Fix support for virtual SPA ranges
+88261f033807ec823d0fcb0ba985018d580ee14b libnvdimm/region: Fix label activation vs errors
+a85a0505571173e3361e30a4748c2fbf28477ec2 riscv: kexec: do not add '-mno-relax' flag if compiler doesn't support it
+6b93f8e38c8222020fb49e806b89f57757420b7d vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+d365f2cea46a2b1c452c311796786c057ef49404 drm/i915/gvt: Fix cached atomics setting for Windows VM
+e5e7de2201692fc473171ff434205045d3f92947 drm/i915/display: Fix the 12 BPC bits for PIPE_MISC reg
+76416bde6cf04eb07558dcea261e0af872f94beb drm/amd/display: Remove invalid assert for ODM + MPC case
+53c1d157576fb449a2bce7950edd7883f773fb72 drm/amd/display: use GFP_ATOMIC in amdgpu_dm_irq_schedule_work
+fd996612eba19f24c7ee8b28135e9461e9633b40 drm/amdgpu: Add preferred mode in modeset when freesync video mode's enabled.
+ea302045c980a114744a59a913722636590b2c06 drm/amdgpu: don't enable baco on boco platforms in runpm
+0b605c12dfc8699eb10418aaf17ac06a2382e50a drm/amdgpu: handle VCN instances when harvesting (v2)
+b6ad2cb3e4fa0dbff6651a804d92e416dd07a8d4 ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
+32b729705828d117125e4ebe969a86d546480857 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
+7d7547735053cbb39129cce92aafaa7ff7bd6c2f drm/mediatek: Fix cursor plane no update
+e7eba4d58b2d1a0b2d4967e035911e5f8dcfc806 pinctrl: mediatek: Fix fallback behavior for bias_set_combo
+351a454a32027489611b5cdeacc6625221588747 ASoC: cs42l42: Correct definition of ADC Volume control
+9178e468dcdcf04b5d0e0b1b638dd32a9c9d6405 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+71fccd07058d5351646981cfc421229141053ae0 ASoC: cs42l42: Fix bclk calculation for mono
+4b3c4f562fde16373ef374bd5d7ee12bad5ba3c2 interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate
+0358b86dbd9901a2509f29a676319c096691f93d selftests/sgx: Fix Q1 and Q2 calculation in sigstruct.c
+2cd5cf11f56583000d149845e2c81c2fef88ea5d ASoC: SOF: Intel: Kconfig: fix SoundWire dependencies
+6358afe9cddaaef008b879117539fa4c832ec94b ASoC: SOF: Intel: hda-ipc: fix reply size checking
+196d08e6ad3a326365e9e18fabd6570e202f5d20 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+90855a4faee26a5f0b01d244bf52327575d82981 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+986039bfc8d568c7569f45040bfbeaf7715541e9 netfilter: nf_conntrack_bridge: Fix memory leak when error
+d0b5dd90fd1cd3a6bf8cd7a0b8985676370b8db7 pinctrl: tigerlake: Fix GPIO mapping for newer version of software
+a8bf355ff98565fb4a4b20ca76b3b698d3c24ab8 ASoC: cs42l42: PLL must be running when changing MCLK_SRC_SEL
+06cd5ad09f90826fa375e69db6cf76f19d6e59ec ASoC: cs42l42: Fix LRCLK frame start edge
+4b25174073709461e5adf621c830e2553ac4600c ASoC: cs42l42: Fix mono playback
+8115a8950aa2c3d7ecfb59baa48b2ff74c052eda net: dsa: mt7530: add the missing RxUnicast MIB counter
+b3915c208ac5c01ce32ad7f4dd09aec8b1169652 net: mvvp2: fix short frame size on s390
+f7efc2777fa2c53de2e63ef4042c370e099b9e08 platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
+da4a9864e1dbb31ed06bc0d3b897e70d82758ed7 perf/x86/intel: Apply mid ACK for small core
+bbf231a541feb8dad3f180782d385b0f77301ff3 drm/amd/pm: Fix a memory leak in an error handling path in 'vangogh_tables_init()'
+5e41e5dedeeb29b2a6c932d0f65130c03b6b56bd libbpf: Fix probe for BPF_PROG_TYPE_CGROUP_SOCKOPT
+130e6ba77204591227f89da43fc65a9bb5e2dbcb libbpf: Do not close un-owned FD 0 on errors
+9be37ebe5d2bb4a59074cc78d95e20756c6d471b bpf: Fix integer overflow involving bucket_size
+50d6c7aa3301f938b326d302a0141fe647a13a58 net: dsa: qca: ar9331: make proper initial port defaults
+2e24e3326cf25fdcc1e457ede6262b1a8686205b net: phy: micrel: Fix link detection on ksz87xx switch"
+f28ed90b28f5599bf528a07f8c458e53065a258a ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+591eb0bd2e7d505eb2670a55696c32f895ae0507 io_uring: clear TIF_NOTIFY_SIGNAL when running task work
+26f6d9972d727e01fc65695c348f2792d458672b net/smc: fix wait on already cleared link
+1fd9ea88da1e41344013c5006a03c1e4f5e56b1a net/smc: Correct smc link connection counter in case of smc client
+130e3af8a193212a2ff13a7c9531331cb0bfdbab net: sched: act_mirred: Reset ct info when mirror/redirect skb
+e9feb1ba5725d3ea655fdc5cb42fbc66374d9f04 ice: Prevent probing virtual functions
+a9a54e7689655aaa3eabfea612e1fcffe9343306 ice: Stop processing VF messages during teardown
+6f755d7bbd9d868fe2e6d880b1ce7004803ea31e ice: don't remove netdev->dev_addr from uc sync list
+8aaf21aed748fd376ef3450f325c35cc9fd39f4c iavf: Set RSS LUT and key in reset handle path
+5517c43b3a0ef5a7b5381d98049f3e5b30fc543c psample: Add a fwd declaration for skbuff
+fc8a0206ed01533c25ac95132fee1186f6e2e66a bareudp: Fix invalid read beyond skb's linear data
+18e9e27901521e8189aee30621e83e4aca550bea io-wq: fix bug of creating io-wokers unconditionally
+ea0b760fb928d0774332e379fb55b3d6163a8297 io-wq: fix IO_WORKER_F_FIXED issue in create_io_worker()
+5fcba458723c4420cc6d7905425a3209498e7b4f net/mlx5: Don't skip subfunction cleanup in case of error in module init
+2a99cd2d3745c9af4d90703edd01bd3060efef50 net/mlx5: DR, Add fail on error check on decap
+186eed201926278e535626e644063d316f7e5b72 net/mlx5e: Avoid creating tunnel headers for local route
+bdf167e9814e660250d885c04e44cac9b88d654b net/mlx5e: Destroy page pool after XDP SQ to fix use-after-free
+c2c751c4246e7341a0fc9ca1264b7cc9f099e70a net/mlx5: Block switchdev mode while devlink traps are active
+ea9d56966b3cae3d97ecc065ac22d25d3b6c86b5 net/mlx5e: TC, Fix error handling memory leak
+260939ae1f4d77818958055614fc77da62f67c23 net/mlx5: Synchronize correct IRQ when destroying CQ
+fac7c17412e10de92263b970c607746d48119ea4 net/mlx5: Fix return value from tracer initialization
+9a3e4d7ee9f2ad9e1e020bd829817e5319340aec drm/meson: fix colour distortion from HDR set during vendor u-boot
+a2ccfefed5678c5a31a452c175026d8c91d94e85 ovl: fix deadlock in splice write
+2c153af4a5c7575b92eaecf36d0d3cbee1497b80 bpf: Fix potentially incorrect results with bpf_get_local_storage()
+b47d9c4c67357754c36ab8b373592610469475ae net: dsa: microchip: Fix ksz_read64()
+4135d5256f1a4852407d94061159a5f279bb2f3c net: dsa: microchip: ksz8795: Fix PVID tag insertion
+3bb96b52d86b14751742bf6571aa5dc523238912 net: dsa: microchip: ksz8795: Reject unsupported VLAN configuration
+8ae14f042491303fef52484e161720b6b5157330 net: dsa: microchip: ksz8795: Fix VLAN untagged flag change on deletion
+a58281a3e360a64c9cfdf77074c2abf1a7e374b5 net: dsa: microchip: ksz8795: Use software untagging on CPU port
+790473d453ae4378838b867d2a4603cedb3ff689 net: dsa: microchip: ksz8795: Fix VLAN filtering
+f7cdf079affb350f8ab83300874bd5e4a709fc5c net: dsa: microchip: ksz8795: Don't use phy_port_cnt in VLAN table lookup
+9328614d43caf3a90bafbf27e030e988eda07b18 net: Fix memory leak in ieee802154_raw_deliver
+f86829b3b76f9f0af432e8ef671bda2f05ac0f57 net: igmp: fix data-race in igmp_ifc_timer_expire()
+5e95b456174ca8badc917aac1004707e02275754 net: dsa: hellcreek: fix broken backpressure in .port_fdb_dump
+ce2d2e227632ab1523cdf5f231babbefb290d22b net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
+e2a75473865e25548c034cb227d5a7aeaa581d11 net: dsa: lantiq: fix broken backpressure in .port_fdb_dump
+959efe3879e6515489edd0573990f597a07bf495 net: dsa: sja1105: fix broken backpressure in .port_fdb_dump
+075a2c65315e3ce6e0bd939f0a76595e9edd06a8 pinctrl: sunxi: Don't underestimate number of functions
+ca2525592e0a620eaad8cf1816244a2749f468bb net: bridge: fix flags interpretation for extern learn fdb entries
+f34c75aff598ef82441a02c55f926c89eb373069 net: bridge: fix memleak in br_add_if()
+5adab7d9c079c201ce3861600ad45772a7f34b10 net: linkwatch: fix failure to restore device state across suspend/resume
+fbc70b0e077059cef84aa747938c1537ff20a2d2 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+e5aed41668853212b989a1e7b92d02f0ce87e582 net: igmp: increase size of mr_ifc_count
+ee018c081e4021e571e9cc369c6a2138f9097d0e drm/i915: Only access SFC_DONE when media domain is not fused off
+5cbbc16c0589122b5116a0aaeb81b704108347fe xen/events: Fix race in set_evtchn_to_irq
+20178a845c2cc554d9581afa3ee87511a1194656 vsock/virtio: avoid potential deadlock when vsock device remove
+d963f8630172dafff0f666465e520bb5257219a8 nbd: Aovid double completion of a request
+69a680ddd7743333e913498c990e0b22a5618ba2 arm64: efi: kaslr: Fix occasional random alloc (and boot) failure
+10826c618301a22ecda8d5752fe7b0ba509567ba KVM: arm64: Fix off-by-one in range_is_memory
+41f20aade7f5dbbcfb903a8a8f18d707fcad5738 efi/libstub: arm64: Force Image reallocation if BSS was not reserved
+bb8e76ee64bc7e872934178449d0d5dca75f2c34 efi/libstub: arm64: Relax 2M alignment again for relocatable kernels
+061bbb6157e79173a1698ae445c5910be3b6d766 powerpc/kprobes: Fix kprobe Oops happens in booke
+93931d73c7d210f5875f79771c5a2085e9ac71d1 i2c: iproc: fix race between client unreg and tasklet
+904b610f1292d85a559a83161b9d86b064bbecad x86/tools: Fix objdump version check again
+4a184e5bdb4348bcbd8d20be6a06d0fa96c3bfc5 genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
+e13cf40b910d86c2512826e1783d5b44b8b40a64 x86/msi: Force affinity setup before startup
+b5477a1074295698eb583e4d74e0aba3ae680b6a x86/ioapic: Force affinity setup before startup
+f93c588a18906358e2a27edcbc974c8d9e866b10 x86/resctrl: Fix default monitoring groups reporting
+2637453e96f61538f7d370cbb260f300537f0f50 genirq/msi: Ensure deactivation on teardown
+9416b26ee5d571fa171b4add0a0bca09f625d166 genirq/timings: Prevent potential array overflow in __irq_timings_store()
+7fb26d90cfbbf8d8d03b59f6aa66b4b618f727c2 powerpc/interrupt: Fix OOPS by not calling do_IRQ() from timer_interrupt()
+183f5bf146060c15dba103bff60b34a9ce086fe6 PCI/MSI: Enable and mask MSI-X early
+f0f2283f71e32ccaba059bc260119ccd54df5001 PCI/MSI: Mask all unused MSI-X entries
+133d06395055fe79f53918cec2e858e4b137b41e PCI/MSI: Enforce that MSI-X table entry is masked for update
+0a41020c5af5fed670ea9e4e0b0d71114ad36e42 PCI/MSI: Enforce MSI[X] entry updates to be visible
+f33a0d17e55d61ed0bba5b04954e3d385de73645 PCI/MSI: Do not set invalid bits in MSI mask
+0d3d1211ff074b6ca2cc0282e0cabcfed0e4094b PCI/MSI: Correct misleading comments
+a61e6d9f57ae2879557c4efbfc3cedc98261c197 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+c2f976e4c53032977244d2a01e555b7439ac7226 PCI/MSI: Protect msi_desc::masked for multi-MSI
+56c5f547154136b1577786d4eccdb45113dcd21a powerpc/interrupt: Do not call single_step_exception() from other exceptions
+49ace020724486e4a2a479906b95278dcc0ac453 powerpc/pseries: Fix update of LPAR security flavor after LPM
+7dff7c0d3bb5e77d2abf9e24e8f2d9ba4b06031a powerpc/32s: Fix napping restore in data storage interrupt (DSI)
+caef2097581e190c3602277513713644b46d2a6b powerpc/smp: Fix OOPS in topology_init()
+25ffdcd950b363f000c33e21289bff32a75f1c33 powerpc/xive: Do not skip CPU-less nodes when creating the IPIs
+13795be39832f914ae20fb4123256116e2226ac4 powerpc/32: Fix critical and debug interrupts on BOOKE
+e86514e53a6de896f6136071c7180bb04d0db50d efi/libstub: arm64: Double check image alignment at entry
+2f8a1229cdbf8bdf829f3475fe6cdca63f46bb45 locking/rtmutex: Use the correct rtmutex debugging config option
+85ba120808d04988af63d7779b4f3ac2ca46d7d7 KVM: VMX: Use current VMCS to query WAITPKG support for MSR emulation
+5d9e0078d0d0bf8efe66bf3241a8ea5be34fe3d9 KVM: nVMX: Use vmx_need_pf_intercept() when deciding if L0 wants a #PF
+d44d3584ae2b206b9d02528e72bddb0eeaf9408d KVM: x86/mmu: Don't leak non-leaf SPTEs when zapping all SPTEs
+58962fa38b57ce20482fac2286a77d196de56c88 KVM: x86/mmu: Protect marking SPs unsync when using TDP MMU with spinlock
 
---===============5456918823805091270==
+--===============6836392442985069448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af11ef9fcedb-94636373b522.txt
+Content-Disposition: attachment; filename=revlist-94636373b522-7936806bd30b.txt
 
-29105d982a4bb1339b6691e87e13b4b78338d807 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
-c70f4f46a45b2364d1852faff531782b937fa86d iio: humidity: hdc100x: Add margin to the conversion time
-c932c125ece25cf5eb0f9255e2837e3562ff5105 iio: adc: Fix incorrect exit of for-loop
-9d4cea42ab31332cb2d01044eade8ffbaae267e3 ASoC: xilinx: Fix reference to PCM buffer address
-71c9757f7ec0f325fd85adc1d21afb590595e972 ASoC: intel: atom: Fix reference to PCM buffer address
-ae25b4b0d9c05b0d3631157ea4edf033b182d4cd i2c: dev: zero out array used for i2c reads from userspace
-c8fd96f6f96d178cc4fed998ed3ab26c802cea5d ceph: reduce contention in ceph_check_delayed_caps()
-286acc69d0d81938ef02763807d778e5ec228327 ACPI: NFIT: Fix support for virtual SPA ranges
-7ef3b91cd0150d1d7029d12ffdfbd28a44b36151 libnvdimm/region: Fix label activation vs errors
-a3e33bf5abcefff1ba7b4d7ce6bdd119f935dfba ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
-b92136732999d084be2e58dc3b1f267672e73da0 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
-6ada105e2496edceeead40ab78121ec6e5c70629 ASoC: cs42l42: Correct definition of ADC Volume control
-6fe5013dfa47e453916925d609d5cd080c22049f ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-a06ed8341dd8a717dc0e363fdd6f91f5acbd4574 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-c5b2628c38e7ad5262dc5124861ffa2140a6976a ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-55dcfa5d7a94deac5214afd45f4915fcdaefacef netfilter: nf_conntrack_bridge: Fix memory leak when error
-778acdb6c6280de5362f538a027e49036b76311c ASoC: cs42l42: Fix LRCLK frame start edge
-0f25dcf882c3b6e44afabe06230727723835d5fb net: dsa: mt7530: add the missing RxUnicast MIB counter
-4e3bc6bab73e0e6002415b0bcab261c6b96c5727 platform/x86: pcengines-apuv2: revert wiring up simswitch GPIO as LED
-1eef343f843d10f2c50f3cd4c62626441ead9fab platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
-a1e86683af2a7dca78e158a76e4bd0ad8e75b797 net: phy: micrel: Fix link detection on ksz87xx switch"
-bf6b5ddf3e56de4ae3a1592ad7a088fb588e62a5 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-b912f2d98bfcf0ebbfd72450defcc55b5e873f78 net: sched: act_mirred: Reset ct info when mirror/redirect skb
-b087ddc95843e909a3c01c647121281611ddef6e iavf: Set RSS LUT and key in reset handle path
-75a3de41ddc8ab5f2ebcedd9a46ac06742cf8b1e psample: Add a fwd declaration for skbuff
-31a05bf8710e9ada9e16e250e6b669c3e3addaac net/mlx5: Fix return value from tracer initialization
-01e3255b73a133217e9a1a1a4083bd10a34b6bbd drm/meson: fix colour distortion from HDR set during vendor u-boot
-6656df5ed2f280612c4e129e25c9e425269212b3 net: dsa: microchip: Fix ksz_read64()
-27af2a62097c52bb301f22f3014b77aa07796e51 net: Fix memory leak in ieee802154_raw_deliver
-22886278211c5c0a82ee666a645a05eb2414dca9 net: igmp: fix data-race in igmp_ifc_timer_expire()
-83e328372b3f3f41ef4449eab290fab95f109982 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
-42a2f75a691d7d37d5cfdb477c7c0a86f26dd554 net: dsa: lantiq: fix broken backpressure in .port_fdb_dump
-8a74484efce6565894279f917fc4b49c90fc1c1a net: dsa: sja1105: fix broken backpressure in .port_fdb_dump
-d1c2eb692c5b9480995564258ffd0afa3ff54143 net: bridge: fix memleak in br_add_if()
-88f988be4d7e17ca926fd05ac0edb944a0baf47a net: linkwatch: fix failure to restore device state across suspend/resume
-c9a78b20edb5127139c435c3239b7ef32ea0e63b tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-1b87ce07f66647dc4b25360b19eeddf92b77ddf6 net: igmp: increase size of mr_ifc_count
-f45e58375276ae10180bae870ad10d5479af2ab9 xen/events: Fix race in set_evtchn_to_irq
-c5e0db1d98745b9adfb55aa970bc276d26b964f9 vsock/virtio: avoid potential deadlock when vsock device remove
-75d28d3f38088cee751bada7450d09b97a2a2eaf nbd: Aovid double completion of a request
-8f9a6d2ac199dc86cc52daad429a2286e709dc86 powerpc/kprobes: Fix kprobe Oops happens in booke
-52230c874368cfbbe1953a8ace10b50c4e43aa61 x86/tools: Fix objdump version check again
-14d3f5e6ab3f9f880bfb06db1b41bc8394ea11ac genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
-897491a6999e09b0805a93cc68bec2ff2214cab2 x86/msi: Force affinity setup before startup
-fbf14e75aa73e1399a31c7b3ce5610c1271013b9 x86/ioapic: Force affinity setup before startup
-0c75ded8db7a4a4db0efaaf1c761f3f8aeffe1a3 x86/resctrl: Fix default monitoring groups reporting
-1ba7a6032b42c1a7908d5098a65444830c6a2857 genirq/msi: Ensure deactivation on teardown
-f844c699d8c3aa6d89b61d6e222ab62a2e420f2b genirq/timings: Prevent potential array overflow in __irq_timings_store()
-94636373b52270571ee6718135fc223eb5578509 PCI/MSI: Enable and mask MSI-X early
+11b37de7ebe01a6c2f545158e8bf2f4c4a5e44c5 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
+18789890c234f5c2caef322d1c8f7642d07b733e iio: humidity: hdc100x: Add margin to the conversion time
+0346c65fca2d9bf06cc3755d3842e8a9d1611507 iio: adc: Fix incorrect exit of for-loop
+f95bd48e3b95b713f7543db36f974e0680c3b262 ASoC: xilinx: Fix reference to PCM buffer address
+f10916de39f4f1165abba49bfbaa2afdbc332d30 ASoC: intel: atom: Fix reference to PCM buffer address
+8ec4e982eb874628a0846caf3460520de9a6f3ed i2c: dev: zero out array used for i2c reads from userspace
+e910c9be31594afe06b643652fe71ad3db04dc7f ceph: reduce contention in ceph_check_delayed_caps()
+fdbfd772aacf518d492b903af3c7eed148be051e ACPI: NFIT: Fix support for virtual SPA ranges
+972ad7568530d2e0878c6e673d6eb0c8b8a8ca58 libnvdimm/region: Fix label activation vs errors
+199c2eee7750923e59e72106d34baa956cac407a ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
+aa3b01491860d353aef171248c20f64043f79fa2 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
+745c788795e7d69b08a742cf8e24e94a3fe66973 ASoC: cs42l42: Correct definition of ADC Volume control
+71768efebeb6e420f905a337d48ccded5de2ced1 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+281ffafde4248e1bb48f0cd895fac0a56c5a054b ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+3e9852b3d4de91c6757ee191f8dfba2e2126db61 ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+31ce063759db965b3f89909a5aa8e4b7f86332b8 netfilter: nf_conntrack_bridge: Fix memory leak when error
+9b3bdd9b6e9275253329f9e1fab9714a25110d14 ASoC: cs42l42: Fix LRCLK frame start edge
+a14feb34704bfdb99770b511bfa25d65bd98b211 net: dsa: mt7530: add the missing RxUnicast MIB counter
+98ccf18003b89f98f7ec07a16c93aff64dc7ffbb platform/x86: pcengines-apuv2: revert wiring up simswitch GPIO as LED
+daf437ec80c6d1e4e4053bdf3344a2b8db9e4d4a platform/x86: pcengines-apuv2: Add missing terminating entries to gpio-lookup tables
+93b98453ad72c552da84fbb86063bcb206253281 net: phy: micrel: Fix link detection on ksz87xx switch"
+3c179a7c3867ab5a45cdacce81aceeadabf55221 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+441b87809584d5c77e6fba2fc0401767cf546d1c net: sched: act_mirred: Reset ct info when mirror/redirect skb
+d1019af870a76f01be0add5788be72b4e725d340 iavf: Set RSS LUT and key in reset handle path
+7eb29b64a3ce041e94165803952367388649e533 psample: Add a fwd declaration for skbuff
+e76036ad1cb254a4070ec7c08457b48443e033e4 net/mlx5: Fix return value from tracer initialization
+3bd3b4171901dead96547dfa505e63a4cc05e21b drm/meson: fix colour distortion from HDR set during vendor u-boot
+66d39fe955e0743119032ced41d81b7067637ab0 net: dsa: microchip: Fix ksz_read64()
+0a02c39ea8f15de329c0dc624959356c241ff843 net: Fix memory leak in ieee802154_raw_deliver
+8a212ca6e68ef2ecc4e6d81e63fbdd2b73195482 net: igmp: fix data-race in igmp_ifc_timer_expire()
+29f6a6729909407b406bdf0769ff214ff1ef69cd net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
+e8ea6373d726c1b38bfe0835ef367cb12ff92245 net: dsa: lantiq: fix broken backpressure in .port_fdb_dump
+6ddd023e966fc8d6d46882e0e086521ccb66f2ab net: dsa: sja1105: fix broken backpressure in .port_fdb_dump
+6908bcdc9791e0896993ae6cce8dac54ec1d471e net: bridge: fix memleak in br_add_if()
+7ef2e4e5313b9c75d276f789aa7fa0d38a109a2d net: linkwatch: fix failure to restore device state across suspend/resume
+467112e70688e0cd5f7bd12dd06ae73cec716b5a tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+f2f58519790168f2c658b8f11f4055cfe2f38f39 net: igmp: increase size of mr_ifc_count
+2ffb013dbebf8135be19bfec80c424bbf640c60a xen/events: Fix race in set_evtchn_to_irq
+7f09903efc2301016ceaa3f5b6c97251624c0b7e vsock/virtio: avoid potential deadlock when vsock device remove
+7802eab788e25ae589d2653e76cd30eb7ff7e488 nbd: Aovid double completion of a request
+8dd37bc91fdac062ffdeea63a603d3711e5988fd powerpc/kprobes: Fix kprobe Oops happens in booke
+0a12b803ff4013f5be5c7451a4ba2d922ee7bd06 x86/tools: Fix objdump version check again
+3090e0a001a463cd6c48ded4ec593c572d990eb8 genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
+acba5bffb905e566266dcd77246aed90e6b63e41 x86/msi: Force affinity setup before startup
+e84f996da5d17f3b6e6d8a0e115d6e343137b7db x86/ioapic: Force affinity setup before startup
+4df6e6e4106378b36712b92af36ee0a644b880b2 x86/resctrl: Fix default monitoring groups reporting
+1903370ea26256c869f753dca2a41bb1bd372651 genirq/msi: Ensure deactivation on teardown
+35a357c5e507deaf679881e6560b55a7c90f5c22 genirq/timings: Prevent potential array overflow in __irq_timings_store()
+f2e7951af628894eadd43759060f565a28120c87 PCI/MSI: Enable and mask MSI-X early
+cc5121735de7c7d6d02db88397272405e26c0a20 PCI/MSI: Mask all unused MSI-X entries
+8e54047c7d557174911d2b8792d3869e32c6f1ff PCI/MSI: Enforce that MSI-X table entry is masked for update
+f36562242d41c7609efa38490e6eaa33840e09fc PCI/MSI: Enforce MSI[X] entry updates to be visible
+96dc7bf028e33964e4eb9966d519668fbe6e6b59 PCI/MSI: Do not set invalid bits in MSI mask
+6bd5c0f67daa7264d163d5e86bcbf2e617b676ef PCI/MSI: Correct misleading comments
+182593b204f793713b4cfa1a7b4a4f1b3470eb61 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+85e09a110c218b89da01aad112d9639a83be556b PCI/MSI: Protect msi_desc::masked for multi-MSI
+7936806bd30bfe19c56717321e4496e86d536aea KVM: VMX: Use current VMCS to query WAITPKG support for MSR emulation
 
---===============5456918823805091270==--
+--===============6836392442985069448==--
