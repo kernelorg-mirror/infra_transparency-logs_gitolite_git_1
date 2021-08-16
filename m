@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8298046886685494913=="
+Content-Type: multipart/mixed; boundary="===============1846052594394939354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 16 Aug 2021 09:18:50 -0000
-Message-Id: <162910553040.31804.7787516856594546503@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 09:18:59 -0000
+Message-Id: <162910553954.32693.2443315013529950504@gitolite.kernel.org>
 
---===============8298046886685494913==
+--===============1846052594394939354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: f4083a752a3b7dc2076432129c8469d02c25318e
-    new: e4637f621203cb482f3ddb590cfe9f65045d92a6
-    log: revlist-f4083a752a3b-e4637f621203.txt
+  - ref: refs/heads/mlx5-queue
+    old: 1ff7115721a9d210804d6faf557a5835a72c1a30
+    new: b31387af21d175a5751f7c51c1da7b371d6ec49b
+    log: revlist-1ff7115721a9-b31387af21d1.txt
 
---===============8298046886685494913==
+--===============1846052594394939354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4083a752a3b-e4637f621203.txt
+Content-Disposition: attachment; filename=revlist-1ff7115721a9-b31387af21d1.txt
 
 876c14ad014d0e39c57cbfde53e13d17cdb6d645 af_unix: fix holding spinlock in oob handling
 39a0876d595bd7c7512782dfcce0ee66f65bf221 net, bonding: Disallow vlan+srcmac with XDP
@@ -72,5 +72,30 @@ a96e73fa1269a1d1b932f465ed0a803d4c153258 net: ipa: re-enable transmit in PM WQ c
 fda4e19d505d5e45c7c37be3494298c7e32c6928 Merge branch 'iupa-last-things-before-pm-conversion'
 6c9b40844751ea30c72f7a2f92f4d704bc6b2927 net: Remove net/ipx.h and uapi/linux/ipx.h header files
 e4637f621203cb482f3ddb590cfe9f65045d92a6 MAINTAINERS: Remove the ipx network layer info
+ecb2b8368c4ecf456a33790597cb9420f3833e61 MAINTAINERS: Remove the ipx network layer info
+69a746f9c07b1a9a108d0cdb39f8c4b45c94568d net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+e57067d33564b59deeeb4d988e4417993bf7e52f net/mlx5: DR, Split modify VLAN state to separate pop/push states
+92ad1938436cfc0b6a9624fea67eeda8f67f81f3 net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+ebf9611938a4514cadd01cadb5bc721850c77e40 net/mlx5: DR, Enable QP retransmission
+d772c7109ec3181aed638a3ecb8745555f35acd2 net/mlx5: DR, Improve error flow in actions_build_ste_arr
+e0698c037363d1b5627752d597aa06e66559ca7d net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+cb135bb4402d58760ce5edfb271517a210615127 net/mlx5: DR, Reduce print level for FT chaining level check
+c5978f5f8ce0a4e2412e9e890ffd7795e6abfa25 net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+9aedec3cb0c5d4df5d6595d9c0ce7d95efc57e5d net/mlx5: DR, replace uintN_t with kernel-style types
+80e294bc30c56ecca3587b8b1e47053634ad6f4a net/mlx5: DR, Use FW API when updating FW-owned flow table
+f493ac2e0ce367eea5bc7f84c20717136b1f218b net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+7a428906be248e077196909eb8beb16402380cfb net/mlx5: DR, Skip source port matching on FDB RX domain
+f9d8cdd9dc338da19d3c8705b3567cb3953be643 net/mlx5: DR, Merge DR_STE_SIZE enums
+f93514cbd0c35e4074e5a51727ecbdabb6166d0b net/mlx5: DR, Remove HW specific STE type from nic domain
+185b7d7bac1b964cb1dc77cf699823a38b716b87 net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+17979064cee0a43607b4d1b0a895f36e83af1f03 net/mlx5: DR, Improve rule tracking memory consumption
+7f9bea0c1d9d546a5acd99375f50cb8a23cc63f4 net/mlx5: DR, Add support for update FTE
+03c0e0fddcf7412aba12dd2e9b392ad10cd2a5d1 net/mlx5: DR, Fix code indentation in dr_ste_v1
+276af9602342094433a63f7fd6ae1a3800d2dd15 MAINTAINERS: Remove the ipx network layer info
+91f21a2c1094d4b78e535349359d0687d06a49d0 Merge branch 'patchq/413311' into mlx5-queue
+960b6e3470e77aceb3a736934ab11bc4bac4be44 net/mlx5: Lag, fix multipath lag activation
+e405bf3a48b2c1d500e2bf879a29f80668f331f2 Merge branch 'patchq/419320' into mlx5-queue
+e741720af3fb288a86431ad8f6861726452d2e86 Merge branch 'patchq/412107' into mlx5-queue
+b31387af21d175a5751f7c51c1da7b371d6ec49b Merge branch 'patchq/411074' into mlx5-queue
 
---===============8298046886685494913==--
+--===============1846052594394939354==--
