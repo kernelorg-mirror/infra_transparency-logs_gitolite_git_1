@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5607503435149988530=="
+Content-Type: multipart/mixed; boundary="===============5668487713678081628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Mon, 16 Aug 2021 20:05:49 -0000
-Message-Id: <162914434955.25008.14306116521772845932@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 20:16:32 -0000
+Message-Id: <162914499258.31842.13728748695109475260@gitolite.kernel.org>
 
---===============5607503435149988530==
+--===============5668487713678081628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vgupta/arc
 user: vgupta
 changes:
-  - ref: refs/heads/for-curr
-    old: 669d94219d91a2ba950bb12ece69cf0ada53ad4f
-    new: 7c60610d476766e128cc4284bb6349732cbd6606
-    log: revlist-669d94219d91-7c60610d4767.txt
+  - ref: refs/heads/for-next
+    old: 702b4e904d897c681a9a5e7ae6b153f3d3168460
+    new: b1c2aa8a3b12b006a088f03fc8618be7feb3336f
+    log: revlist-702b4e904d89-b1c2aa8a3b12.txt
 
---===============5607503435149988530==
+--===============5668487713678081628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-669d94219d91-7c60610d4767.txt
+Content-Disposition: attachment; filename=revlist-702b4e904d89-b1c2aa8a3b12.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -290,6 +290,10 @@ d5ad8ec3cfb56a017de6a784835666475b4be349 Merge tag 'media/v5.14-2' of git://git.
 abc7285d89ffd089739a1a3059ddd843dd019637 mptcp: drop unused rcu member in mptcp_pm_addr_entry
 e3ea110d6e796146920e1be0108464ebcf283ef7 VSOCK: handle VIRTIO_VSOCK_OP_CREDIT_REQUEST
 d1a58c013a5837451e3213e7a426d350fa524ead net: dsa: qca: ar9331: reorder MDIO write sequence
+d4067395519b40d4ee9b7c26347233e4ae59f900 arc: Prefer unsigned int to bare use of unsigned
+81e82fa58098b13af206c8ba4edb690bf5b7d5d5 arc: Fix spelling mistake and grammar in Kconfig
+bf79167fd86f3b97390fe2e70231d383526bd9cc ARC: Fix CONFIG_STACKDEPOT
+3a715e80400f452b247caa55344f4f60250ffbcf ARC: fp: set FPU_STATUS.FWE to enable FPU_STATUS update on context switch
 d09560435cb712c9ec1e62b8a43a79b0af69fe77 riscv: dts: fix memory size for the SiFive HiFive Unmatched
 a18b14d8886614b3c7d290c4cfc33389822b0535 riscv: Disable STACKPROTECTOR_PER_TASK if GCC_PLUGIN_RANDSTRUCT is enabled
 5648c073c33d33a0a19d0cb1194a4eb88efe2b71 USB: serial: option: add Telit FD980 composition 0x1056
@@ -474,6 +478,7 @@ c503e63200c679e362afca7aca9d3dc63a0f45ed ice: Stop processing VF messages during
 a7550f8b1c9712894f9e98d6caf5f49451ebd058 iavf: Set RSS LUT and key in reset handle path
 71330842ff93ae67a066c1fa68d75672527312fa bpf: Add _kernel suffix to internal lockdown_bpf_read
 f153c2246783ba210493054d99c66353f56423c9 ucounts: add missing data type changes
+669d94219d91a2ba950bb12ece69cf0ada53ad4f MAINTAINERS: update Vineet's email address
 beb7f2de5728b0bd2140a652fa51f6ad85d159f7 psample: Add a fwd declaration for skbuff
 d6e712aa7e6a3d5a9633f4bcbe2237f3edc292bd net: openvswitch: fix kernel-doc warnings in flow.c
 143a8526ab5fd4f8a0c4fe2a9cb28c181dc5a95f bareudp: Fix invalid read beyond skb's linear data
@@ -651,5 +656,28 @@ b045b8cc865316062e520693ad6c8bac85aabece Merge tag 'x86_urgent_for_v5.14_rc6' of
 c4f14eac22468b76476b8ee2a5d1d3555a1d8307 Merge tag 'irq-urgent-2021-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ecf93431963a95c0f475921101bedc0dd62ec96d Merge tag 'powerpc-5.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7c60610d476766e128cc4284bb6349732cbd6606 Linux 5.14-rc6
+80004483b77e2a4f73e15c8c429fa0fc2ad5e8f2 ARC: atomics: disintegrate header
+5ada62c5a2bc345f2c06292ba5d7502c0c7320b2 ARC: atomic: !LLSC: remove hack in atomic_set() for for UP
+bf728e0f2c8f63babb5c7bd95d15504734b37628 ARC: atomic: !LLSC: use int data type consistently
+f451fd4fc5baf611425368298fb68527d8f075da ARC: atomic64: LLSC: elide unused atomic_{and,or,xor,andnot}_return
+3445a78d625d1f88ac8a26c621fa356c530e26af ARC: atomics: implement relaxed variants
+65fc7909f5207888b51b0c836d7e14c0979a7fdc ARC: switch to generic bitops
+fb475d88caa8e1b45be7c60a1b0a215aacaf04c6 ARC: bitops: fls/ffs to take int (vs long) per asm-generic defines
+6320ffca31a2b9500864248a05f12616a939bc64 ARC: xchg: !LLSC: remove UP micro-optimization/hack
+2a2e336e52366d8126fa8003c1310a5573cc7676 ARC: cmpxchg/xchg: rewrite as macros to make type safe
+be2370968da5feb2328ae2ae8562f71f6dfcf9df ARC: cmpxchg/xchg: implement relaxed variants (LLSC config only)
+27ccdff5f5f7bd516298869e9a84aafed7622896 ARC: atomic_cmpxchg/atomic_xchg: implement relaxed variants
+a942dbd1a330910cf7a31126e456cd91accdbbd8 ARC: retire ARC750 support
+d7ebd5cd66f35a9f7f8b1e6553046b475259499a ARC: retire MMUv1 and MMUv2 support
+ca8f35807e2193359bdcc5f73db1534cd6dea816 ARC: mm: use SCRATCH_DATA0 register for caching pgdir in ARCv2 only
+3c0df3c9663ca8563c23007fdb3bfc25d6ec277d ARC: mm: remove tlb paranoid code
+0b7ea86415cba232fc2eb674cfa0fa3c349b5a33 ARC: mm: move mmu/cache externs out to setup.h
+86388529af3f27d756cbaf3c377fdddbf9118e0a ARC: mm: Fixes to allow STRICT_MM_TYPECHECKS
+260df149ea4a378c5bb716f4f9de1d64a9a49985 ARC: mm: Enable STRICT_MM_TYPECHECKS
+c28094f7a114955f004a9ae532b677fafe67b62b ARC: ioremap: use more commonly used PAGE_KERNEL based uncached flag
+bf192e381d996522e585fbe723df0e1a0ea924ba ARC: mm: pmd_populate* to use the canonical set_pmd (and drop pmd_set)
+becd914d1da91956db64ee1ca848c1e526799f38 ARC: mm: non-functional code movement/cleanup
+8c5e8ed1f7a463f7298823fffeb648619e1dab19 ARC: mm: move MMU specific bits out of ASID allocator
+b1c2aa8a3b12b006a088f03fc8618be7feb3336f ARC: mm: move MMU specific bits out of entry code ...
 
---===============5607503435149988530==--
+--===============5668487713678081628==--
