@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3228628874766280320=="
+Content-Type: multipart/mixed; boundary="===============4610303398821717234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 16 Aug 2021 16:50:36 -0000
-Message-Id: <162913263678.22950.8005002520373399180@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 16:51:29 -0000
+Message-Id: <162913268980.23400.18085418482180295954@gitolite.kernel.org>
 
---===============3228628874766280320==
+--===============4610303398821717234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 6b58dd619b9e9ed8a155439f1f57912461164596
     new: a66017f33a72ccf3e317fc76876e61b431b39fdd
     log: revlist-6b58dd619b9e-a66017f33a72.txt
 
---===============3228628874766280320==
+--===============4610303398821717234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a0b26adc42480de8a5eef094234f6da130e646ed headers/deps: Add header dependencies t
 3b581cd30a3c820b113f81a5b633ab19e3d8370b headers/deps: Add header dependencies to .c files: <asm/switch_to.h>
 a66017f33a72ccf3e317fc76876e61b431b39fdd ==================================================================
 
---===============3228628874766280320==--
+--===============4610303398821717234==--
