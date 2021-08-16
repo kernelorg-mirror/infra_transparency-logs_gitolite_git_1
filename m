@@ -1,101 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============1846052594394939354=="
+Content-Type: multipart/mixed; boundary="===============8229381814703433755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 16 Aug 2021 09:18:59 -0000
-Message-Id: <162910553954.32693.2443315013529950504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 16 Aug 2021 09:23:26 -0000
+Message-Id: <162910580631.3423.5200111093186319024@gitolite.kernel.org>
 
---===============1846052594394939354==
+--===============8229381814703433755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 1ff7115721a9d210804d6faf557a5835a72c1a30
-    new: b31387af21d175a5751f7c51c1da7b371d6ec49b
-    log: revlist-1ff7115721a9-b31387af21d1.txt
+  - ref: refs/heads/linux-4.4.y
+    old: c13f051b7fc041d3163a96b10441b421ddecd123
+    new: d092e8092f8d7bae2e48d418ca5b625f7a982a7e
+    log: revlist-c13f051b7fc0-d092e8092f8d.txt
 
---===============1846052594394939354==
+--===============8229381814703433755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ff7115721a9-b31387af21d1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-876c14ad014d0e39c57cbfde53e13d17cdb6d645 af_unix: fix holding spinlock in oob handling
-39a0876d595bd7c7512782dfcce0ee66f65bf221 net, bonding: Disallow vlan+srcmac with XDP
-afa79d08c6c8e1901cb1547591e3ccd3ec6965d9 net: in_irq() cleanup
-b06a1ffe17addae1036c29aecd7071f00267bee7 net: hso: drop unused function argument
-44e5d08812805bcb0f37e18f6c4eab1174a9d053 ravb: Remove checks for unsupported internal delay modes
-b7cdc9658ac860f0dff55bf2d6f6fc27ce17a0fa net: fec: add WoL support for i.MX8MQ
-7d13ad501169d129e73a52f240572d0c818b68f7 net: macb: Add PTP support for SAMA5D29
-593f8c44cc8b2290ca122315ba57c3d90ee6e812 dt-bindings: net: macb: add documentation for sama5d29 ethernet interface
-4fb464db9c72ae671c3f332d9a8d0381557271ce net: Kconfig: remove obsolete reference to config MICROBLAZE_64K_PAGES
-d8d9ba8dc9c77358cd7ea73e4e44e8952c9baf35 net: 802: remove dead leftover after ipx driver removal
-f75d81556a38b1b30a798924ac080e3a1523726a net: dpaa_eth: remove dead select in menuconfig FSL_DPAA_ETH
-a44fc4b6afc2ee9d186a2dcca64b5eaabab969d1 Merge branch 'kconfig-symbol-clean-up-on-net'
-b697d9d38a5a5ab405d7cc4743d39fe2c5d7517c net: phy: marvell: add SFP support for 88E1510
-e5f31552674e88bff3a4e3ca3e5357668b5f2973 ethernet: fix PTP_1588_CLOCK dependencies
-33d41c9cd74c56643a710810703b6bce6eb25efa mptcp: more accurate timeout
-71b7dec27f340c4ab90ef39ae096d8bb2e1c851c mptcp: less aggressive retransmission strategy
-1e1d9d6f119c55c05e8ea78ed3e49046690abffd mptcp: handle pending data on closed subflow
-6da14d74e2bd07bca2cba10878dda5dc0485d59c mptcp: cleanup sysctl data and helpers
-ff5a0b421cb23bf6b2898939ffef5b683045d9d3 mptcp: faster active backup recovery
-fc1b4e3b6274379a1ed398e19b850561ccd765db mptcp: add mibs for stale subflows processing
-0460ce229f5b19f501124adf1485176fbfc8f1c2 mptcp: backup flag from incoming MPJ ack option
-7d1e6f16390443595ab8e25139ecc4f27b8802df selftests: mptcp: add testcase for active-back
-38e3bfa86964961291760e7da6227794106d2247 Merge branch 'mptcp-improve-backup-subflows'
-cbf6ab672eb425ac1cd7f8c7c4066f3bb0a78e50 devlink: Simplify devlink_pernet_pre_exit call
-7ca973dc9fe589dc0ab2650641f4c7a19cc49ecd devlink: Remove check of always valid devlink pointer
-437ebfd90a2567aab19dce47bafc81ebd8a63324 devlink: Count struct devlink consumers
-11a861d767cdd87a34397821b0fd2095893b84b3 devlink: Use xarray to store devlink instances
-ed43fbac717882165a2a4bd64f7b1f56f7467bb7 devlink: Clear whole devlink_flash_notify struct
-a1fcb106ae97cc34cc8101efafb89eaa837be009 net: hns3: remove always exist devlink pointer check
-2fa16787c47437318fc6ceeeddc34ceabd9313c7 Merge branch 'devlink-cleanup-for-delay-event'
-bb18ef8e7e180d8590df2808ec4014af114756cb net: bridge: mcast: record querier port device ifindex instead of pointer
-67b746f94ff39d8b998c4ea9493c6ab2d6c225d4 net: bridge: mcast: make sure querier port/address updates are consistent
-c3fb3698f935381161101d2479d66dd48c106183 net: bridge: mcast: consolidate querier selection for ipv4 and ipv6
-c7fa1d9b1fb179375e889ff076a1566ecc997bfc net: bridge: mcast: dump ipv4 querier state
-85b4108211742c5dd4f9f56c1d0704b4e0d4c98e net: bridge: mcast: dump ipv6 querier state
-ddc649d158c560c6685be1701900a6e456ecceac net: bridge: vlan: dump mcast ctx querier state
-8db102a6f48b5dffa0d38ef6c013b9a33d232e55 Merge branch 'bridgge-mcast'
-d430fe4bac024812f50b8a2ad7a3639128c9db06 net: ipa: enable wakeup in ipa_power_setup()
-b9c532c11cab21d23a67c2d80a02a444c9e07ac6 net: ipa: distinguish system from runtime suspend
-a96e73fa1269a1d1b932f465ed0a803d4c153258 net: ipa: re-enable transmit in PM WQ context
-6b51f802d652b9f053ef5103dc33b7a55c67860c net: ipa: ensure hardware has power in ipa_start_xmit()
-8dcf8bb30f17d4ac1233be877c1650c5a1b34ca8 net: ipa: don't stop TX on suspend
-8dc181f2cd621e8eaa3d9d432e5ebf0175244c4a net: ipa: don't hold clock reference while netdev open
-fda4e19d505d5e45c7c37be3494298c7e32c6928 Merge branch 'iupa-last-things-before-pm-conversion'
-6c9b40844751ea30c72f7a2f92f4d704bc6b2927 net: Remove net/ipx.h and uapi/linux/ipx.h header files
-e4637f621203cb482f3ddb590cfe9f65045d92a6 MAINTAINERS: Remove the ipx network layer info
-ecb2b8368c4ecf456a33790597cb9420f3833e61 MAINTAINERS: Remove the ipx network layer info
-69a746f9c07b1a9a108d0cdb39f8c4b45c94568d net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
-e57067d33564b59deeeb4d988e4417993bf7e52f net/mlx5: DR, Split modify VLAN state to separate pop/push states
-92ad1938436cfc0b6a9624fea67eeda8f67f81f3 net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
-ebf9611938a4514cadd01cadb5bc721850c77e40 net/mlx5: DR, Enable QP retransmission
-d772c7109ec3181aed638a3ecb8745555f35acd2 net/mlx5: DR, Improve error flow in actions_build_ste_arr
-e0698c037363d1b5627752d597aa06e66559ca7d net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
-cb135bb4402d58760ce5edfb271517a210615127 net/mlx5: DR, Reduce print level for FT chaining level check
-c5978f5f8ce0a4e2412e9e890ffd7795e6abfa25 net/mlx5: DR, Support IPv6 matching on flow label for STEv0
-9aedec3cb0c5d4df5d6595d9c0ce7d95efc57e5d net/mlx5: DR, replace uintN_t with kernel-style types
-80e294bc30c56ecca3587b8b1e47053634ad6f4a net/mlx5: DR, Use FW API when updating FW-owned flow table
-f493ac2e0ce367eea5bc7f84c20717136b1f218b net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
-7a428906be248e077196909eb8beb16402380cfb net/mlx5: DR, Skip source port matching on FDB RX domain
-f9d8cdd9dc338da19d3c8705b3567cb3953be643 net/mlx5: DR, Merge DR_STE_SIZE enums
-f93514cbd0c35e4074e5a51727ecbdabb6166d0b net/mlx5: DR, Remove HW specific STE type from nic domain
-185b7d7bac1b964cb1dc77cf699823a38b716b87 net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
-17979064cee0a43607b4d1b0a895f36e83af1f03 net/mlx5: DR, Improve rule tracking memory consumption
-7f9bea0c1d9d546a5acd99375f50cb8a23cc63f4 net/mlx5: DR, Add support for update FTE
-03c0e0fddcf7412aba12dd2e9b392ad10cd2a5d1 net/mlx5: DR, Fix code indentation in dr_ste_v1
-276af9602342094433a63f7fd6ae1a3800d2dd15 MAINTAINERS: Remove the ipx network layer info
-91f21a2c1094d4b78e535349359d0687d06a49d0 Merge branch 'patchq/413311' into mlx5-queue
-960b6e3470e77aceb3a736934ab11bc4bac4be44 net/mlx5: Lag, fix multipath lag activation
-e405bf3a48b2c1d500e2bf879a29f80668f331f2 Merge branch 'patchq/419320' into mlx5-queue
-e741720af3fb288a86431ad8f6861726452d2e86 Merge branch 'patchq/412107' into mlx5-queue
-b31387af21d175a5751f7c51c1da7b371d6ec49b Merge branch 'patchq/411074' into mlx5-queue
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629105802 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1629105800-9dfabc096e60d5cc56ee6940f09bf4ba52922dd7
 
---===============1846052594394939354==--
+c13f051b7fc041d3163a96b10441b421ddecd123 d092e8092f8d7bae2e48d418ca5b625f7a982a7e refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEaLoobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cLIP/RB4MP/de0eXuT8kE+hb
+3e+vcXXzFUeIDOyYOK5bIDN50INu3AL+2F/573U0HURZFnn3kF1NhU5U1oSmF3eE
+3AjDD4VrN/8oLQLcIaOyHm4AhLhFNmTQopqoXQ+j+8IjwN1xfCFzSWq0kPCT6Ze5
+/TRno3tWoBd+LUkzNBSxQsokKlRl70Qtt+VK86v+htEIPXcmEWVP65/8PJNZ28pW
+8K3NTLvbfdWYzFm5A3EwIjy/UhrEYy5UG7FuZkHBaKcNhPMpnAv17Z4ooL5UdF7V
+lvBMGQu5i2b9z6dqx9D+bgALNVXeTtGTmTDXwuHgD8zmM+3zDdUF/kYhAo5RG1HG
+nYTThZWHfkQpAYk1Gp+J1G/he75b+ALcEAjCi7dsjsgtUNaTsLK4i/u71wMGT6RK
+Q7AFxygBtay4+KawYDhQJTamLtzbOpAggiwYT2RT9AECXpXi6fnuIG/gdVaxHTGf
+3EJk6LQbe+FQ+s7kSrD60sA6J8/m8k+x3MvFxH8N7FbdZSubp8R8+WqnV5AujQki
+wLk/7XRePeKA+lVWPqhvGpbCLDnSGpY8ny3Ciiq5KXrVAW88fhXOnAH+4CZAD1Vm
+7DTDAHeXgsCRSM1TT/nGkgJkmYJ3u0AnSsxOglzpZziu0jI7d292Dp+yllYgPCOo
+GctV/kCLPezGL2NzKzhJMKEj
+=7F6m
+-----END PGP SIGNATURE-----
+
+--===============8229381814703433755==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c13f051b7fc0-d092e8092f8d.txt
+
+3fc6ae4538f6e0891b8ca9fd78bbac94e81f489d ASoC: intel: atom: Fix reference to PCM buffer address
+942e0efbaae207294163ead8aff40ae92315bf8f i2c: dev: zero out array used for i2c reads from userspace
+6d00d10cc52d7e12d85dc8007a7cf06758feaf2c net: Fix memory leak in ieee802154_raw_deliver
+1861cc959c10549d9a4f44ecd996e75bcfd09642 xen/events: Fix race in set_evtchn_to_irq
+df1aa2601d4e0f387503dbebe4f37d49e79acc14 x86/tools: Fix objdump version check again
+6e2428217ce754d8c5ee92076554b734df8958f2 PCI/MSI: Enable and mask MSI-X early
+1b2d34c22134a556fb4fa59d28deb4a85f340808 PCI/MSI: Do not set invalid bits in MSI mask
+58761d5bfd7b4bac74f2f842b5685b8c367f4dda PCI/MSI: Correct misleading comments
+28edd132b01817d037c814236ad61d09697aed2e PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+9729c6b2a9a01a728087c99cc69e99f56dad1270 PCI/MSI: Protect msi_desc::masked for multi-MSI
+96806ee92e652e902f301ab9b54fc3881efabcc8 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+d092e8092f8d7bae2e48d418ca5b625f7a982a7e Linux 4.4.282-rc1
+
+--===============8229381814703433755==--
