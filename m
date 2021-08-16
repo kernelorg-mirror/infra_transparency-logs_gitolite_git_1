@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8157270210884472123=="
+Content-Type: multipart/mixed; boundary="===============3439287117208939460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 Aug 2021 17:02:43 -0000
-Message-Id: <162913336305.30565.11300579603320647206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 16 Aug 2021 17:06:52 -0000
+Message-Id: <162913361214.1117.17124040974596910319@gitolite.kernel.org>
 
---===============8157270210884472123==
+--===============3439287117208939460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 3683b761fe3a10ad18515acd5368dd601268cfe5
-    new: 9e1b28b773881963150a7e3a11d4d00b9df0129a
+  - ref: refs/heads/master
+    old: f3319b796d78b7db303f439035100e6095a1b47a
+    new: 9ad1c1d067a8de0aac19ce1808a80d4bce2ebb00
     log: |
-         16af5357d5842785a5646684281fad259310dce0 misc: gehc-achc: Fix spelling mistake "Verfication" -> "Verification"
-         9e1b28b773881963150a7e3a11d4d00b9df0129a char: move RANDOM_TRUST_CPU & RANDOM_TRUST_BOOTLOADER into the Character devices menu
+         7afd319ed68c2e9d20cee461b120beea0824209c move queues back, kvm patches are incoming...
+         9ad1c1d067a8de0aac19ce1808a80d4bce2ebb00 5.13-stable patches
          
 
---===============8157270210884472123==
+--===============3439287117208939460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629133360 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1629133359-cfe829ac1cc639f499f63d8e679798477367d258
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629133610 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1629133609-134e99cbb2382d8fb77144c0ef93ff820cb11c49
 
-3683b761fe3a10ad18515acd5368dd601268cfe5 9e1b28b773881963150a7e3a11d4d00b9df0129a refs/heads/char-misc-testing
+f3319b796d78b7db303f439035100e6095a1b47a 9ad1c1d067a8de0aac19ce1808a80d4bce2ebb00 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEamjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7uAP/iXC3OWff2fzsbTwn3cC
-D357Dz/lodRPy57FV0P+/scTDYnpM9f8WEl//8HecAyPcRnQepBdeRT/++5ZeL/o
-vsPk5493X8q4nEcGMZLk/yZT7QoAApjbDt4atmyUgJ6jvVbQA2dsBQz3NyOqxvr4
-mDhgpXnmioN7OZAT4ONXrDtvCRolcF+WyYsGgzJuDSVZC5V381/0eP6vc8MBIHuA
-kNFhGGKjxwR9iuROtYysiA5SQLg4hZObSc7IvpIkLgbuiMMujDLvH8kn2oAEWDmF
-8tI+rShSqsqaTC77uiAbPRe+wFCslOkj9T7pQrDs8tTH61rLp9QQfdBGx7T8KXZj
-PQbA4z2chpVecazkOZ6Or1VMWo0wEvdQWyDVnzFGIYIAka3euQySaa+egYDIkjwp
-dygNGDD99FHmjt+iwphxAjnuQhaOJoPxnC3pvMSjdteDvsGjwQuCZqVex1FMfz3E
-5BbRoNUHxNzQSR95bqPLtH/7H2AsF47uSRIcc3A3SSoN/CEcU/iVp4nkkCGncsf2
-n7Qbcln0RoWzhM+9w0Fm9QZ/GaFIKp830sGd+2xtmWcyVEdDHUALt+0HaQouZExh
-R+k7RedSbRmjMa8Dy2WRvaNvQ0m+W6YQ+IQj3dmh5Bhp5csVXqmSIymDndFg5gQ4
-28P1Yn1FdSBaloBcd58fTbWg
-=ensa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEamyobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fq8P/RMNx6OoWuHJPO3hJXLY
+kXyTaymego/5palbUJF4oVxI9oxbvQITKQKETpOhBoEflzx3EkxImCSATiXcacxO
+IHq3gD4mp+p3yzEqUh4BMZjBnhKq8ifcz1smoRZ/MTxudwGfneQljbe3zWMlEU7n
+IF5C2PzYhbsCf1pVlshuV3NyGDeS75NRV3wp/I1hbTSQO59AEHL0ZSX5Zh1nSrI1
+bg2cTygnZhLbFBKlZ+QmRcL2ejwWtxx7MCJUvAyghX3s+BsGuQxf+irMyaJ9kY6b
+m6o5ntdJSrhne1RU/4mdfuie11QPEGIRI9mT/7klxVNBZAAGSXBRJg4GN+UX1T9p
+hZQVjUaI5PR0fqPTmwg2wfozJ4DSGqzOee/YRK6sMTtGb55xbEDbfqVqpPtyXDK9
+Sx+Xd/8N6txDYlUHQLpce8YammWAkcl6Nkv9ipX2JBB0NbI8exkCddMzbbt0oQQ/
+3HNS+r3tFjP97VSd6sRlkyKXDngV5K9lTC74iKVxIfwMQT6YN8up+/fxK3VYnQMf
+/MBWbF59dBdTA1e3bJFVGKcx1aRIRl7YHj1bPKQ+laEU/qo9fK4AA5Z3Te2RozJg
+TSrIUgogMlnhtw2+8Rkp3uUmDG3Yz6F01FHtivDBE+kKwRA4xEmlUHl9Y3bvEoIK
+FazdipYGRX+W5U2M+Jj/ykzY
+=U8B7
 -----END PGP SIGNATURE-----
 
---===============8157270210884472123==--
+--===============3439287117208939460==--
