@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4720561017737311121=="
+Content-Type: multipart/mixed; boundary="===============2228986008211259251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 16 Aug 2021 23:16:51 -0000
-Message-Id: <162915581166.23285.7929865197399073093@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 23:17:37 -0000
+Message-Id: <162915585798.23646.9714840937870488532@gitolite.kernel.org>
 
---===============4720561017737311121==
+--===============2228986008211259251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
   - ref: refs/tags/mlx5-updates-2021-08-16
-    old: 0dc5edcf726e7b9befc99e4a4e3d0edcd0e1c966
-    new: 6288001033a45a1e418a558e6061a138cf79c7a4
-    log: revlist-0dc5edcf726e-6288001033a4.txt
+    old: 6288001033a45a1e418a558e6061a138cf79c7a4
+    new: b93e8754e16ab7906d47ccf50a79bc91822574c0
+    log: revlist-6288001033a4-b93e8754e16a.txt
 
---===============4720561017737311121==
+--===============2228986008211259251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dc5edcf726e-6288001033a4.txt
+Content-Disposition: attachment; filename=revlist-6288001033a4-b93e8754e16a.txt
 
-01eb42b248ec8cb2c7c700a950a9028c00dcc4d3 net/mlx5e: Do not try enable RSS when resetting indir table
-d7f2947f52f49db219299659885e845abe88a117 net/mlx5e: Introduce TIR create/destroy API in rx_res
-1f1ca6ce571f641ccbad43ddd64fb20d535a80a2 net/mlx5e: Introduce abstraction of RSS context
-985aa9bed8054bd6cc9a9df71c9fcdb075d61207 net/mlx5e: Convert RSS to a dedicated object
-a5c2c6dd3b230622709e1c0d49e9cd846654cd8d net/mlx5e: Dynamically allocate TIRs in RSS contexts
-e654e0e9452975a234dd1c749ab795e30f1cfc16 net/mlx5e: Support multiple RSS contexts
-5352456afd4db712bf9989c3e52525e010e55c9f net/mlx5e: Support flow classification into RSS contexts
-8ee28f33cfe30ff7d8e9e5b5271c62e50f4ca5cb net/mlx5e: Abstract MQPRIO params
-f2cd685bdd960b38b2e92b3996fc89407f4de478 net/mlx5e: Maintain MQPRIO mode parameter
-e153c5b27b6ab2a40cdf861305f0626f3684834b net/mlx5e: Handle errors of netdev_set_num_tc()
-52c9c51032b9747b607ab493a6814af284ad7e01 net/mlx5e: Support MQPRIO channel mode
-8f80074c099551976c9e0a0c177866c8c34917ef net/mlx5: Bridge, release bridge in same function where it is taken
-1438ab3570e1c8ccfba3345d0ef4e4821c7716b7 net/mlx5: Bridge, obtain core device from eswitch instead of priv
-d6d16841652362ae654f4b8ab8aafa0b4a8364b7 net/mlx5: Bridge, identify port by vport_num+esw_owner_vhca_id pair
-563da78558c9aeec0c42239b03c38ac48c2ab1a8 net/mlx5: Bridge, extract FDB delete notification to function
-a25bed2c21c5f869089e0c2be48212fe8bf03d1e net/mlx5: Bridge, allow merged eswitch connectivity
-95ba0a705dfa856d9118cee9472a5b038f4f7d2c net/mlx5: Bridge, support LAG
+6e5fea51961e60ffd45a480dce23c4dd567fc5ec net/mlx5e: Do not try enable RSS when resetting indir table
+fc651ff9105adb44261774482380ee5f86ac24d9 net/mlx5e: Introduce TIR create/destroy API in rx_res
+713ba5e5f6896cbdde7ddb339cd8b06eb7c7334a net/mlx5e: Introduce abstraction of RSS context
+25307a91cb50a044921705c3b7dc714bee70cbcb net/mlx5e: Convert RSS to a dedicated object
+49095f641b69875fd36e9da277dbf299b27e3fb2 net/mlx5e: Dynamically allocate TIRs in RSS contexts
+f01cc58c18d6457bd88b2c77c916a9e072f2b633 net/mlx5e: Support multiple RSS contexts
+248d3b4c9a396f89da43ec7f6becf377e69efeca net/mlx5e: Support flow classification into RSS contexts
+86d747a3f9697abe477ad8fe847afa738d3991a0 net/mlx5e: Abstract MQPRIO params
+e2aeac448f06ac6c6bee41a7ebecf814f7a57eef net/mlx5e: Maintain MQPRIO mode parameter
+21ecfcb83a8588f21184eaa57c795c0c5a0eab2b net/mlx5e: Handle errors of netdev_set_num_tc()
+ec60c4581bd952296c1f81115eabd0a570042458 net/mlx5e: Support MQPRIO channel mode
+4de20e9a1225866a9a2ac2e12cddee51455991fa net/mlx5: Bridge, release bridge in same function where it is taken
+a514d17350597dea242c5486ef70a9ec013c1182 net/mlx5: Bridge, obtain core device from eswitch instead of priv
+3ee6233e61a1f95426101cfc35f35f7ed0e7ed66 net/mlx5: Bridge, identify port by vport_num+esw_owner_vhca_id pair
+bf3d56d8f55f96024d18e94d2a87e31d9c1a6682 net/mlx5: Bridge, extract FDB delete notification to function
+c358ea1741bc5dda7032e2145805761119d81608 net/mlx5: Bridge, allow merged eswitch connectivity
+ff9b7521468bc2909293c1cda66a245a49688f6f net/mlx5: Bridge, support LAG
 
---===============4720561017737311121==--
+--===============2228986008211259251==--
