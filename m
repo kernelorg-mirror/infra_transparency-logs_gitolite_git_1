@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3308506565039748820=="
+Content-Type: multipart/mixed; boundary="===============2041973077639067584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 16 Aug 2021 22:33:19 -0000
-Message-Id: <162915319935.26799.5521602680873335278@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 22:33:41 -0000
+Message-Id: <162915322184.27092.12292226761222291366@gitolite.kernel.org>
 
---===============3308506565039748820==
+--===============2041973077639067584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: a66017f33a72ccf3e317fc76876e61b431b39fdd
     new: e7d031dc835787cbcf456b2a41055e64ae530abe
     log: revlist-a66017f33a72-e7d031dc8357.txt
 
---===============3308506565039748820==
+--===============2041973077639067584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b894fb3bbcd0ec656c5540fa0d314abccde77983 BACK: headers/deps: Add header dependen
 4ee3f9e63407332defdeac118725ec735c682df5 BACK: headers/deps: Add header dependencies to .c files: <linux/ioport.h>
 e7d031dc835787cbcf456b2a41055e64ae530abe BACK: ("headers/deps: net: Optimize <net/request_sock.h> dependencies, remove <net/sock_api.h>")
 
---===============3308506565039748820==--
+--===============2041973077639067584==--
