@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4001450533774600875=="
+Content-Type: multipart/mixed; boundary="===============7785304634744306912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Aug 2021 07:05:05 -0000
-Message-Id: <162909750578.19342.4819906993655838362@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 07:05:09 -0000
+Message-Id: <162909750993.19443.8321198567799537491@gitolite.kernel.org>
 
---===============4001450533774600875==
+--===============7785304634744306912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+  - ref: refs/heads/usb-linus
+    old: 664cc971fb259007e49cc8a3ac43b0787d89443f
     new: 7c60610d476766e128cc4284bb6349732cbd6606
-    log: revlist-36a21d51725a-7c60610d4767.txt
+    log: revlist-664cc971fb25-7c60610d4767.txt
 
---===============4001450533774600875==
+--===============7785304634744306912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629097504 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629097509 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1629097504-497e4d0d35020766c485192cacc7a778d7d47b79
+nonce 1629097508-075bf5c48210a9d8759b170504409a8738611eaf
 
-36a21d51725af2ce0700c6ebcb6b9594aac658a6 7c60610d476766e128cc4284bb6349732cbd6606 refs/heads/main
+664cc971fb259007e49cc8a3ac43b0787d89443f 7c60610d476766e128cc4284bb6349732cbd6606 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEaDiAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TlEP/1d4UIahotFiW6gYUiDE
-wdfa0WYFHuPc15lqsKlNCzv1DrMMA1AcmUHNi7Y8c2oFufQ6oBitpOoTUUeR7QCt
-svFi2zv1rve8qdSQhhekzBHPRS4+ZNfSZ1c1IdNtdDQtEnPR49l9MhdfTi3bpqOC
-tfsKq+L9+2k6DrYpu5TdE95I680spLwuLBYlyhe4zE3tm+91tNNwJwvsD3AHCxSk
-DbACe4Yhi/1c22/SGgDae0W7i79P3FEunf8IPSVbx71tMsaXooYAkeCPJqHJKdLE
-4Td2jqJjUkV/bdZoYOvdTz7OS+didU68Yew63gHP/mmz7ySFaI85h7tP/x6qumgF
-QsfmvmI0uMBg1ytruZ2QWws5q9/xAjlABAqi8coEpo8ct8Y5nRpMa9z27XaCqw+q
-L/t9yxFob0tMaigFMQQDmdCE7sydSW2QY7gapu+PBi5thCnkHIHyhjYu0M7kjXzp
-zTJUROoRDPQu1fTYQgLvwiRrlzw5Fv3llP9blFyKkDVVbhuNmy7wTTk4i+3XWQ6A
-p0fa0khUHRvPSLFqLHKPErzq+CaHX0ua1mF+glASvQ4fjAMtCOPE3fAf1K6zPJR9
-mqzRdq5O8bf3cHyrJqr1a1ZAp2l4pWSzYsWbAOdYyA8zYARMKff4wDwsAPSz1IC8
-05Ym6WodmiOnVaVv2qHkHHQ2
-=DM6a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEaDiUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bqkP/0GfljLXlaU6/KNWWpw4
+WqD0391Gzia7YT4xQrp5zpjSs6BOfgvphhID6PPaT2b8i1yWLcYtFMkGW165blFH
+6bMBI/W5aSuGjUvHwyXuykTMn3wj3uo9r1ikRg9bkjeIgGcubCzFuYKFQR1ZFUeY
+g8R3br+poWhfIMMiN3irpN8R3eXMFdoNLqOPd6DLuLO9FsCL+RuHheTSnncas4zb
+Nki44hRXNHYiUf+30hwVo2o07b1w8gyqQ105JsvKa1hELQSJ3dBGI9hjuK/UnYBc
+9qph4bwHfOG52N7XPS7uzxkVreRmOaI/JfrydgJYSNoaLApPACeZScfGnidoW4oA
+OdKMshVbp6TM+90TP6rQIhM2RwWg3gFWC+BU9bE+33zRlr68A7uFDJRXGgNT5V4j
+nxvi0c7ujSAgPQ46dL0Z2Lz35CBmzI2FnqFitQ9+G4sgRNqOq/JeQRwLUnb5YKdS
+3y6R9Y38QidefqPGsNHNHsmBfOCoRU/IPGKklZtLZW4r6PewMFf+t73UOuSQuLpI
+yyrBGVLc/bBBMPC6pX/5BH4rpNugYm5jsftxmM9D2MN6Ap8viJSXV17THMwC/k+H
+nZMTHaIzlqNO+5njlPkm5b+ML8HvbgMUTNEW4lW0J35TVTT5PIlfQVnGJWloVXG9
+v+MCCRiQejbytpCPICzmcCsd
+=iDBO
 -----END PGP SIGNATURE-----
 
---===============4001450533774600875==
+--===============7785304634744306912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36a21d51725a-7c60610d4767.txt
+Content-Disposition: attachment; filename=revlist-664cc971fb25-7c60610d4767.txt
 
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
 e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
@@ -216,7 +216,6 @@ bd37c2888ccaa5ceb9895718f6909b247cc372e0 net/mlx5: Fix return value from tracer 
 aae32b784ebdbda6f6055a8021c9fb8a0ab5bcba can: m_can: m_can_set_bittiming(): fix setting M_CAN_DBTP register
 07d25971b220e477eb019fcb520a9f2e3ac966af locking/rtmutex: Use the correct rtmutex debugging config option
 a5056c0bc24f6c9982cfe6f4e3301f3c7d682191 Merge tag 'iio-fixes-5.14a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
-664cc971fb259007e49cc8a3ac43b0787d89443f Revert "usb: dwc3: gadget: Use list_replace_init() before traversing lists"
 bf33677a3c394bb8fddd48d3bbc97adf0262e045 drm/meson: fix colour distortion from HDR set during vendor u-boot
 51e1bb9eeaf7868db56e58f47848e364ab4c4129 bpf: Add lockdown check for probe_write_user helper
 87b7b5335e6995a6d64fca98fc67b92b29caac9c bpf: Add missing bpf_read_[un]lock_trace() for syscall program
@@ -365,4 +364,4 @@ c4f14eac22468b76476b8ee2a5d1d3555a1d8307 Merge tag 'irq-urgent-2021-08-15' of gi
 ecf93431963a95c0f475921101bedc0dd62ec96d Merge tag 'powerpc-5.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7c60610d476766e128cc4284bb6349732cbd6606 Linux 5.14-rc6
 
---===============4001450533774600875==--
+--===============7785304634744306912==--
