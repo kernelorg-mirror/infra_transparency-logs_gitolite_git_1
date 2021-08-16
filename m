@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 16 Aug 2021 10:16:03 -0000
-Message-Id: <162910896365.7286.11466993569060258185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 16 Aug 2021 10:19:29 -0000
+Message-Id: <162910916935.9800.11279902356136676440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 6164659ff7acc16f3f37a9278f856fd1fb02a8f9
-    new: e871ee6941842d4e52a7d81a9986cb6daf441dae
+  - ref: refs/heads/fixes
+    old: 67b13f3e221ed81b46a657e2b499bf8b20162476
+    new: 419dd626e357e89fc9c4e3863592c8b38cfe1571
     log: |
-         19eed721079336d515dd2d8fe1f0f4c292b78c70 af_unix: check socket state when queuing OOB
-         944f510176ebdf6b3a71f7cefea334bd3d203de2 ptp: ocp: don't allow on S390
-         b2b8913341119491a13d9b11b073dc3c4f907cb8 net: dsa: tag_8021q: fix notifiers broadcast when they shouldn't, and vice versa
-         e871ee6941842d4e52a7d81a9986cb6daf441dae s390/net: replace in_irq() with in_hardirq()
+         c9107dd0b851777d7e134420baf13a5c5343bc16 mmc: sdhci-iproc: Cap min clock frequency on BCM2711
+         419dd626e357e89fc9c4e3863592c8b38cfe1571 mmc: sdhci-iproc: Set SDHCI_QUIRK_CAP_CLOCK_BASE_BROKEN on BCM2711
          
