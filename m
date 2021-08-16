@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 16 Aug 2021 20:56:04 -0000
-Message-Id: <162914736453.26527.441951066934635872@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 20:56:48 -0000
+Message-Id: <162914740845.26845.8201160561289018226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/amlogic/dt-2
+  - ref: refs/heads/tagra/dt-bindings
     old: 0000000000000000000000000000000000000000
-    new: c6cf488e3bfdf92427686317d99e0342516753de
+    new: 900a486ac73dfdf9b1629e7e4df6eacc92da7578
