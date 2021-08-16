@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1790728647732827842=="
+Content-Type: multipart/mixed; boundary="===============2333134336115084779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 16 Aug 2021 06:23:02 -0000
-Message-Id: <162909498208.909.14098256804509850527@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 06:23:06 -0000
+Message-Id: <162909498644.1007.11828099754065186649@gitolite.kernel.org>
 
---===============1790728647732827842==
+--===============2333134336115084779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+  - ref: refs/heads/staging-linus
+    old: a5056c0bc24f6c9982cfe6f4e3301f3c7d682191
     new: 7c60610d476766e128cc4284bb6349732cbd6606
-    log: revlist-36a21d51725a-7c60610d4767.txt
+    log: revlist-a5056c0bc24f-7c60610d4767.txt
 
---===============1790728647732827842==
+--===============2333134336115084779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629094981 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629094985 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1629094980-4363cdeb00abef6b5e030b26f5b897dfc81dcf64
+nonce 1629094985-5f84165cf2feb411f4988e5264d9b4a5b4bd7680
 
-36a21d51725af2ce0700c6ebcb6b9594aac658a6 7c60610d476766e128cc4284bb6349732cbd6606 refs/heads/main
+a5056c0bc24f6c9982cfe6f4e3301f3c7d682191 7c60610d476766e128cc4284bb6349732cbd6606 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEaBEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k04P/jGcNfJIDfbmzg03J2OX
-bmTIaKa9l0cI7AwJicMPrKBxNCZ0WYH/UMzZEJNPXO1tAwQ29oZ1GZGh+I2GKMeA
-e234/Kkmsw0IL8KfQv+Vgzl+RZ3zKnpReZfwUscc6bp92ioymyh2NFSFm9QuveDl
-TuvTJWt4RGibH2gWz34ka082+V6fNmoQ+tAkvc9jhHm9/uY3KqMPINmcUmbYBmlx
-3zUf/xYFmUUByRuyEq/5ij++xk/xY+UQrxwig5iWzCHqNMZxKAudLQp+adAIiGNe
-O2/yrlX2VCCwWubsnmToSmekkujJFxm2aU4lsryqu4kFbkCowoQTbYaNMuxYfc0R
-O4+UiEICSu2nYgMGI3Pd4caA1kugQRa+FJE+oSxgteUgkV6LhmD2iT+RV/qVDbTP
-1n66T4XpetYnkLoiIAxd56312c0I+sj+NOhyt9rK/f0dS9IwLKIm7Pk9bZ2Eolf5
-zyLS1bMpQzTDAGtMu1ZjnOmE9n/Y3WnRX1b5bzQgWdGutJi6nOb19Ysyc/S1j5ni
-Rnh18wXLuPoKV1EaoqwQ39CDkLJWSRln9KdDDedrT9SmQeP021b/icWwNQCPM/8X
-RuTUy3l++7MZ+4WMuvjLQMZ3bMX5kNl0wZHV83Wydc9LGTQDV+oN+XRrb5/V96hK
-3qZvSjk26oHmZKCC/UU+arwb
-=PoQl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEaBEkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qKIP/if7KZfH2ZuAJx+17izM
++0YhOkoEYo7PjpfaswJRVUZvMOeZERo0XLJskJTi0wULixO45ThTNFp4vMhNGnLr
+D/sQjq/xe/Z5T9d1MRanAFecQgkSENVhuGfl5APU+q11yCppXfFSu0o29Lp/O1SJ
+bGSRkq6QP/Ur9jjsABG0J6rnWnBIWBm8yB62n0u77LkrQVQQa1fwekxvrm63mcVs
+43uMjnDdM5uypl5lGQ4cCLfklLab1yXgA2xYoU7cmfqOKfMBSv7NhG9N2iJ4CwVw
+EQCUpP9pkV/wE7gCHr1GYJ/m3RkMDKgExvxoo4Zm0sWHu//rck7NXKgfAgmsybNT
+Ri4QggixQ5RFk0X1HMr65nFExbro3A7o+opffZ6lcE05FeAprZLPVQmCzatyaY2R
+Gvq7ABfGFnAPzKDsDUhuEPAT/l9PI+z5CMvS0RuIsRYiCE5Y3b5iWazwTlRpYhV2
+++4Otit5qXIxMOkE5NEfPYmmTVZa/5Ec8csMNO3CYJnbAzLLCtskhBRRG9E6K2/A
+ivLrhnbEi0P3ZBEN3D0pgCHhlx+IUB87pyKv4vr2TUHI7AvdzdNaDHK2EO9xddpF
+ZSqJIT2ecSXfY2dF6N+SreiWaImLSjyiLzPCjl+82YsbRv5abQ6Xl+n21LFSkFOW
+kRFD7cgcY2mIyBuk5AAYSoJ0
+=swWE
 -----END PGP SIGNATURE-----
 
---===============1790728647732827842==
+--===============2333134336115084779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36a21d51725a-7c60610d4767.txt
+Content-Disposition: attachment; filename=revlist-a5056c0bc24f-7c60610d4767.txt
 
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
 e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
@@ -63,9 +63,6 @@ e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set
 44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
 b05d4c576b697b9f462b9c532c997171d5c3b067 dax: Ensure errno is returned from dax_direct_access
 889d0e7dc68314a273627d89cbb60c09e1cc1c25 ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
-4377d9ab1f162e58e0e5ae89c9a5fd7b4d8a6bdb iio: accel: fxls8962af: fix potential use of uninitialized symbol
-9898cb24e454602beb6e17bacf9f97b26c85c955 iio: adc: ti-ads7950: Ensure CS is deasserted after reading channels
-7e77ef8b8d600cf8448a2bbd32f682c28884551f iio: adis: set GPIO reset pin direction
 4152433c397697acc4b02c4a10d17d5859c2730d arm64: efi: kaslr: Fix occasional random alloc (and boot) failure
 83f877a09516bcb82e34df621cc3a794509a11a3 xen/events: remove redundant initialization of variable irq
 e062233c0ed0a76b6dd4ec785550419a323f9380 drm/mediatek: dpi: Fix NULL dereference in mtk_dpi_bridge_atomic_check
@@ -78,9 +75,6 @@ d00f541a49406afc2c091aac121e29b3b61480a2 ASoC: amd: renoir: Run hibernation call
 5434d0dc56bce4510109a431a7eb71ec5131ef0f ASoC: amd: enable stop_dma_first flag for cz_dai_7219_98357 dai link
 32ec3960175e58a914fc242b66dfe33e9059568f pinctrl: qcom: fix GPIOLIB dependencies
 798a315fc359aa6dbe48e09d802aa59b7e158ffc pinctrl: mediatek: Fix fallback behavior for bias_set_combo
-9f9decdb64c5cc05b66f7a6ede226dd90684570b iio: accel: fxls8962af: fix i2c dependency
-14a30238ecb8dcf52a9e2be514414e3ec443b536 dt-bindings: iio: st: Remove wrong items length check
-84edec86f449adea9ee0b4912a79ab8d9d65abb7 iio: humidity: hdc100x: Add margin to the conversion time
 2c39ca6885a2ec03e5c9e7c12a4da2aa8926605a ASoC: tlv320aic31xx: Fix jack detection after suspend
 0f32d9eb38c13c32895b5bf695eac639cee02d6c ASoC: Intel: sof_da7219_mx98360a: fail to initialize soundcard
 2635c226036c1bf44b86575d0bc721505c8201e3 ASoC: topology: Select SND_DYNAMIC_MINORS
@@ -101,7 +95,6 @@ ee86f680ff4c9b406d49d4e22ddf10805b8a2137 ASoC: cs42l42: Correct definition of AD
 bb6a40fc5a830cae45ddd5cd6cfa151b008522ed ASoC: kirkwood: Fix reference to PCM buffer address
 1d25684e22516f1cff77176d288b1da02fff57bb ASoC: nau8824: Fix open coded prefix handling
 567c39047dbee341244fe3bf79fea24ee0897ff9 selftests/sgx: Fix Q1 and Q2 calculation in sigstruct.c
-5afc1540f13804a31bb704b763308e17688369c5 iio: adc: Fix incorrect exit of for-loop
 8b5d95313b6d30f642e4ed0125891984c446604e ASoC: amd: Fix reference to PCM buffer address
 6b994c554ebc4c065427f510db333081cbd7228d ASoC: SOF: Intel: Kconfig: fix SoundWire dependencies
 973b393fdf073a4ebd8d82ef6edea99fedc74af9 ASoC: SOF: Intel: hda-ipc: fix reply size checking
@@ -215,7 +208,6 @@ bd37c2888ccaa5ceb9895718f6909b247cc372e0 net/mlx5: Fix return value from tracer 
 7b637cd52f02c6d7ff0580143a438940978fc719 MAINTAINERS: fix Microchip CAN BUS Analyzer Tool entry typo
 aae32b784ebdbda6f6055a8021c9fb8a0ab5bcba can: m_can: m_can_set_bittiming(): fix setting M_CAN_DBTP register
 07d25971b220e477eb019fcb520a9f2e3ac966af locking/rtmutex: Use the correct rtmutex debugging config option
-a5056c0bc24f6c9982cfe6f4e3301f3c7d682191 Merge tag 'iio-fixes-5.14a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
 664cc971fb259007e49cc8a3ac43b0787d89443f Revert "usb: dwc3: gadget: Use list_replace_init() before traversing lists"
 bf33677a3c394bb8fddd48d3bbc97adf0262e045 drm/meson: fix colour distortion from HDR set during vendor u-boot
 51e1bb9eeaf7868db56e58f47848e364ab4c4129 bpf: Add lockdown check for probe_write_user helper
@@ -365,4 +357,4 @@ c4f14eac22468b76476b8ee2a5d1d3555a1d8307 Merge tag 'irq-urgent-2021-08-15' of gi
 ecf93431963a95c0f475921101bedc0dd62ec96d Merge tag 'powerpc-5.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7c60610d476766e128cc4284bb6349732cbd6606 Linux 5.14-rc6
 
---===============1790728647732827842==--
+--===============2333134336115084779==--
