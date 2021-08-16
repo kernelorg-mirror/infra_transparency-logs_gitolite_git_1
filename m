@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 16 Aug 2021 10:06:05 -0000
-Message-Id: <162910836539.557.3756060598686133691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 16 Aug 2021 10:08:16 -0000
+Message-Id: <162910849668.1485.11386425093363244874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 849d2f83f52ec6ade86a90f29b2c9573f392f22c
-    new: 6164659ff7acc16f3f37a9278f856fd1fb02a8f9
+    old: 5f773519639041faed4132f5943d7895f9078a4c
+    new: 19d1532a187669ce86d5a2696eb7275310070793
     log: |
-         6164659ff7acc16f3f37a9278f856fd1fb02a8f9 net: phy: marvell: Add WAKE_PHY support to WOL event
+         19d1532a187669ce86d5a2696eb7275310070793 net: 6pack: fix slab-out-of-bounds in decode_data
          
