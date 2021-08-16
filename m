@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 16 Aug 2021 15:36:20 -0000
-Message-Id: <162912818033.3323.264520591154099471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 16 Aug 2021 15:48:41 -0000
+Message-Id: <162912892116.10474.10075758029368912468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: f71feab36538a02d9b4dbed549e52dcaa75384c9
-    new: 7a6b68050f29050e90d717f1ccdb91e907454416
+    old: 55981d3541812234e687062926ff199c83f79a39
+    new: 0ea53674d07fb6db2dd7a7ec2fdc85a12eb246c2
     log: |
-         7a6b68050f29050e90d717f1ccdb91e907454416 monitor: Store MSFT extension event prefix
+         0ea53674d07fb6db2dd7a7ec2fdc85a12eb246c2 Bluetooth: Move shutdown callback before flushing tx and rx queue
          
