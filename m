@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 16 Aug 2021 10:02:26 -0000
-Message-Id: <162910814607.30076.1385687360188006033@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 10:03:30 -0000
+Message-Id: <162910821083.30570.3950817917255555045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: cbbb7abdd00ed583bec374526967b09d8840e264
-    new: 5fa5fb8b3b209ce2efd7f61acb3797028bb15927
+    old: 5fa5fb8b3b209ce2efd7f61acb3797028bb15927
+    new: 849d2f83f52ec6ade86a90f29b2c9573f392f22c
     log: |
-         7caeabd726f22e6a6c44c434574fb489986e5baa samples: pktgen: pass the environment variable of normal user to sudo
-         0f0c4f1b72e090b23131700bb155944cc28b2a7b samples: pktgen: add missing IPv6 option to pktgen scripts
-         5fa5fb8b3b209ce2efd7f61acb3797028bb15927 Merge branch 'pktgen-samples'
+         849d2f83f52ec6ade86a90f29b2c9573f392f22c net: pcs: xpcs: Add Pause Mode support for SGMII and 2500BaseX
          
