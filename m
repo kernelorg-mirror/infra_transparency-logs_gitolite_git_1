@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 16 Aug 2021 20:48:22 -0000
-Message-Id: <162914690230.19740.17342091925333816336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 16 Aug 2021 20:52:30 -0000
+Message-Id: <162914715084.23808.5144944222406817799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/qcom-arm64-fixes-for-5.14
+  - ref: refs/heads/renesas/dt-2
     old: 0000000000000000000000000000000000000000
-    new: 626e4a785278ebc7cb7a2c4a1cff3556acbe08d7
+    new: 13bf92e6dec0e2be1ef0c7dd483f2d8b34eaa905
