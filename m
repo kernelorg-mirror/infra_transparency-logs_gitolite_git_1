@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4111105439156137583=="
+Content-Type: multipart/mixed; boundary="===============3683748682196480049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 16 Aug 2021 21:27:50 -0000
-Message-Id: <162914927007.16103.2313570564912337214@gitolite.kernel.org>
+Date: Mon, 16 Aug 2021 21:30:14 -0000
+Message-Id: <162914941421.18423.16666868572344854341@gitolite.kernel.org>
 
---===============4111105439156137583==
+--===============3683748682196480049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/imx/defconfig
-    old: 6252a42b0fd70b03aa17c58d218dcabd863cc02a
-    new: 7fd19c58e48fb774de9190f27f2b06a6526f2d3c
-    log: revlist-6252a42b0fd7-7fd19c58e48f.txt
+  - ref: refs/heads/qcom/defconfig
+    old: e9cd414c1136aa31d34acc04c175bfaca4662f89
+    new: 20d7a9fb00ebc53e73d49df0048afb02ef92a635
+    log: revlist-e9cd414c1136-20d7a9fb00eb.txt
 
---===============4111105439156137583==
+--===============3683748682196480049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6252a42b0fd7-7fd19c58e48f.txt
+Content-Disposition: attachment; filename=revlist-e9cd414c1136-20d7a9fb00eb.txt
 
+8602e40fc8132383298f304ae060d80f210be23c ptp: Set lookup cookie when creating a PTP PPS source.
+23ac0b421674fba943dd131e66b81ed7f3fb3d1d net: use netdev_info in ndo_dflt_fdb_{add,del}
 78ecc8903de2adf0387cbf06e5befe29c23f2739 net: say "local" instead of "static" addresses in ndo_dflt_fdb_{add,del}
 b03cfe6fdee4cb85c4b04502f0adb3ce08ac03ba Merge branch 'ndo_dflt_fdb-print'
 5a9b876e9d76810536bac70c78d961198612919c net: stmmac: option to enable PHY WOL with PMT enabled
@@ -1047,8 +1049,6 @@ d9770fcc1c0c5b3e77dfac83b47defa3981fa7cd mm/rmap: fix old bug: munlocking THP mi
 023e1a8dd502405ba378a7fbb1ce62beb0616708 mm/rmap: fix new bug: premature return from page_mlock_one()
 6c855fce2e62e5e9b796b23fe15be1d8b2c8bee2 mm/rmap: try_to_migrate() skip zone_device !device_private
 e73f0f0ee7541171d89f2e2491130c7771ba58d3 Linux 5.14-rc1
-3d1fc360ac8cd8a9632bc5384ec2d869bceee9d1 ARM: imx_v6_v7_defconfig: Select CONFIG_KPROBES
-ae4443ba2f837b4bfa8c91cc1abc4c75d6743299 ARM: imx_v6_v7_defconfig: Let CONFIG_SCSI_LOWLEVEL be selected
-7fd19c58e48fb774de9190f27f2b06a6526f2d3c ARM: imx_v6_v7_defconfig: enable driver of the LTC3676 PMIC
+20d7a9fb00ebc53e73d49df0048afb02ef92a635 arm64: defconfig: Enable Qualcomm MSM8996 CPU clock driver
 
---===============4111105439156137583==--
+--===============3683748682196480049==--
