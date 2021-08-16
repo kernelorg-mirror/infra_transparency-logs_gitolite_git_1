@@ -1,95 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2381858760440730278=="
+Content-Type: multipart/mixed; boundary="===============7297906485779733560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 16 Aug 2021 17:50:04 -0000
-Message-Id: <162913620419.31602.10554833923316631520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 16 Aug 2021 17:55:16 -0000
+Message-Id: <162913651606.2811.11198080545075768544@gitolite.kernel.org>
 
---===============2381858760440730278==
+--===============7297906485779733560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-5.15/block
-    old: 4f1e9630afe6332de7286820fedd019f19eac057
-    new: 69f87cc7086558ad84f20001256474aa611fc0eb
-    log: revlist-4f1e9630afe6-69f87cc70865.txt
-  - ref: refs/heads/for-5.15/drivers
-    old: 9ea9b9c48387edc101d56349492ad9c0492ff78d
-    new: b1a811633f7321cf1ae2bb76a66805b7720e44c9
-    log: |
-         b1a811633f7321cf1ae2bb76a66805b7720e44c9 block: nbd: add sanity check for first_minor
-         
-  - ref: refs/heads/for-next
-    old: 0f6eedb0a71cd302db26cb0d88427771b0eaf8b2
-    new: 5df345b6aad0bce1b1359ff98cf59d972b082d57
-    log: revlist-0f6eedb0a71c-5df345b6aad0.txt
+  - ref: refs/heads/master
+    old: f8e6dfc64f6135d1b6c5215c14cd30b9b60a0008
+    new: 4f3f2e3fa0431b93745b110da1c365806c5acce3
+    log: revlist-f8e6dfc64f61-4f3f2e3fa043.txt
 
---===============2381858760440730278==
+--===============7297906485779733560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f1e9630afe6-69f87cc70865.txt
+Content-Disposition: attachment; filename=revlist-f8e6dfc64f61-4f3f2e3fa043.txt
 
-9451aa0aacaf7ea13d1acfd5de8b63a6e0b24fac block: free the extended dev_t minor later
-889c05cc5834a1eef2dbe1e639cfd7a81c4f4c6d block: ensure the bdi is freed after inode_detach_wb
-1113f0b69c6a98ff4e733c306a6658a31f8cbc49 bvec: add a bvec_virt helper
-b93ef45350c0119ddc275601438c89231b198414 block: use bvec_virt in bio_integrity_{process,free}
-1c277e501334238f6c4f57d16d14e7c911550075 dm: make EBS depend on !HIGHMEM
-3a8ba33bd71a4126b9e799e8d29d6d5da08c93f0 dm-ebs: use bvec_virt
-964cacfdd34cd48e3b5b714c3cc33427001e843f dm-integrity: use bvec_virt
-fbc27241e537d3a99d0f843a4080e1d2fb014fb4 squashfs: use bvec_virt
-cf58b537781df6eee2bbeae0463e45acf727978a rbd: use bvec_virt
-358b348b9197b977276e0f034c474380565879e3 virtio_blk: use bvec_virt
-2fd3e5efe791946be0957c8e1eed9560b541fe46 bcache: use bvec_virt
-c3c770563510aa66fd8e84b374daf43e236fa4ba sd: use bvec_virt
-25d84545beaae8e9427bbd25feff309363cd0a58 ubd: use bvec_virt
-6da525b3ecaea04eaaeb3277f6e16d91ecfdb84a ps3vram: use bvec_virt
-bf5fb875b494b32ef81fdfa5530a79fc22486254 dasd: use bvec_virt
-2b7a8112212afa90f36391e3ab7df531614bfb6a dcssblk: use bvec_virt
-3973e15fa5342783ce0009ab3a423ae9b811fc63 nvme: use bvec_virt
-49cb5168a7c6abf9835f9acdce6263bc2deefeb6 blk-cgroup: refactor blkcg_print_stat
-252c651a4c854b328445a536bd1892e999103fca blk-cgroup: stop using seq_get_buf
-69f87cc7086558ad84f20001256474aa611fc0eb block: unexport blk_register_queue
+3c603136c9f82833813af77185618de5af67676c bnxt: don't lock the tx queue from napi poll
+01cca6b9330ac7460de44eeeb3a0607f8aae69ff bnxt: disable napi before canceling DIM
+e8d8c5d80f5e9d4586c68061b62c642752289095 bnxt: make sure xmit_more + errors does not miss doorbells
+fb9f7190092d2bbd1f8f0b1cc252732cbe99a87e bnxt: count Tx drops
+9d5e6a7076337374261d13930ea844edfb4cdd1d Merge branch 'bnxt-tx-napi-disabling-resiliency-improvements'
+5f773519639041faed4132f5943d7895f9078a4c ice: Fix perout start time rounding
+19d1532a187669ce86d5a2696eb7275310070793 net: 6pack: fix slab-out-of-bounds in decode_data
+55c8fca1dae1fb0d11deaa21b65a647dedb1bc50 ptp_pch: Restore dependency on PCI
+7387a72c5f84f0dfb57618f9e4770672c0d2e4c9 tipc: call tipc_wait_for_connect only when dlen is not 0
+37110237f31105d679fc0aa7b11cdec867750ea7 qed: qed ll2 race condition fixes
+d33d19d313d3466abdf8b0428be7837aff767802 qed: Fix null-pointer dereference in qed_rdma_create_qp()
+976e52b718c3de9077fff8f3f674afb159c57fb1 bnxt_en: Disable aRFS if running on 212 firmware
+828affc27ed43441bd1efdaf4e07e96dd43a0362 bnxt_en: Add missing DMA memory barriers
+517c54d282392a2c7dedc80783886d2cd1836c0d Merge branch 'bnxt_en-fixes'
+4f3f2e3fa0431b93745b110da1c365806c5acce3 net: iosm: Prevent underflow in ipc_chnl_cfg_get()
 
---===============2381858760440730278==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f6eedb0a71c-5df345b6aad0.txt
-
-3ad4a31620355358316fa08fcfab37b9d6c33347 ata: sata_dwc_460ex: No need to call phy_exit() befre phy_init()
-9451aa0aacaf7ea13d1acfd5de8b63a6e0b24fac block: free the extended dev_t minor later
-889c05cc5834a1eef2dbe1e639cfd7a81c4f4c6d block: ensure the bdi is freed after inode_detach_wb
-c2817c61971fa4aa915fca6b165854bf9b48b5d1 Merge branch 'for-5.15/block' into for-next
-3a6897083cb7fae98489f6cee55393950c736fa7 Merge branch 'for-5.15/libata' into for-next
-1113f0b69c6a98ff4e733c306a6658a31f8cbc49 bvec: add a bvec_virt helper
-b93ef45350c0119ddc275601438c89231b198414 block: use bvec_virt in bio_integrity_{process,free}
-1c277e501334238f6c4f57d16d14e7c911550075 dm: make EBS depend on !HIGHMEM
-3a8ba33bd71a4126b9e799e8d29d6d5da08c93f0 dm-ebs: use bvec_virt
-964cacfdd34cd48e3b5b714c3cc33427001e843f dm-integrity: use bvec_virt
-fbc27241e537d3a99d0f843a4080e1d2fb014fb4 squashfs: use bvec_virt
-cf58b537781df6eee2bbeae0463e45acf727978a rbd: use bvec_virt
-358b348b9197b977276e0f034c474380565879e3 virtio_blk: use bvec_virt
-2fd3e5efe791946be0957c8e1eed9560b541fe46 bcache: use bvec_virt
-c3c770563510aa66fd8e84b374daf43e236fa4ba sd: use bvec_virt
-25d84545beaae8e9427bbd25feff309363cd0a58 ubd: use bvec_virt
-6da525b3ecaea04eaaeb3277f6e16d91ecfdb84a ps3vram: use bvec_virt
-bf5fb875b494b32ef81fdfa5530a79fc22486254 dasd: use bvec_virt
-2b7a8112212afa90f36391e3ab7df531614bfb6a dcssblk: use bvec_virt
-3973e15fa5342783ce0009ab3a423ae9b811fc63 nvme: use bvec_virt
-33eea20162dfaf2a7d8e2f325523eb139c04b97d Merge branch 'for-5.15/block' into for-next
-49cb5168a7c6abf9835f9acdce6263bc2deefeb6 blk-cgroup: refactor blkcg_print_stat
-252c651a4c854b328445a536bd1892e999103fca blk-cgroup: stop using seq_get_buf
-740e8feba3130086ac2f5a268f029f5b5b7d6d7b Merge branch 'for-5.15/block' into for-next
-69f87cc7086558ad84f20001256474aa611fc0eb block: unexport blk_register_queue
-a5a2e78726e7977a187949722001347fd09e3821 Merge branch 'for-5.15/block' into for-next
-b1a811633f7321cf1ae2bb76a66805b7720e44c9 block: nbd: add sanity check for first_minor
-5df345b6aad0bce1b1359ff98cf59d972b082d57 Merge branch 'for-5.15/drivers' into for-next
-
---===============2381858760440730278==--
+--===============7297906485779733560==--
