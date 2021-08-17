@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6708188559224242937=="
+Content-Type: multipart/mixed; boundary="===============8126587970197096380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 17 Aug 2021 11:17:18 -0000
-Message-Id: <162919903848.28272.17103087581067198092@gitolite.kernel.org>
+Date: Tue, 17 Aug 2021 11:18:09 -0000
+Message-Id: <162919908971.28864.12642871077848109373@gitolite.kernel.org>
 
---===============6708188559224242937==
+--===============8126587970197096380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f5efd4fe78de871515444b660029074be17ec11f
-    new: 92cc94adfce4683d0b421cbf59013703368aaeb9
-    log: revlist-f5efd4fe78de-92cc94adfce4.txt
+  - ref: refs/heads/for-next
+    old: 394a5f529e59536dae4a575c1524fabca2f21026
+    new: 52e22d4d4e3707b029e4b77eea9cff67ac18c7dd
+    log: revlist-394a5f529e59-52e22d4d4e37.txt
 
---===============6708188559224242937==
+--===============8126587970197096380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5efd4fe78de-92cc94adfce4.txt
+Content-Disposition: attachment; filename=revlist-394a5f529e59-52e22d4d4e37.txt
 
-e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
-6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
-fae21608c31ca987d9dfc0422ac9b5bd21c213a6 scsi: mpt3sas: Transition IOC to Ready state during shutdown
-a47fa41381a09e5997afd762664db4f5f6657e03 scsi: target: Fix NULL dereference on XCOPY completion
-d712d3fb484b7fa8d1d57e9ca6f134bb9d8c18b1 scsi: pm80xx: Fix TMF task completion race condition
-77541f78eadfe9fdb018a7b8b69f0f2af2cf4b82 scsi: megaraid_mm: Fix end of loop tests for list_for_each_entry()
-bc546c0c9abb3bb2fb46866b3d1e6ade9695a5f6 scsi: scsi_dh_rdac: Avoid crash during rdac_bus_attach()
-70edd2e6f652f67d854981fd67f9ad0f1deaea92 scsi: core: Avoid printing an error if target_alloc() returns -ENXIO
-a264cf5e81c78e2b9918b8b9ef2ace9dde1850df scsi: ibmvfc: Fix command state accounting and stale response detection
-5c04243a56a7977185b00400e59ca7e108004faf scsi: sr: Return correct event when media event code is 3
-f0f82e2476f6adb9c7a0135cfab8091456990c99 scsi: core: Fix capacity set to zero after offlinining device
 432bc7caef4eaacc1101ee2569bb870bdfeed7ce scsi: mpt3sas: Add io_uring iopoll support
 44f88ef3c9f1edf4f8229508649965d85bc6f186 scsi: mpt3sas: Bump driver version to 38.100.00.00
 787f2448c23603d658d955402b166e1dde0dc1e5 scsi: mpt3sas: Use firmware recommended queue depth
@@ -125,5 +114,6 @@ a5741427322b6158fbe9f1a4c118e95a05cecd53 scsi: qla2xxx: Suppress unnecessary log
 c8fadf019964d0eb1da410ba8b629494d3339db9 scsi: qla2xxx: Sync queue idx with queue_pair_map idx
 bd19573e05f6e643f003672c799b3b2301f2f493 scsi: qla2xxx: Update version to 10.02.06.100-k
 92cc94adfce4683d0b421cbf59013703368aaeb9 scsi: mpi3mr: Use the proper SCSI midlayer interfaces for PI
+52e22d4d4e3707b029e4b77eea9cff67ac18c7dd Merge branch 'misc' into for-next
 
---===============6708188559224242937==--
+--===============8126587970197096380==--
