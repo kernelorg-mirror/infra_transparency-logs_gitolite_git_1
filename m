@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8317774685756492323=="
+Content-Type: multipart/mixed; boundary="===============8291020305867125732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 17 Aug 2021 14:14:42 -0000
-Message-Id: <162920968211.18708.18331494364727414313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 17 Aug 2021 14:14:48 -0000
+Message-Id: <162920968861.18847.7911732533613201230@gitolite.kernel.org>
 
---===============8317774685756492323==
+--===============8291020305867125732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: d40dfb860ad72a32b9c2aeae739a2725f8ce011a
     new: 2499ee9d90795932893576cf065f967a6136bc20
     log: |
@@ -27,28 +27,28 @@ changes:
          2499ee9d90795932893576cf065f967a6136bc20 Merge series "ASoC: tegra30: Fix use of of_device_get_match_data" from Aakash Hemadri <aakashhemadri123@gmail.com>:
          
 
---===============8317774685756492323==
+--===============8291020305867125732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629209660 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1629209679-85e7f413130bcf07de2207a01ffbc38de17ca2c6
+pusher C3F436CA30F5D8EB 1629209666 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1629209686-c280d6d36b2adf5a8decb5be91d26c734e7d1b16
 
-d40dfb860ad72a32b9c2aeae739a2725f8ce011a 2499ee9d90795932893576cf065f967a6136bc20 refs/heads/for-5.15
+d40dfb860ad72a32b9c2aeae739a2725f8ce011a 2499ee9d90795932893576cf065f967a6136bc20 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEbxDwACgkQJNaLcl1U
-h9AsMQf8Db7ck6tb605q6h2v6B0tpFJm5ncfwc1QeaSCYQvtdYqwu2YvwWQWPQpV
-N70W/N85fHBBAu4zGdcoh3AuacMqPZgcJaH9y39Xax6NS3ATseRAb1oRrpgRYeFf
-X7S33Mxt5GCPTRkmNZI5FT5iNWYAxV6xlA45laesre841J3u1el/48+Z/eGc+ZYg
-yeQj8+OaBJf+LTnC7OrWQ8oaSelaPvvanc9fEjv7ojS8J5QQ9h2KHWaA2Cuc0uId
-6fG+qTV2k3EwFLPIkeIVbH+14gUsv27ad2waUo27QUoG288bEOdJQ9aQyV82hhil
-B0lDHYUNBX8dFJZvrvEc7/kxQMP0yw==
-=XnKS
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEbxEIACgkQJNaLcl1U
+h9B/qwf9F3do4O+Ed6a0mbtrN9DnF1/xi9m8jBeM5rfIB+wQPFVJdvswQQ8Pj+Lc
+HHj6ELU3TpCtTMtAGBRohVzf+2Y9zZPl2phPRDAZtB7yn2Jh41aiYKakGyqVCVlU
+Gxxfs4EM8uQ5zuAZ3cHteNlENq36A0+9dkFkDiQWnwe0w475qpVyvoGQPFZVKT6b
+3rmLM3KLn1wPRKVyNipI3zgN/8OsL2KJp4/COfPRjionXPUZkT+8G9+DpXx2x1cE
+KIs2w4tmYTanAUUozCZirxyBDzjdPD2XfqN/zZCTp2sY8lFAfgMnW1tDAtkzVig6
+IQOjYe5VPlIR/j/VKy/Bk8W9+xryAw==
+=4crL
 -----END PGP SIGNATURE-----
 
---===============8317774685756492323==--
+--===============8291020305867125732==--
