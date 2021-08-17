@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2470198269873513353=="
+Content-Type: multipart/mixed; boundary="===============6944309211872534113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 17 Aug 2021 17:58:55 -0000
-Message-Id: <162922313523.8109.17989162519442875166@gitolite.kernel.org>
+Date: Tue, 17 Aug 2021 17:59:59 -0000
+Message-Id: <162922319999.8575.4223317999442643357@gitolite.kernel.org>
 
---===============2470198269873513353==
+--===============6944309211872534113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 438bb20f00a738c38bf148e134efcfb394d73191
-    new: 47a0bab3d95f6897b35eba7279441df4f4d5cc29
+    old: 47a0bab3d95f6897b35eba7279441df4f4d5cc29
+    new: 10e13123973bcde7c5d1d2a37a38e4c69a973e98
     log: |
-         550b1cda158c8472984f1e7f86478f154c16a7d3 staging: r8188eu: clean up spacing style issues in hal dir, part 1
-         ea105f21c94fd3d40865ba6a4d1e61a310e86336 staging: r8188eu: clean up spacing style issues in hal dir, part 2
-         47a0bab3d95f6897b35eba7279441df4f4d5cc29 staging: r8188eu: clean up spacing style issues in hal dir, part 3
+         10e13123973bcde7c5d1d2a37a38e4c69a973e98 staging: r8188eu: clean up spacing style issues in os_dep dir
          
 
---===============2470198269873513353==
+--===============6944309211872534113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629223132 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629223197 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1629223131-7a6843f429def83e72c8af0b0ee6cff089d0a248
+nonce 1629223196-e73dbde7d952a5c385eb6ed072047b680083a71e
 
-438bb20f00a738c38bf148e134efcfb394d73191 47a0bab3d95f6897b35eba7279441df4f4d5cc29 refs/heads/staging-testing
+47a0bab3d95f6897b35eba7279441df4f4d5cc29 10e13123973bcde7c5d1d2a37a38e4c69a973e98 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEb+NwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dSIP/2pF7zQNSEk52LHAtx8m
-DQrUidD/I+B/tvBGFnqEZsF7ihLhOD4f+kVz93hPnuH/wo//4m/vN5rQzIlEfWDe
-6RPuTY4NVUh+23yW5piNvZpzLkmWB/M2/h6hw8GGKeA2X53XuIhv6hwPRujlZXIW
-+3bVz1CDvuy4nMvUJg3wctylYpEgbBx+WvFXVsyhvK+m34woE3ePhnSWUKAC64G6
-w2XRvd/b4NFZy+Y74wTSw2hI8vgiGkVe4kvDJfbHnF3LnznrrlDpSLtX74aYUeSk
-HizvhPadl2VRULzSB6KgI+WfM/c4QRVwLsAltkPYEdOM3Y100ZNFYcDqBVkcHMhi
-/DkXGPrZWcu6oBotiLbjKB6+Uup8yW0AJUGCT9SiNDFpcWNMJEuyO0VCePwSpXqv
-eHKw27Tr7Smh6J5vzM7A5248/psHnX1HcCPRHl1eP4r5Zlmq7efelxd9DmQyn5cj
-gmuJPqlhvwYELVlCeO7OAcYTX/MwMmQr0cY/Kgs1/W5qzNTFyucz9jFTHYetGJ1d
-re5ItjkhTDaeCrmOx19vVeQSBxLM1KIS6MYZb5xK9Rld8fuwezDfnKAKM2YKrznD
-hxLRAB8S4v+5lWTnEaWIOxbEpI0I/lGvuGlwMHgm4XInRwxBj+0J3TY6iTJs3mc6
-HlgWbfwhDbBzoaEQV7SD3xFp
-=WTQX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEb+R0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xj4QAJREvgcwQq9ZnR0RdS6l
+0FHw6HDZMlP6M5OicCQeeLgJ+eV16KBns+GUHFlQUx3nXqVRH7xb7yA/7zvWfZJ+
+TWUOmYIAFY0bk44VOmAZ7rXhHo13oA6W6ai8beHFtma/FKarIqypc+Yc/53CsTvW
+fQUGuQM3zyikkUWyMC9kRjyi7pyWFGKkMjweE9OvM14QYMBitGoro3HNKmO+35G4
+yRJEjThaF0st5sI0Xp7I434lRfaMN3pw5ASifU30i3wnTLBl+gPS+ZwF0ZqKn3+w
+ufnleaOcSLf3u19nEy+Pm53xUTDiqNd+aGlhfjPmC/ZwVJFRxIKMC3z91YXiIifN
+WYP31DEJHIDVVPWQVZaPgSv2gMM8ziODKRLeT2WByWrPOSibDRsraeqHIy9lyzAw
+pLDR4hYgVw/XF/cg4nUFmyVSgLI0qaHMz8ZsV6BmXIe5gYN8kWZauRBcRJAXASvq
+5aRZVQxwoWcAtGymbrk2ki79dCh/eGoL2xE/ulHw96+k41dBd1VIn3SpMTlnJZL0
+nYufTV+XyOifLs9MZJ4VZTsmf+Bv6/Kex4AUpGfM/CdoIs0uLDTZy42/7RvRQGNK
+qJEcUx5CYHia8mREgy7qSwByIYEI75ufQ9qnkr5H+5MNG9V5PHmBvmGmnJHZVjDv
+6LocPutBDBLC7bouQd1kjeQi
+=+s/N
 -----END PGP SIGNATURE-----
 
---===============2470198269873513353==--
+--===============6944309211872534113==--
