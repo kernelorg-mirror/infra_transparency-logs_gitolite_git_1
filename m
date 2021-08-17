@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 17 Aug 2021 01:01:43 -0000
-Message-Id: <162916210385.31738.18039301429975355244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 17 Aug 2021 01:39:06 -0000
+Message-Id: <162916434614.24002.811387973655017569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 214278a37f829ec5d4590f331014c8c0de7d75a2
-    new: 285aa5e0db36469ef566ae6a89ec1157f89a748f
+    old: bb57164920d738076bf91d65af35d8724526c21b
+    new: edce1a248670397f8d0be1f6967eab3c5c082013
     log: |
-         d4f377a52323a1b59609edbab2c876ab940496dc adapter: Simplify setting of experimental debug feature
-         6e0ebc178c66369698e64c142912c310dc108b09 adapter: Fix warning when exit
-         285aa5e0db36469ef566ae6a89ec1157f89a748f main: Add missing Experimental entry to General options
+         edce1a248670397f8d0be1f6967eab3c5c082013 selftests/bpf: Test btf__load_vmlinux_btf/btf__load_module_btf APIs
          
