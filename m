@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Tue, 17 Aug 2021 07:04:27 -0000
-Message-Id: <162918386769.8072.11053184162576093349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Tue, 17 Aug 2021 07:04:47 -0000
+Message-Id: <162918388787.8325.1255121584249925629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next
-    old: 40cb6373b46cc5bf7d98e23a0c05f6186b23916b
-    new: 6b8b31269898b8891f1f3a95578ceeb109393e23
-    log: |
-         813e3f1d51fda49c7c9ce8552177968cd63a2af6 ARM: dts: aspeed: minipack: Update flash partition table
-         9b5d85056cc853e1d85beb009627ebb9db253bb5 ARM: dts: aspeed: cloudripper: Add comments for "mdio1"
-         6b8b31269898b8891f1f3a95578ceeb109393e23 ARM: dts: aspeed: p10bmc: Add power control pins
-         
+  - ref: refs/heads/20210816-add-disk-error-handling
+    old: 0000000000000000000000000000000000000000
+    new: e1e79332ea1bba0e751529b114ef9d301bf962a5
