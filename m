@@ -1,32 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 17 Aug 2021 16:49:36 -0000
-Message-Id: <162921897664.27090.6578055538610731379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 17 Aug 2021 16:50:12 -0000
+Message-Id: <162921901230.28878.2244937117307553575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/mtd/next
-    old: 7b1e84cd755f4c672eef5b5b22635b6f3f349ed1
-    new: a89d69a44e282be95ae76125dddc79515541efeb
+  - ref: refs/heads/master
+    old: 42fe6c5a1565d40df76c6f330397f2e0029275c9
+    new: 81cf11b0f5feb03c5570e3537954fc2d1165cda4
     log: |
-         e07403a8c6be01857ff75060b2df9a1aa8320fe5 mtdblock: Warn if added for a NAND device
-         e03a81213a9c9dd4f4f45c09a777323dff84827f mtd: rfd_ftl: allow use of MTD_RAM for testing purposes
-         a3a447848a153d0dae63d02ceb94b02fb43ec899 mtd: rfd_ftl: add discard support
-         d056f8cd2fc29fbfb45f936cc1ac36ff67d7db93 mtd: rfd_ftl: fix use-after-free
-         fa451399d65a06747379ab1e246faf0b28e1c05f mtd: rfd_ftl: use container_of() rather than cast
-         60d0607998d6080db7af1d5bd8c9391f766fe697 mtd: maps: remove dead MTD map driver for PMC-Sierra MSP boards
-         f9e109a209a8e01e16f37e1252304f1eb3908be4 mtd: mtdconcat: Judge callback existence based on the master
-         a89d69a44e282be95ae76125dddc79515541efeb mtd: mtdconcat: Check _read, _write callbacks existence before assignment
-         
-  - ref: refs/heads/nand/next
-    old: 6f802696c2faf0119781fc3b7977a4eedf9ab239
-    new: 0792ec82175ec45a0f45af6e0f2d3cb49c527cd4
-    log: |
-         0792ec82175ec45a0f45af6e0f2d3cb49c527cd4 mtd: rawnand: intel: Fix error handling in probe
+         fd43a3938f6d2a3c53f4146226a88461865dd0f5 test-runner: extend -S option
+         99a94bc44105fe3dafc309c59c7adfe95bffe705 network: destroy secrets on known network removal
+         c21dc9ed6fec68e70a779bd9457419736f90e726 auto-t: Add universal testEAP test
+         f0a890da8a3cf942fb3013496c7972d152ff1d5e auto-t: remove duplicate EAP tests
+         81cf11b0f5feb03c5570e3537954fc2d1165cda4 test-runner: fix exception in Hostapd __del__
          
