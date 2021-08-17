@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3895499255899918996=="
+Content-Type: multipart/mixed; boundary="===============1040436849542756077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 17 Aug 2021 17:09:17 -0000
-Message-Id: <162922015729.7315.8453315885511123742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 17 Aug 2021 17:09:25 -0000
+Message-Id: <162922016588.7402.17421375208343595820@gitolite.kernel.org>
 
---===============3895499255899918996==
+--===============1040436849542756077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 0958b0b45a7419c681d581384a094b94af5469c1
 
---===============3895499255899918996==
+--===============1040436849542756077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -682,4 +682,4 @@ b88bcc7d542c33ad3f5c042409d8ce0505cde1f8 Merge tag 'trace-v5.14-rc5-2' of git://
 a2824f19e6065a0d3735acd9fe7155b104e7edf5 Merge tag 'mtd/fixes-for-5.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 794c7931a2428a656551f2179e6a093233a6e0aa Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============3895499255899918996==--
+--===============1040436849542756077==--
