@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Tue, 17 Aug 2021 06:01:56 -0000
-Message-Id: <162918011638.946.10606469731906366376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 17 Aug 2021 06:03:07 -0000
+Message-Id: <162918018746.1486.6068293163950739249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/ch/git-2-33
-    old: 2c112de9948bc562ab4d9e753a9de8baab371773
-    new: 3ea06f89f0b46ef1c98a077edce62dda8bfc83ef
+  - ref: refs/heads/for-linus
+    old: 0165c4e19f6ec76b535de090e4bd145c73810c51
+    new: 4bf61ad5f0204b67ba570da6e5c052c2095e29df
     log: |
-         3ea06f89f0b46ef1c98a077edce62dda8bfc83ef git: update to v2.33.0
+         4bf61ad5f0204b67ba570da6e5c052c2095e29df ALSA: hda/via: Apply runtime PM workaround for ASUS B23E
+         
+  - ref: refs/heads/master
+    old: e9001d710b9a23d4b9840de4f0bf6f1fa334614d
+    new: 68822728363079ff74f54535cf0a382ba93deb71
+    log: |
+         4bf61ad5f0204b67ba570da6e5c052c2095e29df ALSA: hda/via: Apply runtime PM workaround for ASUS B23E
+         68822728363079ff74f54535cf0a382ba93deb71 Merge branch 'for-linus'
          
