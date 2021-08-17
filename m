@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 17 Aug 2021 22:10:39 -0000
-Message-Id: <162923823985.10811.10776199527266687108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 17 Aug 2021 22:15:09 -0000
+Message-Id: <162923850942.13704.16900976640220268380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 0a298d133893c72c96e2156ed7cb0f0c4a306a3e
-    new: e5e487a2ec8afa207b4e6d53a19c9ab3bf596683
+  - ref: refs/heads/for-next
+    old: 5dfb2d2406e5a1c0eefe606797f993d8f17f86cb
+    new: 18c585c7d742b8a207a4a932871dde1aa2a5b8fe
     log: |
-         0f673c16c850250db386537a422c11d248fb123c iwlwifi: pnvm: accept multiple HW-type TLVs
-         a5bf1d4434b93394fa37494d78fe9f3513557185 iwlwifi: add new SoF with JF devices
-         891332f697e14bfb2002f56e21d9bbd4800a7098 iwlwifi: add new so-jf devices
-         abf3d98dee7c4038152ce88833ddc2189f68cbd4 mt76: fix enum type mismatch
-         e5e487a2ec8afa207b4e6d53a19c9ab3bf596683 Merge tag 'wireless-drivers-2021-08-17' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+         b6c2052a90cece5e2887c6e6c59e985cb2546a60 dt-bindings: net: renesas,etheravb: Drop "int_" prefix and "_n" suffix from interrupt names
+         3487668d281b53cae7846df25cd90ac1bb2d6685 dt-bindings: ata: drop unused Exynos SATA bindings
+         22227848d31e7fa58170c8cb1a8e53b1f46c81ae dt-bindings: irqchip: convert Samsung Exynos IRQ combiner to dtschema
+         9634cec586312a4fdc972a995f8d52441ed59b95 dt-bindings: rng: convert Samsung Exynos TRNG to dtschema
+         577f425859e01fb1e83e86b4a5e04b35205d3e58 dt-bindings: memory: convert Qualcomm Atheros DDR to dtschema
+         18c585c7d742b8a207a4a932871dde1aa2a5b8fe of: property: fw_devlink: Add support for "leds" and "backlight"
          
