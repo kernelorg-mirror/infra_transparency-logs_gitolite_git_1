@@ -1,50 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============7095747104778961987=="
+Content-Type: multipart/mixed; boundary="===============3580064471837802211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 17 Aug 2021 11:03:13 -0000
-Message-Id: <162919819307.19286.4146685351840314146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Tue, 17 Aug 2021 11:09:47 -0000
+Message-Id: <162919858761.22838.3731510050476854297@gitolite.kernel.org>
 
---===============7095747104778961987==
+--===============3580064471837802211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
   - ref: refs/heads/next
-    old: 23fd679249df82b57390c8f4f0f290fd1f7b3505
-    new: c7c4024348994208ac3bf85daf1a6195b7c5f7d3
-    log: revlist-23fd679249df-c7c402434899.txt
+    old: 32bdc01988413031c6e743714c2b40bdd773e5db
+    new: 9a63b4517c606bfbccd063ffc4188e059d4fa23f
+    log: revlist-32bdc0198841-9a63b4517c60.txt
 
---===============7095747104778961987==
+--===============3580064471837802211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23fd679249df-c7c402434899.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e956d4fceba3aeb1cc088d043048b1d2157427b0 phy: cadence-torrent: Remove use of CamelCase to fix checkpatch CHECK message
-5b16a790f18d234187f31eab0a222bd53cb12b9e phy: cadence-torrent: Reorder few functions to remove function declarations
-3b40162516ca04209d750ddc174eea3e6deac148 phy: cadence-torrent: Add enum for supported input reference clock frequencies
-6a2338a5bf7f9b4df5ed55d7b25ceb996ea09310 phy: cadence-torrent: Configure PHY registers as a function of input reference clock rate
-da055e5503893e27d6494f52bd6987f0da0c7658 phy: cadence-torrent: Add PHY registers for DP in array format
-1cc455150b7a67f3bbfe1dce03a97b4ae88778d5 phy: cadence-torrent: Add PHY configuration for DP with 100MHz ref clock
-8f3ced2fd4906523e251f252dee03f6c22129e08 phy: cadence-torrent: Add separate functions for reusable code
-84f55df836916be2b052a5000cca8d7d9fcf2520 phy: cadence-torrent: Add debug information for PHY configuration
-48ac6085bdfcf568e24c1efd45615ec3d5d3545b phy: cadence-torrent: Check PIPE mode PHY status to be ready for operation
-c01608b3b46bfd5285117ab2c66df7cd59b7c67d dt-bindings: phy: mediatek: tphy: support type switch by pericfg
-3fd6611242b9f4e218175c11c8233ac4ab9402e6 phy: phy-mtk-tphy: use clock bulk to get clocks
-39099a4433586cdf30a7fc73aae4c77159b4a8c7 phy: phy-mtk-tphy: support type switch by pericfg
-926b83e5f9f0427f588b6c1e2b3b077979c39d3e phy: phy-mtk-tphy: print error log using child device
-1c6de3fc53ca14d3266d219e2ee62b8e5b1e2a6f phy: phy-mtk-tphy: remove error log of ioremap failure
-5f71b1e4f719e3c2312f20a76ee039ae209e72da phy: phy-mtk-ufs: use clock bulk to get clocks
-9474458753880e63c2b31fec3753316fa5c8e20d phy: phy-mtk-hdmi: convert to devm_platform_ioremap_resource
-75203e7994feedc52c62eb42f6b7a7087145813b phy: phy-mtk-mipi-dsi: remove dummy assignment of error number
-7508d1e4031168afac1793bf1f2a29a7c3fce423 phy: phy-mtk-mipi-dsi: convert to devm_platform_ioremap_resource
-e1f31c93a8d292f2e5b17daa384feaa28453f25e phy: amlogic: meson8b-usb2: Power off the PHY by putting it into reset mode
-c7c4024348994208ac3bf85daf1a6195b7c5f7d3 phy: amlogic: meson8b-usb2: don't log an error on -EPROBE_DEFER
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1629198585 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1629198585-2baded840999fe9084d808aa35f942cc383d861d
 
---===============7095747104778961987==--
+32bdc01988413031c6e743714c2b40bdd773e5db 9a63b4517c606bfbccd063ffc4188e059d4fa23f refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEbmPkUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOm8ggAl/yuEnLwVoNNUDQOf1M485Tv53Ns
+ue32/59vxO+6jhJpwnseubJ5AOtVqNsVhjbUDpYkNlm1TVN9df/MoWv1ytmLyV+2
+pkLJtZW+FWPwyRC54KFwVyQFmBfW6Q2lw/0UXM6yiMIi0MJMz0SnIUmHEuqCpA/e
+9ExMDCJZakoDVFofrXqw4b6EPhZegeQ0tVA0CHdMAx9rhSZVckEFM9B/Pli5rwcT
+iig3zv5+vayLBKuWZgtpaFTA/+IFvNSUEwk3t3KOJsQsEz33rVe6do9TmRXmnrhz
+SSdYZLnHJMK7tRp6Uied712iJlqifmf+H8d6OKU5IJyqe6fQU6IYXz9TGw==
+=FLtk
+-----END PGP SIGNATURE-----
+
+--===============3580064471837802211==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-32bdc0198841-9a63b4517c60.txt
+
+2e2f1e8d0450c561c0c936b4b67e8b5a95975fb7 KVM: x86: hyper-v: Check access to hypercall before reading XMM registers
+f5714bbb5b3120b33dfbf3d81ffc0b98ae4cd4c1 KVM: x86: Introduce trace_kvm_hv_hypercall_done()
+4e62aa96d6e55c1b2a4e841f1f8601eae81e81ae KVM: x86: hyper-v: Check if guest is allowed to use XMM registers for hypercall input
+2476b5a1b16ced78a80629da8ff87538d5c95073 KVM: selftests: Test access to XMM fast hypercalls
+85cd39af14f498f791d8aab3fbd64cd175787f1a KVM: Do not leak memory for duplicate debugfs directories
+179c6c27bf487273652efc99acd3ba512a23c137 KVM: SVM: Fix off-by-one indexing when nullifying last used SEV VMCB
+bb2baeb214a71cda47d50dce80414016117ddda0 KVM: SVM: improve the code readability for ASID management
+13c2c3cfe01952575b1dd5e24d450fcccff93bc0 KVM: selftests: fix hyperv_clock test
+d5aaad6f83420efb8357ac8e11c868708b22d0a9 KVM: x86/mmu: Fix per-cpu counter corruption on 32-bit builds
+7b9cae027ba3aaac295ae23a62f47876ed97da73 KVM: VMX: Use current VMCS to query WAITPKG support for MSR emulation
+c3e9434c9852c09cd1756b05d1474b7c84452819 Merge branch 'kvm-vmx-secctl' into HEAD
+524a1e4e381fc5e7781008d5bd420fd1357c0113 KVM: x86/mmu: Don't leak non-leaf SPTEs when zapping all SPTEs
+0103098fb4f13b447b26ed514bcd3140f6791047 KVM: x86/mmu: Don't step down in the TDP iterator when zapping all SPTEs
+ce25681d59ffc4303321e555a2d71b1946af07da KVM: x86/mmu: Protect marking SPs unsync when using TDP MMU with spinlock
+9a63b4517c606bfbccd063ffc4188e059d4fa23f Merge branch 'kvm-tdpmmu-fixes' into HEAD
+
+--===============3580064471837802211==--
