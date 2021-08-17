@@ -1,61 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5703716751208052775=="
+Content-Type: multipart/mixed; boundary="===============7095747104778961987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Tue, 17 Aug 2021 10:48:51 -0000
-Message-Id: <162919733147.10123.12885011999557451541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 17 Aug 2021 11:03:13 -0000
+Message-Id: <162919819307.19286.4146685351840314146@gitolite.kernel.org>
 
---===============5703716751208052775==
+--===============7095747104778961987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: c77366b096785b1368b5014590ae19751114b8b0
-    new: 21c1bccd7c23ac9673b3f0dd0f8b4f78331b3916
-    log: revlist-c77366b09678-21c1bccd7c23.txt
+  - ref: refs/heads/next
+    old: 23fd679249df82b57390c8f4f0f290fd1f7b3505
+    new: c7c4024348994208ac3bf85daf1a6195b7c5f7d3
+    log: revlist-23fd679249df-c7c402434899.txt
 
---===============5703716751208052775==
+--===============7095747104778961987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c77366b09678-21c1bccd7c23.txt
+Content-Disposition: attachment; filename=revlist-23fd679249df-c7c402434899.txt
 
-8dbe32aab853b7638cbb9e162d4add568415f884 vgacon: remove software scrollback support
-7bc4dd4d8f829fe282fce022d4157290351b7247 USB: serial: omninet: add device id for Zyxel Omni 56K Plus
-a8f22f2026bfe548f1f32fe039ebe05de297445f USB: serial: quatech2: fix control-request directions
-37c4326d379d39ea658f5e36ce494f6f76ff08ed usb: gadget: eem: fix wrong eem header operation
-74925d817c7dc395af154e473d8192d35e3d6cdb perf: Fix data race between pin_count increment/decrement
-7dcae9820709b3570cd84844c36353d75f445f13 NFS: Fix a potential NULL dereference in nfs_get_client()
-04e79184b045364e227b38b9212d02744b0965c8 kvm: fix previous commit for 32-bit builds
-898e36a08cc70706af3f89eee924ff1f543226a1 NFSv4: nfs4_proc_set_acl needs to restore NFS_CAP_UIDGID_NOMAP on error.
-a4191bb28536d61e0b0c488125468a978496fbcb scsi: core: Only put parent device if host state differs from SHOST_CREATED
-bfcba6703859d1c43247cb00b33fa2e52cc82a4b ftrace: Do not blindly read the ip address in ftrace_bug()
-1ddc6962bf6ed7e09312aa8f7d5f13f1f50e960c proc: only require mm_struct for writing
-35a987ea27da01f6b0502a809537c59f2d58b3dc ARM: OMAP2+: Fix build warning when mmc_omap is not built
-9e9a1cde0404cadb3b4633d1e2b02b364f8092b7 HID: gt683r: add missing MODULE_DEVICE_TABLE
-1d5838d76e353e6788db81c908cfff2b393a20e9 scsi: target: core: Fix warning on realtime kernels
-6808c5b1201e90e8dac910a996fcf703d63b1908 ethernet: myri10ge: Fix missing error code in myri10ge_probe()
-679a89f4ca37b4a7c663d21724a12a74c90d1a31 net: ipconfig: Don't override command-line hostnames or domains
-cd76898dd610b800b2935d4e31203d77b1a8123f rtnetlink: Fix missing error code in rtnl_bridge_notify()
-2e11838a8e8fe6abe038dc9a67668b80cc01a7c9 net/x25: Return the correct errno code
-890294a9f99b46efe96bd4dfdaa539690672bf93 net: Return the correct errno code
-cf47a777241a1e333849ce6b3b873b0ccc201c03 fib: Return the correct errno code
-1e5e10c73d8e0c51df22d8eac25ec4424fdb8bef dmaengine: stedma40: add missing iounmap() on error in d40_probe()
-f2b2faea7cc4c5eaafb0f1e958e2d84de473c32d net: ipv4: fix memory leak in netlbl_cipsov4_add_std
-06f4038ded1b9fa9852cf53660c88314ac70da37 net: rds: fix memory leak in rds_recvmsg
-882466be2584d149577620f32f3b267cce44c68e rtnetlink: Fix regression in bridge VLAN configuration
-2cdea6e55634d1786133eb010ceeac0a939a1ad0 netfilter: synproxy: Fix out of bounds when parsing TCP options
-19ee55a4bc83e1692a21b591af4ebe6b8da0c43d net: stmmac: dwmac1000: Fix extended MAC address registers definition
-635289ddca552fdc551b3c4cf1bb9fd652f48f4d qlcnic: Fix an error handling path in 'qlcnic_probe()'
-0903959dafce51918b5b62aeeb8b71d7f5e996d3 netxen_nic: Fix an error handling path in 'netxen_nic_probe()'
-23b80b3beb42081bbed4c58945d515888bfe53a3 net: cdc_ncm: switch to eth%d interface naming
-7f590e8b15abfe6b0961492f68bb9031b518af07 net: usb: fix possible use-after-free in smsc75xx_bind
-21c1bccd7c23ac9673b3f0dd0f8b4f78331b3916 net/af_unix: fix a data-race in unix_dgram_sendmsg / unix_release_sock
+e956d4fceba3aeb1cc088d043048b1d2157427b0 phy: cadence-torrent: Remove use of CamelCase to fix checkpatch CHECK message
+5b16a790f18d234187f31eab0a222bd53cb12b9e phy: cadence-torrent: Reorder few functions to remove function declarations
+3b40162516ca04209d750ddc174eea3e6deac148 phy: cadence-torrent: Add enum for supported input reference clock frequencies
+6a2338a5bf7f9b4df5ed55d7b25ceb996ea09310 phy: cadence-torrent: Configure PHY registers as a function of input reference clock rate
+da055e5503893e27d6494f52bd6987f0da0c7658 phy: cadence-torrent: Add PHY registers for DP in array format
+1cc455150b7a67f3bbfe1dce03a97b4ae88778d5 phy: cadence-torrent: Add PHY configuration for DP with 100MHz ref clock
+8f3ced2fd4906523e251f252dee03f6c22129e08 phy: cadence-torrent: Add separate functions for reusable code
+84f55df836916be2b052a5000cca8d7d9fcf2520 phy: cadence-torrent: Add debug information for PHY configuration
+48ac6085bdfcf568e24c1efd45615ec3d5d3545b phy: cadence-torrent: Check PIPE mode PHY status to be ready for operation
+c01608b3b46bfd5285117ab2c66df7cd59b7c67d dt-bindings: phy: mediatek: tphy: support type switch by pericfg
+3fd6611242b9f4e218175c11c8233ac4ab9402e6 phy: phy-mtk-tphy: use clock bulk to get clocks
+39099a4433586cdf30a7fc73aae4c77159b4a8c7 phy: phy-mtk-tphy: support type switch by pericfg
+926b83e5f9f0427f588b6c1e2b3b077979c39d3e phy: phy-mtk-tphy: print error log using child device
+1c6de3fc53ca14d3266d219e2ee62b8e5b1e2a6f phy: phy-mtk-tphy: remove error log of ioremap failure
+5f71b1e4f719e3c2312f20a76ee039ae209e72da phy: phy-mtk-ufs: use clock bulk to get clocks
+9474458753880e63c2b31fec3753316fa5c8e20d phy: phy-mtk-hdmi: convert to devm_platform_ioremap_resource
+75203e7994feedc52c62eb42f6b7a7087145813b phy: phy-mtk-mipi-dsi: remove dummy assignment of error number
+7508d1e4031168afac1793bf1f2a29a7c3fce423 phy: phy-mtk-mipi-dsi: convert to devm_platform_ioremap_resource
+e1f31c93a8d292f2e5b17daa384feaa28453f25e phy: amlogic: meson8b-usb2: Power off the PHY by putting it into reset mode
+c7c4024348994208ac3bf85daf1a6195b7c5f7d3 phy: amlogic: meson8b-usb2: don't log an error on -EPROBE_DEFER
 
---===============5703716751208052775==--
+--===============7095747104778961987==--
