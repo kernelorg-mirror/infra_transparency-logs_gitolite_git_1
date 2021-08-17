@@ -1,31 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 17 Aug 2021 14:15:28 -0000
-Message-Id: <162920972872.20751.11282153715866554108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 17 Aug 2021 14:15:57 -0000
+Message-Id: <162920975754.21042.15534852660506143637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 52a827933dab9a571e2cd06c6e0852486f565e29
-    new: 70dfac19d96e83b377dd82ded78595583f23d256
+    old: c3c559158bd078c927ddef58325db30e4224a0c0
+    new: a317d3ada96a19be0727821f93ff6b35696be8a8
     log: |
-         70dfac19d96e83b377dd82ded78595583f23d256 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         a317d3ada96a19be0727821f93ff6b35696be8a8 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 8d1998893cd5e3488cd95529f60a187e3009d14b
-    new: cd13b7eafd926be08427d6d6d471ab533674e03f
+    old: 65b41e07fa6ce2b8ea4d2404d7d1818192ca12db
+    new: 1407e9ea8f8e7e3e1d90cc926b663683b66c6e74
     log: |
-         ea2efedefbc34f782db396c3d90e80aa1fff57a5 ASoC: tegra30: ahub: Fix incorrect usage of of_device_get_match_data
-         240fdf3f42fc6505adecaf5a74fac75b3c702cf1 ASoC: tegra30: i2s: Fix incorrect usage of of_device_get_match_data
-         1b5d1d3a2f77250707225509cadc17997bab4353 ASoC: sh: rz-ssi: Fix wrong operator used issue
-         f8043ef50acaeb396702481bd2701066bac8a2bc ASoC: Intel: bytcr_rt5640: Use cfg-lineout:2 in the components string
-         2499ee9d90795932893576cf065f967a6136bc20 Merge series "ASoC: tegra30: Fix use of of_device_get_match_data" from Aakash Hemadri <aakashhemadri123@gmail.com>:
-         70dfac19d96e83b377dd82ded78595583f23d256 Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-         cd13b7eafd926be08427d6d6d471ab533674e03f Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         538d7c2ed73098850fe80be14eed2739d37e419b spi: rockchip-sfc: Bindings for Rockchip serial flash controller
+         0b89fc0a367edab09065af722894d186bd0ccb0d spi: rockchip-sfc: add rockchip serial flash controller
+         a317d3ada96a19be0727821f93ff6b35696be8a8 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
+         1407e9ea8f8e7e3e1d90cc926b663683b66c6e74 Merge remote-tracking branch 'spi/for-5.15' into spi-next
          
