@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 17 Aug 2021 00:31:52 -0000
-Message-Id: <162916031275.8020.14696763453994535527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Aug 2021 00:32:32 -0000
+Message-Id: <162916035211.8321.7543592035805623388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 3a4ce01b24a7b61b798dc9b106001584d0a9f43b
-    new: bb57164920d738076bf91d65af35d8724526c21b
+  - ref: refs/heads/master
+    old: 4e25792f05ef843bcd6c79bf8085c734a5186aee
+    new: e3faa49bcecdfcc80e94dd75709d6acb1a5d89f6
     log: |
-         bb57164920d738076bf91d65af35d8724526c21b bpf: Reconfigure libbpf docs to remove unversioned API
+         e3faa49bcecdfcc80e94dd75709d6acb1a5d89f6 tcp: enable data-less, empty-cookie SYN with TFO_SERVER_COOKIE_NOT_REQD
          
