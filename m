@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Aug 2021 00:18:18 -0000
-Message-Id: <162915949881.30382.16735961111708838137@gitolite.kernel.org>
+Date: Tue, 17 Aug 2021 00:22:25 -0000
+Message-Id: <162915974578.2060.14760922621141755304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1b3f78df6a80932d7deb0155d8b0871e8d3e4bca
-    new: fd04ed1ca37f3f0767b8e42b32fcc078f99e6193
+    old: fd04ed1ca37f3f0767b8e42b32fcc078f99e6193
+    new: 4e25792f05ef843bcd6c79bf8085c734a5186aee
     log: |
-         958ab281eb3e0543a995457fd2d9cb4504cde4b8 docs: ethtool: Add two link extended substates of bad signal integrity
-         5b4ecc3d4c4aab8d002fe6358885c10e7b57e432 ethtool: add two link extended substates of bad signal integrity
-         edb40bbc17eb589beb3cbd672d341e1505d6cdb1 net: hns3: add header file hns3_ethtoo.h
-         f5c2b9f0fc078308a88de807d60cd4e352a165fc net: hns3: add support ethtool extended link state
-         fd04ed1ca37f3f0767b8e42b32fcc078f99e6193 Merge branch 'net-hns3-add-support-ethtool-extended-link-state'
+         7c8075728f4df477d94df2e4d23a95ee69ee9493 ptp: ocp: Fix uninitialized variable warning spotted by clang.
+         d9fdbf132dab4d844167004ae4ca979fbebd9871 ptp: ocp: Fix error path for pci_ocp_device_init()
+         d79500e66a52103be31e62389cdd7ef345e4fe47 ptp: ocp: Have Kconfig select NET_DEVLINK
+         b40fb16df9f495ffeb4475950b68ee0fcba86b33 MAINTAINERS: Update for ptp_ocp driver.
+         4e25792f05ef843bcd6c79bf8085c734a5186aee Merge branch 'ptp-ocp-minor-updates-and-fixes'
          
