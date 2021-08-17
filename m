@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Aug 2021 23:39:15 -0000
-Message-Id: <162915715529.5587.6869279107389574266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Aug 2021 00:18:18 -0000
+Message-Id: <162915949881.30382.16735961111708838137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 4f3f2e3fa0431b93745b110da1c365806c5acce3
-    new: 09e856d54bda5f288ef8437a90ab2b9b3eab83d1
+    old: 1b3f78df6a80932d7deb0155d8b0871e8d3e4bca
+    new: fd04ed1ca37f3f0767b8e42b32fcc078f99e6193
     log: |
-         09e856d54bda5f288ef8437a90ab2b9b3eab83d1 vrf: Reset skb conntrack connection on VRF rcv
+         958ab281eb3e0543a995457fd2d9cb4504cde4b8 docs: ethtool: Add two link extended substates of bad signal integrity
+         5b4ecc3d4c4aab8d002fe6358885c10e7b57e432 ethtool: add two link extended substates of bad signal integrity
+         edb40bbc17eb589beb3cbd672d341e1505d6cdb1 net: hns3: add header file hns3_ethtoo.h
+         f5c2b9f0fc078308a88de807d60cd4e352a165fc net: hns3: add support ethtool extended link state
+         fd04ed1ca37f3f0767b8e42b32fcc078f99e6193 Merge branch 'net-hns3-add-support-ethtool-extended-link-state'
          
