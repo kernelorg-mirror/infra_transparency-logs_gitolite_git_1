@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8291020305867125732=="
+Content-Type: multipart/mixed; boundary="===============3927133177689887698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 17 Aug 2021 14:14:48 -0000
-Message-Id: <162920968861.18847.7911732533613201230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 17 Aug 2021 14:14:56 -0000
+Message-Id: <162920969615.18947.17403220697549895463@gitolite.kernel.org>
 
---===============8291020305867125732==
+--===============3927133177689887698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.15
-    old: d40dfb860ad72a32b9c2aeae739a2725f8ce011a
-    new: 2499ee9d90795932893576cf065f967a6136bc20
+  - ref: refs/heads/for-5.15
+    old: aca196842a9729a198af57c417725c3ac9ca05db
+    new: 0b89fc0a367edab09065af722894d186bd0ccb0d
     log: |
-         ea2efedefbc34f782db396c3d90e80aa1fff57a5 ASoC: tegra30: ahub: Fix incorrect usage of of_device_get_match_data
-         240fdf3f42fc6505adecaf5a74fac75b3c702cf1 ASoC: tegra30: i2s: Fix incorrect usage of of_device_get_match_data
-         1b5d1d3a2f77250707225509cadc17997bab4353 ASoC: sh: rz-ssi: Fix wrong operator used issue
-         f8043ef50acaeb396702481bd2701066bac8a2bc ASoC: Intel: bytcr_rt5640: Use cfg-lineout:2 in the components string
-         2499ee9d90795932893576cf065f967a6136bc20 Merge series "ASoC: tegra30: Fix use of of_device_get_match_data" from Aakash Hemadri <aakashhemadri123@gmail.com>:
+         538d7c2ed73098850fe80be14eed2739d37e419b spi: rockchip-sfc: Bindings for Rockchip serial flash controller
+         0b89fc0a367edab09065af722894d186bd0ccb0d spi: rockchip-sfc: add rockchip serial flash controller
          
 
---===============8291020305867125732==
+--===============3927133177689887698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629209666 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1629209686-c280d6d36b2adf5a8decb5be91d26c734e7d1b16
+pusher C3F436CA30F5D8EB 1629209673 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1629209693-809786bb026a2215a4515151cd9c34fb44a40c7d
 
-d40dfb860ad72a32b9c2aeae739a2725f8ce011a 2499ee9d90795932893576cf065f967a6136bc20 refs/heads/asoc-5.15
+aca196842a9729a198af57c417725c3ac9ca05db 0b89fc0a367edab09065af722894d186bd0ccb0d refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEbxEIACgkQJNaLcl1U
-h9B/qwf9F3do4O+Ed6a0mbtrN9DnF1/xi9m8jBeM5rfIB+wQPFVJdvswQQ8Pj+Lc
-HHj6ELU3TpCtTMtAGBRohVzf+2Y9zZPl2phPRDAZtB7yn2Jh41aiYKakGyqVCVlU
-Gxxfs4EM8uQ5zuAZ3cHteNlENq36A0+9dkFkDiQWnwe0w475qpVyvoGQPFZVKT6b
-3rmLM3KLn1wPRKVyNipI3zgN/8OsL2KJp4/COfPRjionXPUZkT+8G9+DpXx2x1cE
-KIs2w4tmYTanAUUozCZirxyBDzjdPD2XfqN/zZCTp2sY8lFAfgMnW1tDAtkzVig6
-IQOjYe5VPlIR/j/VKy/Bk8W9+xryAw==
-=4crL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEbxEkACgkQJNaLcl1U
+h9AvcAf/aNeV9MvGc8CXr7p7N417QVCgffxEGIjwl4FwRL8vs1LXRo+feW26habS
+RV4VX0vspU22eeiOwlSLqG4G0A9IQ1O0Jagnz5mcxcEDSktcEt+xQnHUUApDia9M
+uWs25o8xz/rBV/9+G082tQ1EfekkqWdZxR1B2Xw8YMzb/ETZ1I3i3/155BHW0N2o
+qTHuVkhQj7Y0czZQYnZm+jeSfgohZhs/XGx0VoBnUNYbFPo1W0hKYdwbpKUCdhiL
+8sqoQlbLlqJDhXomiIy5AaHo8jmegs4eFGKKE/GNMXdXPrcGuDJpekLEP0A2qfxL
+rgyBKgHv2B/SMN3BGzPSI7PgJug69g==
+=cEku
 -----END PGP SIGNATURE-----
 
---===============8291020305867125732==--
+--===============3927133177689887698==--
