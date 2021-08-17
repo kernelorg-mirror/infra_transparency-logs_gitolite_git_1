@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4168306515193941684=="
+Content-Type: multipart/mixed; boundary="===============7839820962782836968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 17 Aug 2021 03:15:30 -0000
-Message-Id: <162917013075.22536.10242622777040910505@gitolite.kernel.org>
+Date: Tue, 17 Aug 2021 03:15:35 -0000
+Message-Id: <162917013574.22627.13153813757385345318@gitolite.kernel.org>
 
---===============4168306515193941684==
+--===============7839820962782836968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: eb06164405f781949b1314222dd5a652319cbf04
-    new: f3db4e2d0e23a49cf6fe4214da99f1277cb24d75
-    log: revlist-eb06164405f7-f3db4e2d0e23.txt
+  - ref: refs/heads/5.15/scsi-queue
+    old: f5efd4fe78de871515444b660029074be17ec11f
+    new: 92cc94adfce4683d0b421cbf59013703368aaeb9
+    log: revlist-f5efd4fe78de-92cc94adfce4.txt
 
---===============4168306515193941684==
+--===============7839820962782836968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1629170128 -0400
+pusher 75C5DE3D 1629170134 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1629170128-a58c44b9f027ddee6c3eb07ac35f42859f451d8f
+nonce 1629170133-7431d6ed8a5f795cfa8b0268f50c975c04496b61
 
-eb06164405f781949b1314222dd5a652319cbf04 f3db4e2d0e23a49cf6fe4214da99f1277cb24d75 refs/tags/mkp-scsi-queue
+f5efd4fe78de871515444b660029074be17ec11f 92cc94adfce4683d0b421cbf59013703368aaeb9 refs/heads/5.15/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEbKdAACgkQ7ulgGnXF
-3j3AJQ//VhTrRTKqwn1EF0Oopzz8CVPcYjAh933VGDxlsI6xanNT0dISLc9N/qID
-vAyNflDMzfzrWda+avUA1dUQ3ig8YqgIA1DTozckJtrWuqEsjeLqwDQcBlbsTA7z
-OQ6s/Steu8HS0x67FCqnxIlcSC4MMiQ0xHUIHl0ETzX5i/6u+APAXvh3awTXjip0
-2907NHE9ItDPqceGcYPKSKweSWUSrf5rHQr+4R0CRh35n0OEXUffKBgw/+/z76DB
-zgbLv7eTN+4QtkRhX5RgB6leFpSI+mOV6zWqD5qCmD58GKaDdTDjfBVxMZ/JJko0
-2n4zCYj+OV+zfxgDMU1bgkJx8p9QXhuEnngt7jghAE7zJAsyeQgchi7p3CVZqvbF
-n4Skau3GcmMU5J0ZgXd9UripL47HF0D1kak/1sZ1qFTS2VCSg8L3zP2iKEvhrt/F
-bKVaHH34YvR1VMv1DG+j4A05qAOsA8rCOogSfiRkECMlCQFdGgt9QLn5xviGWgsP
-zW8I+iZTsgYwwVIXRXyFMsfaB9Zddki37muxWT/pR/dnRKN1R1KSoLMO3xy8M9IG
-xeny10Yp4IB9zp8qpLlXdMKl4MkkfNGRYbKJc6oE6nA3aM4b3G/MwVRTo+UOVg9r
-kUdrC9L52T0z06xmUKC8iiMuv4R0WEu4Mh5bstQ5sZDEEbsjXBs=
-=YjRD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEbKdYACgkQ7ulgGnXF
+3j1z9w//Y1huH+wlLupyIy0xSzEuZVfXyRloBFxA0hCbqXWievNGqlNpB7l7Wre0
+v1E5u0ADAZL62Zjj5bzxwxRCWXeI02UcNZUBta5AZGyfbtCMBC+8swXIUG0Z/7V4
+dMm8xbzqw4McxC9y9kbXp9H6sKlT38WgORiVae8MRMOReURG+5U+ZL5tnEQkGnAf
+l5ykgRh6uysRP8NvA/x+n84D9Un0IOtSvcHaM6qq7WLndAlGEVz+7iC5a5HACv+1
+JjL7H6sHTVowh6WXqUd3kEP4DLiUp2mOp/Lm7EElMuDMUPG9mI83RV4M1EUpKkSC
+NGof36FmnMdFV/ChrS+igAxs6mVhTUcD2P+UiqhmV3TuLvmHNuUKyYAISRNyFRIb
+Y36xWx5sR7A48tYfWtUtWySThzhaDZd3NBgfqia8MW8O8qFVu8lDvEe7tt6QOFFr
+mV7hd4L0fUw8enpsmySvY8n4OYJasjdZP7WAfvbw5gVA/4tgYhs/6b5F7UQJu2j3
+Bw+zRg/8w7dDi9BCwk4q1AnAqx/dVpHs9PNMB52xFGB25vpcKs96r5HMXQncdTiA
+tihVFL/fle56eRQjfpURU151vGHB34SA7cv6ICKCkVBVu1q00HKq/h0dyR9hd+nL
+eTTky77zs2M8vSkMBJlHcuPiy7Ul74yP/MeKhnmclm82SnaJqPk=
+=iQ46
 -----END PGP SIGNATURE-----
 
---===============4168306515193941684==
+--===============7839820962782836968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb06164405f7-f3db4e2d0e23.txt
+Content-Disposition: attachment; filename=revlist-f5efd4fe78de-92cc94adfce4.txt
 
 e746f3451ec7f91dcc9fd67a631239c715850a34 scsi: iscsi: Fix iface sysfs attr detection
 6d8e7e7c932162bccd06872362751b0e1d76f5af scsi: target: Fix protect handling in WRITE SAME(32)
@@ -156,4 +156,4 @@ c8fadf019964d0eb1da410ba8b629494d3339db9 scsi: qla2xxx: Sync queue idx with queu
 bd19573e05f6e643f003672c799b3b2301f2f493 scsi: qla2xxx: Update version to 10.02.06.100-k
 92cc94adfce4683d0b421cbf59013703368aaeb9 scsi: mpi3mr: Use the proper SCSI midlayer interfaces for PI
 
---===============4168306515193941684==--
+--===============7839820962782836968==--
