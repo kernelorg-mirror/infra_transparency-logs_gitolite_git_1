@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6944309211872534113=="
+Content-Type: multipart/mixed; boundary="===============5125279680800468072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 17 Aug 2021 17:59:59 -0000
-Message-Id: <162922319999.8575.4223317999442643357@gitolite.kernel.org>
+Date: Tue, 17 Aug 2021 18:02:51 -0000
+Message-Id: <162922337142.10980.12725145335507105995@gitolite.kernel.org>
 
---===============6944309211872534113==
+--===============5125279680800468072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 47a0bab3d95f6897b35eba7279441df4f4d5cc29
-    new: 10e13123973bcde7c5d1d2a37a38e4c69a973e98
+    old: 10e13123973bcde7c5d1d2a37a38e4c69a973e98
+    new: 8f9172d26ca5e4892b09fa670357d195305e5541
     log: |
-         10e13123973bcde7c5d1d2a37a38e4c69a973e98 staging: r8188eu: clean up spacing style issues in os_dep dir
+         25bcf747bdfdb413154a3d47985113474dc8133d staging: r8188eu: remove set but unused variable from rtl8188e_Add_RateATid
+         8f9172d26ca5e4892b09fa670357d195305e5541 staging: r8188eu: remove unneeded DBG_88E call from rtl8188e_Add_RateATid
          
 
---===============6944309211872534113==
+--===============5125279680800468072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629223197 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629223368 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1629223196-e73dbde7d952a5c385eb6ed072047b680083a71e
+nonce 1629223368-7020f10ca8ff8f03971654aa3def1ab34276fc5b
 
-47a0bab3d95f6897b35eba7279441df4f4d5cc29 10e13123973bcde7c5d1d2a37a38e4c69a973e98 refs/heads/staging-testing
+10e13123973bcde7c5d1d2a37a38e4c69a973e98 8f9172d26ca5e4892b09fa670357d195305e5541 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEb+R0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xj4QAJREvgcwQq9ZnR0RdS6l
-0FHw6HDZMlP6M5OicCQeeLgJ+eV16KBns+GUHFlQUx3nXqVRH7xb7yA/7zvWfZJ+
-TWUOmYIAFY0bk44VOmAZ7rXhHo13oA6W6ai8beHFtma/FKarIqypc+Yc/53CsTvW
-fQUGuQM3zyikkUWyMC9kRjyi7pyWFGKkMjweE9OvM14QYMBitGoro3HNKmO+35G4
-yRJEjThaF0st5sI0Xp7I434lRfaMN3pw5ASifU30i3wnTLBl+gPS+ZwF0ZqKn3+w
-ufnleaOcSLf3u19nEy+Pm53xUTDiqNd+aGlhfjPmC/ZwVJFRxIKMC3z91YXiIifN
-WYP31DEJHIDVVPWQVZaPgSv2gMM8ziODKRLeT2WByWrPOSibDRsraeqHIy9lyzAw
-pLDR4hYgVw/XF/cg4nUFmyVSgLI0qaHMz8ZsV6BmXIe5gYN8kWZauRBcRJAXASvq
-5aRZVQxwoWcAtGymbrk2ki79dCh/eGoL2xE/ulHw96+k41dBd1VIn3SpMTlnJZL0
-nYufTV+XyOifLs9MZJ4VZTsmf+Bv6/Kex4AUpGfM/CdoIs0uLDTZy42/7RvRQGNK
-qJEcUx5CYHia8mREgy7qSwByIYEI75ufQ9qnkr5H+5MNG9V5PHmBvmGmnJHZVjDv
-6LocPutBDBLC7bouQd1kjeQi
-=+s/N
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEb+cgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GxYQANZIBAPgiydhxE1kbtJA
+S1YyCsOdqwflOuc9y3Y78Cw659BjiuGnQFSxae5B0HRKWzWFWpUQV3JRRl3bX987
+fsIxSYav/TpbYlbnUGtPMcn3XzGZwbLdcAMpDeePFk//p3VzXfhU1Sfldl+o0Wni
+bz9eYPVSuBLkL1ENJ0Eu41KkewfJBNqYai8KNdWHOGBUp1tkSKUI58rbHyN6xsmm
+jDXP/h/DGIg7m15wbI2IzYUFq+7n6eWxaSkMlR/pyJlCWOBHAAeabMhrdBNnF16p
+baL79/50r6VaW5LPo/YdWZFUTOBmxcrZbq+QYev1bfGUm4E0jDd8zHdOKvSdlgb9
+rdWgS9NnOJIqpSfb2ApB3JcrAZWGlWIrCnDzAuCbZ7z4cwbdlQHdApHWrqfi+PCW
+jgw3zvy1emRy9AW95Lh6oknSbY1pggjEF33t+CUh7pY7PqLNGU6+jk7gjdnDFpSv
+vD6jYAxPqNwzKSoUmb8ed7ZJQVfoMsurG84L3z2KBzS+f5OWIMwig7V6KDUFWinT
+pCSS5jWmGHFBqDbDz00g/sKoBoZ9ozHnAIu+iFXikidFuVx9JxHVDUpoGe4THSEH
+GfvtSVISORkW4a/R5r+YgFKlNfxlMO+29kj8kuwytM5r0PJTcBytPnMj16j1olCH
+a+EBIEh3KkkOhs+oDuflj3nv
+=5qOJ
 -----END PGP SIGNATURE-----
 
---===============6944309211872534113==--
+--===============5125279680800468072==--
