@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3927133177689887698=="
+Content-Type: multipart/mixed; boundary="===============4701940912398223039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 17 Aug 2021 14:14:56 -0000
-Message-Id: <162920969615.18947.17403220697549895463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 17 Aug 2021 14:15:03 -0000
+Message-Id: <162920970372.19316.6729085716314818201@gitolite.kernel.org>
 
---===============3927133177689887698==
+--===============4701940912398223039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/spi-5.15
     old: aca196842a9729a198af57c417725c3ac9ca05db
     new: 0b89fc0a367edab09065af722894d186bd0ccb0d
     log: |
@@ -24,28 +24,28 @@ changes:
          0b89fc0a367edab09065af722894d186bd0ccb0d spi: rockchip-sfc: add rockchip serial flash controller
          
 
---===============3927133177689887698==
+--===============4701940912398223039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629209673 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1629209693-809786bb026a2215a4515151cd9c34fb44a40c7d
+pusher C3F436CA30F5D8EB 1629209681 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1629209701-63bffe7dcf28b5e7e0171c123ace13ffaa09636f
 
-aca196842a9729a198af57c417725c3ac9ca05db 0b89fc0a367edab09065af722894d186bd0ccb0d refs/heads/for-5.15
+aca196842a9729a198af57c417725c3ac9ca05db 0b89fc0a367edab09065af722894d186bd0ccb0d refs/heads/spi-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEbxEkACgkQJNaLcl1U
-h9AvcAf/aNeV9MvGc8CXr7p7N417QVCgffxEGIjwl4FwRL8vs1LXRo+feW26habS
-RV4VX0vspU22eeiOwlSLqG4G0A9IQ1O0Jagnz5mcxcEDSktcEt+xQnHUUApDia9M
-uWs25o8xz/rBV/9+G082tQ1EfekkqWdZxR1B2Xw8YMzb/ETZ1I3i3/155BHW0N2o
-qTHuVkhQj7Y0czZQYnZm+jeSfgohZhs/XGx0VoBnUNYbFPo1W0hKYdwbpKUCdhiL
-8sqoQlbLlqJDhXomiIy5AaHo8jmegs4eFGKKE/GNMXdXPrcGuDJpekLEP0A2qfxL
-rgyBKgHv2B/SMN3BGzPSI7PgJug69g==
-=cEku
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEbxFEACgkQJNaLcl1U
+h9Dcmwf+OPOJdj9E+5vdch0Db54dgdBCO+ksaAfcJJCSnYPvfOPDZfCI3jqdu5BJ
+zKkiN/PW8hddlx7FNc440uRF6L0x9zMr5iPj1Kxoh1RElmrCKmxalRTq0c/7UA0+
+nSOeygeAyu9tjOvPsdVAhjz6boGmr4sIxoNa2txZzyCawlouLB/VGKUyJLS/sEbn
++l8FbHgZs5ssTAEmBwZ4IStROd3CwG8YalxG1agzgh/oyBG5LxW9n/LAz3RykeRn
+zZnWkiBWi4LSiJo43O+AgOh+JD2zdE2dh6yqjaDpgjs9W6CQfrqhQpTxX4ImwJHe
+heVoClLRTsdLaKV153V6/cup55caPQ==
+=nubb
 -----END PGP SIGNATURE-----
 
---===============3927133177689887698==--
+--===============4701940912398223039==--
