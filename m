@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2823054064392288637=="
+Content-Type: multipart/mixed; boundary="===============4460696859449709133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 18 Aug 2021 14:02:52 -0000
-Message-Id: <162929537255.15108.5712432526090589688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 18 Aug 2021 14:05:39 -0000
+Message-Id: <162929553906.17405.11784012295964843867@gitolite.kernel.org>
 
---===============2823054064392288637==
+--===============4460696859449709133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 9e1b28b773881963150a7e3a11d4d00b9df0129a
-    new: 09cbd1df7d2615c19e40facbe31fdcb5f1ebfa96
+  - ref: refs/heads/tty-testing
+    old: 1143637f00cd8205c43bad702b2aff57c01913f8
+    new: 88c1d2478ec8a420cf60a3c25503e37b34fea5aa
     log: |
-         09cbd1df7d2615c19e40facbe31fdcb5f1ebfa96 firmware: raspberrypi: Fix a leak in 'rpi_firmware_get()'
+         88c1d2478ec8a420cf60a3c25503e37b34fea5aa tty: serial: fsl_lpuart: check dma_tx_in_progress in tx dma callback
          
 
---===============2823054064392288637==
+--===============4460696859449709133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629295369 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1629295369-a0998c4123b06eaae58190a5d8859ae5d755d827
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629295536 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1629295535-0bf2e669f88588a7a04a7c5ab4e9eead2bff0858
 
-9e1b28b773881963150a7e3a11d4d00b9df0129a 09cbd1df7d2615c19e40facbe31fdcb5f1ebfa96 refs/heads/char-misc-testing
+1143637f00cd8205c43bad702b2aff57c01913f8 88c1d2478ec8a420cf60a3c25503e37b34fea5aa refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEdEwkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RzkQAL/hdMrtDHXhq472G4Sw
-3cQhZHQTP2rHXkZ/2fcfOBKcPUy2kZdS0glClMcOOUJJcwUaTofhR84uPgACOck/
-SP1+ZX2lR5I/ISA4JDvZOp+wlkZwdLnWhoWLFFGpkmF2EU1pRsF0hgD76TQ6ObCd
-NTJsQRubpHG+GEulrKEwRC98owm206nEdnzxaPY28N7UYF7/tbIUu0KbDAMW5bIp
-ZibOHr35KOhjFJwxRnwSY8VJf+ekdaAQNKjpjv2oyF/5IK7qcOpq1dbDNeYXEBLt
-BblwHB0sCMomNZpVDF3PyDyo8uqVnQLbLlrJzHN6aijsHT9NwCwUXbFAcelBuloi
-viQ6veudawO4duJYmP0Yf63Jv6dmoWLugYdJ/4EN9TPxsXi22AGevKkSY86TSigC
-mxXVOI2Z+nYa0ge5Re8CRxTmLtgjzY79xcd0RU5VFzkfiHBKERxY5aT07Y4iP4E8
-GEKMijKtIuuriW9EOdIKCG02hFKwHiCA1CVvn72xL/jok/GIqKBcAO/2UfZl4Sid
-Or2smQ41nAkREGa6wV0cvOYBeLMUNLfml7i/Bx0HNjXJ7e9NiyyOoBnA20MoDFyo
-MEgamPfcT48TXiWg/tRvHY3V9lLyghuFUmzroGJhpvSwp1q8810QlBNixiFLOzbZ
-mHjJDdL0AJxRhSlmIz7SQZzv
-=7HcR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEdE7AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3QAP/2QocC0pm4vlt9KmqznJ
+pb0vDUCpfffUXhdN2flVA3jyemwBbXRx8jYuTYu+MC5cnjkMYf9EGV68DKMWRYEJ
+oKxr+ILE9mmbmZtAQjvQ6vY2JPUJB6a9rITYfvP58f8rg7rISgbaJxCiXRDQwCkX
+gyCIGGGw6yY0IzHuyIOa2+iIQiGS+Pl6lA+LLttg4tZwFdV+OcUcs0/pqsSkOjPN
+z1KGmFbwuLItJVtKC9iUDA0pEdXcPBDlkuwGwfd472+GwsDix0uN4jrJk3STHrmO
+YSkaiXmI0VBuQbopvTwKmyY26qd+T0YT0VY9E8KkkK4pjR+2pFcYNDxqLajSxLJi
+I/RSxpRQ6fkatO68SFznNLsKwMFUy8GgArYxEZ0inIRREpPMvByy9gxRRH092s/1
+HM3umusy+A4jmVU6dUPlfwlEPtBZbZLULQnD+GxWUdv21R8H9KCQhHngUIJ7Ska9
+HYHejZj5gkssmfb1B3V8QHiuXcnCD0cDkG6UHoAXLmu2PBwo/PtkXmoBtcC01iPG
+713bjXoA1pKdzZgIDyGjzBVqbGBBFnDIpKAowqPbzzKMWGflPVNFNGqgIpOJp0lk
+gAV+g38Wa21qnuBAiDawNRD18TnfiFica/+AG324hOKcYEI8227Oh8byK80xOSlA
+shHwoRM2p+T0u3eih7mgt8GM
+=d7kG
 -----END PGP SIGNATURE-----
 
---===============2823054064392288637==--
+--===============4460696859449709133==--
