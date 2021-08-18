@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2763153600620290404=="
+Content-Type: multipart/mixed; boundary="===============3406464142234700051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 18 Aug 2021 02:46:18 -0000
-Message-Id: <162925477825.30409.276824846034174280@gitolite.kernel.org>
+Date: Wed, 18 Aug 2021 02:46:26 -0000
+Message-Id: <162925478617.30510.9296989404772939323@gitolite.kernel.org>
 
---===============2763153600620290404==
+--===============3406464142234700051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c297e73dbc86eec1943e3654f27e2f0a70a17d74
-    new: 272956158501aac8bb483f52e01f7eace736f6b4
+  - ref: refs/heads/staging
+    old: 58dd8f6e1cf8c47e81fbec9f47099772ab75278b
+    new: 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09
     log: |
          6a036ce0e25c737d5258d42abeee3a31d21801fb scsi: ibmvfc: Stop using scsi_cmnd.tag
          4c7b6ea336c1e415fc002c756449835de768914c scsi: core: Remove scsi_cmnd.tag
@@ -30,33 +30,33 @@ changes:
          848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 scsi: sd: Do not exit sd_spinup_disk() quietly
          
 
---===============2763153600620290404==
+--===============3406464142234700051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1629254776 -0400
+pusher 75C5DE3D 1629254784 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1629254775-41a9b2a8109e337aa2c4df2fc035cfc81a3e3115
+nonce 1629254784-36b94c6c07a01fc4aae0279e6a026e49352f9d48
 
-c297e73dbc86eec1943e3654f27e2f0a70a17d74 272956158501aac8bb483f52e01f7eace736f6b4 refs/tags/mkp-scsi-staging
+58dd8f6e1cf8c47e81fbec9f47099772ab75278b 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEcdHgACgkQ7ulgGnXF
-3j02ehAAiCrCAShPCqkuQC/G2uDSeJC7NoqhNCzCdTR5T4Cz/rSBw0AyzBfgk+Mm
-L1ehD0pY19pztoncFlQp3Sn6w0qip2/oCq/TZEAuXXPyk3hsGF1niJpsG86aZxg5
-s2VymE3erWcCB3ZB1Eo6vgqVR9z7U9ye0c/8uV0cMrEIYRbhkkRmQeOtGgq5T2Wd
-X7ysAd7PM5xkAqhPgxgK9sM3fINULOFgFhD4pF4GaUSdsaRElXz6Dil5rOduyKwJ
-1KgXY8RXeOMjbjnl0Xo28K315a2Gcb1YBsGHgfi9U7k7HbNMPTLgc9fZxztepN8c
-++b/jaJVB0EtI+Tv+P0BiD78SdStBsrCWOFl/9MrWfIpd8LIb3KyXRlNR96HOpKo
-jYEIN7DjIIJM2mPQeEoMbde2hoTtS2v8mS5//7+eUSbgWHLoZ9nWbCowjlRH3Ttn
-LPbDCTK7EjasGNwZo+/gqqD6BMgL4K1t/sLvIreip2Cvaq4KpoUINbpWpmeuo4kk
-FWY8F2ICoa3nb3ESfxdloJX1M0ZeYnSq9rvEeqZa8UfArKv51XniszoFU+E1ex7Z
-EYfmxuAhLDhqR28H5R25V0HnC+Rwfe8j4VYWwxHge04X7FOc/fbP/qYjv7CuICZn
-db5aWP3H0GeouTpouCBeg6yurPj1DcJYEqrpWtQ74tzU6hnvy7s=
-=L8Xo
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEcdIAACgkQ7ulgGnXF
+3j37ew/7BwfAWLQqcqOXwxwqkp0gvvOkG4w7EsA4wgWMRXqOZcpZMerBPwY6ogPv
+JQ+a5h9Ulvaf5wDhYyAvXnLPW3yvyAS7yEMfNUA/Bfh3jlLiQYVTH5JQAyxM5MNW
+zXIpYGaUt1F9JzCqRtl1pSrlYtHBBTKG1EgbDEjVjM80hpCnIF6up0feDpMW2s+n
+Tacqa1Ltc5wK6oTj+P5kCFH1VEJTc1h4eijLN8+sshX8UY7QjjfLefsJwmpe6gte
+o55QO+GrvVCcjc5IFJm8HkII/U615lhFWe/DDujW1I2jGT+NXAdkSZv2mlYjExNv
+wfqU6WSS/LUSZE4ZxQTqzsn9WV2L9X1zcWesJTh7O0CQjsb/07lZrEguSjFDBqmj
+E3Mtjy1eY2UFk3IaXKezH+ZtpDn5/UXy4737YOoTjW/z1cbe2otw7nOkqXYMOz73
+Z1SAeC3qbF0TgA81uuyII4W6s8KPlUTsJ3CR7KQQQRT+cge8kKHUvl4aAEAY3sHn
+3oSbt7q3/gWypIJHpPb2MaxbzwiIjxMYxvexYQuHRjMuRWqCp79oKBhI4UZ2THn4
+6Vv2WPLVmEKLjHEqxyQkgWL1uaQmBxitojaqOmMcIpQL8RArZ+emeTQbrFJVc4p8
+TOUIETHrsA1yJda1kx3n4IWSz0VUKCX0TCD/VTQ2DN2ooqBHelQ=
+=ljdq
 -----END PGP SIGNATURE-----
 
---===============2763153600620290404==--
+--===============3406464142234700051==--
