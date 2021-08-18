@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5305226935213616127=="
+Content-Type: multipart/mixed; boundary="===============2911496696864449978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 18 Aug 2021 18:55:18 -0000
-Message-Id: <162931291820.15065.4069755206421388683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 18 Aug 2021 19:11:54 -0000
+Message-Id: <162931391467.24795.5813124436967132186@gitolite.kernel.org>
 
---===============5305226935213616127==
+--===============2911496696864449978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 6e2a06aa4ab1f7909f5c3cba4e8552d5f1627d43
-    new: 7192223d35cff1e5fab28dfc54a8b6a3b778bad4
-    log: |
-         7192223d35cff1e5fab28dfc54a8b6a3b778bad4 Document listid-preference config parameter
-         
+    old: 614cb2751d3150850d459bee596c397f344a7936
+    new: d6d09a6942050f21b065a134169002b4d6b701ef
+    log: revlist-614cb2751d31-d6d09a694205.txt
 
---===============5305226935213616127==
+--===============2911496696864449978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-614cb2751d31-d6d09a694205.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1629312917 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1629312917-33d3cbc19c93f03bd6d6fb51cb6edc0065398dbc
+14c4c8e41511aa8fba7fb239b20b6539b5bce201 cfi: Use rcu_read_{un}lock_sched_notrace
+a2befe9380dd04ee76c871568deca00eedf89134 ALSA: hda - fix the 'Capture Switch' value change notifications
+67bb66d32905627e29400e2cb7f87a7c4c8cf667 ALSA: oxfw: fix functioal regression for silence in Apogee Duet FireWire
+da94692001ea45ffa1f5e9f17ecdef7aecd90c27 ALSA: hda/realtek: Enable 4-speaker output for Dell XPS 15 9510 laptop
+3f79f6f6247c83f448c8026c3ee16d4636ef8d4f btrfs: prevent rename2 from exchanging a subvol with a directory from different parents
+0165c4e19f6ec76b535de090e4bd145c73810c51 ALSA: hda: Fix hang during shutdown due to link reset
+4bf61ad5f0204b67ba570da6e5c052c2095e29df ALSA: hda/via: Apply runtime PM workaround for ASUS B23E
+3b844826b6c6affa80755254da322b017358a2f4 pipe: avoid unnecessary EPOLLET wakeups under normal loads
+a83955bdad3ee1c8d29f345252dcb1806fe22365 Merge tag 'cfi-v5.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+01f15f3773bf3653a708e2c18c370beb16ca23c7 Merge tag 'sound-5.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d6d09a6942050f21b065a134169002b4d6b701ef Merge tag 'for-5.14-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
-6e2a06aa4ab1f7909f5c3cba4e8552d5f1627d43 7192223d35cff1e5fab28dfc54a8b6a3b778bad4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYR1XlQAKCRC2xBzjVmSZ
-bItcAP4iiuZ0063FPHmZqLWCSh/3IqRbk4XNJinjA6s6u0AP1gD/agU11VJ0C+WM
-IozN24ysJOY35dQWN680kL9fbkSP6Ac=
-=i2HB
------END PGP SIGNATURE-----
-
---===============5305226935213616127==--
+--===============2911496696864449978==--
