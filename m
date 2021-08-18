@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5654432203601097037=="
+Content-Type: multipart/mixed; boundary="===============4834527819224634427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 18 Aug 2021 07:59:07 -0000
-Message-Id: <162927354791.19180.5338953101718014076@gitolite.kernel.org>
+Date: Wed, 18 Aug 2021 07:59:18 -0000
+Message-Id: <162927355856.19299.5495768128922325944@gitolite.kernel.org>
 
---===============5654432203601097037==
+--===============4834527819224634427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 89dd47bb98ed799c2be96dd136581cb15c98c230
-    new: 3c964b366060971723081b536e1c14a207855226
-    log: revlist-89dd47bb98ed-3c964b366060.txt
+  - ref: refs/heads/net-mlx4
+    old: 5f773519639041faed4132f5943d7895f9078a4c
+    new: 1b80fec7b043552e01609bae7d0aad07aa742adc
+    log: revlist-5f7735196390-1b80fec7b043.txt
 
---===============5654432203601097037==
+--===============4834527819224634427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89dd47bb98ed-3c964b366060.txt
+Content-Disposition: attachment; filename=revlist-5f7735196390-1b80fec7b043.txt
 
 0f673c16c850250db386537a422c11d248fb123c iwlwifi: pnvm: accept multiple HW-type TLVs
 a5bf1d4434b93394fa37494d78fe9f3513557185 iwlwifi: add new SoF with JF devices
@@ -45,6 +45,5 @@ dbcf24d153884439dad30484a0e3f02350692e4c virtio-net: use NETIF_F_GRO_HW instead 
 0a298d133893c72c96e2156ed7cb0f0c4a306a3e net: qlcnic: add missed unlock in qlcnic_83xx_flash_read32
 e5e487a2ec8afa207b4e6d53a19c9ab3bf596683 Merge tag 'wireless-drivers-2021-08-17' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
 1b80fec7b043552e01609bae7d0aad07aa742adc ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
-3c964b366060971723081b536e1c14a207855226 net/mlx5: Lag, fix multipath lag activation
 
---===============5654432203601097037==--
+--===============4834527819224634427==--
