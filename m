@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9193065494240016100=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 18 Aug 2021 18:20:20 -0000
-Message-Id: <162931082058.24364.15847460352695876888@gitolite.kernel.org>
-
---===============9193065494240016100==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 18 Aug 2021 18:23:30 -0000
+Message-Id: <162931101064.25434.14263035087176150476@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: dd6997138e01357d95c0e0212d9af33b977fd012
-    new: faf8bdb5f73f6c8656cfd306c0251f286fb78431
+  - ref: refs/heads/wip/amey-reset-v16
+    old: 23141399926887e356a86039eb54fc039554a1e8
+    new: 1af889f521aa87afab0b7d6e0964cd16b1d1266f
     log: |
-         faf8bdb5f73f6c8656cfd306c0251f286fb78431 Remove kludges that were needed before /all/
+         e20afa06244eb5d7fa850f9fe2a78ae17ba96f81 PCI: Add array to track reset method ordering
+         4ec36dfeb155b72da8d28ab006a46f2f8b981eac PCI: Remove reset_fn field from pci_dev
+         9f9f9af308a9cb5461d4bcd50c820552c9e9eee7 PCI: Allow userspace to query and set device reset mechanism
+         b61750c7b0627ea2eb1cd3742485901f7213d37d PCI: Add pci_set_acpi_fwnode() to set ACPI_COMPANION
+         915c0405e70048d3523113d7b73fc7e1fb7a6195 PCI: Use acpi_pci_power_manageable()
+         d7aa51ab2f242f0ea4dc20f669df2fc12ea2113f PCI: Setup ACPI fwnode early and at the same time with OF
+         09b5561db045e1a6506a2464def3cd1a3eabbeba PCI: Add support for ACPI _RST reset method
+         1af889f521aa87afab0b7d6e0964cd16b1d1266f PCI: Change the type of probe argument in reset functions
          
-
---===============9193065494240016100==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1629310820 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1629310820-cf787b4a1fee37e138e85753da36f407fc3b420e
-
-dd6997138e01357d95c0e0212d9af33b977fd012 faf8bdb5f73f6c8656cfd306c0251f286fb78431 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYR1PZAAKCRC2xBzjVmSZ
-bIlIAP0YGHhf+okGBiuelKf558ErN/2ikx3ZInvqtZVWqvyh2gEAg1d6rZtlgooX
-rE1oOiznExjVn9Hp5bcgOnK7W6nasAw=
-=JeFu
------END PGP SIGNATURE-----
-
---===============9193065494240016100==--
