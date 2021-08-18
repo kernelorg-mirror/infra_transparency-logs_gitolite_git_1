@@ -1,73 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4483361606881167272=="
+Content-Type: multipart/mixed; boundary="===============0488370542369331540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Aug 2021 15:02:01 -0000
-Message-Id: <162929892192.21269.14652787941644510817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 18 Aug 2021 15:04:58 -0000
+Message-Id: <162929909855.22310.17936404659158736170@gitolite.kernel.org>
 
---===============4483361606881167272==
+--===============0488370542369331540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: c81eb2249a9350386b983130a97df993117fbff4
-    new: f7703ec86b7fb6286b1d9108496a4e8a25653393
-    log: revlist-c81eb2249a93-f7703ec86b7f.txt
+  - ref: refs/heads/master
+    old: 752be2976405b7499890c0b6bac6d30d34d08bd6
+    new: 7e5a3ef6b4e6cf9b0a04b8906d02f7c896f5b85c
+    log: revlist-752be2976405-7e5a3ef6b4e6.txt
 
---===============4483361606881167272==
+--===============0488370542369331540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c81eb2249a93-f7703ec86b7f.txt
+Content-Disposition: attachment; filename=revlist-752be2976405-7e5a3ef6b4e6.txt
 
-0f673c16c850250db386537a422c11d248fb123c iwlwifi: pnvm: accept multiple HW-type TLVs
-a5bf1d4434b93394fa37494d78fe9f3513557185 iwlwifi: add new SoF with JF devices
-891332f697e14bfb2002f56e21d9bbd4800a7098 iwlwifi: add new so-jf devices
-abf3d98dee7c4038152ce88833ddc2189f68cbd4 mt76: fix enum type mismatch
-e5e487a2ec8afa207b4e6d53a19c9ab3bf596683 Merge tag 'wireless-drivers-2021-08-17' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
-1b80fec7b043552e01609bae7d0aad07aa742adc ixgbe, xsk: clean up the resources in ixgbe_xsk_pool_enable error path
-86b9bbd332d0510679c7fedcee3e3bd278be5756 sch_cake: fix srchost/dsthost hashing mode
-ed5d2937a6a8f12e7f815748f991990e79ac4cd1 net: dsa: sja1105: fix use-after-free after calling of_find_compatible_node, or worse
-663d946af5fb2fde0c0498f11fb295e9e8db979f net: mdio-mux: Delete unnecessary devm_kfree
-99d81e942474cc7677d12f673f42a7ea699e2589 net: mdio-mux: Don't ignore memory allocation errors
-7bd0cef5dac685f09ef8b0b2a7748ff42d284dc7 net: mdio-mux: Handle -EPROBE_DEFER correctly
-97712f8f912fb7f2e305468047421bcac0f6653c Merge branch 'mdio-fixes'
-01634047bf0d5c2d9b7d8095bb4de1663dbeedeb ovs: clear skb->tstamp in forwarding path
-a786e3195d6af183033e86f0518ffd2c51c0e8ac net: asix: fix uninit value bugs
-b73d52eeaa218f501f0d00c0b6e731c755150129 checkpatch: Fix warnings when --no-tree is used
-9f6e5f52510f87c8aad82313c611153597111206 checkpatch.pl: seed camelcase from the provided kernel tree root
-b71fc1e901d0820562985a67f607d19b69ef7c41 ice: Fix a couple off by one bugs
-9b89eabcc32566a33c73828a14e229a13007659f i40e: Fix correct max_pkt_size on VF RX queue
-3de048066fe576d9f7e63825197db7cb4ebaad58 iavf: Fix return of set the new channel count
-793a63a9ddc61f90ec0b8f11ef6c2be602c5c612 i40e: Fix NULL ptr dereference on VSI filter sync
-8d2920fe1f36ee3d778492afda2b53e8234c9bac ice: Fix VF true promiscuous mode
-defb881865991bbf22f5b7b7c709aa36ade26751 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-bd80b356fb1dd2bac160fb2df82072757d585b3e i40e: improve locking of mac_filter_hash
-93ce162b0fdb4c18abcc708fa4ef256d06a2a92e i40e: Fix warning message and call stack during rmmod i40e driver
-40ca208d2fe42e273c0ba8e411a3d13ed099533c ice: Remove toggling of antispoof for VF trusted promiscuous mode
-d630d7fa7916391d3b111f826c7faba8e0153e97 ice: fix FDIR init missing when reset VF
-a8ef0f0fd97a6e28b8a38cdfe9e8c457bb63744a i40e: Fix failed opcode appearing if handling messages from VF
-6598461b38d0116143b806925098b43b7b86bcdc iavf: check for null in iavf_fix_features
-e04a315c8126213040df1d458cbdfbf64adfac32 iavf: free q_vectors before queues in iavf_disable_vf
-ba6c2638f206b7fa0b8b764b75f807c7bf862087 iavf: don't clear a lock we don't hold
-dc6ce273d973aa6a7bac9ec4c5e7dc954fff7ddd iavf: Fix failure to exit out from last all-multicast mode
-73f6eae1f27de5b21cc20b4d6a730f591579c952 iavf: prevent accidental free of filter structure
-8aadf08841274bb28f1853a37a8473e6075526d0 iavf: validate pointers
-1ead96058eeef4a5ce62f75d4780fa0c887d4fc0 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
-87283916c4bacca943edd6a926ae5c114446cffe iavf: Fix for setting queues to 0
-001cada11e18fe3c157703e83b002483138baa7e ice: do not abort devlink info if PBA can't be found
-0d539e2c8c6909ee3caa2bd4411b580cd8196e95 i40e: Fix creation of first queue by omitting it if is not power of two
-1c69e86909035de4b0624bf2360e07296fb5480a iavf: Fix ping is lost after untrusted VF had tried to change MAC
-c7b1163b00dd31506715162bb417b157c4f70e9b ice: fix build issue if CONFIG_1588_PTP_CLOCk=m
-9de49728219c4f149650f7687f4289e9d85acbfa ice: Fix failure to re-add LAN/RDMA Tx queues
-d8ab1c7821945300f99993534f66323391d17748 i40e: Fix pre-set max number of queues for VF
-0dee32b023158b995135456a7f71e5284452eb0d igc: Use num_tx_queues when iterating over tx_ring queue
-f7703ec86b7fb6286b1d9108496a4e8a25653393 i40e: Fix ATR queue selection
+5ac49f3c2702f269d31cc37eb9308bc557953c4d iavf: use mutexes for locking of critical sections
+6e9078a667a36455afb438346c693590b3c975cf i40e: Fix spelling mistake "dissable" -> "disable"
+3349d3625d62e4c0d90e854a5b7e8efda8a5c994 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+ee285257a9c1bc73ad095d8a3aa5d04b7da4990f mptcp: drop flags and ifindex arguments
+2843ff6f36db7074e17bf5d637a14da08c54aed8 mptcp: remote addresses fullmesh
+1a0d6136c5f0af62850b0f4a27e75e1ca4bbcdda mptcp: local addresses fullmesh
+371b90377e6041ddacbee59068ebdbff85774829 selftests: mptcp: set and print the fullmesh flag
+4f49d63352da98aba910d0181effddf6262e5c76 selftests: mptcp: add fullmesh testcases
+f7713dd5d23a1fbb8758fca09847906c62774277 selftests: mptcp: delete uncontinuous removing ids
+606befcd5db4c2493d4b7db9d186eb3e881c483c Merge branch 'mptcp-mesh-path-manager'
+95d5e6759b16012b8ef674a219d940818ddda967 net: RxRPC: make dependent Kconfig symbols be shown indented
+ec18e8455484370d633a718c6456ddbf6eceef21 net: procfs: add seq_puts() statement for dev_mcast
+8675569d73cab15e5127d1f228afd3317cbeb5bf nfc: virtual_ncidev: Use wait queue instead of polling
+4ef956c643942ad93a420a7106413f3a86a1c84c selftests: nci: Remove the polling code to read a NCI frame
+366f6edf5dea88451720b0b1f3ea477ee6b3aa80 selftests: nci: Fix the typo
+78a7b2a8a0fa31f63ac16ac13601db6ed8259dfc selftests: nci: Fix the code for next nlattr offset
+1d5b8d01db98abb8c176838fad73287366874582 selftests: nci: Fix the wrong condition
+6ebbc9680a33e5e073b04d8a1f486bd9e1809515 selftests: nci: Add the flags parameter for the send_cmd_mt_nla
+72696bd8a09d6dc46196b23cf42562ee7e169ebc selftests: nci: Extract the start/stop discovery function
+61612511e55c886c96c0586abe3ac428402777df selftests: nci: Add the NCI testcase reading T4T Tag
+93e271632ccf0c65395900a9c12720652f769d2a Merge branch 'nci-ext'
+994d2cbb08ca05e3c1af954ec63a3ae32a862ac5 net: dsa: tag_sja1105: be dsa_loop-safe
+41467d2ff4dfe1837cbb0f45e2088e6e787580c6 net: net_namespace: Optimize the code
+d3cec5ca299602a9ec0667cd224730178e5d2971 selftests: vrf: Add test for SNAT over VRF
+ab44035d308227723b490487ff0feba521e87029 octeontx2-pf: Allow VLAN priority also in ntuple filters
+4b1327be9fe57443295ae86fe0fcf24a18469e9f net-memcg: pass in gfp_t mask to mem_cgroup_charge_skmem()
+7e5a3ef6b4e6cf9b0a04b8906d02f7c896f5b85c pktgen: Remove fill_imix_distribution() CONFIG_XFRM dependency
 
---===============4483361606881167272==--
+--===============0488370542369331540==--
