@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Aug 2021 17:47:06 -0000
-Message-Id: <162930882686.32762.6054976577301113887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 18 Aug 2021 17:48:02 -0000
+Message-Id: <162930888250.792.291096421017618328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: f7703ec86b7fb6286b1d9108496a4e8a25653393
-    new: bc284cc3fe81ceba9571c14de02b1462fac4fd0a
+    old: bde20358fbdc9dd303949386d97c33cac669bf56
+    new: 82548a1e25d393186f229415405b817bc6da0c52
     log: |
-         bc284cc3fe81ceba9571c14de02b1462fac4fd0a igc: fix tunnel offloading
+         82548a1e25d393186f229415405b817bc6da0c52 igc: fix tunnel offloading
          
