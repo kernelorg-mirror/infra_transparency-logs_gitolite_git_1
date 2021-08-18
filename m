@@ -1,22 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Aug 2021 09:49:11 -0000
-Message-Id: <162928015117.14514.9470570919500073262@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1723202497007128608=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 18 Aug 2021 09:57:09 -0000
+Message-Id: <162928062928.19873.6895799644412541056@gitolite.kernel.org>
+
+--===============1723202497007128608==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
   - ref: refs/heads/master
-    old: ed5d2937a6a8f12e7f815748f991990e79ac4cd1
-    new: 97712f8f912fb7f2e305468047421bcac0f6653c
-    log: |
-         663d946af5fb2fde0c0498f11fb295e9e8db979f net: mdio-mux: Delete unnecessary devm_kfree
-         99d81e942474cc7677d12f673f42a7ea699e2589 net: mdio-mux: Don't ignore memory allocation errors
-         7bd0cef5dac685f09ef8b0b2a7748ff42d284dc7 net: mdio-mux: Handle -EPROBE_DEFER correctly
-         97712f8f912fb7f2e305468047421bcac0f6653c Merge branch 'mdio-fixes'
-         
+    old: 18ce9c4a1b81dcfc1a8d2fb12ae1bf65413adcf3
+    new: 7127973e0c8ca36fda1f5d2d0adae04d61fa0d01
+    log: revlist-18ce9c4a1b81-7127973e0c8c.txt
+
+--===============1723202497007128608==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-18ce9c4a1b81-7127973e0c8c.txt
+
+97e2d8e602d44b1271f18cd3297a5e40bed3584c arch_prctl.2, perf_event_open.2, pthread_tryjoin_np.3: ERRORS: correct alphabetic order
+90879cbd20f563af6bcc0ee9035cd59f591c29c7 chmod.2, chown.2, open.2, mkdir.2, mknod.2, readlink.2, stat.2, symlink.2, mkfifo.3, scandir.3, sem_wait.3: ERRORS: combine errors into a single alphabetic list
+85a7ae73441b3ccac80e1ecaba07dc3a3bb4c22c intro.2, mount_setattr.2, seccomp_unotify.2, fflush.3, pthread_mutex_consistent.3: Place SEE ALSO entries in correct order
+dae872dd27ca40a777d61d7438b9e2cc9e4aaaf9 readv.2, pthread_tryjoin_np.3, stailq.3, strlen.3, wcslen.3: Arrange .SH sections in correct order
+f99cea2c35514134df0bb84ab1d2e023343ed19f prctl.2: tfix
+28d0f81e1c79f139660a31c5481e0ce985da25cf sigqueue.3: tfix
+5478b148a1e8c1d5ef8f9fb1c69a621fa64eb64c tsearch.3: NAME: add twalk_r
+f589f0e1b890c586cf3566a15a62b0b1ece099ba strsignal.3: tfix
+a98bd2de563f76452bd5c122cd74d81b26e403cc strsignal.3: wfix
+7b7252ed41ec891716652287eb46b42bd4218b8d fanotify_mark.2: Revert cruft added in commit 717c3a7dcf3dcf178af
+7127973e0c8ca36fda1f5d2d0adae04d61fa0d01 add_key.2, keyctl.2, request_key.2: Note that the "libkeyutils" package provides <keyutils.h>
+
+--===============1723202497007128608==--
