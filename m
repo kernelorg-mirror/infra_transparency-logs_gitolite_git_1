@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9110980743081411361=="
+Content-Type: multipart/mixed; boundary="===============9107932190495484326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 18 Aug 2021 08:36:12 -0000
-Message-Id: <162927577265.13493.8839982583379300263@gitolite.kernel.org>
+Date: Wed, 18 Aug 2021 08:37:43 -0000
+Message-Id: <162927586359.14106.399098988370899713@gitolite.kernel.org>
 
---===============9110980743081411361==
+--===============9107932190495484326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,160 +16,160 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 8671093ac9687ccff5eae8a9f964c74e6774ee4c
-    new: 173e37d91de4034bbb5edaba3f1210a2bef158dd
-    log: revlist-8671093ac968-173e37d91de4.txt
+    old: 173e37d91de4034bbb5edaba3f1210a2bef158dd
+    new: 662b1796a8135b59c88f0755c67120384c2445db
+    log: revlist-173e37d91de4-662b1796a813.txt
   - ref: refs/heads/queue/4.19
-    old: ba32c9a39e33a3c59b7353a448a38eca163874dd
-    new: 3827ada5b2f24dc7b531b660b551e409237e34da
-    log: revlist-ba32c9a39e33-3827ada5b2f2.txt
+    old: 3827ada5b2f24dc7b531b660b551e409237e34da
+    new: f97db0a5fc649e29db3b5566ec593f9e86685c98
+    log: revlist-3827ada5b2f2-f97db0a5fc64.txt
   - ref: refs/heads/queue/4.4
-    old: 604bd00f672d5849b977b7a7ef949e925d5a4113
-    new: 107758f10f11d6e26e32019efce606965159d766
-    log: revlist-604bd00f672d-107758f10f11.txt
+    old: 107758f10f11d6e26e32019efce606965159d766
+    new: cc79a00d3e9fd94caf751de78bbf4179c4ed98f5
+    log: revlist-107758f10f11-cc79a00d3e9f.txt
   - ref: refs/heads/queue/4.9
-    old: 057347b18f794d4430bedea67bb159bb6abf6506
-    new: 1f83da8b3dda5057337ed3dcd5231eff5e715552
-    log: revlist-057347b18f79-1f83da8b3dda.txt
+    old: 1f83da8b3dda5057337ed3dcd5231eff5e715552
+    new: 1471bc15c7cd9d62b3db320c7a5e25bd1d397c44
+    log: revlist-1f83da8b3dda-1471bc15c7cd.txt
   - ref: refs/heads/queue/5.4
-    old: f543dc1fcae57c633e25f51281256cc953753ba8
-    new: 69c2ca5f242ed638335253d20f7ba5e25bd0efe3
+    old: 69c2ca5f242ed638335253d20f7ba5e25bd0efe3
+    new: 7c34d05f5a8dba1cdca8e4d0cdbb075e42a59419
     log: |
-         c78bcf045a5cfc15638232876b36850f366d759a ext4: fix EXT4_MAX_LOGICAL_BLOCK macro
-         69c2ca5f242ed638335253d20f7ba5e25bd0efe3 x86/fpu: Make init_fpstate correct with optimized XSAVE
+         a54d173e7c66da65ed5c703ea966aa5beba4581d ext4: fix EXT4_MAX_LOGICAL_BLOCK macro
+         7c34d05f5a8dba1cdca8e4d0cdbb075e42a59419 x86/fpu: Make init_fpstate correct with optimized XSAVE
          
 
---===============9110980743081411361==
+--===============9107932190495484326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8671093ac968-173e37d91de4.txt
+Content-Disposition: attachment; filename=revlist-173e37d91de4-662b1796a813.txt
 
-f323a52e7d515964fb0969d98704afc973b333ae iio: humidity: hdc100x: Add margin to the conversion time
-4229894755de1e4eed387ba4f55f86b292431fef iio: adc: Fix incorrect exit of for-loop
-cc2f2d89750c1048e0b1d979d086f9f38a4c6043 ASoC: intel: atom: Fix reference to PCM buffer address
-e1f29c05e7a3e02ac5f7b36306c1264dcf472a38 i2c: dev: zero out array used for i2c reads from userspace
-7ccfbfa920f4a33f07df7af02a13161cb2051f0c ACPI: NFIT: Fix support for virtual SPA ranges
-ae5c2d805202d44cb35e638ba5c021b6091f5ac3 ASoC: cs42l42: Correct definition of ADC Volume control
-20bbf66a448963a9fb1c4da9d163f9d81d36fd47 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-53cd24efa1f287db31ca86f5eec01912019c2127 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-e165fe26184fc0542c70a1ed42f2ee47f9cbb9ae ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-e26322fdd293ed24e2e380bbedad782fc5305043 net: dsa: mt7530: add the missing RxUnicast MIB counter
-a79bd2761a7bd8838dbd85357f4d1d3492792664 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-b53c0f92916493ce6b76313cc5fbf5fff3f6a11d psample: Add a fwd declaration for skbuff
-d828d1d2ebc833132af7f54a23e5ba92aacfcfc9 net: Fix memory leak in ieee802154_raw_deliver
-bb771d09ff5bd4b5c2a97a4f067a3f91deddd490 net: bridge: fix memleak in br_add_if()
-8c97e1b8b99137c3bf6e954cdec4fe9f845e24ba tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-57bd4a9bf544933672fbdab6550fa2146a2a64c3 xen/events: Fix race in set_evtchn_to_irq
-91759c62693e6d63ce68e2081b9907926e863c44 vsock/virtio: avoid potential deadlock when vsock device remove
-843a8ebf020299fceb9152d60013bdf29f8ef379 powerpc/kprobes: Fix kprobe Oops happens in booke
-707be61828f5591befda8b2f8154dd185f3d8326 x86/tools: Fix objdump version check again
-165f91b06a3029bad49b38ba56f98061e1ac6577 x86/resctrl: Fix default monitoring groups reporting
-0f691c6e2adafc531318709b801c06306d8c4c77 PCI/MSI: Enable and mask MSI-X early
-63d5bc4378da9f2a71d9fbd7f385e269a452ed50 PCI/MSI: Do not set invalid bits in MSI mask
-17d528a3bb46f55cf7af0393bfb9ff3ed2558513 PCI/MSI: Correct misleading comments
-9bd69abc730ac2542e69eedfed63bb5790bd575f PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-723de09faf5336306dd02d6de9de365e2d917724 PCI/MSI: Protect msi_desc::masked for multi-MSI
-a3fb771b9dbbd238c0a66a09d224d82cca764b40 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
-8910c7b01445c0284c47757ed223a168ccbf55d5 mac80211: drop data frames without key on encrypted links
-62c05f3441eebe796b4b3a2284ebd59545791708 KVM: nSVM: always intercept VMLOAD/VMSAVE when nested (CVE-2021-3656)
-9c0a629dc3a5269e765239239c2dfefea979380c KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
-173e37d91de4034bbb5edaba3f1210a2bef158dd x86/fpu: Make init_fpstate correct with optimized XSAVE
+ad5ba12de771689a14b050320f35d2157c795b75 iio: humidity: hdc100x: Add margin to the conversion time
+6f3f23a2d64b61e75bdb4932912efa1c65965cbe iio: adc: Fix incorrect exit of for-loop
+bc919ca4baf0bed3d279ed00aab19170e57078f1 ASoC: intel: atom: Fix reference to PCM buffer address
+caf47f49220501673e8230461fda649d2428dbf1 i2c: dev: zero out array used for i2c reads from userspace
+b62f633b6913fc2162c83380e1a3a6ff82fc75a2 ACPI: NFIT: Fix support for virtual SPA ranges
+39d0047c425169fcf16b646fc3f963f4402cd996 ASoC: cs42l42: Correct definition of ADC Volume control
+7c56374c89a7a84264eef1b5782e33accee1cb83 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+22ebd048ab30f2a1ad006f18c296eccc87a79e32 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+14c755101c3f847e51595d17273390122d701c0e ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+e85b44916cb36f63dad276e60be0476c4ea79205 net: dsa: mt7530: add the missing RxUnicast MIB counter
+48666cf30d7ad10c5adbe9bc39fd5124e6a18184 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+d9f39a7ae421d44cff16b0aea5c283207152d11d psample: Add a fwd declaration for skbuff
+9af7469ff72b6b3d00d44bd0ec307c57bd4aca5f net: Fix memory leak in ieee802154_raw_deliver
+e9f5b50fa2c10b65c00b0dd81ab5a508e27887db net: bridge: fix memleak in br_add_if()
+49c1d928441f55da5cab255c8c11a6d3b40d963a tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+155b41bb32c73bab6464b4d0b8e066727dbd4e27 xen/events: Fix race in set_evtchn_to_irq
+fa64aa6fe8aa3d13a6157f4ac67971d940363406 vsock/virtio: avoid potential deadlock when vsock device remove
+736322d42122de7516d735557a5416a05649ab58 powerpc/kprobes: Fix kprobe Oops happens in booke
+07dcb6c34959facc9c1a29cc74ef8871ac23b74f x86/tools: Fix objdump version check again
+0fdd1af8292a348c28b17a2df9c6bcfcc142ebee x86/resctrl: Fix default monitoring groups reporting
+c9278ae02c3502144bd49bf774fa626c6b6b4f2f PCI/MSI: Enable and mask MSI-X early
+ffe20101b51c3bbf633ff816ae78366c698df943 PCI/MSI: Do not set invalid bits in MSI mask
+038dcb5cdfd153430e04283aca878f4e327df52f PCI/MSI: Correct misleading comments
+1a4480c4650c718abd3146a7f2e992df2abf324e PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+27a1d38ba92764a7a3da4dcd90e9707f11acf4c6 PCI/MSI: Protect msi_desc::masked for multi-MSI
+84456a23b3084b90aab6345bc0bb9fc115a7df2e vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+5300f1941f3caddbca35eaa9fc0abbfad39de5b4 mac80211: drop data frames without key on encrypted links
+9ec1454d621e70e026cb8d428b5f18b63c381bd2 KVM: nSVM: always intercept VMLOAD/VMSAVE when nested (CVE-2021-3656)
+86cc0d254f5375cb3ecfdd410e136f5046c28e01 KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
+662b1796a8135b59c88f0755c67120384c2445db x86/fpu: Make init_fpstate correct with optimized XSAVE
 
---===============9110980743081411361==
+--===============9107932190495484326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba32c9a39e33-3827ada5b2f2.txt
+Content-Disposition: attachment; filename=revlist-3827ada5b2f2-f97db0a5fc64.txt
 
-079a1c2ab7e0982c28349a46e77dd903ea0ee222 iio: humidity: hdc100x: Add margin to the conversion time
-f8f54771ebf45c26eff5b3c9c026c2fcce9941a3 iio: adc: Fix incorrect exit of for-loop
-eb879083fe8978a7d134024dfc5c03a227a39e47 ASoC: intel: atom: Fix reference to PCM buffer address
-753b41ea4a58983b487a0e1f8f5c14bdb4ade56d i2c: dev: zero out array used for i2c reads from userspace
-3b1c820633f285a6393690ce59b39aceadd56a68 ACPI: NFIT: Fix support for virtual SPA ranges
-d0d213af81e72d923c6ee87980b19ca6d3a64c32 ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
-6c011dcff04223631eb920146f43c597f10b295c ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
-b72d22d02a87ed49cfd67ea317b46134616f6f57 ASoC: cs42l42: Correct definition of ADC Volume control
-c5fc70da4c20659ccaea2f4dd57dbd615023494d ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
-b9020bbb5a4d9e07badd36e78a76ca03de7ae80a ASoC: cs42l42: Fix inversion of ADC Notch Switch control
-cd6aff4b30d74c8911ea486f01289173c6e480ad ASoC: cs42l42: Remove duplicate control for WNF filter frequency
-a89b8d4998dac19dcba0fd9bb468d4df66a6913b ASoC: cs42l42: Fix LRCLK frame start edge
-11609518ecb16c377285f84e7eacdd018eb322c0 net: dsa: mt7530: add the missing RxUnicast MIB counter
-202a7804c0d454989b065bb41ee59a900cee7a98 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-61625ba910e64f44dd4446a6ad298b543dcd7a7e psample: Add a fwd declaration for skbuff
-a51bdff6276f2b2680009168c0b7e94bd197622e net: Fix memory leak in ieee802154_raw_deliver
-d1ae60f20f7ae4dc470505245cee1a7224e8d73f net: igmp: fix data-race in igmp_ifc_timer_expire()
-dbbd1cca71ff175313f947a4f97e0c4c371c3504 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
-95a3eabf62ecf195f43ca0ba84e5c994105c0ddd net: bridge: fix memleak in br_add_if()
-37f315b1d81c157e289dbd73f70da49e50c9387c tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-a45044c7a51801eafe18404da99d78cca7a92f70 net: igmp: increase size of mr_ifc_count
-e8fb80db71f8366eb92a07f8bf7d11065057e9e5 xen/events: Fix race in set_evtchn_to_irq
-2366fead75948ca99f0af5f1119ac0a2034df452 vsock/virtio: avoid potential deadlock when vsock device remove
-811d96a8ae0194a15814a7442edeba18b7f2d850 powerpc/kprobes: Fix kprobe Oops happens in booke
-d19bc9b5f38b5a1e9ee68465d3bfe6aa28b789b1 x86/tools: Fix objdump version check again
-903162a78a9684c53e16618b8b68513555df655a genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
-1ae398f372680e7117c3b31480af97c492161542 x86/msi: Force affinity setup before startup
-88512236e1ded730158940c77f80227ae4733876 x86/ioapic: Force affinity setup before startup
-14c8b317b48a0c2e306becb906a5cdf446adabf7 x86/resctrl: Fix default monitoring groups reporting
-9008cf01685f9a0c837d6a100e7ba0d54bc123cf genirq/msi: Ensure deactivation on teardown
-0336f0c5d2f162f90957c490bf6ead1fd920fcd5 PCI/MSI: Enable and mask MSI-X early
-5e37d5087b9dc2c3798f1057ee3b80ea09440654 PCI/MSI: Do not set invalid bits in MSI mask
-52dad57b7bc7a2ed7b09dac3c81c45c2ee450f98 PCI/MSI: Correct misleading comments
-ca4042460077006fa78f403d3d509bdb669762a4 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-258c0624c3f78b8c647aca3ea44504a28fc92dfe PCI/MSI: Protect msi_desc::masked for multi-MSI
-42a343876a021c23bc081a09e226fc95a058f103 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
-ebc662592d9b24a87eba33d6d267711977f00da6 iommu/vt-d: Fix agaw for a supported 48 bit guest address width
-ee286d14b0730548243bb436691e4d9c70edbdb2 mac80211: drop data frames without key on encrypted links
-d01c13bd55d47fd40553f33503cd79354d8e0c85 KVM: nSVM: always intercept VMLOAD/VMSAVE when nested (CVE-2021-3656)
-d6ac99e95a5f24f7e08f2c0e8ccd26230fecc010 KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
-3827ada5b2f24dc7b531b660b551e409237e34da x86/fpu: Make init_fpstate correct with optimized XSAVE
+977020fd738151c95af14e1a18393ca640d12c18 iio: humidity: hdc100x: Add margin to the conversion time
+db288b6468eb1f5565134f875b3bd7b253619c92 iio: adc: Fix incorrect exit of for-loop
+e584e0e319c771a7b3c6226e36998946319ce51f ASoC: intel: atom: Fix reference to PCM buffer address
+e4df028ce788042e6b3ecf2edd3d723a1b7fc940 i2c: dev: zero out array used for i2c reads from userspace
+b08dbe61ed23120819ef1956e68d3d6ede16c5a5 ACPI: NFIT: Fix support for virtual SPA ranges
+413aaaa52de352fc91cd249edc431414b039940e ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
+f892f549a181442eb16bf136f8a5c84c62c6b51b ieee802154: hwsim: fix GPF in hwsim_new_edge_nl
+d8a37496d8f333438e582837434e08023233fb88 ASoC: cs42l42: Correct definition of ADC Volume control
+b3c06f95d23249326f557812e10aff6000cb0f47 ASoC: cs42l42: Don't allow SND_SOC_DAIFMT_LEFT_J
+9e9f6a752127b03edfdd0b5151e66390f11495c6 ASoC: cs42l42: Fix inversion of ADC Notch Switch control
+7f3751cbe6721e73be4b8f809e67c226831af40d ASoC: cs42l42: Remove duplicate control for WNF filter frequency
+50f7a6d110b3a8069e2ca0a4b702e5137449da73 ASoC: cs42l42: Fix LRCLK frame start edge
+bc640b10b81158a0e9bbd8687054fa8b9b5df7b7 net: dsa: mt7530: add the missing RxUnicast MIB counter
+db4ac7c73f75a47953eedb5055406ae9e744f633 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+4d42e8f9d843692ef59754e2e10da13e9f112d46 psample: Add a fwd declaration for skbuff
+aa21e5502e6049bdb4c5e0d26ae9f67c20bb6d6a net: Fix memory leak in ieee802154_raw_deliver
+13a801b90a9563ad9ef471dcfccb954eba439120 net: igmp: fix data-race in igmp_ifc_timer_expire()
+bacb589170179dbbd80caa4dbef482e5454ec6a8 net: dsa: lan9303: fix broken backpressure in .port_fdb_dump
+71c8401a3fdec67d59febec270e49e9557dc9b13 net: bridge: fix memleak in br_add_if()
+b7e8bc8651ba4579ea2087b2e813e000b9b4f177 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+dd84f97e31ae8937e3ddfe264625c2b8ea1e817d net: igmp: increase size of mr_ifc_count
+9c7a8c494de5fda5027cb9749571ff1d9e027a71 xen/events: Fix race in set_evtchn_to_irq
+c9d5778dd3624edea1f4cc43ee13ac42c8af7a84 vsock/virtio: avoid potential deadlock when vsock device remove
+87f588a6fbf5abb243b594d2c336a46b2106be63 powerpc/kprobes: Fix kprobe Oops happens in booke
+3bc3b895accf49dffe699a39dabaf429bc8568e6 x86/tools: Fix objdump version check again
+3bbab090457bb2c40a0bd67ad4c814a64f68b7d6 genirq: Provide IRQCHIP_AFFINITY_PRE_STARTUP
+e2dbcfd38aa7596894a37119566c1ebd8ff3e449 x86/msi: Force affinity setup before startup
+3f2ebba867365a40344f488aee22e14caecaf012 x86/ioapic: Force affinity setup before startup
+6a75ec8260a3e577e63926043b709b7afee86fd0 x86/resctrl: Fix default monitoring groups reporting
+5a63dc5304df41d8299b89ce30557e2be292f3a7 genirq/msi: Ensure deactivation on teardown
+4efc4c17639a48f8e4998b200f332e2b60ba2af6 PCI/MSI: Enable and mask MSI-X early
+a41d3920fe482339a34a6fb3093ec5caeed088de PCI/MSI: Do not set invalid bits in MSI mask
+c267e67f08c9ecd470dbcc72b411e8a97ab0f6fe PCI/MSI: Correct misleading comments
+2bf65bd611d3272405e78339bcc08ed5daee70d6 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+6b57e86968e6f87360026eb110651d7b576e4174 PCI/MSI: Protect msi_desc::masked for multi-MSI
+a46be6c52de341e3884d87965043de52e714cdca vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+b1905ed2487cf2c87ee880a9e13e07518c092fcd iommu/vt-d: Fix agaw for a supported 48 bit guest address width
+144a22f88162d7d081fd0ca8443e735996a88312 mac80211: drop data frames without key on encrypted links
+ec15c6289af0f342cebc4b6ddd8952426ed66f90 KVM: nSVM: always intercept VMLOAD/VMSAVE when nested (CVE-2021-3656)
+702f862ec586fa1be4e2fe6f24f589e2ca38ce51 KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
+f97db0a5fc649e29db3b5566ec593f9e86685c98 x86/fpu: Make init_fpstate correct with optimized XSAVE
 
---===============9110980743081411361==
+--===============9107932190495484326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-604bd00f672d-107758f10f11.txt
+Content-Disposition: attachment; filename=revlist-107758f10f11-cc79a00d3e9f.txt
 
-c318bd2a78bf4d1f450901d31792e22864c0c39b ASoC: intel: atom: Fix reference to PCM buffer address
-9051aa6b972cd06cce617ca6b7944eb9149c03cf i2c: dev: zero out array used for i2c reads from userspace
-a4f0f1448aeb260692fb0ece9e7ceec71c6f39df net: Fix memory leak in ieee802154_raw_deliver
-37374cf9da405ee7afa7bd33dbe6dc104537244a xen/events: Fix race in set_evtchn_to_irq
-bb79d8adc6b6678df8d76307a4af473814340f86 x86/tools: Fix objdump version check again
-780ebd169a47653c68bde42188caa77dc727c9b6 PCI/MSI: Enable and mask MSI-X early
-fe9ab44de19452449206862d987de4162e826b5c PCI/MSI: Do not set invalid bits in MSI mask
-fbe2f4b9e2e89ce8e2d2dedc689d117cb41e72ed PCI/MSI: Correct misleading comments
-21e72962a301fa4b73b78a67cb62fa2d1d9e9c1a PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-ce8c666e8f701711856a5760f2e4673bb5f64f67 PCI/MSI: Protect msi_desc::masked for multi-MSI
-868822d987464d47ab2ca721167f8a1fbfad740c PCI/MSI: Mask all unused MSI-X entries
-f66557327a66a7239f21b82685ab748143d14622 PCI/MSI: Enforce that MSI-X table entry is masked for update
-fbe034928e8eddb6bcdfc038e51d41abbcdadf8c PCI/MSI: Enforce MSI[X] entry updates to be visible
-7dbd27129df86b5620df5f8fc80c402e8ba23172 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
-107758f10f11d6e26e32019efce606965159d766 KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
+141c75a34477d372a4c2e7b0c715163bfcb0af4a ASoC: intel: atom: Fix reference to PCM buffer address
+1291817c799ceaf58a3ec1c51444f45791b0530e i2c: dev: zero out array used for i2c reads from userspace
+42054e4be4fd83d2f7b30af10db2d1c9c84bc86b net: Fix memory leak in ieee802154_raw_deliver
+bbcf63857104156f31565a7e1fee703419320ebc xen/events: Fix race in set_evtchn_to_irq
+c8d9adf22b31b9666ecd2773e8d7c46a7eebb286 x86/tools: Fix objdump version check again
+30faeda16fa267aae0c9a744654998de75369913 PCI/MSI: Enable and mask MSI-X early
+3d8e6de9596805d1cc3866a584b42158ffd3c077 PCI/MSI: Do not set invalid bits in MSI mask
+10b9c1def211d9b94e66c60b232c98ee1d448875 PCI/MSI: Correct misleading comments
+99020c4e1066fbb83a235f0cf4ec877f46a7d343 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+b6979a1a935666553e3dd851a49fcfcaa14b39ec PCI/MSI: Protect msi_desc::masked for multi-MSI
+8eac693b37a32e6fdf8d9e3d1d5c74f18b8316f4 PCI/MSI: Mask all unused MSI-X entries
+bbac007697dae9308d79d844ca3b3354c4a49efa PCI/MSI: Enforce that MSI-X table entry is masked for update
+211c55bed86e22328d50f596303853f025fa4186 PCI/MSI: Enforce MSI[X] entry updates to be visible
+9874911fc8629989b8e1f17694fa0f892c923125 vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+cc79a00d3e9fd94caf751de78bbf4179c4ed98f5 KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
 
---===============9110980743081411361==
+--===============9107932190495484326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-057347b18f79-1f83da8b3dda.txt
+Content-Disposition: attachment; filename=revlist-1f83da8b3dda-1471bc15c7cd.txt
 
-8496b747049595e1896af0155fde6662dd9013a3 iio: adc: Fix incorrect exit of for-loop
-07c64ed460791406a155bbd92299027b76cd88c7 ASoC: intel: atom: Fix reference to PCM buffer address
-03acec523b03b9c8b19b2410d29c47f47ffdf028 i2c: dev: zero out array used for i2c reads from userspace
-33966bba9c955f0b082bf1b12bd5196574662ed9 ACPI: NFIT: Fix support for virtual SPA ranges
-af6db78aca624e01312628d9d978b8a937133db0 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
-a4b921982e3c51310669de63ecd658d8c377ac71 net: Fix memory leak in ieee802154_raw_deliver
-c3301c410ab7f19292c80803745d93b0efa80aa1 net: bridge: fix memleak in br_add_if()
-0b6918bb60f033a3dcf15379a18dd0e8c0f90dc7 tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
-644bc500543a186dd70cbcdaf311f544be2a123c xen/events: Fix race in set_evtchn_to_irq
-e5d65b131111f628f2b555e8a83de1120d8c359d x86/tools: Fix objdump version check again
-4b67cb7a34fbe06b552a262da3960f29dacd937a PCI/MSI: Enable and mask MSI-X early
-f0360bd6e73131dd5739f13b4eec08eddedde546 PCI/MSI: Do not set invalid bits in MSI mask
-869beca88dcbf17b20b01a3b5292590efec25458 PCI/MSI: Correct misleading comments
-c302dd06c4ce26c5a598a91560007ba87b3ec42e PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
-a65af40a30323ec532206ae7bf79077782635201 PCI/MSI: Protect msi_desc::masked for multi-MSI
-092302f0dc5d7d47fec752ede3ef39e0541e05cc vmlinux.lds.h: Handle clang's module.{c,d}tor sections
-ba3b28fb13c4a0dc616def41ce42a51891d43924 mac80211: drop data frames without key on encrypted links
-f9f53ca9bcaf3675e2450973188a369171768b9c KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
-1f83da8b3dda5057337ed3dcd5231eff5e715552 x86/fpu: Make init_fpstate correct with optimized XSAVE
+0cb1913c516f941d14f6abbe78fbcfcfeb8104b5 iio: adc: Fix incorrect exit of for-loop
+4bdea4c471c3cd5c9e8f038ea2b9b877ccbb7136 ASoC: intel: atom: Fix reference to PCM buffer address
+d69ca71b46d72415e7ace4403a00057ad50de5fb i2c: dev: zero out array used for i2c reads from userspace
+9e354a522ee2e8244ee4ea00292994bdef5d0478 ACPI: NFIT: Fix support for virtual SPA ranges
+ee400f11cfde7b89e00a60a4da75c0600fe37140 ppp: Fix generating ifname when empty IFLA_IFNAME is specified
+9750791d9988d6d5619b606d28973e30f89cc767 net: Fix memory leak in ieee802154_raw_deliver
+ec6653909e25eb528a05a8b777e077974351e75a net: bridge: fix memleak in br_add_if()
+4b978b2b486bca436dca46338ae42cbed521f2ad tcp_bbr: fix u32 wrap bug in round logic if bbr_init() called after 2B packets
+05cf936d0918ab96f03e7eb82684d56e57e8f118 xen/events: Fix race in set_evtchn_to_irq
+879ae4af2765b5fbded750bd8333690ffc647060 x86/tools: Fix objdump version check again
+6a5bd9ba7ff514e6c5c89ba482c5f82a9c7c99de PCI/MSI: Enable and mask MSI-X early
+229296e10d5d8ba5d73a4f6c2c987d9407a0dd54 PCI/MSI: Do not set invalid bits in MSI mask
+1d1b5df048ad9d307265b35685b38e048197153f PCI/MSI: Correct misleading comments
+f8f6cb921706905ecbde7828714aaa688641e1b7 PCI/MSI: Use msi_mask_irq() in pci_msi_shutdown()
+d0d66b08242f042ea8cac4a82506198521a9ae62 PCI/MSI: Protect msi_desc::masked for multi-MSI
+febee01390f5446c6c78945ec23208ed6c7af22c vmlinux.lds.h: Handle clang's module.{c,d}tor sections
+afa90aadc20f38e7c0aacc072fa3a8a596f4db73 mac80211: drop data frames without key on encrypted links
+bc5e17adab55b527bf68c687b03a1e928fbc8732 KVM: nSVM: avoid picking up unsupported bits from L2 in int_ctl (CVE-2021-3653)
+1471bc15c7cd9d62b3db320c7a5e25bd1d397c44 x86/fpu: Make init_fpstate correct with optimized XSAVE
 
---===============9110980743081411361==--
+--===============9107932190495484326==--
