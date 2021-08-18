@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5542961239333174381=="
+Content-Type: multipart/mixed; boundary="===============1610132555350112783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 18 Aug 2021 08:17:07 -0000
-Message-Id: <162927462774.32008.4922866043726579244@gitolite.kernel.org>
+Date: Wed, 18 Aug 2021 08:17:19 -0000
+Message-Id: <162927463946.32138.8306006976430086323@gitolite.kernel.org>
 
---===============5542961239333174381==
+--===============1610132555350112783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: ecd92e2167c30faa18df21e3ec3dbec510ddebaa
-    new: 2a671f77ee49f3e78997b77fdee139467ff6a598
-    log: revlist-ecd92e2167c3-2a671f77ee49.txt
+  - ref: refs/heads/for-next
+    old: e6e9bca186a091f1fbbfe202c65b1e4f099476a2
+    new: 54157006715d6c48d7265d23a2293517005946ba
+    log: revlist-e6e9bca186a0-54157006715d.txt
 
---===============5542961239333174381==
+--===============1610132555350112783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ecd92e2167c3-2a671f77ee49.txt
+Content-Disposition: attachment; filename=revlist-e6e9bca186a0-54157006715d.txt
 
 3ff340e24c9dd5cff9fc07d67914c5adf67f80d6 bus: ti-sysc: Fix gpt12 system timer issue with reserved status
 7c1a80e80cde008f271bae630d28cf684351e807 net: xfrm: fix memory leak in xfrm_user_rcv_msg
@@ -928,6 +928,20 @@ b045b8cc865316062e520693ad6c8bac85aabece Merge tag 'x86_urgent_for_v5.14_rc6' of
 c4f14eac22468b76476b8ee2a5d1d3555a1d8307 Merge tag 'irq-urgent-2021-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ecf93431963a95c0f475921101bedc0dd62ec96d Merge tag 'powerpc-5.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7c60610d476766e128cc4284bb6349732cbd6606 Linux 5.14-rc6
+cec0c58d34f26a8ed7bf7ca8726608edbac7e958 s390/cio: add rescan functionality on channel subsystem
+d3683c055212bf910d4e318f7944910ce10dbee6 s390/cio: add dev_busid sysfs entry for each subchannel
+eade5f61a56f7589ebc5d321bfa2fdf349552e45 s390/qdio: use absolute data address in ESTABLISH ccw
+e2af48df5cc6bd6327697af44cc3f0d5e88611a2 s390/qdio: remove unused sync-after-IRQ infrastructure
+10376b53502ef14661274c40a78cb860b54455fa s390/qdio: clean up SIGA capability tracking
+87e225bfa0015aee2812246de56a09126a743192 s390/qdio: fine-tune the queue sync
+f86991b3a95ab245510ccd111926d1f40ae13b91 s390/qdio: use dev_info() in qdio_print_subchannel_info()
+44d9a21a19bd40c063a9a7ae823ec570f9ea4850 s390/qdio: consolidate QIB code
+9f79b5495145e295af8519a90c456fd3ab3c50c4 s390/qdio: remove unused support for SLIB parameters
+cf6031d0da5fa3d2eeddbbcae10245705e5d1d49 s390/mm: remove unused cmma functions
+8617bb74006252cb2286008afe7d6575a6425857 s390/zcrypt: fix wrong offset index for APKA master key valid state
+7c0eaa78b9cddf56a9b1ae45b6b12bcfb0f34cec s390/sclp: reserve memory occupied by sclp early buffer
 2a671f77ee49f3e78997b77fdee139467ff6a598 s390/pci: fix use after free of zpci_dev
+248d8db995e719622f601263317e46a13eb040bc Merge branch 'fixes' into for-next
+54157006715d6c48d7265d23a2293517005946ba Merge branch 'features' into for-next
 
---===============5542961239333174381==--
+--===============1610132555350112783==--
