@@ -1,30 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8208935175450711025=="
+Content-Type: multipart/mixed; boundary="===============3344664840315005399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 18 Aug 2021 08:44:55 -0000
-Message-Id: <162927629582.18140.722880374920933737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
+Date: Wed, 18 Aug 2021 08:53:38 -0000
+Message-Id: <162927681800.25143.3678266784501261918@gitolite.kernel.org>
 
---===============8208935175450711025==
+--===============3344664840315005399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
+user: bigeasy
 changes:
-  - ref: refs/heads/testing
-    old: d484c21bacfa8bd2fa9fc26393ec59108f508c4c
-    new: cbfa6f33e3a685c329d78e06b0cf1dcb23c9d849
-    log: revlist-d484c21bacfa-cbfa6f33e3a6.txt
+  - ref: refs/heads/linux-5.14.y-rt
+    old: 81f8d5b13e5b54009c397f4ba6adaf95f020e5ca
+    new: 289ba7818d93b2563583bbb71270106a4b433406
+    log: |
+         e06ab49b0596ad1ab22815a1473bc717619b3182 locking: Allow to include asm/spinlock_types.h from linux/spinlock_types_raw.h
+         c8a9ab92ce43c296f6f680a63f0f3e1aed14843e locking/local_lock: Use a spin_lock_t on PREEMPT_RT
+         1f71ae8bfaed011471047c0bd73558d31ef928f0 locking: Sync the patches which tip/locking/core
+         34e485101b4fdb2628920ee993dccc2311a342a2 cpu_pm: Make notifier chain use a raw_spinlock_t
+         ea9f4e51e767b186573ecfe7a3c48dc5b3e9e3c5 mm: Update Vlastimil Babka's SLUB series
+         c213394e746d205ba0ffa13170efdb57dd9c0bc7 rcu, arm64: PREEMPT_RT fixlets
+         e05cb9f77f2b87077d669c7ff98b7b670e8dedc9 rcutorture: Don't disable softirqs with preemption disabled when PREEMPT_RT
+         289ba7818d93b2563583bbb71270106a4b433406 v5.14-rc6-rt11
+         
+  - ref: refs/heads/linux-5.14.y-rt-patches
+    old: 7909bbc59ec2a39c42b7b71d0ba1bbfb837c79e5
+    new: 32ffa5bc13e5bb878b58b8b8f437e5caddc45fe0
+    log: |
+         32ffa5bc13e5bb878b58b8b8f437e5caddc45fe0 [ANNOUNCE] v5.14-rc6-rt11
+         
+  - ref: refs/heads/master
+    old: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+    new: 7c60610d476766e128cc4284bb6349732cbd6606
+    log: revlist-36a21d51725a-7c60610d4767.txt
 
---===============8208935175450711025==
+--===============3344664840315005399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d484c21bacfa-cbfa6f33e3a6.txt
+Content-Disposition: attachment; filename=revlist-36a21d51725a-7c60610d4767.txt
 
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
 e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
@@ -333,50 +352,5 @@ b045b8cc865316062e520693ad6c8bac85aabece Merge tag 'x86_urgent_for_v5.14_rc6' of
 c4f14eac22468b76476b8ee2a5d1d3555a1d8307 Merge tag 'irq-urgent-2021-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ecf93431963a95c0f475921101bedc0dd62ec96d Merge tag 'powerpc-5.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7c60610d476766e128cc4284bb6349732cbd6606 Linux 5.14-rc6
-a30514a076cfe4b1962980e946a759f5556cf4a5 Merge 5.14-rc6 into staging-next
-6a78bb5c4f92d1a3a2fa5c6bad56c57b916c6a33 staging: r8188eu: remove 5GHz code from Hal_GetChnlGroup88E()
-1cb5715d273e931e093804e0d81145c9edf15ace staging: r8188eu: convert return type of Hal_GetChnlGroup88E() to void
-16fe4b303e226739787ee206437bf42b4caf82fe staging: r8188eu: rename parameter of Hal_GetChnlGroup88E()
-40ba17da86cb9ed6ec1457bd05db77df94d09c96 staging: r8188eu: rename Hal_GetChnlGroup88E()
-b38447035aedef5861732dcbf048a0c226073768 staging: r8188eu: Remove variables and simplify PHY_SwChnl8188E()
-a4adfa836c5289df905af19edc9727fc275dc1a1 staging: r8188eu: Remove unnecessary ret variable in rtw_drv_init()
-11fc4822f9c08c80c55df2303a8b9c42566b74b8 staging: r8188eu: remove ODM_GetRightChnlPlaceforIQK()
-7c715fbce5d300bb782e2b92afab371bc9b8c697 staging: r8188eu: os_dep: Remove defined but not used variables
-099ec97ac92911abfb102bb5c68ed270fc12e0dd staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
-027ed956b526350d7098e31731fa81c5579c2e68 staging: r8188eu: remove kernel version depended code paths
-f33ce7100b6b189362cf9d7a9d7e3333b6ba427a staging: r8188eu: use common ieee80211 constants
-cd40705f6b27313536836e4d3974873bf4e10247 staging: r8188eu: remove inline markings from functions in rtw_br_ext.c
-ff63261978ee1f00758f447d63276a6f180a81dc staging: r8188eu: remove ipx support from driver
-9caf92ab573fd83c7455b65d4eefcefc1a9d2188 staging: r8188eu: Remove unused nat25_handle_frame()
-9d9d90a9af5472e0698cc5fb7b2acc37e5837c95 Merge tag 'iio-for-5.15b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
-8694ef2d90b221cbe7ee67e1edc04414c05999ca staging: r8188eu: add spaces around operators in core/rtw_ap.c
-f1249cfdb35854d1a29b825f53a73cde8ed2b2a2 staging: r8188eu: rewrite subtraction in core/rtw_cmd.c
-8ccacd41b6d6f7f06fa1a4f602c8fd3e6ad51237 staging: r8188eu: remove unnecessary parentheses in core/rtw_cmd.c
-575da340cdb6aa9b4aa331d95c8a470ea976fe0f staging: r8188eu: clean up spacing style issues in core/rtw_cmd.c
-2d8f67a53a2a2b82a33ff71f0fa310a3dae9f3f1 staging: r8188eu: clean up spacing style issues in core/rtw_efuse.c
-4842e46f703c484598cf055ae4bc108fdf4b26d6 staging: r8188eu: clean up spacing style issues in core/rtw_ieee80211.c
-35f1fa01c1c2e829f12e03d49c71f2c5625c6c0d staging: r8188eu: simplify multiplication in core/rtw_ioctl_set.c
-292c8398d17537340aefe9b833be548286f8d839 staging: r8188eu: clean up spacing style issues in core/rtw_ioctl_set.c
-174b79fcd0719e515e4dd3f57c33727998cbfc18 staging: r8188eu: add spaces around operators in core/rtw_iol.c
-c891e014b5796e84a6240e25ec51157d5dd9c8ff staging: r8188eu: clean up spacing style issues in core/rtw_mlme.c
-4257c1c3b0fcb573aba7055db32d00567aac0083 staging: r8188eu: clean up spacing style issues in core/rtw_mlme_ext.c
-61249f2268b5e309bbfb9ed148efb134360fbc24 staging: r8188eu: clean up spacing style issues in core/rtw_mp.c
-0296ded555ba48711ba04737fd3fb2971b67eaa6 staging: r8188eu: clean up spacing style issues in core/rtw_mp_ioctl.c
-58bd6fc51411f5cfe2817318c5e6801c46b1243f staging: r8188eu: clean up spacing style issues in core/rtw_p2p.c
-63852ff22d8a6159de4e74b54ca74c1320140e7c staging: r8188eu: clean up spacing style issues in core/rtw_pwrctrl.c
-7527c5ea758cc5219bdf1844c669048653b6c9c8 staging: r8188eu: clean up spacing style issues in core/rtw_recv.c
-88a924bf3f8e895a45a88b6a1178afc580c8f94c staging: r8188eu: clean up spacing style issues in core/rtw_security.c
-2dcdb9d1a6f670a04b0ca6492efb011254c7b44a staging: r8188eu: add spaces around operators in core/rtw_wlan_util.c
-6b6fdf7341d5532e17ca152947ac3a9bdbdcf388 staging: r8188eu: clean up spacing style issues in core/rtw_xmit.c
-77cb924ec6913d3b46816dc964d83c9a775eaba0 staging: r8188eu: clean up spacing style issues in core/rtw_debug.c
-3ec10b9d8ead9accdf7c46ade5ab0eca6ff9e2eb staging: r8188eu: add space around operator in core/rtw_sreset.c
-438bb20f00a738c38bf148e134efcfb394d73191 staging: r8188eu: clean up spacing style issues in core/rtw_sta_mgt.c
-550b1cda158c8472984f1e7f86478f154c16a7d3 staging: r8188eu: clean up spacing style issues in hal dir, part 1
-ea105f21c94fd3d40865ba6a4d1e61a310e86336 staging: r8188eu: clean up spacing style issues in hal dir, part 2
-47a0bab3d95f6897b35eba7279441df4f4d5cc29 staging: r8188eu: clean up spacing style issues in hal dir, part 3
-10e13123973bcde7c5d1d2a37a38e4c69a973e98 staging: r8188eu: clean up spacing style issues in os_dep dir
-25bcf747bdfdb413154a3d47985113474dc8133d staging: r8188eu: remove set but unused variable from rtl8188e_Add_RateATid
-8f9172d26ca5e4892b09fa670357d195305e5541 staging: r8188eu: remove unneeded DBG_88E call from rtl8188e_Add_RateATid
-cbfa6f33e3a685c329d78e06b0cf1dcb23c9d849 clk: staging: correct reference to config IOMEM to config HAS_IOMEM
 
---===============8208935175450711025==--
+--===============3344664840315005399==--
