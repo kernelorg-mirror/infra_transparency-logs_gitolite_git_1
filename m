@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3765455159566574373=="
+Content-Type: multipart/mixed; boundary="===============8928519534226176307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 18 Aug 2021 21:43:05 -0000
-Message-Id: <162932298525.25512.5974805291324944555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 18 Aug 2021 21:43:11 -0000
+Message-Id: <162932299147.25604.18363923673069660728@gitolite.kernel.org>
 
---===============3765455159566574373==
+--===============8928519534226176307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 0ce0c21e21fa466fb5a51728a25ce10465acba26
-    new: b38757f67c04998212e9a6364ca712e2fe608ce4
-    log: revlist-0ce0c21e21fa-b38757f67c04.txt
+  - ref: refs/heads/queue-rc
+    old: b2d9ba4ca7f6a961ab27d957cdf59ae172cc7fa9
+    new: 3a58a181becac72011dcc3d7ff90d366d1c53d46
+    log: revlist-b2d9ba4ca7f6-3a58a181beca.txt
 
---===============3765455159566574373==
+--===============8928519534226176307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ce0c21e21fa-b38757f67c04.txt
+Content-Disposition: attachment; filename=revlist-b2d9ba4ca7f6-3a58a181beca.txt
 
 0f673c16c850250db386537a422c11d248fb123c iwlwifi: pnvm: accept multiple HW-type TLVs
 a5bf1d4434b93394fa37494d78fe9f3513557185 iwlwifi: add new SoF with JF devices
@@ -58,5 +58,7 @@ a786e3195d6af183033e86f0518ffd2c51c0e8ac net: asix: fix uninit value bugs
 730a3885b0cbe425d46a0af3e921ade4edf405bd net/mlx5e: Explicitly set indication to destroy and modify of inner TIRs
 46c457b3fd99929159d934f8cf73853d7753574a Merge branch 'mlx4-for-net' into net-rc
 b38757f67c04998212e9a6364ca712e2fe608ce4 Merge branch 'mlx5-for-net' into net-rc
+2000dc4babab8b08936568e346a6428f77f595a2 Merge branch 'net-rc' into queue-rc
+3a58a181becac72011dcc3d7ff90d366d1c53d46 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============3765455159566574373==--
+--===============8928519534226176307==--
