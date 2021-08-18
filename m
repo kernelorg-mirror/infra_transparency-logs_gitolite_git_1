@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5034183580638588333=="
+Content-Type: multipart/mixed; boundary="===============2088653093589857490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 18 Aug 2021 08:01:23 -0000
-Message-Id: <162927368341.21520.2559502489011509300@gitolite.kernel.org>
+Date: Wed, 18 Aug 2021 08:01:33 -0000
+Message-Id: <162927369338.21647.7770128841863876849@gitolite.kernel.org>
 
---===============5034183580638588333==
+--===============2088653093589857490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: e4637f621203cb482f3ddb590cfe9f65045d92a6
-    new: 3349d3625d62e4c0d90e854a5b7e8efda8a5c994
-    log: revlist-e4637f621203-3349d3625d62.txt
+  - ref: refs/heads/mlx5-queue
+    old: 9bdf9c5c5e6fd4871df2bc2926ac7262353e3107
+    new: 9a69be9982e7d3d7d35a356d2bc6d982dd6121a4
+    log: revlist-9bdf9c5c5e6f-9a69be9982e7.txt
 
---===============5034183580638588333==
+--===============2088653093589857490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4637f621203-3349d3625d62.txt
+Content-Disposition: attachment; filename=revlist-9bdf9c5c5e6f-9a69be9982e7.txt
 
 23a890d493e3ec1e957bc925fabb120962ae90a7 net: mdio: Add the reset function for IPQ MDIO driver
 c76ee26306b2b6ba66540fc4a49a70f427b07a82 MDIO: Kconfig: Specify more IPQ chipset supported
@@ -103,5 +103,42 @@ affce9a774ca2514aaa5638fde92c57a476dfd79 net: bridge: mcast: toggle also host vl
 5ac49f3c2702f269d31cc37eb9308bc557953c4d iavf: use mutexes for locking of critical sections
 6e9078a667a36455afb438346c693590b3c975cf i40e: Fix spelling mistake "dissable" -> "disable"
 3349d3625d62e4c0d90e854a5b7e8efda8a5c994 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+4eee4299ad1108563b87a139f38df6b11e1baeca net/mlx5: Add support in bth_opcode as a match criteria
+4b727af70fb7962fa9e785cea62a63b5d2f84620 net/mlx5: Lag, don't update lag if lag isn't supported
+c722df989a1dac64f25e5a32a75731d0c1211d71 net/mlx5: Add priorities for counters in RDMA namespaces
+acf58f21efb1f270b8977a66ea6c395ad2a17dae RDMA/counters: Support to allocate per-port optional counter statistics
+ad65156758ce891a2a3a664dcdf6541d949a4377 RDMA/mlx5: Add alloc_op_port_stats() support
+10d75baceddd7c2e628db7ea76378a569dd147a7 RDMA/mlx5: Add steering support in optional flow counters
+5e7d48a96cd373ea285ec1e711d6b100f69a6f0e RDMA/nldev: Add support to add and remove optional counters
+dee9f596cc8159039c0e2b251af6cefbc59bf6e8 RDMA/mlx5: Add add_op_stat() and remove_op_stat() support
+005cc163ba102aa205c9fa2cbc261e4ec6e902d4 RDMA/nldev: Add support to get optional counters statistics
+1d7972f8bd2d49b4f155757bfd3b0cc13087b30d RDMA/mlx5: Add get_op_stats() support
+9e08e44cb672520ce114a3d4aa6c0cbece579515 RDMA/nldev: Add support to get current enabled optional counters
+efb8e6c8824cb314fe68a129265f48d9ad3cfdc2 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+068de9304251cf4b02e15e9db4fedb593345f785 net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+97da61e1824c701d9c30770e87250e25079c9693 net/mlx5: DR, Split modify VLAN state to separate pop/push states
+29593e5be8da0392ec634ba20e0e0d2abe86c5f6 net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+8b1a378a97bba3d67f3051d430c1b7c882ad3406 net/mlx5: DR, Enable QP retransmission
+3705f8d4872a21b73f5355df76e9eb95831b68ed net/mlx5: DR, Improve error flow in actions_build_ste_arr
+4ade5a21fe3c28bac36a159db16289bbe3a8d516 net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+26674763c8500f9ac47a211d144f275a0eb35dfd net/mlx5: DR, Reduce print level for FT chaining level check
+d143f0df2394ff91db3ce60c24f0d31ef90b7b63 net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+65d22a041a2fd69a4c48a9c7e1f92b10faeec11e net/mlx5: DR, replace uintN_t with kernel-style types
+5ce6b83e0e05e718d1e394c590819632c0200bfd net/mlx5: DR, Use FW API when updating FW-owned flow table
+f0184ec35e829dbfd0dce5d105246ec60ec52572 net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+fe233e9b046071d5173ec6790cb33ae8f36ff793 net/mlx5: DR, Skip source port matching on FDB RX domain
+2cab011bec102f6d8648725acf86611f636486e1 net/mlx5: DR, Merge DR_STE_SIZE enums
+88dc3890d82a489bd13a8485bda9d6f47e88e674 net/mlx5: DR, Remove HW specific STE type from nic domain
+8ddd33de6f6f988fbb37d137da9dbc30916c9239 net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+ff7cbda0d6561e86d7969bea94fbc7a311b3a7b7 net/mlx5: DR, Improve rule tracking memory consumption
+59593caf16562e0caec12b30cb5f832040529dba net/mlx5: DR, Add support for update FTE
+e0390581d6c7d8789c32757bb3240b980c2795ac net/mlx5: DR, Fix code indentation in dr_ste_v1
+7dcd0a59b100d0e8bacdf4a0240390df7d2a549e Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+8b3ad79b92831154ef0767fe5e7e6aa9db02400f Merge branch 'patchq/423189' into mlx5-queue
+9f1e9b33b31578cc59b67c3a9efab241498a353a Merge branch 'patchq/413311' into mlx5-queue
+e7650605442b30903556a9c2f036e1fe86f1025d Merge branch 'patchq/419320' into mlx5-queue
+456a148f6f0e40ff1bcc5b97fcddb0360eb3bd3d net/mlx5: Lag, fix multipath lag activation
+a5e217c9eb72da5ade501ddd7464ee50b7a06038 Merge branch 'patchq/412107' into mlx5-queue
+9a69be9982e7d3d7d35a356d2bc6d982dd6121a4 Merge branch 'patchq/411074' into mlx5-queue
 
---===============5034183580638588333==--
+--===============2088653093589857490==--
