@@ -1,41 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1200243511265300736=="
+Content-Type: multipart/mixed; boundary="===============3095792069378405112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 18 Aug 2021 19:53:35 -0000
-Message-Id: <162931641562.19496.14439020465157773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 18 Aug 2021 20:30:41 -0000
+Message-Id: <162931864136.11723.15434680625681825518@gitolite.kernel.org>
 
---===============1200243511265300736==
+--===============3095792069378405112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 4513fb87e1402ad815912ec7f027eb17149f44ee
-    new: cf39e60c83f1eddcf93d36fe01f1440a91d25214
-    log: revlist-4513fb87e140-cf39e60c83f1.txt
+  - ref: refs/heads/usb-testing
+    old: 2af0c5ffadaf9d13eca28409d4238b4e672942d3
+    new: e4788edc730a0d2b26e1ae1f08fbb3f635b92dbb
+    log: |
+         72dd1843232c9de48e21dc1c85d169fe5328e52e USB: EHCI: Add register array bounds to HCS ports
+         e4788edc730a0d2b26e1ae1f08fbb3f635b92dbb USB: EHCI: Add alias for Broadcom INSNREG
+         
 
---===============1200243511265300736==
+--===============3095792069378405112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4513fb87e140-cf39e60c83f1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4b522bbf80f67ff17c0cc1fe66654202810b4482 pinctrl/rockchip: always enable clock for gpio controller
-e1450694e94657458395af886d2467d6ac3355af pinctrl/rockchip: separate struct rockchip_pin_bank to a head file
-5f82afd868a04f65630c22f75b40c60cba418b8e pinctrl/rockchip: add pinctrl device to gpio bank struct
-75d1415ea57c1b0e87f786e85e5f478fab5c91be dt-bindings: gpio: change items restriction of clock for rockchip,gpio-bank
-936ee2675eee1faca0dcdfa79165c7990422e0fc gpio/rockchip: add driver for rockchip gpio
-ff96a8c21cdbf4a36fbad341af3a41db44bbf878 gpio/rockchip: use struct rockchip_gpio_regs for gpio controller
-3bcbd1a85b68e5f864029fd6f0bb0bcc8e2f1082 gpio/rockchip: support next version gpio controller
-93103f6eb09ca5152ef9173ec8b91b78df1905e8 gpio/rockchip: drop irq_gc_lock/irq_gc_unlock for irq set type
-9ce9a02039de72ec8af1bd4bff14f1780337ffcc pinctrl/rockchip: drop the gpio related codes
-6ecd53f49fad3dc2de2f34a035ffb06bd1972fde Merge remote-tracking branch 'linusw/ib-rockchip' into irq/generic_handle_domain_irq
-cf39e60c83f1eddcf93d36fe01f1440a91d25214 Merge branch irq/generic_handle_domain_irq into irq/irqchip-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629318638 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1629318638-f41763f47bf080fc20dbcc6e59d37dd83fba5432
 
---===============1200243511265300736==--
+2af0c5ffadaf9d13eca28409d4238b4e672942d3 e4788edc730a0d2b26e1ae1f08fbb3f635b92dbb refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEdbe4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2mEQAK/HKEY7DtZy4HoN32FF
+IaS/Q5/aPgD4Jbu7eihJrE1nEFHwUlqE03DDRbQc0qhGev0wzif2i6Canqv4wDvd
+YS9leFSUGu5aCNJu0VQ1EhOUMUNr/ICRuI3iHEpO7vOhZp24FkLXRryWBrKi7Zhx
+CelNTgDIOxEItPCvBLpj8l32C28pSxweddwq6WxdhDMUKBa4nkhizyyNKeXy9m2q
+/RSyXWcszD/etMXSnul5pcWBlIXoWG3BtacHDC1v/HJ2/FSGlymgfZnC0l3J8K4m
+Iaw4UEqMAd6hsXV+DVaDxD9Pc2645HwtiOe3oOWSYW75dJpSQXJQygzcUNPRKE96
+vt0lr9uSDNYV367z8qvYNUgOOTsmRilklDvAq+MQmmaF0NjYtVo10SsZbLSZcquS
+aqIuCnxjIeyfCUIx/IL1b0hv3hwU22p7mPtlfwYD7qZZ5iIPGLJv57mr6VTv7Hgs
+IBxq4MU1J1cueyCyE9NuIn+2QP1V0ReYwzc2GX62fs73qlUiTCV+XXwB42LwGLuw
+eKebFSF0DW5Dk5Bk3Cizv/31CLFgvgeHs+iNdlruMpmTWrtxzgcfgv1MfeeCbRis
+q4J4GqEBpxPOC8G/ln7XtvPnv0oD4xv7Upl5EfP88mzTS7iAeCC9wkBl/hRRhnDZ
+hGLDNdz2ios1u7wCk7KmGK/D
+=pkSD
+-----END PGP SIGNATURE-----
+
+--===============3095792069378405112==--
