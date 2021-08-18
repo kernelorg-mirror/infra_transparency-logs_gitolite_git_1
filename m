@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 18 Aug 2021 04:17:03 -0000
-Message-Id: <162926022382.24300.4075125489948531518@gitolite.kernel.org>
+Date: Wed, 18 Aug 2021 05:11:59 -0000
+Message-Id: <162926351982.26626.10537079719731503671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 77d2c50c981b0bbb5a1a06a7148fb35b1dfb4493
-    new: f60d0a8ef3f0010ada50a9ea2e8c8453b703eff0
+    old: f60d0a8ef3f0010ada50a9ea2e8c8453b703eff0
+    new: e560e5d6f206d625e05a4413c148d1ecdb750809
     log: |
-         f60d0a8ef3f0010ada50a9ea2e8c8453b703eff0 x86/sgx: Add a supplemental SGX_MemTotal field to /proc/meminfo
+         e560e5d6f206d625e05a4413c148d1ecdb750809 x86/sgx: Add a supplemental SGX_MemTotal field to /proc/meminfo
          
