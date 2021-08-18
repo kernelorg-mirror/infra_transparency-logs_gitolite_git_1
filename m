@@ -1,23 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 18 Aug 2021 16:00:41 -0000
-Message-Id: <162930244141.28301.2606498291185192675@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3636253645770747249=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 18 Aug 2021 16:13:49 -0000
+Message-Id: <162930322952.3170.11701363624571466441@gitolite.kernel.org>
+
+--===============3636253645770747249==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/topic/memalloc-noncontig
-    old: 1808d3e72b645e6c25658e7f261a943d2b9397ee
-    new: fb1753d47ef5ed1c33df9b3cbf22aca12171e3e6
+  - ref: refs/heads/for-5.15
+    old: 2499ee9d90795932893576cf065f967a6136bc20
+    new: 2fbbcffea5b6adbfe90ffc842a6b3eb2d7e381ed
     log: |
-         f8b32a6daf35f54f6260df7446e4069af64f0fcc ALSA: hda/sigmatel - Sink stac_shutup() into stac_suspend()
-         d2d837563743590cbf07bf786941e73a8c40b031 ALSA: hda/analog - Sink ad198x_shutup() and shuffle CONFIG_PM guards
-         19c15f253082f1eb46e0ec32b4dc3bad7c1f7919 ALSA: memalloc: Support for non-contiguous page allocation
-         9c50e4260da3acf4af4a05809e396b4459b5f202 ALSA: memalloc: Support for non-coherent page allocation
-         fb1753d47ef5ed1c33df9b3cbf22aca12171e3e6 ALSA: memalloc: Convert x86 SG-buffer handling with non-contiguous type
+         2fbbcffea5b6adbfe90ffc842a6b3eb2d7e381ed ASoC: fsl_rpmsg: Check -EPROBE_DEFER for getting clocks
          
+
+--===============3636253645770747249==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1629303206 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1629303227-e939f8ff1528cfbdd39d9686378ff03dfcf5176c
+
+2499ee9d90795932893576cf065f967a6136bc20 2fbbcffea5b6adbfe90ffc842a6b3eb2d7e381ed refs/heads/for-5.15
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEdMaYACgkQJNaLcl1U
+h9BVKAf/WQuH8e1U5sBYaeqNSzJ99b22iT1LdQu5iQ91NhabamrZDCh0PLP8g2uR
+qU4qzyz1qkItWgylD4ZA/mqyfHRpI0LLpV/RfyCq4+3CLsA9fcRd7AV8yaz2o9mg
+EF8+tZmoWK32aR99IwcKLFIWDHsW5a7xRc9ezeZqou4qizSV6IlZhQmJdgXSRXWp
+GqbRH1AwQlyBnOgR9iz3J8KR147kpPYKG2IQ7VcH4BPJekU53+K7VmYp/tFezkj/
+Vvn8jG0zjXa/TvofEYpHrtuXLr2nLr0ARPfuJHuTwvP6AVc6lhfXGxiy9976T+cB
+EowYNORYZxla9YvSXRGVYRz7cjqGRw==
+=GWid
+-----END PGP SIGNATURE-----
+
+--===============3636253645770747249==--
