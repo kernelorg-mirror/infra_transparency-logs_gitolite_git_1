@@ -1,57 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2946806912837192209=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 19 Aug 2021 05:48:52 -0000
-Message-Id: <162935213238.22646.1699156490353850701@gitolite.kernel.org>
-
---===============2946806912837192209==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Thu, 19 Aug 2021 06:22:20 -0000
+Message-Id: <162935414012.12306.13456220241536251886@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 5353dd72f99207e8118a766847df8d60bb559940
-    new: b2159182dd498fdb0f49e371ccc94efbc12d1f8e
+  - ref: refs/heads/for-next
+    old: 6b8b31269898b8891f1f3a95578ceeb109393e23
+    new: 0f32f00af3443b9199790d340942273fd8ce436f
     log: |
-         d1f278da6b11585f05b2755adfc8851cbf14a1ec lkdtm: replace SCSI_DISPATCH_CMD with SCSI_QUEUE_RQ
-         b2159182dd498fdb0f49e371ccc94efbc12d1f8e lkdtm: remove IDE_CORE_CP crashpoint
+         b49a0e69a7b1a68c8d3f64097d06dabb770fec96 soc: aspeed: lpc-ctrl: Fix boundary check for mmap
+         8b07e990fb254fcbaa919616ac77f981cb48c73d soc: aspeed: p2a-ctrl: Fix boundary check for mmap
+         250ea87828aee0f1d9ac49209c4678dcc0a45408 ARM: dts: rainier: Add 'factory-reset-toggle' as GPIOF6
+         8812dff6459dd898ba27e49ccac646d12bbcea23 soc: aspeed: socinfo: Add AST2625 variant
+         2f9b25fa668218f22a85ebe8c55d1d132fc0019d soc: aspeed: Re-enable FWH2AHB on AST2600
+         b5773eb7f95dff958df7b4f1ae1cebaffdeb7d09 ARM: config: aspeed: Enable hardened allocator feature
+         97e6caece721d37063e51b9e0ce3314430122ccc ARM: config: aspeed: Enable KCS adapter for raw SerIO
+         441e11bd11e1a4d1ebc0fdaf0319058c8e2e7e81 ARM: config: aspeed_g4: Enable EDAC and SPGIO
+         4b04b92bdcf6ec0da9b2c5c8b21d41ecbb1f2eaa ARM: config: aspeed: Regenerate defconfigs
+         0f32f00af3443b9199790d340942273fd8ce436f Merge branches 'dt-for-v5.15', 'soc-for-v5.15' and 'defconfig-for-v5.15' into for-next
          
-
---===============2946806912837192209==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629352131 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1629352131-c77bc4eb5f308097841011608f8a93214e8a5114
-
-5353dd72f99207e8118a766847df8d60bb559940 b2159182dd498fdb0f49e371ccc94efbc12d1f8e refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEd8MMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Lv4P/04atZE7MdeZTyvXa6dL
-sjECS5Kka9tGbj3YKEnafckc3CH6NLnMg3+yQAZsBHQ5cwRLATqCpBQWFm+W8Rpk
-IL+tbffbcmXSLFAhlPlXtSOPfUr/FFic4GEhhdGFVpUDikbiph822yu00I6QDOYz
-/iGiBSr7kJI1GPxOq8xwqI5WZBmsO1m+g+qGUQJZcx/i4W1BLs2Or68kjvLltimP
-eo+XWu0Qw24kO6uIbpgWNYkvn6oJX9sAQsNFH9quv2WdYHh6hrxZwIESIaPegGLL
-5GeJSOrgce/wqeRmMsMTHtmDEAQHr6pOlVMD7bbefeMkNHiMAiwo4hKow5Fxn8ZQ
-0d8OCbvK7dOi+oCf2j5/nxUr2dS4xICZOrZ3UetC74RsF6kqEjZRsppo3GOCEJZt
-FqCQVDU9nFRZ5dIFYLaocmL8+l3nzhrTmXIlWOzD0EXgCYWZ6Vg1RjPZVeK/Fh42
-HzMsyR2bKYbL1DnGibUuNp1if5uhz9mjmwgXufUMqMNvn4gc+A6snAk393EZBqgi
-7TAUsIsw8DyhN2Olq78HwSXPCYKTNNrI4AgiQD4ft+1GambQhJ2CmYreIrjB40nn
-0nc7IzaHkLcoUoN3b79KpS3Sdo7HTjnJC7zOfRT3a2YUACKJjNnlOwsH7OZrwx7K
-fnSgyV6QDPFKK7rOpQGPek+o
-=wGYn
------END PGP SIGNATURE-----
-
---===============2946806912837192209==--
