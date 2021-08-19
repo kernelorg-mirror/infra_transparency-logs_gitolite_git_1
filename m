@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4489008505529010653=="
+Content-Type: multipart/mixed; boundary="===============2552168600354822488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 19 Aug 2021 17:40:10 -0000
-Message-Id: <162939481003.23944.5265623468207892809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Thu, 19 Aug 2021 17:43:29 -0000
+Message-Id: <162939500955.25064.8377290944863284618@gitolite.kernel.org>
 
---===============4489008505529010653==
+--===============2552168600354822488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: rpeterso
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/for-next
-    old: 477448413342b9e152e154dd3923d095cb76ad06
-    new: 98fd6514d37b47db3c30612682a62d77408f4653
-    log: revlist-477448413342-98fd6514d37b.txt
+  - ref: refs/heads/cleanup
+    old: c5d98b2e85d094fd7b77d38fa14c7575ddf6a538
+    new: 1e682b26fe2fa5112c62333d81e498828d66997b
+    log: revlist-c5d98b2e85d0-1e682b26fe2f.txt
 
---===============4489008505529010653==
+--===============2552168600354822488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-477448413342-98fd6514d37b.txt
+Content-Disposition: attachment; filename=revlist-c5d98b2e85d0-1e682b26fe2f.txt
 
-c37453cb87e38623cb47437fdbf54ffc1262cc45 gfs2: be more verbose replaying invalid rgrp blocks
-69a61144f32b590650af8b5f1e1262f1a731f9c5 gfs2: trivial clean up of gfs2_ail_error
-dc7674eda002037d7a2d551e272037574507c2db gfs2: tiny cleanup in gfs2_log_reserve
-368242d2be991d34b71cd7de33da3f7e1a3f602d gfs2: init system threads before freeze lock
-0908735273856c60d13823ca87b2624ccb04decf gfs2: Don't release and reacquire local statfs bh
-1faa305bfd3458debaa82e4c4f8737ec54ddfd01 gfs2: Make recovery error more readable
-b8d6496fe2cf17031d6d7ba58fc68d88a19ef3aa gfs2: Eliminate vestigial HIF_FIRST
-4e19893ca0d766000601f50610ea37d41d66009e gfs2: nit: gfs2_drop_inode shouldn't return bool
-e26dea094e5dfe027348bcddd785d7763907b306 gfs2: Mark journal inodes as "don't cache"
-b4ad17a8769bb8f4d024998a37d020f490c7de0a gfs2: don't stop reads while withdraw in progress
-3d5c83ed64a2ea6a696d6f1ca14ece06752b6e05 gfs2: Don't call dlm after protocol is unmounted
-8569336e971f4f3c095bc127f0f0355e339804c4 gfs2: Delay withdraw from atomic context
-98fd6514d37b47db3c30612682a62d77408f4653 gfs2: Remove redundant check from gfs2_glock_dq
+bc6a9380eb3c5afc96735a54d455f2487df48700 aarch64: Enable ECV to allow access to CNTPOFF_EL2
+ada217d48ba82906028042a53f12905c1107addf aarch64: Do not trap PMSNEVFR_EL1
+5cd6238ec4ef97687eeea9e011db0d6305216543 aarch32: fix .globl replacement
+2d32d7199d06fcfe5abaf9e914564f77f746ef5d GICv3: initialize without RMW
+f2ecf4ba42a77c6b547c3720a7d385b7e2880ece Add bit-field macros
+f3f66dfea10e6163e074c1094fde7b04edd97748 aarch64: add system register accessors
+8f5b27a68a3360a95a485e0b41147231ee3f0526 aarch64: add mov_64 macro
+106b83e63f90367aefcf8d9872811ebd411afd8f Rename kernel *_RESET values to *_KERNEL
+ab9f068f120ff1b23091a5d6e565c629554f90f2 aarch32: document reset requirements
+b1d8e680a7c1d3391623acddbb7a20cd15fa6902 Remove `flag_no_el3`
+2c054eee06b5bbb2199ed996eede55667975e0eb aarch32: simplify _switch_monitor
+78f2207ffc025895edad866093fe190ffbf5765e aarch64: initialize SCTLR_ELx for the boot-wrapper
+15bb80e86dfea37a1009ca28c8773dd821e0a037 aarch64: move the bulk of EL3 initialization to C
+8592adcb03880b3147fbaacb1ad93072986bd453 Rework common init C code
+4542efa305ab6141802c79702bb4504c1cac064f Announce locations of memory objects
+81a2ad7b48dbf1a9339c35a0290e0eb620ba2716 Announce reset exception level
+1e682b26fe2fa5112c62333d81e498828d66997b Rework bootmethod initialization
 
---===============4489008505529010653==--
+--===============2552168600354822488==--
