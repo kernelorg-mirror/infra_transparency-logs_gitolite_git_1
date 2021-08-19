@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 19 Aug 2021 16:58:10 -0000
-Message-Id: <162939229065.27859.6199307382885367146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Aug 2021 16:59:02 -0000
+Message-Id: <162939234234.28285.5429925162979944490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: 4bf61ad5f0204b67ba570da6e5c052c2095e29df
-    new: 65ca89c2b12cca0d473f3dd54267568ad3af55cc
-    log: |
-         8903376dc69949199301b290cc22dc64ae5d8a6d ALSA: hda/realtek: Limit mic boost on HP ProBook 445 G8
-         65ca89c2b12cca0d473f3dd54267568ad3af55cc ASoC: intel: atom: Fix breakage for PCM buffer address setup
-         
   - ref: refs/heads/master
-    old: e67e30ed3b0427daf8a3390afd21cfe6ee82855e
-    new: 1856f5be701cc51ec636386c7548369c02bc82b4
+    old: 316749009fdf9a3d4a9641a257bbd7ec496c7c90
+    new: d584566c4b9f211fd9049b43c7fd70d424fbd0d9
     log: |
-         8903376dc69949199301b290cc22dc64ae5d8a6d ALSA: hda/realtek: Limit mic boost on HP ProBook 445 G8
-         c7c1b3c0cccb269721ca41148753c224f42eac13 Merge branch 'for-linus'
-         65ca89c2b12cca0d473f3dd54267568ad3af55cc ASoC: intel: atom: Fix breakage for PCM buffer address setup
-         1856f5be701cc51ec636386c7548369c02bc82b4 Merge branch 'for-linus'
+         a222be597e316389f9f8c26033352c124ce93056 i40e: Fix ATR queue selection
+         8da80c9d50220a8e4190a4eaa0dd6aeefcbbb5bf iavf: Fix ping is lost after untrusted VF had tried to change MAC
+         d584566c4b9f211fd9049b43c7fd70d424fbd0d9 Merge branch 'intel-wired-lan-driver-updates-2021-08-18'
          
