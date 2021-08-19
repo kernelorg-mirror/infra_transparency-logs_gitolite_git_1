@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 18 Aug 2021 23:53:16 -0000
-Message-Id: <162933079673.13636.17742833166860720803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Thu, 19 Aug 2021 00:07:20 -0000
+Message-Id: <162933164009.22152.1583632419155490436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: a84ae30c28370c0ca15d4d1e071b07a6780ec3e9
-    new: 0824006b61058a2fed752c1d974c2155335fa27c
-    log: |
-         8ca80871273521104b257e9371b7d4885459e5a2 mgmt: Set offload codec mgmt feature
-         0824006b61058a2fed752c1d974c2155335fa27c shared/util: Decode BlueZ offload codec UUID
-         
+  - ref: refs/tags/mediatek-drm-fixes-5.14-2
+    old: 0000000000000000000000000000000000000000
+    new: 27e72ab8879fc3d224c4a3e99f76e7f044467720
