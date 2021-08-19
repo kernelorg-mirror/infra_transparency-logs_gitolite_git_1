@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 19 Aug 2021 00:39:36 -0000
-Message-Id: <162933357604.9953.17947870503732954805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Thu, 19 Aug 2021 00:43:45 -0000
+Message-Id: <162933382559.12699.10997225692527667540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: cfbd534590f44523dc45c35be47747d040d137f8
-    new: fb3fdea450305d932d933d7e75eead0477249d8e
+  - ref: refs/heads/erofs/chunk
+    old: 89ce6a2e2d2485fc93558345565080e582f5d4ae
+    new: 3f0490fa1fd5d201f0ddac55d28c8c0d07c2cae3
     log: |
-         2b1d7fc054677a29abad15b3b32dad93df6eb9cf kbuild: Fix TRIM_UNUSED_KSYMS with LTO_CLANG
-         aafdcacc72e6223654e207c4d78d045a9419c4d4 kbuild: macrofy the condition of if_changed and friends
-         0fc7db58e2a6cfd2a55eefcbeebb453ec86f87f1 kbuild: warn if FORCE is missing for if_changed(_dep,_rule) and filechk
-         900c32722f351dc9acb1a87a166f1d2781e05530 kbuild: Remove -Wno-format-invalid-specifier from clang block
-         388e64248d314e172475a385908309d784969150 kbuild: Add a comment above -Wno-gnu
-         c6a74818da3fa0a2ab595f4442dced9660b4970e kbuild: Shuffle blank line to improve comment meaning
-         f652c0ecae28172eb46755250749dd235279b1e6 kbuild: Switch to 'f' variants of integrated assembler flag
-         fb3fdea450305d932d933d7e75eead0477249d8e kbuild: Fix 'no symbols' warning when CONFIG_TRIM_UNUSD_KSYMS=y
+         d95ae5e25326092d61613acf98280270dde22778 erofs: add support for the full decompressed length
+         eadcd6b5a1eb39866ab8d8a3e4f2e51bc51a2350 erofs: add fiemap support with iomap
+         798d9346e29cb051a9dd54f6460821768d99d3b0 erofs: introduce chunk-based file on-disk format
+         3f0490fa1fd5d201f0ddac55d28c8c0d07c2cae3 erofs: support reading chunk-based uncompressed files
          
