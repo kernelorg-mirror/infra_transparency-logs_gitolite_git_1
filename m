@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 19 Aug 2021 19:09:15 -0000
-Message-Id: <162940015527.18935.4755485064056065460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 19 Aug 2021 19:17:03 -0000
+Message-Id: <162940062385.24218.6692205401970756908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
-  - ref: refs/heads/for-linus
-    old: ee802dc98fe91b937c0864265919255f31cb5212
-    new: 80b3a98085574e451ef041a819d592f542ea4d56
+  - ref: refs/heads/master
+    old: 558c44cda02c0db15cd9f63c2b3e637fc9d6d3bb
+    new: 43e95ba70031e0966f0e82f5fae06bfd3d99f586
     log: |
-         d68f4c73d729245a47e70eb216fa24bc174ed2e2 spi: coldfire-qspi: Use clk_disable_unprepare in the remove function
-         80b3a98085574e451ef041a819d592f542ea4d56 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 375062bde613cf1897e8eff7a3ac4d4f5fda6729
-    new: 5d14499b5016f5d84ae25be6e525b34c1fa44111
-    log: |
-         d68f4c73d729245a47e70eb216fa24bc174ed2e2 spi: coldfire-qspi: Use clk_disable_unprepare in the remove function
-         80b3a98085574e451ef041a819d592f542ea4d56 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         5d14499b5016f5d84ae25be6e525b34c1fa44111 Merge remote-tracking branch 'spi/for-5.15' into spi-next
+         43e95ba70031e0966f0e82f5fae06bfd3d99f586 tools/mgmt-tester: Add Read OOB Ext Data test cases
          
