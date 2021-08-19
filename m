@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1442524600423202865=="
+Content-Type: multipart/mixed; boundary="===============6348851549241287554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 19 Aug 2021 05:40:57 -0000
-Message-Id: <162935165767.17399.14334293140048279934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 19 Aug 2021 05:41:36 -0000
+Message-Id: <162935169683.17666.14847254546679913163@gitolite.kernel.org>
 
---===============1442524600423202865==
+--===============6348851549241287554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 5353dd72f99207e8118a766847df8d60bb559940
-    new: b2159182dd498fdb0f49e371ccc94efbc12d1f8e
+  - ref: refs/heads/staging-testing
+    old: 92791836cb7d79bba66389daed57d4d92783f01e
+    new: e8bcb4820ac55615ffe4c9730bde75140233fbaa
     log: |
-         d1f278da6b11585f05b2755adfc8851cbf14a1ec lkdtm: replace SCSI_DISPATCH_CMD with SCSI_QUEUE_RQ
-         b2159182dd498fdb0f49e371ccc94efbc12d1f8e lkdtm: remove IDE_CORE_CP crashpoint
+         e8bcb4820ac55615ffe4c9730bde75140233fbaa staging: r8188eu: Fix fall-through warnings for Clang
          
 
---===============1442524600423202865==
+--===============6348851549241287554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629351655 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1629351654-abbe54f753ab37bd71dc6d13892c5823b4a3a89c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629351694 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1629351693-abe829ae718026478f2bc3e28d67346e1eda5b67
 
-5353dd72f99207e8118a766847df8d60bb559940 b2159182dd498fdb0f49e371ccc94efbc12d1f8e refs/heads/char-misc-testing
+92791836cb7d79bba66389daed57d4d92783f01e e8bcb4820ac55615ffe4c9730bde75140233fbaa refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEd7ucbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B4cP/2nbNm0hKLPH0xv2B6Zo
-6WZAbVZTweXF1vBP+bbwPVRZLN88fIwI28qvg6EA603Bo4k2TElfh9IJ4w0u2N0J
-qNOS/WomcG/D8MFgdncNozWmw/Vb/2Z8boxHt+BNQ1cZnFByyx9MVK9gCfzsRWek
-bEw3+AfwSfWU4k1N1CcuxAKozjBgNv5Cr/2Uw1OIuCeTDfDnbVBnsucFQOv9kFzA
-pWETTn6X8dUqp7mmpmNd5/BkDbePf3gR+ZwOCzAA7/aPqoovlmQd63ccXqxO4Sax
-Wm/AqBts6EgskpV03iO89L/UsDgum73ULIKBFNgrFyszEG+swvc+9PFSBML3DRQx
-jV9zp5KH7atXx2z1TZ5ckclVKIigD8wmBwlz1GzcxjxVTwUtXXM8GNGqi5vvf8Sv
-2Uj91TpSRDBtOPCH/BFnhBMdUhzZRMGqNlnMyHeXFr37Awoxk2Dj5AlJ3vNqhcq9
-ZOXiEASUz0YUORCHLwD0z+xraSjzju0zZsJuJqdTKLoWEHq6uWlze2Xd4T8ait7F
-5csp7GZh8/RzUYkSLAGCkhL6kg0PFJTWkBcy2vK5Z6CFJDRgZB8rY0SiB5K1w3wA
-rLf6zFm+94Uob1ZhObiyct2nkh5UFUHfK2OgTtnbg98N0B5D/ucPWYg4scorXUCm
-8gUMHXMC3UBLnAS1Lo0lsH+V
-=lA3E
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEd7w4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UbUQAJPrqWYKKbvrPGODcW5a
+h3vJZvCBWRFiJJz8kXbO5BsTKkMx0yk8Wv5YerA/gmwwQ+/xbtXOOjnMaVC4Qr4v
+AhSbZ6kQAHXK27Hii25JDthAR7R4oacbxHJtyn9YahAbXSgrCXyGWd0sfZ8wiZi4
+aYTRhvTyxhtbLGbqF81lm11wPBPCURCS6a3ditr5trJOQ22VC30bStK1BThdSCnw
+Hu+OyMgV1pgw9G/o09AVMOnMIl73dV7P+BJOD2RJwNh3guR3HdtMducuGat2Ng+4
+tBf/wey6l356WY/nwd+rvwkHZLZyiYv+d6LIm/bsShjmA0ow9260jdFICr/tP4hD
+cUG7dWqhY34blgpyHZGchwtU5n7iK4R3d4mruYXijDb+dQMfHRuwZGL2vxt5qEO7
++x1hAkLCbfKfMRU1OdMiaE60NUgoaxlaakJb7KY6+k6uUgvIQP93ve+QXQlS5vTU
+4p8FAi/hdXtGJniLI/O3qOyzwHlrg2N6kMME3glyyG0Wme/76afjOd2SKCBGN3UB
+DpJ9zNOgHybj4J1oO/uZV18Hy2LrHIytBS9es4he7AyCIjKG1zDK4+YN5GrUOLif
+pW4NC2VyJ4yNsx/JnjnLOL+ig5KSB/Z4Ve1oG/uzj+eIUQa91LZRE7h1asEXaQ07
+V8YKACurF+QKD0W82EgNL+ok
+=ZsOI
 -----END PGP SIGNATURE-----
 
---===============1442524600423202865==--
+--===============6348851549241287554==--
