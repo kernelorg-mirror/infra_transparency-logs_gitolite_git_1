@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8182759802821490650=="
+Content-Type: multipart/mixed; boundary="===============0843543584774448639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 19 Aug 2021 20:29:51 -0000
-Message-Id: <162940499146.7243.13903381005180879649@gitolite.kernel.org>
+Date: Thu, 19 Aug 2021 20:32:28 -0000
+Message-Id: <162940514868.9497.17233969069671073705@gitolite.kernel.org>
 
---===============8182759802821490650==
+--===============0843543584774448639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,84 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/paolo
-    old: ba52d702a0208f1b39501aa43916a63739323565
-    new: fa4c0c7ca0fbb1c942a0a925fa1a4ce405934600
-    log: revlist-ba52d702a020-fa4c0c7ca0fb.txt
+  - ref: refs/heads/next
+    old: 9a63b4517c606bfbccd063ffc4188e059d4fa23f
+    new: c335b1479d83c6164b0f009dba29530964358eba
+    log: revlist-9a63b4517c60-c335b1479d83.txt
 
---===============8182759802821490650==
+--===============0843543584774448639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1629404989 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1629405146 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1629404989-01a4dc8899b52c4ec04313b58c5a5d611f99775f
+nonce 1629405146-847ab0dcb4ff0e80368dfa20fae0f2b26c8f384c
 
-ba52d702a0208f1b39501aa43916a63739323565 fa4c0c7ca0fbb1c942a0a925fa1a4ce405934600 refs/heads/paolo
+9a63b4517c606bfbccd063ffc4188e059d4fa23f c335b1479d83c6164b0f009dba29530964358eba refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEevz0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroP8AQf+LqPM+z+I2qWLjIm1rmfL3hpyctaW
-YYlDmZawLdz/f5g84FQNWixV89kjotBzfAX39agbqtrlPvASImlruSFt7s8n+wI9
-3hyDr8aZ5Yr7oo5k2O9ClgdJyNsl68Ik9nHDWFVLchtEWmg+kBeGruc1o8LFl5yT
-x+m2yEMVPXTg8wA25VAOe18SoFM9UOSfgXaPJ3bvT9H+JjK5T7gS5QIhnm3Neobd
-ueAEcvhs4liHn0ABTh+427FnC4Gh3y4lhOW5n8iLoxUNM00Z5mSOh25ZVIDFsOl1
-HF554tmFDl08cGKGQdhoK5LVCrqClbjzj0uh6lhuqMZ+kpgQ8PKFhLRORw==
-=yMB6
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEev9sUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNdlAgAm62FnoEZhPzNyt80TcYCRdEhOb2e
+x3sUMqYiQjjk9ba7w4sfwWYLJ4cgKmW8iiU7+73EkMP/nRNdGl8RHUE9U3uujriK
+jh9bnOkr4zOFbK7zctB6PzRqY+XPlmrYln+W8t21O9lsyhfZM+N4M/FwC+Ls9L/F
+aCbwXl8jrDv4ZIh35Ev6y/U7ymabIAlFGUTdt+bYdo6NJc88Hfqc6Sls2Hp5y5g8
+7jxq1P+bz2VCyFU27VzzUhANUlrGqjIH2xh/Kweb2/p1Zehnx7tuUqPQo1kzRyiX
+121jvmVEXmfkSS3lfORHoIYCfFNnfnwbXTbUKV8voyg5M7OHl1wN1gBhOA==
+=mbxI
 -----END PGP SIGNATURE-----
 
---===============8182759802821490650==
+--===============0843543584774448639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba52d702a020-fa4c0c7ca0fb.txt
+Content-Disposition: attachment; filename=revlist-9a63b4517c60-c335b1479d83.txt
 
+34e9f860071f717965f1816171a11eaf2d378ee0 KVM: X86: Remove unneeded KVM_DEBUGREG_RELOAD
+375e28ffc0cf4fc48862c03994ec4a93254cf1c6 KVM: X86: Set host DR6 only on VMX and for KVM_DEBUGREG_WONT_EXIT
+1ccb6f983a063e794daeb03f90b3517f87dfae8f KVM: VMX: Reset DR6 only when KVM_DEBUGREG_WONT_EXIT
+ee3b6e41bc26c628b0c06aacd2758a316fe583be KVM: stats: remove dead stores
+389ab25216c9d09e0d335e764eeeb84c2089614f KVM: nVMX: Pull KVM L0's desired controls directly from vmcs01
+b6247686b7571003eca2305b2096f59e1e1ce976 KVM: VMX: Drop caching of KVM's desired sec exec controls for vmcs01
+2fba4fc155280727b4997c6ee86f24c260dd9155 KVM: VMX: Hide VMCS control calculators in vmx.c
+ad0577c375299a2cc426913c141086c0e9033c78 KVM: x86: Kill off __ex() and __kvm_handle_fault_on_reboot()
+65297341d8e15b04cc9e206597a3d7c407c346f6 KVM: x86: Move declaration of kvm_spurious_fault() to x86.h
+c1a527a1de46ad6f0f9d5907b29fc98e50267f8e KVM: x86: Clean up redundant ROL16(val, n) macro definition
+f7782bb8d818d8f47c26b22079db10599922787a KVM: nVMX: Unconditionally clear nested.pi_pending on nested VM-Enter
+3165af738ed3224a84ead7d97c6909de2e453b4c KVM: Allow to have arch-specific per-vm debugfs files
+583ad01c02de59554f6c7e58953d023040009cf4 KVM: X86: Introduce kvm_mmu_slot_lpages() helpers
+a1e0ea55a2cc399814482dc40e57b4562848335a KVM: X86: Introduce mmu_rmaps_stat per-vm debugfs file
+175c4f82f59fdcfa9e22d584309563289f5c1db0 Revert "KVM: x86/mmu: Allow zap gfn range to operate under the mmu read lock"
+cb3b2438457d7d0288e3ce2c6f027a1961b385f9 KVM: x86/mmu: fix parameters to kvm_flush_remote_tlbs_with_address
+7b03fdb9eba6eb924842f9e823798f25af3f7650 KVM: x86/mmu: add comment explaining arguments to kvm_zap_gfn_range
+b04260e0857dbb553ea33e18893446af35e9b2f5 KVM: x86/mmu: bump mmu notifier count in kvm_zap_gfn_range
+d67c15c4ac941aeba883baa1f5bd16303d2ef78b KVM: x86/mmu: rename try_async_pf to kvm_faultin_pfn
+359a029cf50e289c24a0403314707fde0b08b075 KVM: x86/mmu: allow kvm_faultin_pfn to return page fault handling code
+6ca19df1ae70484dfc6a6d218c1aa4c0cb7050a7 KVM: x86/mmu: allow APICv memslot to be enabled but invisible
+049e1cd8365ea416016e21eb2c7d9ca553fc1dc7 KVM: x86: don't disable APICv memslot when inhibited
+626fcb4e640e8b2c6871f61c09b13039e08d533d KVM: x86: APICv: fix race in kvm_request_apicv_update on SVM
+46cd27246e2248c087c5bc07a9f74cb59cfb9a15 KVM: SVM: add warning for mistmatch between AVIC vcpu state and AVIC inhibition
+11d9e063e4840d7cc8d3726d39219b4802f7b4c5 KVM: x86: hyper-v: Deactivate APICv only when AutoEOI feature is in use
+2c8c05f69ac3abae62129881f1e7e88d8449db5c KVM: SVM: remove svm_toggle_avic_for_irq_window
+5f3c6f56ad990288a737a7c13a0c7a59faf9e557 KVM: SVM: avoid refreshing avic if its state didn't change
+28471728a851a06e0801974031a6394121496bc3 KVM: SVM: move check for kvm_vcpu_apicv_active outside of avic_vcpu_{put|load}
+6b0f5cfa62071f144b3f91824cfdf3830f44fb93 KVM: SVM: call avic_vcpu_load/avic_vcpu_put when enabling/disabling AVIC
+5ac66856417a558adc03416dd80d5fecdfa3894e KVM: SVM: AVIC: drop unsupported AVIC base relocation code
+ccedd3ed601d47aa4ca2a4c796fde58af19c87e9 KVM: stats: Support linear and logarithmic histogram statistics
+0bb663f924c7e2e4bc9fa846765af800a8d988e2 KVM: stats: Update doc for histogram statistics
+7a5427791d6caa355f220fcffdc3999ce3f4dffd KVM: selftests: Add checks for histogram stats bucket_size field
+641491cae07ee2ebf27bc1ae3115b0ba6a8a598d KVM: stats: Add halt_wait_ns stats for all architectures
+57eb5413a4766b38b402337df1517bc309883452 KVM: stats: Add halt polling related histogram stats
+9e08a9ec62ae5cc79da15b2a49ea9d5d6a751bd5 KVM: x86/mmu: Remove redundant spte present check in mmu_set_spte
+d724feaacfe56fedd653417f692b135dee761d07 KVM: x86/mmu: Avoid collision with !PRESENT SPTEs in TDP MMU lpage stats
+32753fde0f7291e2b3e87bd49e3e621a5d7874b9 KVM: x86/mmu: Add detailed page size stats
+3c807345b519ce5aa2ba307f69ed789dcc7281e0 KVM: x86/mmu: Drop 'shared' param from tdp_mmu_link_page()
+90ea94bfad4959b4848620442e496fc5f26330ef KVM: SVM: split svm_handle_invalid_exit
+3aec96ea6a159489571a75b9a1a47552a196ed54 KVM: x86: implement KVM_GUESTDBG_BLOCKIRQ
+91b173e92ca6bc053ec28c6bda24a4fce9ffb4ae KVM: selftests: test KVM_GUESTDBG_BLOCKIRQ
+4831c03e3b96d8e7676f5ae4fc193ad2f8525af6 KVM: x86: clamp host mapping level to max_level in kvm_mmu_max_mapping_level
 a05d067d1020e3bafdf3559dfb071fa6d195ea1c KVM: x86: Allow CPU to force vendor-specific TDP level
 0b957702769ec28fc54afbba8f08e12cd94904f4 KVM: x86/mmu: Support shadowing NPT when 5-level paging is enabled in host
 5a4bfabcc865644b63bd64f46fdd5ceb0287b677 KVM: SVM: Add 5-level page table support for SVM
@@ -97,5 +140,7 @@ b95d7919181515c9286144a41aab08c1bc832993 tools: arch: x86: pull in pvclock heade
 5b3e4c6774593d4c66cbe500301f5fea17afbe5a selftests: KVM: Fix kvm device helper ioctl assertions
 e790f41565166ff0ef99046e45d3bd4f97c0b65b selftests: KVM: Add helpers for vCPU device attributes
 fa4c0c7ca0fbb1c942a0a925fa1a4ce405934600 selftests: KVM: Introduce system counter offset test
+5f8fcb92ba7c026fd2b78de86162aa823d96a57d KVM: nVMX: observe the VMCS_ENUM field
+c335b1479d83c6164b0f009dba29530964358eba KVM: x86: do not fixup hypercalls in L2
 
---===============8182759802821490650==--
+--===============0843543584774448639==--
