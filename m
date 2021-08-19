@@ -1,47 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2552168600354822488=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Thu, 19 Aug 2021 17:43:29 -0000
-Message-Id: <162939500955.25064.8377290944863284618@gitolite.kernel.org>
-
---===============2552168600354822488==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 19 Aug 2021 17:50:04 -0000
+Message-Id: <162939540421.31019.11768621207757003907@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-user: mark
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/cleanup
-    old: c5d98b2e85d094fd7b77d38fa14c7575ddf6a538
-    new: 1e682b26fe2fa5112c62333d81e498828d66997b
-    log: revlist-c5d98b2e85d0-1e682b26fe2f.txt
-
---===============2552168600354822488==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5d98b2e85d0-1e682b26fe2f.txt
-
-bc6a9380eb3c5afc96735a54d455f2487df48700 aarch64: Enable ECV to allow access to CNTPOFF_EL2
-ada217d48ba82906028042a53f12905c1107addf aarch64: Do not trap PMSNEVFR_EL1
-5cd6238ec4ef97687eeea9e011db0d6305216543 aarch32: fix .globl replacement
-2d32d7199d06fcfe5abaf9e914564f77f746ef5d GICv3: initialize without RMW
-f2ecf4ba42a77c6b547c3720a7d385b7e2880ece Add bit-field macros
-f3f66dfea10e6163e074c1094fde7b04edd97748 aarch64: add system register accessors
-8f5b27a68a3360a95a485e0b41147231ee3f0526 aarch64: add mov_64 macro
-106b83e63f90367aefcf8d9872811ebd411afd8f Rename kernel *_RESET values to *_KERNEL
-ab9f068f120ff1b23091a5d6e565c629554f90f2 aarch32: document reset requirements
-b1d8e680a7c1d3391623acddbb7a20cd15fa6902 Remove `flag_no_el3`
-2c054eee06b5bbb2199ed996eede55667975e0eb aarch32: simplify _switch_monitor
-78f2207ffc025895edad866093fe190ffbf5765e aarch64: initialize SCTLR_ELx for the boot-wrapper
-15bb80e86dfea37a1009ca28c8773dd821e0a037 aarch64: move the bulk of EL3 initialization to C
-8592adcb03880b3147fbaacb1ad93072986bd453 Rework common init C code
-4542efa305ab6141802c79702bb4504c1cac064f Announce locations of memory objects
-81a2ad7b48dbf1a9339c35a0290e0eb620ba2716 Announce reset exception level
-1e682b26fe2fa5112c62333d81e498828d66997b Rework bootmethod initialization
-
---===============2552168600354822488==--
+  - ref: refs/heads/for-5.15/io_uring
+    old: a79d730fb930f2e60e9e3076cc3b1a9f70d4c755
+    new: 6476f5e4fc0ce375fe01037baf5b188c34ef51b6
+    log: |
+         2f414e6f6ac1c12ec9ab3f9424ebad7873f5c252 io_uring: improve same wq polling
+         940c0755686209c160723ab4d317d37fbf402f1b io_uring: fix io_timeout_remove locking
+         6a844a7613b54aeca4ea883385caba3537ccbfc7 io-wq: move nr_running and worker_refs out of wqe->lock protection
+         9750c3e6f40be699ff4755d92340fbb8e41598b2 io_uring: add comments on why PF_EXITING checking is safe
+         412e387cacfc3a93cd895d1b9f8441a68b7cb5fa io_uring: remove mutex in io_req_task_cancel()
+         9a08e7b97087881808a34b9815085f9ace2cdaf3 io_uring: dedup tw-based request failing
+         de2a0906062d8a6adaac04ee0a4167e467b1bc1a io_uring: extend task put optimisations
+         6476f5e4fc0ce375fe01037baf5b188c34ef51b6 io_uring: Add register support for non-4k PAGE_SIZE
+         
+  - ref: refs/heads/for-next
+    old: 58b217a4d6d2a00c0cc3d5be8677c55019bd1726
+    new: 39916d4054e787c824300fe94b49e4344b250163
+    log: |
+         2f414e6f6ac1c12ec9ab3f9424ebad7873f5c252 io_uring: improve same wq polling
+         940c0755686209c160723ab4d317d37fbf402f1b io_uring: fix io_timeout_remove locking
+         6a844a7613b54aeca4ea883385caba3537ccbfc7 io-wq: move nr_running and worker_refs out of wqe->lock protection
+         9750c3e6f40be699ff4755d92340fbb8e41598b2 io_uring: add comments on why PF_EXITING checking is safe
+         412e387cacfc3a93cd895d1b9f8441a68b7cb5fa io_uring: remove mutex in io_req_task_cancel()
+         9a08e7b97087881808a34b9815085f9ace2cdaf3 io_uring: dedup tw-based request failing
+         de2a0906062d8a6adaac04ee0a4167e467b1bc1a io_uring: extend task put optimisations
+         6476f5e4fc0ce375fe01037baf5b188c34ef51b6 io_uring: Add register support for non-4k PAGE_SIZE
+         39916d4054e787c824300fe94b49e4344b250163 Merge branch 'for-5.15/io_uring' into for-next
+         
