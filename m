@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 19 Aug 2021 23:03:52 -0000
-Message-Id: <162941423290.10011.7059744105793338080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 19 Aug 2021 23:06:55 -0000
+Message-Id: <162941441539.12351.12771811635987315721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-next
-    old: ba0b6bee5c8c3c89c18d8afce7dca911f2ef584d
-    new: abfe14de9197eb1f18e719fbcd94ff255107ae93
+  - ref: refs/heads/wip/jgg-for-next
+    old: 4b89451d2c3d488b304306f8b2d1afc7c28b4f78
+    new: bfeababd5141a110ddffff0fa1e7fd988d76292d
     log: |
-         9e5747c57807ad8a04c356340190cfdd0bd54111 soc: rockchip: io-domain: Remove unneeded semicolon
-         abfe14de9197eb1f18e719fbcd94ff255107ae93 Merge branch 'v5.15-armsoc/drivers' into for-next
+         6ef793cbd4656a7a0637404751f608674692235d RDMA/qedr: Move variables reset to qedr_set_common_qp_params()
+         bfeababd5141a110ddffff0fa1e7fd988d76292d RDMA/core/sa_query: Remove unused function
          
-  - ref: refs/heads/v5.15-armsoc/drivers
-    old: 28b05a64e47cbceebb8a5f3f643033148d5c06c3
-    new: 9e5747c57807ad8a04c356340190cfdd0bd54111
+  - ref: refs/heads/wip/jgg-for-rc
+    old: cbe71c61992c38f72c2b625b2ef25916b9f0d060
+    new: a036ad088306a88de87e973981f2b9224e466c3f
     log: |
-         9e5747c57807ad8a04c356340190cfdd0bd54111 soc: rockchip: io-domain: Remove unneeded semicolon
+         a036ad088306a88de87e973981f2b9224e466c3f RDMA/bnxt_re: Remove unpaired rtnl unlock in bnxt_re_dev_init()
          
