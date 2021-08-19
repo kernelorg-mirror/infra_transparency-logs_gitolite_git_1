@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 19 Aug 2021 03:51:03 -0000
-Message-Id: <162934506388.10593.12856603964873047670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Thu, 19 Aug 2021 04:27:26 -0000
+Message-Id: <162934724600.2119.9627973963075383815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/tags/implicit-fallthrough-clang-5.14-rc7
+  - ref: refs/heads/soc-for-v5.15
     old: 0000000000000000000000000000000000000000
-    new: 550ca0cfc157717ccc7a4221785ea86ed03defc7
+    new: 8812dff6459dd898ba27e49ccac646d12bbcea23
