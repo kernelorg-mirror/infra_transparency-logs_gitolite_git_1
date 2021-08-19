@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Aug 2021 18:16:09 -0000
-Message-Id: <162939696990.14635.15508664937690587010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Thu, 19 Aug 2021 18:29:03 -0000
+Message-Id: <162939774369.23129.16815779806705893302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: d584566c4b9f211fd9049b43c7fd70d424fbd0d9
-    new: cd0a719fbd702eb4b455a6ad986483750125588a
+  - ref: refs/heads/libtracefs
+    old: 5b8e54b1be4f2e1ecc1269d19c03f22d35c4f0e7
+    new: 05841f9a45fbcaf6ad75d4e7d24ee119bb62bf15
     log: |
-         fa05bdb89b01b098aad19ec0ebc4d1cc7b11177e Revert "flow_offload: action should not be NULL when it is referenced"
-         cd0a719fbd702eb4b455a6ad986483750125588a net: dpaa2-switch: disable the control interface on error path
+         a45e7e8696ac096e0fae0b8a28bd6c54b0c8ce17 libtracefs: Move creating of onmatch handler and trace action into helper functions
+         8b12479894f6e3e37eb2aef027062ce12c25f97b libtracefs: Add logic to apply actions to synthetic events
+         d107c7a492208e279ff433baaaa337a77b09db08 libtracefs: Add API tracefs_synth_trace()
+         5ad85d93d7a017d170f16736342e8338b4f4ee9a libtracefs: Add API tracefs_synth_snapshot()
+         5e5a6cddcced9724943a1e8e68fcc8aba56f3abf libtracefs: Add API tracefs_synth_save()
+         d8caf0d7b86e35f85c2e45906a57923384e8a719 libtracefs: Update the libtracefs-sql man page for the new tracefs_synth APIs
+         05841f9a45fbcaf6ad75d4e7d24ee119bb62bf15 libtracefs: Make a man page for the sqlhist man page example
          
