@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 20 Aug 2021 22:04:05 -0000
-Message-Id: <162949704559.30535.2895966441672335249@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 22:05:12 -0000
+Message-Id: <162949711223.32261.3254627097962345304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
 user: rostedt
 changes:
   - ref: refs/tags/v5.10.59-rt51-rebase
-    old: 35414b428d993deb1679d91de0a454637d85b0dc
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: fdb9849ff99c1afc1d4b74ab35475e76687377c0
