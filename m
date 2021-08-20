@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 20 Aug 2021 10:16:15 -0000
-Message-Id: <162945457506.13858.17422558709824884315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 20 Aug 2021 10:17:43 -0000
+Message-Id: <162945466332.14363.7420488403067375108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/locking/core
-    old: 9ae6ab27f44ee0da47520011afc04218f90e8b12
-    new: b857174e68e26f9c4f0796971e11eb63ad5a3eb6
-    log: |
-         b857174e68e26f9c4f0796971e11eb63ad5a3eb6 locking/ww_mutex: Initialize waiter.ww_ctx properly
-         
+  - ref: refs/heads/kvm-arm64/pkvm-fixed-features-prologue
+    old: 0000000000000000000000000000000000000000
+    new: 411d63d8c64c2f3b0c497fe4658f13b3bca951e2
