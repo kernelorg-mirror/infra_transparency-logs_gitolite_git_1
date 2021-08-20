@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 20 Aug 2021 21:46:36 -0000
-Message-Id: <162949599661.18777.5600567825180971109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 20 Aug 2021 21:50:03 -0000
+Message-Id: <162949620378.22180.17293123743253149889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: ffc9c3ebb4af870a121da99826e9ccb63dc8b3d7
-    new: 12d125b4574bd7f602802d94d7b4a55d85aa8e25
+  - ref: refs/heads/io_uring-5.14
+    old: 9cb0073b302a6b8a8c1015ff31b2b3ab4900f866
+    new: a30f895ad3239f45012e860d4f94c1a388b36d14
     log: |
-         12d125b4574bd7f602802d94d7b4a55d85aa8e25 stmmac: Revert "stmmac: align RX buffers"
+         a30f895ad3239f45012e860d4f94c1a388b36d14 io_uring: fix xa_alloc_cycle() error return value check
          
