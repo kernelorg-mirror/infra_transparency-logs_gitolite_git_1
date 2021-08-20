@@ -1,59 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3539241168746852566=="
+Content-Type: multipart/mixed; boundary="===============4479329974716006259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
-Date: Fri, 20 Aug 2021 10:30:14 -0000
-Message-Id: <162945541444.24186.9381979716749408750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 20 Aug 2021 10:32:17 -0000
+Message-Id: <162945553731.24930.13634282565864889962@gitolite.kernel.org>
 
---===============3539241168746852566==
+--===============4479329974716006259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/balbi/usb
-user: balbi
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
+  - ref: refs/heads/next
+    old: f2267b87ecd5071a8cd2b52e2b5c5a72387daeae
+    new: 24f56c2302899f9678fa04030d1a77ab669a78f4
+    log: revlist-f2267b87ecd5-24f56c230289.txt
 
---===============3539241168746852566==
+--===============4479329974716006259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f2267b87ecd5-24f56c230289.txt
 
-certificate version 0.1
-pusher 0x35CAA444 1629455407 +0300
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/balbi/usb.git
-nonce 1629455407-146d1ae0a997bc8cacb2dfec68f2da3866f1fdac
+3134cc8beb69d0db9de651081707c4651c011621 KVM: arm64: vgic: Resample HW pending state on deactivation
+af4a0f4424b3fb88e79e3b6371529a76ee86f0c1 Merge branch kvm-arm64/misc-5.15 into kvmarm-master/next
+923a547d71b967c808a596968cf8022102f8b5b2 KVM: arm64: Move kern_hyp_va() usage in __load_guest_stage2() into the callers
+4efc0ede4f31d7ec25c3dee0c8f07f93735cee6d KVM: arm64: Unify stage-2 programming behind __load_stage2()
+cf364e08ea1c5dd217afb658d510aaef7d0cc6f4 KVM: arm64: Upgrade VMID accesses to {READ,WRITE}_ONCE
+8e4043e5a84d663050b46b6e435194a82a23f211 Merge branch kvm-arm64/mmu/vmid-cleanups into kvmarm-master/next
+2ea7f655800b00b109951f22539fe2025add210b KVM: arm64: placeholder to check if VM is protected
+e6bc555c96990046d680ff92c8e2e7b6b43b509f KVM: arm64: Remove trailing whitespace in comment
+d6c850dd6ce9ce4b410142a600d8c34dc041d860 KVM: arm64: MDCR_EL2 is a 64-bit register
+dabb1667d8573302712a75530cccfee8f3ffff84 KVM: arm64: Fix names of config register fields
+f76f89e2f73d93720cfcad7fb7b24d022b2846bf KVM: arm64: Refactor sys_regs.h,c for nVHE reuse
+1460b4b25fde52cbee746c11a4b1d3185f2e2847 KVM: arm64: Restore mdcr_el2 from vcpu
+12849badc6d2456f15f8f2c93037628d5176810b KVM: arm64: Keep mdcr_el2's value as set by __init_el2_debug
+cd496228fd8de2e82b6636d3d89105631ea2b69c KVM: arm64: Track value of cptr_el2 in struct kvm_vcpu_arch
+95b54c3e4c92b9185b15c83e8baab9ba312195f6 KVM: arm64: Add feature register flag definitions
+2d701243b9f231b5d7f9a8cb81870650d3eb32bc KVM: arm64: Add config register bit definitions
+411d63d8c64c2f3b0c497fe4658f13b3bca951e2 KVM: arm64: Upgrade trace_kvm_arm_set_dreg32() to 64bit
+24f56c2302899f9678fa04030d1a77ab669a78f4 Merge branch kvm-arm64/pkvm-fixed-features-prologue into kvmarm-master/next
 
-0000000000000000000000000000000000000000 e610ab8323e2278fdf9e9f83eb56183d373257be refs/tags/v5.14-rc3
-0000000000000000000000000000000000000000 cf99369367280a68b3a9409a0a2fe7ce3c96aa55 refs/tags/v5.14-rc4
-0000000000000000000000000000000000000000 f6c803e46645d21750457cceaa97f9fa078f39c2 refs/tags/v5.14-rc5
-0000000000000000000000000000000000000000 0958b0b45a7419c681d581384a094b94af5469c1 refs/tags/v5.14-rc6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEE9DumQ60WEZ09LIErzlfNM9wDzUgFAmEfhC8ACgkQzlfNM9wD
-zUibLQf+Lu646W978HBvXd0TjrMW6zhm+HoUYboqsDuOZN2MPmZjv5jNKIz/FWhQ
-+F4uu2iYBZAnKidjvpObRAdOeEAxnMVfJmcLHdWG/w7qcM3T7/0QGnL8Awb2aEBN
-O7ntdj1KOaHjXgA7pUc2ZXYWXFn/bjGlOHXscvqi/YUyKWJ6I5g8yIKKBKkHm+P1
-EhbShylN7lBGHt8/kzZy18D7Ex3PPY/wo79LEJepbLFoQlq4+kl5yOYlKvJNeJHf
-rr+v33hhQdtYBq7cCiy8F8+i3wW11Kh4fbqGZxPzUfAEiW4mrnLgUlk51yZWaSXO
-dFw3c22CyKj+K3r050ng66YBzBdC1A==
-=FH84
------END PGP SIGNATURE-----
-
---===============3539241168746852566==--
+--===============4479329974716006259==--
