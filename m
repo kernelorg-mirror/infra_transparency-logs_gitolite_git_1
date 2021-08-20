@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5950350256906162697=="
+Content-Type: multipart/mixed; boundary="===============8318002990079925628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 20 Aug 2021 19:13:48 -0000
-Message-Id: <162948682814.15157.5954033560879627124@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 19:13:59 -0000
+Message-Id: <162948683946.15254.6713285119848648266@gitolite.kernel.org>
 
---===============5950350256906162697==
+--===============8318002990079925628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 3c964b366060971723081b536e1c14a207855226
-    new: 8cfba26d5806ab0c0653ec3147c10bdf1df83185
-    log: revlist-3c964b366060-8cfba26d5806.txt
+  - ref: refs/heads/net-mlx4
+    old: 1b80fec7b043552e01609bae7d0aad07aa742adc
+    new: ffc9c3ebb4af870a121da99826e9ccb63dc8b3d7
+    log: revlist-1b80fec7b043-ffc9c3ebb4af.txt
 
---===============5950350256906162697==
+--===============8318002990079925628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c964b366060-8cfba26d5806.txt
+Content-Disposition: attachment; filename=revlist-1b80fec7b043-ffc9c3ebb4af.txt
 
 2e29be2e491595407087ab36a5e5a159be693f7b fs/fuse: Remove unneeded kaddr parameter
 44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
@@ -237,6 +237,5 @@ f87d64319e6f980c82acfc9b95ed523d053fb7ac Merge tag 'net-5.14-rc7' of git://git.k
 a8f89fa27773a8c96fd09fb4e2f4892d794f21f6 ice: do not abort devlink info if board identifier can't be found
 7e78c597c3ebfd0cb329aa09a838734147e4f117 net: qrtr: fix another OOB Read in qrtr_endpoint_post
 ffc9c3ebb4af870a121da99826e9ccb63dc8b3d7 net: usb: pegasus: fixes of set_register(s) return value evaluation;
-8cfba26d5806ab0c0653ec3147c10bdf1df83185 net/mlx5: Lag, fix multipath lag activation
 
---===============5950350256906162697==--
+--===============8318002990079925628==--
