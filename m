@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 20 Aug 2021 12:58:45 -0000
-Message-Id: <162946432581.24682.8356282517812756690@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 13:01:35 -0000
+Message-Id: <162946449540.27049.4477102949374069276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-5.14/upstream-fixes
-    old: 462ba66198a4a8ea996028915af10a698086e302
-    new: bab94e97323baefe0afccad66e776f9c78b4f521
+  - ref: refs/heads/for-5.15/core
+    old: f7744fa16b96da57187dc8e5634152d3b63d72de
+    new: c9db35aca3b26e0517681f4bb2c3bb438d28e9ca
     log: |
-         bab94e97323baefe0afccad66e776f9c78b4f521 HID: sony: Fix more ShanWan clone gamepads to not rumble when plugged in.
+         a2843eb153cf09fcd03b48b7ef503638a6f9e860 HID: cp2112: Use struct_group() for memcpy() region
+         c9db35aca3b26e0517681f4bb2c3bb438d28e9ca HID: roccat: Use struct_group() to zero kone_mouse_event
          
   - ref: refs/heads/for-next
-    old: 7360e856576ee871e7153eff8b87d2b7f8c20581
-    new: 0c4e5ab97d2dcfda93330af44ea19fe50e3c215e
+    old: 0c4e5ab97d2dcfda93330af44ea19fe50e3c215e
+    new: 114c5f3497c85d0abffc03b75375535102504645
     log: |
-         bab94e97323baefe0afccad66e776f9c78b4f521 HID: sony: Fix more ShanWan clone gamepads to not rumble when plugged in.
-         0c4e5ab97d2dcfda93330af44ea19fe50e3c215e Merge branch 'for-5.14/upstream-fixes' into for-next
+         a2843eb153cf09fcd03b48b7ef503638a6f9e860 HID: cp2112: Use struct_group() for memcpy() region
+         c9db35aca3b26e0517681f4bb2c3bb438d28e9ca HID: roccat: Use struct_group() to zero kone_mouse_event
+         114c5f3497c85d0abffc03b75375535102504645 Merge branch 'for-5.15/core' into for-next
          
