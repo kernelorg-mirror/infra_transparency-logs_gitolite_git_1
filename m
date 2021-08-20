@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7221581509801635912=="
+Content-Type: multipart/mixed; boundary="===============4564154625127611640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 20 Aug 2021 14:33:02 -0000
-Message-Id: <162946998221.26298.11848181424529244122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 20 Aug 2021 14:33:12 -0000
+Message-Id: <162946999242.26402.2853748428962258238@gitolite.kernel.org>
 
---===============7221581509801635912==
+--===============4564154625127611640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 5d925d9823aaf18d55fab784bd4ef11f80fe1099
     new: 77eca00f8366238398b9f2f6eea1707a0832f79e
     log: revlist-5d925d9823aa-77eca00f8366.txt
 
---===============7221581509801635912==
+--===============4564154625127611640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629469957 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1629469979-4be8d8894b8c11eb35705e71c9ea6b5aebd990ee
+pusher C3F436CA30F5D8EB 1629469965 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1629469986-e08385fca0b406f972c8aedb508c7c9888ad825b
 
-5d925d9823aaf18d55fab784bd4ef11f80fe1099 77eca00f8366238398b9f2f6eea1707a0832f79e refs/heads/for-5.15
+5d925d9823aaf18d55fab784bd4ef11f80fe1099 77eca00f8366238398b9f2f6eea1707a0832f79e refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEfvQUACgkQJNaLcl1U
-h9ApxQf+Lx5al59FqdwAi29YxhqL0n+ZN4IueAIMgA6hKnXA+1XURb3XVu+A1cRm
-4P1Sey4JidPQHfy++fLsYohIl3NvFgn+zB+pP8R4ggQ7mqlXMwnMCl6xPKWm5YCg
-JExjGOV5lnOj67X3utZAjFHuy4oQC8q8Z0eWXxOSRYQ0peBno4+d09hp2hDDl5pe
-1N+GJJShSsQAkz/GgZeB146p1g0+TzWXS5UsVtI+icbLNdGxLAadbjPoXBDPZIsW
-Bpcp40Lp1JVXCbpKx+LlrfupqnN1e6CixFMCIACpFMe13zyhI85ONZO0FCaw1tvI
-unaEe9rAsdOIOZBqEGX2go92uTZhQw==
-=rrKd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEfvQ0ACgkQJNaLcl1U
+h9BTKwf/Qp8QvpvEl0B+nP0plgqIQvXThx1Dqi+5ADUmC3rB2xTah6r7ZBAKrlMv
+wwiMU8JmgS9qXpx0/C2W+sN1J/1XJ1rNDYM0hZ+k/hlRagOsJ95NDgt1arjsN+5U
+mmBUysrZRCR4rT1APgB2GwQl2eANSjroEi3gPKx7hFg8gzNRLSMCQaS3SyBUtwcF
+876HXPuWqhqyP0nhaIlGVlG0VvbJ3EgDkMlrcVnWsvl5+V4lIujb5jAfAPciEWgO
+aQ3Q8XHc44jR/wrnaKbFvNUOy2hqImfPglayH1EapG4fP59w/oYo1fvWc32z8Ggw
+RXyl9y72sFjVyr5N9VVPQ7l1y/p9sw==
+=wfyB
 -----END PGP SIGNATURE-----
 
---===============7221581509801635912==
+--===============4564154625127611640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ e3f2a6603a982467601e0831d706786ed1ade833 ASoC: rt5640: Add rt5640_set_ovcd_param
 cc64c390b215b404524725a94857d6fb58d9a62a ASoC: rsnd: adg: clearly handle clock error / NULL case
 77eca00f8366238398b9f2f6eea1707a0832f79e Merge series "ASoC: Intel/rt5640: Add support for HP Elite Pad 1000G2 jack-detect" from Hans de Goede <hdegoede@redhat.com>:
 
---===============7221581509801635912==--
+--===============4564154625127611640==--
