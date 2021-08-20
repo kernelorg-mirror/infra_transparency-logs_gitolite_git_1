@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8240391950941142818=="
+Content-Type: multipart/mixed; boundary="===============6110363481648247253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 20 Aug 2021 21:06:05 -0000
-Message-Id: <162949356568.25228.12763794125203081652@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 21:06:20 -0000
+Message-Id: <162949358093.25390.17354971441214247210@gitolite.kernel.org>
 
---===============8240391950941142818==
+--===============6110363481648247253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.master
+  - ref: refs/heads/next
     old: d864ff83c2dc6f1b6c731d68b72f78b303c67905
     new: 9612e7e933ebaa7e46f15fc0388b64bac2b7941f
     log: revlist-d864ff83c2dc-9612e7e933eb.txt
 
---===============8240391950941142818==
+--===============6110363481648247253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -107,4 +107,4 @@ f035871495435e584b5248f0f7d908b7d17190f0 core: Add CU stats printer
 40a40df961e74aac678265e948df392e5862aeea core: Bump the chunk size for ptr_table uses in types, tags, functions tables
 9612e7e933ebaa7e46f15fc0388b64bac2b7941f pahole: Prep 1.22
 
---===============8240391950941142818==--
+--===============6110363481648247253==--
