@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 20 Aug 2021 08:39:31 -0000
-Message-Id: <162944877124.31256.4011022551044114576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Fri, 20 Aug 2021 09:05:56 -0000
+Message-Id: <162945035603.917.5268107665546053958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: 5ae862191f8cb63df876eaa6c776b425466b9014
-    new: 1ce81305bc5e7e9911b96a4137efca3c52cc1dd3
+  - ref: refs/heads/master
+    old: ada217d48ba82906028042a53f12905c1107addf
+    new: 5cd6238ec4ef97687eeea9e011db0d6305216543
     log: |
-         017f5fb9ce793e3558db94ee72068622bc0b79db arm64: clean vdso & vdso32 files
-         bde8fff82e4a4b0f000dbf4d5eadab2079be0b56 arm64: initialize all of CNTHCTL_EL2
+         5cd6238ec4ef97687eeea9e011db0d6305216543 aarch32: fix .globl replacement
          
