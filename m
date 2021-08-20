@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 20 Aug 2021 13:07:27 -0000
-Message-Id: <162946484727.30541.10585441582206302740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 20 Aug 2021 13:11:08 -0000
+Message-Id: <162946506888.804.11903614520235724803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: e62ebf6253182642255a31320c99e539f25057f9
-    new: c4fdbf5ebaab1e5bd4a4eea8e9111902e5765528
+  - ref: refs/heads/experimental
+    old: 7a4e4476eadbddd67f5a4a68fefca737dcfb7c45
+    new: db2ee9ee1a313b823b844c71e655203bf8bb86a3
     log: |
-         c4fdbf5ebaab1e5bd4a4eea8e9111902e5765528 dt-bindings: Output yamllint warnings to stderr
+         db2ee9ee1a313b823b844c71e655203bf8bb86a3 erofs-utils: add mkfs.erofs and erofsfuse to .gitignore
          
