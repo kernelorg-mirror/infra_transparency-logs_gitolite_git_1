@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5775617194040706884=="
+Content-Type: multipart/mixed; boundary="===============4514804637571268660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 20 Aug 2021 20:11:00 -0000
-Message-Id: <162949026019.21789.471661415808826436@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 20:11:15 -0000
+Message-Id: <162949027530.21938.900398331554083341@gitolite.kernel.org>
 
---===============5775617194040706884==
+--===============4514804637571268660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3da9ced6d2dfe252ab7cdadd4d146bc28d2dc68a
-    new: 680c7e3be6a3d502248771fe42c911f99d7e006c
-    log: revlist-3da9ced6d2df-680c7e3be6a3.txt
+  - ref: refs/heads/paolo
+    old: fa4c0c7ca0fbb1c942a0a925fa1a4ce405934600
+    new: 26ad8e7f9e18320ef4c1ab342c5c511dcb12634b
+    log: revlist-fa4c0c7ca0fb-26ad8e7f9e18.txt
 
---===============5775617194040706884==
+--===============4514804637571268660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1629490258 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1629490273 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1629490257-44a94568dd85a8002fb0548a655225b852a2d39d
+nonce 1629490272-78b5093a17e199ea2a92cf24a969c4efe7f8a8fa
 
-3da9ced6d2dfe252ab7cdadd4d146bc28d2dc68a 680c7e3be6a3d502248771fe42c911f99d7e006c refs/heads/queue
+fa4c0c7ca0fbb1c942a0a925fa1a4ce405934600 26ad8e7f9e18320ef4c1ab342c5c511dcb12634b refs/heads/paolo
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEgDFIUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOtlQf+OIcWkHKNbTrE+VWjAAcTpQqAJ+Xp
-yfISB9LYFY4k6PmEZWkdXTdozz3KpqsNccnb7UYqW9Ug4r4U3TgWI2Rdj38xeiR6
-3BsHug5mVKQ3sBQZo/x8q3/qCrM/OGz4Zf8/LAa30UihQt20lWkwjiVW6t7DWWSP
-gHEKcbqge0imFjSLHkvpbvb8wCiKIr9F+et0mhpxxQmTiqpjYhSTI4+L0/hxh/tX
-M5NYNfQWO7BC1t8mQOHy228DZCDzS8dRlQx7Hrdvnex+JFolT6i53fGkPnpZTEYw
-Q4gUQE30TMwQocpdnYcuEL+ODHAfODoGK0HZ5GK3LgUTPT/6Pvv96yi3cw==
-=2JBy
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEgDGEUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMqxggAmRX+PrFmi7WTuL3jxQrvl8ZQAaeM
+ZWz6eN7ndIvp2TeRA4vDUE96z8VXpx38KDMU0KEqHwOe7MAAnLkkTHblJgYQkSO9
+CohZLpWjO9minvjR6u9JCg9YZg6pZS/p65Yi+QvMQDX+OvCYuznVL1U4FXhqxpCV
+Nn57lvZgjMrZeecSXAFfXnblcY9XEJsK+g1oEWhACN9wcippCNh1l0pZ3o99mVKv
+qZsTQzG+3ujv2S8YBXxpyD3Do7G9DEkmchM73wXb6TH1WCbEhAFKFNVLx6MIaX3K
+zUI27db2GkcfqO336JzCDS8ZiyXmlWP8kCIFGBa+7gyJmgEN52mRWCTwxA==
+=trfQ
 -----END PGP SIGNATURE-----
 
---===============5775617194040706884==
+--===============4514804637571268660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3da9ced6d2df-680c7e3be6a3.txt
+Content-Disposition: attachment; filename=revlist-fa4c0c7ca0fb-26ad8e7f9e18.txt
 
 4139b1972af281e0293c2414a0f1cd59fa5b2980 KVM: X86: Introduce kvm_mmu_slot_lpages() helpers
 3bcd0662d66fd07e596d2a7445e6b3215631b901 KVM: X86: Introduce mmu_rmaps_stat per-vm debugfs file
@@ -106,5 +106,27 @@ ff4039c248d36e9587c9e337c9dcfb5a4e797c35 KVM: x86/mmu: Avoid memslot lookup in p
 a2c7158f69aa1adc3e91d6858a061da0e95f3df2 KVM: selftests: Introduce prepare_tpr_shadow
 dafe1cac0cec379adc6ffee51e09987d7d12a8bf KVM: selftests: Add a test of an unbacked nested PI descriptor
 680c7e3be6a3d502248771fe42c911f99d7e006c KVM: x86: Exit to userspace when kvm_check_nested_events fails
+2153f8cabc7ec6f6f52f751607812ff519afa7d5 KVM: MMU: inline set_spte in mmu_set_spte
+874cbb25cb9c958f4f2501ede377aeadf1755f61 KVM: MMU: inline set_spte in FNAME(sync_page)
+cc728f77fed9481013a121b988f4e765b931acb1 KVM: MMU: clean up make_spte return value
+ac4d549f228b4429a0eb372f06a792674efdb8c4 KVM: MMU: set ad_disabled in TDP MMU role
+4180b2331f07e77777bf7a78bcbb9e6540905317 KVM: MMU: remove unnecessary argument to mmu_set_spte
+6a9ea1e1aa7f9f35c6fd2a5f06fe1b0f3e9139d1 KVM: MMU: pass kvm_mmu_page struct to make_spte
+dd64620befb0824f7e4ceef4261e50b403666c08 KVM: MMU: pass struct kvm_page_fault to mmu_set_spte
+124ce04d04ec43aeed2e2690a00a4367a3573ac8 KVM: x86/mmu: Avoid memslot lookup in mmu_set_spte and rmap_add
+4647cd60048f9d3bacd5237108f04f54cd70c443 KVM: x86/mmu: Avoid memslot lookup in mmu_try_to_unsync_pages
+c36aeafb3770c72ccbec539997634dcbba5b3a12 KVM: MMU: make spte an in-out argument in make_spte
+a076a559c8d87f4a6c2790370a89f3f75113a7f1 kvm: x86: abstract locking around pvclock_update_vm_gtod_copy
+b05e61d7cfd60e16c988ab11d8aabf3708d7f979 KVM: x86: extract KVM_GET_CLOCK/KVM_SET_CLOCK to separate functions
+fa8f1c7618312c656b7a8ff016185e9c7f573aa7 KVM: x86: Fix potential race in KVM_GET_CLOCK
+3f609c9340b252a1866c749df2427e535c3d275e KVM: x86: Report host tsc and realtime values in KVM_GET_CLOCK
+6f19e580ccb80c08273bf3a0e058ee660101aaea kvm: x86: protect masterclock with a seqcount
+c8c193aeed5aba919a163daaed29234c64890b95 KVM: x86: Refactor tsc synchronization code
+c69391a0fed50c0103a9e683b7256421fbdeefb8 KVM: x86: Expose TSC offset controls to userspace
+9bc3f85d797878a0bfbc8ce07f0330c5baef7c55 tools: arch: x86: pull in pvclock headers
+52d0464991f7af195045ec7b22792ff7c37e090a selftests: KVM: Add test for KVM_{GET,SET}_CLOCK
+38d9ef1e936c59f74740aed3dac1ce939535849a selftests: KVM: Fix kvm device helper ioctl assertions
+b5f72fb91cb4aa60cf7b75dfe7ed0ff4b4c9faa3 selftests: KVM: Add helpers for vCPU device attributes
+26ad8e7f9e18320ef4c1ab342c5c511dcb12634b selftests: KVM: Introduce system counter offset test
 
---===============5775617194040706884==--
+--===============4514804637571268660==--
