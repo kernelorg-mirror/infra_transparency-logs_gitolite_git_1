@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 20 Aug 2021 10:10:55 -0000
-Message-Id: <162945425528.10542.13721653909828590683@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 10:11:36 -0000
+Message-Id: <162945429621.10794.10551848153409887874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
-    old: b1341d3e93b26a85bb765f7eddd717d409bc1ef8
+  - ref: refs/heads/for-next
+    old: c58259bc83a24525e846f2392dbf4a176a4be8d4
     new: c63d44ae602419eda128cecd33d226f3d3f18df2
     log: |
          30f64e2066ab1b51139307eb33dc217838bd19bc platform/x86: gigabyte-wmi: add support for B450M S2H V2
