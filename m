@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Fri, 20 Aug 2021 06:55:10 -0000
-Message-Id: <162944251083.28083.15158796800527364457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 20 Aug 2021 07:15:37 -0000
+Message-Id: <162944373793.8186.7810579410115896312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/aspeed-5.15-defconfig
-    old: 0000000000000000000000000000000000000000
-    new: b499948aaca5fa315a78ef32fa4fdd62ebc74ccc
+  - ref: refs/heads/master
+    old: 82c52ce55856298302ba2c0f761ba7fafefaefe2
+    new: 1330d7991b8470924e378562e1ec17830f1a8306
+    log: |
+         1330d7991b8470924e378562e1ec17830f1a8306 Fri 20 Aug 2021 07:15:06 AM UTC
+         
