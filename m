@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 20 Aug 2021 13:15:10 -0000
-Message-Id: <162946531014.3749.7471451422334782150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 20 Aug 2021 13:19:25 -0000
+Message-Id: <162946556583.6495.5693939376112734931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/dev
-    old: 7a4e4476eadbddd67f5a4a68fefca737dcfb7c45
-    new: db2ee9ee1a313b823b844c71e655203bf8bb86a3
-    log: |
-         db2ee9ee1a313b823b844c71e655203bf8bb86a3 erofs-utils: add mkfs.erofs and erofsfuse to .gitignore
-         
+  - ref: refs/tags/mmc-v5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e83a8b8154b11a60a0fae4705fc15e7dd88349e2
