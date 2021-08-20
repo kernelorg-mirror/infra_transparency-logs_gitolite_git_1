@@ -1,101 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============2161660540513699203=="
+Content-Type: multipart/mixed; boundary="===============1205745167338535487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 20 Aug 2021 00:04:21 -0000
-Message-Id: <162941786158.16508.11153556995627128582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 20 Aug 2021 00:41:39 -0000
+Message-Id: <162942009997.8687.15808360237870561111@gitolite.kernel.org>
 
---===============2161660540513699203==
+--===============1205745167338535487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-queue
-    old: 2af98353ce42caee9c9344bc50d32bf37012c263
-    new: ba9f167a817c4f054d046d4f3f4260758c1ee1b1
-    log: revlist-2af98353ce42-ba9f167a817c.txt
+  - ref: refs/heads/seen
+    old: f13f1660a5175d59d07e7d2cfafc5000871890f0
+    new: cc51e8ad7029b06c987e1be48ea838d9adf4ae97
+    log: revlist-f13f1660a517-cc51e8ad7029.txt
 
---===============2161660540513699203==
+--===============1205745167338535487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2af98353ce42-ba9f167a817c.txt
+Content-Disposition: attachment; filename=revlist-f13f1660a517-cc51e8ad7029.txt
 
-39f83d71e33ccc66cd9cd6e0df7ee4f352f92170 ice: allow process VF opcodes in different ways
-7deeffef564047d447018c76b0b89323400048c6 ice: manage VSI antispoof and destination override
-c96787f347ecc16aeaae2a9540f84f2c360b438b ice: allow changing lan_en and lb_en on dflt rules
-9523c1aba1273af832dac6b0361d1f7f40d6fd1d ice: set and release switchdev environment
-ef8cd2fa78cae3f26646a121a9bf90b1004db079 ice: introduce new type of VSI for switchdev
-8e669d8888bd944fb417a6486507fb70826f36e7 ice: enable/disable switchdev when managing VFs
-eeb5b1bc2d655a2a93a7feca0d4751eb35bf8c11 ice: rebuild switchdev when resetting all VFs
-64bdb7f1f2f278c52469284ac056fe8c74c36a1c ice: switchdev slow path
-6b7a914b17a6372d66679cb6f49e03534eafe975 ice: add port representor ethtool ops and stats
-36efb11452869e55266dcc1033aa67e53c7c1763 ice: Fix failure to re-add LAN/RDMA Tx queues
-fdd984645fa86be47501fc4a8f33e0d7fabf81c5 ixgbevf: Rename MSGTYPE to SUCCESS and FAILURE
-19fe099f469a02b84ca380951d14104a7c7a783f ixgbevf: Improve error handling in mailbox
-239808b4830c0c0add18957e4e9894436e033690 ixgbevf: Add legacy suffix to old API mailbox functions
-87ca8a3c0f4de56da79d7fe61bb541ef7cbf1e1b ixgbevf: Mailbox improvements
-4115b817b45fee2dc8605142c6ba4329f910472b ixgbevf: Add support for new mailbox communication between PF and VF
-c59b1e1d5a512781b9da4059abbdfb4fd04666e6 ice: Fix perout start time rounding
-d700f2903d7a04052d53646e04108543a53bdd69 e1000e: Fix the max snoop/no-snoop latency for 10M
-32cb35686d5b3de18319fa4bfb65a6641a057029 igbvf: Refactor trace
-4e580e53a41bb9454553b5c730259fb0bfab5bd3 ice: fix Tx queue iteration for Tx timestamp enablement
-2fa1bd33525399a4d291282c5399766ea6afe97c ice: remove dead code for allocating pin_config
-948583f7aca5126293e638575e90bd77f938bf09 ice: add lock around Tx timestamp tracker flush
-ef628a895d7af6c19fa19a4f4212eb19b6299004 ice: restart periodic outputs around time changes
-5a84f8c29962f8b131690d6a43560f4a78ab8c56 ice: introduce ice_base_incval function
-399076f9904287307a223c01674129eb535642df ice: PTP: move setting of tstamp_config
-aff4baf6ff2d68e2326bcd88fc1336828221ac9a ice: use 'int err' instead of 'int status'
-361458e14a63399f5b36059aeb01861fcb186914 ice: introduce ice_ptp_init_phc function
-cb4f40bc7d9c97868d97bcb97c9011713cc9d38b ice: convert clk_freq capability into time_ref
-ac0993a1e534476d615c528816245c4178d0d899 ice: implement basic E822 PTP support
-ad19f0453ea78c38223a63b8112e545238a4fcc1 ice: ensure the hardware Clock Generation Unit is configured
-8ee0f9270dd58ba7bdba40c7fd359e258d5676b0 ice: exit bypass mode once hardware finishes timestamp calibration
-9b9b65cf95abe3d60bc8b52b277a0edd3a6e67ff ice: support crosstimestamping on E822 devices if supported
-5804e1aba767c8d4e263520877911491e4cb62e2 ice: rearm other interrupt cause register after enabling VFs
-508d5c9904525483e563de0fd614b3992327c99d igc: fix page fault when thunderbolt is unplugged
-9b42707a8e3caa857147d29def3c880c2060fa46 i40e: Fix pre-set max number of queues for VF
-28b8ab3dbce8eb3e40742f7bdd15ab6c788eb841 iavf: Enable setting RSS hash key
-989f3fae2d0fac7a8c113f9ded5214c8750f613e ice: Fix static analyzer hit
-d3f8bbbd0213bca549c41ec9cfd6046a02cd9bb6 ice: Fix link mode handling
-e15a05904cbf2f1540dd61db8055fecd4d78f44a ice: Add DSCP support
-c8556b0ace38a43f7d95e0ac7a8086b9dfa0dd9f ice: Add feature bitmap, helpers and a check for DSCP
-7c755dc89d1484e007619ae7905b987064d57a79 ice: Add package PTYPE enable information
-5a0cf268050c45031a167b1209adfac8284a32af ice: refactor PTYPE validating
-897a3a5960dac05ccaef46079146a0ca68100c70 ice: Fix macro name for IPv4 fragment flag
-56f8fe554400bfb71a66db0db233517bfb341224 e1000e: Do not take care about recovery NVM checksum
-561307b4a089f3b3de311b33c362bae093db639b igc: Remove media type checking on the PHY initialization
-e7a375f23431c5b11b2ad796d78c283a41560569 igc: Use num_tx_queues when iterating over tx_ring queue
-404893b6953ed0bf31ad33679a6195ce562e3dbd i40e: Fix ATR queue selection
-fa7e56c851a99b8dd6698b4b7887bff59cffe5fb ice: Add support to print error on PHY FW load failure
-5629f7731366901486eb4df1a0d4becf2b11adea Revert "PCI: Make pci_enable_ptm() private"
-894ea5190117e477b2fce0171b6a08dfde7caf4e PCI: Add pcie_ptm_enabled()
-1903f33957e84e69ab55ce0718b0ae2787bd135c igc: Enable PCIe PTM
-14359d403c7969c2570ef3ca001bee55abd47879 igc: Add support for PTP getcrosststamp()
-725c9dbd36680f69ee8a057ff01d8936a71f4339 ice: Use ether_addr_copy() instead of memcpy
-4f7516fe136faf573ee2c5586cd654a5e58894ac ice: implement low level recipes functions
-c51004665dd52c8c74a46b58b0bd67319d5cd1fc ice: manage profiles and field vectors
-2b184d10c88333a52ff1c7ea52e536ba1b772cf5 ice: create advanced switch recipe
-898af3089dd4d38b068dea9c40848e08f840d0c6 ice: allow adding advanced rules
-f21b75fc25c30b8ac5ac1582ce3551705900bcaf ice: allow deleting advanced rules
-54c706a807d32b7fe93fb3e37fb84566a55be0c4 ice: cleanup rules info
-cf65d146e8f1ab9abab230814631c68aea4ca956 ice: Allow changing lan_en and lb_en on all kinds of filters
-3a0b7fc980dbe22f096c50d6a8e248dd46f07852 ice: ndo_setup_tc implementation for PF
-41d8a8262065970a77e4e3d0240d1c9c08c5dd17 ice: ndo_setup_tc implementation for PR
-5762ea4d97da6317d50407b3516fa987a5deb959 ice: Add support for VF rate limiting
-4e57eede7698b411b5abf0a9c7c4cf9d2dcd758c igc: Use default cycle 'start' and 'end' values for queues
-2e25e5f679a88624fb66d4894b3c9f6ff96e3e67 igc: Simplify TSN flags handling
-0471b16f6488b457aca98f2725b3b9f601302e5a igc: Add support for CBS offloading
-b770d98839ff4f0cb52c6fa1612175446b5044d0 ice: Refactor ice_aqc_link_topo_addr
-bb6280749f975dfecd9517ca8a784c6fbcbabf5d ice: Implement functions for reading and setting GPIO pins
-09ca09fdea7f6e4399efc1c0891d8335915632dc ice: Add support for SMA control multiplexer
-4902b633ef41ce424866db4a5e721f6c633da0bd ice: Implement support for SMA and U.FL on E810-T
-f3c523d2dbfeab0bfa9eb645bbcb68952680ed8c igc: fix tunnel offloading
-ba9f167a817c4f054d046d4f3f4260758c1ee1b1 ice: do not abort devlink info if board identifier can't be found
+4073192903796148711defe95e533c9a574249ef simple-ipc: preparations for supporting binary messages.
+cf5fff134f9f0901241e7fef242dfe26f8608f78 fsmonitor--daemon: man page
+f429ebc15d17454e9e8ed7938058c1e6a3fe7197 fsmonitor--daemon: update fsmonitor documentation
+df083a4a3e46fbe39d1d0faf0d8b340af0eb5595 fsmonitor-ipc: create client routines for git-fsmonitor--daemon
+12492d425f679a5ab1516586f06d3fd2b1a339be help: include fsmonitor--daemon feature flag in version info
+9e9cda83b4972cbbf140cdcc02221d3670d4fb28 fsmonitor: config settings are repository-specific
+565ca98ca234a7ae318d866e6d0b5500b84478a0 fsmonitor: use IPC to query the builtin FSMonitor daemon
+1d6370bea32b69ec0e7dba2c2eccd3a351c4567f fsmonitor--daemon: add a built-in fsmonitor daemon
+d3a9065ccfba61ae31e7cd82ee7928ce9634add1 fsmonitor--daemon: implement 'stop' and 'status' commands
+fea308d073dd113ffb5d498b644080b09971dcfd t/helper/fsmonitor-client: create IPC client to talk to FSMonitor Daemon
+e291f8b782a6fd461d271329bf18585304b26452 fsmonitor-fs-listen-win32: stub in backend for Windows
+0c9eac930e678ece799ddd99e8ba873fa41635ed fsmonitor-fs-listen-macos: stub in backend for MacOS
+73e571c1052b29ba1048527cf335ec03cb0d6d41 fsmonitor--daemon: implement 'run' command
+6053b814b4b7b28964af8df406f9bd2d50f0c4e7 fsmonitor--daemon: implement 'start' command
+7e7677ff3e232cdfc969b2ba956115ba8330aece fsmonitor: do not try to operate on bare repos
+de82d65c05d2e354f3f551884fff5e4cf15b94f5 fsmonitor--daemon: add pathname classification
+02517e2bb0a36c73d408bb4a6849aa8d346a7a12 fsmonitor--daemon: define token-ids
+db8b47856886f4c9e8fedab38b30e39c9187163b fsmonitor--daemon: create token-based changed path cache
+c77b8590fc0aa4d5f83e7cc0b68e8f3eabdb77ae fsmonitor-fs-listen-win32: implement FSMonitor backend on Windows
+adb357e08d4ff988677c38e84e0ccb310d33f8b7 fsmonitor-fs-listen-macos: add macos header files for FSEvent
+1e478d22fcc4425688a5ceb8e58ff380fba6a445 fsmonitor-fs-listen-macos: implement FSEvent listener on MacOS
+1b46342220cce6caf5fc81eb24635354ec421079 fsmonitor--daemon: implement handle_client callback
+a76809260f2ba08dd60547a0e707cf558585d3cc t/helper/test-touch: add helper to touch a series of files
+a217591b816fda434515868215e6ca09fb054196 t/perf/p7519: speed up test using "test-tool touch"
+7cc7cf6a15f87aa0db7cbd393b0e0285880eb5da t/perf: avoid copying builtin fsmonitor files into test repo
+379ecf24c4ff3916faea7153040013ff7b624cee t/perf/p7519: add fsmonitor--daemon test cases
+d04b7af2111c9f44cd6b46ce56d2ccf1f11331b0 t7527: create test for fsmonitor--daemon
+a405aabb8391771de7540dfe642d38b6592a41c7 fsmonitor--daemon: periodically truncate list of modified files
+5111bbaea16e83929dcd4e6d493fcee7899108ae fsmonitor--daemon: use a cookie file to sync with file system
+082f531b0dd9d0aa8f3d4b7ab0c578d25ea28d38 fsmonitor: enhance existing comments
+2017d82aa890c0ab6c29f34e35cf3e4f1a331f81 fsmonitor: force update index after large responses
+8ccb888149b123a60bae422a964605ff8788bb1b t7527: test status with untracked-cache and fsmonitor--daemon
+1a215a4463dd2ab9807f454b67f55401b26879b5 fsmonitor: handle shortname for .git
+2276a9b47223919675719808c6895fd11d672cca t7527: test FS event reporing on MacOS WRT case and Unicode
+a5a42b9f76972abebdf4da17869c78e7b0746f45 BANDAID: sparse fixes
+f6cd080bd2d6d6e721a52661a5da19f8835a01c3 diff --color-moved: add perf tests
+7a07e3ee608167fa9af0adc05a5861125d2d5bf4 diff --color-moved=zebra: fix alternate coloring
+bdbb7734f7a18e41c802552f0125b8e03cd3e4dc diff --color-moved: avoid false short line matches and bad zerba coloring
+f52feba8ffe256ee048dece20067976abe8e9db1 diff: simplify allow-indentation-change delta calculation
+8e809cbb2f8f8194ce22257339821809187dd1d0 diff --color-moved-ws=allow-indentation-change: simplify and optimize
+76c2aacec9b2cd5eb2c089747cfd0c8adbb51de2 diff --color-moved: call comparison function directly
+f9cbfe64eeeebe87b5eb50dbf83257de287a7886 diff --color-moved: unify moved block growth functions
+72e4640f244b012d980f8e007db9ad6790057db9 diff --color-moved: shrink potential moved blocks as we go
+b473dcb0de2dc030be804a89df155c69306ab90d diff --color-moved: stop clearing potential moved blocks
+447e5899921980c9ba84a5972176763283f4f72a diff --color-moved-ws=allow-indentation-change: improve hash lookups
+a95081c2471ae8658e0e76abd3a8c6a43a9f09cb diff: use designated initializers for emitted_diff_symbol
+5458d65b169d2c21d5c87af897e3ac01f31d84dc diff --color-moved: intern strings
+4a633b2f4dbffa903ac2e01bf1a722ad3fd77007 refs/packet: add missing BUG() invocations to reflog callbacks
+1578215dab1650b1793b154935d1e8a9bdcec24e refs/files: remove unused REF_DELETING in lock_ref_oid_basic()
+9e31fdd015bea033a7210f77b3e892e997588484 refs/files: remove unused "extras/skip" in lock_ref_oid_basic()
+d7373ed033d019db864d58ed675e4eb2fd649ab4 refs/files: remove unused "skip" in lock_raw_ref() too
+ada77feb5fdaf2c96e939ebcb88b6a0ed9b1cc6c refs/debug: re-indent argument list for "prepare"
+ab3bfeb93eb099a768224a2dc28be3ef254a7f08 refs: make repo_dwim_log() accept a NULL oid
+74271b968f29ebf01fd595e1e8dae97da1fa02ca refs/files: add a comment about refs_reflog_exists() call
+b3736601d0cc489757eac92545e75f9e75341638 refs file backend: move raceproof_create_file() here
+466d936b9db984588689cf881ec49354928b1ceb refs: remove EINVAL errno output from specification of read_raw_ref_fn
+8bb2a971949c50787809f14ccf1d2a5d5324f4e4 reflog expire: don't lock reflogs using previously seen OID
+ffe2bc99bb77674b69ee7212e597963f2abf150d refs/files-backend: stop setting errno from lock_ref_oid_basic
+066c64af8603953234c191e64c5b50bd226ad198 refs/files: remove unused "oid" in lock_ref_oid_basic()
+5794236350422402e16f34a161b82cc1004b7a4d refs: make errno output explicit for read_raw_ref_fn
+ac7337ee0d2cd84fcbde733ce9ffcbc1dcc768b3 refs/files: remove unused "errno == EISDIR" code
+0dac16d8eb9c2bb9ed394639327cd9c5cd8f5235 refs: add failure_errno to refs_read_raw_ref() signature
+af5d6e2c1fbd2d09424ea0898ad6c5e35b7545be refs/files: remove unused "errno != ENOTDIR" condition
+232290273b8b817312fcd1f5a88e154343e62b92 diff: drop unused options parameter from cmp_in_block_with_wsd()
+8a41badcffff4479a1317bd668451d13741bf49e refs: drop unused "flags" parameter to lock_ref_oid_basic()
+23d63ce75e9c69ab05aee4ad2062ab76c1af1793 refs: explicitly return failure_errno from parse_loose_ref_contents
+d1931bcf0d5ef75cdaf836347f4aefce902a6a38 refs: make errno output explicit for refs_resolve_ref_unsafe
+f8614bda52d2bdff9783f813870d4aaf34a3ecab ### CI Breakers
+fee996b478121dee04e6a2649672624d965da338 Merge branch 'pw/diff-color-moved-fix' into seen
+829e35857c8f5d2d2815d6539a2cd254e0367047 Merge branch 'ab/refs-files-cleanup' into seen
+a8516033e08d0e638fe8697eb7dbef3e4445a046 Merge branch 'jk/refs-files-cleanup-cleanup' into seen
+bcd4ce7aee4243362442518b378bd37953fbcaea Merge branch 'hn/refs-errno-cleanup' into seen
+cc51e8ad7029b06c987e1be48ea838d9adf4ae97 Merge branch 'jh/builtin-fsmonitor' into seen
 
---===============2161660540513699203==--
+--===============1205745167338535487==--
