@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 20 Aug 2021 18:36:57 -0000
-Message-Id: <162948461794.24731.380882488406478278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 20 Aug 2021 18:50:20 -0000
+Message-Id: <162948542006.2207.12032125925340166713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 47070cfeeb4d851b0b7b02683e84c79513d09473
-    new: d2b5e2d7fee3d8733760767a4c03d2f06646986d
+  - ref: refs/heads/for-next/core
+    old: eec04c5189066f027f76034957bc94aa829cedf9
+    new: dfbd0cce3c27b7f347a4e4b2cccad1a62757d758
     log: |
-         34a47cf62daa851459938682140ab13b131bc3f1 RDMA/efa: Remove unused cpu field from irq struct
-         d2b5e2d7fee3d8733760767a4c03d2f06646986d RDMA/efa: Rename vector field in efa_irq struct to irqn
+         090bf6f84b4d23457a2116891e5de93bc995da90 arm64: replace in_irq() with in_hardirq()
+         a3b77ae556fca39f9906df0b1a4b5fa73fd83e64 Merge branches 'for-next/mte', 'for-next/misc' and 'for-next/kselftest' into for-next/core
+         dfbd0cce3c27b7f347a4e4b2cccad1a62757d758 Merge branch 'for-next/entry' into for-next/core
          
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 65a81b61d8c5e96748671824cc46339afbd831d0
-    new: dbe986bdfd6dfe6ef24b833767fff4151e024357
+  - ref: refs/heads/for-next/misc
+    old: 5e10f9887ed85d4f59266d5c60dd09be96b5dbd4
+    new: 090bf6f84b4d23457a2116891e5de93bc995da90
     log: |
-         dbe986bdfd6dfe6ef24b833767fff4151e024357 RDMA/efa: Free IRQ vectors on error flow
+         090bf6f84b4d23457a2116891e5de93bc995da90 arm64: replace in_irq() with in_hardirq()
          
