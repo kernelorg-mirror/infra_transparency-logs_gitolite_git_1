@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3010492941703206282=="
+Content-Type: multipart/mixed; boundary="===============5775617194040706884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 20 Aug 2021 20:10:32 -0000
-Message-Id: <162949023275.21546.14207424554267624098@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 20:11:00 -0000
+Message-Id: <162949026019.21789.471661415808826436@gitolite.kernel.org>
 
---===============3010492941703206282==
+--===============5775617194040706884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 5a4bfabcc865644b63bd64f46fdd5ceb0287b677
-    new: 43e540cc9f2ca12a2364ddf64e5ef929a546550d
-    log: revlist-5a4bfabcc865-43e540cc9f2c.txt
+  - ref: refs/heads/queue
+    old: 3da9ced6d2dfe252ab7cdadd4d146bc28d2dc68a
+    new: 680c7e3be6a3d502248771fe42c911f99d7e006c
+    log: revlist-3da9ced6d2df-680c7e3be6a3.txt
 
---===============3010492941703206282==
+--===============5775617194040706884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1629490230 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1629490258 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1629490229-c85355a384797ba570136ad96fb6d3bfe33a9074
+nonce 1629490257-44a94568dd85a8002fb0548a655225b852a2d39d
 
-5a4bfabcc865644b63bd64f46fdd5ceb0287b677 43e540cc9f2ca12a2364ddf64e5ef929a546550d refs/heads/next
+3da9ced6d2dfe252ab7cdadd4d146bc28d2dc68a 680c7e3be6a3d502248771fe42c911f99d7e006c refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEgDDYUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOyKAf/VmrNjE36J45Ju2HHqVkzZOVaZnKY
-VF3iyqxa/bLrYG/Fm3ABjSQ7eCtdQgIjiKx5VEtOoSf5JUEAEZgyHiqhk6jC5oy7
-kMP45u4BJG+O3eqSzX9O8cYnBWKbqQNBzGAtqIwc/ql/Z3tcr7nA0enDL6ULRHBg
-extnaAbGGVv93dMOJUt24dgp81fFRx/06UEBLVRurEiJipKn27c1DHNm0bbin+Ta
-cQZBqeQsyRkl08Gn/X5tadSwRPIxUQkcQz3N7dmTyV11ztjVltZZGJkaaK95t1CK
-dLQ8AGAT3cnOedDDN/2b8qu3RLtlO0yOk4tatY2//5DFmvLMXOAVxRsakQ==
-=QL2A
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEgDFIUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOtlQf+OIcWkHKNbTrE+VWjAAcTpQqAJ+Xp
+yfISB9LYFY4k6PmEZWkdXTdozz3KpqsNccnb7UYqW9Ug4r4U3TgWI2Rdj38xeiR6
+3BsHug5mVKQ3sBQZo/x8q3/qCrM/OGz4Zf8/LAa30UihQt20lWkwjiVW6t7DWWSP
+gHEKcbqge0imFjSLHkvpbvb8wCiKIr9F+et0mhpxxQmTiqpjYhSTI4+L0/hxh/tX
+M5NYNfQWO7BC1t8mQOHy228DZCDzS8dRlQx7Hrdvnex+JFolT6i53fGkPnpZTEYw
+Q4gUQE30TMwQocpdnYcuEL+ODHAfODoGK0HZ5GK3LgUTPT/6Pvv96yi3cw==
+=2JBy
 -----END PGP SIGNATURE-----
 
---===============3010492941703206282==
+--===============5775617194040706884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a4bfabcc865-43e540cc9f2c.txt
+Content-Disposition: attachment; filename=revlist-3da9ced6d2df-680c7e3be6a3.txt
 
 4139b1972af281e0293c2414a0f1cd59fa5b2980 KVM: X86: Introduce kvm_mmu_slot_lpages() helpers
 3bcd0662d66fd07e596d2a7445e6b3215631b901 KVM: X86: Introduce mmu_rmaps_stat per-vm debugfs file
@@ -85,5 +85,26 @@ ec607a564f70519b340f7eb4cfc0f4a6b55285ac KVM: x86: clamp host mapping level to m
 746700d21fd52399c97aeb7791584bbf5426983c KVM: x86: Allow CPU to force vendor-specific TDP level
 cb0f722aff6e9ba970a9fee9263c7821bbe811de KVM: x86/mmu: Support shadowing NPT when 5-level paging is enabled in host
 43e540cc9f2ca12a2364ddf64e5ef929a546550d KVM: SVM: Add 5-level page table support for SVM
+06a97b370665f3a95483de2bc25ef37fca23e9a5 KVM: MMU: pass unadulterated gpa to direct_page_fault
+a7d5c4f2dcbbb38ea19ce766c0a08a59f2cbba54 KVM: MMU: Introduce struct kvm_page_fault
+d1b67558a6f90f6c3fce4fec2ee94e0b502bb91f KVM: MMU: change mmu->page_fault() arguments to kvm_page_fault
+adc4bb03fab5c37efce67d1c89286aaee1afe2ac KVM: MMU: change direct_page_fault() arguments to kvm_page_fault
+ec69d798a63ad42115b6a709596cc463e7946428 KVM: MMU: change page_fault_handle_page_track() arguments to kvm_page_fault
+949d74fd0283a123a702d1d2d78038403708355e KVM: MMU: change kvm_faultin_pfn() arguments to kvm_page_fault
+a3e1e99f5818397d49053912879503eb1552ae90 KVM: MMU: change handle_abnormal_pfn() arguments to kvm_page_fault
+ad306113efc651ed4c82a4817c8101fcdea9a4ef KVM: MMU: change __direct_map() arguments to kvm_page_fault
+4b6f949c9e3062c4ccf2057ba466d647dee42636 KVM: MMU: change FNAME(fetch)() arguments to kvm_page_fault
+6ccfc91f6e33d8b79b914b70329636b37bb8cbec KVM: MMU: change kvm_tdp_mmu_map() arguments to kvm_page_fault
+0e38a303af02283d5d04d86a47e8446890fb7d4c KVM: MMU: change tdp_mmu_map_handle_target_level() arguments to kvm_page_fault
+62051cedc2c9abdf5d76fa90ab697359716e95a3 KVM: MMU: change fast_page_fault() arguments to kvm_page_fault
+1c4df0d7cf99966ebd7682a71ff773dc2eb9e31a KVM: MMU: change kvm_mmu_hugepage_adjust() arguments to kvm_page_fault
+a80320ac2f21a9888568fc9f3e6afeabff2b2c01 KVM: MMU: change disallowed_hugepage_adjust() arguments to kvm_page_fault
+5db99be464535d562a5b0e9c3074c6e895e96251 KVM: MMU: change tracepoints arguments to kvm_page_fault
+76e5d036e578eab56a1651296098eae15e6f3a78 KVM: x86/mmu: Fold rmap_recycle into rmap_add
+6574422f913e068ae733ae43eb7a621d48e14988 KVM: x86/mmu: Pass the memslot around via struct kvm_page_fault
+ff4039c248d36e9587c9e337c9dcfb5a4e797c35 KVM: x86/mmu: Avoid memslot lookup in page_fault_handle_page_track
+a2c7158f69aa1adc3e91d6858a061da0e95f3df2 KVM: selftests: Introduce prepare_tpr_shadow
+dafe1cac0cec379adc6ffee51e09987d7d12a8bf KVM: selftests: Add a test of an unbacked nested PI descriptor
+680c7e3be6a3d502248771fe42c911f99d7e006c KVM: x86: Exit to userspace when kvm_check_nested_events fails
 
---===============3010492941703206282==--
+--===============5775617194040706884==--
