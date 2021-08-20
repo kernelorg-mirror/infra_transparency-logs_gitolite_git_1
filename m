@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3427546184158691478=="
+Content-Type: multipart/mixed; boundary="===============1142224095059920353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 20 Aug 2021 20:08:45 -0000
-Message-Id: <162949012576.18787.13419875278873193688@gitolite.kernel.org>
+Date: Fri, 20 Aug 2021 20:08:59 -0000
+Message-Id: <162949013996.18952.10429624219573645325@gitolite.kernel.org>
 
---===============3427546184158691478==
+--===============1142224095059920353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,37 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
+  - ref: refs/head/next
+    old: 43e540cc9f2ca12a2364ddf64e5ef929a546550d
+    new: 0000000000000000000000000000000000000000
   - ref: refs/head/paolo
-    old: 0000000000000000000000000000000000000000
-    new: 26ad8e7f9e18320ef4c1ab342c5c511dcb12634b
+    old: 26ad8e7f9e18320ef4c1ab342c5c511dcb12634b
+    new: 0000000000000000000000000000000000000000
 
---===============3427546184158691478==
+--===============1142224095059920353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1629490123 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1629490138 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1629490122-f810cb06b43659d0b3c1577373aac5cd337cb33c
+nonce 1629490138-10c364467429eef396e52ae14cafc28cfb92b9df
 
-0000000000000000000000000000000000000000 26ad8e7f9e18320ef4c1ab342c5c511dcb12634b refs/head/paolo
+43e540cc9f2ca12a2364ddf64e5ef929a546550d 0000000000000000000000000000000000000000 refs/head/next
+26ad8e7f9e18320ef4c1ab342c5c511dcb12634b 0000000000000000000000000000000000000000 refs/head/paolo
+0000000000000000000000000000000000000000 0000000000000000000000000000000000000000 refs/head/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEgC8sUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNHwwf/XLiXpD6OCyhySAV3xpaoxL5bguKJ
-yMsKSjp1l3DmMsdpzGgzWkRXFJ2eyXuhmHmnaDQE71cl/kTeac0en+wDPfqPBP0k
-dgFucgeI9H4XS3XvnmKxFdrTqv1s00Run7bBLuqpOD2ccAWPDolBSBwgik1IBPAJ
-Utfs9JexaIig0Yz/2H7FIPUJX1Ye4WxGMJXc1KSgMotsElssfqYstQI75oeD4Npe
-YZA2ibQ4ThgHWR+hVtOAFWi8Lqql9YjYlrBmriMrrMyibvAvD22rJHXrgJDxYeui
-eIrFvR4p5n4HTwUdEFqCwbFCapLDs4jeOQEmjR30adXr663QTHBCbCf07Q==
-=6KED
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmEgC9oUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNHrwf+NsUuQXSmULyDSkHPBCFKuQJWrsvN
+LrAyuDgOF/8MprOl9EIPNF96eN7v2v1n8il2yat0K4rZd1Kc5QfcPz+5zmk1NpZR
++LKbpUoP+JJvjG7xGwBeTtwzipKXSKG8M2HyNG/F9JVuD/CB+oR8PmmXKgolp3Ht
+YHMNMBBOA9QBWr29dTUO9oKvl0z9sXgpLkz2mCG6x8tBpA29o7kR/RnSSsai++Q3
+leWo5tZd5xmJ3cQfABcmnJN5Xjj+OwZZiShKfHHN2+0HkSXIOv8t+6CevdF8YU3p
+yo1DO7QI2x0nMvus0a09LaHku9O2QMd6vDFthTmGE+wL7FIq6sVM/7MVaQ==
+=XGPE
 -----END PGP SIGNATURE-----
 
---===============3427546184158691478==--
+--===============1142224095059920353==--
