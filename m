@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 20 Aug 2021 17:07:59 -0000
-Message-Id: <162947927966.31070.5814099663612030252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 20 Aug 2021 17:18:20 -0000
+Message-Id: <162947990085.5028.17226411413746252807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 7ddbb62d7b43e3334a52427cd9666d90a833bd19
+  - ref: refs/heads/fixes
+    old: 589be135381f42c095d102fff978e75fa7d061ce
+    new: aa3e1ba32e553e611a58145c2eb349802feaa6eb
     log: |
-         d453ceb6549af8798913de6a20444cb7200fdb69 platform/chrome: sensorhub: Add trace events for sample
-         3abc16af57c9939724df92fcbda296b25cc95168 platform/chrome: cros_ec_proto: Send command again when timeout occurs
-         3c645a03579d15de3b6ffd6d75801011d80416fc platform/chrome: cros_ec_proto: Update feature check
-         7ddbb62d7b43e3334a52427cd9666d90a833bd19 platform/chrome: cros_ec_typec: Use existing feature check
+         030d6dbf0c2e5fdf23ad29557f0c87a882993e26 riscv: kexec: do not add '-mno-relax' flag if compiler doesn't support it
+         fdf3a7a1e0a67a52f631b055975c6ac7e0e49a65 riscv: Fix comment regarding kernel mapping overlapping with IS_ERR_VALUE
+         1c8094e394bceb4f1880f9d539bdd255c130826e dt-bindings: sifive-l2-cache: Fix 'select' matching
+         aa3e1ba32e553e611a58145c2eb349802feaa6eb riscv: Fix a number of free'd resources in init_resources()
          
