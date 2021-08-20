@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 20 Aug 2021 12:15:03 -0000
-Message-Id: <162946170373.26936.17034490579778496125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 20 Aug 2021 12:20:57 -0000
+Message-Id: <162946205715.32690.4481485320752651770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: ec6c6c9c1386ac05a47cc4da554c6cb742d5f7a3
-    new: e62ebf6253182642255a31320c99e539f25057f9
+    old: e2e4893180f321a23795827af3305ccfc68c1556
+    new: 8eedcf55d217084926b50b5e479e9e874bf95c65
     log: |
-         e62ebf6253182642255a31320c99e539f25057f9 dt-bindings: eeprom-93xx46: Convert to json schema
+         46dcd1cc2b2fa43bd99f39c7c236d5cdb80522f0 HID: logitech-hidpp: Use 'atomic_inc_return' instead of hand-writing it
+         8eedcf55d217084926b50b5e479e9e874bf95c65 Merge branch 'for-5.15/logitech' into for-next
          
+  - ref: refs/heads/for-5.15/logitech
+    old: 0000000000000000000000000000000000000000
+    new: 46dcd1cc2b2fa43bd99f39c7c236d5cdb80522f0
