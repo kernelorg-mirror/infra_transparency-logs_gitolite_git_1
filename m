@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 20 Aug 2021 14:34:18 -0000
-Message-Id: <162947005850.27188.4976545228798677176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 20 Aug 2021 14:39:16 -0000
+Message-Id: <162947035677.30337.10386034920777338011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: 80b3a98085574e451ef041a819d592f542ea4d56
-    new: f5432aa6c1740ceb59f3ff139016ab20f068f99b
+  - ref: refs/heads/erofs/chunk
+    old: 3f0490fa1fd5d201f0ddac55d28c8c0d07c2cae3
+    new: c5aa903a59db274554718cddfda9039913409ec9
     log: |
-         f5432aa6c1740ceb59f3ff139016ab20f068f99b Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 5d14499b5016f5d84ae25be6e525b34c1fa44111
-    new: d805cf3f89f34e39e72f6aaec38d8129745bbcf7
-    log: |
-         7a4697b201a617907e4b440ae34df601d4755bef spi: stm32: fix excluded_middle.cocci warnings
-         f5432aa6c1740ceb59f3ff139016ab20f068f99b Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         d805cf3f89f34e39e72f6aaec38d8129745bbcf7 Merge remote-tracking branch 'spi/for-5.15' into spi-next
+         2a9dc7a8fec6ca287e2c038f9441e24269e10b5f erofs: introduce chunk-based file on-disk format
+         c5aa903a59db274554718cddfda9039913409ec9 erofs: support reading chunk-based uncompressed files
          
