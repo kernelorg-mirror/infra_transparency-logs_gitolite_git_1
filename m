@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Fri, 20 Aug 2021 15:07:35 -0000
-Message-Id: <162947205567.17483.6571495614391480266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Fri, 20 Aug 2021 15:07:46 -0000
+Message-Id: <162947206645.17644.1578166114421025180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/arm/smmu
-    old: af1d321c2e99f9d48d1b680ad0260a243bc7d40f
-    new: 53f613134984c293af158920ebadcac045fa0545
+  - ref: refs/heads/habanalabs-next
+    old: a3f369db34e33236f994d4ca3f13655109394d06
+    new: 2e0e6ea014a38f0f78d0f19d26a6e7e2323eae2a
     log: |
-         53f613134984c293af158920ebadcac045fa0545 iommu/arm-smmu: Fix missing unlock on error in arm_smmu_device_group()
-         
-  - ref: refs/heads/next
-    old: cf1f65a86d4525fccbc0285d8c9903638bd53d2d
-    new: b2fd305650aed2ffc617dea25b4534003945c687
-    log: |
-         53f613134984c293af158920ebadcac045fa0545 iommu/arm-smmu: Fix missing unlock on error in arm_smmu_device_group()
-         b2fd305650aed2ffc617dea25b4534003945c687 Merge branches 'apple/dart', 'arm/smmu', 'iommu/fixes', 'x86/amd' and 'x86/vt-d' into next
+         e5cc8649ed9483e72d8766caab0c449d7e620aad habanalabs: add "in device creation" status
+         c147a42c6d4b0ecdc682fe7067adce93424df64d habanalabs: disable IRQ in user interrupts spinlock
+         e79ef3c3701e7c3853eee0122a579379b66c802d habanalabs: remove unnecessary device status check
+         2e0e6ea014a38f0f78d0f19d26a6e7e2323eae2a habanalabs: never copy_from_user inside spinlock
          
