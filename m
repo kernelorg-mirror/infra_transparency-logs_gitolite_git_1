@@ -1,119 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============4744128169000309994=="
+Content-Type: multipart/mixed; boundary="===============2161660540513699203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 20 Aug 2021 00:04:15 -0000
-Message-Id: <162941785530.16412.8229955440453069322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 20 Aug 2021 00:04:21 -0000
+Message-Id: <162941786158.16508.11153556995627128582@gitolite.kernel.org>
 
---===============4744128169000309994==
+--===============2161660540513699203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 0a85ca029c1ae67a7de76641bca473efeb9f1c56
-    new: c128427fd74129b5a9814d069c2d800d1d1e5021
-    log: |
-         2a6a638adc18cffb5911f8a6d6b0a763d9503188 Revert "Merge branch 'pw/diff-color-moved-fix' into next"
-         aeeec3642380d962ece01342ff8342915071b192 Revert "Merge branch 'pw/diff-color-moved-fix' into next"
-         c128427fd74129b5a9814d069c2d800d1d1e5021 Revert hn/refs-errno-cleanup and related topics
-         
-  - ref: refs/heads/seen
-    old: 041445f12a044a86c86f37e21364ad6cee5e52eb
-    new: f13f1660a5175d59d07e7d2cfafc5000871890f0
-    log: revlist-041445f12a04-f13f1660a517.txt
+  - ref: refs/heads/dev-queue
+    old: 2af98353ce42caee9c9344bc50d32bf37012c263
+    new: ba9f167a817c4f054d046d4f3f4260758c1ee1b1
+    log: revlist-2af98353ce42-ba9f167a817c.txt
 
---===============4744128169000309994==
+--===============2161660540513699203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-041445f12a04-f13f1660a517.txt
+Content-Disposition: attachment; filename=revlist-2af98353ce42-ba9f167a817c.txt
 
-903e7d009eaae1eea3415aee51f116069d6c3fbd hook: run a list of hooks instead
-d43e8b4c78758d25b49256d2b0e0438482e1c5e2 hook: allow parallel hook execution
-365ed8edb3900a76cbeda62991bf05b204145f62 hook: introduce "git hook list"
-db3340b2f94f96f65ccf4d8c8f76e01f97332d84 hook: allow running non-native hooks
-1b0b45c6d63155afe51d0018d4d664f5bc4591cf hook: include hooks from the config
-b108f597504b20d8dfe8a33b5427ce00c8923aba hook: allow out-of-repo 'git hook' invocations
-3cc3bf3e528c4ee9030df9f4f7046de11f3b4102 t7400-submodule-basic: modernize inspect() helper
-770665185b6227e91b6c248a214f60378cdb0435 introduce submodule.superprojectGitDir record
-e7025932d12c62ca1b96c559439100242f5393d6 submodule: record superproject gitdir during absorbgitdirs
-242655f2e063810df03221c6ea240ae9465ec60e submodule: record superproject gitdir during 'update'
-512680355779bac7ac31542095af3190f825462d fixup! introduce submodule.superprojectGitDir record
-bfc28b86cfebd86292809e11f23854a0b7b43209 Merge branch 'jc/bisect-sans-show-branch' into jch
-4bfd389777f0b684340e54649ec914c1a596086c Merge branch 'ds/add-with-sparse-index' into jch
-dd51bf5c7fab82641a51af817e03e2714d3cbbdf Merge branch 'ab/http-drop-old-curl' into jch
-96c2f1dbbbf3f3644243be6fe7d3a7bfb210116a Merge branch 'ab/pack-stdin-packs-fix' into jch
-50faa16e649f1fa1e5048c9fcfeb0b675c23e214 Merge branch 'zh/ref-filter-raw-data' into jch
-35adff9b06fb19ad891c5c08587b0665b3f1c68b Merge branch 'ab/bundle-doc' into jch
-e025cb3c67750b10b21f61f06d82ef7510111ed9 Merge branch 'js/expand-runtime-prefix' into jch
-51fcba1e9c9f8063bcba1ace82095eaa546f4957 Merge branch 'en/ort-perf-batch-15' into jch
-0e755d6b10b9da3b6c292e4df31f08b541e96747 Merge branch 'hn/refs-test-cleanup' into jch
-d9cf0de983b26522696b3637f515ec8eb7d9eb78 Merge branch 'es/trace2-log-parent-process-name' into jch
-6e15ff6e999b051908e246054a47b406911540c2 Merge branch 'jt/push-negotiation-fixes' into jch
-974222e4effddf82bd9632a444a0285ed4225b06 Merge branch 'ps/fetch-pack-load-refs-optim' into jch
-c254c68b97c72c55a1d3247cb36ee7b2bf20bc28 ### match next
-f3e1da28c5b2bb4485f6cfc82fa825f739697bd5 Merge branch 'en/pull-conflicting-options' into jch
-d86ef51a8388a48b731a284273377523c929cb91 Merge branch 'en/merge-strategy-docs' into jch
-62f3d7648376c37b57dd6960fecdf1b6c861381b Merge branch 'en/ort-becomes-the-default' into jch
-81b9d2bb4d008fe992237bb44fc6cd79f9ae86d8 Merge branch 'js/log-protocol-version' into jch
-d94dc05dc1d63f841b21e362cdf701daa9b41d0f Merge branch 'ps/connectivity-optim' into jch
-82ade860dce77229eaa15433c731fae44b9a8425 Merge branch 'cb/builtin-merge-format-string-fix' into jch
-e8f3e1a496041d914c66e74e7bae85f65ee021a2 Merge branch 'jc/userdiff-pattern-hint' into jch
-49df020098fd2942a2ed4fa81e151db72d2c8ae7 Merge branch 'jk/apply-binary-hunk-parsing-fix' into jch
-2bf2b4ea1ddc5cc38e1e3cd8863e59764a6727e0 Merge branch 'jk/range-diff-fixes' into jch
-20329a01ce91efd406ea0391e0cb9d9852f67c5c Merge branch 'th/userdiff-more-java' into jch
-f9375e1d3f2d486e02a70f86e8056a93467fb234 Merge branch 'bc/t5607-avoid-broken-test-fail-prereqs' into jch
-c07d7b37866bc4f149c2cf01806d896c6dee8123 Merge branch 'jk/commit-edit-fixup-fix' into jch
-718eeaacaa46c2e321d9dc1b0526d7390928ac68 Merge branch 'tl/traverse-non-commits-rename' into jch
-2948757bf3e379cf72b12174bb715001385a12ad Merge branch 'cb/ci-freebsd-update' into jch
-33d98551343a2281cb8029c685f5bdabb074fc39 Merge branch 'cb/ci-use-upload-artifacts-v1' into jch
-5fb9a23456b5c63430531df670bff2d43a21d126 Merge branch 'pw/rebase-skip-final-fix' into jch
-d4185dbf5a4775bb7838b21fc446af17122b12cd Merge branch 'ab/progress-users-adjust-counters' into jch
-292fd17395f3afe45695e1e36e9a12f553bf8755 Merge branch 'tv/p4-fallback-encoding' into jch
-e7aef24a9460d92379af4e78279bb771ebde51c1 Merge branch 'fc/completion-updates' into jch
-b15d5338ffa899db606977e49cd8180256e0e884 Merge branch 'jc/trivial-threeway-binary-merge' into jch
-96cce257f8b9275caff4a635b39ffb7be57d7a61 Merge branch 'ow/clone-bare-origin' into jch
-bbb127d9cfe6a776ca4718e6539643607eb532b6 Merge branch 'cb/ci-build-pedantic' into jch
-8f72884e909aebe1ed39248305fbcab80e43a217 Merge branch 'js/advise-when-skipping-cherry-picked' into jch
-be6b6ecaef431084191242cd18f088ea1d4066e3 Merge branch 'jt/grep-wo-submodule-odb-as-alternate' into jch
-985867adf465fefbd9ecdcd1bfaddeac089ca87d Merge branch 'zh/cherry-pick-advice' into jch
-9aeb95771f8d8cd63dbc932e35ceb5a2626cdf7c Merge branch 'ka/want-ref-in-namespace' into jch
-0da8c09e5b85a60d375bb622d629b0baa60cf621 Merge branch 'ab/help-autocorrect-prompt' into jch
-5c54cd369cb04d15db055a3ca836227da4fdd6f7 Merge branch 'pw/rebase-r-fixes' into jch
-f326b9b106da8bbec38f50374778ab8edc05befd Merge branch 'ti/tcsh-completion-regression-fix' into jch
-325b06deda688e5110a134a4f8d390ed48af7b80 Makefile: remove archives before manipulating them with 'ar'
-5f47455ce3e87ee814a28502bbc8d893d54da9d2 Merge branch 'sg/make-fix-ar-invocation' into jch
-5ce26f2add26394989ddb2fe6f869a4c35547f42 Merge branch 'lh/systemd-timers' into seen
-b22098e9061be5a0343fb82caee60414d7f4e3d0 Merge branch 'ar/submodule-add-config' into seen
-93236abff325f80daf64392058a6d667ebc1d2bf Merge branch 'ar/submodule-add-more' into seen
-b506481bf2342e6ed1eb64369afa95d44c524bed Merge branch 'gh/gitweb-branch-sort' into seen
-6476f3df959b700e86c4d71f1d647b87e32403e6 Merge branch 'ao/p4-avoid-decoding' into seen
-00bdfc55a888ce1b61526fb3e280192a8b5e400d Merge branch 'ab/test-tool-cache-cleanup' into seen
-f7fcc375ba7af5d2726bc4908e39b28cbad4a197 Merge branch 'ab/pack-objects-stdin' into seen
-b259721bc77ce06f95068f52ff9e3af06ce8d249 Merge branch 'en/zdiff3' into seen
-5b8ca1a878db152d7c87a86f422dbd3baa1ffdc8 Merge branch 'es/superproject-aware-submodules' into seen
-c67a80752cf31c9c483435d1d5070d15c9ca562e Merge branch 'ab/serve-cleanup' into seen
-4feede64af78e5feef1840f43dfb8c30049ccb1e Merge branch 'ab/config-based-hooks-base' into seen
-930d451cbb44d3eb9d7be3ea0803c51527140e05 Merge branch 'ab/fsck-unexpected-type' into seen
-c40818462e71c8144d503b22c85bdfc457b16e5d Merge branch 'ab/make-tags-cleanup' into seen
-bac37af231665ab8ae27990517ac50400581562c Merge branch 'tb/multi-pack-bitmaps' into seen
-0779674a43cb608f0fa5395d61edceb5b2159556 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
-1f00150d62643a631a7f5fe1471722d09223297b Merge branch 'ab/lib-subtest' into seen
-f2d7a9dd668a877f2c4d5cd2d9b9e4dab9223aaf Merge branch 'ab/only-single-progress-at-once' into seen
-7ab78afaaf7de663286f0391e82089ac57cabd97 Merge branch 'fs/ssh-signing' into seen
-4b353f9384ac53dcf5133f7196c26236c4982166 Merge branch 'cb/makefile-apple-clang' into seen
-e2af19732d245942857fb1e1a35b365b9a029282 Merge branch 'ds/sparse-index-ignored-files' into seen
-46df2e4ea3db6db519d65b4715f2ab4ed2318d5b Merge branch 'np/blame-ignore-revs-file-may-be-optional' into seen
-9e71c93a3c87d7018aff4e3fffe30f6e59731f00 Merge branch 'dt/submodule-diff-fixes' into seen
-68dae059d75ced9aba84f4b928d516d32abc7c3d Merge branch 'es/config-based-hooks' into seen
-7b34d6b22959b409977103f5339e6911da593a2d Merge branch 'mk/clone-recurse-submodules' into seen
-767c6d6ec5c893ff4936fa9dbf05411c10c1130c Merge branch 'ar/submodule-run-update-procedure' into seen
-f13f1660a5175d59d07e7d2cfafc5000871890f0 Merge branch 'hn/reftable' into seen
+39f83d71e33ccc66cd9cd6e0df7ee4f352f92170 ice: allow process VF opcodes in different ways
+7deeffef564047d447018c76b0b89323400048c6 ice: manage VSI antispoof and destination override
+c96787f347ecc16aeaae2a9540f84f2c360b438b ice: allow changing lan_en and lb_en on dflt rules
+9523c1aba1273af832dac6b0361d1f7f40d6fd1d ice: set and release switchdev environment
+ef8cd2fa78cae3f26646a121a9bf90b1004db079 ice: introduce new type of VSI for switchdev
+8e669d8888bd944fb417a6486507fb70826f36e7 ice: enable/disable switchdev when managing VFs
+eeb5b1bc2d655a2a93a7feca0d4751eb35bf8c11 ice: rebuild switchdev when resetting all VFs
+64bdb7f1f2f278c52469284ac056fe8c74c36a1c ice: switchdev slow path
+6b7a914b17a6372d66679cb6f49e03534eafe975 ice: add port representor ethtool ops and stats
+36efb11452869e55266dcc1033aa67e53c7c1763 ice: Fix failure to re-add LAN/RDMA Tx queues
+fdd984645fa86be47501fc4a8f33e0d7fabf81c5 ixgbevf: Rename MSGTYPE to SUCCESS and FAILURE
+19fe099f469a02b84ca380951d14104a7c7a783f ixgbevf: Improve error handling in mailbox
+239808b4830c0c0add18957e4e9894436e033690 ixgbevf: Add legacy suffix to old API mailbox functions
+87ca8a3c0f4de56da79d7fe61bb541ef7cbf1e1b ixgbevf: Mailbox improvements
+4115b817b45fee2dc8605142c6ba4329f910472b ixgbevf: Add support for new mailbox communication between PF and VF
+c59b1e1d5a512781b9da4059abbdfb4fd04666e6 ice: Fix perout start time rounding
+d700f2903d7a04052d53646e04108543a53bdd69 e1000e: Fix the max snoop/no-snoop latency for 10M
+32cb35686d5b3de18319fa4bfb65a6641a057029 igbvf: Refactor trace
+4e580e53a41bb9454553b5c730259fb0bfab5bd3 ice: fix Tx queue iteration for Tx timestamp enablement
+2fa1bd33525399a4d291282c5399766ea6afe97c ice: remove dead code for allocating pin_config
+948583f7aca5126293e638575e90bd77f938bf09 ice: add lock around Tx timestamp tracker flush
+ef628a895d7af6c19fa19a4f4212eb19b6299004 ice: restart periodic outputs around time changes
+5a84f8c29962f8b131690d6a43560f4a78ab8c56 ice: introduce ice_base_incval function
+399076f9904287307a223c01674129eb535642df ice: PTP: move setting of tstamp_config
+aff4baf6ff2d68e2326bcd88fc1336828221ac9a ice: use 'int err' instead of 'int status'
+361458e14a63399f5b36059aeb01861fcb186914 ice: introduce ice_ptp_init_phc function
+cb4f40bc7d9c97868d97bcb97c9011713cc9d38b ice: convert clk_freq capability into time_ref
+ac0993a1e534476d615c528816245c4178d0d899 ice: implement basic E822 PTP support
+ad19f0453ea78c38223a63b8112e545238a4fcc1 ice: ensure the hardware Clock Generation Unit is configured
+8ee0f9270dd58ba7bdba40c7fd359e258d5676b0 ice: exit bypass mode once hardware finishes timestamp calibration
+9b9b65cf95abe3d60bc8b52b277a0edd3a6e67ff ice: support crosstimestamping on E822 devices if supported
+5804e1aba767c8d4e263520877911491e4cb62e2 ice: rearm other interrupt cause register after enabling VFs
+508d5c9904525483e563de0fd614b3992327c99d igc: fix page fault when thunderbolt is unplugged
+9b42707a8e3caa857147d29def3c880c2060fa46 i40e: Fix pre-set max number of queues for VF
+28b8ab3dbce8eb3e40742f7bdd15ab6c788eb841 iavf: Enable setting RSS hash key
+989f3fae2d0fac7a8c113f9ded5214c8750f613e ice: Fix static analyzer hit
+d3f8bbbd0213bca549c41ec9cfd6046a02cd9bb6 ice: Fix link mode handling
+e15a05904cbf2f1540dd61db8055fecd4d78f44a ice: Add DSCP support
+c8556b0ace38a43f7d95e0ac7a8086b9dfa0dd9f ice: Add feature bitmap, helpers and a check for DSCP
+7c755dc89d1484e007619ae7905b987064d57a79 ice: Add package PTYPE enable information
+5a0cf268050c45031a167b1209adfac8284a32af ice: refactor PTYPE validating
+897a3a5960dac05ccaef46079146a0ca68100c70 ice: Fix macro name for IPv4 fragment flag
+56f8fe554400bfb71a66db0db233517bfb341224 e1000e: Do not take care about recovery NVM checksum
+561307b4a089f3b3de311b33c362bae093db639b igc: Remove media type checking on the PHY initialization
+e7a375f23431c5b11b2ad796d78c283a41560569 igc: Use num_tx_queues when iterating over tx_ring queue
+404893b6953ed0bf31ad33679a6195ce562e3dbd i40e: Fix ATR queue selection
+fa7e56c851a99b8dd6698b4b7887bff59cffe5fb ice: Add support to print error on PHY FW load failure
+5629f7731366901486eb4df1a0d4becf2b11adea Revert "PCI: Make pci_enable_ptm() private"
+894ea5190117e477b2fce0171b6a08dfde7caf4e PCI: Add pcie_ptm_enabled()
+1903f33957e84e69ab55ce0718b0ae2787bd135c igc: Enable PCIe PTM
+14359d403c7969c2570ef3ca001bee55abd47879 igc: Add support for PTP getcrosststamp()
+725c9dbd36680f69ee8a057ff01d8936a71f4339 ice: Use ether_addr_copy() instead of memcpy
+4f7516fe136faf573ee2c5586cd654a5e58894ac ice: implement low level recipes functions
+c51004665dd52c8c74a46b58b0bd67319d5cd1fc ice: manage profiles and field vectors
+2b184d10c88333a52ff1c7ea52e536ba1b772cf5 ice: create advanced switch recipe
+898af3089dd4d38b068dea9c40848e08f840d0c6 ice: allow adding advanced rules
+f21b75fc25c30b8ac5ac1582ce3551705900bcaf ice: allow deleting advanced rules
+54c706a807d32b7fe93fb3e37fb84566a55be0c4 ice: cleanup rules info
+cf65d146e8f1ab9abab230814631c68aea4ca956 ice: Allow changing lan_en and lb_en on all kinds of filters
+3a0b7fc980dbe22f096c50d6a8e248dd46f07852 ice: ndo_setup_tc implementation for PF
+41d8a8262065970a77e4e3d0240d1c9c08c5dd17 ice: ndo_setup_tc implementation for PR
+5762ea4d97da6317d50407b3516fa987a5deb959 ice: Add support for VF rate limiting
+4e57eede7698b411b5abf0a9c7c4cf9d2dcd758c igc: Use default cycle 'start' and 'end' values for queues
+2e25e5f679a88624fb66d4894b3c9f6ff96e3e67 igc: Simplify TSN flags handling
+0471b16f6488b457aca98f2725b3b9f601302e5a igc: Add support for CBS offloading
+b770d98839ff4f0cb52c6fa1612175446b5044d0 ice: Refactor ice_aqc_link_topo_addr
+bb6280749f975dfecd9517ca8a784c6fbcbabf5d ice: Implement functions for reading and setting GPIO pins
+09ca09fdea7f6e4399efc1c0891d8335915632dc ice: Add support for SMA control multiplexer
+4902b633ef41ce424866db4a5e721f6c633da0bd ice: Implement support for SMA and U.FL on E810-T
+f3c523d2dbfeab0bfa9eb645bbcb68952680ed8c igc: fix tunnel offloading
+ba9f167a817c4f054d046d4f3f4260758c1ee1b1 ice: do not abort devlink info if board identifier can't be found
 
---===============4744128169000309994==--
+--===============2161660540513699203==--
