@@ -1,64 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Sat, 21 Aug 2021 17:22:55 -0000
-Message-Id: <162956657506.14772.17791887054361003824@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2993753513202624627=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Sat, 21 Aug 2021 17:35:54 -0000
+Message-Id: <162956735443.23134.5996549445155850969@gitolite.kernel.org>
+
+--===============2993753513202624627==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/tags/drm-fixes-2021-05-28-1
-    old: 0000000000000000000000000000000000000000
-    new: 8f8f4e0206adf84b50e24f4f5da291668b6eea90
-  - ref: refs/tags/drm-fixes-2021-05-29
-    old: 0000000000000000000000000000000000000000
-    new: 5d98a85effc9468b9e5d2eced6a85507b3fe20a5
-  - ref: refs/tags/drm-fixes-2021-06-04-1
-    old: 0000000000000000000000000000000000000000
-    new: 673f0024c7f37d4a0574f1ade9b929e98784aece
-  - ref: refs/tags/drm-fixes-2021-06-11
-    old: 0000000000000000000000000000000000000000
-    new: d6619d23d87e60643b3cb39811e0d0799bcf5f3a
-  - ref: refs/tags/drm-fixes-2021-06-11-1
-    old: 0000000000000000000000000000000000000000
-    new: b6b9530444f50d1ec8f83a3ad0a9ec5c6c6c42cf
-  - ref: refs/tags/drm-fixes-2021-06-18
-    old: 0000000000000000000000000000000000000000
-    new: c3b394bb1f95525b4fd43d9ff40eea2b15a03195
-  - ref: refs/tags/drm-fixes-2021-06-25
-    old: 0000000000000000000000000000000000000000
-    new: 16031a3eb5eb4d87d60cff4d471f4e07c9367263
-  - ref: refs/tags/drm-fixes-2021-07-16
-    old: 0000000000000000000000000000000000000000
-    new: 57acf4479bd7254e11eb385d639752eb6a4b68f9
-  - ref: refs/tags/drm-fixes-2021-07-23
-    old: 0000000000000000000000000000000000000000
-    new: eda2a144c8f63bac62942be3f3ee4108be5a02df
-  - ref: refs/tags/drm-fixes-2021-07-30
-    old: 0000000000000000000000000000000000000000
-    new: 179d3d9ac590ccb1a5a27f30bc8b614c6609ea37
-  - ref: refs/tags/drm-fixes-2021-08-06
-    old: 0000000000000000000000000000000000000000
-    new: e203e5e2f5d431129aadac75e106d6ef4def156f
-  - ref: refs/tags/drm-fixes-2021-08-13
-    old: 0000000000000000000000000000000000000000
-    new: 70687a71775c25b7d53b7bbd3d049678fddb886d
-  - ref: refs/tags/drm-fixes-2021-08-20-1
-    old: 0000000000000000000000000000000000000000
-    new: 4d7fac47b9e2d3d0fee71e2194ebc5beb5e7e3fc
-  - ref: refs/tags/drm-fixes-2021-08-20-3
-    old: 0000000000000000000000000000000000000000
-    new: 0ee0c86d8ddc40440e759db8ee4fe730287e2397
-  - ref: refs/tags/drm-next-2021-07-01
-    old: 0000000000000000000000000000000000000000
-    new: 42c7a19e4881b16ee47df6e6298ab468294e3ee4
-  - ref: refs/tags/drm-next-2021-07-08-1
-    old: 0000000000000000000000000000000000000000
-    new: 6e5a3b6f6b527beaa247fa445141ffae176d5090
-  - ref: refs/tags/exynos-drm-next-for-v5.15
-    old: 0000000000000000000000000000000000000000
-    new: d43488299e1878eb2efa8451bd8a133ef8535dad
+  - ref: refs/heads/master
+    old: d249ff28b1d8478419caf347c4836361a47b0c5b
+    new: b05897ca8c821a16ac03850c4704fe460b3f21a0
+    log: revlist-d249ff28b1d8-b05897ca8c82.txt
+
+--===============2993753513202624627==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d249ff28b1d8-b05897ca8c82.txt
+
+c2dac3d2d3f1135c7a9b90cb014a32ff739edf44 brcmfmac: firmware: Fix firmware loading
+2c4fa29eceb3167470a1d391c94ad2f0b87b2af2 brcmfmac: use different error value for invalid ram base address
+8e73facb9b80deba5ab8402e49892051230f6da3 brcmfmac: increase core revision column aligning core list
+a7dd0ac94544dd2465b01a0eeb1786f362477c65 brcmfmac: add xtlv support to firmware interface layer
+1ce050c159528ee74e31498411dfed8e0935d10c brcmfmac: support chipsets with different core enumeration space
+f8d6523891cf07468f0bfe21aba8b562a6f75780 brcmfmac: use separate firmware for 43430 revision 2
+41b637bac0b0a90424793aa1ec265b24c4c50fb1 brcmfmac: Set SDIO workqueue as WQ_HIGHPRI
+d2587c57ffd8dcad04171dfd203dcc4ff98e4782 brcmfmac: add 43752 SDIO ids and initialization
+502213fd8fca00fe7ebaf9a147c5038c91738cb5 ray_cs: use %*ph to print small buffer
+6f78f4a41ee0c348af73ed054ccff2d9c9c17cdb ipw2x00: Use struct_size helper instead of open-coded arithmetic
+d6b6d1bb80beabab43aa5f4289721e6659790f3a ipw2x00: Avoid field-overflowing memcpy()
+92276c592a6b5d7e3d99b8905429dd5c2bff4ec7 ray_cs: Split memcpy() to avoid bounds check warning
+d0f8430332a16c7baa80ce2886339182c5d85f37 rsi: fix error code in rsi_load_9116_firmware()
+9adcdf6758d7c4c9bdaf22d78eb9fcae260ed113 rsi: fix an error code in rsi_probe()
+369956ae5720ba1b415b37ba23cea5ede2942398 rtlwifi: rtl8192de: Remove redundant variable initializations
+b05897ca8c821a16ac03850c4704fe460b3f21a0 rtlwifi: rtl8192de: make arrays static const, makes object smaller
+
+--===============2993753513202624627==--
