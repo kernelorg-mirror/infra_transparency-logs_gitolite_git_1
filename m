@@ -1,20 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sat, 21 Aug 2021 02:58:54 -0000
-Message-Id: <162951473425.23535.1070493035450852285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 21 Aug 2021 03:50:03 -0000
+Message-Id: <162951780392.24160.17714051850156679688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 864314464e2772a9885da34ea041f130073affe9
-    new: 15ce99bb71e7c289f62ddee94e0149f6c81549de
+  - ref: refs/heads/for-5.15/block
+    old: e70344c05995a190a56bbd1a23dc2218bcc8c924
+    new: 759e0fd4b67766c96b33a114bba0c7d7521fecd0
     log: |
-         81c7079c6bdb2c29907356c7c810b8afbadc3872 fixed type boot->bool
-         15ce99bb71e7c289f62ddee94e0149f6c81549de Merge branch 'master' of https://github.com/DamonPalovaara/fio
+         759e0fd4b67766c96b33a114bba0c7d7521fecd0 block: add back the bd_holder_dir reference in bd_link_disk_holder
+         
+  - ref: refs/heads/for-next
+    old: 2e8822921027139cba7514b4cd26018f533f29f2
+    new: f41df653a3347250ce243595b1320dfa016f6586
+    log: |
+         759e0fd4b67766c96b33a114bba0c7d7521fecd0 block: add back the bd_holder_dir reference in bd_link_disk_holder
+         89fb2358657a02e5a76883553979dff1e8f54d9a Merge branch 'for-5.15/block' into for-next
+         071e5f53b789941f30af7ac534cb414f1cb80c10 block: always initialize bio->bi_pool
+         f41df653a3347250ce243595b1320dfa016f6586 Merge branch 'io_uring-bio-cache.5' into for-next
+         
+  - ref: refs/heads/io_uring-bio-cache.5
+    old: 13b17703b0be19f2054ce51022a2b34da759ab73
+    new: 071e5f53b789941f30af7ac534cb414f1cb80c10
+    log: |
+         071e5f53b789941f30af7ac534cb414f1cb80c10 block: always initialize bio->bi_pool
          
