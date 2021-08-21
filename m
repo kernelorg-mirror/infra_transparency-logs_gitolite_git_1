@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1061868145293770064=="
+Content-Type: multipart/mixed; boundary="===============0624187963439294669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sat, 21 Aug 2021 20:50:31 -0000
-Message-Id: <162957903163.20140.11443036123758682975@gitolite.kernel.org>
+Date: Sat, 21 Aug 2021 20:50:36 -0000
+Message-Id: <162957903689.20205.2472453043386686476@gitolite.kernel.org>
 
---===============1061868145293770064==
+--===============0624187963439294669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/locks-5.15
+  - ref: refs/heads/locks-next
     old: 3d1b81d2370c1e7362956835616897be1634ffee
     new: 4295b8fdd3c9bb29e5b103d4ce11c0d754d36564
     log: revlist-3d1b81d2370c-4295b8fdd3c9.txt
 
---===============1061868145293770064==
+--===============0624187963439294669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f671a691e299f58835d4660d642582bf0e8f6fda fcntl: fix potential deadlocks for &fow
 2f488f698fda820f8e6fa0407630154eceb145d6 fcntl: fix potential deadlock for &fasync_struct.fa_lock
 4295b8fdd3c9bb29e5b103d4ce11c0d754d36564 fs: remove mandatory file locking support
 
---===============1061868145293770064==--
+--===============0624187963439294669==--
