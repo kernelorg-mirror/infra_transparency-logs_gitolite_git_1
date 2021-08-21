@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 21 Aug 2021 01:38:05 -0000
-Message-Id: <162950988530.4427.13904754906845281156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 21 Aug 2021 02:50:04 -0000
+Message-Id: <162951420458.19164.11254283869516384439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 1330d7991b8470924e378562e1ec17830f1a8306
-    new: ccb5f63121dbb21a3c5e8b54b321cad9d6e3d471
-    log: |
-         ccb5f63121dbb21a3c5e8b54b321cad9d6e3d471 Sat 21 Aug 2021 01:37:27 AM UTC
-         
+  - ref: refs/tags/block-5.14-2021-08-20
+    old: 0000000000000000000000000000000000000000
+    new: 9a0f909e2c02b8d6ac68da2abb19dd2823a14479
+  - ref: refs/tags/io_uring-5.14-2021-08-20
+    old: 0000000000000000000000000000000000000000
+    new: a2f2694ec78d3c21097f6e4006f9fc99d4f6b6bd
