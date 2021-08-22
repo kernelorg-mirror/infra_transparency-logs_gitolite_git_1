@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ell/ell
-Date: Sun, 22 Aug 2021 04:07:36 -0000
-Message-Id: <162960525615.3027.4793442939200982299@gitolite.kernel.org>
+Date: Sun, 22 Aug 2021 04:07:40 -0000
+Message-Id: <162960526089.3140.5654021786231195302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/libs/ell/ell
 user: holtmann
 changes:
-  - ref: refs/heads/master
-    old: fdfb9ca7330af05ad7b5b6f7342635f8f3d2d8ae
-    new: 9b6aecc4d6d01e5c15688e81124517f37dd875a4
-    log: |
-         9b6aecc4d6d01e5c15688e81124517f37dd875a4 Release 0.43
-         
+  - ref: refs/tags/0.43
+    old: 0000000000000000000000000000000000000000
+    new: f23df47fbf228da2ae53a57bf30c0602d63fbf20
