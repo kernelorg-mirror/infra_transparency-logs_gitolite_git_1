@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6274119828040286390=="
+Content-Type: multipart/mixed; boundary="===============5060558493673449798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sun, 22 Aug 2021 07:57:43 -0000
-Message-Id: <162961906388.19824.9011012971747379986@gitolite.kernel.org>
+Date: Sun, 22 Aug 2021 08:02:57 -0000
+Message-Id: <162961937793.22996.7690812965860231993@gitolite.kernel.org>
 
---===============6274119828040286390==
+--===============5060558493673449798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/overflow
-    old: 0b03ffbb52815a49804d5b071735d7737652afb0
-    new: 18ce9ecf54d4ad2826d3afe3b128a00d4a9a5201
-    log: revlist-0b03ffbb5281-18ce9ecf54d4.txt
+  - ref: refs/heads/for-next/kspp
+    old: b88972649fa071caa5633a12c64f9b03504d6503
+    new: 6a8d4f6f3861977a3c458070c9f88d701579b537
+    log: revlist-b88972649fa0-6a8d4f6f3861.txt
 
---===============6274119828040286390==
+--===============5060558493673449798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b03ffbb5281-18ce9ecf54d4.txt
+Content-Disposition: attachment; filename=revlist-b88972649fa0-6a8d4f6f3861.txt
 
+ccdba64ceb6776a14b3329628653571c7d29c4dc scsi: ibmvscsi: Avoid multi-field memset() overflow by aiming at srp
+eb7563a6028e8512ba3a393f608c726d5b79954e powerpc: Split memset() to avoid multi-field overflow
+2f7de27600006fd2abecf41444846e93844408e4 stddef: Fix kerndoc for sizeof_field() and offsetofend()
+a066873e923e3eb7d40bc6b0c1d7698862e1fdd0 stddef: Introduce struct_group() helper macro
+d58966a43fdcc23b1bdd8b59854e963e6dcaaa82 cxl/core: Replace unions with struct_group()
+13ec5fd4a29e10c9135331aa6f03cc05361775b6 bnxt_en: Use struct_group_attr() for memcpy() region
+cc172ac862be88d7bc63e99213ee85d63f770ca4 iommu/amd: Use struct_group() for memcpy() region
+1e2cd3084fff19e12bdf3c83ac1a8d64ef11aa63 lib/test_stackinit: Allow building stand-alone
+a8fc576d4af2f23a87a586424252df97f0ad0b06 lib/test_stackinit: Add assigned initializers
 17bb51dfd4b963be5a71893f12c53bbcff6bd1ef drm/mga/mga_ioc32: Use struct_group() for memcpy() region
 232675b80b509e7d0e931ce7e57600011939133c HID: cp2112: Use struct_group() for memcpy() region
 1eed8e53a7e84f1211de1cee30d7938722ff4b01 HID: roccat: Use struct_group() to zero kone_mouse_event
@@ -44,5 +53,6 @@ b45c0896242fc93c9051fe5c2381491f4d427b7e compiler_types.h: Remove __compiletime_
 44011d15750f855332d2fb55c7ef5fad8d5b288d xfrm: Use memset_after() to clear padding
 35f3037aecbecc6f742581d6b3c73073ceb3c084 string.h: Introduce memset_startat() for wiping trailing members and padding
 18ce9ecf54d4ad2826d3afe3b128a00d4a9a5201 btrfs: Use memset_startat() to clear end of struct
+6a8d4f6f3861977a3c458070c9f88d701579b537 Merge branch 'for-next/overflow' into for-next/kspp
 
---===============6274119828040286390==--
+--===============5060558493673449798==--
