@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 22 Aug 2021 22:27:20 -0000
-Message-Id: <162967124094.7258.6932524540762143449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 22 Aug 2021 22:35:58 -0000
+Message-Id: <162967175872.12851.2954391454013466773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-rc
-    old: 65a81b61d8c5e96748671824cc46339afbd831d0
-    new: cc4f596cf85e97ca6606e1bd10b3b9851ef52ddf
+  - ref: refs/heads/master
+    old: 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d
+    new: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
     log: |
-         dbe986bdfd6dfe6ef24b833767fff4151e024357 RDMA/efa: Free IRQ vectors on error flow
-         cc4f596cf85e97ca6606e1bd10b3b9851ef52ddf RDMA/rxe: Zero out index member of struct rxe_queue
+         e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
          
+  - ref: refs/tags/v5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53371b959e5823998cd617e74b585e7d328f5840
