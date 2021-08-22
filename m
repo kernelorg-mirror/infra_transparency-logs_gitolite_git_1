@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 22 Aug 2021 17:09:13 -0000
-Message-Id: <162965215368.32067.11449879973144291805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 22 Aug 2021 17:09:39 -0000
+Message-Id: <162965217911.32304.3922072260972844743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev
-    old: ce847a717494c5751dcc24588099551f9465e022
-    new: 291fbe3644173f3d67a2f506bb3c6fe0df1e319e
+  - ref: refs/heads/master
+    old: 9ff50bf2f2ff5fab01cac26d8eed21a89308e6ef
+    new: 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d
     log: |
-         607b070f6a56d5bccc1d6aade670fcf0afa58824 rcutorture: Avoid problematic critical section nesting on PREEMPT_RT
-         291fbe3644173f3d67a2f506bb3c6fe0df1e319e EXP cpu: NMI stalled vCPUs
+         3f78c90f9eb2e228f44ecc8f4377753f0e11dbab powerpc/xive: Do not mark xive_request_ipi() as __init
+         ef486bf448a057a6e2d50e40ae879f7add6585da powerpc/32s: Fix random crashes by adding isync() after locking/unlocking KUEP
+         9f7853d7609d59172eecfc5e7ccf503bc1b690bd powerpc/mm: Fix set_memory_*() against concurrent accesses
+         1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
          
