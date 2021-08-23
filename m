@@ -1,35 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 23 Aug 2021 09:19:23 -0000
-Message-Id: <162971036303.24112.11995241890970135985@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3153071808161495580=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 23 Aug 2021 09:20:50 -0000
+Message-Id: <162971045013.26116.11452316258966562399@gitolite.kernel.org>
+
+--===============3153071808161495580==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: d2d837563743590cbf07bf786941e73a8c40b031
-    new: 4a1672d183cc0bbf26292390ced0bbcb7e810ee1
-    log: |
-         23c671be97b9e49846d03ceb0bce3731f4b869ac ALSA: firewire-motu: add support for MOTU 896HD
-         73355ddd87758865fde6c97b96298ddcd44fdc3b ALSA: hda: Code refactoring snd_hda_pick_fixup()
-         a235d5b8e550fac7520410440bcc8003fb4cf8d0 ALSA: hda: Allow model option to specify PCI SSID alias
-         4a1672d183cc0bbf26292390ced0bbcb7e810ee1 ALSA: hda: Update documentation for aliasing via the model option
-         
-  - ref: refs/heads/master
-    old: 81aabc9aef67729adf0e23ca5246605f87306ae0
-    new: d7eb2e773de4eb283845e0d98eeaba5f84dea6b7
-    log: |
-         d6e25b0819f3be1c3d34692d37f7035a51f820e7 ALSA: hda: Code refactoring snd_hda_pick_fixup()
-         bac78fef072327c8d8a896d435d205adff899d77 ALSA: hda: Allow model option to specify PCI SSID alias
-         71622badcc15d7d884f78f093747455317ddecf2 ALSA: hda: Update documentation for aliasing via the model option
-         23c671be97b9e49846d03ceb0bce3731f4b869ac ALSA: firewire-motu: add support for MOTU 896HD
-         73355ddd87758865fde6c97b96298ddcd44fdc3b ALSA: hda: Code refactoring snd_hda_pick_fixup()
-         a235d5b8e550fac7520410440bcc8003fb4cf8d0 ALSA: hda: Allow model option to specify PCI SSID alias
-         4a1672d183cc0bbf26292390ced0bbcb7e810ee1 ALSA: hda: Update documentation for aliasing via the model option
-         d7eb2e773de4eb283845e0d98eeaba5f84dea6b7 Merge branch 'for-next'
-         
+  - ref: refs/heads/sched/core
+    old: 746f5ea9c4283d98353c1cd41864aec475e0edbd
+    new: 234b8ab6476c5edd5262e2ff563de9498d60044a
+    log: revlist-746f5ea9c428-234b8ab6476c.txt
+
+--===============3153071808161495580==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-746f5ea9c428-234b8ab6476c.txt
+
+0083242c93759dde353a963a90cb351c5c283379 sched/topology: Skip updating masks for non-online nodes
+304000390f88d049c85e9a0958ac5567f38816ee sched: Cgroup SCHED_IDLE support
+9ae606bc74dd0e58d4de894e3c5cbb9d45599267 sched: Introduce task_cpu_possible_mask() to limit fallback rq selection
+d4b96fb92ae7fe7533e11e662504d96161928575 cpuset: Don't use the cpu_possible_mask as a last resort for cgroup v1
+431c69fac05baa7477d61a44f2708e069f2bed6c cpuset: Honour task_cpu_possible_mask() in guarantee_online_cpus()
+97c0054dbe2c3c59d1156fd233f2d44e91981c8e cpuset: Cleanup cpuset_cpus_allowed_fallback() use in select_fallback_rq()
+234a503e670be01f72841be9fcf68dfb89a1fa8b sched: Reject CPU affinity changes based on task_cpu_possible_mask()
+b90ca8badbd11488e5f762346b028666808164e7 sched: Introduce task_struct::user_cpus_ptr to track requested affinity
+db3b02ae896e88b6bb7a95c1373602e87e0de84c sched: Split the guts of sched_setaffinity() into a helper function
+07ec77a1d4e82526e1588979fff2f024f8e96df2 sched: Allow task CPU affinity to be restricted on asymmetric systems
+234b8ab6476c5edd5262e2ff563de9498d60044a sched: Introduce dl_task_check_affinity() to check proposed affinity
+
+--===============3153071808161495580==--
