@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 23 Aug 2021 07:57:37 -0000
-Message-Id: <162970545764.19942.380098237488804965@gitolite.kernel.org>
+Date: Mon, 23 Aug 2021 07:57:54 -0000
+Message-Id: <162970547436.20111.5957030246576888507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-next
-    old: d0ef631d40baa2be1951d122ca59d0cf6e39cf46
-    new: e5e26d80840b69c1bcea4f5b0cb7ed4026a8f6a3
+    old: e5e26d80840b69c1bcea4f5b0cb7ed4026a8f6a3
+    new: 4c59714a41c170e7d7852c406dcae4d4a14fdd92
     log: |
-         3a29355a22c0275fe864100794fee58a73175d93 gpio: Add virtio-gpio driver
-         e5e26d80840b69c1bcea4f5b0cb7ed4026a8f6a3 gpio: max730x: Use the right include
+         4c59714a41c170e7d7852c406dcae4d4a14fdd92 gpio: remove the obsolete MX35 3DS BOARD MC9S08DZ60 GPIO functions
          
