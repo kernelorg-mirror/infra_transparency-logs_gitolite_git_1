@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 23 Aug 2021 07:25:38 -0000
-Message-Id: <162970353876.32215.1837470018233976696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 23 Aug 2021 07:57:37 -0000
+Message-Id: <162970545764.19942.380098237488804965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/review-hans
-    old: 66a91c00218c5f5d19e5bfaada05432c672b8241
-    new: 0c59e612c0b6b94a0f1c5ccf7f4a4418dab77d97
+  - ref: refs/heads/gpio/for-next
+    old: d0ef631d40baa2be1951d122ca59d0cf6e39cf46
+    new: e5e26d80840b69c1bcea4f5b0cb7ed4026a8f6a3
     log: |
-         0c59e612c0b6b94a0f1c5ccf7f4a4418dab77d97 platform/mellanox: mlxbf-pmc: fix kernel-doc notation
+         3a29355a22c0275fe864100794fee58a73175d93 gpio: Add virtio-gpio driver
+         e5e26d80840b69c1bcea4f5b0cb7ed4026a8f6a3 gpio: max730x: Use the right include
          
