@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 23 Aug 2021 11:36:47 -0000
-Message-Id: <162971860769.17943.1794463819829763750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 23 Aug 2021 11:54:14 -0000
+Message-Id: <162971965429.28938.12377827119049544382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 2231af793fe28d478ab4740a46e2debbc0b4940c
-    new: e28ac04a705e946eddc5e7d2fc712dea3f20fe9e
-    log: |
-         8903376dc69949199301b290cc22dc64ae5d8a6d ALSA: hda/realtek: Limit mic boost on HP ProBook 445 G8
-         65ca89c2b12cca0d473f3dd54267568ad3af55cc ASoC: intel: atom: Fix breakage for PCM buffer address setup
-         13d9c6b998aaa76fd098133277a28a21f2cc2264 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-         539a5093e73e0f00c8e481a06407f058cc7a04d3 Merge branch 'for-linus' into for-next
-         e28ac04a705e946eddc5e7d2fc712dea3f20fe9e ASoC: intel: atom: Revert PCM buffer address setup workaround again
-         
   - ref: refs/heads/master
-    old: ac724cfc142fa8642aff9393cb21d4a9eeaee824
-    new: 681a06879fd14ab3e57cc0441349c47485b80622
+    old: 82a44ae113b7b35850f4542f0443fcab221e376a
+    new: 14315498f5d373097d5082c27c7f764923ec1796
     log: |
-         539a5093e73e0f00c8e481a06407f058cc7a04d3 Merge branch 'for-linus' into for-next
-         e28ac04a705e946eddc5e7d2fc712dea3f20fe9e ASoC: intel: atom: Revert PCM buffer address setup workaround again
-         681a06879fd14ab3e57cc0441349c47485b80622 Merge branch 'for-next'
+         359f4cdd7d78fdf8c098713b05fee950a730f131 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
+         7a141e64cf14099d84e530db0e86fcb2c489e341 net: usb: asix: ax88772: move embedded PHY detection as early as possible
+         1406e8cb4b05fdc67692b1af2da39d7ca5278713 net: usb: asix: do not call phy_disconnect() for ax88178
+         14315498f5d373097d5082c27c7f764923ec1796 Merge branch 'asix-fixes'
          
