@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 23 Aug 2021 10:17:30 -0000
-Message-Id: <162971385050.28606.14376713920860456923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 23 Aug 2021 10:20:01 -0000
+Message-Id: <162971400181.30881.14045635156390957714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: b22e35b894758ad4b590ac2572b1b6d0ab789026
-    new: 07c2fc64e0f90f7f500fe6ca55e5b3d7ec24ebf3
+  - ref: refs/heads/locks-next
+    old: 3efee0567b4a61d518e7e8a4edb06f5c673d19e1
+    new: f7e33bdbd6d1bdf9c3df8bba5abcf3399f957ac3
     log: |
-         07c2fc64e0f90f7f500fe6ca55e5b3d7ec24ebf3 cpufreq: qcom-hw: Set dvfs_possible_from_any_cpu cpufreq driver flag
+         f7e33bdbd6d1bdf9c3df8bba5abcf3399f957ac3 fs: remove mandatory file locking support
          
