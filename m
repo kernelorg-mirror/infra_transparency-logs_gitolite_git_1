@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8231605374195097401=="
+Content-Type: multipart/mixed; boundary="===============3415032892536869015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Aug 2021 17:30:44 -0000
-Message-Id: <162973984436.24774.2905120229141120729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Aug 2021 17:30:51 -0000
+Message-Id: <162973985115.24913.3426460914904680948@gitolite.kernel.org>
 
---===============8231605374195097401==
+--===============3415032892536869015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 77eca00f8366238398b9f2f6eea1707a0832f79e
     new: 6f02c0894921bde9ee4b36c818a2b3d5e6701d5b
     log: revlist-77eca00f8366-6f02c0894921.txt
 
---===============8231605374195097401==
+--===============3415032892536869015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629739818 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1629739841-fdac674e6d662b010ad8fde8e74a27c5ce5176c3
+pusher C3F436CA30F5D8EB 1629739825 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1629739848-2550900078ecf400a88d10a5bb95b1d9fc0dd048
 
-77eca00f8366238398b9f2f6eea1707a0832f79e 6f02c0894921bde9ee4b36c818a2b3d5e6701d5b refs/heads/for-5.15
+77eca00f8366238398b9f2f6eea1707a0832f79e 6f02c0894921bde9ee4b36c818a2b3d5e6701d5b refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEj2yoACgkQJNaLcl1U
-h9ASOAf/RB9suajyXQHXJdU8vkDulgp/ZmZ5D7KCWzXeH7u4e6d7uDdtQd3gsbZE
-SFrMqqekwGxipHYQfewfsyYi37b8mkm4hJhPGXV0Kst8uDQ2PvUEk9KpCdXGpFKR
-OOweKPcvQOBDvzyCkU9YZyVQ2hpWz82/Ph3Qm1ijrc102b49NFa1/tAT5cEZdWCB
-HLgD120uWAgGmMIgB/cMV8wiWSUzbBrvBaFMB65d3Jf9MOVLBGnLxxrrIVoY0Wwd
-wIAvn1nf2QQlWqTbGZzfwaGHQ6g1RkKp6IFVnUWoLTpvXLjUxYYAUZ054sLzU+/+
-77uyxh7FLGE11YGO6Wjy6dmXaDdifw==
-=Bw+n
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEj2zEACgkQJNaLcl1U
+h9AuGgf+PEDYm7b7HfYZYNonAI4LhLRzy4NxVl6GOXi6mNMXl0eN7wu0nnGarwRM
+gE1dYzo2YpUt4XVTgxaaBZ7PxMl8cBCIEpDCl1EjTbjdWU7ZCh0cWL/LzjTxgI9R
+9VvKi7hb1VYMnD1nrtVNRJIyaxFBQKiIbFGrS/3i4Kd9Vbmew7Oknuij+VbVeVlN
+7wY58QELWXLxVpDvWr3Yb1rY4AEVE5jmkU9zJc3xjASrcgOoEYBsFwPq/NfUbJ32
+Ixn0gJyZ01o6XgstnCPtHdiPkfqh9ifneSCYLDjjJ9MXF39xpGtGO2asAkJLs0lY
++OQR0GnAzgXubmyZFWDBTbzlkAg6OQ==
+=f+PI
 -----END PGP SIGNATURE-----
 
---===============8231605374195097401==
+--===============3415032892536869015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ a5ec377133674a0318bfb9342488d5d0ad0e1327 ASoC: Intel: bytcr_rt5640: Mark hp_elit
 d019403a777e9978767d0551fa55f624baf7df09 ASoC: rt1015: remove possible unused variable `bclk_ms'
 6f02c0894921bde9ee4b36c818a2b3d5e6701d5b Merge series "ASoC: Intel: Skylake: Fix and support complex" from Cezary Rojewski <cezary.rojewski@intel.com>:
 
---===============8231605374195097401==--
+--===============3415032892536869015==--
