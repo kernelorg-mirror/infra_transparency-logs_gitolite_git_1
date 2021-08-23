@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 23 Aug 2021 21:03:06 -0000
-Message-Id: <162975258618.628.2760880156392235119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 23 Aug 2021 21:12:41 -0000
+Message-Id: <162975316181.6705.15220330524464204514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 61969ef867d48fc76551fe50cefe0501e624766e
-    new: 92c685dc5de02ece9b919f6740fef2c226dbd134
+    old: 82a44ae113b7b35850f4542f0443fcab221e376a
+    new: 5b029a32cfe4600f5e10e36b41778506b90fd4de
     log: |
-         92c685dc5de02ece9b919f6740fef2c226dbd134 Bluetooth: reorganize functions from hci_sock_sendmsg()
+         5b029a32cfe4600f5e10e36b41778506b90fd4de bpf: Fix ringbuf helper function compatibility
          
