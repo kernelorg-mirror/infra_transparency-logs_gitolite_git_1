@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 23 Aug 2021 14:52:17 -0000
-Message-Id: <162973033731.18425.14375139469920376774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 23 Aug 2021 14:52:20 -0000
+Message-Id: <162973034035.18486.13907341418804326304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/slub-local-lock-v5r0
-    old: 0000000000000000000000000000000000000000
-    new: 8216677bf8651134ce047d9f786aaacab3fe1354
+  - ref: refs/heads/tmp.master
+    old: 9612e7e933ebaa7e46f15fc0388b64bac2b7941f
+    new: f02af2553ea58ae1186226af0d0ec835a248358f
+    log: |
+         f02af2553ea58ae1186226af0d0ec835a248358f pahole: Prep 1.22
+         
