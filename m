@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Aug 2021 09:36:54 -0000
-Message-Id: <162971141456.3057.16215530063236425700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 23 Aug 2021 09:40:23 -0000
+Message-Id: <162971162361.5552.15679146812549137825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/locking/core
-    old: b857174e68e26f9c4f0796971e11eb63ad5a3eb6
-    new: 99409b935c9ac5ea36ab5218954115c52449234d
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: ad3dfae09341c8cab281dc6de6eb9ce084e106fd
+    new: b22e35b894758ad4b590ac2572b1b6d0ab789026
     log: |
-         99409b935c9ac5ea36ab5218954115c52449234d locking/semaphore: Add might_sleep() to down_*() family
+         0820d2bec4c9ef10e21b8aa5e90c5cbe87ea8143 cpufreq: qcom-cpufreq-hw: Add dcvs interrupt support
+         b22e35b894758ad4b590ac2572b1b6d0ab789026 cpufreq: blocklist more Qualcomm platforms in cpufreq-dt-platdev
          
