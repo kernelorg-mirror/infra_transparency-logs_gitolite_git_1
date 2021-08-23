@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0449746011735203725=="
+Content-Type: multipart/mixed; boundary="===============7600740418571330091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 23 Aug 2021 16:55:48 -0000
-Message-Id: <162973774896.1455.18020176689253405429@gitolite.kernel.org>
+Date: Mon, 23 Aug 2021 16:56:03 -0000
+Message-Id: <162973776384.1635.4563777494038002344@gitolite.kernel.org>
 
---===============0449746011735203725==
+--===============7600740418571330091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b1a4a0ca56bbc8e963fa0021eadfcc1c97ddd4dc
     new: 96aea758c8de9b5b67244ad861533da34e76171f
     log: revlist-b1a4a0ca56bb-96aea758c8de.txt
 
---===============0449746011735203725==
+--===============7600740418571330091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -512,4 +512,4 @@ a4aed36ed5924a05ecfadc470584188bfba2b928 certs: Add support for using elliptic c
 047d4226b0bca1cda5267dc68bc8291cce5364ac tpm: ibmvtpm: Avoid error message when process gets signal while waiting
 96aea758c8de9b5b67244ad861533da34e76171f crypto: public_key: fix overflow during implicit conversion
 
---===============0449746011735203725==--
+--===============7600740418571330091==--
