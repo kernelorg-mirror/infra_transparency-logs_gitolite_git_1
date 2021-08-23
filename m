@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5493562797315819882=="
+Content-Type: multipart/mixed; boundary="===============8497176819658417043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Aug 2021 11:00:25 -0000
-Message-Id: <162971642599.27125.7525105915988698519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 23 Aug 2021 11:00:48 -0000
+Message-Id: <162971644893.27369.16674432046534570772@gitolite.kernel.org>
 
---===============5493562797315819882==
+--===============8497176819658417043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e062402826f09ad88123dcefb3e2102dd21ad023
-    new: 368e4f8734b095708aedad031dd3b0b7dfecfe1d
-    log: revlist-e062402826f0-368e4f8734b0.txt
+    old: 3f00f451f6d158b678aedb48677b8ac82a1743be
+    new: a342f27d090d1ed6c0c9dec2eee5059c60550df6
+    log: revlist-3f00f451f6d1-a342f27d090d.txt
   - ref: refs/heads/for-next
-    old: 0d59a1f1c9a5082f23931fc52987ac6795b0045f
-    new: aeca0dec1dd744586c3cf240fbefa6c37b05eb77
-    log: revlist-0d59a1f1c9a5-aeca0dec1dd7.txt
+    old: aa9f92097dcc83848ee7e4ea5ddbdd15db5eff64
+    new: dc3b1c27d1dd8e5f504c77f9c4e5657093ae2936
+    log: revlist-aa9f92097dcc-dc3b1c27d1dd.txt
 
---===============5493562797315819882==
+--===============8497176819658417043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e062402826f0-368e4f8734b0.txt
+Content-Disposition: attachment; filename=revlist-3f00f451f6d1-a342f27d090d.txt
 
 2b6d2833cd1d8a43a837a45da65860ef086443dc mtd: mtd_blkdevs: Initialize rq.limits.discard_granularity
 14f97f0b8e2b9950c028d0cb7311ffe26a3cc1c0 mtd: rawnand: Add a check in of_get_nand_secure_regions()
@@ -260,13 +260,13 @@ f4ff9e6b0126706078a5241561546743b7d92628 Merge tag 'usb-5.14-rc7' of git://git.k
 9ff50bf2f2ff5fab01cac26d8eed21a89308e6ef Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
-368e4f8734b095708aedad031dd3b0b7dfecfe1d Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+a342f27d090d1ed6c0c9dec2eee5059c60550df6 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
 
---===============5493562797315819882==
+--===============8497176819658417043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d59a1f1c9a5-aeca0dec1dd7.txt
+Content-Disposition: attachment; filename=revlist-aa9f92097dcc-dc3b1c27d1dd.txt
 
 2b6d2833cd1d8a43a837a45da65860ef086443dc mtd: mtd_blkdevs: Initialize rq.limits.discard_granularity
 14f97f0b8e2b9950c028d0cb7311ffe26a3cc1c0 mtd: rawnand: Add a check in of_get_nand_secure_regions()
@@ -498,7 +498,8 @@ f4ff9e6b0126706078a5241561546743b7d92628 Merge tag 'usb-5.14-rc7' of git://git.k
 9ff50bf2f2ff5fab01cac26d8eed21a89308e6ef Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
-368e4f8734b095708aedad031dd3b0b7dfecfe1d Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-aeca0dec1dd744586c3cf240fbefa6c37b05eb77 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+ad3ead1efe057029bf112e13d7ef5901915d6abd regulator: Documentation fix for regulator error notification helper
+a342f27d090d1ed6c0c9dec2eee5059c60550df6 Merge remote-tracking branch 'regulator/for-5.14' into regulator-linus
+dc3b1c27d1dd8e5f504c77f9c4e5657093ae2936 Merge remote-tracking branch 'regulator/for-5.15' into regulator-next
 
---===============5493562797315819882==--
+--===============8497176819658417043==--
