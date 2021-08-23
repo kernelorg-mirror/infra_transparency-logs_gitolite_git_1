@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/swiotlb
-Date: Mon, 23 Aug 2021 10:48:03 -0000
-Message-Id: <162971568394.17211.10537895752847366673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 23 Aug 2021 10:49:44 -0000
+Message-Id: <162971578452.18968.5837798300080341164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/swiotlb
-user: konrad
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/devel/for-linus-5.15
-    old: a449ffaf9181b5a2dc705d8a06b13e0068207fd4
-    new: f3cfd136aef0184919464b49d5b74d43605abcbc
+  - ref: refs/heads/master
+    old: 46002bf3007ce0387be73d0c9640ee7cd2de4788
+    new: 82a44ae113b7b35850f4542f0443fcab221e376a
     log: |
-         ce5cb67c664fbc93d1af20b3fbd7a07eda9f6ee6 of: Move of_dma_set_restricted_buffer() into device.c
-         f3cfd136aef0184919464b49d5b74d43605abcbc of: restricted dma: Don't fail device probe on rmem init failure
-         
-  - ref: refs/heads/linux-next
-    old: a449ffaf9181b5a2dc705d8a06b13e0068207fd4
-    new: f3cfd136aef0184919464b49d5b74d43605abcbc
-    log: |
-         ce5cb67c664fbc93d1af20b3fbd7a07eda9f6ee6 of: Move of_dma_set_restricted_buffer() into device.c
-         f3cfd136aef0184919464b49d5b74d43605abcbc of: restricted dma: Don't fail device probe on rmem init failure
+         82a44ae113b7b35850f4542f0443fcab221e376a net: stmmac: fix kernel panic due to NULL pointer dereference of plat->est
          
