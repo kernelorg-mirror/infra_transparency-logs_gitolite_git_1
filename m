@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5519654744977030464=="
+Content-Type: multipart/mixed; boundary="===============3972890899162578044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 23 Aug 2021 11:25:43 -0000
-Message-Id: <162971794303.11371.7333368110539732876@gitolite.kernel.org>
+Date: Mon, 23 Aug 2021 11:26:01 -0000
+Message-Id: <162971796145.11570.11896966982078350029@gitolite.kernel.org>
 
---===============5519654744977030464==
+--===============3972890899162578044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 2189e928b62e91d8efbc9826ae7c0968f0d55790
-    new: 87d93029fe83e326d5b906e12e95600b157d2c0d
-    log: |
-         87d93029fe83e326d5b906e12e95600b157d2c0d m68k: Fix asm register constraints for atomic ops
-         
-  - ref: refs/heads/for-v5.15
-    old: 2189e928b62e91d8efbc9826ae7c0968f0d55790
-    new: 87d93029fe83e326d5b906e12e95600b157d2c0d
-    log: |
-         87d93029fe83e326d5b906e12e95600b157d2c0d m68k: Fix asm register constraints for atomic ops
-         
-  - ref: refs/heads/master
-    old: 5f10755da6b9281682cd3cd9b5d868d1c94c0e03
-    new: 420b13e4124ab8fa930febb1292602297eeae955
-    log: revlist-5f10755da6b9-420b13e4124a.txt
+  - ref: refs/heads/m68k-queue
+    old: 3debf536c7ef26211db7101c2131144693b232fc
+    new: 530458069d441ae0b0ad00af892bbc7b53d1c259
+    log: revlist-3debf536c7ef-530458069d44.txt
 
---===============5519654744977030464==
+--===============3972890899162578044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f10755da6b9-420b13e4124a.txt
+Content-Disposition: attachment; filename=revlist-3debf536c7ef-530458069d44.txt
 
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
 e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
@@ -575,8 +563,11 @@ f4ff9e6b0126706078a5241561546743b7d92628 Merge tag 'usb-5.14-rc7' of git://git.k
 9ff50bf2f2ff5fab01cac26d8eed21a89308e6ef Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
-f455d0c73aea844de3c440aea56dc909256f4e10 Merge tag 'v5.14-rc6'
-57ad464ee7def156b765d582f8e48e9eb7cf0607 Merge tag 'v5.14-rc7'
-420b13e4124ab8fa930febb1292602297eeae955 m68k: Fix asm register constraints for atomic ops
+6b0e3b399940cf750761bfe052b8ad2abd5fba95 m68k: emu: Fix invalid free in nfeth_cleanup()
+ad74cb2e1f5f1f0364731641c35bfdbdbd444a3d m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
+a928234c0128b23779054251744605c863e12702 m68k: Fix asm register constraints for atomic ops
+0aeb729e2d96ca5cab05835601bebf08b2552c3a m68k: atari: usb: Add ISP1160 USB host controller support
+5dfbee8790669ac520c99220aec25a21e1934a98 m68k: atari: Update Kconfig.bus help text
+530458069d441ae0b0ad00af892bbc7b53d1c259 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5519654744977030464==--
+--===============3972890899162578044==--
