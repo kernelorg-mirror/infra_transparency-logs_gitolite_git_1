@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 23 Aug 2021 17:28:49 -0000
-Message-Id: <162973972975.22604.6708897594855971213@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4023836907716032600=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Mon, 23 Aug 2021 17:30:24 -0000
+Message-Id: <162973982421.24593.8360500218294589700@gitolite.kernel.org>
+
+--===============4023836907716032600==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7ddbb62d7b43e3334a52427cd9666d90a833bd19
-    new: a8db7a3f8ac69e558c7bfbd04802201c39a104ad
+  - ref: refs/heads/master
+    old: 6216a39571c9a973799f88424ee41b63bd0bd61f
+    new: 5a363d9fd8f18f6a5c0810639cb76c69031df7ed
     log: |
-         a8db7a3f8ac69e558c7bfbd04802201c39a104ad platform/chrome: cros_ec_typec: Use existing feature check
+         5a363d9fd8f18f6a5c0810639cb76c69031df7ed Sunset next/mailine notifications feature
          
+
+--===============4023836907716032600==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1629739823 -0400
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1629739823-d6085a53f379761bdc4154222b8b0e2e59629200
+
+6216a39571c9a973799f88424ee41b63bd0bd61f 5a363d9fd8f18f6a5c0810639cb76c69031df7ed refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYSPbLwAKCRC2xBzjVmSZ
+bGYkAP4hnNTOg9bMS4cOqKqd9CLHItGA2uQDtlN0la6Ta68eZgD/d5C4Wygcimc9
+bwzWXF4lpUDHK56MwmS+fJ5im1R/DQ0=
+=43MA
+-----END PGP SIGNATURE-----
+
+--===============4023836907716032600==--
