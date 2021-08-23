@@ -1,73 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3415032892536869015=="
+Content-Type: multipart/mixed; boundary="===============0454360679701929278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 23 Aug 2021 17:30:51 -0000
-Message-Id: <162973985115.24913.3426460914904680948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 23 Aug 2021 17:30:57 -0000
+Message-Id: <162973985797.25006.2678057301186912909@gitolite.kernel.org>
 
---===============3415032892536869015==
+--===============0454360679701929278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.15
-    old: 77eca00f8366238398b9f2f6eea1707a0832f79e
-    new: 6f02c0894921bde9ee4b36c818a2b3d5e6701d5b
-    log: revlist-77eca00f8366-6f02c0894921.txt
+  - ref: refs/heads/for-5.15
+    old: 7a4697b201a617907e4b440ae34df601d4755bef
+    new: 745649c59a0d1fde9dcc02286f23f8c78a1f724d
+    log: |
+         8d00f9819458b95301e274c6df705df2963ba34f spi: rockchip-sfc: Remove redundant IO operations
+         745649c59a0d1fde9dcc02286f23f8c78a1f724d spi: rockchip-sfc: Fix assigned but never used return error codes
+         
 
---===============3415032892536869015==
+--===============0454360679701929278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629739825 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1629739848-2550900078ecf400a88d10a5bb95b1d9fc0dd048
+pusher C3F436CA30F5D8EB 1629739832 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1629739855-50a8d734236d1b0bf4e988c4453b65ba74753de3
 
-77eca00f8366238398b9f2f6eea1707a0832f79e 6f02c0894921bde9ee4b36c818a2b3d5e6701d5b refs/heads/asoc-5.15
+7a4697b201a617907e4b440ae34df601d4755bef 745649c59a0d1fde9dcc02286f23f8c78a1f724d refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEj2zEACgkQJNaLcl1U
-h9AuGgf+PEDYm7b7HfYZYNonAI4LhLRzy4NxVl6GOXi6mNMXl0eN7wu0nnGarwRM
-gE1dYzo2YpUt4XVTgxaaBZ7PxMl8cBCIEpDCl1EjTbjdWU7ZCh0cWL/LzjTxgI9R
-9VvKi7hb1VYMnD1nrtVNRJIyaxFBQKiIbFGrS/3i4Kd9Vbmew7Oknuij+VbVeVlN
-7wY58QELWXLxVpDvWr3Yb1rY4AEVE5jmkU9zJc3xjASrcgOoEYBsFwPq/NfUbJ32
-Ixn0gJyZ01o6XgstnCPtHdiPkfqh9ifneSCYLDjjJ9MXF39xpGtGO2asAkJLs0lY
-+OQR0GnAzgXubmyZFWDBTbzlkAg6OQ==
-=f+PI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEj2zgACgkQJNaLcl1U
+h9D00gf/R1Ks2dLmpMUmjilFz1qyEjm2kBo9JjvqZEe54YpcFHmQY9ILbuJOaYxb
+CLdmaT4+HTZ90PxgnAt202b8aVU0t9igWi9SdHv45MqfpT15tlaQXax5iJ/rcQjg
+zbv708XuDDkjaJlqP7SUIQlWRJqZq1zOggGfQERmKTfTuptrZkzyc9YJPMBO/FmU
+jkJ55RUUGlcqHl85PMlxZRTK7v0+74GTXt6oiFyIpbJhjf455D/NDY/mLdBmwIqz
+04e3eAB3vFxpIaLz76vjUwuamBJatj+W5FHK833Bg4IAhQzSzFtUPJAEBqs4/XN+
+PI6U0f4KvumHTb1w19LYbEKY4ceQXQ==
+=mJen
 -----END PGP SIGNATURE-----
 
---===============3415032892536869015==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77eca00f8366-6f02c0894921.txt
-
-6d41bbf2fd3615c56dbf2b67f6cbf9e83d14a2e2 ASoC: Intel: kbl_da7219_max98927: Fix format selection for max98373
-126b3422adc80f29d2129db7f61e0113a8a526c6 ASoC: Intel: Skylake: Leave data as is when invoking TLV IPCs
-87b265260046d4e0ed3f150dac2184b9dbd4bf7c ASoC: Intel: Skylake: Select proper format for NHLT blob
-e8b374b649afe756c2470e0e6668022e90bf8518 ASoC: Intel: Skylake: Fix module resource and format selection
-e4e0633bcadc950b4b4af06c7f1bb7f7e3e86321 ASoC: Intel: Skylake: Fix module configuration for KPB and MIXER
-c5ed9c547cba1dc1238c6e8a0c290fd62ee6e127 ASoC: Intel: Skylake: Fix passing loadable flag for module
-e4e95d8291831fa63c32e00b59f544f0812dc0b6 ASoC: Intel: Skylake: Simplify m_state for loadable modules
-a4ad42d28618eef83bee02e0a19af0d467bd9722 ASoC: Intel: Skylake: Support multiple format configs
-db5a3f83a241a98d855e2cecc67869d06cb3e135 ASoC: Intel: Skylake: Support modules with generic extension
-5b27a71cbbfe6ffb554c87fde2ad9b71841478c2 ASoC: Intel: Skylake: Properly configure modules with generic extension
-b947d2b467c0ea275ac3b468974ebe0dd0c0c3bd ASoC: Intel: Skylake: Select first entry for singular pipe config arrays
-43d2c4982fcc6ed0adfea1275bc6df28bc48c1ea ASoC: ics43432: add CMM-4030D-261 support
-0f28b69e4b5959ee4ae1363b5f6d5dfe76faf36e dt-bindings: add compatible vendor prefix for CUI Devices
-c7bd58940bcb38fc506786fccdf51abeac40383e ASoC: ics43432: add compatible for CUI Devices
-0aeb17d1728257f29131a290f0cc8e281cc7274c ASoC: rt1015p: correct indentation
-a5ec377133674a0318bfb9342488d5d0ad0e1327 ASoC: Intel: bytcr_rt5640: Mark hp_elitepad_1000g2_jack?_check functions static
-d019403a777e9978767d0551fa55f624baf7df09 ASoC: rt1015: remove possible unused variable `bclk_ms'
-6f02c0894921bde9ee4b36c818a2b3d5e6701d5b Merge series "ASoC: Intel: Skylake: Fix and support complex" from Cezary Rojewski <cezary.rojewski@intel.com>:
-
---===============3415032892536869015==--
+--===============0454360679701929278==--
