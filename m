@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 23 Aug 2021 18:35:05 -0000
-Message-Id: <162974370542.2234.5653146814019503676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 23 Aug 2021 18:36:11 -0000
+Message-Id: <162974377140.2647.88310758847461168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: bbe1da7e34ac5a830163bfdfa09cbe3dadfda3ce
-    new: 80edc614b5c78ce37985f0f36c104b16631c85ff
+  - ref: refs/heads/dev
+    old: 529967eac0a1f064b889234a3ef62270f143c770
+    new: f851801b9e733388f3f3de2e5e1cbd09c2eb834d
     log: |
-         521187439abfb3e1c946796dc2187c443e5457ab f2fs: separate out iostat feature
-         a4b6817625e71d5d4aee16cacf7a7fec077c6dbe f2fs: introduce periodic iostat io latency traces
-         94c821fb286b545d37549ff30a0c341e066f0d6c f2fs: rebuild nat_bits during umount
-         cc8ac1ffe67738bf40de69c97c4ba4088e564cfe f2fs: enable realtime discard iff device supports discard
-         b34bd8686243891e093662baf0e3daf4ef231c98 f2fs: don't ignore writing pages on fsync during checkpoint=disable
-         80edc614b5c78ce37985f0f36c104b16631c85ff f2fs: Don't create discard thread when device doesn't support realtime discard
+         59f305a52ca5c7ae2ed39825521043ac2550e597 fsck.f2fs: add basic compress related check/fix
+         b0dfe456ccf70c4d3e3773f54557ebead1e5500e f2fs_io: add rename w/ fsync option
+         0fa8cf83830021da4ab884a2a6d2abc254aea118 f2fs-tools: change fiemap print out format
+         f851801b9e733388f3f3de2e5e1cbd09c2eb834d fsck.f2fs: Update the usage about option of preen mode
          
