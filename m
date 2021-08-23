@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Aug 2021 11:57:10 -0000
-Message-Id: <162971983010.31420.2264299130079396194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 23 Aug 2021 11:59:22 -0000
+Message-Id: <162971996215.32234.15279355819955758502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: 609c1308fbc6446fd6d8fec42b80e157768a5362
-    new: f6a4e0e8a00ff6fadb29f3646ccd33cc85195a38
+  - ref: refs/heads/for_next
+    old: a95dc17633ab71f8f487075ae3574bb9cb0ebc33
+    new: ed518dd035fa07633912f259b90a256f4780395e
     log: |
-         b708a96d76462614123f4e8a8bb030889ab43ba4 via-rhine: Use of_device_get_match_data to simplify code
-         f6a4e0e8a00ff6fadb29f3646ccd33cc85195a38 via-velocity: Use of_device_get_match_data to simplify code
+         58bc6d1be2f3b0ceecb6027dfa17513ec6aa2abb udf_get_extendedattr() had no boundary checks.
+         ed518dd035fa07633912f259b90a256f4780395e Pull udf xattr sanity checks.
          
