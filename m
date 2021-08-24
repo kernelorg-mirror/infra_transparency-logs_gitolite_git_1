@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0431363270359840404=="
+Content-Type: multipart/mixed; boundary="===============8141494206136391529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 24 Aug 2021 13:22:14 -0000
-Message-Id: <162981133481.8752.3084881020107066919@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 13:22:37 -0000
+Message-Id: <162981135780.8908.7273304822102580033@gitolite.kernel.org>
 
---===============0431363270359840404==
+--===============8141494206136391529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7c60610d476766e128cc4284bb6349732cbd6606
+  - ref: refs/heads/usb-linus
+    old: 5571ea3117ca22849072adb58074fb5a2fd12c00
     new: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
-    log: revlist-7c60610d4767-e22ce8eb631b.txt
+    log: revlist-5571ea3117ca-e22ce8eb631b.txt
 
---===============0431363270359840404==
+--===============8141494206136391529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811333 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811356 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1629811332-f2e639bb0ff95589b9dbf2747d5c46f4751d8fbd
+nonce 1629811352-3ea611aa1cfc695d52fd93e52fd3396811595e90
 
-7c60610d476766e128cc4284bb6349732cbd6606 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 refs/heads/main
+5571ea3117ca22849072adb58074fb5a2fd12c00 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk8oUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+neAP/2H6YaLzbioIvtGGFBtP
-1irrqJmlF7PJrnrnuFM/ag/5/pe3bxnFDrj3SwS4PoKeQvl9mxlygfbfMEVBZP/+
-KTxjZ1tVODbMr5bH6JWzdSLhLbYGocP+ps4aiuJgwhi5UOLMb19zS6+LnlvcBAAj
-OJ48Xq3wQZFr/KLw/tBpVGdNwF02JXbPmrxtJqqDRRUzF89oMoLUo9MaocZYblkK
-0iNUj3be2Owm8iaG52a15y5VJJTvta/0EFe9T9vck1ihJsUKj7djBxlgmrzkUQjG
-KXjHN4hzVfV3sLOryAkFMpTyeaxEVwWjGNZfzbVHjVjoGYCWIadxmk8h3l44YYRK
-SH/sG4joWMnYVrdM61EWW11MhKSU110PAmR7R/eumNwEd+Qjs16K109bByVaBkp6
-QMmyccPwsFN/xAS1kqIcxRP34oZSJq4O/HJAabxluqEqYk485WWAJjbdf/MRswd+
-Jli3guFIiQeOHUf4fhUKbt6LGXM+yNwPUvoDKGzj+zKZw8Lr7wQ0BYvlHPstgvWk
-mnlftIn5gD7DE7Br4g9cVNALIlvjujM90y1SehZtj3oypmZ9UEiXX09fjLFThI7I
-M8OM2gAIbpYssrIl67nSOq5ST+0ju28nDzWOtrlNlURTkXlgBbCeCfuYY+coWRiJ
-4MgLX0uzCsAaeLr7LUYUf/IZ
-=xSRE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk8pwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yAkQAMWUQpm6J80yEZnpm/TP
+aLoByXhDPGdbSxmJIMMFVkJC2lRwHamG2JICXa+2mZL2qmGz2pF7ZKv6s65NZe0F
+btgj006rEqKpk2GVg3QHc2FVEwzf/uya9PCTbcMJGt70q7yV/StYIZNwh1kxampT
+cts142wF07VkvpKt68FBn1FOK8AInALotpsvdxZUDfagnY+SF7NBOdrTjq3L0zLf
+VXVWia7VytsmYS1GlgkXVHjiKiMy78NTTBIVWo4zzEqB8VPCoV03NgBqFbeeGrZ7
+pkDiIbp1xdh56PAQt63RLZNMMBhR6fcy1dsYgXEWqHyRfdr+Jdygy1lamLiyq4Xg
+iEKmpzbEK+uqjzTyLA81+/yKHt2z/z6wUNyr43uie/hZqunETChH5RFJU4kZfcUD
+Hn12pnYuBDinxODajOaVrnTUJGATQnVadfv5JelF4OIqp/W8Ji61Wadb5rRUAGFl
+EnHqt3ckfBZOlwbgxbni1rdEJq9azAzvlJ8RVqhdZqzNxG8ilsiQu5Ud5VmepHun
+iO1II4DxGXoHZPs6N6AB4nk8ux2n69t488hs8a4zqvrlaHEmBX4J4j9aEC2Dbjsk
+BoU+bmhj5UOEphSR+Ev21+N7HOaCs7bx5/2m/vuNNBkO/zoKimy2BfKrokJcwr7B
+APq9X+G9Biz1PdPY2LHGm2Or
+=/d/H
 -----END PGP SIGNATURE-----
 
---===============0431363270359840404==
+--===============8141494206136391529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c60610d4767-e22ce8eb631b.txt
+Content-Disposition: attachment; filename=revlist-5571ea3117ca-e22ce8eb631b.txt
 
 2b6d2833cd1d8a43a837a45da65860ef086443dc mtd: mtd_blkdevs: Initialize rq.limits.discard_granularity
 14f97f0b8e2b9950c028d0cb7311ffe26a3cc1c0 mtd: rawnand: Add a check in of_get_nand_secure_regions()
@@ -214,7 +214,6 @@ b8441b288d6031eac21390891ba36487b2cb398b drm/i915: Tweaked Wa_14010685332 for al
 baa2152dae0496e230545051395a83ac434744bd drm/i915/edp: fix eDP MSO pipe sanity checks for ADL-P
 e3e86f41385b2b5d5f771de6009748b584334366 drm/i915/dp: remove superfluous EXPORT_SYMBOL()
 3f78c90f9eb2e228f44ecc8f4377753f0e11dbab powerpc/xive: Do not mark xive_request_ipi() as __init
-5571ea3117ca22849072adb58074fb5a2fd12c00 usb: typec: tcpm: Fix VDMs sometimes not being forwarded to alt-mode drivers
 1e35b8a7780a0c043cc5389420f069b69343f5d9 platform/x86: gigabyte-wmi: add support for B450M S2H V2
 3b844826b6c6affa80755254da322b017358a2f4 pipe: avoid unnecessary EPOLLET wakeups under normal loads
 a83955bdad3ee1c8d29f345252dcb1806fe22365 Merge tag 'cfi-v5.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -288,4 +287,4 @@ f4ff9e6b0126706078a5241561546743b7d92628 Merge tag 'usb-5.14-rc7' of git://git.k
 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
 
---===============0431363270359840404==--
+--===============8141494206136391529==--
