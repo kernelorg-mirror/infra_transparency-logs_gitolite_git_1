@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6453596926790226426=="
+Content-Type: multipart/mixed; boundary="===============8055991146852582261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 24 Aug 2021 04:01:38 -0000
-Message-Id: <162977769863.15584.2461267736554333107@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 04:01:47 -0000
+Message-Id: <162977770715.15736.12758125238776683039@gitolite.kernel.org>
 
---===============6453596926790226426==
+--===============8055991146852582261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: f3db4e2d0e23a49cf6fe4214da99f1277cb24d75
-    new: e722e01ca47009dc6d14c10b87a639e5513496c4
-    log: revlist-f3db4e2d0e23-e722e01ca470.txt
+  - ref: refs/heads/5.15/scsi-queue
+    old: 92cc94adfce4683d0b421cbf59013703368aaeb9
+    new: 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09
+    log: revlist-92cc94adfce4-848ade90ba9c.txt
 
---===============6453596926790226426==
+--===============8055991146852582261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1629777690 -0400
+pusher 75C5DE3D 1629777702 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1629777689-3716b2270ff603be9b05f93575d324c867eb75b9
+nonce 1629777701-79278f94707806fec152507089507c2a4424163c
 
-f3db4e2d0e23a49cf6fe4214da99f1277cb24d75 e722e01ca47009dc6d14c10b87a639e5513496c4 refs/tags/mkp-scsi-queue
+92cc94adfce4683d0b421cbf59013703368aaeb9 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 refs/heads/5.15/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEkbxoACgkQ7ulgGnXF
-3j2GQA//RIJ0h5GB1g+a1DCI01tsHp7qmdttM/baMdy1Jl2HjHGt3FFfC236TJKQ
-ub9eIBBXLfd/ld0LQLxxjjrBeWoZZgA/IQNTVVs8nvSfMoO88DqmysmoLF8WJpi+
-HcHnUJ6pHIiC6kNEFappU8Q/ilL0/SCQuQC43r7uGX1Vyka0tVxp+VEAu5E9HtTt
-NGyQom/k2zutnOP03ZfDIWhcmOOAP2ryWWCe22wl+SLfU5zMHP/TqAJ4UilikfWW
-FhfSxC3O0Lrf1DK2521Uf/1y+rbEWmoxhmRmHOYlHn+jdREmsK696PatsXMLfssG
-2UFi52m/URZfIIakGR0CWq2hPUinEWQdosirWJt0RW5lovPfJDl1u6CVB84Q7hkp
-LTTQWwUATfQHxqbWfr3SfsScZVDzs/alBVGyVpPVUGFtsghrZWg7dlbJxmGExoyo
-kozOBRXIYmb99rdWcbNQKrxJfRouspAy5TZ5s5457zQrBrwMnCqI7soGFM8aTcdt
-Jds333FgwbRCK6CgSQ6Ch6DJoghdo3VFv17ZElUFYY2PdCfvh68qdC14DNfem2Um
-FzOZbxvthYhHl8FKkXxOvSjroxiF1KnLWc3DM0PtaSJkY0CImMLp5IZ8uPHwjSYQ
-AE6R4p9EO5OGH72VEkufecI6eDG/dGUooBSCfIUUxP+qs9v5hv8=
-=6NhU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEkbyYACgkQ7ulgGnXF
+3j0BUA//UxilQ/CSnALl7foo5vOwOKEUJagYuoJUmYo2nwBTr0fB/s4hZnSiH/jA
+/S8TJCdCphQ0eYb9RH/T39h8/4SdaMlMl26pE6oRMI7CH0gZQABimA4oxaX2fETw
+gBeRmAJiBv4gF30t7R4gnaRnmesAd4ueKtncuP2MVDAuQpC65AHrtqXbn7LJF0SK
+e8ykmiU4CfK0WTKQZhYj+xl7ApJDhlldioO9hcr2iMHUJ2DpEL/fQha3sRP9pnef
+ba5fI3xKn6Rzxk0NxjsXGMwxYbrWBdYWIAdaHn1xqyc/gntnNhUY7Zid0bHQ36XT
+GoeWOSk6Dow2b+I73MrWsFtLdFyJJLBa+Jr2FnZXdNSMQ7j1dj/5yHMbHXZkvofS
+9hS4Xw0IS+LYb+pooMwFZdWDlkwwcnKKsm9G2E8oyursesLok76gmNbAqk4SQ+gw
+uQLLE1UlUe9bCVwvGv3+lCPJZFO/VthKVluncgXJutEs39IKVEIVC0Iqy/keOJLg
+5D213Bl5eloViOGzcovdFwPW68zaCWhB1YN5qYOQiJeU7nZ7oPQ35j3Xr754zjPV
+jvpzbHXVEdIc6CU0LoocRrewiFZJX0s+D8sytVdYumHYOBT7X7Wul9Vp95BcgTcw
+0cFA7Z0r9PSGdtBukAsNOdF0KEVDLe2R/1y1ye4UtDIXN+wTIps=
+=cvL0
 -----END PGP SIGNATURE-----
 
---===============6453596926790226426==
+--===============8055991146852582261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3db4e2d0e23-e722e01ca470.txt
+Content-Disposition: attachment; filename=revlist-92cc94adfce4-848ade90ba9c.txt
 
 d1f6581a6796c4e9fd8a4a24e8b77463d18f0df1 scsi: smartpqi: Fix an error code in pqi_get_raid_map()
 4dbe57d46d54a847875fa33e7d05877bb341585e scsi: qedi: Fix error codes in qedi_alloc_global_queues()
@@ -70,4 +70,4 @@ e0aebd25fdd93ebfb53b11e3c3e142619ca9fe1e scsi: fnic: Stop setting scsi_cmnd.tag
 7a3795f28795e5bdc71498728bdfe4f921ce6c27 scsi: ibmvfc: Do not wait for initial device scan
 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 scsi: sd: Do not exit sd_spinup_disk() quietly
 
---===============6453596926790226426==--
+--===============8055991146852582261==--
