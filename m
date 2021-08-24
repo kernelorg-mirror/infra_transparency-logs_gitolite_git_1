@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1570264529736325366=="
+Content-Type: multipart/mixed; boundary="===============8146115517270982770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
 Date: Tue, 24 Aug 2021 13:23:15 -0000
-Message-Id: <162981139504.9209.17074966093472062788@gitolite.kernel.org>
+Message-Id: <162981139504.9204.15584882807627998567@gitolite.kernel.org>
 
---===============1570264529736325366==
+--===============8146115517270982770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7c60610d476766e128cc4284bb6349732cbd6606
-    new: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
-    log: revlist-7c60610d4767-e22ce8eb631b.txt
+  - ref: refs/heads/usb-next
+    old: e4788edc730a0d2b26e1ae1f08fbb3f635b92dbb
+    new: 85fb1a27b128f6404cb9a08f3a4a094e92a78ac0
+    log: revlist-e4788edc730a-85fb1a27b128.txt
 
---===============1570264529736325366==
+--===============8146115517270982770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811392 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1629811382-5f26bf82c07d7b283f6411e62a2824df85535ef2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811381 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1629811380-8f77550cfcbea7fc214017b8de92712c2e55d168
 
-7c60610d476766e128cc4284bb6349732cbd6606 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 refs/heads/master
+e4788edc730a0d2b26e1ae1f08fbb3f635b92dbb 85fb1a27b128f6404cb9a08f3a4a094e92a78ac0 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk8sAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hoQQAI7LTq0hC2opWjJRwKW9
-nPfIqrWx93MVA2/E4SquhUzTHBnM3lQrwPblXZX2AnfUFCDs5xQSiZeizhaivH8e
-B6VJ51PUJXiYxw8Da+TLG6ogiyHcEeumZNJ6gmMlTgA/5MqlZiEPl/qi0VZWQzVF
-zlDN7vrGDTobjeqWe4zKJ8URhUG53SJi5jh0eoyC4WA9jv+A5A22ZPuhM/uiBT6h
-60TEVKUjY+6Bnxib12I0flQvZhDFMGq5E1IU58dnaGIzSYxix37wgNilnnNh9O+C
-1goEgnEMEvheStjyPnw1QaIGrRYr1zVfe4TH6dRekANZBaZFLsEJVp8d07Njnr/m
-NBBoAF6rc55833et2F/Qbz2yvmtOYNF5OmI9cXTks+X6Cs9e4hLLop3DjrU7l385
-/9AtLvKBwHVap9lAdtMq0uFfYjlpy+NHvMmR5rtxS7FCNqhmgnPAT4rybqxdMQtC
-+LusCK9JAVz0jh3/ECNhSmx1DdimqDaIUwoTKZLwVX0lDwtMpcRyxU6vNQc/fs2s
-OtjmOSQ2dR4IUoRTjK7h6S2XYf6JDGVABGR0s+obDqWqRjm7Xhh/TJFH46FRuBFu
-T3zC9+LTOwvyL5ILEUafQ1zRqVwCRJdRkSCSUfcAak2mKFolUW1ofekGDJq4wuIn
-Nlr4qNfHXvuIRPTxM/cR7C8N
-=UXgx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk8rUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+drQQAL7m5nUBRMG67bPF/MP3
+QJQ+ZLqP2lG2pbRRgzE1YwQQrTtASreMaOfGy3nvghX5r8VS/u55yxRibmPmhTKZ
+NmUUl1dTDbaTz5pjEBtxL84SfhOD7wp9JLui4TyFAiHH2CkvudLKVXnV4JXD8bWc
+Rp+vN3Gcejq3uRJA1bngp7ptKyNZsbfgsRbpRZW8kIsHV1RoHaqfIECmmR7PH0LJ
+qpb66cbhneEM3HJQhx/VZTQACKjTUiNJ/vWNsShKEF7Uuzfqwpc4l7SqXzfnOcnB
+cBGxSHwDsb8twwD8Mq1S2b1wIzENLCq8zfvZ2EPhLmZZA067WU2Eocye4UZautEe
+h1INgtEXILiNscvTmmJPTe2JUsd6SSTSUnmz+WLiX3lYyZiSJOFy1jnAqS3ETSjS
+6KxcEvQNi+pSfua/0n5i3aDj01NI3IX59EmHY3Xki4rYqL7Hmnb5NousXcNmti5l
+EO2Cdfcfd42T+/2xYRAcozyR42WdNsju7q28aQKvEiLHlbe8W4aEE4Hf9YM/ROd9
+OJlewrXyGb6VF4owW0s81gorUzOmrKXHkqpcqbW8KDj90wuoZ7kXZ1e7a5s/dNxo
+3LdPFw3SX2cBTADD5TJ4b/gE8a/FvZz2LSSj7ptbUXdOTTx4aTG+1khycJayDuoE
+ochT4k4T5z2zwdRT6C1+jUIj
+=AbjD
 -----END PGP SIGNATURE-----
 
---===============1570264529736325366==
+--===============8146115517270982770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c60610d4767-e22ce8eb631b.txt
+Content-Disposition: attachment; filename=revlist-e4788edc730a-85fb1a27b128.txt
 
 2b6d2833cd1d8a43a837a45da65860ef086443dc mtd: mtd_blkdevs: Initialize rq.limits.discard_granularity
 14f97f0b8e2b9950c028d0cb7311ffe26a3cc1c0 mtd: rawnand: Add a check in of_get_nand_secure_regions()
@@ -287,5 +287,6 @@ f4ff9e6b0126706078a5241561546743b7d92628 Merge tag 'usb-5.14-rc7' of git://git.k
 9ff50bf2f2ff5fab01cac26d8eed21a89308e6ef Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
+85fb1a27b128f6404cb9a08f3a4a094e92a78ac0 Merge 5.14-rc7 into usb-next
 
---===============1570264529736325366==--
+--===============8146115517270982770==--
