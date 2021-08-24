@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2960679338286095783=="
+Content-Type: multipart/mixed; boundary="===============3290205094094925429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 24 Aug 2021 08:30:11 -0000
-Message-Id: <162979381152.29415.437032011647486228@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 08:30:21 -0000
+Message-Id: <162979382130.29561.4213968083819569919@gitolite.kernel.org>
 
---===============2960679338286095783==
+--===============3290205094094925429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 3349d3625d62e4c0d90e854a5b7e8efda8a5c994
-    new: 0ba218e2530aa4e8dd6d325a9e9d734276513301
-    log: revlist-3349d3625d62-0ba218e2530a.txt
+  - ref: refs/heads/mlx5-queue
+    old: c960c1923d272ecafdee8eb296a7453a18ebaddc
+    new: 8e1a5de133ce4cbb2a36ddbc37e0810573d44329
+    log: revlist-c960c1923d27-8e1a5de133ce.txt
 
---===============2960679338286095783==
+--===============3290205094094925429==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3349d3625d62-0ba218e2530a.txt
+Content-Disposition: attachment; filename=revlist-c960c1923d27-8e1a5de133ce.txt
 
 2e29be2e491595407087ab36a5e5a159be693f7b fs/fuse: Remove unneeded kaddr parameter
 44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
@@ -444,5 +444,60 @@ a515e5b53cc699f1f3b60a5135f50657efa2758b octeontx2-pf: Add check for non zero mc
 a53581d5559eaacaac1b4aed8e2f22c40efa5acc net: bridge: mcast: br_multicast_set_port_router takes multicast context as argument
 2796d846d74a18cc6563e96eff8bf28c5e06f912 net: bridge: vlan: convert mcast router global option to per-vlan entry
 0ba218e2530aa4e8dd6d325a9e9d734276513301 Merge branch 'bridge-vlan'
+c6544ef1b7ff8d0148394debbfbb43641c9418d2 net/mlx5e: loopback test is not supported in switchdev mode
+6a023709526f4b80c4cdaf664854b8d8ae511046 net/mlx5e: Improve MQPRIO resiliency
+d0be3762c8467da627aaffb3ff555f4a2e072ab8 net/mlx5e: Allow specifying SQ stats struct for mlx5e_open_txqsq()
+3ad2b5281dd23cbf99cbbb58a9753d991effa3ff net/mlx5: Support partial TTC rules
+ebb31c7a616021445d413381378fb26f5b2f9f8d net/mlx5e: Add TX max rate support for MQPRIO channel mode
+5c35079f1bbc133c0966bcf7df1cfa473cee6d08 net/mlx5: Introduce port selection namespace
+128bf4f4507c54e28d4e54e2693d6e4528fcee59 net/mlx5: Add support to create match definer
+8b4b628713cdace682d6bcd596841d436a492202 net/mlx5: Introduce new uplink destination type
+b9980fe9f30406ecd22f34b66102576f34a718bc net/mlx5: Lag, move lag files into directory
+c82d6e0c199fcce15c524a473f6f20f4e3181616 net/mlx5: Lag, set LAG traffic type mapping
+a6f66af7a5ade8a4e8c9516af5eb03b843b83809 net/mlx5: Lag, set match mask according to the traffic type bitmap
+40cadb3cfc4b1825242bc9fd8aee90976a17c8e6 net/mlx5: Lag, add support to create definers for LAG
+4f99fd295e15633d55ac55ec1c16c8b1cee09ed0 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+3df2bba17ac2d075090eb0dbae57baa6f6034128 net/mlx5: Lag, add support to create/destroy/modify port selection
+68fa91c7a6723611faeec8f655f623890fcacad2 net/mlx5: Lag, use steering to select the affinity port in LAG
+2afd5355e71f08d0c65dcce31d31d3971ae6a460 net/mlx5: FWTrace, cancel work on alloc pd error flow
+0fb1fa790e67d9c4351e66d9575a3c698857eeb2 net/mlx5: Add support in bth_opcode as a match criteria
+f9328659c9acc971feed02d0f16bd8bf140a919e net/mlx5: Add priorities for counters in RDMA namespaces
+e5cb8b0ffaa400f2994d442b52530324fdc6864c RDMA/counters: Support to allocate per-port optional counter statistics
+e0e12dccfc7e733f28cec7bc2653209169f5a5bd RDMA/mlx5: Add alloc_op_port_stats() support
+70b668aa441e698728bf5112ae22001fa343318e RDMA/mlx5: Add steering support in optional flow counters
+d316f74436994a43412f0aa822149e57df8c0ac4 RDMA/nldev: Add support to add and remove optional counters
+0b45645efefc65b137094f55829f23caa1fcaaf0 RDMA/mlx5: Add add_op_stat() and remove_op_stat() support
+702003fa336e224c01467c7244b161c0de796402 RDMA/nldev: Add support to get optional counters statistics
+433b75ebf25ab6e58ce0e868435c4a7f34190d7e RDMA/mlx5: Add get_op_stats() support
+a005a649867e6abe6ce38a26c104b02a2388f98d RDMA/nldev: Add support to get current enabled optional counters
+1f9ee58c276b0401f0afa7d1d07aa67ff9b7eea9 Merge branch 'bridge-vlan'
+c8a818b14303968d01738594aa133e22a1d0cc1d net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+51a68c3a697279ef7b75c997b88571794a261b8b net/mlx5: DR, Split modify VLAN state to separate pop/push states
+55db21ad462256fedf34eae2604ae222f65b0f93 net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+4fa6cae88e4c051fcddfdc166950420f4b3107d4 net/mlx5: DR, Enable QP retransmission
+90b05bf82e1947c77aaf5a63b5d485c3220edbd3 net/mlx5: DR, Improve error flow in actions_build_ste_arr
+23fba2f8bb48b9395d943366f145a25d21d10eb7 net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+ee6dd20982d8548f562feb8ef1f640dc42e2940f net/mlx5: DR, Reduce print level for FT chaining level check
+d544e9719e4d9043071fec3e9f40af72b7b89e4f net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+16ae77f633e011aab7d778407cdbb825b396cc04 net/mlx5: DR, replace uintN_t with kernel-style types
+f4c5f8f89645f4a729d00336b7eb4509e8746706 net/mlx5: DR, Use FW API when updating FW-owned flow table
+fb93ec835c0ba29e65c66fd72f636e30b15d9ecb net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+9e83cfd61774c6bbac092fe106b2aab25de02b41 net/mlx5: DR, Skip source port matching on FDB RX domain
+1b23acb4d9f76de99d1afd70a098fdfb11004f54 net/mlx5: DR, Merge DR_STE_SIZE enums
+08971d8ff69fe119c8942f0a5ef12ba32303b607 net/mlx5: DR, Remove HW specific STE type from nic domain
+10c34ee3808bb2117e82f4a2c092876a9f728c8b net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+74591e8425820cf5e81b8bc79eba5d7ef2d3cd50 net/mlx5: DR, Improve rule tracking memory consumption
+5e409e09679b8e826b329ff2fa59aaf1526d0d06 net/mlx5: DR, Add support for update FTE
+107de0c8fac73ee17ca21095fd74d2a0c07e8365 net/mlx5: DR, Fix code indentation in dr_ste_v1
+b7c2db1efd530455458916cc3579e440942c9a3c Merge branch 'bridge-vlan'
+423655b855ca5d475057c13f9ddb5d05c8f04cff Merge branch 'patchq/423917' into mlx5-queue
+ad8238b868160d417e5d79f86e3cb0812d7741b7 net/mlx5: Lag, fix multipath lag activation
+2e7d50bf1dd7239507bfa663116f3b95a5e8b241 Merge branch 'patchq/420624' into mlx5-queue
+e6f6496b0ea80b33d555b24b42760a23abae74ed Merge branch 'patchq/424137' into mlx5-queue
+4a0a3ed6d0ffb0406af62fb4c874f791d30e848d Merge branch 'patchq/423189' into mlx5-queue
+009fe4053fa8df3f741ca3dfda9edd240c6c5bdd Merge branch 'patchq/413311' into mlx5-queue
+90263fde18891229b0de09d3f939c008a7a352f7 Merge branch 'patchq/419320' into mlx5-queue
+12f013f80afca561eb649f2cc06b03c5379fe49d Merge branch 'patchq/412107' into mlx5-queue
+8e1a5de133ce4cbb2a36ddbc37e0810573d44329 Merge branch 'patchq/411074' into mlx5-queue
 
---===============2960679338286095783==--
+--===============3290205094094925429==--
