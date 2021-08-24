@@ -1,23 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 24 Aug 2021 13:12:07 -0000
-Message-Id: <162981072793.1157.16429295832551899206@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8325994724154396884=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 24 Aug 2021 13:20:50 -0000
+Message-Id: <162981125062.8256.4442111153564467776@gitolite.kernel.org>
+
+--===============8325994724154396884==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 2c6cbd14b62077879d0768ce11c589d7b617a92d
-    new: 86842d255b45fc2103da1cd202f5064397ed41f8
-    log: |
-         1822b4dedc4d8cab96fd1d87bf8ff98194e29d9b clk: imx8mm: use correct mux type for clkout path
-         8ee749ec7fc6f9355f89d170c4f6805be011b2a9 clk: imx8mn: use correct mux type for clkout path
-         fb549644eeb116c6de8c988bf05f136ee969606f clk: imx: clk-divider-gate: Switch to clk_divider.determine_rate
-         d36207b848a6490e14664e2197a1c8ab51d8148e clk: imx8m: fix clock tree update of TF-A managed clocks
-         86842d255b45fc2103da1cd202f5064397ed41f8 clk: imx8mn: Add M7 core clock
-         
+  - ref: refs/tags/usb-5.14-rc7
+    old: d25d812c7e7a8e56dd16c9fd45e33b54eb45e707
+    new: 0000000000000000000000000000000000000000
+
+--===============8325994724154396884==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811244 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1629811243-e5b9bcfb38cb4aac0f2a8a39d33ec9d104f9822a
+
+d25d812c7e7a8e56dd16c9fd45e33b54eb45e707 0000000000000000000000000000000000000000 refs/tags/usb-5.14-rc7
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk8iwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hggP/RAoMEbia6FbK/d3G6Do
+7/kPAqrkxrfDPKKi/xRVF5Dh6pUn+6Xu0/3eLyx/ZslH59d2ClW0msKSB8H15DXv
+LUIwt6iVqk2PkHvuBImgHddBPM0WgM+jLg5Sc5l396gOd8yjAZTyy98mhtnF7Y5F
+vH1KbfAUHV6z7wbGmvubxpFz4Y1r8RXSPr9Q0JsBP/FdDCdc+ZGkZWito56ylXUF
+HyLPtEzaTcicaNVPKbpmAukcGIas1OzPn39JJpq1Vw5YA8eAU0AUJrp5cO+gDatF
+8GpFqFKyj3vMTnO6/0gU1PrqbGEF+wSTR7RqWdpBSA8Y7oVh6BKn1qykNHDIuub7
+KMswzBrydEunF7jq5MQTO62HGQr2TfOD+qlLfZDKa47hrqFz06lpbKpgKsOVOeLT
+ag38Qr0FsOx1iQzz0QO37CcMfbIeu5yupA8uUjPd9VDv9tY6arvvKoOfdN+vMfOT
+4oUDzzz98DjoFfLFfFwCROyz3ZYSIeJEjEpoBNyKP40qblvBjZ2npotsy5vR0v7I
+qqBolCoGwAm9fZNDgd8jBbJGKE/iNgN0nwYH/Q11WXAbbHBy+20cfXRsBRzmmiSH
+Ww5jQcVZQwOhfLB2KYrpESKw5RJ5MB00GmyUoL/BirQFATu11gViqY9hbY1shP8h
+tgonLLG2AsxfX4t+poP021OU
+=3obL
+-----END PGP SIGNATURE-----
+
+--===============8325994724154396884==--
