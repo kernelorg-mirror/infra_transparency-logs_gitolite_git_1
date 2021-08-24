@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4933060921055528456=="
+Content-Type: multipart/mixed; boundary="===============6545521219480955320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 24 Aug 2021 04:02:06 -0000
-Message-Id: <162977772659.15944.2186819717407102282@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 04:02:15 -0000
+Message-Id: <162977773527.16080.4251516848474948865@gitolite.kernel.org>
 
---===============4933060921055528456==
+--===============6545521219480955320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 835d73fa053c8b30856398a59dfca19d263591f1
-    new: a2c56936146fbde74b2a4966054321d52cd92275
-    log: revlist-835d73fa053c-a2c56936146f.txt
+  - ref: refs/heads/5.15/scsi-staging
+    old: 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09
+    new: d09224115cf67bdce4eef2ca3533f86ab1ea1942
+    log: revlist-848ade90ba9c-d09224115cf6.txt
 
---===============4933060921055528456==
+--===============6545521219480955320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1629777720 -0400
+pusher 75C5DE3D 1629777730 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1629777719-3a5bfdf4865a4b8414e62202278d53dd0794dc90
+nonce 1629777729-b23b027d81c9be8028e4fc01f08730fe6f82c65c
 
-835d73fa053c8b30856398a59dfca19d263591f1 a2c56936146fbde74b2a4966054321d52cd92275 refs/tags/mkp-scsi-staging
+848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 d09224115cf67bdce4eef2ca3533f86ab1ea1942 refs/heads/5.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEkbzgACgkQ7ulgGnXF
-3j32OQ//WclqG7UclWghYRpEFmaQZ3wPwVe1JRKJbj2d6n7jllrnlujnuQZCAEFs
-44xUAVD/gzO5CvHjHyQHZWHJKLv7lzo4zn52XoMF/Y12o/W/lYg4VuGO8UB410a5
-H+IyvydhnuyBwOeCC3MzvL9Q3IQBgIj1zZCynfgkpEZ+sCCG4QWhNP5Nuk+PyDNQ
-FBrBNfNyOy2WP3jCkosVSg7xRSwfjJ2QAxvKV3VpJ9h0WCg1M1zrwJLwBAyLLXnJ
-Uhs//6885RfZUsCq1l9/NJLFsmHwmQpXUdOU9O/DGExtys26OuQMkrqbA1Z/zyWv
-+z5bfob0s9a27boqjzdufTFMQ/ELPKTKr/2O6VqlCX1oExn7PvVr050IrJUcYTyn
-75RqlQCK8rh9YQqEp1lzhk8kAUzrKYT7q6KbF9TJ8TgwH8ti3MiJWLGrh6h/yXJf
-Z/nYu2wHLz7LzrcODWJTPWqohG19TLMDtbIHoUqgpARRvEKwenVD+QVx+WKv1Eyt
-KZrWXV5ihw/zX0X5lw3uslMXDsB1g8REWsc/UBYRKyR2Tcdxo11E3GrBYBPvlDEd
-mUCuyt147oKHQe/b/qg6wN+9m8Jl21BvllU+qjBavB4r9ycdrJASY7bOcZX21x1A
-UbqWVs6ehok6/4b2x0wAhe1Mzy+ZEerqX9Prd3vwahMVncFZDE0=
-=qeau
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEkb0IACgkQ7ulgGnXF
+3j2bDQ/+PBSnPxRFHXJkGlEFFIxqKFH8OjAKZH+rwKes0EVWNFaUU2AiflZ+RB6D
+T4DRspSEmzPg63ks/ZPMdhmjzwYs3f41/5ZemBGQgONQAPbeDQFkdVa16BL85XP4
+b+Hpr1TdNFC2dO2pA0G3iywZ8fAnNGM69qvNT+zoCfjQVfgEEJZdAUDVagCJgPEW
+ZtqzzQ8Muo0i4ckm94K4kzoBptlSr75kHUR8HtkCFfpc91KGnE7mP4A9aOYzIR/7
+gSDuES9uL8xNrWUk1Ubq+nfa03W/2PXEAfAVtE0SD45W62VfUC7AkeBTk4EjV1p7
+YTEXD2mu1ggLbXOm5DM7Q7mhmM9LyS/KJt0q3bs6woU5GH37RhmV4HRjzQApSKCF
+YPQdK0b78YTl40btlu5AHOZH+1cWTXyYSb4rTA81MyC55wEpmlx0VEK+bY+hKxO9
+zKoGjr6FoA9PQ1M4QwcZ8Pej8euS6Qwo9ut0kcyhqA8jnl6M8kOsp/99Tt0oTV6M
+NvHOkDO6Wwf99Xk1DUotezjHuFvsVkMeUo39GZuh7/GN3HHhsSE6cjTKB9smGhqs
+ysXw0kJJH5QZyqEUglOJRxUQmjYVYNkpASBZmFWACC9hSXsJYONWV1Fs0AQkVsHB
+PJ7O0bF6oeUo4F0y9xPFysiKaYz1ajfemEQ6J85V0tOtXeQJy1o=
+=PHIJ
 -----END PGP SIGNATURE-----
 
---===============4933060921055528456==
+--===============6545521219480955320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-835d73fa053c-a2c56936146f.txt
+Content-Disposition: attachment; filename=revlist-848ade90ba9c-d09224115cf6.txt
 
 b15ce2f34cf42487982db0a8606095db1c8c8f28 scsi: qla2xxx: edif: Fix stale session
 225479296c4fb2d3449e55b48eca2a9d6aca1e4e scsi: qla2xxx: edif: Reject AUTH ELS on session down
@@ -100,4 +100,4 @@ a595bbce4a3f0a8fefb3c4082af82e38531fc7f1 scsi: lpfc: Add cmf_info sysfs entry
 34634ce951c0fe04a8c62cac85d0c8c4d3d64a0b scsi: lpfc: Update lpfc version to 14.0.0.1
 d09224115cf67bdce4eef2ca3533f86ab1ea1942 scsi: lpfc: Copyright updates for 14.0.0.1 patches
 
---===============4933060921055528456==--
+--===============6545521219480955320==--
