@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8870980156272627005=="
+Content-Type: multipart/mixed; boundary="===============3942180277639605622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 24 Aug 2021 20:06:34 -0000
-Message-Id: <162983559456.6619.16334811451434605240@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 20:07:01 -0000
+Message-Id: <162983562172.6854.17478657055594852296@gitolite.kernel.org>
 
---===============8870980156272627005==
+--===============3942180277639605622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 8cfba26d5806ab0c0653ec3147c10bdf1df83185
-    new: b5b8e7980283843ebe03b6c03b39f3cb9b490d64
-    log: revlist-8cfba26d5806-b5b8e7980283.txt
+  - ref: refs/heads/net-mlx4
+    old: ffc9c3ebb4af870a121da99826e9ccb63dc8b3d7
+    new: 3b0720ba00a7413997ad331838d22c81f252556a
+    log: revlist-ffc9c3ebb4af-3b0720ba00a7.txt
 
---===============8870980156272627005==
+--===============3942180277639605622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cfba26d5806-b5b8e7980283.txt
+Content-Disposition: attachment; filename=revlist-ffc9c3ebb4af-3b0720ba00a7.txt
 
 4b79959510e6612d80f8d86022e0cb44eee6f4a2 igc: fix page fault when thunderbolt is unplugged
 691bd4d7761992914a0e83c27a4ce57d01474cda igc: Use num_tx_queues when iterating over tx_ring queue
@@ -43,6 +43,5 @@ Content-Disposition: attachment; filename=revlist-8cfba26d5806-b5b8e7980283.txt
 b0cd08537db8d2fbb227cdb2e5835209db295a24 qed: Fix the VF msix vectors flow
 446e7f218b7662c912c610aae99069543aa88a40 ipv6: correct comments about fib6_node sernum
 3b0720ba00a7413997ad331838d22c81f252556a net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
-b5b8e7980283843ebe03b6c03b39f3cb9b490d64 net/mlx5: Lag, fix multipath lag activation
 
---===============8870980156272627005==--
+--===============3942180277639605622==--
