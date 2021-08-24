@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 24 Aug 2021 06:09:21 -0000
-Message-Id: <162978536110.1105.12635043344087871270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Date: Tue, 24 Aug 2021 06:45:09 -0000
+Message-Id: <162978750996.24798.12265808136258749693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/colyli/linux-bcache
+user: colyli
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 0284b52e85341e3cd4b70c8b2423fd23b8a003a8
-    new: da6deb655a58a5d15507e1107d156fb45c8929de
-    log: |
-         c185b42efe677970fec272eee4a8f47184f2aa91 thermal: intel: Allow processing of HWP interrupt
-         da6deb655a58a5d15507e1107d156fb45c8929de thermal/drivers/qcom/spmi-adc-tm5: Don't abort probing if a sensor is not used
-         
+  - ref: refs/heads/nvdimm-meta
+    old: 2c84292002faf8ed4e8977dc420f7846684249e1
+    new: 80de5dc2a60df7adc4cdd2ed063dae948a93e089
