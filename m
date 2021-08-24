@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0688400310431660206=="
+Content-Type: multipart/mixed; boundary="===============3501663587094526267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 24 Aug 2021 13:26:00 -0000
-Message-Id: <162981156002.2150.4510274979733696268@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 13:26:40 -0000
+Message-Id: <162981160008.2379.14287092257965674546@gitolite.kernel.org>
 
---===============0688400310431660206==
+--===============3501663587094526267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: d30836a9528906ee9d42b7cd59108f3bb4e16b01
-    new: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
-    log: revlist-d30836a95289-e22ce8eb631b.txt
+  - ref: refs/heads/char-misc-next
+    old: b2159182dd498fdb0f49e371ccc94efbc12d1f8e
+    new: 637d0957516eef3e861ca5889912c3234a9b593f
+    log: revlist-b2159182dd49-637d0957516e.txt
 
---===============0688400310431660206==
+--===============3501663587094526267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811558 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629811587 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1629811554-0c0a9e72bfbce7fe6d47d6df9aaa9ad7ec543280
+nonce 1629811585-b42f7f665aaddae17a267e1fec313b5330f63541
 
-d30836a9528906ee9d42b7cd59108f3bb4e16b01 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 refs/heads/char-misc-linus
+b2159182dd498fdb0f49e371ccc94efbc12d1f8e 637d0957516eef3e861ca5889912c3234a9b593f refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk82cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9vUQAMCIZclX+ceI72bFQNVN
-IOl0M6DHK1ps/rxuPW3/KTo9P7sEEdKtw1CMHq5GZj0jFkqzpEFifcLZEcVqMEAs
-YTobMBtT41c1XVQzBBypwlepnp66ud8U9Uzp6QcNeYlcd4f9XVHCuRkqWyKGWl83
-/mtvoZMJ+cRsGW/bgqZzeZN1a9GFhWSmG+NHAaNIZ7YqUX8yyZiVEnZ7fkhxJSVu
-/5WNCboqYwqC6OVlfNEihmiGVX51Bs7EtEiVwxDHbHH6+V6TLZnngGUu/Zg/hSgo
-WjGwozE0OEXhLyW3mNdeUecOoc8FoLahMEACxQV+NKq4ZlvKd2jDGDfAtYCplhLp
-hvLniqXEjn4oOTVh9Ewr4sY95+eyOVQOUMg6Ph7NK7FsmxXFHN5UYSqRsjudFCWy
-webIYlRolj4zBFHyl9ybkHJwXj5XywvBL3m+kjBLKN5PTKSUV8h5rhewR7vxXFj2
-KkTGuK1cpsbwzTorbnsDuhsJDQ5I5KWY9mXzinI1S+7pqblABTqKU9ylTqg5+1an
-iw7V8MzXNJePW6bAN441sEgjwDAa16OkMOpcTWGPkYnLDhH5KYhknTriu0mEPI0E
-pJMba2zzyzeefAVcSy/pPrLVNLlCM2xX0rYSU4nFyQbndJG3c4zm7KBeo3jXuVh/
-cg2mDblpCbfi1tG7sOZe1Jn3
-=VAbh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk84MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f9oQAKU2EhKRDU3qmz/CGtvI
+6ZutiKl15QDsmnmgaEhQ4UDVDaQHKBTHTJcGDfrljO2Qqjon0eQv45xaAjyI3ziN
+f9J/AFCxPApnSVkPwFN8Blt6zQw4e3mM1BFWeVLRFjND6jEKvp8ARGFYPcUhLie9
+V0mjtyYjYNe6Kj5JgyFyNx0egQexyH+jXCQU8cd2tHD9ThwgtQrOM4v18vTqQjSM
+BBnsooz+/drTSYOjDlWswmu7u70LuWU+IMVuSoK2n1/eO12KsQ8ipXjcPUqggZ0J
+OPPd45IqL/+Sl4kVOl5vLqIdY4fHsrcCqqkWTFOggUG0QaXkGyNh/5pSaawr61xn
+IQj/G8w5tsUhBlRiy9+Af1hoGy2aHgfG1LssVoFKv/+IPAZNfCXHHl1vn8zmVpWL
+owm6K9JK784ytrX48hXseBvqcae/fOhRpWYW4kl2mfz4SVSfrcHXxJ1e0lvEkh2f
+QlcUJ0C/M2/yIng2iO6EuRetfQFqNZ1jYHyuAxfo6dVkOFUF0X1lvGNr6CrE3DM0
+NeYdRq5yIp8YHPXMHxg2BZcUbYcammzT0aVk8Wyv8ZqIZJrj/wuZxotCu/6vuBtL
+aBNNpvjCVJsTzQGbzTwf+KRodu2phNZEN8VGCyzkEwe8wGrZVewdyhp8OHI1dWT4
+Gg6iYsqYySlIoYjfDvQQ7hTa
+=oh6n
 -----END PGP SIGNATURE-----
 
---===============0688400310431660206==
+--===============3501663587094526267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d30836a95289-e22ce8eb631b.txt
+Content-Disposition: attachment; filename=revlist-b2159182dd49-637d0957516e.txt
 
 19d67694745c5c9ed085d0d8332fa02d835a07d0 Documentation: seccomp: Fix typo in user notification
 e9faf53c5a5d01f6f2a09ae28ec63a3bbd6f64fd ieee802154: hwsim: fix GPF in hwsim_set_edge_lqi
@@ -353,6 +353,7 @@ da4d4517ba70216799e3eb3b9bd71aa9dca065da drm/mediatek: Add component_del in OVL 
 bf71bde473c3bcf89aa8cdcbfef42edcd97328c2 Merge tag 'amd-drm-fixes-5.14-2021-08-11' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 fd66ad69ef5a59f303b595ac8ecf454f213cb7e6 Merge tag 'seccomp-v5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 1746f4db513563bb22e0ba0c419d0c90912dfae1 Merge tag 'orphans-v5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f753067494c2726d7a09ffca351d9b2599fee876 Revert "interconnect: qcom: icc-rpmh: Add BCMs to commit list in pre_aggregate"
 48c812e0327744b4965296f65c23fe2405692afc net: mscc: Fix non-GPL export of regmap APIs
 86704993e6a5989e256b4212ca03115cc2694eda Revert "tipc: Return the correct errno code"
 c4b68e513953c3370ce02c3208c1c628c0b86fd3 pinctrl: amd: Fix an issue with shutdown when system set to s0ix
@@ -402,6 +403,12 @@ c5e2bf0b4ae8ea1df6c352028459b1a415fe08dd Merge tag 'kvmarm-fixes-5.14-2' of git:
 0103098fb4f13b447b26ed514bcd3140f6791047 KVM: x86/mmu: Don't step down in the TDP iterator when zapping all SPTEs
 ce25681d59ffc4303321e555a2d71b1946af07da KVM: x86/mmu: Protect marking SPs unsync when using TDP MMU with spinlock
 6e949ddb0a6337817330c897e29ca4177c646f02 Merge branch 'kvm-tdpmmu-fixes' into kvm-master
+9659281ce78de0f15a4aa124da8f7450b1399c09 slimbus: messaging: start transaction ids from 1 instead of zero
+a263c1ff6abe0e66712f40d595bbddc7a35907f8 slimbus: messaging: check for valid transaction id
+c0e38eaa8d5102c138e4f16658ea762417d42a8f slimbus: ngd: set correct device for pm
+d77772538f00b7265deace6e77e555ee18365ad0 slimbus: ngd: reset dma setup during runtime pm
+57a1681095f912239c7fb4d66683ab0425973838 ipack: tpci200: fix many double free issues in tpci200_pci_probe
+50f05bd114a46a74726e432bf81079d3f13a55b7 ipack: tpci200: fix memory leak in the tpci200_register
 7a3dc4f35bf8e1a07e5c3f8ecc8ac923f48493fe driver core: Add missing kernel doc for device::msi_lock
 454bb6775202d94f0f489c4632efecdb62d3c904 blk-mq: clear active_queues before clearing BLK_MQ_F_TAG_QUEUE_SHARED
 8f40d0370795313b6f1b1782035919cfc76b159f tools/io_uring/io_uring-cp: sync with liburing example
@@ -438,6 +445,7 @@ ba31f97d43be41ca99ab72a6131d7c226306865f Merge tag 'for-linus-5.14-rc6-tag' of g
 7ba34c0cba0b4e64ff321c9a74272eaab7b27bca Merge tag 'libnvdimm-fixes-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 0aa78d17099b04fd9d36fe338af48ad6fe2d7fca Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 da94692001ea45ffa1f5e9f17ecdef7aecd90c27 ALSA: hda/realtek: Enable 4-speaker output for Dell XPS 15 9510 laptop
+d30836a9528906ee9d42b7cd59108f3bb4e16b01 Merge tag 'icc-5.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 3e763ec7914f20f55ebd9a5c087fa26e8452257e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 b045b8cc865316062e520693ad6c8bac85aabece Merge tag 'x86_urgent_for_v5.14_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 12aef8acf0991e8a4a5fe892067e2c8fc6760ace Merge tag 'efi_urgent_for_v5.14_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -586,5 +594,6 @@ f4ff9e6b0126706078a5241561546743b7d92628 Merge tag 'usb-5.14-rc7' of git://git.k
 9ff50bf2f2ff5fab01cac26d8eed21a89308e6ef Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 1bdc3d5be7e199ff56f39dafb0e5f63a9b8c975d Merge tag 'powerpc-5.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
+637d0957516eef3e861ca5889912c3234a9b593f Merge 5.14-rc7 into char-misc-next
 
---===============0688400310431660206==--
+--===============3501663587094526267==--
