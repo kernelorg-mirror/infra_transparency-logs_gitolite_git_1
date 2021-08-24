@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5419007299276670131=="
+Content-Type: multipart/mixed; boundary="===============4933060921055528456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 24 Aug 2021 04:01:55 -0000
-Message-Id: <162977771575.15823.12441928314395419523@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 04:02:06 -0000
+Message-Id: <162977772659.15944.2186819717407102282@gitolite.kernel.org>
 
---===============5419007299276670131==
+--===============4933060921055528456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,88 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 92cc94adfce4683d0b421cbf59013703368aaeb9
-    new: 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09
-    log: revlist-92cc94adfce4-848ade90ba9c.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 835d73fa053c8b30856398a59dfca19d263591f1
+    new: a2c56936146fbde74b2a4966054321d52cd92275
+    log: revlist-835d73fa053c-a2c56936146f.txt
 
---===============5419007299276670131==
+--===============4933060921055528456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1629777710 -0400
+pusher 75C5DE3D 1629777720 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1629777710-62543bf56e4ca95524610f05b13e0ca848fdd73b
+nonce 1629777719-3a5bfdf4865a4b8414e62202278d53dd0794dc90
 
-92cc94adfce4683d0b421cbf59013703368aaeb9 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 refs/heads/queue
+835d73fa053c8b30856398a59dfca19d263591f1 a2c56936146fbde74b2a4966054321d52cd92275 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEkby4ACgkQ7ulgGnXF
-3j3UShAAiSFzguxmySLYEk2yhVR//z8I15D8Mp3ntrBOzMKjCAZ8WgDC5Jq7ecDT
-Yo/zTsjUjdZbHdNCoNswBOFO7CT7DPlyWUu+GjgHeVBmsIz76GG8n/vYTaaXwn8z
-JkE99ljxdb8LJcrfYs2DOC1Y67S/qpzJj/rLEXrGhfaQM9Mfw8ZbqICv6QoBxftz
-dr6mN2ED0d9Z/oWT7RSBfM+/TI8ZvzryZlQaTPV7YJ1f7YEbqt/F0d6iMy3w7GqY
-PWaXXl0CmmwNHvRkwPSHdqtl8LRJAB/uH2ytWmAme1sjjtVVztmWhuafpsAeZHhz
-w/APl5EIKC2l4DuxYae3dKJQfgtfzqxwVovNcHEDArwsc5Fitff8gYCbIGcc81EP
-eskKmDHOB5q5Lbi3C4LmwYt+GaP49kid4DL/dccU+5oBm28H+ikd+d+W5frWZjEh
-OP1OEvfecYn/PiYLv001WEQAOpGlVR5mjTBMaE5frASDQQ0L7sP5FptXQwciDPJx
-dTmqHHH/F6aVDrnWYTxri9pJZPzipmKdZ20EXrzNgLd9hZ0RQztntFDx4z392OAI
-GDglO9Qp+7mbmp7++hgsWDvN6bw0KlDRd/DdEBwo3EXKTPqRf45d0Pwx7QDbm8wl
-ysePEVMBI0NHXM/Kj0jC46GzY2r4T1ZuY54hU5h2diHMv5Ob2dA=
-=LCI/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEkbzgACgkQ7ulgGnXF
+3j32OQ//WclqG7UclWghYRpEFmaQZ3wPwVe1JRKJbj2d6n7jllrnlujnuQZCAEFs
+44xUAVD/gzO5CvHjHyQHZWHJKLv7lzo4zn52XoMF/Y12o/W/lYg4VuGO8UB410a5
+H+IyvydhnuyBwOeCC3MzvL9Q3IQBgIj1zZCynfgkpEZ+sCCG4QWhNP5Nuk+PyDNQ
+FBrBNfNyOy2WP3jCkosVSg7xRSwfjJ2QAxvKV3VpJ9h0WCg1M1zrwJLwBAyLLXnJ
+Uhs//6885RfZUsCq1l9/NJLFsmHwmQpXUdOU9O/DGExtys26OuQMkrqbA1Z/zyWv
++z5bfob0s9a27boqjzdufTFMQ/ELPKTKr/2O6VqlCX1oExn7PvVr050IrJUcYTyn
+75RqlQCK8rh9YQqEp1lzhk8kAUzrKYT7q6KbF9TJ8TgwH8ti3MiJWLGrh6h/yXJf
+Z/nYu2wHLz7LzrcODWJTPWqohG19TLMDtbIHoUqgpARRvEKwenVD+QVx+WKv1Eyt
+KZrWXV5ihw/zX0X5lw3uslMXDsB1g8REWsc/UBYRKyR2Tcdxo11E3GrBYBPvlDEd
+mUCuyt147oKHQe/b/qg6wN+9m8Jl21BvllU+qjBavB4r9ycdrJASY7bOcZX21x1A
+UbqWVs6ehok6/4b2x0wAhe1Mzy+ZEerqX9Prd3vwahMVncFZDE0=
+=qeau
 -----END PGP SIGNATURE-----
 
---===============5419007299276670131==
+--===============4933060921055528456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92cc94adfce4-848ade90ba9c.txt
+Content-Disposition: attachment; filename=revlist-835d73fa053c-a2c56936146f.txt
 
-d1f6581a6796c4e9fd8a4a24e8b77463d18f0df1 scsi: smartpqi: Fix an error code in pqi_get_raid_map()
-4dbe57d46d54a847875fa33e7d05877bb341585e scsi: qedi: Fix error codes in qedi_alloc_global_queues()
-ccc89737aa6b9f248cf1623014038beb6c2b7f56 scsi: qedf: Fix error codes in qedf_alloc_global_queues()
-e2a1dc571e1944469bab2ffc16f31f0c50e38065 scsi: wd719: Stop using scsi_cmnd.tag
-e0aebd25fdd93ebfb53b11e3c3e142619ca9fe1e scsi: fnic: Stop setting scsi_cmnd.tag
-6a036ce0e25c737d5258d42abeee3a31d21801fb scsi: ibmvfc: Stop using scsi_cmnd.tag
-4c7b6ea336c1e415fc002c756449835de768914c scsi: core: Remove scsi_cmnd.tag
-0f99792c01d1d6d35b86e850e9ccadd98d6f3e0c scsi: target: pscsi: Fix possible null-pointer dereference in pscsi_complete_cmd()
-5f492a7aa13b4ebf8ca85e818585394053065240 scsi: smartpqi: Replace one-element array with flexible-array member
-44678553ad7eb59be3092d6677d8d4a00289afda scsi: target: Allows backend drivers to fail with specific sense codes
-0394b5048efd73b04276979d014a67f30c0ad699 scsi: target: Fix sense key for invalid EXTENDED COPY request
-7a3795f28795e5bdc71498728bdfe4f921ce6c27 scsi: ibmvfc: Do not wait for initial device scan
-848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 scsi: sd: Do not exit sd_spinup_disk() quietly
+b15ce2f34cf42487982db0a8606095db1c8c8f28 scsi: qla2xxx: edif: Fix stale session
+225479296c4fb2d3449e55b48eca2a9d6aca1e4e scsi: qla2xxx: edif: Reject AUTH ELS on session down
+d07b75ba96497e9bfb9f0e673800a9d764ac212a scsi: qla2xxx: edif: Fix EDIF enable flag
+310e69edfbd57995868a428eeddea09a7b5d2749 scsi: qla2xxx: Fix hang during NVMe session tear down
+4de067e5df12c4db4d3d930ba58354d23674f67c scsi: qla2xxx: edif: Add N2N support for EDIF
+1dc64a360bda55d632202e3fef266cef7d4f6f00 scsi: qla2xxx: edif: Do secure PLOGI when auth app is present
+f6e327fc09e48271c103efb3b69fc4ccda3f408b scsi: qla2xxx: Fix NVMe | FCP personality change
+2cabf10dbbe380e2ef27a69ce2059bcab7c8b419 scsi: qla2xxx: Fix hang on NVMe command timeouts
+f88444570072a6863f3e2bd67878560a51b187f2 scsi: qla2xxx: Fix NVMe retry
+7a8ff7d9854a1727435557184c8255bbbca60920 scsi: qla2xxx: Fix NVMe session down detection
+17f3df8fd718fb229ae3453ae59b3f2349464d06 scsi: qla2xxx: edif: Fix returnvar.cocci warnings
+34f69ec703559f0a43ec3307795c28514861b511 scsi: qla2xxx: Update version to 10.02.06.200-k
+c74ce061f8983bcb048b895bc127447909321fe8 scsi: qla2xxx: Do not call fc_block_scsi_eh() during bus reset
+e56b2234ab64f92486ea246f1322ff236e87e229 scsi: qla2xxx: Open-code qla2xxx_eh_target_reset()
+cbe1f0d70072cbdb28c8687f3fca79d07e8d1860 scsi: qla2xxx: Open-code qla2xxx_eh_device_reset()
+c563c126e293d58b5f730813160c1c2acf156145 scsi: qla1280: Stop using scsi_cmnd.tag
+98079418c53fff5f9e2d4087f08eaff2a9ce7714 scsi: core: Fix missing FORCE for scsi_devinfo_tbl.c build rule
+2b7661aa3f280ffcd11f33ce6a56b7ae402e3743 scsi: ufs: ufs-exynos: Fix static checker warning
+55c2ebf06f1a320f265051377fa37619d96da6dc scsi: ncr53c8xx: Remove 'sync_reset' argument from ncr_reset_bus()
+fb52d95210fc407e6061a85c07a3b139018c39ea scsi: ncr53c8xx: Complete all commands during bus reset
+d1cb90b96dbf0698fd8955794636158cbfb1032d scsi: ncr53c8xx: Remove unused code
+63dd4a287509e570dc89f2e6e30d65b75a525a67 scsi: snic: Fix spelling mistake 'progres' -> 'progress'
+ea8be66869d620d33f11e6d1ae5aa6c94a91964d scsi: ufs: ufshpb: Fix possible memory leak
+07dc897da09e78e11a17b0149f59f1ea59767d13 scsi: core: scsi_ioctl: Fix error code propagation in SG_IO
+0807c540a77d613e6e15a0ba6ea0ac1c8336e53c scsi: mpi3mr: Set up IRQs in resume path
+3fecc770f1489aa267769ddc47b485cd57903e0e scsi: ufs: ufshpb: Fix typo in comments
+c6b2e1373c89c4ecf2b379720b3eb24cf99844f4 scsi: ufs: Fix ufshcd_request_sense_async() for Samsung KLUFG8RHDA-B2D1
+4e41358fbc0b0de146bea2f8af1b7bac17bb74f8 scsi: fc: Add EDC ELS definition
+bdbd28e8611001fd7c99b87ac1bb7804bc8f125c scsi: lpfc: Add SET_HOST_DATA mbox cmd to pass date/time info to firmware
+7e4e65db29b9c73ac9c202692f25c4786ad2275e scsi: lpfc: Add MIB feature enablement support
+e3a126909327ea1f7e3b934e8728e6f33c0cab94 scsi: lpfc: Expand FPIN and RDF receive logging
+85a964c39cadef8f0798cb49292fac6062e664b4 scsi: lpfc: Add EDC ELS support
+56cea08abaeb6ed51bab1f8942fb7d8d82f5e0a3 scsi: lpfc: Add cm statistics buffer support
+68b865b0d66644cb26df3ef2e51786ee434f79f3 scsi: lpfc: Add support for cm enablement buffer
+655a2012bc8d65d4cec384b3aac5f6110083570d scsi: lpfc: Add cmfsync WQE support
+16639b67973e69be96f142a74c976700d4e3e3fd scsi: lpfc: Add support for the CM framework
+a23da388fd75106cd680f9eac17baeeefd9a80e2 scsi: lpfc: Add rx monitoring statistics
+e319619700583d7720f74e7dbdd51bfc4b0ce9d2 scsi: lpfc: Add support for maintaining the cm statistics buffer
+705a2ac10f75e04e33e7581fe8a28be5606b1848 scsi: lpfc: Add debugfs support for cm framework buffers
+a595bbce4a3f0a8fefb3c4082af82e38531fc7f1 scsi: lpfc: Add cmf_info sysfs entry
+29a6e3f096848d9b4b240521cf9f6a001eb143ce scsi: lpfc: Add bsg support for retrieving adapter cmf data
+34634ce951c0fe04a8c62cac85d0c8c4d3d64a0b scsi: lpfc: Update lpfc version to 14.0.0.1
+d09224115cf67bdce4eef2ca3533f86ab1ea1942 scsi: lpfc: Copyright updates for 14.0.0.1 patches
 
---===============5419007299276670131==--
+--===============4933060921055528456==--
