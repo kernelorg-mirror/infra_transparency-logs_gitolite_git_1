@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8621377676903711349=="
+Content-Type: multipart/mixed; boundary="===============2128728977536628943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 24 Aug 2021 08:37:14 -0000
-Message-Id: <162979423468.1030.11976770289216101257@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 08:37:21 -0000
+Message-Id: <162979424192.1176.13562433373567798050@gitolite.kernel.org>
 
---===============8621377676903711349==
+--===============2128728977536628943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/sched/headers
     old: ec5f5b1f8a506e6b5b6886139350ff13b10bc7fe
     new: 1a84443a5e960acb578074147c415c5acf5b4399
     log: revlist-ec5f5b1f8a50-1a84443a5e96.txt
 
---===============8621377676903711349==
+--===============2128728977536628943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ beec95eb9a7dd4485bbec0270fc9cfd7b3eddc43 headers/deps: x86/paravirt: Optimize <l
 828c9be5c5d0234dd89df70cd33f62d8bb3b559a headers/deps: arm64/paravirt: Remove __init annotation from <asm/paravirt.h>
 1a84443a5e960acb578074147c415c5acf5b4399 ==================================================================
 
---===============8621377676903711349==--
+--===============2128728977536628943==--
