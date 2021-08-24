@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1668851479342071006=="
+Content-Type: multipart/mixed; boundary="===============7229951099692469010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 24 Aug 2021 19:11:46 -0000
-Message-Id: <162983230663.3879.16576726979254061755@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 19:12:43 -0000
+Message-Id: <162983236344.4228.9528115650859476632@gitolite.kernel.org>
 
---===============1668851479342071006==
+--===============7229951099692469010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
-    old: c23f765a909be1f55963d4cb4eb9a8f03173d3d0
+  - ref: refs/heads/next
+    old: ceeb0da0a0322bcba4c50ab3cf97fe9a7aa8a2e4
     new: 036a16a39e2fab9bf7279201d04cf7e90993521f
-    log: revlist-c23f765a909b-036a16a39e2f.txt
+    log: revlist-ceeb0da0a032-036a16a39e2f.txt
 
---===============1668851479342071006==
+--===============7229951099692469010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c23f765a909b-036a16a39e2f.txt
+Content-Disposition: attachment; filename=revlist-ceeb0da0a032-036a16a39e2f.txt
 
 b4366a827f6cf6e58c93e076e335d9ee9ee0480f libnvdimm/labels: Introduce getters for namespace label fields
 9761b02d40de4b7f9f4947f801b69993817883ee libnvdimm/labels: Add isetcookie validation helper
@@ -56,4 +56,4 @@ cf745ca94024300c9148192f4a2089e6957fc665 tools/testing/cxl: Introduce a mock mem
 b7ca54b625514464bac2db59b754e95c49b66fb5 cxl/core: Split decoder setup into alloc + add
 036a16a39e2fab9bf7279201d04cf7e90993521f cxl/pci: Fix debug message in cxl_probe_regs()
 
---===============1668851479342071006==--
+--===============7229951099692469010==--
