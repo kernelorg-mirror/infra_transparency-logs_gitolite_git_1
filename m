@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8138179106750173093=="
+Content-Type: multipart/mixed; boundary="===============1710781546315578079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 24 Aug 2021 20:07:06 -0000
-Message-Id: <162983562698.6935.4746841949150981894@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 20:09:41 -0000
+Message-Id: <162983578114.8104.9924303387262570108@gitolite.kernel.org>
 
---===============8138179106750173093==
+--===============1710781546315578079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
-    old: 0ba218e2530aa4e8dd6d325a9e9d734276513301
-    new: 3a62c333497b164868fdcd241842a1dd4e331825
-    log: revlist-0ba218e2530a-3a62c333497b.txt
+  - ref: refs/heads/mlx5-queue
+    old: a6b40e2618a3d3830ab6bac14c9b4c10c2b76c6c
+    new: 1084e2e440a9a5b6520f93b71a2568985fbe0c61
+    log: revlist-a6b40e2618a3-1084e2e440a9.txt
 
---===============8138179106750173093==
+--===============1710781546315578079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ba218e2530a-3a62c333497b.txt
+Content-Disposition: attachment; filename=revlist-a6b40e2618a3-1084e2e440a9.txt
 
 923a134647a0cf7695f667c9399cab0762555a13 ath: switch from 'pci_' to 'dma_' API
 0791ba2bc7d33f544528410d9d77aa1b5018adab ath11k: Remove some duplicate code
@@ -171,5 +171,60 @@ f3ccfda1931977b80267ba54070a1aeafa18f6ca ethtool: extend coalesce setting uAPI w
 9f0c6f4b7475dd97e1f0eed81dd6ff173cf8c7fc net: hns3: add support for EQE/CQE mode configuration
 cce1689eb58d2fe3219da2ecd27cef8e644c4cc6 net: hns3: add ethtool support for CQE/EQE mode configuration
 3a62c333497b164868fdcd241842a1dd4e331825 Merge branch 'ethtool-extend-coalesce-uapi'
+57ad2ca3f44c240faaa73b5533a87061b443d039 net/mlx5e: loopback test is not supported in switchdev mode
+84381428d36f9c45b0e37c6a5c3e09b9224ed4c2 net/mlx5e: Improve MQPRIO resiliency
+69d71d47d87f32558701d49f2e7d86652a091c5f net/mlx5e: Allow specifying SQ stats struct for mlx5e_open_txqsq()
+0b9a73999dc02b522b268a3c23566bcfb6388dd0 net/mlx5e: Add TX max rate support for MQPRIO channel mode
+b8b19bbc7c306fad0e0f1fbedb11167c601805eb net/mlx5: Support partial TTC rules
+29d825a1e8a03e0e759dc958485ca24beb951b97 net/mlx5: Introduce port selection namespace
+d98a9d665b1e6acfe5572a2f807be1d36c01e65e net/mlx5: Add support to create match definer
+4109f9ddc752cd0f64ce708f714a0ab5d426e565 net/mlx5: Introduce new uplink destination type
+096f539f938f4be0ad6b0582973d55cd23c90004 net/mlx5: Lag, move lag files into directory
+10af9f100cbdf3a81c92765e3ab9de43ddb838ca net/mlx5: Lag, set LAG traffic type mapping
+f4dee3ca0abd8f0f3c17983b9cb770ac11f3e3a9 net/mlx5: Lag, set match mask according to the traffic type bitmap
+4133ef4da3b6456ffc1d5d1628bc7ab5b5a48ef1 net/mlx5: Lag, add support to create definers for LAG
+d6a7ffbb18ccdd7b4c76076be8b3aa68be517562 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+ddfbb4d9b539134e410436061ad507bcacc19ee8 net/mlx5: Lag, add support to create/destroy/modify port selection
+45e2e66a9bdfbe6ae583378a92b4a39e109e3277 net/mlx5: Lag, use steering to select the affinity port in LAG
+6c957c6cf5801e2c5d96bfad2015c839d21b058c net/mlx5: Add support in bth_opcode as a match criteria
+ae3c3723789c1d47580ca5a1ed1d47cfbcf325ed net/mlx5: FWTrace, cancel work on alloc pd error flow
+84613528bccb385c642fb1277ee0a9f427d7a5ff net/mlx5: Add priorities for counters in RDMA namespaces
+367d160cec0fef576182971750e20e4410b2d767 RDMA/counters: Support to allocate per-port optional counter statistics
+cc42bb7780a2b218ba27dc69a35baa386ce9c2dc RDMA/mlx5: Add alloc_op_port_stats() support
+3ed55e7da50732c5052020302149e634a3e14361 RDMA/mlx5: Add steering support in optional flow counters
+dea010229ae2a34ed5c9b691cb8b255550909708 RDMA/nldev: Add support to add and remove optional counters
+5c4f3f27eb14cb141fe826eb4efdfee53a53626b RDMA/mlx5: Add add_op_stat() and remove_op_stat() support
+5c7e16e686280624688da232a64588895a479e97 RDMA/nldev: Add support to get optional counters statistics
+be166d99d90fc131dd1eef67aec4121f7c5ee5cf RDMA/mlx5: Add get_op_stats() support
+f7ecd4841d0660177d62d6d9272965e595353ba1 RDMA/nldev: Add support to get current enabled optional counters
+51e0daa5a1e71a64dfb388bedaa47a0bceaa39a7 Merge branch 'ethtool-extend-coalesce-uapi'
+47dd5959f8addbf1faff288f420427dc7729ef2b net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+23a4ea147182674493cbe550b71f4162cd04ac76 net/mlx5: DR, Split modify VLAN state to separate pop/push states
+952c14f3db2b914bd4ed3d571cd05fc29d7e1116 net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+980afeb12dd10b4b774c806cc489bb7030459717 net/mlx5: DR, Enable QP retransmission
+c22466f378acc2a34a2bcf9edd222f6a919e8274 net/mlx5: DR, Improve error flow in actions_build_ste_arr
+c39ba00bc18e7b5408e8dc502809708431abb13b net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+fff54d69d1d4ee29c754956afff026d96b31a671 net/mlx5: DR, Reduce print level for FT chaining level check
+fdbd8cf9b9184f28be4617e2bb9a3999cb4ccd6a net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+4d1f05c3049b2306708665841519650c2288d609 net/mlx5: DR, replace uintN_t with kernel-style types
+fbb49affefa5e8991dc5fca372773162b6768269 net/mlx5: DR, Use FW API when updating FW-owned flow table
+75be11bd57f7fec1493fb0a0452fce2369a0e858 net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+9ed1f995f1398b1f1b07e829ced22a61956c2a3a net/mlx5: DR, Skip source port matching on FDB RX domain
+3bb45c53aa66cd3276e3705c71e205d231c289a7 net/mlx5: DR, Merge DR_STE_SIZE enums
+b403df3948836882151d72fcc8b5c2122626183c net/mlx5: DR, Remove HW specific STE type from nic domain
+52f0bb773609bc1cf91cc0799e181ccb78452c21 net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+c2bca284cd939af02ef823a91167eec6eba27e16 net/mlx5: DR, Improve rule tracking memory consumption
+aa23636c60b8c91081dab2f0d255c041ba3414be net/mlx5: DR, Add support for update FTE
+ed71119d07403e2f1b44be297851031b757d6339 net/mlx5: DR, Fix code indentation in dr_ste_v1
+a44b53a0bfece3181440f431c62107d7735c5693 Merge branch 'ethtool-extend-coalesce-uapi'
+74f43dd715cdf16c221f1ee17fcbcd66968e0be0 Merge branch 'patchq/423917' into mlx5-queue
+2de05c5763ccc82fa697e720c1d4d314c1208f3d Merge branch 'patchq/420624' into mlx5-queue
+b8b310b4083c227d5110f234be6588dbc228ffc6 net/mlx5: Lag, fix multipath lag activation
+172ce444ddf243599178509346f55734d4d7ca3a Merge branch 'patchq/424137' into mlx5-queue
+ecfe58479d8b5878475e2b8cd917c17406f787ba Merge branch 'patchq/423189' into mlx5-queue
+a26c89ee9dde3021a34cee5e4320ac0ef68fbb92 Merge branch 'patchq/413311' into mlx5-queue
+c939b25ff8e2a3b9581d278addbc8ef3d706a765 Merge branch 'patchq/419320' into mlx5-queue
+3a97235dbbb323fc37af6a675edee2e0d5256c72 Merge branch 'patchq/412107' into mlx5-queue
+1084e2e440a9a5b6520f93b71a2568985fbe0c61 Merge branch 'patchq/411074' into mlx5-queue
 
---===============8138179106750173093==--
+--===============1710781546315578079==--
