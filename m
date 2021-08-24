@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5700745431509254920=="
+Content-Type: multipart/mixed; boundary="===============8475153324480849580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Tue, 24 Aug 2021 13:41:02 -0000
-Message-Id: <162981246251.11695.10536922335103458277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 24 Aug 2021 13:42:09 -0000
+Message-Id: <162981252997.12099.572504710807241544@gitolite.kernel.org>
 
---===============5700745431509254920==
+--===============8475153324480849580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-user: mark
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/cleanup
-    old: 1e682b26fe2fa5112c62333d81e498828d66997b
-    new: 31e0f612c56e945d38003b59922abfb7a3419ce8
-    log: revlist-1e682b26fe2f-31e0f612c56e.txt
+  - ref: refs/heads/usb-testing
+    old: bfa109d761a46d5116f3d4f216152653d8b4815b
+    new: d7428bc26fc767942c38d74b80299bcd4f01e7cb
+    log: |
+         d7428bc26fc767942c38d74b80299bcd4f01e7cb usb: gadget: f_hid: optional SETUP/SET_REPORT mode
+         
 
---===============5700745431509254920==
+--===============8475153324480849580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e682b26fe2f-31e0f612c56e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1bd4bc8f5079327ef81d5bb64ba6677395505555 Remove unused Set/Way cache helpers
-dc0cab04cb8042910f6761b9c594e7168d462bf2 aarch32: simplify _switch_monitor
-3bfbf8908ea9f5ca0cf0fb99cdb3cdf9c7268058 GICv3: initialize without RMW
-98f177fd95a0331b5252f05ded4db70d99d4fddb Rename kernel *_RESET values to *_KERNEL
-f51a094d68653342001ae70e13fe25e04acffa76 Rename `CNTFRQ` -> `COUNTER_FREQ`
-781f7acf3efd8b9b0e1d00d6697e0afc5c61202f aarch32: document entry requirements
-02ce90e169007b54e12baa8e263aa04a48813f95 Add bit-field macros
-ba165151c90cddbbdbbb2c7e991fd03f97e40860 aarch64: add system register accessors
-84dd4678dc7e8d4b52e33386e8c1c161a6234abf aarch32: add coprocessor accessors
-a2bcf7d12ca7aacc7819e7cb8112f028dbc76fad aarch64: add mov_64 macro
-0a629d47dcd60caeaad28fbefb33d3e00f40a2e0 aarch64: initialize SCTLR_ELx for the boot-wrapper
-f682606137d8d17eeb894f7b397cb5540bcd7cd6 Rework common init C code
-806c81849bf0a270cbded676534a07dd6f14ff10 Announce boot-wrapper mode / exception level
-7df222304f49e31352bd2a00e03c04fde9a60485 aarch64: move the bulk of EL3 initialization to C
-9346eb61fe1febb6996ee8285409885c0d6301e5 aarch64: move the bulk of Secure PL1 initialization to C
-18197530fde52b9df1ecb2350f43c89252345342 Announce locations of memory objects
-31e0f612c56e945d38003b59922abfb7a3419ce8 Rework bootmethod initialization
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629812517 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1629812511-6ccf827ee6ffff0e391d17d20a1bfe8be69422bb
 
---===============5700745431509254920==--
+bfa109d761a46d5116f3d4f216152653d8b4815b d7428bc26fc767942c38d74b80299bcd4f01e7cb refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEk9yUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S8wQAJxtYZSM3/zowKOdOik0
+gWMPy1K9I0Pomq0L6tCfXxGi3BPnSW/HeHg12rcptZfS2d08DkE63I4X0ocKSquM
+HHAQNmEupJg5XlMNlMI8YuZWIxa46eRm/6it1RecLCd/wFBEO1HZcQUik7PD5fYa
+xHMGLM59ClS9hPe4sNHNT1IpGGFZOI65DhdE9SIACMttvHHxZoWiHtsA8ZkCY1KN
+r8UiajW00BbWJmpaWQCsRzPOkF7OXw19aC0u76pyCj8amhaZvaOEE8S8gGzCGOXT
+UbWaX+QFjzQW4CwOugfA3hbcM7hdFQQ4D+DwEutTDKxc3VD63iGG9R2CU8LECIJ9
+QKsxW6wGDSMGd9+nLkrBaLRpvtKtkyH0IaMQTtCC1D+w7wgodm9kkcu80x8Vd34c
+yUUJRuS/J4grq/t3OibK9/1+aOOL35fbjyDclWJZe+SLInfry/DnTY3jvhXRy7YM
+o70BsolaA6ob3DcTSY7cLFxAobFxvDeGsvwFRfhTkU+vRiO7zR3g5Ck90O+2VjbB
+m7G2pJGsvbmnEeaE0zbHTZotLK5gc1DwgDYw40A37YtGmczimgJ9bTD9M+SixTD6
+gOd7f7vTrfPTWObirum582+HcmgfI/gYigZmIPJn3PV9h6ugP3xkh3dBPUrMybMf
+y8bowIPuvsdfhAsSKmbWhAjb
+=c4Dh
+-----END PGP SIGNATURE-----
+
+--===============8475153324480849580==--
