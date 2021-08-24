@@ -1,42 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============0873977349286789061=="
+Content-Type: multipart/mixed; boundary="===============2004692743952121769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 24 Aug 2021 18:47:32 -0000
-Message-Id: <162983085214.20113.17044484464380948839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 24 Aug 2021 18:58:22 -0000
+Message-Id: <162983150227.27592.8357106171405295427@gitolite.kernel.org>
 
---===============0873977349286789061==
+--===============2004692743952121769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/pci/vpd
-    old: 466a79f417be2f2b0d875a9766a3cff10c3bedf1
-    new: 890317950fcaafbc16372d1b9855bcadf0fc5843
-    log: revlist-466a79f417be-890317950fca.txt
+  - ref: refs/heads/for-next
+    old: 1ee7943c33431e93faa49bf8fe38f1ad70c48705
+    new: 60181ee0b3098118794a5b12cf241f52cea500a5
+    log: revlist-1ee7943c3343-60181ee0b309.txt
 
---===============0873977349286789061==
+--===============2004692743952121769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-466a79f417be-890317950fca.txt
+Content-Disposition: attachment; filename=revlist-1ee7943c3343-60181ee0b309.txt
 
-667bb0e8f7106c6ca3b30254a7fdcd1ea04d3580 sfc: falcon: Read VPD with pci_vpd_alloc()
-2d57dd6673a87ea23d8660257162d6280fe7b2e6 sfc: falcon: Search VPD with pci_vpd_find_ro_info_keyword()
-1a41fdb805705251fc61715167cadc0829de587a bnx2: Search VPD with pci_vpd_find_ro_info_keyword()
-35e7f1be7972be8da9d0a37bd89bcc4b990c6e67 bnx2: Replace open-coded byte swapping with swab32s()
-df87589475e73b9e34369a075b6b5375f0daa7d6 bnx2x: Read VPD with pci_vpd_alloc()
-3831cba07a4bf96bc75fb963451a49d7f676c7d6 bnx2x: Search VPD with pci_vpd_find_ro_info_keyword()
-550cd7c1b45b568ccac28fd46663799f1ff8a62d bnxt: Read VPD with pci_vpd_alloc()
-0ff25f6a17c76d50e5d4bdd29bb69ad173a3cde1 bnxt: Search VPD with pci_vpd_find_ro_info_keyword()
-52f0a1e007703a99d77cc43fcb8661158d86c861 cxgb4: Validate VPD checksum with pci_vpd_check_csum()
-f9f3caa8dcd73a145861b69cc1f4bcd1b6fb0f81 cxgb4: Remove unused vpd_param member ec
-fc9279298e3a903dce511caa5fe9eda298a7949e cxgb4: Search VPD with pci_vpd_find_ro_info_keyword()
-890317950fcaafbc16372d1b9855bcadf0fc5843 scsi: cxlflash: Search VPD with pci_vpd_find_ro_info_keyword()
+8c85bdafdd307fb4b5a3f6f2de9720684239a37d dt-bindings: devfreq: event: convert Samsung Exynos NoCP to dtschema
+59db6e6434f24d60564132ea39c841f1a7147382 dt-bindings: devfreq: event: convert Samsung Exynos PPMU to dtschema
+ac8de5acdbb551bc192900a45c4e53304afa69ae dt-bindings: memory: convert Samsung Exynos DMC to dtschema
+dcbaaf11663c304889364603f8184dbf2810801f crash_dump: Make elfcorehdr address/size symbols always visible
+5b71dd99d7f413eb4b3e1f15b3c7dfd618f13e8e of: fdt: Add generic support for handling elf core headers property
+07be8802fe7257112f78309f8bd505e59b7ff953 of: fdt: Add generic support for handling usable memory range property
+9cf3f442eb5c08b7eb7866eb450336eb051f12ab of: fdt: Use IS_ENABLED(CONFIG_BLK_DEV_INITRD) instead of #ifdef
+2f192a4f1e5a76a0b5ce56ced814b9e074457b3a riscv: Remove non-standard linux,elfcorehdr handling
+fdcfb67a3fc8bf6dfaf3f72192dfb6d87fd4c2a5 arm64: kdump: Remove custom linux,elfcorehdr handling
+60181ee0b3098118794a5b12cf241f52cea500a5 arm64: kdump: Remove custom linux,usable-memory-range handling
 
---===============0873977349286789061==--
+--===============2004692743952121769==--
