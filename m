@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 24 Aug 2021 07:11:57 -0000
-Message-Id: <162978911703.9388.322507262781641147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Aug 2021 07:17:41 -0000
+Message-Id: <162978946144.12672.2705893660013488106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 07c2fc64e0f90f7f500fe6ca55e5b3d7ec24ebf3
-    new: 028068a13c533046fd4e37f06fb6efe50c759892
+  - ref: refs/heads/irq/core
+    old: 04c2721d3530f0723b4c922a8fa9f26b202a20de
+    new: 00ed1401a0058e8cca4cc1b6ba14b893e5df746e
     log: |
-         942914c2f2438d137bcb9b9cb8343de62dc482df cpufreq: qcom-cpufreq-hw: Add dcvs interrupt support
-         4062231b25acbd7f35a91d0c7996c410d3e08633 cpufreq: blocklist more Qualcomm platforms in cpufreq-dt-platdev
-         028068a13c533046fd4e37f06fb6efe50c759892 cpufreq: qcom-hw: Set dvfs_possible_from_any_cpu cpufreq driver flag
+         88ffe2d0a55a165e55cedad1693f239d47e3e17e genirq/cpuhotplug: Demote debug printk to KERN_DEBUG
+         2f170814bdd26289e9daaa4ae359290f854e5dcf genirq/msi: Move MSI sysfs handling from PCI to MSI core
+         00ed1401a0058e8cca4cc1b6ba14b893e5df746e platform-msi: Add ABI to show msi_irqs of platform devices
          
