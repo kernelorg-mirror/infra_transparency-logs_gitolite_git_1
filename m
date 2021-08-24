@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2132600180681256524=="
+Content-Type: multipart/mixed; boundary="===============2673073397405704621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 24 Aug 2021 21:53:44 -0000
-Message-Id: <162984202498.11374.2794746469065890987@gitolite.kernel.org>
+Date: Tue, 24 Aug 2021 21:53:52 -0000
+Message-Id: <162984203225.11476.5988004097699442875@gitolite.kernel.org>
 
---===============2132600180681256524==
+--===============2673073397405704621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d7af7e497f0308bc97809cc48b58e8e0f13887e1
     new: 3bbc8ee7c363a83aa192d796ad37b6bf462a2947
     log: revlist-d7af7e497f03-3bbc8ee7c363.txt
 
---===============2132600180681256524==
+--===============2673073397405704621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ a29b3ca17ee69e3e5182f1ed29be6b6ec306c149 samples: bpf: Convert xdp_redirect_map_
 594a116b2aa1985dbb5318c2be39b64b74ebff84 samples: bpf: Convert xdp_redirect_map_multi to XDP samples helper
 3bbc8ee7c363a83aa192d796ad37b6bf462a2947 Merge branch 'Improve XDP samples usability and output'
 
---===============2132600180681256524==--
+--===============2673073397405704621==--
