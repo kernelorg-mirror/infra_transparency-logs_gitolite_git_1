@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4735245599576908882=="
+Content-Type: multipart/mixed; boundary="===============2098972286111665149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 24 Aug 2021 20:12:16 -0000
-Message-Id: <162983593621.10620.18176789015576708044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 24 Aug 2021 20:12:24 -0000
+Message-Id: <162983594482.10717.14536506785513397012@gitolite.kernel.org>
 
---===============4735245599576908882==
+--===============2098972286111665149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: a86aa03cb9bf467601b347f46ccce9dc3a733ed0
-    new: d7072afc761be8c78b67eceac0c779e4c89f298f
-    log: revlist-a86aa03cb9bf-d7072afc761b.txt
+  - ref: refs/heads/queue-next
+    old: e38b5ed482f1512b2e30c4e3eb17364d787eb137
+    new: 1d80e75a1dc14dc9c3f60d2d83ca45dfb84dc879
+    log: revlist-e38b5ed482f1-1d80e75a1dc1.txt
 
---===============4735245599576908882==
+--===============2098972286111665149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a86aa03cb9bf-d7072afc761b.txt
+Content-Disposition: attachment; filename=revlist-e38b5ed482f1-1d80e75a1dc1.txt
 
 4b79959510e6612d80f8d86022e0cb44eee6f4a2 igc: fix page fault when thunderbolt is unplugged
 691bd4d7761992914a0e83c27a4ce57d01474cda igc: Use num_tx_queues when iterating over tx_ring queue
@@ -128,5 +128,7 @@ c939b25ff8e2a3b9581d278addbc8ef3d706a765 Merge branch 'patchq/419320' into mlx5-
 78cbfea9c0c33276eb30fd92d0be78c5c1ca1233 Merge branch 'mlx5-queue' into net-next
 1462e690da6169346738c748c38e1eac631e2ab2 Merge branch 'mlx4-for-net' into net-next
 d7072afc761be8c78b67eceac0c779e4c89f298f Merge branch 'mlx5-for-net' into net-next
+9e910e759b1e499208cb721e115283b680701c87 Merge branch 'net-next' into queue-next
+1d80e75a1dc14dc9c3f60d2d83ca45dfb84dc879 Merge branch 'testing/rdma-next' into queue-next
 
---===============4735245599576908882==--
+--===============2098972286111665149==--
