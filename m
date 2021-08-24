@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Aug 2021 08:16:53 -0000
-Message-Id: <162979301341.19239.17373692177309433264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Aug 2021 08:22:48 -0000
+Message-Id: <162979336814.23987.17192577361883988821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: f6a4e0e8a00ff6fadb29f3646ccd33cc85195a38
-    new: 1bb39cb65bcf6c7ef079c57c64041f60155e5f21
+    old: 14315498f5d373097d5082c27c7f764923ec1796
+    new: b0cd08537db8d2fbb227cdb2e5835209db295a24
     log: |
-         1bb39cb65bcf6c7ef079c57c64041f60155e5f21 cxgb4: improve printing NIC information
+         b0cd08537db8d2fbb227cdb2e5835209db295a24 qed: Fix the VF msix vectors flow
          
