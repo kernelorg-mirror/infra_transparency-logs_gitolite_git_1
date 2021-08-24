@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Aug 2021 09:46:51 -0000
-Message-Id: <162979841159.29900.18174860467445693972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Aug 2021 09:49:01 -0000
+Message-Id: <162979854174.31980.13073854249722864994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 669f047ec12624e1fa07e0df88a84104b1d4dcd9
-    new: 7fb9b66dc9ce52b058b3f9f3016b4d39f692c3b9
+    old: 446e7f218b7662c912c610aae99069543aa88a40
+    new: 3b0720ba00a7413997ad331838d22c81f252556a
     log: |
-         7fb9b66dc9ce52b058b3f9f3016b4d39f692c3b9 page_pool: use relaxed atomic for release side accounting
+         3b0720ba00a7413997ad331838d22c81f252556a net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
          
