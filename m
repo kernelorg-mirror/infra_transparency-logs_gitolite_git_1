@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 25 Aug 2021 04:40:19 -0000
-Message-Id: <162986641937.19886.13543575263854715055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 25 Aug 2021 04:45:54 -0000
+Message-Id: <162986675446.23222.9877116742154916508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 8ba1a8b77ba1eb3aef441ed2caf28ab2b1261f5f
-    new: 8341dcfbd8dda98a3b2836a421016f7d88e35b1c
+    old: 8341dcfbd8dda98a3b2836a421016f7d88e35b1c
+    new: fde9c59aebafb91caeed816cc510b56f14aa63ae
     log: |
-         7f85b04b08ca264923358e2c4e93422bad59a6e0 riscv: Keep the riscv Kconfig selects sorted
-         8341dcfbd8dda98a3b2836a421016f7d88e35b1c riscv: Enable Undefined Behavior Sanitizer UBSAN
+         fde9c59aebafb91caeed816cc510b56f14aa63ae riscv: explicitly use symbol offsets for VDSO
          
