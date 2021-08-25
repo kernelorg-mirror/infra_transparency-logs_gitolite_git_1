@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 25 Aug 2021 13:54:22 -0000
-Message-Id: <162989966255.9308.14583199032541480562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Wed, 25 Aug 2021 14:00:01 -0000
+Message-Id: <162990000148.12458.17766595707332604977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 58d2814a92858cd86f3de2c0e05b7dfa9ed24bb0
-    new: 70b6451dc21ecc1d8dedefc861edbe10c1ee9424
+  - ref: refs/heads/next
+    old: 9760383b22edbfa407a1647969c26d62a501631f
+    new: bbac7a92a46f0876e588722ebe552ddfe6fd790f
     log: |
-         f6683bab753f59a0339a0c141500ad8c924188d6 auto-t: hwsim.py: convert addresses to 42:* format
-         5776ce87d7f7d706705a5dd84ef34274d290ec47 auto-t: testSAQuery remove ungraceful restart
-         70b6451dc21ecc1d8dedefc861edbe10c1ee9424 auto-t: hostapd.py: remove ungraceful_restart
+         0b030f54f094fcd42f4a607a675c1851129a58c8 dmaengine: idxd: make submit failure path consistent on desc freeing
+         9806eb5c79579e200f88660e043706eb490547e6 dmaengine: idxd: set descriptor allocation size to threshold for swq
+         bbac7a92a46f0876e588722ebe552ddfe6fd790f dmaengine: ioat: depends on !UML
          
