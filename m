@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0302640899044738731=="
+Content-Type: multipart/mixed; boundary="===============6581631746126552696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 25 Aug 2021 16:00:46 -0000
-Message-Id: <162990724637.31544.4082464302034728718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 25 Aug 2021 16:00:52 -0000
+Message-Id: <162990725260.31635.8453142914264280941@gitolite.kernel.org>
 
---===============0302640899044738731==
+--===============6581631746126552696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 53371b959e5823998cd617e74b585e7d328f5840
 
---===============0302640899044738731==
+--===============6581631746126552696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -230,4 +230,4 @@ e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 Linux 5.14-rc7
 d5ae8d7f85b7f6f6e60f1af8ff4be52b0926fde1 Revert "media: dvb header files: move some headers to staging"
 6e764bcd1cf72a2846c0e53d3975a09b242c04c9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
---===============0302640899044738731==--
+--===============6581631746126552696==--
