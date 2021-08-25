@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6333973334946875327=="
+Content-Type: multipart/mixed; boundary="===============7615845506893255631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 25 Aug 2021 10:54:19 -0000
-Message-Id: <162988885994.21818.4359329264274039066@gitolite.kernel.org>
+Date: Wed, 25 Aug 2021 10:54:35 -0000
+Message-Id: <162988887555.21971.7722183401270123695@gitolite.kernel.org>
 
---===============6333973334946875327==
+--===============7615845506893255631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 7c0eaa78b9cddf56a9b1ae45b6b12bcfb0f34cec
-    new: 0d6d75d2a2c341ce99f0549fa28bee93fa56505d
-    log: revlist-7c0eaa78b9cd-0d6d75d2a2c3.txt
+  - ref: refs/heads/for-next
+    old: 54157006715d6c48d7265d23a2293517005946ba
+    new: 7b518758d02c9c6612e4620b6614910c61e8826b
+    log: revlist-54157006715d-7b518758d02c.txt
 
---===============6333973334946875327==
+--===============7615845506893255631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c0eaa78b9cd-0d6d75d2a2c3.txt
+Content-Disposition: attachment; filename=revlist-54157006715d-7b518758d02c.txt
 
 02368b7cf6c7badefa13741aed7a8b91d9a11b19 s390/pci: cleanup resources only if necessary
 81a076171e72dcb6545a8a508b800aec59d6e82b s390/pci: reset zdev->zbus on registration failure
@@ -47,5 +47,7 @@ c4f0e5cfde354b1d6cf2388c0920264985c6c139 s390/mm,pageattr: fix walk_pte_level() 
 d72541f945127b4873dace501406a1bc8cd8e1e9 s390/debug: add early tracing support
 70aa5d39826528e77f5595a5f9297d919112d396 s390/sclp: add tracing of SCLP interactions
 0d6d75d2a2c341ce99f0549fa28bee93fa56505d KVM: s390: generate kvm hypercall functions
+2f3e26f501a46415120c5f4f591905ec36cfb4e4 Merge branch 'fixes' into for-next
+7b518758d02c9c6612e4620b6614910c61e8826b Merge branch 'features' into for-next
 
---===============6333973334946875327==--
+--===============7615845506893255631==--
