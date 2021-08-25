@@ -1,56 +1,110 @@
-Content-Type: multipart/mixed; boundary="===============1896845000400442180=="
+Content-Type: multipart/mixed; boundary="===============4153385279905188131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 25 Aug 2021 15:48:13 -0000
-Message-Id: <162990649359.22121.5992248861904240135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 25 Aug 2021 15:56:06 -0000
+Message-Id: <162990696651.28570.11106945052213454841@gitolite.kernel.org>
 
---===============1896845000400442180==
+--===============4153385279905188131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 6a8d4f6f3861977a3c458070c9f88d701579b537
-    new: c60bbf0c3c076a28ff1660cffa6aadfc349dddb8
-    log: revlist-6a8d4f6f3861-c60bbf0c3c07.txt
+  - ref: refs/heads/fix-musl-dlvsym
+    old: 1474622831bd7ef4d9391cddfc35fe0810a9b2fa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: e008a88b9808d733f204fda5c3457e06250f3b45
+    new: e5d84156e479a182d3396356d4f740c0acea8f29
+    log: revlist-e008a88b9808-e5d84156e479.txt
+  - ref: refs/merge-requests/207/head
+    old: 1474622831bd7ef4d9391cddfc35fe0810a9b2fa
+    new: e5d84156e479a182d3396356d4f740c0acea8f29
+    log: revlist-1474622831bd-e5d84156e479.txt
+  - ref: refs/merge-requests/207/merge
+    old: db98bf6097865be0a5675b59c9264a0bbde51387
+    new: 9a78e7b4fb32cb33c0b23317932da9f7547243f1
+    log: revlist-db98bf609786-9a78e7b4fb32.txt
+  - ref: refs/heads/fix-luks1-repair
+    old: 0000000000000000000000000000000000000000
+    new: 5f7cee28b9ec3544745e22758ea85d2f9dfcd576
+  - ref: refs/merge-requests/208/head
+    old: 0000000000000000000000000000000000000000
+    new: 3e45ddb7355e6d4e0de1b0a7af014738e5081527
+  - ref: refs/merge-requests/208/merge
+    old: 0000000000000000000000000000000000000000
+    new: a025875cc9e90ef985e452c18f408b49b4de49f7
+  - ref: refs/merge-requests/209/head
+    old: 0000000000000000000000000000000000000000
+    new: 5f7cee28b9ec3544745e22758ea85d2f9dfcd576
+  - ref: refs/merge-requests/209/merge
+    old: 0000000000000000000000000000000000000000
+    new: b8e60b36c79b8ac3e9746beb7c296fc288441e59
+  - ref: refs/pipelines/359412302
+    old: 0000000000000000000000000000000000000000
+    new: e5d84156e479a182d3396356d4f740c0acea8f29
 
---===============1896845000400442180==
+--===============4153385279905188131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a8d4f6f3861-c60bbf0c3c07.txt
+Content-Disposition: attachment; filename=revlist-e008a88b9808-e5d84156e479.txt
 
-57c0b5f92099b95a3faa7dc885f570cbca210ac3 scsi: ibmvscsi: Avoid multi-field memset() overflow by aiming at srp
-fe916df8f69ebc2166491d00f769832dfdcbe1e6 powerpc: Split memset() to avoid multi-field overflow
-4e86fbc9cb8bf6e56296d59e0d57cfb9f39b8c7b stddef: Fix kerndoc for sizeof_field() and offsetofend()
-e68b16278f2ecd9fa31e931c888c800138ae207c stddef: Introduce struct_group() helper macro
-dd49bdf5596a69b04389efd20b94a596ceab3f98 cxl/core: Replace unions with struct_group()
-3b0be8a3d3388e4e3bae0a5a97cac86dfb5d4262 bnxt_en: Use struct_group_attr() for memcpy() region
-7822f508b174071f6fc8c8cc25b0f2ccbcd1c37c iommu/amd: Use struct_group() for memcpy() region
-44bc39386942704dcb42138904805410a41feb95 drm/mga/mga_ioc32: Use struct_group() for memcpy() region
-8a61df2aec5bac991ca7b79bdeb11d536102e32c HID: cp2112: Use struct_group() for memcpy() region
-1cff309e1de1722dfdc34c6630a6b2853808646b HID: roccat: Use struct_group() to zero kone_mouse_event
-c86596356ccd7ebe25e533a780e0862c68ed4878 can: flexcan: Use struct_group() to zero struct flexcan_regs regions
-997b6d17702d1a92b1621b498e811158f4278447 cm4000_cs: Use struct_group() to zero struct cm4000_dev region
-122b05c65c5d9cada10f13f835ef8c890a3257db compiler_types.h: Remove __compiletime_object_size()
-434261c89f825b523255efbee6e4c0d12019f475 lib/string: Move helper functions out of string.c
-9fa16de43183eae39a081bdb1ce199c516ecd703 fortify: Move remaining fortify helpers into fortify-string.h
-a3133deaac8e2409f57c52fa402694ea522a12a7 fortify: Explicitly disable Clang support
-7716d48b211974f2c0ea656444b6b65ad6ab0561 fortify: Fix dropped strcpy() compile-time write overflow check
-b78b932e0bcaf4a68d00687fcd21eecb31399bc9 fortify: Prepare to improve strnlen() and strlen() warnings
-cc4a9d991e997194b9b9fb46bd180510c52718cf fortify: Allow strlen() and strnlen() to pass compile-time known lengths
-72f44314c6e70260904d19572ad17c67dfcd7d69 fortify: Add compile-time FORTIFY_SOURCE tests
-d956893c7f94b7cb7caf872ef8897142301f0155 lib: Introduce CONFIG_MEMCPY_KUNIT_TEST
-d56075f98b834c5cb4c2e8bf2d7ee39b7e801f3a string.h: Introduce memset_after() for wiping trailing members/padding
-012c122572e6e486d9e802b0735f9b5c23778c0f xfrm: Use memset_after() to clear padding
-01a38cf9f4cf9695d494a8435d233ea28354d8f9 string.h: Introduce memset_startat() for wiping trailing members and padding
-bad562d4286a97917afba92ae914073d97b6fffa btrfs: Use memset_startat() to clear end of struct
-c60bbf0c3c076a28ff1660cffa6aadfc349dddb8 Merge branch 'for-next/overflow' into for-next/kspp
+20b678c9f3a25c5777c8790f21a773f5657c60f0 Fix symbol version test if dlvsym() is not available.
+03943acbb19471519b9356f6f063cb7bccae9b01 Remove obsolete AC_HEADER_STDC macro.
+246d306eeb7db3d2f776f69b9596445d9b642907 Check for argp library that can be standalone.
+3a79b2b09b1faaa85c41fb5fc9c2730ab9ba44aa Fix gettext (-lintl) linker flags.
+93481d15666b0cf4c266a5c67cf8408f7d18c079 Use compatible flags for BusyBox free command.
+863fd0830545e85bf1948cf4aa2750aa85dbbdc5 Skip test if incompatible tar from BusyBox is installed.
+358dec19b28b7a6752fbffed3e0b6f5fc84d6075 Use compatible flags for BusyBox diff command.
+9b7d3be5c650d0cc093b9d1ed10b418b11e9f498 Skip UUID= cryptsetup activation test if /dev has no uuid links.
+26679e223cde763eb01ee1ce92b2844671d32d88 Trigger read event for verity test to mark device as corrupted.
+53b22cc32ed3b9151bf9e5d6228cccf63ddfbb6d Fix deferred remove test failure on non-udev systems.
+5f2c751dd8fb90ee71710df2ab5fa65e9064891d Use dlsym() for token load if dlvsym() is not available.
+e5d84156e479a182d3396356d4f740c0acea8f29 Fix linker to use -ldl if external tokens are used.
 
---===============1896845000400442180==--
+--===============4153385279905188131==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1474622831bd-e5d84156e479.txt
+
+20b678c9f3a25c5777c8790f21a773f5657c60f0 Fix symbol version test if dlvsym() is not available.
+03943acbb19471519b9356f6f063cb7bccae9b01 Remove obsolete AC_HEADER_STDC macro.
+246d306eeb7db3d2f776f69b9596445d9b642907 Check for argp library that can be standalone.
+3a79b2b09b1faaa85c41fb5fc9c2730ab9ba44aa Fix gettext (-lintl) linker flags.
+93481d15666b0cf4c266a5c67cf8408f7d18c079 Use compatible flags for BusyBox free command.
+863fd0830545e85bf1948cf4aa2750aa85dbbdc5 Skip test if incompatible tar from BusyBox is installed.
+358dec19b28b7a6752fbffed3e0b6f5fc84d6075 Use compatible flags for BusyBox diff command.
+9b7d3be5c650d0cc093b9d1ed10b418b11e9f498 Skip UUID= cryptsetup activation test if /dev has no uuid links.
+26679e223cde763eb01ee1ce92b2844671d32d88 Trigger read event for verity test to mark device as corrupted.
+53b22cc32ed3b9151bf9e5d6228cccf63ddfbb6d Fix deferred remove test failure on non-udev systems.
+5f2c751dd8fb90ee71710df2ab5fa65e9064891d Use dlsym() for token load if dlvsym() is not available.
+e5d84156e479a182d3396356d4f740c0acea8f29 Fix linker to use -ldl if external tokens are used.
+
+--===============4153385279905188131==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-db98bf609786-9a78e7b4fb32.txt
+
+20b678c9f3a25c5777c8790f21a773f5657c60f0 Fix symbol version test if dlvsym() is not available.
+03943acbb19471519b9356f6f063cb7bccae9b01 Remove obsolete AC_HEADER_STDC macro.
+246d306eeb7db3d2f776f69b9596445d9b642907 Check for argp library that can be standalone.
+3a79b2b09b1faaa85c41fb5fc9c2730ab9ba44aa Fix gettext (-lintl) linker flags.
+93481d15666b0cf4c266a5c67cf8408f7d18c079 Use compatible flags for BusyBox free command.
+863fd0830545e85bf1948cf4aa2750aa85dbbdc5 Skip test if incompatible tar from BusyBox is installed.
+358dec19b28b7a6752fbffed3e0b6f5fc84d6075 Use compatible flags for BusyBox diff command.
+9b7d3be5c650d0cc093b9d1ed10b418b11e9f498 Skip UUID= cryptsetup activation test if /dev has no uuid links.
+26679e223cde763eb01ee1ce92b2844671d32d88 Trigger read event for verity test to mark device as corrupted.
+53b22cc32ed3b9151bf9e5d6228cccf63ddfbb6d Fix deferred remove test failure on non-udev systems.
+5f2c751dd8fb90ee71710df2ab5fa65e9064891d Use dlsym() for token load if dlvsym() is not available.
+e5d84156e479a182d3396356d4f740c0acea8f29 Fix linker to use -ldl if external tokens are used.
+9a78e7b4fb32cb33c0b23317932da9f7547243f1 Merge branch 'fix-musl-dlvsym' into 'master'
+
+--===============4153385279905188131==--
