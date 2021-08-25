@@ -1,83 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2964726063885689371=="
+Content-Type: multipart/mixed; boundary="===============7999839618357871576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 25 Aug 2021 16:43:56 -0000
-Message-Id: <162990983657.25039.8117694633316692611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 25 Aug 2021 16:44:05 -0000
+Message-Id: <162990984533.25185.3463816208928376305@gitolite.kernel.org>
 
---===============2964726063885689371==
+--===============7999839618357871576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: e5d84156e479a182d3396356d4f740c0acea8f29
-    new: 46b70d7317ce9d5dc01d9686314bdab34295c62f
-    log: |
-         8c28774917ad89e26823c67bd8fbcb38b1441711 Fix vector test print message additional parameter.
-         46b70d7317ce9d5dc01d9686314bdab34295c62f Add error message when assigning token to inactive keyslot.
-         
-  - ref: refs/merge-requests/208/head
-    old: 3e45ddb7355e6d4e0de1b0a7af014738e5081527
-    new: 46b70d7317ce9d5dc01d9686314bdab34295c62f
-    log: revlist-3e45ddb7355e-46b70d7317ce.txt
-  - ref: refs/merge-requests/208/merge
-    old: a025875cc9e90ef985e452c18f408b49b4de49f7
-    new: 4695a7a5297b1054fa7bf1bcb1a567057d41c8cc
-    log: revlist-a025875cc9e9-4695a7a5297b.txt
-  - ref: refs/pipelines/359412302
-    old: e5d84156e479a182d3396356d4f740c0acea8f29
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/pipelines/359436668
-    old: 0000000000000000000000000000000000000000
-    new: 46b70d7317ce9d5dc01d9686314bdab34295c62f
+  - ref: refs/heads/for-next
+    old: 52e22d4d4e3707b029e4b77eea9cff67ac18c7dd
+    new: fad336c06aff9345645f27de52cbcd54819ad3ca
+    log: revlist-52e22d4d4e37-fad336c06aff.txt
 
---===============2964726063885689371==
+--===============7999839618357871576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e45ddb7355e-46b70d7317ce.txt
+Content-Disposition: attachment; filename=revlist-52e22d4d4e37-fad336c06aff.txt
 
-20b678c9f3a25c5777c8790f21a773f5657c60f0 Fix symbol version test if dlvsym() is not available.
-03943acbb19471519b9356f6f063cb7bccae9b01 Remove obsolete AC_HEADER_STDC macro.
-246d306eeb7db3d2f776f69b9596445d9b642907 Check for argp library that can be standalone.
-3a79b2b09b1faaa85c41fb5fc9c2730ab9ba44aa Fix gettext (-lintl) linker flags.
-93481d15666b0cf4c266a5c67cf8408f7d18c079 Use compatible flags for BusyBox free command.
-863fd0830545e85bf1948cf4aa2750aa85dbbdc5 Skip test if incompatible tar from BusyBox is installed.
-358dec19b28b7a6752fbffed3e0b6f5fc84d6075 Use compatible flags for BusyBox diff command.
-9b7d3be5c650d0cc093b9d1ed10b418b11e9f498 Skip UUID= cryptsetup activation test if /dev has no uuid links.
-26679e223cde763eb01ee1ce92b2844671d32d88 Trigger read event for verity test to mark device as corrupted.
-53b22cc32ed3b9151bf9e5d6228cccf63ddfbb6d Fix deferred remove test failure on non-udev systems.
-5f2c751dd8fb90ee71710df2ab5fa65e9064891d Use dlsym() for token load if dlvsym() is not available.
-e5d84156e479a182d3396356d4f740c0acea8f29 Fix linker to use -ldl if external tokens are used.
-8c28774917ad89e26823c67bd8fbcb38b1441711 Fix vector test print message additional parameter.
-46b70d7317ce9d5dc01d9686314bdab34295c62f Add error message when assigning token to inactive keyslot.
+d1f6581a6796c4e9fd8a4a24e8b77463d18f0df1 scsi: smartpqi: Fix an error code in pqi_get_raid_map()
+4dbe57d46d54a847875fa33e7d05877bb341585e scsi: qedi: Fix error codes in qedi_alloc_global_queues()
+ccc89737aa6b9f248cf1623014038beb6c2b7f56 scsi: qedf: Fix error codes in qedf_alloc_global_queues()
+e2a1dc571e1944469bab2ffc16f31f0c50e38065 scsi: wd719: Stop using scsi_cmnd.tag
+e0aebd25fdd93ebfb53b11e3c3e142619ca9fe1e scsi: fnic: Stop setting scsi_cmnd.tag
+6a036ce0e25c737d5258d42abeee3a31d21801fb scsi: ibmvfc: Stop using scsi_cmnd.tag
+4c7b6ea336c1e415fc002c756449835de768914c scsi: core: Remove scsi_cmnd.tag
+0f99792c01d1d6d35b86e850e9ccadd98d6f3e0c scsi: target: pscsi: Fix possible null-pointer dereference in pscsi_complete_cmd()
+5f492a7aa13b4ebf8ca85e818585394053065240 scsi: smartpqi: Replace one-element array with flexible-array member
+44678553ad7eb59be3092d6677d8d4a00289afda scsi: target: Allows backend drivers to fail with specific sense codes
+0394b5048efd73b04276979d014a67f30c0ad699 scsi: target: Fix sense key for invalid EXTENDED COPY request
+7a3795f28795e5bdc71498728bdfe4f921ce6c27 scsi: ibmvfc: Do not wait for initial device scan
+848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09 scsi: sd: Do not exit sd_spinup_disk() quietly
+02c6dcd543f8f051973ee18bfbc4dc3bd595c558 scsi: core: Fix hang of freezing queue between blocking and running device
+2d9714a969cac2c654ee9c7369ae4697d6d25e4d Merge branch 'fixes' into for-next
+fad336c06aff9345645f27de52cbcd54819ad3ca Merge branch 'misc' into for-next
 
---===============2964726063885689371==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a025875cc9e9-4695a7a5297b.txt
-
-20b678c9f3a25c5777c8790f21a773f5657c60f0 Fix symbol version test if dlvsym() is not available.
-03943acbb19471519b9356f6f063cb7bccae9b01 Remove obsolete AC_HEADER_STDC macro.
-246d306eeb7db3d2f776f69b9596445d9b642907 Check for argp library that can be standalone.
-3a79b2b09b1faaa85c41fb5fc9c2730ab9ba44aa Fix gettext (-lintl) linker flags.
-93481d15666b0cf4c266a5c67cf8408f7d18c079 Use compatible flags for BusyBox free command.
-863fd0830545e85bf1948cf4aa2750aa85dbbdc5 Skip test if incompatible tar from BusyBox is installed.
-358dec19b28b7a6752fbffed3e0b6f5fc84d6075 Use compatible flags for BusyBox diff command.
-9b7d3be5c650d0cc093b9d1ed10b418b11e9f498 Skip UUID= cryptsetup activation test if /dev has no uuid links.
-26679e223cde763eb01ee1ce92b2844671d32d88 Trigger read event for verity test to mark device as corrupted.
-53b22cc32ed3b9151bf9e5d6228cccf63ddfbb6d Fix deferred remove test failure on non-udev systems.
-5f2c751dd8fb90ee71710df2ab5fa65e9064891d Use dlsym() for token load if dlvsym() is not available.
-e5d84156e479a182d3396356d4f740c0acea8f29 Fix linker to use -ldl if external tokens are used.
-8c28774917ad89e26823c67bd8fbcb38b1441711 Fix vector test print message additional parameter.
-46b70d7317ce9d5dc01d9686314bdab34295c62f Add error message when assigning token to inactive keyslot.
-4695a7a5297b1054fa7bf1bcb1a567057d41c8cc Merge branch 'tokens-error' into 'master'
-
---===============2964726063885689371==--
+--===============7999839618357871576==--
