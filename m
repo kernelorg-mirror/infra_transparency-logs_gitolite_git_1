@@ -1,51 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0470623020419600201=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 25 Aug 2021 15:05:13 -0000
-Message-Id: <162990391369.27468.12063393697744249227@gitolite.kernel.org>
-
---===============0470623020419600201==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 25 Aug 2021 15:05:37 -0000
+Message-Id: <162990393744.27719.3511948436007079915@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.15
-    old: ad3ead1efe057029bf112e13d7ef5901915d6abd
-    new: 21e39809fd7c4b8ff3662f23e0168e87594c8ca8
+  - ref: refs/heads/for-linus
+    old: 59d63a00e6bc28c8658054aedf060d4449f6656a
+    new: 7dc488712d9f3029d828a118d3cdc4f7c79f237a
     log: |
-         98e47570ba985f2310586c80409238200fa3170f regulator: vctrl: Use locked regulator_get_voltage in probe path
-         21e39809fd7c4b8ff3662f23e0168e87594c8ca8 regulator: vctrl: Avoid lockdep warning in enable/disable ops
+         7dc488712d9f3029d828a118d3cdc4f7c79f237a Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-
---===============0470623020419600201==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1629903887 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1629903911-e4f5bab1f92fbcc7b6cddbf1c56520e79fc6aca7
-
-ad3ead1efe057029bf112e13d7ef5901915d6abd 21e39809fd7c4b8ff3662f23e0168e87594c8ca8 refs/heads/regulator-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEmXA8ACgkQJNaLcl1U
-h9Dk9Qf+KAXmFspZuvdd2lvqeBA72NYB0oQcrWrFf4TPBfA02tu3/2W7AsQKJdwF
-G9N6Zi9sKQMpozLCcc1Xa3gxImiCHktf5/WlhAXqsA42mzcQV+Lcs85AIyfOcLEX
-xciWMDfhyJmtNo5I/LsKDOFTAyYaHMpMf2mn+O5XHOVJD96vHG3yRwGmG7uiWHTx
-ub+3RkvbmQm5KUFIiK4DFEtSpP4itftNcag6ruTxcYYhp7VzQBv7Hv9GBKbdEqXO
-iUuXIUhbzCLVCEdq6yqTnagYvcWgRjCPCa6aXO/lBOnmccKdr6xWgo+9tFQhOEd+
-fPJhsHe88QHKor2WeR9vJCc+/VGMlw==
-=3RzR
------END PGP SIGNATURE-----
-
---===============0470623020419600201==--
+  - ref: refs/heads/for-next
+    old: fd307ab3f7b337125134cdd9443e2d289837e056
+    new: 516270ef2f3b9b4bb5ab1a1fc0fbc80ba7c711a1
+    log: |
+         2d02e7d7d04f54fa573685a92c4a34eb8a76c9de Merge branch 'for-5.14' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into asoc-5.15
+         dc2d01c754c378a4748ac72c5516d45da7640123 ASoC: Intel: bytcr_rt5640: Make rt5640_jack_gpio/rt5640_jack2_gpio static
+         8d3019b63b3d92c9b5f1548f600485d39262bbe1 ASoC: rt5682: Fix the vol+ button detection issue
+         a8946f032eeace6eeb4e51e518275010e5528660 ASoC: imx-rpmsg: change dev_err to dev_err_probe for -EPROBE_DEFER
+         7dc488712d9f3029d828a118d3cdc4f7c79f237a Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         516270ef2f3b9b4bb5ab1a1fc0fbc80ba7c711a1 Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         
