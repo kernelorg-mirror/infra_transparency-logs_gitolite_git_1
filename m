@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5834790234292642153=="
+Content-Type: multipart/mixed; boundary="===============1278294188464173241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 25 Aug 2021 12:31:59 -0000
-Message-Id: <162989471993.20197.12551640230166730273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 25 Aug 2021 12:32:05 -0000
+Message-Id: <162989472546.20293.9924355026756517395@gitolite.kernel.org>
 
---===============5834790234292642153==
+--===============1278294188464173241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: bbc4a448932f12e873570634218d61ba5172e900
-    new: 657882d1f5d156ec826ce8258444204341bcf4be
-    log: revlist-bbc4a448932f-657882d1f5d1.txt
+  - ref: refs/heads/queue-rc
+    old: ee79153779da91059c663a7667c954344239b1c1
+    new: 36f66e062112c3474b9a1466ce62a5babde1580e
+    log: revlist-ee79153779da-36f66e062112.txt
 
---===============5834790234292642153==
+--===============1278294188464173241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbc4a448932f-657882d1f5d1.txt
+Content-Disposition: attachment; filename=revlist-ee79153779da-36f66e062112.txt
 
 2e29be2e491595407087ab36a5e5a159be693f7b fs/fuse: Remove unneeded kaddr parameter
 44788591c3cfb81d9315b8ee5c2076e51bfe8a39 fs/dax: Clarify nr_pages to dax_direct_access()
@@ -250,5 +250,7 @@ b5b8e7980283843ebe03b6c03b39f3cb9b490d64 net/mlx5: Lag, fix multipath lag activa
 669a327536e636c3ab65a2322e052f597c65ead2 net/mlx5e: Explicitly set indication to destroy and modify of inner TIRs
 62d553b53bba75c3cb4398e2a0a508263f9156ba Merge branch 'patchq/412255' into mlx5-for-net
 657882d1f5d156ec826ce8258444204341bcf4be Merge branch 'mlx5-for-net' into net-rc
+cff4a22bb601436543170064e51c46bda4a29bae Merge branch 'net-rc' into queue-rc
+36f66e062112c3474b9a1466ce62a5babde1580e Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5834790234292642153==--
+--===============1278294188464173241==--
