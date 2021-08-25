@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 25 Aug 2021 18:25:38 -0000
-Message-Id: <162991593854.27901.14679000490041541546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 25 Aug 2021 18:26:05 -0000
+Message-Id: <162991596531.28121.8704594035878866264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 6e764bcd1cf72a2846c0e53d3975a09b242c04c9
-    new: fe67f4dd8daa252eb9aa7acb61555f3cc3c1ce4c
+    old: 70b6451dc21ecc1d8dedefc861edbe10c1ee9424
+    new: a3db60b7b1ac73ffbafb02a70ace07bcfef8996c
     log: |
-         5ddf994fa22f78ae3742d72520a8c3e8521d96cd ucounts: Fix regression preventing increasing of rlimits in init_user_ns
-         bbb6d0f3e1feb43d663af089c7dedb23be6a04fb ucounts: Increase ucounts reference counter before the security hook
-         62add98208f37ce02c0425f3858757472e3fcc2e Merge branch 'for-v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-         fe67f4dd8daa252eb9aa7acb61555f3cc3c1ce4c pipe: do FASYNC notifications for every pipe IO, not just state changes
+         f26f51bf8c70fcb65a5672155b74be0112070fb3 ie: add is_ie_default_sae_group_oui
+         194b4cf60ee524afa6345020232550749068b37d scan: set force_default_sae_group if OUI matches
+         6680a771e8380ff9604c5129b0506fc1cb5b6c91 sae: add sae_sm_set_force_group_19
+         4b38c92f2697979b86e0d81e80d306738e48d77e netdev: force SAE group 19 if BSS requires
+         a3db60b7b1ac73ffbafb02a70ace07bcfef8996c auto-t: add force SAE group 19 autotest
          
