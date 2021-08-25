@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 25 Aug 2021 03:32:22 -0000
-Message-Id: <162986234211.8205.15940130434227076912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 25 Aug 2021 03:54:37 -0000
+Message-Id: <162986367730.21941.11973902043560742672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 028068a13c533046fd4e37f06fb6efe50c759892
-    new: 05bc63618a5b290cf03b8454aa4cd520ac0da578
+  - ref: refs/heads/fixes
+    old: aa3e1ba32e553e611a58145c2eb349802feaa6eb
+    new: 379eb01c21795edb4ca8d342503bd2183a19ec3a
     log: |
-         7737676d932973108763b03ceae6cbae2362d934 cpufreq: qcom-cpufreq-hw: Add dcvs interrupt support
-         388eb0e8f1e549ec6d5706c4c0d4e9620d8af85d cpufreq: blocklist more Qualcomm platforms in cpufreq-dt-platdev
-         05bc63618a5b290cf03b8454aa4cd520ac0da578 cpufreq: qcom-hw: Set dvfs_possible_from_any_cpu cpufreq driver flag
+         379eb01c21795edb4ca8d342503bd2183a19ec3a riscv: Ensure the value of FP registers in the core dump file is up to date
          
