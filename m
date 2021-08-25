@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3271193527155578382=="
+Content-Type: multipart/mixed; boundary="===============6574585034053877593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 25 Aug 2021 03:13:15 -0000
-Message-Id: <162986119565.27445.14129669999801969690@gitolite.kernel.org>
+Date: Wed, 25 Aug 2021 03:13:27 -0000
+Message-Id: <162986120707.27550.15817503281570325877@gitolite.kernel.org>
 
---===============3271193527155578382==
+--===============6574585034053877593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a2c56936146fbde74b2a4966054321d52cd92275
-    new: 25959c9a56a5077de4c2c14ad9a0a245a4050528
-    log: revlist-a2c56936146f-25959c9a56a5.txt
+  - ref: refs/heads/staging
+    old: d09224115cf67bdce4eef2ca3533f86ab1ea1942
+    new: 9b5ac8ab4e8bf5636d1d425aee68ddf45af12057
+    log: revlist-d09224115cf6-9b5ac8ab4e8b.txt
 
---===============3271193527155578382==
+--===============6574585034053877593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1629861190 -0400
+pusher 75C5DE3D 1629861201 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1629861189-46bc19207369a9f48fe47de6cced2f3f0d83e57f
+nonce 1629861201-9f5178c5a3a74b1c1bbd64cff41a4c15efd7f4de
 
-a2c56936146fbde74b2a4966054321d52cd92275 25959c9a56a5077de4c2c14ad9a0a245a4050528 refs/tags/mkp-scsi-staging
+d09224115cf67bdce4eef2ca3533f86ab1ea1942 9b5ac8ab4e8bf5636d1d425aee68ddf45af12057 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEltUYACgkQ7ulgGnXF
-3j1JAxAAjr8QvyqWOxys1sMk0RcmQUYMJW+CBUlmGiPIQj5ZClFJ1bN3M5ebI6w5
-8mjDX3kswsk1Un1q8qh0+5Br308uEag1UzkYIbukoX4Mrdw8ML9twEXf4Llqtru+
-kUiGqLcMAyYsKRV2JlGj1goaUvUmTZeZKbWzSO0ZZDkEwO58+mYjTdlj+DRdDGX5
-AgcVAEAi8n0DBVtvxHEVF8hDA9yRVZjNPJY8dOhbULA8fGe8CaD6zZa0LzwYiAoz
-jgtlWAoUDTiCb4x8raaQeXgpUYl9J5vH44qeQE035ggYY6sC1H2+JLa/TLYOZRHK
-yQ169xGdKOlHnHDpiBPexbKgr3Jk4nm/T1CtlF+kOrNpLefRtNmNvORoeXB01524
-n2J6y+I98nqT+orndkgeVm5Y/uJ/ArD1c9cXk4ol9ZoynGHNwAq5CtVJ0iTraIDm
-CcTyLN0lWKb64cryIWAa2QMqAQK5HuDX4jLXPCMMF6n2bK+qZ7VDSjiFwC+GJ3hq
-EK6dR7TLU+l6sg1x47WivXVqewVZqLP31rtr/IfkII89fE4oo5grZJAga5wRzbvy
-ajSw/MDvtSE+Kks4ROluj/nw4DOJQ9LaW6+bNXEgD3uYqvTKwoD772xKO4Tn1nCR
-0sKP1nVljWoKQjKDh8K3xwwKS7PWHG4ZXF4UMbdN8siDqlop5Pw=
-=eOdv
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmEltVEACgkQ7ulgGnXF
+3j0VcQ//SYcVvbMD6b2Y8hS0mLv9GM46eXkhNh4m+TUPMG5peA2qiE3m/+uqNNiS
+EpqN0huCjmwo0V8Q4IG+U4U04sJ/b+Ez8iZE9LkXPLB+An9XwsJhSQeTb/gplT0x
+byIDNI4DsBJh7XGB9AHksrVHjTRd2oQzRLjilQIo9/8OVay+y1U8OX0hi6MvMWXd
+NOUIewdUTB6zTmcbI2pRYRY8xOoDUXnmwK8VE5jdqLk79mp+9X1pVH7RxqEAPexg
+HgcWTa5PZIli1baDAe57hLFlTmjqdny3fhbmuvS2M2ySndMEmYmNB7YG0fQRR0iP
+wx8PmMNU2OiYjNpIAMaaRePs8jr38b/sNX8WRCOty34ZHfTP3w3pz0dLsQkgdQev
+/xZmPL1mkfTG+7hcSKkc5evPumfiZhqv/ezCw4B8NXpUNvMmSYg3tSPYaDf9QCwc
+CGHXLyIU97sgcHfmHWyVFWblPDuoY6RQVpaw1xEPCl9jRznCqx2YJwCvcUBDZk3O
+kJjBwNp8nzgXWXeBzYy1ibyY6GqQ3pyeUbpz12S7cKaqg/XvQ7vN8jdwSpM5BpiO
+OMKAeWAAotRPSxdMN4TQ5kzxrdaKynfVCFJuOaJD3cQJ0EzLRoAX0GFvRWGSR7Gl
+zWpDKNXN7B0As8GniPr8oRnMsEqjdw0+E/r9AagvSRhmQyFA0mw=
+=M4m2
 -----END PGP SIGNATURE-----
 
---===============3271193527155578382==
+--===============6574585034053877593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2c56936146f-25959c9a56a5.txt
+Content-Disposition: attachment; filename=revlist-d09224115cf6-9b5ac8ab4e8b.txt
 
 227a13cf12f9d1a35c40033dd00e5cb87a5db932 scsi: ncr53c8xx: Remove 'sync_reset' argument from ncr_reset_bus()
 f434e4984f5f2ce373902f14b816cc6f4ab809d9 scsi: ncr53c8xx: Complete all commands during bus reset
@@ -85,4 +85,4 @@ b3e2c72af1d553a646c86bbb4c0be278686a295a scsi: mpt3sas: Use the proper SCSI midl
 313bf281f2091552f509fd05a74172c70ce7572f scsi: ufs: ufs-exynos: Fix static checker warning
 9b5ac8ab4e8bf5636d1d425aee68ddf45af12057 scsi: ufs: Fix ufshcd_request_sense_async() for Samsung KLUFG8RHDA-B2D1
 
---===============3271193527155578382==--
+--===============6574585034053877593==--
