@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2397386532104265381=="
+Content-Type: multipart/mixed; boundary="===============5413932769670366040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 25 Aug 2021 09:29:11 -0000
-Message-Id: <162988375180.28842.14218456957405604803@gitolite.kernel.org>
+Date: Wed, 25 Aug 2021 09:29:21 -0000
+Message-Id: <162988376198.28975.17958374326668738147@gitolite.kernel.org>
 
---===============2397386532104265381==
+--===============5413932769670366040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 19b8ece42c56aaa122f7e91eb391bb3dd7e193cd
-    new: a37c5c26693eadb3aa4101d8fe955e40d206b386
-    log: revlist-19b8ece42c56-a37c5c26693e.txt
+  - ref: refs/heads/testing
+    old: bc3dc5d696fb36c064f6b12450bd5633f7600f2e
+    new: cbe8cd7d83e251bff134a57ea4b6378db992ad82
+    log: revlist-bc3dc5d696fb-cbe8cd7d83e2.txt
 
---===============2397386532104265381==
+--===============5413932769670366040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1629883748 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1629883758 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1629883748-e743305a41d26c3cf54734fcec9697078cfe2c52
+nonce 1629883758-2e4e980dbeacf874bb3746f4a29ed87a25865cf6
 
-19b8ece42c56aaa122f7e91eb391bb3dd7e193cd a37c5c26693eadb3aa4101d8fe955e40d206b386 refs/heads/master
+bc3dc5d696fb36c064f6b12450bd5633f7600f2e cbe8cd7d83e251bff134a57ea4b6378db992ad82 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmEmDWQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqR/uB/oDPG76y5EvauonNINlod0g6uc7SLvV
-azAWrLFZnHZW8EiAI0hqRMeOiuajHRRHjxF/uPxufugseHuR9ppYrhKj49sMWUXh
-I8eqS8+r9fudsMAK3hwlwl0IXl/ok4KoQ+w794wOT1PbA56t7QfhQXsON40/H/jj
-OnVRMTPKWExLWViioTYcqr1QPOYPAkrpvAa/OlLLh0kJyec5boSvyJDIOAhmQdl8
-CbkFME/8bdmFVIxhWJVa4wl/MJVKRyJe719QpidRfnaAge5/EqNPj3eGx3bBYVtJ
-ZiTrTRpP6uv3xH1V7jDEG+8H8vJNa8b23ano2lUsalh38vpRf0ds7uSI
-=HBS+
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmEmDW4THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqVSyB/4iILiaJ+gDlNxp1B66sgY5PNTu4BQm
+lVq/3wenTUPMyIfJtdAKleZadHCkKCFz/glrT+Y5WIqsWD60vg0CL8Q934ltRYDl
+AT61ljVW7JycPzUVyGB8D3mhG7SL1HJHHOK847ub1exU5udRIBTr6O0B556KU0I0
+L2jGXbnd+m8rwnmJe2d4/EpFePdrpXtACUkBiYlbNkX8Ee9p7cikQjbvw61+K71P
+4K8Ciogii0CibXrDQFZCwKWdbOUYJdoevconkcP5WVA9rirBrioEJoWbObDv6QOT
+/l0H5iByEg/PZS9qNnrOwgDwjV+hLFi6vAod0r+SgyqP63cBhVEO8gqJ
+=OaiM
 -----END PGP SIGNATURE-----
 
---===============2397386532104265381==
-Content-Type: text/plain; charset="utf-8"
+--===============5413932769670366040==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-19b8ece42c56-a37c5c26693e.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bc3dc5d696fb-cbe8cd7d83e2.txt
 
 923a134647a0cf7695f667c9399cab0762555a13 ath: switch from 'pci_' to 'dma_' API
 0791ba2bc7d33f544528410d9d77aa1b5018adab ath11k: Remove some duplicate code
@@ -348,7 +348,6 @@ a83955bdad3ee1c8d29f345252dcb1806fe22365 Merge tag 'cfi-v5.14-rc7' of git://git.
 d6d09a6942050f21b065a134169002b4d6b701ef Merge tag 'for-5.14-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 c1930148a3941f891ddbd76fceaa4e10a957ccf2 net: mscc: ocelot: allow forwarding from bridge ports to the tag_8021q CPU port
 fb4b1373dcab086d0619c29310f0466a0b2ceb8a net/rds: dma_map_sg is entitled to merge entries
-44afeed73e52a2f1cfb8b6ca2a0be8164a3b567a mailmap: update email address of Matthias Fuchs and Thomas Körper
 cb537b241725f5261e752add954e08837348edad ravb: Use unsigned int for num_tx_desc variable in struct ravb_private
 ebb091461a9e146f8afd750cb7eddc5b4c8d47be ravb: Add struct ravb_hw_info to driver data
 68ca3c923213b908c14a673f6c3ec808664fae1f ravb: Add aligned_tx to struct ravb_hw_info
@@ -591,5 +590,9 @@ cce1689eb58d2fe3219da2ecd27cef8e644c4cc6 net: hns3: add ethtool support for CQE/
 3a62c333497b164868fdcd241842a1dd4e331825 Merge branch 'ethtool-extend-coalesce-uapi'
 7844ec21a915cc60f1e2cd8682b943b916a7d2fc selftests/net: Use kselftest skip code for skipped tests
 a37c5c26693eadb3aa4101d8fe955e40d206b386 net: bridge: change return type of br_handle_ingress_vlan_tunnel
+ac4224087312d7212bd3411f1e393f4b7cb1ff15 can: rcar: Kconfig: Add helper dependency on COMPILE_TEST
+1d38ec4974143827631d44a6a2a4c069fc4c05bd can: rcar_canfd: rcar_canfd_handle_channel_tx(): fix redundant assignment
+a4583c1deb1b6e574ec0f4095d5a44d7160353f1 can: mscan: mpc5xxx_can: mpc5xxx_can_probe(): use of_device_get_match_data to simplify code
+cbe8cd7d83e251bff134a57ea4b6378db992ad82 can: mscan: mpc5xxx_can: mpc5xxx_can_probe(): remove useless BUG_ON()
 
---===============2397386532104265381==--
+--===============5413932769670366040==--
