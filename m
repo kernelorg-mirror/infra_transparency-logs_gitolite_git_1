@@ -1,36 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 25 Aug 2021 20:50:03 -0000
-Message-Id: <162992460357.23033.1206591693058693028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 25 Aug 2021 21:13:52 -0000
+Message-Id: <162992603213.4441.5863133128394129242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-5.15/drivers
-    old: ca27f5b593b5532f4b3a363daeba45872f381bb2
-    new: 7ee656c3ac3d047b4cf1269f83ac9d6c0bba916b
+  - ref: refs/heads/i2c/for-mergewindow
+    old: 3cfc88380413d20f777dc6648a38f683962e52bf
+    new: 8b51a8e64443b95fb9fec9f76f1c93777b35310a
     log: |
-         93f63bc41f699318807df202a175d564c26bda87 nbd: add missing locking to the nbd_dev_add error path
-         409e0ff10ead30a620ee48acb6d4545d9cb95359 nbd: reset NBD to NULL when restarting in nbd_genl_connect
-         75b7f62aa65d5c496391ec2c3db3561aaf81a403 nbd: prevent IDR lookups from finding partially initialized devices
-         b190300decb352a0b865d7aa379e89b17d772a43 nbd: set nbd->index before releasing nbd_index_mutex
-         438cd318c8dfa5228ffd43af1b98d7cd7d92e1c6 nbd: only return usable devices from nbd_find_unused
-         7ee656c3ac3d047b4cf1269f83ac9d6c0bba916b nbd: remove nbd->destroy_complete
+         58fb7c643d346e2364404554f531cfa6a1a3917c i2c: mt65xx: fix IRQ check
+         661e8a88e8317eb9ffe69c69d6cb4876370fe7e2 i2c: xlp9xx: fix main IRQ check
+         8b51a8e64443b95fb9fec9f76f1c93777b35310a i2c: cadence: Implement save restore
          
-  - ref: refs/heads/for-next
-    old: 295f6ce7975a43b6fae201a6ce5d7d3bdf489a21
-    new: f75a126f84e73f6ec6d4f3d56137efb3945ece1e
+  - ref: refs/heads/i2c/for-next
+    old: ec1127b4dd61e802d90b92d879d811db317f526f
+    new: cc1dbdeb17dd40277ca1cfc5005b59c02d9d2287
     log: |
-         93f63bc41f699318807df202a175d564c26bda87 nbd: add missing locking to the nbd_dev_add error path
-         409e0ff10ead30a620ee48acb6d4545d9cb95359 nbd: reset NBD to NULL when restarting in nbd_genl_connect
-         75b7f62aa65d5c496391ec2c3db3561aaf81a403 nbd: prevent IDR lookups from finding partially initialized devices
-         b190300decb352a0b865d7aa379e89b17d772a43 nbd: set nbd->index before releasing nbd_index_mutex
-         438cd318c8dfa5228ffd43af1b98d7cd7d92e1c6 nbd: only return usable devices from nbd_find_unused
-         7ee656c3ac3d047b4cf1269f83ac9d6c0bba916b nbd: remove nbd->destroy_complete
-         f75a126f84e73f6ec6d4f3d56137efb3945ece1e Merge branch 'for-5.15/drivers' into for-next
+         58fb7c643d346e2364404554f531cfa6a1a3917c i2c: mt65xx: fix IRQ check
+         661e8a88e8317eb9ffe69c69d6cb4876370fe7e2 i2c: xlp9xx: fix main IRQ check
+         8b51a8e64443b95fb9fec9f76f1c93777b35310a i2c: cadence: Implement save restore
+         cc1dbdeb17dd40277ca1cfc5005b59c02d9d2287 Merge branch 'i2c/for-mergewindow' into i2c/for-next
          
