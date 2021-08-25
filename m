@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 25 Aug 2021 17:42:11 -0000
-Message-Id: <162991333124.30162.9749348970313710482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Aug 2021 17:50:30 -0000
+Message-Id: <162991383087.4808.5550868102508482277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 6adb3af174ee4ccacd2d6e83025a06bf50f9aee0
-    new: d2dba3d6a43a763314c9396c45c1e74478d32afe
+    old: 3bbc8ee7c363a83aa192d796ad37b6bf462a2947
+    new: 35cba2988fc65239d10566edc03cc0978382c25f
     log: |
-         743e2639ab78b22715b78c2ea04a2764fad979a1 datastruct: Reference Figure 10.11 to clarify discussion flow
-         1711db85b0137f3fd61a5279708c30d0468460bf treewide: Annotate end-of-sentence periods after 'Appendix X'
-         a60fb998bfe851a9f259075a83302e9f523ce300 punctcheck.pl: Add regex to catch punctuation marks after 'Appendix X'
-         8918b5828b63603883cf357ac94ed51acdcd4bdb Adjust label of Appendix E 'Answers to Quick Quizzes'
-         d2dba3d6a43a763314c9396c45c1e74478d32afe appendix/questions: Fix typo of missing ')'
+         1b07d00a15d6a96d1a36b6a284c4fd5f2e2fa383 bpf: Add BTF_ID_LIST_GLOBAL_SINGLE macro
+         33c5cb36015ac1034b50b823fae367e908d05147 bpf: Consolidate task_struct BTF_ID declarations
+         a396eda5517ac958fb4eb7358f4708eb829058c4 bpf: Extend bpf_base_func_proto helpers with bpf_get_current_task_btf()
+         dd6e10fbd9fb86a571d925602c8a24bb4d09a2a7 bpf: Add bpf_task_pt_regs() helper
+         576d47bb1a926fe8162253e0bca28e9bede8cf48 bpf: selftests: Add bpf_task_pt_regs() selftest
+         35cba2988fc65239d10566edc03cc0978382c25f Merge branch 'bpf: Add bpf_task_pt_regs() helper'
          
