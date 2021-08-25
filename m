@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2965190203138517393=="
+Content-Type: multipart/mixed; boundary="===============6740058705403051419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 Aug 2021 19:30:19 -0000
-Message-Id: <162991981934.3902.405887058835454396@gitolite.kernel.org>
+Date: Wed, 25 Aug 2021 19:30:26 -0000
+Message-Id: <162991982654.4003.14635642401001830209@gitolite.kernel.org>
 
---===============2965190203138517393==
+--===============6740058705403051419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 35cba2988fc65239d10566edc03cc0978382c25f
     new: 7d789bd0089ad2a6cc2315f281018bfafae820bc
     log: revlist-35cba2988fc6-7d789bd0089a.txt
 
---===============2965190203138517393==
+--===============6740058705403051419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ ab7c95abb5f9d05470ede8e75a105c81c2dbf2c1 selftests: xsk: Decrease sending speed
 33a6bef8cf92017ff48e3bd597d7d60652f37b6d selftests: xsk: Preface options with opt
 7d789bd0089ad2a6cc2315f281018bfafae820bc Merge branch 'selftests: xsk: various simplifications'
 
---===============2965190203138517393==--
+--===============6740058705403051419==--
