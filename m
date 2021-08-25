@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4790972910369435505=="
+Content-Type: multipart/mixed; boundary="===============4992344758846458752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 25 Aug 2021 04:58:52 -0000
-Message-Id: <162986753276.31607.9626928735836775569@gitolite.kernel.org>
+Date: Wed, 25 Aug 2021 04:59:58 -0000
+Message-Id: <162986759872.32011.16697469969571450178@gitolite.kernel.org>
 
---===============4790972910369435505==
+--===============4992344758846458752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: fb3fdea450305d932d933d7e75eead0477249d8e
     new: 89abbf6426992cb4e73bcaf4af0b756d454264a6
     log: revlist-fb3fdea45030-89abbf642699.txt
 
---===============4790972910369435505==
+--===============4992344758846458752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ add8745a80c84856b2aa31a6d23e29958b9f1d46 kbuild: merge vmlinux_link() between AR
 a821cb5002dcfbab37e09cbb792b84d1740aa156 checkkconfigsymbols.py: Fix the '--ignore' option
 89abbf6426992cb4e73bcaf4af0b756d454264a6 checkkconfigsymbols.py: Forbid passing 'HEAD' to --commit
 
---===============4790972910369435505==--
+--===============4992344758846458752==--
