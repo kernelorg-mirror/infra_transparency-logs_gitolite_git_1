@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5863670891059851314=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 26 Aug 2021 12:45:06 -0000
-Message-Id: <162998190624.18049.2637387417156144531@gitolite.kernel.org>
-
---===============5863670891059851314==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 26 Aug 2021 12:45:45 -0000
+Message-Id: <162998194569.18427.1688145793882681493@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.15
-    old: f674aacd5005184acf3cf7b851a299573d64fdd6
-    new: 0f887ac82971cbde59e563d6490c05c6b15aa82f
+  - ref: refs/heads/for-linus
+    old: 7dc488712d9f3029d828a118d3cdc4f7c79f237a
+    new: 5e40673f7dccfdb76968ba91df4f418d143e7dcb
     log: |
-         245ca2cc212bb2a078332ec99afbfbb202f44c2d spi: sprd: Fix the wrong WDG_LOAD_VAL
-         3b66ca9783d1d1b7be7bf41e8934ca2eaf50a9c0 spi: sprd: Add ADI r3 support
-         f15e60d460391d16bdad2e446e9dca4f264ccdfe spi: Convert sprd ADI bindings to yaml
-         0f887ac82971cbde59e563d6490c05c6b15aa82f spi: add sprd ADI for sc9863 and ums512
+         5e40673f7dccfdb76968ba91df4f418d143e7dcb Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
          
-
---===============5863670891059851314==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1629981878 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1629981904-5879089c8d94545c4c8eb0a290185717bfffb1ae
-
-f674aacd5005184acf3cf7b851a299573d64fdd6 0f887ac82971cbde59e563d6490c05c6b15aa82f refs/heads/spi-5.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnjLYACgkQJNaLcl1U
-h9DjZAf+Ovr5TtjFYRL27C18fw043BR9XAKZ+OePzhW+Zeg9VUPCBI1uDKjMuxki
-hCnujT112qxg6W+bCvCfnncJRAUpcJUV1VkQvYfe7yCGnPimOa84WI+p3d07PqJX
-1A3B5fnX7zKCIejkVuImhlSXk8eJABkO090SvYOP6VJUsyWuXxwYi+97D8nRkaW6
-TMSZrSArB7CFyTP5LjifTjEo2GiEl+c9ff1+sEiGpwBFht5tdN2XDn1oNTAluVzP
-iHDf2j9Du3OOWWE/AbUBceNwLvo5Zn8DLKSXCEAL9G0E7vBnid+MMZ2eS0LpaAs9
-qdHPs/YKKxjSsorHmsISOL1bseTrhQ==
-=YvaO
------END PGP SIGNATURE-----
-
---===============5863670891059851314==--
+  - ref: refs/heads/for-next
+    old: 516270ef2f3b9b4bb5ab1a1fc0fbc80ba7c711a1
+    new: c5ccc4227dd332345b97293fa126a5c2727173aa
+    log: |
+         2fd276c3ee4bd42eb034f8954964a5ae74187c6b ASoC: dwc: Get IRQ optionally
+         5e40673f7dccfdb76968ba91df4f418d143e7dcb Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
+         c5ccc4227dd332345b97293fa126a5c2727173aa Merge remote-tracking branch 'asoc/for-5.15' into asoc-next
+         
