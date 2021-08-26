@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5318679493723130747=="
+Content-Type: multipart/mixed; boundary="===============2419174631169571265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 26 Aug 2021 19:39:49 -0000
-Message-Id: <163000678965.2222.12090953646984132902@gitolite.kernel.org>
+Date: Thu, 26 Aug 2021 19:40:00 -0000
+Message-Id: <163000680095.2362.6626484102872856817@gitolite.kernel.org>
 
---===============5318679493723130747==
+--===============2419174631169571265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 48304f3195f0aabaaecb616e6162a2d8e5b02ce7
-    new: 46f49ade632c4e827453b1e5d8e3f0e158a91539
-    log: revlist-48304f3195f0-46f49ade632c.txt
+  - ref: refs/heads/net-mlx4
+    old: 3b0720ba00a7413997ad331838d22c81f252556a
+    new: 75da63b7a13981e2b1972f4e3444108b05c6ceaf
+    log: revlist-3b0720ba00a7-75da63b7a139.txt
 
---===============5318679493723130747==
+--===============2419174631169571265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48304f3195f0-46f49ade632c.txt
+Content-Disposition: attachment; filename=revlist-3b0720ba00a7-75da63b7a139.txt
 
 5b029a32cfe4600f5e10e36b41778506b90fd4de bpf: Fix ringbuf helper function compatibility
 93100d6817b05a60f3e1d354932a4fe792f14d08 net: phy: mediatek: add the missing suspend/resume callbacks
@@ -55,7 +55,5 @@ b15c072a9f4a404c09ad589477f4389034742a8b net: hns3: fix speed unknown issue in b
 8c1671e0d13d4a0ba4fb3a0da932bf3736d7ff73 net: hns3: fix get wrong pfc_en when query PFC configuration
 57f8178292714ce042f7ead960a945f237da49b2 Merge branch 'net-hns3-add-some-fixes-for-net'
 75da63b7a13981e2b1972f4e3444108b05c6ceaf Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-a24ffdb42736c5470aba74d98b0a07ad48b3d1fc net/mlx5: Lag, fix multipath lag activation
-46f49ade632c4e827453b1e5d8e3f0e158a91539 net/mlx5: Remove all auxiliary devices at the unregister event
 
---===============5318679493723130747==--
+--===============2419174631169571265==--
