@@ -1,48 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4625330009061495697=="
+Content-Type: multipart/mixed; boundary="===============1799750202464621693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 26 Aug 2021 02:00:20 -0000
-Message-Id: <162994322046.2255.4823356547893483143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 26 Aug 2021 02:17:12 -0000
+Message-Id: <162994423247.11713.8640846537763713166@gitolite.kernel.org>
 
---===============4625330009061495697==
+--===============1799750202464621693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
-    new: 73f3af7b4611d77bdaea303fb639333eb28e37d7
-    log: revlist-e22ce8eb631b-73f3af7b4611.txt
+  - ref: refs/heads/kbuild
+    old: 89abbf6426992cb4e73bcaf4af0b756d454264a6
+    new: 7584c013e69f8e31026f4aa5afac6ea27f56a6b2
+    log: revlist-89abbf642699-7584c013e69f.txt
 
---===============4625330009061495697==
+--===============1799750202464621693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e22ce8eb631b-73f3af7b4611.txt
+Content-Disposition: attachment; filename=revlist-89abbf642699-7584c013e69f.txt
 
-da78fe5fb35737058de52364484ffed74e7d329b RDMA/mlx5: Fix crash when unbind multiport slave
-f6018cc4602659e0e608849529704f3f41276c28 RDMA/uverbs: Track dmabuf memory regions
-17f2569dce1848080825b8336e6b7c6900193b44 RDMA/bnxt_re: Add missing spin lock initialization
-0032640204a7d73bef163638c34a4642f8c9ed07 RDMA/irdma: Use correct kconfig symbol for AUXILIARY_BUS
-cbe71c61992c38f72c2b625b2ef25916b9f0d060 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
-a036ad088306a88de87e973981f2b9224e466c3f RDMA/bnxt_re: Remove unpaired rtnl unlock in bnxt_re_dev_init()
-65a81b61d8c5e96748671824cc46339afbd831d0 RDMA/rxe: Fix memory allocation while in a spin lock
-dbe986bdfd6dfe6ef24b833767fff4151e024357 RDMA/efa: Free IRQ vectors on error flow
-cc4f596cf85e97ca6606e1bd10b3b9851ef52ddf RDMA/rxe: Zero out index member of struct rxe_queue
-d5ae8d7f85b7f6f6e60f1af8ff4be52b0926fde1 Revert "media: dvb header files: move some headers to staging"
-5ddf994fa22f78ae3742d72520a8c3e8521d96cd ucounts: Fix regression preventing increasing of rlimits in init_user_ns
-bbb6d0f3e1feb43d663af089c7dedb23be6a04fb ucounts: Increase ucounts reference counter before the security hook
-6e764bcd1cf72a2846c0e53d3975a09b242c04c9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-62add98208f37ce02c0425f3858757472e3fcc2e Merge branch 'for-v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-fe67f4dd8daa252eb9aa7acb61555f3cc3c1ce4c pipe: do FASYNC notifications for every pipe IO, not just state changes
-946746d1ad921e5f493b536533dda02ea22ca609 mm/memory_hotplug: fix potential permanent lru cache disable
-a34cc13add2c92573db79192967f6a512868ec56 MAINTAINERS: exfat: update my email address
-73f3af7b4611d77bdaea303fb639333eb28e37d7 Merge branch 'akpm' (patches from Andrew)
+8514f6b9682ff68b52ab350a98d64d395cc48bb9 kbuild: Fix 'no symbols' warning when CONFIG_TRIM_UNUSD_KSYMS=y
+4eb566df1b411aa28d78c8d488ef49ef6ab9d461 kbuild: sh: remove unused install script
+5a0b50421c8210645bf28ebb2cbdaa03a57daac9 security: remove unneeded subdir-$(CONFIG_...)
+5916419268a8f1d05ae148b31797178d79bbdbd4 sparc: move the install rule to arch/sparc/Makefile
+0fd4f12e00a64a9ee4392228b81f40b578f62ffd ia64: move core-y in arch/ia64/Makefile to arch/ia64/Kbuild
+e84a88666b8d84518d3be8946d0c2e1093b5b71b s390: replace cc-option-yn uses with cc-option
+1ac0aab260bccb9ace1f49ff1fff3bd50ad6f0db arc: replace cc-option-yn uses with cc-option
+be6b0d5022afe24952dda07c96f05ff71b77ee83 x86: remove cc-option-yn test for -mtune=
+b83aacd44ba6da99d1f771c2ae957147edb7a549 kbuild: move objtool_args back to scripts/Makefile.build
+03fa547d01803f59599d9d23b8653861a1fe35dc gen_compile_commands: extract compiler command from a series of commands
+71937e57f6014c1a61587dff91f256be3267a04b kbuild: detect objtool changes correctly and remove .SECONDEXPANSION
+f3eada1d45c83f8668c2b3f29df4d0f5d154d4be kbuild: remove unused quiet_cmd_update_lto_symversions
+1fdc87394058d5cea536eeed8a9e7fd5a4111245 kbuild: remove stale *.symversions
+b02c234dfe3bd95b68ca65dc1a929eb9f867e488 kbuild: merge vmlinux_link() between the ordinary link and Clang LTO
+6898fdf12184afea2d259bf5496ac0c9b2027eba kbuild: do not remove 'linux' link in scripts/link-vmlinux.sh
+a236199968ac01e60a820ffd6c91768eb04e6a9a kbuild: merge vmlinux_link() between ARCH=um and other architectures
+fcc02638e723c91d154d4edf2184cf56056b4a76 checkkconfigsymbols.py: Fix the '--ignore' option
+7584c013e69f8e31026f4aa5afac6ea27f56a6b2 checkkconfigsymbols.py: Forbid passing 'HEAD' to --commit
 
---===============4625330009061495697==--
+--===============1799750202464621693==--
