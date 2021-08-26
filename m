@@ -1,51 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5527563120486606895=="
+Content-Type: multipart/mixed; boundary="===============4835156691962398359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 26 Aug 2021 12:44:52 -0000
-Message-Id: <162998189238.16428.1641289551678542148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 26 Aug 2021 12:44:59 -0000
+Message-Id: <162998189946.16509.2956454485378665699@gitolite.kernel.org>
 
---===============5527563120486606895==
+--===============4835156691962398359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.15
-    old: 29c34975c9391d3ad1fd5dd3c92ba0d41afe9549
-    new: d287801c497151a44e5577fb3bbab673fe52e7b0
+  - ref: refs/heads/for-5.15
+    old: f674aacd5005184acf3cf7b851a299573d64fdd6
+    new: 0f887ac82971cbde59e563d6490c05c6b15aa82f
     log: |
-         67021f25d95292d285dd213c58401642b98eaf24 regmap: teach regmap to use raw spinlocks if requested in the config
-         d287801c497151a44e5577fb3bbab673fe52e7b0 Merge series "Use raw spinlocks in the ls-extirq driver" from Vladimir Oltean <vladimir.oltean@nxp.com>:
+         245ca2cc212bb2a078332ec99afbfbb202f44c2d spi: sprd: Fix the wrong WDG_LOAD_VAL
+         3b66ca9783d1d1b7be7bf41e8934ca2eaf50a9c0 spi: sprd: Add ADI r3 support
+         f15e60d460391d16bdad2e446e9dca4f264ccdfe spi: Convert sprd ADI bindings to yaml
+         0f887ac82971cbde59e563d6490c05c6b15aa82f spi: add sprd ADI for sc9863 and ums512
          
 
---===============5527563120486606895==
+--===============4835156691962398359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629981864 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1629981889-9bebfa62760350d485860e45d5ecb75fc1844801
+pusher C3F436CA30F5D8EB 1629981871 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1629981897-90dfee6dfadd3c9505c63ed5496492e9cf325081
 
-29c34975c9391d3ad1fd5dd3c92ba0d41afe9549 d287801c497151a44e5577fb3bbab673fe52e7b0 refs/heads/regmap-5.15
+f674aacd5005184acf3cf7b851a299573d64fdd6 0f887ac82971cbde59e563d6490c05c6b15aa82f refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnjKgACgkQJNaLcl1U
-h9DSBgf/ePpYQ36h+FWcE+O6OL22oPTDTU/br+eoJsCYEwUas5+bpG+8E64nhWvF
-/s4aCp9OpcRyB10GWxwhN1/nK1xqQipm/ubZZmNfX/PNqdL6Olyo8+6odU797V+9
-krsbviDLkHFs+TkDR0pzfdwPlbNZ4IEW+p/egKKM/6mGxXFPDCe9lVDmeefhKli/
-KoBdVYBTTCrCOf6RBc4/3GRep2Lo2XhvIvSnzD+KnxtgmWp8La0Yjp7OV1ENYE0a
-YAy+zAaz4T6tlE9IZInR5S3mLOulZ1HyaO3p2nlNBce4fNiIgU+ktIYuiC6kPdEB
-UnS023PKcR8nfysVkWE4pZtN8Vh2ig==
-=fSZ+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnjK8ACgkQJNaLcl1U
+h9C9YQf9EttnoHh3PJcaHgRe2S1BNSqSxv7vx4W6ncGw/6KH9Ih3eR8fX62wmDwn
+haFX3MS+diISSxLUQwSDja1+29Ohpd58bpybeKFsKeeLqwA/TR9fsrAIBIAJjM6V
+1zNmK6tQamL/PEwo20Jd7kzL3SiFH9tw0umaRtiMM8wdr0qrd+AJgUvkESdYSn9Z
+pn2cywH7FfzSyAMS0Cb+LLcFcnfkSVDLA8zfFZ318BmT0Un8uA3xa8H4PAQf9zzC
+Cy5wH21YLnyntqmLfaNCnvpz2wqtOBZhf1dKE5EsjJxjaNp5prliPwb8OrPhon4Z
+906GdvsDU+Bg1AQ2RtOdjq4kzlRC9g==
+=MBXX
 -----END PGP SIGNATURE-----
 
---===============5527563120486606895==--
+--===============4835156691962398359==--
