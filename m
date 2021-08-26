@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5964067955398678666=="
+Content-Type: multipart/mixed; boundary="===============4231852565999215902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 26 Aug 2021 12:44:37 -0000
-Message-Id: <162998187795.16182.17544297783164826114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 26 Aug 2021 12:44:45 -0000
+Message-Id: <162998188514.16332.13637437894763761574@gitolite.kernel.org>
 
---===============5964067955398678666==
+--===============4231852565999215902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.15
-    old: a8946f032eeace6eeb4e51e518275010e5528660
-    new: 2fd276c3ee4bd42eb034f8954964a5ae74187c6b
+  - ref: refs/heads/for-5.15
+    old: 29c34975c9391d3ad1fd5dd3c92ba0d41afe9549
+    new: d287801c497151a44e5577fb3bbab673fe52e7b0
     log: |
-         2fd276c3ee4bd42eb034f8954964a5ae74187c6b ASoC: dwc: Get IRQ optionally
+         67021f25d95292d285dd213c58401642b98eaf24 regmap: teach regmap to use raw spinlocks if requested in the config
+         d287801c497151a44e5577fb3bbab673fe52e7b0 Merge series "Use raw spinlocks in the ls-extirq driver" from Vladimir Oltean <vladimir.oltean@nxp.com>:
          
 
---===============5964067955398678666==
+--===============4231852565999215902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629981850 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1629981875-9024a7268187afdc88cd143ad2ce47530b40b5f4
+pusher C3F436CA30F5D8EB 1629981857 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1629981882-413fbb14f7fc78a9b413272c91181f70cca4b4ba
 
-a8946f032eeace6eeb4e51e518275010e5528660 2fd276c3ee4bd42eb034f8954964a5ae74187c6b refs/heads/asoc-5.15
+29c34975c9391d3ad1fd5dd3c92ba0d41afe9549 d287801c497151a44e5577fb3bbab673fe52e7b0 refs/heads/for-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnjJoACgkQJNaLcl1U
-h9CjHgf/Vr9UC9n2/qG+NLvqr7byG0btBDSMpyI5pdya8B22E6c4Mj//qTi7vW9a
-MHE0pmbS2m9d7DPrGDueBkEFp15qzHQ6msGNx3qqwyy1LDZXGXrjL2HFId8tRVGN
-H66i3TAUbFHy0BgKDmMekJ4ALYQXg5bEKzKSueNfrFtOSS9K8MpKbZ0t+AJ/k0py
-7+D/mp5IrcImwWXNFj5DoiHwOjAqnIqnKEuTopJxBAauTYEij/DfhEumficd9a9I
-o15qsyd9iN3zTRNM2PIY1Lbh3/6KqiKzAv9TmYEy1Mqb9CLzt/oCCQeXKPjK3fAI
-fEzMA/TqFTcSwbQV3mEZIXscCPo7hA==
-=TLab
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnjKEACgkQJNaLcl1U
+h9Dz+Af/eXbcbBl+dp+pCiaB4DGA7RWhS/9Nnv11oTTcC1UiCwYd4YRkOoqZ3xc0
+cV/FqgbuOSnO3KI9W/HcdoFSKuOWUgbRLaROKTSiaJl+chGU7DsnRvjB2mrkXQ/Q
+yTaEEWweVcrr0oGiTlc01rSpoBgCEQX1gOPlKlsBIqy8tdtnwAPPNlt0BBzrlwBZ
+lFMr3HBohgvhnRNWfucK1p3jY42ZIOFhbJ6o216nrLtsq/gRGXRZGeoaGo5zOXqr
+As/G8hGTGRsGa6gX8Thvbb5MjYLYroSqaEj2lpApsB1mRnBRy0Zd7jikBdh9rUkY
+EGIxGsn3djYfusGHi/JLlZKzIdj09Q==
+=QLbB
 -----END PGP SIGNATURE-----
 
---===============5964067955398678666==--
+--===============4231852565999215902==--
