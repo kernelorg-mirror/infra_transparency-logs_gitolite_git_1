@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 26 Aug 2021 14:10:28 -0000
-Message-Id: <162998702813.12629.7531502318646229682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 26 Aug 2021 14:16:45 -0000
+Message-Id: <162998740587.16193.454037055492632648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-linus
-    old: c0ca99c5dd9ae2b1721612fd1ad8765466de68a6
-    new: d5f78f50fff3c69915bde28be901b8da56da7e06
+  - ref: refs/heads/review-hans
+    old: 0c59e612c0b6b94a0f1c5ccf7f4a4418dab77d97
+    new: 0487d4fc42d7f31a56cfd9e2237f9ebd889e6112
     log: |
-         d5f78f50fff3c69915bde28be901b8da56da7e06 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 9c2331d77dd2c6b7a972f0e2042b2837f115f546
-    new: 6e9c846aa0c53673c5d53925a6122aa0e53a9795
-    log: |
-         26cfc0dbe43aae60dc03af27077775244f26c167 spi: spi-zynq-qspi: use wait_for_completion_timeout to make zynq_qspi_exec_mem_op not interruptible
-         d5f78f50fff3c69915bde28be901b8da56da7e06 Merge remote-tracking branch 'spi/for-5.14' into spi-linus
-         6e9c846aa0c53673c5d53925a6122aa0e53a9795 Merge remote-tracking branch 'spi/for-5.15' into spi-next
+         34570a898eef01b5311bfc9c448877eb717d3285 platform/x86: hp_accel: Remove _INI method call
+         8ebcb6c94c712ee15679c8ee6a40598077b9a9af platform/x86: hp_accel: Convert to be a platform driver
+         b72067c64b226fc42fd5262cfbb675ec68fb4934 platform/x86: asus-wmi: Delete impossible condition
+         828857f6709f1b13582049a1ef84eadb07f50c05 platform/x86: asus-wmi: Fix "unsigned 'retval' is never less than zero" smatch warning
+         55879dc4d095232609fe81498c1b43f042708eef platform/x86: ISST: use semi-colons instead of commas
+         fb49d9946f96081f9a05d8f305b3f40285afe4a9 platform/x86: dell-smbios-wmi: Avoid false-positive memcpy() warning
+         0487d4fc42d7f31a56cfd9e2237f9ebd889e6112 platform/x86: dell-smbios-wmi: Add missing kfree in error-exit from run_smbios_call
          
