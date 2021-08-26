@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5743582153335408765=="
+Content-Type: multipart/mixed; boundary="===============3886895286501110775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 26 Aug 2021 11:41:44 -0000
-Message-Id: <162997810489.8031.8578608371648665413@gitolite.kernel.org>
+Date: Thu, 26 Aug 2021 11:42:30 -0000
+Message-Id: <162997815021.8298.2110590446679518255@gitolite.kernel.org>
 
---===============5743582153335408765==
+--===============3886895286501110775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 926d60ae64a623db3c1afcc524c23709615893d7
-    new: 4ce186665e7c3e9edde648dfb373ca0d213fb312
+    old: 4ce186665e7c3e9edde648dfb373ca0d213fb312
+    new: d98a30ccdc839947c9233369744341d1fa54439c
     log: |
-         4ce186665e7c3e9edde648dfb373ca0d213fb312 usb: xhci-mtk: Do not use xhci's virt_dev in drop_endpoint
+         50fdcb56c41904c3535687a0e1e1dbd9423a8f9a usb: mtu3: return successful suspend status
+         d98a30ccdc839947c9233369744341d1fa54439c usb: mtu3: fix random remote wakeup
          
 
---===============5743582153335408765==
+--===============3886895286501110775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629978093 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629978138 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1629978092-393a89de4fe1e4dd0cf14168a8920b204cd1c6de
+nonce 1629978137-46d3cfa512393b83252fa04efe6109a59eefd953
 
-926d60ae64a623db3c1afcc524c23709615893d7 4ce186665e7c3e9edde648dfb373ca0d213fb312 refs/heads/usb-testing
+4ce186665e7c3e9edde648dfb373ca0d213fb312 d98a30ccdc839947c9233369744341d1fa54439c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEnfe0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v1MP/3Qc3fLmUjyrr9fRP63s
-HyfylGpZT6GEnZ1+IQRgmUgPB2gLfR+pNXMgeiaC4t4/8QMY3FWTmkkawx5ZYIsg
-bLdypAEgEmL8nVN3KSyJJpcUuG8zDG+utr6dr0fVvC8sDCGp9YdXoVNvyyy8j/2d
-eMSHP4FrJ3iCUNfYJzqTTz1qrZtuEz6suYiYLMlTSLnAAdKiqIP44Botp/49Dczb
-lQgrZznCAKnKkiEzEfwGOLhRWJC7FB1ueYumNnINxMyGarA22ULob8NdmQU2upsD
-I0zSD1WMbO8KhZP55albbl38IgpIOA0BC2V0kMIrpQW8Tc+GXYKQvqm2VQxYWB1y
-XnTmfX1lDWMDjlB8eKUbdxeGBU6ycGWQ6m1Mw/VzlyIRCn1kfmAg1dZ0CNaJatXp
-E1TioO2F4F/U2E/TJpV5/Hev+AXSNu4jrdqqHxL4chrQk4i40IX4e72qH1kAS8Gh
-qFNmN/v1DbEuUMP56ZSLCm8rxb4HHaXnacy5E26rCm8nvKZBUDONKLAFhMRkFJsD
-zEEPan1Lrq5vsVhtxLkEXU1hPVBEwOLcdLt1W7/5CBJIYlNSUdsdeWhmsbW4KGTU
-8dM7yRFg3XHnX56n8ol/x6H3dZhDtAOBpEOHUE+G2gy+3Xh2ZvKpn2aqQtsKl7AO
-UJBRJNN2lbsU3ywvntUWe67Z
-=yVMo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEnfhobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+44MP/0L0YumQAVP/2NqtXfwt
+9f4uGNAlsGsQ51QQP7BmPzaLl1CatOZZzOIAA/Hddc4zTIznBiJv41ovaFIM7yhy
+wON41zyMLFtAqqtwkeiOYX/2N0oBfEYsljdxjhHpvXjORsJJDm9clXdGEGv8+yDa
+8iFxXHwBTmAqBfzgCmyu+F1QZCF2AyuAJqOGa5yaD9mgdmOLOGGF0xJog4+ohi34
+XgtlD7GZ8NX8WkCtZGWEKiLZaoFm3KZx/oO5SSn/NJKuV4S5e4D9rxnO+hS5li2w
+f04S0BvHDKUhuiq1uV8YExhNePrK2Mk4aJnZNthTpCJCj6LvO/9fwBabacsuQ4Dz
+ndN+yKJGTOYXm9XGePTrvIpDbmmURyv4DC5KN6NdQMDi0D2SrUPmNdCVNiKTQfnP
+i8Oxdrv72BA1iK0Matvymh3j2iLnT+VQPDCQMMdSaMFgKIn0kLG6QyguY40QLvaT
+F3cJpMR+UDi/16gRQ+RH9xm+LJLfW1C3H27fTkzLBPqx/LviabNjNIp+CzWbGYgf
+vh8f/Xt6XmLHMOBPJPQcU3GyW6f2hPh5ZMBD1WC+/EuUzBscLRIQ1DO1U80ImeUT
+DR+uQPTBZYnYSawHOHOFU31GlEcFH05tarlln5FlVTYznUX6x/0YRH1lyISu4HLe
+xUHDYS5cLMpdPUXUpR095s02
+=s0N5
 -----END PGP SIGNATURE-----
 
---===============5743582153335408765==--
+--===============3886895286501110775==--
