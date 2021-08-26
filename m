@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8820528285244673704=="
+Content-Type: multipart/mixed; boundary="===============4549434383319170527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Thu, 26 Aug 2021 09:03:48 -0000
-Message-Id: <162996862843.1367.8988892630423340202@gitolite.kernel.org>
+Date: Thu, 26 Aug 2021 09:06:48 -0000
+Message-Id: <162996880850.3749.16528118568529386588@gitolite.kernel.org>
 
---===============8820528285244673704==
+--===============4549434383319170527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,40 @@ repo: pub/scm/linux/kernel/git/jberg/mac80211-next
 user: jberg
 git_push_cert_status: Y
 changes:
-  - ref: refs/tags/mac80211-next-for-net-next-2021-08-26
-    old: 97ad2dc4b8b59056f4f35bb63c35398252217e96
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 8f629d4e2262f17ad3f705619afde9c9db2a7b5a
+    new: 90bd5bee50f2a209ba66f013866959a56ff400b9
+    log: |
+         90bd5bee50f2a209ba66f013866959a56ff400b9 cfg80211: use wiphy DFS domain if it is self-managed
+         
 
---===============8820528285244673704==
+--===============4549434383319170527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1629968623 +0200
+pusher 7BF9099A 1629968774 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
-nonce 1629968623-797892ccced4b494ddabdc1ccdecbdd8d38f984d
+nonce 1629968774-0c4c249f9db1bb0375d9a54fd0030c915a5b312b
 
-97ad2dc4b8b59056f4f35bb63c35398252217e96 0000000000000000000000000000000000000000 refs/tags/mac80211-next-for-net-next-2021-08-26
+8f629d4e2262f17ad3f705619afde9c9db2a7b5a 90bd5bee50f2a209ba66f013866959a56ff400b9 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmEnWO8ACgkQB8qZga/f
-l8Synw//UQs6YCKsBzW5qK5CY9nBGdvfVSl3DkUiCaho3F4NVd5pgTqCxWBK8Fzd
-3o2+AawXYkAs9PKh+1rmiXhQ023tD0n+lyV0GfNquazgSjz8xIXFmytOiTo40rWt
-pCEDWScTTrE5B/JsbYznFP0C6L5L8svxIU+EE4CT3muJyq/fe5gohbXhRHeB42cp
-mxTqMPPzjtjdaxz5cCuay26xJMeL0kks9u+IvaiDRDBKj9VsVWgkMLZ/FpYHO4PB
-vtMnuSGCn+Al9lMdawll5EsN9e5gSvYPWMJmxiD4fAHjUX9ouUzfjY9mHP40na6O
-OHt89swtmo9MyCeAVTv+Puaijjw1COUnaQJsOnLFyBmxryYgJ9ACt05yOZh2tmdV
-eRMlEP+jD2zXfyv+TQvscRQIA5azZnEhzjJTu4Qgag/ax2Ez08684xWYULjLBH9U
-kQ1VDwCj8SFsHjHoL02lTpILG9GwMrFFTgSkTrgxnNqf71ggCzxpj0eofxbVggE4
-v7w6MHC3InMLYsCi7NXGGLSioGG90Gyl/w00ZyHy7KlbvAlONYPj9ujln9fgtY1/
-KfkTVdArV/inNsk9Ddv+6Iqg1URtXo6eVEyKQJ/OJJLEhvIpjNvolpP+Qv60Te7f
-ieZNvEn9ucXI7ND7Y0g6ynLEJLGBRscSEFgwzOana9j7blKXHV0=
-=SQZB
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmEnWYYACgkQB8qZga/f
+l8S1Ag/+LapC9MX7DCsGyNOaF5qTp3nkRIltzJm4IFPB6W8neTytP/+V6Y0XA+ZO
+k/oZtq7bQ8R+n2qikmawwC6apwqS/baTLjlrbL505vZEHer3uWUv80yf3VNWZHM7
+S0z2EcCYrYh53ieyd5abZj2QM0QfuR4S97DgjQ+RnVTzPUcW6d0GLwS6nBYar3/p
+ZMNEg7a1/3/oywygHlIQAYvkekhtJOY9T6S8sM+ckhnqGBJ5GEAA5cx1u42veI6n
+BoGi1hhjsSYSJ+2eZP7zx/L13UuNjXqreLNju0o+FZCWvmC0ge0hM3UEu2BWKjof
+j6/5R+puPWmlFxqjv2J8MjAVCXuwrxzJDo/t7lA5jJh07Hc1KF+n5UteC33JoNek
+YjQyofNXC7Mzt81Qx8dozDUqWX3qoeW9gFQB5zmoV0oMYAyWTGibbmZsNDbUnOji
+xBNDj73ICnsEKeBAauZcJLNu/2g9oxPSSh2uRqxFPU8D6eRQ2fQylBP3LRS1jiQY
+oh78mGKchd73/2uszzxxOuhvAbA6YAgGp4npBn1GKKjWZ5PgtfaYQvX9aNmRnVDw
+h8pxrPmQKQL6QW88OulRXP70Hm9274cEyT4MeaKuo4NQq0l8U0OqT751H/Ejc8oX
+jDHGuNOWGqOzisuir0WMyVKBYZCDWZ30HaGbt7xKSRsTrAlzj0A=
+=dalt
 -----END PGP SIGNATURE-----
 
---===============8820528285244673704==--
+--===============4549434383319170527==--
