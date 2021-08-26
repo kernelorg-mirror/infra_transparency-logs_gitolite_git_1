@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 26 Aug 2021 09:45:06 -0000
-Message-Id: <162997110632.29218.15596035425120928687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 26 Aug 2021 09:45:39 -0000
+Message-Id: <162997113975.29453.4816032194242950888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: b13cead1eca5d8f26eda6c85fb0d6f618f154cdb
-    new: 5e8243e66b4d80eeaf9ed8cb0235ff133630a014
-    log: |
-         5e8243e66b4d80eeaf9ed8cb0235ff133630a014 octeontx2-pf: cn10k: Fix error return code in otx2_set_flowkey_cfg()
-         
+  - ref: refs/heads/zynq/dt
+    old: 0000000000000000000000000000000000000000
+    new: c387eea58f931fe5d008df88cc75dfc3c704e3bf
