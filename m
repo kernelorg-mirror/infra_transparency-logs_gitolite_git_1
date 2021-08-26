@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Thu, 26 Aug 2021 16:37:12 -0000
-Message-Id: <162999583289.11479.9266796915368201261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 26 Aug 2021 16:37:33 -0000
+Message-Id: <162999585385.11667.5531087457888036936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/next
-    old: 42c7ada5aa379ab3431a86c831cb7f7f0e7bf068
-    new: 91604f11f3a0b3b3e6914e5111f0441b325c3391
+  - ref: refs/heads/whatamess
+    old: aab180300ea89f761383deaa660608852f442743
+    new: 639325fc4f791b5044fd7f1837cb3c5a355cefe7
     log: |
-         580425bb15080290762c3c3747da56c19b9957b0 dmaengine: idxd: fix setting up priv mode for dwq
-         522498dec70f4e9185546fc85200ca233201a292 dmaengine: idxd: remove interrupt disable for cmd_lock
-         84397e8eeb955d4f8110aeebaa6fe5816f4c7952 dmaengine: idxd: remove interrupt disable for dev_lock
-         3877ec7db2e77191b15c8dcc55edd20d5ba63133 dmaengine: fsl-dpaa2-qdma: Fix spelling mistake "faile" -> "failed"
-         2a99524459ce06d4bc2b82012e53bb3d45a7c15d dmaengine: ptdma: Initial driver for the AMD PTDMA
-         a5c6b041ce114b7513f75d3f55bcbb72392c3e39 dmaengine: ptdma: register PTDMA controller as a DMA resource
-         91604f11f3a0b3b3e6914e5111f0441b325c3391 dmaengine: ptdma: Add debugfs entries for PTDMA
+         36ca7943ac18aebf8aad4c50829eb2ea5ec847df mm/swap: consider max pages in iomap_swapfile_add_extent
+         72a048c1056a72e37ea2ee34cc73d8c6d6cb4290 xfs: only set IOMAP_F_SHARED when providing a srcmap to a write
+         f38a032b165d812b0ba8378a5cd237c0888ff65f xfs: fix I_DONTCACHE
+         03b8df8d43ecc3c5724e6bfb80bc0b9ea2aa2612 iomap: standardize tracepoint formatting and storage
+         9000dde50febce8ae53c4b4ca05bccebe9c2ee1a Merged korg/iomap-for-next at Thu Aug 26 09:37:21 PDT 2021.
+         639325fc4f791b5044fd7f1837cb3c5a355cefe7 Merged korg/for-next at Thu Aug 26 09:37:22 PDT 2021.
          
