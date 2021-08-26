@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7170880879509562962=="
+Content-Type: multipart/mixed; boundary="===============4317954877137477668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Aug 2021 14:09:11 -0000
-Message-Id: <162998695150.10475.6088910021520104182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Aug 2021 14:09:18 -0000
+Message-Id: <162998695843.10600.7948117662258809586@gitolite.kernel.org>
 
---===============7170880879509562962==
+--===============4317954877137477668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 2fd276c3ee4bd42eb034f8954964a5ae74187c6b
     new: 515b436be291ff197c52198282bbb19e79c9d197
     log: revlist-2fd276c3ee4b-515b436be291.txt
 
---===============7170880879509562962==
+--===============4317954877137477668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1629986923 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1629986949-3003247a0fc0ea6026390a165a44727adc3aac39
+pusher C3F436CA30F5D8EB 1629986930 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1629986956-b8d84a2ed92e957e463da62570f2e563e3843d36
 
-2fd276c3ee4bd42eb034f8954964a5ae74187c6b 515b436be291ff197c52198282bbb19e79c9d197 refs/heads/for-5.15
+2fd276c3ee4bd42eb034f8954964a5ae74187c6b 515b436be291ff197c52198282bbb19e79c9d197 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnoGsACgkQJNaLcl1U
-h9Cvagf7BmeKGCoVbrCDJoPWNPNLX9H0oK7aLe449gaQg3tSg9vhLr85lIgQFeO3
-2iqGZhSMWN5l/fgwZst4t/Fq1L5X48tmsOxy5guXQAV2G3/3m78cuN79UthF52rh
-g8jw5GvlMM9mbgtydJ8xyMUscSezTYMaKPxAhdU1KKFChyfuJ3GzJzUpkjy3FxSu
-lvj+o66L6e5o5XbDVT9+vnz1MYV1XWjBB2Hje4DhuVB9KboqvXOkxqPwy1k5wB1Y
-tr38iHWaTQvAsONrcdA5raFrhUL/9NXYQZ13V2g63CGXZeab3skHpkA4ur5oRmL9
-bAXXjkdwEgw0AvCVqzv4wOC2ygMRvw==
-=7qQC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEnoHIACgkQJNaLcl1U
+h9D+wQf/d4R1wN9oqmBBG+4FaoYef8Tc02XSAYf0zhPdgWH4TSzR0Bh9r+rDLq4/
+ci0acVPtA8MsUIPy52dd4XiNghI2J0iA297ge5p/dN6P6QeZQ8B/moY+xrMTgSbp
+ipOB7jXfJuZvCAOeJcDmWgUHXtmq1c4rpAiZrC7/cJRY8neoxppelUa5XmeaBmvA
+QVrSfGFmdif3IyTqE5JR7A1QAW47TkizCdM7nmnmeXSUhMNia1lHTJQB+FMmjTgi
+C0FPUUt/ubpZ6gIUEeVrIIQ7KEY1zQ37Dbuv6AjY7qIym0dswTYs+Zixk3X7/E9H
+IWtD1OeBi9BLVYe63TvUREvjqf3u5Q==
+=Nskq
 -----END PGP SIGNATURE-----
 
---===============7170880879509562962==
+--===============4317954877137477668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ d5ceed036f7cde29bf17173e9a9c8bbde0a70389 ASoC: dt-bindings: rockchip: Add compat
 dac825b6a6bdca41347e25f07354ad94fdc97445 Merge series "Patches to update for rockchip spdif" from Sugar Zhang <sugar.zhang@rock-chips.com>:
 515b436be291ff197c52198282bbb19e79c9d197 Merge series "Patches to update for rockchip i2s" from Sugar Zhang <sugar.zhang@rock-chips.com>:
 
---===============7170880879509562962==--
+--===============4317954877137477668==--
