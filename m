@@ -1,56 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============7939791300235650331=="
+Content-Type: multipart/mixed; boundary="===============3388063510918233930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Thu, 26 Aug 2021 12:52:06 -0000
-Message-Id: <162998232691.23755.9995416735686043851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 26 Aug 2021 12:52:49 -0000
+Message-Id: <162998236914.24075.796809338376414462@gitolite.kernel.org>
 
---===============7939791300235650331==
+--===============3388063510918233930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a423cbe0f21353ac1e63aad037fd5ccf446440bc
-    new: 733c99ee8be9a1410287cdbb943887365e83b2d6
+  - ref: refs/heads/tty-testing
+    old: 88c1d2478ec8a420cf60a3c25503e37b34fea5aa
+    new: bb2853a6a421a052268eee00fd5d3f6b3504b2b1
     log: |
-         96a6b93b69880b2c978e1b2be9cae6970b605008 rtnetlink: Return correct error on changing device netns
-         733c99ee8be9a1410287cdbb943887365e83b2d6 net: fix NULL pointer reference in cipso_v4_doi_free
+         322003b907d6c74d16154091bca492a2b2829ac0 tty: moxa: use semi-colons instead of commas
+         2285c496392979c9ac9d84e19a313ee9212d9b62 mxser: use semi-colons instead of commas
+         d5c38948448abc2bb6b36dbf85a554bf4748885e tty: serial: fsl_lpuart: fix the wrong mapbase value
+         48422152a8f1c290f74d8fb16ec6c77a1263834c tty: serial: fsl_lpuart: enable two stop bits for lpuart32
+         bd5305dcabbc208560521bc0617f0a82715e41c9 tty: serial: fsl_lpuart: do software reset for imx7ulp and imx8qxp
+         fa934fc1a8679f0704dddaefb6946c3da26c58a5 tty: serial: linflexuart: Remove redundant check to simplify the code
+         618bf2b04bd6a903a9ebf0edb8d1700ba9a1a6da serial: 8250_ingenic: Use of_device_get_match_data
+         a6a65f9ee0937d02e8084ee1ed305e38aae848e6 serial: tegra: Use of_device_get_match_data
+         74d2fb7e708433b7397d9647ea7ec1cbcb0ae379 serial: vt8500: Use of_device_get_match_data
+         bb2853a6a421a052268eee00fd5d3f6b3504b2b1 tty: Fix data race between tiocsti() and flush_to_ldisc()
          
 
---===============7939791300235650331==
+--===============3388063510918233930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1629982285 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1629982284-91caf1e383875907c823116c28a4d201684df713
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1629982355 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1629982354-3bcd15cc31cab541bff909bf47da0ee8844dd745
 
-a423cbe0f21353ac1e63aad037fd5ccf446440bc 733c99ee8be9a1410287cdbb943887365e83b2d6 refs/heads/master
+88c1d2478ec8a420cf60a3c25503e37b34fea5aa bb2853a6a421a052268eee00fd5d3f6b3504b2b1 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmEnjk0ACgkQB8qZga/f
-l8TNjBAAioUaf39iidC2mprQ/1BQDE5uR7iGe+nP6YcR3Vg3ZTZI2sW4xFmMYdRO
-hDQ3OzUge/863m+Z6s+d7zPYKli1bo90XSkXNPmG0HzySu+oe9mQx3+2AiOxW2TV
-HsRGZ0H2am5QWwEDSl6RKXFgNL5x1fVpP2YnMnFb1ntrTdLj8MDbnckGHiIBESPd
-Sl74VY1t54q/EXrbKiMcnb2mdYy4nciI0savMPnHaIMKztfwfGb+5fbQbm6664lC
-PHaNLoHqmUUKPpI/1U3cQU6/RkEvXiOnsy0ojSAdrcS1/yINKLbDfl6peKqoVxC5
-1qY/1GlIoCaz3KjpcAP9pVK+HO7xgj4afeWWBjaR7dz7MeEAVK+6HydokAakFRcN
-Uu92Iu4G2eacBXbQtuWdqLZRqdQ8wnTXfqTZknGjq03Ce6yssafqpNb+tFKLFa3i
-MAN54PYRTYsSd0h6WMCWLti+Z5SOMWPVwh+TC54XVQ8mokHHhyopZtXffN20Rj/j
-TDahBKQa8bg8D/nYbyjEmqS5zqszaYus4b4C+lz8Em0/l4EWKy+wsZ0eiLCb/I6y
-SDAQAx/s5Sp4SksHTdFm908gKms280i+ynkoEEmqxNDL4fGZqUOSCMxJE4B6QqwK
-7soaFNpqE9DMReds5MQkmgpzsaPtiAOzjypg1YpfN/7iAopQgOA=
-=FMKQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEnjpMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TOoP/iNXZE5HDktYooN09gsg
+1ZYA5qNR7CUIvFWIbL8wxbo9fqoAgIESvJ8YBhJhaWnxa6ym7OCIbAJ9PthB7iUq
+c44KhJL3YnreYuz9++dg6fNDBTyvPAdhQ4p75LFGt4JhSEpAriU0Pzeo7RVyhbo0
+njbxQKyOYxwcT7x/QkdQpqfD5c438FKeA2CPA6zi282gRgeVd2johe2GIVFHzRc2
+70h0JzYqHQp7857f555Y3NGvSM8yMQUIY+M37YVucGeYprQjyw0ghIA8IPeqjkli
+MHKQpyFJRgEhMQ00xqceNmniH9nhcehSSoDx6o7QVJKQuSfsFHXDNTEOD9IPYp5q
+j9JczuqX5Idvk/3kF6IaW0X/IjfvzVglAKD3QfprpU+hiqImxe+EqYjOnEs2unC1
+z4diX/sSWeik1bMoOa+A+JXKAWcraHHZnN10K7lMOi7si4AHTcQzKKuqIjllQYwn
+hCYmfvx613CM1RaMcHqzHUeoyy/N/yK0noLnRvx2J4zQPtxtwJHhM4pZvhCEVFGA
+W42LUw8prbsY5wO6f3FZjGxdyoPiXwzTLOJxRMZED/VG+id5l5U92pyPfqgEB9hO
+ELECQdooXF7CLC6ee97TY9TlPqFJD26XZ6qbZIe/1IRiU7kFX8fM4SFrLy/NT/eE
+7oSxn5M9RO4wRTJyMCycvla6
+=Kub5
 -----END PGP SIGNATURE-----
 
---===============7939791300235650331==--
+--===============3388063510918233930==--
