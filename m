@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7636041740467378002=="
+Content-Type: multipart/mixed; boundary="===============2651461501838528553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Aug 2021 18:15:44 -0000
-Message-Id: <163000174452.11811.9226811059191015852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Aug 2021 18:15:51 -0000
+Message-Id: <163000175176.11952.13480386965262245338@gitolite.kernel.org>
 
---===============7636041740467378002==
+--===============2651461501838528553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 515b436be291ff197c52198282bbb19e79c9d197
     new: 52c64e5f7b79ce5c366ea88e7f02d81affeb1300
     log: |
@@ -28,28 +28,28 @@ changes:
          52c64e5f7b79ce5c366ea88e7f02d81affeb1300 Merge series "ASoC: wcd9335: Firx some resources leak in the probe and remove function" from Christophe JAILLET <christophe.jaillet@wanadoo.fr>:
          
 
---===============7636041740467378002==
+--===============2651461501838528553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1630001742 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1630001742-77f5063f4086006fba3552484ce424b9721f3305
+pusher Mark Brown <broonie@kernel.org> 1630001750 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1630001749-7dda94f08ea630bdb91882472663ee98960eb03d
 
-515b436be291ff197c52198282bbb19e79c9d197 52c64e5f7b79ce5c366ea88e7f02d81affeb1300 refs/heads/for-5.15
+515b436be291ff197c52198282bbb19e79c9d197 52c64e5f7b79ce5c366ea88e7f02d81affeb1300 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEn2k4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LARB/4yElYSA2ifii4KBMfrirXBeiEFVEZR
-vcpzVi8cvPmENSxuifHBD+6fO6k9kpjk1SmraLFQba+HML5mh5ThPQoHj4MN2NYd
-LUM3LhqtS+RqXUnaHbmMA0RRRXUXqDLDQ/acAaSypRGd814VYqoI/aGJC5hJ+p39
-rNFn7txDxl1We0kOaKUZzJTAF7jMWoUx60Na+tK6kWeamwbrqcApFyNulHTwdc2J
-newDbNDZevPc2MO5QMaTAV9TjSvvIsR27lPC9imm4YV3DVPPfSW46mju8GOFK64a
-xQTvosvdoOeuMIpPRg3ejswCynb71TPVBSA3x+SqWeR9hDTyfXqUjtXZ
-=gDB5
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEn2lYTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0KHJB/0aQ/T3F7PDKLPfy/IQ7HFgpr/lR3iv
+g1y5LS+kw4D75fgsFLNaw3F+OPq9h76LlW0L3ZUKBIiJBpaD/QMJNWtyaHCx3b7I
+5uhIHLNMPRMGXzdRq6HH9vGDBr+yNkCG/D482CV2uIyJ6kqpoISNbbRzYxEFgmxt
+LEQgwsEbgW4GIYsvFY9+8inCet3RIwc08w6L8zCQqGhTcP3PodvI2xLtGvHfI9p9
+IVvh7imnvan5cFOwtfmFejw6sfdEazyzYyNRqu0Ba9sDvDH0PZmvfbWlneSseeGi
+1SpAlDc2gF+WGYCKZCuw8QpHPJNxE45YwxbLgDOiWEiXVmUZqN3S5GzK
+=k7WH
 -----END PGP SIGNATURE-----
 
---===============7636041740467378002==--
+--===============2651461501838528553==--
