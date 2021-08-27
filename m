@@ -1,55 +1,98 @@
-Content-Type: multipart/mixed; boundary="===============8688229936852842889=="
+Content-Type: multipart/mixed; boundary="===============6661066610455097208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 27 Aug 2021 07:41:21 -0000
-Message-Id: <163005008115.19443.8526845330470886966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 27 Aug 2021 07:42:01 -0000
+Message-Id: <163005012168.19784.12928764296140347635@gitolite.kernel.org>
 
---===============8688229936852842889==
+--===============6661066610455097208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3d892e9692fbea82f19c1be4d212891c84587ccb
-    new: 091fbf1fef4808f0ccfe0ff8c333aedf833b8782
-    log: revlist-3d892e9692fb-091fbf1fef48.txt
-  - ref: refs/tags/man-pages-5.13
-    old: 0000000000000000000000000000000000000000
-    new: ad2d14dc4718016452840393e569eaf89264458b
+  - ref: refs/heads/usb-next
+    old: d7428bc26fc767942c38d74b80299bcd4f01e7cb
+    new: d98a30ccdc839947c9233369744341d1fa54439c
+    log: revlist-d7428bc26fc7-d98a30ccdc83.txt
 
---===============8688229936852842889==
+--===============6661066610455097208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d892e9692fb-091fbf1fef48.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b3987057c60658034e65316e06e4a00c05de6c04 umount.2: ERRORS: add EINVAL for case where mount is locked
-74ed673c59598618c56131a6f1e656cbaaf0a3c8 mount.2: ERRORS: add EPERM error for case where a mount is locked
-ee54e5d5ccc83785d1be7db4cc95c9f6ef57dd96 mount_namespaces.7: More clearly explain the notion of locked mounts
-88ebfb241b2b2f32b4f98daf6420ef6b89b1bac2 mount_namespaces.7: Add further details on locked mounts in a less-privileged user namespace
-44f2a6b8cd2a0268a7de98e4ebc1761126a77f03 mount_namespaces.7: Repair earlier text after injection of new list item in previous commit
-a66648bbd10f518b98ff6483b78a3dc6de5d0210 mount_namespaces.7: Relocate the "Restrictions on mount namespaces" subsection
-aa62e72dede7addf5bfe236503aa7cfeee2848ec mount_namespaces.7: wfix
-5aea19ed35bd2ad3106cd156056df268d68bf467 mount_namespaces.7: wfix
-8c9a82742976dc98578338ef886776f06c0ab3f2 mount_namespaces.7: Terminology clean-up: "mount point" ==> "mount"
-82357e60d7f8564acaecb7061b2f7dcab6e76d0c mount_namespaces.7: wfix
-2433a20ce13523cca261cb83377619715602f89f mount_namespaces.7: Minor wording clean-ups in discussion of less privileged namespaces
-f6aaf493f8640844230c1959d71a9f33f2dcdc26 mount_namespaces.7: wfix
-ebc82e00ee7954be8b6589925e1534c57ef2ad9c mount_namespaces.7: Note that it is possible to stack a mount on top of a locked mount
-906ab4945cd31daa0fb13c22f4a1dc02d3061e67 mount_namespaces.7: Rewrite locked mounts examples to use/etc/shadow
-ababc346b30a04c8aef91f08e0cd06380796820a mount_namespaces.7: wfix: use numbered cross-references in list of restrictions in NOTES
-24483c2782bb4b651b0cd3804efdeaf369cb8a45 mount_namespaces.7: Minor wording fix
-9428bb9d8a694d2d365126c3d8af94f9ff9c5cfc mount_namespaces.7: tfix
-111ccf7e901ab9f383b50d88bf8c0b39dd4c1e83 iconv.1, iconvconfig.8: FILES: note that files may be under /usr/lib64 rather than /lib/64
-fb74563941f0c28cdfb7e503474dc2119c843423 getaddrinfo.3: Note that 'errno' is set in parallel with EAI_SYSTEM
-a7846609db2751694c98faa975657ccf990a747a Changes: Ready for 5.13
-6e00b7a858ed817de14433bcc94a34d1edea2f9c iconv.1, ldd.1, accept.2, access.2, add_key.2, arch_prctl.2, bpf.2, chmod.2, chown.2, close_range.2, copy_file_range.2, execve.2, execveat.2, fanotify_mark.2, futex.2, futimesat.2, getpriority.2, intro.2, ioctl_tty.2, keyctl.2, link.2, membarrier.2, mkdir.2, mknod.2, mlock.2, mount.2, mount_setattr.2, open.2, open_by_handle_at.2, perf_event_open.2, pidfd_open.2, readlink.2, readv.2, rename.2, request_key.2, seccomp.2, sigaction.2, stat.2, statx.2, symlink.2, syscalls.2, umount.2, unlink.2, utimensat.2, wait.2, bsearch.3, fflush.3, getaddrinfo.3, getauxval.3, getopt.3, getsubopt.3, mkfifo.3, pthread_mutex_consistent.3, pthread_setname_np.3, pthread_tryjoin_np.3, scandir.3, sem_wait.3, stailq.3, strlen.3, strstr.3, termios.3, tsearch.3, wcslen.3, wcstok.3, wordexp.3, proc.5, capabilities.7, cgroups.7, fanotify.7, mount_namespaces.7, namespaces.7, path_resolution.7, pipe.7, posixoptions.7, user_namespaces.7, vdso.7, iconvconfig.8, ld.so.8: tstamp
-091fbf1fef4808f0ccfe0ff8c333aedf833b8782 Ready for 5.13
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630050120 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1630050119-f717c07da1c586ab63807ae034a031eb196cdefe
 
---===============8688229936852842889==--
+d7428bc26fc767942c38d74b80299bcd4f01e7cb d98a30ccdc839947c9233369744341d1fa54439c refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEol0gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JDkQANXpl3MzO+w2PClZ+r1n
+qHY8+sWVuF0ZLjd2/hOYndNyqCTN6FeA3noO5Lil0L5sUjOT71cU7QGaMrVvW9tA
+PVAekGI8EWFTaUzzhC69u3qN2ydcRZiKxff8hGgFdMnEI8kFocYosovphJELrIdf
+xOshFUk8439o2dB1agmFtPFVJ2FOzR5f/5cR2xFl2vGiG3CWg2x8soEqZUU4jJFC
+EZALDDXqI+N5jc/8ItpjEnvW9qS9V0ykxaTnjXHcuRma3hLwzGI5e2OltsjDDgu/
+w4ony1xxiw0OPtMiG8EgzVWnMLU9ncFUi0/DzbKJPAwUxubekv80WiE9k/hfeAuY
+45Nvsjr0Cwx1S9aMsqbJFYT8krOYJroYeNPcseUJzfR8ES3bf/MAnS1JPft8yy1w
+xYjeSx+TvP4xT4/0557114PglnMK5eJyx1cuQm65FEW9uoSPFajvDTfh1ZsXPO8t
+2+wVjwGaBZJYibRKRBu7pK2d9gaWn5x8cz1WG6Z0NxzmuGbXeQ2soNlzRI+C3loi
+vf/L5CwDN/DLP7jC/GklaKGfxxq2VhxflFOpcnbqaG94nwYQdNXOQpotZAVKkZEK
+HAf/mjtZKpVgh5XswrFuATzjt+/cANOD/r4k6ELwHF7j44ggZdkx5mKq6mg93gWn
+HYE0Y061vYKpknpHA2wu0rXh
+=9NLR
+-----END PGP SIGNATURE-----
+
+--===============6661066610455097208==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d7428bc26fc7-d98a30ccdc83.txt
+
+cbf286e8ef8337308c259ff5b9ce2e74d403be5a xhci: fix unsafe memory usage in xhci tracing
+4843b4b5ec64b875a5e334f280508f1f75e7d3e4 xhci: fix even more unsafe memory usage in xhci tracing
+94f339147fc3eb9edef7ee4ef6e39c569c073753 xhci: Fix failure to give back some cached cancelled URBs.
+2847c46c61486fd8bca9136a6e27177212e78c69 Revert "USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set"
+0d9b9f533bf1aa555fcd28fa459332b7731316b3 xhci: Add additional dynamic debug to follow URBs in cancel and error cases.
+669bc5a188b40a4edc9c2a42e5b32f19182767d9 xhci: Add bus number to some debug messages
+4720f1bf4ee4a784d9ece05420ba33c9222a3004 usb: ehci-orion: Handle errors of clk_prepare_enable() in probe
+6a48d0ae01a6ab05ae5e78328546a2f5f6d3054a usb: dwc3: imx8mp: request irq after initializing dwc3
+1abade64563ef5388db545b55cf158e849f6e717 usb: dwc3: pci: add support for AMD's newer generation platform.
+7c75bde329d7e2a93cf86a5c15c61f96f1446cdc usb: musb: musb_dsps: request_irq() after initializing musb
+0b9f6cc845ce8ea4ee72bfabbaf9bfbf68f5fbde usb: gadget: mass_storage: Remove repeated verbose license text
+5786b433f721059f65b55a5ed0520ff5c375697d usb: gadget: aspeed: Remove repeated verbose license text
+258c81b341c8025d79073ce2d6ce19dcdc7d10d2 usbip: give back URBs for unsent unlink requests during cleanup
+5289253b01d7bfa5e8ae23fdc2482acacd301e7d usbip: clean up code in vhci_device_unlink_cleanup
+66cce9e73ec61967ed1f97f30cee79bd9a2bb7ee usbip:vhci_hcd USB port can get stuck in the disabled state
+9fe3c93f9de702fa764351201c574a9d0769fab3 usb: gadget: Add description for module parameter
+8472896f39cfab2d8fec9ca746070aaf02609169 usb: isp1760: ignore return value for bus change pattern
+8e58b7710d6634ed46ae26fedb8459f84f08fd51 usb: isp1760: check maxpacketsize before using it
+5e4cd1b6556302fe6a457e525c256cbef3563543 usb: isp1760: do not reset retval
+7d1d3882fd9da1ee42fe3ad3a5ffd41fb8204380 usb: isp1760: do not shift in uninitialized slot
+de940244e8987a76d73fb2b0057ecd494cbfeefd usb: isp1760: clean never read udc_enabled warning
+76d55a633ab61e70cb56720830e7be3dec0842fe Revert "usb: xhci-mtk: relax TT periodic bandwidth allocation"
+f2a9797b4efe54c94cc5ceb82ce1a4fba8b70a51 Revert "usb: xhci-mtk: Do not use xhci's virt_dev in drop_endpoint"
+d2f42e09393c774ab79088d8e3afcc62b3328fc9 usb: bdc: Fix an error handling path in 'bdc_probe()' when no suitable DMA config is available
+6f15a2a09cecb7a2faba4a75bbd101f6f962294b usb: bdc: Fix a resource leak in the error handling path of 'bdc_probe()'
+51018cde5b55b7b0d65af0d363531cddd360fe11 dt-bindings: usb: mtk-xhci: add optional property to disable usb2 ports
+e2cd76907fcc8c7438a50b4c44a8073f2228208c dt-bindings: usb: mtk-xhci: add compatible for mt8195
+7f85c16f40d8be5656fb3476909db5c3a5a9c6ea usb: xhci-mtk: fix use-after-free of mtk->hcd
+7465d7b66ac73db87b9eb99be01500093f80b575 usb: xhci-mtk: support option to disable usb2 ports
+de5107f473190538a65aac7edea85209cd5c1a8f usb: xhci-mtk: fix issue of out-of-bounds array access
+451d3912586aad3f71f1c97780a1c21e3de98413 usb: xhci-mtk: update fs bus bandwidth by bw_budget_table
+614c8c67a071d44be54266b78c21e2a505ac1b32 usb: xhci-mtk: check boundary before check tt
+82799c80b46a151abc693b20ffea08bfba14be8e usb: xhci-mtk: add a member of num_esit
+926d60ae64a623db3c1afcc524c23709615893d7 usb: xhci-mtk: modify the SOF/ITP interval for mt8195
+4ce186665e7c3e9edde648dfb373ca0d213fb312 usb: xhci-mtk: Do not use xhci's virt_dev in drop_endpoint
+50fdcb56c41904c3535687a0e1e1dbd9423a8f9a usb: mtu3: return successful suspend status
+d98a30ccdc839947c9233369744341d1fa54439c usb: mtu3: fix random remote wakeup
+
+--===============6661066610455097208==--
