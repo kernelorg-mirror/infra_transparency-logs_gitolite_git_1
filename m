@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 27 Aug 2021 20:57:13 -0000
-Message-Id: <163009783376.10099.5798911430896281666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Fri, 27 Aug 2021 20:57:16 -0000
+Message-Id: <163009783681.10206.9542325279096717760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/dev
-    old: 2717b14fb5fc57e5f131cc0bac26c85fc03a0cd2
-    new: 8ef30c32c9539a02388be2646bfb82cb24c0c40b
+  - ref: refs/heads/master
+    old: b56400f81ddd42e0e57372c957e668e6d5a72834
+    new: de1130dbfe6d4ce99422b11cac147d39448bcd40
     log: |
-         8ef30c32c9539a02388be2646bfb82cb24c0c40b EXP cpu: Print out jiffies and next hrtimer expiration (relative)
+         de1130dbfe6d4ce99422b11cac147d39448bcd40 Speculative fix for build failure.
          
