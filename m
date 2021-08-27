@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 27 Aug 2021 09:42:15 -0000
-Message-Id: <163005733511.19071.9128997248516006658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 27 Aug 2021 09:45:57 -0000
+Message-Id: <163005755738.21752.13569460480893715055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 34af7aace17c2d6ab0263deb306b7469be8085b1
-    new: a4de0bfdcc81325dc551884e8b2f36f8ab3d4344
+  - ref: refs/heads/testing15
+    old: b39487e2a44281f4091b4f3e61c242c0f25c8ac7
+    new: 2a0fa2c20909ecd086237c022282aa5010c4bc01
     log: |
-         171f0b5a6559ca5b15a647733a2b107f2dc8df03 PCI: visconti: Add Toshiba Visconti PCIe host controller driver
-         a4de0bfdcc81325dc551884e8b2f36f8ab3d4344 MAINTAINERS: Add entries for Toshiba Visconti PCIe controller
+         43073b9bd5d85d15f07f0bf8225ac8a0ac163cb5 kbuild: merge objtool_args into objtool in scripts/Makefile.build
+         55df98047ebe6f5dc9845d9d17995a03866ab6e0 kbuild: rebuild *.lto.o when objtool is changed
+         55110c0d428457f389b3c925d3ba7feb97709d97 kbuild: do not create built-in.a.symversions or lib.a.symversions
+         2a0fa2c20909ecd086237c022282aa5010c4bc01 kbuild: build modules in the same way with/without Clang LTO
          
