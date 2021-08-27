@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 27 Aug 2021 21:50:06 -0000
-Message-Id: <163010100675.13520.14142285473773463353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 27 Aug 2021 21:56:37 -0000
+Message-Id: <163010139750.17000.16393633754810622507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/block-5.14-2021-08-27
+  - ref: refs/heads/zynqmp/dt-late
     old: 0000000000000000000000000000000000000000
-    new: 11cd8174eeb41fbd4575a3eb82bcfe1ea9bd951e
+    new: 479c46133c0573b6549e437165bff1422634f45f
