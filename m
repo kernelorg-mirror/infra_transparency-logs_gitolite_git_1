@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3890156026825652657=="
+Content-Type: multipart/mixed; boundary="===============7768607016265713876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 27 Aug 2021 14:12:25 -0000
-Message-Id: <163007354584.4265.9751433893676914313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 27 Aug 2021 14:18:11 -0000
+Message-Id: <163007389153.7924.5396072587825019464@gitolite.kernel.org>
 
---===============3890156026825652657==
+--===============7768607016265713876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: f73800a905a8a9c35b989e8de9ce5cdf328c2b63
-    new: 9c1587d99f9305aa4f10b47fcf1981012aa5381f
+  - ref: refs/heads/staging-testing
+    old: 7990b535d2987201187d750f809ed17b502eb608
+    new: f6bc526accf861728d36b12fbc25ac94cd057fc9
     log: |
-         f757f9291f920e1da4c6cfd4064c6bf59639983e usb: isp1760: fix memory pool initialization
-         cbfa3effdf5c2d411c9ce9820f3d33d77bc4697d usb: isp1760: fix qtd fill length
-         36815a4a0763bb405ebd776c45553005c1ef7a15 usb: isp1760: write to status and address register
-         955d0fb590f18ec5c3a4085c7d0e39b6abde0dd6 usb: isp1760: use the right irq status bit
-         9c1587d99f9305aa4f10b47fcf1981012aa5381f usb: isp1760: otg control register access
+         71419e03d85ff3e46b3c61238bd1e369f313c280 staging: r8188eu: Provide a TODO file for this driver
+         a01b0006de7632656b2711b67c1d59b76af4d6a2 staging: r8188eu: rename struct field Wifi_Error_Status
+         9f30a2312c0b6d19f444903491ff794ad40b6009 staging: r8188eu: rename fields of struct dyn_primary_cca
+         9f801ac94d8b6613174a1bafdac684a1c05646ba staging: r8188eu: remove ODM_DynamicPrimaryCCA_DupRTS()
+         f6bc526accf861728d36b12fbc25ac94cd057fc9 staging: r8188eu: rename fields of struct rtl_ps
          
 
---===============3890156026825652657==
+--===============7768607016265713876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630073528 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1630073531-4ae2e7e418431b1f643141f12f8cde91f333670d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630073875 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1630073878-5ae56c5acf840a038674f966527c1a76963f725b
 
-f73800a905a8a9c35b989e8de9ce5cdf328c2b63 9c1587d99f9305aa4f10b47fcf1981012aa5381f refs/heads/usb-testing
+7990b535d2987201187d750f809ed17b502eb608 f6bc526accf861728d36b12fbc25ac94cd057fc9 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEo8rgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HKIQAIL0ejVsBITaIwSkDgQZ
-dQXeAlW6Fx43HeaBatvG/IaorbZudJWcneHtoysIr9+QmaL2ZfqT4LeqK1tIxKrm
-Gc1DIVlceJgC/6EjwOmWujaSccr/tkRXLEFOXB33jK3hbQOpSi/jgOeQRq7sh9Jv
-tcQPbrtCIjBVQoMJ9xeIQ7NKpAdLb+0Y+GYVigeg7st/uFq34gv4GGiUl5KxgDI0
-uG4FT+PZhQ71hwMm8m/vEVT1+AHEZuSqppNT5AH//yjNhj3ALRy2pHbeR0xmzCS7
-cy6x62GtEmRK5f8VqKLvRL5Q1MB94M3R2t6SPsJkCyZzqS+4OdkDPWqKjiY56iDT
-vO0LuOXpVNQ9hggcEQypZjBMhg57ExP+UiTURQ6iZawWkm7Oa8i8vid0/FFipbyJ
-pi4TZHYjU7hQGm6flQIAQpGXMs3XaOnKbZiKV1UIzOAFND1lKrBE/0+6OF4LNDbA
-Gf4W4FTtosCVecZ2M73cVWr62lG7Wp4k2DiwWZnE/aKRtaVIm1csVT20AgSy2O0O
-fH/H+bIVO0GAT/6CiL4GfnnFLMwcT/TVC1f9PNeQv4nfIvgnHfMW+H8gt8p7r7il
-mM/grx7Avk3tb6eI3rD95IL1mrwwcD/Ct6tVdDWZrdu3L0N1kTy83h6DPFvYHpbH
-z9UG9UOWCcUClLR6zJA8Ffzg
-=8faz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEo9BMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0vgQAK6TIY2JRM/lSfL4FDRh
+joJYBPc9IDcB/qI4lr2b/S/wbS3Ivt17Xt5BhLEtKnyPIa3RaBn2Es20G3YiY3Rx
+uIUhl64KfxoXGf3LfAcNIN6lWm9CAuKbYZ2OG2f1Z/7dRGI8sVPsk4W9lQnhUbzx
+OLPe8EoVJGvk2zPRVG41S/osIZBL7Sg6sWbHAyOOlGXJ3f37XM8+L4SWmyGo6tOp
+fyFPK1RfkAXBCNn9yXlKfX3IGP6jLBEpuCHrcQFhZ8uFIt+T0wcVd8XXfbABpiAj
+O0JOTmIyRWzRPTSP1+GavrVs7lCcF0FH1mSx/Pus9TQ2vQEqOnV9rf8QH9A9TXg3
+F8jmGeftDduVl7JFEr3kV8qZUysqdIIf18TE/rrafKygnpys2ANaw1MDdVccCY5y
+1fQ+UvsKHbMc1NhUywKlANTgmxRkhoA8nz20Mdu/nKUGvVTkr+Jn7ToT+NjjG/z5
+WKg4lECTEX40KPhJI/TnpH4jmayjv0aohRdYPjdtnF85dCotDWj9PAN+wJfoESO6
+gJI9TqBZMQcGghTld58xdAqSxbT2E3T7DWntBwggMmgjYVT8Y7zcxwxWeiJYy2qF
+1BLaKPi+4p/HIWnjgEL1c07oT8Rofcq0KzP3sOCDg3R+pXbSLZK3L7E6Z5dQ4C12
+6mr71FKGnUVgq/8UIaZoiIno
+=cqu8
 -----END PGP SIGNATURE-----
 
---===============3890156026825652657==--
+--===============7768607016265713876==--
