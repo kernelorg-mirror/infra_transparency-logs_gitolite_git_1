@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 27 Aug 2021 11:10:45 -0000
-Message-Id: <163006264546.12018.3023478453291258428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 27 Aug 2021 11:17:38 -0000
+Message-Id: <163006305856.15595.5695920030397329982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/kbuild
-    old: 7584c013e69f8e31026f4aa5afac6ea27f56a6b2
-    new: 6cf666faa642a5e9194f05644d969bfd5e68099c
+  - ref: refs/heads/master
+    old: fe50893aa86eb9f1c6ccf2ceef274193b6313aad
+    new: e31a8cf50292aad57fe2ab817d6ea391a1eefd00
     log: |
-         781bcc09e0770ff34a5b95274a485ecafa330d79 gen_compile_commands: extract compiler command from a series of commands
-         c176a8773d78addf8d84b36290efe70bc48265a7 kbuild: remove unused quiet_cmd_update_lto_symversions
-         b1ec6c234aeda8531ccea689e023b77cc23967a8 kbuild: remove stale *.symversions
-         11a5376e37c8f56f642b7889b581d802fbf03936 kbuild: merge vmlinux_link() between the ordinary link and Clang LTO
-         2174547d52e9b359f67d601ecb7fb22ca842b4c1 kbuild: do not remove 'linux' link in scripts/link-vmlinux.sh
-         eefe4ee0bd0c214e93e359c0590179fe5acf7e1f kbuild: merge vmlinux_link() between ARCH=um and other architectures
-         26d5313d02e4c5ca05bbf01e162abad7eebda906 checkkconfigsymbols.py: Fix the '--ignore' option
-         6cf666faa642a5e9194f05644d969bfd5e68099c checkkconfigsymbols.py: Forbid passing 'HEAD' to --commit
+         4c116f85ecf8c147450602ed47ee25de60807f45 net: hns3: add macros for mac speeds of firmware command
+         c511dfff4b655685d7341962a76d9a340150e0ac net: hns3: add hns3_state_init() to do state initialization
+         67821a0cf5c97690d7d00b5afe5137ebe29f60fd net: hns3: remove redundant param mbx_event_pending
+         304cd8e776ddca5021dd9c1d7603ea40afc48ec6 net: hns3: use memcpy to simplify code
+         5f22a80f32deed391011f7ab3ce8951ea89282f8 net: hns3: remove redundant param to simplify code
+         d7517f8f6b3b12c883ca0975659450ae009b1524 net: hns3: package new functions to simplify hclgevf_mbx_handler code
+         5a24b1fd301e0cf0fc58a76f2716c54d378002cf net: hns3: merge some repetitive macros
+         0c5c135cdbdacdf82ca537c433db07e4a1664065 net: hns3: uniform type of function parameter cmd
+         e31a8cf50292aad57fe2ab817d6ea391a1eefd00 Merge branch 'hns3-cleanups'
          
