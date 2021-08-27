@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1769395698986811881=="
+Content-Type: multipart/mixed; boundary="===============3855833266810591957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 27 Aug 2021 08:20:34 -0000
-Message-Id: <163005243485.15939.14035431665724807029@gitolite.kernel.org>
+Date: Fri, 27 Aug 2021 08:31:26 -0000
+Message-Id: <163005308668.22337.149715040113432138@gitolite.kernel.org>
 
---===============1769395698986811881==
+--===============3855833266810591957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d98a30ccdc839947c9233369744341d1fa54439c
-    new: 452d1ea55c3e621dc94ac8b832c5e00feb59aad4
+    old: 452d1ea55c3e621dc94ac8b832c5e00feb59aad4
+    new: f73800a905a8a9c35b989e8de9ce5cdf328c2b63
     log: |
-         e5d6a7c6cfae9e714a0e8ff64facd1ac68a784c6 usb: chipidea: host: fix port index underflow and UBSAN complains
-         452d1ea55c3e621dc94ac8b832c5e00feb59aad4 Merge tag 'usb-v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
+         b7d509a92bb0216b01f428166be3770d04bbdd87 usb: xhci-mtk: allow bandwidth table rollover
+         57f3ffdc11143f56f1314972fe86fe17a0dcde85 usb: host: xhci-rcar: Don't reload firmware after the completion
+         cc7f8825cdbb05fa10782a34732f5d8082daa5c3 usb: renesas_usbhs: Fix spelling mistake "faile" -> "failed"
+         a76cb3d999b12219620d41a186ec2af2b247ac71 usb: dwc2: Fix spelling mistake "was't" -> "wasn't"
+         f73800a905a8a9c35b989e8de9ce5cdf328c2b63 usb: typec: tcpm: Fix spelling mistake "atleast" -> "at least"
          
 
---===============1769395698986811881==
+--===============3855833266810591957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630052422 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630053074 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1630052419-fdea7b3a5bb954d7b37f2f9dcb25db6677363722
+nonce 1630053070-5942863d2d9cf28ccd84611c1188d5fb467b486c
 
-d98a30ccdc839947c9233369744341d1fa54439c 452d1ea55c3e621dc94ac8b832c5e00feb59aad4 refs/heads/usb-testing
+452d1ea55c3e621dc94ac8b832c5e00feb59aad4 f73800a905a8a9c35b989e8de9ce5cdf328c2b63 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEooEYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VnsQAKhsqYcRDoiY3cDThG40
-FXxTMTm7czMEXtj+ZovVdazulS24mh86v21bSuwjY/WPMW/gSOZA+NPXPEmS4ZqG
-3OrTk0xNVT90mQS3J3S9gp7+PIg3OrhNq0Hr7fIZjM+mjCr2QFQdv8BPjxD95Tig
-9xrDNIs9R3FCHoH8u/7+oR6w6hGhCntmMkwdO/+/+ki1FKQPDSz0pVWqO/Pb687u
-aNpjjpfRGsf2Qx5mkAtkGsRGO/1duxQP2O5byRr+N7pK6V5Hj2a/n4MyXr11kck7
-DMPKwUhdrkTFc4ZSYcU885ewRzTpIy3H1oOCAZgEubCU3Cfn33vonuh5gEyktZHw
-hrBZ9gOkIMtunPiozO7X/ZLWtIH5E/HjKAX4JFEmvqCS87yPcLoAJAMWGKBOfOxr
-mH76nArD/fTyP8ZuJ+q/sRLQy9WhdI3HvOKF7e9HnVDmIzykVtOu6fvIDF52LbXv
-2CdpkBPuPDWvC4+IGVDEPQubXPSWefTz7FWgAAT2QJi1Du3zX509/oqw1Snwrjea
-zabg1tar6aVgN1Ycl7VcSC7rLeH38+BICEneq0In+OFdWNg3bpIPMEs1lQE/u0II
-C6syRAaEy+YdEsaQ3W58oeSrypG7K0Kmmw/upqs5Fu8htNJl2KQ1SHDRaveoIV0l
-YZ+nn+0TXICp2stASjTA6eLB
-=sDTS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEootIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QDAQAMKDtoua6/3Wo8/O2gUF
+/5hbbzx7ieO+cxY8Do5wwWi7weMLeg21Q3pdxEXvqpA6Yyeo+nkmt3Vjs7XXdVVG
+ryTrkQiL3ldPINhdUil+WKeH0PSTx0jCVPRON5dzOYiGHLFAazSyXTA91dATu1JI
+y8aenD8diY73JwJ1d+m29cYDqaYZznaOJwnjgVldONngGMoomZgnq/Qj/z+X0cWI
+cz2O5z7E+JZ3lQg9mj0MPDdlEBSSJifD2qJStGu5seqy5ECy5OWYeeT8X0BEL5tw
+HFBSYtpB/0c5znEuruh+7OB0TBlbHYT2AfUqPJr2idht6R3qJLf9RAZKFb4ArdZs
+zYK3iFJaQaNXcLZ2QqRau7iuAqMPI/RFx9bt56YcaQrVMlWGYB3uoEczBJR+NCki
+ZMv71uO/DBZpxKuFJs9LXf3HmePWKQhUBpiUDNn5OoYNvzQsi58bVUGpWpTQnZx4
+bemLDQ5MMR8sQbudShQ6cygPtl5rAA5ZuYvcjMvY/CivaAN5lzj/lfBoawk7FHih
+2wXvArHi/zNv/15iaiuPZlf9PB7JgYVrZ/XBr4/f6PvvLb2VtNKKt3R3UCcUYMbs
+OiAY4wRZM3xxGF2rwfAVN1Z370zWVoH3YcLGrQIjJpdZyO8MAeCvrXjDNbq9iY5M
+fKuYSd1U6D/rj3zBGKHctSaS
+=WOnz
 -----END PGP SIGNATURE-----
 
---===============1769395698986811881==--
+--===============3855833266810591957==--
