@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============4888924377910360465=="
+Content-Type: multipart/mixed; boundary="===============9074093875161615003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 27 Aug 2021 08:54:22 -0000
-Message-Id: <163005446284.4716.4306259041003838467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 27 Aug 2021 09:00:12 -0000
+Message-Id: <163005481290.17755.4773722170251433058@gitolite.kernel.org>
 
---===============4888924377910360465==
+--===============9074093875161615003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 049d1693db78144c979b34e2084287ada912cf7f
-    new: 34fe0e6444ce94e3fd7ba614ee999cb17a4b158e
-    log: |
-         34fe0e6444ce94e3fd7ba614ee999cb17a4b158e amba: Remove deferred device addition
-         
+  - ref: refs/heads/master
+    old: 3aa7857fe1d7ac7f600f5b7e1530396fb06822bf
+    new: a550409378d2aea4d2104a551c192e7a65ddd6c0
+    log: revlist-3aa7857fe1d7-a550409378d2.txt
 
---===============4888924377910360465==
+--===============9074093875161615003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3aa7857fe1d7-a550409378d2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630054451 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1630054447-1e7c5732b62174abe261fe55dcce1f5618709044
+0139145fb8d8988f9c464b83cdd0c3f44038f7b3 net/mlx5: DR, Added support for REMOVE_HEADER packet reformat
+f5e22be534e094f0ea3a4e9fb1223b3de1ed8107 net/mlx5: DR, Split modify VLAN state to separate pop/push states
+2de40f68cf76510c790663101b670868ba5ef9cf net/mlx5: DR, Enable VLAN pop on TX and VLAN push on RX
+ec449ed8230cd30769de3cb70ee0fce293047372 net/mlx5: DR, Enable QP retransmission
+f35715a6574707ecfeac795d451fccd751e614b5 net/mlx5: DR, Improve error flow in actions_build_ste_arr
+d5a84e968f3dc6d9d95ed6bfd8a9be5228e13be9 net/mlx5: DR, Warn and ignore SW steering rule insertion on QP err
+d7d0b2450e93acd8c05b9f7abae7d8b31663a0e5 net/mlx5: DR, Reduce print level for FT chaining level check
+0733535d59e1541c69ad43c029b6efb89622f919 net/mlx5: DR, Support IPv6 matching on flow label for STEv0
+ae3eddcff7aa6c162a425e1a772f4f6f2eeade01 net/mlx5: DR, replace uintN_t with kernel-style types
+a01a43fa16e1d9e6810246e38aeb80c3dd645956 net/mlx5: DR, Use FW API when updating FW-owned flow table
+63b85f49c05af3cc2dea6c4e0cfbac3786b3c638 net/mlx5: DR, Add ignore_flow_level support for multi-dest flow tables
+990467f8afde8c85215f6f4ab439b9615fd151e7 net/mlx5: DR, Skip source port matching on FDB RX domain
+ab9d1f96120b4a6269befa80c446a51afdc32963 net/mlx5: DR, Merge DR_STE_SIZE enums
+46f2a8ae8a7008f845b537ba800faf0f1f1f86e7 net/mlx5: DR, Remove HW specific STE type from nic domain
+32c8e3b23020e4815480a169d4b144d2976fcb06 net/mlx5: DR, Remove rehash ctrl struct from dr_htbl
+8a015baef50a7b60c866a58ae2dc0406958061d9 net/mlx5: DR, Improve rule tracking memory consumption
+a2ebfbb7b181774570224faee570f717ae11b6d8 net/mlx5: DR, Add support for update FTE
+8d548ea1dd157a40ff5882224795a82a5b9abfe6 mptcp: do not set unconditionally csum_reqd on incoming opt
+a086aebae0ebe37e93ed8f6e686ca0d5c4375b44 mptcp: better binary layout for mptcp_options_received
+74c7dfbee3e185b3c3a03f194e25689ed037fa3c mptcp: consolidate in_opt sub-options fields in a bitmask
+f6c2ef59bcc7e1fbe4ea6f9de7f6e0df178d5882 mptcp: optimize the input options processing
+9758f40e90f77e457dd4edef1ca506006d7f471a mptcp: make the locking tx schema more readable
+5ab54e5792a44dc7431cef0d57755d3c0aa9740b Merge branch 'mptcp-Optimize-received-options-handling'
+a550409378d2aea4d2104a551c192e7a65ddd6c0 Merge tag 'mlx5-updates-2021-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
-049d1693db78144c979b34e2084287ada912cf7f 34fe0e6444ce94e3fd7ba614ee999cb17a4b158e refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEoqDMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TwMQANMaGXwDludKsv6YzZhB
-H8u2P/KLAq5vsW5r+uUok+3oOoUq62g0tRD7DcW0npr5A7jTEw2vOfgUZQtYPQME
-Lst/5CFLG2ul2mfWqkPCa19U8Vi0prz48FIyfUmVB6D9bAnefaIx8hHvUo0DjbFX
-1pZ7VWGnoim6+YOnA/zGkuemKAWtQN0HejmbOlChAQcbJkjbYljyY8XGOA4s+AdD
-6w9xEaTb8WS6P8Prbbd5cRU2RuFCCQhCQUn+UXJspZ4HNm1iTLyDZJiDMN45/jnf
-Ai5zv1ODynge8ouSp2LKr0hzSwybTfUobaSEol21VStDUpPRyC/byjSy2mzGapJR
-kw8FWnwimsG8zgrg+wUPPakjjL8+PIGoNM3LIx5rcaxR0P3Pe0BiEs4eI+QHXvqq
-07YktEFJv6KX2h1GNrXAcbGO06lB8q/qE+GsZgju6erRKFcGD0GPTIlDLcGcoOCc
-o6yp4u5c6bUR7HKrkz5YWzvyBD++Nx81Z2f4/6AECZrcrJs5nLejncbMwszgCEW0
-EbtL12aJn9F3Y2Yhqv3hCLlYFG75jAKf23eUP7b2zIdYXXrtVhdCh1TzKFDv4bGt
-EuLc3DUmL95oPrdKw8KHZuJD6KOiwPUGORny4/BTZE97TeEuzdMcKAyvFjB/vLFE
-dtA+9yxLgQoc/D1spIm2favU
-=tQ/6
------END PGP SIGNATURE-----
-
---===============4888924377910360465==--
+--===============9074093875161615003==--
