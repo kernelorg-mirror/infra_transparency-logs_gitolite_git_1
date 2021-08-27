@@ -1,109 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7571794902406781075=="
+Content-Type: multipart/mixed; boundary="===============8688229936852842889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 27 Aug 2021 07:40:49 -0000
-Message-Id: <163005004988.19215.14750652208804074509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 27 Aug 2021 07:41:21 -0000
+Message-Id: <163005008115.19443.8526845330470886966@gitolite.kernel.org>
 
---===============7571794902406781075==
+--===============8688229936852842889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/staging-next
-    old: 093991aaadf0fbb34184fa37a46e7a157da3f386
-    new: ce6a7007048b0abcf263a2b43a63d18614802e53
-    log: revlist-093991aaadf0-ce6a7007048b.txt
+  - ref: refs/heads/master
+    old: 3d892e9692fbea82f19c1be4d212891c84587ccb
+    new: 091fbf1fef4808f0ccfe0ff8c333aedf833b8782
+    log: revlist-3d892e9692fb-091fbf1fef48.txt
+  - ref: refs/tags/man-pages-5.13
+    old: 0000000000000000000000000000000000000000
+    new: ad2d14dc4718016452840393e569eaf89264458b
 
---===============7571794902406781075==
+--===============8688229936852842889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3d892e9692fb-091fbf1fef48.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630050048 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1630050047-00ccfc5eee635933eb9e88c05fb22c364b16d40e
+b3987057c60658034e65316e06e4a00c05de6c04 umount.2: ERRORS: add EINVAL for case where mount is locked
+74ed673c59598618c56131a6f1e656cbaaf0a3c8 mount.2: ERRORS: add EPERM error for case where a mount is locked
+ee54e5d5ccc83785d1be7db4cc95c9f6ef57dd96 mount_namespaces.7: More clearly explain the notion of locked mounts
+88ebfb241b2b2f32b4f98daf6420ef6b89b1bac2 mount_namespaces.7: Add further details on locked mounts in a less-privileged user namespace
+44f2a6b8cd2a0268a7de98e4ebc1761126a77f03 mount_namespaces.7: Repair earlier text after injection of new list item in previous commit
+a66648bbd10f518b98ff6483b78a3dc6de5d0210 mount_namespaces.7: Relocate the "Restrictions on mount namespaces" subsection
+aa62e72dede7addf5bfe236503aa7cfeee2848ec mount_namespaces.7: wfix
+5aea19ed35bd2ad3106cd156056df268d68bf467 mount_namespaces.7: wfix
+8c9a82742976dc98578338ef886776f06c0ab3f2 mount_namespaces.7: Terminology clean-up: "mount point" ==> "mount"
+82357e60d7f8564acaecb7061b2f7dcab6e76d0c mount_namespaces.7: wfix
+2433a20ce13523cca261cb83377619715602f89f mount_namespaces.7: Minor wording clean-ups in discussion of less privileged namespaces
+f6aaf493f8640844230c1959d71a9f33f2dcdc26 mount_namespaces.7: wfix
+ebc82e00ee7954be8b6589925e1534c57ef2ad9c mount_namespaces.7: Note that it is possible to stack a mount on top of a locked mount
+906ab4945cd31daa0fb13c22f4a1dc02d3061e67 mount_namespaces.7: Rewrite locked mounts examples to use/etc/shadow
+ababc346b30a04c8aef91f08e0cd06380796820a mount_namespaces.7: wfix: use numbered cross-references in list of restrictions in NOTES
+24483c2782bb4b651b0cd3804efdeaf369cb8a45 mount_namespaces.7: Minor wording fix
+9428bb9d8a694d2d365126c3d8af94f9ff9c5cfc mount_namespaces.7: tfix
+111ccf7e901ab9f383b50d88bf8c0b39dd4c1e83 iconv.1, iconvconfig.8: FILES: note that files may be under /usr/lib64 rather than /lib/64
+fb74563941f0c28cdfb7e503474dc2119c843423 getaddrinfo.3: Note that 'errno' is set in parallel with EAI_SYSTEM
+a7846609db2751694c98faa975657ccf990a747a Changes: Ready for 5.13
+6e00b7a858ed817de14433bcc94a34d1edea2f9c iconv.1, ldd.1, accept.2, access.2, add_key.2, arch_prctl.2, bpf.2, chmod.2, chown.2, close_range.2, copy_file_range.2, execve.2, execveat.2, fanotify_mark.2, futex.2, futimesat.2, getpriority.2, intro.2, ioctl_tty.2, keyctl.2, link.2, membarrier.2, mkdir.2, mknod.2, mlock.2, mount.2, mount_setattr.2, open.2, open_by_handle_at.2, perf_event_open.2, pidfd_open.2, readlink.2, readv.2, rename.2, request_key.2, seccomp.2, sigaction.2, stat.2, statx.2, symlink.2, syscalls.2, umount.2, unlink.2, utimensat.2, wait.2, bsearch.3, fflush.3, getaddrinfo.3, getauxval.3, getopt.3, getsubopt.3, mkfifo.3, pthread_mutex_consistent.3, pthread_setname_np.3, pthread_tryjoin_np.3, scandir.3, sem_wait.3, stailq.3, strlen.3, strstr.3, termios.3, tsearch.3, wcslen.3, wcstok.3, wordexp.3, proc.5, capabilities.7, cgroups.7, fanotify.7, mount_namespaces.7, namespaces.7, path_resolution.7, pipe.7, posixoptions.7, user_namespaces.7, vdso.7, iconvconfig.8, ld.so.8: tstamp
+091fbf1fef4808f0ccfe0ff8c333aedf833b8782 Ready for 5.13
 
-093991aaadf0fbb34184fa37a46e7a157da3f386 ce6a7007048b0abcf263a2b43a63d18614802e53 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEolwAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XfoQAJcpLBF94soMKsQ4OCtt
-4xG/M1rXYu8ApmWp5apinDalFi6gg12xHYKMMoQk2+NVuPp86ArAMfoEUXkO961X
-9DJ9L2wQvaVZboxjTk+1QfvLB4hzwWIdnMqeSwXro/KacMLginL6CQXQgipvO4Ev
-aaWly3BvmmEQ+tlXQEAAn5hbcQuMZVA1GZVd/7xwi+nzSr5jNEGrDjOVm0yuznYu
-gZqddYzRAq7RYIRUozC12CzYQeNGyxCu39VpL8X6uxSW3UmbxZrYrXR69wTjgvbM
-Pw3N8LM0Wl7a+/grB2sWzjfzHYDf5rMquR1YqOvymABBBWiKaGCy4vQ9LS1E+BoU
-5nK1wIN14qibSGLH09IwFGolnKZ/XCWFGxwNay3ViOC6c28gRM9b0FOa5KYmiEoK
-GkKvCSQQviIcA203fCBZh2iXE8TBfpuHROXCwaCsljzhhN4hxFrKIGKrtN+4SxPv
-V6j+LZspUGpBCCAUvCN2JfU4xPgJt5HxTeRq0tlk7xPwETywct3tBPAPuh4BBLfk
-6aRo1yBX3McjZMJByWbObdqoYV/744A3AMNJA3V5MNkn081QBmI2r9jS1IlFfZhL
-MTkw8m2pGl3ubPrau+ha+2dnDHjN8/c5y13QrR2ZwmKyPz4vgdqMtRB6jJ5GasjR
-NqDs+SBs6zJdRRL4tgTgFVXI
-=j5X+
------END PGP SIGNATURE-----
-
---===============7571794902406781075==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-093991aaadf0-ce6a7007048b.txt
-
-89b9f3f39a088a7a0f833621dc62acb201a37ac5 staging: r8188eu: fix scheduling while atomic bugs
-55cdf7d7b2a187d0c2bcf11ed70e2eeb192713da staging: r8188eu: use GFP_ATOMIC under spinlock
-6277fbfdd29ca2fbf5da33e3931087b5356c770b staging: wlan-ng: Remove pointless a3/a4 union
-86a0727b096dfeb90c10e74b4d6e70c1c237b29a staging: wlan-ng: Avoid duplicate header in tx/rx frames
-30e98ce81bbb51f78134dbeca232f1d4ab215434 staging: r8188eu: remove unneeded semicolon
-fbdbd861c8be66dc6d87f3bdeaec41d7a8efde9a staging: r8188eu: remove unused function rtw_add_bcn_ie()
-a69bbd2f77a6e26b2b1c3d7fcc5c715169dc01c5 staging: r8188eu: remove unused function rtw_remove_bcn_ie()
-7d761b084b3c785e1fbbe707fbdf7baba905c6ad staging: mt7621-pci: fix hang when nothing is connected to pcie ports
-174ac41a7aafb31041cba3fe54ccd89b9daeef5d staging: rtl8723bs: remove obsolete wext support
-fafb8a21a5c9b899b251994332da1eae01bf44ef staging: rtl8723bs: fix code indent issues
-105bc6b94f0587f1d37c5f3581f94455a2e52722 staging: rtl8723bs: fix logical continuation issue
-b516456cedb66439f33c8878f73bf5dad0223471 staging: rtl8723bs: remove functions notifying wext events
-07abf8b41eaf28ea6e342730b91d5a62fa914431 staging: rtl8723bs: remove unused rtw_set_802_11_bssid() function
-7dfe9fac786769e1a49fa350158d39b4fef237ba staging/rtl8192u: Avoid CamelCase in names of variables
-c4b30776bf2941e0d17d3f164e54e553b2456888 staging/rtl8192u: Initialize variables in the definition block
-07e7f36da8abb4563d145399270c0b92f8d79ff7 staging/rtl8192u: Prefer kcalloc over open coded arithmetic
-9bfb54a8c88e025b9ae1fe19afd6500a206dbba5 staging: rtl8723bs: remove header file ethernet.h
-65945da601e816875426b5866746ced4acbc85e6 staging: r8188eu: remove unnecessary cast
-74f64654ecd22f8e29580f93435406622c90d975 staging: r8188eu: remove unused define
-805ac0da01f867d5b3412a77110e970063f698c0 staging: rtl8188eu: use actual request type as parameter
-f410923ad5f577d08bad22bdb11d9660a2a75d25 staging: r8188eu: rewrite usb vendor request defines
-2214ea8299f5dcf1201521ab527b750ec53fbba8 staging: r8188eu: remove an unused enum
-0d3e1be506dda7a0a3d43fad4d943cfbfabadd39 staging: r8188eu: clean up the usb_readXY functions
-e8baed3c765e0f88f4107c52a3505f52d174b41f staging: r8188eu: clean up the usb_writeXY functions
-22d0d6104e4d6c7d86ade11888422762db15ab75 staging: r8188eu: clean up the usb_writeN
-f7231a04e4f12757ca46d99dd6e7b71deea25300 staging: r8188eu: remove unused members of struct _io_ops
-5598e47a79b4300ba3ff2a8c7f44a4f8ed4af20d staging: r8188eu: set pipe only once
-2d29f81ce82208626f4278d6aa9faa5547c5bf02 staging: r8188eu: Fix a resource leak in update_bcn_wps_ie
-e92e5f30ad320474346bfd5884cf170ad8c88968 staging: r8188eu: change declaration of Efuse_Read1ByteFromFakeContent
-6ca88cb5e8478e6694b4cccfb2d331435d5bb77c staging: r8188eu: Make mult-byte entities in dhcp header be big endian
-8d82693b0b562086935d23b55877d007b03c532a staging: r8188eu: remove cmd_osdep.h header file
-3eaa30d1623e109143c2e30b5738720c1816b851 staging: r8188eu: remove 5 GHz code
-f9f72f7f722e32d8f5645e53c1ca90347dedc95c staging: r8188eu: remove dead code
-2a3afb168ea7002884ce7e56f5c2e061420a3bcf staging: r8188eu: remove unnecessary parentheses
-8aa824f2ec1b66fdbf7e5b87e519bced35a35114 staging: r8188eu: ensure proper alignment for eth address buffers
-08cff18916f5a1d918a902d1f8fe1ef76c2520d4 staging: r8188eu: use is_multicast_ether_addr in core/rtw_mlme.c
-129f4197f22d407d47d05babb538bef7339c6cdb staging: r8188eu: use is_multicast_ether_addr in core/rtw_mp.c
-d0624c3379a17b9c6c267378831cdaa60c0af835 staging: r8188eu: use is_multicast_ether_addr in core/rtw_recv.c
-2d4fe65101b5216838c1d92e6c39a150fc72c837 staging: r8188eu: use is_multicast_ether_addr in core/rtw_security.c
-544984a774f2802c928c92358106f9863fe112ab staging: r8188eu: use is_multicast_ether_addr in core/rtw_xmit.c
-0b704920fba990ad6d0e731f315c71a2422d02cb staging: r8188eu: use is_multicast_ether_addr in hal/rtl8188eu_xmit.c
-bd5f258affb124a5bd9d3be94628951b0a8a14c6 staging: r8188eu: use is_multicast_ether_addr in os_dep/recv_linux.c
-f228d1d50904e6a9ac91560578b935b1d853122b staging: r8188eu: make rtw_deinit_intf_priv return void
-68ad97bc5a1b9b5b2c3717ae8c5ca1071d3a88f5 staging: r8188eu: remove if_ether.h header file
-f09dc911bd26c26bee20e349eb19eaf861c27aab staging: r8188eu: remove ip.h header file
-f7766f1b0030e7af179a5e75df52838268102fab staging: r8188eu: remove ethernet.h header file
-3f60c32f15b0d2956074d684526b128505be0bb7 staging: r8188eu: core: remove condition with no effect
-ce6a7007048b0abcf263a2b43a63d18614802e53 staging: r8188eu: remove {read,write}_macreg
-
---===============7571794902406781075==--
+--===============8688229936852842889==--
