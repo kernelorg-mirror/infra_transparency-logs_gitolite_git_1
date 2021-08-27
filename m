@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 27 Aug 2021 20:37:59 -0000
-Message-Id: <163009667934.29130.17207564808962024884@gitolite.kernel.org>
+Date: Fri, 27 Aug 2021 20:43:46 -0000
+Message-Id: <163009702603.32479.1311304214731855075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/docs/man-pages/man-pages
 user: mtk
 changes:
   - ref: refs/heads/master
-    old: 091fbf1fef4808f0ccfe0ff8c333aedf833b8782
-    new: 824b408b7d61a44a9004235a7df4158409e118b2
+    old: 824b408b7d61a44a9004235a7df4158409e118b2
+    new: fabb1a2a0b0db0bbe4cfd1019d60a5925efe5a20
     log: |
-         48cbf997837c19c0ab009e2067c220e969958a27 Start of man-pages-5.14: renaming .Announce and .lsm files
-         333691eb13cf49d4b3edc904abfee20e2d69ee0f Start of man-pages-5.14: updating .Announce and .lsm files
-         2af47cd37198d7dfb417ab9d5a430faf134ac37b Start of man-pages-5.14: updating Changes and Changes.old
-         03564de18738716d980887b1bb04089aca391a41 Changes.old: Add missing entry in 5.13 changelog
-         4aa8739e0fbc8efb6c310216e811417e7d90fa25 Changes.old: tfix
-         824b408b7d61a44a9004235a7df4158409e118b2 Changes.old: tfix in 5.13 changelog
+         ac5edfeb1dd6a8e2267286e07fb798a833e7d1fc memfd_secret.2: New page describing memfd_secret() system call
+         eabb03a4d20c104dd1f933b5f3c24f89e720f9da memfd_secret.2: wfix
+         84a2ce0f18b36ee00b6c5ac9ecc41e2a6129171e memfd_secret.2: Minor edits to Mike Rapoport's patch
+         e817f70a5f829d7f2517ba830ee2d07fc6acac45 memfd_create.2: SEE ALSO: add memfd_secret(2)
+         d5ee9f931eecfa47be6b3ba5ac5ec725bc9472aa memfd_secret.2: SEE ALSO: add memfd_create(2)
+         fabb1a2a0b0db0bbe4cfd1019d60a5925efe5a20 syscalls.2: Add Linux 5.14 system calls
          
