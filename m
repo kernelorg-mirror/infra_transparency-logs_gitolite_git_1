@@ -1,22 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
-Date: Fri, 27 Aug 2021 00:33:22 -0000
-Message-Id: <163002440230.30279.16272002237409847165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 27 Aug 2021 00:33:53 -0000
+Message-Id: <163002443346.30584.16889612978619669382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/fscrypt
-user: ebiggers
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/wip-wrapped-keys
-    old: da77e576ea5df9e092680619ed74586e3d66dde2
-    new: 4efedf78c3a8aa29415e9e70d84a3047c73e5ae0
-    log: |
-         fd5a94c2bf6a929e2e4173b1c6ae3e61c22b20b6 block: add hardware-wrapped key support
-         ed251c70ca4ae2f33e5c880c283588fc9fd9cc74 fscrypt: improve documentation for inline encryption
-         6b399fc4bba954433d42ffeed4e36c541db3e9fc fscrypt: allow 256-bit master keys with AES-256-XTS
-         4efedf78c3a8aa29415e9e70d84a3047c73e5ae0 fscrypt: add support for hardware-wrapped keys
-         
+  - ref: refs/tags/v5.13.13
+    old: 0000000000000000000000000000000000000000
+    new: 750a200c7e608b1c088f68551324479548761cf9
+  - ref: refs/tags/v5.10.61
+    old: 0000000000000000000000000000000000000000
+    new: 39aac9372013c45810c81f7e0e2bdf4c32f2be93
+  - ref: refs/tags/v5.4.143
+    old: 0000000000000000000000000000000000000000
+    new: ca55525837bce95e598b46451484596bef856d9b
+  - ref: refs/tags/v4.19.205
+    old: 0000000000000000000000000000000000000000
+    new: f91137748681976d515e172f47952a6efdc27712
+  - ref: refs/tags/v4.14.245
+    old: 0000000000000000000000000000000000000000
+    new: 94688d681dc1e889ab673f25358e890303f9be0b
+  - ref: refs/tags/v4.9.281
+    old: 0000000000000000000000000000000000000000
+    new: 899afeb7aa2831c28834d5549e80a000b9a8236b
+  - ref: refs/tags/v4.4.282
+    old: 0000000000000000000000000000000000000000
+    new: 959dbefeef1bc0d36692b0e0f2dd65301046f392
