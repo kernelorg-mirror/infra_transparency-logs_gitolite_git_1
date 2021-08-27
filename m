@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 27 Aug 2021 19:41:07 -0000
-Message-Id: <163009326705.24789.8632800599274874778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 27 Aug 2021 19:53:23 -0000
+Message-Id: <163009400382.346.11350004068404490054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/dev-test
-    old: dd1004231ab5155932b0956a14e750bf411be8b4
-    new: 6794a851ba04adb54494a8d63eb17d298c7b93c0
+  - ref: refs/heads/for-next
+    old: 7518fa5433cef7a714064a6b1ffbfaf5443b9dbf
+    new: 3c845e0f389f2b397fe7f7162f418678a1a8b321
     log: |
-         365a94e11a72b6bf7b669c8b91176d09dfce49f1 f2fs: guarantee to write dirty data when enabling checkpoint back
-         6794a851ba04adb54494a8d63eb17d298c7b93c0 f2fs: introduce fragment allocation mode mount option
+         3c845e0f389f2b397fe7f7162f418678a1a8b321 Revert "parisc: Add assembly implementations for memset, strlen, strcpy, strncpy and strcat"
          
