@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8904556058809615657=="
+Content-Type: multipart/mixed; boundary="===============8735040864675195764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 28 Aug 2021 05:26:02 -0000
-Message-Id: <163012836299.21159.16562755986462059190@gitolite.kernel.org>
+Date: Sat, 28 Aug 2021 05:26:37 -0000
+Message-Id: <163012839777.21410.9367931622747260917@gitolite.kernel.org>
 
---===============8904556058809615657==
+--===============8735040864675195764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 848ade90ba9c1e2bc2f7869fbe5d08bb32f3db09
-    new: 9b5ac8ab4e8bf5636d1d425aee68ddf45af12057
-    log: revlist-848ade90ba9c-9b5ac8ab4e8b.txt
+  - ref: refs/heads/for-next
+    old: fad336c06aff9345645f27de52cbcd54819ad3ca
+    new: 27f681116fdf776a05d643dee4de318ec0f368a4
+    log: revlist-fad336c06aff-27f681116fdf.txt
 
---===============8904556058809615657==
+--===============8735040864675195764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-848ade90ba9c-9b5ac8ab4e8b.txt
+Content-Disposition: attachment; filename=revlist-fad336c06aff-27f681116fdf.txt
 
 b15ce2f34cf42487982db0a8606095db1c8c8f28 scsi: qla2xxx: edif: Fix stale session
 225479296c4fb2d3449e55b48eca2a9d6aca1e4e scsi: qla2xxx: edif: Reject AUTH ELS on session down
@@ -71,5 +71,6 @@ acbaa8c8ed17e768dab3f09f457fd265d7c94848 scsi: lpfc: Add bsg support for retriev
 b3e2c72af1d553a646c86bbb4c0be278686a295a scsi: mpt3sas: Use the proper SCSI midlayer interfaces for PI
 313bf281f2091552f509fd05a74172c70ce7572f scsi: ufs: ufs-exynos: Fix static checker warning
 9b5ac8ab4e8bf5636d1d425aee68ddf45af12057 scsi: ufs: Fix ufshcd_request_sense_async() for Samsung KLUFG8RHDA-B2D1
+27f681116fdf776a05d643dee4de318ec0f368a4 Merge branch 'misc' into for-next
 
---===============8904556058809615657==--
+--===============8735040864675195764==--
