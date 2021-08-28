@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 28 Aug 2021 00:17:18 -0000
-Message-Id: <163010983831.10302.8257287821305674770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 28 Aug 2021 00:30:05 -0000
+Message-Id: <163011060536.19858.5056740647173813954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 4baf0e0b329874ec5e85480f53851b5f05a7ae58
-    new: 0975d8b4bfa011b2943c53d3c169277f5e3cf799
+    old: 5fe2a6b4344cbb2120d6d81e371b7ec8e75f03e2
+    new: 0d55649d2ad7296acfda9127e1d05518d025734a
     log: |
-         40bedf7cb2ac949052bf9741ccb9d673d782ae2c bnxt: count packets discarded because of netpoll
-         907fd4a294dbb9ce12d9e47cb6fcf4dcc7b2a5f3 bnxt: count discards due to memory allocation errors
-         0975d8b4bfa011b2943c53d3c169277f5e3cf799 Merge branch 'bnxt-add-rx-discards-stats-for-oom-and-netpool'
+         0d55649d2ad7296acfda9127e1d05518d025734a net: phy: marvell10g: fix broken PHY interrupts for anyone after us in the driver probe list
          
