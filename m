@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Sat, 28 Aug 2021 01:09:04 -0000
-Message-Id: <163011294425.10879.4134308916285890744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Sat, 28 Aug 2021 01:14:34 -0000
+Message-Id: <163011327405.14072.13427435015204094919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 4657bd55f56209388d284bf1ef72367d366fcdff
-    new: 5de6af9f4a1f48ba5a38e69dd4b3072f9ff3e1cb
+    old: 9b6aecc4d6d01e5c15688e81124517f37dd875a4
+    new: c804272f40d4d8d91aebcc151ea2415fe9d9b0bb
     log: |
-         1a0148617077868d35ac775449a88fde7d69749e auto-t: hwsim.py: turn Hwsim into singleton (per-namespace)
-         cb7e9b58851ded285a66ab5b4ef699d3f7de5889 auto-t: hostapd.py: properly implement singleton (per-config)
-         5de6af9f4a1f48ba5a38e69dd4b3072f9ff3e1cb test-runner: only import Hwsim/HostapdCLI once
+         c804272f40d4d8d91aebcc151ea2415fe9d9b0bb rtnl: Add neighbor discovery utilities
          
