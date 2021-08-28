@@ -1,60 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3871416870335769995=="
+Content-Type: multipart/mixed; boundary="===============8154595493342842899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 28 Aug 2021 06:31:18 -0000
-Message-Id: <163013227815.30581.13317387510411426547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 28 Aug 2021 06:35:07 -0000
+Message-Id: <163013250745.792.277351703241635911@gitolite.kernel.org>
 
---===============3871416870335769995==
+--===============8154595493342842899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 8c61951b372d83b426a66dafc9c4ac24b3ce3335
-    new: 0dc3ad3f859d3a65b335c861ec342d31d91e8bc8
+  - ref: refs/heads/staging-testing
+    old: f6bc526accf861728d36b12fbc25ac94cd057fc9
+    new: 6506cd9f3ae9c9777a581b309f2ca1a215128fbf
     log: |
-         0be883a0d795d9146f5325de582584147dd0dcdc parport: remove non-zero check on count
-         f8cefead37ddc111786b14da73286204eb8509b5 char: mware: fix returnvar.cocci warnings
-         a30dc6cf0dc51419021550152e435736aaef8799 VMCI: fix NULL pointer dereference when unmapping queue pair
-         a99009bc4f2f0b46e6c553704fda0b67e04395f5 misc/pvpanic: fix set driver data
-         0dc3ad3f859d3a65b335c861ec342d31d91e8bc8 Revert "bus: mhi: Add inbound buffers allocation flag"
+         65bbdabe2a27a4f46387a3b6976d2355d67f9706 staging: wlan-ng: fix invalid assignment warning
+         e1e0ee8ed2b0e95df46785a98118465de880137e staging: vt6656: Remove filenames in files
+         6506cd9f3ae9c9777a581b309f2ca1a215128fbf staging: r8188eu: add extra TODO entries
          
 
---===============3871416870335769995==
+--===============8154595493342842899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630132273 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1630132274-79428a916e28d33a993fb41230046e1ee98dcff1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630132490 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1630132488-0ad932431f631d07f0cce7b24e98e10c01ea6564
 
-8c61951b372d83b426a66dafc9c4ac24b3ce3335 0dc3ad3f859d3a65b335c861ec342d31d91e8bc8 refs/heads/char-misc-next
+f6bc526accf861728d36b12fbc25ac94cd057fc9 6506cd9f3ae9c9777a581b309f2ca1a215128fbf refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEp2DEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9eIP/2m+X8VV+DKkzB3HGLDR
-MTrizb6BQAI405hzTERDYkQ1oBEuyCPAX0QeyBUcf4rGFeRHLaSlbXCtwgc9os06
-C5aZx/SocVJSZkkkNXWRGtQeea+pN2Cgo82XY7tFQPri9gRkT5ZfUu0PklqXhwrE
-MzDQ9OFI5e2JpKcMZm3i90W+v25c/zawNTURfaWJmfdcbJ+Y9mSDUdU4ZNNDiFKB
-Jq5LjFu1Z3gizKyAu71HBM+yAtRLLF96WCwtdd98b5D7pq5DM3wcEThWcVmzJDl1
-v8O+cQ7Gdqu9g1tOUfDdGovvdviit50zpQbVxjZYncPOjhJRBa33X/Gi0p8akK54
-W53xMd+BOoP1+LeWrXMTcLeudx+NCcFMVI17to0y/eynmPAWweuGdVsFLq5eacbM
-IsVkxg8n3AKgjmHmRFkKfXiWYhOJsOSugMKWPBdBBufjHHD6Rs4uMEciZTb+CDf2
-9S5fUsETtEEyK5qmgzFN5PsBgPTpwKuB//P3Iv3ak2eYgYn11FxbXEPRrCvF9nxt
-7elH0JHTkT8Dgovd/DkSlpmNv3wR8l7nYQbKeS7ZnHBRCZAAlUKtdO/jTS9RPGGG
-BpO2A/MrLzG9asxbh1wrkeAWcuhXotVcUq1xgYpL7z3fCCg1s8TbCM4e+zwWXBrL
-btTjHMUTW3XjewQ/ZEM4D5KO
-=vq3h
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEp2QobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SBEP/iisbbLj381t53MiLIIM
+D+1kK85qGcbo7qL44gwx8ykuQkGSaapf/9cMtsDg/byXLbN+C1TbC2ItTIvinPU5
+2AlVI5i0glaZgQx/VdwZij/azd71EsHSvWUGIMIKGQMttbKdZl7IydiIRJBQbYXg
+v2+2OsyGkD5Lh/r40LIxgIe+tGdNCzhapX/hwVjQIRCCy+PGmXTzHmbkqK9GHcR0
+T3F0Yw3f39ZkojDJkgO0bEL4SxwZS5Xoh4+l5N1ss8xyVQlhlU5Tvz5e11lW98rN
+Au/DE/rSUgBRUnNOcQYZYqHtSNXfYhWXIK0dG6FyfameSPxJjmVJZyxM0iLQ276I
+RGkjQpa3Q6ry5D3pOKOxzRicv0usGjuA4/GWC9+3AYM5wpKoRra7C+NuMRllHiOO
+FkB2S9cRXNRsE9Ojly4P3nMMXGq5b0qJT6xt2tdmEEO0nJqETtP+jZs23GhQDoq8
+XUqhEcf4zO9Sv0ZT5QQ1Wn+tsrqiTj8VEcsCphZYYXjKar8rWd8HcuqDtM6ORUim
+XU6DqHKOJiWobjQedC0ypKB0rkLP9L0mjFjuCbeyZRYA1jGm6oMfJPyvfeoA4v+F
+1oVDwqUbdP9jDPoe0oOP0LTcQs4LcVHp/7uZKCPQfxtWiWz4S4OlIv3B13Cdbjpm
+WxNkRGm5U93OSL5Vkd9X/svp
+=BGm9
 -----END PGP SIGNATURE-----
 
---===============3871416870335769995==--
+--===============8154595493342842899==--
