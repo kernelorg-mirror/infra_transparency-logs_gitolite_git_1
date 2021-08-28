@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5141573774264996268=="
+Content-Type: multipart/mixed; boundary="===============5014677823517384174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 28 Aug 2021 23:15:55 -0000
-Message-Id: <163019255575.11578.3115624026009491088@gitolite.kernel.org>
+Date: Sat, 28 Aug 2021 23:17:32 -0000
+Message-Id: <163019265201.12163.12910961407462958028@gitolite.kernel.org>
 
---===============5141573774264996268==
+--===============5014677823517384174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: f478887a7ffcaba4f6f7c66732462afd6d022069
     new: 97aea7f13146d522a39fc0d5a2c338e30a06c8db
     log: revlist-f478887a7ffc-97aea7f13146.txt
 
---===============5141573774264996268==
+--===============5014677823517384174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c0be82459e48ab148eabbc6956c138ff12ee3a2d headers/deps: arm64/mm: Move the hugetl
 48585856ba168454f2cca6747328249bec9de15c headers/deps: arm64/paravirt: Remove __init annotation from <asm/paravirt.h>
 97aea7f13146d522a39fc0d5a2c338e30a06c8db ==================================================================
 
---===============5141573774264996268==--
+--===============5014677823517384174==--
