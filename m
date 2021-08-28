@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5575174650997040851=="
+Content-Type: multipart/mixed; boundary="===============5641055752168615651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 28 Aug 2021 18:46:25 -0000
-Message-Id: <163017638515.987.13974866458291430070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 28 Aug 2021 19:33:57 -0000
+Message-Id: <163017923767.31060.4392623142484061995@gitolite.kernel.org>
 
---===============5575174650997040851==
+--===============5641055752168615651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 64b4fc45bea6f4faa843d2f97ff51665280efee1
     new: 3f5ad13cb012939e1797ec9cdf43941c169216d2
     log: revlist-64b4fc45bea6-3f5ad13cb012.txt
 
---===============5575174650997040851==
+--===============5641055752168615651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ ef52b4a9fcc24e17e81cc60357e6107ae4e9c48e usb: typec: tcpm: Raise vdm_sm_running 
 447e238f14b251acf2a954750e028ad0352b0016 Merge tag 'usb-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 3f5ad13cb012939e1797ec9cdf43941c169216d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============5575174650997040851==--
+--===============5641055752168615651==--
