@@ -1,44 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2070403174051949405=="
+Content-Type: multipart/mixed; boundary="===============1855047469292115137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Sun, 29 Aug 2021 09:02:10 -0000
-Message-Id: <163022773031.15412.4071206433788519430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 29 Aug 2021 09:04:01 -0000
+Message-Id: <163022784161.15189.15416941635234234660@gitolite.kernel.org>
 
---===============2070403174051949405==
+--===============1855047469292115137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: 44482467ab3aa48f59ef82171b13833366fd8a98
-    new: a1cf8ff2eac95fbdaef2b783958a1f872298a717
-    log: revlist-44482467ab3a-a1cf8ff2eac9.txt
+  - ref: refs/heads/linux-4.4.y
+    old: 0f5b96f6814376fe061a02604064b702ccf4bc6a
+    new: d33389e41646710481f512163383c4880f240dec
+    log: |
+         f985bb466719f61de4870adb2fe6aa1aa51f8086 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+         51faa3a62c587ccc760009c1aacd7224eefe3815 Revert "USB: serial: ch341: fix character loss at high transfer rates"
+         65701427fb78524c314c931b53fb531849c206fa USB: serial: option: add new VID/PID to support Fibocom FG150
+         d33389e41646710481f512163383c4880f240dec Linux 4.4.283-rc1
+         
 
---===============2070403174051949405==
+--===============1855047469292115137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44482467ab3a-a1cf8ff2eac9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d195d7aac09bddabc2c8326fb02fcec2b0a2de02 wcn36xx: Ensure finish scan is not requested before start scan
-b7f96d5c79cd9584bb1193a3c9008bd1e2683906 wcn36xx: Allow firmware name to be overridden by DT
-8678fd31f2d3eb14f2b8b39c9bc266f16fa24b22 wcn36xx: Fix missing frame timestamp for beacon/probe-resp
-23151b9ae79e3bc4f6a0c4cd3a7f355f68dad128 ath9k: fix OOB read ar9300_eeprom_restore_internal
-7c48662b9d56666219f526a71ace8c15e6e12f1f ath9k: fix sleeping in atomic context
-fd6729ec534cffbbeb3917761e6d1fe6a412d3fe ath6kl: wmi: fix an error code in ath6kl_wmi_sync_point()
-1d4dcaf3db9bd073cebf709d081957068de88bdc rtw88: add quirk to disable pci caps on HP Pavilion 14-ce0xxx
-533ccdae76faa6fd8e0857ec494b264a5d87a191 rtlwifi: rtl8192de: Fix initialization of place in _rtl92c_phy_get_rightchnlplace()
-f4c813641897cfb43b3b99edd8c8851a1c98c70f rsi: make array fsm_state static const, makes object smaller
-81f9ebd43659320a88cae8ed5124c50b4d47ab66 ssb: Drop legacy header include
-4b51de063d5310f1fb297388b7955926e63e45c9 brcmfmac: Add WPA3 Personal with FT to supported cipher suites
-50cbbfd41e9f7716baa976ae2d60309a088a246e wilc1000: Convert module-global "isinit" to device-specific variable
-a0929621eb49863645a0103109c466b01cb59ea2 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
-a1cf8ff2eac95fbdaef2b783958a1f872298a717 Merge commit 'e257d969f36503b8eb1240f32653a1afb3109f86' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next into pending
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630227833 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1630227818-2d72edb6f750bddcd420ea7f63327c30a08dbe55
 
---===============2070403174051949405==--
+0f5b96f6814376fe061a02604064b702ccf4bc6a d33389e41646710481f512163383c4880f240dec refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmErTXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eHMQAJYID2/dTE6m5VtaC/nQ
+8DjDmKp0s+XH6Z7aKgkqJ4P7ubOi3mCpau82NUzsh74CIk/06u5Rj/wWEQJpQ6N4
+hJWS+KU+KovhiiuceHYQ1V8DJyDuo+gtoVENQ1iE4f9hwF5jFwmY1DzYLLJYIL/u
+tcbE/WEHn5fQAVKIht7cSdlzOut1OJKyL1E59bgIRhqPTHKAfpK5h+HePQ202ARX
+83mYshIbMimofyS8jopanLucmrr1+2SUXjclM1/hRr4ZcF54r1jCXqyWxHD1Mzkr
+00k5q7j+yHJc0lSjb1a06gpHWn/oyBz/EgsO4YHaeQd0o3RiopgxXD6wr4qlyN30
+HxWLZPewRDRtWV0l9jNRTDi5dTsk51LXKelC4atS1tTMXDEL+t0/L7kf3ke2eAiy
+J3YU07EGcaz+4Ju0TgeQ9yz4XkTt46GNIOSUzn3sUfwkRImdz/s+GSUk3qb6Vaoq
+QjAL2hw33mIPHH0NaLS0YUJm4Sm7s8tIKaENkLvRUcf/PaOlsR+e4LQfh2PU5dT0
+U83z/hUD+3PiXuJaxw9tVN40MrsDyBvRktwFJ0VAbTD3sXjtQmY7fAhKOSE6SiQg
+J7jQtc4Jx72y2ioqXwlcCUGJcw3Sx9MUvJkfjWIuLpHNpnVCHhJQvYYxvnRXdo6E
++/eRhvrykSPFT0UHMZxnAhDT
+=OQ0A
+-----END PGP SIGNATURE-----
+
+--===============1855047469292115137==--
