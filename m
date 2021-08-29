@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1855047469292115137=="
+Content-Type: multipart/mixed; boundary="===============2818445513172729353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 29 Aug 2021 09:04:01 -0000
-Message-Id: <163022784161.15189.15416941635234234660@gitolite.kernel.org>
+Message-Id: <163022784164.15196.7342232617033051647@gitolite.kernel.org>
 
---===============1855047469292115137==
+--===============2818445513172729353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,20 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 0f5b96f6814376fe061a02604064b702ccf4bc6a
-    new: d33389e41646710481f512163383c4880f240dec
+  - ref: refs/heads/linux-4.14.y
+    old: 35c4ba160ab6133e548468bd0bd1109990dc7736
+    new: c8c7d84be632e1def35813a96d35cebee4c2695f
     log: |
-         f985bb466719f61de4870adb2fe6aa1aa51f8086 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-         51faa3a62c587ccc760009c1aacd7224eefe3815 Revert "USB: serial: ch341: fix character loss at high transfer rates"
-         65701427fb78524c314c931b53fb531849c206fa USB: serial: option: add new VID/PID to support Fibocom FG150
-         d33389e41646710481f512163383c4880f240dec Linux 4.4.283-rc1
+         4f0e94397bb04275ef15b3a32bf7ffe14cc3a79b ARC: Fix CONFIG_STACKDEPOT
+         dc656cb18ef490766f9c520ae62a15327adf3876 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+         ab362a9c9c679bf7f516f659bb2dd7630e290fbc Revert "USB: serial: ch341: fix character loss at high transfer rates"
+         38119b998a3d84e681b0978f2f9ac803fff0075d USB: serial: option: add new VID/PID to support Fibocom FG150
+         b6473972856c0aeb22008238b33188d85d69f736 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
+         7d46179515415fc81260290ec731f55df9a0cc39 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
+         c8c7d84be632e1def35813a96d35cebee4c2695f Linux 4.14.246-rc1
          
 
---===============1855047469292115137==
+--===============2818445513172729353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,23 +40,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630227833 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1630227818-2d72edb6f750bddcd420ea7f63327c30a08dbe55
 
-0f5b96f6814376fe061a02604064b702ccf4bc6a d33389e41646710481f512163383c4880f240dec refs/heads/linux-4.4.y
+35c4ba160ab6133e548468bd0bd1109990dc7736 c8c7d84be632e1def35813a96d35cebee4c2695f refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmErTXkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eHMQAJYID2/dTE6m5VtaC/nQ
-8DjDmKp0s+XH6Z7aKgkqJ4P7ubOi3mCpau82NUzsh74CIk/06u5Rj/wWEQJpQ6N4
-hJWS+KU+KovhiiuceHYQ1V8DJyDuo+gtoVENQ1iE4f9hwF5jFwmY1DzYLLJYIL/u
-tcbE/WEHn5fQAVKIht7cSdlzOut1OJKyL1E59bgIRhqPTHKAfpK5h+HePQ202ARX
-83mYshIbMimofyS8jopanLucmrr1+2SUXjclM1/hRr4ZcF54r1jCXqyWxHD1Mzkr
-00k5q7j+yHJc0lSjb1a06gpHWn/oyBz/EgsO4YHaeQd0o3RiopgxXD6wr4qlyN30
-HxWLZPewRDRtWV0l9jNRTDi5dTsk51LXKelC4atS1tTMXDEL+t0/L7kf3ke2eAiy
-J3YU07EGcaz+4Ju0TgeQ9yz4XkTt46GNIOSUzn3sUfwkRImdz/s+GSUk3qb6Vaoq
-QjAL2hw33mIPHH0NaLS0YUJm4Sm7s8tIKaENkLvRUcf/PaOlsR+e4LQfh2PU5dT0
-U83z/hUD+3PiXuJaxw9tVN40MrsDyBvRktwFJ0VAbTD3sXjtQmY7fAhKOSE6SiQg
-J7jQtc4Jx72y2ioqXwlcCUGJcw3Sx9MUvJkfjWIuLpHNpnVCHhJQvYYxvnRXdo6E
-+/eRhvrykSPFT0UHMZxnAhDT
-=OQ0A
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MtwQAKCtC4MA++CEL0GWFf2z
+x7vQntQPXQhmLWUFplaGb8Uyf9+7YUu8GJQoXAg8Aqr1mPzToKKw4irmp8eA6yyi
+ReUdVBuqR3vk44TwxZKkwgnqoxA4d47kH4FVHsRsAbyQI3q8iFuSfR2ERvf67XmH
+7S2RB3sCn5hDd59psbG49JnC54ZYfvt1tIK8Bqfy4xfFVbVgfS9axRi1SH9YTIon
+LChS04h1QYzBNYVi6JUvlkcjYr2sial8fPQ5SrjOOC1MUwlnGv13v+kJE2iP551i
+1prv7xzfsxopy0kBi+9o2DJw7RgopJWvjAIG22kjvmsbmxNUkte3X6fyZqglnQ51
+1ppbSCInnlATfE286og76YASuviHt4caksWIUGh7Ow9uKODpfYuqXxiPSTRAsCF/
+EyhlMf+58vRp4rC0fEcitjhdOX6pz9dYm64jKuiI1M2LN1P3Nqai7ACjYem/sFTa
+9ZZPLQs+xS3idIgXsW8TjemzOTUaccssIWxbeUqX4rWbv+Pic+sHOBhTyNLTOSbI
+mALWmL16sx+RZ3neocobl8lNHOLHr2fbh4Vwi1njhdzrCn0s3OTlr1O4B9wFdzSh
+WX9FGXHAKfd4+B2pLPGob88kFaEd2ov0DSqeerwarDNx4+fQtTDZmH3I7QzioxbA
+KqiJyLIfJCso50CpckfuoJ4d
+=7cnQ
 -----END PGP SIGNATURE-----
 
---===============1855047469292115137==--
+--===============2818445513172729353==--
