@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Sun, 29 Aug 2021 19:54:07 -0000
-Message-Id: <163026684736.4900.10260279887983498253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 29 Aug 2021 19:54:35 -0000
+Message-Id: <163026687585.5099.14117780439172596434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: wagi
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 0329edb0f10168fb3375458a2943f1931a2f4e92
-    new: 4a714ca3ff594da36a706ac6acfc9fbe0d98d7a8
+    old: 537b57bd5a202af145c266d4773971c2c9f90cd9
+    new: 90ac80dcd3136da7c5694835d6cad2010aa08798
     log: |
-         b061fdc520d15d34641f0dc129489a8f7460a602 service: Ignore state information in service reordering
-         8b594e8bc6ace1fccbc5dd475543c09b0dd73a89 service: Fix default service update on ready state
-         9d7e55f40e807ea7d28a34b20e50af1b06ea2fda wispr: Add online check url config options
-         416c9cd44131df98d0c57fe4f780419612795f90 service: Prevent auto connection during passphrase request
-         4a714ca3ff594da36a706ac6acfc9fbe0d98d7a8 network: Do not disconnect decice on network connect
+         1669a941f7c4844ae808cf441db51dde9e94db07 clk: renesas: rcar-usb2-clock-sel: Fix kernel NULL pointer dereference
+         90ac80dcd3136da7c5694835d6cad2010aa08798 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
          
