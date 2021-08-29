@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 29 Aug 2021 00:47:55 -0000
-Message-Id: <163019807529.6017.7146969547124761682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Sun, 29 Aug 2021 01:16:49 -0000
+Message-Id: <163019980944.25256.13311645253135884934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
-  - ref: refs/heads/experimental-chunk
-    old: bfcb97d7c3999f26a04e132a7558563febe3ffcf
-    new: 008e28e3b8dc12129a27a53b7564fac1032a784e
+  - ref: refs/heads/erofs/lzma
+    old: 2a6288133fce2d93dcfb4a8a36e5641d9ea97452
+    new: 40f5403dd71e53ddd1af7d93191a884e80d5c45c
     log: |
-         008e28e3b8dc12129a27a53b7564fac1032a784e erofs-utils: support chunk-based uncompressed files
+         40f5403dd71e53ddd1af7d93191a884e80d5c45c erofs: lzma compression support
          
