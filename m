@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2818445513172729353=="
+Content-Type: multipart/mixed; boundary="===============6958441064529799426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 29 Aug 2021 09:04:01 -0000
-Message-Id: <163022784164.15196.7342232617033051647@gitolite.kernel.org>
+Date: Sun, 29 Aug 2021 09:04:02 -0000
+Message-Id: <163022784246.15273.13170119798459845205@gitolite.kernel.org>
 
---===============2818445513172729353==
+--===============6958441064529799426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,20 +16,19 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 35c4ba160ab6133e548468bd0bd1109990dc7736
-    new: c8c7d84be632e1def35813a96d35cebee4c2695f
+  - ref: refs/heads/linux-4.9.y
+    old: ee4959c91711d87bc57c762cd050804c04b08739
+    new: 44440a7468703b8cdeadd5933fcb7eca97b94be3
     log: |
-         4f0e94397bb04275ef15b3a32bf7ffe14cc3a79b ARC: Fix CONFIG_STACKDEPOT
-         dc656cb18ef490766f9c520ae62a15327adf3876 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-         ab362a9c9c679bf7f516f659bb2dd7630e290fbc Revert "USB: serial: ch341: fix character loss at high transfer rates"
-         38119b998a3d84e681b0978f2f9ac803fff0075d USB: serial: option: add new VID/PID to support Fibocom FG150
-         b6473972856c0aeb22008238b33188d85d69f736 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
-         7d46179515415fc81260290ec731f55df9a0cc39 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
-         c8c7d84be632e1def35813a96d35cebee4c2695f Linux 4.14.246-rc1
+         92c8e143e1b57297e8505a1c0fc196dad121e711 ARC: Fix CONFIG_STACKDEPOT
+         e88aa65c8a69586a3ba223ef98e525b81e0e2cbb can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+         e6ea8a11089e48ba1fb1452d19c36e9b224b66fc Revert "USB: serial: ch341: fix character loss at high transfer rates"
+         c2ab400bed9acc0d9572b2810e95e5048ebe4884 USB: serial: option: add new VID/PID to support Fibocom FG150
+         6b19607721b345c01fad9326662554eb1693a513 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
+         44440a7468703b8cdeadd5933fcb7eca97b94be3 Linux 4.9.282-rc1
          
 
---===============2818445513172729353==
+--===============6958441064529799426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,23 +39,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630227833 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1630227818-2d72edb6f750bddcd420ea7f63327c30a08dbe55
 
-35c4ba160ab6133e548468bd0bd1109990dc7736 c8c7d84be632e1def35813a96d35cebee4c2695f refs/heads/linux-4.14.y
+ee4959c91711d87bc57c762cd050804c04b08739 44440a7468703b8cdeadd5933fcb7eca97b94be3 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmErTXkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MtwQAKCtC4MA++CEL0GWFf2z
-x7vQntQPXQhmLWUFplaGb8Uyf9+7YUu8GJQoXAg8Aqr1mPzToKKw4irmp8eA6yyi
-ReUdVBuqR3vk44TwxZKkwgnqoxA4d47kH4FVHsRsAbyQI3q8iFuSfR2ERvf67XmH
-7S2RB3sCn5hDd59psbG49JnC54ZYfvt1tIK8Bqfy4xfFVbVgfS9axRi1SH9YTIon
-LChS04h1QYzBNYVi6JUvlkcjYr2sial8fPQ5SrjOOC1MUwlnGv13v+kJE2iP551i
-1prv7xzfsxopy0kBi+9o2DJw7RgopJWvjAIG22kjvmsbmxNUkte3X6fyZqglnQ51
-1ppbSCInnlATfE286og76YASuviHt4caksWIUGh7Ow9uKODpfYuqXxiPSTRAsCF/
-EyhlMf+58vRp4rC0fEcitjhdOX6pz9dYm64jKuiI1M2LN1P3Nqai7ACjYem/sFTa
-9ZZPLQs+xS3idIgXsW8TjemzOTUaccssIWxbeUqX4rWbv+Pic+sHOBhTyNLTOSbI
-mALWmL16sx+RZ3neocobl8lNHOLHr2fbh4Vwi1njhdzrCn0s3OTlr1O4B9wFdzSh
-WX9FGXHAKfd4+B2pLPGob88kFaEd2ov0DSqeerwarDNx4+fQtTDZmH3I7QzioxbA
-KqiJyLIfJCso50CpckfuoJ4d
-=7cnQ
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ei0QALDEFtejxXXk++KbPP4F
+Fu+d6nbHbQp66YeX+wPLRerBFxT91NQi1nOy2ED6TP49aufoyXwkxxQcwJjaDLAX
+5y6mu8sKveuQsDBs4+6olQzMKLiJFDNV42y0SHB2sZn+eqocxfU1QVm62FBQKpVD
+IzgX5XO9qZd0yRVfB5oa+Rsme2gu9eZr6s9RPn9smxKKcTO/W7oNr2yNQNGSodM+
+BR4nQbLvB9cO8gkZxJAEnfvV7oK+MuF/UPC4fRpFgZT/LZR1qYdcbUbyp/THrvTM
+QTjuGysFXeaUE9WGpr3eAUS7SB3ZL288mL4L45Icbcow64tI+rPSU1YBedk4R4PO
+NF2KrMxMDOtiUlS/ZBBovk9q5GtGh5JQgH5qnWHJqgqBu8L4MID5veN1M8VLJjNE
+Dgk3y1wQl04AU7kQmSz+KpjzuPIcyJ0mtL5z9shOZhKYB0m8SjFC+EFcNId8djSc
+iVgXEZ6mzlS4A1T0aCpC3jWg+Rb/7tNb1fuHGHB3SiZuH9W+9m7bpYlAuH8WJRX8
+gRqJBcc57QN43AeSjHKIBW+WOieLgWuit2EXtnSgL2rzH6hLRBIfQJ+S5+QhneLy
+Hcvm/75o5/CW2v/LK2l5q/+EYm1KLWZiYuC5vd5jo5/gWkrG7R0AOjHM0NPw893W
+CfAQambYsIhNcCqHwxUuX6X8
+=5nw4
 -----END PGP SIGNATURE-----
 
---===============2818445513172729353==--
+--===============6958441064529799426==--
