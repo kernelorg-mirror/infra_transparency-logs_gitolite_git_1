@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 30 Aug 2021 14:50:07 -0000
-Message-Id: <163033500713.17892.5046918736231627933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 30 Aug 2021 14:50:12 -0000
+Message-Id: <163033501285.18026.5577751701738209636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/tags/for-5.15/block-2021-08-30
-    old: 0000000000000000000000000000000000000000
-    new: 4978a46e50e65b6909f84bd43ef5b3f227cd9cf4
-  - ref: refs/tags/for-5.15/drivers-2021-08-30
-    old: 0000000000000000000000000000000000000000
-    new: 34e35d7ae11d3c472b8c24028c67ff165db69069
-  - ref: refs/tags/for-5.15/io_uring-2021-08-30
-    old: 0000000000000000000000000000000000000000
-    new: 82e9947953b61d3e2f0f106fabbe64d4673980c9
-  - ref: refs/tags/for-5.15/libata-2021-08-30
-    old: 0000000000000000000000000000000000000000
-    new: 1a28747190237f01907d3e998a2cedd11a95e1fc
+  - ref: refs/heads/master
+    old: 99c23da0eed4fd20cae8243f2b51e10e66aa0951
+    new: 1eeaa1ae79d84df025eaca363fdce3f397313647
+    log: |
+         1eeaa1ae79d84df025eaca363fdce3f397313647 Bluetooth: Fix enabling advertising for central role
+         
