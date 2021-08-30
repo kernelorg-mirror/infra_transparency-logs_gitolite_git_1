@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 30 Aug 2021 11:46:08 -0000
-Message-Id: <163032396862.17786.5595742714012120774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 30 Aug 2021 11:47:21 -0000
+Message-Id: <163032404133.18229.15492084483150954379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/test/usb-audio-lowlatency
-    old: 54c840acd6a1b8915a841c3d3ee87e013edc5f15
-    new: e965d3cec27a8e9b35240e55a862fa9bd2a689b5
+  - ref: refs/heads/master
+    old: aaa8e4922c887ff47ad66ef918193682bccc1905
+    new: 1b9fbe813016b08e08b22ddba4ddbf9cb1b04b00
     log: |
-         e965d3cec27a8e9b35240e55a862fa9bd2a689b5 ALSA: usb-audio: Improved lowlatency playback support
+         1b9fbe813016b08e08b22ddba4ddbf9cb1b04b00 net: ipv4: Fix the warning for dereference
          
