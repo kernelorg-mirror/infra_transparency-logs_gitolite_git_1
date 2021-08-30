@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4596891214702652906=="
+Content-Type: multipart/mixed; boundary="===============8300100789001728523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Mon, 30 Aug 2021 08:27:44 -0000
-Message-Id: <163031206418.589.15405061339892504755@gitolite.kernel.org>
+Date: Mon, 30 Aug 2021 08:27:50 -0000
+Message-Id: <163031207096.707.3619831841719994000@gitolite.kernel.org>
 
---===============4596891214702652906==
+--===============8300100789001728523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: 5261cdf457ce3635bf18d393a3c1991dcfaf9d02
     new: 6ae51ffe5e768d9e25a7f4298e2e7a058472bcc3
     log: revlist-5261cdf457ce-6ae51ffe5e76.txt
 
---===============4596891214702652906==
+--===============8300100789001728523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -111,4 +111,4 @@ cedcf527d59bcca5f87f52ea34a157bbc6e7a3a8 padata: Remove repeated verbose license
 72ff2bf04db2a48840df93a461b7115900f46c05 crypto: aesni - xts_crypt() return if walk.nbytes is 0
 6ae51ffe5e768d9e25a7f4298e2e7a058472bcc3 crypto: sha512 - remove imaginary and mystifying clearing of variables
 
---===============4596891214702652906==--
+--===============8300100789001728523==--
