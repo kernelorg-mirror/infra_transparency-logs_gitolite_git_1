@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 30 Aug 2021 12:05:52 -0000
-Message-Id: <163032515219.31787.8105425369282290742@gitolite.kernel.org>
+Date: Mon, 30 Aug 2021 12:22:01 -0000
+Message-Id: <163032612114.10516.14358577778460984971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,15 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 73464fb0b04b362a9b7639037e1fc62b84c95b90
-    new: 0d1d8151add065cf327204bec1faf357ee65c117
+    old: 0d1d8151add065cf327204bec1faf357ee65c117
+    new: 4fd351a1ce67ab1229d392047c3ef8e524dab3dd
     log: |
-         44778bbf4d3fca9d08d01029ae7a261384b711cf iio: gyro: remove dead config dependencies on INPUT_MPU3050
-         6c5ccaf55f89b83a83a9e6a617c8274974d5ab56 iio: ad5770r: make devicetree property reading consistent
-         665e622e4e5e3357a4d0452c6b74f22f6f04e946 iio: ltc2983: add support for optional reset gpio
-         3f05eaa9366b9d699072af9c47add33fa310633d iio: ltc2983: fail probe if no channels are given
-         50f0ad570a5f84481e1a88c4f99bf52ce94bb8e2 staging: iio: cdc: remove braces from single line if blocks
-         0d48f67f0de6908638c1935e314c59a5cbd4ec62 iio: adc: twl6030-gpadc: Use the defined variable to clean code
-         0206b989e1f949005d8348ea48faf00229a4dc20 iio: temperature: Add MAX31865 RTD Support
-         af6f81cb430bb9a357a76e81157153257eedd7f6 dt-bindings: iio: temperature: add MAXIM max31865 support
-         0d1d8151add065cf327204bec1faf357ee65c117 iio: magnetometer: ak8975: add AK09116 support
+         ceb378a448d55e0c1c05555d0eee668f2f032835 dt-bindings: iio: adc: at91-sama5d2: add compatible for sama7g5-adc
+         e02845cd73bc99cd304a31a920c55f41e0f0b021 iio: adc: at91-sama5d2_adc: initialize hardware after clock is started
+         35d3be916de8aef0e5d4ae52d5207f938ba32647 iio: adc: at91-sama5d2_adc: remove unused definition
+         29edec2b98fff8ce5145a8585dfc363564704d14 iio: adc: at91-sama5d2_adc: convert to platform specific data structures
+         5c986db7ac37443ec1b6668c2e9c7ec8d32bcbb6 iio: adc: at91-sama5d2-adc: add support for separate end of conversion registers
+         a601c1efd01b3f77cb1cff09964951e25b91a3ec iio: adc: at91-sama5d2_adc: add helper for COR register
+         1addc084d29316b4d2dff8e39b49f8c58874a10b iio: adc: at91-sama5d2_adc: add support for sama7g5 device
+         4fd351a1ce67ab1229d392047c3ef8e524dab3dd iio: adc: at91-sama5d2_adc: update copyright and authors information
          
