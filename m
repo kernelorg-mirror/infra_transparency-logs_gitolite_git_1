@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 30 Aug 2021 10:04:05 -0000
-Message-Id: <163031784551.14417.13732507543101224249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 30 Aug 2021 10:04:06 -0000
+Message-Id: <163031784675.14477.8197559056343010500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/x86_cleanups_for_v5.15
+  - ref: refs/tags/mmc-v5.15
     old: 0000000000000000000000000000000000000000
-    new: 7cc586cd432e96849b82ed1dfb3b01c42d297c13
+    new: 7f19081f18ac76b1a3a34ed7babaa530f30205e7
+  - ref: refs/tags/v5.14
+    old: 0000000000000000000000000000000000000000
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
