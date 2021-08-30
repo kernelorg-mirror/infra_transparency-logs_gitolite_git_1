@@ -1,19 +1,103 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-Date: Mon, 30 Aug 2021 10:18:25 -0000
-Message-Id: <163031870504.23892.5110047892169329053@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0414255649140879925=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 30 Aug 2021 10:34:35 -0000
+Message-Id: <163031967512.2300.14532557007211314374@gitolite.kernel.org>
+
+--===============0414255649140879925==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-user: nsaenz
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/wip
-    old: 957b81cee40050c48ef3e5cf0864bf6afd591728
-    new: 479172ae98c2cc1d1509cb376ca2abcf83791a0d
+  - ref: refs/heads/master
+    old: 621dcea8eed386b2c7cb7e9b7b0ffc49f89fed82
+    new: 84fa6ffbded98887918549761d1338e3f50c5bae
     log: |
-         479172ae98c2cc1d1509cb376ca2abcf83791a0d ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
+         6c3e2e2bee5c4ca15fa03b45c9d47f2f473965cd rework Help section
+         a619cc1757462484aa5a0c8153fd22ed5cb0dc9f rename reference to specifications
+         ec946b17eb4aec48cbd4b3fc4b77324d4f5f8770 add headers
+         2206f7f108c7a0bebdc4da8c9dc32f24cfdda1b0 Prepare version for translation.
+         84fa6ffbded98887918549761d1338e3f50c5bae Remove some Doxygen docs warnings.
          
+  - ref: refs/merge-requests/201/head
+    old: 70bd510b4c3eb94cd2574bca10c91abfe28bfb61
+    new: 4e5f9a8bed45f13e64f147323f2f7dd6374b7038
+    log: revlist-70bd510b4c3e-4e5f9a8bed45.txt
+  - ref: refs/merge-requests/201/merge
+    old: 55c73316f55216b9b15e9de4d1a7017692799a58
+    new: 6939e7d47eb578407d41925e4b0dfa0c5c6c9841
+    log: |
+         6c3e2e2bee5c4ca15fa03b45c9d47f2f473965cd rework Help section
+         a619cc1757462484aa5a0c8153fd22ed5cb0dc9f rename reference to specifications
+         ec946b17eb4aec48cbd4b3fc4b77324d4f5f8770 add headers
+         4e5f9a8bed45f13e64f147323f2f7dd6374b7038 veritysetup: print hash blocks and the final device size in header dump
+         6939e7d47eb578407d41925e4b0dfa0c5c6c9841 Merge branch 'veritysetup-output' into 'master'
+         
+  - ref: refs/merge-requests/210/merge
+    old: 861b30d9669e78d992aa1e26fa65ad4215f60f13
+    new: 7ad36015c3a2a2cfbc39d9ff0c458a59f03c0262
+    log: |
+         621dcea8eed386b2c7cb7e9b7b0ffc49f89fed82 Do not init LUKS2 decryption for devices with data offset.
+         6c3e2e2bee5c4ca15fa03b45c9d47f2f473965cd rework Help section
+         a619cc1757462484aa5a0c8153fd22ed5cb0dc9f rename reference to specifications
+         ec946b17eb4aec48cbd4b3fc4b77324d4f5f8770 add headers
+         7ad36015c3a2a2cfbc39d9ff0c458a59f03c0262 Merge branch 'resume-by-token' into 'master'
+         
+  - ref: refs/pipelines/360788165
+    old: 621dcea8eed386b2c7cb7e9b7b0ffc49f89fed82
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/pipelines/361690619
+    old: 0000000000000000000000000000000000000000
+    new: 84fa6ffbded98887918549761d1338e3f50c5bae
+
+--===============0414255649140879925==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-70bd510b4c3e-4e5f9a8bed45.txt
+
+d169020001a5c5a58e65c75d83b8a1d3ffcccc65 Limit GitLab CI only to parent cryptsetup project.
+20774374a98696a264ac7968e2a2b9a5728332d4 Fail if default compiled hash is not implemented.
+63adb3b0cfb6e14ed0fd47105345246b902f9c37 Fix LDFLAGS for all-symbols-test.
+5fa8e84ef004907f51c6d368cedad3fa8188657a Also install directory for external plugins.
+b5190da581b8308a91d9dd7d7745aa74034fb54c Update cryptsetup.pot.
+3ad942e3380250d6c663a34b6c6696709a70fc05 Add autogen.sh to distributions.
+4746717b75e1fe6181c9068f2e04226e0a6ae848 Update Fedora spec.
+0ee752c42d67662d27bc29ef2d821e2ad2372883 Update 2.4.0 release notes.
+aa324567a81880669deb7cafbc93bdde825455f8 ssh-plugin-test: Fix running the test in GitHub actions
+5c5551d1d344d2214b5de9b7eb471588af03a3ae Update release notes.
+c5b0a4dd325983173fa97501ce5c5ba8081facf2 Remove Travis CI config. So long, and thanks for all the builds.
+0f8e7f317f9b2daa4c4f8ef10e2dae8fcac9479b Version 2.4.0.
+03208167b23a04289f173a0b129bb083712f6615 Fix release notes.
+ab37ad0dc93cce951374124f91755adfff642421 Update doxyfile.
+5efa782567218bc1da8baa8647bbc91d5c6c3776 Ignore default algorithm test in FIPS mode.
+e008a88b9808d733f204fda5c3457e06250f3b45 Test Coverity action.
+20b678c9f3a25c5777c8790f21a773f5657c60f0 Fix symbol version test if dlvsym() is not available.
+03943acbb19471519b9356f6f063cb7bccae9b01 Remove obsolete AC_HEADER_STDC macro.
+246d306eeb7db3d2f776f69b9596445d9b642907 Check for argp library that can be standalone.
+3a79b2b09b1faaa85c41fb5fc9c2730ab9ba44aa Fix gettext (-lintl) linker flags.
+93481d15666b0cf4c266a5c67cf8408f7d18c079 Use compatible flags for BusyBox free command.
+863fd0830545e85bf1948cf4aa2750aa85dbbdc5 Skip test if incompatible tar from BusyBox is installed.
+358dec19b28b7a6752fbffed3e0b6f5fc84d6075 Use compatible flags for BusyBox diff command.
+9b7d3be5c650d0cc093b9d1ed10b418b11e9f498 Skip UUID= cryptsetup activation test if /dev has no uuid links.
+26679e223cde763eb01ee1ce92b2844671d32d88 Trigger read event for verity test to mark device as corrupted.
+53b22cc32ed3b9151bf9e5d6228cccf63ddfbb6d Fix deferred remove test failure on non-udev systems.
+5f2c751dd8fb90ee71710df2ab5fa65e9064891d Use dlsym() for token load if dlvsym() is not available.
+e5d84156e479a182d3396356d4f740c0acea8f29 Fix linker to use -ldl if external tokens are used.
+8c28774917ad89e26823c67bd8fbcb38b1441711 Fix vector test print message additional parameter.
+46b70d7317ce9d5dc01d9686314bdab34295c62f Add error message when assigning token to inactive keyslot.
+0066f9dd83e1405a821c73b61eaacd4e6386a500 Fix LUKS1 repair to repair wrong ECB mode.
+f6fb53012179cb8dbd67f1ba159df8d8d837b4e0 Repair also lowercase hash in LUKS1 header.
+621dcea8eed386b2c7cb7e9b7b0ffc49f89fed82 Do not init LUKS2 decryption for devices with data offset.
+6c3e2e2bee5c4ca15fa03b45c9d47f2f473965cd rework Help section
+a619cc1757462484aa5a0c8153fd22ed5cb0dc9f rename reference to specifications
+ec946b17eb4aec48cbd4b3fc4b77324d4f5f8770 add headers
+4e5f9a8bed45f13e64f147323f2f7dd6374b7038 veritysetup: print hash blocks and the final device size in header dump
+
+--===============0414255649140879925==--
