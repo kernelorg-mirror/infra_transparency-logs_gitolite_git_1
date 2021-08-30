@@ -1,135 +1,240 @@
-Content-Type: multipart/mixed; boundary="===============4972394472075013666=="
+Content-Type: multipart/mixed; boundary="===============4544220668065008610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 30 Aug 2021 05:54:29 -0000
-Message-Id: <163030286949.30224.13089914727310831458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 30 Aug 2021 06:04:30 -0000
+Message-Id: <163030347017.4109.3198551738523984279@gitolite.kernel.org>
 
---===============4972394472075013666==
+--===============4544220668065008610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/linux-5.13.y
-    old: aeadb98365a422201468ee9d9526e08d37b20866
-    new: 5a5b2e290019c314fb4cdcd15fada7567df1a64a
-    log: revlist-aeadb98365a4-5a5b2e290019.txt
+  - ref: refs/heads/for-linus
+    old: 4801bee7d5a36c199b734a28cde5259183aff822
+    new: f7b82b12626e10a2f5332b699cc79819ac8decc7
+    log: revlist-4801bee7d5a3-f7b82b12626e.txt
+  - ref: refs/heads/for-next
+    old: ea41a498cc646349d64eda7e8a4e23ae999bc259
+    new: f7b82b12626e10a2f5332b699cc79819ac8decc7
+    log: |
+         f3eef46f0518a2b32ca1244015820c35a22cfe4a ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+         4267c5a8f3133db0572cd9abee059b42cafbbdad ALSA: usb-audio: Work around for XRUN with low latency playback
+         4801bee7d5a36c199b734a28cde5259183aff822 ALSA: usb-audio: Add lowlatency module option
+         f7b82b12626e10a2f5332b699cc79819ac8decc7 Merge branch 'for-linus' into for-next
+         
+  - ref: refs/heads/master
+    old: 3a22ea534f28a771e327c21028f71c29f534833f
+    new: 24c3c8dd413e18b28f7fa37c2d289569264bd9e7
+    log: |
+         f7b82b12626e10a2f5332b699cc79819ac8decc7 Merge branch 'for-linus' into for-next
+         24c3c8dd413e18b28f7fa37c2d289569264bd9e7 Merge branch 'for-linus'
+         
 
---===============4972394472075013666==
+--===============4544220668065008610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4801bee7d5a3-f7b82b12626e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630302866 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1630302865-a4980abe48484a1e13d05d2ca1672b50bd4d9868
+2d52c5dd8e80b50501af51d3c03e4e649d31adbe ALSA: hda/ca0132: remove redundant initialization of variable status
+3b0f7eeff697b04571a5c6329b7e8fdf8f8c85d9 ALSA: ice1724: Remove superfluous loop over model table
+82a60352c2d3ef06815d4ddfd85d5506b5758804 ALSA: x86: simplify with sync_stop PCM ops
+4ff19229487f965118c6f14090edcc8cb6108605 ALSA: hda/hdmi: Add option to enable all pins forcibly
+27757876d1738a2dd528986c8143192f84eaa58a ALSA: intel8x0: Skip ac97 clock measurement on VM
+fc93c96fe34e10b873fef73e80cee52503f3a679 ALSA: compress: Drop unused functions
+2c4e3154571612c419cb0c4e86ea0afd5be83da0 ALSA: compress: Initialize mutex in snd_compress_new()
+e6c0a0889b808989dc2e0f89a87c0a0adab32463 ALSA: aloop: Fix spelling mistake "synchronization" -> "synchronization"
+427ae2689db0fb6377e39e63fae2991223cdd9e7 ALSA: core: Add device-managed page allocator helper
+e8ad415b7a55cb9a9fbfc04696518d5ea0b609b3 ALSA: core: Add managed card creation
+c2b94954add3cb25b40a9aa8badd196671d9872b ALSA: core: Add device-managed request_dma()
+ac327f1b10bca6cee8f1a427e5ba451e2d69c710 ALSA: doc: Add device-managed resource section
+7835e0901e245aa8b83d7e2964f17088cb2e1f1e ALSA: intel8x0: Allocate resources with device-managed APIs
+86bde74dbf0944444aea43eb9e647f1ce16c7ade ALSA: atiixp: Allocate resources with device-managed APIs
+3fcaf24e5dcea3c223d97fd10d7c0b5bc6d765c4 ALSA: hda: Allocate resources with device-managed APIs
+567f58754109b0a832b760b2166fc9efd4e4a3b7 ALSA: ad1889: Allocate resources with device-managed APIs
+21a9314cf93bfe9f77e2e019c272d15d58504670 ALSA: als300: Allocate resources with device-managed APIs
+0e175f665960c7be30aba47afbee4f2d121ea5fc ALSA: als4000: Allocate resources with device-managed APIs
+8c5823ef31e1cb3bd1144bc6cefc9a234cfac7ba ALSA: azt3328: Allocate resources with device-managed APIs
+9e80ed64a0067f407ac0fcb39bb018ebd675187f ALSA: bt87x: Allocate resources with device-managed APIs
+87e082ad84a7e1f022be168396ff1cb93a80c557 ALSA: cmipci: Allocate resources with device-managed APIs
+99041fea70d0ae1c3f6923564133a725a1f7a0e8 ALSA: cs4281: Allocate resources with device-managed APIs
+2e11e3ff2a4368e592cbfd50642ae354dcacde76 ALSA: cs5530: Allocate resources with device-managed APIs
+10ed6eaf9d72bbca32ccaa6e064c7e02e778919d ALSA: ens137x: Allocate resources with device-managed APIs
+08e9d3ab4cc1435ff96af563087894c482533c9e ALSA: es1938: Allocate resources with device-managed APIs
+a7b4cbfdc7010e5a7136b3e4f8c2a9d3c8f634e5 ALSA: es1968: Allocate resources with device-managed APIs
+47c413395376796f44731eaf17c5943444dcaa05 ALSA: fm801: Allocate resources with device-managed APIs
+5c0939253c3cb86a3e1197197ddaed051109e1ad ALSA: maestro3: Allocate resources with device-managed APIs
+102e6156ded2849f3f5c7e1519e94c809bb187e0 ALSA: rme32: Allocate resources with device-managed APIs
+df06df7cc997740aadc39d8bf3332413f84a54d4 ALSA: rme96: Allocate resources with device-managed APIs
+499ddc16394c983b63da16ae3578913133e9cc86 ALSA: sis7019: Allocate resources with device-managed APIs
+2ca6cbde6ad7cf1ac6ff179751cf7ba60af3dcdd ALSA: sonicvibes: Allocate resources with device-managed APIs
+afaf99751d0c906914fd958432b648db2ccdf1bb ALSA: via82xx: Allocate resources with device-managed APIs
+24ee07fbf95dea6fcf5f4b78c496aee987bca5a2 ALSA: ali5451: Allocate resources with device-managed APIs
+e44b5b44060924063e91f361fb03e27281cc72a8 ALSA: au88x0: Allocate resources with device-managed APIs
+33631012cd067d2c9ea6da5d4213a8f27fdde271 ALSA: aw2: Allocate resources with device-managed APIs
+1656fa6ea2583d9779c10051b3b37d664c8899e3 ALSA: ca0106: Allocate resources with device-managed APIs
+5bff69b3645db7b3018ecbc26218d8866aeaf214 ALSA: cs46xx: Allocate resources with device-managed APIs
+5eba4c646dfe3d8bdb8b86df64e84f836ed992f4 ALSA: cs5535audio: Allocate resources with device-managed APIs
+9c211bf392bbf7cec3f69129adeedff7983c833e ALSA: echoaudio: Allocate resources with device-managed APIs
+79e8b218b36dfa613440752c736fae37bc5fefbc ALSA: emu10k1: Allocate resources with device-managed APIs
+2b377c6b6012b6ae71ae74d0b14677050a5aaf6c ALSA: emu10k1x: Allocate resources with device-managed APIs
+ca642da4b33d385c5a633287e1c4155f1ea09638 ALSA: ice1712: Allocate resources with device-managed APIs
+272d6efa0b43f34c435937ad99db5289e460b05e ALSA: ice1724: Allocate resources with device-managed APIs
+1f0819979248bfc995e392bb1f4e2a508ecef0f4 ALSA: ali5451: Allocate resources with device-managed APIs
+314f6dbb1f3320834eb9f6674e052419b28fea88 ALSA: ice1724: Allocate resources with device-managed APIs
+b5cde369b61850d31d8e0791168bf359a7ca9eaf ALSA: korg1212: Allocate resources with device-managed APIs
+098fe3d6e77515685c60179926a96c5ac0fee74a ALSA: lola: Allocate resources with device-managed APIs
+6f16c19b115eb6564da7ea882af2afee4e26c213 ALSA: lx6464es: Allocate resources with device-managed APIs
+c19935f04784dcaa456fcd1d1b1fbf3a85765ff1 ALSA: nm256: Allocate resources with device-managed APIs
+596ae97ab0ce0ac273162d51424d7a509b557f32 ALSA: oxygen: Allocate resources with device-managed APIs
+546c201a891e8439d11a13f5dd3e636ebd94b7d6 ALSA: riptide: Allocate resources with device-managed APIs
+d136b8e54f92dfcc3b80d7796b142658c8f68c97 ALSA: hdsp: Allocate resources with device-managed APIs
+0195ca5fd1f463ec1b3ea5a23fff672330584616 ALSA: hdspm: Allocate resources with device-managed APIs
+b1002b2d41c5d33c39b853cab3a83978f28be7de ALSA: rme9652: Allocate resources with device-managed APIs
+5adfd8c26607cdc666aa86ecc10104924d54082a ALSA: trident: Allocate resources with device-managed APIs
+a033954140ac43a8ce0eab469229a107cfee1c87 ALSA: vx: Manage vx_core object with devres
+3bde3359aa1648aaf60a1f17cda87df23d8b0d43 ALSA: vx222: Allocate resources with device-managed APIs
+c6e6bb5eab7457a938c0405d5ccf319d3ee735c1 ALSA: ymfpci: Allocate resources with device-managed APIs
+d6fb54e87869ce91e3dc8b9ee58ed17ee9030c3c ALSA: ad1816a: Allocate resources with device-managed APIs
+ea2bfa2961b63d6dead8a33f533e3de5196f6d55 ALSA: wss: Allocate resources with device-managed APIs
+5eab6cb0344d06dc654f3f98a44359e07fc98179 ALSA: sb: Allocate resources with device-managed APIs
+e031577eef6118bd9c4f3ec319f69986531cd32c ALSA: ad1848: Allocate resources with device-managed APIs
+5d50e348a499dcf5ba40dd797ac15fa78fe8d06b ALSA: adlib: Allocate resources with device-managed APIs
+749cadc7f53f99691e0e0b518980a5ab454cc844 ALSA: als100: Allocate resources with device-managed APIs
+39c4f9aa761ab147f32cdea7c8d0b2c1fba2b082 ALSA: azt2320: Allocate resources with device-managed APIs
+d9fd7397a70e201800307f83eb3941f4d28fef81 ALSA: cmi8328: Allocate resources with device-managed APIs
+45782ce077a83a15e697794b2b2c53c58d9cf321 ALSA: cmi8330: Allocate resources with device-managed APIs
+4287864eb0532c971ef7555804e4d44a02748b0d ALSA: cs423x: Allocate resources with device-managed APIs
+1bb11c1c7f6e264a737b30c667c3c84fbe511d98 ALSA: es1688: Allocate resources with device-managed APIs
+34d6599bc107c5eebe24961fe18cdaa6e9e22aef ALSA: es18xx: Allocate resources with device-managed APIs
+35a245ec06192629b6c4210b93aaebcfab62a09e ALSA: galaxy: Allocate resources with device-managed APIs
+5b88da3c800f21a76b9fd755c604402c15b10855 ALSA: gus: Allocate resources with device-managed APIs
+098493041a2ce8a35eada728e136e5a5edfe24ad ALSA: msnd: Allocate resources with device-managed APIs
+2973ee4a5b5495090af6b24d9adbb765bca04aaf ALSA: opti9xx: Allocate resources with device-managed APIs
+6bf39b5dbd53b274ec4d381a082555ccc74b55a2 ALSA: opl3sa2: Allocate resources with device-managed APIs
+111601ff76e9eb5038254284dcdd3b212c752aef ALSA: sc6000: Allocate resources with device-managed APIs
+bddc2ef1323588caa69b6b806c193db4d1f97dad ALSA: sscape: Allocate resources with device-managed APIs
+f082b1ad39ea1e47d1acfec229f10d9b17415b76 ALSA: wavefront: Allocate resources with device-managed APIs
+854577ac2aea5cf4d8f48a841fd26e04cbac2b77 ALSA: x86: Allocate resources with device-managed APIs
+ed539fc3428c6901e668e9d71ce1ca78f28cc03f ALSA: virmidi: Allocate resources with device-managed APIs
+aa92050f10f0c904df5ae58e3b2c70c9e4ef67c2 ALSA: mtpav: Allocate resources with device-managed APIs
+60d03de81c40270eab06b29c502a12ccb3b1cf4c ALSA: serial-u16550: Allocate resources with device-managed APIs
+de74763295a8a2b219be43b41513285a82920c4e ALSA: mpu401: Allocate resources with device-managed APIs
+b072e65aadd683e75518150c609ae29b5d33fe0c ALSA: aloop: Allocate resources with device-managed APIs
+ed16a22b09002fe1bef302242a0ac4a00f44b20d ALSA: dummy: Allocate resources with device-managed APIs
+3a1e341c5687b4e8fe51ca1c933b1f23ab3304c1 ALSA: pcsp: Allocate resources with device-managed APIs
+7f6726b63595c7ec8bc410364ab3be6cf4d4d407 ALSA: nm256: Fix error return code in snd_nm256_create()
+e24ef4881bdd11c13d35235a410571c0d0aa0e5d ALSA: opti9xx: fix missing { } around an if block
+dca18a94d3ad94201183f64d89149553c9cec95d ALSA: sc6000: Fix incorrect sizeof operator
+9b7843d1e125dca0d6ed0af9e8dd709d41eb25ad ALSA: sc6000: Assign vport directly on card's private_data
+35fe7901150d5a4a67b4bab544e926fbbf00ebfe ALSA: cs4281: Fix missing chip initialization
+f263a2c2d6c7c44e9256e6a24c9fec668f22ff8b ALSA: als300: Fix missing chip initialization
+d364a600d6ed9cd78744031a36627d21a6deaefd ALSA: korg1212: Fix wrongly shuffled firmware loader code
+f976e8a941763d37cddb365a755b27bbcf5de72e ALSA: sc6000: Use explicit cast for __iomem pointer
+c5aa8277a1d388ba634f756473ee63017708f9c6 ALSA: seq: Fix comments of wrong client number for MIDI Passthrough
+fac24b0f34c179c6ca863f5205fad42a676caf9a ALSA: pcxhr: use __func__ to get funcion's name in an output message
+825a52482a616d74bd2f5eacc0f8946d025499a7 ALSA: core: Fix double calls of snd_card_free() via devres
+01099b1ad9101ca3f41071a87b9c496d9ea1d2ad Merge branch 'for-linus' into for-next
+4d4dee0aefec36e6d1568e844a9e75a2e165cb93 ALSA: usb-audio: Introduce quirk_flags field
+ce47d47e5cc8768ba6db4a5a6fb166b176fe12e6 ALSA: usb-audio: Move media-controller API quirk into quirk_flags
+af158a7f8d9a858971bbb3c241545928fb327c6a ALSA: usb-audio: Move txfr_quirk handling to quirk_flags
+c1b034a4214e4ce81132be9db44e9fe3e2369351 ALSA: usb-audio: Move tx_length quirk handling to quirk_flags
+019c7f912ca947c80b9b6f090fee90f90e1be9c8 ALSA: usb-audio: Move playback_first flag into quirk_flags
+f21dca857b4c2ab226083330ee31479ddac1e99d ALSA: usb-audio: Move clock setup quirk into quirk_flags
+2de00d5a914ee2cb81ef775dffd0ca955f5644b8 ALSA: usb-audio: Move ITF-USB DSD quirk handling into quirk_flags
+f748385471f72992f8d5242a89deab518b38be76 ALSA: usb-audio: Move control message delay quirk into quirk_flags
+1f074fe569870ed91c8ad2f67cccd9db5265443e ALSA: usb-audio: Move interface setup delay into quirk_flags
+8bfe17ad975ffbd0c7ce673993ed2242fbc4ad94 ALSA: usb-audio: Move rate validation quirk into quirk_flags
+44e6fc64dfebf48811219a9c24666b4b87dc0ec5 ALSA: usb-audio: Move autosuspend quirk into quirk_flags
+3c69dc9134130deb9682279374d9d97de52b0731 ALSA: usb-audio: Move ignore_ctl_error check into quirk_flags
+68e851ee4cfd2a3c96f10d984192c2c8abe9a104 ALSA: usb-audio: Move generic DSD raw detection into quirk_flags
+5b517854420b53541af09dc9e097e93673c9226f ALSA: usb-audio: Add quirk_flags module option
+a39978ed6df1bc0b29bc6820e8878b49e428426b ALSA: doc: Add the description of quirk_flags option for snd-usb-audio
+d1254593e705e3ef088195850959b4adc878fcee ALSA: usb-audio: make array static const, makes object smaller
+723c1252e058dc854f9d031e3e6526ca62f9f5c7 ALSA: memalloc: Minor refactoring
+58a95dfa4fdd9c72e62be34dd025d268c1e04a83 ALSA: memalloc: Correctly name as WC
+ac9245a5406e6074a1aa211f103629d3f154c5a5 ALSA: pcm: Allow exact buffer preallocation
+d5c5055816740bd26f3c0095e7f5e63dfa4bbdf8 ALSA: memalloc: Support WC allocation on all architectures
+7f2da3d76b7d5228457d22a2dff0725fbf93d417 ALSA: pxa2xx: Use managed PCM buffer allocation
+13ce4d8fbf59defb69685c76279e57d4830b411d ASoC: bcm: Use managed PCM buffer allocation
+f010a4987f61ca6173d5dbd30dc1802036fb187d ASoC: fsl: imx-pcm-fiq: Use managed buffer allocation
+0e1b598fb427b4512731df8d38c69b83852b72a1 ASoC: fsl: imx-pcm-rpmsg: Use managed buffer allocation
+189364872fba07291db7f68fe0161f97e5b61bb1 ASoC: tegra: Use managed buffer allocation
+1855ce6293c01935a3242a90d08ab221c095d82c ASoC: fsl_asrc_dma: Use managed buffer allocation
+e159704f792014a23b92b85f62a8f990b08bd7e2 ASoC: fsl_dma: Use managed buffer allocation
+3610a6d1dbd19b344bdf5b6647b2750efe55fe2e ASoC: mpc5200: Use managed buffer allocation
+15a52cdcb0ef4d01c7da97c6db5c20d193ea93f1 ASoC: qcom: lpass: Use managed buffer allocation
+8c505b773d3fda7129d5171626860e4caa33a8ef ASoC: qcom: qdsp6: Use managed buffer allocation
+ba447289fd06c8678eaf51ccffb1b0c9a6a56c9a ASoC: sprd: Use managed buffer allocation
+623c10108338b6b4e2c99de9fbc785f30b526c54 ALSA: memalloc: Fix pgprot for WC mmap on x86
+f84ba106a0185b4336f58580bb016ce993962b0f ALSA: memalloc: Store snd_dma_buffer.addr for continuous pages, too
+ddddc0d4c76aabd15eddbd905d4bf009f2f30725 ALSA: pci/korg1212: completely remove 'set but not used' warnings
+df8bcf36be2755a39c2f1bcc1ea3c18329c29931 ALSA: es1688: Avoid devres management for es1688 object creation
+9732c148d0ced6dd0c5feb0da91f979c6beb5c93 ALSA: memalloc: Fix mmap of SG-buffer with WC pages
+ad797a04f1294b48b0e17c1e858b71ea1b1a77d9 Merge branch 'for-linus' into for-next
+2c86446f8e0428cd5c9bb37f9c6727bd4830967d ALSA: harmony: Drop superfluous address setup
+cbea6e5a7772b7a5b80baa8f98fd77853487fd2a ALSA: pcm: Check mmap capability of runtime dma buffer at first
+0899a7a23047f106c06888769d6cd6ff43d7395f ALSA: pci: rme: Set up buffer type properly
+4d9e9153f1c64d91a125c6967bc0bfb0bb653ea0 ALSA: pci: cs46xx: Fix set up buffer type properly
+ca4c5b334f1036d567b6a7d1f695430d7e4fd8a3 ALSA: msnd: Use proper mmap method
+8c70461bbb83cf4bec058a5da16253ec7ac3fecc ALSA: hda/cirrus: Move CS8409 HDA bridge to separate module
+9e7647b5070fb7efdc6d74b82095256af8749133 ALSA: hda/cs8409: Move arrays of configuration to a new file
+ccff0064a7ce8e6716fe110a278e67514a51b218 ALSA: hda/cs8409: Use enums for register names and coefficients
+cab82a222f3d56e8891e383d5c3e11935c103fff ALSA: hda/cs8409: Mask all CS42L42 interrupts on initialization
+29dbb9bcd3ea7f6c0385dfe714a5511865cd00c6 ALSA: hda/cs8409: Reduce HS pops/clicks for Cyborg
+1f03db686583ee1c5cce4db62335fcb685bce27d ALSA: hda/cs8409: Disable unnecessary Ring Sense for Cyborg/Warlock/Bullseye
+cc7df1623c523e1d4432492085d0a200245d805c ALSA: hda/cs8409: Disable unsolicited responses during suspend
+134ae782c468769b5524bed50e8d58ed3cad3587 ALSA: hda/cs8409: Disable unsolicited response for the first boot
+1e0a975a8a8e0d5dac04781e2eb3269912b1386f ALSA: hda/cs8409: Mask CS42L42 wake events
+db0ae848a9896b4d18a793d47dc672257391045c ALSA: hda/cs8409: Simplify CS42L42 jack detect.
+a1a6c7df2b2e9e2291e4c1c621b6092b07777934 ALSA: hda/cs8409: Prevent I2C access during suspend time
+b2a887748e518b1c355e244ff847293a1bf39c64 ALSA: hda/cs8409: Generalize volume controls
+647d50a0c30402d2156ca201a74d77d58c7ef5ff ALSA: hda/cs8409: Dont disable I2C clock between consecutive accesses
+d395fd7864c553908a83e10112184febbb9cf81c ALSA: hda/cs8409: Avoid setting the same I2C address for every access
+8de4e5a6680df739f2368628e738d08820320484 ALSA: hda/cs8409: Avoid re-setting the same page as the last access
+165b81c4ac3062d61e5422c85fcd55e8d0f805da ALSA: hda/cs8409: Support i2c bulk read/write functions
+636eb9d26f29cd9e195a6bae783315284efa11da ALSA: hda/cs8409: Separate CS8409, CS42L42 and project functions
+24f7ac3d3b6b706217e9b9d2cf0804d312505fbe ALSA: hda/cs8409: Move codec properties to its own struct
+c076e201d5e16ffa7bcd01edc82cf5a1f9ce0721 ALSA: hda/cs8409: Support multiple sub_codecs for Suspend/Resume/Unsol events
+404e770a9c878bb0db14f1c2a69203081598686f ALSA: hda/cs8409: Add Support to disable jack type detection for CS42L42
+20e507724113300794f16884e7e7507d9b4dec68 ALSA: hda/cs8409: Add support for dolphin
+e4e6c584f516880a5c3e0963159e201e83d86be7 ALSA: hda/cs8409: Enable Full Scale Volume for Line Out Codec on Dolphin
+fed0aaca0b0f204ca40b89b22b0e493ceb27d48e ALSA: hda/cs8409: Set fixed sample rate of 48kHz for CS42L42
+928adf0ebc7893ee228a06479b1b797779fd41a9 ALSA: hda/cs8409: Use timeout rather than retries for I2C transaction waits
+c8b4f0865e82c14924c69c07d985af3ee9133316 ALSA: hda/cs8409: Remove unnecessary delays
+4ff2ae3a135ffe3f849492fd59ebeda3c7d1100f ALSA: hda/cs8409: Follow correct CS42L42 power down sequence for suspend
+7482ec7111fbeff9acf681036faddfcc20fadcb1 ALSA: hda/cs8409: Unmute/Mute codec when stream starts/stops
+360a5812b9237a1dcc8da259e6e570a4b45379bd ALSA: core: control_led: use strscpy instead of strlcpy
+0c4aa67735b754b735b85edfc909163f9289fcc2 ALSA: hda_audio_ext: fix kernel-doc
+1a04830169d00cde48e13072a1ed2222784a958b ALSA: hda/cs8409: Prevent pops and clicks during suspend
+bda36b0fc2b6ab0c35d68c1cec8968ee4b920cd9 ALSA: memalloc: Count continuous pages in vmalloc buffer handler
+7ac2246f5670f42a3aac3eb05d23112f6ecfd4de ALSA: usb-audio: Input source control - digidesign mbox
+81be10934949da8b12ca4db3de1511a4220fa9b4 ALSA: pcm: Add SNDRV_PCM_INFO_EXPLICIT_SYNC flag
+95dc85dba05fa8f84c6db5fee3990fa4dd9fb499 ALSA: hda: conexant: Turn off EAPD at suspend, too
+b98444ed597dc42be620bcac241c93da50933e69 ALSA: hda: Suspend codec at shutdown
+327b34f2a97d72c41d4854d61336c9ae6ffe4a44 ALSA: hda: Nuke unused reboot_notify callback
+c0a7f9372cf0fc9bd0a73eb287664e26e5b18f1e Merge branch 'for-linus' into for-next
+8fc8e903156f42c66245838441d03607e9067381 ALSA: hda: Drop workaround for a hang at shutdown again
+f8b32a6daf35f54f6260df7446e4069af64f0fcc ALSA: hda/sigmatel - Sink stac_shutup() into stac_suspend()
+d2d837563743590cbf07bf786941e73a8c40b031 ALSA: hda/analog - Sink ad198x_shutup() and shuffle CONFIG_PM guards
+23c671be97b9e49846d03ceb0bce3731f4b869ac ALSA: firewire-motu: add support for MOTU 896HD
+73355ddd87758865fde6c97b96298ddcd44fdc3b ALSA: hda: Code refactoring snd_hda_pick_fixup()
+a235d5b8e550fac7520410440bcc8003fb4cf8d0 ALSA: hda: Allow model option to specify PCI SSID alias
+4a1672d183cc0bbf26292390ced0bbcb7e810ee1 ALSA: hda: Update documentation for aliasing via the model option
+2231af793fe28d478ab4740a46e2debbc0b4940c ALSA: doc: Fix indentation warning
+539a5093e73e0f00c8e481a06407f058cc7a04d3 Merge branch 'for-linus' into for-next
+e28ac04a705e946eddc5e7d2fc712dea3f20fe9e ASoC: intel: atom: Revert PCM buffer address setup workaround again
+1a10d5b0f6c2aebecec5f6f99d651bc2e2b4ce44 Merge branch 'for-linus' into for-next
+6e41340994e5b5bd9262246e8d1f64406d72ab8b ALSA: usb-audio: Move set-interface-first workaround into common quirk
+2eaf1635f9d62a2774c1c8114db24456dfd00721 ALSA: hda: Disable runtime resume at shutdown
+424e531b47f83da87490464c5bf633dfb624fe6a ALSA: hda/cs8409: Ensure Type Detection is only run on startup when necessary
+ea41a498cc646349d64eda7e8a4e23ae999bc259 ALSA: hda/cs8409: Initialize Codec only in init fixup.
+f7b82b12626e10a2f5332b699cc79819ac8decc7 Merge branch 'for-linus' into for-next
 
-aeadb98365a422201468ee9d9526e08d37b20866 5a5b2e290019c314fb4cdcd15fada7567df1a64a refs/heads/linux-5.13.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEscpIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+stkP/jbsHudn6PHyC+yTAf2S
-S3vK0UF/sL4SK7dnSnaofb7/nMzllFquV4grJAZbgm5ro1CdHCuKRqWk9Kn8mOkC
-OBKZuogYo6MxKnoOYtJXrNr+T8VJEcXHTzESlmFCRS3QJcWo5hmrQcUqBhLnv4LF
-AogqS4okrNwSzZqnud/YXMu/3sWrTMc4oGuF6kXmB3oGvFPUgKR6jckPjw0cSH2o
-9NKWd4pbo5SMW1V3TRuf2kn6/uBIPeoC8SIlSuRCV0lhHsy7q5OCutiNwfzCH1tp
-bUQFkDAp30WU5Oai46NNF2zQkd2b1j94WZUiURHR+mnzmqefceG1XiCWrNN31/ab
-9U0TAlxf13HdQO+1Dpav8OmBblhgygVWaY9CiCjZF+JseSbnNwOuTyxFZDv3pZUb
-Ldr3vwbYGqW3uonLwghqGkqGL1sAYO7X3Gn2WyFjYTGoL1Pzps1UVF8lJLTqySxM
-q5CLrHUCWHPWw8YEGXs9GSIMkRnVZfhtaoz+8Ho2qu0fVjqDAesqcbZIInDiOCKY
-83RdyOoGNSC2VifgbBT4p5MPANKcOONizDl70XsyVwhm+zjCFI7dmazG2k9g3r8s
-yPS9Xi7MaaMoE5LXXZ6DiSbfx5pJEIRbveZ8KYQwlaaVV7FIGc9COdPcx7ovmy5U
-o4d6dsRM8C9PXA0R9UP91dW+
-=zNYH
------END PGP SIGNATURE-----
-
---===============4972394472075013666==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aeadb98365a4-5a5b2e290019.txt
-
-84fafa10a8497ca527c55b8032dcced4e84579b6 net: qrtr: fix another OOB Read in qrtr_endpoint_post
-6e613a6c5e3b06ad2388bc793da053e36d10b12e bpf: Fix ringbuf helper function compatibility
-5069db41ee7daf5ea28f89f9f39e6223ccce547c ASoC: rt5682: Adjust headset volume button threshold
-e3beca7e6a52964c2d29f63f20c485e50af2acf5 ASoC: component: Remove misplaced prefix handling in pin control functions
-b41d6d2b1c2d0705936de1d32f73329c22b08d52 platform/x86: Add and use a dual_accel_detect() helper
-913d4fa3c4445accaee856a75f2c92a6daa11e82 ARC: Fix CONFIG_STACKDEPOT
-5f5e7d8471252dbcb3bdf2e142651bf19d7792ef netfilter: ipset: Limit the maximal range of consecutive elements to add/delete
-cbf7cb5a682b2f4c8adb19d471a3988082a4e9fb netfilter: conntrack: collect all entries in one cycle
-be5314e7165cb96d8eb5a676e9373f28dc77fbd2 once: Fix panic when module unload
-8abc2715f5a57df7f1b9ba4216c03e9f8acc24ce io_uring: rsrc ref lock needs to be IRQ safe
-04b563b4c31832cc37bf41bc26ba2ba4cc183051 blk-iocost: fix lockdep warning on blkcg->lock
-caed612b6fea6c558e3374bfe47572b6c8f60a92 ovl: fix uninitialized pointer read in ovl_lookup_real_one()
-d93a2c95102f6a003b40cf7098b91600e6c49cb0 net: mscc: Fix non-GPL export of regmap APIs
-6f27881225310b4f1619f2ce353b1a116eef1c81 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-fdc22121dc73713be61f380a2da91a15f7aba7e1 ceph: correctly handle releasing an embedded cap flush
-d6cd242c9c339d8f517cff8ac8c8a3f7ea123d21 dt-bindings: sifive-l2-cache: Fix 'select' matching
-98bacd6ecf1d3858333c0435cedca19d0bdcd037 riscv: Ensure the value of FP registers in the core dump file is up to date
-194dc91ca2a25b2c0499a0eae28ffb2ce99d76af powerpc: Re-enable ARCH_ENABLE_SPLIT_PMD_PTLOCK
-406bd230ff7f567660729e17a7b29a7121a72a0d mm/memory_hotplug: fix potential permanent lru cache disable
-6c99234e0d003e329070e33738a870dee26f8ad5 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
-c608246c9c102d2704929c3a5ef35aff3270b30a net: stmmac: fix kernel panic due to NULL pointer dereference of xsk_pool
-023e8567950686cd921a7293acdb5b8b3fa3993e net: stmmac: fix kernel panic due to NULL pointer dereference of buf->xdp
-292edd1b7d0f68a804350e149af93e39af806fea drm/i915: Fix syncmap memory leak
-96233525da8af29c4a805c5cf585cdf55642a495 drm/i915/dp: Drop redundant debug print
-93e2b7dcb063ffe6eec06007bdbaa934f8d17952 drm/amdgpu: Cancel delayed work when GFXOFF is disabled
-a0368b2331bcc081327fb7171f481ab28dc3202d drm/amdgpu: use the preferred pin domain after the check
-72ab5449e7d9f312885be1a8009e30085122ea63 drm/amdgpu: Fix build with missing pm_suspend_target_state module export
-ea0742c97ed91976df3e6db8a5c4b139cab45a05 Revert "USB: serial: ch341: fix character loss at high transfer rates"
-e4fa689c49ec2475fc0c54f5126ed83027526026 USB: serial: option: add new VID/PID to support Fibocom FG150
-5aa9fedf8f7ecf44d82587dc9c3594fdee4368e6 usb: renesas-xhci: Prefer firmware loading on unknown ROM state
-c46d9df8b2e0dd544a53805a7db21e436cf5a539 usb: typec: tcpm: Raise vdm_sm_running flag only when VDM SM is running
-def9269e850776981ab1599b3ec75ac03b8f598d usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
-09e683aa63f60c19e8988128290ccd17e4c7a1d8 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
-9ca5e8f23a6acff1ba9026e55c0db73d0fdeb3a9 scsi: core: Fix hang of freezing queue between blocking and running device
-4db2b61c3eed94ede7d5a099e522e3229caa16b7 RDMA/mlx5: Fix crash when unbind multiport slave
-60cbd3d7d929ae6864a6b93bebea4c29a279ada8 RDMA/uverbs: Track dmabuf memory regions
-c8907007c38f001e7463873e30d8631ae2219e18 RDMA/bnxt_re: Add missing spin lock initialization
-fe207d2611a90b50c7b83c6963dc11033680d124 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
-c4b45da3d374e96c5b2c34ce187f441ecdc16a6b RDMA/bnxt_re: Remove unpaired rtnl unlock in bnxt_re_dev_init()
-f3266be12a8a12776e48e247a1b88996feb6279a RDMA/rxe: Fix memory allocation while in a spin lock
-e2c0d999b1a64caee52eb5c2655e79489a0667fb ice: do not abort devlink info if board identifier can't be found
-77fa2df1432da992cb442bb87b46e7960387e3a4 net: usb: pegasus: fixes of set_register(s) return value evaluation;
-c463ef1c761418914d520289a1be79bb6781b1b2 igc: fix page fault when thunderbolt is unplugged
-c39ef343bf83e84c7c926944a0721de23bc7b989 igc: Use num_tx_queues when iterating over tx_ring queue
-b0f9a6da8fd973f6afcf794aa2f008883b848024 e1000e: Fix the max snoop/no-snoop latency for 10M
-f8861f06978565760cc1287e0b65fd7ca7a3514a e1000e: Do not take care about recovery NVM checksum
-d4028b09f3289ddd928008b0ed1a29cb05ab4547 RDMA/efa: Free IRQ vectors on error flow
-772bff0f6fb608ae79c98cb571fee13850406cf2 ip_gre: add validation for csum_start
-8549d923306c0d423ed159323e51498887aa9f7b xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
-c7392910be51f3d0edd24fc44b71966058b88689 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
-fd8875b1091c5f66d23c078b6abec3616a70e98c ucounts: Increase ucounts reference counter before the security hook
-85aade64164a1c489d632b1d93e8f5e23e4fead9 net: stmmac: dwmac-rk: fix unbalanced pm_runtime_enable warnings
-917385cc812a96e30f7fb52235231cd5ff6715b3 net/sched: ets: fix crash when flipping from 'strict' to 'quantum'
-d1e7c6ebaee512be6a35d15f49250ebb02321561 SUNRPC: Fix XPT_BUSY flag leakage in svc_handle_xprt()...
-71f38250f1d8419a12104d83d5a7e8d3c9529393 ipv6: use siphash in rt6_exception_hash()
-69e1e973f3a3351d416e260e09dc559d35d5f42e ipv4: use siphash instead of Jenkins in fnhe_hashfun()
-d96115709889eb8fc00fb642decef6227de6c0d9 cxgb4: dont touch blocked freelist bitmap after free
-3ad1d304568641be7fe50a49df4d31efc7ae1cb7 net: dsa: hellcreek: Fix incorrect setting of GCL
-602c422b5f46a1573d4c079a515f43b79e435c8b net: dsa: hellcreek: Adjust schedule look ahead window
-f2258d3a53a1cc74c2fcb78c4a16bc9a8da0efe3 rtnetlink: Return correct error on changing device netns
-36fd252152c6bab6156f2bc692a71061d2c45900 net: hns3: clear hardware resource when loading driver
-4e5b2bc03aa2eaca9ff4643e3b9a8bf1ffa0be84 net: hns3: add waiting time before cmdq memory is released
-d7cf3ca847eb84b109961c835fefd1415cd4143e net: hns3: fix speed unknown issue in bond 4
-6caf8eb1d5991c2f5b3fc1f168b964d8f7d5a6e3 net: hns3: fix duplicate node in VLAN list
-428a098f65edf5be4484153600eaecaff98007c8 net: hns3: fix get wrong pfc_en when query PFC configuration
-a6c10592d6f87d4fe36f438f3300a0b2bdd1d645 media: ipu3-cio2: Drop reference on error path in cio2_bridge_connect_sensor()
-5f638e9d68d38c6d7b77236af9856524bbc24236 Revert "mmc: sdhci-iproc: Set SDHCI_QUIRK_CAP_CLOCK_BASE_BROKEN on BCM2711"
-db347db5a9ac900b321614691253c037a54b04ba net: stmmac: add mutex lock to protect est parameters
-4a730b93345cc8f8f5a441d7c9c55ed6606fc5d3 net: stmmac: fix kernel panic due to NULL pointer dereference of plat->est
-65b847be6da2d86e527dccacdac22c2ccb8c1870 usb: gadget: u_audio: fix race condition on endpoint stop
-067d719cacf6ee957f42ac13eb5566067d7b56f1 perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
-c8e24e4ff0481f121fc99eda8a4f0638be15c5cc sched: Fix get_push_task() vs migrate_disable()
-f495fb0599fe7c2c4e93206e79989e4d44ded7eb clk: renesas: rcar-usb2-clock-sel: Fix kernel NULL pointer dereference
-5a5b2e290019c314fb4cdcd15fada7567df1a64a Linux 5.13.14-rc1
-
---===============4972394472075013666==--
+--===============4544220668065008610==--
