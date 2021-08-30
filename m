@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Mon, 30 Aug 2021 00:11:17 -0000
-Message-Id: <163028227768.7469.13797438943650993730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 30 Aug 2021 00:38:28 -0000
+Message-Id: <163028390860.24081.7670211978037639294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 7bc416f1471686faa8030cd5338f6a5370e01b25
-    new: 7a3f5b0de3647c854e34269c3332d7a1e902901a
+  - ref: refs/heads/todo
+    old: ded2f065b417326184f3c71d5d3e8c701ebe3252
+    new: 055f745e1be2586c917e54de63f73a600b4aac61
     log: |
-         7a3f5b0de3647c854e34269c3332d7a1e902901a netfilter: add netfilter hooks to SRv6 data plane
+         055f745e1be2586c917e54de63f73a600b4aac61 What's cooking (2021/08 #09)
          
