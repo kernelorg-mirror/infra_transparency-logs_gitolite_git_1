@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4217668333348920936=="
+Content-Type: multipart/mixed; boundary="===============5598967082179609623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 30 Aug 2021 05:54:09 -0000
-Message-Id: <163030284998.29942.14215531764909769244@gitolite.kernel.org>
+Date: Mon, 30 Aug 2021 05:54:11 -0000
+Message-Id: <163030285153.30005.4603643514313352306@gitolite.kernel.org>
 
---===============4217668333348920936==
+--===============5598967082179609623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,74 +16,66 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: a1866264c6c57428ce0ff10589d661ffba5db113
-    new: 66b6adc3ce6e26663967aae92ec0602cef07b36b
-    log: revlist-a1866264c6c5-66b6adc3ce6e.txt
+  - ref: refs/heads/linux-4.19.y
+    old: aa35e8bd034370a392e0db74898b4a458a76b332
+    new: 0ec64a47cbb11f5919e47cdab83f201ea5ca6076
+    log: revlist-aa35e8bd0343-0ec64a47cbb1.txt
 
---===============4217668333348920936==
+--===============5598967082179609623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630302846 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630302848 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1630302842-24473b92a78b21da9a1cfeb7c42aaf21cc0c5b57
+nonce 1630302846-91483c45366d3ed27c4b83c425537f4103dce300
 
-a1866264c6c57428ce0ff10589d661ffba5db113 66b6adc3ce6e26663967aae92ec0602cef07b36b refs/heads/linux-5.4.y
+aa35e8bd034370a392e0db74898b4a458a76b332 0ec64a47cbb11f5919e47cdab83f201ea5ca6076 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEscn4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qYwP/3dKYnOveIssel0XB0rV
-Z5zv8rrL8P2X4u2gffkaKGO12q7bzYuMY4Hp2k++h5Vvd4cTj9LJ/QayxdDOwmnN
-NzVK1r7RDEElHm7fc9qsj1K5fb6+bUVlkKykB5lfPboijzlk4GlS3uSIAc4fMWQN
-E+LUXvJPIvH9tjWfwzBYhP4V6xbqrSSND/B9mVjtHAKK3cNKGKvlp9m8NodhHCi9
-jF2CAiGGiU+DPkcSoICj8It25GCW+R/5PkbpDv0WXa3cKZPtlxSEf8NFf2OBsdXM
-ll910DqHWk2VaYY4tu5snvid8PvJDJ4E5gSgrjMpVdbTkif0HLinIe6ESjA9oxAG
-Z5FKdeDhOAwcv/xvS3wul1AQgNL/o1dCLhRcY2E/XWGy9+Zg8hWLpL8Fj7KHfPWu
-j4pu3jQLExK0rq8QjB8db5dAAJ+SDMFKRbem6TPiMQ7Qk174JYjHzStxTPjdsutg
-EuxvVBBG3vI6cvkqlvR+iacshY91qQeYXR2NASx/i46hPjyHsjkQ4FcaOz0zzC7t
-6XEDzdjqMLfvdHIb/5dSu9BSdEyz4b0uYrg8G4roITRaCE02o4alFcc1K1BhyCqE
-68MSE1IW3w41YwOfuxHvRHxm4aTiAQjWn6rmId1oXnlT/eglUNRo1/C2gTTmbGjZ
-FjdUHtBdljZZaoibrPHPGRgD
-=eR1A
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEscoAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xEcP/3qFU2pd5BSEJj7/0DtV
+usWEijZAWEkv38LNiCd/f/fBy5jEE0wEZlQT/eNBFXbaApBwxYRVcycvGM2XKrHu
++b6vz6l9lfGTxdHYC5Ld0LGtvK7K5cX5SGmv72ODHSK1CvY0QfygVAID2eHc90JG
+0IHqHxGJ5WR2H+tuP1dMgfhNGUv+x0fhxrGkDHRDAjyAOtj1Y02aevajoCIK6wMA
+V3AtSZqCutxmJG83pZzkKyV0+ISwr4OwZQi67h89fJR+G9ljk/OQOKYL3VBmNJMe
+Ch7khhBajOSZZha9uUMTD85kncSfXBFnwvnvCdsplBEMBbJVZ1iCyuKQI0K0cZNN
+vai9Jwd/HzzRfKd3QHwUIXgiiT9bboXnqF4MtGRbOFWA+EfgFUkI9iHLWK7pBsBC
+hh1OfcVvf28Nz18Xdyk0/n39uNotBDtpfe1REw2FYsd6FolYfiwDkKx5FIEZasDm
+j/cj/NX1lFZkj/3aqiRHfEiG/SWXbF8XO1M15fL2F0PcdT80PIDNeTmkPmwFjQrN
+DZFEWaW2aXKNYuu00fugv35EAVRkXPe1WJnQtiKaFxvQiN2QtxJaxsspZa9K4qpY
+IAxQOkVv+ZFsha19Mfmutx0jnY3OeM/PBZCuU36wdDoFkCFDIQDzcM6xQvpXl2le
+Q+o//bq0b2qoOoqal+oM+2Hu
+=SgLR
 -----END PGP SIGNATURE-----
 
---===============4217668333348920936==
+--===============5598967082179609623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1866264c6c5-66b6adc3ce6e.txt
+Content-Disposition: attachment; filename=revlist-aa35e8bd0343-0ec64a47cbb1.txt
 
-ca9cc57cdc2db2580ff9217dacf46ff2392a092c net: qrtr: fix another OOB Read in qrtr_endpoint_post
-924af9c433316d6b28ac9d57636de2fe0865bc3a ARC: Fix CONFIG_STACKDEPOT
-79bc264a29bc8cbc1b858d12701e50be94583c61 netfilter: conntrack: collect all entries in one cycle
-6984730a0d4ea3c08d604c9b26853bdf92bcca96 once: Fix panic when module unload
-d4574f321cbee89f0ba14a272dd038cd887f0f62 ovl: fix uninitialized pointer read in ovl_lookup_real_one()
-d6ffbe2f1545938d6a741df9ac0170f5f94c8a3c mmc: sdhci-msm: Update the software timeout value for sdhc
-c028a46ad726789955c716a4ea022ac3e029093a mm, oom: make the calculation of oom badness more accurate
-e6b52b815666cffa2e92e7057cf18fbf5d6d244d can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-b65362c519db832e7876799f93e6573b0548632a Revert "USB: serial: ch341: fix character loss at high transfer rates"
-4c2bccbb981db310ffff2f791c166bb1aeb3763e USB: serial: option: add new VID/PID to support Fibocom FG150
-6907ee58237699af9cc419379d4edcf211108669 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
-a286e876e5d09980fae0e8ad1f7387f822d6cd11 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
-71ff84497a3e131e2d684ce9cfc34ec35ca9d208 scsi: core: Fix hang of freezing queue between blocking and running device
-bfeac5e2c2f8daa3fe95e8a030243a85ff9d0fee RDMA/bnxt_re: Add missing spin lock initialization
-cd8973185f8d88f1fad7c8f6fd336a8117159385 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
-91601e449b5f20f0bc178de7d32844c00220e8b5 e1000e: Fix the max snoop/no-snoop latency for 10M
-8127da6934d88466ba2c344c283e01d6ee3cecda RDMA/efa: Free IRQ vectors on error flow
-1b5eb79121f2147232318d48f320076e55240153 ip_gre: add validation for csum_start
-9764d182cefd206eb434d2c272def2bbc2833321 xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
-abda8e64f5d3e930709369f6202f64d089c2ee0a net: marvell: fix MVNETA_TX_IN_PRGRS bit number
-2d5466eb7e599e0a4f87b44f1e194e7e325e9182 rtnetlink: Return correct error on changing device netns
-f836ab552c3e38fcf6c08e1a97d73830d58a35eb net: hns3: clear hardware resource when loading driver
-07a985c3fb380bf1d24b6d86a3cd40acf420eb3e net: hns3: fix duplicate node in VLAN list
-dfdac6817adb7107f22d38822a2f50477a432869 net: hns3: fix get wrong pfc_en when query PFC configuration
-f51493a016912204198dda9026d098e6c924b592 drm/i915: Fix syncmap memory leak
-32bb895f02ba0c8468fbb013a0e3d7821bcdb506 usb: gadget: u_audio: fix race condition on endpoint stop
-4ffde2ff5b2e74f894a31742cfc00172b412a59d perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
-66b6adc3ce6e26663967aae92ec0602cef07b36b Linux 5.4.144-rc1
+b28dd955a7f8189ddfa596daee53c6b076926248 net: qrtr: fix another OOB Read in qrtr_endpoint_post
+23d50fcdb64b25edfbcfcdbbb25338074fb42a11 bpf: Do not use ax register in interpreter on div/mod
+31aebe250d091b1b962ad7d7b7e4413a3ed36c78 bpf: Fix 32 bit src register truncation on div/mod
+3235321b86d15ec1f0ba7611b6b3c28b5b4dec95 bpf: Fix truncation handling for mod32 dst reg wrt zero
+1689ee2c652b3caaf46845f932f444ef769ccca6 ARC: Fix CONFIG_STACKDEPOT
+2ded04bf00df95e1e340129f025ed7860f0cfc89 netfilter: conntrack: collect all entries in one cycle
+3f3e447bf6837b1111d0a21938d99ef29e5308d4 once: Fix panic when module unload
+ed642ce36156267f6393cff455238a43c82ad898 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+26ea1783f37a6e8ef479a1ce24b3feb91da077ea Revert "USB: serial: ch341: fix character loss at high transfer rates"
+52e93660fe1c7a91b619936f4f2ea2ba3bf040a9 USB: serial: option: add new VID/PID to support Fibocom FG150
+30451b44de4849964e54b0b153aeee184511099d usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
+5c865156f4b59a3922a3e550ed0aafb56523a851 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
+aa8caabec891e2ff67d51b2c2727621cbf736b41 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
+cdd0371097ff49a4bdb861b86239ccc11bda35fc e1000e: Fix the max snoop/no-snoop latency for 10M
+1d20f60e0510be21c5caff0135cfc1ffefee3f95 ip_gre: add validation for csum_start
+2656d7a6e3742c56bddb84a550aaa4c5c184e0d2 xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
+5788038f14b6cd019cc47f136e2b27cd9ca290e1 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
+7cf4f01e22ee74baa0a72654b51032275b21d4d7 net: hns3: fix get wrong pfc_en when query PFC configuration
+79dbf32f10307181a7897324dae9be278f38b203 usb: gadget: u_audio: fix race condition on endpoint stop
+0ec64a47cbb11f5919e47cdab83f201ea5ca6076 Linux 4.19.206-rc1
 
---===============4217668333348920936==--
+--===============5598967082179609623==--
