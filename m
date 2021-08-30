@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1842272199986286050=="
+Content-Type: multipart/mixed; boundary="===============3025125028128379203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 30 Aug 2021 17:38:11 -0000
-Message-Id: <163034509199.19314.3458685757870676813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 30 Aug 2021 17:38:19 -0000
+Message-Id: <163034509921.19428.7580468217343677728@gitolite.kernel.org>
 
---===============1842272199986286050==
+--===============3025125028128379203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f15c9d899f82eaca5fa38243165a7b1bbee30995
 
---===============1842272199986286050==
+--===============3025125028128379203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -192,4 +192,4 @@ f20a2637b1b1851cb30fceab68c27aef5fd43a2c Merge tag 'irq_urgent_for_v5.14' of git
 63b0c403394d4e2644751d090db8a5da80272e50 Merge tag 'fiemap_for_v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 a1ca8e7147d07cb8649c618bc9902a9a7e6444e1 Merge tag 'fs_for_v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 
---===============1842272199986286050==--
+--===============3025125028128379203==--
