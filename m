@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5943376375560833100=="
+Content-Type: multipart/mixed; boundary="===============0793728411722147222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 30 Aug 2021 09:09:15 -0000
-Message-Id: <163031455597.10736.16554689526176412595@gitolite.kernel.org>
+Date: Mon, 30 Aug 2021 09:09:30 -0000
+Message-Id: <163031457075.10893.15249160878273589834@gitolite.kernel.org>
 
---===============5943376375560833100==
+--===============0793728411722147222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-linus
-    old: 21ed49265986931b8921a2404394426870245bd2
-    new: 87d93029fe83e326d5b906e12e95600b157d2c0d
-    log: |
-         761608f5cf70e8876c2f0e39ca54b516bdcb7c12 m68k: emu: Fix invalid free in nfeth_cleanup()
-         07aa6c73e7c670c1917e3b2447e8f1b4c236315e m68k: defconfig: Update defconfigs for v5.14-rc1
-         2189e928b62e91d8efbc9826ae7c0968f0d55790 m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
-         87d93029fe83e326d5b906e12e95600b157d2c0d m68k: Fix asm register constraints for atomic ops
-         
-  - ref: refs/heads/master
-    old: 420b13e4124ab8fa930febb1292602297eeae955
-    new: 7c9e144583d16038503e1ca9978e41ab8c2a56a5
-    log: revlist-420b13e4124a-7c9e144583d1.txt
+  - ref: refs/heads/m68k-queue
+    old: 530458069d441ae0b0ad00af892bbc7b53d1c259
+    new: 9bebcd3cc120ae9463b619251362ed460f0ccb3c
+    log: revlist-530458069d44-9bebcd3cc120.txt
 
---===============5943376375560833100==
+--===============0793728411722147222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-420b13e4124a-7c9e144583d1.txt
+Content-Disposition: attachment; filename=revlist-530458069d44-9bebcd3cc120.txt
 
 1435f82689e1d195e56ce8b19c81aa7b1a3bd0b0 reset: RESET_MCHP_SPARX5 should depend on ARCH_SPARX5
 463dbba4d189750c2f576449d0bbb11c5413712e ARM: 9104/2: Fix Keystone 2 kernel mapping regression
@@ -182,6 +173,11 @@ f20a2637b1b1851cb30fceab68c27aef5fd43a2c Merge tag 'irq_urgent_for_v5.14' of git
 537b57bd5a202af145c266d4773971c2c9f90cd9 Merge tag 'sched_urgent_for_v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 90ac80dcd3136da7c5694835d6cad2010aa08798 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 7d2a07b769330c34b4deabeed939325c77a7ec2f Linux 5.14
-7c9e144583d16038503e1ca9978e41ab8c2a56a5 Merge tag 'v5.14'
+2cb7805209042e7ca3738222e9e93169b53c33ef m68k: emu: Fix invalid free in nfeth_cleanup()
+16c48403c4e564925d517d8e9091a083a2174c40 m68k: Fix invalid RMW_INSNS on CPUs that lack CAS
+ad5c7c166bb6e788a6369120765380ed0f86f98e m68k: Fix asm register constraints for atomic ops
+feeb866fe5719e4e30acdcef929745fb85584d1d m68k: atari: usb: Add ISP1160 USB host controller support
+7a244f80e85d2a5f44f510caa038099c61fe9259 m68k: atari: Update Kconfig.bus help text
+9bebcd3cc120ae9463b619251362ed460f0ccb3c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5943376375560833100==--
+--===============0793728411722147222==--
