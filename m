@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 30 Aug 2021 09:05:18 -0000
-Message-Id: <163031431850.9278.17843293380924657805@gitolite.kernel.org>
+Date: Mon, 30 Aug 2021 09:05:44 -0000
+Message-Id: <163031434439.9473.4803077679448814759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/tags/x86-cpu-2021-08-30
+  - ref: refs/tags/x86-irq-2021-08-30
     old: 0000000000000000000000000000000000000000
-    new: 6c0e8ec2b9bf5de8cbfa7419260d9d7ad5973833
+    new: 8663909af2edce2da90a70b6022b0763eecedba8
