@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8630361140014320065=="
+Content-Type: multipart/mixed; boundary="===============9072951710669021821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Aug 2021 11:26:40 -0000
-Message-Id: <163032280074.5510.1114432469485029498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Aug 2021 11:26:47 -0000
+Message-Id: <163032280757.5654.2287284041542524842@gitolite.kernel.org>
 
---===============8630361140014320065==
+--===============9072951710669021821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 52c64e5f7b79ce5c366ea88e7f02d81affeb1300
     new: 3202e2f5fac0032cb1128fb8d5b7f3368902c8d8
     log: |
          3202e2f5fac0032cb1128fb8d5b7f3368902c8d8 ASoC: Revert PCM trigger changes
          
 
---===============8630361140014320065==
+--===============9072951710669021821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1630322799 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1630322798-e66fa888d4b11aef2f6e85c79d7a5b51dd9086c0
+pusher Mark Brown <broonie@kernel.org> 1630322805 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1630322805-3320e9f3708a9f338832089e6876cbacf2d22eb2
 
-52c64e5f7b79ce5c366ea88e7f02d81affeb1300 3202e2f5fac0032cb1128fb8d5b7f3368902c8d8 refs/heads/for-5.15
+52c64e5f7b79ce5c366ea88e7f02d81affeb1300 3202e2f5fac0032cb1128fb8d5b7f3368902c8d8 refs/heads/asoc-5.15
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEswG8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0G1bB/9eAynorIyOXPGO+PhJe43EUHvwInyJ
-VrtdwcMuVfb+X7Ew7eaugOhWwjulPTNSOppkraZH7IsS4UeUSK/vmBoWK+O+McOu
-5dyRRbCv7iHj06ArdwyiNFreohNjGEdEj10BFFTVHeyqsbTMRXEWmlvYDkD6FqDa
-fPuYONJm2KgL3vdLfuZzSK+GdVX2be/zHXPSHRWVBB/MILAz0S6WBARq78wKXYaH
-D4Tj/0gQzDO1Z8RO1FZuvFToLmuBCmOJWLLQ29LUuEtXZB5mok4o6hiFE783nPFW
-DlRQp1gldEQqRk2dzxl1PXZtL4E17C+CUT9O6ooxl4F4Rau/iJwvUZe0
-=r7D0
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEswHUTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0M03B/4j01iANCSrXHlSgVXqwW86jU3aaCmY
+ES6yX9cuIx8QiIIXaTNTFy6aTsIoQkZSAxfTnIZmfKBNcL6toERlvu84V/f8oIsE
+rwytXD4Y8a/8nrakoVGFIlE4T7cK7OgU/dV0de6mZjxiFkxD6P+OkffWG438nK3s
+PMaHs/UO2tN6DPFZlNXQL8Au9tY4Go9RItK+kK33ty9JEiVoc+a+nndb/uluj8LO
+ba097yAdqHCAsMNHCz4clrgQyRjFVjf0A/zvvXg1Iz3XumdZbSt14440Cmav/ltS
+ji68R/zuYBl8h8bP6qg1+u00V0mmDCL2eSLo4iwMWCEXin3FWG8ChIot
+=IAMG
 -----END PGP SIGNATURE-----
 
---===============8630361140014320065==--
+--===============9072951710669021821==--
