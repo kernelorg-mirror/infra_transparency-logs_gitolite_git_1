@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0801006574340720483=="
+Content-Type: multipart/mixed; boundary="===============8630612715478615896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 30 Aug 2021 07:03:29 -0000
-Message-Id: <163030700982.10013.3756053270812080705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 30 Aug 2021 07:03:37 -0000
+Message-Id: <163030701711.10119.9804955508302886472@gitolite.kernel.org>
 
---===============0801006574340720483==
+--===============8630612715478615896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7d2a07b769330c34b4deabeed939325c77a7ec2f
     log: revlist-e73f0f0ee754-7d2a07b76933.txt
 
---===============0801006574340720483==
+--===============8630612715478615896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f20a2637b1b1851cb30fceab68c27aef5fd43a2c Merge tag 'irq_urgent_for_v5.14' of git
 90ac80dcd3136da7c5694835d6cad2010aa08798 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 7d2a07b769330c34b4deabeed939325c77a7ec2f Linux 5.14
 
---===============0801006574340720483==--
+--===============8630612715478615896==--
