@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 31 Aug 2021 00:37:39 -0000
-Message-Id: <163037025902.2288.7286986042296250289@gitolite.kernel.org>
+Date: Tue, 31 Aug 2021 00:47:33 -0000
+Message-Id: <163037085355.8254.12037970524730900762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/for-next
-    old: cf7f3ebb41d809c143f22a2fc518d16f1d995c0b
-    new: c0b7bf380fa1cd8b865a7e22a465390081da9d4a
+  - ref: refs/heads/for-kernelci
+    old: 4d12573cf60659db5762df49dcbcfbea01701636
+    new: 7ca126800118e8e43fac4a238e6b6d52d3f22f99
     log: |
-         c0b7bf380fa1cd8b865a7e22a465390081da9d4a platform/chrome: cros_ec_trace: Fix format warnings
+         4665584888ad2175831c972c004115741ec799e9 platform/chrome: cros_ec_trace: Fix format warnings
+         7ca126800118e8e43fac4a238e6b6d52d3f22f99 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
