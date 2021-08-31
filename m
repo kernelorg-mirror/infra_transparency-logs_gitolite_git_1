@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 31 Aug 2021 20:07:01 -0000
-Message-Id: <163044042156.13151.3804759340048493668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Tue, 31 Aug 2021 20:07:08 -0000
+Message-Id: <163044042859.13246.17497312572683811690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/synopsys_edac_v1
-    old: 7593ed35c4b4be92a10a154d7442d3e7b21d2830
-    new: c8df9cda731e2347c391c6b9235d6a3d6f44700c
+  - ref: refs/heads/pci/iommu
+    old: 1c4af5fa63fd6f8e96ce1e6b4a2062eb1819cf72
+    new: 8304a3a199eeb3e6434fc855ac072e7374d0c490
     log: |
-         bb46c45d7e783e852feb368a292bff821488a5e9 EDAC/synopsys: add support for version 3 of the Synopsys EDAC DDR
-         c8df9cda731e2347c391c6b9235d6a3d6f44700c EDAC/synopsys: v3.80a of the synopsys edac contoller is also on the N5X
+         8304a3a199eeb3e6434fc855ac072e7374d0c490 PCI: Set dma-can-stall for HiSilicon chips
          
