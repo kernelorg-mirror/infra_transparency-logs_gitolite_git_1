@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 31 Aug 2021 15:21:55 -0000
-Message-Id: <163042331599.21486.15165755543616357004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 31 Aug 2021 15:21:59 -0000
+Message-Id: <163042331900.21554.12258338663027032187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/synopsys_edac_v1
-    old: 0000000000000000000000000000000000000000
-    new: 7593ed35c4b4be92a10a154d7442d3e7b21d2830
+  - ref: refs/heads/dt/next
+    old: 751ca492f131290155fd48e16601629ecf5ee058
+    new: b1e202503508d5b66bf1532bea36b5776b00d869
+    log: |
+         c47cbd4f565983c4f9c415ffc41d0e45c845b4ef dt-bindings: mtd-physmap: Add 'arm,vexpress-flash' compatible
+         785b66427ee173609670876ea9c9d3eb35d8f3dc dt-bindings: hwmon: merge max1619 into trivial devices
+         b1e202503508d5b66bf1532bea36b5776b00d869 dt-bindings: display: remove zte,vou.txt binding doc
+         
