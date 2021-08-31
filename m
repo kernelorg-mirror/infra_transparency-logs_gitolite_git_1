@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Tue, 31 Aug 2021 07:52:11 -0000
-Message-Id: <163039633161.31840.6912457225729450550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 31 Aug 2021 08:00:38 -0000
+Message-Id: <163039683838.5230.2091349267980427931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/multistream/ti-linux-5.10.y-v8
-    old: 0000000000000000000000000000000000000000
-    new: ab0715d4fff5b7bcd591b55a658208de3d53e238
+  - ref: refs/heads/test/usb-audio-lowlatency
+    old: 67065cc792309ed5b808e3c0e0a22056b5dcbe57
+    new: 038654567e14120fc8484ef2ce0a7ffb0ef69d8a
+    log: |
+         038654567e14120fc8484ef2ce0a7ffb0ef69d8a ALSA: usb-audio: Improved lowlatency playback support
+         
