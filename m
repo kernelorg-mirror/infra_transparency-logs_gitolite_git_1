@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5748223160887644295=="
+Content-Type: multipart/mixed; boundary="===============9111427479855574278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 31 Aug 2021 06:49:36 -0000
-Message-Id: <163039257611.22014.11293106663552364616@gitolite.kernel.org>
+Date: Tue, 31 Aug 2021 06:54:13 -0000
+Message-Id: <163039285321.25244.9351421055246634995@gitolite.kernel.org>
 
---===============5748223160887644295==
+--===============9111427479855574278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 480e93e12aa04d857f7cc2e6fcec181c0d690404
     new: 57f780f1c43362b86fd23d20bd940e2468237716
     log: revlist-480e93e12aa0-57f780f1c433.txt
 
---===============5748223160887644295==
+--===============9111427479855574278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b357d9717be7f95fde2c6c4650b186a995b71e59 ice: Only lock to update netdev dev_add
 2619835e31cb0ed760e5cba546ac02af8917fc9a Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 57f780f1c43362b86fd23d20bd940e2468237716 atlantic: Fix driver resume flow.
 
---===============5748223160887644295==--
+--===============9111427479855574278==--
