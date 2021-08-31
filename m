@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 31 Aug 2021 00:54:19 -0000
-Message-Id: <163037125904.13543.15414380705778785458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 31 Aug 2021 01:07:05 -0000
+Message-Id: <163037202597.25359.4162606035301338190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/dev-test
-    old: f328836f68803797a06bbc7056b42c116ca24905
-    new: 59b329ca9afb524a7e82a66c0a1486a60bac1cf8
+  - ref: refs/heads/master
+    old: 77251857af4bea78958a1426f87c5856e2c7d15b
+    new: 77a4c2321588ddba30fde100dc2f8e27041c65a1
     log: |
-         f0767aa1d6ae9b23c6f89dfaf8c00aff23e9f263 f2fs: deallocate compressed pages when error happens
-         25b990cf22208197114ff064ee3d082dd4c6d796 f2fs: should put a page beyond EOF when preparing a write
-         59b329ca9afb524a7e82a66c0a1486a60bac1cf8 f2fs: introduce fragment allocation mode mount option
+         8a5fc410a9e14860b9e332cded43b90507ba0591 proc.5: Fixes various references to kernel docs in Documentation/
+         77a4c2321588ddba30fde100dc2f8e27041c65a1 mount_namespaces.7: Update references to Documentation/filesystems/sharedsubtree.rst
          
