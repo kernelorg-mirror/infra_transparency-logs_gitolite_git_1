@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8053859542882887973=="
+Content-Type: multipart/mixed; boundary="===============6592921278252182259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 31 Aug 2021 06:55:36 -0000
-Message-Id: <163039293630.27149.4210924118657637739@gitolite.kernel.org>
+Date: Tue, 31 Aug 2021 06:56:37 -0000
+Message-Id: <163039299757.27584.17231380971145649237@gitolite.kernel.org>
 
---===============8053859542882887973==
+--===============6592921278252182259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 5d8dbb7fb82b8661c16d496644b931c0e2e3a12e
     new: a16ef91aa61ac2a42b1bb199fccb897d54ab3dcd
     log: revlist-5d8dbb7fb82b-a16ef91aa61a.txt
 
---===============8053859542882887973==
+--===============6592921278252182259==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ca49bfd90a9dde175d2929dc1544b54841e33804 sch_htb: Fix inconsistency when leaf qd
 c66070125837900163b81a03063ddd657a7e9bfb net: sched: Fix qdisc_rate_table refcount leak when get tcf_block failed
 a16ef91aa61ac2a42b1bb199fccb897d54ab3dcd net: pasemi: Remove usage of the deprecated "pci-dma-compat.h" API
 
---===============8053859542882887973==--
+--===============6592921278252182259==--
