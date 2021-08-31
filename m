@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8349784752244206889=="
+Content-Type: multipart/mixed; boundary="===============2620223653595499495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 31 Aug 2021 03:04:46 -0000
-Message-Id: <163037908637.6120.6867485993914860666@gitolite.kernel.org>
+Date: Tue, 31 Aug 2021 03:05:21 -0000
+Message-Id: <163037912158.7690.10685576452091926958@gitolite.kernel.org>
 
---===============8349784752244206889==
+--===============2620223653595499495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 272f581a50a212424eb67dd74eabbb1c737d5aad
-    new: 4010ab3a0c1a7c1e4d155d30a906f2e12fc249e4
-    log: revlist-272f581a50a2-4010ab3a0c1a.txt
+    new: 689db7cba0d84858b80b0f54a32702d2ae0f2737
+    log: revlist-272f581a50a2-689db7cba0d8.txt
+  - ref: refs/heads/master
+    old: 4010ab3a0c1a7c1e4d155d30a906f2e12fc249e4
+    new: 689db7cba0d84858b80b0f54a32702d2ae0f2737
+    log: |
+         4c26690c7b5b384a291607c1b1790baca682e520 Merge branch 'sched/arm64'
+         689db7cba0d84858b80b0f54a32702d2ae0f2737 Merge branch 'locking/debug'
+         
 
---===============8349784752244206889==
+--===============2620223653595499495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-272f581a50a2-4010ab3a0c1a.txt
+Content-Disposition: attachment; filename=revlist-272f581a50a2-689db7cba0d8.txt
 
 3cb5992c34f7a8693009f969b7d73b6b181ccc8e Merge existing fixes from regulator/for-5.14
 da18edb11ccad3c657a65568275920b93f688f1b Merge existing fixes from spi/for-5.14
@@ -520,6 +527,7 @@ e5e726f7bb9f711102edea7e5bd511835640e3b4 Merge tag 'locking-core-2021-08-30' of 
 ccd8ec4a3f9a5d3d97766231b04e7321dcc2df1e Merge tag 'x86-irq-2021-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bed91667415be768be4e5d7691011f2b5e16d796 Merge tag 'x86-misc-2021-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8596e589b787732c8346f0482919e83cc9362db1 Merge tag 'timers-core-2021-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4010ab3a0c1a7c1e4d155d30a906f2e12fc249e4 Merge branch 'linus'
+4c26690c7b5b384a291607c1b1790baca682e520 Merge branch 'sched/arm64'
+689db7cba0d84858b80b0f54a32702d2ae0f2737 Merge branch 'locking/debug'
 
---===============8349784752244206889==--
+--===============2620223653595499495==--
