@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4523877050776705422=="
+Content-Type: multipart/mixed; boundary="===============0004506344351143505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 31 Aug 2021 06:16:10 -0000
-Message-Id: <163039057051.32020.4218583351673831470@gitolite.kernel.org>
+Date: Tue, 31 Aug 2021 06:16:30 -0000
+Message-Id: <163039059098.32201.16530432471190737676@gitolite.kernel.org>
 
---===============4523877050776705422==
+--===============0004506344351143505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: fca35b11e18a9d854cda6b18ed39a78011f4b082
     new: a16ef91aa61ac2a42b1bb199fccb897d54ab3dcd
     log: revlist-fca35b11e18a-a16ef91aa61a.txt
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
-  - ref: refs/tags/v5.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53371b959e5823998cd617e74b585e7d328f5840
 
---===============4523877050776705422==
+--===============0004506344351143505==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1057,4 +1051,4 @@ ca49bfd90a9dde175d2929dc1544b54841e33804 sch_htb: Fix inconsistency when leaf qd
 c66070125837900163b81a03063ddd657a7e9bfb net: sched: Fix qdisc_rate_table refcount leak when get tcf_block failed
 a16ef91aa61ac2a42b1bb199fccb897d54ab3dcd net: pasemi: Remove usage of the deprecated "pci-dma-compat.h" API
 
---===============4523877050776705422==--
+--===============0004506344351143505==--
