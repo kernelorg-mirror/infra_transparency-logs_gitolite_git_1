@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 31 Aug 2021 19:08:15 -0000
-Message-Id: <163043689597.6118.10150482577994468955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 31 Aug 2021 19:32:59 -0000
+Message-Id: <163043837954.22370.13162060349056041032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/pci/portdrv
-    old: 9712ba3b5f390844799ce606808b5755b53a7b20
-    new: 00823dcbdd415c868390feaca16f0265101efab4
+  - ref: refs/heads/hack/m1-pcie-v3
+    old: 9fb6928ac3c2669837079becdbb36d599abc1d0c
+    new: 4746471d95f4bd43fc9c73e34b6662051541a713
     log: |
-         00823dcbdd415c868390feaca16f0265101efab4 PCI/portdrv: Enable Bandwidth Notification only if port supports it
+         a1063f2d6f524c3fd195cb8bbf758082a0c061e9 PCI: apple: Add INTX and per-port interrupt support
+         4746471d95f4bd43fc9c73e34b6662051541a713 PCI: Apple: Implement MSI support
          
