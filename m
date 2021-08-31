@@ -1,58 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8131125792453884669=="
+Content-Type: multipart/mixed; boundary="===============1674193834131338929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 31 Aug 2021 21:53:20 -0000
-Message-Id: <163044680010.17782.6495830442407402485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 31 Aug 2021 22:04:18 -0000
+Message-Id: <163044745874.24214.6921486118267287434@gitolite.kernel.org>
 
---===============8131125792453884669==
+--===============1674193834131338929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-queue
-    old: fad22871b3b82b3d2b53b75b5d49814a18898da7
-    new: 24ce0703994761e064734b078c5893532e898994
-    log: revlist-fad22871b3b8-24ce07039947.txt
+  - ref: refs/heads/seen
+    old: 06d3d8af53d803fe52ce49e3560c514ee9cfdd27
+    new: ef74895dc5d1a345b637b1d4059d7174c51152c5
+    log: revlist-06d3d8af53d8-ef74895dc5d1.txt
 
---===============8131125792453884669==
+--===============1674193834131338929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fad22871b3b8-24ce07039947.txt
+Content-Disposition: attachment; filename=revlist-06d3d8af53d8-ef74895dc5d1.txt
 
-5804f49a9ed63c884f2050520b4e4a52782c5f80 ice: Refactor ice_aqc_link_topo_addr
-742fc081e4dada925c7eca2229a7e33986412b42 ice: Implement functions for reading and setting GPIO pins
-13d4b405f2932250672a6edb5c8b32ad640a1f92 ice: Add support for SMA control multiplexer
-30f66564bffebeae515a14d6db5182d21e0bdba7 ice: Implement support for SMA and U.FL on E810-T
-df82df910975e52d374f57b79dc495ea32010f5e igc: fix tunnel offloading
-758090ab850314b8d3611ed9394435d811d7af7f ice: remove ring_active from ice_ring
-f186b4837da89add5fd81f5421fed4621cedb11c ice: move ice_container_type onto ice_ring_container
-c7fa3aea7c5eed36ff356992363bebd725bbe426 ice: split ice_ring onto Tx/Rx separate structs
-d83685f2da1549ba6888ac47ebb953b0b5873604 ice: unify xdp_rings accesses
-dc1f0d29845617cd05f49b7bead81307257773ad ice: do not create xdp_frame on XDP_TX
-aa3d59f9215ba89566752b811af1eb8181715cb7 ice: propagate xdp_ring onto rx_ring
-c1812e0e0f2bcdc1121c5bcb38da16a79c1f653d ice: optimize XDP_TX workloads
-cf34ae1f17828a98ad8cdf470aaf784cd717aa26 ice: introduce XDP_TX fallback path
-f0b455cc6274484aadbc11e1db267a30c5911c4d ice: make use of ice_for_each_* macros
-1602aca7deac1ed25fd168dbca45439ccec7264c iavf: Refactor iavf state machine tracking
-6b06df172fabc247aeedb207b6f64fc3eb1e1e31 iavf: Add __IAVF_INIT_FAILED state
-df0a6d9dc61d5897082fafc1ff163015c8ff236d iavf: Combine init and watchdog state machines
-4a28ee77133832b530b718c9de10f79522bcff03 ice: refactor devlink getter/fallback functions to void
-cc05d6d51d5ac6c505afebae9187099e24cd7426 i40e: Fix issue when maximum queues is exceeded
-62d6608eacc3e6aa4deec67661dfd574a903f686 ice: update dim usage and moderation
-6ae8446b77184df7feae10dc2539e87d95033bdf ice: fix rate limit update after coalesce change
-070c31b59ff15de5368fbd78fa19403a28a1e046 ice: fix software generating extra interrupts
-de3b4f9d6f573b9310059856a6ce376b4a335932 iavf: fix double unlock of crit_lock
-5e7727d84f7ce50af2d3e17cdc5c4d5eea992349 igc: remove redundant continue statement
-8e4404e55652f63b8f700281bad1eb953c38e008 iavf: Refactor iavf_mac_filter struct memory usage
-824b22723e0b86228d8fc66cd453821e083cd3b1 igc: Add new device ID
-54718928b6fa3347485185b55bfa5b9d2b756395 iavf: Refactor text of informational message
-24ce0703994761e064734b078c5893532e898994 iavf: Refactor string format to avoid static analysis warnings
+c575d4a2d988e20687d0f1c83bf13631e4167cbe multi-pack-index: fix *.rev cleanups with --object-dir
+fa95666a403e5dda4c2c14ac168b5c3389126e6c pack-bitmap.c: harden 'test_bitmap_walk()' to check type bitmaps
+3ba3d0621b6822e974f06123db9394b33e454ed7 pack-bitmap-write.c: gracefully fail to write non-closed bitmaps
+1d7f7f242c89947c3f0bc0ade651e614a2f0a38f pack-bitmap-write.c: free existing bitmaps
+917a54c01755c3a0de7abea4b3afbc125aaf1d76 Documentation: describe MIDX-based bitmaps
+414823f2f5a77ea73c31bcecc06247f03aedb3e0 midx: clear auxiliary .rev after replacing the MIDX
+d1096a1aeb48daaa64a3c6ea02cc86e96a5c7d86 midx: reject empty `--preferred-pack`'s
+7f51033d2439d41f56c39462e55d7d69e040e519 midx: infer preferred pack when not given one
+e4bb0c5c7fa9f9c6314b3f8b3e02bc8efa25c545 midx: close linked MIDXs, avoid leaking memory
+7e0b9b2e97e804c0205537969e5ebe56b4fafecd midx: avoid opening multiple MIDXs when writing
+9e5b6ef0e18341d22b03fa1776975e5f687c7e44 pack-bitmap.c: introduce 'bitmap_num_objects()'
+b346872b190e5ed9070e88fcc05eb92e9f945ffa pack-bitmap.c: introduce 'nth_bitmap_object_oid()'
+a14611875c4eb8e955ede7b54f6df19adb42264c pack-bitmap.c: introduce 'bitmap_is_preferred_refname()'
+25f1c80f1284c45f54e6bd6adc481ab0f317edbf pack-bitmap.c: avoid redundant calls to try_partial_reuse
+07219c3e789ae2e2a84784f5f81dcc3861a6a773 pack-bitmap: read multi-pack bitmaps
+9c8bbf9ef7c813f39420fb405d41c70a733245db pack-bitmap: write multi-pack bitmaps
+90c3dad80bb2f2da1a47e926a0bf204b180c6dfb t5310: move some tests to lib-bitmap.sh
+06db61c7618501a4493929b48bf7df3a7c6e4fc4 t/helper/test-read-midx.c: add --checksum mode
+da03b51a2bccc5f416df1c6b0514dab1e96c7a2f t5326: test multi-pack bitmap behavior
+f261e92e328ef66dcc500e53d46f762ef3427640 t0410: disable GIT_TEST_MULTI_PACK_INDEX_WRITE_BITMAP
+543feb87a9830d7047f19dc89d2a69ff86f975fd t5310: disable GIT_TEST_MULTI_PACK_INDEX_WRITE_BITMAP
+d0d131c6b62493a753dcf658078ea83de291cf85 t5319: don't write MIDX bitmaps in t5319
+6ffec71c60e9e00871f557263f37044354c2d30a t7700: update to work with MIDX bitmap test knob
+54b28ad600cf0cb96f585a35ec3abb66b3e97a57 midx: respect 'GIT_TEST_MULTI_PACK_INDEX_WRITE_BITMAP'
+3642f87d29a537911151a0b64fbaf71e9e4bff5d p5310: extract full and partial bitmap tests
+ae3a33e11d20b75dc928fbd14b1a785e7264c4c0 p5326: perf tests for MIDX bitmaps
+9b1b068b317dc3f907ebf4cc0e241b8dc786bc1d ### CI Breakers
+cb4830c862272dad3d30c1645e88980be934377d Merge branch 'jb/midx-revindex-fix' into seen
+ef74895dc5d1a345b637b1d4059d7174c51152c5 Merge branch 'tb/multi-pack-bitmaps' into seen
 
---===============8131125792453884669==--
+--===============1674193834131338929==--
