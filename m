@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 31 Aug 2021 13:38:46 -0000
-Message-Id: <163041712622.13609.3489623399236373347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 31 Aug 2021 13:39:20 -0000
+Message-Id: <163041716018.13831.8742450476741614476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: d850bf086280fcd07ed6bf3d0cd88ad41869779b
-    new: 35191a0fe986bacf69bd842de81119dca7970f11
+    old: e9db1be573f9e5ff894e52581619de69184e8290
+    new: 093c8122c7aa3543c89fa8f5056660903ad241d1
     log: |
-         15a91f918597da9a1c11a913cee8e37f3ca5dd3c Bluetooth: btintel: Fix boot address
-         35191a0fe986bacf69bd842de81119dca7970f11 Bluetooth: btintel: Read boot address irrespective of controller mode
+         6b18c5d0128fbb8cea19a4622429a75ed992ba69 cipher: always report local ciphers as supported
+         093c8122c7aa3543c89fa8f5056660903ad241d1 unit: skip tests on system without AF_ALG support
          
