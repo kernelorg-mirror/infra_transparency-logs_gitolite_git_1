@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7024708751609240661=="
+Content-Type: multipart/mixed; boundary="===============1774116210117720260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 31 Aug 2021 02:13:59 -0000
-Message-Id: <163037603904.5006.10359378537648834776@gitolite.kernel.org>
+Date: Tue, 31 Aug 2021 02:57:58 -0000
+Message-Id: <163037867871.2375.2802561877092724982@gitolite.kernel.org>
 
---===============7024708751609240661==
+--===============1774116210117720260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,204 +16,124 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 8596e589b787732c8346f0482919e83cc9362db1
-    new: 44d7d3b0d1cdb2119dba33bbedd602ce30528d6c
-    log: revlist-8596e589b787-44d7d3b0d1cd.txt
+    old: 44d7d3b0d1cdb2119dba33bbedd602ce30528d6c
+    new: b91db6a0b52e019b6bdabea3f1dbe36d85c7e52c
+    log: revlist-44d7d3b0d1cd-b91db6a0b52e.txt
 
---===============7024708751609240661==
+--===============1774116210117720260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8596e589b787-44d7d3b0d1cd.txt
+Content-Disposition: attachment; filename=revlist-44d7d3b0d1cd-b91db6a0b52e.txt
 
-3ad4a31620355358316fa08fcfab37b9d6c33347 ata: sata_dwc_460ex: No need to call phy_exit() befre phy_init()
-06447ae5e33bfbc5a777cc06d9854a31f3912833 ioprio: move user space relevant ioprio bits to UAPI includes
-4c7251e1b576d884046e62d23505e75486f88c1f MIPS: don't include <linux/genhd.h> in <asm/mach-rc32434/rb.h>
-e45cef51dba9765a6e1df1be724f3d26323512c8 bvec: fix the include guards for bvec.h
-e6e7471706dc42cbe0e01278540c0730138d43e5 bvec: add a bvec_kmap_local helper
-f93a181af40b159aabea2ccf1a0496e9280be2d5 bvec: add memcpy_{from,to}_bvec and memzero_bvec helper
-ab6c340eeac426fb649ddb4f23b7c752f0092204 block: use memzero_page in zero_fill_bio
-732022b86a37e816718786ce0b2cebc2b1739fa3 rbd: use memzero_bvec
-18a6234ccf0661401f07b6316a25d4adbba1d4bd dm-writecache: use bvec_kmap_local instead of bvec_kmap_irq
-6e0a48552b8cfc3767b98e3e8beed3f4cbafc9f4 ps3disk: use memcpy_{from,to}_bvec
-bda135d9c03fae64c910a8c8d751eccd8408f400 block: remove bvec_kmap_irq and bvec_kunmap_irq
-f8b679a070c536600c64a78c83b96aa617f8fa71 block: rewrite bio_copy_data_iter to use bvec_kmap_local and memcpy_to_bvec
-f434cdc78e01e40fcfb8ef7e6752e3e405b84b58 block: use memcpy_to_bvec in copy_to_high_bio_irq
-d24920e20ca66780d4059e2ece9f858cbae02310 block: use memcpy_from_bvec in bio_copy_kern_endio_read
-4aebe8596ab77b0b7125e3584ed0259c4657a06d block: use memcpy_from_bvec in __blk_queue_bounce
-8aec120a9ca80c14ce002505cea1e1639f8e9ea5 block: use bvec_kmap_local in t10_pi_type1_{prepare,complete}
-503469b5b30f76169c6302d1469e69a2fb67faf9 block: use bvec_kmap_local in bio_integrity_process
-a45e43cad798173b41e0d6f119784826d3ead02c block: assert the locking state in delete_partition
-d7a66574b34e0b354442140927f9b787efccabfd block: unhash the whole device inode earlier
-0468c5323413c6903e4cbcef841a55e6c5578cd2 block: allocate bd_meta_info later in add_partitions
-9d3b8813895d737fcef4ec8df518f67e5cc381b8 block: change the refcounting for partitions
-4b2731226d7de4302e4d8766c86e3a21c56dc3b1 loop: don't grab a reference to the block device
-14cf1dbb55bb07427babee425fd2a8a9300737cc block: remove bdgrab
-2f4731dcd0bb73379fbb9e3eb07ae7324125caef block: remove bdput
-26e2d7a362f6a83146ea3eaa8f17ca9ce35388d3 block: reduce stack usage in diskstats_show
-a9e7bc3de4051d037a8e6f2d30448c347263737e block: use the %pg format specifier in printk_all_partitions
-a291bb43e5c9fdedc4be3dfd496e64e7c5a78b1f block: use the %pg format specifier in show_partition
-453b8ab696b32cfd8bad80a5501937440d1cf214 block: simplify printing the device names disk_stack_limits
-1d7035478f64c040441c9cb2aa32e0d7fae526d2 block: simplify disk name formatting in check_partition
-abd2864a3e46368a58f3718491521779099bfc14 block: remove disk_name()
-2164877c7f373e14e55fca20b7c4a9c436fe4462 block: remove cmdline-parser.c
-cf179948554a2e0d2b622317bf6bf33138ac36e5 block: add disk sequence number
-87eb710747126ca6606f064deef93d045486ebbe block: export the diskseq in uevents
-7957d93bf32bc211415827e44fdd9cdf1388df59 block: add ioctl to read the disk sequence number
-13927b31b13f3c6556221eff3487247bd3c7a245 block: export diskseq in sysfs
-e6138dc12de9df17cbda9c40314d69592855ac5e block: add a helper to raise a media changed event
-9f65c489b68d42427dc0651488dd260d678f525d loop: raise media_change event
-2bc1f6e442eec88fa60f1ee6bef2c9871227cf8a block: remove blk-mq-sysfs dead code
-94dace8c85717588c2b4d116759cc3253f47d0eb block/rnbd-clt: Use put_cpu_ptr after get_cpu_ptr
-3087b335b5316cd180aa4c5a28abaa890905634e block/rnbd: Use sysfs_emit instead of s*printf function for sysfs show
-90b7198001f23ea37d3b46dc631bdaa2357a20b1 blk-mq: Introduce the BLK_MQ_F_NO_SCHED_BY_DEFAULT flag
-2112f5c1330a671fa852051d85cb9eadc05d7eb7 loop: Select I/O scheduler 'none' from inside add_disk()
-c66fd019713e9cf7d6f1243c378cd177d01fe18a block: make the block holder code optional
-fbd9a39542ecdd2ade55869c13856b2590db3df8 block: remove the extra kobject reference in bd_link_disk_holder
-0dbcfe247f22a6d73302dfa691c48b3c14d31c4c block: look up holders by bdev
-d626338735909bc2b2e7cafc332f44ed41cfdeee block: support delayed holder registration
-74a2b6ec9380959546d95ecc01a8fe6c7157add9 dm: cleanup cleanup_mapped_device
-ba30585936b0b88f0fb2b19be279b346a6cc87eb dm: move setting md->type into dm_setup_md_queue
-89f871af1b26d98d983cba7ed0e86effa45ba5f8 dm: delay registering the gendisk
-d1254a8749711e0d7441036a74ce592341f89697 block: remove support for delayed queue registrations
-5ed964f8e54eb3191b8b7b45aeb52672a0c995dc mm: hide laptop_mode_wb_timer entirely behind the BDI API
-471aa704db4904f7af5a50019ca3b5b018c0cf62 block: pass a gendisk to blk_queue_update_readahead
-1008162b2782a3624d12b0aee8da58bc75d12e19 block: add a queue_has_disk helper
-edb0872f44ec9976ea6d052cb4b93cd2d23ac2ba block: move the bdi from the request_queue to the gendisk
-a11d7fc2d05fb509cd9e33d4093507d6eda3ad53 block: remove the bd_bdi in struct block_device
-866663b7b52d2da267b28e12eed89ee781b8fed1 block: return ELEVATOR_DISCARD_MERGE if possible
-da20b58d5bbbb0d23ae9530992a37d0f0d1787a4 xen-blkfront: Remove redundant assignment to variable err
-99d26de2f6d79badc80f55b54bd90d4cb9d1ad90 writeback: make the laptop_mode prototypes available unconditionally
-018eca456c4b4dca56aaf1ec27f309c74d0fe246 block: move some macros to blkdev.h
-29e6a5e01d0adae52a2859ed39cb9e607430e011 mmc: block: let device_add_disk create disk attributes
-a94dcfce70d3f4f6cd99f3b43d74305e3a4f3983 mmc: block: cleanup gendisk creation
-5eba200526ac5fee7659c45b6c23fb2c576f8813 nvme: remove the GENHD_FL_UP check in nvme_ns_remove
-916a470da02f909cabb65337f65438b8bc3965b2 nvme: replace the GENHD_FL_UP check in nvme_mpath_shutdown_disk
-4f9e14aecfbdc6b762d5122489604858c5fec5e7 sx8: use the internal state machine to check if del_gendisk needs to be called
-224b0683228c5f332f9cee615d85e75e9a347170 bcache: add proper error unwinding in bcache_device_init
-b75f4aed88febe903bd40a6128b74edd2388417e bcache: move the del_gendisk call out of bcache_device_free
-50b4aecfbbb09869db967e4a26212a47e10c0088 block: remove GENHD_FL_UP
-a08aa9bccdc282b5e8d133bf8c239473f057b464 block: store a gendisk in struct parsed_partitions
-7f6be3765e113e0d4b8e6b65e1074982de94377e block: pass a gendisk to bdev_add_partition
-926fbb1677e0d963dd96dae3c0305e855590d524 block: pass a gendisk to bdev_del_partition
-3d2e79894bd7adc7d14638a0c72ceb8b722d1fa3 block: pass a gendisk to bdev_resize_partition
-fad7cd3310db3099f95dd34312c77740fbc455e5 nbd: add the check to prevent overflow in __nbd_ioctl()
-68c9417b193d0d174b0ada013602272177e61303 nbd: do del_gendisk() asynchronously for NBD_DESTROY_ON_DISCONNECT
-3f74e0645c52a08f640380c9c46f9a3a172b9389 nbd: refactor device removal
-327b501b1d94342fe17a1b6b1a40746e57ddd472 nbd: remove nbd_del_disk
-7bdc00cf7e369b3be17f26e5643da28de98d9d6d nbd: return the allocated nbd_device from nbd_dev_add
-6177b56c96ff3b5e23d47f6b6c8630f31145da93 nbd: refactor device search and allocation in nbd_genl_connect
-6e4df4c6488165637b95b9701cc862a42a3836ba nbd: reduce the nbd_index_mutex scope
-9ea9b9c48387edc101d56349492ad9c0492ff78d remove the lightnvm subsystem
-4f1e9630afe6332de7286820fedd019f19eac057 blk-throtl: optimize IOPS throttle for large IO scenarios
-2a14c9ae15a38148484a128b84bff7e9ffd90d68 params: lift param_set_uint_minmax to common code
-27453b45e62da8656739f7e1365ea9318e7b040e nvme-pci: limit maximum queue depth to 4095
-3b01a9d0caa8276d9ce314e09610f7fb70f49a00 nvme-tcp: don't check blk_mq_tag_to_rq when receiving pdu data
-e7006de6c23803799be000a5dcce4d916a36541a nvme: code command_id with a genctr for use-after-free validation
-0521905e859fd1a07949cb18efb20cdd4aab3b20 nvme-pci: use attribute group for cmb sysfs
-1751e97aa940656b5de0e620f02cf193a275e014 nvme-pci: cmb sysfs: one file, one value
-e23439e977ed2b247912c2b5c6945ef1bc380100 nvme-fabrics: remove superfluous nvmf_host_put in nvmf_parse_options
-a7b5e8d864b356fdacfea08d9042261c37bc918e nvme: add set feature tracing support
-8d84f9de69ca23f2637dc19d96f39228c8426e97 nvmet: add set feature tracing support
-ad0e9a80ba0f20db0f86e23d1ad2979513a9a8ee nvmet: remove redundant assignments of variable status
-e5ad96f388b765fe6b52f64f37e910c0ba4f3de7 nvme-pci: disable hmb on idle suspend
-a5df5e79c43c84d9fb88f56b707c5ff52b27ccca nvme: allow user toggling hmb usage
-d48f92cd2739258a1292be56bbeadb5b6a57ea09 nvme-tcp: pair send_mutex init with destroy
-664227fde63844d69e9ec9e90a8a7801e6ff072d nvme-tcp: don't update queue count when failing to set io queues
-85032874f80ba17bf187de1d14d9603bf3f582b8 nvme-rdma: don't update queue count when failing to set io queues
-e804d5abe2d74cfe23f5f83be580d1cdc9307111 nvmet: pass back cntlid on successful completion
-b71df12605cabab47d58bd926badaf4130280e4d nvmet: avoid duplicate qid in connect cmd
-e19e9f47f341cafcaf41253723f083223a4652a5 nvmet: check that host sqsize does not exceed ctrl MQES
-9451aa0aacaf7ea13d1acfd5de8b63a6e0b24fac block: free the extended dev_t minor later
-889c05cc5834a1eef2dbe1e639cfd7a81c4f4c6d block: ensure the bdi is freed after inode_detach_wb
-1113f0b69c6a98ff4e733c306a6658a31f8cbc49 bvec: add a bvec_virt helper
-b93ef45350c0119ddc275601438c89231b198414 block: use bvec_virt in bio_integrity_{process,free}
-1c277e501334238f6c4f57d16d14e7c911550075 dm: make EBS depend on !HIGHMEM
-3a8ba33bd71a4126b9e799e8d29d6d5da08c93f0 dm-ebs: use bvec_virt
-964cacfdd34cd48e3b5b714c3cc33427001e843f dm-integrity: use bvec_virt
-fbc27241e537d3a99d0f843a4080e1d2fb014fb4 squashfs: use bvec_virt
-cf58b537781df6eee2bbeae0463e45acf727978a rbd: use bvec_virt
-358b348b9197b977276e0f034c474380565879e3 virtio_blk: use bvec_virt
-2fd3e5efe791946be0957c8e1eed9560b541fe46 bcache: use bvec_virt
-c3c770563510aa66fd8e84b374daf43e236fa4ba sd: use bvec_virt
-25d84545beaae8e9427bbd25feff309363cd0a58 ubd: use bvec_virt
-6da525b3ecaea04eaaeb3277f6e16d91ecfdb84a ps3vram: use bvec_virt
-bf5fb875b494b32ef81fdfa5530a79fc22486254 dasd: use bvec_virt
-2b7a8112212afa90f36391e3ab7df531614bfb6a dcssblk: use bvec_virt
-3973e15fa5342783ce0009ab3a423ae9b811fc63 nvme: use bvec_virt
-49cb5168a7c6abf9835f9acdce6263bc2deefeb6 blk-cgroup: refactor blkcg_print_stat
-252c651a4c854b328445a536bd1892e999103fca blk-cgroup: stop using seq_get_buf
-69f87cc7086558ad84f20001256474aa611fc0eb block: unexport blk_register_queue
-b1a811633f7321cf1ae2bb76a66805b7720e44c9 block: nbd: add sanity check for first_minor
-0866200ed7fdfbfba0c033aad63ff407e5368570 nvme: Have NVME_FABRICS select NVME_CORE instead of transport drivers
-77979058dfcf4818abf7dd84423a7d66dafd8487 nvme: remove nvm_ndev from ns
-9891668e43c8e9f2d0d50088b151edefc2e560e5 nvme: remove the unused NVME_NS_* enum
-355a8031dc174450ccad2a61c513ad7222d87a97 libata: fix ata_host_start()
-56b4f06c55add95fe508a1746d9173bade6388bf libata: simplify ata_scsi_rbuf_fill()
-d8d8778c24cc4689250b59c426489a360032d912 libata: cleanup device sleep capability detection
-891fd7c61952ed3fddb82a3b00ae4b3edfce8733 libata: cleanup ata_dev_configure()
-2360fa1812cd77e1de13d3cca789fbd23462b651 libata: cleanup NCQ priority handling
-fc5c8aa7bc4977205e0ceb93425075f8a8f49501 libata: fix ata_read_log_page() warning
-d633b8a702ab2eb4ef9263f1ab1610bb8cdf71a5 libata: print feature list on device scan
-5f91b8f54874300a8e3c6c89f39ce5a74a449f2c libata: Introduce ncq_prio_supported sysfs sttribute
-5b8a2345e64b7c9ad00d1bd2d5081d14c574d989 docs: sysfs-block-device: improve ncq_prio_enable documentation
-f5975d18d46ae8485bb08161086e59360844840b docs: sysfs-block-device: document ncq_prio_supported
-a680dd72ec336b81511e3bff48efac6dbfa563e7 block: bfq: fix bfq_set_next_ioprio_data()
-25bca50e523cbe96c0207fbb92f22ff2bc28e9aa block: improve ioprio class description comment
-a553a835ca57668b0d9907d8ec2507ec51292d9a block: change ioprio_valid() to an inline function
-ba05200fcce0a73fa8db16c514fbaa476d1d9399 block: fix IOPRIO_PRIO_CLASS() and IOPRIO_PRIO_VALUE() macros
-202bc942c5cd4340d37b06c4e0b8b03f9925d818 block: Introduce IOPRIO_NR_LEVELS
-e70344c05995a190a56bbd1a23dc2218bcc8c924 block: fix default IO priority handling
-ca27f5b593b5532f4b3a363daeba45872f381bb2 Merge tag 'nvme-5.15-2021-08-18' of git://git.infradead.org/nvme into for-5.15/drivers
-759e0fd4b67766c96b33a114bba0c7d7521fecd0 block: add back the bd_holder_dir reference in bd_link_disk_holder
-5f432cceb3e9de5223fa50d882c4a43cab39a3ee nvme: use blk_mq_alloc_disk
-45938335d0a9773d65a82a7ca722bb76e4b997a8 st: do not allocate a gendisk
-aebbb5831fbd5352fd9bd2c858bc249026d3c652 sg: do not allocate a gendisk
-4dcc4874deb41a11ece9c6e8858385235463c1ac block: cleanup the lockdep handling in *alloc_disk
-9c2b9dbafc067e173db30c4fd0636392d27944e8 block: remove alloc_disk and alloc_disk_node
-a58bd7683fcb60ae24c8572f932b48bc65719b7c block: remove the minors argument to __alloc_disk_node
-4a1fa41d304c7129328d4d5c7f31715b95e23b29 block: pass a request_queue to __blk_alloc_disk
-61a35cfc26334fe1c8e970ca8fafeae2daae257d block: hold a request_queue reference for the lifetime of struct gendisk
-d152c682f03ceb65c0d9663d4ba6ee2d46aa784d block: add an explicit ->disk backpointer to the request_queue
-40b3a52ffc5bc3b5427d5d35b035cfb19d03fdd6 block: add a sanity check for a live disk in del_gendisk
-52b85909f85d06efa69aaf4210e72467f1f58d2b block: fold register_disk into device_add_disk
-8235b5c1e8c1c0537f03a21a2e380098bed25248 block: call bdev_add later in device_add_disk
-9d5ee6767c85762205b788ed1245f21fafd6c504 block: create the bdi link earlier in device_add_disk
-bab53f6b617d9f530978d6e3693f88e586d81a8a block: call blk_integrity_add earlier in device_add_disk
-75f4dca59694dfe288ae6a48d7b147b60d11c95c block: call blk_register_queue earlier in device_add_disk
-614310c9c8ca15359f4e71a5bbd9165897b4d54e block: return errors from blk_integrity_add
-92e7755ebc69233e25a2d1b760aeff536dc4016b block: return errors from disk_alloc_events
-83cbce9574462c6b4eed6797bdaf18fae6859ab3 block: add error handling for device_add_disk / add_disk
-dbb301f91fc855dccf9bc42fbc4281d89365906d virtio_blk: add error handling support for add_disk()
-10e7123d5551dec0025f70e61604ab57483a6ed2 null_blk: add error handling support for add_disk()
-539711d7d6fe382a73254cc966602e63242a6fb3 block: remove a pointless call to MINOR() in device_add_disk
-c4b2b7d150d2b155b317b3e2f66492c6befab2b5 block: remove CONFIG_DEBUG_BLOCK_EXT_DEVT
-d9cf3bd531844ffbfe94b16e417037a16efc988d bio: fix page leak bio_add_hw_page failure
-0bdfbca8a623e262e0f343b143151000a300cbaf block: Add alternative_gpt_sector() operation
-466d9c4904deb25e2e8dcd29d3a998f4e3fa7c17 partitions/efi: Support non-standard GPT location
-dc913385dd74e625271482c30aefedd1e5af7b8c mmc: block: Support alternative_gpt_sector() operation
-1743fa54c9e8247000e060fcdab406ab3a808223 mmc: sdhci-tegra: Enable MMC_CAP2_ALT_GPT_TEGRA
-9f2869921f2a102e209297d4f742f34b46ed3d36 block: refine the disk_live check in del_gendisk
-158ee7b65653d9f841823c249014c2d0dfdeeb8f block: mark blkdev_fsync static
-62283c6c9d4c1018badcd0b9c5b6ca66d978fa0d include:libata: fix boolreturn.cocci warnings
-ead3b768bb51259e3a5f2287ff5fc9041eb6f450 blk-zoned: allow zone management send operations without CAP_SYS_ADMIN
-4d643b66089591b4769bcdb6fd1bfeff2fe301b8 blk-zoned: allow BLKREPORTZONE without CAP_SYS_ADMIN
-cc40b7225151f611ef837f6403cfaeadc7af214a blk-crypto: fix check for too-large dun_bytes
-1e294970fc00f45c1f17fb442c26a7e3fc9789b1 block, bfq: cleanup the repeated declaration
-1d1cf156dc176e30eeaced5cf1450d582d387b81 sg: pass the device name to blk_trace_setup
-93f63bc41f699318807df202a175d564c26bda87 nbd: add missing locking to the nbd_dev_add error path
-409e0ff10ead30a620ee48acb6d4545d9cb95359 nbd: reset NBD to NULL when restarting in nbd_genl_connect
-75b7f62aa65d5c496391ec2c3db3561aaf81a403 nbd: prevent IDR lookups from finding partially initialized devices
-b190300decb352a0b865d7aa379e89b17d772a43 nbd: set nbd->index before releasing nbd_index_mutex
-438cd318c8dfa5228ffd43af1b98d7cd7d92e1c6 nbd: only return usable devices from nbd_find_unused
-7ee656c3ac3d047b4cf1269f83ac9d6c0bba916b nbd: remove nbd->destroy_complete
-46d4703b1db4c86ab5acb2331b10df999f005e8e md/raid10: Remove unnecessary rcu_dereference in raid10_handle_discard
-6607cd319b6b91bff94e90f798a61c031650b514 raid1: ensure write behind bio has less than BIO_MAX_VECS sectors
-461d971215dfb55bcd5f7d040b2b222592040f95 Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.15/drivers
-c7e9d0020361f4308a70cdfd6d5335e273eb8717 Revert "floppy: reintroduce O_NDELAY fix"
-b5b0eba590f08e2b06c830b8343c1da7059c7a88 Merge tag 'floppy-for-5.15' of https://github.com/evdenis/linux-floppy into for-5.15/drivers
-679369114e55f422dc593d0628cfde1d04ae59b3 Merge tag 'for-5.15/block-2021-08-30' of git://git.kernel.dk/linux-block
-9a1d6c9e3f53732f2f48f4424e028642db616663 Merge tag 'for-5.15/drivers-2021-08-30' of git://git.kernel.dk/linux-block
-44d7d3b0d1cdb2119dba33bbedd602ce30528d6c Merge tag 'for-5.15/libata-2021-08-30' of git://git.kernel.dk/linux-block
+d3e9f732c415cf22faa33d6f195e291ad82dc92e io-wq: remove GFP_ATOMIC allocation off schedule out path
+5fd4617840596884334332f36cabfe0deabe85c8 io_uring: be smarter about waking multiple CQ ring waiters
+042b0d85eabb79909ef29063fb45d363cbc0a85d io_uring: use kvmalloc for fixed files
+ac177053bb2cb1f3c4c8bf89bce34c3f2c4823a7 io_uring: inline fixed part of io_file_get()
+b191e2dfe5955b392bc8c0ae546dfa5a13649c38 io_uring: rename io_file_supports_async()
+c97d8a0f68b30960e9c8089bc37cc3b96a96f84d io_uring: avoid touching inode in rw prep
+ebc11b6c6b87da5c83b4d934893a893f49160bc3 io_uring: clean io-wq callbacks
+2215bed9246dbb95df50fcef788b0765c7c2aac0 io_uring: remove unnecessary PF_EXITING check
+8724dd8c833832c398c3578340374f45d6d9dd0d io-wq: improve wq_list_add_tail()
+864ea921b0300fe5a4db9136b7e307e94b369530 io_uring: refactor io_alloc_req
+a2416e1ec23c6b79010d03d69c0e4e035339b4ad io_uring: don't halt iopoll too early
+282cdc86937bd31cf0ea49978ad7a42cfe12ea35 io_uring: add more locking annotations for submit
+90291099f24a82863e00de136d95ad7e73560107 io_uring: optimise io_cqring_wait() hot path
+e73c5c7cd3e21bb95032a9ed3593c000f17f9ab8 io_uring: extract a helper for ctx quiesce
+6a290a1442b45afb55d6a87619b716e5031d7c3e io_uring: move io_put_task() definition
+b9bd2bea0f22f502019266dce368a9cd477ac721 io_uring: move io_rsrc_node_alloc() definition
+543af3a13da308f2cea954644b43c2c9f864c350 io_uring: inline io_free_req_deferred
+d3fddf6dddd84432161eb070ed8e34d14c8bf56a io_uring: deduplicate open iopoll check
+58d3be2c60d2cf4e6bb65bb6200fa39a7bc477f9 io_uring: improve ctx hang handling
+bbbca0948989aa1a8a75b99bcdece677ad06dfe6 io_uring: kill unused IO_IOPOLL_BATCH
+af066f31eb3dac2a11516315d47a286a7b3b07df io_uring: drop exec checks from io_req_task_submit
+e9dbe221f5d1c974c853da94eee456803239cab5 io_uring: optimise putting task struct
+f56165e62fae78200292857628e4f1d8d12a0ed0 io_uring: move io_fallback_req_func()
+c34b025f2d2149d4351b994a923fa687a32478f8 io_uring: cache __io_free_req()'d requests
+7255834ed6ef9658b9e7fb192da6a323a64eac98 io_uring: remove redundant args from cache_free
+bb943b8265c84e9553903161bc39ff45f427d00d io_uring: use inflight_entry instead of compl.list
+cd0ca2e048dc0ddea4f59354b0b8ce4548a76a91 io_uring: inline struct io_comp_state
+90f67366cb8871951399fb5bcf182e902b896615 io_uring: remove extra argument for overflow flush
+5d70904367b45b74dab9da5c023b6629f511e48f io_uring: inline io_poll_remove_waitqs
+6294f3686b4d77771ab8b161304ada546e71d36a io_uring: clean up tctx_task_work()
+62906e89e63ba497105c0e3558089a10365f4f33 io_uring: remove file batch-get optimisation
+89850fce16a1a75caacca77cfa0c829aeea4f886 io_uring: run timeouts from task_work
+89b263f6d56e683ddcf7643140271ef6e36c72b9 io_uring: run linked timeouts from task_work
+8ef12efe26c8e44323011e57753b8c0e87af1582 io_uring: run regular file completions from task_work
+79ebeaee8a21a00417d89f1a02019f79840d9bad io_uring: remove IRQ aspect of io_ring_ctx completion lock
+21c843d5825b949332fe58495007ca531ef6ae91 io_uring: move req_ref_get() and friends
+91c2f6978311afe1f49094fdd90fd6ab29b66223 io_uring: remove req_ref_sub_and_test()
+5d5901a3434064e98c1dbb3047b9f9793825ea42 io_uring: remove submission references
+20e60a3832089741d6b25c13d291050c5d00b4e7 io_uring: skip request refcounting
+a4aadd11ea4932588e6530ecd021ffe39f9d5adf io_uring: extract io_uring_files_cancel() in io_uring_task_cancel()
+f552a27afe67f05c47bb0c33b92af2a23b684c31 io_uring: remove files pointer in cancellation functions
+41a5169c23ebe85fdd0b64a0b6381f486a34ef3c io_uring: code clean for completion_lock in io_arm_poll_handler()
+a141dd896f544df9627502cfb3fc1a73fb6587e4 io_uring: correct __must_hold annotation
+48dcd38d73c22b22bf9dc1c01b0ca0b8414b31da io_uring: optimise iowq refcounting
+761bcac1573efc99042d59add94d468bf17127f0 io_uring: don't inflight-track linked timeouts
+fb6820998f57a3e63a382a322530fa28522a2bba io_uring: optimise initial ltimeout refcounting
+a8576af9d1b03a1b8aba7228e938ab0817fdbda6 io_uring: kill not necessary resubmit switch
+8cb01fac982a3f8622a46821af1eb68136f936ca io_uring: deduplicate cancellation code
+fd08e5309bba8672c1190362dff6c92bfd59218d io_uring: optimise hot path of ltimeout prep
+b97e736a4b553ff18963019c7ca91cd684f83709 io_uring: kill REQ_F_LTIMEOUT_ACTIVE
+4d13d1a4d1e1807e04b846b48934e87016027f90 io_uring: simplify io_prep_linked_timeout
+0756a8691017518ceeca4c083e7a359107186498 io_uring: cancel not-armed linked touts separately
+906c6caaf586180261ea581915e1cf8bc466bd69 io_uring: optimise io_prep_linked_timeout()
+ae421d9350b51cba1daa28ee6eb14fbce7517eca io_uring: better encapsulate buffer select for rw
+505657bc6c52b01304d8a7c79b2f98878e3d83db io_uring: reuse io_req_complete_post()
+23a65db83b3f4549e5eee1fb5517c3365f627699 io_uring: improve same wq polling
+ec3c3d0f3a271b5c7422449262970e7eb98f2126 io_uring: fix io_timeout_remove locking
+79dca1846fe979304ad0b998e56b20326e2e5a72 io-wq: move nr_running and worker_refs out of wqe->lock protection
+316319e82f7342ef327223a23199648bfabeadcd io_uring: add comments on why PF_EXITING checking is safe
+e98e49b2bbf777f91732dc916d7ad33876c663c9 io_uring: extend task put optimisations
+187f08c12cd1d81f000cdc9c0119ef6e0a6f47e3 io_uring: Add register support for non-4k PAGE_SIZE
+99c8bc52d1321ab3a711eba2941eadbe7425230f io_uring: fix lack of protection for compl_nr
+3a1b8a4e843f96b636431450d8d79061605cf74b io_uring: limit fixed table size by RLIMIT_NOFILE
+0bea96f59ba40e63c0ae93ad6a02417b95f22f4d io_uring: place fixed tables under memcg limits
+2c5d763c1939fbd130452ee0d4d1a44b5dd97bb7 io_uring: add clarifying comment for io_cqring_ev_posted()
+26578cda3db983b17cabe4e577af26306beb9987 io_uring: add ->splice_fd_in checks
+5636c00d3e8ef1f6d1291e71edb48f727ba5a999 io_uring: flush completions for fallbacks
+f237c30a5610d35a584f3296d397b93d80ce374e io_uring: batch task work locking
+126180b95f27ef6cc536da57115e06665254b0d7 io_uring: IRQ rw completion batching
+91ef658fb8b82837f94ea0d45d14b5b2d2541e70 namei: ignore ERR/NULL names in putname()
+0ee50b47532a81ab36046241822d1ecb4e08e76d namei: change filename_parentat() calling conventions
+584d3226d665214dc1c498045c253529acdd3134 namei: make do_mkdirat() take struct filename
+7797251bb5ab7f184dafdfebd05f469ff6a67b77 namei: make do_mknodat() take struct filename
+da2d0cede330192879e8e16ddb3158aa76ba5ec2 namei: make do_symlinkat() take struct filename
+8228e2c313194f13f1d1806ed5734a26c38d49ac namei: add getname_uflags()
+020250f31c4c75ac7687a673e29c00786582a5f4 namei: make do_linkat() take struct filename
+45f30dab395730aa3b3da14d9f19ea0d7d43db53 namei: update do_*() helpers to return ints
+e34a02dc40c95d126bb6486dcf802bbb8d1624a0 io_uring: add support for IORING_OP_MKDIRAT
+dadebc350da2bef62593b1df007a6e0b90baf42a io_uring: fix io_try_cancel_userdata race for iowq
+da521626ac620d8719d674a48b8ec3620eefd42a bio: optimize initialization of a bio
+6c7ef543df909dbdcd8cb24ef30627cba62a4e91 fs: add kiocb alloc cache flag
+be4d234d7aebbfe0c233bc20b9cdef7ab3408ff4 bio: add allocation cache abstraction
+be863b9e4348a791e360d25611a1bdde2c9595ed block: clear BIO_PERCPU_CACHE flag if polling isn't supported
+394918ebb889f99d89db6843bcc93279b2b745f9 io_uring: enable use of bio alloc cache
+01cfa28af486c9df3775232f10c3dd7ba2e88318 block: use the percpu bio cache in __blkdev_direct_IO
+270a1c913ebd745ebee716af5f7215e1c2b30cc0 block: provide bio_clear_hipri() helper
+3d5b3fbedad65088ec079a4c4d1a2f47e11ae1e7 bio: improve kerneldoc documentation for bio_alloc_kiocb()
+7a8721f84fcb3b2946a92380b6fc311e017ff02c io_uring: add support for IORING_OP_SYMLINKAT
+cf30da90bc3a26911d369f199411f38b701394de io_uring: add support for IORING_OP_LINKAT
+d32f89da7fa8ccc8b3fb8f909d61e42b9bc39329 net: add accept helper not installing fd
+b9445598d8c60a1379887b957024b71343965f74 io_uring: openat directly into fixed fd table
+a7083ad5e30767ede4ff49d7471ea9c078702db2 io_uring: hand code io_accept() fd installing
+aaa4db12ef7bdc3e343580d1d3c0b2a8874fc1fb io_uring: accept directly into fixed file table
+0c6e1d7fd5e7560fdc4bb3418c2c0f0d7a95bf76 io_uring: don't free request to slab
+14afdd6ee3a0db7bcae887d1951ed21c4d1539cd io_uring: remove redundant req_set_fail()
+a8295b982c46d4a7c259a4cdd58a2681929068a9 io_uring: fix failed linkchain code logic
+9a10867ae54e02a0f204d2eebea5a446fb7a86f9 io_uring: add task-refs-get helper
+b18a1a4574d2d15f1b0c84658d4549ccbf241fee io_uring: clarify io_req_task_cancel() locking
+90499ad00ca59320b5bb43392b7931e1bd84cad2 io_uring: add build check for buf_index overflows
+2e480058ddc21ec53a10e8b41623e245e908bdbc io-wq: provide a way to limit max number of workers
+50c1df2b56e0f581b1dbf334dbf807d6fb8f77b2 io_uring: support CLOCK_BOOTTIME/REALTIME for timeouts
+ef9dd637084d437463f5e9efa153dfc94e7e5f08 io_uring: keep ltimeouts in a list
+f1042b6ccb887f07301f6b096b3d0cfcf9189323 io_uring: allow updating linked timeouts
+ecc53c48c13d995e6fe5559e30ffee48d92784fd io-wq: check max_worker limits if a worker transitions bound state
+a9a4aa9fbfc5b87f315c63d9a317648774a46879 io-wq: wqe and worker locks no longer need to be IRQ safe
+87df7fb922d18e96992aa5e824aa34b2065fef59 io-wq: fix wakeup race when adding new work
+c547d89a9a445f6bb757b93247de43d312e722da Merge tag 'for-5.15/io_uring-2021-08-30' of git://git.kernel.dk/linux-block
+3b629f8d6dc04d3af94429c18fe17239d6fbe2c3 Merge tag 'io_uring-bio-cache.5-2021-08-30' of git://git.kernel.dk/linux-block
+b91db6a0b52e019b6bdabea3f1dbe36d85c7e52c Merge tag 'for-5.15/io_uring-vfs-2021-08-30' of git://git.kernel.dk/linux-block
 
---===============7024708751609240661==--
+--===============1774116210117720260==--
