@@ -1,26 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 31 Aug 2021 19:50:04 -0000
-Message-Id: <163043940412.2326.863078019245856001@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3266021879797720181=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 31 Aug 2021 19:52:12 -0000
+Message-Id: <163043953273.3471.6732981452187907948@gitolite.kernel.org>
+
+--===============3266021879797720181==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-5.15/io_uring
-    old: 0a1d9c940ee44c9949bee2c5ae01e4abfa452695
-    new: 7dada8de53c768b257e5002d24926ff95b34fbaa
-    log: |
-         7dada8de53c768b257e5002d24926ff95b34fbaa io-wq: split bounded and unbounded work into separate lists
-         
-  - ref: refs/heads/for-next
-    old: 1d43da8a860434805addc9cc8c703bbbffe199d6
-    new: 814e5c1ec9b1e08155c0c6dd6d58ed643c11c5d5
-    log: |
-         7dada8de53c768b257e5002d24926ff95b34fbaa io-wq: split bounded and unbounded work into separate lists
-         814e5c1ec9b1e08155c0c6dd6d58ed643c11c5d5 Merge branch 'for-5.15/io_uring' into for-next
-         
+  - ref: refs/heads/master
+    old: 0ee7c3e25d8c28845fceb4dd1c3cb5f50b9c45a9
+    new: e55f0c439a2681a3c299bedd99ebe998049fa508
+    log: revlist-0ee7c3e25d8c-e55f0c439a26.txt
+
+--===============3266021879797720181==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0ee7c3e25d8c-e55f0c439a26.txt
+
+f49fd6d3c070d08c4ae9696876c7098320e48dab file: let pick_file() tell caller it's done
+03ba0fe4d09f2eb0a91888caaa057ed67462ae2d file: simplify logic in __close_range()
+9ffb14ef61bab83fa818736bf3e7e6b6e182e8e2 move_mount: allow to add a mount into an existing group
+8374f43123a5957326095d108a12c49ae509624f tests: add move_mount(MOVE_MOUNT_SET_GROUP) selftest
+ad19607a90b29eef044660aba92a2a2d63b1e977 doc: give a more thorough id handling explanation
+2863643fb8b92291a7e97ba46e342f1163595fa8 set_user: add capability check when rlimit(RLIMIT_NPROC) exceeds
+1dd5915a5cbda100e67823e7a4ca7af919185ea6 Merge tag 'fs.move_mount.move_mount_set_group.v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+927bc120a248b658acc2f5206ec4e81a794d8a57 Merge tag 'fs.close_range.v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+67b03f93a30facabf105b8b8632e3b9b6ef9200a Merge tag 'fs.idmapped.v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+e55f0c439a2681a3c299bedd99ebe998049fa508 Merge tag 'kernel.sys.v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+
+--===============3266021879797720181==--
