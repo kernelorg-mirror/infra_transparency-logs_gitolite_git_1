@@ -1,37 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8341363521526377164=="
+Content-Type: multipart/mixed; boundary="===============4598202073894924396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 01 Sep 2021 06:26:10 -0000
-Message-Id: <163047757025.30458.8905848254898171517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 01 Sep 2021 06:26:54 -0000
+Message-Id: <163047761469.30761.15567801990712135329@gitolite.kernel.org>
 
---===============8341363521526377164==
+--===============4598202073894924396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/queue-next
-    old: 0b89f117b459d1d8aedf7d26317e1a535b0b60c5
-    new: 3d33fd0810a1c1fe642429aaecb00fcd8aa74a7a
-    log: revlist-0b89f117b459-3d33fd0810a1.txt
-  - ref: refs/heads/queue-rc
-    old: 3eaeaebf910026fc5af4ee0cbc454ed194555aae
-    new: 9ca79a7d7311c438194790f2162f9f1a5fa1cab0
+  - ref: refs/heads/testing/rdma-next
+    old: fa59b8ba25d11612bcc199fb31f165edc1b7b2e5
+    new: c7a57b091283695419d1f30f99ac22d01a0394fe
+    log: revlist-fa59b8ba25d1-c7a57b091283.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: 80f8f3c2844c4e77b45b8efe2007e1c7cef713b9
+    new: 6c64cdcc3aad0c14238129f434d1d90899b3616d
     log: |
          6c64cdcc3aad0c14238129f434d1d90899b3616d Merge branch 'master' into testing/rdma-rc
-         9ca79a7d7311c438194790f2162f9f1a5fa1cab0 Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============8341363521526377164==
+--===============4598202073894924396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b89f117b459-3d33fd0810a1.txt
+Content-Disposition: attachment; filename=revlist-fa59b8ba25d1-c7a57b091283.txt
 
 26c22cfde5dd6e63f25c48458b0185dcb0fbb2fd vfio: Use config not menuconfig for VFIO_NOIOMMU
 e7500b3ede2c66380a7e9faa6a81e6df2f8e4e55 vfio/pci: Make vfio_pci_regops->rw() return ssize_t
@@ -82,6 +81,5 @@ ef59b0e83121983a9ad8ae8bba66be0e72999aa6 IB/mlx5: Add ATS support for peer memor
 6c64cdcc3aad0c14238129f434d1d90899b3616d Merge branch 'master' into testing/rdma-rc
 18e59ed28824ec93ba824b5dab80f7f6b37a21ff Merge branch 'rdma-next' into testing/rdma-next
 c7a57b091283695419d1f30f99ac22d01a0394fe Merge remote-tracking branch 'vfio/next' into testing/rdma-next
-3d33fd0810a1c1fe642429aaecb00fcd8aa74a7a Merge branch 'testing/rdma-next' into queue-next
 
---===============8341363521526377164==--
+--===============4598202073894924396==--
