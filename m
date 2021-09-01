@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8844985255944566364=="
+Content-Type: multipart/mixed; boundary="===============0947512987697695891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 01 Sep 2021 17:48:05 -0000
-Message-Id: <163051848596.11710.15411506899132242729@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 17:48:10 -0000
+Message-Id: <163051849063.11796.15101176752502998705@gitolite.kernel.org>
 
---===============8844985255944566364==
+--===============0947512987697695891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,60 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
+  - ref: refs/heads/char-misc-next
+    old: 0dc3ad3f859d3a65b335c861ec342d31d91e8bc8
     new: ba1dc7f273c73b93e0e1dd9707b239ed69eebd70
-    log: revlist-e22ce8eb631b-ba1dc7f273c7.txt
+    log: revlist-0dc3ad3f859d-ba1dc7f273c7.txt
 
---===============8844985255944566364==
+--===============0947512987697695891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518484 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518489 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1630518484-eaa679e545d58c0335b27264c3649251828cc6c8
+nonce 1630518488-37fb8a738711013e7291c6e0874f9c4011cce850
 
-e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93 ba1dc7f273c73b93e0e1dd9707b239ed69eebd70 refs/heads/char-misc-linus
+0dc3ad3f859d3a65b335c861ec342d31d91e8bc8 ba1dc7f273c73b93e0e1dd9707b239ed69eebd70 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvNQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AqcP/RZEy+U0FBXaUleHhSHb
-x3dew5klzi8kCTCMocJUod7UR5cuQG2Gc9qdXcpuOf5exVnGOcAwtkOkv8lHq5dD
-TSJFwU5IA5BQb1NRuAZLMgmAokqUR2kkHJJbDz3bTQ06jOSn12Jobi/UfDQGEhsF
-s/J7B5TxasV+gMXTMGxwXM6sM6Yg7Q3+WL6CnaePFIB1aht4xyKGP6ODOLlJb765
-QkaAprgQMmP2eejRH7PNnWzSzlxTFdHZ2ZScQcW3ZrKl3IMl8cUOy9D1m2T+uTaU
-i4olGR04L7eeRDc5rCi2s0nAOEeCANpI7pFVx0BhLzmGUKNUP/VbFZhopZPwDRRg
-jKIa4h50xEmSDXcGCK9UGJBxy0d+dIfDHFsVtNrfj7Mj/ltvNzxjkDR9rQjOrsDp
-v7dBao+Nq5Vl4I1AAFOErnLV7NbYdNJL5onH569x/bSTuY0P9KKdS+0wuVzr75eJ
-lF+MiHQjd+LgFpirRivrZ3c9wyUOZ8gsoCvI/BrOR6qgGrBHpn9/zxOmDzFRQO/N
-oZEvEDc2ej49DDZHqDM8ea5nQ/JpZFODZd3zIumc9x/pmsqrRUduDu4KpDxpEHXA
-4xSx5Yqhi2AAVOcx0HqBIzb4U4bWX+AoJHW8Q5WhM0NiK2VRj2ckV9FzrHG7QpNq
-comSi4rL2DJ0xhMw9OdQUnAo
-=oN2L
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvNkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PWkQANTa6XIOehbrGx9wnxRQ
+Ki7ctFWYP6fkWPE/xx9c9dcT/v4oKHHVGRz5F3lSRcYryNss4iOtcn1iY70Ehe60
+zVYIn6NUxKsVjcFz9L1GmIDYIj4OccN97dJAmhfFXdogdAQIIKPgid21C+rG68CV
+nNkGqhz8HE1+nydzovgErEL1mr/aFJGSlfMac4AmHLoXNQSrY5O9E7Wylo9FRM5H
+eMXjdAJjf26XBF406+mtoEg5Q7TVcPshdnsSOvGq72lP90P3BAi3LyvZRXRHPXLD
+yA2KYG1EybaO3VAg/KcB8bTmPtitAAAOMFOXJKLcEg/eNwfakpWWBEqmHAnaJqJP
+3OWH/flNO0S20EIt0tAhwD4lPERTK7gCg87Jcg/y2LvmA3Nv3ftD5m6NloosaS4r
++LBZ+MEpmT7q8/uUyFouiuH5dluhqem9B2rUcH5vw8KxxnIF+UWXltS0EYRBi3yR
+cYs6nDUU3ql3cSUgHy6YrzWLyMWV/BxrifC6wA+agwoRoTS1rctAjCHnh3rncImn
+5wqwYi02+aEaVQeKFawLBxcVeiuvfoNY2lmzR9Nq+gDooKevP+2XanKONjCjRkZa
+LmDcpxc9qk6z35PMyDTDNBukeGU7s1RrO9y2mxfIMJ+Xk5VLwBhOowwUr8jJePz6
+VLiNPy3/0ZoJseVSMO+5c6xi
+=oxiF
 -----END PGP SIGNATURE-----
 
---===============8844985255944566364==
+--===============0947512987697695891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e22ce8eb631b-ba1dc7f273c7.txt
+Content-Disposition: attachment; filename=revlist-0dc3ad3f859d-ba1dc7f273c7.txt
 
+77233c2d2ec95030afcaf9fd90e4bdd6125e5c15 btrfs: zoned: allow disabling of zone auto reclaim
+ba86dd9fe60e5853fbff96f2658212908b83f271 btrfs: zoned: suppress reclaim error message on EAGAIN
+0ae79c6fe70d5c5c645733b7ed39d5e6021d8c9a btrfs: zoned: fix block group alloc_offset calculation
+63fb5879db7ca94fefac12cf7a5a051cee889c12 btrfs: zoned: add asserts on splitting extent_map
+e4571b8c5e9ffa1e85c0c671995bd4dcc5c75091 btrfs: fix NULL pointer dereference when deleting device by invalid id
+e7849e33cf5d785568b181e3c15236e32c7dfdb2 btrfs: sysfs: document structures and their associated files
+c2fd68b6b2b00f0a6280b5971028c10c8f0ba70f namei: add mapping aware lookup helper
+b3b6f5b9225506abc2e8d1f393761a6e509b791f btrfs: handle idmaps in btrfs_new_inode()
+ca07274c3da901c7daa2c9280679c282b7c03bef btrfs: allow idmapped rename inode op
+c020d2eaf1a84ba8611fe2a232f4951faa98e0e0 btrfs: allow idmapped getattr inode op
+72105277dcfca69175cea713f5edda4132839e14 btrfs: allow idmapped mknod inode op
+e93ca491d03fda28db54a3d6ddc15f03a61364d7 btrfs: allow idmapped create inode op
+b0b3e44d346c91dde3899d37eddf867b9b36ffdc btrfs: allow idmapped mkdir inode op
 5a0521086e5fc5eb51690d4fc63fd26fdb5ae881 btrfs: allow idmapped symlink inode op
 98b6ab5fc0988242114a4f0e02ed225685d9cc2b btrfs: allow idmapped tmpfile inode op
 d4d09464614227a6cc9ae42cd1d761e4320e4ebc btrfs: allow idmapped setattr inode op
@@ -85,10 +98,6 @@ e4fed17a32b6b1017ff2fb4cd73938abeeadd907 btrfs: allow idmapped SET_RECEIVED_SUBV
 b708a96d76462614123f4e8a8bb030889ab43ba4 via-rhine: Use of_device_get_match_data to simplify code
 f6a4e0e8a00ff6fadb29f3646ccd33cc85195a38 via-velocity: Use of_device_get_match_data to simplify code
 0d977e0eba234e01a60bdde27314dc21374201b3 btrfs: reset replace target device to allocation state on close
-ea6942dad4b2a7e1735aa0f10f3d0b04b847750f soundwire: intel: fix potential race condition during power down
-e4401abb3485d78eb7987866a4b834f94bb60d90 soundwire: intel: skip suspend/resume/wake when link was not started
-029bfd1cd53cd8ba896a676e5c1bcf6cd0100d3c soundwire: intel: conditionally exit clock stop mode on system suspend
-2564a2d4418bac166a9db2d6ca2f8b99953b1df5 soundwire: cadence: do not extend reset delay
 d359902d5c357b280e7a0862bb8a1ba56b3fc197 af_unix: Fix NULL pointer bug in unix_shutdown
 8d00f9819458b95301e274c6df705df2963ba34f spi: rockchip-sfc: Remove redundant IO operations
 745649c59a0d1fde9dcc02286f23f8c78a1f724d spi: rockchip-sfc: Fix assigned but never used return error codes
@@ -285,12 +294,8 @@ c4b2b7d150d2b155b317b3e2f66492c6befab2b5 block: remove CONFIG_DEBUG_BLOCK_EXT_DE
 f4ff24f8a7c144e6d2107a2f2d16bcd9e2b2578f mmc: sdhci: Correct the tuning command handle for PIO mode
 4850c225dd0e82c8aff8fe4bddc183c37551ede9 mmc: usdhi6rol0: Implement card_busy function
 291ee9d5da535f8c72408850a413074c4719c8d3 mmc: core: Update ->card_busy() callback comment
-637d0957516eef3e861ca5889912c3234a9b593f Merge 5.14-rc7 into char-misc-next
-c446e40ed388d98157891dd5edc1d98212a13d78 Merge tag 'icc-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-96e9df335ae3c3529c10994b43ca83352083df27 Merge tag 'phy-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
 4aba5dc71eae041aa1a9240de10ad2e30e9f32dd dt-bindings: mmc: renesas,sdhi: Fix dtbs-check warning
 bfadee4554c3782bfbc5943866bd2ad44d631e50 dt-bindings: mmc: renesas,sdhi: Document RZ/G2L bindings
-8c61951b372d83b426a66dafc9c4ac24b3ce3335 Merge tag 'soundwire-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-next
 3f6e276270de935296caea6fb10a545f7388478b dt-bindings: mmc: fsl-imx-esdhc: add a new compatible string
 2829a4e3cf3a6ac2fa3cdb681b37574630fb9c1a USB: serial: option: add new VID/PID to support Fibocom FG150
 d9cf3bd531844ffbfe94b16e417037a16efc988d bio: fix page leak bio_add_hw_page failure
@@ -821,10 +826,6 @@ b31eea2e04c1002e5cb864eefdc718b70d2cb08c efi: Don't use knowledge about efi_guid
 4baf0e0b329874ec5e85480f53851b5f05a7ae58 um: vector: adjust to coalesce API changes
 75432ba583a8a374b8d1ad2d3ba559a78f7454fc usb: gadget: f_uac2: fixup feedback endpoint stop
 068fdad20454f815e61e6f6eb9f051a8b3120e88 usb: gadget: u_audio: fix race condition on endpoint stop
-0be883a0d795d9146f5325de582584147dd0dcdc parport: remove non-zero check on count
-f8cefead37ddc111786b14da73286204eb8509b5 char: mware: fix returnvar.cocci warnings
-a30dc6cf0dc51419021550152e435736aaef8799 VMCI: fix NULL pointer dereference when unmapping queue pair
-a99009bc4f2f0b46e6c553704fda0b67e04395f5 misc/pvpanic: fix set driver data
 885814a97f5a1a2daf66bde5f2076f0bf632c174 Revert "mmc: sdhci-iproc: Set SDHCI_QUIRK_CAP_CLOCK_BASE_BROKEN on BCM2711"
 a75c956162978097c0a60d95971c97ae486a68d7 Merge branch 'fixes' into next
 b18a1a4574d2d15f1b0c84658d4549ccbf241fee io_uring: clarify io_req_task_cancel() locking
@@ -850,7 +851,6 @@ c0006dc6957ef0b5d3e785556f30f928af05ab0c Merge tag 'pm-5.14-rc8' of git://git.ke
 fad40a624854ad14a88ee0277b9e8207bfc6d95a ACPI: power: Use acpi_handle_debug() to print debug messages
 2bc4eb943b1b27606cd6d63be69f2197cad15173 ACPI: power: Drop name from struct acpi_power_resource
 8f9d0349841a2871624bb1e85309e03e9867c16e Merge tag 'acpi-5.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-0dc3ad3f859d3a65b335c861ec342d31d91e8bc8 Revert "bus: mhi: Add inbound buffers allocation flag"
 9ee313433c483e4a6ecd517c38c0f8aee1962c53 ice: restart periodic outputs around time changes
 b357d9717be7f95fde2c6c4650b186a995b71e59 ice: Only lock to update netdev dev_addr
 0e3f52bbd9ebaef5fba1b4c70e4132b9782c7c7e hwmon: (k10temp) Rework the temperature offset calculation
@@ -1082,4 +1082,4 @@ efa916af13206eb15916e102c45c99a13ea78f33 Merge tag 'for-5.15/dm-changes' of git:
 9e9fb7655ed585da8f468e29221f0ba194a5f613 Merge tag 'net-next-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 ba1dc7f273c73b93e0e1dd9707b239ed69eebd70 Merge tag 'char-misc-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 
---===============8844985255944566364==--
+--===============0947512987697695891==--
