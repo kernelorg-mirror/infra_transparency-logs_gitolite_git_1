@@ -1,37 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Wed, 01 Sep 2021 13:56:53 -0000
-Message-Id: <163050461352.30007.602659510623607329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 01 Sep 2021 13:59:13 -0000
+Message-Id: <163050475337.30817.17641162830279159829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/for-greg/4.14-100
-    old: 0000000000000000000000000000000000000000
-    new: 2f577b5f15aff0fd72b961e29bb3dc89044b848b
-  - ref: refs/heads/for-greg/4.19-100
-    old: 0000000000000000000000000000000000000000
-    new: 882720d96a99f93b5bf07ca744cc3e426fc39b4d
-  - ref: refs/heads/for-greg/4.4-100
-    old: 0000000000000000000000000000000000000000
-    new: eeb3045d3c15a8ccbcd55954ea4dea46b9c3fc8a
-  - ref: refs/heads/for-greg/4.9-100
-    old: 0000000000000000000000000000000000000000
-    new: 4637f4f33354975b71e5b2be4cf9fcf144f5e82d
-  - ref: refs/heads/for-greg/5.10-100
-    old: 0000000000000000000000000000000000000000
-    new: 99d20adc2e8809ef47d203bc8d5eec8e9a6b33f2
-  - ref: refs/heads/for-greg/5.13-100
-    old: 0000000000000000000000000000000000000000
-    new: dd3f989f28ac54a29fcf2f25bf61996a3d04728e
-  - ref: refs/heads/for-greg/5.14-100
-    old: 0000000000000000000000000000000000000000
-    new: 7f06863a5f83974835fd72128df94811b4870e33
-  - ref: refs/heads/for-greg/5.4-100
-    old: 0000000000000000000000000000000000000000
-    new: 2accdbb9c9b0b15554e010aa5c93d9bdb2e37607
+  - ref: refs/heads/stable
+    old: 06aa98e8e2fa11d520d17682a081bdf6beb21289
+    new: e4f8712df32a756712f36aeb32eafd3d8a6a43a1
+    log: |
+         79320a24f42ddd8feb4152f36e75afb6ae3943d6 wireguard: selftests: rename DEBUG_PI_LIST to DEBUG_PLIST
+         e4f8712df32a756712f36aeb32eafd3d8a6a43a1 wireguard: device: reset peer src endpoint when netns exits
+         
