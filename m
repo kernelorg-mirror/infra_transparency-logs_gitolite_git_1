@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Wed, 01 Sep 2021 07:57:40 -0000
-Message-Id: <163048306008.24213.17388021284348198136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Wed, 01 Sep 2021 07:58:43 -0000
+Message-Id: <163048312347.24662.2327661336161298019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/vmemmap_populate/v0
+  - ref: refs/tags/asm-generic-5.15
     old: 0000000000000000000000000000000000000000
-    new: d721572d13328d6a0d56717ca78e667b2dd5062c
+    new: 9ad3c4e56941dc7b156f4169e02feddc1ac02599
