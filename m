@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Wed, 01 Sep 2021 10:39:35 -0000
-Message-Id: <163049277555.20969.226581598059717870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 01 Sep 2021 10:43:50 -0000
+Message-Id: <163049303046.23922.5685831143118802133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: a8c6f1876b08d29557ccfe7ddec3a925d135a81c
-    new: df1379ecc670f41b68deebf77ce346531460a1e3
+  - ref: refs/heads/master
+    old: 9e9fb7655ed585da8f468e29221f0ba194a5f613
+    new: ef6c8da71eaffe4e251b0ff2a1d0da96f89fe6b0
     log: |
-         52c75e1b55a451e5cc4ae2bb07d9a82e8fd0c6c7 fuse: wait for writepages in syncfs
-         df1379ecc670f41b68deebf77ce346531460a1e3 fuse: remove unused arg in fuse_write_file_get()
+         c6132f6f2e682c958f7022ecfd8bec35723a1a9d bnxt_en: Fix 64-bit doorbell operation on 32-bit kernels
+         8eebaf4a11fc78aa5662112cfaaff9fe3834a02c net: ixp46x: Remove duplicate include of module.h
+         21274aa1781941884599a97ab59be7f8f36af98c octeontx2-af: Add additional register check to rvu_poll_reg()
+         ef6c8da71eaffe4e251b0ff2a1d0da96f89fe6b0 octeontx2-pf: cn10K: Reserve LMTST lines per core
          
