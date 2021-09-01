@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1529699479425743012=="
+Content-Type: multipart/mixed; boundary="===============3700196304832047585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 01 Sep 2021 17:54:07 -0000
-Message-Id: <163051884732.16920.14395880257178552696@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 17:54:11 -0000
+Message-Id: <163051885162.16989.2615228938379370595@gitolite.kernel.org>
 
---===============1529699479425743012==
+--===============3700196304832047585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,59 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+  - ref: refs/heads/tty-next
+    old: 2e5f3a69b6fcd52a64ce3d746c6ee8390b6cabe8
     new: 835d31d319d9c8c4eb6cac074643360ba0ecab10
-    log: revlist-36a21d51725a-835d31d319d9.txt
+    log: revlist-2e5f3a69b6fc-835d31d319d9.txt
 
---===============1529699479425743012==
+--===============3700196304832047585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518846 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518850 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1630518845-f9bcaa30e9509856eddf9fe3ed5c24f94657b210
+nonce 1630518849-78c2b28224f80e0004801345fe34fbb9baa4a28d
 
-36a21d51725af2ce0700c6ebcb6b9594aac658a6 835d31d319d9c8c4eb6cac074643360ba0ecab10 refs/heads/tty-linus
+2e5f3a69b6fcd52a64ce3d746c6ee8390b6cabe8 835d31d319d9c8c4eb6cac074643360ba0ecab10 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvj4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+55kP/jNMV/5be39mm0+KptK0
-iPmnsifvLmtuqRRxN9hBe2O0cB2E4P8offAyAPJa3duBCrJn4LbEr65aM5cE/CPd
-nOQ4xIb7cfejgsCZEEwOEV4jlnmqQ3iXD8JMZGohdjB8A1K3V8rWzGehgTma+A/y
-ueDNceuyD2TRolYHSvk4l/n30WW9tnQqpgeXK2LHucpeApQaSeQuxQ/xn2R5A2am
-R0u2JRUBTIVHmvJ/io8yoqNonb4p6h7FvUG6jkwvfAdfnsLsGGkl2TN/5gIrU5SF
-hkQBKQqyP7BFqyLKNtBx96M4HP9CFZ1pm+ist9gObC2qJsbg6lsKoONpA5CFUw1y
-XRsHULO3W7l/8UuDhUQ8Q63LGe2Gx1ANS/9ajHQFjy8w0jRagD4xHhjugvZCwf4Z
-xp+OUEese6Zcj24D1CGooaKBwVSC1FfK4Gv3KXwGowQSNmS7Y43NKt5FRdLF7O8A
-n1EZrc1z4zZRRHL3deDSq0p1MWTKxpOoLfKIbtSz4VDxl7usfXI8rD6qMAXX7f7b
-kJ82nqByR4ioMbBrW30kGELbw5KPXYnNedUKu6/hz3ya6ckKP9kqLyjgiF53Dr08
-NlG17hAKZKNnzUfsPAXXb0xKUnHIa+ezeWilGlanCSD2fQ8QT6ui4TZ+E8/VyWOI
-9M1tOtAGv9f9SC3yfJnV5fHl
-=CvzW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvkIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xawQANdpbENSMjiFw4mFq9i7
+FLoH5FOp0bg6pX3hGvig08fs4Gqx/nCQ8XbVqwCXfOfvLjM6IhFaDmOT548+S9WZ
+ZKY3e25tOFFn886TU0PSfHn2LH4tqYPw8hHHgp/w9HPllh2Lq8fAGWPlznSNd5SS
+qD5xxtdRzkpycp9VYs73WJG4EcERnJM7p/SAhYQkr+IYiV9cCB63tXjdXIaqTzXm
+Rrr5Qz+IgqQnTB4DzGHvGPv0+2m7+GPn+HzNy6ZrWhRhhJoWFQs5LOvQmiy91vkN
+vj/kFQPvc7tNZuBWq6PsiEDOGOuEmJqx+yaYmbWW5nkPzFcaNgqjeYVCYkEOQ4/W
+Nfb9ODRRrI387O3UzlGumXR0WpIX6eGK/E87XcOPF3N9KOSU9lhMYC8i7f7DJXiV
+jzXwn6uPbinqEw4cjAL5kuHhaj5jnCnAVE3yooGatPKeIBmIgBdcTSriH+4dIeIT
++qJ27NwqCwq51aWeJsD8PmurZWbORtkaVeZ0VetdQ/gdIPGAux8M1ZlZfh9aqOyD
++GhZ5CM2+kq8xofzjdrtsfoThyt2DOySQwZGEfBlOVsnXd3iLl0mhs7MgvMFIYAh
+ouyMIY4zXNBS0BiFIMVtFyciC9K26f6UVxenxW8dnhMNJIcrVmvjKKEb4LDPvhce
+wP8MmEJhq1otUD1XagUqeqWl
+=LRlD
 -----END PGP SIGNATURE-----
 
---===============1529699479425743012==
+--===============3700196304832047585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36a21d51725a-835d31d319d9.txt
+Content-Disposition: attachment; filename=revlist-2e5f3a69b6fc-835d31d319d9.txt
 
+25a916645e02123ca4d0ee8a053c198033d8e61c mmc: sdhci-of-arasan: Add "SDHCI_QUIRK_MULTIBLOCK_READ_ACMD12" quirk.
+256e4e4e836ce2452f6874a1612dc3e29f512143 mmc: sdhci-of-arasan: Skip Auto tuning for DDR50 mode in ZynqMP platform
+66bad6ed2204fdb78a0a8fb89d824397106a5471 mmc: sdhci-of-arasan: Check return value of non-void funtions
+462f58fdb8c0277a49c01831bf4dc8405c37ddaf mmc: sdhci-of-arasan: Use appropriate type of division macro
+4dd7080a78925ff293f1ded598b2010bd4ed3729 mmc: sdhci-of-arasan: Modify data type of the clk_phase array
+5c7e468ab17fe9cc9ce94a6fdef635d5289a8095 mmc: arasan: Fix the issue in reading tap values from DT
+1a769fb66420289d3787272ca39ea6c204b58f5d dt-bindings: mmc: sdhci-msm: Add compatible string for sc7280
+2fc2628a450901069f552ccbe170e6bc56d0458d mmc: renesas_sdhi_sys_dmac: use proper DMAENGINE API for termination
+492200f2479d08ac4dddd8a9d59a28b9227a0310 mmc: sh_mmcif: use proper DMAENGINE API for termination
+29cef6d47b67c5408d816a6268763bf4dafcac4e mmc: usdhi6rol0: use proper DMAENGINE API for termination
+575cf1046923690c1821cd33c55dc641937404cf mmc: mmci: De-assert reset on probe
+696068470e38e4bd710c1dea5f0a2a835daf9388 mmc: mmc_spi: Simplify busy loop in mmc_spi_skip()
 2b8ac062f33781edbefb482c6abebfde6b373eed mmc: dw_mmc: Add data CRC error injection
 972d5084831dc9ae30f1a4b66cb4a19fb7ba6f09 mmc: core: Avoid hogging the CPU while polling for busy in the I/O err path
 468108155b0f89cc08189cc33f9bacfe9da8a125 mmc: core: Avoid hogging the CPU while polling for busy for mmc ioctls
@@ -563,16 +575,6 @@ d287801c497151a44e5577fb3bbab673fe52e7b0 Merge series "Use raw spinlocks in the 
 11a08e05079a9328023d236b82bd7981bcde0852 ASoC: mediatek: mt8195: Fix spelling mistake "bitwiedh" -> "bitwidth"
 26cfc0dbe43aae60dc03af27077775244f26c167 spi: spi-zynq-qspi: use wait_for_completion_timeout to make zynq_qspi_exec_mem_op not interruptible
 ca5537c9be13c205492e704c5a3016f54b2fefec Merge remote-tracking branch 'regmap/for-5.15' into regmap-next
-322003b907d6c74d16154091bca492a2b2829ac0 tty: moxa: use semi-colons instead of commas
-2285c496392979c9ac9d84e19a313ee9212d9b62 mxser: use semi-colons instead of commas
-d5c38948448abc2bb6b36dbf85a554bf4748885e tty: serial: fsl_lpuart: fix the wrong mapbase value
-48422152a8f1c290f74d8fb16ec6c77a1263834c tty: serial: fsl_lpuart: enable two stop bits for lpuart32
-bd5305dcabbc208560521bc0617f0a82715e41c9 tty: serial: fsl_lpuart: do software reset for imx7ulp and imx8qxp
-fa934fc1a8679f0704dddaefb6946c3da26c58a5 tty: serial: linflexuart: Remove redundant check to simplify the code
-618bf2b04bd6a903a9ebf0edb8d1700ba9a1a6da serial: 8250_ingenic: Use of_device_get_match_data
-a6a65f9ee0937d02e8084ee1ed305e38aae848e6 serial: tegra: Use of_device_get_match_data
-74d2fb7e708433b7397d9647ea7ec1cbcb0ae379 serial: vt8500: Use of_device_get_match_data
-bb2853a6a421a052268eee00fd5d3f6b3504b2b1 tty: Fix data race between tiocsti() and flush_to_ldisc()
 023a3f3a1c4f9be9cc1ae92579ba816120fb5807 ASoC: rockchip: spdif: Mark SPDIF_SMPDR as volatile
 acc8b9d117912c2d5952868fba0d4fca49cde3c8 ASoC: rockchip: spdif: Fix some coding style
 c5d4f09feb9f74e704d87a304f0c20001488fe10 ASoC: rockchip: spdif: Add support for rk3568 spdif
@@ -803,8 +805,6 @@ f8cefead37ddc111786b14da73286204eb8509b5 char: mware: fix returnvar.cocci warnin
 a30dc6cf0dc51419021550152e435736aaef8799 VMCI: fix NULL pointer dereference when unmapping queue pair
 a99009bc4f2f0b46e6c553704fda0b67e04395f5 misc/pvpanic: fix set driver data
 885814a97f5a1a2daf66bde5f2076f0bf632c174 Revert "mmc: sdhci-iproc: Set SDHCI_QUIRK_CAP_CLOCK_BASE_BROKEN on BCM2711"
-3620a89b7d27138c716e5cf537a0bf6606a3a1b3 tty: serial: uartlite: Use constants in early_uartlite_putc
-2e5f3a69b6fcd52a64ce3d746c6ee8390b6cabe8 tty: serial: uartlite: Use read_poll_timeout for a polling loop
 a75c956162978097c0a60d95971c97ae486a68d7 Merge branch 'fixes' into next
 b18a1a4574d2d15f1b0c84658d4549ccbf241fee io_uring: clarify io_req_task_cancel() locking
 90499ad00ca59320b5bb43392b7931e1bd84cad2 io_uring: add build check for buf_index overflows
@@ -1082,4 +1082,4 @@ ea7b4244b3656ca33b19a950f092b5bbc718b40c x86/setup: Explicitly include acpi.h
 0d290223a6c77107b1c3988959e49279a8dafaba Merge tag 'sound-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 835d31d319d9c8c4eb6cac074643360ba0ecab10 Merge tag 'media/v5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============1529699479425743012==--
+--===============3700196304832047585==--
