@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7972365842293547056=="
+Content-Type: multipart/mixed; boundary="===============8304302793962282196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 01 Sep 2021 17:22:50 -0000
-Message-Id: <163051697028.5848.17894915952365628871@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 17:22:54 -0000
+Message-Id: <163051697443.5928.17611098249369358341@gitolite.kernel.org>
 
---===============7972365842293547056==
+--===============8304302793962282196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 4adb389e08c95fdf91995271932c59250ff0d561
     new: ebf435d3b51b22340ef047aad0c2936ec4833ab2
     log: revlist-4adb389e08c9-ebf435d3b51b.txt
 
---===============7972365842293547056==
+--===============8304302793962282196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630516969 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630516973 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1630516968-c9db3abebb4cbe3668a5bcfd19725102b6d85837
+nonce 1630516972-589483330d1dc417a7132013d0c08ed9224f6337
 
-4adb389e08c95fdf91995271932c59250ff0d561 ebf435d3b51b22340ef047aad0c2936ec4833ab2 refs/heads/staging-next
+4adb389e08c95fdf91995271932c59250ff0d561 ebf435d3b51b22340ef047aad0c2936ec4833ab2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvtukbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zsQP/RPed7ttu7cInKlmO29C
-snWNOnY7pqCTTL7w4J5VogdcPXPDQISuEpbDJjCt2eoo5hHexq7gM91MVE7VXEjq
-UZxrGjIxtNwLv64wAn/sUmIAbUDDlXlxshnfwyE3jG9xLpcRc/2O/xcGbxpQ3bi6
-d6FhiFxVe90OvdPKb/oBQHBbrJg5UwD+ygoQ3vqygvhqvD6KEyF5jrptgETwjS3Y
-/rEm/Zf4LlmHrQSuasX8mK3dzYywCwfv84W9fABFi4eEyOvtSkd4npRPU7+Uiwyx
-3Vl+dhYRhfWksdtrYeecwTuTG1HapkOPz3H8uV3uieoob01C/I+mZCrREfd+wO2B
-ECi6L9nZo8M3A73ykpFzrCqkjju7mN+nhtwwIIfqrfUe6ij94cAJygi1aF4ArGFw
-m0G6NpWMlJWVMFoLK1c6gky8aBJhjVIvT48TcQMyF7H0ZS6e0vRWXEdJBeSOTAJl
-azu4pXsbxchIaqT4++2w2j++tqMJL41iKK44H4LJfaPvR6kdU7JgnR9uBH0QG/Gg
-aeHkOBcrrEYQjJm7w8qciFphe35ivo4K1lyLrTRFHnwBOrVlb0B3oObD1XmcvfnN
-eCBSMT+XbZk+XLweA5/XpA7UBwq4PTox/WSl8csfmiyEmd77lI/tNIqIJG0rZA/5
-Q41OecgSPDMFbN2qWO+mGm4d
-=g6T4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvtu0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VxwP/103IJoONByfD6sBh/1t
+AmbgJrLs5IwXbwyzjtnMD8QiJJzr0ngUlm3ErXmd+K3+wmrcbolDhKSPaMFjvtiZ
+tR48Ov72ItK2lTnRvjU5yH9APT2cHhJYQP7vDMsejObXFDXKWjwhgoNnEvbLVPUl
+sF0YjOfdZb7zUDhgL9vZ8MrrpyTMvtYY65lCPcAE5WmSD7u+WnQJEvccmOmw4JOB
++h7yMSqgQWBIA9UF/5oyYuNnQTeSiG1tYi/3xuCPz8DuP78VAmG6gR5bR9QnHHEC
+pKBKbQ95+iaLpzVUoDolJRa/Vvnyo6mTZuhvtcn3VeIXR7ABssWEYB9JA474iUHW
+HxoiazdV4W5koqvrsXA+ljc0odKP+PxCMzXoiP7ypy3o15c6ykwNGgq235p7ce4U
+g+HhDM1A+HNi/pEwowDH2SP1D1SPAx79SazJjDIeXOTvzGC4/OYBd2S8W8A6hc1o
+196QgrAaKWptgCWrtFAbsWQKjTISZ9aFAz2FxITFb29LnADsxhEg7CwNOoKbfUgz
+OqWt+85GxXExJyE30uEKJKoYsxExZpm10AiY9a/PfqPBYA4ayU3ouyBZn+gWgxWj
+xiacvuxGrY1V8rHqelf6KuTqfLq4HOwuFtT1SaO+QAJ3B0NeYSRVEB1Ejq34/hqz
+a+092ULxLWsQvB4WPk6iYG8o
+=Ahwl
 -----END PGP SIGNATURE-----
 
---===============7972365842293547056==
+--===============8304302793962282196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ ba1dc7f273c73b93e0e1dd9707b239ed69eebd70 Merge tag 'char-misc-5.15-rc1' of git:/
 c6c3c5704ba70820f6b632982abde06661b7222a Merge tag 'driver-core-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 ebf435d3b51b22340ef047aad0c2936ec4833ab2 Merge tag 'staging-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 
---===============7972365842293547056==--
+--===============8304302793962282196==--
