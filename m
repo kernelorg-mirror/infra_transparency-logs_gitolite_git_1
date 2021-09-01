@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4204569035276275898=="
+Content-Type: multipart/mixed; boundary="===============7972365842293547056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 01 Sep 2021 17:22:45 -0000
-Message-Id: <163051696598.5780.12179416243924702580@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 17:22:50 -0000
+Message-Id: <163051697028.5848.17894915952365628871@gitolite.kernel.org>
 
---===============4204569035276275898==
+--===============7972365842293547056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,106 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 7c60610d476766e128cc4284bb6349732cbd6606
+  - ref: refs/heads/staging-next
+    old: 4adb389e08c95fdf91995271932c59250ff0d561
     new: ebf435d3b51b22340ef047aad0c2936ec4833ab2
-    log: revlist-7c60610d4767-ebf435d3b51b.txt
+    log: revlist-4adb389e08c9-ebf435d3b51b.txt
 
---===============4204569035276275898==
+--===============7972365842293547056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630516964 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630516969 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1630516964-9d11a5e7d82be24a2b36dde47bd3079067a4d4b7
+nonce 1630516968-c9db3abebb4cbe3668a5bcfd19725102b6d85837
 
-7c60610d476766e128cc4284bb6349732cbd6606 ebf435d3b51b22340ef047aad0c2936ec4833ab2 refs/heads/staging-linus
+4adb389e08c95fdf91995271932c59250ff0d561 ebf435d3b51b22340ef047aad0c2936ec4833ab2 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvtuQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M1MQAMWH6BLaqrVZLABFqCO3
-3XSpAoNaZwa5d9cAUScqVEVKaVsbZyibYBN1Xt4mcn+Ku2QZXvenwx+vWqyMIRoT
-5ymc1OMKvrPLe8jXa8GSQKEpNbV+7c0PRL+WGPbmGdZV16cuq+Ib2HMqYe6qnHV5
-vljxu19zC1ENDjTsofWTCIuP/o9Cc8bseY17A8FH/s8Xr0Qy1VpJaN3giyC42zx7
-15xZq2gD3rLgqNT5Ija2YnF2Dz4/Sdyq0HWE1w50VHC15p93GWAHHj7HzTCAnSSe
-W0TjilHkJmCeQdJ02VlCGtIPvvUQHzwMtARE9i7Fxda6D1QLjw2WvuRpbyxlChmQ
-DI6Ax54rUzYuIN4V72t282SE3fRk2+IF7N+FG16/1CMJoAeU4tCCP66QrRWJu9eK
-47bCd6pGK+mDHs06Afhx3YNL0YlgkKHjKXhWf9qiNcKONWvm/dddR2e9NcRw9Gn2
-/vPlKvaPSA8npX6WlL8Emb1QLLim0fV2BTZxSVemTP4+cCGgFQ67F3C9zYYV4e8d
-ZBqzxUPcRt7xYzuxbgaehJRPms5W3HBWeiKB2bmu/Vu6PjyLLusSMAIEkwt6gdBU
-AW511wJnqJGLD9jWJFJ6fiGyBOwSnm6/sxHXsWXINcfV5LUq9/N1G2/ifENWbcAK
-UQGdTGZsLa9XLBSDnQTvssHQ
-=qqT6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvtukbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zsQP/RPed7ttu7cInKlmO29C
+snWNOnY7pqCTTL7w4J5VogdcPXPDQISuEpbDJjCt2eoo5hHexq7gM91MVE7VXEjq
+UZxrGjIxtNwLv64wAn/sUmIAbUDDlXlxshnfwyE3jG9xLpcRc/2O/xcGbxpQ3bi6
+d6FhiFxVe90OvdPKb/oBQHBbrJg5UwD+ygoQ3vqygvhqvD6KEyF5jrptgETwjS3Y
+/rEm/Zf4LlmHrQSuasX8mK3dzYywCwfv84W9fABFi4eEyOvtSkd4npRPU7+Uiwyx
+3Vl+dhYRhfWksdtrYeecwTuTG1HapkOPz3H8uV3uieoob01C/I+mZCrREfd+wO2B
+ECi6L9nZo8M3A73ykpFzrCqkjju7mN+nhtwwIIfqrfUe6ij94cAJygi1aF4ArGFw
+m0G6NpWMlJWVMFoLK1c6gky8aBJhjVIvT48TcQMyF7H0ZS6e0vRWXEdJBeSOTAJl
+azu4pXsbxchIaqT4++2w2j++tqMJL41iKK44H4LJfaPvR6kdU7JgnR9uBH0QG/Gg
+aeHkOBcrrEYQjJm7w8qciFphe35ivo4K1lyLrTRFHnwBOrVlb0B3oObD1XmcvfnN
+eCBSMT+XbZk+XLweA5/XpA7UBwq4PTox/WSl8csfmiyEmd77lI/tNIqIJG0rZA/5
+Q41OecgSPDMFbN2qWO+mGm4d
+=g6T4
 -----END PGP SIGNATURE-----
 
---===============4204569035276275898==
+--===============7972365842293547056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c60610d4767-ebf435d3b51b.txt
+Content-Disposition: attachment; filename=revlist-4adb389e08c9-ebf435d3b51b.txt
 
+3bc71ba02cf5376b390289bef8c9f5d6049f1866 btrfs: allow idmapped permission inode op
+5474bf400f16bd1f930627ea65b698bca09dcfc6 btrfs: check whether fsgid/fsuid are mapped during subvolume creation
+4d4340c912ccc351da5578f73c68f1109dcc8e2d btrfs: allow idmapped SNAP_CREATE/SUBVOL_CREATE ioctls
+c4ed533bdc7960873ab0258a4d18569061b4b0b4 btrfs: allow idmapped SNAP_DESTROY ioctls
+aabb34e7a31c608dd7c00db9ad320e05941a39d0 btrfs: relax restrictions for SNAP_DESTROY_V2 with subvolids
+e4fed17a32b6b1017ff2fb4cd73938abeeadd907 btrfs: allow idmapped SET_RECEIVED_SUBVOL ioctls
+39e1674ff0351f6a47d3105e51bb1f9c72b3f20e btrfs: allow idmapped SUBVOL_SETFLAGS ioctl
+6623d9a0b0ce340d3e4dc4b18705ad212a49677a btrfs: allow idmapped INO_LOOKUP_USER ioctl
+4a8b34afa9c94c180d16999e405d380cc0477369 btrfs: handle ACLs on idmapped mounts
+5b9b26f5d0b88b74001dcfe4ab8a8f2f4e744112 btrfs: allow idmapped mount
+8be2ba2e0e11ade6ab96d8887dbb12abbd3540f4 btrfs: avoid unnecessarily logging directories that had no changes
+3736127a3aa805602b7a2ad60ec9cfce68065fbb btrfs: tree-log: check btrfs_lookup_data_extent return value
+93c60b17f2b5fca2c5931d7944788d1ef5f25528 btrfs: reduce the preemptive flushing threshold to 90%
+114623979405abf0b143f9c6688b3ff00ee48338 btrfs: do not do preemptive flushing if the majority is global rsv
+939c7feb19217c752a4b368d35aae1ed98f40b61 btrfs: zoned: fix ordered extent boundary calculation
+87d93029fe83e326d5b906e12e95600b157d2c0d m68k: Fix asm register constraints for atomic ops
+58bc6d1be2f3b0ceecb6027dfa17513ec6aa2abb udf_get_extendedattr() had no boundary checks.
+7a141e64cf14099d84e530db0e86fcb2c489e341 net: usb: asix: ax88772: move embedded PHY detection as early as possible
+1406e8cb4b05fdc67692b1af2da39d7ca5278713 net: usb: asix: do not call phy_disconnect() for ax88178
+14315498f5d373097d5082c27c7f764923ec1796 Merge branch 'asix-fixes'
+43dde64bb1b45c7e4194f4ae30cf16c37bc317e0 Merge back cpufreq changes for v5.15.
+1f8b66d9654b21ec227a7884bcf739c70d9d27a7 Merge branch 'opp/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm into pm-opp
+b708a96d76462614123f4e8a8bb030889ab43ba4 via-rhine: Use of_device_get_match_data to simplify code
+f6a4e0e8a00ff6fadb29f3646ccd33cc85195a38 via-velocity: Use of_device_get_match_data to simplify code
+0d977e0eba234e01a60bdde27314dc21374201b3 btrfs: reset replace target device to allocation state on close
+ea6942dad4b2a7e1735aa0f10f3d0b04b847750f soundwire: intel: fix potential race condition during power down
+e4401abb3485d78eb7987866a4b834f94bb60d90 soundwire: intel: skip suspend/resume/wake when link was not started
+029bfd1cd53cd8ba896a676e5c1bcf6cd0100d3c soundwire: intel: conditionally exit clock stop mode on system suspend
+2564a2d4418bac166a9db2d6ca2f8b99953b1df5 soundwire: cadence: do not extend reset delay
+d359902d5c357b280e7a0862bb8a1ba56b3fc197 af_unix: Fix NULL pointer bug in unix_shutdown
+8d00f9819458b95301e274c6df705df2963ba34f spi: rockchip-sfc: Remove redundant IO operations
+745649c59a0d1fde9dcc02286f23f8c78a1f724d spi: rockchip-sfc: Fix assigned but never used return error codes
+d5ae8d7f85b7f6f6e60f1af8ff4be52b0926fde1 Revert "media: dvb header files: move some headers to staging"
+847fdae1579f4ee930b01f24a7847b8043bf468c char: tpm: Kconfig: remove bad i2c cr50 select
+6824f8554a98cba516c3bfd5f9064d7ba0501644 char: tpm: cr50_i2c: convert to new probe interface
+ea35e0d5df6c92fa2e124bb1b91d09b2240715ba certs: Trigger creation of RSA module signing key if it's not an RSA key
+a4aed36ed5924a05ecfadc470584188bfba2b928 certs: Add support for using elliptic curve keys for signing modules
+047d4226b0bca1cda5267dc68bc8291cce5364ac tpm: ibmvtpm: Avoid error message when process gets signal while waiting
+2dc6f19e4f438d4c14987cb17aee38aaf7304e7f nlm: minor nlm_lookup_file argument change
+a81041b7d8f08c4e1014173c5483a0f18724a576 nlm: minor refactoring
+b661601a9fdf1af8516e1100de8bba84bd41cca4 lockd: update nlm_lookup_file reexport comment
+f985911b7bc75d5c98ed24d8aaa8b94c590f7c6a crypto: public_key: fix overflow during implicit conversion
+fd07a4a0d30b5468a1f4a0739e34f5f014df7d44 EDAC/skx_common: Set the memory type correctly for HBM memory
+2294a7299f5e51667b841f63c6d69474491753fb EDAC/i10nm: Fix NVDIMM detection
+cf4e6d52f58399c777276172ec250502e19d5e63 EDAC/i10nm: Retrieve and print retry_rd_err_log registers
+5f432cceb3e9de5223fa50d882c4a43cab39a3ee nvme: use blk_mq_alloc_disk
+45938335d0a9773d65a82a7ca722bb76e4b997a8 st: do not allocate a gendisk
+aebbb5831fbd5352fd9bd2c858bc249026d3c652 sg: do not allocate a gendisk
+4dcc4874deb41a11ece9c6e8858385235463c1ac block: cleanup the lockdep handling in *alloc_disk
+9c2b9dbafc067e173db30c4fd0636392d27944e8 block: remove alloc_disk and alloc_disk_node
+a58bd7683fcb60ae24c8572f932b48bc65719b7c block: remove the minors argument to __alloc_disk_node
+4a1fa41d304c7129328d4d5c7f31715b95e23b29 block: pass a request_queue to __blk_alloc_disk
+61a35cfc26334fe1c8e970ca8fafeae2daae257d block: hold a request_queue reference for the lifetime of struct gendisk
+d152c682f03ceb65c0d9663d4ba6ee2d46aa784d block: add an explicit ->disk backpointer to the request_queue
+40b3a52ffc5bc3b5427d5d35b035cfb19d03fdd6 block: add a sanity check for a live disk in del_gendisk
+52b85909f85d06efa69aaf4210e72467f1f58d2b block: fold register_disk into device_add_disk
+8235b5c1e8c1c0537f03a21a2e380098bed25248 block: call bdev_add later in device_add_disk
+9d5ee6767c85762205b788ed1245f21fafd6c504 block: create the bdi link earlier in device_add_disk
+bab53f6b617d9f530978d6e3693f88e586d81a8a block: call blk_integrity_add earlier in device_add_disk
 75f4dca59694dfe288ae6a48d7b147b60d11c95c block: call blk_register_queue earlier in device_add_disk
 614310c9c8ca15359f4e71a5bbd9165897b4d54e block: return errors from blk_integrity_add
 92e7755ebc69233e25a2d1b760aeff536dc4016b block: return errors from disk_alloc_events
@@ -537,19 +596,12 @@ ad31393b98e4addbc5f1ccc484bfbb8d07c92056 ieee80211: add definition for transmit 
 b0345850ad770c5164bf6d4a0aa0c40ef2419cb0 mac80211: parse transmit power envelope element
 662b932915f7f407784abec971a21273a82191b2 Merge tag 'usb-serial-5.14-rc8' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 92ea47fe09b531642e5b791d74645a6f08b23725 Merge tag 'linux-can-fixes-for-5.14-20210826' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-89b9f3f39a088a7a0f833621dc62acb201a37ac5 staging: r8188eu: fix scheduling while atomic bugs
-55cdf7d7b2a187d0c2bcf11ed70e2eeb192713da staging: r8188eu: use GFP_ATOMIC under spinlock
-6277fbfdd29ca2fbf5da33e3931087b5356c770b staging: wlan-ng: Remove pointless a3/a4 union
-86a0727b096dfeb90c10e74b4d6e70c1c237b29a staging: wlan-ng: Avoid duplicate header in tx/rx frames
 56c8a53b6280732a6e8ae386eec09ca97c9c5373 ionic: remove old work task types
 b941ea057177daf7dd661959803f351808754e6e ionic: flatten calls to set-rx-mode
 969f843946041a8ac10a5af06127a68ab7880ad5 ionic: sync the filters in the work task
 8b41517313e571344a116cb75f8fc994c5447ffb ionic: refactor ionic_lif_addr to remove a layer
 a0c007b3f6455641c5ba7fb5c474401d82387121 ionic: handle mac filter overflow
 b13cead1eca5d8f26eda6c85fb0d6f618f154cdb Merge branch 'ionic-next'
-30e98ce81bbb51f78134dbeca232f1d4ab215434 staging: r8188eu: remove unneeded semicolon
-fbdbd861c8be66dc6d87f3bdeaec41d7a8efde9a staging: r8188eu: remove unused function rtw_add_bcn_ie()
-a69bbd2f77a6e26b2b1c3d7fcc5c715169dc01c5 staging: r8188eu: remove unused function rtw_remove_bcn_ie()
 366e7ad6ba5f4cb2ffd0b7316e404d6ee9c0f401 sched/fair: Mark tg_is_idle() an inline in the !CONFIG_FAIR_GROUP_SCHED case
 90bd5bee50f2a209ba66f013866959a56ff400b9 cfg80211: use wiphy DFS domain if it is self-managed
 4785305c05b25a242e5314cc821f54ade4c18810 ipv6: use siphash in rt6_exception_hash()
@@ -562,47 +614,6 @@ a423cbe0f21353ac1e63aad037fd5ccf446440bc Merge branch 'dsa-hellcreek-fixes'
 5e8243e66b4d80eeaf9ed8cb0235ff133630a014 octeontx2-pf: cn10k: Fix error return code in otx2_set_flowkey_cfg()
 723783d077e39c256a1fafebbd97cbb14207c28f sock: remove one redundant SKB_FRAG_PAGE_ORDER macro
 8b325d2a099e6fa0f3e1113fc1e7b590360594fa Merge tag 'mac80211-next-for-net-next-2021-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211-next
-7d761b084b3c785e1fbbe707fbdf7baba905c6ad staging: mt7621-pci: fix hang when nothing is connected to pcie ports
-174ac41a7aafb31041cba3fe54ccd89b9daeef5d staging: rtl8723bs: remove obsolete wext support
-fafb8a21a5c9b899b251994332da1eae01bf44ef staging: rtl8723bs: fix code indent issues
-105bc6b94f0587f1d37c5f3581f94455a2e52722 staging: rtl8723bs: fix logical continuation issue
-b516456cedb66439f33c8878f73bf5dad0223471 staging: rtl8723bs: remove functions notifying wext events
-07abf8b41eaf28ea6e342730b91d5a62fa914431 staging: rtl8723bs: remove unused rtw_set_802_11_bssid() function
-7dfe9fac786769e1a49fa350158d39b4fef237ba staging/rtl8192u: Avoid CamelCase in names of variables
-c4b30776bf2941e0d17d3f164e54e553b2456888 staging/rtl8192u: Initialize variables in the definition block
-07e7f36da8abb4563d145399270c0b92f8d79ff7 staging/rtl8192u: Prefer kcalloc over open coded arithmetic
-9bfb54a8c88e025b9ae1fe19afd6500a206dbba5 staging: rtl8723bs: remove header file ethernet.h
-65945da601e816875426b5866746ced4acbc85e6 staging: r8188eu: remove unnecessary cast
-74f64654ecd22f8e29580f93435406622c90d975 staging: r8188eu: remove unused define
-805ac0da01f867d5b3412a77110e970063f698c0 staging: rtl8188eu: use actual request type as parameter
-f410923ad5f577d08bad22bdb11d9660a2a75d25 staging: r8188eu: rewrite usb vendor request defines
-2214ea8299f5dcf1201521ab527b750ec53fbba8 staging: r8188eu: remove an unused enum
-0d3e1be506dda7a0a3d43fad4d943cfbfabadd39 staging: r8188eu: clean up the usb_readXY functions
-e8baed3c765e0f88f4107c52a3505f52d174b41f staging: r8188eu: clean up the usb_writeXY functions
-22d0d6104e4d6c7d86ade11888422762db15ab75 staging: r8188eu: clean up the usb_writeN
-f7231a04e4f12757ca46d99dd6e7b71deea25300 staging: r8188eu: remove unused members of struct _io_ops
-5598e47a79b4300ba3ff2a8c7f44a4f8ed4af20d staging: r8188eu: set pipe only once
-2d29f81ce82208626f4278d6aa9faa5547c5bf02 staging: r8188eu: Fix a resource leak in update_bcn_wps_ie
-e92e5f30ad320474346bfd5884cf170ad8c88968 staging: r8188eu: change declaration of Efuse_Read1ByteFromFakeContent
-6ca88cb5e8478e6694b4cccfb2d331435d5bb77c staging: r8188eu: Make mult-byte entities in dhcp header be big endian
-8d82693b0b562086935d23b55877d007b03c532a staging: r8188eu: remove cmd_osdep.h header file
-3eaa30d1623e109143c2e30b5738720c1816b851 staging: r8188eu: remove 5 GHz code
-f9f72f7f722e32d8f5645e53c1ca90347dedc95c staging: r8188eu: remove dead code
-2a3afb168ea7002884ce7e56f5c2e061420a3bcf staging: r8188eu: remove unnecessary parentheses
-8aa824f2ec1b66fdbf7e5b87e519bced35a35114 staging: r8188eu: ensure proper alignment for eth address buffers
-08cff18916f5a1d918a902d1f8fe1ef76c2520d4 staging: r8188eu: use is_multicast_ether_addr in core/rtw_mlme.c
-129f4197f22d407d47d05babb538bef7339c6cdb staging: r8188eu: use is_multicast_ether_addr in core/rtw_mp.c
-d0624c3379a17b9c6c267378831cdaa60c0af835 staging: r8188eu: use is_multicast_ether_addr in core/rtw_recv.c
-2d4fe65101b5216838c1d92e6c39a150fc72c837 staging: r8188eu: use is_multicast_ether_addr in core/rtw_security.c
-544984a774f2802c928c92358106f9863fe112ab staging: r8188eu: use is_multicast_ether_addr in core/rtw_xmit.c
-0b704920fba990ad6d0e731f315c71a2422d02cb staging: r8188eu: use is_multicast_ether_addr in hal/rtl8188eu_xmit.c
-bd5f258affb124a5bd9d3be94628951b0a8a14c6 staging: r8188eu: use is_multicast_ether_addr in os_dep/recv_linux.c
-f228d1d50904e6a9ac91560578b935b1d853122b staging: r8188eu: make rtw_deinit_intf_priv return void
-68ad97bc5a1b9b5b2c3717ae8c5ca1071d3a88f5 staging: r8188eu: remove if_ether.h header file
-f09dc911bd26c26bee20e349eb19eaf861c27aab staging: r8188eu: remove ip.h header file
-f7766f1b0030e7af179a5e75df52838268102fab staging: r8188eu: remove ethernet.h header file
-3f60c32f15b0d2956074d684526b128505be0bb7 staging: r8188eu: core: remove condition with no effect
-ce6a7007048b0abcf263a2b43a63d18614802e53 staging: r8188eu: remove {read,write}_macreg
 9af771d2ec044ffc19192711ac29f1d5c31dc181 selftests/net: allow GRO coalesce test on veth
 4b33433ee734661e5d50851f9bbe7934fc2b1928 r8169: add rtl_enable_exit_l1
 bc8e05d6b9658b6b59cb770d981064244cdc574b ptp: ocp: Simplify Kconfig.
@@ -772,8 +783,6 @@ de79d9aae493a29d02926f396a4fd1a1309436fc crypto: x86/sm4 - export reusable AESNI
 cedcf527d59bcca5f87f52ea34a157bbc6e7a3a8 padata: Remove repeated verbose license text
 72ff2bf04db2a48840df93a461b7115900f46c05 crypto: aesni - xts_crypt() return if walk.nbytes is 0
 6ae51ffe5e768d9e25a7f4298e2e7a058472bcc3 crypto: sha512 - remove imaginary and mystifying clearing of variables
-62dbd849e03ce2cb2fb605ed7a6ca93b42cc99f4 staging: r8188eu: remove unneeded conversions to bool
-7990b535d2987201187d750f809ed17b502eb608 staging: r8188eu: remove unneeded variable
 d0efb16294d145d157432feda83877ae9d7cdf37 net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
 049d1693db78144c979b34e2084287ada912cf7f MAINTAINERS: Add dri-devel for component.[hc]
 5fe2a6b4344cbb2120d6d81e371b7ec8e75f03e2 Merge tag 'mlx5-fixes-2021-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
@@ -810,11 +819,6 @@ b31eea2e04c1002e5cb864eefdc718b70d2cb08c efi: Don't use knowledge about efi_guid
 4baf0e0b329874ec5e85480f53851b5f05a7ae58 um: vector: adjust to coalesce API changes
 75432ba583a8a374b8d1ad2d3ba559a78f7454fc usb: gadget: f_uac2: fixup feedback endpoint stop
 068fdad20454f815e61e6f6eb9f051a8b3120e88 usb: gadget: u_audio: fix race condition on endpoint stop
-71419e03d85ff3e46b3c61238bd1e369f313c280 staging: r8188eu: Provide a TODO file for this driver
-a01b0006de7632656b2711b67c1d59b76af4d6a2 staging: r8188eu: rename struct field Wifi_Error_Status
-9f30a2312c0b6d19f444903491ff794ad40b6009 staging: r8188eu: rename fields of struct dyn_primary_cca
-9f801ac94d8b6613174a1bafdac684a1c05646ba staging: r8188eu: remove ODM_DynamicPrimaryCCA_DupRTS()
-f6bc526accf861728d36b12fbc25ac94cd057fc9 staging: r8188eu: rename fields of struct rtl_ps
 0be883a0d795d9146f5325de582584147dd0dcdc parport: remove non-zero check on count
 f8cefead37ddc111786b14da73286204eb8509b5 char: mware: fix returnvar.cocci warnings
 a30dc6cf0dc51419021550152e435736aaef8799 VMCI: fix NULL pointer dereference when unmapping queue pair
@@ -865,10 +869,6 @@ c7483d823ee0da31e42d32e51a752f667a059735 Documentation: Replace deprecated CPU-h
 0975d8b4bfa011b2943c53d3c169277f5e3cf799 Merge branch 'bnxt-add-rx-discards-stats-for-oom-and-netpool'
 0d55649d2ad7296acfda9127e1d05518d025734a net: phy: marvell10g: fix broken PHY interrupts for anyone after us in the driver probe list
 49b99da2c9ce13ffcd93fe3a0f5670791c1d76f7 ipv6: add IFLA_INET6_RA_MTU to expose mtu value
-65bbdabe2a27a4f46387a3b6976d2355d67f9706 staging: wlan-ng: fix invalid assignment warning
-e1e0ee8ed2b0e95df46785a98118465de880137e staging: vt6656: Remove filenames in files
-6506cd9f3ae9c9777a581b309f2ca1a215128fbf staging: r8188eu: add extra TODO entries
-4adb389e08c95fdf91995271932c59250ff0d561 staging: vt6655: Remove filenames in files
 c7e9d0020361f4308a70cdfd6d5335e273eb8717 Revert "floppy: reintroduce O_NDELAY fix"
 0fc36e37d5c0e940d6347e8c10a9fe2d8d5b0074 net: hns3: add trace event in hclge_gen_resp_to_vf()
 e1d93bc6ef3bf497675f9ac2b35b79c48577b970 net: hns3: refactor function hclge_parse_capability()
@@ -1082,4 +1082,4 @@ ba1dc7f273c73b93e0e1dd9707b239ed69eebd70 Merge tag 'char-misc-5.15-rc1' of git:/
 c6c3c5704ba70820f6b632982abde06661b7222a Merge tag 'driver-core-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 ebf435d3b51b22340ef047aad0c2936ec4833ab2 Merge tag 'staging-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 
---===============4204569035276275898==--
+--===============7972365842293547056==--
