@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8007190498084818311=="
+Content-Type: multipart/mixed; boundary="===============8620238437417887727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Sep 2021 17:55:47 -0000
-Message-Id: <163051894743.19243.8361515959187327829@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 17:55:51 -0000
+Message-Id: <163051895185.19311.11489264408116267361@gitolite.kernel.org>
 
---===============8007190498084818311==
+--===============8620238437417887727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 049d1693db78144c979b34e2084287ada912cf7f
     new: 835d31d319d9c8c4eb6cac074643360ba0ecab10
     log: revlist-049d1693db78-835d31d319d9.txt
 
---===============8007190498084818311==
+--===============8620238437417887727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518946 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518950 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1630518945-b3afc9db5608cf252b48e44feb3cc3dbc4c8655d
+nonce 1630518949-54bbb14c707eb498f0d45b3e9d9f81fe69c1c8ab
 
-049d1693db78144c979b34e2084287ada912cf7f 835d31d319d9c8c4eb6cac074643360ba0ecab10 refs/heads/driver-core-next
+049d1693db78144c979b34e2084287ada912cf7f 835d31d319d9c8c4eb6cac074643360ba0ecab10 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvqIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k54P/1eiAy+nSRLgPNGyG0Mz
-XYpUMqxPFnA6LpAGI4CzpIb3VhpcpN/5TzZslKuNkPfKH7aOJYP02tinuQCuZhr1
-u1IPQWyoa7MTRkLGaSUliZNddCz8V6iFqijJXxqEY5TnK3dydq8jntKZfQgP50x9
-lRJMkJ0x40Bgehp9Ud+NS61q4vSxVjuKmckzxD9upFjqntgwOZDiWrlp56HiFgTB
-hWYnc5kTT1GqQR5rkjn8wX0aNJAh+U0eyCQjfgwZq7CPP+OfKk2dx/pWczYw/3bx
-lL6R7JA/xmQOzeOaeC9oXhSIYWVkzilevm00hmvLokikC4jGqRVJ6bz3Q0TRMeOE
-V19koINDlSnlDZVYtXe7inoUv/xUj65+vReBk8euqFyZwqBfz2hqoMHGNzNlGxkx
-Vcqrqy3OAwdH8EfQO1HpBj/bLWs4q9ZOZRVmtg+kH3A2pl7XDdf8bkvvOJCoqlKB
-ermSLCdiktbRQM6Hi/a8e8vz6NoAl7dB+VoIlFxJkTW5JblSswwlPOsHf/k76HSO
-NktibgDFmhj+mVJL8k+XpTB8AZUQtTsTrRoYJpwqFEVogAXXNLsJlleQD82z+Fg7
-8E8Om8BE4ZNDWK0ULxL29yONPqDNcFKW/WvOboscY98wRLDUW091+Y6FDjBFQw1b
-kjy2HulK0gwQ+7OzGxr361wt
-=aY56
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvqYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V00P/R+vlZWR63thdTNDM28I
+dIB4k3Y2gKdlOWRA7H4nR2S0+MWfdOPk31BrWEEI74HCkfFF2Se0zyaemyQsAh/6
+LSA32jKkGRgcImA3wsjAS50V6eclrJccolO1BF8/yCDfrNyTbmBXKmOzAnbdxAS8
+CVytSdvNL+aprjEDSKA6YvuTPc3cSAYuS/WiFjdGnqr3oFvDU4kdHeu4jFwMbLKm
+i9R4Ovx7PEf8k/GZj4JzRZSksYIhftP1XWEn0hwoz8dQ/vHI774ZJPmAzGzWf/kb
+qGhR3ttm6tmSBJylBRe6751cuWY2Qh+2m+rO5lAA407626HQXvyOoV9wcEtUGwO+
+QGC9qTZy65uHX7AcltaMKck0ZXpCHTBjF+rC3vupMX0GWR/zp3aHiOCU+GRfwnO9
+PI5Yl3xtsxkPv+3JaAvvRTGKM4wbMNYbKjCFsL9RxPEg9NL8W6p2dKyinTMCPq6y
+BevFWmVaghrogjbpaGdSqFxF9DRzieD9apbUXv46DqJYKNbU5du5COL0Jd3Bzr4B
+JWA2YxnvlzIfgVOR/sVOgOATakeMO68FHbj0TZlLJ8vTV5zqhofBP+EcMQqvMBle
+gsSkVolR/4qaKbV6Km3T7NQ+LaKIhb2scbYDhPp5iuWHlr418I+prXKdWmrYBoOa
+FGaaOUPdB1eZiLLgd2gAieBj
+=doeR
 -----END PGP SIGNATURE-----
 
---===============8007190498084818311==
+--===============8620238437417887727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ ea7b4244b3656ca33b19a950f092b5bbc718b40c x86/setup: Explicitly include acpi.h
 0d290223a6c77107b1c3988959e49279a8dafaba Merge tag 'sound-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 835d31d319d9c8c4eb6cac074643360ba0ecab10 Merge tag 'media/v5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============8007190498084818311==--
+--===============8620238437417887727==--
