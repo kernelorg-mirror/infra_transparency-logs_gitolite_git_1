@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4852512562807192746=="
+Content-Type: multipart/mixed; boundary="===============8007190498084818311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 01 Sep 2021 17:55:42 -0000
-Message-Id: <163051894285.19138.10275176756471998670@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 17:55:47 -0000
+Message-Id: <163051894743.19243.8361515959187327829@gitolite.kernel.org>
 
---===============4852512562807192746==
+--===============8007190498084818311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 36a21d51725af2ce0700c6ebcb6b9594aac658a6
+  - ref: refs/heads/driver-core-next
+    old: 049d1693db78144c979b34e2084287ada912cf7f
     new: 835d31d319d9c8c4eb6cac074643360ba0ecab10
-    log: revlist-36a21d51725a-835d31d319d9.txt
+    log: revlist-049d1693db78-835d31d319d9.txt
 
---===============4852512562807192746==
+--===============8007190498084818311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518941 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630518946 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1630518941-c852bab638d0296fc37f0e7389acd4dfe8575545
+nonce 1630518945-b3afc9db5608cf252b48e44feb3cc3dbc4c8655d
 
-36a21d51725af2ce0700c6ebcb6b9594aac658a6 835d31d319d9c8c4eb6cac074643360ba0ecab10 refs/heads/driver-core-linus
+049d1693db78144c979b34e2084287ada912cf7f 835d31d319d9c8c4eb6cac074643360ba0ecab10 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvp0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M0UQAKEU9/FIwELgmbwbdPNn
-WlipESN6w3adIvq9PBb1LUFJ5q/7JAjLeHIG4kXfout3cORhVPEa+lFsru9VLHWy
-BSP6O5GqtKk9bCJry/HdlUD+IafWgDarnT+KuImmnN6mgIangP5zv2zMnk0DtJ+g
-JyMaVj+8CulQ9KnFf5MuyavO1psGAS+jxnxX6F+V3uvB/N4AgSHyHsPKGtaMxc/P
-UN+kIHb57xAp3wVylOayVud13/n7rag1yVQqTSxpLr3ngheLTCf9nAb3Awa1qDTv
-QV7a1n6vPrcFllVTbqT7ssHafg6n52i6HdnLSG7YWi3wbkfqXu90BGbSDuDXogqI
-xtCJZdb6d/5kI+wIHWVUsglaQC49tzWAMag96k9S0M2QqMpgBkXTOVy1S0btrn/7
-kVA91gNsqCaqKiZaYW1vQdB3XP0QP5+A+chV0MF3WEqG3hPETxR76c660aiXjPT2
-his++G90pmTnjuUKPlRzd6dl3Y6TOibcANgLoa69n9MY8w4SOUGTp4Dj0SbLeiUh
-mdqFp5SGMX/MioRnYfZ0QnYbzRnOqiv51usNo+AEvoGsJbR4lpAp4+I//SfsR5o8
-4RZDBRMBTPTCUxgljIkggXV1b/HhUFMtbO3vXjaP5mqL1RnOj872M7y6osJlhNh/
-P21JSon+zkdV6EDnXgKbqgf7
-=it+D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvvqIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k54P/1eiAy+nSRLgPNGyG0Mz
+XYpUMqxPFnA6LpAGI4CzpIb3VhpcpN/5TzZslKuNkPfKH7aOJYP02tinuQCuZhr1
+u1IPQWyoa7MTRkLGaSUliZNddCz8V6iFqijJXxqEY5TnK3dydq8jntKZfQgP50x9
+lRJMkJ0x40Bgehp9Ud+NS61q4vSxVjuKmckzxD9upFjqntgwOZDiWrlp56HiFgTB
+hWYnc5kTT1GqQR5rkjn8wX0aNJAh+U0eyCQjfgwZq7CPP+OfKk2dx/pWczYw/3bx
+lL6R7JA/xmQOzeOaeC9oXhSIYWVkzilevm00hmvLokikC4jGqRVJ6bz3Q0TRMeOE
+V19koINDlSnlDZVYtXe7inoUv/xUj65+vReBk8euqFyZwqBfz2hqoMHGNzNlGxkx
+Vcqrqy3OAwdH8EfQO1HpBj/bLWs4q9ZOZRVmtg+kH3A2pl7XDdf8bkvvOJCoqlKB
+ermSLCdiktbRQM6Hi/a8e8vz6NoAl7dB+VoIlFxJkTW5JblSswwlPOsHf/k76HSO
+NktibgDFmhj+mVJL8k+XpTB8AZUQtTsTrRoYJpwqFEVogAXXNLsJlleQD82z+Fg7
+8E8Om8BE4ZNDWK0ULxL29yONPqDNcFKW/WvOboscY98wRLDUW091+Y6FDjBFQw1b
+kjy2HulK0gwQ+7OzGxr361wt
+=aY56
 -----END PGP SIGNATURE-----
 
---===============4852512562807192746==
+--===============8007190498084818311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36a21d51725a-835d31d319d9.txt
+Content-Disposition: attachment; filename=revlist-049d1693db78-835d31d319d9.txt
 
+696068470e38e4bd710c1dea5f0a2a835daf9388 mmc: mmc_spi: Simplify busy loop in mmc_spi_skip()
 2b8ac062f33781edbefb482c6abebfde6b373eed mmc: dw_mmc: Add data CRC error injection
 972d5084831dc9ae30f1a4b66cb4a19fb7ba6f09 mmc: core: Avoid hogging the CPU while polling for busy in the I/O err path
 468108155b0f89cc08189cc33f9bacfe9da8a125 mmc: core: Avoid hogging the CPU while polling for busy for mmc ioctls
@@ -753,7 +754,6 @@ cedcf527d59bcca5f87f52ea34a157bbc6e7a3a8 padata: Remove repeated verbose license
 62dbd849e03ce2cb2fb605ed7a6ca93b42cc99f4 staging: r8188eu: remove unneeded conversions to bool
 7990b535d2987201187d750f809ed17b502eb608 staging: r8188eu: remove unneeded variable
 d0efb16294d145d157432feda83877ae9d7cdf37 net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
-049d1693db78144c979b34e2084287ada912cf7f MAINTAINERS: Add dri-devel for component.[hc]
 5fe2a6b4344cbb2120d6d81e371b7ec8e75f03e2 Merge tag 'mlx5-fixes-2021-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 8d548ea1dd157a40ff5882224795a82a5b9abfe6 mptcp: do not set unconditionally csum_reqd on incoming opt
 a086aebae0ebe37e93ed8f6e686ca0d5c4375b44 mptcp: better binary layout for mptcp_options_received
@@ -1082,4 +1082,4 @@ ea7b4244b3656ca33b19a950f092b5bbc718b40c x86/setup: Explicitly include acpi.h
 0d290223a6c77107b1c3988959e49279a8dafaba Merge tag 'sound-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 835d31d319d9c8c4eb6cac074643360ba0ecab10 Merge tag 'media/v5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============4852512562807192746==--
+--===============8007190498084818311==--
