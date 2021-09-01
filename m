@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8639375928342896674=="
+Content-Type: multipart/mixed; boundary="===============3119358985164165698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 01 Sep 2021 06:37:45 -0000
-Message-Id: <163047826543.5095.12396008152799160200@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 06:38:20 -0000
+Message-Id: <163047830029.5300.3778241169830562429@gitolite.kernel.org>
 
---===============8639375928342896674==
+--===============3119358985164165698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: a16ef91aa61ac2a42b1bb199fccb897d54ab3dcd
     new: 9e9fb7655ed585da8f468e29221f0ba194a5f613
     log: revlist-a16ef91aa61a-9e9fb7655ed5.txt
 
---===============8639375928342896674==
+--===============3119358985164165698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ efa916af13206eb15916e102c45c99a13ea78f33 Merge tag 'for-5.15/dm-changes' of git:
 86ac54e79fe09b34c52691a780a6e31d12fa57f4 Merge branch 'for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 9e9fb7655ed585da8f468e29221f0ba194a5f613 Merge tag 'net-next-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============8639375928342896674==--
+--===============3119358985164165698==--
