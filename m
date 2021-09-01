@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4147952274651866548=="
+Content-Type: multipart/mixed; boundary="===============5999614460404793071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 01 Sep 2021 11:49:16 -0000
-Message-Id: <163049695660.5734.7043645493654584301@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 11:49:19 -0000
+Message-Id: <163049695953.5812.14729707218500806407@gitolite.kernel.org>
 
---===============4147952274651866548==
+--===============5999614460404793071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,95 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 0ec64a47cbb11f5919e47cdab83f201ea5ca6076
-    new: a32032512b5e85014d06bae64573a4498756dfc3
-    log: revlist-0ec64a47cbb1-a32032512b5e.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 66b6adc3ce6e26663967aae92ec0602cef07b36b
+    new: 9bc4aee46b925fc92370b55814836e5430a85975
+    log: revlist-66b6adc3ce6e-9bc4aee46b92.txt
 
---===============4147952274651866548==
+--===============5999614460404793071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630496955 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630496957 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1630496954-2842d5ae3133ea67c39bc2502972ba398af6a0b9
+nonce 1630496956-726fb778b50665fa4e03d3824c040b25f4e51dc4
 
-0ec64a47cbb11f5919e47cdab83f201ea5ca6076 a32032512b5e85014d06bae64573a4498756dfc3 refs/heads/linux-4.19.y
+66b6adc3ce6e26663967aae92ec0602cef07b36b 9bc4aee46b925fc92370b55814836e5430a85975 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvaLsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rj4P/2VsD7kWNeu4pll9US20
-45Z1NNuJFGKzAeY0CX4rlFaB3eOxVQkLq7AVCaZg/Bm0IdIQ2G/s/RSsL/KgvGmi
-4pNfOxWKTWaHnYd+pyVlGjtH1OBHoap+yyPuHoQyAHx9SyTOx+KZyj/RgFVsh5iK
-5HAGniKSVAU9irnK7n0jdhGGhWlRE+jUIlciC5E+ohYduMftfxS1aSX6Fg56tVyk
-+Pf4F+uvTpue/4374WFuWtl2ahemHf+5x/gqu7ppV0cpEl+0Dr3qG7WhwvIVMUvI
-7N9AjqbN5rH+X/RWbuqrrL44Zll1vKR/tKWipGTrh4M7zv8X8soKRZp21WLB2bwZ
-o9kt7L47GkMs90eJhxE40fJRGkVj3SegKRb7FXWme8Yt2ILgJppgn1EaSWr1OXcV
-gZvTz/A36WaukJ2jNsbn6/BbZVi99Y9QLsvrsocCRClReims70L32MviFpzaJjLZ
-v3+eW1zv3gbQ4e4kg0lby1Z9ypwaeS9AgHQFS8yMKaNKAbkKGsBkY8EiLxwts5Kz
-ED+QoKPIuuCuqhOYNe01S+uqKzdUkQtaWGmUxr6wCvw2D8qM81a+CMUny4Kwu1f3
-DwDOTBDCCEsibLGJk5UkYdji/4BPpfoPNQhbd0NY0t6WM2/iefTtiDxB7yDbrr2n
-2ZYYOcXHNzh4SyHbwq00k4nT
-=ovxJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvaL0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vA8P/igsFrU6D2lcPtgD1QpZ
+lAZUJ3Zu/m2AJ9sP1+dDTsDPfjvdDgDD10Dp5C5kiUynBdpyO4y6gByHZ0ubiXqH
+StDMXwCVoPFkGkilkIDzaqiupak2SHOMTONtDbWZ9oJAfIWo+CrwrVRHN5fPqyGG
+IdCX3S0XjLq81TpW3VeD38tZNrxBQ3eaOW8n3Yy1rOKFsGsdyGdNkCN7VPA3uGHh
+TIWvVE+MToSJ2Pif5e+r/4xohLoBo1FA+FHzACbv48RIc7VNBU59THbdn6XSbnG8
+B7IJ10058aoFIEvgw1iZ7hgy82eThniIYKTNJ3PTqFONQ6E5OZ9AdYPm7L8JDudx
+rn/Ia29ZD8E0R1WoUJIadq1XZObRwh2+mlXTzwGS1AgJ6i8lkwpBJ/0bZE6pkycv
+wVIb8aa2E1r6O64MzqdmpiDKIoaNyw3iYLadc4Z5zmF7cc76IuEZf30jrYmqJqb+
+gG0LSwlYNYL0yIFXigJ6acTCjG/3V63J1KW9hvRPrK89v968MLiCS8Jc+7hRPg8x
+7FnF1w8Y+1ivvWLeges89yyBKsKqH8qxdt6GBTw7zVHb2VXL9ZG6b6osVQU+sn1f
+z6RFejhmWf5T+uAigOXuoRni3CLUlERwEsm4MxAWOv/Ent/MyTYwqKV+rWkBVm7o
+cxBxrpqCP2yE/7YcNgC4A77w
+=nfiZ
 -----END PGP SIGNATURE-----
 
---===============4147952274651866548==
+--===============5999614460404793071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ec64a47cbb1-a32032512b5e.txt
+Content-Disposition: attachment; filename=revlist-66b6adc3ce6e-9bc4aee46b92.txt
 
-81c2b59b8b117d439bd7923cb8cc60909f412cfa net: qrtr: fix another OOB Read in qrtr_endpoint_post
-d44afb5229c09d281a74c914d99aad00400b7bed bpf: Do not use ax register in interpreter on div/mod
-247ff4974c5fa11c1860becf231b08499237104d bpf: Fix 32 bit src register truncation on div/mod
-0f4393512b49e98d169c36bb7d682500d4ec79f4 bpf: Fix truncation handling for mod32 dst reg wrt zero
-3ed6853cca6bd17d8c9ccb8296df35056053df7b ARC: Fix CONFIG_STACKDEPOT
-b8a6c551109563c3394002e19103accf78cb0ff2 netfilter: conntrack: collect all entries in one cycle
-49ecb2a891c069737a52b3112294a0d5b221901d once: Fix panic when module unload
-03878f8ad547e8c3bb74657b0f120c54904eaea5 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-7fabeb60304cc75ec08bb7e64d36f33d0f193ea0 Revert "USB: serial: ch341: fix character loss at high transfer rates"
-c07e9f0b64462c6f049d4c288c6e43341541294e USB: serial: option: add new VID/PID to support Fibocom FG150
-c1fb7dc6390ffd9e5a89253a2c4cb48665d73e80 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
-f3e6e6f9247fe6e5e9f06618cc706b93274135af usb: dwc3: gadget: Stop EP0 transfers during pullup disable
-d0453a3484585aab0f7c539a2f9daab992e7b7ea IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
-7da5f4bb21330c4d02acf38e29a6f40ba4eb2bdc e1000e: Fix the max snoop/no-snoop latency for 10M
-cf6c0941834f8f557561e95086ed3a35129eb005 ip_gre: add validation for csum_start
-68105e419a2f22fcda03e45397c6f8a59a79755d xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
-3181c145efe6c6014fb69383537c8d8d20a505e9 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
-9a871c07820b1fe8607f6da82777dc2c3f024d45 net: hns3: fix get wrong pfc_en when query PFC configuration
-c484cbcd500e9c403f32bedfcd3519c5a1e15fc7 usb: gadget: u_audio: fix race condition on endpoint stop
-6a57013afe3826e7ef14107e07f5f0bdeed889be opp: remove WARN when no valid OPPs remain
-780c26f414dd786238a2015c3418c5f43005366e virtio: Improve vq->broken access to avoid any compiler optimization
-4c9b256561ecde390060c5b9863d94209def476c virtio_pci: Support surprise removal of virtio pci device
-3516c0e7675b97ce3ee82a3b570c6460f94f06e5 vringh: Use wiov->used to check for read/write desc order
-2bc919fac14589b4527344d2b65d9c2295bd926f qed: qed ll2 race condition fixes
-cc5f9571ecf9d04cfa61071c67af23845436510b qed: Fix null-pointer dereference in qed_rdma_create_qp()
-79f2784110921b17afe645a06b7e79d7e7a0694d drm: Copy drm_wait_vblank to user before returning
-77b787e51bf00aada86f64eec5871b6316a80f59 drm/nouveau/disp: power down unused DP links during init
-c50486b4204b548ef2b0892bc915050207f02e79 net/rds: dma_map_sg is entitled to merge entries
-ed365a54f3d6ea96098c578bf917795f45f80377 vt_kdsetmode: extend console locking
-116cdb348a77210927ef47f7ed9ef2bfcb3098e3 fbmem: add margin check to fb_check_caps()
-b79b2084f6ca0d278297a146d8de9b1142b00832 KVM: x86/mmu: Treat NX as used (not reserved) for all !TDP shadow MMUs
-2470ca79d3d28c5fc0c5513cb0d138491c483750 Revert "floppy: reintroduce O_NDELAY fix"
-df85c3ee707a1457e67d266a63f23a5d75445eca net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
-a32032512b5e85014d06bae64573a4498756dfc3 Linux 4.19.206-rc1
+b6764c526345e5212dd6ba3f4fa303a0cecba3df net: qrtr: fix another OOB Read in qrtr_endpoint_post
+2be8c7c728b15436d2e33ccd54dac6c8d2cf2a73 ARC: Fix CONFIG_STACKDEPOT
+de9dcf02b69cd9cb9ae44c3a6859dc6f38ad17a4 netfilter: conntrack: collect all entries in one cycle
+2f3b8c117db142e0de8995985aabcd2d0f8e82c5 once: Fix panic when module unload
+f33f2bde6fc31c06d1aa83202eb3e49a079983d3 ovl: fix uninitialized pointer read in ovl_lookup_real_one()
+847cac8d53bdd40dd9ed28ffa48bd61bd3ceefd8 mmc: sdhci-msm: Update the software timeout value for sdhc
+082be9eff546d95fb3bc5131317643bd090dfa60 mm, oom: make the calculation of oom badness more accurate
+470f322dd36de56d24826384f53351fdbcd5043e can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+ba924c37f669ee1ee9fd71bfeef453a07ee7b85a Revert "USB: serial: ch341: fix character loss at high transfer rates"
+a422b6549062a0638f41a5a3a39faded81da1778 USB: serial: option: add new VID/PID to support Fibocom FG150
+2e9ed60fe85dc71492803f6a49947b66462c8a33 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
+dea6961ffa4deea9498e23c58fc30357a4119356 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
+d5d53064e52555c179719bda810b41eac804f9ba scsi: core: Fix hang of freezing queue between blocking and running device
+f759e8e93d858f7bf384a513bafa26ca74af22dc RDMA/bnxt_re: Add missing spin lock initialization
+e329a258800853fb176b56896b8b2a20184f8c96 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
+44731a56ee3923672fdc531909b10f3ca71209c2 e1000e: Fix the max snoop/no-snoop latency for 10M
+ebfcc3d347f46bfa5a1d896bf20b0bc35afa7a44 RDMA/efa: Free IRQ vectors on error flow
+324093c5725933052104f4d57cc81af6b211d058 ip_gre: add validation for csum_start
+f385385fce0f7510aaac6dc0102ff7e4d91be705 xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
+94a618324dce4ed5ce8c26c915c14714fa6c29cf net: marvell: fix MVNETA_TX_IN_PRGRS bit number
+faa20ba7782c63e9a2caabd5635d7d2958422d23 rtnetlink: Return correct error on changing device netns
+d884d514e7799e2fc5f0d592ef8526aaf4d68acb net: hns3: clear hardware resource when loading driver
+4f8d8f7100e86b1f2d590d2ba3439a657c1ddbfb net: hns3: fix duplicate node in VLAN list
+b6f2b8a0acf85f0a7787121fbcc441dc62889f5c net: hns3: fix get wrong pfc_en when query PFC configuration
+943aa668e3d0e093d21edded07f6b7a652c794e5 drm/i915: Fix syncmap memory leak
+a8958083b1a9801ff266fc495e78090c2c37e89a usb: gadget: u_audio: fix race condition on endpoint stop
+c69378105da2cff11fbd861af048141f8b8d5f51 perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
+f77560da6d640d68646f19adc1e5605a1bf98c20 opp: remove WARN when no valid OPPs remain
+9086e5945d7273c272f6b30f69f085a3f61d078d virtio: Improve vq->broken access to avoid any compiler optimization
+28ca20bfd7f2c5b026dff75384b390fe8fe1ce76 virtio_pci: Support surprise removal of virtio pci device
+0ae26f0cd1e3696bff2dec8ae2f4d7b8c475b1c7 vringh: Use wiov->used to check for read/write desc order
+c70a7ce9b45fe28ff45a7c7149c0de40b06576d1 qed: qed ll2 race condition fixes
+24f82609b2bb601a85e592b7d0ca1f321e180431 qed: Fix null-pointer dereference in qed_rdma_create_qp()
+bb20bdbcb25eab44577831262ce7d9d46ac2849b drm: Copy drm_wait_vblank to user before returning
+a64582255df1074296b0c134a474ee2fe519da13 drm/nouveau/disp: power down unused DP links during init
+f03d8968a674868db03267a98093c81ce05f9f79 net/rds: dma_map_sg is entitled to merge entries
+edd87b2b94ba0b8e000077d177e64ed7c208ac60 btrfs: fix race between marking inode needs to be logged and log syncing
+4d790f5e9f0e11a3860eae7deb87baadfd5eb4ab vt_kdsetmode: extend console locking
+9203f58ae057a9a343ce45cfac6634e76b744070 bpf: Track contents of read-only maps as scalars
+b0f9c91e76cf5ed5b938b4da272fbbe2e5d3c8de bpf: Fix cast to pointer from integer of different size warning
+8169dffb4a1fea12b81587e760965c8543ac855f net: dsa: mt7530: fix VLAN traffic leaks again
+735315599545299fb9a3dd35732c459becc99b64 KVM: x86/mmu: Treat NX as used (not reserved) for all !TDP shadow MMUs
+5a6ad93a1a2a77fd7307adff7d00b43e15f42462 arm64: dts: qcom: msm8994-angler: Fix gpio-reserved-ranges 85-88
+b721783ef23da7ce9c4d6d98d4899381828e3d0a btrfs: fix NULL pointer dereference when deleting device by invalid id
+e0bccb870878b07aef3a12c8833c53f2dd458ea7 Revert "floppy: reintroduce O_NDELAY fix"
+d42fe7baa38eddfefc8ca3d40b02a6f89a7f3e19 Revert "parisc: Add assembly implementations for memset, strlen, strcpy, strncpy and strcat"
+c84b16569a624d5f65f742fb531595aa956fb14a net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
+44d99e5fe9cd2a428cc69eefa077df9dec55f786 audit: move put_tree() to avoid trim_trees refcount underflow and UAF
+9bc4aee46b925fc92370b55814836e5430a85975 Linux 5.4.144-rc1
 
---===============4147952274651866548==--
+--===============5999614460404793071==--
