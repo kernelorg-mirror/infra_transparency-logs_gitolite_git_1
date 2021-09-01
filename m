@@ -1,21 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 01 Sep 2021 05:39:02 -0000
-Message-Id: <163047474289.30743.887131943402576321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 01 Sep 2021 06:15:24 -0000
+Message-Id: <163047692400.22931.8833656097048303338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: 35191a0fe986bacf69bd842de81119dca7970f11
-    new: 09a19d6dd974c677669eff44a9044f65d7be359d
+  - ref: refs/heads/clk-doc
+    old: faa6a1f9de51bc56a9384864ced067f5fa4f9bf7
+    new: 46d4ee48aaef1671adfddbbde588af2259573ba7
     log: |
-         1bff51ea59a9afb67d2dd78518ab0582a54a472c Bluetooth: fix use-after-free error in lock_sock_nested()
-         5a87679ffd4436474cf9de1a7df9406906fdf148 Bluetooth: btusb: Support public address configuration for MediaTek Chip.
-         09a19d6dd974c677669eff44a9044f65d7be359d Bluetooth: btusb: Add protocol for MediaTek bluetooth devices(MT7922)
+         46d4ee48aaef1671adfddbbde588af2259573ba7 dt-bindings: clock: samsung: fix header path in example
+         
+  - ref: refs/heads/clk-next
+    old: 5fad6cff0fb8b90e4f52a65b6e081f48414b6fb6
+    new: c1c7b9ce520c02ef6b841d5e0a99ed6372500243
+    log: |
+         27115441b938b0287471ac351041dbac81095178 clk: tegra: fix old-style declaration
+         896131924d68e861710b25b5a5d5b62d829367a4 Merge branch 'clk-nvidia' into clk-next
+         46d4ee48aaef1671adfddbbde588af2259573ba7 dt-bindings: clock: samsung: fix header path in example
+         c1c7b9ce520c02ef6b841d5e0a99ed6372500243 Merge branch 'clk-doc' into clk-next
+         
+  - ref: refs/heads/clk-nvidia
+    old: 923ba4604a9be794e4ef4911f6c5e15b4bb39b3f
+    new: 27115441b938b0287471ac351041dbac81095178
+    log: |
+         27115441b938b0287471ac351041dbac81095178 clk: tegra: fix old-style declaration
          
