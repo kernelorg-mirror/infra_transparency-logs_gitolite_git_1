@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 01 Sep 2021 20:12:58 -0000
-Message-Id: <163052717883.11246.13001818629079113233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 01 Sep 2021 20:31:12 -0000
+Message-Id: <163052827228.23927.12685993004510786327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-5.15/apple
-    old: bb887f65f68918acee2fe53935a66bcd33ac2a33
-    new: 3b41fb4094914903fd8e50a13def9e47763dc101
+  - ref: refs/heads/for-next
+    old: 030f653078316a9cc9ca6bd1b0234dcf858be35d
+    new: 6f1fce595b78b775d7fb585c15c2dc3a6994f96e
+    log: |
+         6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
+         
