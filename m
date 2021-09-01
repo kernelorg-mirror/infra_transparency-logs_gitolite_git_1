@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 01 Sep 2021 15:50:47 -0000
-Message-Id: <163051144775.10936.16050276879606143279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 01 Sep 2021 15:51:30 -0000
+Message-Id: <163051149083.11223.9382394760988157352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/dev
-    old: 433328ee0d9ceebc0fb0901d512cc2a5e4449db4
-    new: 1c74b0537ed103985275422b1f579fe0332a571a
+  - ref: refs/heads/renesas/gpio-logic-analyzer-v3
+    old: 66fdc2fa066903c1e851ec06b5a1b1da94449ea5
+    new: fadc20db2ac0947749ac5ee548126960b0d46101
     log: |
-         827f02842e40ea2e00f401e8f4cb1bccf3b8cd86 f2fs: deallocate compressed pages when error happens
-         9605f75cf36e0bcc0f4ada07b5be712d30107607 f2fs: should put a page beyond EOF when preparing a write
-         55ee82573dde4f34ad148f5d042e0da783ca0154 f2fs: multidevice: support direct IO
-         08a14bd78b0d1985fd15aba96a05f7aa0c1d0c98 f2fs: introduce excess_dirty_threshold()
-         91767726d9d227f43498c6609a70b81ce748164e f2fs: reduce expensive checkpoint trigger frequency
-         104f67f491b25179e23ec188463c54bd8c13ee0c f2fs: fix to keep isolation of atomic write
-         1c74b0537ed103985275422b1f579fe0332a571a f2fs: avoid attaching SB_ACTIVE flag during mount
+         75056037c4e81cc587cf13063a8780318140e417 WIP soc: v3u: allow WDT reset
+         90b797a0b1256d2b30df4a535d4196cc641a134d arm64: dts: renesas: r8a77961: Add TPU device node
+         6e1eab2eca3ed86f380043cc15c804227824c017 clk: renesas: r8a779a0: Add TPU clock
+         8b2892962715209fb9c6edea75eb9a9c51d88292 arm64: dts: renesas: r8a779a0: Add TPU node
+         3888137b33397e3ad09834733fd4ae22d4b4bdbf arm64: dts: r8a779a0-falcon-cpu: Add TPU support
+         6aa3649ce6c267eac6cb7e49ded88185e8dd7af5 dt-bindings: pwm: tpu: Add R-Car V3U device tree bindings
+         cb551ce7a72fba674f87ff61a3171772cf813ec1 logic analyzer for V3U
+         fadc20db2ac0947749ac5ee548126960b0d46101 gpio: add sloppy logic analyzer using polling
          
