@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0461168414140848250=="
+Content-Type: multipart/mixed; boundary="===============1570734104721026012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 01 Sep 2021 13:16:04 -0000
-Message-Id: <163050216478.1674.17315465675002174228@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 13:16:31 -0000
+Message-Id: <163050219162.1906.14426089744660337484@gitolite.kernel.org>
 
---===============0461168414140848250==
+--===============1570734104721026012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v0.8.0
-    old: 0000000000000000000000000000000000000000
-    new: e4d6f62d842906781f4a66e645a03bf80d8704e8
+  - ref: refs/notes/signatures/tar
+    old: 65f5a8488a9ac131112727a990ba2ef7fd37a862
+    new: 06f4befef3a5160832db695c2c9a72463019303d
+    log: |
+         06f4befef3a5160832db695c2c9a72463019303d Notes added by 'git notes add'
+         
 
---===============0461168414140848250==
+--===============1570734104721026012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1630502164 -0400
+pusher B6C41CE35664996C! 1630502191 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1630502164-af72480d1d9f42c1708440f12faabf83a7e4636d
+nonce 1630502191-3efb3d80eef9ddf923871eb381f4aec757717949
 
-0000000000000000000000000000000000000000 e4d6f62d842906781f4a66e645a03bf80d8704e8 refs/tags/v0.8.0
+65f5a8488a9ac131112727a990ba2ef7fd37a862 06f4befef3a5160832db695c2c9a72463019303d refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYS99FAAKCRC2xBzjVmSZ
-bLquAP9XXdrnA4oQ4pXiBhmYRAdGNfjQGJcYmtitvf6sGmZtVgEAxnncCXmH2Yit
-/4Pj0PR660nBBdbE+Yq2sI7N3dez8wA=
-=etG9
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYS99LwAKCRC2xBzjVmSZ
+bK0jAP0ZgMgx7OX4Vo9Hx21pUDw9kKJxiYnApNBMq0CNlkRyzgEA10uKlSzVnpHs
+lvZCp/HoPJRVFTwOPHT08EXAw0X05gI=
+=DJVJ
 -----END PGP SIGNATURE-----
 
---===============0461168414140848250==--
+--===============1570734104721026012==--
