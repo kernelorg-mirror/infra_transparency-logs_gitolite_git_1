@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3927810700526793626=="
+Content-Type: multipart/mixed; boundary="===============8331490307356211611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 01 Sep 2021 12:22:51 -0000
-Message-Id: <163049897136.29561.13639226314905945246@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 12:22:52 -0000
+Message-Id: <163049897289.29653.5822713377628956669@gitolite.kernel.org>
 
---===============3927810700526793626==
+--===============8331490307356211611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,58 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 1ca510c8ac9c2b36d5cadd30858fb7930536037e
-    new: d0f43d936dd1700f7b90bcf6ee0b333159a0feb3
-    log: revlist-1ca510c8ac9c-d0f43d936dd1.txt
+  - ref: refs/heads/linux-5.14.y
+    old: 00a0b1c60e5824fcb1f9324fcf2322081334b9ff
+    new: 95dc72bb9c032093e79e628a98c927b3db73a6c3
+    log: revlist-00a0b1c60e58-95dc72bb9c03.txt
 
---===============3927810700526793626==
+--===============8331490307356211611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630498970 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630498971 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1630498969-8a9c3125ff34ea37e9d0ec4e438778e6117ea03c
+nonce 1630498970-a49e1abc2066e1fd2631fa157a00d8d0fab086dd
 
-1ca510c8ac9c2b36d5cadd30858fb7930536037e d0f43d936dd1700f7b90bcf6ee0b333159a0feb3 refs/heads/linux-4.4.y
+00a0b1c60e5824fcb1f9324fcf2322081334b9ff 95dc72bb9c032093e79e628a98c927b3db73a6c3 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvcJobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JBsQAKyzjEzX+5CLIsOtXu4g
-ZRCRBucVcKODpP2ksTS6K3lO9j4LN1gB9MsfoTVxvnvRl/LjhzPdVwzc1t0tZ6aP
-U27kidWHZoTeRgIuawl1utFePydAtAhwiQRv+3g+Jx7dJorNnysQY3Qh+sx8hv9u
-KM/sVFJOCALgqOieY9Gum1DlzHVIfVxWyb/vZbtsSP93Zvd7GX9SrT9NRVBCNfYT
-zpzY8cXCuX0J/LIYS65Nb/Yfwn3XZHFItBEHzOhNK3Y94BxhW1hjVrRXjhJ4OG/z
-yUboKmL2mmK3TBKLxqIHVtnkGMMBIYQWNF253QiZ+Kvva3DUykaiSjXa7w8k93hR
-dgLS8qJJFHh6E2wmCVinNOclxmuNDbgi/wyIvfg3NfY7bq2XFHLeK6p63ES+WK5G
-r1qQ1Ht1pHTdnujn8EVQUnJr3kQuy5ZEjM3URmDGQsn1x8h0NMM04o7Yq5UV91NL
-QWde3OsggE9tAeudmp9QACEQxDv30eQk3ExbCVi/ah4ua5Rxr7hfGgsNoRUUYUr3
-OJNSkDNqMhaGQK+pnkv0kW5yMwHafB5ch54hv2PMJYM60uJoIMC7ZBMDErFRazBf
-6PFOjPyvuX4ExnZhPRhcaVTmdEdjsALnRY9uZrR78N06AXZjW1aCZgBB9lVtmBXj
-PY4schV+iQL/WmYJmxI3qTlT
-=pcWk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvcJsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vP0QAIQ7qsdYImlfnAeeluQR
+6SPl84WhHfH+aRhvLdF/+5cwoRaieqauXIZRPueu+j9SAf3PYaTRhALh4LD7PQO6
+gwmKL8COFLwdrBws3CLulOkKEwtTHQ+zo+RkKlw4A3pOxTjKvb1c0ePBcq6cfgUb
+4XyvjQH69aaOUkbrm5crsriw0KUFIERtNUlUvXZ3kYBIbdebynYt+CKeaaEjTyy+
+F89cXw46aU/e+ZUdYgMAnoNS+MCyOkihQKt3wRl01QLJHqEed+G7mYMcaKJfGjFz
+ENbrD4v2qFk6idQbExXXNGvwCrwHd9vCMP5Yb9iIPXpq7wb90FuIBTTMPj7JMbMQ
+KAzwhkgjd3NIFxb4rxdQDkIukDfJm7O4mj560UqL/CPIC400wA7W0Lbidf73IzBL
+1E7k6oEe/nbv1IydFS1S0nDSN6cHRmnjLVx36ctaKZu+toeYiI154XT0lZsnaGcX
+sv5pgL7EKwLO8W2eaXbTs+nzWSF3ePdMDwx0c9LnkxhsGK4544gqKTWG0QM9VFbb
+MRsMGDGVxggKPuzEXtnWTWXyuxTjeWtJ025qj6m4tyROf+zr8qNN2XLTKh9wUPjQ
+RY7ns1pR2LjPKolPwHOybnRqkGSjgfFpdID/sR9AjrkWmV7wwl+JMarp0c4/uiAZ
+rzKw4uVdGhXgodvfmLZ/i1n4
+=mzxp
 -----END PGP SIGNATURE-----
 
---===============3927810700526793626==
+--===============8331490307356211611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ca510c8ac9c-d0f43d936dd1.txt
+Content-Disposition: attachment; filename=revlist-00a0b1c60e58-95dc72bb9c03.txt
 
-769767fa7389e7b1f364e15f1969356a2fcc2c48 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-57a3524970350d7942098bd1bd2f5ad77f1667fb Revert "USB: serial: ch341: fix character loss at high transfer rates"
-2e11df1f14170b32d4d25af7edd90d4267ecd6f4 USB: serial: option: add new VID/PID to support Fibocom FG150
-7aaecc95e23fd27adba90de24f9e8589d3563cdd e1000e: Fix the max snoop/no-snoop latency for 10M
-d4751f22c2007d9459dcb5f534f45f43024472e2 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
-2eb56b8c6165bc70c99429af7410b727a76ef208 virtio: Improve vq->broken access to avoid any compiler optimization
-806842c2972d87c1152b6a68dc3c96f3e48f34d7 vringh: Use wiov->used to check for read/write desc order
-9d7ed2661db6fa5246b4c30ee0c69b9d446c44c9 vt_kdsetmode: extend console locking
-e24a2df7bf42f6c8b3df176f92ecc96725d40dd9 fbmem: add margin check to fb_check_caps()
-232b65865ef267f297fc17ed9083edba3e7f4ed4 Revert "floppy: reintroduce O_NDELAY fix"
-d0f43d936dd1700f7b90bcf6ee0b333159a0feb3 Linux 4.4.283-rc1
+6ea31f9e5fe20939b7fa0804591b2128a8583ef7 vt_kdsetmode: extend console locking
+d8a5543ca71a15a3214265cb5546b9c76c549876 Bluetooth: btusb: check conditions before enabling USB ALT 3 for WBS
+69aa89f389bb95b47dc55af7184ac3a64e7e0e42 net: dsa: mt7530: fix VLAN traffic leaks again
+2703df9639e51dc74d58c6294ee70b01a3e76f8a btrfs: fix NULL pointer dereference when deleting device by invalid id
+65fe4729571c242d2a6d04afdc26e749da780dcf Revert "floppy: reintroduce O_NDELAY fix"
+6e0af260c6188ea6f74ae0f5525be672639a6a41 fscrypt: add fscrypt_symlink_getattr() for computing st_size
+411147bf32e87c23460d558698292c1c2a8136f9 ext4: report correct st_size for encrypted symlinks
+b30e402ae83d73e700ca507179051c4f60958e2b f2fs: report correct st_size for encrypted symlinks
+6f6dca37de5fa94ba510e005f2ab40ce916e7f53 ubifs: report correct st_size for encrypted symlinks
+e687f0b91c0c62fcc19ff6989cd749a66d937d16 net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
+ef69afe01271232c27221314d9a090c5e658f225 audit: move put_tree() to avoid trim_trees refcount underflow and UAF
+95dc72bb9c032093e79e628a98c927b3db73a6c3 Linux 5.14.1-rc1
 
---===============3927810700526793626==--
+--===============8331490307356211611==--
