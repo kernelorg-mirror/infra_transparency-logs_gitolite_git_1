@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8331490307356211611=="
+Content-Type: multipart/mixed; boundary="===============9077110136080365873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 01 Sep 2021 12:22:52 -0000
-Message-Id: <163049897289.29653.5822713377628956669@gitolite.kernel.org>
+Date: Wed, 01 Sep 2021 12:22:53 -0000
+Message-Id: <163049897300.29666.2923254213554637029@gitolite.kernel.org>
 
---===============8331490307356211611==
+--===============9077110136080365873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.14.y
-    old: 00a0b1c60e5824fcb1f9324fcf2322081334b9ff
-    new: 95dc72bb9c032093e79e628a98c927b3db73a6c3
-    log: revlist-00a0b1c60e58-95dc72bb9c03.txt
+  - ref: refs/heads/linux-4.9.y
+    old: b4fa3974cd7ae61528dfa6cbdce286997d76c757
+    new: 8256eac057128912fe69a399bec3c22f7f9b77d0
+    log: revlist-b4fa3974cd7a-8256eac05712.txt
 
---===============8331490307356211611==
+--===============9077110136080365873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,42 +32,47 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630498971 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1630498970-a49e1abc2066e1fd2631fa157a00d8d0fab086dd
 
-00a0b1c60e5824fcb1f9324fcf2322081334b9ff 95dc72bb9c032093e79e628a98c927b3db73a6c3 refs/heads/linux-5.14.y
+b4fa3974cd7ae61528dfa6cbdce286997d76c757 8256eac057128912fe69a399bec3c22f7f9b77d0 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEvcJsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vP0QAIQ7qsdYImlfnAeeluQR
-6SPl84WhHfH+aRhvLdF/+5cwoRaieqauXIZRPueu+j9SAf3PYaTRhALh4LD7PQO6
-gwmKL8COFLwdrBws3CLulOkKEwtTHQ+zo+RkKlw4A3pOxTjKvb1c0ePBcq6cfgUb
-4XyvjQH69aaOUkbrm5crsriw0KUFIERtNUlUvXZ3kYBIbdebynYt+CKeaaEjTyy+
-F89cXw46aU/e+ZUdYgMAnoNS+MCyOkihQKt3wRl01QLJHqEed+G7mYMcaKJfGjFz
-ENbrD4v2qFk6idQbExXXNGvwCrwHd9vCMP5Yb9iIPXpq7wb90FuIBTTMPj7JMbMQ
-KAzwhkgjd3NIFxb4rxdQDkIukDfJm7O4mj560UqL/CPIC400wA7W0Lbidf73IzBL
-1E7k6oEe/nbv1IydFS1S0nDSN6cHRmnjLVx36ctaKZu+toeYiI154XT0lZsnaGcX
-sv5pgL7EKwLO8W2eaXbTs+nzWSF3ePdMDwx0c9LnkxhsGK4544gqKTWG0QM9VFbb
-MRsMGDGVxggKPuzEXtnWTWXyuxTjeWtJ025qj6m4tyROf+zr8qNN2XLTKh9wUPjQ
-RY7ns1pR2LjPKolPwHOybnRqkGSjgfFpdID/sR9AjrkWmV7wwl+JMarp0c4/uiAZ
-rzKw4uVdGhXgodvfmLZ/i1n4
-=mzxp
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yAAQAMGK+fujcr/uMxgdEH4p
+efWnJCiMnALlOkmreT4KTGCyHTSvT00YnOc9x+7zEZHAj1bcbWlHKEp718h3HM5M
+wOlINIamSA8YZfAKKj+AMh+V/8KeEOmnLfVnPSB3YNh5C3hNS7afH58fgVutyMap
+j/5xUHZ8qAzcTKvbSLZypcpj7rAjRJFP2Do1cnYPRI74FTHrxJgwuuFGdkmpgmcy
+o7fNmeFZ2uZ9OUwh4T0pw6Eju9+Y/hUmmXZYJBPb0Fwq4QrEA99QjK3E/hnMzRx8
+5OgNXIHGnlUluUSUNteV2GwnGcDWG+BYk/YgzuH9mdmXCD8E9HiYk6IiaVqdO6Ea
++dNVmnsKVQZnjeRLB3B581InKCfLcYXmTOWP6p3/R/vZpuZjnThJYfV+RX4IEgR6
+h71QeiCYexbZCK7f6yacYF899CCYlVVW2JqSqI8cey6PCgNCwlQ3VhiUTBfhPSbs
+do0ZH0WMrhoyfULmW2hfXrtgadOU4wyIAo6nvIFkbxpWdJapAwJOvqBVkhRXwJWD
+OlR7dObQlOarwTlDCYY32abMGMem/O930H/iK6dxruPWtwT/DK6RiL7HVz4cwLkD
+qHIjw3ZvnliyhEasvzs8sr+8CBU5vJiq5kzPVta7VhrEercB0SHeXJfpdEySkJLs
+qdRdH/pIfxqtPnklmjRYE4r8
+=3jwF
 -----END PGP SIGNATURE-----
 
---===============8331490307356211611==
+--===============9077110136080365873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00a0b1c60e58-95dc72bb9c03.txt
+Content-Disposition: attachment; filename=revlist-b4fa3974cd7a-8256eac05712.txt
 
-6ea31f9e5fe20939b7fa0804591b2128a8583ef7 vt_kdsetmode: extend console locking
-d8a5543ca71a15a3214265cb5546b9c76c549876 Bluetooth: btusb: check conditions before enabling USB ALT 3 for WBS
-69aa89f389bb95b47dc55af7184ac3a64e7e0e42 net: dsa: mt7530: fix VLAN traffic leaks again
-2703df9639e51dc74d58c6294ee70b01a3e76f8a btrfs: fix NULL pointer dereference when deleting device by invalid id
-65fe4729571c242d2a6d04afdc26e749da780dcf Revert "floppy: reintroduce O_NDELAY fix"
-6e0af260c6188ea6f74ae0f5525be672639a6a41 fscrypt: add fscrypt_symlink_getattr() for computing st_size
-411147bf32e87c23460d558698292c1c2a8136f9 ext4: report correct st_size for encrypted symlinks
-b30e402ae83d73e700ca507179051c4f60958e2b f2fs: report correct st_size for encrypted symlinks
-6f6dca37de5fa94ba510e005f2ab40ce916e7f53 ubifs: report correct st_size for encrypted symlinks
-e687f0b91c0c62fcc19ff6989cd749a66d937d16 net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
-ef69afe01271232c27221314d9a090c5e658f225 audit: move put_tree() to avoid trim_trees refcount underflow and UAF
-95dc72bb9c032093e79e628a98c927b3db73a6c3 Linux 5.14.1-rc1
+45be2aba4a629f95f4eccaa1bd0496eccccaa43c ARC: Fix CONFIG_STACKDEPOT
+224f5d49c528c67608a46a5bca2bfa091f85026c can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+cdfb5f02e862216c59054bca0269a1cc832b9c16 Revert "USB: serial: ch341: fix character loss at high transfer rates"
+15a522504dcb1a49edc6761fa6e77cce69a29974 USB: serial: option: add new VID/PID to support Fibocom FG150
+6f625c09d90c24b9aa3894ebee80298516cba5fb usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
+5da2561fe3bf27cfff61b8e3be90e0d90c737069 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
+8f28984ef707c84ee13ae7b33d088928356850bc e1000e: Fix the max snoop/no-snoop latency for 10M
+e9ee01957752a719fe09ff50598b24026e579c17 ip_gre: add validation for csum_start
+0dda6900b760d0c9032ab0cf983698f1af789949 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
+65933aadb78caf8f21d8d23e4afa9b2a83ce2b13 virtio: Improve vq->broken access to avoid any compiler optimization
+d431871c5d7ef66f27b259207f506378b4575fe7 vringh: Use wiov->used to check for read/write desc order
+05068786e3aad8024ba6632715f78b2d80ee0a31 net/rds: dma_map_sg is entitled to merge entries
+e6ded7dca8e97de75b713407a12d8a7fe1d3cec6 vt_kdsetmode: extend console locking
+d7583d691aea11c720d2bce74ba931fbb7c79bd8 fbmem: add margin check to fb_check_caps()
+32e9a6b7661eef9a19359e942ce972c44c5b742a KVM: x86/mmu: Treat NX as used (not reserved) for all !TDP shadow MMUs
+6b6d8740dd02ae69c2078c26ea84405bb7f2c11d Revert "floppy: reintroduce O_NDELAY fix"
+8256eac057128912fe69a399bec3c22f7f9b77d0 Linux 4.9.282-rc1
 
---===============8331490307356211611==--
+--===============9077110136080365873==--
