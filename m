@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/swiotlb
-Date: Wed, 01 Sep 2021 19:04:23 -0000
-Message-Id: <163052306346.31446.3047247082756730449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 01 Sep 2021 19:27:23 -0000
+Message-Id: <163052444344.14545.13292707203423867207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/swiotlb
-user: konrad
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/stable/for-linus-5.15
-    old: f3cfd136aef0184919464b49d5b74d43605abcbc
-    new: f3c4b1341e8320e63f197a554fc5a25686a11d22
+  - ref: refs/heads/locking/urgent
+    old: 453624fa68444c9b93addb4325c9db59b6a43e21
+    new: 1f15eb89144fdd4c881ef7181d51e989a732f4f0
     log: |
-         f3c4b1341e8320e63f197a554fc5a25686a11d22 swiotlb: use depends on for DMA_RESTRICTED_POOL
+         1f15eb89144fdd4c881ef7181d51e989a732f4f0 futex: Return error code instead of assigning it without effect
          
