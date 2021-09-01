@@ -1,26 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 01 Sep 2021 15:51:30 -0000
-Message-Id: <163051149083.11223.9382394760988157352@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4408622504678368612=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 01 Sep 2021 16:21:28 -0000
+Message-Id: <163051328855.30610.13010115252959966771@gitolite.kernel.org>
+
+--===============4408622504678368612==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas/gpio-logic-analyzer-v3
-    old: 66fdc2fa066903c1e851ec06b5a1b1da94449ea5
-    new: fadc20db2ac0947749ac5ee548126960b0d46101
+  - ref: refs/heads/for-5.15
+    old: 3202e2f5fac0032cb1128fb8d5b7f3368902c8d8
+    new: 222039a2503e0839f859e18e6f09acb9997480d1
     log: |
-         75056037c4e81cc587cf13063a8780318140e417 WIP soc: v3u: allow WDT reset
-         90b797a0b1256d2b30df4a535d4196cc641a134d arm64: dts: renesas: r8a77961: Add TPU device node
-         6e1eab2eca3ed86f380043cc15c804227824c017 clk: renesas: r8a779a0: Add TPU clock
-         8b2892962715209fb9c6edea75eb9a9c51d88292 arm64: dts: renesas: r8a779a0: Add TPU node
-         3888137b33397e3ad09834733fd4ae22d4b4bdbf arm64: dts: r8a779a0-falcon-cpu: Add TPU support
-         6aa3649ce6c267eac6cb7e49ded88185e8dd7af5 dt-bindings: pwm: tpu: Add R-Car V3U device tree bindings
-         cb551ce7a72fba674f87ff61a3171772cf813ec1 logic analyzer for V3U
-         fadc20db2ac0947749ac5ee548126960b0d46101 gpio: add sloppy logic analyzer using polling
+         cd5e4efde23ad8050921672ed777ec3f7aa310ec ASoC: mediatek: mt8195: add MTK_PMIC_WRAP dependency
+         5f939f49771002f347039edf984aca42f30fc31a ASoC: audio-graph: respawn Platform Support
+         2a6a0a03117ee349308ab77ac0925fdca8ef32f5 ASoC: samsung: s3c24xx_simtec: fix spelling mistake "devicec" -> "device"
+         940ffa19454704ca2ecd23b0d8dd604c93421bfa ASoC: mediatek: SND_SOC_MT8195 should depend on ARCH_MEDIATEK
+         222039a2503e0839f859e18e6f09acb9997480d1 ASoC: dt-bindings: mt8195: remove dependent headers in the example
          
+
+--===============4408622504678368612==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1630513256 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1630513286-d2a937d13eb4bdd50c18783cd2e05fc832f59ee3
+
+3202e2f5fac0032cb1128fb8d5b7f3368902c8d8 222039a2503e0839f859e18e6f09acb9997480d1 refs/heads/for-5.15
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEvqGgACgkQJNaLcl1U
+h9DfJAf/U7CgFRpCndBZXBhTJnegkPpr/nCQwalZivPuIIM51P3vSqEckIbcNqQi
+L8zYyFt27GFcTnmr1kXOgd/6IJ2nBo92ikjJX68QJMkljvAzKCoX3zP8h3bbgUNs
+uotHOsgJb1aiJOuKTuzxrq1EnTPHlthLXkUwiYCsod+K0lWVuUBTcFwcyT6q9Gzy
+LFgzX9eJMdc9R8M1xXzAcs1h6B0fHyOTU4SfQVpe5dAKNb/I0UQg5hRO8pqE4i6/
+EWHQCCCHKEyDrpKdh+567TKB7yEhaZ7BGiVEOJAEjE3PeXtzFoMA53X7d42U8mVJ
+n4HZToXCQmoGr5P7wV+7F5buualzVg==
+=pXoe
+-----END PGP SIGNATURE-----
+
+--===============4408622504678368612==--
