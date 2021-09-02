@@ -1,49 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Thu, 02 Sep 2021 14:12:35 -0000
-Message-Id: <163059195524.15448.10481357345389173242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/konrad/ibft
+Date: Thu, 02 Sep 2021 14:14:36 -0000
+Message-Id: <163059207654.16291.17610981436423988491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/linux/kernel/git/konrad/ibft
+user: konrad
 changes:
-  - ref: refs/tags/dlm-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 3274375d177178dd872f0b092a07fae5fc6e6512
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
+  - ref: refs/heads/devel/for-linus-5.15
+    old: 7fd1d00bf8181db4b90c3c9dc25696229d185b5b
+    new: e286da6d1dd7cbd1b07fe8e2ee35e9a14ef537f2
+    log: |
+         e286da6d1dd7cbd1b07fe8e2ee35e9a14ef537f2 iscsi_ibft: Fix isa_bus_to_virt not working under ARM
+         
+  - ref: refs/heads/linux-next
+    old: 7fd1d00bf8181db4b90c3c9dc25696229d185b5b
+    new: e286da6d1dd7cbd1b07fe8e2ee35e9a14ef537f2
+    log: |
+         e286da6d1dd7cbd1b07fe8e2ee35e9a14ef537f2 iscsi_ibft: Fix isa_bus_to_virt not working under ARM
+         
