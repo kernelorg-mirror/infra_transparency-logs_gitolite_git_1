@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Sep 2021 10:34:44 -0000
-Message-Id: <163057888411.28617.6667993936159157093@gitolite.kernel.org>
+Date: Thu, 02 Sep 2021 10:37:16 -0000
+Message-Id: <163057903612.30812.6068140238303237892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 025efa0a82dfa79ac2b126f622ba9244f795e707
-    new: 552799f8b3b0074d2617f53a63a088f9514a66e3
+    old: 552799f8b3b0074d2617f53a63a088f9514a66e3
+    new: d2cabd2dc8da78faf9b690ea521d03776686c9fe
     log: |
-         552799f8b3b0074d2617f53a63a088f9514a66e3 net: dsa: lantiq_gswip: fix maximum frame length
+         d2cabd2dc8da78faf9b690ea521d03776686c9fe net: qrtr: revert check in qrtr_endpoint_post()
          
