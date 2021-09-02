@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7790228183546024084=="
+Content-Type: multipart/mixed; boundary="===============1967672469093710447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 02 Sep 2021 18:25:45 -0000
-Message-Id: <163060714551.23150.16677033375677646566@gitolite.kernel.org>
+Date: Thu, 02 Sep 2021 18:29:48 -0000
+Message-Id: <163060738884.24445.2257090540342844827@gitolite.kernel.org>
 
---===============7790228183546024084==
+--===============1967672469093710447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 1266b4a7ecb679587dc4d098abe56ea53313d569
+  - ref: refs/heads/master
+    old: c500bee1c5b2f1d59b1081ac879d73268ab0ff17
     new: 4a3bb4200a5958d76cc26ebe4db4257efa56812b
-    log: revlist-1266b4a7ecb6-4a3bb4200a59.txt
+    log: revlist-c500bee1c5b2-4a3bb4200a59.txt
 
---===============7790228183546024084==
+--===============1967672469093710447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1266b4a7ecb6-4a3bb4200a59.txt
+Content-Disposition: attachment; filename=revlist-c500bee1c5b2-4a3bb4200a59.txt
 
-156f886cf69715265f7b65cb4153bce8f8570326 samples: bpf: Add basic infrastructure for XDP samples
 323140389405e5d5d2020b2e3e04863d12cf3e32 samples: bpf: Add BPF support for redirect tracepoint
 1d930fd2cdbf5e156c32c73ea7f3d5b12bdc41d7 samples: bpf: Add redirect tracepoint statistics support
 451588764e2f3e3ab197b23c7958f750707e2a24 samples: bpf: Add BPF support for xdp_exception tracepoint
@@ -210,6 +209,7 @@ a8946f032eeace6eeb4e51e518275010e5528660 ASoC: imx-rpmsg: change dev_err to dev_
 c53c6b7409f4cd9e542991b53d597fbe2751d7db perf/x86/intel/pt: Fix mask of num_address_ranges
 c3123c431447da99db160264506de9897c003513 locking/rtmutex: Dont dereference waiter lockless
 37e8abff2bebbf9947d6b784f5c75ed48a717089 locking/rtmutex: Dequeue waiter on ww_mutex deadlock
+1266b4a7ecb679587dc4d098abe56ea53313d569 erofs: fix double free of 'copied'
 4c5e413994e632fc317e521b207d372e28184aef fscache: Select netfs stats if fscache stats are enabled
 a7e20e31f6c063d928868ecc8e2effb7d4b9fe1b netfs: Move cookie debug ID to struct netfs_cache_resources
 185981958c920dd28e35cba7cda69486c8551781 cachefiles: Use file_inode() rather than accessing ->f_inode
@@ -1051,4 +1051,4 @@ b0cfcdd9b9672ea90642f33d6c0dd8516553adf2 d_path: make 'prepend()' fill up the bu
 eceae1e7acaefc0a71e4dd4b8cd49270172b4731 Merge tag 'configfs-5.15' of git://git.infradead.org/users/hch/configfs
 4a3bb4200a5958d76cc26ebe4db4257efa56812b Merge tag 'dma-mapping-5.15' of git://git.infradead.org/users/hch/dma-mapping
 
---===============7790228183546024084==--
+--===============1967672469093710447==--
