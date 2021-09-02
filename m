@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 02 Sep 2021 11:25:05 -0000
-Message-Id: <163058190527.30614.12753349290194627954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 02 Sep 2021 12:27:22 -0000
+Message-Id: <163058564286.5360.1512387638054708266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/habanalabs-fixes
-    old: e1749be6d28c028dec6c4841243a1cb356a31b07
-    new: 21a5a0bdfb8dc754f0587fa188a1bb7962853281
+  - ref: refs/heads/master
+    old: ecdc28defc46af476566fffd9e5cb4495a2f176e
+    new: aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c
     log: |
-         21a5a0bdfb8dc754f0587fa188a1bb7962853281 habanalabs: fail collective wait when not supported
+         aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c net: usb: cdc_mbim: avoid altsetting toggling for Telit LN920
          
