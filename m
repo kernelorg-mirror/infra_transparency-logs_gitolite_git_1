@@ -1,64 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jdelvare/staging
-Date: Thu, 02 Sep 2021 15:31:39 -0000
-Message-Id: <163059669927.6390.13392652399322778844@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7746664567113346994=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 02 Sep 2021 15:35:52 -0000
+Message-Id: <163059695295.9387.7702170353803543860@gitolite.kernel.org>
+
+--===============7746664567113346994==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jdelvare/staging
-user: jdelvare
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
-  - ref: refs/tags/v5.14
-    old: 0000000000000000000000000000000000000000
-    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
-  - ref: refs/tags/v5.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53371b959e5823998cd617e74b585e7d328f5840
+  - ref: refs/heads/for-5.15
+    old: 0866d645b76d062b7d55091fd6fb80f058d0c384
+    new: 4f89ff026ddbaab49dba993ad2dc757920d0ad49
+    log: |
+         4f89ff026ddbaab49dba993ad2dc757920d0ad49 ASoC: dt-bindings: fsl_rpmsg: Add compatible string for i.MX8ULP
+         
+
+--===============7746664567113346994==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1630596921 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1630596950-02ff7a5008550f2dfe6aa1d500336eea0c95b17e
+
+0866d645b76d062b7d55091fd6fb80f058d0c384 4f89ff026ddbaab49dba993ad2dc757920d0ad49 refs/heads/for-5.15
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmEw7zkACgkQJNaLcl1U
+h9CdqAf/aGxU+I012amtp9VGKRovL+uOfIzBIQHWXUHuvSpdRIhbM5+EcmW/REvO
+aL+ilOoAeWLkIllLeYEG+B6TmWYahy44e+VjTQf6z9DPbqbw04uQ2hvR++Am4VFk
+cIFsE4oEZ8cTOWhv7wx63aRLrKvnma68yB1Wg+tE6OMeZA9Q/yT7Q9QPGBMSL1I1
+6GCxFVhLjVPvmKjwruvsldgDFqlY5ddDeT4rqVVuqNOVhVclG1akA3VHuRD0ywDP
+wRKFB2wAJk8Vv/NwHcLR+eniCkzIvv/Ch3Ag/OA7xVfQw85S0fHLkSNXzEpzlDbJ
+QQlrzF58WQwpRNaSd+iEe0+O3e17aA==
+=pI0Z
+-----END PGP SIGNATURE-----
+
+--===============7746664567113346994==--
