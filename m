@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 02 Sep 2021 19:58:14 -0000
-Message-Id: <163061269431.16879.7639550923302182169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 02 Sep 2021 20:03:02 -0000
+Message-Id: <163061298246.20063.8653891112199069077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/x86/urgent
-    old: aeef8b5089b76852bd84889f2809e69a7cfb414e
-    new: d7109fe3a0991a0f7b4ac099b78c908e3b619787
+  - ref: refs/heads/dev
+    old: db2ee9ee1a313b823b844c71e655203bf8bb86a3
+    new: 19915de76e762b1391b547bde83d2ca4757878ea
     log: |
-         d7109fe3a0991a0f7b4ac099b78c908e3b619787 x86/platform: Increase maximum GPIO number for X86_64
+         19915de76e762b1391b547bde83d2ca4757878ea AOSP: erofs-utils: increase val for AOSP-specific long options
          
