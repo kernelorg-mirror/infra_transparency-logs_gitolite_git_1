@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Thu, 02 Sep 2021 20:27:52 -0000
-Message-Id: <163061447270.5283.16775821866982715463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/konrad/ibft
+Date: Thu, 02 Sep 2021 20:42:31 -0000
+Message-Id: <163061535103.13969.1210619078682190302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/konrad/ibft
+user: konrad
 changes:
-  - ref: refs/heads/for-next
-    old: b3e60434f1e97d1b16be2dfa361605fce27e93b1
-    new: 3f2b16734914fa7c53ef7f8a10a63828890dbd37
+  - ref: refs/heads/devel/for-linus-5.15
+    old: e286da6d1dd7cbd1b07fe8e2ee35e9a14ef537f2
+    new: 799206c1302e8fabfab5a4151e74a2fe90090590
     log: |
-         888a623db5d025cc72cd2887bacc3cf3fad10b6f pwm: mtk-disp: Implement atomic API .apply()
-         331e049dec64c2d269648a3ea4ea6aae8a54b4ac pwm: mtk-disp: Fix overflow in period and duty calculation
-         3f2b16734914fa7c53ef7f8a10a63828890dbd37 pwm: mtk-disp: Implement atomic API .get_state()
+         799206c1302e8fabfab5a4151e74a2fe90090590 iscsi_ibft: Fix isa_bus_to_virt not working under ARM
+         
+  - ref: refs/heads/linux-next
+    old: e286da6d1dd7cbd1b07fe8e2ee35e9a14ef537f2
+    new: 799206c1302e8fabfab5a4151e74a2fe90090590
+    log: |
+         799206c1302e8fabfab5a4151e74a2fe90090590 iscsi_ibft: Fix isa_bus_to_virt not working under ARM
          
