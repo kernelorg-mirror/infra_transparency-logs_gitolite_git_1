@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4990051664110970672=="
+Content-Type: multipart/mixed; boundary="===============7260461665775931291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 03 Sep 2021 13:08:15 -0000
-Message-Id: <163067449502.13841.16186031444158750035@gitolite.kernel.org>
+Date: Fri, 03 Sep 2021 13:08:37 -0000
+Message-Id: <163067451739.14011.16000470773237595204@gitolite.kernel.org>
 
---===============4990051664110970672==
+--===============7260461665775931291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,46 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: e432fe97f3e5de325b40021e505cce53877586c5
-    new: a3314262eede9c909a0c797f16f25f941d12c78d
-    log: revlist-e432fe97f3e5-a3314262eede.txt
-  - ref: refs/heads/next-test
-    old: e432fe97f3e5de325b40021e505cce53877586c5
-    new: a3314262eede9c909a0c797f16f25f941d12c78d
-    log: revlist-e432fe97f3e5-a3314262eede.txt
+  - ref: refs/tags/powerpc-5.15-1
+    old: 887da7775828531830dbd28aa7963b34b3179c47
+    new: 691dbe22d3f050e4ab78968c9230d9298841f915
+    log: revlist-887da7775828-691dbe22d3f0.txt
 
---===============4990051664110970672==
+--===============7260461665775931291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1630674483 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1630674506 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1630674482-2c302bb90c94d1132c92c2ac9349b64e182b89c8
+nonce 1630674505-5bd4b25330cd1fb2fba7bec8193882a3a66cba8d
 
-e432fe97f3e5de325b40021e505cce53877586c5 a3314262eede9c909a0c797f16f25f941d12c78d refs/heads/next
-e432fe97f3e5de325b40021e505cce53877586c5 a3314262eede9c909a0c797f16f25f941d12c78d refs/heads/next-test
+887da7775828531830dbd28aa7963b34b3179c47 691dbe22d3f050e4ab78968c9230d9298841f915 refs/tags/powerpc-5.15-1
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmEyHjMTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgC/cEACrewyAKqP5GjgpGWQQdHHazK2KURbQ
-o5QxesNqH3XjN+PMtovUZ3E583UJr0KkBm1egkVH/cxCiGWPVbt/WgWjaQoh4yUa
-61ORpVteASJXu59aDl8TJUCyLVDB4lotC8cJRNiV9pZ1wlXmcdBgy0WULt6YrdPn
-RM3MfOTffxwRrA+s3Lx3CcdGEIgtYA8OYJKxmJKTsgKVgPF9YCxkvRzgmxF8vh+s
-MvhsvigbUSvCtjy4ewoSkZK0V6tIH2hLKVIT+FjlKYEQ5vqDA7rcZXuZLC/RzKtF
-+Ad6yXcAiff+5hfeIU5TvefA7m7aA6ickN30I+dhcW1togPr9rQc3eJZoxt8r+Ks
-jMgGHzt1eJoEL6I9AowBrQErsNa0tDk20dJoptc4YEQ/cfV2Hb0gRmWsC/e4GiX6
-bjmwxkDw/zio1G8we8fQh1TXOc5s98J1xMzvw2jnUVCPnx+txl0LzZIPCiiQBkI6
-MEENhgFDzmZJeXLtd2NO3wRL32IDd0pninrvpbCQbfBI0/Tk91DuVQ83QhKprGEU
-taXiy/m3ra9ZHSw/VhI2EOl2TVCBwPGMs38yGSee4ayak+lgkX+0SGDttF9wX+oO
-f+uW7gGrpzPqYR7Yn+1qTsM65AXpUc7W9ETLMa7l3/MWuDXeuSjuCF9Y/MFMww+d
-QSiLHDiKkoau+w==
-=Nsb6
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmEyHkoTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgJkbEACtByA+f/NgX/Q06Pu6TBYgE5kxu1Ja
+qJ29swpPx9RzJvVwtKaSicMOTuxbsAOPIV6PTX48yAX6aQv7HiNiR3FHcH5VAY2K
+SWzzisjqwPSC13JINaulApLCz5wbNJkEg6NqCGapTA9wbUyK2w5n6WE3pvbvKENt
+/jEN0ul5rYM5EsHNZ0fpROd67R7toB1/0t5Zyo5FXYbrseo/Ss9/4dr98n+6bH7B
+dcHm9nG9/aC5nrKBAj9CiBbxQfy1Sv0rpJA8vyOlN+dLMUihclKBuhBt0Ste6z6y
+//iVy0mPEIOVC0Kx35YakEjIgRQb9Cuy3F8lPTAM3CbrANhH/zvpGUqlaYUmccNP
+c3crYnJVJp4FtC5M/hiQDV4JJ9p+ZMcGJisWYzt3ZB6mBLh+CzyVkt7LmOqFGhPW
+7WYyx9aOqhyaaVHF9H16YeXdlS9U+821O6zi5OWVO2ThKr9saKTBZOOWT1Fv5u5n
+KbzsCQFpPy5lMYv2UqbltGyF1oykwZ9eWRe2XCQOrg8aC1f9KZ83rg7B6dVC0rFH
+LEtvdrgtqk09ZKRuffIaGftBSHrfOc0hHgO9xeTpyP46gJ1iQ5J1ondAd6L2LYrj
+sKlH005WmIiiK4a8I5n7rRcXvkD+VbP5F37mmJOAdjAknxc+DjXzg4c745jRg3Py
+52GfGb6G2n8eJw==
+=IcR+
 -----END PGP SIGNATURE-----
 
---===============4990051664110970672==
+--===============7260461665775931291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e432fe97f3e5-a3314262eede.txt
+Content-Disposition: attachment; filename=revlist-887da7775828-691dbe22d3f0.txt
 
 333cf507465fbebb3727f5b53e77538467df312a powerpc/pseries: Fix regression while building external modules
 a88603f4b92ecef9e2359e40bcb99ad399d85dd7 powerpc/vdso: Don't use r30 to avoid breaking Go lang
@@ -79,4 +74,4 @@ ef486bf448a057a6e2d50e40ae879f7add6585da powerpc/32s: Fix random crashes by addi
 787c70f2f9990b5a197320152d2fc32cd8a6ad1a powerpc/64s: Fix scv implicit soft-mask table for relocated kernels
 a3314262eede9c909a0c797f16f25f941d12c78d Merge branch 'fixes' into next
 
---===============4990051664110970672==--
+--===============7260461665775931291==--
