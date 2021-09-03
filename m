@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Fri, 03 Sep 2021 03:48:02 -0000
-Message-Id: <163064088246.31265.3806837073590590028@gitolite.kernel.org>
+Date: Fri, 03 Sep 2021 03:48:39 -0000
+Message-Id: <163064091978.31782.4580676559415930228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,18 @@ service: git-receive-pack
 repo: pub/scm/libs/libcap/libcap
 user: morgan
 changes:
-  - ref: refs/heads/master
-    old: f245f03f430482d972b5934d66bd4a31616f95ad
-    new: 0f286b584ebe7019ba33cc48ad9e4ad8efb5b23c
-    log: |
-         c54a087429f96d0ab4561d1aa3bb55a802c226a2 Document latest option for captree in its man page.
-         0f286b584ebe7019ba33cc48ad9e4ad8efb5b23c Up the release version to 2.56
-         
+  - ref: refs/tags/cap/v1.2.56
+    old: 0000000000000000000000000000000000000000
+    new: f0ba425e16ba0e6f2c2f0f0056a242a6abfbca84
+  - ref: refs/tags/libcap-2.56
+    old: 0000000000000000000000000000000000000000
+    new: 3d215aa12e65c30dbade8ee620cb93aafb9a24d8
+  - ref: refs/tags/libcap-korg-2.56
+    old: 0000000000000000000000000000000000000000
+    new: 5ee4af02143a7025e64eb7df4dbb834b2cd6fdbc
+  - ref: refs/tags/psx/v1.2.56
+    old: 0000000000000000000000000000000000000000
+    new: 091645ad1cfd788db46cc38cfc75fb5835f41721
+  - ref: refs/tags/v1.2.56
+    old: 0000000000000000000000000000000000000000
+    new: 7588c893f9ceb54216c8c86373ff3b0589cfacbf
