@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3340594450052042669=="
+Content-Type: multipart/mixed; boundary="===============6192339911951369327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Sep 2021 08:24:21 -0000
-Message-Id: <163065746156.5452.17661498494286852289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 03 Sep 2021 08:25:53 -0000
+Message-Id: <163065755385.29752.2298526165620964823@gitolite.kernel.org>
 
---===============3340594450052042669==
+--===============6192339911951369327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.14
-    old: 71c3da0ae01be3e462e4b2183826279339f77fe0
-    new: 2e22a47e623d7bef4eedcff4d7ad9ffd25c03b4a
-    log: revlist-71c3da0ae01b-2e22a47e623d.txt
+  - ref: refs/heads/master
+    old: e79ba2337a6d2df5c27f9c88474a9bc49963a47d
+    new: 78f398b27529e54e0cdf56c2af82614c2dbe972a
+    log: |
+         78f398b27529e54e0cdf56c2af82614c2dbe972a Linux 5.14.1
+         
 
---===============3340594450052042669==
+--===============6192339911951369327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71c3da0ae01b-2e22a47e623d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-08aebc3a1c1975767eb815019a26ddb6d60903be vt_kdsetmode: extend console locking
-fcaa9d737f194faffdedc011ab837e7ee161d8c5 Bluetooth: btusb: check conditions before enabling USB ALT 3 for WBS
-c88a8c45f769cb6f25c4841e18306d95bbbe10f9 net: dsa: mt7530: fix VLAN traffic leaks again
-1634b1643c8b723cb2b660e045a40a6d1d24f6eb btrfs: fix NULL pointer dereference when deleting device by invalid id
-e24a32290db85f192d6272f0e5272e14edae3ede Revert "floppy: reintroduce O_NDELAY fix"
-eb4fe3bd450a7ea1485456100526d4a47c1c493c fscrypt: add fscrypt_symlink_getattr() for computing st_size
-77b7f55755553e08798c9b8cefa22553fb65169a ext4: report correct st_size for encrypted symlinks
-b37309c6506b3906bdf8d69474919ab2366106b2 f2fs: report correct st_size for encrypted symlinks
-a9a2743940a39149a689a1ad2886255a1398a225 ubifs: report correct st_size for encrypted symlinks
-cbcbc187223d3d74de01101a86f566b742ce48f1 net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
-2e22a47e623d7bef4eedcff4d7ad9ffd25c03b4a audit: move put_tree() to avoid trim_trees refcount underflow and UAF
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630657552 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1630657552-363383c8c65b118053c0b07c615d8f7f534b067b
 
---===============3340594450052042669==--
+e79ba2337a6d2df5c27f9c88474a9bc49963a47d 78f398b27529e54e0cdf56c2af82614c2dbe972a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEx3BAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n3UP/iKCqQDKIMgGmwiDMl4n
+yNlQ5KvwBtck/C6VpZ0GB9Gw8sAOVaJ+toa7wWwRF7paUQp53KXM735x0owRkrI5
+lGU+k3ZOR/+rfr5JpGUxI809S05+ABqtPpGurLoOQj0+VNVeXHu15+rxWnHBg9/J
+7kSdfdbTsagvqB3Rv2aVi/letnvCogRtkzBUKR+T2YvRL9hmmvR3kTtpPXbweEt+
+W22Pzcg99uVwUziblUtIkeNRen2AqJrp7Ag0TgKruK3k+DWUm8TN8YoBnW0LWVxF
+cEl64rwoamis5bmHrVEQdvigqO1aUCxxj8LKBpKKzERU6/apCh7dyasz3E2Ck+4R
+pQXMY/SBE90zjf0AL2bvTbzlLiHd3QRxIbjPq4dRFxrtfWbsTgHFk0DiLXFOcHzb
+fuk+Iq+tJDrP2TyvEjEi3DKWGqWkXaeFt2m3vBSdUy+cOgwX7FHWk6E77ueZ4aSu
+GB+Xu+4nUmSmq24j3pZgTHjRab6h0LKNeWWIfkqq7k0xxqKTD7QJPu9l5/UuU7pb
+M57QcbQ1aQ+Cd4cqfQKcKU5uhYjTqLSmByAwjx1B7PFCkkpKnKnNligtPjA6+dJD
+sQDszUjNgqgZJHaGJxOZOS7S2HgvOSZNEWY4WA87p7XBCtRc+XcGeXzTYaBqS/uo
+DK9WHJTEGqWosJj/VJfaXwbt
+=F63v
+-----END PGP SIGNATURE-----
+
+--===============6192339911951369327==--
