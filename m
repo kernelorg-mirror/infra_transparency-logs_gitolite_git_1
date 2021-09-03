@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8817521162558282296=="
+Content-Type: multipart/mixed; boundary="===============2166829455213346305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 03 Sep 2021 09:16:16 -0000
-Message-Id: <163066057613.24789.4354665629518189214@gitolite.kernel.org>
+Date: Fri, 03 Sep 2021 09:17:09 -0000
+Message-Id: <163066062981.25122.1551983536406813745@gitolite.kernel.org>
 
---===============8817521162558282296==
+--===============2166829455213346305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,88 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 9b8b68ae4356029f9672c2cfba24f3674a64fcfd
-    new: 5d7d11dead3ea7191a8e8635fb718d0c3f203fe0
-    log: revlist-9b8b68ae4356-5d7d11dead3e.txt
+  - ref: refs/heads/main
+    old: 4ac6d90867a4de2e12117e755dbd76e08d88697f
+    new: a9c9a6f741cdaa2fa9ba24a790db8d07295761e3
+    log: revlist-4ac6d90867a4-a9c9a6f741cd.txt
 
---===============8817521162558282296==
+--===============2166829455213346305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630660572 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630660628 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1630660571-1a57d0e10a0567ad9b29f3057ea6b20f46ab3c79
+nonce 1630660628-201aa62b537597d0af088ee8f4eaeefbdd2b0cec
 
-9b8b68ae4356029f9672c2cfba24f3674a64fcfd 5d7d11dead3ea7191a8e8635fb718d0c3f203fe0 refs/heads/staging-testing
+4ac6d90867a4de2e12117e755dbd76e08d88697f a9c9a6f741cdaa2fa9ba24a790db8d07295761e3 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEx59wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h4IP/0dlGdbvOHPn8uCdhjZg
-bohCrsc4eAVbX6Tvxmk+gDBpdcL2wmzTqo0Dx+F0CXnsdf0ZlIJz5viVOSv+82jg
-BQEnnYHJVMOMxZ0HL0Y8H4XyyxZx8/Z9OQhOCiA9cWt0/Sg4ZAX5jDuVAa+CpWUy
-PU63/t0dix2CDmmBiDHzrs4wFNUJqgL08rRDXqHVW7JUlpf7em535iJxDfZBRgiI
-skj6XaUTkgOc/olbKwHX4VuH2ENWMCMbKap23N89JzxGF1c7g3ntD5iaxnWQrXb5
-NTC12pOBU7ucA8UVvHaG+9FCMzcn/bGSIRcmirSjJPZZIHr43H0d99FtG60H8sL2
-gP6xBisAd8Ki1gxblRTSqnQoyFeUsU65rJV9MToxxF6ZPy3Er2fpJDaWK/oM7k3S
-SrZSi9xdAMM78/0mmgL/R/flw7mM5xDup1+QVvR9yDvhNKTE4Qhh9rWddDHdr6GK
-FcctQFbgn9JTykbMsYRLUlsfrCuptGFzikaVZ+46D3ZF34fs2f7Jq2WkMSPmipz5
-eqKDSleLmNWDzgrs1mQGSOnBOggAQk90Pl7R0vKHr2l06SR9SrSA3ZhgQa34/YOl
-SJmSmnq7Caghk+do6pqShRoK6D9TXwVOrBAeeH3to7b6jayk7wAX/iRZJb6J0TUT
-wnu5YTzldK0nwoWcPoBDZGf7
-=VWvi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEx6BQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U2YQAJ1KTtMXw5elygWkl/Xn
+zp2SVZ0PqyK64JIgdqjP7qAjEixvBZXoaFU3uxa907ruT0zlL49T5NrNM1jO/yV2
+uYePW5HsaqMDIW4z3u3cDvQSq4buBefXUrGn6fEymFZr+/LJ6eqe3YQa4O9fDXLQ
+G5gSvuqSu8p41RiPEH6qQKrgIfPqB2XxxPNKwBL6vi+ZaLguzTPJqc+5vFkxWNSj
+bk8yriAKFmPkfdukJ8EqJRGAj8KiGunWQel+Thqhe5GctY8aeavuMrCIghWPCsXK
+qSyVnXIsRjLSMdlQ7xR7ufnz6CLXUYpLspd6iKOatPjd/wOk0bbqq5oprduS2SGA
+9aOCeaLMU8ojByJ3M1n4ZfKqleLA/RvqFKIJYt3t3i9kX04XShdD8ocPG6DetudE
+p7WnEnbLRLP7siPA99RWHp6zg1ZP5R9VDUPFkDXl/jBNQqYkd9egtiykSfJll+WF
+cYalf8rUyhnuWAANUqQA4CKtceW5++STlEyK5zanOSagk6cWkQ6x08OlsKP2k0DQ
+XdTEGGa3TOZGIH0jGj4mq7wtrDGqf+/YaTZ6oq9Xu+fuX2xna8aLMqWO14ilPZvX
+1iKl4FG7HayIk/DgF9KSqXmZ+MZGJZqodYehzGBTaq+66uZ1VAOKYNCREWIjlpZb
+GqdSp/Vym2VQ4GxqspsigAjo
+=Le90
 -----END PGP SIGNATURE-----
 
---===============8817521162558282296==
+--===============2166829455213346305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b8b68ae4356-5d7d11dead3e.txt
+Content-Disposition: attachment; filename=revlist-4ac6d90867a4-a9c9a6f741cd.txt
 
+e4f5c82fefa9bce9a5e010901c2d16f2654b1f18 RDMA/rxe: Add kernel-doc comments to rxe_icrc.c
+923232bbea88a29f18a2361790582a6474a538fc RDMA/rxe: Fix types in rxe_icrc.c
+1c0810e79cb3d2c46bb8f2a3e98609de1f009f3e scsi: ufs: Refactor ufshcd_is_intr_aggr_allowed()
+7b0ddc1346089b62b45e688e350c9e1c3f7a3ab2 scsi: be2iscsi: Fix use-after-free during IP updates
+37306698c3d023c10a2b1a01baac3089b52412f6 scsi: qla2xxx: Remove redundant continue statement in a for-loop
+904b5bfaa8fe2be032ea81ee95fa28efe21fbef0 scsi: aacraid: Remove an unused include
+ae463b60235e7a5decffbb0bd7209952ccda78eb scsi: lpfc: Fix NVMe support reporting in log message
+e8613084053d406c22914385a488e8b85072100c scsi: lpfc: Remove use of kmalloc() in trace event logging
+16a93e83c87edab9ea646be879a1cbbe7bf3bca6 scsi: lpfc: Improve firmware download logging
+50baa1595d30412177da3b22625bffc1ce4f65d5 scsi: lpfc: Fix function description comments for vmid routines
+e77803bdbf0aad98d36b1d3fa082852831814edd scsi: lpfc: Discovery state machine fixes for LOGO handling
+21990d3d1861c7aa8e3e4ed98614f0c161c29b0c scsi: lpfc: Fix target reset handler from falsely returning FAILURE
+4e670c8afd47d535f65edf0d2b7f54f103fd59a2 scsi: lpfc: Keep NDLP reference until after freeing the IOCB after ELS handling
+2d338eb55b14ab9d245e8b1d982adecca8c4c613 scsi: lpfc: Fix NULL ptr dereference with NPIV ports for RDF handling
+cd6047e92c6a5b0a44479cf98f76aac56ddfe108 scsi: lpfc: Fix memory leaks in error paths while issuing ELS RDF/SCR request
+e78c006f4c888231cdabb8a4286ba17980a903fa scsi: lpfc: Remove REG_LOGIN check requirement to issue an ELS RDF
+affbe24429410fddf4e50ca456c090ed6d8e05bf scsi: lpfc: Fix KASAN slab-out-of-bounds in lpfc_unreg_rpi() routine
+a9978e3978406ef5e35870b10e677cf75a2620b6 scsi: lpfc: Clear outstanding active mailbox during PCI function reset
+137ddf0384722afef308dd40696fba55e6680ad2 scsi: lpfc: Use PBDE feature enabled bit to determine PBDE support
+816bd88dffc5716d8bff7cce9dbaa19ef375bc97 scsi: lpfc: Enable adisc discovery after RSCN by default
+0614568361b0c1827f999b1fff21223a496c740b scsi: lpfc: Delay unregistering from transport until GIDFT or ADISC completes
+c65436b21c3abbdaacd9c9f68bf2fa94e103168d scsi: lpfc: Call discovery state machine when handling PLOGI/ADISC completions
+02607fbaf00d9aac8fe97b1d9643f09ebdb47922 scsi: lpfc: Skip reg_vpi when link is down for SLI3 in ADISC cmpl path
+ab803860882514ddbf97713b143b861b524e8476 scsi: lpfc: Skip issuing ADISC when node is in NPR state
+545a68e711ee4d6ed11cec956bb06cb52c95e83a scsi: lpfc: Update lpfc version to 12.8.0.11
+f2af8ffc63a184ab425e0a02308f7fdcf8a53f1c scsi: lpfc: Copyright updates for 12.8.0.11 patches
+d42d57fe86e98c2ab438e30c247d90504a146646 clk: renesas: rzg2l: Remove unneeded semicolon
+97c29755598f98c6c91f68f12bdd3f517e457890 clk: renesas: rzg2l: Fix return value and unused assignment
+36aaa3a0d9bc13e302dc146a20f022fb6891b605 clk: renesas: rzg2l: Fix a double free on error
+e37868f14416bc5f22235dce073c496381d349c3 clk: renesas: rzg2l: Avoid mixing error pointers and NULL
+1606e81543f80fc3b1912957cf6d8fa62e40b8e5 clk: renesas: rzg2l: Fix off-by-one check in rzg2l_cpg_clk_src_twocell_get()
+d23fcff14568d5a5e025b9c1185531caccd605db clk: renesas: rzg2: Rename i2c-dvfs to iic-pmic
+417ed58dfc5ed6c2ec608d5ee93dd27197190e19 clk: renesas: r8a779a0: Add the DU clock
+c346ff5ccc8e87f69a520073f876b740431a5acf clk: renesas: r8a779a0: Add the DSI clocks
+1962dd36db4ffe0411e3cb06f0797b7aacf0ca99 clk: renesas: r9a07g044: Add I2C clocks/resets
+eb829e549ba65e48b1c16ddecb892a32b366d5e4 clk: renesas: r9a07g044: Add DMAC clocks/resets
+03fa6e4b2622035389a4beb9699551d63d130493 clk: renesas: r9a07g044: Add USB clocks/resets
+d520af345189c04095bdd256d3601864601ac562 clk: renesas: r9a07g044: Add SSIF-2 clock and reset entries
+d85b82f09a03c2e1f06da740c6c47dd098b16ca5 clk: renesas: r9a07g044: Add GPIO clock and reset entries
+0aae437ac5c264e8e2cb6c3fead20b44d2fa31d1 clk: renesas: Rename renesas-rzg2l-cpg.[ch] to rzg2l-cpg.[ch]
+3b5c734592ade51fed3982bc840a830e066e668e clk: renesas: r9a07g044: Add clock and reset entries for CANFD
 1b87d5bba32c1f25a12ba0625546e5375e3f998d clk: renesas: r9a07g044: Add clock and reset entries for ADC
 feb704bd17786c8ff52a49d7759b8ee4f3a5aaac fs: dlm: use sk->sk_socket instead of con->sock
 d921a23f3e1a703875db436cc7cdb4404cf1565f fs: dlm: use READ_ONCE for config var
@@ -1040,46 +1081,5 @@ c793011242d182e5f12800c12dbaf37af80be735 Merge tag 'pinctrl-v5.15-1' of git://gi
 83ec91697412ae64d25dcca74597ed03029aa00d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 23852bec534a1633dc08f4df88b8493ae99953a9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a9c9a6f741cdaa2fa9ba24a790db8d07295761e3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-8f9e195f0eee09e5765e16c79884dd7f8869beb8 staging: r8188eu: core: remove null check before vfree
-36b881b7ae301df57d3e4f3c746b2027c4836616 staging: r8188eu: remove c2h_handler field from struct hal_ops
-a998c5653183ed5b4efb0d688ab95114f6729304 staging: r8188eu: simplify c2h_evt_hdl function
-c13c7915fee8263db7455fda32c04d7724ff73d2 staging: r8188eu: remove rtw_hal_c2h_handler function
-cf61f37cb6ab65efad52588102476ce98cc49afb staging: pi433: fix docs typos and references to previous struct names
-a948e7c97aad7a8d3ef39e19e27e2877ee4ad734 staging: wlan-ng: Remove filenames from files
-fa286bbb2f213a35702e34b3c4ed9148977b6225 staging: rtl8723bs: unwrap initialization of queues
-c33dcb23cddad0a3dc90a5e70ae7b0a255ed9697 staging: rtl8723bs: remove unnecessary parentheses
-e293784753325d94ac28c3cb3e861c022a06fd38 staging: rtl8723bs: remove unused _rtw_init_queue() function
-17c55ba10617c931f81724a7717554ed40e649aa staging: rtl8723bs: clean up comparsions to NULL
-f72258d5dbd6338e5b2b87194eefd266ae0d9307 staging: r8188eu: os_dep: remove unused static variable
-166dfeba76dca1659390dbd3ce56b542d3c7e836 staging: r8118eu: remove useless parts of judgements from os_dep/ioctl_linux.
-9976654054a0a34cb14cf848ebe67f15bdd2a06a staging: r8188eu: core: remove unused function
-3a3c923369306f52c924f9427e0f24335f626f2b staging: r8188eu: core: remove condition with no effect
-cca3f1605a05238369db8dad6ba34b4e94396bdd staging: r8188eu: remove rtl8188e_PHY_ConfigRFWithHeaderFile()
-aef84e5d0bdb3c2fc8f692bd0a503c2e9d7b4437 staging: r8188eu: remove rtl8188e_PHY_ConfigRFWithParaFile()
-bc7aedde704acd236d00ddff00d6c6b96572b2af staging: r8188eu: remove rtw_get_oper_bw()
-5fe6476bfa77adc4b51a2f968f44faeaef5897e7 staging: r8188eu: remove rtw_get_oper_choffset()
-2531c055d1875dcf1d25467dd11a5d2b380a5a70 staging: r8188eu: remove get_bsstype()
-af1a21f4aaf4ef205c6b4c965a8cf349dc1c153b staging: r8188eu: remove CAM_empty_entry()
-1ae8b0f149a88173b44bea19d4ef33b26dfd9d7b staging: r8188eu: remove is_ap_in_wep()
-829462c3d9830de0690e9b6f1737a193fc829a5b staging: r8188eu: remove should_forbid_n_rate()
-7b5dfc5d8ee67a5d62199414654221d072106987 staging: r8188eu: convert type of second parameter of rtw_*_encrypt()
-874fb70497816e2deb8544a1b10c90af6268cf6b staging: r8188eu: convert type of second parameter of rtw_*_decrypt()
-502e9eb49f8a686c4cdbde9d0a11cfd481b4d2ff staging: r8188eu: remove unnecessary type casts
-ee018ab649cc90870c0c0f124eceea21cf7d77c0 staging: r8188eu: remove local variable Indexforchannel
-30b1556bb602f2b071b816d1fecf15a9a1256963 staging: r8188eu: refactor field of struct odm_rf_cal
-7225c3d70813e41f590d898726a01a0be9c9afbc staging: r8188eu: remove unused constants from wifi.h
-d8c75c2b194c4ea521d7b121b0ce2c34e25765fc staging: r8188eu: remove commented constants from wifi.h
-ab3cab038c543cc10e442a40ccb0573d0cc1a6a5 staging: r8188eu: remove Hal_MPT_CCKTxPowerAdjustbyIndex()
-d14cbe6fbebe3b84daff00f76f8ece92d4092980 staging: r8188eu: remove set but unused variable
-62f165fd4e65ecc0424100565564a7703b730dec staging: r8188eu: remove ICType from struct HAL_VERSION
-95992cb0d84566cdddd87be9012f202b4bf515c8 staging: r8188eu: remove unused function SetBcnCtrlReg()
-4cc3e5d6f331a7f183be80c4cc75eca011473468 staging: r8188eu: use mac_pton() in rtw_macaddr_cfg()
-3f0a22820597194e424140e477b03b96d1c480b6 staging: r8188eu: ensure mac address buffer is properly aligned
-cff2a0203fe1b8951abe6e7d03b71e4f94995ea5 staging: r8188eu: use ETH_ALEN
-a7f3c6f3c4e0b9b87d713c4e44de3846cd426511 staging: r8188eu: use is_*_ether_addr() in rtw_macaddr_cfg()
-bd04779e3aedb78dca51117b2828793ebcf23ca4 staging: r8188eu: use random default mac address
-ef02282ee5ca4c11ae26b5aa38258d9669f1a170 staging: r8188eu: use ether_addr_copy() in rtw_macaddr_cfg()
-b663f084975fcdb07f152bca521597a08f03c2c0 staging: r8188eu: add missing blank line after declarations
-5d7d11dead3ea7191a8e8635fb718d0c3f203fe0 staging: r8188eu: remove unnecessary parentheses
 
---===============8817521162558282296==--
+--===============2166829455213346305==--
