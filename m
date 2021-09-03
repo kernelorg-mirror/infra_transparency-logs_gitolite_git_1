@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 02 Sep 2021 23:57:26 -0000
-Message-Id: <163062704636.10493.12983238581286827001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 03 Sep 2021 00:08:44 -0000
+Message-Id: <163062772438.16810.11229730004588610226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/kbuild
-    old: 5a1f175c9acaa36c56894db2b30125e072db6a8c
-    new: e75856488ca7d971d0540feed10d3c1044fa143e
+  - ref: refs/heads/master
+    old: 355d06b3f32147c1dfa39bfd1cd2d4e346b65492
+    new: 8891babcf41962c11fc19bc240ddbb89cc6e6c99
     log: |
-         b5a078ed7235048e42f1a49cfcaf1b303a856445 kbuild: move objtool_args back to scripts/Makefile.build
-         88bd7b12cf1d95cdf59f68dc05a9a33b3ede2756 kbuild: rename __objtool_obj to objtool
-         6ae74b86be9c3e2f881741a32ae63fb233341ec5 kbuild: store the objtool command in *.cmd files
-         2a59cb7b0880a73265b5c5f3bba18501996f4f64 kbuild: factor out OBJECT_FILES_NON_STANDARD check into a macro
-         56a627040127d232b4bd00088a98f658fa66ac52 kbuild: detect objtool update without using .SECONDEXPANSION
-         e75856488ca7d971d0540feed10d3c1044fa143e kbuild: reuse $(cmd_objtool) for cmd_cc_lto_link_modules
+         8891babcf41962c11fc19bc240ddbb89cc6e6c99 monitor: Fix calculation of RFCOMM length
          
