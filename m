@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 03 Sep 2021 23:36:57 -0000
-Message-Id: <163071221747.25747.8875716884701986970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 03 Sep 2021 23:49:59 -0000
+Message-Id: <163071299919.1660.6702836708257036669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 15957cab9db009c10925994b59a64410a707c17e
-    new: 49d8a5606428ca0962d09050a5af81461ff90fbb
+  - ref: refs/heads/ftrace/core
+    old: 4420f5b1be7b117330526f3eabd13d840f510b15
+    new: 54357f0c9149c871e5e4b83ad385a6f2ad3a749f
     log: |
-         f4712fa993f688d0a48e0c28728fcdeb88c1ea58 Bluetooth: call sock_hold earlier in sco_conn_del
-         49d8a5606428ca0962d09050a5af81461ff90fbb Bluetooth: fix init and cleanup of sco_conn.timeout_work
+         54357f0c9149c871e5e4b83ad385a6f2ad3a749f tracing: Add migrate-disabled counter to tracing output.
          
