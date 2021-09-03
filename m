@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5270605514788416287=="
+Content-Type: multipart/mixed; boundary="===============1055682065216516520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 03 Sep 2021 05:40:25 -0000
-Message-Id: <163064762598.7888.8701966707683171035@gitolite.kernel.org>
+Date: Fri, 03 Sep 2021 05:41:19 -0000
+Message-Id: <163064767908.8250.5877918100027232316@gitolite.kernel.org>
 
---===============5270605514788416287==
+--===============1055682065216516520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 57f780f1c43362b86fd23d20bd940e2468237716
     new: d12e1c4649883e8ca5e8ff341e1948b3b6313259
     log: revlist-57f780f1c433-d12e1c464988.txt
 
---===============5270605514788416287==
+--===============1055682065216516520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c net: usb: cdc_mbim: avoid altsetting to
 cdb067d31c0fe4cce98b9d15f1f2ef525acaa094 net: dsa: b53: Fix calculating number of switch ports
 d12e1c4649883e8ca5e8ff341e1948b3b6313259 net: dsa: b53: Set correct number of ports in the DSA struct
 
---===============5270605514788416287==--
+--===============1055682065216516520==--
