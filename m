@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 03 Sep 2021 14:50:03 -0000
-Message-Id: <163068060387.20059.5316522492422178424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 03 Sep 2021 15:11:18 -0000
+Message-Id: <163068187850.492.12822392232931566460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: e30f7058cf8ec979a0d15a16713dde220f15bbdf
-    new: a3c262ad3c5a61f602eb761f5278d5a6b66d3828
+  - ref: refs/heads/main
+    old: 6f5aada830d69e9e086e0ce84a187050ccf0706e
+    new: 2984e265cac6ef19a0de4fb21396fb87f45273d9
     log: |
-         8a6430ab9c9c87cb64c512e505e8690bbaee190b libata: add ATA_HORKAGE_NO_NCQ_TRIM for Samsung 860 and 870 SSDs
-         7a8526a5cd51cf5f070310c6c37dd7293334ac49 libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD.
-         a3c262ad3c5a61f602eb761f5278d5a6b66d3828 Merge branch 'libata-5.15' into for-next
+         359ab775cf55e634abadc99a89eb1e2eabae2d1b Revert "iwlwifi: add FW for new So/Gf device type"
+         2984e265cac6ef19a0de4fb21396fb87f45273d9 Merge tag 'iwlwifi-fw-2021-09-02' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware into main
          
-  - ref: refs/heads/libata-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 7a8526a5cd51cf5f070310c6c37dd7293334ac49
