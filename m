@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Sat, 04 Sep 2021 00:18:52 -0000
-Message-Id: <163071473244.20666.8557895708272567243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Sat, 04 Sep 2021 00:32:31 -0000
+Message-Id: <163071555107.29623.2502953418894596910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dev-test
-    old: 3fd996cc162bc8d7383fb556ca6356a3eb71609d
-    new: 63d50045739e45df19424c86ccbc80afa2bc0234
+  - ref: refs/heads/master
+    old: 8891babcf41962c11fc19bc240ddbb89cc6e6c99
+    new: 64e7ce42b19122f0ad47a4a32e6311bdffb38200
     log: |
-         63d50045739e45df19424c86ccbc80afa2bc0234 fsck.f2fS: is_valid_summary(): check whether offset is out of bounds
+         64e7ce42b19122f0ad47a4a32e6311bdffb38200 shared/shell: don't allow completion fallback
          
