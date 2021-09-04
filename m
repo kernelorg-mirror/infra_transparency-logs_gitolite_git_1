@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3385341586618516198=="
+Content-Type: multipart/mixed; boundary="===============2092399152145596765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Sat, 04 Sep 2021 21:31:24 -0000
-Message-Id: <163079108447.20444.15254160435741206616@gitolite.kernel.org>
+Date: Sat, 04 Sep 2021 21:32:27 -0000
+Message-Id: <163079114762.20838.5476890151875699127@gitolite.kernel.org>
 
---===============3385341586618516198==
+--===============2092399152145596765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,185 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/mst/qemu
 user: mst
 changes:
-  - ref: refs/heads/next
-    old: d498b8561bde05df6e70bdd0413d23816817cabe
-    new: 6cd67209b8004627fc9c9b1ec0c562c4707f5d38
-    log: revlist-d498b8561bde-6cd67209b800.txt
-  - ref: refs/heads/pci
-    old: d498b8561bde05df6e70bdd0413d23816817cabe
-    new: 6cd67209b8004627fc9c9b1ec0c562c4707f5d38
-    log: revlist-d498b8561bde-6cd67209b800.txt
+  - ref: refs/tags/for_autotest
+    old: fe09c515374bcb34d3e4b05f917276780c04619a
+    new: ebe3062c5381ce25d5035138f94fc37cf509a01b
+    log: revlist-fe09c515374b-ebe3062c5381.txt
+  - ref: refs/tags/for_autotest_next
+    old: fe09c515374bcb34d3e4b05f917276780c04619a
+    new: ebe3062c5381ce25d5035138f94fc37cf509a01b
+    log: revlist-fe09c515374b-ebe3062c5381.txt
+  - ref: refs/tags/for_upstream
+    old: fe09c515374bcb34d3e4b05f917276780c04619a
+    new: ebe3062c5381ce25d5035138f94fc37cf509a01b
+    log: revlist-fe09c515374b-ebe3062c5381.txt
 
---===============3385341586618516198==
+--===============2092399152145596765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d498b8561bde-6cd67209b800.txt
+Content-Disposition: attachment; filename=revlist-fe09c515374b-ebe3062c5381.txt
 
+3e61a13af3d3a1942a1ec2f6dfd7b407a43e4273 vl: Don't continue after -smp help.
+69ea12b19a15ae006521cd5cc0f627f27f738746 Merge remote-tracking branch 'remotes/armbru/tags/pull-misc-2021-07-27' into staging
+6ebc0048dd8ff93c2847739599afa630f3d9dabd ppc/pegasos2: Fix spurious warning with -bios
+793abe24aa9c6ad1a06dee091fa4dd4479fef482 i2c/smbus_eeprom: Add feature bit to SPD data
+2d1154bd95a8bfea30cc59de8e080e5a016a9bee target/ppc: Ease L=0 requirement on cmp/cmpi/cmpl/cmpli for ppc32
+14c7e06e722af6f5459ab92bae3023bb336fa497 ppc/vof: Fix Coverity issues
+380e49297c302fdcf8e5d56abdbe07868d3af8d8 kvm: ppc: Print meaningful message on KVM_CREATE_VM failure
+9ada9fd2593716cc1c61f2d56bb84bef12056cb1 docs: Document GitLab custom CI/CD variables
+d3a4e41da25e55b327cc8092f97a6cf02d0b5227 gitlab-ci: Fix 'when:' condition in acceptance_test_job_template
+59e8b62b22062e8849429bf1e9cfde6f0affb83c gitlab-ci: Fix 'when:' condition in EDK2 jobs
+c217fd8e36a1d619956f550e8a39528a855de2f5 gitlab-ci: Fix 'when:' condition in OpenSBI jobs
+db1e119238f94d68727279d7606c5fc096de1de1 gitlab-ci.d/buildtest: Disable iotests 197 and 215
+e37264ebe34fe80f7ef3ac649408fd7845c82c65 gitlab-ci.d/buildtest: Mark the aarch64 and ppc64-s390x CFI jobs as manual
+c5dd0f03423c8b614147778547a3a58525d9eb94 gitlab-ci.d/custom-runners: Improve rules for the staging branch
+61c32485b7920ecb25875561528778fbd3a7ad16 tests: Fix migration-test build failure for sparc
+b8ee198d21c4bab41b8cb8d1729a956d9f648997 configure script fix for Haiku
+e4adb09f7952fd37b7f1ba3df377d54d0823e682 i386: assert 'cs->kvm_state' is not null
+14833e24dea49303ebc2464813601054b6cdfcac Makefile: ignore long options
+5b945f23d651a71aa722cc6af84a480d41bc549a configure: Add -Werror to avx2, avx512 tests
+eceb4f01123355a7045ec4ba9cd547511682a4d9 target/i386: Added consistency checks for event injection
+f594bfb79f572b27404d251f9758a36b83271580 target/i386: fix typo in ctl_has_irq
+3f55f97b14086b0f9f638e5bb784b3485b36d583 meson: fix meson 0.58 warning with libvhost-user subproject
+4fe29344bef6c54a6eff7aa0343754f8a9df5715 libvhost-user: fix -Werror=format= warnings with __u64 fields
+663fdc815ed427219f540d3c96ba8e2399cfba96 usb-host: wire up timer for windows
+8a2d766f05f0b6904e1496c699b2394e278c1926 ci: add libusb for windows builds
+5e796671e6b8d5de4b0b423dce1b3eba144a92c9 usbredir: fix free call
+2a49e4e9277085fb0f30037529666fc2d76c730e docs: Incorporate information in usb-storage.txt into rST manual
+78da86dce1780c7023624aa1dec8dd083e75db9c docs: Fold usb2.txt USB controller information into usb.rst
+557ae9763ad3669165c0db189118fac85bea706e docs: Fold usb2.txt physical port addressing info into usb.rst
+30a20f2c5a9cf8f01ffcc918a7a5751dfe956524 docs: Fold usb2.txt passthrough information into usb.rst
+efba2eebdf103218d47eac7a4247949779f80885 Merge remote-tracking branch 'remotes/dg-gitlab/tags/ppc-for-6.1-20210729' into staging
+3521ade3510eb5cefb2e27a101667f25dad89935 Merge remote-tracking branch 'remotes/thuth-gitlab/tags/pull-request-2021-07-29' into staging
+768832575d2e37042d00eb693cda809cb30981d4 Merge remote-tracking branch 'remotes/bonzini-gitlab/tags/for-upstream' into staging
+0ef2801423be33d80b52b14b6b55b3713a325dba MAINTAINERS: add Stefano Garzarella as io_uring reviewer
+54caccb3657e3960d8f5d57ab8e867028325d131 block/io_uring: resubmit when result is -EAGAIN
+cc8eecd7f105a1dff5876adeb238a14696061a4a MAINTAINERS: Added myself as a reviewer for the NVMe Block Driver
+7742fe64e5c2c2c9f9787d107b693eaac602eaae Merge remote-tracking branch 'remotes/kraxel/tags/usb-20210729-pull-request' into staging
+dbdc621be937d9efe3e4dff994e54e8eea051f7a Merge remote-tracking branch 'remotes/stefanha-gitlab/tags/block-pull-request' into staging
+a3c2f12830683e285e1ef32d459717dcdf9b70c6 vl: introduce machine_merge_property
+e4383ca240d804bf1c472ed004d6c7b8a505fc63 vl: stop recording -smp in QemuOpts
+d4b3d152ee005825520dc171e1e650174ae5ebe6 coverity-model: update address_space_read/write models
+243a545bffc7e86c0f5ae97c0f7d32c079ab78a3 coverity-model: make g_free a synonym of free
+96915d638cb83aa139e39096815b8dd9832f264b coverity-model: remove model for more allocation functions
+05ad6857a57238c27df84f6c0c1943dd162a82ad coverity-model: clean up the models for array allocation functions
+0da41187dfda6abecbcbc237471254ab614e063d coverity-model: constrain g_malloc/g_malloc0/g_realloc as never returning NULL
+e17bdaab2b36db54f0214a14f394fa773cee58df coverity-model: write models fully for non-array allocation functions
+7039e1f60486662d238ea1a16992a3efe80d7840 accel/tcg: Remove double bswap for helper_atomic_sto_*_mmu
+236f6709ae0da224314c3344c339ed0dc07c15cf target/nios2: Mark raise_exception() as noreturn
+0c633cf0c221922a0a9f9d0b8866cbb111f5e192 Merge remote-tracking branch 'remotes/rth-gitlab/tags/pull-tcg-20210730' into staging
+9010b0c7a9a097590e183f63716091f6c42a223f hw/net/vmxnet3: Do not abort QEMU if guest specified bad queue numbers
+11744862f27b9ba6488a247d2fd6bb83d9bc3c8d hw/net/can: sja1000 fix buff2frame_bas and buff2frame_pel when dlc is out of std CAN 8 bytes
+a1d7e475beb5c9e7a8e1213f29b0d20a208a9ade hw/net: e1000: Correct the initial value of VET register
+d897056960fb379302cc9b656b899829f571eb6e hw/net: e1000e: Correct the initial value of VET register
+cfe6d6841ff46b43ec38792422f690813f4ce3bf hw/net: e1000e: Don't zero out the VLAN tag in the legacy RX descriptor
+10a3c4a4b3e14208cfed274514d1911e5230935f Merge remote-tracking branch 'remotes/jasowang/tags/net-pull-request' into staging
+c9543db4cc8c5a858a2cba424c603ffbd8bf613e docs: Add documentation of Arm 'mainstone' board
+fa6c93944a049dac4d313b5b66d67344266c1d2a docs: Add documentation of Arm 'kzm' board
+b1b3e3e3bff2aec62b6d5df8491dca94e380978b docs: Add documentation of Arm 'imx25-pdk' board
+7c6ef61a5c69e1a4f2c43b6f207d215bea714b19 MAINTAINERS: Don't list Andrzej Zaborowski for various components
+199a4363056a205c5a770802323aa22c1555c2b8 docs: Remove stale TODO comments about license and version
+4e0b15c25228d14c55bdd482e11a1b351d00191b docs: Move licence/copyright from HTML output to rST comments
+35a4ca403145c9412c5fc042fd2baa20bc21b858 docs/devel/build-system.rst: Format literals correctly
+d463f3c79ade6f678bded5f150341206750a37b7 docs/devel/build-system.rst: Correct typo in example code
+f0d7b970ac69bdf72fcf40a729c9e8605f4d1bc0 docs/devel/ebpf_rss.rst: Format literals correctly
+4df3a7bf8f895e356a3b1f4891489c1ffa5e1e46 docs/devel/migration.rst: Format literals correctly
+1e235edab8df6d1cb6da5c726c2b8e2a2782e37b docs/devel: Format literals correctly
+9c372ecfec5bd00f7ef5b6b2e9db9c2c859b408b docs/system/s390x/protvirt.rst: Format literals correctly
+8a48a7c2e004ac55c9397b3dd6cd3475a00b0f58 docs/system/arm/cpu-features.rst: Format literals correctly
+6df743dc31a6a0b618042da2b550993c6e9767d1 docs: Format literals correctly
+1662ea9f4b8d13e53f3384083fc28e7c8ce93055 docs/about/removed-features: Fix markup error
+4d6646c7de6164b005d04745faa90b430d4e7c61 docs/tools/virtiofsd.rst: Delete stray backtick
+dae257394ae523aff0a9c4049c2e9934e3972ddc hw/arm/boot: Report error if there is no fw_cfg device in the machine
+bd77bc8b8900654d12194ac38d375d3d0f882cc4 docs: Move bootindex.txt into system section and rstify
+6cb02f15223810e1d528e3559194a47b0bbe5020 docs: Move the protocol part of barrier.txt into interop
+399a04775e7ac748834bf0431d31fdb0ae30b912 ui/input-barrier: Move TODOs from barrier.txt to a comment
+4a64939db76b10d8d41d2af3c6aad8142da55450 docs: Move user-facing barrier docs into system manual
+526f1f3a5c6726e3d3b893d8063d31fda091c7e0 Merge remote-tracking branch 'remotes/pmaydell/tags/pull-target-arm-20210802' into staging
+7f1cab9c628a798ae2607940993771e6300e9e00 Merge remote-tracking branch 'remotes/bonzini-gitlab/tags/for-upstream' into staging
+3d98f9b68d2a8c10960d788027b8500ee947933f qga-win: Increase VSS freeze timeout to 60 secs instead of 10
+02ac3f4b959546ad69287aae84e2d52e21aeb479 qga-win: Fix build_guest_fsinfo() close of nonexistent
+ce72f11274f6499b44aa7f2f214f6e7fc09bd9d2 qga-win: Fix handle leak in ga_get_win_product_name()
+24328b7a83a43d65389eda0cbabbd67595f43b5b qga-win: Free GMatchInfo properly
+5f2a8b1fc1422a769e8b36f7b5e9b368f475f9c1 qemu-ga/msi: fix w32 libgcc name
+e300858ed4a6d0cbd52b7fb5082d3c69cc371965 qga-win/msi: fix missing libstdc++-6 DLL in MSI installer
+43f547b73dfaf108c9aaacb0b36200e2e7a200f1 Update libslirp to v4.6.1
+54ba2161d8c40235d7b486d68ac3803ae0818f43 target/s390x: Fix SIGILL and SIGFPE psw.addr reporting
+ccb5f2708fa02a601833987dacbbc3b47d5b720c linux-user/s390x: signal with SIGFPE on compare-and-trap
+50e36dd61652a4a4f2af245655ed3ca08ef0a3ed tests/tcg: Test that compare-and-trap raises SIGFPE
+87ab88025247b893aad5071fd38301b67be76d1a block: Fix in_flight leak in request padding error path
+acf8200722251a0a995cfa75fe5c15aea0886418 Merge remote-tracking branch 'remotes/mdroth/tags/qga-pull-2021-08-03-pull-tag' into staging
+2cd9e2bd093a8b6f0e9fc6d75f4fd8f0e3250474 Merge remote-tracking branch 'remotes/elmarco/tags/libslirp-pull-request' into staging
+2a0396285daa9483459ec1d3791951300b595e85 hw/sd/sdcard: Document out-of-range addresses for SEND_WRITE_PROT
+4ac0b72bae85cf94ae0e5153b9c2c288c71667d4 hw/sd/sdcard: Fix assertion accessing out-of-range addresses with CMD30
+cb2f4b8750b7e1c954570d19b104d4fdbeb8739a Merge remote-tracking branch 'remotes/thuth-gitlab/tags/pull-request-2021-08-03' into staging
+ef6607edf005dc5e52f60e7e1beea49bf2d48a00 Merge remote-tracking branch 'remotes/kevin/tags/for-upstream' into staging
+e0366f9f2ba22cea264dac26e03120fc153653ed docs/devel/qapi-code-gen: Update examples to match current code
+f7aa076dbdfcd569c79166ff0980c261190a5d53 docs: convert qapi-code-gen.txt to ReST
+55927c5f3283fe47e77a64ffe3bcab4c1117a07d docs/qapi-code-gen: Beautify formatting
+9c66762a6015aaf503ceb7f2bbbf3a9affd9368d docs/qapi-code-gen: add cross-references
+68e6dc594a44a7077657f2ea878806e38dfa50cf docs: convert writing-qmp-commands.txt to writing-qmp-commands.rst
+700d82c9bc6c1c53d5f501fc2d099d28da0cef7a Merge remote-tracking branch 'remotes/philmd/tags/sdmmc-20210803' into staging
+f17d05569a5443691edd823f65c2d833a3598ae6 Merge remote-tracking branch 'remotes/mst/tags/for_upstream' into staging
+bccabb3a5d60182645c7749e89f21a9ff307a9eb Update version for v6.1.0-rc2 release
+4cfd970ec188558daa6214f26203fe553fb1e01f util: fix abstract socket path copy
+30f80be34ba6142dc7ba2015b98d661a9529b7c5 chardev/socket: print a more correct command-line address
+0c40c18ecd564a5c3f27f1408aaf9848fe210349 linux-user: fix guest/host address mixup in i386 setup_rt_frame()
+030912e01c0385b6b09e76549c1a8a04b624f49a linux-user/elfload: byteswap i386 registers when dumping core
+bf7b1eab252bc56b6bbb12a8909eae738435d6ae chardev: mark explicitly first argument as poisoned
+bb2b058f1a4e4fe9031133f2f7876fb12b2104d7 chardev: fix fd_chr_add_watch() when in != out
+46fe3ff6ea3e7a642b8545c0322ef5df873bd560 chardev: fix qemu_chr_open_fd() being called with fd=-1
+733ba020846ccd21d832f2e9b62387a86c5ab8f1 chardev: fix qemu_chr_open_fd() with fd_in==fd_out
+64195b0d365712c05ae922b7ff22cf136aac1400 chardev: give some context on chardev-add error
+a68403b0a6843f106e381b0bbeaacb29f6d27255 chardev: report a simpler error about duplicated id
+287d53398a425308629a9d8ae85595cf55d7bf14 Merge remote-tracking branch 'remotes/marcandre/tags/chr-fix-pull-request' into staging
+ca92f162763ab854ea342b1d50758cb98b4d4e21 Merge remote-tracking branch 'remotes/armbru/tags/pull-qapi-2021-08-05' into staging
+dee64246ded3aa7dbada68b96ce1c64e5bea327d Merge remote-tracking branch 'remotes/vivier2/tags/linux-user-for-6.1-pull-request' into staging
+abc14fd05606274d8350f1f90d1ec7bc9e51aa21 meson: fix logic for gnutls check
+632eda54043d6f26ff87dac16233e14b4708b967 Merge remote-tracking branch 'remotes/bonzini-gitlab/tags/for-upstream' into staging
+5f4884c4412318a1adc105dea9cc28f7625ce730 hw/nvme: fix missing variable initializers
+370ea52f725ab283e49b702b7bd5be73d0ff66bd Merge remote-tracking branch 'remotes/nvme/tags/nvme-next-pull-request' into staging
+50482fda98bd62e072c30b7ea73c985c4e9d9bbb block/export/fuse.c: fix musl build
+a6d2bb25cf945cd16f29a575055c6f1a1f9cf6c9 tests: filter out TLS distinguished name in certificate checks
+e0d24696b9d9d78d621e3dedfcb3d2c094bdd8a3 Merge remote-tracking branch 'remotes/hreitz/tags/pull-block-2021-08-09' into staging
+057489dd1586612b99b4b98d211bf7f0a9d6f0e4 qga: fix leak of base64 decoded data on command error
+7bce330ae4040860ddb5ce66dc7999f16577855c ui/gtk: retry sending VTE console input
+1f3afa5da2be7469655e88611406226c6c6eb148 Merge remote-tracking branch 'remotes/mdroth/tags/qga-pull-2021-08-09-tag' into staging
+da77adbaf619c4d170cb42d769145ad1803fbad9 audio: Never send migration section
+6ff5b5d6d521001135d1bd5c609e8834099f01d8 ui/sdl2: Check return value from g_setenv()
+02b8aeede2c61530b137bdb63cf7c998bae657f9 Merge remote-tracking branch 'remotes/kraxel/tags/fixes-20210810-pull-request' into staging
+b0c4798f97e812e3372455e14bcdb10f41823732 MAINTAINERS: Name and email address change
+703e8cd6189cf699c8d5c094bc68b5f3afa6ad71 Update version for v6.1.0-rc3 release
+a62354915bd5285f338e6c624b146ae5e25b50b4 gitlab: exclude sparc-softmmu and riscv32-softmmu from cross builds
+f492bdf4abeb593f95eb9026d5bce54afb65d575 MAINTAINERS: update edk2 entry.
+8f6259055a1aac60663b4a853cf8e383e30d1de0 MAINTAINERS: update sockets entry.
+6bc915f31a436a44119b8e1ef7413518eb8865d1 MAINTAINERS: update audio entry.
+227b1638ba39b7b3dedf0d9ad6ae2c4908688a8c MAINTAINERS: update spice entry.
+cd02c965c4b65a488af44f1bf52d466f5c858cc2 MAINTAINERS: update usb entries.
+1e2edb986608a35e874a77c5e8e71f056c1681b6 MAINTAINERS: update virtio-input entry.
+a4de5e8a0667e3ee43ca9953ec7fd11ff19f2c92 MAINTAINERS: update virtio-gpu entry.
+a1f0f36838caa8d8dbde4b5be2f889942fb66fd4 gitlab: skip many more targets in windows cross builds
+cc1838c25d55e7f478cd493431679337e24e1b72 storage-daemon: Add missing build dependency to the vhost-user-blk-test
+b063c290f3d28a3142e90a1717b26b55ec1a7d17 tests/qtest/vhost-user-blk-test: Check whether qemu-storage-daemon is available
+3973e7ae63cdbd974731e590fcca694d46a82bd2 fuzz: avoid building twice, when running on gitlab
+3d9c7ec95583bf51cfc21f64fd62567711b895eb docs/about/removed-features: Document removed CLI options from QEMU v2.12
+8cc461c18554e058a6dcd5cdebea1fdcba3debb7 docs/about/removed-features: Document removed CLI options from QEMU v3.0
+29e0447551fac46a6e70670035e239a27e362fce docs/about/removed-features: Document removed CLI options from QEMU v3.1
+5d82c1016064a5c51b77182485743f865dbe308e docs/about/removed-features: Document removed HMP commands from QEMU v2.12
+5643fcdd421afe898d812b9b41816b2ec3e3a516 docs/about/removed-features: Document removed devices from older QEMU versions
+36b508993c4dcc6b3ef4b5c00e293ee9560926ee docs/about/removed-features: Document removed machines from older QEMU versions
+a7686d5d8528469b596e98eff098a5d3f8328fb3 Hexagon (disas/hexagon.c) fix memory leak for early exit cases
+24d84c7e4806da0c362edd2ee76678f15becd17d target/i386: Fixed size of constant for Windows
+0b46318170bf2782564e1c444e01a47cda308c7f hw/core: Add missing return on error
+ea0aa1752ca88f7856cbf40eef0db62f90f28dcd hw/core: fix error checking in smp_parse
+2edf8ac5bdd0ae1624dea2a8d5784f7a33745901 Merge remote-tracking branch 'remotes/bonzini-gitlab/tags/for-upstream' into staging
+f1a1a93646f49d710bc3937dd72e7a53b4a2fc6a Merge remote-tracking branch 'remotes/quic/tags/pull-hex-20210812' into staging
+80c9d104a10b1be410136471407dd7d5dba516a6 Merge remote-tracking branch 'remotes/kraxel/tags/maintainers-20210811-pull-request' into staging
+bd44d64a3879bb6b0ca19bff3be16e0093502fac Merge remote-tracking branch 'remotes/thuth-gitlab/tags/pull-request-2021-08-11' into staging
+0572edc55b7bb862efadc2f061e4d9abb87171cc qapi/machine.json: Remove zero value reference from SMPConfiguration documentation
+1c4c68593610e81fc3ba8d3919ec3fc9f26e063d softmmu/physmem: fix wrong assertion in qemu_ram_alloc_internal()
+ecf2706e271fa705621f0d5ad9517fe15a22bf22 Update version for v6.1.0-rc4 release
 f9baca549e44791be0dd98de15add3d8452a8af0 Update version for v6.1.0 release
 d42685765653ec155fdf60910662f8830bdb2cef Open 6.2 development tree
 3ce105c5bf6598676b0dcb2688d9a77097fc8c15 docs/about: Remove the duplicated doc
@@ -438,4 +602,4 @@ b206430abddc64b54dfd222b08618c2db0fa7d43 vhost-vdpa: fix leaking of vhost_net in
 63c90f5e07765eaf518a6581ebcfd5e3640197a5 vhost-vdpa: fix the wrong assertion in vhost_vdpa_init()
 6cd67209b8004627fc9c9b1ec0c562c4707f5d38 vhost-vdpa: remove the unncessary queue_index assignment
 
---===============3385341586618516198==--
+--===============2092399152145596765==--
