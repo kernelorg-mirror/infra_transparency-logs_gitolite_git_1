@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2648663737980838117=="
+Content-Type: multipart/mixed; boundary="===============8306607104393661082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 04 Sep 2021 06:13:46 -0000
-Message-Id: <163073602625.28078.17615716620231424297@gitolite.kernel.org>
+Date: Sat, 04 Sep 2021 06:17:03 -0000
+Message-Id: <163073622387.30609.16866793209283389735@gitolite.kernel.org>
 
---===============2648663737980838117==
+--===============8306607104393661082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 5d7d11dead3ea7191a8e8635fb718d0c3f203fe0
-    new: 0148df40d73994a7f6a4dffb1c80a16dc37efbff
-    log: revlist-5d7d11dead3e-0148df40d739.txt
+  - ref: refs/heads/main
+    old: a9c9a6f741cdaa2fa9ba24a790db8d07295761e3
+    new: f1583cb1be35c23df60b1c39e3e7e6704d749d0b
+    log: revlist-a9c9a6f741cd-f1583cb1be35.txt
 
---===============2648663737980838117==
+--===============8306607104393661082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630736022 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630736222 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1630736022-04987b13de43d81f08d13c95019a2915c386cdd1
+nonce 1630736222-c99d26ec0c60fec5bf9e8bd332e19e8dc46d72af
 
-5d7d11dead3ea7191a8e8635fb718d0c3f203fe0 0148df40d73994a7f6a4dffb1c80a16dc37efbff refs/heads/staging-testing
+a9c9a6f741cdaa2fa9ba24a790db8d07295761e3 f1583cb1be35c23df60b1c39e3e7e6704d749d0b refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEzDpYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+maUP/iTNTZY6b7RH/8KlKFDL
-I59RJr4PAlPHOCIal2bjg6a+LBbfRduOROoHRM1vXSH0wlMYqtFiHckcB9Qa3hzp
-M9ZYGXnFYtUlXixu3Y+0bWJrBW0DZd0SzFwxdISJKLCeEZniNxRR0HHXZxj9gr+c
-1Eq9H0Q4b8bHDN9m3408govVIMIQYZnUTg+wyJQi8rsEP98RxLJZ6/OuhI3t3lk0
-fv3mELZOG6nCbUZoV6i5n/2/8T9SaRwFlj0tlLPnzuudBFne9Yit8bKmg9HIIxYF
-/u4esiROw8VZHbd/wN4jLsZ5/meEnTVr1fUGvAEMsTGhUtApSWN44yHb8LonvrGp
-sALCrJKOvunEbyiMd8+vhXy7mQqJsuido48l7f4r6d4ZOrN/Fd7pkan0GQFlgZfQ
-qjtsRmoHVRAxVAqPnC0O99febji5LKwDkCXPasC4l5gBEwutADFITIcORXqOEe/M
-N3xWUl6LWYvC6ec+eFPkhYNklObT0dDU6d1ONQ+qvEowmfqFRS8nK8GXTa1JLdgy
-COXnyuP+01oMHklEBcq6MqB6k2YHLpsGGofdH24BhMfO5s5+Bp5xuYMrujUuyV3i
-FaUwYyaN0CvXukFk8SY9iaUoEBE6tvAJ4FcD/PQHVBwEvTZu2tl/LxCFooEFJay9
-dc7fp9bn6O1O2i3wIV5ihXcw
-=ZLwk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmEzD14bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l5MQALBMZlncSgtwS225/a6Z
+8tZcT4qvnG4+A4T7j/eifTjUeBhM5XOXpTU45/NWsqH6YXaVmh59tinaxZEFPUPc
+Cupj8odGEYaPDbARl32f39X+vQQJiuJyWfewusy9BKoEkaM6aKCyChcEMlKf1kHp
+TpECmIMIRf/mgLz2OHxi3xeFjekh0FwW8FD8pAhvXzAeinrVwBqIgfrYb5iXXH8P
+ivNbbM5LD/l99f14FwdnCMLu32MVAmmHHqKuPRAn4LaVYOcnIuStwu9sDjMx+80M
+qWBmyw54bl4/5tuBoE0LEtLNRd17Dx1b1cSmUyklYaCwaDdkYq0j8YN+dJsI64OR
+fDjLPcp8BySW9pV8Pez9ARD77WRv5OpcsYAiDCZIN8u6FW4GCrIN/RZw8XqDOher
+h/Q75i4ih0tGzU2PtzEYzUNSi93I0S7aQF79TZ7iOeNgI0BCXYK47JkILVj5vAz/
+POGCwGN0iTg78Mj6254HlbWl/G8AsZRkOxT36WvpaTaMkyMLEgD/5U3DHpWuG5dY
+OUE0mlyYT44Ak77BNyLcjnz3rx0MDbTR0G6SIGQEeRHjzKdAuUNyQ17YiI2uo14X
+FPr+vc57/mvNssdMDybwCVjFC9K7+sfkPJRtc/Run7Dv8CENxhePi57cnzkcQs95
+JCFqIlxayJl/QTPdyfTeHGyc
+=v7Ms
 -----END PGP SIGNATURE-----
 
---===============2648663737980838117==
+--===============8306607104393661082==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5d7d11dead3e-0148df40d739.txt
+Content-Disposition: attachment; filename=revlist-a9c9a6f741cd-f1583cb1be35.txt
 
 0a65579cdd28bed3e84e1b4929c3080da4f06d79 swiotlb: Refactor swiotlb init functions
 6e675a1c455ea7579c7eaf1a38fe64267039d6fe swiotlb: Refactor swiotlb_create_debugfs
@@ -594,46 +594,5 @@ d6742212c0c6ccee2351499db80acba71fa36052 Merge tag 'mips_5.15' of git://git.kern
 4e71add02821bdd204dd29c35e66baecc9b6a235 Merge branch 'stable/for-linus-5.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/ibft
 b250e6d141ce4f0d0ada60e4b5db577050e5feb0 Merge tag 'kbuild-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 f1583cb1be35c23df60b1c39e3e7e6704d749d0b Merge tag 'linux-kselftest-next-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-67e4362c33bed37b189ca90c03f0a2b77af15480 staging: r8188eu: core: remove null check before vfree
-1e67c4de63186cf3bae7c0bcef62b7bbdb9d2ffc staging: r8188eu: remove c2h_handler field from struct hal_ops
-44ec2b0034141fae265b8a623f026f5e06ee252f staging: r8188eu: simplify c2h_evt_hdl function
-24cb4876684dd3286c1028ce272ded184c7e8ab8 staging: r8188eu: remove rtw_hal_c2h_handler function
-ed2f9b4722b744e2ef557be2979ffda260c13fc7 staging: pi433: fix docs typos and references to previous struct names
-98226315f9b716a3c467b8b8c7d4f69307dfe4bf staging: wlan-ng: Remove filenames from files
-681093067212e5ca125e29d1b3e5dac67fa4eaca staging: rtl8723bs: unwrap initialization of queues
-8dd77ab133cd9e2a5cc34c8de0b1023edef62302 staging: rtl8723bs: remove unnecessary parentheses
-9abf15071445f4b59f6ef44ac885d15bae25fa66 staging: rtl8723bs: remove unused _rtw_init_queue() function
-9430f9919277f472b2a8c728d4ec0e975e591aca staging: rtl8723bs: clean up comparsions to NULL
-dfd26f4efd07640551424d1db7c34922fcbc1b6b staging: r8188eu: os_dep: remove unused static variable
-d1144836fd2d3bf446162a6aa6133cca9e75786d staging: r8118eu: remove useless parts of judgements from os_dep/ioctl_linux.
-23c9775d0f25a21792d1024308c13e4db27577aa staging: r8188eu: core: remove unused function
-604d51cf31e58f0a6658f9771395127719c4c96d staging: r8188eu: core: remove condition with no effect
-00c3d2d6dd3f54bfaa7e2c00768ee954a57a644e staging: r8188eu: remove rtl8188e_PHY_ConfigRFWithHeaderFile()
-60bb77db45ae22e9da7569abc809f76febd61fdd staging: r8188eu: remove rtl8188e_PHY_ConfigRFWithParaFile()
-7fa39d2c3feb1a53c279e8039e5f44cc54db3cce staging: r8188eu: remove rtw_get_oper_bw()
-4636d78a824e2e38501aed1acab69de1271372b3 staging: r8188eu: remove rtw_get_oper_choffset()
-315034b537ce107fb48eaae63be86484ff30c331 staging: r8188eu: remove get_bsstype()
-14f261d7d23ca011a3b5e674208b0b21a932f5c4 staging: r8188eu: remove CAM_empty_entry()
-eb5350a09e6248a4a9029774f6a3e1b4f531f8aa staging: r8188eu: remove is_ap_in_wep()
-fbcfef903a0fefa7778767b4b8c8912a69aac21f staging: r8188eu: remove should_forbid_n_rate()
-7a0e244c8c8f968b34394fa0bf4ee35b7a18f1e9 staging: r8188eu: convert type of second parameter of rtw_*_encrypt()
-0a0d8257dc0a4df0202dc12cd3bbf07249c43068 staging: r8188eu: convert type of second parameter of rtw_*_decrypt()
-9b2d79bfc87e76e831e6080cd87d82c131de428d staging: r8188eu: remove unnecessary type casts
-35e96e2bff1fe4f7bf85152ed95bc8329ad3f6cf staging: r8188eu: remove local variable Indexforchannel
-9d9ed04ba145b5a6dd6920e882350a3f92b4aa9e staging: r8188eu: refactor field of struct odm_rf_cal
-5913b60658f6e5b62c71c2b57cb632acd68869af staging: r8188eu: remove unused constants from wifi.h
-1b79c5ef997d51c06080a28ef7ce3650b649a347 staging: r8188eu: remove commented constants from wifi.h
-c847a6f0942158412a19e5ac58e6a3fb9c0cf00d staging: r8188eu: remove Hal_MPT_CCKTxPowerAdjustbyIndex()
-f6d69024e1444c2ae9a635b4dd1e4ad1667d8ffa staging: r8188eu: remove set but unused variable
-96d61dbfbb12e917631a846d655287dd28099ea3 staging: r8188eu: remove ICType from struct HAL_VERSION
-0769feb2d33d2fa82af226d480c9b514c9274be2 staging: r8188eu: remove unused function SetBcnCtrlReg()
-8bee86b9363d10887053ce4fb98ee9f39e899b42 staging: r8188eu: use mac_pton() in rtw_macaddr_cfg()
-cee5e6d18b6c86cd3a7c2287a3c126485fa6197e staging: r8188eu: ensure mac address buffer is properly aligned
-1d5e1d155e028c1da4a924dc403d183411fa7fc7 staging: r8188eu: use ETH_ALEN
-5631d87fda3b2d392e812f555878f2af0496a469 staging: r8188eu: use is_*_ether_addr() in rtw_macaddr_cfg()
-6608ed4d27d6f9370cfa48a6fddc3b9b307b3cd6 staging: r8188eu: use random default mac address
-55e1880cd36c57000b89586e103513d9b689e915 staging: r8188eu: use ether_addr_copy() in rtw_macaddr_cfg()
-559ff8431b138aee2546401664b81637e94f9f77 staging: r8188eu: add missing blank line after declarations
-0148df40d73994a7f6a4dffb1c80a16dc37efbff staging: r8188eu: remove unnecessary parentheses
 
---===============2648663737980838117==--
+--===============8306607104393661082==--
