@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 05 Sep 2021 17:53:49 -0000
-Message-Id: <163086442978.6374.3191801140575502885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 05 Sep 2021 17:59:44 -0000
+Message-Id: <163086478466.9599.8351965837330188914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 6d63d119ffb75eb24979e0c1b5719f032c324937
-    new: ac5a44670f18aa8a9a4dbeb60b740b371967611f
+    old: 0a4fd8df07ddc3d12fad3b2e81ea5832bde2f806
+    new: 8a0ed250f911da31a2aef52101bc707846a800ff
     log: |
-         ac5a44670f18aa8a9a4dbeb60b740b371967611f Sun 05 Sep 2021 05:53:08 PM UTC
+         8a0ed250f911da31a2aef52101bc707846a800ff ip_gre: validate csum_start only on pull
          
