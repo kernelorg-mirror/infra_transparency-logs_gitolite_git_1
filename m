@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 05 Sep 2021 17:17:12 -0000
-Message-Id: <163086223226.14585.2570194718530824097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Sun, 05 Sep 2021 17:22:10 -0000
+Message-Id: <163086253017.18951.6255092531916908354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/master
-    old: 49624efa65ac9889f4e7c7b2452b2e6ce42ba37d
-    new: 0319b848b155185815724e1b46103c550627a845
+  - ref: refs/heads/misc-next
+    old: 9371c4fef0d619cb69f5fa5c07e75bdbde2a587f
+    new: 228f43fa4d457c854b9e142566d98216ca3a8643
     log: |
-         0319b848b155185815724e1b46103c550627a845 binfmt: a.out: Fix bogus semicolon
+         228f43fa4d457c854b9e142566d98216ca3a8643 btrfs: fix deadlock due to page faults during direct IO reads and writes
          
