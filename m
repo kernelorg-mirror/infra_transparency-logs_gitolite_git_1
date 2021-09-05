@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0434528065935573635=="
+Content-Type: multipart/mixed; boundary="===============6956019486173152780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 05 Sep 2021 17:11:33 -0000
-Message-Id: <163086189301.10757.15084717832632768387@gitolite.kernel.org>
+Date: Sun, 05 Sep 2021 17:11:36 -0000
+Message-Id: <163086189667.10821.12228922406017806470@gitolite.kernel.org>
 
---===============0434528065935573635==
+--===============6956019486173152780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: f1583cb1be35c23df60b1c39e3e7e6704d749d0b
     new: 49624efa65ac9889f4e7c7b2452b2e6ce42ba37d
     log: revlist-f1583cb1be35-49624efa65ac.txt
 
---===============0434528065935573635==
+--===============6956019486173152780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630861886 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630861895 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1630861886-c8402281f1eb0b08f84da60fb632e78550d501af
+nonce 1630861895-51d86ec41e4ca94e77cddca6de3c9b8af61ec2ed
 
-f1583cb1be35c23df60b1c39e3e7e6704d749d0b 49624efa65ac9889f4e7c7b2452b2e6ce42ba37d refs/heads/main
+f1583cb1be35c23df60b1c39e3e7e6704d749d0b 49624efa65ac9889f4e7c7b2452b2e6ce42ba37d refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE0+j4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lgUQANA83275tVofl7vH/Pg7
-bNzZL2TVaCDlYJQtnDgnW5ozvHapRNsyWnz3TvKuvYe9hJQNYyPzcUGX+T1Czude
-jjAoOdp4ikjvTbzku9L1UKUeL97MrX54DQdwvbJdj3TgHohW6NO69QdsDuDNUjcp
-/N22Mo7526+4ukVuLp/6VdnIW8yg2FYQkmXcVb4+73M1EgJpaluSNt9A9YyMt7LH
-f+dWNQToAYfPTayQEWQ466/H2JUk+2UMYyXyYNwu6q1OWcNSWcdXs9Nl+aroTf6Y
-/DSFNFZ0PBFSoTt3pP/1BftMO6MMko2c/P+D2EPsPi/ELEbBILUyEFVWn5KJeMww
-a/J7Yk4ES8+wocAsZ2x64QZA2f6Cyel8e/W2u1glMKOQnUmsklzU1bNIkNUiFjN0
-I3naNyLAX+P8CoKALkEAFfQoopy1UljWOvRvDIgfIGAGJOuApxb/HM3hZWNSQmlz
-R7LL6wtnAioacR5YUKb4rDnbSc4mll3QTrlxAxaKxZNfI4SY4roipiW8MUMFNBwD
-jo2Y/0asAgpC5cPKBkX0CndI8gt1tBwKmUn1Gn61MKozCnHhr4IKhTMgs0G2dTAH
-cvRPSIojQHxAIkeK7Gt9jtW7APsawpcU1P2+/uCoPePdEHTDulgo6lgnMloX+4dt
-2h85QsRwGMprNZBn+kT3C+qZ
-=bCK3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE0+kcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b8UP/RbGM4qKaHHUk4DUwP16
+AYkVkwGKakDLjMjNN01lnw/n6JtPPN4wFzFnE5fIs53pj8Nx3l6k1BAamqd13yB7
+pwFM0WjkswCldDo8C2IFSKds4/DY6D/qmptrb3paNcix92VjYEhcys4DPNtDk/tJ
+7QKaVOL6af9zHqsRTezSg2CGiQ8VENMbkFSN3xPYcZhHa//DUQ5eqsKikLMqsV+/
+9C/mL+N7D14EA+GnLctVVDd5kLyynDg07JSr5xh8/oaMIe5yIcYoyRWSGNBCnTZl
+7oHa/tborW13Jcni9V4KecAgGKbQXRetUY9rP5Hs24p8RBZQD/FU6E17CmqRWmuM
+qYGwnixmezkGPLylhqrejgHUfuWMni5VSPJdU4w9wT3DYGKbGTS64JQQoa2xBvkq
+3FvZdogJIHha/s0IDRbHuLNHOoWmscMxG4D+rPa640meWlAK/8L12cO/Lww81Fxv
+tP0Cv4mfkS6/n10xaEl4eSl0fRc+naREAi3seahj2O+2biBNzKj1n5obFrCNn+pc
+bw36HxG2E485m71W8ZgU6ss1vc9FMPgTviiWogyjnaF6Mn2wieSvLmQK1Em1RAxy
+BNi0JHbs0gcCn8ycUrem2U8fEf2w3Pie7Gmw7OFOplg0vDvPsJNEBGODfoR2/Foj
+7ZPyLIROYM9C4/EdNkRJNEJJ
+=cY0U
 -----END PGP SIGNATURE-----
 
---===============0434528065935573635==
+--===============6956019486173152780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -190,4 +190,4 @@ fe69d560b5bd9ec77b5d5749bd7027344daef47e kernel/fork: always deny write access t
 f7464060f7ab9a2424428008f0ee9f1e267e410f Merge git://github.com/Paragon-Software-Group/linux-ntfs3
 49624efa65ac9889f4e7c7b2452b2e6ce42ba37d Merge tag 'denywrite-for-5.15' of git://github.com/davidhildenbrand/linux
 
---===============0434528065935573635==--
+--===============6956019486173152780==--
