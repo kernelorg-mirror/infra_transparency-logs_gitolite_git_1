@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 05 Sep 2021 12:02:33 -0000
-Message-Id: <163084335322.3487.6782725782825224493@gitolite.kernel.org>
+Date: Sun, 05 Sep 2021 12:15:51 -0000
+Message-Id: <163084415142.11965.17197028651877226552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ecbd690b52dc11e3ef96139d4cfce53b1191b8a7
-    new: 81d0885d68ec427e62044cf46a400c9958ea0092
+    old: 81d0885d68ec427e62044cf46a400c9958ea0092
+    new: e5dd729460ca8d2da02028dbf264b65be8cd4b5f
     log: |
-         81d0885d68ec427e62044cf46a400c9958ea0092 net: stmmac: Fix overall budget calculation for rxtx_napi
+         e5dd729460ca8d2da02028dbf264b65be8cd4b5f ip/ip6_gre: use the same logic as SIT interfaces when computing v6LL address
          
