@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3595116327458311412=="
+Content-Type: multipart/mixed; boundary="===============6407453827558952224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 06 Sep 2021 17:05:57 -0000
-Message-Id: <163094795760.24001.9274780771096626446@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 17:06:30 -0000
+Message-Id: <163094799035.24269.5311748506571672846@gitolite.kernel.org>
 
---===============3595116327458311412==
+--===============6407453827558952224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/devel
-    old: c779c726583e66d0da28f0243a1f59c06af6a98c
-    new: 06da4ce7259818cd91cec06afaa8b47ac4042649
-    log: revlist-c779c726583e-06da4ce72598.txt
+  - ref: refs/heads/fixes
+    old: 885814a97f5a1a2daf66bde5f2076f0bf632c174
+    new: b81bede4d138ce62f7342e27bf55ac93c8071818
+    log: revlist-885814a97f5a-b81bede4d138.txt
 
---===============3595116327458311412==
+--===============6407453827558952224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c779c726583e-06da4ce72598.txt
+Content-Disposition: attachment; filename=revlist-885814a97f5a-b81bede4d138.txt
 
+ff53edf6d6ab0970f86595b3f5d179df51848723 vfio/pci: Split the pci_driver code out of vfio_pci_core.c
+2fb89f56a624fd74e6e15154f3e9fdceca98b784 vfio/pci: Move igd initialization to vfio_pci.c
+c61302aa48f7c46b5c9d893109488af951be12e4 vfio/pci: Move module parameters to vfio_pci.c
+343b7258687ecfbb363bfda8833a7cf641aac524 PCI: Add 'override_only' field to struct pci_device_id
+cc6711b0bf36de068b10490198d05ac168377989 PCI / VFIO: Add 'override_only' support for VFIO PCI sub system
+ca4ddaac7fa710a250bbd650cc719425bec973a0 vfio: Use select for eventfd
+85c94dcffcb775bafffd6e966db49253e1b789d9 vfio: Use kconfig if XX/endif blocks instead of repeating 'depends on'
+7fa005caa35ed92563b9e9d88d319b2623763a77 vfio/pci: Introduce vfio_pci_core.ko
+7a6a723e98aa45f393e6add18f7309dfffa1b0e2 ASoC: wcd9335: Fix a double irq free in the remove function
+fc6fc81caa63900cef9ebb8b2e365c3ed5a9effb ASoC: wcd9335: Fix a memory leak in the error handling path of the probe function
 d3efd26af2e044ff2b48d38bb871630282d77e60 ASoC: wcd9335: Disable irq on slave ports in the remove function
 0c75fc7193387776c10f7c7b440d93496e3d5e21 ASoC: soc-pcm: protect BE dailink state changes in trigger
 6479f7588651cbc9c91e61c20ff39119cbc8feba ASoC: soc-pcm: test refcount before triggering
@@ -273,7 +283,6 @@ f6bc526accf861728d36b12fbc25ac94cd057fc9 staging: r8188eu: rename fields of stru
 f8cefead37ddc111786b14da73286204eb8509b5 char: mware: fix returnvar.cocci warnings
 a30dc6cf0dc51419021550152e435736aaef8799 VMCI: fix NULL pointer dereference when unmapping queue pair
 a99009bc4f2f0b46e6c553704fda0b67e04395f5 misc/pvpanic: fix set driver data
-885814a97f5a1a2daf66bde5f2076f0bf632c174 Revert "mmc: sdhci-iproc: Set SDHCI_QUIRK_CAP_CLOCK_BASE_BROKEN on BCM2711"
 3620a89b7d27138c716e5cf537a0bf6606a3a1b3 tty: serial: uartlite: Use constants in early_uartlite_putc
 2e5f3a69b6fcd52a64ce3d746c6ee8390b6cabe8 tty: serial: uartlite: Use read_poll_timeout for a polling loop
 a75c956162978097c0a60d95971c97ae486a68d7 Merge branch 'fixes' into next
@@ -1040,15 +1049,6 @@ e07af2626643293fa16df655979e7963250abc63 Merge tag 'arc-5.15-rc1' of git://git.k
 58ca24158758f1784400d32743373d7d6227d018 Merge tag 'trace-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 27151f177827d478508e756c7657273261aaf8a9 Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 26391e49d5b0f0c33eb4b28a312d2ecc094d7489 mmc: dw_mmc: Only inject fault before done/error
-4f37ee435800f00ef70a01ee759cd6d7d7276904 mmc: sdhci: Change the code to check auto_cmd23
 b81bede4d138ce62f7342e27bf55ac93c8071818 mmc: renesas_sdhi: fix regression with hard reset on old SDHIs
-0262c032b28b88520268b0f3b97ceab296bc51a9 mmc: mediatek: add wait dma stop done flow
-98fb7626ce366f242dceeb78688b8695f2fbf126 mmc: mtk-sd: Remove unused parameters(mrq)
-1613bd37f7c9c643dff8dc33928dd0c80b21e4ca mmc: mtk-sd: Remove unused parameters
-4668b804b7db735634d37e437622e1b196ead589 mmc: block: Add error handling support for add_disk()
-a6334709027bc7b3caca86bd57041aadbf409f31 dt-bindings: mmc: Convert MMC Card binding to a schema
-41c1671a979778a5eb8a70b3de3611294dfedcaa memstick: ms_block: Add error handling support for add_disk()
-1a5d4dfd3f1219a2504b608074db0d77bc765f11 memstick: mspro_block: Add error handling support for add_disk()
-06da4ce7259818cd91cec06afaa8b47ac4042649 Merge branch 'fixes' into devel
 
---===============3595116327458311412==--
+--===============6407453827558952224==--
