@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6407453827558952224=="
+Content-Type: multipart/mixed; boundary="===============2729446767594590380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 06 Sep 2021 17:06:30 -0000
-Message-Id: <163094799035.24269.5311748506571672846@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 17:07:09 -0000
+Message-Id: <163094802991.24526.7483091702207919694@gitolite.kernel.org>
 
---===============6407453827558952224==
+--===============2729446767594590380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 885814a97f5a1a2daf66bde5f2076f0bf632c174
-    new: b81bede4d138ce62f7342e27bf55ac93c8071818
-    log: revlist-885814a97f5a-b81bede4d138.txt
+  - ref: refs/heads/next
+    old: a75c956162978097c0a60d95971c97ae486a68d7
+    new: 27151f177827d478508e756c7657273261aaf8a9
+    log: revlist-a75c95616297-27151f177827.txt
 
---===============6407453827558952224==
+--===============2729446767594590380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-885814a97f5a-b81bede4d138.txt
+Content-Disposition: attachment; filename=revlist-a75c95616297-27151f177827.txt
 
+536475109c82841126ca341ef0f138e7298880c1 vfio/pci: Rename vfio_pci_device to vfio_pci_core_device
+bf9fdc9a74cf61fe9f646c43eac4823481f1e20a vfio/pci: Rename ops functions to fit core namings
+c39f8fa76cdd0c96f82fa785a0d6c92afe8f4a77 vfio/pci: Include vfio header in vfio_pci_core.h
 ff53edf6d6ab0970f86595b3f5d179df51848723 vfio/pci: Split the pci_driver code out of vfio_pci_core.c
 2fb89f56a624fd74e6e15154f3e9fdceca98b784 vfio/pci: Move igd initialization to vfio_pci.c
 c61302aa48f7c46b5c9d893109488af951be12e4 vfio/pci: Move module parameters to vfio_pci.c
@@ -285,7 +288,6 @@ a30dc6cf0dc51419021550152e435736aaef8799 VMCI: fix NULL pointer dereference when
 a99009bc4f2f0b46e6c553704fda0b67e04395f5 misc/pvpanic: fix set driver data
 3620a89b7d27138c716e5cf537a0bf6606a3a1b3 tty: serial: uartlite: Use constants in early_uartlite_putc
 2e5f3a69b6fcd52a64ce3d746c6ee8390b6cabe8 tty: serial: uartlite: Use read_poll_timeout for a polling loop
-a75c956162978097c0a60d95971c97ae486a68d7 Merge branch 'fixes' into next
 bc17bed5fd73ef1a9aed39f3b0ea26936dad60b8 printk/index: Fix -Wunused-function warning
 b18a1a4574d2d15f1b0c84658d4549ccbf241fee io_uring: clarify io_req_task_cancel() locking
 90499ad00ca59320b5bb43392b7931e1bd84cad2 io_uring: add build check for buf_index overflows
@@ -1048,7 +1050,5 @@ fd47ff55c9c31101fcc06d20cb381da3d4089bd5 Merge tag 'usb-5.15-rc1-2' of git://git
 e07af2626643293fa16df655979e7963250abc63 Merge tag 'arc-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 58ca24158758f1784400d32743373d7d6227d018 Merge tag 'trace-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 27151f177827d478508e756c7657273261aaf8a9 Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-26391e49d5b0f0c33eb4b28a312d2ecc094d7489 mmc: dw_mmc: Only inject fault before done/error
-b81bede4d138ce62f7342e27bf55ac93c8071818 mmc: renesas_sdhi: fix regression with hard reset on old SDHIs
 
---===============6407453827558952224==--
+--===============2729446767594590380==--
