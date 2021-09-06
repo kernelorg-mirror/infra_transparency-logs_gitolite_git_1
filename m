@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4522295898481965412=="
+Content-Type: multipart/mixed; boundary="===============3664488453324750678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 06 Sep 2021 12:54:52 -0000
-Message-Id: <163093289204.21686.13691810220312527711@gitolite.kernel.org>
+Message-Id: <163093289215.21694.1228566557429710168@gitolite.kernel.org>
 
---===============4522295898481965412==
+--===============3664488453324750678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 94c84cb14ac2d68488cf6ed5cb84e2646bca7f6a
-    new: 4e95aed01b456b4f17fd8453960fa58d6be6717b
-    log: revlist-94c84cb14ac2-4e95aed01b45.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 4ac7e09b1f123828671184ba72685c7499665004
+    new: 5eeb78b3bd0e0d6fabb7a308a7a872ae356f0211
+    log: revlist-4ac7e09b1f12-5eeb78b3bd0e.txt
 
---===============4522295898481965412==
+--===============3664488453324750678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,46 +32,44 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630932890 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1630932888-90084ca240dd9ad292e60a722dd94352398454b8
 
-94c84cb14ac2d68488cf6ed5cb84e2646bca7f6a 4e95aed01b456b4f17fd8453960fa58d6be6717b refs/heads/linux-4.9.y
+4ac7e09b1f123828671184ba72685c7499665004 5eeb78b3bd0e0d6fabb7a308a7a872ae356f0211 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE2D5obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zDAP/RETODW622uqnnJhKWxq
-mthN6Qv0HDnhOQJwjhRjyMHaqgCqAsyx/I6EdgZKok3VdjF3ynw+FayCvzO/PsYF
-uvBpXyQ4N+RNfn6S2uFPK4mAZuYdn31EXNtyIAEuQU2MYyQsiH1AqECTlsdbrBqj
-Rx1LSfnJ786HHT5tNeXrfVfAraHVhGBKU1lil3dBDu6xpdHkuhoe6OimObHavnG/
-QclgnaGzYgIcIZAbre30yzfYy64pjA/7o43qKFJ723PlQJ7ns5AEztvLzMqm38Ut
-Qu5oB97ZrAq08e8lQhGbFjez6I+tGGqCpk6gjc9DELzvbZGftH2m1UseJss17Fis
-uDw+fU4xp4AvK+nU9SiQxwcTt9xUHvP1ZYaqgczYDW54ZAhlAh8KSfIQBujThnJe
-chzf2TncsgZwC5+62fLKVMc8dQanR3Ycv2nVY/YA8+mS8mXjpbDhlZFtFq3YuRFe
-aK4oeRnxhu/mX+/VndEBAsqMhFIwjLoB0ZijaTcLHrdXE9+olmaN1lA1czPWPOQ9
-hNbpuqsGPlWWL70ZcYlJMgasjC/pRRNsDkNNarieUBGLbHzN+l/7AKLOpV6Y2gcd
-h20+qkqDFb6RPMJC2AWygu6pPh4OkhgedKKXMbEuUPTkf5E4fHh0EykGBNeR/BVr
-CO7pQNiEepBh6sHiBE/tJHtq
-=P8nE
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/dYQAME8A28SudXqMOD5gY6o
+NNEHekRJy0OgeSBiC4ggj5tYH1FeEqEsW+8fQO5x4JOGkzAjJhqaq3aLrAFAUo5E
+vP1nqgO5dr7Ux8FsfjpaXiSoPCCiVO106r+bZ0aB7yBgdv0/6TIPH+4K4hSHTb3c
+fAk5A1eU3Qb478M1gS4wX8I5RedJNJmC4G2IttwstHya4eaIGQCI2J0os91NXcmY
+LdPwr9NFNqiDW0Fz+lCEqKnGroDGCwnyOvm7V/MuKaYZd6/anRUaUayEWXo1ItPK
+7z8tlyR7QwhvdKHcLfF9EsYjlDyn2bOrLzBMTUXGbCyASqldAn2lr9tvv8klNPvr
+W2qVrALkHOltWfPIYJ8kgtBUBZRXhXxFX0mMWVNDVHDG3IwfGcBUTnf6+UgsIN+e
+bKBZK5j0okYI8Un9mNJfW7sMlDbQE8PnzIAQ+6i1xpY2pGN6EfAeK9IpR2E0/55P
+jQ7kcrPu9kIJvoCXeRhlfaJudtlVQbyHd6G4D0RIlerF6qh/rw1kuo82wynq13f7
+cUINoQUeaH/Jgir4KjjXirMqJGzPZANEENH/rw13KtAtDRJZ0tnwakJAOUNcswMM
+uolQOz2Y2Ew5jVkV3XrNoRnODM5GSGbpzpF4BUhOY4imeXuyeOabKtX1weJjQPDl
+ur9r5fslqZlsowFht3lsAaTt
+=4vVQ
 -----END PGP SIGNATURE-----
 
---===============4522295898481965412==
+--===============3664488453324750678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94c84cb14ac2-4e95aed01b45.txt
+Content-Disposition: attachment; filename=revlist-4ac7e09b1f12-5eeb78b3bd0e.txt
 
-bb97ee2cac1ed902311dd7cd4c5c1bcfb59f6d7a ext4: fix race writing to an inline_data file while its xattrs are changing
-f42065a10b3848f9ef981477821c53660bf1cf8b mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
-01373f6322debecdb9e204dca93f443830f4144b xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-cf68f5159462f2344fb67c604c2321bc55e06082 qed: Fix the VF msix vectors flow
-ccc41f94afe76f62250363d028f234dd7f42fb76 qede: Fix memset corruption
-6ceb90377d3119363f8eb0d2181b396e2b0aed4b perf/x86/amd/ibs: Work around erratum #1197
-0d5784a57e336b0b6adb58f7ed60bf1b8fa6542a cryptoloop: add a deprecation warning
-0ad9646f07d592cac8171f18736a220f95f82e3f ARM: 8918/2: only build return_address() if needed
-cd851ac7035d15a429cb7415ec83f31886287919 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-819cfdbfc71b4a71892650eaf515f34739630c7e ath: Use safer key clearing with key cache entries
-b5e3af14207e5c4a29f01459c7d248d96783f993 ath9k: Clear key cache explicitly on disabling hardware
-fc7afde2ab9ddd1b45061c55f0210d56cdfe0b6d ath: Export ath_hw_keysetmac()
-0719a6d6cfb25d688e6f9a365711212b22d47261 ath: Modify ath_key_delete() to not need full key entry
-eba3f31d7e6e83dcbc17cd7af34305f6e95afc4b ath9k: Postpone key cache entry deletion for TXQ frames reference it
-487c4b8a80dd747076ef4d326de8b2c0b0b29d04 media: stkwebcam: fix memory leak in stk_camera_probe
-4e95aed01b456b4f17fd8453960fa58d6be6717b Linux 4.9.283-rc1
+146772207ccc784e3005cc855d789540cff8484b ext4: fix race writing to an inline_data file while its xattrs are changing
+59ee7463080102dd4c555b5bb44e016f57a75988 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+07c727b4e0a7ee6a4d7d3aad651535223162056e gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+a96977602461ebb8865930ea16f6566aa4a4612b qed: Fix the VF msix vectors flow
+a9ce539edfb3a00047780f857f3f696e03b85537 net: macb: Add a NULL check on desc_ptp
+6e9bc59292423f451ebecd78e96fe58c94d8c55e qede: Fix memset corruption
+45570851bcf8fbdabc43182de1bd4fa785fac0ce perf/x86/intel/pt: Fix mask of num_address_ranges
+3d6922656807cde8946b89278ea5f0cef3705b3e perf/x86/amd/ibs: Work around erratum #1197
+af3ff7463de3b9d6af176a49467495182b4fe90c cryptoloop: add a deprecation warning
+21da6f6c646bc7bbc7f8f682a782eb61b78ab357 ARM: 8918/2: only build return_address() if needed
+61125b924a4001a2535c63d2d8c8394eadfddca0 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+1578ee7d60b4c61994ad2293d25e7207dff2ecd6 clk: fix build warning for orphan_list
+b745c8c7eaa2f55e0980818d5d0ce5559a3c54bf media: stkwebcam: fix memory leak in stk_camera_probe
+5eeb78b3bd0e0d6fabb7a308a7a872ae356f0211 Linux 4.19.207-rc1
 
---===============4522295898481965412==--
+--===============3664488453324750678==--
