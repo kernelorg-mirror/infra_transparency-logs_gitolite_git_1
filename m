@@ -1,16 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 06 Sep 2021 22:12:34 -0000
-Message-Id: <163096635443.22232.1548956381589267170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Mon, 06 Sep 2021 22:32:37 -0000
+Message-Id: <163096755798.2971.13031137172340238655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/not-in-next
-    old: 0000000000000000000000000000000000000000
-    new: 28739c59a042eeac8710b2744755987075681e3b
+  - ref: refs/heads/main
+    old: fb843668fbafe314edb0f99901565173b04976b8
+    new: 6d676ad93408800b199fed69f9ee0e4f923a736f
+    log: |
+         2c8110881bacaa039b23e314bca73affaac0a188 ip: remove old rtpr script
+         adddf30cd85fc0191450218905b37a29814d35a2 ip: remove ifcfg script
+         1eaebad2c536b9ef9bd047a45438ae7ed273ee91 ip: remove routef script
+         6d676ad93408800b199fed69f9ee0e4f923a736f ip: rewrite routel in python
+         
+  - ref: refs/heads/master
+    old: fb843668fbafe314edb0f99901565173b04976b8
+    new: 6d676ad93408800b199fed69f9ee0e4f923a736f
+    log: |
+         2c8110881bacaa039b23e314bca73affaac0a188 ip: remove old rtpr script
+         adddf30cd85fc0191450218905b37a29814d35a2 ip: remove ifcfg script
+         1eaebad2c536b9ef9bd047a45438ae7ed273ee91 ip: remove routef script
+         6d676ad93408800b199fed69f9ee0e4f923a736f ip: rewrite routel in python
+         
