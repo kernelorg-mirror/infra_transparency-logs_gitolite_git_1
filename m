@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5732147643503724115=="
+Content-Type: multipart/mixed; boundary="===============8643693008545184589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 06 Sep 2021 09:24:30 -0000
-Message-Id: <163092027096.14778.2499828705947783881@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 09:24:35 -0000
+Message-Id: <163092027509.14844.3346836383355816493@gitolite.kernel.org>
 
---===============5732147643503724115==
+--===============8643693008545184589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 835d31d319d9c8c4eb6cac074643360ba0ecab10
+  - ref: refs/heads/usb-next
+    old: 1b4f3dfb4792f03b139edf10124fcbeb44e608e6
     new: 27151f177827d478508e756c7657273261aaf8a9
-    log: revlist-835d31d319d9-27151f177827.txt
+    log: revlist-1b4f3dfb4792-27151f177827.txt
 
---===============5732147643503724115==
+--===============8643693008545184589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630920269 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630920274 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1630920269-b363a4bf27ee5743e9ce8ee4faace0d6d03be16f
+nonce 1630920273-7546272c782ab7dd5082b34881a26f024d5cb049
 
-835d31d319d9c8c4eb6cac074643360ba0ecab10 27151f177827d478508e756c7657273261aaf8a9 refs/heads/usb-linus
+1b4f3dfb4792f03b139edf10124fcbeb44e608e6 27151f177827d478508e756c7657273261aaf8a9 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE13k0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VOEP/jVVRe8t0nviRdQIud5v
-HVJbin4LlnjA/9LgOqAH+bVSqr4xBwt8y4KG6IE3amZ4D7UH1CIsb4IZFwCKXZKP
-2dDn9yR9HK+Po0rBX854HkVlV0MARldLD4SigNYSXSX2ixnh9ufamjQMAPSB2C04
-IcbIGQ5KzmL06CYdU6FLDpAo29HnaLL9j15lBbr+1LEiBVockRpy+b3JMLjSkHLp
-88fRcx/RMT7x72qFQKw6GMjPYsV0fmOLn/w0PGeI4fc5kdidP4mvXUqPCYANhdCd
-uWmiqOM+Gc0GSzvzYPLI53r39SS5aE/8sUzi5BaljC7MyOgHyiGUsTP9N1EUL3pQ
-6/2Ldh0AYRdp1hWc2rbqlF8VmKln9NnIeQooMB6VqIsszo4NdyDa+/kbp1fnQgzD
-T08N7088AFxZULXQqlVl+1OwvJRHi3RrISV4zJDxIl7xQVZG26s7PjgK1xPBF8qK
-0M6zn1tSbTkkBWTgNTWGY+TTqRCva2wd0fkH9oT8CxRfCp8Y4cNPiN9LlDPKVKD/
-RKPHDwnR9EbDOVVlTs2dt6HeATLKcB+8x2qbkxJwJRbAwJkaOSeaudVUtGU/x1fh
-78oEeBVYCx6kBE5Pgj/LpcvmvlF9lV/6lwI5MYwXQxVARfD7L8B9QPyNXwbGVFeB
-1/OSjf15eb4iLFWnMfo9fXn+
-=AbAS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE13lIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g1QP/1MaJfPtrm9JG7islPou
+8q5UeKH8KcbUGePYkU9eG55ux0+hLXwaQ1QjOzuoe76aReaagHFbqjKAcKYbYZTY
+IzqgVuA2GKfiWQIn8cowhM5O5pyhc76NhOQiMF9uWUBhcPCsLBPVjBW4g3JOMios
+q3Tq3MyBPAd4jC46HzvuQYrVsgldvINmQVCC+DxSXDRNF4XQXtOmMYIDDFmRaU6+
+eTXGNjoMGXCNXwJTfs2LpyZGg+b0IiBmtIleeZwmYpvRSXiiK1oWhDXqym5Ctii6
+8A9Yg50k0aNT5NeD2uYSGWQNk6XY7vlLHKDTwEjw1cHCvvk/TNvesR0aGZr9E2dp
+ij1x3ibDvb8cLm6HAj6W8H4hAb9RF5qJi3o6b64SlLGxivAhN8h9YKC0nx8uNZ/H
+I16bJQKzEmQoTCqWH0RmwCL/HIJxXG8S7CmFw5kNcC2QQ0HKTziwKuq1yzqE+ntK
+7FtEqS7vPXxHVG3H4FRBzNLgve/FnVpiNLsAyB3I2fNYrEhkLzbxU1ZWOgo27MD0
+znemyJLwGPztq7xIerrStWi3nz6bmDHUCjZLNP8PV665nt+lwjVidsTEO5YPfbBY
+u0sg/vdf0GOEOVWLLkAHs8PvN8UjUSpT3fmAtSZ+cSe0UUW1lOpPWu7k9iLSkJ4I
+x2WWiWoRDQTZ1t8p9NbZEFzK
+=kvE9
 -----END PGP SIGNATURE-----
 
---===============5732147643503724115==
+--===============8643693008545184589==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-835d31d319d9-27151f177827.txt
+Content-Disposition: attachment; filename=revlist-1b4f3dfb4792-27151f177827.txt
 
+23825cd148764ce133ee92375da395140d6ccb15 xfs: mark the record passed into btree init_key functions as const
+8e38dc88a67b3c7475cbe8a132d03542717c1e27 xfs: make the keys and records passed to btree inorder functions const
+22ece4e836beff1df528ee09cf21ca5fab7235f5 xfs: mark the record passed into xchk_btree functions as const
+b5a6e5fe0e6840bc90e51cf522d6c5a880cde567 xfs: make the pointer passed to btree set_root functions const
 deb06b9ab6dfa167c280a68d5acb2f12e007073f xfs: make the start pointer passed to btree alloc_block functions const
 60e265f7f85a3d91c368f9284dc6501fa1f41e50 xfs: make the start pointer passed to btree update_lastrec functions const
 32816fd7920b32c24e1720ce387482fb430959fc xfs: constify btree function parameters that are not modified
@@ -465,7 +469,6 @@ a051b2e56f2aa287b37ab0134a8af852f84e3f8e selftests/x86: Fix error: variably modi
 7d8eb202719b967d4794e679bdb40017685e6515 Merge tag 'exynos-drm-next-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-next
 803930ee35fafd005fd978d0c0a0d8db5bcba654 riscv: use strscpy to replace strlcpy
 a290f510a178830a01bfc06e66a54bbe4ece5d2a RISC-V: Fix VDSO build for !MMU
-a65ab973c1669d3edc27719527bb3906f7b09918 USB: serial: replace symbolic permissions by octal permissions
 9b3878a99ad606fe76a50a290273d7b801f0f895 Merge tag 'v5.15-rockchip-driver1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/drivers
 06779631d18ff2901af604eadea0d7b2193db7a1 Merge tag 'reset-for-v5.15' of git://git.pengutronix.de/pza/linux into arm/drivers
 51e321fed0ff8d64eff809a4ee0547254cdcc4a1 soc: aspeed-lpc-ctrl: Fix clock cleanup in error path
@@ -647,7 +650,6 @@ dc2b8edfa3b3e691fa43694c4bd1e16b682393e1 mailbox: qcom: Add support for SM6115 A
 fb339971bfc4266f8af35c7d966f31cf67fe83ce dt-bindings: mailbox: qcom-ipcc: Add compatible for SM6350
 04d2c3b7832c04e1daa27aa29403dff3d819cac3 dt-bindings: mailbox: Add compatible for the MSM8953
 e5c11ee3106072ef4b949eca93db160f55e6b55b mailbox: qcom-apcs-ipc: Add compatible for MSM8953 SoC
-dcf097e7d21fbdfbf20e473ac155f4d154018374 USB: serial: pl2303: fix GL type detection
 7e07b7475b5274b4739511a0d81e29dd8198743b parisc: Replace symbolic permissions with octal permissions
 55b70eed81cba1331773d4aaf5cba2bb07475cd8 parisc: Increase size of gcc stack frame check
 7f2dcc7371c1ab6e5d3678a7eff1cb0eb9725de9 parisc: math-emu: Avoid "fmt" macro collision
@@ -760,8 +762,6 @@ e432fe97f3e5de325b40021e505cce53877586c5 powerpc/bug: Cast to unsigned long befo
 79e7ed56d7e8899827d977d9dbd381b0ddb7a52a perf evlist: Add evlist__for_each_entry_from() macro
 8af52e69772d053bc7caab12ad1c59f18ef2e3e2 tools build: Fix feature detect clean for out of source builds
 ecd95673142ef80169a6c003b569b8a86d1e6329 fs: dlm: avoid comms shutdown delay in release_lockspace
-2037e5d6fbbcee276a10737a0ed40694dcd2d071 Merge tag 'usb-serial-5.15-rc1-2' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-1b4f3dfb4792f03b139edf10124fcbeb44e608e6 Merge tag 'usb-serial-5.15-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 477f70cd2a67904e04c2c2b9bd0fa2e95222f2f6 Merge tag 'drm-next-2021-08-31-1' of git://anongit.freedesktop.org/drm/drm
 5049307d37a760e304ad191c5dc7c6851266d2f8 HID: usbhid: Fix flood of "control queue full" messages
 0a824efdb724e07574bafcd2c2486b2a3de35ff6 HID: usbhid: Fix warning caused by 0-length input reports
@@ -1082,4 +1082,4 @@ e07af2626643293fa16df655979e7963250abc63 Merge tag 'arc-5.15-rc1' of git://git.k
 58ca24158758f1784400d32743373d7d6227d018 Merge tag 'trace-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 27151f177827d478508e756c7657273261aaf8a9 Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============5732147643503724115==--
+--===============8643693008545184589==--
