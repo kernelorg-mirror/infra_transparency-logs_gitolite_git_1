@@ -1,75 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4902173789455599599=="
+Content-Type: multipart/mixed; boundary="===============2099021719248613169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 06 Sep 2021 11:21:32 -0000
-Message-Id: <163092729201.26894.9040129503279297704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Mon, 06 Sep 2021 11:23:25 -0000
+Message-Id: <163092740554.27537.17029290822994570442@gitolite.kernel.org>
 
---===============4902173789455599599==
+--===============2099021719248613169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-next
-    old: cef3c0ee15dc87e348ec8cdfbd175ad6f6592a86
-    new: 7bc7f61897b66bef78bb5952e3d1e9f3aaf9ccca
-    log: revlist-cef3c0ee15dc-7bc7f61897b6.txt
-  - ref: refs/heads/vhost
-    old: cef3c0ee15dc87e348ec8cdfbd175ad6f6592a86
-    new: 7bc7f61897b66bef78bb5952e3d1e9f3aaf9ccca
-    log: revlist-cef3c0ee15dc-7bc7f61897b6.txt
-  - ref: refs/tags/for_linus
-    old: 8f1c45caf8d87ecbd5baea692df86b533055a0c2
-    new: e9e892987df02ebbf192148e68ddfc697cbd0bad
-    log: revlist-8f1c45caf8d8-e9e892987df0.txt
+  - ref: refs/heads/next
+    old: a3cf527e70bd1553500746ef2f38db41e2af1d9e
+    new: d9130a2dfdd4b21736c91b818f87dbc0ccd1e757
+    log: |
+         4ac214574d2d83b7ef20c603d75f1937c912bfd6 KVM: MMU: mark role_regs and role accessors as maybe unused
+         d9130a2dfdd4b21736c91b818f87dbc0ccd1e757 KVM: x86: Update vCPU's hv_clock before back to guest when tsc_offset is adjusted
+         
+  - ref: refs/tags/for-linus
+    old: f7a05e4d31bb0eb79d46b38eaa7837fbd9c3e0f1
+    new: 0ae48bca7c5ba0731b22c42349779f2a6df35f90
+    log: |
+         4ac214574d2d83b7ef20c603d75f1937c912bfd6 KVM: MMU: mark role_regs and role accessors as maybe unused
+         d9130a2dfdd4b21736c91b818f87dbc0ccd1e757 KVM: x86: Update vCPU's hv_clock before back to guest when tsc_offset is adjusted
+         
 
---===============4902173789455599599==
+--===============2099021719248613169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cef3c0ee15dc-7bc7f61897b6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-81a83d7f4cfcb255c040df09ce83249fabf8733a virtio-balloon: Use virtio_find_vqs() helper
-6105d1fe6f4c24ce8c13e2e6568b16b76e04983d virtio-blk: remove unneeded "likely" statements
-a93a962669cdbe56bb0bcd88156f0f1598f31c88 iova: Export alloc_iova_fast() and free_iova_fast()
-7a6b92d33ab166c6ea6e5764033ca99dcb6ec361 eventfd: Export eventfd_wake_count to modules
-9c930054f2f5326d59ee4bf8d7d1cf6c82f5643b file: Export receive_fd() to modules
-86e17a51c1a5a299009f8b1645e3e9da0d59faae vdpa: Fix some coding style issues
-0686082dbf7a204ca0fab326a820779e31666639 vdpa: Add reset callback in vdpa_config_ops
-7f05630dc65d62df5d55ad3e1038ffbe5e2ce9c3 vhost-vdpa: Handle the failure of vdpa_reset()
-59dfe4f1e810b5820443c84f9863b04b033143e8 vhost-iotlb: Add an opaque pointer for vhost IOTLB
-c10fb9454adc80c062151c6a436047e1fa59e99f vdpa: Add an opaque pointer for vdpa_config_ops.dma_map()
-22af48cf91aae5f2fd32fe811d9be1c52d7a801b vdpa: factor out vhost_vdpa_pa_map() and vhost_vdpa_pa_unmap()
-d8945ec411209272bcd4ae9e75ea1b078257e492 vdpa: Support transferring virtual addressing during DMA mapping
-8c773d53fb7b64267b0f55c1d3517cb8c5e29b3c vduse: Implement an MMU-based software IOTLB
-c8a6153b6c59d95c0e091f053f6f180952ade91e vduse: Introduce VDUSE - vDPA Device in Userspace
-7bc7f61897b66bef78bb5952e3d1e9f3aaf9ccca Documentation: Add documentation for VDUSE
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1630927403 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1630927403-9b4cb1dfaf9ba1fa68c3fd8224f0c920bcfa1140
 
---===============4902173789455599599==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f1c45caf8d8-e9e892987df0.txt
+a3cf527e70bd1553500746ef2f38db41e2af1d9e d9130a2dfdd4b21736c91b818f87dbc0ccd1e757 refs/heads/next
+f7a05e4d31bb0eb79d46b38eaa7837fbd9c3e0f1 0ae48bca7c5ba0731b22c42349779f2a6df35f90 refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
 
-81a83d7f4cfcb255c040df09ce83249fabf8733a virtio-balloon: Use virtio_find_vqs() helper
-6105d1fe6f4c24ce8c13e2e6568b16b76e04983d virtio-blk: remove unneeded "likely" statements
-a93a962669cdbe56bb0bcd88156f0f1598f31c88 iova: Export alloc_iova_fast() and free_iova_fast()
-7a6b92d33ab166c6ea6e5764033ca99dcb6ec361 eventfd: Export eventfd_wake_count to modules
-9c930054f2f5326d59ee4bf8d7d1cf6c82f5643b file: Export receive_fd() to modules
-86e17a51c1a5a299009f8b1645e3e9da0d59faae vdpa: Fix some coding style issues
-0686082dbf7a204ca0fab326a820779e31666639 vdpa: Add reset callback in vdpa_config_ops
-7f05630dc65d62df5d55ad3e1038ffbe5e2ce9c3 vhost-vdpa: Handle the failure of vdpa_reset()
-59dfe4f1e810b5820443c84f9863b04b033143e8 vhost-iotlb: Add an opaque pointer for vhost IOTLB
-c10fb9454adc80c062151c6a436047e1fa59e99f vdpa: Add an opaque pointer for vdpa_config_ops.dma_map()
-22af48cf91aae5f2fd32fe811d9be1c52d7a801b vdpa: factor out vhost_vdpa_pa_map() and vhost_vdpa_pa_unmap()
-d8945ec411209272bcd4ae9e75ea1b078257e492 vdpa: Support transferring virtual addressing during DMA mapping
-8c773d53fb7b64267b0f55c1d3517cb8c5e29b3c vduse: Implement an MMU-based software IOTLB
-c8a6153b6c59d95c0e091f053f6f180952ade91e vduse: Introduce VDUSE - vDPA Device in Userspace
-7bc7f61897b66bef78bb5952e3d1e9f3aaf9ccca Documentation: Add documentation for VDUSE
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmE1+isUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMo/wf7BYY/wXUWYLmCTE9VPnCuQRie+Z2V
+m8T+DsmSiwUT4SMNfafSnOeURX15HumyliGvjtUbujyyKPcy7GT7WmKPSq1Npi/m
+stucxKcSGelckWRpBxtPdVyBqNKtXOqXeJNUrutf9yCiQ36jY3iBGtohUYWfnsSe
+xnY6flKFNY50nwrca2Z19sN6UN8CbbXvFW3xIDz8zlsxvHAQmOJIJGS1aEcx5C7k
+goSZF0HdtUQALNTBriN0+TnP85Q5PBQ5ebKHtniE/Yl1JQN801toi0CmVzpSihTb
+tDI9L7g3J8A7Ma74S+M6fGvQZsHFz4AE9gbw7UR6c6pbSobmyXThnLgFlw==
+=UWJq
+-----END PGP SIGNATURE-----
 
---===============4902173789455599599==--
+--===============2099021719248613169==--
