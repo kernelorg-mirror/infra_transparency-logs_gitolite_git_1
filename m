@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0454368376364284777=="
+Content-Type: multipart/mixed; boundary="===============1656317724616605738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 06 Sep 2021 07:00:01 -0000
-Message-Id: <163091160102.29522.14636460429686929167@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 07:06:02 -0000
+Message-Id: <163091196243.2148.11090245412160564300@gitolite.kernel.org>
 
---===============0454368376364284777==
+--===============1656317724616605738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,141 +16,152 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: a910a8efc9ed03f8a31547bdab02f1e737f8f3d0
-    new: 6eca64daecb7ff8f5b888c850387f0cbcf5de1bd
+    old: 6eca64daecb7ff8f5b888c850387f0cbcf5de1bd
+    new: 45ba24e2ff299c8507a711ab24d9ae28f54569b4
     log: |
-         43f8143a310845db2967e7166332926d89840d33 ext4: fix race writing to an inline_data file while its xattrs are changing
-         c1bd6056c821d5a48ee12e7149ec926d36afce96 qed: Fix the VF msix vectors flow
-         3d703803cf8d2a4e22ba41f11ebf8d09414d0392 net: macb: Add a NULL check on desc_ptp
-         444fc8c6bc00a5b94502808e3a0d093c56f3f7a2 qede: Fix memset corruption
-         85d6899813ff2682c4f6f5174ebc1d284bff4a38 perf/x86/intel/pt: Fix mask of num_address_ranges
-         acc99d44dd8c8158fe339b7cd683490c762f2a1e perf/x86/amd/ibs: Work around erratum #1197
-         6eca64daecb7ff8f5b888c850387f0cbcf5de1bd cryptoloop: add a deprecation warning
+         8031f15a556ecf554cf0e5ddc1f1f2bf8fc37330 ext4: fix race writing to an inline_data file while its xattrs are changing
+         32904074a2c1e98f3a8cda742b199267cd6a1e9c xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+         2f47f7537006527b4c7515670ec33cad49ae4f9e qed: Fix the VF msix vectors flow
+         d9756d82b2a51c412082f2ac2b40483a0d9e8546 net: macb: Add a NULL check on desc_ptp
+         c050c83a9c51d597415008eca9e22fd7fa1de8b2 qede: Fix memset corruption
+         56ad72274f6db4c898e3542082f60959a892c00b perf/x86/intel/pt: Fix mask of num_address_ranges
+         027ef7343c7ec928526056f14971390db8ebbe6b perf/x86/amd/ibs: Work around erratum #1197
+         434b92914eedfd874dae1b5ef6b9a613c556abcd cryptoloop: add a deprecation warning
+         45ba24e2ff299c8507a711ab24d9ae28f54569b4 ARM: 8918/2: only build return_address() if needed
          
   - ref: refs/heads/queue/4.19
-    old: 9680cb21a7687d3cb16e0cbe630b013952dcd61d
-    new: eb7d5ea90b31646f39f366617b974469aa6d9989
+    old: eb7d5ea90b31646f39f366617b974469aa6d9989
+    new: 18360374ea96ef890b66e9b05483916dc57fd5e9
     log: |
-         0e3377e92b90fe7751e2c753e2911dbd8b60c80e ext4: fix race writing to an inline_data file while its xattrs are changing
-         859b0b642a77f7d549b5c06ea50126aad0211574 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-         e1202bcb66416dfeb468ea668b7ebb2284e764fa qed: Fix the VF msix vectors flow
-         19efb7b4c24bb48278170ec50afc57ab5e6ba519 net: macb: Add a NULL check on desc_ptp
-         621bc920180b8b6829b59b1c878c5a3faf773f59 qede: Fix memset corruption
-         a9796a0972c121b98395345693924176efb6d9cc perf/x86/intel/pt: Fix mask of num_address_ranges
-         760d7e414166323d52d1b08045f759e408a41193 perf/x86/amd/ibs: Work around erratum #1197
-         eb7d5ea90b31646f39f366617b974469aa6d9989 cryptoloop: add a deprecation warning
+         095a507e68682e6cbb09787f3cfbe3a376f28494 ext4: fix race writing to an inline_data file while its xattrs are changing
+         151731f4d518f386727311706ccf71778fe45e41 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+         6916bf9dbfeb88c16ab4a1e11940c50853d6532f gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+         752b6a9f9325c59a4bcccc6f20a32408feda7b11 qed: Fix the VF msix vectors flow
+         1e86f7fb2a6800fb5bec76c97068031ca6fede5b net: macb: Add a NULL check on desc_ptp
+         413a663172893640e8f3a37f1db753d6c300d2f6 qede: Fix memset corruption
+         9fe290b18808ac9ece3fae5cd927aa0782d047e1 perf/x86/intel/pt: Fix mask of num_address_ranges
+         591900ce83b99f3a2cec109f712a35e82668eef5 perf/x86/amd/ibs: Work around erratum #1197
+         40c21f86ac936e08b4aede4b95274156ac29319c cryptoloop: add a deprecation warning
+         18360374ea96ef890b66e9b05483916dc57fd5e9 ARM: 8918/2: only build return_address() if needed
          
   - ref: refs/heads/queue/4.4
-    old: 26ab67484bd2a9a534f1bceaa26b9da33c02c5ac
-    new: 490883464c7a1c5745581a149812740b6664fcb3
+    old: 490883464c7a1c5745581a149812740b6664fcb3
+    new: 60060d7360c9d0eb5d13b9c7f99138662fa89dc4
     log: |
-         bf3d5ed0bb62fbf9d47f214413120e73116b18bf ext4: fix race writing to an inline_data file while its xattrs are changing
-         ed8cd0907c285277b9b8d917e7d9776761e1355a xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-         c35e38d27cbc3f3b5bd4bc28cbb6dfa4de310810 ARC: fix allnoconfig build warning
-         511ad8ac7a61525bde55396159c99e39618203bc qede: Fix memset corruption
-         490883464c7a1c5745581a149812740b6664fcb3 cryptoloop: add a deprecation warning
+         ea0bf51ac511562cf6476f5f965406b99fccb176 ext4: fix race writing to an inline_data file while its xattrs are changing
+         c0246b0325f837fd6e85b058ded990af4e95ed32 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+         8ade42f3ef1938e131ee2f60c021ac61fa96dfbd ARC: fix allnoconfig build warning
+         e54eff309216e4775fdb3766d918b22e7025591e qede: Fix memset corruption
+         50af335549d252741854fdc1315dc5b37f98caac cryptoloop: add a deprecation warning
+         60060d7360c9d0eb5d13b9c7f99138662fa89dc4 ARM: 8918/2: only build return_address() if needed
          
   - ref: refs/heads/queue/4.9
-    old: 3c5ddad1e41ab968cebad965ca78f61aa134ed63
-    new: ff1bd46323db985ea9779b99f80e668761a1bec4
+    old: ff1bd46323db985ea9779b99f80e668761a1bec4
+    new: 89e31ec8170a8b4672853454bf96031355291d11
     log: |
-         b77c3474c509cc95023953ad6e949fceabb3abbe ext4: fix race writing to an inline_data file while its xattrs are changing
-         63a45a7be53a8997f885cc0009372dc96f2a4243 mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
-         2f3a867749ba6adeddb43b46a09f672214ea1acc qed: Fix the VF msix vectors flow
-         2bb418cf5d4d524a897f0f3f672cec84f2e9a80d qede: Fix memset corruption
-         4d2eb8ff41d4cfe57024f176d90bdf3072ea9442 perf/x86/amd/ibs: Work around erratum #1197
-         ff1bd46323db985ea9779b99f80e668761a1bec4 cryptoloop: add a deprecation warning
+         31a22c03e8e76794a340c05a2846ea5096dc9aff ext4: fix race writing to an inline_data file while its xattrs are changing
+         613ebe44e635901e3b40bc0843df08bf484b33da mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
+         165c28a79e715fb3bd3276dcaa1b1efb9a3b5885 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+         21b2624245c6bc21def0c06b4b7769787e436627 qed: Fix the VF msix vectors flow
+         5c71afb1e164a4920dee0afe04f102327e509fd1 qede: Fix memset corruption
+         57aea46bd93106c2031c3345a18f85544ad8afbb perf/x86/amd/ibs: Work around erratum #1197
+         18c50d402f1982fae1c1b214403d414f965f0d57 cryptoloop: add a deprecation warning
+         89e31ec8170a8b4672853454bf96031355291d11 ARM: 8918/2: only build return_address() if needed
          
   - ref: refs/heads/queue/5.10
-    old: d5364e38d274856f4af7d339679f91e1b865e46c
-    new: 6e2b567780a80e95370a068a15fa0e6b118fe92f
-    log: revlist-d5364e38d274-6e2b567780a8.txt
+    old: 6e2b567780a80e95370a068a15fa0e6b118fe92f
+    new: 02eafcabc7ee35426ff14d7de466ba1be84546b3
+    log: revlist-6e2b567780a8-02eafcabc7ee.txt
   - ref: refs/heads/queue/5.13
-    old: 3835d2f168e480dd434ecf41382b9ce2cf430c8b
-    new: 1c9e84c5f4f13a05b94b7dc45541f6e5003cacb8
-    log: revlist-3835d2f168e4-1c9e84c5f4f1.txt
+    old: 1c9e84c5f4f13a05b94b7dc45541f6e5003cacb8
+    new: f9121bcdcc097dbaef4bc50b79b8896edde4a36f
+    log: revlist-1c9e84c5f4f1-f9121bcdcc09.txt
   - ref: refs/heads/queue/5.14
-    old: 1f34a835c69c0523592e0afb3d59c4762b44c92a
-    new: c4730c8238ca80defd9aee4c2a1b40e85fcd9113
+    old: c4730c8238ca80defd9aee4c2a1b40e85fcd9113
+    new: 4ca8e334201675c2186e798f7fa36c9b45d41076
     log: |
-         558e27b5888d14069f5a09dfb46c98f54660ffa1 ext4: fix race writing to an inline_data file while its xattrs are changing
-         c4730c8238ca80defd9aee4c2a1b40e85fcd9113 ext4: fix e2fsprogs checksum failure for mounted filesystem
+         a5f6fe63e2a7a52194808ed887e6a4b5d13e267a ext4: fix race writing to an inline_data file while its xattrs are changing
+         cf31474e1e79c7d6c94d61577da2b4ed29872851 ext4: fix e2fsprogs checksum failure for mounted filesystem
+         4ca8e334201675c2186e798f7fa36c9b45d41076 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
          
   - ref: refs/heads/queue/5.4
-    old: 5eec6ce4404bdf85a36dbf45d2bc9d3615c27eee
-    new: 65d46c0df3ff4fe8ca63e7f1929cbb529f920cf4
-    log: revlist-5eec6ce4404b-65d46c0df3ff.txt
+    old: 65d46c0df3ff4fe8ca63e7f1929cbb529f920cf4
+    new: af318e5ddb774dd742d48c2dd6bbe1edf18febff
+    log: revlist-65d46c0df3ff-af318e5ddb77.txt
 
---===============0454368376364284777==
+--===============1656317724616605738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5364e38d274-6e2b567780a8.txt
+Content-Disposition: attachment; filename=revlist-6e2b567780a8-02eafcabc7ee.txt
 
-8791ef90d721aa07076c4ce7b102ccfa8aeace6b ext4: fix race writing to an inline_data file while its xattrs are changing
-b839f76c9aad0523791fd493ef49fe7670cd70e5 fscrypt: add fscrypt_symlink_getattr() for computing st_size
-b41bf3cfeb76a1ec5888fc18b80744258d8e9567 ext4: report correct st_size for encrypted symlinks
-f534022ecd1d5c76b3be33fc782c9841e8bbf51e f2fs: report correct st_size for encrypted symlinks
-6df181da6faf5479dc596e4f2810000c8fa1d99e ubifs: report correct st_size for encrypted symlinks
-5ed43ed26f276b7b8cfa65d6d35e8d2a9d239955 Revert "ucounts: Increase ucounts reference counter before the security hook"
-6d541bf7098c8e0782bfc898a445a0f1fefc1790 Revert "cred: add missing return error code when set_cred_ucounts() failed"
-75ba2787fc52e1ce77584a27008e59267fab59e4 Revert "Add a reference to ucounts for each cred"
-b54855cd43fda77a2ab6ade3c9f47bd1f9a95b75 static_call: Fix unused variable warn w/o MODULE
-92b2488b0f4e8cf3cc12f28e95af9a61b6d3511b xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-e832a5253a600ec865199e6bfbbdf201a19b465b ARM: OMAP1: ams-delta: remove unused function ams_delta_camera_power
-683388a355b0b03ced99ce5c804b28551b753139 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-c20bd4101793418a5f9085deee6e821b4b03438f reset: reset-zynqmp: Fixed the argument data type
-f5032720047eb36c981d59e9375b4b508a76f3b2 qed: Fix the VF msix vectors flow
-50f10c08b41b56c67382f9d0bcec83d36dc0a80f net: macb: Add a NULL check on desc_ptp
-2d93b7737bdc2a0fdd62e075ce2f629bc685ab60 qede: Fix memset corruption
-cca2267a354dbf249489f816b31163bc48809ad0 perf/x86/intel/pt: Fix mask of num_address_ranges
-4a620a7c2fae8a4c723bad73612e750d33441e5c ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
-554722b2d30a5b06c2e793497b0da7bd6ba5a3c6 perf/x86/amd/ibs: Work around erratum #1197
-394396fdeab2d9f6de2230932a737076b6bfb11f perf/x86/amd/power: Assign pmu.module
-6e2b567780a80e95370a068a15fa0e6b118fe92f cryptoloop: add a deprecation warning
+92d602ac9389c3a3947d59694c57b8cc16da84f0 ext4: fix race writing to an inline_data file while its xattrs are changing
+958a7bff2f5a2a8303d0aabccbec922432c7a05a fscrypt: add fscrypt_symlink_getattr() for computing st_size
+50925b4f8457b390c8960acbafa35d85f6c0662a ext4: report correct st_size for encrypted symlinks
+5f71ae12093364f2ec5fecffca97343f13c449ed f2fs: report correct st_size for encrypted symlinks
+eac3b274ee680b437ff045e675b22f2ce0e981cd ubifs: report correct st_size for encrypted symlinks
+69caef9ba614759849d15a8fc8ed9cb23afebe7b Revert "ucounts: Increase ucounts reference counter before the security hook"
+13c2071ded51b248b33d8e515af7f7639eb93733 Revert "cred: add missing return error code when set_cred_ucounts() failed"
+6c317bc57dd215a26eb4e56bb39986553293a3ea Revert "Add a reference to ucounts for each cred"
+449ae9178a5db46f25a3485748171a52ceecc194 static_call: Fix unused variable warn w/o MODULE
+b4a1f3ef5123691a3061532a2bc77312bacbdb05 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+f791b68c36b1c28bb7616cb6aca84cdc9eca02b6 ARM: OMAP1: ams-delta: remove unused function ams_delta_camera_power
+68d1b32d67f57f994b4d3668822cda404b3bafac gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+76640d52b487119b0492874677e835d3656e8ec4 reset: reset-zynqmp: Fixed the argument data type
+15619f95ba10306de9a9e7e576c18cbf4eb33728 qed: Fix the VF msix vectors flow
+4fb7a29a1885cc2b5dd77307d1d2b9e06a25b05e net: macb: Add a NULL check on desc_ptp
+44dd36184176909720d995610fba2483f3544356 qede: Fix memset corruption
+bf4a502e47b7229b34897fdce48789f12ee63bdf perf/x86/intel/pt: Fix mask of num_address_ranges
+9425c29f39711032d184eced346ad3c4a158d942 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
+b9d2a2598183ea370764a56d4317b2c607a5f6fd perf/x86/amd/ibs: Work around erratum #1197
+33a59915d142c5eafc96ec29703181691e8a1f5b perf/x86/amd/power: Assign pmu.module
+02eafcabc7ee35426ff14d7de466ba1be84546b3 cryptoloop: add a deprecation warning
 
---===============0454368376364284777==
+--===============1656317724616605738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3835d2f168e4-1c9e84c5f4f1.txt
+Content-Disposition: attachment; filename=revlist-1c9e84c5f4f1-f9121bcdcc09.txt
 
-6b9695ac84edd3268a53b98b72b7ce1495f6d31a ext4: fix race writing to an inline_data file while its xattrs are changing
-29c15d41658fdc55cf76c6761f3632d1ec60adf6 ext4: fix e2fsprogs checksum failure for mounted filesystem
-ffdaf05eec60e0493eea6b046a2caca96b8477f3 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-48262eaceb4a1884854594822bc5c5d815ec780b reset: reset-zynqmp: Fixed the argument data type
-29ca560c64581adb852bef4e7aee389f038aab2b qed: Fix the VF msix vectors flow
-996b58328d720815eeae1f96b0a540ba4f8696bb net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
-b144391a6192f61851238af5495afa27c80917c4 riscv: dts: microchip: Use 'local-mac-address' for emac1
-d22da33bf0a86874bc297a5fb27c9e7db054ea65 riscv: dts: microchip: Add ethernet0 to the aliases node
-68db06ce7a893f6dd768e91b318fa867619820d4 net: macb: Add a NULL check on desc_ptp
-9a91312f8de2cff77188b3e99e0e666e8dbf7470 qede: Fix memset corruption
-5302a106476cd362d5a0f819d5ad2e8c32748826 perf/x86/intel/pt: Fix mask of num_address_ranges
-7c8241e10c100e9f3af66c70d5ed65cf79da6387 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
-58e555e93e57d032295dc86d62a5bb4674546c68 perf/x86/amd/ibs: Work around erratum #1197
-4bb06ecf5129b7457629d37443a751dcd2c5bf50 perf/x86/amd/power: Assign pmu.module
-1c9e84c5f4f13a05b94b7dc45541f6e5003cacb8 cryptoloop: add a deprecation warning
+cb91537f3ab054812be87623084f3dc380501fcb ext4: fix race writing to an inline_data file while its xattrs are changing
+d5818cdad66922d84769330dd827e76113e4cc6f ext4: fix e2fsprogs checksum failure for mounted filesystem
+76512b2435ed9f0953f53431eaaa89394b0f0fad gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+f495d30f297b1f298e412eb827c0ea4dda65400c reset: reset-zynqmp: Fixed the argument data type
+7fe63d066371cb7e1f1e7a42b1aa7685201aa0e3 qed: Fix the VF msix vectors flow
+0558daaca1455eb34646578637e0a797c1175833 net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
+74962bff8899a4f4c2ecea0ea149195c0b831431 riscv: dts: microchip: Use 'local-mac-address' for emac1
+b6102741c0ec6efe7ad6437455d9b980b031b9ca riscv: dts: microchip: Add ethernet0 to the aliases node
+6d07437eb9fbd8b996056aa6fc416d145511c92a net: macb: Add a NULL check on desc_ptp
+d606c45032e0c14b0c207ed8e7d07721df436123 qede: Fix memset corruption
+ebeb54d8e8d211f418a7d8e15ce295f8b8fdc649 perf/x86/intel/pt: Fix mask of num_address_ranges
+a600f5f71af633951e37687b914135bd8b8f9c21 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
+4d11ebdec4d2d4a45d5c2c821c7276cd27d82395 perf/x86/amd/ibs: Work around erratum #1197
+366a2237baac8753fecd578a8a1b1c8561148746 perf/x86/amd/power: Assign pmu.module
+9a20f38412eef47601704dc6b89a6620e89c1bb0 cryptoloop: add a deprecation warning
+f9121bcdcc097dbaef4bc50b79b8896edde4a36f xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
 
---===============0454368376364284777==
+--===============1656317724616605738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5eec6ce4404b-65d46c0df3ff.txt
+Content-Disposition: attachment; filename=revlist-65d46c0df3ff-af318e5ddb77.txt
 
-caa08a6d82fbdf193e29adfba7d11f8810bb63af ext4: fix race writing to an inline_data file while its xattrs are changing
-a6093fbbdabaf3ebd19b2352143dba277dcf1c59 fscrypt: add fscrypt_symlink_getattr() for computing st_size
-54aa0ff3c1d017e8c0283b0eb0d1c946fc9e73cc ext4: report correct st_size for encrypted symlinks
-069734f383b874c8f171f8e18d8740faa6128d7d f2fs: report correct st_size for encrypted symlinks
-ef96f0fe39ea17da93be50cef6098651c80b5f66 ubifs: report correct st_size for encrypted symlinks
-02756ccecf61be5463247e26f0a67a75067e374d kthread: Fix PF_KTHREAD vs to_kthread() race
-1ea91ea3c2a154d2701d1dbe68d17f3190b85e06 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-e8280a584e588d82027e273f6f8fa8b8133480dd reset: reset-zynqmp: Fixed the argument data type
-3cce75b04521bd5a427abd8c14dd6a07d4b75256 qed: Fix the VF msix vectors flow
-244add0146ed438cdd42192ff50929da8997bea7 net: macb: Add a NULL check on desc_ptp
-29063f42cd72eaaf9e62e1d2646372776c338ac6 qede: Fix memset corruption
-3b62599b23a64e43c8d920ee5aa9e24c96f70945 perf/x86/intel/pt: Fix mask of num_address_ranges
-f360107b03ac08d6ec543d28803dc8efced3cb58 perf/x86/amd/ibs: Work around erratum #1197
-97a68dc2b94d5ac613d342ce4815ef1dcb6e1d8d perf/x86/amd/power: Assign pmu.module
-65d46c0df3ff4fe8ca63e7f1929cbb529f920cf4 cryptoloop: add a deprecation warning
+84cd363bfcac1481545e45f7bb9511226da3cdbd ext4: fix race writing to an inline_data file while its xattrs are changing
+4aad55ab663dfeceeb71328b4a800e306db2099b fscrypt: add fscrypt_symlink_getattr() for computing st_size
+0c556f10032b11ad30105b37ad6c601dc0bc2f76 ext4: report correct st_size for encrypted symlinks
+185342b3d5bc15341abe19153fe1fc7e6482bf75 f2fs: report correct st_size for encrypted symlinks
+fb13428bd90d1d379cba457d01953144faf3a848 ubifs: report correct st_size for encrypted symlinks
+bcf491c7741fc2a5e289411219b2666d6df06f9d kthread: Fix PF_KTHREAD vs to_kthread() race
+3cc787d16d1135e59967a3e49681ddea2cc1dfe4 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+877f985495a5002eb0ab7165674330287c0359c0 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+f50554da7024f0d6da66b63f623f183f54da1984 reset: reset-zynqmp: Fixed the argument data type
+6a212717e3c7eb99de4362d155de354350d0bb59 qed: Fix the VF msix vectors flow
+7a58c9a892cbe395d092146c3f2000bbefdd996b net: macb: Add a NULL check on desc_ptp
+a69abc5ed3518e8fea74ef45bb2d83cfc55797f5 qede: Fix memset corruption
+a3f22fef7ca4240125b059834805086e7ec4e14c perf/x86/intel/pt: Fix mask of num_address_ranges
+09db3983632635928f2042e66317de070cab2a23 perf/x86/amd/ibs: Work around erratum #1197
+888c1787331d55df5295688f45e53022a6354593 perf/x86/amd/power: Assign pmu.module
+fc31a3944558a50cdd0c6e2a348ce0c26fad3bce cryptoloop: add a deprecation warning
+af318e5ddb774dd742d48c2dd6bbe1edf18febff ARM: 8918/2: only build return_address() if needed
 
---===============0454368376364284777==--
+--===============1656317724616605738==--
