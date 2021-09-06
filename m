@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2908506276288501523=="
+Content-Type: multipart/mixed; boundary="===============7323371690652486178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 06 Sep 2021 09:21:48 -0000
-Message-Id: <163092010854.13306.16537256314189786175@gitolite.kernel.org>
+Message-Id: <163092010892.13337.4775745820078514366@gitolite.kernel.org>
 
---===============2908506276288501523==
+--===============7323371690652486178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: c6bf0ed9d1a727fcd98f6a52bbdd2afbdfb44924
-    new: e66631b2bcfe6400b2bb94bb119140e081d4853e
-    log: revlist-c6bf0ed9d1a7-e66631b2bcfe.txt
+  - ref: refs/heads/linux-5.13.y
+    old: a603798fb16829e56f80f57879611e67bba4910d
+    new: 9417330b33c44be91ccaf471432c1103c44c9ae4
+    log: revlist-a603798fb168-9417330b33c4.txt
 
---===============2908506276288501523==
+--===============7323371690652486178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630920106 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630920107 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1630920103-f8719dc2bf8fd6516ad91cdeafd488d5def217fe
+nonce 1630920105-12990cfeef2d3ddbd571b2f09f036394d612cdf7
 
-c6bf0ed9d1a727fcd98f6a52bbdd2afbdfb44924 e66631b2bcfe6400b2bb94bb119140e081d4853e refs/heads/linux-5.4.y
+a603798fb16829e56f80f57879611e67bba4910d 9417330b33c44be91ccaf471432c1103c44c9ae4 refs/heads/linux-5.13.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE13aobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Iv4QAKBN2ovGFTKI9b9o9gRl
-dtmnefMdE1hXwZy22hdPUNcq6cJvmA7OOI7IkMnh+8AJ+W48+PJs+w1AWY1yruEK
-WmMR2O/TNcA6m3V5wN6E/SCmrvPPkOUVpCjWbUVI6QFOAsxu0a00ltaJa4VyAaOX
-NZ+S8JX1Cxv7O7sxs1Xjz0U+ooaHDGXB8FcY8HdaTZvGgKPp4zqwzq+zXOIk1oss
-5PItaD2wk5Tmv0eDa1zZRSQqsb2gdr8i0Ds0t6mC4NE8uZNbM0CeJs9RiIlfypIK
-CCWXT+GE96p0P7ynXIZkgIwqu9GMB3mJ3b+na8KKkGfjToTUVw+EAIjjaION7p9A
-H3s/MwfgsLrCcLucTNIIr+C0gqkMmZYpg49+GaCasvS3EKtdDAG+rbBg2La8k4yp
-Upn3zSB6kE6CxAW/cZQpbQ50u8KhZhQoye7yoeR3YGY8QQIMyyGSUOwtmg5iizqR
-36OSadDL/pcz1ZfYY5KQcjuKYZZzZnj+4KbKO/ADxwgSiQTtj9jq1L9NP3jcVJqB
-LVQhh1/vkjJW7BeZuSiH1vFS3nnD1A1glQ3nE0vgkZ8ycx2iW+WfTNVgdAkb5VTJ
-NSGZFlNXo1qsmKAOmk9W/y+3sImTYwg2urP1wotJLjbr4WfIgLmoW55WyYcc8dsu
-aCQY3WVYVOnLltJPx4dUn2IH
-=4CDi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE13asbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N7oP/A9STvATKaieCpEzjOXf
++UIfat+6GgMnjIVIHZHd59SW/lrUUjurC3SvBimoc86QkeVxdir41AO+P7j68KZ1
+Hoer9HV0b4IHrmfBDcGy3bpQxZ1dD3IVhA573AMXv4m1r3HIN+mYJabWJpBMprEu
+leCjx0HGasdXXy2WaavtFNigdHMwf75YbLx4p7AExrUdpX+AzFI7RRnOwx4haIBf
+cLNPMOwAhEGhjpqiYmHJVJI7s1BADRkIfwonic6H2L1lvFaOl8/fE6HYlRnk0cur
+MnIid2dudWPGvMJ8zHGaHDWn9Ljv87hlI3gM1wKkyxXtZ2aBHfw4Q55oFJz5y5nO
+pHWcki2nDa2bTB1xhsohCckqEzkyy1xpszKYVP8ZFLR9ITcjA6XCmO2L+dxBKdQz
+FdM+WCKhXceZnvFE0Ei4IKAOpMfHm2GimJsJI0Odc/gq8qAegf1fAwZYqpTrbkQN
+y3693KBNnmJEBzu09U9Fb+0Z3kLsjHFWHl+NUaplDvbyoSENTHmGZ04rrwm6oDXB
+FvRKf1VjCIRizJ/BIblo0zBmPxQv2nynjQblqiJAtLX0g22H8WOgpaRr/eXM6dU+
+LPL8grKYn1lVEYKDJ8CH2EPKIRoUhmHW36siZK0gFly1DREbusPqHa22B/o/5nyo
+1yGIJcoheW+dV9BSVMWnLV8x
+=5+/T
 -----END PGP SIGNATURE-----
 
---===============2908506276288501523==
+--===============7323371690652486178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6bf0ed9d1a7-e66631b2bcfe.txt
+Content-Disposition: attachment; filename=revlist-a603798fb168-9417330b33c4.txt
 
-1319123b9f9d08387f87e47f2f6743d8d75d8ce9 ext4: fix race writing to an inline_data file while its xattrs are changing
-c179c066a616f8ff8bcdd624672a4dff323ea4bc fscrypt: add fscrypt_symlink_getattr() for computing st_size
-1f18fc55a2683a9b943353c95583c406fe78d6ed ext4: report correct st_size for encrypted symlinks
-53dc7084809b398916fcde5656010d69d64e77f7 f2fs: report correct st_size for encrypted symlinks
-0540997d65648c75ba38cb160e12f8db88d5dd94 ubifs: report correct st_size for encrypted symlinks
-95084165fcfe2ae8fbdb4284aaad4fe5a092d454 kthread: Fix PF_KTHREAD vs to_kthread() race
-dec5f0ae7194b558f760823ea9ef3be88d2918d8 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-55119bd1456754330e2d04ddf55ca1d636a5fb21 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-a6e1e895a26f9fb8b7a06aba5f9b8bb530beac0a reset: reset-zynqmp: Fixed the argument data type
-0e4ae790fd49097b59a062cee0e04a9cf2d9b277 qed: Fix the VF msix vectors flow
-cfe90ceeced3ac1c8e56ae7077e344d0398165dd net: macb: Add a NULL check on desc_ptp
-a3252c8bc42fff78c89665ef6b5a2ddd619d98c0 qede: Fix memset corruption
-92f6426ce0becdd66ca60a79f630daa2881e0bdb perf/x86/intel/pt: Fix mask of num_address_ranges
-f8c01b56b348cadb335e3a4a93086eb460e92bb0 perf/x86/amd/ibs: Work around erratum #1197
-a0a2f2c5e447d728cd35ba1579e90ef2db892667 perf/x86/amd/power: Assign pmu.module
-16cf93a18a70fbeb246dd8d8c6bc34276cfa51b3 cryptoloop: add a deprecation warning
-971f527408d0f47e9d0a28a089c755bc3ac816a8 ARM: 8918/2: only build return_address() if needed
-6c093c9cd778ca099196fe39bcd1c24db458cde9 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-dedead6aab5a5fa2a331121d9f0da001b030127a ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-71d79702e4ee668740aa5c3129b2841f09c1c4d3 ARC: wireup clone3 syscall
-2da53045e9b92a2e3f8ee4d1831a9f92337829d3 media: stkwebcam: fix memory leak in stk_camera_probe
-e66631b2bcfe6400b2bb94bb119140e081d4853e Linux 5.4.145-rc1
+b7804cb11f6b33e8d1af422b414ba7a12ef63cee ext4: fix race writing to an inline_data file while its xattrs are changing
+a1a4545cbc07b1da8f4e2d387cd80674f91af65b ext4: fix e2fsprogs checksum failure for mounted filesystem
+d3a70c10c6ef4c93442cf4c460fa5286985d526e gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+3cedb602378991ed72753180b585a865b1c56ceb reset: reset-zynqmp: Fixed the argument data type
+cc25f295ad8079ddd9aa1f4ae89b4fbb213f8635 qed: Fix the VF msix vectors flow
+827886e81b4e61ca711e8b5deac43dc37db99b87 net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
+ba7ece17d8c6be9335ae948ca806046c4d448eeb riscv: dts: microchip: Use 'local-mac-address' for emac1
+ede6ba3b5fb74a41f31b547936e2e1a12cc6b1b1 riscv: dts: microchip: Add ethernet0 to the aliases node
+cd5a642170ccfbb1d98d2f241b759de8db49ac49 net: macb: Add a NULL check on desc_ptp
+8d2e1d42a7710d752c6a13d71067986025ca79a0 qede: Fix memset corruption
+131975e6da78a5cf88bf87b9ffdd4754d61d8730 perf/x86/intel/pt: Fix mask of num_address_ranges
+e343369accfc922320d510e6508eee1b71eb908c ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
+b78bcae22c6aab92aa8f402b72d317b90bb77eea perf/x86/amd/ibs: Work around erratum #1197
+19bedd9a97e026ab40dc9ad859d5316d020c52b0 perf/x86/amd/power: Assign pmu.module
+b460d8bc061f0c3cb5d8ca67ffbfd3e7797cd5d9 cryptoloop: add a deprecation warning
+8848f1f5b4fab20686813797d67845b948bc1331 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+23ca70a3b4c1b395f555344c0c60c199e086a3b0 USB: serial: pl2303: fix GL type detection
+8e04cf6f6db29809bcbbec9397de5f45d984bd9c USB: serial: cp210x: fix control-characters error handling
+aecbe345a53844bc58fe2401c550e3dc250d1b18 USB: serial: cp210x: fix flow-control error handling
+a0202fa377d2179e42d9c7afac42f13d4416f9f2 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
+574734f6ac25590a3f8a3a94f9ed778bb30ee213 ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
+2a9b5cd9f10a1a37c2d4ec8077bbec852d86c513 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+dd0ce4d61e9a6579bacad9bc8b890220da171926 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+5822232274ad72fba736fdcee4931f04db0f9f80 media: stkwebcam: fix memory leak in stk_camera_probe
+9417330b33c44be91ccaf471432c1103c44c9ae4 Linux 5.13.15-rc1
 
---===============2908506276288501523==--
+--===============7323371690652486178==--
