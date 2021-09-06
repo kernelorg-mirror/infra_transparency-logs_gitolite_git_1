@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 06 Sep 2021 12:09:21 -0000
-Message-Id: <163093016184.23684.16445981323133413945@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 12:13:50 -0000
+Message-Id: <163093043080.26488.9974059512852395721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 48eab831ae8b9f7002a533fa4235eed63ea1f1a3
-    new: e0b6417be08850646d4e44ef1123772ec786baea
+    old: e0b6417be08850646d4e44ef1123772ec786baea
+    new: 0c0383918a3ec4250e318cdbdd32e1caef12c14c
     log: |
-         5289de5929d1758a95477a4d160195397ccffa7b stmmac: dwmac-loongson:Fix missing return value
-         e0b6417be08850646d4e44ef1123772ec786baea MAINTAINERS: add VM SOCKETS (AF_VSOCK) entry
+         6d5f1ef838683efba01bacb7854f6516fbcbae17 bonding: Fix negative jump label count on nested bonding
+         4a9c93dc47de335880ce7347e6aa006d8f33265a selftests/bpf: Test XDP bonding nest and unwind
+         b109398a2206bf4bd3f6cb4fe678735387574d79 Merge branch 'bonding-fix'
+         0c0383918a3ec4250e318cdbdd32e1caef12c14c net: hns3: make hclgevf_cmd_caps_bit_map0 and hclge_cmd_caps_bit_map0 static
          
