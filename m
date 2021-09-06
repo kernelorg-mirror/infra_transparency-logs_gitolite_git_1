@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5274226284489456377=="
+Content-Type: multipart/mixed; boundary="===============7769935525278231593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 06 Sep 2021 09:00:38 -0000
-Message-Id: <163091883825.3238.16297777982516634712@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 09:03:27 -0000
+Message-Id: <163091900731.32248.14094140374420671697@gitolite.kernel.org>
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,219 +16,233 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 80c36b8dcd333aedfb11f1eee93bb9410fbfb251
-    new: 1606d29880ed3781844437d8d4e2201008a5e3ee
-    log: |
-         ff0f10626b1c063e270326930fa179433314657c ext4: fix race writing to an inline_data file while its xattrs are changing
-         4fb2bb8071e66ed3cd2decb2f0d2e3aefd8cded5 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-         23c2c3b8708c6b0a8b765ffa6379b4645641f816 qed: Fix the VF msix vectors flow
-         b5107dbaa7e12b5fa28e409c9ef0db4eeba5137d net: macb: Add a NULL check on desc_ptp
-         a701f4499dc6e76cbfd191ca980e231e8136607a qede: Fix memset corruption
-         7e7b309c2163c76d08c65398dac9fe1c71013d24 perf/x86/intel/pt: Fix mask of num_address_ranges
-         d4ae076fbb1138e6ccf46c3fe2d3ace4497a6a0e perf/x86/amd/ibs: Work around erratum #1197
-         b7fb1c15e18890cedb37f7cd40223a90ee65a2d0 cryptoloop: add a deprecation warning
-         cddb9d3fffeef0adefad8ce94fdba867a9289708 ARM: 8918/2: only build return_address() if needed
-         709f1769264e023e293b58e56a19085573e0cdbf ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-         1606d29880ed3781844437d8d4e2201008a5e3ee clk: fix build warning for orphan_list
-         
+    old: 1606d29880ed3781844437d8d4e2201008a5e3ee
+    new: 1b71d94946d6bbea0614012e475fd343fd8a9b8f
+    log: revlist-1606d29880ed-1b71d94946d6.txt
   - ref: refs/heads/queue/4.19
-    old: e1e9c0ad537287f417ca93dfd8c2d3c0c6891917
-    new: 0e3264362be346412bd8ddac6fd0a37b380a5017
-    log: revlist-e1e9c0ad5372-0e3264362be3.txt
+    old: 0e3264362be346412bd8ddac6fd0a37b380a5017
+    new: 223e5e090847aeed0e4e72e4f6361aaf719af41e
+    log: revlist-0e3264362be3-223e5e090847.txt
   - ref: refs/heads/queue/4.4
-    old: eab919888d9647f85b1279dc213bb502ea004bfd
-    new: 1ece0430583a79283537d0c935268f43e777fcdd
-    log: revlist-eab919888d96-1ece0430583a.txt
+    old: 1ece0430583a79283537d0c935268f43e777fcdd
+    new: a9a43ff8b08872edd10bd925490ba3b68c0811f3
+    log: revlist-1ece0430583a-a9a43ff8b088.txt
   - ref: refs/heads/queue/4.9
-    old: 3a810967773b40f6a960196215f0e937ccfc8d78
-    new: 466321d87d0123df9f8fd320ed77f0b607065e61
-    log: revlist-3a810967773b-466321d87d01.txt
+    old: 466321d87d0123df9f8fd320ed77f0b607065e61
+    new: 1c2fa5df96b5de516c097e12ef23ebabf30d8a7e
+    log: revlist-466321d87d01-1c2fa5df96b5.txt
   - ref: refs/heads/queue/5.10
-    old: b895aa1ac154cc64df8704afdfab3df409e43caf
-    new: ae7410caa12fd3806c3299bd7f89d0b599d77701
-    log: revlist-b895aa1ac154-ae7410caa12f.txt
+    old: ae7410caa12fd3806c3299bd7f89d0b599d77701
+    new: b20c77b1bdffa918c3091ec740bad2536129cdc6
+    log: revlist-ae7410caa12f-b20c77b1bdff.txt
   - ref: refs/heads/queue/5.13
-    old: f95febcfc1797317a83b8d3493c4c7213a85518e
-    new: 1f25f24c17c66d6f736899c39a3c20e8d4a4acf2
-    log: revlist-f95febcfc179-1f25f24c17c6.txt
+    old: 1f25f24c17c66d6f736899c39a3c20e8d4a4acf2
+    new: 859da76e52e2455411709de66f4d4475a7d21a6b
+    log: revlist-1f25f24c17c6-859da76e52e2.txt
   - ref: refs/heads/queue/5.14
-    old: 0bc7973cebed52ff08df48a691240a97f3241f6a
-    new: bf32c6955f4367aefd93c99b86ddfe1cfddaf3d5
-    log: revlist-0bc7973cebed-bf32c6955f43.txt
+    old: bf32c6955f4367aefd93c99b86ddfe1cfddaf3d5
+    new: 8db0ae7d7076a6593b6e2b6f4e4d55bc21c065ee
+    log: revlist-bf32c6955f43-8db0ae7d7076.txt
   - ref: refs/heads/queue/5.4
-    old: 3c8a9d8a0d0ef1ee4b60b0cf1d95f138cce3165d
-    new: d1f84932e75243014176ec614049e757fefc7923
-    log: revlist-3c8a9d8a0d0e-d1f84932e752.txt
+    old: d1f84932e75243014176ec614049e757fefc7923
+    new: 300ede31d0889fa41cfe78f7ccfd30d139164855
+    log: revlist-d1f84932e752-300ede31d088.txt
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1e9c0ad5372-0e3264362be3.txt
+Content-Disposition: attachment; filename=revlist-1606d29880ed-1b71d94946d6.txt
 
-6df39212684bf9e1a67d75cc58b5408dbd62acca ext4: fix race writing to an inline_data file while its xattrs are changing
-fb9b9fe14b7785adeaecfa032175f3279ddd8a84 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-3ea56c29a252904cbda8eed3a10570776293494a gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-44466a2a205d04bf273ea9b14b10005eca3758f2 qed: Fix the VF msix vectors flow
-ca3af39f751392283a9910dc12d9d8cbd8f43bb4 net: macb: Add a NULL check on desc_ptp
-855903fbcbe9c85a40a1c89b351e6d0e7988b4bc qede: Fix memset corruption
-c9a0e81883aa7023ce3f209acc48584c6020d0b9 perf/x86/intel/pt: Fix mask of num_address_ranges
-3c5e756a559084bef5404ede2617fe19c04b9570 perf/x86/amd/ibs: Work around erratum #1197
-dec68b963fac8b7fa9b028bd196806e27e105bb8 cryptoloop: add a deprecation warning
-f451218c5b4558ba498593f4240975e6d7e590ae ARM: 8918/2: only build return_address() if needed
-e74c5a062f9f3af436b043fd7025d7ff2f123edb ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-0e3264362be346412bd8ddac6fd0a37b380a5017 clk: fix build warning for orphan_list
+d9ea0cbfd45e8fdbb2bb35a2c8357f8dda0d5e76 ext4: fix race writing to an inline_data file while its xattrs are changing
+aad0ab79a8aa4bd79f284578dfd5ff01ad54a76c xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+1b0b20065197bb65e1669424442e28b546688661 qed: Fix the VF msix vectors flow
+70b9fd0404d4ebbf04e952cd9fd4637af7047b26 net: macb: Add a NULL check on desc_ptp
+143859de83ab1c782f34b5f9945e1d384cf41c07 qede: Fix memset corruption
+86eb4b577108b9421acaf5af65dd386c8861d13c perf/x86/intel/pt: Fix mask of num_address_ranges
+524666c8aae9bbca2d72e7e7efbc880e13e103a9 perf/x86/amd/ibs: Work around erratum #1197
+a4596bd3589e2362744c41e1cceeec3654a7ac56 cryptoloop: add a deprecation warning
+6990f6b605d4ad1d97598d76ca97b6eb262f9d1b ARM: 8918/2: only build return_address() if needed
+ed95fceae9ae7c7567b361d447fd1168b61ed7e0 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+5b47eb3681689c9ad54ee120933842a826adc2ce clk: fix build warning for orphan_list
+1b71d94946d6bbea0614012e475fd343fd8a9b8f media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eab919888d96-1ece0430583a.txt
+Content-Disposition: attachment; filename=revlist-0e3264362be3-223e5e090847.txt
 
-c39696c8e623779f6b2b20f31f341e87e39f798b ext4: fix race writing to an inline_data file while its xattrs are changing
-6edcc69ddbb356799fa38fd44aef0ce88f2d310f xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-474742a0c4106ec842f1876d5c2eb2546595a5a0 ARC: fix allnoconfig build warning
-2532803bf03eb99ec739c62b75fd1fd804a6efec qede: Fix memset corruption
-d5d10d71f511baf5a283782b480a3997d8219d43 cryptoloop: add a deprecation warning
-2e7050e9fce0f1cb7638739643e4891bd1bd2632 ARM: 8918/2: only build return_address() if needed
-35e5a479729aaa57165883b79df80bd8f24af6e0 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-f170b16dc67b892b0cf86765f4b3376439a6058b ath: Use safer key clearing with key cache entries
-905ed07fd5c08c51fb89992092a089eddf1c0f9f ath9k: Clear key cache explicitly on disabling hardware
-06df661ebe5b2244d8042ab6f16ebbaa60c6be3f ath: Export ath_hw_keysetmac()
-a6933057b5d08e95a4786370e496ab34987a959d ath: Modify ath_key_delete() to not need full key entry
-1ece0430583a79283537d0c935268f43e777fcdd ath9k: Postpone key cache entry deletion for TXQ frames reference it
+b76f983342537e8300c143212bd0a32e73e0643a ext4: fix race writing to an inline_data file while its xattrs are changing
+b4d67cb8cb8eae78a4165ed5160d1ec813c8f1d1 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+69bad2c17562c20c91182d1ba070d55612dee92f gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+8d3ae8903f3a4a710e5cb68cf285f2f246c05ac2 qed: Fix the VF msix vectors flow
+fd108a5748ff4aff75b50b65d05ad78c794fbeb0 net: macb: Add a NULL check on desc_ptp
+c81d28a4c7192c94d1e96ee21fdb5af162ec98e1 qede: Fix memset corruption
+7fdcc2187f122bfadb7e66867de9ec6f2b1921a5 perf/x86/intel/pt: Fix mask of num_address_ranges
+c79bf7cbcf8820ab21cdab4186f0c39223ffef71 perf/x86/amd/ibs: Work around erratum #1197
+bfeb663e02e7c969a5ab50b57c8d62c224eb9e3e cryptoloop: add a deprecation warning
+69a13dfe22cfa7ca3fb21469795a1b98eb2cc1af ARM: 8918/2: only build return_address() if needed
+cd5f00ab786b08bf087efa0cddce5186de64bb83 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+755d435c58627ec009cdab3722e185bf49f37008 clk: fix build warning for orphan_list
+223e5e090847aeed0e4e72e4f6361aaf719af41e media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a810967773b-466321d87d01.txt
+Content-Disposition: attachment; filename=revlist-1ece0430583a-a9a43ff8b088.txt
 
-8d7560ce7419c97c0aa3292909f5c548adc9ce6b ext4: fix race writing to an inline_data file while its xattrs are changing
-31f52ca93ae5cd73393be30dd1c5eb94a829b094 mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
-9e92b39f47ee77970edaa60c87d29bb2b39ed6a3 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-11748189bb2ec62dca278b86d7932b19975fe1a6 qed: Fix the VF msix vectors flow
-08015e8dff42c9820519480334f3c39a53020223 qede: Fix memset corruption
-355114426af9d0cc9782395df055216ed0a05d8e perf/x86/amd/ibs: Work around erratum #1197
-8bc2acf2f1e276d4e9d22b539cb04c0b1a519bf7 cryptoloop: add a deprecation warning
-55fb85f2fb32f64014a77a19d30c32450ff0d65c ARM: 8918/2: only build return_address() if needed
-0f7a32075c3306abb7da2c5d2ef95ec0e279493c ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-3e8d8655850e45f73d3f7d1feb8580ff2ed588b2 ath: Use safer key clearing with key cache entries
-e065738900c28336e35a20ccfa7c82ac64f9e4a1 ath9k: Clear key cache explicitly on disabling hardware
-2c2dfe854faa3faabac9c331db41dea0687d63a9 ath: Export ath_hw_keysetmac()
-d5bedebb7aa794e02315c20693bc47160247e84a ath: Modify ath_key_delete() to not need full key entry
-466321d87d0123df9f8fd320ed77f0b607065e61 ath9k: Postpone key cache entry deletion for TXQ frames reference it
+dde2d090415a80e0f6d5c0fa80f1caf566b3b1f4 ext4: fix race writing to an inline_data file while its xattrs are changing
+404ce3a18826389629356b945cbb44559c1ad089 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+6bc9d8c8abbd8cf98b15cb2ad1586533a231aa0d ARC: fix allnoconfig build warning
+db2deecb23419d31a534ede3fd9c622ec0bdb92d qede: Fix memset corruption
+198a9c1318a047ebfd285ed2656cfdacf84a9e58 cryptoloop: add a deprecation warning
+7e3b51e2967d7416100d695bd10f550336fe53f7 ARM: 8918/2: only build return_address() if needed
+1f086cba100463024f9fe2f97efc9c09f066044f ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+8d3316c74b350984aa75cdea5a3c743f5d6d590a ath: Use safer key clearing with key cache entries
+cf7aa759661e212acce8a15e20f576574ac6416e ath9k: Clear key cache explicitly on disabling hardware
+bf9c220c293c22159c09bb9cf13fefd927f9d728 ath: Export ath_hw_keysetmac()
+3d1c61dbc4a0137d31beefafe1232da0a2335ef9 ath: Modify ath_key_delete() to not need full key entry
+f1798138418757bcaf74d204d27126102860ec01 ath9k: Postpone key cache entry deletion for TXQ frames reference it
+a9a43ff8b08872edd10bd925490ba3b68c0811f3 media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b895aa1ac154-ae7410caa12f.txt
+Content-Disposition: attachment; filename=revlist-466321d87d01-1c2fa5df96b5.txt
 
-e12a9b714e9a78731ab51bb988f10af95f7790cd ext4: fix race writing to an inline_data file while its xattrs are changing
-29982d412d8efb3833755e9682167ae97d1b24a1 fscrypt: add fscrypt_symlink_getattr() for computing st_size
-ad7217ab3992b9fa81116bc364595b9d7477eeec ext4: report correct st_size for encrypted symlinks
-7c5f9e61898c21429fcfbdbc7e27d3458f50c95c f2fs: report correct st_size for encrypted symlinks
-7df8c9d3b9a7beb5e2d5ed3ac9d7f7538370f164 ubifs: report correct st_size for encrypted symlinks
-20ce576a470f6de56847a99a572766bbf3fc7c55 Revert "ucounts: Increase ucounts reference counter before the security hook"
-8d7b52a11404c5b10f4d0518d6dad11aeabbb7c6 Revert "cred: add missing return error code when set_cred_ucounts() failed"
-7697b19cf3406d83c67d7e0168022bbd04bc90e3 Revert "Add a reference to ucounts for each cred"
-18b45d057ae8937fded719c507f6cb4c4197f368 static_call: Fix unused variable warn w/o MODULE
-3385aa48bd999e72ed473c3a22e1292783d08377 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-b8d72eaf573aed803e716cbaa4f26a20f3edbc1a ARM: OMAP1: ams-delta: remove unused function ams_delta_camera_power
-ffd11828a6d50f4e6e72a8fa753ba01f24f249ba gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-77085e153bd7d5db0ac3835cee62e8bba3b4420b reset: reset-zynqmp: Fixed the argument data type
-a5b97162b900b862bc96d8efd30eeaf0a31a7a6a qed: Fix the VF msix vectors flow
-8666a3f784376db01a25a1ff27d824aa6529dad9 net: macb: Add a NULL check on desc_ptp
-8f8a82c4996003c03e9d93f2f55bab759be82a5e qede: Fix memset corruption
-0422fd58b6ca9e3e885fb37d92691f567ae05b57 perf/x86/intel/pt: Fix mask of num_address_ranges
-cd9e77d21115eff288b833047059dea1218366b5 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
-dd7ff1de966a970db9c0612b7944958b41623eb5 perf/x86/amd/ibs: Work around erratum #1197
-5e5a6cbb84d6f00e3c5953a11aa0967fa6e8dcba perf/x86/amd/power: Assign pmu.module
-84d3d75b92662cd0a9680f4347693497d4135a02 cryptoloop: add a deprecation warning
-e728b4bf29b350b8a8ac10ac0f1e7b3b45b998ff ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
-f6571b5bf163b9b612b8426609b614ae6af3e031 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-1a6016b9257b4f897dfa7913e905996ecb21983f ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-4a2362f7123066a01acb43a0ccbf5f20ce0413f8 serial: 8250: 8250_omap: Fix possible array out of bounds access
-748d1e6d88da195ac0997cfe5334649ddb9e3bed spi: Switch to signed types for *_native_cs SPI controller fields
-6d9101c13b0bcba89770765dcea61c7d8d39eabf new helper: inode_wrong_type()
-ae7410caa12fd3806c3299bd7f89d0b599d77701 fuse: fix illegal access to inode with reused nodeid
+b030cd44eaecbdd62cee25bf4a3205affd6fc1d1 ext4: fix race writing to an inline_data file while its xattrs are changing
+a40e4d602e6d14df68efaeab65626d2ae490e726 mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
+6bacae03ae356bfed1b9c49739cd39f8bc74048d xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+fdee27e9056d0fda72bfafc5aa0d9bb743cfd134 qed: Fix the VF msix vectors flow
+b33eb29b8a5fd1c4cec9af942ddb9a7550abb756 qede: Fix memset corruption
+4da1cf63efdea6d8400cce9855572bef1b0792fd perf/x86/amd/ibs: Work around erratum #1197
+f67ca787b20ed3cf9ee8ad6ee100d81ce6469abd cryptoloop: add a deprecation warning
+9005c62389d944f63aba42f7a1dd16925af7da94 ARM: 8918/2: only build return_address() if needed
+e55b0f5bd5445d374ce58a95deec2afcee8b78ce ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+efaafdb57124ec9374262ca28a83816ba45738a5 ath: Use safer key clearing with key cache entries
+5410396fb623cfec76e0df20d8ccab8d7c07f294 ath9k: Clear key cache explicitly on disabling hardware
+e57a7d97b959f0eedfdb706e981184cf883b1b42 ath: Export ath_hw_keysetmac()
+c0dcc497058758152cf8c92393dbd115c2a5f3cd ath: Modify ath_key_delete() to not need full key entry
+800dc5be949389a406bb5745fa23f61b7a8e3942 ath9k: Postpone key cache entry deletion for TXQ frames reference it
+1c2fa5df96b5de516c097e12ef23ebabf30d8a7e media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f95febcfc179-1f25f24c17c6.txt
+Content-Disposition: attachment; filename=revlist-ae7410caa12f-b20c77b1bdff.txt
 
-23f0d8a5710d2a1bafef9dab68801a40e7e7eff1 ext4: fix race writing to an inline_data file while its xattrs are changing
-99d1605efe5ba4d03fe20c7877f03e64208b2bb1 ext4: fix e2fsprogs checksum failure for mounted filesystem
-68445fbb645a7c72377644963986202a658b033a gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-ba002f5368b58916631d5fd06e72baa48d28951a reset: reset-zynqmp: Fixed the argument data type
-de709d6ef237c376b2cb3508aae057d1920a597f qed: Fix the VF msix vectors flow
-127bd1b56356146db002cbf7890d0676992b2710 net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
-54a2b715e66d8fb6c3e7cf398335e4ed7f0ee8bd riscv: dts: microchip: Use 'local-mac-address' for emac1
-4ff09dc75f985fef97b9e4f29114faaf59501b1e riscv: dts: microchip: Add ethernet0 to the aliases node
-a6e5ec033504e15121774ca38e8ed5c064070170 net: macb: Add a NULL check on desc_ptp
-ef30b8826794c875173770b9b6b7bda64cd748c9 qede: Fix memset corruption
-b1e5220bca74cdc57bf0179551301637014a8ebb perf/x86/intel/pt: Fix mask of num_address_ranges
-647a7e81741f3fa8f867395465b9f2505f46b487 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
-186a78e11ca3bf0bafddbc5a741654f6bd71d6a5 perf/x86/amd/ibs: Work around erratum #1197
-a8fb58f90aaf2fa2b38c57ce52ac6c96a9a2553a perf/x86/amd/power: Assign pmu.module
-1901c8e631670674ae1a2a10eb99225191c29db0 cryptoloop: add a deprecation warning
-10861906bdbe1831c68056a44456fc292cf2ed3f xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-fa6f56b960ac3c27948be7b8917aa0d4262ef649 USB: serial: pl2303: fix GL type detection
-7b226babd990218a51901e609593f8c303455612 USB: serial: cp210x: fix control-characters error handling
-7d1b6737e8ea0119049756fa6598408c9524f397 USB: serial: cp210x: fix flow-control error handling
-968f769858278f6d597633d0109517819d4b7965 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
-df6a342faa0efcf40d0107c1024df4692064f176 ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
-5c907390558b528af5e94af0a7bdd1ff8b553bf5 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-1f25f24c17c66d6f736899c39a3c20e8d4a4acf2 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+bac89ecd20768c00b6c726d2c5681fea5fdd694e ext4: fix race writing to an inline_data file while its xattrs are changing
+1778b0d650856ee917b96c655700f0ad07852067 fscrypt: add fscrypt_symlink_getattr() for computing st_size
+90434a472d55f4b88fd7b00beb65eecdc6bee6d1 ext4: report correct st_size for encrypted symlinks
+3a5018bbb2c57b797028ec594ce7197c123413b5 f2fs: report correct st_size for encrypted symlinks
+85d3cfc2a7b8048426489c3c0606b3a7af6d254f ubifs: report correct st_size for encrypted symlinks
+a113fb2f843143e8bc4437e656915d01cb0a3da5 Revert "ucounts: Increase ucounts reference counter before the security hook"
+aa141917a67315b0c8a2ce5ba190418325b41535 Revert "cred: add missing return error code when set_cred_ucounts() failed"
+7a24c3067714e293c285855c17b61670e7c31594 Revert "Add a reference to ucounts for each cred"
+84f49f26d330673ad26ddcdbe3d28ad999d6aa40 static_call: Fix unused variable warn w/o MODULE
+82eb4c1e488a1fe6e5c5d3827a8d93a47be2554a xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+44a2e305369d9ba3f3912e2fa536cdd591bfc919 ARM: OMAP1: ams-delta: remove unused function ams_delta_camera_power
+967de0ddc2e56876f1c5e75a736f91e62e2a24cd gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+88c264f20667685b8f38f391f6b3b42642676aed reset: reset-zynqmp: Fixed the argument data type
+426092ff650add55c22af40ddb850e95dd08063b qed: Fix the VF msix vectors flow
+dcb99f66151f9d6020ee233466b64d05b419e411 net: macb: Add a NULL check on desc_ptp
+2cf9e1ac9721f44039055560e2ea9493139f2252 qede: Fix memset corruption
+c1105fc1454ee33c25df1c91635a917f9ea126df perf/x86/intel/pt: Fix mask of num_address_ranges
+6bb39b131bdece442c46aa693915e015e6ad6cef ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
+7c9601ea25b5ec005c270f314bd88c7d2d086d07 perf/x86/amd/ibs: Work around erratum #1197
+622f508898a8ebd01d872d0b878d9aa9e6ecdcea perf/x86/amd/power: Assign pmu.module
+ba2288a771829810fe6a0068e8478b45902ccf56 cryptoloop: add a deprecation warning
+3122565ea0ffe4793de083a4e4e0411f9fb5176e ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
+63542214e75ae4e3d93b62ca062889cf7b1a7e1b ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+6c31307d1a1a65a5add397207f568e243cf7ed02 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+087724c3fb9fe4e52ac21494a04189e61cbc39b2 serial: 8250: 8250_omap: Fix possible array out of bounds access
+97a7a1df9d519e13d49b959626d7add6bc03b2e6 spi: Switch to signed types for *_native_cs SPI controller fields
+49a339b5f0ffd25b52fcbce1420aa599073e6c6a new helper: inode_wrong_type()
+0bc9f74ab9f2c2863aaa009e7eb995afd2392f40 fuse: fix illegal access to inode with reused nodeid
+b20c77b1bdffa918c3091ec740bad2536129cdc6 media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bc7973cebed-bf32c6955f43.txt
+Content-Disposition: attachment; filename=revlist-1f25f24c17c6-859da76e52e2.txt
 
-02aff370521f7ebbae0379a5f571196ab9036a3a ext4: fix race writing to an inline_data file while its xattrs are changing
-622f651d848f3ebbfd9e7eef56aff7b4cf478c11 ext4: fix e2fsprogs checksum failure for mounted filesystem
-0c2c7a3bbe0a0e43edff0cbc401065fa05252a57 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-dcc23077eb2acdf85d53b499ee63495247b08de4 USB: serial: pl2303: fix GL type detection
-8fc1ace18a14c527b7fd6a1455748c99fc25099e USB: serial: cp210x: fix control-characters error handling
-b1ec3bc051305f7962628539c31d6d6ab479c46f USB: serial: cp210x: fix flow-control error handling
-422b9a6ce47eebd772c46df78c334f354766f13e HID: usbhid: Fix flood of "control queue full" messages
-e80861e6abe0b567fc1de9b4149015c2a551b5b4 HID: usbhid: Fix warning caused by 0-length input reports
-218b98e4927e72f4298918020a9554649b1547f3 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
-ca8c66afc540f12a8e254e2abe05938f715c4547 ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
-48b0b4f54f9cf01018dde7824d2f644541ec6192 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-3389afc1ab7183a9b37d7bd50e77790079d21e8b ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-bf32c6955f4367aefd93c99b86ddfe1cfddaf3d5 ALSA: usb-audio: Work around for XRUN with low latency playback
+e4b13c24d7a5a9e3832b913ea795792a9a03edb6 ext4: fix race writing to an inline_data file while its xattrs are changing
+b4aa84381eed10e084cfba8b10685b6f384bf743 ext4: fix e2fsprogs checksum failure for mounted filesystem
+458fa2c4903dc1ba9de98075da23bf5921e8e8d8 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+8f3ad3214110d033212ad744f22a7ebed92f23f4 reset: reset-zynqmp: Fixed the argument data type
+26ef351c597c169f586e0b6db9c86689b6a0520f qed: Fix the VF msix vectors flow
+cccf00b3353bd6ca3ddb6195846c05fa47876889 net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
+ff8561dd3a85c762fdf8574571f292610e7e9790 riscv: dts: microchip: Use 'local-mac-address' for emac1
+3035e184fb82303825206669b781245995b50465 riscv: dts: microchip: Add ethernet0 to the aliases node
+49b62ccfc658d6036346d1207f77ef7483793a7e net: macb: Add a NULL check on desc_ptp
+165f3581f38225a5c86b0de7bb5778c0637ded7e qede: Fix memset corruption
+56fad230c66fcb04c18dc0fe3e6da34de5382ef2 perf/x86/intel/pt: Fix mask of num_address_ranges
+62b439a02bc73916be2f514b70dd6687dc6cd65f ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
+45d1e719786d132ff82aea89991e51b58ab8f5b8 perf/x86/amd/ibs: Work around erratum #1197
+d4a3a1754ecb5b70c5ceb93040abb1d21f1f2f81 perf/x86/amd/power: Assign pmu.module
+8cc2ea2702d0c3277c2f4cddda4f221fd299e117 cryptoloop: add a deprecation warning
+04cd5cce0e39481f98eaace09e5d2b7e3e1a5e24 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+a3af47999593e38ad01adefb8bb53fa6eb322ffa USB: serial: pl2303: fix GL type detection
+b192392fbaa1221f7a40cbdfb3bb2ad54a2e8aee USB: serial: cp210x: fix control-characters error handling
+a44e5b902b9d2c7e58631a50b5918eae705b4fc6 USB: serial: cp210x: fix flow-control error handling
+6c71a57a3dfc9b0204d2989dad4ae6b6cf571ae3 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
+a26f34a4b98627a0e955b8765f5142b0ecba2582 ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
+f5b04161e0071fc0b15b75f184ad69aa3e0f10eb ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+6ee1bbc9f5930e7748d01f35bd82b5bdc1a4e1ea ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+859da76e52e2455411709de66f4d4475a7d21a6b media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==
+--===============7769935525278231593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c8a9d8a0d0e-d1f84932e752.txt
+Content-Disposition: attachment; filename=revlist-bf32c6955f43-8db0ae7d7076.txt
 
-1741333893ee65e98a55888e3a30e6be33ac8f19 ext4: fix race writing to an inline_data file while its xattrs are changing
-c5df5ef494555aacba113f9add4a4c67dca8e83e fscrypt: add fscrypt_symlink_getattr() for computing st_size
-a7a06e5292c8856a80eb8a0a6b57aa34200d7fa9 ext4: report correct st_size for encrypted symlinks
-12433d4a3b3a90c2c1cef19804801e67f1009419 f2fs: report correct st_size for encrypted symlinks
-0c7b9e280e8603fc9e4c3c685e8b96fe89ec86a8 ubifs: report correct st_size for encrypted symlinks
-bebf1649f09cfe39fcb63fb85b95bb1b291bc53c kthread: Fix PF_KTHREAD vs to_kthread() race
-351bc1420ec0aaee99fb3f476022fb26cdc338d7 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-f8c66a1d573ed3c51d70dbcd0896a9b7847ea232 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-3afdea8b5a8c71862274d31d38436a7ac3b4c015 reset: reset-zynqmp: Fixed the argument data type
-370f9f6eaf3e03e3ecd1d481ad540143378b25c6 qed: Fix the VF msix vectors flow
-5363cd5101dc1dbc0b29d829e9b71b52864ac7c0 net: macb: Add a NULL check on desc_ptp
-7a4a41dde2d6d8a4d3efef3f6c8683fe2f62f2e7 qede: Fix memset corruption
-cb453d818866cd183b711b3636c1501439419ab0 perf/x86/intel/pt: Fix mask of num_address_ranges
-3660fb3bf0afd599657b6baf83b39e0a1c796a94 perf/x86/amd/ibs: Work around erratum #1197
-f56d9152737a18abc2f7e667efa47aa1b1d73250 perf/x86/amd/power: Assign pmu.module
-cf0dbdf2aedc2001706904a886db9bde6f3ecced cryptoloop: add a deprecation warning
-792333ffe6dae767030979cc2fac844cfe62f1ec ARM: 8918/2: only build return_address() if needed
-e1d5d705c57256d2022591ceb2050afe56702248 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-0f08568370acdbdd8e36658de15a331d7bba2495 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-d1f84932e75243014176ec614049e757fefc7923 ARC: wireup clone3 syscall
+4c83e272cfa360c6ddf437290fb8e966aaead73f ext4: fix race writing to an inline_data file while its xattrs are changing
+e0c884f5d8054aef92e2dd9b108cde3b2773fe65 ext4: fix e2fsprogs checksum failure for mounted filesystem
+f8639095ec73e44bc07287b16b6dd21efd458679 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+ea0ed86536169dbc72015903b3d121f8915598f5 USB: serial: pl2303: fix GL type detection
+a3fcd72d29425823982ccabbfa9701d32ed2dbb3 USB: serial: cp210x: fix control-characters error handling
+14f945208ebc59c41125e08a935b4f5a2ac5c3ec USB: serial: cp210x: fix flow-control error handling
+5037a219ffe3c239d83514be2b229fc1a29be585 HID: usbhid: Fix flood of "control queue full" messages
+4858151f67e4a56f500e5e1a86cde0dfbcd0718e HID: usbhid: Fix warning caused by 0-length input reports
+fb21a75a0d566420e59702e5fb11291ee8fb75f9 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
+a6fa56cbc94c0522026e53e59b13a2a013a02a35 ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
+5f3c4e311e0f09cdc59c05214602afe906125710 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+725f9b950c9e75882b68901266d20bbe7bf5dd9f ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+27a495f9d0efb1a82868fa89565b3baec9cb3d87 ALSA: usb-audio: Work around for XRUN with low latency playback
+8db0ae7d7076a6593b6e2b6f4e4d55bc21c065ee media: stkwebcam: fix memory leak in stk_camera_probe
 
---===============5274226284489456377==--
+--===============7769935525278231593==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d1f84932e752-300ede31d088.txt
+
+f1bb65c51956f0c6413a8672aa3320e566697c93 ext4: fix race writing to an inline_data file while its xattrs are changing
+7d63fed69586539cd6c6997342472406282a845f fscrypt: add fscrypt_symlink_getattr() for computing st_size
+e9a304182f56c2aa918c0d8d6b19bbbd5729f6e4 ext4: report correct st_size for encrypted symlinks
+0c60e977d78fa5bc8a3c181868da78fea4526c2a f2fs: report correct st_size for encrypted symlinks
+0678e126068945641e9bda72c6bf463dd2cc6046 ubifs: report correct st_size for encrypted symlinks
+3c20e704c680f73aaadb5cff92342a650a6b6559 kthread: Fix PF_KTHREAD vs to_kthread() race
+99ceb181b8666ca73e618ce3d74dee333b89e4e5 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+279f8f4dd3761da759a4e646be19d10e9f155cb1 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+62766f2e53a593dbfbb869978507d19af427b92c reset: reset-zynqmp: Fixed the argument data type
+94a83127fb4519f57b40751a8cb5c2e29f1ad27e qed: Fix the VF msix vectors flow
+a22d93b408ca8935c582fb50ff56fc0d244ec3ba net: macb: Add a NULL check on desc_ptp
+d9166e26898aacbed04dca160985bbee238d9ab4 qede: Fix memset corruption
+8fa9b83bfefac8bb0169239838d5a20106bf6000 perf/x86/intel/pt: Fix mask of num_address_ranges
+12c141d9f1abec7bd4d8fccc33e40b44ed342ef0 perf/x86/amd/ibs: Work around erratum #1197
+5ae5a924fc484240d24a06febbe7ac1ed477e0f5 perf/x86/amd/power: Assign pmu.module
+856690e5292264a4db2d59814ddc7fcbd74608a0 cryptoloop: add a deprecation warning
+1f01330026f2ff2d7b42337ef5f10bba485ffe06 ARM: 8918/2: only build return_address() if needed
+b63a903a7d0b645407a45341c5301d0d5f31baab ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+49dd276b0654499c3d78fc2c4fb9bdaa6a748380 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+5c4fe226f2225dd1102e21edb942f1192e45c21a ARC: wireup clone3 syscall
+300ede31d0889fa41cfe78f7ccfd30d139164855 media: stkwebcam: fix memory leak in stk_camera_probe
+
+--===============7769935525278231593==--
