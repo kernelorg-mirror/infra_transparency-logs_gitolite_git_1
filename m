@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8643693008545184589=="
+Content-Type: multipart/mixed; boundary="===============2082267901058852031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 06 Sep 2021 09:24:35 -0000
-Message-Id: <163092027509.14844.3346836383355816493@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 09:24:39 -0000
+Message-Id: <163092027924.14954.8561661315412355420@gitolite.kernel.org>
 
---===============8643693008545184589==
+--===============2082267901058852031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 1b4f3dfb4792f03b139edf10124fcbeb44e608e6
     new: 27151f177827d478508e756c7657273261aaf8a9
     log: revlist-1b4f3dfb4792-27151f177827.txt
 
---===============8643693008545184589==
+--===============2082267901058852031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630920274 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630920278 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1630920273-7546272c782ab7dd5082b34881a26f024d5cb049
+nonce 1630920277-77ab0886d98064352563a7d0b6536bfda81c0738
 
-1b4f3dfb4792f03b139edf10124fcbeb44e608e6 27151f177827d478508e756c7657273261aaf8a9 refs/heads/usb-next
+1b4f3dfb4792f03b139edf10124fcbeb44e608e6 27151f177827d478508e756c7657273261aaf8a9 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE13lIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g1QP/1MaJfPtrm9JG7islPou
-8q5UeKH8KcbUGePYkU9eG55ux0+hLXwaQ1QjOzuoe76aReaagHFbqjKAcKYbYZTY
-IzqgVuA2GKfiWQIn8cowhM5O5pyhc76NhOQiMF9uWUBhcPCsLBPVjBW4g3JOMios
-q3Tq3MyBPAd4jC46HzvuQYrVsgldvINmQVCC+DxSXDRNF4XQXtOmMYIDDFmRaU6+
-eTXGNjoMGXCNXwJTfs2LpyZGg+b0IiBmtIleeZwmYpvRSXiiK1oWhDXqym5Ctii6
-8A9Yg50k0aNT5NeD2uYSGWQNk6XY7vlLHKDTwEjw1cHCvvk/TNvesR0aGZr9E2dp
-ij1x3ibDvb8cLm6HAj6W8H4hAb9RF5qJi3o6b64SlLGxivAhN8h9YKC0nx8uNZ/H
-I16bJQKzEmQoTCqWH0RmwCL/HIJxXG8S7CmFw5kNcC2QQ0HKTziwKuq1yzqE+ntK
-7FtEqS7vPXxHVG3H4FRBzNLgve/FnVpiNLsAyB3I2fNYrEhkLzbxU1ZWOgo27MD0
-znemyJLwGPztq7xIerrStWi3nz6bmDHUCjZLNP8PV665nt+lwjVidsTEO5YPfbBY
-u0sg/vdf0GOEOVWLLkAHs8PvN8UjUSpT3fmAtSZ+cSe0UUW1lOpPWu7k9iLSkJ4I
-x2WWiWoRDQTZ1t8p9NbZEFzK
-=kvE9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE13lYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+riIQAJu9oMOq0KDIHj7E1LZ4
+3gvAFP+MXdzs8UW+vuPmXSaApjQ5UM3db2SBjDNFwHqeXRHjg5I3aAMaR9zS8MdG
+QelJjXSbadXxguIfKi2SNlW4Z/MNs/nUSe66z0y93GBBKoJk8mmIyke8ROxL5rJT
+w+s43g5VOOdK/AvXrw9ijZ/YbfhNA40vEriNwJqdHELof9L8gg5rEV//784bZPZ/
+VUO67AtxPp1Plij5+HHWSIUVzsEICJPetvvC006xMlr63BNci1OA05CYO/4dMgR7
+duekQhXKJDgl49oF0uiKKXaOZfOLTUwR6HqAuwOf6OhQEbTcFXpCkCzSX5nMqgEm
+m5oL9K7WiqrW3e3vzru1CQ0SpDJnzKXyS22Nr5xxaakvfjBo9Eb4z9wBNSizHKIe
+h+Z0+D85/h4Gy/mvWJvo0jtmZnkcG9PkZtbE7ObSrD6ygpNrhwdOfeaZVkQI1Auz
+i+rDP3WCN6SEwY0aX6zBSWhN0HS+g0uDjn2K68SQfGQUt5MTWmC3vZvnCGDSKKnF
+D8CNHyZ1egp3w7JEzccx5OrYIfyC/8X790632ZpHEOPPeVmb7LT1mVKke3c2jvKV
+cu+ApkHsUd7GOH2yYFRsdI1w9Pn1HbzhaOI9Rc68IjN2nnx0U7GXKHJB0a+OmxM6
+rKk3NVdEh3yKblQWWVpjT4Zl
+=2Gnh
 -----END PGP SIGNATURE-----
 
---===============8643693008545184589==
+--===============2082267901058852031==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ e07af2626643293fa16df655979e7963250abc63 Merge tag 'arc-5.15-rc1' of git://git.k
 58ca24158758f1784400d32743373d7d6227d018 Merge tag 'trace-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 27151f177827d478508e756c7657273261aaf8a9 Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============8643693008545184589==--
+--===============2082267901058852031==--
