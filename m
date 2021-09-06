@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1490624607042827694=="
+Content-Type: multipart/mixed; boundary="===============4673430650427666593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 06 Sep 2021 12:54:53 -0000
-Message-Id: <163093289382.21885.13587685080122162103@gitolite.kernel.org>
+Message-Id: <163093289393.21895.2882506054562534374@gitolite.kernel.org>
 
---===============1490624607042827694==
+--===============4673430650427666593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.13.y
-    old: 1be19cf963e6d91a6d108ce40c96925610355e68
-    new: 6fcc0c5f7322a449824de7f2641dd0b551ae68f2
-    log: revlist-1be19cf963e6-6fcc0c5f7322.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 629a85c559f0a71dc2c6270176977134eba72f36
+    new: c7320079e7f6e4ca94b5e3433329a6a2238654bf
+    log: revlist-629a85c559f0-c7320079e7f6.txt
 
---===============1490624607042827694==
+--===============4673430650427666593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,55 +32,52 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630932892 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1630932890-3be1f3f42be2f06e88b939d7da8c4e558bfcc24c
 
-1be19cf963e6d91a6d108ce40c96925610355e68 6fcc0c5f7322a449824de7f2641dd0b551ae68f2 refs/heads/linux-5.13.y
+629a85c559f0a71dc2c6270176977134eba72f36 c7320079e7f6e4ca94b5e3433329a6a2238654bf refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE2D5wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xTgQAL2B4GGeWLICUBlO0y/1
-RGkORYDm3IzAl+UVXWVufzF51SFn4b3oJI1kuQgVjNduRyTpiMR05gk1yFErEqKM
-koAQM71bzulfMhmZzAiReMyy1oiK5CIkFhsRIGBKiSxn8gv8IQ2Quw2F3aLKchJ1
-/Q1tx+j8bDaTaFLEqtT3r1oyLU9c0Kd+Qr0YK8zlfxwPV6MBLJvIo3tR0/jy2SMi
-nUMT+POL14PEwIU87FecNeXxbzjSsQm2IsXnKEPXRZWLDyNNLn5MBoy0CUcb2f8w
-6rhjh3aif4A76xEP2wHCFQkp+ErPwE/6I5FxvHFseYGQkd0Qe2W2DtQmvekQRNZx
-6uCADP49MYOXDJd8QMMApHBAjogetOZYJD6ltQoBTy9fV7IqE0gSaq6K7y2pakne
-K/kS+paR0lVoQzUIFDpIomBTaTpMHyT4lVm5hvG9jfI2Yu2Ovf501bZW2KsqYnXc
-7aV88S+mMQzg7vVV6wmZO9kc4fIx4tIdZKw9qbhlP3tqwRslKHeRT4OZaWT9KAi9
-T95OxSHUsemuo8bWUVrGZuUOw6j1oNjWFdQgDk/4FeQB7r12/ULZWOaTSuE61EzQ
-pPjWslKwD9/G+UDO+62v3U3Uaj3VTo6Mg9SFBZu8PSm1gWWMImcnr3zMseaa+LbR
-/p7qi+hbIWREMfUXmiWdmW3Z
-=mhBp
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ENsP/AglJQbJkbn+XXlOJwQd
++0AAh7QUNY7Jga61lH3BP0KETggHbro8xtJGQboqgZfidLDr08rLRU/IBtUTJC9I
+yw1b5rrzrez177dUNzPwt07E1bdixnN9OFYtr8htBOf/FAyxGKuzr7XQDWmsu0Pu
+KX6tstGCxoCVY13bY9JS+EeBlYg3BPoZJRlTUh/Qrs2WzZxTiYVR+PZdAZMc0bv7
+z6DS681m2i74VrPmv6kO5i1c3dqr58gaDsTI0RygIWviprWnxJZvdXWGlFZoiSna
+sBzyp6M7u8ENGDlwUCk4IA+5EO22Uuft0BPb0L756FNccm+uMbGVoe1mMyLQd4bX
+b2O2aCpkvSmGR16YuqZ1imq2KnIw7n0SKB5dzPlW+Nn4VQE74GU4T2PiuAvM9FCK
+QUd1+J3n6GJOZtcbr03wfmYtOX23QMrsYODn39Z//rdoHdaOeyyxy/wj2W609j9u
+VaZIFTyrk25G2bntQ7aMvdXPUfdU0pLY33Ar49NSl83e0EuzbN+qDLn4fKRpsTvy
+1L+zkGx6bCJWO+IuVUQDyOlko5B2U/bA3LprY6tsJQXwa/go9Czb00QEm1Cu5YhO
+lyXuYaZuUChiYxJRrEZ+Ti8UNzHe2niHS5Yyz8CFNNjDDdTGE+J2T/CC92ZjwdvP
+vIEuPot/rJcnengCze+L4clj
+=WecN
 -----END PGP SIGNATURE-----
 
---===============1490624607042827694==
+--===============4673430650427666593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1be19cf963e6-6fcc0c5f7322.txt
+Content-Disposition: attachment; filename=revlist-629a85c559f0-c7320079e7f6.txt
 
-85ed62403c16c45f66344f304ac7a8a84202741a ext4: fix race writing to an inline_data file while its xattrs are changing
-369ae46340daf43795e73f74f0765fd4a46a5ad7 ext4: fix e2fsprogs checksum failure for mounted filesystem
-a2cb79d175b0d658f05efc048b743b88cef0957f gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-e22a9d031cdaaa00b5f210ba42565f7c9f80a79c reset: reset-zynqmp: Fixed the argument data type
-fd649af674dfaf8de5ed25067fb643f00242640f qed: Fix the VF msix vectors flow
-4c06a619af64156e4a3a8a0d58a1274bd5efbe4d net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
-f8b0b22bbd98258b141b6f85e048a227846aadce riscv: dts: microchip: Use 'local-mac-address' for emac1
-d449cd64896610d43f2ee2830c4531d50711c1fb riscv: dts: microchip: Add ethernet0 to the aliases node
-c21359aae0af72b1add1f284fb38d681faa73cbe net: macb: Add a NULL check on desc_ptp
-df05ae0354065d3bee5bc4eec8498e29f474d395 qede: Fix memset corruption
-002b4f1f45ac6e52a39760086b04849190d129d7 perf/x86/intel/pt: Fix mask of num_address_ranges
-f5560852e45a9c12afa171ea4b14da0e68168192 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
-f63c4cd5fcc7fcb08dc4443cca20faffce62c2e0 perf/x86/amd/ibs: Work around erratum #1197
-ae706040f4d6f9ae1717bdb86e46e6d5e750d846 perf/x86/amd/power: Assign pmu.module
-bbff02337d521aafc740e93d1e3ef8252a09fcd6 cryptoloop: add a deprecation warning
-4f38462175caa27d4e546de4278b4f8c3d1cbea0 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-f5650b5050d16ec3db8532b6dae66e63a26a5b89 USB: serial: pl2303: fix GL type detection
-aa3d1d9e81959f974f910dc5c4c4e12e22d3e077 USB: serial: cp210x: fix control-characters error handling
-e759ce1a1b8247a95b77fafd92fde44553ad041f USB: serial: cp210x: fix flow-control error handling
-2672e2239384b40e6da87528091c4070fbaa2784 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
-905d15f9a50e0c23494f9c8ded25b04a7546d04b ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
-baff7fdfe849dedb4314ac8c1e01ef1130487640 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-71bf61c9d7a92e564796d64cd79376bebed60143 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-0ade62a7d8ddd996fbf303783e195f3e664e8f58 media: stkwebcam: fix memory leak in stk_camera_probe
-6fcc0c5f7322a449824de7f2641dd0b551ae68f2 Linux 5.13.15-rc1
+149d2bde9e7c85374f6d3bbb860d6494391bd8c7 ext4: fix race writing to an inline_data file while its xattrs are changing
+145a340b38674318b0fd9ce241ee5c7a21da2b11 fscrypt: add fscrypt_symlink_getattr() for computing st_size
+8278ad5a720983b8a50177cc00cf81952e2ae5d7 ext4: report correct st_size for encrypted symlinks
+2701f4439248ed333d72381a2054099415e53128 f2fs: report correct st_size for encrypted symlinks
+6f82d8bf3a40967907afb3440ce5e4192419ad86 ubifs: report correct st_size for encrypted symlinks
+30a340dd13d1378dcb07fb0ecf08f3355c5ad2e8 kthread: Fix PF_KTHREAD vs to_kthread() race
+67cd168d7d096f096e511f6c6dcc272562c719b3 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+6112312462d6f988fd9d1f707dec7018dea1415f gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+95fc0743e4985126d787cc7f34936449522d6644 reset: reset-zynqmp: Fixed the argument data type
+3978f8d1e848029f4761e91ddfdd05e28b397d71 qed: Fix the VF msix vectors flow
+2e320eb6172323e11e7b14bd48adf27be5fd09b8 net: macb: Add a NULL check on desc_ptp
+9e436bf4eed3df7c41bb4bc55bc29c1fec93f3df qede: Fix memset corruption
+8055b27a0c75b006520fa5185ed7226eebf1e49a perf/x86/intel/pt: Fix mask of num_address_ranges
+47e496030c33a49a558f86ba6ba257143099f4e3 perf/x86/amd/ibs: Work around erratum #1197
+28470d837419fff53c81c8d89247856cf98a6563 perf/x86/amd/power: Assign pmu.module
+e41b4a11d45d68af10933185fbcb928d4794c6b4 cryptoloop: add a deprecation warning
+5258c13662f26acf330bf0f0d9770e50f1c4216d ARM: 8918/2: only build return_address() if needed
+2b6e20de827b280faa5549b643a7af55c3879b2e ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+64dfef88aa757828dd6d020f4c7a6e20d447c904 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+d9d18f64c3b54abb50595c91207dacdf774e952f ARC: wireup clone3 syscall
+591c48ddda70cba55ec44d05a90ffe1848806d3b media: stkwebcam: fix memory leak in stk_camera_probe
+c7320079e7f6e4ca94b5e3433329a6a2238654bf Linux 5.4.145-rc1
 
---===============1490624607042827694==--
+--===============4673430650427666593==--
