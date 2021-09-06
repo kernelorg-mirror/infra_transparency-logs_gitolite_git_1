@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 06 Sep 2021 03:46:33 -0000
-Message-Id: <163089999317.31267.16432800823835881400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 06 Sep 2021 03:50:04 -0000
+Message-Id: <163090020450.2548.13706718652132022216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/clk-next
-    old: 47505bf3a82166c3576155c229e941af922bf147
-    new: 2cfa946be843834d937e0914552d4967ffd421fc
-    log: |
-         2cfa946be843834d937e0914552d4967ffd421fc clk: qcom: gcc-sm6350: Remove unused variable
-         
+  - ref: refs/tags/block-5.15-2021-09-05
+    old: 0000000000000000000000000000000000000000
+    new: 450bd944c6d030d11377ee6f85a7cdd66e4ee27a
