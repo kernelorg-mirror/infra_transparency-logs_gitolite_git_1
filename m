@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0972130917534969764=="
+Content-Type: multipart/mixed; boundary="===============8337081132262113085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 06 Sep 2021 12:16:59 -0000
-Message-Id: <163093061925.28944.11602394834204619487@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 12:17:35 -0000
+Message-Id: <163093065555.29193.15720576809576186919@gitolite.kernel.org>
 
---===============0972130917534969764==
+--===============8337081132262113085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 9e9fb7655ed585da8f468e29221f0ba194a5f613
     new: 27151f177827d478508e756c7657273261aaf8a9
     log: revlist-9e9fb7655ed5-27151f177827.txt
 
---===============0972130917534969764==
+--===============8337081132262113085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e07af2626643293fa16df655979e7963250abc63 Merge tag 'arc-5.15-rc1' of git://git.k
 58ca24158758f1784400d32743373d7d6227d018 Merge tag 'trace-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 27151f177827d478508e756c7657273261aaf8a9 Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============0972130917534969764==--
+--===============8337081132262113085==--
