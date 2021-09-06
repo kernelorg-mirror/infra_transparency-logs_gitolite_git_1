@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7841839746130504839=="
+Content-Type: multipart/mixed; boundary="===============7759831827151240899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 06 Sep 2021 12:54:33 -0000
-Message-Id: <163093287330.21249.1183900986999607060@gitolite.kernel.org>
+Date: Mon, 06 Sep 2021 12:54:34 -0000
+Message-Id: <163093287489.21331.1259647096510479222@gitolite.kernel.org>
 
---===============7841839746130504839==
+--===============7759831827151240899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,61 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: e66631b2bcfe6400b2bb94bb119140e081d4853e
-    new: 629a85c559f0a71dc2c6270176977134eba72f36
-    log: revlist-e66631b2bcfe-629a85c559f0.txt
+  - ref: refs/heads/linux-5.14.y
+    old: 75c8357de1998cf4bc63ce7e15404a5789436e37
+    new: c51a055b5e5aabbbefdce7a129f8c02c197d5c90
+    log: revlist-75c8357de199-c51a055b5e5a.txt
 
---===============7841839746130504839==
+--===============7759831827151240899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630932871 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1630932873 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1630932871-d1a935dba4e87408f3a8f5eb9c69faabd5e63d4b
 
-e66631b2bcfe6400b2bb94bb119140e081d4853e 629a85c559f0a71dc2c6270176977134eba72f36 refs/heads/linux-5.4.y
+75c8357de1998cf4bc63ce7e15404a5789436e37 c51a055b5e5aabbbefdce7a129f8c02c197d5c90 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE2D4cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K5YP/ApKO+WK+dh6pjvQHxru
-X0xvT3DOwXapEqsxBYv+cf4HMl77pBPC8b4huiD9JTlBwjJbyusUB9ImcFMN/wgq
-7+sfE9UTgPDtzYBIeOcqeudc5C8B0dNCpqWwaa2oxI0iuYRUHEytO96/cPC8fl4W
-UVDzKFaNLLcF+oBgvgRfkgwC2iIuojA25trxc/+TnuMQBTKHxuB8FYFWCJ0uQg84
-2VuJn5sMAx/SkUSOeBxMvhNhVqKGY5i9s5ijpCBwhVopNMFTryj245zHlDhj+8E/
-gxG8t67RzY5qmczIJn5ayZSrUohs0gCuWaN1jTKp6T8J8jmFXXhmK151sq8A+xSs
-PZDuL8jD9m9DWQDpO4vIUpfOCUQgwMWAs5h8+yls4nZNPff4bUqrnH223QN5LSgL
-R4FPRZQ83ewUSaN1n5NRGf7BJUPF7VfEAOP7q/WGK8x5IicvkXh2WFz6+koRljWL
-MG5S4OMcOyM/VlI+ALc/cEnBYQe3iwFeg7AoNDWt9KD2nbKs6lI6GTeoApoyqRim
-TycnPsXmK39eDHuH1FQGQEBBHt464VUSI9rhoK6i1LiIlSgjnAsFjWdbomn+eQ5r
-qtta/kv07kRYUN9yyxSLR7A4v6AqPMQGTCVr/p85gKqMZFY55S0DHAx1ynCIXWFv
-5mOSeWOx4scplz6n/Z4W1vUI
-=+yQs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE2D4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JDUQANbN3iRUErHBx0DLezHv
+Z0fFHZJs8i8DlrUUTnriK24nD6l7u7iwNvfTODEiNLvtJky9Bbq4PDDWkHMXUqwX
+xoeoz+UKYHycJIwcyp/uZqKVblyLRBHMmzhLjx4Auaq39M95ihZ6iQv+TPR0O5Mt
+BYpWnIJLym5nSHbwBAKMiXVyGYZg1kJA5QhciIOZbU5icYb+HHHOUED96L1sl/WV
+Hj2dL+tz0mdaVY1K3Y82ZK/HX2dk7wFylH8XI7O45RNJa0vAL3/4pF5/6p3DKAUJ
+ekqLg4o+9QKCLIldwNiDmMRJ0bLkVxSIB/AlyG4RcmE5OVgHREC2a9kkF1J/lStx
+dPlhA61OtSI9jAi7QlCmVPcbiRn2G8jbZtOZWdwfdXqKyAxOVXiCnfA9QJfDQ5AE
+OzpPIarwfWvQNfeYW4wL6e0C+UDkU56o805L7ZuBR5EJqyXjjO3taIyu64a2bzAH
+PI04/uElLbMw1V/2wATYfvtF/z/vESEB0NkAL8lV8P3vE0G7MalCv/fLjnRWI0PO
+U724MNNbbcNWtC7EpsQ87lyfCKbYT13yREqOToaZRavaCbmtAznGO+rlX+MN5Efl
+J9ZX8EgmfI+8FS8NNWA4FVMWk8FlZv1qElt2pIF5JiCTvmJX15YM4H5EkhOibOY7
+j/pZcP/gPrduureK1uJNjCEv
+=CZYz
 -----END PGP SIGNATURE-----
 
---===============7841839746130504839==
+--===============7759831827151240899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e66631b2bcfe-629a85c559f0.txt
+Content-Disposition: attachment; filename=revlist-75c8357de199-c51a055b5e5a.txt
 
-bf84835d3754e47ccd4a688f7c89cc2603bc0820 ext4: fix race writing to an inline_data file while its xattrs are changing
-1bb9b0c7a603b5576d746fa38d882ad6c3ac6b2b fscrypt: add fscrypt_symlink_getattr() for computing st_size
-f6b25d955cac75c31463a2267d919c6c6548df90 ext4: report correct st_size for encrypted symlinks
-12467c284d8bd2f41307d36876c5e6d38df75148 f2fs: report correct st_size for encrypted symlinks
-d460a365dee181f944f1679b93206ab2740e912c ubifs: report correct st_size for encrypted symlinks
-7b9be83418df1f4923101085db5cca150ce8de75 kthread: Fix PF_KTHREAD vs to_kthread() race
-c0ece2796c7da6ceb76f82e0d4db0999028a0268 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-ce7cc44f94c331ce74f9b2b6a4cc5d42ec916c92 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-5020fac54d4250358d8fc83b84c522debd00725f reset: reset-zynqmp: Fixed the argument data type
-d016fc96f1bdc2600ca241f36aa834cc6ebca0d6 qed: Fix the VF msix vectors flow
-90f4261a349680ea0217116e6507452f50b1611f net: macb: Add a NULL check on desc_ptp
-702904bd0a4902489517d9731241d39fb3787ce7 qede: Fix memset corruption
-de46184de37b2567977291a33bb14a687f11fee9 perf/x86/intel/pt: Fix mask of num_address_ranges
-768f87666cfad3e37d27417b1abef11241927226 perf/x86/amd/ibs: Work around erratum #1197
-bfe9ae269792486a8cdd147518daaa37740b204f perf/x86/amd/power: Assign pmu.module
-81ee08b516d234a751f8a980430bf1a9b28f7a4d cryptoloop: add a deprecation warning
-9e031740ba05ebf657e80e8674f065f94dec93fe ARM: 8918/2: only build return_address() if needed
-5631a39533a66a9b52b63b0d03dfaf7391e8abcc ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-a3f89e0782328e1b96cd5dca2204efb744d5faa1 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-08f735c85ea2bafa6d8d180dac567e1a68fb0ad9 ARC: wireup clone3 syscall
-c3ba00cb4a4d5937af24a91f23189e1e7a5f1a04 media: stkwebcam: fix memory leak in stk_camera_probe
-629a85c559f0a71dc2c6270176977134eba72f36 Linux 5.4.145-rc1
+63cdee4cc1fcb5304e2cdf9db9494bb0d55a9223 ext4: fix race writing to an inline_data file while its xattrs are changing
+9197ba27c9ce2425c1135bce04cfd91abc40d6f3 ext4: fix e2fsprogs checksum failure for mounted filesystem
+ca20dd4db396a9483a69558db678b67640e763f2 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+a9bc47a20bb7cfa51445588e45198114025d072f USB: serial: pl2303: fix GL type detection
+f30d752c3e57b4e87d03c06e892e9ceb03eadf1a USB: serial: cp210x: fix control-characters error handling
+67f5a303ea4726c43f16a58eb3c2f44461f8c37d USB: serial: cp210x: fix flow-control error handling
+a09a4bbb2cd60317df63377a89b4450fb435b1a1 HID: usbhid: Fix flood of "control queue full" messages
+291eb451d78c7c176b8769c9430287d59fed11d6 HID: usbhid: Fix warning caused by 0-length input reports
+754fd3b5e3e10cc42798347deb8c9059da26b912 ALSA: hda/realtek: Quirk for HP Spectre x360 14 amp setup
+4d887f10a18fdd7f6026b4d62699588464f7b0da ALSA: usb-audio: Fix regression on Sony WALKMAN NW-A45 DAC
+91f62696980232824c5ed593d0b9fcdaa4dcc3cb ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+e6988a22fe0dad9ea9b1c06973495c8c3da7a61a ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+f896eb710e5fc615acfe5f43f129f3cdbca36bcd ALSA: usb-audio: Work around for XRUN with low latency playback
+2b7d91e2212d67ddbd7c1181f84551187d1776ab media: stkwebcam: fix memory leak in stk_camera_probe
+c51a055b5e5aabbbefdce7a129f8c02c197d5c90 Linux 5.14.2-rc1
 
---===============7841839746130504839==--
+--===============7759831827151240899==--
