@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Mon, 06 Sep 2021 15:44:26 -0000
-Message-Id: <163094306639.2962.10029685646403392935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 06 Sep 2021 15:53:13 -0000
+Message-Id: <163094359316.9893.17165833401661093082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/generic_647_dio_deadlock_fix
-    old: 579ed8db2d97038c37196a2c0bb56483d5ec522a
-    new: 1d204d36d4389cce72cfbc6051f5daf0f453e755
+  - ref: refs/heads/master
+    old: 0a83299935f047f4a051e2a1d32391d34f4e4fcc
+    new: b539c44df067ac116ec1b58b956efda51b6a7fc1
     log: |
-         1d204d36d4389cce72cfbc6051f5daf0f453e755 btrfs: fix deadlock due to page faults during direct IO reads and writes
+         1d99411fe70194f39d74a8db2ad082daa12e6aad net: wwan: iosm: Replace io.*64_lo_hi() with regular accessors
+         b539c44df067ac116ec1b58b956efda51b6a7fc1 net: wwan: iosm: Unify IO accessors used in the driver
          
