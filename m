@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7658762007402250301=="
+Content-Type: multipart/mixed; boundary="===============7945173704070387872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 07 Sep 2021 06:43:30 -0000
-Message-Id: <163099701079.31406.9006165363155950866@gitolite.kernel.org>
+Date: Tue, 07 Sep 2021 06:43:51 -0000
+Message-Id: <163099703169.31626.11347825211432789086@gitolite.kernel.org>
 
---===============7658762007402250301==
+--===============7945173704070387872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: ec92e524ee91c98e6ee06807c7d69d9e2fd141bc
-    new: b539c44df067ac116ec1b58b956efda51b6a7fc1
-    log: revlist-ec92e524ee91-b539c44df067.txt
+  - ref: refs/heads/testing
+    old: 044012b52029204900af9e4230263418427f4ba4
+    new: 35b1cb8da701971600659986612fb93743c0e813
+    log: revlist-044012b52029-35b1cb8da701.txt
 
---===============7658762007402250301==
+--===============7945173704070387872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1630997006 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1630997027 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1630997006-2f30e90699c4301b5a4c72c0f2f773c4d0e84141
+nonce 1630997027-515bec2c20b2ea43a80f2a7aaeee57df9c61dbe8
 
-ec92e524ee91c98e6ee06807c7d69d9e2fd141bc b539c44df067ac116ec1b58b956efda51b6a7fc1 refs/heads/master
+044012b52029204900af9e4230263418427f4ba4 35b1cb8da701971600659986612fb93743c0e813 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmE3Cg4THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqXrrCACUijJFpJ9waXTxZK5AoGrgY4LC4jTJ
-daF9Mk5RnhWgjHFEOXne60MDiVnKgq8xN9zEEFj2EmdPv0N2rR4yoi8Nvidgf+sW
-eLaThpIJVIgAKXL5hmGlJuAJe+vnaP/GlLM3kh1tXL21gjw1rfJDnP7SPtj5iyOf
-t71JK3T+aYNAiAs5SBElmoWgF++qmJ5/RhZ+Ut14Zjx5+UXURr7uRx2u1V7uBt4t
-pBwPkCfcp9iXWP6nmFgk6kUpSj0RE8Ax/pNE6y+Tl/u+LjTOLTS+s64DfzfiqO0A
-ow+6LeXzl2tev1V0WqLjvooiLlb/wJAEITb22LVNoqow9hkZCyJP6wDL
-=L1/X
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmE3CiMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqUYkB/0XzNlQfaVMhSrNWbfQMZx+wlfMpIxH
+Zi5krOFm9J0KLu0RoxHN9wt8hkR7G08d8SksByoSNfMkuF66iAYotl1tDYopFoSN
+kquK8PEOLZjiJtRBd2hM/pJRx6mYB78bDVrotd520Vd0syjsHtOt2Tr+5bL8m1NJ
+kFH+D+ydVRTT0KV0tptlYZJhdjAhO0F1W2BIiUi6I+VkNmuqBehMrsX4VEczM/jN
+IUgVlHAnvCzUtPFZAoYFOUD/pxPNyxeEZcNmTlsoL0E0CSqQa3QszA96VPrNKIEs
+DBpqUzTDYE+dX8kMo7ZLTSLjtD6Aa9qaJu7h+2OlfCBe2LE/u0qJG939
+=3rDW
 -----END PGP SIGNATURE-----
 
---===============7658762007402250301==
+--===============7945173704070387872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec92e524ee91-b539c44df067.txt
+Content-Disposition: attachment; filename=revlist-044012b52029-35b1cb8da701.txt
 
-2294a7299f5e51667b841f63c6d69474491753fb EDAC/i10nm: Fix NVDIMM detection
 cf4e6d52f58399c777276172ec250502e19d5e63 EDAC/i10nm: Retrieve and print retry_rd_err_log registers
 5f432cceb3e9de5223fa50d882c4a43cab39a3ee nvme: use blk_mq_alloc_disk
 45938335d0a9773d65a82a7ca722bb76e4b997a8 st: do not allocate a gendisk
@@ -507,7 +506,6 @@ eb18b49ea758ec052ac2a12c6bb204e1e877ec31 bpf: tcp: Allow bpf-tcp-cc to call bpf_
 574ee209286755ae57449196bfa11a90d2d724e5 bpf: selftests: Add dctcp fallback test
 0584e965fb2517f41b7057ffa26f3b6e15a53754 Merge branch 'bpf: tcp: Allow bpf-tcp-cc to call bpf_(get|set)sockopt'
 eb529c5b10b9401a0f2d1f469e82c6a0ba98082c bpf: Fix bpf-next builds without CONFIG_BPF_EVENTS
-044012b52029204900af9e4230263418427f4ba4 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
 0b3a8738b76fe2087f7bc2bd59f4c78504c79180 perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
 26db2e0c51fe83e1dd852c1321407835b481806e perf/x86/amd/ibs: Work around erratum #1197
 f11dd0d80555cdc8eaf5cfc9e19c9e198217f9f1 perf/x86/amd/ibs: Extend PERF_PMU_CAP_NO_EXCLUDE to IBS Op
@@ -1075,5 +1073,7 @@ fe63339ef36bfb1cc12962015a9b254170eea057 ip6_gre: Revert "ip6_gre: add validatio
 0a83299935f047f4a051e2a1d32391d34f4e4fcc net: qcom/emac: Replace strlcpy with strscpy
 1d99411fe70194f39d74a8db2ad082daa12e6aad net: wwan: iosm: Replace io.*64_lo_hi() with regular accessors
 b539c44df067ac116ec1b58b956efda51b6a7fc1 net: wwan: iosm: Unify IO accessors used in the driver
+308a2c23d491834f203d6caa405a365d179cb27f can: rcar_canfd: add __maybe_unused annotation to silence warning
+35b1cb8da701971600659986612fb93743c0e813 can: c_can: fix null-ptr-deref on ioctl()
 
---===============7658762007402250301==--
+--===============7945173704070387872==--
