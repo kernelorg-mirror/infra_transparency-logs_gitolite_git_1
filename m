@@ -1,21 +1,49 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 07 Sep 2021 18:37:41 -0000
-Message-Id: <163103986140.17770.8043813840409374252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+Date: Tue, 07 Sep 2021 18:43:42 -0000
+Message-Id: <163104022299.21165.8152178207439060779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 4b93c544e90e2b28326182d31ee008eb80e02074
-    new: 0bcfe68b876748762557797a940d0a82de700629
-    log: |
-         cd1adf1b63a112d762832e9c64b0a886fbb840d6 Revert "mm/gup: remove try_get_page(), call try_get_compound_head() directly"
-         3754707bcc3e190e5dadc978d172b61e809cb3bd Revert "memcg: enable accounting for file lock caches"
-         0bcfe68b876748762557797a940d0a82de700629 Revert "memcg: enable accounting for pollfd and select bits arrays"
-         
+  - ref: refs/tags/5.15-rc1-5.10
+    old: 0000000000000000000000000000000000000000
+    new: 1936e155a8a6744c14cadc4b69811bbc42af365a
+  - ref: refs/tags/f2fs-for-5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 386cd7f3fc8831f879db3288842651ea875c2ad6
+  - ref: refs/tags/f2fs-for-5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c987bbe548fc6a18c33d506a5b4d9443b7427679
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.14
+    old: 0000000000000000000000000000000000000000
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+  - ref: refs/tags/v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/v5.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
+  - ref: refs/tags/v5.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e610ab8323e2278fdf9e9f83eb56183d373257be
+  - ref: refs/tags/v5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/tags/v5.14-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f6c803e46645d21750457cceaa97f9fa078f39c2
+  - ref: refs/tags/v5.14-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0958b0b45a7419c681d581384a094b94af5469c1
+  - ref: refs/tags/v5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53371b959e5823998cd617e74b585e7d328f5840
