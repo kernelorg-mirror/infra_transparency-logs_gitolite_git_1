@@ -1,35 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 07 Sep 2021 09:40:48 -0000
-Message-Id: <163100764835.3695.15524116687114353534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 07 Sep 2021 09:48:56 -0000
+Message-Id: <163100813691.8927.2562706425959079716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-linus
-    old: 8491f59e3b130ea8b5116e363d400c42f91544fc
-    new: c5433f026b27cc100985189fac04969dfbf56dba
-    log: |
-         9d2e19e349627e79bcd474bc64e71a312029b3be ALSA: gus: Fix repeated probes of snd_gus_create()
-         c5433f026b27cc100985189fac04969dfbf56dba ALSA: gus: Fix repeated probe for ISA interwave card
-         
-  - ref: refs/heads/for-next
-    old: 8491f59e3b130ea8b5116e363d400c42f91544fc
-    new: c5433f026b27cc100985189fac04969dfbf56dba
-    log: |
-         9d2e19e349627e79bcd474bc64e71a312029b3be ALSA: gus: Fix repeated probes of snd_gus_create()
-         c5433f026b27cc100985189fac04969dfbf56dba ALSA: gus: Fix repeated probe for ISA interwave card
-         
   - ref: refs/heads/master
-    old: 1c7a53cb2d78ab8ab59454b8adbb601200117670
-    new: 49c0c8199242dc69dfe2036623ba9ed3f9fd697b
+    old: 1dbe7e386f505bdae30f7436c41769149c7dcf32
+    new: 4b93c544e90e2b28326182d31ee008eb80e02074
     log: |
-         9d2e19e349627e79bcd474bc64e71a312029b3be ALSA: gus: Fix repeated probes of snd_gus_create()
-         c5433f026b27cc100985189fac04969dfbf56dba ALSA: gus: Fix repeated probe for ISA interwave card
-         49c0c8199242dc69dfe2036623ba9ed3f9fd697b Merge branch 'for-linus'
+         1476ff21abb435cd4c453e61df5b125fac8cc50b iwl: fix debug printf format strings
+         ba7b1f861086d760ef1032915fe7c809a191434e lib/test_scanf: split up number parsing test routines
+         4b93c544e90e2b28326182d31ee008eb80e02074 thunderbolt: test: split up test cases in tb_test_credit_alloc_all
          
