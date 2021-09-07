@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0477883843230295486=="
+Content-Type: multipart/mixed; boundary="===============1351537125814231970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 07 Sep 2021 05:46:16 -0000
-Message-Id: <163099357664.26763.5908090905532028083@gitolite.kernel.org>
+Date: Tue, 07 Sep 2021 05:46:32 -0000
+Message-Id: <163099359211.26932.14106036007290018594@gitolite.kernel.org>
 
---===============0477883843230295486==
+--===============1351537125814231970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 63f0bae391934f544bccbacd10d158b357640fdd
     new: a1f36fccf551696c57c3a792a50a759a64f70449
     log: revlist-63f0bae39193-a1f36fccf551.txt
 
---===============0477883843230295486==
+--===============1351537125814231970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1033,4 +1033,4 @@ aa449963c33bffc60b434b29c9c8fbe0a273f1ca headers/deps: arm64/mm: Move the vmemma
 a219aee692ef3a8a0d4b4ce6ad08a7e0cd3009e1 headers/deps: arm64/paravirt: Remove __init annotation from <asm/paravirt.h>
 a1f36fccf551696c57c3a792a50a759a64f70449 ==================================================================
 
---===============0477883843230295486==--
+--===============1351537125814231970==--
