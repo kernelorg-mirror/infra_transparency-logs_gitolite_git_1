@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5993101780872217914=="
+Content-Type: multipart/mixed; boundary="===============5835628603176594845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Tue, 07 Sep 2021 20:28:48 -0000
-Message-Id: <163104652827.26275.10433824432057124717@gitolite.kernel.org>
+Date: Tue, 07 Sep 2021 20:29:16 -0000
+Message-Id: <163104655600.26493.17226226682420192856@gitolite.kernel.org>
 
---===============5993101780872217914==
+--===============5835628603176594845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,61 +15,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 341b0015809777212de330e4802864e0cec28bfe
-    new: 814f6a843b9ef2515638ac347d85daf865aa620c
-    log: revlist-341b00158097-814f6a843b9e.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 0e6c5e5a0d4754d6dcf6dea24c7840242c456ee1
+    new: d1b648ad1597684bca53ffa95d348d52929b5acc
+    log: revlist-0e6c5e5a0d47-d1b648ad1597.txt
 
---===============5993101780872217914==
+--===============5835628603176594845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-341b00158097-814f6a843b9e.txt
+Content-Disposition: attachment; filename=revlist-0e6c5e5a0d47-d1b648ad1597.txt
 
-00908eecaff0279d8178d953fed807f0aa5b0a67 f2fs: add sysfs nodes to get GC info for each GC mode
-5120acdc90922beba60dd1e40ff578da2695f8a3 f2fs: compress: fix to set zstd compress level correctly
-c80651d0d3f99ad4c1513ae14833de70ef986332 f2fs: avoid to create an empty string as the extension_list
-b431fca2c4db4a69feb4845b9d182fa53f6c3e10 f2fs: Revert "f2fs: Fix indefinite loop in f2fs_gc() v1"
-073a1afb6bb799c6c7b98d30785a22b34bdd7c6f f2fs: let's keep writing IOs on SBI_NEED_FSCK
-b24f79b8e65d025b8733972c6266d442907af6ac f2fs: quota: fix potential deadlock
-bdef9d8852b1d7d6da6e2b6195cf0f5083208e15 f2fs: make f2fs_write_failed() take struct inode
-657bd8f81db97a8bf51c2a3516dff4158fcd65f4 f2fs: remove allow_outplace_dio()
-5f81864accc4c1f0a70f178abb06b35333c2a794 f2fs: don't sleep while grabing nat_tree_lock
-b72eb13a3d8e71ac45559cefe8ab46a38b7eef60 f2fs: compress: remove unneeded read when rewrite whole cluster
-23b3ad006c95ce7c907a3ca24d3dd57f414eaa0a f2fs: do not submit NEW_ADDR to read node block
-a1f2bc24415170d3bcdda727a0bb583e8a9851ee f2fs: change fiemap way in printing compression chunk
-7a6c4b08699594ca22eedbe42c11fe58e49d490c f2fs: turn back remapped address in compressed page endio
-3cf880c946c48f2e3bfe8d7f0bc2e68393663863 f2fs: show sbi status in debugfs/f2fs/status
-fc709bdf1ba0149f7b17ac31536841065e4fa7ea f2fs: fix wrong checkpoint_changed value in f2fs_remount()
-e295ca68c872ca8068f05c4de4a07b4d064b0263 f2fs: fix to force keeping write barrier for strict fsync mode
-9986d88f9831476d26e230ac941b7c989512771a f2fs: fix min_seq_blocks can not make sense in some scenes.
-ee208707f69c27699e3a20c2a92447a8772a2f51 f2fs: introduce discard_unit mount option
-da077153b5ad030b5621828586ff7a3387cbc1e2 f2fs: fix to stop filesystem update once CP failed
-9c3b2840e111972a2fd5f44ef27854c6292a3fc2 f2fs: reduce the scope of setting fsck tag when de->name_len is zero
-d4f8ebd75e112a614b15ceb2dac496edcea1fcad f2fs: Kconfig: clean up config options about compression
-0a5d2eb60b1b06b89bead853552210a609696f18 f2fs: extent cache: support unaligned extent
-b4f76651ef782fd726ece1e3b9e45e10c9525399 f2fs: avoid unneeded memory allocation in __add_ino_entry()
-8a1d7ef1749761cb29c06d9ac1a84b4e9d9e538c f2fs: fix to do sanity check for sb/cp fields correctly
-42b3759275c1de418e4b0c11ed90db0efb674e3c f2fs: compress: avoid duplicate counting of valid blocks when read compressed file
-0c05d0a193399685c69970e541802d2a1ffd8aa3 f2fs: improve sbi status info in debugfs/f2fs/status
-85edf8301e8164d903411ede0d757359e11cf428 f2fs: correct comment in segment.h
-1a1aa8a51cef399460911fa6ec25bc40ad4336e1 f2fs: compress: allow write compress released file after truncate to zero
-8766fdd083e2312c5230c0e0b13c492d200d39d1 f2fs: support fault injection for f2fs_kmem_cache_alloc()
-60eff273d00c0c6b70ecb4ee193fa86335d1c9ce f2fs: fix to keep compatibility of fault injection interface
-ceee8bbb4d6e001759c352d356e4a6c239bce838 f2fs: convert S_IRUGO to 0444
-fa2398f0a9c7e6ac78b16f4a4c6a069f41769b12 f2fs: fix description about main_blkaddr node
-d8e5d1aca64eb352f1eb9fa64354a8e7d12e8194 f2fs: compress: do sanity check on cluster
-132506ae8348727b27f5e8691f49ccd2036663a8 f2fs: separate out iostat feature
-76e3c701971fca1015a840013cdaa7aa92e994f5 f2fs: introduce periodic iostat io latency traces
-8f5d3b4d95df786e81d65d80e5c11db283d26c5e f2fs: rebuild nat_bits during umount
-e180d13a39a07a2f27b0c241a1fccda689aed2dc f2fs: Don't create discard thread when device doesn't support realtime discard
-24bc3b723575973b08834fc1ed1776aec60d5bfb f2fs: adjust unlock order for cleanup
-102cf1c406622fb213a06fee4f0eab14c28921b4 f2fs: fix to account missing .skipped_gc_rwsem
-d13130b664b99ac46bdc73268f5e2117c2ab395d f2fs: fix unexpected ENOENT comes from f2fs_map_blocks()
-4cedafe4c823df35b9bf61780f6a75fe881b1081 f2fs: fix to unmap pages from userspace process in punch_hole()
-6608ba097fa7dced01895348972f1c3d1abb1977 f2fs: guarantee to write dirty data when enabling checkpoint back
-dc085c6db2c9d8d88e517ea2a1bd6e849d181172 f2fs: enable realtime discard iff device supports discard
-0b6a2759857312a31c95e85b4925de05a85260f3 f2fs: deallocate compressed pages when error happens
-814f6a843b9ef2515638ac347d85daf865aa620c f2fs: should put a page beyond EOF when preparing a write
+d6c7b1ffc6e831effd085bf2159f33debfb61d12 f2fs: add sysfs nodes to get GC info for each GC mode
+4406572a6743bb47a3264e2d5caf086a78960097 f2fs: compress: fix to set zstd compress level correctly
+bb7e57c3bf2ccd9d4a566d00067a0a286d3e9972 f2fs: avoid to create an empty string as the extension_list
+15a65a56d489caa37b2e2e07b4cd1fd9c82e7605 f2fs: Revert "f2fs: Fix indefinite loop in f2fs_gc() v1"
+25000ef5423eb1d1a382d158c50e5fc9b84c2717 f2fs: let's keep writing IOs on SBI_NEED_FSCK
+4370239943ef6356d20946a46d34fe33d5f7e95b f2fs: quota: fix potential deadlock
+9814fc7490cad9ea6df659ced30b35f321f5305b f2fs: make f2fs_write_failed() take struct inode
+70dd6a9297dc3a35e1ad7a2766893bffc92f79fa f2fs: remove allow_outplace_dio()
+fa8a6a996e52c5545c63c48157c436ff3c7a2cdb f2fs: don't sleep while grabing nat_tree_lock
+9074f4608bdd5a8d8817f3657969bfbc45b20d4f f2fs: compress: remove unneeded read when rewrite whole cluster
+e2d6885e3764a0a2b24bfe628802612aa58beab0 f2fs: do not submit NEW_ADDR to read node block
+ad13b0a2384889b6e5e2fdacc69be90ab57be3c7 f2fs: change fiemap way in printing compression chunk
+30da531412007fe00964f71f21f6a876e4d370f3 f2fs: turn back remapped address in compressed page endio
+56c766cf65fb3a7ec30e9539484264b1efa1b74d f2fs: show sbi status in debugfs/f2fs/status
+ec65e86ddf0758f7cf441a0bb2df0e702ca4c245 f2fs: fix wrong checkpoint_changed value in f2fs_remount()
+f6838f43daccd18c969b00c24e5b0ae0df27d0de f2fs: fix to force keeping write barrier for strict fsync mode
+0c549743a2f2dfd6e3b5c335da5a6024d97f7f9c f2fs: fix min_seq_blocks can not make sense in some scenes.
+a5a9de59a9176aa2890b33ab553fa28553cb2eaa f2fs: introduce discard_unit mount option
+df43c78b69718fe53304813e1d55b393c48523e0 f2fs: add sysfs node to control ra_pages for fadvise seq file
+56e98b5ed01300f1098d91c2196dcc105a0a1ff6 f2fs: fix to stop filesystem update once CP failed
+c41348696fe415831a1b7cbdd4ee12f4dd893568 f2fs: reduce the scope of setting fsck tag when de->name_len is zero
+a53faf31e3b36536e1fe7293b2ed25150bfa3f46 f2fs: Kconfig: clean up config options about compression
+55be9af7c1a4d6f90a169cf6e24e5fba1fba971b f2fs: extent cache: support unaligned extent
+46f1b96cb7526ed04694afd14457077b822226f5 f2fs: avoid unneeded memory allocation in __add_ino_entry()
+c507edb605bef0f72484da1346b0f13d5fee7810 f2fs: fix to do sanity check for sb/cp fields correctly
+0b7c791c9380cd07b772ad1a8ac89c0fa6c3af2f f2fs: compress: avoid duplicate counting of valid blocks when read compressed file
+25d6ffdc34e467d753cdafad232049f73a01db77 f2fs: improve sbi status info in debugfs/f2fs/status
+ee5ef96011ac5f2a45c95237e7a753514aceb66c f2fs: correct comment in segment.h
+02472e7d3253ed8247a83f04b281b41be52ec39c f2fs: compress: allow write compress released file after truncate to zero
+009f9685479ed0c84425456122d104bf5bf6b38f f2fs: support fault injection for f2fs_kmem_cache_alloc()
+c60531fcb02713817c6f733c80cc70be67097498 f2fs: fix to keep compatibility of fault injection interface
+6636e91b66f232142a4bce6499c0e715bba112a1 f2fs: convert S_IRUGO to 0444
+ae478338568fc97f6f75ea708fdc8bf43e4b8c9e f2fs: fix description about main_blkaddr node
+4dc2c2dd14170b592a3129fae49057988e151254 f2fs: compress: do sanity check on cluster
+15401a9d03e6e65ca41b2c7fd0c99a9db20214fd f2fs: separate out iostat feature
+b7edb848c4ff9237ac323d53c48431b7a51efd8b f2fs: introduce periodic iostat io latency traces
+51e44c4f7b3068553038d27cb1fa8ed900afab3c f2fs: rebuild nat_bits during umount
+7135b5bc7e62f97ffee6df8401c105604dfeb9c7 f2fs: Don't create discard thread when device doesn't support realtime discard
+f87b53b2df47c695ab4f58204d33591a816fa421 mount: fix mounting of detached mounts onto targets that reside on shared mounts
+d27f0f30cb65209304871ffcb041aaed250b26c1 f2fs: adjust unlock order for cleanup
+57fdd7e560696dd96d437d96cbc09e44bce4b6df f2fs: fix to account missing .skipped_gc_rwsem
+2cc5656ed89b5ba329992c08cb42fd17c231670d f2fs: fix unexpected ENOENT comes from f2fs_map_blocks()
+f5c1857c2d8222c32b0571b676fc33d2ca37f72f f2fs: fix to unmap pages from userspace process in punch_hole()
+fa500bb96f736f98cca77f03a587fbbb6afa7969 f2fs: guarantee to write dirty data when enabling checkpoint back
+a86e443685860aa9d47736ec5f16a2b539a903d3 f2fs: enable realtime discard iff device supports discard
+5282fd3c871d7575db8ea7f67826791a5d3b36c4 f2fs: deallocate compressed pages when error happens
+d1b648ad1597684bca53ffa95d348d52929b5acc f2fs: should put a page beyond EOF when preparing a write
 
---===============5993101780872217914==--
+--===============5835628603176594845==--
