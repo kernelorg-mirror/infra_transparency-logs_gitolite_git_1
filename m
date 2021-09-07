@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5577311265995737230=="
+Content-Type: multipart/mixed; boundary="===============2263189107940069293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 07 Sep 2021 05:02:25 -0000
-Message-Id: <163099094570.31491.1787837535432131345@gitolite.kernel.org>
+Date: Tue, 07 Sep 2021 05:03:04 -0000
+Message-Id: <163099098417.31769.1850831097526286945@gitolite.kernel.org>
 
---===============5577311265995737230==
+--===============2263189107940069293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: d12e1c4649883e8ca5e8ff341e1948b3b6313259
     new: b539c44df067ac116ec1b58b956efda51b6a7fc1
     log: revlist-d12e1c464988-b539c44df067.txt
 
---===============5577311265995737230==
+--===============2263189107940069293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ fe63339ef36bfb1cc12962015a9b254170eea057 ip6_gre: Revert "ip6_gre: add validatio
 1d99411fe70194f39d74a8db2ad082daa12e6aad net: wwan: iosm: Replace io.*64_lo_hi() with regular accessors
 b539c44df067ac116ec1b58b956efda51b6a7fc1 net: wwan: iosm: Unify IO accessors used in the driver
 
---===============5577311265995737230==--
+--===============2263189107940069293==--
