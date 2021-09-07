@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 07 Sep 2021 22:07:13 -0000
-Message-Id: <163105243336.24787.17218298909613562504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 07 Sep 2021 22:20:47 -0000
+Message-Id: <163105324746.2301.9865322886778393807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 055000ad1180fb751662e547e3ee85c930bf7d47
-    new: 90da323c0e2e11f4dd930bddd6bd5b4bc5c462f8
+    old: f0323ef9feb06b698cc5a78a085e22c89e66f1db
+    new: 73ed50b53a33dd84ddd852ba7c4e0570ff0c4e82
     log: |
-         984e364d57ceab3807a59a9bbc7b4e1f05f9b4bc tools/sco-tester: add test cases to get offload codecs
-         c20caffc312e825fd231c653170cfa72314cb1d6 tools/sco-tester: Add a test case for setting offload codec
-         90da323c0e2e11f4dd930bddd6bd5b4bc5c462f8 tools/sco-tester: add a test case for offload SCO connect
+         73ed50b53a33dd84ddd852ba7c4e0570ff0c4e82 Tue 07 Sep 2021 10:19:38 PM UTC
          
