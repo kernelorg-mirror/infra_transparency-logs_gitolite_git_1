@@ -1,78 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1814698467717209332=="
+Content-Type: multipart/mixed; boundary="===============0342049945527212443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Tue, 07 Sep 2021 20:29:41 -0000
-Message-Id: <163104658123.26756.2415119271787814293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
+Date: Tue, 07 Sep 2021 20:29:44 -0000
+Message-Id: <163104658410.26828.17786583707533254658@gitolite.kernel.org>
 
---===============1814698467717209332==
+--===============0342049945527212443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/morgan/libcap
+user: morgan
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: bc961aee9e57d80c139492e1476061e2f5d21bbb
-    new: 1936e155a8a6744c14cadc4b69811bbc42af365a
-    log: revlist-bc961aee9e57-1936e155a8a6.txt
+  - ref: refs/heads/master
+    old: 07cdff9ac969c35f1b2e4c0ccb5e3cc5fdceb2b2
+    new: b35370f7f65387c02c0542d6c36144ca0a0e5efd
+    log: revlist-07cdff9ac969-b35370f7f653.txt
 
---===============1814698467717209332==
+--===============0342049945527212443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc961aee9e57-1936e155a8a6.txt
+Content-Disposition: attachment; filename=revlist-07cdff9ac969-b35370f7f653.txt
 
-4479c16890f52f3078f85b600a7ed0a54888ae58 f2fs: add sysfs nodes to get GC info for each GC mode
-5fd8bddaf09639681d6a00be211c12d3c5714ee0 f2fs: compress: fix to set zstd compress level correctly
-3b12f276eab5e00fc62896fd5296b41f1f5c3453 f2fs: avoid to create an empty string as the extension_list
-ca329be902d1185c71fdd407e588bcdbb8a7342a f2fs: Revert "f2fs: Fix indefinite loop in f2fs_gc() v1"
-4cb1eb81bc354ce02fb0e5b55acf54c879e0b27e f2fs: let's keep writing IOs on SBI_NEED_FSCK
-f516b460b841d33404393f93a1ffdb03414b7096 f2fs: quota: fix potential deadlock
-c70a6087b6a149cf5de3133074c968b5bcfc1099 f2fs: make f2fs_write_failed() take struct inode
-cef541ebfd88bad3d7960213df69a012a59a18fd f2fs: remove allow_outplace_dio()
-27d5563ccf8914996820f0b8ae73d8e8eba49d04 f2fs: don't sleep while grabing nat_tree_lock
-8d9032267437ca7c79756a8b544e075db40080fc f2fs: compress: remove unneeded read when rewrite whole cluster
-e262b6b3133f78186ec33b6fc30a66946ec87c51 f2fs: do not submit NEW_ADDR to read node block
-eb7b3d4bcc9f0ef3be44cb248748eba6151d1c26 f2fs: change fiemap way in printing compression chunk
-fce7eb6bbb464cfa380d3500d169319844a6920e f2fs: turn back remapped address in compressed page endio
-125d10640cb835d7d34a8d5efa732b0b7ddd60c7 f2fs: show sbi status in debugfs/f2fs/status
-8b68b2810a7b2d2c19541c8aea547a70d37d8cec f2fs: fix wrong checkpoint_changed value in f2fs_remount()
-673d77626cb791eff01bf5fc4f333a4a6d202fab f2fs: fix to force keeping write barrier for strict fsync mode
-bfb4379b214c1fc5607a48b81f0660e29cfcb97b f2fs: fix min_seq_blocks can not make sense in some scenes.
-b4333197db32d6dc03f6fd4a05b981925c3f74a3 f2fs: introduce discard_unit mount option
-94400420e16b1d81bb4c8df9498836576cf7c636 f2fs: add sysfs node to control ra_pages for fadvise seq file
-3f4f0468db7a0035cb83339a00970a9eeae8aa75 f2fs: fix to stop filesystem update once CP failed
-7b9b92ff1bf07300628e05d966d28318f32b3ecc f2fs: reduce the scope of setting fsck tag when de->name_len is zero
-62d321c3b8d22e48bce2d6bbf9825f9fb8193ebe f2fs: Kconfig: clean up config options about compression
-627371ed31cf9f56ba66ad8dfabbc7bc9b7a4816 f2fs: extent cache: support unaligned extent
-e2a7d2733b4743e74cf89f858a54d483821f10a7 f2fs: avoid unneeded memory allocation in __add_ino_entry()
-24d236c4fafc14f60cec56cc9cfb2e991f2d34a5 f2fs: fix to do sanity check for sb/cp fields correctly
-60a81e6cf3b4afab5d015e1c5e126d1469621f9f f2fs: compress: avoid duplicate counting of valid blocks when read compressed file
-b771a854327a05eb3e31122c06733c39180b824e f2fs: improve sbi status info in debugfs/f2fs/status
-7a11fe8af925c26d0be99e2739692026d93b4860 f2fs: correct comment in segment.h
-9d05ffd99197661f85118a5129b7982843792705 f2fs: compress: allow write compress released file after truncate to zero
-4ab362d8ca8f05555adf61000e72132534504c14 f2fs: support fault injection for f2fs_kmem_cache_alloc()
-717d1e903cd67b0038bbd09740abce1f481a1d1a f2fs: fix to keep compatibility of fault injection interface
-35f8bc157fa13b043dfb4dc6b2a7e31e440379e7 f2fs: convert S_IRUGO to 0444
-fcf8c77c97b863e9f28c30a503444ae26ce8c8cb f2fs: fix description about main_blkaddr node
-32935b532deb7422a833788640dc32acce3c64db f2fs: compress: do sanity check on cluster
-d20508aceea5646b6855617cbd4ff2b0e7d18b63 f2fs: separate out iostat feature
-d95bf22a4d1cbeebc288b87af27f0ea181a57218 f2fs: introduce periodic iostat io latency traces
-5145b2306f86517e42450aff3570c32c7eb31250 f2fs: rebuild nat_bits during umount
-07290879f7a2918692fa2b86b40e834234fd8bc6 f2fs: Don't create discard thread when device doesn't support realtime discard
-9c3a9e03e71ea2132f6004f71c49f3e11667cdb1 mount: fix mounting of detached mounts onto targets that reside on shared mounts
-b177568d2a6b45f0be687cf633188e9d25838f52 f2fs: adjust unlock order for cleanup
-fafe5fbb01062f4d741b78fffe6f8c6422d3098b f2fs: fix to account missing .skipped_gc_rwsem
-a20c48ec32231951b692c6df15b0cb252ddffd1a f2fs: fix unexpected ENOENT comes from f2fs_map_blocks()
-3fed4aded2a2972cba24f1f19a401a380ff726c8 f2fs: fix to unmap pages from userspace process in punch_hole()
-bb047775ec49ea091ba14ea03fcdc9af8383bbbd f2fs: guarantee to write dirty data when enabling checkpoint back
-c533acb2f19c05fd71c17f89cfcc186ea8a4a8b6 f2fs: enable realtime discard iff device supports discard
-09b5f83f7cd8e176843323c0883a1c7e37e2ba19 f2fs: deallocate compressed pages when error happens
-0961cc984eece25cc411f004b5087f976e3c4075 f2fs: should put a page beyond EOF when preparing a write
-1936e155a8a6744c14cadc4b69811bbc42af365a fs: Fix freeze_bdev()/thaw_bdev() accounting of bd_fsfreeze_sb
+c90b5debdf28acc010d5ee50ff5ff0c97ab0e367 Fix some static analysis results.
+a56162c6900d203c5ac63a2b41b46cb0c45c645f Eliminate an alignment issue found by clang.
+386af0edbc9eec3b382451da782a08ba4632db06 Stop installing the cap and psx packages, but do install captree.
+552db8f4116df3fad4e4ebf90a9a05a77b9486fd More fixes for static analysis issues.
+b56400f81ddd42e0e57372c957e668e6d5a72834 Implement libcap:cap_proc_root() function.
+de1130dbfe6d4ce99422b11cac147d39448bcd40 Speculative fix for build failure.
+43365cf01c64b530e7a3d62214247e1aa042414d Still unclear where cap_test is crashing.
+6c38eb78d96a60a9503dc5c89ade67b65778fed9 Avoid the build server failure.
+61b2fcc4510641ffd691d8e5a82e968b458f0cb9 Make sudotest more robust against untestable environments
+b972c50c0989a81da308886e5d602c272e90f8cb Add captree command line options and support process by name.
+b9d56654dee6c8998fa477ffb20e8a5d01044f96 Update man pages.
+2bfe36c9999c852c79c0bba1c31b25285326b91d Up the release version to 2.55
+f5ae31ebd3d49a064cb85ccd62a75198883cec3b Be more consistent with make variables.
+264b784089bfb56b0039c1ebfc5e92912f0284ce Resurrect the $(WARNINGS) for the target build
+15a3d49bf12b24c0a353525acb93e188f67e7581 Move $(LDFLAGS) earlier in build command lines.
+2d776b10dc9f4b33ec3778f6d4fddc51f9b9dcde Permit root to run test_pam_cap without arguments.
+41f065cdc95f8bbe79ccba94cff20cd5434f7d2a cap_iab.3 doc fixes and cleanup
+2762c2c1a8c98d9012fcd40f20d133493a0b3219 Canonicalize build system
+0cba26fca376c34fa715b31b915ea0adee5d77ce sucap/su should start with an empty INHERITABLE flag.
+142ad758ffaaec1b4c4e5e7c61287a943f21ff7b Don't display duplicate subtrees with captree.
+2a3984fe0fc12880e15760b35733db6031b0a652 Avoid disecting sub-trees of processes in captree output.
+f245f03f430482d972b5934d66bd4a31616f95ad Make captree use --color on any terminal by default.
+c54a087429f96d0ab4561d1aa3bb55a802c226a2 Document latest option for captree in its man page.
+0f286b584ebe7019ba33cc48ad9e4ad8efb5b23c Up the release version to 2.56
+3249c2696468bc82ec45f4fcabddc390473a45da Build system fixes
+99799844ad9272d43892881d1090369e6032aec2 Don't build the tests/binaries until we want to run them
+5ef14d07420c299ecd8de96928a5d1ce1e232df3 Refactor top level Makefile to reduce redundant building
+967b3a0a95223036478e7d991ee96fa42912803a Add --mode query support to capsh
+f223de46154a3d2644914ea358d5c69b36770459 Treat ENOTSUP as an expected error for getcap.
+8b3ffc23b6cbe42d2eac5a3c0d970fd26472a246 Fixed parallel make issues
+8434c10a690f3352ff5d8cb011859502718a60b7 Be more systematic about POSIX.1e value group names
+b35370f7f65387c02c0542d6c36144ca0a0e5efd Implement --strict capsh argument.
 
---===============1814698467717209332==--
+--===============0342049945527212443==--
