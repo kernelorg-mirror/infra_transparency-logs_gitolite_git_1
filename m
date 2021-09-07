@@ -1,177 +1,137 @@
-Content-Type: multipart/mixed; boundary="===============2738268019573809622=="
+Content-Type: multipart/mixed; boundary="===============1988014547618727901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 07 Sep 2021 22:44:21 -0000
-Message-Id: <163105466173.15692.12353301158903985556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 07 Sep 2021 23:03:24 -0000
+Message-Id: <163105580450.28585.5177897479783287276@gitolite.kernel.org>
 
---===============2738268019573809622==
+--===============1988014547618727901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: e22ce8eb631bdc47a4a4ea7ecf4e4ba499db4f93
-    new: 7d2a07b769330c34b4deabeed939325c77a7ec2f
-    log: revlist-e22ce8eb631b-7d2a07b76933.txt
+  - ref: refs/heads/seen
+    old: ff212e7ffefb2735f7aa9ac5ee70c3e50dc0bf20
+    new: 7a8a9a8c78f8519c80310e1edb5206d0816ed59e
+    log: revlist-ff212e7ffefb-7a8a9a8c78f8.txt
 
---===============2738268019573809622==
-Content-Type: text/plain; charset="us-ascii"
+--===============1988014547618727901==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e22ce8eb631b-7d2a07b76933.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-ff212e7ffefb-7a8a9a8c78f8.txt
 
-1435f82689e1d195e56ce8b19c81aa7b1a3bd0b0 reset: RESET_MCHP_SPARX5 should depend on ARCH_SPARX5
-463dbba4d189750c2f576449d0bbb11c5413712e ARM: 9104/2: Fix Keystone 2 kernel mapping regression
-7cca7c8096e2c8a4149405438329b5035d0744f0 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-72fc2752f91b40312e493afe0a72e7c76ae27990 drm/imx: ipuv3-plane: fix accidental partial revert of 8 pixel alignment fix
-da78fe5fb35737058de52364484ffed74e7d329b RDMA/mlx5: Fix crash when unbind multiport slave
-f6018cc4602659e0e608849529704f3f41276c28 RDMA/uverbs: Track dmabuf memory regions
-17f2569dce1848080825b8336e6b7c6900193b44 RDMA/bnxt_re: Add missing spin lock initialization
-0032640204a7d73bef163638c34a4642f8c9ed07 RDMA/irdma: Use correct kconfig symbol for AUXILIARY_BUS
-cbe71c61992c38f72c2b625b2ef25916b9f0d060 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
-a036ad088306a88de87e973981f2b9224e466c3f RDMA/bnxt_re: Remove unpaired rtnl unlock in bnxt_re_dev_init()
-65a81b61d8c5e96748671824cc46339afbd831d0 RDMA/rxe: Fix memory allocation while in a spin lock
-a8f89fa27773a8c96fd09fb4e2f4892d794f21f6 ice: do not abort devlink info if board identifier can't be found
-310d2e83cb9b7f1e7232319880e3fcb57592fa10 powerpc: Re-enable ARCH_ENABLE_SPLIT_PMD_PTLOCK
-3c474b3239f12fe0b00d7e82481f36a1f31e79ab sched: Fix Core-wide rq->lock for uninitialized CPUs
-787c70f2f9990b5a197320152d2fc32cd8a6ad1a powerpc/64s: Fix scv implicit soft-mask table for relocated kernels
-7e78c597c3ebfd0cb329aa09a838734147e4f117 net: qrtr: fix another OOB Read in qrtr_endpoint_post
-ffc9c3ebb4af870a121da99826e9ccb63dc8b3d7 net: usb: pegasus: fixes of set_register(s) return value evaluation;
-4b79959510e6612d80f8d86022e0cb44eee6f4a2 igc: fix page fault when thunderbolt is unplugged
-691bd4d7761992914a0e83c27a4ce57d01474cda igc: Use num_tx_queues when iterating over tx_ring queue
-44a13a5d99c71bf9e1676d9e51679daf4d7b3d73 e1000e: Fix the max snoop/no-snoop latency for 10M
-4051f68318ca9f3d3becef3b54e70ad2c146df97 e1000e: Do not take care about recovery NVM checksum
-2a7b9a8437130fd328001f4edfac8eec98dfe298 drm/amdgpu: use the preferred pin domain after the check
-32bc8f8373d2d6a681c96e4b25dca60d4d1c6016 drm/amdgpu: Cancel delayed work when GFXOFF is disabled
-dbe986bdfd6dfe6ef24b833767fff4151e024357 RDMA/efa: Free IRQ vectors on error flow
-cc4f596cf85e97ca6606e1bd10b3b9851ef52ddf RDMA/rxe: Zero out index member of struct rxe_queue
-12d125b4574bd7f602802d94d7b4a55d85aa8e25 stmmac: Revert "stmmac: align RX buffers"
-22aa45cb465be474e97666b3f7587ccb06ee411b x86/efi: Restore Firmware IDT before calling ExitBootServices()
-527f721478bce3f49b513a733bacd19d6f34b08c x86/resctrl: Fix a maybe-uninitialized build warning treated as error
-1d011c4803c72f3907eccfc1ec63caefb852fcbf ip_gre: add validation for csum_start
-9cf448c200ba9935baa94e7a0964598ce947db9d ip6_gre: add validation for csum_start
-19526d092ceb32d619fce73fe0bdca4370890124 opp: core: Check for pending links before reading required_opp pointers
-5ed74b03eb4d08f5dd281dcb5f1c9bb92b363a8d xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
-46002bf3007ce0387be73d0c9640ee7cd2de4788 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-82a44ae113b7b35850f4542f0443fcab221e376a net: stmmac: fix kernel panic due to NULL pointer dereference of plat->est
-359f4cdd7d78fdf8c098713b05fee950a730f131 net: marvell: fix MVNETA_TX_IN_PRGRS bit number
-ed104ca4bd9c405b41e968ad4ece51f6462e90b6 reset: reset-zynqmp: Fixed the argument data type
-7a141e64cf14099d84e530db0e86fcb2c489e341 net: usb: asix: ax88772: move embedded PHY detection as early as possible
-1406e8cb4b05fdc67692b1af2da39d7ca5278713 net: usb: asix: do not call phy_disconnect() for ax88178
-14315498f5d373097d5082c27c7f764923ec1796 Merge branch 'asix-fixes'
-1f8b66d9654b21ec227a7884bcf739c70d9d27a7 Merge branch 'opp/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm into pm-opp
-d5ae8d7f85b7f6f6e60f1af8ff4be52b0926fde1 Revert "media: dvb header files: move some headers to staging"
-5b029a32cfe4600f5e10e36b41778506b90fd4de bpf: Fix ringbuf helper function compatibility
-5ddf994fa22f78ae3742d72520a8c3e8521d96cd ucounts: Fix regression preventing increasing of rlimits in init_user_ns
-bbb6d0f3e1feb43d663af089c7dedb23be6a04fb ucounts: Increase ucounts reference counter before the security hook
-b0cd08537db8d2fbb227cdb2e5835209db295a24 qed: Fix the VF msix vectors flow
-446e7f218b7662c912c610aae99069543aa88a40 ipv6: correct comments about fib6_node sernum
-3b0720ba00a7413997ad331838d22c81f252556a net: dsa: mv88e6xxx: Update mv88e6393x serdes errata
-2829a4e3cf3a6ac2fa3cdb681b37574630fb9c1a USB: serial: option: add new VID/PID to support Fibocom FG150
-c41a4e877a185241d8e83501453326fb98f67354 drm/amdgpu: Fix build with missing pm_suspend_target_state module export
-6e764bcd1cf72a2846c0e53d3975a09b242c04c9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-b6d2b054e8baaee53fd2d4854c63cbf0f2c6262a mq-deadline: Fix request accounting
-93100d6817b05a60f3e1d354932a4fe792f14d08 net: phy: mediatek: add the missing suspend/resume callbacks
-02c6dcd543f8f051973ee18bfbc4dc3bd595c558 scsi: core: Fix hang of freezing queue between blocking and running device
-379eb01c21795edb4ca8d342503bd2183a19ec3a riscv: Ensure the value of FP registers in the core dump file is up to date
-719588dee26bac0d5979c122bc530c43dc5d07c7 riscv: dts: microchip: Use 'local-mac-address' for emac1
-417166ddec020c4e969aea064e23822591ad54df riscv: dts: microchip: Add ethernet0 to the aliases node
-df7b16d1c00ecb3da3a30c999cdb39f273c99a2f Revert "USB: serial: ch341: fix character loss at high transfer rates"
-2d26f6e39afb88d32b8f39e76a51b542c3c51674 net: stmmac: dwmac-rk: fix unbalanced pm_runtime_enable warnings
-85520079afce885b80647fbd0d13d8f03d057167 net: macb: Add a NULL check on desc_ptp
-a6451192da2691dcf39507bd758dde35d4606ee1 net: stmmac: fix kernel panic due to NULL pointer dereference of xsk_pool
-2b9fff64f03219d78044d1ab40dde8e3d42e968a net: stmmac: fix kernel panic due to NULL pointer dereference of buf->xdp
-e543468869e2532f5d7926e8f417782b48eca3dc qede: Fix memset corruption
-cd9b50adc6bb9ad3f7d244590a389522215865c4 net/sched: ets: fix crash when flipping from 'strict' to 'quantum'
-3eb9cdffb39701743973382860f214026f4d7825 Partially revert "arm64/mm: drop HAVE_ARCH_PFN_VALID"
-4e9655763b82a91e4c341835bb504a2b1590f984 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
-c53c6b7409f4cd9e542991b53d597fbe2751d7db perf/x86/intel/pt: Fix mask of num_address_ranges
-b2f9fa1f3bd8846f50b355fc2168236975c4d264 ceph: correctly handle releasing an embedded cap flush
-a9e6ffbc5b7324b6639ee89028908b1e91ceed51 ceph: fix possible null-pointer dereference in ceph_mdsmap_decode()
-62add98208f37ce02c0425f3858757472e3fcc2e Merge branch 'for-v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-fe67f4dd8daa252eb9aa7acb61555f3cc3c1ce4c pipe: do FASYNC notifications for every pipe IO, not just state changes
-3c5a272202c28c1f9309566f206ba40787246149 PM: domains: Improve runtime PM performance state handling
-946746d1ad921e5f493b536533dda02ea22ca609 mm/memory_hotplug: fix potential permanent lru cache disable
-a34cc13add2c92573db79192967f6a512868ec56 MAINTAINERS: exfat: update my email address
-73f3af7b4611d77bdaea303fb639333eb28e37d7 Merge branch 'akpm' (patches from Andrew)
-062b829c52ef4ed5df14f4850fc07651bb7c3b33 SUNRPC: Fix XPT_BUSY flag leakage in svc_handle_xprt()...
-ec92e524ee91c98e6ee06807c7d69d9e2fd141bc net: usb: asix: ax88772: fix boolconv.cocci warnings
-044012b52029204900af9e4230263418427f4ba4 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
-0b3a8738b76fe2087f7bc2bd59f4c78504c79180 perf/x86/intel/uncore: Fix integer overflow on 23 bit left shift of a u32
-26db2e0c51fe83e1dd852c1321407835b481806e perf/x86/amd/ibs: Work around erratum #1197
-f11dd0d80555cdc8eaf5cfc9e19c9e198217f9f1 perf/x86/amd/ibs: Extend PERF_PMU_CAP_NO_EXCLUDE to IBS Op
-ccf26483416a339c114409f6e7cd02abdeaf8052 perf/x86/amd/power: Assign pmu.module
-662b932915f7f407784abec971a21273a82191b2 Merge tag 'usb-serial-5.14-rc8' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-92ea47fe09b531642e5b791d74645a6f08b23725 Merge tag 'linux-can-fixes-for-5.14-20210826' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-4785305c05b25a242e5314cc821f54ade4c18810 ipv6: use siphash in rt6_exception_hash()
-6457378fe796815c973f631a1904e147d6ee33b1 ipv4: use siphash instead of Jenkins in fnhe_hashfun()
-38d57551ddabec878add10ff8eb18f4b63fff2da Merge branch 'inet-siphash'
-43fed4d48d325e0a61dc2638a84da972fbb1087b cxgb4: dont touch blocked freelist bitmap after free
-a7db5ed8632c88c029254d5d74765d52614af3fd net: dsa: hellcreek: Fix incorrect setting of GCL
-b7658ed35a5f5900f0f658e375f366513f3eb781 net: dsa: hellcreek: Adjust schedule look ahead window
-a423cbe0f21353ac1e63aad037fd5ccf446440bc Merge branch 'dsa-hellcreek-fixes'
-96a6b93b69880b2c978e1b2be9cae6970b605008 rtnetlink: Return correct error on changing device netns
-733c99ee8be9a1410287cdbb943887365e83b2d6 net: fix NULL pointer reference in cipso_v4_doi_free
-a63bcf08f0efb5348105bb8e0e1e8c6671077753 drm/i915: Fix syncmap memory leak
-71de496cc489b6bae2f51f89da7f28849bf2836e drm/i915/dp: Drop redundant debug print
-51f1954ad853d01ba4dc2b35dee14d8490ee05a1 usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
-6c35ca06974105d929f25f487c6ae7a47fffa128 Merge tag 'reset-fixes-for-v5.14' of git://git.pengutronix.de/pza/linux into arm/fixes
-4a1e25c0a029b97ea4a3d423a6392bfacc3b2e39 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
-c82cacd2f1e622a461a77d275a75d7e19e7635a3 usb: renesas-xhci: Prefer firmware loading on unknown ROM state
-ef52b4a9fcc24e17e81cc60357e6107ae4e9c48e usb: typec: tcpm: Raise vdm_sm_running flag only when VDM SM is running
-1a6d281946c330cee2855f6d0cd796616e54601f net: hns3: clear hardware resource when loading driver
-a96d9330b02a3d051ae689bc2c5e7d3a2ba25594 net: hns3: add waiting time before cmdq memory is released
-b15c072a9f4a404c09ad589477f4389034742a8b net: hns3: fix speed unknown issue in bond 4
-94391fae82f71c98ecc7716a32611fcca73c74eb net: hns3: fix duplicate node in VLAN list
-55649d56541bebecfd45ecd14f02944190538a66 net: hns3: change the method of getting cmd index in debugfs
-3462207d2d684658d97499ca77c00c9ac7c87ea8 net: hns3: fix GRO configuration error after reset
-8c1671e0d13d4a0ba4fb3a0da932bf3736d7ff73 net: hns3: fix get wrong pfc_en when query PFC configuration
-57f8178292714ce042f7ead960a945f237da49b2 Merge branch 'net-hns3-add-some-fixes-for-net'
-75da63b7a13981e2b1972f4e3444108b05c6ceaf Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-294c34e704e78d641b039064ce72d4531afe0088 media: ipu3-cio2: Drop reference on error path in cio2_bridge_connect_sensor()
-e681dcbaa4b284454fecd09617f8b24231448446 sched: Fix get_push_task() vs migrate_disable()
-9b49ceb8545b8eca68c03388a07ecca7caa5d9c1 Merge tag 'for-5.14-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-9ebc2758d0bbed951511d1709be0717178ec2660 Revert "net: really fix the build..."
-97d8cc20085f63cfbf0b123295e12cf9ad66a03c Merge tag 'ceph-for-5.14-rc8' of git://github.com/ceph/ceph-client
-1a6d80ff2419e8ad627b4bf4775a8b4c70af535d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-7b05bf771084ff788243b78f51bc2c820730951c Revert "block/mq-deadline: Prioritize high-priority requests"
-8a2cb8bd064ecb089995469076f3055fbfd0a4c9 Merge tag 'net-5.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-73367f05b25dbd064061aee780638564d15b01d1 Merge tag 'nfsd-5.14-1' of git://linux-nfs.org/~bfields/linux
-1a519dc7a73c977547d8b5108d98c6e769c89f4b PCI/MSI: Skip masking MSI-X on Xen PV
-4f33239615da9446311806bd79b4d5ba78524163 Merge tag 'drm-intel-fixes-2021-08-26' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-589744dbdd760f34e1de6c5d907598df1d17c8d4 Merge tag 'amd-drm-fixes-5.14-2021-08-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-9fe4f5a24fdac99c484daf29eded9c6685fa2020 Merge tag 'imx-drm-fixes-2021-08-18' of git://git.pengutronix.de/pza/linux into drm-fixes
-77dd11439b86e3f7990e4c0c9e0b67dca82750ba Merge tag 'drm-fixes-2021-08-27' of git://anongit.freedesktop.org/drm/drm
-3375dca0b542c747d29655cf52f7b2741ecebe0e pd: fix a NULL vs IS_ERR() check
-75432ba583a8a374b8d1ad2d3ba559a78f7454fc usb: gadget: f_uac2: fixup feedback endpoint stop
-068fdad20454f815e61e6f6eb9f051a8b3120e88 usb: gadget: u_audio: fix race condition on endpoint stop
-885814a97f5a1a2daf66bde5f2076f0bf632c174 Revert "mmc: sdhci-iproc: Set SDHCI_QUIRK_CAP_CLOCK_BASE_BROKEN on BCM2711"
-94606b893f4503a834f066bc9caa9659bd9ef810 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-222013f9ac30b9cec44301daa8dbd0aae38abffb cryptoloop: add a deprecation warning
-1a6436f375129a96adcc492013a466b934fcad79 Merge tag 'mmc-v5.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-5a61b7a29647ed7c939ca76d3bf83c75d10ba16e Merge tag 'riscv-for-linus-5.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-7ee5fd12e8cac91bdec6de8417b030ed05d5d7ee Merge branch 'pm-opp'
-425bec0032f59eeee12520085cd054fac09cc66e virtio-mem: fix sleeping in RCU read side section in virtio_mem_online_page_cb()
-c0006dc6957ef0b5d3e785556f30f928af05ab0c Merge tag 'pm-5.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-8f9d0349841a2871624bb1e85309e03e9867c16e Merge tag 'acpi-5.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-6f18b82b41147ee15b0b5bf7c9ae0464dda287f9 Merge tag 'soc-fixes-5.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-64b4fc45bea6f4faa843d2f97ff51665280efee1 Merge tag 'block-5.14-2021-08-27' of git://git.kernel.dk/linux-block
-9f73eacde73b105d722968e79d0f84fd5034a6f4 Merge tag 'powerpc-5.14-7' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-447e238f14b251acf2a954750e028ad0352b0016 Merge tag 'usb-5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-3f5ad13cb012939e1797ec9cdf43941c169216d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-1669a941f7c4844ae808cf441db51dde9e94db07 clk: renesas: rcar-usb2-clock-sel: Fix kernel NULL pointer dereference
-f6a3308d6feb351d9854eb8b3f6289a1ac163125 Revert "parisc: Add assembly implementations for memset, strlen, strcpy, strncpy and strcat"
-072a276745da10620c9b84a08519620670ba7496 Merge tag 'x86_urgent_for_v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-98d006eb49cba379c50536b5de24f05df927c126 Merge tag 'perf_urgent_for_v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f20a2637b1b1851cb30fceab68c27aef5fd43a2c Merge tag 'irq_urgent_for_v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-537b57bd5a202af145c266d4773971c2c9f90cd9 Merge tag 'sched_urgent_for_v5.14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-90ac80dcd3136da7c5694835d6cad2010aa08798 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-7d2a07b769330c34b4deabeed939325c77a7ec2f Linux 5.14
+27f3796ac1f9b711fae506f63186034ed178690c hash.h: provide constants for the hash IDs
+bfd9995bdf252b6fc2f0e7f5c4428dd2daf245fd reftable: RFC: add LICENSE
+036e8e68825cd2d1a50a5815e30d831bf47638c4 reftable: add error related functionality
+cbd94527b9089ec7cd22000a5e5b963e087758d0 reftable: utility functions
+b306a5e71e9b9cba1f4ce23bf12b4313768c4441 reftable: add blocksource, an abstraction for random access reads
+5bc04d83858ffb2206d6dce4350600567b24226a reftable: (de)serialization for the polymorphic record type.
+ac5b6a03e109801f48bb2cddcb853d408457d90d Provide zlib's uncompress2 from compat/zlib-compat.c
+5253ff974c2a225cd1eed2739d5498e1449d29ab reftable: reading/writing blocks
+c94430c53beefa9e28475ba3b1137f26a9e150ac reftable: a generic binary tree implementation
+59e59ad419739ac8bdf47b2f6fad56f3a1fd4708 reftable: write reftable files
+8fed595f440e7e657aa4ab6e3d8ea5525ee7c3fe reftable: generic interface to tables
+afd0dabff23774552b04f05344283d12cae98691 reftable: read reftable files
+8952213f736eafcfc8008b3d5ddbd7b1cf52974a reftable: reftable file level tests
+fe5e83597ad6ef30f0dfd2e843376dfec71d3d78 reftable: add a heap-based priority queue for reftable records
+4c08d5522d66a379bec78da76bcb873573a92870 reftable: add merged table view
+be757df949f302bd7014099fd8e292e29eacf7b7 reftable: implement refname validation
+1599cee9d0a47af2518f191e445a66fd7fa58f8b reftable: implement stack, a mutable database of reftable files.
+932923133a16878380bca571492b8f750af9fbf8 reftable: add dump utility
+1427aef0bd1343eebc3f8939d1ab3ec05b3398f3 Add "test-tool dump-reftable" command.
+0aa496b6d5d8953ed51d5601f4cdf1d4cf19b82c test-lib-functions: use 'TEST_SHELL_PATH' in 'test_pause'
+add5240fa53fef8c9fad9081d927ffb9cbaaeb56 test-lib-functions: optionally keep HOME, TERM and SHELL in 'test_pause'
+01c381037c30e9351e439d367983f88bdd3415ba test-lib-functions: keep user's debugger config files and TERM in 'debug'
+cb7db5bbd56f587a35c1861282c46d424fee0b38 cache.h: Introduce a generic "xdg_config_home_for(…)" function
+eba1ba9d32f14dd9c052b1e2eb50e5718421d10e maintenance: `git maintenance run` learned `--scheduler=<scheduler>`
+b681b191f923267aab80ae7f7ab2f85a692e8833 maintenance: add support for systemd timers on Linux
+7366096de9d3e4aee4b49dfdf0438a8636187a84 bundle API: change "flags" to be "extra_index_pack_args"
+f46c46e4f22506a01aa0033b37ef027d9e87585f index-pack: add --progress-title option
+d941cc4c342f4feca6be2a410ac6dc56908880ec bundle: show progress on "unbundle"
+7d9c80f62673e03b3455b46cf364cfe509f75c6f tr2: remove NEEDSWORK comment for "non-procfs" implementations
+f2cc8881d70284ff6277185f8ae96c6f187208b7 tr2: clarify TRACE2_PROCESS_INFO_EXIT comment under Linux
+48f68715b14b47395a5cd63568a9a29beea8aa6f tr2: stop leaking "thread_name" memory
+6eccfc3adf7091ea6481e6a9a80be97703eef252 tr2: leave the parent list empty upon failure & don't leak memory
+326460a8700c4bc025578da18509c77f72928950 tr2: do compiler enum check in trace2_collect_process_info()
+2d3491b117c6dd08e431acc3904a546c4304d276 tr2: log N parent process names on Linux
+5acffd34738f9718caf2a5811bddbf2f40e968a0 diff-index: restore -c/--cc options handling
+709b3f32d333df1e29dbb073b4e9e834f130a989 range-diff: avoid segfault with -I
+b996f84989f78c8f6d2429b5f0b9785e13f7af23 send-email: fix a "first config key wins" regression in v2.33.0
+72b113e5621febe5d5138f73e464a4962b3b7851 Makefile: remove the check_bindir script
+c425951b07cb2f5694b4df02ec051048f4d806b4 pack-write.c: rename `.idx` file into place last
+e9353b92c501c96d4c0ccc1be6de2dc11f7721b1 builtin/repack.c: move `.idx` files into place last
+49262d369659203a8dceb5a8b15374d75cf069e5 pack-write: use more idiomatic strbuf usage for packname construction
+c049dfe74e527a594f5c5dac656e699a54080901 pack-write: split up finish_tmp_packfile() function
+741d29fe560e5e1e9051e78a8886693a72e86e46 pack-write: rename *.idx file into place last (really!)
+7638bee56c19ec81ca4cef7cd4145dfed97617af Merge branch 'pb/test-use-user-env' into jch
+a35892cd28d45b69f36adc81facb5e2ac0200362 Merge branch 'ps/fetch-optim' into jch
+7298fb76ac0bdd8bb52f79394ce5fc00c8682eb9 Merge branch 'tb/multi-pack-bitmaps' into jch
+e3504bbb94bc8b2f853f9bba18273ec3d956c7b7 Merge branch 'ps/update-ref-batch-flush' into jch
+ecba111e07976b1152162438ae996c1b8afa22ac Merge branch 'cb/pedantic-build-for-developers' into jch
+fb5db6a5108ed869219fb891de7ebcdd99bb08de Merge branch 'bs/install-strip' into jch
+9aca047a052f5596fdd79836d839ec382293ae60 Merge branch 'so/diff-index-regression-fix' into jch
+a07765244003a1b52cf6eda10e2d370639a680b7 Merge branch 'rs/range-diff-avoid-segfault-with-I' into jch
+75c66af030afa8871dbc3cfc7adef7bb3cb79f99 Merge branch 'ab/send-email-config-fix' into jch
+6832042740e1b1ea0c788069a6dd53fe5e3c1151 Merge branch 'ab/no-more-check-bindir' into jch
+9181c4a9acafcb46f5f2c58789329f96cc060078 Docs: web server must setenv GIT_PROTOCOL for v2
+79e18f3d9a1de0e71174191599a840e88d4eaaf8 Merge branch 'kr/doc-webserver-config-for-v2' into jch
+ca0cc98e03e870f9b82b31f00b5c6ae422528e46 Documentation: fix default directory of git bugreport -o
+92a5d1c9b446839a748a465518e5926451b63460 hash-object: prefix_filename() returns allocated memory these days
+41963493f78d29bfee25725823d414478c5c6698 Makefile: add SANITIZE=leak flag to GIT-BUILD-OPTIONS
+ec0871a9d04f1fde0e6238b0305a7bd1cb29208d CI: refactor "if" to "case" statement
+a3c7d4ec9f7f9005ede2554f5f4f97c89d513fa6 tests: add a test mode for SANITIZE=leak, run it in CI
+c8ee4114ac41371777b218734a762c002795dab3 t5520: do not use `pull.rebase=preserve`
+97679b533988b32d26adbeff2f664b00c9554df1 remote: warn about unhandled branch.<name>.rebase values
+5bd9382058054751df062cfd6764df096d3e6f30 tests: stop testing `git rebase --preserve-merges`
+35f71c214a926dbb3a4936cd61f0e1379fa87cef pull: remove support for `--rebase=preserve`
+ae7c8c736e85b08809c535d772b90a00b836c419 rebase: drop support for `--preserve-merges`
+745abed69cc2aa13ef28a2f618dbbfb6e0cacfb6 git-svn: drop support for `--preserve-merges`
+cb431be68ac5e90b6cfc0f3eb850d937a445ff2f rebase: drop the internal `rebase--interactive` command
+7d96eb6342cd9002202759ed4281490679982832 rebase: remove obsolete code comment
+c8352404117a81f97ba8d4e760b57f6842b62e22 rebase: stop mentioning the -p option in comments
+eeafce3b121c04810984c062a1edb483a3186c4e rebase: remove a no-longer-used function
+bd659c245e04e4a204934f9e8452cb9e117fdbf4 sequencer: restrict scope of a formerly public function
+d4ecb4d4abda6cdb771aa6d549e461aa29fca388 Merge branch 'ab/santize-leak-ci' into jch
+5b1d477234951685c848c23f2ada246b3f841e01 Merge branch 'jc/prefix-filename-allocates' into jch
+34c7ec1b0d394a5bc9a77affd1bdafae907eb1e5 Merge branch 'js/retire-preserve-merges' into jch
+568a9a20109a855f43e6736a7ae743e4ac1cb286 Merge branch 'bs/doc-bugreport-outdir' into jch
+a0aeb4c346b3ec4b86c1b05ebe14d0b9495c0f1f Merge branch 'tb/pack-finalize-ordering' into seen
+8cdbc1fa7689ae66ffb755a6031c89cf88aceb47 Merge branch 'ab/tr2-leaks-and-fixes' into seen
+c884c18fbdec25b899de6eb2f1f34457f18417ab Merge branch 'ab/unbundle-progress' into seen
+02986c8a8f682cdc0d71ed7b4c4f7c99c31b66de Merge branch 'lh/systemd-timers' into seen
+377c7a10e2ece2b8b91a7390a648794417ed2414 Merge branch 'hn/reftable' into seen
+9b269aec1374f666257b6a517415e3d3b2237422 Merge branch 'js/scalar' into seen
+aeab9a7662a2b8ef8a0b7f7db0a0c33852d1f29b Merge branch 'ms/customizable-ident-expansion' into seen
+0773622b6d16975ebc4deab2370317144a32b7a3 Merge branch 'ar/submodule-add-config' into seen
+3161503b557504dfebbb28b94acdbf6aae2c58c4 Merge branch 'ar/submodule-add-more' into seen
+d62fee8c0854062012897e32b198a3456239a0f6 Merge branch 'gh/gitweb-branch-sort' into seen
+2b778cf622f4d361762d6478ba2a84ed4a423c58 Merge branch 'ao/p4-avoid-decoding' into seen
+974046ac7aa6232d5071b22db6189020c7b3a6bf Merge branch 'ab/test-tool-cache-cleanup' into seen
+5b0a576df47ecdc22d9468c484263d485bbdb6ba Merge branch 'ab/pack-objects-stdin' into seen
+63a7b3471676dca5ee97a212ab6a3308cda9c04d Merge branch 'en/zdiff3' into seen
+13772f70517057a7f077bedddaef5015e0958e72 Merge branch 'es/superproject-aware-submodules' into seen
+623063269cd77842063bc2639d63079912660313 Merge branch 'ab/serve-cleanup' into seen
+83ad777e33777a3cddfe8856e43538aaba7a1138 Merge branch 'ab/fsck-unexpected-type' into seen
+0be3c3b89e0ea589efc59b6a750be52e857c3195 Merge branch 'ab/make-tags-cleanup' into seen
+4e3d6b59f6dfd63fbaa7407dfe1bc1815ff63869 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+418383613b1511c14837316b5ce8e9d351f42845 Merge branch 'ab/lib-subtest' into seen
+95965a704abd1eecac392c9bc1d3a6688767aa28 Merge branch 'ab/only-single-progress-at-once' into seen
+0ca951ac9cc345f1162f7be3a7cd2d3416e23f3c Merge branch 'np/blame-ignore-revs-file-may-be-optional' into seen
+3ac963ca89f7f36f464ac9c66c978838f1de41d0 Merge branch 'ab/config-based-hooks-base' into seen
+2226ab525ce67c4aadc5647650e33c2f81715aaf Merge branch 'es/config-based-hooks' into seen
+559b5c99379d9ef2455dc35fe97fad11c91e08a1 Merge branch 'ar/submodule-run-update-procedure' into seen
+b81058afa22400d1fae75e1f6778d643f6227b30 Merge branch 'ab/refs-files-cleanup' into seen
+de9ce0b9e8b013091e8b19212a432a2259d3996f Merge branch 'hn/refs-errno-cleanup' into seen
+1fb00ab55209a29ea9337d63241890fefb8f31b3 Merge branch 'pw/diff-color-moved-fix' into seen
+5d1395a4f2b97a6feeb54b77597446829117869e Merge branch 'ab/refs-errno-cleanup' into seen
+6476d3e0394b8dbee2fc8854665d3d176c790f3d Merge branch 'en/remerge-diff' into seen
+65297311de8c0b0cb08752aedbcafef122f04878 Merge branch 'mr/bisect-in-c-4' into seen
+7a8a9a8c78f8519c80310e1edb5206d0816ed59e Merge branch 'jh/builtin-fsmonitor' into seen
 
---===============2738268019573809622==--
+--===============1988014547618727901==--
