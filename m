@@ -1,32 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 08 Sep 2021 12:16:57 -0000
-Message-Id: <163110341792.27529.7096329211300995124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 08 Sep 2021 12:33:15 -0000
+Message-Id: <163110439525.5924.15723900041224287948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/for-rc
-    old: d114595caba2db661306adec222d91a072128c86
-    new: 2169b908894df2ce83e7eb4a399d3224b2635126
+  - ref: refs/heads/features
+    old: 7d665612dd5ae0fe982a34447f84cb5121c3455a
+    new: 9652cb805c44b74ba935c84bfd59745cb1962de8
     log: |
-         f4c6f31011eafe027abddf6cee1288a1b5a05b73 RDMA/mlx5: Fix xlt_chunk_align calculation
-         84f969e1c48ed3825986e91a0786e363d57f69d1 IB/qib: Fix null pointer subtraction compiler warning
-         f1b195ce81ad31618e9f28894a343fd62debb9ab RDMA/bnxt_re: Prefer kcalloc over open coded arithmetic
-         2169b908894df2ce83e7eb4a399d3224b2635126 IB/hfi1: make hist static
-         
-  - ref: refs/tags/for-linus
-    old: 778ebf80cce9cc6e4e4dcb8116fa211bd4bf9575
-    new: 81421212f6c8c13e86aa438fc3e0f36a119ed712
-    log: |
-         9660dcbe0d9186976917c94bce4e69dbd8d7a974 RDMA/mlx5: Fix number of allocated XLT entries
-         f4c6f31011eafe027abddf6cee1288a1b5a05b73 RDMA/mlx5: Fix xlt_chunk_align calculation
-         84f969e1c48ed3825986e91a0786e363d57f69d1 IB/qib: Fix null pointer subtraction compiler warning
-         f1b195ce81ad31618e9f28894a343fd62debb9ab RDMA/bnxt_re: Prefer kcalloc over open coded arithmetic
-         2169b908894df2ce83e7eb4a399d3224b2635126 IB/hfi1: make hist static
+         ff8a58b0ae735f32fe87d0d07e98751ff9dcaed0 s390/sclp: add __nonstring annotation
+         f6beebb15eeede0c39bb2d25aefa61f9ddcf2395 scsi: zfcp: fix kernel doc comments
+         2c57ad602493a6674d5c8e35b427ab27012437b2 s390/zcrypt: remove incorrect kernel doc indicators
+         9652cb805c44b74ba935c84bfd59745cb1962de8 s390/ftrace: remove incorrect __va usage
          
