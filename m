@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 08 Sep 2021 21:41:11 -0000
-Message-Id: <163113727136.5621.11095478353194451478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 08 Sep 2021 22:27:03 -0000
+Message-Id: <163114002352.2388.6168348296441013246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: d7521682c30eea3cb09a2d064c3fc0e35e752442
-    new: 25425cb4a5531b1b3f26eba4e49866d944e0f1fb
+    old: f78ea26f13dbea7091c7edafb0aebe2428ba2c48
+    new: 23af586acdcf81d1e623eace532ba2784feb64c7
     log: |
-         67486df36b0c4c726c3187f5e74544aa593fbcc5 engines/sg: Return error if generic_close_file fails
-         ff317807d24461b65041ba191de5f981107e1811 filesetup: Removing unused variable usage
-         824d8186d4fff69e95163cb3272246e03d4213fa stat: Avoid freeing null pointer
-         691df596922c1e74f74e769269254e0a091ffdc2 engines/sg: Removing useless variable assignment
-         ecace1d1596b502dc68773c5d4a9e8c6ecee3785 lib/fls.h: Remove unused variable assignment
-         000ecb5fe36dea8acbcbf8f185d00592222c95e1 zbd: Removing useless variable assignment
-         402859b39bc69bece537d3e7199031c7d84c309f log: Removing useless assignment
-         25425cb4a5531b1b3f26eba4e49866d944e0f1fb Merge branch 'ft' of https://github.com/ErwanAliasr1/fio
+         7e9b4170b1a72c31c60ed7508a73e7543b901f86 sae: don't send commit/confirm in confirmed state
+         305189523a5f95a37a0c34910662df47cf7c51f8 auth-proto: document acceptable return values for auth-protos
+         3d82ab167f35c1a8af0f76071167b5e130fef0d5 mpdu: add MMPDU_STATUS_CODE_SAE_PK
+         eeb42c56f05ff70478e818a08649ce5dece7d02a auto-t: add sae test for non-acked commit
+         23af586acdcf81d1e623eace532ba2784feb64c7 netdev: Properly handle auth_proto error returns
          
