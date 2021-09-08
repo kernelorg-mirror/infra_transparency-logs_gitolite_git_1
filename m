@@ -1,62 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3913083134413500301=="
+Content-Type: multipart/mixed; boundary="===============3828475245090613334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Wed, 08 Sep 2021 13:02:58 -0000
-Message-Id: <163110617893.16827.12048202982253064488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Wed, 08 Sep 2021 13:07:21 -0000
+Message-Id: <163110644102.19621.9427599539582415369@gitolite.kernel.org>
 
---===============3913083134413500301==
+--===============3828475245090613334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/for-greg/5.10-2
-    old: 7990ff8b793c5235429516ebddd2d29def553766
-    new: c2dc40af0c835e1ed0c723c7097eeadf2d277d6e
-    log: revlist-7990ff8b793c-c2dc40af0c83.txt
+  - ref: refs/heads/x86/fpu
+    old: a0f7a5de9713c2065e3071c1f4c78afbff2e5749
+    new: 0baf3a48c12f40f3048e17800153fe5f41cdda56
+    log: revlist-a0f7a5de9713-0baf3a48c12f.txt
 
---===============3913083134413500301==
+--===============3828475245090613334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7990ff8b793c-c2dc40af0c83.txt
+Content-Disposition: attachment; filename=revlist-a0f7a5de9713-0baf3a48c12f.txt
 
-6be69ebb2ff385f791145b50800d1da08aa0689c scsi: qla2xxx: Fix port type info
-757d0def237626e446186bb032a2139937da1b79 scsi: qla2xxx: Fix unsafe removal from linked list
-0764220b031babd290b8b88a874c96397faa26d9 scsi: qla2xxx: Fix NPIV create erroneous error
-63019b4e85c87570c557b9f08b64b8307f038340 ovl: skip checking lower file's i_writecount on truncate
-a18b21da93bc6fbd8304b583b23b56b6464d6521 scsi: target: pscsi: Fix possible null-pointer dereference in pscsi_complete_cmd()
-a27c1b59f6bba07776cab146705f026c6b5aad87 iommu/vt-d: Add present bit check in pasid entry setup helpers
-04875342245965b5dc6cec33feb4309d454a649f fs: dlm: fix return -EINTR on recovery stopped
-95fe41ecadd3175f22cd04228f07bd408005dd7b HID: sony: Fix more ShanWan clone gamepads to not rumble when plugged in.
-e8eca62adcf7b5f5d4a6215640772e9deabb8881 MIPS: mscc: ocelot: disable all switch ports by default
-fe01e330fb266c6aa8cae240ee5bbcdf0a4cc593 MIPS: mscc: ocelot: mark the phy-mode for internal PHY ports
-62166ff6206791517fff3fe7c070a517b9a4af72 scsi: qla2xxx: Fix NVMe | FCP personality change
-ed14e75c396f774db93a6965fb9c245dd51ec35c scsi: qla2xxx: Fix NVMe session down detection
-2a77094f885bc94eef13c32487fb04f2619dab96 scsi: core: Fix missing FORCE for scsi_devinfo_tbl.c build rule
-f80e6f70ed1141bed00c653f7ee26cc80f5a0a34 powerpc/32: indirect function call use bctrl rather than blrl in ret_from_kernel_thread
-8c1ef7c82a8014dd99587ca8529ad120ee2c3e4b powerpc/booke: Avoid link stack corruption in several places
-e672c9651f83cd9fdc852bd2942851fb62f86054 powerpc: Avoid link stack corruption in misc asm functions
-eddc30c8b18f00d9757cebb28538edf321eac7f4 KVM: PPC: Book3S HV: Initialise vcpu MSR with MSR_ME
-f343d381e16ee7dac162b4b6ff2474d36576f656 KVM: PPC: Book3S HV P9: Fixes for TM softpatch interrupt NIP
-ccb862198ca20a68d085e0a6d21d32c1477f0fc4 KVM: PPC: Book3S HV Nested: Fix TM softpatch HFAC interrupt emulation
-5eed5cffe46d7e8a0b808fa5ca4625a95eeee611 RDMA/core/sa_query: Retry SA queries
-47a43c5fa7c60a0717df7673ac97eb7177569daf selftests: openat2: Fix testing failure for O_LARGEFILE flag
-19a7e3426e3bfaa218ef7d33078435f0cec10111 selftests/x86: Fix error: variably modified 'altstack_data' at file scope
-5387acb24728e01b10ea1c56fbf9efacd73745fd platform/x86: dell-smbios-wmi: Avoid false-positive memcpy() warning
-d028087e7750e0796672c8c849706c86840a3916 clk: zynqmp: Fix a memory leak
-58f0662aa7dfd8c7f349be2a82b4783546dfefcd MIPS: ingenic: Unconditionally enable clock of CPU #0
-d6ea9f68184893dc9ea76caf3d32dcb22d595c0d ext4: if zeroout fails fall back to splitting the extent node
-831d025aee0dff658ddb479a9862389dca260258 ext4: Make sure quota files are not grabbed accidentally
-8f43d44926ac7bd4e96a63cb6dc1c76980340bfb xen: remove stray preempt_disable() from PV AP startup code
-ee4be9a4889741dd3e8f040cb3705d1dba51ae24 checkkconfigsymbols.py: Fix the '--ignore' option
-1eaf211d96b3b1cb4393370709d7149f97ee98c9 ocfs2: quota_local: fix possible uninitialized-variable access in ocfs2_local_read_info()
-cce97867859395a0482a6d8e096487323893f8e6 ocfs2: ocfs2_downconvert_lock failure results in deadlock
-c2dc40af0c835e1ed0c723c7097eeadf2d277d6e kasan: test: avoid corrupting memory in kasan_rcu_uaf
+6e9f491dd9ef8181e7026334e03f6fc5d14d4a0a x86/extable: Tidy up redundant handler functions
+24ba7f794c737f60a77ad592581f63774e7ce645 x86/extable: Get rid of redundant macros
+e0765d7a592835afcbe6bd797e1349077d13fbfc x86/mce: Deduplicate exception handling
+85d78964960fba160a5149f2558fbcf48f5f153e x86/mce: Get rid of stray semicolons
+7a70fa1381151aa1868057f5ae4c627a6a2c36e4 x86/extable: Rework the exception table mechanics
+cc9f6db89c6a1d0597388098eedeca0039d87ad7 x86/extable: Provide EX_TYPE_DEFAULT_MCE_SAFE and EX_TYPE_FAULT_MCE_SAFE
+4e35486b164b31f49cc2502ac4116f3145095961 x86/copy_mc: Use EX_TYPE_DEFAULT_MCE_SAFE for exception fixups
+ee2f4eabb6eb791ebfb33667540096c625b18661 x86/fpu: Use EX_TYPE_FAULT_MCE_SAFE for exception fixups
+b25aa9c83f31a2f44f644aef53fa38fd991d26dd x86/extable: Remove EX_TYPE_FAULT from MCE safe fixups
+b6f541c97d79af69e6d3995b496add924dc4364c x86/fpu/signal: Clarify exception handling in restore_fpregs_from_user()
+57b05bc3adb77e0255a188b9f72d949af5fe09c8 x86/fpu: Dont use MCE safe fixups for writing FPU state to user space
+fd15fb4591bdc05c4d2308b60cfb021decf340b4 x86/fpu/signal: Move header zeroing out of xsave_to_user_sigframe()
+966b1bc85e6530eee82c359e38e39fe7ad7b6d0f x86/fpu/signal: Move xstate clearing out of copy_fpregs_to_sigframe()
+4cbae8368d1131621f85d1ac6fb5ad24a1a42d7f x86/fpu/signal: Change return type of copy_fpstate_to_sigframe() to boolean
+92a949b6cf85a4baf112e0e38f0cf0a969f229fc x86/fpu/signal: Change return type of copy_fpregs_to_sigframe() helpers to boolean
+c41bc3fcd689acb19825966bc0d7c5193af354d3 x86/signal: Change return type of restore_sigcontext() to boolean
+7c7851e135e987f6f9c08ff63a1817c9b6f0f8df x86/fpu/signal: Change return type of fpu__restore_sig() to boolean
+f4afda58ce4b4c6e1079d1a9b77ef39f77af0098 x86/fpu/signal: Change return type of __fpu_restore_sig() to boolean
+7aa80a70b51e46ad4d000a950fca57391bb7ac3e x86/fpu/signal: Change return code of check_xstate_in_sigframe() to boolean
+0baf3a48c12f40f3048e17800153fe5f41cdda56 x86/fpu/signal: Change return code of restore_fpregs_from_user() to boolean
 
---===============3913083134413500301==--
+--===============3828475245090613334==--
