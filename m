@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 08 Sep 2021 22:50:03 -0000
-Message-Id: <163114140382.17270.5811453843578860005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 08 Sep 2021 22:50:27 -0000
+Message-Id: <163114142790.18043.6278839966939526588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/io_uring-fops.v7
-    old: ac5c317c6de0ac90cefd2ba455107bf89eb5ae3c
-    new: f368cceab3e7a8727680dbb497f17264b2184bbe
+  - ref: refs/heads/seen
+    old: f26ad0f81b1a26d02ec54b3327ecba5d322c88a3
+    new: f6c00813d3cf704e9f7b28af60146f4a3114c075
     log: |
-         e8fbdb90c12c8d95348515ed0330cffda73c473c block: wire up support for file_operations->uring_cmd()
-         0e4cd880bd910a537d65e2435d6ee45706160a23 block: add example ioctl
-         57730661e628a2800f3d45da43ce91b7cbdc4641 net: wire up support for file_operations->async_cmd()
-         f368cceab3e7a8727680dbb497f17264b2184bbe net: add example SOCKET_URING_OP_SIOCINQ/SOCKET_URING_OP_SIOCOUTQ
+         c575d4a2d988e20687d0f1c83bf13631e4167cbe multi-pack-index: fix *.rev cleanups with --object-dir
+         41963493f78d29bfee25725823d414478c5c6698 Makefile: add SANITIZE=leak flag to GIT-BUILD-OPTIONS
+         ec0871a9d04f1fde0e6238b0305a7bd1cb29208d CI: refactor "if" to "case" statement
+         a3c7d4ec9f7f9005ede2554f5f4f97c89d513fa6 tests: add a test mode for SANITIZE=leak, run it in CI
+         cb9194b8ff4636d9cabe78bdd6e789d07f619bf5 ### CI Breakers
+         f2285a795a7909d6a589511302b02db10475b92b Merge branch 'jb/midx-revindex-fix' into seen
+         f6c00813d3cf704e9f7b28af60146f4a3114c075 Merge branch 'ab/sanitize-leak-ci' into seen
          
