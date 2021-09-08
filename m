@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Sep 2021 10:45:23 -0000
-Message-Id: <163109792377.531.11860881212075321006@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3943222877319669404=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 08 Sep 2021 10:51:20 -0000
+Message-Id: <163109828095.5363.4756601060122379359@gitolite.kernel.org>
+
+--===============3943222877319669404==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d437f5aa23aa2b7bd07cd44b839d7546cc17166f
-    new: d7e203ffd3ba5965e88952e7364a42ab32064408
+    old: ca37a15a32221bcc200d2aed793eb69811598bb5
+    new: 91213536db7fc5eff68c0e27e1aa0e33884602ef
     log: |
-         8343268ec3cf4e097aa8b2071f0cd6779e2c4953 net/mlx5: Bridge, fix uninitialized variable usage
-         897ae4b40e80be7dcbf2b3079d85fa6339a6b751 net/mlx5: Fix rdma aux device on devlink reload
-         da8252d5805d4a80120a0c2151277e5fb9e8aa9e net/mlx5: Lag, don't update lag if lag isn't supported
-         dfe6fd72b5f1878b16aa2c8603e031bbcd66b96d net/mlx5: FWTrace, cancel work on alloc pd error flow
-         ee27e330a953595903979ffdb84926843595a9fe net/mlx5: Fix potential sleeping in atomic context
-         c91c1da72b47fc4c5e353cdd9099ba94ae07d2fa net/mlx5e: Fix mutual exclusion between CQE compression and HW TS
-         8db6a54f3cae6a803b2cbf5390662bca641f7da8 net/mlx5e: Fix condition when retrieving PTP-rqn
-         c324f023dbb2bcceccb7ecad5a268e58b80e638d Merge tag 'mlx5-fixes-2021-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-         d7e203ffd3ba5965e88952e7364a42ab32064408 ne2000: fix unused function warning
+         91213536db7fc5eff68c0e27e1aa0e33884602ef 4.4-stable patches
          
+
+--===============3943222877319669404==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631098279 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1631098279-baa4f8ed761ac53498da6e9ae2aaaa4f2ccb3c15
+
+ca37a15a32221bcc200d2aed793eb69811598bb5 91213536db7fc5eff68c0e27e1aa0e33884602ef refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE4lacbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P20P/2WdqDTLOYcdpQ1LuH5q
+8pEC2TIPtWMeRj+H4ZYyMMumwGUGqNs4OKxNcVN3IL60tcVj5qoXvBD7UbYXMhzW
+DDvIuzvntZgG5vwNQVkaP+MkNYQ+TvMjPhlUGtsHC8sWrIZ6HWrjQj6h1EKynWW+
+tfIJzzwFQVZVhfgjxayKIMz9cxZiTHWiiWWXhtv/LObCZGb5LSsKQruhBlN1113k
+QGlTEfnd0H5Vbh6chIsg0HVarA7BzMkKM0aT7cL0iH8SjGe1E0iBpRAU2fmX+K+x
+Fzg6+idq07T3XXuFJQLP2rICmiOMSa3ysIXZMJ1ULL/ieQvf0i1GQRabBR8GZfQo
+k5sByyR+i/9+VFhOkWn+D6/1d56mgpU09cAgCXfXpn+0OgDvGrVjTNd0no5eVTnw
+ediBt3ZQprfg0IcR8ODQadyROnxdBSKYqZYGgwAQQ2GqWd+EbuHFOm0RZd+v9DK3
+YIhGGDAm0k52Ow2OHYn0NVmE5DOA9vJmii4Q9QgQO2hyfVBVHn/mZEkXT93PvBAX
+ipa+WcOJEo2Kn7M1b7+g/B7EvH8XoF7fCF/gQOINtDzDi7CkZhQy0/TVHuNCnevl
+SQwFvgbfdghn8lNn4OwHSqjn+DlqRhP7x8betXkrlQNoo5e1JKx0oknqrDmZZ6ON
+KVDZUQ1+2u3Xd1M/SPNaUvS4
+=Zz+W
+-----END PGP SIGNATURE-----
+
+--===============3943222877319669404==--
