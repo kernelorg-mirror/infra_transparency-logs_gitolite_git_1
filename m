@@ -1,19 +1,67 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 08 Sep 2021 00:19:50 -0000
-Message-Id: <163106039077.13092.11506295096173845399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 08 Sep 2021 00:49:16 -0000
+Message-Id: <163106215678.32280.13691698111745321234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: bleung
 changes:
-  - ref: refs/heads/master
-    old: b238290b965f23ac5f8aeb64cd731aef18aa796c
-    new: 03e601f48b2da6fb44d0f7b86957a8f6bacfb347
-    log: |
-         03e601f48b2da6fb44d0f7b86957a8f6bacfb347 libbpf: Don't crash on object files with no symbol tables
-         
+  - ref: refs/tags/tag-chrome-platform-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 8569ae69de3b4c0196955d22ce48960b54ef90f3
+  - ref: refs/tags/usb-5.14
+    old: 0000000000000000000000000000000000000000
+    new: 3bd1843e5d24618dc5e98c98ef1256a80b58ac52
+  - ref: refs/tags/usb-5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 6499d9ea52424fa20422b4fd44432e1d4efb6e34
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/tags/v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+  - ref: refs/tags/v5.14
+    old: 0000000000000000000000000000000000000000
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+  - ref: refs/tags/v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/v5.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
+  - ref: refs/tags/v5.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e610ab8323e2278fdf9e9f83eb56183d373257be
+  - ref: refs/tags/v5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/tags/v5.14-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f6c803e46645d21750457cceaa97f9fa078f39c2
+  - ref: refs/tags/v5.14-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0958b0b45a7419c681d581384a094b94af5469c1
+  - ref: refs/tags/v5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53371b959e5823998cd617e74b585e7d328f5840
