@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2412401295160030120=="
+Content-Type: multipart/mixed; boundary="===============0775581473035025014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 08 Sep 2021 15:34:18 -0000
-Message-Id: <163111525828.22203.17712089223194996659@gitolite.kernel.org>
+Date: Wed, 08 Sep 2021 15:34:30 -0000
+Message-Id: <163111527014.22348.1201631400190415380@gitolite.kernel.org>
 
---===============2412401295160030120==
+--===============0775581473035025014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: e75856488ca7d971d0540feed10d3c1044fa143e
+  - ref: refs/heads/for-next
+    old: 5a1f175c9acaa36c56894db2b30125e072db6a8c
     new: 8c08dd690c64fdf9f2ab136c82b1f6edf9412fa1
-    log: revlist-e75856488ca7-8c08dd690c64.txt
+    log: revlist-5a1f175c9aca-8c08dd690c64.txt
 
---===============2412401295160030120==
+--===============0775581473035025014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e75856488ca7-8c08dd690c64.txt
+Content-Disposition: attachment; filename=revlist-5a1f175c9aca-8c08dd690c64.txt
 
 02d4b387cb5600fedb1c2fbe3b336d32b41f4664 drm/mgag200: Extract device type and flags in mgag200_pci_probe()
 d9cc564bf3aee6fcc1c717a19f9a207114510671 drm/mgag200: Constify LUT for programming bpp
@@ -1051,4 +1051,4 @@ b6d585041fd084ca28b605f8c9ca43aae9800ab1 drm/amd/display: Remove duplicate dml i
 1645cca9da91a85167394a34fcfe1cb5dd336d7f drm/i915: use linux/stddef.h due to "isystem: trim/fixup stdarg.h and other headers"
 8c08dd690c64fdf9f2ab136c82b1f6edf9412fa1 isystem: delete global -isystem compile option
 
---===============2412401295160030120==--
+--===============0775581473035025014==--
