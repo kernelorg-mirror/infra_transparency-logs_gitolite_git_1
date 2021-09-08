@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6759874646933989723=="
+Content-Type: multipart/mixed; boundary="===============6137556899454538307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 08 Sep 2021 15:40:30 -0000
-Message-Id: <163111563063.27409.16439402759507448961@gitolite.kernel.org>
+Date: Wed, 08 Sep 2021 15:40:41 -0000
+Message-Id: <163111564173.27539.9836292743120714306@gitolite.kernel.org>
 
---===============6759874646933989723==
+--===============6137556899454538307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 8c08dd690c64fdf9f2ab136c82b1f6edf9412fa1
     new: 42082820e715f098bc8f96be48d9f0e04be373be
     log: revlist-8c08dd690c64-42082820e715.txt
 
---===============6759874646933989723==
+--===============6137556899454538307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ac08b1c68d1b1ed3cebb218fc3ea2c07484eb07d Merge tag 'pci-v5.15-changes' of git://
 c6120fed670742deb2271aa8e2617037154a833b drm/i915: use linux/stddef.h due to "isystem: trim/fixup stdarg.h and other headers"
 42082820e715f098bc8f96be48d9f0e04be373be isystem: delete global -isystem compile option
 
---===============6759874646933989723==--
+--===============6137556899454538307==--
