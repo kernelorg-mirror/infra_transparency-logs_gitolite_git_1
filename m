@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0391003247474793483=="
+Content-Type: multipart/mixed; boundary="===============0252471987414471814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 08 Sep 2021 05:51:42 -0000
-Message-Id: <163108030202.9181.6556448532015242673@gitolite.kernel.org>
+Date: Wed, 08 Sep 2021 05:52:07 -0000
+Message-Id: <163108032733.9380.7646351935949173708@gitolite.kernel.org>
 
---===============0391003247474793483==
+--===============0252471987414471814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: b539c44df067ac116ec1b58b956efda51b6a7fc1
     new: 626bf91a292e2035af5b9d9cce35c5c138dfe06d
     log: revlist-b539c44df067-626bf91a292e.txt
 
---===============0391003247474793483==
+--===============0252471987414471814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a2b28235335fee2586b4bd16448fb59ed6c80eef Merge branch 'dmi-for-linus' of git://g
 4c00e1e2e58eefb288ba9ef585b6f19e1f33bf1e Merge tag 'linux-watchdog-5.15-rc1' of git://www.linux-watchdog.org/linux-watchdog
 626bf91a292e2035af5b9d9cce35c5c138dfe06d Merge tag 'net-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0391003247474793483==--
+--===============0252471987414471814==--
