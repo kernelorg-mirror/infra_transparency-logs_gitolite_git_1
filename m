@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 09 Sep 2021 23:51:54 -0000
-Message-Id: <163123151419.6396.17290491116840539090@gitolite.kernel.org>
+Date: Thu, 09 Sep 2021 23:53:19 -0000
+Message-Id: <163123159922.6931.13333478343474296677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: b9b6961e9dd9e91b962382a66b00ea14b9d2a833
-    new: c2892ab1af9c3db3eda688951412940e320894cd
+    old: c2892ab1af9c3db3eda688951412940e320894cd
+    new: 4f1e2a9e6be29e251341df79218581dffcb0ee43
     log: |
-         0903bf4da43eb6f5a47857d307790e10ae8ef1d9 Subject: [Intel-wired-lan] [PATCH 2/2] e100: fix buffer overrun in  e100_get_regs
-         17fd91256207b8091465ab5d168eab06b7c598f7 i40e: Fix queues reservation scheme
-         7c9649ee31b8986267be0bef38bb01f0f8027d0e ice: Fix not stopping Tx queues for VFs
-         2b972a7984f66986c024f3d58a8da82ebfeac426 ice: Fix race conditions between virtchnl handling and VF ndo ops
-         c2892ab1af9c3db3eda688951412940e320894cd igc: Update the device ID
+         85161d750eb46c7b43e357bd7918d8ed528fd252 e100: fix buffer overrun in e100_get_regs
+         4db950fc8f5ea1fdf75e3d7c65dccbe4439c8846 i40e: Fix queues reservation scheme
+         033e3b3294b4a392a5dd95c565d555820c2b461b ice: Fix not stopping Tx queues for VFs
+         330681a361960f63324f484dfaeccc4a1be4038e ice: Fix race conditions between virtchnl handling and VF ndo ops
+         4f1e2a9e6be29e251341df79218581dffcb0ee43 igc: Update the device ID
          
