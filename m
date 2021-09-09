@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2001097617373810739=="
+Content-Type: multipart/mixed; boundary="===============0824526893017015194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 09 Sep 2021 13:56:58 -0000
-Message-Id: <163119581899.2125.14908035564922182060@gitolite.kernel.org>
+Date: Thu, 09 Sep 2021 13:59:41 -0000
+Message-Id: <163119598124.3089.8830346767319865613@gitolite.kernel.org>
 
---===============2001097617373810739==
+--===============0824526893017015194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 4e6db4e886694b84656d6f243488209845400826
-    new: 12e02f4dc6b3c892d2bb1eebf0c4724abe1d2f80
-    log: revlist-4e6db4e88669-12e02f4dc6b3.txt
+  - ref: refs/heads/net-next
+    old: 93a9af3959ef921a7d5ef7c1c67cf828386a12b9
+    new: 6ece36c7a83a18cc6a36640939706c937e4bcee7
+    log: revlist-93a9af3959ef-6ece36c7a83a.txt
 
---===============2001097617373810739==
+--===============0824526893017015194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e6db4e88669-12e02f4dc6b3.txt
+Content-Disposition: attachment; filename=revlist-93a9af3959ef-6ece36c7a83a.txt
 
+4b13df7de2f1c1e8bd4d69ac71b53db3a05938f5 net/mlx4_en: Resolve bad operstate value
+bff9fcb442c1aa380b6c70102e2edfe26a2cd2b2 net/mlx5: Fix potential sleeping in atomic context
+c0b291c010c88e85f0c2764b884eb32d076d22b5 net/mlx5e: Fix mutual exclusion between CQE compression and HW TS
+06d432cf17bf7d8c71b10f3dfa82bf6d67e6c756 net/mlx5e: Fix the presented RQ index in PTP stats
+2cc287a881b0d3c0a33cd46ff0a7ba89f7db96cc Merge branch 'patchq/427836' into mlx5-for-net
+b539410c23eee36fe6fa85ee47a45a94f7ba7b39 Merge branch 'patchq/426525' into mlx5-for-net
 7429eca9e57f361add782b4aab1ed99a20303fdd net/mlx5: FWTrace, cancel work on alloc pd error flow
 c6d49fee7de188202aa9eb897ff1e7721bd59faa Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 0ec5d1f4f611188dd2970e6b54d1d7697e225e41 net/mlx5: Lag, don't update lag if lag isn't supported
@@ -70,5 +76,9 @@ ac57b8437a3881da18c643dcbeaac5660be0c097 Merge branch 'patchq/421606' into mlx5-
 1533798aebaf2e737ec07e0c1d736ac4b5e29372 Merge branch 'patchq/409055' into mlx5-queue
 27738ca9e9badc330f3f31129d4e8d3f86c0ed90 Merge branch 'patchq/423917' into mlx5-queue
 12e02f4dc6b3c892d2bb1eebf0c4724abe1d2f80 Merge branch 'patchq/419320' into mlx5-queue
+3d413a9af284aee88d650bf17c1b2f45eb09178c Merge branch 'mlx5-vdpa' into net-next
+02598e0c77f1bbd8919cd94f09f7a603fa31ad60 Merge branch 'mlx5-queue' into net-next
+0d5afaf27f6bc8cb9d7af2eb7e078a1aa203698d Merge branch 'mlx4-for-net' into net-next
+6ece36c7a83a18cc6a36640939706c937e4bcee7 Merge branch 'mlx5-for-net' into net-next
 
---===============2001097617373810739==--
+--===============0824526893017015194==--
