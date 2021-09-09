@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2164459149560261201=="
+Content-Type: multipart/mixed; boundary="===============3968744754860634851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 09 Sep 2021 13:37:11 -0000
-Message-Id: <163119463115.20808.10045109141032766577@gitolite.kernel.org>
+Date: Thu, 09 Sep 2021 13:39:58 -0000
+Message-Id: <163119479804.21868.613826056406113018@gitolite.kernel.org>
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,238 +16,240 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 6eb592b0d912c3a67980f5743f23403ba4554031
-    new: db8ec325eb396f8d140140f4977fbabe467aaaac
-    log: revlist-6eb592b0d912-db8ec325eb39.txt
+    old: db8ec325eb396f8d140140f4977fbabe467aaaac
+    new: c6fcc0f8d9f186da9acb063b4ad01d8cd3f61d44
+    log: revlist-db8ec325eb39-c6fcc0f8d9f1.txt
   - ref: refs/heads/queue/4.19
-    old: 6d145168a5f1e7c2d0d770863fc3052861cfdd20
-    new: 5ca83136acc7c03fd709a30a0765d5c53ae73752
-    log: revlist-6d145168a5f1-5ca83136acc7.txt
+    old: 5ca83136acc7c03fd709a30a0765d5c53ae73752
+    new: 399f087a73fa1365c39ebc352964f9fb101c811c
+    log: revlist-5ca83136acc7-399f087a73fa.txt
   - ref: refs/heads/queue/4.4
-    old: 9b61e416bdc08cece7d398cd1745c3c807ca6d93
-    new: 87c90e9154ee73a81e676a82b6d0041fad423433
-    log: revlist-9b61e416bdc0-87c90e9154ee.txt
+    old: 87c90e9154ee73a81e676a82b6d0041fad423433
+    new: f5669fc9178f336762953f6795908dadb78c8239
+    log: revlist-87c90e9154ee-f5669fc9178f.txt
   - ref: refs/heads/queue/4.9
-    old: 76ab22ae61a2833ade97e3435503740102b318f6
-    new: 0ce8af372540c6a97113d61cbaf092eae4c775d9
-    log: revlist-76ab22ae61a2-0ce8af372540.txt
+    old: 0ce8af372540c6a97113d61cbaf092eae4c775d9
+    new: a5c7aa736984aa6f654bf40940716b7761354ecf
+    log: revlist-0ce8af372540-a5c7aa736984.txt
   - ref: refs/heads/queue/5.10
-    old: eb725290fd0a46121efbbb9d57705a72ea92f4c0
-    new: 28b221aa3461bfa39b91deb3b8b100009d6663f0
-    log: revlist-eb725290fd0a-28b221aa3461.txt
+    old: 28b221aa3461bfa39b91deb3b8b100009d6663f0
+    new: 941c36e48a8f0d9ddb41956d7ed731544a39933f
+    log: revlist-28b221aa3461-941c36e48a8f.txt
   - ref: refs/heads/queue/5.13
-    old: ef4a2b81f0fdbc168aefc6820f7c38c6969a199a
-    new: 94f5da620ab2d3ab14fa2673cf3def342171e432
+    old: 94f5da620ab2d3ab14fa2673cf3def342171e432
+    new: d33967f7a055e1f40598a05e42fce3225789673d
     log: |
-         94b4fd7dce453b1e2948fde454c10224df213e22 firmware: dmi: Move product_sku info to the end of the modalias
-         5da0c7918773e734d9e5521c033b8fe9240b973a igmp: Add ip_mc_list lock in ip_check_mc_rcu
-         047466ded28bc7cd44ef524a600fb41ab880686f net: ll_temac: Remove left-over debug message
-         39c06d0ac1dd5560602a754fc901ec8459ebf09e Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
-         812c5a1ca4599be93f3c3320d4a067f32050202f blk-mq: fix kernel panic during iterating over flush request
-         94f5da620ab2d3ab14fa2673cf3def342171e432 blk-mq: fix is_flush_rq
+         18a7255b79dc3da4fa4ba6cc069700f0044bec92 firmware: dmi: Move product_sku info to the end of the modalias
+         6717ac111f742114e2bb16e824a4f824706c7d52 igmp: Add ip_mc_list lock in ip_check_mc_rcu
+         a29cb7960151e9b05ed44b5129ce576480c7a696 net: ll_temac: Remove left-over debug message
+         197beebf9973c89a0ac41dfaab38c97e8cfe494a Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
+         f825766b6651649602985dd6f59d1a254cae2a85 blk-mq: fix kernel panic during iterating over flush request
+         d33967f7a055e1f40598a05e42fce3225789673d blk-mq: fix is_flush_rq
          
   - ref: refs/heads/queue/5.14
-    old: a788e102b6e016907f468aae9a7cdd6a321c3f18
-    new: eb424d90387afd2940939a4ce9d0cfbf8ee2accf
+    old: eb424d90387afd2940939a4ce9d0cfbf8ee2accf
+    new: 1551ad39a8298aa3618bb3567105715d5d2bdaa8
     log: |
-         6c1e67a00786af2cddd3d8c1958e3f3365dd6233 firmware: dmi: Move product_sku info to the end of the modalias
-         e141eadb103cc37db83e72346b73699382f5f140 can: c_can: fix null-ptr-deref on ioctl()
-         6b2c6c9c2f8ca64b150728465b563e2b5881b840 igmp: Add ip_mc_list lock in ip_check_mc_rcu
-         eb424d90387afd2940939a4ce9d0cfbf8ee2accf Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
+         60c59b0d53ef7517c3cbb5c544ac94d8470544bb firmware: dmi: Move product_sku info to the end of the modalias
+         7f286128dd47ad4889e6502eb7d4a2b7b4126edf can: c_can: fix null-ptr-deref on ioctl()
+         e080f78e0ac2b685ef3f1fb8a61b259ae7a9ee27 igmp: Add ip_mc_list lock in ip_check_mc_rcu
+         1551ad39a8298aa3618bb3567105715d5d2bdaa8 Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
          
   - ref: refs/heads/queue/5.4
-    old: 3bcfbf9c2333f617834c10c87a17d17cdea60331
-    new: c54ac05e4a30f5409867961c908912cc42094a1e
-    log: revlist-3bcfbf9c2333-c54ac05e4a30.txt
+    old: c54ac05e4a30f5409867961c908912cc42094a1e
+    new: ff94a7889f4558e47c48d8cc2a02b9d86d3abf62
+    log: revlist-c54ac05e4a30-ff94a7889f45.txt
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eb592b0d912-db8ec325eb39.txt
+Content-Disposition: attachment; filename=revlist-db8ec325eb39-c6fcc0f8d9f1.txt
 
-6c73f97dfec19a402dc5d301c698f73ae9664708 ext4: fix race writing to an inline_data file while its xattrs are changing
-63555551db7adb19881731db3f23cfddbf0efa47 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-979cea25002f237ec66f312b26cfe3f092755c64 qed: Fix the VF msix vectors flow
-690937ec325160342ca64a7bc7f329b085130bd4 net: macb: Add a NULL check on desc_ptp
-917fe8bf757fc26f2070c080b751c9b693b03712 qede: Fix memset corruption
-88ac9e423031b44bc7336ebf2b4c6b95dff8e42d perf/x86/intel/pt: Fix mask of num_address_ranges
-7797224e7b3c5fb6ccbbfb3fe86e66eea68971f1 perf/x86/amd/ibs: Work around erratum #1197
-81a2d02eb3c291e7eef704168c7b441df6807ccb cryptoloop: add a deprecation warning
-9c268e90b844b347d1c772fe574369761577a453 ARM: 8918/2: only build return_address() if needed
-2565a67b36afb16c6ec93caafc904e6f1f094ba2 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-6380d1c696b7a15ccd0a90874a357b8529a13f30 clk: fix build warning for orphan_list
-2dd6503a0852bab13ad882cc054fb1be9eeacb5c media: stkwebcam: fix memory leak in stk_camera_probe
-a0f0a92dab36506674856303f37d28e6674c8d0d igmp: Add ip_mc_list lock in ip_check_mc_rcu
-c7ef0c7cfd11a1b7de4df3560ce97030c2263ca6 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-bdbd9daec68fdb1f8bc41e6ff180938f2f1947be f2fs: fix potential overflow
-be7a44bb21ced2786ccdfca14a32366c637bd0c4 ath10k: fix recent bandwidth conversion bug
-c04646400eed6202c7ccb80e75a76402c5e7261f ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-ee477685f6aeb28ee68f27c11a73cd59eb971f8e s390/disassembler: correct disassembly lines alignment
-8c65c18fe8ed51b1f1d2ab5ac7ae33b3aec1a059 mm/kmemleak.c: make cond_resched() rate-limiting more efficient
-35255dd75df22d3962c349051fe59fec8b5ed4a2 crypto: talitos - reduce max key size for SEC1
-b7601553e568838c464f3694f53d3ac59e5dcb76 powerpc/module64: Fix comment in R_PPC64_ENTRY handling
-5f7755400c929aa5e7d09ce42a19d5a326b6f95e powerpc/boot: Delete unneeded .globl _zimage_start
-afced28dbf240ff80772861751edca381a82045e net: ll_temac: Remove left-over debug message
-f5cfaba407572d5f7c96aaec4d4b7b85654f8f05 mm/page_alloc: speed up the iteration of max_order
-db8ec325eb396f8d140140f4977fbabe467aaaac Revert "btrfs: compression: don't try to compress if we don't have enough pages"
+7f061401eb363f1426d29b5cb8e7db51aae65294 ext4: fix race writing to an inline_data file while its xattrs are changing
+76321d3fad2afa80e2bb337339efc8598ec60ba6 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+d7423863c08d577321907bfd1a0ce9cb011beaa7 qed: Fix the VF msix vectors flow
+a6e825c60c4785d0bae669bf5726c67f91573725 net: macb: Add a NULL check on desc_ptp
+012bfefc79e9958fa07044a8fea009326e164f5f qede: Fix memset corruption
+d4212552305a9047b24316e7b7148929ef3a54db perf/x86/intel/pt: Fix mask of num_address_ranges
+1d32692b3846870e382e2bf3380ce470a50023bb perf/x86/amd/ibs: Work around erratum #1197
+b9d648b7ff6d92b05ca5a3df2ded55d6ea8ee7e1 cryptoloop: add a deprecation warning
+34a9296938eca2c874fd2c55b89f49c42da079ea ARM: 8918/2: only build return_address() if needed
+aafa3644d6c09d0cff674915be38899f44ef4240 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+941553f0204c4fc64bc734c64228d00729999442 clk: fix build warning for orphan_list
+9e3d2b93cb028baa17f1213e274aa0ca6d0b08bf media: stkwebcam: fix memory leak in stk_camera_probe
+5018450ced8104e90391fd4c5d76483651b4e2eb igmp: Add ip_mc_list lock in ip_check_mc_rcu
+8adc561e1d1bd025c31defe10c4542305d3824d6 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+bb74a4ac06242b2f49b7c99c53623dc1f3440713 f2fs: fix potential overflow
+9416b7b2bad7cf5eb8344b77640a84eff8f71848 ath10k: fix recent bandwidth conversion bug
+8a5c7a56c2529dbb47292b8fb715f393040b25c1 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
+3b22eb2973de7fc768e73185e386dca767551a85 s390/disassembler: correct disassembly lines alignment
+14f8b548fe462955273c66128d613887a6317d03 mm/kmemleak.c: make cond_resched() rate-limiting more efficient
+f1939cd86b82ead31518ec6a3f144c0ae68d68a8 crypto: talitos - reduce max key size for SEC1
+0abbcc93d67a3b6485b263f4e807d31d53f4b231 powerpc/module64: Fix comment in R_PPC64_ENTRY handling
+5df16f5d5e889334656d59751d4769436efc7231 powerpc/boot: Delete unneeded .globl _zimage_start
+5eabb4f74b8e8ebee6b475161dfe71d59cca6fa0 net: ll_temac: Remove left-over debug message
+b04bc84ae6fb89460e3f300babbc115188f9d3cd mm/page_alloc: speed up the iteration of max_order
+c6fcc0f8d9f186da9acb063b4ad01d8cd3f61d44 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d145168a5f1-5ca83136acc7.txt
+Content-Disposition: attachment; filename=revlist-5ca83136acc7-399f087a73fa.txt
 
-2bc05eddf66f4151c9b82a399b483a411255a9c3 ext4: fix race writing to an inline_data file while its xattrs are changing
-d2a1c3b61bd3191d802191e5f91520208ae4953a xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-24021ab3111b25e3883b37f65d981d0f740bd01b gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-eb6d09428cc002771db63b3578e0cf07954f5b7b qed: Fix the VF msix vectors flow
-d0ea8b61248a02e7c036aa80cee78519e125ae2b net: macb: Add a NULL check on desc_ptp
-ec968f8eab6fa7176d9d1df740f95de1e85d6f51 qede: Fix memset corruption
-68c73176694b0471e036f901c17cc9b2c8ea55c1 perf/x86/intel/pt: Fix mask of num_address_ranges
-49f3b6567b177e4bb552d164b2b8228217792b7b perf/x86/amd/ibs: Work around erratum #1197
-157592b837f2086b725eb5b49a9417afbaf4ef41 cryptoloop: add a deprecation warning
-3848c53f6e970d55cf0107c6a31df5bad7ae52a3 ARM: 8918/2: only build return_address() if needed
-8807f1880ee95d8c467318006b4b9019601e11a5 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-a2abce1692a05737ebfcd716c03933efccecc9a8 clk: fix build warning for orphan_list
-91a886d065b3acc451b9230ae26574ef3b678aa5 media: stkwebcam: fix memory leak in stk_camera_probe
-12c1c69766c4c22e3314c15367b996822c8bc8ed ARM: imx: add missing clk_disable_unprepare()
-114e4d58fac648e0b1d8feea77a630563b42486e ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
-02389fe69df739cb804db29e2cc4cefd82b4f389 igmp: Add ip_mc_list lock in ip_check_mc_rcu
-0ba686d78d5d4aaa0f4e79187f0dd2b79a5a3cf7 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-ad2bb9748c0d8a8325a26073d2d87da230c0301c ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-144d1838ef3fe2479be9978b1efdf50517896850 SUNRPC/nfs: Fix return value for nfs4_callback_compound()
-714f827630c7d0f64be4161919d4ac58214c27e4 crypto: talitos - reduce max key size for SEC1
-83a8dc5c64edf8abe4be52f89e449c373b643a0c powerpc/module64: Fix comment in R_PPC64_ENTRY handling
-df3f28115687d813b0f407fb375edf2c31511bae powerpc/boot: Delete unneeded .globl _zimage_start
-c26a42ad34f18a4ac7f3899091f048501c19993b net: ll_temac: Remove left-over debug message
-5ca83136acc7c03fd709a30a0765d5c53ae73752 mm/page_alloc: speed up the iteration of max_order
+27cdb88417c48da585f9f51107d61650f75ca6a3 ext4: fix race writing to an inline_data file while its xattrs are changing
+cf6bc4e7731af958529abdffbfacd23403a6e0a3 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+1a7bcef4817229c5e4d127bc0f7bfa198f194669 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+1ac568082d6de9cb6e91b3deb902477b68696b9b qed: Fix the VF msix vectors flow
+8eeb11c6ac11338541796b03b18b2c18e0e88718 net: macb: Add a NULL check on desc_ptp
+f6e2f3dacb87a02103380b7a59fcb262bdd23ba5 qede: Fix memset corruption
+a92cb3ed1d799cd6088293d3b41c9387b2b804bd perf/x86/intel/pt: Fix mask of num_address_ranges
+5f3a8f786e7be5c766f3659168b0abf4c618ae06 perf/x86/amd/ibs: Work around erratum #1197
+51fc78bff5acd98d8afbf694fcffe4e4037f59bb cryptoloop: add a deprecation warning
+daba2256c2968549d61e6835633410b2f46089b6 ARM: 8918/2: only build return_address() if needed
+494a5b52e78f0d4457460746b33842eb57803605 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+bf7e8efe29bef479c75a2c58c6efa7161735eeb1 clk: fix build warning for orphan_list
+489bf11562aba8918b53152cc6517644c7d97aa8 media: stkwebcam: fix memory leak in stk_camera_probe
+c20a782511c81e499bce22606543641e5d1185db ARM: imx: add missing clk_disable_unprepare()
+2fe3ef311b489affbb6fcae17ac3d06a169e89a7 ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+ace2cff1f24b72c0c7b8803fbc8b7b4f3ef5efeb igmp: Add ip_mc_list lock in ip_check_mc_rcu
+6b1a4e1793cda7ab7a9fcfb75fa7a12ad4515d0c USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+69e0c949ab757e41fce48515e2605735e0d41ce7 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
+b95f1ec58fb9339b6fe2f0c31fb76d00b3c120ca SUNRPC/nfs: Fix return value for nfs4_callback_compound()
+68640c2c1d3a75c7dccfcc6265833d87fc248bf6 crypto: talitos - reduce max key size for SEC1
+3f98663cab6f78fbb1d4cc720a9c7cb064a819e2 powerpc/module64: Fix comment in R_PPC64_ENTRY handling
+8e591a6c489a58cef7b577daf9dc4064e4baa5c1 powerpc/boot: Delete unneeded .globl _zimage_start
+37e7a114fba1fe61ddb253693c052424a25e650d net: ll_temac: Remove left-over debug message
+0e910f9f423ba9b376bacf3bbd6e90a724ee6775 mm/page_alloc: speed up the iteration of max_order
+399f087a73fa1365c39ebc352964f9fb101c811c Revert "btrfs: compression: don't try to compress if we don't have enough pages"
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b61e416bdc0-87c90e9154ee.txt
+Content-Disposition: attachment; filename=revlist-87c90e9154ee-f5669fc9178f.txt
 
-a5d4901598943732e795d833f93069f69c3071aa ext4: fix race writing to an inline_data file while its xattrs are changing
-a5adfd48ac86ca5ef68eb9027c946d10b6e40a8d xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-b82f1e6be8a52d60e4eecaf608e2f5774396420c ARC: fix allnoconfig build warning
-bb96491e181c20c2b1ef52a3b555a20d0c7dd4af qede: Fix memset corruption
-fda7fd820a2607a45c300cf9e3dd797b8bbd4a8d cryptoloop: add a deprecation warning
-a8b05c727fc8717d04fec894fec912c8b0d27c05 ARM: 8918/2: only build return_address() if needed
-1d9c53da1b0018a5979c70c97dd675bc70c58b62 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-a7b471c8ffc5ebb7d8bb6935bab0045cc8f287c5 ath: Use safer key clearing with key cache entries
-0a254137edb2e1eba8afa4dca12ebc0cb2cc0f98 ath9k: Clear key cache explicitly on disabling hardware
-7553fd42db628f271664397a131708ec78d40c6f ath: Export ath_hw_keysetmac()
-0e8ae2a238e309719d5420dc5f7368aa2b5e29fc ath: Modify ath_key_delete() to not need full key entry
-af379bc8cc695db8d1ae6dca5787792445b69332 ath9k: Postpone key cache entry deletion for TXQ frames reference it
-190d1a39518b0ab7da48b9855261f4318cb5d3f9 media: stkwebcam: fix memory leak in stk_camera_probe
-39dbfc2afbe2df95aa48568e3c583b4f42590204 igmp: Add ip_mc_list lock in ip_check_mc_rcu
-163e6c78ba152b986e280fa434deb3ad3c7e31e5 usb: phy: isp1301: Fix build warning when CONFIG_OF is disabled
-c91aa1949df16c5763269ba290cb819199ef368f USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-ce165e698a3109c7ee3758dc7ee8e59f24e194ad PM / wakeirq: Enable dedicated wakeirq for suspend
-7fdb704ebf8a95a36247ad96e49bdf670038914a tc358743: fix register i2c_rd/wr function fix
-ea54a32f28835c0375550299522622ae7c0e99d9 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-a0704c36377ae2855b214aa748b735037f7a2211 s390/disassembler: correct disassembly lines alignment
-1906fca14620f594c559efa4132d40cd2a07ea75 mm/kmemleak.c: make cond_resched() rate-limiting more efficient
-c48bb493d2d11e4bf61daa7420ca867ce45c4be3 powerpc/module64: Fix comment in R_PPC64_ENTRY handling
-231583c1ad89e131b83e3923966a415da88fe571 powerpc/boot: Delete unneeded .globl _zimage_start
-1eb844a08f8e3a8e790613b66b4f9f04d11d3054 net: ll_temac: Remove left-over debug message
-9a9c7b9d71f42836618a3c9cb3a60c89eabf7952 mm/page_alloc: speed up the iteration of max_order
-87c90e9154ee73a81e676a82b6d0041fad423433 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
+a18df215155ef164bb5a8e517cc1bec54fdff714 ext4: fix race writing to an inline_data file while its xattrs are changing
+212040f705cd7cc1dcec007d02035fcb7ada15e6 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+2a46075d92634df8150aa0c2ee5b60f563857f3f ARC: fix allnoconfig build warning
+83285fb0427e136bc61b6bc5371032c211d72596 qede: Fix memset corruption
+c551935f4b65f4dcd39b07ab6f5ddc8293662ad3 cryptoloop: add a deprecation warning
+ae43ad6417277d7b8874135733f96f277c0de971 ARM: 8918/2: only build return_address() if needed
+7946039a680beef60c214bf462973246cd72cd62 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+87ec1a61d372c187f6d4b5eaf109115547d1c458 ath: Use safer key clearing with key cache entries
+ff95ae7d9bd2a87e3ca382af1a6ef2c5e9c3c9fc ath9k: Clear key cache explicitly on disabling hardware
+510cd8308f498f7c97e3b701363971c799bb3aec ath: Export ath_hw_keysetmac()
+b4ae8bcf30939a84f0209263dfc9d8308d5d52ea ath: Modify ath_key_delete() to not need full key entry
+904e1b9d16b7d900bed0ab9129eed0aad18f3523 ath9k: Postpone key cache entry deletion for TXQ frames reference it
+252d8f1a4b21a6a46c33366f85dedc28ccfb50a1 media: stkwebcam: fix memory leak in stk_camera_probe
+8ad5db70d4db2c527d6427edc521b4684c711c1e igmp: Add ip_mc_list lock in ip_check_mc_rcu
+72623785fa060a5f78ee2acb0ccdbde2e671d3d4 usb: phy: isp1301: Fix build warning when CONFIG_OF is disabled
+2f0b208bcea81c2bf29703751ca44eb4b6e46790 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+9490be8755876875b51340756a321c3d6b0d2c2f PM / wakeirq: Enable dedicated wakeirq for suspend
+2a087ac99a3a9c1dba2450313432ddfc87f5e5f8 tc358743: fix register i2c_rd/wr function fix
+724bf502629c188c7a6bec03f61cd8e6b0ad584d ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
+7092bc812295c335d2e3bb530777fc24deabf9c5 s390/disassembler: correct disassembly lines alignment
+d7316d72c692d6dcfe1d1d509205c8cf661c376f mm/kmemleak.c: make cond_resched() rate-limiting more efficient
+21ec9bbe513a6f4a92a23c838064082d48cd8ffb powerpc/module64: Fix comment in R_PPC64_ENTRY handling
+57ebf3be9b18e716e615a6aaebec088f904f78fc powerpc/boot: Delete unneeded .globl _zimage_start
+4b3b67f5a2ef0b1b50f36ef0e2f1bf746a68017d net: ll_temac: Remove left-over debug message
+614bde638ea8b6c59633073a38f1f42a0f7a4ec6 mm/page_alloc: speed up the iteration of max_order
+f5669fc9178f336762953f6795908dadb78c8239 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76ab22ae61a2-0ce8af372540.txt
+Content-Disposition: attachment; filename=revlist-0ce8af372540-a5c7aa736984.txt
 
-6d33c1728f07b365e9add85a8ea387cf2ef2b8a8 ext4: fix race writing to an inline_data file while its xattrs are changing
-6e712b9ac4a4da01b65339d8e19a76053ef98d78 mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
-379dc3cf67aa5c2fb6aded72d7ff96c060b70112 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-9ab431c94110a0ffca7511fbff5e2a1c78d6407e qed: Fix the VF msix vectors flow
-7c60a90e94626ec07dfe2ea2ea7b6d986a88e89b qede: Fix memset corruption
-8ce519a59f562a37bad20d9bc3330fce8178c4ab perf/x86/amd/ibs: Work around erratum #1197
-6abc3ed076e50f22f4ea0bff2882ff25c5a39a9d cryptoloop: add a deprecation warning
-d44b368c430c256c6af95bc9d38fae1e3894011c ARM: 8918/2: only build return_address() if needed
-d40e0b7fed77d901f11107936e100ec98440badc ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-f1a26c5c2675cc2decd25a3cd881425f3f1a256c ath: Use safer key clearing with key cache entries
-0f6363ede281fb45071ff1bd83b3f15df3767e34 ath9k: Clear key cache explicitly on disabling hardware
-cce8e5b9d492f8782119a4dc772c2bd4b9af3cba ath: Export ath_hw_keysetmac()
-124e968a277250399be0f79bb6f5176426eae292 ath: Modify ath_key_delete() to not need full key entry
-afbdc84eefc22e543fe6c7a326b6e0bfa8d7a7a3 ath9k: Postpone key cache entry deletion for TXQ frames reference it
-b10826abd4fac60093a82856dd80e63f9cdf086d media: stkwebcam: fix memory leak in stk_camera_probe
-c7b647db5dc7fe0db61b7e751aba884a7a4e31ae igmp: Add ip_mc_list lock in ip_check_mc_rcu
-7f1ff0bf37b87e1a4a774e22876934dc4e7c12ca usb: phy: isp1301: Fix build warning when CONFIG_OF is disabled
-7693ac522a22bde76b71f44df47940d8b48c1fcb USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-7e77064c1119118163fc5cfe0b160a2764cef394 net/sched: cls_flower: Use mask for addr_type
-a23e1cff66998fcc7fecde7bbc537a8999c40695 PM / wakeirq: Enable dedicated wakeirq for suspend
-0dd4c352d21f975b9f7bf84297e2001cbc68ed6a tc358743: fix register i2c_rd/wr function fix
-4bec93048b0b4ff742f45123e742edf7dc7e824a nvme-pci: Fix an error handling path in 'nvme_probe()'
-fea11a05ea0c88702901b4648e8c1968c882060d gfs2: Don't clear SGID when inheriting ACLs
-30fd46b35d12f0d3e8633366a80da469a51b8886 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-02c787cf3f3b7d11fe721dd1ed747f1a9b7f221b s390/disassembler: correct disassembly lines alignment
-77533d675aa9a99aa804519eb94a0a2d59e0a479 mm/kmemleak.c: make cond_resched() rate-limiting more efficient
-a5cf2ca135564ff6a5d9809d56dec3b12e5322f1 crypto: talitos - reduce max key size for SEC1
-02208c3f872edb189aa289b68e7c4f370aa333d2 powerpc/module64: Fix comment in R_PPC64_ENTRY handling
-d5806f079b4cab359fb2c8af38f053e5d3cfc1e9 powerpc/boot: Delete unneeded .globl _zimage_start
-e065186e6eed143a3af9646e535853195182e54a net: ll_temac: Remove left-over debug message
-80a41d96cd79d3db4dbe98c6cc07ec962fe9ef6b mm/page_alloc: speed up the iteration of max_order
-0ce8af372540c6a97113d61cbaf092eae4c775d9 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
+653e03418d5a5180871d802f5996021eb0fd54c0 ext4: fix race writing to an inline_data file while its xattrs are changing
+cb8ace6199b970ccdff42cccecdc7676309077f5 mtd: nand: atmel_nand: remove build warning in atmel_nand_remove()
+477f3f569cb8eb90df059d33ea07c4273b5eb575 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+9a827315e3edcc7c063cd08218af12d49b1d71c1 qed: Fix the VF msix vectors flow
+3dfd2efc08f709695204203bbc8450f366d6c93d qede: Fix memset corruption
+d7ec85c2abb91dcc152f55ec465f0991a326f2aa perf/x86/amd/ibs: Work around erratum #1197
+20e6a4e8a4dac0668be0c4c2395ee47a3ea0a843 cryptoloop: add a deprecation warning
+99f94aa80937a4314b57a01ef0787252dfb9433c ARM: 8918/2: only build return_address() if needed
+d507068078beb3a4d8e5fc7e05c4030dde99c3a6 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+f0797e6c13f218d549bf81da915a81127fc14ecf ath: Use safer key clearing with key cache entries
+acf4384ea380a05258d3c0e5d87b7edf85fd3530 ath9k: Clear key cache explicitly on disabling hardware
+2a6382d61ccecce5f2678aebe4352ea60ae6090e ath: Export ath_hw_keysetmac()
+634df1fb220e3359ef848de302ed3cbea781ac0a ath: Modify ath_key_delete() to not need full key entry
+01e2915f1aa87937c6eb54795e9a433b68150461 ath9k: Postpone key cache entry deletion for TXQ frames reference it
+af15b9a0d79ed0a7a61be26287c4cd8a8ad47ce4 media: stkwebcam: fix memory leak in stk_camera_probe
+90a29a2bafc1aa342ad223b3d7dd33ae7066515a igmp: Add ip_mc_list lock in ip_check_mc_rcu
+a5f61b2bb14241bada8cdc86b1f1a2449cc68d60 usb: phy: isp1301: Fix build warning when CONFIG_OF is disabled
+c2403a731daf796c3d63aa0f11d3a0f23b09810f USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+9381b270a5b77b87a2882af0291f196ced00b2d1 net/sched: cls_flower: Use mask for addr_type
+87ad90e1974a0782e074a7b93ebabb4d2588c2cd PM / wakeirq: Enable dedicated wakeirq for suspend
+12367359d047708c100e351da072c510ee4f9150 tc358743: fix register i2c_rd/wr function fix
+ee77d67ab0814eb072e997396260098a3f6f41a5 nvme-pci: Fix an error handling path in 'nvme_probe()'
+d4ffef93173638c160f409ec7b363c76aa0ee268 gfs2: Don't clear SGID when inheriting ACLs
+05d2e4dd18d0296724a147778fe1ea7869c61207 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
+653cd3acc3f0ac72257bdcd58efdcc3e23ff3821 s390/disassembler: correct disassembly lines alignment
+6bb329d92f360556d40c3105d0fde3c253aa3e6c mm/kmemleak.c: make cond_resched() rate-limiting more efficient
+1095768f618bc35c76a9f99c37126982d14995f4 crypto: talitos - reduce max key size for SEC1
+22c15bb8cee36f228c91b5e4c7da5445c59373a8 powerpc/module64: Fix comment in R_PPC64_ENTRY handling
+01c3de6e4aa9576fe2a4b02e9df3c14f3e1b353b powerpc/boot: Delete unneeded .globl _zimage_start
+35de5706bfc958fe755adfc4bf1d440a82675ef3 net: ll_temac: Remove left-over debug message
+529a11396bec9db8d21ae0e51129ec15a78d4a81 mm/page_alloc: speed up the iteration of max_order
+a5c7aa736984aa6f654bf40940716b7761354ecf Revert "btrfs: compression: don't try to compress if we don't have enough pages"
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb725290fd0a-28b221aa3461.txt
+Content-Disposition: attachment; filename=revlist-28b221aa3461-941c36e48a8f.txt
 
-a54b7cf088ad59397fee28890ecf1ccf6749b21e igmp: Add ip_mc_list lock in ip_check_mc_rcu
-f7afed91257a8f9a6df830e33ad361884d44db99 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-cd9467b4c55d50d502699430520b16f5048b7224 net: ll_temac: Remove left-over debug message
-6a0c8c3d15a0dab45a7dc25e9ec193aed57d8860 mm/page_alloc: speed up the iteration of max_order
-ae8e2af8e91fbf649c7b9b6060ace45e8ae9e265 net: kcov: don't select SKB_EXTENSIONS when there is no NET
-6845b590a26d91e2d651077b7e06367bd96d4ad9 serial: 8250: 8250_omap: Fix unused variable warning
-f425a8cb55a6f6d063e758ed722d2a35f8c91d17 net: linux/skbuff.h: combine SKB_EXTENSIONS + KCOV handling
-57c91cbfd1cfb55b7aae5fb83af06848bd600755 tty: drop termiox user definitions
-744999ca62e34d4deeeaeb657cd4bbcca1e3643a Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
-f1a29a5852c64afcb470c40e8b1f733cd7283617 x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
-7199d7acfafd5612965ad996fd2cb338ae3a2594 blk-mq: fix kernel panic during iterating over flush request
-28b221aa3461bfa39b91deb3b8b100009d6663f0 blk-mq: fix is_flush_rq
+f812005a95a511b10d471ff155c1b709e5ba33bd igmp: Add ip_mc_list lock in ip_check_mc_rcu
+a74c1634b963c50737a3a1afe72b6a547b89bbbf USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+f4d231449a0acd31b59814c0e34f56cc0d014d0a net: ll_temac: Remove left-over debug message
+d3670e16f55c35e8ceb76122af36762db4bd5e59 mm/page_alloc: speed up the iteration of max_order
+1a1aceaa4e88cd6d619f85b2e5a23240fc0126a5 net: kcov: don't select SKB_EXTENSIONS when there is no NET
+bfad06014cdbd7a27bc8c2453e242eba53fac67b serial: 8250: 8250_omap: Fix unused variable warning
+3a9df730217faf62c4d143de855e5f1fdfbf70be net: linux/skbuff.h: combine SKB_EXTENSIONS + KCOV handling
+03e0bf9fa7a43d2007e11145e51143c4419b1152 tty: drop termiox user definitions
+9ec3ed9a6d87466ddc6c7c29a7c1c41efd27a994 Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
+6c8c49842d4b798ae484b4f277f805fa0a0ebfe5 x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
+10fff77bf999dc28c8d9b8f7e60c6f959591d7fa blk-mq: fix kernel panic during iterating over flush request
+941c36e48a8f0d9ddb41956d7ed731544a39933f blk-mq: fix is_flush_rq
 
---===============2164459149560261201==
+--===============3968744754860634851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bcfbf9c2333-c54ac05e4a30.txt
+Content-Disposition: attachment; filename=revlist-c54ac05e4a30-ff94a7889f45.txt
 
-7bb197f1bb64be2fe4435355fdde55c93cab0df9 ext4: fix race writing to an inline_data file while its xattrs are changing
-c1a96e3d1bd5d996969e24e8ef7443669f32a36d fscrypt: add fscrypt_symlink_getattr() for computing st_size
-7ad5cb03bad3266e6d5c4df153019fd3c96a95c4 ext4: report correct st_size for encrypted symlinks
-3600d829e61c9e4366ace90a80d8cb6d262d9779 f2fs: report correct st_size for encrypted symlinks
-caba23b95aad04f2467e6ded295d5bcfaf857024 ubifs: report correct st_size for encrypted symlinks
-5337954df84f583aaeb6c7087f53f0a33f132d08 kthread: Fix PF_KTHREAD vs to_kthread() race
-dddfe9fe407439030bcad3fc56db66852a7a38cf xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-3f9cbba5ec262d84ce8d0549bc1c0f6010de5bb9 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
-ef7dc2069564a8b64dc2d235527f50ad5540fd04 reset: reset-zynqmp: Fixed the argument data type
-2be8ff75ec7dcad060d7a5a7259cf04246128e80 qed: Fix the VF msix vectors flow
-1183af273d5f0eefc29672903f04e68fa456cbd3 net: macb: Add a NULL check on desc_ptp
-08e995cf95c7f8bbedf879728a601a26ca64152c qede: Fix memset corruption
-16102ec752aeb8ea4b7a0557b968014cf8777ecd perf/x86/intel/pt: Fix mask of num_address_ranges
-a40ee758d5060eb45723d569e22c3e595016424b perf/x86/amd/ibs: Work around erratum #1197
-59ad496ddced642b1182609701d3b32eb639e343 perf/x86/amd/power: Assign pmu.module
-ec219ae0e85dd8f3ea80e96003a9b92031bcea0a cryptoloop: add a deprecation warning
-fac34a5965a0935024eb8e3bcb83e7803c28506e ARM: 8918/2: only build return_address() if needed
-9f571037541276db7a4b6a38528f40bf4c49f0e7 ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
-90e1a6e7008ff479f5d8e8189ddea7f6e09ed533 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-7fc3a535efd29fce17e888beecfd9f85958849ea ARC: wireup clone3 syscall
-a08c8646f4fd2e85036a6f4b6ff585972aab3282 media: stkwebcam: fix memory leak in stk_camera_probe
-c762823d17f892f166d03a19e361e754611b26a8 igmp: Add ip_mc_list lock in ip_check_mc_rcu
-e28273f8d4710febc55da566943a8b49ce525078 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-9ea0f3ae3c91ed37461ebe2d9519aa25668708d7 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-a9d2f875edba973866060b018dc7a43fd2d4c3a5 powerpc/boot: Delete unneeded .globl _zimage_start
-db1a0134ed4962aeb9a30ce327465792602efd5a net: ll_temac: Remove left-over debug message
-0af38d1eedab5e4ffc57ebd37e31f8d77c134f94 mm/page_alloc: speed up the iteration of max_order
-bd0fa82ab721cd275ba3a616d7b67cc8ec71ab65 Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
-c54ac05e4a30f5409867961c908912cc42094a1e x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
+bc36eefff068d07665a3148d7dea9d5327d78f85 ext4: fix race writing to an inline_data file while its xattrs are changing
+b55e45e6c5b7336945e5b9bb3bc9cba04a352fc4 fscrypt: add fscrypt_symlink_getattr() for computing st_size
+361b81dc505603e3c3f063513178dbc917e5c85a ext4: report correct st_size for encrypted symlinks
+39d910177016b8a9e86b12c92973cbade4d4c58f f2fs: report correct st_size for encrypted symlinks
+bcfaed62e49629ae45c4a0a195d33b023300c88d ubifs: report correct st_size for encrypted symlinks
+d9bcf618302790ed98323ea517f6ddfd25da6037 kthread: Fix PF_KTHREAD vs to_kthread() race
+5d71a959b96eaa2770a5c587b659f23d2eb85ca3 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+804d7e6ed4593dff95e6e6610c88572fd9395f04 gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+e36265f0ae0be385e92167c6dc7fbdfaba5c6e42 reset: reset-zynqmp: Fixed the argument data type
+63a6338b4d6c0437c323f09d8d4be03afcbfc9f8 qed: Fix the VF msix vectors flow
+d542f3c04641eeb099a7a7b0b4e0631f41f9ca44 net: macb: Add a NULL check on desc_ptp
+ef18853a1bbe51223794fe9e65bee38dd9076b0d qede: Fix memset corruption
+ff707be2c85806927c2172938554315925b2430e perf/x86/intel/pt: Fix mask of num_address_ranges
+fa2d1412f32944e2880db02949566aa49f883849 perf/x86/amd/ibs: Work around erratum #1197
+300697c838ab27b0834c3bb368e73a71cd870ff2 perf/x86/amd/power: Assign pmu.module
+c83ff5e5c94bf442ec7e70000c8c4c2ce78abe2f cryptoloop: add a deprecation warning
+066133db41d2a446a6836fc8567b5b8cf043f437 ARM: 8918/2: only build return_address() if needed
+272dd3a70dcd0eec797fb394154b579583f645fc ALSA: hda/realtek: Workaround for conflicting SSID on ASUS ROG Strix G17
+f81eaaa82f7a54a59bcba92d8d7b9740713d0466 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+c12effd5dd742fce045cf0e26fcd7299f5196738 ARC: wireup clone3 syscall
+67ac5ed1f379262edf2693aeace063553bcb0e91 media: stkwebcam: fix memory leak in stk_camera_probe
+91d8e99d823290149614092a39cba280a4c8dfb8 igmp: Add ip_mc_list lock in ip_check_mc_rcu
+d36d8be824eb45a8f9ab8a84ce9f274881d40be9 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+5c2bdcfad4f7ad28211b479786ff64a1e7975421 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
+0cfb2d39250e469aed5b75f288d502b3d3b9e65d powerpc/boot: Delete unneeded .globl _zimage_start
+e982e24a639c98c7d415761a46a73554db1488bf net: ll_temac: Remove left-over debug message
+53f53786fb9b05b348f2e8cc51936d39ba96b616 mm/page_alloc: speed up the iteration of max_order
+2cb66e78cbc567a56dbacd7e86011ee1e8d24b78 Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
+08b89e3032455da738b8dca2baa5ce6255da2bcd x86/events/amd/iommu: Fix invalid Perf result due to IOMMU PMC power-gating
+ff94a7889f4558e47c48d8cc2a02b9d86d3abf62 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
 
---===============2164459149560261201==--
+--===============3968744754860634851==--
