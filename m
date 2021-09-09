@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4513910498647008868=="
+Content-Type: multipart/mixed; boundary="===============5450868660411821628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 09 Sep 2021 16:15:40 -0000
-Message-Id: <163120414041.31150.14400733089963800085@gitolite.kernel.org>
+Date: Thu, 09 Sep 2021 16:15:52 -0000
+Message-Id: <163120415229.31292.10671812162279900821@gitolite.kernel.org>
 
---===============4513910498647008868==
+--===============5450868660411821628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,48 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 9756e44fd4d283ebcc94df353642f322428b73de
-    new: e011912651bdf72840d88e8a8de3716bbcc4be99
-    log: revlist-9756e44fd4d2-e011912651bd.txt
+  - ref: refs/heads/dev-queue
+    old: d144da38ff6c1ca77fa04fb7d0bb4d14137ab0d7
+    new: 692c4339863a23c78626f5a74dc1f9f168ef2361
+    log: revlist-d144da38ff6c-692c4339863a.txt
 
---===============4513910498647008868==
+--===============5450868660411821628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9756e44fd4d2-e011912651bd.txt
+Content-Disposition: attachment; filename=revlist-d144da38ff6c-692c4339863a.txt
 
-17b27ac5922454ff7de91cbed458643608c36abc scsi: lpfc: Add rx monitoring statistics
-7481811c3ac39498636acdbcc4cab74ae2a1ffe5 scsi: lpfc: Add support for maintaining the cm statistics buffer
-9f77870870d8cd42407a6df7bdc1347c8c9536ed scsi: lpfc: Add debugfs support for cm framework buffers
-74a7baa2a3ee8be200ea5421fe025d5eb8621a6a scsi: lpfc: Add cmf_info sysfs entry
-acbaa8c8ed17e768dab3f09f457fd265d7c94848 scsi: lpfc: Add bsg support for retrieving adapter cmf data
-2dbf7cde53bec4f4d197b9d9af6f0fd6c37e5959 scsi: lpfc: Update lpfc version to 14.0.0.1
-9eb636b639b43dc17fd4081359403ab2af8f4046 scsi: lpfc: Copyright updates for 14.0.0.1 patches
-125c12f71783a2aa394f6e16a5de3424ad4f7dfb scsi: lpfc: Use the proper SCSI midlayer interfaces for PI
-b3e2c72af1d553a646c86bbb4c0be278686a295a scsi: mpt3sas: Use the proper SCSI midlayer interfaces for PI
-313bf281f2091552f509fd05a74172c70ce7572f scsi: ufs: ufs-exynos: Fix static checker warning
-9b5ac8ab4e8bf5636d1d425aee68ddf45af12057 scsi: ufs: Fix ufshcd_request_sense_async() for Samsung KLUFG8RHDA-B2D1
-113ec9ccc8049c3772f0eab46b62c5d6654c09f7 powerpc/32: indirect function call use bctrl rather than blrl in ret_from_kernel_thread
-f5007dbf4da729baa850b33a64dc3cc53757bdf8 powerpc/booke: Avoid link stack corruption in several places
-33e1402435cb9f3021439a15935ea2dc69ec1844 powerpc: Avoid link stack corruption in misc asm functions
-11f27a7fa4ca27935de74e3eb052bdc430d5f8d8 powerpc/ptdump: Use DEFINE_SHOW_ATTRIBUTE()
-64b87b0c70e0fd28352895cba3c0a9631e0072dd powerpc/ptdump: Remove unused 'page_size' parameter
-cf98d2b6eea6a1b2c43f85680ad58fcc3ea9496b powerpc/ptdump: Reduce level numbers by 1 in note_page() and add p4d level
-e084728393a58e7fdafeee2e6b20e0faff09b557 powerpc/ptdump: Convert powerpc to GENERIC_PTDUMP
-316389e904f968d24d44cd96a6d171ee1ef269cf powerpc/syscalls: Simplify do_mmap2()
-19e932eb6ea47f4f37513eb2ae0daee19117765c powerpc/ptrace: Make user_mode() common to PPC32 and PPC64
-9401f4e46cf6965e23738f70e149172344a01eef powerpc: Use lwarx/ldarx directly instead of PPC_LWARX/LDARX macros
-7f85b04b08ca264923358e2c4e93422bad59a6e0 riscv: Keep the riscv Kconfig selects sorted
-8341dcfbd8dda98a3b2836a421016f7d88e35b1c riscv: Enable Undefined Behavior Sanitizer UBSAN
-fde9c59aebafb91caeed816cc510b56f14aa63ae riscv: explicitly use symbol offsets for VDSO
-417b962ddeca2b70eb72d28c87541bdad4e234f8 configfs: return -ENAMETOOLONG earlier in configfs_lookup
-899587c8d0908e5124fd074d52bf05b4b0633a79 configfs: simplify the configfs_dirent_is_ready
-d07f132a225c013e59aa77f514ad9211ecab82ee configfs: fold configfs_attach_attr into configfs_lookup
-c42dd069be8dfc9b2239a5c89e73bbd08ab35de0 configfs: fix a race in configfs_lookup()
-fd42b7b09c602c904452c0c3e5955ca21d8e387a KVM: PPC: Book3S HV: Initialise vcpu MSR with MSR_ME
-daac40e8d7a63ab8608132a7cfce411986feac32 KVM: PPC: Book3S HV: Remove TM emulation from POWER7/8 path
-4782e0cd0d184d727ad3b0cfe20d1d44d9f98239 KVM: PPC: Book3S HV P9: Fixes for TM softpatch interrupt NIP
 d82b392d9b3556b63e3f9916cf057ea847e173a9 KVM: PPC: Book3S HV Nested: Fix TM softpatch HFAC interrupt emulation
 7487cabc7ed2f7716bf304e4e97c57fd995cf70e KVM: PPC: Book3S HV Nested: Sanitise vcpu registers
 8b210a880b35ba75eb42b79dfd65e369c1feb119 KVM: PPC: Book3S HV Nested: Make nested HFSCR state accessible
@@ -1050,5 +1019,36 @@ d82d5303c4c539db86588ffb5dc5b26c3f1513e8 net: macb: fix use after free on rmmod
 6215b608a8c4d4a478721e14a6faa0dc56e4a693 sfc: last resort fallback for lack of xdp tx queues
 e3a843f98c8fad4d02849fdb14919885024bf51f Merge branch 'sfx-xdp-fallback-tx-queues'
 e011912651bdf72840d88e8a8de3716bbcc4be99 net: ni65: Avoid typecast of pointer to u32
+b29b2af42798dddf9be45cdae8e4de1080aa19a9 checkpatch: Fix warnings when --no-tree is used
+88a62102d9d6bb0d9061000d80e5a2f345a56710 checkpatch.pl: seed camelcase from the provided kernel tree root
+a9620aab508fa037932d1fb5bd7e3ab3863be856 ice: Fix a couple off by one bugs
+10a3ca0640937a794429507230aab1c71812e1a1 i40e: Fix correct max_pkt_size on VF RX queue
+4df6e36b649ee013b72c2aaa47e6d6afd61749ad iavf: Fix return of set the new channel count
+8c5606c24cc850f8680cb61902c5befcad1418c4 i40e: Fix NULL ptr dereference on VSI filter sync
+7353e50be518c8dfe13166a21cb766148dad83c4 ice: Fix VF true promiscuous mode
+eb5643cb064c92127b1b4e2ca78dd309d649329b i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+2983be797fa58d46fadf3abdbbe1f3f49c1c3fe6 i40e: Fix warning message and call stack during rmmod i40e driver
+1d1b0dabe1a154e23d31c442dc87979960f0e941 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+e647c4cc861fe48f9a28cc0680491b3842a13071 ice: fix FDIR init missing when reset VF
+86a3a67ad5ce00b64fa25c493ee6d422f6b7a86f i40e: Fix failed opcode appearing if handling messages from VF
+5459a2b001ec23c25c4e44ab410c0ae1b8f70727 iavf: check for null in iavf_fix_features
+eaf1db02ee6ebdbb362a02f564c89d8e10936c4e iavf: free q_vectors before queues in iavf_disable_vf
+bef8fbc476d758aa438c813d56ffb8969f734c5d iavf: don't clear a lock we don't hold
+de9169767f37e11f3a6c56f7969d58bd62e2b148 iavf: Fix failure to exit out from last all-multicast mode
+3db597cc94342ba132c676ecd8d94ed6a8871f64 iavf: prevent accidental free of filter structure
+76721491be1c0e575cf383a3a0976597db7d5245 iavf: validate pointers
+57d3558a03206e4ef534da436ab48450570acd6a iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+b7a03db1fa64b4d2a329ebd62c5685327c54693c iavf: Fix for setting queues to 0
+7b55e6648ddd626ecd7928fc0dcdadfb5a7f793a i40e: Fix creation of first queue by omitting it if is not power of two
+ef45867aa3677acb65ac5e8a9ec0a20190538abb ice: Fix failure to re-add LAN/RDMA Tx queues
+878546d1e27e4f63b6cad8b68e3f762d3cc1c847 i40e: Fix pre-set max number of queues for VF
+754e4739e896434aa211de5413b1091e9b573013 igc: fix tunnel offloading
+d474170f7c4eda3f8daa106022e7b7773d3cffab i40e: Fix issue when maximum queues is exceeded
+f5991c70b1008787b179fc21a181b64766d019f3 iavf: Fix static code analysis warning
+6d851269ed351f4b869d91895d40294c7170a692 igb: Fix removal of unicast MAC filters of VFs
+b6b632f3c5ac24bf7af9c4da832e06d44c91ec39 iavf: Fix limit of total number of queues to active queues of VF
+f33481d0acda5a5d9a07a67baf506c6f6b19bf44 iavf: Fix RTNL deadlock with new flag IAVF_FLAG_REINIT_MSIX_NEEDED
+2046306fafeae494c46cb3f3d2d14df98d082ab1 iavf: Fix displaying queue statistics shown by ethtool
+692c4339863a23c78626f5a74dc1f9f168ef2361 i40e: Fix delay after global reset
 
---===============4513910498647008868==--
+--===============5450868660411821628==--
