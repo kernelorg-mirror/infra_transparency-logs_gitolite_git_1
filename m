@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5337711760194789032=="
+Content-Type: multipart/mixed; boundary="===============3631784093667810611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 09 Sep 2021 14:02:35 -0000
-Message-Id: <163119615519.9319.11755544948332861257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 09 Sep 2021 14:02:41 -0000
+Message-Id: <163119616172.9446.12159882657351112854@gitolite.kernel.org>
 
---===============5337711760194789032==
+--===============3631784093667810611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: a7c32dfab6ac1f64cd5e696a8d251075c06fa431
-    new: 752c30df9b8984ba69710e910b45da9121c2b9a5
-    log: revlist-a7c32dfab6ac-752c30df9b89.txt
+  - ref: refs/heads/queue-rc
+    old: 8fd303da7dc1b5208e219dd19bdc24fce676782b
+    new: e4754c4a68d17fcc1626f49f457ec28956e8fac9
+    log: revlist-8fd303da7dc1-e4754c4a68d1.txt
 
---===============5337711760194789032==
+--===============3631784093667810611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7c32dfab6ac-752c30df9b89.txt
+Content-Disposition: attachment; filename=revlist-8fd303da7dc1-e4754c4a68d1.txt
 
 8343268ec3cf4e097aa8b2071f0cd6779e2c4953 net/mlx5: Bridge, fix uninitialized variable usage
 897ae4b40e80be7dcbf2b3079d85fa6339a6b751 net/mlx5: Fix rdma aux device on devlink reload
@@ -60,5 +60,7 @@ c0b291c010c88e85f0c2764b884eb32d076d22b5 net/mlx5e: Fix mutual exclusion between
 b539410c23eee36fe6fa85ee47a45a94f7ba7b39 Merge branch 'patchq/426525' into mlx5-for-net
 c5f21f9bc5378c95e70468935822212c1a229d79 Merge branch 'mlx4-for-net' into net-rc
 752c30df9b8984ba69710e910b45da9121c2b9a5 Merge branch 'mlx5-for-net' into net-rc
+4fee61f26ad4bff821553f8454495380bea51c5f Merge branch 'net-rc' into queue-rc
+e4754c4a68d17fcc1626f49f457ec28956e8fac9 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5337711760194789032==--
+--===============3631784093667810611==--
