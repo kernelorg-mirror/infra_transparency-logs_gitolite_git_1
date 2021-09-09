@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 09 Sep 2021 13:15:49 -0000
-Message-Id: <163119334913.6751.9976885596703499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Thu, 09 Sep 2021 13:21:26 -0000
+Message-Id: <163119368618.11286.5713307908831507591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 502eede64eab7d75e56c895a3ea408eec8392765
-    new: 671fe6a07cd160090effa97f38ec327045f7baef
+  - ref: refs/heads/fscache-iter-2
+    old: cd0a309f7786269cb828ca513e1d598e725bf8b5
+    new: b502ec2516fd6a731b7c2808b89d7c2595bf8b26
     log: |
-         4e69037d0b8a6409a7aa4836a066647ee6cda597 perf test: Fix bpf test sample mismatch reporting
-         671fe6a07cd160090effa97f38ec327045f7baef perf scripts python: Fix passing arguments to stackcollapse report
+         b502ec2516fd6a731b7c2808b89d7c2595bf8b26 fscache: Handle unnamed cache on volume allocation
          
