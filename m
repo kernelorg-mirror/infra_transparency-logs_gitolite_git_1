@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Thu, 09 Sep 2021 21:37:47 -0000
-Message-Id: <163122346756.15967.8468387595881606012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Thu, 09 Sep 2021 22:01:04 -0000
+Message-Id: <163122486458.31833.1093382429451383501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-user: zx2c4
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: b3aafa6103be853678b4c74664e2fcdfba597b55
-    new: af260d529eaa4387632c3d8dc8b02fd11c54f6bb
+    old: b35370f7f65387c02c0542d6c36144ca0a0e5efd
+    new: 39067301976057bc8915e4025f6715432a5b0c74
     log: |
-         af260d529eaa4387632c3d8dc8b02fd11c54f6bb wg-quick: android: adjust for android 12
+         39067301976057bc8915e4025f6715432a5b0c74 Up the release version to 2.57
          
