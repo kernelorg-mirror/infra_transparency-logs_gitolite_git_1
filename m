@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 09 Sep 2021 19:14:24 -0000
-Message-Id: <163121486462.15624.7827210795358288359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/uml
+Date: Thu, 09 Sep 2021 19:23:11 -0000
+Message-Id: <163121539117.22573.11685701833449130721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/rw/uml
+user: rw
 changes:
-  - ref: refs/heads/testing
-    old: 9f0072c7785b9d640473170fd91249816fe476b5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3baec1241265ea5aa3188997a281571f1c5b66c9
