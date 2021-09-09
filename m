@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 09 Sep 2021 13:05:19 -0000
-Message-Id: <163119271977.308.10884310939410743415@gitolite.kernel.org>
+Date: Thu, 09 Sep 2021 13:05:56 -0000
+Message-Id: <163119275607.595.17727709448106405231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-5.15
-    old: 0d977e0eba234e01a60bdde27314dc21374201b3
-    new: f79645df806565a03abb2847a1d20e6930b25e7e
+  - ref: refs/tags/for-5.15-tag
+    old: 3c5a40f41ccc55bb7ae11ce3745df85ce69b4295
+    new: c87fd0f1bdc62bd247c28cbcedd1d06e26ad181e
     log: |
          6f93e834fa7c5faa0372e46828b4b2a966ac61d7 btrfs: fix upper limit for max_inline for page size 64K
          cde7417ce487988322d0bdaa02b4165082fbe388 btrfs: use correct header for div_u64 in misc.h
