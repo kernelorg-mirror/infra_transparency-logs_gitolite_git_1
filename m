@@ -1,44 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6025075643809991520=="
+Content-Type: multipart/mixed; boundary="===============2181892923957271916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 09 Sep 2021 23:46:24 -0000
-Message-Id: <163123118444.1605.7729553869322598894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 09 Sep 2021 23:50:50 -0000
+Message-Id: <163123145014.5971.3112039484673779803@gitolite.kernel.org>
 
---===============6025075643809991520==
+--===============2181892923957271916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/seen
-    old: b6dfe7c6f7183c589a694eac3a99920a769d73dc
-    new: 0c75395da630d9d14c8be1a0f15f1657695bd781
-    log: revlist-b6dfe7c6f718-0c75395da630.txt
+  - ref: refs/heads/dev-queue
+    old: 1307ec728aca14836d4a8511f802c2dd8b086c40
+    new: 0d6aae46b50cc3382d7bafa34be09edbe750c136
+    log: revlist-1307ec728aca-0d6aae46b50c.txt
 
---===============6025075643809991520==
+--===============2181892923957271916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6dfe7c6f718-0c75395da630.txt
+Content-Disposition: attachment; filename=revlist-1307ec728aca-0d6aae46b50c.txt
 
-5df5106e1e8b52ff54c0726ba6919afa4b745980 submodule: remove unnecessary unabsorbed fallback
-8eb8dcf94643ca6e7c3f040f3e0bf96e11c7ae47 repository: support unabsorbed in repo_submodule_init
-10a0d6ae64ad4fec12ab2c1ed13d1791dde60371 revision: remove "submodule" from opt struct
-ad90da73513d7b0055e47c6918e1d75c6165fa69 diff: ignore sparse paths in diffstat
-a33806398a418289388ad992e385a314b4b10225 merge: make sparse-aware with ORT
-695763679210420656f4125d9706bba25c76ae4b merge-ort: expand only for out-of-cone conflicts
-c0b99303db317894dc49398cd3e2db4ef02e8dcf t1092: add cherry-pick, rebase tests
-5d9c9349bd0acda149f37eb1c5edc2a5ef747eea sequencer: ensure full index if not ORT strategy
-516680ba7704c473bb21628aa19cabbd787df4db sparse-index: integrate with cherry-pick and rebase
-caae1332465652eaf1241a634b0e9d2004c30ea8 Merge branch 'ds/mergies-with-sparse-index' into seen
-779e00c8c4a2e92318d4619a191cfbb9ae5a6342 http: drop support for curl < 7.18.0 (again)
-d10d8430c867b6c8e6dca2acc83e4f9f3067fc11 http: correct curl version check for CURLOPT_PINNEDPUBLICKEY
-a593ff769a2cf19047edb52f32fecb1745ff6be0 Merge branch 'ab/http-drop-old-curl-plus' into seen
-0c75395da630d9d14c8be1a0f15f1657695bd781 Merge branch 'jt/add-submodule-odb-clean-up' into seen
+b85e8070ac2d2cb5e886682932ba436f70e162b8 ice: Fix NULL pointer dereference of pf->aux_idx
+dd09d9b805c2a8210011be5407877ef0b0b4e58f iavf: Fix deadlock occurrence during resetting VF interface
+59c0dfec09a3be62b0c577c576309bf364dc5c8f e100: fix length calculation in e100_get_regs_len
+3ffdfe50bd479d706495d71750ec7d46922a10fa e100: fix buffer overrun in  e100_get_regs
+f8cce0c1523c333a3d59935e4ee27fe89353ebfe i40e: Fix queues reservation scheme
+e8b4d51edcaa1d91a5312930cf02c6d1bce90672 ice: Fix not stopping Tx queues for VFs
+a1cebc9e532865740fa834fe372657c08175bc3b ice: Fix race conditions between virtchnl handling and VF ndo ops
+a7ae1490260b5a6961c396d094555c635034db2d igc: Update the device ID
+b74fa2bbe2fd0b0b6287ddeabcd4f78b6fcd4dd4 ixgbe: let the xdpdrv work with more than 64 cpus
+d75bec2f391d2d20e86159ae6e96d27d72b8892a ice: Prefer kcalloc over open coded arithmetic
+0c36d897f2e80addf2eba80b32397462aaae6d75 ice: devlink: add shadow-ram region to snapshot Shadow RAM
+cd9e7d733ad9df9d956f005044ea93744cf882f5 ice: move and rename ice_check_for_pending_update
+b14bb3da7cb4b32ff2ee2f4e52113bdc25685f0b ice: refactor ice_flash_pldm_image and combine with ice_devlink_flash_update
+fa1acd04df434ea772eed1f2e3fe461e75b6509b ice: support immediate firmware activation via devlink reload
+0d6aae46b50cc3382d7bafa34be09edbe750c136 igc: Change Device Reset to Port Reset
 
---===============6025075643809991520==--
+--===============2181892923957271916==--
