@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 10 Sep 2021 07:21:41 -0000
-Message-Id: <163125850187.9911.7848213392353015047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 10 Sep 2021 07:27:51 -0000
+Message-Id: <163125887182.13255.2954505762686358811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/wip-blk-crypto-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 830b1ca866c2329b3f40b5910adab46823c27ccf
+  - ref: refs/heads/master
+    old: 9682d36c21196c4019d84e77eae3921128927ce2
+    new: 5031ffcc79b81776ac8f7f8b1a585aed8818e3d1
+    log: |
+         5031ffcc79b81776ac8f7f8b1a585aed8818e3d1 Bluetooth: Keep MSFT ext info throughout a hci_dev's life cycle
+         
