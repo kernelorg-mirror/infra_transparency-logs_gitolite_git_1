@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4243584698903959300=="
+Content-Type: multipart/mixed; boundary="===============0927672672723467064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 10 Sep 2021 08:35:10 -0000
-Message-Id: <163126291034.26102.10980912903836088720@gitolite.kernel.org>
+Date: Fri, 10 Sep 2021 08:35:45 -0000
+Message-Id: <163126294528.26401.11357877385018723107@gitolite.kernel.org>
 
---===============4243584698903959300==
+--===============0927672672723467064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 34274c59b34f22052788caae4b1b49e6b2d1e539
-    new: 751ba6bd9a362bc63c941570ae38d721b07f70ae
-    log: revlist-34274c59b34f-751ba6bd9a36.txt
+  - ref: refs/heads/main
+    old: a3fa7a101dcff93791d1b1bdb3affcad1410c8c1
+    new: bf9f243f23e6623f310ba03fbb14e10ec3a61290
+    log: revlist-a3fa7a101dcf-bf9f243f23e6.txt
 
---===============4243584698903959300==
+--===============0927672672723467064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631262904 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631262944 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1631262903-6d64a9525cc30dee5f0f1d731d5768b9cc7c86aa
+nonce 1631262943-d8914689a06b11c58ec536fed4025cb079e05554
 
-34274c59b34f22052788caae4b1b49e6b2d1e539 751ba6bd9a362bc63c941570ae38d721b07f70ae refs/heads/staging-testing
+a3fa7a101dcff93791d1b1bdb3affcad1410c8c1 bf9f243f23e6623f310ba03fbb14e10ec3a61290 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE7GLgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TgoP/31Ji8VLe9QwHPDC9S2q
-rGlIRuFt7lHMvPr99NwDBhBsqSVR9mpvxxKk0DM3PB/zIfL2HL/WgQjsZd3jDGDT
-hfWSN1uSVbuPd1UUZjf1YOi3LB09UGWQsugm1XkO7EaInefjIjW22JlO1G2DUmC2
-yvnY9IChd9bQMZdGep2vU7gfvceSVynsfMfQ8FFqIzjP595A8Jobpx2kxQi+G5/j
-bfntBjUQOw50aZiCPOcYnvrD08/xfLEMZQlg1DAilwOaY7WtuJFJ7kzKaJrylEZa
-I1Sy6XjySfhEMhK/vugqtlplcyV0wo6bkoP/awitHcaIo1HZNN2iN9ebgWjo+IOP
-fcf9obrpdxiNHElIltjQ7u0vqDuX+ltIkmwooD43DiBLkin6y9KCnX2trCoJf6Ty
-golB9ARPrf8mzlMbW0vFjsZL+/8IccvUNd9nDOfBMaWwxlur9MoZ6BsNwVO+E81+
-sT9JZerpm8udpzPQApEgGA6RamnZypYPNbaVcPos+ZFz3dGijuxFcU5TbZh5iNNG
-fDMavIQstsDk5joY2i7kJgN2W9614Pu2rTWPaDdOdeEfl856g2uTLzxvOHIsMWQV
-wzDFmf3olbc3oKoLTyAx276VQM1c5wgUqPyDxThGP9vHo60MFeMDMcmie7VQcQai
-0bTpjZaIvWkMFkF10KGYkVRV
-=CDzs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE7GOAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/PsP/ijz+JlLsyhdnfsaCRrk
+6suyzlzDUCITljL9o8Guqc4C0RTQifjEhm59dNbnc0wowlLiRcFOLyr4Pz57ZXGz
+Aytnz9S6vFFEJ7m9ADA4OoXnzaxjfH+DR+11sHarYMEjLfb2nwYB0s/gUYr5GDS+
+EYYJY7ebO9r/qRPfPXUDR9JkJi7DnnLiyetWXGigACSemYCLur5p6NEFGtCsjJsX
++n40kXDzv6bEpmevuZp5I1vZ3vDynnEZYfdO6ZlrAnNP4f/xZYWO+6M+4qNQZ4pp
+ML+5BagCxQ9+2Cf4iDEEqV258jxFl2qgUqnfnyaFTg3ABv9x9YPiDmb4fMp4yLnb
+wgeL07i0N5Wvsbad0TBtME0SuS3ivonb1BZcjrX1FBweywFWyvkV9Hd5Q+5d+QRK
+EQB3YQ3quCOM/6KhMb/Tw11CSRl8CyiXtSWYCtJcRoZMea1Pa+m64UwEXpIM5ioX
+EMITyN/g611DI+mexF6MsTB9j2hU2Eq0iBDOB7CKEMY5pY84m5MnLP3v0w2jtzYN
+gRNkX8K+0OnCD9N1tjE+PpUP8+GskdeZIenwca03oeZC1yzUuV/Hyar3W2E84iD8
+7VqENr1NBfm+R7cIpof8IliHmjFZ3rULODH7mDHW8ZnHyOSfIKFVpgIJH/u64Rca
+azYvwQ3S8tvfQ3hxwxD20pzD
+=MHn3
 -----END PGP SIGNATURE-----
 
---===============4243584698903959300==
+--===============0927672672723467064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34274c59b34f-751ba6bd9a36.txt
+Content-Disposition: attachment; filename=revlist-a3fa7a101dcf-bf9f243f23e6.txt
 
 fe364a7d95c24e07e9b3f2ab917f01d6d8330bba dmaengine: dw: Program xBAR hardware for Elkhart Lake
 53b50458110d829c8fc45e7803a335a515698fd8 dmaengine: idxd: Simplify code and axe the use of a deprecated API
@@ -307,133 +307,5 @@ d6c338a741295c04ed84679153448b2fffd2c9cf Merge tag 'for-linus-5.15-rc1' of git:/
 ae79394a628530372e3b0aae4cb9e6495186558c Merge tag 'sound-fix-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8dde20867c443aedf6d64d8a494e8703d7ba53cb Merge tag 'for-5.15-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 bf9f243f23e6623f310ba03fbb14e10ec3a61290 Merge tag '5.15-rc-ksmbd-part2' of git://git.samba.org/ksmbd
-0af486bfbe2ad35a63de0a55839b2f1862d2c05e staging: r8188eu: core: remove null check before vfree
-ac55f311103a7d6f5e1634a1500312af336b7a5c staging: r8188eu: remove c2h_handler field from struct hal_ops
-b3ec2a68f7809f34e9df209713ab85e0011ac9bf staging: r8188eu: simplify c2h_evt_hdl function
-70b5dcd586336853b04a5deb414b98cf77eb7a58 staging: r8188eu: remove rtw_hal_c2h_handler function
-114a2e446cfd5ebe60a603c39a4dc80c01cfc6db staging: pi433: fix docs typos and references to previous struct names
-5ea1b9eb50d2f55940805b1d73c47adf04d5199d staging: wlan-ng: Remove filenames from files
-8005dd0241ff09d5c2ecc4b34997eaaadee798d5 staging: rtl8723bs: unwrap initialization of queues
-36d2b7da374356f6009891e18d487f942975df3a staging: rtl8723bs: remove unnecessary parentheses
-432fe259082668613dcd1c861eb37410a632fc96 staging: rtl8723bs: remove unused _rtw_init_queue() function
-0f9d4115e17596a17f0b0bb1fc237fede3edfce0 staging: rtl8723bs: clean up comparsions to NULL
-cd96491fa411a5b7699d91ad02e65be20cd4ce30 staging: r8188eu: os_dep: remove unused static variable
-4863271e81662f73187998f82cbbcf9b16771624 staging: r8118eu: remove useless parts of judgements from os_dep/ioctl_linux.
-1f18a8c95903cb766ba02474ea53fa09d23c8003 staging: r8188eu: core: remove unused function
-be8199ff9731395fc79bf7e1183aa424e20e0a64 staging: r8188eu: core: remove condition with no effect
-b3b37bfa0dafeb985f9eb61f46a27e1b431dd80c staging: r8188eu: remove rtl8188e_PHY_ConfigRFWithHeaderFile()
-3e7bfe266566bad678bfc60bfca95f7f2a8ae033 staging: r8188eu: remove rtl8188e_PHY_ConfigRFWithParaFile()
-9d7b32e69851cb8345de9a8a3dfdce4012836363 staging: r8188eu: remove rtw_get_oper_bw()
-b0116b81e4b6fce9cf3b2b3c3521c3db35d52f7d staging: r8188eu: remove rtw_get_oper_choffset()
-8b85c926864e7be135cd516ce1e7795f0b987dc4 staging: r8188eu: remove get_bsstype()
-9d0eb4a4f836263496c199b499c49701800f81d0 staging: r8188eu: remove CAM_empty_entry()
-416006322fb7ddaf55018eb4b201c45eeade88b1 staging: r8188eu: remove is_ap_in_wep()
-784b8dd6fa894f8b1dec89168bdbffe994c2bfad staging: r8188eu: remove should_forbid_n_rate()
-057fe336361c30ee0d25b6735dbbf2d575c0e4b1 staging: r8188eu: convert type of second parameter of rtw_*_encrypt()
-cb96264a5cd12c0ea95f1b366651a7e28f42dae5 staging: r8188eu: convert type of second parameter of rtw_*_decrypt()
-a8afbbe6c11d0c391abef16ed6203b8f45994a06 staging: r8188eu: remove unnecessary type casts
-3263207de4ba91fcb47545c3a550d154aee08556 staging: r8188eu: remove local variable Indexforchannel
-e8b90b850d63422ce0e6b35d5245a78c0edf8e57 staging: r8188eu: refactor field of struct odm_rf_cal
-ce9c99927709a42dc4726dba94afc013ab7eceb4 staging: r8188eu: remove unused constants from wifi.h
-8ea09cbf827a87eaa83f7c13d519064741bf22cd staging: r8188eu: remove commented constants from wifi.h
-ac8705bcae48fbdebd767c66522f558e33d5efe4 staging: r8188eu: remove Hal_MPT_CCKTxPowerAdjustbyIndex()
-401426dcd55d5d6fc5ad3c50fb1713fc67b93be3 staging: r8188eu: remove set but unused variable
-f8114f57a04878e5624d52cccf247913c51fe417 staging: r8188eu: remove ICType from struct HAL_VERSION
-f6aa81638db305f16a8a3f1ba787c52065b23d7e staging: r8188eu: remove unused function SetBcnCtrlReg()
-d36b71ee2baa74d9865f8bf6726b49c1f650c5cd staging: r8188eu: use mac_pton() in rtw_macaddr_cfg()
-ea854b83b837cda724c7076709e222f50cee8444 staging: r8188eu: ensure mac address buffer is properly aligned
-4c1e48bb628d16ee03a51043d1c7da5cebdfdde6 staging: r8188eu: use ETH_ALEN
-d26a780236a41fb4648bf12ccee38ff62f1b43b8 staging: r8188eu: use is_*_ether_addr() in rtw_macaddr_cfg()
-1cca95ac7afcd04ea31c3ea1a8b306fd754e7b98 staging: r8188eu: use random default mac address
-8f2aeb39c48f50ba9bd5187fc55074a770b40384 staging: r8188eu: use ether_addr_copy() in rtw_macaddr_cfg()
-a2f4181d53464c073c1e769ebfaef0ed8659b4fd staging: r8188eu: add missing blank line after declarations
-08bffd3c7f267f14800862549e215b5dcab3323e staging: r8188eu: remove unnecessary parentheses
-324b366e38873a8092e661225e0986ea1bd48f7d staging: r8188eu: os_dep: use kmemdup instead of kzalloc and memcpy
-f779b072724c082bf40edb9d37fbe3fe98ddb2fa staging: rtl8723bs: remove possible deadlock when disconnect
-d9d98036a40df1b28f7c236da564d1c0a9be2e39 staging: r8188eu: remove header file rtw_ioctl_rtl.h
-880347cda51785df4d1eec41bb4c473b7e7b7813 staging: r8188eu: remove unused defines from mp_custom_oid.h
-a5017f8a62a6139324f84f684b97c7c194b2be76 staging: r8188eu: remove unused enum from ieee80211.h.
-dad0c70512b7abef9898cecfd12de994235f7d1e staging: r8188eu: remove unused enum rt_eeprom_type
-ef7f51c31621058b8db7e517ddf1c9e30399cb29 staging: r8188eu: remove IS_HARDWARE_TYPE_8188* macros
-90de2e831e3f34c5872deef7fe4fed592ae84887 staging: r8188eu: remove enum hardware_type
-72ebeefcc368911a00a752ce1a714f2d25bd34c5 staging: r8188eu: remove unused constant CRC32_POLY
-73348902e2c42bcee4c2c8331c01f2505345f749 staging: r8188eu: use in-kernel arc4 encryption
-430219d14f087cee1c39ef31309d4367abda9160 staging: r8188eu: remove rtw_use_tkipkey_handler()
-53b55c78aee8a2312e97eb0fb79378c2fef6eaf3 staging: r8188eu: hal: remove condition with no effect
-1dca9cd735a25cf0b5a6c56c962dea05f1d947a3 staging: r8188eu: fix memory leak in rtw_set_key
-c8555fadf73b66ed6c50bf7f9845acc05b7764ed staging: r8188eu: remove useless memset
-a4423de5949792c115af8d632df5bfd5d2ee53ee staging: fbtft: fbtft-core: fix 'trailing statements should be on next line' coding style error
-bc6ed0066d162418c31106a5f381503bb6b48dd5 staging: r8188eu: remove intf_chip_configure from hal_ops
-4dff762a80a6bebfd0366993f3d219ba9eb0175f staging: r8188eu: remove read_adapter_info from hal_ops
-1fe11e8f3306706096578c769380b1e3d9db253b staging: r8188eu: remove read_chip_version from hal_ops
-342555d2b9bf6a41afd7f873f93f46e4cd1eefc4 staging: r8188eu: remove wrapper around ReadChipVersion8188E()
-8f4989b9552717d3b1ecc26c8a6853a60c269d36 staging: r8188eu: remove GetHalODMVarHandler from hal_ops
-72e2454b8105651bc68f47c20c74aa5570b08fe7 staging: r8188eu: remove init_default_value from hal_ops
-05ee3f30b05fa8ac4cb519a442b1ca5099e77995 staging: r8188eu: core: remove condition never execute
-15cef0f528ab7cf1df7e2138e19e5fb1dd16260e staging: r8188eu: remove rtw_hal_reset_security_engine function
-2516506e06d41dc020be028979af4b53af404153 staging: r8188eu: remove hal_reset_security_engine from struct hal_ops
-efd60b30d62dc9effacbe7241b56c9f9bddf73a9 staging: r8188eu: remove rtw_hal_enable_interrupt function
-33739b1fb041a3b6f4bbb8fc01ae6ca766ab2f69 staging: r8188eu: remove enable_interrupt from struct hal_ops
-752ee18b9eb8e7660ff758f94a731377742eeaec staging: r8188eu: remove rtw_hal_disable_interrupt function
-d92154d9b3f3e192c8dfcbb229ab7f35034d6093 staging: r8188eu: remove disable_interrupt from struct hal_ops
-87118458f4c436d728486aae642a76a9e05ce554 staging: r8188eu: remove rtw_hal_interrupt_handler function
-f94b9d01baaa7c5a04d8a9c7345a3d094a943def staging: r8188eu: remove interrupt_handler from struct hal_ops
-e94dfdb09219bda4a68c873f1976872532c11d57 staging: r8188eu: remove rtw_hal_xmitframe_enqueue function
-de642707e9e3baf5730f31df0b95fa0238dedc84 staging: r8188eu: remove hal_xmitframe_enqueue from struct hal_ops
-8e3a93f71664505d23888f1bd4cc54af9917a172 staging: r8188eu: remove Efuse_PgPacketWrite_BT function
-cc48e796798f56cc70a3a858691e1874c0632561 staging: r8188eu: remove Efuse_PgPacketWrite_BT from struct hal_ops
-c55d70dee1346f199a2a84a12a707989c127faaa staging: r8188eu: remove rtw_hal_c2h_id_filter_ccx function
-1ec538d23f16699f78fe918971751bce70c8c10c staging: r8188eu: remove c2h_id_filter_ccx from struct hal_ops
-5ca8437856b1cf15e9d443d6d3664868da2ef8fe staging: r8188eu: include: remove duplicate declaration.
-74bedd44f7ed6e3c6ed10f0a51490bee0ba598fa staging: r8188eu: remove useless check
-2936f11e8a874ef3d14754adb77b035c404177c3 staging: r8188eu: remove _rtw_mutex_{init,free}
-cf16dc4903bf080754c78c9615dfb4b388193789 staging: r8188eu: Remove _enter/_exit_critical_mutex()
-398962fb768c95a7a8021e5b024ef1fd246fddf1 staging: r8188eu: remove InitSwLeds from hal_ops
-49bf94fd8ed5b8b00a43d9c35119a321a75c8e07 staging: r8188eu: remove DeInitSwLeds from hal_ops
-cf878788507c291c26eb54c22d85655b6c9e8d15 staging: r8188eu: remove dm_init from hal_ops
-d2829694514015102d49d825a4e9857384598762 staging: r8188eu: remove dm_deinit from hal_ops
-1da9a77cd259d9d885f4a55490c228d31c388ad2 staging: r8188eu: remove SetHalODMVarHandler from hal_ops
-c28ac62a3ebfdcaa58bcf26cd9657517132a029b staging: r8188eu: remove empty functions
-017ddaad8bb88a93fe503533778eaba556ef39d7 staging: r8188eu: remove unused function rtw_interface_ps_func()
-2c430789eda14871fd83440840b262fd07cc50da staging: r8188eu: remove interface_ps_func from hal_ops
-76f256d599aed1d80ae0ff459e8b30f8bcae3833 staging: r8188eu: remove hal_dm_watchdog from hal_ops
-4d5c1756a97d4423e282cd8de03b596202c6dfd2 staging: r8188eu: remove set_bwmode_handler from hal_ops
-56a6e484ef5932c6c86fd53e2dfca94658cb5780 staging: r8188eu: remove set_channel_handler from hal_ops
-921af8a2da6bdada93a692d32de46102e2678c40 staging: r8188eu: remove unused enum hal_intf_ps_func
-240708f55d8394b54425ffba50bcdbcd20384a1c staging: r8188eu: remove Add_RateATid from hal_ops
-3eff00d9c0dfe6e936b52da4236f3037b1ebbc30 staging: r8188eu: remove hal_power_on from hal_ops
-fb0757d50a3fe192c099085114453b7e10be0e71 staging: r8188eu: remove sreset_init_value from hal_ops
-6621f2b0b96405f8e47fa67950658efb43606f2d staging: r8188eu: remove sreset_reset_value from hal_ops
-00140a8c5e2a3658a1e66b2ef17e1f1c43df8d25 staging: r8188eu: remove silentreset from hal_ops
-2aea3191c6a6a5e74af40f3a110cd71172522eca staging: r8188eu: remove sreset_xmit_status_check from hal_ops
-93b593ee00e9c23402377a9ff75e972083ac1b3c staging: r8188eu: remove sreset_linked_status_check from hal_ops
-9e0f6809720ec4f8c766d2c26f06afce332e8308 staging: r8188eu: remove sreset_get_wifi_status from hal_ops
-8909512596f1e0c48c2328827ca88fe376205c60 staging: r8188eu: remove EfusePowerSwitch from hal_ops
-acb98d47ccb8aa7bde5747cb100915bae7a1f517 staging: r8188eu: rename hal_EfusePowerSwitch_RTL8188E()
-20c8aa76bb8f3a876d2a98c08f1ad073b2aa0a6c staging: r8188eu: remove wrapper Efuse_PowerSwitch()
-8b39e081b2b089eea293c4b5948babc8dc1da8b8 staging: r8188eu: remove ReadEFuse from hal_ops
-2fd0a3fb0f9c7ee2214b4d4dab37495a0cc23f02 staging: r8188eu: remove EFUSEGetEfuseDefinition from hal_ops
-390a8732d0c8223c31119e8d2ab30f964220ebbb staging: r8188eu: remove EfuseGetCurrentSize from hal_ops
-75d81cef406a4f50a2475e6fd832e472ae2de471 staging: r8188eu: remove empty comments
-cd8b76ea359d9593be54326cc3116b5df31424ce staging: r8188eu: remove Efuse_PgPacketRead from hal_ops
-a7bc9bc855ed740eae3150bac52fcfd3af20511c staging: r8188eu: remove Efuse_PgPacketWrite from hal_ops
-ab274a4b5db34c8dfb9f71e0f221cc200216869e staging: r8188eu: remove Efuse_WordEnableDataWrite from hal_ops
-dab4559f00864937ec5634956c61af17b7f96358 staging: r8188eu: remove useless assignment
-69e75cd4fdb440a530a95fe0024f6d55a278b1bf staging: r8188eu: remove AntDivBeforeLinkHandler from hal_ops
-b181032b1a9e020fe884aeeaa8d707801497b643 staging: r8188eu: remove AntDivCompareHandler from hal_ops
-22f826d1da229b340b3650a198b399afafed7c4c staging: r8188eu: remove empty function rtl8188e_start_thread()
-fc8b8cb6f45cbfa9f51c89e4eae770ecab9cf608 staging: r8188eu: remove empty function rtl8188e_stop_thread()
-922ba62a62de33f8b835c5e3cc7a207bfe7bde93 staging: r8188eu: remove hal_notch_filter from hal_ops
-d9f08d8a26c33dd18423ff54d520a30a20a8ffe7 staging: r8188eu: remove free_hal_data from hal_ops
-89dee4117fedf98bf14e15a8d0daa01087de936c staging: r8188eu: remove unused function rtl8188e_clone_haldata()
-70b27b923a9099ae0d8b5a158b80d0d353797d24 staging: r8188eu: remove SetBeaconRelatedRegistersHandler from hal_ops
-9f177b84b132bdc572b4d253112d743b0d6a6040 staging: r8188eu: remove UpdateHalRAMask8188EUsb from hal_ops
-a824222cfbc607ad6627a9bb23920c3b4d7b8221 staging: vchiq: convert to use a miscdevice
-4f7cf76e5c7f218e592f08e9001dd963155f14fd staging: axis-fifo: convert to use miscdevice
-52fbe0b681d4284cbad02eadc6de236d9cd8ec58 staging: r8188eu: remove redundant variable hoffset
-5d5b765e4ce73380587dfd8fa7ff9531b85cfd99 staging: r8188eu: remove unused function Hal_ProSetCrystalCap()
-0750ff31ca78713155ffaeda97ea28e5658225a6 staging: r8188eu: remove unused function prototype
-f771e0bd93c780beaaa606dd8cf9e4aea1489454 staging: r8188eu: remove unused define
-751ba6bd9a362bc63c941570ae38d721b07f70ae staging: r8188eu: this endless loop is executed only once
 
---===============4243584698903959300==--
+--===============0927672672723467064==--
