@@ -1,43 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1705174658394386972=="
+Content-Type: multipart/mixed; boundary="===============9182507475602027457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 10 Sep 2021 16:01:08 -0000
-Message-Id: <163128966829.12472.10689874086187478374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Fri, 10 Sep 2021 16:47:25 -0000
+Message-Id: <163129244536.8222.8118241422087721109@gitolite.kernel.org>
 
---===============1705174658394386972==
+--===============9182507475602027457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 3dd4ba3c51f76ab71129a147e98d9464d952ab80
-    new: 9bcfd65e8c2638261eea4f444e41a14aaf9a0518
-    log: revlist-3dd4ba3c51f7-9bcfd65e8c26.txt
-  - ref: refs/heads/for-next
-    old: 3dd4ba3c51f76ab71129a147e98d9464d952ab80
-    new: 9bcfd65e8c2638261eea4f444e41a14aaf9a0518
-    log: revlist-3dd4ba3c51f7-9bcfd65e8c26.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 4af42ebe4876980579e4b6de2e8e19b373c5af60
+    new: d63d8abb37ca9d412bf746b6b6ff973f7146a04f
 
---===============1705174658394386972==
+--===============9182507475602027457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dd4ba3c51f7-9bcfd65e8c26.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9c3ad33b5a412d8bc0a377e7cd9baa53ed52f22d ASoC: fsl_sai: register platform component before registering cpu dai
-f12ce92e98b21c1fc669cd74e12c54a0fe3bc2eb ASoC: fsl_esai: register platform component before registering cpu dai
-0adf292069dcca8bab76a603251fcaabf77468ca ASoC: fsl_micfil: register platform component before registering cpu dai
-ee8ccc2eb5840e34fce088bdb174fd5329153ef0 ASoC: fsl_spdif: register platform component before registering cpu dai
-c590fa80b39287a91abeb487829f3190e7ae775f ASoC: fsl_xcvr: register platform component before registering cpu dai
-1dd038522615b70f5f8945c5631e9e2fa5bd58b1 ASoC: mediatek: common: handle NULL case in suspend/resume function
-7bd5d979dfdb6c047499a5ac91339bf42f7bdee3 Merge series "ASoC: fsl: register platform component before registering cpu dai" from Shengjiu Wang <shengjiu.wang@nxp.com>:
-17d9d891b7fc448e39af5a0f11d735a687f3480d Merge remote-tracking branch 'asoc/for-5.14' into asoc-linus
-9bcfd65e8c2638261eea4f444e41a14aaf9a0518 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+certificate version 0.1
+pusher 75C5DE3D 1631292439 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1631292439-872d8f2623e0ee5172516266d8f3e66fd91e2ddb
 
---===============1705174658394386972==--
+4af42ebe4876980579e4b6de2e8e19b373c5af60 d63d8abb37ca9d412bf746b6b6ff973f7146a04f refs/tags/mkp-scsi-staging
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmE7jBcACgkQ7ulgGnXF
+3j1P/hAAjoYKXC1p3sOIUT4aHSxG5gzOCD+qHpnFee2JpiGJAeNnRRqCh/9j+HNe
+iwRC2ovqktZhpsTis46goteMy+gzK0tsXL3Qo2H2YnovfqjOAONQhl9xcl/1DG4g
+UYVrWp1oIrm9Erb1h4EdbTUvTuIYoo9+L5pEJDAwLmAzf25H0hjeN2ZMvA4W1fhu
+GSQAufqmQhRES8msqaoq8CrRL5GMv/u1fkVBzgXlIINP5EQwTjvd9DYu8e8Dx78e
+39zrYdKDWLO5s5/kEzUrlumTge/qHMLWG7qaPscj4vzuWEwC4nwPPOokEsX099I/
+qhPUAF+itQcJhQ97htJ7ZRDinLI+XNy2SaipfR6D5RbRqxD3DIyM0CAmn8DOUWWc
+cNlvIiNLuTyk2qBAF2Po6w3/ZcUhs4nSyhgVkMRP16kp27Dn5PAO1WzMOJGK2114
+Xtl27JzgcGQHYOU7CYjYa3Lf5fuESALuyUJAVqvZw7x94XdXNJSpe2XwnFqD7npf
+c4NCqERxdknODT5L1ycEvZejDFt3vs5Am7r5C+shBpC5ziiPS+odoL5UBf/kpOmN
+2QVf3C59I+PUYWNVO3oVojT7aHcxEQY8FWYW7UZPRHD4gnVDA18xwqMmFLN7/H3q
+gu+sU+3gBecxQf8z1UKfuXGUD3kvKieWtue3nWwb5Wh8vecQixE=
+=37Xp
+-----END PGP SIGNATURE-----
+
+--===============9182507475602027457==--
