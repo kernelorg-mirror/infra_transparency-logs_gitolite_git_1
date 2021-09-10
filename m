@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 10 Sep 2021 17:10:20 -0000
-Message-Id: <163129382094.24700.7818332204081520803@gitolite.kernel.org>
+Date: Fri, 10 Sep 2021 17:10:30 -0000
+Message-Id: <163129383097.24832.1460582736190714744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: e5480572706da1b2c2dc2c6484eab64f92b9263b
-    new: 135953638671349111790297efdf9fe66ad130b9
+  - ref: refs/heads/sched/core
+    old: 9964e5cf7598cbef7ebd34f8c3a760019dfb55e3
+    new: 2dfdb3d20ad50e2ae2cb84cbceb0f0fc75e79e5d
     log: |
-         de0b5010c288f4b8862ed2b6eb553a1b522d172e sched/wakeup: Strengthen current_save_and_set_rtlock_wait_state()
-         650efe696616920bf1f953c13841a168d649ef52 locking/rwbase: Properly match set_and_save_state() to restore_state()
-         80226d8f5906690e217b5bdc24b46aad2770b02b locking/rwbase: Fix rwbase_write_lock() vs __rwbase_read_lock()
-         135953638671349111790297efdf9fe66ad130b9 locking/rwbase: Take care of ordering guarantee for fastpath reader
+         d0fd328f8affd4ebdf46c7aa5eeff61a58b9257c sched, fair: use __schedstat_set() in set_next_entity()
+         445d9e8ba05d5e9e4b26956b7fe529223e29d8d1 sched: make struct sched_statistics independent of fair sched class
+         0dc533504723599b41a4cefc6697379cddf55787 sched: make schedstats helpers independent of fair sched class
+         acb33dd350e4b962bd0c14f6e7ed383a779a51b4 sched: introduce task block time in schedstats
+         1f3de8229955609056329b54c351de69a04c5e49 sched, rt: support sched_stat_runtime tracepoint for RT sched class
+         66b4da2b7ae40a896693187de1296aee6974c33f sched, rt: support schedstats for RT sched class
+         68a7adcd88ce40bb69e8fe975e4971a73d3d9aff sched, dl: support sched_stat_runtime tracepoint for deadline sched class
+         2dfdb3d20ad50e2ae2cb84cbceb0f0fc75e79e5d sched, dl: support schedstats for deadline sched class
          
