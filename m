@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4111176322758121803=="
+Content-Type: multipart/mixed; boundary="===============3801508814900277950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 10 Sep 2021 08:01:55 -0000
-Message-Id: <163126091568.3439.10768661377479312180@gitolite.kernel.org>
+Message-Id: <163126091574.3453.6189515018942669946@gitolite.kernel.org>
 
---===============4111176322758121803==
+--===============3801508814900277950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.13.y
-    old: 315cd2347f046a9cf22f259c84f6654769884da7
-    new: 950636fd38b05594a5ab457db34ac2aa433a755d
-    log: revlist-315cd2347f04-950636fd38b0.txt
+  - ref: refs/heads/linux-5.14.y
+    old: 84eeca5be134f41a1abc2d09c12ae36e8f5b4d05
+    new: b7a8b5eb0464d3a522fe8252abb07c5a41bab8a4
+    log: revlist-84eeca5be134-b7a8b5eb0464.txt
 
---===============4111176322758121803==
+--===============3801508814900277950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631260913 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631260914 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1631260913-81ca764bc276563ca400b21e7040e790cd9fff5f
+nonce 1631260914-54e07321ebc617082a24f15288245bef119a40ef
 
-315cd2347f046a9cf22f259c84f6654769884da7 950636fd38b05594a5ab457db34ac2aa433a755d refs/heads/linux-5.13.y
+84eeca5be134f41a1abc2d09c12ae36e8f5b4d05 b7a8b5eb0464d3a522fe8252abb07c5a41bab8a4 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE7EPEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M2gQAMdNA1fTI7SwckuZbaPK
-b9TVmYe4dkzb8TVEeLbGEc3A6ID/5ON3cLK5wmmiF6nHLTxSCATYksimmY/nnpc3
-8gViZZWPcvqZhipX4odAiIJev8/tWV/RVEPbPmrWRYgO/qULOrlvQ6v02EhWwocP
-vdIK9wD9myqE4VJu/7VneTQJ7TarFBrV7H+arvOm4Uj5gbMhb8a5EcpuPIP3OSaf
-qQ1dP1rOwBoUU6djuo9wa7+45Bso3fc7I0XdBWNZvxXjeu0lsBeaKQWLLmJGrB4w
-WXN9gyW0HaNGP28LtfvttvLfY0KY0EhuLdmu8WJ3gvlYTEqiUa4x8vDXCOtfKRRd
-G36yDJr7P0GzExmA/jXLCYG1XsR5OwmRMv16m7nGQPNqlLoHVc9a+7w1KvnTZb6+
-VVmSiI1No2cQ6gD+5kzFaPtI/aIUzOrMeoRnUvbBfV7FO9jO2IKJDI5w/+QCsh0W
-u5EHPlPEvUaUAKEdkUDAyyvi+0GWIoopvd1FvgIf8av+p21L9i+FOWoNkTC4HUVF
-NVdkZT7HZ4FmNF9zm4Sel9dqdbpeqHfZMRO9KpJxSG3Ike7Y0WWlWCYId1ufks58
-nxUtXRDLDQlaTCZwt6O/uqur0AxX2akmVwnbO9/zSHEBGeoBnynTa/wopX5G7v9x
-pE3VoTSQkuGOQF6G1uBaYpnR
-=556m
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE7EPIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TjMQAMF5hwXWkHt4Q5nVc4Y2
+IMRlX0MswvWSTB2HVik93PYh9+Z4aGz2jDxtWpohCQd0SP9PveOdp/QTHzC8RmIC
+SckSQ0AZ9C+1s2KTHYc5kPfTvvSJbo6b/32nz5tsM1UPPSI4/3n3yHS2EkzDSvEs
+Rfh9eHZl3Xmq/uRLVJSv9ewqQ8tSmi37ZzNQfFcFvu5iApCPy0KYi17Kmds1RHtb
+ecDQ+G2mJxlV1B5FgWXL+/wB9575U3oUcPBYDbhN9u8zLkds12dIdEW4uSo8pCDx
+4XzWEFwzWv6jJIR0bsA5d5AtVln9F/DQ5FunNibniz6bX1gWuop07hqd4maMGsdT
+xyF6rwIf3Lw+TTtvhETE8q3CCMSQ4ysKsZ33af9Pre704VPJYxtIq7QJ/LVAAZPc
+3K+NE2dTWeiEsBoRmn5yvlqvE8Q39wSVRQyXtMv0Lrw8NA/QW0mk6r5jZ/aPNAgD
+Nl516l0C1iFns74Ai3VxjjHrjFDtASpV2TLxqcaowet5trNOzU4rEQAlOm+MYo4v
+XDR8jVI3wGdJsY3K2nlu5HAncMuBNT1cgSb/oOkNE1yJYyN3dac1cI2WMccZUtQj
+BY8rkChcJVVXbnstTCxAQkfjOMwhCt/Tw/OQiKFPzueI7tLETE43rpkF4ifBDeLx
+uXVJijGK0SuSBOuTijlD58I3
+=7SkZ
 -----END PGP SIGNATURE-----
 
---===============4111176322758121803==
+--===============3801508814900277950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-315cd2347f04-950636fd38b0.txt
+Content-Disposition: attachment; filename=revlist-84eeca5be134-b7a8b5eb0464.txt
 
-2d5cd16d353443703ef20fee4f0074b299e77b63 firmware: dmi: Move product_sku info to the end of the modalias
-70f7c731a247e7f8ffefaded8557b4462f629269 igmp: Add ip_mc_list lock in ip_check_mc_rcu
-b3eb272af17bd97c21fcdc96f833e81b988e9b4f net: ll_temac: Remove left-over debug message
-daf3288e26556594b0be808586927ff1758760dc Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
-cefde85658a549e473a43f8ca3144ec0405ddbee blk-mq: fix kernel panic during iterating over flush request
-e2d2fd387da20930f7838292cd7fa9c8a37c9b50 blk-mq: fix is_flush_rq
-6cbfd8de3ed79a45475e51f743866a6ba1b54fb4 blk-mq: clearing flush request reference in tags->rqs[]
-ab9a6b5841d1db4166a606858eebaf1be959ea6e ALSA: usb-audio: Add registration quirk for JBL Quantum 800
-b1a9b8229de7cf2864328d93cb68c0bedf631549 Bluetooth: Add additional Bluetooth part for Realtek 8852AE
-a75e5cfc493b14b778f20360824eac1eac2825a3 Bluetooth: btusb: Make the CSR clone chip force-suspend workaround more generic
-7e9112b151b1e62a8d3853db3f9ed38389a8309b usb: host: xhci-rcar: Don't reload firmware after the completion
-63d42bb47cf34acfa27b546f471a347dc645f9d9 usb: xhci-mtk: fix issue of out-of-bounds array access
-83cdedc3221da82a20d210e44562e96f63681552 usb: cdnsp: fix the wrong mult value for HS isoc or intr
-8ddf2c7429a3076e75c9e4a2f63cea42b9b4f566 usb: gadget: tegra-xudc: fix the wrong mult value for HS isoc or intr
-4b4a465362df2a436b876199a234d5268617858d usb: mtu3: restore HS function when set SS/SSP
-8af988432cf3da0dfaabd92c717d010697aa4362 usb: mtu3: use @mult for HS isoc or intr
-f21853b1c581250b29a8eee9394239a28b17d28d usb: mtu3: fix the wrong HS mult value
-82cf92ba4792699b1767c012c704a2aac79be710 xhci: fix even more unsafe memory usage in xhci tracing
-7144aaa8347289c6efe3c55d0714acad0b85bf1d xhci: fix unsafe memory usage in xhci tracing
-d6e3bd31465fd796cab6217d7039e02bfb19a0c7 xhci: Fix failure to give back some cached cancelled URBs.
-9c24985c238e1b4fec248e4a2c7f3ed731dd7181 x86/reboot: Limit Dell Optiplex 990 quirk to early BIOS versions
-ff31ebf2038f9f6b1695224c046a6d7507a90cf5 PCI: Call Max Payload Size-related fixup quirks early
-950636fd38b05594a5ab457db34ac2aa433a755d Linux 5.13.16-rc1
+2f524413739e8ad98951446b4a5fa0d563eb130d firmware: dmi: Move product_sku info to the end of the modalias
+fe1c2d59d7b6e8632c4c3f10d4058dfededa1eea can: c_can: fix null-ptr-deref on ioctl()
+88be97a6257516c247121b28625b0f296607e268 igmp: Add ip_mc_list lock in ip_check_mc_rcu
+fdfbfdf1f05f83e6b9e50bdf61bfe1241ff07909 Revert "r8169: avoid link-up interrupt issue on RTL8106e if user enables ASPM"
+6ab2252264fc8ecffd8e950b879cfed8a89733cb ALSA: usb-audio: Add registration quirk for JBL Quantum 800
+d9db24ab7019cb819d2b8b646e6abe2f02d0363e Bluetooth: Add additional Bluetooth part for Realtek 8852AE
+b8ebe0273dcc0866f1dd51025f9fff71d50f8d3b Bluetooth: btusb: Make the CSR clone chip force-suspend workaround more generic
+49bc279488422d7e7c56a19cacad3f3f8c0d895f usb: host: xhci-rcar: Don't reload firmware after the completion
+c072292ece21a20f7c7cdf64772db9392da998de usb: xhci-mtk: fix issue of out-of-bounds array access
+9a540e9ad1987f2560330fff30ef416ab81b41c3 usb: cdnsp: fix the wrong mult value for HS isoc or intr
+ccbff4a7ac5985a4c838e275a12aa80e84a0cef3 usb: gadget: tegra-xudc: fix the wrong mult value for HS isoc or intr
+ce1db5497ff85cb6a0661b9e73808192ee8b661c usb: mtu3: restore HS function when set SS/SSP
+cbd43852f17367931d89d0e7adf13caff469faca usb: mtu3: use @mult for HS isoc or intr
+2849d0e07f15f3210d20c05ef0fe0b6db2f4e406 usb: mtu3: fix the wrong HS mult value
+896189365f73a49f234d5e982ec013129c6064eb xhci: fix even more unsafe memory usage in xhci tracing
+475e13a27f65b51aa486a9fd8768521111b67b12 xhci: fix unsafe memory usage in xhci tracing
+5b1aee71fea07f6e82d2375fcdef1befa6d563cd xhci: Fix failure to give back some cached cancelled URBs.
+d984e8262b061ed9c695f227cbb974ab8b1f8e31 staging: mt7621-pci: fix hang when nothing is connected to pcie ports
+7a3a32b1f29326f219171ab70913de21ca56d652 x86/reboot: Limit Dell Optiplex 990 quirk to early BIOS versions
+996c0057359c85b9e2063ee486e87b115e2386ba PCI: Call Max Payload Size-related fixup quirks early
+f9ec365a830d3485780e44bee708e762d67d3eba cxl/pci: Fix debug message in cxl_probe_regs()
+a0eefdd4e3c98bd2d898f38f58812de68fae9322 cxl/pci: Fix lockdown level
+05fcb6cf37fb06527a89f108d1ee487d7e6804e0 cxl/acpi: Do not add DSDT disabled ACPI0016 host bridge ports
+b7a8b5eb0464d3a522fe8252abb07c5a41bab8a4 Linux 5.14.3-rc1
 
---===============4111176322758121803==--
+--===============3801508814900277950==--
