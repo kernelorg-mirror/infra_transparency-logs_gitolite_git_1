@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 10 Sep 2021 17:10:30 -0000
-Message-Id: <163129383097.24832.1460582736190714744@gitolite.kernel.org>
+Date: Fri, 10 Sep 2021 17:10:40 -0000
+Message-Id: <163129384080.24953.15408933879584103019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 9964e5cf7598cbef7ebd34f8c3a760019dfb55e3
-    new: 2dfdb3d20ad50e2ae2cb84cbceb0f0fc75e79e5d
+  - ref: refs/heads/locking/core
+    old: a055fcc132d4c25b96d1115aea514258810dc6fc
+    new: 826e7b8826f0af185bb93249600533c33fd69a95
     log: |
-         d0fd328f8affd4ebdf46c7aa5eeff61a58b9257c sched, fair: use __schedstat_set() in set_next_entity()
-         445d9e8ba05d5e9e4b26956b7fe529223e29d8d1 sched: make struct sched_statistics independent of fair sched class
-         0dc533504723599b41a4cefc6697379cddf55787 sched: make schedstats helpers independent of fair sched class
-         acb33dd350e4b962bd0c14f6e7ed383a779a51b4 sched: introduce task block time in schedstats
-         1f3de8229955609056329b54c351de69a04c5e49 sched, rt: support sched_stat_runtime tracepoint for RT sched class
-         66b4da2b7ae40a896693187de1296aee6974c33f sched, rt: support schedstats for RT sched class
-         68a7adcd88ce40bb69e8fe975e4971a73d3d9aff sched, dl: support sched_stat_runtime tracepoint for deadline sched class
-         2dfdb3d20ad50e2ae2cb84cbceb0f0fc75e79e5d sched, dl: support schedstats for deadline sched class
+         6b38666fe151182fec22a0a60f6d9c2ee9a8164e lockdep: Let lock_is_held_type() detect recursive read as read
+         acfdd90f2d6c4a7986be1b2446b85cf4fce43f01 lockdep: Improve comments in wait-type checks
+         276e7bec9b99b227cda4721ef31aa9c803fc6d72 locking/lockdep: Cleanup the repeated declaration
+         826e7b8826f0af185bb93249600533c33fd69a95 kernel/locking: Add context to ww_mutex_trylock()
          
