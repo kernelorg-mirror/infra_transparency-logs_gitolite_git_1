@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 10 Sep 2021 21:41:37 -0000
-Message-Id: <163131009720.7121.17449325074287836147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Fri, 10 Sep 2021 21:45:05 -0000
+Message-Id: <163131030532.9704.13169096854600566720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 724028ecc3b81b924ffc36644787d160f9835423
-    new: 218e7b775d368f38d85d73e52900b082f004e5f1
+  - ref: refs/heads/master
+    old: f891fa5c6e8bb6fc3381a425d194a58df3cd48c2
+    new: 642c6e41fb7a9bb4085c8ef00f80b771ed0a8145
     log: |
-         dde994dd54fbf84f8fd14230de3477d552e42470 perf report: Add tools/arch/x86/include/asm/amd-ibs.h
-         291dcb98d7ee5cd719f4c5991d977794b1829c16 perf report: Add support to print a textual representation of IBS raw sample data
-         03d6f3fe54278f8e5ec670e576b8da8b8727ec26 tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
-         dfa00459c6264abd282452c4878e3a9117db23bb tools headers UAPI: Sync linux/kvm.h with the kernel sources
-         f9f018e4d9a45a5464861418467b21d3d2ad569c tools include UAPI: Sync sound/asound.h copy with the kernel sources
-         2c3ef25c4a60cc18cf3f05a74c78220748f25684 tools headers UAPI: Sync linux/prctl.h with the kernel sources
-         155ed9f1b5ff62dd78f102559298a017a7e189c5 perf beauty: Cover more flags in the  move_mount syscall argument beautifier
-         37ce9e4fc596cf10a4d32ced741679bd1b4fa7a5 tools include UAPI: Update linux/mount.h copy
-         218e7b775d368f38d85d73e52900b082f004e5f1 perf bpf: Provide a weak btf__load_from_kernel_by_id() for older libbpf versions
+         1cbc1ba2ff8d173c46cff2db3220f7014edccc9d formal: Fix another path of RCU-test-ratio.pdf
+         afd0c61f9cd2cab6e70ffe2bea33c7ba680bbbf9 Makefile: Ignore .eps files under CodeSamples/.../OLD-*/
+         eb7ae8bfe455dbcc2f3823d8238b4f6a9eef2f3c datastruct: Remove stray .eps files
+         e4d7789b105e5da2d7d2e71fbf400f82d6248f5b cpu: Mark directories of unused data
+         7049b319a370f0b71747192fd4b74d182c4eb8b6 defer: Mark directories of unused data, take 1
+         d49e63354d451d3255ea1a596aebd341909b0a32 defer: Mark directories of unused data, take 2
+         55344e88122655c589199f6a468f3081ef203e10 defer: Mark directories of unused data, take 3
+         07a2095230ef29f5fcc4535f2f677e6f5c37bd58 SMPdesign: Mark directories of unused data, take 1
+         642c6e41fb7a9bb4085c8ef00f80b771ed0a8145 SMPdesign: Mark directories of unused data, take 2
          
