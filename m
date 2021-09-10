@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 10 Sep 2021 04:28:43 -0000
-Message-Id: <163124812331.27295.884233163270283009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 10 Sep 2021 04:34:26 -0000
+Message-Id: <163124846676.30633.3146101151220704062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 6cebe12f7e29477d391a3cecc4a05bd092a81c84
-    new: f891fa5c6e8bb6fc3381a425d194a58df3cd48c2
+    old: daf87bffd02e35387a62c77eb32337c934cf631a
+    new: 845ef3a7ce5773638a8c5e9a6e7be6538c107ae1
     log: |
-         f891fa5c6e8bb6fc3381a425d194a58df3cd48c2 datastruct/hash: Mark directories of unused data
+         de609b56b8322be0cd242ae364dc49bad0dfa89d Input: ads7846 - add short-hand for spi->dev in probe() function
+         937f5d5ec642501d2dd3c91918685de30a932b34 Input: ads7846 - remove custom filter handling functions from pdata
+         845ef3a7ce5773638a8c5e9a6e7be6538c107ae1 Input: ads7846 - switch to devm initialization
+         
+  - ref: refs/heads/next
+    old: daf87bffd02e35387a62c77eb32337c934cf631a
+    new: 845ef3a7ce5773638a8c5e9a6e7be6538c107ae1
+    log: |
+         de609b56b8322be0cd242ae364dc49bad0dfa89d Input: ads7846 - add short-hand for spi->dev in probe() function
+         937f5d5ec642501d2dd3c91918685de30a932b34 Input: ads7846 - remove custom filter handling functions from pdata
+         845ef3a7ce5773638a8c5e9a6e7be6538c107ae1 Input: ads7846 - switch to devm initialization
          
