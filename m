@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 10 Sep 2021 09:17:23 -0000
-Message-Id: <163126544397.4860.7449562581020690880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 10 Sep 2021 09:20:26 -0000
+Message-Id: <163126562607.8616.15453331742793484463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: e011912651bdf72840d88e8a8de3716bbcc4be99
-    new: 20e100f52730cd0db609e559799c1712b5f27582
+  - ref: refs/heads/for-kernelci
+    old: 2df18ee5e76e4a672268b974ba94206a7fc635ae
+    new: 108858f1545f8e35606d5bed9ee4d497bf2e47c3
     log: |
-         bfe84435090a6c85271b02a42b1d83fef9ff7cc7 ice: Correctly deal with PFs that do not support RDMA
-         e3f0cc1a945fcefec0c7c9d9dfd028a51daa1846 r6040: Restore MDIO clock frequency after MAC reset
-         dc41c4a98a76640e7085815f937eadd1f336ba85 net/packet: clarify source of pr_*() messages
-         20e100f52730cd0db609e559799c1712b5f27582 qed: Handle management FW error
+         13af700ae787c6f156f22c80b36701b78683c11d ARM: vfp: use smp_processor_id() consistently to get the CPU number
+         09d526a4e3757af3e92b17901f6d8843ff06daba ARM: suspend: preserve per-CPU offset register
+         3cf8ff2f4f51fdcf5c57dcaf876f086d6958ad1f ARM: Pass cpu number to secondary_start_kernel
+         e97709e1ab764cf2348098f6787319644f3cee47 ARM: smp: store current pointer in TPIDRURO register if available
+         8e687aae905ab54d9bd6e1190d2de33cdcb7d185 gcc-plugins: arm-ssp: prepare for THREAD_INFO_IN_TASK support
+         108858f1545f8e35606d5bed9ee4d497bf2e47c3 ARM: enable THREAD_INFO_IN_TASK
          
