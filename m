@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6865566068310546721=="
+Content-Type: multipart/mixed; boundary="===============5561393981173148708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Sep 2021 08:37:08 -0000
-Message-Id: <163126302807.27665.15031025714193299692@gitolite.kernel.org>
+Date: Fri, 10 Sep 2021 08:37:11 -0000
+Message-Id: <163126303183.27729.16582761746756674754@gitolite.kernel.org>
 
---===============6865566068310546721==
+--===============5561393981173148708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 4b93c544e90e2b28326182d31ee008eb80e02074
     new: bf9f243f23e6623f310ba03fbb14e10ec3a61290
     log: revlist-4b93c544e90e-bf9f243f23e6.txt
 
---===============6865566068310546721==
+--===============5561393981173148708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631263027 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631263030 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1631263026-24b79a38a089b41292db2f1723044d0bcd8bf336
+nonce 1631263030-316c08abdfc6ec8eb9cbcb81471e58dba2cc2436
 
-4b93c544e90e2b28326182d31ee008eb80e02074 bf9f243f23e6623f310ba03fbb14e10ec3a61290 refs/heads/driver-core-next
+4b93c544e90e2b28326182d31ee008eb80e02074 bf9f243f23e6623f310ba03fbb14e10ec3a61290 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE7GTMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Pf8P/iaznQJAejomfTwmdxce
-me60fvwj6+aspU7GCbluaXcDlTD2a7bUMpFCpceeJ/Wt6cGzh+LtchpX+BV96ZAP
-T4CvleB7Sai2YMRliIeaEOjOlgGJqSFheJJIaAO+tmvN17Hzz1JRo7iagv/JRVZZ
-RyqRTnc/zqSVqHsA8jMX9pKSP3uSSFhATUegXnOXm5ot56ZcugTZsO0DuDjd4ftC
-q90+cbM2vrqi54uVL67/LB5mT9MYaShl/zzL2Q4vTGbDNxMoOghZx3sgu6omRpjD
-vZkI2JXJrMPI77HE/UTdK4hsUXZkB68TwnrFmGrpopWOYNdvE2Ls22wjxIyhu27n
-pvPp2nNg8VmAfjYERVQKAlrbky7X7PnaDYgGuletHW7SN4ANw4Os4pAhIS5HmRju
-vyvgzCrjzpL6DKNQRnFpbFxrbpyY6f8BY9G4EKl9kSbS/rBWQUXzdekpetXmpra1
-mTckn2iZEdh+2YShlMj5XibccvMuE6qvW9e6kMxJX+M+ywjsXjNykF8wt8FMichj
-tNRKq+DSzYoaaxPvt1BLeiqRYMzxgGg1qfdRgox/57TTVQoqdhQdfWD05l7b0xCP
-iELUOxPS67nRhdkgdkNdpECC/hwACRd3VJatrqB2wAqR+32nvU87pv7+fb+KMZ1T
-6ar8BY13smOcH+cbJnOIJ13M
-=XLu+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE7GTYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hGEQAImh9a+b6e4d0vOSsQEx
+IPQvyU34TwCBmHYzOY3nPFBtetReod/X+3t8Ag3AN5stAz2rUlSAqJ+OSYEBik3z
+U5pNxIq3FXAvg7J0TqjLH87uxet/DTou0MMn6twJ/WgI3qM1mH+ZPHQ/MCx5iOh9
+8i9Hd0WB/n7MkSr22ZkYTjenwBwOidnZ9IuaLk8shNEV7Lgz/8BEqu71jT7Qi8bs
+6x4OpQ4Z7BMPWEfb/SsBpdok8s7zk9+pi2WcQwTUBHbwdzomWOqEI9uNXOzT+u+J
+vA1veWWrCA65xzfsZAYImfrGO/K/rPr1H+vDSoloWWIyvRKhHeLDdQI/TzYcbT/X
+6b3fVsz+azxYuYC7ns8DWXAFp/qNKu+3OCIPgFElAyBM7aTaNvc0ARgFp+OLfPcY
+8OoMuQiOmEJ6/vSaF7eNI2RzEzlJ6a6yVik9x040M7PLElPHYVKX/Qv1PbiofhoQ
+qce6Y5yBLxPYm9akGMTlvNkJ0PeZmmCD7MJbvLC44CTzQuyEmRLBXNkSVTQSa01z
+S4e/yWD5CCXcLte/Khnm1BfZLdZFDgyCv0C1RPaHpwsB+VzcPS+WvgxCPHHdUeNp
+in4UmHoscIZYmlQ8foeqCkV8MCM9WHFLEP/aczms+w60w0Ug4vOeSz3PoyLhdHVe
+1sW/X0mpojrFjTvr2CEtRIYL
+=N2wL
 -----END PGP SIGNATURE-----
 
---===============6865566068310546721==
+--===============5561393981173148708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ ae79394a628530372e3b0aae4cb9e6495186558c Merge tag 'sound-fix-5.15-rc1' of git:/
 8dde20867c443aedf6d64d8a494e8703d7ba53cb Merge tag 'for-5.15-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 bf9f243f23e6623f310ba03fbb14e10ec3a61290 Merge tag '5.15-rc-ksmbd-part2' of git://git.samba.org/ksmbd
 
---===============6865566068310546721==--
+--===============5561393981173148708==--
