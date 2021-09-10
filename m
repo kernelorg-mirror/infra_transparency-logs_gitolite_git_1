@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2204812146208360018=="
+Content-Type: multipart/mixed; boundary="===============4067313638728153834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Fri, 10 Sep 2021 20:07:35 -0000
-Message-Id: <163130445593.10357.188468780655261588@gitolite.kernel.org>
+Date: Fri, 10 Sep 2021 20:07:48 -0000
+Message-Id: <163130446898.10544.4151957309831931363@gitolite.kernel.org>
 
---===============2204812146208360018==
+--===============4067313638728153834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 89006ede71f146004240978621dda9a6753992d9
-    new: 2613bae14352346cabcd66688366ebfaff959aa5
-    log: |
-         2613bae14352346cabcd66688366ebfaff959aa5 Add patatt install-hook subcommand
-         
+  - ref: refs/tags/v0.4.7
+    old: 0000000000000000000000000000000000000000
+    new: cbc48732e54f644dc19175746147e48502118c2b
 
---===============2204812146208360018==
+--===============4067313638728153834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1631304455 -0400
+pusher B6C41CE35664996C! 1631304468 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1631304455-a5954e04c2f56a78fe13fb4169cb0d1133bac85a
+nonce 1631304468-e7ef57c44d799df3be85fab726d3e16e86b3e9db
 
-89006ede71f146004240978621dda9a6753992d9 2613bae14352346cabcd66688366ebfaff959aa5 refs/heads/main
+0000000000000000000000000000000000000000 cbc48732e54f644dc19175746147e48502118c2b refs/tags/v0.4.7
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYTu7BwAKCRC2xBzjVmSZ
-bKuPAP92tMC6/ra8/fh/56oxy8BgJwupWxUot5ahRrg1lqUdYgD7BFP/P2RIrEKw
-Kqa5ynpHqCb6rMOrQJ90c6ZFFLhCggU=
-=SMab
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYTu7FAAKCRC2xBzjVmSZ
+bPS4AP9e6UWgWFw2s8M+2SjwIrsaabdi5HaPKX8gq9DQIZE+EQD+N4TiftzOUfgj
+Wk5d9vEg/Xkyq8LzUc4huoVhkpwsLQw=
+=N0gP
 -----END PGP SIGNATURE-----
 
---===============2204812146208360018==--
+--===============4067313638728153834==--
