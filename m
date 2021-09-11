@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 11 Sep 2021 09:20:01 -0000
-Message-Id: <163135200139.25348.18253534599614455171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sat, 11 Sep 2021 10:32:04 -0000
+Message-Id: <163135632414.7719.16089549558735374673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: 666eb96d85dcbc93aacc186a037db2e05b92b9f5
-    new: 08dad2f4d541fcfe5e7bfda72cc6314bbfd2802f
+  - ref: refs/heads/dev
+    old: c5d4345ca72a71bc1e06dc6175d8e274b87ee686
+    new: 2f4705f231bbadde10bdca7cae8c2dd090c7f50d
     log: |
-         08dad2f4d541fcfe5e7bfda72cc6314bbfd2802f net: stmmac: allow CSR clock of 300MHz
+         aff2873d5f9cbcd35f3c926828ab3b333590765b f2fs: introduce excess_dirty_threshold()
+         e2d7965b364748baff998d9fab7eecd04d245ad3 f2fs: quota: fix potential deadlock
+         ce65bee628c3d71ef3ac2246ecea5cf99abe21ea f2fs: avoid attaching SB_ACTIVE flag during mount
+         b8911f7f2e2935cf20111bd00a14343b2f30dac9 f2fs: reduce expensive checkpoint trigger frequency
+         0ad5bc168cfc0f60e6054daca2208c8505d6b074 f2fs: fix to keep isolation of atomic write
+         2f4705f231bbadde10bdca7cae8c2dd090c7f50d f2fs: introduce fragment allocation mode mount option
          
