@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 11 Sep 2021 21:41:17 -0000
-Message-Id: <163139647739.18757.12988451658328491397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 11 Sep 2021 23:43:15 -0000
+Message-Id: <163140379588.30435.682333092610858406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/hack/m1-pcie-v3
-    old: 77dac52189f316f46a5d21c0d69c216fd04bc2a0
-    new: 6a706327cdee5d77d2cfed2232ce1b81b655914d
-    log: |
-         6a706327cdee5d77d2cfed2232ce1b81b655914d Track device addition
-         
+  - ref: refs/tags/perf-tools-for-v5.15-2021-09-11
+    old: 0000000000000000000000000000000000000000
+    new: 648492910702c26f71a10d8231276a7084f1578c
