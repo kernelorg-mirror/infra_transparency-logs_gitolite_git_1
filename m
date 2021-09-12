@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 12 Sep 2021 03:11:12 -0000
-Message-Id: <163141627297.31936.17805744117022747140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Sun, 12 Sep 2021 05:26:58 -0000
+Message-Id: <163142441811.21379.15935463773550436885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: a0e8267e3c903da5a1463fb7b6322c8b558e2e0b
-    new: 3251594f4fb63c9d9764a15bc865c777cf2604aa
+  - ref: refs/heads/habanalabs-next
+    old: b13b4fd8710cbc6f0c9006d21a789aaf36ff0a08
+    new: e5828bbbd23dc2a77f092064b1b195160c0b283a
     log: |
-         3251594f4fb63c9d9764a15bc865c777cf2604aa Sun 12 Sep 2021 03:10:27 AM UTC
+         20c4681673a2ab093cf277301eead673d5b171fe habanalabs: add debugfs node for configuring CS timeout
+         e5828bbbd23dc2a77f092064b1b195160c0b283a habanalabs: create static map of f/w hwmon enums
          
