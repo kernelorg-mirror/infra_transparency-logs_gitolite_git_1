@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 12 Sep 2021 19:24:21 -0000
-Message-Id: <163147466147.4445.18267434007288023120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 12 Sep 2021 19:33:47 -0000
+Message-Id: <163147522790.10209.11788891748071375936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 3251594f4fb63c9d9764a15bc865c777cf2604aa
-    new: 197239403110f3ec396f1556444a4ad21026ae04
-    log: |
-         197239403110f3ec396f1556444a4ad21026ae04 Sun 12 Sep 2021 07:23:45 PM UTC
-         
+  - ref: refs/tags/smp-urgent-2021-09-12
+    old: 0000000000000000000000000000000000000000
+    new: f76e073fc127edb27e3711a230a14f3e1df8d679
