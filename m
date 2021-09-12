@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Sun, 12 Sep 2021 20:37:31 -0000
-Message-Id: <163147905151.18277.8719355639301023912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sun, 12 Sep 2021 20:44:24 -0000
+Message-Id: <163147946432.21911.9732466950611609207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/next
-    old: 7a15e1a0bdcc8d2a05729672c6beca27a1f3ea74
-    new: ecfb7302cfe68354ce72762a5cd65e6497929949
+  - ref: refs/heads/arm32-ti-in-task-v4
+    old: 93cf46e56e4b898a98c156e5e0eb3233b4beea59
+    new: 277c1386d8f990fd2dbfb5e500e026219782ce05
     log: |
-         ecfb7302cfe68354ce72762a5cd65e6497929949 netlink: settings: add netlink support for coalesce cqe mode parameter
+         277c1386d8f990fd2dbfb5e500e026219782ce05 ARM: enable THREAD_INFO_IN_TASK
          
