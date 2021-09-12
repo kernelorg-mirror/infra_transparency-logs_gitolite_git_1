@@ -1,44 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============2850352045904678933=="
+Content-Type: multipart/mixed; boundary="===============5026121705659980517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 12 Sep 2021 21:43:16 -0000
-Message-Id: <163148299630.18799.18411140300518161427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Sun, 12 Sep 2021 21:44:32 -0000
+Message-Id: <163148307209.19253.9866955585226874339@gitolite.kernel.org>
 
---===============2850352045904678933==
+--===============5026121705659980517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/hack/m1-pcie-v3-WIP
-    old: c3fbf4512b71f556e9b832783698c829d730065f
-    new: 18394f84c6bbd37bb939686eff92d0c8fb0bbd3f
-    log: revlist-c3fbf4512b71-18394f84c6bb.txt
+  - ref: refs/heads/linux-4.19.y-cip
+    old: ad19e133aebcec558066ea338f896ec0b7338254
+    new: 425e38cc5d37221e1e058adba114721516ac16d1
+    log: revlist-ad19e133aebc-425e38cc5d37.txt
 
---===============2850352045904678933==
+--===============5026121705659980517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3fbf4512b71-18394f84c6bb.txt
+Content-Disposition: attachment; filename=revlist-ad19e133aebc-425e38cc5d37.txt
 
-9aa82413537808171804971930e649e2e7055d13 fixup! arm64: apple: Add PCIe node
-84e61b730dd57712a685f502bd631a46342d2ed3 arm64: apple: Add pinctrl nodes
-cb1f220ecd9d67ce9c0913a3da3e48a557004b17 fixup! arm64: apple: Add pinctrl nodes
-2399174ba48a89dacb4416b3ee2d744795cdc3a3 apple: dts: Add PCIe DARTs
-7752006e543a6e25c62e27d4d5e55a10e13b6062 irqdomain: Make of_phandle_args_to_fwspec generally available
-89bca185fca798ef5d125c5bfe0e83e1cc40287b of/irq: Allow matching of an interrupt-map local to an interrupt controller
-f9d5fc765b83c9f76fb345809a8a6889a63273b2 PCI: of: Allow matching of an interrupt-map local to a pci device
-7c1c2e156d5512783500bbd2e53b39f74ae8a9d3 PCI: apple: Add initial hardware bring-up
-a10d4ce0d0896ad3f0291dde78fef3724e58cf57 PCI: apple: Set up reference clocks when probing
-047f83f3b1ea8f1e62a4149e282a2b5ee886ec5a PCI: apple: Add INTx and per-port interrupt support
-f5636ca7fbc19e784a3fefbecce72209c4b147a0 arm64: apple: t8103: Add root port interrupt routing
-7611fe9f5054fb166c23acbb75cca7808342a567 PCI: apple: Implement MSI support
-088a909fb486ff09f0ac019ea373e4f865a3b297 iommu/dart: Exclude MSI doorbell from PCIe device IOVA range
-18394f84c6bbd37bb939686eff92d0c8fb0bbd3f PCI: apple: Configure RID to SID mapper on device addition
+ce7d8be2eaa4cab3032e256d154d1c33843d2367 net: qrtr: fix another OOB Read in qrtr_endpoint_post
+c348d806ed1d3075af52345344243824d72c4945 bpf: Do not use ax register in interpreter on div/mod
+8313432df224d926590731ec3ace3e1bd7bc4a1a bpf: Fix 32 bit src register truncation on div/mod
+39f74b7c81cca139c05757d9c8f9d1e35fbbf56b bpf: Fix truncation handling for mod32 dst reg wrt zero
+7027119349fe919c39a3f75de1f8d77fe6cb1a98 ARC: Fix CONFIG_STACKDEPOT
+dafc95a1e473a0b857af34ecbb17b8b1c90edd75 netfilter: conntrack: collect all entries in one cycle
+7014a0479d4213b8e6466c4a54c04fddd79155a0 once: Fix panic when module unload
+e5cc2285c6e7969d62e2bf1173ee8e1d4854a41b can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters
+56c653382239adab6a1b7d4a23ad2e3d5fe2885b Revert "USB: serial: ch341: fix character loss at high transfer rates"
+af1305414b85b432096c3b6559200c45749cb8fd USB: serial: option: add new VID/PID to support Fibocom FG150
+8fc75a3c1de74e892526a38477ae1bfd277d4b3d usb: dwc3: gadget: Fix dwc3_calc_trbs_left()
+c9d60dd3c147c49b3d8eba9aa53ac3b6c24bc161 usb: dwc3: gadget: Stop EP0 transfers during pullup disable
+c1cec00baa5cd00203094635fdb874426a46b952 IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs()
+aa3cb20d13acc8c314249199bb69ce6c69d8c9d0 e1000e: Fix the max snoop/no-snoop latency for 10M
+c33471daf2763c5aee2b7926202c74b75c365119 ip_gre: add validation for csum_start
+24d34768233fba8613064c93234774c5c97e0f50 xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()'
+3acf84b8daaf1a1225b8fd43687ca1e6675c647d net: marvell: fix MVNETA_TX_IN_PRGRS bit number
+3c2795525eb2540f10c0425329ef54b8c746170c net: hns3: fix get wrong pfc_en when query PFC configuration
+6a600523e323e58dadc6322e21270d4ba8757685 usb: gadget: u_audio: fix race condition on endpoint stop
+5da47bf1612fbf2ce350b38fdf13ce49e8805ecc opp: remove WARN when no valid OPPs remain
+ae5e7146b541116efe5a2afd079f9df529a95cd2 virtio: Improve vq->broken access to avoid any compiler optimization
+68208dc42dd906fe626224000d85e9513dbe5199 virtio_pci: Support surprise removal of virtio pci device
+691add905f329ffdf5940d7e1b9e00c8bc89a8b8 vringh: Use wiov->used to check for read/write desc order
+49d8b24e84a9b72c9a989c6d335f1bc1721b76c7 qed: qed ll2 race condition fixes
+e7f5aefd15d9d020065f6f076e2b6e054198317a qed: Fix null-pointer dereference in qed_rdma_create_qp()
+a78f93b9bba115e9c2a33529e28d4e12251e01e8 drm: Copy drm_wait_vblank to user before returning
+d386a4b54607cf6f76e23815c2c9a3abc1d66882 drm/nouveau/disp: power down unused DP links during init
+b36556947ad5a184e8567fec6b7df3a6ae4206fc net/rds: dma_map_sg is entitled to merge entries
+0776c1a20babb4ad0b7ce7f2f4e0806a97663187 vt_kdsetmode: extend console locking
+6be10fb6c143608a7c7ab3901a096e272233bf64 fbmem: add margin check to fb_check_caps()
+3db3ec8f3b414fa76d3a9ae864781ebbb1709a36 KVM: x86/mmu: Treat NX as used (not reserved) for all !TDP shadow MMUs
+61b224e29ec37cbf39111270f2c7143bfe222b20 Revert "floppy: reintroduce O_NDELAY fix"
+e9544276b3e60800a150f27fe5d031d133c77eea net: don't unconditionally copy_from_user a struct ifreq for socket ioctls
+b172b44fcb1771e083aad806fa96f3f60e2ddfac Linux 4.19.206
+4c64a1a4c5b72f19e479de8a66a97b15dda99cd0 Merge tag 'v4.19.206' into linux-4.19.y-cip
+425e38cc5d37221e1e058adba114721516ac16d1 CIP: Bump version suffix to -cip57 after merge from stable
 
---===============2850352045904678933==--
+--===============5026121705659980517==--
