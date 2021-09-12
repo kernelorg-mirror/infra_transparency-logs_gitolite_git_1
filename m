@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7793388833512426299=="
+Content-Type: multipart/mixed; boundary="===============7859876424345408272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 12 Sep 2021 07:42:07 -0000
-Message-Id: <163143252723.22287.686324625421089164@gitolite.kernel.org>
+Date: Sun, 12 Sep 2021 07:42:10 -0000
+Message-Id: <163143253097.22352.10395496285387902084@gitolite.kernel.org>
 
---===============7793388833512426299==
+--===============7859876424345408272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 926de8c4326c14fcf35f1de142019043597a4fac
     new: 78e709522d2c012cb0daad2e668506637bffb7c2
     log: revlist-926de8c4326c-78e709522d2c.txt
 
---===============7793388833512426299==
+--===============7859876424345408272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631432526 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631432530 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1631432525-2b55491dfbf2a76e54d452a5e2cb778b7088a23a
+nonce 1631432529-7295048ac52dd49f1f3ae7b188625a1630f25be2
 
-926de8c4326c14fcf35f1de142019043597a4fac 78e709522d2c012cb0daad2e668506637bffb7c2 refs/heads/driver-core-next
+926de8c4326c14fcf35f1de142019043597a4fac 78e709522d2c012cb0daad2e668506637bffb7c2 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE9r04bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a2sQAJe8LsC639KOY6WFaR2k
-CJm8ldkwp1e9CpIw9+K3p7Pw5ynizUMFu51HWbT9JERlcpc1xDsZdLxD2CQ2JsJN
-AmQZT2O7gHoQLVI3lYQ9e1D/1gxkakvZJLsmFqZpgxTzP7mUES8gwr8QIdfeLE7A
-VgLQkFmz08wKH1Zul7IlA+tbFN/rS6VERzbcOh4DRfXRNbu/0BLHtalitTCjdk8A
-zhY1E/9rhQd7fP39+MvypmOxh9IdzdT4MvzTevQdVuXOCrhhztOqIXmpBg07gkqL
-bT6SqaHwijCMacOsa+GrMb6rZgfv9wZdMi5rTOh22Yvnu3JugyyNrI/n9PYzM7gV
-tjTF5NZrNSmWlSzy8joSwr1r0lu6fsl9CLDUKrmf4I6ioqtTlQkdfNGrCYjcbRMj
-HjowMDnR/jBBaiIUmcht91P60XDqs7UjLbO5KiejtAj/olzF0cDcPFFO4Gc4h7vr
-x5f0/GlwkDxE/fzs+B9Huj1m6Fr8It0qgeVhJmtbx1HxUf7DK6vOOc20O0PIorlR
-xtC679k4ekEJrMuYfVFcWJiLzUO1aify4vBTDVoQEeRoYZQmyQOG+FaYBZU/KPVN
-s/7tlQ3Lz15yyk8pB0X0jVIQPpA3BfRWWWGnTlsqrBLbapcbi7B5HyPU4byx1Sxe
-DY9YeHkNa4IQQ+HreEp4mpXX
-=PMeF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE9r1IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VtwP/3CjEsM1Q+CFtMFUZn2g
+zzUCHFvKJrDYwLQKlFW7NckLW+Mszhhd1MPYNHERNf77KzXqmGc80ASo4fmRRyQN
+ufppvsXdAM2tu8aMkEF97DU7K9KzbHDg6gDwNo7uEh2hguOAgywg2qcNGfptBf2s
+Of/fbPyVzFd/n3Iv5xYrd+u6v2TAlouH0DjFiTZ4hsoJE5fzlH22+kvpm7IJ3rW2
+WbBUDNg1hhU6znllwh+f5iasD/R073TXXi0lYZGgXe+LS72AatZJL4RKi7oSc+xS
+0HE+2liXVYfjeu86wjskgn0X3ULmyqCgVJttQKq1D4W+FApk/5x6n1PqWBHI0Qi1
+BZtDDl3wJhmrMhHlNPZ5l4qzobOVXnTjNGEP7lc8WLO7urbSG2g4eJU194eaZqul
++y5MqqXKv75NA5Bsmr3QgDQ85RL/teP0DPnbhly6OU32F0IrgMo8iXZvUV5RmXP3
+FiFI6yZGMTzYMeLQTvs+/wFNxyfIUVRoxbAEyRqnercSAIOlWlnYoL7cyFdfvtrg
+qdf4ZR11BOhpWXmyGQ1DakdRAY7pQSMErkyjh5IO+T5TUyBpP69cX5VXZJTd/ftk
+QMLyOwTzybuUN+XgSEadHTPwdwiBMDS0rUi3uYdyd5uNG1CBcCqNwhnoKHPpzEgi
+m5+qky+Xf7yVLBQlXazhrmML
+=onkH
 -----END PGP SIGNATURE-----
 
---===============7793388833512426299==
+--===============7859876424345408272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -267,4 +267,4 @@ c605c39677b9842b0566013e0cf30bc13e90bdbc Merge tag 'io_uring-5.15-2021-09-11' of
 b79bd0d5102b4a3ea908018fda6b84a4c8fd6235 Merge tag 'riscv-for-linus-5.15-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 78e709522d2c012cb0daad2e668506637bffb7c2 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 
---===============7793388833512426299==--
+--===============7859876424345408272==--
