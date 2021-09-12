@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3129482781631412664=="
+Content-Type: multipart/mixed; boundary="===============9165671403524266798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 12 Sep 2021 12:54:22 -0000
-Message-Id: <163145126252.10228.8003848994840745437@gitolite.kernel.org>
+Date: Sun, 12 Sep 2021 12:57:02 -0000
+Message-Id: <163145142235.12513.15839698470956092860@gitolite.kernel.org>
 
---===============3129482781631412664==
+--===============9165671403524266798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 3de4843154c4ec1e5a3c13fdd9a2b42ad7ae6f43
-    new: 7a3e2f8430eb92d0371b20490858e2c20ee019e8
-    log: revlist-3de4843154c4-7a3e2f8430eb.txt
+  - ref: refs/heads/net-next
+    old: 6ece36c7a83a18cc6a36640939706c937e4bcee7
+    new: dce8fb164cfeb7db30d7b05705286b7d31312f49
+    log: revlist-6ece36c7a83a-dce8fb164cfe.txt
 
---===============3129482781631412664==
+--===============9165671403524266798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3de4843154c4-7a3e2f8430eb.txt
+Content-Disposition: attachment; filename=revlist-6ece36c7a83a-dce8fb164cfe.txt
 
+7bb1d369c6e802cd6c534161a0e8ec459d93d96c net/mlx4_en: Resolve bad operstate value
+9d7fc644a91dde5ac73a051bdd317b2399918d1f udp_tunnel: Fix udp_tunnel_nic work-queue type
+2aac4dd90fa0d5e2a10600d9a37a58e40a2c9fa0 net/mlx5e: Fix the presented RQ index in PTP stats
+0de3d4c91c5edc908d8d0ac420fa870e9de0a683 Merge branch 'patchq/426525' into mlx5-for-net
 2cf79443dbe51057cc8a21d41ac8f37d9d5dd461 net/mlx5: Support partial TTC rules
 8cfaf09a7bf530dc733359275c1c2d8928852517 net/mlx5: Introduce port selection namespace
 324a7479c9e3ae19f12c6cb4f3409b915a185249 net/mlx5: Add support to create match definer
@@ -59,5 +63,9 @@ aaf3fe81af0702e2bbe1a779898bca8bd7b5aa35 Merge branch 'patchq/421606' into mlx5-
 5e10a27cdffb5005858cd24f4efbff5b8b438640 Merge branch 'patchq/409055' into mlx5-queue
 d29bcf048c0dcea7883644f0e2bdcbf0ffa0592b Merge branch 'patchq/423917' into mlx5-queue
 7a3e2f8430eb92d0371b20490858e2c20ee019e8 Merge branch 'patchq/419320' into mlx5-queue
+d26ab59a0d99d54c4786ca794c3dd0289ce5a718 Merge branch 'mlx5-vdpa' into net-next
+89d64389053c9f7d3c729cc40121d17637393978 Merge branch 'mlx5-queue' into net-next
+e5c9f07c3e713975473b1c3866da7785e03a5a3a Merge branch 'mlx4-for-net' into net-next
+dce8fb164cfeb7db30d7b05705286b7d31312f49 Merge branch 'mlx5-for-net' into net-next
 
---===============3129482781631412664==--
+--===============9165671403524266798==--
