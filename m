@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 12 Sep 2021 20:01:18 -0000
-Message-Id: <163147687813.28497.11300570553384423143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Sun, 12 Sep 2021 20:37:31 -0000
+Message-Id: <163147905151.18277.8719355639301023912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/master
-    old: c8442a5b1ee53535b1fddad95fd119205dd80f8b
-    new: 50e03023c2eacf335f9abadf0286753d59368709
+  - ref: refs/heads/next
+    old: 7a15e1a0bdcc8d2a05729672c6beca27a1f3ea74
+    new: ecfb7302cfe68354ce72762a5cd65e6497929949
     log: |
-         50e03023c2eacf335f9abadf0286753d59368709 Sun 12 Sep 2021 08:00:45 PM UTC
+         ecfb7302cfe68354ce72762a5cd65e6497929949 netlink: settings: add netlink support for coalesce cqe mode parameter
          
