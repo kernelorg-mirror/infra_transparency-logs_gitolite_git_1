@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============9190982483123317817=="
+Content-Type: multipart/mixed; boundary="===============1539507072042631219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 13 Sep 2021 12:37:29 -0000
-Message-Id: <163153664929.6375.904415160902498347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Mon, 13 Sep 2021 12:39:26 -0000
+Message-Id: <163153676667.7061.7215973472087138426@gitolite.kernel.org>
 
---===============9190982483123317817==
+--===============1539507072042631219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/next-integrity
-    old: cb181da161963eddc9de0000de6ab2c7942be219
-    new: 836f7b6ca082b7031d2687b3493eefd104ddc060
-    log: revlist-cb181da16196-836f7b6ca082.txt
+  - ref: refs/heads/master
+    old: eaf2aaec0be4623b1d19f5c6ef770a78a91cf460
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-eaf2aaec0be4-6880fa6c5660.txt
 
---===============9190982483123317817==
+--===============1539507072042631219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb181da16196-836f7b6ca082.txt
+Content-Disposition: attachment; filename=revlist-eaf2aaec0be4-6880fa6c5660.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1049,6 +1050,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-836f7b6ca082b7031d2687b3493eefd104ddc060 ima: fix deadlock when traversing "ima_default_rules".
 
---===============9190982483123317817==--
+--===============1539507072042631219==--
