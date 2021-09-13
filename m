@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1275429611923011180=="
+Content-Type: multipart/mixed; boundary="===============5598153164734569670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 13 Sep 2021 07:38:23 -0000
-Message-Id: <163151870310.11341.11737235644611594161@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 07:38:25 -0000
+Message-Id: <163151870510.11411.13428803993144672049@gitolite.kernel.org>
 
---===============1275429611923011180==
+--===============5598153164734569670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,139 +16,153 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: f96eb53cbd76415edfba99c2cfa88567a885a428
-    new: eae66cc6ca852fe022b4d3bfb413596212c3c4e7
-    log: revlist-f96eb53cbd76-eae66cc6ca85.txt
+  - ref: refs/heads/linux-4.19.y
+    old: b172b44fcb1771e083aad806fa96f3f60e2ddfac
+    new: 73086242232454511c101e3686fbe09a4ff53f54
+    log: revlist-b172b44fcb17-730862422324.txt
 
---===============1275429611923011180==
+--===============5598153164734569670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631518701 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631518702 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1631518700-18cd51a5a1e30889d67ee9dc884865f74a9d4d09
+nonce 1631518702-3936d909db8af2c995da3e4c1e59a88116fe3e01
 
-f96eb53cbd76415edfba99c2cfa88567a885a428 eae66cc6ca852fe022b4d3bfb413596212c3c4e7 refs/heads/linux-4.14.y
+b172b44fcb1771e083aad806fa96f3f60e2ddfac 73086242232454511c101e3686fbe09a4ff53f54 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE+/+0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+230QAJ5PpF3QTweRzAeIqU1A
-jR6zDcxIm2q13goubyt4mWTCKQ6PR8HLjO1u0dS83i0UkqRm6YFJ2m5iz0NEjcXk
-5eTMzvfjbgUFoF/W69yHqlWa3tTmrM7YfxfIXv8b6005OuS05JDQy5Jh7TNsbB7O
-qWb3/YW+Mr138MXx6t0XCEc0tGUrrvqG5VT9S1dfMa0pOziDdJPCXMNqvwD7Cext
-yLn9efuhZXg2Rx9NFWVoFXiS+MopNim2TO1IHua6TpmfXN/Z2ymhdIHyR7+mZMjJ
-qoDtfYNn138F8QyMNMABdddAKpbQl/sNnHZQfEKq/LqD/pFNeaCHIFJFwoBNdhmR
-rVEcGvWoSu3fGFQ4p/2Vw772jB+eGPm7Z/YWbJP1yuq/nimM1+YZ9VhqBU071CEl
-xcG08KbWbHHX14Gri0KCfb2vKdJu7tes6vY4VidQZXsA/7/btklmVQxLOr6NmReJ
-+pH71orf+8idvBuEuk/MqWzzcH4TJEGRPVcymNX9dNuLLYR6MbwoM9KMyod2hIOI
-O2uzQcS9skHpIAv4kbLGTBX6NzzPA99G8UJGMAaFQt8187aCV5b0oPotTm+nnLf4
-zysZTB71yG7EA7t7hOWx/n54de2vEa78N12abaKJWVaEATx7vfXFgMV/5T4Lk3CX
-9/JUTdiAp78uASVDm6HQhXPp
-=j70w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE+/+4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9wIQAISZgIFaq84rijE9/UJb
+bmpQoroAI0nlWS1QVwjoelKDuRge81MinpeCk+lTzD2LKDxIHVICZNZUTNggxo5I
+6JycuCs0IXu9odeq8KijsvAESq1a8V2UXDNAN6IlNaEyEC0W89ktTAerHiH2WAa+
+ZVwDne0h6sOEpPRJI8SMdIzW+VzWtMyJxTw5+GePALz2YZqodfURqrht2vDCowWN
+68w1E7f27jIv2fQPnnHlufwYw759azWYDfbUvbeBjcM3RLCNFuZEcoi+59ct4v1G
+wodjKVbjK+N74V9PkJp+QVHiPYpFkaZ5K71MJ7SE0w++iKsm2HrZiSKWaWiA3CN0
+nXSb/a+mrMlIu8hkMxiUlswdV8uXnU0r6kSDRbjHRspSNSRy4HyMLt1IdkIhjzho
+EMgl0+DYUtU2N7vzJs25t9nk7EfbaJPLEzFPWmmkXnNV5S+svtaSj/YM/6WtnZnI
+p2N9fD3Qkx/n1E2BLnqEsIshhJgckEEtNiRpME8mZK+7T96qfg/UkHA8wH3wcl4B
+U1G6QDQo/Arx7c+ehkswl0U3zEhAy9I05JXvoO5vgeIn5A7XG+sjXdQJrGJpRwlH
+QrWN/7/xeIsiXJe0jc3uxRj67DWVGqokNq1sSohQ8R3cL2KwN8oAbJ28gASsLePf
+J2lFsROG33N6kwElLjAIHhXl
+=r3fU
 -----END PGP SIGNATURE-----
 
---===============1275429611923011180==
+--===============5598153164734569670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f96eb53cbd76-eae66cc6ca85.txt
+Content-Disposition: attachment; filename=revlist-b172b44fcb17-730862422324.txt
 
-a1c1d3fd4233dcda5a0c0f033e2ac16e7c9d52c2 ext4: fix race writing to an inline_data file while its xattrs are changing
-74d815d91f0c1bba99ca202eeb79c820f28ef97c xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
-c047ec1b7238482f188e3c483a9a78d85f401cd8 qed: Fix the VF msix vectors flow
-13e4aa14a422171f4b3c372fc6c68834c311ff3f net: macb: Add a NULL check on desc_ptp
-3745393eeafb0fa373546590c9bbaa5b470c209a qede: Fix memset corruption
-7fb98906a07cb621a85300a2c3785aae2284722d perf/x86/intel/pt: Fix mask of num_address_ranges
-3f1236e44e22cefdeac86663a4c2db96fe3912f0 perf/x86/amd/ibs: Work around erratum #1197
-7cc156c48753e83dd82143513ba54f82da3ceb12 cryptoloop: add a deprecation warning
-696eacaa665cbe109aee1a3ecb90dfdac2d7491e ARM: 8918/2: only build return_address() if needed
-77aaa5f60848abf75a3ca2708d8075edfa463786 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
-f233662c7dc7a1f08ad78a5c578075c6581fd42f clk: fix build warning for orphan_list
-8c7b1e8b17f1e30119dd6258f9f7e92e9d0979f4 media: stkwebcam: fix memory leak in stk_camera_probe
-cc2e3880c62604b30d5ae6363415cdfa1494119a igmp: Add ip_mc_list lock in ip_check_mc_rcu
-c1282b62c624cad698bef6dcab6d9a2c1ea7f05c USB: serial: mos7720: improve OOM-handling in read_mos_reg()
-971f88242d057a98323fb84cec58e04da34efcb2 f2fs: fix potential overflow
-77d976dedf265311a64a36fec8aabcb9266fdea7 ath10k: fix recent bandwidth conversion bug
-16d813192bf824581fd36cd09b1782faacc08081 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-ba8000d4966d67954583277edb5418fc33e46840 s390/disassembler: correct disassembly lines alignment
-114f146dfc506490ef8458ee9b46b66c7eaaf305 mm/kmemleak.c: make cond_resched() rate-limiting more efficient
-10528b5a646c7d0b9416bffebfadda5e8d7235a8 crypto: talitos - reduce max key size for SEC1
-136495357226416330d739d5eaa77e169ec7e5ed powerpc/module64: Fix comment in R_PPC64_ENTRY handling
-e8e1d96943194f608edff5c306801ff0051db571 powerpc/boot: Delete unneeded .globl _zimage_start
-1752431e39624dc17f0c7100d701b97c5a027e3a net: ll_temac: Remove left-over debug message
-a9574507912322b033b4412a78a9e8c0f5a12f13 mm/page_alloc: speed up the iteration of max_order
-0a867321e61ee2b2f324e714de386d5c42048c75 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
-46067229bb7d88fb179196a705e21f5bf7869713 usb: host: xhci-rcar: Don't reload firmware after the completion
-7c329f36b912f0beff8d8de84d3e3912c4bd243b x86/reboot: Limit Dell Optiplex 990 quirk to early BIOS versions
-51870d8f6ba4f23b2ce7ede1dca6ec19565ad3af PCI: Call Max Payload Size-related fixup quirks early
-f19aa674ff938f0cab8d1dfd8b187fcd5a052d88 regmap: fix the offset of register error log
-d3d71770cbc5bb20ddfe48d440ab9772712010ec crypto: mxs-dcp - Check for DMA mapping errors
-729878d6b0690bc0b2ea881d307e6de591976678 power: supply: axp288_fuel_gauge: Report register-address on readb / writeb errors
-0531f0f294daa587117ae09aed092a8e7ce08d1f crypto: omap-sham - clear dma flags only after omap_sham_update_dma_stop()
-36e007b631a80e7e5e364911b83692643c1c9542 posix-cpu-timers: Force next expiration recalc after itimer reset
-b0d9840e7cff02317a419ece8de821bf36c9d454 udf: Check LVID earlier
-59830e817ed7219a8c20e2bc29b6e238ed47ba7a isofs: joliet: Fix iocharset=utf8 mount option
-f987b09648088af2dd564663efbdc7c807f2ea78 nvme-rdma: don't update queue count when failing to set io queues
-f5f19c251b5d116d6679dc05d959dcef2b569eca power: supply: max17042_battery: fix typo in MAx17042_TOFF
-82b19e92ae6b50ba5bda0d12c36c308522247c3d s390/cio: add dev_busid sysfs entry for each subchannel
-91f65c9f210fb4aeb2f979d1e030b3b539685015 libata: fix ata_host_start()
-6329bbe6f95e25d919c7dfd82725085d6ba4643a crypto: qat - do not ignore errors from enable_vf2pf_comms()
-269c6fd24c23c2710a91f3f11908fe11b6d1bf80 crypto: qat - handle both source of interrupt in VF ISR
-406f22f74a9ec50de8ad1a89d0dcd76afda83d19 crypto: qat - fix reuse of completion variable
-89c0fa5a2d7e7767bbf41807146fa5804d5a1e7a crypto: qat - fix naming for init/shutdown VF to PF notifications
-65eb7e472138576d10920ab36368f51d8fe2dc44 crypto: qat - do not export adf_iov_putmsg()
-6932fc2997b6d413a33b44d78ed85b3a971d65d8 udf_get_extendedattr() had no boundary checks.
-ed550a96dc8bbf7912626b8d7f82df691c834508 m68k: emu: Fix invalid free in nfeth_cleanup()
-c5657cf4e0c2398f731a10ec11b6cf9da264e87a spi: spi-fsl-dspi: Fix issue with uninitialized dma_slave_config
-f1df6f2092705ff80cb8c9302244a63b51fe8748 spi: spi-pic32: Fix issue with uninitialized dma_slave_config
-503ad24fe6b8618e554ea890df3ab40ee86629ad clocksource/drivers/sh_cmt: Fix wrong setting if don't request IRQ for clock source channel
-088e674e9cdfaa9e696544db7bc8b92595b3bdef block: nbd: add sanity check for first_minor
-71169456b29864ece2b1cc3f1f0839c38395a529 crypto: qat - use proper type for vf_mask
-ce4dcc66059b3288ab47362c4023fcd42e4a0dc3 certs: Trigger creation of RSA module signing key if it's not an RSA key
-3a8453a81b983c61f6159fafd50e00199e8e2bc0 soc: rockchip: ROCKCHIP_GRF should not default to y, unconditionally
-3b6c51c27ab0cef73dcd40c14fe29880488e7bbd media: dvb-usb: fix uninit-value in dvb_usb_adapter_dvb_init
-893d8f9d01c49d78ea4d5488b2b4b9f2a748de35 media: dvb-usb: fix uninit-value in vp702x_read_mac_addr
-54e064e971b825830d79066500be9ef24eb3f429 media: go7007: remove redundant initialization
-76348f987aa182d8ee363e3eb34784857d5ff3d0 Bluetooth: sco: prevent information leak in sco_conn_defer_accept()
-b31d3ab93f215f41bab0ae1427b0c01ee031abf8 6lowpan: iphc: Fix an off-by-one check of array index
-b376e7f94c8ba086166abe120d1285301bba7482 tcp: seq_file: Avoid skipping sk during tcp_seek_last_pos
-f054def941bf3d2965e642f886f40d0ee8757440 net: cipso: fix warnings in netlbl_cipsov4_add_std
-258c2ec30ed680aae991c7cede54c5e4c4faad63 i2c: highlander: add IRQ check
-b3785f0709f5aa601046077d04ae2829e0aed49c media: em28xx-input: fix refcount bug in em28xx_usb_disconnect
-082a2c391608e96a77dc95f35c9a4dd08f7c620c PCI: PM: Avoid forcing PCI_D0 for wakeup reasons inconsistently
-7fc078d294ebef332f92ca0ad77d5048803d6413 PCI: PM: Enable PME if it can be signaled from D3cold
-cf865b9fa92e02f69ea5387313fee879f602222f soc: qcom: smsm: Fix missed interrupts if state changes while masked
-cebe06f2b23fa8910b38dc0d215fe6e33aba5ab9 Bluetooth: increase BTNAMSIZ to 21 chars to fix potential buffer overflow
-166211a61a44f6651fc9d5692c6c1277df03b465 arm64: dts: exynos: correct GIC CPU interfaces address range on Exynos7
-183c27dd30c0250d00762cf16aac2dda8d871f16 Bluetooth: fix repeated calls to sco_sock_kill
-de279365f11faac5a858974c7fb9fc4dc33dfe67 drm/msm/dsi: Fix some reference counted resource leaks
-b883473caaa60424b9a5d3b52cbd1639a15a1496 usb: gadget: udc: at91: add IRQ check
-8192e746ab55658194372f45bf8844f36827e633 usb: phy: fsl-usb: add IRQ check
-190867809f30d3615ad84af768d005fe13a79e91 usb: phy: twl6030: add IRQ checks
-878a6a484d4244804ea205da909b05bce773813e Bluetooth: Move shutdown callback before flushing tx and rx queue
-aa46ff8b3e98cc99f9c9690fc9b65b7bc7bfaa29 usb: host: ohci-tmio: add IRQ check
-5c168ac0eaac5090a2e776ed55a289a33f51756d usb: phy: tahvo: add IRQ check
-c051537fce0a53142cd3dc038e517592fcff3621 mac80211: Fix insufficient headroom issue for AMSDU
-a21e23340bb1bf639f9855d62a655000e0a1559f usb: gadget: mv_u3d: request_irq() after initializing UDC
-62f06b6c60a684e27567fd1e054fd8f34491e729 Bluetooth: add timeout sanity check to hci_inquiry
-84e0f675fcc65ab98542bf139b55c81931419977 i2c: iop3xx: fix deferred probing
-8d9566dea1ed84d6fbf310fc2ff40117601ba3d6 i2c: s3c2410: fix IRQ check
-0a2e350ca4f12c1f8ecc3f90bf89e0985b1cde8f mmc: dw_mmc: Fix issue with uninitialized dma_slave_config
-e6a1cbd1a78bcc10ff43df7a3aca061cb2b8ff15 mmc: moxart: Fix issue with uninitialized dma_slave_config
-241f370b23dec8f546cd28bbe587430942826b8e CIFS: Fix a potencially linear read overflow
-418efcfa3bb8df67ead476082b55ac3bd03ff263 i2c: mt65xx: fix IRQ check
-5d726a3f970835eb97b1e3770d7f8ec52a96f1a3 usb: ehci-orion: Handle errors of clk_prepare_enable() in probe
-e818f0b1c00f0751b77d19013594223f4b35fcdc usb: bdc: Fix an error handling path in 'bdc_probe()' when no suitable DMA config is available
-dfab5d236f25a54a818e61a4e406dbc3fc99b39c tty: serial: fsl_lpuart: fix the wrong mapbase value
-5c446455d7b1ec45bf41948c2885d50c4b67a07c ath6kl: wmi: fix an error code in ath6kl_wmi_sync_point()
-216f9b347de059acdd588700268499f981cbb0e0 bcma: Fix memory leak for internally-handled cores
-bed0b89cd509d8d63fdba2cc84ab59c87a53570f ipv4: make exception cache less predictible
-7f9cacff58b877b46ab609dd5f1da30871092ea0 net: sched: Fix qdisc_rate_table refcount leak when get tcf_block failed
-6cc30ec7414734889ba5dcd5495aa24acb140d76 net: qualcomm: fix QCA7000 checksum handling
-eae66cc6ca852fe022b4d3bfb413596212c3c4e7 Linux 4.14.247-rc1
+4ce08bbc65f4a498b10d487c8a8e8d80df1dbf94 ext4: fix race writing to an inline_data file while its xattrs are changing
+84e2b223837ecdee32389fdb8611a56104761319 xtensa: fix kconfig unmet dependency warning for HAVE_FUTEX_CMPXCHG
+aa19477396067d60ea357bdd4622b01ae43b299a gpu: ipu-v3: Fix i.MX IPU-v3 offset calculations for (semi)planar U/V formats
+694cb2f811c9203e13d6a989fbf24d4ff4c86754 qed: Fix the VF msix vectors flow
+ed3518f25172b518389dede941046e518a23b7e6 net: macb: Add a NULL check on desc_ptp
+fdb5c25734155475267adc1917682f48cf6715c1 qede: Fix memset corruption
+bd6872e84b2450d688034c3a8126bac40ca44985 perf/x86/intel/pt: Fix mask of num_address_ranges
+cbc7cd8e1405f59c22acd2389c3392c07b68ae5e perf/x86/amd/ibs: Work around erratum #1197
+82402321fc67b544a0373637e21ef9a73ee4cc62 cryptoloop: add a deprecation warning
+4e9f91f194478bf33158268e8d89f363e4e6b3bd ARM: 8918/2: only build return_address() if needed
+80f0f939f2a9ba275751656e2c1f6be4a572f3d6 ALSA: pcm: fix divide error in snd_pcm_lib_ioctl
+e8edb35986f05f33549c8a6cb99799bba8ad5b1d clk: fix build warning for orphan_list
+6ab027462cd8a141b918b0377a321f8f9f03d2f7 media: stkwebcam: fix memory leak in stk_camera_probe
+442a3700dc2d669d05b756dca834eb5397c6bb8d ARM: imx: add missing clk_disable_unprepare()
+23cf184f3c4e6caa5bc162df39be4449e4501be7 ARM: imx: fix missing 3rd argument in macro imx_mmdc_perf_init
+0075b094b1a9b578dda94f72b589604cf9068602 igmp: Add ip_mc_list lock in ip_check_mc_rcu
+6e075246b06d2c4bca4fb5085235047bc4f9e5a9 USB: serial: mos7720: improve OOM-handling in read_mos_reg()
+56c3dcdfb095de756c6508cf8341272449ba5c24 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
+bf5e6ef3531e694b065a002bf7a8e960dbe7d0ad SUNRPC/nfs: Fix return value for nfs4_callback_compound()
+bd1d1e90c21671008d07755b954b5507a0fac547 crypto: talitos - reduce max key size for SEC1
+d23e4ee04181d2fa4ea5a014f885f50cb1b6e21c powerpc/module64: Fix comment in R_PPC64_ENTRY handling
+66be7a4fa33448e767cf703c311c2d7cc016d519 powerpc/boot: Delete unneeded .globl _zimage_start
+1a1079534c7be2781848503015a52d13c1b00dd4 net: ll_temac: Remove left-over debug message
+66b518b453a862ebd7ff8c046624d8ed8f9ee144 mm/page_alloc: speed up the iteration of max_order
+81760d09646698bf4504cb42cf43d0b172c1b206 Revert "btrfs: compression: don't try to compress if we don't have enough pages"
+536948683ba38035b67d6bbb9db6ede8834957df ALSA: usb-audio: Add registration quirk for JBL Quantum 800
+367e1962316fc51ff90bb003f5712f0722261868 usb: host: xhci-rcar: Don't reload firmware after the completion
+d2972e4c4a3699475e32038fc7a8c64259f4bce2 usb: mtu3: use @mult for HS isoc or intr
+c42af70e86af6b911048f6460db024e3b1e439b6 usb: mtu3: fix the wrong HS mult value
+1ac3e1e2f9fbb3a2d2daf1f6ec69061c6b6ec7aa x86/reboot: Limit Dell Optiplex 990 quirk to early BIOS versions
+9142fef615acaee83bd367234e802c4a03f1087a PCI: Call Max Payload Size-related fixup quirks early
+adb64663f0324f6b7fb957dda1ede959e60e79c3 locking/mutex: Fix HANDOFF condition
+0c1f22e6f6362369e00d491c7db27d216be797dc regmap: fix the offset of register error log
+3252e28f08fca96b89ca90c26a593b2ffc27e46c crypto: mxs-dcp - Check for DMA mapping errors
+e8f61572a8d6ce47d0e8b811c44a0ddb331f9a45 sched/deadline: Fix reset_on_fork reporting of DL tasks
+6f22b8997b13331c617ed4b66bebb36218002f57 power: supply: axp288_fuel_gauge: Report register-address on readb / writeb errors
+9b34dcbd8ce2a2c2303dbfeab95d1b7bc99d1c31 crypto: omap-sham - clear dma flags only after omap_sham_update_dma_stop()
+657b5e745b1d4d4c863425fa6953cb7d7522f694 sched/deadline: Fix missing clock update in migrate_task_rq_dl()
+3d619f11699d650da20bb1630d4ebea5355981f7 posix-cpu-timers: Force next expiration recalc after itimer reset
+c440d9369a14570393ae5ea28ec48105dfc77cd6 hrtimer: Avoid double reprogramming in __hrtimer_start_range_ns()
+ec218314e71a4f619d56f0869958c7cc43da7b69 udf: Check LVID earlier
+74816cef48475e5de2446d0e6f4b3dd5a4a8702a isofs: joliet: Fix iocharset=utf8 mount option
+0033ca0c74a3b6b424fe69e7834cedf4eb5e5c91 bcache: add proper error unwinding in bcache_device_init
+453393dcec2e9373efbc472985c21aaa9425cba9 nvme-rdma: don't update queue count when failing to set io queues
+8bb9ab700ebbac5b64f4c65f426224481ad51c28 power: supply: max17042_battery: fix typo in MAx17042_TOFF
+18139e568e14415bd02afe79b3a32cf591abd708 s390/cio: add dev_busid sysfs entry for each subchannel
+01c196a66b0eb4577c7f6970b62402cba2d58c40 libata: fix ata_host_start()
+d0b242f6a22c49fc5992f0d79a4d173622b5fc31 crypto: qat - do not ignore errors from enable_vf2pf_comms()
+75b6b7da7e38d7f60755db2275086fa00b1dec1d crypto: qat - handle both source of interrupt in VF ISR
+19d540b902a7140ec69da5a05d03973ad859a5a7 crypto: qat - fix reuse of completion variable
+27f67633bdb5e7b4a58933b4571c3b61938bd6f1 crypto: qat - fix naming for init/shutdown VF to PF notifications
+3a4a7432e3e5b237ec4bd9fc51d50305ebe60a07 crypto: qat - do not export adf_iov_putmsg()
+f6aff8a228089f27787c5d4538f5f2992e574e58 fcntl: fix potential deadlock for &fasync_struct.fa_lock
+4ff8d61ab24061a3d72cb0c6757aac3c882c934f udf_get_extendedattr() had no boundary checks.
+82f65bf371337e85bd0db30712544c1c7e8a7df8 m68k: emu: Fix invalid free in nfeth_cleanup()
+ed083409b8cccb3024ee1c5e00f2a5b7ac62d211 spi: spi-fsl-dspi: Fix issue with uninitialized dma_slave_config
+029d9660fe7aa930c83119f1366aa05ede5dc3d2 spi: spi-pic32: Fix issue with uninitialized dma_slave_config
+e273bfdf1a5d141871969c14f5941511e6f5d742 lib/mpi: use kcalloc in mpi_resize
+a964407a6b73ddbb7fab9ce4d777de4d8e1e64e7 clocksource/drivers/sh_cmt: Fix wrong setting if don't request IRQ for clock source channel
+01a00c6b969c0e19c12c1c5717b1e24734671f93 block: nbd: add sanity check for first_minor
+ab510005890d0dca9766add5f5d5e727844fe556 crypto: qat - use proper type for vf_mask
+bb583f5d760c50dc5466853db2c718908848ec97 certs: Trigger creation of RSA module signing key if it's not an RSA key
+eade69b632c0c5e54b036df9aae07ffdeb0a29ec spi: sprd: Fix the wrong WDG_LOAD_VAL
+f8dd6f4c8c12fb60d11035bded5791dfbf77f9d4 media: TDA1997x: enable EDID support
+0b0f961bbccd44f7a32cfe5f4fc18adbb7ebb90d soc: rockchip: ROCKCHIP_GRF should not default to y, unconditionally
+834ced10c5cf2cf1ade66c484f7ee36d8129ff68 media: dvb-usb: fix uninit-value in dvb_usb_adapter_dvb_init
+55de7babb4fa84df16ca7037a75e75b6a2614628 media: dvb-usb: fix uninit-value in vp702x_read_mac_addr
+600c223c5ec7e96f47b586ecc3bb025e74252578 media: go7007: remove redundant initialization
+b0de02047e2699ff0d2ed6782753fee8a82d1228 Bluetooth: sco: prevent information leak in sco_conn_defer_accept()
+8e455fe2b2902bef1c76685dd2b8e44d1db19139 tcp: seq_file: Avoid skipping sk during tcp_seek_last_pos
+27f19e3d80e63c4b738c58156cb5110c337caa33 net: cipso: fix warnings in netlbl_cipsov4_add_std
+557afae44fc6f2a74ea6847e5d11114865a8a13c i2c: highlander: add IRQ check
+bba08bf6dab0070409acb74bba0da21583f462c6 media: em28xx-input: fix refcount bug in em28xx_usb_disconnect
+47284c2918c644caa112b0d7cb3540cea0ccdcbd media: venus: venc: Fix potential null pointer dereference on pointer fmt
+8f020cf78fe6c875dbc6eb4ea4c89cf336664e01 PCI: PM: Avoid forcing PCI_D0 for wakeup reasons inconsistently
+32757da7c6c57d7a829d154c9f15f3bb9c79b8ed PCI: PM: Enable PME if it can be signaled from D3cold
+2556affdcbf3775d63aff9fa42793de7762a734e soc: qcom: smsm: Fix missed interrupts if state changes while masked
+45f0ec5dae9c83cafdb572c63bd4e9a12f4e0444 Bluetooth: increase BTNAMSIZ to 21 chars to fix potential buffer overflow
+589653a5c7ddf98e0e06e0547803e9fa8b5db914 drm/msm/dpu: make dpu_hw_ctl_clear_all_blendstages clear necessary LMs
+eb3908f179817cf2635d3889746d61fd2a457c4f arm64: dts: exynos: correct GIC CPU interfaces address range on Exynos7
+4539921d30930430a6910558290a63ef3004ca8b Bluetooth: fix repeated calls to sco_sock_kill
+2130a3b19de962a636a1dd0d8b9d190f4924c725 drm/msm/dsi: Fix some reference counted resource leaks
+d93f33104f9199dc42654d588e4cb9d92d7e0ecf usb: gadget: udc: at91: add IRQ check
+45ef22afed70e33ddcdae018022a4667fed1f335 usb: phy: fsl-usb: add IRQ check
+b724ed7768cb3b6995c56c931fe153f004e2df26 usb: phy: twl6030: add IRQ checks
+6645250912cefcfb647a0ac9bac1b02c9174550f Bluetooth: Move shutdown callback before flushing tx and rx queue
+9a18bef13dedca1c19ccf7042a2c87ef15847407 usb: host: ohci-tmio: add IRQ check
+0096e24dae759ad789a1a56c6d5f84a8c15f98f9 usb: phy: tahvo: add IRQ check
+f74e562995f02487d13d89b43ad706ddbc86a02f mac80211: Fix insufficient headroom issue for AMSDU
+f6d8046cac6bfa6b0deb459e1cc13e4b5726f5da usb: gadget: mv_u3d: request_irq() after initializing UDC
+20ca18c3875b8e6d545605e28b9a0412dcefe676 Bluetooth: add timeout sanity check to hci_inquiry
+d47dbe31c5c039eb3696c3a8aac79857390aef14 i2c: iop3xx: fix deferred probing
+d85c133dc016326c482020b8dc93d300768fd278 i2c: s3c2410: fix IRQ check
+202dcbd554249ac9b618f22827e69f3d14201ee1 mmc: dw_mmc: Fix issue with uninitialized dma_slave_config
+2b44f782048059f2a5c126a7cbdd28a32c152c7c mmc: moxart: Fix issue with uninitialized dma_slave_config
+e6448b69b084f757e65791001190b13706af5aa1 CIFS: Fix a potencially linear read overflow
+e71e21e70ba58bb6ee5d697f052d2fbaa9cab11f i2c: mt65xx: fix IRQ check
+3930d37c9f4e891e8e3974b17b449f416b6b5bad usb: ehci-orion: Handle errors of clk_prepare_enable() in probe
+a9b5cd3490f0df465efe7e04e5e0b4cecf69eec8 usb: bdc: Fix an error handling path in 'bdc_probe()' when no suitable DMA config is available
+608caeb1ced25091a976398baef4e54bff83012c tty: serial: fsl_lpuart: fix the wrong mapbase value
+f4a5198087246f4e3ce338a7b42c9e9a430e5895 ath6kl: wmi: fix an error code in ath6kl_wmi_sync_point()
+0138f10995576cbd0f24d1d14bfca74d5c4919ea bcma: Fix memory leak for internally-handled cores
+f8906e32fcb4e3f4d7e15e01d157d739dfd63aba ipv4: make exception cache less predictible
+93f4e66ff65a71e4aca8068b2d74403d441d0bcd net: sched: Fix qdisc_rate_table refcount leak when get tcf_block failed
+2ca641de7fc49c7aaff7d156addbab9dc026434e net: qualcomm: fix QCA7000 checksum handling
+5e82b5d4fd2ea6df2091f5b28ed6b8952c7b21d4 ipv4: fix endianness issue in inet_rtm_getroute_build_skb()
+73086242232454511c101e3686fbe09a4ff53f54 Linux 4.19.207-rc1
 
---===============1275429611923011180==--
+--===============5598153164734569670==--
