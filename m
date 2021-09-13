@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 13 Sep 2021 18:16:38 -0000
-Message-Id: <163155699874.9937.12251283911929775310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 13 Sep 2021 18:23:09 -0000
+Message-Id: <163155738900.14787.4107117717936517017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: dd2c898bc20bdb46ec59eefafc8fdd86a93b6b8c
-    new: 53182e81f47d4ea0c727c49ad23cb782173ab849
+  - ref: refs/heads/next/libgpiod-2.0
+    old: 58f4218d0e34a15b74aefcf88fac3bc03c32e486
+    new: 9c5c7808fb6e0ffc63e69bd4c2208a199df762aa
     log: |
-         53182e81f47d4ea0c727c49ad23cb782173ab849 kbuild: Enable DT schema checks for %.dtb targets
+         9c5c7808fb6e0ffc63e69bd4c2208a199df762aa WIP: core: implement v2.0 API
          
