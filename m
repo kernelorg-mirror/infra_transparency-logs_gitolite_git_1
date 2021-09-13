@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6707686612383205191=="
+Content-Type: multipart/mixed; boundary="===============4822449465693656730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 13 Sep 2021 12:16:53 -0000
-Message-Id: <163153541390.23251.17170207466112892841@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 12:18:28 -0000
+Message-Id: <163153550860.23994.14003634536155762373@gitolite.kernel.org>
 
---===============6707686612383205191==
+--===============4822449465693656730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/fixes
-    old: 567c39047dbee341244fe3bf79fea24ee0897ff9
+  - ref: refs/heads/kunit
+    old: acd8e8407b8fcc3229d6d8558cac338bea801aed
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-567c39047dbe-6880fa6c5660.txt
+    log: revlist-acd8e8407b8f-6880fa6c5660.txt
 
---===============6707686612383205191==
+--===============4822449465693656730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-567c39047dbe-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-acd8e8407b8f-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============6707686612383205191==--
+--===============4822449465693656730==--
