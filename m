@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3893405410811691176=="
+Content-Type: multipart/mixed; boundary="===============6576271588235158637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 13 Sep 2021 23:42:14 -0000
-Message-Id: <163157653498.28834.3908540884842025190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 13 Sep 2021 23:42:20 -0000
+Message-Id: <163157654025.28904.13679072030042691350@gitolite.kernel.org>
 
---===============3893405410811691176==
+--===============6576271588235158637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 752c30df9b8984ba69710e910b45da9121c2b9a5
-    new: eab30bedb3f0df6a69b2d8ab07c0615185348902
-    log: revlist-752c30df9b89-eab30bedb3f0.txt
+  - ref: refs/heads/queue-rc
+    old: 0696efbf7d239b4049ae2047a1dcf93a32a2e54e
+    new: 2c1302203d32578978829bb2bd581294bfb3d5a7
+    log: revlist-0696efbf7d23-2c1302203d32.txt
 
---===============3893405410811691176==
+--===============6576271588235158637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-752c30df9b89-eab30bedb3f0.txt
+Content-Disposition: attachment; filename=revlist-0696efbf7d23-2c1302203d32.txt
 
 bfe84435090a6c85271b02a42b1d83fef9ff7cc7 ice: Correctly deal with PFs that do not support RDMA
 e3f0cc1a945fcefec0c7c9d9dfd028a51daa1846 r6040: Restore MDIO clock frequency after MAC reset
@@ -48,5 +48,6 @@ e87b5052271e39d62337ade531992b7e5d8c2cfa ipv6: delay fib6_sernum increase in fib
 45fd8e19a288224e3250e69e49f62a45db69fbba net/mlx5e: Fix the presented RQ index in PTP stats
 5b9d15395b57f5c42cf66a0fd3566d949dd012bd Merge branch 'mlx4-for-net' into net-rc
 eab30bedb3f0df6a69b2d8ab07c0615185348902 Merge branch 'mlx5-for-net' into net-rc
+2c1302203d32578978829bb2bd581294bfb3d5a7 Merge branch 'net-rc' into queue-rc
 
---===============3893405410811691176==--
+--===============6576271588235158637==--
