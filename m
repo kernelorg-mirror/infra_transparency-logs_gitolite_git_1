@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0723799247523816153=="
+Content-Type: multipart/mixed; boundary="===============9218494692142307496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 13 Sep 2021 12:14:56 -0000
-Message-Id: <163153529615.21036.650555135914573966@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 12:16:03 -0000
+Message-Id: <163153536326.22861.5392608649883970195@gitolite.kernel.org>
 
---===============0723799247523816153==
+--===============9218494692142307496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 2734d6c1b1a089fb593ef6a23d4b70903526fe0c
+  - ref: refs/heads/next
+    old: 67d6d80d90fb27b3cc7659f464fa3b87fd67bc14
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-2734d6c1b1a0-6880fa6c5660.txt
+    log: revlist-67d6d80d90fb-6880fa6c5660.txt
 
---===============0723799247523816153==
+--===============9218494692142307496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2734d6c1b1a0-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-67d6d80d90fb-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============0723799247523816153==--
+--===============9218494692142307496==--
