@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dborkman/bpf
-Date: Mon, 13 Sep 2021 13:46:45 -0000
-Message-Id: <163154080510.20409.434722218219681546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 13 Sep 2021 13:56:30 -0000
+Message-Id: <163154139096.27662.4165085173709237337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dborkman/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/pr/bpf-cgrp
-    old: 5a6e78baee7515884b93a90c5d03db601bc9063a
-    new: e7254afa7ee72a50a1c9776c43985592b1ce7323
+  - ref: refs/heads/sched/core
+    old: 9964e5cf7598cbef7ebd34f8c3a760019dfb55e3
+    new: cc9942f5408cad99a88a710851925551b8d24697
     log: |
-         3a029e1f3d6e2ee809e85abecce619a48016bd4b selftests/bpf: Fix build of task_pt_regs test for arm64
-         2f1aaf3ea666b737ad717b3d88667225aca23149 bpf, mm: Fix lockdep warning triggered by stack_map_get_build_id_offset()
-         fae9eb9a1b64a6412d89f97e7a2ccfa6da72815f bpf, cgroups: Fix cgroup v2 fallback on v1/v2 mixed mode
-         7223812e4e5056ff6a98f3da9a56058f601e64dc bpf, selftests: Add cgroup v1 net_cls classid helpers
-         e7254afa7ee72a50a1c9776c43985592b1ce7323 bpf, selftests: Add test case for mixed cgroup v1/v2
+         3136ab1c2f266a0055991ad1e1bff5232af8aed2 sched/fair: Use __schedstat_set() in set_next_entity()
+         0004ffca80c1ba002a15a3862b2a20c7254e6962 sched: Make struct sched_statistics independent of fair sched class
+         fc7314189731eb604cfa62698fe2d6a0c8f7997e sched: Make schedstats helpers independent of fair sched class
+         43bd3279d3d59585b55dab6233514e0b16726e43 sched: Introduce task block time in schedstats
+         be12763c0ee32035aafa2391fa3656984c0379df sched/rt: Support sched_stat_runtime tracepoint for RT sched class
+         cd10a8b11689c4e69599d3c816f088015840f6e2 sched/rt: Support schedstats for RT sched class
+         2c6797d6b5bbb084ba8bdd1329feeb6a1a15b769 sched/dl: Support sched_stat_runtime tracepoint for deadline sched class
+         136e76ea60684c347dbeaf47fbc9d706ac5935e0 sched/dl: Support schedstats for deadline sched class
+         cc9942f5408cad99a88a710851925551b8d24697 sched: Fix -Wmissing-prototype
          
