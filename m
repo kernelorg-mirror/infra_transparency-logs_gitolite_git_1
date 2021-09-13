@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7880427303193080397=="
+Content-Type: multipart/mixed; boundary="===============0471956240813279774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 Date: Mon, 13 Sep 2021 07:38:47 -0000
-Message-Id: <163151872709.11836.13165726232766796020@gitolite.kernel.org>
+Message-Id: <163151872776.11868.9358002867332542776@gitolite.kernel.org>
 
---===============7880427303193080397==
+--===============0471956240813279774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/mips-next
-    old: bea6a94a279bcbe6b2cde348782b28baf12255a5
+  - ref: refs/heads/fixes
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-bea6a94a279b-6880fa6c5660.txt
+    log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============7880427303193080397==
+--===============0471956240813279774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bea6a94a279b-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
 
-46a226b50ec3d5d9ff2f4399702ff6c1b427f824 Merge branch 'for-5.15/apple' into for-linus
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
@@ -50,6 +49,7 @@ c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831'
 9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
+bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
 66abf5fb4cf713c6fdfccfbbabdcdf834f8bb9e2 net/sun3_82586: Fix return value of sun3_82586_probe()
 3f22bb137eb03ab27eaaa8b40d3e072eb541444e ipv6: change return type from int to void for mld_process_v2
 025efa0a82dfa79ac2b126f622ba9244f795e707 selftests: add simple GSO GRE test
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============7880427303193080397==--
+--===============0471956240813279774==--
