@@ -1,30 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============2566901096803407399=="
+Content-Type: multipart/mixed; boundary="===============0930172914277416356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 13 Sep 2021 05:47:33 -0000
-Message-Id: <163151205314.11475.1617021453930328695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
+Date: Mon, 13 Sep 2021 06:18:38 -0000
+Message-Id: <163151391890.31092.7108256505519929599@gitolite.kernel.org>
 
---===============2566901096803407399==
+--===============0930172914277416356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
+user: bigeasy
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 598fe77df855feeeca9dfda2ffe622ac7724e5c3
+  - ref: refs/heads/master
+    old: 7d2a07b769330c34b4deabeed939325c77a7ec2f
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-598fe77df855-6880fa6c5660.txt
+    log: revlist-7d2a07b76933-6880fa6c5660.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 0000000000000000000000000000000000000000
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+  - ref: refs/heads/linux-5.15.y-rt
+    old: 0000000000000000000000000000000000000000
+    new: 05f564af7ff4cd9cc21645df2f0be6b3e6681ee6
+  - ref: refs/heads/linux-5.15.y-rt-patches
+    old: 0000000000000000000000000000000000000000
+    new: 27fc9dc4914123d857bf5aebe15a06f211a11cfa
 
---===============2566901096803407399==
+--===============0930172914277416356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-598fe77df855-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-7d2a07b76933-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1060,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============2566901096803407399==--
+--===============0930172914277416356==--
