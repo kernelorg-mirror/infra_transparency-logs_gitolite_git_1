@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 13 Sep 2021 15:36:27 -0000
-Message-Id: <163154738732.568.5615563260282554277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Mon, 13 Sep 2021 15:40:00 -0000
+Message-Id: <163154760022.1990.9440917107885462061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 7160358442374984fe61b448bc86b97c9b21bf09
-    new: 090a34dfe32bfe139bf0f8df96bcbce320ee8864
-    log: |
-         090a34dfe32bfe139bf0f8df96bcbce320ee8864 linux-firmware: add frimware for mediatek bluetooth chip (MT7922)
-         
+  - ref: refs/heads/pidfd.pidfd_get_task
+    old: 0000000000000000000000000000000000000000
+    new: d77a935f52cbe467125c8e7bd1000aaec824c0e2
