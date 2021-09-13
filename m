@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 13 Sep 2021 22:49:07 -0000
-Message-Id: <163157334746.27003.578766073232566643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 13 Sep 2021 22:49:53 -0000
+Message-Id: <163157339313.27435.8847383762039765786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: a33082bd198c21dada3f05913a116538b5d758b6
-    new: 27f8b47f2e2592d677a72f8237dbdca06ac7752e
+  - ref: refs/heads/master
+    old: 26bb2bca8c49dff32b65c3204430cb903f97007a
+    new: 9516f21fd7737e15026d0c0c8c4b43264b8659cd
     log: |
-         45b226ca85107a64ceebf00c6ee48b9110295886 scsi: st: Fix fall-through warning for Clang
-         fd3058f3bd561a802a3b430fff9366347ed2b1c3 MIPS: Fix fall-through warnings for Clang
-         b442123b01de0a5b0428f3ae2e991a954b89d3cd pcmcia: db1xxx_ss: Fix fall-through warning for Clang
-         efd6ffce9bf9d85548167b377111ab55a8c9499e Makefile: Enable -Wimplicit-fallthrough for Clang
-         27f8b47f2e2592d677a72f8237dbdca06ac7752e Merge branch 'for-next/clang-fallthrough' into for-next/kspp
+         ba43049bf2b093dcd75efb7a91664195808d70fa CodeSamples/defer: Comment out 'cp' commands of .eps files
+         9516f21fd7737e15026d0c0c8c4b43264b8659cd defer: Remove stray .eps files
          
