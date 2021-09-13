@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1316221982942672999=="
+Content-Type: multipart/mixed; boundary="===============4778610160498503243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 13 Sep 2021 20:44:09 -0000
-Message-Id: <163156584923.9933.9253565427434363949@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 20:44:19 -0000
+Message-Id: <163156585927.10060.7584919660564621777@gitolite.kernel.org>
 
---===============1316221982942672999==
+--===============4778610160498503243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 27151f177827d478508e756c7657273261aaf8a9
-    new: 13bb8429ca985497bfba3a4afa6cd470d15fed10
-    log: revlist-27151f177827-13bb8429ca98.txt
+  - ref: refs/heads/mlx5-queue
+    old: 7a3e2f8430eb92d0371b20490858e2c20ee019e8
+    new: 33eba78a747d9a67ec8fa45c2210997709124c56
+    log: revlist-7a3e2f8430eb-33eba78a747d.txt
 
---===============1316221982942672999==
+--===============4778610160498503243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27151f177827-13bb8429ca98.txt
+Content-Disposition: attachment; filename=revlist-7a3e2f8430eb-33eba78a747d.txt
 
 40bb0e3e270a33b03a39cdd77bf03fc18dfe2fab gpio: ml-ioh: Convert to dev_pm_ops
 a1867f85e06edacd82956d3422caa2b9074f4321 mfd: Add Renesas Synchronization Management Unit (SMU) support
@@ -506,5 +506,38 @@ aed4146c5503f2015e94c67f834e41a165241358 nfc: pn544: drop unneeded debug prints
 d1c624ebaa5113e5e80f63d55c1ddc19324b3b66 nfc: mrvl: drop unneeded memory allocation fail messages
 08c53aee26d4413b860f5042873b56ecc959c42c Merge branch 'nfc-printk-cleanup'
 13bb8429ca985497bfba3a4afa6cd470d15fed10 net: wwan: iosm: firmware flashing and coredump collection
+abb39cfb82faaf69f14a29c2ed03fb6e546d00ee net/mlx5e: Enable TC offload for egress MACVLAN
+75a0b8d0a1d933eb7e527d0f32df42f83d7a909a net/mlx5: Support partial TTC rules
+4ed4b6b011d172f86268632fc4b0bbe60290c453 net/mlx5e: Enable TC offload for ingress MACVLAN
+2a0c145bf65b43e8e848afea5558e90f1aa5b51d net/mlx5: Introduce port selection namespace
+44523566e2950e3fea53529f8d68bb346372271b net/mlx5: Add support to create match definer
+efaf2f45d46a93b1554401370f02bda0884a7bb2 net/mlx5: Introduce new uplink destination type
+20c6b395a2c1a962822a59b4ed1beca6f4f17073 net/mlx5: Lag, move lag files into directory
+22651f7b92ed59093668d8332df2ff7ca5d5201b net/mlx5: Lag, set LAG traffic type mapping
+7544c26eaca0143e29844e763b7b0e4750dbe23b net/mlx5: Lag, set match mask according to the traffic type bitmap
+5a878a7df27690b9b4c810d7820749cd6f8d3576 net/mlx5: Lag, add support to create definers for LAG
+2c916985c0835113536269baa36fa02e8e8a1511 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+a7974602594e8dfb620be23a71c189af267a89a5 net/mlx5: Lag, add support to create/destroy/modify port selection
+4246e748ff5e50970b96033e7fa63c249e9435b6 net/mlx5: Lag, use steering to select the affinity port in LAG
+7cb250770bace67deb9dc3be89bca1c51254aab0 net/mlx5: Check create_lag_when_not_master_up when selecting hash mode
+8102b0ea756a585d480700f6096f962fe2855d0d net/mlx5e: Add error flow for ethtool -X command
+45b96a40395c3a18d784a02e0f0080d92221bf9e net/mlx5e: Use correct return type
+9e053c2cb717b01480fa742d1e1df5166422ede1 net/mlx5e: Remove incorrect addition of action fwd flag
+1efa30aae9bd2932373d6daffc69c776cc7c771b net/mlx5e: Set action fwd flag when parsing tc action goto
+cb0790a3a7c919d6f1addb951164e050beb0c7ca net/mlx5e: Check action fwd/drop flag exists also for nic flows
+b6174e92b3cd9c4fe2dcbdc4d09fff6d2c7e0b2e net/mlx5e: Remove redundant priv arg from parse_pedit_to_reformat()
+a2b51a394e1b57d7ff4210bc0bca6e6b0061f838 net/mlx5e: Use tc sample stubs instead of ifdefs in source file
+4bc2cda719583ab81f44a92ebebaa1f7361896db net/mlx5e: Use NL_SET_ERR_MSG_MOD() for errors parsing tunnel attributes
+c26a30288a7a1f645c95870ae9bd6969a47a9aea net/mlx5e: loopback test is not supported in switchdev mode
+0aadc4c774da535d7c4c1c6fa9638f97292723ac net/mlx5e: Improve MQPRIO resiliency
+339b1698f66ddc1dddc7955d346fabeabc8ffb4d net/mlx5e: Allow specifying SQ stats struct for mlx5e_open_txqsq()
+7d27bd807b46c18b6552414eb7b484ad22207c37 net/mlx5e: Add TX max rate support for MQPRIO channel mode
+f23d8491edb1a9927b41db26b95571f9577c628e Merge branch 'patchq/428148' into mlx5-queue
+2c7cfacad257cd7b12ee971690bba3181013ed68 Merge branch 'patchq/427207' into mlx5-queue
+604240bd50eb9edffddc33ee058c65285b74b15b net/mlx5: DR, Fix code indentation in dr_ste_v1
+dabadff4e2967c2117063735ec62beb167083b5b Merge branch 'patchq/426506' into mlx5-queue
+fe368e07841110a18ca58d2fd6613caf4454baba Merge branch 'patchq/409055' into mlx5-queue
+1255f8969a3a658f8c33326b34ea8c8d779040cc Merge branch 'patchq/423917' into mlx5-queue
+33eba78a747d9a67ec8fa45c2210997709124c56 Merge branch 'patchq/419320' into mlx5-queue
 
---===============1316221982942672999==--
+--===============4778610160498503243==--
