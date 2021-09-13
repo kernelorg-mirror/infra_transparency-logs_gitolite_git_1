@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0519697445997441381=="
+Content-Type: multipart/mixed; boundary="===============2865711968985350285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 13 Sep 2021 09:33:29 -0000
-Message-Id: <163152560920.9810.15859719364696486163@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 09:33:38 -0000
+Message-Id: <163152561849.9948.14281969058910704100@gitolite.kernel.org>
 
---===============0519697445997441381==
+--===============2865711968985350285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/for-v5.15/omap-gpmc
-    old: 77ed5e9dec551765bde9f2e4b7ed9071ff03d61d
+  - ref: refs/heads/for-v5.15/tegra-mc
+    old: eaf89f1cd38cf7256ab64424fe94014632044d57
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-77ed5e9dec55-6880fa6c5660.txt
+    log: revlist-eaf89f1cd38c-6880fa6c5660.txt
 
---===============0519697445997441381==
+--===============2865711968985350285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77ed5e9dec55-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-eaf89f1cd38c-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============0519697445997441381==--
+--===============2865711968985350285==--
