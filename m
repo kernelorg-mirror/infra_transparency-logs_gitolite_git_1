@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0058470936784017517=="
+Content-Type: multipart/mixed; boundary="===============2222521260845353060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 13 Sep 2021 16:01:36 -0000
-Message-Id: <163154889693.17728.16029883919800504366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Mon, 13 Sep 2021 16:03:06 -0000
+Message-Id: <163154898637.18291.18217191474529840737@gitolite.kernel.org>
 
---===============0058470936784017517==
+--===============2222521260845353060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/master
-    old: 7d2a07b769330c34b4deabeed939325c77a7ec2f
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-7d2a07b76933-6880fa6c5660.txt
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/heads/for-next
+    old: 74f671aed9e7f624308e0238b582b490b1180150
+    new: 536267aafb8aeaa8c5bc4c44105ecf7a6b95c27b
+    log: revlist-74f671aed9e7-536267aafb8a.txt
 
---===============0058470936784017517==
+--===============2222521260845353060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d2a07b76933-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-74f671aed9e7-536267aafb8a.txt
 
-6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1053,5 +1049,6 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
+536267aafb8aeaa8c5bc4c44105ecf7a6b95c27b nvmem: core: Add stubs for nvmem_cell_read_variable_le_u32/64 if !CONFIG_NVMEM
 
---===============0058470936784017517==--
+--===============2222521260845353060==--
