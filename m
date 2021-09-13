@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7938310500484059863=="
+Content-Type: multipart/mixed; boundary="===============4906923477398671420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Sep 2021 19:32:54 -0000
-Message-Id: <163156157452.28474.9398932283437395657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 13 Sep 2021 19:35:07 -0000
+Message-Id: <163156170710.30613.6663522306571235095@gitolite.kernel.org>
 
---===============7938310500484059863==
+--===============4906923477398671420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/x86/cpu
-    old: b7fe54f6c2d437082dcbecfbd832f38edd9caaf4
-    new: 0507503671f9b1c867e889cbec0f43abf904f23c
-    log: revlist-b7fe54f6c2d4-0507503671f9.txt
+  - ref: refs/heads/habanalabs-next
+    old: e5828bbbd23dc2a77f092064b1b195160c0b283a
+    new: 6658b790cd68ed6de330d6c18616b8dd7415a06a
+    log: revlist-e5828bbbd23d-6658b790cd68.txt
 
---===============7938310500484059863==
+--===============4906923477398671420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7fe54f6c2d4-0507503671f9.txt
+Content-Disposition: attachment; filename=revlist-e5828bbbd23d-6658b790cd68.txt
 
-d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
-48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
-7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
-866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
 8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
 47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
@@ -1048,7 +1039,16 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-f87bc8dc7a7c438c70f97b4e51c76a183313272e x86/asm: Add _ASM_RIP() macro for x86-64 (%rip) suffix
-0507503671f9b1c867e889cbec0f43abf904f23c x86/asm: Avoid adding register pressure for the init case in static_cpu_has()
+375d2d044e113ea12c949c06680bc926d508bf5c habanalabs: fix potential race in interrupt wait ioctl
+8b52a32e631caf90197b9d3330e5fe8b57d87d89 habanalabs: fix kernel OOPs related to staged cs
+5709c976be2f20d1a1bc2f8bee072aa7623d5842 habanalabs/gaudi: use direct MSI in single mode
+ad648b8b225a006c76ae9d5bfe95c0008a3c883f habanalabs: fail collective wait when not supported
+3a2e5be9a0e47a105b4dcf54c62513348cd27134 habanalabs: Fix spelling mistake "FEADBACK" -> "FEEDBACK"
+d0eb0cb1e112805a29abf3c610c1fb24cd0ba887 habanalabs/gaudi: fix LBW RR configuration
+b18fe90c54c78ab2c75fe943bbe959a34077d0ba habanalabs: rate limit multi CS completion errors
+798d4f0ae562efd6585eefb0bfdfe0a98f7ac514 habanalabs: fix wait offset handling
+0210c0cca999bc1b1883ec79c3f40a4056de4ad3 habanalabs: add kernel-doc style comments
+2b247306aa34e4b3ce56dda89761e235a9a146d9 habanalabs: add debugfs node for configuring CS timeout
+6658b790cd68ed6de330d6c18616b8dd7415a06a habanalabs: create static map of f/w hwmon enums
 
---===============7938310500484059863==--
+--===============4906923477398671420==--
