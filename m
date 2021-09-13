@@ -1,51 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0099436152281535366=="
+Content-Type: multipart/mixed; boundary="===============0718340356402664501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 13 Sep 2021 11:49:42 -0000
-Message-Id: <163153378244.5081.2890641642706794696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 13 Sep 2021 11:49:49 -0000
+Message-Id: <163153378972.5233.6700963716510421578@gitolite.kernel.org>
 
---===============0099436152281535366==
+--===============0718340356402664501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: 6eb7efefb4e8b19d0d5fe3f7876399de89c358af
-    new: 130335291cb4df62fac7e693b3a9a7cabec3ca53
+  - ref: refs/heads/queue-next
+    old: 110b9b0603de9ae3fd85f09336fecbfc68d83dea
+    new: 298c6bc2a8ebd3f7182507d805759afd7fdfb0b6
+    log: revlist-110b9b0603de-298c6bc2a8eb.txt
+  - ref: refs/heads/queue-rc
+    old: 15b54d15f1c97c01d9caee22cca21f22a50b8aff
+    new: da3ea2d30a51b4088e88d858e6c6c34bbab912d0
     log: |
-         52015e3e05c6a65ef45f5603c0fb45b6030214c2 fixup! RDMA/nldev: Allow counter manual mode configration through RDMA netlink
-         605d02cb3af1ba9005fb4101d51ba14724fe235b RDMA/mlx5: Support optional counters in hw_stats initialization
-         c577046efac4258d10a6298d8ddf93dbd5c7f833 RDMA/mlx5: Add steering support in optional flow counters
-         eaf17c76ff42b3039e97661d660057ca5b8dffb0 RDMA/mlx5: Add modify_op_stat() support
-         a5873da7691a13aaaa6ca316eba3fd30a614dfbc RDMA/mlx5: Add optional counter support in get_hw_stats callback
-         0ae065f0b9cedafab13c1b02208a69f2655452af RDMA/mlx5: Add dummy umem to IB_MR_TYPE_DM
-         130335291cb4df62fac7e693b3a9a7cabec3ca53 RDMA/usnic: Lock VF with mutex instead of spinlock
+         da3ea2d30a51b4088e88d858e6c6c34bbab912d0 Merge branch 'testing/rdma-rc' into queue-rc
          
-  - ref: refs/heads/testing/rdma-next
-    old: b4c344a588e8f7b634a79723bc0a907a3cc04ba8
-    new: 9abeddbdc2777f98f93d0f9af373d5906a043d47
-    log: revlist-b4c344a588e8-9abeddbdc277.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 7131b248987f43f86d8ec0328d30ff3616368acd
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-  - ref: refs/tags/mlx-next
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 6a217437f9f5482a3f6f2dc5fcd27cf0f62409ac
-  - ref: refs/tags/mlx-rc
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 2169b908894df2ce83e7eb4a399d3224b2635126
 
---===============0099436152281535366==
+--===============0718340356402664501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4c344a588e8-9abeddbdc277.txt
+Content-Disposition: attachment; filename=revlist-110b9b0603de-298c6bc2a8eb.txt
 
 75e4b89592829b9ed3e5f09e48459964ff62d530 net/sched: Don't print dump stack in event of transmission timeout
 1f4df303deac39fc6fd81d415a475371fdab333b RDMA/mlx5: Avoid taking MRs from larger MR cache pools when a pool is empty
@@ -68,5 +53,6 @@ a5873da7691a13aaaa6ca316eba3fd30a614dfbc RDMA/mlx5: Add optional counter support
 0ae065f0b9cedafab13c1b02208a69f2655452af RDMA/mlx5: Add dummy umem to IB_MR_TYPE_DM
 130335291cb4df62fac7e693b3a9a7cabec3ca53 RDMA/usnic: Lock VF with mutex instead of spinlock
 9abeddbdc2777f98f93d0f9af373d5906a043d47 Merge branch 'rdma-next' into testing/rdma-next
+298c6bc2a8ebd3f7182507d805759afd7fdfb0b6 Merge branch 'testing/rdma-next' into queue-next
 
---===============0099436152281535366==--
+--===============0718340356402664501==--
