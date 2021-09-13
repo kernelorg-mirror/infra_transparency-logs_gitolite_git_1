@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3640115463379309670=="
+Content-Type: multipart/mixed; boundary="===============0224401888944411077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 13 Sep 2021 09:14:26 -0000
-Message-Id: <163152446688.28211.213277176267656270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 13 Sep 2021 09:14:29 -0000
+Message-Id: <163152446978.28320.471339619361651975@gitolite.kernel.org>
 
---===============3640115463379309670==
+--===============0224401888944411077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/next/dt64
-    old: 01c72cad790cb6cd3ccbe4c1402b6cb6c6bbffd0
+  - ref: refs/heads/for-next
+    old: cdd3d945dcec0d0dab845175dc9400ab54512aa6
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-01c72cad790c-6880fa6c5660.txt
+    log: revlist-cdd3d945dcec-6880fa6c5660.txt
 
---===============3640115463379309670==
+--===============0224401888944411077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01c72cad790c-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-cdd3d945dcec-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============3640115463379309670==--
+--===============0224401888944411077==--
