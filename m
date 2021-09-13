@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 13 Sep 2021 19:50:03 -0000
-Message-Id: <163156260371.7976.5173822832795935297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 13 Sep 2021 19:52:19 -0000
+Message-Id: <163156273964.9533.18241175707268346808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/io_uring-5.15
-    old: dd47c104533dedb90434a3f142e94a671ac623a6
-    new: 7981f41e5d2cfdbeecf77be60a0ee70c316d6d63
-    log: |
-         7981f41e5d2cfdbeecf77be60a0ee70c316d6d63 io_uring: pin SQPOLL data before unlocking ring lock
-         
+  - ref: refs/heads/for-next/kspp
+    old: 7bc04ce6b914a06d5823509d1de237787c58e649
+    new: 0000000000000000000000000000000000000000
