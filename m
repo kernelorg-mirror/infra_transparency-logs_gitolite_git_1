@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Mon, 13 Sep 2021 16:58:38 -0000
-Message-Id: <163155231849.23000.11252996434431857888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 13 Sep 2021 17:09:27 -0000
+Message-Id: <163155296742.29269.16173170618927518277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: bleung
 changes:
-  - ref: refs/heads/rc1+mce-noinstr
+  - ref: refs/tags/v5.15-rc1
     old: 0000000000000000000000000000000000000000
-    new: 9fae1e3085e43bb8c373379fb4b01d44dc861fc2
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
