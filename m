@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3781687981413486118=="
+Content-Type: multipart/mixed; boundary="===============7441188171552025227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 13 Sep 2021 09:14:10 -0000
-Message-Id: <163152445043.27708.1488674100113649355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 13 Sep 2021 09:14:14 -0000
+Message-Id: <163152445471.27781.2062590416562139600@gitolite.kernel.org>
 
---===============3781687981413486118==
+--===============7441188171552025227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/next/defconfig
+  - ref: refs/heads/fixes
     old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============3781687981413486118==
+--===============7441188171552025227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============3781687981413486118==--
+--===============7441188171552025227==--
