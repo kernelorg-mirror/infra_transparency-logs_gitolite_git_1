@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0824047031512079525=="
+Content-Type: multipart/mixed; boundary="===============7114660496292099816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 13 Sep 2021 12:22:47 -0000
-Message-Id: <163153576785.29203.8824277355389296830@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 12:23:35 -0000
+Message-Id: <163153581543.29498.14615759138597231753@gitolite.kernel.org>
 
---===============0824047031512079525==
+--===============7114660496292099816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
+  - ref: refs/heads/devel
     old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============0824047031512079525==
+--===============7114660496292099816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============0824047031512079525==--
+--===============7114660496292099816==--
