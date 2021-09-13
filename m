@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8812436739266831639=="
+Content-Type: multipart/mixed; boundary="===============8740377772510617230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Sep 2021 06:43:37 -0000
-Message-Id: <163151541733.14885.12196035261424768072@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 06:43:42 -0000
+Message-Id: <163151542200.14976.1102573842724103475@gitolite.kernel.org>
 
---===============8812436739266831639==
+--===============8740377772510617230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: ba1dc7f273c73b93e0e1dd9707b239ed69eebd70
+  - ref: refs/heads/char-misc-next
+    old: 4cd67adc44a3ccdb3b8526c9f932f905284e028f
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-ba1dc7f273c7-6880fa6c5660.txt
+    log: revlist-4cd67adc44a3-6880fa6c5660.txt
 
---===============8812436739266831639==
+--===============8740377772510617230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631515416 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631515420 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1631515415-265d0faf34cdb74d483d1a0f0bdb8bc15763373f
+nonce 1631515420-50c7d7683b1f3202fc137f2fe591f2ba44a74523
 
-ba1dc7f273c73b93e0e1dd9707b239ed69eebd70 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f refs/heads/char-misc-linus
+4cd67adc44a3ccdb3b8526c9f932f905284e028f 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE+8xgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4zIP/3jyL/p2yeBkQHUnhWA7
-jK1ZEd5mDPAjvYQX6m2EEvbEpISwLx6Kh62ybiRKkyh9Z+FzxS2CFIJPD8ely1C7
-FqTuJb5fakkU3Gy99ofqy9QSoYOiCp7bPsOruDpCAIXw9ZO17TIFM8mXrxPoOcd6
-+DnAAsHgRXbpVbwxAo+Rl6IJhJ1UVrvoqXmJ44Yp/HVU9Gq+v6pWriW30HQCd3cp
-Uiw67538ScGHlpGhH6dECkQ9jMa98Q4W0WOtimZ3/XASdpBSPWMolkLxcNr+I7Q8
-ylAh0d3u5o3ozvOYqN419DSDF2RwX294krFONEPV7Z7wnRzY4OsyaFiJeiCCpsw5
-i3XMOzH/WnLbjOg8ELWsXUUvQwk77F3xgqvcGkiEFX3tDZmQjfblQX0JfO4S506B
-OYHsQZask1x1bkUv+K8lK/nZgqyHQ/ZVCVq8obBeJEZdDqVBwY44DltOOg67UJQz
-nNUFkD4hmuKtWgZkgNNkp1fEY/ElbxfmyaAp/MLUH9VsaGlB+InCvTaF3gXBEzxZ
-QBkMMLZJOPvAVr9VkKph7MipIdM839xC6m6ztYIl9XsO5ZNxG1FDU/IN0v/TtbNh
-yMhJbSOYHYwAYe/KfOJJevk5JrBLsiKGUsV1/zY8mJCaF1bU6MqCy/qy2qD05y8c
-v8FP3by1qeF+0V1+gq0Vrf46
-=8G93
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE+8xwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s4gP/jENWfRE3QU1JDCB6zhB
+onVgdJkxZV5NaVMimdiw1vXQnv9XjjtYpW5WOpjUSRtzcEZxyafrImhRpiuBB6gI
+tMd4sFaq5yy7TBSS2rr298zHjQcG737bhcf+KVyvpZJaTFcDF4SpAjr6d94SSPCC
+nKd4eiZvSpERuAF/AB8S7jYq4BcpB/ewt0asYW5S0kUJFCjg9IhXGOXwsJojphrK
+bte6xJtnuUD+VRbuAS9wIfDc91NYPLlOWqEfX8cRSwU+H7BQGWK1ZTyNAOUm0jnE
+0s6TGliM+QpySkPPUSw9nZ0sPUujQDTeySYMpI1caGkHa7Chg1ls3kaDq4haoU4x
+1YAv//rr47h7nvPgVUg8CIpQeNM24lxAD1K7Vb30hAzjrPiqx5AzjHyKMaBpC+zG
+YsjIq0BNRKHdN4pjebGTovfSgmSW/8FHeB9Jl3iL2P4aww++l+u4gQ0wbgiBIgqc
+jvZi5SBTPRU8a1hHd6JaGUroAP6eXsGvr5ozxZBf6uYt8OOIhFRnMKcp4588ZPfj
+0wktkZ9cL4AkSUX+CmT7WoZYk1YT1fyPYGvAbIPuC2H4JS2em/i982a3ZjGgLL0Q
+pNnu0dZJUTWpQ/B9kcYEu5hGYDK1iFEjZJo8Izc03xqszlrXQTgILr3cBNeudDpq
+GzRvJro5V3JAYXLS8xcRucTT
+=a1UX
 -----END PGP SIGNATURE-----
 
---===============8812436739266831639==
+--===============8740377772510617230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba1dc7f273c7-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-4cd67adc44a3-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1082,4 +1082,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============8812436739266831639==--
+--===============8740377772510617230==--
