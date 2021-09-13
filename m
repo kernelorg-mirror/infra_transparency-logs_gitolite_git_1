@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3177863362145355822=="
+Content-Type: multipart/mixed; boundary="===============5553471460903680496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 13 Sep 2021 08:59:50 -0000
-Message-Id: <163152359082.2699.3038741358155125674@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 09:02:52 -0000
+Message-Id: <163152377205.16040.149163681456708710@gitolite.kernel.org>
 
---===============3177863362145355822==
+--===============5553471460903680496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: da4d4517ba70216799e3eb3b9bd71aa9dca065da
+  - ref: refs/heads/mediatek-drm-next
+    old: 9efb16c2fdd647d3888fd8dae84509f485cd554e
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-da4d4517ba70-6880fa6c5660.txt
+    log: revlist-9efb16c2fdd6-6880fa6c5660.txt
 
---===============3177863362145355822==
+--===============5553471460903680496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da4d4517ba70-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-9efb16c2fdd6-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============3177863362145355822==--
+--===============5553471460903680496==--
