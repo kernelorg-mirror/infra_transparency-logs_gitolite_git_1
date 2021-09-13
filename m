@@ -1,72 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============0845012762068443803=="
+Content-Type: multipart/mixed; boundary="===============6483194020112367884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 13 Sep 2021 07:06:32 -0000
-Message-Id: <163151679288.23003.15571599077042710673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 13 Sep 2021 07:11:50 -0000
+Message-Id: <163151711021.26107.10959452942609921145@gitolite.kernel.org>
 
---===============0845012762068443803==
+--===============6483194020112367884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 3f1c53207cf051d9aec85e9139bd35ada6184143
-    new: bb289f4c0b2bb10c7ecd51b6799cd9d1b9c409aa
-    log: revlist-3f1c53207cf0-bb289f4c0b2b.txt
-  - ref: refs/heads/sunxi/clk-for-5.16
-    old: 0000000000000000000000000000000000000000
-    new: e65d38e3d2d0e61ca464b46ad804f7a94e1ae45f
-  - ref: refs/heads/sunxi/core-for-5.16
-    old: 0000000000000000000000000000000000000000
-    new: 5923ddaa95a7e61e827a3d9b1d9c749963d8db90
-  - ref: refs/heads/sunxi/drivers-for-5.16
-    old: 0000000000000000000000000000000000000000
-    new: 1f3753a5f042fea6539986f9caf2552877527d8a
-  - ref: refs/heads/sunxi/dt-for-5.16
-    old: 0000000000000000000000000000000000000000
-    new: a1830fe9a21a3936176e417c22437c933dcf0bbb
-  - ref: refs/heads/sunxi/fixes-for-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 0764e365dacd0b8f75c1736f9236be280649bd18
+  - ref: refs/heads/master
+    old: 7d2a07b769330c34b4deabeed939325c77a7ec2f
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-7d2a07b76933-6880fa6c5660.txt
 
---===============0845012762068443803==
+--===============6483194020112367884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7d2a07b76933-6880fa6c5660.txt
 
-certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1631516789 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1631516788-562e16fd5906e6ae79a46e67568e47da8ee34520
-
-3f1c53207cf051d9aec85e9139bd35ada6184143 bb289f4c0b2bb10c7ecd51b6799cd9d1b9c409aa refs/heads/sunxi/for-next
-0000000000000000000000000000000000000000 e65d38e3d2d0e61ca464b46ad804f7a94e1ae45f refs/heads/sunxi/clk-for-5.16
-0000000000000000000000000000000000000000 5923ddaa95a7e61e827a3d9b1d9c749963d8db90 refs/heads/sunxi/core-for-5.16
-0000000000000000000000000000000000000000 1f3753a5f042fea6539986f9caf2552877527d8a refs/heads/sunxi/drivers-for-5.16
-0000000000000000000000000000000000000000 a1830fe9a21a3936176e417c22437c933dcf0bbb refs/heads/sunxi/dt-for-5.16
-0000000000000000000000000000000000000000 0764e365dacd0b8f75c1736f9236be280649bd18 refs/heads/sunxi/fixes-for-5.15
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYT74dQAKCRDj7w1vZxhR
-xZojAP4ybhpYq4aGYjtTZIletnYgbuehiQ4Cah99tccPC98E7gEAlpuErcObuBDP
-Q0agbSzflsAL/dvDb2uJkDMH98yq0Qg=
-=Gjea
------END PGP SIGNATURE-----
-
---===============0845012762068443803==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f1c53207cf0-bb289f4c0b2b.txt
-
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
+c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
+d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
+48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
+7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
+866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
+8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
+47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
+32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
+205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
+c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
+bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
+66abf5fb4cf713c6fdfccfbbabdcdf834f8bb9e2 net/sun3_82586: Fix return value of sun3_82586_probe()
+3f22bb137eb03ab27eaaa8b40d3e072eb541444e ipv6: change return type from int to void for mld_process_v2
+025efa0a82dfa79ac2b126f622ba9244f795e707 selftests: add simple GSO GRE test
+552799f8b3b0074d2617f53a63a088f9514a66e3 net: dsa: lantiq_gswip: fix maximum frame length
+d2cabd2dc8da78faf9b690ea521d03776686c9fe net: qrtr: revert check in qrtr_endpoint_post()
+9aca491e0dccf8a9d84a5b478e5eee3c6ea7803b Set fc_nlinfo in nh_create_ipv4, nh_create_ipv6
+b9edbfe1adecfc48fd11061dce68afb03d6adbdc flow: fix object-size-mismatch warning in flowi{4,6}_to_flowi_common()
+ecdc28defc46af476566fffd9e5cb4495a2f176e net: hso: add failure handler for add_net_device
+aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c net: usb: cdc_mbim: avoid altsetting toggling for Telit LN920
+cdb067d31c0fe4cce98b9d15f1f2ef525acaa094 net: dsa: b53: Fix calculating number of switch ports
+d12e1c4649883e8ca5e8ff341e1948b3b6313259 net: dsa: b53: Set correct number of ports in the DSA struct
+55a51ea14094a1e7dd0d7f33237d246033dd39ab block/mq-deadline: Move dd_queued() to fix defined but not used warning
+2d52c58b9c9bdae0ca3df6a1eab5745ab3f7d80b block, bfq: honor already-setup queue merges
+c4f3a3460a5daebc772d9263500e4099b11e7300 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
+4f89ff026ddbaab49dba993ad2dc757920d0ad49 ASoC: dt-bindings: fsl_rpmsg: Add compatible string for i.MX8ULP
 90c90cda05aecf0f7c45f9f35384b31bba38455f Merge tag 'xfs-5.15-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 f97a2103f1a75ca70f23deadb4d96a16c4d85e7d firmware: dmi: Move product_sku info to the end of the modalias
 d4e8e135a9af7d8d939bba1874ab314322fc2dc2 fs/ntfs3: Fix integer overflow in ni_fiemap with fiemap_prep()
@@ -1052,44 +1050,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-3188aa6af1d09492d60b1f80ce44cdbb616a591b clk: sunxi-ng: mux: Remove unused 'reg' field
-4abfc297b6276310fcb28b14e2255265925cd581 clk: sunxi-ng: Add machine dependency to A83T CCU
-9bec2b9c6134052994115d2d3374e96f2ccb9b9d clk: sunxi-ng: Unregister clocks/resets when unbinding
-66028ddb94c1717411eb7f84a9648e1a94d2a947 clk: sunxi-ng: Prevent unbinding CCUs via sysfs
-8f8163215249cf47d754c550c2ac981a564df105 clk: sunxi-ng: Use a separate lock for each CCU instance
-cea6d174e7016ed93ab1f893233b280f73e7a995 dt-bindings: clocks: Fix typo in the H6 compatible
-e42f37591a3796c092c98a54df3ded6ce414fe9b clk: sunxi: clk-mod0: Make use of the helper function devm_platform_ioremap_resource()
-a021b280b90948e343ad24015ae0863d2ad0cbb3 clk: sunxi-ng: ccu-sun50i-a64: Make use of the helper function devm_platform_ioremap_resource()
-4b3a3a0375f88b819ff425ed580648215528f817 clk: sunxi-ng: ccu-sun50i-h6: Make use of the helper function devm_platform_ioremap_resource()
-defecd547e58c792f900f88331167660b8c755d5 clk: sunxi-ng: ccu-sun8i-a83t: Make use of the helper function devm_platform_ioremap_resource()
-3f7785a26c623a5801b20a1e7632cfda05a307ac clk: sunxi-ng: ccu-sun8i-de2: Make use of the helper function devm_platform_ioremap_resource()
-605c99ff66cd6f5caff42074c543f9c6def9ed73 clk: sunxi-ng: ccu-sun8i-r40: Make use of the helper function devm_platform_ioremap_resource()
-9e85bd7248f15c0401967f4376f7510cc334c106 clk: sunxi-ng: ccu-sun9i-a80: Make use of the helper function devm_platform_ioremap_resource()
-cd9e3b1a87166dab38d4f07e9cf8556e9d7013f6 clk: sunxi-ng: ccu-sun9i-a80-de: Make use of the helper function devm_platform_ioremap_resource()
-2dcfd0318354eb48a8ff94c0fc23974a6a06d493 clk: sunxi-ng: ccu-sun9i-a80-usb: Make use of the helper function devm_platform_ioremap_resource()
-1f38b45b115d5f47154d615fe7206783f6a788f4 clk: sunxi: sun6i-apb0: Make use of the helper function devm_platform_ioremap_resource()
-ac57ffb04b53c19d57ce77146f1b45fc440e9bb8 clk: sunxi: sun6i-apb0-gates: Make use of the helper function devm_platform_ioremap_resource()
-68a49d35ff08091fe10dad8b63bc56fdb730fea5 clk: sunxi: sun6i-ar100: Make use of the helper function devm_platform_ioremap_resource()
-e65d38e3d2d0e61ca464b46ad804f7a94e1ae45f clk: sunxi: sun8i-apb0: Make use of the helper function devm_platform_ioremap_resource()
-7cb82b985f6e74733e32ec301a010533c7ce2f63 ARM: sunxi: Add a missing SPDX license header
-5923ddaa95a7e61e827a3d9b1d9c749963d8db90 ARM: sunxi: Add a missing SPDX license header
-1f3753a5f042fea6539986f9caf2552877527d8a soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
-089a55eb9613718cd6bf2aa9db87ea608147e9db dt-bindings: sunxi: Add CPU Configuration Controller Binding
-9112dab23354e15a37d71bec6f888f1b3e3117c6 dt-bindings: sunxi: Add Allwinner A80 PRCM Binding
-44d52206adac0cf0bc85c9a958815d653a0910e5 ARM: dts: sunxi: Rename power-supply names
-f7717f2874952730df3a12da391003fc8e9e2b9c ARM: dts: sunxi: Rename gpio pinctrl names
-4e0d439dbbf73912ba1dc110a6b564e80dd9f320 ARM: dts: sunxi: Fix OPP arrays
-ffbe853a3f5a37fa0a511265b21abf097ffdbe45 ARM: dts: sunxi: Fix OPPs node name
-dbec4cb403eb1cdcbb4f0c8f3e6e907e04a46ed5 ARM: dts: sunxi: Fix the SPI NOR node names
-a73079c889ec13a8a3d0e112d6243c556edbec54 ARM: dts: tbs711: Fix touchscreen compatible
-11085c654814d5ff30558df0c918a84fecee349c ARM: dts: cubieboard4: Remove the dumb-vga-dac compatible
-94a0f2b0e4e0953d8adf319c44244ef7a57de32c arm64: dts: allwinner: h5: Fix GPU thermal zone node name
-e1b123a9308532941a28ebccdb3b024c45158acb arm64: dts: allwinner: h6: Fix de3 parent clocks ordering
-5c34c4e46e601554bfa370b23c8ae3c3c734e9f7 arm64: dts: allwinner: a100: Fix thermal zone node name
-35ce5b871f70f051b886ca15c874a06fae123947 arm64: dts: allwinner: pinetab: Change regulator node name to avoid warning
-01312f74ddb8297e1da1922f417b5f49bb42e346 arm64: dts: allwinner: teres-i: Add missing reg
-a1830fe9a21a3936176e417c22437c933dcf0bbb arm64: dts: allwinner: teres-i: Remove wakekup-source from the PMIC
-0764e365dacd0b8f75c1736f9236be280649bd18 arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
-bb289f4c0b2bb10c7ecd51b6799cd9d1b9c409aa Merge branches 'sunxi/clk-for-5.16', 'sunxi/core-for-5.16', 'sunxi/drivers-for-5.16', 'sunxi/dt-for-5.16' and 'sunxi/fixes-for-5.15' into sunxi/for-next
 
---===============0845012762068443803==--
+--===============6483194020112367884==--
