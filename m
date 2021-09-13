@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2245473426928544886=="
+Content-Type: multipart/mixed; boundary="===============5877436172540080650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Mon, 13 Sep 2021 14:42:13 -0000
-Message-Id: <163154413318.28333.13919004456265394290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 13 Sep 2021 14:51:25 -0000
+Message-Id: <163154468509.3136.9036364019986991736@gitolite.kernel.org>
 
---===============2245473426928544886==
+--===============5877436172540080650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
+repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
-  - ref: refs/heads/i3c/next
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+  - ref: refs/heads/rtc-next
+    old: 0c45d3e24ef3d3d87c5e0077b8f38d1372af7176
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-e73f0f0ee754-6880fa6c5660.txt
+    log: revlist-0c45d3e24ef3-6880fa6c5660.txt
 
---===============2245473426928544886==
+--===============5877436172540080650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-0c45d3e24ef3-6880fa6c5660.txt
 
+46a226b50ec3d5d9ff2f4399702ff6c1b427f824 Merge branch 'for-5.15/apple' into for-linus
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
@@ -927,7 +928,6 @@ fc111fb9a6da6baddf23930811210650824b8a88 cifs: update FSCTL definitions
 23e91d8b7c5ae2bbd3a4582ec12c6a0cfcb19e85 cifs: rename cifs_common to smbfs_common
 8d014f5fe98142b79dfa3bcd0d9483a5165f3570 cifs: move SMB FSCTL definitions to common code
 0c5483a5778fa9910538453b5a9f1a6ed49e95ad Input: analog - always use ktime functions
-0c45d3e24ef3d3d87c5e0077b8f38d1372af7176 rtc: rx8010: select REGMAP_I2C
 e5480572706da1b2c2dc2c6484eab64f92b9263b locking/rtmutex: Fix ww_mutex deadlock check
 9848417926353daa59d2b05eb26e185063dbac6e sched/idle: Make the idle timer expire in hard interrupt context
 868ad33bfa3bf39960982682ad3a0f8ebda1656e sched: Prevent balance_push() on remote runqueues
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============2245473426928544886==--
+--===============5877436172540080650==--
