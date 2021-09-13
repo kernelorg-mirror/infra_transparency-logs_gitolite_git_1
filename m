@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6483194020112367884=="
+Content-Type: multipart/mixed; boundary="===============6855344820835138383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 13 Sep 2021 07:11:50 -0000
-Message-Id: <163151711021.26107.10959452942609921145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 13 Sep 2021 07:15:47 -0000
+Message-Id: <163151734747.28857.12796155885473818814@gitolite.kernel.org>
 
---===============6483194020112367884==
+--===============6855344820835138383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 7d2a07b769330c34b4deabeed939325c77a7ec2f
+  - ref: refs/heads/gpio/for-next
+    old: 889a1b3f35db6ba5ba6a0c23a3a55594570b6a17
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-7d2a07b76933-6880fa6c5660.txt
+    log: revlist-889a1b3f35db-6880fa6c5660.txt
 
---===============6483194020112367884==
+--===============6855344820835138383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d2a07b76933-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-889a1b3f35db-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============6483194020112367884==--
+--===============6855344820835138383==--
