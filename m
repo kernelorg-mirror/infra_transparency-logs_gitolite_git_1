@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4322017973722566394=="
+Content-Type: multipart/mixed; boundary="===============4717873884468044635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 13 Sep 2021 08:39:17 -0000
-Message-Id: <163152235775.20800.3520050149583906589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 13 Sep 2021 08:39:21 -0000
+Message-Id: <163152236135.20867.4109365479335670175@gitolite.kernel.org>
 
---===============4322017973722566394==
+--===============4717873884468044635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/master
-    old: 7d2a07b769330c34b4deabeed939325c77a7ec2f
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-7d2a07b76933-6880fa6c5660.txt
+    log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============4322017973722566394==
+--===============4717873884468044635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d2a07b76933-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============4322017973722566394==--
+--===============4717873884468044635==--
