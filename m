@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0676538147357355274=="
+Content-Type: multipart/mixed; boundary="===============5451169639948478105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 13 Sep 2021 07:45:20 -0000
-Message-Id: <163151912086.17947.2859290108151285989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Sep 2021 07:46:29 -0000
+Message-Id: <163151918987.18378.5617165517991646173@gitolite.kernel.org>
 
---===============0676538147357355274==
+--===============5451169639948478105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/watchdog
-    old: 6c60a92b05125d85b387cbb69fcca59a720c4d03
-    new: 436d0ac41af86f342f8ca31ae5c79d9f7e584c09
+  - ref: refs/heads/master
+    old: f156d73d7da44357ee275991bc0c346546a90d62
+    new: 34f9f14ed5c012c215dab6633d25aead7495645d
     log: |
-         a66bfcfb0f90e6cd1e1487f870e7cfd7fa8d30d1 watchdog: sbsa: only use 32-bit accessors
-         dcf2b45f7689a976768bdfe15c566b64826e3c4b watchdog: ixp4xx_wdt: Fix address space warning
-         436d0ac41af86f342f8ca31ae5c79d9f7e584c09 watchdog/sb_watchdog: fix compilation problem due to COMPILE_TEST
+         34f9f14ed5c012c215dab6633d25aead7495645d drop lowpan patch from 4.14 and 4.9 queues
          
-  - ref: refs/heads/watchdog-next
-    old: ab6df3a5a1f5239417072b90e7a8e2d3aa067749
-    new: 21fd745d6045898489ea7ded8906309b941e5fcd
-    log: revlist-ab6df3a5a1f5-21fd745d6045.txt
 
---===============0676538147357355274==
+--===============5451169639948478105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab6df3a5a1f5-21fd745d6045.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a66bfcfb0f90e6cd1e1487f870e7cfd7fa8d30d1 watchdog: sbsa: only use 32-bit accessors
-dcf2b45f7689a976768bdfe15c566b64826e3c4b watchdog: ixp4xx_wdt: Fix address space warning
-436d0ac41af86f342f8ca31ae5c79d9f7e584c09 watchdog/sb_watchdog: fix compilation problem due to COMPILE_TEST
-1928af774574277014d3f1ecf54eed9a31aeaa13 watchdog: remove dead iop watchdog timer driver
-9c05b8e018fa8fda916b07762d0d6a6b82be5f66 watchdog: stm32_iwdg: drop superfluous error message
-dd759293bf2f6d7551984e3222207091cb0a9ce5 watchdog: f71808e_wdt: fix inaccurate report in WDIOC_GETTIMEOUT
-67e7f0eecb9a449723699f214af25f44b29c6ef4 watchdog: f71808e_wdt: remove superfluous global
-6032e268faba4906c801e0d87ff0dbbc5905ad7a watchdog: f71808e_wdt: constify static array
-60ae0110f49ad363fbf16de722393f786c7157d0 watchdog: f71808e_wdt: rename variant-independent identifiers appropriately
-8814497ba386b3be1253656f67a1947f171992fa watchdog: f71808e_wdt: migrate to new kernel watchdog API
-e8d853b31138fc30fb7197b1cc529ebfa9fd9827 watchdog: f71808e_wdt: refactor to platform device/driver pair
-c0056c9a2bfee28af97b4e24be59dddac52009d7 watchdog: f71808e_wdt: dynamically allocate watchdog driver data
-43c39a37b3f3330d5e9fd21f0d4dea143988e060 watchdog: da9062: da9063: prevent pings ahead of machine reset
-84307f683b3a8c5c7d02ab8b5cc263c300df443a watchdog: meson_gxbb_wdt: add nowayout parameter
-79a02b14c0494a17b9417d0613aea04e896e09f9 watchdog: meson_gxbb_wdt: add timeout parameter
-e6a9c43184f3ae01cbdb4968b8130fdf80157e02 dt-bindings: watchdog: sunxi: Add compatibles for R329
-2b827de81f4573ee71b21fac35e458c66b10a1f5 watchdog: ar7: fix kernel builds for compiler test
-6acf630dad23600364fcbf0f2b76594fd1262255 dt-bindings: watchdog: sunxi: Add compatibles for D1
-84c6bb88f583735618c08ee0c7a249ef8631067e watchdog: sunxi_wdt: Add support for D1
-bdb4a4888897631afe8ce1439a0aba2cc55a79f3 watchdog: ar7_wdt: Make use of the helper function devm_platform_ioremap_resource_byname()
-e7d6d3eb5aad67475fef39dc5b8d9bdc8df1ada0 watchdog: iTCO_wdt: Make use of the helper function devm_platform_ioremap_resource()
-845c3cd0b02f5dda647fb068a1bb71c70fcf3a4d watchdog: rti-wdt: Make use of the helper function devm_platform_ioremap_resource()
-21fd745d6045898489ea7ded8906309b941e5fcd watchdog: mlx-wdt: Use regmap_write_bits()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631519188 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1631519188-e285763b195fbe9c127249b1ab0bfbbaffdede46
 
---===============0676538147357355274==--
+f156d73d7da44357ee275991bc0c346546a90d62 34f9f14ed5c012c215dab6633d25aead7495645d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmE/AdQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cwUQAIercAkIhKDEl4mW6rEP
+KxDP6VnK2e1wxpZAK1zN4qJv+Mm5s0UxY8/DMMdYp2CUGm1VNwDkuLT45ra5qlvZ
+hx2V7uYrtG5CT+1SQTnrE+le49EfDLz58KTN8vm1Hb444/EMD6fS84Wp+IMFWhOo
+b5X1S2NPrER/AcKkGW3hhs05Rh2317XYhi4VukwRKETXwDvmnCHNmNs16Ide3IKU
+AFkRTgblvb2SQ5yos3wlveHOvvWQNQf82lAEp7UVE0Ex+/vgNvGkLb5k6AemwBMh
+DWi46CWtxhWvj54+wRnK86DclJyjsczqHDhqrhkl3KkUgRqN/fj8fEpDMo6rU6C+
+tH3ZnGn5ODnW2jZ1EISIiE6Sua2XvDRHLwt9ZARKmhX6m3y3hom7EChG6nKfQxba
+WfZKUpYGhOXDPFPbT971RSsRkk5neMwJ54ZKKBgUBC1xGQcFnDuy2+gbrfzrUZ0s
+cV8bN89D8ZgXCCSJh4YBW0Bl2d39or76WFMdWjuQfUk4a1WQGoBsRYBwH0aFSDT3
+XRG1XeR9yjpC+T7dzStBiaEzLtksyh2PEIimGZfys4+fDu8VCQOOnpN87YKm9yF+
+daARUMNIo/3n31+D5J+ceipGIiYgMKPNXzH0eTy94hZo9HWYt57b4O8tQDr5inBY
+Vr+75DWL3AvVdtgSQx1ukgpy
+=LdHf
+-----END PGP SIGNATURE-----
+
+--===============5451169639948478105==--
