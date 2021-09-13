@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8985609933756127033=="
+Content-Type: multipart/mixed; boundary="===============1210606734035072310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 13 Sep 2021 07:23:58 -0000
-Message-Id: <163151783887.2058.6917959432248207533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 13 Sep 2021 07:31:24 -0000
+Message-Id: <163151828444.7207.5955533873552551919@gitolite.kernel.org>
 
---===============8985609933756127033==
+--===============1210606734035072310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-e73f0f0ee754-6880fa6c5660.txt
+  - ref: refs/heads/at24/for-next
+    old: 658ae44345c1b9b9e055c2e40464dc0260878462
+    new: 7629254054820bead6e18f8c3ae65c2bb01a5ae2
+    log: revlist-658ae44345c1-762925405482.txt
 
---===============8985609933756127033==
+--===============1210606734035072310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-658ae44345c1-762925405482.txt
 
-6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1050,5 +1049,6 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
+7629254054820bead6e18f8c3ae65c2bb01a5ae2 dt-bindings: at24: add ON Semi CAT24C04 and CAT24C05
 
---===============8985609933756127033==--
+--===============1210606734035072310==--
