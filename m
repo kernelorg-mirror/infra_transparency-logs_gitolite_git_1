@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Mon, 13 Sep 2021 15:43:23 -0000
-Message-Id: <163154780353.4794.1986608349380864786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 13 Sep 2021 15:50:01 -0000
+Message-Id: <163154820120.9742.14186187615513526628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/pidfd.pidfd_get_task
-    old: d77a935f52cbe467125c8e7bd1000aaec824c0e2
-    new: fd3fd0b4eb17f0ef3605d7bfd85ef7c97b93ec61
+  - ref: refs/heads/mediatek-cmdq-refinement
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: 64434aa6f8df8d0b8cb221265ba96ad8b8479fb5
     log: |
-         fd3fd0b4eb17f0ef3605d7bfd85ef7c97b93ec61 mm: use pidfd_get_task()
+         64434aa6f8df8d0b8cb221265ba96ad8b8479fb5 soc: mediatek: cmdq: Use mailbox rx_callback instead of cmdq_task_cb
          
