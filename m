@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 13 Sep 2021 23:27:45 -0000
-Message-Id: <163157566527.20007.16997223730856085819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 13 Sep 2021 23:32:05 -0000
+Message-Id: <163157592545.22842.13066412331328887035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
   - ref: refs/heads/master
-    old: fbaa21d29e7ca5447eb4509d302add4ecffb48e7
-    new: 222b0fbc13bbf2c36f81cb3c4310a01311c79ed4
+    old: 2f1aaf3ea666b737ad717b3d88667225aca23149
+    new: 0e6491b559704da720f6da09dd0a52c4df44c514
     log: |
-         222b0fbc13bbf2c36f81cb3c4310a01311c79ed4 Mon 13 Sep 2021 11:27:12 PM UTC
+         0e6491b559704da720f6da09dd0a52c4df44c514 bpf: Add oversize check before call kvcalloc()
          
