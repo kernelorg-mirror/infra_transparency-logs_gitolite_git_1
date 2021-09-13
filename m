@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7871804584405535994=="
+Content-Type: multipart/mixed; boundary="===============9069100624246041845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 13 Sep 2021 16:03:17 -0000
-Message-Id: <163154899747.18427.8765279775849344976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Mon, 13 Sep 2021 16:06:25 -0000
+Message-Id: <163154918583.20861.16321140659013757350@gitolite.kernel.org>
 
---===============7871804584405535994==
+--===============9069100624246041845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============7871804584405535994==
+--===============9069100624246041845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============7871804584405535994==--
+--===============9069100624246041845==--
