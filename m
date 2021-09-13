@@ -1,87 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5877436172540080650=="
+Content-Type: multipart/mixed; boundary="===============8040298764854574724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 13 Sep 2021 14:51:25 -0000
-Message-Id: <163154468509.3136.9036364019986991736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 13 Sep 2021 15:18:57 -0000
+Message-Id: <163154633798.21311.18424969785584680016@gitolite.kernel.org>
 
---===============5877436172540080650==
+--===============8040298764854574724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/rtc-next
-    old: 0c45d3e24ef3d3d87c5e0077b8f38d1372af7176
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-0c45d3e24ef3-6880fa6c5660.txt
+  - ref: refs/heads/dev
+    old: 15846e7d008e6e6f05160ef5f970c76ccbf2e963
+    new: 4f4471c88e783c38aeee44c9fcb446d57f6ddc5a
+    log: revlist-15846e7d008e-4f4471c88e78.txt
+  - ref: refs/heads/dev.2021.09.02a
+    old: 0000000000000000000000000000000000000000
+    new: 15846e7d008e6e6f05160ef5f970c76ccbf2e963
+  - ref: refs/tags/locking-debug-2021-09-01
+    old: 0000000000000000000000000000000000000000
+    new: 93127e2ef810e07b0298073bb74863e5698f1ae6
+  - ref: refs/tags/locking_urgent_for_v5.15_rc1
+    old: 0000000000000000000000000000000000000000
+    new: dae03ddbb5f22b7eb0a076fd733891e5b54baeb5
+  - ref: refs/tags/sched_urgent_for_v5.15_rc1
+    old: 0000000000000000000000000000000000000000
+    new: e65e71ca033f912483230dcb4dc549944d436eac
+  - ref: refs/tags/smp-urgent-2021-09-12
+    old: 0000000000000000000000000000000000000000
+    new: f76e073fc127edb27e3711a230a14f3e1df8d679
+  - ref: refs/tags/timers_urgent_for_v5.15_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1a1e130b0eb6da0a8e56596472010b0722e8423c
+  - ref: refs/tags/v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
 
---===============5877436172540080650==
+--===============8040298764854574724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c45d3e24ef3-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-15846e7d008e-4f4471c88e78.txt
 
-46a226b50ec3d5d9ff2f4399702ff6c1b427f824 Merge branch 'for-5.15/apple' into for-linus
-6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
-c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
-d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
-48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
-7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
-866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
-8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
-47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
-32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
-205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
-c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
-9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
-bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
-66abf5fb4cf713c6fdfccfbbabdcdf834f8bb9e2 net/sun3_82586: Fix return value of sun3_82586_probe()
-3f22bb137eb03ab27eaaa8b40d3e072eb541444e ipv6: change return type from int to void for mld_process_v2
-025efa0a82dfa79ac2b126f622ba9244f795e707 selftests: add simple GSO GRE test
-552799f8b3b0074d2617f53a63a088f9514a66e3 net: dsa: lantiq_gswip: fix maximum frame length
-d2cabd2dc8da78faf9b690ea521d03776686c9fe net: qrtr: revert check in qrtr_endpoint_post()
-9aca491e0dccf8a9d84a5b478e5eee3c6ea7803b Set fc_nlinfo in nh_create_ipv4, nh_create_ipv6
-b9edbfe1adecfc48fd11061dce68afb03d6adbdc flow: fix object-size-mismatch warning in flowi{4,6}_to_flowi_common()
-ecdc28defc46af476566fffd9e5cb4495a2f176e net: hso: add failure handler for add_net_device
-aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c net: usb: cdc_mbim: avoid altsetting toggling for Telit LN920
-cdb067d31c0fe4cce98b9d15f1f2ef525acaa094 net: dsa: b53: Fix calculating number of switch ports
-d12e1c4649883e8ca5e8ff341e1948b3b6313259 net: dsa: b53: Set correct number of ports in the DSA struct
-55a51ea14094a1e7dd0d7f33237d246033dd39ab block/mq-deadline: Move dd_queued() to fix defined but not used warning
-2d52c58b9c9bdae0ca3df6a1eab5745ab3f7d80b block, bfq: honor already-setup queue merges
-c4f3a3460a5daebc772d9263500e4099b11e7300 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
-4f89ff026ddbaab49dba993ad2dc757920d0ad49 ASoC: dt-bindings: fsl_rpmsg: Add compatible string for i.MX8ULP
-90c90cda05aecf0f7c45f9f35384b31bba38455f Merge tag 'xfs-5.15-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-f97a2103f1a75ca70f23deadb4d96a16c4d85e7d firmware: dmi: Move product_sku info to the end of the modalias
-d4e8e135a9af7d8d939bba1874ab314322fc2dc2 fs/ntfs3: Fix integer overflow in ni_fiemap with fiemap_prep()
-dd854e4b5b12016d27bfa2694226a1c15acbd640 fs/ntfs3: Remove unnecessary condition checking from ntfs_file_read_iter
-989e795bfe360cca0affb0a4224f37bd8494b46d fs/ntfs3: Remove GPL boilerplates from decompress lib files
-2e3a51b59ea26544303e168de8a0479915f09aa3 fs/ntfs3: Change how module init/info messages are displayed
-75ae663d053bddf7c70a24cccf53c83ae03deff8 iwlwifi: mvm: add rtnl_lock() in iwl_mvm_start_get_nvm()
-59dc33252ee777e02332774fbdf3381b1d5d5f5d PCI: VMD: ACPI: Make ACPI companion lookup work for VMD bus
-692a3b9a89947b27fc76d40b2613b33286a1690b cpufreq: acpi: Remove acpi_cpufreq_cpu_ready()
-9ab0a6cb76b998f5f2231e1c428bee3771893002 cpufreq: sh: Remove sh_cpufreq_cpu_ready()
-4bf8e582119ed9767f907abb6dc62ef9dddf10df cpufreq: Remove ready() callback
-89594c746b00d3755e0792a2407f0b557a30ef37 Merge tag 'fscache-next-20210829' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-17b121ad0c43342bc894632f6710b894849ca372 Documentation: ACPI: Align the SSDT overlays file with the code
-412106c203b759fa7fbcc4f855a90ab18e681ccb Merge tag 'erofs-for-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-fa209644a7124b3f4cf811ced55daef49ae39ac6 ACPI: PM: s2idle: Run both AMD and Microsoft methods if both are supported
-815409a12c0a9c0de17a910fd95fe11e1eb97f32 Merge tag 'ovl-update-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
 0da14a19493da0f9b4c5ee5930ab05a4c61f5883 x86/PCI: sta2x11: switch from 'pci_' to 'dma_' API
 111c1aa8cad4a0069dfe98fc093507b5b2cdfda7 Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 2f32c147a3816d789722c0bd242a9431332ec3ed iwlwifi Add support for ax201 in Samsung Galaxy Book Flex2 Alpha
@@ -928,6 +893,7 @@ fc111fb9a6da6baddf23930811210650824b8a88 cifs: update FSCTL definitions
 23e91d8b7c5ae2bbd3a4582ec12c6a0cfcb19e85 cifs: rename cifs_common to smbfs_common
 8d014f5fe98142b79dfa3bcd0d9483a5165f3570 cifs: move SMB FSCTL definitions to common code
 0c5483a5778fa9910538453b5a9f1a6ed49e95ad Input: analog - always use ktime functions
+0c45d3e24ef3d3d87c5e0077b8f38d1372af7176 rtc: rx8010: select REGMAP_I2C
 e5480572706da1b2c2dc2c6484eab64f92b9263b locking/rtmutex: Fix ww_mutex deadlock check
 9848417926353daa59d2b05eb26e185063dbac6e sched/idle: Make the idle timer expire in hard interrupt context
 868ad33bfa3bf39960982682ad3a0f8ebda1656e sched: Prevent balance_push() on remote runqueues
@@ -1050,5 +1016,60 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
+11e46f0804c406ff5cd67f5ed8387ee8a2f30b8a torture: Apply CONFIG_KCSAN_STRICT to kvm.sh --kcsan argument
+e0647fcf7be431b9af4127c8d98aea2854a9c088 scftorture: Allow zero weight to exclude an smp_call_function*() category
+fa56076ca8d2314c1bf98401a72558836a560e87 scftorture: Shut down if nonsensical arguments given
+8ab357a31ccf6edbe171a8ccb343ec2a4b69d1e3 scftorture: Account for weight_resched when checking for all zeroes
+a93a2af76d1a807d6a5984a92c9eac0d23b4f87e scftorture: Count reschedule IPIs
+dbf57636d3b2935963a0fe358888712fd9c53e53 torture: Make torture.sh print the number of files to be compressed
+be2b89db6e26a12e23a2001466545642d95d747f tools/rcu: Add an extract-stall script
+8d9ba90c247908870990d2b37d78514c663ac001 rcu: Mark accesses to rcu_state.n_force_qs
+f4de3d093f55afe3823703af62a4a643b7cbf8af rcu-nocb: Fix a couple of tree_nocb code-style nits
+a227a3656130443b46755a8d8a2081a03314e015 torture: Allot 1G of memory for scftorture runs
+bf2a9b711a536e8aa0d915b622e545baa16629af rcu: Eliminate rcu_implicit_dynticks_qs() local variable rnhqp
+7ec7bace5f8762748b4c22b5beae3a400cff0bd9 rcu: Eliminate rcu_implicit_dynticks_qs() local variable ruqp
+b72b2829be86ff69d702d824d15c3a2059af8b54 doc: Add another stall-warning root cause in stallwarn.rst
+9563ee542bf3cfabf2462e9e4153bec5aa664d41 rcu: Fix undefined Kconfig macros
+cf29e9dfc2abb1c48d2c8c1768e8b092933cc734 rcu: Comment rcu_gp_init() code waiting for CPU-hotplug operations
+dfbfd4fa0355fe8e8d3b33b11b1116a810488082 clocksource: Forgive repeated long-latency watchdog clocksource reads
+e737fc9f130dc013d73eb1fb7d5b066094956c38 rcu-tasks: Wait for trc_read_check_handler() IPIs
+73a2ffd0ccf65e34d8daea5f1aadacb83fc32cb9 rcu-tasks: Simplify trc_read_check_handler() atomic operations
+ab9122271b7f7784892496df641ee4ec2035e58c rcu-tasks: Add trc_inspect_reader() checks for exiting critical section
+cdc396c8d212a56e995fe92b5bdf1e1d37a547fe rcu-tasks: Remove second argument of rcu_read_unlock_trace_special()
+6e585f5fcda06a83615ef8c2081a60d60e674f17 rcu: Move rcu_dynticks_eqs_online() to rcu_cpu_starting()
+8ee460c57c4b5d289bf463b9b9bb450401180ead rcu: Simplify rcu_report_dead() call to rcu_report_exp_rdp()
+be0260255570a06e93c9161a25e9b5893c9f1a06 rcu: Make rcutree_dying_cpu() use its "cpu" parameter
+e5df8041d81f39c6aa23dcd5a4538aeb118e2849 rcutorture: Suppressing read-exit testing is not an error
+4702c2bfaa35337a0a4df7a397cdb75106fb58d3 rcu-tasks: Fix s/instruction/instructions/ typo in comment
+0279c988c4d7109cf4fe6aaabb6d10bd4bbf78e1 torture: Make kvm-remote.sh print size of downloaded tarball
+8c02736b0c58987b6e4c3c288485d630c4bbb823 rcutorture: Warn on individual rcu_torture_init() error conditions
+f7079badca90f95e7eff8b5396ec1a742b86d7c4 locktorture: Warn on individual lock_torture_init() error conditions
+857264efdec14296741fdf33285d2afdac02b6fd refscale: Warn on individual ref_scale_init() error conditions
+74ab08d79b86f6dc2a7065285fce021a14230b33 rcuscale: Warn on individual rcu_scale_init() error conditions
+f34dc36ab576b62e85b907e08e7294cb236c5afb scftorture: Warn on individual scf_torture_init() error conditions
+aaebbbb82702c047b3036c0506f383c7c8556ee3 rcutorture: Don't cpuhp_remove_state() if cpuhp_setup_state() failed
+6341af1e9381c53e1c47bdca3c59bcd162f11325 rcu: Make rcu_normal_after_boot writable again
+007d39e8190e984048bc3012bf11d9989572a189 rcu: Make rcu update module parameters world-readable
+fc748a74c18e1d5d633c78ace83a59a80a8d9e21 rcu-tasks: Move RTGS_WAIT_CBS to beginning of rcu_tasks_kthread() loop
+454a8abacd546ab145d5f5378df0f32a6cb58e09 kcsan: test: Defer kcsan_test_init() after kunit initialization
+de9bb98baab826dd74cb38bc8100e05e45479c1e kcsan: test: Use kunit_skip() to skip tests
+1059c8338463563b8834ac16efecb3398cd721c8 kcsan: test: Fix flaky test case
+c7a703062d70a15da8e17165ccbdef26b01c14d6 kcsan: Add ability to pass instruction pointer of access to reporting
+98684fa2c3d81f5498488c39da3ab531ffc83789 kcsan: Save instruction pointer for scoped accesses
+69d81b34dd3070984974aec357350a4acb13ea62 kcsan: Start stack trace with explicit location if provided
+d4e8a683d67ff8982809cc3b416cd8a65f2e256e kcsan: Support reporting scoped read-write access type
+9ad717e8b5d2fbf3feac6d418894a34419cf0002 kcsan: Move ctx to start of argument list
+9c11b717af331cab21215cf6567b9bed7ebfe0cc kcsan: selftest: Cleanup and add missing __init
+9135b85ae98c8ba4cb6482e030e15662e3f18158 rcu-tasks: Fix s/rcu_add_holdout/trc_add_holdout/ typo in comment
+545864d99770f346c35cb4d01660cc34352eaa72 rcu-tasks: Correct firstreport usage in check_all_holdout_tasks_trace
+ce23062da1ed6d965a5752785c96b5cb6d43b296 rcu-tasks: Correct check for no_hz_full cpu in show_stalled_task_trace
+f1951b8b205cf1d371a73814b2efc2615c8948d5 rcu-tasks: Clarify read side section info for rcu_tasks_rude GP primitives
+a11626f1262ec1dea0c1b25aaf0a9f17031db2f1 rcu: Fix existing exp request check in sync_sched_exp_online_cleanup()
+0b08ae2b42e169e7d5199dd69d48e1349d97aa49 rcu-tasks: Fix read-side primitives comment for call_rcu_tasks_trace
+a96eb1f80ca690aa4ca88c7ee2680e651a0ffe6d rcutorture: Avoid problematic critical section nesting on PREEMPT_RT
+dfa8f6f5286125d9de82df6554fa5d3e60133c47 rcu: Avoid unneeded function call in rcu_read_unlock()
+9a41381414585f991e68344f82d07f4f2431a64f rcu-tasks: Fix IPI failure handling in trc_wait_for_one_reader
+dd1b862798567c7a8a844fc18f820d26d49ccb6f hrtimer: Don't apply offset to KTIME_MAX values
+4f4471c88e783c38aeee44c9fcb446d57f6ddc5a EXP softirq: More aggressively update tick
 
---===============5877436172540080650==--
+--===============8040298764854574724==--
