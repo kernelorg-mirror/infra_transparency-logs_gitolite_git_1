@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4641322804615403286=="
+Content-Type: multipart/mixed; boundary="===============7801652687539674219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 13 Sep 2021 07:41:45 -0000
-Message-Id: <163151890521.14882.17314342404047763379@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 07:41:52 -0000
+Message-Id: <163151891240.14965.547623175806437366@gitolite.kernel.org>
 
---===============4641322804615403286==
+--===============7801652687539674219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 2f658f7a3953f6d70bab90e117aff8d0ad44e200
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     log: revlist-2f658f7a3953-6880fa6c5660.txt
 
---===============4641322804615403286==
+--===============7801652687539674219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============4641322804615403286==--
+--===============7801652687539674219==--
