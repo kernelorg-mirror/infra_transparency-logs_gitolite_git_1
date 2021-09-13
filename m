@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8734985404524310325=="
+Content-Type: multipart/mixed; boundary="===============4260024321232807352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 13 Sep 2021 14:26:41 -0000
-Message-Id: <163154320183.19276.12537138212370857671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 13 Sep 2021 14:37:18 -0000
+Message-Id: <163154383862.25429.7158980734504276951@gitolite.kernel.org>
 
---===============8734985404524310325==
+--===============4260024321232807352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: 67d69e9d1a6c889d98951c1d74b19332ce0565af
+  - ref: refs/heads/dev-test
+    old: 1266b4a7ecb679587dc4d098abe56ea53313d569
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-67d69e9d1a6c-6880fa6c5660.txt
+    log: revlist-1266b4a7ecb6-6880fa6c5660.txt
 
---===============8734985404524310325==
+--===============4260024321232807352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67d69e9d1a6c-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-1266b4a7ecb6-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============8734985404524310325==--
+--===============4260024321232807352==--
