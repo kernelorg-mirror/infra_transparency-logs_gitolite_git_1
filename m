@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7855343938861440754=="
+Content-Type: multipart/mixed; boundary="===============7159834009168447539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 13 Sep 2021 07:16:09 -0000
-Message-Id: <163151736968.29006.6205125165305983623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 13 Sep 2021 07:23:02 -0000
+Message-Id: <163151778225.1650.11165180592836875085@gitolite.kernel.org>
 
---===============7855343938861440754==
+--===============7159834009168447539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 9b87f43537acfa24b95c236beba0f45901356eb2
+  - ref: refs/heads/review-hans
+    old: 0487d4fc42d7f31a56cfd9e2237f9ebd889e6112
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-9b87f43537ac-6880fa6c5660.txt
+    log: revlist-0487d4fc42d7-6880fa6c5660.txt
 
---===============7855343938861440754==
+--===============7159834009168447539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b87f43537ac-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-0487d4fc42d7-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============7855343938861440754==--
+--===============7159834009168447539==--
