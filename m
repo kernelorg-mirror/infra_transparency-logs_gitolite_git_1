@@ -1,72 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============2987993077121243472=="
+Content-Type: multipart/mixed; boundary="===============2302586661942508624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 13 Sep 2021 01:01:34 -0000
-Message-Id: <163149489462.21831.10080088529457484121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Mon, 13 Sep 2021 01:15:26 -0000
+Message-Id: <163149572681.30926.5309299554844013170@gitolite.kernel.org>
 
---===============2987993077121243472==
+--===============2302586661942508624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/blk-crypto-cleanup
-    old: 4301e2fb08b8aba5e6f15de84550723c4aa79a85
-    new: 9b02d0724e167676ceb87862a1a68fdff5fcb2e8
-    log: revlist-4301e2fb08b8-9b02d0724e16.txt
+  - ref: refs/heads/pending-4.4
+    old: 1f942289a34c4addb1ba3d6595dbd91e6e1500a7
+    new: 68ffcbc724e3b0d97fb32e732ba992e7ea0c4840
+    log: revlist-1f942289a34c-68ffcbc724e3.txt
 
---===============2987993077121243472==
+--===============2302586661942508624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4301e2fb08b8-9b02d0724e16.txt
+Content-Disposition: attachment; filename=revlist-1f942289a34c-68ffcbc724e3.txt
 
-c784e46c8445635afd81bd4089fc5e87271a8f3b auxdisplay: Add I2C gpio expander example
-7ed012969bbcdbd7aef5778a061681e6cbc4b402 Compiler Attributes: fix __has_attribute(__no_sanitize_coverage__) for GCC 4
-333ff32d54cdefc2e479892e7f15ac91e026b57d auxdisplay: hd44780: Fix oops on module unloading
-ac8c8fa0a8c3a7bc0a9a9cc44ab3650d98662754 auxdisplay: charlcd: Drop unneeded initializers and switch to C99 style
-f885afe28d20b66341a8f55b10367312c1d6b686 auxdisplay: ks0108: Switch to use module_parport_driver()
-24ebc044c72ee6e88dc902a0041bac672f012537 auxdisplay: Replace symbolic permissions with octal permissions
-1ca70b24afb999376bee3cf3b4a52732988fa0d7 MAINTAINERS: add Nick as Reviewer for compiler_attributes.h
-b83a908498d68fafca931e1276e145b339cac5fb compiler_attributes.h: move __compiletime_{error|warning}
-bb91de44693b1c10fe2f9e668506b01e88efed0e perf beauty: Update copy of linux/socket.h with the kernel sources
-64f4535166aa11d5bad53a058af036f2e216ad17 tools headers UAPI: Sync files changed by new process_mrelease syscall and the removal of some compat entry points
-3e11300cdfd5f1bc13a05dfc6dccf69aca5dd1dc perf test: Fix bpf test sample mismatch reporting
-51ae7fa62dcb0ab96ea5f83aec254a1fb6d4d371 perf scripts python: Fix passing arguments to stackcollapse report
-d2930ede5218be28413a00130a6895d14393c325 perf symbol: Look for ImageBase in PE file to compute .text offset
-9fe8895a27a840095281864803b128ddc26dcd30 perf env: Add perf_env__cpuid, perf_env__{nr_}pmu_mappings
-dde994dd54fbf84f8fd14230de3477d552e42470 perf report: Add tools/arch/x86/include/asm/amd-ibs.h
-291dcb98d7ee5cd719f4c5991d977794b1829c16 perf report: Add support to print a textual representation of IBS raw sample data
-03d6f3fe54278f8e5ec670e576b8da8b8727ec26 tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
-dfa00459c6264abd282452c4878e3a9117db23bb tools headers UAPI: Sync linux/kvm.h with the kernel sources
-f9f018e4d9a45a5464861418467b21d3d2ad569c tools include UAPI: Sync sound/asound.h copy with the kernel sources
-2c3ef25c4a60cc18cf3f05a74c78220748f25684 tools headers UAPI: Sync linux/prctl.h with the kernel sources
-155ed9f1b5ff62dd78f102559298a017a7e189c5 perf beauty: Cover more flags in the  move_mount syscall argument beautifier
-37ce9e4fc596cf10a4d32ced741679bd1b4fa7a5 tools include UAPI: Update linux/mount.h copy
-218e7b775d368f38d85d73e52900b082f004e5f1 perf bpf: Provide a weak btf__load_from_kernel_by_id() for older libbpf versions
-da4572d62d389f6665b86466b993ccc157b40715 perf tools: Ignore Documentation dependency file
-eb34363ae1c0f62cf3183c4697533d6c482d1598 perf tools: Fix perf_event_attr__fprintf() missing/dupl. fields
-a7d212fc6c89d1619b9441f4c801cbff8ca34197 perf tools: Factor out copy_config_terms() and free_config_terms()
-99fc5941b835d662eb2e91d8b61249e9a51df9f0 perf tools: Fix hybrid config terms list corruption
-4a86d41404005a3c7e7b6065e8169ac6202887a9 perf tools: Allow build-id with trailing zeros
-0d1c50ac488ebdaeeaea8ed5069f8d435fd485ed perf tools: Add an option to build without libbfd
-ee286c60c268aed03bac4686ebb47f1534b4b2e2 tools headers UAPI: Sync linux/in.h copy with the kernel sources
-2bae3e64ec465cd545c5cbec74335eb44f97c177 tools headers UAPI: Sync linux/fs.h with the kernel sources
-4dc24d7cf4983ae779f4a4428e527441225315e9 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
-17a99e521f67743a5d3405cba0aacd8a10f9ff7d tools headers UAPI: Update tools's copy of drm.h headers
-d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-rc1' of git://github.com/ojeda/linux
-c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
-b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-73fae2b2f06260df76176f7770db4698b8a39c61 blk-crypto-fallback: properly prefix function and struct names
-fea2162995b96e7c93617fe5067258b12e7dcc57 blk-crypto-fallback: consolidate static variables
-aa028fcb2453918a63c764d36e59e95ed9b456ff blk-crypto: rename keyslot-manager files to blk-crypto-profile
-5ad695fb40ba5a81c492c473de45a7a02e3c2bfa blk-crypto: rename blk_keyslot_manager to blk_crypto_profile
-9b02d0724e167676ceb87862a1a68fdff5fcb2e8 blk-crypto: update inline encryption documentation
+657826741b878a286814cf81f878b3eca967405b crypto: mxs-dcp - Check for DMA mapping errors
+02d597b65695b91c8b472930c0a5c63b9d9dbb95 crypto: omap-sham - clear dma flags only after omap_sham_update_dma_stop()
+61202d25c851c352e166cf171f2a0de60b312a16 power: supply: max17042_battery: fix typo in MAx17042_TOFF
+a80d08a27d159af8667eb0e26d9057b9cf71a45d libata: fix ata_host_start()
+b2410ba684d2269bb329a16699b2037495930372 crypto: qat - do not ignore errors from enable_vf2pf_comms()
+0d59f34d25f69bb3513e3493d233c7c03ebe731c crypto: qat - fix reuse of completion variable
+5f8033f94420950b5fc4b91dd2154c00fc88d44e crypto: qat - do not export adf_iov_putmsg()
+eaf643205e4cff81ec5bc4d5488af274290a146c udf_get_extendedattr() had no boundary checks.
+35d65414a1a0a4735c61df01657b4ac6ae4ef8dd m68k: emu: Fix invalid free in nfeth_cleanup()
+03c41afec21d9451af4fbe1c39ca84a35cec5bbe certs: Trigger creation of RSA module signing key if it's not an RSA key
+b84a467a711d4bb32d7597b616d5e19f86f85fc0 media: dvb-usb: fix uninit-value in dvb_usb_adapter_dvb_init
+a8a6717506c68e99df1d0937be23e8d163fb4832 media: dvb-usb: fix uninit-value in vp702x_read_mac_addr
+e56f02c7ae5c3e322618be9664a0e9348b511a85 media: go7007: remove redundant initialization
+2a3f1e46638e0bb866048a8eca1a94270e88156b Bluetooth: sco: prevent information leak in sco_conn_defer_accept()
+48dbb410e6e20b3e197d756229309edf636cf94c tcp: seq_file: Avoid skipping sk during tcp_seek_last_pos
+a2d87079063803ea01d283d72b9e17324a066d1f net: cipso: fix warnings in netlbl_cipsov4_add_std
+83771d502beb59c79d861c8e0e92c7f8b68d8a98 i2c: highlander: add IRQ check
+129c05062fc9f0e714ef62b554c0173d283a8959 PCI: PM: Enable PME if it can be signaled from D3cold
+17993d4ff0d31515f534fe5ec7327df34c8f1c5e Bluetooth: increase BTNAMSIZ to 21 chars to fix potential buffer overflow
+1f36e97196bd20a954db8e561eaa031d9992b222 arm64: dts: exynos: correct GIC CPU interfaces address range on Exynos7
+81934a294644c2a079a9c913f060c8b3e0b5f5d9 Bluetooth: fix repeated calls to sco_sock_kill
+078597d90b4e5f30af9c41981970cb355d1e9e70 drm/msm/dsi: Fix some reference counted resource leaks
+825c68c2da280317260968741c9fc97057fb88aa usb: gadget: udc: at91: add IRQ check
+4ac4dc5de746978563ebbee1ba54c3359c2bba0f usb: phy: fsl-usb: add IRQ check
+5247a6dd700c8602a663b9a27d259526a71c1a09 usb: phy: twl6030: add IRQ checks
+553e00546deff6a19e803306d48c8d188410e5ca Bluetooth: Move shutdown callback before flushing tx and rx queue
+1c70c60b22a90a68e2a6bcb4b366851485affab0 usb: host: ohci-tmio: add IRQ check
+79258e3e7763903170f8b783ba66591fde16044e usb: phy: tahvo: add IRQ check
+57cfa90de53bbbdbb616c15e9eb3c79c29cbc209 usb: gadget: mv_u3d: request_irq() after initializing UDC
+f77acf6e01a5bf61beca940fc632f7927331fcb9 Bluetooth: add timeout sanity check to hci_inquiry
+4a64732f93827a1afde5ab19f03246afaca62564 i2c: iop3xx: fix deferred probing
+d5bd7677a738398a263fb5910fb3fd8aa9360101 i2c: s3c2410: fix IRQ check
+378031f09ff51c6ce2aa36a4251f65f9fd1025a8 mmc: dw_mmc: Fix issue with uninitialized dma_slave_config
+1797c7d2b848c0908697f7029441fe6788702831 mmc: moxart: Fix issue with uninitialized dma_slave_config
+ea8da6296aaed4027863cd433a513914b9dbe52c CIFS: Fix a potencially linear read overflow
+7b5f74598589f6e875400dcdccfef47a08ae4cdc i2c: mt65xx: fix IRQ check
+a268f61eeac14400b4ae42fbf6bcfcf58d43253f usb: ehci-orion: Handle errors of clk_prepare_enable() in probe
+8ac7efb4f53f3a71fd66f0ec7647f844350303ac ath6kl: wmi: fix an error code in ath6kl_wmi_sync_point()
+76309f7c31471f6bb03a5b74885bb57f1a607c14 bcma: Fix memory leak for internally-handled cores
+68ffcbc724e3b0d97fb32e732ba992e7ea0c4840 ipv4: make exception cache less predictible
 
---===============2987993077121243472==--
+--===============2302586661942508624==--
