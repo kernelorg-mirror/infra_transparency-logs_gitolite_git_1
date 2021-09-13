@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1442354655918504761=="
+Content-Type: multipart/mixed; boundary="===============2708766893356743712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 13 Sep 2021 07:44:48 -0000
-Message-Id: <163151908895.16253.12767183553891878298@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 07:44:58 -0000
+Message-Id: <163151909862.16336.14355540191118110304@gitolite.kernel.org>
 
---===============1442354655918504761==
+--===============2708766893356743712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: a65ab973c1669d3edc27719527bb3906f7b09918
+  - ref: refs/heads/master
+    old: ff1176468d368232b684f75e82563369208bc371
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-a65ab973c166-6880fa6c5660.txt
+    log: revlist-ff1176468d36-6880fa6c5660.txt
 
---===============1442354655918504761==
+--===============2708766893356743712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a65ab973c166-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-ff1176468d36-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============1442354655918504761==--
+--===============2708766893356743712==--
