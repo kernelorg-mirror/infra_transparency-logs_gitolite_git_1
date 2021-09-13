@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8904190713283013103=="
+Content-Type: multipart/mixed; boundary="===============5872600099869974739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 13 Sep 2021 18:12:38 -0000
-Message-Id: <163155675844.7027.16243266442556735895@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 18:16:30 -0000
+Message-Id: <163155699040.9769.5194971766581735793@gitolite.kernel.org>
 
---===============8904190713283013103==
+--===============5872600099869974739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: b1e202503508d5b66bf1532bea36b5776b00d869
-    new: dd2c898bc20bdb46ec59eefafc8fdd86a93b6b8c
-    log: revlist-b1e202503508-dd2c898bc20b.txt
+  - ref: refs/heads/master
+    old: d992fe5318d8d7af9510b879439a3c7f283da442
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-d992fe5318d8-6880fa6c5660.txt
+  - ref: refs/tags/v5.14
+    old: 0000000000000000000000000000000000000000
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+  - ref: refs/tags/v5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53371b959e5823998cd617e74b585e7d328f5840
+  - ref: refs/tags/v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
 
---===============8904190713283013103==
+--===============5872600099869974739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1e202503508-dd2c898bc20b.txt
+Content-Disposition: attachment; filename=revlist-d992fe5318d8-6880fa6c5660.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
+c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
+d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
+48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
 7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
@@ -1043,12 +1059,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-ecc4103f32e9e2ea8d13ff89fb3d101c94893f50 dt-binding: usb: xilinx: Convert binding to YAML
-0e3e0fa76609aa2ea7e1fb78944b63fbf1460594 dt-bindings: memory: fsl: convert DDR controller to dtschema
-bf99826f239edf9e9471a25a62e3ed00a0f28c8c dt-bindings: Convert Reserved Memory binding to a schema
-ddf6cc9a729567114341da7220c5efb5fbcc2339 dt-bindings: arm: Convert ARM CCI-400 binding to a schema
-caa80275c6485895f0deff61ec9e4ba3cf2e8d07 dt-bindings: gnss: Convert UBlox Neo-6M binding to a schema
-e978d5271f7138b6d7c1dd90fe1b5492bc594b8b dt-bindings: media: ti,cal: Fix example
-dd2c898bc20bdb46ec59eefafc8fdd86a93b6b8c dt-bindings: w1: Convert 1-Wire GPIO binding to a schema
 
---===============8904190713283013103==--
+--===============5872600099869974739==--
