@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 13 Sep 2021 20:31:06 -0000
-Message-Id: <163156506632.2769.8759415670875415143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 13 Sep 2021 20:36:58 -0000
+Message-Id: <163156541862.5999.6046115527657788597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 0000000000000000000000000000000000000000
-    new: a33082bd198c21dada3f05913a116538b5d758b6
+  - ref: refs/heads/master
+    old: 1e0d53945d1e26fba4532fb1d3772feefcc8b345
+    new: 3b3d653d3106cf605b4bf694d75998183d2d37f8
+    log: |
+         3b3d653d3106cf605b4bf694d75998183d2d37f8 bpf, selftests: Replicate tailcall limit test for indirect call case
+         
