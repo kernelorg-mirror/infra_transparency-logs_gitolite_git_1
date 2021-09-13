@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1937631996383567859=="
+Content-Type: multipart/mixed; boundary="===============4256461240234469471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 13 Sep 2021 10:44:06 -0000
-Message-Id: <163152984661.24541.4197887384161578903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 13 Sep 2021 10:44:13 -0000
+Message-Id: <163152985357.24636.18083853049496574490@gitolite.kernel.org>
 
---===============1937631996383567859==
+--===============4256461240234469471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
-    old: becbca18ae8fc86f8c379be11692fe8e25748bf8
-    new: 9722162f0103949b9a9c7c1463874d919c5bed13
+  - ref: refs/heads/spi-5.15
+    old: 26cfc0dbe43aae60dc03af27077775244f26c167
+    new: 2bab94090b01bc593d8bc25f68df41f198721173
     log: |
-         ff4daa7dd7e624a989dc882f7dcce6d8818b1036 dt-bindings: spi: Document Ingenic SPI controller bindings
-         ae5f94cc00a7fdce830fd4bfe7a8c77ae7704666 SPI: add Ingenic JZ47xx driver.
-         7b3fd8109b5d343b535e796328223b4f1c4aff5c MIPS: JZ4780: CI20: DTS: add SPI controller config
-         ca8e8a18272e7b57b62db5db8fcf1f5218b89a98 spi: amd: Refactor code to use less spi_master_get_devdata
-         356b02f9ec3a7304d6c54c4df20cd37b0a22021e spi: amd: Refactor amd_spi_busy_wait
-         3b02d2890bc5eb974346cc287e1732f62a096598 spi: amd: Remove unneeded variable
-         777a2cbbaf1c6685ace7e2ce846796e9425ab320 spi: amd: Don't wait for a write-only transfer to finish
-         9722162f0103949b9a9c7c1463874d919c5bed13 Merge series "Support for Ingenic JZ47xx SPI controller" from Artur Rojek <contact@artur-rojek.eu>:
+         5457773ef99f25fcc4b238ac76b68e28273250f4 spi: rockchip: handle zero length transfers without timing out
+         2bab94090b01bc593d8bc25f68df41f198721173 spi: tegra20-slink: Declare runtime suspend and resume functions conditionally
          
+  - ref: refs/heads/spi-5.16
+    old: 0000000000000000000000000000000000000000
+    new: 9722162f0103949b9a9c7c1463874d919c5bed13
 
---===============1937631996383567859==
+--===============4256461240234469471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1631529808 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1631529844-d460ea5136942b4dc69f1dc803c825d3f177060b
+pusher C3F436CA30F5D8EB 1631529814 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1631529851-05146aeb30338bb5dd4891c580556c646534fbeb
 
-becbca18ae8fc86f8c379be11692fe8e25748bf8 9722162f0103949b9a9c7c1463874d919c5bed13 refs/heads/for-5.16
+26cfc0dbe43aae60dc03af27077775244f26c167 2bab94090b01bc593d8bc25f68df41f198721173 refs/heads/spi-5.15
+0000000000000000000000000000000000000000 9722162f0103949b9a9c7c1463874d919c5bed13 refs/heads/spi-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmE/K1AACgkQJNaLcl1U
-h9CoXAgAhnhxBrh6AoT2yw9zszk84o/XGaXUd4OcIJmBNlRFevl2gf0QuSL/jb/D
-mH+9mvQtWPymPC0rwsLvBguVDpUBti3gS3VU+IuiS2GMHRCP2gnHdLAAxY9EgRhW
-k0mmF319Jw7nSDri8/pzhBalJoURX9dTpsPG2AVdyITnnX018sufvOpK7AsZwhe3
-TAohlbgpj5XR2+uVXCBlTfYInVKF+6ZqdKSjfuEatkopl565rUgvUw9yDkSo3L/F
-c3zBHWY3YvPDX9wFp8LzkSM7ERnJceRhQ9jgSysx3ct/ucHbYAuXDxAh87VtiuZA
-DiU/1hN0UV2iD+2DazVS5Cssq8ON3g==
-=Rf7p
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmE/K1YACgkQJNaLcl1U
+h9AfHgf+PCuDg6+HpTp7H4DA7sqSgKz+9U3HMm830XVFC696Jk0Gia9tWqFx0a2T
+RlGPZJHeua47wNKJtem7Xll19Gr9Q6FTcEwU9FJCj+gRXcQpSFWFcOtOtWkx9fIz
+zicj5N7cX90/HnrwYqfVQMsTh4jxyWU3yS4mPyW9rxdVz9x4bSgTKKgNdg4hLFFq
+fLhuoAiUIACx3zj3F/kL9JL6FncUHVU06htd7UzjFoTYBdRbV2xkjvsM5XO+QI+u
+Y16kSvtGA7VCdpF4pr+jASMAbiTVEEoqQCO7yvTLU/FPEmxK83aOWzDXlbNwYrqp
+QlyuybZZuXIAE2wICbLFiVNZMSuo8w==
+=+uwr
 -----END PGP SIGNATURE-----
 
---===============1937631996383567859==--
+--===============4256461240234469471==--
