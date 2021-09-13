@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2924748892217242643=="
+Content-Type: multipart/mixed; boundary="===============1316221982942672999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 13 Sep 2021 20:42:30 -0000
-Message-Id: <163156575041.9373.5123197503387406130@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 20:44:09 -0000
+Message-Id: <163156584923.9933.9253565427434363949@gitolite.kernel.org>
 
---===============2924748892217242643==
+--===============1316221982942672999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 27151f177827d478508e756c7657273261aaf8a9
     new: 13bb8429ca985497bfba3a4afa6cd470d15fed10
     log: revlist-27151f177827-13bb8429ca98.txt
 
---===============2924748892217242643==
+--===============1316221982942672999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -507,4 +507,4 @@ d1c624ebaa5113e5e80f63d55c1ddc19324b3b66 nfc: mrvl: drop unneeded memory allocat
 08c53aee26d4413b860f5042873b56ecc959c42c Merge branch 'nfc-printk-cleanup'
 13bb8429ca985497bfba3a4afa6cd470d15fed10 net: wwan: iosm: firmware flashing and coredump collection
 
---===============2924748892217242643==--
+--===============1316221982942672999==--
