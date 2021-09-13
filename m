@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4041855776782171020=="
+Content-Type: multipart/mixed; boundary="===============7034661121639181934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 13 Sep 2021 10:45:11 -0000
-Message-Id: <163152991123.26665.13790173623349318506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 13 Sep 2021 10:45:30 -0000
+Message-Id: <163152993029.26857.4400064990323331510@gitolite.kernel.org>
 
---===============4041855776782171020==
+--===============7034661121639181934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 7cb623f775d5c2f211ac9612a15ee9d1fef8e2c4
-    new: 18844b7517c82bb594dc3a241c070e897b66d987
-    log: revlist-7cb623f775d5-18844b7517c8.txt
+    old: 2b75df2d9c87b06e3ece5e7f21c68213cfa110cd
+    new: c6636bc07565c0ab3173ca3413cf0c8c1abc9c6f
+    log: revlist-2b75df2d9c87-c6636bc07565.txt
   - ref: refs/heads/for-next
-    old: 7cb623f775d5c2f211ac9612a15ee9d1fef8e2c4
-    new: fa108e34d765c7f0a100d41bbebec9f24442eee2
-    log: revlist-7cb623f775d5-fa108e34d765.txt
+    old: 2b75df2d9c87b06e3ece5e7f21c68213cfa110cd
+    new: 69dde9e5a8350d927df586b67cabf0d5945ef7a8
+    log: revlist-2b75df2d9c87-69dde9e5a835.txt
 
---===============4041855776782171020==
+--===============7034661121639181934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb623f775d5-18844b7517c8.txt
+Content-Disposition: attachment; filename=revlist-2b75df2d9c87-c6636bc07565.txt
 
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
@@ -1053,17 +1053,14 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-18844b7517c82bb594dc3a241c070e897b66d987 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
+c6636bc07565c0ab3173ca3413cf0c8c1abc9c6f Merge remote-tracking branch 'spi/for-5.15' into spi-linus
 
---===============4041855776782171020==
+--===============7034661121639181934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb623f775d5-fa108e34d765.txt
+Content-Disposition: attachment; filename=revlist-2b75df2d9c87-69dde9e5a835.txt
 
-4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
-7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
-866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
 8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
 47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
@@ -2077,13 +2074,16 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-c33e65cbbdc05bd798ca9d01011ed8441aa2a249 Merge existing fixes from regulator/for-5.15
-b36c6b1887ffc6b58b556120bfbd511880515247 regulator: ti-abb: Make use of the helper function devm_ioremap related
-b36061c2ea5bdacf51305f8bc79f29595b343eb6 regulator: ti-abb: Kconfig: Add helper dependency on COMPILE_TEST
-6998c575b6dc26275b61987a3d70a8a4c976048b regulator: vqmmc-ipq4019: Make use of the helper function devm_platform_ioremap_resource()
-adea283117225281ecf537171a06dd6e430bd8db regulator: core: resolve supply voltage deferral silently
-b1c36aae51c951af1c011de0b4f15bab06e82a52 regulator: Convert SY8106A binding to a schema
-18844b7517c82bb594dc3a241c070e897b66d987 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
-fa108e34d765c7f0a100d41bbebec9f24442eee2 Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
+becbca18ae8fc86f8c379be11692fe8e25748bf8 Merge existing fixes from spi/for-5.15
+ff4daa7dd7e624a989dc882f7dcce6d8818b1036 dt-bindings: spi: Document Ingenic SPI controller bindings
+ae5f94cc00a7fdce830fd4bfe7a8c77ae7704666 SPI: add Ingenic JZ47xx driver.
+7b3fd8109b5d343b535e796328223b4f1c4aff5c MIPS: JZ4780: CI20: DTS: add SPI controller config
+ca8e8a18272e7b57b62db5db8fcf1f5218b89a98 spi: amd: Refactor code to use less spi_master_get_devdata
+356b02f9ec3a7304d6c54c4df20cd37b0a22021e spi: amd: Refactor amd_spi_busy_wait
+3b02d2890bc5eb974346cc287e1732f62a096598 spi: amd: Remove unneeded variable
+777a2cbbaf1c6685ace7e2ce846796e9425ab320 spi: amd: Don't wait for a write-only transfer to finish
+9722162f0103949b9a9c7c1463874d919c5bed13 Merge series "Support for Ingenic JZ47xx SPI controller" from Artur Rojek <contact@artur-rojek.eu>:
+c6636bc07565c0ab3173ca3413cf0c8c1abc9c6f Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+69dde9e5a8350d927df586b67cabf0d5945ef7a8 Merge remote-tracking branch 'spi/for-5.16' into spi-next
 
---===============4041855776782171020==--
+--===============7034661121639181934==--
