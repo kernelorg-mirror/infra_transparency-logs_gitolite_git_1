@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2222521260845353060=="
+Content-Type: multipart/mixed; boundary="===============7871804584405535994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 13 Sep 2021 16:03:06 -0000
-Message-Id: <163154898637.18291.18217191474529840737@gitolite.kernel.org>
+Date: Mon, 13 Sep 2021 16:03:17 -0000
+Message-Id: <163154899747.18427.8765279775849344976@gitolite.kernel.org>
 
---===============2222521260845353060==
+--===============7871804584405535994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-next
-    old: 74f671aed9e7f624308e0238b582b490b1180150
-    new: 536267aafb8aeaa8c5bc4c44105ecf7a6b95c27b
-    log: revlist-74f671aed9e7-536267aafb8a.txt
+  - ref: refs/heads/master
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============2222521260845353060==
+--===============7871804584405535994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74f671aed9e7-536267aafb8a.txt
+Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1049,6 +1050,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-536267aafb8aeaa8c5bc4c44105ecf7a6b95c27b nvmem: core: Add stubs for nvmem_cell_read_variable_le_u32/64 if !CONFIG_NVMEM
 
---===============2222521260845353060==--
+--===============7871804584405535994==--
