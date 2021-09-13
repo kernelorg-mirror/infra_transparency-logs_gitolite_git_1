@@ -1,19 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Mon, 13 Sep 2021 23:39:49 -0000
-Message-Id: <163157638904.26689.4869597834547908585@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3893405410811691176=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 13 Sep 2021 23:42:14 -0000
+Message-Id: <163157653498.28834.3908540884842025190@gitolite.kernel.org>
+
+--===============3893405410811691176==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: d5e76a8671c467851bcb3d11832c6262b26518d1
-    new: bfa50cf1f2598b8645dc78337b5a20372824a40f
-    log: |
-         bfa50cf1f2598b8645dc78337b5a20372824a40f x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
-         
+  - ref: refs/heads/net-rc
+    old: 752c30df9b8984ba69710e910b45da9121c2b9a5
+    new: eab30bedb3f0df6a69b2d8ab07c0615185348902
+    log: revlist-752c30df9b89-eab30bedb3f0.txt
+
+--===============3893405410811691176==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-752c30df9b89-eab30bedb3f0.txt
+
+bfe84435090a6c85271b02a42b1d83fef9ff7cc7 ice: Correctly deal with PFs that do not support RDMA
+e3f0cc1a945fcefec0c7c9d9dfd028a51daa1846 r6040: Restore MDIO clock frequency after MAC reset
+dc41c4a98a76640e7085815f937eadd1f336ba85 net/packet: clarify source of pr_*() messages
+20e100f52730cd0db609e559799c1712b5f27582 qed: Handle management FW error
+666eb96d85dcbc93aacc186a037db2e05b92b9f5 qlcnic: Remove redundant initialization of variable ret
+08dad2f4d541fcfe5e7bfda72cc6314bbfd2802f net: stmmac: allow CSR clock of 300MHz
+ce062a0adbfe933b1932235fdfd874c4c91d1bb0 net: dsa: qca8k: fix kernel panic with legacy mdio mapping
+1b704b27beb11ce147d64b21c914e57afbfb5656 selftest: net: fix typo in altname test
+f11ee2ad25b22c2ee587045dd6999434375532f7 net: mana: Prefer struct_size over open coded arithmetic
+eca4cf12acda306f851f6d2a05b1c9ef62cf0e81 bnxt_en: Fix error recovery regression
+1affc01fdc6035189a5ab2a24948c9419ee0ecf2 bnxt_en: make bnxt_free_skbs() safe to call after bnxt_free_mem()
+985941e1dd5e996311c29688ca0d3aa1ff8eb0b6 bnxt_en: Clean up completion ring page arrays completely
+2049eb0d20de1e6533526ad209f5d1b006ed97c7 Merge branch 'bnxt_en-fixes'
+d7807a9adf4856171f8441f13078c33941df48ab Revert "ipv4: fix memory leaks in ip_cmsg_send() callers"
+e50e711351bdc656a8e6ca1022b4293cae8dcd59 udp_tunnel: Fix udp_tunnel_nic work-queue type
+f4bb62e64c88c93060c051195d3bbba804e56945 tipc: increase timeout in tipc_sk_enqueue()
+e87b5052271e39d62337ade531992b7e5d8c2cfa ipv6: delay fib6_sernum increase in fib6_add
+111b64e35ea03d58c882832744f571a88bb2e2e2 net: dsa: lantiq_gswip: Add 200ms assert delay
+09351d76e12fcd8120deef4d56e90fe585b98650 net/mlx4_en: Resolve bad operstate value
+45fd8e19a288224e3250e69e49f62a45db69fbba net/mlx5e: Fix the presented RQ index in PTP stats
+5b9d15395b57f5c42cf66a0fd3566d949dd012bd Merge branch 'mlx4-for-net' into net-rc
+eab30bedb3f0df6a69b2d8ab07c0615185348902 Merge branch 'mlx5-for-net' into net-rc
+
+--===============3893405410811691176==--
