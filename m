@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2267706714523108788=="
+Content-Type: multipart/mixed; boundary="===============7108171165453599685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 13 Sep 2021 04:25:01 -0000
-Message-Id: <163150710180.23784.14648728151339881370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 13 Sep 2021 04:25:49 -0000
+Message-Id: <163150714925.25434.10748818875528109530@gitolite.kernel.org>
 
---===============2267706714523108788==
+--===============7108171165453599685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     log: revlist-e73f0f0ee754-6880fa6c5660.txt
   - ref: refs/heads/next
-    old: 152a810eae03f16e982444ffe3b0eca933a750cd
+    old: 2564a2d4418bac166a9db2d6ca2f8b99953b1df5
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-152a810eae03-6880fa6c5660.txt
+    log: revlist-2564a2d4418b-6880fa6c5660.txt
   - ref: refs/tags/v5.15-rc1
     old: 0000000000000000000000000000000000000000
     new: 57a5fe67d97b4a4c39b212673db451b0275ba820
@@ -52,7 +52,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 18af54feb85d1d69dc93431547bdab05c219d2b1
 
---===============2267706714523108788==
+--===============7108171165453599685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,11 +1083,11 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============2267706714523108788==
+--===============7108171165453599685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-152a810eae03-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-2564a2d4418b-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -2114,4 +2114,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============2267706714523108788==--
+--===============7108171165453599685==--
