@@ -1,23 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Tue, 14 Sep 2021 08:29:27 -0000
-Message-Id: <163160816795.27054.9662873449249939852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
+Date: Tue, 14 Sep 2021 08:29:58 -0000
+Message-Id: <163160819890.27385.9763358310824979538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+user: luca
 changes:
-  - ref: refs/heads/linux-next
-    old: 20264c80abf0c7002e667927779cacd8eb46c628
-    new: 0a3b748e7c7119c56af38ff8bdfc7f28aa8bb8b2
-    log: |
-         e1383bb2e60038f68a0228a4fe42ff813012eea0 swiotlb-xen: suppress certain init retries
-         12c2f1e4ed1b2e3a4c3146173b4177fdf86a5abe swiotlb-xen: limit init retries
-         8563b818207ce9c6c10b8cf32f4c5e03ab4c2b13 swiotlb-xen: drop leftover __ref
-         26304766abf449290d067a58830f076f4e1a44a2 swiotlb-xen: arrange to have buffer info logged
-         0a3b748e7c7119c56af38ff8bdfc7f28aa8bb8b2 swiotlb-xen: drop DEFAULT_NSLABS
-         
+  - ref: refs/heads/chromeos-4.4__release/core64-70
+    old: 0000000000000000000000000000000000000000
+    new: e030b02376d6ba99208e125d49d6ddc5cf9d0c07
+  - ref: refs/tags/chromeos-4.4__release/core64-2021-09-14
+    old: 0000000000000000000000000000000000000000
+    new: e030b02376d6ba99208e125d49d6ddc5cf9d0c07
+  - ref: refs/heads/chromeos-4.14__release/core64-70
+    old: 0000000000000000000000000000000000000000
+    new: 3088d142714d66dc6378bda37f2c962afe12c6d2
+  - ref: refs/tags/chromeos-4.14__release/core64-2021-09-14
+    old: 0000000000000000000000000000000000000000
+    new: 3088d142714d66dc6378bda37f2c962afe12c6d2
+  - ref: refs/heads/chromeos-4.19__release/core64-70
+    old: 0000000000000000000000000000000000000000
+    new: cf0f7ee93e5e2daca189611a46ddeaf8409ad819
+  - ref: refs/tags/chromeos-4.19__release/core64-2021-09-14
+    old: 0000000000000000000000000000000000000000
+    new: cf0f7ee93e5e2daca189611a46ddeaf8409ad819
+  - ref: refs/heads/chromeos-5.4__release/core64-70
+    old: 0000000000000000000000000000000000000000
+    new: c9cc3d3bb81b1b17f1b05c69bd295553358eb432
+  - ref: refs/tags/chromeos-5.4__release/core64-2021-09-14
+    old: 0000000000000000000000000000000000000000
+    new: c9cc3d3bb81b1b17f1b05c69bd295553358eb432
+  - ref: refs/heads/chromeos-5.10__release/core64-70
+    old: 0000000000000000000000000000000000000000
+    new: 530de3629656ae0af7fd1919a98e7e6a0173b93f
+  - ref: refs/tags/chromeos-5.10__release/core64-2021-09-14
+    old: 0000000000000000000000000000000000000000
+    new: 530de3629656ae0af7fd1919a98e7e6a0173b93f
