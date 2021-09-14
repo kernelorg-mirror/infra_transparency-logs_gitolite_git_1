@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Sep 2021 11:47:52 -0000
-Message-Id: <163162007242.11341.18021397326101684053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 14 Sep 2021 11:49:41 -0000
+Message-Id: <163162018131.13277.11682046909016909798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: a9d5e3d78dfddeb2be135204289d4718922d929c
-    new: f787e3cfeaa62fba8077ae6b0087d12122ea7af8
+  - ref: refs/heads/for-kernelci
+    old: a6e3a1091af76112726b7924426549cf5c208858
+    new: 7d980dfd452aa169dabce99995b127f6e671ae7b
     log: |
-         a962cc4ba1a10fa7285137d63f551a634a6d83bc s390/ctcm: remove incorrect kernel doc indicators
-         239686c11f6acbb35c5c74fe2a3d172f22fcac70 s390/lcs: remove incorrect kernel doc indicators
-         478a31403b365d2f7b35a0cae8ee3e0594dc5bb1 s390/netiucv: remove incorrect kernel doc indicators
-         a1ac1b6e4137f5bb5cbb4a79456193c9ed1127d4 s390/ism: switch from 'pci_' to 'dma_' API
-         f787e3cfeaa62fba8077ae6b0087d12122ea7af8 Merge branch 's390-next'
+         415b41cff99ce60234d829b7593a2962d4367b43 sched: move CPU field back into thread_info if THREAD_INFO_IN_TASK=y
+         bcc715780dd6b7cecbe474c4094cec87e425234b powerpc: smp: remove hack to obtain offset of task_struct::cpu
+         6cef724dd6e34d141c7269a31afc426a3e98b7d6 riscv: rely on core code to keep thread_info::cpu updated
+         7d980dfd452aa169dabce99995b127f6e671ae7b ARM: rely on core code to keep thread_info::cpu updated
          
