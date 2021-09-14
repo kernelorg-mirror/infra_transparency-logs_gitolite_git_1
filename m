@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6082989019972123051=="
+Content-Type: multipart/mixed; boundary="===============8452447803002282603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Sep 2021 08:26:56 -0000
-Message-Id: <163160801696.26032.6863960681694946962@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 08:29:18 -0000
+Message-Id: <163160815806.26840.17479166243544487548@gitolite.kernel.org>
 
---===============6082989019972123051==
+--===============8452447803002282603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 9da2c3f76164990cf2bc15bee81efc6fe66ea418
-    new: 6854ccc4688be88e5efd5b1f8300c4289baf0910
+    old: 6854ccc4688be88e5efd5b1f8300c4289baf0910
+    new: 4bb8c58f982157001a444e9fff2a1cc2ddeb3eb1
     log: |
-         18d6b39ee8959c6e513750879b52fd215533cc87 usb: gadget: f_uac2: clean up some inconsistent indenting
-         7f2d73788d9067fd4f677ac5f60ffd25945af7af usb: ehci: handshake CMD_RUN instead of STS_HALT
-         6a9a7a1a091a7f45cb1d3bfa3d3efb1ca4a2b2af dt-bindings: usb: atmel: add USB PHY type property
-         6854ccc4688be88e5efd5b1f8300c4289baf0910 USB: host: ehci-atmel: Add support for HSIC phy
+         5b5ec04fb2d646c8c9ec90be2ea638e323912e0f usb: gadget: goku_udc: Fix mask and set operation on variable master
+         6b0be25ca029469b5515119b96a6d684cf7d1e82 usb: gadget: fix for a typo that conveys logically-inverted information.
+         4bb8c58f982157001a444e9fff2a1cc2ddeb3eb1 usb: core: hcd: change strings in usb_hcd_request_irqs()
          
 
---===============6082989019972123051==
+--===============8452447803002282603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631608015 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631608156 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1631608014-7e9c9c3cd06be33265fd003c6d64667cbc546172
+nonce 1631608155-e6f13ad86d0b52a9b2e170222eb2a669f0032ad3
 
-9da2c3f76164990cf2bc15bee81efc6fe66ea418 6854ccc4688be88e5efd5b1f8300c4289baf0910 refs/heads/usb-testing
+6854ccc4688be88e5efd5b1f8300c4289baf0910 4bb8c58f982157001a444e9fff2a1cc2ddeb3eb1 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAXM8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NXAP/2FtwoobrfeH41uniwDS
-i+R+jbi/EziYZeO2YHhKzVK4XaL5Ye2tJTruj3nXrQeP8rLi10PE/WOFiXPFcJ04
-Q6k/oY5uh5N0PGpQwI8g9FYmM9+Mc0AoPWSlsBIhjWrmq1TVFQ9qz1OiT82JDOho
-/2fU93H1DJi2ZIRK3/uXlMfuuHaaRUSs0LMCtI/TGxFd2k8kdUmNXeHqnhQIUy1S
-RzHYWbExoZqUIhsuD0udD+npz/tWFGqyjsYCDhaVDOAgEpirV7kp8shi0OeLe7fJ
-Hqet+9TxgWEJtpXoGDzo6l5Esg9hM6uNZy28DSzZIuguNK3Rv2xT+/zifvBOf3YV
-NEEN2roBSD+D4+usS89yTwrROZn8tHM5WoZtYbl6+cMR129IOs7MiGGLX1+vBn1S
-V9a5E0wy2oQvnPh6Dx3YMjN8r+Bb7FHeMKIs8P9uK5VEm8CUkXdEnPj8G0IImyhv
-x5k4soZL6WscmtQAndsIK6efH+/XL40reYSobw96Y1k/BY3zz7TI8ALQMGq3VKhl
-LU6fsJ0Pmi7qbVncFUKgT4qeitGceWoYQ7W95IQOnplvyjLXgqWo0pMWmZXUk+pm
-kmk3ZoLoQAYnTAW+u90gMCMiC9PgK5LFJmwsTr2w0HEofOwkDLm37qQNyp7W0Cwf
-jWsaosnUl98pk+G2Ql7YYLks
-=fc3R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAXVwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2JMP/REGkI+lguNh5Z1w/QUY
+0ALMc4KL9d49o8rhgSWP+c+d3QYgywynmusoqsApuavrtakknUs+HvWUdI5EDrs1
+VV2Psllxlq3YQIS3EdogAWMVTJyn1u807AJzu9t6ZZ4mP4WWER9N5DxnBwGAMzWy
+XPdGYFMx8byFYqrmLjHQ58bccrXVDZUD7ApMp+Y5qqPHM5EyNZ9BLTZGQiZncIEc
+oMl9r1uOwPCiO0eS4+IUsPNMnwQcYOj6YKss//7KYuFmLMLFyNkt12xbKI8gLH0t
+LZa9LsUE4KQu6/gh3ClSSu3Ldupv54cUe4Mfl96T53YgmJqDCsa2tr3L4yMvRq1E
+8mISol3MDrguwwO186t4elA1coNR6NkLmLN/4Z8ITR72lbNLVFLCp4C7NHFqUe3s
+RJlYXaWriZpDj3ZofGkPJVwZwbDF/4R/XfgsWWH4r8ZZSQBN+ZRl9cDpxKBo7vwJ
+ln8yIGCFpmMvq049/dyd9J62Z2/nnaW/D5yTJPL1uaUcRUo+825cNMMqjvwfmXuD
+fdGoJqGBVLI2PUpLTDrdg8casTobt1rQ4ry1rkbq2We+DWbO9Tp4y+P64E373P99
+KwmM/QMDYZAhzzKlG/o4NbvneXjnMiRVPaNAcM7tqcO1Htj4WlR/rL6mQe5xLTMd
+wyW/m/rVr1fqEpyx5ELrynip
+=yv11
 -----END PGP SIGNATURE-----
 
---===============6082989019972123051==--
+--===============8452447803002282603==--
