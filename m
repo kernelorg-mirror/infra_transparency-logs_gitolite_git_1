@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Sep 2021 11:51:27 -0000
-Message-Id: <163162028712.15376.6397054885643489466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 14 Sep 2021 11:51:42 -0000
+Message-Id: <163162030292.15545.5976911807191814557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 111b64e35ea03d58c882832744f571a88bb2e2e2
-    new: 550ac9c1aaaaf51fd42e20d461f0b1cdbd55b3d2
+    old: f787e3cfeaa62fba8077ae6b0087d12122ea7af8
+    new: 55bd079a3cb63eb9dfa62f8c08e3a1dfa92a6ead
     log: |
-         f7ec554b73c5239a96afb9a9c3eb18cb11f539b7 net: hns3: add option to turn off page pool feature
-         d18e81183b1cb9c309266cbbce9acd3e0c528d04 net: hns3: pad the short tunnel frame before sending to hardware
-         1dc839ec09d3ab2a4156dc98328b8bc3586f2b70 net: hns3: change affinity_mask to numa node range
-         b81d8948746520f989e86d66292ff72b5056114a net: hns3: disable mac in flr process
-         472430a7b066f19afa1b55867d621b2d6d323e0d net: hns3: fix the exception when query imp info
-         427900d27d86b820c559037a984bd403f910860f net: hns3: fix the timing issue of VF clearing interrupt sources
-         8c0922ce4b9b0d542dcea871e54eb619661378d9 Merge branch 'hns3-fixes'
-         550ac9c1aaaaf51fd42e20d461f0b1cdbd55b3d2 net-caif: avoid user-triggerable WARN_ON(1)
+         fa0866625543b4d8b3d026e4e0ef5ec25a453920 net/smc: add support for user defined EIDs
+         11a26c59fc510091facd0d80236ac848da844830 net/smc: keep static copy of system EID
+         3c572145c24e21c24e1cd0fd168011eaba85da8e net/smc: add generic netlink support for system EID
+         55bd079a3cb63eb9dfa62f8c08e3a1dfa92a6ead Merge branch 'smc-EDID-support'
          
