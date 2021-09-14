@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7315923423178963050=="
+Content-Type: multipart/mixed; boundary="===============9196474323112365457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 14 Sep 2021 08:52:16 -0000
-Message-Id: <163160953653.11424.8194165908440973273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 14 Sep 2021 08:55:03 -0000
+Message-Id: <163160970345.13378.1607751362534287854@gitolite.kernel.org>
 
---===============7315923423178963050==
+--===============9196474323112365457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/tty-linus
-    old: 74e1eb3b4a1ef2e564b4bdeb6e92afe844e900de
-    new: 06e49073dfba24df4b1073a068631b13a0039c34
-    log: |
-         06e49073dfba24df4b1073a068631b13a0039c34 tty: synclink_gt: rename a conflicting function name
-         
+  - ref: refs/heads/for-kernelci
+    old: 0396d735169d416b364e68712769b53496c5d668
+    new: a6e3a1091af76112726b7924426549cf5c208858
+    log: revlist-0396d735169d-a6e3a1091af7.txt
 
---===============7315923423178963050==
+--===============9196474323112365457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0396d735169d-a6e3a1091af7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631609534 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1631609534-c057e1573feb2cff08e28a93ba78e893fa358145
+34180dbbd10e653232143a21d7083d1801c870eb gcc-plugins: arm-ssp: Prepare for THREAD_INFO_IN_TASK support
+2102e670addacab88d42f01ac0a3b18ca6c5748b ARM: smp: Pass task to secondary_start_kernel
+aed85acbc46b3d1cb92c9467074f2b98a7188add ARM: smp: Free up the TLS register while running in the kernel
+e3206edd3253800491a93728d6c7ecf8da4f51d6 ARM: smp: Store current pointer in TPIDRURO register if available
+108bc15be833b3fa591e927d36422ae319760faf ARM: smp: Enable THREAD_INFO_IN_TASK
+8c654f54112eb5555527271003e08c45fd50c6c3 arm64: add CPU field to struct thread_info
+7043e74272acf255fab412a8ff5fac154a6f8048 x86: add CPU field to struct thread_info
+f5569249a04a042d074ea16ce9906e34d162103a s390: add CPU field to struct thread_info
+c390c8136d98f6acba02b8e1365beff0ea51e605 powerpc: add CPU field to struct thread_info
+e9e0ce9a66db30846111b0944c913989026b17eb sched: move CPU field back into thread_info if THREAD_INFO_IN_TASK=y
+c7c348f24bf3f7b1d718f755c724d5191bb6fbee powerpc: smp: remove hack to obtain offset of task_struct::cpu
+46c23355897a29f2b08a825f858f1ce66a445360 riscv: rely on core code to keep thread_info::cpu updated
+a6e3a1091af76112726b7924426549cf5c208858 ARM: rely on core code to keep thread_info::cpu updated
 
-74e1eb3b4a1ef2e564b4bdeb6e92afe844e900de 06e49073dfba24df4b1073a068631b13a0039c34 refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAYr4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EuMP/jowOJ437vqeIx+tx7lH
-5X/y5AyPo7bVmJPhj0yFQWE+KEcE24OLJCj7mbjd4wEy6SQ5fuH9ea0N8NCAX4RD
-pg5fk8ZSHKEvsggycU7yegoQzI8U1vJSgPWIF2Qm3Xj4mpZvb4MGmjicekBhczn0
-HOfXT3Jkt1K6MWsWpmwkGy2aNlzKW8EFc3Wpy64ndkUmQG+7bDLCne5LpneEEB5I
-jNn7yExd3DLwCtDXkgJDEP5cUHiYoI0KHipPVWNJ22eHiwmcuO+OQVedZuWBV+70
-bNjWaRWq1qT97jTmeEY/heeI1VYq/TmP3Y1y6sEhGdZNxCdqxLJD2VPgZQ319oyc
-FoDaJOgZ1RR62WWgvtBJM2N0Zonqrms6qJwgsaoMp+qI/Hb9sAJQMGpNbYELKsQg
-/ksC3g0WC4TOysMppF/JjEU1AjH5auY6YbIE8yYYBKh+ipd8tuNrUIqgSi170ibg
-Dp1Pd8P+v5kJTsj3rHsmYVBiA/JcpUtFTZKqY8kh2UqI8Ovns3j08VAFE7hfPmxB
-mBj3IcSbOVm6X+XuE8pI+2wcKQTQ0JHRf+RTyYd+kAl9pgX924yZFI5Qm/ICEiFk
-4TIrQKg68pkfq6bWbUtkJdDNm03V0yv30SUaFlD7jnYSqe9QI7e7fiFgQNrp4yWW
-pSboVSyDAq7m/kUMlkg2hWTK
-=o2lx
------END PGP SIGNATURE-----
-
---===============7315923423178963050==--
+--===============9196474323112365457==--
