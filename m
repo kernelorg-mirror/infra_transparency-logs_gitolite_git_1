@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 14 Sep 2021 13:32:19 -0000
-Message-Id: <163162633917.14964.8207733868553998770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 14 Sep 2021 13:32:48 -0000
+Message-Id: <163162636894.15207.16158015831491498061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 2865ba82476a6b2603db40cfc1c8c0831409fb41
-    new: d198b27762644c71362e43a7533f89c92b115bcf
+    old: 0ccf8511182436183c031e8a2f740ae91a02c625
+    new: f2173257b92e9e29a3b87303331ee4a40dd5614f
     log: |
-         4f884f3962767877d7aabbc1ec124d2c307a4257 tcp: fix tp->undo_retrans accounting in tcp_sacktag_one()
-         d198b27762644c71362e43a7533f89c92b115bcf Revert "Revert "ipv4: fix memory leaks in ip_cmsg_send() callers""
+         e435a6b5315a05a4e4e9f77679a57fd0d679e384 net: hns3: PF support get unicast MAC address space assigned by firmware
+         5c56ff486dfcb95652cac7802bfd032f667d97ec net: hns3: PF support get multicast MAC address space assigned by firmware
+         f2173257b92e9e29a3b87303331ee4a40dd5614f Merge branch 'hns3-mac'
          
