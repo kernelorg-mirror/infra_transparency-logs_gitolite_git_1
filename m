@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 14 Sep 2021 15:50:03 -0000
-Message-Id: <163163460392.15075.11457290721741066463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 14 Sep 2021 15:56:50 -0000
+Message-Id: <163163501081.19202.11836796593089139335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/io_uring-5.15
-    old: 41d3a6bd1d37149b18331fc4bb789c5456a7aeb0
-    new: 44df58d441a94de40d52fca67dc60790daee4266
+  - ref: refs/heads/master
+    old: 7fda423e12b506a9da27614bd94258b1af2edabf
+    new: 6dbde8121d9ff673cc09e7f5060bcb14d6410a88
     log: |
-         44df58d441a94de40d52fca67dc60790daee4266 io_uring: fix missing sigmask restore in io_cqring_wait()
-         
-  - ref: refs/heads/iov_iter.2
-    old: 7f15af062b39db908a6385a0511471ff5ca12bea
-    new: 11499bf3c2b9964f1e3f369ebef6fdce8a20e5f4
-    log: |
-         87a01befb2b0850107a6f27411dbb7ceb5a08c81 io_uring: use iov_iter state save/restore helpers
-         11499bf3c2b9964f1e3f369ebef6fdce8a20e5f4 Revert "iov_iter: track truncated size"
+         6dbde8121d9ff673cc09e7f5060bcb14d6410a88 monitor: Support short form of '--noies' option
          
