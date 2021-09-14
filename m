@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3716058952463638196=="
+Content-Type: multipart/mixed; boundary="===============0274032969568717601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Tue, 14 Sep 2021 14:07:12 -0000
-Message-Id: <163162843225.9401.17139461272261013139@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 14:17:06 -0000
+Message-Id: <163162902612.15451.18240937247796916787@gitolite.kernel.org>
 
---===============3716058952463638196==
+--===============0274032969568717601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
-    old: 8f76f9c46952659dd925c21c3f62a0d05a3f3e71
-    new: 7962c2eddbfe7cce879acb06f9b4f205789e57b7
-    log: revlist-8f76f9c46952-7962c2eddbfe.txt
-  - ref: refs/heads/master
-    old: 8f76f9c46952659dd925c21c3f62a0d05a3f3e71
-    new: 7962c2eddbfe7cce879acb06f9b4f205789e57b7
-    log: revlist-8f76f9c46952-7962c2eddbfe.txt
+  - ref: refs/heads/asm-generic-fixes
+    old: cef397038167ac15d085914493d6c86385773709
+    new: 6e53d67c63e088c6966e53280479da959c13685c
+    log: revlist-cef397038167-6e53d67c63e0.txt
 
---===============3716058952463638196==
+--===============0274032969568717601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f76f9c46952-7962c2eddbfe.txt
+Content-Disposition: attachment; filename=revlist-cef397038167-6e53d67c63e0.txt
 
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
@@ -1053,6 +1049,6 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-7962c2eddbfe7cce879acb06f9b4f205789e57b7 arch: remove unused function syscall_set_arguments()
+6e53d67c63e088c6966e53280479da959c13685c asm-generic/io.h: give stub iounmap() on !MMU same prototype as elsewhere
 
---===============3716058952463638196==--
+--===============0274032969568717601==--
