@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0762039590590816182=="
+Content-Type: multipart/mixed; boundary="===============5611606894925134021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 14 Sep 2021 14:58:28 -0000
-Message-Id: <163163150873.11020.16389493956284721434@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 15:02:44 -0000
+Message-Id: <163163176476.14116.5878080172870037211@gitolite.kernel.org>
 
---===============0762039590590816182==
+--===============5611606894925134021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 8988bacd6045adf39719e5057e43170f83bd1709
-    new: eaf501e0d8af691e532b6b9aee511659cf5ee00c
+    old: eaf501e0d8af691e532b6b9aee511659cf5ee00c
+    new: 5cf3bb0d3a2d0de94f3f551f0e4211068818aabf
     log: |
-         86854b4379d43aaffdbe1fac0879cce543247e9b driver core: platform: Make use of the helper macro SET_RUNTIME_PM_OPS()
-         2935662449dfa4467d2e769a70801c608fd510c3 kernfs: remove kernfs_create_file and kernfs_create_file_ns
-         eaf501e0d8af691e532b6b9aee511659cf5ee00c kernfs: remove the unused lockdep_key field in struct kernfs_ops
+         5cf3bb0d3a2d0de94f3f551f0e4211068818aabf sysfs: split out binary attribute handling from sysfs_add_file_mode_ns
          
 
---===============0762039590590816182==
+--===============5611606894925134021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631631506 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631631763 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1631631506-741382b3c8e9b2e59b91b542ad82cdaa67d34bc9
+nonce 1631631763-03a044167156a767bd49590cad3092f728b58e90
 
-8988bacd6045adf39719e5057e43170f83bd1709 eaf501e0d8af691e532b6b9aee511659cf5ee00c refs/heads/driver-core-testing
+eaf501e0d8af691e532b6b9aee511659cf5ee00c 5cf3bb0d3a2d0de94f3f551f0e4211068818aabf refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAuJMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l2kP/RQLz/xZyrRu+x2ZXiHd
-/zvyrTP+EzhUxwotUiNcPUa+PtzEjljd1+APnW8hlxdl6OE1peHZ6+RY4XsAimm2
-uq+OaSf+dSPssporc/pDe00BlBy5hMocVKtYg6Cv08irl2rLATuzZoLroaPp46bd
-O4A6Hax+evbTPCP1HWjtMK3gbJAAKZ7xm0RL/ZSDeFE3N4OgPfkNzrjMtcV4y9nF
-/5qM/fKcuS6C94W/YUdgQzFMp06t1/8BqS7iWijDzIubbLadsXSFQh5o36KTAxFS
-XaSpssOsfTtwKn7Id0ix0PeO8ZnVwzuEZ9lbDtUBmgVfabQ4GCefdezf7BJ+OzRB
-yCUMwplKi6vi40giVuCX9qAwF3NyzzhVGF4bBi1jiihk2UYHCebvaJvKffm0FQCb
-8Y88zKsKM1gx7MTPce5/IO+6LjXenzBdKYwzUXg2+aXlkuzGQBLS5sTKb3MSObBB
-1Nhp997zBttU1bwqO6I1aOyy+U5URSzVIRgCtCG+/BBcPfRlZ5u/ZYLX0etmyGsq
-CoLaR08SzJyutC5D+qKqdYexFnkqUammNaqmdhTjGccty8PZ3jtGhSuViztLxzxV
-b1/6U4y6PFIB4x3GQ7BnaO4YV9vSXMWKYd1pPJOYa0TnkmHu8itlSA4JOJRTUg2c
-LKSWdCdh/oDS8fl6+xPRKdew
-=Ix9C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAuZMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TuYP/iTI93YvS2INVADsogUs
+7A9UghMAfRh07ujmlP6JMVUuR7Px0v4R9K8H46mM5Pk4829k0TqUZovBQUOorB5x
+PORWbHH1wXW+4gYaLAcZMihD27jNNf3v8SdRGrZhzysCD0nXogGxxwRhj1UFl1hh
+s6MrvpH2uq8mQhPZPYzYxrOr6As7dJE50dIU+u+SY/1CFqgPiRSTBTX9VQyJpoYv
+K6UMoptIAV7kZqUHYl+HBFWqMq9wUmawXKiYXhHJ597bFIt3jJAudUrBzGA8ZeIe
+8eOb5cUni8bANPMm2D3hT3Ge9v/5mJ9/oVP4ywKWFXGZOcZLY1wG5mDdIhhRzN8y
+E5ZQr2HU8gnw6GHkbVr1C5/tuYw5SA5vA3ZEvqdIYC4TCJ4/1Yg91dvIYCJcEDY0
+DXLIqIL5GCgfEJ65zAVzHw5plxKS+7Eg2TySHOHGE0JHaPl27PrL1Gdfp7ea9I9p
+H764J3M0nwjTeTZpJbGYlyN/di49t9WHUtseIqrs8ZoIwXIeBwmoIvnOb+uwhKDW
+aSqiMQjiYqto8lP54LWE78h4tlIgIpbicVASFzfN6Y7MvAl52GRpg9Bxzsf4u5Xb
+AFl22Ix036a8eHTTRTkOCBPujpPnXifOvK5CYiZIppMJm6j50C4FLyk6CcGIwMZ3
+AsMqkx2GeqDwxa4+hPyTYVw5
+=bIbF
 -----END PGP SIGNATURE-----
 
---===============0762039590590816182==--
+--===============5611606894925134021==--
