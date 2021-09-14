@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2829021034310196969=="
+Content-Type: multipart/mixed; boundary="===============6445314852563551375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Sep 2021 08:31:14 -0000
-Message-Id: <163160827496.29393.12301150114019769710@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 08:31:56 -0000
+Message-Id: <163160831601.29659.16909276860534399906@gitolite.kernel.org>
 
---===============2829021034310196969==
+--===============6445314852563551375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a9f131e4898284b4080df24165ada91a19d7681b
-    new: 44a0f3bb69a355a3e052833e47cf43a46dd16a83
+  - ref: refs/heads/usb-linus
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: f81c08f897adafd2ed43f86f00207ff929f0b2eb
     log: |
-         44a0f3bb69a355a3e052833e47cf43a46dd16a83 USB: core: Make do_proc_control() and do_proc_bulk() killable
+         f81c08f897adafd2ed43f86f00207ff929f0b2eb usb: testusb: Fix for showing the connection speed
          
 
---===============2829021034310196969==
+--===============6445314852563551375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631608273 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631608314 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1631608272-ef30216d50c95ab319a3e7275fedfff1575a4ee1
+nonce 1631608313-beb847741d07565e488a7a94ec9be6b76b4e34c8
 
-a9f131e4898284b4080df24165ada91a19d7681b 44a0f3bb69a355a3e052833e47cf43a46dd16a83 refs/heads/usb-testing
+6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f f81c08f897adafd2ed43f86f00207ff929f0b2eb refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAXdEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bpQP/iHtfgEcFNaqSrc1MRWC
-MlFdPj23lOl4a2qXkxu79LDK2LU5FMSoAwE1H5R06koTApVrdjawsiHm6/D4hIH7
-9pAxOKG+g7UO5ei4KD4byunduhDbZJpeh8jkX8A5KVsjMBH7gLjBVP+AgBoDx8+x
-EU3CzHBfGwnbKZ5TxjOrZBR9YulvCiiLjrg3MBUB+0sLkcGahXFFHSW6XZcAXvC4
-mpv6slUNrTNIdN2+V0RmgiHnOymxpcDKxNzSYnAcgzwcntqwmj0DYOdMDleWBeE1
-kUvV2fysuKSJw2ln+Ptj7mIAn30fn8nOw1BkSE2XTi0+FZalAtu4W2N+g35ctpBs
-0C0KkUAuNI6Wc7JEzefkLw8sbDoEul8R3NddkpA6arSWex11cizzQ5hbgz74IduO
-lSYLKfvzNmow50gOwMQBZ9qlFVOCWqH/xmhSPmP/6oCXHvNrLTnd+JUfJEn0CXEa
-+acv/eaWBWSDHVKU5OSeUto2B3Kn5+B5AV1TGkAe0JSfkEI3Y6OeUu0dkkfpcZBo
-JWS9m/ljA94IC3W2myE0YzzldxRncxcYogRms9stn7smslyWleqw+rOFBUJMdLnT
-1KlMlEYVIvpQxaXfXJaewSeunZHMyS273eiHeEpZgGQcWug3hfvK4jBhToszQtRu
-4wnj+1pUpW1z3J39Hsn1Kc6f
-=Jq1s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAXfobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AM8P/R4Ls42HVzN88T7fkQo2
+Ge0+hzeMrgW8B9emaIZLeZsh2LqRjeDse+PuezFV13HIenhXUlqSLnD2shcBxjAu
+scRU2TuQrSQkcwvIU8NcW9e6kv7U9g+oeaU6yoRWFAb4qzIIIKspdJO7ExGH0mE+
+6XqbxsQhf8Yik8wvwkEae+SJ1F5l6JDnADkcs+SIkxUfGmJ968lK7RRoIGpm7pHu
+T2kgAq9NL2NOhH6DLd9JYLKG2nu2f3GFAj20o9RCI5JcQuq8Fui0D0V82pNBd8C3
+FkfcoMC2gkDw9FznK+PmZG2gqGFEb6tSE8rI9viaE+DqPVm4E7fpCuXmtxMvb//M
+Y7trnqx8zi4HbkBYVuTEMvuW+C68nZ7qTDLUgRaWxm//yoCZLFG3I5vgBQ989aBz
+W8hpEWwBnCkPDLFJN7m3YcMWblPLCG8lLi8xJEB7W1YxpvzvYceVpND/PB+XtHxY
+DNPCH/+axxohg2U0wYDqhPpqVPGTYb1IJ1W2uIg8W2BL9wUJdlGeAyfLhoHwS3RA
+HlR2NMnbwdoToycIRsdwyAiM3pNR8zSl1UMNNKmJAnJGs2lBDzFnpnUc0hiWXR/N
+879TKVQEpgMKhZQZgak1RZknKQNyIIZGW1LEkPYg3HUpaEUem+NFC9RGOzs+F381
+wWJzmoae/U34xlBnwSweon2A
+=RAP9
 -----END PGP SIGNATURE-----
 
---===============2829021034310196969==--
+--===============6445314852563551375==--
