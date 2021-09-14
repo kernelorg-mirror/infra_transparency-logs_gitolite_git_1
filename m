@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2826100768188488478=="
+Content-Type: multipart/mixed; boundary="===============0519307106230728762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Sep 2021 04:40:36 -0000
-Message-Id: <163159443694.6864.13162815481841016564@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 04:40:46 -0000
+Message-Id: <163159444694.7012.8662503863453267686@gitolite.kernel.org>
 
---===============2826100768188488478==
+--===============0519307106230728762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 34716db52be1b241f274cd80143cc616d6b3df99
-    new: b4f00908803bbbabde580270b1077e5299ea0b86
+  - ref: refs/heads/5.15/scsi-fixes
+    old: 1cbc9ad3eecd492be33b727b4606ae75bc880676
+    new: 1a0db7744e453844aa2db3f2959aea4a378025ea
     log: |
          4521428c48118b0f5f7a637ce7dedd76c29bcdaa scsi: sd: Make sd_spinup_disk() less noisy
          1a0db7744e453844aa2db3f2959aea4a378025ea scsi: bsg: Fix device unregistration
          
 
---===============2826100768188488478==
+--===============0519307106230728762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1631594429 -0400
+pusher 75C5DE3D 1631594440 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1631594429-8c69dccf0b3784d1e23fab721eda0afffa037f0d
+nonce 1631594440-11a5f00bd1709296841232fd7b7ec931625d95ac
 
-34716db52be1b241f274cd80143cc616d6b3df99 b4f00908803bbbabde580270b1077e5299ea0b86 refs/tags/mkp-scsi-fixes
+1cbc9ad3eecd492be33b727b4606ae75bc880676 1a0db7744e453844aa2db3f2959aea4a378025ea refs/heads/5.15/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAJ74ACgkQ7ulgGnXF
-3j3lvw//f6npKTFH3kOXYnVtgxIPpOrhGwDBwMguxNru9m7BzXuSoVFPyr1PPkhn
-qUn6w5ZObWiYghSt1BBA8lCAzWpcv/TS16HHbQA8agODnGNoBBpQWvb4q2CLE6mp
-fkPXq9aBHri4rg6oDGz3JD69SyX4TRegWQp9I7Ab2tBV2SjCQjU9czj+VHAkXh9O
-PYZ3XV4H3GYXhIhN/VBEZeodLiznYR70TZO0EqGnDSjMcbEb9vEqAtNfAB8gNsJm
-99lChDR8lEA4PamXetmrc5Utj5V6SMlap7KWkQsgOWuMRiz0a+6VhtJWP+IW/jfw
-M9H00AOkiju2wmkRmo+3jIFSDqT1/iMraNo9IJ3Gh7nsIN0S9TIbenVfAWZjpoFX
-qYs3aVaP/kkqauV/FnHhdCf3ew5vlT8Rb+uvgV+d42x+fvYvFZr1zWlKyiXt6ASQ
-hsY/+yVCFSgk53I0i2x90447BtMi6ETwOmMr8MQd/OFqaPTWVqoUI5Hyk5taN2TJ
-cBia/DUYQ3/9Cn5mlfZuMgxeRhjrL7o+7f4MzSpvttFnX0JginwdZg6UWyrkjmHj
-lhmF79rApc+hjTzkEPy8JIr7Nkm1OCSZkyeSnjV17Gcgzw3PxNfXBFDnUehy39wZ
-Y1tdUv0E9Bo3wIqEPwUeBYHYMUkLmdPD8pFoI1GzPhC9vuLmT4Y=
-=AxeA
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAJ8gACgkQ7ulgGnXF
+3j34UQ//eaBIgB8pAIdhBTAWgEVZuatYid4VmbKWKfdrutjedM2sK27Zhl2rvD1u
+dRrdncPJWm3vboHnWVc3hdFZSlj2a6qoSI8WwHsiFn3aEX8rC21e11UpiC7kIoxQ
+tiGQUwxWPb5xuPkDeG3a+RNEXCzq07/zuVGuvdND1+hwUzL8kGb1ShKSEinJ+igo
+UyQzttlaKRDlwexFtIGcIIEvLnJ8CdSlJy2BbrOoZwQ1T84CVNWwSTwiege1hsnb
+qkadmWHH/m7SCUX+48dru/AWeGg8bh6TY6zaPByzERNcgl1o7nLRwxIm6irg2Q23
++VUCh2HVr6pkPwZUxPv9zy82PK1Z/bWNh5Gn41y164SaVgXzmOfC2e7Mwtns2ASQ
+DrPYmfaYFIgaQjEGdMptp7saR+Psyb9eQAwbljZIEXqkS025Yy9IIgoLdoH1KRLa
+0drf670mON6DLUpMSulbhXlOUFZ/BnLOmhQV0R18kh4JszSZ4pcYBvJYrPgh2n4A
+em6NmzPEnjmnjFt5S/v/2pBfRJ1q/a01LD3HPRoK7KIVfGijWXSr+ABuqXVMX7Nv
+HPEK78LZTJZj61wD7LHr/STN7BvaMkO1i+VOizP32L0QHeKLs6Zx1HM45X2HIQKo
+CYkcNt3V4hQ/+UhJe8I2YNh1tMbTz/rIgSqlcux+1cpmw/7ol5M=
+=C91y
 -----END PGP SIGNATURE-----
 
---===============2826100768188488478==--
+--===============0519307106230728762==--
