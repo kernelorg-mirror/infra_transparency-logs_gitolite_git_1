@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5145175026396409289=="
+Content-Type: multipart/mixed; boundary="===============2889587512786503725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 14 Sep 2021 15:27:05 -0000
-Message-Id: <163163322518.31103.4762568267988169377@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 15:27:16 -0000
+Message-Id: <163163323609.31243.11384044515527631663@gitolite.kernel.org>
 
---===============5145175026396409289==
+--===============2889587512786503725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,42 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/paravirt
-    old: ab234a260b1f625b26cbefa93ca365b0ae66df33
-    new: dc91f0f150316493dd362d580976095ce131e91c
-    log: revlist-ab234a260b1f-dc91f0f15031.txt
+  - ref: refs/heads/x86/mm
+    old: 314a1e1eabea5b86532e90e0d4e217fa88471e3b
+    new: d5df2c75a8f1147495ea5acbaf4a5cd1b76e4100
+    log: revlist-314a1e1eabea-d5df2c75a8f1.txt
 
---===============5145175026396409289==
+--===============2889587512786503725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab234a260b1f-dc91f0f15031.txt
+Content-Disposition: attachment; filename=revlist-314a1e1eabea-d5df2c75a8f1.txt
 
+7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
+866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
+8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
+47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
+32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
+205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
+c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
+bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
+66abf5fb4cf713c6fdfccfbbabdcdf834f8bb9e2 net/sun3_82586: Fix return value of sun3_82586_probe()
+3f22bb137eb03ab27eaaa8b40d3e072eb541444e ipv6: change return type from int to void for mld_process_v2
+025efa0a82dfa79ac2b126f622ba9244f795e707 selftests: add simple GSO GRE test
+552799f8b3b0074d2617f53a63a088f9514a66e3 net: dsa: lantiq_gswip: fix maximum frame length
+d2cabd2dc8da78faf9b690ea521d03776686c9fe net: qrtr: revert check in qrtr_endpoint_post()
+9aca491e0dccf8a9d84a5b478e5eee3c6ea7803b Set fc_nlinfo in nh_create_ipv4, nh_create_ipv6
+b9edbfe1adecfc48fd11061dce68afb03d6adbdc flow: fix object-size-mismatch warning in flowi{4,6}_to_flowi_common()
+ecdc28defc46af476566fffd9e5cb4495a2f176e net: hso: add failure handler for add_net_device
+aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c net: usb: cdc_mbim: avoid altsetting toggling for Telit LN920
+cdb067d31c0fe4cce98b9d15f1f2ef525acaa094 net: dsa: b53: Fix calculating number of switch ports
 d12e1c4649883e8ca5e8ff341e1948b3b6313259 net: dsa: b53: Set correct number of ports in the DSA struct
 55a51ea14094a1e7dd0d7f33237d246033dd39ab block/mq-deadline: Move dd_queued() to fix defined but not used warning
 2d52c58b9c9bdae0ca3df6a1eab5745ab3f7d80b block, bfq: honor already-setup queue merges
@@ -113,7 +138,6 @@ ceb2c2842f3664dcc4e6d8cb317e1e83bb81b1e5 pwm: sifive: Don't check the return cod
 8083f58d08fd52f547c0a62c0f4e448e15e6726b pwm: Make pwmchip_remove() return void
 dd8f6b299a2b86c4839de4a60a28ce2399453bc0 dt-bindings: pwm: rockchip: Add description for rk3568
 aef4892a63c248c31718d23941536b86829a49f0 Merge tag 'integrity-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
 52d44f3c61975cacfa2379a94e470b33a7639e73 Merge branch 'pci/enumeration'
 4f6f0b86d3605464865e9a9d60b5e88f88f03783 Merge branch 'pci/hotplug'
 9d102c7437247a909dd6f46cbda11cde5526f7b6 Merge branch 'pci/iommu'
@@ -143,7 +167,6 @@ eccefc748e0edbb3ae8be846c4cd17bc20397898 Merge branch 'remotes/lorenzo/pci/xilin
 6e129176c3afd337966562fc3de236cc48447582 Merge branch 'remotes/lorenzo/pci/endpoint'
 e3c825c93e623198ad08e73f49377489ff6fb03b Merge branch 'remotes/lorenzo/pci/misc'
 742a4c49a82a8fe1369e4ec2af4a9bf69123cb88 Merge branch 'remotes/lorenzo/pci/tools'
-d7109fe3a0991a0f7b4ac099b78c908e3b619787 x86/platform: Increase maximum GPIO number for X86_64
 aa829778b16f15266fefe2640f04931b16ce39c0 Merge tag 'locking-debug-2021-09-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d7a4e582587d97a586b1f7709e3bddcf35928e96 pwm: mtk-disp: Adjust the clocks to avoid them mismatch
 15eb7c888e749fbd1cc0370f3d38de08ad903700 locking/rwsem: Add missing __init_rwsem() for PREEMPT_RT
@@ -839,7 +862,6 @@ d42990f486b56ce4381edd42a47119c073b131d5 selftests/memfd: remove unused variable
 20401d1058f3f841f35a594ac2fc1293710e55b9 ipc: replace costly bailout check in sysvipc_find_ipc()
 560a870570287aeb0e77825ae0fa1aba47031cf9 mm/workingset: correct kernel-doc notations
 b285437d1d929785a5bef3603da78d2cd5341893 scripts: check_extable: fix typo in user error message
-34b1999da935a33be6239226bfa6cd4f704c5c88 x86/mm: Fix kern_addr_valid() to cope with existing but not present entries
 3265cc3ec52e75fc8daf189954cebda27ad26b2e ACPI: PRM: Find PRMT table before parsing it
 4b6b08f2e45edda4c067ac40833e3c1f84383c0b tracing/osnoise: Fix missed cpus_read_unlock() in start_per_cpu_kthreads()
 40caa127f3c7279c75cb0c9684559fa314ee3a66 init: bootconfig: Remove all bootconfig data when the init memory is removed
@@ -907,11 +929,6 @@ ea4b3fca18adc81e6a965b2ad0668f38d5d3485b parisc: Drop useless debug info and com
 e4f2006f1287e7ea17660490569cff323772dac4 parisc: Reduce sigreturn trampoline to 3 instructions
 907872baa9f1538eed02ec737b8e89eba6c6e4b9 parisc: Move pci_dev_is_behind_card_dino to where it is used
 d97180ad68bdb7ee10f327205a649bc2f558741d parisc: Mark sched_clock unstable only if clocks are not syncronized
-e405cb05f9c77326d1ccc795311a3f743a17f02c Merge branch 'locking/urgent'
-f72beb9f9de45a2c30d3e85dfa6162e18d60faee Merge branch 'sched/urgent'
-379e91db4017cc150c8a74aaabb6967905ea4a4a Merge branch 'smp/urgent'
-078bb3fb27f9e3cab1787d167139011d23852a67 Merge branch 'timers/urgent'
-5448a9e9f16a1b95790df7ef58686331aa3935a6 Merge branch 'x86/urgent'
 c3811a50addd23b9bb5a36278609ee1638debcf6 iommu/amd: Relocate GAMSup check to early_enable_iommus
 eb03f2d2f6a4da25d286613717d10add9ce9f175 iommu/amd: Remove iommu_init_ga()
 a21518cb23a3c7d49bafcb59862fd389fd829d4b iommu/vt-d: Fix PASID leak in intel_svm_unbind_mm()
@@ -1024,31 +1041,14 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-5b6f9aaf6a75482a26f654a71af33fa0c86bed02 Merge branch 'tip/master'
-ad1461a35096c63e6b7c1f77b2461e6db8ca7061 x86/xen: Mark cpu_bringup_and_idle() as dead_end_function
-ebc690e2ab27bf17846459b129e0020ae39a933e x86/xen: Move hypercall_page to top of the file
-d3b8768359f1b5272a3a49eade895516e73684cd objtool: Introduce CFI hash
-069bfc81604d76559dd6c46a0145662bebb3fff8 objtool: Handle __sanitize_cov*() tail calls
-74dc8b08f4d366ce3826d3c506c3706d93cf2b78 x86/kvm: Always inline sev_*guest()
-67eb5704fb2fad2493bdf7907faea55ef0aad604 x86/kvm: Always inline vmload() / vmsave()
-2ef5a9b215daf6f3acf05438f71fb3cfa0cf1001 x86: Always inline context_tracking_guest_enter()
-b856bcd8fde03c4085fffb41c159a0abb0c721a4 x86/kvm: Always inline to_svm()
-c10260df6c59e7c68102ec085b66ffd146869371 x86/kvm: Always inline evmcs_write64()
-4e107f710bf69c7f7627a29531779770f29a749b x86: Always inline ip_within_syscall_gap()
-735bd78be2e451afaf1c649b1e34727b39be2a78 x86/sev: Fix noinstr for vc_ghcb_invalidate()
-42244748728ec54ddfd5491e6f4240a2bd206456 locking/lockdep: Avoid RCU-induced noinstr fail
-2abff4c3bc3fd6f0b20de9f1a1ec213a3935ec82 x86/paravirt: Mark arch_local_irq_*() __always_inline
-de706fde2a63f4ab29ffb28eacee56fc34c27cb0 x86/paravirt: Use PVOP_* for paravirt calls
-d71a15a235e43a7f4f69bdd6a175e751571ac22e x86/xen: Make read_cr2() noinstr
-2c6dd824297ee08aab897ce9f7b3fe37ef288614 x86/xen: Make write_cr2() noinstr
-e384efc306df4248cdb32cd4be16112edb238148 x86/xen: Make get_debugreg() noinstr
-c9d60d43e94b5067103ab29e792bbee221df2ba9 x86/xen: Make set_debugreg() noinstr
-5a138703302cbe29765d87fe5aedd728011c3e52 x86/xen: Make save_fl() noinstr
-03e22f10050121a9198eb7fb8b948562577a5b9b x86/xen: Make hypercall_page noinstr
-d32293bfe0e21d43cf4390206e110d2717c40a97 x86/xen: Make irq_enable() noinstr
-f0f20b2aa1898d7c95c371d0e9bfcf9ba8a112b5 x86/xen: Make irq_disable() noinstr
-0ce74e89df902ba9e009dc05dc743c6dbb6c1601 x86/xen: Mark xen_force_evtchn_callback() noinstr
-9e15fa5afd2feb2147d03adb0801f696db069ee0 x86/xen: Rework the xen_{cpu,irq,mmu}_opsarrays
-dc91f0f150316493dd362d580976095ce131e91c objtool: Support pv_opsindirect calls for noinstr
+040ae9f3e0553fd45117aecc39cd2a00d2ff1d01 mm: Update ptep_get_lockless()'s comment
+07773e994407aaa4de7c4c2a9ad6753e1598923f x86/mm/pae: Make pmd_t similar to pte_t
+57f82c043a275326aa6e5eae2e9e4f6fe9c64b88 sh/mm: Make pmd_t similar to pte_t
+2a5b702b052b2936b60a551d581ed3afca80a71a mm: Fix pmd_read_atomic()
+db6016b2aa50897116f3d6d09ded4e2bfb414013 mm: Rename pmd_read_atomic()
+4247c0d8debb33ee01007bb638b03135b97724b3 mm/gup: Fix the lockless PMD access
+118e942d317514c3283d79bae8b29cc4a21f545f x86/mm/pae: Don't (ab)use atomic64
+419da12c7c05c695f9ca6a2ab282e88aa6668c42 x86/mm/pae: Use WRITE_ONCE()
+d5df2c75a8f1147495ea5acbaf4a5cd1b76e4100 x86/mm/pae: Be consistent with pXXp_get_and_clear()
 
---===============5145175026396409289==--
+--===============2889587512786503725==--
