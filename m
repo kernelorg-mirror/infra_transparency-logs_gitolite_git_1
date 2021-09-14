@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 14 Sep 2021 11:49:41 -0000
-Message-Id: <163162018131.13277.11682046909016909798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 14 Sep 2021 11:51:27 -0000
+Message-Id: <163162028712.15376.6397054885643489466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-kernelci
-    old: a6e3a1091af76112726b7924426549cf5c208858
-    new: 7d980dfd452aa169dabce99995b127f6e671ae7b
+  - ref: refs/heads/master
+    old: 111b64e35ea03d58c882832744f571a88bb2e2e2
+    new: 550ac9c1aaaaf51fd42e20d461f0b1cdbd55b3d2
     log: |
-         415b41cff99ce60234d829b7593a2962d4367b43 sched: move CPU field back into thread_info if THREAD_INFO_IN_TASK=y
-         bcc715780dd6b7cecbe474c4094cec87e425234b powerpc: smp: remove hack to obtain offset of task_struct::cpu
-         6cef724dd6e34d141c7269a31afc426a3e98b7d6 riscv: rely on core code to keep thread_info::cpu updated
-         7d980dfd452aa169dabce99995b127f6e671ae7b ARM: rely on core code to keep thread_info::cpu updated
+         f7ec554b73c5239a96afb9a9c3eb18cb11f539b7 net: hns3: add option to turn off page pool feature
+         d18e81183b1cb9c309266cbbce9acd3e0c528d04 net: hns3: pad the short tunnel frame before sending to hardware
+         1dc839ec09d3ab2a4156dc98328b8bc3586f2b70 net: hns3: change affinity_mask to numa node range
+         b81d8948746520f989e86d66292ff72b5056114a net: hns3: disable mac in flr process
+         472430a7b066f19afa1b55867d621b2d6d323e0d net: hns3: fix the exception when query imp info
+         427900d27d86b820c559037a984bd403f910860f net: hns3: fix the timing issue of VF clearing interrupt sources
+         8c0922ce4b9b0d542dcea871e54eb619661378d9 Merge branch 'hns3-fixes'
+         550ac9c1aaaaf51fd42e20d461f0b1cdbd55b3d2 net-caif: avoid user-triggerable WARN_ON(1)
          
