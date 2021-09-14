@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5753410910797032458=="
+Content-Type: multipart/mixed; boundary="===============6118483099377757368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 14 Sep 2021 08:06:59 -0000
-Message-Id: <163160681984.12600.5548589991275902606@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 08:07:32 -0000
+Message-Id: <163160685291.12806.18439903011751406550@gitolite.kernel.org>
 
---===============5753410910797032458==
+--===============6118483099377757368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 79e9e30a9292a62d25ab75488d3886108db1eaad
+    old: 79e9e30a9292a62d25ab75488d3886108db1eaad
+    new: 74e1eb3b4a1ef2e564b4bdeb6e92afe844e900de
     log: |
-         79e9e30a9292a62d25ab75488d3886108db1eaad serial: 8250: 8250_omap: Fix RX_LVL register offset
+         74e1eb3b4a1ef2e564b4bdeb6e92afe844e900de serial: mvebu-uart: fix driver's tx_empty callback
          
 
---===============5753410910797032458==
+--===============6118483099377757368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631606818 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631606851 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1631606817-8fa5fc2c59fdba2a210e297981322989a4d1a47b
+nonce 1631606850-41bffeca7791abbdba46e7d768884d1e72bf2c75
 
-6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f 79e9e30a9292a62d25ab75488d3886108db1eaad refs/heads/tty-linus
+79e9e30a9292a62d25ab75488d3886108db1eaad 74e1eb3b4a1ef2e564b4bdeb6e92afe844e900de refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAWCIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PoYQALqD0FePBYug5lfIDoba
-x0S8+zFCSwNSjw/TIfg9sDaC2hU7vpwYG+9knZYjBz8qN774D2pWEQemefhLjyuD
-0Y97bvzpi1EkUeU32n4NVhecSC9BY0KnLML/IpUtaEWE3hls/v5DADQquDunhwui
-/zA1tKrSO2cNi2gghGFZ+u3l7l5WzV4EDCI8z5O7b/XotGmNzVelWKrJ7xhQ4mKd
-Fo0DMVfVZm4r8iQD5wAi6jkNYQ+Ld9BbVzci+CQqkFW9qSFgMFu5ho8Ema1DrMcW
-vrYT2f5H5rlWFb5Ad/qAmY1DQWWAtBsjWbWD8I7N1dqotZ/U2p7oUxDNf+1ZaZ4Y
-CvowZPKikykN2SHN0ZFSr5kEFE8zmlgH5mVXNka9yHai5a0K9eaMuM8+8jxhP5oG
-VDch6mnH5v6RSHMJYTQSubaOSdRtHCJR3h5j957L3tFufDOGHWFRIhzJ+drGEghH
-zsXbeps7aaGIUdkmeVkz9vCaoJUMSX217J3PWYtghtm/p6dfVytno/k7q/5HGrRJ
-SiZSW3znHBXTHTtxu2m7WoEZSIJtk1TuZTV/Ez8D+biavXZA7NZ7JRa+F/kV6Dda
-U8/+3Q+4hDDjCeBuUHRxHZoJDpgZLNwDtVgx761nO6J4kcpOlPUAyUQqNiCQ/tIS
-gId6cIBIhlKY7E9/OmlaWPvn
-=+SXe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAWEMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o+EP+wRn8FBpFK6qcDi7yXPj
+lywYkA/w/M4nM4l/eKeIrry9weOQ4dMGck4bMWRQWVujDCO7qQZktrOpcWHcTHiM
+pHqZmqLgWHAALDkdZ7pHPZkoKrSvOMLxBnFIHsFR85JWyW/sezQKxkPXJzgditY0
+SGylVYODj4HwLui1fcVbu90xy+nI0PNBBmhV7xSo3Jyr+EkcK3iNp3hbhRtZNMUl
+GkhPrnNTq9Fs2yBMekZNMwQ4z8zth44wkRa2QD3yOsQ8qRTKYgzY7fTCopNJnTAb
+WuGGySnIJImuDeD/6sNrPrKqALBb9uXEI0YM7PVI0QPW+iH1c6KtU+OrkudSU1ux
+mMUOfxyUoK95V64/net9KMn8P7wQRtPjBt/HUhIUDJSMkonlMo+c1+7s+Z8gB1Fd
+sZ4xgLBDf0QbOwhr6Lu3krzfm6sIpqOjx/0B9/EArQ7dNiQ2zaidB+xOP+ZVTnx8
+zGgJoqf1wDphaGWmnRdXAF5mh8seS5TGOtH46/aj3I8cEv56CIUi54tvFhnUqH7R
+qi5P5Gfg0tiQLQKtjNfNr71vBTbuv0SFkQbQLBGtKEUTMj4zLCKGQ/VS74nykWxS
+ZghsifWIohMtXZ7+jQL/hXAcfT74GYqoKOhXvrQkIHCrSIJFsZrSz4UTcJUQfq26
+16xCApgbAnKtNnAw/r5Rw/fT
+=7fgN
 -----END PGP SIGNATURE-----
 
---===============5753410910797032458==--
+--===============6118483099377757368==--
