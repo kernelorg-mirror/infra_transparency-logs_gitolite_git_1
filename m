@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0400982202321242056=="
+Content-Type: multipart/mixed; boundary="===============8880714272610367250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Sep 2021 03:41:05 -0000
-Message-Id: <163159086508.25779.2665692435523435608@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 03:41:16 -0000
+Message-Id: <163159087653.25913.1092835894692017647@gitolite.kernel.org>
 
---===============0400982202321242056==
+--===============8880714272610367250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 9b5ac8ab4e8bf5636d1d425aee68ddf45af12057
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-9b5ac8ab4e8b-6880fa6c5660.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: d63d8abb37ca9d412bf746b6b6ff973f7146a04f
+    new: 7f5c006a591f9e66ad71cc371d93c6f5bfb4627b
+    log: revlist-d63d8abb37ca-7f5c006a591f.txt
 
---===============0400982202321242056==
+--===============8880714272610367250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1631590858 -0400
+pusher 75C5DE3D 1631590869 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1631590857-9ce874024b4bff9d1135e7cf3344671ef7f77bb3
+nonce 1631590869-77195fcd2f2965c2fc9f51a148d864548d1bfad3
 
-9b5ac8ab4e8bf5636d1d425aee68ddf45af12057 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f refs/heads/queue
+d63d8abb37ca9d412bf746b6b6ff973f7146a04f 7f5c006a591f9e66ad71cc371d93c6f5bfb4627b refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAGcoACgkQ7ulgGnXF
-3j38dA//VygItKfdmtoyqpB6S4x6avfg3vqOgeZj6fAkEFCcwxgqtHE/GSdynon9
-Myy01pkWdKq003JzgeTtBgoiHMGrU938eJ0aikAYDZKQjZWdpkmNdz/TxsH75EN5
-V4rMG1SpZ9WWc3JuQ16oAJZ7jUNL8jipSmwxpm1adhEqOfd2Vvl711CWN2olIWCu
-d/XRjk45S/ysutGwa2YIQCPhf8US3Kk8Wxwt0Stt0V+6h+hD2cxcYX84graBYbNK
-ED55ck0xWs2Nn94bSJfthVLvw9gHYF35TiLth4t9whi117myUI1B7NJCQG/0ox4w
-IJuwQmdoMGCah0YfvEJ539DAlycxAytZAgu43YFqhn0c+NXr+9+4/weI5HufS3iN
-EpSnCiNv1oEaMZ2y6CwBubDUQ1ClQ9WVB/R1F62XpUazPz3v05qm7EQqlFlsHMJE
-XhPxP3OHtBEojvtQSZbavrhzfiU1WqQTMLfcFeSCM1S311UvKKWQ+V7erTBcUBdk
-q93WLlMOl3z39aEwQBzRbP4LztapmnglGcXFcr/3Ce3Mc+LMbfg46ZstX8VPKCsc
-jHsveL+0GEEXSkBAramozLvTpUlBnXM9/L0nQ7g5YQwjxgdpph36vmLAT7NZ5vi6
-gnx0j+l5k47wlKv1z4XXAv1mrdbs7TO1xw51PxTVU0sg4wS+JJs=
-=o0vK
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAGdUACgkQ7ulgGnXF
+3j0MNRAAgn2HiHg3NCdzJJXjwt+EOEm/VQ82d8NkQ1brXWxlVZJeanjIJ+14LK56
+wdlxcDmjYl8o+fSXFCGFZOTkaoIDVRStK+UgmuEN/la5ulqZDoB3yxZy1P+DNt4U
+OYExa7nSHifkADXZY4ZqU4+yvDReHjQBkbdpTIMthVUYqXz2odf9mwxy8MEHBhYG
+gC1+9kWYl/5XkcunEjFvSWlvrVdCz+hpC3jzIL5ypva0LzALIiXppvjZsfGGJms3
++QcfRbHWKGz8rFwQuFinchMNZTLOVhNMG/jXzBERHHU5GsGKmL/+LRI97iUw4/0E
+0JQ9JdPiXjjTIojtwC1j13hRskJ4Zl36BWSpH2FBXVKlpMpdVMLjW5kDG424paNm
+SGKUtcBInU1s1ShVwFxtHetlxuyfTQPRlmke4K/SVQLgo3rXtg62RC0Pumvz9ybO
+klgZq2R0zcRsqMdBJBij2HFlE/y1Io5X5+42FnOzvgwfthlL3C2A1P9jmedhAstR
+a1GSI8jBU7YB0j/WtBfx+Q01T/5U6pJ26yf/qIt6MnmnQQFrboS2d3KgEFlwJ82A
+VzmErniSXVDM/R+kgtr3Kb9WfxZMCraFKpNBmGItxXre6ONVbuJrgAIAmGA2GDHT
+Nz6DgALYcrO+VinnhENWKJbhkGRzOcYNKbM1QLQQv6puLMgI1LQ=
+=OvU4
 -----END PGP SIGNATURE-----
 
---===============0400982202321242056==
+--===============8880714272610367250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b5ac8ab4e8b-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-d63d8abb37ca-7f5c006a591f.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1081,4 +1081,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============0400982202321242056==--
+--===============8880714272610367250==--
