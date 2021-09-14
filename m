@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4576100134158606429=="
+Content-Type: multipart/mixed; boundary="===============3599054384793552318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 14 Sep 2021 15:48:27 -0000
-Message-Id: <163163450740.12375.12592257994204596530@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 15:48:47 -0000
+Message-Id: <163163452743.12856.7625150682747528688@gitolite.kernel.org>
 
---===============4576100134158606429==
+--===============3599054384793552318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: b62869dcd4bcf341d3750a2bcad9a80c6d5562a8
+  - ref: refs/heads/at91-dt
+    old: 818c4593434e81c9971b8fc278215121622c755e
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-b62869dcd4bc-6880fa6c5660.txt
+    log: revlist-818c4593434e-6880fa6c5660.txt
 
---===============4576100134158606429==
+--===============3599054384793552318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b62869dcd4bc-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-818c4593434e-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============4576100134158606429==--
+--===============3599054384793552318==--
