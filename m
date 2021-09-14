@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Sep 2021 08:29:21 -0000
-Message-Id: <163160816111.26904.10192174138525447886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 14 Sep 2021 08:29:25 -0000
+Message-Id: <163160816547.26994.17077946382921541952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 34b1999da935a33be6239226bfa6cd4f704c5c88
-    new: 81065b35e2486c024c7aa86caed452e1f01a59d4
+  - ref: refs/heads/for-linus-5.15
+    old: 20264c80abf0c7002e667927779cacd8eb46c628
+    new: 0a3b748e7c7119c56af38ff8bdfc7f28aa8bb8b2
     log: |
-         81065b35e2486c024c7aa86caed452e1f01a59d4 x86/mce: Avoid infinite loop for copy from user recovery
+         e1383bb2e60038f68a0228a4fe42ff813012eea0 swiotlb-xen: suppress certain init retries
+         12c2f1e4ed1b2e3a4c3146173b4177fdf86a5abe swiotlb-xen: limit init retries
+         8563b818207ce9c6c10b8cf32f4c5e03ab4c2b13 swiotlb-xen: drop leftover __ref
+         26304766abf449290d067a58830f076f4e1a44a2 swiotlb-xen: arrange to have buffer info logged
+         0a3b748e7c7119c56af38ff8bdfc7f28aa8bb8b2 swiotlb-xen: drop DEFAULT_NSLABS
          
