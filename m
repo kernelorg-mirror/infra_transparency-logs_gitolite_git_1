@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4871055296223690399=="
+Content-Type: multipart/mixed; boundary="===============7669973589421922025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Sep 2021 04:41:09 -0000
-Message-Id: <163159446909.7236.6197482362224768369@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 04:41:19 -0000
+Message-Id: <163159447916.7351.9447988677265461675@gitolite.kernel.org>
 
---===============4871055296223690399==
+--===============7669973589421922025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7f5c006a591f9e66ad71cc371d93c6f5bfb4627b
-    new: a25b7017467010aa2b825a2c0ddb238884a1bcb7
+  - ref: refs/heads/5.16/scsi-staging
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b
     log: |
          4f6094f1663e2ed26a940f1842cdaa15c1dd649a scsi: hisi_sas: Use managed PCI functions
          089226ef6a084470f4665a68ad7eb48fb48db093 scsi: hisi_sas: Stop printing queue count in v3 hardware probe
@@ -29,33 +29,33 @@ changes:
          e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b scsi: libiscsi: Move ehwait initialization to iscsi_session_setup()
          
 
---===============4871055296223690399==
+--===============7669973589421922025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1631594461 -0400
+pusher 75C5DE3D 1631594472 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1631594461-56852535a689405e1414e71ec1cdfa584a5bc4d0
+nonce 1631594472-7a4d291514883fab0363f15daba0015608b2a7b7
 
-7f5c006a591f9e66ad71cc371d93c6f5bfb4627b a25b7017467010aa2b825a2c0ddb238884a1bcb7 refs/tags/mkp-scsi-staging
+6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAJ90ACgkQ7ulgGnXF
-3j1SUhAAgKWeIHvLZ9NJvxiQJyIAcv8r0B3VBbCYFXVl2v0qj6gDD2/ydg3TIHY2
-EYd/YV9ZcuIx+h4INLDD0JFc/7T1LiQD874ByLaA1tqjVdgYzess7nNeWxBKiBqn
-zS8p2njOFGvKst3NFX/d6B/unJuXkZZAO/Sq6n5H67fsjB9R5akEB/y9p2HjEBY8
-b1FL53PJCXErIVjawz+5DaoU94J8UGPEYQALYkqXnAhuseaWRL9QNv/P5P1XoFeF
-NaaYlwG0IRwEBkNcCzNHMMkG5BEjmvRFpzHhDAzWx1+l/dyva+J3aEJpbeTFQYGT
-rmuHq/PRBNkbeqWfUQzDW0uZr4E+4sOLaG+uhJnhx+dTodaEjil4tpyoLLyUhULQ
-wxqJ2b9hMHuV0FnA3XFwyOY4oExiqbrSTj/7N/GaNdyngUx7bH+Ah7xikZVmXPqi
-rHtcpBLGTiGRFBjeh5mR9RRem9/he6esH4gaxxUJdZXOhuS4WTB5JaNaFdMNXEWJ
-qdoxNONocSIq5xpkj17m0rkCQmI6bSqJiqf+Q+ztJSn+BpTfgkUckVTZDL91CtVj
-t56L5t1dn1wPuBCUeoYTxTeorqsW3DyNZHAVhaTTJrP4a+0oVYj193akCuDJ+WqU
-Tut/xOZGIPDJ3XAlUEjIAKcusSX0DjB2zGG6ayyWXPVLELAf3m4=
-=vuqL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAJ+gACgkQ7ulgGnXF
+3j3ckA/8Cydvka3t9ohnM9z8vVoQKPJYDvJA7QesHbvdPx0W5O9px0bXK6tCV31I
+ALXHj1QxzNKWvOAtIG89uDxFBYAJ/YyjXbNoy1Lzk/TBaLuWLFJafl6rO71o7lUQ
+u79ViJ4ubj5o28zH0XTsYIFUqTcNeHbB2PB472ATxsxuFov7Ngty7+i3sg3cCq3m
+QakQwye54UdnlMoTilDUqO8v8WNygsZm7feK37OTVakMYgflqcTg58ZcJ9MLbqQF
+Z8wQUE7OnyCm3NLGmH7VGUAwZH571Vf9Ps7V1mbsAfx6s0LrxZiIW16ZYnYtvFLz
+XHnXzEKW6m32W/PsmQ7KNByXeUHmhPeNzrITXNfbjIjCVIX0F31mmCtTVSH/qq+Y
+bPysp5dofeHRaKWtSURaHH72yXmP/xavLd/BVxgZjJzw7Q5dpIR7VD5jtSA+iJSq
+46tNbrp4KmsZ5FM6hfjGK+JTpqcdGMUJo6KnGZ2aR89kOopvez1+EfRW1nsWVMkX
+CFER6ZL7d1EhjJJjuN+NVqzh9Qb/0nAGoZaNg3Cx/Ft5u09InNaytbIZhaZMVR5W
+/eo14FWFNP4cJaXyXds5lyA57PrqsFDkPOYEGZp2s1Kl37SCN604dgbly58D4kWV
+t6cbrxgtvmz5Bn1wboPCLuMQUsahj36yO65+7R/4gk9ft7bcIlE=
+=GJtD
 -----END PGP SIGNATURE-----
 
---===============4871055296223690399==--
+--===============7669973589421922025==--
