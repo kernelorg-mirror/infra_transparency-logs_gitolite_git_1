@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8849077987677838426=="
+Content-Type: multipart/mixed; boundary="===============3673992862676849732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Sep 2021 09:04:55 -0000
-Message-Id: <163161029539.2189.9994058562739614249@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 09:05:32 -0000
+Message-Id: <163161033291.3792.14193764699508776035@gitolite.kernel.org>
 
---===============8849077987677838426==
+--===============3673992862676849732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 5448a9e9f16a1b95790df7ef58686331aa3935a6
-    new: 4795d8c05a8d3faceb1842b7e5210cbed3927c52
-    log: revlist-5448a9e9f16a-4795d8c05a8d.txt
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+    new: 019a926fcae5bdab8d90d7884f73066649c2cff5
+    log: revlist-5448a9e9f16a-019a926fcae5.txt
+  - ref: refs/heads/master
+    old: 4795d8c05a8d3faceb1842b7e5210cbed3927c52
+    new: 019a926fcae5bdab8d90d7884f73066649c2cff5
+    log: |
+         9b5281cf4825b30097ec72d402bebd02707084c8 Merge branch 'x86/urgent'
+         dd95347cac32c4608a711420cb75403e4ed4cfd0 Merge branch 'x86/cpu'
+         c0a5a1092868ee275249d7dd2e0bf48b2ca69c5a Merge branch 'sched/core'
+         019a926fcae5bdab8d90d7884f73066649c2cff5 Merge branch 'perf/core'
+         
 
---===============8849077987677838426==
+--===============3673992862676849732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5448a9e9f16a-4795d8c05a8d.txt
+Content-Disposition: attachment; filename=revlist-5448a9e9f16a-019a926fcae5.txt
 
 c784e46c8445635afd81bd4089fc5e87271a8f3b auxdisplay: Add I2C gpio expander example
 53bb4a9dda0b51c161b2573641c586f7d5d7e189 firewire: net: remove unused variable 'guid'
@@ -721,10 +727,9 @@ f87bc8dc7a7c438c70f97b4e51c76a183313272e x86/asm: Add _ASM_RIP() macro for x86-6
 0507503671f9b1c867e889cbec0f43abf904f23c x86/asm: Avoid adding register pressure for the init case in static_cpu_has()
 d0ee23f9d78be5531c4b055ea424ed0b489dfe9b tools: compiler-gcc.h: Guard error attribute use with __has_attribute
 81065b35e2486c024c7aa86caed452e1f01a59d4 x86/mce: Avoid infinite loop for copy from user recovery
-38fffe81d6f50b4f84d0cb299b3ae5978866e106 Merge branch 'x86/urgent'
-cbe7a25a63a2581285d1c3dc8f6072fd2006a68f Merge branch 'x86/cpu'
-1971bf82b6a87ca7eb3dffc5522de7f975b6794c Merge branch 'sched/core'
-dca2a0b76a49e5713076e3eef8995ff4bcede440 Merge branch 'perf/core'
-4795d8c05a8d3faceb1842b7e5210cbed3927c52 Merge branch 'linus'
+9b5281cf4825b30097ec72d402bebd02707084c8 Merge branch 'x86/urgent'
+dd95347cac32c4608a711420cb75403e4ed4cfd0 Merge branch 'x86/cpu'
+c0a5a1092868ee275249d7dd2e0bf48b2ca69c5a Merge branch 'sched/core'
+019a926fcae5bdab8d90d7884f73066649c2cff5 Merge branch 'perf/core'
 
---===============8849077987677838426==--
+--===============3673992862676849732==--
