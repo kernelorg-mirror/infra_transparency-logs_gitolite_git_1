@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6998734236068452740=="
+Content-Type: multipart/mixed; boundary="===============2417058805850181587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 14 Sep 2021 22:38:11 -0000
-Message-Id: <163165909176.22175.6739890617873139948@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 22:38:14 -0000
+Message-Id: <163165909485.22232.13215625733458059793@gitolite.kernel.org>
 
---===============6998734236068452740==
+--===============2417058805850181587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 537d3af1bee8ad1415fda9b622d1ea6d1ae76dfa
-    log: revlist-e73f0f0ee754-537d3af1bee8.txt
+  - ref: refs/heads/rproc-next
+    old: a0a77028c85ad1f6f36c3ceea21b30dc43721665
+    new: fc1b6b6439588329ca3de77ca0c68c1b5bc3c7d0
+    log: revlist-a0a77028c85a-fc1b6b643958.txt
 
---===============6998734236068452740==
+--===============2417058805850181587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-537d3af1bee8.txt
+Content-Disposition: attachment; filename=revlist-a0a77028c85a-fc1b6b643958.txt
 
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1048,7 +1048,7 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-08de420a8014ed3fd83b2436f7e8bd9c4fcd9afe rpmsg: glink: Replace strncpy() with strscpy_pad()
-537d3af1bee8ad1415fda9b622d1ea6d1ae76dfa rpmsg: Fix rpmsg_create_ept return when RPMSG config is not defined
+d4d47ba71df51ad737bc129e12ce40739fcd93d6 remoteproc: qcom: wcnss: Drop unused smd include
+fc1b6b6439588329ca3de77ca0c68c1b5bc3c7d0 remoteproc: qcom: Loosen dependency on RPMSG_QCOM_SMD
 
---===============6998734236068452740==--
+--===============2417058805850181587==--
