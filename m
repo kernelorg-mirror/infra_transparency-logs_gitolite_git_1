@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0070200120130947547=="
+Content-Type: multipart/mixed; boundary="===============8556556494012611709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 14 Sep 2021 23:13:26 -0000
-Message-Id: <163166120633.12759.8522724058229847903@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 23:13:43 -0000
+Message-Id: <163166122336.12937.4083583913748054036@gitolite.kernel.org>
 
---===============0070200120130947547==
+--===============8556556494012611709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
+  - ref: refs/heads/devfreq-fixes
     old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============0070200120130947547==
+--===============8556556494012611709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============0070200120130947547==--
+--===============8556556494012611709==--
