@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2417058805850181587=="
+Content-Type: multipart/mixed; boundary="===============1575266461883959945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 14 Sep 2021 22:38:14 -0000
-Message-Id: <163165909485.22232.13215625733458059793@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 22:38:17 -0000
+Message-Id: <163165909790.22338.4284226284376850069@gitolite.kernel.org>
 
---===============2417058805850181587==
+--===============1575266461883959945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: a0a77028c85ad1f6f36c3ceea21b30dc43721665
-    new: fc1b6b6439588329ca3de77ca0c68c1b5bc3c7d0
-    log: revlist-a0a77028c85a-fc1b6b643958.txt
+  - ref: refs/heads/for-next
+    old: c93ca5f21d9362aac84438e06b5280460a038319
+    new: 99fdaca991f7b35a72c7ac31dcd11656742abece
+    log: revlist-c93ca5f21d93-99fdaca991f7.txt
 
---===============2417058805850181587==
+--===============1575266461883959945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0a77028c85a-fc1b6b643958.txt
+Content-Disposition: attachment; filename=revlist-c93ca5f21d93-99fdaca991f7.txt
 
-d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
-48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1050,5 +1047,8 @@ b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 d4d47ba71df51ad737bc129e12ce40739fcd93d6 remoteproc: qcom: wcnss: Drop unused smd include
 fc1b6b6439588329ca3de77ca0c68c1b5bc3c7d0 remoteproc: qcom: Loosen dependency on RPMSG_QCOM_SMD
+08de420a8014ed3fd83b2436f7e8bd9c4fcd9afe rpmsg: glink: Replace strncpy() with strscpy_pad()
+537d3af1bee8ad1415fda9b622d1ea6d1ae76dfa rpmsg: Fix rpmsg_create_ept return when RPMSG config is not defined
+99fdaca991f7b35a72c7ac31dcd11656742abece Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============2417058805850181587==--
+--===============1575266461883959945==--
