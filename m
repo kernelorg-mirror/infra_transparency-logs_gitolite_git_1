@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5720550920085665533=="
+Content-Type: multipart/mixed; boundary="===============2829021034310196969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Sep 2021 08:30:48 -0000
-Message-Id: <163160824854.29188.11322560396267822833@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 08:31:14 -0000
+Message-Id: <163160827496.29393.12301150114019769710@gitolite.kernel.org>
 
---===============5720550920085665533==
+--===============2829021034310196969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 4bb8c58f982157001a444e9fff2a1cc2ddeb3eb1
-    new: a9f131e4898284b4080df24165ada91a19d7681b
+    old: a9f131e4898284b4080df24165ada91a19d7681b
+    new: 44a0f3bb69a355a3e052833e47cf43a46dd16a83
     log: |
-         a9f131e4898284b4080df24165ada91a19d7681b usb: musb: mediatek: Expose role-switch control to userspace
+         44a0f3bb69a355a3e052833e47cf43a46dd16a83 USB: core: Make do_proc_control() and do_proc_bulk() killable
          
 
---===============5720550920085665533==
+--===============2829021034310196969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631608247 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631608273 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1631608246-e35d144c5bf835758e457951d8cd05d487a68c6b
+nonce 1631608272-ef30216d50c95ab319a3e7275fedfff1575a4ee1
 
-4bb8c58f982157001a444e9fff2a1cc2ddeb3eb1 a9f131e4898284b4080df24165ada91a19d7681b refs/heads/usb-testing
+a9f131e4898284b4080df24165ada91a19d7681b 44a0f3bb69a355a3e052833e47cf43a46dd16a83 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAXbcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KSQQAM9uA5G66noKFvZ1uHSG
-kCLRF5cWeSixlJPWl838GaoU89qqu3VgTZBZ/hUWqvnmNX0YClCEMMokQmvPYv/x
-j6aPzC8JTp/OT6rk1ICSb7UewvKMFZqscZKXfssuprNGNT3r1fKEqzfOxnWMGA7m
-QoRqUNaV9i4MsTqnnEvBIVd1IXxmMWajPhSBOeXpHWMQF4EB1iky3esKnqXf2o6T
-WYi2OBmZChrqFleF9bCkyTGUh5xFv0rS96GdhLeyBxwZiBwdkcDmAKMEiH5P7cqe
-VupVaUlEPcXJCNT7lNi3z+8+ghAPtJ60VDSDCuqBwfH70Ajss/lZtshmtz7WzMh6
-ZblFXJCB3EOQZ/oquJxVogGD9LbgiX8qGSG/Ccf8zhN3TYeJ1kRTLdzjGo5w6s+b
-/whpLEpeinheO4UiN/w1cjUu62rOqhRPLJBKpV3j6wRIHCN5zDgP17XQU7qL/Vw/
-AIbWZsUqeNPBYBn/ZeRpwlgcDjwFSnzsHHAdAxULEIMSthyhfyIcEKJzk+BpeL1h
-3LCEkcdO+3Z38chsUtG45Tn02eHged6W4edqckDtiEOI8W87Xx+kdQgzi/HEmQlt
-hOK6L0Cz4XFqmca5T6SdauxdBopcnxLQqAtsAHW8bqU2WNmsdiTeqStoN9w8cbMB
-rJMcBaVQLJQP359pkk1EPV+4
-=mZic
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAXdEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bpQP/iHtfgEcFNaqSrc1MRWC
+MlFdPj23lOl4a2qXkxu79LDK2LU5FMSoAwE1H5R06koTApVrdjawsiHm6/D4hIH7
+9pAxOKG+g7UO5ei4KD4byunduhDbZJpeh8jkX8A5KVsjMBH7gLjBVP+AgBoDx8+x
+EU3CzHBfGwnbKZ5TxjOrZBR9YulvCiiLjrg3MBUB+0sLkcGahXFFHSW6XZcAXvC4
+mpv6slUNrTNIdN2+V0RmgiHnOymxpcDKxNzSYnAcgzwcntqwmj0DYOdMDleWBeE1
+kUvV2fysuKSJw2ln+Ptj7mIAn30fn8nOw1BkSE2XTi0+FZalAtu4W2N+g35ctpBs
+0C0KkUAuNI6Wc7JEzefkLw8sbDoEul8R3NddkpA6arSWex11cizzQ5hbgz74IduO
+lSYLKfvzNmow50gOwMQBZ9qlFVOCWqH/xmhSPmP/6oCXHvNrLTnd+JUfJEn0CXEa
++acv/eaWBWSDHVKU5OSeUto2B3Kn5+B5AV1TGkAe0JSfkEI3Y6OeUu0dkkfpcZBo
+JWS9m/ljA94IC3W2myE0YzzldxRncxcYogRms9stn7smslyWleqw+rOFBUJMdLnT
+1KlMlEYVIvpQxaXfXJaewSeunZHMyS273eiHeEpZgGQcWug3hfvK4jBhToszQtRu
+4wnj+1pUpW1z3J39Hsn1Kc6f
+=Jq1s
 -----END PGP SIGNATURE-----
 
---===============5720550920085665533==--
+--===============2829021034310196969==--
