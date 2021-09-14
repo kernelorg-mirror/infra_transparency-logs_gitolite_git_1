@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5683662926123888450=="
+Content-Type: multipart/mixed; boundary="===============1051758095498201139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Sep 2021 09:15:11 -0000
-Message-Id: <163161091120.9848.5574559573773810440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 14 Sep 2021 09:17:40 -0000
+Message-Id: <163161106016.10679.9697566535104806346@gitolite.kernel.org>
 
---===============5683662926123888450==
+--===============1051758095498201139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: f0e8a206a2a53a919e1709c654cb65d519f7befb
-    new: da546d6b748e570aa6e44acaa515cfc43baeaa0d
+  - ref: refs/heads/tty-testing
+    old: 0b91b5332368f2fb0c3e5cfebc6aff9e167acd8b
+    new: b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7
     log: |
-         da546d6b748e570aa6e44acaa515cfc43baeaa0d arm64: dts: qcom: ipq8074: remove USB tx-fifo-resize property
+         b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7 tty: moxa: merge moxa.h into moxa.c
          
 
---===============5683662926123888450==
+--===============1051758095498201139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631610909 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1631610909-901fc326ae96c07143030359f51e6c62bae3119b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631611058 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1631611058-57d1032b8e815dd3fb88b407d662fe038c30b4e3
 
-f0e8a206a2a53a919e1709c654cb65d519f7befb da546d6b748e570aa6e44acaa515cfc43baeaa0d refs/heads/usb-linus
+0b91b5332368f2fb0c3e5cfebc6aff9e167acd8b b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAaB0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x+0QAKuIXCtFo7tK6fj5Z5GM
-fL13kEV8zhVQh9o/X4Tay3BAyklS1iNzrr7V9+W02L1JCKGEMEsmVsaxvs3d7m0G
-UnSFEbrUTr0csqinvE0Ke8egNP6+w+8EImYUiF/LELGCxZD06qI5v/2gPj77Cy7M
-suL6JCGOGbRT+/2G3ksjyc0MKtuyx3eGP8jtN7cxc+mk/fWHtT1NN3mSYCpDS+MV
-Ejbbp+GDAchH/pdymqnhGdG9FAec3+kvktn1dAymgev/xATUybyZixm9JvyRFIYh
-NyIWF4CnKX8gf2YGpNKIcp6HIFD2K36m79n0EtmXh1eQZhhH/lrJdME/JIbk8/Qv
-NKnZryKgjY0RB/p7eVsXfSkndIn13gm/rIFpbjPnC8int59TxPjP0yO+g1hr3/k1
-wKxWvWCbuK++ey7olER4R+1w8pCm36C1x8vNWmjmZE6O2FsY2B1Dd3ZspYJjSuGx
-F9RBIFUPkqcPZ2rKWo5RU8b6IZ6kA0+GmcAd1IpgaPsu0elYTJ6ipgMUxlvSA9/A
-EdJ5t44dKq2dmDfnPXXe2hCNoHvJvi6yDIP/uksqR4wDPDmvAE+/y2jOMyR8uF1C
-Z1dF+K0N+Tpw3jDbm283VZ/c/xOKNpMW+5IgaEaolFRi+ImEu7ogycx4btYCSYfG
-Yy0tqHdwX2sCQUZSxCyUoDME
-=LZHe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAaLIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rv4P/ify6PWzu4nC2tWNIGYm
+Gg9b3UYafswTRwMHvuhpYOnn8zPL57SifVDWHc1EWzjPcHMFIgdfrK/PC4p5OECQ
+vSrAF7pa656dxP4/htYi3CG9spP5k9dwCCveNnDIQrYFrOz3MWTo0vNV65YuMioD
+J7F+bUl2uCazpNaYJUPeWKoE0d/JshMX+7Xmx1Fj/kyfElwKIKm46TgNSw4UQvVA
+if3e+NaJdGLIBOZEFYKu24JSBO3nPpSM/D1WK9nD83XEJjblkce6DPcQ+EfaZCpo
+dSjnsR3zjHyhOd8fW3TIi10IAIY/BJim9xI+rJRL3AB543r4aBkttlCMCF6hYGRs
+k+jA0ws5adQYEQFYnf8l5W7QXNHTmoPcZ4hMw5lz5rr07jtb5bNIP3Xhsw7JWdze
+PFBavwh6cNPqYvwEvJrrZH7lFgtNm0zIGzvgaAD6QkFd5qSTDcOO6PWtkfskjV7y
+XNuxi2GvkM7z7YQJVtxU88jluB/k03VgjYJ/6L2BjQhwuZioCYo9hlNJjdjRN/ex
+8jJHSyiPZqTcRPgV5o1aNLHiybiIsI9QsA1aWDMDxwjU7hmET3xN4+DCCbFXWXcn
+ogUek4uGhj3ZB31i/DUbAvku+ginG3QlKrQXWL+6XRizsR+p3NjEYtz6jVawB7UF
+DpOpQ5rc6YzvH/fqgJ3Z9D/n
+=4Y0w
 -----END PGP SIGNATURE-----
 
---===============5683662926123888450==--
+--===============1051758095498201139==--
