@@ -1,43 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9196474323112365457=="
+Content-Type: multipart/mixed; boundary="===============4347177019028141267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 14 Sep 2021 08:55:03 -0000
-Message-Id: <163160970345.13378.1607751362534287854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 14 Sep 2021 08:57:42 -0000
+Message-Id: <163160986297.14704.2872755557503493018@gitolite.kernel.org>
 
---===============9196474323112365457==
+--===============4347177019028141267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 0396d735169d416b364e68712769b53496c5d668
-    new: a6e3a1091af76112726b7924426549cf5c208858
-    log: revlist-0396d735169d-a6e3a1091af7.txt
+  - ref: refs/heads/char-misc-testing
+    old: e5f71d60ff167d0caa491659d65551a55ea6b406
+    new: a34993a2791c507d6941582f37c9776257662523
+    log: |
+         83c510568ec52f8eb00abf45bf35fbae9b97390e misc: rtsx: Remove usage of the deprecated "pci-dma-compat.h" API
+         a34993a2791c507d6941582f37c9776257662523 misc: hisi_hikey_usb: change the DT schema
+         
 
---===============9196474323112365457==
+--===============4347177019028141267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0396d735169d-a6e3a1091af7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-34180dbbd10e653232143a21d7083d1801c870eb gcc-plugins: arm-ssp: Prepare for THREAD_INFO_IN_TASK support
-2102e670addacab88d42f01ac0a3b18ca6c5748b ARM: smp: Pass task to secondary_start_kernel
-aed85acbc46b3d1cb92c9467074f2b98a7188add ARM: smp: Free up the TLS register while running in the kernel
-e3206edd3253800491a93728d6c7ecf8da4f51d6 ARM: smp: Store current pointer in TPIDRURO register if available
-108bc15be833b3fa591e927d36422ae319760faf ARM: smp: Enable THREAD_INFO_IN_TASK
-8c654f54112eb5555527271003e08c45fd50c6c3 arm64: add CPU field to struct thread_info
-7043e74272acf255fab412a8ff5fac154a6f8048 x86: add CPU field to struct thread_info
-f5569249a04a042d074ea16ce9906e34d162103a s390: add CPU field to struct thread_info
-c390c8136d98f6acba02b8e1365beff0ea51e605 powerpc: add CPU field to struct thread_info
-e9e0ce9a66db30846111b0944c913989026b17eb sched: move CPU field back into thread_info if THREAD_INFO_IN_TASK=y
-c7c348f24bf3f7b1d718f755c724d5191bb6fbee powerpc: smp: remove hack to obtain offset of task_struct::cpu
-46c23355897a29f2b08a825f858f1ce66a445360 riscv: rely on core code to keep thread_info::cpu updated
-a6e3a1091af76112726b7924426549cf5c208858 ARM: rely on core code to keep thread_info::cpu updated
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631609861 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1631609860-c88310c6f5915f0d94eeb0009a852b6d7417f194
 
---===============9196474323112365457==--
+e5f71d60ff167d0caa491659d65551a55ea6b406 a34993a2791c507d6941582f37c9776257662523 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAZAUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PkQP/3ZY7DmWMTpBaNEL/KbF
+m95YXUkJIpQpzfOIZ8YnduAzGEvekWTUl6GwDazmOzSsCqXVjLCuL8SMwpfCnM/l
+WbhmTJcbOANoD+UqyA012IeS1gzPBtlWSz5jhvc646UE0OTF2zI7l/fseie6W6bh
+mO+43vhjhnl4ZeR1SXndEBPWBpPoQA0b0y8bIAZ3KKwwooUszXVC3LqNsa3bFdlq
+pKm968Se5a1U0CQ0sdO3LBvrT5J4QUtyJcKX6OBdNivnYnRhb9YIIiUm6LxwJ3yt
+xuMI0bu//3/cCkDsCQZPsE4nGvR7zQSBX2iFNOrn55tMRJI4PYOXUai50OugVIsZ
+M5D3dHffpn7qrGHDe7jzzls415uO04w7oubQ6Ds+3M3lfeIp2Gf2bun6X8aKLHLE
+l4qWuZMCtAOrkzZtP23R0faBhAHYPx2JLqmi3YPvgtY3uDe6sgZG/OhqU/uHzN65
+wMvXmzIIY6yZ2zoEaoH4el30BXs8Oseum8ZfXoriWAgUPrQAUxjrzx5MZtGFcHkX
+bWmlfIEB8iA2eQ3W5CFXRlwYq0iqrIJfXfXshPl1XkBcM15FJW7v8dWTmPnzhEo/
+rxxF4G5iCpyM3BdAGvFgP8qGlL2ZQLnMOErI1g4tW3ghXwZD247VpuD745XEKXxH
+H5L5/HTdLax1xpvFLttI7zN1
+=wKXJ
+-----END PGP SIGNATURE-----
+
+--===============4347177019028141267==--
