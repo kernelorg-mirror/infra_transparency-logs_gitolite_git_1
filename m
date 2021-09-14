@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1968359459889543957=="
+Content-Type: multipart/mixed; boundary="===============8081182239862054726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 14 Sep 2021 15:37:02 -0000
-Message-Id: <163163382252.5613.18314229319057380072@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 15:37:51 -0000
+Message-Id: <163163387167.5915.487796542076522793@gitolite.kernel.org>
 
---===============1968359459889543957==
+--===============8081182239862054726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-next
-    old: b102356e5bc1e99afc0d733015a3096440dacfdb
-    new: 9648a43994eb75e7fabb69582aaa3f18f55b7b02
-    log: revlist-b102356e5bc1-9648a43994eb.txt
+  - ref: refs/heads/at91-soc
+    old: ad9bc2e35cf575644064284943aefdde426644cc
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-ad9bc2e35cf5-6880fa6c5660.txt
 
---===============1968359459889543957==
+--===============8081182239862054726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b102356e5bc1-9648a43994eb.txt
+Content-Disposition: attachment; filename=revlist-ad9bc2e35cf5-6880fa6c5660.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
+c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
+d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
+48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
 7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
 866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1042,13 +1050,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-1605de1b3ca66e3eddbca4b3c353c13c26476fe2 ARM: at91: pm: do not panic if ram controllers are not enabled
-63a84d560e818f8a382a4a61bf1e59df43cdc06d ARM: dts: at91: sama7g5: add ram controllers
-2305d7ab661029f00ff49141b9ca90f736c1f9af ARM: dts: at91: sama7g5: add securam node
-16b161bcf5d491c7856effc16c8901984df4466a ARM: dts: at91: sama7g5: add shdwc node
-6f34662284511a04643b25ad3032adc6fe4689ab ARM: dts: at91: sama7g5: add chipid
-ac809e7879b15643105795a5f9becb5ef44abd93 ARM: at91: pm: switch backup area to vbat in backup mode
-4348cc10da6377a86940beb20ad357933b8f91bb ARM: dts: at91: sama5d2_som1_ek: disable ISC node by default
-9648a43994eb75e7fabb69582aaa3f18f55b7b02 Merge branch 'at91-fixes' into at91-next
 
---===============1968359459889543957==--
+--===============8081182239862054726==--
