@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8956641961993950321=="
+Content-Type: multipart/mixed; boundary="===============6965928890394845293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Sep 2021 03:40:33 -0000
-Message-Id: <163159083317.25408.6125600645249273196@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 03:40:44 -0000
+Message-Id: <163159084459.25533.7405689042407284468@gitolite.kernel.org>
 
---===============8956641961993950321==
+--===============6965928890394845293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,65 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 02c6dcd543f8f051973ee18bfbc4dc3bd595c558
-    new: 1cbc9ad3eecd492be33b727b4606ae75bc880676
-    log: revlist-02c6dcd543f8-1cbc9ad3eecd.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: bd26aca4273d1fd6aa1ba004a647ba6a873ec260
+    new: 25f246d0fbc9e110cabea980650f189ca9b191f1
+    log: revlist-bd26aca4273d-25f246d0fbc9.txt
 
---===============8956641961993950321==
+--===============6965928890394845293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1631590826 -0400
+pusher 75C5DE3D 1631590837 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1631590825-604a3689e889ad56d0309d9ebb14b656e96b9055
+nonce 1631590837-8d36cdd8de452d5c35d059fcde278b0d6d68717b
 
-02c6dcd543f8f051973ee18bfbc4dc3bd595c558 1cbc9ad3eecd492be33b727b4606ae75bc880676 refs/heads/fixes
+bd26aca4273d1fd6aa1ba004a647ba6a873ec260 25f246d0fbc9e110cabea980650f189ca9b191f1 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAGaoACgkQ7ulgGnXF
-3j2G9w/9HskUXd4s0Oj230sGtRLStypNKfkCAk0swAZ79e0kRjwseKIMwf+NKl8z
-aJbQbISoxp3G+KMSJzLBHHqQwweLMNrTQAM3D7gYaZR6HjwciHtW6QlxBsz/w8c4
-eQ8Oa6vRTnvS9MfplYSZtpH+mKTjIFNPKwR1UcUmqXL9AO8Ad1qDuUGcj1C5bwZd
-Nv7NplKwHKgJQWgxzr7SKZcQa6pXe8aQr+QQLZ4Oh1WFytpWQakTm2RhMPx/B/cx
-611nKpUegxbJYQJJcD7fSHqLEVRYw74WDUHbyw0jf817prKbVuYqEEB8skvaUc/4
-rFqdrNEkS/JEBzazevd4J8BkCdzCymu3heknVlpZ7Mm1Z2IrIsCTKUmU0IY/EZcH
-yPftHU4WjzeJg7FwT4rqWSMD8J2owY6eScd7RUTdcxeFSlTHycnIKV3hocvH50aO
-VeLfL6W8+t5IKtEGmMgj8SiiSUgnZ8bBab0cYIzmL1ghOAK1KxWd8lbAhPdTcVg4
-NiyjwTOr7F2RZnl+eB+LHdmjIOxk0t2/CGlhr5y5AG1V0uiD0hK8e3HTVPVkw1MK
-k2x9YYBVgAzqTFK8fy/DSXwYcUQexHAuGdq9YPyY7Sm27P6lEzvLScLXVbV6KU0B
-kK9rKbkXlw++f6xW04Qn8ts90U7o5YKPmBseEvDrTF4Zk7ppPqk=
-=Vmbb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFAGbUACgkQ7ulgGnXF
+3j1XQQ//bixNicy1Xsbj/mDW3nH9TRY9oweBwUdu3SC7HGyUuyY0VQIOqlYVMJgw
+XD+4KLw0ZlidcwidbZPtMjNFLJm8UxIZ4uklba9R76YayOv7K2nAewLlX4ZkqP9T
+WJ6p/q197EhlhkH4keSoroUerZRKSkhfU8EqaXhicZpqWdNh5MFhwp41nWUfddBQ
+XnJWDTz8VoYBtBIRL4qHdEw18qluE6PTmxKuDmTzXdvx1EcJ5B3LSdpLgepm37kt
+5XRlfEYUSkac5oKVLPVkZcnYVUTOqZKGPY3xpE4MnPea3S9PhywAxf4pqiO3wLQw
+jOfRozcW3N1nM7ggKamkMnEZf5piFSXtIfCGZ3Nkh8hyUs5rKil54ovrkPrnF9wW
+cGJcUl/VruxOcEvICwijTwJEEP+dKYyZI2puPio3ZxycLxpl44yKjJVAE+BxqzaQ
+v56ShUNs/GWoQRqROYAWvsxdV1+RBrpWuc+q61BTrowx8RyilLJb/KUrhC4mtDad
+qnc4SdrZsI4ZKH6DdYIs4Rx8hTuKdDbvQLgbjPTCYjj+HuFZx2xdQqHUv9khcM3O
+bRXlHcZJG+W8KUKVHhveO8HNk+XWJAR90a9ETCSmJoIlQru9P667S8eXzafCmBDc
+O3T+TdsQqIcwOUqj5NQlF+/DTDaCpiyeflv3u7qRHa1WVvkm/aQ=
+=Gf1t
 -----END PGP SIGNATURE-----
 
---===============8956641961993950321==
+--===============6965928890394845293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02c6dcd543f8-1cbc9ad3eecd.txt
+Content-Disposition: attachment; filename=revlist-bd26aca4273d-25f246d0fbc9.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
+c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
+d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
+48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
+7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
+866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
+8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
+47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
+32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
+205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
+c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
@@ -1061,24 +1080,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-6a2ea0d34af1ca807d5ba6a8350a037ff3cd35cc scsi: st: Add missing break in switch statement in st_ioctl()
-96fafe7c6523886308605d30ec92c7936abe7c2c scsi: elx: efct: Fix void-pointer-to-enum-cast warning for efc_nport_topology
-59936430e6a6acb0ef943e9306506b2e9c2e45a8 scsi: lpfc: Fix CPU to/from endian warnings introduced by ELS processing
-37e384095f20cca728500fe5344cd308aa6fd7ff scsi: lpfc: Fix compilation errors on kernels with no CONFIG_DEBUG_FS
-5d1e15108b8d058d537f19cdef4170d2ae4eed08 scsi: lpfc: Remove unneeded variable
-65ef27f7798b57138351d28fd2f61f2afa164400 scsi: ufs: ufshpb: Remove unused parameters
-4e28550829258f7dab97383acaa477bd724c0ff4 scsi: iscsi: Adjust iface sysfs attr detection
-e4953a93104c1fb1ef7989541f9867cc276467f9 scsi: mpt3sas: Call cpu_relax() before calling udelay()
-265dfe8ebbabae7959060bd1c3f75c2473b697ed scsi: sd: Free scsi_disk device via put_device()
-7215e909814fed7cda33c954943a4050d8348204 scsi: sd_zbc: Ensure buffer size is aligned to SECTOR_SIZE
-ef7ae7f746e95c6fa4ec2bcfacb949c36263da78 scsi: target: Fix the pgr/alua_support_store functions
-450907424d9ebcc28fab42a065c3cddce49ee97d scsi: elx: efct: Do not hold lock while calling fc_vport_terminate()
-1f97c29beee774e407839768439b7f51831c3ea1 scsi: ncr53c8xx: Remove unused retrieve_from_waiting_list() function
-17dfd54d391ea9f8d136fb137962987cb2c6444c scsi: megaraid: Fix Coccinelle warning
-fc13fc07490982c89f5d9d8d671ec29a39cddc85 scsi: Remove SCSI CDROM MAINTAINERS entry
-e699a4e1d37314eb842ba9de19a7ccee7f75da10 scsi: sr: Fix spelling mistake "does'nt" -> "doesn't"
-655a68b2203e44912afe462dff9d83d68ac88333 scsi: megaraid: Clean up some inconsistent indenting
-04c260bdaeede8c703bddc21099e4da96f2909e2 scsi: mpt3sas: Clean up some inconsistent indenting
-1cbc9ad3eecd492be33b727b4606ae75bc880676 scsi: ufs: ufs-pci: Fix Intel LKF link stability
 
---===============8956641961993950321==--
+--===============6965928890394845293==--
