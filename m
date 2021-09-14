@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7955972321073204169=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 14 Sep 2021 15:03:23 -0000
-Message-Id: <163163180345.14349.18199483448719975696@gitolite.kernel.org>
-
---===============7955972321073204169==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 14 Sep 2021 15:05:22 -0000
+Message-Id: <163163192296.16473.2228994082347918272@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 5cf3bb0d3a2d0de94f3f551f0e4211068818aabf
-    new: 820879ee1865f7010ec3a949322f643f008c9feb
+  - ref: refs/heads/for-next/juno
+    old: 928faf5e3e8d3ec0388c9363b15355673c567966
+    new: 11456dfa3cfd3df999ecdb418eb246ee7ff817b8
     log: |
-         d1a1a9606e080c9767e229742f5b331b3b551c0c sysfs: refactor sysfs_add_file_mode_ns
-         820879ee1865f7010ec3a949322f643f008c9feb sysfs: simplify sysfs_kf_seq_show
+         b43446b4f5ffb70cd7459728ec805a9d3438b8e2 arm64: dts: arm: align watchdog and mmc node names with dtschema
+         5f741ef384d3cfb9967029d335a3f7c45f4ffc55 ARM: dts: arm: align watchdog and mmc node names with dtschema
+         217cb530a30a157153878c89cfee0764a66378ec arm64: dts: arm: drop unused interrupt-names in MHU
+         55c71dc69ecb328e6212ac5154099c4230d0b83f arm: dts: vexpress: Drop unused properties from motherboard node
+         2e9edc07df2ec6f835222151fa4e536e9e54856a arm: dts: vexpress-v2p-ca9: Fix the SMB unit-address
+         bb3adfb3bd70d6ca1425e153f9d45589432d31b4 arm: dts: vexpress: Fix addressing issues with 'motherboard-bus' nodes
+         d72cd3beabee2112c879ad4f1ac5a41b97c53212 dt-bindings: arm,vexpress-juno: Fix 'motherboard' node name
+         11456dfa3cfd3df999ecdb418eb246ee7ff817b8 dt-bindings: arm,vexpress-juno: Add missing motherboard properties
          
-
---===============7955972321073204169==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631631802 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1631631801-0647cb9ad2da53b7b8b7ed31f2b5911024f3a481
-
-5cf3bb0d3a2d0de94f3f551f0e4211068818aabf 820879ee1865f7010ec3a949322f643f008c9feb refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFAubobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u6UP/0f4YBT7BBw6Yt8Wvo2k
-flIiB2JG5PQdN6SFN9g+ClUrjDxBczHEQgIIJUD+0+qfi4sfU7RGra+TTVqWVOwN
-lZMV+tsdEWQO5t0I1NWxUHhlDexMc3bkstTbw8YHaIHC47xqlcJxMQfbk3/yl+RA
-uI/XjZ24G6cl2KjYT3eVcAVnheY/5DMErz7xysx9lBojGkWGE/N37PeeAFlWYU9t
-28V90aroBfXppyf0hJEchvVUViqkynYfKbpZCvhcJ7A8NsFKh3i4mo16xkkPU96O
-ZpyuiRmw2FCaSrWgejZEADbpmD4sUwZP+SlQMIBnHXY12iqj9SP2ORy6/hedCVNZ
-HweB2GGpZPrcN3eJV/h19ZBcSszVrUz5Uk5gEEgY/HZniewTpGL31BUbo4FKUsMl
-b2lJPS5Tbtm2YrrpDzqQw/s2Md4CV6Jc6eUBYtRrvO/Sn8xavaT7rit8DAReDG0E
-u3Ml2EqB0eEZCQ0k3+jTjo1aqigxRIAzbHJzw8pvYqWF3K8uWamOAbRLDd1jk9sY
-gUlRhEBqluib01FWYFi4gjp0+QAqvXBW3TUegEm0hKVvRk0cn+gBPCc0liTUyhwA
-/srE8cCY3Fv8ZsUcvzyazbaMf8X/pI9GpfYJIFKQnnP8jYe/ZPvLlVGF4wfqKtQN
-2Be+jcKz06Q50UIRceBnMgmg
-=2rje
------END PGP SIGNATURE-----
-
---===============7955972321073204169==--
