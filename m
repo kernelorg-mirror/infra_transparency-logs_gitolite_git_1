@@ -1,31 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1423362913557648297=="
+Content-Type: multipart/mixed; boundary="===============0019924649765197179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 14 Sep 2021 20:25:32 -0000
-Message-Id: <163165113219.2533.6809427805778844189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 14 Sep 2021 20:34:45 -0000
+Message-Id: <163165168544.6932.3199519437049799183@gitolite.kernel.org>
 
---===============1423362913557648297==
+--===============0019924649765197179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/pending
-    old: a26a825226e1ad9d27954306e6e3ad2f2a82455a
-    new: f5786a5aedfca13afda026bf46baf2352fbc669f
-    log: revlist-a26a825226e1-f5786a5aedfc.txt
+  - ref: refs/heads/user-perf-event-v10
+    old: e14dfbd4f9802de9f6ad5f8a33dc2a33dcdb6325
+    new: 17a3ecca7cc40f3cff4cc24dd63a01cb7407da36
+    log: revlist-e14dfbd4f980-17a3ecca7cc4.txt
 
---===============1423362913557648297==
+--===============0019924649765197179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a26a825226e1-f5786a5aedfc.txt
+Content-Disposition: attachment; filename=revlist-e14dfbd4f980-17a3ecca7cc4.txt
 
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
+7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
+866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
+8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
+47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
+32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
+205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
+c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
 bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
@@ -1029,26 +1045,10 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-fadf9a2a1cb5cb3a31f4c68053a6a252602f8375 libnvdimm/labels: Add uuid helpers
-696b45da794ed843e0365b9c00d11e84803e86fe libnvdimm/label: Add a helper for nlabel validation
-6194dcd569aa9fa36c9be3bd0aa3cc8e652ca703 libnvdimm/labels: Introduce the concept of multi-range namespace labels
-de500d4e5e5da201e879e17969a023fddc23d723 libnvdimm/labels: Fix kernel-doc for label.h
-e9342da8b00641178e8d1e4d49ae6730f673ddcd libnvdimm/label: Define CXL region labels
-f5b8a82a16d3cd0be96760b849804a21268047bd libnvdimm/labels: Introduce CXL labels
-d0c3a3be9fbe402ecc0d7e1b22cf72efda1a63db cxl/pci: Make 'struct cxl_mem' device type generic
-692383b5f2b84000be9e8c014bc33791094dc7dc cxl/pci: Clean up cxl_mem_get_partition_info()
-c0ed8136ce03f209016d177ef0a628fad56b29c4 cxl/mbox: Introduce the mbox_send operation
-1d97fd79ca7dee0b1a81e44af344ef2860566fdd cxl/pci: Drop idr.h
-e8abf539235a822fa6b1c81be44f22c3112dfaf3 cxl/mbox: Move mailbox and other non-PCI specific infrastructure to the core
-e2f5d655e13b77b9deff0122e674d826ae1ccc21 cxl/pci: Use module_pci_driver
-3fd837a4a9ab896d5caf7cec0d0ca7759c4bf8c7 cxl/mbox: Convert 'enabled_cmds' to DECLARE_BITMAP
-ce9d246d8f85cc1a57c0f2206e673a78007035fd cxl/mbox: Add exclusive kernel command support
-8a9089a207cd7cdd35d586c77ec543522386967b cxl/pmem: Translate NVDIMM label commands to CXL label commands
-87da66f12a15dc2077f42db331ba5930713b81f7 cxl/pmem: Add support for multiple nvdimm-bridge objects
-944b6b62df566ea9ec6342ec20b6f0578e64210d tools/testing/cxl: Introduce a mocked-up CXL port hierarchy
-bcfc50d598d475b392014339e0dd8536848732f0 cxl/bus: Populate the target list at decoder create
-b1378ebf0ce4f6c68d83d72990f6c18f7e893ed1 cxl/mbox: Move command definitions to common location
-1feb993c34a162cb4d68d5ae5453e175f2fb17a2 tools/testing/cxl: Introduce a mock memory device + driver
-f5786a5aedfca13afda026bf46baf2352fbc669f cxl/core: Split decoder setup into alloc + add
+82616573f6a4ad7cf1480628b27d678cb14009e4 x86: perf: Move RDPMC event flag to a common definition
+c3b543d3dbb8b6e0f5d4e09e254c1e5fdecec4fc perf: Add a counter for number of user access events in context
+dea8a7bec4200866e4c63d06fa7293d07033008a arm64: perf: Add userspace counter access disable switch
+57a6d16a88bddeda9837f204079cefa46f3f98ed arm64: perf: Enable PMU counter userspace access for perf event
+17a3ecca7cc40f3cff4cc24dd63a01cb7407da36 Documentation: arm64: Document PMU counters access from userspace
 
---===============1423362913557648297==--
+--===============0019924649765197179==--
