@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 14 Sep 2021 20:00:49 -0000
-Message-Id: <163164964944.18501.11293368315401718800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Tue, 14 Sep 2021 20:16:13 -0000
+Message-Id: <163165057389.27588.11815102194568159883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/tags/1.18
-    old: 0000000000000000000000000000000000000000
-    new: 617d0176411c504e529406dddc0a1967c1496b3e
+  - ref: refs/heads/pci/enumeration
+    old: 38b65e63aaacb48e647fe4a5fd38a26133e6b8d1
+    new: cc4ec62460423eeddb9c41d5abc63cc4f0229845
+    log: |
+         cc4ec62460423eeddb9c41d5abc63cc4f0229845 PCI: Do not enable AtomicOps on VFs
+         
