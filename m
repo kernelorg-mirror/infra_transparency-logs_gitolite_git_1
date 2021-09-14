@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8556556494012611709=="
+Content-Type: multipart/mixed; boundary="===============8516888183175641889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 14 Sep 2021 23:13:43 -0000
-Message-Id: <163166122336.12937.4083583913748054036@gitolite.kernel.org>
+Date: Tue, 14 Sep 2021 23:14:05 -0000
+Message-Id: <163166124591.13120.988020060657957232@gitolite.kernel.org>
 
---===============8556556494012611709==
+--===============8516888183175641889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-e73f0f0ee754-6880fa6c5660.txt
+  - ref: refs/heads/devfreq-testing
+    old: 52c939f2c35e2e9108daef8da5dda2c9eca80532
+    new: c27162469a5f04fd237debefc710d28956b9704e
+    log: revlist-52c939f2c35e-c27162469a5f.txt
 
---===============8556556494012611709==
+--===============8516888183175641889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-52c939f2c35e-c27162469a5f.txt
 
-6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
-c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
-d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
-48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
@@ -1050,5 +1046,9 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
+70a391777c3403e48e4a8568c272013c09b46ab7 PM / devfreq: Export devfreq_get_freq_range symbol within devfreq
+0e153a22371583fa454d9f54a828bbcb81c074c4 PM / devfreq: Add cpu based scaling support to passive governor
+797069486a19ef2c48185edff6d92c7bf5291c6b PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
+c27162469a5f04fd237debefc710d28956b9704e PM / devfreq: passive: Update frequency when start governor
 
---===============8556556494012611709==--
+--===============8516888183175641889==--
