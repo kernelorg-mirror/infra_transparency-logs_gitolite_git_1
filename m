@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2821655430769383692=="
+Content-Type: multipart/mixed; boundary="===============0271141041750653596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 15 Sep 2021 11:57:19 -0000
-Message-Id: <163170703977.9545.1563730103383440016@gitolite.kernel.org>
+Date: Wed, 15 Sep 2021 11:57:58 -0000
+Message-Id: <163170707830.9806.6553589021561827584@gitolite.kernel.org>
 
---===============2821655430769383692==
+--===============0271141041750653596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-misc
+  - ref: refs/heads/edac-for-next
     old: cf4e6d52f58399c777276172ec250502e19d5e63
     new: fca6116564181a76c32bf89a0452585f5cb10004
     log: revlist-cf4e6d52f583-fca611656418.txt
 
---===============2821655430769383692==
+--===============0271141041750653596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 fca6116564181a76c32bf89a0452585f5cb10004 EDAC/mc: Replace strcpy(), sprintf() and snprintf() with strscpy() or scnprintf()
 
---===============2821655430769383692==--
+--===============0271141041750653596==--
