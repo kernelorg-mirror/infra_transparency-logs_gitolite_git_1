@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 15 Sep 2021 22:09:21 -0000
-Message-Id: <163174376130.2578.4556941357863257797@gitolite.kernel.org>
+Date: Wed, 15 Sep 2021 22:13:40 -0000
+Message-Id: <163174402036.5427.3653483844677330777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 7366c23ff492ad260776a3ee1aaabba9fc773a8b
-    new: 301de697d869be6564aebeb5ab811c84c0a7abed
+    old: 301de697d869be6564aebeb5ab811c84c0a7abed
+    new: a57d8c217aadac75530b8e7ffb3a3e1b7bfd0330
     log: |
-         6a52e73368038f47f6618623d75061dc263b26ae net: dsa: destroy the phylink instance on any error in dsa_slave_phy_setup
-         301de697d869be6564aebeb5ab811c84c0a7abed Revert "net: phy: Uniform PHY driver access"
+         a57d8c217aadac75530b8e7ffb3a3e1b7bfd0330 net: dsa: flush switchdev workqueue before tearing down CPU/DSA ports
          
