@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 15 Sep 2021 20:40:57 -0000
-Message-Id: <163173845714.9326.9788195521273827657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Wed, 15 Sep 2021 20:42:05 -0000
+Message-Id: <163173852548.9781.7294276288081031424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 69cd823956ba8ce266a901170b1060db8073bddd
-    new: 336562752acc1a723f9a24b5b8129ae22e0478c6
+  - ref: refs/heads/wip-wrapped-keys
+    old: bb0ddf854ab5ba16109ba63f70253c6d3f97519e
+    new: 5937b6b2ba720f686595302650b7297b9b74f15e
     log: |
-         336562752acc1a723f9a24b5b8129ae22e0478c6 bpf: Update bpf_get_smp_processor_id() documentation
+         31fcdfef21551f63119751d22e208fc846469a9b block: add ioctls to create and prepare hardware-wrapped keys
+         df6cff10234c6b58dc9651f2ec463ae59c065fea fscrypt: improve documentation for inline encryption
+         8f546135b8026d7a39aa247ccd3276073464c333 fscrypt: allow 256-bit master keys with AES-256-XTS
+         5937b6b2ba720f686595302650b7297b9b74f15e fscrypt: add support for hardware-wrapped keys
          
