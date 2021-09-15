@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3332632787095796967=="
+Content-Type: multipart/mixed; boundary="===============5766284890029641881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 15 Sep 2021 10:45:42 -0000
-Message-Id: <163170274259.25606.851052049551341804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 15 Sep 2021 11:01:01 -0000
+Message-Id: <163170366139.3770.16516996423530244527@gitolite.kernel.org>
 
---===============3332632787095796967==
+--===============5766284890029641881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 3ca706c189db861b2ca2019a0901b94050ca49d8
-    log: revlist-6880fa6c5660-3ca706c189db.txt
+    old: 9adbd5609c9cf23a33eb50ae6982032993a3fdb6
+    new: ed469aebb943a91250925e7a46c41c6fb577afba
+    log: |
+         ed469aebb943a91250925e7a46c41c6fb577afba 5.14-stable patches
+         
 
---===============3332632787095796967==
+--===============5766284890029641881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-3ca706c189db.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a69ae291e1cc2d08ae77c2029579c59c9bde5061 x86/uaccess: Fix 32-bit __get_user_asm_u64() when CC_HAS_ASM_GOTO_OUTPUT=y
-76ae847497bc5207c479de5e2ac487270008b19b Documentation: raise minimum supported version of GCC to 5.1
-4eb6bd55cfb22ffc20652732340c4962f3ac9a91 compiler.h: drop fallback overflow checkers
-adac17e3f61f54927b961d97bd303dd5795a307b mm/ksm: remove old GCC 4.9+ check
-c0a5c81ca9bedaf38356a6290bf895313fd7361c Kconfig.debug: drop GCC 5+ version check for DWARF5
-d20758951f8f28c0ee1b2a8a6bb8189858083895 riscv: remove Kconfig check for GCC version for ARCH_RV64I
-6563139d90ad6178a990d051c7980f0998b5d2e8 powerpc: remove GCC version check for UPD_CONSTR
-42a7ba1695fcd534216aa3712a6cf42da3340527 arm64: remove GCC version check for ARCH_SUPPORTS_INT128
-156102fe0bb669f40f2fd27856b21f9fa8157090 Makefile: drop GCC < 5 -fno-var-tracking-assignments workaround
-4e59869aa6550657cb148ad49835605660ec9b88 compiler-gcc.h: drop checks for older GCC versions
-6f20fa2dfa549401860479328371f0d5cee9b114 vmlinux.lds.h: remove old check for GCC 4.9
-6d2ef226f2f18d530e48ead0cb5704505628b797 compiler_attributes.h: drop __has_attribute() support for gcc4
-df26327ea097eb78e7967c45df6b23010c43c28d Drop some straggling mentions of gcc-4.9 as being stale
-316346243be6df12799c0b64b788e06bad97c30b Merge branch 'gcc-min-version-5.1' (make gcc-5.1 the minimum version)
-d0ee23f9d78be5531c4b055ea424ed0b489dfe9b tools: compiler-gcc.h: Guard error attribute use with __has_attribute
-1619b69edce14c4a4665fa8ff4c587dcc77202a9 powerpc/boot: Fix build failure since GCC 4.9 removal
-6a4746ba06191e23d30230738e94334b26590a8a ipc: remove memcg accounting for sops objects in do_semtimedop()
-77e02cf57b6cff9919949defb7fd9b8ac16399a2 memblock: introduce saner 'memblock_free_ptr()' interface
-3ca706c189db861b2ca2019a0901b94050ca49d8 drm/ttm: fix type mismatch error on sparc64
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631703659 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1631703658-301e34226c0717d06aa63ac035b76d96a3fe0dab
 
---===============3332632787095796967==--
+9adbd5609c9cf23a33eb50ae6982032993a3fdb6 ed469aebb943a91250925e7a46c41c6fb577afba refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFB0msbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d1sQALhgB1YlHP1Us+19ci4D
+RhmZhG997/ujSCI8td2qKs2/TgKlR+EY4vCWXt7DWWTmUdum25uPzRJyphN49hiB
+zwHZBPtuPJ7X9YQ7OtsmzDnSDRP91b9pwmm+VjiwFqznMvIS30pPTH+8jXdszYy4
+kplMzOP3zQ8qmsGAQi3QfsMHofEGjkwGDp7X3AppfT/ai2iD7XEqg5m15NakRdu2
+mVns/N+3eA+XBsJ2sn3bvac1gWvg0rqIhma7aHIGLMhdIHYqgy54LC8eG9IS3O2a
+54PMAtjWhLxyG5uXOG273JDubBuHEppe7nbQOU/aA+H5CRR0LbsaT6+RrqO3DkMb
+j/0UHq8tXjUs3cFVdsYLWgh4JP2uaWNFNHsnEAOJeTEXFC1X6Y2xD4Z02/M62lJm
+bl3NdNRruH6addRiZAauE6KgwLUjQlmZ1ZFZ9Vr0JB2lmEP0OIAuJt0KyFMQogDB
+eojTSNGmNLMYKQm4wOpF3PrSzITF00M9tpkjiPJ0ntfoGQX/+eM+/XzAD5xCqhbg
+MNFg1ZlFAbXmRwaMwOcD0DVd5i8KR5+3mX8lqgTULbhdAenE22Y5iKuWyJvTXHsw
+4e8ym3sWSuHWMYkONeZZ1UDsGM0p1hIzQs2FkicJ4z9bAD3bgFa08SlFDf0AC7vI
+SE+gdO4FqUbEuRAzKeHgiys1
+=vcA2
+-----END PGP SIGNATURE-----
+
+--===============5766284890029641881==--
