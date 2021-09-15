@@ -1,62 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============0711331100852607863=="
+Content-Type: multipart/mixed; boundary="===============1816017542108162649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 15 Sep 2021 15:49:39 -0000
-Message-Id: <163172097908.8677.14931064929230123348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 15 Sep 2021 15:50:04 -0000
+Message-Id: <163172100459.10175.16000688164588777990@gitolite.kernel.org>
 
---===============0711331100852607863==
+--===============1816017542108162649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/experimental-tests
-    old: af7de830f86c2f24a510857e413ea7992e699832
-    new: a872a6cf7f24559c99d206322c2409bc3098e570
-    log: revlist-af7de830f86c-a872a6cf7f24.txt
+  - ref: refs/heads/for-5.16/io_uring
+    old: a9282376791b5fb85ba514c14e2edb899da84cf4
+    new: 7f204e0d9be66056c506e64d302529a6da9c8232
+    log: revlist-a9282376791b-7f204e0d9be6.txt
+  - ref: refs/heads/for-next
+    old: a8c7e1043b716278f4027372bf7e635b644916bc
+    new: 103ae307a281adc110666427a18912419ad26d14
+    log: revlist-a8c7e1043b71-103ae307a281.txt
+  - ref: refs/heads/iov_iter.3
+    old: 0000000000000000000000000000000000000000
+    new: b66ceaf324b394428bb47054140ddf03d8172e64
 
---===============0711331100852607863==
+--===============1816017542108162649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af7de830f86c-a872a6cf7f24.txt
+Content-Disposition: attachment; filename=revlist-a9282376791b-7f204e0d9be6.txt
 
-7ab34000c672adca90388a8fcb1f70a7d391d35c erofs-utils: manpage: only install erofsfuse.1 with the command
-fe0a892a5867a35dd541ca301ed6675c2777de23 erofs-utils: make some functions static in inode.c
-1f89b5d82163b55932ef5f43dbf4a83be67db812 erofs-utils: correct the only tail-end data comment in __allocate_inode_bh_data()
-3afe21832d80f3cdbe4173809db91ee271b52a76 AOSP: erofs-utils: add block list support
-60549d52c3b636f0ddd1d51b0c1517c1dee22595 erofs-utils: add "noinline_data" extended option
-95801d47cbde20a8e4043ed9fc1ded131b4c2081 erofs-utils: fix macOS build & functionality
-d74b37987c36b93603751df0721a6869d67e0fcd erofs-utils: no compression case for tail-end block in vle_write_indexes()
-d3a6b1c492ffd1e47f9f0e42679114084dc036d0 erofs-utils: generate version number from git commit
-8506320d5244e2650fe9ed1ad69d4836485e9ca5 erofs-utils: fix --with-lz4-libdir when lz4_force_static is off
-7a4e4476eadbddd67f5a4a68fefca737dcfb7c45 erofs-utils: add clusterofs zero check to write_uncompressed_extent()
-db2ee9ee1a313b823b844c71e655203bf8bb86a3 erofs-utils: add mkfs.erofs and erofsfuse to .gitignore
-19915de76e762b1391b547bde83d2ca4757878ea AOSP: erofs-utils: increase val for AOSP-specific long options
-8fdb7db45f72493a9bec11bee8e75dc0a991d45e erofs-utils: clean up file headers & footers
-13439dff8caa908f6a04fba790aae462df31bd7b erofs-utils: fix SPDX comment style
-fe19cf795db870e0019affd6f76defe8f10f34df erofs-utils: fix general style problem
-bc9f0d00f6dd7f18111f758ff788b9056742b536 erofs-utils: remove unnecessary codes
-1976491e287450e151125692e11973cd88cb4b36 erofs-utils: fix print style
-d57e967f4b95d8f00472246cf1dcd6045ac3cecb erofs-utils: add missing /* fallthrough */
-8f757790816218b3de0c3e6b31e92ba0d7709ab9 erofs-utils: fix up Mac OS build again
-ca3b91376dba7407fb46d4dda8ca88ddc0da5d86 erofs-utils: remove unnecessary "\n"
-6324fac820c28c6a946f595fa58a0abba0f48eb4 erofs-utils: fix random data for block-aligned uncompressed file
-d135c89266fdff99f5db077b12ed8d416ddeb6e1 erofs-utils: support per-inode compress pcluster
-a360b515a74aed6b8c29387b1e2c21438496a8bb erofs-utils: introduce a built-in test framework
-b479c12f58bc88d24d4c7fecf0643c1b20aade2d erofs-utils: tests: add fssum tool
-1706c94e90c1b0f2331eafa289af05c9d19d1d69 erofs-utils: tests: add basic testcases
-73e384da78fda8c784b677afbe3b6d93d86871f3 erofs-utils: tests: testcase for bad lz4 versions
-a12135346bf5368eb7659cb9059390aee12d77ff erofs-utils: tests: add test to avoid hardlinked directories
-dc561503adee699e658248f31def0261666561bb erofs-utils: tests: check for cross-device submounts
-03ec92a80a9e3414ade831d57052edd20ef250da erofs-utils: tests: add test for # of hardlinks
-bb7ad14c39dcce68b05f3d628bddc47abf7e281e erofs-utils: tests: check battach on full buffer block
-770b9a53cda4b9541471d91f5705906766857378 erofs-utils: tests: check uncompressed image with random dirs
-a872a6cf7f24559c99d206322c2409bc3098e570 erofs-utils: tests: check the compress-hints functionality
+cd65869512ab5668a5d16f789bc4da1319c435c4 io_uring: use iov_iter state save/restore helpers
+7dedd3e18077f996a10c47250ac85d080e5f474e Revert "iov_iter: track truncated size"
+b66ceaf324b394428bb47054140ddf03d8172e64 io_uring: move iopoll reissue into regular IO path
+c590e4a9cee6a1fdc002e6686bc88285446b209b Merge branch 'iov_iter.3' into for-5.16/io_uring
+ca8c0786e01b744c990fa8cd8e9d53a861a44daa io_uring: dump sqe contents if issue fails
+a1d876b8b12079d793ecda62fcb789fdac55dbf6 io-wq: Remove duplicate code in io_workqueue_create()
+d03fcb0ffadf39359c8d30f70d71a5c2ccada997 io_uring: kill off ios_left
+541b39d28e4edfc71a116584e148687e27d04395 io_uring: inline io_dismantle_req
+7bcc1b2f36f397720135f776771c422f5c51381f io_uring: inline linked part of io_req_find_next
+8a04757d5d962043a8598d57f90b10808609cbcd io_uring: dedup CQE flushing non-empty checks
+4528c6178077319c746246692399edcbd2ee8458 io_uring: kill extra wake_up_process in tw add
+7f204e0d9be66056c506e64d302529a6da9c8232 io_uring: add more uring info to fdinfo for debug
 
---===============0711331100852607863==--
+--===============1816017542108162649==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a8c7e1043b71-103ae307a281.txt
+
+cd65869512ab5668a5d16f789bc4da1319c435c4 io_uring: use iov_iter state save/restore helpers
+7dedd3e18077f996a10c47250ac85d080e5f474e Revert "iov_iter: track truncated size"
+b66ceaf324b394428bb47054140ddf03d8172e64 io_uring: move iopoll reissue into regular IO path
+c590e4a9cee6a1fdc002e6686bc88285446b209b Merge branch 'iov_iter.3' into for-5.16/io_uring
+ca8c0786e01b744c990fa8cd8e9d53a861a44daa io_uring: dump sqe contents if issue fails
+a1d876b8b12079d793ecda62fcb789fdac55dbf6 io-wq: Remove duplicate code in io_workqueue_create()
+d03fcb0ffadf39359c8d30f70d71a5c2ccada997 io_uring: kill off ios_left
+541b39d28e4edfc71a116584e148687e27d04395 io_uring: inline io_dismantle_req
+7bcc1b2f36f397720135f776771c422f5c51381f io_uring: inline linked part of io_req_find_next
+8a04757d5d962043a8598d57f90b10808609cbcd io_uring: dedup CQE flushing non-empty checks
+4528c6178077319c746246692399edcbd2ee8458 io_uring: kill extra wake_up_process in tw add
+7f204e0d9be66056c506e64d302529a6da9c8232 io_uring: add more uring info to fdinfo for debug
+103ae307a281adc110666427a18912419ad26d14 Merge branch 'for-5.16/cdrom' into for-next
+
+--===============1816017542108162649==--
