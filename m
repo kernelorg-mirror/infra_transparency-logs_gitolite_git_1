@@ -1,29 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 15 Sep 2021 10:27:18 -0000
-Message-Id: <163170163879.14182.1958713147340060839@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3332632787095796967=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 15 Sep 2021 10:45:42 -0000
+Message-Id: <163170274259.25606.851052049551341804@gitolite.kernel.org>
+
+--===============3332632787095796967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/at91-dt
+  - ref: refs/heads/master
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 8c8b997c34ef1dca3b37a36b47808a649fb43a06
-    log: |
-         2c9987f2edf432e78c871e53381cf2bc43192c3f ARM: dts: at91: sama5d27_wlsom1: add wifi device
-         c7472302df9e7f62105d65927758eb4e77cbf4ce ARM: dts: at91: sama7g5: add node for the ADC
-         6b97032b9c8ff8fb1b71fdc488086c95f11b3cd6 ARM: dts: at91: sama7g5ek: enable ADC on the board
-         6a1ca035d2074812f9429d4ea5c2d523597c5bc1 ARM: dts: at91-sama5d27_som1_ek: Added I2C bus recovery support
-         fcc090f9e315ca6961b92f4bab5c5da148778c89 ARM: dts: at91: at91sam9260: add pinctrl label
-         8bced0c5ff7b317e72940fb15064ae7d2ed03e04 dt-bindings: add vendor prefix for calamp
-         1a492e3dae86a7ffb8afd65404603eb794dcfb44 dt-bindings: ARM: at91: document CalAmp LMU5000 board
-         6dcb573a0afd989933c120240a270a8cfbdd0dfb ARM: dts: at91: add CalAmp LMU5000 board
-         3e1108bcce83a25527a16bf65811b845fe65fc6d dt-bindings: add vendor prefix for exegin
-         045ca26e4226d4b0b5f6e51e8db5a69345d89f76 dt-bindings: ARM: at91: document exegin q5xr5 board
-         8c8b997c34ef1dca3b37a36b47808a649fb43a06 ARM: dts: at91: add Exegin Q5xR5 board
-         
+    new: 3ca706c189db861b2ca2019a0901b94050ca49d8
+    log: revlist-6880fa6c5660-3ca706c189db.txt
+
+--===============3332632787095796967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-3ca706c189db.txt
+
+a69ae291e1cc2d08ae77c2029579c59c9bde5061 x86/uaccess: Fix 32-bit __get_user_asm_u64() when CC_HAS_ASM_GOTO_OUTPUT=y
+76ae847497bc5207c479de5e2ac487270008b19b Documentation: raise minimum supported version of GCC to 5.1
+4eb6bd55cfb22ffc20652732340c4962f3ac9a91 compiler.h: drop fallback overflow checkers
+adac17e3f61f54927b961d97bd303dd5795a307b mm/ksm: remove old GCC 4.9+ check
+c0a5c81ca9bedaf38356a6290bf895313fd7361c Kconfig.debug: drop GCC 5+ version check for DWARF5
+d20758951f8f28c0ee1b2a8a6bb8189858083895 riscv: remove Kconfig check for GCC version for ARCH_RV64I
+6563139d90ad6178a990d051c7980f0998b5d2e8 powerpc: remove GCC version check for UPD_CONSTR
+42a7ba1695fcd534216aa3712a6cf42da3340527 arm64: remove GCC version check for ARCH_SUPPORTS_INT128
+156102fe0bb669f40f2fd27856b21f9fa8157090 Makefile: drop GCC < 5 -fno-var-tracking-assignments workaround
+4e59869aa6550657cb148ad49835605660ec9b88 compiler-gcc.h: drop checks for older GCC versions
+6f20fa2dfa549401860479328371f0d5cee9b114 vmlinux.lds.h: remove old check for GCC 4.9
+6d2ef226f2f18d530e48ead0cb5704505628b797 compiler_attributes.h: drop __has_attribute() support for gcc4
+df26327ea097eb78e7967c45df6b23010c43c28d Drop some straggling mentions of gcc-4.9 as being stale
+316346243be6df12799c0b64b788e06bad97c30b Merge branch 'gcc-min-version-5.1' (make gcc-5.1 the minimum version)
+d0ee23f9d78be5531c4b055ea424ed0b489dfe9b tools: compiler-gcc.h: Guard error attribute use with __has_attribute
+1619b69edce14c4a4665fa8ff4c587dcc77202a9 powerpc/boot: Fix build failure since GCC 4.9 removal
+6a4746ba06191e23d30230738e94334b26590a8a ipc: remove memcg accounting for sops objects in do_semtimedop()
+77e02cf57b6cff9919949defb7fd9b8ac16399a2 memblock: introduce saner 'memblock_free_ptr()' interface
+3ca706c189db861b2ca2019a0901b94050ca49d8 drm/ttm: fix type mismatch error on sparc64
+
+--===============3332632787095796967==--
