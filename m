@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Sep 2021 03:02:23 -0000
-Message-Id: <163167494357.5699.17606574627564740837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 15 Sep 2021 03:06:44 -0000
+Message-Id: <163167520444.8516.15119644026725272122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: f2173257b92e9e29a3b87303331ee4a40dd5614f
-    new: 339133f6c318612f9a4556c300753beda27abc01
+    old: 52ce14c134a003fee03d8fc57442c05a55b53715
+    new: 7366c23ff492ad260776a3ee1aaabba9fc773a8b
     log: |
-         339133f6c318612f9a4556c300753beda27abc01 net: dsa: tag_rtl4_a: Drop bit 9 from egress frames
+         7366c23ff492ad260776a3ee1aaabba9fc773a8b ptp: dp83640: don't define PAGE0
          
