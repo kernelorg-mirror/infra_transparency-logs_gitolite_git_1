@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-logs
-Date: Wed, 15 Sep 2021 15:24:10 -0000
-Message-Id: <163171945084.24440.9955950983939942679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 15 Sep 2021 15:36:15 -0000
+Message-Id: <163172017525.32549.1837215966505635494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-logs
-user: lucvoo
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/meta/cgit
-    old: 8e59431ebc9b63c87b3601466b15ff4cafa06a7d
-    new: 83c54f1d0fd153e30e51c969a464f8dc32cd4898
+  - ref: refs/heads/renesas/v3u/tpu
+    old: 3cd351633f69ea94f119d2cec3a6d459f3481678
+    new: e09ba8804ea5e3f87d568e244d0e70b9163b030f
     log: |
-         83c54f1d0fd153e30e51c969a464f8dc32cd4898 set owner & description
+         e09ba8804ea5e3f87d568e244d0e70b9163b030f arm64: defconfig: add Renesas TPU as module
          
