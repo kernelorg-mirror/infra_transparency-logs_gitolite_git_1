@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 15 Sep 2021 12:45:14 -0000
-Message-Id: <163170991476.8322.638780487147462313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 15 Sep 2021 12:51:24 -0000
+Message-Id: <163171028426.13082.13969487961197372053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/tags/hyperv-fixes-signed-20210915
-    old: 0000000000000000000000000000000000000000
-    new: 72814cd4fcc8ece3fcaa34c48abb0f91976e1cdf
+  - ref: refs/heads/master
+    old: d5c3be105af97c71bc2095ffd19343e4217abcd7
+    new: 2686fc2279c0e1272a48657dc62c16059a672da9
+    log: |
+         2686fc2279c0e1272a48657dc62c16059a672da9 t/io_uring: add switch -O for O_DIRECT vs buffered
+         
