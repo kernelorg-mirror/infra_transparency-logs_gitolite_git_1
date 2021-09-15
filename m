@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 15 Sep 2021 19:56:25 -0000
-Message-Id: <163173578544.10889.1498373954471922562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Wed, 15 Sep 2021 20:04:11 -0000
+Message-Id: <163173625131.14835.8605962132297851220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/master
-    old: 8b573fe3984d9802be72f150cfb6c7597732088f
-    new: 4329b669d0f7f0f9ce0698ddd0ba99a724f9c6fc
-    log: |
-         4329b669d0f7f0f9ce0698ddd0ba99a724f9c6fc ie: add WFA OWE Transition element type
-         
+  - ref: refs/heads/uvc-hw-timestamp-v1
+    old: 0000000000000000000000000000000000000000
+    new: c3648ac032b1f14c89a0a8e701228eb0c080819f
