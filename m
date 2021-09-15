@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 15 Sep 2021 15:58:24 -0000
-Message-Id: <163172150478.15659.1862037915160000991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 15 Sep 2021 16:01:49 -0000
+Message-Id: <163172170981.18306.11995718988419062501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev
-    old: 6324fac820c28c6a946f595fa58a0abba0f48eb4
-    new: 2722996910643f59ba4b5c060221850a500f1d2c
+  - ref: refs/heads/master
+    old: 4c24483e247f8d35cfc22a8d23f0e05690d11805
+    new: 2220ecf55c1b7aa36e99b00a6b964f4e5333f9bf
     log: |
-         2722996910643f59ba4b5c060221850a500f1d2c erofs-utils: support per-inode compress pcluster
+         2220ecf55c1b7aa36e99b00a6b964f4e5333f9bf selftests/bpf: Skip btf_tag test if btf_tag attribute not supported
          
