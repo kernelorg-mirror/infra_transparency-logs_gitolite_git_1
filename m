@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 15 Sep 2021 22:13:40 -0000
-Message-Id: <163174402036.5427.3653483844677330777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/bpf
+Date: Wed, 15 Sep 2021 22:33:23 -0000
+Message-Id: <163174520317.18787.6005113791316183419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dborkman/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: 301de697d869be6564aebeb5ab811c84c0a7abed
-    new: a57d8c217aadac75530b8e7ffb3a3e1b7bfd0330
+  - ref: refs/heads/pr/bpf-neigh
+    old: a2bcbde0132aa0717d63baf8aa4bd4b27684c282
+    new: 13fb3d0d5b4c4d9cf4c3b83acd2e55846ead3558
     log: |
-         a57d8c217aadac75530b8e7ffb3a3e1b7bfd0330 net: dsa: flush switchdev workqueue before tearing down CPU/DSA ports
+         a88c402719abec25c043bc073ea4dc293dabc5e5 neigh: reflect static creation flags
+         13fb3d0d5b4c4d9cf4c3b83acd2e55846ead3558 net, neigh: add NUD_MANAGED neighbor entries
          
