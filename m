@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-logs
-Date: Wed, 15 Sep 2021 08:13:04 -0000
-Message-Id: <163169358438.6580.16564300850025086385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 15 Sep 2021 08:32:18 -0000
+Message-Id: <163169473887.19639.12884652972759012283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-logs
-user: lucvoo
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/klogs
+  - ref: refs/heads/for-linus-5.15b
     old: 0000000000000000000000000000000000000000
-    new: 88f74718f4b506617873eee9b6b763a928c09204
+    new: d859ed25b24289c87a97889653596f8088367e16
