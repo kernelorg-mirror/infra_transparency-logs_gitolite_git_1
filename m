@@ -1,98 +1,102 @@
-Content-Type: multipart/mixed; boundary="===============5047441231208273886=="
+Content-Type: multipart/mixed; boundary="===============7472810216257603282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Wed, 15 Sep 2021 09:31:59 -0000
-Message-Id: <163169831923.9450.15791336118769575686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Wed, 15 Sep 2021 09:33:27 -0000
+Message-Id: <163169840784.9951.4480908883548542530@gitolite.kernel.org>
 
---===============5047441231208273886==
+--===============7472810216257603282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
 user: jberg
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/master
-    old: e011912651bdf72840d88e8a8de3716bbcc4be99
-    new: 7366c23ff492ad260776a3ee1aaabba9fc773a8b
-    log: revlist-e011912651bd-7366c23ff492.txt
+    old: 626bf91a292e2035af5b9d9cce35c5c138dfe06d
+    new: 339133f6c318612f9a4556c300753beda27abc01
+    log: revlist-626bf91a292e-339133f6c318.txt
 
---===============5047441231208273886==
+--===============7472810216257603282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1631698281 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1631698281-1e3326791ab01d446146d4d12110d54231f229c9
+pusher 7BF9099A 1631698372 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
+nonce 1631698371-0e97555784e6e80ca92ff6e11ec79e5090ff9a98
 
-e011912651bdf72840d88e8a8de3716bbcc4be99 7366c23ff492ad260776a3ee1aaabba9fc773a8b refs/heads/master
+626bf91a292e2035af5b9d9cce35c5c138dfe06d 339133f6c318612f9a4556c300753beda27abc01 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmFBvWkACgkQB8qZga/f
-l8QJKg//XHChC7Fd6GOlgl2AaoF1UMXcutVM9h2ANUfgK6nOFy5wTbx1tFFrPA6q
-89FHClCKCpkJ9/12ir35CV+B8jekmhQyyHxmGa+1QXWj9E0DCVgmEWuQuR/T6Wkx
-MZ0cy9QGVdlOr9bZt5J8XNmqdKAv69YOLL4Lct6SxofKpngcfXin8v5YNMVWBWbK
-eXlaYYUa0jnJjLwtF/tbrqpeME8cr2PbNMQWjWt9dkHL4VDroPNyoE+BB9SujEOE
-6xPoMd4wZFb7gDEpcFKSa8mRp/i6yrmUYZAr/CWaZ+nuBAnWK6pN8KlAhFs/ePUg
-DhoNIC4SNknUgbAkZ3kbtd0S6tcb0aScon3XGhDPThhpbyvwt3viUlkcxuoIciZu
-yILJXyBgXJ5cIUdh4rPjRj377p7keCfPfy81ytap+B9kZSpO+IrzTxFZByEZkuD+
-upCd5Exi/25oIyL6ep3j0PB9A0yaJ57IHKvIQtA5cerMqwomt7shjBn+93R/LSxK
-+9N3dy9GNdF3ik9oQWmWDKX8wvCH88KV8+wkZsq0FvQ19EuVItpO0cDZ9c5Hu2Sz
-KiWXakElYCICAXrC2wHICzZQhyq6N7F51LATHIl6QWnS++RnmdjmaXoolvuKgwBa
-R4oWbtcvWy8LVdXeSc+HOrnD/aqErgJGsktH39zzb52WPSjjMlU=
-=vFWg
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmFBvcQACgkQB8qZga/f
+l8T3gA//eIKBoHRxJILJd5l4mBx6PA+Ts24tWDUahksoFVlL2PoAxvgGOwe+6GXV
+58XpDk2OQc9FZYUQng6eR6L3T6gu1OIIS//NK3lw0mXVuT8rav10wBrvUU/tRsSl
+rPWj5jLVSyQQilneibrjj5Lpa/r0/jM9A/Tl0242l9FBmn18DOMY5B9eVRF3RXcD
+WhTWxLh4ojV9FieVPVA9+BnhXcwRpSBkRFfFAAL0iBTonpZ1D17HfimFTjT2KQSf
+bkK3bUFrwb93iuwcqd83cNGax2NZDEp5kmJ8/mHTuQdxJoa0dyICriQuWtyNiujI
+1xdhMVDmXoUZUJzg5kH/z7GmB8ayYpdKkzpzaVtUxbiDYpix0J7JNg7qidY+b5os
+7QSYE/8PhJjjoyVadhUHsftkHwqUMndb2dqf9cQtRJw/faxUv28xxHpVGb+ZG1Uq
+7KRHPvfqWT/Q/vx5wx6jCktB/tG8dv/wvxfSrHF4t04MwwFO2GuhYCSu0OHWPATf
+oZZnKoWkvisAtu7aPHqeJgfXg6BZQSULuNa/D+KUUI0Q9r6hDS3KdzQSJPdpWL4r
+TTaNWavmrjYIdJXYJDLYEDpc4f1K3vSvMjPyoXUmID05vIdzPhIp+QucC57bvlvM
+B557NgI5RCLW9Z4yfwK1WfzyK1LgMoUwa8sOiofSO2HBJqwb6bU=
+=7uDv
 -----END PGP SIGNATURE-----
 
---===============5047441231208273886==
+--===============7472810216257603282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e011912651bd-7366c23ff492.txt
+Content-Disposition: attachment; filename=revlist-626bf91a292e-339133f6c318.txt
 
-49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
-3a029e1f3d6e2ee809e85abecce619a48016bd4b selftests/bpf: Fix build of task_pt_regs test for arm64
-bfe84435090a6c85271b02a42b1d83fef9ff7cc7 ice: Correctly deal with PFs that do not support RDMA
-e3f0cc1a945fcefec0c7c9d9dfd028a51daa1846 r6040: Restore MDIO clock frequency after MAC reset
-dc41c4a98a76640e7085815f937eadd1f336ba85 net/packet: clarify source of pr_*() messages
-20e100f52730cd0db609e559799c1712b5f27582 qed: Handle management FW error
-666eb96d85dcbc93aacc186a037db2e05b92b9f5 qlcnic: Remove redundant initialization of variable ret
-2f1aaf3ea666b737ad717b3d88667225aca23149 bpf, mm: Fix lockdep warning triggered by stack_map_get_build_id_offset()
-08dad2f4d541fcfe5e7bfda72cc6314bbfd2802f net: stmmac: allow CSR clock of 300MHz
-ce062a0adbfe933b1932235fdfd874c4c91d1bb0 net: dsa: qca8k: fix kernel panic with legacy mdio mapping
-1b704b27beb11ce147d64b21c914e57afbfb5656 selftest: net: fix typo in altname test
-f11ee2ad25b22c2ee587045dd6999434375532f7 net: mana: Prefer struct_size over open coded arithmetic
-eca4cf12acda306f851f6d2a05b1c9ef62cf0e81 bnxt_en: Fix error recovery regression
-1affc01fdc6035189a5ab2a24948c9419ee0ecf2 bnxt_en: make bnxt_free_skbs() safe to call after bnxt_free_mem()
-985941e1dd5e996311c29688ca0d3aa1ff8eb0b6 bnxt_en: Clean up completion ring page arrays completely
-2049eb0d20de1e6533526ad209f5d1b006ed97c7 Merge branch 'bnxt_en-fixes'
-d7807a9adf4856171f8441f13078c33941df48ab Revert "ipv4: fix memory leaks in ip_cmsg_send() callers"
-e50e711351bdc656a8e6ca1022b4293cae8dcd59 udp_tunnel: Fix udp_tunnel_nic work-queue type
-f4bb62e64c88c93060c051195d3bbba804e56945 tipc: increase timeout in tipc_sk_enqueue()
-e87b5052271e39d62337ade531992b7e5d8c2cfa ipv6: delay fib6_sernum increase in fib6_add
-111b64e35ea03d58c882832744f571a88bb2e2e2 net: dsa: lantiq_gswip: Add 200ms assert delay
-f7ec554b73c5239a96afb9a9c3eb18cb11f539b7 net: hns3: add option to turn off page pool feature
-d18e81183b1cb9c309266cbbce9acd3e0c528d04 net: hns3: pad the short tunnel frame before sending to hardware
-1dc839ec09d3ab2a4156dc98328b8bc3586f2b70 net: hns3: change affinity_mask to numa node range
-b81d8948746520f989e86d66292ff72b5056114a net: hns3: disable mac in flr process
-472430a7b066f19afa1b55867d621b2d6d323e0d net: hns3: fix the exception when query imp info
-427900d27d86b820c559037a984bd403f910860f net: hns3: fix the timing issue of VF clearing interrupt sources
-8c0922ce4b9b0d542dcea871e54eb619661378d9 Merge branch 'hns3-fixes'
-0e6491b559704da720f6da09dd0a52c4df44c514 bpf: Add oversize check before call kvcalloc()
-8520e224f547cd070c7c8f97b1fc6d58cff7ccaa bpf, cgroups: Fix cgroup v2 fallback on v1/v2 mixed mode
-d8079d8026f82e4435445297d1b77bba1c4c7960 bpf, selftests: Add cgroup v1 net_cls classid helpers
-43d2b88c29f2d120b4dc22f27b3483eb14bd9815 bpf, selftests: Add test case for mixed cgroup v1/v2
-550ac9c1aaaaf51fd42e20d461f0b1cdbd55b3d2 net-caif: avoid user-triggerable WARN_ON(1)
-2865ba82476a6b2603db40cfc1c8c0831409fb41 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-4f884f3962767877d7aabbc1ec124d2c307a4257 tcp: fix tp->undo_retrans accounting in tcp_sacktag_one()
-d198b27762644c71362e43a7533f89c92b115bcf Revert "Revert "ipv4: fix memory leaks in ip_cmsg_send() callers""
-52ce14c134a003fee03d8fc57442c05a55b53715 bnx2x: Fix enabling network interfaces without VFs
-7366c23ff492ad260776a3ee1aaabba9fc773a8b ptp: dp83640: don't define PAGE0
+f55e36d5ab76c3097ff36ecea60b91c6b0d80fc8 qed: Improve the stack space of filter_config()
+9eb4c320be9c1b357dbc905c7e60dfffa8c854b9 nfp: Prefer struct_size over open coded arithmetic
+3537e507b662d6511157ed3cd981a3e83e57601d nfc: do not break pr_debug() call into separate lines
+747e3910d66909b34630904c7de7914745186fc1 nfc: fdp: drop unneeded debug prints
+b7b96587c18b709a7ebea73c8d140dfed81ab1cb nfc: pn533: drop unneeded debug prints
+9981ab2151226d5be03b220142e383a1bd91daf2 nfc: pn533: use dev_err() instead of pr_err()
+aed4146c5503f2015e94c67f834e41a165241358 nfc: pn544: drop unneeded debug prints
+64758c6363ea27a68bedf70f76c6f9887957f70d nfc: pn544: drop unneeded memory allocation fail messages
+270be6940714e71328560682cf333bc0789263fc nfc: microread: drop unneeded memory allocation fail messages
+d1c624ebaa5113e5e80f63d55c1ddc19324b3b66 nfc: mrvl: drop unneeded memory allocation fail messages
+08c53aee26d4413b860f5042873b56ecc959c42c Merge branch 'nfc-printk-cleanup'
+13bb8429ca985497bfba3a4afa6cd470d15fed10 net: wwan: iosm: firmware flashing and coredump collection
+847371ce049badf6a56d7e9b8699eb44b686c55e mlxsw: spectrum: Bump minimum FW version to xx.2008.3326
+13eb056ee58ba2437c0d358cb2dff17ef9056cfb mlxsw: spectrum: Move port module mapping before core port init
+fec2386162d1625ef4a436e1dced27e235d5c181 mlxsw: spectrum: Move port SWID set before core port init
+ed403777f653b9b184cbdb380ea938adf8f31328 mlxsw: reg: Add Port Local port to Label Port mapping Register
+1dbfc9d76551f4683a887900c2185c29690acab3 mlxsw: spectrum: Use PLLP to get front panel number and split number
+78f824b33530125ae7dabf54d10c867f095aa7d6 mlxsw: reg: Add Port Module To local DataBase Register
+32ada69bba7ebff4b5c886009afba899341ac815 mlxsw: spectrum: Use PMTDB register to obtain split info
+cd92d79d5fdbdb62a9dff70470f2578707318125 mlxsw: reg: Remove PMTM register
+a9d5e3d78dfddeb2be135204289d4718922d929c Merge branch 'mlxsw-next'
+a962cc4ba1a10fa7285137d63f551a634a6d83bc s390/ctcm: remove incorrect kernel doc indicators
+239686c11f6acbb35c5c74fe2a3d172f22fcac70 s390/lcs: remove incorrect kernel doc indicators
+478a31403b365d2f7b35a0cae8ee3e0594dc5bb1 s390/netiucv: remove incorrect kernel doc indicators
+a1ac1b6e4137f5bb5cbb4a79456193c9ed1127d4 s390/ism: switch from 'pci_' to 'dma_' API
+f787e3cfeaa62fba8077ae6b0087d12122ea7af8 Merge branch 's390-next'
+fa0866625543b4d8b3d026e4e0ef5ec25a453920 net/smc: add support for user defined EIDs
+11a26c59fc510091facd0d80236ac848da844830 net/smc: keep static copy of system EID
+3c572145c24e21c24e1cd0fd168011eaba85da8e net/smc: add generic netlink support for system EID
+55bd079a3cb63eb9dfa62f8c08e3a1dfa92a6ead Merge branch 'smc-EDID-support'
+01649011cc8295238ad8e7a7f657fc79807dae6b r8169: remove support for chip version RTL_GIGA_MAC_VER_27
+c70aae139d3940a0ae0922ed52384e14f092a963 ptp: ptp_clockmatrix: Remove idtcm_enable_tod_sync()
+794c3dffacc166f7a8f7a555ff7e75fcdb644a51 ptp: ptp_clockmatrix: Add support for FW 5.2 (8A34005)
+da9facf1c1825201956c2553e06d455dea3e0313 ptp: ptp_clockmatrix: Add support for pll_mode=0 and manual ref switch of WF and WP
+0f440524b69787ec2a843bc474a786beabc0bfa9 net: wwan: iosm: fix linux-next build error
+b9bbc4c1debc837ba56872fb3b2499ba6459ca8b ethtool: prevent endless loop if eeprom size is smaller than announced
+32e3573f739209e612ea5c98291251b00cc6f70e skbuff: inline page_frag_alloc_align()
+0ccf8511182436183c031e8a2f740ae91a02c625 net: phy: at803x: add support for qca 8327 internal phy
+e435a6b5315a05a4e4e9f77679a57fd0d679e384 net: hns3: PF support get unicast MAC address space assigned by firmware
+5c56ff486dfcb95652cac7802bfd032f667d97ec net: hns3: PF support get multicast MAC address space assigned by firmware
+f2173257b92e9e29a3b87303331ee4a40dd5614f Merge branch 'hns3-mac'
+339133f6c318612f9a4556c300753beda27abc01 net: dsa: tag_rtl4_a: Drop bit 9 from egress frames
 
---===============5047441231208273886==--
+--===============7472810216257603282==--
