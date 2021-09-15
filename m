@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2889838835290635626=="
+Content-Type: multipart/mixed; boundary="===============4430062442007916400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 15 Sep 2021 01:55:00 -0000
-Message-Id: <163167090049.26180.7381799479969090220@gitolite.kernel.org>
+Date: Wed, 15 Sep 2021 01:55:09 -0000
+Message-Id: <163167090957.27658.7746593878932262676@gitolite.kernel.org>
 
---===============2889838835290635626==
+--===============4430062442007916400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8987ede3ed276f669eb88d952184e1d2bf42ea6b
     new: 4c24483e247f8d35cfc22a8d23f0e05690d11805
     log: revlist-8987ede3ed27-4c24483e247f.txt
 
---===============2889838835290635626==
+--===============4430062442007916400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ c240ba28789063690077d282f8f89e03f31037d0 selftests/bpf: Add a test with a bpf pr
 48f5a6c4162706f94523d7a0d828e4aee77d17e7 docs/bpf: Add documentation for BTF_KIND_TAG
 4c24483e247f8d35cfc22a8d23f0e05690d11805 Merge branch 'bpf: add support for new btf kind BTF_KIND_TAG'
 
---===============2889838835290635626==--
+--===============4430062442007916400==--
