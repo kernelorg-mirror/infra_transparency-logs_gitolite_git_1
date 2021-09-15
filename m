@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 15 Sep 2021 01:33:06 -0000
-Message-Id: <163166958635.10943.17423510786892001676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 15 Sep 2021 01:39:51 -0000
+Message-Id: <163166999166.15531.18126184317090251641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/clk-socfpga
-    old: 13ac7d784a63cac867f0dc0fd1e3bb4630fae06c
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+  - ref: refs/heads/master
+    old: 67dfac47dac67a44d5bbdab2541a35ce33a2729a
+    new: c0354077439bc9adcc9f2c96d6bbaf8b13748317
+    log: |
+         c0354077439bc9adcc9f2c96d6bbaf8b13748317 bpf,x64 Emit IMUL instead of MUL for x86-64
+         
