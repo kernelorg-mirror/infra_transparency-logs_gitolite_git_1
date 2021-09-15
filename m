@@ -1,50 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4115100370201365981=="
+Content-Type: multipart/mixed; boundary="===============8939406958706584487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 15 Sep 2021 19:50:04 -0000
-Message-Id: <163173540401.6974.8425216485622706963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 15 Sep 2021 19:55:38 -0000
+Message-Id: <163173573820.10578.2171600180489447444@gitolite.kernel.org>
 
---===============4115100370201365981==
+--===============8939406958706584487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 80be5998ad6339e3e804a772723390cb50b96428
-    log: revlist-6880fa6c5660-80be5998ad63.txt
+    old: 37cb28ec7d3a36a5bace7063a3dba633ab110f8b
+    new: bc23f724481759d0fac61dfb5ce979af2190bbe0
+    log: revlist-37cb28ec7d3a-bc23f7244817.txt
 
---===============4115100370201365981==
+--===============8939406958706584487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-80be5998ad63.txt
+Content-Disposition: attachment; filename=revlist-37cb28ec7d3a-bc23f7244817.txt
 
-a69ae291e1cc2d08ae77c2029579c59c9bde5061 x86/uaccess: Fix 32-bit __get_user_asm_u64() when CC_HAS_ASM_GOTO_OUTPUT=y
-76ae847497bc5207c479de5e2ac487270008b19b Documentation: raise minimum supported version of GCC to 5.1
-4eb6bd55cfb22ffc20652732340c4962f3ac9a91 compiler.h: drop fallback overflow checkers
-adac17e3f61f54927b961d97bd303dd5795a307b mm/ksm: remove old GCC 4.9+ check
-c0a5c81ca9bedaf38356a6290bf895313fd7361c Kconfig.debug: drop GCC 5+ version check for DWARF5
-d20758951f8f28c0ee1b2a8a6bb8189858083895 riscv: remove Kconfig check for GCC version for ARCH_RV64I
-6563139d90ad6178a990d051c7980f0998b5d2e8 powerpc: remove GCC version check for UPD_CONSTR
-42a7ba1695fcd534216aa3712a6cf42da3340527 arm64: remove GCC version check for ARCH_SUPPORTS_INT128
-156102fe0bb669f40f2fd27856b21f9fa8157090 Makefile: drop GCC < 5 -fno-var-tracking-assignments workaround
-4e59869aa6550657cb148ad49835605660ec9b88 compiler-gcc.h: drop checks for older GCC versions
-6f20fa2dfa549401860479328371f0d5cee9b114 vmlinux.lds.h: remove old check for GCC 4.9
-6d2ef226f2f18d530e48ead0cb5704505628b797 compiler_attributes.h: drop __has_attribute() support for gcc4
-df26327ea097eb78e7967c45df6b23010c43c28d Drop some straggling mentions of gcc-4.9 as being stale
-316346243be6df12799c0b64b788e06bad97c30b Merge branch 'gcc-min-version-5.1' (make gcc-5.1 the minimum version)
-d0ee23f9d78be5531c4b055ea424ed0b489dfe9b tools: compiler-gcc.h: Guard error attribute use with __has_attribute
-1619b69edce14c4a4665fa8ff4c587dcc77202a9 powerpc/boot: Fix build failure since GCC 4.9 removal
-6a4746ba06191e23d30230738e94334b26590a8a ipc: remove memcg accounting for sops objects in do_semtimedop()
-77e02cf57b6cff9919949defb7fd9b8ac16399a2 memblock: introduce saner 'memblock_free_ptr()' interface
-3ca706c189db861b2ca2019a0901b94050ca49d8 drm/ttm: fix type mismatch error on sparc64
-80be5998ad6339e3e804a772723390cb50b96428 tools/bootconfig: Define memblock_free_ptr() to fix build error
+540e44daebdf412f3457c222bd36b2bccca5d643 bpf/tests: Allow different number of runs per test case
+b8eff1a480f7e7e08a426d41008657d4ff986eb3 bpf/tests: Reduce memory footprint of test suite
+f71e9a1275f020a09905e2f5bca4d39b78c06b4c bpf/tests: Add exhaustive tests of ALU shift values
+b7396ec22547b443d32ad818fad5377189b92217 bpf/tests: Add exhaustive tests of ALU operand magnitudes
+6f8f96955ca54ce168fb16e93a23ad21aba61b73 bpf/tests: Add exhaustive tests of JMP operand magnitudes
+cab8b4c0c9abca87b8d6dd2376fa1b6d69595e3f bpf/tests: Add staggered JMP and JMP32 tests
+d8a47d5a47b6d8b1d1e6307f7641da7eed0dbecc bpf/tests: Add exhaustive test of LD_IMM64 immediate magnitudes
+de0fd969640fd133d0f6fc32106cf12332957242 bpf/tests: Add test case flag for verifier zero-extension
+f87c6bc98b80730308561abbfcb442e1678b07ba bpf/tests: Add JMP tests with small offsets
+9121d302531c36d541fe6a0ea15a736d1f8f9fbc bpf/tests: Add JMP tests with degenerate conditional
+b21999f4bad8365c98e3709e3b250388c581811b bpf/tests: Expand branch conversion JIT test
+d3241598b2826305da2491ba06f95057cd554e56 bpf/tests: Add more BPF_END byte order conversion tests
+fe89f6cabaedd9f89d017ff32245720da6567b4b bpf/tests: Fix error in tail call limit tests
+bc23f724481759d0fac61dfb5ce979af2190bbe0 bpf/tests: Add tail call limit test with external function call
 
---===============4115100370201365981==--
+--===============8939406958706584487==--
