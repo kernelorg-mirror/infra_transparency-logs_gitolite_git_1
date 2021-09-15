@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 15 Sep 2021 16:48:26 -0000
-Message-Id: <163172450634.15754.12283412371466698434@gitolite.kernel.org>
+Date: Wed, 15 Sep 2021 16:48:31 -0000
+Message-Id: <163172451104.15873.15320001508197298994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/network/ethtool/ethtool
 user: mkubecek
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: a9f2fd197c936d58677b4d700606a8913be6b3a6
     new: d007b49930d8243183160794001256ddd9037fee
     log: |
