@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Wed, 15 Sep 2021 12:15:19 -0000
-Message-Id: <163170811934.21413.5298352194472759185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 15 Sep 2021 12:17:42 -0000
+Message-Id: <163170826255.22196.13712108928997486877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: f218b7db08beecd9bf2a9d967417b017997ef257
-    new: ef80a0ea0b4832d203b780d4b5272074b6a38059
+  - ref: refs/heads/bleeding-edge
+    old: 60c3122580da8362014f3196cee9e9390822b35a
+    new: 9808623e1bba7d929b50865d7e2d7042cd4e5e7b
     log: |
-         cb8263770e4f5834a43db6be8ffb55ffd7f876c9 rteval: hackbench.py: Enable running on a system with low memory
-         50e885286b535c4014e769791c25d172e7ee1a8d rteval: Remove mult from hackbench.py
-         0d226e7032399e94f8bdeac84c55333209f0a558 rteval: Remove self.__err_sleep
-         ef80a0ea0b4832d203b780d4b5272074b6a38059 rteval: kernel.py: Add support for kthreads running with deadline policy
+         5416da01ff6e7275f9a4cfd7ff99e6b12b8dc2a8 PM: hibernate: Remove blk_status_to_errno in hib_wait_io
+         9808623e1bba7d929b50865d7e2d7042cd4e5e7b Merge branch 'pm-sleep' into bleeding-edge
          
