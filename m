@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8096269067039942868=="
+Content-Type: multipart/mixed; boundary="===============0713688877843311191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 15 Sep 2021 03:48:27 -0000
-Message-Id: <163167770735.2155.12179774420017657456@gitolite.kernel.org>
+Date: Wed, 15 Sep 2021 03:48:37 -0000
+Message-Id: <163167771743.2412.13159911066113574260@gitolite.kernel.org>
 
---===============8096269067039942868==
+--===============0713688877843311191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a25b7017467010aa2b825a2c0ddb238884a1bcb7
-    new: 3359a4d8a43f3bebce11c9043fad76d7e7da3a41
-    log: revlist-a25b70174670-3359a4d8a43f.txt
+  - ref: refs/heads/5.16/scsi-staging
+    old: e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b
+    new: 7e642ca0375b95072ab6240c8eb9f0b4f013fb24
+    log: revlist-e018f03d6ccb-7e642ca0375b.txt
 
---===============8096269067039942868==
+--===============0713688877843311191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1631677697 -0400
+pusher 75C5DE3D 1631677711 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1631677696-07bc24a89a2c667e4b7598d4286fbc73834c355a
+nonce 1631677710-857a4a67b29619a2f8f19fdfb7b19e81085d180d
 
-a25b7017467010aa2b825a2c0ddb238884a1bcb7 3359a4d8a43f3bebce11c9043fad76d7e7da3a41 refs/tags/mkp-scsi-staging
+e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b 7e642ca0375b95072ab6240c8eb9f0b4f013fb24 refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFBbQEACgkQ7ulgGnXF
-3j0zYQ//etcWnRBU28jtW52ZUCiTu5V6CXSUVSgiSwrC9b6Y4+OVXox/0WCLXIDM
-L96OZBcXWdV6R25xXmgnw9qL35TN0IMeoxGIxSJpbntTXOeismjQ1ncFs9t3Be69
-6+FM1Zs87uVRenYTEWDYelLdxf4AA4A183sHlvJQtARNXTSk37P5bp0HvMOYHCar
-hxTwfEDtTZzmPVRICDHhdAUQecMyjN/uZlPQ2u+XvJOZXIyYImo5Hw6RC+FXPN31
-/zrwN7mgI5A3hV5qvywxVXfBMh9dmor05VzVOPI8QJ8p07PmduUiWooSH1CCcnig
-szFN5zNmDzlJKnTetk4NukKLzk7p6q25BZq5y2+6STaTPgOnrlhznBYcozew80k/
-9kQWiYLOfBNmqSBzJaQHecW82wo7ZTsrOrM3GhmryzbGuIh8EUNXBUKQbEKbaEki
-B3AVLkJ53G6hgk5rzRSRuseUhwZr8YerN+Nsl6aAh4Xc0GYaPEbgJXSc12YAvuUk
-oKZqbMDbrPBZabwSUT5PvYf6sZ6285sBpWF3B3TNYc5tNWrTVAbVTi0H7QD24Izy
-A/OY9WT++9VAz5/e3cBtP5PLFYI+QDF1u6elbmHV8LGlBnJTMRQKJMXa4hrEtTZb
-sIfqdw7cEwidbSpRiSvTyAQZV3sNWDL9H67eP5HYQh20X7edbec=
-=DmQC
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFBbQ8ACgkQ7ulgGnXF
+3j2x1w//eG7zfgkew/+HAwbN4MKaBsNtlaD4l++VljYAzQeWyjvFjVd+27Yg17ot
+ZsahJIAx5q0fkfZd36CydfrdwhhmtsXmEHea2nkSM0+MolLWlHgCWyVuiHR5RSp1
+XDead8OneDWHDXXX4uC+b02DgpIFr6XtB6tWCSm/cgQ06qOBoTmDeYPu36dTjB0Z
+Cngd+ToEiHyLZZaG/gRC/9wxzsbnvx7Dp6ZUCrQ/0SNZKsvl8IIp7upD4vYknWCn
+urAYtg2iAh8uBFWdrWc0RS3cIsefXlgWhn5AlGIw98oQxhb+UT8qyUe10pmtIyXG
+aUiQ5kdkZPnA4szrEZnsIhdWpQLAvXs1MBrbqA4fMfYNa5OlERtOtuTxngjPeLm3
+AZz+Q/3yd0QeFDPzgL30PzELvBPqvFm5M5LSf1/naLIad3xYHlWw5kP1tC5ZawOX
+A1mLc4Atsx1UPm9IYuGMxWxZGV+6kxsikO7YYAzowYbrDNT2JxGH0Nqlh7/zqaKd
+7ygu7pSl38aLFwukCFbWDbeXG/0/QbrKQzawfWOKLhUxBZRcyu/Tb9FV7XltviZ6
+FnqtIo5oHElGO3UAGAIXX8iYscrCjLFPcRCSNS3nP0z36Y5WjRTrkW7eM+5PtDcb
+eu4mmzWICGGu6ebhX29EQrR8QhgY9kHqz2AShHdz1euT34HA+Vc=
+=Aulz
 -----END PGP SIGNATURE-----
 
---===============8096269067039942868==
+--===============0713688877843311191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a25b70174670-3359a4d8a43f.txt
+Content-Disposition: attachment; filename=revlist-e018f03d6ccb-7e642ca0375b.txt
 
 08d0a992131a4db7328b0c2f5a0259732e4d0d12 scsi: pm80xx: Fix incorrect port value when registering a device
 b27a40534ef76a22628a5c12f98ea489823a8ba5 scsi: pm80xx: Fix lockup in outbound queue management
@@ -92,4 +92,4 @@ c4adf171e834dab8ca72676ca7264c5b50a542a8 scsi: ufs: ufs-qcom: Remove unneeded va
 aba3b0757b6cba37953bb1d7e71c460d37fd496a scsi: ufs: ufs-mediatek: Change dbg select by check IP version
 7e642ca0375b95072ab6240c8eb9f0b4f013fb24 scsi: target: Remove unused function arguments
 
---===============8096269067039942868==--
+--===============0713688877843311191==--
