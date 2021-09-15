@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0339113721806401389=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
 Date: Wed, 15 Sep 2021 12:53:43 -0000
-Message-Id: <163171042358.14040.4952697279302182261@gitolite.kernel.org>
-
---===============0339113721806401389==
-Content-Type: text/plain; charset="us-ascii"
+Message-Id: <163171042386.14059.11550423502831064754@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/master
-    old: f37c0137ac4d8fc61063fc2e69af773f5717c34b
-    new: da1866d9ae3b8e7b6d92bcfe5364e1e39440f266
+  - ref: refs/heads/fixes
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: f5711f9df9242446feccf2bdb6fdc06a72ca1010
     log: |
-         da1866d9ae3b8e7b6d92bcfe5364e1e39440f266 5.14-stable patches
+         a8b92b8c1eac8d655a97b1e90f4d83c25d9b9a18 s390/pci_mmio: fully validate the VMA before calling follow_pte()
+         d76b14f3971a0638b6cd0da289f8b48acee287d0 s390/sclp: fix Secure-IPL facility detection
+         4b26ceac103be7ad71cd4cccf01f97b6017008a6 s390: update defconfigs
+         948e50551b9a07c3ab6b9d208bb8f16fa1b2ad41 s390/ap: fix kernel doc comments
+         f5711f9df9242446feccf2bdb6fdc06a72ca1010 s390: remove WARN_DYNAMIC_STACK
          
-
---===============0339113721806401389==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631710421 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1631710421-8e192f09f5a04148f3c6e8b2049564ea20b6c28d
-
-f37c0137ac4d8fc61063fc2e69af773f5717c34b da1866d9ae3b8e7b6d92bcfe5364e1e39440f266 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFB7NUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zlIP/RTP8RzRsgTvR0PHH9dp
-NDfG8bwka7tH8RHHRkUzov1IF67RDhpNmM6X8PCXRoQ3pgTyNavLGmvezKrTLVa6
-SDkVk+TiaY6yIGPJWlaLJpchD01jTkbuTXMVQPvmkFyp8xqB0dTNygbIPhbvC67e
-nyJ3KQi+fjKfHAaTZPqkNfcWqp++d5Lx9Pk9MM8O3ljbrHZWMY7Cw5gE9R6SsD5a
-9JIcYphdXTAMbomd03zD/ccgxdWBu+uKoms7rPKs6S06/1YZsP9fXYb68cTWQLbt
-vtF4Oq8wmHovkpK4wtGxjyPtDo4nb2gaK1jTQItIVGyMWX7P9mqXPeqQG30rW07e
-R9ufBM8YajESRi2ICW/Rl3VcVzQClJuE0gh+KmhUr/GBCCeGgiq5mFHE3vfX5Aqw
-Hekw1MelsnWU9qgSDoZ6cC6UATCXCN/mFe+wV6DFW/B/gFjzRU+czNhlmXFmoPJ9
-I5/64bivHcnKAcm0P18I096P/iRTvkLCuN0913mIjnzVm2AVaHMI37BdbZXK1nN0
-y6ltehOKRWlV48jPuWXuDP3UYQxdLMjnYAJNdUXhTwOumFHdZB7FXWpKxGZCy6gu
-XLnoNkIHnyViwmIK5LfhHPZOH4OOXj4CshL8Ub2j98MapgFJxUAc4QZwvv5RlVFW
-4DKlmm7DK1aDc8JXdsmDtc0V
-=dy0E
------END PGP SIGNATURE-----
-
---===============0339113721806401389==--
