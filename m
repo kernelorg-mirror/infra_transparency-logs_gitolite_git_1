@@ -1,80 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============2289621216434482598=="
+Content-Type: multipart/mixed; boundary="===============8095481646548592319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 15 Sep 2021 17:50:34 -0000
-Message-Id: <163172823464.26637.17611979611012826108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 15 Sep 2021 17:50:46 -0000
+Message-Id: <163172824605.26799.4718836284503154780@gitolite.kernel.org>
 
---===============2289621216434482598==
+--===============8095481646548592319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/tty-next
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: d06246ebd7738bbfc581b887bc24a102450a323f
-    log: revlist-6880fa6c5660-d06246ebd773.txt
+    new: b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7
+    log: revlist-6880fa6c5660-b55c8aa6b1ab.txt
 
---===============2289621216434482598==
+--===============8095481646548592319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631728233 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1631728233-efaa2b2c6c9ae7acae0cfdc28f87ac0389bc4c38
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631728245 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1631728244-27c3a02703f459aa1b803e66cc9232140c6bbddb
 
-6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f d06246ebd7738bbfc581b887bc24a102450a323f refs/heads/char-misc-next
+6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFCMmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CJMQAIETLwSjsjuuyNkpwbtu
-iXJLMIxDZrwgnmcKQZ409Tx3BP7VvS2XrtFB2mZrJVwhhZopsAzFjcuMvJv3pab4
-fDd2je1671CciFUvzrA26vBUWDcNTwFledr+o2POQzagSWv493WDKfdGxMCOyjCo
-vcZfsleTpAIP2FwVNJtA6zvxPQWfBYUKsxunBBnrhvjMXlc65f/gtBzvsXNaLwD6
-7o851MAsojba0aoRylnoe96+VNC17f9ob4TGvKy7LQ3RfUGaM0cll+iRGxvJBUZH
-M7Hqi6cWTRRA9B1Bn7U3YgMOkt52WvfmjAG+vV6XIaaOJ11aRQ6PTCdW0MxGLPA0
-xpM1hTaewmTGJfzipD3qu7/PtEB+1D2DE2PcefHZOBPCKRPRRXAHiHbg9Xz5h0U5
-SyWbA90Fw307YYEBNBvYrnb7GSGXPmiv833AN4x2THYJUXnMbQ+XsBRVKetQvukL
-JxCfOC6h7QqOpmzTqamra9XBTHP9MYUvk7kGaezLwoFsKnF4ce9vTcMgaj2JXwP7
-uhHcB8n32wNMfqRI+1N1PSbQmcH4B3EgWKjOYa9DqVq1mwG9Zh/QlXx5sZX1Rb5Y
-Qa5jK/Wz8lvNQ85WV7uG29xNYWKenjmWVgOG+vaCAXVQXNHlk9R88RGc2TpdYlm7
-HraZ4adBEr2kR0q41/PzC9Cs
-=NrI8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFCMnUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+03wQAKTXyMPsHEcmFuOMEKKg
+lpYZv5LNhLLeHVeuvOcMeVGFX6vkHZgyMY12KsuMKv016NRPrbfSNxHKKj6FoiB7
+1o0uMukLd4AUjMDY/SZ0L9nUDXgDSZGhQN3BEwuB2M1ITRtksON/HjJgTw7+i7OP
+NKUmW4ATdRoY5psdQrrK6dRTD8MWvFbD5+MhHVMfCso737GIq99u6ePtcg+PEbof
+U7wu03MEyqRJZTwtAs1rnXJR0VMttBMiKAmp91NA1hdVPHUlqagi/SE6GGtQlvxY
+o7R8zujHof1QKbExouQlYPOYb0K85WjW+gYaLFbzXQ9vQWyWqGQUWC7xtgkNJ5pa
+elQTFxgQrmSfdGwxvbAhP9cfUkEfb5yirKcpV6z1R/fzY6jgKgXIYZL++nk2DomQ
++zf7dj8FUiXF9f6COq9kk4AXF/NfEfsGkd0dWSaIENym7UpGMVmzTgvWbx/WLr8A
+fy0ZxomYTSHpuRppDxxwIayBvsvLN2+I+EdlZZSfxJGOuvLCL1r3cnuUZWOuSxX8
+/lErdmtWBc+yM51lsYg3HvZ5nO0nPuo6AF1SDKSbuRtJo44pfihMmgHIXKKmB5Tm
+xQA4MIQUituqrluBisYvFFM6/eCbfjKfloEwtt0zc6lapjiEzQpNevSnLUh8Bku0
+ZHYaXBkAuZIHQsTSmUj56QTb
+=CseE
 -----END PGP SIGNATURE-----
 
---===============2289621216434482598==
+--===============8095481646548592319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-d06246ebd773.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-b55c8aa6b1ab.txt
 
-e5f71d60ff167d0caa491659d65551a55ea6b406 /dev/mem: nowait zero/null ops
-83c510568ec52f8eb00abf45bf35fbae9b97390e misc: rtsx: Remove usage of the deprecated "pci-dma-compat.h" API
-a34993a2791c507d6941582f37c9776257662523 misc: hisi_hikey_usb: change the DT schema
-33a430419456991480cde9d8889e5a27f6049df4 pvpanic: Keep single style across modules
-cc5b392d0f94f27743583140d819fa35a46899db pvpanic: Fix typos in the comments
-84b0f12a953c4feff9994b1c4583ed18b441f482 pvpanic: Indentation fixes here and there
-f7e55f05301e71af557c45224817438670225aa7 nitro_enclaves: Enable Arm64 support
-cfa3c18cd528f48fd1b4b584f330df8f00b8a97f nitro_enclaves: Update documentation for Arm64 support
-e16a30a419c89d71e68f4da348b48918944fd49c nitro_enclaves: Add fix for the kernel-doc report
-e3cba4d2454c2e4034147ca53b75c6592ded7c5a nitro_enclaves: Update copyright statement to include 2021
-02bba596de19c0b951b2843ebcd7a9da6e0938d4 nitro_enclaves: Add fixes for checkpatch match open parenthesis reports
-059ebe4fe332c5d1c25124166527cdf9fe43a3ce nitro_enclaves: Add fixes for checkpatch spell check reports
-da1c396a81b87541cf7a7c2c6e128b722461a1c8 nitro_enclaves: Add fixes for checkpatch blank line reports
-b46f7d3309fdd1695df7576a5329077d6b94d2ad char: xillybus: Remove usage of the deprecated 'pci-dma-compat.h' API
-0b1eff5152b3646c9e33b7e0e5dd6f0f2006b06c char: xillybus: Remove usage of 'pci_unmap_single()'
-3e053c44eff5ec5364916a2c63b701d14f3099bf char: xillybus: Remove usage of remaining deprecated pci_ API
-ff8d123f0b0ee774089f70d8e266ecd1371e84e2 char: xillybus: Simplify 'xillybus_init_endpoint()'
-aee1bbf66ba0343828fd8e62e59480314914b75e tifm: Prefer struct_size over open coded arithmetic
-d06246ebd7738bbfc581b887bc24a102450a323f scripts/tags.sh: Fix obsolete parameter for ctags
+0f3b577384c07cdefd5735f78f9f375c6afe810e dt-bindings: serial: brcm,bcm6345-uart: convert to the json-schema
+42c457cc9a0a1a089ee4e8b4a32717412abb8d60 serial: 8250_pci: Prefer struct_size over open coded arithmetic
+538a9909205d1dd7dce737e3fd9a8fa3165a0c02 dt-bindings: serial: samsung: Add Exynos850 doc
+f77529d9b91ac484d2ec4ad733e7594731334348 dt-bindings: serial: uartlite: Convert to json-schema
+3de536a8c365ada3481839ffe8da533c9940ea3f dt-bindings: serial: uartlite: Add properties for synthesis-time parameters
+8517b62e0a28f474aeeb05dcadf0466965595550 sh: j2: Update uartlite binding with data and parity properties
+ea017f5853e9a6a11cfa9bdc61ba823a1ed54ee8 tty: serial: uartlite: Prevent changing fixed parameters
+b9e851cd4a8749febb6d68d54d00ed7fe00633c9 tty: n_gsm: Add some instructions and code for requester
+cd936621379d513bd768319219840b003a45e729 tty: n_gsm: Modify cr bit value when config requester
+cc0f42122a7e7a5ede9c5f2a41199128b8449eda tty: n_gsm: Modify CR,PF bit when config requester
+f999c3b35735d9e9b33a7be7b071f8ad75237f68 tty: n_gsm: Modify CR,PF bit printk info when config requester
+509067bbd2644ed8f59b84b5db95a985633004ba tty: n_gsm: Delete gsm_disconnect when config requester
+cbff2b32516881bef30bbebf413d1b49495bab1d tty: n_gsm: Delete gsmtty open SABM frame when config requester
+5b87686e3203808cd6442dc3c686b9c90b435bce tty: n_gsm: Modify gsmtty driver register method when config requester
+0b91b5332368f2fb0c3e5cfebc6aff9e167acd8b tty: n_gsm: Save dlci address open status when config requester
+b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7 tty: moxa: merge moxa.h into moxa.c
 
---===============2289621216434482598==--
+--===============8095481646548592319==--
