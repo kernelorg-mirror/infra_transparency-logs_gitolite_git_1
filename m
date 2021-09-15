@@ -1,122 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============6947234289897292884=="
+Content-Type: multipart/mixed; boundary="===============3432708581002444430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 15 Sep 2021 10:08:35 -0000
-Message-Id: <163170051587.1112.2579342260558219209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 15 Sep 2021 10:20:21 -0000
+Message-Id: <163170122179.10601.1827224187715002004@gitolite.kernel.org>
 
---===============6947234289897292884==
+--===============3432708581002444430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 019a926fcae5bdab8d90d7884f73066649c2cff5
-    new: 1e4ca85758829c807f7af80541c8d03e414f03c0
-    log: revlist-019a926fcae5-1e4ca8575882.txt
+    old: 339133f6c318612f9a4556c300753beda27abc01
+    new: c506cc5bc6e33a20ca615043aa3ddb2da4b8c210
+    log: revlist-339133f6c318-c506cc5bc6e3.txt
 
---===============6947234289897292884==
+--===============3432708581002444430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-019a926fcae5-1e4ca8575882.txt
+Content-Disposition: attachment; filename=revlist-339133f6c318-c506cc5bc6e3.txt
 
-e405cb05f9c77326d1ccc795311a3f743a17f02c Merge branch 'locking/urgent'
-f72beb9f9de45a2c30d3e85dfa6162e18d60faee Merge branch 'sched/urgent'
-379e91db4017cc150c8a74aaabb6967905ea4a4a Merge branch 'smp/urgent'
-078bb3fb27f9e3cab1787d167139011d23852a67 Merge branch 'timers/urgent'
-5448a9e9f16a1b95790df7ef58686331aa3935a6 Merge branch 'x86/urgent'
-d7fdc508732d54a99fef1ef64637f9899825d2e0 futex: Move to kernel/futex/
-e9c9ffa7d1b7c91339489fb1910f14ab50dade36 futex: Prepare for futex_wait_multiple()
-d6202085da6ba35e95f1252c36b0401d5e606aab futex: Split out syscalls
-7bf2493cc9951ddd81822a3f3e84a6248b4bbe97 futex: Implement sys_futex_waitv()
-b619bdba535a3876a2ae718222fb651bcb689911 futex: Split out PI futex
-eb4df6eb8befc7f3da7f125c96741cc014e7b61e futex: Split out requeue
-c4d16cc653915288d94e40de164ab8cd98e7434f futex: Simplify double_lock_hb()
-efd46f9ae3076520495e8d07daa4677f87414cd2 futex,x86: Wire up sys_futex_waitv()
-5dd3f40831b016d83b0366774012d1caa9e197d1 futex,arm: Wire up sys_futex_waitv()
-9dd8dad9ca8c6afe85b50951931befd9ba5c84b7 selftests: futex: Add sys_futex_waitv() test
-f4c60be1b53e03356e308b428bed18b6cb7734ac selftests: futex: Test sys_futex_waitv() timeout
-95878b6c1aebd47937a439b079ab4e8ed10eebdb sched/fair: Use __schedstat_set() in set_next_entity()
-53538d213b7b8bc97243faaa803875a4068931ad sched: Make struct sched_statistics independent of fair sched class
-7105bd51a2440f8a0211a4e582c9a9e28733ce40 sched: Make schedstats helpers independent of fair sched class
-4e1596dd633130a853f2d8acfc5371898cd29739 sched: Introduce task block time in schedstats
-09b8180ffb2243cae5b84fd0c2e3b954437ced6d sched/rt: Support sched_stat_runtime tracepoint for RT sched class
-a9849eea1e2ce3a750ab57a5bda5d4953461f133 sched/rt: Support schedstats for RT sched class
-d320f662cccdc3e2bd2c44cbbc13439893584129 sched/dl: Support sched_stat_runtime tracepoint for deadline sched class
-755dd39ef15dc022aa0bd178bec1967e2be81cda sched/dl: Support schedstats for deadline sched class
-b43549c72d05f9a99bf4f3f65d4a209c6ff718c1 sched: Fix -Wmissing-prototype
-6030608a3cae3b5b921f315a56dc927e614b2a64 sched: Remove unused inline function __rq_clock_broken()
-75435de55c618c68e419393a596642b2ec469ff7 sched: Provide Kconfig support for default dynamic preempt mode
-f77d0ba711017475eebbc9bf02eb3e2e4cfae501 events: Reuse value read using READ_ONCE instead of re-reading it
-dfafc163cc92c26a0fd09bea4d8fcb4ccc2717bb perf/x86: Add compiler barrier after updating BTS
-ef21cf8af830d09d8f67b2327e0168efd8fb4291 locking/rwbase: Properly match set_and_save_state() to restore_state()
-5b3c71e64d373cfce8ab17d90af1a6bdbb633f60 locking/rwbase: Extract __rwbase_write_trylock()
-a8eefe04960b2b49a0a1c7059b06255e64ad607f locking/rwbase: Take care of ordering guarantee for fastpath reader
-fe2adb795f8225025d2387f263abaee91709c3b3 lockdep: Let lock_is_held_type() detect recursive read as read
-982e6a05452065f0f94e761addcca2462ed475f7 lockdep: Improve comments in wait-type checks
-cf6a0c1962e69b0eeb2f55b6073035dad5c683b3 locking/lockdep: Cleanup the repeated declaration
-ddb3c0dba3464602a1d59da66d67a483fc514f4f kernel/locking: Add context to ww_mutex_trylock()
-f82295c3e508b73f29e6228bf90909c484075b1e Merge branch 'sched/core'
-b8b30e42722421d1ca4010ebe4d1cc9cf5f6066a x86/sched: Decrease further the priorities of SMT siblings
-7ce708626309db0a7b77c40bc9bf4345de593580 sched/topology: Introduce sched_group::flags
-0005357a8d35ebbf769cc338fdcbd79b72d09617 sched/fair: Optimize checking for group_asym_packing
-eea9c4797c5f0fb07a820695f15098a9cc51588a sched/fair: Provide update_sg_lb_stats() with sched domain statistics
-32f73e4563938bd5aefcd0eeab570be5e65b1ebb sched/fair: Carve out logic to mark a group for asymmetric packing
-1ed483c7d6d2e8af2424f3862cd9146da3b9c724 sched/fair: Consider SMT in ASYM_PACKING load balance
-c49aeb4fc90058df379cf9a6e477739506d891af x86/xen: Mark cpu_bringup_and_idle() as dead_end_function
-6924a96acfba64896d9c11ebcbefb14d81c4e3b3 x86/xen: Move hypercall_page to top of the file
-c9758167bce96ea1e3b6dcaa16cbce0e6d7ba237 objtool: Introduce CFI hash
-7589778538da95bb21ff904eb97172dab11e80fc objtool: Handle __sanitize_cov*() tail calls
-7d596f136caccb6b5e4b8be731ef17f7574d4d5f x86/kvm: Always inline sev_*guest()
-95a2f7fcf35b84e8785e0801befb988a811e3c6b x86/kvm: Always inline vmload() / vmsave()
-62ff5128782cdd2ffea74a0c7230653c2d025d5a x86: Always inline context_tracking_guest_enter()
-3d5dcee9e9aad2c5328fda3fe8bcc47654ff7eb7 x86/kvm: Always inline to_svm()
-8c1081328a952aef69840f30421896f24ca56ab8 x86/kvm: Always inline evmcs_write64()
-64173402087077a3be0770fac5bd12e1aa291aab x86: Always inline ip_within_syscall_gap()
-dc03d2822420eeb6682645662328b3fdaa70e8c8 x86/sev: Fix noinstr for vc_ghcb_invalidate()
-2110b68ff1c59604938ec5fcdd22ae8f6f23e336 locking/lockdep: Avoid RCU-induced noinstr fail
-56acfe5b8c68173e63e36f88457095ac64ca7795 x86/paravirt: Mark arch_local_irq_*() __always_inline
-ddc80d1cb2ff1c8f57344cff73ae19b443432ffb x86/paravirt: Use PVOP_* for paravirt calls
-2c0cb0ac02874735aa9d8df967488f71f763de75 x86/xen: Make read_cr2() noinstr
-6bed4a4e36c9571caf36a8acd6e2df62203ff7b7 x86/xen: Make write_cr2() noinstr
-82abcbd312e0d82ee767a8dc4f155ad4e59b38cd x86/xen: Make get_debugreg() noinstr
-43e2a71616639d1e013908428dacbbcb11b88333 x86/xen: Make set_debugreg() noinstr
-c3867aaf1d031f3ca8813560a86c1f076fed2035 x86/xen: Make save_fl() noinstr
-853d326da82712faad272679c413fb1ec4d65a25 x86/xen: Make hypercall_page noinstr
-b2463ae1a3b3aae89f767e0447168660571401dc x86/xen: Make irq_enable() noinstr
-8bfffa9717562dda66d6858e37e59a77526c83fb x86/xen: Make irq_disable() noinstr
-0723506555031bc4ed571690433681916589adad x86/xen: Mark xen_force_evtchn_callback() noinstr
-aaa32aeb3dd361130dcdf2ebd0cac357169ee234 x86/xen: Rework the xen_{cpu,irq,mmu}_opsarrays
-1c54bba20f0225ec79b13b65bfbdb7a37f2a858e objtool: Support pv_opsindirect calls for noinstr
-9e9d4d44641b0695b939a6a258b412ce725867f4 mm: Update ptep_get_lockless()'s comment
-f738ec4602e20f625d4fe072627b92ac7747d0c4 x86/mm/pae: Make pmd_t similar to pte_t
-055adce8e0f8032f05f0ca98c435537bcbf920e3 sh/mm: Make pmd_t similar to pte_t
-811d1c37ba2ff0719ac14ebaa85f1df278d08b40 mm: Fix pmd_read_atomic()
-248aa4e24cfceb1e4d152cb5fc1a8b5c3cefcb1f mm: Rename pmd_read_atomic()
-0fef3953dbbaa003dbffad436b6d59b8eb749514 mm/gup: Fix the lockless PMD access
-8445fce48ba024f2cc9e1ee54339f05fdc91ff8b x86/mm/pae: Don't (ab)use atomic64
-435f59f8a30a3d243e892ff8c8e8de9c8ea97e1e x86/mm/pae: Use WRITE_ONCE()
-a81ae8fe8f4a9d3d820aab3a7da7c2e3e35258f8 x86/mm/pae: Be consistent with pXXp_get_and_clear()
-3603339afca279c9f98dc7146fe9f617739bf14b Merge branch 'tip/sched/core'
-c85e278f6efa02bed350fc4d30ba5b0c6aa4e68c irq_work: Unconditionally build on SMP
-b45491fb1c3dea1cf13c5dba022d97617b9cf193 irq_work: Provide irq_work_queue_remote()
-79beadbb708897c982ae02a44e6aa29a21f4d330 rcu/tree: Use irq_work_queue_remote()
-f06f0b5569cc7766f1d9eeca7240af7c84ac4727 irq_work: Add a few comments
-636f312f1152b692ec5c32db73b516de099f8304 Merge branch 'locking/futex'
-aa6cfbb839273152dcd154ce415689fb5dcb9789 Merge branch 'sched/core'
-3ba777c2ce2f73b2c1a0f0343039278a3f5a8114 Merge branch 'perf/urgent'
-32404176bde9d0c9ac2a9d15d8db0cdef20f4bba Merge branch 'perf/core'
-d5a6739adb40aaaf7cd3fd2c5b813227d2723615 Merge branch 'locking/urgent'
-467137ed9a3b59b73ecb153deef27a5c5449b25f Merge branch 'locking/core'
-0d7dfe903d70db1e51819fa30b76deeb05a1a366 Merge branch 'sched/next'
-bf6c46571fbefcf8ec0fbc7c4dc8d88d9ddd02c0 Merge branch 'objtool/core'
-4abaa4b10774090cb0c7c347a2a4182c48479302 Merge branch 'x86/mm'
-1e4ca85758829c807f7af80541c8d03e414f03c0 Merge branch 'sched/cleanup'
+c12aa581f6d5e80c3c3675ab26a52c2b3b62f76e MIPS: lantiq: dma: add small delay after reset
+5ca9ce2ba4d5884cd94d1a856c675ab1242cd242 MIPS: lantiq: dma: reset correct number of channel
+5ad74d39c51dd41b3c819f4f5396655f0629b4fd MIPS: lantiq: dma: fix burst length for DEU
+49293bbc50cb7d44223eb49e0f7cb38e7dac2361 MIPS: lantiq: dma: make the burst length configurable by the drivers
+14d4e308e0aa0b78dc7a059716861a4380de3535 net: lantiq: configure the burst length in ethernet drivers
+5535bcfa725a8cfe3ce62b817eb48e0a9b65c828 dt-bindings: net: lantiq-xrx200-net: convert to the json-schema
+dac0bad93741434d6a69c42206c498e26500ad88 dt-bindings: net: lantiq,etop-xway: Document Lantiq Xway ETOP bindings
+c68872146489946509b6bc1667e29192bff46d8d dt-bindings: net: lantiq: Add the burst length properties
+1618df6afab2c1856cd574444b76f6dccee080df ptp: ocp: parameterize the i2c driver used
+498ad3f4389a1f1d2b0e09fa8f906152b0cfaf67 ptp: ocp: Parameterize the TOD information display.
+1447149d653934dea868d22d00d7b5f1b86ef70b ptp: ocp: Skip I2C flash read when there is no controller.
+56ec44033cd7398cc450fe3d356aa2b5a035e423 ptp: ocp: Skip resources with out of range irqs
+bceff2905eff5d91de07a6be7617341f36716224 ptp: ocp: Report error if resource registration fails.
+dcf614692c6cb93c7f4957fbdc7f5d024f5e2f7b ptp: ocp: Add third timestamper
+e1daf0ec73b2e9170d7df1e5cda409de3535bac2 ptp: ocp: Add SMA selector and controls
+6baf2925424a8346eacf0da85687f8277011b916 ptp: ocp: Add IRIG-B and DCF blocks
+d14ee2525d3899332c0922d435bddb703f8b7e22 ptp: ocp: Add IRIG-B output mode control
+89260d878253f44bdbb76bcfe18e4a237b0d9d1a ptp: ocp: Add sysfs attribute utc_tai_offset
+065efcc5e976d5e14d04c33e1509caca519b1cf4 ptp: ocp: Separate the init and info logic
+f67bf662d2cffa2ddf19ffa23381d49c9cffd783 ptp: ocp: Add debugfs entry for timecard
+e3516bb45078fbcafeefe20a990080b9c838ac72 ptp: ocp: Add NMEA output
+71d7e0850476918b2932ac1dca5a135a5584f742 ptp: ocp: Add second GNSS device
+a62a56d04e63cf0ececb5dd339811f0a14b7e77c ptp: ocp: Enable 4th timestamper / PPS generator
+6d59d4fa1789e0ca51dc33494376272a61b80104 ptp: ocp: Have FPGA fold in ns adjustment for adjtime.
+1acffc6e09ede525ecf733b1a700fdad8db9a203 ptp: ocp: Add timestamp window adjustment
+d7050a2b85ffbc0a2c36326028d6aa9784d6694d docs: ABI: Add sysfs documentation for timecard
+923990f6431e6f07dbe99780dd8c4472596aa213 Merge branch 'ptp-ocp-timecard-v13-fw'
+38106b2c433e886344c33c90522343c37edfacea ibmvnic: Consolidate code in replenish_rx_pool()
+0f2bf3188c438210dd1f8d92d448d6226f9792e0 ibmvnic: Fix up some comments and messages
+0df7b9ad8f844d692d841d550ec72352e78eb51e ibmvnic: Use/rename local vars in init_rx_pools
+8243c7ed6d084434cada6d5e6d64d7abab632945 ibmvnic: Use/rename local vars in init_tx_pools
+0d1af4fa71241104b8959f83974875dc52bc129f ibmvnic: init_tx_pools move loop-invariant code
+129854f061d8925a259f29b16d82bc19a23cf377 ibmvnic: Use bitmap for LTB map_ids
+f8ac0bfa7d7acefecfa18da8e27ff67adaefe45c ibmvnic: Reuse LTB when possible
+489de956e7a2443e8ef80fe6b4dd6c6c28574f33 ibmvnic: Reuse rx pools when possible
+bbd809305bc72da8ac02841d3db5437bfe556233 ibmvnic: Reuse tx pools when possible
+c506cc5bc6e33a20ca615043aa3ddb2da4b8c210 Merge branch 'ibmvnic-next'
 
---===============6947234289897292884==--
+--===============3432708581002444430==--
