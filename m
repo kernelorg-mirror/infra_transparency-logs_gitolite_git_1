@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4932443622480532839=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 15 Sep 2021 18:10:51 -0000
-Message-Id: <163172945132.6777.7004716896035697282@gitolite.kernel.org>
-
---===============4932443622480532839==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Wed, 15 Sep 2021 18:17:29 -0000
+Message-Id: <163172984903.10349.6852946943263688638@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/heads/dev-test
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 80be5998ad6339e3e804a772723390cb50b96428
-    log: revlist-6880fa6c5660-80be5998ad63.txt
-
---===============4932443622480532839==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-80be5998ad63.txt
-
-a69ae291e1cc2d08ae77c2029579c59c9bde5061 x86/uaccess: Fix 32-bit __get_user_asm_u64() when CC_HAS_ASM_GOTO_OUTPUT=y
-76ae847497bc5207c479de5e2ac487270008b19b Documentation: raise minimum supported version of GCC to 5.1
-4eb6bd55cfb22ffc20652732340c4962f3ac9a91 compiler.h: drop fallback overflow checkers
-adac17e3f61f54927b961d97bd303dd5795a307b mm/ksm: remove old GCC 4.9+ check
-c0a5c81ca9bedaf38356a6290bf895313fd7361c Kconfig.debug: drop GCC 5+ version check for DWARF5
-d20758951f8f28c0ee1b2a8a6bb8189858083895 riscv: remove Kconfig check for GCC version for ARCH_RV64I
-6563139d90ad6178a990d051c7980f0998b5d2e8 powerpc: remove GCC version check for UPD_CONSTR
-42a7ba1695fcd534216aa3712a6cf42da3340527 arm64: remove GCC version check for ARCH_SUPPORTS_INT128
-156102fe0bb669f40f2fd27856b21f9fa8157090 Makefile: drop GCC < 5 -fno-var-tracking-assignments workaround
-4e59869aa6550657cb148ad49835605660ec9b88 compiler-gcc.h: drop checks for older GCC versions
-6f20fa2dfa549401860479328371f0d5cee9b114 vmlinux.lds.h: remove old check for GCC 4.9
-6d2ef226f2f18d530e48ead0cb5704505628b797 compiler_attributes.h: drop __has_attribute() support for gcc4
-df26327ea097eb78e7967c45df6b23010c43c28d Drop some straggling mentions of gcc-4.9 as being stale
-316346243be6df12799c0b64b788e06bad97c30b Merge branch 'gcc-min-version-5.1' (make gcc-5.1 the minimum version)
-d0ee23f9d78be5531c4b055ea424ed0b489dfe9b tools: compiler-gcc.h: Guard error attribute use with __has_attribute
-1619b69edce14c4a4665fa8ff4c587dcc77202a9 powerpc/boot: Fix build failure since GCC 4.9 removal
-6a4746ba06191e23d30230738e94334b26590a8a ipc: remove memcg accounting for sops objects in do_semtimedop()
-77e02cf57b6cff9919949defb7fd9b8ac16399a2 memblock: introduce saner 'memblock_free_ptr()' interface
-3ca706c189db861b2ca2019a0901b94050ca49d8 drm/ttm: fix type mismatch error on sparc64
-80be5998ad6339e3e804a772723390cb50b96428 tools/bootconfig: Define memblock_free_ptr() to fix build error
-
---===============4932443622480532839==--
+  - ref: refs/heads/wip-wrapped-keys
+    old: ef60a5f6f3ac8da415e3b0f3d21d9f0f581a8aac
+    new: b1fe248835fc487a9293a85ba25bcd4cc9bb1970
+    log: |
+         a3288d6612bcfb7e5b73d314b11e8e3c16a6c3c4 blk-crypto-fallback: properly prefix function and struct names
+         7eba00f131e8e714068a62c0ef1621cea80ddb15 blk-crypto-fallback: consolidate static variables
+         45c081079fca44bca4deb08358eae683be6ea29c blk-crypto: rename keyslot-manager files to blk-crypto-profile
+         20ec1038d689a1bf5befaa5b22db6a51ba191270 blk-crypto: rename blk_keyslot_manager to blk_crypto_profile
+         b3179cfcb6fd40462941b6a84d0eb1f4c2c849b6 blk-crypto: update inline encryption documentation
+         18e81dd76186a186e17a214583a5e073fb752a82 block: add hardware-wrapped key support
+         e0f033408ef41cf320177e8f1f7d19ab84d17b68 fscrypt: improve documentation for inline encryption
+         2cdc5b1d32bc8dd29d2337a1bc3c5480eb022126 fscrypt: allow 256-bit master keys with AES-256-XTS
+         b1fe248835fc487a9293a85ba25bcd4cc9bb1970 fscrypt: add support for hardware-wrapped keys
+         
