@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7248161656104746866=="
+Content-Type: multipart/mixed; boundary="===============3026353502728919499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 16 Sep 2021 15:07:50 -0000
-Message-Id: <163180487076.5469.2169836375053891831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 16 Sep 2021 15:07:57 -0000
+Message-Id: <163180487765.5566.13173942179719140170@gitolite.kernel.org>
 
---===============7248161656104746866==
+--===============3026353502728919499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: d9be4a88c3627c270bbe032b623dc43f3b764565
     new: 25766ee44ff8db4cdf8471b587dffb28b7b9d17f
     log: |
          8a8e1813ffc35111fc0b6db49968ceb0e1615ced ASoC: SOF: loader: release_firmware() on load failure to avoid batching
          25766ee44ff8db4cdf8471b587dffb28b7b9d17f ASoC: SOF: loader: Re-phrase the missing firmware error to avoid duplication
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: bde4f08cff47632f0a52e15a613365e26608d003
     new: f1291f41afa9d1901dd954c52869cd0e09c06652
     log: revlist-bde4f08cff47-f1291f41afa9.txt
 
---===============7248161656104746866==
+--===============3026353502728919499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1631804829 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1631804868-c55659a5cd698193a93073265b3c2ce27a4b6d45
+pusher C3F436CA30F5D8EB 1631804836 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1631804875-5d0495adad5cef95367bb089f07e55559c028b11
 
-d9be4a88c3627c270bbe032b623dc43f3b764565 25766ee44ff8db4cdf8471b587dffb28b7b9d17f refs/heads/for-5.15
-bde4f08cff47632f0a52e15a613365e26608d003 f1291f41afa9d1901dd954c52869cd0e09c06652 refs/heads/for-5.16
+d9be4a88c3627c270bbe032b623dc43f3b764565 25766ee44ff8db4cdf8471b587dffb28b7b9d17f refs/heads/asoc-5.15
+bde4f08cff47632f0a52e15a613365e26608d003 f1291f41afa9d1901dd954c52869cd0e09c06652 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFDXZ0ACgkQJNaLcl1U
-h9BiRgf9FkKX7TGC3kUfew0yUAFQ8/HaHsV+Cn3L7XY85DjasXmtVnjDCvakdM25
-0dfiQy5ETKy+vRlUbxWDWCqX92RRiq/6F8WPSh4I4igz8I3ts+h7fAhDDtK/G/Qp
-TR5EME01CbWODFkR3qjhakXnTLO9yWfLpwbjbNZg1OxQnEeiqP77q2aHM8tXkdTA
-Mn2hwr/2ElyiQzaxCXNAR8VOYNuBFHQA++KFRlHeulNKL2XZldJYt9+dljUhEuoK
-vrP7sx2sdE34XCVZ11XQExDjfIMjRotaJnLO3WPZSHDb/4cA6y+yp9F4sOJMXXg4
-US33hJcHJF78IQLFZinSaHPB3se0DA==
-=ecU/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFDXaQACgkQJNaLcl1U
+h9Au+wf8C7nNgXvnVHhGCxQAOzajMnJDCN+cbukRXZ8rH4IREqFDgYJ73wnbwGpU
+7vPCDg0KgxR+usw/McKM6xQCe35MPvVlL3re0EDahs1Ehe09D9jyzp8qU8FqxB8s
+77ZFMmvjSZWPCtUE7hHBQ2jBGbUFeF3hUqbdScuWRtzUXGaIcl5Rxd2DZb+aR/70
+vy15LzKCRbBv+d54KxVPBC1UhGqtTzLfOaKnd5CPg4X5xsGy2ESJvIunkf8y2P4L
+f60oP6ol5WZqKSWT3jR3J8Xl/NZl1G+DAej+kGydOBMQe4N0dVep3yLGmyLvIZT0
+fTH5wEIhZgPdW2Bnk3PVPHM+o1nl/Q==
+=pSGU
 -----END PGP SIGNATURE-----
 
---===============7248161656104746866==
+--===============3026353502728919499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ c6d1fa6c8f663bd49bfe7a20eccb0dc7e43db63a misc: cs35l41: Remove unused pdn variab
 8e0850f98df947ec96d560a262a198f37409c6bd Merge series "ASoC: SOF: Clean up the probe support" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
 f1291f41afa9d1901dd954c52869cd0e09c06652 Merge series "ASoC: cs42l42: Implement Manual Type detection as fallback" from Vitaly Rodionov <vitalyr@opensource.cirrus.com>:
 
---===============7248161656104746866==--
+--===============3026353502728919499==--
