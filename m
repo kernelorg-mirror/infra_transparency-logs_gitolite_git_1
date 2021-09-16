@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4023834875395929423=="
+Content-Type: multipart/mixed; boundary="===============7948988636329900922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 16 Sep 2021 21:29:32 -0000
-Message-Id: <163182777252.3241.2885312048464358396@gitolite.kernel.org>
+Date: Thu, 16 Sep 2021 21:29:58 -0000
+Message-Id: <163182779829.3478.2555243415342261910@gitolite.kernel.org>
 
---===============4023834875395929423==
+--===============7948988636329900922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: a3fa7a101dcff93791d1b1bdb3affcad1410c8c1
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-a3fa7a101dcf-6880fa6c5660.txt
+  - ref: refs/heads/fscrypt-pending
+    old: f44e12c250217a771cd8ed0ccfff78264554c0f7
+    new: 52978242bc81a0cd398188acbdcfab4c29881ec4
+    log: revlist-f44e12c25021-52978242bc81.txt
 
---===============4023834875395929423==
+--===============7948988636329900922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3fa7a101dcf-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-f44e12c25021-52978242bc81.txt
 
 c784e46c8445635afd81bd4089fc5e87271a8f3b auxdisplay: Add I2C gpio expander example
 53bb4a9dda0b51c161b2573641c586f7d5d7e189 firewire: net: remove unused variable 'guid'
@@ -693,5 +693,9 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
+12a87810f1d62aab324383d7971e783b726499b1 fscrypt: remove fscrypt_operations::max_namelen
+05e06e99bbab7665dfb5f91f761fde12cd154851 fscrypt: clean up comments in bio.c
+5ed102caa1c3b7eab454ddb13622288accaf8428 fscrypt: improve documentation for inline encryption
+52978242bc81a0cd398188acbdcfab4c29881ec4 fscrypt: allow 256-bit master keys with AES-256-XTS
 
---===============4023834875395929423==--
+--===============7948988636329900922==--
