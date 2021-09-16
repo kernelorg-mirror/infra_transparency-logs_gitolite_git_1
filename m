@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 16 Sep 2021 19:58:46 -0000
-Message-Id: <163182232677.8181.12181584092039263427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 16 Sep 2021 19:58:49 -0000
+Message-Id: <163182232973.8246.9736918468695905489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 040b8907ccf1c78d020aca29800036565d761d73
-    new: 3c0d2a46c0141913dc6fd126c57d0615677d946e
+  - ref: refs/heads/kunit
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: 3b29021ddd10cfb6b2565c623595bd3b02036f33
     log: |
-         3c0d2a46c0141913dc6fd126c57d0615677d946e net: 6pack: Fix tx timeout and slot time
+         2e53f56af30ef1aa899c6e1d035c51cec5e3e39f kunit: drop assumption in kunit-log-test about current suite
+         3b29021ddd10cfb6b2565c623595bd3b02036f33 kunit: tool: allow filtering test cases via glob
          
