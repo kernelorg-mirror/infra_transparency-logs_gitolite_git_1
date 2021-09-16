@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8464901947621208128=="
+Content-Type: multipart/mixed; boundary="===============7238317534448913300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 16 Sep 2021 09:24:17 -0000
-Message-Id: <163178425766.7899.2589414121561493613@gitolite.kernel.org>
+Date: Thu, 16 Sep 2021 09:25:16 -0000
+Message-Id: <163178431614.9711.18444256270759975543@gitolite.kernel.org>
 
---===============8464901947621208128==
+--===============7238317534448913300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 019a926fcae5bdab8d90d7884f73066649c2cff5
     new: 0209d878742bb367825e5b828c0a68fb2361069e
     log: revlist-019a926fcae5-0209d878742b.txt
 
---===============8464901947621208128==
+--===============7238317534448913300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ bf10b01f581231dc9d25a12dcfec272b981745dc x86/xen: Make irq_disable() noinstr
 e6eef31ff1b69ba6723bb8a3ae3885bd899ff233 Merge remote-tracking branch 'tip/objtool/core' into tip-master
 0209d878742bb367825e5b828c0a68fb2361069e Merge remote-tracking branch 'tip/x86/fpu' into tip-master
 
---===============8464901947621208128==--
+--===============7238317534448913300==--
