@@ -1,64 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3026353502728919499=="
+Content-Type: multipart/mixed; boundary="===============2266568734034538448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 16 Sep 2021 15:07:57 -0000
-Message-Id: <163180487765.5566.13173942179719140170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 16 Sep 2021 15:08:23 -0000
+Message-Id: <163180490341.5795.12988068925294905515@gitolite.kernel.org>
 
---===============3026353502728919499==
+--===============2266568734034538448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.15
-    old: d9be4a88c3627c270bbe032b623dc43f3b764565
-    new: 25766ee44ff8db4cdf8471b587dffb28b7b9d17f
+  - ref: refs/heads/for-linus
+    old: 8ba4d271dec58e2134904d935e70b905d4953a69
+    new: d270257127bef7e40e82df63160e1a9540a02d7e
     log: |
          8a8e1813ffc35111fc0b6db49968ceb0e1615ced ASoC: SOF: loader: release_firmware() on load failure to avoid batching
          25766ee44ff8db4cdf8471b587dffb28b7b9d17f ASoC: SOF: loader: Re-phrase the missing firmware error to avoid duplication
+         d270257127bef7e40e82df63160e1a9540a02d7e Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
-  - ref: refs/heads/asoc-5.16
-    old: bde4f08cff47632f0a52e15a613365e26608d003
-    new: f1291f41afa9d1901dd954c52869cd0e09c06652
-    log: revlist-bde4f08cff47-f1291f41afa9.txt
+  - ref: refs/heads/for-next
+    old: d275ba2f11f7ac1d99d6d7a35d78331756618928
+    new: 1ce9adc1984b501e53e22ad6e263b905c02def4e
+    log: revlist-d275ba2f11f7-1ce9adc1984b.txt
 
---===============3026353502728919499==
+--===============2266568734034538448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d275ba2f11f7-1ce9adc1984b.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1631804836 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1631804875-5d0495adad5cef95367bb089f07e55559c028b11
-
-d9be4a88c3627c270bbe032b623dc43f3b764565 25766ee44ff8db4cdf8471b587dffb28b7b9d17f refs/heads/asoc-5.15
-bde4f08cff47632f0a52e15a613365e26608d003 f1291f41afa9d1901dd954c52869cd0e09c06652 refs/heads/asoc-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFDXaQACgkQJNaLcl1U
-h9Au+wf8C7nNgXvnVHhGCxQAOzajMnJDCN+cbukRXZ8rH4IREqFDgYJ73wnbwGpU
-7vPCDg0KgxR+usw/McKM6xQCe35MPvVlL3re0EDahs1Ehe09D9jyzp8qU8FqxB8s
-77ZFMmvjSZWPCtUE7hHBQ2jBGbUFeF3hUqbdScuWRtzUXGaIcl5Rxd2DZb+aR/70
-vy15LzKCRbBv+d54KxVPBC1UhGqtTzLfOaKnd5CPg4X5xsGy2ESJvIunkf8y2P4L
-f60oP6ol5WZqKSWT3jR3J8Xl/NZl1G+DAej+kGydOBMQe4N0dVep3yLGmyLvIZT0
-fTH5wEIhZgPdW2Bnk3PVPHM+o1nl/Q==
-=pSGU
------END PGP SIGNATURE-----
-
---===============3026353502728919499==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bde4f08cff47-f1291f41afa9.txt
-
+8a8e1813ffc35111fc0b6db49968ceb0e1615ced ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+25766ee44ff8db4cdf8471b587dffb28b7b9d17f ASoC: SOF: loader: Re-phrase the missing firmware error to avoid duplication
 4ba344dc792fc665c6e95d08ac13ba30f908bbf7 ASoC: SOF: ipc: Add probe message logging to ipc_log_header()
 8a720724589e8d782ad3ad4e0f08977de00bea5f ASoC: SOF: pcm: Remove non existent CONFIG_SND_SOC_SOF_COMPRESS reference
 2dc51106ccc6c64b9ea68ddd9ec533f7e67e081d ASoC: SOF: compress: move and export sof_probe_compr_ops
@@ -75,5 +52,7 @@ c6d1fa6c8f663bd49bfe7a20eccb0dc7e43db63a misc: cs35l41: Remove unused pdn variab
 8461d7d83f1fe878c4cff72e322711dfcb5a53ca ASoC: au1x: Convert to modern terminology for DAI clocking
 8e0850f98df947ec96d560a262a198f37409c6bd Merge series "ASoC: SOF: Clean up the probe support" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
 f1291f41afa9d1901dd954c52869cd0e09c06652 Merge series "ASoC: cs42l42: Implement Manual Type detection as fallback" from Vitaly Rodionov <vitalyr@opensource.cirrus.com>:
+d270257127bef7e40e82df63160e1a9540a02d7e Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+1ce9adc1984b501e53e22ad6e263b905c02def4e Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
 
---===============3026353502728919499==--
+--===============2266568734034538448==--
