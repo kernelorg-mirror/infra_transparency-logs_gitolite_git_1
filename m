@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Thu, 16 Sep 2021 19:17:57 -0000
-Message-Id: <163181987741.11784.6247567822786345557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 16 Sep 2021 19:22:51 -0000
+Message-Id: <163182017108.16196.16933567990661950721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/heads/master
+    old: 3cb29435e8b0c53b5fba716b4057ecd56bcc9c03
+    new: 84c56dbda2e5f2305ab310415e24512b77e2ceb3
+    log: |
+         84c56dbda2e5f2305ab310415e24512b77e2ceb3 Thu 16 Sep 2021 07:22:12 PM UTC
+         
