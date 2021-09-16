@@ -1,53 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2694804323418827279=="
+Content-Type: multipart/mixed; boundary="===============5835369232097257553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Sep 2021 10:51:47 -0000
-Message-Id: <163178950753.18454.12658676152724379235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 16 Sep 2021 10:51:58 -0000
+Message-Id: <163178951816.18555.18140795038811014028@gitolite.kernel.org>
 
---===============2694804323418827279==
+--===============5835369232097257553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.66
-    old: 0000000000000000000000000000000000000000
-    new: 7056c496a534bce2fc45f6919f73bdf95ad2859b
+  - ref: refs/heads/linux-5.10.y
+    old: c31c2cca229aa5280d108618bb264c713840a4c2
+    new: 44a32dcb2fb5598dc8b61645852df0ea829aeace
+    log: |
+         d3c3f4e07826acf1ddcdca44057927e3a1ca3072 Revert "Bluetooth: Move shutdown callback before flushing tx and rx queue"
+         0daa75bf750c400af0a0127fae37cd959d36dee7 Revert "block: nbd: add sanity check for first_minor"
+         f49fd9882f54a5c91d211f5f37432d50f4a1bb1c Revert "posix-cpu-timers: Force next expiration recalc after itimer reset"
+         1de280adb209e5b95528b00b878e0d9e35594102 Revert "time: Handle negative seconds correctly in timespec64_to_ns()"
+         44a32dcb2fb5598dc8b61645852df0ea829aeace Linux 5.10.66
+         
 
---===============2694804323418827279==
+--===============5835369232097257553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631789506 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1631789506-3030929d5da886eb204a0daed262efe39bdf3375
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631789516 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1631789515-c525eb8c97baff5ed1fd0b8502985a0a09ba39ae
 
-0000000000000000000000000000000000000000 7056c496a534bce2fc45f6919f73bdf95ad2859b refs/tags/v5.10.66
+c31c2cca229aa5280d108618bb264c713840a4c2 44a32dcb2fb5598dc8b61645852df0ea829aeace refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFDIcIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9eIP/0GGhr5CnXAebV0y+yHV
-pdsAiPq4ImbtQSyxwvibwcSX+tqoYg1yW1SZF22Ld8eNjsENUMMgF9VmnMmIRJ8z
-GKPPEPXa52bUjDNdSzwVdzES/JrDaA1VkhonlVojp3kv0x7DFar2v+vk27BrvDK1
-4ZRwxdMHgtLKVv+KORn2GuuoVs1TzQpzPd5glrX+dxEyX7Po3YcSBvCPZQ6bHMBb
-/skKE9Fb3Y/xeiToK2W6j1Ni31rbv/e/phUPKDhotj7nIeDuB33JG1JhaQ0+e5iK
-2bAoTfJGVxH37JG95ZJrZzxw/zJ4ISRQroga7lo+2MlarueUchkmYaxx+RoPihLD
-IOjWE1OT+dVL1QOltytXdxhaoAOQ5ZVcdCZEiLwxdyDfBFPudwO9/jn3oK20p4MU
-zIGyvRns6H2kkZGaL0/8t9dhJXqhKJ9YAjsggHByoOYQ9XnDtqy05Eqo1C/PAT7/
-RVOkLKE5eiM3SAV1wzqeVKyVmmSnaeTcGCNXZYDWWCGHHZzi5c28M9suHU/KYfog
-xrHbN/GbK0lAvRQN3UgX5CaegNURR8mjcKv6NZcNv2HVYHWyGRgRZAYHeJldLfRo
-uU4ooUkTmZkpf8+Q1l19plSdKEOeczoEwP62rhadTVWVmJScG26gD4F1KAwtrtjT
-Sufz9VcHBFJtD8dL7pAsn3/v
-=+yWZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFDIcwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RyMP/Rjz9eTsrfDJE0La15ll
+OYJW7EPxErbns2q9xPOIQ5xaUBvfNmdoN4GQU4Nm4D5ue2PK5JR6BO/98ohySOKk
+3t5VK4A4S4M7/j3LZwMCV50c5oZLDvcI/Kd8pVRmbA0N++7AWzULGiUv3OToIpkT
+04IfgJ0c77idthfVrpowrvAHw+GWUbR4w7DYucalpEq4mcvH7M3Bx6T+7rV/ZjSB
+yIJRX95giDVjhpjjgArrlhf/FGfbSno/1BXVDFfS3CePjZbN3y+SON5fAyPUy2Us
+c7vSBI7rDSAWUeWZdq036bW4tG1UP1rMEpbC/F1jjBELjJsHGZrYX30f6LEtWom2
+1y8Vk89uk6MjYsa7yFNCSaqF2fxzRBgNihEOfabvRtuxgPtfN/MafkhMwvhxBdtn
+TzVrVEeiDG8wKC/crpdzcGlenyLaEh6f8m6NwlVF9/h+//Yz2wVNknpVLJ/8+N5J
+5f7YCxXb1J6s4+gQ/ReeCvY+sbPX87u8T/koa9L3LIeguxab8AerZFT/3ZfoUhTO
+609+WilOwV04NQonGSENRDE04cFp+Osl4hl+I58+UpDrdXfg4X8iyXKwIaqtXEAJ
+wpyanAstMuucnnFvHu2MKwYQdvq/QTB0at/heZqMzZl61uaQT+QTYotxdefbvKBq
+ZrtFKOeKhN4+f6HiC0dwVYk+
+=z7vw
 -----END PGP SIGNATURE-----
 
---===============2694804323418827279==--
+--===============5835369232097257553==--
