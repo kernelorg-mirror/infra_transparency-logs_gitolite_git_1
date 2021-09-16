@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1988144909308030595=="
+Content-Type: multipart/mixed; boundary="===============6663929471922863282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 16 Sep 2021 02:57:21 -0000
-Message-Id: <163176104179.27869.2106547111034475234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Thu, 16 Sep 2021 04:52:23 -0000
+Message-Id: <163176794380.7130.9304923646371221453@gitolite.kernel.org>
 
---===============1988144909308030595==
+--===============6663929471922863282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/stable-5.15
-    old: 893c47d1964f5c9b00c5468f2cd1a1e9351fbb6a
-    new: c491f0a471580712a4254adece400c3ebb3d8e44
-    log: revlist-893c47d1964f-c491f0a47158.txt
+  - ref: refs/heads/exynos-drm-fixes
+    old: d186f9c28008810d8f984d6bdd1c07757048ed63
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-d186f9c28008-6880fa6c5660.txt
 
---===============1988144909308030595==
+--===============6663929471922863282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-893c47d1964f-c491f0a47158.txt
+Content-Disposition: attachment; filename=revlist-d186f9c28008-6880fa6c5660.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1049,6 +1050,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-c491f0a471580712a4254adece400c3ebb3d8e44 lockdown,selinux: fix wrong subject in some SELinux lockdown checks
 
---===============1988144909308030595==--
+--===============6663929471922863282==--
