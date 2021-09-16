@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 16 Sep 2021 18:29:45 -0000
-Message-Id: <163181698501.12412.5210513364393589145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 16 Sep 2021 18:31:29 -0000
+Message-Id: <163181708928.14428.2502090016771209531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/hack/m1-pcie-v3
-    old: 0389358efbefd48615bb469f26658abebc911736
-    new: d038f751833106f85a1e0c2cdf029df4a3f71eba
+  - ref: refs/heads/master
+    old: db71f8fb44956714249a526647c143bac5bb96a1
+    new: b60cee5bae733f49ba33840804c159a8e474cfda
     log: |
-         d038f751833106f85a1e0c2cdf029df4a3f71eba fixup! iommu/dart: Exclude MSI doorbell from PCIe device IOVA range
+         35a3f4ef0ab543daa1725b0c963eb8c05e3376f8 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
+         b60cee5bae733f49ba33840804c159a8e474cfda cpufreq: vexpress: Drop unused variable
          
