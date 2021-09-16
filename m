@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6659016822455279550=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Sep 2021 10:33:18 -0000
-Message-Id: <163178839896.13641.17223513962849940818@gitolite.kernel.org>
-
---===============6659016822455279550==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Thu, 16 Sep 2021 10:33:28 -0000
+Message-Id: <163178840877.13730.7346250771911456256@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/master
-    old: 430ad979fa7d2738ff4d7745fb4a02d63c3e8228
-    new: e7b3c70b38a7af702d9c088ef339bd109fbaf12c
+  - ref: refs/heads/misc-next
+    old: 893dad4768973411df7867e4436fe728d989fe1a
+    new: 594ddba9ad74f43b02f2a58d37b3aac50a6b52b1
     log: |
-         e7b3c70b38a7af702d9c088ef339bd109fbaf12c move 5.13 queue back
+         03c99e78af748d21af7ff0bb6e915230cf0e3310 btrfs: remove root argument from btrfs_log_inode() and its callees
+         bdd87df835200aa080d7567c7780d65de8fd0392 btrfs: remove redundant log root assignment from log_dir_items()
+         5e030e2b8815dae4a0dcacce187e26d5082dd433 btrfs: factor out the copying loop of dir items from log_dir_items()
+         c4d44a55990536486d74d7f71acf43e8fa649328 btrfs: insert items in batches when logging a directory when possible
+         594ddba9ad74f43b02f2a58d37b3aac50a6b52b1 btrfs: keep track of the last logged keys when logging a directory
          
-
---===============6659016822455279550==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631788396 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1631788395-2cc57d0ffe16ad629bd86c07438322fc1e351885
-
-430ad979fa7d2738ff4d7745fb4a02d63c3e8228 e7b3c70b38a7af702d9c088ef339bd109fbaf12c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFDHWwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6AP/R3YkljCKwrBIpqNcISJ
-KHwHatC9S69cb9HJEZQO7GOByzWAx2iXNN44M8MaU4Q9HWv0ySe4hhhd4n29D2Tw
-KIvgf1GDvHDOiNan9NAq0IDaythh6bTVbJBMMDgbYcw3KEKa1MUQ5uE/p7vtAqfM
-+Cr5+mUrTzqpfuoNTchtsX94LIIJbpzzTmJPHfPC/npbm+DdH6/Hr74Zv9H9xbp6
-I/WbHuJZ5FOE/XRi6BZ3auDkbxbfHzZqnq0SEDhv9B92BAmXOaWX3AeTyqKUTETn
-wpu8b3eN2lIoxsiFGKsBo5HU0RJdIK07ux3w47xnssjWBUOe5s+L/a9qzd4kVdgL
-ReyO1EG3a0agmwwEjANoKjksU3jU1XAQPsQMp6pbxqyt13HO78PHvIuN+Ko+bVl9
-yYFKRaXD6zuv/SMg7vG2/Deal0PB2m75zwNFCgQHymH2fXcOtrYWCrc8yr4BftWT
-MoCBPp0Cimlnp73/dedlyWJ6VlCwb8QOxVYyrPH+sp2k/+qqLS4AwXylhaELDgAV
-sdxHSkkfZupioh4vybKbMXJOqU5SpWsoyrfyKncs7eb2BLyYGh4v8rXWmaDpmD8n
-/p3cMD//QAAisEEVsKnEnWkDJrfzQLDhp+CJr5OpF21tEol1/fkxbVQCwwqO97RE
-c04viIsacDNuj4LljGKSk9xm
-=bcUf
------END PGP SIGNATURE-----
-
---===============6659016822455279550==--
