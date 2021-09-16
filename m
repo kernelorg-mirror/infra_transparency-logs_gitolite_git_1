@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 16 Sep 2021 09:01:11 -0000
-Message-Id: <163178287161.9807.13638302283385030427@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3620003641185374677=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Sep 2021 09:06:14 -0000
+Message-Id: <163178317489.28153.3923611272449934275@gitolite.kernel.org>
+
+--===============3620003641185374677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linux-next
-    old: b1d6695c249edd7484c9dfee1184a73bbdd87b31
-    new: 79343256142010f9c899a2f75ac01eff9c173d5c
+  - ref: refs/heads/master
+    old: 503f18ef41ed028676be9beda9e0cf8989427102
+    new: 77c76853af3eb9b18b93ca5603840d5d42dbd7c3
     log: |
-         b43446b4f5ffb70cd7459728ec805a9d3438b8e2 arm64: dts: arm: align watchdog and mmc node names with dtschema
-         5f741ef384d3cfb9967029d335a3f7c45f4ffc55 ARM: dts: arm: align watchdog and mmc node names with dtschema
-         217cb530a30a157153878c89cfee0764a66378ec arm64: dts: arm: drop unused interrupt-names in MHU
-         55c71dc69ecb328e6212ac5154099c4230d0b83f arm: dts: vexpress: Drop unused properties from motherboard node
-         2e9edc07df2ec6f835222151fa4e536e9e54856a arm: dts: vexpress-v2p-ca9: Fix the SMB unit-address
-         bb3adfb3bd70d6ca1425e153f9d45589432d31b4 arm: dts: vexpress: Fix addressing issues with 'motherboard-bus' nodes
-         849dca7fbdcc589764dde874b3c2d6c99ea277c4 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-         79343256142010f9c899a2f75ac01eff9c173d5c Merge branch 'for-next/juno' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         77c76853af3eb9b18b93ca5603840d5d42dbd7c3 5.4-stable patches
          
+
+--===============3620003641185374677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631783173 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1631783171-304af30f9ca2c971a464536476e7d39967d0c3fc
+
+503f18ef41ed028676be9beda9e0cf8989427102 77c76853af3eb9b18b93ca5603840d5d42dbd7c3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFDCQUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wkAQANLq3INcDX7ebHYlQr+r
+K4BlBJ3F9E893io0xpZSaQdcSm2/UNquyMC5X4Qb0UL/gQXpmdJ/cJYhqdSChVJD
+DWcbC5PBL0hQSYXTsn/28IDDT7qGyo5sk7yldbDCyMMSJdSHTWM/ULpa/X79QK1l
+rl/o2NRAhRgqNnFB4rTzWrAOz8tyqRq0MQcy60k6jQAs+8TlSgqH0VXCj6ifVDke
+6o9zqnoOCbNN2cTY0TmnVZeRjeLAGMCJK5L5IzHppYp93ggkAni0THhQ/ufVdqcm
+7Uat3utjt9RQV6Q3nx5F7bVabhwjUuv7wqZduoULPwl3HzJnZFEXk25EGRt7GSPr
+byHaHHbX0H9UDrTbq0Z/Q+64dvZM8c5ThCtD9fyqNGIDwszWesaB6H0ot93oRqeG
+ITc8ZfVCSxC4r1pOQi14p3t5dh4HM+C5N4ntPrirBJPAZWq3BSGznLByxq8+wJe9
+BI0sv29SEaZSgBNQYhaG1Rc409PpTbdXt3VmQal+pFBYk3zofGZMimSRxVI5aPQu
+OVYzneikuXVdR4ke4lGn3/ZQ5MpHi3nnFxKvqyGDNnH79YWgFErpRPFnVqatcCTE
+UNPPhl6pY2jexdF5H9u4+Wz9azeZR6ofTzrIyr4Z5MtaniIwRUfzjWAk3prxa3ib
+uKfGiZHcrfhnCFKkB7fQaEMd
+=Q4Zv
+-----END PGP SIGNATURE-----
+
+--===============3620003641185374677==--
