@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 16 Sep 2021 20:02:47 -0000
-Message-Id: <163182256783.11118.8820661237786656758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 16 Sep 2021 20:05:21 -0000
+Message-Id: <163182272160.13405.7249255769990446683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/net-5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8263bd09b9e69eedf9d6d4f230e84a7acb373272
+  - ref: refs/heads/master
+    old: 84c56dbda2e5f2305ab310415e24512b77e2ceb3
+    new: b3446569d0195e9a45b6a2ac24f26caabcd0d93b
+    log: |
+         b3446569d0195e9a45b6a2ac24f26caabcd0d93b Thu 16 Sep 2021 08:04:43 PM UTC
+         
