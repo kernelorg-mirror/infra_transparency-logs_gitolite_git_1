@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6469064609332950157=="
+Content-Type: multipart/mixed; boundary="===============2428491737428897854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 16 Sep 2021 15:34:49 -0000
-Message-Id: <163180648949.23523.16235020436007349155@gitolite.kernel.org>
+Date: Thu, 16 Sep 2021 15:35:06 -0000
+Message-Id: <163180650657.25054.9809952520012729862@gitolite.kernel.org>
 
---===============6469064609332950157==
+--===============2428491737428897854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 1dbe7e386f505bdae30f7436c41769149c7dcf32
-    new: ff1ffd71d5f0612cf194f5705c671d6b64bf5f91
-    log: revlist-1dbe7e386f50-ff1ffd71d5f0.txt
-  - ref: refs/tags/v5.14
-    old: 0000000000000000000000000000000000000000
-    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
-  - ref: refs/tags/v5.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53371b959e5823998cd617e74b585e7d328f5840
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+    new: 0d275de58042ca0bc6f9f69f6da0d964b11b2cd2
+    log: revlist-1dbe7e386f50-0d275de58042.txt
 
---===============6469064609332950157==
+--===============2428491737428897854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dbe7e386f50-ff1ffd71d5f0.txt
+Content-Disposition: attachment; filename=revlist-1dbe7e386f50-0d275de58042.txt
 
-9653f2da7522c5e762e2edd2beb53170669d0a2b KVM: x86/mmu: Drop 'shared' param from tdp_mmu_link_page()
-7a4bca85b23f7a573da61f161dfbf8b00e9e2955 KVM: SVM: split svm_handle_invalid_exit
-61e5f69ef08379cdc74e8f15d3770976ed48480a KVM: x86: implement KVM_GUESTDBG_BLOCKIRQ
 85cc207b8e07df8ee05ee83115c9086aef20a1f5 KVM: selftests: test KVM_GUESTDBG_BLOCKIRQ
 ec607a564f70519b340f7eb4cfc0f4a6b55285ac KVM: x86: clamp host mapping level to max_level in kvm_mmu_max_mapping_level
 746700d21fd52399c97aeb7791584bbf5426983c KVM: x86: Allow CPU to force vendor-specific TDP level
@@ -1074,5 +1047,8 @@ fc7c028dcdbfe981bca75d2a7b95f363eb691ef3 sparc: avoid stringop-overread errors
 b7213ffa0e585feb1aee3e7173e965e66ee0abaa qnx4: avoid stringop-overread errors
 453fa43cdb8e0f4231ab84755fd2fc562823541b Merge tag 'rtc-5.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 ff1ffd71d5f0612cf194f5705c671d6b64bf5f91 Merge tag 'hyperv-fixes-signed-20210915' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+803d186b213b648aa35ca1d99f2b44beecb0f398 f2fs: should use GFP_NOFS for directory inodes
+fcc256b0a4e027c6a63ddad7bb47a901dc3fe000 f2fs: quota: fix potential deadlock
+0d275de58042ca0bc6f9f69f6da0d964b11b2cd2 f2fs: avoid attaching SB_ACTIVE flag during mount
 
---===============6469064609332950157==--
+--===============2428491737428897854==--
