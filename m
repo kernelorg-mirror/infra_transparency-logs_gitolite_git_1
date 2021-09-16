@@ -1,40 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 16 Sep 2021 11:15:45 -0000
-Message-Id: <163179094555.15943.13393703131890040894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 16 Sep 2021 11:17:47 -0000
+Message-Id: <163179106790.16651.999419087187553885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 9808623e1bba7d929b50865d7e2d7042cd4e5e7b
-    new: 668a3514b8a3dccf147a042777d1e569badca8fa
+  - ref: refs/heads/for-next
+    old: bf38db50e9eb37b7552062ff174eaa286f76aba3
+    new: 2721363c0d64d7a98541711ae96b079520518904
     log: |
-         892a012699fc0b91a2ed6309078936191447f480 ACPI: resources: Add DMI-based legacy IRQ override quirk
-         5aeb05b27f81269a2bf2e15eab9fc0f9a400d3a8 software node: balance refcount for managed software nodes
-         755793be08684af07acb35e002aefa8d09c74d3f Merge branches 'pm-sleep' and 'acpi-resources' into linux-next
-         668a3514b8a3dccf147a042777d1e569badca8fa Merge branch 'devprop' into bleeding-edge
+         30d63db9e4b62653b04cfbc2478453f6101a18bf Merge branch 'next/dt64' into for-next
+         efb636dd5047c22b607d6931655cc7e4898638e4 Merge branch 'next/soc' into for-next
+         2721363c0d64d7a98541711ae96b079520518904 Merge branch 'next/drivers' into for-next
          
-  - ref: refs/heads/linux-next
-    old: 7f2d17677d02a80230c9ef4b9b7dc986aa4c2914
-    new: 755793be08684af07acb35e002aefa8d09c74d3f
-    log: |
-         bfcc1e67ff1e4aa8bfe2ca57f99390fc284c799d PM: sleep: Do not assume that "mem" is always present
-         5416da01ff6e7275f9a4cfd7ff99e6b12b8dc2a8 PM: hibernate: Remove blk_status_to_errno in hib_wait_io
-         892a012699fc0b91a2ed6309078936191447f480 ACPI: resources: Add DMI-based legacy IRQ override quirk
-         755793be08684af07acb35e002aefa8d09c74d3f Merge branches 'pm-sleep' and 'acpi-resources' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 7f2d17677d02a80230c9ef4b9b7dc986aa4c2914
-    new: 755793be08684af07acb35e002aefa8d09c74d3f
-    log: |
-         bfcc1e67ff1e4aa8bfe2ca57f99390fc284c799d PM: sleep: Do not assume that "mem" is always present
-         5416da01ff6e7275f9a4cfd7ff99e6b12b8dc2a8 PM: hibernate: Remove blk_status_to_errno in hib_wait_io
-         892a012699fc0b91a2ed6309078936191447f480 ACPI: resources: Add DMI-based legacy IRQ override quirk
-         755793be08684af07acb35e002aefa8d09c74d3f Merge branches 'pm-sleep' and 'acpi-resources' into linux-next
-         
+  - ref: refs/heads/next/dt
+    old: fb9b199e562d66af90f61d70eb737fa5e4deac2c
+    new: 06cf9e0b1aae8ff4f4cee39126a415b2b173b986
