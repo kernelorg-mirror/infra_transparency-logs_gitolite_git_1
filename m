@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2428491737428897854=="
+Content-Type: multipart/mixed; boundary="===============0476290138681582346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 16 Sep 2021 15:35:06 -0000
-Message-Id: <163180650657.25054.9809952520012729862@gitolite.kernel.org>
+Date: Thu, 16 Sep 2021 15:35:26 -0000
+Message-Id: <163180652675.25233.17749254830827225842@gitolite.kernel.org>
 
---===============2428491737428897854==
+--===============0476290138681582346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 1dbe7e386f505bdae30f7436c41769149c7dcf32
-    new: 0d275de58042ca0bc6f9f69f6da0d964b11b2cd2
-    log: revlist-1dbe7e386f50-0d275de58042.txt
+  - ref: refs/heads/dev-test
+    old: 507b37693690c4d316964ee41486fab9a19a9b46
+    new: 4cd4f4720d590b5e77144aaa2824d924d16b1ed2
+    log: revlist-507b37693690-4cd4f4720d59.txt
 
---===============2428491737428897854==
+--===============0476290138681582346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dbe7e386f50-0d275de58042.txt
+Content-Disposition: attachment; filename=revlist-507b37693690-4cd4f4720d59.txt
 
-85cc207b8e07df8ee05ee83115c9086aef20a1f5 KVM: selftests: test KVM_GUESTDBG_BLOCKIRQ
 ec607a564f70519b340f7eb4cfc0f4a6b55285ac KVM: x86: clamp host mapping level to max_level in kvm_mmu_max_mapping_level
 746700d21fd52399c97aeb7791584bbf5426983c KVM: x86: Allow CPU to force vendor-specific TDP level
 cb0f722aff6e9ba970a9fee9263c7821bbe811de KVM: x86/mmu: Support shadowing NPT when 5-level paging is enabled in host
@@ -1050,5 +1049,6 @@ ff1ffd71d5f0612cf194f5705c671d6b64bf5f91 Merge tag 'hyperv-fixes-signed-20210915
 803d186b213b648aa35ca1d99f2b44beecb0f398 f2fs: should use GFP_NOFS for directory inodes
 fcc256b0a4e027c6a63ddad7bb47a901dc3fe000 f2fs: quota: fix potential deadlock
 0d275de58042ca0bc6f9f69f6da0d964b11b2cd2 f2fs: avoid attaching SB_ACTIVE flag during mount
+4cd4f4720d590b5e77144aaa2824d924d16b1ed2 f2fs: multidevice: support direct IO
 
---===============2428491737428897854==--
+--===============0476290138681582346==--
