@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 16 Sep 2021 01:09:55 -0000
-Message-Id: <163175459510.19395.465176499574313599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Sep 2021 01:17:19 -0000
+Message-Id: <163175503952.24988.8584798549776929187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 61fc9a63fc7fffda6608a81e90ede29c14f99dff
-    new: b969b68bc2a083fc4713cd443c62f5c35938727b
+    old: cbd9af4cbee6731d4b5f34f3866249cd28d992ce
+    new: e149629b6b900869f19531c81dfdf78f30f0dc5f
     log: |
-         b969b68bc2a083fc4713cd443c62f5c35938727b Thu 16 Sep 2021 01:09:20 AM UTC
+         dcf8e52304c1b57a8b1c15d907d9621f583abe01 Fixes for 5.10
+         e149629b6b900869f19531c81dfdf78f30f0dc5f Fixes for 5.4
          
