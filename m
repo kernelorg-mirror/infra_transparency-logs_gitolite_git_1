@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3396172986689428047=="
+Content-Type: multipart/mixed; boundary="===============0472234786208299911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Sep 2021 10:21:22 -0000
-Message-Id: <163178768262.15137.9879772135820328512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 16 Sep 2021 10:21:29 -0000
+Message-Id: <163178768992.15260.521256847360721955@gitolite.kernel.org>
 
---===============3396172986689428047==
+--===============0472234786208299911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.14.5
-    old: 0000000000000000000000000000000000000000
-    new: a7e330549d38b00883b8cea5069905070b6343db
+  - ref: refs/heads/linux-5.14.y
+    old: d6f7bb5bb29096b2935c55deeb545616dab74406
+    new: d92805b6228532148fe7e597b615fdae199e9de7
+    log: |
+         6bac75c9019bef9b259f184e59726ad825fd9a3c Revert "posix-cpu-timers: Force next expiration recalc after itimer reset"
+         4ff654aba77c54100726bd67112cb7f0d09a2f1b Revert "time: Handle negative seconds correctly in timespec64_to_ns()"
+         d92805b6228532148fe7e597b615fdae199e9de7 Linux 5.14.5
+         
 
---===============3396172986689428047==
+--===============0472234786208299911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631787681 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1631787681-765f8ce39e33526abe7d668b4cb99295d0869be9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631787688 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1631787687-378c828fb601b9adf75b5625ecf3990cc501476b
 
-0000000000000000000000000000000000000000 a7e330549d38b00883b8cea5069905070b6343db refs/tags/v5.14.5
+d6f7bb5bb29096b2935c55deeb545616dab74406 d92805b6228532148fe7e597b615fdae199e9de7 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFDGqEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k4EP/0ZG6sASXoevJV0KUM0R
-v87o1N56wYEGp7Ra9Dm0bUi1foztieTnrfyPa8uygbNyYMe4O4dviNMGaSV4ehfj
-nRY2c+OGkec3ZAXl3823sQmD9AiTpa+h9i8Kd5UgGoFvjsRliS72sy70qFaTOumd
-0mPVh+QPumvVe0uEtcHmtnM/j4hNW2T1UuBzCYRtBoB05Rt4cUSXplVJIyNTMpkE
-RBYySL+VC5unDUnkbAHDKHHg8Mz+y7D+iUN06Vgn1ZsoR9Gyxrmrp5PbVAhNIFn3
-K3tv+DKot/nxyWQJmOzS1gXtVwtseZVj27Cb1Q5cFqkYBxecILvVH+L2cXICkEzk
-wbvIRm2egom1fMn1+q2FrxbvfTh4gC0VxjjPTKLRIJ+aZOYw5PTckkKcp/+tb2aj
-vNpTV+VbutVBpStwknKHOIexKo+vVGUU43NmHmTqNs3osQg+yrduy/GKC0LKJ5uo
-4NxmueBLv25MsgmO1cjJ+3mNKI02yk50xtAteYJ1NAzgDZBmXsA/szQlWNh6M6yj
-mPFoL1/R69VmGrZ7XFT9suRTex4s8mzy34JZBttLqT+tIB1LezM3IS0BfyJvVi26
-m+g1+bdU/PQsdRFXUwjTRKbDO71EGULx9Wy88CRkeY4hDIXtaucMP7weniEfPZxk
-O+h9nsNl0foObJz4+kKdeRpI
-=d3TQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFDGqgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EPYQAMjCuLwGcA8Jvp3SAKEx
+AD0jUjTQMpuPbz2fZZZdlg/wlDSj8vuAA6fhBXB4UTcQEqxI//JZ9gPPPu0xp2/R
+xgWm0ET83z7VZ6fq0sKf1jsdblDo1Yll9XP9Q9Twsf+9eRTH7oHchj5pQrS1yfNj
+znGaDb55PhIlfkeMl2y1JPzhvEtQZqBzmNqMx7sRRJMAb+BAADw5uHyxaQMixpqH
+zm3S8mD67Gbv5kUWyqJiAkS8FxHsF3mD3ZVrX5Q4Fu3Ip26Hyh7mgVzYQv/CuFdY
+iDfUskRE9O+Kx5KFb6qW8nOBJ+4D1Bi1jxQiNu037g5xWc9CREoB631cJG6ZiLJF
+Wx7299qfr+bJNhI67VMJ/Zp3tg8LzHfxQiBJn9Ry8jH1AV6nBUQ+NakQxnG13qHL
+W6M41mFS9z5M4BaddEMdjCHNlTUeLdHWhsm5PpqnfaM5Ndldwy1XZG+6DjvteY2I
+M+UyBGe8adYcRsJ9lNcQ8pSVre6B0Av46/zq6QWg7KEL4YXC/4fa5Atllx7kiXZ2
++Ov/M+0ZyjbgD3U6piX6VZllaNBUBfEms/HcITsI2cmEItUFW0nmn7Cn4XE+1zIq
+C6KbAapS7nuJUfwwkwrkCJYjXLONIumFg4F7d8kdqcccmIWkrH0CDUrYbi6t7f1V
+ZMbDGdtzjdFaR6fz3EkmeHBG
+=tc1R
 -----END PGP SIGNATURE-----
 
---===============3396172986689428047==--
+--===============0472234786208299911==--
