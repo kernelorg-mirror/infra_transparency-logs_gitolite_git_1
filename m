@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 16 Sep 2021 13:58:41 -0000
-Message-Id: <163180072151.28997.1580672752506972451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 16 Sep 2021 13:58:47 -0000
+Message-Id: <163180072782.29119.8814052854212988666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/parisc-5.15-4
+  - ref: refs/heads/locking/futex
     old: 0000000000000000000000000000000000000000
-    new: 90cc7bed1ed19f869ae7221a6b41887fe762a6a3
+    new: 6c42a1bcffeb7f3478faeda0d1188a9a0713bc0b
