@@ -1,30 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3468036326279654883=="
+Content-Type: multipart/mixed; boundary="===============4445330758043850005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Fri, 17 Sep 2021 14:54:39 -0000
-Message-Id: <163189047914.26713.2643258224790210945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 17 Sep 2021 15:01:16 -0000
+Message-Id: <163189087695.31977.9984141029146297055@gitolite.kernel.org>
 
---===============3468036326279654883==
+--===============4445330758043850005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/mapcount_deshare
-    old: 13bf026f75642b5c42a35a09702a8b0014e4b153
-    new: 6e8ababf5c4bdc19a1efaf25122c27152058663d
-    log: revlist-13bf026f7564-6e8ababf5c4b.txt
+  - ref: refs/heads/fscache-iter-3
+    old: ae753cf3639743fb4c3d6e04a40b8f7ff7208ec4
+    new: 9c017f178bab3c356108c2e8bf4db974604fa493
+    log: |
+         04fb07e395fc317a8c07760cfbb609d6d1fb7bd3 fscache: Generalise the ->begin_read_operation method
+         317beaacd4cb25ba44dd56b475c8e20e190a785e fscache: Implement a fallback I/O interface to replace the old API
+         44f4abe1e8ee1541f0b77ad932682c075296a027 nfs: Move to using the alternate fallback fscache I/O API
+         d140fb0566a74effa72c0de18ffd946c67b3e567 9p: (untested) Convert to using the netfs helper lib to do reads and caching
+         a9653d45c70acbbf0c29cb3f3700898906524715 cifs: (untested) Move to using the alternate fallback fscache I/O API
+         12f5aa0fa93a69ae1c6d4bebd3d50d7ec5dee1b3 fscache: Remove the old I/O API
+         c1c67b28cef3d47441308112352544095466d48e fscache: Remove stats that are no longer used
+         9c017f178bab3c356108c2e8bf4db974604fa493 fscache: Update the documentation to reflect I/O API changes
+         
+  - ref: refs/remotes/linus/master
+    old: ff1ffd71d5f0612cf194f5705c671d6b64bf5f91
+    new: bdb575f872175ed0ecf2638369da1cb7a6e86a14
+    log: revlist-ff1ffd71d5f0-bdb575f87217.txt
 
---===============3468036326279654883==
+--===============4445330758043850005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13bf026f7564-6e8ababf5c4b.txt
+Content-Disposition: attachment; filename=revlist-ff1ffd71d5f0-bdb575f87217.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 3a029e1f3d6e2ee809e85abecce619a48016bd4b selftests/bpf: Fix build of task_pt_regs test for arm64
@@ -157,30 +170,5 @@ da4ce47e146ace5af54198230aa3ed9431f0bbd4 Merge branch 'etnaviv/fixes' of https:/
 109f7ea9aedce437b4b7737ab60bfea65d9dbdd3 Merge tag 'amd-drm-fixes-5.15-2021-09-16' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 fc0c0548c1a2e676d3a928aaed70f2d4d254e395 Merge tag 'net-5.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 bdb575f872175ed0ecf2638369da1cb7a6e86a14 Merge tag 'drm-fixes-2021-09-17' of git://anongit.freedesktop.org/drm/drm
-cb8a533dcec1b0c724414729b73b5c16cdf01285 extraversion
-af801dbc4323c27623d7322654a253e4fd4955db mm: thp: make the THP mapcount atomic with a seqlock
-188d51f60815437d4317c90e966a772765e82d11 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-6c0e87c1f39797bfa8291680aa23978e2cf8170d mm: thp: introduce page_trans_huge_anon_shared
-9a7fabfa324e4f9131d13147bfea85ae17cd1b33 mm: thp: introduce page_mapcount_seq irqsafe version
-76e652b0e53cbdb82c00ca582afcd753eda6e1cd mm: thp: introduce irqsafe methods to check if anonymous pages are shared
-ba01c4b103105b173c8e7399518262d70feeeb0e mm: gup: COR: copy-on-read fault
-ae4fb8ef422ab97c6d4ef944864c2ac2de79f282 mm: gup: gup_must_unshare()
-e1e2468174a6814e46c5c9e7d24c13842e9fe3bd mm: gup: FOLL_UNSHARE
-93aa649b12b7808aa0297d00a8c39f4bba99691f mm: gup: FOLL_UNSHARE: optimize mmu notifier
-64d0fabcf0369f94df676127d2602951ba86b847 mm: COW: skip the page lock in the COW copy path
-284a037339e0270f567b9478c5955e6624fff77c mm: thp: replace the page lock with the seqlock for the THP mapcount
-47715113bf0503e4d110931eb8f278c444521040 mm: COW: restore full accuracy in page reuse
-aecad78e7e2416006c1fac1eac4fdb2a64f9ddf3 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-81643dbbf99dddb481d17962a6775c4feb4bc96e mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-413447ad32dc647acd8c91cb074e3483728ec5cc mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-9c25fbe67932478e080e6ce048f931b6e5ebc6f8 mm: gup: document FOLL_MM_SYNC
-0b2120bf2ae60f3f4ec0121bdd7610663c9007d7 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-245de340f3cb5e422900145878b27357d9c0bdf9 mm: cacheline alignment for page_table_lock and mmap_lock
-252af81a90297f281ff1ad6d3c4d3504e03e2d4a mm: thp: page_trans_huge_mapcount_lock: optimize the migrate path
-d4c98d7bebaffb2056643ba7cf62d12432468d42 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
-3ba656ef76ba9c7959709d9c4c23163ad01e9bae mm: thp: optimize total_mapcount() with head_compound_mapcount
-ec867bdea98d606455dad7c664623cfe9e41853f mm: thp: cleanup and optimize compound_nr
-58fad1106df6ddb20088f5366fd03c9a531929fb mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-6e8ababf5c4bdc19a1efaf25122c27152058663d mm: gup: FOLL_UNSHARE and COR fault
 
---===============3468036326279654883==--
+--===============4445330758043850005==--
