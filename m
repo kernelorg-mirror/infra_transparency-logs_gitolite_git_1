@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5907329281518055892=="
+Content-Type: multipart/mixed; boundary="===============3145522448693059967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 17 Sep 2021 20:09:30 -0000
-Message-Id: <163190937025.6665.4353532459507900651@gitolite.kernel.org>
+Date: Fri, 17 Sep 2021 20:09:38 -0000
+Message-Id: <163190937803.6770.13611012194719611774@gitolite.kernel.org>
 
---===============5907329281518055892==
+--===============3145522448693059967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: ca21a3e5edfd47c90141724557f9d6f5000e46f3
     new: af54faab84f754ebd42ecdda871f8d71940ae40b
     log: revlist-ca21a3e5edfd-af54faab84f7.txt
 
---===============5907329281518055892==
+--===============3145522448693059967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b20b54fb00a8c7cfc91ead288a8048cf343d9e7c net: stmmac: dwmac-visconti: Make use o
 f68d08c437f98ee19a14142b9de2d7afe2032d5c net: phy: bcm7xxx: Add EPHY entry for 72165
 af54faab84f754ebd42ecdda871f8d71940ae40b Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============5907329281518055892==--
+--===============3145522448693059967==--
