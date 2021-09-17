@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6893745142919148058=="
+Content-Type: multipart/mixed; boundary="===============3290624957459924196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 17 Sep 2021 07:47:36 -0000
-Message-Id: <163186485600.14945.10708993383468737121@gitolite.kernel.org>
+Date: Fri, 17 Sep 2021 07:48:19 -0000
+Message-Id: <163186489971.15430.8164686583716135801@gitolite.kernel.org>
 
---===============6893745142919148058==
+--===============3290624957459924196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: d041b89cd7d44bc8d96b41939b4302cc1a38da53
     new: 1f4b035e603bb73c30bbbd81d9bca528924d41e9
     log: revlist-d041b89cd7d4-1f4b035e603b.txt
 
---===============6893745142919148058==
+--===============3290624957459924196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ b8ff363ff66c95a8ed245a642f81749bd29771ad clk: imx: disable i.mx7ulp composite cl
 7cce9c8cef7deed724eafbb1cc50036fc11d695f clk: imx: Add the pcc reset controller support on imx8ulp
 1f4b035e603bb73c30bbbd81d9bca528924d41e9 clk: imx: Fix the build break when clk-imx8ulp build as module
 
---===============6893745142919148058==--
+--===============3290624957459924196==--
