@@ -1,43 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1286408870881663341=="
+Content-Type: multipart/mixed; boundary="===============8367016880294567950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Fri, 17 Sep 2021 08:25:12 -0000
-Message-Id: <163186711280.8846.4962059237428703117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 17 Sep 2021 08:54:41 -0000
+Message-Id: <163186888194.26845.1052338640743042045@gitolite.kernel.org>
 
---===============1286408870881663341==
+--===============8367016880294567950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 2e21bb06d7af316c6bc6fe7794b0c7a7aca31d84
-    new: 843e55e0c614349013028617e906ab55284e8510
-    log: revlist-2e21bb06d7af-843e55e0c614.txt
+  - ref: refs/heads/arm64/kcsan
+    old: ec40fc5c71ffba3c3e674002f1514293f617033d
+    new: 4fe9d6c2ef85257d80291086e4514eaaebd3504e
+    log: revlist-ec40fc5c71ff-4fe9d6c2ef85.txt
 
---===============1286408870881663341==
+--===============8367016880294567950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e21bb06d7af-843e55e0c614.txt
+Content-Disposition: attachment; filename=revlist-ec40fc5c71ff-4fe9d6c2ef85.txt
 
-c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
-d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
-48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
-7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
-866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
-8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
 47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
 32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1049,6 +1037,18 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-843e55e0c614349013028617e906ab55284e8510 xhci: guard accesses to ep_state in xhci_endpoint_reset()
+f697ffbbb57370d1558feb79dd53e62a4bcfa38d thread_info: add helpers to snapshot thread flags
+32dbeae0577612e0abc23b4f758a7c76a0f614a6 entry: snapshot thread flags
+798bd4e345192be50e4a5188a89180d89fc699b5 sched: snapshot thread flags
+b0eac28f0f8511649a96d4ff2accac624a77cee3 alpha: snapshot thread flags
+68dec211df102e6d17233bd40740d7c54994c9b1 arm: snapshot thread flags
+182bbf220ffcf4b8dea285f73e8b7de176265a4e arm64: snapshot thread flags
+cfb2b1893ceae290a9efedffec47853c47f3581d microblaze: snapshot thread flags
+72addf82c5e401d4b9bb634a750dfdb32f3733da openrisc: snapshot thread flags
+09f80a2ed2a21caf99f316b05176a1f22764c928 powerpc: snapshot thread flags
+1cd64a375773e0551f6c5a584a73853fabd0f7bc x86: snapshot thread flags
+f5bc7f69b328f00a6accd9a11f5981d2d0c11cb5 kcsan: remove atomic builtin support
+2d67c39ae4f619ca94d9790e09186e77922fa826 arm64: enable KCSAN support
+4fe9d6c2ef85257d80291086e4514eaaebd3504e HACK: use READ_ONCE() for task_struct::on_cpu
 
---===============1286408870881663341==--
+--===============8367016880294567950==--
