@@ -1,52 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3665275248869372542=="
+Content-Type: multipart/mixed; boundary="===============9201308827825001708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 17 Sep 2021 14:29:41 -0000
-Message-Id: <163188898155.9158.9415943951114669765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 17 Sep 2021 14:30:58 -0000
+Message-Id: <163188905825.11089.6971988402232242145@gitolite.kernel.org>
 
---===============3665275248869372542==
+--===============9201308827825001708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ceph-fscache-iter-experimental
-    old: 6f97100cc666213bd4d772746929afd9ce2e8d76
-    new: 87dfeb255beba5a7b8002fcbb6a42f56394730ee
-    log: revlist-6f97100cc666-87dfeb255beb.txt
+  - ref: refs/heads/staging-testing
+    old: eaf1d49d13abef2d7e228f2b1193237154fcb0d6
+    new: 38625368916e84ab2739419b403b1a3143e386df
+    log: |
+         17c4e0de32445d193ce80c56b9d84f37f3dd9912 staging: r8188eu: remove unused enum odm_bt_coexist
+         9ec5980350e855685c74a0f2586248304dfe676d staging: r8188eu: remove unused ODM_RASupport_Init()
+         abe279997698a4853a55c07ada7dc912b7c6d900 staging: r8188eu: remove RaSupport88E from struct odm_dm_struct
+         38625368916e84ab2739419b403b1a3143e386df staging: r8188eu: remove dead code from odm_RxPhyStatus92CSeries_Parsing()
+         
 
---===============3665275248869372542==
+--===============9201308827825001708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f97100cc666-87dfeb255beb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4b0b8836ebba254088b96911ee60706018a3247f ceph: fix off by one bugs in unsafe_request_wait()
-deaa162b7abdc45e73d043f7de42df0a10a393e3 [DO NOT MERGE] rbd: bump RBD_MAX_PARENT_CHAIN_LEN to 128
-a9209ac3d74ad540bffa3b9aa9462d538e037b73 [DO NOT MERGE] ceph: dump info about cap flushes when we're waiting too long for them
-38681bbabf7e496a983974192ecf86a00ae5f427 ceph: generalize addr/ip parsing based on delimiter
-bfa0845197fe621aeafb14b788ac2f47fb502a92 ceph: rename parse_fsid() to ceph_parse_fsid() and export
-a9b244be329a16e00d77712a8b8f4319861d868c ceph: new device mount syntax
-b2f71c0fb38e1c3182e419b3b3e06b893c81471e ceph: record updated mon_addr on remount
-0b99618ff945f523535317f418b89a8ba503c103 doc: document new CephFS mount device syntax
-4acb7aeebfc17b6ccfca5678c163b72f1881bafa ceph: enable async dirops by default
-68b837bcd6a95ce59de9618ea5c03d997b7e3e4c ceph: print inode numbers instead of pointer values
-100493c3f0eb58dcaf239d7ca84e17cfd8aa7f7f ceph: don't use -ESTALE as special return code in try_get_cap_refs
-b31f322631a373a20e7563956ea014be1e565606 ceph: drop private list from remove_session_caps_cb
-596c5ea30f18f3cca6c452be9071a4b19af5bc5d ceph: fix auth cap handling logic in remove_session_caps_cb
-e3cf26aeafc783a1cc99e2f9c6bf85a27b7f6423 ceph: refactor remove_session_caps_cb
-cad5cecd1970daa6dc837df5f42ac3fb348a878d ceph: shut down access to inode when async create fails
-7fba1fff6bad9706b70ae751689010fc49582450 ceph: just use ci->i_version for fscache aux info
-c485c93888ab67fbb02009dd04b96798aa76578b Merge branch 'ceph-testing'
-571c773e24b7a855c53ef36abcb5b4a8d59c6313 ceph: re-enable fscache
-efd92daa720a2aa5254c9d43ec5283b5c837eca9 ceph: conversion to new fscache API
-2e808ef8225529bba1baa884c273b88537229085 ceph: add fscache writeback support
-18087d7887066fe0f03cb8abcca9e55983bb3212 HACK: invalidate after doing copy offload
-87dfeb255beba5a7b8002fcbb6a42f56394730ee HACK: work around mem corruption in fscache_resize_cookie
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631889056 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1631889056-d1451d3a4c9906bef8ec408746501d16d644623c
 
---===============3665275248869372542==--
+eaf1d49d13abef2d7e228f2b1193237154fcb0d6 38625368916e84ab2739419b403b1a3143e386df refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFEpqAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qMgQAKcoAFiMiPConD7q9pYQ
+EWvabOqC28Gr1Ji5o1vYZlAay+g+aZE4i11hecROMQsexJJjIu8EatZPCj3OYXmT
+MMlz5ynn39lrvhER2jE3OLt/XzAkT0YP4UUyA+2GfbuTWtpU0uxWG0wtiRWmGs6k
+8jC10eEDYBlKNfMRR0XxRVBLqRUG4f6kJ/JbnRIKrqlm5x3otvfrnxP0z4P8t87H
+VqH8SeYu5hKo2ftqLomWlqqhTen10UMMHyxt5NsSuj+QUY+22FsjtQeA5kpmpNla
+KLdR/bug3+kLUgdoJLiFu0TqOgiL3WShbcYIkOuZ9X3DX9VXlO3pq5rjQZOjgVR0
+GZgOJGL7OW+vYqi24JRvchjhigBIqEb5jbglJPvhDdHiEcmdLGdeAJ+UbC7Z5mAf
+/lG6gQqZfWlUeu2qZ07/61z0nGtGr1pU3TXln3d1OjTvqbMkTGXKBasys91oGAuV
+V2fFzz6N1+H53ZAiXbjSKgq5HTxRHjJEu9gO9A6lLf3xcHufcWbca7SI6LoTcTM+
+q87WqcUxaR3Lemd7/ha35G2Hkudg1N1vQYhkzJ7QccUxi7l4c+nTM4mRHNs1USA1
+lgSovMYZc3qBOz47n127jy5telgncjJduXbcF4oTlG4Wz9xmJ5iSpS1EFm3rN+0c
+0vZiStu5dt1lrdqtg4H1wEzT
+=+NV0
+-----END PGP SIGNATURE-----
+
+--===============9201308827825001708==--
