@@ -1,51 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============5951157247526400887=="
+Content-Type: multipart/mixed; boundary="===============7682296062212934489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 17 Sep 2021 13:58:12 -0000
-Message-Id: <163188709270.17571.8050123033094595399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 17 Sep 2021 13:58:37 -0000
+Message-Id: <163188711738.17817.9141684664830918800@gitolite.kernel.org>
 
---===============5951157247526400887==
+--===============7682296062212934489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.16
-    old: 9722162f0103949b9a9c7c1463874d919c5bed13
-    new: 3323129a6db96b6878a260601b30651ca40caa54
+  - ref: refs/heads/for-linus
+    old: d270257127bef7e40e82df63160e1a9540a02d7e
+    new: 31078df33b25c8a8e25b4f65d80c4df34573ba47
     log: |
-         98c29b35a7e3b1ef7e64a8dd05a4383ea2e2ac72 spi: rspi: drop unneeded MODULE_ALIAS
-         3323129a6db96b6878a260601b30651ca40caa54 spi: sh-msiof: drop unneeded MODULE_ALIAS
+         3abe2eec87059260bf31033a8863c67c5d45b9d0 ASoC: mediatek: mt8195: remove wrong fixup assignment on HDMITX
+         cfacfefd382af3b42905108b54f02820dca225c4 ASoC: SOF: trace: Omit error print when waking up trace sleepers
+         31078df33b25c8a8e25b4f65d80c4df34573ba47 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: 1ce9adc1984b501e53e22ad6e263b905c02def4e
+    new: eb4ec51579e8ff0f30ee0eeb39cf8a3e3e46cdea
+    log: revlist-1ce9adc1984b-eb4ec51579e8.txt
 
---===============5951157247526400887==
+--===============7682296062212934489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1ce9adc1984b-eb4ec51579e8.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1631887051 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1631887090-e05d59d7cf869370dda5a388f2e6cd6d3b0441a3
+3abe2eec87059260bf31033a8863c67c5d45b9d0 ASoC: mediatek: mt8195: remove wrong fixup assignment on HDMITX
+cfacfefd382af3b42905108b54f02820dca225c4 ASoC: SOF: trace: Omit error print when waking up trace sleepers
+59fdde1d4e268dbb9df5df77a7569c7d987607b6 ASoC: SOF: ipc: Clarify the parameter name for ipc_trace_message()
+b95b64510ac964429a265508e2da4eeb4f8a57dc ASoC: SOF: ipc: Print 0x prefix for errors in ipc_trace/stream_message()
+f6b0c731a01fc581fcc4fb227e2d3ad9e0cb31d6 ASoC: SOF: ipc: Remove redundant error check from sof_ipc_tx_message_unlocked
+0ed66cb7b6d38f0bab061466c1aa0e9f3db45e93 ASoC: SOF: Rename sof_arch_ops to dsp_arch_ops
+703ac1f2a5e5c3b9e8de41a8ad0b202532c0a453 ASoC: 88pm860x: Update to modern clocking terminology
+2266721938b9d12ebf4f2cd96b88912ffa4f5e91 Merge series "ASoC: SOF: ipc: Small cleanups for message handler functions" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
+31078df33b25c8a8e25b4f65d80c4df34573ba47 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+eb4ec51579e8ff0f30ee0eeb39cf8a3e3e46cdea Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
 
-9722162f0103949b9a9c7c1463874d919c5bed13 3323129a6db96b6878a260601b30651ca40caa54 refs/heads/spi-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFEnssACgkQJNaLcl1U
-h9BEiAgAgZN8R1DZt9eHys0QQfqC8BZXsNDAFHinW32pmS8scLhTfPY7YjA/4lgf
-gHuTBu5aU3wXT+kyDocn4bOjqLY0lRziALKLE9ivpDH99S5PEYdRJ6ev1cJ//faa
-FfGLmspMLApdJVj9VXMLQhWxX6c3Nf+ckWP7+XKacf9WzxdK/OLJB8aqBBh9JEMR
-x93Yp1wqp9Zk3tztLwi2NZwAKjHGorPYQUDrx7IuXM0VoNFfLE16nrPjBucgkLC0
-DcfdCB5mrk9uMjS9wQKiDg/Av2bNhgdeeiMBKzVajc1p7bXJxBjmY8eht7oHvyK+
-gcovQwmy14pu/lJrO1ManeDzKUTJbg==
-=dWPD
------END PGP SIGNATURE-----
-
---===============5951157247526400887==--
+--===============7682296062212934489==--
