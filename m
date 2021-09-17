@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2671309218024240990=="
+Content-Type: multipart/mixed; boundary="===============4673040635865476927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 17 Sep 2021 13:57:37 -0000
-Message-Id: <163188705774.17041.4491113468139563437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Sep 2021 13:57:44 -0000
+Message-Id: <163188706460.17146.2043715323037407793@gitolite.kernel.org>
 
---===============2671309218024240990==
+--===============4673040635865476927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 25766ee44ff8db4cdf8471b587dffb28b7b9d17f
     new: cfacfefd382af3b42905108b54f02820dca225c4
     log: |
          3abe2eec87059260bf31033a8863c67c5d45b9d0 ASoC: mediatek: mt8195: remove wrong fixup assignment on HDMITX
          cfacfefd382af3b42905108b54f02820dca225c4 ASoC: SOF: trace: Omit error print when waking up trace sleepers
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: f1291f41afa9d1901dd954c52869cd0e09c06652
     new: 2266721938b9d12ebf4f2cd96b88912ffa4f5e91
     log: |
@@ -35,29 +35,29 @@ changes:
          2266721938b9d12ebf4f2cd96b88912ffa4f5e91 Merge series "ASoC: SOF: ipc: Small cleanups for message handler functions" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
          
 
---===============2671309218024240990==
+--===============4673040635865476927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1631887015 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1631887055-0406afc2d5efd98dc6c37bbb9b0b102ccd696ef3
+pusher C3F436CA30F5D8EB 1631887022 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1631887062-a1d26b949bad8cb97b29dc8f2b3fa1d4485c3bf1
 
-25766ee44ff8db4cdf8471b587dffb28b7b9d17f cfacfefd382af3b42905108b54f02820dca225c4 refs/heads/for-5.15
-f1291f41afa9d1901dd954c52869cd0e09c06652 2266721938b9d12ebf4f2cd96b88912ffa4f5e91 refs/heads/for-5.16
+25766ee44ff8db4cdf8471b587dffb28b7b9d17f cfacfefd382af3b42905108b54f02820dca225c4 refs/heads/asoc-5.15
+f1291f41afa9d1901dd954c52869cd0e09c06652 2266721938b9d12ebf4f2cd96b88912ffa4f5e91 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFEnqcACgkQJNaLcl1U
-h9DHfwf/WsIMulrC8eXIjjt7BDpfY/qCHmnw0XYBwzeg/Jlqhk43hFVuEaxMCZ3p
-UTmff05VyaaWnV/USTU5FWRLSgamavc2ga25o6vKRaYtQqJCRYam1wAWYOMQGv4n
-5RUYp2pLfXy7b6ncsUdRgmbQlxvXvre8vUFPb92DGywWf8S5CFWSFLB0gg7FAwra
-UsODfRhNEGWT3ziMPkWPhzejKjse8O3MDJpDVYE5E4ZNa8yZXvbowt9t631pY8gG
-b3NRaM0cj5gf5agonhWGBNjtNcIqgMQNExcXS0vH1LLucFfmi7BOKBryCQRkU5sv
-oYfot3hqhz9b6SQ/0Xsim4zj2uPELA==
-=xa6N
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFEnq4ACgkQJNaLcl1U
+h9A89Qf+N5pq1QrqZbCqsDnOswa0Bh5tKSjdrOFg9tQY7CvcfxJ2jLQfOqCQTHfV
+zM2zwq9rIlCbTBXrDGLGA1T8jh5pl/r+tp6zyfw3FB+9SZxOlZWW0MVUCiQfcTfK
+KQ27Sa5KdQDspkdXHpO8906WBmfp0oClgS0R9+KP6cIUpBo4ZD/NzCzea93nNngo
+TVn5TF7P8wCvNUyykwkf2A90bh5SMfS4wsO2V2N6ZsiOPEvAJosVNBwEbiqGIgxq
+gkHhZMf5/dEWwT+2jFfjfe15gDq1BgLfG3OuSd4IkmHM0Ylsammg6uHptGONC44b
+Hp2jaNV9dIs4dsz/LzFdn6e9IvJCkw==
+=MI+Q
 -----END PGP SIGNATURE-----
 
---===============2671309218024240990==--
+--===============4673040635865476927==--
