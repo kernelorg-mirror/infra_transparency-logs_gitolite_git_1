@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9122621660536508243=="
+Content-Type: multipart/mixed; boundary="===============8596000578309800788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 17 Sep 2021 14:40:37 -0000
-Message-Id: <163188963783.17662.858837145824076774@gitolite.kernel.org>
+Date: Fri, 17 Sep 2021 14:41:15 -0000
+Message-Id: <163188967520.17944.5176346600668385712@gitolite.kernel.org>
 
---===============9122621660536508243==
+--===============8596000578309800788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 9f5b245babc6cddeead37a2048b1b16aeed40fba
-    new: 06c38fef11bca4f112038f673c63d8ebe5426584
+    old: 06c38fef11bca4f112038f673c63d8ebe5426584
+    new: 65e31407caea9d361a4e7d657b86ccf321eb62c7
     log: |
-         06c38fef11bca4f112038f673c63d8ebe5426584 staging: r8188eu: remove core/rtw_io.c
+         65e31407caea9d361a4e7d657b86ccf321eb62c7 staging: r8188eu: remove struct _io_ops
          
 
---===============9122621660536508243==
+--===============8596000578309800788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631889636 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631889673 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1631889635-21c6dd88bb37adbcf34859788f9fe0e1f28510be
+nonce 1631889673-4b60d3acbb486ed718c1c6a00e5f9af5ce7eba59
 
-9f5b245babc6cddeead37a2048b1b16aeed40fba 06c38fef11bca4f112038f673c63d8ebe5426584 refs/heads/staging-testing
+06c38fef11bca4f112038f673c63d8ebe5426584 65e31407caea9d361a4e7d657b86ccf321eb62c7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFEqOQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tYAQANflXGoo4eCELKbb5VBq
-c+jzz0sgr6Dzx9fxuQ4MCHaJDUvtmWyHfy6IHb7yDZgYzMo2nsC//iTggiwT5FXj
-0mwW6sLqPQQG/UxRYURwQ/8j5lOo36gMsBbgyWaatbd4IBosLaVfHw0ZPL1aF5pJ
-ppK+mGERV2iodT/QJUK33OkYIgIv9Y9DS2klbX60B95MPQ4e2Ra4yIhG8cU2wCq2
-YLFTE80P38SV+pXYe91sny6IBiLf2S10Tu7d4rFyqPpqoiImbH0QoRJT2E1U3o+D
-MgKtcH4WkVYM8dUVQ616XkRUovESc4V485jqkOfVtVG29hWfidmrgAd8DtzSRmGc
-zA2Fk37rTtRrTpDUAlHwhCCD2zoFlW6rnpnEkarbTqZRUq4gKvXjRuOklCxm+zMD
-lsYn6BwlAZzU4p/UfRNwXLREv4FF4mJzYbO5q90KmeH5HpsBE3aNiyM/QHPp+6K8
-3sMS6hHvXixAlQoIJUF+hHfj7cfvMCIbgU+tNFfKcslt9z5HY3ceFTfcdGgWBGK4
-xZ/n/2fzqL0vGX34Da7Gm/42bh5udankBezBwMEF4RwAoIXKrXm1rQUjUUett5NJ
-ZSpd3WNWE9Fer7TUC0cOvnjxKoVXF8k03vblSpufyH91qDrVVJRjjubaSEsuvx56
-br948OS5B1fLIQAw7DElH4nc
-=O3xx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFEqQkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gpkP/2uEZGal8I4/PnYA9C4C
+TXO2B4h0EeilpJr/9u2yBFacf3OjMU/UvvxElui3n3VWgj24JsFCgzm28uCS/7en
+O0QStEZdZfbV/dRxzCpIYKvwIiDUjDkQjKnheHABwpzHWGLmQ+CH2u3V/lpPC/D5
+2noRgjTLc4U80rigzRcSD05Mcttm5IkcDmxSjEcTwxW0VmIxRZJ3c9GyrrStiC3v
+Ilwq7Oo7c6Cswq7OF2woRpbgGx98S/HNpMozNLetOLoLTOaXXIoAoUOT02K01Upb
+1W5BUvDvhuCCvGycZMl7Q9bK/Ie20sxMVPGKWPszdvXCB90+jqd3R8BkTmsTZ0Vl
+hbmKyCppw9Lb2jyzYe0dLdJW1+UaHzT81iMPcWEMR93UDmFzIM8co4rXv9UOQ+pc
+IcrK/Ebm3+M1Akr4SsfeXDnxfj5MQND6GuTYQgWSl/COQaYRAmIDHZrBMxxw+12O
+MPXoFsGfYCoKH5XXkQR8566NLjQaeShu1E1IME/siqnmw0IvIHsNOW7uHuv9pU+m
+TYnKjFyF0y4YEfEF2zI5PLyNFGe5pLCpT2bsoVNai60K74p55nYz42v2lEOZaosm
+55Nx17yd73yJqK3MX1DqCeF+nuoEA9KEL26+aP/SLP0LEMMUsXBkDmftri4XtRez
+ZkmBM/jjv6t0HDzO8YlBn0rl
+=0sww
 -----END PGP SIGNATURE-----
 
---===============9122621660536508243==--
+--===============8596000578309800788==--
