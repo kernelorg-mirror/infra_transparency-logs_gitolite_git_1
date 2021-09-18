@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7110863795003229955=="
+Content-Type: multipart/mixed; boundary="===============8990214964116951471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 18 Sep 2021 14:25:37 -0000
-Message-Id: <163197513713.11104.15820342529169018392@gitolite.kernel.org>
+Date: Sat, 18 Sep 2021 14:27:00 -0000
+Message-Id: <163197522089.11626.13629262594262992122@gitolite.kernel.org>
 
---===============7110863795003229955==
+--===============8990214964116951471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 65e31407caea9d361a4e7d657b86ccf321eb62c7
-    new: 9d04d83597f70e5ef2803f9e17eb6d6b2df41147
+    old: 9d04d83597f70e5ef2803f9e17eb6d6b2df41147
+    new: 7b228bdf87c20f6240714a1d3a32d74001715adc
     log: |
-         96b461876304f73f4a5605d1c9654c4d81ae3c9c staging: r8188eu: brfoffbyhw is always false
-         9d04d83597f70e5ef2803f9e17eb6d6b2df41147 staging: r8188eu: remove rtw_hw_resume
+         71116ede0fa44284c659b4187434c429d24154c5 staging: r8188eu: remove rtw_free_pwrctrl_priv prototype
+         88022af1db8791cc5ffd86b2521160124e285de1 staging: r8188eu: remove the HW_VAR_CHECK_TXBUF "hal variable"
+         7b228bdf87c20f6240714a1d3a32d74001715adc staging: rts5208: remove unnecessary parentheses in ms.c
          
 
---===============7110863795003229955==
+--===============8990214964116951471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631975135 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1631975218 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1631975134-d109ced599ff19684eab85e561010ffdb5306cc3
+nonce 1631975217-35f87ebb1795ab3eac7f68e03fe3322e26338a06
 
-65e31407caea9d361a4e7d657b86ccf321eb62c7 9d04d83597f70e5ef2803f9e17eb6d6b2df41147 refs/heads/staging-testing
+9d04d83597f70e5ef2803f9e17eb6d6b2df41147 7b228bdf87c20f6240714a1d3a32d74001715adc refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFF9t8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kgUQANSziiP4LgtXbmJk4qS7
-H633PLqps0D6wT0jd8ZBTH+J1FQgkMM9HxP2fvdQu0FMzns+paHgOVhgkmvi/Qjd
-i26pg1VUja66R9zXSPVvrxUP1JFN+8FzoUh+MTNLqNCFXx114CsazXhgLjpiStam
-pWcdunNjc9boVgtMShltWtVndJH2DGG7MjnblLt6NEv674LD2IZQzajIko9Lb3Po
-wa/ngyo4YHrBPhhq6IqXwtkZzLkeJHIit45AJMwsrl5nMGQLDg3Tyhk8XJ3hlMNX
-UIZLLyr7e+kSku6ry75AGm10mOTDXfTWmSOx3lVJ1eRZIlBU92ODXXfBh5MUfVqe
-i5/M1JMRlhIqb4RzpDR6AF4sP+r5XIFB7ljva/5i9HUImkbl9BQWv9JXCkk13SJh
-6gzc3eELt5LTnqbaxqGyjMNUDVkRoU9lvhOBobEHk8MJsllrzkSqOzfDLjqnrEC8
-wvTD9WfdeG+wcEoc+MIIASnZCyPkw4ZT9jUmeAsUiKebf/o9z3Japx1uNbLhpQkv
-QfvKWIe79HRpl+nbRRJKgYNf9z12T7prKngy94eIkLTQj4j+oYfu3RfcjOfrJV1V
-o6h5FcmEAB5caGKrSygRxoF5gNvOVctQ/n7xZykXGqj4xePPGIKNwRSey1Ha869d
-nd3YPO45pJyWvCIBgMOfRD7M
-=9Wia
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFF9zIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CZkP/35FZihRrt3IqOEvYofY
+6L/eL0pG9SMm53+nfsD7kTyCqDs01O7/xzY4MFf7iJCz03x+5dI0imxi+SC6LSv7
+ZTvvK+B1INJctHaUSbrZapSQ/VBeUE9vnAu39mxxRLpDmb9CVFEi8yuawGiuiT7F
+c8b/mMuu5hOc7izQvDtiAv/5PF+JLI2yEWvTf1WaN+wkl8hz0UTFp58yMyfeujAT
+bZUKcm9GDlyoXybGP5BvRUovjHfqH2/VkV6mV33xkd5qcN4Qmxbhom5xy1unKmN5
+1bzSLxc88PAtXcDf4Mdti9v3x7IZuEk7pI8ngSe/zWtW7I8DTNdzCh/CvbArz00j
+B4zo0fK/WF+t9noirwIxYJjD5YhVPFOQUJx/3BVLzMc+f9eoQIIoitcekeQycF7l
+LfOY+kJI+ftIrwqW/0ccpXmi9iS/fM8Kmyzsg5TmE8B6f00u3wRS1UYn/CTTdbaM
+hsQuUQH14Cn3IklvczXoKRzg8QcW/wcVaV4RDn6HOzYykdAhSdY0QTjmj04SC8AE
+km5yT1iOwIxiTqk0MVE3i6tdmVwZGvZVGpDrUlvGeS8voh59+8qVodMjLBhRYlxd
+vmD51y66Lc83g/WvfdEZ2Y/tFTpgeZl2c0wupP46aTnjnnmy0W/7ddvtz4uALD8x
+L4xHkcrhNex2n6FyFxY5h/o4
+=HlP/
 -----END PGP SIGNATURE-----
 
---===============7110863795003229955==--
+--===============8990214964116951471==--
