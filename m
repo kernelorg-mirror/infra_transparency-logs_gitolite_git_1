@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 18 Sep 2021 18:00:36 -0000
-Message-Id: <163198803615.20174.10296671415983368043@gitolite.kernel.org>
+Date: Sat, 18 Sep 2021 18:09:37 -0000
+Message-Id: <163198857793.24398.12823907794227849533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 88d2b5594bf25431276af4f43499561ced5eb38a
-    new: 65c6fb5d12a2534be146bdb91f95dc774dfa823b
+  - ref: refs/heads/fixes-togreg
+    old: 1a913270e57a8e7f1e3789802f1f64e6d0654626
+    new: 8167c9a375ccceed19048ad9d68cb2d02ed276e0
     log: |
-         65c6fb5d12a2534be146bdb91f95dc774dfa823b staging: iio: ad9832: convert probe to device-managed
+         4170d3dd1467e9d78cb9af374b19357dc324b328 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+         8167c9a375ccceed19048ad9d68cb2d02ed276e0 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
          
