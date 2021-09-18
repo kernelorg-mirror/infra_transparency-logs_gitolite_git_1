@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 18 Sep 2021 17:56:12 -0000
-Message-Id: <163198777217.17199.8472456116547943486@gitolite.kernel.org>
+Date: Sat, 18 Sep 2021 17:57:47 -0000
+Message-Id: <163198786752.17776.3680671362972764334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 5b8d4d8c912c3f6c31edc853a41cd54aae90b1c4
-    new: 5b0b8a8af401b6bec4c2d4cf3506ec52c356d63a
+    old: 5b0b8a8af401b6bec4c2d4cf3506ec52c356d63a
+    new: 88d2b5594bf25431276af4f43499561ced5eb38a
     log: |
-         5b0b8a8af401b6bec4c2d4cf3506ec52c356d63a iio: imu: inv_mpu6050: Mark acpi match table as maybe unused
+         88d2b5594bf25431276af4f43499561ced5eb38a iio: dac: ad7303: convert probe to full device-managed
          
