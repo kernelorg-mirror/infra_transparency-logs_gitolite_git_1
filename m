@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3657192239016169610=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 18 Sep 2021 19:52:01 -0000
-Message-Id: <163199472119.26127.1024316898584523868@gitolite.kernel.org>
-
---===============3657192239016169610==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 18 Sep 2021 19:57:54 -0000
+Message-Id: <163199507465.29352.16855885400724359725@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 4357f03d6611753936e4d52fc251b54a6afb1b54
-    new: 93ff9f13be91c5f36bb3e5d23237702155deae74
-    log: revlist-4357f03d6611-93ff9f13be91.txt
-
---===============3657192239016169610==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4357f03d6611-93ff9f13be91.txt
-
-a8b92b8c1eac8d655a97b1e90f4d83c25d9b9a18 s390/pci_mmio: fully validate the VMA before calling follow_pte()
-d76b14f3971a0638b6cd0da289f8b48acee287d0 s390/sclp: fix Secure-IPL facility detection
-4b26ceac103be7ad71cd4cccf01f97b6017008a6 s390: update defconfigs
-948e50551b9a07c3ab6b9d208bb8f16fa1b2ad41 s390/ap: fix kernel doc comments
-f5711f9df9242446feccf2bdb6fdc06a72ca1010 s390: remove WARN_DYNAMIC_STACK
-3782326577d4b02f3d9940e1c96c3e9b31cf5309 Revert "of: property: fw_devlink: Add support for "phy-handle" property"
-e22e509c1cd90b48ae31099905418de74515e56f dt-bindings: ufs: Add bindings for Samsung ufs host
-a11de92523f75a8140cf8eea3ce9b628f7a3cc77 dt-bindings: net: dsa: sja1105: update nxp,sja1105.yaml reference
-c8087adc8865c76500dbc072a46b61d35f6c908b dt-bindings: arm: mediatek: mmsys: update mediatek,mmsys.yaml reference
-31c8025fac3d8bbff7ce4602338d88efc2d7972c of: restricted dma: Fix condition for rmem init
-55c21d57eafb7b379bb7b3e93baf9ca2695895b0 dt-bindings: arm: Fix Toradex compatible typo
-efafec27c5658ed987e720130772f8933c685e87 spi: Fix tegra20 build with CONFIG_PM=n
-cc9d3aaa5331577a8658e25473a27ba5949023d8 alpha: make 'Jensen' IO functions build again
-cd395d529faf46bd7fd799852a659ca1bd650a27 tgafb: clarify dependencies
-d1a88690cea3872f83a1004b1a08a39879715fa1 Merge tag 'devicetree-fixes-for-5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-93ff9f13be91c5f36bb3e5d23237702155deae74 Merge tag 's390-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-
---===============3657192239016169610==--
+  - ref: refs/heads/work.um
+    old: 8e9ba9e0a6d8908d40f7984bd040fd692e0083d8
+    new: 023f81e3c1f9f04da522d9f5a4ad1669ef0a728e
+    log: |
+         115523e509627502ee5f067359877ba9957ed97a um: kill unused cpu()
+         69f8f707c55e98d52b7c2c1b17e1995e67100570 um: remove a dangling extern of syscall_trace()
+         e461aefcaca5b7da7e090ecca156137e07c59636 um: unexport handle_page_fault()
+         237e69dc75332e6bdbf109c5a397b5bc8a2a3d83 um, x86: bury crypto_tfm_ctx_offset
+         280c6a3c1ea4afbeea2d407a8ca07bfa7fe6c576 um: common-offsets.h debriding...
+         4e06e5aae5f738665456b5a0915a81c41d913d15 um: header debriding - activate_ipi()
+         324237d6ab2218a36bb78cdb3c39bb98a0f1eab8 um: header debriding - mem_user.h
+         cdc1a0193f947fcee9444a04532dc6ccc0bd582b um: header debriding - net_*.h
+         108756f5f66987b724df452886e430f2a1e54036 um: header debriding - os.h
+         023f81e3c1f9f04da522d9f5a4ad1669ef0a728e um: header debriding - sigio.h
+         
