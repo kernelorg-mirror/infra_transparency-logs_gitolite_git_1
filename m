@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 18 Sep 2021 13:15:38 -0000
-Message-Id: <163197093833.25926.5756339271645984406@gitolite.kernel.org>
+Date: Sat, 18 Sep 2021 13:26:51 -0000
+Message-Id: <163197161169.1272.12533690283216853913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,13 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b972b54a68b2512a7528658ecd023aea108c03a5
-    new: 95dca2d578d2ae702b9d9e67a1facfdc918cfa27
+    old: 95dca2d578d2ae702b9d9e67a1facfdc918cfa27
+    new: 983e59a27b92d7e1a3432a1009522177cc1e187b
     log: |
-         1dac0084d41297c7efc4f271e1e6430b624f2713 net: macb: add description for SRTSM
-         d7b3485f1c2b917328890ba28f4e7cac4b98ca1e net: macb: align for OSSMODE offset
-         1a9b5a26daf606868220f24b9783c0f37085454d net: macb: add support for mii on rgmii
-         0f4f6d7332bbc3567ae01466812c089f133cfc83 net: macb: enable mii on rgmii for sama7g5
-         95dca2d578d2ae702b9d9e67a1facfdc918cfa27 Merge branch 'macb-MII-on-RGMII'
+         61bc6e82f92ec105505266e484d90a935e1249ac mptcp: add new mptcp_fill_diag helper
+         55c42fa7fa331f98062c32799456420930b8bf8c mptcp: add MPTCP_INFO getsockopt
+         06f15cee369535a383c9c82ed37a25f0a413f6f1 mptcp: add MPTCP_TCPINFO getsockopt support
+         c11c5906bc0aba62a78da69035f6b30c6da6d13b mptcp: add MPTCP_SUBFLOW_ADDRS getsockopt support
+         ce9979129a0ba700112151a83a6d4cf09c7a1158 selftests: mptcp: add mptcp getsockopt test cases
+         983e59a27b92d7e1a3432a1009522177cc1e187b Merge branch 'mptcp-next'
          
