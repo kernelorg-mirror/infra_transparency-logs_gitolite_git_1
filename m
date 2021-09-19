@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3310776668817337811=="
+Content-Type: multipart/mixed; boundary="===============3855193143585670908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 19 Sep 2021 08:58:25 -0000
-Message-Id: <163204190500.31789.8675105721919252471@gitolite.kernel.org>
+Date: Sun, 19 Sep 2021 08:58:28 -0000
+Message-Id: <163204190810.31852.12757462787459444588@gitolite.kernel.org>
 
---===============3310776668817337811==
+--===============3855193143585670908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: faf816b0f8d0fa8ea24f579fb6a51e5ed3efd750
-    new: 1cc4b0ead8e0b1fc178825942dd78cca63d47970
-    log: revlist-faf816b0f8d0-1cc4b0ead8e0.txt
+  - ref: refs/heads/linux-5.14.y
+    old: 55461cc72d95298a32fc995910eaf2a5ce7cb2fd
+    new: 6fd2956b03b31cbeb7fd0221d2b42dbed710ce85
+    log: revlist-55461cc72d95-6fd2956b03b3.txt
 
---===============3310776668817337811==
+--===============3855193143585670908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632041903 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632041906 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1632041902-64e37fec4b510d5139604448b2cba944d7b80498
+nonce 1632041905-8405950df90e268520294b3509debc0c88ca561e
 
-faf816b0f8d0fa8ea24f579fb6a51e5ed3efd750 1cc4b0ead8e0b1fc178825942dd78cca63d47970 refs/heads/linux-5.10.y
+55461cc72d95298a32fc995910eaf2a5ce7cb2fd 6fd2956b03b31cbeb7fd0221d2b42dbed710ce85 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFG+68bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/v4P/3KeaRBT+QtcYP6ZETiH
-LFaxEhPFOxWNH4MNCDF5Zv6JL+0LjUTNDa0Kw7Fj9cB0/pUe17lbVEmdqBKpEPEi
-OVAxbl3YKNAGexoYGAxh9ZddfqPbjuosQCAQ9BOpLJAdtHrBbEEl33WAVS/e6wvy
-luG6ZYnTKi7y7P4VwZPbdG/izrEJ1UEcIu0m8ALj5OYL5fQVTqi2kAkJBFZFMBnG
-zIHzupWhTFRLmCkfv4rT3NMDU0ZykUI/pSMCIRoe1Luxyo+ggclbnmOrgF1ZDUSf
-+57FdheijX2x1YrG1oxcWpWi23Ya76zt1d3GWsdWq+2SmXMdf4igMcG2LGeFWAJv
-WWbS74hWJHqqhK+dqCpwsFhj6QuXKYXPLH3jyPEmgGOIxeoYXgzwgkGzzZE7TECN
-PoFJjoUwQwyCVnDTMXln1NulZhTfUhWARCKQy8aXb+TJNJvR+7bsdwFEELJ1kqi6
-HE6XzVErHv+kfBTZj7iq+h7Y3xaLueMW5N9pTYByF7Uix7G5Y3uHgW39Q744ac92
-lYfbHZh/iSjfxuN/ACiHGnytlApglybORGcV+HHe08pgUy3aVXzqCueTvhj1AIS5
-DEsFiLK6SZCT7FtAQuG7Dc9sxbVIZJPcid9z3IqHNq/ODCRJHIGp+fqGWBeuoFeA
-x8Vk2k9TrIH/HKB+Ee3z5ylT
-=Lraw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFG+7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q0AQAKvdDNOXK2lq9L+mP8vY
+Kp1DtQTlrngS/0OdD1lYAKiAQx1d43XGBqeU1w2xchiqniU58ycli1yoW4HHMrE5
+BD15mR0qiueZ9XMyGZDJ8yOjbppCvj7zjNdCkNnFXPJhzhd6tHLguyf9T8ombd+i
+xgsc8S1um7RC37j1Z0dLbCSauNrlgLUUp9XxHFsZkRT25r/WX0fvyn0QNs4/kIAh
+ndj0vLW9/w3uI8ZF5LthJeFN/JoAme2uNamYaUSCpWigaTSI3lsMIE7Oesi294Up
++0jSm/LevGEAAP0Who247x+MHyImJxng5PLjpEIMya/h1zwQnSjzryz1KkqoN99U
+KWGNWmFpQyBjVu5FT4+dLKZF4s3eohpD8YEjckA6q+y1hhhVJXxZxiA2kYLd/1L5
++3YyOiPCX+ETo6oFGUbLB4ikD2qvuuDTwx8KKvPb+L1rz6co5C/F+fXDPz6zHFwe
+CRNFCPVA3Iv2GyiZ7JOefCcfhGCFtEw3nspl5UpQcm3aMD8L4kgShXID/r1D3LWI
+WkJJ7UyR56Dww/Ap4sGpPL/HNiH1ZlMF/NraXq1N/4r5QXHA5NQgxZ7HceS92wZx
+JOOapFbpqWStpzAOI++RYFZ8Z8QgBnMvLpdiQdfe7OTw0mjhUNcpufEGJr5r7IfE
+3bHM72PmrWEqvxWj0XvwsJSG
+=qI37
 -----END PGP SIGNATURE-----
 
---===============3310776668817337811==
+--===============3855193143585670908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-faf816b0f8d0-1cc4b0ead8e0.txt
+Content-Disposition: attachment; filename=revlist-55461cc72d95-6fd2956b03b3.txt
 
-12e421eb5a7f4fc8e5f90c7a78d6b65a4e4107dd drm/bridge: lt9611: Fix handling of 4k panels
-ea50ae305c4d283003f1c4c29e1ad05765de0cb8 btrfs: fix upper limit for max_inline for page size 64K
-3828e32dc12b8f105e3b8c9b91e767f4a0352e62 io_uring: ensure symmetry in handling iter types in loop_rw_iter()
-cf81386642b6dbc713d101f5af21e13032b27720 xen: reset legacy rtc flag for PV domU
-64dcfa082af92ef77ed0f21d8a63a79cb526f24b bnx2x: Fix enabling network interfaces without VFs
-7482c0944678cafd3b62326bbad22886ddb28f2a arm64/sve: Use correct size when reinitialising SVE state
-baf0ca6c683a281319eeaff5db1e0e70a6857715 PM: base: power: don't try to use non-existing RTC for storing data
-2ea08bb9b6255e750d5393b832a0b760af90b7ec PCI: Add AMD GPU multi-function power dependencies
-47b0199efb4a22c1a197a650d25e0365660c335a drm/amd/amdgpu: Increase HWIP_MAX_INSTANCE to 10
-be4e744e7be3d4f014c8a83fe5b641383d5ab723 drm/etnaviv: return context from etnaviv_iommu_context_get
-e38584ea84b20d9fde29183d6fc6102e4300a5d1 drm/etnaviv: put submit prev MMU context when it exists
-8b2c398014ad2a544879e65dd0f73b4f49677ee8 drm/etnaviv: stop abusing mmu_context as FE running marker
-cf25733026015eee90ce8fa19ffdb52ba705145e drm/etnaviv: keep MMU context across runtime suspend/resume
-03f235987240ee430fc5b2aef028f4d62d14f146 drm/etnaviv: exec and MMU state is lost when resetting the GPU
-70ad0980055525bbbb74967b2f4869eb7f9aa049 drm/etnaviv: fix MMU context leak on GPU reset
-92b9290440e5d11227a2be0fd7aa67082cfdcc2e drm/etnaviv: reference MMU context when setting up hardware state
-ce08544488481e1e0437d1990c636794cbb01d2a drm/etnaviv: add missing MMU context put when reaping MMU mapping
-f2fc20a135a55e1c19fa1defe40a47c984e8cc05 s390/sclp: fix Secure-IPL facility detection
-1cc4b0ead8e0b1fc178825942dd78cca63d47970 Linux 5.10.68-rc1
+6c68ed8c7a13a46015fc7c8bb02eadd5bec5e5ce io_uring: ensure symmetry in handling iter types in loop_rw_iter()
+792251efc2af65f0ea1a02189969700a3dbb37e7 swiotlb-xen: avoid double free
+4ce7775251ad5f4a3954dbec91d35c3d15a97546 swiotlb-xen: fix late init retry
+dd4d518d7a321d00a062ed4885d7a9be11fc735b xen: reset legacy rtc flag for PV domU
+ad93357ce94db3356fa2f16fb6726a9cb1b3f7eb xen: fix usage of pmd_populate in mremap for pv guests
+d5c82859add0dd0e61565dea5e403e984d912be9 bnx2x: Fix enabling network interfaces without VFs
+2cb251cbbca345642e3cd580a783f70311c0ebbf arm64/sve: Use correct size when reinitialising SVE state
+fe2b53f35c82f0b153e28b5bc352227277e10921 PM: base: power: don't try to use non-existing RTC for storing data
+2cc99edf513bfc05761253119efaa85256d6d892 PCI: Add AMD GPU multi-function power dependencies
+ef75e817a312c12979055ba4ae8c2464c841256a drm/amd/display: Get backlight from PWM if DMCU is not initialized
+e3e111bf1068d88f1b5683111a8b6b5d9223e854 drm/amd/display: dsc mst 2 4K displays go dark with 2 lane HBR3
+e47ba126803dbe4bada5155c209c36c320696c57 drm/amd/display: Fix white screen page fault for gpuvm
+25166bc54cba4113ff30a02dd3df0c871d3634ad drm/amd/pm: fix runpm hang when amdgpu loaded prior to sound driver
+26b11abebbcaa3ed76fae2b9e0283454c1422a6d drm/amd/amdgpu: Increase HWIP_MAX_INSTANCE to 10
+215628852a6e7d07d9470b3f1ab63814408bde59 drm/amdgpu: use IS_ERR for debugfs APIs
+7d0044ef7a6b90ab40bfc97af6ab27448286cc74 drm/amdgpu: fix use after free during BO move
+939eb3397bd1712cf7a3400ca7b1569de7c4a7b4 drm/amdgpu: add amdgpu_amdkfd_resume_iommu
+7178252fc60c319be4c29b464222e57dc08e0d41 drm/amdgpu: move iommu_resume before ip init/resume
+624ddccf00ca18c68aaf6ef3de7ae068ca011dd6 drm/amd/pm: fix the issue of uploading powerplay table
+790102054df8d51c97c686dc7b5141e2a71a83b3 drm/amdkfd: separate kfd_iommu_resume from kfd_resume
+30278614663013331774f715598012b3a9f0d95a drm/radeon: pass drm dev radeon_agp_head_init directly
+f3cdcc154a2578acffd6913e3c0692ccc88792cb io_uring: allow retry for O_NONBLOCK if async is supported
+4c69c7e6af2fb80a5cefd880e0b78b4701fc0820 drm/i915/dp: Use max params for panels < eDP 1.4
+bdd492740534045d356d5677b1c2e3b41f7a645c drm/etnaviv: return context from etnaviv_iommu_context_get
+f8b3dbef09ea9c0e078379e68fb4b21cdc079a34 drm/etnaviv: put submit prev MMU context when it exists
+7d0aefea7da7ff7f2b2ad383898be0024da52b51 drm/etnaviv: stop abusing mmu_context as FE running marker
+a2df2d0ecf86928bc8ea5c0e62e0f870b55c5362 drm/etnaviv: keep MMU context across runtime suspend/resume
+3824fb330b65a27048547d2ce63bb8be7bff286b drm/etnaviv: exec and MMU state is lost when resetting the GPU
+c67344b3a3dc698a5b8a75c1d568b809a5775b69 drm/etnaviv: fix MMU context leak on GPU reset
+9a95716d52e3c90274787bf6d595b38f9921028b drm/etnaviv: reference MMU context when setting up hardware state
+5f9241614126d5d11cf850b58b1d088471091acc drm/etnaviv: add missing MMU context put when reaping MMU mapping
+0fb6b3c9bb37b3449fb031f3d17ca21c2106e962 s390/sclp: fix Secure-IPL facility detection
+3831c3724fa49cd750d897d35f4e406d0dc325a2 net: qrtr: revert check in qrtr_endpoint_post()
+6fd2956b03b31cbeb7fd0221d2b42dbed710ce85 Linux 5.14.7-rc1
 
---===============3310776668817337811==--
+--===============3855193143585670908==--
