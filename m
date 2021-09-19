@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sun, 19 Sep 2021 18:21:18 -0000
-Message-Id: <163207567857.16744.2344110050322934227@gitolite.kernel.org>
+Date: Sun, 19 Sep 2021 18:21:24 -0000
+Message-Id: <163207568408.16832.10409818504905776592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 198ac651f46b7d4efd660a1f5ab4f93ca422947d
     new: c64b9a4eab20b3e6d82e0c0f98f8c0919b175d02
     log: |
