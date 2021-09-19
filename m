@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 19 Sep 2021 11:56:15 -0000
-Message-Id: <163205257543.1616.12942169989512198035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 19 Sep 2021 11:59:38 -0000
+Message-Id: <163205277877.2697.7164971404951890241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 9ce4e3d6d85600153e61c4b8c3c346bd84d84470
-    new: 4fc29989835ab7379f807854b5f7338b752b9f1a
+    old: 48e6d083b3aa006052db687fb26eeceef1d325b6
+    new: 2dcb96bacce36021c2f3eaae0cef607b5bb71ede
     log: |
-         4fc29989835ab7379f807854b5f7338b752b9f1a net: rtnetlink: convert rcu_assign_pointer to RCU_INIT_POINTER
+         2dcb96bacce36021c2f3eaae0cef607b5bb71ede net: core: Correct the sock::sk_lock.owned lockdep annotations
          
