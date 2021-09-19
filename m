@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sun, 19 Sep 2021 18:23:53 -0000
-Message-Id: <163207583340.17803.13881258887665402854@gitolite.kernel.org>
+Date: Sun, 19 Sep 2021 18:25:58 -0000
+Message-Id: <163207595888.20255.8254443225919884026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/heads/main
-    old: b7e0c80b00bb4e3d4c845f2270c5c0c8262154ca
-    new: d526e044bddaa2c2ad855c7296147e49be0ab03c
+  - ref: refs/notes/signatures/tar
+    old: 6de39b56ecca62930fe1c7c63e7a4501e1ae8e8c
+    new: 7ecca63e3a6f6a100e441ae60b97ab49a74aff55
     log: |
-         d526e044bddaa2c2ad855c7296147e49be0ab03c qed: Add firmware 8.59.1.0
+         7ecca63e3a6f6a100e441ae60b97ab49a74aff55 Notes added by 'git notes add'
          
