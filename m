@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 19 Sep 2021 09:40:20 -0000
-Message-Id: <163204442064.10678.18294413661231316159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sun, 19 Sep 2021 09:52:11 -0000
+Message-Id: <163204513129.18681.5165830547581561301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/tags/misc-habanalabs-fixes-2021-09-19
-    old: 0000000000000000000000000000000000000000
-    new: 91c8be63682416a00a725fc202befc7287e78fe8
+  - ref: refs/heads/extcon-next
+    old: 35bd1d0209fdb0f834d042266519aa43eae3fa7d
+    new: 1a4bedc5305b2728151c445b7516157688522e0a
+    log: |
+         1a4bedc5305b2728151c445b7516157688522e0a extcon: extcon-axp288: Use P-Unit semaphore lock for register accesses
+         
