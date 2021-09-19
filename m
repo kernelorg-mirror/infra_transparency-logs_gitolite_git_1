@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sun, 19 Sep 2021 18:26:16 -0000
-Message-Id: <163207597638.20513.5386240152061443703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 19 Sep 2021 18:26:41 -0000
+Message-Id: <163207600105.20673.16851317811837190250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: b7e0c80b00bb4e3d4c845f2270c5c0c8262154ca
-    new: d526e044bddaa2c2ad855c7296147e49be0ab03c
-    log: |
-         d526e044bddaa2c2ad855c7296147e49be0ab03c qed: Add firmware 8.59.1.0
-         
+  - ref: refs/tags/x86-urgent-2021-09-19
+    old: 0000000000000000000000000000000000000000
+    new: ab11f4f0de30ee11f6a28834c505107349071cdc
