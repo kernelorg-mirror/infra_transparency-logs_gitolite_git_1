@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 19 Sep 2021 11:45:16 -0000
-Message-Id: <163205191627.26049.6926188375941746306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 19 Sep 2021 11:45:25 -0000
+Message-Id: <163205192563.26141.7494466523296484473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 87758511075ec961486fe78d7548dd709b524433
-    new: 48e6d083b3aa006052db687fb26eeceef1d325b6
+    old: aed0826b0cf2e488900ab92193893e803d65c070
+    new: db9c8e2b1e246fc2dc20828932949437793146cc
     log: |
-         48e6d083b3aa006052db687fb26eeceef1d325b6 docs: net: dsa: sja1105: fix reference to sja1105.txt
+         db9c8e2b1e246fc2dc20828932949437793146cc NET: IPV4: fix error "do not initialise globals to 0"
          
