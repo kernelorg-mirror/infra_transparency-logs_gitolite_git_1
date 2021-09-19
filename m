@@ -1,70 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============8104409280676136239=="
+Content-Type: multipart/mixed; boundary="===============6582187370268645250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 19 Sep 2021 08:39:43 -0000
-Message-Id: <163204078330.18848.678383817043017419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 19 Sep 2021 08:58:08 -0000
+Message-Id: <163204188848.31637.5266513371359004141@gitolite.kernel.org>
 
---===============8104409280676136239==
+--===============6582187370268645250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-next
-    old: 3aa17a28cf9fd7443a6293b382da102c1ffd5569
-    new: 4cfa82c6cafc1236a078b34191567c88b9f732ce
-    log: revlist-3aa17a28cf9f-4cfa82c6cafc.txt
-  - ref: refs/heads/queue-rc
-    old: 7699ae88f592c07f7a3837e29ebc479adbfa16b7
-    new: 56bfcaa54baff5b413355fa7ce19be13d58bf934
-    log: |
-         56bfcaa54baff5b413355fa7ce19be13d58bf934 Merge branch 'testing/rdma-rc' into queue-rc
-         
+  - ref: refs/heads/linux-5.14.y
+    old: 6a7ababc0268063d0798c46d5859a90ee996612f
+    new: 55461cc72d95298a32fc995910eaf2a5ce7cb2fd
+    log: revlist-6a7ababc0268-55461cc72d95.txt
 
---===============8104409280676136239==
+--===============6582187370268645250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3aa17a28cf9f-4cfa82c6cafc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-af2b78a116bca451ab01cf7e73a6120d665d517b net/sched: Don't print dump stack in event of transmission timeout
-558efb7f1a95ac8f1cd0d12feed1f623578d50f7 RDMA/mlx5: Avoid taking MRs from larger MR cache pools when a pool is empty
-dd59413956a4fe33535d9761d28ebc8ddfec7208 RDMA/core: Introduce peer memory interface
-6288badcdbd948a3769f14fae7ce6ddf3d6a0720 IB/mlx5: Add ATS support for peer memory
-84957bd99fc67f4e2896d88b43be3355cb2ea145 net/mlx5: Add uid field to UAR allocation structures
-64d329eca412c5218d727d8def0e82aa03565f33 IB/mlx5: Enable UAR to have DevX UID
-37af7436f143a72906d18c6bc7aded50813fb473 net/mlx5: Add ifc bits to support optional counters
-05c11a0d7b15d69c639512b31200d270050fbc97 net/mlx5: Add priorities for counters in RDMA namespaces
-e2cb7b4fc268074912fd5e4d08032ef25fae2654 RDMA/counter: Add a descriptor in struct rdma_hw_stats
-a1ee0cfff0790f7b650c63426f385484a4dd177b RDMA/counter: Add an is_disabled field in struct rdma_hw_stats
-6ef10888042679668f3e2aebc7904ab4e80db020 RDMA/counter: Add optional counter support
-5c94873cd35132735c46ff00894b5a415dadcc06 RDMA/nldev: Add support to get status of all counters
-cce767514e46120b402b44457da4170a8c816be5 RDMA/nldev: Allow optional-counter status configuration through RDMA netlink
-647d82cedcc506807a6cd58aa24da627e7870adf RDMA/mlx5: Support optional counters in hw_stats initialization
-05c057ffd82a3437cd86ec2cb5e40caaecabb825 RDMA/mlx5: Add steering support in optional flow counters
-1a76196f2e398ee18dc1916080c3b633d941c6c4 RDMA/mlx5: Add modify_op_stat() support
-f64d0134839c0db7b416ff7e1e9bbf4636a09141 RDMA/mlx5: Add optional counter support in get_hw_stats callback
-416e0309d6b79805d8940355085ed0d4e24aa295 RDMA/mlx5: Add dummy umem to IB_MR_TYPE_DM
-1617c73da5f94b55a24a459d47b81f99ea72f309 Revert "RDMA/mlx5: Add dummy umem to IB_MR_TYPE_DM"
-537af433dcfbd0f678166c08301ab5a3e2d93eeb RDMA/usnic: Lock VF with mutex instead of spinlock
-1660ba9722cd68bf6f9ae5e5442a6b89ca70b7c8 DEBUG: net/mlx5: cleanup bridge dwork with cancel_delayed_work_sync
-030ae48ae131afe3bc888617547191c2dbbd33e4 init: don't panic if mount_nodev_root failed
-3c3e5f3a66d0b246371338cd4889847aaa14197f PCI/IOV: Provide internal VF index
-e829f6a86b407158d0b9b5ff8daafc16db1cbb58 vfio: Add an API to check migration state transition validity
-c18fd75c554991aa3c721246e78734545f7b6621 vfio/pci_core: Make the region->release() function optional
-0e9d49947f5d14c1cc16ebda665ed913583ad785 net/mlx5: Introduce migration bits and structures
-4ee86af245d175ce9a7e2f8a1850df1f0e6ac078 net/mlx5: Expose APIs to get/put the mlx5 core device
-ecf8b0def0e24636d45259b70d870908ddafe91b mlx5_vfio_pci: Expose migration commands over mlx5 device
-cbecf4d04ad74394f16865ed2626b311dcbcd514 mlx5_vfio_pci: Implement vfio_pci driver for mlx5 devices
-0c7cd677ef56598491ded355a681b5d62228cbc4 net/mlx5: Publish and unpublish all devlink parameters at once
-3d002a0f0879cf816988898b1530f01cda04feb3 devlink: Delete not-used single parameter notification APIs
-d81726ad3a82a421760615b3ef410e987ced982b devlink: Delete not-used devlink APIs
-5a1520b755ac11120edc12df837f441a1a6d8bad Merge branch 'rdma-next' into testing/rdma-next
-4cfa82c6cafc1236a078b34191567c88b9f732ce Merge branch 'testing/rdma-next' into queue-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632041886 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1632041885-976da94f78e96ecc4bc63a0ba461c475b692c189
 
---===============8104409280676136239==--
+6a7ababc0268063d0798c46d5859a90ee996612f 55461cc72d95298a32fc995910eaf2a5ce7cb2fd refs/heads/linux-5.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFG+54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4dYP/0Bq7YyWoI6x6PuYkaLH
+iKC6eHa+XEIEhEIGeTiso8jeFEXdecMqEF2PpI/c778EGujwTH1OVF1VBSJeMIgl
+j2RnDql78vKgGwg9YH7BKCC7DQUTihMtRChRhnstpMW5Jn69hybZyh2cTlot8BSV
+pZ6IQcRkYmKkfmn14DfNfLWUiF9Dm1Ujf43VcNX398xM4apcdB9A2Wu2tDLqlY1r
+iErQ/3PcW/qFBgjc0aojPo2xpwOG5AKMB34bsGMNeJSjuDd4+OJZ7FR/Tkb8n9lL
+k8JPYGIuk7tj4ft5TZv71OFyv5beW4wUURDl1Hfnfuy43K06bnErEFT0vHcmR3kw
+wsUWanT05i+6ttK7/afWpuuYJqtABmiNmj1aSbND3XYud2TB2lrpiEi4l+OhlC7o
+7UhesPCo4HzwfmLfx5IhXdeAXS+gxub/0Wxq2XUPB3QfbFF5KuRFREKS4vTWJeno
+binCLc/5vY9Ufzxz9hWxM7DHsmx6oDemt/32dBST9iSqmJd/cMfliY8cElES+Jpn
+1ZosLAfs064pNJjm5uwlChMf8AKOs7uT6wiIMh+9wh23Fbe9XcEqxgz8A4UPTG4i
+bkofBomZqKYocRcaPe6adYdgyqqGfNnZBkmkCW8+jzZfTml0mwy9BlTKhqEMGD8A
+hg0+zy+KZjnH0hixQ8zbi3ih
+=siZ7
+-----END PGP SIGNATURE-----
+
+--===============6582187370268645250==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6a7ababc0268-55461cc72d95.txt
+
+659868f3b21534ff5df9d17171371bcc31268211 io_uring: ensure symmetry in handling iter types in loop_rw_iter()
+12e5c10f49aadffa96ee197048ee5a6bf3658cf7 swiotlb-xen: avoid double free
+2cfc85add552aac9e5a5f00471c70a2ab3ed2a60 swiotlb-xen: fix late init retry
+f6bb2c050742dec42c6f602f18d0cc563028dd8f xen: reset legacy rtc flag for PV domU
+9fb2e4bbffe7ad3f22e3739710552721ecfec734 xen: fix usage of pmd_populate in mremap for pv guests
+cc3c4d079ab1b06f8c8720466fecd10a490c0934 bnx2x: Fix enabling network interfaces without VFs
+fee404341a79b988904002b2cd8b046a6758d1de arm64/sve: Use correct size when reinitialising SVE state
+76668c726aa90222bcb19f439c7ee21e697527ea PM: base: power: don't try to use non-existing RTC for storing data
+a8da78867d798e52bc232dde4168d553628cdea1 PCI: Add AMD GPU multi-function power dependencies
+4935cc034eff3bee0571651cda1b98fa307b2411 drm/amd/display: Get backlight from PWM if DMCU is not initialized
+30ccceecf0e1373b84f31c33c2e2c346a515e16c drm/amd/display: dsc mst 2 4K displays go dark with 2 lane HBR3
+5eb876a5feb23b974acd8b2857522119d75a5037 drm/amd/display: Fix white screen page fault for gpuvm
+f7f6b26accf0977c985b04ae331c56789802f6a0 drm/amd/pm: fix runpm hang when amdgpu loaded prior to sound driver
+c3ef30581f02aa43de99a085567748c68a115d2c drm/amd/amdgpu: Increase HWIP_MAX_INSTANCE to 10
+e3d95269af3ed46fe0cdfbeba54e7f2aa78d21d9 drm/amdgpu: use IS_ERR for debugfs APIs
+d80aa867420c6f0acb0127bb0af434b9773946fe drm/amdgpu: fix use after free during BO move
+8ca88a517eb9698bf8135e835afdf1d6c03c129f drm/amdgpu: add amdgpu_amdkfd_resume_iommu
+f0a7536cd7f4271211d155c57260b72adb80a137 drm/amdgpu: move iommu_resume before ip init/resume
+5aa07797725199a03ede3edc1415a20dcfd2fde2 drm/amd/pm: fix the issue of uploading powerplay table
+adb3d3f0a53a0a7582454f8e54d1c783a3d964ea drm/amdkfd: separate kfd_iommu_resume from kfd_resume
+23bb9615ee6d18127e439f7f307d32257266cb4e drm/radeon: pass drm dev radeon_agp_head_init directly
+ccb2986b8d008455d4f64311056b715d85409c38 io_uring: allow retry for O_NONBLOCK if async is supported
+d89e0f2b3ef97270225ad189dbe892d188868896 drm/i915/dp: Use max params for panels < eDP 1.4
+2d5bce714ed05354833e027dea8097da75b6b353 drm/etnaviv: return context from etnaviv_iommu_context_get
+44204a2f67c544b428efcd40ff316cc7dda6f4e8 drm/etnaviv: put submit prev MMU context when it exists
+616472289ec6cd072de72051a8708b876dd54e71 drm/etnaviv: stop abusing mmu_context as FE running marker
+ae084b1d84aa39c789e66f1a6f946ff150e1302a drm/etnaviv: keep MMU context across runtime suspend/resume
+aec62c37330daedc32eaed17da3a80bc283eb9b8 drm/etnaviv: exec and MMU state is lost when resetting the GPU
+edf59c299f98ca0201a0e3154a1f2be4bc6a741d drm/etnaviv: fix MMU context leak on GPU reset
+ebfe0c463708b4655d55a6c764d20747492ffc14 drm/etnaviv: reference MMU context when setting up hardware state
+91b8c9a8520da6a736d3eabe946111250b8b1506 drm/etnaviv: add missing MMU context put when reaping MMU mapping
+438e3cc453f6e4c50cf08c067cdf99472cf95da9 s390/sclp: fix Secure-IPL facility detection
+56a9f11669665d124297c559e0e20ce23756831c net: qrtr: revert check in qrtr_endpoint_post()
+55461cc72d95298a32fc995910eaf2a5ce7cb2fd Linux 5.14.7-rc1
+
+--===============6582187370268645250==--
