@@ -1,39 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nmenon/linux
-Date: Mon, 20 Sep 2021 18:59:11 -0000
-Message-Id: <163216435142.24672.2335946164872647474@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7663135210640973783=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 20 Sep 2021 19:01:23 -0000
+Message-Id: <163216448398.26973.14177960335586466967@gitolite.kernel.org>
+
+--===============7663135210640973783==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nmenon/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 500e6dfbb465531150ac6e2ff0856dd357ddc8a4
-    new: 6037c75b193ac7aec33f131cd48744549b552604
+  - ref: refs/heads/staging-testing
+    old: d1c73dd5df220889b64f73c2edcfd05281aa9ae4
+    new: 7bdedfef085bb652dc13db357d2a938512645eb3
     log: |
-         9af3ef954975c383eeb667aee207d9ce6fbef8c4 arm64: dts: ti: k3-j721e-main: Fix "max-virtual-functions" in PCIe EP nodes
-         5f46633565b1c1e1840a927676065d72b442dac4 arm64: dts: ti: k3-j721e-main: Fix "bus-range" upto 256 bus number for PCIe
-         0d553792726a61ced760422e74ea67552ac69cdb arm64: dts: ti: j7200-main: Fix "vendor-id"/"device-id" properties of pcie node
-         8bb8429290c0043a78804ae48294b53f781ee426 arm64: dts: ti: j7200-main: Fix "bus-range" upto 256 bus number for PCIe
-         b6021ba03bdf25b7bf7751e107fed2f92dbb8e50 arm64: dts: ti: j7200-main: Add *max-virtual-functions* for pcie-ep DT node
-         1c953935c00537009c5b41ebdbef807d8536943a arm64: dts: ti: k3-am65-main: Cleanup "ranges" property in "pcie" DT node
-         f54e1a97c8dbfe7717e15690c79f1bf20186e1fe arm64: dts: ti: ti-k3*: Introduce aliases for mmc nodes
-         6037c75b193ac7aec33f131cd48744549b552604 arm64: dts: ti: k3-am65: Relocate thermal-zones to SoC specific location
+         7bdedfef085bb652dc13db357d2a938512645eb3 staging: r8188eu: Remove mp, a.k.a. manufacturing process, code
          
-  - ref: refs/heads/ti-k3-next
-    old: 500e6dfbb465531150ac6e2ff0856dd357ddc8a4
-    new: 6037c75b193ac7aec33f131cd48744549b552604
-    log: |
-         9af3ef954975c383eeb667aee207d9ce6fbef8c4 arm64: dts: ti: k3-j721e-main: Fix "max-virtual-functions" in PCIe EP nodes
-         5f46633565b1c1e1840a927676065d72b442dac4 arm64: dts: ti: k3-j721e-main: Fix "bus-range" upto 256 bus number for PCIe
-         0d553792726a61ced760422e74ea67552ac69cdb arm64: dts: ti: j7200-main: Fix "vendor-id"/"device-id" properties of pcie node
-         8bb8429290c0043a78804ae48294b53f781ee426 arm64: dts: ti: j7200-main: Fix "bus-range" upto 256 bus number for PCIe
-         b6021ba03bdf25b7bf7751e107fed2f92dbb8e50 arm64: dts: ti: j7200-main: Add *max-virtual-functions* for pcie-ep DT node
-         1c953935c00537009c5b41ebdbef807d8536943a arm64: dts: ti: k3-am65-main: Cleanup "ranges" property in "pcie" DT node
-         f54e1a97c8dbfe7717e15690c79f1bf20186e1fe arm64: dts: ti: ti-k3*: Introduce aliases for mmc nodes
-         6037c75b193ac7aec33f131cd48744549b552604 arm64: dts: ti: k3-am65: Relocate thermal-zones to SoC specific location
-         
+
+--===============7663135210640973783==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632164482 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1632164481-a516d6146473031e6bbbcd1c2330954907adbf6f
+
+d1c73dd5df220889b64f73c2edcfd05281aa9ae4 7bdedfef085bb652dc13db357d2a938512645eb3 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFI2oIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nA0P/ivP0uKqYoHgSNBPEHEU
+fuo1kSCyKBGfE0e45CmVWZwjdxSdamtL/ADJ3vDD9xMWS1pQzmFGj39bOgvGHQLv
+YrlgmMnThgq/KsReGx3yXdlSnZV0pX5nR0hAzkSNDDCnp006TDKBl8QL5KrZUouj
+fZrWNKwx5BqQDPoQo+KYbDcfSNCNeFY/vljlMA90IQF0dmzxk0vZz/e+Nn4U4Vwf
+Q/WnlfnVGAY5kbTi/TopcEHv45djL+ECpnEzKdreKgFr8+/yURLfBWHReGVh/UGg
+eP3yzGB6+Nqa+WaoZBvWT9VhkWnucHZeus2hp2fasURjGhlwbsiUt9RAI+4+D0Lz
+eH0R1cGInFN7PEZchivWoMZrKuUrQmLzhd3dHRidOXCUus0JPw7G2Xu5JSY0FA5A
+HSW3v9OSDIX5oXxxlZOf+dUZPnxGFpygE/Sm57/ZfVeO3baCdOfo9bFH87uNxQyL
+NIa+7GbWBm+NIPDXf2pS2D7lwe0/c1WplD7PZRIfVwycNPYbkB8/nmI/RLnBxcMF
+UifuopAYcpbcnZKx+QHGMGaSnD5bGswJxpR3ZWC6eVGTCYpDP4dvBgQa79yBW8p2
+mCLZqI5Q3ZZSs55wwRxr387hSpBjupLzr44psIW3RK1a8rpNi8rRj3Bu3gCud8O3
+zNSoDz/c7xCbGPMCr0q7p4/f
+=PGHA
+-----END PGP SIGNATURE-----
+
+--===============7663135210640973783==--
