@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1817202268771636357=="
+Content-Type: multipart/mixed; boundary="===============8437741844441148744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 20 Sep 2021 15:24:14 -0000
-Message-Id: <163215145493.11172.14386244311541826003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 20 Sep 2021 15:24:28 -0000
+Message-Id: <163215146827.11272.4736850840470397067@gitolite.kernel.org>
 
---===============1817202268771636357==
+--===============8437741844441148744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 6101f606d8bfb432b3b15d1449b03b28e4faf939
-    new: 024a0383b3fafe20eca115c77a2c2be4fcb90805
-    log: revlist-6101f606d8bf-024a0383b3fa.txt
+    old: 26b1f08a690460a4803f31045babda2764b223c9
+    new: d3055ce518a4e829c7a79dbae10bcfb5978e5466
+    log: revlist-26b1f08a6904-d3055ce518a4.txt
   - ref: refs/heads/for-next
-    old: ea6ad72324f8089c7a7b8f32c0252d89bb601cbf
-    new: 09aef6aff4508f308795739dfeb896f29788cc3d
-    log: revlist-ea6ad72324f8-09aef6aff450.txt
+    old: 9e36a96ee3da527992d0217963c52f6314b2f47c
+    new: efe79efc21cfee31095cf825b636af247b94be6a
+    log: revlist-9e36a96ee3da-efe79efc21cf.txt
 
---===============1817202268771636357==
+--===============8437741844441148744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6101f606d8bf-024a0383b3fa.txt
+Content-Disposition: attachment; filename=revlist-26b1f08a6904-d3055ce518a4.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -308,13 +308,13 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-024a0383b3fafe20eca115c77a2c2be4fcb90805 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
+d3055ce518a4e829c7a79dbae10bcfb5978e5466 Merge tag 'v5.15-rc2' into spi-5.15
 
---===============1817202268771636357==
+--===============8437741844441148744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea6ad72324f8-09aef6aff450.txt
+Content-Disposition: attachment; filename=revlist-9e36a96ee3da-efe79efc21cf.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -594,8 +594,8 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-f1e5ecc5b7cc9d91ce975680a2f1f84b235f7e07 regulator: fix typo in Kconfig and max8973-regulator
-024a0383b3fafe20eca115c77a2c2be4fcb90805 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
-09aef6aff4508f308795739dfeb896f29788cc3d Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
+09134c5322df9f105d9ed324051872d5d0e162aa spi: Fixed division by zero warning
+d3055ce518a4e829c7a79dbae10bcfb5978e5466 Merge tag 'v5.15-rc2' into spi-5.15
+efe79efc21cfee31095cf825b636af247b94be6a Merge remote-tracking branch 'spi/for-5.15' into spi-5.16
 
---===============1817202268771636357==--
+--===============8437741844441148744==--
