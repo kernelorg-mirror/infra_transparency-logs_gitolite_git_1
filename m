@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1732938175736198983=="
+Content-Type: multipart/mixed; boundary="===============4267256316405050417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 20 Sep 2021 14:54:50 -0000
-Message-Id: <163214969015.23230.16332596144243907050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 20 Sep 2021 14:54:57 -0000
+Message-Id: <163214969727.23325.374934659476202394@gitolite.kernel.org>
 
---===============1732938175736198983==
+--===============4267256316405050417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 2266721938b9d12ebf4f2cd96b88912ffa4f5e91
     new: cca46db7e2da12b823ee137d46824e0d6f936877
     log: revlist-2266721938b9-cca46db7e2da.txt
 
---===============1732938175736198983==
+--===============4267256316405050417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1632149646 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1632149686-a8b0e9d9ff272f0102ee85d6b7b0f470e5533953
+pusher C3F436CA30F5D8EB 1632149653 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1632149694-fceda463294773d2a047aa373436bbd395678443
 
-2266721938b9d12ebf4f2cd96b88912ffa4f5e91 cca46db7e2da12b823ee137d46824e0d6f936877 refs/heads/for-5.16
+2266721938b9d12ebf4f2cd96b88912ffa4f5e91 cca46db7e2da12b823ee137d46824e0d6f936877 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFIoI4ACgkQJNaLcl1U
-h9A8Wgf/Yg5H2zIuQ7sNfpJ+5OypGTRarWOs2T72ntwwOZ7bwHIVZvRTcmDDzk+N
-6dE+YZcvKGTY1DG8dZ946DbNpVmUfJhIwEnPt9NXQ4LkR5WADPYNzyLNrQVHI3S0
-NUKrG5lBxPplfU6iFDAIJnSQDairGVq4EnD0DXlgKAaBdSIe6voj7+hFenrucmaP
-m+O2qbPqY+8u4gMr8lEXgbl6Ud3C/8OK3DCPYVDx/T6C4JGGBOXNGZm+rvH5DUM9
-Cnjjg+F6umE1kplsMpB3fgIvDcC/ZkDWFXlO4tCoda9U5aVidJVtU8faT+/zJ5RP
-sO/HZvzUu/dNEqK+I0O4DLOBHgiyJQ==
-=qzeE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFIoJUACgkQJNaLcl1U
+h9C3wQf8C+1N5/nALMobJrPRam4zW4+XlJo3xUXR+BnKxE+v4Hrrf2JCnU66Hs/W
+zMj2bctra2J+FzjGhJ2AOedqCbAFN8vIABi97he6CrE+UX21dj5fh35c3dWT23Rh
+LMX8QRPUTT0HAxPA4uW6zK0v0qx9IqDrDUwVUy5yU6RT7lQxuI9mgrzklXfqkE15
+PiM6E6A6BignPurJELt6TPdJhU8ELUlW+1VMy9bZTVlA0IdzznZKWjNes+LkbDdw
+7NEyk7RP0iv/0IFM0EVK3CqHE7Wpw7NJ8V7HTAEdZ2lktrRf33ALwMXOseqEWXNI
+33lHbW+jAqOmC7Bjv5hS8B9Bqbi3Ww==
+=9xCT
 -----END PGP SIGNATURE-----
 
---===============1732938175736198983==
+--===============4267256316405050417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ a7a18abbd26caf22e40165eb734e67d338735f5b ASoC: dt-bindings: rt5682s: correct sev
 2a07ef63f51f820582f65be4b85a09e38da94d01 Merge series "Extend AHUB audio support for Tegra210 and later" from Sameer Pujar <spujar@nvidia.com>:
 cca46db7e2da12b823ee137d46824e0d6f936877 Merge series "ASoC: compress: Support module_get on stream open" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
 
---===============1732938175736198983==--
+--===============4267256316405050417==--
