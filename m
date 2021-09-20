@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0086513954218081170=="
+Content-Type: multipart/mixed; boundary="===============2954531159426596527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 20 Sep 2021 11:41:03 -0000
-Message-Id: <163213806355.20867.15756109655992976694@gitolite.kernel.org>
+Date: Mon, 20 Sep 2021 11:41:50 -0000
+Message-Id: <163213811096.21188.12574681805092594847@gitolite.kernel.org>
 
---===============0086513954218081170==
+--===============2954531159426596527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,59 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 5b1a39613b2a5c9a9ba0e75568cafc684aa90da6
-    new: 037116c8f047a1912b33b7e9411e755864a7b7c5
-    log: |
-         80dd0a2aae31eff3045c81f1f876d85466d3cc2c staging: r8188eu: remove odm_ConfigRF_RadioB_8188E()
-         a97707ab82d99f6a754ca116a0cf7110f4ce833f staging: r8188eu: remove ODM_DIG_LowerBound_88E()
-         5c0779aeb1b2c49cc4f092aec00951e002af3989 staging: r8188eu: remove rtl8188e_RF_ChangeTxPath()
-         416696e6d5f813a86ad87eced9fcc3e58e3b783d staging: r8188eu: remove unused struct rf_shadow
-         9ffd2024ffd9f490558aeb0d39ced95ec9ea06af staging: r8188eu: remove HalDetectPwrDownMode88E()
-         71d3bf926ceb563e9b325e5ac981875db9131e1c staging: r8188eu: remove rtw_IOL_cmd_tx_pkt_buf_dump()
-         2a60c1f015ce8d91e4cf5cb6640c48dbd49717a2 staging: r8188eu: remove rtl8188e_set_rssi_cmd()
-         c2e478e74cb684627265008f8041cf7c6acd6519 staging: r8188eu: remove EFUSE_Read1Byte()
-         037116c8f047a1912b33b7e9411e755864a7b7c5 staging: r8188eu: do not write past the end of an array
-         
+    old: 037116c8f047a1912b33b7e9411e755864a7b7c5
+    new: 42350b2e6f300ef7df7118f5084ca93b61fd1550
+    log: revlist-037116c8f047-42350b2e6f30.txt
 
---===============0086513954218081170==
+--===============2954531159426596527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632138061 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632138108 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1632138060-0bf315a7920b46713647d3ed9db27c254af56c82
+nonce 1632138108-f8580ad3ff0624e4e1bd1b86209dcda70c167a64
 
-5b1a39613b2a5c9a9ba0e75568cafc684aa90da6 037116c8f047a1912b33b7e9411e755864a7b7c5 refs/heads/staging-testing
+037116c8f047a1912b33b7e9411e755864a7b7c5 42350b2e6f300ef7df7118f5084ca93b61fd1550 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFIc00bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E7cQAK8W06wgdcZVv/Guilf6
-cmmz1/mQtqSZMvYcT2ebo+wirkiVt5H5AxAlXmOMBo1YvmcpIXyVk9K2C7KZ/4Vt
-abeyd1df8vzV0JlKHKs+uu+1B5Wc3lFhIK2ThWa8bV3zozXEPIJH9aU5jFAlfiZp
-3XUiaZ3J1sSEA/lmS0Ip+yjTEzRsF+yhByAPrGgsoNXDlU2RX4A12pCTEOhb3IyV
-DcLwAk4b3iIeZ/tGa32Aj4J9RkYzOSTvXWzwJf4dSSjJgzN1dvv59hY94rq6rcFj
-ooEJ0/wbIRXG+5m75+mLTAzQj/hPVtlbWOFoER3NV/bcHnIfrHK4TSeiDmmdBLCn
-DBd0D/F1wkZN4alugoCFC91sjgpTpIOmtfvYs3MsNS00rGMKouqjINvN/vMN8YL2
-PxweXWSC0f29dvEZu18QaD1+7NEGgtaw67U30GhGVA8P789kt6MVQUEWswbZ2JfQ
-QEjzqzuTl1gyCxW8yEfVfybwrZtK2CaD7oXKzQiFfFCTtLgqlOd/nYYKQ8LgdXbv
-AX3NrZ0PuUetxfW2jbj1MwfkosQq4h/roLCzPhTySG593GRisqAuQy8NwEQFV5lU
-6h7YpsJjYH8HYhmDaTZunjp1a3fa3TCXQjt7IhdvI7fGJNwivIcmSq5nKvq/u9R0
-qSV4OwWtu4IswPzwiIgIIGUU
-=wa2B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFIc3wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cF4P/RE+IhBCYuGp1moVl8a+
+3UVCItdKbu90MykuOYRcLBP+mtIQCNZN6xnmQZ7g4pQCjH5mAoFdHzPuQ9TH2tT8
+mnB5OuoTc3sU4xVL5TaXZ7FyrRWrRa+rmYPEzBToe2doGzWlsVsmIS2zMlock1+M
+/CjfF2yLf9PwAms9v2Oa/6lsXVf+UZYL0y0c1SjdtN4fusV4OzBljLJppk599ZjN
+DthHmp4hiODjnRsIpfFCYFloTKATtQZjN8KnB7NIlXWNSlknUKkB8rDoKmEY0DFR
+tSqKdFViFzl3kcSunlPukOgV/EDNGmN+ZowB9JGpk9Wv3dd8j6XLe3HZGOwG5cHF
+WQes0y0HqSgXcTgR8HGrqUyCsQUuyKdFFOg1nomUWU07nSxKQ36zbOtDpTuuFmhp
+TrQ4MBpbTcCS3YZmGz7kC4pA9qShWgyOwXBrOW0/oQZK9YS3CaWb54pVInCGPcar
+03aa83YCvNXLJ8GobtPLo0cUmLcc99vY1cjIc4pKAVKMNCLh/YDkhBRtsWK0nzUO
+NoXqibDAvugqt7AwyEGSQkzsYDpepL0E30tZ2ZtR7MVve6w8gXF0HtWllmIWpgAI
+vM66gtAAJ0j4cACme5YhiAksNxOLsQ9D3YaN8TiPlFkjAc4CS/rAYxpoSQj0A8A0
+IAjvYxhuIAY86/pwctPCdUI3
+=WzYN
 -----END PGP SIGNATURE-----
 
---===============0086513954218081170==--
+--===============2954531159426596527==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-037116c8f047-42350b2e6f30.txt
+
+0291d8e38c22950ddf57bcf2ccab42f8882634f5 staging: r8188eu: remove comments from odm_interface.h
+f5575429c6f3f454b76d0fde4a5c904d17650fa1 staging: r8188eu: remove unused macros from odm_interface.h
+eaa51044746d267e090f350dd46ff33e3b01abac staging: r8188eu: remove _ic_type from macro _cat in odm_interface.h
+03e9a558afff8482674d2f04d75fe00bd1171850 staging: r8188eu: remove dead code from ODM_Write_DIG()
+74f42d4f069ad05e5eec1bebedb2617f00191694 staging: r8188eu: remove unnecessary if statement
+83a753b348aac050da8189c899e35f8ca9cad69d staging: r8188eu: remove more dead code from ODM_Write_DIG()
+c42d9cd583117e0633abfb101d39cc3b7b0c745a staging: r8188eu: remove macro ODM_REG
+21c318af1b86303138c1935dbd9cfe55f8d2750c staging: r8188eu: remove macro ODM_BIT
+15774b84ab882f8f36bbca3086784b8474580549 staging: r8188eu: remove unnecessary if statements
+b706bf2921a9b8c81feff6ff8c0d1d7cac80a98e staging: r8188eu: remove dead code from odm.c
+27e92f6a1d0e6d74b00a63a5c538a4c43ad1e54c staging: r8188eu: remove macros ODM_IC_11{N,AC}_SERIES
+7a4425cd8204277b39f98bde4990f966d287e826 staging: r8188eu: remove header file odm_RegDefine11AC.h
+f612453180c5e1a9dca48de176c88fabb2a7a3ad staging: r8188eu: remove unused defines from odm_RegDefine11N.h
+42350b2e6f300ef7df7118f5084ca93b61fd1550 staging: r8188eu: clean up indentation in odm_RegDefine11N.h
+
+--===============2954531159426596527==--
