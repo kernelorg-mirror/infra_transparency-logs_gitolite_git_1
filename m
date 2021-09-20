@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 20 Sep 2021 16:09:52 -0000
-Message-Id: <163215419222.9266.7297323507348302915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Mon, 20 Sep 2021 16:11:52 -0000
+Message-Id: <163215431254.11342.3849888999071752745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 1b789bd4dbd48a92f5427d9c37a72a8f6ca17754
-    new: ad17bbef3dd573da937816edc0ab84fed6a17fa6
+  - ref: refs/heads/master
+    old: 38f19d161c40d5c05813e6f3c852e06b2d132660
+    new: 0ccf519678a78f1a5dbcf65947cb66f1733179cd
     log: |
-         3110b942d36b961858664486d72f815d78c956c3 IB/qib: Fix clang confusion of NULL pointer comparison
-         dcd3f985b20ffcc375f82ca0ca9f241c7025eb5e RDMA/rxe: Fix wrong port_cap_flags
-         d12faf2dee50b4171b18e67a6e30d7e145f66c56 RDMA/rxe: remove the redundant variable
-         ad17bbef3dd573da937816edc0ab84fed6a17fa6 RDMA/rxe: remove the unnecessary variable
-         
-  - ref: refs/heads/for-rc
-    old: 1b789bd4dbd48a92f5427d9c37a72a8f6ca17754
-    new: ca465e1f1f9b38fe916a36f7d80c5d25f2337c81
-    log: |
-         3110b942d36b961858664486d72f815d78c956c3 IB/qib: Fix clang confusion of NULL pointer comparison
-         2cc74e1ee31d00393b6698ec80b322fd26523da4 IB/cma: Do not send IGMP leaves for sendonly Multicast groups
-         ca465e1f1f9b38fe916a36f7d80c5d25f2337c81 RDMA/cma: Fix listener leak in rdma_cma_listen_on_all() failure
+         61e00694e799e1d54c98124880ca03a08dd5d4a2 btrfs-progs: fix defrag -c option parsing
+         96a5cf07194e230666cbc64ab85ee2a8dda31e6b btrfs-progs: handle EINVAL when reading zone size on older kernels
+         7d16785ab438d5b2475b4ecb2bd358682d5aa47c btrfs-progs: tests: test options for defrag -c
+         60651ad9dac02c557f7920f882999292389b6d11 btrfs-progs: introduce OPEN_CTREE_ALLOW_TRANSID_MISMATCH flag
+         3c7e75eefb8b6a43c5d5f7cd1b4d5ca5454651e1 btrfs-progs: tests: test case to make sure btrfstune rejects corrupted fs
+         88de623dd26d4ecbdbbf4dff79551e282abdb443 btrfs-progs: convert: allow to set a duplicate uuid
+         acd57f2356e757e4e173815beca8f1ac2de5f5a7 btrfs-progs: update CHANGES for 5.14.1
+         0ccf519678a78f1a5dbcf65947cb66f1733179cd Btrfs progs v5.14.1
          
