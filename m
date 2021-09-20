@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 20 Sep 2021 22:55:10 -0000
-Message-Id: <163217851086.13152.11338057865708570325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Mon, 20 Sep 2021 23:12:30 -0000
+Message-Id: <163217955031.22372.18202612939053832571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/todo
-    old: f839d65745f5b628d0ccc4446b6f521f3af4e1d0
-    new: 40e115628dcf97fee758020e6b8dcdd0209761b3
-    log: |
-         40e115628dcf97fee758020e6b8dcdd0209761b3 What's cooking (2021/09 #06)
-         
+  - ref: refs/heads/preempt/arm
+    old: 0000000000000000000000000000000000000000
+    new: 1cf9d998d8ee0cce091e33665aa3ac53470283b4
