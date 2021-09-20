@@ -1,37 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0189627103423131613=="
+Content-Type: multipart/mixed; boundary="===============5322313752209510002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 20 Sep 2021 17:36:04 -0000
-Message-Id: <163215936485.3681.4936027942702303260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 20 Sep 2021 17:39:03 -0000
+Message-Id: <163215954398.4668.16305935122764195092@gitolite.kernel.org>
 
---===============0189627103423131613==
+--===============5322313752209510002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: c0002d11d79900f8aa5c8375336434940d6afedf
-    new: 4b53bb873fcd578a1075b79e7bea0143b4e1ca67
-    log: |
-         f279294b329363eb6ada568e494d609ef78e3e8e misc_cgroup: introduce misc.events to count failures
-         b03357528fd9516600ff358ab5d4b887b8cb80e8 misc_cgroup: remove error log to avoid log flood
-         4b53bb873fcd578a1075b79e7bea0143b4e1ca67 docs/cgroup: add entry for misc.events
-         
   - ref: refs/heads/master
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: e4e737bb5c170df6135a127739a9e6148ee3da82
     log: revlist-6880fa6c5660-e4e737bb5c17.txt
-  - ref: refs/heads/for-5.16
+  - ref: refs/tags/v5.15-rc2
     old: 0000000000000000000000000000000000000000
-    new: 4b53bb873fcd578a1075b79e7bea0143b4e1ca67
+    new: 249433b711cba85aaec2e714898b46e3fa821571
 
---===============0189627103423131613==
+--===============5322313752209510002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -316,4 +308,4 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
 
---===============0189627103423131613==--
+--===============5322313752209510002==--
