@@ -1,49 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5573101418657936997=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 20 Sep 2021 23:31:11 -0000
-Message-Id: <163218067186.2958.16106674556201272536@gitolite.kernel.org>
-
---===============5573101418657936997==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Mon, 20 Sep 2021 23:31:48 -0000
+Message-Id: <163218070837.3231.3206082557139438553@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: 4c17ca27923c16fd73bbb9ad033c7d749c3bcfcc
-    new: d9fb678414c048e185eaddadd18d75f5e8832ff3
-    log: revlist-4c17ca27923c-d9fb678414c0.txt
-
---===============5573101418657936997==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c17ca27923c-d9fb678414c0.txt
-
-345e1ae0c6ba54f6a4d32154e80cadc2ee2ef1af afs: Fix missing put on afs_read objects and missing get on the key therein
-581b2027af0018944ba301d68e7af45c6d1128b5 afs: Fix page leak
-3978d816523991dd86cf9aae88c295230a5ea3b2 afs: Add missing vnode validation checks
-63d49d843ef5fffeea069e0ffdfbd2bf40ba01c6 afs: Fix incorrect triggering of sillyrename on 3rd-party invalidation
-6e0e99d58a6530cf65f10e4bb16630c5be6c254d afs: Fix mmap coherency vs 3rd-party changes
-4fe6a946823a9bc8619fd16b7ea7d15914a30f22 afs: Try to avoid taking RCU read lock when checking vnode validity
-b537a3c21775075395af475dcc6ef212fcf29db8 afs: Fix corruption in reads at fpos 2G-4G from an OpenAFS server
-9d37e1cab2a9d2cee2737973fa455e6f89eee46a afs: Fix updating of i_blocks on file/dir extension
-099dd788e31b4f426ef49c2785069804925a84e1 cifs: remove pathname for file from SPDX header
-4c51de1e8f928a5b05248714d832d7d991ac319a cifs: fix incorrect kernel doc comments
-a9b3043de47b7f8cbe38c36aee572526665b6315 ksmbd: transport_rdma: Don't include rwlock.h directly
-e3fc065682ebbbd15b0ce0036800f4acbf765d46 cifs: Deferred close performance improvements
-71826b068884050d5fdd37fda857ba1539c513d3 cifs: Fix soft lockup during fsstress
-35866f3f779aef5e7ba84e4d1023fe2e2a0e219e cifs: Not to defer close on file when lock is set
-f58eae6c5fa882d6d0a6b7587a099602a59d57b5 ksmbd: prevent out of share access
-6d56262c3d224699b29b9bb6b4ace8bab7d692c2 ksmbd: add validation for FILE_FULL_EA_INFORMATION of smb2_get_info
-fdf5078458793fca9e9c0fb5e58a1a970ca0fdef Merge tag '5.15-rc1-smb3' of git://git.samba.org/sfrench/cifs-2.6
-707a63e9a9dd55432d47bf40457d4a3413888dcc Merge tag '5.15-rc1-ksmbd' of git://git.samba.org/ksmbd
-d9fb678414c048e185eaddadd18d75f5e8832ff3 Merge tag 'afs-fixes-20210913' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-
---===============5573101418657936997==--
+  - ref: refs/heads/preempt/arm
+    old: 6396a2d192834a45d4b4d4dcc8c76dab5c9b0da7
+    new: 351eaa68b5304b8b0e7c6e7b4470dd917475e65e
+    log: |
+         989f40573483b4ad37be0da7313b63a0af66af0b sched/preempt: Prepare for supporting !CONFIG_GENERIC_ENTRY dynamic preemption
+         45d16bc12204f18a69dc8a2f47cc555ff755d5ab arm64: implement support for static call trampolines
+         f3f46c21a190cbf8b0b8b887eb64925352f78ba1 arm64: Implement IRQ exit preemption static call for dynamic preemption
+         351eaa68b5304b8b0e7c6e7b4470dd917475e65e arm64: Implement HAVE_PREEMPT_DYNAMIC
+         
