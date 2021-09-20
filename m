@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6308135692043230431=="
+Content-Type: multipart/mixed; boundary="===============1817202268771636357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 20 Sep 2021 15:23:53 -0000
-Message-Id: <163215143357.10981.13583253458501965555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 20 Sep 2021 15:24:14 -0000
+Message-Id: <163215145493.11172.14386244311541826003@gitolite.kernel.org>
 
---===============6308135692043230431==
+--===============1817202268771636357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 31078df33b25c8a8e25b4f65d80c4df34573ba47
-    new: 556b59b0c680542a5af01d4c536fda65c53af4f2
-    log: revlist-31078df33b25-556b59b0c680.txt
+    old: 6101f606d8bfb432b3b15d1449b03b28e4faf939
+    new: 024a0383b3fafe20eca115c77a2c2be4fcb90805
+    log: revlist-6101f606d8bf-024a0383b3fa.txt
   - ref: refs/heads/for-next
-    old: eb4ec51579e8ff0f30ee0eeb39cf8a3e3e46cdea
-    new: cc908256886c8c22c8f0bca162a4285ccf57757d
-    log: revlist-eb4ec51579e8-cc908256886c.txt
+    old: ea6ad72324f8089c7a7b8f32c0252d89bb601cbf
+    new: 09aef6aff4508f308795739dfeb896f29788cc3d
+    log: revlist-ea6ad72324f8-09aef6aff450.txt
 
---===============6308135692043230431==
+--===============1817202268771636357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31078df33b25-556b59b0c680.txt
+Content-Disposition: attachment; filename=revlist-6101f606d8bf-024a0383b3fa.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -308,13 +308,13 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-556b59b0c680542a5af01d4c536fda65c53af4f2 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+024a0383b3fafe20eca115c77a2c2be4fcb90805 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
 
---===============6308135692043230431==
+--===============1817202268771636357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb4ec51579e8-cc908256886c.txt
+Content-Disposition: attachment; filename=revlist-ea6ad72324f8-09aef6aff450.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -594,28 +594,8 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-a739fdc26211952edb34bf1ac9ed7afe220a5d54 ASoC: soc-component: Convert the mark_module to void*
-cd46f3824480740879d2c15d65c6e6b038f96021 ASoC: compress/component: Use module_get_when_open/put_when_close for cstream
-0c25db3f7621ce39e959e95b8fea240ea2bfff6a ASoC: soc-pcm: Don't reconnect an already active BE
-7a226f2eabdc2e839d8f07c5ce087136f9c0f35c ASoC: simple-card-utils: Increase maximum DAI links limit to 512
-30b428d02cbc9888d84407306d54dce8c2b8bfbf ASoC: audio-graph: Fixup CPU endpoint hw_params in a BE<->BE link
-aa56a9dedf9940a85fcfcc09d838334b2f219424 ASoC: dt-bindings: tegra: Few more Tegra210 AHUB modules
-94d486c2e5e72f62b4320288c0e69393326e14a9 ASoC: tegra: Add routes for few AHUB modules
-e539891f968722d632234ac942c4749ad8ca189a ASoC: tegra: Add Tegra210 based MVC driver
-b2f74ec53a6cc0f2bb6cdb61d430828337d0e069 ASoC: tegra: Add Tegra210 based SFC driver
-77f7df346c4533b91d0dcc2b549eb7c98abd198b ASoC: tegra: Add Tegra210 based AMX driver
-a99ab6f395a9e45ca3f9047e9b88d6e02737419f ASoC: tegra: Add Tegra210 based ADX driver
-05bb3d5ec64a632acebdb62779dd4c9d7dc495d2 ASoC: tegra: Add Tegra210 based Mixer driver
-cf21e114f6f44fdb06b7ceaaee5f2c360883bd74 ASoC: rt5682s: make rt5682s_aif2_dai_ops and rt5682s_soc_component_dev
-600e0ae9aa7175d777cbac16d0d3bbbebe63e2a5 ASoC: SOF: Remove struct sof_ops_table and sof_get_ops() macro
-ef92ed2623ead917e4f10465451aa12cd7977241 ASoC: ab8500: Update to modern clocking terminology
-a7a18abbd26caf22e40165eb734e67d338735f5b ASoC: dt-bindings: rt5682s: correct several errors
-5374b9215dbe93e22a0f51b111ca3e83f9b58e1a ASoC: Intel: boards: Update to modern clocking terminology
-0f9a84b20f14f8a5039594493a1b6f9c49bf2995 ASoC: codecs: max98390: simplify getting the adapter of a client
-2a07ef63f51f820582f65be4b85a09e38da94d01 Merge series "Extend AHUB audio support for Tegra210 and later" from Sameer Pujar <spujar@nvidia.com>:
-cca46db7e2da12b823ee137d46824e0d6f936877 Merge series "ASoC: compress: Support module_get on stream open" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
-8e8f2ac09db909e7cb8ae1fef9c1e524c49a1b48 ASoC: Drop mistakenly applied SPI patch
-556b59b0c680542a5af01d4c536fda65c53af4f2 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-cc908256886c8c22c8f0bca162a4285ccf57757d Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
+f1e5ecc5b7cc9d91ce975680a2f1f84b235f7e07 regulator: fix typo in Kconfig and max8973-regulator
+024a0383b3fafe20eca115c77a2c2be4fcb90805 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
+09aef6aff4508f308795739dfeb896f29788cc3d Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
 
---===============6308135692043230431==--
+--===============1817202268771636357==--
