@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 20 Sep 2021 18:00:50 -0000
-Message-Id: <163216085083.20065.12353031104855417169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 20 Sep 2021 18:18:43 -0000
+Message-Id: <163216192346.30189.5809606533992798376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-5.16
-    old: 4b53bb873fcd578a1075b79e7bea0143b4e1ca67
-    new: 7ee285395b211cad474b2b989db52666e0430daf
+  - ref: refs/heads/master
+    old: e4e737bb5c170df6135a127739a9e6148ee3da82
+    new: e8f71f89236ef82d449991bfbc237e3cb6ea584f
     log: |
-         7ee285395b211cad474b2b989db52666e0430daf cgroup: Make rebind_subsystems() disable v2 controllers all at once
-         
-  - ref: refs/heads/for-next
-    old: 4b53bb873fcd578a1075b79e7bea0143b4e1ca67
-    new: 7ee285395b211cad474b2b989db52666e0430daf
-    log: |
-         7ee285395b211cad474b2b989db52666e0430daf cgroup: Make rebind_subsystems() disable v2 controllers all at once
+         d8b1e10a2b8efaf71d151aa756052fbf2f3b6d57 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+         e8f71f89236ef82d449991bfbc237e3cb6ea584f drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
          
