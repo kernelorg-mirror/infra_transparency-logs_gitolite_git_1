@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0831303566218677252=="
+Content-Type: multipart/mixed; boundary="===============0614639874202634486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 20 Sep 2021 10:34:54 -0000
-Message-Id: <163213409439.9416.3779269140611905566@gitolite.kernel.org>
+Date: Mon, 20 Sep 2021 10:35:29 -0000
+Message-Id: <163213412923.11017.684718306502978342@gitolite.kernel.org>
 
---===============0831303566218677252==
+--===============0614639874202634486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 92dc0b1f46e12cfabd28d709bb34f7a39431b44f
-    new: aa3233ea7bdb6c4004f5032a3a07417ea51dc409
+  - ref: refs/heads/staging-testing
+    old: 7b228bdf87c20f6240714a1d3a32d74001715adc
+    new: 5b1a39613b2a5c9a9ba0e75568cafc684aa90da6
     log: |
-         aa3233ea7bdb6c4004f5032a3a07417ea51dc409 staging: r8188eu: fix -Wrestrict warnings
+         08fd549c224a6df7ee43cc4b5520a96d948f6062 staging: r8188eu: remove ap_sta_info_defer_update()
+         398fd0f396f0284e05e31e889c78d5f91923252c staging: r8188eu: remove rtw_acl_add_sta()
+         6e7dcf2c14790321164789a71d7b4ba133b3b6fa staging: r8188eu: remove rtw_acl_remove_sta()
+         d2949cf5085fba9cfae9e60d5d586d9cc78aeb1e staging: r8188eu: remove rtw_ap_inform_ch_switch()
+         e3839fdff128df91b3553c67c495806e0f9925e0 staging: r8188eu: remove rtw_check_beacon_data()
+         5b1a39613b2a5c9a9ba0e75568cafc684aa90da6 staging: r8188eu: remove rtw_set_macaddr_acl()
          
 
---===============0831303566218677252==
+--===============0614639874202634486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632134092 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632134127 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1632134091-59401a53fa7c336d2e4e46c2ac534072a5f37841
+nonce 1632134126-ad7ecfe17119d29426811bcb128e28e3878e81ed
 
-92dc0b1f46e12cfabd28d709bb34f7a39431b44f aa3233ea7bdb6c4004f5032a3a07417ea51dc409 refs/heads/staging-linus
+7b228bdf87c20f6240714a1d3a32d74001715adc 5b1a39613b2a5c9a9ba0e75568cafc684aa90da6 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFIY8wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wIsP/i5H/3/18RGwrmNxIovB
-0Y74kTmG1sdVd4zVw/glJk+XkhUkkPwrq3cfkopP0JNctwBMs4EyD+jCTPRExcYR
-sM5fTMV6j5QpPcF4wEkW3PxmdP9gNCiZHcYTTH32P8UEdQqLScr894N6TPWzfltF
-uqgKFPs/4DqVt4GdXz+fmQiRMEVqXEfZT9Cm87ZQwQ9NNg0F7ouqXHTy7C+MCBCF
-7ZuqTCD1Gndo5DqbcznzQRDnclgMDNsTKaxoBRsu72MfN+0rU6onM8wYTYYnE5vs
-FCwPxu92+DlUsEP9D1qLhweabosjHs3FZoaCkUseoIPd4sIMHlQVBKraeFOmNBYn
-gJd1/14MiAgEgupQrta6b5gYIZjeX1mjL0LZLs6k8vCHRABH0ULDzCImH1SKcJBx
-GDyYMp4UYUenyVqVyV7vm4sb1szO6m/IjEtZF3tvyz4ODC8pcp7VtIv9tNUY7MQS
-NGaeHqaqJsa+Y58VVGYxOy9ljv1qPyzLXfIutU5b/WFhgae77QXhaaMho0s0yEgD
-WiZWY5k6VinmooSzZAeJGy1ypqlofdWgQWSsAhddRoc/Dr+3msIeiC9zugtVu7O9
-Z/MddlUN0uOzdXe7KaIrlDuNdYR+9sFmzdSwYBE9pcih8AbyPxVbStaTJXM+yfUM
-pQZr968A0R58duxWsORAnvix
-=9luo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFIY+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dXEP/A4HJxJkiJ5+vGQc+PyX
+5EryJIF4eiW9RNAhpdl+1QybBbNsNOJ3yzYQioS7uc+eSTwvycT8oB8COHhdt9sB
+MoD1Qtz0SFDW79b5rFS/3fGpB+XorVE/y7bm/a3A8kq4OW7/7btpla+5OI5VO0eO
+arSQwzfgBsd/4vkPLI0fBwcBKqIMuuTBjqNh+eXHezN7Az6T5BEY2YxyZ5Tnju6c
+29sZdu8RWm0b9UsDXdb9JpBMXiQ/MpR04rS+6mGCVCUuCmisn3FHcxg6AYR62uLH
+igYLge7tNjrmLCwRewzGCKJ9rLCsHs/mggCHCzXW6ur4Kdc1HRCxRJpopNSVv5Ry
+Rptb6YlsCVyp5cqM3fyqXVQPUupLLz36jgiM+WSmaORYgqLDyYv2AnY8oE1FAfv/
+UwwyjEvwyhNjjkHYKCrM6py6W55EGMz4rNIpM8rw1Ku9d5hJxFEFstwGmvH+wAc2
+XEIE72cy0w/bZ/fDVltgmDm+ZakYHxm5wa8iKHEY75g4dgURrNACBpqJAO7jT0OO
+XmOopC1iQVgngdlnSdE+XtnZvwOocZY6dx8gqje5nz5OOFGwd05z1CRwdP43U4BJ
+cU2/MIsclBFHc+MVuBv4wI5V33w/UE0AubLKrM7oKWA1iTzf8V4Ic/9yzGxg7ZAm
+gYqdE7p45dgJ8F22VutT69Du
+=gecZ
 -----END PGP SIGNATURE-----
 
---===============0831303566218677252==--
+--===============0614639874202634486==--
