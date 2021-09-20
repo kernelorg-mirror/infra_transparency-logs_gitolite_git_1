@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
-Date: Mon, 20 Sep 2021 16:11:52 -0000
-Message-Id: <163215431254.11342.3849888999071752745@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4216219406469691635=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Sep 2021 16:17:22 -0000
+Message-Id: <163215464286.14577.6496735309457816526@gitolite.kernel.org>
+
+--===============4216219406469691635==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 38f19d161c40d5c05813e6f3c852e06b2d132660
-    new: 0ccf519678a78f1a5dbcf65947cb66f1733179cd
+    old: 9435d34f36ea7b08ef3d81ccde0d8e9c8c38ee0b
+    new: 1faa3897bc0da1a61a2a38998270929918535d8b
     log: |
-         61e00694e799e1d54c98124880ca03a08dd5d4a2 btrfs-progs: fix defrag -c option parsing
-         96a5cf07194e230666cbc64ab85ee2a8dda31e6b btrfs-progs: handle EINVAL when reading zone size on older kernels
-         7d16785ab438d5b2475b4ecb2bd358682d5aa47c btrfs-progs: tests: test options for defrag -c
-         60651ad9dac02c557f7920f882999292389b6d11 btrfs-progs: introduce OPEN_CTREE_ALLOW_TRANSID_MISMATCH flag
-         3c7e75eefb8b6a43c5d5f7cd1b4d5ca5454651e1 btrfs-progs: tests: test case to make sure btrfstune rejects corrupted fs
-         88de623dd26d4ecbdbbf4dff79551e282abdb443 btrfs-progs: convert: allow to set a duplicate uuid
-         acd57f2356e757e4e173815beca8f1ac2de5f5a7 btrfs-progs: update CHANGES for 5.14.1
-         0ccf519678a78f1a5dbcf65947cb66f1733179cd Btrfs progs v5.14.1
+         1faa3897bc0da1a61a2a38998270929918535d8b 5.10-stable patches
          
+
+--===============4216219406469691635==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632154641 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1632154640-56f6f180f10e91dd7e31f2231c9dfec2f63b9cf2
+
+9435d34f36ea7b08ef3d81ccde0d8e9c8c38ee0b 1faa3897bc0da1a61a2a38998270929918535d8b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFItBEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6TIP/20LQHngGLYE0RNE0mPK
+IvVZGYBCkfNTMQXnx1xYuAPaWD8A3BRHlKzmU4we8wLmC5AI2nMNEjkmbc7AdU/z
+Ss9x6myAo2cLRTs/FnB7lETDM6Hj2br8FBZpBe/kX+c2Co5UhTR1QNjEYJtKYyHJ
+e1Gmwj3tX46dJ0sJbIwcDcBvkRue9jKCJeYSm3pygy+zAWkBuc64v6PNi9v7FyLV
+gld8PScDLWArlDGhiTv12SKYhLeRbZkxPurGQq087IUWHdWF+Xv1z4BXRwkHVkFf
+YaWzJfj2fb8nAO/+2Jj0V7u7XKyaTGf3ysqQ3zyEIIq7DpAY5+ONhLJMwyeMc9LD
+ZmUOAKuA22QpjC9g8FgfHAptIOWRJBx4yeMSN6lFXe5yXvVJV8ick7VJCmzjrkud
+C5ylYAeKmxTNpypfBT4aFQjpjZ7XkSij8MqOs6eHYVJt8VNMfoqPDyPf4Am01hJr
+pcggSBmZWPQRi00MpthJP2A9vEnTS4l4IsN40uL7hD9BoioBcDSax3VcnrR3LZS/
+HJ7aYT9FaV/t1XySeCy2fuMlmt7wXsPe2msO9aDCAyiN4mFQYqLb6tZW8SG0BU/8
+Aw0t/jtvvyv/dX0/gobX3ZDyT/7tsWMoMf7VSQRSwmpqNJdRNuLkq/TOiWHQOh5+
+wLjAN24owKtZEU+lgG0hgZm6
+=Fb1Y
+-----END PGP SIGNATURE-----
+
+--===============4216219406469691635==--
