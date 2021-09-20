@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 20 Sep 2021 10:51:27 -0000
-Message-Id: <163213508701.21792.16397134501855461394@gitolite.kernel.org>
+Date: Mon, 20 Sep 2021 11:02:17 -0000
+Message-Id: <163213573798.28107.812747157932799411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
   - ref: refs/heads/for-next/scmi
-    old: 440320fdecdb3752ac48242941518447d33fbbed
-    new: d16f8804d8598a5280a47434a64114b5f48a80a2
+    old: d16f8804d8598a5280a47434a64114b5f48a80a2
+    new: 1cd73200dad2d53d839b3323596dbf8a2b949d86
     log: |
-         c90521a0e94f00a2e40889b7d7d99f1494fa9381 firmware: arm_scmi: Fix virtio transport Kconfig dependency
-         d16f8804d8598a5280a47434a64114b5f48a80a2 firmware: arm_scmi: remove __exit annotation
+         1cd73200dad2d53d839b3323596dbf8a2b949d86 firmware: arm_scmi: Remove __exit annotation
          
