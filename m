@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2666002613583943323=="
+Content-Type: multipart/mixed; boundary="===============0395585804863492334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 20 Sep 2021 11:49:04 -0000
-Message-Id: <163213854413.26399.17986765307419226349@gitolite.kernel.org>
+Date: Mon, 20 Sep 2021 11:49:09 -0000
+Message-Id: <163213854916.26486.12456915506151017322@gitolite.kernel.org>
 
---===============2666002613583943323==
+--===============0395585804863492334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: cdfca4efac09aedae7d38dfd009274bd8b73fc4f
-    new: 0fce0a591e9c880edea48b14e08d1ecd7ebb6248
-    log: revlist-cdfca4efac09-0fce0a591e9c.txt
+  - ref: refs/heads/m68k-queue
+    old: e79234a5d7df406197e34c051468ddd8c743517e
+    new: fb6f076047e45f719c443b61c91987836a5f0285
+    log: revlist-e79234a5d7df-fb6f076047e4.txt
 
---===============2666002613583943323==
+--===============0395585804863492334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdfca4efac09-0fce0a591e9c.txt
+Content-Disposition: attachment; filename=revlist-e79234a5d7df-fb6f076047e4.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -75,8 +75,6 @@ f11ee2ad25b22c2ee587045dd6999434375532f7 net: mana: Prefer struct_size over open
 7a842fb589e3cdbe205bc16dc37c30cf13383159 io-wq: code clean of io_wqe_create_worker()
 767a65e9f31789d80e41edd03a802314905e8fbf io-wq: fix potential race of acct->nr_workers
 67f3b2f822b7e71cfc9b42dbd9f3144fa2933e0b blk-mq: avoid to iterate over stale request
-b1a89856fbf63fffde6a4771d8f1ac21df549e50 m68k: Double cast io functions to unsigned long
-a7b68ed15d1fd72c1e451d5eb6edebee2a624b90 m68k: mvme: Remove overdue #warnings in RTC handling
 eca4cf12acda306f851f6d2a05b1c9ef62cf0e81 bnxt_en: Fix error recovery regression
 1affc01fdc6035189a5ab2a24948c9419ee0ecf2 bnxt_en: make bnxt_free_skbs() safe to call after bnxt_free_mem()
 985941e1dd5e996311c29688ca0d3aa1ff8eb0b6 bnxt_en: Clean up completion ring page arrays completely
@@ -304,6 +302,8 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-0fce0a591e9c880edea48b14e08d1ecd7ebb6248 Merge tag 'v5.15-rc2'
+df8725c2e50a29ca141eedbc558e3f511f92b480 m68k: atari: usb: Add ISP1160 USB host controller support
+2506289f114d452ad657ceec7245cf3887491af0 m68k: atari: Update Kconfig.bus help text
+fb6f076047e45f719c443b61c91987836a5f0285 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2666002613583943323==--
+--===============0395585804863492334==--
