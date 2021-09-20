@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 20 Sep 2021 15:16:10 -0000
-Message-Id: <163215097014.5444.13041357714955083381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 20 Sep 2021 15:17:32 -0000
+Message-Id: <163215105228.5929.5611070147536939505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/damon/next
-    old: 393537027ed066db5aa9df2279e1326c9909ee4f
-    new: 66018ed0c555ff664565363cd61a18e3546df290
+  - ref: refs/heads/for-linus-5.15b
+    old: d859ed25b24289c87a97889653596f8088367e16
+    new: 794d5b8a497ff053f56856472e2fae038fa761aa
     log: |
-         fb2ef267f711ec7a816de2f5f73e88a730425366 ksummit21/wse: Add hello world module
-         1af25e3c855344a7f66795bc78ff85962e4d2ce8 mm/damon: Export functions for wsse
-         66018ed0c555ff664565363cd61a18e3546df290 ksummit_2021/wsse: Implement the working set size estimation
+         4403f8062abecf24794e0fd3a3e424cc63ba6662 xen/x86: drop redundant zeroing from cpu_initialize_context()
+         f28347cc66395e96712f5c2db0a302ee75bafce6 Xen/gntdev: don't ignore kernel unmapping error
+         9074c79b62b6e0d91d7f716c6e4e9968eaf9e043 swiotlb-xen: ensure to issue well-formed XENMEM_exchange requests
+         e243ae953b5926eba1a8fbea64cbf68094f86a44 PCI: only build xen-pcifront in PV-enabled environments
+         8e1034a526652f265ed993fab7f659eb8ae4b6f0 xen/pci-swiotlb: reduce visibility of symbols
+         794d5b8a497ff053f56856472e2fae038fa761aa swiotlb-xen: this is PV-only on x86
          
