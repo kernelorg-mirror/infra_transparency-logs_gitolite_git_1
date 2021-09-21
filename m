@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 21 Sep 2021 08:46:35 -0000
-Message-Id: <163221399524.29701.17118103322838960501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 21 Sep 2021 08:46:43 -0000
+Message-Id: <163221400301.29799.681290799553686119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 80ed8688d1536d98505510954227752f6ccc8a37
-    new: dd14f95b9b037213ad797e68aa1f56517239cce2
+    old: 01ce70b0a274bd76a5a311fb90d4d446d9bdfea1
+    new: 037ce005af6b8a3e40ee07c6e9266c8997e6a4d6
     log: |
-         841fc3a26cafcaf667adbc56d944f52676a1a46f unshare.1.adoc: Improve wording re namespace creation
-         dd14f95b9b037213ad797e68aa1f56517239cce2 unshare.1.adoc: Improve wording re creation of bind mounts
+         09572fca7223bcf32c9f0d5e100d8381a81d55f4 Bluetooth: hci_sock: Add support for BT_{SND,RCV}BUF
+         266191aa8d14b84958aaeb5e96ee4e97839e3d87 Bluetooth: Fix passing NULL to PTR_ERR
+         037ce005af6b8a3e40ee07c6e9266c8997e6a4d6 Bluetooth: SCO: Fix sco_send_frame returning skb->len
          
