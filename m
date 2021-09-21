@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 21 Sep 2021 20:50:03 -0000
-Message-Id: <163225740371.18153.75320524611872996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 21 Sep 2021 20:54:32 -0000
+Message-Id: <163225767213.20120.14667631034875972799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/io_uring-5.15
-    old: 97bfe5e5ecefac65fb2a612d1f39450ae6cc7caf
-    new: f405fdf7e406eef77359d82f0fe20d0aef38769a
+  - ref: refs/heads/client-miscellany
+    old: 91b8ae0315a2eabc260a3378a0a244e80c38bcea
+    new: 4d3aec5c9e0c6aaad0d03d94494cc8bff2777f8f
     log: |
-         f405fdf7e406eef77359d82f0fe20d0aef38769a io-wq: ensure we exit if thread group is exiting
+         4d3aec5c9e0c6aaad0d03d94494cc8bff2777f8f xprtrdma: Remove rpcrdma_ep::re_implicit_roundup
          
