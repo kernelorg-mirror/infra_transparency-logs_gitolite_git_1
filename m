@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 21 Sep 2021 17:49:06 -0000
-Message-Id: <163224654661.2306.16447596499939275182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 21 Sep 2021 17:54:03 -0000
+Message-Id: <163224684372.5366.17432870662572735179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-linus
-    old: d7a48e27b38a94bf73c973c236461234610256d5
-    new: 1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd
+  - ref: refs/heads/damon/next
+    old: 66018ed0c555ff664565363cd61a18e3546df290
+    new: f012651bd4e85d2ec65c2f8bc138f4a9417f2ebc
     log: |
-         76d685e0ee193fc3351697128dd818457d9d1a63 spi: Revert modalias changes
-         1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 43caf71a959ff54c80e4edd3d4186346a8f6158c
-    new: 647282d9f8642c48161bd424c8e1de197e4ea183
-    log: |
-         76d685e0ee193fc3351697128dd818457d9d1a63 spi: Revert modalias changes
-         1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
-         647282d9f8642c48161bd424c8e1de197e4ea183 Merge remote-tracking branch 'spi/for-5.16' into spi-next
+         93dbf48e47a5c5bf49066a6523f8feee71d35dcd mm/damon: Export more symbols for ksummit demo
+         0510b29879b7302f09f6d68a096c2aeb1b9bc4dc ksummit_2021: Add prcl code
+         dd6eecfebc596b21bdb355b4ea4d0cf7212e105c ksummit2021/wsse: Remove unnecessary 20 aggregations skipping
+         5c46f27a27f4eae775d28335ccf514d8f072a334 ksummit2021: Implement boilerplates
+         cd085e8de4deb66df069c195b3eea00d6e9f94ce ksummit2021/boilerplate: Update
+         91d7eae106bde840cbf965c72d5d1eaa874f458e wsse: Make it more simple
+         dc56d2c54358ecbdeb92e4590a48e97c408743c4 for_ksummit/wsse: Rename files
+         f012651bd4e85d2ec65c2f8bc138f4a9417f2ebc ksummit/prcl: Update
          
