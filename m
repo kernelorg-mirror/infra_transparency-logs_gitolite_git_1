@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7028985881298536330=="
+Content-Type: multipart/mixed; boundary="===============3305822168948339200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
-Date: Tue, 21 Sep 2021 03:12:14 -0000
-Message-Id: <163219393437.14686.917522187369907588@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 03:19:52 -0000
+Message-Id: <163219439201.19739.3220207558743482618@gitolite.kernel.org>
 
---===============7028985881298536330==
+--===============3305822168948339200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/fs/fscrypt/fscrypt
 user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 38ef66b05cfa3560323344a0b3e09e583f1eb974
-    new: a2993db1807bed58255571d74f512742624b64bd
-    log: revlist-38ef66b05cfa-a2993db1807b.txt
+  - ref: refs/heads/for-stable
+    old: d19d8d345eecd9247cbe6cbf27aef271bd88aba7
+    new: 27c106addfccebd52bc054348aaa325b627a4d29
+    log: revlist-d19d8d345eec-27c106addfcc.txt
 
---===============7028985881298536330==
+--===============3305822168948339200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38ef66b05cfa-a2993db1807b.txt
+Content-Disposition: attachment; filename=revlist-d19d8d345eec-27c106addfcc.txt
 
+9673e0050c39b0534d0e2ca431223f52089f4959 ocfs2: ocfs2_downconvert_lock failure results in deadlock
+4bdffd2708d65e68ff254d90793bb167d828219f arch/csky/kernel/probes/kprobes.c: fix bugon.cocci warnings
+3c9b84f044a9e54cf56d1b2c9b80a2d2ce56d70a mm/debug_vm_pgtable: introduce struct pgtable_debug_args
 36b77d1e159283da3c9414cbe6d9cb8e79a59c19 mm/debug_vm_pgtable: use struct pgtable_debug_args in basic tests
 8983d231c7cc1adaebed89153552da1e3fd55f61 mm/debug_vm_pgtable: use struct pgtable_debug_args in leaf and savewrite tests
 8cb183f2f2a014e818cf60de3afd5a06410fd5b9 mm/debug_vm_pgtable: use struct pgtable_debug_args in protnone and devmap tests
@@ -1046,9 +1049,6 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-4373b3dc922038e8924f648506f6556f2afa7e77 fscrypt: remove fscrypt_operations::max_namelen
-f262ca7db7b85cb11517f81d8a6690a9a4be1335 fscrypt: clean up comments in bio.c
-abb861fac0465de10f5d17190523182b2cb55e68 fscrypt: improve documentation for inline encryption
-a2993db1807bed58255571d74f512742624b64bd fscrypt: allow 256-bit master keys with AES-256-XTS
+27c106addfccebd52bc054348aaa325b627a4d29 fs-verity: fix signed integer overflow with i_size near S64_MAX
 
---===============7028985881298536330==--
+--===============3305822168948339200==--
