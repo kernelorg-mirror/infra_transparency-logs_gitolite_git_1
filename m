@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7731429930864642718=="
+Content-Type: multipart/mixed; boundary="===============6396220022173842325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 21 Sep 2021 14:16:18 -0000
-Message-Id: <163223377808.28524.16773090232015750980@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 14:17:36 -0000
+Message-Id: <163223385625.28941.706152159261629084@gitolite.kernel.org>
 
---===============7731429930864642718==
+--===============6396220022173842325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d06246ebd7738bbfc581b887bc24a102450a323f
-    new: 5e87622c4bf3614155781daf5439cf4909adae9a
+  - ref: refs/heads/char-misc-linus
+    old: 50c7ad36e65498802a4015d987d92445ecfb5d00
+    new: d9d1232b48344c6c72dbdf89fae1e7638e5df757
     log: |
-         5e87622c4bf3614155781daf5439cf4909adae9a misc: genwqe: Remove usage of the deprecated "pci-dma-compat.h" API
+         d9d1232b48344c6c72dbdf89fae1e7638e5df757 misc: bcm-vk: fix tty registration race
          
 
---===============7731429930864642718==
+--===============6396220022173842325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632233776 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632233854 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1632233776-9760bbd91bac9ee8007e9cbf6edaf6083cf40485
+nonce 1632233854-0d01e19e536da0e5f78bd6ee88dc0507dfd9d30c
 
-d06246ebd7738bbfc581b887bc24a102450a323f 5e87622c4bf3614155781daf5439cf4909adae9a refs/heads/char-misc-testing
+50c7ad36e65498802a4015d987d92445ecfb5d00 d9d1232b48344c6c72dbdf89fae1e7638e5df757 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ6TAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1/gQAKCgfVMSEamMm5wyFq09
-kHqmU0AurQtVGFE/SsZ10MIw9MQRMa9EdPa89frCDQZOMGppHW4dNlyXXzpHrP7J
-2GHQNqNdcP6qKMztydpm2mOs8Av4Dvt8T/KBidBgaXtMxtBYVzcQ2YYwMb4NmZaM
-qiWCsCz0CHigJMS7ChTZEYDc2GuQhdNA46gTvJugeG4fYDyvyr7CwFqlHA8QEB4o
-0NF1sykGKjS0PiCMjta628OQH84cH34JSiTrbQ0xekY3vsB1BkntLdDIJgrYgi7h
-K9P5c/UdPnMQHwk2Z16umCbCWwMKLXlnWhvoBGEtK7gYQBTzAf3CH1qtcMaeHZQu
-7gTmyOEvw08ocIvvWhK/FJkbiHKEMQL3bgn+gbQI1krlrk4DOt3Shofs5Ej5bDLn
-gvXG7WfCfGZ9X5Ev8fs8evRQuElYK1Hxftl1GPy8O6r+Km9hWa7wBhDUgnYzBne4
-oMtscfcdRxsnsivDYUhAgMmN7zloHC5w/nq7xDwBjPIkxM6BPgeTqHPT6ZmbILjj
-bzczNgpwh9WH51X9o90jkR5thx/6Cwd6XHLkSbxNnLLe8DvTlwI0/EQFA8EdUgFA
-j6EuG6vhKubj8SdFYbZYQbkRMGGbA4k4UW1YVB2F/TmTbNEbPCzPSkv0LZ3dxbnn
-acLaZxTh5fYzRzFhIyDN6jXR
-=HiT3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ6X4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+38sQAIqtb4IQjL1hFqeMxlsk
+L9OP+0YuQC8CxBg9mXUN6fxl0X83Lf9ucUvQvSew4s4UE86ISQ3iJ3L46wj64z62
+tkkRIOA+0+K73xKXdlk1TCZe2QVyGjVpXrsA9Nu5JE50qPbr5WIdOqkxPVCrXH/c
+KSjeR+onl4y3UtnFOOSgwdxFlMEGDo1NM0noqp+4Z2FEmACjpZbqcAeUp2ZwE5ll
+7wEOEfcsVV3j42iz2DF2FD6dkaJyRvJe3UW5FwodR4vhC1x9ICDKnyU4K6Dgd8R4
+HS43MT6zpMlAjdhrmh55D9bW+FRGZeC45Ojh22kEgMphg04OsIQS/+z43aZdcQlU
+GjXquXoC1Nr7L+GUheZZ1XJHZc4ka2nFFQ/fs/S6AguaKA7mLy1q2UIoJTvOH0u2
+50mOq7RBiOcIaT86Q7hp4KA3x8saWMlY2i7RiLpgx6VREkQjglBUoADa26V66C6d
+yGHHO2sSSuAY/HhSlM33/eYQhfDe9h5J8BGjCqxMzabbxRMuiE+o8Aui2Kj04xgc
+hN0tiKvdR3zKRs6xt4s5C6r/XY+sP67qTrW/BmbGApRseSlewRv7bS8kJbVkGA86
+mO6zOZZvoNh2iYaBld+XZQZmQ+3DTGu70vcPG+r+gvdhOPUKrzZUkJaanLR+1JXE
+5sHEohM4jj1zIA1TfIVIDaS5
+=jLVy
 -----END PGP SIGNATURE-----
 
---===============7731429930864642718==--
+--===============6396220022173842325==--
