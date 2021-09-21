@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 21 Sep 2021 07:22:49 -0000
-Message-Id: <163220896900.9914.478590557810166269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 21 Sep 2021 07:23:02 -0000
+Message-Id: <163220898213.10050.10777133037124168453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/sched/core
-    old: 4212bade2e86198ec84f1d65cbfb9023460f01bb
-    new: eac6f3841f1dac7b6f43002056b63f44cc1f1543
+  - ref: refs/heads/v5.16/dt64
+    old: 9450f63ba4d1915d8d605bad6454fc82522d95d7
+    new: 0b26fa8a02c2834f1fa8a206a285b9f84c4ad764
     log: |
-         014bfe892220077b8c623b97e31a91378d204137 x86/sched: Decrease further the priorities of SMT siblings
-         048679b6a675a83f6f54f2775e61fc0f647c9c2b sched/topology: Introduce sched_group::flags
-         cb0e4ee938b1a08507ded179cec3a35b4a8d75b8 sched/fair: Optimize checking for group_asym_packing
-         a7bd2ed2dc9e8bf6b69d26573cb6e80ef42d8e5b sched/fair: Provide update_sg_lb_stats() with sched domain statistics
-         f58215ed2ff917dc40e6fb7b2d9b7fd290ec5055 sched/fair: Carve out logic to mark a group for asymmetric packing
-         eac6f3841f1dac7b6f43002056b63f44cc1f1543 sched/fair: Consider SMT in ASYM_PACKING load balance
+         085675117ecf5e02c4220698fd549024ec64ad2c arm64: dts: meson-g12a: Fix the pwm regulator supply properties
+         62183863f708c2464769e0d477c8ce9f3d326feb arm64: dts: meson-g12b: Fix the pwm regulator supply properties
+         0b26fa8a02c2834f1fa8a206a285b9f84c4ad764 arm64: dts: meson-sm1: Fix the pwm regulator supply properties
          
