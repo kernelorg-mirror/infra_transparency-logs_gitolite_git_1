@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 21 Sep 2021 07:26:12 -0000
-Message-Id: <163220917286.12638.10749187886918624246@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1642248194305876591=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 21 Sep 2021 07:35:35 -0000
+Message-Id: <163220973517.18222.17239621766776939835@gitolite.kernel.org>
+
+--===============1642248194305876591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: eeb44922aa8337c590a3269e13297f9d1f1be331
-    new: 83e38509109e44b884be13fb6c6943aca1742a57
+  - ref: refs/heads/usb-testing
+    old: ae8709b296d80c7f45aa1f35c0e7659ad69edce1
+    new: a0f4971990900789ad0ebd45ec6ed3c02efe2923
     log: |
-         085675117ecf5e02c4220698fd549024ec64ad2c arm64: dts: meson-g12a: Fix the pwm regulator supply properties
-         62183863f708c2464769e0d477c8ce9f3d326feb arm64: dts: meson-g12b: Fix the pwm regulator supply properties
-         0b26fa8a02c2834f1fa8a206a285b9f84c4ad764 arm64: dts: meson-sm1: Fix the pwm regulator supply properties
-         ecff7bab5c9c2e2b6f5739b328347e08415879ec arm64: dts: meson-g12b-odroid-n2: add 5v regulator gpio
-         83e38509109e44b884be13fb6c6943aca1742a57 Merge branch 'v5.16/dt64' into for-next
+         a0f4971990900789ad0ebd45ec6ed3c02efe2923 MAINTAINERS: remove dead e-mails
          
+
+--===============1642248194305876591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632209731 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1632209731-4b757e3f6d6de9184585b474e0433a255a35f59e
+
+ae8709b296d80c7f45aa1f35c0e7659ad69edce1 a0f4971990900789ad0ebd45ec6ed3c02efe2923 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJi0MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lCoP/1shbQ0TsH3F1x2irKh1
+gugxf/qccuz+vEkdz1ykwf53gWKf2ORVFiqZxYyfAx4tzQII1g3C5lEIMHb4px6V
+qWuLgYLe29zle49SntuJ2JZXeXeb/iQeJAIOgGYDlDvW3nWoC9ZKU9YmJkXNcbWT
+WzkqiPc3ILwO7tyQTe+m+apc9TnbsGQ6lgZPq9zx12iDfNZn6OR8M64l7S5SDCPm
+By+BwHQhw3UyR6v8gaMRu1NjQrusHI9B9ShoW447L+G2a087VCyDw/ma5YwWFQyk
+w1q0T6Ovhku5pmyzi4JpJvC/zIypGqPoVRsTzRY846vPJXr2GrEsGABFH0saUeHP
+HOxGwvdDa68+QW5cKQCXRA+alpfdAc1z2gzuLnDxX6QBm+wS0X99xBnCJTnPG+vd
+1YvMrYnbUaj4b1GetegEuZRrsuF952UB6WTINllH42ACjSRn0XslSIjy+4e07any
+FRwsnh3lKeutz6DBVekEdPgAvGtdZkp+SvxuBZ/jF041xZFIFks4Tkbixb5JGBmT
+tfhu22qLvFBazGZcT3KFNAtG/1q/OHbJMBqdPfSW1MnaZkW/BUKWXdmpUIX46QdB
+PLy0pf1cbPHZgXHRte/K5QXXcagu2v1PhZGV4oKlCzErihrszie98c4J2I//oLBn
+gHnBRBTarDLOLR18Awq9cCbm
+=4c7M
+-----END PGP SIGNATURE-----
+
+--===============1642248194305876591==--
