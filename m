@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9089173344962442814=="
+Content-Type: multipart/mixed; boundary="===============4563892639877594607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 21 Sep 2021 22:35:24 -0000
-Message-Id: <163226372445.19351.15378836345270576034@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 22:35:29 -0000
+Message-Id: <163226372942.19423.11951106756764787426@gitolite.kernel.org>
 
---===============9089173344962442814==
+--===============4563892639877594607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/drivers-for-5.16
-    old: a55a97ff0a6171500db921a1f40f1f22c88bb36a
-    new: bdddbf1d74138f7c7a451c34fca87feba5baaedf
-    log: revlist-a55a97ff0a61-bdddbf1d7413.txt
+  - ref: refs/heads/for-next
+    old: bbc6d2e5f895a1275f3f6c79aa5fb9d6ace97568
+    new: e17a5f2fad4a9f2eb4868279440cda5b672eec05
+    log: revlist-bbc6d2e5f895-e17a5f2fad4a.txt
 
---===============9089173344962442814==
+--===============4563892639877594607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a55a97ff0a61-bdddbf1d7413.txt
+Content-Disposition: attachment; filename=revlist-bbc6d2e5f895-e17a5f2fad4a.txt
 
 8c6bc1334303eb23a739635a25280788f20375e3 soc: qcom: rpmhpd: Add SM6350
 13dad59f63a8e5ea72639367c82149ff93da5ad6 soc: qcom: llcc: Add configuration data for SM6350
@@ -53,5 +53,7 @@ a4c0183933294228d8372e60af37b58d41df1ccf dt-bindings: firmware: qcom-scm: Docume
 9400caf7bda48fcbe566d7c29d840375a9c45af2 dt-bindings: soc: qcom: smd-rpm: Add QCM2290 compatible
 5e2b9bef80313dc6ab71102de95285c6b8997fa6 soc: qcom: smd-rpm: Add QCM2290 compatible
 bdddbf1d74138f7c7a451c34fca87feba5baaedf soc: qcom: llcc: Disable MMUHWT retention
+bd351e80626405ebb7bb12a38418b41b59189b10 Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
+e17a5f2fad4a9f2eb4868279440cda5b672eec05 Merge branches 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
 
---===============9089173344962442814==--
+--===============4563892639877594607==--
