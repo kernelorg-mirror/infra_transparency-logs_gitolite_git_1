@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 21 Sep 2021 12:53:56 -0000
-Message-Id: <163222883667.6275.10781558483642459115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 21 Sep 2021 13:12:45 -0000
+Message-Id: <163222996511.17313.2445344868159465647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 3e95cfa24e24fbd7fb7675ab972a5aa507c7a89c
-    new: b3f98404bd629a243c0a15a3ade32b1cf9fbe0da
+  - ref: refs/heads/review-hans
+    old: f6045de1f53268131ea75a99b210b869dcc150b2
+    new: cf5585f92164c0395afea3038b0b4f2201fe8e12
     log: |
-         5135e96a3dd2f4555ae6981c3155a62bcf3227f6 net: dsa: don't allocate the slave_mii_bus using devres
-         74b6d7d13307b016f4b5bba8198297824c0ee6df net: dsa: realtek: register the MDIO bus under devres
-         b3f98404bd629a243c0a15a3ade32b1cf9fbe0da Merge branch 'dsa-devres'
+         8f84a3973c6a2b714b7a494a3568ef8866f81058 platform: lg-laptop: drop unneeded MODULE_ALIAS
+         d24236cb7cf2319d47fac2bed458b6d4eae76b24 platform/x86: dell: fix DELL_WMI_PRIVACY dependencies & build error
+         cf5585f92164c0395afea3038b0b4f2201fe8e12 platform/x86/intel: hid: Add DMI switches allow list
          
