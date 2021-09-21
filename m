@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3097435641564106445=="
+Content-Type: multipart/mixed; boundary="===============2512992566804133900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 21 Sep 2021 23:25:41 -0000
-Message-Id: <163226674131.18951.7959531407168538535@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 23:25:46 -0000
+Message-Id: <163226674690.19071.7203028161552254898@gitolite.kernel.org>
 
---===============3097435641564106445==
+--===============2512992566804133900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.16
-    old: 481155debde70812d3d81b913d1ad00160758e2a
-    new: 0c38d6b6a6a6f15723c875bf97bed51cfda6e4ee
-    log: revlist-481155debde7-0c38d6b6a6a6.txt
+  - ref: refs/heads/for-next
+    old: d47a2fb5730b4621d5e131a74f53a675e14c7db8
+    new: 97ba6e8f4279d9ae72d65d26a2ee65fc155451e7
+    log: revlist-d47a2fb5730b-97ba6e8f4279.txt
 
---===============3097435641564106445==
+--===============2512992566804133900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-481155debde7-0c38d6b6a6a6.txt
+Content-Disposition: attachment; filename=revlist-d47a2fb5730b-97ba6e8f4279.txt
 
 425f30cc843c727bc7753a0d33710d1e4a999168 arm64: dts: qcom: sc7280: fix display port phy reg property
 b464f08ca769947c4bb9d37548c21711efca326b arm64: dts: qcom: c630: add second channel for wifi
@@ -47,5 +47,7 @@ b39f266c19f02c6bf4f39c9a5bf09482b64e96c1 arm64: dts: qcom: sc7280: Add gpu therm
 7a62bfebc8c94bdb6eb8f54f49889dc6b5b79601 arm64: dts: qcom: msm8916: Add unit name for /soc node
 f633d5f74e72addccc7393ff69f32e0b34e808fb arm64: dts: qcom: msm8916: Add "qcom,msm8916-sdhci" compatible
 0c38d6b6a6a6f15723c875bf97bed51cfda6e4ee arm64: dts: qcom: sc7180-trogdor: Enable IPA on LTE only SKUs
+bff6102047e258dc126ee11a84704356477ac2ab Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
+97ba6e8f4279d9ae72d65d26a2ee65fc155451e7 Merge branches 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
 
---===============3097435641564106445==--
+--===============2512992566804133900==--
