@@ -1,62 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============2675460440329829372=="
+Content-Type: multipart/mixed; boundary="===============5113946503533813528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 21 Sep 2021 16:35:42 -0000
-Message-Id: <163224214222.20813.2742004986140620013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 21 Sep 2021 16:49:09 -0000
+Message-Id: <163224294989.28773.14509647970321007946@gitolite.kernel.org>
 
---===============2675460440329829372==
+--===============5113946503533813528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: eb74c39abd76262e890512db65439df62818041e
-    new: ca8e055c22155b262e14409a555bab41a52edfea
+  - ref: refs/heads/for-linus
+    old: 94d508fa3186d0cbc63765aa94d5cf3bd847694c
+    new: cb1bcf5ed536747013fe2b3f9bd56ce3242c295a
+    log: revlist-94d508fa3186-cb1bcf5ed536.txt
+  - ref: refs/heads/for-next
+    old: 94d508fa3186d0cbc63765aa94d5cf3bd847694c
+    new: f02f2f1bf9d154148325eb60d74bdf199022ea52
     log: |
-         ab9c14805b379b7890f2e162149b6978b2a75986 scripts: get_abi.pl: Better handle multiple What parameters
-         f090db43958a0a0b6a920d25f56a79cce2ec8d1b scripts: get_abi.pl: Check for missing symbols at the ABI specs
-         ab02c5150b3164bad777d882fe324cbca3cc9d1d scripts: get_abi.pl: detect softlinks
-         14c942578e19f5760319da3371193c1bc6242f7f scripts: get_abi.pl: add an option to filter undefined results
-         50116aec11debf6dec6295856f3b9368a6a04edf scripts: get_abi.pl: don't skip what that ends with wildcards
-         0b87a1b81ba9b9e2d1d2bc65b3b4318bb645a6e7 scripts: get_abi.pl: Ignore fs/cgroup sysfs nodes earlier
-         ca8e055c22155b262e14409a555bab41a52edfea scripts: get_abi.pl: add a graph to speedup the undefined algorithm
+         f02f2f1bf9d154148325eb60d74bdf199022ea52 ALSA: usx2y: Prefer struct_size over open coded arithmetic
          
+  - ref: refs/heads/master
+    old: ae294d3f0286b8c1db21ae22cfa9fd562c01d8b8
+    new: 2fd2e50a4123ca4d9bbb7cef16f228acfe6df11e
+    log: revlist-ae294d3f0286-2fd2e50a4123.txt
 
---===============2675460440329829372==
+--===============5113946503533813528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-94d508fa3186-cb1bcf5ed536.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632242140 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1632242140-290634ebc57261065a22a9f070a5673c96efd5e3
+58eafe1ff52ee1ce255759fc15729519af180cbb ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+5a80dea93191d55840f42252ed3e4565a125a514 ASoC: mediatek: add required config dependency
+26be23af1866eead5a29f8501f9d774ac277d0bd MAINTAINERS: fix update references to stm32 audio bindings
+9c3ad33b5a412d8bc0a377e7cd9baa53ed52f22d ASoC: fsl_sai: register platform component before registering cpu dai
+f12ce92e98b21c1fc669cd74e12c54a0fe3bc2eb ASoC: fsl_esai: register platform component before registering cpu dai
+0adf292069dcca8bab76a603251fcaabf77468ca ASoC: fsl_micfil: register platform component before registering cpu dai
+ee8ccc2eb5840e34fce088bdb174fd5329153ef0 ASoC: fsl_spdif: register platform component before registering cpu dai
+c590fa80b39287a91abeb487829f3190e7ae775f ASoC: fsl_xcvr: register platform component before registering cpu dai
+1dd038522615b70f5f8945c5631e9e2fa5bd58b1 ASoC: mediatek: common: handle NULL case in suspend/resume function
+7bd5d979dfdb6c047499a5ac91339bf42f7bdee3 Merge series "ASoC: fsl: register platform component before registering cpu dai" from Shengjiu Wang <shengjiu.wang@nxp.com>:
+ac4dfccb96571ca03af7cac64b7a0b2952c97f3a ASoC: SOF: Fix DSP oops stack dump output contents
+10d93a98190aec2c3ff98d9472ab1bf0543aa02c ASoC: SOF: imx: imx8: Bar index is only valid for IRAM and SRAM types
+d9be4a88c3627c270bbe032b623dc43f3b764565 ASoC: SOF: imx: imx8m: Bar index is only valid for IRAM and SRAM types
+8a8e1813ffc35111fc0b6db49968ceb0e1615ced ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+25766ee44ff8db4cdf8471b587dffb28b7b9d17f ASoC: SOF: loader: Re-phrase the missing firmware error to avoid duplication
+3abe2eec87059260bf31033a8863c67c5d45b9d0 ASoC: mediatek: mt8195: remove wrong fixup assignment on HDMITX
+cfacfefd382af3b42905108b54f02820dca225c4 ASoC: SOF: trace: Omit error print when waking up trace sleepers
+77ff9e7be0d420bd0555ef51612e8ce241f3e78f Merge tag 'asoc-fix-v5.15-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+cb1bcf5ed536747013fe2b3f9bd56ce3242c295a ALSA: firewire-motu: fix truncated bytes in message tracepoints
 
-eb74c39abd76262e890512db65439df62818041e ca8e055c22155b262e14409a555bab41a52edfea refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
+--===============5113946503533813528==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ae294d3f0286-2fd2e50a4123.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFKCdwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/QYP+wSGQCVyVZFZmLSesq+P
-UFjJ7d0vWVXwTC9S18PGJZ3TZN2RB7Pl5/GxIKenPRyyJTJJojtJEIshVfAUjW1y
-FrevTDgr0XNZzh/JLWLlajWnsCpEaNahtIVZY+bxFOcVwGv8RrZCYzIoepCJCry+
-h6knTR13l6PwRHfwWwPI2QOxfgUmRoq0Lfwf5hTpwKJXL9MDxy/ODI4hDrdwuVBh
-QIMYgvSIwAiMz3LEQvQnW+Pu99A1DG9k0hb87h3D1WiFyxA2ILyuv2STKqYtC/1i
-Ujlp+Av6Puad3aXJWAmOOTPW14fQdZf0Y8F45t+OmaOCWIa4seSNgEXh2HZYp5kJ
-LLdHnMwyf/SBLvF9kG3IPU2MiNEwgjFYG4oLC9AAZ4uuscvrTGf60BPJB2ynfZfH
-GM6uF9W29vhXcYN91A7q7dfPEpntbJS/Sskz5TZcUPRy/Hl4lt8+1EMnUO7I0VYr
-kEKeYgUMuClMP/PyIo8wff2sZNvYNx6/TQY4uXT0b2WABDDBT3VX2j6TV/C6dzZY
-4U5Z1f66dlQOlAwQOiL1JjS+dhFNuH9LudC3FFKQbkQXYVmVFeqtSbOLrN0jutps
-xOg+wPndrHpqLbd4q0RE21hDKA9WZiwxjK+3DaErXYs/TCRwCU6ekK+oJm3z4bHK
-rPMyEAwgFQeFtAFL0aghmXdr
-=NWcU
------END PGP SIGNATURE-----
+58eafe1ff52ee1ce255759fc15729519af180cbb ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+5a80dea93191d55840f42252ed3e4565a125a514 ASoC: mediatek: add required config dependency
+26be23af1866eead5a29f8501f9d774ac277d0bd MAINTAINERS: fix update references to stm32 audio bindings
+9c3ad33b5a412d8bc0a377e7cd9baa53ed52f22d ASoC: fsl_sai: register platform component before registering cpu dai
+f12ce92e98b21c1fc669cd74e12c54a0fe3bc2eb ASoC: fsl_esai: register platform component before registering cpu dai
+0adf292069dcca8bab76a603251fcaabf77468ca ASoC: fsl_micfil: register platform component before registering cpu dai
+ee8ccc2eb5840e34fce088bdb174fd5329153ef0 ASoC: fsl_spdif: register platform component before registering cpu dai
+c590fa80b39287a91abeb487829f3190e7ae775f ASoC: fsl_xcvr: register platform component before registering cpu dai
+1dd038522615b70f5f8945c5631e9e2fa5bd58b1 ASoC: mediatek: common: handle NULL case in suspend/resume function
+7bd5d979dfdb6c047499a5ac91339bf42f7bdee3 Merge series "ASoC: fsl: register platform component before registering cpu dai" from Shengjiu Wang <shengjiu.wang@nxp.com>:
+ac4dfccb96571ca03af7cac64b7a0b2952c97f3a ASoC: SOF: Fix DSP oops stack dump output contents
+10d93a98190aec2c3ff98d9472ab1bf0543aa02c ASoC: SOF: imx: imx8: Bar index is only valid for IRAM and SRAM types
+d9be4a88c3627c270bbe032b623dc43f3b764565 ASoC: SOF: imx: imx8m: Bar index is only valid for IRAM and SRAM types
+8a8e1813ffc35111fc0b6db49968ceb0e1615ced ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+25766ee44ff8db4cdf8471b587dffb28b7b9d17f ASoC: SOF: loader: Re-phrase the missing firmware error to avoid duplication
+3abe2eec87059260bf31033a8863c67c5d45b9d0 ASoC: mediatek: mt8195: remove wrong fixup assignment on HDMITX
+cfacfefd382af3b42905108b54f02820dca225c4 ASoC: SOF: trace: Omit error print when waking up trace sleepers
+f02f2f1bf9d154148325eb60d74bdf199022ea52 ALSA: usx2y: Prefer struct_size over open coded arithmetic
+244878fe350b29ea7ac7de5fc578bec14cf200cd Merge branch 'for-next'
+77ff9e7be0d420bd0555ef51612e8ce241f3e78f Merge tag 'asoc-fix-v5.15-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+bb59df90d936dc793d4adf8fde8f93b25f158aea Merge branch 'for-linus'
+cb1bcf5ed536747013fe2b3f9bd56ce3242c295a ALSA: firewire-motu: fix truncated bytes in message tracepoints
+2fd2e50a4123ca4d9bbb7cef16f228acfe6df11e Merge branch 'for-linus'
 
---===============2675460440329829372==--
+--===============5113946503533813528==--
