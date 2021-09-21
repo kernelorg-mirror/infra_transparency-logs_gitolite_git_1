@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Tue, 21 Sep 2021 17:38:55 -0000
-Message-Id: <163224593510.27528.4860125258783330035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 21 Sep 2021 17:49:06 -0000
+Message-Id: <163224654661.2306.16447596499939275182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/rc2-cc
-    old: 7ff0ea4d44f17d7f525c0667ceb377f65988eb6f
-    new: 0b92e4fcb4161432763f5a0bfe186043cffbd5fa
+  - ref: refs/heads/for-linus
+    old: d7a48e27b38a94bf73c973c236461234610256d5
+    new: 1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd
     log: |
-         37aef0bb029b95995663c0a33880150aa04c5679 x86/sev: Add an x86 version of cc_platform_has()
-         d9e30b06434c8a40d3d92b6eb0b8226805cc5434 powerpc/pseries/svm: Add a powerpc version of cc_platform_has()
-         70fbe85f351068095c2c3fdf891a4ce3564e90d3 x86/sme: Replace occurrences of sme_active() with cc_platform_has()
-         0cd0d0b58cbbd82b2ecd4905bbb9b9b8ad307d2d x86/sev: Replace occurrences of sev_active() with cc_platform_has()
-         aa58674c60d6e03cefeb45585ee0c43aa576881e x86/sev: Replace occurrences of sev_es_active() with cc_platform_has()
-         4da606e2722dcb91e220ce1c689b5c97cb73eeba treewide: Replace the use of mem_encrypt_active() with cc_platform_has()
-         0b92e4fcb4161432763f5a0bfe186043cffbd5fa x86/tdx: Add the Intel version for cc_platform_has()
+         76d685e0ee193fc3351697128dd818457d9d1a63 spi: Revert modalias changes
+         1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 43caf71a959ff54c80e4edd3d4186346a8f6158c
+    new: 647282d9f8642c48161bd424c8e1de197e4ea183
+    log: |
+         76d685e0ee193fc3351697128dd818457d9d1a63 spi: Revert modalias changes
+         1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
+         647282d9f8642c48161bd424c8e1de197e4ea183 Merge remote-tracking branch 'spi/for-5.16' into spi-next
          
