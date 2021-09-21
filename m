@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2897739621716442280=="
+Content-Type: multipart/mixed; boundary="===============5116753461210317917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 21 Sep 2021 16:20:25 -0000
-Message-Id: <163224122596.11891.18210201075531010831@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 16:27:27 -0000
+Message-Id: <163224164786.15302.15533732733386644015@gitolite.kernel.org>
 
---===============2897739621716442280==
+--===============5116753461210317917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-linus
-    old: af505cad9567f7a500d34bf183696d570d7f6810
-    new: c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6
+    old: c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6
+    new: 2de9d8e0d2fe3a1eb632def2245529067cb35db5
     log: |
-         c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6 cpumask: Omit terminating null byte in cpumap_print_{list,bitmask}_to_buf
+         2de9d8e0d2fe3a1eb632def2245529067cb35db5 driver core: fw_devlink: Improve handling of cyclic dependencies
          
 
---===============2897739621716442280==
+--===============5116753461210317917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632241224 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632241646 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1632241223-d19d313fe038dca04719560aefe4582e611377a2
+nonce 1632241645-026fef014addec74a177bffd476c31a3048959f5
 
-af505cad9567f7a500d34bf183696d570d7f6810 c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6 refs/heads/driver-core-linus
+c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6 2de9d8e0d2fe3a1eb632def2245529067cb35db5 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFKBkgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HpgP+J07yinwYwxjL4UM0GJl
-IHaBQnK68p/rFE0c+5eyX+f4bKd2WRrGiYj3PSDRerSe3WEEQb+cCa+ZY1W6n5Cn
-VxHiK9rIEp2uVtXUuTCVe+CvX3xXG6eC2E/+6SniWPGAlgx94QJ0TkfO6MfxHgYq
-2hdUAdAQ33+dfPvlMPggp9V1FrD1FKw/+QONNTLYuaC9aWIgGQCEjX9H86BYPte1
-roREhRaU2N1Lc7B7cU8ZJaFF1W1Sxbmi+sAhAWzBTBoRGtqYTffsjI9Z4iFky/mh
-lIuMOMeKltOv7Ab8Xs716x8AcVlUK5YuLOHFe4vWFPV3jjsUjkzD/rfJRkEO2i0n
-TpBN1YfELrxLWWDlKJTJjPPyL8PutY/7eJWowqrylLfWWLIe6FWTpXJkHgxPzH/m
-q4chrXFF/2OKaykZ+KXtxVcpvSblfURTvvyt14uFA0jlEenq+2pQSt8nc8lXe2Tn
-7QWSD3eKo3HGZYSaskANJihUChrpKao88Dh2wZSJOQzXgX0f8wOAwJAbbKpZvCpO
-w0K7/Fw8Ehww6THAv8abopzy6nkp5irhlE7u0fCTmSU+gKk85prvAHjYQtc+7XVH
-QG53BSWUkmCfeuURGVZDRejzFbIwPgYyyxfDHWE7+6xOSCwF961/h1wUyHGY7Vx6
-1hq9IKx5YWi/eI/eNaUWCLU=
-=yAl3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFKB+4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2k0P/RyvPH2DlBGBibaUavKb
+COEPIiSvHypQm2otbivhevqQEOkSyDd6ZRfudfpTYsPV98Kh2ATJa2fQKv4NTaYg
+7Od7jh8YSsqNeS4zXrXixffJhZqo1G8K9T2TME9OqiDBMO9WFlnaijPybhT8/P8L
+x7CXKI+60PIybssuT+tPruGEQMmHi5EtWu0ae4cckXMbtqBTSJ8gdFJ/Y8w+5w8u
+zrOgiuclsTxD9BlsaVC4BLLQj5kgRnrTBCY4HdXhPuyGGfDIANLZUrVyIR0U8IWi
+mt0mM5RpVLBDO7amr2Vy6Go970omAsWPNC36ZMo8X3ztvi5nM7jH/dBUMNb1Ij/7
+bhvO/bePUx5+nlkkoDdqwQxNmwF1uA9AY5rYkHrX7o4bcdxDFnAHTpzqxYGnjrN0
+4C8rAYmB3TUIaq08+N5Z9G89koFK7mTbKKV8Cp0fZEAnl0efkqhRwW0j8xmI1JA9
+uNaZCY25ltS/MTiIgv+rP5iEdjRbwKFn1UJ91hoi4qxkNEJ3KBLxC6Y2bu3atTsP
+gofIj4vFxA320X+FItIIiKg0SWOds0mpKiMPgS9o9Ds67KAvxNLg1Ahm2RL7hIZI
+TV6LzFfb1BQ4gphPDkBh1tQnBTPx6rcSsqhRLJTbksW1d7wGkwCiGxsMx54CX4yq
+PAD78pwmAHeF9Jm22yYqEKGe
+=iS8F
 -----END PGP SIGNATURE-----
 
---===============2897739621716442280==--
+--===============5116753461210317917==--
