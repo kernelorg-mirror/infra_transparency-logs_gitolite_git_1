@@ -1,74 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5070115293300553618=="
+Content-Type: multipart/mixed; boundary="===============3931333531503796036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 21 Sep 2021 15:31:46 -0000
-Message-Id: <163223830686.12748.12045224690572863302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 21 Sep 2021 15:33:56 -0000
+Message-Id: <163223843692.13410.2851924404623139121@gitolite.kernel.org>
 
---===============5070115293300553618==
+--===============3931333531503796036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 7bdedfef085bb652dc13db357d2a938512645eb3
-    new: 50fb34eca2944fd67493717c9fbda125336f1655
-    log: revlist-7bdedfef085b-50fb34eca294.txt
+  - ref: refs/heads/char-misc-testing
+    old: 5e87622c4bf3614155781daf5439cf4909adae9a
+    new: 54fa156bb33ad06077ec709dc2331a4d5ee446f3
+    log: |
+         639fd77e2f696269b3a5c7a1eb547e044e4dbc2b tifm: Remove usage of the deprecated "pci-dma-compat.h" API
+         54fa156bb33ad06077ec709dc2331a4d5ee446f3 mei: Remove usage of the deprecated "pci-dma-compat.h" API
+         
 
---===============5070115293300553618==
+--===============3931333531503796036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632238304 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1632238303-31d498e5cf14cb98835c8e27a63e6495c5920f61
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632238435 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1632238435-ad0a7f5b8993916a56f7b9708027f715b33c6744
 
-7bdedfef085bb652dc13db357d2a938512645eb3 50fb34eca2944fd67493717c9fbda125336f1655 refs/heads/staging-testing
+5e87622c4bf3614155781daf5439cf4909adae9a 54fa156bb33ad06077ec709dc2331a4d5ee446f3 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ+uAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RWEP/AxXJpdAd0Djcgf4xmeW
-rA6GSDep6Pu0x6D7W2WiipqCXd6MtH57k27bHlMLmCpprObQ1s5PWUrlEphBL6Pi
-BJt5aQIyF/PrVtNrw1g0VuQ8acYbUvRomSYrmvAimvA/dmmvlWo40TkOIejf2SYo
-pG8mUQb54ie7LKTNcLPQPMwIILDjfzSIr5CNVNKOwISIc4J9r6b0bnCRQU44VrQ6
-Lr/qmbT6AG3N2FXj4s/Qc0lLDKMNQuMUvadvVgxak4T5G9EF78EyKO+RxSSGgnAV
-eNXzPTg9dI3wFIt9wgdqsKBPOAoAr+Ok4vwbs67/hqw3QrZ6LrpJUP5Tg4JW1UAP
-1ns0RLJv58d/6IeMclZvIOgljj5spo14yDQkXutJV/akcagmB8gGOaO41QzdJOFq
-HxiCjCZpMVHWjq9xInEhe1udsJ1tghnS6Q0YmWyGOemkTCHW0eUdDXa9VBUd85ep
-n8JZhdMO6EaiyfwvJWmR00CjfinCGgvCeN+zFNHkR1mGpjbC8lokJOHrGbkhLolN
-Smxl7UULIQeunaw76w4rVY4y4m8RYd4IhdfzfteE9Ey2o+VPLwYivcET27apVkC4
-cNVvDppJNXwH0osujBbnfOa/GbBqVIe2FT6cKpSNnhaiME5bNHN0FTEKk5Cj7TzI
-BDYLRYl6vdtMx5uBpAZdgkTd
-=ogbp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ+2MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wf8QANg4S2VOXJY3Vasrns4c
+dGQcqnxyTkrJ+nCaNDDzTHgufjqLLas1xJyrBcrhdUnr6OjDaT5MmJUOBfs0Brur
+ElpKmXl9F5431AMn3LRog6kr9dSnjfSWzx3sbTZzqkGimqD5QXHMoi8h5yAtav9o
+ro842xGVhHYkKW1zLIWOhsaFm/6VgpTdwyIDgFSlzvOyLwCq2NfRoz9Bt79q2s0e
+/XhliwVECfutxtAPrKgl/wUEguvKTgPPl3x15kHsucocdyQ82v3vdUSIoWO2FQS5
+G1t/9AAjZ3Iu21ZCWN7dV8ygGmecXkgeWseOETk6gDOJBGMNb+iCqs3znomB/t8C
+hH2weR37EbkusAPEf4ip6RvSiiqH++xNjJTdVJQawdIfgFOmq4qMTLOzb+W7GQ+b
+mwN1q7SyawLZIng9S6j6X8H+7J5CXxPHx0dJtuFZKgqJq2uEgKVO0J6oRajElaMi
+fpAoyspPh0tcU+up94g/b/xv6f9MCgmL1VD9LJykd8r9TzX1oGuTxIEWXwxrCqhB
+m68AkqsSe5aQ0Y4tl+9ohaUsrNZA3Ib10lvwJTiExNGyGwx13gYe5Fc3RwYSXhov
+7HGg8jYXELoSfe+hskcNOrq9XO0MCqYqJB1tzbkprisjSY1tp7L3DoY9nzp+UyAB
+Vufz5wj05Es1Vf8iEgY9MBE2
+=bwN/
 -----END PGP SIGNATURE-----
 
---===============5070115293300553618==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bdedfef085b-50fb34eca294.txt
-
-54659ca026e586bbb33a7e60daa6443a3ac6b5df staging: rtl8723bs: remove possible deadlock when disconnect (v2)
-a7ac783c338bafc04d3259600646350dba989043 staging: rtl8723bs: remove a second possible deadlock
-bdc1bbdbaa92df19a14d4c1902088c8432b46c6f staging: rtl8723bs: remove a third possible deadlock
-a815e13197a70441d344bdd343d315a72f84a970 staging: rts5208: remove unnecessary parentheses in rtsx_card.c
-4941dfd15df5bdcfc3b988cbc1130c17ecd66647 staging: rts5208: remove unnecessary parentheses in rtsx.c
-5d50f22d49ef66c953a5f6b2e1ec17eceb080c4d staging: rts5208: remove unnecessary parentheses in rtsx_chip.c
-8e9521f12d3570fa436fe7ad307859169338a947 staging: rts5208: remove unnecessary parentheses in rtsx_transport.c
-53e8b7405ac9fa57194abc2474cb1d6b47688dfc staging: rts5208: remove unnecessary parentheses in sd.c
-3eec4d3a3f73ef2ff2678139e941b65a4e9d9ac8 staging: rts5208: remove unnecessary parentheses in xd.c
-37c56de8fe9ddb9d2e369d5b897c1d6f6ef072a8 staging: rts5208: remove unnecessary parentheses in rtsx_scsi.c
-51a72ec705dfa7f5ae2a70041cdbc53804ba6ee8 staging: rts5208: remove parentheses pair in sd.c
-159697474db41732ef3b6c2e8d9395f09d1f659e MIPS: ralink: don't define PC_IOBASE but increase IO_SPACE_LIMIT
-50fb34eca2944fd67493717c9fbda125336f1655 staging: mt7621-pci: set end limit for 'ioport_resource'
-
---===============5070115293300553618==--
+--===============3931333531503796036==--
