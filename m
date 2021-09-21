@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4928117871988030407=="
+Content-Type: multipart/mixed; boundary="===============0758167957830521730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Sep 2021 14:25:17 -0000
-Message-Id: <163223431775.3339.15221385904137326169@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 14:31:42 -0000
+Message-Id: <163223470247.6671.16169746418030416884@gitolite.kernel.org>
 
---===============4928117871988030407==
+--===============0758167957830521730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 577ee98932fb81e377412bb95fc8cbbb8d16e25b
-    new: c03d36995222400c1bbbb7245a233c4304cfc257
+    old: c03d36995222400c1bbbb7245a233c4304cfc257
+    new: b7a0a63f3fed57d413bb857de164ea9c3984bc4e
     log: |
-         c03d36995222400c1bbbb7245a233c4304cfc257 USB: cdc-acm: remove duplicate USB device ID
+         14651496a3de6807a17c310f63c894ea0c5d858e usb: musb: tusb6010: check return value after calling platform_get_resource()
+         718dccb477e30233ab47ed6480decf7a95aae65c usb: typec: tipd: Don't read/write more bytes than required
+         ac588dfa66ab040bff7e5978be888dc040a026f9 usb: typec: tipd: Add an additional overflow check
+         b7a0a63f3fed57d413bb857de164ea9c3984bc4e usb: typec: tipd: Remove WARN_ON in tps6598x_block_read
          
 
---===============4928117871988030407==
+--===============0758167957830521730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632234316 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632234700 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1632234315-1a5311cd97caf8f845b5aa66cc010424a1075c17
+nonce 1632234700-c2052130de693e3f6040dfa7d121b9815217839c
 
-577ee98932fb81e377412bb95fc8cbbb8d16e25b c03d36995222400c1bbbb7245a233c4304cfc257 refs/heads/usb-testing
+c03d36995222400c1bbbb7245a233c4304cfc257 b7a0a63f3fed57d413bb857de164ea9c3984bc4e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ60wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Gm0QAJD/gg6gPfiluWo1k6pA
-EgxixmKkmZZBu2/mIZEuMbYJu/tR55AZSfHD7T2Pqy9ywcHgUJ3C8sOGS9qiWl7S
-h/+gIaAwwRO2ED1oE0DmMhid7jz+Vt3HQqAdwv38OhY6X0xZAJ9JaCV0YZyrNTU9
-KY1IPHRPi9hBsYMkT2hMcTIxN3a0rjYEmKzC7ekcQWiCMYTmQ+6/6MPa1grunf4n
-eX2exxiadNy1Lt3H/EQZbGKJkCVOGqaxaeK84To1LUie2gLFCBPThl5jgrz1TTC2
-VwXbMch4AP0GF7nR8E2Bu68hJrlu8xMPY7t2RaPI8p+DkNiOd/ZHHN7N4Cx2fqZQ
-l7OeMO0RdU4w1nS1x1kLgrIst40FVIZDMh0wj0rQzSeckXqSoEQ4SIJPo/fL/pNu
-PZ+BurXSp4omIBjI52LQhr11fhYqIsIhEfKixmB/3odFntc2+qHDnTLM3DpCVnbs
-mJGENN1dErL2DTx1+wI2NjIRYesRS0dB1VRiihFaTZ1FcDtCNzk58IWFrTi7Ilrt
-6W+4vWACFenvxe5moaGl/I+CInkpFXE2HydfkSv8h2LwU9uWZcY7Nqi/utQ3oCCz
-FfW+QDTXg56k3EJmbOEtPc9LWe3cuOMXnLtS5SBz+lEGW+S5/FA9Io/vmUaeZ/Qs
-tE1BAo6JvRld7V0++1eymLI2
-=sC84
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ7M0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m98P/RUt2zGAOW6IPhyep/H6
+3+LxAaIVvqnAmbHqVu9KBDmtQSRSX1eJfKdv6Nw7IYSFxYFqePEMOGRsGpTyiisg
+AXTVZaYPh2pKOGq2ky4Ks5HAcia/jHXosDqnQXP/N1eGc43cCfAi5hCewwH6YsZe
+hQFGNmghYu6xK9oFI89fX/ZHHLoLAESBAlDgbfXXoH6Cg9Pw443KOKLvBHtrVILJ
+90mTxzr5tnWyMcF5cRaTmbY5Ok7/EIhXYVF15VBCnUowP36Is6wlAtKGbfwmpQow
+yEfBG+sCdupmURz8zNnjDBaSPXXXY1mBuY0gIWq9tWTS0ZMMM2GWdlutDBLuKUwg
+757LYvT61AbFcNc9kl71xbt7GEBCJrwj8OIJ563iOiLgcYnYtrlMMMUrIBmmFKKi
+E5mmxRtDQtWPAea+MIjKhJESVl/Ga77VWH26dzaIWzdWaYSL9oIM6KywkR6uSNTs
+w+zSVsfoDmM5oPwUyLHtUfsXKuTIF7FK5q+m6B8Hj4PCrSIuBeaUY8N+4EBNZYh+
+CfvFrdoMXYHZHXiagSlm6WkTvOwsHFXrPNYDvuPo4hO+MFXKw072X6WMHHl0P8QW
+P8pDALchv3VFgnU6r6Qnajr4lFbgx2b66Ai2mXqWeLHq8aDLfM9j7tbZ1pmG8GNB
+uKJU+jTp7KcKlukFiIKj1YGH
+=0Fi8
 -----END PGP SIGNATURE-----
 
---===============4928117871988030407==--
+--===============0758167957830521730==--
