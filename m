@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9106631523966462110=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 21 Sep 2021 07:45:56 -0000
-Message-Id: <163221035616.24675.17795369054845430027@gitolite.kernel.org>
-
---===============9106631523966462110==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 21 Sep 2021 07:49:12 -0000
+Message-Id: <163221055220.26922.13906651137636229883@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/auto-latest
-    old: eb457c678a9e17fbb6a5602d95caaae56267b099
-    new: 9bc19c975c7e9a528c88772ad8dc802318833059
-    log: revlist-eb457c678a9e-9bc19c975c7e.txt
-
---===============9106631523966462110==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb457c678a9e-9bc19c975c7e.txt
-
-32e1ae626f295152d1fc9a3375214133cbe62878 x86/iopl: Fake iopl(3) CLI/STI usage
-074caf5fcf936a44359adcbc4d7792a29f6f129f x86/mm/64: Improve stack overflow warnings
-7d490a1fe5678d5c4abc2652a7dcfbc0b261add8 x86: Increase exception stack sizes
-014bfe892220077b8c623b97e31a91378d204137 x86/sched: Decrease further the priorities of SMT siblings
-048679b6a675a83f6f54f2775e61fc0f647c9c2b sched/topology: Introduce sched_group::flags
-cb0e4ee938b1a08507ded179cec3a35b4a8d75b8 sched/fair: Optimize checking for group_asym_packing
-a7bd2ed2dc9e8bf6b69d26573cb6e80ef42d8e5b sched/fair: Provide update_sg_lb_stats() with sched domain statistics
-f58215ed2ff917dc40e6fb7b2d9b7fd290ec5055 sched/fair: Carve out logic to mark a group for asymmetric packing
-eac6f3841f1dac7b6f43002056b63f44cc1f1543 sched/fair: Consider SMT in ASYM_PACKING load balance
-a6e3cf70b772541c2388abdb86e5a562cfe18e63 x86/mce: Change to not send SIGBUS error during copy from user
-690658471b5f28d306e6492c4585d748cb5304e8 x86/mce: Drop copyin special case for #MC
-b6e021a34fb08d557a3119cb347a8554f6a1dc9a Merge remote-tracking branch 'tip/x86/urgent' into tip-master
-79115820dbeb24ee6fe699fd577a22b8f66e93b7 Merge remote-tracking branch 'tip/sched/core' into tip-master
-9d22a107d82f1d7525f976ddba8ea909517e0639 Merge remote-tracking branch 'tip/x86/core' into tip-master
-1c983618fe90888717a7429c322ef50532522121 Merge branch 'tip-ras-core' into tip-master
-9bc19c975c7e9a528c88772ad8dc802318833059 Merge branch 'tip-master' into tip-auto-latest
-
---===============9106631523966462110==--
+  - ref: refs/heads/arm-irq-stacks
+    old: a16c9c17979c838af5175e1f9fdb4e40757c0a37
+    new: 802603ee4e49a6b0eaf1da1d5ad9566a2efd88dd
+    log: |
+         3f2f4ca553c432de5a3cbd83c152e67f4db8c9db ARM: assembler: introduce bl_r and bl_m macros
+         32acaf29872ac73d33ace1301bf55ced97b1c002 ARM: optimize indirect call to handle_arch_irq for v7 cores
+         3fe966b15c16e2c883e2e444a802e1ddce6a1cb6 ARM: unwind: support unwinding across multiple stacks
+         bfd6964a38440036b3115d399801f2f669acc498 ARM: export dump_mem() to other objects
+         37aac9f1e8643c93d2befc3a8a6f225d030f15c3 ARM: unwind: dump exception stack from calling frame
+         dfad835584fab8a409f3355b6db8b089698c0902 ARM: implement IRQ stacks
+         b016674dce2b8f87130c7fdce6eff7bcaaa82bff ARM: call_with_stack: add unwind support
+         802603ee4e49a6b0eaf1da1d5ad9566a2efd88dd ARM: run softirqs on the per-CPU IRQ stack
+         
