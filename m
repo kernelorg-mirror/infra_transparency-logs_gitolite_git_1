@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Tue, 21 Sep 2021 14:20:04 -0000
-Message-Id: <163223400473.32471.8208629216387579856@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6827449554520872572=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 21 Sep 2021 14:22:48 -0000
+Message-Id: <163223416858.991.12410554963280873126@gitolite.kernel.org>
+
+--===============6827449554520872572==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rc2-cc
-    old: 49246278ba2a379ee99e664e0ca5e8fd5506c1e9
-    new: 7ff0ea4d44f17d7f525c0667ceb377f65988eb6f
+  - ref: refs/heads/usb-next
+    old: ae8709b296d80c7f45aa1f35c0e7659ad69edce1
+    new: 577ee98932fb81e377412bb95fc8cbbb8d16e25b
     log: |
-         bdf426a739307dec9084a496f8e4999d57a4073f x86/sev: Add an x86 version of cc_platform_has()
-         a8161eb4a215488d595fbc85328e08206a046785 powerpc/pseries/svm: Add a powerpc version of cc_platform_has()
-         5c926d9460abc2bb8b1b890f0a75428387e165d7 x86/sme: Replace occurrences of sme_active() with cc_platform_has()
-         731325976420e0c7be6272850a8e41ca57553ff9 x86/sev: Replace occurrences of sev_active() with cc_platform_has()
-         f0392ec7deb6db9422d975abaa80a2cf9e54dc3c x86/sev: Replace occurrences of sev_es_active() with cc_platform_has()
-         5dbc701ea8386c55e4ff5a5038ce398108e0779f treewide: Replace the use of mem_encrypt_active() with cc_platform_has()
-         7ff0ea4d44f17d7f525c0667ceb377f65988eb6f x86/tdx: Add the Intel version for cc_platform_has()
+         577ee98932fb81e377412bb95fc8cbbb8d16e25b Revert "arm64: qcom: ipq6018: add usb3 DT description"
          
+
+--===============6827449554520872572==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632234167 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1632234167-e8580f7dae825129566020a845230da086a3d235
+
+ae8709b296d80c7f45aa1f35c0e7659ad69edce1 577ee98932fb81e377412bb95fc8cbbb8d16e25b refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ6rcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fe4P/RAWo8USRIxAiH6/ZL/8
+lgAkoIj6TyoMBnQ4rT7Pf5YR/DMZlC71LCDlkFIPb8Eizb8T/DBc3MxzTGnPiwBc
+7qZyXRgHpxrzrOMT6TbFDpIXTJPf2Ijedu5YTSO8aGz7m0hQ94+g2DCf8phCSyRJ
+XGTC1AkiQMhOyJyUWFmgNJtxzAT/WA5DejIL5bzYqS2gU1CfSPrzgyhEJUz27mb9
+HUJD9RRVQ0GKv0XdCdm/Q2oT5cnSt/J5s0PyA0lBYO+UYHO35/wLet9ehSvlcnot
+TFzXQfrz/kNYVE78l5JA2K3KbPIw9F7jK6Vv4SfLiYYrzbcpgs3AYZl6gEwGhSJb
+1IdcZhNXqfTnNF557ninaZx3cb3L2Ry9gbv7H/QK9sdGKOzhW5dehP9OYN5/96Z2
+mkupffKSGEeUvKYalaTH4jL8IIf+SuoDXaYLzC9OJ+y1alZAmA18hW9EpLiWJjCB
+lfBR2f1UJSKMI0MDWYLwUGX/Me4sNFlTMWirh3kLNOMO2q+SRNnRDJ+jhoGmubIS
+kNc5H6GaQ1BSgFE9YbZctHqckAtNQPA0pCLrEUhuK/QTKkaeYcsda9IGDjHdgdDf
+ApdLDAMVXN1ksZ3FJcXWdpf/AZSGzhH16itrAZjQ3LInqZzi0zX942vZDHRDWLRH
+lKwD8LibmGijAb/XJZ93unXc
+=30yC
+-----END PGP SIGNATURE-----
+
+--===============6827449554520872572==--
