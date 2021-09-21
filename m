@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4563892639877594607=="
+Content-Type: multipart/mixed; boundary="===============7989537104529881838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 21 Sep 2021 22:35:29 -0000
-Message-Id: <163226372942.19423.11951106756764787426@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 22:45:00 -0000
+Message-Id: <163226430042.23634.9223356890884288698@gitolite.kernel.org>
 
---===============4563892639877594607==
+--===============7989537104529881838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,52 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: bbc6d2e5f895a1275f3f6c79aa5fb9d6ace97568
-    new: e17a5f2fad4a9f2eb4868279440cda5b672eec05
-    log: revlist-bbc6d2e5f895-e17a5f2fad4a.txt
+  - ref: refs/heads/arm64-for-5.16
+    old: 4717d1b05790e3752750aa0c0159dddb4c1da3d7
+    new: 481155debde70812d3d81b913d1ad00160758e2a
+    log: revlist-4717d1b05790-481155debde7.txt
 
---===============4563892639877594607==
+--===============7989537104529881838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbc6d2e5f895-e17a5f2fad4a.txt
+Content-Disposition: attachment; filename=revlist-4717d1b05790-481155debde7.txt
 
-8c6bc1334303eb23a739635a25280788f20375e3 soc: qcom: rpmhpd: Add SM6350
-13dad59f63a8e5ea72639367c82149ff93da5ad6 soc: qcom: llcc: Add configuration data for SM6350
-9c08a86b4191aebc3689ce3cb2fb0affdd8e1ae5 dt-bindings: arm: Add SMP enable-method for MSM8226
-3c0dc35145de2fa098b4ba41fdf1d526db1742d1 arm: qcom: Add SMP support for MSM8226
-893dbd0681c45dd2619ef9382b3562fe200bb31b dt-bindings: firmware: scm: Add compatible for msm8226
-04fb5557dfdbd13a4706f22944db1593f7d074c8 cpuidle: qcom_spm: Detach state machine from main SPM handling
-b83afcf68a947a624f907bb88e63ef2896c61c57 dt-bindings: soc: qcom: Add devicetree binding for QCOM SPM
-edf7ff3ddaf360cda9c75527b0b6a6043288b1bd soc: qcom: spm: Implement support for SAWv4.1, SDM630/660 L2 AVS
-d8e05cddae20572f04dcd75d70e1fa53cf6f076d soc: qcom: spm: Add compatible for MSM8998 SAWv4.1 L2
-99cc512f309a3008c2f702a1a1f8255caf418d55 dt-bindings: soc: qcom: spm: Document SDM660 and MSM8998 compatibles
-3c0aafc24dae1aa43a4c20a7928db16c6c564913 dt-bindings: soc: qcom: smd-rpm: Add compatible for MSM8953 SoC
-cd88bb6b9f93de16cff04be5c89bb637fdd8b8ae soc: qcom: smd-rpm: Add compatible for MSM8953 SoC
-3e85af4062da8363392c59fd336c3fa5996bf6fc dt-bindings: power: rpmpd: Add MSM8953 to rpmpd binding
-690745422c975d8ef5094ab0225429018782002d soc: qcom: rpmpd: Add power domains for MSM8953
-584716e250fed042b2346ed92e074eebe69f41b3 soc: qcom: socinfo: Add IPQ8074 family ID-s
-fdba403aff85e5d3d6f7f5beb36eb373f913fb9d PM: AVS: qcom-cpr: Make use of the helper function devm_platform_ioremap_resource()
-1c2d6bbce2344311303e5ebfd99bd565e5cf5068 soc: qcom: ocmem: Make use of the helper function devm_platform_ioremap_resource_byname()
-05f6bca6a0fde02f06aceab9b3b02e9316ca9522 soc: qcom: geni: Make use of the helper function devm_platform_ioremap_resource()
-cbf830662b40ae17bdd17cfaaa70fcc084bca9f9 soc: qcom: aoss: Make use of the helper function devm_platform_ioremap_resource()
-dc286f05052c43ea8d138332872d9daae384bae8 soc: qcom: gsbi: Make use of the helper function devm_platform_ioremap_resource()
-703d40bff9b0be1393537e25cc725c8312db2501 soc: qcom: rpmh-rsc: Make use of the helper function devm_platform_ioremap_resource_byname()
-dcb161a32e5702a28f93babd66f658b0cc4ffb03 soc: qcom: pdr: Prefer strscpy over strcpy
-a4c0183933294228d8372e60af37b58d41df1ccf dt-bindings: firmware: qcom-scm: Document msm8953 bindings
-940d671b01ea6022850eb7ca7e6ea7bef45243fb firmware: qcom_scm: Add compatible for MSM8953 SoC
-9400caf7bda48fcbe566d7c29d840375a9c45af2 dt-bindings: soc: qcom: smd-rpm: Add QCM2290 compatible
-5e2b9bef80313dc6ab71102de95285c6b8997fa6 soc: qcom: smd-rpm: Add QCM2290 compatible
-bdddbf1d74138f7c7a451c34fca87feba5baaedf soc: qcom: llcc: Disable MMUHWT retention
-bd351e80626405ebb7bb12a38418b41b59189b10 Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
-e17a5f2fad4a9f2eb4868279440cda5b672eec05 Merge branches 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
+c075a2e39d2f0823c3670745e820aec0dd8dd0a7 arm64: dts: qcom: msm8998: Configure the MultiMedia Clock Controller (MMCC)
+05ce21b54423e551b259298bd6e8c0f23530b5da arm64: dts: qcom: msm8998: Configure the multimedia subsystem iommu
+3f1dcaff642e75c1d2ad03f783fa8a3b1f56dd50 arm64: dts: qcom: msm8998: Fix CPU/L2 idle state latency and residency
+94117eb172281aa57a10292b49d50c1d901f5d0c arm64: dts: qcom: msm8998: Move qfprom iospace to calibrated values
+87cd46d68aeac88203b8aa205d0ac821f7b067c1 arm64: dts: qcom: msm8998: Configure Adreno GPU and related IOMMU
+c57b4247faaf6d17a319c91d5eb736c3bc65aca2 arm64: dts: qcom: db820c: Move blsp1_uart2 pin states to msm8996.dtsi
+214faf07e3914e97fd71a166a6c677ba13780a0c arm64: dts: qcom: msm8996: Add blsp2_i2c3
+46680fe9ba615223f33b7fc1f1d6262db625be9f arm64: dts: qcom: msm8996: Add support for the Xiaomi MSM8996 platform
+4ac46b3682c599dcb6affedf50ceb279afda9546 arm64: dts: qcom: msm8996: xiaomi-gemini: Add support for Xiaomi Mi 5
+82ea7d411d43f60dce878252558e926f957109f0 arm64: dts: qcom: sc7180: Base dynamic CPU power coefficients in reality
+d412786ab86b814d0695b9ab3c426b10572f7bb2 arm64: dts: qcom: ipq8074: remove USB tx-fifo-resize property
+b8d1e3d334879a3b7efddc90d51c667aa8116358 arm64: dts: qcom: sc7180-trogdor: Delete ADC config for unused thermistors
+17d32c10a2880ae7702d8e56128a542d9c6e9c75 arm64: dts: qcom: pmi8998: Add node for WLED
+63750607afad67e57841689b01a9425822503e0c arm64: dts: qcom: ipq8074: add SPMI bus
+be0416a3f9173aaa1f946ee0dbc4c146a295834d arm64: dts: qcom: Add sc7180-trogdor-homestar
+1a5968e5b7dedb9e9619d12a26e0751de98341c4 arm64: dts: qcom: sc7280: fix display port phy reg property
+d70c342504acd412cb773c55380d3fe6aef2855d arm64: dts: qcom: c630: add second channel for wifi
+d0924ec30377f0a615bd7ad0d9042071923b9e4c arm64: dts: qcom: apq8016-sbc: Update modem and WiFi firmware path
+1c65de9b9c6ba73c88b71b2ee54419a0fe992cdf arm64: dts: qcom: sc7280: Define CPU topology
+8cc1ffa23d9fa213d9749a15e13f07c65f0a1401 arm64: dts: qcom: ipq6018: Fix qcom,controlled-remotely property
+c46da7c1a8ee68a7e57abd828f81085f962d8038 arm64: dts: qcom: ipq8074: Fix qcom,controlled-remotely property
+f823754e79a74af916398d79f1cef60a90fcd249 arm64: dts: qcom: sdm845: Fix qcom,controlled-remotely property
+a5d7a0a76a202c531f6010dd592a2057c60a28af arm64: dts: qcom: sc7280: Move the SD CD GPIO pin out of the dtsi file
+e7075edfae84e3bfa51ae6afbe9bd9824a51bd22 arm64: dts: qcom: Update BAM DMA node name per DT schema
+9dfd000e214a131006cad70b5bd647a0309a1694 arm64: dts: qcom: ipq6018: add usb3 DT description
+e0139f6cee48fa8cd07ad9c1e74aeb8c697397bc arm64: dts: qcom: pm8150: use qcom,pm8998-pon binding
+60a20abc6802e1b2c57e848bd2be85cdff5dfe7d arm64: dts: qcom: pm8150: specify reboot mode magics
+108756895944b547d9a906cea593dc8f3acd222b arm64: dts: qcom: qrb5165-rb5: enabled pwrkey and resin nodes
+ee010c48f2dd5c48061c5ee9503fd728716b4760 arm64: dts: qcom: sc7280: Add volume up support for sc7280-idp
+b18ce7845202943cdd21bc4b76a9f90c79aa2ccb arm64: dts: qcom: sc7280: Add clock controller ID headers
+49fb926d9890014d9911da9d4a2853bb3055d880 arm64: dts: qcom: sc7280: Add gpu support
+e48fb2bb79dba6117e0a90897677d9526cbb148f arm64: dts: qcom: sc7280: Add gpu thermal zone cooling support
+945ca2f9cb98bda1892accc7c1a40c5dcd343f82 arm64: dts: qcom: sc7280: Use GIC_SPI for intc cells
+bc92677931148cc8b2524dd4c24170775abc126c arm64: dts: qcom: msm8916: Add unit name for /soc node
+3b0f9a39e83849b3bb0fa9c9d553a501c52a15ff arm64: dts: qcom: msm8916: Add "qcom,msm8916-sdhci" compatible
+481155debde70812d3d81b913d1ad00160758e2a arm64: dts: qcom: sc7180-trogdor: Enable IPA on LTE only SKUs
 
---===============4563892639877594607==--
+--===============7989537104529881838==--
