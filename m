@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8812187214556174788=="
+Content-Type: multipart/mixed; boundary="===============2911927081168812228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 21 Sep 2021 00:51:17 -0000
-Message-Id: <163218547706.20794.16919785781663949837@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 00:51:51 -0000
+Message-Id: <163218551126.21002.15320869434515585105@gitolite.kernel.org>
 
---===============8812187214556174788==
+--===============2911927081168812228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/for-next
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: dd969380c6bd672bc47816c4ae78207f409fb8e5
     log: revlist-6880fa6c5660-dd969380c6bd.txt
 
---===============8812187214556174788==
+--===============2911927081168812228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -306,4 +306,4 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
 dd969380c6bd672bc47816c4ae78207f409fb8e5 ahci: remove duplicated PCI device IDs
 
---===============8812187214556174788==--
+--===============2911927081168812228==--
