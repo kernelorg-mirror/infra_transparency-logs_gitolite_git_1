@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0651873855565486982=="
+Content-Type: multipart/mixed; boundary="===============8644059531077726212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 21 Sep 2021 07:42:51 -0000
-Message-Id: <163221017168.22067.3499882063610241301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 21 Sep 2021 07:44:20 -0000
+Message-Id: <163221026033.22560.7232210147685247597@gitolite.kernel.org>
 
---===============0651873855565486982==
+--===============8644059531077726212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/tty-testing
-    old: b407c4697c6a1ed478efd2e84abaadca413fdbeb
-    new: 9971993c1390eab9829db99d3ee8ab3dbd5e95a2
-    log: |
-         9971993c1390eab9829db99d3ee8ab3dbd5e95a2 serial: 8250: SERIAL_8250_EM should depend on ARCH_RENESAS
-         
+  - ref: refs/heads/master
+    old: b6e021a34fb08d557a3119cb347a8554f6a1dc9a
+    new: 1c983618fe90888717a7429c322ef50532522121
+    log: revlist-b6e021a34fb0-1c983618fe90.txt
 
---===============0651873855565486982==
+--===============8644059531077726212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b6e021a34fb0-1c983618fe90.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632210170 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1632210169-ff06ec17aa2ad23266f208847f2f5047db201605
+32e1ae626f295152d1fc9a3375214133cbe62878 x86/iopl: Fake iopl(3) CLI/STI usage
+074caf5fcf936a44359adcbc4d7792a29f6f129f x86/mm/64: Improve stack overflow warnings
+7d490a1fe5678d5c4abc2652a7dcfbc0b261add8 x86: Increase exception stack sizes
+014bfe892220077b8c623b97e31a91378d204137 x86/sched: Decrease further the priorities of SMT siblings
+048679b6a675a83f6f54f2775e61fc0f647c9c2b sched/topology: Introduce sched_group::flags
+cb0e4ee938b1a08507ded179cec3a35b4a8d75b8 sched/fair: Optimize checking for group_asym_packing
+a7bd2ed2dc9e8bf6b69d26573cb6e80ef42d8e5b sched/fair: Provide update_sg_lb_stats() with sched domain statistics
+f58215ed2ff917dc40e6fb7b2d9b7fd290ec5055 sched/fair: Carve out logic to mark a group for asymmetric packing
+eac6f3841f1dac7b6f43002056b63f44cc1f1543 sched/fair: Consider SMT in ASYM_PACKING load balance
+a6e3cf70b772541c2388abdb86e5a562cfe18e63 x86/mce: Change to not send SIGBUS error during copy from user
+690658471b5f28d306e6492c4585d748cb5304e8 x86/mce: Drop copyin special case for #MC
+79115820dbeb24ee6fe699fd577a22b8f66e93b7 Merge remote-tracking branch 'tip/sched/core' into tip-master
+9d22a107d82f1d7525f976ddba8ea909517e0639 Merge remote-tracking branch 'tip/x86/core' into tip-master
+1c983618fe90888717a7429c322ef50532522121 Merge branch 'tip-ras-core' into tip-master
 
-b407c4697c6a1ed478efd2e84abaadca413fdbeb 9971993c1390eab9829db99d3ee8ab3dbd5e95a2 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJjPobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2qYP/AufcGtSeo3Tj2I0TGij
-Fx+NoP0xYurVGBlMTbwf9aOnWM54KD2UJp9/31MNfduibGIbOvRRIpHMbegx19sl
-w8+botGwX6JngJT9HVe+9tefh56qt5ipQlIskQTooTxkw6fK6Pii05U4hUzVem2T
-OUhRUsaVXBc2aTDqHLMo3Yc4NjD2qeRmEOFQrqg/8g0OpgI5h3qxTvKQMSmzznEr
-g+CsGcwk8/vmVeSKosI8SMjURCWlgXGk5EUZXrHAk2gUTbLiwtqeLLd9Rj9qANsj
-U6hvsKdlJ9gIe1q6aiNFimczp5cTxk7enTTdYSeKigxuKpVG+bsRkvgAlah43Zbw
-VGA3VyEtfzUsfZzDavUgEUZPawtLhoaQCRIehoZOI6jyX6gyuNZAUtdxRSr4YJAN
-t89JgunRBUbYsDywh+3DmB3S0DA1lqDm7hmfwTHrYUuNFS/2op0uwqnKMicRlMId
-2UVO/3quusUNyiSEwC4lWKsceDX9xK+rlOmDPDhAFpQT59guRbRrW6a0m4yRA2Uh
-toLvuzZNtR89fSgg8oe0dPigDG84KXX2IYxFSt4AlR56ZESaK+Undn/1uIUQRaGN
-rdHouA4pxxE3mosaA6BaChADGgpKZtI1yd6WyHPbDnJ2HSR+g3coZjHrk9VWDw7X
-ruyT4fUSKkbhScD1NgBDuOg0
-=5oz3
------END PGP SIGNATURE-----
-
---===============0651873855565486982==--
+--===============8644059531077726212==--
