@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5182582250335175931=="
+Content-Type: multipart/mixed; boundary="===============2897739621716442280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 21 Sep 2021 15:54:21 -0000
-Message-Id: <163223966161.26738.5265984311608713262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 21 Sep 2021 16:20:25 -0000
+Message-Id: <163224122596.11891.18210201075531010831@gitolite.kernel.org>
 
---===============5182582250335175931==
+--===============2897739621716442280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 7af526c740bdbd5b4dcebba04ace5b3b0c07801f
-    new: bb509a6ffed2c8b0950f637ab5779aa818ed1596
+  - ref: refs/heads/driver-core-linus
+    old: af505cad9567f7a500d34bf183696d570d7f6810
+    new: c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6
     log: |
-         bb509a6ffed2c8b0950f637ab5779aa818ed1596 comedi: Fix memory leak in compat_insnlist()
+         c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6 cpumask: Omit terminating null byte in cpumap_print_{list,bitmask}_to_buf
          
 
---===============5182582250335175931==
+--===============2897739621716442280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632239660 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1632239659-7967218e47b1c617b2c519e557e0557e58599dc5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632241224 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1632241223-d19d313fe038dca04719560aefe4582e611377a2
 
-7af526c740bdbd5b4dcebba04ace5b3b0c07801f bb509a6ffed2c8b0950f637ab5779aa818ed1596 refs/heads/char-misc-linus
+af505cad9567f7a500d34bf183696d570d7f6810 c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFKACwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aF0P/iN5BXoAlzmdvM8Lzq1o
-wjPmwvPquB9zMWABgb8LBIkMxFsxe3dXHTPdPVMBx0G8KUp4sGkFR8A/bP0h1Vbt
-llCiaUWUfNDNqawknBKnr/g9bsgtkArs+gKSoyo05worNr0ytTTPRLF+frGt6X4z
-4/HAmhhIDm+MBsn06S2w4xn+tkhYz2aGvMAUDRK2ly2oFrZY+H2b/mZRH9+zp3e+
-dK+I9ny7PMRODmlGXrgAJfv6EPgMGXkzHl9yYD7npJNVAdVM3lq8eabXQGvPn8BK
-IfxWaWaaM1ki+eTfrQhrUBi7tC/xaWOAmzTQnQFzfflFviGuX+vOOejMbUq3+axz
-N0/s9FQYMpUwJjYZodbWaAufFZb2geV97ZE3hJ5jLsjEYWwtQutccEP/uTXEFN7P
-3+efONMvDWN4gQqToAOGkmD/z1C0/QiFyHMHurAHyCcqxTUNvcJ9hZr8nS0jedTF
-6LKx/ANuWJfAh9ju7otDFJnFa5ozEbQb50y3Q9REdHOguGppTJV31awVf3E8Md1P
-BvJlWC2XaUpcBnQPY69Y8gSmppzL5gf4PHVFcfyvXM6CwYtUv5A7hAi3679HLP4A
-Lto0Ss4gS3u8tu6EkIsdw0vz1VIka6WqFoDPoIZMTKYU5NW7o517Wn1+7oy2UNeJ
-WRAU5R+cbnzWQKUZNpSLCUzt
-=PTTV
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFKBkgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HpgP+J07yinwYwxjL4UM0GJl
+IHaBQnK68p/rFE0c+5eyX+f4bKd2WRrGiYj3PSDRerSe3WEEQb+cCa+ZY1W6n5Cn
+VxHiK9rIEp2uVtXUuTCVe+CvX3xXG6eC2E/+6SniWPGAlgx94QJ0TkfO6MfxHgYq
+2hdUAdAQ33+dfPvlMPggp9V1FrD1FKw/+QONNTLYuaC9aWIgGQCEjX9H86BYPte1
+roREhRaU2N1Lc7B7cU8ZJaFF1W1Sxbmi+sAhAWzBTBoRGtqYTffsjI9Z4iFky/mh
+lIuMOMeKltOv7Ab8Xs716x8AcVlUK5YuLOHFe4vWFPV3jjsUjkzD/rfJRkEO2i0n
+TpBN1YfELrxLWWDlKJTJjPPyL8PutY/7eJWowqrylLfWWLIe6FWTpXJkHgxPzH/m
+q4chrXFF/2OKaykZ+KXtxVcpvSblfURTvvyt14uFA0jlEenq+2pQSt8nc8lXe2Tn
+7QWSD3eKo3HGZYSaskANJihUChrpKao88Dh2wZSJOQzXgX0f8wOAwJAbbKpZvCpO
+w0K7/Fw8Ehww6THAv8abopzy6nkp5irhlE7u0fCTmSU+gKk85prvAHjYQtc+7XVH
+QG53BSWUkmCfeuURGVZDRejzFbIwPgYyyxfDHWE7+6xOSCwF961/h1wUyHGY7Vx6
+1hq9IKx5YWi/eI/eNaUWCLU=
+=yAl3
 -----END PGP SIGNATURE-----
 
---===============5182582250335175931==--
+--===============2897739621716442280==--
