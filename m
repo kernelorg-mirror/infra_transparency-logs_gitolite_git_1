@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3960376113108019021=="
+Content-Type: multipart/mixed; boundary="===============6946131497728507579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Sep 2021 14:35:29 -0000
-Message-Id: <163223492969.9578.5108411507134026695@gitolite.kernel.org>
+Date: Tue, 21 Sep 2021 14:38:35 -0000
+Message-Id: <163223511517.10503.6798409506134600161@gitolite.kernel.org>
 
---===============3960376113108019021==
+--===============6946131497728507579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a8426a43b0c0f257a090f8551d6b09b79b8095e5
-    new: 8217f07a50236779880f13e87f99224cd9117f83
+  - ref: refs/heads/usb-linus
+    old: da546d6b748e570aa6e44acaa515cfc43baeaa0d
+    new: 517c7bf99bad3d6b9360558414aae634b7472d80
     log: |
-         8217f07a50236779880f13e87f99224cd9117f83 usb: dwc3: gadget: Avoid starting DWC3 gadget during UDC unbind
+         ce1c42b4dacfe7d71c852d8bf3371067ccba865c Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+         b55d37ef6b7db3eda9b4495a8d9b0a944ee8c67d usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+         517c7bf99bad3d6b9360558414aae634b7472d80 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
          
 
---===============3960376113108019021==
+--===============6946131497728507579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632234927 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632235113 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1632234927-082dc6972a9cd6581730eb7e076674d4c2c7de8d
+nonce 1632235113-80c2a3aa6b8676a702bb67ab36d3ec9b2a975525
 
-a8426a43b0c0f257a090f8551d6b09b79b8095e5 8217f07a50236779880f13e87f99224cd9117f83 refs/heads/usb-testing
+da546d6b748e570aa6e44acaa515cfc43baeaa0d 517c7bf99bad3d6b9360558414aae634b7472d80 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ7a8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VsIP/AlW3q8Udv9DWWbtmeOa
-1TMdd1RBgaH9t1783O+GdkDggoPz3xw5EPvutk+nxsgL+oMVqovaKwq+gUa1OJtg
-ORP6ob987+9TCBFh77y3Hem+QGJyXQqvqhlA1Wz1e5VRkDiLRgKwZJm2AdN2asmA
-Iw5zpegsTo3vdTEGEAxj7Xq1f5cF2pTyYzUcrEV502AAnT2uRzzLEWBP0wEVxuzf
-Ha4a7HxZ/Bzg3Ftpvk2PfnzA5FUQPdCRtPGl7BUCmfe/8H2BHQX0ucKOrUUNeZ1+
-i4LiOlw2SVdn6dhJ6uOAvSNAQbfNmTAP4F6GCMUf0ibKyPUIvrB6hSUlgnMBTMRi
-TKpM9qQWDhqCciWBKjLyc8RDLDB1/F1vV4n1NzAvBQzmUFje42nxoYTfkAK86OnN
-hHJ1qz9gEs0qhRTg6dtGmsdvaBX8QIKwcGMds5+9UBIYvuhXAv0saos4YlYC5JVg
-Mcvvgf9x0rCZo6ujiG5NGJo9B99ZyamHXEcUYH3D1U9ZofnpMiadiccAvYf5BSRA
-d0nF2g8+f5Zmnz81fPZzf+A9LmP6RgDkP8EM7tP3H26efNzI8T5puimJri5BZsvo
-xxKl4eNgv+aQeRgdhDGCiBV6CBvyRxoI3NcbGFi0kHM+XIHJpe8XeBbM8p/t0r9p
-zD35swzNu4Qo1wzj3kwyLUEO
-=HX7+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFJ7mkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OEIQAMreN1cDp1DyZttEn9xq
++9fSM0d3oJIxwM0rIZZpq1mLuLr6CHAQKhSMkYtRZ+okxsAaA7ZKdV627JAHf7YL
+zBoxvR13mghmTNPN7u7226l0m2NwVhjcx1EQtMaDAVQnMQQfs5SSY6HNzVIBVrY1
+nh4YBFymObSOcgGVGbCUz1zRFn5fqslrTU6wSAzd4qXevgy8Nmx0VBRS6jFZpNnW
++mFwZnLbORaa7e96qxlrNLeEZj/fLzttWdkHFgtZ5WariYaHDNL9gYPLB9JycZ3O
+UcJTVGNELZfWdghDhgLsutOK5IvaV+xF3YrWG6pKlBgLDKAG6dcltYyHntEaZbnm
+pRsUBnrjfeNStTnJGI13E4NhRoLpXKm8W7n0ileG8hvCx51zbbss0t35BzSDR7pC
+P1OzDH5BTyFfs6Tyb4hGAAIZPJkKb+V4BVU4fC7QDVQ5kR9JEqZEujT/kg/IQ4wC
+ZoLv7R91Tn1jZXf62TjWBUwJ08/xDUq5r+oUa3I7O7hULKWC/axT5ew66c5cpyex
+W9SNIbSFOJakchsYIVq6dgsZp1ELLCL1gDgGJ/f8dEfI8mTQrGM2NKTfZ3ayp8Ks
+UJC3m4jkSrM2vi2mMQGpCm4//nqgL4qwBM8yAXNY3eQr3h0EKB/ExfS0e9Kcy7Hw
+euoO5jXvruXIghUT4n/5uCR+
+=crc6
 -----END PGP SIGNATURE-----
 
---===============3960376113108019021==--
+--===============6946131497728507579==--
