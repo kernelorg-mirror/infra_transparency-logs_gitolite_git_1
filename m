@@ -1,16 +1,84 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Tue, 21 Sep 2021 09:25:04 -0000
-Message-Id: <163221630429.7617.1039077619940366518@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3592348645626459383=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Tue, 21 Sep 2021 09:43:19 -0000
+Message-Id: <163221739915.17286.13903618594618351874@gitolite.kernel.org>
+
+--===============3592348645626459383==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/libperf/pmu-events
-    old: 0000000000000000000000000000000000000000
-    new: bf194ee5243cb8770eba1e676c269d865b3f6211
+  - ref: refs/heads/fscache-iter-3
+    old: e979d9e261da150dc50f6928e8b7ff35e75a0bd9
+    new: c70e24d562c693fc51734a68db107d26ec0dc985
+    log: |
+         0c1febdef9ffab12d9537734ffb1b01efe165aa7 fscache: Fix fscache_cookie_enabled() to handle NULL cookie
+         5e64e2a5277556e8c55a39942bf364190b8d4655 fscache: Implement a fallback I/O interface to replace the old API
+         1d35f11f59303036555249fe3e390e873aa96ce0 nfs: Move to using the alternate fallback fscache I/O API
+         b7d7ac593e134bd186081bdf476b613866ad18a0 9p: (untested) Convert to using the netfs helper lib to do reads and caching
+         3c965e81fc9e18fb814cde89591cb612ad864c6b cifs: (untested) Move to using the alternate fallback fscache I/O API
+         1dcd3ca9671485506685ab29e83d9e5216ea5d56 fscache: Remove the old I/O API
+         293c8d161e196a80caae62be4dbc0eb8a1a497d7 fscache: Remove stats that are no longer used
+         c70e24d562c693fc51734a68db107d26ec0dc985 fscache: Update the documentation to reflect I/O API changes
+         
+  - ref: refs/heads/fscache-next
+    old: 86641885f99bee8fda2aa9a9f1063f6716ba5f2f
+    new: 84ff809aaa1aef8bb8994f34be640f1a0f7bfd92
+    log: |
+         0c1febdef9ffab12d9537734ffb1b01efe165aa7 fscache: Fix fscache_cookie_enabled() to handle NULL cookie
+         5e64e2a5277556e8c55a39942bf364190b8d4655 fscache: Implement a fallback I/O interface to replace the old API
+         1d35f11f59303036555249fe3e390e873aa96ce0 nfs: Move to using the alternate fallback fscache I/O API
+         b7d7ac593e134bd186081bdf476b613866ad18a0 9p: (untested) Convert to using the netfs helper lib to do reads and caching
+         3c965e81fc9e18fb814cde89591cb612ad864c6b cifs: (untested) Move to using the alternate fallback fscache I/O API
+         1dcd3ca9671485506685ab29e83d9e5216ea5d56 fscache: Remove the old I/O API
+         293c8d161e196a80caae62be4dbc0eb8a1a497d7 fscache: Remove stats that are no longer used
+         c70e24d562c693fc51734a68db107d26ec0dc985 fscache: Update the documentation to reflect I/O API changes
+         84ff809aaa1aef8bb8994f34be640f1a0f7bfd92 Merge branch 'fscache-iter-3' into fscache-next
+         
+  - ref: refs/remotes/linus/master
+    old: e4e737bb5c170df6135a127739a9e6148ee3da82
+    new: d9fb678414c048e185eaddadd18d75f5e8832ff3
+    log: revlist-e4e737bb5c17-d9fb678414c0.txt
+
+--===============3592348645626459383==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e4e737bb5c17-d9fb678414c0.txt
+
+863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
+5457773ef99f25fcc4b238ac76b68e28273250f4 spi: rockchip: handle zero length transfers without timing out
+2bab94090b01bc593d8bc25f68df41f198721173 spi: tegra20-slink: Declare runtime suspend and resume functions conditionally
+345e1ae0c6ba54f6a4d32154e80cadc2ee2ef1af afs: Fix missing put on afs_read objects and missing get on the key therein
+581b2027af0018944ba301d68e7af45c6d1128b5 afs: Fix page leak
+3978d816523991dd86cf9aae88c295230a5ea3b2 afs: Add missing vnode validation checks
+63d49d843ef5fffeea069e0ffdfbd2bf40ba01c6 afs: Fix incorrect triggering of sillyrename on 3rd-party invalidation
+6e0e99d58a6530cf65f10e4bb16630c5be6c254d afs: Fix mmap coherency vs 3rd-party changes
+4fe6a946823a9bc8619fd16b7ea7d15914a30f22 afs: Try to avoid taking RCU read lock when checking vnode validity
+b537a3c21775075395af475dcc6ef212fcf29db8 afs: Fix corruption in reads at fpos 2G-4G from an OpenAFS server
+9d37e1cab2a9d2cee2737973fa455e6f89eee46a afs: Fix updating of i_blocks on file/dir extension
+099dd788e31b4f426ef49c2785069804925a84e1 cifs: remove pathname for file from SPDX header
+4c51de1e8f928a5b05248714d832d7d991ac319a cifs: fix incorrect kernel doc comments
+dc9660590d106bb58d145233fffca4efadad3655 regulator: max14577: Revert "regulator: max14577: Add proper module aliases strings"
+a9b3043de47b7f8cbe38c36aee572526665b6315 ksmbd: transport_rdma: Don't include rwlock.h directly
+e3fc065682ebbbd15b0ce0036800f4acbf765d46 cifs: Deferred close performance improvements
+71826b068884050d5fdd37fda857ba1539c513d3 cifs: Fix soft lockup during fsstress
+35866f3f779aef5e7ba84e4d1023fe2e2a0e219e cifs: Not to defer close on file when lock is set
+f58eae6c5fa882d6d0a6b7587a099602a59d57b5 ksmbd: prevent out of share access
+6d56262c3d224699b29b9bb6b4ace8bab7d692c2 ksmbd: add validation for FILE_FULL_EA_INFORMATION of smb2_get_info
+d8b1e10a2b8efaf71d151aa756052fbf2f3b6d57 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+e8f71f89236ef82d449991bfbc237e3cb6ea584f drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+2ff59bad6f24813e4c9e8f2022684010ec0e58d2 Merge tag 'regulator-fix-v5.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+4c17ca27923c16fd73bbb9ad033c7d749c3bcfcc Merge tag 'spi-fix-v5.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+fdf5078458793fca9e9c0fb5e58a1a970ca0fdef Merge tag '5.15-rc1-smb3' of git://git.samba.org/sfrench/cifs-2.6
+707a63e9a9dd55432d47bf40457d4a3413888dcc Merge tag '5.15-rc1-ksmbd' of git://git.samba.org/ksmbd
+d9fb678414c048e185eaddadd18d75f5e8832ff3 Merge tag 'afs-fixes-20210913' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+
+--===============3592348645626459383==--
