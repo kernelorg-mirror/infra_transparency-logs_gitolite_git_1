@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 21 Sep 2021 09:15:17 -0000
-Message-Id: <163221571706.415.7961458824950795758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Sep 2021 09:17:31 -0000
+Message-Id: <163221585166.1198.9745527114614149402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/at91-dt
-    old: 8c8b997c34ef1dca3b37a36b47808a649fb43a06
-    new: dcdbc335a91a26e022a803e1a6b837266989c032
+  - ref: refs/heads/master
+    old: 85c698863c15176f743fd1d1fcf39ceb9172c820
+    new: bea714581a317803a0dfc9f975cb9fc2f2cada86
     log: |
-         dcdbc335a91a26e022a803e1a6b837266989c032 ARM: dts: at91: tse850: the emac<->phy interface is rmii
+         bea714581a317803a0dfc9f975cb9fc2f2cada86 net/ipv4/udp_tunnel_core.c: remove superfluous header files from udp_tunnel_core.c
          
