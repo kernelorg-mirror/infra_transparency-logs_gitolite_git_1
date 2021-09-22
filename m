@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1256463601199432206=="
+Content-Type: multipart/mixed; boundary="===============4317551288488304810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 22 Sep 2021 16:55:45 -0000
-Message-Id: <163232974577.24953.14826510182348640211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 22 Sep 2021 17:14:56 -0000
+Message-Id: <163233089619.3546.4922987931619285394@gitolite.kernel.org>
 
---===============1256463601199432206==
+--===============4317551288488304810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/scmi_dt_defconfig
-    old: b48e46c93a64b7d9b5e5b16c7e1aaff817f162c0
-    new: 3cb38bcecb51b0bf5ce323f1fb9929c34e2e552c
-    log: revlist-b48e46c93a64-3cb38bcecb51.txt
+  - ref: refs/heads/x86/misc
+    old: a729691b541f6e63043beae72e635635abe5dc09
+    new: 64c76a84337a5678009155fafe98c5cd8ec673f0
+    log: revlist-a729691b541f-64c76a84337a.txt
 
---===============1256463601199432206==
+--===============4317551288488304810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b48e46c93a64-3cb38bcecb51.txt
+Content-Disposition: attachment; filename=revlist-a729691b541f-64c76a84337a.txt
 
 9673e0050c39b0534d0e2ca431223f52089f4959 ocfs2: ocfs2_downconvert_lock failure results in deadlock
 4bdffd2708d65e68ff254d90793bb167d828219f arch/csky/kernel/probes/kprobes.c: fix bugon.cocci warnings
@@ -1049,6 +1049,6 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-3cb38bcecb51b0bf5ce323f1fb9929c34e2e552c arm64: dts: juno: add mhu doorbell support and scmi device nodes
+64c76a84337a5678009155fafe98c5cd8ec673f0 x86/Kconfig: Fix an unused variable error in dell-smm-hwmon
 
---===============1256463601199432206==--
+--===============4317551288488304810==--
