@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 22 Sep 2021 14:16:23 -0000
-Message-Id: <163232018304.29199.13842551254744632048@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 14:17:48 -0000
+Message-Id: <163232026846.29692.17963137872044150304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: c05731d0c6bd9a625e27ea5c5157ebf1303229e0
-    new: 3e5f2d90c28f9454e421108554707620bc23269d
+    old: 3e5f2d90c28f9454e421108554707620bc23269d
+    new: 8331dc487fc55963e853b6858af716907717e181
     log: |
-         3e5f2d90c28f9454e421108554707620bc23269d Bluetooth: btmtkuart: fix a memleak in mtk_hci_wmt_sync
+         8331dc487fc55963e853b6858af716907717e181 Bluetooth: hci_core: Move all debugfs handling to hci_debugfs.c
          
