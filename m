@@ -1,68 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2042360779654251609=="
+Content-Type: multipart/mixed; boundary="===============3310934264660925647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 22 Sep 2021 06:29:26 -0000
-Message-Id: <163229216604.28553.6796190216097887787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 22 Sep 2021 06:29:33 -0000
+Message-Id: <163229217387.28686.1560025330528697449@gitolite.kernel.org>
 
---===============2042360779654251609==
+--===============3310934264660925647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: e4e737bb5c170df6135a127739a9e6148ee3da82
     log: revlist-6880fa6c5660-e4e737bb5c17.txt
-  - ref: refs/heads/rdma-next
-    old: 96095614a7e0ce57f8a7c49712c71ef7bd783c07
-    new: a220d87f7c5ac65086983647448e49f7327465af
-    log: revlist-96095614a7e0-a220d87f7c5a.txt
-  - ref: refs/heads/rdma-rc
-    old: 1b789bd4dbd48a92f5427d9c37a72a8f6ca17754
-    new: 9f7fa37a6bd90f2749c67f8524334c387d972eb9
-    log: |
-         3110b942d36b961858664486d72f815d78c956c3 IB/qib: Fix clang confusion of NULL pointer comparison
-         2cc74e1ee31d00393b6698ec80b322fd26523da4 IB/cma: Do not send IGMP leaves for sendonly Multicast groups
-         ca465e1f1f9b38fe916a36f7d80c5d25f2337c81 RDMA/cma: Fix listener leak in rdma_cma_listen_on_all() failure
-         ebcc36ea1960d79406d417cb6b107946da8b5210 MAINTAINERS: Update Broadcom RDMA maintainers
-         5b1e985f7626307c451f98883f5e2665ee208e1c RDMA/irdma: Skip CQP ring during a reset
-         f4475f249445b3c1fb99919b0514a075b6d6b3d4 RDMA/irdma: Validate number of CQ entries on create CQ
-         d3bdcd59633907ee306057b6bb70f06dce47dddc RDMA/irdma: Report correct WC error when transport retry counter is exceeded
-         9f7fa37a6bd90f2749c67f8524334c387d972eb9 RDMA/irdma: Report correct WC error when there are MW bind errors
-         
-  - ref: refs/heads/testing/rdma-next
-    old: 3c157f98dd293011d8406724024643a79d7befa8
-    new: ad2c50b542f8dfb35c8a5b691388ae2a60af4114
-    log: revlist-3c157f98dd29-ad2c50b542f8.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 1b789bd4dbd48a92f5427d9c37a72a8f6ca17754
-    new: bed316e6072201bcdc31e36d18a2906b5934420b
-    log: revlist-1b789bd4dbd4-bed316e60722.txt
-  - ref: refs/tags/mlx-next
-    old: 1b789bd4dbd48a92f5427d9c37a72a8f6ca17754
-    new: ad17bbef3dd573da937816edc0ab84fed6a17fa6
-    log: |
-         3110b942d36b961858664486d72f815d78c956c3 IB/qib: Fix clang confusion of NULL pointer comparison
-         dcd3f985b20ffcc375f82ca0ca9f241c7025eb5e RDMA/rxe: Fix wrong port_cap_flags
-         d12faf2dee50b4171b18e67a6e30d7e145f66c56 RDMA/rxe: remove the redundant variable
-         ad17bbef3dd573da937816edc0ab84fed6a17fa6 RDMA/rxe: remove the unnecessary variable
-         
-  - ref: refs/tags/mlx-rc
-    old: 1b789bd4dbd48a92f5427d9c37a72a8f6ca17754
-    new: ca465e1f1f9b38fe916a36f7d80c5d25f2337c81
-    log: |
-         3110b942d36b961858664486d72f815d78c956c3 IB/qib: Fix clang confusion of NULL pointer comparison
-         2cc74e1ee31d00393b6698ec80b322fd26523da4 IB/cma: Do not send IGMP leaves for sendonly Multicast groups
-         ca465e1f1f9b38fe916a36f7d80c5d25f2337c81 RDMA/cma: Fix listener leak in rdma_cma_listen_on_all() failure
-         
+  - ref: refs/heads/queue-next
+    old: e54bb944bd74dfccd4c4ca99554d131e2e725214
+    new: 5354348f6a6eb99d62fab1c54a9c750ff36b647f
+    log: revlist-e54bb944bd74-5354348f6a6e.txt
+  - ref: refs/heads/queue-rc
+    old: 56bfcaa54baff5b413355fa7ce19be13d58bf934
+    new: 04b1f0b07f8f1bb01da36214b1e856e09b6e0ccc
+    log: revlist-56bfcaa54baf-04b1f0b07f8f.txt
 
---===============2042360779654251609==
+--===============3310934264660925647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -347,67 +313,11 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
 
---===============2042360779654251609==
+--===============3310934264660925647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96095614a7e0-a220d87f7c5a.txt
-
-3110b942d36b961858664486d72f815d78c956c3 IB/qib: Fix clang confusion of NULL pointer comparison
-dcd3f985b20ffcc375f82ca0ca9f241c7025eb5e RDMA/rxe: Fix wrong port_cap_flags
-d12faf2dee50b4171b18e67a6e30d7e145f66c56 RDMA/rxe: remove the redundant variable
-ad17bbef3dd573da937816edc0ab84fed6a17fa6 RDMA/rxe: remove the unnecessary variable
-9a381f7e5aa299de3500b8afa2237e5d1eab63fb RDMA/bnxt_re: Add extended statistics counters
-0cc4a9bdfc298c38080565df2f6e903b7b3c0c59 RDMA/bnxt_re: Update statistics counter name
-403bc4359a0098712b917bc4ae18349d5ae11ca3 RDMA/bnxt_re: Use separate response buffer for stat_ctx_free
-b9b43ad3ce883f6d9f0fc3c24e2a0d2d94d7eb49 RDMA/bnxt_re: Reduce the delay in polling for hwrm command completion
-6a7296c918eb5606b58632ff03d8515f61dc1d36 RDMA/bnxt_re: Support multiple page sizes
-d195ff03bf6dffb8d4bac77b328aa2602e843b9e RDMA/bnxt_re: Suppress unwanted error messages
-598d16fa1bf93431ad35bbab3ed1affe4fb7b562 RDMA/bnxt_re: Fix query SRQ failure
-2b4ccce6cafae8eff0daec06b7652d9ab75f692f RDMA/bnxt_re: Fix FRMR issue with single page MR allocation
-690ea7fe00afe1270590a9e4211705691dcef1bd RDMA/bnxt_re: Use GFP_KERNEL in non atomic context
-7a3c3a121eb73f59f04939a14c117e884f3538e2 RDMA/bnxt_re: Correct FRMR size calculation
-6bda39149d4b8920fdb8744090653aca3daa792d RDMA/bnxt_re: Check if the vlan is valid before reporting
-1c79dc46d0db409c7e861dd5b4e868ee219d68b9 net/sched: Don't print dump stack in event of transmission timeout
-69e50dbcd86d5aed726ab51b06c1391379f70d71 RDMA/mlx5: Avoid taking MRs from larger MR cache pools when a pool is empty
-e93786e48c433703957083917eb91d5949e3b9e2 RDMA/core: Introduce peer memory interface
-c984c839f057cf3025962bfeb4390b3ec0a7e7b1 IB/mlx5: Add ATS support for peer memory
-07aec04b44ccb6bf96fc050cc735610aa480a40b net/mlx5: Add uid field to UAR allocation structures
-a4b0e182b806908867e3c00d45d8e2cdace3be68 IB/mlx5: Enable UAR to have DevX UID
-787de76769f020f595dc8dc67cfa4e6cd78606b9 net/mlx5: Add ifc bits to support optional counters
-ef9d835b3ac5d9568f6cb89299a6534d7bc5ba44 net/mlx5: Add priorities for counters in RDMA namespaces
-55855e6e94f1a0fd2b1e77bc860d39f57488830f RDMA/counter: Add a descriptor in struct rdma_hw_stats
-4f77666f3bf4e92239cd807503d156cdb7d82964 RDMA/counter: Add an is_disabled field in struct rdma_hw_stats
-83dd6281768a09a9db8510d9fd9ff5a4dda7ee03 RDMA/counter: Add optional counter support
-58d035ee532601c77068dd0e6020476820fe1737 RDMA/nldev: Add support to get status of all counters
-e43ccd904b5346dce4442e9648b47da4943f6cda RDMA/nldev: Allow optional-counter status configuration through RDMA netlink
-47d952512a3aea4a69d945d8e0e822d78e53227b RDMA/mlx5: Support optional counters in hw_stats initialization
-b118b4817386e1c1a92dd13227b42679bcb85cfe RDMA/mlx5: Add steering support in optional flow counters
-b98e85dba395cdb49f5e44596187fff47d404341 RDMA/mlx5: Add modify_op_stat() support
-a8a96d7cab27e862bf278e5a924947b51301b920 RDMA/mlx5: Add optional counter support in get_hw_stats callback
-8a3e990f56710dd98dfbd76e4c674ab1a9887478 RDMA/mlx5: Add dummy umem to IB_MR_TYPE_DM
-1243a77a1eb20b3e205679ee6ef83b805f937852 Revert "RDMA/mlx5: Add dummy umem to IB_MR_TYPE_DM"
-622ae8816d3f8101b777f82353d7bc936feec9aa RDMA/usnic: Lock VF with mutex instead of spinlock
-001e1e21c33194e5cea4a07aca33e5ff18f85e29 DEBUG: net/mlx5: cleanup bridge dwork with cancel_delayed_work_sync
-956a76f80030dfcab670ceba245025860c7c59ac init: don't panic if mount_nodev_root failed
-84439ec609717fef3b4bd0cc72e696aa5db5e8eb PCI/IOV: Provide internal VF index
-03e0fad1a61ef8d6d0b6eed5cc5a7e2ccb9cf427 vfio: Add an API to check migration state transition validity
-56b64feb37fca7a8084c26a94230bbc29161d58a vfio/pci_core: Make the region->release() function optional
-02edb05fd0eec5de7ec28e991503ef348224db28 net/mlx5: Introduce migration bits and structures
-085f4a31941b81edd1c404c60582e7b4a8a73043 net/mlx5: Expose APIs to get/put the mlx5 core device
-a09ae74195b84f480c7661d93c6e6a60a95487c5 mlx5_vfio_pci: Expose migration commands over mlx5 device
-73e3558ecb8dc19ee00666df068cede1dd497f64 mlx5_vfio_pci: Implement vfio_pci driver for mlx5 devices
-93367c43032096a80384c28723cea57e8012fc04 net/mlx5: Publish and unpublish all devlink parameters at once
-9346bd65a0aca578ae65d73379bd3af9ecc4e6f4 devlink: Delete not-used single parameter notification APIs
-b24605c234dbf91c5c194023577cd0c3635e0281 devlink: Delete not-used devlink APIs
-111b229bcb0b4520fac02cdc46a89ea394e4aba6 RDMA/cma: Ensure rdma_addr_cancel() happens before issuing more requests
-a220d87f7c5ac65086983647448e49f7327465af RDMA/cma: Do not change route.addr.src_addr.ss_family
-
---===============2042360779654251609==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c157f98dd29-ad2c50b542f8.txt
+Content-Disposition: attachment; filename=revlist-e54bb944bd74-5354348f6a6e.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -415,60 +325,16 @@ d7109fe3a0991a0f7b4ac099b78c908e3b619787 x86/platform: Increase maximum GPIO num
 f1940d4e9cbe6208e7e77e433c587af108152a17 Drivers: hv: vmbus: Fix kernel crash upon unbinding a device from uio_hv_generic driver
 a61cb6017df0a9be072a35259e6e9ae7aa0ef6b3 dma-mapping: fix the kerneldoc for dma_map_sg_attrs
 3a029e1f3d6e2ee809e85abecce619a48016bd4b selftests/bpf: Fix build of task_pt_regs test for arm64
-8343268ec3cf4e097aa8b2071f0cd6779e2c4953 net/mlx5: Bridge, fix uninitialized variable usage
-897ae4b40e80be7dcbf2b3079d85fa6339a6b751 net/mlx5: Fix rdma aux device on devlink reload
-da8252d5805d4a80120a0c2151277e5fb9e8aa9e net/mlx5: Lag, don't update lag if lag isn't supported
-dfe6fd72b5f1878b16aa2c8603e031bbcd66b96d net/mlx5: FWTrace, cancel work on alloc pd error flow
-ee27e330a953595903979ffdb84926843595a9fe net/mlx5: Fix potential sleeping in atomic context
-c91c1da72b47fc4c5e353cdd9099ba94ae07d2fa net/mlx5e: Fix mutual exclusion between CQE compression and HW TS
-8db6a54f3cae6a803b2cbf5390662bca641f7da8 net/mlx5e: Fix condition when retrieving PTP-rqn
-0f31ab217dc52a3044044d416be0248b1778c4da dt-bindings: net: sun8i-emac: Add compatible for D1
-d9ea761fdd197351890418acd462c51f241014a7 dccp: don't duplicate ccid when cloning dccp sock
-581edcd0c8a076eba2ec9e20db50921ee80f5cbc mctp: perform route destruction under RCU read lock
-d437f5aa23aa2b7bd07cd44b839d7546cc17166f ibmvnic: check failover_pending in login response
-c324f023dbb2bcceccb7ecad5a268e58b80e638d Merge tag 'mlx5-fixes-2021-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-d7e203ffd3ba5965e88952e7364a42ab32064408 ne2000: fix unused function warning
-ea269a6f720782ed94171fb962b14ce07c372138 net: phylink: Update SFP selected interface on advertising changes
-b5c102238cea985d8126b173d06b9e1de88037ee net: ipa: initialize all filter table slots
-276aae377206d60b9b7b7df4586cd9f2a813f5d0 net: stmmac: fix system hang caused by eee_ctrl_timer during suspend/resume
 34b1999da935a33be6239226bfa6cd4f704c5c88 x86/mm: Fix kern_addr_valid() to cope with existing but not present entries
-3c4cea8fa7f71f00c5279547043a84bc2a4d8b8c vhost_net: fix OoB on sendmsg() failure.
-273c29e944bda9a20a30c26cfc34c9a3f363280b ibmvnic: check failover_pending in login response
-d82d5303c4c539db86588ffb5dc5b26c3f1513e8 net: macb: fix use after free on rmmod
-04f08eb44b5011493d77b602fdec29ff0f5c6cd5 net/af_unix: fix a data-race in unix_dgram_poll
-9b6ff7eb666415e1558f1ba8a742f5db6a9954de net/l2tp: Fix reference count leak in l2tp_udp_recv_core
-2a48d96fd58a666ae231c3dd6fe4a458798ac645 net: stmmac: platform: fix build warning when with !CONFIG_PM_SLEEP
-415446185b939dcdcd6a483e705c805ab961e54c sfc: fallback for lack of xdp tx queues
-6215b608a8c4d4a478721e14a6faa0dc56e4a693 sfc: last resort fallback for lack of xdp tx queues
-e3a843f98c8fad4d02849fdb14919885024bf51f Merge branch 'sfx-xdp-fallback-tx-queues'
-e011912651bdf72840d88e8a8de3716bbcc4be99 net: ni65: Avoid typecast of pointer to u32
-bfe84435090a6c85271b02a42b1d83fef9ff7cc7 ice: Correctly deal with PFs that do not support RDMA
-e3f0cc1a945fcefec0c7c9d9dfd028a51daa1846 r6040: Restore MDIO clock frequency after MAC reset
-dc41c4a98a76640e7085815f937eadd1f336ba85 net/packet: clarify source of pr_*() messages
-20e100f52730cd0db609e559799c1712b5f27582 qed: Handle management FW error
-666eb96d85dcbc93aacc186a037db2e05b92b9f5 qlcnic: Remove redundant initialization of variable ret
 2f1aaf3ea666b737ad717b3d88667225aca23149 bpf, mm: Fix lockdep warning triggered by stack_map_get_build_id_offset()
-08dad2f4d541fcfe5e7bfda72cc6314bbfd2802f net: stmmac: allow CSR clock of 300MHz
 7ad9bb9d0f357dcab5eb9a0f28d1c8983c48434c asm-generic/hyperv: provide cpumask_to_vpset_noself
 dfb5c1e12c28e35e4d4e5bc8022b0e9d585b89a7 x86/hyperv: remove on-stack cpumask from hv_send_ipi_mask_allbutself
-ce062a0adbfe933b1932235fdfd874c4c91d1bb0 net: dsa: qca8k: fix kernel panic with legacy mdio mapping
-1b704b27beb11ce147d64b21c914e57afbfb5656 selftest: net: fix typo in altname test
-f11ee2ad25b22c2ee587045dd6999434375532f7 net: mana: Prefer struct_size over open coded arithmetic
 16c8d2df7ec0eed31b7d3b61cb13206a7fb930cc io_uring: ensure symmetry in handling iter types in loop_rw_iter()
 7a842fb589e3cdbe205bc16dc37c30cf13383159 io-wq: code clean of io_wqe_create_worker()
 767a65e9f31789d80e41edd03a802314905e8fbf io-wq: fix potential race of acct->nr_workers
 67f3b2f822b7e71cfc9b42dbd9f3144fa2933e0b blk-mq: avoid to iterate over stale request
 b1a89856fbf63fffde6a4771d8f1ac21df549e50 m68k: Double cast io functions to unsigned long
 a7b68ed15d1fd72c1e451d5eb6edebee2a624b90 m68k: mvme: Remove overdue #warnings in RTC handling
-eca4cf12acda306f851f6d2a05b1c9ef62cf0e81 bnxt_en: Fix error recovery regression
-1affc01fdc6035189a5ab2a24948c9419ee0ecf2 bnxt_en: make bnxt_free_skbs() safe to call after bnxt_free_mem()
-985941e1dd5e996311c29688ca0d3aa1ff8eb0b6 bnxt_en: Clean up completion ring page arrays completely
-2049eb0d20de1e6533526ad209f5d1b006ed97c7 Merge branch 'bnxt_en-fixes'
-d7807a9adf4856171f8441f13078c33941df48ab Revert "ipv4: fix memory leaks in ip_cmsg_send() callers"
-e50e711351bdc656a8e6ca1022b4293cae8dcd59 udp_tunnel: Fix udp_tunnel_nic work-queue type
-f4bb62e64c88c93060c051195d3bbba804e56945 tipc: increase timeout in tipc_sk_enqueue()
-e87b5052271e39d62337ade531992b7e5d8c2cfa ipv6: delay fib6_sernum increase in fib6_add
-111b64e35ea03d58c882832744f571a88bb2e2e2 net: dsa: lantiq_gswip: Add 200ms assert delay
 b871895b148256f1721bc565d803860242755a0b powerpc/64s: system call scv tabort fix for corrupt irq soft-mask state
 5379ef2a60431232b9bb01c6d3580b875123d723 selftests/powerpc: Add scv versions of the basic TM syscall tests
 ae7aaecc3f2f78b76ab3a8d6178610f55aadfa56 powerpc/64s: system call rfscv workaround for TM bugs
@@ -745,12 +611,13 @@ b24605c234dbf91c5c194023577cd0c3635e0281 devlink: Delete not-used devlink APIs
 a220d87f7c5ac65086983647448e49f7327465af RDMA/cma: Do not change route.addr.src_addr.ss_family
 bed316e6072201bcdc31e36d18a2906b5934420b Merge branch 'master' into testing/rdma-rc
 ad2c50b542f8dfb35c8a5b691388ae2a60af4114 Merge branch 'rdma-next' into testing/rdma-next
+5354348f6a6eb99d62fab1c54a9c750ff36b647f Merge branch 'testing/rdma-next' into queue-next
 
---===============2042360779654251609==
+--===============3310934264660925647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b789bd4dbd4-bed316e60722.txt
+Content-Disposition: attachment; filename=revlist-56bfcaa54baf-04b1f0b07f8f.txt
 
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -758,60 +625,16 @@ d7109fe3a0991a0f7b4ac099b78c908e3b619787 x86/platform: Increase maximum GPIO num
 f1940d4e9cbe6208e7e77e433c587af108152a17 Drivers: hv: vmbus: Fix kernel crash upon unbinding a device from uio_hv_generic driver
 a61cb6017df0a9be072a35259e6e9ae7aa0ef6b3 dma-mapping: fix the kerneldoc for dma_map_sg_attrs
 3a029e1f3d6e2ee809e85abecce619a48016bd4b selftests/bpf: Fix build of task_pt_regs test for arm64
-8343268ec3cf4e097aa8b2071f0cd6779e2c4953 net/mlx5: Bridge, fix uninitialized variable usage
-897ae4b40e80be7dcbf2b3079d85fa6339a6b751 net/mlx5: Fix rdma aux device on devlink reload
-da8252d5805d4a80120a0c2151277e5fb9e8aa9e net/mlx5: Lag, don't update lag if lag isn't supported
-dfe6fd72b5f1878b16aa2c8603e031bbcd66b96d net/mlx5: FWTrace, cancel work on alloc pd error flow
-ee27e330a953595903979ffdb84926843595a9fe net/mlx5: Fix potential sleeping in atomic context
-c91c1da72b47fc4c5e353cdd9099ba94ae07d2fa net/mlx5e: Fix mutual exclusion between CQE compression and HW TS
-8db6a54f3cae6a803b2cbf5390662bca641f7da8 net/mlx5e: Fix condition when retrieving PTP-rqn
-0f31ab217dc52a3044044d416be0248b1778c4da dt-bindings: net: sun8i-emac: Add compatible for D1
-d9ea761fdd197351890418acd462c51f241014a7 dccp: don't duplicate ccid when cloning dccp sock
-581edcd0c8a076eba2ec9e20db50921ee80f5cbc mctp: perform route destruction under RCU read lock
-d437f5aa23aa2b7bd07cd44b839d7546cc17166f ibmvnic: check failover_pending in login response
-c324f023dbb2bcceccb7ecad5a268e58b80e638d Merge tag 'mlx5-fixes-2021-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-d7e203ffd3ba5965e88952e7364a42ab32064408 ne2000: fix unused function warning
-ea269a6f720782ed94171fb962b14ce07c372138 net: phylink: Update SFP selected interface on advertising changes
-b5c102238cea985d8126b173d06b9e1de88037ee net: ipa: initialize all filter table slots
-276aae377206d60b9b7b7df4586cd9f2a813f5d0 net: stmmac: fix system hang caused by eee_ctrl_timer during suspend/resume
 34b1999da935a33be6239226bfa6cd4f704c5c88 x86/mm: Fix kern_addr_valid() to cope with existing but not present entries
-3c4cea8fa7f71f00c5279547043a84bc2a4d8b8c vhost_net: fix OoB on sendmsg() failure.
-273c29e944bda9a20a30c26cfc34c9a3f363280b ibmvnic: check failover_pending in login response
-d82d5303c4c539db86588ffb5dc5b26c3f1513e8 net: macb: fix use after free on rmmod
-04f08eb44b5011493d77b602fdec29ff0f5c6cd5 net/af_unix: fix a data-race in unix_dgram_poll
-9b6ff7eb666415e1558f1ba8a742f5db6a9954de net/l2tp: Fix reference count leak in l2tp_udp_recv_core
-2a48d96fd58a666ae231c3dd6fe4a458798ac645 net: stmmac: platform: fix build warning when with !CONFIG_PM_SLEEP
-415446185b939dcdcd6a483e705c805ab961e54c sfc: fallback for lack of xdp tx queues
-6215b608a8c4d4a478721e14a6faa0dc56e4a693 sfc: last resort fallback for lack of xdp tx queues
-e3a843f98c8fad4d02849fdb14919885024bf51f Merge branch 'sfx-xdp-fallback-tx-queues'
-e011912651bdf72840d88e8a8de3716bbcc4be99 net: ni65: Avoid typecast of pointer to u32
-bfe84435090a6c85271b02a42b1d83fef9ff7cc7 ice: Correctly deal with PFs that do not support RDMA
-e3f0cc1a945fcefec0c7c9d9dfd028a51daa1846 r6040: Restore MDIO clock frequency after MAC reset
-dc41c4a98a76640e7085815f937eadd1f336ba85 net/packet: clarify source of pr_*() messages
-20e100f52730cd0db609e559799c1712b5f27582 qed: Handle management FW error
-666eb96d85dcbc93aacc186a037db2e05b92b9f5 qlcnic: Remove redundant initialization of variable ret
 2f1aaf3ea666b737ad717b3d88667225aca23149 bpf, mm: Fix lockdep warning triggered by stack_map_get_build_id_offset()
-08dad2f4d541fcfe5e7bfda72cc6314bbfd2802f net: stmmac: allow CSR clock of 300MHz
 7ad9bb9d0f357dcab5eb9a0f28d1c8983c48434c asm-generic/hyperv: provide cpumask_to_vpset_noself
 dfb5c1e12c28e35e4d4e5bc8022b0e9d585b89a7 x86/hyperv: remove on-stack cpumask from hv_send_ipi_mask_allbutself
-ce062a0adbfe933b1932235fdfd874c4c91d1bb0 net: dsa: qca8k: fix kernel panic with legacy mdio mapping
-1b704b27beb11ce147d64b21c914e57afbfb5656 selftest: net: fix typo in altname test
-f11ee2ad25b22c2ee587045dd6999434375532f7 net: mana: Prefer struct_size over open coded arithmetic
 16c8d2df7ec0eed31b7d3b61cb13206a7fb930cc io_uring: ensure symmetry in handling iter types in loop_rw_iter()
 7a842fb589e3cdbe205bc16dc37c30cf13383159 io-wq: code clean of io_wqe_create_worker()
 767a65e9f31789d80e41edd03a802314905e8fbf io-wq: fix potential race of acct->nr_workers
 67f3b2f822b7e71cfc9b42dbd9f3144fa2933e0b blk-mq: avoid to iterate over stale request
 b1a89856fbf63fffde6a4771d8f1ac21df549e50 m68k: Double cast io functions to unsigned long
 a7b68ed15d1fd72c1e451d5eb6edebee2a624b90 m68k: mvme: Remove overdue #warnings in RTC handling
-eca4cf12acda306f851f6d2a05b1c9ef62cf0e81 bnxt_en: Fix error recovery regression
-1affc01fdc6035189a5ab2a24948c9419ee0ecf2 bnxt_en: make bnxt_free_skbs() safe to call after bnxt_free_mem()
-985941e1dd5e996311c29688ca0d3aa1ff8eb0b6 bnxt_en: Clean up completion ring page arrays completely
-2049eb0d20de1e6533526ad209f5d1b006ed97c7 Merge branch 'bnxt_en-fixes'
-d7807a9adf4856171f8441f13078c33941df48ab Revert "ipv4: fix memory leaks in ip_cmsg_send() callers"
-e50e711351bdc656a8e6ca1022b4293cae8dcd59 udp_tunnel: Fix udp_tunnel_nic work-queue type
-f4bb62e64c88c93060c051195d3bbba804e56945 tipc: increase timeout in tipc_sk_enqueue()
-e87b5052271e39d62337ade531992b7e5d8c2cfa ipv6: delay fib6_sernum increase in fib6_add
-111b64e35ea03d58c882832744f571a88bb2e2e2 net: dsa: lantiq_gswip: Add 200ms assert delay
 b871895b148256f1721bc565d803860242755a0b powerpc/64s: system call scv tabort fix for corrupt irq soft-mask state
 5379ef2a60431232b9bb01c6d3580b875123d723 selftests/powerpc: Add scv versions of the basic TM syscall tests
 ae7aaecc3f2f78b76ab3a8d6178610f55aadfa56 powerpc/64s: system call rfscv workaround for TM bugs
@@ -1039,5 +862,6 @@ f4475f249445b3c1fb99919b0514a075b6d6b3d4 RDMA/irdma: Validate number of CQ entri
 d3bdcd59633907ee306057b6bb70f06dce47dddc RDMA/irdma: Report correct WC error when transport retry counter is exceeded
 9f7fa37a6bd90f2749c67f8524334c387d972eb9 RDMA/irdma: Report correct WC error when there are MW bind errors
 bed316e6072201bcdc31e36d18a2906b5934420b Merge branch 'master' into testing/rdma-rc
+04b1f0b07f8f1bb01da36214b1e856e09b6e0ccc Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2042360779654251609==--
+--===============3310934264660925647==--
