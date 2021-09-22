@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 22 Sep 2021 21:32:15 -0000
-Message-Id: <163234633512.10980.9993580559800022134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 22 Sep 2021 21:32:38 -0000
+Message-Id: <163234635856.11145.6559956546171629594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/hack/m1-pcie-v4
-    old: 0c025ca5417053d0bbdf95518335e134fcd01cde
-    new: b4ebd956cb417a4de4853783243123a7ab9a6bde
+  - ref: refs/heads/master
+    old: bc23f724481759d0fac61dfb5ce979af2190bbe0
+    new: 7c3a00911b3d179e54d139d5354caf53e8c7ed33
     log: |
-         b4ebd956cb417a4de4853783243123a7ab9a6bde fixup! PCI: apple: Add initial hardware bring-up
+         7c3a00911b3d179e54d139d5354caf53e8c7ed33 bpf: Exempt CAP_BPF from checks against bpf_jit_limit
          
