@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6158070617122377548=="
+Content-Type: multipart/mixed; boundary="===============5008605607463928755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Sep 2021 04:42:08 -0000
-Message-Id: <163228572830.26138.5205136712422223736@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 04:42:18 -0000
+Message-Id: <163228573838.26259.10576383880496138713@gitolite.kernel.org>
 
---===============6158070617122377548==
+--===============5008605607463928755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 25f246d0fbc9e110cabea980650f189ca9b191f1
-    new: 95a157ee63b8e43badcf8081e6dededd8b825121
-    log: revlist-25f246d0fbc9-95a157ee63b8.txt
+  - ref: refs/heads/5.16/scsi-queue
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: 7e642ca0375b95072ab6240c8eb9f0b4f013fb24
+    log: revlist-6880fa6c5660-7e642ca0375b.txt
 
---===============6158070617122377548==
+--===============5008605607463928755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1632285721 -0400
+pusher 75C5DE3D 1632285732 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1632285721-b9b734fbcdcfb59d145142962c3b631f0adbf71a
+nonce 1632285731-224b08e83a0a90baabc8b553c44c51405cdc6cab
 
-25f246d0fbc9e110cabea980650f189ca9b191f1 95a157ee63b8e43badcf8081e6dededd8b825121 refs/tags/mkp-scsi-queue
+6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f 7e642ca0375b95072ab6240c8eb9f0b4f013fb24 refs/heads/5.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFKtBkACgkQ7ulgGnXF
-3j1s8w//Unxz8WzJ1FS9aMBxIAYzAPD8Xaakz/b8nPD/UNlVxq3HhCQpdvJDTMUV
-WloyZfC5zCbVXPXHdgI3AwVlxo54z+8jfyS2wg44IEVRvfDUQ/0crkeZD76+AA9c
-6+60lCdWyxhmGD65bm3VCHtad8GldQBFslUFCyPEkIr79RcYsP++AnVCv4gSCTFo
-NEAXBe3DE65/kG+87/jPVJa4tkzyztw+qidGxF4uLga2X/307gTtsZUOHgf3CsSi
-RfNjpZK28BiXZ0KsBjO+etvynYVdor4xcKyXyG6M6D24e+FOCNdVapP1uJEpZ6Qm
-DNbIDJU7B9K6Te2M7N6fK81jOj9uK9DZSFsd1YiPtyUkwynZWsVkw1KfV+gTutL7
-EvSczr0KHrBB+OZV9QQojiIzFLT+zbN3JDaNpMJugortL9yZp5U39GXd2cPy96Rp
-dkth+BhEcFwO81dCqWuo8wWovHx2/SWSLePrmZ99gGAB6dkikV3I4Qkq+hjjdyWc
-3twnFJQzrPjj0KvXINx+kLKLcuqvrorZl7oHCxMtGYULb8Yp/sZBtFEfc50hQqZA
-OfogxvJKikAXPUYZqt9dkC2c/9ZVeS0oRy/LzNnzP2kM+ynoIBVPP04Yq/Z8RiCo
-VNUeg50esUEntuL/eDqkHoKQji9gZHb1v4rQzYkJHjlC1iSXXKM=
-=6kGb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFKtCQACgkQ7ulgGnXF
+3j3aZRAAmu3pDAkW9rHUxd+LITmt7QoxhNVIRpKNuGZx/PHySbqVIP+Eujwf/vXj
+IPGJGruWBU4ifQI5Ouw06ZTsmnEvFKG6SkSV3LFd8BMlGo+MgpQOtM/vuV3loPoc
+xTTalDC5naZvsLgkQNJR+DGekyKJ3PLJDlPsHZnGr8snXljYUc9BjpMQmfE9VYso
+eqlqPCHeWVpHrc3LStuZAYtZI38j/MQZFwD65UR6wa33fNH0gyH2vGuqR9RuF8p8
+WkIn8daaYZCdJzWU/VW54o43nI4hv1980P33fjzhM1wZPi5xaMY3B16DTGtjZnpH
+6FgduQ/3nwR6D0InRpVOxUetnO4e6kLbWNOhBr1YSf/UB94sHWFIYHKfD0dLMHbG
+/0CCoVlTn6QoWPhxg/vEsKxJ145tQwHJI8+gewkyM7M6AMmFiFmMPglbVcHU0UMm
+gw40Ehbq71+8z1sDOUW398e9XRNJ6oqEQsBD7YbezPohK/3N+LP9BVVxP5Fa1AA2
+LTrrx6wRSCMgbkxE7ryCeHE15FEw7FyFUR7bzx7NtXrtzZ+PKC8LL8RaWWVQzJIm
+/0RSodyGc5ehnKUti9tO84TkIsIgFjDntCWXpV7BNTVQQjxcCCmvtMA7S3CHyGpZ
+GniTw3+7X3zuVokVxGk0oStsjR7E8X1pFJFEpO6eDi9PvLnkTlI=
+=dmHd
 -----END PGP SIGNATURE-----
 
---===============6158070617122377548==
+--===============5008605607463928755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25f246d0fbc9-95a157ee63b8.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-7e642ca0375b.txt
 
 4f6094f1663e2ed26a940f1842cdaa15c1dd649a scsi: hisi_sas: Use managed PCI functions
 089226ef6a084470f4665a68ad7eb48fb48db093 scsi: hisi_sas: Stop printing queue count in v3 hardware probe
@@ -99,4 +99,4 @@ c4adf171e834dab8ca72676ca7264c5b50a542a8 scsi: ufs: ufs-qcom: Remove unneeded va
 aba3b0757b6cba37953bb1d7e71c460d37fd496a scsi: ufs: ufs-mediatek: Change dbg select by check IP version
 7e642ca0375b95072ab6240c8eb9f0b4f013fb24 scsi: target: Remove unused function arguments
 
---===============6158070617122377548==--
+--===============5008605607463928755==--
