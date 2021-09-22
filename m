@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0365390966107155643=="
+Content-Type: multipart/mixed; boundary="===============6158070617122377548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Sep 2021 04:41:57 -0000
-Message-Id: <163228571713.25990.6898179089501513281@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 04:42:08 -0000
+Message-Id: <163228572830.26138.5205136712422223736@gitolite.kernel.org>
 
---===============0365390966107155643==
+--===============6158070617122377548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,87 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 1a0db7744e453844aa2db3f2959aea4a378025ea
-    new: fbdac19e642899455b4e64c63aafe2325df7aafa
-    log: revlist-1a0db7744e45-fbdac19e6428.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 25f246d0fbc9e110cabea980650f189ca9b191f1
+    new: 95a157ee63b8e43badcf8081e6dededd8b825121
+    log: revlist-25f246d0fbc9-95a157ee63b8.txt
 
---===============0365390966107155643==
+--===============6158070617122377548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1632285710 -0400
+pusher 75C5DE3D 1632285721 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1632285710-b4fcf25cc4c60cc3c233f6d163dd0696ce6c4f67
+nonce 1632285721-b9b734fbcdcfb59d145142962c3b631f0adbf71a
 
-1a0db7744e453844aa2db3f2959aea4a378025ea fbdac19e642899455b4e64c63aafe2325df7aafa refs/heads/fixes
+25f246d0fbc9e110cabea980650f189ca9b191f1 95a157ee63b8e43badcf8081e6dededd8b825121 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFKtA4ACgkQ7ulgGnXF
-3j3KPQ//XAdQHbVE3s61UoUWMBlawkIYTBH6hr4YH+sj/sE4qqz2Cw7AtA6wpsMu
-zFud7y+DHkrQkZgO+qnruWWXAQ3eMP3e5XikSSGbsjsgAC2yG4nGr7WrHjri8ZHW
-JvsPnMXh/DUD5OEX+8Y3IoxtXnxa2po9dh1a4Zec8CCZ7KeekwY4JRFLKf6nC3LT
-JWvGVvovHyDbjp79E+2ENNSgOnj42zc09cKCE5kkx2o3Ao5TgNV3kqLtwfdEETZR
-lBVNGs5ytzr8aoaa/Tg+Il7HUisQkrHZzqJxS4oBT0dj9CeZLarGBwUxbNDoDu/7
-/2zUWG8aIbmuiM4xfDDzcr8d8YIIZsbaimRuQjIS26F9F6JOPIHIfIQ3cG7xZAtg
-mxzX3kPdZaceb/bIutHOsyn0gPj3e4HMwFJJzC9MQKvRQyFjs3Xn5DibIUhSBs0M
-7NfE/bQ4tyJ0wB3zfOKTveiHQNFy8HPdNPSMHe15J9cJj5GP4aGl/Ox3+KvwWX/p
-rXe7o/ZnISpj0lP4WDabJndKNU+tw/c7ZavYMBsgtD/vqrM3Ify36uDlMEYbXar7
-qu5h05FuEn5Kpq6qlS4++TKeGogjOny+qS9nUX9DTYu6NaOzcLO12aWaA3ecMnI4
-zI10NnQseIyV95lcdWbV88VXZvtIkgK/fSe+YsQUORVQWqpr7Ps=
-=51jT
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFKtBkACgkQ7ulgGnXF
+3j1s8w//Unxz8WzJ1FS9aMBxIAYzAPD8Xaakz/b8nPD/UNlVxq3HhCQpdvJDTMUV
+WloyZfC5zCbVXPXHdgI3AwVlxo54z+8jfyS2wg44IEVRvfDUQ/0crkeZD76+AA9c
+6+60lCdWyxhmGD65bm3VCHtad8GldQBFslUFCyPEkIr79RcYsP++AnVCv4gSCTFo
+NEAXBe3DE65/kG+87/jPVJa4tkzyztw+qidGxF4uLga2X/307gTtsZUOHgf3CsSi
+RfNjpZK28BiXZ0KsBjO+etvynYVdor4xcKyXyG6M6D24e+FOCNdVapP1uJEpZ6Qm
+DNbIDJU7B9K6Te2M7N6fK81jOj9uK9DZSFsd1YiPtyUkwynZWsVkw1KfV+gTutL7
+EvSczr0KHrBB+OZV9QQojiIzFLT+zbN3JDaNpMJugortL9yZp5U39GXd2cPy96Rp
+dkth+BhEcFwO81dCqWuo8wWovHx2/SWSLePrmZ99gGAB6dkikV3I4Qkq+hjjdyWc
+3twnFJQzrPjj0KvXINx+kLKLcuqvrorZl7oHCxMtGYULb8Yp/sZBtFEfc50hQqZA
+OfogxvJKikAXPUYZqt9dkC2c/9ZVeS0oRy/LzNnzP2kM+ynoIBVPP04Yq/Z8RiCo
+VNUeg50esUEntuL/eDqkHoKQji9gZHb1v4rQzYkJHjlC1iSXXKM=
+=6kGb
 -----END PGP SIGNATURE-----
 
---===============0365390966107155643==
+--===============6158070617122377548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a0db7744e45-fbdac19e6428.txt
+Content-Disposition: attachment; filename=revlist-25f246d0fbc9-95a157ee63b8.txt
 
-88b099006d83b0bf452379cad4ce494329084726 scsi: ufs: core: Revert "scsi: ufs: Synchronize SCSI and UFS error handling"
-1d479e6c9cb2b40abfb455863a4e9335db882e33 scsi: sd_zbc: Support disks with more than 2**32 logical blocks
-d04a968c33684b15d1206e23fc1119ce0f0587fb scsi: ufs: core: Unbreak the reset handler
-5f8579038842d77e6ce05e1df6bf9dd493b0e3ef scsi: qla2xxx: Restore initiator in dual mode
-bc41fcbffd5759c9610f7de211420eae6b379503 scsi: fas216: Kill scmd->tag
-756fb6a895afbf1f0615d93ebdd14863a00b1198 scsi: acornscsi: Remove tagged queuing vestiges
-a4869faf9642518145a8aa4b52e0d5ab0e7ee896 scsi: core: Remove 'current_tag'
-cdbc16c552f27ac211a44f9959d813b4f3188223 scsi: lpfc: Fix sprintf() overflow in lpfc_display_fpin_wwpn()
-6dacc371b77f473770ec646e220303a84fe96c11 scsi: lpfc: Use correct scnprintf() limit
-a38923f2d088d1a5cbaa86818abe039b2f87093d scsi: lpfc: Fix gcc -Wstringop-overread warning, again
-9a8ef2c73c727a3c64b70c01697c578c7b10fed2 scsi: target: Fix spelling mistake "CONFLIFT" -> "CONFLICT"
-fbdac19e642899455b4e64c63aafe2325df7aafa scsi: ses: Retry failed Send/Receive Diagnostic commands
+4f6094f1663e2ed26a940f1842cdaa15c1dd649a scsi: hisi_sas: Use managed PCI functions
+089226ef6a084470f4665a68ad7eb48fb48db093 scsi: hisi_sas: Stop printing queue count in v3 hardware probe
+b5a9fa20e3bf59d89b5f48315a0c0c32963796ed scsi: hisi_sas: Rename HISI_SAS_{RESET -> RESETTING}_BIT
+080b4f976bf7a61ae082d5ae1d2cee83b097b63a scsi: hisi_sas: Replace del_timer() calls with del_timer_sync()
+9aec5ffa6e39926cff1a6b576c815a9cee90e259 scsi: hisi_sas: Increase debugfs_dump_index after dump is completed
+ce4fc333e599c19973455c9d8f6fbb1e7c140dc8 scsi: libsas: Co-locate exports with symbols
+e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b scsi: libiscsi: Move ehwait initialization to iscsi_session_setup()
+08d0a992131a4db7328b0c2f5a0259732e4d0d12 scsi: pm80xx: Fix incorrect port value when registering a device
+b27a40534ef76a22628a5c12f98ea489823a8ba5 scsi: pm80xx: Fix lockup in outbound queue management
+c29737d03c74fbaf69ea50d355b25e43d0bacc73 scsi: pm80xx: Correct inbound and outbound queue logging
+51e6ed83bb4ade7c360551fa4ae55c4eacea354b scsi: pm80xx: Fix memory leak during rmmod
+9e1c3206960f8e0a5b6a42d3e6693f10c5ca10ac scsi: qla2xxx: Add support for mailbox passthru
+52cca50d35f814e737791e2c2cf8c279219a9f29 scsi: qla2xxx: Display 16G only as supported speeds for 3830c card
+8192817efbc34e9ca482edf340d41c5ca0d4dad0 scsi: qla2xxx: Check for firmware capability before creating QPair
+e6e22e6cc2962d3f3d71914b47f7fbc454670e8a scsi: qla2xxx: Fix crash in NVMe abort path
+527d46e0b0147f2b32b78ba49c6a231835b24a41 scsi: qla2xxx: edif: Use link event to wake up app
+3ef68d4f0c9e7cb589ae8b70f07d77f528105331 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
+38c61709e66294f33e474eaafd6ae3be381030da scsi: qla2xxx: Call process_response_queue() in Tx path
+3a4e1f3b3a3c733de3b82b9b522e54803e1165ae scsi: qla2xxx: Move heartbeat handling from DPC thread to workqueue
+3d33b303d4f3b74a71bede5639ebba3cfd2a2b4d scsi: qla2xxx: Fix use after free in eh_abort path
+b0fe235dad775d267d75aa19c0ce61fa527a287f scsi: qla2xxx: Update version to 10.02.07.100-k
+914418f3690177b600f5b0d91e1902ab7332536d scsi: qla2xxx: Remove redundant initialization of pointer req
+99154581b05c8fb22607afb7c3d66c1bace6aa5d scsi: lpfc: Fix list_add() corruption in lpfc_drain_txq()
+982fc3965d1350d3332e04046b0e101006184ba9 scsi: lpfc: Don't release final kref on Fport node while ABTS outstanding
+20d2279f90ce87f1d08d2e7ad885a3dcc0678331 scsi: lpfc: Fix premature rpi release for unsolicited TPLS and LS_RJT
+88f7702984e6e562223ecc07c38ac4e61713780a scsi: lpfc: Fix hang on unload due to stuck fport node
+3a874488d2e936340e165070a41508208d816fc3 scsi: lpfc: Fix rediscovery of tape device after LIP
+a864ee709bc06095463c61fc22a4dc899fba1758 scsi: lpfc: Don't remove ndlp on PRLI errors in P2P mode
+b507357f79171fb4fb4e732ca43a1f30bc5aab1d scsi: lpfc: Fix NVMe I/O failover to non-optimized path
+cd8a36a90babf958082b87bc6b4df5dd70901eba scsi: lpfc: Fix FCP I/O flush functionality for TMF routines
+25ac2c970be32993f1dff607f8354f3c053d42bc scsi: lpfc: Fix EEH support for NVMe I/O
+d5ac69b332d8859d1f8bd5d4dee31f3267f6b0d2 scsi: lpfc: Adjust bytes received vales during cmf timer interval
+3ea998cbf9e781b6d16250fab1e6121dce32790b scsi: lpfc: Fix I/O block after enabling managed congestion mode
+afd63fa511494d7215120be7d25c20502aed4d89 scsi: lpfc: Zero CGN stats only during initial driver load and stat reset
+315b3fd13521fb44d97572eb24b7c8670ec7fd97 scsi: lpfc: Improve PBDE checks during SGL processing
+0d6b26795bd2b9f1d7f0d43a21a386438586bc69 scsi: lpfc: Update lpfc version to 14.0.0.2
+0a5e20fc8ca7ed10b8865421a7c1e8d460840956 scsi: elx: libefc: Prefer kcalloc() over open coded arithmetic
+e9d73bfa8e047fbb078213e607019c701cd9f888 scsi: documentation: Document Fibre Channel sysfs node for appid
+c4adf171e834dab8ca72676ca7264c5b50a542a8 scsi: ufs: ufs-qcom: Remove unneeded variable 'err'
+351b3a849ac7d92449dc75c43db8a857b38387ea scsi: ufs: ufshpb: Use proper power management API
+aba3b0757b6cba37953bb1d7e71c460d37fd496a scsi: ufs: ufs-mediatek: Change dbg select by check IP version
+7e642ca0375b95072ab6240c8eb9f0b4f013fb24 scsi: target: Remove unused function arguments
 
---===============0365390966107155643==--
+--===============6158070617122377548==--
