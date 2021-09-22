@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 22 Sep 2021 10:15:09 -0000
-Message-Id: <163230570903.6914.15591951751761231276@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 10:23:03 -0000
+Message-Id: <163230618378.11983.17752569204293676108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-next
-    old: 2103868047456e5f3e431ebb253d87e1fb806c76
-    new: 03e2080defd2494bd2790d2ac1df9d7432671e85
+    old: 03e2080defd2494bd2790d2ac1df9d7432671e85
+    new: a84b93ac6db6ce6c5faf122afb9e08bcf611057a
     log: |
-         e24b9fc109280a2420aabe352d38fad722f4ea37 gpio: xilinx: simplify getting .driver_data
-         3846a3607738ccbc763afe7af75b5bd25009b037 gpio: max77620: drop unneeded MODULE_ALIAS
-         03e2080defd2494bd2790d2ac1df9d7432671e85 gpio: tps65218: drop unneeded MODULE_ALIAS
+         b435839d13a86f1c61108ad6f538a569a2a19108 firmware: zynqmp: Add MMIO read and write support for PS_MODE pin
+         07bda324b18d7382f37d9c15df66163c75def9bc dt-bindings: gpio: zynqmp: Add binding documentation for modepin
+         a84b93ac6db6ce6c5faf122afb9e08bcf611057a gpio: modepin: Add driver support for modepin GPIO controller
          
