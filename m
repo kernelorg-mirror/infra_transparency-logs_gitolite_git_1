@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3834413884484294749=="
+Content-Type: multipart/mixed; boundary="===============6991382412270890545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 22 Sep 2021 15:00:15 -0000
-Message-Id: <163232281596.26502.491984107928730430@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 15:00:43 -0000
+Message-Id: <163232284337.26707.4122902197755993772@gitolite.kernel.org>
 
---===============3834413884484294749==
+--===============6991382412270890545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,8 +16,8 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9971993c1390eab9829db99d3ee8ab3dbd5e95a2
+  - ref: refs/heads/tty-next
+    old: b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7
     new: 7c783601a3bc22a54cce0fb650259a983c8cafba
     log: |
          28f5cb3715006bc8c4be25170b513d8c81590379 serial: 8250_fsl: Move fsl8250_data to ACPI section
@@ -31,34 +31,34 @@ changes:
          7c783601a3bc22a54cce0fb650259a983c8cafba tty: remove file from n_tty_ioctl_helper
          
 
---===============3834413884484294749==
+--===============6991382412270890545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632322812 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632322842 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1632322811-5a8112fd2272b6f923b5f04b7b73baad889f6cf1
+nonce 1632322842-44f60f0c66ac97ba01e37b6b8332c6e3b808dbaa
 
-9971993c1390eab9829db99d3ee8ab3dbd5e95a2 7c783601a3bc22a54cce0fb650259a983c8cafba refs/heads/tty-testing
+b55c8aa6b1abfc0fb0beede48627ac4d13b5ddc7 7c783601a3bc22a54cce0fb650259a983c8cafba refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFLRPwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2/UP+wSb5uHgGJI3s96EGvmD
-Q7/m86dPVZUQosFnYkT9ryIFUx5apGSLQ2RxaJ7xfwIAWzTMiuyHgpxAlnDjQ6Vb
-psdgSH17KznBqTDD8nilZdvRJH/zWCt1ArGqfNyvtGagedv2AhmucvuEuCrg1Rd9
-Yv56xvhpmPGhpTDG6rxVEktvf/BWoFduSGsGpE+KKk+nJ4i33EKfxortDRxx83yt
-Ti+iTgWalLoF1+msubnYzoKJq4ifo9x4IHnBB0V5J0L9GAPaavCuwI3QMIeWmlUQ
-7viieSL1tRn/ppdvCIr03l6exv/6JBNzChxZJtvmb4Fz6ZmFebJ+rz8oYmIm1Br0
-eovp7VhRcWo69PmddgS/v0/gBUry00XShqd2PPcuEPr2QFRX9V0snDW/3cbCJLm/
-Ajq81UeSBbOkF2OrIMasD8pOJJbxXp0he13cVi7N+CSU/Uaie0acnr8iOm8PAdTZ
-Vi8VjXMIYytIIx3aqlW8rebwdU8yJ8KfHX4oOC/Zj2sF9yiwITMWbb696WecNY0z
-7exJ3SaFyXvq3Yxt1NqoON0yyMI/IE1J+d3C0KolVATyDHeR+6S78KrHQZwvXKgi
-uha9X7dbuswIyZL07gxNIsBaJRf4LxQEHUvsbLUUT9kJoNUQzZ6tfUgkh7Anz4tX
-TxpkpLuReV6G2Y6ukLxDTPPE
-=Wylo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFLRRobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+26sP/2RtGjPEB1tjFNv4rSrQ
+6OfR9cGPksZuMUQm40aAoH26ylAmmDbMf9YfWr6JZjPTvkVCjfWbzbD99cSdSAeS
+H8DhvwXiuq1hCNENaYvYE7+XCIGn799PiSdE1/7w+VFQX2yXlFgQtTgZgxSPydur
+udzKKDUvJu67eWCHV38EL4DiyWHSdYxX+BkMkZx/muelb8f/oDM00cXV9nY/twwP
+Y/+5sOmS3eXrx/3/cRxVlP+Em2Wi/yxYcaCu17QXIK/YKfCmoq/VSoO+D4smBGzW
+hTXCZTPqj1ehLYBCQr7Z8YgDnQi0qaEepWECqt++xotSddCPWH2XczADwXQP9wUS
+4htYmlOUOkjXhMsaEWUu5Zc70XKS4Iq39zU1gS2NHL8fDNmSUVq5dZkQz8W5Xk9a
+ZDsXLXZ7vBVQf6s88ql4nncTLem1kegAhC6JI3tBH7DYEoT+IG1O5Vrgoxf7mRNj
+YXo9RIt8RnRhCt3xYYFv0woAiCoyoxRPSCF423oY9Vn0R/Y+PZ96hV/at4uf0n0D
+3eNfw4zqt13ouxl1JAnfIL2klwSCQe816hy+ijvrLhv0sMeNX/1KnYR9c9/8GrXW
+Kpl19lBjMxU3+8xDIVEzSl1VpVGs+ZjFF0ZlXyFXQM0ppb2+Nd3LhSQNajihp16t
+79c4UL3JOKeoUgDgohmiiLwb
+=O7/e
 -----END PGP SIGNATURE-----
 
---===============3834413884484294749==--
+--===============6991382412270890545==--
