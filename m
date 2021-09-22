@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 22 Sep 2021 21:10:00 -0000
-Message-Id: <163234500028.28035.628517731458794131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 22 Sep 2021 21:13:38 -0000
+Message-Id: <163234521851.30500.13828243984988140129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 8df1fe067ac07261740a5299d644eb8fb6875883
-    new: 0c2a86060240b0d922f754cb95cb587e52b83393
+    old: 17b52c226a9a170f1611f69d12a71be05748aefd
+    new: c86216bc96aa2a61ee5248d99d0bd15e69cf52d1
     log: |
-         0c2a86060240b0d922f754cb95cb587e52b83393 Wed 22 Sep 2021 09:09:27 PM UTC
+         c86216bc96aa2a61ee5248d99d0bd15e69cf52d1 bpf: Document BPF licensing.
          
