@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7094653373500053630=="
+Content-Type: multipart/mixed; boundary="===============2261990531089872523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Sep 2021 04:42:28 -0000
-Message-Id: <163228574844.26343.17544950339051303053@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 04:42:40 -0000
+Message-Id: <163228576094.26482.17169645030215721480@gitolite.kernel.org>
 
---===============7094653373500053630==
+--===============2261990531089872523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,87 +16,47 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 7e642ca0375b95072ab6240c8eb9f0b4f013fb24
-    log: revlist-6880fa6c5660-7e642ca0375b.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 3359a4d8a43f3bebce11c9043fad76d7e7da3a41
+    new: 40b647ee199289c2d53674a1fea92f7a63b755ee
+    log: |
+         a7c0520669869c088dc207735c2e85888a10b0eb scsi: core: Remove include <scsi/scsi_host.h> from scsi_cmnd.h
+         8d4efd0040e52bad2907a6a7b1cd686bee31fbcd scsi: efct: Add state in nport sm trace printout
+         ee3dce9f38426776b48406441d0dc39c74940818 scsi: efct: Fix nport free
+         e76b7c5e25a1fa818bb3e727873a899cc89f5196 scsi: efct: Decrease area under spinlock
+         e88e2d32200a1734cb4a2ca292c5c7b338257bb6 scsi: ufs: core: Probe for temperature notification support
+         322c4b29ee1f19ce153f027bfb21d272b029f2d7 scsi: ufs: core: Add temperature notification exception handling
+         cbd9a3347c757383f3d2b50cf7cfd03eb479c481 scsi: dc395: Fix error case unwinding
+         efe1dc571a5b808baa26682eef16561be2e356fd scsi: lpfc: Fix mailbox command failure during driver initialization
+         
 
---===============7094653373500053630==
+--===============2261990531089872523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1632285742 -0400
+pusher 75C5DE3D 1632285753 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1632285741-d3925638189764453213cc0e9277c2693177278c
+nonce 1632285752-2442167c61a1bfc98cb048a8b809119c4be9ac9f
 
-6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f 7e642ca0375b95072ab6240c8eb9f0b4f013fb24 refs/heads/queue
+3359a4d8a43f3bebce11c9043fad76d7e7da3a41 40b647ee199289c2d53674a1fea92f7a63b755ee refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFKtC4ACgkQ7ulgGnXF
-3j2kihAAmoxc8/CSJhTeOYR2v/yVH4k/S1UFv0bnjg8ziITFEwpqHYIEoGDq6jrU
-y4+KA8eVud67GOL7aTcEftSj0XbDx5XCA9hEhzHgla/tZWlZhDkb60PsG08p68Sf
-/HnUwqgKiyzO4UJNJaeFouGqFd5Ae7XVA+SXIH74++bA2ZLRxHWk10hw2zoTe+5u
-yjSDMC+aTyhXNzo0CPSIB6OkhXoQU+tNp/DHKajTHoRZXlq5Bjqr+sUJrvofJBoG
-ZoV1Zl4M+DdETJOieCBwsubNvXRtGWPfPjSM3DRffb65W1BhsVMxYfXBFf+2HF0t
-0PIZkQsUUuL6ELqUe3Apmmru4QhANWhggkNfLg+rCHa2wOzmmHT8T0vvlQo2Gehn
-KkdpdzPt6iYfFLojKtpwa+8ROf/BbXlDUp6U0tip6Smsu1ASAPpmth2yP/g4ms4Y
-cNuKzF1rqkrTXxIKtYOrP/4/vyHS+He+Xfp7F9JnciRwInF7AwuhYfm/4fcs242n
-xdzJEwUAxMkwRzcFkHBFdNe2yJIDm4tzofHPfaWsw1BIfEuRhAwK0yiQNoQetp/a
-qrkvjUJIPU2JbTojj0W2fOLrSRw+pPDEXJYaRdt4cGSq56j1o9XM3OcIeinR59Ql
-3wVN2Tqbw92SgttJsMCejUKG07AtVQA4j/DTXGE5BrqE+ap5NUU=
-=hOZt
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFKtDkACgkQ7ulgGnXF
+3j3Xnw/9GVetDc5AQv9JJY9Tmmu7pySL9H5iLnovlu/UkMvgcmEU/651wI8x70uE
+GeNgSoNitr7M5vxNOM4idO5Zjj29kCww6Zm//y0ay6RVGGabubroztd3F0TBmxD2
+gCq54/lyyd7mdUUijG9IHqt8Iq1HQOw+mun9+io+oJTIlitnNUtW67eJu2c/sm0g
+9ND8NUHnPJDQ9fdCWkfJGbiKTaXqHCklDSn+bR066Obq6YnFOKcf9Ow3px5hJwWS
+xnaezydiG+Y6zVteIhFHN8hH/mX/U7u9fUe1D36ZMFXRRMgwpVRnxt67tklEQT9z
+ecSaZ3pvkrasgFxBit4iMH2nnB/S0CCt/mDZKxjpJx8ncsPV7XsDkcBrQ7HY8FUS
+kC8ZwUbLW4M8/SizzXxEQiivwONgFkiB4yDtHdV9370ONCj2OalLOdR+XvoVE4Px
+K3Levo6MWi24lAEDLQwR4nseT9r7TOdPXI9haKE8gkDVklEuYXYfD8sCIhb+nPGJ
+8wvh+vdvK0TQfGxAUg2iqL+V+gatNikUeVNiahAgcWDZba9a/oimu9ApAgvJj2S3
+o38Dy4O9eDcPRQiVVOC5wKfQ6UHrXj+S1iQ276FN0SHBTZtB+tlWqFblxp/MBuNd
+N31rukrVjPNbDbTKeJsz+8/744pX+9Q153uUdWEfD3PA0h4SX+Y=
+=pcee
 -----END PGP SIGNATURE-----
 
---===============7094653373500053630==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-7e642ca0375b.txt
-
-4f6094f1663e2ed26a940f1842cdaa15c1dd649a scsi: hisi_sas: Use managed PCI functions
-089226ef6a084470f4665a68ad7eb48fb48db093 scsi: hisi_sas: Stop printing queue count in v3 hardware probe
-b5a9fa20e3bf59d89b5f48315a0c0c32963796ed scsi: hisi_sas: Rename HISI_SAS_{RESET -> RESETTING}_BIT
-080b4f976bf7a61ae082d5ae1d2cee83b097b63a scsi: hisi_sas: Replace del_timer() calls with del_timer_sync()
-9aec5ffa6e39926cff1a6b576c815a9cee90e259 scsi: hisi_sas: Increase debugfs_dump_index after dump is completed
-ce4fc333e599c19973455c9d8f6fbb1e7c140dc8 scsi: libsas: Co-locate exports with symbols
-e018f03d6ccbd9c3ce6a9fae4f582113f2a2906b scsi: libiscsi: Move ehwait initialization to iscsi_session_setup()
-08d0a992131a4db7328b0c2f5a0259732e4d0d12 scsi: pm80xx: Fix incorrect port value when registering a device
-b27a40534ef76a22628a5c12f98ea489823a8ba5 scsi: pm80xx: Fix lockup in outbound queue management
-c29737d03c74fbaf69ea50d355b25e43d0bacc73 scsi: pm80xx: Correct inbound and outbound queue logging
-51e6ed83bb4ade7c360551fa4ae55c4eacea354b scsi: pm80xx: Fix memory leak during rmmod
-9e1c3206960f8e0a5b6a42d3e6693f10c5ca10ac scsi: qla2xxx: Add support for mailbox passthru
-52cca50d35f814e737791e2c2cf8c279219a9f29 scsi: qla2xxx: Display 16G only as supported speeds for 3830c card
-8192817efbc34e9ca482edf340d41c5ca0d4dad0 scsi: qla2xxx: Check for firmware capability before creating QPair
-e6e22e6cc2962d3f3d71914b47f7fbc454670e8a scsi: qla2xxx: Fix crash in NVMe abort path
-527d46e0b0147f2b32b78ba49c6a231835b24a41 scsi: qla2xxx: edif: Use link event to wake up app
-3ef68d4f0c9e7cb589ae8b70f07d77f528105331 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
-38c61709e66294f33e474eaafd6ae3be381030da scsi: qla2xxx: Call process_response_queue() in Tx path
-3a4e1f3b3a3c733de3b82b9b522e54803e1165ae scsi: qla2xxx: Move heartbeat handling from DPC thread to workqueue
-3d33b303d4f3b74a71bede5639ebba3cfd2a2b4d scsi: qla2xxx: Fix use after free in eh_abort path
-b0fe235dad775d267d75aa19c0ce61fa527a287f scsi: qla2xxx: Update version to 10.02.07.100-k
-914418f3690177b600f5b0d91e1902ab7332536d scsi: qla2xxx: Remove redundant initialization of pointer req
-99154581b05c8fb22607afb7c3d66c1bace6aa5d scsi: lpfc: Fix list_add() corruption in lpfc_drain_txq()
-982fc3965d1350d3332e04046b0e101006184ba9 scsi: lpfc: Don't release final kref on Fport node while ABTS outstanding
-20d2279f90ce87f1d08d2e7ad885a3dcc0678331 scsi: lpfc: Fix premature rpi release for unsolicited TPLS and LS_RJT
-88f7702984e6e562223ecc07c38ac4e61713780a scsi: lpfc: Fix hang on unload due to stuck fport node
-3a874488d2e936340e165070a41508208d816fc3 scsi: lpfc: Fix rediscovery of tape device after LIP
-a864ee709bc06095463c61fc22a4dc899fba1758 scsi: lpfc: Don't remove ndlp on PRLI errors in P2P mode
-b507357f79171fb4fb4e732ca43a1f30bc5aab1d scsi: lpfc: Fix NVMe I/O failover to non-optimized path
-cd8a36a90babf958082b87bc6b4df5dd70901eba scsi: lpfc: Fix FCP I/O flush functionality for TMF routines
-25ac2c970be32993f1dff607f8354f3c053d42bc scsi: lpfc: Fix EEH support for NVMe I/O
-d5ac69b332d8859d1f8bd5d4dee31f3267f6b0d2 scsi: lpfc: Adjust bytes received vales during cmf timer interval
-3ea998cbf9e781b6d16250fab1e6121dce32790b scsi: lpfc: Fix I/O block after enabling managed congestion mode
-afd63fa511494d7215120be7d25c20502aed4d89 scsi: lpfc: Zero CGN stats only during initial driver load and stat reset
-315b3fd13521fb44d97572eb24b7c8670ec7fd97 scsi: lpfc: Improve PBDE checks during SGL processing
-0d6b26795bd2b9f1d7f0d43a21a386438586bc69 scsi: lpfc: Update lpfc version to 14.0.0.2
-0a5e20fc8ca7ed10b8865421a7c1e8d460840956 scsi: elx: libefc: Prefer kcalloc() over open coded arithmetic
-e9d73bfa8e047fbb078213e607019c701cd9f888 scsi: documentation: Document Fibre Channel sysfs node for appid
-c4adf171e834dab8ca72676ca7264c5b50a542a8 scsi: ufs: ufs-qcom: Remove unneeded variable 'err'
-351b3a849ac7d92449dc75c43db8a857b38387ea scsi: ufs: ufshpb: Use proper power management API
-aba3b0757b6cba37953bb1d7e71c460d37fd496a scsi: ufs: ufs-mediatek: Change dbg select by check IP version
-7e642ca0375b95072ab6240c8eb9f0b4f013fb24 scsi: target: Remove unused function arguments
-
---===============7094653373500053630==--
+--===============2261990531089872523==--
