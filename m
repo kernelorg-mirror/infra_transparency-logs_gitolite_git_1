@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8386578273888675828=="
+Content-Type: multipart/mixed; boundary="===============1694244825542881774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 22 Sep 2021 21:30:00 -0000
-Message-Id: <163234620013.8650.2552542987905539160@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 21:30:09 -0000
+Message-Id: <163234620969.10219.3042822082995434609@gitolite.kernel.org>
 
---===============8386578273888675828==
+--===============1694244825542881774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: fc0c0548c1a2e676d3a928aaed70f2d4d254e395
-    new: 977d293e23b48a1129830d7968605f61c4af71a0
-    log: revlist-fc0c0548c1a2-977d293e23b4.txt
+  - ref: refs/heads/dev-queue
+    old: cd5506cc3e612dd01dfee3ec7b6afe6f6e8f5204
+    new: b74cc4e1547ba1091f4f398100eb47b577ca57b4
+    log: revlist-cd5506cc3e61-b74cc4e1547b.txt
 
---===============8386578273888675828==
+--===============1694244825542881774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc0c0548c1a2-977d293e23b4.txt
+Content-Disposition: attachment; filename=revlist-cd5506cc3e61-b74cc4e1547b.txt
 
 e8f69b16ee776da88589b5271e3f46020efc8f6c net: hso: fix muxed tty registration
 3c9cfb5269f76d447dbadb67835368f3111a91d7 net: update NXP copyright text
@@ -76,5 +76,46 @@ d2b59bd4b06d84a4eadb520b0f71c62fe8ec0a62 s390/qeth: fix deadlock during failing 
 b52d3161c23f8944a4050874d3556c8ed148927f Merge branch 's390-qeth-fixes-2021-09-21'
 1ea7812326004afd2803cc968a4776ae5120a597 qed: rdma - don't wait for resources under hw error recovery flow
 977d293e23b48a1129830d7968605f61c4af71a0 mptcp: ensure tx skbs always have the MPTCP ext
+7c7b4c94399d8e6a597b140364239031d8193777 checkpatch: Fix warnings when --no-tree is used
+518002fee5cfc4bee8c9e56a5bb8867eb1e7d656 checkpatch.pl: seed camelcase from the provided kernel tree root
+9059b4fe1dbbb8f64cd44c003dde7b820191e641 ice: Fix a couple off by one bugs
+b00ed6964d5a085fbfeb7c8014c88daa9f595f8d i40e: Fix correct max_pkt_size on VF RX queue
+9df8d07ff97af4a9afc65503b5225992c84a6deb iavf: Fix return of set the new channel count
+62196ea0151a45c3a22adaf0ad590ed3db37f024 i40e: Fix NULL ptr dereference on VSI filter sync
+dbf931fe71b59880f2c0f0e714341891797be973 ice: Fix VF true promiscuous mode
+cd17bbd5dba4172cc916c4f2ecabb2a9dc37d76e i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+78191c1e8cd34f98329a587bbe7314f50e82325b i40e: Fix warning message and call stack during rmmod i40e driver
+0802e8a3f0f289f3a1c29ec986b3bba3c0f5067f ice: Remove toggling of antispoof for VF trusted promiscuous mode
+253a6e685545cc3009df0e98b14016eb3b3c9ab6 ice: fix FDIR init missing when reset VF
+3cc2d0b2682b461e1249b4ca5af2458b949e060c i40e: Fix failed opcode appearing if handling messages from VF
+b90baec63d9d10ca0031205a93cdef6aec922ab1 iavf: check for null in iavf_fix_features
+3add79b6c62e0b76c029287d899978b2c639afbb iavf: free q_vectors before queues in iavf_disable_vf
+fbf9569335b04b0206119998ec4d085d289c5bfc iavf: don't clear a lock we don't hold
+d346ced34477f808d65812fcdd5ea7ec155109a2 iavf: Fix failure to exit out from last all-multicast mode
+d7f862547c7bef8950028c6d164e9b2511875624 iavf: prevent accidental free of filter structure
+b9f95c8c26a942fb59e0e59067ce74e43bfa0063 iavf: validate pointers
+5ff244178bb8cad0e047e53a4f47663fc64591a7 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+535002acc55146ed91dbb692919ad067c9a5f5af iavf: Fix for setting queues to 0
+be23ec87ba5e7709d07f71c10c4274c7674ba592 i40e: Fix creation of first queue by omitting it if is not power of two
+4819fb692c2d802458d476e97c324e4cab73b870 ice: Fix failure to re-add LAN/RDMA Tx queues
+bf59f1a05f29cbc92f8e1e8412e461ccc692f0e0 i40e: Fix pre-set max number of queues for VF
+8ca9d2c66435324b33f3112a401a242b003caee8 i40e: Fix issue when maximum queues is exceeded
+1c39a0a7ce35ad7e6a16c93e30acafb2633dabc0 iavf: Fix static code analysis warning
+08d24801816adf2eaf7cc484be98522eee60d27a igb: Fix removal of unicast MAC filters of VFs
+8f94423126526c59aab3c59711873d635cbe9029 iavf: Fix limit of total number of queues to active queues of VF
+0b5529b84b56799680948c02856a16f34ae13822 iavf: Fix RTNL deadlock with new flag IAVF_FLAG_REINIT_MSIX_NEEDED
+01e1d4b790c04d8acbbf715508a532706b0a6fdc i40e: Fix delay after global reset
+0ef43c9a08d60da28d1484452730db6d5730425a ice: Fix NULL pointer dereference of pf->aux_idx
+134a43b89aac0f48eb0ddc9c2988bea46432344a iavf: Fix deadlock occurrence during resetting VF interface
+78c2732cbab810e4f6aa0ca61e08112b2af18a66 e100: fix length calculation in e100_get_regs_len
+bd49a68e3fdb1186cd9501f9250d42d4b6e5d385 e100: fix buffer overrun in e100_get_regs
+e19edb38beb7b18dcba478af8d58dfd45517d66f ice: Fix not stopping Tx queues for VFs
+db619740353363d654d4a17706ef0ff26dd8d02b ice: Fix race conditions between virtchnl handling and VF ndo ops
+89f5075ae6cbf7f2ef312726eb4fa6ddabd09886 igc: Update the device ID
+7e3c236233bc9590e67e1b098cd9c84a7ea42fd6 i40e: fix endless loop under rtnl
+2d252c4724ecc12dd33200867ef7b77fb4e48cfa ice: fix getting UDP tunnel entry
+8b10c6fe0d837f78b0531ed24e0a1cd4010e6de1 ixgbe: Fix NULL pointer dereference in ixgbe_xdp_setup
+fa9f7c9cd993bc9ef5a49d9cda7d6df4c93f307a iavf: Fix refreshing iavf adapter stats on ethtool request
+b74cc4e1547ba1091f4f398100eb47b577ca57b4 i40e: Fix freeing of uninitialized misc IRQ vector
 
---===============8386578273888675828==--
+--===============1694244825542881774==--
