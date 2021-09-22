@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8589474416299911352=="
+Content-Type: multipart/mixed; boundary="===============6564664349973998456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 22 Sep 2021 11:52:11 -0000
-Message-Id: <163231153127.32424.9898509846101444075@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 11:52:22 -0000
+Message-Id: <163231154205.32569.11671913406335195367@gitolite.kernel.org>
 
---===============8589474416299911352==
+--===============6564664349973998456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 13bb8429ca985497bfba3a4afa6cd470d15fed10
-    new: 07b855628c226511542d0911cba1b180541fbb84
-    log: revlist-13bb8429ca98-07b855628c22.txt
+  - ref: refs/heads/mlx5-queue
+    old: 33eba78a747d9a67ec8fa45c2210997709124c56
+    new: 31ea267c7c059b39768a2b85a45eab97755294a1
+    log: revlist-33eba78a747d-31ea267c7c05.txt
 
---===============8589474416299911352==
+--===============6564664349973998456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13bb8429ca98-07b855628c22.txt
+Content-Disposition: attachment; filename=revlist-33eba78a747d-31ea267c7c05.txt
 
-3fd23111185d2167696547d59235bda8d307425c cpufreq: vexpress: Use .register_em() to register with energy model
-37f188318ea3f1da75b32df3b1a19f45d9840652 cpufreq: scmi: Use .register_em() to register with energy model
-275157b367f479334f3e2df7be93a3dd772f359c cpufreq: qcom-cpufreq-hw: Add dcvs interrupt support
-5e79d6d9ea00c273f3efbced841212de85a384d1 cpufreq: blocklist more Qualcomm platforms in cpufreq-dt-platdev
-f0712ace7fe0723b40733c3b98591d34c1b0bfb9 cpufreq: qcom-hw: Set dvfs_possible_from_any_cpu cpufreq driver flag
-fbd2a6003a259fe12750ceb5efc47432c3cc7ce4 drm:dcn31: fix boolreturn.cocci warnings
-a6a355a22f7a0efa6a11bc90b5161f394d51fe95 drm/amdgpu: Fixes to returning VBIOS RAS EEPROM address
-cc947bf91bad65d4f0ef85a3cd7272a1cf26f53d drm/amdgpu: Process any VBIOS RAS EEPROM address
-6333a495f53347067cc25012043f4876b249f8e7 drm/amdgpu: correct comments in memory type managers
-8f0c93f454bd7ab04eaec1d3c436c4c7c2378f07 drm/amdgpu: add some additional RDNA2 PCI IDs
-64261a0d0600ab335677073c54b1989565ceddad drm/amd/amdgpu: Add ready_to_reset resp for vega10
-602e338ffed31b1f15c706ea109366e3bae6e39b drm/amdgpu: reenable BACO support for 699F:C7 polaris12 SKU
-4a9bd6db19be735f5f9d883ed15fb2b70ba36187 drm/amd/pm: And destination bounds checking to struct copy
-c5d3c9a093d353e7f38183a70df425f92e3c329d drm/amdgpu: Enable S/G for Yellow Carp
-3ca001aff0878546494d7f403334c8d987924977 drm/amd/display: setup system context for APUs
-50c6dedeb1aac21c445ee4193f7660503873f395 drm/amdgpu: show both cmd id and name when psp cmd failed
-b3dc549986eb7b38eba4a144e979dc93f386751f drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
-f5d8e16488056d9ad48d2561ef4eaf7fdd11c162 drm/amdgpu/swsmu: fix spelling mistake "minimun" -> "minimum"
-9d9bfd180c8e3748be1f1a8843b0b54ed0ef42c9 Input: adp5588-keys - use the right header
-1c6aacecea383b5982299c34b4b191f6f21eb14d Input: adp5589-keys - use the right header
-927c1e56cc5e0e22da975c72433da2458b3f4fd5 Input: remove dead CSR Prima2 PWRC driver
-4665584888ad2175831c972c004115741ec799e9 platform/chrome: cros_ec_trace: Fix format warnings
-efcefc7127290e7e9fa98dea029163ad8eda8fb3 drm/ttm: Fix ttm_bo_move_memcpy() for subclassed struct ttm_resource
-2a3441f59464cfe5e7bdc99176142726f3a1e70e Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-b2a6181e27c325f0e654b8d33e5fb621fc3db52b Merge branch 'cpufreq/arm/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-2297791c92d04a154ad29ba5a073f9f627982110 s390/cio: dont unregister subchannel from child-drivers
-436fc4feeabbf103d78d50a8e091b3aac28cc37f s390: add kmemleak annotation in stack_alloc()
-15256194eff64f9a774b33b7817ea663e352394a s390/entry: make oklabel within CHKSTG macro local
-81912856e0fbc294deed595db568a7a00f962d95 s390/configs: enable CONFIG_KFENCE in debug_defconfig
-8f031494df0e5bed90f262c138f592535946910d MAINTAINERS: Fix AMD PTDMA DRIVER entry
-1e008336b9f590eb749ac96ccef4ea0301f79619 dmaengine: sh: Fix unused initialization of pointer lmdesc
-11a427be2c4749954e8b868ef5301dc65ca5a14b dmaengine: sh: fix some NULL dereferences
-03388a347fe7cf7c3bdf68b0823ba316d177d470 drm/amd/display: Fix memory leak reported by coverity
 0e62b094a82d5266283b6acb862e5dcc15b7422f drm/amd/display: cleanup idents after a revert
 e5b310f900ccf2380b2432ad33e5b4c0cd699b78 drm/amd/display: Initialize lt_settings on instantiation
 156872b07e893d01454ce9a4cf33f1b025aea516 drm/amdgpu: Clear RAS interrupt status on aldebaran
@@ -1050,5 +1017,38 @@ c3a4c69360ab43560f212eed326c9d8bde35b14c net: bcmgenet: Request APD, DLL disable
 4972ce7201010cbae3d543636b5a77771a6b2c2f net: dsa: bcm_sf2: Request APD, DLL disable and IDDQ-SR
 6a3807536328c632ead28911b7524bf14cfe71aa Merge branch 'iddq-sr-mode'
 07b855628c226511542d0911cba1b180541fbb84 net/ipv4/sysctl_net_ipv4.c: remove superfluous header files from sysctl_net_ipv4.c
+0f192e3d4c28d4b528a37f63abb47aed851744ab net/mlx5e: Enable TC offload for egress MACVLAN
+d38d25fcef07186f75fa870c111af2d667f681de net/mlx5: Support partial TTC rules
+298cae88a55ef152897205d6e5865b0d7fb6e387 net/mlx5e: Enable TC offload for ingress MACVLAN
+cd0d1dacd803faf823829c2b702b5bf4e85f6d9e net/mlx5: Introduce port selection namespace
+6033c3753d32c53eb05e3ef9f4f180ab9aee7ff2 net/mlx5: Add support to create match definer
+61242807e87f4b0438d3f7cc1a3d5bf20338d7de net/mlx5: Introduce new uplink destination type
+f17066daae0b01970f4a2db17d0c100b93c09edb net/mlx5: Lag, move lag files into directory
+f997f2c3d18c6cde2c8c3c56dc694d0bcbc0d470 net/mlx5: Lag, set LAG traffic type mapping
+6ac02964716643eb9ee52307d22d922fe80d7be1 net/mlx5: Lag, set match mask according to the traffic type bitmap
+4a7e536f7e11fbdb61a181f4a6e1085ec030696f net/mlx5: Lag, add support to create definers for LAG
+2ac454055e9f99f506105a26dc5cad51fb6d56cd net/mlx5: Lag, add support to create TTC tables for LAG port selection
+b2d72d355dd0fa502649aa92b86dbaf27e85b443 net/mlx5: Lag, add support to create/destroy/modify port selection
+2f823d157e187187b929427ea585c22a79032216 net/mlx5: Lag, use steering to select the affinity port in LAG
+93a95a357ef3e09f1514f81bbf78fd72440d93d2 net/mlx5: Check create_lag_when_not_master_up when selecting hash mode
+f0ab15c0f7bfc300d3844e359b1ae6389715b1ea net/mlx5e: Add error flow for ethtool -X command
+452e72b161af97632ee2d68fdd065ec667c209ce net/mlx5e: Use correct return type
+bd52df46697e766861adcdc9b2487ef02b76d357 net/mlx5e: Remove incorrect addition of action fwd flag
+b0c06f166852462b52255c6c42c63a41436001c6 net/mlx5e: Set action fwd flag when parsing tc action goto
+40d0aa0127185af20ffc91f4f22114663a85b451 net/mlx5e: Check action fwd/drop flag exists also for nic flows
+7616180f5afcb633534e57e82a7727c9c1350df0 net/mlx5e: Remove redundant priv arg from parse_pedit_to_reformat()
+d0844f94641415a8e8d1dabc1ffe0aa7696bbe50 net/mlx5e: Use tc sample stubs instead of ifdefs in source file
+a4f6e37a2b68e57e645623db708765bc77eb3480 net/mlx5e: Use NL_SET_ERR_MSG_MOD() for errors parsing tunnel attributes
+62a8b9476c0654e3e550db6b9c9dbc042094ae83 net/mlx5e: loopback test is not supported in switchdev mode
+6ad7b915199d983700270a67f099bd1ed2767b94 net/mlx5e: Improve MQPRIO resiliency
+8d0add268679fff8e24766a1b3dded94b2899b31 net/mlx5e: Allow specifying SQ stats struct for mlx5e_open_txqsq()
+15849dda5eb727dea1dc71ddbc4b2506bb989dbe net/mlx5e: Add TX max rate support for MQPRIO channel mode
+8272f76135d37e2c239f928a15bf4859ad667395 Merge branch 'patchq/428148' into mlx5-queue
+cefaa2c501e5702b77848d1a03700e58127ed7de Merge branch 'patchq/427207' into mlx5-queue
+c106441f6f5d9344dc7af5ce513f7b423ea01c07 net/mlx5: DR, Fix code indentation in dr_ste_v1
+d070360f1d240d970c4eb0b588da0cee01f90550 Merge branch 'patchq/426506' into mlx5-queue
+3dc21ded43954abad88645cc8297a5b7f3bc1588 Merge branch 'patchq/409055' into mlx5-queue
+c6de72705266c156a9ca1abd0a14640b5cfe2934 Merge branch 'patchq/423917' into mlx5-queue
+31ea267c7c059b39768a2b85a45eab97755294a1 Merge branch 'patchq/419320' into mlx5-queue
 
---===============8589474416299911352==--
+--===============6564664349973998456==--
