@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 22 Sep 2021 13:21:30 -0000
-Message-Id: <163231689003.23617.17120741026979178411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 22 Sep 2021 13:26:20 -0000
+Message-Id: <163231718021.26422.5744463573849018035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: db4278c55fa53760893266538e86e638330b03bb
-    new: a5df6333f1a08380c3b94a02105482263711ed3a
+  - ref: refs/heads/irq/irqchip-fixes
+    old: 0ddc5e55e6f1da1286fb2646f4248bf7da31a601
+    new: 2a7313dc81e88adc7bb09d0f056985fa8afc2b89
     log: |
-         a5df6333f1a08380c3b94a02105482263711ed3a skbuff: pass the result of data ksize to __build_skb_around
+         2a7313dc81e88adc7bb09d0f056985fa8afc2b89 irqchip/armada-370-xp: Fix ack/eoi breakage
          
