@@ -1,103 +1,125 @@
-Content-Type: multipart/mixed; boundary="===============1368666233307053265=="
+Content-Type: multipart/mixed; boundary="===============6178890777426303548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 22 Sep 2021 21:52:03 -0000
-Message-Id: <163234752346.23755.12131784294076786328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Wed, 22 Sep 2021 22:36:06 -0000
+Message-Id: <163235016631.18094.13269747538893382165@gitolite.kernel.org>
 
---===============1368666233307053265==
+--===============6178890777426303548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/seen
-    old: 94571a678cc2759fc249ab859ab9c611bedfd439
-    new: cbec062d775dd3c61d6b168caa43748c4b19fccb
-    log: revlist-94571a678cc2-cbec062d775d.txt
+  - ref: refs/heads/pending-fixes
+    old: 118f3980b4fd607dfcd03eb82c1ce1abf72013b6
+    new: 8d38ae8ade658d7f94cdbb10c1c77763d557aa5c
+    log: revlist-118f3980b4fd-8d38ae8ade65.txt
 
---===============1368666233307053265==
+--===============6178890777426303548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94571a678cc2-cbec062d775d.txt
+Content-Disposition: attachment; filename=revlist-118f3980b4fd-8d38ae8ade65.txt
 
-0394f8d0025b83922735b1d46cfd4e446916c8c3 builtin/multi-pack-index.c: disable top-level --[no-]progress
-56e28a1e61d4310954040ee47983ad4287af458d core.fsyncobjectfiles: batched disk flushes
-234defb32eac82605b99b6749e5a3e22e8131107 core.fsyncobjectfiles: add windows support for batch mode
-7c52d242e0384bf924da4cf9293ebd78fe6d20d1 update-index: use the bulk-checkin infrastructure
-2321cd6b75254074817dca6a360b988cc3bdedd9 core.fsyncobjectfiles: tests for batch mode
-9e488861b417efd7f00a475a277baa7ca2a01a2c core.fsyncobjectfiles: performance tests for add and stash
-cc8e26ee8d56dbdb442796a43aa7f30d3684b036 grep: stop modifying buffer in strip_timestamp
-995e525b1729ada354e443f16e1c0fad59df25a8 grep: stop modifying buffer in show_line()
-f84e79ff4bffbcd9de85adc270f5164a6b024d34 grep: stop modifying buffer in grep_source_1()
-1a845fbc48f2613c0daab717ee934e066e65723d grep: mark "haystack" buffers as const
-1e66871608d1f6f4cd66e899ee33755bbf6deafa grep: store grep_source buffer as const
-35f070b4de8fa01c11d9478297ea074d633bd7d5 rebase: use our standard error return value
-1d188263e0847fd356d7ff245c32e8ebb29115b3 rebase: use lookup_commit_reference_by_name()
-7740ac691d8e7f1bed67bcbdb1ee5c5c618f7373 rebase: dereference tags
-54b4d125d5981826d9e14e47216acabf29108f9f ls-files: use imperative mood for -X and -z option description
-54efa9aa84d961ee8c1f97d0ae35f47332c1eecc http: match headers case-insensitively when redacting
-bf34ddab1940ef91f990d7a744ae1b240843bb62 fixup! tests: add a test mode for SANITIZE=leak, run it in CI
-3540c71ea5ddffff6e473249866cbc7abb8ce509 wrapper.c: add x{un,}setenv(), and use xsetenv() in environment.c
-c6b4888b3fb077e6d617511496adae06f14bcf4d environment.c: remove test-specific "ignore_untracked..." variable
-f1bee828734c052eeabb6b652a98c0498efdff6b read-cache & fetch-negotiator: check "enum" values in switch()
-3050b6dfc75d04ad49213cab4c8730c981a8eea7 repo-settings.c: simplify the setup
-c21919f1b25cf7008018e8724e92dc771057c268 repository.h: don't use a mix of int and bitfields
-f9d65b04cd6bb30b2bc4afc752d3bdc17474196d t/perf/run: fix bin-wrappers computation
-f0a74bcb0352eab0ce7d474eea1754533e53bb5b Makefile: clean .depend dirs under COMPUTE_HEADER_DEPENDENCIES != yes
-79354f549ebcd4639c1c432f5ea4731985441dc4 lazyload.h: fix warnings about mismatching function pointer types
-8f14f656c66fa2f44c1d74f1538e0e7532f48dc3 Makefile: avoid breaking compilation database generation with DEVELOPER
-70d11b21520587e17ee815613d05af277f038af3 Merge branch 'ab/refs-files-cleanup' into jch
-978412370d2735f9d0c8104b53c850a7faa43e57 Merge branch 'hn/refs-errno-cleanup' into jch
-1b036d0ce50dcf559f73c0436556c76d3f93d3e1 Merge branch 'pw/rebase-of-a-tag-fix' into jch
-fd7c1b8ba697ce86ab8d77ce26f2c4fb021e28a8 Merge branch 'ab/refs-errno-cleanup' into jch
-5999fafadc6c41de46158b0b853a19a6ca76f610 Merge branch 'ws/refer-to-forkpoint-config-in-rebase-doc' into jch
-95480e748c6442ddcd5b771448bb002253d4e99b Merge branch 'ah/connect-parse-feature-v0-fix' into jch
-adf827c44e7500dfef722ea99ebc439dedd500bc Merge branch 'ah/unreak-revisions' into jch
-e794fdc5348ef9fe076dba91d1c4c571f2a8ea3f Merge branch 'tb/commit-graph-usage-fix' into jch
-c324ebf92d4f03a8eef86599623057497b5c5b5b Merge branch 'da/difftool-dir-diff-symlink-fix' into jch
-c572d1e8b15361798f000a75d27648502b590a0e Merge branch 'ks/submodule-add-message-fix' into jch
-0089d6efdc8c1a818429ad30b677219ff9568343 Merge branch 'jk/grep-haystack-is-read-only' into jch
-db220bc9a73a1cbef042b4938b3ed92fd32eb8df Merge branch 'bs/ls-files-opt-help-text-update' into jch
-04745b96a303f96e6efbd8d626248e57bf583d40 Merge branch 'jk/http-redact-fix' into jch
-5e9baa17cd80a5f955af1f46bd78cfcd2e893683 Merge branch 'ab/repo-settings-cleanup' into jch
-132d62321fdc4f837cf77031d82a9e3712a80f14 Merge branch 'ds/perf-test-built-path-fix' into jch
-73ba7128774e7f0951406560cf18ac7108d6376a Merge branch 'ab/make-clean-depend-dirs' into jch
-fe831d8cc20e7c0cf6335d7109954355d0fb3bd5 Merge branch 'cb/make-compdb-fix' into jch
-e31b437520a4e6904203ef41f853131cc15677ab Merge branch 'js/win-lazyload-buildfix' into jch
-c5503f6599ede40a2b0e10705839dcad258cd808 Merge branch 'ab/sanitize-leak-ci' into seen
-41bcff6f6624fc9d6420783294e2b91c118692f3 Merge branch 'da/difftool' into seen
-0100454859852bcad81aab7d92038568bd9ffc15 Merge branch 'en/removing-untracked-fixes' into seen
-c2d42bfdd977375bd389978d6965b7f7ff0a80c4 Merge branch 'jh/builtin-fsmonitor-part1' into seen
-87e8396fede8fc5ac2dbbac9827b5d36908aa0f2 Merge branch 'ns/batched-fsync' into seen
-7f8be1ba853a80d6ba329c4c88dcc4415dffef82 Merge branch 'js/scalar' into seen
-56deded061d3a35cbb38c7a43943895d22c3aa72 Merge branch 'hn/reftable' into seen
-372a03008e135e2c2f2d56eccd5b072430b8dda2 Merge branch 'ms/customizable-ident-expansion' into seen
-cebd054d50d39f8739e8d33e3679a66626127e79 Merge branch 'ab/pack-objects-stdin' into seen
-5cdc5a4060236c5f17f70de8bdf8434a2a90ccea Merge branch 'en/zdiff3' into seen
-61e2f0b2fa34583006a065c20656c6abe6c35585 Merge branch 'ab/fsck-unexpected-type' into seen
-31f75cf76d10545d5b344a9852c9e68f2815f897 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
-dae3ab4c1720b5b00bf0199a0200d9d9808807bd Merge branch 'ab/lib-subtest' into seen
-3fef2cd9a7762baa0965d421a7bd97c5cfaaa3ee Merge branch 'ab/only-single-progress-at-once' into seen
-2ffb40d61d18de2943ac434368a3afd267bcf61c Merge branch 'pw/diff-color-moved-fix' into seen
-a144c031db3f116835c23bb85375af54198e1041 Merge branch 'en/remerge-diff' into seen
-3cfdcc29e5b1263a6115a02e45776a7acce30bcb Merge branch 'sg/test-split-index-fix' into seen
-b22a646b622f6218501e23415b7be13df67766a8 Merge branch 'jt/add-submodule-odb-clean-up' into seen
-f8e9a2367dfe59192f66c3b0157d16dd7f2d297f Merge branch 'ab/config-based-hooks-base' into seen
-bce06956e25f98f754fb2736496eea5a10becb06 Merge branch 'es/config-based-hooks' into seen
-ab78abd6d08003820204054182ac79c34f24417f Merge branch 'ar/submodule-update' into seen
-fe3dda76c13e8b8b6ceb1b132fbbb58b3e52d7c0 Merge branch 'fs/ssh-signing' into seen
-d1daf6604ce211f78101d4bb5cfd8cafb506b223 Merge branch 'ab/help-config-vars' into seen
-4827297d5915718e77b4a602b45a73c0ea155828 Merge branch 'ab/align-parse-options-help' into seen
-03cc65a1680e967c5531d534bfcdec71f79d7638 Merge branch 'tb/repack-write-midx' into seen
-e5a428c3e52d8e3fbe2676e4d5a1599535dd6fa5 Merge branch 'tb/midx-write-propagate-namehash' into seen
-1917318deb06eb66a0e290e003ec28aca59e2029 Merge branch 'ds/add-rm-with-sparse-index' into seen
-1cc31e15293f2a26d330fe15f236949071d2c316 MyFirstContribution: Document --range-diff option when writing v2
-cbec062d775dd3c61d6b168caa43748c4b19fccb Merge branch 'gc/doc-first-contribution-reroll' into seen
+89c485c7a3ecbc2ebd568f9c9c2edf3a8cf7485b NLM: Fix svcxdr_encode_owner()
+02579b2ff8b0becfb51d85a975908ac4ab15fba8 nfsd: back channel stuck in SEQ4_STATUS_CB_PATH_DOWN
+ebcc36ea1960d79406d417cb6b107946da8b5210 MAINTAINERS: Update Broadcom RDMA maintainers
+5b1e985f7626307c451f98883f5e2665ee208e1c RDMA/irdma: Skip CQP ring during a reset
+f4475f249445b3c1fb99919b0514a075b6d6b3d4 RDMA/irdma: Validate number of CQ entries on create CQ
+d3bdcd59633907ee306057b6bb70f06dce47dddc RDMA/irdma: Report correct WC error when transport retry counter is exceeded
+9f7fa37a6bd90f2749c67f8524334c387d972eb9 RDMA/irdma: Report correct WC error when there are MW bind errors
+96c8395e2166efa86082f3b71567ffd84936439b spi: Revert modalias changes
+248f064af222a1f97ee02c84a98013dfbccad386 s390/qeth: fix NULL deref in qeth_clear_working_pool_list()
+ee909d0b1dac8632eeb78cbf17661d6c7674bbd0 s390/qeth: Fix deadlock in remove_discipline
+d2b59bd4b06d84a4eadb520b0f71c62fe8ec0a62 s390/qeth: fix deadlock during failing recovery
+b52d3161c23f8944a4050874d3556c8ed148927f Merge branch 's390-qeth-fixes-2021-09-21'
+88b099006d83b0bf452379cad4ce494329084726 scsi: ufs: core: Revert "scsi: ufs: Synchronize SCSI and UFS error handling"
+1d479e6c9cb2b40abfb455863a4e9335db882e33 scsi: sd_zbc: Support disks with more than 2**32 logical blocks
+d04a968c33684b15d1206e23fc1119ce0f0587fb scsi: ufs: core: Unbreak the reset handler
+5f8579038842d77e6ce05e1df6bf9dd493b0e3ef scsi: qla2xxx: Restore initiator in dual mode
+bc41fcbffd5759c9610f7de211420eae6b379503 scsi: fas216: Kill scmd->tag
+756fb6a895afbf1f0615d93ebdd14863a00b1198 scsi: acornscsi: Remove tagged queuing vestiges
+a4869faf9642518145a8aa4b52e0d5ab0e7ee896 scsi: core: Remove 'current_tag'
+cdbc16c552f27ac211a44f9959d813b4f3188223 scsi: lpfc: Fix sprintf() overflow in lpfc_display_fpin_wwpn()
+6dacc371b77f473770ec646e220303a84fe96c11 scsi: lpfc: Use correct scnprintf() limit
+a38923f2d088d1a5cbaa86818abe039b2f87093d scsi: lpfc: Fix gcc -Wstringop-overread warning, again
+9a8ef2c73c727a3c64b70c01697c578c7b10fed2 scsi: target: Fix spelling mistake "CONFLIFT" -> "CONFLICT"
+fbdac19e642899455b4e64c63aafe2325df7aafa scsi: ses: Retry failed Send/Receive Diagnostic commands
+f7d848e0fdfa557f181955a769cbb163d54fd292 MAINTAINERS: usb, update Peter Korsgaard's entries
+3027c77774acceb32edbd026505f4e7a903d763b dt-bindings: panel: ili9341: correct indentation
+cef0d022f55364d69017daeb9443bd31510ad6a2 gpiolib: acpi: Make set-debounce-timeout failures non fatal
+2dd824cca3407bc9a2bd11b00f6e117b66fcfcf1 gpio: uniphier: Fix void functions to remove return value
+f6c35df22708438c94605b8896d2b4e4d5f342a3 gpio: gpio-aspeed-sgpio: Fix wrong hwirq in irq handler.
+0f562b7de99085935d76b00c41ab5caa26ff5c74 gpio/rockchip: extended debounce support is only available on v2
+b22a4705e2e60f342b1b851c9ebdb3ea02f21f8f gpio/rockchip: fix get_direction value handling
+2a7313dc81e88adc7bb09d0f056985fa8afc2b89 irqchip/armada-370-xp: Fix ack/eoi breakage
+20c36ce2164f1774b487d443ece99b754bc6ad43 irqdomain: Change the type of 'size' in __irq_domain_add() to be consistent
+b99948836162b0cfb03007d9b2c2da9babc057b5 irqchip/mbigen: Repair non-kernel-doc notation
+969ac78db78c723a24e9410666b457cc1b0cb3c3 irqchip/goldfish-pic: Select GENERIC_IRQ_CHIP to fix build
+280bef512933b2dda01d681d8cbe499b98fc5bdd irqchip/gic-v3-its: Fix potential VPE leak on error
+3ce8c70ecedb4e1f1d36301afb0281be40390f13 irqchip/renesas-rza1: Use semicolons instead of commas
+1ea7812326004afd2803cc968a4776ae5120a597 qed: rdma - don't wait for resources under hw error recovery flow
+977d293e23b48a1129830d7968605f61c4af71a0 mptcp: ensure tx skbs always have the MPTCP ext
+b78f26926b17cc289e4f16b63363abe0aa2e8efc irqchip/gic: Work around broken Renesas integration
+dc8126121d796385a8a7246e43cd04a913cbd8eb Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+f03bf748cb6e91c9aca696eec1db64b698b60cb3 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
+7dd4ea8ced6cbf143558161b5e67b0ab006fa1d3 Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
+8646e53633f314e4d746a988240d3b951a92f94a KVM: rseq: Update rseq when processing NOTIFY_RESUME on xfer to KVM guest
+a68de80f61f6af397bc06fb391ff2e571c9c4d80 entry: rseq: Call rseq_handle_notify_resume() in tracehook_notify_resume()
+de5f4213dafa8f8b0b52cdaf06bb35ad4cab1681 tools: Move x86 syscall number fallbacks to .../uapi/
+61e52f1630f54713f5dffa1ab4bb49772235aa5a KVM: selftests: Add a test for KVM_RUN+rseq to detect task migration bugs
+2da4a23599c263bd4a7658c2fe561cb3a73ea6ae KVM: selftests: Remove __NR_userfaultfd syscall fallback
+8f1b7ba55c61d2c9f3a47a4759db43abfb59fc16 MAINTAINERS: ARM/VT8500, remove defunct e-mail
+bee42512c4a0e6253d6b196445f9091438b264b5 Merge tag 'platform-drivers-x86-v5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+cf1d2c3e7e2f3754fe3d6dc747f7a092b168d9cf Merge tag 'nfsd-5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+80f6e3080bfcf865062a926817b3ca6c4a137a57 fs-verity: fix signed integer overflow with i_size near S64_MAX
+9bedf10b5797a4660c2acc6c3573376f7e5d1c97 Merge tag 'spi-fix-v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+c4aa1eeb093b09fbae9329a080172c58ace8da8c MAINTAINERS: update entry for NIOS2
+2e36a964ada4f7bda24f3caa971a33500e23af36 MAINTAINERS: Update SWIOTLB maintainership
+4057525736b159bd456732d11270af2cc49ec21f MAINTAINERS: Update Xen-[PCI,SWIOTLB,Block] maintainership
+58e2cf5d794616b84f591d4d1276c8953278ce24 init: Revert accidental changes to print irqs_disabled()
+7c3a00911b3d179e54d139d5354caf53e8c7ed33 bpf: Exempt CAP_BPF from checks against bpf_jit_limit
+b202c12d57834d9936238de90a61978e2629c8c7 Merge branch 'for-next/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+d490aaec4ee1fbf3cf5e860bb4b1eab1e6ad77ee Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
+455c18808365f44fcaa276f93be373d854b2e091 Merge branch 'for-stable' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt.git
+3444e93206f576d05064a4415b9d406fbea81796 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+a76f3f9bf1a6c1849e04fa0dd9b1d4b179042f5b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
+a69c8a4584d8e8f2be915e56cb8f85678c743270 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+b7c204fc83f084c8582985459102180fab0ed2ee Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf.git
+82fb2ee615c943d820815e700c067caf660758c5 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers.git
+18fea39928b238352194407bbff0b986bef740ed Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+72a53402daa17ff8c8463793791457dade6abb65 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+5d1c9530b70b6b5ec5bd2d7efcf7b189b7c6ae0b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+409e41700062f090523850b6df07855fb3193a43 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+fc5072157b6592eaae2c48c7fecc2fc8e5b78d9b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+e095c9432d7f751fd9334a5502b27d8503305011 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
+07b37dbeaa76f6629dbb409499b631f291737c4b Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+ac0e57fc8128c254c30932ce88ecf6eecfc94662 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+152a3af87ca703604d455609d65a2a6b19fdddbf Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
+043d96a47f5f98dadf9d06407fccf9b3d2a2f749 Merge branch 'for-usb-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb.git
+a96672facff3d61b39d9a2652d8d764c53bba3eb Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+762e800d7d28e7195336ce19e61a47e550ed2574 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+bb10113c858677a3b4a7f96421ef939714597386 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
+ad0b228f6ac631c9c6cc4850d601f6c420552fb4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+53a4f375f81441df95acfe1f56a7b02bad85db64 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
+9d7b9efd3de4b7549deaab896e63e9cb678ee2a0 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
+74f398f22a140a48857f6bf5b1ebced12a7fef62 Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
+70ebc4dffbc52d23076f36f84d7e6bd15bfaf56b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap.git
+aab9315de7c3c8a9bb136c141f2bbdb4f5ec5e93 Merge branch 'master' of git://git.kernel.org/pub/scm/virt/kvm/kvm.git
+a0803db2fb2752e19aa05babb40d752e25f1d2e0 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+9f1fb8bd72a1f5173f48ad9287dcb2031551d522 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+82cae7e01d31f6543d984bc8ae22605dce2883cc Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+78a951b824c588e11df5f432a3207b7341a11dad Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
+7ced999c54369502516b5f49576bb8504f860ff1 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
+13848a5345c9c10690e0b3020b208b579032004d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
+a668958b893dde5bcb4d299ab8d3c68b468228f2 Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
+ba59eef04a77acea59f25b0f24371c2caa1e98e1 Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
+53d385037620cfe7d03814a519a73c82226847c8 Merge branch 'irq/irqchip-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms.git
+8d38ae8ade658d7f94cdbb10c1c77763d557aa5c Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
 
---===============1368666233307053265==--
+--===============6178890777426303548==--
