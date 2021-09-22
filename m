@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 22 Sep 2021 14:15:48 -0000
-Message-Id: <163232014833.28869.8869998419692988458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 22 Sep 2021 14:16:03 -0000
+Message-Id: <163232016345.29017.4684538901850997961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 024a0383b3fafe20eca115c77a2c2be4fcb90805
-    new: f03bf748cb6e91c9aca696eec1db64b698b60cb3
+    old: 1bac59c285f3ddc60b50ce0bd3b900fc1122fcdd
+    new: 7dd4ea8ced6cbf143558161b5e67b0ab006fa1d3
     log: |
-         f03bf748cb6e91c9aca696eec1db64b698b60cb3 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
+         96c8395e2166efa86082f3b71567ffd84936439b spi: Revert modalias changes
+         7dd4ea8ced6cbf143558161b5e67b0ab006fa1d3 Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 09aef6aff4508f308795739dfeb896f29788cc3d
-    new: 2dfbfd4e22907806d36473a0a0ecbd4bb56d99a3
+    old: 647282d9f8642c48161bd424c8e1de197e4ea183
+    new: 36f6afce556d5759fe11f01be317976b48eb0726
     log: |
-         5fa6863ba69265cb7e45567d12614790ff26bd56 spi: Check we have a spi_device_id for each DT compatible
-         f03bf748cb6e91c9aca696eec1db64b698b60cb3 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
-         2dfbfd4e22907806d36473a0a0ecbd4bb56d99a3 Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
+         96c8395e2166efa86082f3b71567ffd84936439b spi: Revert modalias changes
+         7dd4ea8ced6cbf143558161b5e67b0ab006fa1d3 Merge remote-tracking branch 'spi/fix/modalias' into spi-linus
+         36f6afce556d5759fe11f01be317976b48eb0726 Merge remote-tracking branch 'spi/for-5.16' into spi-next
          
