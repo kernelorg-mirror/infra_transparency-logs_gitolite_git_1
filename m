@@ -1,41 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4524660851211608691=="
+Content-Type: multipart/mixed; boundary="===============0172825178800123815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 22 Sep 2021 04:57:36 -0000
-Message-Id: <163228665686.4486.7874419922077786443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 22 Sep 2021 05:19:59 -0000
+Message-Id: <163228799910.18496.12322883498052981141@gitolite.kernel.org>
 
---===============4524660851211608691==
+--===============0172825178800123815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/testing
-    old: 279e999bc535359babf54a6a3c2176e3bc198df2
-    new: 8bf7f24543ec99f7e78608a0702d198f17f1f853
-    log: revlist-279e999bc535-8bf7f24543ec.txt
+  - ref: refs/heads/fixes
+    old: 1a0db7744e453844aa2db3f2959aea4a378025ea
+    new: fbdac19e642899455b4e64c63aafe2325df7aafa
+    log: revlist-1a0db7744e45-fbdac19e6428.txt
 
---===============4524660851211608691==
+--===============0172825178800123815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-279e999bc535-8bf7f24543ec.txt
+Content-Disposition: attachment; filename=revlist-1a0db7744e45-fbdac19e6428.txt
 
-1511df6f5e9ef32826f20db2ee81f8527154dc14 s390/bpf: Fix branch shortening during codegen pass
-6e61dc9da0b7a0d91d57c2e20b5ea4fd2d4e7e53 s390/bpf: Fix 64-bit subtraction of the -0x80000000 constant
-db7bee653859ef7179be933e7d1384644f795f26 s390/bpf: Fix optimizing out zero-extensions
-d5f6545934c47e97c0b48a645418e877b452a992 qnx4: work around gcc false positive warning bug
-92477dd1faa650e50bd3bb35a6c0b8d09198cc35 Merge tag 's390-5.15-ebpf-jit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-fd2ddcae2b9df0ba31f7b68aee2763ec5b4210b4 fs-verity: fix signed integer overflow with i_size near S64_MAX
-5f88f24228d3c5c7ef337d817afc354ac6dff0f2 blk-crypto-fallback: properly prefix function and struct names
-3ea40294f76110772ae893ad1c168207633d58d4 blk-crypto: rename keyslot-manager files to blk-crypto-profile
-cbd3783cbe1479bd34668f783142ed152f78726a blk-crypto: rename blk_keyslot_manager to blk_crypto_profile
-be5c77ca95a45540074380b7297c9ea765261b73 blk-crypto: update inline encryption documentation
-8bf7f24543ec99f7e78608a0702d198f17f1f853 Merge remote-tracking branches 'cryptodev/master', 'ext4/dev', 'f2fs/dev', 'fscrypt/for-stable', 'fscrypt/master' and 'ebiggers/blk-crypto-cleanup' into testing
+88b099006d83b0bf452379cad4ce494329084726 scsi: ufs: core: Revert "scsi: ufs: Synchronize SCSI and UFS error handling"
+1d479e6c9cb2b40abfb455863a4e9335db882e33 scsi: sd_zbc: Support disks with more than 2**32 logical blocks
+d04a968c33684b15d1206e23fc1119ce0f0587fb scsi: ufs: core: Unbreak the reset handler
+5f8579038842d77e6ce05e1df6bf9dd493b0e3ef scsi: qla2xxx: Restore initiator in dual mode
+bc41fcbffd5759c9610f7de211420eae6b379503 scsi: fas216: Kill scmd->tag
+756fb6a895afbf1f0615d93ebdd14863a00b1198 scsi: acornscsi: Remove tagged queuing vestiges
+a4869faf9642518145a8aa4b52e0d5ab0e7ee896 scsi: core: Remove 'current_tag'
+cdbc16c552f27ac211a44f9959d813b4f3188223 scsi: lpfc: Fix sprintf() overflow in lpfc_display_fpin_wwpn()
+6dacc371b77f473770ec646e220303a84fe96c11 scsi: lpfc: Use correct scnprintf() limit
+a38923f2d088d1a5cbaa86818abe039b2f87093d scsi: lpfc: Fix gcc -Wstringop-overread warning, again
+9a8ef2c73c727a3c64b70c01697c578c7b10fed2 scsi: target: Fix spelling mistake "CONFLIFT" -> "CONFLICT"
+fbdac19e642899455b4e64c63aafe2325df7aafa scsi: ses: Retry failed Send/Receive Diagnostic commands
 
---===============4524660851211608691==--
+--===============0172825178800123815==--
