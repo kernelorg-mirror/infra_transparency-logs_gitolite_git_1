@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 22 Sep 2021 07:53:53 -0000
-Message-Id: <163229723378.17674.15823310328197316261@gitolite.kernel.org>
+Date: Wed, 22 Sep 2021 08:05:56 -0000
+Message-Id: <163229795653.25469.12381549083498400081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/devfreq-next
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 5caabffaaf09e57755b367b84d1e53edfc1fb0ea
+    old: 5caabffaaf09e57755b367b84d1e53edfc1fb0ea
+    new: 7f6490afc97fe0b21ec4b38226414286561a2994
     log: |
-         572718b35c24c244d62b5352d3a889fd18153ba1 devfreq: exynos-ppmu: use node names with hyphens
-         5caabffaaf09e57755b367b84d1e53edfc1fb0ea devfreq: exynos-ppmu: simplify parsing event-type from DT
+         b8deedf685acdc88f57b8fa666ef08eafd524f29 devfreq: exynos-ppmu: use node names with hyphens
+         7f6490afc97fe0b21ec4b38226414286561a2994 devfreq: exynos-ppmu: simplify parsing event-type from DT
          
