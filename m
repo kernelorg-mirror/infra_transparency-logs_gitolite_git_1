@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1222792615541981343=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 22 Sep 2021 18:05:47 -0000
-Message-Id: <163233394709.7406.3640306315097788118@gitolite.kernel.org>
-
---===============1222792615541981343==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 22 Sep 2021 18:08:42 -0000
+Message-Id: <163233412247.8478.10630924609491803027@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 27dbb0d62befdcc3a657934436501dc3352db30e
-    new: bcc74e906714ea9dcdb21716a1c697630dffdd3c
+  - ref: refs/heads/queue/4.14
+    old: e486bb0ef3a79abdefb9ab4f9fd6e0eaa6d73d24
+    new: f180d244fec89ccef4cf83127ec09718ed9fcddf
     log: |
-         bcc74e906714ea9dcdb21716a1c697630dffdd3c 5.4-stable patches
+         f180d244fec89ccef4cf83127ec09718ed9fcddf s390/bpf: Fix optimizing out zero-extensions
          
-
---===============1222792615541981343==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632333946 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1632333945-f4de0a0b9260282b6c2be565c06fcbd9bc2a79ab
-
-27dbb0d62befdcc3a657934436501dc3352db30e bcc74e906714ea9dcdb21716a1c697630dffdd3c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFLcHobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9ZAP/ig4En1Pjic88oFofUos
-KXgHMcr+TDyblKPawvO+NtYVwvVMUCMZBJGaTGgN1M8T7ScQvqaSpRxkw08qK9T2
-S3kfdwLfgOd480VHx+tplKy468LygkaOSz26WjbHAclj632cV/fKggN3+sUIpQj3
-7LHlE4K8AhSrrzuYyGLgFO7oHVl0DrUTQPfD0pIdi4PArjy/oJhI8q+q4woGaQkM
-62QQqSrALNHv03yMjh1WHa8xEklCUq2T+jOvj8F6giodUvvdeGYgCmnoFftJmCN8
-WxaTADOtsZot15A03KvM2951SW4E2vOdY19dY3fIR4l9IYQTiCwB/vxSab7lXHru
-IDiNwaCkf0xCIr+enBXsClr8ofcDwIGCwg6bFFJG/xXPg7uWeQyEZD9IB4RKP6Df
-LJYwVf/vAfPywntWhDRzm77n05TxpTkxAXZqsnNcvBxLWfZbQI4TZoJjZR2kfSWn
-Ajj/1BDpy/xbpzGNcQFTI2k1x0GPI72BzT0Doa1GmwdeGmwEbNLnvhXEK621Q0za
-HoqRZa/scXJR+jNSP9ef1AsfLFQGL/+624J1MvqdjFM8IIRMzBd/4DYV8TZQL2aN
-qbOIOOU6TzHvbFGlUyjhMCIeKoA9Dc9cA/UAXfw3w8/AliCJgAtWDlzaHo/gTTAL
-zLQzmN/0RD56+lmylqyUWYFN
-=D2wf
------END PGP SIGNATURE-----
-
---===============1222792615541981343==--
+  - ref: refs/heads/queue/4.19
+    old: c6d39ece03f12b27061e47b1edbc8c98841d45e2
+    new: 74b0d584f697ac055b47d9f873f133c88bec9829
+    log: |
+         74b0d584f697ac055b47d9f873f133c88bec9829 s390/bpf: Fix optimizing out zero-extensions
+         
+  - ref: refs/heads/queue/4.4
+    old: 132f56460bbb551bf8e5912d356ac9224c55fd4c
+    new: 50f476389aee1b9a202c6e7bbb5f73d82553b578
+    log: |
+         50f476389aee1b9a202c6e7bbb5f73d82553b578 s390/bpf: Fix optimizing out zero-extensions
+         
+  - ref: refs/heads/queue/4.9
+    old: df0df24d2a5ae5d19513d28dd6120da0ffb36047
+    new: 6b230604d6e1cb8c60d8f4b053bf9b89d8aff294
+    log: |
+         6b230604d6e1cb8c60d8f4b053bf9b89d8aff294 s390/bpf: Fix optimizing out zero-extensions
+         
+  - ref: refs/heads/queue/5.10
+    old: cf6c1c3b843481c2f6abf9bfdb3827f8688f6a3f
+    new: ad904e1e9645854b557894dcae85f646cd0cfa06
+    log: |
+         c4e7f68a9fbd1cf634b6b8c96f8500007b1681a9 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         ad904e1e9645854b557894dcae85f646cd0cfa06 PCI: aardvark: Fix reporting CRS value
+         
+  - ref: refs/heads/queue/5.14
+    old: c40dfb6b54ee6c85205fb84e09e7b416eb3c71a1
+    new: 87f5e30b4e8dca87e86e3a03a8b11eb6087e9b16
+    log: |
+         0fd494e3b3c9da819ec66fa79b2b2d5ba7f5ea9e PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         87f5e30b4e8dca87e86e3a03a8b11eb6087e9b16 PCI: aardvark: Fix reporting CRS value
+         
+  - ref: refs/heads/queue/5.4
+    old: 24e753082c8b210564fd29db3bbc5d96925364f7
+    new: 5868c69fecdcfc318d64027b244bbe296ac78388
+    log: |
+         1b26f2efe5c8ab45c71d71f539cb8cdb7ab181ad PCI: pci-bridge-emul: Fix big-endian support
+         d10f76aa747de1494e75dfd40a5e13f15b45a769 PCI: aardvark: Indicate error in 'val' when config read fails
+         32db4f0e2743a4cdd0e1be0dd3183bf96e8ae4ea PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         a7f82a9220815f2a2df54c49639856664b919172 PCI: aardvark: Fix reporting CRS value
+         5868c69fecdcfc318d64027b244bbe296ac78388 PCI/ACPI: Add Ampere Altra SOC MCFG quirk
+         
