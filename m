@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 22 Sep 2021 17:51:22 -0000
-Message-Id: <163233308282.30349.16193440604713331387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Wed, 22 Sep 2021 17:57:02 -0000
+Message-Id: <163233342279.1287.7393770812681320789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
+  - ref: refs/heads/for-stable
+    old: fd2ddcae2b9df0ba31f7b68aee2763ec5b4210b4
+    new: 80f6e3080bfcf865062a926817b3ca6c4a137a57
+    log: |
+         80f6e3080bfcf865062a926817b3ca6c4a137a57 fs-verity: fix signed integer overflow with i_size near S64_MAX
+         
