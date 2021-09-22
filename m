@@ -1,21 +1,76 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 22 Sep 2021 15:25:02 -0000
-Message-Id: <163232430287.31919.16634569206356043158@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6524062489375864765=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 22 Sep 2021 15:38:19 -0000
+Message-Id: <163232509903.7533.2848019180402925498@gitolite.kernel.org>
+
+--===============6524062489375864765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: eballetbo
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 7da3354af213ff1364a574025e5082efee69719e
-    new: 1d87f3f81b63823fe4d3bde3fe1b0283921e7164
-    log: |
-         9a61d32eabad42cfc32c59a7382c8f7e2d672e39 iio: common: cros_ec_sensors: simplify getting .driver_data
-         729fffb0e3cd2f34add87e5f06af9391d30be7e8 platform: chrome: cros_ec_sensorhub: simplify getting .driver_data
-         1d87f3f81b63823fe4d3bde3fe1b0283921e7164 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
-         
+  - ref: refs/heads/dev
+    old: 01aac9b65b2be7ccc6267096849066a9ab79f58b
+    new: efd9a2ec4b5e8062d55372a0fd8691a1811708b0
+    log: revlist-01aac9b65b2b-efd9a2ec4b5e.txt
+
+--===============6524062489375864765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-01aac9b65b2b-efd9a2ec4b5e.txt
+
+f1940d4e9cbe6208e7e77e433c587af108152a17 Drivers: hv: vmbus: Fix kernel crash upon unbinding a device from uio_hv_generic driver
+7ad9bb9d0f357dcab5eb9a0f28d1c8983c48434c asm-generic/hyperv: provide cpumask_to_vpset_noself
+dfb5c1e12c28e35e4d4e5bc8022b0e9d585b89a7 x86/hyperv: remove on-stack cpumask from hv_send_ipi_mask_allbutself
+a69ae291e1cc2d08ae77c2029579c59c9bde5061 x86/uaccess: Fix 32-bit __get_user_asm_u64() when CC_HAS_ASM_GOTO_OUTPUT=y
+76ae847497bc5207c479de5e2ac487270008b19b Documentation: raise minimum supported version of GCC to 5.1
+4eb6bd55cfb22ffc20652732340c4962f3ac9a91 compiler.h: drop fallback overflow checkers
+adac17e3f61f54927b961d97bd303dd5795a307b mm/ksm: remove old GCC 4.9+ check
+c0a5c81ca9bedaf38356a6290bf895313fd7361c Kconfig.debug: drop GCC 5+ version check for DWARF5
+d20758951f8f28c0ee1b2a8a6bb8189858083895 riscv: remove Kconfig check for GCC version for ARCH_RV64I
+6563139d90ad6178a990d051c7980f0998b5d2e8 powerpc: remove GCC version check for UPD_CONSTR
+42a7ba1695fcd534216aa3712a6cf42da3340527 arm64: remove GCC version check for ARCH_SUPPORTS_INT128
+156102fe0bb669f40f2fd27856b21f9fa8157090 Makefile: drop GCC < 5 -fno-var-tracking-assignments workaround
+4e59869aa6550657cb148ad49835605660ec9b88 compiler-gcc.h: drop checks for older GCC versions
+6f20fa2dfa549401860479328371f0d5cee9b114 vmlinux.lds.h: remove old check for GCC 4.9
+6d2ef226f2f18d530e48ead0cb5704505628b797 compiler_attributes.h: drop __has_attribute() support for gcc4
+df26327ea097eb78e7967c45df6b23010c43c28d Drop some straggling mentions of gcc-4.9 as being stale
+316346243be6df12799c0b64b788e06bad97c30b Merge branch 'gcc-min-version-5.1' (make gcc-5.1 the minimum version)
+d0ee23f9d78be5531c4b055ea424ed0b489dfe9b tools: compiler-gcc.h: Guard error attribute use with __has_attribute
+13be2efc390acd2a46a69a359f6efc00ca434599 rtc: cmos: Disable irq around direct invocation of cmos_interrupt()
+1619b69edce14c4a4665fa8ff4c587dcc77202a9 powerpc/boot: Fix build failure since GCC 4.9 removal
+6a4746ba06191e23d30230738e94334b26590a8a ipc: remove memcg accounting for sops objects in do_semtimedop()
+77e02cf57b6cff9919949defb7fd9b8ac16399a2 memblock: introduce saner 'memblock_free_ptr()' interface
+3ca706c189db861b2ca2019a0901b94050ca49d8 drm/ttm: fix type mismatch error on sparc64
+80be5998ad6339e3e804a772723390cb50b96428 tools/bootconfig: Define memblock_free_ptr() to fix build error
+f6b5f1a56987de837f8e25cd560847106b8632a8 compiler.h: Introduce absolute_pointer macro
+dff2d13114f0beec448da9b3716204eb34b0cf41 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
+3cb8b1537f8a89a681d2548ded5526280846f6db alpha: Move setup.h out of uapi
+ebdc20d7bc74e8b6a242ff1f30e9017ffca9092c alpha: Use absolute_pointer to define COMMAND_LINE
+d6efd3f18763ac84098fa318742cd2a3bfdf4d72 Merge branch 'absolute-pointer' (patches from Guenter)
+fc7c028dcdbfe981bca75d2a7b95f363eb691ef3 sparc: avoid stringop-overread errors
+b7213ffa0e585feb1aee3e7173e965e66ee0abaa qnx4: avoid stringop-overread errors
+453fa43cdb8e0f4231ab84755fd2fc562823541b Merge tag 'rtc-5.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+ff1ffd71d5f0612cf194f5705c671d6b64bf5f91 Merge tag 'hyperv-fixes-signed-20210915' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+92d602bc7177325e7453189a22e0c8764ed3453e f2fs: should use GFP_NOFS for directory inodes
+a5c0042200b28fff3bde6fa128ddeaef97990f8d f2fs: quota: fix potential deadlock
+c02599f210d90c76e42e2eb544511a47cceb60c9 f2fs: avoid attaching SB_ACTIVE flag during mount
+287b1406dde2bc80f468c73708e7f7a87be390ea f2fs: introduce excess_dirty_threshold()
+6663b138ded1a59e630c9e605e42aa7fde490cdc f2fs: set SBI_NEED_FSCK flag when inconsistent node block found
+49575ca30a40c6a6f13730efe376bf7c94cea9e9 f2fs: separate buffer and direct io in block allocation statistics
+dcc6cba26cbd1d68830a30785d8424e4ab498fb8 f2fs: fix missing inplace count in overwrite with direct io
+2960dad4ae89c6706a76941ea48d711fde11d9b4 f2fs: multidevice: support direct IO
+e04667e0a90d2747b9be68a1ff2d792b9bc1dfbb f2fs: fix incorrect return value in f2fs_sanity_check_ckpt()
+6ee586e5c2e58f55f309967c3b22a22e5e352aa8 f2fs: fix up f2fs_lookup tracepoints
+3d901fa399048b01b3b30c8687546a5064074ff9 f2fs: reduce expensive checkpoint trigger frequency
+62d9ca9688d53efcc3c384c7297513cdba29a32b f2fs: fix to keep isolation of atomic write
+efd9a2ec4b5e8062d55372a0fd8691a1811708b0 f2fs: introduce fragment allocation mode mount option
+
+--===============6524062489375864765==--
