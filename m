@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2939468688013646328=="
+Content-Type: multipart/mixed; boundary="===============1685518019900365353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 22 Sep 2021 07:12:09 -0000
-Message-Id: <163229472981.22584.7710312988589482570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 22 Sep 2021 07:24:23 -0000
+Message-Id: <163229546359.30390.324888493221499963@gitolite.kernel.org>
 
---===============2939468688013646328==
+--===============1685518019900365353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 517c7bf99bad3d6b9360558414aae634b7472d80
-    new: f7d848e0fdfa557f181955a769cbb163d54fd292
+  - ref: refs/heads/master
+    old: ea6da39d79cfabb6b1107cea1a6fcd512baeb0b6
+    new: 4b6d33fe22bcde9b5477edc61ca6ef9b57c43e27
     log: |
-         f7d848e0fdfa557f181955a769cbb163d54fd292 MAINTAINERS: usb, update Peter Korsgaard's entries
+         4b6d33fe22bcde9b5477edc61ca6ef9b57c43e27 4.4-stable patches
          
 
---===============2939468688013646328==
+--===============1685518019900365353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632294724 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1632294723-76608182976c7f5900735fd045fb52079d12136e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632295462 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1632295461-e004927bb08168f94ef6d8ac53aae68707cb345a
 
-517c7bf99bad3d6b9360558414aae634b7472d80 f7d848e0fdfa557f181955a769cbb163d54fd292 refs/heads/usb-linus
+ea6da39d79cfabb6b1107cea1a6fcd512baeb0b6 4b6d33fe22bcde9b5477edc61ca6ef9b57c43e27 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFK10QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zeYQAMRlfz+MkjlOoaa82OLU
-IcTduHT60DUR8Xtm0wgGc0e7jq+qiNK0/nnMQHMeIjsHOImHSdyBD7pUvG1fXi/g
-bQOr+i/UyxRrgs11tnnK7KZqEDwWkqGtA2H082XMZW0dykiHn9nmCMwRKd0EoIrN
-bcZrtY8QCtuKblTglE6tfa3fY4W3uxrGDdeWtXLjuKgNQexmR/gkkTaCuXlSFvSf
-TnOWhZHfnny+WPGFHEnSqHt7L4UKssiM+0wz+XGZ2Cwu2NMj+ciM2A86o14VGYj8
-zfKXDl+2kNtrzVAD2HIWCMb0cjDlpY+tFXfF1a+rerQuZVWpKZbwtCvCM/XCGAtX
-l7sFZR+RnPRbV+D3RK16QprDqhPHOHhybZC0sSpflstxKJXiemgG53eNLV+vu72E
-5lZQoxbkvs/6RScu/SC5hEZoCQVWksgk82+admegWOkt9VjmkI7z1wuB+HZgdKG8
-s7XmkVzvPmkA5nHuHfv3BvxXAV85q6mo2rhdPV39pkImKOvXgQnlYpZDwDTr2Ry6
-mnUhiCRobP5B5yy3cFJbFpWxeIxiaJMtZANvrHQee4addKEQIBXDlAkXAl5nRyUs
-r1V3OhpHMQZk95CwK+lNZ5KKPIMTt31tQ1IPPUTsHUYBOrYtCLDFCGq1mrWFU/cL
-+LKNtMoHam+lQqnAljfhT+xK
-=ppiJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFK2iYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2cAQALk4gImzE9OhzDnsuCZE
+4sIMTUHiFAyyzpjhKtpvLAVYW1QnaXiRpa3ur6GMWOhWkLRkoSaLOkOSQORJmheQ
+BqSFoJmLiAuAB0zYolKmDTvm1ku+g0iQ/dDbaRzbYiyEtMNoL+mozguc+65U44m9
+4gfMDhFVctjKNfK6WcKjUwczRy6v4jXWtBoag6vNGOnJ1vj9z6/Uk3h8EYYjmgIG
+sZb46yD40srF1Lq6NNfXF6McLe9l4f52XBFS0R1ER4rhO+anvhevoZOvSV0lfZUs
+pWldmPStEy//3thCd9OYV+G/y3nVeCFEIpmu2ghBSKPJ3DQJTeV+8UlzU9MtFnlB
+z+h34recy4ZmlJZjrFuoX/uuEcpW9vnioNxVAfzWkdPtYd49PPafrn/8ho07uy+T
+Gaj/d8TkemEvYkr8Mo3vuijrUMbo5jTROoQxMO4KXzTlCcte35YqW+9ZcOMfLUkm
+wArrvt+HYKg167lc4WhUTVWpyJO6G3JAVKAHPR4T1KGeeFG2CVnecAqA2jm70GKT
+CUU9zfj4mA9EOOndsk3bA5/R6rGF3c42VOIr8ekWoE0zh8jqCpWHf+YKjpK1JCex
+00kM8jEQVf8GJYeXVeCrBSrd2dMLFLgt35f/FJd9Y4MMl9tWlOHOFH/Y4xk47aqp
+q4wRm23VNaGwz9MlzMI9FSo/
+=2BYX
 -----END PGP SIGNATURE-----
 
---===============2939468688013646328==--
+--===============1685518019900365353==--
