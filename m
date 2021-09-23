@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Sep 2021 08:27:17 -0000
-Message-Id: <163238563738.26262.2994196334706975269@gitolite.kernel.org>
+Date: Thu, 23 Sep 2021 08:29:12 -0000
+Message-Id: <163238575249.26932.2437967750955498544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,68 +12,69 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: fb2dbf3866e3964108e78c1e5e672dcc1d79c072
-    new: 334dcbf9594445c6386c90b12c619f64458ce0d7
+    old: 334dcbf9594445c6386c90b12c619f64458ce0d7
+    new: f4e9cec8e9936d3f9ce0f3d028ddf93272c00cca
     log: |
-         efe7101215bbe006ba1bc339c52e59cc68bc3c49 s390/bpf: Fix optimizing out zero-extensions
-         bb4375b4dfbd6cc99dee1539c9717e0ae870855d rcu: Fix missed wakeup of exp_wq waiters
-         c75e34ab79c231f695821c79a9422dd77beae076 apparmor: remove duplicate macro list_entry_is_head()
-         334dcbf9594445c6386c90b12c619f64458ce0d7 crypto: talitos - fix max key size for sha384 and sha512
+         feeda2a66989ce7ad0caea2716ba41b24a2a88a3 s390/bpf: Fix optimizing out zero-extensions
+         7f2d70e47f85530eb430adb791c09ddd2b6866ea rcu: Fix missed wakeup of exp_wq waiters
+         5bd84596d90c55f920c27df036b7551381b34a9c apparmor: remove duplicate macro list_entry_is_head()
+         f4e9cec8e9936d3f9ce0f3d028ddf93272c00cca crypto: talitos - fix max key size for sha384 and sha512
          
   - ref: refs/heads/queue/4.19
-    old: bf3085fad04ba72055bd3d662cb74d0090bf8c7a
-    new: d4e425ee971f95b24566c681dbf3f178b8fbab59
+    old: d4e425ee971f95b24566c681dbf3f178b8fbab59
+    new: cab6d64d8027bbac5ffee63f685ea575da2b51fc
     log: |
-         6dc981e65de1dcd50a6ef8ee7a8705eab94531dd s390/bpf: Fix optimizing out zero-extensions
-         7490c8cc9c99b4b1b2fae820324ea8305bdf03f1 KVM: remember position in kvm->vcpus array
-         f4d3f98b5180dbfc609ee8bcd0c609062539ad6a rcu: Fix missed wakeup of exp_wq waiters
-         1db37a216556e319f3696879d2d678468c48a77b apparmor: remove duplicate macro list_entry_is_head()
-         d4e425ee971f95b24566c681dbf3f178b8fbab59 crypto: talitos - fix max key size for sha384 and sha512
+         163b39caf38fa4aac12b6d83ea2a684012c0311c s390/bpf: Fix optimizing out zero-extensions
+         6648f9df17f7cb6beef048e3ad5838ddec301c37 KVM: remember position in kvm->vcpus array
+         5b5be5c0ed55a1008bea4e40e70fc96332216448 rcu: Fix missed wakeup of exp_wq waiters
+         efb71ae28683e50817208859c973c4b1f617aead apparmor: remove duplicate macro list_entry_is_head()
+         cab6d64d8027bbac5ffee63f685ea575da2b51fc crypto: talitos - fix max key size for sha384 and sha512
          
   - ref: refs/heads/queue/4.4
-    old: ffe329b7d169fc31d5d132742fc924e7b2af4943
-    new: cde41031847a7a0cde0a0895c9e6e87c9b6ba373
+    old: cde41031847a7a0cde0a0895c9e6e87c9b6ba373
+    new: 6fec4c9658f173e625b120ab6d9bf38140935096
     log: |
-         3c37974370e80700d11543f4b8bfea3e35190a43 s390/bpf: Fix optimizing out zero-extensions
-         cde41031847a7a0cde0a0895c9e6e87c9b6ba373 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+         98b3b53ae3c5971f86b6bded52139600db42114e s390/bpf: Fix optimizing out zero-extensions
+         6fec4c9658f173e625b120ab6d9bf38140935096 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
          
   - ref: refs/heads/queue/4.9
-    old: 9b94e70ef49f552e2ef766f11474cc7bea627257
-    new: d4d0faa0da99f1a3f309e6f646a50d192fe0bbce
+    old: d4d0faa0da99f1a3f309e6f646a50d192fe0bbce
+    new: e8f677a2de615a23381de1c603557e3e2a3338ae
     log: |
-         4470083a673a616018ced564f88a2d9f031005fc s390/bpf: Fix optimizing out zero-extensions
-         a93ed8b69591de56b0960039732cc75429427cc2 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
-         d4d0faa0da99f1a3f309e6f646a50d192fe0bbce crypto: talitos - fix max key size for sha384 and sha512
+         a791d0cbb45da27847eb7880e1d01f700bc20fc4 s390/bpf: Fix optimizing out zero-extensions
+         4cb680d1d0035d05d5d42503c9d5bf228537b5e0 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+         e8f677a2de615a23381de1c603557e3e2a3338ae crypto: talitos - fix max key size for sha384 and sha512
          
   - ref: refs/heads/queue/5.10
-    old: 4baeaee14f750e5ebc3e3619b97259473cdc7176
-    new: 8993e00080f4e8f824c9bc879f1e71e0edfdfe3e
+    old: 8993e00080f4e8f824c9bc879f1e71e0edfdfe3e
+    new: 7abdee394ceb95c7e0c785e68a6762046c32b05b
     log: |
-         d1321dcf0336ec5f559917ff12acda8f7eb3d583 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-         4ec63ae6c2e66ac1337f24031a71701dced35227 PCI: aardvark: Fix reporting CRS value
-         462ab1ec553528322a3b1a502408210f55bb892a console: consume APC, DM, DCS
-         1678e151c5926dc8ffa4ad52b1f54fd5e0c2db5e s390/pci_mmio: fully validate the VMA before calling follow_pte()
-         8993e00080f4e8f824c9bc879f1e71e0edfdfe3e ARM: Qualify enabling of swiotlb_init()
+         71805a5302793e8b16750c952304b12d4659529f PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         c8c61a777754833b02bf61c4b10475ef51648286 PCI: aardvark: Fix reporting CRS value
+         f9d342836308c77e967fc5bf167a1da24eeaefc3 console: consume APC, DM, DCS
+         1c4528d0c18836a2080878be871fc3507ab4e2ba s390/pci_mmio: fully validate the VMA before calling follow_pte()
+         7abdee394ceb95c7e0c785e68a6762046c32b05b ARM: Qualify enabling of swiotlb_init()
          
   - ref: refs/heads/queue/5.14
-    old: b80011f849a9a51db57f6f3f2f0fd60daa46ee36
-    new: be560dbd3b00a97dbdbb9719643061284456bc1b
+    old: be560dbd3b00a97dbdbb9719643061284456bc1b
+    new: 070748c9012e65eaf8c2eb95cc971de117ac86be
     log: |
-         dedad6241a842ae573d165c1c906ed3d9a2bf39c PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-         241b18fdd99d69c160b4ab5bcb61387694a06272 PCI: aardvark: Fix reporting CRS value
-         be560dbd3b00a97dbdbb9719643061284456bc1b console: consume APC, DM, DCS
+         e84031eea17c088933789419e7d753ebdb7c09ea PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         9c8ca41cc14ef666d3226e7c3a60d8ecbb1cd038 PCI: aardvark: Fix reporting CRS value
+         070748c9012e65eaf8c2eb95cc971de117ac86be console: consume APC, DM, DCS
          
   - ref: refs/heads/queue/5.4
-    old: 9b77867abb22e4b482b4fcddf4e527659d4c43cb
-    new: 8e93f7884924fb1077e6aa485f218b20217f2fc2
+    old: 8e93f7884924fb1077e6aa485f218b20217f2fc2
+    new: 7192c42726a5d5c0bce78d2339548cb39e5ba8ea
     log: |
-         8e7dbf3c8e0407c78e7df616b35cba5a1afd18af PCI: pci-bridge-emul: Fix big-endian support
-         0f905be34c51f2f767035d497389b85badac3e81 PCI: aardvark: Indicate error in 'val' when config read fails
-         defcb74b57674ea326733011468e90c88693f795 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-         6a8de2b60eef50fc93603cf89e1933d45974cc96 PCI: aardvark: Fix reporting CRS value
-         ec59412563cfaec6033c5f097c7447c513d9130c PCI/ACPI: Add Ampere Altra SOC MCFG quirk
-         5d519fd5f75635f98a69afb1fe95909bdd93819a KVM: remember position in kvm->vcpus array
-         c979488178c2d0de616d05f9e11e95641e2d9a68 console: consume APC, DM, DCS
-         c8e779e1949ceddf7d1e45f576153a2a96ab6c71 s390/pci_mmio: fully validate the VMA before calling follow_pte()
-         8e93f7884924fb1077e6aa485f218b20217f2fc2 ARM: Qualify enabling of swiotlb_init()
+         7cc0ed19fdfd27755931aaf4ad05a39265f3eb86 PCI: pci-bridge-emul: Fix big-endian support
+         83d66660b78ffb89a9c173f83549046f9154e0da PCI: aardvark: Indicate error in 'val' when config read fails
+         451885beb286017a6b75bb63e292d7cb9a51993a PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         cba6977f1352f572d544c5e9a33c9ccbb11103b6 PCI: aardvark: Fix reporting CRS value
+         a15fe64b22efdeb89c0c554328368795fecbbc62 PCI/ACPI: Add Ampere Altra SOC MCFG quirk
+         d7939a6966cb07650ba94f77f4b4450145203fd1 KVM: remember position in kvm->vcpus array
+         8e6baa1ef9fed88866afefbdafebfd9ebf3cd273 console: consume APC, DM, DCS
+         b71a4b7a101e2276a8531524e6871fafc2ad1120 s390/pci_mmio: fully validate the VMA before calling follow_pte()
+         84524e578771d1f6c8f3d390d4bdd490b8b96dea ARM: Qualify enabling of swiotlb_init()
+         7192c42726a5d5c0bce78d2339548cb39e5ba8ea apparmor: remove duplicate macro list_entry_is_head()
          
