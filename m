@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 23 Sep 2021 12:10:28 -0000
-Message-Id: <163239902808.21337.3367465741100994278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Sep 2021 12:14:31 -0000
+Message-Id: <163239927159.22574.14624029161967848016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 0c19e4ca613a66c7085f9470df44509a0c2c4ddb
-    new: dff176e2f04c67bf8f4fc1800bd750dca17abeae
+    old: 31339440b2d0a4987030aac026adbaba44e22490
+    new: e68daf61ed13832aef8892200a874139700ca754
     log: |
-         dff176e2f04c67bf8f4fc1800bd750dca17abeae meson: make raw(7) optional
+         e68daf61ed13832aef8892200a874139700ca754 net: ethernet: mtk_eth_soc: avoid creating duplicate offload entries
          
