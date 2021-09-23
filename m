@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 23 Sep 2021 09:18:14 -0000
-Message-Id: <163238869441.8835.16354994945592199086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 23 Sep 2021 09:34:44 -0000
+Message-Id: <163238968462.19020.18110223668258965107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/damon/for_ksummit_2021
-    old: 584840a5734fbf59dd327265a79751f82c665e2d
-    new: dfa79c6d17723ab065774fd16b8e1fc5bc94d6a9
+  - ref: refs/heads/master
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: 67512a8cf5a730938fdb1e48de33edfef6015e03
     log: |
-         dfa79c6d17723ab065774fd16b8e1fc5bc94d6a9 rss_stat.sh: Stat the ksdemo output together
+         7f3b3c2bfa9c93ab9b5595543496f570983dc330 MIPS: loongson64: make CPU_LOONGSON64 depends on MIPS_FP_SUPPORT
+         8e16049333e4c57a3a09cbed03c1191380e27133 MIPS: loongson64: Fix no screen display during boot-up
+         67512a8cf5a730938fdb1e48de33edfef6015e03 MIPS: Avoid macro redefinitions
          
