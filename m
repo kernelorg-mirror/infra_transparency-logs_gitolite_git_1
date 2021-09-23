@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Sep 2021 12:15:42 -0000
-Message-Id: <163239934289.24452.4764634095995518591@gitolite.kernel.org>
+Date: Thu, 23 Sep 2021 12:17:49 -0000
+Message-Id: <163239946958.25188.10969712911673861206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e68daf61ed13832aef8892200a874139700ca754
-    new: acc64f52afac15e9e44d9b5253271346841786e0
+    old: acc64f52afac15e9e44d9b5253271346841786e0
+    new: fdbccea419dc782079ce5881d2705cc9e3881480
     log: |
-         acc64f52afac15e9e44d9b5253271346841786e0 net: mscc: ocelot: fix forwarding from BLOCKING ports remaining enabled
+         fdbccea419dc782079ce5881d2705cc9e3881480 net/mlx4_en: Don't allow aRFS for encapsulated packets
          
