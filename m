@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1091392178442492161=="
+Content-Type: multipart/mixed; boundary="===============7321153669707097628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 23 Sep 2021 16:28:53 -0000
-Message-Id: <163241453355.3261.11323999590352087085@gitolite.kernel.org>
+Date: Thu, 23 Sep 2021 16:29:28 -0000
+Message-Id: <163241456876.3466.1025304586172343448@gitolite.kernel.org>
 
---===============1091392178442492161==
+--===============7321153669707097628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: c9398455b046fc7a44b6dd53d9d6fe4b11c21700
+  - ref: refs/heads/fixes
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    log: revlist-c9398455b046-6880fa6c5660.txt
+    log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============1091392178442492161==
+--===============7321153669707097628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9398455b046-6880fa6c5660.txt
+Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
 
 6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
@@ -1051,4 +1051,4 @@ c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linu
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
 
---===============1091392178442492161==--
+--===============7321153669707097628==--
