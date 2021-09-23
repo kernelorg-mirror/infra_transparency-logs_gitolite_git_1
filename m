@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 23 Sep 2021 18:41:03 -0000
-Message-Id: <163242246372.22603.16157431327263986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 23 Sep 2021 18:44:19 -0000
+Message-Id: <163242265935.23608.13325671168939640615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/linux-next
-    old: 163807478ffdb2ab198066e36d25d516e20544b9
-    new: 9fa78c37a2e340ea8d57b78ae9379a4110a70515
+  - ref: refs/heads/blk-crypto-cleanup
+    old: be5c77ca95a45540074380b7297c9ea765261b73
+    new: d48650a1279471fc3f19cf5a3c251ec405a84888
     log: |
-         12064c1768439fa0882547010afae6b52aafa7af Revert "ACPI: Add memory semantics to acpi_os_map_memory()"
-         9fa78c37a2e340ea8d57b78ae9379a4110a70515 Merge branch 'acpi-osl' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 163807478ffdb2ab198066e36d25d516e20544b9
-    new: 9fa78c37a2e340ea8d57b78ae9379a4110a70515
-    log: |
-         12064c1768439fa0882547010afae6b52aafa7af Revert "ACPI: Add memory semantics to acpi_os_map_memory()"
-         9fa78c37a2e340ea8d57b78ae9379a4110a70515 Merge branch 'acpi-osl' into linux-next
+         a7bf203b07a4ee793818d30bf0a968a16d379549 blk-crypto-fallback: properly prefix function and struct names
+         07c8467bd85ee51a479886ca0b2842a5f595b4ad blk-crypto: rename keyslot-manager files to blk-crypto-profile
+         04fc8a472b07ca62982c62368831abcc3728349f blk-crypto: rename blk_keyslot_manager to blk_crypto_profile
+         d48650a1279471fc3f19cf5a3c251ec405a84888 blk-crypto: update inline encryption documentation
          
