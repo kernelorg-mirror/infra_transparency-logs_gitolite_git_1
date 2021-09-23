@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 23 Sep 2021 19:17:44 -0000
-Message-Id: <163242466415.12561.5652838427018033000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 23 Sep 2021 19:29:48 -0000
+Message-Id: <163242538800.20293.8357250696795477947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: ae19c85fe891f7e61c59c288cb4c36b64e141207
-    new: 1355fbfd249bf499086344ad02c99359f7b5d245
+  - ref: refs/heads/arm-vmap-stacks
+    old: cfd5b0222ce49d5da39efe8680ba2238cc6cb2b0
+    new: 5089944561645f3848702ae0480ffa6e24cf96db
     log: |
-         1355fbfd249bf499086344ad02c99359f7b5d245 Thu 23 Sep 2021 07:17:14 PM UTC
+         5089944561645f3848702ae0480ffa6e24cf96db ARM: implement support for vmap'ed stacks
          
