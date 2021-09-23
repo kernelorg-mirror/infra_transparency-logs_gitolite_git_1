@@ -1,56 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============4788596219477831855=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 23 Sep 2021 08:25:26 -0000
-Message-Id: <163238552677.25573.5268886911699839465@gitolite.kernel.org>
-
---===============4788596219477831855==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 23 Sep 2021 08:27:17 -0000
+Message-Id: <163238563738.26262.2994196334706975269@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 84d859dc78718c866d21d16ffc29394f384fa94a
-    new: 01eef006c30601941a25bcf55d1c4c11aabc0495
+  - ref: refs/heads/queue/4.14
+    old: fb2dbf3866e3964108e78c1e5e672dcc1d79c072
+    new: 334dcbf9594445c6386c90b12c619f64458ce0d7
     log: |
-         01eef006c30601941a25bcf55d1c4c11aabc0495 5.4-stable patches
+         efe7101215bbe006ba1bc339c52e59cc68bc3c49 s390/bpf: Fix optimizing out zero-extensions
+         bb4375b4dfbd6cc99dee1539c9717e0ae870855d rcu: Fix missed wakeup of exp_wq waiters
+         c75e34ab79c231f695821c79a9422dd77beae076 apparmor: remove duplicate macro list_entry_is_head()
+         334dcbf9594445c6386c90b12c619f64458ce0d7 crypto: talitos - fix max key size for sha384 and sha512
          
-
---===============4788596219477831855==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632385525 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1632385523-bb34fb6c4d2272769f1f22150ceb44a69597b2f4
-
-84d859dc78718c866d21d16ffc29394f384fa94a 01eef006c30601941a25bcf55d1c4c11aabc0495 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFMOfUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+60oQALLw8v7yYGG/RExCkXSh
-dqeM/lyH+IsFETolk8mkRE+BLn4p4ZKBeQZe9vSeFralVPn7Ub+jh0EyWzCZm60Z
-G035erM9mF3pzqbDS5bypawymim+gb6c/ZJVzlz5hMRrECVcDNyCYK5uSG+rCKte
-Em4epOLQ+T4JJUsrgon7o4ij9H8glKOWeWy17/9XlTb3CyS29WXB0E66nyFzvGnx
-VbpL/n1WF/pp+l9+6v6UgIDGIms6emOXKBRZ8G2EiIZT3XEcTd/LqNtnXAlRIJI9
-GPi1gkxllfqJPnVBS4YU7BBUin1yPbXFQlk07OKzW0a0KbduGro9UypK/sCm8oBe
-AfH3cXfFIWsrW3cR65gbPz0kjEaG+Wwvay3Pw+2i1oJ8IuazX1xV2wmtTTWWrUJ2
-P9SrgxHs6yc/5LTjrxwwAOR12lkMvzExVA0QS9Oy5V/Kea8mssvWCEy4hulWXDzk
-n79tTtkESL5gHYsqgrzv44l8vWxfkBYiCpTlaKOSDLzUPp0IUnam54e1gYsQlW9P
-nhvfQFgq4DDHm1VjIktPHrYojQraOJvAKReKWmLrwheb1Ye0W1rKW25ZaGUjcnoZ
-p1LTjB7TIbHOUlAWRltr9cNKNz/BrzzzF0rNdovIbIhL2x7wkaxAX2sT3HnC4NKo
-B8FZQuaWG64/r3WKk61McDeF
-=7coE
------END PGP SIGNATURE-----
-
---===============4788596219477831855==--
+  - ref: refs/heads/queue/4.19
+    old: bf3085fad04ba72055bd3d662cb74d0090bf8c7a
+    new: d4e425ee971f95b24566c681dbf3f178b8fbab59
+    log: |
+         6dc981e65de1dcd50a6ef8ee7a8705eab94531dd s390/bpf: Fix optimizing out zero-extensions
+         7490c8cc9c99b4b1b2fae820324ea8305bdf03f1 KVM: remember position in kvm->vcpus array
+         f4d3f98b5180dbfc609ee8bcd0c609062539ad6a rcu: Fix missed wakeup of exp_wq waiters
+         1db37a216556e319f3696879d2d678468c48a77b apparmor: remove duplicate macro list_entry_is_head()
+         d4e425ee971f95b24566c681dbf3f178b8fbab59 crypto: talitos - fix max key size for sha384 and sha512
+         
+  - ref: refs/heads/queue/4.4
+    old: ffe329b7d169fc31d5d132742fc924e7b2af4943
+    new: cde41031847a7a0cde0a0895c9e6e87c9b6ba373
+    log: |
+         3c37974370e80700d11543f4b8bfea3e35190a43 s390/bpf: Fix optimizing out zero-extensions
+         cde41031847a7a0cde0a0895c9e6e87c9b6ba373 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+         
+  - ref: refs/heads/queue/4.9
+    old: 9b94e70ef49f552e2ef766f11474cc7bea627257
+    new: d4d0faa0da99f1a3f309e6f646a50d192fe0bbce
+    log: |
+         4470083a673a616018ced564f88a2d9f031005fc s390/bpf: Fix optimizing out zero-extensions
+         a93ed8b69591de56b0960039732cc75429427cc2 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+         d4d0faa0da99f1a3f309e6f646a50d192fe0bbce crypto: talitos - fix max key size for sha384 and sha512
+         
+  - ref: refs/heads/queue/5.10
+    old: 4baeaee14f750e5ebc3e3619b97259473cdc7176
+    new: 8993e00080f4e8f824c9bc879f1e71e0edfdfe3e
+    log: |
+         d1321dcf0336ec5f559917ff12acda8f7eb3d583 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         4ec63ae6c2e66ac1337f24031a71701dced35227 PCI: aardvark: Fix reporting CRS value
+         462ab1ec553528322a3b1a502408210f55bb892a console: consume APC, DM, DCS
+         1678e151c5926dc8ffa4ad52b1f54fd5e0c2db5e s390/pci_mmio: fully validate the VMA before calling follow_pte()
+         8993e00080f4e8f824c9bc879f1e71e0edfdfe3e ARM: Qualify enabling of swiotlb_init()
+         
+  - ref: refs/heads/queue/5.14
+    old: b80011f849a9a51db57f6f3f2f0fd60daa46ee36
+    new: be560dbd3b00a97dbdbb9719643061284456bc1b
+    log: |
+         dedad6241a842ae573d165c1c906ed3d9a2bf39c PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         241b18fdd99d69c160b4ab5bcb61387694a06272 PCI: aardvark: Fix reporting CRS value
+         be560dbd3b00a97dbdbb9719643061284456bc1b console: consume APC, DM, DCS
+         
+  - ref: refs/heads/queue/5.4
+    old: 9b77867abb22e4b482b4fcddf4e527659d4c43cb
+    new: 8e93f7884924fb1077e6aa485f218b20217f2fc2
+    log: |
+         8e7dbf3c8e0407c78e7df616b35cba5a1afd18af PCI: pci-bridge-emul: Fix big-endian support
+         0f905be34c51f2f767035d497389b85badac3e81 PCI: aardvark: Indicate error in 'val' when config read fails
+         defcb74b57674ea326733011468e90c88693f795 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+         6a8de2b60eef50fc93603cf89e1933d45974cc96 PCI: aardvark: Fix reporting CRS value
+         ec59412563cfaec6033c5f097c7447c513d9130c PCI/ACPI: Add Ampere Altra SOC MCFG quirk
+         5d519fd5f75635f98a69afb1fe95909bdd93819a KVM: remember position in kvm->vcpus array
+         c979488178c2d0de616d05f9e11e95641e2d9a68 console: consume APC, DM, DCS
+         c8e779e1949ceddf7d1e45f576153a2a96ab6c71 s390/pci_mmio: fully validate the VMA before calling follow_pte()
+         8e93f7884924fb1077e6aa485f218b20217f2fc2 ARM: Qualify enabling of swiotlb_init()
+         
