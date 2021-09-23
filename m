@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 23 Sep 2021 14:56:10 -0000
-Message-Id: <163240897097.10709.3101373675718542215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 23 Sep 2021 15:01:05 -0000
+Message-Id: <163240926550.13791.3673591791779108644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/damon/for_ksummit_2021
-    old: dfa79c6d17723ab065774fd16b8e1fc5bc94d6a9
-    new: 5024e73f43c46b7cb2c0a03c1a87bbbabe1397c5
+  - ref: refs/heads/x86/cpu
+    old: 0507503671f9b1c867e889cbec0f43abf904f23c
+    new: 1eefe7a85678a056951cd9efb09820c1b0a1b4da
     log: |
-         5024e73f43c46b7cb2c0a03c1a87bbbabe1397c5 ksummit_2021_demo: Implement DAMON application modules for ksummit21 live coding
+         1eefe7a85678a056951cd9efb09820c1b0a1b4da x86/umip: Downgrade warning messages to debug loglevel
          
