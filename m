@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6744094150811295569=="
+Content-Type: multipart/mixed; boundary="===============1405080414461778269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Sep 2021 10:59:48 -0000
-Message-Id: <163239478825.8247.6053739617509890886@gitolite.kernel.org>
+Date: Thu, 23 Sep 2021 11:00:29 -0000
+Message-Id: <163239482991.10039.16216615865438536240@gitolite.kernel.org>
 
---===============6744094150811295569==
+--===============1405080414461778269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
-    old: 66e4bf9902bcf70ee0b3195492e8df4a19d05ab3
+  - ref: refs/heads/auto-latest
+    old: b6f88a172cea3a535214d4ee4c507980cf7d38b4
     new: 723c56e57a636827c87694c86d1fbc9452b08484
-    log: revlist-66e4bf9902bc-723c56e57a63.txt
+    log: revlist-b6f88a172cea-723c56e57a63.txt
 
---===============6744094150811295569==
+--===============1405080414461778269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66e4bf9902bc-723c56e57a63.txt
+Content-Disposition: attachment; filename=revlist-b6f88a172cea-723c56e57a63.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 5457773ef99f25fcc4b238ac76b68e28273250f4 spi: rockchip: handle zero length transfers without timing out
@@ -102,4 +102,4 @@ ad214c6bf9628a88029a0836bde9413ecb0cb8f5 Merge remote-tracking branch 'tip/x86/f
 f1dfe445713ea06676a9ce668afcc8946885c964 Merge remote-tracking branch 'tip/ras/core' into tip-master
 723c56e57a636827c87694c86d1fbc9452b08484 Merge remote-tracking branch 'tip/timers/urgent' into tip-master
 
---===============6744094150811295569==--
+--===============1405080414461778269==--
