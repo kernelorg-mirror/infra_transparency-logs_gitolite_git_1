@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Fri, 24 Sep 2021 13:15:37 -0000
-Message-Id: <163248933727.32133.6420645058424172443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 24 Sep 2021 13:16:07 -0000
+Message-Id: <163248936790.32352.17470230444177790239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: 8ffdee216d66beb4f635106f28869bb19bb19b43
-    new: 9a184ffcc1304365cafa437c846d32d07be0c210
+  - ref: refs/heads/master
+    old: 8fd8441502ebf3eda9ba60727aedf5973c1ea136
+    new: ae98f40d32cd0ee6fc222e765734ffa497a0a95e
     log: |
-         9a184ffcc1304365cafa437c846d32d07be0c210 coresight: etm4x: Add ETM PID for Kryo-5XX
+         ae98f40d32cd0ee6fc222e765734ffa497a0a95e net: phy: broadcom: Fix PHY_BRCM_IDDQ_SUSPEND definition
          
