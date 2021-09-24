@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 24 Sep 2021 20:50:05 -0000
-Message-Id: <163251660538.3362.7477511342075951786@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6042823173508807586=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 24 Sep 2021 20:56:39 -0000
+Message-Id: <163251699972.7049.928321533830204466@gitolite.kernel.org>
+
+--===============6042823173508807586==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-5.15
-    old: 9f3a2cb228c28606895d15f13b30d1f7402dc745
-    new: 7df778be2f61e1a23002d1f2f5d6aaf702771eb8
+  - ref: refs/heads/master
+    old: 68e4d1fe28e0747ecece2ef6768e5c6cdb7db4f4
+    new: 75e4e8102fd21760be2cf9bbe8301a8a33934b5a
     log: |
-         7df778be2f61e1a23002d1f2f5d6aaf702771eb8 io_uring: make OP_CLOSE consistent with direct open
+         75e4e8102fd21760be2cf9bbe8301a8a33934b5a am/shazam: Restore thank-you recording
          
+
+--===============6042823173508807586==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1632516999 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1632516999-4a637fc8af5c9da51fd65ef6fa1b0ff776047fc7
+
+68e4d1fe28e0747ecece2ef6768e5c6cdb7db4f4 75e4e8102fd21760be2cf9bbe8301a8a33934b5a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYU47hwAKCRC2xBzjVmSZ
+bAnvAQCkWw3Buuz9seltF8uye90LtvMdhsUQ16MnFMn5S3TkhwD/e2G0pGaX9h3v
+Vxuo38w59aCoSI/dfIYbSGncSTQAOQs=
+=cd98
+-----END PGP SIGNATURE-----
+
+--===============6042823173508807586==--
