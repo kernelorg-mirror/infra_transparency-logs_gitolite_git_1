@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 24 Sep 2021 13:07:22 -0000
-Message-Id: <163248884261.26520.619896542681489422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 24 Sep 2021 13:08:11 -0000
+Message-Id: <163248889109.26847.6542591449052659911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 325fd36ae76a6d089983b2d2eccb41237d35b221
-    new: 597aa16c782496bf74c5dc3b45ff472ade6cee64
+    old: 56e66053a7d023a94a105b6928c5d377bee61f1d
+    new: abecbfcdb935af500f47458dd5a1b044c8585c0b
     log: |
-         597aa16c782496bf74c5dc3b45ff472ade6cee64 net: ipv4: Fix rtnexthop len when RTA_FLOW is present
+         abecbfcdb935af500f47458dd5a1b044c8585c0b net: dsa: felix: accept "ethernet-ports" OF node name
          
