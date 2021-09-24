@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0763423313678466910=="
+Content-Type: multipart/mixed; boundary="===============7792454338993341056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 24 Sep 2021 12:26:25 -0000
-Message-Id: <163248638576.30826.9092615703957007794@gitolite.kernel.org>
+Date: Fri, 24 Sep 2021 12:26:52 -0000
+Message-Id: <163248641236.31005.10260005001459536423@gitolite.kernel.org>
 
---===============0763423313678466910==
+--===============7792454338993341056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,67 +17,67 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.4.y
-    old: aa268ff278643818abaabc08a467f8119480f914
-    new: c4534e694560a63e337bf693538054e1362fc065
-    log: revlist-aa268ff27864-c4534e694560.txt
+    old: c4534e694560a63e337bf693538054e1362fc065
+    new: 779530b16aec03f39b6992388020dc92c595f04b
+    log: revlist-c4534e694560-779530b16aec.txt
 
---===============0763423313678466910==
+--===============7792454338993341056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632486383 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632486410 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1632486382-4bd84e81fa2f70118f7bf89192b1c9ffce817e54
+nonce 1632486409-e5c77e37317e29b666c3bf6f01e5173ecac0414b
 
-aa268ff278643818abaabc08a467f8119480f914 c4534e694560a63e337bf693538054e1362fc065 refs/heads/linux-4.4.y
+c4534e694560a63e337bf693538054e1362fc065 779530b16aec03f39b6992388020dc92c595f04b refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFNw+8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rlgQALbLvJKRJ0FeTGnJdUyu
-aS4C89lSQUebUSKSf95ENG7X/iGB363nPaxJrozoT1Iuqesv7ImmX1YWRdn8CXZs
-l1urQxw01ZmXNwb7BXJqzawLoh+M3DVCSigMtjZKuBqioXE/GdVUFp2VfsuH7jCE
-90nm8A9y7ih2dCtGSjnfTGGeEJvAfcrQUf0f28Kj+fdPLjNMPMJLUMF6AFfjL6aG
-b+omh3q0SaJ9ruquUQVYXzN8sTh0K+viwzwrKhqOnN/L6kJcHUswemNaspwyk5mI
-oNz72XU6V/zu8BCNiXyuj1dslgA1x1qFig7R3Yd2oW9W40sAUHvL8fr+qmax5mOh
-K/ekUMMhW9ZIqLrMasiXZuA6SeDPjJFyHQiHyH5uDG5H/e1mXTFbQBztz36HrOZp
-d4bFmqOrr1Q2gKWyq01CwW800IFWDceuLZ648mGDq1o9p8vV+7psutTsLhdWtCrS
-tph9mX91XIxA0VPBg6alXeVa91yKISwUtWSDifS4UV4KjBPayj3T9wMpL2TiaffH
-Stoe2aCBXkE0jYsPb4dUo7zSbMVjy49f4BORm2xIbDzuSB9FQz9DCa7mndMwNlcQ
-I0kh8HI7cHcY8wLQ0lOonwTjKiRqVK9kOjuT5wkekDwWcxTB2c+FTNsRKPKUZ9xd
-KzuYCLx8G+YsmSc/qbM5w/Uw
-=hZff
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFNxAobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TVIQALxngo5DxUUrGMCzZXHj
+GcVyaE8NiDgoKvIjSHZTeqmIxjDW9d7KzDeBXcFEDhq/tML7dhRq7UqHOvWmYKgP
+VoxXwKlqcQwF9hzMS4QxcV9eU/y3JCrcHx3V26uAjleMHDf93CI7vlh88AFHFUrA
+cdyPkQk44kkHnqJQLF9D0FUiF7xir8qCWi9y7vg+t4LsGcPrBHeJwA18rBdi9JpD
+tv+RmZ+ag3HovUZyJaB5A1e43kgFDWuqyx8U/Yp7SOSNejXNofvlhesB/Z5DojQQ
+opgFGWiOMPDHfOLCaoB/J5dqTiJB3RqFwRVkPLlDigIeyMvrw47oz3ftBGyaHujI
+QU+J15OTcN00tDHPePaGZQnJtVPoVsJCgY9qMa+bzEdGKwE61UN/FBl8nHMkQeIs
+/kNvmrE9OEBo3WUAwulD3jiopyxhOaA96t+u2X3eAYTJD3vMHzUItTG3/gj1xVNe
+SfgC1G9f4soGIjIU6Yqq+oNnDk3252HwylLfDswCPxOG4XLmAmQGdXv/irs6InT6
+HalPFVYQR1vR+Nlx1AflipiqXtsJHnRRKjq103ob8h2E8pB0Ha3xsn5/i7G8Zstv
+vWQh74PXFLNSSOyZpVD9WqCU5T5UeLzURz2k4gvM79pVraBd+dbvhiOYJOK1bHPI
+/p94+78SUR5kV5hn6GvybofU
+=kcys
 -----END PGP SIGNATURE-----
 
---===============0763423313678466910==
+--===============7792454338993341056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa268ff27864-c4534e694560.txt
+Content-Disposition: attachment; filename=revlist-c4534e694560-779530b16aec.txt
 
-6ecb789deb6c922742771e84d5773444c804863d s390/bpf: Fix optimizing out zero-extensions
-6723adfd65ee8f1ed941f69b0134a2ce0dd3278b PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
-ff7951f6913e5cb0d787767866d6af6e1ead21b1 sctp: validate chunk size in __rcv_asconf_lookup
-b917520555680b34d1365df5a50f668b77dfad9e sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-960d912087ea4adb61e9fdd097f64797777ed682 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-707a1bb33b153fb59abf206e8e913dca7d726f83 9p/trans_virtio: Remove sysfs file on probe failure
-70c5196b760d1f6ee8021f5b35c059d5bf95d9b3 prctl: allow to setup brk for et_dyn executables
-9bbf52204d000a04ed21fe322fa8f2345a2b7c48 profiling: fix shift-out-of-bounds bugs
-b76273018695717e4182905293f8b5ab4b09914a pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-2a68ee8b6356081a1c6e099cd509d5ea6b116385 dmaengine: acpi-dma: check for 64-bit MMIO address
-d6e169c762155bfc03743b3a371bb5157c484c64 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-ca4d22ac9c5bd3388e994b5c4012b23047861afa parisc: Move pci_dev_is_behind_card_dino to where it is used
-ad40bff555cc7ff5c112ac73dbf85675bf5297fd dmaengine: ioat: depends on !UML
-823d26bbfd867c3369f462b1dc02b9c79f793f90 ceph: lockdep annotations for try_nonblocking_invalidate
-7879e8334f86b7f30094b4a92c52bcab8327d454 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-a279562b233318b0f42cc256cbb79979b112d31c nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-0421728a251d2f5a971cb6f528090f1e89558090 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-2afe406999a699ff90cffffbf9d4f2e1fc5094ff nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-a4961701b1345ae86f9be84e047e5afcf7374c64 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-93bc42ce09cf12981e652d4584dae945122f336c nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-3468f166015bed21e31f92800df3ab226a7c68ea blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-c4534e694560a63e337bf693538054e1362fc065 Linux 4.4.285-rc1
+0b0aaafd5890f995139a2a12152291d440b37a10 s390/bpf: Fix optimizing out zero-extensions
+d33af17c001b74d59f1931c8dfffb5593e00afa3 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+3595da5a04111e48b072903196080a7fba41bb16 sctp: validate chunk size in __rcv_asconf_lookup
+e8c56a22b5eca8081745992218304c5dc08d1814 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+42e9d1798c25ad07e41bd018b64b0021863e36e6 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+892a51d7ec7efd1b3aa1c5a83fb3b9d68f4a6264 9p/trans_virtio: Remove sysfs file on probe failure
+e7f67c562561d3c018bde36108a82a9f76367aac prctl: allow to setup brk for et_dyn executables
+b5e7d418bfe6af0263416b9b236c31462969c92e profiling: fix shift-out-of-bounds bugs
+0081e4b4def2f7a942b361f0eb5e1f712ed1d20c pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+468d4fbc523ecdc98e6872efcec6e1c1cdb0f4b0 dmaengine: acpi-dma: check for 64-bit MMIO address
+35bd9e7fb68ded62654b9e5e58ff0f2d78f2bac4 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+4fdeaeca40d8cf2eb906ddf81d27ad187e2f4611 parisc: Move pci_dev_is_behind_card_dino to where it is used
+13b011b8959cf0c8d9e771c927b48645c2e4d65e dmaengine: ioat: depends on !UML
+1e1be3facb45c756b7cf62efd856ccc0b902b992 ceph: lockdep annotations for try_nonblocking_invalidate
+33bbe108054803784fff6d8cf0113ecae2343a12 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+46934ec8005df760f5e5081e0b76723cfba9312f nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+ac80c5b4cf42273469e009538b127df9f30346de nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+29efac763f59068e5ce6507111d06403b2cc1a5b nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+394466b8b84af8ea3246ab4f00148de4a694b242 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+89dbd78f42a6b16aa62fdedc21f2ebac8e110f97 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+3fb057d8ea8b0c07dead2c970830bb5c8f13c751 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+779530b16aec03f39b6992388020dc92c595f04b Linux 4.4.285-rc1
 
---===============0763423313678466910==--
+--===============7792454338993341056==--
