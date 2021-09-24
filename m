@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Fri, 24 Sep 2021 10:31:01 -0000
-Message-Id: <163247946146.21757.6352870436145420976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 24 Sep 2021 10:38:31 -0000
+Message-Id: <163247991166.25316.17781978823107960516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/ftrace/core
-    old: 7f9768cadd9b40164fe8bfb4ba4f4a39d7738f96
-    new: c8d01c02b46e599b057d7d24d1342ae9fcf828c2
+  - ref: refs/heads/x86/urgent
+    old: d81ff5fe14a950f53e2833cfa196e7bb3fd5d4e3
+    new: 5ba1071f7554c4027bdbd712a146111de57918de
     log: |
-         c8d01c02b46e599b057d7d24d1342ae9fcf828c2 tracing: Create a sparse bitmask for pid filtering
+         5ba1071f7554c4027bdbd712a146111de57918de x86/insn, tools/x86: Fix undefined behavior due to potential unaligned accesses
          
