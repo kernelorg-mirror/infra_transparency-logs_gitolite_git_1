@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 24 Sep 2021 23:14:28 -0000
-Message-Id: <163252526823.27278.4431361100488855785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 24 Sep 2021 23:21:56 -0000
+Message-Id: <163252571627.1687.14043231668252821825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: c86216bc96aa2a61ee5248d99d0bd15e69cf52d1
-    new: 091037fb770e1771a52246f9b68dc76082178a3c
+  - ref: refs/heads/master
+    old: 9f10a59ea32ab621a012bfb123b776fb2d0ae9e8
+    new: ba789dd9870fb0a6bfd435ab431f1cfb3fb5f834
     log: |
-         091037fb770e1771a52246f9b68dc76082178a3c selftests/bpf: Fix btf_dump __int128 test failure with clang build kernel
+         ba789dd9870fb0a6bfd435ab431f1cfb3fb5f834 Fri 24 Sep 2021 11:21:17 PM UTC
          
