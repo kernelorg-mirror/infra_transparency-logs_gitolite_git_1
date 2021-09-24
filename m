@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3895357768719804083=="
+Content-Type: multipart/mixed; boundary="===============0894383883597105950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 24 Sep 2021 08:02:10 -0000
-Message-Id: <163247053037.4936.17510089089813261735@gitolite.kernel.org>
+Date: Fri, 24 Sep 2021 08:02:21 -0000
+Message-Id: <163247054195.5036.5937647560657382439@gitolite.kernel.org>
 
---===============3895357768719804083==
+--===============0894383883597105950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linus
     old: 6ae51ffe5e768d9e25a7f4298e2e7a058472bcc3
     new: 0e14ef38669ce4faa80589247fe8ed8a3780f414
     log: revlist-6ae51ffe5e76-0e14ef38669c.txt
 
---===============3895357768719804083==
+--===============0894383883597105950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09
 505d9dcb0f7ddf9d075e729523a33d38642ae680 crypto: ccp - fix resource leaks in ccp_run_aes_gcm_cmd()
 0e14ef38669ce4faa80589247fe8ed8a3780f414 crypto: x86/sm4 - Fix frame pointer stack corruption
 
---===============3895357768719804083==--
+--===============0894383883597105950==--
