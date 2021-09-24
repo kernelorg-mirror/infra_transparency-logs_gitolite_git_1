@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 24 Sep 2021 17:41:22 -0000
-Message-Id: <163250528209.11926.18264212696497655353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Fri, 24 Sep 2021 17:43:32 -0000
+Message-Id: <163250541287.12617.14491387799219680023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/arm-vmap-stacks
-    old: 71bf92977925b26b0a80198ebdeb1b7c032d5e4a
-    new: 480e499794b2106b40f04a278ba7a68018791798
-    log: |
-         480e499794b2106b40f04a278ba7a68018791798 ARM: implement support for vmap'ed stacks
-         
+  - ref: refs/tags/thermal-v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: af8c6c9659c56060903ee36608f66da70232924f
