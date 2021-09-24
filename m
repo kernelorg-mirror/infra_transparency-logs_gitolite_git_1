@@ -1,27 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
 Date: Fri, 24 Sep 2021 15:33:09 -0000
-Message-Id: <163249758933.26600.8461151811280064002@gitolite.kernel.org>
+Message-Id: <163249758969.26626.15044071024447776616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 7617d380f83d6e672eff40709e8b36c92d56e848
-    new: 5d070859008b511ba3ebcda111371ef44a2add64
+  - ref: refs/heads/main
+    old: dbc151eaddc0ef2dbe1c56939dc36a78aad16abd
+    new: 84ef6cbfa454f94ece0f78228800d2e1555cf6cc
     log: |
-         79632e35b58d88bc593f901850aa61459323cf44 ARM: assembler: introduce bl_r and bl_m macros
-         c3fbbe09667c318cb194c0b096ae7129fbf4fa45 ARM: optimize indirect call to handle_arch_irq for v7 cores
-         d588d42d097980f3eda75996f2e8a39d67139e8b ARM: unwind: support unwinding across multiple stacks
-         d7bf7f14cb13b15a18a7945078d727d3cad85d0f ARM: export dump_mem() to other objects
-         b527fdaaf666fbdbb40eda6e8dcfb28dd6e41134 ARM: unwind: dump exception stack from calling frame
-         b95b89b606c400f91b26b2ab565fbeac11e9175f ARM: implement IRQ stacks
-         2c7599dae5f85e785c1008b66f1552cb0a016722 ARM: call_with_stack: add unwind support
-         247bc0fb1006bcec90452f2b5109545b1e1cd1cf ARM: run softirqs on the per-CPU IRQ stack
-         5d070859008b511ba3ebcda111371ef44a2add64 ARM: implement support for vmap'ed stacks
+         35dec3dbf9d6bbd725eb54bb9c9c3fe8b620b6d2 i386: Remove unused local variable in get_kernel_page_offset()
+         84ef6cbfa454f94ece0f78228800d2e1555cf6cc ppc64: Fix memory leak problem in zImage_ppc64_load()
+         
+  - ref: refs/heads/master
+    old: 5e7ce27626a44428c01e0e5ab3fe60ef98ca788c
+    new: 84ef6cbfa454f94ece0f78228800d2e1555cf6cc
+    log: |
+         61b8c79b0fb76490f944fd5e61f25edd81f2a46b arm64/crashdump-arm64: deduce the paddr of _text
+         091f9e91bb24c475f7e09347de71cce811a2b314 Refer FDT tokens with symbolic names
+         bfaebfb3ac740345eafda251a871638014983ba7 x86: Consolidate elf_x86_probe routines
+         4f8d667fc52375494db6d7413a0b15411d102e60 multiboot2: Correct MBI size calculation
+         1d0275858f526a15733c29d18fac0d2347ec3496 multiboot2: Use rel_min and rel_max for buffer destinations
+         e38819573d3b05fc3a32401988527f29f708de68 multiboot2: Avoid first 0x500 bytes
+         dbc151eaddc0ef2dbe1c56939dc36a78aad16abd multiboot2: Accept x86-64 images
+         35dec3dbf9d6bbd725eb54bb9c9c3fe8b620b6d2 i386: Remove unused local variable in get_kernel_page_offset()
+         84ef6cbfa454f94ece0f78228800d2e1555cf6cc ppc64: Fix memory leak problem in zImage_ppc64_load()
          
