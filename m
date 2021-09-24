@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 24 Sep 2021 13:08:11 -0000
-Message-Id: <163248889109.26847.6542591449052659911@gitolite.kernel.org>
+Date: Fri, 24 Sep 2021 13:09:53 -0000
+Message-Id: <163248899326.27449.589986877952893473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 56e66053a7d023a94a105b6928c5d377bee61f1d
-    new: abecbfcdb935af500f47458dd5a1b044c8585c0b
+    old: abecbfcdb935af500f47458dd5a1b044c8585c0b
+    new: e93c1e034837a2078a56c66610893fb1b338c64e
     log: |
-         abecbfcdb935af500f47458dd5a1b044c8585c0b net: dsa: felix: accept "ethernet-ports" OF node name
+         e93c1e034837a2078a56c66610893fb1b338c64e net: iosm: Use hrtimer_forward_now()
          
