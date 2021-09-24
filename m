@@ -1,419 +1,410 @@
-Content-Type: multipart/mixed; boundary="===============5247385391905320254=="
+Content-Type: multipart/mixed; boundary="===============0176154138901399306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 24 Sep 2021 12:45:41 -0000
-Message-Id: <163248754156.12684.10277950922862075271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Fri, 24 Sep 2021 12:51:49 -0000
+Message-Id: <163248790997.17628.14296408910683701327@gitolite.kernel.org>
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 325cb406960e2bfc9312b8755ff4d296f04883ee
-    new: 0aae8faab3145ee8bf1602b4d9256c503f58dac7
-    log: revlist-325cb406960e-0aae8faab314.txt
-  - ref: refs/heads/queue/4.19
-    old: 981cff85c6a49d8548f5908d1ce2f2805b02b906
-    new: 2bda4af134d0539b1c849462c596b25bfadf417d
-    log: revlist-981cff85c6a4-2bda4af134d0.txt
-  - ref: refs/heads/queue/4.4
-    old: 004d6bcd727536914f4ccbfcefd815d11dee241c
-    new: 9f9187268629a14ea6b50d76e9321bb1f4941d2e
-    log: revlist-004d6bcd7275-9f9187268629.txt
-  - ref: refs/heads/queue/4.9
-    old: 7953390054330059ec9ef71821658961b147a7be
-    new: c89f18a8a38169017dfed0c73e80f46c04eed74e
-    log: revlist-795339005433-c89f18a8a381.txt
-  - ref: refs/heads/queue/5.10
-    old: 9455b16f0ac389be1c1b7025681e2bb61af1877b
-    new: 964be936e7327902cf883a8b9ac42db56a40dfe7
-    log: revlist-9455b16f0ac3-964be936e732.txt
-  - ref: refs/heads/queue/5.14
-    old: ebe1d31cad34a474dc4cc7d604679174d35ed3d6
-    new: 3633965a8dc7d8edf171701cf7a714f6a2c74091
-    log: revlist-ebe1d31cad34-3633965a8dc7.txt
-  - ref: refs/heads/queue/5.4
-    old: 0ba5f18a5bdadff85a14e9602590558b81be35f8
-    new: 653ca044e9ab4e97c9863f59e0c068745dfd956a
-    log: revlist-0ba5f18a5bda-653ca044e9ab.txt
+  - ref: refs/heads/pending-4.14
+    old: 911b1d1a6e436a13bd56f8e37a419549b4b28d5c
+    new: e3702f6af8ab63b02c66e94a106305ef2aef3cb7
+    log: revlist-911b1d1a6e43-e3702f6af8ab.txt
+  - ref: refs/heads/pending-4.19
+    old: a82fa86a335894929e48d4afceed91bf8156e93e
+    new: 852d3f136d3425fe291a78cc9c8b4a6426b2b503
+    log: revlist-a82fa86a3358-852d3f136d34.txt
+  - ref: refs/heads/pending-4.4
+    old: 17a02674d9aba37c3b1a9f2ca2382d89831d371a
+    new: 6550c2c02048ae3b777a2b5d45f64d0c20c972d6
+    log: revlist-17a02674d9ab-6550c2c02048.txt
+  - ref: refs/heads/pending-4.9
+    old: 10ea486a62c7a4454a9307fe4ef51ea4b92bf1ad
+    new: 2916c4c7310b83aefd96f0c7c7b7c5963141f400
+    log: revlist-10ea486a62c7-2916c4c7310b.txt
+  - ref: refs/heads/pending-5.10
+    old: c61d717b1d4426948d8e4fed2fff6d1f08eea1a0
+    new: 9f0f5259c55b0319651bab306d92541d1e1533f2
+    log: revlist-c61d717b1d44-9f0f5259c55b.txt
+  - ref: refs/heads/pending-5.14
+    old: fbda100bbf12933df3d6e86e68f8fca683443ed4
+    new: de0bc8f5a39f2163d514d76fa200b0a4ae550d4f
+    log: revlist-fbda100bbf12-de0bc8f5a39f.txt
+  - ref: refs/heads/pending-5.4
+    old: 702b905f8683ef300190d79a2b5f97fe02524779
+    new: 6f320739010000137ec7524097ee44d12ce0d002
+    log: revlist-702b905f8683-6f3207390100.txt
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-325cb406960e-0aae8faab314.txt
+Content-Disposition: attachment; filename=revlist-911b1d1a6e43-e3702f6af8ab.txt
 
-05dcacae8a012bae5f4cb9577c78411d001bf98f s390/bpf: Fix optimizing out zero-extensions
-96fd9aa0951dd8091d7ba9d051d6b4bd6e96a22b rcu: Fix missed wakeup of exp_wq waiters
-58d2802e574b0e67483d07fc61d5eadd6fa9a3c1 apparmor: remove duplicate macro list_entry_is_head()
-fcbe7562e53887735be3f1d9998a9c7211e44dc3 crypto: talitos - fix max key size for sha384 and sha512
-54d93a61e54f18dbe8bfcfea2557546d48946444 sctp: validate chunk size in __rcv_asconf_lookup
-2a2deb5a66b0ce08c5f3d1379471cd80a6425849 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-07823f69abe9095420b0b9876af6fc1f5963bad0 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-e37b4d2552291fec1cf032bb160a77129e7e6d27 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-efe62c7fcb5847e4126f5147d265518c70b7023e 9p/trans_virtio: Remove sysfs file on probe failure
-9d83c7f0a5f548bbb59dbe5225dc278dad536ccd prctl: allow to setup brk for et_dyn executables
-45a68b45ab895f47d9c72d91793b65505c0bd7f4 profiling: fix shift-out-of-bounds bugs
-6192f8fadfea217e08343d93d29001bdb9c6daec pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-ad9842f1fc8477970de89b91af88e38bd0ac5e55 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-8b5c0858c298aa6f3ca7334642ca215a14de92d5 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-759ca92768823d4b3bd748b1a3adf48cb94353c2 parisc: Move pci_dev_is_behind_card_dino to where it is used
-347b77ae3ff1e6fec7140354d938546ad3e2d19d dmaengine: ioat: depends on !UML
-187bb00502386de024ca442a86e793e43e954ab8 dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-6af9890da0b653a2fb8348a240323772f2e1c6a7 ceph: lockdep annotations for try_nonblocking_invalidate
-b9f9d29e8a2f463b0567423aba87b436cc203d36 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-a48be9a835fef61ce92d4197073a0230cc393d73 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-d760935f169271a827fb66dabf60855a6cd3b719 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-cda85b8358e85db379764ed2b621f878a2f49b2f nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-5ab4ed2e05487f908aa445669bc28e7b4696b83d nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-3c940bbfcfb76b2264996aa66180ccea4eead02c nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-6f0dac850a9088167a1d6bb0ab4198dfa703fb78 pwm: rockchip: Don't modify HW state in .remove() callback
-a73774aa51d166023f8b04a5597808298836113f blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-0aae8faab3145ee8bf1602b4d9256c503f58dac7 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+b3a68315c638ae970c8a219e86b98debc6b4b8ca s390/bpf: Fix optimizing out zero-extensions
+9febd36f966fb2cd423b38aace438c61112864d7 rcu: Fix missed wakeup of exp_wq waiters
+a2eba43485d250f6b8d137823ea8e33c10da15fb apparmor: remove duplicate macro list_entry_is_head()
+7ee6d31b4be7bc422f27d4eb6284ec572961f177 crypto: talitos - fix max key size for sha384 and sha512
+327bd6f58c38455f7178b0a5ab247f901857b4a9 sctp: validate chunk size in __rcv_asconf_lookup
+7b9f3a3848b7def637feaf40213aea4af2b5fb5f sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+ad33db1ff8e23505c767a36a30206f6226b8df7e dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+a3089bd8b06646201652c3c4ddbe52842a743024 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+4a8bca3524723753d2466b73a1eb8f76242c1f6b 9p/trans_virtio: Remove sysfs file on probe failure
+4e8108a65a8ba3d242d45060a88650577f8bbaaa prctl: allow to setup brk for et_dyn executables
+03c03178084a0968033150799fc67c1b14f60df4 profiling: fix shift-out-of-bounds bugs
+9fcb061d191248a9971abaeb3014a389173d5694 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+61a3a9240d4cd6bb33fcad2a3e911eef0abe5973 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+c42bdc3e4b98a59b693a5f1245d52d895d187919 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+f619df0d8ddd602ea41090900b902d4a4d4dfca2 parisc: Move pci_dev_is_behind_card_dino to where it is used
+a615bc53ab6f84b9481f0bbb2746a5648b0b396b dmaengine: ioat: depends on !UML
+8b101bb4784c698fbad83b60d3ca15d637607d8f dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+ef9a416015fd983abdcbaa79624a5ff9877f2260 ceph: lockdep annotations for try_nonblocking_invalidate
+c10f3fe4ef7dab727729d50d5a00275038296fa1 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+bb4834fc3b09873daf8caa743be8368d145ce2be nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+c8f28e6810a360e728d18f0fb36386de0e245ecc nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+22483e18ff246d1bc7f838247d88c817d3266446 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+6a1c88c741ff85d6fc679f981c3be6b2bd604276 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+1453a639d807f6496c8a3d796ccc87327c999655 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+2044d1a4ee52630594cf85e1132cfa918019c7f3 pwm: rockchip: Don't modify HW state in .remove() callback
+e3702f6af8ab63b02c66e94a106305ef2aef3cb7 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-981cff85c6a4-2bda4af134d0.txt
+Content-Disposition: attachment; filename=revlist-a82fa86a3358-852d3f136d34.txt
 
-f31abaa23d2a23cdb1936673302825bdfb23d8fa s390/bpf: Fix optimizing out zero-extensions
-ec2eec4fb56e13ca3239ef6f25ef64c6a589a90e KVM: remember position in kvm->vcpus array
-d488e6e79f64d200271e77b0d4406b05cd6dae1c rcu: Fix missed wakeup of exp_wq waiters
-46ec4076bf17cf7cefad4374a081ce352c20a68a apparmor: remove duplicate macro list_entry_is_head()
-d0e1a9d86c9673b5a01dad91c9b32b8545bda839 crypto: talitos - fix max key size for sha384 and sha512
-fbfa0471ac4339ea4fdb242a49e344fe14ae6fa9 tracing/kprobe: Fix kprobe_on_func_entry() modification
-7b8f1d13d96182a1620714fc31ed8467fa1920be sctp: validate chunk size in __rcv_asconf_lookup
-aafc224f0017848ef567ed1185d11e6a41efa3c7 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-7ee796a742eaaf45eafc3374491b66eada7882b0 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-9a9a37bf24ff521019582f07d5a284e944f942ee thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-21e877351fa246aa64e08308d6e0c41f0719a5f8 9p/trans_virtio: Remove sysfs file on probe failure
-b4f494ad24e231c40f918cac10295876506f0cbd prctl: allow to setup brk for et_dyn executables
-e8bb608dac3059ee0a78f7bbb1cdbd5de7036eb3 nilfs2: use refcount_dec_and_lock() to fix potential UAF
-c21282550ba6ba3afae2d3c88dbb536511745d33 profiling: fix shift-out-of-bounds bugs
-48736c7b26542f4a91660a3c3b96ce7b258edb45 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-6f93a8be2c9dfdec8eca07442c5912524e337729 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-1663454ab49005817cefc4114a9b89b179bc7883 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-8a86b8674adbbeee8a88048eb334fdc50f403612 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
-03c1b586fd49d81ac84f2d1dda423d30933954b9 parisc: Move pci_dev_is_behind_card_dino to where it is used
-695ee531571b8274d897876e28891734000799ec dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
-22629a0567715bab5617be5bb0b2963421c4c099 dmaengine: ioat: depends on !UML
-c81c325379596be775409d2770d72e01d841e9ad dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-316b2bc0c4ebd075c6093ac6992518b165d49429 ceph: lockdep annotations for try_nonblocking_invalidate
-74be119574e438690e685789a54c1c16ed04e40d nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-148a6b48fe2f21edcefc19e387be7817dd193ece nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-2538a3c24f28225d7d5281f81a9f288fd362ffc4 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-c07f8912b382b23949ca2d5a3f0b09ccf2618846 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-37f55e3fba218df6db1f6c0b47bbab95d6392a7d nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-f1da77a3e34a34fdc598f274266d2e0143ac2fd7 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-c3afb6e4824a611377be20fb7843bea4a1206899 pwm: img: Don't modify HW state in .remove() callback
-f43809f22d85d3f0f2866ed955071aae7c861601 pwm: rockchip: Don't modify HW state in .remove() callback
-338b58cd2dc8e77e25ee6a922dacec848666272f pwm: stm32-lp: Don't modify HW state in .remove() callback
-e595d75bf9870662fcced9f9145e1513f9d59db9 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-2bda4af134d0539b1c849462c596b25bfadf417d drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+c16f1d90ca31d58042c8387abaacfb36f86203de s390/bpf: Fix optimizing out zero-extensions
+9d8b14133c360580ed817186a83d7e833628e9e0 KVM: remember position in kvm->vcpus array
+86c7f727eea9c985446282802089a697854085c3 rcu: Fix missed wakeup of exp_wq waiters
+f6154cb19bcfd6e9fb49a07b21daab418209738c apparmor: remove duplicate macro list_entry_is_head()
+671ddd1005a5dc6a416fddb7e6f9fc47f94340db crypto: talitos - fix max key size for sha384 and sha512
+c8b5a07e22daeffbce80814ca3d31b122600f37d tracing/kprobe: Fix kprobe_on_func_entry() modification
+76896571757259fa8bb2ee2add7b96383a2b0239 sctp: validate chunk size in __rcv_asconf_lookup
+219c4d5d2be0cdcc5c792596a1788b978da58299 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+cd140704d5bcdca6f5c466ea1bed0dafec22688b dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+d2bd0491dceadac609ef3be04f716942492314e2 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+7fdd81337227387429e210e0ed73e91b3b74188f 9p/trans_virtio: Remove sysfs file on probe failure
+44dc96373aa87efc15f480b5b99aacab7fc272d7 prctl: allow to setup brk for et_dyn executables
+8a2b9610f6b6603e610e9fce6ab84dbbd8752162 nilfs2: use refcount_dec_and_lock() to fix potential UAF
+f6da1562fb0a7a8a9c94952d3ed1d3654f3428bb profiling: fix shift-out-of-bounds bugs
+1a087cdd6e0df56f10fc37f3b5fb6602758e3bed pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+4fee184cae71ffbc4e8255ce22a0ba92fbb9b2a4 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+2a14b76c069f412c0828cc1863adceb2b92c03a2 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+d72cf071d361be7061fb530a3fa93fe8ada3b947 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
+067cb4c382349274f91f2b84a6aad4d41e7aa569 parisc: Move pci_dev_is_behind_card_dino to where it is used
+519495fec65f4f8a9a4f23341caff3eb32703c63 dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
+ca5485293d979401b2d0d769d797d7be95fd44e5 dmaengine: ioat: depends on !UML
+2969fe9a080072ff3c8e827eba0bb525d6d4735e dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+2553aa6021a6214110a31ea13669ec7343ceaf0f ceph: lockdep annotations for try_nonblocking_invalidate
+d1ed4083f5d9cd53746bb19309dc0deb8b1693b8 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+681964451c037fd42d4e384fe2c9571319dd13a4 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+9898e8ce4cd3c5fabb58d7bf1fca1553ac85fd8a nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+b4b4ebafb6fa5538b65d6e04d8c96910e9649c3d nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+0b584d77ad4664eac599596438fa6d44dfd86f5a nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+812f013e78785b656e0a6cf534bae344d8142ad6 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+533647aa0307bcab87a6d9137857b78044cc0128 pwm: img: Don't modify HW state in .remove() callback
+ad67e7a3ba6c74a9aab397a2887cc073dccf4e3a pwm: rockchip: Don't modify HW state in .remove() callback
+fe68e2b4b91657973f9d3454f5b5f2c1a4715034 pwm: stm32-lp: Don't modify HW state in .remove() callback
+852d3f136d3425fe291a78cc9c8b4a6426b2b503 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-004d6bcd7275-9f9187268629.txt
+Content-Disposition: attachment; filename=revlist-17a02674d9ab-6550c2c02048.txt
 
-425797862e580ea2919c15ee72db8f1649471fa3 s390/bpf: Fix optimizing out zero-extensions
-767c23d04b3ca48893022cf0c874189dfb0ff47b PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
-dbb8e59194511a0822d7afe2ce6a111fe1fdf4e7 sctp: validate chunk size in __rcv_asconf_lookup
-d51e0558107b1e7c6009174016305af7c6f02b7f sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-a11751713a5b9fce15f5264be01cf5a6a04c8b9f thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-42d6f5ef58458a4ad412fc59e6dd9ff1acf33ac3 9p/trans_virtio: Remove sysfs file on probe failure
-a84440cf25e67b83cb5463e0cfab1bcb1f7c0124 prctl: allow to setup brk for et_dyn executables
-6ae568442afee82945c913b1489fcf49e5fc34a5 profiling: fix shift-out-of-bounds bugs
-740f8007d302526cc4176d71f8d22f66b60f7068 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-0a1dcd0852ab2c570ccb93aff32dc57c21ba1705 dmaengine: acpi-dma: check for 64-bit MMIO address
-38952944757492fd0a8cd1defcd546f18c2afdfb dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-23e66f3ed6a767df4b3c81670a2c0824f7ca1112 parisc: Move pci_dev_is_behind_card_dino to where it is used
-442f645aa4eb3896a60180e03b0308412c23ac91 dmaengine: ioat: depends on !UML
-6aee7c3991611986e77533554ff92b73328cb12b ceph: lockdep annotations for try_nonblocking_invalidate
-2a782f723e2707fc82076d85a323be43931084e2 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-db100f49ecb9e642fdc2b75ee880bee90d55dcf5 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-6fd2964a9f5f5e7c0c4b72a8edf743ab33c24bba nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-b64d588835f03a8fdcf6e6b72f108c7741155f67 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-3c6d4c30b71fa6bfcb5409a445e02c62a45fc786 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-aa12243862432b844cbea11f344321e50c34420c nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-8e2cd8a4b743ee2708f3d1175d2d2a51bf847b0f blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-fd06d5bf6b613f8a5b6c0877702d9046e18bd51c drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
-9f9187268629a14ea6b50d76e9321bb1f4941d2e sctp: validate from_addr_param return
+01d85b5d445d2836d33b5c900777acf76a35bf19 s390/bpf: Fix optimizing out zero-extensions
+a436faa8141a7f713deaa5533e899cbd34a53119 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+f31522cf5f038622a9422578b1ff8ff405dd1553 sctp: validate chunk size in __rcv_asconf_lookup
+a26c134a1190191360db77b0a81922c9b6af1fa6 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+16df7eaf049f77a1b9adfc0921c16cc9a01e1542 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+3f0278a37069f09c1368ef9fff6af933f8985bc5 9p/trans_virtio: Remove sysfs file on probe failure
+c1b9da66841229f80bd7458db8cd4c70793728e5 prctl: allow to setup brk for et_dyn executables
+4685ad880ceaa0555b49a214269f44df9b5c28bb profiling: fix shift-out-of-bounds bugs
+9ed44a5b85b7f6a5de0bc80476c92a28fbbb2eab pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+76203826346b7753308268f1752a4a16a8bc08bd dmaengine: acpi-dma: check for 64-bit MMIO address
+a627676883ddfe8301b1088ff1ada7c992dc391a dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+bd7b799c68fad8ac6a58395ea6d58a6da6924554 parisc: Move pci_dev_is_behind_card_dino to where it is used
+1b8c6e47f56bd86f2a58b6e8dcd59ca6386519ec dmaengine: ioat: depends on !UML
+511aeefe04fc75c1f5a89360972a7f43c5fb23de ceph: lockdep annotations for try_nonblocking_invalidate
+da3150361d2b3d51ca2e5da4ed05b6867eb714a6 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+ee300c79530a05aa863e5e0123fae3b05fcd02e5 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+812849cf9b5b6dbfaf06824d885dbb08ea796f60 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+848299ef4ff8c14145c20eb253fec5e198c0122c nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+050fadeed2dca43320ba9041691a45ff3bdbf919 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+e6f5e51dac0123cae7768d5def86ca77a9df4b1f nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+6550c2c02048ae3b777a2b5d45f64d0c20c972d6 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-795339005433-c89f18a8a381.txt
+Content-Disposition: attachment; filename=revlist-10ea486a62c7-2916c4c7310b.txt
 
-f576a8ca370db06b96a895578c38df204751b642 s390/bpf: Fix optimizing out zero-extensions
-616f1579a52854ccc5c5a34525b5b7cecd657cf6 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
-df20e4b80e41ab41f7f955ed8c888d9857aa31c6 crypto: talitos - fix max key size for sha384 and sha512
-1e4d5404415cbeb8002b8fb9073d48842a8c8841 staging: android: ion: fix page is NULL
-c380ea2f4754c843c8cba2b4f4e660324335c65d sctp: validate chunk size in __rcv_asconf_lookup
-014f66c6b44b121d034a89a6f666675056b8a079 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-044e7cbdb7cf271c0428c7a731e907b0561bd4d5 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-fd26ab692655435459773d9d91307988d281d2bc thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-537bace8a692915606a9139b0e6d323fc89bb963 9p/trans_virtio: Remove sysfs file on probe failure
-4b4a8c1fb2132cf0e77b1195d35ecccc14c8dddd prctl: allow to setup brk for et_dyn executables
-200e7c4f016afec78295dcbd91f315f23ca5ba02 profiling: fix shift-out-of-bounds bugs
-f808798daa1627ea0bb697405060b1f9d0718201 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-a28e42bfbce7550304787b199451ae17910fd71a pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-24d733b6a6f4981c87ac1d404db650902ff2fbfa parisc: Move pci_dev_is_behind_card_dino to where it is used
-c5259fcc08c2ce0d4e2de06236b0e987aef3a234 dmaengine: ioat: depends on !UML
-b06ca59ae25e858c0797933ae1e0875bacbe07a0 dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-a94afc27c9e070bdde5778aef733e77a05d3283a ceph: lockdep annotations for try_nonblocking_invalidate
-c5cf9b53d29eae247ab5e72c741699733a8bc0b9 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-b467ce67d47cc2cd62fb579f9b6cc20d5d386765 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-987a5ee08eea76e9e8680631cb7caa6cbad52aee nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-000fa66dab92903b160920170055a71fea3fdf39 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-57860e12643ece37bbe49025779cfb161d2ee57c nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-dec4fad2e18f1480bcae86bdc818a28a4ffd17a0 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-79de9658c8d8d9f55b4d2fc5a53cc99b60bcfad5 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-094a2489635fe4d367c8d6b027a2d7668585e095 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
-c89f18a8a38169017dfed0c73e80f46c04eed74e sctp: validate from_addr_param return
+4dc229b6a55d0db9a5d5c812caef624760bef5de s390/bpf: Fix optimizing out zero-extensions
+d688ffceb039b46976333eb6f4c7d2229fe6717a PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+e1875a12e6ee6d1492f1beaa6760e89d2e2df5e5 crypto: talitos - fix max key size for sha384 and sha512
+4867f229193e96ff68c680d583760c016d3e1356 staging: android: ion: fix page is NULL
+b710371ed52318db1da37faa45f52f83fecdab6c sctp: validate chunk size in __rcv_asconf_lookup
+8ad6cd40e9e8374b4b407ec8aba8f39476685799 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+73d787661c7cf7d42fef8b361d8eed93ac5bb962 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+a1103c4544eb71e072af8cd5c4fc512e9b8056f3 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+526ed89ec393c640f7d791fe149c49064e9137cd 9p/trans_virtio: Remove sysfs file on probe failure
+df8cd009d6e8f82eafb302a0457b11925c311663 prctl: allow to setup brk for et_dyn executables
+8fa9c39399c8f64bf603b38d9b67a51282859714 profiling: fix shift-out-of-bounds bugs
+6015a20eadb725350f573731811fe624c44b188d pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+57f6c136d2faab569b47becf28dca25598fe8e97 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+532ad8970d0b126f1b91d8a3108cd3897f353892 parisc: Move pci_dev_is_behind_card_dino to where it is used
+fc48d55e62fc88d0159155ef59c80710b6578cd2 dmaengine: ioat: depends on !UML
+95585e0d1474884b79fe3506e9a809a4e7146993 dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+dfdb13481960cbafcbc433d65d8801dc62940c4b ceph: lockdep annotations for try_nonblocking_invalidate
+5ae67b9d4d34d94564756cf86ac8ed29df39e1df nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+8d8cd79253489682fb46e01ee5a94606950446d3 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+9014c349ed7308cb3ae4d0351320ee786bb75c1d nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+3feca48bc2712b81f4a30b47df5ca186fee63f3e nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+53d76421174008d98a75b038a8eca6ccd8cb259f nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+c18185c6effa3c5afaeb611789a51c934ede0639 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+2916c4c7310b83aefd96f0c7c7b7c5963141f400 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9455b16f0ac3-964be936e732.txt
+Content-Disposition: attachment; filename=revlist-c61d717b1d44-9f0f5259c55b.txt
 
-d1f12bc232f59cd2460a69db3ad3ae36adaa0839 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-8cd0b217f3417f65ff03041f24287ab26c967180 PCI: aardvark: Fix reporting CRS value
-6ef6e594e32adbf1400a8b3f5dac9ba026bcf317 console: consume APC, DM, DCS
-7ab5d3aa6c543e2a5e83ef13fd21d1bef79340eb s390/pci_mmio: fully validate the VMA before calling follow_pte()
-5161285fcc03ac7dd51d41dfff5fe61739ecbf25 ARM: Qualify enabling of swiotlb_init()
-e8553d50c2a2dd38a2d81743921fe6ffd1fbf281 ARM: 9077/1: PLT: Move struct plt_entries definition to header
-d4f16782758b417dc8212d0578f600b1285407d6 ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
-1eb32fdfdadadcc2b34f0e8ccbf987982ef056e1 ARM: 9079/1: ftrace: Add MODULE_PLTS support
-89c87c77cd25e1882eb71009ac5a8ea72d60d425 ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
-b3950f1326f089909e2809a5832e73b8f67da65f Revert "net/mlx5: Register to devlink ingress VLAN filter trap"
-067ba9e8074b3179df17942f2ee55954d7cccb78 sctp: validate chunk size in __rcv_asconf_lookup
-bbc75b423c46cfa99693b8abb78be5ce2f97bbe5 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-a88d8b815ae25250f2d984cf330c0b6c798ee74b staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
-fca11b97c493e873f2ad3daca5254aa9da146fce coredump: fix memleak in dump_vma_snapshot()
-5ecc9f0445da534949ff4fc58d5db38cbc5f5c83 um: virtio_uml: fix memory leak on init failures
-c43409ee5fbf270288d38679082b76f99811cb22 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-743fba033b91b5ce8290177733ecaaafdbe4f432 perf test: Fix bpf test sample mismatch reporting
-fd46f41a11c0880289fe3d55d1d430ea51b51895 perf tools: Allow build-id with trailing zeros
-3f0465cbeb65f5c50aa146eb52f623636b88e438 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-808edf8330d4c541c767b45866f95403e5b6f71b 9p/trans_virtio: Remove sysfs file on probe failure
-df21350440764a2bb776369ac734281770b92f1f prctl: allow to setup brk for et_dyn executables
-46329d67aea623db6f3952c14947fc78ad55c0c4 nilfs2: use refcount_dec_and_lock() to fix potential UAF
-10e30291eb6d636d458467bb552c8e1bf5cfd7af profiling: fix shift-out-of-bounds bugs
-564862761af2fdf2aa2bf40e81b92b3fb089c5a7 PM: sleep: core: Avoid setting power.must_resume to false
-89b0549448485fd8c3c7d89e88890050b94826e5 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-2b0194a639fffe003328c4a976dd81ef198bba8e pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-04095be36ba62642a22e0b7348c4f2da75af54ee dmaengine: idxd: fix wq slot allocation index check
-d886a703f1036f575524d2eba92aaa30354c2c05 platform/chrome: sensorhub: Add trace events for sample
-6e488e4903263753886ddf84c8ab8bba7341275b platform/chrome: cros_ec_trace: Fix format warnings
-655f384206d68ae1227de705a28026eba1dfee56 ceph: allow ceph_put_mds_session to take NULL or ERR_PTR
-4f765dc1b614abafede479e9e492be5c30264bf5 ceph: cancel delayed work instead of flushing on mdsc teardown
-1d7ff87d388a6b4fc2dc47a0ca12f22287c5aaf7 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-7daf42a20a053b1a5973d6eed33b4b72fc149c38 tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
-067425a9b33dfbbb73c734b4548dad1069ab6c22 thermal/core: Fix thermal_cooling_device_register() prototype
-aacdf3519b15a0701eb38ffed49b0fdc8d866749 drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
-3bf0e1abfdb5d85c30b7bfcc47525f8fb73bd2a7 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
-d7f3057776a729135e1b20cfdebb7a4219dd3df2 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
-5e7605ee1d9984b16fba9572a756393b59fd25f7 parisc: Move pci_dev_is_behind_card_dino to where it is used
-e1cbc7773d25d7dede7782faa114eea55844673c iommu/amd: Relocate GAMSup check to early_enable_iommus
-3bd67b175a6909f9944609b761b533c242d0c17e dmaengine: idxd: depends on !UML
-760ad5fce7133ac9c9f2df6a6b25d0c42aa266cd dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
-1b525c8a5764903b47b2b79f592cede76ed56b1b dmaengine: ioat: depends on !UML
-a82f483228cfeb1315c89808e2203396aaf291fc dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-672caf1125a76955949144c5bdc4efc34ad03def ceph: request Fw caps before updating the mtime in ceph_write_iter
-f58a11306026bc25ec739e7130273cbbec2a1bc1 ceph: remove the capsnaps when removing caps
-4ff1e2125b1afc1034a64863b8493e71f3d6747b ceph: lockdep annotations for try_nonblocking_invalidate
-f5ebcdd30b11fe46bd4598ff4040d46071b19d85 btrfs: update the bdev time directly when closing
-c11a7316ebfecc8ecd0c578378800027e9d99a14 btrfs: fix lockdep warning while mounting sprout fs
-ee58fb107a4e517e60eb71e8efbc98884edcae7e nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-b0a503bacfe6622d3422ee8a2c5a627d931b2448 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-7830041f1639988b288bf7b0a64797b63f3f677e nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-631945938854fe99f07c910b837dbc63a0935fc6 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-88922ee863cb073d3522812ea28942435d0b883b nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-3ab34855fbb8723f1744805dc4b90e37108dec10 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-b362a50f730e336efcc0dc47ec9b7304b0f506d1 habanalabs: add validity check for event ID received from F/W
-7757459f8dcbc1513f4d59cd04a7cd8b73bbca34 pwm: img: Don't modify HW state in .remove() callback
-03f9310dff34592e28f2cc8a35a9eb1a55abfa60 pwm: rockchip: Don't modify HW state in .remove() callback
-319aefdbfadfb9f4ea342c276f512d9fb1c465f2 pwm: stm32-lp: Don't modify HW state in .remove() callback
-53b916349e492e792fb584226a49c9451e697308 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-c037420fd990f18dcb8213f3b2e26e1057225990 blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
-751eed9bf0a3643ca4dd38e1c722c65b0cb76b3b rtc: rx8010: select REGMAP_I2C
-09c3b07ff643b423c257a91ed47ef1cf825f88a0 sched/idle: Make the idle timer expire in hard interrupt context
-964be936e7327902cf883a8b9ac42db56a40dfe7 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+86ed918489231fd9a7b2994cc80a85c97d8f5cb2 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+97e1b175a253a8a6b4f5e94248147687fe65ba7e PCI: aardvark: Fix reporting CRS value
+8e2b4de26cac2ba80e95f557422122e8c794eb03 console: consume APC, DM, DCS
+84714bf29f38dfe09909c47ef18f18e7926d9d01 s390/pci_mmio: fully validate the VMA before calling follow_pte()
+8b0d4514af49700a6d93900847333aa8ff83013c ARM: Qualify enabling of swiotlb_init()
+700fb770c917fb6226aee6605e729c71a772277c ARM: 9077/1: PLT: Move struct plt_entries definition to header
+a0932ef1f983071e4bef47e1ba066d76a8eeb5f1 ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
+a118bf2a73cf4db17932b4afab4047dc39dc50e8 ARM: 9079/1: ftrace: Add MODULE_PLTS support
+02f2676af3c82aa2a752444cda357f87535b23d5 ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
+44985110c0568788b29336559a1dfe9aea6c498e Revert "net/mlx5: Register to devlink ingress VLAN filter trap"
+f53c8bb178598dd0d7673c3e7db727764eaf335f sctp: validate chunk size in __rcv_asconf_lookup
+e78ebf45f10d523e6b969ad6ab99e72e2fdef4af sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+705a198066bbd0502aa3be3f5ead616199a94c2f staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
+3a62b5f7c6aeee9412a1e70abd4b497d4e5a013c coredump: fix memleak in dump_vma_snapshot()
+c6246d4042972adc72ff8133f559469c7cbf5deb um: virtio_uml: fix memory leak on init failures
+b541ca4b72417850dad102a557a91b79bee94fab dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+644bb464ff1b02ecce89aebbacdc1fe820455d28 perf test: Fix bpf test sample mismatch reporting
+7dd4a193f7e4e9add6e6c9599649eb654020f195 perf tools: Allow build-id with trailing zeros
+3bf2135df1de6e135a2e37d21ef4864cdcffe072 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+26c118dec64124ed27df51ee7eb9af83ff771fec 9p/trans_virtio: Remove sysfs file on probe failure
+18193e934786ff8ec0cd8b86b57a0701b35a2ee6 prctl: allow to setup brk for et_dyn executables
+53ce50cf8b34e7551b56f9c641141346f0f7b933 nilfs2: use refcount_dec_and_lock() to fix potential UAF
+f8d85a031edf501deeaa903fb0dca856fd55c2e9 profiling: fix shift-out-of-bounds bugs
+861e2f3b9a22663612ec2627ff9f4da13b4286d6 PM: sleep: core: Avoid setting power.must_resume to false
+1adf902e49466b4a4c053dde572fb19debc6208d pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+5d8384b08ecd1f8012c0562790a76496e6d0c139 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+465a9056a7a66e347131485919ae35b96ac25458 dmaengine: idxd: fix wq slot allocation index check
+01725eadd3aab13a583d79768efd54f15ed0b135 platform/chrome: sensorhub: Add trace events for sample
+0a1ebded3cb5301b88dfbdde2e1ca0282f183853 platform/chrome: cros_ec_trace: Fix format warnings
+4e1a3c3fc5b1c77ad53b97ff9a9b6027135bdab2 ceph: allow ceph_put_mds_session to take NULL or ERR_PTR
+8ccacd737037c98fa8dafbf787b256df270e1575 ceph: cancel delayed work instead of flushing on mdsc teardown
+585c5c2025eba1e3781f1c5682dccf7d4325102b Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+eb7f248a97a07e82df1dbfd54b5a479094c74228 tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
+f018fc749b1be9ee809909bd0cab838682676d48 thermal/core: Fix thermal_cooling_device_register() prototype
+b672fec68900e7d7d537de4674dd6e64736943e3 drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
+4e498c6bf2fbdd8be641f2fae48a8d7e2d717071 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
+a4edf669fbb8e52342535744dc6a76c18342e84a dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
+9a3ffb117dd5f283e81a6c8aeaaf8338da038013 parisc: Move pci_dev_is_behind_card_dino to where it is used
+632b30fbffea8d86ecdfe5e962a94d053e1bcc18 iommu/amd: Relocate GAMSup check to early_enable_iommus
+c89acf75eb624956263538d3fcb5f2fe3e5acef8 dmaengine: idxd: depends on !UML
+58f46d03f84f3d5b78d0b6883673bab373b02772 dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
+e9c0187ad8007d95a82b89707f39c409c246e9c9 dmaengine: ioat: depends on !UML
+43bbb33a7c12fe60360018945c3f00a8e3da0423 dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+7e8406c4d21ef1c7404dbf4aa232ece35859bcfc ceph: request Fw caps before updating the mtime in ceph_write_iter
+b80f5cd5e3d53e402746bb27008b75b2c7fb978f ceph: remove the capsnaps when removing caps
+6fb3861be50a7560b98b8fe05f8a7297c9db2218 ceph: lockdep annotations for try_nonblocking_invalidate
+c6c03194113ce9de2ab8e06ae06b5752125fcb75 btrfs: update the bdev time directly when closing
+71df27ca5227fa2cafee6471d6c96bfbf8f4e35f btrfs: fix lockdep warning while mounting sprout fs
+63318ef68141ff807f11c73436f3798a6419c692 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+103c5b2bceb612930d3a44cabef7d82708d9bb91 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+695d080078efb9c7e0f035cedb979eee1663155b nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+8085a88ac0214c6da273d4a1b4cc5003d6efe361 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+c9a38c96a5f4581e316f0c470abe84cb279c557c nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+04a1ce67e6db0616317611b53d4f0340b31903c9 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+87cec76a4833487dde1302fb7bb2ad6aa83d51e6 habanalabs: add validity check for event ID received from F/W
+f30ae353975670716a34d3295049182db468d3ea pwm: img: Don't modify HW state in .remove() callback
+92fab8bb7dbcdcdabbbb943d6c07b12bdc98bf06 pwm: rockchip: Don't modify HW state in .remove() callback
+cf1dcac2ffe9567e47eeebd1462e486bf10791bf pwm: stm32-lp: Don't modify HW state in .remove() callback
+86ae9e44b35f95c64b072d05d123eeb5ca93f248 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+119b8a9c23b53189e83c205566adbed24edec99a blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
+fa85d19efd4e4aea597fbacaf7decb955a1f3668 rtc: rx8010: select REGMAP_I2C
+9f0f5259c55b0319651bab306d92541d1e1533f2 sched/idle: Make the idle timer expire in hard interrupt context
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebe1d31cad34-3633965a8dc7.txt
+Content-Disposition: attachment; filename=revlist-fbda100bbf12-de0bc8f5a39f.txt
 
-ffae7058bee68caf5cddb94a2f88c87e96d92569 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-e60565e651d4b21f705abe9fe29de9e5a308ed35 PCI: aardvark: Fix reporting CRS value
-062bc05cd2099eaa6c20772f38a17a970289e3dc console: consume APC, DM, DCS
-704f910d9562233fb9ec69a84c9811b18516f516 staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
-434a0d7f92ee103aafabd753d0b80d98562e2489 um: fix stub location calculation
-9d318febad02d767c63d6d403bbd703b5e2f9ada coredump: fix memleak in dump_vma_snapshot()
-5bca646f284f0e3cd0807954c665603e35981813 um: virtio_uml: fix memory leak on init failures
-d3d8e7704b14c2b382ae54c4cd4b70a38e569ce9 RDMA/hns: Enable stash feature of HIP09
-05814345cfd7527534de09364415a5355807deea RDMA/mlx5: Fix xlt_chunk_align calculation
-2bfccb6f9226060a1cb58f5995d1fda8c62dfe26 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-c0a7637cf688078687ea9efea3e68fe83e13979a perf test: Fix bpf test sample mismatch reporting
-6465f0d8f8cda6a6b676b029ebfa7e1ac4861e68 perf symbol: Look for ImageBase in PE file to compute .text offset
-a769b19afeb1360c82098087c9587d1cd05575cc perf tools: Allow build-id with trailing zeros
-edb6ecc891cd399f14a6ad643295732c265de31c staging: rtl8723bs: fix wpa_set_auth_algs() function
-3a0c56f39e0216c732fa464c4f483569e2dcb56e n64cart: fix return value check in n64cart_probe()
-74bcdecd801b41f556185b887a667234c3c45809 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-121cddc9f3445b45f0df137e4c36a3e9d1a1f973 9p/trans_virtio: Remove sysfs file on probe failure
-4ab23023d2f910349f48c0d13cea2f9ed5746e9b pwm: ab8500: Fix register offset calculation to not depend on probe order
-a3567d9385ddca3b281dd828c0dd07adae596505 prctl: allow to setup brk for et_dyn executables
-e82bc49fdbce3a430e19c01d945a4c93d466c7ff nilfs2: use refcount_dec_and_lock() to fix potential UAF
-eabd8869dd88c2006b0ffb0db8593b6ff3d34271 profiling: fix shift-out-of-bounds bugs
-140343cd98288917074528c25743e737725f53ff PM: sleep: core: Avoid setting power.must_resume to false
-c32cf2b2da913d99fb7efe334db997efb2b3b832 thermal/drivers/qcom/spmi-adc-tm5: Don't abort probing if a sensor is not used
-2868cf3a6f645ebc779caa3a92c663082194c5be ceph: cancel delayed work instead of flushing on mdsc teardown
-025f2af2efe67d9fb4c8a96af2cd47262c0f4b97 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-26e7e582a26d30f3c19740ce344b093b5ca561a0 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-5838b940c0d88233b28315118a939538b89d7a71 dmanegine: idxd: cleanup all device related bits after disabling device
-75ad1c0a16ac5152f306755efdabd2c882c53740 dmaengine: idxd: have command status always set
-e1364368525deb5ffc499f2918cc870a23bcc196 dmaengine: idxd: fix wq slot allocation index check
-9bffbe325759ad3a299f9e5145dc437d76ca7d3c dmaengine: idxd: fix abort status check
-1ca35b825c246fef834a27106f895643fef41033 dmaengine: idxd: clear block on fault flag when clear wq
-04c0e3ac8c7d91e04240b5757695891709ededae platform/chrome: sensorhub: Add trace events for sample
-4dc38969e202a47a81d91ca374fb930f823bc098 platform/chrome: cros_ec_trace: Fix format warnings
-b69cc9e6da8a9c0e9030c65a335d3c58c1099d31 s390/entry: make oklabel within CHKSTG macro local
-ec473f2d05bb5121da0f8c1c764074ecf91d966d SUNRPC: don't pause on incomplete allocation
-9a8010a9fb2a18f2e900225f5dadf813f13732df math: RATIONAL_KUNIT_TEST should depend on RATIONAL instead of selecting it
-5f9ee8cfca363f885dfea6ae683681dec5ed6bbd init: move usermodehelper_enable() to populate_rootfs()
-bb6730861eca8f82fb9e3c4c06f5aec14bb15889 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-4926c7120514cc564030b869f9457e48cdd29100 tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
-3a3079bfd39daa95853fa869d204132a8420a5a7 tracing/boot: Fix to loop on only subkeys
-47fca3c6a5499bd16dfebf49a1c840c8fead6096 thermal/core: Fix thermal_cooling_device_register() prototype
-da271dceb784e6e054e9263f98adb996ec187fd3 drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
-6497f602ed5eb963c593d01febcb93e957c403cf drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
-1f889a0cb7d9606e5fd5be54adf90f53e3bb2c58 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
-43b081ceb49901a1534192977dc065eae757e16c dma-buf: DMABUF_DEBUG should depend on DMA_SHARED_BUFFER
-24ebfb9add54749137e610c09598f9a62bf57727 parisc: Move pci_dev_is_behind_card_dino to where it is used
-2cf354d7959a7465f8d35b2e6680d6a9a0b0d826 iommu/amd: Relocate GAMSup check to early_enable_iommus
-870fac43552d5528ea8225a16bc198a48807e879 iommu/vt-d: Fix PASID leak in intel_svm_unbind_mm()
-b6a6e83e1dbc10195f614e52c09bc619e8a3912a iommu/vt-d: Fix a deadlock in intel_svm_drain_prq()
-0f007507a52cbaa0170e23b5fbdc33b6bf1cf56a arm64: mm: limit linear region to 51 bits for KVM in nVHE mode
-b3012be268789ddd66d8cadfb99f1c8986041c5e drm/ttm: Fix a deadlock if the target BO is not idle during swap
-38abbcc51139a8607919d40cb61f6ad686f66fd3 of: property: Disable fw_devlink DT support for X86
-5bae8725a7648236a4e5fabfa31aaffe49241c3a riscv: dts: microchip: mpfs-icicle: Fix serial console
-b59d72040ee6d48954078ac8ed3e73d0c7feacfb perf tools: Fix hybrid config terms list corruption
-7829e5ba600f516b143727fc36daf57830dac92d dmaengine: idxd: depends on !UML
-f8f414fa618d723c5a9c85578e70b8b99e6937ec dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
-8014dae9933575342e1cbfad228743b2607729d8 cxl: Move cxl_core to new directory
-fb2821314bf267943243cb0d6f94bb37ada9573a cxl/pci: Introduce cdevm_file_operations
-9990de1b214d2783adcfc19e326d3b0272f757a0 dmaengine: ioat: depends on !UML
-3d368990261367e78f5a42386a82359df02755cb dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-061edaecef1cdaa8a8f199030257480262e34237 s390: add kmemleak annotation in stack_alloc()
-031d2ada715054945b7d13e76e3a55e84c8ed7c6 ASoC: audio-graph: respawn Platform Support
-c214a5c21fbfba3c3c88c1f5c03e915370bde0cd ACPI: PM: s2idle: Run both AMD and Microsoft methods if both are supported
-e879a3b2cda90ba4dc5ce78e5a4d9176e80e1f35 ceph: fix memory leak on decode error in ceph_handle_caps
-fcbe3e2e3dfce9850a2c1f43f2e46a2948e8e345 ceph: request Fw caps before updating the mtime in ceph_write_iter
-e668277774d3ccf0d7f5ec73dc2a9d8072f48b42 ceph: remove the capsnaps when removing caps
-076c500e2bd8a7f5c4d9064989ae10faed2d5057 ceph: lockdep annotations for try_nonblocking_invalidate
-f1e829f238224189d0ad1e564b60d39c79f7580e s390/unwind: use current_frame_address() to unwind current task
-b9f04db4cfdcbcc8d50e864ea390ff1c9dce4bfb btrfs: update the bdev time directly when closing
-b7080ecafb43c1d087a5adeb556370afe4cfa0f0 btrfs: delay blkdev_put until after the device remove
-9de419f1e498115c7de9c74dbeef21b404b0145b btrfs: fix lockdep warning while mounting sprout fs
-2ee910f16eb0e6efa6802644dea9233e732f2f57 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-8927cc3cf29128185a49b3841b8bc0d0253057d4 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-4a5b4610cdf2010cdf39d27f2c296a8aa0323977 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-c2624e1a7b5df8ceed1a155968ad140651ce4c30 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-215008dc7c384a41826c75ff048d0fd63d937fba nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-b1481bafe743b879d4c70c30f4d49e528a1167e9 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-bdb74ac4db76d8569422c291ffcf31a57da0f88c thermal/drivers/rcar_gen3_thermal: Store TSC id as unsigned int
-6c8fc72109ab7bc67820893f0372b5d141cecc78 habanalabs: fix nullifying of destroyed mmu pgt pool
-f9a0a1a7a41e2e15195087384d3ece68b5d7e71a habanalabs: fix race between soft reset and heartbeat
-eb22b83c44c31fc0ba7d26fb854525fdad117005 drm/amdgpu: Fixes to returning VBIOS RAS EEPROM address
-9408f34c99148dd6d20ac2faf35e15f9a4f68986 drm/amd/display: Fix memory leak reported by coverity
-b892aa2bcc906517e982774f5ade4b8af22d48c9 drm/amdgpu: fix fdinfo race with process exit
-66f3d08177d64bb4f574f1e31ae45c748a9dd402 habanalabs: add validity check for event ID received from F/W
-8985719f8eaee1c330460f7c0c117e48f110a5f2 habanalabs: fix mmu node address resolution in debugfs
-d18ed4ed4229dffcef8f15879a455340f39bc69b habanalabs: add "in device creation" status
-1abae7ef344ac053ba95f7acaa776ebeec819e21 habanalabs: cannot sleep while holding spinlock
-cb299e078b336febab84028b22648ad27403a91f pwm: img: Don't modify HW state in .remove() callback
-a3b1494c3b347e38aba18bd9d87184a02dd3bf69 pwm: rockchip: Don't modify HW state in .remove() callback
-98e8ea14cc8340c448106a65fa7fc72f73a15e5c pwm: stm32-lp: Don't modify HW state in .remove() callback
-9973e7e5d24405953e1a16d0441d760c93607422 nvmet: fixup buffer overrun in nvmet_subsys_attr_serial()
-43351636689d4b689c644064bc403cdd7b6f5cfe block: genhd: don't call blkdev_show() with major_names_lock held
-3558dd5a413a22d0e8f2d83fd4f8f8162ad08323 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-b1837cf877dffaab1f12431cd8c8553d757ad0a4 blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
-3320ddd566364b05a97d77dd4820ace5880611f7 rtc: rx8010: select REGMAP_I2C
-84bea5ae227b49448548467fa2994bc483f43d70 sched/idle: Make the idle timer expire in hard interrupt context
-3c66c787230a623afde742c054100dcecdf50349 cifs: properly invalidate cached root handle when closing it
-e963d1d8c147f1ffd971f51ebdeab1625f488c06 io_uring: fix off-by-one in BUILD_BUG_ON check of __REQ_F_LAST_BIT
-f11688a8a875dd256614e0dbfd2f0d6e12f4dec2 selinux,smack: fix subjective/objective credential use mixups
-3633965a8dc7d8edf171701cf7a714f6a2c74091 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+2573233e3d91e754d226cc49474a8f6f189af6cf PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+bb3a24574a8e3eeabd9ef25e8a2be1b71551a072 PCI: aardvark: Fix reporting CRS value
+9d40ff5af7eb9d2c8b7fc4c1ed170faaf20082a6 console: consume APC, DM, DCS
+b49a76f53af15b0d3269ec2b0f58e63d3e9a3c1a staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
+73133fb169dd4daeb84234aea12d7a6788df12ef um: fix stub location calculation
+815e26e32e7de2d549c803d5f33ddc2f59f83a86 coredump: fix memleak in dump_vma_snapshot()
+7eec723e81795b55aba814aa6088c9f464310986 um: virtio_uml: fix memory leak on init failures
+a724e1c3536b7480308c9665f3295e9e3ea44bb5 RDMA/hns: Enable stash feature of HIP09
+7cdc166c890b8e553ea7236af9506eae264b03ce RDMA/mlx5: Fix xlt_chunk_align calculation
+ccb5286d07e027d8fe33d171bd12163af752bea9 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+05a3b49908b0ff9b3098a7343f35878b2fe34722 perf test: Fix bpf test sample mismatch reporting
+e10e701dca342d6476d55b471e0b7ab0a4ce1085 perf symbol: Look for ImageBase in PE file to compute .text offset
+8c08339dbcd037bdaf2d62e934241206a63d8c18 perf tools: Allow build-id with trailing zeros
+71929b4f79321987a0f7a9ca9ddc05873e4b7c2c staging: rtl8723bs: fix wpa_set_auth_algs() function
+bcec34c02161c0609bb83e32ea172ba6b25d1289 n64cart: fix return value check in n64cart_probe()
+ae6cb4416fe024c4db2f8c5289f2a784c48839e5 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+cb50dae6399abf8a9043b04eb50773a17d3266f9 9p/trans_virtio: Remove sysfs file on probe failure
+c3ef54d3a1abf2c46dd75a1cd21e85103491292b pwm: ab8500: Fix register offset calculation to not depend on probe order
+95f013750ceede1b3551c8322cbe0453b7334a4f prctl: allow to setup brk for et_dyn executables
+02ff99ea77a5d02de2685e43ec22d5d935bd37fb nilfs2: use refcount_dec_and_lock() to fix potential UAF
+bcdc1a7c554afc04f7cbfd673e1e737383a77448 profiling: fix shift-out-of-bounds bugs
+e5e6601ad8ee96aa4ad78583112c93167e185c0f PM: sleep: core: Avoid setting power.must_resume to false
+02b0e0d5c293225abdb09e80655e890cf72c8563 thermal/drivers/qcom/spmi-adc-tm5: Don't abort probing if a sensor is not used
+6dd210801c45ade5905d3f03c731cad40ec8989f ceph: cancel delayed work instead of flushing on mdsc teardown
+272307b303a6254f7f897716fe0fb9a1093ba159 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+eaa03d00a7da5cb580f0c9caa7b3e76af5dca385 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+3ea32e8143b0db9f4ea21b62d8ff366cf64c5ec9 dmanegine: idxd: cleanup all device related bits after disabling device
+9f03dc8c0f9b304250cc7950b41d42d17ec8cfa9 dmaengine: idxd: have command status always set
+479b1c0b2605d2d38a62fcfdfd007ae6705fbe88 dmaengine: idxd: fix wq slot allocation index check
+080c6e6cdd6bffac68e4eddc2c8436d22e7fe2bb dmaengine: idxd: fix abort status check
+79ffdbcdc779930084e7e9aa9cb6ab43567694f8 dmaengine: idxd: clear block on fault flag when clear wq
+a28a78619d51fecdef3dc683509d953bd2567335 platform/chrome: sensorhub: Add trace events for sample
+5304f59d626239a586cc6839e6a3b9422045b5a2 platform/chrome: cros_ec_trace: Fix format warnings
+c7e844aad4c54d31247c327f4492154c581abdfb s390/entry: make oklabel within CHKSTG macro local
+eda67cc0facbb8bed4b2d797063553e10cbfdd1d SUNRPC: don't pause on incomplete allocation
+b8f7de341e9eb065bb8f242301adb5a9574e2536 IB/qib: Fix null pointer subtraction compiler warning
+58afb2c6755e609b361a86d0d82ba0f81c1c411d math: RATIONAL_KUNIT_TEST should depend on RATIONAL instead of selecting it
+1133757c26d62fe964d1b023791a055198612916 init: move usermodehelper_enable() to populate_rootfs()
+9c466acc1fad54fc84ba650e63503e44712dc93b Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+d3865ccde0ab56644218c0cd85de8e4ea4dde60d tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
+ef2b14c9cce1dac923813355117bfcf3cec442ee tracing/boot: Fix to loop on only subkeys
+1b018eddc78ab13ece03e89a5e5fb3f27b8b8366 thermal/core: Fix thermal_cooling_device_register() prototype
+6b9794ba910ca330a5ef2ba46058cb9d6567ea94 drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
+fe6aafbb7292fbcc1754de8b35d8966964296e73 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
+6fc3539ec747c9420e5bb8ce6f1d946ef3113c21 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
+78228a4a00df86d6ed27b63421174b63109975d6 dma-buf: DMABUF_DEBUG should depend on DMA_SHARED_BUFFER
+856e900a26f0573dd40496def931ae33bcbc7538 parisc: Move pci_dev_is_behind_card_dino to where it is used
+52a5e0fab6074891e1cfd513f2981ed2de3fbbf6 iommu/amd: Relocate GAMSup check to early_enable_iommus
+b76199456600cdb788a8079ca9a7cc51e35c9900 iommu/vt-d: Fix PASID leak in intel_svm_unbind_mm()
+868ccc9da0a3daa10fe683ddada501f13a71725a iommu/vt-d: Fix a deadlock in intel_svm_drain_prq()
+1de8ea858a47acebb5ca35320f4d2ee36785a7f7 arm64: mm: limit linear region to 51 bits for KVM in nVHE mode
+7311ac753c1fa8cce3a2bb2918dbfe316cbc22f4 drm/ttm: Fix a deadlock if the target BO is not idle during swap
+c7a672db3142a3d7c822cf5dce169389cae0bca8 of: property: Disable fw_devlink DT support for X86
+8a78bb949b539a4e9f0ffc3ab8bbdf7b3b22061c riscv: dts: microchip: mpfs-icicle: Fix serial console
+ed4a723365bd23435deb68a053336022f66def65 perf tools: Fix hybrid config terms list corruption
+40f0b09a9f5c26a027eca034f367115dbcdb6ea3 dmaengine: idxd: depends on !UML
+39836e25640f77437aed85842260b7796b52c6fb dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
+facb40b15a51645ad72235d8f0b213a40a9113c3 cxl: Move cxl_core to new directory
+a86f7ca89e6c6adb0653166aee5e3f499bcead51 cxl/pci: Introduce cdevm_file_operations
+eb202615395f2614eeed38738c79bdf73f1d3f9b dmaengine: ioat: depends on !UML
+9cec849d525b09d924d5200d640226a8b84db140 dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+889848b8e1642a911c8eef3006e13d1eca8f0179 s390: add kmemleak annotation in stack_alloc()
+a6816b2fcecb0100a67759a30d9aa78e00403571 ASoC: audio-graph: respawn Platform Support
+f22549d360ea041d3f8225dc3800f83bfbafc8f1 ACPI: PM: s2idle: Run both AMD and Microsoft methods if both are supported
+015b9b6b4637978fb818ac32bf5349812f27537a ceph: fix memory leak on decode error in ceph_handle_caps
+b1a835b257a5d0fda0a62ca0103365dd3fe92548 ceph: request Fw caps before updating the mtime in ceph_write_iter
+dff68e0a80d902f8e89294aca0777a691fa2efc8 ceph: remove the capsnaps when removing caps
+4383a150fa3f8ef6d617d4d7ff1937b0cc168cd5 ceph: lockdep annotations for try_nonblocking_invalidate
+3004c15d2b5d0d87432bacb2123e55a8a8d16c8f s390/unwind: use current_frame_address() to unwind current task
+e6b2a0429b021a9a08eab3e891bbb14fe253f500 btrfs: update the bdev time directly when closing
+909b6880c71795c30608b1162b8afe0c3adfa931 btrfs: delay blkdev_put until after the device remove
+afce92262e82cf4f1bd17318478fa8596c6ee8dc btrfs: fix lockdep warning while mounting sprout fs
+645e4cb1bfcd7671560766ca85cc96e218cafa2a nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+5bfe78f93aa01af63b94253c4e00bf86f4691599 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+6adb6bf6d1ecc6cdacd2e4f95da22349504a8fa0 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+cdbd75d2d904286da1d4c749078507a3da0a49de nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+b9ac5dd6b333ecbe78ae3f860b484b53e21e22fe nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+6d8748b3227a2064c155393388cf05898be66673 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+0649e97f201a9c888669e0b59ed312eec3cae73e thermal/drivers/rcar_gen3_thermal: Store TSC id as unsigned int
+e8756de68b37bdfd2741d06c287081e16b728ac5 habanalabs: fix nullifying of destroyed mmu pgt pool
+5cea249e77ace2b1f1346dd0e809ab0fa2c0b923 habanalabs: fix race between soft reset and heartbeat
+1ddacd983e02cc3ab93657f2c35b3990d6408a1c drm/amdgpu: Fixes to returning VBIOS RAS EEPROM address
+55a604f48135e5fcd07f259e09e4c19ddf8dc7b7 drm/amd/display: Fix memory leak reported by coverity
+e65a6b2005968cedf3b3dacdfcba184ea5839be9 drm/amdgpu: fix fdinfo race with process exit
+e5b00104bbb437cabeddeb053d1052887f227ea9 habanalabs: add validity check for event ID received from F/W
+e345c638d18c4124fa1aaae08c1fdda701035712 habanalabs: fix mmu node address resolution in debugfs
+dd419ef6bd421425a64dad1a178b7fb6ce4b62a1 habanalabs: add "in device creation" status
+a0398342b61df907b9596093ee1d22eb0d895c6a habanalabs: cannot sleep while holding spinlock
+45cfa3ef96d09d757426919b4092900932ec6d71 pwm: img: Don't modify HW state in .remove() callback
+430dd4405442c4ef78fbe5d8380861ce9b255472 pwm: rockchip: Don't modify HW state in .remove() callback
+9a68310b37f90f1cb82c69281ad31dc0428a02ce pwm: stm32-lp: Don't modify HW state in .remove() callback
+e2b8e4ad1d71cca984b39d43dfdd061d7e50e675 nvmet: fixup buffer overrun in nvmet_subsys_attr_serial()
+36c7a3d1e965a844586e236c790b8d26cdd13724 block: genhd: don't call blkdev_show() with major_names_lock held
+5183530c9b91b554c6681c993ac347ef4efd65a9 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+6545c6bfb664e46ccb9641295c95d13f0a0f607e blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
+4c1c45ff6899bf01bcebe7f4f77f4c2fc46adfde rtc: rx8010: select REGMAP_I2C
+32f30fd3fcbbc234091784089c54d9de7da72c8a sched/idle: Make the idle timer expire in hard interrupt context
+84737e346d3abe5c84be65b77d75b816e319c93e cifs: properly invalidate cached root handle when closing it
+de0bc8f5a39f2163d514d76fa200b0a4ae550d4f io_uring: fix off-by-one in BUILD_BUG_ON check of __REQ_F_LAST_BIT
 
---===============5247385391905320254==
+--===============0176154138901399306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ba5f18a5bda-653ca044e9ab.txt
+Content-Disposition: attachment; filename=revlist-702b905f8683-6f3207390100.txt
 
-ccc4e06a9a435b8ffa7731dd7b813ae981d39efe PCI: pci-bridge-emul: Fix big-endian support
-2bebe24a3939ee1561d21b38895ec56f67714495 PCI: aardvark: Indicate error in 'val' when config read fails
-8aeefbd8521d629ec4cbeaf72a3f5b3611d02656 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-26ba2c20b1204bcf7b1549c59a43fb778c57669b PCI: aardvark: Fix reporting CRS value
-d486d272079982836dcad972c78e46bb1b28808e PCI/ACPI: Add Ampere Altra SOC MCFG quirk
-d348166dc73132aacfd2ab14d20c81beb8049fa4 KVM: remember position in kvm->vcpus array
-0b32cb38f4f103959455953485ebf75912750b15 console: consume APC, DM, DCS
-b2b017d95738160207245ddb34f61e5b8d4a6b85 s390/pci_mmio: fully validate the VMA before calling follow_pte()
-2c30c02609f4cf585eb45c5ad7a1924fc811b7bf ARM: Qualify enabling of swiotlb_init()
-866ebdd4844ec41caa573dcbfff2f6a85b16df84 apparmor: remove duplicate macro list_entry_is_head()
-57f3628fc2e53f4f9bad1a6a725ce651563b7f77 ARM: 9077/1: PLT: Move struct plt_entries definition to header
-81ec721a7dfbb3f79250e624a51258b385b756c2 ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
-3764416713c9457960c6c08b5f5f0353c41929b6 ARM: 9079/1: ftrace: Add MODULE_PLTS support
-c0a3d0cd369ebd32741c75b3a39dc5e7c78fbe17 ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
-de8407acf4025b897c3d829305e7e73caf24b156 sctp: validate chunk size in __rcv_asconf_lookup
-d7a4c977f9599a836d564ea41b18577045e981e1 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-ce95d2869cbac6b5c1ba764ebfc1b940379f5ad0 staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
-30c16afdd443e0dc38ad4b126e4d63daaa43c3c1 um: virtio_uml: fix memory leak on init failures
-fde03d350000e452bdd4ec7510d906829d8f2bbf dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-b591f0ae04ac3eaab049e40c1af896b6e3d6308e thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-ac473d918fd56e9246bb8dfa71a51e01d5718ce1 9p/trans_virtio: Remove sysfs file on probe failure
-2848343cf1a951bf0306f209e8609c89f8d091db prctl: allow to setup brk for et_dyn executables
-337cf82fcc4c3ded1074b0dbdb25881a46e7ab99 nilfs2: use refcount_dec_and_lock() to fix potential UAF
-69e5678ac307633cd6f3d909e7e4026b8d377e26 profiling: fix shift-out-of-bounds bugs
-93be502ddda4414e25a58ee023bb5fb47e14e61c pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-85f9ac8055f9603e85f4f11896ad16817508915c pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-5cfcacaa405e22528ee67f8e6dfa9ba0a5ef5d12 phy: avoid unnecessary link-up delay in polling mode
-2d18cb742ce9a15370aecaea70fe26c1bd8ec235 net: stmmac: reset Tx desc base address before restarting Tx
-e9a11c310c9d6fbf5587597693bad0dac8ea1a06 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-8c0582ce099b857c25ee2fa754e05b7dde58326e thermal/core: Fix thermal_cooling_device_register() prototype
-770529e80ee00dfb70b28cc92ed9c784ffd84f6d drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
-24d9770bfcbd7b6779bb2d58df1edfc7f0c2abf0 parisc: Move pci_dev_is_behind_card_dino to where it is used
-dfd990fbf42ae057ee079d25e615a08b07bbb72c dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
-9719c1a5a14cb20f6dfb5ee1ccb512ef4ddc9da6 dmaengine: ioat: depends on !UML
-984549b9968e7f871b6430ea6ce32f45175f5abe dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-9811550ad1041c78393cb648944840a5d7ea23c2 ceph: request Fw caps before updating the mtime in ceph_write_iter
-7a5ddb9335c1f81cc3042a27656ba74cfaecc7d4 ceph: lockdep annotations for try_nonblocking_invalidate
-59c6d950796a842807d0aba821dd512dc1d3bae3 btrfs: fix lockdep warning while mounting sprout fs
-51eb03341d8b0d910b747140fc401f42f6dfa88d nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-546a7cfee70b7549f0e05f649ef3fccf7709678f nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-835ea9599748332d95f4377d72ea328444c42ee0 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-e6dc386c372a8c586d98db176a51bf1ef3aff26b nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-6458be37cd1d55ca351490902049d6b40b62c46c nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-c5880a8fde49c539581966f60367f347552eb232 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-38a539715ce4c63d5ca9a295649d48f5d314940b pwm: img: Don't modify HW state in .remove() callback
-e1e07361887bcc9ed5bf09337974594e77c7224e pwm: rockchip: Don't modify HW state in .remove() callback
-2a46799e30db35bb48de5e905a5899fce96fa0a3 pwm: stm32-lp: Don't modify HW state in .remove() callback
-524c25c349a3b69794e54f22d52d9a758685ef66 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-a0a5526ce4fcbce8609bfe69aa38f2b7fefdabaa rtc: rx8010: select REGMAP_I2C
-653ca044e9ab4e97c9863f59e0c068745dfd956a drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+84e0d04588e441874979864099d34ddd6ead75e3 PCI: pci-bridge-emul: Fix big-endian support
+718cdf08590c882274e0aa174fc57dfc980e237e PCI: aardvark: Indicate error in 'val' when config read fails
+2ea4fe22a63ff59aa0f88744c97dcf8371fbdd5d PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+bc45af72893a969a51864adaca0cd2027eec9610 PCI: aardvark: Fix reporting CRS value
+17c88be121339b433da28b1def99a7e21205db3b PCI/ACPI: Add Ampere Altra SOC MCFG quirk
+c849badd43b9adfaa4959bfcb1ed5b2d502b4cf8 KVM: remember position in kvm->vcpus array
+ed8fcfdbdd8a979b14aa4027daa6eed47964ac2d console: consume APC, DM, DCS
+d82fab0e9483d6123573f6408fbb6cdd23972101 s390/pci_mmio: fully validate the VMA before calling follow_pte()
+c84c22d48cd7ea64b417928d2b06177ee824cff1 ARM: Qualify enabling of swiotlb_init()
+acbc485dbbf9f164344d1468a067c8ba7e6d51c8 apparmor: remove duplicate macro list_entry_is_head()
+87f3317b505532864708d14a37c33b9b776edba5 ARM: 9077/1: PLT: Move struct plt_entries definition to header
+856b6408ec93cf2122835995e7a1e592773649f1 ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
+b06e5a7d4bc1c5ee219d511d27c19cd956ea31c2 ARM: 9079/1: ftrace: Add MODULE_PLTS support
+9ea08b2a0d3ba263004d5d6f26b0389e30725e4b ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
+3cd265d19f7ade80c729fd5eb6f356a874621a70 sctp: validate chunk size in __rcv_asconf_lookup
+3d8dfee814151de94659cfff16a9956b956ac9d4 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+76be4d750aa7b6eeef8850dddd2713acef516b3d staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
+83c3473f6b57fd1bafd552404382718bb20b8a0e um: virtio_uml: fix memory leak on init failures
+4dd9d09b49a189caf79d264cba4579f96d0cd5ae dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+a0f20091b5eee05d6c64da9a7e6c431e509adceb thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+5292252f860ca6c98f85f4b20fb92d62aa0b3c68 9p/trans_virtio: Remove sysfs file on probe failure
+9dcb85edd36b60814510ad047962cbbdea900459 prctl: allow to setup brk for et_dyn executables
+45214c63f42e3c5e742ca414ca22b2600c13398a nilfs2: use refcount_dec_and_lock() to fix potential UAF
+980d64241e3e91a51ebd055801986574ea53ffa1 profiling: fix shift-out-of-bounds bugs
+517c358cc6b28d9dc8e05dedef92574bbac43559 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+b2be779821cfe5c12f99b630aa1107ceb4cb4a27 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+023adf9ed904eace9ea6f64b3b70527fdfa9f706 phy: avoid unnecessary link-up delay in polling mode
+5d503125fb8a457726cf83118dd7998fb95effd7 net: stmmac: reset Tx desc base address before restarting Tx
+12ea16e9bcb92d47defd35d381eef3403aa2dcba Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+85608b00e700a3af2bf17e23ac041379fee687c7 thermal/core: Fix thermal_cooling_device_register() prototype
+a9692ac9473f379faa578ec8cb163ca15b163147 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
+13688ea9ac6611ed07677a902f183564ddaa5e35 parisc: Move pci_dev_is_behind_card_dino to where it is used
+87941bbb0d355cf6a65221ddc5929ba3604bef51 dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
+029d9a4e6e265a82276e242ac37db6cbd6c1a938 dmaengine: ioat: depends on !UML
+f4ce562e3356add86ace08d736a99fdbbe873eef dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+1bee69325870e78d6f58166967751e82b4d09ee8 ceph: request Fw caps before updating the mtime in ceph_write_iter
+a751c6c5375132daaa2872c1c8231a16e748813f ceph: lockdep annotations for try_nonblocking_invalidate
+53e1d553b63bca58f150fc8c123e758a11efd1e2 btrfs: fix lockdep warning while mounting sprout fs
+02df78c9a368f463b940a0092329593d2c3183ad nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+ca24acda06c078e58ccc305c86850b38d0435255 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+a9938ff9231f7af966ce4ed75cd6434d2639aa52 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+0666edf3d8c2d43f8c03b2ded5ee52d7bd9c42ad nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+9c7f33616c6bcc36c3154b9bc1e3cf19062613c2 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+63ec6b7d2385efbe314169fbb005c8899cb2beb0 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+6ed2949024d191dca57c1fe714397720bc789a72 pwm: img: Don't modify HW state in .remove() callback
+12cb6c4fecb604f1b0c2a9f198a3f53f69659dc5 pwm: rockchip: Don't modify HW state in .remove() callback
+408d898ddc6aebe79b9ac50ae1f78de2d9f9d206 pwm: stm32-lp: Don't modify HW state in .remove() callback
+daf170e58156e6c2d0b9582bb197155f9042c33b blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+6f320739010000137ec7524097ee44d12ce0d002 rtc: rx8010: select REGMAP_I2C
 
---===============5247385391905320254==--
+--===============0176154138901399306==--
