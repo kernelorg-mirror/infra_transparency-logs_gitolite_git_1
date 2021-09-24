@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
-Date: Fri, 24 Sep 2021 19:00:37 -0000
-Message-Id: <163251003787.31441.15223938426051990485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 24 Sep 2021 19:20:42 -0000
+Message-Id: <163251124286.12212.2393063590509693406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: ea5b7987b3164cbfa83a3a5f075cedac5061f966
-    new: a295aef603e109a47af355477326bd41151765b6
+  - ref: refs/heads/master
+    old: 3f73c324887cbddf42ee3b14bd2ccf744e6225a6
+    new: 9f10a59ea32ab621a012bfb123b776fb2d0ae9e8
     log: |
-         a295aef603e109a47af355477326bd41151765b6 ovl: fix missing negative dentry check in ovl_rename()
+         9f10a59ea32ab621a012bfb123b776fb2d0ae9e8 Fri 24 Sep 2021 07:20:00 PM UTC
          
