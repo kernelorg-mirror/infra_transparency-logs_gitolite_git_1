@@ -1,41 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============2539060441890923010=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 24 Sep 2021 06:47:44 -0000
-Message-Id: <163246606430.30478.16275570592894113649@gitolite.kernel.org>
-
---===============2539060441890923010==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 24 Sep 2021 06:58:54 -0000
+Message-Id: <163246673488.5908.4355881326463100655@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: eballetbo
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 7ccc839372ffa5c3a50d216996b725a56c6f2c32
-    new: 18f8198e7fe46918ccf61fdeb8f13d5daf2e35c0
-    log: revlist-7ccc839372ff-18f8198e7fe4.txt
-
---===============2539060441890923010==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ccc839372ff-18f8198e7fe4.txt
-
-73eff8602ad10cb55cdb614241b18f3d842abbe1 platform/chrome: cros-ec-typec: Cleanup use of check_features
-ca6188599246a6898fd53a00a0d5b531afdbc030 iio: common: cros_ec_sensors: simplify getting .driver_data
-5bfe03b350c6a0c221674520cd5d7d7606ebdb22 platform/chrome: cros_ec_sensorhub: simplify getting .driver_data
-3e209f37ca5c1f5c1b81293223622b6f9ab4e895 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
-7b102447c97b34f01c9b3a7776039445ee811c46 KERNELCI: Revert "spi: mediatek: fix build warnning in set cs timing"
-aae1b2529f6dd435ce063bc32b1e0ff65997e390 KERNELCI: Revert "spi: modify set_cs_timing parameter"
-d7126ec33cc859fe98b0a82c448bb6c4cc04d832 KERNELCI: Revert "drm/mediatek: Clear pending flag when cmdq packet is done"
-4d535ae8cc529e03c4e78b46edebe42836e8f3f4 KERNELCI: Revert "drm/mediatek: Add cmdq_handle in mtk_crtc"
-bc5ab9ea787770925097e5afbf9b9828edf87efb KERNELCI: Revert "drm/mediatek: Detect CMDQ execution timeout"
-f42b7fcf55bf0d94fdeec03abb6845a77589b3da KERNELCI: Revert "drm/mediatek: Remove struct cmdq_client"
-18f8198e7fe46918ccf61fdeb8f13d5daf2e35c0 KERNELCI: Revert "drm/mediatek: Use mailbox rx_callback instead of cmdq_task_cb"
-
---===============2539060441890923010==--
+  - ref: refs/heads/damon/next
+    old: 6fbe66b98a1586a89ee7145639c0978069a91d77
+    new: a5beeec8b946d2c8f2d8d0812876319f38cbebd3
+    log: |
+         5024e73f43c46b7cb2c0a03c1a87bbbabe1397c5 ksummit_2021_demo: Implement DAMON application modules for ksummit21 live coding
+         c00f24f14ba2654f00cd7072836c23c14c8de7a1 ksummit_2021_demo: Add the live-coded code
+         a5beeec8b946d2c8f2d8d0812876319f38cbebd3 for_damon_hack: Add a script for gpg password activation
+         
