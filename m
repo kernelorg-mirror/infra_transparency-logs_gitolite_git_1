@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2892117322314582933=="
+Content-Type: multipart/mixed; boundary="===============0644087588251371643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 24 Sep 2021 12:43:32 -0000
-Message-Id: <163248741225.9967.5905231037234490067@gitolite.kernel.org>
+Message-Id: <163248741274.10002.3728318775712295187@gitolite.kernel.org>
 
---===============2892117322314582933==
+--===============0644087588251371643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,73 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: d30a2cf079b47183e94082670f5b6bb23c6eabaa
-    new: f0ff061a858bdb0686df329dcfa8e7814bd63afe
-    log: revlist-d30a2cf079b4-f0ff061a858b.txt
+  - ref: refs/heads/linux-4.9.y
+    old: a975c9219d6afaaef2e6b5f2cf0a3514cfadc3d0
+    new: 09643351c2e19ef7a35fa69b956bf90765844777
+    log: revlist-a975c9219d6a-09643351c2e1.txt
 
---===============2892117322314582933==
+--===============0644087588251371643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632487410 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632487411 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1632487409-b2ea000cc83e9bc2b788f7ebb34fe9b736c107b5
+nonce 1632487410-92f715da1b172a03e446653f0ca8c2bea3e2e325
 
-d30a2cf079b47183e94082670f5b6bb23c6eabaa f0ff061a858bdb0686df329dcfa8e7814bd63afe refs/heads/linux-4.4.y
+a975c9219d6afaaef2e6b5f2cf0a3514cfadc3d0 09643351c2e19ef7a35fa69b956bf90765844777 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFNx/IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DnwP/10kmz8aJky4q3bVwo1U
-YafktRCUDHFvIz2DK87cF1QVz6Vz69fBhtTPwu7itj0ktNqYUf2HH4OxwVaVBQV7
-yz1HAIUqkb0AlUFoZmYTQ0mAG4GJcZjFeZpoc3khjgxAV1NvbiCY7rOvxW8BdwhY
-qXYOeQPg0VpVVWU+r7YsBoZPEa0IDqtSuAGxc0Iy0tg5XMX3rXQz4zgs15LdA1jG
-tcivPHiDHIjgjxfTIoJ+6Dn23FeU9+T0h2ghDSmzu8qKG8Mhiz9s9dLH1q3YnYWj
-RR3HW92py5SH5PbyYt6GfJXkvFm6k40r2xEtAsJ9Zgu9vM0RJ5uGmH4gaAqFStsw
-OXvN+jEBjMQ3WMVqa5dOdb7EYnc6FTwNjD4St8rx491jG97iLUQi+x7E2MwRNut+
-s/fqLdjGVloR+JBqokF2TcUgD47GE7Tjo/kLtKsR231qBMKI9fzPVF84QC7OpiFa
-iaCI+oFzQGfC8HKqZcG7FPcTaeB9rcfqjzoUcIwsIApZ0MV79Wi1cFDKdRyefNsv
-ClZeDE1VsNJaL69KkonOUZRZ5gjX4lZ+I5CDgZrh9/WPA65pwZ1urH3S7HByDTHE
-lGIK98R/hJ4OUZUuTIPofVWdO7VXTHaVTdetr7zvbDji2BhLmJkmAi//p5Fs1Hd5
-N9cgE6gbLNNK1PeCJ6dOJei0
-=/qeo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFNx/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n7oP/256JlTLYvOqTUL6x7Zi
+GqzQa1aWz2nSBlyn05q8HVWejp7hWIv8ryczOXldcJV9sfv9toOSf+hUnjE1kFhI
+oZcWZ6Z577IdcvKPaFqHRiMISNNc8MhuLRPZ83L9PNc2KKjrrpzBHvQzo+3vax1I
+cDVgsg1c+cT3+4bu21kQFhKlXyZa7Sqeh5leoKQGdUWg5sCBLoTFR19KefF2T1e+
+MkXl/gmZve+ejT2TKQIDoLTzSvnN9BV1NHlG7I9Otlz8vVbg9d/Oq61lBSfhN3/m
+boJsRiR/Ekqr6Xo9+zYZkyiB+F21Dol+qwGZaGsp0OWgxFlmj/ykzWEaqvQ4jAhg
+3Km5FOMKiGK1t0wiIoXaWjJLgxV4pc3lzs1Vg5qoMnwWgBJt9pHR4byV1OoRIDaH
+vpAWYuWHLtJKYQCx21LQdjSmOBXPQ0qY9EnI7HGPz79oiRi0TxYhVOM68RKOktnN
+ozhc9jSEalkwAWrSVoYcxF7aUm5G7SqerZ9kiHIdSbfzqKx4ev0teRMCHWKb66/d
+W265UgSrJY4Gb9+qO78Kl1t5aAVOb8UJhvX9Llmn6kvjmGJLmadE+41HVn09ypzv
+gtvz59l2fKpBtbnF88+c0fQ4DiboFnUZIZ7A1tEIkI8ENo+poMffFxPq/+AVBHfm
+tVtdO6KccunV5KSSX2+yZqe4
+=F2Md
 -----END PGP SIGNATURE-----
 
---===============2892117322314582933==
+--===============0644087588251371643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d30a2cf079b4-f0ff061a858b.txt
+Content-Disposition: attachment; filename=revlist-a975c9219d6a-09643351c2e1.txt
 
-3b720af3352d397caa6ecdb44e1303bf0dce0cc2 s390/bpf: Fix optimizing out zero-extensions
-fe1a94404c15573831410a151f03703749aaa458 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
-0c74b42f6ddaae7581e77b2e6194017b61ff1dfc sctp: validate chunk size in __rcv_asconf_lookup
-b63880bcfe001af1de9fffe93db2ddd5f7373c49 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-3f44580180cf1c101d3d3cc1db7052a8c0ed75c3 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-ab15844483291819375bcc87a4d6dd44fc581f96 9p/trans_virtio: Remove sysfs file on probe failure
-a754dfd30a00654c9a7be6eae8889e273c515a8f prctl: allow to setup brk for et_dyn executables
-70f5cfe585a262acf5200bdea1f53e0ba0219a45 profiling: fix shift-out-of-bounds bugs
-fcdad4e033fe773d64dd0b9ac493a42a7ffe4fe6 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-5cb48886b5de360613a2030e077a900dbe6d09ad dmaengine: acpi-dma: check for 64-bit MMIO address
-ec53f41bbe51d4dff8a2fc8db410f56492b2a872 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-aeba40df94dc26d8353ecb16868a49b543597748 parisc: Move pci_dev_is_behind_card_dino to where it is used
-ab515392e01b65931db14230508a67693316931c dmaengine: ioat: depends on !UML
-2b4673d1d3605314316f96832e53374ac6cb2f00 ceph: lockdep annotations for try_nonblocking_invalidate
-6b4276c2141658b4fbb5dfbfae393d62fbe2cdff nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-6a656d5633c7d74937e9675d8c6e40b8f4981cc9 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-a3c531d1bb76f2af59447e46bdb987d1a18fc3b6 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-c9cd7053db7b9c100059acda7db06f010942301f nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-e03425a9f6d6af829e57ce8032ad4ca6f0934aac nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-2b22f23acafbb425118372e33149c81f122efde6 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-0fa9a9d0d3640d96f6bfb67e62f8e46844ed74f7 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-244d2805f6c41b33a577310788d21089ab2d007c drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
-0409a9e7cdb24ff032c0f9966df15f9d27ba0b1a sctp: validate from_addr_param return
-f0ff061a858bdb0686df329dcfa8e7814bd63afe Linux 4.4.285-rc1
+b49a3460c5c0f2b88371f1b74f12a80e8249678f s390/bpf: Fix optimizing out zero-extensions
+df835546fab9ee2e1d59623fbe8f625043815cc3 PM / wakeirq: Fix unbalanced IRQ enable for wakeirq
+f7820f965070b3be7dd1c462aafb335da73b6c0f crypto: talitos - fix max key size for sha384 and sha512
+0032fc76b853ecc33f75c9b40deaee04c5279431 staging: android: ion: fix page is NULL
+3c969dca3fed45b31313597580e1e7c65ed750f2 sctp: validate chunk size in __rcv_asconf_lookup
+5d5885244b2cb7959b7c7571a36f540dca09bfa8 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+b206277f4610c4bf44b837019d49801e6fbdb875 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+c9491557d0d1f6cfa2694d8cabd3b782292d2f4c thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+1838d735ede7f34e3f6cf338e4803f42975c65cf 9p/trans_virtio: Remove sysfs file on probe failure
+cfb555dee6415e1cdd1c740dfc19b9e685abb38f prctl: allow to setup brk for et_dyn executables
+4088311cc6fbd03506bf850a494ac58e62f69040 profiling: fix shift-out-of-bounds bugs
+f6c8877bc519ef48ba22b8f512d927ad38e5752f pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+b74fdda1e9308cee066b0b7ae84107874ae9ad3e pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+cc1748807e72ffb4556a97b7d62bcdedf01d47d8 parisc: Move pci_dev_is_behind_card_dino to where it is used
+ac3db1643f402aa986b4ce2b8ca6bdaf3ca842f7 dmaengine: ioat: depends on !UML
+4231fdba00dbd3f1eaf6d50a1ddada8d66387741 dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+f4913bd3b5d30275bc9b4f5555312e3b3575ffb7 ceph: lockdep annotations for try_nonblocking_invalidate
+a356a38e1c08b2305af0b96a74fd79f2b45017d8 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+8d96bb74ca27573f1731bde0b66d302da09d1033 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+7eefea82d39282eea4ea794d96aea80879ec2d6f nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+6ebb13d274c6e783af0320190e3e33ac7f3da9a1 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+0df6f8688261d0d115410e8dd56f491f3dc24f17 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+29cc02261b8c31b6daa38007b58af64d3043cf91 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+90e0c34f0dc29696eb41affb469f47f21de310b2 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+7ae077d987d608de5c7f43275d115bfbf46f651a drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+d53929dadea0c8fa200ee7e96862412db7ea9f72 sctp: validate from_addr_param return
+09643351c2e19ef7a35fa69b956bf90765844777 Linux 4.9.284-rc1
 
---===============2892117322314582933==--
+--===============0644087588251371643==--
