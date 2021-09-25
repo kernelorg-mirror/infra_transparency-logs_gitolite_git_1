@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sat, 25 Sep 2021 20:29:18 -0000
-Message-Id: <163260175803.31960.11188074959644612055@gitolite.kernel.org>
+Date: Sat, 25 Sep 2021 20:38:47 -0000
+Message-Id: <163260232747.5196.9797950853669751821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 6c5d3a1c08bda1bbf22187c7b80573400e1c1053
-    new: 932131c944b10f2a03f4028318c454c98eca489f
+    old: 932131c944b10f2a03f4028318c454c98eca489f
+    new: ab85494f8bf0b96c1129a81059da9b428942a1ed
     log: |
-         932131c944b10f2a03f4028318c454c98eca489f t/io_uring: add support for latency tracking
+         ab85494f8bf0b96c1129a81059da9b428942a1ed t/io_uring: batch stat updates
          
