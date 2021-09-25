@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 25 Sep 2021 14:50:04 -0000
-Message-Id: <163258140479.15926.2427101119063580562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 25 Sep 2021 14:54:43 -0000
+Message-Id: <163258168358.18023.5843250539817398638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/block-5.15-2021-09-25
-    old: 0000000000000000000000000000000000000000
-    new: 44ae78a1d7402037d2e13c632729fcb2b8b7ee0f
-  - ref: refs/tags/io_uring-5.15-2021-09-25
-    old: 0000000000000000000000000000000000000000
-    new: f30765b6245265e36a0567f478bed5f8447cddf5
+  - ref: refs/heads/testing
+    old: 55c45baaaf78ee8c49db217f165116babfc84626
+    new: 35cfa3a4a3af70e45254cdd67424783dc1fd33fe
+    log: |
+         71cc4f1124cb7005e26f553e2cead901dbd815bb iio: adc: exynos: describe drivers in KConfig
+         35cfa3a4a3af70e45254cdd67424783dc1fd33fe dt-bindings: iio: kionix,kxcjk1013: driver support interrupts
+         
