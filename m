@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 25 Sep 2021 15:37:30 -0000
-Message-Id: <163258425079.13090.12610527449068571882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 25 Sep 2021 17:41:34 -0000
+Message-Id: <163259169424.25922.5746769944601109758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/tags/erofs-for-5.15-rc3-fixes
-    old: dae51c2156b1b4a0caf237a706bed669152e03be
-    new: 173b0313ac178ab2905cc612bbedf2fd7613e3ca
+  - ref: refs/heads/for-next-test/kspp
+    old: 0000000000000000000000000000000000000000
+    new: 29b6166a9ead274958da70ff8ea5957948aaa5ed
