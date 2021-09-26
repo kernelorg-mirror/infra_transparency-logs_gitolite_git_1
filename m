@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 26 Sep 2021 11:22:14 -0000
-Message-Id: <163265533466.19694.9791267153487626039@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2144440253000054387=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 26 Sep 2021 11:35:39 -0000
+Message-Id: <163265613919.27704.7130129302747162057@gitolite.kernel.org>
+
+--===============2144440253000054387==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testing
-    old: 61d7a8212710a13079c532495ebb87f21d54045f
-    new: 501325dcf6d7f18431307173fb50b5c165a11268
+  - ref: refs/heads/master
+    old: 6dd6cb63980307363d71c6963751b3f8e0c67fc8
+    new: f0b4e14ae9c5b0ca77a8a39062adb2339419f3cc
     log: |
-         e96b152c6cc2c8760b8d8e1b6049928349322058 iio: adc: aspeed: Keep model data to driver data.
-         04948b27a20191d10dbb7d538dc03ef9aa7a423d iio: adc: aspeed: Restructure the model data
-         4b849475544e6c95dc0ba1822e7e6a5a7dad326a iio: adc: aspeed: Add vref config function
-         2710164a8537cc9e0253c6a5fb520fab58b25c56 iio: adc: aspeed: Use model_data to set clk scaler.
-         598476da54f7f2f5ff19197d484fb5fdaa903811 iio: adc: aspeed: Use devm_add_action_or_reset.
-         a92c74f407ae92fa269679acc8e8ba325c24cc71 iio: adc: aspeed: Support ast2600 adc.
-         590c583d0c424300e5020165c3539631857aa844 iio: adc: aspeed: Fix the calculate error of clock.
-         c86fd099d56ead762770ef1f878250207c357426 iio: adc: aspeed: Add func to set sampling rate.
-         d953e790662ba7198d10fdc117632e9004be314d iio: adc: aspeed: Add compensation phase.
-         478a60c6efec9ec3b0a7a067251f6491bc8525ea iio: adc: aspeed: Support battery sensing.
-         501325dcf6d7f18431307173fb50b5c165a11268 iio: adc: aspeed: Get and set trimming data.
+         f0b4e14ae9c5b0ca77a8a39062adb2339419f3cc Linux 4.4.285
          
+
+--===============2144440253000054387==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632656137 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1632656136-27fe6b09b5bd61b78f024a0fbed6a3e3f8bb7774
+
+6dd6cb63980307363d71c6963751b3f8e0c67fc8 f0b4e14ae9c5b0ca77a8a39062adb2339419f3cc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFQWwkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eioQAIWHQDFg+Dm5Q4PcYfnJ
+i4l1XF7sAT9Z4nMBNmOEjKYrBXai0DrhQEAccOS7QEzMDoyLi37+pf4OGY5YcqRn
+gxCNExsOdQx8lM/H8cyjx9zF4mS84py8gEzp+Wl/sbbgkofnHwQ03FzaB8xXSH0J
+pf0oSPnemS3VSJevoAxJTv1KlSyt+GMnk+UcHKcUV201fawrVy2iy+PxoPTscw5y
+Z4josz75K4mgkf0hHhTQCCUgB9x2XtvxJfEu3gmiVItUEcTO6YG31MVpTFeEn/px
+OLsM64zqnpKp8aFIaeIai8CxZd2xeJL440h7tXmKuO0KCxQBP/lX2VACKWO94hJe
+Ex4Tg8tnvsy6NOA29iZprlFN42yhFgPo8JLlBU//hCfesC1U2k/aUc9eUryjBs3j
+iezQrReenB1yDQ+nmzacN9N4qzKHvbrqDvWECApX+/36o0lWLe5E9Bx48JUJ/vQf
+TkBpYVHVeLBLgOnGTKn3wYM4YGCpRxOOnIs1YyhDeVDyf7s0GxiKmgQDnUOSbPEc
+NFsey/6EbfpRj7f4Zmh77bWJSefixJQgfuatEXrCNRcyFnhR4nZhJeYRJEVhY2XK
+E3EJKfSGwj+omxacuF1YxApYIVi0iNkBosY41CGYOWHNBUkleW/YusM+vU0AgZ4N
+WkLZvqhXdtt3l13CF/9uVAcp
+=uuAa
+-----END PGP SIGNATURE-----
+
+--===============2144440253000054387==--
