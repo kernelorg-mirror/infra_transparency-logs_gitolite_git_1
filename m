@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1980434357850280822=="
+Content-Type: multipart/mixed; boundary="===============4499662074457354321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 26 Sep 2021 13:05:29 -0000
-Message-Id: <163266152991.16414.2224148025633516075@gitolite.kernel.org>
+Date: Sun, 26 Sep 2021 13:07:31 -0000
+Message-Id: <163266165139.17141.7897874952936649773@gitolite.kernel.org>
 
---===============1980434357850280822==
+--===============4499662074457354321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,225 +16,236 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 073ec66e445975774fd5e5eb0c05ef84831d8a72
-    new: 61514a1b036f6209db75b9131d1889dc5c99125a
-    log: revlist-073ec66e4459-61514a1b036f.txt
+    old: 61514a1b036f6209db75b9131d1889dc5c99125a
+    new: 6323e59d10aac6254c0227b7c13a8518d78dde0f
+    log: revlist-61514a1b036f-6323e59d10aa.txt
+  - ref: refs/heads/queue/4.19
+    old: 1236528b765c7f7b73b487520b5e924784eb0541
+    new: 8d0e39623480a24f6233ed052945ed5eb67e8309
+    log: revlist-1236528b765c-8d0e39623480.txt
   - ref: refs/heads/queue/4.4
-    old: 4106b2516148f88dd6be06b40fc23452f438a149
-    new: d4d052599fb810d05180bd64b0c3416ea096e47c
+    old: d4d052599fb810d05180bd64b0c3416ea096e47c
+    new: d6091e5cd92743c656316d6f1372ce6fe33550d0
     log: |
-         abce8b0edf9ef4130fc6c653df0f55638562009f usb: gadget: r8a66597: fix a loop in set_feature()
-         4e26427cfec158696061dcf53ff259eabe9d7f3a usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-         560a0dc8ac268e7de825cb22e3ed9ff7a303ec82 cifs: fix incorrect check for null pointer in header_assemble
-         374a284216040e90569550647522b5aac4c797f9 xen/x86: fix PV trap handling on secondary processors
-         4765ed58b0570d9883e8a98c3949f0e7ca687915 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-         2ebe87a2a46c059e31fab7533078484e7dffe246 USB: serial: mos7840: remove duplicated 0xac24 device ID
-         e2d437b7d020838da199af14a9dddd32b9302e94 USB: serial: option: add Telit LN920 compositions
-         b0305453762178c235e2db40d8c4d9291d829eed USB: serial: option: remove duplicate USB device ID
-         d4d052599fb810d05180bd64b0c3416ea096e47c USB: serial: option: add device id for Foxconn T99W265
+         8e5f4513df19750856de2e2de6890a72d9a87f04 usb: gadget: r8a66597: fix a loop in set_feature()
+         fe5431e60c2352360fd32ef79e622fefea161228 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+         599e3ebbc588aa4454fe31aeb09740365147c8c2 cifs: fix incorrect check for null pointer in header_assemble
+         bd2bafd81f9be79cb841148585687b1301fed04c xen/x86: fix PV trap handling on secondary processors
+         ba457e8c6fbd2e89de1449eb60f7ab0073a1f464 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+         77dceb6f2c4314fd6a345a6a43dfb96bbde4bad9 USB: serial: mos7840: remove duplicated 0xac24 device ID
+         7595546ec5b0ebcecf9a35b4c7e46f08903db5b5 USB: serial: option: add Telit LN920 compositions
+         9e69d7395c3949acec478d60c7aeef55b2dc9b6f USB: serial: option: remove duplicate USB device ID
+         d6091e5cd92743c656316d6f1372ce6fe33550d0 USB: serial: option: add device id for Foxconn T99W265
          
   - ref: refs/heads/queue/4.9
-    old: 60a7b081d19a67e10e1202d2d3c6ae409826c5ab
-    new: 96a0cffc2146729a058abe4a2cd1d133b0df6f4c
-    log: revlist-60a7b081d19a-96a0cffc2146.txt
+    old: 96a0cffc2146729a058abe4a2cd1d133b0df6f4c
+    new: 5bcd4407c5adec3d9dde4a2244097ad630438a79
+    log: revlist-96a0cffc2146-5bcd4407c5ad.txt
   - ref: refs/heads/queue/5.10
-    old: 14ce00aac7cd359366638e235923085d111648d0
-    new: 0fb4ffce4b36c316a0e0bde2f84ccd285badbaca
-    log: revlist-14ce00aac7cd-0fb4ffce4b36.txt
+    old: 0fb4ffce4b36c316a0e0bde2f84ccd285badbaca
+    new: d4d7a75a7b7ebb9247bb5e8ee7344614754a031f
+    log: revlist-0fb4ffce4b36-d4d7a75a7b7e.txt
   - ref: refs/heads/queue/5.14
-    old: 88f0d545e65b2af0cece7032e76e25f5d4693c39
-    new: 125d3354ebd95054320439fb2790caea783a3a3f
-    log: revlist-88f0d545e65b-125d3354ebd9.txt
+    old: 125d3354ebd95054320439fb2790caea783a3a3f
+    new: aae09a1a561d2e837d62a4ca410f9a23d1bd3c42
+    log: revlist-125d3354ebd9-aae09a1a561d.txt
   - ref: refs/heads/queue/5.4
-    old: f520d15f112c6668cfffa6c8c9b07fb1974ffeb7
-    new: 013da92437d789a98ef223503ef341acf73602f0
-    log: revlist-f520d15f112c-013da92437d7.txt
+    old: 013da92437d789a98ef223503ef341acf73602f0
+    new: 185283b53dcdef01d6616c69e589467ad15e3097
+    log: revlist-013da92437d7-185283b53dcd.txt
 
---===============1980434357850280822==
+--===============4499662074457354321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-073ec66e4459-61514a1b036f.txt
+Content-Disposition: attachment; filename=revlist-61514a1b036f-6323e59d10aa.txt
 
-5a1f039ea7ea728eb4226495a40658539ebfe8c4 ocfs2: drop acl cache for directories too
-a5886bcfb45a1b8e82b5dfeda1ba66a3e713c36c usb: gadget: r8a66597: fix a loop in set_feature()
-a2b2d9b558ed12d5176b497c71c900d772f1afb4 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-5cbfb3894ecca09f77d7c056e5dd25a40fde6868 cifs: fix incorrect check for null pointer in header_assemble
-48ae503c6b0ffc3d953df907cc865926dcf76de5 xen/x86: fix PV trap handling on secondary processors
-1fb68068d62efe975d77a7ba6e2cc5a8c4d08d9f usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-a1193a0c596db0cd3595b2cae81738750233647f USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-3271c18938aa90120861be42ad59898bf8205a8d staging: greybus: uart: fix tty use after free
-24d66cefe4a537eb313b9e3038ca3f877a794047 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-3b840329f098ee62bca2372e0f0d9224521f3b2a USB: serial: mos7840: remove duplicated 0xac24 device ID
-2c4bdd3786229bb2c8ee5ba47c501cdaf39a16dc USB: serial: option: add Telit LN920 compositions
-e7ab9bbdad20cfc49c69efd705f21cc3315587bc USB: serial: option: remove duplicate USB device ID
-7848deed20436d50cb268f9d3aebc3e5c29a2beb USB: serial: option: add device id for Foxconn T99W265
-61514a1b036f6209db75b9131d1889dc5c99125a mcb: fix error handling in mcb_alloc_bus()
+0a05763ac4365929d6b15f164ef3f7ccf7f2b1d0 ocfs2: drop acl cache for directories too
+3e77767234df42c445d83e7d3a0c5aa086cb5976 usb: gadget: r8a66597: fix a loop in set_feature()
+06a75d9a6680b03c7210a72119cb587a5e8dc123 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+52db62da5b1ca9a5468f64eaf77a752103144a8e cifs: fix incorrect check for null pointer in header_assemble
+2b3dc6aca385d97b3e33e6edc8709a82f1e1170f xen/x86: fix PV trap handling on secondary processors
+8e0e4fc1decebece8fe288a2cf7a9271b04f6006 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+4e43dcf903857513c2b943c407bca63e65b28c49 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+e7d6f0c110e043060c20d852a57cdd868360db63 staging: greybus: uart: fix tty use after free
+a346fe784e06e4f77e5fb7d7cde57e26e6939533 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+094aaddccbd6eb2dfa05ea31a9d34360aba6068b USB: serial: mos7840: remove duplicated 0xac24 device ID
+cbbce5e3378ada18fab14a09b99ce56f92625d2b USB: serial: option: add Telit LN920 compositions
+8db21b0bc1718987c2d9900e02610d15de4b3763 USB: serial: option: remove duplicate USB device ID
+c6e8a6a70cb60fa3048a9d023ce3e636976ad70c USB: serial: option: add device id for Foxconn T99W265
+6323e59d10aac6254c0227b7c13a8518d78dde0f mcb: fix error handling in mcb_alloc_bus()
 
---===============1980434357850280822==
+--===============4499662074457354321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60a7b081d19a-96a0cffc2146.txt
+Content-Disposition: attachment; filename=revlist-1236528b765c-8d0e39623480.txt
 
-18ee705dc19212939601ff4c7224fd65e5f79a3a ocfs2: drop acl cache for directories too
-6b221eece28740f59927acc5b44c9a1a3f5347a2 usb: gadget: r8a66597: fix a loop in set_feature()
-f09ba010b6a3ce5a450a58bf2306491f1710eb86 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-8ad4036059c4a7f568dcf610fa0e15f4378a36c9 cifs: fix incorrect check for null pointer in header_assemble
-b505a91835ecc8d4128d00f21a69030963c60c85 xen/x86: fix PV trap handling on secondary processors
-6e403adde51fb35a887ab1fe776d4be66ac35da8 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-74796885bc97bf0ce1c8ecf2062525e84735f7c5 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-f3eabcf811ba7a80b537fd32ed0e0dab2e3ee984 staging: greybus: uart: fix tty use after free
-b036834102e153561854b837dd3dbd0bfc1599fd USB: serial: mos7840: remove duplicated 0xac24 device ID
-dff4077cd07a3177c232ff39d5f71ecbecbd9d9b USB: serial: option: add Telit LN920 compositions
-6919523b97e250efab65477c42580c91966c1e11 USB: serial: option: remove duplicate USB device ID
-2343eb74e0177fcc65ada58c0c0c427ae673eb7d USB: serial: option: add device id for Foxconn T99W265
-96a0cffc2146729a058abe4a2cd1d133b0df6f4c mcb: fix error handling in mcb_alloc_bus()
+ddf58efd05b5d16d86ea4638675e8bd397320930 s390/bpf: Fix optimizing out zero-extensions
+41d2efaed5bdabe675857e6ecaa324b5504fc268 KVM: remember position in kvm->vcpus array
+3226fb90cf5dc89611f742f122a33d4598076ad5 rcu: Fix missed wakeup of exp_wq waiters
+b0008fbdc75f08d933842b7071110010234b434b apparmor: remove duplicate macro list_entry_is_head()
+320dc471c471500d61c98380395f8f54aa4add7f crypto: talitos - fix max key size for sha384 and sha512
+6cfbbb961bb94de85455fe35140b1350c7ccb76c tracing/kprobe: Fix kprobe_on_func_entry() modification
+194d21f10ef6a2e1109c31d775fb23ffdb41657f sctp: validate chunk size in __rcv_asconf_lookup
+718094012d82a9e925a839fbab11a1eaa3220669 sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+523559507138ca4abcf4c2522c0061071c1d60a0 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+5286a3101efc6bceeaeb64617085537bf5a185d8 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+2749bda43b39fc4dabb5c170bf8a4dd2f0a942e7 9p/trans_virtio: Remove sysfs file on probe failure
+6a96bac8ba0a5ab9c9af1ed1c77478e19ae1f0f6 prctl: allow to setup brk for et_dyn executables
+c19e28a761fe370f970c1846df6ea063a70d0cf1 nilfs2: use refcount_dec_and_lock() to fix potential UAF
+a94a60ef75d6cc2ac4c0d07cd043316e7e8b5b3b profiling: fix shift-out-of-bounds bugs
+4459118977665f681017e1299933895d54b6e87b pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+5a402646c9bb89f80930955b4e3805c111111ab5 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+6bd98f8259ac7e0c6f7cbf505b06504b18106623 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
+bdc27784e5662e51a3c3b31983cb5329b2ea60fe parisc: Move pci_dev_is_behind_card_dino to where it is used
+152ef880577b4cd36a1160d3043a6ae21d8f1f1d dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
+2be41013f7143b8ac0f0dba044bb2a8d425a0e37 dmaengine: ioat: depends on !UML
+2e6f2bef14a8bdd639d72665c4feb786af0a7ffd dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+a2868b5e18884efd37f4a30c4cf28d925564da90 ceph: lockdep annotations for try_nonblocking_invalidate
+7b213dcbd104262109bbd0ead1e4f43e36aa65c4 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+28c1f8fa5c989dee8457cee8db719e0a1f951d87 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+26a7357ddcb7ecaf8b5528ec14c1f672e481e3b4 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+a37b7ae1ec75a62e0a0bf8c75d5df24aa087842b nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+c55c9e1f56d4ba3f669d25a8d9a27f6f21b320e2 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+546076c98733abd0383d4a08b3434863208f4f1c nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+86fa9b63b549f97c43682cfc02e2076ac9b3d5ca pwm: img: Don't modify HW state in .remove() callback
+663b066293c946f9a50d61829329e2ef84d04b05 pwm: rockchip: Don't modify HW state in .remove() callback
+f7ca7b67a07e550c30f43a732c17a324614de377 pwm: stm32-lp: Don't modify HW state in .remove() callback
+8936b8ef85ecb5685f9b9656b4904b95c7362dac blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+c512154854e2dd00c3cc373dc33201bfe6638a75 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+c2276d585654e8d573366c29c565043ec36adf63 Linux 4.19.208
+b68f337065361c29a4c2d015a71b23c3b868ef2a ocfs2: drop acl cache for directories too
+f8920a2cb61a80479b7d03d522c53e50dc2e3c2a usb: gadget: r8a66597: fix a loop in set_feature()
+87f265458236dd5931207ad402ffee50ef2361ca usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
+8abc56e5c367a23c0449139532093e46582be92f usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+98cc4bbb6148021700a42f57259782db63ab4c27 cifs: fix incorrect check for null pointer in header_assemble
+49bdf2a9dea63457c0ea4c538bd3c3cc9e8d90b3 xen/x86: fix PV trap handling on secondary processors
+ad94d8b8159dd2180d759e93b5d658128b9be3b4 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+335adbd50972032a90010f1adc401677d8a9ae64 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+5950db817a5cf29fd06b11584584bd842dca5055 USB: cdc-acm: fix minor-number release
+84632759be2af52bd593dff72234198eb20d9ba5 staging: greybus: uart: fix tty use after free
+82113551ce677cc087b413bc461a75b419db35b7 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+0a2d1ab0261e74a07a0cb94ef7267e3ed5862899 USB: serial: mos7840: remove duplicated 0xac24 device ID
+eeb5ac9c84c5f011399ed7eb2b2b1f3a4ce3c849 USB: serial: option: add Telit LN920 compositions
+e52d9a03c4f5aa093f195750e0e29524064eb613 USB: serial: option: remove duplicate USB device ID
+6d61f6f9746d585244e5991d9d590f48e8b48289 USB: serial: option: add device id for Foxconn T99W265
+8d0e39623480a24f6233ed052945ed5eb67e8309 mcb: fix error handling in mcb_alloc_bus()
 
---===============1980434357850280822==
+--===============4499662074457354321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14ce00aac7cd-0fb4ffce4b36.txt
+Content-Disposition: attachment; filename=revlist-96a0cffc2146-5bcd4407c5ad.txt
 
-b66ca29b5f68f8beebe612e59fcb52c4f5a14075 PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
-27df04d1d9c7651842364c1d53069cdc01210b19 ocfs2: drop acl cache for directories too
-d95b22994aab295958fb8b5a908e4523de645909 mm: fix uninitialized use in overcommit_policy_handler
-ccd8d609cbc90b4d36f9eac95c140c679313b424 usb: gadget: r8a66597: fix a loop in set_feature()
-8243418c40891228d9f13c810704de5c689cfb22 usb: dwc2: gadget: Fix ISOC flow for BDMA and Slave
-0912bf6ad4d340348c4e456b743acc318f7d95b7 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
-36975ce4e8e7a6e252eb8b2c1882c8b280ac4912 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-eb92a6f7fd134d42297bc5d8f7cb6d09e7e91b59 cifs: fix incorrect check for null pointer in header_assemble
-6a4e772e05f6d36d01e07c4b0fc0ba25f5ca83b5 xen/x86: fix PV trap handling on secondary processors
-058dbc6e8d60cde61d5872a8b57db388426433ed usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-941af310782c199c911a02dffcecc9341e301f98 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-65984043fb42baf5e7d8d1492bc36a31b990eb72 USB: cdc-acm: fix minor-number release
-8f7c4e0d6c0da1362a3da37ddbc786e8037ec091 Revert "USB: bcma: Add a check for devm_gpiod_get"
-fc615419baa6bb198c76eda35df0c490e6420fe9 binder: make sure fd closes complete
-aa438c260101a34a728d971b574a9b06d34aa6f9 staging: greybus: uart: fix tty use after free
-56cf463e2980541ac50f8bc3c294774913c3e886 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-f26ec06baaeeea7feeba2967d976e76df33f6894 usb: dwc3: core: balance phy init and exit
-7e6a03174af817a0fdedefb2a0e1f41dd63e985e usb: core: hcd: Add support for deferring roothub registration
-4869b1a90ca9c62c877a9f5ce7c1fda1d60d287d USB: serial: mos7840: remove duplicated 0xac24 device ID
-e6d21cfa9b45d6f37b3c4ec31dd809309a9b0ccc USB: serial: option: add Telit LN920 compositions
-4660e29dfd23f55f114effb9ca7b04656148faba USB: serial: option: remove duplicate USB device ID
-41965d3cb94cfd06e889eaa011b503d89e2ed5bd USB: serial: option: add device id for Foxconn T99W265
-0fb4ffce4b36c316a0e0bde2f84ccd285badbaca mcb: fix error handling in mcb_alloc_bus()
+cee9959f933b1b7d638d9fcddc7dac08435caecf ocfs2: drop acl cache for directories too
+ce24f75503fed225026bdcd96e7c32729ead1916 usb: gadget: r8a66597: fix a loop in set_feature()
+c0175e4222b118ec6625d617e8742841a4b601e2 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+d2c9c53f4e483e668d2b014afce7338cdc89d59d cifs: fix incorrect check for null pointer in header_assemble
+b13e9991c5129727c9b871c9202a8c9f94ed24a3 xen/x86: fix PV trap handling on secondary processors
+cf7f8ea68468d5896c420062cb93c92bc3e657aa usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+9b729ae731802c832dc9de36b3c7d6747cd0b85d USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+d4d823af982b474ecf3a116c7b6c3b92f57605db staging: greybus: uart: fix tty use after free
+686fa73909e1591a2f64fa5691d6cfee92bf7073 USB: serial: mos7840: remove duplicated 0xac24 device ID
+95193f03f8368cf020b469fde4d714ebff72b970 USB: serial: option: add Telit LN920 compositions
+ba5c69df7f6256c8f3d8db2391c2872592622ad4 USB: serial: option: remove duplicate USB device ID
+e71bd734c8be5939e277b3938228ec556a287401 USB: serial: option: add device id for Foxconn T99W265
+5bcd4407c5adec3d9dde4a2244097ad630438a79 mcb: fix error handling in mcb_alloc_bus()
 
---===============1980434357850280822==
+--===============4499662074457354321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88f0d545e65b-125d3354ebd9.txt
+Content-Disposition: attachment; filename=revlist-0fb4ffce4b36-d4d7a75a7b7e.txt
 
-0e52c0cf073e399b40b962ee6159319728fe751a mm, hwpoison: add is_free_buddy_page() in HWPoisonHandlable()
-4e0f58576493142cff94edac23807a92fab6b3b9 ocfs2: drop acl cache for directories too
-ca68b15cc39fa7a48c980618f2a019227957cfc2 mm/debug: sync up MR_CONTIG_RANGE and MR_LONGTERM_PIN
-677ee7f9fb9b4d114c2f8150fe96c6beaee51028 mm: fix uninitialized use in overcommit_policy_handler
-d52d855fd2f05835b03d6806846e59e35f780229 usb: gadget: r8a66597: fix a loop in set_feature()
-ede689c2574a513978fba8024c29bd1976ec31b5 usb: gadget: u_audio: EP-OUT bInterval in fback frequency
-5b66f9683c64342498c951e07c04ba19ffdb4c6c usb: dwc2: gadget: Fix ISOC flow for BDMA and Slave
-18d25f8799ccdb0e5cde58f52fd5318df2ce5000 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
-18312123140f4417623688ca27eda654047c0b55 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-e80852c009c92829fff098454af4fc8748864869 cifs: Not to defer close on file when lock is set
-755ba12259f81e0ff9c382ca8883879264ed1683 cifs: Fix soft lockup during fsstress
-a6e2a6f38038047fd9880a7fcd6c720aa93e8f49 cifs: fix incorrect check for null pointer in header_assemble
-3268a38e155512de0adee4a02ef04879ad79c612 xen/x86: fix PV trap handling on secondary processors
-c4cd4e77c8bb2b2f4e921b4a95c6949807c5f4e7 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-be2d40353c87498c39e9e96b7437b2417b46e085 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-f87874023e46da7965ac2d40e811a741e17bf115 USB: cdc-acm: fix minor-number release
-1497c2f3c0ead1b5349fc8d98f7241089e1fed6e Revert "USB: bcma: Add a check for devm_gpiod_get"
-af846737f67924b7efc05f9b430497800a15b9bb binder: make sure fd closes complete
-dfe159c2920378bf3ea52c0c8becef4c34bcd942 binder: fix freeze race
-55279998c82c855adf9b5a4ec4a7917816e1a852 staging: greybus: uart: fix tty use after free
-8f4b6396eaabfe939f0c72c0860bd3ea610751db usb: isp1760: do not sleep in field register poll
-0da77d7a9ddeb276f84228d49867517c487cd4c1 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-4dbaab22ee78d872e1a5bf3f3b13f972a9ddbfa3 usb: dwc3: core: balance phy init and exit
-e9781606c06ff854665444443b634e66dab8ad85 usb: cdns3: fix race condition before setting doorbell
-9cfb9313edeaeff106e3a7e8736dbbf9ff82ff9f usb: core: hcd: Add support for deferring roothub registration
-8212a520327ed7a2aff14099c18e0457d6ac14ec USB: serial: mos7840: remove duplicated 0xac24 device ID
-64a39a89bb39443811175fa269cb7064c11903e4 USB: serial: option: add Telit LN920 compositions
-59a496a9fc6105308c274759daf1c57811be1a18 USB: serial: option: remove duplicate USB device ID
-1ebc06c7d86318b0a34319c0bda7c98564f75b3b USB: serial: option: add device id for Foxconn T99W265
-cbb66d1af3f0f131ccf7cc5cf5e5644000071507 misc: bcm-vk: fix tty registration race
-f5e4c127558350b2d255782b98e2cee7a255e106 misc: genwqe: Fixes DMA mask setting
-4dd291177de3d0128b29fbc1c3d32e1fa9ca2d17 mcb: fix error handling in mcb_alloc_bus()
-125d3354ebd95054320439fb2790caea783a3a3f KVM: rseq: Update rseq when processing NOTIFY_RESUME on xfer to KVM guest
+faba70a0764349a64b9b638845895efea20b35fb PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
+7c1b81f67588521fef3bc3786614517500c35453 ocfs2: drop acl cache for directories too
+27d14e3d0b43a7db8d9a97e909e104fe01f6c3ea mm: fix uninitialized use in overcommit_policy_handler
+e37554bef0ab2ff5e3a50978628a116e8ae04b14 usb: gadget: r8a66597: fix a loop in set_feature()
+c22e20ab2ca07d18f30903f771560c15131774f4 usb: dwc2: gadget: Fix ISOC flow for BDMA and Slave
+b32d47b49c25bb43dd0c4a9c6f6e8710bce27e54 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
+76a93c4660be63e327e4cd6c535d123d3aea1a43 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+cd4ef3eeb82b13b72157bbc618267e2e8f40178a cifs: fix incorrect check for null pointer in header_assemble
+12b2e6532b2b78f26558447c2e93e4de27c5d5e0 xen/x86: fix PV trap handling on secondary processors
+de19ebac2ec8087f1282ec55e3ecaea5ba733009 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+fe6f325ec1459c24e00fd7ccf258623191f46f80 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+441640e012bcc831a50f6e14a7dd1756742b804a USB: cdc-acm: fix minor-number release
+d6d3cf0bb1961377d19106373292ffed6a1a95df Revert "USB: bcma: Add a check for devm_gpiod_get"
+a21e5466596109804b1f71086ef24ab9474af152 binder: make sure fd closes complete
+2dbe7657b13483d7b0ca7b868cc75c78b5170c44 staging: greybus: uart: fix tty use after free
+1f830d0d94f59d7a605608cf641f3f4da2c30e73 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+37971d76a74bd30227904ff7168efbf9c227eacc usb: dwc3: core: balance phy init and exit
+605d07943d5578f497e5ea4d8669d2d7307d387a usb: core: hcd: Add support for deferring roothub registration
+d70ea39c2b76d887726ffbeab0ef335e32836ed2 USB: serial: mos7840: remove duplicated 0xac24 device ID
+34bcad34cf3423932906ea63751c1ab54fa7c8d3 USB: serial: option: add Telit LN920 compositions
+81f961c1e501faabe6a847a976dc09c6bc164bcd USB: serial: option: remove duplicate USB device ID
+ef7e63ff532291708865cb3820cb8bb0f808db98 USB: serial: option: add device id for Foxconn T99W265
+d4d7a75a7b7ebb9247bb5e8ee7344614754a031f mcb: fix error handling in mcb_alloc_bus()
 
---===============1980434357850280822==
+--===============4499662074457354321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f520d15f112c-013da92437d7.txt
+Content-Disposition: attachment; filename=revlist-125d3354ebd9-aae09a1a561d.txt
 
-2fcb7b7a1d209bdd48474718c9471cd31b60b22c PCI: pci-bridge-emul: Fix big-endian support
-296895c4f0c803f31ff715d831ef4f7fc7e22c44 PCI: aardvark: Indicate error in 'val' when config read fails
-3f0e275e43f6201c0f4fbe29ab8b5d7a224bf6e0 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-ec29e33e5cba79b0703f21192c00e18b0eeb2206 PCI: aardvark: Fix reporting CRS value
-5163578e9d0b66509eb41567b1d2f4d4f81c2d70 PCI/ACPI: Add Ampere Altra SOC MCFG quirk
-b0c813fbbf75cf3b459c09f06a0e93b84995cb24 KVM: remember position in kvm->vcpus array
-bd292c687390859d85cdedcf53c93f5e49c1f814 console: consume APC, DM, DCS
-6bfdc3056ca81323870e7c2bee3a62aa9faa78d9 s390/pci_mmio: fully validate the VMA before calling follow_pte()
-f23763ab464f1eaf90912516540165a6e163ad4f ARM: Qualify enabling of swiotlb_init()
-278df0646003b28ff394e2e42a73262b452832ed apparmor: remove duplicate macro list_entry_is_head()
-490be340c86cb8d52401477381d2e36946ad675f ARM: 9077/1: PLT: Move struct plt_entries definition to header
-1b27a03d1292875989c5bbdd86932d1e128fe743 ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
-2f7974cd7b12ae219b11942ac9015341e3f0ba15 ARM: 9079/1: ftrace: Add MODULE_PLTS support
-6a12918e906582bd0ea00c7eb83e3a3555847e31 ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
-cbd10b118902ca8a86851e5c4749fbb12cd9ebad sctp: validate chunk size in __rcv_asconf_lookup
-2f4b67bceb09cabbaeceeb278eeed27862c386ec sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-4cd05e390a3bd70de662f6380177a25b69bcedb9 staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
-93f8a98ad89cd1dfdc844804b84152f1c0181790 um: virtio_uml: fix memory leak on init failures
-e1060803039dbc5608f21ab8c319f4d01e8b24aa dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-c3b45ea0a3c890f807519311e70853c8310151d9 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-b40301607ca8f97e251fb1bde0719b100f6ca708 9p/trans_virtio: Remove sysfs file on probe failure
-5607b1bae1c852a794f777ee3a60eae981fcdb7d prctl: allow to setup brk for et_dyn executables
-7e98111cb28e595dd8571ee181bc03986ce66d1f nilfs2: use refcount_dec_and_lock() to fix potential UAF
-b94def8a475ffc1a32f447db062bb2f0cf3e7125 profiling: fix shift-out-of-bounds bugs
-81e6b51709da162b94e40a445bb60856406beaa1 pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-729f9d5ee3740196071dc15031ce48f3e7659b9a phy: avoid unnecessary link-up delay in polling mode
-3c1d9b650c0802c003ed70bab4fc01476000bb46 net: stmmac: reset Tx desc base address before restarting Tx
-c7b9a866ee2547984ae29c30f40299b07f99d04a Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-a12743d0724976b838bc5928f367da063b0487a4 thermal/core: Fix thermal_cooling_device_register() prototype
-2f7bfc07e38662077f802abe56715b5e92663364 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
-445a3379f6dff613ed3608ac2e0b00dc6eee4597 parisc: Move pci_dev_is_behind_card_dino to where it is used
-644f1e87fe73435d80ea45f60a4b94c81b6259da dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
-2f3206199dc957d5cf0d7bfa19a992e60aebc602 dmaengine: ioat: depends on !UML
-2c89a856fa491ab83f55c4c14d3ab1f93ea79e1a dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-3bbb11261a75d4c8fc2fcf3c2ee2a8507c76fdbb ceph: request Fw caps before updating the mtime in ceph_write_iter
-3f2d5c11bef8d29438391bed4b44380d9a0c220e ceph: lockdep annotations for try_nonblocking_invalidate
-fb4c7d2923de74ea73faabb8a69bc377c27f7fdb btrfs: fix lockdep warning while mounting sprout fs
-9c3ba404881d77181f566441c14ecd48bfab3266 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-dc70f0c8c3deb1f0af5bf9c9574af12fbcf8a3f9 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-288c8b5ba52dbe08d1e753c4e42dca9d39ac7b8f nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-237ca37ca5ac45d8b91f145000dece214ce45a7e nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-594addd4369e1255bb5bbe8e5ee104cb4eca2bbc nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-b16f4acf6b65a22a01783fc62b669287bb9d8b0a nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-ed60d2db3171d2686540cfcb951054610300e0cb pwm: img: Don't modify HW state in .remove() callback
-8a29e68ea8e8d8492c1d0d7d9931d45861b50593 pwm: rockchip: Don't modify HW state in .remove() callback
-c37a34d7975fcff432bbd6178215951ef1559654 pwm: stm32-lp: Don't modify HW state in .remove() callback
-43832bf76363d7c9730e42a0ddbe3e22772ffcfe blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-409cb0b3d45ad6a9b809f9ec77166a02b13740b6 rtc: rx8010: select REGMAP_I2C
-382526348612be42873ec92bc4948996bd421c07 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
-e74e2950a0d6f800858e54860d7124c86e494f62 Linux 5.4.149
-26627409270cab7152161b9fd9286f7fffab1c32 ocfs2: drop acl cache for directories too
-547c4a333289b0b9b1c4b192c41d8d05bb3e493d usb: gadget: r8a66597: fix a loop in set_feature()
-22abd02c0af22117fe8f15b020c05077789f7a0c usb: dwc2: gadget: Fix ISOC flow for BDMA and Slave
-397326dbfab251aaea77766245812a11d3a6ff46 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
-60f45ca992576ce4d7e0939fe2c00471176b918a usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-4064ff46e6c22e7ac9d7eb7ca2e2d4d660c64d2e cifs: fix incorrect check for null pointer in header_assemble
-219015e1e0ce3beaaa0e384808cb6f42ef783483 xen/x86: fix PV trap handling on secondary processors
-523ae12ff625a68c5c3917661d89b390cbe60dd9 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-99a2b142001a44f961c0c7833c029cfe71058399 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-f1ad541f1271554d3d0f9f85841d590af55caa21 USB: cdc-acm: fix minor-number release
-7a74d09f6ca010667c34345fcf7e5d8be2bba003 binder: make sure fd closes complete
-11c2acd3aef7f848e67bcfce826380f31f9e930f staging: greybus: uart: fix tty use after free
-230114d31624e449981029d727e5bd9a270c0a6e Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-75e56ef36d1a70a21200fb39692441048cad9a1b usb: core: hcd: Add support for deferring roothub registration
-efdb772a1280a1ccc407007fd5348a7262a89cd3 USB: serial: mos7840: remove duplicated 0xac24 device ID
-315036c462d391e4c4f59124d1f6e17b68c0bc00 USB: serial: option: add Telit LN920 compositions
-cfa50c55eb86d15cd742b707d9bb9adc6817cfec USB: serial: option: remove duplicate USB device ID
-b1f430566d3a8a3762eb2e74c13f81355c6578d7 USB: serial: option: add device id for Foxconn T99W265
-013da92437d789a98ef223503ef341acf73602f0 mcb: fix error handling in mcb_alloc_bus()
+0a1fc975c38d2f7e4f319998eba8dcbf9f2c5f3e mm, hwpoison: add is_free_buddy_page() in HWPoisonHandlable()
+56b10e9ab42386a9c80f5e5541cb401e0db3f197 ocfs2: drop acl cache for directories too
+c1cd68f836bdc57ca26d8563e7591af20a834776 mm/debug: sync up MR_CONTIG_RANGE and MR_LONGTERM_PIN
+f621d35a3b20f021ac2bd39607cacb4ac6ee9a5e mm: fix uninitialized use in overcommit_policy_handler
+11a34fcc0a9a0481e6de6b52cc95c1cf9135d279 usb: gadget: r8a66597: fix a loop in set_feature()
+5495cab5215a4f845be9698274d31bfdbe4f5f14 usb: gadget: u_audio: EP-OUT bInterval in fback frequency
+666facd025c882a746962c56a36c15bca7a8f9fa usb: dwc2: gadget: Fix ISOC flow for BDMA and Slave
+6202d370ae510257bb1348d27b336fd04516c548 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
+ac19804cf25474e5dbe8b2844ad73016b76adf3d usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+197f279c37e52b2395eb239d1223742154e7bc9c cifs: Not to defer close on file when lock is set
+4d835692590cbd1398fc09c43c804f985a9dad73 cifs: Fix soft lockup during fsstress
+4bffa1da4ff15d2ba583db8652188fa85f3a1b50 cifs: fix incorrect check for null pointer in header_assemble
+226ce3b9fadbd6b425b511368195de3f4741c0ac xen/x86: fix PV trap handling on secondary processors
+a1c61e557fe5fc82c86e9cf8062e949e8768fd70 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+846c43af7e05532dcb6328505a489fce510ec248 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+016f376762e327df18b6317fe9e93bfbfa617b15 USB: cdc-acm: fix minor-number release
+2391eabf85ba8ce3e97cb5dd32c4b0fabbc38ac5 Revert "USB: bcma: Add a check for devm_gpiod_get"
+cd8a3756a2d843dc86a93d9b30badc3c70fa7424 binder: make sure fd closes complete
+e24313144b156f5632b42a562a6be79650c7e65d binder: fix freeze race
+37b6f6d1b424c02ed50499f22cbb2c45a62190ca staging: greybus: uart: fix tty use after free
+f36feaaf53a417ad77619d48a0c50bd6b4011c26 usb: isp1760: do not sleep in field register poll
+e0b6f0ada3b1c6e33f6270f9a47b7c78040317b5 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+99550016477b8c0908880957c4fd15808f2209d0 usb: dwc3: core: balance phy init and exit
+6ecf98d45e46bcfcb155cea4712e8ed33727211b usb: cdns3: fix race condition before setting doorbell
+f64c2eb363e2ddecd369cb9a17e6cf4fd40b9b19 usb: core: hcd: Add support for deferring roothub registration
+916f454ee09971e512a9446e8302345c105effb7 USB: serial: mos7840: remove duplicated 0xac24 device ID
+0ef8d9a6e8e1510699be014e3a96cfa78324e336 USB: serial: option: add Telit LN920 compositions
+4754c784cc0d8c745ebbdb22b658b78874c263d9 USB: serial: option: remove duplicate USB device ID
+a5e348a4502fb1b7cd4629ad6ce68cce6a825cfe USB: serial: option: add device id for Foxconn T99W265
+afeac561f0e0c5b5f2b73402c6ba214baae90fc4 misc: bcm-vk: fix tty registration race
+57edc62af8d9bbb99472f39430685c6ef1a02b27 misc: genwqe: Fixes DMA mask setting
+7c3ebb1318831abd734d994e762a07a3e2fc0f7b mcb: fix error handling in mcb_alloc_bus()
+aae09a1a561d2e837d62a4ca410f9a23d1bd3c42 KVM: rseq: Update rseq when processing NOTIFY_RESUME on xfer to KVM guest
 
---===============1980434357850280822==--
+--===============4499662074457354321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-013da92437d7-185283b53dcd.txt
+
+eccb9f2270d7a5ff6a872735d3c738dfc1a4cf9f ocfs2: drop acl cache for directories too
+4156d9d1f075d00150a4a84ffb0b6ce5ea0d6904 usb: gadget: r8a66597: fix a loop in set_feature()
+4482dd5ee0d18bc78559b89100b0691bc1a55ffd usb: dwc2: gadget: Fix ISOC flow for BDMA and Slave
+6fb6919a8d620e29b06ad659f8992e5f9e38aa3d usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
+a7e9f3c1b3c64b2ce74aa05c7b8bda816a43b904 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+46a13d0067ce4bf7ede7eed3832f822635dea9b2 cifs: fix incorrect check for null pointer in header_assemble
+cce48df69ee70708a15d2cca9a5bf739e26cfe91 xen/x86: fix PV trap handling on secondary processors
+d8b337a9e8704f31d3fc3764c3b05adc26cf7686 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+4acbf1561f80f166cc35ec731ee257168ab21e57 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+33e58329044ff537de6667a8e44d04db3806b7eb USB: cdc-acm: fix minor-number release
+f095b4f5f13b4d7d8c2f4b7a5209b21e28b3320e binder: make sure fd closes complete
+4f4ce59bb7a8e8b30d931d329769b0e2d3de976d staging: greybus: uart: fix tty use after free
+f955ba2ee7444fa4bf8bcdfd7b7bc73929ae89e4 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+db4120bf3e7f60fcf6698f0346c5a4bc4b6d312f usb: core: hcd: Add support for deferring roothub registration
+268f07baf404f511e32b69ba030b8dbe783ea80c USB: serial: mos7840: remove duplicated 0xac24 device ID
+47a8e2c56d52f680aeeea524c2e6f7de5838b20e USB: serial: option: add Telit LN920 compositions
+00f65fdd2abfd181fddc80727624068be1924aad USB: serial: option: remove duplicate USB device ID
+e7873696aa78a8c851bd72e24821caba2a6fa7c4 USB: serial: option: add device id for Foxconn T99W265
+185283b53dcdef01d6616c69e589467ad15e3097 mcb: fix error handling in mcb_alloc_bus()
+
+--===============4499662074457354321==--
