@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2727805643574553686=="
+Content-Type: multipart/mixed; boundary="===============4732673197330769808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 26 Sep 2021 12:09:52 -0000
-Message-Id: <163265819210.29707.4916620918765988090@gitolite.kernel.org>
+Date: Sun, 26 Sep 2021 12:09:55 -0000
+Message-Id: <163265819595.29816.11522226749957557343@gitolite.kernel.org>
 
---===============2727805643574553686==
+--===============4732673197330769808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,111 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 4d8524048a35c03ff04c25ca1bcdf569f9aeb14a
-    new: 5f4196eaa90c139ac470111b8e2deabf5f283baa
-    log: revlist-4d8524048a35-5f4196eaa90c.txt
+  - ref: refs/tags/v5.10.69
+    old: 0000000000000000000000000000000000000000
+    new: 573281ca0278f7e9358d5877b06b3d2e64dbc1a2
 
---===============2727805643574553686==
+--===============4732673197330769808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632658190 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632658194 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1632658188-ac369b510e16306e30c183cbbd362942326d4283
+nonce 1632658193-5bae99f96288f9bf64179497a9320720d059e597
 
-4d8524048a35c03ff04c25ca1bcdf569f9aeb14a 5f4196eaa90c139ac470111b8e2deabf5f283baa refs/heads/linux-5.10.y
+0000000000000000000000000000000000000000 573281ca0278f7e9358d5877b06b3d2e64dbc1a2 refs/tags/v5.10.69
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFQYw4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1isP/2RAhTZCnTSymE/R5rPd
-zC6v5TN9KK6uP8SgyOTQe0ovzupjMytLSfnerYxzxl9OewXrJ6WHMj7l17i9PqsW
-prye/gJdhnLx7AxiZyrCBVg6OwC3Es477WthOWaXgw0g36v5oCg29DixdQD6BP3f
-ck0wTc6JnWpxnvB3DBqzkfjUSCxn6KmkDNUQyn9dBFo3YpqYHzPQ0aG+ab5w/apr
-acWh7yb/yTd9+C0d377p2HzzK4ZhILXZtcexHxAswHEx7P4FNIekWHQwDDkvuYsB
-6nV2pJ8/RW1SxebXn6u7WCMgnzo3+oCO9XK8fFrM3xzcylWbQlkUDws2xNL15SG+
-4bib/6A4L9In4Dc0qh9SoC4AyrmRg/p2xZAvqpQLb8fKN9wvIQDXELz5kSG99fbn
-E1ul5FY/rzlOXib9UlX2xdzBoyA/6BXJMTJ1h3fp852LJafyLpvqQUufTqpHEXv2
-52TfcMUfpjZY8+SlXgEKBmJRbsNH+WSaWI4lxuQGTJGmhqd7G7bzdycvs3hgZMMl
-bwSwvsj8NQ4X2b6sDnehUeWr0KgusSsa72G+KSOO1deKsB434PTg+155eTgZhfjk
-WCSYH5eaDZgQWl6/NsaM4FqLTHg19Q+i5ydSESOKJGTMj4PbYWcu/K3/j3SJKJVm
-urJadzIVKnX8HoxitzS3mM2/
-=R5zV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFQYxIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E5YQAJ5fuq7j+fHbdGs6exY5
+iyB6UrrLpzmZwbIXFcrNcvxdV90y2BJOC2J3Q0/BQDfNwOBtSJpFaweudopxEg+o
+WmoNiYdlQKbITR0b+11Z7rhYCUvcLrdH2+Er6UgIqHIbEfyq7uUlosC7WPpkOjlh
+4DFocbAQ5VXYK+FnhPbGp5F3tVKW1jNtXNTVcaZIhWFEkctnq7qG+b9/9lfVbACL
+jQoj7k+YaiCTtNyaXpn8QhJByfGMaD+Pckbvfh/q6ur8ns0uuwNkRM5nqfhmN0OL
+q7DRi9UavlPfqR1d0TU19zcyv83EvZGQarxpJMPaTZz4ae0BWyIsJB9gPObgGBws
+lNn14iqpz8orrpikoKLY9uayjUciVOf7I1CfVtRIb2EwT1XIZMyIgNlwFLLKnnuv
+FYCGBVA+BYU9ps+EMSMwP6PbHv4GEUQOP8wMgwKquUyB6GGfrRK32xsm3SN5GdC8
+zvO/iurEVQh9EzHLy8H/5GUCjf7AEn3irN6CsGYGkQin5YZ/Znia0gLb3yMXVtHo
+PVfsa5oiUKTIghe8dBocreP+65jXePF+HLY7o6E4uo9eGi7XShuAiK/oEMHKVKwg
+yJEC9HYq7AtcJ+h915fIsjfjJKzT36UqbBxl+p6GOZsAPHK/rtcIQgAH3eVADBfa
+nnr1c8bDW5cIrmUAWT2e8zNs
+=Lkq9
 -----END PGP SIGNATURE-----
 
---===============2727805643574553686==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d8524048a35-5f4196eaa90c.txt
-
-9e766b86a9ef653a8ca48a9f70d3dbb580284594 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-9493e92a395330787def2b1980e930f5082de2f4 PCI: aardvark: Fix reporting CRS value
-74d54e5ceba3f50b9b695e4740172d876327815a console: consume APC, DM, DCS
-79286ea830b3922b38bcefbd150b2010f91a55ce s390/pci_mmio: fully validate the VMA before calling follow_pte()
-eb46d7c8ae838b37ad4acee44fa3828af3062ce7 ARM: Qualify enabling of swiotlb_init()
-ce90c6706d5a95ddda8d3cea01768bd0b4445851 ARM: 9077/1: PLT: Move struct plt_entries definition to header
-ad00533858f7b1436f7dc9c555ccac85c0e28c9a ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
-f91d25a7c89e2f246a541603430ce2420bab58c5 ARM: 9079/1: ftrace: Add MODULE_PLTS support
-5ce134e65f3b8034220c416ab8cecd8652fdeb2d ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
-473cea4983b582fedb10f84b43e8924716ebc4fc Revert "net/mlx5: Register to devlink ingress VLAN filter trap"
-ffca46766850d4b96a26ad511a7997f74da2df8c sctp: validate chunk size in __rcv_asconf_lookup
-ccb79116c37242c07c34c991868acded87509e4c sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
-6b24588708fe7cb680d433a0492abb651bb1d5b0 staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
-5d0e6a5e44416cdfd8b391fa46c69f7d08f9dd0d coredump: fix memleak in dump_vma_snapshot()
-9d49973b08488f59dd0ada269d9dca210d1fd365 um: virtio_uml: fix memory leak on init failures
-fa64b08931ee27bec3513aed8f7936e99b8d1212 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
-ebcd3fd9207c98f0c01c317ef3aca7f2df41b72d perf test: Fix bpf test sample mismatch reporting
-87c4144450e6f09afeb2adc336f35b5f5274205c tools lib: Adopt memchr_inv() from kernel
-38ab04186fb3f3b50f33e5cfde38066c5227e89d perf tools: Allow build-id with trailing zeros
-375e779ec32a87edeb6bb26582c1c9a1f59876f9 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
-e464b3876b022c0c4e0eb21518c491c6eb38130c 9p/trans_virtio: Remove sysfs file on probe failure
-30417cbeccffeaaf5d7fa5a9e9feffe246a1430f prctl: allow to setup brk for et_dyn executables
-0796d99c1b16f03fd34024a26da2e81ec1c728c1 nilfs2: use refcount_dec_and_lock() to fix potential UAF
-74190973ab01fb88e8b685f417651e30112ed4a1 profiling: fix shift-out-of-bounds bugs
-c63df77c40ca40979ed8bb02b4a07500eef6cd28 PM: sleep: core: Avoid setting power.must_resume to false
-322b70b522abe03cd59712bb47a72eddd835d19d pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
-777344da345a374eb74f2a743b5399e6e60d566b pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
-48271d10bf4cbdd4693ad4f94fb14c2aa7fcc4c5 dmaengine: idxd: fix wq slot allocation index check
-113a69460de5e82ae3be12b01ec1daee81fd9929 platform/chrome: sensorhub: Add trace events for sample
-41aa215734868ba7cb195e2cc5f00cdba5bd1578 platform/chrome: cros_ec_trace: Fix format warnings
-8193ad306ea0005bbe1f2f8fc600ab270d27c8dd ceph: allow ceph_put_mds_session to take NULL or ERR_PTR
-e418ce8b8dfd47c3555b6e53757382d1fb609b54 ceph: cancel delayed work instead of flushing on mdsc teardown
-912afe602eacf4c9cf75a74d3cdb5c9f9c7c4698 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
-d1f9ecc00da1bb6af558251d3eb88ea33aa0c307 tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
-c9538018cb2d61c269c4c622131545763f24a9ee thermal/core: Fix thermal_cooling_device_register() prototype
-45bd9dd1bee8aedc4cbd409b1ba7f9b4f941eea6 drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
-b9a1526d51744075a6245d3f3a5544b10a5405c9 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
-ca907291e11619843ea8b555ca30cf322a8d2514 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
-2a07348e9821d7014b27ba3cd7a27318cbc5f4c9 parisc: Move pci_dev_is_behind_card_dino to where it is used
-b4bb0b171b6ef63474bbbcfcb0b90660c27f8fcc iommu/amd: Relocate GAMSup check to early_enable_iommus
-c12cf7f9afe23eef40cb5cff5fd28a0f39745232 dmaengine: idxd: depends on !UML
-35492619e010b312d0d3fe94bbe182bce0bae5ee dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
-9c1ea8537730790ee183fa32379932f777c95d17 dmaengine: ioat: depends on !UML
-b26ced26251cc26cc6c8327535687b77af0c55db dmaengine: xilinx_dma: Set DMA mask for coherent APIs
-386fd6fd01bd1ee92640f97c0d0e06e204641c9f ceph: request Fw caps before updating the mtime in ceph_write_iter
-487ead34a208c1da9da7fc9f776b517680255ca1 ceph: remove the capsnaps when removing caps
-921ef7cfef15a7e25511089c9941ee37c3dc9fec ceph: lockdep annotations for try_nonblocking_invalidate
-c43803c1aa76f2cc15ee641564412741a18028ff btrfs: update the bdev time directly when closing
-aa1af89a6697ed8f1f0d3d62029036158a4486d9 btrfs: fix lockdep warning while mounting sprout fs
-d95b50ff07b831495a87eb47dd3a7f23eaec2a40 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
-0480f7a480bccdd5e747e64365b703105ccae350 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
-5acb21e30d85f90b658bae7fb3f53b5e42952292 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
-5770b54b112e3ea252fc0547dd1fbc5af5c7e7c3 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
-0f36028d01339976c0d3dd67f11dd99f374f2e49 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
-d7736e2faa13b0c0b677b901044d1e21879bd314 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
-db8838e48a0a7f30bc6d4d6f0f9cd4e2f06c289f habanalabs: add validity check for event ID received from F/W
-0a2ea5c0e5d1076fc189f695f18f6341f58f469d pwm: img: Don't modify HW state in .remove() callback
-a6a2b36a8cc45bf9063cdc4bde7434e8eac66ecd pwm: rockchip: Don't modify HW state in .remove() callback
-a2551d0a29e937515a9711b604d88cd1a31c386f pwm: stm32-lp: Don't modify HW state in .remove() callback
-23dfb959c6cbb8346a5143f44a970373fcb4ce8f blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
-9a14014df72d00d87a199e1f77896f7ea62cc126 blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
-647c19bc61023b305389f5b027b2f7edab0feca2 rtc: rx8010: select REGMAP_I2C
-83a3cb200effb8f61d51516bd64fd94dea4c7805 sched/idle: Make the idle timer expire in hard interrupt context
-7c09505e9e6b1461cddf7c85fdb4f4ff1cc3fd23 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
-5f4196eaa90c139ac470111b8e2deabf5f283baa Linux 5.10.69
-
---===============2727805643574553686==--
+--===============4732673197330769808==--
