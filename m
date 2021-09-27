@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 27 Sep 2021 12:53:34 -0000
-Message-Id: <163274721405.13586.4375489172202382752@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0440654376883682061=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Mon, 27 Sep 2021 12:57:52 -0000
+Message-Id: <163274747213.16233.5646479612047863897@gitolite.kernel.org>
+
+--===============0440654376883682061==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 6bda39149d4b8920fdb8744090653aca3daa792d
-    new: 450f4f6aa1a369cc3ffadc1c7e27dfab3e90199f
+  - ref: refs/heads/master
+    old: 83ca8a9ef4e1c23323184964c4c187afd4135148
+    new: da3ed417adde0997763b3162ce62807821a5c9b3
     log: |
-         ae6e843fe08d0ea8e158815809dcc20e3a1afc22 RDMA/rxe: Add memory barriers to kernel queues
-         47b7f7064b078e7cf3f5a51396d60d8e16a49874 RDMA/rxe: Cleanup MR status and type enums
-         001345339f4ca85790a1644a74e33ae77ac116be RDMA/rxe: Separate HW and SW l/rkeys
-         647bf13ce944f20f7402f281578423a952274e4a RDMA/rxe: Create duplicate mapping tables for FMRs
-         450f4f6aa1a369cc3ffadc1c7e27dfab3e90199f RDMA/rxe: Only allow invalidate for appropriate MRs
+         da3ed417adde0997763b3162ce62807821a5c9b3 Document our latest wiki policies
          
+
+--===============0440654376883682061==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1632747471 -0400
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1632747471-167ec7fb40969768f58aa98def645be21b67ae89
+
+83ca8a9ef4e1c23323184964c4c187afd4135148 da3ed417adde0997763b3162ce62807821a5c9b3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVG/zwAKCRC2xBzjVmSZ
+bLvHAQDnQcVtE19/THCMb3r12fCOc7hFV2roXGF/HQpTwWbeLwD/YUbAX+t6wU9s
+nIW2jzY/z7a+U8CxnLUrhKBL60lrRg0=
+=c0GI
+-----END PGP SIGNATURE-----
+
+--===============0440654376883682061==--
