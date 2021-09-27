@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 27 Sep 2021 22:24:33 -0000
-Message-Id: <163278147308.30811.12270051130839578843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 27 Sep 2021 22:28:16 -0000
+Message-Id: <163278169661.952.485093006368475156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: e59f453671ff8dc0c72d5d8f2051f75c24f9d08e
-    new: 1f91d31ae2079e34945cd01fbd7f0ab461910da3
+    old: 91c9329a0512301b892f466dc9f83783bdf5fab3
+    new: 756fbd5ebd027a176afc7318d7264e2afa03d4e3
     log: |
-         1f91d31ae2079e34945cd01fbd7f0ab461910da3 Mon 27 Sep 2021 10:23:39 PM UTC
+         f2db5c7afdd42e2c05eee29f30f1cd946108cec0 doc/tester-config: Enable Microsoft Extension
+         2df3bba5b7ecff3aa9228d80ca353386f62efd2d doc/tester-config: Enable Android Extension
+         756fbd5ebd027a176afc7318d7264e2afa03d4e3 doc/tester-config: Enable KASAN
          
