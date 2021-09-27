@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4749349244447854470=="
+Content-Type: multipart/mixed; boundary="===============1747869795114805019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 27 Sep 2021 23:39:18 -0000
-Message-Id: <163278595866.13010.8507839021308740669@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 23:39:28 -0000
+Message-Id: <163278596801.13133.8750698001845933488@gitolite.kernel.org>
 
---===============4749349244447854470==
+--===============1747869795114805019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 529a0113177abe487614a0cba462d9973caa8c2a
-    new: c842379d00f1595bb5a025f24de016f7b937cd59
-    log: revlist-529a0113177a-c842379d00f1.txt
+  - ref: refs/heads/for-next
+    old: 27683bebfb6d265af9c27914f24652ba385ff210
+    new: 45500e830ed59eca0dca23874ca405f45009f6d4
+    log: revlist-27683bebfb6d-45500e830ed5.txt
 
---===============4749349244447854470==
+--===============1747869795114805019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-529a0113177a-c842379d00f1.txt
+Content-Disposition: attachment; filename=revlist-27683bebfb6d-45500e830ed5.txt
 
+54c9237a97e00e506ed18e89b12690a9ddfe4a56 rpmsg: Change naming of mediatek rpmsg property
 24acbd9dc934f5d9418a736c532d3970a272063e remoteproc: elf_loader: Fix loading segment when is_iomem true
 970675f61bf5761d7e5326f6e4df995ecdba5e11 remoteproc: Fix the wrong default value of is_iomem
 91bb26637353f35241f5472eedf3202ebe13e2e5 remoteproc: imx_rproc: Fix TCM io memory type
@@ -46,5 +47,6 @@ cc73f503f7ecde168e6874a1375900906ec16ad8 MAINTAINERS: Update remoteproc repo url
 58c8db93f7210975d48fa156837365ad3ac01d6c remoteproc: qcom: pas: Add SC7280 Modem support
 c42c0a5e97d154a05b8a40055f21a37bd1cade46 dt-bindings: remoteproc: qcom: Update Q6V5 Modem PIL binding
 c842379d00f1595bb5a025f24de016f7b937cd59 remoteproc: mss: q6v5-mss: Add modem support on SC7280
+45500e830ed59eca0dca23874ca405f45009f6d4 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
 
---===============4749349244447854470==--
+--===============1747869795114805019==--
