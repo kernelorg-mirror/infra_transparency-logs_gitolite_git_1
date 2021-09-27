@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0045031334486703208=="
+Content-Type: multipart/mixed; boundary="===============7968650161023573425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 27 Sep 2021 15:36:00 -0000
-Message-Id: <163275696010.28255.16797961474564712123@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 15:36:23 -0000
+Message-Id: <163275698367.28437.6755575799910627045@gitolite.kernel.org>
 
---===============0045031334486703208==
+--===============7968650161023573425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: cb2c5db5f883cdbb3e1674083f0e9cba1d657996
-    new: a7d375b7a58ff5fc9b6e04a50ae62c7435cd2699
+    old: a7d375b7a58ff5fc9b6e04a50ae62c7435cd2699
+    new: 326db0e7a5e336ce2c4196e9d3b069658bf6cb61
     log: |
-         d344819e60cf02c8c30b098a36cfa220ffb46844 staging: r8188eu: remove dead led blink functions
-         0f8d4adcd9c9e4e473c91d47acec0f5ef1d6fafe staging: r8188eu: remove dead led control functions
-         1cb6b51f60a336161bd40af063cefd6bf3e53f0a staging: r8188eu: remove unnecessary comments
-         a2665b2081443ed867b6d608786dc04418a56c35 staging: r8188eu: remove _InitHWLed()
-         a7d375b7a58ff5fc9b6e04a50ae62c7435cd2699 staging: r8188eu: remove LedStrategy from struct led_priv
+         326db0e7a5e336ce2c4196e9d3b069658bf6cb61 staging: r8188eu: remove ODM_CheckPowerStatus()
          
 
---===============0045031334486703208==
+--===============7968650161023573425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632756958 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632756982 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1632756957-c8a4c677e8076bce95f438f83f6b6a101c61b908
+nonce 1632756981-f28ccf6ba36af57892d6e7763fe21b8b9efc3367
 
-cb2c5db5f883cdbb3e1674083f0e9cba1d657996 a7d375b7a58ff5fc9b6e04a50ae62c7435cd2699 refs/heads/staging-testing
+a7d375b7a58ff5fc9b6e04a50ae62c7435cd2699 326db0e7a5e336ce2c4196e9d3b069658bf6cb61 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFR5N4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kQEQANIvID0G5gdZqq+JagaF
-JWYtx1QpaQhnV8VeU02a2evRflmTosdQRAE58WbD4UOCK0HuhDKFdGjsCTgOVFXY
-wu9CcwxwDdnqjLoLqs/Gn3AM4C0m8Y++mrTp3b/rqobNleo4dMmeltzRT9OchonA
-3COB00jwISkcCyXC5S6zvVcaMqrJCfryl9he5lWec9FzXDNrLExGUR946DJpDOVK
-RITK5Vo6AU5ze1zs0nMPM/muGD/CLIjdpg/teE3hwSMHI6Ft+zHiEIGKcfPii6MQ
-lnYaVNgT8WmHSLSt94lRAVrJJhAMPZpf34b86NcCAV00fSW7P3pvNeVaJjlwEpTQ
-uUBGxCQdualbWFAXlokrTUmnjV8ov5cg3mb2rnKeRwWF6tSoWCoBRFC2GGCNL0mt
-E/VWUVPmqbAteoHig+KkcBmhxW6W1oBpKiZOGih+nTKOsRrnF3aOir7Tw1+kHz2C
-3PZ9mo5t+aFzGC4um6VJmrSE4eoEx/DxJRhfkq3cyGZxCQBh4XY80pjcYUsDjB39
-9Mb1F6nCCRwDu3QSLifd+sf7Hwyjm+iz8L8KEW0h8fTuSWK8S+KCLHiyWLHFN+hf
-iDUY/a+Bwu4wgkUqF/4Tzk+tZpet895q712ntqM13MUGtosjqa95V88gEC1IBxVG
-H5fBZnbbTF6KV/c4Oib696C0
-=+5BU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFR5PYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GcYP/jqaTI9F0pcXT7n+qIMK
+uEPTdG8rOOaPZhH82bIn/h5Rs/7eg+YhpM2Oe+mu7VZsENV+Ejbmo/3nBqkJao2f
+zj6VWf58HnbLY/UJ2lTriqZ2A0PAaUM+qtKCAZSPekVMn0gmfRj8viFobZmlUeMh
+kt/T7eUQMvBGFjB71/cIVa8xC/06CU0fRF1RUTOG/CicAEdgpqL8EWxX9fpY8bcI
+Yg5issNXndaDSMFgtYxJ70YligtuzK8ayyif1bQkED2QYEHGCLOdvsMPpE1Taxz2
+Ur8i3oaj7N/CYT9kmv/1/BvDYuZcPXIhsO8ARYw51Df/Hj0AaVrxJb5Bv/sQiCVh
+/OhTzYQbUbAPCp8kdiyASjBbLceCZhf0258W9JF45f2kQ/NUo2Mi3sCqxb2wZDem
+OgKS9Esb0KVnRu9tgJ8Qu4PjQs6ZDPLdN86TeWXqaj+ldrtrLm9VA/RePdhSY9J5
+sry/1X4KoLmFl4stwk6VMreY5r7UYjUzkmnG0p7r6O0kxBGMOIOPj+9lHXl6+0d7
+kfCgNajkc+Ilgzl0m3StbBQ3a9aQlUV90Ep39NwhzAUXWIMxjupsSf80DmzhP86K
+JNp7pvMvww/w/+R8tVVh6DcC+shZUhi+7HMACleEZjciAzVobSHL4z1xBBa8aRyf
+TC4alR8qgzyVjD2qNzseUfBu
+=KzzL
 -----END PGP SIGNATURE-----
 
---===============0045031334486703208==--
+--===============7968650161023573425==--
