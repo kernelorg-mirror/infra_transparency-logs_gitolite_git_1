@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8747608395341802225=="
+Content-Type: multipart/mixed; boundary="===============1121524206156048355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 27 Sep 2021 22:54:47 -0000
-Message-Id: <163278328737.17558.4450110754665189219@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 22:54:49 -0000
+Message-Id: <163278328983.17615.1140500309487960575@gitolite.kernel.org>
 
---===============8747608395341802225==
+--===============1121524206156048355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.16
-    old: a9a5ca5c8c37793aaf8fb99f593ac9ddad0bf0bf
-    new: 0025fac17b313cca5c640dd57cbf38d01ce10b27
-    log: revlist-a9a5ca5c8c37-0025fac17b31.txt
+  - ref: refs/heads/for-next
+    old: 8954367d01ed1e340ca4d253252ec03241ef3e09
+    new: 12056fc2916f458cb0e77e4fc6d17712be8dd0b6
+    log: revlist-8954367d01ed-12056fc2916f.txt
 
---===============8747608395341802225==
+--===============1121524206156048355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9a5ca5c8c37-0025fac17b31.txt
+Content-Disposition: attachment; filename=revlist-8954367d01ed-12056fc2916f.txt
 
 ede638c42c82b1e6648a3c6ac71aaf088ff830e2 arm64: dts: qcom: sc7180: Add IMEM and pil info regions
 51c7786f5d4201422e076b9a3650e543a61d36da arm64: dts: qcom: msm8916-longcheer-l8150: Add missing sensor interrupts
@@ -38,5 +38,7 @@ f83146890172da67443c7b80e529fd1781046c65 arm64: dts: qcom: sc7280: Add/Delete/Up
 dddf4b0621d61b8203d500ef85a853626ff42432 arm64: dts: qcom: sc7280: Add nodes to boot modem
 4882cafb99c2b004b9773631fb00ca6d96dc0124 arm64: dts: qcom: sc7280: Add Q6V5 MSS node
 0025fac17b313cca5c640dd57cbf38d01ce10b27 arm64: dts: qcom: sc7280: Update Q6V5 MSS node
+979452977335db7f7551516c83835aa9016b7b50 Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
+12056fc2916f458cb0e77e4fc6d17712be8dd0b6 Merge branches 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
 
---===============8747608395341802225==--
+--===============1121524206156048355==--
