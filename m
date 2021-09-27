@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3596190256161478410=="
+Content-Type: multipart/mixed; boundary="===============1216226080727522499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 27 Sep 2021 20:50:48 -0000
-Message-Id: <163277584889.3903.18338444399476856786@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 20:50:54 -0000
+Message-Id: <163277585439.4029.9930129789033145298@gitolite.kernel.org>
 
---===============3596190256161478410==
+--===============1216226080727522499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: e795fdba8578851f8ef7646092ce09f740b0b64f
-    new: 5346c95245ada5b444d904c8eada4207fb595bb8
-    log: revlist-e795fdba8578-5346c95245ad.txt
+  - ref: refs/heads/for-next
+    old: 66c696863ca2b434d7f00e909a29cc3c96665900
+    new: 890120f40fdc4e12684dab7e06794e663866de7d
+    log: revlist-66c696863ca2-890120f40fdc.txt
 
---===============3596190256161478410==
+--===============1216226080727522499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e795fdba8578-5346c95245ad.txt
+Content-Disposition: attachment; filename=revlist-66c696863ca2-890120f40fdc.txt
 
 d4d47ba71df51ad737bc129e12ce40739fcd93d6 remoteproc: qcom: wcnss: Drop unused smd include
 fc1b6b6439588329ca3de77ca0c68c1b5bc3c7d0 remoteproc: qcom: Loosen dependency on RPMSG_QCOM_SMD
+08de420a8014ed3fd83b2436f7e8bd9c4fcd9afe rpmsg: glink: Replace strncpy() with strscpy_pad()
+537d3af1bee8ad1415fda9b622d1ea6d1ae76dfa rpmsg: Fix rpmsg_create_ept return when RPMSG config is not defined
+a57645ea04bfcbf49035320eb129d1be78c67683 rpmsg: Change naming of mediatek rpmsg property
 7b4d7894c65bd1e83b2f021d7944a46bdd64836a soc: qcom: aoss: Expose send for generic usecase
 e73c632b18a936b5489068d2418a58ea95b49469 dt-bindings: remoteproc: qcom: pas: Add QMP property
 8443ef7b5771830bc86c9e2c1622b55ddf33f0f5 dt-bindings: remoteproc: qcom: Add QMP property
@@ -46,5 +49,6 @@ fc265554dbc836a2d1e8b24a371500b751effffa dt-bindings: remoteproc: mediatek: Add 
 6944d19dfd0d3ede0b7e049f07e611b483913b11 remoteproc: mediatek: Support mt8195 scp
 e24acced0dd9daa168d33485ff59e8308ccb5152 dt-bindings: remoteproc: k3-r5f: Cleanup SoC compatible from DT example
 5346c95245ada5b444d904c8eada4207fb595bb8 dt-bindings: remoteproc: k3-dsp: Cleanup SoC compatible from DT example
+890120f40fdc4e12684dab7e06794e663866de7d Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============3596190256161478410==--
+--===============1216226080727522499==--
