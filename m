@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 27 Sep 2021 17:11:03 -0000
-Message-Id: <163276266396.25444.13520676068543802568@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7549765806144059496=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Mon, 27 Sep 2021 17:12:31 -0000
+Message-Id: <163276275118.26210.14524351298280691868@gitolite.kernel.org>
+
+--===============7549765806144059496==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rproc-next
-    old: 1c676b90e13af4c24cfa9d8d9f5c05330efa05c6
-    new: 060463df1c9f8cd61285935ae2bc40d14e58ff3f
+  - ref: refs/heads/master
+    old: 75071b1c24883374f54bc1359729172808b62395
+    new: dbab40565644f6c26b0059c2036d16ecf791351b
     log: |
-         04c01b279bc190829894d029183453dad8f68a60 dt-bindings: remoteproc: k3-r5f: Cleanup SoC compatible from DT example
-         060463df1c9f8cd61285935ae2bc40d14e58ff3f dt-bindings: remoteproc: k3-dsp: Cleanup SoC compatible from DT example
+         dbab40565644f6c26b0059c2036d16ecf791351b Add the groupsio webhook
          
+
+--===============7549765806144059496==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1632762750 -0400
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
+nonce 1632762750-bab6fc000a3c2cad281cbce039a0f7d0d0c9fdd7
+
+75071b1c24883374f54bc1359729172808b62395 dbab40565644f6c26b0059c2036d16ecf791351b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVH7fgAKCRC2xBzjVmSZ
+bFXRAQDU1foANekez4WY8hrDtWYQkNHWGaaj0J6LlNmdB/eEggEAnrOMLJLIl2rM
+1nKTfJa8NT86Inu0ZUNG96UG1NGxRwk=
+=6PZ3
+-----END PGP SIGNATURE-----
+
+--===============7549765806144059496==--
