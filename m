@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9049641523069167680=="
+Content-Type: multipart/mixed; boundary="===============1561577985794161814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Mon, 27 Sep 2021 21:12:05 -0000
-Message-Id: <163277712549.17005.4875277447415335279@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 21:14:57 -0000
+Message-Id: <163277729716.17942.14329987995127327430@gitolite.kernel.org>
 
---===============9049641523069167680==
+--===============1561577985794161814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: dbab40565644f6c26b0059c2036d16ecf791351b
-    new: 5e22d743b9be7ddc8ad2d07f09b215016c179f0e
+    old: 5e22d743b9be7ddc8ad2d07f09b215016c179f0e
+    new: 7b1be98a1f49cd42f1405335cb589d575272a041
     log: |
-         5e22d743b9be7ddc8ad2d07f09b215016c179f0e Add bugzilla-junker
+         7b1be98a1f49cd42f1405335cb589d575272a041 Update git-patchwork-bot to use API 1.2
          
 
---===============9049641523069167680==
+--===============1561577985794161814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1632777125 -0400
+pusher B6C41CE35664996C! 1632777296 -0400
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1632777125-d0a4984de148ce98e0c94b6ba166b8c1561c7c55
+nonce 1632777296-886f93a9d4be5c70720ea2f9946064bab66f9b67
 
-dbab40565644f6c26b0059c2036d16ecf791351b 5e22d743b9be7ddc8ad2d07f09b215016c179f0e refs/heads/master
+5e22d743b9be7ddc8ad2d07f09b215016c179f0e 7b1be98a1f49cd42f1405335cb589d575272a041 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVIzpQAKCRC2xBzjVmSZ
-bNbzAQDcwf2NpgEuN3yP02eqU1rbHXZnlC93xrndxNq218E7PAEAjgwFQ1V9j2gs
-YpAqvNXuJV7DXof/Yt+aHbcGRRf8PwU=
-=wjqZ
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVI0UAAKCRC2xBzjVmSZ
+bF+OAQCirq+919jvXhvpgoc2NoN4NFQI10u+JcH4DKTp77LywQD9GTPjZDVXm0dB
+vRkoiZhUdpF2mSyay1DmtMaI8DsKzQc=
+=s3qY
 -----END PGP SIGNATURE-----
 
---===============9049641523069167680==--
+--===============1561577985794161814==--
