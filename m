@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 27 Sep 2021 10:40:24 -0000
-Message-Id: <163273922425.22798.8586791198814298874@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 10:42:39 -0000
+Message-Id: <163273935912.23474.651195248927938850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
   - ref: refs/tags/juno-fixes-5.15
-    old: d6c964db45e24e8586b0f9726daeef9da5b1a89f
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 22843b65f7ebaed97b0e7e11883fb9e32b10b080
