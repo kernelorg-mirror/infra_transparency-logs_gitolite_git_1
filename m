@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1150208969070772473=="
+Content-Type: multipart/mixed; boundary="===============7623203601132452676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 27 Sep 2021 17:33:41 -0000
-Message-Id: <163276402125.8267.15200152854330133546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Sep 2021 17:33:48 -0000
+Message-Id: <163276402822.8367.6886591316903350601@gitolite.kernel.org>
 
---===============1150208969070772473==
+--===============7623203601132452676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/spi-5.15
     old: d7a48e27b38a94bf73c973c236461234610256d5
     new: 6840615f85f6046039ebc4989870ddb12892b7fc
     log: |
          6840615f85f6046039ebc4989870ddb12892b7fc spi: spidev: Add SPI ID table
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/spi-5.16
     old: 66ae258ccf400e5275b8cb4ecbfe7d25f2cb2e56
     new: 728cb436d4bee8d4f7ad64f014915a4fb6e58c5b
     log: |
@@ -33,29 +33,29 @@ changes:
          728cb436d4bee8d4f7ad64f014915a4fb6e58c5b Merge series "add support for Cadence's XSPI controller" from Parshuram Thombare <pthombar@cadence.com>:
          
 
---===============1150208969070772473==
+--===============7623203601132452676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1632763973 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1632764018-ec99af9d25a758975f26b920a7528f7ab3e48fed
+pusher C3F436CA30F5D8EB 1632763980 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1632764025-90a67237d8180bbb312148158573d3885f81f905
 
-d7a48e27b38a94bf73c973c236461234610256d5 6840615f85f6046039ebc4989870ddb12892b7fc refs/heads/for-5.15
-66ae258ccf400e5275b8cb4ecbfe7d25f2cb2e56 728cb436d4bee8d4f7ad64f014915a4fb6e58c5b refs/heads/for-5.16
+d7a48e27b38a94bf73c973c236461234610256d5 6840615f85f6046039ebc4989870ddb12892b7fc refs/heads/spi-5.15
+66ae258ccf400e5275b8cb4ecbfe7d25f2cb2e56 728cb436d4bee8d4f7ad64f014915a4fb6e58c5b refs/heads/spi-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFSAEUACgkQJNaLcl1U
-h9DpvAf/f7H4jwl+8PD4arTn455/k7oP38bJ3kkWqYowCfpWzPWQYcsY2iZ13YK+
-JFvky2WeCWj0ys8hy4eS1gp9PYUD8JE49oNW9Jmlt9XUQLD0axcNiePAQ8hU3myS
-ohp/ga7il2VdvlsREVkS19Pi/GwygUQPThoKDxjIKVHRAdQIqx6Tk+IYTH8L5WFX
-pCqwv/8qGL5vVyOnAnvnAE0Bu6kNrUCOQQikjjqsIWsixnWTMBBHz3edIapCgT9N
-b5CZO2WZiP149ErkkB2eUa1/sGM8goEUkMoen8DDMoKQLQf2L4gMNY4AceXSYSfK
-tMqEiActaioUReVH9nI0Xvh0VmpjuA==
-=pQdU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFSAEwACgkQJNaLcl1U
+h9DkGAf/TWWZpsI0s3UuRKZQU0uyNaRYoB7BXFJ0FbEjFI3QmCK3YrN/7Jwmns9s
+Z5gAh9XarDOve0f0xooEHf7oWx84dyEIUpGs3M1AyJ5VHZee8KZJeP+e0q90jBmR
+vdCmYSkpLyEK0NFivLOeaJwc5vWCos9SyNbG8g/sv/uVk/GGFIzCtoHK0t1aeWZ2
+/sPzZbEGmC5JFCs2sK9BlC6OpFi0d3qqaQC/OemOC/C/E/wAJeFeTPk9zxHfxu13
++Mwh2Zwu3yfyERMdPFphRGDQPKHWgHPHaYhcgaSsbgd6kp2xRczIqFvFjIXaHTYF
+boc76EBTMSw50CDn7AD5NlzZtNjKrw==
+=03wT
 -----END PGP SIGNATURE-----
 
---===============1150208969070772473==--
+--===============7623203601132452676==--
