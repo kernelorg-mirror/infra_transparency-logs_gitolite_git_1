@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 27 Sep 2021 12:49:50 -0000
-Message-Id: <163274699091.10592.312508281340673131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 27 Sep 2021 12:50:58 -0000
+Message-Id: <163274705894.12802.10548051510029892419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ca48aa4ab8bfe0c235cf86cd0d3c11db0808132e
-    new: 3b1b6e82fb5e08e2cb355d7b2ee8644ec289de66
+    old: 584351c31d19a1d101696f85007cd0c851ec202d
+    new: 3e0d5699a975718efe048edc6f61fbe1cf50e51e
     log: |
-         3b1b6e82fb5e08e2cb355d7b2ee8644ec289de66 net: phy: enhance GPY115 loopback disable function
+         3e0d5699a975718efe048edc6f61fbe1cf50e51e net: stmmac: fix gcc-10 -Wrestrict warning
          
