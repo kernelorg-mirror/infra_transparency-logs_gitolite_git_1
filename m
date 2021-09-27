@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0904735677825684334=="
+Content-Type: multipart/mixed; boundary="===============9206319584048765276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 27 Sep 2021 17:33:12 -0000
-Message-Id: <163276399254.7806.15476625262891886558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Sep 2021 17:33:20 -0000
+Message-Id: <163276400034.7907.15643926807354563002@gitolite.kernel.org>
 
---===============0904735677825684334==
+--===============9206319584048765276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 74b7ee0e7b61838a0a161a84d105aeff0d042646
     new: 0cc3687eadd0971d5d38ff90d14819d88f854960
     log: |
          ceef3240f9b7e592dd8d10d619c312c7336117fa ASoC: pcm179x: Add missing entries SPI to device ID table
          0cc3687eadd0971d5d38ff90d14819d88f854960 ASoC: cs4341: Add SPI device ID table
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 39e178a4cc7d042cd6353e73f3024d87e79a86ca
     new: ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487
     log: revlist-39e178a4cc7d-ca4c040d4afa.txt
 
---===============0904735677825684334==
+--===============9206319584048765276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1632763943 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1632763988-3c5125bd9c3cb4176f6dc3471733466c1a7f6863
+pusher C3F436CA30F5D8EB 1632763951 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1632763996-f1074349ec1efa8e692868bf129200c5f6879848
 
-74b7ee0e7b61838a0a161a84d105aeff0d042646 0cc3687eadd0971d5d38ff90d14819d88f854960 refs/heads/for-5.15
-39e178a4cc7d042cd6353e73f3024d87e79a86ca ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487 refs/heads/for-5.16
+74b7ee0e7b61838a0a161a84d105aeff0d042646 0cc3687eadd0971d5d38ff90d14819d88f854960 refs/heads/asoc-5.15
+39e178a4cc7d042cd6353e73f3024d87e79a86ca ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFSACcACgkQJNaLcl1U
-h9C5+Af+LEa7iuYpgVUiY1sFrDtTAaZcZNZHtzzhwgbKlrNYIjvjaKNXO6b/lkgy
-KpaFjey1ruViRg/LmhXG556FQkwMSFJPVahkmaC6lDFU8S1Wu+ofpdSY30ynDvpO
-Wuzffb3X4M0DRRFZ6iUoc+COtTwtrPyb2pj+A1Erpx0TNYksvvNrmhjmClYhpDI7
-EX6TOiz43EvmrnBWfKi9Gz19I6I4+0DLOMBaMDu80X3JmCVnKNyTL2aJJWOJaeR0
-rwflkXfkC+wT2pMogKxKhPi5vyT+p2OjGa3V/LdJIlrEwXIIqQO17Pt3J5ctkAFV
-0y2pjTRHsXQ7mKjb4gHxu6JQMZcQ7A==
-=piRG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFSAC8ACgkQJNaLcl1U
+h9A/yAf/aE/D93BsUA7/wiE/ebzSklQBlfWtJdAKzfNN2MUPPk9cdP7CTluD48LF
+CtrBjYAzjcO9k3FUIjFT4uZeNOsApmHfZY5B6dlKAYm23kQtRQ8yLNBZhLjRl6fg
+dnkl178ZIYLM1bJKsOwI2du65hZwIKomE02mCPEwxiD5oyeAHKpoBmuwd03KQrxZ
+04unyGlpr02GWX7AXDkPObtIzKTnctghin/tdbw6NWJ9HjFke7PcwuUHIH3/tD51
+mC0T1JeC52GarQsMnOoyZZmFP7DOKCi4mgwDf/YHturxbZZUiLYj4wbcgHNQVQcH
+ZarhobQHLjnEn/oy5xgFwWgrhe8ufg==
+=s8q9
 -----END PGP SIGNATURE-----
 
---===============0904735677825684334==
+--===============9206319584048765276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -107,4 +107,4 @@ b55f03436b28256f6b8fc09a66fe6449568d16a0 ASoC: ak5558: Use modern ASoC DAI forma
 93323666d23305a6b272bd602c6cb6706bca79f4 ASoC: ak4458: Use modern ASoC DAI format terminology
 ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487 Merge series "add driver to support firmware loading on Cirrus Logic DSPs" from Simon Trimmer <simont@opensource.cirrus.com>:
 
---===============0904735677825684334==--
+--===============9206319584048765276==--
