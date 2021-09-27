@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3912966131073701177=="
+Content-Type: multipart/mixed; boundary="===============8258918844808881594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 27 Sep 2021 06:49:26 -0000
-Message-Id: <163272536619.31206.14483210647430254709@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 06:49:44 -0000
+Message-Id: <163272538486.31426.13483030107015758881@gitolite.kernel.org>
 
---===============3912966131073701177==
+--===============8258918844808881594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: e4e737bb5c170df6135a127739a9e6148ee3da82
-    new: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
-    log: revlist-e4e737bb5c17-5816b3e6577e.txt
-  - ref: refs/heads/linux-5.15.y-rt-patches
-    old: a095d77c54016baf295091005b986099cbd984bb
-    new: 8ef02d8a8424c284f7e1061981d75de59aa329d6
-    log: |
-         8ef02d8a8424c284f7e1061981d75de59aa329d6 [ANNOUNCE] v5.15-rc3-rt5
-         
-  - ref: refs/heads/master
-    old: e4e737bb5c170df6135a127739a9e6148ee3da82
-    new: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
-    log: revlist-e4e737bb5c17-5816b3e6577e.txt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: 0ebb69fa19ac5943166eb86fa5b61038b8983196
+    new: c567287ddde8bc8a15f71e60ffe344afdfd13476
+    log: revlist-0ebb69fa19ac-c567287ddde8.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: 0ebb69fa19ac5943166eb86fa5b61038b8983196
+    new: c567287ddde8bc8a15f71e60ffe344afdfd13476
+    log: revlist-0ebb69fa19ac-c567287ddde8.txt
+  - ref: refs/heads/linux-5.15.y-rt-rebase
+    old: 0ebb69fa19ac5943166eb86fa5b61038b8983196
+    new: c567287ddde8bc8a15f71e60ffe344afdfd13476
+    log: revlist-0ebb69fa19ac-c567287ddde8.txt
 
---===============3912966131073701177==
+--===============8258918844808881594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4e737bb5c17-5816b3e6577e.txt
+Content-Disposition: attachment; filename=revlist-0ebb69fa19ac-c567287ddde8.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 0ddc5e55e6f1da1286fb2646f4248bf7da31a601 Documentation: Fix irq-domain.rst build warning
@@ -387,5 +385,147 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 996148ee05d08ef5163cad99c33a7b5e844ac494 Merge tag 'edac_urgent_for_v5.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
+e323405c64d745551ebf754bfaf7a366fe0affe6 rcu/tree: Protect rcu_rdp_is_offloaded() invocations on RT
+de90876d98629e27319ba5e182136655be3e1953 sched: Introduce migratable()
+83b4d19aa8ee4a6e51f015bb6b0cc272752d8f65 arm64: mm: Make arch_faults_on_old_pte() check for migratability
+1141de9c196ab52dff9ecb3d58678636b7f4d4cf printk: rename printk cpulock API and always disable interrupts
+9391f53d65f8ab1f95a80a8861c00e6dd97f5ea4 console: add write_atomic interface
+762a69c02cd5cd2a4e8ac2dd1cfbc71c465ebdf5 kdb: only use atomic consoles for output mirroring
+ad11526fc70d2d90a488b42126fb1e6565993f46 serial: 8250: implement write_atomic
+720ea08f972db6b50b7c9f14f17220dfb810a850 printk: relocate printk_delay()
+657840de68eaf56f4cf066e156132ced28dd3d8a printk: call boot_delay_msec() in printk_delay()
+b4f3c1ef18efaff65abbfc59d44b026cb7d82f2b printk: use seqcount_latch for console_seq
+32c5eaa0119ad87062179b188bc22a7496f63499 printk: introduce kernel sync mode
+ba4d415fd1abdc47a5e8c75899a06ee81c074901 printk: move console printing to kthreads
+68b902e07c86fdc23efc371457fc6d32a0b2d589 printk: remove deferred printing
+aa743b992ce2a8a8b778437e27468ad02f16e728 printk: add console handover
+41c5755fefe595da6027173f39b767830a505548 printk: add pr_flush()
+bb2d20bc190c75b48d4a38e55bcf6fdaccf2a203 printk: Enhance the condition check of msleep in pr_flush()
+aa55ec7320811408d300f703b5868c39f0e8f585 sched: Switch wait_task_inactive to HRTIMER_MODE_REL_HARD
+78b40881383c82b8b5ca9cc62ee0ccaebb78d729 rcutorture: Avoid problematic critical section nesting on PREEMPT_RT
+21e3605373032f189c9d1bc45bf7dc4dbef19e14 kthread: Move prio/affinite change into the newly created thread
+ce337c19cb991f83131212ed4229227ca349bf39 genirq: Move prio assignment into the newly created thread
+1b7206493367ebf67994fb7399b4293ed2dc77ed genirq: Disable irqfixup/poll on PREEMPT_RT.
+f566a0938ebd891b3d0fe99c22b0c9881b43db98 lockdep: Let lock_is_held_type() detect recursive read as read
+3d2f567993ea1fe2bf7754d17fc1d3f2a6cdf7e0 Documentation/kcov: Include types.h in the example.
+c4c93ba2d7a6d40ea84ec0924fb07f160301900b Documentation/kcov: Define `ip' in the example.
+f39940995f2f71bda268a694a447e2193301fc82 kcov: Allocate per-CPU memory on the relevant node.
+0c33433b6c786881caecda4437c15c760b43ce6e kcov: Avoid enable+disable interrupts if !in_task().
+f6c34e26b12127bec2c07870195d797396dcc8eb kcov: Replace local_irq_save() with a local_lock_t.
+8462b7c035856379f4e7cfc30ce58001f1b5c825 cgroup: use irqsave in cgroup_rstat_flush_locked()
+7499e31b7bc2b51f208b68251cd9e8c944d2d7b7 mm: workingset: replace IRQ-off check with a lockdep assert.
+0319a3c332ae8b95c5dca114a7edfd16cfd9025a tcp: Remove superfluous BH-disable around listening_hash
+546bdbf9f722032bf4ef1b5e4d678f31ead6054a samples/kfifo: Rename read_lock/write_lock
+df10bae6ecc80eee18016f34ea88117e7e3d7caf smp: Wake ksoftirqd on PREEMPT_RT instead do_softirq().
+1e74152eec2a25caae4a1c07f5f31533b1aeb573 mm: Disable zsmalloc on PREEMPT_RT
+313620428455aedf2b0c69b9685bd386ece0da1f sched: Clean up the might_sleep() underscore zoo
+070b4fd2041bc8f6048b2010dee09f0874e689ba sched: Make cond_resched_*lock() variants consistent vs. might_sleep()
+4bc7ab3a5aea086dfe891e00ca733481fe2e8488 sched: Remove preempt_offset argument from __might_sleep()
+7d592da11a1a68c581c049383f9bbb19ff6d745d sched: Cleanup might_sleep() printks
+706e839e03db8dc3b4534648994baed37a9101bb sched: Make might_sleep() output less confusing
+c2de0ab89ee705de734e30780db60acd054c4ccc sched: Make RCU nest depth distinct in __might_resched()
+62a37a0c669616807b5222570ea1dd1e846985bc sched: Make cond_resched_lock() variants RT aware
+fa41ba62a3d922e1b8b7e439547fe4d3999cddd4 locking/rt: Take RCU nesting into account for __might_resched()
+489de23e2bd184fd0ab263b62f4f80a113351386 jump-label: disable if stop_machine() is used
+29794401549dc39cd2b68fa561fd61a06902548f kconfig: Disable config options which are not RT compatible
+681549bc2ea89d56a98fbc6f3234220b4b61dde2 mm: Allow only SLUB on RT
+161adb31d0615d7e473652ab65660d870ac0524a net/core: disable NET_RX_BUSY_POLL on RT
+187a6d2de8156b40a2327f7082cf2c1b6f28735d efi: Allow efi=runtime
+e694fdb9d0c19c08fe097f0b189a3b92e70509af efi: Disable runtime services on RT
+024227122149b678f0aa2a11e6aa3cf8356138ce locking: Remove rt_rwlock_is_contended()
+e299e5e3eb2f2a2f6dbe5d9fbc8668eec0274ae7 lockdep/selftests: Avoid using local_lock_{acquire|release}().
+c20d9cd722e3ecf3b41a09722892108239c723f3 sched: Trigger warning if ->migration_disabled counter underflows.
+420aac4b3b7831ccb6b25be41a8dab5393d59b35 rtmutex: Add a special case for ww-mutex handling.
+44e52cb750b5311ea2ef5fa8d5ddc60e476e096a rtmutex: Add rt_mutex_lock_nest_lock() and rt_mutex_lock_killable().
+e384e46d2c0c1779b784e3d995e2b30c42a0bb83 lockdep: Make it RT aware
+b06869f324e1531b5e015431862e7385a5597ba2 lockdep/selftests: Add rtmutex to the last column
+ed9e7c40ada88d99ac3212bd4b5a3ee541ef15db lockdep/selftests: Unbalanced migrate_disable() & rcu_read_lock()
+1c816d223a9df5428916b96c71a58f7573f9faf9 lockdep/selftests: Skip the softirq related tests on PREEMPT_RT
+6c78b4e4de49bf183856268474acb8f4af4d7318 lockdep/selftests: Adapt ww-tests for PREEMPT_RT
+ff8df486dcf0fcb3a533e72e8c5505831dc41835 locking: Allow to include asm/spinlock_types.h from linux/spinlock_types_raw.h
+120800bacd35655f897c738ac5850a69b9c99c06 sched: Add preempt_disable_rt()
+33e536d20b1bcd61d9a74232ea3ceecce922e977 sched: Make preempt_enable_no_resched() behave like preempt_enable() on PREEMPT_RT
+68f04f87e662b7f322fd7f453b76e55cc8a68d96 kernel/sched: add {put|get}_cpu_light()
+18708176783f6190dc4550431e78a5c0068a208a block/mq: do not invoke preempt_disable()
+d2b46a6f3ef4b1d60304b629a838087d6821df37 md: raid5: Make raid5_percpu handling RT aware
+8edb13b546a0ba6773a05793059d8229a68a5405 scsi/fcoe: Make RT aware.
+641d2bf18d8e564204ddf2a24eb78fc380de8859 mm/vmalloc: Another preempt disable region which sucks
+874e4385b00c4bbbc63cadb61c9b1d84c02091c7 net: Remove preemption disabling in netif_rx()
+dbd710ecd92f78cbc47c15497a208431ecab42e4 sunrpc: Make svc_xprt_do_enqueue() use get_cpu_light()
+67adcfe40ef696a3dbf438d3730c33b387f36abf crypto: cryptd - add a lock instead preempt_disable/local_bh_disable
+d95ca53298ad6f16cbffbce31cc2bf8f5c911e20 sched: Limit the number of task migrations per batch on RT
+b617bf33530e688728d5a2be5df30c4c46e3fe03 sched: Disable TTWU_QUEUE on RT
+8e4e123d4a1a7881374ec9cd5330ae888add2aa7 sched: Move kprobes cleanup out of finish_task_switch()
+99aee914073d0055fcf1f87b8ad5542b25d37566 sched: Delay task stack freeing on RT
+24f3fda2740edec2ff7105993d3faf22c3b59bbd sched: Move mmdrop to RCU on RT
+5f1e19ac7146f3801eb9677c515a04ac07203615 softirq: Check preemption after reenabling interrupts
+8c06682200e1696c628d5b69c1cbb16f7016bc13 x86/softirq: Disable softirq stacks on PREEMPT_RT
+3270011a08d2197636af5ae95eefeded17160d1c irqwork: push most work into softirq context
+48fb8f5f06cabc1d8786eadc9bef347e1312ae11 irq_work: Allow irq_work_sync() to sleep if irq_work() no IRQ support.
+82018c6af638bc535beaac89563285d741f1cbf1 irq_work: Also rcuwait for !IRQ_WORK_HARD_IRQ on PREEMPT_RT
+e4d1b639ef98430ec7f5c218714177a87e95197b mm: page_alloc: Use migrate_disable() in drain_local_pages_wq()
+aa0bbdb640fec3827b3781852223138f739b9f56 u64_stats: Disable preemption on 32bit-UP/SMP with RT during updates
+3333975d50af17e8c36c691a1149dd05cacf62e2 mm/scatterlist: Do not disable irqs on RT
+b5f8b1081fd73c890a2046f8ce8c2a659f6ae5d5 mm/memcontrol: Disable on PREEMPT_RT
+eeca96662183c939d266e7a0755c454f32d25d09 signal: Revert ptrace preempt magic
+0d7d61d3ae2db3fbb7ee7cc1c191b9d5e6d565c0 ptrace: fix ptrace vs tasklist_lock race
+3fe0646d9aa207007c265018c463e403cb385875 fs/dcache: use swait_queue instead of waitqueue
+4151e7015acd593b41a42bb06af21db38cfd96bf fs/dcache: disable preemption on i_dir_seq's write side
+ec5012ce9d33d4a3b347abf53a800cf792bf61e9 rt: Introduce cpu_chill()
+b95f64d5c6294003794a0c5ee206627b1bf4dd9a fs: namespace: Use cpu_chill() in trylock loops
+a1454bee231bee20b5afa3c108b6361885d77c02 rcu: Delay RCU-selftests
+009ff6647182c8aa71c45d789cb00e9fc03f4b25 net/Qdisc: use a seqlock instead seqcount
+f9aed7f05d395cf2ae6405d687d1eb6098f78920 net: Properly annotate the try-lock for the seqlock
+2b3727d02b0b1f5a7f9f1b8b4ed83345047c1899 net/core: use local_bh_disable() in netif_rx_ni()
+459bbb1f9701f9cd04420b5d37695181a007ed6e net: Use skbufhead with raw lock
+666dddd6125e80ce4b7c47692bf0d4868dae67d1 net: Dequeue in dev_cpu_dead() without the lock
+5fcab858489cdc4219dbf0b8210abccbc57126df net: dev: always take qdisc's busylock in __dev_xmit_skb()
+7da00d1391380072125fdc70f1f9e3ea9ee7a183 crypto: testmgr - Only disable migration in crypto_disable_simd_for_test()
+f64e74e203e5edaa1552f5f7ed04b43530450eb8 panic: skip get_random_bytes for RT_FULL in init_oops_id
+0be87af1059b1e08e78a73c45d376e796275236f x86: stackprotector: Avoid random pool on rt
+8d9b4b68f7a17bca9459d3100049b99def8e753d random: Make it work on rt
+201339e43b0195c4e4a2abef206c13cf55d11bbf drm,radeon,i915: Use preempt_disable/enable_rt() where recommended
+38810b071f3cbe76d163f90df63eb35f3c4b27b7 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+8b5b97e5f4b5a90f5dedf3900bf4414af5f9fa2b drm/i915: disable tracing on -RT
+2a7e24ef1040c2307593c5f6f877a15e43766b8b drm/i915: skip DRM_I915_LOW_LEVEL_TRACEPOINTS with NOTRACE
+004f12037fd7f70f8882b7926e70d9259411dc0e drm/i915/gt: Only disable interrupts for the timeline lock on !force-threaded
+771cf5595c3924cb1794e01ccc48dc8674b6ce41 drm/i915/gt: Queue and wait for the irq_work item.
+e446c2038b58dccb229bd7f30e6d49c1823c9471 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+46185d0a0f31add7f5e58fb1d54bb7ea4f4ed327 signal/x86: Delay calling signals in atomic
+13bd54cae3538acbd715c9a2a6cebf01bc91a452 x86: kvm Require const tsc for RT
+b1a7b1f0c8c47b1564c37e3133331197d182cb1e x86: Allow to enable RT
+95f9d4093760a908c00ea8cd9e36cced4c629406 x86: Enable RT also on 32bit
+77421a0bebbcd0693646000669b430d312ad092a genirq: update irq_set_irqchip_state documentation
+f2611eedda2da52c5d7a033df9a84d16c754cec9 ASoC: mediatek: mt8195: Remove unsued irqs_lock.
+9b49ec0f794c2dfca85beeeb4c42340143d2bdde smack: Guard smack_ipv6_lock definition within a SMACK_IPV6_PORT_LABELING block
+127c60f791d7b158f529876b6928fdc3e482a756 virt: acrn: Remove unsued acrn_irqfds_mutex.
+b4779355db87fc3b03146854081584f28b53c361 tpm_tis: fix stall after iowrite*()s
+1e2752295fdd2e3c2bc661b8dd49177c22d43e7d mm/zsmalloc: copy with get_cpu_var() and locking
+1df6b51431cfbdc2e438f8e6385b6c929096186c drivers/block/zram: Replace bit spinlocks with rtmutex for -rt
+7350c975242bf656783168ce894d1b92ecedd09b leds: trigger: Disable CPU trigger on PREEMPT_RT
+647dfc86f31f7ffbc86b5edd2fd16f139e402c56 generic/softirq: Disable softirq stacks on PREEMPT_RT
+0f051850ab589b1c34a70ccf3440e4e269e52339 */softirq: Disable softirq stacks on PREEMPT_RT
+4362167cc0ccf7deff1897e213f29bf76e62b1e9 sched: Add support for lazy preemption
+e750f7622883d4057b9c3cc9983a9650829bea0e x86/entry: Use should_resched() in idtentry_exit_cond_resched()
+257aa723c26e2383a5e1524bae0c0204583d2c26 x86: Support for lazy preemption
+9c336edc27a04a4b288fa69626e61a3ced5f30cc entry: Fix the preempt lazy fallout
+ab237de93d2c6069504330becc3a523bba698840 arm: Add support for lazy preemption
+b041e80825df51a32d880cd8d5512f3beb0d7e9f powerpc: Add support for lazy preemption
+11632d13643a07ebc5803fa38f3a0e93dae55e80 arch/arm64: Add lazy preempt support
+81e88e2cc6c125f477650b6fc00be688f55af7ad ARM: enable irq in translation/section permission fault handlers
+a97d370c860d8ad508bf0668806ba7e10eb5c540 KVM: arm/arm64: downgrade preempt_disable()d region to migrate_disable()
+5eb758262cadf1b149f384deab0401750936b282 arm64/sve: Delay freeing memory in fpsimd_flush_thread()
+08535f1e8b358d2738a9c4308b078ad232d0fc3c arm64/sve: Make kernel FPU protection RT friendly
+2c609c8770193a83d621d47f445a5166bd303801 tty/serial/omap: Make the locking RT aware
+a3899b86337985955af737cf013601c63c4de684 tty/serial/pl011: Make the locking work on RT
+7cfe03685cc566c0f8c14d8b1591dc5d621cbd6e ARM: Allow to enable RT
+152addb2e8701de203f40a8e8a8efd371ab7bf3d ARM64: Allow to enable RT
+84c9d39918ef9f4f6157b332e9375c6a1597d3df powerpc: traps: Use PREEMPT_RT
+fe21845e47578fa37b66785d8065040f00a297fd powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+f803df86622848051fc4201074a7cae9efc00923 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+9d5a37032f6098100f31d1ce89def5b9e65d5d6c powerpc/stackprotector: work around stack-guard init from atomic
+32dd3876ccd22313e9ef9c23451aaeab9d482951 POWERPC: Allow to enable RT
+c34fca4e86129cb0e9954dec14fb3f9b149dbfe5 sysfs: Add /sys/kernel/realtime entry
+c567287ddde8bc8a15f71e60ffe344afdfd13476 Add localversion for -RT release
 
---===============3912966131073701177==--
+--===============8258918844808881594==--
