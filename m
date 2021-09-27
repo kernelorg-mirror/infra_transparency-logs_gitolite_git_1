@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6562274877831891269=="
+Content-Type: multipart/mixed; boundary="===============7394970415840496327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 27 Sep 2021 10:47:07 -0000
-Message-Id: <163273962726.26384.6976340290400514799@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 10:49:14 -0000
+Message-Id: <163273975470.28307.11902173895804473852@gitolite.kernel.org>
 
---===============6562274877831891269==
+--===============7394970415840496327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: e4e737bb5c170df6135a127739a9e6148ee3da82
-    new: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
-    log: revlist-e4e737bb5c17-5816b3e6577e.txt
+    new: 641cdbea7635be3a177dbdf81356ccb16f3769e3
+    log: revlist-e4e737bb5c17-641cdbea7635.txt
 
---===============6562274877831891269==
+--===============7394970415840496327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4e737bb5c17-5816b3e6577e.txt
+Content-Disposition: attachment; filename=revlist-e4e737bb5c17-641cdbea7635.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 0ddc5e55e6f1da1286fb2646f4248bf7da31a601 Documentation: Fix irq-domain.rst build warning
@@ -377,5 +377,6 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 996148ee05d08ef5163cad99c33a7b5e844ac494 Merge tag 'edac_urgent_for_v5.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
+641cdbea7635be3a177dbdf81356ccb16f3769e3 thunderbolt: Enable retry logic for intra-domain control packets
 
---===============6562274877831891269==--
+--===============7394970415840496327==--
