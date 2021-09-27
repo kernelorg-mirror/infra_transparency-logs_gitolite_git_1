@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 27 Sep 2021 21:01:38 -0000
-Message-Id: <163277649830.10481.10821767085280843988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 27 Sep 2021 21:02:28 -0000
+Message-Id: <163277654857.10836.8881447779187683345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
   - ref: refs/heads/for-next
-    old: 9ae54ce551e9661e7dfd7b8b3d32913162208f40
-    new: 3148ffd8929202245dd71f1337068656275afdbf
+    old: 890120f40fdc4e12684dab7e06794e663866de7d
+    new: c037e93f9fcfaf82d24362e9df081d92b198f3bb
     log: |
-         2e8b4b6ebe56caed404982b703b5225857226225 dt-bindings: interrupt-controller: Convert MSI controller to json-schema
-         da73f4ee4a9a17faae35dce30f136d254466252c dt-bindings: interrupt-controller: msi: Add msi-ranges property
-         68f1d17f0147e201fced5458c481b92b263785b9 dt-bindings: pci: Add DT bindings for apple,pcie
-         55cd1e2a28cebabbace987975d5422a76da3e585 dt-bindings: mailbox: fix incorrect gce.h file paths
-         3148ffd8929202245dd71f1337068656275afdbf dt-bindings: rng: convert OMAP and Inside-Secure HWRNG to yaml schema
+         c037e93f9fcfaf82d24362e9df081d92b198f3bb Merge branches 'rpmsg-next' and 'rproc-next' into for-next
          
