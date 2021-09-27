@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5113664168671594309=="
+Content-Type: multipart/mixed; boundary="===============5987754437556982074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 27 Sep 2021 16:54:02 -0000
-Message-Id: <163276164261.13160.3947043297106513773@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 16:54:05 -0000
+Message-Id: <163276164515.13225.8171736552032715650@gitolite.kernel.org>
 
---===============5113664168671594309==
+--===============5987754437556982074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,88 +16,102 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: f18e15edf459e62658d2494de54731c6d84ecff9
-    new: 805f1ef98ef8fea5d193f6ed2290ec1a7126470e
-    log: revlist-f18e15edf459-805f1ef98ef8.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 9dd8b3eed3366f5b35cedcc612ca4614ab5c01b7
+    new: 73bd60d96a863767e91e0c191b3faacafefbc973
+    log: revlist-9dd8b3eed336-73bd60d96a86.txt
 
---===============5113664168671594309==
+--===============5987754437556982074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632761640 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632761643 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1632761640-b5e0dcdfd6efcb0936f6888376d62c5494cf6c28
+nonce 1632761642-c399d3fbbf7c857a506982ec2e96f363d7b98ccf
 
-f18e15edf459e62658d2494de54731c6d84ecff9 805f1ef98ef8fea5d193f6ed2290ec1a7126470e refs/heads/linux-4.14.y
+9dd8b3eed3366f5b35cedcc612ca4614ab5c01b7 73bd60d96a863767e91e0c191b3faacafefbc973 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFR9ygbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PNEQALdP9HvviKkA7Mi4G8l6
-F/oS+f5B5eKQ+oBGEcMIkkrnDKY1+HbT640FoC8tZkCMHC4Q9R1HG3+etTh86yZa
-By/EBFaKfAIBHGhbRF4eQvPryVL0zXf/C7wPBv9gMAuAAHd2xrBTHhyn9o61UG7g
-BixPww4rzCLHmNyXDjvWO1fFhv18wXIfG+HsizZRwKNVU7pnTYJfoaeMI29fMlpT
-M0MGqVcpccfAFNdLhqNHZdQRWrcD2CLNlIbg/LJJQnlAUOnfs53uDHqpmJzkwNam
-FQpRK5zx9jBCRAnMMc8JrhXXwHlu5CjLTVZkAAftsv2AzFCr8YskMxfBjRSbiIOe
-Xsjtze8rRqGGEoVI0XqRPcq2GrFW7t+UefnGB8Q4vwqTO8C2waC8EY7t7+Rm7AE4
-t+3wuBu/j2AklUNdwk/27mMeA1j9WNn4rkaB2PzLtvxxM4AbJ8dI8+YLOV0xiyvm
-2NKKZW82Sg4LOdU7eCEFiulIKDu28fjjgu1PAcsDA5NhKFcR17qn/ykcPt4nPJBH
-Jx1uDwV13n5qFiafcuNvTqxf50nxMg2mgdRtST0yjvAsELOjVN+L8Bxz90pKCYxx
-klvZBLL05ZrdLTHX22BeO1Dt7s0rRX9lam2s4VSqr5sDjsI/rPh15fmVit2LVnwx
-w64joT0M+GbYd+8wkGDQ8Tss
-=db2m
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFR9ysbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PmoQAM/u5Htzy2APwWQdb1S3
+HWyPSVDTmj9SbguMVZbMEQnLMbljWQnyqmzy2FNrPpVI3goAv7e5Q3yXT7gWoROH
+yNN5IFVfY3mHB83DRhK/FNHhuN7Nmmx3AFWOhKtTLRLPGTJB+ZGzgt1bWiDOxpze
+E/uhO7Y2EMfWlfmmHjGIL/uNuuh1CL6uXrSvvl7xY6nYvu+npDjRseGIsXm2IjDw
+Wkd44pAyBNTEnQPSG1OhKdiM7HD8bhjDO4yJ8A2FB17fc+Qso4twi8WnkJaAc5Xt
+LLI7dHZVxFfkuX0aB4busrTNLMGXlVorzwsi2MRmGsS9uKynGiSTk1qWzm/4308b
+ZVTSYYns31mIiBNG98y9U1vaAjRPOKU1jAIgWHwwqV3D8hBt2exyRPImpDNkMIQo
+DxTM9dDQz41xdu4tFBRYlUryCWp6MAybETM7fDlrA14f59e4XPzuLft1mv1YoebK
+f7z/gAuRjWxfaBLWW1Z9jAYssE7W9aj1vwbU2I5UhFpCWsVHWxlWmISGoCOZNO1R
+UI5Eor/Fx7hIaE8jAEzpqRreQIPNBnYcht2LWSAjR6WbFdguswZHW7aLoXjwMETp
+vbSXcsVFEp7O1l3Lo+fBxMO4Ip5s6gnrot88kAAEw2ZYy1x/7w01oLiEXl2P+Up9
+h5W7l/Fw0I/VKcI3wJ6g6iQS
+=k5On
 -----END PGP SIGNATURE-----
 
---===============5113664168671594309==
+--===============5987754437556982074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f18e15edf459-805f1ef98ef8.txt
+Content-Disposition: attachment; filename=revlist-9dd8b3eed336-73bd60d96a86.txt
 
-f926f1e3920e8ae1285725b1877295b4ea2edc49 ocfs2: drop acl cache for directories too
-a020609e560fac819f6ca8904a7237137d51cf05 usb: gadget: r8a66597: fix a loop in set_feature()
-945c8e305f8e0fecb5d88b22e0b391843a00514d usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-422451ee58c9765736cc6a74f1dd577c47e6f878 cifs: fix incorrect check for null pointer in header_assemble
-a387f29581b15f28d9aae4ef6f45318880bf4ce0 xen/x86: fix PV trap handling on secondary processors
-6ee691cce7b00e1027207dd6a294f350bbf750d2 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-0771886a0d7c429ee6560e2d5a2e0d4bbe1f2147 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-2867fee6adbd5da6fffe72c4ea2f988fca730d1a staging: greybus: uart: fix tty use after free
-14c98d7032973fbc2da1b2536a45db5d7307d35f Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-160999b5bf245f8b008777b9407d99945097fe78 USB: serial: mos7840: remove duplicated 0xac24 device ID
-7d03e1d3272b0c35c27cbd22a10ab1bd740c9c6f USB: serial: option: add Telit LN920 compositions
-f9507cb491781e72950d6461fabddea97e8596cf USB: serial: option: remove duplicate USB device ID
-2f37e717ad3174c3550583105218c18214f06fd3 USB: serial: option: add device id for Foxconn T99W265
-79ae8b8499cc9bed7d7fc416de9411fdf0c85ea8 mcb: fix error handling in mcb_alloc_bus()
-bf090e4af68a924905a57f6fcaf0c9b4b626eac2 serial: mvebu-uart: fix driver's tx_empty callback
-fac528775b53daebc064f3536f7f8ad85e9f64da net: hso: fix muxed tty registration
-45c68df5124938a1a93dafc50138e1232fc18da3 bnxt_en: Fix TX timeout when TX ring size is set to the smallest
-48e98dcd09a035d82132a71f26083faeb4567af0 net/mlx4_en: Don't allow aRFS for encapsulated packets
-26849f06dc34009aead90012748f66fe991fad07 scsi: iscsi: Adjust iface sysfs attr detection
-2809c651d8de5481b69abfa20b79427dc0501cf9 thermal/core: Potential buffer overflow in thermal_build_list_of_policies()
-51d6ede4e6da3c89713437c38b2b0ce03f25e047 irqchip/gic-v3-its: Fix potential VPE leak on error
-0e24ed172e7ee352fb173f9f3a46ac26a6c736e9 md: fix a lock order reversal in md_alloc
-13b18c014aca3e680a4816a504a090f9d7671a21 blktrace: Fix uaf in blk_trace access after removing by sysfs
-d4793fde95a6508a311e6e39426a3369aec13cf6 net: macb: fix use after free on rmmod
-058e8507b46255de8e2c00daf3208a39f7b1e3b7 net: stmmac: allow CSR clock of 300MHz
-059a6866af44687b859627374e6d1ed5e97fc44e m68k: Double cast io functions to unsigned long
-fb0712d8e4d7dcfac141e6b24726d445099b8a6e xen/balloon: use a kernel thread instead a workqueue
-052a9bada8d34af50328b9730f2b901cd28c8d38 compiler.h: Introduce absolute_pointer macro
-189fb5b2a0af0edb738e952598cb6b43f69bac05 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
-21e92a95d34943a2f1a877b0f2a10f84eafe60c6 sparc: avoid stringop-overread errors
-8ef1aba7785eade22e39287c01a352810c0f2895 qnx4: avoid stringop-overread errors
-94f57b44348f8070810ff5cec97d1c6fa90ea164 parisc: Use absolute_pointer() to define PAGE0
-60c6010299e112af1426c1b9ead4bdd0721ac247 arm64: Mark __stack_chk_guard as __ro_after_init
-b67bbdabd6bc06c312b9e3377b5627ed8a6ba998 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
-222aeba79446fc7d6bddfae8c59b11fd0b269b93 net: 6pack: Fix tx timeout and slot time
-4555411a502d68eb84c4e1943be96da28e14b01e spi: Fix tegra20 build with CONFIG_PM=n
-da83603397994207c0b21018c808a1b075bf59a4 arm64: dts: marvell: armada-37xx: Extend PCIe MEM space
-11730e6b2ae54f30c498a0c44d8c6e089e8ab753 PCI: aardvark: Fix checking for PIO Non-posted Request
-ca691ac4b1f612b8f77e6ab70ef15387010be689 PCI: aardvark: Fix checking for PIO status
-f015e61a7d30ce86f55ec58445d32cd39e20acba xen/balloon: fix balloon kthread freezing
-8d75228e1add3d0d4efadc533e09eef9e70596b6 qnx4: work around gcc false positive warning bug
-805f1ef98ef8fea5d193f6ed2290ec1a7126470e Linux 4.14.249-rc1
+d9bb3da3f9719b6f5bf44993a208312595e6d30e ocfs2: drop acl cache for directories too
+8392b34c1defb31a0ec105a8797bb35619f1d9d2 usb: gadget: r8a66597: fix a loop in set_feature()
+7f2cd452f052e263efc15ade17744cf31cf3f100 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
+1279c43a11bd9b7dc699bd594e666178b2404817 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+e73388bf6adf57b278f9a87ac62c19447438ad8e cifs: fix incorrect check for null pointer in header_assemble
+5671773fd21011384836bf55724d64194ac37ae6 xen/x86: fix PV trap handling on secondary processors
+0ea6175ec3cbbfcc147555c7a7d0ead08d500ecd usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
+83d7a192c7b8ec532b7d42f14f264f578f558710 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+eaa48ab9cdf46b141dc15a92b96379585eb3a0fa USB: cdc-acm: fix minor-number release
+36cba1164f28ae8a8a8d95a20484ae2ef394d9bd staging: greybus: uart: fix tty use after free
+580912c384803c88bbcf77e2f51fae360bedf13b Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
+46a7402ec45db8c93e055bc3dede98fadcbe1e23 USB: serial: mos7840: remove duplicated 0xac24 device ID
+c901822d091ef0b3990725728fa85470cade95e8 USB: serial: option: add Telit LN920 compositions
+b40fd0ffb6c1b9a541c72c53034511c301208c3d USB: serial: option: remove duplicate USB device ID
+78cb6658611f411124b8543881b118f284bae935 USB: serial: option: add device id for Foxconn T99W265
+77ae35c95f6edae2daccc4844b1fefa7858cf66f mcb: fix error handling in mcb_alloc_bus()
+2a5d27ddb13f32acb7e3a6682fad4f9d1047874b serial: mvebu-uart: fix driver's tx_empty callback
+4a5c4d310d99fd10ef21e699d79bb6513c45a77c net: hso: fix muxed tty registration
+03b89da14a8fc7abb7ad7e8222f50b2f4aed567d bnxt_en: Fix TX timeout when TX ring size is set to the smallest
+8751acea5e3204ccfad43f3c127fb2ab730883bb net/smc: add missing error check in smc_clc_prfx_set()
+33c13334989b03e1c72773be9f2cafddf00410b4 gpio: uniphier: Fix void functions to remove return value
+c5e5798e42f037bf97ccc8a3a6e617ce41bd7b8e net/mlx4_en: Don't allow aRFS for encapsulated packets
+ea98b9201f53d8b4b77c4e304774fcfd0cb55e5f scsi: iscsi: Adjust iface sysfs attr detection
+3743c33312128b14b1028d3cf5b1b118bf9d5c2e tty: synclink_gt, drop unneeded forward declarations
+79666425f7c91c022b474e541bb38cd3b0244b62 tty: synclink_gt: rename a conflicting function name
+ea4ff658b204e28aab3db0f7c1da4a11f240b95c fpga: machxo2-spi: Return an error on failure
+998e24c5d2da4925770c46d6d1873720b53cfad8 fpga: machxo2-spi: Fix missing error code in machxo2_write_complete()
+4e7e2cd31d4ffef2b55ca432f1141365bd75ae10 thermal/core: Potential buffer overflow in thermal_build_list_of_policies()
+7f47362bc0c170b751a17b3992d9e1ebbc240073 irqchip/goldfish-pic: Select GENERIC_IRQ_CHIP to fix build
+c94819110234b661fde1baa72615dd3110c88c68 irqchip/gic-v3-its: Fix potential VPE leak on error
+897efb630b24dc2496f6c195bc6ceb5d4cba74c7 md: fix a lock order reversal in md_alloc
+8ad783e2e9fd93f8ef2a39395d65e6f1e6752444 blktrace: Fix uaf in blk_trace access after removing by sysfs
+65f134222fae51eda94b832dc1ac5e6bcc5c109d net: macb: fix use after free on rmmod
+ab3b32415187fa996375e3e6a4af238f2516aaaf net: stmmac: allow CSR clock of 300MHz
+812a6e205ab40f23cb6532871e45060fa9b89048 m68k: Double cast io functions to unsigned long
+39fccc72c25175670c0a0b6fb6e70637865f4bea xen/balloon: use a kernel thread instead a workqueue
+5a84cfabb86d7d38702c251b0fc19f8442fb3134 nvme-multipath: fix ANA state updates when a namespace is not present
+3b0d416871ef381b278c964274672bd761a52c09 compiler.h: Introduce absolute_pointer macro
+eb8ef581dc7612fbc017d900ae7e7c858826a2d1 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
+558c37c855dc570a572c97ddcb7d8a15fd17e24f sparc: avoid stringop-overread errors
+8578215c91c97a119b5584755cab475370a299db qnx4: avoid stringop-overread errors
+3787954dd4dac063fc9d4b33442710f0ae05d737 parisc: Use absolute_pointer() to define PAGE0
+d61c8b2f5a958490b13b7a939e34c5abb5c79e92 arm64: Mark __stack_chk_guard as __ro_after_init
+e76fd413f74ac1aa4c25eee3fe39e9f569eb86cf alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
+64996f25a7ff811c5f46477b1cd03912b28ca196 net: 6pack: Fix tx timeout and slot time
+7ec2b2c8c6eab2ca401c643c8cbe822e42494d6c spi: Fix tegra20 build with CONFIG_PM=n
+002dceca53ef3ab098acdd186bf57b5dcf1d246a erofs: fix up erofs_lookup tracepoint
+8d5beaf6cd43eb96cd0881a06874ace89c47af49 arm64: dts: marvell: armada-37xx: Extend PCIe MEM space
+fdef31f1f863a3479932f9fc03bf7693d790ac7d PCI: aardvark: Fix checking for PIO status
+e908b5e63fdab07d971b0d47eabf026cb6de50f8 tcp: address problems caused by EDT misshaps
+a38b5afe3ca3d29a9470dc593eae89878bbd8934 tcp: always set retrans_stamp on recovery
+0e0f418bc38198e882d02d047f569a29f46e4aa9 tcp: create a helper to model exponential backoff
+b731b93a7e695f7e0ec45538483bc027a2e79935 tcp: adjust rto_base in retransmits_timed_out()
+d6993564adbf85b01bf8454575caa1565efd540e xen/balloon: fix balloon kthread freezing
+bf07305665e56d2ed06c0b270b055168a0fa8c4f qnx4: work around gcc false positive warning bug
+73bd60d96a863767e91e0c191b3faacafefbc973 Linux 4.19.209-rc1
 
---===============5113664168671594309==--
+--===============5987754437556982074==--
