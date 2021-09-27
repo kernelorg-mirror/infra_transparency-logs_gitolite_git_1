@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7549765806144059496=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Mon, 27 Sep 2021 17:12:31 -0000
-Message-Id: <163276275118.26210.14524351298280691868@gitolite.kernel.org>
-
---===============7549765806144059496==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
+Date: Mon, 27 Sep 2021 17:12:38 -0000
+Message-Id: <163276275822.26292.8093057944627071937@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bp/bp
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 75071b1c24883374f54bc1359729172808b62395
-    new: dbab40565644f6c26b0059c2036d16ecf791351b
+  - ref: refs/heads/rc2-cc
+    old: 0652b365793ec18eab208a02383fcc737b76160b
+    new: 2e0432fdeb59fabd1c1dc5584484a939385f6b24
     log: |
-         dbab40565644f6c26b0059c2036d16ecf791351b Add the groupsio webhook
+         94f0fb434b8a2346495793d5468f2f0b6837d3b5 x86/ioremap: Selectively build arch override encryption functions
+         128b79257736a7d848a767b119e7ec8dc3c16179 arch/cc: Introduce a function to check for confidential computing features
+         eb1519bfe1078b61e9b1f05a9761ff049e8af352 x86/sev: Add an x86 version of cc_platform_has()
+         3df6b47b176ab36775e27780cb0a09018aad10c2 powerpc/pseries/svm: Add a powerpc version of cc_platform_has()
+         ade071ce28d330b591f616f51d8fef2f7827b040 x86/sme: Replace occurrences of sme_active() with cc_platform_has()
+         3b25c5ffb76b8632d091575018350b4ffa1e9c0d x86/sev: Replace occurrences of sev_active() with cc_platform_has()
+         a876792e9aa26c44a9234544411584afa2028932 x86/sev: Replace occurrences of sev_es_active() with cc_platform_has()
+         2e0432fdeb59fabd1c1dc5584484a939385f6b24 treewide: Replace the use of mem_encrypt_active() with cc_platform_has()
          
-
---===============7549765806144059496==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1632762750 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1632762750-bab6fc000a3c2cad281cbce039a0f7d0d0c9fdd7
-
-75071b1c24883374f54bc1359729172808b62395 dbab40565644f6c26b0059c2036d16ecf791351b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVH7fgAKCRC2xBzjVmSZ
-bFXRAQDU1foANekez4WY8hrDtWYQkNHWGaaj0J6LlNmdB/eEggEAnrOMLJLIl2rM
-1nKTfJa8NT86Inu0ZUNG96UG1NGxRwk=
-=6PZ3
------END PGP SIGNATURE-----
-
---===============7549765806144059496==--
