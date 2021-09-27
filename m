@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6583450640803952630=="
+Content-Type: multipart/mixed; boundary="===============6958266904966482621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 27 Sep 2021 22:21:25 -0000
-Message-Id: <163278128534.29674.6038154536530108268@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 22:21:43 -0000
+Message-Id: <163278130364.29815.657532058088652783@gitolite.kernel.org>
 
---===============6583450640803952630==
+--===============6958266904966482621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e7d5184b24fb131b6ffc77cf84cd2d7d0d814b68
     new: 4c9f09372046202cbd9a6d7df2845545b668fab5
     log: revlist-e7d5184b24fb-4c9f09372046.txt
 
---===============6583450640803952630==
+--===============6958266904966482621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e4e9baf06a6ea6cfbf69db4c3766a0879329dda2 selftests: xsk: Change interleaving of 
 e34087fc00f4f853886952711195984abdece7a3 selftests: xsk: Add frame_headroom test
 4c9f09372046202cbd9a6d7df2845545b668fab5 Merge branch 'bpf-xsk-rx-batch'
 
---===============6583450640803952630==--
+--===============6958266904966482621==--
