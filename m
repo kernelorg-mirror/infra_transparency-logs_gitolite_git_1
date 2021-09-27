@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8267298699306682179=="
+Content-Type: multipart/mixed; boundary="===============1904170298914527226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 27 Sep 2021 14:36:57 -0000
-Message-Id: <163275341792.21686.8360024669184724250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 27 Sep 2021 14:46:44 -0000
+Message-Id: <163275400473.27387.2409622501855896582@gitolite.kernel.org>
 
---===============8267298699306682179==
+--===============1904170298914527226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 7c783601a3bc22a54cce0fb650259a983c8cafba
-    new: 5ecb11dd892f443d4900292edaba88a26efee8fe
-    log: revlist-7c783601a3bc-5ecb11dd892f.txt
+  - ref: refs/heads/staging-next
+    old: c34e73d67c82a9f13c45627e7ba7e0006c26abb7
+    new: 9b40e16ee51a0e9255cd2571c76b1c8a0b504c74
+    log: revlist-c34e73d67c82-9b40e16ee51a.txt
 
---===============8267298699306682179==
+--===============1904170298914527226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632753417 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1632753416-84bbee8e2a0e2458d79445ba5e9e431ce4787e0c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632754003 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1632754002-5b895498567a933c3c0caf2b8923eb95e8a9db05
 
-7c783601a3bc22a54cce0fb650259a983c8cafba 5ecb11dd892f443d4900292edaba88a26efee8fe refs/heads/tty-testing
+c34e73d67c82a9f13c45627e7ba7e0006c26abb7 9b40e16ee51a0e9255cd2571c76b1c8a0b504c74 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFR1wkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7GgQAMWiNGAk6lYj/9gtnhyl
-Gpp+yu6e4grKzkJ2PcSmSVavF3X1lQFnwMB+ClEIjgfsLvqCZL0wcgziS+SLAOct
-wxaZZ5ZjWpeNHrrU866xyF4mM3SUxJnIQlYXgMUe5ZCyH3pv0YKPdhdudycKJHb1
-arNbyICNBxbf08ECVii7lbK4Ps5MtxXgkHqn+sWq2Ihl0lYVA1xZ5WTnxRy7eEsC
-4NuQ0o6yXWnbxf3Q/C6algMndgvCIkfXpIJBpEsakhMXosERTPSRDT92aKw+UOr7
-aNbB0wDqYDlsv8XKtG9tcy1EtbZHvw6OJCjM3H8VD0EBDs+MN806QdARdAMFTVQI
-F5lH/BXxm2zRs5NwWmidBFqLcd5X/H/g3EPcN1v1HmN4XDf54iS99HOTEmOJL3PE
-/CxtmK+1VuO4871BpmJD+06hVyc+dMVc8KEbv/LUafBhsuOngUlZqpQuUbENzDG6
-ASs7bjF2Xs9eD//JPxKfv/MmRkJs6jFDEcB0tMSrjT0nT3X5RH2JebkAOlYfhvU0
-JI0jM25nCB6MfvBe3MScEcqqv5aFF6UE8eJIAtf07eCKqDYqhHOHcxxwaS03x9KQ
-2ElewNbXFVmnYhb16cvYUTFE5U82wj63LVECuhxW+vPxdteW7cXvQRAwt+MLdaP8
-YO2lzBmhg4yRF1W8fQ+POFJA
-=opn9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFR2VMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uHoP/1dh3t+ReNbUndzkWVg3
+x++8s+lTvp71iNUC/yZHDsRYyyzlBtULhyjb0orBzl1W3qVLlcrPqLzC8AEkCDIo
+SI3gxupuIna8rP4nCGf/7jg3jktOHKzV7fLCPN9NI9svWeg8SxPpu5y6O0ydKUcw
+FlGQPxhMO6+Mq0ZnRd/+LVB8WDozJMdcsRlRlngqcB9xT9HQYkQntrHfYeL+nHbC
+9hAZY4vCd4UTKgJ4+89+QtIKc2AqVIGD/cKqb0ndN66y0XtOrvl5eN6kqkPMKpmk
+yBWH7dhP+fUCeI2FU4kK3pXavxDbLl5WgGjitixiTe7LBVjbDoxzzOw71FP7iIZX
+3iomlT1U/clfwoxmHUF68ZOW2pLIGTjuvKL2DjYGZ7CkQaWpzaDNVD0OqngKOQLA
+I6EXQ5cnEikVXxnpAi67pgOS+kddn7+Q267AVmnCOc6kBWIzg5GAybiCrPyVnCeS
+1uXKEGDhazu0u522E4ZcyEsz27iwMcLiNLNDFw5tD8BEYZF3UC5MB6cifmm9i/iU
+2mLVsQbXY2MPXqGaKazQLKMFNHLcX2P3XB+nKtVw5baTAbnZgFd4OFJZY6oANBL3
+qDpkSZqnp4bCtjq5UryJCwDb+Cr460LHYhIN49zvo9cAzgPrvsBegfs6RKZyKdEo
+owGXOydr+QwNmD/GFDoKZQw1
+=jxM5
 -----END PGP SIGNATURE-----
 
---===============8267298699306682179==
+--===============1904170298914527226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c783601a3bc-5ecb11dd892f.txt
+Content-Disposition: attachment; filename=revlist-c34e73d67c82-9b40e16ee51a.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
@@ -686,6 +686,6 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 996148ee05d08ef5163cad99c33a7b5e844ac494 Merge tag 'edac_urgent_for_v5.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
-5ecb11dd892f443d4900292edaba88a26efee8fe Merge 5.15-rc3 into tty-next
+9b40e16ee51a0e9255cd2571c76b1c8a0b504c74 Merge branch 5.15-rc3 into staging-next
 
---===============8267298699306682179==--
+--===============1904170298914527226==--
