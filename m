@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4281863382392919712=="
+Content-Type: multipart/mixed; boundary="===============0265245007341194569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 27 Sep 2021 14:06:13 -0000
-Message-Id: <163275157388.1612.1398783706880112130@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 14:06:17 -0000
+Message-Id: <163275157794.1694.14604361130292650033@gitolite.kernel.org>
 
---===============4281863382392919712==
+--===============0265245007341194569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+  - ref: refs/heads/staging-linus
+    old: aa3233ea7bdb6c4004f5032a3a07417ea51dc409
     new: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
-    log: revlist-6880fa6c5660-5816b3e6577e.txt
+    log: revlist-aa3233ea7bdb-5816b3e6577e.txt
 
---===============4281863382392919712==
+--===============0265245007341194569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632751573 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632751577 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1632751572-c23687204c3b48e0a6f7571a27cbc441282342e3
+nonce 1632751576-2d5c204afd1394a999f6c8f69efb9f539dc01328
 
-6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 refs/heads/main
+aa3233ea7bdb6c4004f5032a3a07417ea51dc409 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFRz9UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hNQP/1VwrzhbYOxBQWjAGKCM
-4xNIhPWJtwqHGzG7FI9l2IWJT6Sz2YWLIx90mcQzJzO628ZX0MzEWasXKuEfS+ri
-kx6zEHzP8xXzths1xZhLa+jm43pi4YPDNnPmARDC9m/oF/8lPEeDB4MZm9vd2PPk
-lCSbuX9WBk/IWxIFF8OiOrq9R2sP8abtqJRNzS1nNz+pEGG8LXJSOI+0I8kzn/47
-uYqIiVG5+HIpQ6TkvUcYVC9VPChTiEptCpAG3kPd+LBT+0bfkQQxg1p0h32KzrM/
-WoRNYhTrXrx7HTajy3MKp1uPjo06vUt/jO/FJM30otjDhcY2UORs/LuZILOpgBlK
-zRvFSyM8r16neoXnEybWB41F9vvnNhkFq26GvD6IiRczoP9JvDQRRZrtiikS+DnG
-UvT6yji/bqs5r40e3OlKaj70f2qinPPRSYOr7mnwYlb08ciuvQtQPo8hKdxAN4tg
-ZqnHNY7SrgxQHQaMXp1qhJN70oLvX6tEpwHwSfTgC/hpu7n+j+QSdkA90UdXAGLl
-F11abMt8d6vqlxPsgMBUH8WNB7FHE4Qr6lXzkTq9k2/OV2vH5CYn0oSpmyamNuZG
-ayhX5Zt/HIjNKiy+AGcnehbub6hP7Tl4LGSzgtBOIyD/eTw8n3l/1Yd1k8mFgYqY
-0k46n22Y6HK+oR+weoHYwysL
-=JiRO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFRz9kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8lUP+wdYDapcE+rWyin4zcEJ
+HIjhBUjO5PWcNk4U6J7IlWtvs9FlkOvCUUaHiU+wrHRwMgu/3y/WgpN/gaHTkWBi
+CNag/SXgajl+WXK771BvH3fhVfqeM0HdJV3UE0mwuneQc7u17fAxXj+rccq/27be
+jYjiHQmZklo5O8Ws/Gi2neincLjqOQ5McTV9+qm9a0IJTuxtJvb1f/TnsiThAEP1
+m2cemCNOBBbwpzBRzVSxvz/Zu9H1bPrn/EuNSv4rwB80xTgqxcxYJt2LUw4GWk1y
+PWSTQXfJUnKfN6JpveiBWc9n+PNDHWbSE1SYTFbcASjZYbOxgHfWLvAGi6SGiEnZ
+3mLmivL/HUYz5rzz1B4dqsHyot5z49vFQ8CQwl9ymMk08bkMEFW+0upfEoeCh/+/
+hr4YPLl7CMMFZ7qOjvNE9ijpAXQRICVVuMJwPqlsKqhG8Q777FmkOK3BiGLoSo6r
+H1+/L4/74ubD8sb2teg/5iRnXyE3JfZATr70LFKHGbZjHbGCMWiBAsrHUgYGg5YY
+Sa+FSaech0gkstOu9UrAtY/pv9CqnOVPIoOWptbC1e0tWN9qIkuDvESfugry0wYd
+8eohKR9mGtNo+dMRzhcom6GFEHZd9saRGh5wiYi6ulDkWxRZhbCkg6UTu33vSVIA
+ZZS9KTrVjSFyFm1mAlQiTSPy
+=sxkO
 -----END PGP SIGNATURE-----
 
---===============4281863382392919712==
+--===============0265245007341194569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-5816b3e6577e.txt
+Content-Disposition: attachment; filename=revlist-aa3233ea7bdb-5816b3e6577e.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
@@ -198,7 +198,6 @@ b564171ade70570b7f335fa8ed17adb28409e3ac binder: fix freeze race
 5fdb55c1ac9585eb23bb2541d5819224429e103d binder: make sure fd closes complete
 7a8aa39d44564703620d937bb54cdea2d003657f nvmem: core: Add stubs for nvmem_cell_read_variable_le_u32/64 if !CONFIG_NVMEM
 212b5d2d3ed9d7db2702e4805f36a346c3985e1d coresight: syscfg: Fix compiler warning
-92dc0b1f46e12cfabd28d709bb34f7a39431b44f staging: greybus: uart: fix tty use after free
 8480ed9c2bbd56fc86524998e5f2e3e22f5038f6 xen/balloon: use a kernel thread instead a workqueue
 0560204b360a332c321124dbc5cdfd3364533a74 PM: base: power: don't try to use non-existing RTC for storing data
 9af4bf2171c1a9e3f2ebb21140c0e34e60b2a22a drm/i915/dp: return proper DPRX link training result
@@ -477,7 +476,6 @@ b51593c4cd739dff7fc40bbed368572d98b19ae8 init/do_mounts.c: Harden split_fs_names
 211f323768a25b30c106fd38f15a0f62c7c2b5f4 USB: serial: mos7840: remove duplicated 0xac24 device ID
 1ca200a8c6f079950a04ea3c3380fe8cf78e95a2 USB: serial: option: remove duplicate USB device ID
 42a99a0be307562c1bfef32bad8f89aa3c428edd ptp: ocp: add COMMON_CLK dependency
-aa3233ea7bdb6c4004f5032a3a07417ea51dc409 staging: r8188eu: fix -Wrestrict warnings
 e184cec5e29d8eb3c3435b12a9074b75e2d69e4a net: hns3: fix change RSS 'hfunc' ineffective issue
 91bc0d5272d3a4dc3d4fd2a74387c7e7361bbe96 net: hns3: fix inconsistent vf id print
 311c0aaa9b4bb8dc65f22634e15963316b17c921 net: hns3: fix misuse vf id and vport id in some logs
@@ -687,4 +685,4 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
 
---===============4281863382392919712==--
+--===============0265245007341194569==--
