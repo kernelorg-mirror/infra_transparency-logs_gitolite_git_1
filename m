@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 27 Sep 2021 14:47:44 -0000
-Message-Id: <163275406494.27846.11292040300126720380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 27 Sep 2021 14:54:20 -0000
+Message-Id: <163275446036.410.12433471026558956380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-next
-    old: 5d1f642aad69c76f6a260528a22701ec4a8f12f5
-    new: 9ba533eb99bb2acf8b2268c6f48dcf73e1e47753
+  - ref: refs/heads/for-next/kspp-fixes
+    old: f79f454ae501e0d689178a331210101f221d5bbe
+    new: 3831a0d40886a227dfa6ce85819f50acb634ab41
     log: |
-         9ba533eb99bb2acf8b2268c6f48dcf73e1e47753 power: supply: core: Add psy_has_property()
+         3831a0d40886a227dfa6ce85819f50acb634ab41 firewire: Remove function callback casts
          
