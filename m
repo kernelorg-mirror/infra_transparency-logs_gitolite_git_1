@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1576390705150795031=="
+Content-Type: multipart/mixed; boundary="===============8043039452584191122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 27 Sep 2021 22:24:04 -0000
-Message-Id: <163278144431.30540.13496807245577679960@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 22:24:06 -0000
+Message-Id: <163278144670.30600.7127221742833436324@gitolite.kernel.org>
 
---===============1576390705150795031==
+--===============8043039452584191122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.16
-    old: 6b7cb2d23791c541dff2f152d9c5c2f9da065289
-    new: a9a5ca5c8c37793aaf8fb99f593ac9ddad0bf0bf
-    log: revlist-6b7cb2d23791-a9a5ca5c8c37.txt
+  - ref: refs/heads/for-next
+    old: c8964dda3389242f191efe46dde8cbf4bfbf4c7d
+    new: 8954367d01ed1e340ca4d253252ec03241ef3e09
+    log: revlist-c8964dda3389-8954367d01ed.txt
 
---===============1576390705150795031==
+--===============8043039452584191122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b7cb2d23791-a9a5ca5c8c37.txt
+Content-Disposition: attachment; filename=revlist-c8964dda3389-8954367d01ed.txt
 
 55d0feb3ab3de31320db41c92eaac6d73c644a6d dt-bindings: arm: cpus: Add Kryo 560 CPUs
 5f82b9cda61e60a7f381a4aa427fa9eb472e581c arm64: dts: qcom: Add SM6350 device tree
@@ -43,5 +43,7 @@ ced2f0d75e132a611f6239846b853452c23e6176 arm64: dts: qcom: sm6350: Add LLCC node
 4ef13f7fe4cd9e29118e09597b4fdd721fd24c11 arm64: dts: qcom: sm6350: Add apps_smmu and assign iommus prop to USB1
 ed1648d52a375e606a0c88f5bf65282686ae6541 arm64: dts: qcom: sm6350: Add device tree for Sony Xperia 10 III
 a9a5ca5c8c37793aaf8fb99f593ac9ddad0bf0bf arm64: dts: qcom: pm6150l: Add missing include
+235415d9adb1692285a320570d45b6dbd5886daa Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
+8954367d01ed1e340ca4d253252ec03241ef3e09 Merge branches 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
 
---===============1576390705150795031==--
+--===============8043039452584191122==--
