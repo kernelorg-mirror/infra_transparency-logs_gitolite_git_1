@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2861864851699732037=="
+Content-Type: multipart/mixed; boundary="===============2187734461485546179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Mon, 27 Sep 2021 21:08:42 -0000
-Message-Id: <163277692272.14382.9819072655362349286@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 21:09:22 -0000
+Message-Id: <163277696265.14654.9776030412824693443@gitolite.kernel.org>
 
---===============2861864851699732037==
+--===============2187734461485546179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: 17f6274aa5076a1d071b95b0e8039b25c6d16080
-    new: 0df5fa1f3436f9cc73d27de1cfe3d9e9db8b0eb6
-    log: revlist-17f6274aa507-0df5fa1f3436.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 81c6fad138c0f556d3ee401f36dea4602d005c5b
+    new: 8add8eb03c4aa10db655cd83f0d274f2d8373aad
+    log: revlist-81c6fad138c0-8add8eb03c4a.txt
 
---===============2861864851699732037==
+--===============2187734461485546179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17f6274aa507-0df5fa1f3436.txt
+Content-Disposition: attachment; filename=revlist-81c6fad138c0-8add8eb03c4a.txt
 
 0ddc5e55e6f1da1286fb2646f4248bf7da31a601 Documentation: Fix irq-domain.rst build warning
 7bb057134d609b9c038a00b6876cf0d37d0118ce USB: serial: option: add Telit LN920 compositions
@@ -350,21 +350,6 @@ c4adc416345048defa50a6b4f9e38ce364f4f7e4 mm: thp: page_trans_huge_mapcount_lock:
 04b1ae5d11fc473f298368a872a53499148fb263 mm: thp: optimize total_mapcount() with head_compound_mapcount
 389dabb3596bbc257d492b6b1f0fcf413f093c6c mm: thp: cleanup and optimize compound_nr
 287504afd6b0b20fd14465237dd4dddcdb6f4239 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-a5571c3117c95e513c6aa032f0b974d63b95af22 mm: mm_take_all_locks: add cond_resched()
-96982a528e04382c9ea77bad7d32f215ac647488 x86: restore the write back cache of reserved RAM in iounmap()
-3dc3d68bc4eb648f588a5cace8443af9123a08ce x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-ffb90871af87e430ccc66e825b891a75fd9df362 x86: deduplicate the spectre_v2_user documentation
-7a3250034adb70e9c9f3f65489842e069899b995 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-e2b94703ca8ea98648df315b6ff3fcbb706ad974 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-b540b6c155234b8dad4ed253c67fb43155fa7ca9 x86: atomic_set needs WRITE_ONCE
-6299aeead2d7710b2311767117df08dc385c2277 sched/fair: skip select_idle_sibling() in presence of sync wakeups
-a562dde9495cf5102f5ef309974df159175f7d0d userfaultfd: fix a race between writeprotect and exit_mmap()
-8a3df3efe8731e3b3a1963eb2eea07d6544dd49e userfaultfd: UFFDIO_REMAP: rmap preparation
-28b201dea01c258df06d59fc95a9c0fe33c434e5 userfaultfd: UFFDIO_REMAP uABI
-465621e19210d49446fd7fffb148fa6d2ff30410 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-1683f71e34f530a59a692bc9388c03bafb39110a arm64: select CPUMASK_OFFSTACK if NUMA
-bb06fdf4788bc7b0b3be37d8312d23dd0788b0bb arm64: tlb: skip tlbi broadcast
-62211ec7ab89e0bcbb0a4d55a5155a7ad7e1388a mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-0df5fa1f3436f9cc73d27de1cfe3d9e9db8b0eb6 Merge remote-tracking branch 'gitlab/main' into main
+8add8eb03c4aa10db655cd83f0d274f2d8373aad mm: gup: FOLL_UNSHARE and COR fault
 
---===============2861864851699732037==--
+--===============2187734461485546179==--
