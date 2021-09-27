@@ -1,31 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 27 Sep 2021 01:59:09 -0000
-Message-Id: <163270794989.11175.15423189256715307579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
+Date: Mon, 27 Sep 2021 02:02:00 -0000
+Message-Id: <163270812007.13590.11982294395170250795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/morgan/libcap
+user: morgan
 changes:
-  - ref: refs/heads/main
-    old: 0869f8269161843a46c0cac0e35b4dc9324bf1a6
-    new: e33ce1d6a8c7e54e3ad12cff33690b6da0aee1dc
-    log: |
-         5eb5927d81ee6036f45c4e1bd89ae66ed325d721 fdtdump: fix -Werror=int-to-pointer-cast
-         ff3a30c115ad7354689dc7858604356ecb7f9b1c asm: Use .asciz and .ascii instead of .string
-         d24cc189dca6148eedf9dc9e2d45144b3851dae0 asm: Use assembler macros instead of cpp macros
-         e33ce1d6a8c7e54e3ad12cff33690b6da0aee1dc flattree: Use '\n', not ';' to separate asm pseudo-ops
-         
   - ref: refs/heads/master
-    old: 0869f8269161843a46c0cac0e35b4dc9324bf1a6
-    new: e33ce1d6a8c7e54e3ad12cff33690b6da0aee1dc
+    old: 01627eae86cc299de459067614e6964b63bb6bcb
+    new: 9eb56596eef5e55a596aa97ecaf8466ea559d05c
     log: |
-         5eb5927d81ee6036f45c4e1bd89ae66ed325d721 fdtdump: fix -Werror=int-to-pointer-cast
-         ff3a30c115ad7354689dc7858604356ecb7f9b1c asm: Use .asciz and .ascii instead of .string
-         d24cc189dca6148eedf9dc9e2d45144b3851dae0 asm: Use assembler macros instead of cpp macros
-         e33ce1d6a8c7e54e3ad12cff33690b6da0aee1dc flattree: Use '\n', not ';' to separate asm pseudo-ops
+         33a6686e2bc126916145f01246ee6be80669dcdb More compliant cap.Differs documentation.
+         dba6efc51b2cb4ee97e34575d298cdbb58cfed68 Spelling fix.
+         f8b754967348052ca92c6d2c95551cbbb1e1d387 Update example to avoid reference to deprecated Compare function.
+         6643c636e8ab44add497f97e479ad8a931d43adf Recognize that NULL is an invalid cap_t and cap_iab_t.
+         22569c7cfb428edc5ae05cf631a25227087e74d0 Fix to 'make clean sudotest' reliably
+         9eb56596eef5e55a596aa97ecaf8466ea559d05c Up the release version to 2.59
          
