@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 27 Sep 2021 18:54:40 -0000
-Message-Id: <163276888000.27292.16071162108984175773@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 19:17:58 -0000
+Message-Id: <163277027840.8693.14273947811572368600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 42d43c92fc577dca59ed74aec7868abec8d6ca6e
-    new: 9b3b353ef330e20bc2d99bf3165cc044cff26a09
+    old: 9b3b353ef330e20bc2d99bf3165cc044cff26a09
+    new: c388a18957efdf31db8e97ec4d2d4b7dc1ca9a44
     log: |
-         9b3b353ef330e20bc2d99bf3165cc044cff26a09 vboxfs: fix broken legacy mount signature checking
+         c388a18957efdf31db8e97ec4d2d4b7dc1ca9a44 watchdog/sb_watchdog: fix compilation problem due to COMPILE_TEST
          
