@@ -1,110 +1,139 @@
-Content-Type: multipart/mixed; boundary="===============4354421030502456617=="
+Content-Type: multipart/mixed; boundary="===============0458742454229012978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 27 Sep 2021 21:05:01 -0000
-Message-Id: <163277670181.11859.12677122281536170331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Mon, 27 Sep 2021 21:07:58 -0000
+Message-Id: <163277687830.14072.15518904867402476816@gitolite.kernel.org>
 
---===============4354421030502456617==
+--===============0458742454229012978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/seen
-    old: 677f59c649d0b51a1b3271291e95026e92256bde
-    new: f5cf45cb8afb34944e5c07087f15e56b936a033e
-    log: revlist-677f59c649d0-f5cf45cb8afb.txt
+  - ref: refs/heads/main-5.10.y
+    old: 2622ae2199fa0d152bc1666afdad74dfeebdba42
+    new: 2a175546fe58a511b51ba03a34e0490aa79f0dad
+    log: revlist-2622ae2199fa-2a175546fe58.txt
 
---===============4354421030502456617==
+--===============0458742454229012978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-677f59c649d0-f5cf45cb8afb.txt
+Content-Disposition: attachment; filename=revlist-2622ae2199fa-2a175546fe58.txt
 
-97d6e598cd81344475feb45892831335da629a43 object-file.c: do not rename in a temp odb
-272abe6fc6e5bff24743e5338fbf16a4ae534fe2 bulk-checkin: rename 'state' variable and separate 'plugged' boolean
-d2c470f9bc4192a0b33ebea73986d14c32b3a361 lazyload.h: fix warnings about mismatching function pointer types
-5e3aba33da26803e48b0099c9dabfd327f7f8b8b hook.[ch]: move find_hook() from run-command.c to hook.c
-330155ed8af3b2e050ac74554993ba68d303e8c3 hook.c: add a hook_exists() wrapper and use it in bugreport.c
-07a348e7461afe9411004a0501034cb3ff1cdee8 hook.c users: use "hook_exists()" instead of "find_hook()"
-cfe853e66be56b4a035739b0f21ba409dfca695f hook-list.h: add a generated list of hooks, like config-list.h
-44d2aec6e8795ac22b9121b3d2ecf43589e8ecd2 connect: also update offset for features without values
-3e8084f1884ffea25b80f76b7a1bd0e5b3200c8a http: check CURLE_SSL_PINNEDPUBKEYNOTMATCH when emitting errors
-b4724242fa3342d939e7a0c4102d3695091db1f6 t7900: clean up some more broken refs
-e9de7a52a5cb1d6647a33a3ce0eedb947e04f3fc t5516: don't use HEAD ref for invalid ref-deletion tests
-da5e0c6a00fd01112b10f3e47cf8044a37ec329d t5600: provide detached HEAD for corruption failures
-2ac0cbc9b0bf9236b34eff4aa0160f5cfc3606c4 t5312: drop "verbose" helper
-f805844676ac4d6f5def5c2ace1d0430c410e21e t5312: create bogus ref as necessary
-078eecbcbe04bf77e8b9afee01a58c905c3b3c50 t5312: test non-destructive repack
-5b062e1f79b5121296678d91b2bbd032ca86a866 t5312: be more assertive about command failure
-bf708add2eaf37d53fa8a908b5d8772806c54d1b refs-internal.h: move DO_FOR_EACH_* flags next to each other
-9aab952e855be1a567d4d0585afbdbde624e274f refs-internal.h: reorganize DO_FOR_EACH_* flag documentation
-8dccb2244c81258cf9f3480c4102d14e30978194 refs: add DO_FOR_EACH_OMIT_DANGLING_SYMREFS flag
-6d751be4b66180679e8bc03fc22b14b4245067a8 refs: omit dangling symrefs when using GIT_REF_PARANOIA
-968f12fdac2601086dea7e10db17f1c50d704a07 refs: turn on GIT_REF_PARANOIA by default
-5d1f5b8cd4bec8fbb405e32b1208955c93240f17 repack, prune: drop GIT_REF_PARANOIA settings
-1763334caf6c060f38b3310960b38cd3b1d54687 ref-filter: stop setting FILTER_REFS_INCLUDE_BROKEN
-2d653c50364aeccb604f6b4680190824debf637a ref-filter: drop broken-ref code entirely
-67985e4e4aa85f11593b1aec35cf7cd7e9d02fba refs: drop "broken" flag from for_each_fullref_in()
-7484a62c1cb1739db002b284ea71c2c8daca32d0 core.fsyncobjectfiles: batched disk flushes
-c0fca686a65f39922189225ee7f1efef10a6bd97 core.fsyncobjectfiles: add windows support for batch mode
-66a156b44087a83028e97b8017f911729b51f476 update-index: use the bulk-checkin infrastructure
-bc9bbe9a08fc430cfadb585500bbadcd7ec3f5ad unpack-objects: use the bulk-checkin infrastructure
-ada5461b09ae3463c217cb1efe86da122d2e0a31 core.fsyncobjectfiles: tests for batch mode
-dd7e04aa0cd5d87af844836d5793d03b885ef8ad core.fsyncobjectfiles: performance tests for add and stash
-2d84c4ed571215f4cdd5ea05a46861974d10d123 lazyload.h: use an even more generic function pointer than FARPROC
-c512d27e787e9eb325731ab6aa7ac126f8cf6126 checkout, read-tree: fix leak of unpack_trees_options.dir
-491a7575f188cbf6cfb5be75981a40beb4c22b44 read-tree, merge-recursive: overwrite ignored files by default
-04988c8d182da945cd9420274f33487157c5636f unpack-trees: introduce preserve_ignored to unpack_trees_options
-c42e0b64093306d59372df288f9b4086290623f5 unpack-trees: make dir an internal-only struct
-1b5f37334a2603c7134da7accba76276d8d31cf6 Remove ignored files by default when they are in the way
-480d3d6bf90a6ec5b8f02d672f1d4027a4889106 Change unpack_trees' 'reset' flag into an enum
-1fdd51aa13c27403c37b57ead32ef79b81d8128b unpack-trees: avoid nuking untracked dir in way of unmerged file
-56d06fe4aa9089bccb4ff247fc3224fc7431c72d unpack-trees: avoid nuking untracked dir in way of locally deleted file
-94b7f1563ace91af823125e5b8895cb24b2c0e4a Comment important codepaths regarding nuking untracked files/dirs
-0e29222e0c2f68118cdd3412515539b74433b732 Documentation: call out commands that nuke untracked files/directories
-dd20e4a6db0c5504f098f8e97eadf55b967056cd Makefile: pass -Wno-pendantic under GENERATE_COMPILATION_DATABASE=yes
-cc8bae916e32721c7a62035c8bbe70d0adae7a7a Merge branch 'ab/make-compdb-fix' into jch
-eeeb5b1bded03d062b57eb24459b44da72d131f5 Merge branch 'js/win-lazyload-buildfix' into jch
-c3553e133627b88876e67d88214201036a14d2a1 Merge branch 'ah/connect-parse-feature-v0-fix' into jch
-1c08651888f9837890056beab76595feff9b0519 Merge branch 'ew/midx-doc-update' into jch
-96c615f4ef29a332486ad104accab3240a95b05c Merge branch 'ab/auto-depend-with-pedantic' into jch
-51a2aa267188b67f6dbf54c3bd7ed27a926b1736 Merge branch 'da/difftool' into jch
-1a6a999c0aa59db85aed3c86c406bb68ac7edca4 Merge branch 'ab/bundle-remove-verbose-option' into jch
-7a368e6135fd6678067b35b2a55db67bf574f100 Merge branch 'pw/rebase-reread-todo-after-editing' into jch
-c5031d88b61b6232da68e54510222d2a0f1d62d9 Merge branch 'rs/close-pack-leakfix' into jch
-bd7d30088ca112278ddc2300205889c171877510 Merge branch 'ab/http-pinned-public-key-mismatch' into jch
-4c000b1cf25510ed7ef1714aa30ae234de451cdb Merge branch 'jk/ref-paranoia' into jch
-8b2cca588889b1d81fd6ba85924d9a0c7c1938cf Merge branch 'en/removing-untracked-fixes' into jch
-616a3de1ae0ce022d828ea0a44e1bbce3859d9c7 Merge branch 'ns/batched-fsync' into jch
-c11f6f34f15c54ca004eddd30659619ed22b6190 Merge branch 'ab/config-based-hooks-1' into jch
-0b64064a5088aadf8717eee788ab59186640d06b Merge branch 'ab/sanitize-leak-ci' into seen
-4956f1c05b9d653ffbcf68124abc871f089c8bf0 Merge branch 'jh/builtin-fsmonitor-part1' into seen
-ac599c2be0ac477077d862a126dc5023ee53dadf Merge branch 'js/scalar' into seen
-c26f550e08983caf5cac7f8adfcf73a32af9ad9a Merge branch 'ms/customizable-ident-expansion' into seen
-d291a232410e640efaf060bdd54880ae16556c26 Merge branch 'ab/pack-objects-stdin' into seen
-bac43818235c7736815b057abc0376e5d99c9510 Merge branch 'en/zdiff3' into seen
-50bd63a8595419a60912182020860577839d13bc Merge branch 'cf/fetch-set-upstream-while-detached' into seen
-e2ada6f04402d1012ba75e41bc3f7e53e48d53b9 Merge branch 'pw/diff-color-moved-fix' into seen
-c35919ae23984ec18019759fc98a0f6ffdca7f72 Merge branch 'en/remerge-diff' into seen
-1f90913cfa62b590c10513edb0789f2b1ae6b10f Merge branch 'ar/submodule-update' into seen
-5f796bb009e137a15f65ddc83780854ab4101031 Merge branch 'fs/ssh-signing' into seen
-aafae0e9095fb7329bf447c9a7b512973ccfacf2 Merge branch 'ab/help-config-vars' into seen
-5c14a92844a3d60f73dd0566e258e7b76d7d0c3d Merge branch 'tb/midx-write-propagate-namehash' into seen
-5cd744d8885e93cf5e6a22c8ce16fbf9d554953f Merge branch 'gc/doc-first-contribution-reroll' into seen
-35969c05ccf2adb66f8f44aa0fda5607a4a6759f Merge branch 'ab/fsck-unexpected-type' into seen
-ecd933f743cff654d4374548d340bb3c753faaa3 Merge branch 'ab/lib-subtest' into seen
-37e540d9a91dc77b33c9642ae266f128798c7e75 Merge branch 'ab/only-single-progress-at-once' into seen
-1266af532d88e35e6b68d6c1e10f07a3114a190b Merge branch 'ab/align-parse-options-help' into seen
-79acbf9776d6daa8d35c76cb90d3dc2e27c533a2 Merge branch 'ds/add-rm-with-sparse-index' into seen
-ff820a6f677f166fd6b2f55b2af55d48c8899f9e Merge branch 'bs/difftool-msg-tweak' into seen
-55bf535293f2366d316ccfab58b597ec4b71da1c Merge branch 'tp/send-email-completion' into seen
-05d9a8ad2ecbef9197814c209252f529581f96b6 Merge branch 'ab/make-sparse-for-real' into seen
-f5cf45cb8afb34944e5c07087f15e56b936a033e Merge branch 'hm/paint-hits-in-log-grep' into seen
+9e766b86a9ef653a8ca48a9f70d3dbb580284594 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
+9493e92a395330787def2b1980e930f5082de2f4 PCI: aardvark: Fix reporting CRS value
+74d54e5ceba3f50b9b695e4740172d876327815a console: consume APC, DM, DCS
+79286ea830b3922b38bcefbd150b2010f91a55ce s390/pci_mmio: fully validate the VMA before calling follow_pte()
+eb46d7c8ae838b37ad4acee44fa3828af3062ce7 ARM: Qualify enabling of swiotlb_init()
+ce90c6706d5a95ddda8d3cea01768bd0b4445851 ARM: 9077/1: PLT: Move struct plt_entries definition to header
+ad00533858f7b1436f7dc9c555ccac85c0e28c9a ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link()
+f91d25a7c89e2f246a541603430ce2420bab58c5 ARM: 9079/1: ftrace: Add MODULE_PLTS support
+5ce134e65f3b8034220c416ab8cecd8652fdeb2d ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE
+473cea4983b582fedb10f84b43e8924716ebc4fc Revert "net/mlx5: Register to devlink ingress VLAN filter trap"
+ffca46766850d4b96a26ad511a7997f74da2df8c sctp: validate chunk size in __rcv_asconf_lookup
+ccb79116c37242c07c34c991868acded87509e4c sctp: add param size validation for SCTP_PARAM_SET_PRIMARY
+6b24588708fe7cb680d433a0492abb651bb1d5b0 staging: rtl8192u: Fix bitwise vs logical operator in TranslateRxSignalStuff819xUsb()
+5d0e6a5e44416cdfd8b391fa46c69f7d08f9dd0d coredump: fix memleak in dump_vma_snapshot()
+9d49973b08488f59dd0ada269d9dca210d1fd365 um: virtio_uml: fix memory leak on init failures
+fa64b08931ee27bec3513aed8f7936e99b8d1212 dmaengine: acpi: Avoid comparison GSI with Linux vIRQ
+ebcd3fd9207c98f0c01c317ef3aca7f2df41b72d perf test: Fix bpf test sample mismatch reporting
+87c4144450e6f09afeb2adc336f35b5f5274205c tools lib: Adopt memchr_inv() from kernel
+38ab04186fb3f3b50f33e5cfde38066c5227e89d perf tools: Allow build-id with trailing zeros
+375e779ec32a87edeb6bb26582c1c9a1f59876f9 thermal/drivers/exynos: Fix an error code in exynos_tmu_probe()
+e464b3876b022c0c4e0eb21518c491c6eb38130c 9p/trans_virtio: Remove sysfs file on probe failure
+30417cbeccffeaaf5d7fa5a9e9feffe246a1430f prctl: allow to setup brk for et_dyn executables
+0796d99c1b16f03fd34024a26da2e81ec1c728c1 nilfs2: use refcount_dec_and_lock() to fix potential UAF
+74190973ab01fb88e8b685f417651e30112ed4a1 profiling: fix shift-out-of-bounds bugs
+c63df77c40ca40979ed8bb02b4a07500eef6cd28 PM: sleep: core: Avoid setting power.must_resume to false
+322b70b522abe03cd59712bb47a72eddd835d19d pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+777344da345a374eb74f2a743b5399e6e60d566b pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+48271d10bf4cbdd4693ad4f94fb14c2aa7fcc4c5 dmaengine: idxd: fix wq slot allocation index check
+113a69460de5e82ae3be12b01ec1daee81fd9929 platform/chrome: sensorhub: Add trace events for sample
+41aa215734868ba7cb195e2cc5f00cdba5bd1578 platform/chrome: cros_ec_trace: Fix format warnings
+8193ad306ea0005bbe1f2f8fc600ab270d27c8dd ceph: allow ceph_put_mds_session to take NULL or ERR_PTR
+e418ce8b8dfd47c3555b6e53757382d1fb609b54 ceph: cancel delayed work instead of flushing on mdsc teardown
+912afe602eacf4c9cf75a74d3cdb5c9f9c7c4698 Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+d1f9ecc00da1bb6af558251d3eb88ea33aa0c307 tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
+c9538018cb2d61c269c4c622131545763f24a9ee thermal/core: Fix thermal_cooling_device_register() prototype
+45bd9dd1bee8aedc4cbd409b1ba7f9b4f941eea6 drm/amdgpu: Disable PCIE_DPM on Intel RKL Platform
+b9a1526d51744075a6245d3f3a5544b10a5405c9 drivers: base: cacheinfo: Get rid of DEFINE_SMP_CALL_CACHE_FUNCTION()
+ca907291e11619843ea8b555ca30cf322a8d2514 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
+2a07348e9821d7014b27ba3cd7a27318cbc5f4c9 parisc: Move pci_dev_is_behind_card_dino to where it is used
+b4bb0b171b6ef63474bbbcfcb0b90660c27f8fcc iommu/amd: Relocate GAMSup check to early_enable_iommus
+c12cf7f9afe23eef40cb5cff5fd28a0f39745232 dmaengine: idxd: depends on !UML
+35492619e010b312d0d3fe94bbe182bce0bae5ee dmaengine: sprd: Add missing MODULE_DEVICE_TABLE
+9c1ea8537730790ee183fa32379932f777c95d17 dmaengine: ioat: depends on !UML
+b26ced26251cc26cc6c8327535687b77af0c55db dmaengine: xilinx_dma: Set DMA mask for coherent APIs
+386fd6fd01bd1ee92640f97c0d0e06e204641c9f ceph: request Fw caps before updating the mtime in ceph_write_iter
+487ead34a208c1da9da7fc9f776b517680255ca1 ceph: remove the capsnaps when removing caps
+921ef7cfef15a7e25511089c9941ee37c3dc9fec ceph: lockdep annotations for try_nonblocking_invalidate
+c43803c1aa76f2cc15ee641564412741a18028ff btrfs: update the bdev time directly when closing
+aa1af89a6697ed8f1f0d3d62029036158a4486d9 btrfs: fix lockdep warning while mounting sprout fs
+d95b50ff07b831495a87eb47dd3a7f23eaec2a40 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+0480f7a480bccdd5e747e64365b703105ccae350 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+5acb21e30d85f90b658bae7fb3f53b5e42952292 nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+5770b54b112e3ea252fc0547dd1fbc5af5c7e7c3 nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+0f36028d01339976c0d3dd67f11dd99f374f2e49 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+d7736e2faa13b0c0b677b901044d1e21879bd314 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+db8838e48a0a7f30bc6d4d6f0f9cd4e2f06c289f habanalabs: add validity check for event ID received from F/W
+0a2ea5c0e5d1076fc189f695f18f6341f58f469d pwm: img: Don't modify HW state in .remove() callback
+a6a2b36a8cc45bf9063cdc4bde7434e8eac66ecd pwm: rockchip: Don't modify HW state in .remove() callback
+a2551d0a29e937515a9711b604d88cd1a31c386f pwm: stm32-lp: Don't modify HW state in .remove() callback
+23dfb959c6cbb8346a5143f44a970373fcb4ce8f blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+9a14014df72d00d87a199e1f77896f7ea62cc126 blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
+647c19bc61023b305389f5b027b2f7edab0feca2 rtc: rx8010: select REGMAP_I2C
+83a3cb200effb8f61d51516bd64fd94dea4c7805 sched/idle: Make the idle timer expire in hard interrupt context
+7c09505e9e6b1461cddf7c85fdb4f4ff1cc3fd23 drm/nouveau/nvkm: Replace -ENOSYS with -ENODEV
+5f4196eaa90c139ac470111b8e2deabf5f283baa Linux 5.10.69
+f67b798312cf2e2f46b53cdbc1bc3f2016ea7489 extraversion
+e0837a2a5d3d32ccb9051de81ee8142111f6f556 sched/fair: skip select_idle_sibling() in presence of sync wakeups
+f4398c54e96b9f97e2946dccb44f5d0234d20517 mm: thp: make the THP mapcount atomic with a seqlock
+5ae52803dfe85f2931d65ccdbe04d9fa47bf84de mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+e0d3b0aa04ea66ba5caffad2079c510a727e3a64 mm: thp: introduce page_trans_huge_anon_shared
+da92bedc8c74f433c8e9cfae58ee3a25cc47de4b mm: thp: introduce page_mapcount_seq irqsafe version
+d8c2c66c6b0ab8c7703e3aabc44b6fb4809fb02d mm: thp: introduce irqsafe methods to check if anonymous pages are shared
+4e21e0c639e69b50b142607c18d2c623636473e3 mm: gup: COR: copy-on-read fault
+b1782f2c2ec2f3067342275297bbc34cb32ecf56 mm: gup: gup_must_unshare()
+78970827a6418b2af70575d7b3344ff0600e5ef0 mm: gup: FOLL_UNSHARE
+52f14ea632e4245c400c5347b3f185368ef15799 mm: gup: FOLL_UNSHARE: optimize mmu notifier
+57f8b83ec285638f381f72ee55d7fc08a78d276f mm: COW: skip the page lock in the COW copy path
+e6c4af29c140e895c6cef5c2c2f52f6bce1b0511 mm: thp: replace the page lock with the seqlock for the THP mapcount
+c4939fa0b81c207af65106868dbf49533e3ee765 mm: COW: restore full accuracy in page reuse
+78aa0e20fed99c71e6aa21d5a949b4e95ba35dfb mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+5bb8c82afbe45a089eed2cacba8b51234b126bf2 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+2647d89140cfe1789dfa8e146613535f850ccf1f mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+a695b383bc1173f8f3871e51ad2a69d257c740c2 mm: gup: document FOLL_MM_SYNC
+eb739fe7d9cf1ae1d8e430044693745dba38da34 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+3bed860034115ff9c06881067653087f3f9d378e mm: cacheline alignment for page_table_lock and mmap_lock
+143ae6547eb4b353236f7ff389ebcd1c81d12692 mm: gup: allow FOLL_PIN to scale in SMP
+4666f0865170cc63de1e47c43dfdae5096444d98 mm: gup: pack has_pinned in MMF_HAS_PINNED
+8196187f7a148283df4b100c4f7c7c1de7ea1d18 mm: thp: page_trans_huge_mapcount_lock: optimize the migrate path
+3211412d4818b2eaf1f1916a1493e64325786e8c mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+0c2716ea5249e20d2acb73fc3ec8f061f7a6ed53 mm: thp: optimize total_mapcount() with head_compound_mapcount
+3d312e7d24a3cf646c469e9872f6a09276913831 mm: thp: cleanup and optimize compound_nr
+1e64cfbe29d046f0456aaebfaacd2a26af8de608 mm: proc: Invalidate TLB after clearing soft-dirty page state
+5d55c2929efc3f636a58237c85d62c7094b42af1 mm: thp: consolidate policy_nodemask call
+d9b2b9bba9bcdedd1b8625887751a277c68fd45e mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+8b8e3863c1919099f482b3910dadc609dc1178b4 mm: mm_take_all_locks: add cond_resched()
+793bea995cb70ed3026f85cf306df24e1c57f1bb x86: restore the write back cache of reserved RAM in iounmap()
+f40da0e68a5ef32b68f299a304d3cc47553eaa79 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+433af3ddd96eda4d609ad8cd6e353fb5087c80f6 x86: deduplicate the spectre_v2_user documentation
+eb5c0dc36e6fa72a69c5818e739c713c67e897a0 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+bb8b6b2fe9295b11bc60db5bf6cba4377c6a91c2 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+949a446de3f33e6d0aa29b0ad850e14f2ddba1fb x86: atomic_set needs WRITE_ONCE
+cbeb0c1f96458a242e026cc5e968530cbc1dc7a7 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+c7c02d6dfac787a09bc7d59d023830c5aaf5a16c userfaultfd: fix a race between writeprotect and exit_mmap()
+5a418249a6dcc4c8095e7ddde28a174343a987ab userfaultfd: UFFDIO_REMAP: rmap preparation
+5a786ed6adc27213a765fc9366c3de123fa38152 userfaultfd: UFFDIO_REMAP uABI
+d14e00b2f0f3e51120f6da65da74c38db9059872 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+abecd84a8cffc5fcb5cdd7143758537d49a2abce arm64: select CPUMASK_OFFSTACK if NUMA
+072486f932a683e5de007599a4ec7d98c13720ac arm64: tlb: skip tlbi broadcast
+2a175546fe58a511b51ba03a34e0490aa79f0dad Merge remote-tracking branch 'gitlab/main-5.10.y' into main-5.10.y
 
---===============4354421030502456617==--
+--===============0458742454229012978==--
