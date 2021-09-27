@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6648468512877375938=="
+Content-Type: multipart/mixed; boundary="===============3720402103532335141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 27 Sep 2021 11:18:59 -0000
-Message-Id: <163274153986.15703.10262280314216115246@gitolite.kernel.org>
+Date: Mon, 27 Sep 2021 11:19:26 -0000
+Message-Id: <163274156612.16090.3520273728525479968@gitolite.kernel.org>
 
---===============6648468512877375938==
+--===============3720402103532335141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 7e48ff1d8b5073dbd8c1e65d8909d34357fd7f65
-    new: da4faebd2c67f7c841d40ac30db4ab55fa632050
-    log: revlist-7e48ff1d8b50-da4faebd2c67.txt
+  - ref: refs/heads/m68k-queue
+    old: c1c7de227951722fd4d3a4317aa346cdabdac282
+    new: b1a190f6bde6ec357e9107313428c8ea61be554b
+    log: revlist-c1c7de227951-b1a190f6bde6.txt
 
---===============6648468512877375938==
+--===============3720402103532335141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e48ff1d8b50-da4faebd2c67.txt
+Content-Disposition: attachment; filename=revlist-c1c7de227951-b1a190f6bde6.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 0ddc5e55e6f1da1286fb2646f4248bf7da31a601 Documentation: Fix irq-domain.rst build warning
@@ -377,6 +377,18 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 996148ee05d08ef5163cad99c33a7b5e844ac494 Merge tag 'edac_urgent_for_v5.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
-da4faebd2c67f7c841d40ac30db4ab55fa632050 Merge tag 'v5.15-rc3'
+87ea02fbe0817c0518fdf5d851e1248e8b076cfc m68k: Handle arrivals of multiple signals correctly
+fe90d1ce069d099fe6d8fa78058bc3c34bcb450b m68k: Update ->thread.esp0 before calling syscall_trace() in ret_from_signal
+26b1408c97b1ca90db2a5984db0049eb581fb7b1 m68k: Leave stack mangling to asm wrapper of sigreturn()
+8254b634adc1e86514a79868874c7e9b4b9b1bcc m68k: Document that access_ok is broken for !CONFIG_CPU_HAS_ADDRESS_SPACES
+dc5bc6fae7e0fca768a267b59ef5d5328ee4b95e m68k: Remove the 030 case in virt_to_phys_slow
+ed46daddb4f830d4d339a56c9554d453bc210b33 m68k: Use BUILD_BUG for passing invalid sizes to get_user/put_user
+bf0b591fe760d5211dc1f6b4509bf0caf87c0204 m68k: Factor the 8-byte lowlevel {get,put}_user code into helpers
+15fdf346c5e1b058eb57fb107b662294399bcb95 m68k: Provide __{get,put}_kernel_nofault
+ce0da139f45bff8743410143ffdfd0fa62ef1af2 m68k: Remove set_fs()
+4880ef9db8960f67f8e4a57c35a94ce79c8617d9 m68k: muldi3: Use semicolon instead of comma
+1e3020fd4fd25acb0e2ac4d83403dd9555d213be m68k: atari: usb: Add ISP1160 USB host controller support
+af3c483a61b6d809018be6eeb478405d42a77098 m68k: atari: Update Kconfig.bus help text
+b1a190f6bde6ec357e9107313428c8ea61be554b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6648468512877375938==--
+--===============3720402103532335141==--
