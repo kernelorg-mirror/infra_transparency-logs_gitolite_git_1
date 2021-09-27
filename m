@@ -1,66 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============7172060443780189113=="
+Content-Type: multipart/mixed; boundary="===============8215034010337170387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 27 Sep 2021 13:55:05 -0000
-Message-Id: <163275090561.23706.15334836369436506856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 27 Sep 2021 13:59:44 -0000
+Message-Id: <163275118447.25117.6030783203550482509@gitolite.kernel.org>
 
---===============7172060443780189113==
+--===============8215034010337170387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linux-next
-    old: b5ec6a4da0b89ec4b1a6437deada77f0874a6eb8
-    new: cb5da0da36027d52c1a9d11fe17d9f4d73fa05af
-    log: revlist-b5ec6a4da0b8-cb5da0da3602.txt
+  - ref: refs/heads/linux-4.4.y
+    old: 341b74d7851f027240b0a201e4aa3cd30e0e2d9e
+    new: f41038419fe85a156dea54f931238ca5c8d8e939
+    log: revlist-341b74d7851f-f41038419fe8.txt
 
---===============7172060443780189113==
+--===============8215034010337170387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5ec6a4da0b8-cb5da0da3602.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0ddc5e55e6f1da1286fb2646f4248bf7da31a601 Documentation: Fix irq-domain.rst build warning
-8b4bd256674720709a9d858a219fcac6f2f253b5 thermal/drivers/int340x: Do not set a wrong tcc offset on resume
-5297cfa6bdf93e3889f78f9b482e2a595a376083 EDAC/synopsys: Fix wrong value type assignment for edac_mode
-54607282fae6148641a08d81a6e0953b541249c7 EDAC/dmc520: Assign the proper type to dimm->edac_mode
-d4ffd5df9d18031b6a53f934388726775b4452d3 x86/fault: Fix wrong signal when vsyscall fails with pkey
-8aa83e6395ce047a506f0b16edca45f36c1ae7f8 x86/setup: Call early_reserve_memory() earlier
-1bb30b20b49773369c299d4d6c65227201328663 thermal/core: Potential buffer overflow in thermal_build_list_of_policies()
-cf96921876dcee4d6ac07b9de470368a075ba9ad thermal/drivers/tsens: Fix wrong check for tzd in irq handlers
-e44fd5081c50b0ffdb75ce6c83452e60173d791b ksmbd: log that server is experimental at module load
-9f6323311c7064414bfd1edb28e0837baf6b3c7f ksmbd: add default data stream name in FILE_STREAM_INFORMATION
-2a7313dc81e88adc7bb09d0f056985fa8afc2b89 irqchip/armada-370-xp: Fix ack/eoi breakage
-20c36ce2164f1774b487d443ece99b754bc6ad43 irqdomain: Change the type of 'size' in __irq_domain_add() to be consistent
-b99948836162b0cfb03007d9b2c2da9babc057b5 irqchip/mbigen: Repair non-kernel-doc notation
-969ac78db78c723a24e9410666b457cc1b0cb3c3 irqchip/goldfish-pic: Select GENERIC_IRQ_CHIP to fix build
-280bef512933b2dda01d681d8cbe499b98fc5bdd irqchip/gic-v3-its: Fix potential VPE leak on error
-3ce8c70ecedb4e1f1d36301afb0281be40390f13 irqchip/renesas-rza1: Use semicolons instead of commas
-b78f26926b17cc289e4f16b63363abe0aa2e8efc irqchip/gic: Work around broken Renesas integration
-d81ff5fe14a950f53e2833cfa196e7bb3fd5d4e3 x86/asm: Fix SETZ size enqcmds() build failure
-18a015bccf9e8927008d0a255c9f14b8ec15a648 ksmbd: check protocol id in ksmbd_verify_smb_message()
-4ea477988c423a57241ea4840b12832de6fabdfd ksmbd: remove follow symlinks support
-8cd9da85d2bd87ce889043e7b1735723dd10eb89 posix-cpu-timers: Prevent spuriously armed 0-value itimer
-f0c913d6d2a6faab0b16b1f4067c7a9546935c71 firmware: arm_ffa: Add missing remove callback to ffa_bus_type
-102808654f896f5449ddc3846676b82bc1c54718 firmware: arm_ffa: Fix __ffa_devices_unregister
-5ba1071f7554c4027bdbd712a146111de57918de x86/insn, tools/x86: Fix undefined behavior due to potential unaligned accesses
-f9bfed3ad5b1662426479be2c7b26a608560b7d4 Merge tag 'irqchip-fixes-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-265fd1991c1db85fbabaad4946ca0e63e2ae688d ksmbd: use LOOKUP_BENEATH to prevent the out of share access
-dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3a398acc56dd7592eba081ce1ea356151ab90e2d Merge tag 'timers-urgent-2021-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5bb7b2107f8c8e97750a36a723f3f74f819f6ff1 Merge tag 'x86-urgent-2021-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-299d6e47e8f8665904b9c8c321edb3876c92f68b Merge tag 'thermal-v5.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/thermal/linux
-996148ee05d08ef5163cad99c33a7b5e844ac494 Merge tag 'edac_urgent_for_v5.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
-5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
-f1523f67976c62260779120fe390fa798e25e95d Merge tag 'juno-fixes-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-3f1956bb1defa4c4f7de772a31c3c5fe67e4d962 Merge branch 'for-next/ffa' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-cb5da0da36027d52c1a9d11fe17d9f4d73fa05af Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632751182 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1632751181-a0d29fcc89ae5e689ad513c8d642a9587e748362
 
---===============7172060443780189113==--
+341b74d7851f027240b0a201e4aa3cd30e0e2d9e f41038419fe85a156dea54f931238ca5c8d8e939 refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFRzk4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+frkP8gN/23f3TzX2vyeF3cqf
+A1T5WDaOmDLw9SszQMW39D7zEX8/JKCKpum7p24uMZQ/GD6s8Y5hKwl2OBtcfiXn
+epGT+729OrhajmeZfjWxw6MhEQxoQ+Tbrw8CPDMOGq++pLaEAYkySvGx6MKSgNzE
+Z0yzMpWr2oL9N1tfd+dOJ0xWHfdKLThxlMDfKkXt6QsFnqSSBCpJjTxpx//81ogw
+afAobyDJAUqHCuP1Dm7KfEoROwAYZdY/dbgm/yVEt8YYtfQe7Hf1ieG0AL3b+V6j
+hZF2HxDQLgYUbLSh9OQefwb9k5BZotQBbZTUiUsXQ2mFHcXIurcZ2Yzx5G8484wm
+BOPTOEBBMgSrNuPUIsxl5EBxVgEpuTdGF6C91rWSUnQFe0WPoXVuVrfPMBuUdRWV
+OYeQHoSDpsuXOp+Tna+iI1zqugjgxot7GMMaEBVI6bAFjxMRGVioqQrs/oizIJ+/
+uUPrnHoTyrSOjylXaJQQVYfRMhpzAOZrzILvgrHMYR6P64OaMciDXzY4fGiay/wq
+mpE29z+dXFLtrB5CLyt+VeJzfYjL+MDCv9bk/rk/M/ZQQ3emGULDpYtEwVj/sT/y
+WZxwhmuKkHXujevtFmHZ49x0RE4vpmLHpL3NMrooBSz+ielgZ4J6PksTzpYXwn8l
+xXTPhUR4rf0mwLN3pK0e2LI=
+=pb0g
+-----END PGP SIGNATURE-----
+
+--===============8215034010337170387==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-341b74d7851f-f41038419fe8.txt
+
+b536bc9694b0d1f142c9d00d73f2ebdd5f29a5a1 usb: gadget: r8a66597: fix a loop in set_feature()
+556651658575bcc1b1622355df2f55fc8e41401a usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+11e780c7ad650fb1ad86115f546e7602e365458d cifs: fix incorrect check for null pointer in header_assemble
+d5efea9ba2e2209d5a1428fbbb8d60d0745eaca7 xen/x86: fix PV trap handling on secondary processors
+8e0130fd3123729d47108ea93fa35d593c7f0bad USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+94f91dbb5229f33e801808aabcc70a968b9d87d2 USB: serial: mos7840: remove duplicated 0xac24 device ID
+fe7385c24d5463f493fd0e607650dc285a6d2631 USB: serial: option: add Telit LN920 compositions
+1d21630a61d916b57403f60b48641fc387f604b9 USB: serial: option: remove duplicate USB device ID
+4ded9dc166991c87cb916757c6e4cdd605d723a2 USB: serial: option: add device id for Foxconn T99W265
+f999aee7d66aa0b1d230e098eaaa650ec1842089 net: hso: fix muxed tty registration
+feed739af94406ca0767f073408b883a198a7d89 net/mlx4_en: Don't allow aRFS for encapsulated packets
+7b10b5f4a7fa240032690269eccd42d24f68bf53 scsi: iscsi: Adjust iface sysfs attr detection
+fded3ff2acd9d8ed2ee4033884468efa4da30b6d blktrace: Fix uaf in blk_trace access after removing by sysfs
+81edc607d5b4e1b1c0212e9342c5c9eaf8df0872 m68k: Double cast io functions to unsigned long
+edea64304abf5b78c4165ced96d59a5bfd755b4a compiler.h: Introduce absolute_pointer macro
+1a145a22d0675f3b1b5e6bfb0073fd5d63d03da7 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
+91e18a4a1b7e42d9ea47740ed29a16a9469daa23 sparc: avoid stringop-overread errors
+3455d5821517f84c9d345895a9d32f03712b6663 qnx4: avoid stringop-overread errors
+cfa65850cc3375ec0dd97bb8ea528bc11b8994f2 parisc: Use absolute_pointer() to define PAGE0
+67da0d57429bc68e5fc6b84174ba9f015991f9c0 arm64: Mark __stack_chk_guard as __ro_after_init
+e06ad4b38c7496b7b67958546a648f28db8bbeb8 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
+af8f6c632b878d633b1d5938ba3ddd68a2167aad net: 6pack: Fix tx timeout and slot time
+51c342a975894bf18bda52eaf8808d0160bb483f spi: Fix tegra20 build with CONFIG_PM=n
+e300a542d2b68d78cce8042de44b4d21ba4bce2d qnx4: work around gcc false positive warning bug
+f41038419fe85a156dea54f931238ca5c8d8e939 Linux 4.4.286-rc1
+
+--===============8215034010337170387==--
