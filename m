@@ -1,90 +1,173 @@
-Content-Type: multipart/mixed; boundary="===============1074477001620680777=="
+Content-Type: multipart/mixed; boundary="===============3170367039398341187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 28 Sep 2021 00:00:26 -0000
-Message-Id: <163278722625.27834.8659634545635154131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Tue, 28 Sep 2021 00:42:01 -0000
+Message-Id: <163278972197.19822.9607921190793784368@gitolite.kernel.org>
 
---===============1074477001620680777==
+--===============3170367039398341187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 4da8b121884d84476f3d50d46a471471af1aa9df
-    new: 0513e464f9007b70b96740271a948ca5ab6e7dd7
-    log: revlist-4da8b121884d-0513e464f900.txt
+  - ref: refs/heads/for-greg/4.14-7
+    old: 497c65c6e48ae2471118d26f8016a5f204eb764b
+    new: c97f0fca501489a8e97f3bd803f804ff9e45aa33
+    log: |
+         be69834a1fc68f13f2943b43ea5b0149e2245383 net: mdio: introduce a shutdown method to mdio device drivers
+         344780c4044faa4ec967e0f569718adac0c064df xen-netback: correct success/error reporting for the SKB-with-fraglist case
+         e8e8bf18ac47bdc7c460b87af5acca3932dede57 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+         14363b71cd6df7bcd10a902eda754b12bc0eff55 ext2: fix sleeping in atomic bugs on error
+         5c816f25eb427235b198eaa0088f9c18a92ecdaa scsi: sd: Free scsi_disk device via put_device()
+         cdcd6b6e334f75626a438889a72ddee2b88c166b usb: testusb: Fix for showing the connection speed
+         f078c9441201109d28fa5ec622b3e32a49306774 usb: dwc2: check return value after calling platform_get_resource()
+         c97f0fca501489a8e97f3bd803f804ff9e45aa33 scsi: ses: Retry failed Send/Receive Diagnostic commands
+         
+  - ref: refs/heads/for-greg/4.19-7
+    old: 02cb5a7c98d68b39cda862304c14789bd49e6274
+    new: 4c52fca70813eb8ba9eac54049f8fd426867a6ef
+    log: |
+         f6b6d659fdd13363ae85c0665b6718bd40f89e8a net: mdio: introduce a shutdown method to mdio device drivers
+         80428b463c3e554c3ffaa584612080cb7dbb0275 xen-netback: correct success/error reporting for the SKB-with-fraglist case
+         68b691c756da159aeb748a9ea924b0beeb31a0e0 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+         5aefa50b3d217df604373c91fce8262f25080b7d ext2: fix sleeping in atomic bugs on error
+         dfa1daf669a2632e2d375b5738e56526e19b2ad8 scsi: sd: Free scsi_disk device via put_device()
+         a7e3c96d8ffd148a99072e75dbfc8c79ddc95b7e usb: testusb: Fix for showing the connection speed
+         dc65f375bcc9b489da0f912421cf79da56693559 usb: dwc2: check return value after calling platform_get_resource()
+         ba2c564b7cb236f2c1acab6e2e08dd6c593bb731 selftests: be sure to make khdr before other targets
+         da23cb67b0598525ad7718f42d0d9f91a6001cbb scsi: ses: Retry failed Send/Receive Diagnostic commands
+         4c52fca70813eb8ba9eac54049f8fd426867a6ef tools/vm/page-types: remove dependency on opt_file for idle page tracking
+         
+  - ref: refs/heads/for-greg/4.4-7
+    old: 0cab4dab94ff4bdbb1512491bcc31b201393a5c8
+    new: 26c29e20f4438b44314da3577fafcb81c446b317
+    log: |
+         7574792a9db597728c9bca0094d44cd1550f7dea xen-netback: correct success/error reporting for the SKB-with-fraglist case
+         eff36239f819e140aa6d5a731c1a84e7f4c6b1a0 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+         db46b9f5ebeb561e2547624ce5580f4d0118b151 ext2: fix sleeping in atomic bugs on error
+         3ff1ba55bdc64ceb505bdc1f988801b83c545387 scsi: sd: Free scsi_disk device via put_device()
+         26c29e20f4438b44314da3577fafcb81c446b317 usb: testusb: Fix for showing the connection speed
+         
+  - ref: refs/heads/for-greg/4.9-7
+    old: 14b7314aeb9bac58688555db130134074228ab3d
+    new: 12c0720516b82be8c06d4eb4c2706f316f6df8f7
+    log: |
+         61b92067466fb8ce681a7806560c134420eb5afd net: mdio: introduce a shutdown method to mdio device drivers
+         3bd265990675090f7e2967dd29688196d4c7ed44 xen-netback: correct success/error reporting for the SKB-with-fraglist case
+         5a60a69fdcb1a63039cda68610bf80c8f448627a sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+         0fb54bbdf73a2fc0c1107164b3f473e010dc1bcd ext2: fix sleeping in atomic bugs on error
+         5b9a7ec6999d59f3675b53cff1a2ac3f84c855db scsi: sd: Free scsi_disk device via put_device()
+         12c0720516b82be8c06d4eb4c2706f316f6df8f7 usb: testusb: Fix for showing the connection speed
+         
+  - ref: refs/heads/for-greg/5.10-7
+    old: 020f6eacd648097074b829b0f9dcedb7cddc075d
+    new: ee6b63098e2c17f055cd55b82aed96b749f24151
+    log: revlist-020f6eacd648-ee6b63098e2c.txt
+  - ref: refs/heads/for-greg/5.14-7
+    old: 57148b8bc0d3873b783276fad72af8e6c7543e28
+    new: f011d63749628a3ac40bbf9d30d7306910c8face
+    log: revlist-57148b8bc0d3-f011d6374962.txt
+  - ref: refs/heads/for-greg/5.4-7
+    old: 37e2ba9434f73e984850386758989b55d93c1869
+    new: ec21b0cd852d8f2e91ceb02a371875bb20f5cfb6
+    log: revlist-37e2ba9434f7-ec21b0cd852d.txt
 
---===============1074477001620680777==
+--===============3170367039398341187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4da8b121884d-0513e464f900.txt
+Content-Disposition: attachment; filename=revlist-020f6eacd648-ee6b63098e2c.txt
 
-31692ab9a9ef0119959f66838de74eeb37490c8d media: hantro: Fix check for single irq
-132c88614f2b3548cd3c8979a434609019db4151 media: cedrus: Fix SUNXI tile size calculation
-3ad02c27d89d72b3b49ac51899144b7d0942f05f media: s5p-jpeg: rename JPEG marker constants to prevent build warnings
-1e4ce418b1cb1a810256b5fb3fd33d22d1325993 HID: betop: fix slab-out-of-bounds Write in betop_probe
-67fd71ba16a37c663d139f5ba5296f344d80d072 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-0c8fbaa553077630e8eae45bd9676cfc01836aeb HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
-d46ef750ed58cbeeba2d9a55c99231c30a172764 HID: amd_sfh: Fix potential NULL pointer dereference
-f0c15b360fb65ee39849afe987c16eb3d0175d0d media: ir_toy: prevent device from hanging during transmit
-a49b50a3c1c3226d26e1dd11e8b763f27e477623 KVM: arm64: nvhe: Fix missing FORCE for hyp-reloc.S build rule
-e840f42a49925707fca90e6c7a4095118fdb8c4d KVM: arm64: Fix PMU probe ordering
-22d65765f211cc83186fd8b87521159f354c0da9 HID: u2fzero: ignore incomplete packets without data
-7117003fe4e3c8977744f2ad33bb95fd3e10023f KVM: x86: Mark all registers as avail/dirty at vCPU creation
-03a6e84069d1870f5b3d360e64cb330b66f76dee KVM: x86: Clear KVM's cached guest CR3 at RESET/INIT
-90b54129e8df909ccca527b2d69bcb1f0216aa8f selftests: KVM: Fix check for !POLLIN in demand_paging_test
-01f91acb55be7aac3950b89c458bcea9ef6e4f49 selftests: KVM: Align SMCCC call with the spec in steal_time
-cd36ae8761775e78154ba6bd7a3bd2ab538c589f KVM: VMX: Remove defunct "nr_active_uret_msrs" field
-eb7511bf9182292ef1df1082d23039e856d1ddfb KVM: x86: Handle SRCU initialization failure during page track init
-ed7023a11bd820fca50e61911a670ddf3e01f73f KVM: nVMX: fix comments of handle_vmon()
-ae232ea460888dc5a8b37e840c553b02521fbf18 KVM: do not shrink halt_poll_ns below grow_start
-bb18a677746543e7f5eeb478129c92cedb0f9658 KVM: SEV: Acquire vcpu mutex when updating VMSA
-f1815e0aa770f2127c5df31eb5c2f0e37b60fa77 KVM: SVM: fix missing sev_decommission in sev_receive_start
-50c038018d6be20361e8a2890262746a4ac5b11f KVM: SEV: Pin guest memory for write for RECEIVE_UPDATE_DATA
-e9337c843c4b4eaa4afb752a7272ef3d04c46381 kvm: fix wrong exception emulation in check_rdtsc
-4eeef2424153e79910d65248b5e1abf137d050e9 KVM: x86: Query vcpu->vcpu_idx directly and drop its accessor
-94c245a245ff6552a320257f97d5171d03f7ee3a KVM: x86: Identify vCPU0 by its vcpu_idx instead of its vCPUs array entry
-24a996ade34d00deef5dee2c33aacd8fda91ec31 KVM: nVMX: Fix nested bus lock VM exit
-f43c887cb7cb5b66c4167d40a4209027f5fdb5ce KVM: SEV: Update svm_vm_copy_asid_from for SEV-ES
-5b92b6ca92b65bef811048c481e4446f4828500a KVM: SEV: Allow some commands for mirror VM
-a1e638da1ba4078caa0374507cf0d9ec140a255f KVM: selftests: Change backing_src flag to -s in demand_paging_test
-9f2fc5554a4093e80084389f760d0b06ec2ff782 KVM: selftests: Refactor help message for -s backing_src
-7c236b816ef16c2969a88ced658dab667e9dd4ee KVM: selftests: Create a separate dirty bitmap per slot
-2f9b68f57c6278c322793a06063181deded0ad69 KVM: x86: Fix stack-out-of-bounds memory access from ioapic_write_indirect()
-85b640450ddcfa09cf72771b69a9c3daf0ddc772 KVM: Clean up benign vcpu->cpu data races when kicking vCPUs
-0bbc2ca8515f9cdf11df84ccb63dc7c44bc3d8f4 KVM: KVM: Use cpumask_available() to check for NULL cpumask when kicking vCPUs
-8d68bad6d869fae8f4d50ab6423538dec7da72d1 KVM: nVMX: Filter out all unsupported controls when eVMCS was activated
-e2e6e449d68ddf4ccb0bf72cc50fbc6c69fe7f63 KVM: x86: nSVM: restore the L1 host state prior to resuming nested guest on SMM exit
-37687c403a641f251cb2ef2e7830b88aa0647ba9 KVM: x86: reset pdptrs_from_userspace when exiting smm
-e85d3e7b495bb6c0b847a693f5f6d4bd429fae55 KVM: x86: SVM: call KVM_REQ_GET_NESTED_STATE_PAGES on exit from SMM mode
-136a55c054ca03b44b74efe03f136d495dd84ec8 KVM: x86: nSVM: refactor svm_leave_smm and smm_enter_smm
-c42dec148b3e1a88835e275b675e5155f99abd43 KVM: x86: VMX: synthesize invalid VM exit when emulating invalid guest state
-c8607e4a086fae05efe5bffb47c5199c65e7216e KVM: x86: nVMX: don't fail nested VM entry on invalid guest state if !from_vmentry
-dbab610a5be69c2c5e4fdd7135d14b6bab2667a5 KVM: x86: nVMX: re-evaluate emulation_required on nested VM exit
-e1fc1553cd78292ab3521c94c9dd6e3e70e606a1 kvm: x86: Add AMD PMU MSRs to msrs_to_save_all[]
-aee77e1169c1900fe4248dc186962e745b479d9e KVM: x86: nSVM: restore int_vector in svm_clear_vintr
-1ad32105d78e4b5da60688eca014bcd45271318f KVM: x86: selftests: test simultaneous uses of V_IRQ from L1 and L0
-d1cba6c9223751f580dcd97501f513a8a9bf88bc KVM: x86: nSVM: test eax for 4K alignment for GP errata workaround
-faf6b755629627f19feafa75b32e81cd7738f12d KVM: x86: nSVM: don't copy virt_ext from vmcb12
-f81602958c115fc7c87b985f71574042a20ff858 KVM: X86: Fix missed remote tlb flush in rmap_write_protect()
-65855ed8b03437e79e42f2a89a993206981ac6cb KVM: X86: Synchronize the shadow pagetable before link it
-6bc6db000295332bae2c1e8815d7450b72923d23 KVM: Remove tlbs_dirty
-fbf094ce524113c694acabf3d385883f88372829 selftests: KVM: Call ucall_init when setting up in rseq_test
-386ca9d7fd189b641bc5a82871e38dea9f67af85 selftests: KVM: Explicitly use movq to read xmm registers
-50b078184604fea95adbb144ff653912fb0e48c6 Merge tag 'kvmarm-fixes-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into kvm-master
-88a04049c08cd62e698bc1b1af2d09574b9e0aee HID: amd_sfh: Fix potential NULL pointer dereference
-42d43c92fc577dca59ed74aec7868abec8d6ca6e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-9b3b353ef330e20bc2d99bf3165cc044cff26a09 vboxfs: fix broken legacy mount signature checking
-c388a18957efdf31db8e97ec4d2d4b7dc1ca9a44 watchdog/sb_watchdog: fix compilation problem due to COMPILE_TEST
-e6609f2c07de03b948fd6c37c5eb4ade3a6d785c Merge tag 'media/v5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-9cccec2bf32fa2a8039cfcd228b9f3a4f0a4f5aa Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-0513e464f9007b70b96740271a948ca5ab6e7dd7 Merge tag 'perf-tools-fixes-for-v5.15-2021-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+868b43336d4a3df9a20fe2dc754fa65c189ba531 platform/x86: touchscreen_dmi: Add info for the Chuwi HiBook (CWI514) tablet
+9cd49ab621824927b743edb431bef92deba6f7be platform/x86: touchscreen_dmi: Update info for the Chuwi Hi10 Plus (CWI527) tablet
+ed25f5cdf9fa5b14d9caadb305c9dcdb0679c943 nfsd: back channel stuck in SEQ4_STATUS_CB_PATH_DOWN
+dab7f9ff9bbb9d2ccc6424f1c22e0d539ddedd84 btrfs: replace BUG_ON() in btrfs_csum_one_bio() with proper error handling
+f63e44f4f6a5686e9f7c5b7887fbb1f352b11465 btrfs: fix mount failure due to past and transient device flush error
+db0078bec8a306fe14c5b92f7838394b88489043 net: mdio: introduce a shutdown method to mdio device drivers
+698d8bea4d7fb5b0927b68ebc233bcc73df93ed5 xen-netback: correct success/error reporting for the SKB-with-fraglist case
+6d25b3dca44602986291f296180efb7a7e4bc953 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+36eebc4c4a394a91a9834237be90ba21a7a16882 ext2: fix sleeping in atomic bugs on error
+7b9aaf6f32cd7fa7dccae22f930e943fec39a8f6 scsi: sd: Free scsi_disk device via put_device()
+bd8f48d24e045e82cd87b6d4c47a817d5a84fa45 usb: testusb: Fix for showing the connection speed
+98c4f3a529132ef4a7cab866b131a1fd06fba885 usb: dwc2: check return value after calling platform_get_resource()
+43bc8592a3286ca3de327cba6dd2351715d15743 habanalabs/gaudi: fix LBW RR configuration
+75d0062c8ef11ff6dbbbb60157a86ea77a3a5d5c selftests: be sure to make khdr before other targets
+93e9ca6318142da5bd15ff512c9da5cb1cc27727 selftests:kvm: fix get_warnings_count() ignoring fscanf() return warn
+6a034e47c551761929f3066748c5ce7a52bcc1a1 nvme-fc: update hardware queues before using them
+0e4a5884e6a262e13067a4df9df189a0acd8ab44 nvme-fc: avoid race between time out and tear down
+b29dd6de5e7774642f8988ac70fa5e53850e477f thermal/drivers/tsens: Fix wrong check for tzd in irq handlers
+b351ee3d9736cdd7b5b8c5af2dd3a4df421a4b21 scsi: ses: Retry failed Send/Receive Diagnostic commands
+9f5c9a64f85bef81559f0f7a56b38662ecdafc05 irqchip/gic: Work around broken Renesas integration
+dc09c801bda546576d3bbc68f45534746f2d620a smb3: correct smb3 ACL security descriptor
+ee6b63098e2c17f055cd55b82aed96b749f24151 tools/vm/page-types: remove dependency on opt_file for idle page tracking
 
---===============1074477001620680777==--
+--===============3170367039398341187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-57148b8bc0d3-f011d6374962.txt
+
+94bc39208df042fe60e21767fefa45a2f9407075 afs: Add missing vnode validation checks
+77a49c1b90f356737653347bc73dccf7b62d6e5f platform/x86: touchscreen_dmi: Add info for the Chuwi HiBook (CWI514) tablet
+de25810ffbe008d19a56c6e0b5e0d9542060afd8 platform/x86: touchscreen_dmi: Update info for the Chuwi Hi10 Plus (CWI527) tablet
+4362729842973c97cdc6ae29316c25ad366e2653 nfsd: back channel stuck in SEQ4_STATUS_CB_PATH_DOWN
+561709bae60f69d2c443ddc6c520f7cebc5356c9 btrfs: replace BUG_ON() in btrfs_csum_one_bio() with proper error handling
+61af11a35a7046bc2a6fac3505a4e2be5301a962 btrfs: fix mount failure due to past and transient device flush error
+996aab7787a026583e61c63dc419ec3356f4dd42 net: mdio: introduce a shutdown method to mdio device drivers
+0447e4cb2f0047df9d476724d1e615ce46874373 xen-netback: correct success/error reporting for the SKB-with-fraglist case
+229cc1e95adb3e75f1d29beff4839a080324ff47 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+8d7bf1ce3614483fa26c15e0b8e365dfd7856959 platform/x86/intel: hid: Add DMI switches allow list
+53438675800cea797db92fcc421c9d728c4671fa platform/x86: gigabyte-wmi: add support for B550I Aorus Pro AX
+9409d70a4ac211aad9613d171b0d29f631a5bb3b ext2: fix sleeping in atomic bugs on error
+ac4d968f2286170746c48a0884d5d42fde21f923 drm/amdkfd: handle svm migrate init error
+9a795226221b64ad6b5fbdfef0227112a57d55cb drm/amdkfd: fix svm_migrate_fini warning
+7d672d7487745406e34e14f1a5d4a4702f84bd30 scsi: sd: Free scsi_disk device via put_device()
+64f0a039fef0ae136493f5edfab7c8f8011e03c6 scsi: elx: efct: Do not hold lock while calling fc_vport_terminate()
+bfd71210245b816034b18c8475108b17ad42fb23 usb: testusb: Fix for showing the connection speed
+60dd9f0472f1d3a097efdb6c3c6866d08054e3d8 usb: dwc2: check return value after calling platform_get_resource()
+e8ce72924357366e14c39bbfd0e33c3151c5157b habanalabs/gaudi: use direct MSI in single mode
+6300ea41350e738dce745468063b091107bb9709 habanalabs: fail collective wait when not supported
+a3bd473d92bc02a739b811d540a58c9e448d216e habanalabs/gaudi: fix LBW RR configuration
+537783b2b5a2a30b83943561608eb7ae92d1a9fd selftests: be sure to make khdr before other targets
+a1c6fd821edc0057c213eefddfb69776d041db9b selftests:kvm: fix get_warnings_count() ignoring fscanf() return warn
+26ae81e98dcd2dfdb5ce1e006d3dba3560fc3ebd selftests:kvm: fix get_trans_hugepagesz() ignoring fscanf() return warn
+b3467d15ed64bbd10da6f769de005a284c7c573f selftests: kvm: move get_run_delay() into lib/test_util
+193b06a1ddd78066d85766ba25a29dbc76147b56 selftests: kvm: fix get_run_delay() ignoring fscanf() return warn
+9d63178fb37d844de2506153921f6dd45d386866 Xen/gntdev: don't ignore kernel unmapping error
+37f1fc1b4178783f7b34d503511c29ccabaccfe5 swiotlb-xen: ensure to issue well-formed XENMEM_exchange requests
+905efdbb93cdda7e5a11c944f11b002e8d5c8d38 nvme-fc: update hardware queues before using them
+7f33639a2c93c34769a14117abef01a9abc0d2b8 nvme-fc: avoid race between time out and tear down
+d6dc3c9b1db4e1976b116d2ff7ee47bfd5b2ce2b thermal/drivers/tsens: Fix wrong check for tzd in irq handlers
+7dbcac16593e57aebc54196db7d21e0784a097f5 scsi: ses: Retry failed Send/Receive Diagnostic commands
+abe3797d50211bc977777b0e4ecfe70535956209 irqchip/gic: Work around broken Renesas integration
+98cfaee1f5af552966602f73222ae216129d8203 smb3: correct smb3 ACL security descriptor
+834b5a803898d3a247a7951c6baa2a14a509ef9b x86/insn, tools/x86: Fix undefined behavior due to potential unaligned accesses
+0df8928bb406ee9cd491c720d4c34322892e1766 io_uring: allow conditional reschedule for intensive iterators
+b79f5c68fb11d71b6bba3702679474befa41cc0d block: don't call rq_qos_ops->done_bio if the bio isn't tracked
+f3a2a60cc99b35473ad8c156a20874a3a9b2aa8d tools/vm/page-types: remove dependency on opt_file for idle page tracking
+f011d63749628a3ac40bbf9d30d7306910c8face kasan: always respect CONFIG_KASAN_STACK
+
+--===============3170367039398341187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-37e2ba9434f7-ec21b0cd852d.txt
+
+7ab0d19617269523cfc4457b918e6b0752755643 net: mdio: introduce a shutdown method to mdio device drivers
+87c379ebfcfc19957b9b2d239af8a7c364da2ccd xen-netback: correct success/error reporting for the SKB-with-fraglist case
+2476524b76a3468ea3470530e3b9a1bf6d142936 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+e0e1e9093e596017a99f5be1ea2611f232c7d872 ext2: fix sleeping in atomic bugs on error
+4b1cc3863d91e63bf0341990afd54917736d16c0 scsi: sd: Free scsi_disk device via put_device()
+c6cd14462b61e47abc3bfc7230bc2cf6641c179b usb: testusb: Fix for showing the connection speed
+b25ca799c94d175f243216e52f086ceeeb2e1e6b usb: dwc2: check return value after calling platform_get_resource()
+c42284ae43e1cac1dc4672b8bd24e48befa77b94 selftests: be sure to make khdr before other targets
+034b50069d6e8d0fdfee7f09617dd8cd94821fe3 selftests:kvm: fix get_warnings_count() ignoring fscanf() return warn
+df2248d1a0ffb64df672363b0bbd64ca4bd56952 scsi: ses: Retry failed Send/Receive Diagnostic commands
+ec21b0cd852d8f2e91ceb02a371875bb20f5cfb6 tools/vm/page-types: remove dependency on opt_file for idle page tracking
+
+--===============3170367039398341187==--
