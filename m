@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 28 Sep 2021 21:41:02 -0000
-Message-Id: <163286526248.28830.1644961217433380992@gitolite.kernel.org>
+Date: Tue, 28 Sep 2021 21:43:37 -0000
+Message-Id: <163286541727.29610.4894292094675854549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: d1dcbf615af6c3d743fed00833b409259feb540a
-    new: 7f7fd17ed7c5228229f55f2082c0fd784cc4dad4
+    old: 7f7fd17ed7c5228229f55f2082c0fd784cc4dad4
+    new: e05f502b454173eeb3c0c77016703bf78867ff88
     log: |
-         823f3bc4e2eca7170c2367c050c5361cb1cd7c25 Bluetooth: Fix handling of experimental feature for quality reports
-         7f7fd17ed7c5228229f55f2082c0fd784cc4dad4 Bluetooth: Fix handling of experimental feature for codec offload
+         e05f502b454173eeb3c0c77016703bf78867ff88 Bluetooth: btrtl: Set VsMsftOpCode based on device table
          
