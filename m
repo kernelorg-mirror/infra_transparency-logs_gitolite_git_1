@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 28 Sep 2021 15:50:29 -0000
-Message-Id: <163284422986.2173.9143564969530768568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 28 Sep 2021 15:52:18 -0000
+Message-Id: <163284433851.2752.16850456899460568275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/dev
-    old: efd9a2ec4b5e8062d55372a0fd8691a1811708b0
-    new: 3308564170b8b6407f7f257082984dfa52ea3eff
+  - ref: refs/heads/renesas/sdhi/separate-sdhn
+    old: 6e5da39bd0f1b8dcc76b8c9198f58a2f4fadf208
+    new: 7d405059ca9d33df243722941028d5bb1bc57947
     log: |
-         3308564170b8b6407f7f257082984dfa52ea3eff f2fs: skip f2fs_preallocate_blocks() for overwrite case
+         7d405059ca9d33df243722941028d5bb1bc57947 clk: renesas: gen3-cpg: remove outdated SD_SKIP_FIRST
          
