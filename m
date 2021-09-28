@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 28 Sep 2021 10:35:29 -0000
-Message-Id: <163282532961.23474.16216638839119239110@gitolite.kernel.org>
+Date: Tue, 28 Sep 2021 10:38:57 -0000
+Message-Id: <163282553709.24524.16181097575409887477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,15 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: a01b1a54770b53a10a4b9eef7beb5235535a892d
-    new: 0c2d4ca1e690bbd8fd42772ef10ca8405826fe23
+    old: 0c2d4ca1e690bbd8fd42772ef10ca8405826fe23
+    new: a144fbf35b84e54f5980bfd28cf17892a569e84e
     log: |
-         fff53a551db50f5edecaa0b29a64056ab8d2bbca memory: renesas-rpc-if: Correct QSPI data transfer in Manual mode
-         1869023e24c0de73a160a424dac4621cefd628ae memory: renesas-rpc-if: Avoid unaligned bus access for HyperFlash
-         0c2d4ca1e690bbd8fd42772ef10ca8405826fe23 Merge branch 'for-v5.16/renesas-rpc' into for-next
+         6b20a5d173cd5647f0bb1ac8796264b70c377d79 memory: samsung: describe drivers in KConfig
+         a144fbf35b84e54f5980bfd28cf17892a569e84e Merge branch 'mem-ctrl-next' into for-next
          
-  - ref: refs/heads/for-v5.16/renesas-rpc
-    old: 797f082738b10ff397c8d3b7804b747d766e62e6
-    new: 1869023e24c0de73a160a424dac4621cefd628ae
+  - ref: refs/heads/mem-ctrl-next
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: 6b20a5d173cd5647f0bb1ac8796264b70c377d79
     log: |
-         fff53a551db50f5edecaa0b29a64056ab8d2bbca memory: renesas-rpc-if: Correct QSPI data transfer in Manual mode
-         1869023e24c0de73a160a424dac4621cefd628ae memory: renesas-rpc-if: Avoid unaligned bus access for HyperFlash
+         6b20a5d173cd5647f0bb1ac8796264b70c377d79 memory: samsung: describe drivers in KConfig
          
