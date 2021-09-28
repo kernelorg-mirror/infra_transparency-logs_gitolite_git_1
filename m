@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 28 Sep 2021 03:09:43 -0000
-Message-Id: <163279858330.18816.16636680003486644752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 28 Sep 2021 03:15:26 -0000
+Message-Id: <163279892626.23378.10489012174492325602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: b109935e1d5c457c0f1355536230e81b5ac7d9a5
-    new: 252e0cd1b1b33d031725c45a5c75e5ce1f41980d
-    log: |
-         c4847aac0036872e1b6a4d8ab4e459499ca70532 x86/sgx: Rename fallback labels in sgx_init()
-         252e0cd1b1b33d031725c45a5c75e5ce1f41980d x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
-         
+  - ref: refs/tags/20210927135559.738-6-srinivas.kandagatla@linaro.org
+    old: 0000000000000000000000000000000000000000
+    new: 327dada8ba40f1e6360e6f465fe2b2c9d68ccb96
