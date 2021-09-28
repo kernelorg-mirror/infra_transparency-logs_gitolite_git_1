@@ -1,78 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5629147599895446786=="
+Content-Type: multipart/mixed; boundary="===============8471599549465658834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 28 Sep 2021 11:04:43 -0000
-Message-Id: <163282708358.8922.11079688307666205007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Tue, 28 Sep 2021 11:06:38 -0000
+Message-Id: <163282719896.10887.4365102290854830184@gitolite.kernel.org>
 
---===============5629147599895446786==
+--===============8471599549465658834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 483f7d699fd96d494dbd299f73d758073c73c147
-    new: 654e4d5d3d5b778a6d33fcab4028a3c89714c04e
-    log: revlist-483f7d699fd9-654e4d5d3d5b.txt
+  - ref: refs/heads/master
+    old: cd8793f97f5f7772bdad8338f239cb7d9446e88b
+    new: 4546759804cb71d5cc9c19a94e761e4fefade823
+    log: |
+         e306784a8de08868d0ecbf78dd42a0051d0e14ce cfg80211: AP mode driver offload for FILS association crypto
+         7ff379ba2d4b7b205240e666601fe302207d73f8 mac80211: twt: don't use potentially unaligned pointer
+         405fca8a946168e71c04b82cc80727c3ea686e08 ieee80211: add power type definition for 6 GHz
+         cb751b7a57e50d356ec8fc7712c245a05515e787 mac80211: add parse regulatory info in 6 GHz operation information
+         63214f02cff9ebd57be00e143de12107c66f5394 mac80211: save transmit power envelope element and power constraint
+         e53e9828a8d2c6545e01ff9711f1221f2fd199ce cfg80211: always free wiphy specific regdomain
+         05075fe7455a210769b266e62a0040ddc98b2739 nl80211: don't kfree() ERR_PTR() value
+         dc1e3cb8da8b414b37208b2fb6755fef8122504b nl80211: MBSSID and EMA support in AP mode
+         a5d80a52b3bc85a719278e3f8ec8f6b229fd1e26 cfg80211: save power spectral density(psd) of regulatory rule
+         4546759804cb71d5cc9c19a94e761e4fefade823 mac80211: MBSSID support in interface handling
+         
 
---===============5629147599895446786==
+--===============8471599549465658834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632827081 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1632827081-d463d6b27be3f1ab8f971363a2deba5696828d42
+pusher 7BF9099A 1632827159 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
+nonce 1632827158-73af49f8538a63af440e662cde3cc08c0b0335d9
 
-483f7d699fd96d494dbd299f73d758073c73c147 654e4d5d3d5b778a6d33fcab4028a3c89714c04e refs/heads/driver-core-testing
+cd8793f97f5f7772bdad8338f239cb7d9446e88b 4546759804cb71d5cc9c19a94e761e4fefade823 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFS9skbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YrYP/1L3/m1uotgtOzzWjMPM
-VaZqOOLwzR/8brMniWzzygEcmE2/wfUH0Sck08IhI70QcxA9a5eUBGL/gbjqC/J4
-oteHANUo2dnUT/PuTx965L/vG2pb0bNQH8DFLhtGPnIR7uZvFVwfCe+RB6jkVBnp
-0TVfqi1LVsXhieolza/fWbhr8mZ4ZCViUybg4abW+nxkhU21zOxbSXULfT1phXHY
-2iy+Gg9WdhIfPZaqwbYHOLPqxySY/aiE++TdAMwN0KxCJUqK0dCY1DuJfuI9pgWW
-0AI3A75j+atBuRef3LpaTbC7QOxPbc8pBIvdxc6SPzW1SHZriJCx3lUp0CgEx3Uw
-Aa0mksfq3XeW/LqtH+AW/eko17zSie14XDaeVA4mrIj7pYOzQtOuqolCNdSDzDIk
-6XIIuBlFF8ekrhAt2yBDZoyGAAVpNJXJu99oR1dSQ1x8HFvjw/WwyeYE0lMTKHah
-cWk9Tc4YO/UiYevOcwg48aQYHJd4uJlWyDmnYjk3mZLOlEpWDAXfsRC/11BSTIFC
-JEasHpmVP8ksm3JCXOjjEc1IjHs3dvC9nfqQAuigFQQsxKhz4RhUyekunAyLZyuU
-GH4Es1GDPTdhheRNJElmYzosx6q57rw3GMnQTNMpWLXybmy4cYNY7E+iTBlyEQhM
-yEaHDVyfiJ1DH2x3ZJNZOz80
-=r8Ei
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmFS9xcACgkQB8qZga/f
+l8Trsg//fqAcfnIs841sM4IegSPrJbHXA2RsArADmeBgRJS7ut/L8ZpTn+JN2/MS
+3SZvXLw+TKKQMPP4uTE0oq1lk6Q9OMctJRf3QSStrnEb+N8vU1b77BLSRmQIy7a6
+6IMuLO4f6RgoJ4I/goFMtfANcExTp3iDNlEgYtH6Pl1SVBkNITVTTXMiI5B5YFyK
+t3jDTVku8WQj048O2WBP/eD+IXfVKclg4piLPv+AaFsKVrbFRwmG2apucebGXkZW
+eCuq4iiVM1OBNNbpGUvsDWvoDP/44nRpVUYoVF9NU7tRIH71/ccBpzVhY3dks/3g
+aHtVdP9aIZPh5CVEUwNAxQh/5K2rRVWflrbjuUOtizg5Pnqcr/6aJ3R+Vlse8VlC
+apsXzK3MwqFzZkuDAr5b3I733lS6JNmJW8QT9mb1/6JwPxxyGyLdoL4nLjcJ4PjV
+DB0xZIW6L7mL93H3Rh8+mzcjjISfkkin9zlLpTq5+TVz5524m18F61vI8uhHBmSE
+z+roxx3PzJSncxDqFx6qyWlFllQaMPcWu9RmvCvbqmA8QMdvD/twatSIVvm9fuij
+zMzNzUj8SI3Wx17W9XAKBX6u0zQu7nIuNFVmV6D44Z4ZwHJyswZflfn/nq3RwQP6
+kONC0fCPdKxdr01x2TKIOpZGFbO8MhPBKKr5/i06Db+hIvyIh7E=
+=8Vac
 -----END PGP SIGNATURE-----
 
---===============5629147599895446786==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-483f7d699fd9-654e4d5d3d5b.txt
-
-3b54fc5077dade7c400fbc08b02bd65e5edd5cc0 ABI: stable/sysfs-module: better document modules
-19aca231250f532b315ccbc22ff5125be292aed4 ABI: stable/sysfs-module: document version and srcversion
-eeac9faf9645e2eeda0c7414700c41936667dbaa ABI: testing/sysfs-module: document initstate
-405ea445781ac27c7bb68bb27eec6086db7922c1 ABI: sysfs-devices-power: document some RPM statistics
-e95d6d8b0147229ee6a52f1dc0bef41d4017b2c2 ABI: sysfs-devices: add /dev ABI
-9919c339babf6b92ad79dd0db9eeef6a23971e7c ABI: sysfs-bus-pci: add documentation for modalias
-6abac1a8a68e7d2c15578a2c19c355afe910634d ABI: o2cb: add an obsolete file for /sys/o2cb
-773151dc41035657175eb7e5bc51721943039b31 ABI: sysfs-kernel-slab: Document some stats
-5e58808871c1ed9a209bdd38be2b850941ee3aee ABI: sysfs-devices-power: add some debug sysfs files
-bab2f3c14e56c526c5b31ac3909fa5b47c21018d ABI: sysfs-bus-pci: add a alternative What fields
-8a60958923e6cea34de024eb7e494de0bee3c7f2 ABI: sysfs-class-bdi: use What: to describe each property
-89ae45d72ae25f36872c046c804086579fdd3c5e ABI: sysfs-bus-mdio: add alternate What for mdio symbols
-e06ab8d57433086f8fafa71516564d15d6e3c430 ABI: sysfs-bus-usb: use a wildcard for interface name on What
-989eff9cdb799d1366c8cdd3456cec4083a9a6d6 ABI: sysfs-bus-usb: add missing sysfs fields
-3a0d390bd52992cd238f55ee30a15fbd2223069e ABI: obsolete/sysfs-bus-iio: add some missing blank lines
-e080f24795d03605dfec063820d92b3d848006da ABI: sysfs-driver-ufs: Add another What for platform drivers
-654e4d5d3d5b778a6d33fcab4028a3c89714c04e ABI: sysfs-bus-platform: add modalias description
-
---===============5629147599895446786==--
+--===============8471599549465658834==--
