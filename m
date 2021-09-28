@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3870389796456819835=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 28 Sep 2021 17:16:51 -0000
-Message-Id: <163284941174.24325.12732200096966905642@gitolite.kernel.org>
-
---===============3870389796456819835==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 28 Sep 2021 17:25:58 -0000
+Message-Id: <163284995802.31423.4666057698773786472@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 39561d7d1cc04c18ee703d5919ba63b75b0f5548
-    new: 83cf420a979caa30a83c2c9d7436cb3e26161cda
+  - ref: refs/heads/dev
+    old: 204b3e415167608cb4a57885c658d84ec9ef8a4a
+    new: 6f45070ea1b7e5ab96dfe838bbb52dd0da7301c0
     log: |
-         83cf420a979caa30a83c2c9d7436cb3e26161cda Add 65C3F906A5D79FA0 and 858D892E300DB03F
+         c5bdaba8d33023abca8894271f8f4df171dee314 rcu: Ignore rdp.cpu_no_qs.b.exp on premptible RCU's rcu_qs()
+         7a71ead5cef3c92ae7442abc6d215cc2578dfa6f rcu: Move rcu_data.cpu_no_qs.b.exp reset to rcu_export_exp_rdp()
+         69f1b40102a70923980f2d46d6b76a49701ef834 rcu: Remove rcu_data.exp_deferred_qs and convert to rcu_data.cpu no_qs.b.exp
+         b7c8a352353ae1c2daaeb939a89a386b41f04b2b rcu: Always inline rcu_dynticks_task*_{enter,exit}()
+         6f45070ea1b7e5ab96dfe838bbb52dd0da7301c0 rcu: Fix rcu_dynticks_curr_cpu_in_eqs() vs noinstr
          
-
---===============3870389796456819835==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1632849411 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1632849411-902a961bf47c668dd389852d9cf29454e41e2a28
-
-39561d7d1cc04c18ee703d5919ba63b75b0f5548 83cf420a979caa30a83c2c9d7436cb3e26161cda refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVNOAwAKCRC2xBzjVmSZ
-bObrAQD/uWwLizHRyR/J+LYaq91EeHZHG9kGszSSu1n640SC3QEA+UyoSvHj4dSE
-ieq8JBI+7asaWvVzS8ZtgGI6Jcp3oA4=
-=v3qv
------END PGP SIGNATURE-----
-
---===============3870389796456819835==--
