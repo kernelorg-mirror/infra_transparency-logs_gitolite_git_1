@@ -1,76 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============8409427871588873127=="
+Content-Type: multipart/mixed; boundary="===============5629147599895446786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 28 Sep 2021 11:00:22 -0000
-Message-Id: <163282682282.7589.18098868978425990451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 28 Sep 2021 11:04:43 -0000
+Message-Id: <163282708358.8922.11079688307666205007@gitolite.kernel.org>
 
---===============8409427871588873127==
+--===============5629147599895446786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath-next
-    old: eb19efed836a51ee30a602abe2dd21a97c47bbcc
-    new: 94a6df31dcf042f74db8209680d04546ce964ad5
-    log: revlist-eb19efed836a-94a6df31dcf0.txt
-  - ref: refs/heads/ath-qca
-    old: 207cd3db256d795dc7a4402a5ab419ed199d4cfb
-    new: d229e5e98b622e589bdcbc94857c28244d2513cf
-    log: revlist-207cd3db256d-d229e5e98b62.txt
+  - ref: refs/heads/driver-core-testing
+    old: 483f7d699fd96d494dbd299f73d758073c73c147
+    new: 654e4d5d3d5b778a6d33fcab4028a3c89714c04e
+    log: revlist-483f7d699fd9-654e4d5d3d5b.txt
 
---===============8409427871588873127==
+--===============5629147599895446786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb19efed836a-94a6df31dcf0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c72aa32d6d1c04fa83d4c0e6849e4e60d9d39ae4 ath11k: use hw_params to access board_size and cal_offset
-336e7b53c82fc74d261024773a0fab43623a94fb ath11k: clean up BDF download functions
-e82dfe7b5608592c270cc69100cb4322069f949d ath11k: add caldata file for multiple radios
-4ba3b05ebd0c3e98c7dd8c7ee03aed9d80299b79 ath11k: add caldata download support from EEPROM
-b2549465cdeac3847487ce88b15ca47c37b60b88 ath11k: Replace one-element array with flexible-array member
-b9b5948cdd7bc8d9fa31c78cbbb04382c815587f ath11k: qmi: avoid error messages when dma allocation fails
-aadf7c81a0771b8f1c97dabca6a48bae1b387779 ath11k: fix some sleeping in atomic bugs
-2167fa606c0f0e64b95a04f9bc42d9fd5360838a ath11k: Add support for RX decapsulation offload
-ab18e3bc1c138f2b4358c6905a45afb7289d5086 ath11k: Fix pktlog lite rx events
-f394e4eae8e2c0579063e5473f1e321d22d3fe43 ath11k: Update pdev tx and rx firmware stats
-69a0fcf8a9f2273040d03e5ee77c9689c09e9d3a ath11k: Avoid reg rules update during firmware recovery
-1db2b0d0a39102238fcbf9092cefa65a710642e9 ath11k: Avoid race during regd updates
-8717db7ee802b71fa3f2a79b265b1325bc61210c ath11k: Add vdev start flag to disable hardware encryption
-3c79cb4d63c0d58462d439efa0db328008354deb ath11k: Assign free_vdev_map value before ieee80211_register_hw
-8ee8d38ca4727667e05a1dedf546162207bde9fa ath11k: Fix crash during firmware recovery on reo cmd ring access
-79feedfea7793d91293ab72fac5fc66aae0c6a85 ath11k: Avoid "No VIF found" warning message
-94a6df31dcf042f74db8209680d04546ce964ad5 ath11k: Add wmi peer create conf event in wmi_tlv_event_id
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632827081 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1632827081-d463d6b27be3f1ab8f971363a2deba5696828d42
 
---===============8409427871588873127==
+483f7d699fd96d494dbd299f73d758073c73c147 654e4d5d3d5b778a6d33fcab4028a3c89714c04e refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFS9skbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YrYP/1L3/m1uotgtOzzWjMPM
+VaZqOOLwzR/8brMniWzzygEcmE2/wfUH0Sck08IhI70QcxA9a5eUBGL/gbjqC/J4
+oteHANUo2dnUT/PuTx965L/vG2pb0bNQH8DFLhtGPnIR7uZvFVwfCe+RB6jkVBnp
+0TVfqi1LVsXhieolza/fWbhr8mZ4ZCViUybg4abW+nxkhU21zOxbSXULfT1phXHY
+2iy+Gg9WdhIfPZaqwbYHOLPqxySY/aiE++TdAMwN0KxCJUqK0dCY1DuJfuI9pgWW
+0AI3A75j+atBuRef3LpaTbC7QOxPbc8pBIvdxc6SPzW1SHZriJCx3lUp0CgEx3Uw
+Aa0mksfq3XeW/LqtH+AW/eko17zSie14XDaeVA4mrIj7pYOzQtOuqolCNdSDzDIk
+6XIIuBlFF8ekrhAt2yBDZoyGAAVpNJXJu99oR1dSQ1x8HFvjw/WwyeYE0lMTKHah
+cWk9Tc4YO/UiYevOcwg48aQYHJd4uJlWyDmnYjk3mZLOlEpWDAXfsRC/11BSTIFC
+JEasHpmVP8ksm3JCXOjjEc1IjHs3dvC9nfqQAuigFQQsxKhz4RhUyekunAyLZyuU
+GH4Es1GDPTdhheRNJElmYzosx6q57rw3GMnQTNMpWLXybmy4cYNY7E+iTBlyEQhM
+yEaHDVyfiJ1DH2x3ZJNZOz80
+=r8Ei
+-----END PGP SIGNATURE-----
+
+--===============5629147599895446786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-207cd3db256d-d229e5e98b62.txt
+Content-Disposition: attachment; filename=revlist-483f7d699fd9-654e4d5d3d5b.txt
 
-c72aa32d6d1c04fa83d4c0e6849e4e60d9d39ae4 ath11k: use hw_params to access board_size and cal_offset
-336e7b53c82fc74d261024773a0fab43623a94fb ath11k: clean up BDF download functions
-e82dfe7b5608592c270cc69100cb4322069f949d ath11k: add caldata file for multiple radios
-4ba3b05ebd0c3e98c7dd8c7ee03aed9d80299b79 ath11k: add caldata download support from EEPROM
-b2549465cdeac3847487ce88b15ca47c37b60b88 ath11k: Replace one-element array with flexible-array member
-b9b5948cdd7bc8d9fa31c78cbbb04382c815587f ath11k: qmi: avoid error messages when dma allocation fails
-aadf7c81a0771b8f1c97dabca6a48bae1b387779 ath11k: fix some sleeping in atomic bugs
-2167fa606c0f0e64b95a04f9bc42d9fd5360838a ath11k: Add support for RX decapsulation offload
-ab18e3bc1c138f2b4358c6905a45afb7289d5086 ath11k: Fix pktlog lite rx events
-f394e4eae8e2c0579063e5473f1e321d22d3fe43 ath11k: Update pdev tx and rx firmware stats
-69a0fcf8a9f2273040d03e5ee77c9689c09e9d3a ath11k: Avoid reg rules update during firmware recovery
-1db2b0d0a39102238fcbf9092cefa65a710642e9 ath11k: Avoid race during regd updates
-8717db7ee802b71fa3f2a79b265b1325bc61210c ath11k: Add vdev start flag to disable hardware encryption
-3c79cb4d63c0d58462d439efa0db328008354deb ath11k: Assign free_vdev_map value before ieee80211_register_hw
-8ee8d38ca4727667e05a1dedf546162207bde9fa ath11k: Fix crash during firmware recovery on reo cmd ring access
-79feedfea7793d91293ab72fac5fc66aae0c6a85 ath11k: Avoid "No VIF found" warning message
-94a6df31dcf042f74db8209680d04546ce964ad5 ath11k: Add wmi peer create conf event in wmi_tlv_event_id
-d229e5e98b622e589bdcbc94857c28244d2513cf Merge branch 'ath-next' into ath-qca
+3b54fc5077dade7c400fbc08b02bd65e5edd5cc0 ABI: stable/sysfs-module: better document modules
+19aca231250f532b315ccbc22ff5125be292aed4 ABI: stable/sysfs-module: document version and srcversion
+eeac9faf9645e2eeda0c7414700c41936667dbaa ABI: testing/sysfs-module: document initstate
+405ea445781ac27c7bb68bb27eec6086db7922c1 ABI: sysfs-devices-power: document some RPM statistics
+e95d6d8b0147229ee6a52f1dc0bef41d4017b2c2 ABI: sysfs-devices: add /dev ABI
+9919c339babf6b92ad79dd0db9eeef6a23971e7c ABI: sysfs-bus-pci: add documentation for modalias
+6abac1a8a68e7d2c15578a2c19c355afe910634d ABI: o2cb: add an obsolete file for /sys/o2cb
+773151dc41035657175eb7e5bc51721943039b31 ABI: sysfs-kernel-slab: Document some stats
+5e58808871c1ed9a209bdd38be2b850941ee3aee ABI: sysfs-devices-power: add some debug sysfs files
+bab2f3c14e56c526c5b31ac3909fa5b47c21018d ABI: sysfs-bus-pci: add a alternative What fields
+8a60958923e6cea34de024eb7e494de0bee3c7f2 ABI: sysfs-class-bdi: use What: to describe each property
+89ae45d72ae25f36872c046c804086579fdd3c5e ABI: sysfs-bus-mdio: add alternate What for mdio symbols
+e06ab8d57433086f8fafa71516564d15d6e3c430 ABI: sysfs-bus-usb: use a wildcard for interface name on What
+989eff9cdb799d1366c8cdd3456cec4083a9a6d6 ABI: sysfs-bus-usb: add missing sysfs fields
+3a0d390bd52992cd238f55ee30a15fbd2223069e ABI: obsolete/sysfs-bus-iio: add some missing blank lines
+e080f24795d03605dfec063820d92b3d848006da ABI: sysfs-driver-ufs: Add another What for platform drivers
+654e4d5d3d5b778a6d33fcab4028a3c89714c04e ABI: sysfs-bus-platform: add modalias description
 
---===============8409427871588873127==--
+--===============5629147599895446786==--
