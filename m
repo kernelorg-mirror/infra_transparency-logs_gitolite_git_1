@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 28 Sep 2021 02:22:35 -0000
-Message-Id: <163279575517.23437.11639532416266285657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 28 Sep 2021 03:05:44 -0000
+Message-Id: <163279834400.17582.1205741415696858668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 7ac8bbe0e86612da64d7865508242b0d45c3cd5b
-    new: a1d949cfc3c3a5c665383233cad2d04bb9d61ce6
+    old: 62c528b3fca8411e441a8a28e1d0ed4555f0d9d3
+    new: b109935e1d5c457c0f1355536230e81b5ac7d9a5
     log: |
-         a1d949cfc3c3a5c665383233cad2d04bb9d61ce6 tpm_tis_spi: Add missing SPI ID
+         b109935e1d5c457c0f1355536230e81b5ac7d9a5 x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
          
