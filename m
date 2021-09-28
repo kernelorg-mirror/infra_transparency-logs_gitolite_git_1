@@ -1,42 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3256548833588893283=="
+Content-Type: multipart/mixed; boundary="===============7076082427781077190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 28 Sep 2021 07:45:13 -0000
-Message-Id: <163281511344.30498.6491816677226621355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 28 Sep 2021 07:49:24 -0000
+Message-Id: <163281536443.535.2805102771441846301@gitolite.kernel.org>
 
---===============3256548833588893283==
+--===============7076082427781077190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/test/usb-audio
-    old: 154545075c9a8d01c87635a46cc10eb48b9e6570
-    new: 1f2b09e187d9b0cd8c1999a38b9f94c231712ea5
-    log: revlist-154545075c9a-1f2b09e187d9.txt
+  - ref: refs/heads/driver-core-linus
+    old: 04f41c68f18886aea5afc68be945e7195ea1d598
+    new: ebd6823af378c7d91f80cbe83ce07b5f166744e4
+    log: |
+         68223eeec70898cd5e42451a9168cd9b2808e248 driver core: Set deferred probe reason when deferred by driver core
+         76f130810b477243ce1312bf5754dc41ce7f91a8 driver core: Create __fwnode_link_del() helper function
+         ebd6823af378c7d91f80cbe83ce07b5f166744e4 driver core: Add debug logs when fwnode links are added/deleted
+         
 
---===============3256548833588893283==
+--===============7076082427781077190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-154545075c9a-1f2b09e187d9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-be830389bd49d3f1f8737bd45513361628641c08 ALSA: pcxhr: "fix" PCXHR_REG_TO_PORT definition
-94d508fa3186d0cbc63765aa94d5cf3bd847694c ALSA: hda/cs8409: Setup Dolphin Headset Mic as Phantom Jack
-f02f2f1bf9d154148325eb60d74bdf199022ea52 ALSA: usx2y: Prefer struct_size over open coded arithmetic
-ab2eb05f3fad2a34a4b27b50651d9fd96492369f ALSA: usb-audio: Restrict rates for the shared clocks
-05cc631f4e232bd98223b9ce1074ea79237f94f6 ALSA: usb-audio: Fix possible race at sync of urb completions
-cc3e8929fce788d61f249f9a879b345de71009a5 ALSA: usb-audio: Rename early_playback_start flag with lowlatency_playback
-161dab6e190746a3f52fb60a055366986b7b31e7 ALSA: usb-audio: Disable low-latency playback for free-wheel mode
-aba62bdb4f4259b5e70893b7ca648cb749c8ea16 ALSA: usb-audio: Disable low-latency mode for implicit feedback sync
-954c84e1a5aeb2b595363345ce964746696380b6 ALSA: usb-audio: Check available frames for the next packet size
-f4ef70ea2339c2bf995ae3e781608a46b4ca1916 ALSA: usb-audio: Add spinlock to stop_urbs()
-99b89d1246530d1a23de8318dfde4c12dc5727b0 ALSA: usb-audio: Improved lowlatency playback support
-1f2b09e187d9b0cd8c1999a38b9f94c231712ea5 ALSA: usb-audio: Avoid killing in-flight URBs during draining
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632815362 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1632815360-f644619af6286f836f06c14f0b9988debca00664
 
---===============3256548833588893283==--
+04f41c68f18886aea5afc68be945e7195ea1d598 ebd6823af378c7d91f80cbe83ce07b5f166744e4 refs/heads/driver-core-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFSyQIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SDUQAKIgIIc5kkq7TV2y14hA
+uMJ6bXfihPVIOScjGpy8+pLU26l1jE6hsWvprbhIO7BlYsqbnS5Dfmdb9hSA/rtA
+p1ePG2SYlQCyy2a7TjztGdtGxDQTn33iEyB3Rkegr5IpvA0hOW0MXZH611pwl0Ek
+NTGEi/0lLUDLsIhWKUimBFclwmbZFt1SvSW66QmAsmSIAGeI8Qj9oj/wJfagEefM
+DDO6fKXy/iz56HzoSQNyzBBwjwdpxsO6zx443/jPTrEj1jQuDomG6SJmpu7jA5T4
+HJgRW3FpoI4IUYDVNVl/ZCpIUJLmaGykwj+hDNDivwaGeHsD1h3P1asLZ1pLXt4y
+YsTpjXqS3J0tHXwd10WLOqAGDTt4SdSY+aOL/zvQD9kmHcH8LUSEG4fkbjcWR2vf
+tQ1QI3Dg3J8ZtIOBevQ5L4F7SvoMW9k+xb8Sy/KoBc8to7MmFHvPOlYtsX2zJbCN
+KrtrzX7XDW2jdy4o436rd8tijVI/xK3mq7bWPDQxI1HWkQedyMeF+PPWscDRRCVR
+UXV9Ho2i9/zzavPrGAMfrOhDD4PoCKCQcH8W/osZdRTtYLAnDjnMaBcL7bu3X//9
+zJh5s3nz/+DJ7wUOWNj0OR4d/4Ou/J7oiAv9Pve9b/V/TqYOfzNnDgO9dls+ueHA
+2guUqhoBFW5jWKJmPhLsPdkl
+=q41Z
+-----END PGP SIGNATURE-----
+
+--===============7076082427781077190==--
