@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Tue, 28 Sep 2021 08:27:31 -0000
-Message-Id: <163281765103.24584.6621890224109197555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 28 Sep 2021 08:32:15 -0000
+Message-Id: <163281793597.27470.14992538497422960438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 5db4943a9d6fc6bf1b04f80416236594713067b4
-    new: a8e5387f8362e9da66fdc76a2e761ad618ae16db
+  - ref: refs/heads/arm-vmap-stacks
+    old: c6f26782db68bb15d427bf5edf03a73a7de6cb32
+    new: 142a21f42fa5beec4443d7d48294706bc7f8c8f8
     log: |
-         a8e5387f8362e9da66fdc76a2e761ad618ae16db ipw2200: Fix a function name in print messages
+         142a21f42fa5beec4443d7d48294706bc7f8c8f8 ARM: implement support for vmap'ed stacks
          
