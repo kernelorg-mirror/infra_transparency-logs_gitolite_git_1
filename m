@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3333697016285438023=="
+Content-Type: multipart/mixed; boundary="===============1074477001620680777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 28 Sep 2021 00:00:19 -0000
-Message-Id: <163278721915.27719.5071257299191583205@gitolite.kernel.org>
+Date: Tue, 28 Sep 2021 00:00:26 -0000
+Message-Id: <163278722625.27834.8659634545635154131@gitolite.kernel.org>
 
---===============3333697016285438023==
+--===============1074477001620680777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: 4da8b121884d84476f3d50d46a471471af1aa9df
     new: 0513e464f9007b70b96740271a948ca5ab6e7dd7
     log: revlist-4da8b121884d-0513e464f900.txt
 
---===============3333697016285438023==
+--===============1074477001620680777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ e6609f2c07de03b948fd6c37c5eb4ade3a6d785c Merge tag 'media/v5.15-2' of git://git.
 9cccec2bf32fa2a8039cfcd228b9f3a4f0a4f5aa Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 0513e464f9007b70b96740271a948ca5ab6e7dd7 Merge tag 'perf-tools-fixes-for-v5.15-2021-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============3333697016285438023==--
+--===============1074477001620680777==--
