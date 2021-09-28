@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 28 Sep 2021 22:07:01 -0000
-Message-Id: <163286682149.13044.5343897628899471748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 28 Sep 2021 22:14:42 -0000
+Message-Id: <163286728293.16656.17223933397845779468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/tags/pinctrl-v5.15-2
-    old: 0000000000000000000000000000000000000000
-    new: a5b77e2a4cdd5b0a1c817e72b739a19a2aa5a4db
+  - ref: refs/heads/master
+    old: f4bcba0e873f96f32e2d358e9f79ddb9a1207835
+    new: 0eb10c0c6d610baa10b6d1f98e2beed0e6393589
+    log: |
+         0eb10c0c6d610baa10b6d1f98e2beed0e6393589 Bluetooth: btrsi: remove superfluous header files from btrsi.c
+         
