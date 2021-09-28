@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 28 Sep 2021 21:00:21 -0000
-Message-Id: <163286282165.3557.16694224822276545825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 28 Sep 2021 21:03:15 -0000
+Message-Id: <163286299563.4417.12646152534958804678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/dev-test
-    old: a2601a70185adc92c8f1f681a529f1c8f3b0f7d8
-    new: 99bc49736baa5e90f4e2cb31caf38e33d6cd055a
+  - ref: refs/heads/dev
+    old: 6f45070ea1b7e5ab96dfe838bbb52dd0da7301c0
+    new: 428dc13fac021d77fa9f4423d9b87c262c5eb0c6
     log: |
-         1603a3d1de98031b4c2d020999d50e7a34b731ad mkfs.f2fs: wipe other FS magics given -f
-         99bc49736baa5e90f4e2cb31caf38e33d6cd055a f2fs-tools: fall back to the original version check when clock_gettime is not supported
+         3ea886384ad322cd85a046f5247dd6a84f1c4fbb rcu: Mark sync_sched_exp_online_cleanup() ->cpu_no_qs.b.exp load
+         428dc13fac021d77fa9f4423d9b87c262c5eb0c6 rcu: in_irq() cleanup
          
