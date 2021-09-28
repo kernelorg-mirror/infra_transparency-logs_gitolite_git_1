@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 28 Sep 2021 15:38:12 -0000
-Message-Id: <163284349296.25114.9595936751003765365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 28 Sep 2021 15:48:35 -0000
+Message-Id: <163284411546.31135.10484231089474098869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: ca9e9710ad5ff6075be11cd066897803207b142a
-    new: 37f6317b18820328e968099fd0a7244d66f0ec58
+  - ref: refs/heads/renesas/sdhi/separate-sdhn
+    old: cad724fa1510b7c61ad21981aa93f81daedb8e31
+    new: 6e5da39bd0f1b8dcc76b8c9198f58a2f4fadf208
     log: |
-         483de2b44cd3a168458f8f9ff237e78a434729bc arm64: dts: qcom: pm8916: Remove wrong reg-names for rtc@6000
-         f5d7bca55425c8611e6cfa3f236d1f56031920e8 arm64: dts: qcom: pm8916: Add pm8941-misc extcon for USB detection
-         b30cad26d8030bddeb0ee2373b6d4c1440ffb1a3 arm64: dts: qcom: msm8916-longcheer-l8150: Use &pm8916_usbin extcon
-         4e31e85759a0622b25a63300019d04ff031c95e0 arm64: dts: qcom: sm6125: Improve indentation of multiline properties
-         c22441a7cbd014e2546329af89363b2a43cc8bf2 arm64: dts: qcom: sdm630-nile: Correct regulator label name
-         d7f0282b77723cc5bf6fdbf151e9bcd286af6eab Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
-         37f6317b18820328e968099fd0a7244d66f0ec58 Merge branches 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
+         1e5ad8fab2ed1ff3d33922166237fca0bd181143 clk: renesas: gen3-cpg: add dummy SDnH clock
+         0bb3489b3930e10f77b99bd810ddade49471a4d7 clk: renesas: add SDnH clock to Gen3 SoCs
+         5b94a557fe122332aab8ad88f7e36b0a3469db37 clk: renesas: r8a779a0: add SDnH clock to V3U
+         ff560af9daeba611c555e2c4505b836b0327bb10 clk: renesas: gen3: switch to new SD clock handling
+         4b97aa96b56d767062c89ba110d619bb9508727b dt-bindings: mmc: renesas,sdhi: add optional SDnH clock
+         eff447a86feef7a18bc51b6038af52bbfff6c6d3 arm64: dts: r8a77951: add SDnH clocks
+         6e5da39bd0f1b8dcc76b8c9198f58a2f4fadf208 mmc: renesas_sdhi: parse DT for SDnH
          
