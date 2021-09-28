@@ -1,44 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7961460148414120740=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 28 Sep 2021 07:34:50 -0000
-Message-Id: <163281449037.23022.11659521639459627123@gitolite.kernel.org>
-
---===============7961460148414120740==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Tue, 28 Sep 2021 07:35:02 -0000
+Message-Id: <163281450271.23264.4896666947486240807@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/master
-    old: c3e8c44a90631d2479fec6ecc6ba37e3188f487d
-    new: 29eef85be2f60b1027214b4bfc4b1a9d592830a7
-    log: revlist-c3e8c44a9063-29eef85be2f6.txt
-
---===============7961460148414120740==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3e8c44a9063-29eef85be2f6.txt
-
-c2a228d69cef802cf6bfd773c84f8419d2e2acf9 bpf/tests: Allow different number of runs per test case
-4bc354138d553bc48dc1fb1e184d50a524e6c20f bpf/tests: Reduce memory footprint of test suite
-68c956fe741757b760aa00fca8725c5651f5f77a bpf/tests: Add exhaustive tests of ALU shift values
-9298e63eafea1ebe235919dbbbfc20c1c25000f8 bpf/tests: Add exhaustive tests of ALU operand magnitudes
-a5a36544de38057b8e8de8fb6b2bcd9c102640f4 bpf/tests: Add exhaustive tests of JMP operand magnitudes
-a7d2e752e52050fcdf0c50cf343488891a8efd5b bpf/tests: Add staggered JMP and JMP32 tests
-2e807611945c2d36e25d10bc6f932e5f9943deea bpf/tests: Add exhaustive test of LD_IMM64 immediate magnitudes
-27cc6dac6ec816cc31be9031edbee3e519234471 bpf/tests: Add test case flag for verifier zero-extension
-d4ff9ee2dc0bbbdba204e215c8b6bf58f5773994 bpf/tests: Add JMP tests with small offsets
-c4df4559db8447cdae15254a713f7fd5d4cee3ab bpf/tests: Add JMP tests with degenerate conditional
-f1517eb790f97c1326016eb164a33a64d4d4fb7a bpf/tests: Expand branch conversion JIT test
-f536a7c80675e4875e50df9182881d7678e27651 bpf/tests: Add more BPF_END byte order conversion tests
-18935a72eb25525b655262579e1652362a3b29bb bpf/tests: Fix error in tail call limit tests
-29eef85be2f60b1027214b4bfc4b1a9d592830a7 bpf/tests: Add tail call limit test with external function call
-
---===============7961460148414120740==--
+  - ref: refs/tags/drm-fixes-2021-08-27
+    old: 0000000000000000000000000000000000000000
+    new: 20785e6b8e4cdbce3adfe0f8dd3ec9b23c657026
+  - ref: refs/tags/drm-fixes-2021-09-17
+    old: 0000000000000000000000000000000000000000
+    new: 40651e54b7c614f60fe00e97c5c9816f865a8f0c
+  - ref: refs/tags/drm-fixes-2021-09-24
+    old: 0000000000000000000000000000000000000000
+    new: 407a7ded673429017949deea3e36655001f0b4ec
+  - ref: refs/tags/drm-next-2021-08-31-1
+    old: 0000000000000000000000000000000000000000
+    new: 3723acbe985227b4268c3ce749309e1e55bfd3d5
+  - ref: refs/tags/drm-next-2021-09-10
+    old: 0000000000000000000000000000000000000000
+    new: 95c9b863f777d42211c8e828f0a1bf627ce50999
+  - ref: refs/tags/exynos-drm-fixes-for-v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f8e1a58a28f1de9a0f864357ee6378c4b5ed431a
