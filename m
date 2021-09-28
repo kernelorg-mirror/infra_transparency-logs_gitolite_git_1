@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5131416568173229663=="
+Content-Type: multipart/mixed; boundary="===============8531923409971258110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 28 Sep 2021 20:55:28 -0000
-Message-Id: <163286252839.319.16646054909864162597@gitolite.kernel.org>
+Date: Tue, 28 Sep 2021 20:55:36 -0000
+Message-Id: <163286253618.431.14858276817988116685@gitolite.kernel.org>
 
---===============5131416568173229663==
+--===============8531923409971258110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 29eef85be2f60b1027214b4bfc4b1a9d592830a7
     new: 4e874b119c7908b30355859a3ded7692e7502840
     log: revlist-29eef85be2f6-4e874b119c79.txt
 
---===============5131416568173229663==
+--===============8531923409971258110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ dd94d45cf0acb1d82748b17e1106b2c8b487b28b libbpf: Add opt-in strict BPF program s
 7c80c87ad56a05ec56069c3f5d7e60b5b1eb19b4 selftests/bpf: Switch sk_lookup selftests to strict SEC("sk_lookup") use
 4e874b119c7908b30355859a3ded7692e7502840 Merge branch 'libbpf: stricter BPF program section name handling'
 
---===============5131416568173229663==--
+--===============8531923409971258110==--
