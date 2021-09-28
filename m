@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 28 Sep 2021 12:29:00 -0000
-Message-Id: <163283214079.30162.10889356365822534945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 28 Sep 2021 12:29:11 -0000
+Message-Id: <163283215116.30302.11729348262185543503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: f4bd73b5a950866f6c6fc98a7b684d307c5d586a
-    new: c6995117b60ef3f7afca8fb41f906e9f459d869a
+  - ref: refs/heads/renesas-clk-for-v5.16
+    old: c11d7f5126b7c5da41f8fb7f69fc86fece65b2b3
+    new: cc3e8f97bbd370b51b3bb7fec391d65d461d7d02
     log: |
-         c6995117b60ef3f7afca8fb41f906e9f459d869a net: mdio: mscc-miim: Fix the mdio controller
+         cc3e8f97bbd370b51b3bb7fec391d65d461d7d02 clk: renesas: r8a779a0: Add Z0 and Z1 clock support
          
