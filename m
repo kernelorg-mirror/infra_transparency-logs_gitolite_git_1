@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5878426772581325857=="
+Content-Type: multipart/mixed; boundary="===============1163638555172085838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Sep 2021 16:13:54 -0000
-Message-Id: <163284563468.14838.9214068558540942139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Sep 2021 16:14:01 -0000
+Message-Id: <163284564158.14927.9134565718013891602@gitolite.kernel.org>
 
---===============5878426772581325857==
+--===============1163638555172085838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487
     new: 3c561a090c7920624b83005a279a66cc8a7bed2b
     log: |
@@ -30,28 +30,28 @@ changes:
          3c561a090c7920624b83005a279a66cc8a7bed2b ASoC: intel: sof_rt5682: update platform device name for Maxim amplifier
          
 
---===============5878426772581325857==
+--===============1163638555172085838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1632845586 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1632845632-7e6b387a9fd0a9ca61a1f0d10fc9c9d4f10fe504
+pusher C3F436CA30F5D8EB 1632845593 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1632845639-e4f0ebcf0fa8a11c4fbbd52413d278f70af96bcb
 
-ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487 3c561a090c7920624b83005a279a66cc8a7bed2b refs/heads/for-5.16
+ca4c040d4afaf5e5e3dcf57f8b73bb5137ce5487 3c561a090c7920624b83005a279a66cc8a7bed2b refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFTPxIACgkQJNaLcl1U
-h9DH5wf+MieQ6bSzLw9iq/rWBmFHvqxtaLWZLmERZBnaq3O2Qw/RLSi7hLr9uk+0
-Ho5MZHqkGdbtZXg4/z13dBh/vNxrVr+w4sXe0yco96XhU/D0QGEga1R985ROR0RU
-sMzcq9Na4uit9CxaF5B04AydgF/fn14wR05lwrbdGh7rIRDIpIKbbJazSAj13uL7
-fhGznyrcARyCDMC6MQRZrP0wPLsSF0Lhps1Hk19fV/dggmTngh5QLBdHd4FMCZ8u
-kBOZs163GwgGlhJD1pDD+ZAL0tvxjuWnBPMO09LsxFackS4rja7xKu7wuM4pWq1O
-AEqXrJdMw5gXgq2feTdhaOh6+ieO4w==
-=qZ27
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFTPxkACgkQJNaLcl1U
+h9AW0Af/bV3H9hcnc6y7u9vGryJ/BfLo9JQ3HWcS0myAHPPQRDTcV5An01C/t8YR
+/VTLFu06QaBH7zu4gkvcmYDaEwFIR8LjrzLxPiL+NQbH6x6IK4bCBp6p6K/vQaE3
+BTMgfpd8NIAn66bwvphCnToQsSfq6mpZ2M3DsTV99WEbb91IPQV6FL6AWq/RKlgh
++HZkB50FAJt3OD2EbmbEb5j8eJdsuo/gp1lv+C5kCFU8A60ow6DFuuxtjzrjZ6vo
+zXe5j3ydYf4w9LTF0DUiJTm8QB5nKg0SILgQmvMX0JsoDX6ak3OQtaocLJ+DLoBH
+L5WDjImfzFlNgANCBq2eJ0pHRfhBmw==
+=QbgB
 -----END PGP SIGNATURE-----
 
---===============5878426772581325857==--
+--===============1163638555172085838==--
