@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============9118162762532251537=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 29 Sep 2021 21:12:04 -0000
-Message-Id: <163294992447.28829.16052635465532660744@gitolite.kernel.org>
-
---===============9118162762532251537==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 29 Sep 2021 21:13:56 -0000
+Message-Id: <163295003633.29442.412361783876733474@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: bd64dab483f6302bbdd792c5e678c0ab51060cbe
-    new: 9a81f80ee58f61d133391264a303f7f815404d4c
+    old: 3b77e32461f879ee4104329aa10d8a6d966d1d97
+    new: c5890ac87f3f63ed235974dfcbf672ce2224fb49
     log: |
-         9a81f80ee58f61d133391264a303f7f815404d4c shazam: implement better merging strings
+         7f55a241a46e63222a9d60cf95e62c35f1358501 netconfig: Allow consecutive calls to _load_settings()
+         c5890ac87f3f63ed235974dfcbf672ce2224fb49 netconfig: Apply MDNS setting at _configure time
          
-
---===============9118162762532251537==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1632949924 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1632949924-9c93307d65bca0b3a45351b8c6349bc6064cc71b
-
-bd64dab483f6302bbdd792c5e678c0ab51060cbe 9a81f80ee58f61d133391264a303f7f815404d4c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYVTWpAAKCRC2xBzjVmSZ
-bBzCAQCt8E1aVwpV1u0E2OeWS034kjdNwNH53aOlBbCaYOyXyAD+Mj3N77jymAN5
-oqXOKHFQATofrPAL9ddwGZx2fpt6eg0=
-=oVnz
------END PGP SIGNATURE-----
-
---===============9118162762532251537==--
