@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4984783867960038283=="
+Content-Type: multipart/mixed; boundary="===============6768500274529864311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 29 Sep 2021 12:41:59 -0000
-Message-Id: <163291931900.28895.16930560394437088957@gitolite.kernel.org>
+Date: Wed, 29 Sep 2021 12:42:30 -0000
+Message-Id: <163291935080.29100.12181943828027942390@gitolite.kernel.org>
 
---===============4984783867960038283==
+--===============6768500274529864311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/fixes
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
     log: revlist-6880fa6c5660-5816b3e6577e.txt
 
---===============4984783867960038283==
+--===============6768500274529864311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -656,4 +656,4 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
 
---===============4984783867960038283==--
+--===============6768500274529864311==--
