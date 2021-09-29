@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 29 Sep 2021 21:16:01 -0000
-Message-Id: <163295016127.32002.10383535080166025365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 29 Sep 2021 21:18:16 -0000
+Message-Id: <163295029698.421.7181737347726899911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-next
-    old: 66fe33241726d1f872e55d95a35c063d58602ae1
-    new: de21d8bf777240c6d6dfefa39b4925729e32c0fd
-    log: |
-         de21d8bf777240c6d6dfefa39b4925729e32c0fd bpf: Do not invoke the XDP dispatcher for PROG_RUN with single repeat
-         
+  - ref: refs/heads/for-next/cast-function
+    old: 0000000000000000000000000000000000000000
+    new: ffea83dd8823401f3922276d36aca35c3e99d7f3
