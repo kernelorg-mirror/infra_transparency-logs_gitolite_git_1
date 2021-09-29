@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8035613327991869757=="
+Content-Type: multipart/mixed; boundary="===============1614050345590328611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Wed, 29 Sep 2021 11:00:42 -0000
-Message-Id: <163291324240.30976.1684840291312408862@gitolite.kernel.org>
+Date: Wed, 29 Sep 2021 11:01:23 -0000
+Message-Id: <163291328330.31240.13201241575786624480@gitolite.kernel.org>
 
---===============8035613327991869757==
+--===============1614050345590328611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
-  - ref: refs/heads/kernel.sys
-    old: 2863643fb8b92291a7e97ba46e342f1163595fa8
+  - ref: refs/heads/for-next
+    old: f4dd02cd86310749b53061767382cd9c9d2e2cf4
     new: 61bc346ce64a3864ac55f5d18bdc1572cda4fb18
-    log: revlist-2863643fb8b9-61bc346ce64a.txt
+    log: revlist-f4dd02cd8631-61bc346ce64a.txt
 
---===============8035613327991869757==
+--===============1614050345590328611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2863643fb8b9-61bc346ce64a.txt
+Content-Disposition: attachment; filename=revlist-f4dd02cd8631-61bc346ce64a.txt
 
 c10fb9454adc80c062151c6a436047e1fa59e99f vdpa: Add an opaque pointer for vdpa_config_ops.dma_map()
 22af48cf91aae5f2fd32fe811d9be1c52d7a801b vdpa: factor out vhost_vdpa_pa_map() and vhost_vdpa_pa_unmap()
@@ -1051,4 +1051,4 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
 61bc346ce64a3864ac55f5d18bdc1572cda4fb18 uapi/linux/prctl: provide macro definitions for the PR_SCHED_CORE type argument
 
---===============8035613327991869757==--
+--===============1614050345590328611==--
