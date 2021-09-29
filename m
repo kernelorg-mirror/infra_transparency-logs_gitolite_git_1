@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6344551902122854194=="
+Content-Type: multipart/mixed; boundary="===============5652644692968002582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Sep 2021 04:18:49 -0000
-Message-Id: <163288912952.22560.7031748311271064619@gitolite.kernel.org>
+Date: Wed, 29 Sep 2021 04:19:01 -0000
+Message-Id: <163288914122.23484.13378579784412135207@gitolite.kernel.org>
 
---===============6344551902122854194==
+--===============5652644692968002582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,59 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 7e642ca0375b95072ab6240c8eb9f0b4f013fb24
-    new: efe1dc571a5b808baa26682eef16561be2e356fd
-    log: |
-         a7c0520669869c088dc207735c2e85888a10b0eb scsi: core: Remove include <scsi/scsi_host.h> from scsi_cmnd.h
-         8d4efd0040e52bad2907a6a7b1cd686bee31fbcd scsi: efct: Add state in nport sm trace printout
-         ee3dce9f38426776b48406441d0dc39c74940818 scsi: efct: Fix nport free
-         e76b7c5e25a1fa818bb3e727873a899cc89f5196 scsi: efct: Decrease area under spinlock
-         e88e2d32200a1734cb4a2ca292c5c7b338257bb6 scsi: ufs: core: Probe for temperature notification support
-         322c4b29ee1f19ce153f027bfb21d272b029f2d7 scsi: ufs: core: Add temperature notification exception handling
-         cbd9a3347c757383f3d2b50cf7cfd03eb479c481 scsi: dc395: Fix error case unwinding
-         efe1dc571a5b808baa26682eef16561be2e356fd scsi: lpfc: Fix mailbox command failure during driver initialization
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: 40b647ee199289c2d53674a1fea92f7a63b755ee
+    new: c73172bba2b597ca8dd93f08b9d3c20ffcab60d5
+    log: revlist-40b647ee1992-c73172bba2b5.txt
 
---===============6344551902122854194==
+--===============5652644692968002582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1632889123 -0400
+pusher 75C5DE3D 1632889134 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1632889122-924a84b87136e58e9631c53dd5e7aac85ff9250a
+nonce 1632889133-b9abad356ea8162666a66486e2a0c35d2489bd0c
 
-7e642ca0375b95072ab6240c8eb9f0b4f013fb24 efe1dc571a5b808baa26682eef16561be2e356fd refs/heads/queue
+40b647ee199289c2d53674a1fea92f7a63b755ee c73172bba2b597ca8dd93f08b9d3c20ffcab60d5 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFT6SMACgkQ7ulgGnXF
-3j2naw/9F8E/4OU5/ICGe9mEf/ZqLBax1PA+DsEOqpj+4XezaR2jD9EbneDgfd/v
-7hPIoZnoM5sc3KfqTGkRzv8cvv7DFWs2yWcsT0JbnGdMidPohh/XOPpihXBGuB8Q
-TzrlpKasmlsGhlg30xWemSjBuo2LrWeaIc6XZRjMNE/IgbuAyioQhuwYHLlCjaBu
-wWaUGThn29byqcbgH7P73S+pgF4XPQUGm+Yi6bP/gRM1CV7SHOZwKboDr9YvpalE
-sZwkaeFyIKLFWomDrfw/p0GABCWUI58vYH9/fhFONE6YzJIRb7BklDnixDT1Q+Up
-hjlVr2CpNzqhelXBwgqjsY+Ptd8oJqKz64QviMXXkNqO9iNK/TqgGfVZLUtCR0pY
-4M5z+0SKiF9+6Y44SQ4WYDCAGhGXAb6bvREOOQ9xw9Ik7RAcJ2FUTnPL6pjMPt1X
-P2PfJ6J+UVxx6482RILXteMcL22wLE+yw5AaSG4nvLj/kYSQ5nY0LZvR1Ay3903K
-/TyQ5DqY/DlDUhKlykIRMlITnvfz4MeziN8eW9tq/L5+cYPmE2SNXD5BVhGX2LW4
-rzubqn0Gn/vJUR2juEUgHOcYUtxFZA5od7npCp9GH0GhLaDDfpnimwOvxgoWFvDs
-toDilcPK5UZIuf1n+6qnmTssZ6k+m4g4NvnsxQABBiSPDHfQ5tA=
-=0tPU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFT6S4ACgkQ7ulgGnXF
+3j345g//cB2gDTdZy0cWgmaaCuQvW7CnAq2B8nD61O9BXbctjQM7F45xC4uUmVks
+itXKV+s4N/6Mxe42os8KxEcqNstm20uizE+jaJ8aAEbVT3uZrEG4d5vboLp5zort
+9xCeYhyCaIEYcBv7Z3eOdaHkMyhVNvoqp3XUBp8R/OA3V1hai7fvfcRuSYaopE+x
+oXmxZ7MnAqMgUB6S7INbvIyLstykDsTyTK/LqPDyfUw6k50fQ6bx+S4oVInWIAro
+O8evjxwnW80t2bC14QgRh3zUDBmiKSX/zIevjQjAOBTH3kmGe/iwjc1apV4QtBWn
+Bd7o8NR0iqtJ7vHRM08meSVzzO9TbSb8GTAmjfI0K5HVwCrgrtuEyUIpjK4FemIO
+uSekt0CVa9oQxfM1xnYSAFro5Y5yxYpUM6XqS6S0vNi+YAIY8vN7Q6qowh4UJ8i+
+Dszdug9dhMHGM875YFnBQC5K0DBYCMIW+SQm172mQkbIWnonVLLigZ3v9eTIe23p
+aH+f1I1JTXMyhoLICJKTgjhR5DvtUHq19ES8eTXTXYFBw8PrWk5gXkmLwvmH2+5Q
+sDAvpOls6L+koXnWeJ7mcBDm0RTlngaIhk2tdsSiQRzuJjKvdo7z4m6MYhn5gjL0
+TdWXbabzDgHh2DlIUlOiY1Osf8BC4G8F6ZGrqjMrympDPxH5NKA=
+=os3J
 -----END PGP SIGNATURE-----
 
---===============6344551902122854194==--
+--===============5652644692968002582==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-40b647ee1992-c73172bba2b5.txt
+
+ce580e47e8481047faf296757d747e95464ff71c scsi: ufs: exynos: Unify naming
+568778f5572afd5b30984edd2a4a2c96df8b2b16 scsi: advansys: Prefer struct_size() over open-coded arithmetic
+8d807a068090ef15480d9e812f60d3356aa66b0e scsi: lpfc: Fix a function name in comments
+9f80eca441a9e1c4682862e44ad3e7a618a0486f scsi: aic7xxx: Fix a function name in comments
+5860d9fb5622ecd79913ac981403c612f6c8a2d8 scsi: lpfc: Return NULL rather than a plain 0 integer
+60c98a87fcaad9e71b835d2096e6665543cfe2e1 scsi: ufs: core: SCSI_UFS_HWMON depends on HWMON=y
+a5b141a895b592b401d739949d347ca473921c92 scsi: lpfc: Add support for optional PLDV handling
+525943a586ef43ed365974deef2ebd9e921f2f83 scsi: ufs: core: Export hibern8 entry and exit functions
+a0cea83332ae2ba4b740a89fc094aba3298825db scsi: ufs: ufs-qcom: Enter and exit hibern8 during clock scaling
+ca4ff9e751eb9c6371813ca9cc00c45444048088 scsi: elx: efct: Switch from 'pci_' to 'dma_' API
+6bd49b1a8d43ec118c55f3aaa7577729b52bde15 scsi: core: Delete scsi_{get,free}_host_dev()
+17b49bcbf8351d3dbe57204468ac34f033ed60bc scsi: core: Fix scsi_mode_sense() buffer length handling
+a7d6840bed0c2b16ac3071b74b5fcf08fc488241 scsi: core: Fix scsi_mode_select() buffer length handling
+c749301ebee82eb5e97dec14b6ab31a4aabe37a6 scsi: sd: Fix sd_do_mode_sense() buffer length handling
+
+--===============5652644692968002582==--
