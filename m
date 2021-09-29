@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 29 Sep 2021 21:19:48 -0000
-Message-Id: <163295038865.2171.1844598725354933406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 29 Sep 2021 21:24:46 -0000
+Message-Id: <163295068602.5431.3370918893469887288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 6409e7102a9bbd1a27a74fd6bd12693f6bd92c16
-    new: 087fb9be4e53a2a51ba146bdcb5b97c8da9fc581
+  - ref: refs/heads/arm-vmap-stacks
+    old: 23dfdfeea96f645bdc9635eeb0554af7e245d042
+    new: 1ea0f72b55351bf1962638afe27707ac7a192021
     log: |
-         ffea83dd8823401f3922276d36aca35c3e99d7f3 Makefile: Enable -Wcast-function-type
-         087fb9be4e53a2a51ba146bdcb5b97c8da9fc581 Merge branch 'for-next/cast-function' into for-next/kspp
+         1ea0f72b55351bf1962638afe27707ac7a192021 ARM: implement support for vmap'ed stacks
          
