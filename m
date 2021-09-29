@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 29 Sep 2021 00:21:42 -0000
-Message-Id: <163287490297.600.10444269002588635495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 29 Sep 2021 00:36:44 -0000
+Message-Id: <163287580491.9261.3571677442201156073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 4ccb9f03fee7b20484187ba7e25a7b9b79fe63d5
-    new: 571fa247ab411f3233eeaaf837c6e646a513b9f8
+    old: 1e0083bd0777e4a418a6710d9ee04b979cdbe5cc
+    new: 3d5f12d4ff7879bc134232e25ef44cc82b83a41a
     log: |
-         571fa247ab411f3233eeaaf837c6e646a513b9f8 samples: bpf: Fix vmlinux.h generation for XDP samples
+         3d5f12d4ff7879bc134232e25ef44cc82b83a41a net: ipv4: remove superfluous header files from fib_notifier.c
          
