@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Sep 2021 12:14:37 -0000
-Message-Id: <163300407779.11463.5445844098451571926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 Sep 2021 12:21:41 -0000
+Message-Id: <163300450132.17829.10639757987752455550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2e861e5e97175dfa7b7bc055c45acdc06d2301d3
-    new: e51bb5c2784c30959535ed20bda9754bbf67416a
+    old: d88fd1b546ff19c8040cfaea76bf16aed1c5a0bb
+    new: d5ef190693a7d76c5c192d108e8dec48307b46ee
     log: |
-         e51bb5c2784c30959535ed20bda9754bbf67416a net: macb: ptp: Switch to gettimex64() interface
+         49054556289e8787501630b7c7a9d407da02e296 net: introduce and use lock_sock_fast_nested()
+         d5ef190693a7d76c5c192d108e8dec48307b46ee net: sched: flower: protect fl_walk() with rcu
          
