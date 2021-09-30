@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 30 Sep 2021 02:51:49 -0000
-Message-Id: <163297030933.20040.13829637835505402589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Thu, 30 Sep 2021 03:37:31 -0000
+Message-Id: <163297305195.14851.18284813631108397642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/tags/qcom-drivers-fixes-for-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 3c76baad169e83729077e349c0492f62f430fb9b
+  - ref: refs/heads/devfreq-next
+    old: 7f6490afc97fe0b21ec4b38226414286561a2994
+    new: 6b28c7d0781e9554cd50e5e7d4b48aea0c2bdf93
+    log: |
+         6b28c7d0781e9554cd50e5e7d4b48aea0c2bdf93 PM / devfreq: Strengthen check for freq_table
+         
