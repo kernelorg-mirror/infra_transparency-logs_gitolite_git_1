@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6048958523169357865=="
+Content-Type: multipart/mixed; boundary="===============4345250844367371178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 30 Sep 2021 14:32:48 -0000
-Message-Id: <163301236892.5478.6314968692430893726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 Sep 2021 14:32:58 -0000
+Message-Id: <163301237803.5602.15635968069940225422@gitolite.kernel.org>
 
---===============6048958523169357865==
+--===============4345250844367371178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 0cc3687eadd0971d5d38ff90d14819d88f854960
     new: 42871e95a3afea8956d8cc567ea725b33a837775
     log: |
          42871e95a3afea8956d8cc567ea725b33a837775 ASoC: nau8824: Fix headphone vs headset, button-press detection no longer working
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 2831b71917264d7000855657acb1953003d3fd2d
     new: 57589f82762e40bdaa975d840fa2bc5157b5be95
     log: |
@@ -36,29 +36,29 @@ changes:
          57589f82762e40bdaa975d840fa2bc5157b5be95 ASoC: rt5682: move clk related code to rt5682_i2c_probe
          
 
---===============6048958523169357865==
+--===============4345250844367371178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633012318 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1633012365-1cd18ccec8c14f9079ac15d8d169b468845339db
+pusher C3F436CA30F5D8EB 1633012327 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633012374-86c46f3d2948ad3f8161b34ce55e17e8ad98cc69
 
-0cc3687eadd0971d5d38ff90d14819d88f854960 42871e95a3afea8956d8cc567ea725b33a837775 refs/heads/for-5.15
-2831b71917264d7000855657acb1953003d3fd2d 57589f82762e40bdaa975d840fa2bc5157b5be95 refs/heads/for-5.16
+0cc3687eadd0971d5d38ff90d14819d88f854960 42871e95a3afea8956d8cc567ea725b33a837775 refs/heads/asoc-5.15
+2831b71917264d7000855657acb1953003d3fd2d 57589f82762e40bdaa975d840fa2bc5157b5be95 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFVyl4ACgkQJNaLcl1U
-h9B7NQf/cHNRozHUBJZuphroCEgTlMQuzHrGVtkU9e/sVfPZT/TsMmJqjnSCBdPe
-y3VLKIyXFF3JlKxbLxtzBxGHFiGRHxM5EriyDMl4qHCJBr4YQ1xR4a41AMDPpdbt
-IA2liyczvjnrEDjXgIrc9gUL4OWtBKrBKYYtDDxEGOqeG8x5N0blK5sUOk9+h9qD
-G0wHKzucN9CikrEnp57jxnR4RAmzzOZpExT32RyCYBG5yW80HKYUIE4+tb3zJFSC
-4P/mzzIslK92jimPmidSH4PR2Vp4jRguzgrQ3x1LumVDz6xEZQSQDQxHNqNBN0zV
-QpyDTJZkp0A0cQbjqF4mb708T/EH/g==
-=vv3X
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFVymcACgkQJNaLcl1U
+h9ALQgf9Edhr1aiOAuMQOZ4HOnKFdOCx/5df16M4DJL5U+GE9bjnu1pOqpazsjvA
+7j0kM9cEit+6q/e6vEgANU5KRBFqkuD8M754T7SvcnQMCEb8GqQ4vBVFuuGXMa5T
+MGewZnXZ+Fm02i9MF389bSwYJM740NGYIsWb+HXTmhLf/KGMKR8hJ5oi9Gv6qSgG
+IGu0aUz4+vzHW2enSkpT1mBeXFYjdmMHxedMOAYLqEiabGyNgn9Vg5rtxgsHDnud
+CMaf0gYY7U+J370adqzcu4dy/Ux+BP6W+QiyFySMZTcMHDrgcbjwqloTae6u5eES
+ylsPK4ZjNRF3bKpoqo7smk9ckn6ahg==
+=V5fM
 -----END PGP SIGNATURE-----
 
---===============6048958523169357865==--
+--===============4345250844367371178==--
