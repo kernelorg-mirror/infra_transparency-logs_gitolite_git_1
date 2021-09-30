@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 30 Sep 2021 18:56:09 -0000
-Message-Id: <163302816966.9884.9173456619824545401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Thu, 30 Sep 2021 19:11:57 -0000
+Message-Id: <163302911785.18772.11329498266515684780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 28f08c3dc673d5c3f83fda3af11eab85d82842af
-    new: d91db9b878c32d8a746d69b30925174081c951d4
-  - ref: refs/heads/linux-next
-    old: 797f055c88781e1898381f207a6fd80fc9102ddf
-    new: d91db9b878c32d8a746d69b30925174081c951d4
-  - ref: refs/heads/testing
-    old: 797f055c88781e1898381f207a6fd80fc9102ddf
-    new: d91db9b878c32d8a746d69b30925174081c951d4
+  - ref: refs/heads/main
+    old: 0a999aeb41364acace8c9e2ac98eb648278c7653
+    new: 0efa31d4416e10b37336d5df595341a658fdd29c
+    log: |
+         0efa31d4416e10b37336d5df595341a658fdd29c tuna: Remove argument requirement for config_file_list option
+         
