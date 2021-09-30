@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Sep 2021 12:07:58 -0000
-Message-Id: <163300367830.7890.15936869654062508680@gitolite.kernel.org>
+Date: Thu, 30 Sep 2021 12:08:19 -0000
+Message-Id: <163300369973.8054.7173297731138926975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 69508d43334e3b09c344f662272bcf24a5b508ed
-    new: 06059a1a9a4a58f139352c65b02989ea6077091a
+    old: 06059a1a9a4a58f139352c65b02989ea6077091a
+    new: 55b115c7ecd9440610a58967321d9a4dc52b5f0e
     log: |
-         85212a127e469c5560daf63a9782755ee4b03619 octeontx2-af: Adjust LA pointer for cpt parse header
-         06059a1a9a4a58f139352c65b02989ea6077091a octeontx2-pf: Add XDP support to netdev PF
+         55b115c7ecd9440610a58967321d9a4dc52b5f0e net: dsa: rtl8366rb: Use core filtering tracking
          
