@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 30 Sep 2021 15:24:00 -0000
-Message-Id: <163301544068.6099.18400431418201230701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 30 Sep 2021 15:34:44 -0000
+Message-Id: <163301608429.12072.16402684287444585477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next-test/kspp
-    old: 29b6166a9ead274958da70ff8ea5957948aaa5ed
-    new: 744679de4be987b1713af8f87ba1c1e116ad322d
+  - ref: refs/heads/for-kernelci
+    old: 2f38ab9bf173b13c47a49207a619f340dd29b3e5
+    new: 22f5d4d3157db2eacd080ab83e692834c1275739
     log: |
-         96648edaaae135af8f83ef6fdd5f1795ae92098f Merge branch 'kspp/hardening/options' into for-next/kspp
-         744679de4be987b1713af8f87ba1c1e116ad322d Merge branch 'for-next/gcc-plugins' into for-next/kspp
+         22f5d4d3157db2eacd080ab83e692834c1275739 fixup! ARM: implement support for vmap'ed stacks
          
