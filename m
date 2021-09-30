@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 30 Sep 2021 15:03:45 -0000
-Message-Id: <163301422574.25329.10810695440001109712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 30 Sep 2021 15:24:00 -0000
+Message-Id: <163301544068.6099.18400431418201230701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: 02579b2ff8b0becfb51d85a975908ac4ab15fba8
-    new: 1d625050c7c2dd877e108e382b8aaf1ae3cfe1f4
+  - ref: refs/heads/for-next-test/kspp
+    old: 29b6166a9ead274958da70ff8ea5957948aaa5ed
+    new: 744679de4be987b1713af8f87ba1c1e116ad322d
     log: |
-         1d625050c7c2dd877e108e382b8aaf1ae3cfe1f4 nfsd: fix error handling of register_pernet_subsys() in init_nfsd()
+         96648edaaae135af8f83ef6fdd5f1795ae92098f Merge branch 'kspp/hardening/options' into for-next/kspp
+         744679de4be987b1713af8f87ba1c1e116ad322d Merge branch 'for-next/gcc-plugins' into for-next/kspp
          
