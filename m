@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Sep 2021 01:59:36 -0000
-Message-Id: <163296717606.18807.14090556082850625700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 30 Sep 2021 02:17:13 -0000
+Message-Id: <163296823393.29622.5910208100299870197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: ef91abfb20c743c0cbe98e4351cd0ce05c81340a
-    new: 69508d43334e3b09c344f662272bcf24a5b508ed
+    old: c9af088bc9f52b58c8ee68d96403b48c8da9964b
+    new: 203e4c2624493c0db8c69c9ad830090c5b79be67
     log: |
-         69508d43334e3b09c344f662272bcf24a5b508ed net_sched: Use struct_size() and flex_array_size() helpers
+         203e4c2624493c0db8c69c9ad830090c5b79be67 t/io_uring: store TSC rate in local file
          
