@@ -1,53 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6176483114269668934=="
+Content-Type: multipart/mixed; boundary="===============3732510816218160057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 30 Sep 2021 08:12:23 -0000
-Message-Id: <163298954318.23973.16712187189217578304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Thu, 30 Sep 2021 08:12:25 -0000
+Message-Id: <163298954597.24090.8125798378559047978@gitolite.kernel.org>
 
---===============6176483114269668934==
+--===============3732510816218160057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: eballetbo
 changes:
-  - ref: refs/tags/v5.10.70
-    old: 0000000000000000000000000000000000000000
-    new: 3fb4f61dc3307eedb69425c8c20f1c71bc17ffad
+  - ref: refs/heads/for-kernelci
+    old: 0ec624e1745ba7070c8f28826969fcc0417aa6c7
+    new: a5825523024a426bd32409ebf7a9a972d6a97e84
+    log: revlist-0ec624e1745b-a5825523024a.txt
 
---===============6176483114269668934==
+--===============3732510816218160057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0ec624e1745b-a5825523024a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1632989542 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1632989541-f1b62d50e021c2edcf2b27673faada67ac268f29
+eb057514ccca92d44f37be057152c7d2791cdae0 platform/chrome: cros_ec: Fix spelling mistake "responsed" -> "response"
+67ea0239fb600dd6aa11d97c08b4356696947d18 platform/chrome: cros_usbpd_notify: Rename cros_ec_pd_command()
+7101c83950e629b83f9d827f288063e52074a6ea platform/chrome: cros_usbpd_notify: Move ec_command()
+5d122256f4e5900f7f8de5d8787af570314f6701 platform/chrome: cros_ec_proto: Make data pointers void
+4f1406396ed4d97518b8112327bdaf14fc9d4090 platform/chrome: cros_ec_proto: Add version for ec_command
+fb75686bed1ac0b3d16055456625f4102100b64a platform/chrome: cros_ec_typec: Use cros_ec_command()
+8969d134ee5d21863ce0a6440c3a1a62d65ad830 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+df1a014e0c6916ddaedd17c30934e3c936cd2570 KERNELCI: Revert "spi: mediatek: fix build warnning in set cs timing"
+c7e0eaddb216268fbb289872fee12b0d7596fe57 KERNELCI: Revert "spi: modify set_cs_timing parameter"
+5ff1ac2d2f282ec0ad7b7bfce728cbbe348cc23d KERNELCI: Revert "drm/mediatek: Clear pending flag when cmdq packet is done"
+b1d6a1e6b4ba80667bd4cf5f6b08a5ad29640336 KERNELCI: Revert "drm/mediatek: Add cmdq_handle in mtk_crtc"
+ca3e58b132324eeb79351dafe7c6f25c31097289 KERNELCI: Revert "drm/mediatek: Detect CMDQ execution timeout"
+546219324530453e16261d27c4f2c76dd8dec6cd KERNELCI: Revert "drm/mediatek: Remove struct cmdq_client"
+a5825523024a426bd32409ebf7a9a972d6a97e84 KERNELCI: Revert "drm/mediatek: Use mailbox rx_callback instead of cmdq_task_cb"
 
-0000000000000000000000000000000000000000 3fb4f61dc3307eedb69425c8c20f1c71bc17ffad refs/tags/v5.10.70
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFVcWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fPIQAKfLY8C2k1auQN96TkJh
-vTtj66YEAtSnx/7n1elwcTvpzRHxVENKqiQm/W09+cSjJKbqEHjwiv+9AV3+xCXy
-fpDbA8clhPZ6bkZK4HUTBhjxPm3fhbjEwWarctDGGxTjbcLUM96WVjDmDN+e27N0
-gRXQdVX8JtI20ZNwj5tR4t6lAE04r8H/Yg10J/Qmlpzyj0Uqeq5ExoqSwEkIYnF5
-9ELJgEhmLjrw/ideP4cGjy1l8Z3SdD7yLvu02B4KjhDtGeGmDtYSSkrbSqWY2Z9N
-qx5Cv9XcQFY8pOj2wo1+Rlc0kotpoW4bKQBX7UzfWSwE5X2qlgcp/z8dL/zz6VAC
-c3CPZs0UXxF3WXqK+AKhlUdXsnfrC9bKcbqQ2MfIYgxTnYz4upOPUgUoQNRxhp6i
-rgAxQtRt4obBk03byoADLxcfU2r0A0GLKamFulvaPPTmX17jNFNJMnvWWvPtUQ8e
-NhC85VYYIZFoMXsP8zj3O4WSWpuhYvLBWYLBRxaHHkruECrTrtRZuDZMQxKkoMRW
-E9EB0RGS9u+RlIsi1cBzKdnwK8NWstS7IpS9nHSNiajc1ZLtk1u1QEOX2jNslt7p
-BlWzT4ogYkBbcTSeZvC6Mim27Dl9ZZS/di11m0XuZazo/8rdDVCrXkGhBlnuMziG
-i2AJtuzCgySA57slKG+r3di5
-=hiKl
------END PGP SIGNATURE-----
-
---===============6176483114269668934==--
+--===============3732510816218160057==--
