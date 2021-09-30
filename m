@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 30 Sep 2021 11:46:50 -0000
-Message-Id: <163300241032.26721.17702120554006116721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Thu, 30 Sep 2021 11:49:49 -0000
+Message-Id: <163300258978.28944.5352998257648179489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 5a48ff48b76f9393f0cb9de711725dd082fc4fe0
-    new: 64052e7fbb0939475fe21cc017bdc3573fe175bc
+    old: a144fbf35b84e54f5980bfd28cf17892a569e84e
+    new: bf7cf1ccbccca37af47714abdc4eb070b8b337c2
     log: |
-         1d775cc371620caa12cb404771edbab944b1caba ARM: dts: exynos: remove unneeded DVS voltages from PMIC on Arndale
-         7ec804d6025c952e3122ad7fe768178efca3300e ARM: dts: exynos: use spaces instead of tabs around '='
-         64052e7fbb0939475fe21cc017bdc3573fe175bc Merge branch 'next/dt' into for-next
+         13f995ceb4e0d669e293aedaaaea07e7b8a5792a memory: brcmstb_dpfe: Allow building Broadcom STB DPFE as module
+         bf7cf1ccbccca37af47714abdc4eb070b8b337c2 Merge branch 'mem-ctrl-next' into for-next
          
-  - ref: refs/heads/next/dt
-    old: 06cf9e0b1aae8ff4f4cee39126a415b2b173b986
-    new: 7ec804d6025c952e3122ad7fe768178efca3300e
+  - ref: refs/heads/mem-ctrl-next
+    old: 6b20a5d173cd5647f0bb1ac8796264b70c377d79
+    new: 13f995ceb4e0d669e293aedaaaea07e7b8a5792a
     log: |
-         1d775cc371620caa12cb404771edbab944b1caba ARM: dts: exynos: remove unneeded DVS voltages from PMIC on Arndale
-         7ec804d6025c952e3122ad7fe768178efca3300e ARM: dts: exynos: use spaces instead of tabs around '='
+         13f995ceb4e0d669e293aedaaaea07e7b8a5792a memory: brcmstb_dpfe: Allow building Broadcom STB DPFE as module
          
