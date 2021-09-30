@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 30 Sep 2021 02:50:03 -0000
-Message-Id: <163297020359.18756.2001072499794853184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 30 Sep 2021 02:51:49 -0000
+Message-Id: <163297030933.20040.13829637835505402589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/block-5.15
-    old: ebc69e897e17373fbe1daaff1debaa77583a5284
-    new: 41e76c6a3c83c85e849f10754b8632ea763d9be4
-    log: |
-         41e76c6a3c83c85e849f10754b8632ea763d9be4 nbd: use shifts rather than multiplies
-         
+  - ref: refs/tags/qcom-drivers-fixes-for-5.15
+    old: 0000000000000000000000000000000000000000
+    new: 3c76baad169e83729077e349c0492f62f430fb9b
