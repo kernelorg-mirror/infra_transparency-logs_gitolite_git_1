@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 30 Sep 2021 10:31:05 -0000
-Message-Id: <163299786585.13058.11925443738885902383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 30 Sep 2021 10:49:54 -0000
+Message-Id: <163299899459.23971.2381254808441708446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/for-kernelci
-    old: a20be68ff0d613e43635532186821b9633d87a16
-    new: 2f38ab9bf173b13c47a49207a619f340dd29b3e5
+  - ref: refs/heads/for-next
+    old: 9ba533eb99bb2acf8b2268c6f48dcf73e1e47753
+    new: 5ce39985c60418579fab1d4ee81427d12bf9e64f
     log: |
-         2f38ab9bf173b13c47a49207a619f340dd29b3e5 fixup! ARM: implement support for vmap'ed stacks
+         5ce39985c60418579fab1d4ee81427d12bf9e64f power: supply: core: Move psy_has_property() to fix build
          
