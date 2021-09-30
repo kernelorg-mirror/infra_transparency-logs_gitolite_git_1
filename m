@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 30 Sep 2021 19:37:35 -0000
-Message-Id: <163303065503.2626.12430333130762642357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 30 Sep 2021 19:56:51 -0000
+Message-Id: <163303181187.15185.6624444300241247418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/kspp/alloc_size/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: fa22060e42ee597aa6cfa718d50570d0d6889e67
+  - ref: refs/heads/master
+    old: 60edfad4fd0b6e3264e237f2aa8732f8e195405a
+    new: 4d51fb04c3c4a9b3b80f537385bdceb20e773767
+    log: |
+         4d51fb04c3c4a9b3b80f537385bdceb20e773767 Bluetooth: btrtl: Add support for MSFT extension to rtl8821c devices
+         
