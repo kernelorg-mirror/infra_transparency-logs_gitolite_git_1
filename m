@@ -1,214 +1,133 @@
-Content-Type: multipart/mixed; boundary="===============4685469147181555932=="
+Content-Type: multipart/mixed; boundary="===============1950420606294869060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 30 Sep 2021 08:15:40 -0000
-Message-Id: <163298974065.11506.2182804419797640148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Thu, 30 Sep 2021 08:27:53 -0000
+Message-Id: <163299047357.23472.7310523548357884181@gitolite.kernel.org>
 
---===============4685469147181555932==
+--===============1950420606294869060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: cf4936a6cfe49f2c715dc70eec09cf05db53f239
-    new: 3a7374d64da1d247765424c082c8c5a36cce6013
-    log: revlist-cf4936a6cfe4-3a7374d64da1.txt
-  - ref: refs/heads/queue/4.19
-    old: 70c864657022bfd8b35a7211902c851d2cf653a2
-    new: 875c7e1e11e4668fb29ba28337937c6af79d9fe6
-    log: revlist-70c864657022-875c7e1e11e4.txt
-  - ref: refs/heads/queue/4.4
-    old: b201950cd7fcf470d9c2ed010d097a7d2d48b5b5
-    new: f1d8da39d755c11ced103b37e849effd42087c58
-    log: revlist-b201950cd7fc-f1d8da39d755.txt
-  - ref: refs/heads/queue/4.9
-    old: 176f65773fe4f1fc085bb7f4843e89ecca8c0dec
-    new: c481e9eb55f9d35afeef51f620b5080ff9eea569
-    log: revlist-176f65773fe4-c481e9eb55f9.txt
+  - ref: refs/heads/queue
+    old: ae70745f791597e1368a67ea3da659d594400f68
+    new: 35b330bba6a743013f23bdf42c4791b2b805e270
+    log: revlist-ae70745f7915-35b330bba6a7.txt
 
---===============4685469147181555932==
+--===============1950420606294869060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf4936a6cfe4-3a7374d64da1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3b4db5e828f908ca4da0b031b6a2d49276b096ca ocfs2: drop acl cache for directories too
-5ec076ce83bad1c3a13e508e52af3773ddb27c90 usb: gadget: r8a66597: fix a loop in set_feature()
-0d82a9cc8122908c334efe1a4149abc9ed255d9d usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-0c1017f4bf6d0726f0304b4ccb3a9a7563654912 cifs: fix incorrect check for null pointer in header_assemble
-31232ef86f4f6ffddf5bb8fd1626872ddda0df7f xen/x86: fix PV trap handling on secondary processors
-3a91260719277039cbb4a9d804d8d784fb9c6266 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-29c57d7a1ed7e99e21baa257a1d73ff16dbbf60c USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-836ddd2e5a2646a2a2270f80c9648659e7d994b7 staging: greybus: uart: fix tty use after free
-d626da0c9342021428f817a8f72d951f1f2948e3 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-5e81eb890817f9800a74261bf5f1ba0fffb6832d USB: serial: mos7840: remove duplicated 0xac24 device ID
-fce4b4c102cf65f1048511cca473472455af4c14 USB: serial: option: add Telit LN920 compositions
-20ce2342bb01f28ab9ee3e3873ce4a5eb2483559 USB: serial: option: remove duplicate USB device ID
-4076536c21c9600c79d894fbb57a3c164deeea39 USB: serial: option: add device id for Foxconn T99W265
-e086372d0f5ed48bb9adb732b163370cc51e2ed6 mcb: fix error handling in mcb_alloc_bus()
-d2ee9ac07489cde0753e84b2c59f263eefc9a366 serial: mvebu-uart: fix driver's tx_empty callback
-17d13eeabe3d5944e92f032c5904ccf95ed076e8 net: hso: fix muxed tty registration
-5410b85b0f2e2b7577eb8990adfa9eee8c7a2c02 bnxt_en: Fix TX timeout when TX ring size is set to the smallest
-e95dc34d463a768c7c45327b2d42ef1b6516af16 net/mlx4_en: Don't allow aRFS for encapsulated packets
-0849bfab406bb9f1b4ae310a052ce28327758295 scsi: iscsi: Adjust iface sysfs attr detection
-e658afcab2802406b6033b9b7296f4c6fafaedf5 thermal/core: Potential buffer overflow in thermal_build_list_of_policies()
-2dcc090dbfb2fca7fce80fdc41aa5d5f0025da4b irqchip/gic-v3-its: Fix potential VPE leak on error
-6d6919198210d1b39e2d821ce420114b8569ece0 md: fix a lock order reversal in md_alloc
-610a08fda5f6311ad33d2a8530207dcc7a6003c9 blktrace: Fix uaf in blk_trace access after removing by sysfs
-232044464cd9b4cea605fa18d7cd635881a195b7 net: macb: fix use after free on rmmod
-00d907a0b26d3b93224d9cc1a5907841b70819db net: stmmac: allow CSR clock of 300MHz
-a2d2517788221bc02c2e37a3a1cf009be9c73959 m68k: Double cast io functions to unsigned long
-48b88dfd94c89963ac461e6ff29ab7a35f621b22 xen/balloon: use a kernel thread instead a workqueue
-2692bba479a9253ba2bde79521e658a636994c96 compiler.h: Introduce absolute_pointer macro
-78c6fa97a76d169fde8c004a06a6eb965f7a50a5 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
-560f5acd53488864c3a51f30e2594bdb5e6606b8 sparc: avoid stringop-overread errors
-f500c1cb34f347dab75571ce9e03b9d2b354dc99 qnx4: avoid stringop-overread errors
-2869f515fdc7dccff50ef1f398816ffaac25218c parisc: Use absolute_pointer() to define PAGE0
-9c088d24e8b22e11ed2d28674744dbc8572b3c00 arm64: Mark __stack_chk_guard as __ro_after_init
-ab728dd3eb6e4aa989bd968a3edf0da93b5ad4c1 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
-3965b22dd3c5ff8e9a2cffab49b95244d60cef54 net: 6pack: Fix tx timeout and slot time
-ec0fddacfe9d804b37a23074f266ace2acc84a5d spi: Fix tegra20 build with CONFIG_PM=n
-fc9ddffd4f3a87afcc9860261e52ccc6f01cb88c arm64: dts: marvell: armada-37xx: Extend PCIe MEM space
-fc772c6365a1bd2b008f079e18aa996d7721b152 PCI: aardvark: Fix checking for PIO Non-posted Request
-3da4fa888c54892a3f0cefb726a6e2a390d07412 PCI: aardvark: Fix checking for PIO status
-789fb0a86aa74955d1b14d0f7af12222ece7d6b3 xen/balloon: fix balloon kthread freezing
-3a7374d64da1d247765424c082c8c5a36cce6013 qnx4: work around gcc false positive warning bug
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1632990471 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1632990470-10220f2a7939d719ad7e23165a87d1f27132f28e
 
---===============4685469147181555932==
+ae70745f791597e1368a67ea3da659d594400f68 35b330bba6a743013f23bdf42c4791b2b805e270 refs/heads/queue
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmFVdQcUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNWbgf+JlGorcXp72v50IBEwHpmACGIY2JL
+Jgm89i96GuVteTZhiotWkEJjOF1MNgStMEI0VEGUyDy3mAHzCiRYQYcZ0Q3kdtHk
+3IhBriO5RZsABXyIF3/aFehtdwfnXaWp61rZUYjv/x0fpR6kDUvsyKmkrlZ1TFj/
+HfTD+IVmprGCPGpdiWfCi+EspjGefPxxHFlzSEZrH8u7yeI30njZu+olAd9ls6GX
+px8jfUspMlgGiMYSybexDv8ILT59sVQjoeZN+f8HKpgV5M+Si1QrWVQ5+76cK6aG
+lSnvIQoktCm9kVyaRRzQt8+MTfbzGyqWgoi6QO7Ve62/udEaGvv8CiyDrg==
+=QJGJ
+-----END PGP SIGNATURE-----
+
+--===============1950420606294869060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70c864657022-875c7e1e11e4.txt
+Content-Disposition: attachment; filename=revlist-ae70745f7915-35b330bba6a7.txt
 
-2e95b108948c106b626b5b9eed4ec33557d9c21d ocfs2: drop acl cache for directories too
-990c14027774a93365509e146f01678ad4a8868d usb: gadget: r8a66597: fix a loop in set_feature()
-5c1f309d8781dea0f90cb1f49df60b5cae86e503 usb: dwc2: gadget: Fix ISOC transfer complete handling for DDMA
-6b3a7772fdfeabaec530fac3daa12b3d4c31dc74 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-cf1d7d86154e55d698ca0fb79968bab70ad82236 cifs: fix incorrect check for null pointer in header_assemble
-8c46f06ff0b77ae6097dc7c4ae11946863ae1604 xen/x86: fix PV trap handling on secondary processors
-88e615fd2190b01152b50896cc65b95422d18227 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-90f0070d74b62cec84f53d82dad05b396f0d02ee USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-ce11335251a2bfa5bdd6c59f305981bb52717491 USB: cdc-acm: fix minor-number release
-216b9d316ae099f671ec4da844dc55293f121875 staging: greybus: uart: fix tty use after free
-e9df2006b75cadae21c6360c195a7e239a5a8773 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
-8fabb612442a1aaaae9de701b02fba43e86a7120 USB: serial: mos7840: remove duplicated 0xac24 device ID
-51f7f3f40de6ad96c23e4f992a0bb221af4f4c9b USB: serial: option: add Telit LN920 compositions
-4a5869aafafba099cb1ce9b87b987ffed4087c30 USB: serial: option: remove duplicate USB device ID
-c33c0d9d841293f8a204b66fb6e4aa1156dd19b0 USB: serial: option: add device id for Foxconn T99W265
-f80dfab533e66cbe8f0f36532ed3165812e46293 mcb: fix error handling in mcb_alloc_bus()
-34a2e42aa4fb26768a66938ac80392a58befa5e3 serial: mvebu-uart: fix driver's tx_empty callback
-8e836b0bb01477f7c3e8645794266e2a4ae1943a net: hso: fix muxed tty registration
-e1df72c0bb9f7896a36aa462799262dcc7379aca bnxt_en: Fix TX timeout when TX ring size is set to the smallest
-92c676e5f2f45d4fbd0f6c780730389177ab8b3a net/smc: add missing error check in smc_clc_prfx_set()
-13b87f049477a3f80853940a654bfb3a5c8eb88d gpio: uniphier: Fix void functions to remove return value
-d2a527bdc787f245fda01de47311e889c7df5992 net/mlx4_en: Don't allow aRFS for encapsulated packets
-c48e207190f439af0f624d4f0c80c61a45ffa84a scsi: iscsi: Adjust iface sysfs attr detection
-4a24a1163f2dcc22c667e43568168937ce2cea65 tty: synclink_gt, drop unneeded forward declarations
-8f472a82064022b1b0a57a6221dbfc7c79772481 tty: synclink_gt: rename a conflicting function name
-10461f848d52addc8b423350382fd1c013167e27 fpga: machxo2-spi: Return an error on failure
-430d02f00d83e367b1ec5472d3df880e98aab508 fpga: machxo2-spi: Fix missing error code in machxo2_write_complete()
-c5e4f6773996db3cc38c42afe100c7ebd0343ce5 thermal/core: Potential buffer overflow in thermal_build_list_of_policies()
-2cfefd0ce9c31f0438102640b061939fb11d9e13 irqchip/goldfish-pic: Select GENERIC_IRQ_CHIP to fix build
-e6adb08cee6619b428d6ffb5cf814569e8c9259d irqchip/gic-v3-its: Fix potential VPE leak on error
-206a1ec43745358e8e07d45e5b329b341ac20cbc md: fix a lock order reversal in md_alloc
-652ff9db856da5846917e6e1deea032e1d90119e blktrace: Fix uaf in blk_trace access after removing by sysfs
-dc4cd1af58337912f2a8f542e80b9ab8dbf4947f net: macb: fix use after free on rmmod
-c0b7d3065b2b063084a7e68d2d4f47de2f7ad613 net: stmmac: allow CSR clock of 300MHz
-ec08e8295a0b3e45ff7b5d085483dceb2858da68 m68k: Double cast io functions to unsigned long
-fa12fca40f5832bdf0a8e9d8afa678a0e47e0a75 xen/balloon: use a kernel thread instead a workqueue
-a710fbd949997a9640aa6cf21594756919a25547 nvme-multipath: fix ANA state updates when a namespace is not present
-5d04af33ca381cae1ace37744c1ae61b62c12264 compiler.h: Introduce absolute_pointer macro
-dccaff2d8c2d57a6b2beae0e68611fdf174db178 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
-12bcc913acb3aacb2d42232c2f37516509999462 sparc: avoid stringop-overread errors
-71499399cebd08db1137f66302ba0a06581ec885 qnx4: avoid stringop-overread errors
-51d5dda0f50f8640d32a9ec9d772be805680d5b2 parisc: Use absolute_pointer() to define PAGE0
-bffd63241f9ca87e37972621634390b450e5aabd arm64: Mark __stack_chk_guard as __ro_after_init
-459260a808d9609b962e2fdfebc6a6fa15157783 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
-8cfbebefcdbec343ee50f2e8bcd7ece156139f6d net: 6pack: Fix tx timeout and slot time
-895414d2b57c212bef66aa352e08acce6c8449dd spi: Fix tegra20 build with CONFIG_PM=n
-b60aac2254bbc97d73423c16d907e71f01313241 erofs: fix up erofs_lookup tracepoint
-1bf3aec3148f3618efb8d203a4bf4ded76eedb1c arm64: dts: marvell: armada-37xx: Extend PCIe MEM space
-1350ef0ba841548ff9908fe89497c4e20be2ce0d PCI: aardvark: Fix checking for PIO status
-decea87ed332bee90635842bdfbcf4aaf67111ee tcp: address problems caused by EDT misshaps
-52cc827c1c540f295e342e00fe71b59d77f0506f tcp: always set retrans_stamp on recovery
-2507c154ba3f42faaf0d2c6e50d2087141f60ea6 tcp: create a helper to model exponential backoff
-513459af49142a32281b72c6f9b0cd5c9a1edbee tcp: adjust rto_base in retransmits_timed_out()
-2e80cb43cdbf60b54c0790dadeacacb5e572fa2c xen/balloon: fix balloon kthread freezing
-875c7e1e11e4668fb29ba28337937c6af79d9fe6 qnx4: work around gcc false positive warning bug
+e8a747d0884e554a8c1872da6c8f680a4f893c6d KVM: x86: Swap order of CPUID entry "index" vs. "significant flag" checks
+7b0035eaa7dab9fd33d6658ad6a755024bdce26c KVM: selftests: Ensure all migrations are performed when test is affined
+64c785082c21a88d3c25c2b95f16fe29eb5ee862 KVM: nVMX: Use INVALID_GPA for pointers used in nVMX.
+feb3162f9debbbeee5b00ad5a4e776f826dd9161 KVM: nVMX: Reset vmxon_ptr upon VMXOFF emulation.
+11476d277e06bbd7e1ba3315e0cfc78f529be9e2 KVM: use vma_pages() helper
+6470accc7ba948b0b3aca22b273fe84ec638a116 KVM: x86: hyper-v: Avoid calling kvm_make_vcpus_request_mask() with vcpu_mask==NULL
+ae0946cd3601752dc58f86d84258e5361e9c8cd4 KVM: Optimize kvm_make_vcpus_request_mask() a bit
+381cecc5d7b777ada7cdf12f5b0bf4caf43bf7aa KVM: Drop 'except' parameter from kvm_make_vcpus_request_mask()
+baff59ccdc657d290be51b95b38ebe5de40036b4 KVM: Pre-allocate cpumasks for kvm_make_all_cpus_request_except()
+620b2438abf98f09e19802cbc3bc2e98179cdbe2 KVM: Make kvm_make_vcpus_request_mask() use pre-allocated cpu_kick_mask
+1e254d0d86a0f2efd4190a89d5204b37c18c6381 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+a1c42ddedf35dbf5f25ea0982ed6e226eef7a78c kvm: rename KVM_MAX_VCPU_ID to KVM_MAX_VCPU_IDS
+15cabbc259f254e7e3fe0243dfd9dfc9aeb85c06 KVM: x86: Subsume nested GPA read helper into load_pdptrs()
+94c641ba7a897f19f1b6e5d932c5629b93d8096c KVM: x86: Simplify retrieving the page offset when loading PDTPRs
+ff8828c84f9376a8c3040da16a88e2c39aa3a527 KVM: x86: Do not mark all registers as avail/dirty during RESET/INIT
+5ebbc470d7f33e8fba6bdb2ac8e62c49cec99108 KVM: x86: Remove defunct setting of CR0.ET for guests during vCPU create
+e8f65b9bb4832028cdbd5927ddb67f66c6ccdd27 KVM: x86: Remove defunct setting of XCR0 for guest during vCPU create
+583d369b36a90753d8b169f041b39078ac4e1633 KVM: x86: Fold fx_init() into kvm_arch_vcpu_create()
+d06567353e129b460978353cbe2210c23467d6f8 KVM: VMX: Drop explicit zeroing of MSR guest values at vCPU creation
+06692e4b8055cc0c6b136fa7df77221ae9639e97 KVM: VMX: Move RESET emulation to vmx_vcpu_reset()
+9ebe530b9f5da89f9628923348db767e5d497e7b KVM: SVM: Move RESET emulation to svm_vcpu_reset()
+62dd57dd67d74ff5bfdfc28260a35cc4a31babb3 KVM: x86: WARN on non-zero CRs at RESET to detect improper initalization
+25b9784586a41f1fccc4d2cf7f210252b9df149c KVM: x86: Manually retrieve CPUID.0x1 when getting FMS for RESET/INIT
+d22869aff4dc8fbbb694c6fe9a4b5db2d570a138 kvm: selftests: Fix spelling mistake "missmatch" -> "mismatch"
+22d7108ce47290d47e1ea83a28fbfc85e0ecf97e KVM: selftests: Fix kvm_vm_free() in cr4_cpuid_sync and vmx_tsc_adjust tests
+c6cecc4b9324b97775d7002a13460c247f586e8e KVM: x86/mmu: Complete prefetch for trailing SPTEs for direct, legacy MMU
+bd047e54408910b5184e27fbfc880ad74c260c90 KVM: X86: Don't flush current tlb on shadow page modification
+06152b2dec3e264e9c8d2150d075d50faead8110 KVM: X86: Remove kvm_mmu_flush_or_zap()
+c3e5e415bc1e6c36315edf616c3329816e9f7393 KVM: X86: Change kvm_sync_page() to return true when remote flush is needed
+5591c0694d85b768c28e9d04c0138b8ff202bff6 KVM: X86: Zap the invalid list after remote tlb flushing
+cc2a8e66bbcd4b55e9012cb0447e9386dcb6367e KVM: X86: Remove FNAME(update_pte)
+f1c4a88c41ea04a7036409a37e17cf22a8dbe9e2 KVM: X86: Don't unsync pagetables when speculative
+8b8f9d753b84c243bf0b1004b515c53b7ec7e138 KVM: X86: Don't check unsync if the original spte is writible
+515a0c79e7963cc4556ca61516cc09d39e592712 kvm: irqfd: avoid update unmodified entries of the routing
+0226a45c468f72fe5e085d1cad571c42bff06cad KVM: x86: nSVM: don't copy pause related settings
+4c84926e229e0efdafa2756d7e6c4ae2fb0b7945 KVM: x86: SVM: add module param to control LBR virtualization
+912fd696981d8324a0935c2fcfb810c658d444e2 KVM: x86: SVM: don't set VMLOAD/VMSAVE intercepts on vCPU reset
+efe7f6d7d6ebd673882ce404034fbd3c51d2ebc2 KVM: x86: SVM: add module param to control TSC scaling
+d182da87f403c5f6fc4955adf2bd71422c81c675 KVM: x86: nSVM: implement nested TSC scaling
+827c26de9c687059f8fe78115141b1e60c716e32 KVM: X86: Move PTE present check from loop body to __shadow_walk_next()
+a11eff0f35deb457d474df201e918e7d5e6983b0 kvm: x86: abstract locking around pvclock_update_vm_gtod_copy
+32e638cf4486fd50db8ebe6754ba42077b054ee1 KVM: x86: extract KVM_GET_CLOCK/KVM_SET_CLOCK to separate functions
+3c95e9e735a7c166eaeaeb867768f527bfc968f4 KVM: x86: Fix potential race in KVM_GET_CLOCK
+5cd1f0bc0bbe802372d388551d369953b3bd8939 KVM: MMU: pass unadulterated gpa to direct_page_fault
+30dc3dfdbaaa66d2860cc95845f56a3d1f21cd08 KVM: MMU: Introduce struct kvm_page_fault
+4deac060dc28b9972ef80810058ee619713d444e KVM: MMU: change mmu->page_fault() arguments to kvm_page_fault
+92c24aee1e3154ba87458f455cd6f45096b2719d KVM: MMU: change direct_page_fault() arguments to kvm_page_fault
+69fa94fa1b5e3fdc5d1de550221d5a3cf3a495fd KVM: MMU: change page_fault_handle_page_track() arguments to kvm_page_fault
+8e67b082d00e3506a0b81156a3d62a1c9b9cb45d KVM: MMU: change kvm_faultin_pfn() arguments to kvm_page_fault
+e695ee080264c15d520c946775ba682a180312ad KVM: MMU: change handle_abnormal_pfn() arguments to kvm_page_fault
+7682c06b78524cc48152cf13211f9eeb80e11c8f KVM: MMU: change __direct_map() arguments to kvm_page_fault
+161fd43170b0e06f8fdadc36044324466b296464 KVM: MMU: change FNAME(fetch)() arguments to kvm_page_fault
+172b731991180a97e8988dfe72e557b5314919d7 KVM: MMU: change kvm_tdp_mmu_map() arguments to kvm_page_fault
+8354fa96fcef2699a77c9cfeea02eed50d3d64c2 KVM: MMU: change tdp_mmu_map_handle_target_level() arguments to kvm_page_fault
+a38f5cc91636c6b071dda871eccf739ece96d1ca KVM: MMU: change fast_page_fault() arguments to kvm_page_fault
+ac12eee75a3875cc10ecf52deb1a05bd041b4a32 KVM: MMU: change kvm_mmu_hugepage_adjust() arguments to kvm_page_fault
+61f61af651c50968e095e0904380d46b01307b05 KVM: MMU: change disallowed_hugepage_adjust() arguments to kvm_page_fault
+caa24d5e0ff37eb68dd071f9bdb4288900af9cfa KVM: MMU: change tracepoints arguments to kvm_page_fault
+4c639f56be36edf71132c67b880e9df44f8e988e KVM: x86/mmu: Verify shadow walk doesn't terminate early in page faults
+d501fc6e9cc596003369c4b886faf496df71a093 KVM: x86/mmu: Fold rmap_recycle into rmap_add
+85ad279c8b62e7547d9b629c4a221727094f7de5 KVM: MMU: mark page dirty in make_spte
+2e67a85860a223595d06a9ff2f9e7c4caa3a5a55 KVM: MMU: unify tdp_mmu_map_set_spte_atomic and tdp_mmu_set_spte_atomic_no_dirty_log
+ef586d1e8848aa2b52d44bd089ae54818317bcc8 KVM: x86/mmu: Pass the memslot around via struct kvm_page_fault
+db6de0a2ad269b1ca23d0d76a8e5dcfebbc68c0b KVM: x86/mmu: Avoid memslot lookup in page_fault_handle_page_track
+715ad7adf32ad704815773368c9a2ef09926b242 KVM: MMU: inline set_spte in mmu_set_spte
+392cbfb3c076e8a3a4a8fe5a4da05ad124c715b3 KVM: MMU: inline set_spte in FNAME(sync_page)
+9b109ce27c8b11cd613acdfed745359f9a397ee2 KVM: MMU: clean up make_spte return value
+3af139319f56c2d09bbbcbd38249a1f26fc0c05e KVM: MMU: remove unnecessary argument to mmu_set_spte
+45575d3a8bd3293e07cb8af09cfd7eb08329305f KVM: MMU: set ad_disabled in TDP MMU role
+64629ad975ed224c13d7a9adef3375d86a973988 KVM: MMU: pass kvm_mmu_page struct to make_spte
+4bee07544d0c23c885b48640cb611a15b686946a KVM: MMU: pass struct kvm_page_fault to mmu_set_spte
+ba2bd1de365241464e43a3dae667fcdf9a155466 KVM: x86/mmu: Avoid memslot lookup in rmap_add
+09868303091d5954d897f5b039985ee26d294c5a KVM: x86/mmu: Avoid memslot lookup in make_spte and mmu_try_to_unsync_pages
+7d660912a67144ad79c2a031cd381209d3a29413 KVM: x86: Expose Predictive Store Forwarding Disable
+f3bc8bcd35f5a83326ebba2e47b140b05a8091be kvm: use kvfree() in kvm_arch_free_vm()
+395ef6d2909605f9bcf6c8e7ce6ba5bab6397ea4 nSVM: Check for reserved encodings of TLB_CONTROL in nested VMCB
+edf21cb4394628edfb96cb29c4b443f965f79385 KVM: x86: add config for non-kvm users of page tracking
+35b330bba6a743013f23bdf42c4791b2b805e270 KVM: x86: only allocate gfn_track when necessary
 
---===============4685469147181555932==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b201950cd7fc-f1d8da39d755.txt
-
-74cb8e8f4d0318724e5064197f27ba9276b07924 usb: gadget: r8a66597: fix a loop in set_feature()
-9ed30e64f288564ff8015a73c1a44ef301146977 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-c4351a9f20d73c1f228749403c331656f73adba4 cifs: fix incorrect check for null pointer in header_assemble
-f9f6f6692abbcab938d6046dd6f05be58d69e652 xen/x86: fix PV trap handling on secondary processors
-32b9b8499f24605110575733b64d0d79ec1b25d3 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-9ce84e40dd698e0c1551bae1ba84ec1fbc0b681a USB: serial: mos7840: remove duplicated 0xac24 device ID
-4e937b3a8056f9e525b6cc48360a9a3e17308e70 USB: serial: option: add Telit LN920 compositions
-08445cc35af40ea7506a78efb842af8d38d087d9 USB: serial: option: remove duplicate USB device ID
-cf92087b951941d572013692c7235fb9606bb3d4 USB: serial: option: add device id for Foxconn T99W265
-3f7990d2402d1da70aaab531610e715165e6bc01 net: hso: fix muxed tty registration
-2d2560371bce7600c56b07c71ffda6e36f84cd06 net/mlx4_en: Don't allow aRFS for encapsulated packets
-569e2b2d3895fee9d785eb883d29bd4065856245 scsi: iscsi: Adjust iface sysfs attr detection
-ed534077a7402f152eaabfd907206f07854fd767 blktrace: Fix uaf in blk_trace access after removing by sysfs
-9551b60001c8b0f873126ebec906430d84b52d01 m68k: Double cast io functions to unsigned long
-bf3729a557901a7c0ce8cee66f5744d4fd096da1 compiler.h: Introduce absolute_pointer macro
-9de9c218d1e03c85b53d3f79a3b22e2265662dc8 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
-d1d0bfb14103d6546fd3b0d7a4e7447dca02cfb4 sparc: avoid stringop-overread errors
-abf66299339f77e89214fa3c235c64905e43c25b qnx4: avoid stringop-overread errors
-6692c9ab588731c8e167a5c553e0a1ea4e1c5349 parisc: Use absolute_pointer() to define PAGE0
-73fd86b735e5adb4d7f6be1afaf857b9e1db0fd0 arm64: Mark __stack_chk_guard as __ro_after_init
-2575adfab615612788ac12a43e0cc784c2c152c2 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
-1f27fbb17b8ff8e5dc711dea8a2edd42879f82a7 net: 6pack: Fix tx timeout and slot time
-fb60386daff8a9bf8d4c48b693dca206a608e938 spi: Fix tegra20 build with CONFIG_PM=n
-f1d8da39d755c11ced103b37e849effd42087c58 qnx4: work around gcc false positive warning bug
-
---===============4685469147181555932==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-176f65773fe4-c481e9eb55f9.txt
-
-edabd6e976b39f8a6c15982f0de68ee2696df13b ocfs2: drop acl cache for directories too
-2ce4dd6903ca74210595deb49ddb536f1522fbbd usb: gadget: r8a66597: fix a loop in set_feature()
-f97d7f1f3c634dbc7ac1b8d2b43f0a09a402b3de usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-bce39cdc494f2b35bd8f86617cae36685f449c9f cifs: fix incorrect check for null pointer in header_assemble
-5587d23028f4e2cfe150596f40b25b80abb9caa5 xen/x86: fix PV trap handling on secondary processors
-136541f49f7049e597d91e0f7c13e4a05f94eea0 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
-02c558be2bd5798639804efb9b425189ef6f7ca4 USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-ecfd7023408c2a1e1269e74d3b1a0cf43754f5a4 staging: greybus: uart: fix tty use after free
-fd01b32f768228a9d9e8949db89883fb0438691a USB: serial: mos7840: remove duplicated 0xac24 device ID
-8e46ca60416693e85272a702066280e3b81d7cc2 USB: serial: option: add Telit LN920 compositions
-9230180208fcb2bc61ccb605289e2443beef6541 USB: serial: option: remove duplicate USB device ID
-0866a854f86a0c313ad5d712c69e436af6418776 USB: serial: option: add device id for Foxconn T99W265
-194f2a5bff243a6ece4809f3592cfd689cd5b7f0 mcb: fix error handling in mcb_alloc_bus()
-e2778e932fb7a59c969f7003dfcc27cda9cabcc4 serial: mvebu-uart: fix driver's tx_empty callback
-beaa8b15624129be04c6e562bf3148080a55dea3 net: hso: fix muxed tty registration
-409cd1a46203a859fe0092d5806bcfd07956b9ef net/mlx4_en: Don't allow aRFS for encapsulated packets
-4bda442e8c3570703a479e1de56134796a309376 scsi: iscsi: Adjust iface sysfs attr detection
-51a1afcaeea9bb91061f6f0ea9872f0cacfbb738 blktrace: Fix uaf in blk_trace access after removing by sysfs
-246e63d3e1b40babb609c53cc539f12a00d0a586 net: stmmac: allow CSR clock of 300MHz
-33b3d485989d29db936995c7db2de9eefbe21ca3 m68k: Double cast io functions to unsigned long
-4bc65ddead47fff6b32334cf35c3a29fa37e9f62 compiler.h: Introduce absolute_pointer macro
-1bb86d33704807d5eed1a183632916ce7f72e03b net: i825xx: Use absolute_pointer for memcpy from fixed memory location
-11c045edac84ebe8b9ca2e65a1f65820994d09dd sparc: avoid stringop-overread errors
-9ba805ad1f3b999ce7a96e5de886429058af97b9 qnx4: avoid stringop-overread errors
-6a701689a559b1644ec07132373e22940f02491b parisc: Use absolute_pointer() to define PAGE0
-4a745dbd59d1a618b32b06cecd6d8289d20b4578 arm64: Mark __stack_chk_guard as __ro_after_init
-1909e234ba4c2a2e9364d302dc685b6c0892f62c alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
-45f97f0c6256b4701733156222ccc14ea48123d1 net: 6pack: Fix tx timeout and slot time
-d8d8d833faaddb3ebeeec46391a91313f0b6616a spi: Fix tegra20 build with CONFIG_PM=n
-4bfd550a7de985153525c2b5522d6e808a55810c arm64: dts: marvell: armada-37xx: Extend PCIe MEM space
-c481e9eb55f9d35afeef51f620b5080ff9eea569 qnx4: work around gcc false positive warning bug
-
---===============4685469147181555932==--
+--===============1950420606294869060==--
