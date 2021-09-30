@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 30 Sep 2021 06:19:03 -0000
-Message-Id: <163298274353.18207.14251428505504666755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 30 Sep 2021 06:36:49 -0000
+Message-Id: <163298380945.28910.12859240951364544940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: ef91abfb20c743c0cbe98e4351cd0ce05c81340a
-    new: 69508d43334e3b09c344f662272bcf24a5b508ed
+  - ref: refs/heads/for-kernelci
+    old: 57dd45be3ab0dbcdc81818c3fc8ea05ed598942b
+    new: 27fe847b61510c77e8dc733a55d6fdaa65566f9e
     log: |
-         69508d43334e3b09c344f662272bcf24a5b508ed net_sched: Use struct_size() and flex_array_size() helpers
+         27fe847b61510c77e8dc733a55d6fdaa65566f9e fixup! ARM: implement support for vmap'ed stacks
          
