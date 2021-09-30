@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 30 Sep 2021 11:24:37 -0000
-Message-Id: <163300107706.13266.3178366549556263168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 30 Sep 2021 11:46:50 -0000
+Message-Id: <163300241032.26721.17702120554006116721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/next
-    old: f3e25dac04e146f40530f5c023dab2623c4d3f30
-    new: fb99597d255a370633b4a7582ba754f608b6c8dd
+  - ref: refs/heads/for-next
+    old: 5a48ff48b76f9393f0cb9de711725dd082fc4fe0
+    new: 64052e7fbb0939475fe21cc017bdc3573fe175bc
     log: |
-         e2845b1d92d758f229d0ead9c580322732d5f087 mmc: meson-gx: do not use memcpy_to/fromio for dram-access-quirk
-         6fd0f8a3beb1a8be44c4e550c017cd078727b379 Merge branch 'fixes' into next
-         22ea8ab0dcc4eb777293a406571bb0b03b7ef297 dt-bindings: mmc: arasan,sdci: drop unneeded clock-cells dependency
-         1488969a19bd00e1d1f50bd35e5f086784e11fb3 mmc: slot-gpio: Refactor mmc_gpio_alloc()
-         fb99597d255a370633b4a7582ba754f608b6c8dd mmc: slot-gpio: Update default label when no con_id provided
+         1d775cc371620caa12cb404771edbab944b1caba ARM: dts: exynos: remove unneeded DVS voltages from PMIC on Arndale
+         7ec804d6025c952e3122ad7fe768178efca3300e ARM: dts: exynos: use spaces instead of tabs around '='
+         64052e7fbb0939475fe21cc017bdc3573fe175bc Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: 06cf9e0b1aae8ff4f4cee39126a415b2b173b986
+    new: 7ec804d6025c952e3122ad7fe768178efca3300e
+    log: |
+         1d775cc371620caa12cb404771edbab944b1caba ARM: dts: exynos: remove unneeded DVS voltages from PMIC on Arndale
+         7ec804d6025c952e3122ad7fe768178efca3300e ARM: dts: exynos: use spaces instead of tabs around '='
          
