@@ -1,26 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 01 Oct 2021 18:27:18 -0000
-Message-Id: <163311283832.9177.6113664507331562365@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8331421735463322115=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
+Date: Fri, 01 Oct 2021 18:35:46 -0000
+Message-Id: <163311334657.14537.404232282802435193@gitolite.kernel.org>
+
+--===============8331421735463322115==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/pali/linux
+user: pali
 changes:
-  - ref: refs/heads/master
-    old: 24f67d82c43c9c594821ee1bc4367a23d89d9f8b
-    new: f5b667ded07569dd6e33885cffd35fd519cfc942
-    log: |
-         5c49d1850ddd3240d20dc40b01f593e35a184f38 KVM: VMX: Fix a TSX_CTRL_CPUID_CLEAR field mask issue
-         e02c16b9cd24925ea627f007df9ca9ee00eaaa62 selftests: KVM: Don't clobber XMM register when read
-         ad9af930680bb396c87582edc172b3a7cf2a3fbf x86/kvmclock: Move this_cpu_pvti into kvmclock.h
-         773e89ab0056aaa2baa1ffd9f044551654410104 ptp: Fix ptp_kvm_getcrosststamp issue for x86 ptp_kvm
-         e8a747d0884e554a8c1872da6c8f680a4f893c6d KVM: x86: Swap order of CPUID entry "index" vs. "significant flag" checks
-         7b0035eaa7dab9fd33d6658ad6a755024bdce26c KVM: selftests: Ensure all migrations are performed when test is affined
-         b2626f1e3245ddd810b69df86514774d6cb655ee Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-         f5b667ded07569dd6e33885cffd35fd519cfc942 thermal: Update information in MAINTAINERS
-         
+  - ref: refs/heads/pci-aardvark
+    old: 7ac1fc3a77cfc604242734241c23111e0d73b8b5
+    new: 731b4459f636e2c672d0ed44c277fef75705b8fe
+    log: revlist-7ac1fc3a77cf-731b4459f636.txt
+
+--===============8331421735463322115==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7ac1fc3a77cf-731b4459f636.txt
+
+86b297e8851a56678f87a47a309b29a8de602602 PCI: aardvark: Add clock support
+cca4154164af82711c18482b0d54d018c5748fda PCI: aardvark: Add suspend to RAM support
+7c7d9aba68d127212a27f11e1dd1003183afcd5d dt-bindings: PCI: aardvark: Describe the clocks property
+e22cc7df52393db6e5df94fa7e9d47c7fee5513c ARM64: dts: marvell: armada-37xx: declare PCIe clock
+b559e15ec6cdc42392b17ee921de5b7e9e3f4ebb PCI: aardvark: Rewrite irq code to chained irq handler
+ba8f9c713290978767e1994a07c583be62e132ff PCI: aardvark: Rewrite irq code to generic_handle_domain_irq()
+eb2926ee4e3000d2c936daed10565e9fd25d6f6b PCI: aardvark: Check for virq mapping when processing INTx IRQ
+065cffc59f1ce08f49fb69eb09b316adaf96625c PCI: aardvark: Remove irq_mask_ack callback for INTx interrupts
+4afecb3430fbf6142204ff106af7e13e3405654d PCI: aardvark: Don't mask irq when mapping
+3029127fbfc0f0a8858b19eb82fd59e69192bc29 PCI: aardvark: Change name of INTx irq_chip to advk-INT
+7f1dd12a1bee155e3b8feedbe006267198f1fe44 PCI: aardvark: Remove unneeded goto
+84d2e7edd28fba66c28bb5ae0e44b61c2663444c PCI: aardvark: Replace custom PCIE_CORE_ERR_CAPCTL_* macros by linux/pci_regs.h macros
+4cc43a153aa4ec1f040c87f9a2d97716b1421859 PCI: aardvark: Replace custom PCIE_CORE_INT_* macros by linux PCI_INTERRUPT_* values
+6dd84eb0174352a6cb97ede02617b1697a897467 PCI: aardvark: Cleanup some register macros
+1050138ec3fba35ef79a513be588bc5514d83fe1 PCI: aardvark: Run link training in separate worker
+82d6cc3faea18314201a0843417ddf098fa0bff9 PCI: aardvark: Rename reg variable
+524b1f97db2441a420c01edcb5b519ff510f1baf PCI: aardvark: Add macros for Root Compex ISR0 interrupts
+d464b664169df3231a17ae0137ecad39f1c4ef94 PCI: aardvark: Rename PCIE_ISR0_INTX_(DE)ASSERT macros to PCIE_ISR0_MSG_INTX_(DE)ASSERT
+cef97c06f3506c2d1c2b8501f2613d09d95e50d8 PCI: aardvark: Remove PCIE_CORE_CTRL0_REG macros not applicable for Root Complex
+731b4459f636e2c672d0ed44c277fef75705b8fe PCI: aardvark: Improve and optimize PCIe card reset code
+
+--===============8331421735463322115==--
