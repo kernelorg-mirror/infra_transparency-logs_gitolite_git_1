@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9128514144974505547=="
+Content-Type: multipart/mixed; boundary="===============6126293132039013727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 01 Oct 2021 16:53:01 -0000
-Message-Id: <163310718180.14075.14971504958111676240@gitolite.kernel.org>
+Date: Fri, 01 Oct 2021 17:12:11 -0000
+Message-Id: <163310833191.25550.9430641199608660752@gitolite.kernel.org>
 
---===============9128514144974505547==
+--===============6126293132039013727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: deae4a10f16649d9c8bfb89f38b61930fb938284
-    new: 41f65684f358e245d175c51610fe225df3d390ae
+  - ref: refs/tags/for-linus
+    old: 8a2dc07348eb02e93922d994a348a2b622cecb4b
+    new: 3fd5115a028749817dc94ec3fabf00e426da4618
     log: |
-         0d8826181b5b81d1d39acd00ee5bc99644a3da4f KVM: x86: Report host tsc and realtime values in KVM_GET_CLOCK
-         af348cbc410d3c209ba2a7d28d6b8f968ce8d465 kvm: x86: protect masterclock with a seqcount
-         2f1f82cc5a8696536eb23274689e4f3c4e6a0d35 KVM: x86: Refactor tsc synchronization code
-         f14cad69e1e0c8215f814e24a3aaa756abe94001 KVM: x86: Expose TSC offset controls to userspace
-         f8183ad35676daeb5b9ca38782932a216ce81615 tools: arch: x86: pull in pvclock headers
-         ead287b13faa4bf8eb0b9580afeec24daa503a2c selftests: KVM: Add test for KVM_{GET,SET}_CLOCK
-         22d3d564fefcb144639415bcfab55f2b0b422e37 selftests: KVM: Fix kvm device helper ioctl assertions
-         ed6ddeaeb8412562430af0bc2928b2f1f28c4e94 selftests: KVM: Add helpers for vCPU device attributes
-         41f65684f358e245d175c51610fe225df3d390ae selftests: KVM: Introduce system counter offset test
+         5c49d1850ddd3240d20dc40b01f593e35a184f38 KVM: VMX: Fix a TSX_CTRL_CPUID_CLEAR field mask issue
+         e02c16b9cd24925ea627f007df9ca9ee00eaaa62 selftests: KVM: Don't clobber XMM register when read
+         ad9af930680bb396c87582edc172b3a7cf2a3fbf x86/kvmclock: Move this_cpu_pvti into kvmclock.h
+         773e89ab0056aaa2baa1ffd9f044551654410104 ptp: Fix ptp_kvm_getcrosststamp issue for x86 ptp_kvm
+         e8a747d0884e554a8c1872da6c8f680a4f893c6d KVM: x86: Swap order of CPUID entry "index" vs. "significant flag" checks
+         7b0035eaa7dab9fd33d6658ad6a755024bdce26c KVM: selftests: Ensure all migrations are performed when test is affined
          
 
---===============9128514144974505547==
+--===============6126293132039013727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1633107177 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1633108330 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1633107177-4b9ec452b0abce3224406e89a0c7846f5c591bd6
+nonce 1633108330-412676132e7f39c81c5dbced89a61937a04de413
 
-deae4a10f16649d9c8bfb89f38b61930fb938284 41f65684f358e245d175c51610fe225df3d390ae refs/heads/queue
+8a2dc07348eb02e93922d994a348a2b622cecb4b 3fd5115a028749817dc94ec3fabf00e426da4618 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmFXPOkUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPYGgf/RWNzhYxHe1DZCEaBL+zA27bSvl6O
-ENzFe7vArtZMnictsiG+KbjpX4r4MloLgdzTLQorZ1K4qcvQ6HaPDQkDYkgLulYI
-J0U8UMLmCNJuW8JtDsfOAaBglJFX1xQrJog+SNyY66bzRF9OjbNkeoQoLQ0ClRP1
-H7Uy+HUsy1lIdHKA2Mrfni2CnDCGZXqIpYkU4y1Ily3ogc/6BDe/NnuWZLRFnQgk
-dMBcx651xz+3qgNcJyKTph0pirnm28vmoE9jlHLTsokFsLU0aZ0hutekdgXl1ojc
-zy/myLLRH+vMsT/6spS5YywSKNkNzsljpReGUW21/fmeRxAO/M90RJY/sA==
-=8rEP
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmFXQWoUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNL8wf+P1ib5oa8tZSL0AjuOcwoZ0lxT554
+shoRocrHKLmxbxDaqahsFUzFXP0WU/vJO3Zho8YQUZ90VAnj24fC1TR7SS2Or65u
+O0E4ybOAI+Bkk3lqMYVZBbJych159NL6hpfDUQPsvt7hwThbiLfatBdVzy3tKIO0
+R0aVfa7dOXZ5g4HaUfO8FgNHKqE2o6zm4cQ6GkaSZ3OKdCK29ZAZUxeHhKU9TJaU
+ygoqXuyMbBL+Ooj9oIU+/gRBWLF5bkPKR4CAiAnsYITVpdQgsrGJOk5SsRk7cGq0
+G4jwdRxL99VQxtrUes8T8Ao9m/Du5AdXA14W6YfroW6XqSBplbQOltjQLA==
+=6kfq
 -----END PGP SIGNATURE-----
 
---===============9128514144974505547==--
+--===============6126293132039013727==--
