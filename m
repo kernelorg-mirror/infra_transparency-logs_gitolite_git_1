@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 01 Oct 2021 15:02:28 -0000
-Message-Id: <163310054843.8091.17835340058934075968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 01 Oct 2021 15:05:22 -0000
+Message-Id: <163310072206.10360.13653512074728820294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/sched/core
-    old: eac6f3841f1dac7b6f43002056b63f44cc1f1543
-    new: 959fc676791b91088b96341b644b92c8c52c7455
+  - ref: refs/heads/master
+    old: 6bbc7103738f0e0871a9331351ee3cd4d462b431
+    new: 7bceeb95726b105bd4241c9635acc0836df675d4
     log: |
-         1bc687b27bac7fabcc2b0a1a8efad5cf875ac769 sched: Make cookie functions static
-         df89544263cd98ffcef1318b3bf18509b9420c8a sched: Move mmdrop to RCU on RT
-         92add3a897e9e923acde0f2c5e69705818076d69 sched: Limit the number of task migrations per batch on RT
-         e3865866752e1b9fd26383f548dea58334fe6eba sched: Disable TTWU_QUEUE on RT
-         d428aac9dff0a0d217f3449884ac958dbf3f232b sched: Move kprobes cleanup out of finish_task_switch()
-         579df3f2325191322b96906a5898462253a45ede sched: Remove pointless preemption disable in sched_submit_work()
-         959fc676791b91088b96341b644b92c8c52c7455 sched/fair: Removed useless update of p->recent_used_cpu
+         caaaa1667bf198c54cc3141ad92ca6ce853e99cd bpf/tests: Add tests of BPF_LDX and BPF_STX with small sizes
+         89b63462765cc0370f22ebec53d3e83cbbb17613 bpf/tests: Add zero-extension checks in BPF_ATOMIC tests
+         f68e8efd7fa506928432b8cd41b8c7d91d804e02 bpf/tests: Add exhaustive tests of BPF_ATOMIC magnitudes
+         0bbaa02b481682004cf812dbeca68272752a5e8a bpf/tests: Add tests to check source register zero-extension
+         e2f9797b3c7396065ca3bc9f223225ca63c1e2bd bpf/tests: Add more tests for ALU and ATOMIC register clobbering
+         e42fc3c2c40e0fb9d371c146dc8c0a70bee88a3c bpf/tests: Minor restructuring of ALU tests
+         daed6083f4fbcbb57da26d80f15365219ae793de bpf/tests: Add exhaustive tests of ALU register combinations
+         6fae2e8a1d9ee09e25aee6514b7544e059a8ee68 bpf/tests: Add exhaustive tests of BPF_ATOMIC register combinations
+         68813605dea69ca0af26af7dd00384c78c1df05d bpf/tests: Add test of ALU shifts with operand register aliasing
+         7bceeb95726b105bd4241c9635acc0836df675d4 bpf/tests: Add test of LDX_MEM with operand aliasing
          
