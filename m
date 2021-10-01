@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 01 Oct 2021 19:55:50 -0000
-Message-Id: <163311815018.968.4419561838526916792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 01 Oct 2021 19:56:02 -0000
+Message-Id: <163311816244.1103.12145784037304110969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: f62314b1ced25c58b86e044fc951cd6a1ea234cf
+  - ref: refs/heads/master
+    old: 336e3bfbf01657e3814a6a15596c15574b4335ee
+    new: ca4eefc1b55d7f9fc03bf113d63e3d0b2d7b38ae
     log: |
-         d8c23ead708b40a16413163f5f93e07fbd4f077d kunit: tool: better handling of quasi-bool args (--json, --raw_output)
-         f62314b1ced25c58b86e044fc951cd6a1ea234cf kunit: fix reference count leak in kfree_at_end
+         f5dbea71828d3d940e509daadee6ef15c60be0fd t/one-core-peak: Report numa as off if missing
+         22bb358e5b2d94db1267cb337864fafc1403dc77 t/one-core-peak: nvme-cli as optional tooling
+         ca4eefc1b55d7f9fc03bf113d63e3d0b2d7b38ae Merge branch 'evelu-fixes2' of https://github.com/ErwanAliasr1/fio
          
