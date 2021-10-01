@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1949220710218398276=="
+Content-Type: multipart/mixed; boundary="===============6893240992785647030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 01 Oct 2021 12:20:46 -0000
-Message-Id: <163309084664.1199.4313977970605302289@gitolite.kernel.org>
+Date: Fri, 01 Oct 2021 12:48:31 -0000
+Message-Id: <163309251199.16598.9332908596971103767@gitolite.kernel.org>
 
---===============1949220710218398276==
+--===============6893240992785647030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,69 @@ repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
   - ref: refs/heads/damon/next
-    old: 46e1c78a7b4a03d0c49f03d8db8c640f609d258c
-    new: 344d195355c3499b61423f6c6f3dfc80ab4e1bda
-    log: revlist-46e1c78a7b4a-344d195355c3.txt
+    old: 344d195355c3499b61423f6c6f3dfc80ab4e1bda
+    new: 3c5f0d3b75e8e06eb543d1ee90d608c9aca97714
+    log: revlist-344d195355c3-3c5f0d3b75e8.txt
 
---===============1949220710218398276==
+--===============6893240992785647030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46e1c78a7b4a-344d195355c3.txt
+Content-Disposition: attachment; filename=revlist-344d195355c3-3c5f0d3b75e8.txt
 
-91c15fcf0feae63fbe5bc5f84a1ff4b5e5cf86d2 drivers/power: Fix a build failure
-77df442eab30893d226f8f7ad8e527b15be46ee9 selftests/damon/debugfs_attrs: Add missing execute permission
-702a44e3533ef480e0e527676dd09af7aa959190 selftests/kselftest/runner/run_one(): Allow running non-executable files
-9cf307f30ee2d11abe384e80064deb336d308b62 for_damon_hack: Add files for DAMON hacks
-46195dbd70fc5855221bddc087e3c5a5264e097c (NOT FOR POSTING) Docs: Modify for DAMON only
-8fe9d86275315333be632566af97029fb7cf3a5d (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
-3a131510b91719bae64c32f37d7c2658459464ac (NOT FOR POSTING) Revert "Update for damonitor.github.io"
-bb538d50041af892b1901c511f54846495ddd6ba mm/damon/core: Account age of target regions
-666aae06723943d2f4d5d658ac6162d1edbe7728 mm/damon/core: Implement DAMON-based Operation Schemes (DAMOS)
-9de138882196edb0864260b7ce53ffa3917aa132 mm/damon/vaddr: Support DAMON-based Operation Schemes
-6bc0c8ae2507c9806dc280460227997b53a704b7 mm/damon/dbgfs: Support DAMON-based Operation Schemes
-bc4ed528f82b4616fccfad172daec4b0e6dc8ec1 mm/damon/schemes: Implement statistics feature
-9e76e35d3aa17caaee7d05227c1e19d943b7b785 selftests/damon: Add 'schemes' debugfs tests
-2423c1ffffd6e344ae4e4a3013acb6d9bed1cc7f Docs/admin-guide/mm/damon: Document DAMON-based Operation Schemes
-91c5f4f7d635b398c17322920a33475554f68cf9 mm/damon/dbgfs: Implement recording feature
-d7a35d8a7d151a65d27840707e0ec8696660fe25 Docs/damon/usage: Update for recording feature
-dded8468941aface91223439bdded15a96727770 mm/damon/dbgfs-test: Implement kunit tests for the record feature
-95f564cb80ff42219a022094c3a1bcce7825f9e2 selftests/damon: Test recording feature
-654a744b2d9e0c113096b4a6cbe1e288df883e68 (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
-0725419755216e58f4c1c9df854ad9ad55a2a4c3 (NOT FOR POSTING) Revert "Update for damonitor.github.io"
-65b4e13f7f30d08d739ec0cfcd70d76aae155063 damon/dbgfs: Allow users to set initial monitoring target regions
-ce31ebec904558749f8207822e97154073fbc151 (squash) mm/damon/dbgfs: Remove .owner
-0decd008c869334c849d3dfe88737e1a438636d8 damon/dbgfs-test: Add a unit test case for 'init_regions'
-e261ae058d18799be5432a74199713de9258538b selftests/damon/_chk_record: Do not check number of gaps
-8bd3ec779db7941a4d4b6f3dd29a9010c794d1ad Docs/admin-guide/mm/damon: Document 'init_regions' feature
-ea0fa1eec97af8e4f5811bcfef220fb7ee11a18c mm/damon/vaddr: Separate commonly usable functions
-a30f249fa61fd6cce3e6b087ab3265f61975c295 mm/damon: Implement primitives for physical address space monitoring
-b588db82a4873e2394e1b8fbfc69ad5f8ea9d8f7 damon/dbgfs: Support physical memory monitoring
-305603e879949599430ad3880147c3062a0b4156 Docs/DAMON: Document physical memory monitoring support
-11ad4a80565dc99db5fee73ef307789b447d7ad1 mm/damon/paddr: Separate commonly usable functions
-b81ee5f6491bded0f518ecb07f287290b7f6fd41 mm/damon: Introduce arbitrary target type
-b8bfef915a24d3c2afccd1cc8aeddf31ea20cdc6 mm/damon: Implement primitives for page granularity idleness monitoring
-f05f3f98267bcef9f16086a11a579d7ed29d8ba5 (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
-f2d7c1e8701c5199a3208409f4a74c78993dc14e (NOT FOR POSTING) Revert "Update for damonitor.github.io"
-6e25f6383c11c24780799159def8f45ca8be6c42 mm/damon/paddr: Support the pageout scheme
-a1c5b4781f8adf1d55a6915d969a9c2d40e37202 mm/damon/damos: Make schemes aggressiveness controllable
-ba3c88a78a6e72566c4a65f82ad781c77b421972 damon/core/schemes: Skip already charged targets and regions
-b7c2a9783c3035d53d14b4b50b26d58f3a7e0f8b mm/damon/schemes: Implement time quota
-32332db62ee3ee4969259a7486151cb0b6320bfb mm/damon/dbgfs: Support schemes' time/IO quotas
-61330d60d67a3b4d3ccc0ba40e58f21d2fc3b79d mm/damon/selftests: Support schemes quotas
-14505f60b5d19343882782f95991cb3166c6f678 mm/damon/schemes: Prioritize regions within the quotas
-a097609ce77e7f9f72849ba2987451724d164f5f mm/damon/vaddr,paddr: Support pageout prioritization
-c60a8c48b0217b5c0e963d10b5a8f71e1d5f962c mm/damon/dbgfs: Support prioritization weights
-81abcf63822d85573c109135146e4e2562087229 tools/selftests/damon: Update for regions prioritization of schemes
-2082662c400c4a5c8f82080cd5dbd0c4a6e18547 mm/damon/schemes: Activate schemes based on a watermarks mechanism
-f862ab6688989e42831694692ebe4af9ebbc7c22 mm/damon/dbgfs: Support watermarks
-9b59f4cf4afe564a0ec09a54652f43e6baa87c95 selftests/damon: Support watermarks
-9eb22f962e92e27e433a08f4b0d81a6d88c7605f mm/damon: Introduce DAMON-based reclamation
-9000b7b1147d5f645241823aeac7f605302bcc65 Documentation/admin-guide/mm/damon: Add a document for DAMON_RECLAIM
-0daafa912db7c99d9ca91b43c9d48f8f925791cc (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
-79e2f55b5f6668c1828ad9a5e0d1bcdc54231e33 (NOT FOR POSTING) Revert "Update for damonitor.github.io"
-d66fe4686806911f4d38ec2ebfdc445a9c74dc43 mm/damon/dbgfs: Introduce 'direct_scheme' feature
-ba2c390f048d1cdc4a0f5b77e2f391144854d73c tools: Introduce a minimal user-space tool for DAMON
-c8e1dc343b8023bed257dc2eadc46dd39ab3da1a tools/perf: Integrate DAMON in perf
-2655638fd2fa371ab41f7ac087a1df76e1396d39 (drop) mm/damon: Add debug code
-de14cd987e3f6331b6d83e9934f96cf6d2d5b86b ksummit_2021_demo/mm/damon: Export DAMON functions for ksummit live coding
-d95ba4eb7bbd4bd777af004fdab982fcd8e3dc77 ksummit_2021_demo: Implement backup DAMON application modules for ksummit21 live coding
-344d195355c3499b61423f6c6f3dfc80ab4e1bda ksummit_2021_demo: Add the live-coded code
+19cad51654b392196b781d049df1b45992dfa3f6 for_damon_hack: Add files for DAMON hacks
+0491ec9a95b9a2756baac947748fe024b0a0acc6 (NOT FOR POSTING) Docs: Modify for DAMON only
+93f0c970e0e0a2225f109cf155604d0465185a84 (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
+b217159903551c3848cc897575ee2ace0fee106d (NOT FOR POSTING) Revert "Update for damonitor.github.io"
+cab45c747b21a307921f6d2e4db3774ed564e687 mm/damon/core: Account age of target regions
+9019057024490dab77dd993c5925efe051fb1cf8 mm/damon/core: Implement DAMON-based Operation Schemes (DAMOS)
+d0ba62d5034bd2c77297dbf6a5ac7b8694cbc159 mm/damon/vaddr: Support DAMON-based Operation Schemes
+600a0f132305fcea2c1921dc486b0a6fb6920bdf mm/damon/dbgfs: Support DAMON-based Operation Schemes
+4ae9ae5ff7020aaf4320eb2b72492a90129d1ce3 mm/damon/schemes: Implement statistics feature
+0c623c7b7cf6723ecaaead4c1045433fe06a7a73 selftests/damon: Add 'schemes' debugfs tests
+b88aa14b4ff9afe63665dc39dbd6a331d6c3884f Docs/admin-guide/mm/damon: Document DAMON-based Operation Schemes
+3b4b00c34ab7f11f0674581a914f63497745bb97 mm/damon/dbgfs: Implement recording feature
+c23a36149f2b36f8b1a144be82a4f41e29359a47 Docs/damon/usage: Update for recording feature
+bab300fd098c8be08998c9fd206dbb37763952a7 mm/damon/dbgfs-test: Implement kunit tests for the record feature
+d7382dc7c5df36675679bfc744035bbb8a938024 selftests/damon: Test recording feature
+41b864c2eced64e2b560aa75b783ca362add0e9b (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
+caebbb8f3a6dd28a1b0bdf1ca4d4d731d624d5a6 (NOT FOR POSTING) Revert "Update for damonitor.github.io"
+7fc1987874ad4d23b574e2e22232a40c250d0cb5 damon/dbgfs: Allow users to set initial monitoring target regions
+659806056402a348144f1f8613ee7996f6500a17 damon/dbgfs-test: Add a unit test case for 'init_regions'
+39d7ea1b8550d6c699392d2b2b7acb45d4c0cab2 selftests/damon/_chk_record: Do not check number of gaps
+b282979ba6f896d8a6a7829e1675c364b9285480 Docs/admin-guide/mm/damon: Document 'init_regions' feature
+11ec5f0400b2f73a36341cb59b5c76ff408c3265 mm/damon/vaddr: Separate commonly usable functions
+5c0abde6e3a21d1edd3f9b88d3b5463e7d4ec90b mm/damon: Implement primitives for physical address space monitoring
+f31765b8d29cdeeffbff9d0f2791d332858f5a67 damon/dbgfs: Support physical memory monitoring
+024a1e166de69022ff085cc3a0d1fe06a8239f52 Docs/DAMON: Document physical memory monitoring support
+5ace59175bb4ddc539b6818d23c51ce119ee1304 mm/damon/paddr: Separate commonly usable functions
+f47d0c75aea758a755cbef5b395ee4951b407c7a mm/damon: Introduce arbitrary target type
+15df67f31958ff6a74b3108fc7783248ad8f426a mm/damon: Implement primitives for page granularity idleness monitoring
+3ac20104665c4ba2d7eb9f0b46ed8ff14e0addac (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
+2bb2b74b4dd784ea36199390c7c06aeb16b2bf6a (NOT FOR POSTING) Revert "Update for damonitor.github.io"
+6a132331c29f2f6323ff05759488b245de36397c mm/damon/paddr: Support the pageout scheme
+d8095d4cec8263fc6b722309cbe986491e587b31 mm/damon/damos: Make schemes aggressiveness controllable
+d21cae1e36e62f28427ebb4c7dad4e2e9ad69676 damon/core/schemes: Skip already charged targets and regions
+1e3874467ceb9a07c28c36af143d2d2f9bfc999d mm/damon/schemes: Implement time quota
+bb14087630caa654e7b2a58106f3682df0f8bff5 mm/damon/dbgfs: Support schemes' time/IO quotas
+0254850efd50e7aee86f9e2131385c05e1dbf5a2 mm/damon/selftests: Support schemes quotas
+5aa23c3d76302826bb423a348eaac846bcd2e8e2 mm/damon/schemes: Prioritize regions within the quotas
+634131b271723bc933ce851d93064cba0c7744bd mm/damon/vaddr,paddr: Support pageout prioritization
+9b0fb9a5fc8f4d89c0bf81fed20b168b533a0c71 mm/damon/dbgfs: Support prioritization weights
+125c5d8df0ec7a084ada5402b80d352443d3ed64 tools/selftests/damon: Update for regions prioritization of schemes
+878ab154d8150b63e01d646a03d2de3a9e13b849 mm/damon/schemes: Activate schemes based on a watermarks mechanism
+466504cc42a96d96b0b3ebb75a1463ac712f195b mm/damon/dbgfs: Support watermarks
+dc482722793ee005469e377018b8fb6244492740 selftests/damon: Support watermarks
+aa33b1499a61e852e3c12836d7923ebf6b2d36eb mm/damon: Introduce DAMON-based reclamation
+bfa315a7f79b9ffa7d849bd656cd83a4380f5a7e Documentation/admin-guide/mm/damon: Add a document for DAMON_RECLAIM
+19f78606efa2b13c0e61d659b9c37dbb6add13cf (NOT FOR POSTING) Docs/DAMON: Update for damonitor.github.io
+f52a8f58fd9ab186fc529b03127ee32197154761 (NOT FOR POSTING) Revert "Update for damonitor.github.io"
+d55920b357bd688af16cbfb59af882cc3763fa83 mm/damon/dbgfs: Introduce 'direct_scheme' feature
+29f48a2883d3867fa45b21e22e8b9a56f9f8f03c tools: Introduce a minimal user-space tool for DAMON
+172aa9cbfa3ab28a9804168124dabb1b9d048740 tools/perf: Integrate DAMON in perf
+c8ad35244e26969286262c6665afc54d57787f7e (drop) mm/damon: Add debug code
+67b8bee0ff9f63c1d375f14687226b4d16b74bf9 ksummit_2021_demo/mm/damon: Export DAMON functions for ksummit live coding
+7b89b03c87e3c3aaca6036cdb30ad1e2ff2adcac ksummit_2021_demo: Implement backup DAMON application modules for ksummit21 live coding
+3c5f0d3b75e8e06eb543d1ee90d608c9aca97714 ksummit_2021_demo: Add the live-coded code
 
---===============1949220710218398276==--
+--===============6893240992785647030==--
