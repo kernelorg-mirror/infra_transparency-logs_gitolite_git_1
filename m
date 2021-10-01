@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 01 Oct 2021 14:00:36 -0000
-Message-Id: <163309683675.31327.15056342722705284842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 01 Oct 2021 14:16:33 -0000
+Message-Id: <163309779357.11302.15227823372764897777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: b022f8866ea5014d39ae569897c271e41f5c9799
-    new: 10d48705d5afb854d2edf3e17a3fb222001425d6
+    old: e10a65371b982741bd92fba0404caf5cba1a2243
+    new: c12bb97273db6092426ec7de4651f26b6836727c
     log: |
-         10d48705d5afb854d2edf3e17a3fb222001425d6 fix up for "net: add new socket option SO_RESERVE_MEM"
+         f09402377237e9b46b4c29134125ec4bce3027bc Fixes for 5.14
+         78b101dcf308dacdaf844185bec5ab1f952a1d21 Fixes for 5.10
+         b9306615c6bb4a3f7d204586e28d4105b81067cc Fixes for 5.4
+         a4d27b3d3aacee02abbf8c0cb4f9d8064db44c49 Fixes for 4.19
+         5cb822008d19622cf84b5f6813156611cbf9a6ad Fixes for 4.14
+         18baf7a8fbaf29786b393dd2f25efd7165ea122d Fixes for 4.9
+         c12bb97273db6092426ec7de4651f26b6836727c Fixes for 4.4
          
