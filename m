@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6392499798278653481=="
+Content-Type: multipart/mixed; boundary="===============0898985090379527372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 01 Oct 2021 23:39:11 -0000
-Message-Id: <163313155108.9302.8518248837121290808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 01 Oct 2021 23:39:18 -0000
+Message-Id: <163313155804.9397.1456797489968723576@gitolite.kernel.org>
 
---===============6392499798278653481==
+--===============0898985090379527372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 57589f82762e40bdaa975d840fa2bc5157b5be95
     new: 27547a3923bde10988e36dd021026b00b3252005
     log: revlist-57589f82762e-27547a3923bd.txt
 
---===============6392499798278653481==
+--===============0898985090379527372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633131548 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1633131547-9429ae66d1061d78e004734eb65e658081f743ac
+pusher C3F436CA30F5D8EB 1633131555 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633131555-b98b9dd7550304129e08ed84882b8cef4cfb8ff2
 
-57589f82762e40bdaa975d840fa2bc5157b5be95 27547a3923bde10988e36dd021026b00b3252005 refs/heads/for-5.16
+57589f82762e40bdaa975d840fa2bc5157b5be95 27547a3923bde10988e36dd021026b00b3252005 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFXnBwACgkQJNaLcl1U
-h9B+lggAgwL1st0t+fRdPcpR2coMkkUZWaoj1z7Z6wFCImwTiTR5gWva9WuwDiHe
-tuRqW5tueK1oPtjwaL45+JBwtCB6SBXWLqr8+o2lkzrrhCrM2n3dn+y2fEJSN2yZ
-dgaaSmOJ1kHxypMOp6smXCnGXve8AqsGiHuQpH1Da3ivrUjsyG/LnCGw6/byz2V+
-dGRYj71ckgU6oHkKCZDogbzYkjjHeIby+jp419+MySUbSB2y2G2ORUgPht73eaNp
-qUQbHQwDq60UZnrGWeta9KwoURfGq/94nZ2yfoFNgATMw5ULKjPoFy/CfiL/SSY1
-xsZSWascxOVHXNRN8A/BmQpwTgwf4Q==
-=er4L
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFXnCMACgkQJNaLcl1U
+h9CF+Af/ctPjEZ3NPqzS026uypADy+X7StRNT4ymkzeh1O2cDj3o/yDSMOY6jlO+
+3BKMMeBNk6rOdLdWQL3xVjwVy/3p9S/nqum7g5XQlIosr5iYCMmMtNyWQ9XLIFL4
+6En5M4RTDUtP3UJmfEO92+bWf8siTNONGTNHElQkibge0+RfvuzmIWiU2fBwnbK9
+zAt8Huwn9c5o4lYdp7buKoP8JmPR9lZuNHMqIuoQjdD4jT3bwAdzv4I937fhu6tP
+UZ64li+B3aGPgkHdq+2+hhTBPnmqGPWWqsx2NhR9NdX5QMISePGpNWyl+NRZyDYp
+yPCGlwnsSPV13s7NjViyjkMwGdfZRg==
+=oOxk
 -----END PGP SIGNATURE-----
 
---===============6392499798278653481==
+--===============0898985090379527372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ c0e7969cf9c4fd347b33a8056960e8448f6b51c0 ASoC: SOF: topology: Add kernel paramet
 83bea088f976a289bc2efe4e404af47ab79d6639 ASoC: fsl_spdif: implement bypass mode from in to out
 27547a3923bde10988e36dd021026b00b3252005 Merge series "Add support for on demand pipeline setup/destroy" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
 
---===============6392499798278653481==--
+--===============0898985090379527372==--
