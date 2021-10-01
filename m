@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0187792066690782347=="
+Content-Type: multipart/mixed; boundary="===============5739531848291546757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 01 Oct 2021 23:39:38 -0000
-Message-Id: <163313157823.9690.11514399812544459945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 01 Oct 2021 23:39:45 -0000
+Message-Id: <163313158528.9857.18016168282291737556@gitolite.kernel.org>
 
---===============0187792066690782347==
+--===============5739531848291546757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/spi-5.15
     old: 59c4e190b10cd2d6edccb5c238a3d2bda071a018
     new: 3672bb820f3292b6f035469f863c020317a3dd28
     log: |
          75e33c55ae8fb4a177fe07c284665e1d61b02560 spi: atmel: Fix PDC transfer setup bug
          3672bb820f3292b6f035469f863c020317a3dd28 spi: mediatek: skip delays if they are 0
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/spi-5.16
     old: 5c258a8a9cf987b254c4ebdb6481a4d76bcf490b
     new: 1a6f854f7daab100ff0a94d31f35a387b462b4d1
     log: |
@@ -33,29 +33,29 @@ changes:
          1a6f854f7daab100ff0a94d31f35a387b462b4d1 spi: cadence-quadspi: Add Xilinx Versal external DMA support
          
 
---===============0187792066690782347==
+--===============5739531848291546757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633131576 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1633131575-31a75be718afa3fc24350884c2a20097159a0a1c
+pusher C3F436CA30F5D8EB 1633131583 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633131582-1a8b9f217d7dfb9985751ea43791cde516583882
 
-59c4e190b10cd2d6edccb5c238a3d2bda071a018 3672bb820f3292b6f035469f863c020317a3dd28 refs/heads/for-5.15
-5c258a8a9cf987b254c4ebdb6481a4d76bcf490b 1a6f854f7daab100ff0a94d31f35a387b462b4d1 refs/heads/for-5.16
+59c4e190b10cd2d6edccb5c238a3d2bda071a018 3672bb820f3292b6f035469f863c020317a3dd28 refs/heads/spi-5.15
+5c258a8a9cf987b254c4ebdb6481a4d76bcf490b 1a6f854f7daab100ff0a94d31f35a387b462b4d1 refs/heads/spi-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFXnDgACgkQJNaLcl1U
-h9AYqQf8Di+W6bYXX1wyakqpR5AOopYyLHSiv3eekAqQxZj2lVC6HjLXdIvhosoe
-woOzXxCxgZz7IMbDfzv1AFavtm4yDbWy3Tr/syxh4n+A22KtY6YiRR0LK7FrmXEM
-s/J3TXrasuVDt6Ik8kwccJgIc6Ui3TGrnb6cRabenyl7q8gGTPovyl++MO8w4igD
-1M5QgK9ivRiAgNje6UvNbmfyTLrQ/1vIwOrift4qSZMJsw79D0riLlR2X34NOVrD
-TRsgJzUo/1AxnEhSFZMR++/21RDWrS0miyoc77ilSUIUH2/s08zZMe1Rbhv0m5yN
-TY1JIMkzrkNzu0YkR2cUsmYOIQEM+g==
-=7i2R
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFXnD8ACgkQJNaLcl1U
+h9Bqywf/SOzO7DsPO3biv/Nimt6wW8vaPz8HNR1F+SIBCv692tW4n8Gr7IzqzkvY
+dBqByDNvtICz531ewcKzRXzvzgBbh0vIdhSoXGIna7mCLuzn+B/LnTMWVCveAIdF
+bpSnSXQgH/m5KV4oCv5zknLO0TiSqfdywiPJ51pbWC7Buvuqrj7kb8ba7hEeoXN6
+gwTsbmNjiD3lpysGvJ6KPXXOK5mwz1+oYmUXUCfOVPjesPjItKWBlpEITL9meLbp
+xbHwZzrwxwEIj0+JVTcP4Xh4bgecWS6RLuqEWdYMKa46Zc+CLyFdXTs/jH87/tGY
+atGVe2YOsfkoL/KVPLbmqPxbTgbi0Q==
+=q1ML
 -----END PGP SIGNATURE-----
 
---===============0187792066690782347==--
+--===============5739531848291546757==--
