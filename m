@@ -1,102 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============7161785983601860642=="
+Content-Type: multipart/mixed; boundary="===============5115895892040821267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 01 Oct 2021 16:03:59 -0000
-Message-Id: <163310423963.14556.14146725044792928096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Fri, 01 Oct 2021 16:27:27 -0000
+Message-Id: <163310564757.29789.10905316337949673608@gitolite.kernel.org>
 
---===============7161785983601860642==
+--===============5115895892040821267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: d4bfebd9ef497ee0afb498f6028a5074a6ccf307
-    new: 2744c6fd76ced06ae42589735c0668bcaad9080b
-    log: revlist-d4bfebd9ef49-2744c6fd76ce.txt
+  - ref: refs/heads/pending
+    old: 01a229ffe23e35005691a665c797de5c2bd37a57
+    new: c9dfa866a9f4004fcbde9fc3ad8772ad417c6ad9
+    log: revlist-01a229ffe23e-c9dfa866a9f4.txt
 
---===============7161785983601860642==
+--===============5115895892040821267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4bfebd9ef49-2744c6fd76ce.txt
+Content-Disposition: attachment; filename=revlist-01a229ffe23e-c9dfa866a9f4.txt
 
-1415b49bcd321bca7347f43f8b269c91ec46d1dc locking/ww-mutex: Fix uninitialized use of ret in test_aa()
-874f670e6088d3bff3972ecd44c1cb00610f9183 sched: Clean up the might_sleep() underscore zoo
-7b5ff4bb9adc53cfbf7ac9ba7820ccf0cd7c070a sched: Make cond_resched_*lock() variants consistent vs. might_sleep()
-42a387566c567603bafa1ec0c5b71c35cba83e86 sched: Remove preempt_offset argument from __might_sleep()
-a45ed302b6e6fe5b03166321c08b4f2ad4a92a35 sched: Cleanup might_sleep() printks
-8d713b699e84aade6b64e241a35f22e166fc8174 sched: Make might_sleep() output less confusing
-50e081b96e35e43b65591f40f7376204decd1cb5 sched: Make RCU nest depth distinct in __might_resched()
-3e9cc688e56cc2abb9b6067f57c8397f6c96d42c sched: Make cond_resched_lock() variants RT aware
-ef1f4804b27a54da34de6984d16f1fe8f2cc7011 locking/rt: Take RCU nesting into account for __might_resched()
-8fe46535e10dbfebad68ad9f2f8260e49f5852c9 rtmutex: Check explicit for TASK_RTLOCK_WAIT.
-9321f8152d9a764208c3f0dad49e0c55f293b7ab rtmutex: Wake up the waiters lockless while dropping the read lock.
-1bc687b27bac7fabcc2b0a1a8efad5cf875ac769 sched: Make cookie functions static
-df89544263cd98ffcef1318b3bf18509b9420c8a sched: Move mmdrop to RCU on RT
-92add3a897e9e923acde0f2c5e69705818076d69 sched: Limit the number of task migrations per batch on RT
-e3865866752e1b9fd26383f548dea58334fe6eba sched: Disable TTWU_QUEUE on RT
-d428aac9dff0a0d217f3449884ac958dbf3f232b sched: Move kprobes cleanup out of finish_task_switch()
-579df3f2325191322b96906a5898462253a45ede sched: Remove pointless preemption disable in sched_submit_work()
-959fc676791b91088b96341b644b92c8c52c7455 sched/fair: Removed useless update of p->recent_used_cpu
-60a624d300937cc541f4f40ddbcff150f78f7575 Merge branch 'tip/locking/urgent'
-eb8d5df17150f47b752d99574c6f26460226b68f locking/rwbase: Optimize rwbase_read_trylock
-b25c1700397828ad7b8320366183baf50de5ab16 sched: Improve try_invoke_on_locked_down_task()
-4b3bec0035768c8956c9246715dd28bace6428ea sched,rcu: Rework try_invoke_on_locked_down_task()
-98e327776fd1a736d9d573fe3f85509467b6e5e1 sched,livepatch: Use task_call_func()
-b7aa51d8ecf527c6250d9f134aa1c973c5b10a9b sched: Simplify wake_up_*idle*()
-56410566f1bf8475a0c36747b5a6fc7d8c1e1f10 sched,livepatch: Use wake_up_if_idle()
-bedf66f3f931c22339f7c9f68e6d7fc56b8e73dd Revert "proc/wchan: use printk format instead of lookup_symbol_name()"
-4f7e6f36b3874fe448a5fa79e3951734c5e08b58 leaking_addresses: Always print a trailing newline
-933065571da12146a93cdbcbdf25bde2836da261 proc: Use task_is_running() for wchan in /proc/$pid/stat
-97a56316fcd8868341d2047d17e605739a4fac1f x86: Fix get_wchan() to support the ORC unwinder
-1f17195fa1874c8b77fe7cb0d49f752399484990 sched: Add wrapper for get_wchan() to keep task blocked
-6d390a3894154875bbb29ec135e7044103ce0c75 arch: __get_wchan || STACKTRACE_SUPPORT
-3145a0df62f9f4f2f1898c8392fe28bdb731ebf8 arch: Fix STACKTRACE_SUPPORT
-393f35a10d105c6bfeba075617b104fd3b12438f futex: Move to kernel/futex/
-328d6350488c47a9f9ba59abf653b55ddc404cdd futex: Split out syscalls
-f61dd4fcf6386913709312fa28a64fb08a88afbb futex: Rename {,__}{,un}queue_me()
-84a47ce97ba60e7cc2eef4a08829f809e13605dd futex: Rename futex_wait_queue_me()
-78b8ca09c90c792b4084c717e6989b8541251eb7 futex: Rename: queue_{,un}lock()
-f83781a2dc7ed5055a3c039f3cb5b2a55135a2fe futex: Rename __unqueue_futex()
-4ef715d5038c4e82c14930adb01d7cf504d7fe4b futex: Rename hash_futex()
-5ecb978f44a5a5d6c5c45b6665583b45bb898fad futex: Rename: {get,cmpxchg}_futex_value_locked()
-b318b9b10ee99cb0651e6733200a72b6d5799bdf futex: Split out PI futex
-1696c6cd58f2aa9da2c413de2b6e4f77de0992b5 futex: Rename: hb_waiter_{inc,dec,pending}()
-d1a6a91ea2453c5680a0382475a52a97926ed05d futex: Rename: match_futex()
-9b668887700b4632fa72190d0b28dc491cc109cc futex: Rename mark_wake_futex()
-3d4149bcb3231f5dc42acfc1cd3d7b2d49664c41 futex: Split out requeue
-b70011406d9df368e34e766f240c76eeba1bdf43 futex: Split out wait/wake
-1bb829d6babf1900d97e675f7b7504c67e51d54c futex: Simplify double_lock_hb()
-48c478b4520d08d078136ee89c949d6eb4726a64 futex: Implement sys_futex_waitv()
-ab0019bf1f403d77681211096481a88f4554b17f futex,x86: Wire up sys_futex_waitv()
-a3c270cdc96e26aea4cbea2ea8b9af7acf2f6f73 futex,arm: Wire up sys_futex_waitv()
-be83c578bb4ee5cfa62aa18a3f97eecf3af3bc3a selftests: futex: Add sys_futex_waitv() test
-05f4036f3f20a5e3a1222f8865c3c378d909b4ed selftests: futex: Test sys_futex_waitv() timeout
-8cbad32a8f78c13b7bdb6c3c5a38ed450135db59 mm: Update ptep_get_lockless()'s comment
-c16539bd4ca023cd145352305598764a6752ee51 x86/mm/pae: Make pmd_t similar to pte_t
-7684dab008736a06b806ea86af317ed19481ab2b sh/mm: Make pmd_t similar to pte_t
-5f4edebb0a415476654191a1f18844ecd6284178 mm: Fix pmd_read_atomic()
-d926d804f550b10bf8fabed188d5dc98f0279651 mm: Rename pmd_read_atomic()
-d42e8fe9beaf1aec8cd31afc78ea17690b8d4884 mm/gup: Fix the lockless PMD access
-3d16137ec53609dd8f88a812acbe3141bd222d33 x86/mm/pae: Don't (ab)use atomic64
-779f826b6b1cb163e576b45fcb5227096e8c2fba x86/mm/pae: Use WRITE_ONCE()
-e08dea0002dfb10a4ce55368e333970905ff29f4 x86/mm/pae: Be consistent with pXXp_get_and_clear()
-43d9c8882634b37416e3ef9cf69938e7f214ad9a Merge branch 'tip/sched/core'
-d680dfff9469111bf35c28466fe24530d09d878f irq_work: Unconditionally build on SMP
-50b2cca46e532aeb0f4eea1b22e3140f6f0ecc4f irq_work: Provide irq_work_queue_remote()
-b9ffc3bd085c3839828c20ea61900de0fc51c523 rcu/tree: Use irq_work_queue_remote()
-86a3346cfe830a8cc45d5d577aa7f6d802f00144 irq_work: Add a few comments
-32c3ffc7b28507adbbf6d6369e18d487bcabc4c7 Merge branch 'locking/core'
-037d3796738575162d514d477f63299786fc46e2 Merge branch 'sched/livepatch'
-b7774c02024696655f56f1e780556a4b24ee7cf2 Merge branch 'sched/wchan'
-82ac138b24c329c3edab0c3a283eb52fba02d05f Merge branch 'locking/futex'
-f8ab7c7b07826593e91f9e7a1c75211ee5726930 Merge branch 'x86/mm'
-2744c6fd76ced06ae42589735c0668bcaad9080b Merge branch 'sched/cleanup'
+9b14ed6e11b72dd4806535449ca6c6962cb2369d rsi: fix occasional initialisation failure with BT coex
+99ac6018821253ec67f466086afb63fc18ea48e2 rsi: fix key enabled check causing unwanted encryption for vap_id > 0
+b515d097053a71d624e0c5840b42cd4caa653941 rsi: fix rate mask set leading to P2P failure
+beca6bd94da5f9f4b80f19adce19a8a5f5ddf811 brcmfmac: fix incorrect error prints
+f8509c38ececde7fb0f0bc9959f79d2a34be577d rtw88: upgrade rtw_regulatory mechanism and mapping
+8d4fb3998c05a1d79358e1069a3b5f128245b006 rtw88: add regulatory strategy by chip type
+7285eb9693a2e360e58a449ab121be505b87a9d5 rtw88: support adaptivity for ETSI/JP DFS region
+fe7bc23a8c5eba8a49061c1d15d0a9d45ef18130 rtw88: move adaptivity mechanism to firmware
+babe2a332dc40b0e43035e529b357a232dbe7f7b mwifiex: Small cleanup for handling virtual interface type changes
+abe3a2c9ead8fd95db141ea1df8d96c48cad3893 mwifiex: Use function to check whether interface type change is allowed
+c2e9666cdffd347460a2b17988db4cfaf2a68fb9 mwifiex: Run SET_BSS_MODE when changing from P2P to STATION vif-type
+54350dac4e6a966a816ea0152ad2fba30ca189d0 mwifiex: Use helper function for counting interface types
+fae2aac8c7400be6197e7ef506911a3aa3093e04 mwifiex: Update virtual interface counters right after setting bss_type
+25bbec30a2c7854b5d07eb2220258ed0d9f20c0d mwifiex: Allow switching interface type from P2P_CLIENT to P2P_GO
+5e2e1a4bf4a162d9369a35e62fbb8c7977b54a12 mwifiex: Handle interface type changes from AP to STATION
+c606008b70627a2fc485732a53cc22f0f66d0981 mwifiex: Properly initialize private structure on interface type changes
+72e717500f991ecefb7c168732060c0eb5238077 mwifiex: Fix copy-paste mistake when creating virtual interface
+31f97cf9f0c31143a2a6fcc89c4a1286ce20157e rsi: Fix module dev_oper_mode parameter description
+c8e2036ee90bde32e2567b47464899a181da3d54 wilc1000: move 'deinit_lock' lock init/destroy inside module probe
+3c719fed0f3a5e95b1d164609ecc81c4191ade70 wilc1000: fix possible memory leak in cfg_scan_result()
+0ec5408cd44855956f7741bd776f44db167801b7 wilc1000: add new WID to pass wake_enable information to firmware
+5bb9de8bcb18c38ea089a287b77944ef8ee71abd wilc1000: configure registers to handle chip wakeup sequence
+1bcc0879c963770c90bc07d9aa5d0d50dda925f3 wilc1000: add reset/terminate/repeat command support for SPI bus
+c2dcb4766bcb1e3622d7579ee9d57f28dc2c2f2e wilc1000: handle read failure issue for clockless registers
+aa3fda4fcf63b717e195ca92537da05db55e01a6 wilc1000: ignore clockless registers status response for SPI
+29f7393e02aceab1ae7fad75c76c3717b5196bf8 wilc1000: invoke chip reset register before firmware download
+cd50248de35b8b055c23af62980b6b11daa5ebfc wilc1000: add 'initialized' flag check before adding an element to TX queue
+301cfbab09fdc068ee4a126fc1fa3bf4b1394217 wilc1000: use correct write command sequence in wilc_spi_sync_ext()
+bb6a0d5404aac28e3fc66eae88a99571cd767e99 wilc1000: increase config packets response wait timeout limit
+e142bd910f53d38aa40810e71878e3022ff70859 zd1211rw: remove duplicate USB device ID
+b7cca318d7cae54656a35ff4981a1d1e80607b9e ar5512: remove duplicate USB device ID
+60fe1f8dcd3c2916e3d0b028afb466b1bc2b569d rt2x00: remove duplicate USB device ID
+3fd445a4d49fce594eecc90b9bbcf85cd223154d brcmfmac: Replace zero-length array with flexible array member
+b789e3fe7047296be0ccdbb7ceb0b58856053572 rtw88: 8821c: support RFE type4 wifi NIC
+5db4943a9d6fc6bf1b04f80416236594713067b4 rtw88: 8821c: correct 2.4G tx power for type 2/4 NIC
+a8e5387f8362e9da66fdc76a2e761ad618ae16db ipw2200: Fix a function name in print messages
+56aa2a3c3bc468cc7753eb023bdb7e2853f92958 rtw89: add CAM files
+c4453c11f46dad1606032b96c628b803961c6aaf rtw89: add BT coexistence files
+7003a3578773c05ccd0dcbfe1d2c714053af393c rtw89: add core and trx files
+3edb437a2a5157cfa459f2ebacdc83e8b2230cb9 rtw89: add debug files
+e597130280cbbea44b1fff8c41ab40ca1380bbff rtw89: add efuse files
+0a82c5733c05fde862113f9cc869726be3632a13 rtw89: add files to download and communicate with firmware
+fd1d79784d66fc26d2553b6b741c2aeed4f0a173 rtw89: add MAC files
+80c6abe75ee23066df43b558610e6b65c7dfead4 rtw89: implement mac80211 ops
+01ef487831a31571949762ee0724b7a8893928a1 rtw89: add pci files
+09c5e33c4f58e1305aa1fc426762655883848116 rtw89: add phy files
+0e54a27f01f670725493e24dbc4e2be86a70e83c rtw89: define register names
+56c2592e5d6acc95d101cff6a24382dcb2872472 rtw89: add regulatory support
+ca448a38a64f4a51af0d95761333a52831fded7a rtw89: 8852a: add 8852a specific files
+1ca46c8cbd13b52f4c8726a2aed0759775bec099 rtw89: 8852a: add 8852a RFK files
+561f2fdcf8b2c813d86fd36bb67a2555452a47a3 rtw89: 8852a: add 8852a RFK tables
+b0276c180c562845fde6c31d39830ae073a96dc1 rtw89: 8852a: add 8852a tables (1 of 5)
+fa20bec4a5ec5ef913fde9f845b7a3ada121de3a rtw89: 8852a: add 8852a tables (2 of 5)
+fc40ee40d2962c4a23267ad44ba198e5b1ec2ebc rtw89: 8852a: add 8852a tables (3 of 5)
+e77644e2ce277331a346c6bc52808a7e16c682c7 rtw89: 8852a: add 8852a tables (4 of 5)
+e05156d6958cc07bb264cb434c80c61aed24490f rtw89: 8852a: add 8852a tables (5 of 5)
+10709ff7f15de31e115f9509e9fd2d2b2bd4999a rtw89: add ser to recover error reported by firmware
+b9327492a15c6f3cab0e293c2d6beda0a1c01b57 rtw89: add PS files
+af157308792239a0353a44bf6509a1a450f32761 rtw89: add SAR files
+c9dfa866a9f4004fcbde9fc3ad8772ad417c6ad9 rtw89: add Kconfig and Makefile
 
---===============7161785983601860642==--
+--===============5115895892040821267==--
