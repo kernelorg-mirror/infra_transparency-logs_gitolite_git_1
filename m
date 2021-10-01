@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 01 Oct 2021 09:58:17 -0000
-Message-Id: <163308229789.8572.10074595437736327516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Fri, 01 Oct 2021 10:15:58 -0000
+Message-Id: <163308335849.19400.14158500487612174170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: westeri
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 0650e2b10afb3351e5f1b83fccef3c38c3db7bee
-    new: 1649b83766944e320a6f087abf1e8a221f1cd8b0
+  - ref: refs/heads/for-next
+    old: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
+    new: 176412f8674be8ba9a45bb61086e224e2118324a
     log: |
-         1649b83766944e320a6f087abf1e8a221f1cd8b0 gpio: pca953x: Improve bias setting
+         176412f8674be8ba9a45bb61086e224e2118324a pinctrl: intel: Kconfig: Add configuration menu to Intel pin control
          
