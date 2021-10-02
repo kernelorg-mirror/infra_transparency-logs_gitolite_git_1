@@ -1,61 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5739531848291546757=="
+Content-Type: multipart/mixed; boundary="===============5159375579809716975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 01 Oct 2021 23:39:45 -0000
-Message-Id: <163313158528.9857.18016168282291737556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 02 Oct 2021 00:07:15 -0000
+Message-Id: <163313323506.27739.18154822486541612013@gitolite.kernel.org>
 
---===============5739531848291546757==
+--===============5159375579809716975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.15
-    old: 59c4e190b10cd2d6edccb5c238a3d2bda071a018
-    new: 3672bb820f3292b6f035469f863c020317a3dd28
+  - ref: refs/heads/for-linus
+    old: 002494ca389bd5db808c67916c54d78be064a983
+    new: d3a2b792fea055bd34264b4d2ce0930468838b6d
     log: |
-         75e33c55ae8fb4a177fe07c284665e1d61b02560 spi: atmel: Fix PDC transfer setup bug
-         3672bb820f3292b6f035469f863c020317a3dd28 spi: mediatek: skip delays if they are 0
+         d3a2b792fea055bd34264b4d2ce0930468838b6d Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
-  - ref: refs/heads/spi-5.16
-    old: 5c258a8a9cf987b254c4ebdb6481a4d76bcf490b
-    new: 1a6f854f7daab100ff0a94d31f35a387b462b4d1
-    log: |
-         74e78adc6ccf6c3b53939788cf0c49f54db70731 firmware: xilinx: Add OSPI Mux selection support
-         8db76cfae1004f5476d9c35670f0a0f084c6b73f dt-bindings: spi: cadence-quadspi: Add support for Xilinx Versal OSPI
-         09e393e3f13970f194f7ed9a93140a8601225b46 spi: cadence-quadspi: Add OSPI support for Xilinx Versal SoC
-         1a6f854f7daab100ff0a94d31f35a387b462b4d1 spi: cadence-quadspi: Add Xilinx Versal external DMA support
-         
+  - ref: refs/heads/for-next
+    old: 5bffa57e573fbd6763c5b7b433463fec247c3b8c
+    new: 7d9fee5272c4f34f6f108761936375513942b975
+    log: revlist-5bffa57e573f-7d9fee5272c4.txt
 
---===============5739531848291546757==
+--===============5159375579809716975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5bffa57e573f-7d9fee5272c4.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1633131583 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1633131582-1a8b9f217d7dfb9985751ea43791cde516583882
+0a43c152ed0666dc837009bae031b898ced95e5b ASoC: soc-component: Remove conditional definition of debugfs data members
+620868b2a0bd56ae814bdde2598d7d7b20538e6d ASoC: tegra: Constify static snd_soc_ops
+9c892547624ff277546a9d4fede3d95259e6faea ASoC: Intel: sof_rt5682: Add support for max98360a speaker amp
+bd8bec1408ab2336939bd69d93897bf19d0325ed ASoC: mediatek: mt8195: move of_node_put to remove function
+04a8374c321db55834d5a9f3a9ceecb04b3cfbf5 ASoC: rt5682s: Enable ASRC auto-disable to fix pop during jack plug-in while playback
+0b26ca1725fa16a2d28a86f89173f9df2a3fe8d7 ASoC: rt5682s: Fix HP noise caused by SAR mode switch when the system resumes
+cd96663bc27e1c94210b5b737de4d7cf233d90f8 ASoC: qcom: apq8096: Constify static snd_soc_ops
+415717e1e367debe6344533f98eaeceb2dce52b3 ASoC: topology: change the complete op in snd_soc_tplg_ops to return int
+199a3754f2736808d7bfa4c962eaf89e1d17e462 ASoC: SOF: control: Add access field in struct snd_sof_control
+2c28ecad0d099ff914a0675f064db6e5b75e0756 ASoC: SOF: topology: Add new token for dynamic pipeline
+93d71245c655e639248c7c33db20074c71a89c1a ASoC: SOF: sof-audio: add helpers for widgets, kcontrols and dai config set up
+d1a7af0979292b187bde0d556d26fe21bd64b832 AsoC: dapm: export a couple of functions
+0a2dea1f10106746e5ed033beaf403049cf8eb10 ASoC: SOF: Add new fields to snd_sof_route
+5f3aad73fcc2b301ed7d7ed60c1364e8c29741b1 ASoC: SOF: restore kcontrols for widget during set up
+1b7d57d7178697ebdd9e6f21b4953ada168d2a61 ASoC: SOF: Don't set up widgets during topology parsing
+8b0014169254513bda914ba5d49a09458a919488 ASoC: SOF: Introduce widget use_count
+0acb48dd31e39b617bb12ca546b4fecd6ccb2972 ASoC: SOF: Intel: hda: make sure DAI widget is set up before IPC
+5fcdbb2d45df6afb654674379546996b0027aa3e ASoC: SOF: Add support for dynamic pipelines
+c0e7969cf9c4fd347b33a8056960e8448f6b51c0 ASoC: SOF: topology: Add kernel parameter for topology verification
+83bea088f976a289bc2efe4e404af47ab79d6639 ASoC: fsl_spdif: implement bypass mode from in to out
+27547a3923bde10988e36dd021026b00b3252005 Merge series "Add support for on demand pipeline setup/destroy" from Peter Ujfalusi <peter.ujfalusi@linux.intel.com>:
+d3a2b792fea055bd34264b4d2ce0930468838b6d Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+7d9fee5272c4f34f6f108761936375513942b975 Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
 
-59c4e190b10cd2d6edccb5c238a3d2bda071a018 3672bb820f3292b6f035469f863c020317a3dd28 refs/heads/spi-5.15
-5c258a8a9cf987b254c4ebdb6481a4d76bcf490b 1a6f854f7daab100ff0a94d31f35a387b462b4d1 refs/heads/spi-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFXnD8ACgkQJNaLcl1U
-h9Bqywf/SOzO7DsPO3biv/Nimt6wW8vaPz8HNR1F+SIBCv692tW4n8Gr7IzqzkvY
-dBqByDNvtICz531ewcKzRXzvzgBbh0vIdhSoXGIna7mCLuzn+B/LnTMWVCveAIdF
-bpSnSXQgH/m5KV4oCv5zknLO0TiSqfdywiPJ51pbWC7Buvuqrj7kb8ba7hEeoXN6
-gwTsbmNjiD3lpysGvJ6KPXXOK5mwz1+oYmUXUCfOVPjesPjItKWBlpEITL9meLbp
-xbHwZzrwxwEIj0+JVTcP4Xh4bgecWS6RLuqEWdYMKa46Zc+CLyFdXTs/jH87/tGY
-atGVe2YOsfkoL/KVPLbmqPxbTgbi0Q==
-=q1ML
------END PGP SIGNATURE-----
-
---===============5739531848291546757==--
+--===============5159375579809716975==--
