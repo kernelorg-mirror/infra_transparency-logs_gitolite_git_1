@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 02 Oct 2021 15:53:05 -0000
-Message-Id: <163318998562.21993.6240225177783095992@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1976205858287887987=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 02 Oct 2021 16:02:24 -0000
+Message-Id: <163319054423.27627.433056298289167732@gitolite.kernel.org>
+
+--===============1976205858287887987==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: f558c8072c3461b65c12c0068b108f78cebc8246
-    new: d0c27c9211fef3ce8083cc3ad2ca3067d211edc9
-    log: |
-         0fd1cdf222a092ec0a08968913aeaefd6ce2d298 dt-bindings: power: supply: max17040: switch to unevaluatedProperties
-         223a3b82834f036a62aa831f67cbf1f1d644c6e2 power: supply: max17042_battery: use VFSOC for capacity when no rsns
-         d0c27c9211fef3ce8083cc3ad2ca3067d211edc9 power: supply: max17042_battery: fix typo in MAX17042_IAvg_empty
-         
+  - ref: refs/heads/testing
+    old: 898edc7d1a911bed4b620d08465dcb9ba5be9671
+    new: 829ea32f19724a2e9281fa3c85c3aa6eb3d8a931
+    log: revlist-898edc7d1a91-829ea32f1972.txt
+
+--===============1976205858287887987==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-898edc7d1a91-829ea32f1972.txt
+
+864fdecf9aa2ef3ceb1616a11962c2ad238279ef iio: adc: nau7802: convert probe to full device-managed
+e10bc3a0fbee8f1a806595efabd75dcc688c132c iio: adc: max1363: convert probe to full device-managed
+5f88bdce8a2df800155bcd0509f5fc1a185589da iio: adc: rn5t618-adc: use devm_iio_map_array_register() function
+a9488670416017980228138ccdaefa8976acbb7a iio: adc: berlin2-adc: convert probe to device-managed only
+3d97f7f167fbfb253981735db17c06b95e3b553d iio: adc: Kconfig: add COMPILE_TEST dep for berlin2-adc
+6efd54287a2a5bca04d8d73cd934ebbea5b48394 iio: adc: ad7291: convert probe to device-managed only
+bdd9e1bb35b5bcd847cd70527b159b078cb9e0c4 counter: Move counter enums to uapi header
+6877f0924e38f95da76cdac254121acbbdbaeacb counter: Add character device interface
+cf84952ccf5c351301d92e8903eccb18beed5706 docs: counter: Document character device interface
+fa6c0b223b9cabce986c5c6e5127b437dfab36e0 tools/counter: Create Counter tools
+9c75f7060387c075dd4fbb207fec0b5834362f48 counter: Implement signalZ_action_component_id sysfs attribute
+aa84a9562d8750428f222935cca648e31c364753 counter: Implement *_component_id sysfs attributes
+bf73a2e77b13bbe465c8b34cb8ff345cd6b07be8 counter: Implement events_queue_size sysfs attribute
+8f79d6cf64a35087872f920656aa206a5e0f037e counter: 104-quad-8: Replace mutex with spinlock
+d6787a1f587556f435d1a5a4802a9dbac93b671d counter: 104-quad-8: Add IRQ support for the ACCES 104-QUAD-8
+829ea32f19724a2e9281fa3c85c3aa6eb3d8a931 counter: microchip-tcb-capture: Tidy up a false kernel-doc /** marking.
+
+--===============1976205858287887987==--
