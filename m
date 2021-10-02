@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 02 Oct 2021 16:06:25 -0000
-Message-Id: <163319078511.30313.15010800198492062629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Sat, 02 Oct 2021 16:08:11 -0000
+Message-Id: <163319089121.30887.12767373435929221936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/testing
-    old: 829ea32f19724a2e9281fa3c85c3aa6eb3d8a931
-    new: e5502cab0bc141d4d49776b66075fa5dc4cb9968
+  - ref: refs/heads/for-5.16
+    old: 8001f21fcd03253ba0eeac6f91f79239ac03ee60
+    new: 57b44817a8d63e75394bc21849f585ded53de8bb
     log: |
-         e5502cab0bc141d4d49776b66075fa5dc4cb9968 counter: microchip-tcb-capture: Tidy up a false kernel-doc /** marking.
+         57b44817a8d63e75394bc21849f585ded53de8bb MAINTAINERS: Drop outdated FPGA Manager website
+         
+  - ref: refs/heads/for-next
+    old: 8001f21fcd03253ba0eeac6f91f79239ac03ee60
+    new: 57b44817a8d63e75394bc21849f585ded53de8bb
+    log: |
+         57b44817a8d63e75394bc21849f585ded53de8bb MAINTAINERS: Drop outdated FPGA Manager website
          
