@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 02 Oct 2021 11:35:41 -0000
-Message-Id: <163317454179.20781.15132604321137671499@gitolite.kernel.org>
+Date: Sat, 02 Oct 2021 11:43:58 -0000
+Message-Id: <163317503819.24494.959653382270305903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
   - ref: refs/heads/hwmon
-    old: 6f7d70467121f790b36af2d84bc02b5c236bf5e6
-    new: ffa2600044979aff4bd6238edb9af815a47d7c32
+    old: ffa2600044979aff4bd6238edb9af815a47d7c32
+    new: f067d5585cda2de1e47dde914a8a4f151659e0ad
     log: |
-         ffa2600044979aff4bd6238edb9af815a47d7c32 hwmon: (occ) Fix P10 VRM temp sensors
+         f067d5585cda2de1e47dde914a8a4f151659e0ad hwmon: (pmbus/ibm-cffps) max_power_out swap changes
          
