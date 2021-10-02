@@ -1,35 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 02 Oct 2021 13:50:04 -0000
-Message-Id: <163318260478.7889.8907893772534147852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 02 Oct 2021 15:02:34 -0000
+Message-Id: <163318695435.22397.6637902104701087869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/block-5.15
-    old: 41e76c6a3c83c85e849f10754b8632ea763d9be4
-    new: 06cc978d3ff226072780f74897800b33e78abb57
+  - ref: refs/heads/master
+    old: fa8274b788a3766c299a3172d4f5416e574ec42d
+    new: e9637775c05f2bbae24f060a91b7f8459bbe2286
     log: |
-         06cc978d3ff226072780f74897800b33e78abb57 block: genhd: fix double kfree() in __alloc_disk_node()
-         
-  - ref: refs/heads/for-5.16/drivers
-    old: 8ac366117cc1f0944c4365782b95748f15fd52b7
-    new: 7ab3cc9cb7cb1583faa3de1406b9efa3328123df
-    log: |
-         0e69ff23e0bc2edbc7e603a139d9e28b300ecec7 swim3: add missing major.h include
-         7ab3cc9cb7cb1583faa3de1406b9efa3328123df brd: reduce the brd_devices_mutex scope
-         
-  - ref: refs/heads/for-next
-    old: 0cb525736183969c032e661600debd8a7754a639
-    new: 513afc9813c2c14312bab8ef3e0eebe89584e40e
-    log: |
-         0e69ff23e0bc2edbc7e603a139d9e28b300ecec7 swim3: add missing major.h include
-         8113480efc27987999fa9b687e3e99585de92637 Merge branch 'for-5.16/drivers' into for-next
-         7ab3cc9cb7cb1583faa3de1406b9efa3328123df brd: reduce the brd_devices_mutex scope
-         513afc9813c2c14312bab8ef3e0eebe89584e40e Merge branch 'for-5.16/drivers' into for-next
+         4e9b9de65cddf6bd6444a72daf6118dfd629f645 arch: use eth_hw_addr_set()
+         2f23e5cef31414156c24b90e56dedc118feb9bf3 net: use eth_hw_addr_set()
+         a96d317fb1a30b9f323548eb2ff05d4e4600ead9 ethernet: use eth_hw_addr_set()
+         1681371762335221b02cb9266ac1a8b05c16fdef net: usb: use eth_hw_addr_set()
+         e35b8d7dbb094c79daf920797c372911edc2d525 net: use eth_hw_addr_set() instead of ether_addr_copy()
+         f3956ebb3bf06ab2266ad5ee2214aed46405810c ethernet: use eth_hw_addr_set() instead of ether_addr_copy()
+         af804e6db9f60b923ff5149d9bf782e0baa82a2b net: usb: use eth_hw_addr_set() instead of ether_addr_copy()
+         47d71f45902ea4a870174b72b66fd82b7248854d ethernet: chelsio: use eth_hw_addr_set()
+         1235568b6d2ec5ac514716bd821ec60a3cd6da9f ethernet: s2io: use eth_hw_addr_set()
+         4d3d2c8dba360e5f8a9bf9d4b4f7d829e9812593 fddi: use eth_hw_addr_set()
+         16be9a16340b1cec90be018162e434c8bdd1fcd1 ethernet: use eth_hw_addr_set() - casts
+         e9637775c05f2bbae24f060a91b7f8459bbe2286 Merge branch 'hw_addr_set'
          
