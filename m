@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
-Date: Sat, 02 Oct 2021 16:08:11 -0000
-Message-Id: <163319089121.30887.12767373435929221936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 02 Oct 2021 16:46:43 -0000
+Message-Id: <163319320378.22074.11890723189276162224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdf/linux-fpga
-user: mdf
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-5.16
-    old: 8001f21fcd03253ba0eeac6f91f79239ac03ee60
-    new: 57b44817a8d63e75394bc21849f585ded53de8bb
+  - ref: refs/heads/arm-irq-stacks
+    old: 313d22856339a862c6e39d0abe7f28a09bfda0d6
+    new: 4bbf7c9961e231d8e957583fc0f88e571748e304
     log: |
-         57b44817a8d63e75394bc21849f585ded53de8bb MAINTAINERS: Drop outdated FPGA Manager website
-         
-  - ref: refs/heads/for-next
-    old: 8001f21fcd03253ba0eeac6f91f79239ac03ee60
-    new: 57b44817a8d63e75394bc21849f585ded53de8bb
-    log: |
-         57b44817a8d63e75394bc21849f585ded53de8bb MAINTAINERS: Drop outdated FPGA Manager website
+         ae68924c9f212b3dafbf7bfa183f947203de3d5f ARM: implement IRQ stacks
+         691f34f8c7634a3805f654228d040882ae52441f ARM: call_with_stack: add unwind support
+         4bbf7c9961e231d8e957583fc0f88e571748e304 ARM: run softirqs on the per-CPU IRQ stack
          
