@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 02 Oct 2021 15:11:39 -0000
-Message-Id: <163318749952.27813.6318190350010683011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 02 Oct 2021 15:13:30 -0000
+Message-Id: <163318761078.28367.593053397418418840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e9637775c05f2bbae24f060a91b7f8459bbe2286
-    new: b8aa16541d73994dc18c5e8789124f26189ed656
+    old: eed183abc0d3b8adb64fd1363b7cea7986cd58d6
+    new: 7cd8b1542a7ba0720c5a0a85ed414a122015228b
     log: |
-         b8aa16541d73994dc18c5e8789124f26189ed656 net: wwan: iosm: correct devlink extra params
+         7cd8b1542a7ba0720c5a0a85ed414a122015228b ptp_pch: Load module automatically if ID matches
          
