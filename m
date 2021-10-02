@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 02 Oct 2021 12:55:43 -0000
-Message-Id: <163317934373.5859.5607841368312566973@gitolite.kernel.org>
+Date: Sat, 02 Oct 2021 13:02:43 -0000
+Message-Id: <163317976322.9365.5368396128883223788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,15 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 6b7b0c3091fd798ba35f11bbf04c4aefbd5ac4e6
-    new: cfb5d7b78145e34a83731784b2e64056a4d3b34f
+    old: cfb5d7b78145e34a83731784b2e64056a4d3b34f
+    new: 8b67a2111bb82847e59e127508c7e35b2bbf6ea8
     log: |
-         d9bc9ec45e015baf5cd8f055e6a6f85b133b4fe3 ravb: Rename "ravb_set_features_rx_csum" function to "ravb_set_features_rcar"
-         2b061b545cd0d393585da2909044b15db1ac426f ravb: Rename "no_ptp_cfg_active" and "ptp_cfg_active" variables
-         a92f4f0662bf2c06c77688517493d0fb48c09fbd ravb: Add nc_queue to struct ravb_hw_info
-         feab85c7cceac1dfbff18cce3d089b0ca5ead565 ravb: Add support for RZ/G2L SoC
-         660e3d95e21a929d8a718dcbefe5a63bc4418412 ravb: Initialize GbEthernet DMAC
-         7e09a052dc4e30ce07fd7b3aa58a7d993f73a9d7 ravb: Exclude gPTP feature support for RZ/G2L
-         0b395f289451b4674c1db8949f0c441d7a2ff4fe ravb: Add tsrq to struct ravb_hw_info
-         ebd5df063ce4a98553875e5b75eb8c0ab0584936 ravb: Add magic_pkt to struct ravb_hw_info
-         68aa0763c045aefa138b224a3524b3f5b0cf6a01 ravb: Add half_duplex to struct ravb_hw_info
-         16a2351992353ca7f12824c81feed783306d7f5f ravb: Initialize GbEthernet E-MAC
-         cfb5d7b78145e34a83731784b2e64056a4d3b34f Merge branch 'ravb-gigabit'
+         ebc792e26cb0fe7ef5b320efe3cd5f524bfd6454 ionic: remove debug stats
+         36b20b7fb1c3cba2334f772face5f42f8e644a8f ionic: check for binary values in FW ver string
+         26671ff92c632e9c2fe25c3438887493c4123ad1 ionic: move lif mutex setup and delete
+         2624d95972dbebe5f226361bfc51a83bdb68c93b ionic: widen queue_lock use around lif init and deinit
+         a095e4775b7c86a26d111b66793ff91bff6e77ce ionic: add polling to adminq wait
+         3a5e0fafefe0b33372074728a57a55a12b56a408 ionic: have ionic_qcq_disable decide on sending to hardware
+         7dd22a864e0c56c09b17844e0599398cb25456a3 ionic: add lif param to ionic_qcq_disable
+         8b67a2111bb82847e59e127508c7e35b2bbf6ea8 Merge branch 'ionic-cleanups'
          
