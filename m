@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4841116377877897496=="
+Content-Type: multipart/mixed; boundary="===============6854786473391940638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Sat, 02 Oct 2021 19:09:46 -0000
-Message-Id: <163320178645.13111.8455298473866222715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Sat, 02 Oct 2021 19:10:27 -0000
+Message-Id: <163320182758.14754.14159884038981662682@gitolite.kernel.org>
 
---===============4841116377877897496==
+--===============6854786473391940638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-andy
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 1649b83766944e320a6f087abf1e8a221f1cd8b0
-    log: revlist-6880fa6c5660-1649b8376694.txt
+    new: 176412f8674be8ba9a45bb61086e224e2118324a
+    log: revlist-6880fa6c5660-176412f8674b.txt
 
---===============4841116377877897496==
+--===============6854786473391940638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-1649b8376694.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-176412f8674b.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
@@ -655,10 +655,6 @@ dc0f97c2613d09734719ef89d99d06417d92337d Merge tag 'irq-urgent-2021-09-26' of gi
 996148ee05d08ef5163cad99c33a7b5e844ac494 Merge tag 'edac_urgent_for_v5.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5e5d7597637c64588f5cf4db798664a560fbec67 Merge tag '5.15-rc2-ksmbd-fixes' of git://git.samba.org/ksmbd
 5816b3e6577eaa676ceb00a848f0fd65fe2adc29 Linux 5.15-rc3
-540cffbab8b8e6c52a4121666ca18d6e94586ed2 gpio: pca953x: do not ignore i2c errors
-d1d598104336075e7475d932d200b33108399225 MAINTAINERS: update my email address
-040d985e27dc39353d50d0f75a6be3330f4fece2 MAINTAINERS: Update Mun Yew Tham as Altera Pio Driver maintainer
-0650e2b10afb3351e5f1b83fccef3c38c3db7bee gpio: 74x164: Add SPI device ID table
-1649b83766944e320a6f087abf1e8a221f1cd8b0 gpio: pca953x: Improve bias setting
+176412f8674be8ba9a45bb61086e224e2118324a pinctrl: intel: Kconfig: Add configuration menu to Intel pin control
 
---===============4841116377877897496==--
+--===============6854786473391940638==--
