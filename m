@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3396449981953807878=="
+Content-Type: multipart/mixed; boundary="===============9056953536008728162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Sat, 02 Oct 2021 13:42:20 -0000
-Message-Id: <163318214053.1398.3354991451941880888@gitolite.kernel.org>
+Date: Sat, 02 Oct 2021 13:43:37 -0000
+Message-Id: <163318221748.1871.7630794963977505936@gitolite.kernel.org>
 
---===============3396449981953807878==
+--===============9056953536008728162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
-    new: 4ef69e17eb567a3b276fcc3cb3452dcf89d8b063
-    log: revlist-e73f0f0ee754-4ef69e17eb56.txt
+    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    log: revlist-e73f0f0ee754-6880fa6c5660.txt
 
---===============3396449981953807878==
+--===============9056953536008728162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e73f0f0ee754-4ef69e17eb56.txt
+Content-Disposition: attachment; filename=revlist-e73f0f0ee754-6880fa6c5660.txt
 
+6f1fce595b78b775d7fb585c15c2dc3a6994f96e parisc: math-emu: Fix fall-through warnings
 c8b177b6e3a005bd8fb0395a4bc5db3470301c28 ALSA: usb-audio: Add registration quirk for JBL Quantum 800
 d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
 48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1049,6 +1050,5 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-4ef69e17eb567a3b276fcc3cb3452dcf89d8b063 HSI: cmt_speech: unmark comments as kernel-doc
 
---===============3396449981953807878==--
+--===============9056953536008728162==--
