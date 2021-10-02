@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 02 Oct 2021 01:29:11 -0000
-Message-Id: <163313815166.13344.969976819822482351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 02 Oct 2021 01:29:32 -0000
+Message-Id: <163313817290.13527.11740036442826427207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: d3a2b792fea055bd34264b4d2ce0930468838b6d
-    new: 536899fb2f3375aea653432d21ed6dd7248b7f22
+    old: 3672bb820f3292b6f035469f863c020317a3dd28
+    new: 67a12ae52599c9f2f24ef14adb43fc3b164792b5
     log: |
-         536899fb2f3375aea653432d21ed6dd7248b7f22 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         67a12ae52599c9f2f24ef14adb43fc3b164792b5 spi: spi-nxp-fspi: don't depend on a specific node name erratum workaround
          
   - ref: refs/heads/for-next
-    old: 7d9fee5272c4f34f6f108761936375513942b975
-    new: f2fe48f6ca9d6341098dd5ac91ec4c71b11c1355
+    old: a132dac8ecde4e3dda12dfc026f2c75b9e51db16
+    new: 73bde2efca1aa5aa8599f104b170496b4e4531db
     log: |
-         aab1ad11d69fa7f35cb88105614ea7911598e1d6 ASoC: nau8821: new driver
-         536899fb2f3375aea653432d21ed6dd7248b7f22 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-         f2fe48f6ca9d6341098dd5ac91ec4c71b11c1355 Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
+         67a12ae52599c9f2f24ef14adb43fc3b164792b5 spi: spi-nxp-fspi: don't depend on a specific node name erratum workaround
+         acde408188491ab8965c10bf82bb06600599cdd4 spi: Add sc7180 binding
+         73bde2efca1aa5aa8599f104b170496b4e4531db Merge remote-tracking branch 'spi/for-5.16' into spi-next
          
