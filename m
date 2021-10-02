@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1700400617279912870=="
+Content-Type: multipart/mixed; boundary="===============5291502111492691546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Sat, 02 Oct 2021 19:09:31 -0000
-Message-Id: <163320177161.12881.1089284720930365708@gitolite.kernel.org>
+Date: Sat, 02 Oct 2021 19:09:39 -0000
+Message-Id: <163320177958.12996.11268152195829770242@gitolite.kernel.org>
 
---===============1700400617279912870==
+--===============5291502111492691546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: 1649b83766944e320a6f087abf1e8a221f1cd8b0
     log: revlist-6880fa6c5660-1649b8376694.txt
 
---===============1700400617279912870==
+--===============5291502111492691546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -661,4 +661,4 @@ d1d598104336075e7475d932d200b33108399225 MAINTAINERS: update my email address
 0650e2b10afb3351e5f1b83fccef3c38c3db7bee gpio: 74x164: Add SPI device ID table
 1649b83766944e320a6f087abf1e8a221f1cd8b0 gpio: pca953x: Improve bias setting
 
---===============1700400617279912870==--
+--===============5291502111492691546==--
