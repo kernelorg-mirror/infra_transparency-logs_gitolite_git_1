@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0054741116765304469=="
+Content-Type: multipart/mixed; boundary="===============1103423017282327383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 02 Oct 2021 04:30:11 -0000
-Message-Id: <163314901160.2202.3348582609470104058@gitolite.kernel.org>
+Date: Sat, 02 Oct 2021 04:30:44 -0000
+Message-Id: <163314904496.2407.14978761189187806335@gitolite.kernel.org>
 
---===============0054741116765304469==
+--===============1103423017282327383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 35306eb23814444bd4021f8a1c3047d3cb0c8b2b
     new: 5cfe5109a1d7fd9686d5c695827216788bf0b1ec
     log: revlist-35306eb23814-5cfe5109a1d7.txt
 
---===============0054741116765304469==
+--===============1103423017282327383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -451,4 +451,4 @@ ca6e11c337daf7925ff8a2aac8e84490a8691905 phy: mdio: fix memory leak
 aec3f415f7244b7747a7952596971adb0df2f568 net: stmmac: dwmac-rk: Fix ethernet on rk3399 based devices
 5cfe5109a1d7fd9686d5c695827216788bf0b1ec MAINTAINERS: Remove Bin Luo as his email bounces
 
---===============0054741116765304469==--
+--===============1103423017282327383==--
