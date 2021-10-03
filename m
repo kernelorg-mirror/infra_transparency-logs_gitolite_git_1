@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 03 Oct 2021 09:27:23 -0000
-Message-Id: <163325324392.8870.4438753629857543573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 03 Oct 2021 09:41:51 -0000
+Message-Id: <163325411194.17269.13106908981679411757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/dev/ogabbay/dma-buf
-    old: ef750474b4c18c0b75163a9a966d359ca57031b6
-    new: 5b374afcecad458c7273797811ae98dd0ffe2a5f
-    log: |
-         5b374afcecad458c7273797811ae98dd0ffe2a5f habanalabs: add support for dma-buf exporter
-         
+  - ref: refs/tags/objtool_urgent_for_v5.15_rc4
+    old: 0000000000000000000000000000000000000000
+    new: ad32376bb9502c19ff5c8fdf20af1bc184d288bf
