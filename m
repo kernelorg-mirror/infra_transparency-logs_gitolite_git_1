@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5181761886635891898=="
+Content-Type: multipart/mixed; boundary="===============7898528632472369326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Sun, 03 Oct 2021 00:00:23 -0000
-Message-Id: <163321922363.32270.7721169179192498910@gitolite.kernel.org>
+Date: Sun, 03 Oct 2021 00:02:52 -0000
+Message-Id: <163321937271.610.15227966064090956978@gitolite.kernel.org>
 
---===============5181761886635891898==
+--===============7898528632472369326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,60 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/mapcount_unshare
-    old: 19c48b9783b3acb033664ab63a8ca57357852592
-    new: 1ad600ec0650aa748cd6cf06ac29e49df13962ea
-    log: revlist-19c48b9783b3-1ad600ec0650.txt
+  - ref: refs/heads/main-5.10.y
+    old: c79de21f24cb1076b63caaae23c5302fd6371ceb
+    new: 8adf8be9d4bfd87e0e59533929825333426169c3
+    log: revlist-c79de21f24cb-8adf8be9d4bf.txt
 
---===============5181761886635891898==
+--===============7898528632472369326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c48b9783b3-1ad600ec0650.txt
+Content-Disposition: attachment; filename=revlist-c79de21f24cb-8adf8be9d4bf.txt
 
-7d73b612a474cbc41c4d712aa85dc50678fa60b3 extraversion
-e315599de2b3f069b5659a67f96fa64f55bcd50a mm: thp: make the THP mapcount atomic with a seqlock
-895867ed930aa37c90637cb890179a88ff9848b1 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-24f2321d5d0fb93dab6925be6f198a4871a3fc06 mm: thp: introduce page_trans_huge_anon_shared
-4afbbf7e3900e4ddddff99104dc14f3f5f1a43e3 mm: thp: introduce page_mapcount_seq irqsafe version
-8689371b8702cc2e7a41e5b4a6beca3bc4c18ed5 mm: thp: introduce irqsafe methods to check if anonymous pages are shared
-f19c42c812fcf804991f1ba46cd785adc96f6ecf mm: gup: COR: copy-on-read fault
-7918b6de9f2f471392e8beca726afaea0afda239 mm: gup: gup_must_unshare()
-9c36d4866310daa6904efd6c54cc9199bab6a3c7 mm: gup: FOLL_UNSHARE
-106ea7b689af02bf34c63ce1c00665e8a39edc76 mm: gup: FOLL_UNSHARE: optimize mmu notifier
-5eb9434e070102760d00aed33d90bbf8cbe0b8b8 mm: COW: skip the page lock in the COW copy path
-7753ec7f0ad4549b7a24084a390c4e5b39fddcb4 mm: thp: replace the page lock with the seqlock for the THP mapcount
-3771dc26618494d2fca1f8489cc1581a63a51ce8 mm: COW: restore full accuracy in page reuse
-5f720ad502e3cd66f32e4dc79489ba339aaa515f mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-883a6939f3ba8b7963f6d1f95219fc07d83d1ccd mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-8226bdf7c2997fda2d23a804f671da7f37fa8543 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-97f634f1c4e1603f801f1744c48971ac94c1c428 mm: gup: document FOLL_MM_SYNC
-fb6da675a6182f6d38cf9cdb2a0fa005eb8bb7df mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-60aa4b46881887ad005562f3858aa6e29b9104ba mm: cacheline alignment for page_table_lock and mmap_lock
-1ea7b8c1098b1a5404602097a508c59446f23e1d mm: thp: page_trans_huge_mapcount_lock: optimize the migrate path
-01fe8f9bafb212fe6016d3a0d620a595075156d1 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
-49304558ced7be256926c176e28332984a55f2b1 mm: thp: optimize total_mapcount() with head_compound_mapcount
-536ec7ccf02797a80fdbd162336ee8662f314ed1 mm: thp: cleanup and optimize compound_nr
-3e14641933648eecdb49c3f949d09097e733413b mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-1ad600ec0650aa748cd6cf06ac29e49df13962ea mm: gup: FOLL_UNSHARE and COR fault
+85febe8b1b96fd10a5734e5d70b39629cb7985e0 extraversion
+544664ef23b39a0f12f3e98263ced4f0c9e95bfc sched/fair: skip select_idle_sibling() in presence of sync wakeups
+bd81aca513f5a337cae77ccc3de99b8964384582 mm: thp: make the THP mapcount atomic with a seqlock
+1760b836fc23d00f3f4c1d40d075827cf4aae679 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+528fda29ccd88f115b0ddb8f4bbdbc39328aa3bb mm: thp: introduce page_trans_huge_anon_shared
+e5d3155f0ce45e1f211bb86a02209b01aafedac8 mm: thp: introduce page_mapcount_seq irqsafe version
+85224ada7090c12955396fc0238cabb8674705b4 mm: thp: introduce irqsafe methods to check if anonymous pages are shared
+18a18ffb93e525a243aae2b7da203637d1e03147 mm: gup: COR: copy-on-read fault
+6f179290f0dda70eb1d984de269497435a69c3c5 mm: gup: gup_must_unshare()
+204ec5dd5ee53b4965ff0d00e411d6a087b0669e mm: gup: FOLL_UNSHARE
+1d3d8f82e3850593cdea8059119398f33e384a6b mm: gup: FOLL_UNSHARE: optimize mmu notifier
+2de6af4fd530bfb80bbe33488e9d659f1d864a16 mm: COW: skip the page lock in the COW copy path
+a8ecabb9c35f8f56a58edc52f45e7a04e4ab8b8a mm: thp: replace the page lock with the seqlock for the THP mapcount
+72c05d6f8ef1ef3dda0f91c82cf0e83be3447e14 mm: COW: restore full accuracy in page reuse
+6ea78ed9b687c340f09a59b55ca32963a5e69a28 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+5814836648dc6ed4d2135c8e91ccc780dc78b995 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+a1931e747674037403a4bc004c45ad147958ef61 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+e772ca84e3fca011250e14d1de30ebdf3919a0eb mm: gup: document FOLL_MM_SYNC
+e0bfdbb8982857d27d83840dbd837777f1d41fdf mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+d064b702ad03191a3a7865ca74526fb5ea4576fb mm: cacheline alignment for page_table_lock and mmap_lock
+ab6ba5aa175a6b69ba82ec3582c0cc57b7661b5b mm: gup: allow FOLL_PIN to scale in SMP
+33c3d27fb1eabf4bc5bb8d53ce676016aca66e8f mm: gup: pack has_pinned in MMF_HAS_PINNED
+dc6e4e96086e99a6ef7fb0681f887d9140bbe563 mm: thp: page_trans_huge_mapcount_lock: optimize the migrate path
+04f126bbcbcaed86df0cf566ee1414d4c5713329 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+c24874af3a3e3f4b9e0649576c087d8c02bb059b mm: thp: optimize total_mapcount() with head_compound_mapcount
+96cb2f2b36014d0b75c2437bda735544fe9b4c58 mm: thp: cleanup and optimize compound_nr
+46af082ccf5921bb5bee12ef6c121127ccdc2471 mm: proc: Invalidate TLB after clearing soft-dirty page state
+a7a6b33270d77d800d9e46c8d4a1aa1d2e503270 mm: thp: consolidate policy_nodemask call
+e5311d026d7dd390e1a76fe24db2104445a7fa47 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+e139a0de399ae080c3b1293830463e82b45a50d6 mm: mm_take_all_locks: add cond_resched()
+0d542d3973fc45910c0f67266d6457f9efa8030e x86: restore the write back cache of reserved RAM in iounmap()
+322fc51765481cb6a6bc34a6f76061b9dcfbd8c8 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+e966abe5dfd0085c54efe7380fe8d08cbcc62844 x86: deduplicate the spectre_v2_user documentation
+2edf27662f541fad77914b48997940ba869c4dfa x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+1cf5e53cedfd35f7a353657bda69a43b91087aea x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+9e3b4156b6314435392e00679999b46dd12616a6 x86: atomic_set needs WRITE_ONCE
+89044e020725ee586113dfc3323016397a92a218 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+c3a8641bd86872f3afd72aaae338154544873fba userfaultfd: fix a race between writeprotect and exit_mmap()
+ad85dc2b71ddf7f22c2178e289efdab9baf7a955 userfaultfd: UFFDIO_REMAP: rmap preparation
+aa1174eeb129acb942367875064d519384fbf3c4 userfaultfd: UFFDIO_REMAP uABI
+e58955c07bc540c9bde99a94c9d00b2b91bc885c mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+7846c2d781f104780213fc864834c8202c2e67bb arm64: select CPUMASK_OFFSTACK if NUMA
+fe2032472e830e335f0c223fe8a35bd543506d8a arm64: tlb: skip tlbi broadcast
+8adf8be9d4bfd87e0e59533929825333426169c3 Merge remote-tracking branch 'gitlab/main-5.10.y' into main-5.10.y
 
---===============5181761886635891898==--
+--===============7898528632472369326==--
