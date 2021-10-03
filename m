@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 03 Oct 2021 13:36:40 -0000
-Message-Id: <163326820047.25164.3836161803105768126@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7210960862049636952=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 03 Oct 2021 14:21:39 -0000
+Message-Id: <163327089908.24715.1695407096760086583@gitolite.kernel.org>
+
+--===============7210960862049636952==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b8aa16541d73994dc18c5e8789124f26189ed656
-    new: 0693b27644f04852e46f7f034e3143992b658869
+    old: eda12a1b99dd3d0f9d370d376c480b864fa72bc2
+    new: 21930942f036e890cc4eac38906b715451dcca00
     log: |
-         161eba50e183ed4ca20f6d8dec19bdc526d2b2b9 mctp: Add initial test structure and fragmentation test
-         ded21b72299529cc143a4213ea0ec4b0c620b8eb mctp: Add test utils
-         b504db408c34e01d791f69c61ee256a8c7eec62f mctp: Add packet rx tests
-         8892c0490779d6de921eb684e5504708fdbbcb68 mctp: Add route input to socket tests
-         1e5e9250d4224e3ed77846bd8d29ac66fbe6f05d mctp: Add input reassembly tests
-         0693b27644f04852e46f7f034e3143992b658869 Merge branch 'mctp-kunit-tests'
+         21930942f036e890cc4eac38906b715451dcca00 5.14-stable patches
          
+
+--===============7210960862049636952==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633270897 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1633270895-988c03ea26ac38f9d739d6c7acda3203e5159872
+
+eda12a1b99dd3d0f9d370d376c480b864fa72bc2 21930942f036e890cc4eac38906b715451dcca00 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFZvHEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g5oP/2LQs0Xa5hKY/wTW5/aR
+lUwuTfu15WHxWCVtBB89TnYqOoxErqk0AFW8PhW66EB+26vP86QBh0Jr9wnCWJYs
+rlDRmwh9ea1Y/NEBCyoaHc922qezYCIg9mZoYYSbD/ymBB0MzTbarIMoUcCo///X
+Py2JHHw3ceOIBUoxuucRZ9QUaYXCbOaILOctfzRgsOro6kJyVF2ESsZACufX7Gh8
+iMJi5ayJTeCKU0Ck6qORTHI0bISuD/lfJ60amuIpMSDl0QGj1xZbaTMouLRmTPqi
+woIXs4zw5ffQzpGMDkLgBW6o1HfFMDcclOG0sAIpIS//37wMQcIDVWZPMfY09IAx
+QKnNnfOMtAOmDD2/xmrh+D6MM0gU8yTR6MhCr7e86JD2rzVd8oO9I+pZLV54l7KM
+BpNcSkwY3EgQDV/KeqDLAzYTVRr96ot8hbJkeRo+A7sx6z42rLaT5N6ikcj2cXKg
+FAfc0Bd7aenzDT1y5Nv+/GSv4XYggcMBun8xpwac4IXbk9ZszcHbKcAfrhC6Gmtl
+9O3hgzfFBjG0e7A1xdR611c32EcTzkMTZ7eTIrkChptik8N4jTW0QG/5OinIvk6b
+lerT4CqPi6m4zyyZhXgYaR/DE+4hWugJAZdKbH3OaLtXc9DBzUcsP2kwspREYcjP
+Ra9CiXU6FcI8d5tPWtNdhORx
+=JWqg
+-----END PGP SIGNATURE-----
+
+--===============7210960862049636952==--
