@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 03 Oct 2021 10:25:42 -0000
-Message-Id: <163325674215.13323.11138341943358263009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 03 Oct 2021 11:47:47 -0000
+Message-Id: <163326166727.30002.3699601403504362084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/sched_urgent_for_v5.15_rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6691491ba1f8847de79891da4204ad333914fe9d
+  - ref: refs/heads/experimental
+    old: 4e1835683b0eb44ec4c24cfe26085efc4548a54a
+    new: 96a59540090c6376553ff6cd5a042efea53d2d50
+    log: |
+         3fecc5b5c9ddaa5ec8e8aaa40781de337e7c29b9 erofs-utils: dump: fix linking when using --with-selinux
+         96a59540090c6376553ff6cd5a042efea53d2d50 erofs-utils: clevel set up as an individual function
+         
