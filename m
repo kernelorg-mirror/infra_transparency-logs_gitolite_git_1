@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 03 Oct 2021 21:05:18 -0000
-Message-Id: <163329511846.15285.3409892437517351925@gitolite.kernel.org>
+Date: Sun, 03 Oct 2021 21:11:09 -0000
+Message-Id: <163329546957.18384.11099240188659862059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,11 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9
-    new: 9b2f72cc0aa4bb444541bb87581c35b7508b37d3
+    old: 9b2f72cc0aa4bb444541bb87581c35b7508b37d3
+    new: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
     log: |
-         9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
+         9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
          
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
