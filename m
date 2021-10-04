@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3047856871914693838=="
+Content-Type: multipart/mixed; boundary="===============4126576571831377340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 04 Oct 2021 07:59:55 -0000
-Message-Id: <163333439506.26574.8160215448032497789@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 08:00:00 -0000
+Message-Id: <163333440098.26646.17453810525883305619@gitolite.kernel.org>
 
---===============3047856871914693838==
+--===============4126576571831377340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 172da89ed0eaf9d9348f5decb86ad04c624b39d1
-    new: a46044a92add6a400f4dada7b943b30221f7cc80
-    log: revlist-172da89ed0ea-a46044a92add.txt
+  - ref: refs/heads/features
+    old: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
+    new: f367c7d9fb326996862f6b5cf2aff7a2df64692d
+    log: revlist-5816b3e6577e-f367c7d9fb32.txt
 
---===============3047856871914693838==
+--===============4126576571831377340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-172da89ed0ea-a46044a92add.txt
+Content-Disposition: attachment; filename=revlist-5816b3e6577e-f367c7d9fb32.txt
 
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
 4df031ff5876d94b48dd9ee486ba5522382a06b2 ext4: check and update i_disksize properly
@@ -221,6 +221,7 @@ c83ff0186401169eb27ce5057d820b7a863455c3 drm/i915/request: fix early tracepoints
 33092aca857bf35a8e9cac0e8340c685a4796e90 mac80211: Fix Ptk0 rekey documentation
 44b6aa2ef69f5b0edf595810236f4ff61503b7e9 net: hns: Fix spelling mistake "maped" -> "mapped"
 763716a55cb1f480ffe1a9702e6b5d9ea1a80a24 net: bgmac-platform: handle mac-address deferral
+172da89ed0eaf9d9348f5decb86ad04c624b39d1 s390/cio: avoid excessive path-verification requests
 2974b8a691a94ad5bf29b584dd4fb03829aa43d1 Revert "ibmvnic: check failover_pending in login response"
 ab609f25d19858513919369ff3d9a63c02cd9e2e net: mdiobus: Fix memory leak in __mdiobus_register
 fe23036192c95b66e60d019d2ec1814d0d561ffd dsa: mv88e6xxx: 6161: Use chip wide MAX MTU
@@ -394,7 +395,20 @@ e25ca045c32a0d787b143fef0acc5a43cc9ccc66 Merge tag '5.15-rc3-ksmbd-fixes' of git
 ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
-686cb8b9f6b46787f035afe8fbd132a74e6b1bdd bpf, s390: Fix potential memory leak about jit_data
-a46044a92add6a400f4dada7b943b30221f7cc80 s390/pci: fix zpci_zdev_put() on reserve
+b860b9346e2d5667fbae2cefc571bdb6ce665b53 s390/ftrace: remove dead code
+4df898dc06da83052c73a2ce9a6a4df5640a0905 s390/kprobes: add sanity check
+1c8174fdc798489159a79466fca782daa231219a s390/pci: tolerate inconsistent handle in recover
+fa172f043f5bc21c357c54a6ca2e9c8acd18c3db s390/cio: unregister the subchannel while purging
+6526a597a2e856df9ae94512f9903caccd5196d6 s390/pci: add simpler s390dbf traces for events
+0c3812c347bfb0dc213556a195e79850c55702f5 s390/cio: derive cdev information only for IO-subchannels
+54235d5cfea05f2891dca71d51d7ab097b53d22b s390/sclp_sd: fix warnings about missing parameter description
+f768a20c0a6e5f2396b9ab99bbbfd39d91228df9 s390/ftrace: add FTRACE_GEN_NOP_ASM macro
+d340d28a968ec479d0ed3c38ab716ed821d82ad8 kprobes: add testcases for s390
+bca2d0428e3d83b1a39ec46033e69fba8624280f s390/sclp_vt220: fix unused function warning
+584315ed87a7dce663ef3f07956b5f363f83c7bd s390/boot: initialize control registers in decompressor
+e3ec8e0f5711d73f7e5d5c3cffdf4fad4f1487b9 s390/boot: allocate amode31 section in decompressor
+11dfe199eb31079a6f2517a59c380ad55f156696 s390/block/dasd_genhd: add error handling support for add_disk()
+1a5db707c859a4f63c1066c5b88864d3f1c21c12 s390/block/dcssblk: add error handling support for add_disk()
+f367c7d9fb326996862f6b5cf2aff7a2df64692d s390/block/scm_blk: add error handling support for add_disk()
 
---===============3047856871914693838==--
+--===============4126576571831377340==--
