@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Mon, 04 Oct 2021 12:36:18 -0000
-Message-Id: <163335097812.30780.202136439822860879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Mon, 04 Oct 2021 12:38:30 -0000
+Message-Id: <163335111015.31471.10460089245753782211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/ftrace/core
-    old: da172a37949bf96fc14dd634941b236ddf67c446
-    new: b3a592c6e4dd1084f8d3fffe4684a47663ef7c3c
+  - ref: refs/heads/pidfd.pidfd_get_task
+    old: 6462d522bf1880fb03338d907a026b5a9ee76a71
+    new: 6d7317251bbe446cb8bf6ec548700aa3dc390449
     log: |
-         b3a592c6e4dd1084f8d3fffe4684a47663ef7c3c rcu: Use typeof(p) instead of typeof(*p) *
+         028db60b306a2ec9c64153197c412062a3853be0 pid: add pidfd_get_task() helper
+         6d7317251bbe446cb8bf6ec548700aa3dc390449 mm: use pidfd_get_task()
          
