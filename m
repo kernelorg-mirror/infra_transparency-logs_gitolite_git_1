@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2022595250757559232=="
+Content-Type: multipart/mixed; boundary="===============8060189402822322428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 04 Oct 2021 15:59:42 -0000
-Message-Id: <163336318231.1181.10793698006590829839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 04 Oct 2021 15:59:54 -0000
+Message-Id: <163336319429.1362.3783682143246057933@gitolite.kernel.org>
 
---===============2022595250757559232==
+--===============8060189402822322428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 1276de9001b0ddf83d98fbea7789753d12a808fa
-    new: 360f03ba76a481a855aadc6b6cc8aa3ec2c61332
-    log: revlist-1276de9001b0-360f03ba76a4.txt
+  - ref: refs/heads/queue-next
+    old: 4164f52ccaac7cb935d0c9979cf82bcdaecb585e
+    new: dffdb162633d9536af24ace8ed9cb014b1115d80
+    log: revlist-4164f52ccaac-dffdb162633d.txt
 
---===============2022595250757559232==
+--===============8060189402822322428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1276de9001b0-360f03ba76a4.txt
+Content-Disposition: attachment; filename=revlist-4164f52ccaac-dffdb162633d.txt
 
 d9bc9ec45e015baf5cd8f055e6a6f85b133b4fe3 ravb: Rename "ravb_set_features_rx_csum" function to "ravb_set_features_rcar"
 2b061b545cd0d393585da2909044b15db1ac426f ravb: Rename "no_ptp_cfg_active" and "ptp_cfg_active" variables
@@ -68,6 +68,7 @@ af804e6db9f60b923ff5149d9bf782e0baa82a2b net: usb: use eth_hw_addr_set() instead
 16be9a16340b1cec90be018162e434c8bdd1fcd1 ethernet: use eth_hw_addr_set() - casts
 e9637775c05f2bbae24f060a91b7f8459bbe2286 Merge branch 'hw_addr_set'
 b8aa16541d73994dc18c5e8789124f26189ed656 net: wwan: iosm: correct devlink extra params
+ddb1a25efcc3238044961802a6ce4e720b490cf7 RDMA/mlx5: Set user priority for DCT
 161eba50e183ed4ca20f6d8dec19bdc526d2b2b9 mctp: Add initial test structure and fragmentation test
 ded21b72299529cc143a4213ea0ec4b0c620b8eb mctp: Add test utils
 b504db408c34e01d791f69c61ee256a8c7eec62f mctp: Add packet rx tests
@@ -144,5 +145,7 @@ c14e862ed5882bdb4a05f75dafa63292cd39f0de Merge branch 'mlx5-vdpa' into net-next
 aa57dee3e73d762557d4c8063ef9e59aaaeed83b Merge branch 'mlx5-queue' into net-next
 a96c71fb8f0d772c381b37cfe2d26380e25983de Merge branch 'mlx4-for-net' into net-next
 360f03ba76a481a855aadc6b6cc8aa3ec2c61332 Merge branch 'mlx5-for-net' into net-next
+a2c26276da33463e571fb49fc3c17e50dd4f91be Merge branch 'net-next' into queue-next
+dffdb162633d9536af24ace8ed9cb014b1115d80 Merge branch 'testing/rdma-next' into queue-next
 
---===============2022595250757559232==--
+--===============8060189402822322428==--
