@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 04 Oct 2021 21:39:04 -0000
-Message-Id: <163338354408.21902.14725173152007287609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 04 Oct 2021 22:02:49 -0000
+Message-Id: <163338496910.4761.15698818658116716189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/todo
-    old: 723ddc763f76d73ef7c0e7513e81601a2c7a3324
-    new: dc6f74fae2ea843b180ac7e0ec90a9d08abf12d0
+  - ref: refs/heads/master
+    old: 84b3e42564accd94c2680e3ba42717c32c8b5fc4
+    new: f6274b06e326d8471cdfb52595f989a90f5e888f
     log: |
-         41f1695ffe1b136d0a5af4d491ecaea3be4dec00 What's cooking (2021/09 #09)
-         dc6f74fae2ea843b180ac7e0ec90a9d08abf12d0 What's cooking (2021/10 #01)
+         2f9602870886af74d97bac23ee6db5f5466d0a49 selftests: drivers/dma-buf: Fix implicit declaration warns
+         f6274b06e326d8471cdfb52595f989a90f5e888f Merge tag 'linux-kselftest-fixes-5.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
          
