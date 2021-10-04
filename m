@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4799799740757702497=="
+Content-Type: multipart/mixed; boundary="===============1556873461287112708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 04 Oct 2021 16:02:12 -0000
-Message-Id: <163336333298.3632.2430805449728800993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 04 Oct 2021 16:02:18 -0000
+Message-Id: <163336333823.3721.2732345223305958749@gitolite.kernel.org>
 
---===============4799799740757702497==
+--===============1556873461287112708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: da4893ddf8e2d6c3df2df7f4b1e350e191ce2a37
-    new: 18c4147930c50c773b9c08f82781655ff066ed3c
-    log: revlist-da4893ddf8e2-18c4147930c5.txt
+  - ref: refs/heads/queue-rc
+    old: 4e7512064b6fa1cf39a7723223137ba3305c8f70
+    new: d8bc27b2f31e45d5dc58765274399ce28039b3f5
+    log: revlist-4e7512064b6f-d8bc27b2f31e.txt
 
---===============4799799740757702497==
+--===============1556873461287112708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da4893ddf8e2-18c4147930c5.txt
+Content-Disposition: attachment; filename=revlist-4e7512064b6f-d8bc27b2f31e.txt
 
 339031bafe6b281cf2dcb8364217288b9fdab555 netfilter: conntrack: fix boot failure with nf_conntrack.enable_hooks=1
 e189ae161dd784aa5d454b0832f818cacc0e131b netfilter: nf_tables: add position handle in event notification
@@ -41,5 +41,7 @@ b41f921f68a069164278957cf2617da3a3cefd49 !!! DEBUG PATCH !!! net/mlx5e: Monitor 
 f9697d97744d068220375da7a43e3411535dc13e Merge branch 'patchq/433941' into mlx5-for-net
 1acef4de373c97f4f7888c7d044efb9a0029f4f3 Merge branch 'patchq/433683' into mlx5-for-net
 18c4147930c50c773b9c08f82781655ff066ed3c Merge branch 'mlx5-for-net' into net-rc
+b1a7b08efc06aeda3c142f70a34fb88494f455f1 Merge branch 'net-rc' into queue-rc
+d8bc27b2f31e45d5dc58765274399ce28039b3f5 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============4799799740757702497==--
+--===============1556873461287112708==--
