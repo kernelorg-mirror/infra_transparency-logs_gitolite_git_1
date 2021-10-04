@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6036157049083339706=="
+Content-Type: multipart/mixed; boundary="===============6802413237662330861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 04 Oct 2021 10:55:29 -0000
-Message-Id: <163334492985.27888.3771333977551431886@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 10:55:40 -0000
+Message-Id: <163334494045.28026.648107845971142708@gitolite.kernel.org>
 
---===============6036157049083339706==
+--===============6802413237662330861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: da4faebd2c67f7c841d40ac30db4ab55fa632050
-    new: 29fd79b016216df98715c5887969ea571b27409f
-    log: revlist-da4faebd2c67-29fd79b01621.txt
+  - ref: refs/heads/m68k-queue
+    old: b1a190f6bde6ec357e9107313428c8ea61be554b
+    new: f5aecbac0f3282e5b15b8a0687ba6d7ad9d5e168
+    log: revlist-b1a190f6bde6-f5aecbac0f32.txt
 
---===============6036157049083339706==
+--===============6802413237662330861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da4faebd2c67-29fd79b01621.txt
+Content-Disposition: attachment; filename=revlist-b1a190f6bde6-f5aecbac0f32.txt
 
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
 4df031ff5876d94b48dd9ee486ba5522382a06b2 ext4: check and update i_disksize properly
@@ -395,6 +395,9 @@ e25ca045c32a0d787b143fef0acc5a43cc9ccc66 Merge tag '5.15-rc3-ksmbd-fixes' of git
 ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
-29fd79b016216df98715c5887969ea571b27409f Merge tag 'v5.15-rc4'
+96cb6c3bb76236809013ea2829bf4fbfab44f2d7 m68k: muldi3: Use semicolon instead of comma
+164388bcbc886efb48952fd3c509b6ce1d86fb81 m68k: atari: usb: Add ISP1160 USB host controller support
+a831d40957bd0df60810dccdb03f4082ef50bd25 m68k: atari: Update Kconfig.bus help text
+f5aecbac0f3282e5b15b8a0687ba6d7ad9d5e168 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6036157049083339706==--
+--===============6802413237662330861==--
