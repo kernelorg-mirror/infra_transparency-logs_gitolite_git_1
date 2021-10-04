@@ -1,34 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 04 Oct 2021 22:24:10 -0000
-Message-Id: <163338625047.18413.2056542220363719976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Mon, 04 Oct 2021 22:36:07 -0000
+Message-Id: <163338696782.25988.13801686476346924419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-greg/4.14-201
-    old: 0000000000000000000000000000000000000000
-    new: 70fdeb4e9a17e8ea1611454fdb3afa3dd71849d8
-  - ref: refs/heads/for-greg/4.19-201
-    old: 0000000000000000000000000000000000000000
-    new: b903f33a3d6a65bddda3923722897d2bdc2b8ace
-  - ref: refs/heads/for-greg/4.4-201
-    old: 0000000000000000000000000000000000000000
-    new: e04f2326043fff34515a6ec2d510a4833f185ae4
-  - ref: refs/heads/for-greg/4.9-201
-    old: 0000000000000000000000000000000000000000
-    new: 22ca19f2f25b462169c3e188318316741e4820aa
-  - ref: refs/heads/for-greg/5.10-201
-    old: 0000000000000000000000000000000000000000
-    new: 43efbc8e4f92924099320e09981e463d2d54bbc7
-  - ref: refs/heads/for-greg/5.14-201
-    old: 0000000000000000000000000000000000000000
-    new: 6a44fbd342ce84393c554df3c40f60a4cec9d17e
-  - ref: refs/heads/for-greg/5.4-201
-    old: 0000000000000000000000000000000000000000
-    new: 3b30643c0f2665366833373cad1847ebe5febc62
+  - ref: refs/heads/master
+    old: 52479d8ba51c9c3461220673cae01b0e57d9050f
+    new: 265697fc16b767fee5fae25a73d74ec4df20d94a
+    log: |
+         265697fc16b767fee5fae25a73d74ec4df20d94a t/io_uring: check for valid clock_index and finish state for stats
+         
