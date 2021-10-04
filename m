@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 04 Oct 2021 10:26:29 -0000
-Message-Id: <163334318971.8543.15042464019573601227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 04 Oct 2021 10:27:05 -0000
+Message-Id: <163334322554.8782.5103127426903668769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: b740fa6e32f2ab5de8a0360d1c91360997c6279e
-    new: 5b075de0efe578ac0d45647e8aa3b9d9c84184a8
+  - ref: refs/heads/arm-vmap-stacks
+    old: 7683c611bb13453fdd9a27e5a715c0b292538afe
+    new: 9070d2bf4d66b845af020b463895da51ff168a17
     log: |
-         8a5d58cb11617d513460aca8e5054db6230eb2de xhci: Fix command ring pointer corruption while aborting a command
-         5b075de0efe578ac0d45647e8aa3b9d9c84184a8 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+         1b5b309ac1456307b27af7d7e653590459ff63bc ARM: unwind: disregard unwind info before stack frame is set up
+         9070d2bf4d66b845af020b463895da51ff168a17 ARM: implement support for vmap'ed stacks
          
