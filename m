@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 04 Oct 2021 12:52:03 -0000
-Message-Id: <163335192334.9735.11944786254163927381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 04 Oct 2021 13:14:08 -0000
+Message-Id: <163335324846.21759.17311185312531341360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/at91-next
-    old: 7ff329b4b56a6e2e9e5085a968f6030a6f26a9da
-    new: b4af371d908f61b5367353e991fc69191cf7d239
+  - ref: refs/heads/master
+    old: 23b08260481ca552180130bbef0f3a60df4c092e
+    new: 1660034361904dfcb82714aa48615a9b66462ee6
     log: |
-         3efc443121180c2acc987929b3b7b86ca83e3ee5 ARM: at91: add basic support for new SoC family lan966
-         b4af371d908f61b5367353e991fc69191cf7d239 Merge branch 'at91-soc' into at91-next
+         a2c27a61b4335344c1bacaade61e9b2dc6e12a76 net: phylink: add phylink_set_10g_modes() helper
+         14ad41c74f6be0bfaf5202b7e49254e2482da56f net: ethernet: use phylink_set_10g_modes()
+         1660034361904dfcb82714aa48615a9b66462ee6 Merge branch 'phy-10g-mode-helper'
          
