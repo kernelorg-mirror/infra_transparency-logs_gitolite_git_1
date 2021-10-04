@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7281238047100341033=="
+Content-Type: multipart/mixed; boundary="===============5096506610526390325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 04 Oct 2021 17:56:43 -0000
-Message-Id: <163337020356.12235.6406487999654363691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 04 Oct 2021 17:57:01 -0000
+Message-Id: <163337022147.12385.1929281939470576743@gitolite.kernel.org>
 
---===============7281238047100341033==
+--===============5096506610526390325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/for-next/clang/features
-    old: 14c4c8e41511aa8fba7fb239b20b6539b5bce201
-    new: 423f18fbbae0f89352a84dbd144d0289e9ffe83f
-    log: revlist-14c4c8e41511-423f18fbbae0.txt
+  - ref: refs/heads/objtool/urgent
+    old: 1d489151e9f9d1647110277ff77282fe4d96d09b
+    new: 958c063d3b9e9445df7fefe91d3a98201ee29988
+    log: revlist-1d489151e9f9-958c063d3b9e.txt
 
---===============7281238047100341033==
+--===============5096506610526390325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14c4c8e41511-423f18fbbae0.txt
+Content-Disposition: attachment; filename=revlist-1d489151e9f9-958c063d3b9e.txt
 
-9673e0050c39b0534d0e2ca431223f52089f4959 ocfs2: ocfs2_downconvert_lock failure results in deadlock
-4bdffd2708d65e68ff254d90793bb167d828219f arch/csky/kernel/probes/kprobes.c: fix bugon.cocci warnings
-3c9b84f044a9e54cf56d1b2c9b80a2d2ce56d70a mm/debug_vm_pgtable: introduce struct pgtable_debug_args
 36b77d1e159283da3c9414cbe6d9cb8e79a59c19 mm/debug_vm_pgtable: use struct pgtable_debug_args in basic tests
 8983d231c7cc1adaebed89153552da1e3fd55f61 mm/debug_vm_pgtable: use struct pgtable_debug_args in leaf and savewrite tests
 8cb183f2f2a014e818cf60de3afd5a06410fd5b9 mm/debug_vm_pgtable: use struct pgtable_debug_args in protnone and devmap tests
@@ -1049,6 +1046,9 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-423f18fbbae0f89352a84dbd144d0289e9ffe83f kallsyms: strip LTO suffixes from static functions
+24ff652573754fe4c03213ebd26b17e86842feb3 objtool: Teach get_alt_entry() about more relocation types
+2b272df413a331a999b84f490a79849d59538f36 objtool: Make .altinstructions section entry size consistent
+95ab1708e6bf33d7c68f1c8ec7e4d23965d9e1dc objtool: Remove redundant 'len' field from struct section
+958c063d3b9e9445df7fefe91d3a98201ee29988 objtool: Remove reloc symbol type checks in get_alt_entry()
 
---===============7281238047100341033==--
+--===============5096506610526390325==--
