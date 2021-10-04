@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0894745800628274972=="
+Content-Type: multipart/mixed; boundary="===============4993436647675036350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 04 Oct 2021 12:43:48 -0000
-Message-Id: <163335142837.2216.17224554381831156442@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 12:44:05 -0000
+Message-Id: <163335144568.2355.15723034528954323283@gitolite.kernel.org>
 
---===============0894745800628274972==
+--===============4993436647675036350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,87 +17,87 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.4.y
-    old: f88d943102d40ff457a2164f0615b170666dbb63
-    new: 429cb613cfd0902fe6557f95ea0319291f1a717d
-    log: revlist-f88d943102d4-429cb613cfd0.txt
+    old: 429cb613cfd0902fe6557f95ea0319291f1a717d
+    new: ca991579c67a2ea7a1d4dc94ad077b3e14b9c9ed
+    log: revlist-429cb613cfd0-ca991579c67a.txt
 
---===============0894745800628274972==
+--===============4993436647675036350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633351426 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633351444 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1633351425-9cb07d1d4d89f8cebef30b32a6055c5030742355
+nonce 1633351442-ad6c48d41a2a12183ca11a371a67dcf2290368db
 
-f88d943102d40ff457a2164f0615b170666dbb63 429cb613cfd0902fe6557f95ea0319291f1a717d refs/heads/linux-4.4.y
+429cb613cfd0902fe6557f95ea0319291f1a717d ca991579c67a2ea7a1d4dc94ad077b3e14b9c9ed refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFa9wIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HnQQANfwy28LQ+Fy3+e23Y0l
-9ZaWbdQDdxbynUWZHXRB6coDwPTO4rycz56G/Xz0PkqkRMRDlAwsXHQkgla+Yd8O
-0r3wudQOs8JxwsaENw44GCPagVYfDpAxD20nwFrWYMnPlnkgY/crNshTDslAE/6n
-gS2v+KqJ9qYEd824l2vuITK83ibU6Ys9x8JXHGELc047NqS8hNDqzoZRtrvR6bKQ
-SB9nat9Jlww/Lp/QWzBXyKFUUE6Br36+VY2s9NMJzlKJPfXq48qClGU6FRNY8iyw
-67SQiP1rx9KNU1NoYW3VdNQoIQ/Jwf5dI71mySvgKC6r0LFmfewuJs+KijVoa9PY
-RFjkXMeabyrRcDlBgmiFJJ8pwxQ72FerlbgI4SlF59iQmpiCpxv86bzSS73hYSJy
-eTErkE40ZIWRiXNYpzgsRh+5rPZYNa3Pe+zbLDWfkw06r8gmeR+1FHuHEIWIqKzJ
-O7mdVNTALmaAPwzYsJbKl5jTnofpwA1uvCKaSj6rfuhQFweAPP6MH9X5kJECK0+q
-e0BXQQzhZKXpgZBr4lip3B9YXhaLKtUygWkneBttGOqeNlbV3A9kT9uJma/dNU+x
-MLnpZuixVy93nafgAm0A/Wdr2l2fxuSsVfc856zP6nYS90LCKQtnbgJUTGlNKeUc
-Tdy0YfG6PaX8BgAwVqvRTxWW
-=HcWW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFa9xQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mu8P/iImzR3S8ER3PzaJ0+GD
+hzrMLTaB4kLnYPIzcbzSRJy7xr8PPsdyu7RtF40Dc1SIKW5mWS9ezjkwrE+kn1D/
+02tQdBGJqJmSI6+IA1PZ34PdUn1vQCj5vQox4uqFuW2L6t2brUXCo4BebOQkqNKw
+y35yFN+FWbGgg8bL6dFBdEZY2uIvX8N/7Nt2pOIosN/v9y+Irke0M7y6rzc7SHUv
+HhvVrsXhi38AUFlkyeJ0z4pSZeIVQVha/V6HP1P9F5bZqat/S/xQKt1lhzR4Qyf8
+iee6tZc32cc3xKJgwQp0eeBJmGcB0HephxjGo8klF3C8L9KPWJSicaKfI6o35hZU
+fXRGaLN7a6mppq5YucYMue+UJq2fzuhvIV768CeLk+G5omEDnRLHdeAejnRedk5V
+BBrPX+eXheOW0ZfGzqgLWWlbyeGYA+Ah22/51jWcd28CNB32mGdSUz9a6IEBsnxi
+yha89yRH69TbI+xXVMPwvkaby0gqEap1FbDYzz7nXxh1Hvud4riPpAUgYM0nVeG5
+vS9mp93xV+X0EK++lt21fH+qqZMCnnL7vkQdZpRhEMBFv0ezgKH05HQChTF1dwmx
+yaC2RcbVtKDA/H4V1at1HVTCUJxAmMkXcdUj/+0tvQGLXjIIsLvXij5Zf4ViLe46
+IJUU1Fuh/ediN8e25eG1H80Z
+=p9sC
 -----END PGP SIGNATURE-----
 
---===============0894745800628274972==
+--===============4993436647675036350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f88d943102d4-429cb613cfd0.txt
+Content-Disposition: attachment; filename=revlist-429cb613cfd0-ca991579c67a.txt
 
-3417239e6fcee6ccc6128e5ee94db36ab00e38b3 usb: gadget: r8a66597: fix a loop in set_feature()
-0e3e2f10fe4145dde1f999ebad9368ac9327c5ba usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-31ee05a012213b84c75c858e99bd0b157b52cbb2 cifs: fix incorrect check for null pointer in header_assemble
-5580f72dcce217b639880ef975b7ac73788a148d xen/x86: fix PV trap handling on secondary processors
-5d4d56d08244e8ddf5f1ab784ced9a5be3c529ad USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
-9a7991e915e7065ca8941b1e4e997d43e295698c USB: serial: mos7840: remove duplicated 0xac24 device ID
-44fdf9424a56e7c5c5c5c0c78ae47aca9e6ca5e1 USB: serial: option: add Telit LN920 compositions
-0eb53bb571967d6a4eae9c25ae49db8e807cc547 USB: serial: option: remove duplicate USB device ID
-8f6f627e3899e448d4b86b0b4a73dfad159465e6 USB: serial: option: add device id for Foxconn T99W265
-11fd7501f755ee0672fae78d0b34203128ff5021 net: hso: fix muxed tty registration
-3c5935fecdbf21f8f1fe83a00f7e9f3c433308f8 net/mlx4_en: Don't allow aRFS for encapsulated packets
-a68d256001de3a0afae5d8346bbd675bb8f8c61c scsi: iscsi: Adjust iface sysfs attr detection
-a2f08d1d6dd338f3ec588636a95a9dc14190ba16 blktrace: Fix uaf in blk_trace access after removing by sysfs
-976909ba5d9b7ff29bb732ace952eca6b94c8752 m68k: Double cast io functions to unsigned long
-0802ca7abc025ce43a0090318a87e844e5f26403 compiler.h: Introduce absolute_pointer macro
-b51c89197c7ba2834e1de612892a89b33b25dd80 net: i825xx: Use absolute_pointer for memcpy from fixed memory location
-0fbb25952d8dbd075d8db300cbb3080de99473bc sparc: avoid stringop-overread errors
-da2571e516c7cc42537521735dc7e54d910d53da qnx4: avoid stringop-overread errors
-e8a8e75fe892285ed729e2bd00c145cfcf08c08e parisc: Use absolute_pointer() to define PAGE0
-5abee4342008c24780538a1937768da5492794e6 arm64: Mark __stack_chk_guard as __ro_after_init
-bb89d4343cfcc4f69a172afee137031baf10b284 alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
-2903806099fbe8d0a4170fe65d4420097dc5c5d9 net: 6pack: Fix tx timeout and slot time
-86c3b9d9dfedf72ca5aa77d0035ea43111cbc8de spi: Fix tegra20 build with CONFIG_PM=n
-82082a5d3437d06fbbec5100bc6defbecb35c5a3 qnx4: work around gcc false positive warning bug
-fe69cf865418591b72462e11c8415703688eb551 tty: Fix out-of-bound vmalloc access in imageblit
-92fe33da2fb53de06c0f0d0e3b343d7ffcc84893 mac80211: fix use-after-free in CCMP/GCMP RX
-6393acbd3bb17cd5bc3e430fe44c3db5b72844c2 ipvs: check that ip_vs_conn_tab_bits is between 8 and 20
-859459a2d052eab2f614781716a8794e806ffd96 e100: fix length calculation in e100_get_regs_len
-43b1615ae4cbde5a412eff4941f08c8958c03ae7 e100: fix buffer overrun in e100_get_regs
-8697ae20c3eef751b023dcb18d2f1a4ec8781bee ipack: ipoctal: fix stack information leak
-c6e1d7a6e23fa38c28eb3af1e5ac6b8be85c6173 ipack: ipoctal: fix tty registration race
-ec0760dc601da6ec91c4fd8c7009725ef6f713de ipack: ipoctal: fix tty-registration error handling
-8f6999ccf32456c2c57d240896dcb53b5de6b38b ipack: ipoctal: fix missing allocation-failure check
-b00bdf94f6a632655c71143e97ed38db577d33b5 ipack: ipoctal: fix module reference leak
-9b0bd3900dedb158b53e269d60d034e5a08037cf ext4: fix potential infinite loop in ext4_dx_readdir()
-cd8a7872a7f7ece1da3e3d41544f8dfcc45aa905 EDAC/synopsys: Fix wrong value type assignment for edac_mode
-489eac6beff9575ab7b3dc7fa0fadc67adab14f4 arm64: Extend workaround for erratum 1024718 to all versions of Cortex-A55
-51c84666180e57f00d6c7f05cb96e831089d02db HID: betop: fix slab-out-of-bounds Write in betop_probe
-ab668ac50b97858292b11e65eb3451c462761247 netfilter: ipset: Fix oversized kvmalloc() calls
-b4cb466e90b7a56a666c53742250949702575dd3 HID: usbhid: free raw_report buffers in usbhid_stop
-90175eaffb6db823cb8be38fbe7fe9606041e829 net: mdiobus: Fix memory leak in __mdiobus_register
-429cb613cfd0902fe6557f95ea0319291f1a717d Linux 4.4.286-rc1
+2b98a88ae2c94f6f797e6fdacec3ec1d03c1433c usb: gadget: r8a66597: fix a loop in set_feature()
+c170352390950a858af895e77db079cd4a20b6fd usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
+5c2dc8144110c0215dd88c78597a021c508b62b3 cifs: fix incorrect check for null pointer in header_assemble
+43c5194369ec1853c1f983a97fad1aab13be8ca6 xen/x86: fix PV trap handling on secondary processors
+24f74cdf4c6de0a0027cc4eafde3e9fab3720b6d USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter
+8361bbf8eea34561c6a2afa55d336dbe58593bf7 USB: serial: mos7840: remove duplicated 0xac24 device ID
+7b3c78ecd7570ae7c003c19051e5b367a5673b62 USB: serial: option: add Telit LN920 compositions
+d66ebf5fc21bcb895ec842a212b5dfa3b631f1a5 USB: serial: option: remove duplicate USB device ID
+4ca8d4cc7557c022cb468244e9252ddbdebe96aa USB: serial: option: add device id for Foxconn T99W265
+950102570214188863b18832a4dc8f38b5ce051c net: hso: fix muxed tty registration
+cf7906506a42c3cc89475bc215be1c9f89a967c4 net/mlx4_en: Don't allow aRFS for encapsulated packets
+ab7bcc2976114bd586f720927c930bd97031d6b2 scsi: iscsi: Adjust iface sysfs attr detection
+8b8bcc5da2729edf925f98675f6535d5c2a25fdb blktrace: Fix uaf in blk_trace access after removing by sysfs
+b48a1c242f424488a50c7e56f9d650e21a7ca93c m68k: Double cast io functions to unsigned long
+ebd4276cbca100f830dd672110838125ca6fded1 compiler.h: Introduce absolute_pointer macro
+632e22e214433fc70fd7f6ea41d55e3fbea1374f net: i825xx: Use absolute_pointer for memcpy from fixed memory location
+4011d5b37bdbb4ada986a809d36be93bb5159c01 sparc: avoid stringop-overread errors
+57aab1f29a61e41a668d22dbb6dbf03e402e83ce qnx4: avoid stringop-overread errors
+4e43bf7e5ec1f26ece723c8492326a060abfd8b7 parisc: Use absolute_pointer() to define PAGE0
+6a41ec350334d2e356950d673880eb3f332e7ba2 arm64: Mark __stack_chk_guard as __ro_after_init
+8bc0a349b33648943dd1c414715b1b56af80efee alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile
+5f906a6a68223402126c6b23843c5e9126961fad net: 6pack: Fix tx timeout and slot time
+db32fec90d4096e8e6e7e46e52c2e061acbc0b16 spi: Fix tegra20 build with CONFIG_PM=n
+43f75b273a7ecd8037eb4421ab3f2493a5f29ecf qnx4: work around gcc false positive warning bug
+a296d5ec9a154dc2c2c9e86eabf1ccf89dfa4eb5 tty: Fix out-of-bound vmalloc access in imageblit
+71cb6fe98fd49935faa60c2bf38f87c9104b293a mac80211: fix use-after-free in CCMP/GCMP RX
+ec0e7fda17856b27242736646ff9efb3b16c4781 ipvs: check that ip_vs_conn_tab_bits is between 8 and 20
+db11ca02351f2a9036bdcc8225f094bc67378ad1 e100: fix length calculation in e100_get_regs_len
+f54446125c6d5e121b5319f801324a209bcde2ee e100: fix buffer overrun in e100_get_regs
+3bcd7f6572bbd6def3d32b0c8f03634a742277b8 ipack: ipoctal: fix stack information leak
+c4f1b2c2c938fa4ded64436cf80f1579861e04b3 ipack: ipoctal: fix tty registration race
+b1e58ec41342366331b3e71cd571698f5b91f3bb ipack: ipoctal: fix tty-registration error handling
+90f1460aa6643369609c4afda47decd7b41ee845 ipack: ipoctal: fix missing allocation-failure check
+d65eb9be62168d4b8873338a48f3726870ab58e4 ipack: ipoctal: fix module reference leak
+1201a90ae9f5dc3bb547e0d0e26ce347b86ba535 ext4: fix potential infinite loop in ext4_dx_readdir()
+9f318286c44684c2a74130226c0a3472cb1ea76b EDAC/synopsys: Fix wrong value type assignment for edac_mode
+b83bcfa3a62c3646a1a8a29e40126f80aed41470 arm64: Extend workaround for erratum 1024718 to all versions of Cortex-A55
+0fb1694d7e8c2faa1dbbf41d9f16244fd3567135 HID: betop: fix slab-out-of-bounds Write in betop_probe
+c75f18c217cd731fce573d303898776c49fa9e94 netfilter: ipset: Fix oversized kvmalloc() calls
+82b5285a2d49b3ab9cc39b8dd98313b22fcce70f HID: usbhid: free raw_report buffers in usbhid_stop
+e1490b315b0a70c2f15c4fd978fffea92326d59e net: mdiobus: Fix memory leak in __mdiobus_register
+ca991579c67a2ea7a1d4dc94ad077b3e14b9c9ed Linux 4.4.286-rc1
 
---===============0894745800628274972==--
+--===============4993436647675036350==--
