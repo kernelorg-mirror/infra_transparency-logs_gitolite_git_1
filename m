@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2479730974630603685=="
+Content-Type: multipart/mixed; boundary="===============8600904107422301661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 04 Oct 2021 16:54:29 -0000
-Message-Id: <163336646908.4178.15179380736697191344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 04 Oct 2021 16:54:45 -0000
+Message-Id: <163336648590.4369.16562948800416236235@gitolite.kernel.org>
 
---===============2479730974630603685==
+--===============8600904107422301661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
-    new: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
-    log: revlist-5816b3e6577e-9e1ff307c779.txt
+    old: 67a12ae52599c9f2f24ef14adb43fc3b164792b5
+    new: fa382a0f96cf6ea01abc2d935883ee67aa15fb0f
+    log: revlist-67a12ae52599-fa382a0f96cf.txt
   - ref: refs/heads/for-next
-    old: a24c7431afd9fdefb3b5f16543db045df10df18c
-    new: 457d78327a7591efe05e598916d03a010390726b
-    log: revlist-a24c7431afd9-457d78327a75.txt
+    old: 73bde2efca1aa5aa8599f104b170496b4e4531db
+    new: 8886d5c77f83a118081dd8a76f9cc31622eb45bd
+    log: revlist-73bde2efca1a-8886d5c77f83.txt
 
---===============2479730974630603685==
+--===============8600904107422301661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5816b3e6577e-9e1ff307c779.txt
+Content-Disposition: attachment; filename=revlist-67a12ae52599-fa382a0f96cf.txt
 
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
 4df031ff5876d94b48dd9ee486ba5522382a06b2 ext4: check and update i_disksize properly
@@ -399,12 +399,13 @@ e25ca045c32a0d787b143fef0acc5a43cc9ccc66 Merge tag '5.15-rc3-ksmbd-fixes' of git
 ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
+fa382a0f96cf6ea01abc2d935883ee67aa15fb0f Merge remote-tracking branch 'spi/for-5.15' into spi-linus
 
---===============2479730974630603685==
+--===============8600904107422301661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a24c7431afd9-457d78327a75.txt
+Content-Disposition: attachment; filename=revlist-73bde2efca1a-8886d5c77f83.txt
 
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
 4df031ff5876d94b48dd9ee486ba5522382a06b2 ext4: check and update i_disksize properly
@@ -775,7 +776,8 @@ e25ca045c32a0d787b143fef0acc5a43cc9ccc66 Merge tag '5.15-rc3-ksmbd-fixes' of git
 ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
-555767fd9136a5d3e911179fde1795c08a502ab3 regulator: bd71815: Use defined mask values
-457d78327a7591efe05e598916d03a010390726b Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
+79bffb1e97a349238a0b5535c9356e48b987b8bd spi: cadence: fix static checker warning
+fa382a0f96cf6ea01abc2d935883ee67aa15fb0f Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+8886d5c77f83a118081dd8a76f9cc31622eb45bd Merge remote-tracking branch 'spi/for-5.16' into spi-next
 
---===============2479730974630603685==--
+--===============8600904107422301661==--
