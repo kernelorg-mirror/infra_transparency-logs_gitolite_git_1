@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 04 Oct 2021 07:01:45 -0000
-Message-Id: <163333090553.21855.11806098580131409548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Mon, 04 Oct 2021 07:07:42 -0000
+Message-Id: <163333126229.25006.8817425752967182755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/network/connman/connman
+user: wagi
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 6065a672679f0502ede024a03db82c03534a5e00
-    new: c2ace21f937a0c7a296d233b4441b99b66579bda
+  - ref: refs/heads/master
+    old: 0faafb007b0c061f7e4d35f8356416966caad99e
+    new: 40877409651524b8f0fa24c34bc256d8144cd9f8
     log: |
-         c2ace21f937a0c7a296d233b4441b99b66579bda cpufreq: tegra186/tegra194: Handle errors in BPMP response
+         dd7d4be53b9a6ca58cf8880d605fb5711ba5325b iwd: Fix missing Ethernet attributes
+         ea8a6b45cc489c59a08950eae86a09e1db02e316 iwd: Fix improper IPv4/6 attributes when disconnecting
+         c07d5b11f122d2115b9f466f3106c144c315dede iwd: Fix timeout error on new connection
+         b9a0a039ccc5697d413f61c9afe7c8c2b6dbd607 service: Report errors to user in native mode
+         da5496c923a4cd54d807460dd8074594ab341c6e manager: Add TetheringClientsChanged GBUS_SIGNAL
+         40877409651524b8f0fa24c34bc256d8144cd9f8 AUTHORS: Mention Michael's contributions
          
