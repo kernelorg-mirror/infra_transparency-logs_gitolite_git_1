@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 04 Oct 2021 19:02:28 -0000
-Message-Id: <163337414871.20297.13581813662590256346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Mon, 04 Oct 2021 19:06:40 -0000
+Message-Id: <163337440067.22916.2965628221689780254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: c5890ac87f3f63ed235974dfcbf672ce2224fb49
-    new: d2f52a67237bbdd87be878e5b335920b848f61da
+  - ref: refs/heads/android-3.18-preview
+    old: 380bbf94c0fcfc907a0aa00004759d1c768fd150
+    new: 80c29ca0bc26796f6c5c41ef73070e50555542f5
     log: |
-         6f925c4daea69bfe362e1f0b5b0daec11567bd0e manager/wiphy: Move default if determination
-         9766426b59d950ca43e617f370849a2c089dcede wiphy/netdev: Add & use wiphy_control_port_capable
-         1cd3cd2eb960da01d1191dc9735294083129154d iwmon: add support for new key format
-         d2f52a67237bbdd87be878e5b335920b848f61da wiphy: add wiphy_supports_ext_key_id
+         eef677554dcabc74975d9a5e02eacbe818aa56b7 media: v4l2-core: Avoid the dangling pointer in v4l2_fh_release
+         21138f87a133228ee2eeabacc9938b55beed3bdb media: bt8xx: Fix a missing check bug in bt878_probe
+         a0a30e1c9c46b55a7187a72e5520b460bf66ea18 mmc: via-sdmmc: add a check against NULL pointer dereference
+         40d71412a2937cbb8e2f1b0d365b246145c3c245 crypto: shash - avoid comparing pointers to exported functions under CFI
+         5f80750a2bd903fc98f23775762e458dc94dc269 media: dvb_net: avoid speculation from net slot
+         b4eaf78b97b0dfb14fe552be49b3959e5177d5d3 btrfs: disable build on platforms having page size 256K
+         f5bbe21fc119c2d1880dfa623e44e9b019cb31c8 regulator: da9052: Ensure enough delay time for .set_voltage_time_sel
+         0eeeb24ab7192d469c814f2d8bb2fd44cded6eda ACPI: processor idle: Fix up C-state latency if not ordered
+         80c29ca0bc26796f6c5c41ef73070e50555542f5 block_dump: remove block_dump feature in mark_inode_dirty()
          
