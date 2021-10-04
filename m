@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1249262410452479257=="
+Content-Type: multipart/mixed; boundary="===============7012069536339639489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 04 Oct 2021 23:37:13 -0000
-Message-Id: <163339063344.31628.5482004874246729825@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 23:37:23 -0000
+Message-Id: <163339064359.31737.16325698193140373601@gitolite.kernel.org>
 
---===============1249262410452479257==
+--===============7012069536339639489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 20ab39d13e2e9f916cf570fc834f2cadd6e5dc4a
-    new: 1660034361904dfcb82714aa48615a9b66462ee6
-    log: revlist-20ab39d13e2e-166003436190.txt
+  - ref: refs/heads/mlx5-queue
+    old: 3432ea2b5abda3dedf68162d43788772ea6931cc
+    new: 499ec55c1a385899b30163a73b197dd1b390ffd3
+    log: revlist-3432ea2b5abd-499ec55c1a38.txt
 
---===============1249262410452479257==
+--===============7012069536339639489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20ab39d13e2e-166003436190.txt
+Content-Disposition: attachment; filename=revlist-3432ea2b5abd-499ec55c1a38.txt
 
 335ff4990cf3bfa42d8846f9b3d8c09456f51801 bpf: Merge printk and seq_printf VARARG max macros
 84b4c52960bdccd86d6c3c42a730fd8d0ab75427 selftests/bpf: Stop using bpf_program__load
@@ -191,5 +191,44 @@ e4addd4ed9b91e75fe0f58eecb0d24c60f357d1f Merge branch 'qed-new-fw'
 a2c27a61b4335344c1bacaade61e9b2dc6e12a76 net: phylink: add phylink_set_10g_modes() helper
 14ad41c74f6be0bfaf5202b7e49254e2482da56f net: ethernet: use phylink_set_10g_modes()
 1660034361904dfcb82714aa48615a9b66462ee6 Merge branch 'phy-10g-mode-helper'
+47ab502b775c694879c0c3f221775760e4dbe2b1 !!! TAKE FROM NET !!! net/mlx5e: Sync TIR params updates against concurrent create/modify
+5cbb55c0dd6c7433b7c7add9d7ce6130e2086e78 net/mlx5e: Take LRO params directly from the RX res struct
+1494c7996654807ede4499a3c3bf62acff795ae7 net/mlx5e: TC, Refactor sample offload error flow
+f468c54efd9e587a2fc9149044262128ad8d5ddf net/mlx5e: Move mod hdr allocation to a single place
+721e7805548218623b7929ae766df67245785dd2 net/mlx5e: Split actions_match_supported() into a sub function
+0996f34e08f8dfd4cbfda7b093fb4f57b89481e9 net/mlx5e: Move parse fdb check into actions_match_supported_fdb()
+9ab7d3b6a2a7b8194e8167b13683e444da408c63 net/mlx5e: Specify SQ stats struct for mlx5e_open_txqsq()
+57a060387c92b136bc1ab249ee6f9c0f6cf02f18 net/mlx5e: Add TX max rate support for MQPRIO channel mode
+7fd0a033f969116bf7563945d67036a551820468 net/mlx5e: Reserve a value from TC tunnel options mapping
+49c0a24460b00ec0a1a85293a1183be65978b02c net/mlx5: Bridge, refactor eswitch instance usage
+eb51c5dda3c05771490c3f00e5f56393d7113abf net/mlx5: Bridge, extract VLAN pop code to dedicated functions
+d8b80f94d0d4175de3660b067758998881b75e6f net/mlx5: Bridge, mark reg_c1 when pushing VLAN
+b93375f09ffd74cfc3fe3e09dcaf37477722bed3 net/mlx5: Bridge, pop VLAN on egress table miss
+2f3eda99aeb2d06d887eabb9e730fdbea72ecf5c net/mlx5e: Specify out ifindex when looking up encap route
+cffda13a76423311e357d713a0944b2605840baa net/mlx5: Shift control IRQ to the last index
+6bdb1d3fdcbab215fd852e2fe44f14776c5b1621 net/mlx5: Enable single IRQ for PCI Function
+ac14ce4cbeab13a987736d6214aa730a1a852f5d net/mlx5: E-Switch, Use dynamic alloc for dest array
+a5b3e50dcff68355eed4acd7b3d56d8acb01c778 net/mlx5e: Support accept action
+368773a40e0dd09af1b45d9e088cf9a02aad747c net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+9d08d350db1cde05252bda04ad0e090da1e11a88 net/mlx5: Support partial TTC rules
+450e532a009c4d6dbad21a955d1fd6abddf116ec net/mlx5: Introduce port selection namespace
+0f936451e75175efbcb6c64fa3e95cdf4ec61463 net/mlx5: Add support to create match definer
+c65347089b7dc7c8ea43e32b80d18f32681091e6 net/mlx5: Introduce new uplink destination type
+35e34f6e5087b36359ef347a2eb13ee5137d62b6 net/mlx5: Lag, move lag files into directory
+70828c68716bd1211e4d2582c821564d100b198b net/mlx5: Lag, set LAG traffic type mapping
+99ab86f6bbc3a45a476984c9f708cf87aa99f2e8 net/mlx5: Lag, set match mask according to the traffic type bitmap
+79c250e3f16cb48b65270e6f2fa7b89e68694d86 net/mlx5: Lag, add support to create definers for LAG
+5b22991cc7a6816602569de2bb0bef3e1ed177e2 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+22e302e560832c27a8aa8b092d4a369ff4d3cc7a net/mlx5: Lag, add support to create/destroy/modify port selection
+8d921a466060f72d1ecb13e2ad19c9b30c866889 net/mlx5: Lag, use steering to select the affinity port in LAG
+ff8aaaf1b271509721248e36b99c71982f8ee8b8 Merge branch 'patchq/426500' into mlx5-queue
+ed891a0ebca19181210568d1ed630c6cbc257619 Merge branch 'patchq/423917' into mlx5-queue
+f5c50af0984dcecea7ecc4a59ef8a2a4f233fb7c net/mlx5: Check create_lag_when_not_master_up when selecting hash mode
+d5a57c37a4d0033403b85924e6428331a1960795 Merge branch 'patchq/431112' into mlx5-queue
+e8cc7fd99125b6636a372c666ebe7f449636f5b1 Merge branch 'patchq/433176' into mlx5-queue
+1207eebe9fda4dc2649d8db11afbd93709472b68 Merge branch 'patchq/419340' into mlx5-queue
+63637d2cc04692dd33c5020044a325a71c8966b6 Merge branch 'patchq/430848' into mlx5-queue
+5f50cd0d02e31a2328b522218c7f1a4ea1531e7a Merge branch 'patchq/428803' into mlx5-queue
+499ec55c1a385899b30163a73b197dd1b390ffd3 Merge branch 'patchq/428148' into mlx5-queue
 
---===============1249262410452479257==--
+--===============7012069536339639489==--
