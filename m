@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 04 Oct 2021 11:03:51 -0000
-Message-Id: <163334543125.32067.7336115604858159613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 04 Oct 2021 11:11:09 -0000
+Message-Id: <163334586949.4693.4525519209607919511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 3734b9f2cee01d9dde2fbbda742ba6dd6ba10a29
-    new: e69709f6861aaba80b4eaab6825e8c522a2afb5c
-    log: |
-         e69709f6861aaba80b4eaab6825e8c522a2afb5c opp: Add more resource-managed variants of dev_pm_opp_of_add_table()
-         
+  - ref: refs/tags/mips-fixes_5.15_1
+    old: 0000000000000000000000000000000000000000
+    new: cb298665187b2354d9e91f289d59ea58a15a2c67
