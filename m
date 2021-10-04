@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4585995239337199782=="
+Content-Type: multipart/mixed; boundary="===============5300817204681453865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 04 Oct 2021 07:34:24 -0000
-Message-Id: <163333286421.10155.17312497857577742054@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 07:34:50 -0000
+Message-Id: <163333289088.10353.5737911338130091054@gitolite.kernel.org>
 
---===============4585995239337199782==
+--===============5300817204681453865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d636c8da2d60cc4841ebd7b6e6a02db5c33e11e4
     new: 0693b27644f04852e46f7f034e3143992b658869
     log: revlist-d636c8da2d60-0693b27644f0.txt
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
 
---===============4585995239337199782==
+--===============5300817204681453865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ b504db408c34e01d791f69c61ee256a8c7eec62f mctp: Add packet rx tests
 1e5e9250d4224e3ed77846bd8d29ac66fbe6f05d mctp: Add input reassembly tests
 0693b27644f04852e46f7f034e3143992b658869 Merge branch 'mctp-kunit-tests'
 
---===============4585995239337199782==--
+--===============5300817204681453865==--
