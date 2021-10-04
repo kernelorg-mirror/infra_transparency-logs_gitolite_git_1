@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 04 Oct 2021 09:24:03 -0000
-Message-Id: <163333944365.32002.1960139151943206849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 04 Oct 2021 09:25:43 -0000
+Message-Id: <163333954353.1623.4948956239280291442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 67f974d41d62c8b521fe81e1aac92562366f6a0a
-    new: 1e01704bbcdf74d39bd770c6bf1f437674085c8c
+  - ref: refs/heads/opp/linux-next
+    old: 8b7912f4cb6c29a1223ca7f2472bf12c44cc285e
+    new: 3734b9f2cee01d9dde2fbbda742ba6dd6ba10a29
     log: |
-         1e01704bbcdf74d39bd770c6bf1f437674085c8c fstrim: fix typo
+         3734b9f2cee01d9dde2fbbda742ba6dd6ba10a29 opp: Change type of dev_pm_opp_attach_genpd(names) argument
          
