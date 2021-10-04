@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3832524570103581660=="
+Content-Type: multipart/mixed; boundary="===============0927662734749326356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 04 Oct 2021 07:21:45 -0000
-Message-Id: <163333210506.3312.16279489456337682350@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 07:21:49 -0000
+Message-Id: <163333210935.3397.11927286896084522781@gitolite.kernel.org>
 
---===============3832524570103581660==
+--===============0927662734749326356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+  - ref: refs/heads/driver-core-linus
+    old: df38d852c6814cbbd010d81e84efb9dc057d5ba6
     new: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
-    log: revlist-6880fa6c5660-9e1ff307c779.txt
+    log: revlist-df38d852c681-9e1ff307c779.txt
 
---===============3832524570103581660==
+--===============0927662734749326356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633332104 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633332108 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1633332103-aba8bb299880b0b95fc93f2a7aaf11a2eb1cef9b
+nonce 1633332107-a681e93558afae0a3c6506c88b132fbf1dfdce5e
 
-6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 refs/heads/main
+df38d852c6814cbbd010d81e84efb9dc057d5ba6 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFaq4gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9MwP/RFMvJvRebRa26hxR+7o
-yRQ3qFK6CxMB13jet9y4AwHwV+c+5yiBt8wg3A9Ch8FinBP33x4/2S/pyty/UjTO
-7GVeFXPd1d1MrhrVM8pHTjH80NgChO48XZjRKVNJsHD37q4NDq+Y1C1rfKOsLc6p
-jIbsqyC6gQ87tIr6cFPZH0/ugcjCHSOq3CdQqgLuEpuBGurqqvXIEJ8lZob8XYMV
-LTOpn4bliQ1A+OVu8xsGtwwVJEYjgTpPf1lzyRiNK3rp75jGmD82rvxLz+Q5uKE4
-AxXre4FSdqPDj3akuq7rwO+I0mTMinhaOPWqjr5SOfQhKoRrHHKucXcwGs3ZHNqA
-N5s3dd18X6OPk8FmXEGOXEQoistsfQ2FOPXCbyZRXp5dLxvxS44uClt/JddkitxZ
-o4F3DLlnc0hfNHiDmpk1QPaRtWPaQuRDr1kwjwuNtHKECyt/Uynbbmri3jork4AT
-eEV2UnRbVd78CMnUMakRi1QM1vjX/vkBLkSqD+ZqiOM6McNeBBVFOIjv/69Xxqhj
-8fIczYTNYubMnEDNuVJRocyB/cAf6gJ5CQn9BCWiWYsu8ba7f9oiARVnqjtT3fbH
-zYElRbwfH5dbEeU7XGGliPw+xYz22C3ABDzUzF8g+it2LaXmVfJ4LXhexER2pBbE
-zY1WhH0IIqJJWz6zedp1VBP+
-=S/pl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFaq4wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x30P/iogBmrRM4El7ZQ1ST9T
+p2SRMrzzUI2oeqAQImON9MykQMBeOlshUDQdfCYPwGwfwP00YVhYf7/k4hYfIq7s
+X+Lk5qOh9+mvP/v+rS9580TkwjWTvLKH0V1AfmMyB4l/aV1TBo92bKsfxdt/rl0i
+sL1TwxWd182L0lTP070mrx5/lb+5KkKP75CRG6wa54iaQX8U3eWnHXP+Y/S5U6SY
+LIKzUV/3b3sPlGNWd7JQYHROwR83x/CkQYppqTaCM8u3izsMM6LixASDB7S8p8qq
+ATHiPzW1ikTFKpahRPlt8ZQAJgJauckmF1adExenKR1C1+kzoxdGnME9grk/AMV+
+Lo3t9pLvp0Wat/zCb21zvOcg4XeVgikMhY38htoVUGnpo7x6LcMnD/XbJcAGnmTs
+v2lWTagJslAEond2Ta7oy/uwcdPybLfd+o07iAPoZdCNMfJZsACzkSQ9PSdMy22V
+vm8CuXuEP4sKm8fPd79xezvzJm0fKj9RZSU4NFzHt1BeXjaUmIVcdxnEwrC5Nd05
+lQZDhfp8fg67tRTc9s50PvfOixs6v3XOqdtSexKyEbpANjOOTJqKDeAiB0L9VWIr
+MYbXahCxwJwjUs3khLMn0F/wT6XAJ5WmvM1UEF4LF+0Qczozjb6JAW8liKIPorow
+OF42l6RVZ2PM0Q5SNA3gokbq
+=aE12
 -----END PGP SIGNATURE-----
 
---===============3832524570103581660==
+--===============0927662734749326356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-9e1ff307c779.txt
+Content-Disposition: attachment; filename=revlist-df38d852c681-9e1ff307c779.txt
 
 863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
@@ -591,7 +591,6 @@ a499b03bf36b0c2e3b958a381d828678ab0ffc5e netfilter: nf_tables: unlink table befo
 cc8072153aafd65bff1b3679a112cb6ba71ab375 netfilter: iptable_raw: drop bogus net_init annotation
 b53deef054e58fe4f37c66211b8ece9f8fc1aa13 netfilter: log: work around missing softdep backend module
 e9edc188fc76499b0b9bd60364084037f6d03773 netfilter: conntrack: serialize hash resizes and cleanups
-af505cad9567f7a500d34bf183696d570d7f6810 debugfs: debugfs_create_file_size(): use IS_ERR to check for error
 555f66d0f8a38537456acc77043d0e4469fcbe8e nvme-fc: update hardware queues before using them
 e5445dae29d25d7b03e0a10d3d4277a1d0c8119b nvme-fc: avoid race between time out and tear down
 bdaa1365667103e7a754e87c08b846a979ce322b nvme-fc: remove freeze/unfreeze around update_nr_hw_queues
@@ -622,12 +621,10 @@ d9d1232b48344c6c72dbdf89fae1e7638e5df757 misc: bcm-vk: fix tty registration race
 ce1c42b4dacfe7d71c852d8bf3371067ccba865c Re-enable UAS for LaCie Rugged USB3-FW with fk quirk
 b55d37ef6b7db3eda9b4495a8d9b0a944ee8c67d usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c
 517c7bf99bad3d6b9360558414aae634b7472d80 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned()
-c86a2d9058c5a4a05d20ef89e699b7a6b2c89da6 cpumask: Omit terminating null byte in cpumap_print_{list,bitmask}_to_buf
 d5f6545934c47e97c0b48a645418e877b452a992 qnx4: work around gcc false positive warning bug
 7af526c740bdbd5b4dcebba04ace5b3b0c07801f nvmem: NVMEM_NINTENDO_OTP should depend on WII
 708c87168b6121abc74b2a57d0c498baaf70cbea ceph: fix off by one bugs in unsafe_request_wait()
 bb509a6ffed2c8b0950f637ab5779aa818ed1596 comedi: Fix memory leak in compat_insnlist()
-2de9d8e0d2fe3a1eb632def2245529067cb35db5 driver core: fw_devlink: Improve handling of cyclic dependencies
 92477dd1faa650e50bd3bb35a6c0b8d09198cc35 Merge tag 's390-5.15-ebpf-jit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 77ff9e7be0d420bd0555ef51612e8ce241f3e78f Merge tag 'asoc-fix-v5.15-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 cb1bcf5ed536747013fe2b3f9bd56ce3242c295a ALSA: firewire-motu: fix truncated bytes in message tracepoints
@@ -751,8 +748,6 @@ d705117ddd724a9d4877e338e4587010ab6a1c62 erofs: fix misbehavior of unsupported c
 c40dd3ca2a45d5bd6e8b3f4ace5cb81493096263 erofs: clear compacted_2b if compacted_4b_initial > totalidx
 a3727a8bac0a9e77c70820655fd8715523ba3db7 selinux,smack: fix subjective/objective credential use mixups
 1f828223b7991a228bc2aef837b78737946d44b2 memcg: flush lruvec stats in the refault
-5501765a02a6c324f78581e6bb8209d054fe13ae driver core: fw_devlink: Add support for FWNODE_FLAG_NEEDS_CHILD_BOUND_ON_ADD
-04f41c68f18886aea5afc68be945e7195ea1d598 net: mdiobus: Set FWNODE_FLAG_NEEDS_CHILD_BOUND_ON_ADD for mdiobus parents
 9bc62afe03afdf33904f5e784e1ad68c50ff00bb Merge tag 'net-5.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f10f0481a5b58f8986f626d43f8534472f7776c2 Merge tag 'for-linus-rseq' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 12064c1768439fa0882547010afae6b52aafa7af Revert "ACPI: Add memory semantics to acpi_os_map_memory()"
@@ -930,9 +925,6 @@ bcfd367c2839f2126c048fe59700ec1b538e2b06 libbpf: Fix segfault in static linker f
 435b08ec0094ac1e128afe6cfd0d9311a8c617a7 bpf, test, cgroup: Use sk_{alloc,free} for test cases
 d888eaac4fb1df30320bb1305a8f78efe86524c6 selftests, bpf: Fix makefile dependencies on libbpf
 79e2c306667542b8ee2d9a9d947eadc7039f0a3c selftests, bpf: test_lwt_ip_encap: Really disable rp_filter
-68223eeec70898cd5e42451a9168cd9b2808e248 driver core: Set deferred probe reason when deferred by driver core
-76f130810b477243ce1312bf5754dc41ce7f91a8 driver core: Create __fwnode_link_del() helper function
-ebd6823af378c7d91f80cbe83ce07b5f166744e4 driver core: Add debug logs when fwnode links are added/deleted
 f2ff7147c6834f244b8ce636b12e71a3bd044629 ALSA: pcsp: Make hrtimer forwarding more robust
 6f87d4e637327b1da3294a7cdad60d49faa32742 iommu/dart: Remove iommu_flush_ops
 0b482d0c75bf321b2fd87d215c3d6df095a601d1 iommu/vt-d: Drop "0x" prefix from PCI bus & device addresses
@@ -953,7 +945,6 @@ ebc69e897e17373fbe1daaff1debaa77583a5284 Revert "block, bfq: honor already-setup
 d33bec7b3dfa36691ed53ccaaf187d90b53be852 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 6fd3ec5c7af58d5d6b598fba22ac387645af33f4 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 e02c16b9cd24925ea627f007df9ca9ee00eaaa62 selftests: KVM: Don't clobber XMM register when read
-df38d852c6814cbbd010d81e84efb9dc057d5ba6 kernfs: also call kernfs_set_rev() for positive dentry
 66805763a97f8f7bdf742fc0851d85c02ed9411f drm/amdgpu: fix gart.bo pin_count leak
 083fa05bbaf65a01866b5440031c822e32ad7510 drm/amd/display: Fix Display Flicker on embedded panels
 9f52c25f59b504a29dda42d83ac1e24d2af535d4 drm/amdgpu: correct initial cp_hqd_quantum for gfx9
@@ -1056,4 +1047,4 @@ ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of gi
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
 
---===============3832524570103581660==--
+--===============0927662734749326356==--
