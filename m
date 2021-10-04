@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1311435247039950508=="
+Content-Type: multipart/mixed; boundary="===============7703785176933050915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 04 Oct 2021 07:17:46 -0000
-Message-Id: <163333186683.30944.5717947818890534342@gitolite.kernel.org>
+Date: Mon, 04 Oct 2021 07:17:51 -0000
+Message-Id: <163333187161.31015.3594718434331264728@gitolite.kernel.org>
 
---===============1311435247039950508==
+--===============7703785176933050915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
+  - ref: refs/heads/char-misc-linus
+    old: bb8a4fcb2136508224c596a7e665bdba1d7c3c27
     new: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
-    log: revlist-5816b3e6577e-9e1ff307c779.txt
+    log: revlist-bb8a4fcb2136-9e1ff307c779.txt
 
---===============1311435247039950508==
+--===============7703785176933050915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633331865 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633331870 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1633331865-2c011825fea6dd47ee7dabca56fdccb05705230b
+nonce 1633331869-0b27ebc29ee13ed0038e0e278c302ac52dd05c75
 
-5816b3e6577eaa676ceb00a848f0fd65fe2adc29 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 refs/heads/main
+bb8a4fcb2136508224c596a7e665bdba1d7c3c27 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFaqpkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sm0P/Asef2GxOy4fiqK3Jt93
-dCHEh4rEmTOIcebnZSTkIKvOMImUeyg1FRvqE+NZ14hiaQDrFdTnbnaJ9h85V2Fv
-xmYjDWmqCMOyWapwIF09whbwNHbPCet0TmYuzT2z5TfaFTgePCV+wB3lGwhJtLVk
-6uuNX1sXi/5nISYUWcv4I6KFOfdvVB3uH8kaKzLEGFH1VJ6Cg4pjQJcbH9aV7yIj
-5RGalgg3N1lkjk5w6nwdvIrIPcEgqPXr/RVwmtwVN5JcDrNmq6IOgmZSDJLBXsCo
-3G6G6CaIBJT2v4U2R3TpP8dYZ9lRlJ/7DuwbX6afAPg9nnQI6dP0KWV5UABmBBYj
-Dt9BNR54hK5rFl8wAVRm3C+IbP3xjEVZEbZ+7kiO4IH+ARdDp+2RP2kw/03jR/Is
-cSFsY/ontJH1/yufWKse0HgI7LuZTJgTNH3YPmOqcm78dQLBxrt+/TiIx1RCIJzz
-BbQPBBlnOW1J4dm3GNO0RVRVspUqgzCaC7jESkC860g4bY3LvtCvdUuonRuU6wRP
-59hoX0deCWPYjVSdEZCsivEANnBzoAV4GTFbIOXORZfR7C77m4aWj6baFTLQfPPY
-+itAyPyDlOgozYEoghBUJL2HSlOHZlKcWW54ohqUKQndRwl/I1Ox09g0WFcuD1zd
-FgHvfHOtD4RMuVLQ9CDvMz4N
-=YpEB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFaqp4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H1oP/jTgACr8w+iNvKAaWXHK
+cJRa3qEPliqTeUOeaw09xJz1ebtosVjPbw/tCvNK5FsNU+A4OuGU1wloMmiVrgU4
+lRfJRYdgCkbbJLR1Fuqw/bzS4nC+NQJX9j9n2ZH11xN800ao7rNvFo8gCnOaXgO5
+2u8uFoSevAPd/B5rUQQVtCJFkLXxlreuCj1h+5F1LnmUNLNhmRdOsls18xNugZQ+
+bSkSfqC1YokTQ4c/Kz7smEajoJdh0w+XbWK+VUcds/MjjThqU7FB8b6UJGKwCRZj
+LJTnbC/aaFh1p+3r7jS8lNq2HPiNiJKfMJlnFWmwPvGSLrLI+cy9dI2KT3yB3pXj
+MmWLgHzjONfMISCPRzWqJWwjruBVy/VHhwXl7T7RWYeHkfWzK2qt3geDt63UWpza
+qbORWsmbvHc/pM2CkybJ+eRWUaRo1Ab6WlxFC/KLJgBAhQIMR/ASr/4IhZa9n55g
+SuUfU5zg9kKrGtps02EiglB/Iasdj2u7YRbGfHfEiZa3BELlPeets47GrZjGnovi
+3MjRDG3ugRjE8/23HkIlS5ua6BEDH4UaBLR0NpBdLUEjSHnQuqqNj6K9C93poF1x
+crL5m23RZt7KFkqSMq5wfS3PeiDbIqWT46wEVO1NEbtURfjxoUQOXw5gw3uxWs/v
+coNHntZ/PgMi5LjSmMhoi0Cm
+=hQzs
 -----END PGP SIGNATURE-----
 
---===============1311435247039950508==
+--===============7703785176933050915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5816b3e6577e-9e1ff307c779.txt
+Content-Disposition: attachment; filename=revlist-bb8a4fcb2136-9e1ff307c779.txt
 
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
 4df031ff5876d94b48dd9ee486ba5522382a06b2 ext4: check and update i_disksize properly
@@ -82,10 +82,6 @@ c590fa80b39287a91abeb487829f3190e7ae775f ASoC: fsl_xcvr: register platform compo
 7bd5d979dfdb6c047499a5ac91339bf42f7bdee3 Merge series "ASoC: fsl: register platform component before registering cpu dai" from Shengjiu Wang <shengjiu.wang@nxp.com>:
 23c69b90365c8280b627aa969393d828ff47ac14 hwmon: (k10temp) Remove residues of current and voltage
 64794d6db49730d22f440aef0cf4da98a56a4ea3 ALSA: oxfw: fix transmission method for Loud models based on OXFW971
-a06c2e5c048e5e07fac9daf3073bd0b6582913c7 interconnect: qcom: sdm660: Fix id of slv_cnoc_mnoc_cfg
-5833c9b8766298e73c11766f9585d4ea4fa785ff interconnect: qcom: sdm660: Correct NOC_QOS_PRIORITY shift and mask
-cf49e366020396ad83845c1c3bdbaa3c1406f5ce dt-bindings: interconnect: sdm660: Add missing a2noc qos clocks
-13404ac8882f5225af07545215f4975a564c3740 interconnect: qcom: sdm660: Add missing a2noc qos clocks
 6f44578430d7888ade1e3bd919c1c2c0724409e5 Revert "ALSA: hda: Drop workaround for a hang at shutdown again"
 7b9cf9036609428e845dc300aec13822ba2c4ab3 ALSA: usb-audio: Unify mixer resume and reset_resume procedure
 d168cd797982db9db617113644c87b8f5f3cf27e drm/i915/gvt: fix the usage of ww lock in gvt scheduler.
@@ -270,13 +266,7 @@ ca48aa4ab8bfe0c235cf86cd0d3c11db0808132e Merge tag 'mac80211-for-net-2021-09-27'
 4da8b121884d84476f3d50d46a471471af1aa9df perf iostat: Fix Segmentation fault from NULL 'struct perf_counts_values *'
 3b1b6e82fb5e08e2cb355d7b2ee8644ec289de66 net: phy: enhance GPY115 loopback disable function
 9523b33cc31cf8ce703f8facee9fd16cba36d5ad NIOS2: setup.c: drop unused variable 'dram_start'
-913581b8ae0646ebe2f23c57dab3c3ce69e980c3 Merge tag 'icc-5.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 5c49d1850ddd3240d20dc40b01f593e35a184f38 KVM: VMX: Fix a TSX_CTRL_CPUID_CLEAR field mask issue
-a89936cce87d60766a75732a9e7e25c51164f47c ipack: ipoctal: fix stack information leak
-65c001df517a7bf9be8621b53d43c89f426ce8d6 ipack: ipoctal: fix tty registration race
-cd20d59291d1790dc74248476e928f57fc455189 ipack: ipoctal: fix tty-registration error handling
-445c8132727728dc297492a7d9fc074af3e94ba3 ipack: ipoctal: fix missing allocation-failure check
-bb8a4fcb2136508224c596a7e665bdba1d7c3c27 ipack: ipoctal: fix module reference leak
 4329c8dc110b25d5f04ed20c6821bb60deff279f e100: fix length calculation in e100_get_regs_len
 51032e6f17ce990d06123ad7307f258c50d25aa7 e100: fix buffer overrun in e100_get_regs
 a2941f6aa71a72be2c82c0a168523a492d093530 nvme: add command id quirk for apple controllers
@@ -427,4 +417,4 @@ ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of gi
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
 
---===============1311435247039950508==--
+--===============7703785176933050915==--
