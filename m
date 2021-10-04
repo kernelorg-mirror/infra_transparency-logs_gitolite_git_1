@@ -1,61 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4706440733086331879=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 04 Oct 2021 07:22:03 -0000
-Message-Id: <163333212355.3658.13609611800553886152@gitolite.kernel.org>
-
---===============4706440733086331879==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 04 Oct 2021 07:26:01 -0000
+Message-Id: <163333236124.6242.4192674205605490895@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-
---===============4706440733086331879==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633332121 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1633332121-d186255ae7b2dd649e8fb12f6d13c60a1e99ca5c
-
-0000000000000000000000000000000000000000 249433b711cba85aaec2e714898b46e3fa821571 refs/tags/v5.15-rc2
-0000000000000000000000000000000000000000 71a6dc2a869beafceef1ce46a9ebefd52288f1d7 refs/tags/v5.15-rc3
-0000000000000000000000000000000000000000 f3cee05630e772378957a74a209aad059714cbd2 refs/tags/v5.15-rc4
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFaq5kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EtYQALHe4GgWwgtqLQIwb/M1
-llisW9LvX3fVvkg1xML9Lt3hyooZDsuR4J1zkBIXSSnn3kUIwfQYb8p2HebtRm7P
-q2PLd1FHab3vA3KVTlcrC/Ps5LOGYhL34gxOz8g+zmlmHBWlOOXgHPtpYzeK1xzI
-ljp5IMkX8sueE0tlk/A38XD+cepuBoF+a7OoZ+IKwoGNohIo4E6IsOw0uWHRoRpA
-yXkUsGCWFGhb9d4O3LV154Dp8eUmlkwK8azwkOTA/JioLUGi6XP2FIe235N95bdL
-Oa8cb3cl6jNcZTWXvp7pcQAk0YjDXUx8M8FlkFVc+FX1np32D1dMY8ACHj3Od9V/
-7+BBegKsBXqB2AFsVmU4MBW1c3SZsT895KG6i7px4o3JR1f2gav9XdZp4D1B0OD9
-g1gymO7YyaygZkcGGbW3t4k2RAaQQOn9l50Vb0xLhOa9mP49jvLX4jwp/jCaQgo0
-pltdsVeC9Kf5euKYAaX1L04t7m96gBnil2HorMWysCM2fx+MBb6uTPCR1jwH5fVf
-jsaZLGGPzd3VCC7k6BluEcPVWuZvvFv2L7HBKdi0+JkmYPIZFFVumtGISI9kIy5W
-B3012Be2E6TZM/2eK98mLDTzllqoA4UEISg2gsfDjXL9f2tDfC00uvSuKGrnmxo+
-fwoQ5sQTvAnfdBRLsSsQDXT7
-=/+uZ
------END PGP SIGNATURE-----
-
---===============4706440733086331879==--
+  - ref: refs/heads/for-kernelci
+    old: 331ff9ee69e65a5936c6756f8990ad69e2535668
+    new: d680be59dd3063308ce7a0828b53683f81533231
+    log: |
+         f1e50fdf9f443855514a28e9b47081e7938d9e64 ARM: implement IRQ stacks
+         e45123e7f2f5fd88d16a53e80d13cfe181a74901 ARM: call_with_stack: add unwind support
+         f5780730fa521ca9c4e27afbf976a602b70f525f ARM: run softirqs on the per-CPU IRQ stack
+         d438d4a446295f69fa05e18c7df23c6df788c657 ARM: memcpy: use frame pointer as unwind anchor
+         23596509e36cbcfe4dd105a20ca1ceb8828112f3 ARM: unwind: disregard unwind info before stack frame is set up
+         d680be59dd3063308ce7a0828b53683f81533231 ARM: implement support for vmap'ed stacks
+         
