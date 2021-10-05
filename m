@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8640208934376193222=="
+Content-Type: multipart/mixed; boundary="===============3644969128907855172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 05 Oct 2021 08:12:30 -0000
-Message-Id: <163342155050.3973.10321782929078818851@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 08:13:54 -0000
+Message-Id: <163342163429.4498.3887581459152770550@gitolite.kernel.org>
 
---===============8640208934376193222==
+--===============3644969128907855172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: a93d481a2133e86b77d736085a2d771199963bb3
     new: b2551678ad2989c152b1afb31a1c305d06594e15
     log: revlist-a93d481a2133-b2551678ad29.txt
 
---===============8640208934376193222==
+--===============3644969128907855172==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ dc1bc5dddd9a4bacc09e7bcbbdcc47babd1b1f8d =======================================
 eed919c389892bd2047bafc93b4164c8841043f3 headers/deps: printk: Reduce <linux/printk.h> header dependencies, remove <linux/bitops.h>
 b2551678ad2989c152b1afb31a1c305d06594e15 headers/deps: mm: Reduce <linux/sunrpc/xdr.h> dependencies, remove <linux/mm.h> inclusion
 
---===============8640208934376193222==--
+--===============3644969128907855172==--
