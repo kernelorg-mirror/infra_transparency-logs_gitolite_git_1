@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7015078553019401072=="
+Content-Type: multipart/mixed; boundary="===============5213116473844418699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 05 Oct 2021 13:50:44 -0000
-Message-Id: <163344184417.13139.9070939124552572162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 05 Oct 2021 13:54:34 -0000
+Message-Id: <163344207439.14274.16853847406461865340@gitolite.kernel.org>
 
---===============7015078553019401072==
+--===============5213116473844418699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a3e16937319aea285c64ab5bf8464470afac8dd3
-    new: f9a470db2736b01538ad193c316eb3f26be37d58
-    log: |
-         42641042c10c757fe10cc09088cf3f436cec5007 cb710: avoid NULL pointer subtraction
-         f9a470db2736b01538ad193c316eb3f26be37d58 misc: fastrpc: Add missing lock before accessing find_vma()
-         
+  - ref: refs/heads/bleeding-edge
+    old: 8e0efc215fb15481ac2c12c7e11ce2d7d2803691
+    new: f9a31bd91dcef00302d826714a56726d901329d7
+    log: revlist-8e0efc215fb1-f9a31bd91dce.txt
 
---===============7015078553019401072==
+--===============5213116473844418699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8e0efc215fb1-f9a31bd91dce.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633441842 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1633441842-82314a2d37035213e9669e017e6581f5d7b9a8a7
+bf39c929f9053cd840155a1c39494c9a9946836b PCI: PM: Rearrange pci_target_state()
+6407e5ecdc66cd9da760e751a7c092c87a683861 PCI: PM: Make pci_choose_state() call pci_target_state()
+fa1a25c51d02f153b49444aa872bee9da3c13ecf PCI: PM: Do not call platform_pci_power_manageable() unnecessarily
+a84a761677ecc18ce68b3a1def3aafc60c86f3e8 Merge branch 'pm-pci' into bleeding-edge
+aa75ba5389557c4c6d0a334b575f04e397ed7d4c PCI: ACPI: Check parent pointer in acpi_pci_find_companion()
+2946b216242a5bb7b8d78ff0ed57644d2327fb82 Merge branch 'acpi-pci-fixes' into bleeding-edge
+5771e582d79258333a1cf817db999f58384e5685 ACPI: Update information in MAINTAINERS
+2a7f976b68c6a6c1140c73ca146e08498fe50d58 Merge branch 'acpi-misc' into bleeding-edge
+d3c4b6f64ad356c0d9ddbcf73fa471e6a841cc5c ACPICA: Avoid evaluating methods too early during system resume
+3bf70bd2538f0515ce17b1c067889ff0e4fec842 ACPICA: Add support for Windows 2020 _OSI string
+8a8332f9f8124c67c5d1b1ef38379cc642814504 ACPICA: ACPI 6.4 SRAT: add Generic Port Affinity type
+a805aab86b4dd3f61845edfe15f7ca9396f92ce6 ACPICA: iASL table disassembler: Added disassembly support for the NHLT ACPI table
+93792be6424aafd6fb59b2a1eef914ef9e91fdcb ACPICA: Update version to 20210930
+f9a31bd91dcef00302d826714a56726d901329d7 Merge branch 'acpica' into bleeding-edge
 
-a3e16937319aea285c64ab5bf8464470afac8dd3 f9a470db2736b01538ad193c316eb3f26be37d58 refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcWDIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3B8QALmVLbj2K3Tu4j/KQKT2
-2wDLJKho1RIz8bl56dx1beg8w8YcUMJY96N50FRsKG0FjjzgAayazHnVMrQyCVB7
-ZgLRLjyKSt4RfWDLcfnYbuu5la0YvytULOpe9v4kuPRCYriB3Dxxo0LXX3vx3Eu3
-0u05aUSOrd6+El2eHWfH/yJAP2eJKO2+XTfCkO3AHWFqzM7X7pgOdx6HT1Qg+klP
-VdZZP+rpEDSEQk2rFvEOTjaavNU//y6cNDJc1Qmp61CeX2ltI9Za5kmmdmjqRflk
-z0M6RwcUQk848oY8LA9krrWcfi4Ia+cupV5lJmvBTyBKxN4UZ+g0yxmGLjShhv/F
-YbK7K7yz8zAHWIINMvgbtabvIcbSRDN0yFXh6VlXQxyd9NqMnCP7NBrJb+Z59G2v
-Z0kHNMoRWPtLNeMA/KfTquA0oKSLE8WMMK3UQBIbrHu83Lv3MIJQhe8OAF3Xf/Fe
-pMeW+O6RiQ6uEWv2q6Xo4RUjbj0O7LIBEJBx5mXjQ0sZxy7kVg3XYGQu7DGC5cfp
-zHPCOWPiFJHbmYL7Bh1MbWA8THtfFezWFBq0fYbtZ1eSzom0nA0Ojx8kbc5mbza0
-1bqzMAY0yJcWVn7YBqxlhXOZ6wTnIvxS19t9Vly65Q5JIdSIjNxD383W4xCUUWti
-WE+rwWIZmWw61/BObkPIdxrK
-=Aq5y
------END PGP SIGNATURE-----
-
---===============7015078553019401072==--
+--===============5213116473844418699==--
