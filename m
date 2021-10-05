@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6205644234554539427=="
+Content-Type: multipart/mixed; boundary="===============2667879771431754598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 11:46:38 -0000
-Message-Id: <163343439891.29241.10244358050916372707@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 11:47:12 -0000
+Message-Id: <163343443220.29504.9411872965424428079@gitolite.kernel.org>
 
---===============6205644234554539427==
+--===============2667879771431754598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 4d1aa9112c8e6995ef2c8a76972c9671332ccfea
-    new: b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4
+    old: b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4
+    new: 6d91017a295e9790eec02c4e43f020cdb55f5d98
     log: |
-         b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4 usb: typec: tipd: Remove dependency on "connector" child fwnode
+         05300871c0e21c288bd5c30ac6f9b1da6ddeed22 usb: typec: tcpci: don't handle vSafe0V event if it's not enabled
+         6d91017a295e9790eec02c4e43f020cdb55f5d98 usb: typec: tcpm: handle SRC_STARTUP state if cc changes
          
 
---===============6205644234554539427==
+--===============2667879771431754598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633434397 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633434430 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633434397-e3a72a6c40e44c3585247be9d8ffcd7047ff8c77
+nonce 1633434430-06796334e3a946f4a10a56005941dfaa0dc5041d
 
-4d1aa9112c8e6995ef2c8a76972c9671332ccfea b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4 refs/heads/usb-linus
+b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4 6d91017a295e9790eec02c4e43f020cdb55f5d98 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcOx0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XeAP/3MzOltKOkz2yH0ElYPs
-LseUSlSgrK1RJF0ceM1EobbKaL1CGFisVvvueAfnI4enJZwUKHYu6GJjvUpH0TMT
-S5pjqgDpWzW/YV319PbpHG7Fw4ChB/WQ4lI9wN4Pj+f0dLFx8AoC7IzYjMvbRLAm
-X7IT/REQ4a8WOyA8HVBNvxkRDJlNY2R25ajBijn3C3GGYlg+F5ypqFf1Fm+hwbO6
-tJS4/FFJeyz1sIpGwvSEBCkn+FLpUC7TVkk6RPemdYIxXv+jsNXakZ5cv+qEwcjX
-QQpkpsI0H8hPTSfi9VJPzeRj4ZgTqe08rgUup5KCSUOUhPzDAtrFrQ3KwHB4zBbi
-3YOsL8j2NHpFSQS1vcOQ8NoSDDRgyouRyiCrmZQTcQRuCGj2lxEnpZL0Q8JZ1akQ
-24e+5afg34bcCRJKJ7xUR6RxjwlcmzjYJM4gu3xgJYCQYZTaNvSQAwQwQ0e/j/bY
-eknmvqK2EaIXqACrBnycUXQShYrD0xB66LBbzWu8BsjhYqDIKwn85fXdOOI7rZoF
-G5wUyFrxj82HTmyFyi5PWF/WZlQxGbgcOtv6u9XrZXCLGqYQu1Mcx+05S/wJo+A7
-nKf39aBbnUBvE9l0B1P+izeV/KESR0IeKERnf1Ojd5GtgQxEK5GcV0VVK80DEGX0
-eQFtwf9FYeZc41RJdZZWaSUG
-=vsll
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcOz4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2z0QAMB6H0AT2lS4RK7CrFjn
+rGVnPk7wcBpkKdjrNiFa8u5spXtTEMY7Ykv31yvrTrWi2yLQgX1ruQG6ivBa2LQb
+WnyFfVCtWWRkdvnX88V9O9FzVPw8fOMYSJ3SRejDOhFZxrQ3+dlclvuJKRjFvHen
+q/Jvej/dk2abVzzY5oyMAObDs21nysSg/ElH+mYUIofe4OYkuHz6GkfgSIS4orev
+UuNqfkRm9CuvYFk4VaqNGeNrS6Xw49oD6ULJazSjCxxs8w+259N/DSu5dFbiFH8p
+FvF29vClPoggnCPVr/imYVvUu6PE7yLmaZWg5bQbCQY2je2xRkFW3ucrAV3KUfjf
+b6QBQUgLTwMBfv/OMJPpfHLxe3zKkhgDmEwfkay4Ph2ict4TvZUOoouHJnDoaYOz
+/qzubvGffl4aZHkeG3c+j/lea1f7B+nYruuUHitMjGRbmCPzL3KOIDaSXgyu1uil
+OK/xnx503JLfmjkIUouGpbRtMAwws9CX7QSdnOdIflt6Funkzam8SsSY1lC0ru4Q
+ZdUt55tVccQiq+Q9uZz1JCkxrhYyU9oUBa+RdL7XmmFlmeEdvO/xiv7kyVzEE8+x
+pUtquhdX9JoqvnsdRumfPg56mJcbTQnUU8an6YBPBl/c0gcUQcHX7+tJdZ127SRu
+498BihMvvHeYtZ6Ijumxk8Io
+=J1Ss
 -----END PGP SIGNATURE-----
 
---===============6205644234554539427==--
+--===============2667879771431754598==--
