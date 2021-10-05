@@ -1,46 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8015637314519503235=="
+Content-Type: multipart/mixed; boundary="===============4212628581174600637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 05 Oct 2021 10:44:44 -0000
-Message-Id: <163343068441.19911.3332091140223964509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 05 Oct 2021 10:48:04 -0000
+Message-Id: <163343088494.22549.5530434630385168667@gitolite.kernel.org>
 
---===============8015637314519503235==
+--===============4212628581174600637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 45c9d966688e7fad7f24bfc450547d91e4304d0b
-    new: 95bf387e3569e079dc621028e7c1c55ef01b0ed7
-    log: revlist-45c9d966688e-95bf387e3569.txt
+  - ref: refs/heads/usb-testing
+    old: 89e84f94647957b6f17962422889a6571f6da162
+    new: c1baf6c591e6901d3422d7a0d0d32ccf29883edf
+    log: |
+         1cd27268561a9a7e466baf61e2de2295933648c8 usb: ehci: Fix a function name in comments
+         4b0f13ead8c1422160cf380a76e5fd1b31b95c2a usb: host: fotg210: Fix a function name in comments
+         202698580e597530c7ed407365097769881decf5 usb: host: oxu210hp: Fix a function name in comments
+         6941d194fab312004dbdbf1323a00153bc2ccbbd dt-bindings: phy: tegra20-usb-phy: Convert to schema
+         7557c1bfd3777a5a720f80edf28b473cec022bed dt-bindings: phy: tegra20-usb-phy: Document properties needed for OTG mode
+         c1baf6c591e6901d3422d7a0d0d32ccf29883edf usb: phy: tegra: Support OTG mode programming
+         
 
---===============8015637314519503235==
+--===============4212628581174600637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45c9d966688e-95bf387e3569.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e0ee6891174c7db210e6c55cab69656c40956a6f net/mlx5e: Specify SQ stats struct for mlx5e_open_txqsq()
-80743c4f8d34fcfdb3b6a35926316207813659ed net/mlx5e: Add TX max rate support for MQPRIO channel mode
-61c6f0d19084578975f6344712cd1bffd5326851 net/mlx5e: TC, Refactor sample offload error flow
-d9581e2fa73fadba187b2e62e05306e24e8a1ded net/mlx5e: Move mod hdr allocation to a single place
-9c1d3511a2c2fd30c991a20c670991ece4ef27c1 net/mlx5e: Split actions_match_supported() into a sub function
-d4f401d9ab189b8283e661e57b1ac148bec147fe net/mlx5e: Move parse fdb check into actions_match_supported_fdb()
-3222efd4b3a37b68068fb1c7470248eea7123f19 net/mlx5e: Reserve a value from TC tunnel options mapping
-2f8ec867b6c3dd4c236414e61d5a67e09f77ab4a net/mlx5e: Specify out ifindex when looking up encap route
-6ba2e2b33df853b73c8494758a1da7067d144f7e net/mlx5e: Support accept action
-a1a6e7217eacf2c19a518d3adbe8ae3b4fd93a73 net/mlx5: Bridge, refactor eswitch instance usage
-64fc4b358941fc2e9ee38b8b870ea0dac7639494 net/mlx5: Bridge, extract VLAN pop code to dedicated functions
-5249001d69a223811ad654884c6115d55158fd51 net/mlx5: Bridge, mark reg_c1 when pushing VLAN
-575baa92fd463cb202447fe14770532cae55715a net/mlx5: Bridge, pop VLAN on egress table miss
-3663ad34bc707fc85492f4d83a313f5df84718d4 net/mlx5: Shift control IRQ to the last index
-f891b7cdbdcda116fd26bbd706f91bd58567aa17 net/mlx5: Enable single IRQ for PCI Function
-95bf387e3569e079dc621028e7c1c55ef01b0ed7 Merge tag 'mlx5-updates-2021-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633430882 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1633430882-5de3c83561f5ff22f9bb5c570a99c83b0d2f30cc
 
---===============8015637314519503235==--
+89e84f94647957b6f17962422889a6571f6da162 c1baf6c591e6901d3422d7a0d0d32ccf29883edf refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcLWIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hSIP/0+4KAptVdjvSJMg/sZQ
+HTPfs6z5e7Gprvro+1qxtukaDS0U15fMn7yCXnbBQfuhIN6t+z8RoRzaLunYcUvD
+jqhFXpdO1jugxlxZxAjra1kQOJs6vbHDAKDzA9R++yQyrIdY6cE/sv3dK2Do4EZY
+77eJf5GpFLa7OoUvBgD615fnO1/9aVHPn5ZI9/VYvV6xVOYFs8CYnZyvRyHK3BHf
+ciXiMH/Y8lHD7hLyTP3NXwJ+it8ovNWzHGkB5DaDBYxSJD5t6xSd9pdYtrea2PrR
+2cyZdDnc7FCHjf7jhufvGftUV3AxUK3VvSL231KWj72qA742PIWKc9TNzqagr0bS
+m+NTv+ocW9H++zHav6h2VR2jTzB+prUu+puhGbOeEfZdrTp31NPDhw4QyW/lSSJu
+pJDxjiy5nJBx9qtVNpVZHzlTHyC32yi0bx4Ts+o8+79IkNEO0rE1uwqkSnURPPDZ
+4wX/K3rxjrSKbb//KDxMot3en8zpTQ66o4sRIY0kKE8k915lCZV+JSP5pTDhkSlf
+reYFfpqegXxvjXm6aKE3UvaVzKT3JLqkTTafY6bM2SPfJj5e6zegKFRb7u4C9TrX
+ssAXS9P6bRtHJmbE4Gz1ok2bO8nnKsMpZG0UvQWV0tHkgX2QphIyYRXRpED11tjN
+pLCFMvwA/WUSMUniP5qJwe51
+=LalP
+-----END PGP SIGNATURE-----
+
+--===============4212628581174600637==--
