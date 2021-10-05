@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6588618584967763358=="
+Content-Type: multipart/mixed; boundary="===============6205644234554539427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 11:46:07 -0000
-Message-Id: <163343436750.29033.15435334683235131082@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 11:46:38 -0000
+Message-Id: <163343439891.29241.10244358050916372707@gitolite.kernel.org>
 
---===============6588618584967763358==
+--===============6205644234554539427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 268bbde716e3a79a747a0f4ebbeb9f63d861737d
-    new: 4d1aa9112c8e6995ef2c8a76972c9671332ccfea
+    old: 4d1aa9112c8e6995ef2c8a76972c9671332ccfea
+    new: b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4
     log: |
-         4d1aa9112c8e6995ef2c8a76972c9671332ccfea Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+         b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4 usb: typec: tipd: Remove dependency on "connector" child fwnode
          
 
---===============6588618584967763358==
+--===============6205644234554539427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633434366 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633434397 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633434365-9e4122db8b329a9bd02cf72c4058443c27383936
+nonce 1633434397-e3a72a6c40e44c3585247be9d8ffcd7047ff8c77
 
-268bbde716e3a79a747a0f4ebbeb9f63d861737d 4d1aa9112c8e6995ef2c8a76972c9671332ccfea refs/heads/usb-linus
+4d1aa9112c8e6995ef2c8a76972c9671332ccfea b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcOv4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E0MP/2XSzq99aTJNZskuhZ9f
-kto9gz0mf0SKOr1LhtjoiK+cQ/QiJExwM1bCFIMoSa6CE6TsOQzHbo+5p4VgpD8F
-KZ5dv6pO7jUmGGKLXn8Y7wLb3WNv+gqN/gQZKDRosNOyCEa1QTl/meHNqKYSTLL5
-woPHHKgpzlcU/eAw9sWfDtFHDiNIHbsY9FiW7q2gVJuij0QZQP0WIfRMgsjtQsBp
-P8/fC3SqSoIcbOrR82z2coZJLqPGP0H5OkIYvHMAPMAx7UD4SA5UrqVTDaREEyf+
-uXsmhlW95HmwDiTmSd19IQgYGm8djPbQ+LrVCNJECAomzVvXnoZLh3hS9TFjz3+l
-sTHgFitut4FBsVSaP5j0AzmtDtUfVnqm69wwTxpZCPW5AuQhC0PgtVfZw7je5T7B
-Gic+n8JtI6nE2aYe7UXjuRCQzEdqk7QzPCG/S0j5U1LZxvIiBDt1oMOsIBdOF5M0
-OGIM1afl7vl4pK5S4ZNEOqNOaCMUa24GcuIO+LsFO9Ai1Rg8LKIRIupDIsHbFTSO
-mft7c6rwTMWOV6XKMKbjO7ErpCe9dIN7SgQ9GCXZ6DbeK4bEeYGO0ak+O5FfKbNJ
-gtf1XOQd976QpJOgqt7qUCb+WbDN8eGzJvdzOrbIfkS1PjEAXYnqwBPHVaHIMxRA
-KN/I0qG3oU6wnRnOlddH3wGp
-=QDdg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcOx0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XeAP/3MzOltKOkz2yH0ElYPs
+LseUSlSgrK1RJF0ceM1EobbKaL1CGFisVvvueAfnI4enJZwUKHYu6GJjvUpH0TMT
+S5pjqgDpWzW/YV319PbpHG7Fw4ChB/WQ4lI9wN4Pj+f0dLFx8AoC7IzYjMvbRLAm
+X7IT/REQ4a8WOyA8HVBNvxkRDJlNY2R25ajBijn3C3GGYlg+F5ypqFf1Fm+hwbO6
+tJS4/FFJeyz1sIpGwvSEBCkn+FLpUC7TVkk6RPemdYIxXv+jsNXakZ5cv+qEwcjX
+QQpkpsI0H8hPTSfi9VJPzeRj4ZgTqe08rgUup5KCSUOUhPzDAtrFrQ3KwHB4zBbi
+3YOsL8j2NHpFSQS1vcOQ8NoSDDRgyouRyiCrmZQTcQRuCGj2lxEnpZL0Q8JZ1akQ
+24e+5afg34bcCRJKJ7xUR6RxjwlcmzjYJM4gu3xgJYCQYZTaNvSQAwQwQ0e/j/bY
+eknmvqK2EaIXqACrBnycUXQShYrD0xB66LBbzWu8BsjhYqDIKwn85fXdOOI7rZoF
+G5wUyFrxj82HTmyFyi5PWF/WZlQxGbgcOtv6u9XrZXCLGqYQu1Mcx+05S/wJo+A7
+nKf39aBbnUBvE9l0B1P+izeV/KESR0IeKERnf1Ojd5GtgQxEK5GcV0VVK80DEGX0
+eQFtwf9FYeZc41RJdZZWaSUG
+=vsll
 -----END PGP SIGNATURE-----
 
---===============6588618584967763358==--
+--===============6205644234554539427==--
