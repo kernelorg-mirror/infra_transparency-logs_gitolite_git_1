@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 05 Oct 2021 14:18:13 -0000
-Message-Id: <163344349309.531.17140652064922568538@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 14:18:22 -0000
+Message-Id: <163344350230.620.16742266791938061557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 9321f8152d9a764208c3f0dad49e0c55f293b7ab
-    new: fd7fdaad036853026f5a0b42633139d8d41303fb
-    log: |
-         7687201e37fabf2b7cf2b828f7ca46bf30e2948f locking/rwbase: Properly match set_and_save_state() to restore_state()
-         616be87eac9fa2ab2dca1069712f7236e50f3bf6 locking/rwbase: Extract __rwbase_write_trylock()
-         81121524f1c798c9481bd7900450b72ee7ac2eef locking/rwbase: Take care of ordering guarantee for fastpath reader
-         525f5ea6867eec67ce72739927db15ceec0a0c30 Merge branch 'tip/locking/urgent'
-         fd7fdaad036853026f5a0b42633139d8d41303fb locking/rwbase: Optimize rwbase_read_trylock
-         
+  - ref: refs/heads/sched/livepatch
+    old: 0000000000000000000000000000000000000000
+    new: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
