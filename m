@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8750455403976054356=="
+Content-Type: multipart/mixed; boundary="===============8250399528829966496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 11:01:24 -0000
-Message-Id: <163343168451.1010.16576591093462345642@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 11:02:04 -0000
+Message-Id: <163343172485.1269.12057136016477982605@gitolite.kernel.org>
 
---===============8750455403976054356==
+--===============8250399528829966496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 8c9e880bb98cba546ffaf97b85c5111f0aa86f79
-    new: 745246b6dcd0b3014eef200a833658870303970a
+    old: 745246b6dcd0b3014eef200a833658870303970a
+    new: 097d94d1753be2780c1e9e6b0503c0af365b27df
     log: |
-         c608dc105bd4533be8fd532a82f9c1fe5f0b121f usb: cdc-wdm: Constify static struct wwan_port_ops
-         745246b6dcd0b3014eef200a833658870303970a usb: gadget: uvc: fix multiple opens
+         7953dad7f8bff94a29f43a1b0da223e8c38004c4 usb: gadget: udc: core: Use pr_fmt() to prefix messages
+         097d94d1753be2780c1e9e6b0503c0af365b27df usb: gadget: udc: core: Print error code in usb_gadget_probe_driver()
          
 
---===============8750455403976054356==
+--===============8250399528829966496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633431682 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633431723 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633431682-c48efc78eceb125868eb2a6a11cc0af56830163a
+nonce 1633431722-2f642ddc21c237c68505a64f39a56672bb6c1f3d
 
-8c9e880bb98cba546ffaf97b85c5111f0aa86f79 745246b6dcd0b3014eef200a833658870303970a refs/heads/usb-testing
+745246b6dcd0b3014eef200a833658870303970a 097d94d1753be2780c1e9e6b0503c0af365b27df refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcMIMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YTcP/03yu6OnpV4DgPHCcYHX
-BZWdmi364wpbKw+wEKVeJZOylDmcsRPAsQw35ZC0Pf05193u7yh5fUuZloWcVmQO
-epA76wdJUf/PkncSKDHYaprNNFgH/TLwtbrYgQ6rGRKTlYK1oSTkrz50J+qhQ2fl
-3W8p0b7lIq5vJXY80Qi5630QBZJvWCfWP208GPws63uuwHB68XKK99PUOCR2X3PX
-LQsk7+az2KzKDLUISlBygGDHmRd2DWDxZ623tghDNvMab5+P1CWxuNyhZ3s53U59
-3sCDhf/v5tWjLx4qf3eCUX4HTWm7dpplglK9V5Toqg9ijzJZjymGxqQqupGgVSnN
-A+UgxiZhgQIytq1jGF7w71YI/7xGg6K9/0I0MzA8iRnua6YCftHmHzYSugjn6Lg+
-Cq4On/CfWoxGPAtftCz1igB3oorP9yWRxDmxpokm54p7rMEpmhGY1sTzp+3fflMF
-PK9wJT5Lv1PzNaKa8NYNc9GekDfuGwFIYkTQjBc56pFyxje/GroskPSgjPBPdzFx
-zVIcYsbLl0tmCv3XbfPp6aKya0r2yJp7dYeMwUCOel/XPMoEe6O8hPaZAxYL698q
-/0hVjXaGsvI72bKDwv6pt9ttxGkG8PBxdfNdvLqdNHb5XwdUaEQH2mJETS8EDyIy
-HkxoiAibmcE+0UgGseC5yBcQ
-=k5pK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcMKsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WRsP/iFHNMm9ZyrJoSs8wMma
+aHosx6Pk83a3W+S9pjlD1mPlCQJwYeWUOLX66VmVncGof7aOJXOKPfSKrIJBYZbK
+49K0XxYuI8xpcLr0pYfDvS2nDg9gV/8dbW85DaqX7cSO28D0nNZuas1XO57KLPmr
++Jchpxq/ZjdYJkwv+6DNH+0sQaoUPHmRlConv1iPRFfJ8z09W0yIl8lk00s9zsq3
+jV5iF+Qyah3+CB/7Da71Z5kJfcrkP7T4Z4yjNTp4aOk0/r4xOeEWreHcvfxP7pzY
+0GWtOR/jL3F4n32vlyFrM3kI/Fxhl8DzxBUrHoRtgDO29WdWHqH+2A/Ns7zlvfQU
+2XprLh2XEgq39ZWpvp7ZlivmroqfbaYb7Cr6UezPz3mU3UuUgSTs41/UJwNIMq2D
+zz0VItv+h2fiRRRohKpeEuUpw0UU0wb1kqkIMNHzumEPiBM5SZEW9rT3wy8rxrdg
+lahufLQazlm+rrFec+SSZy2CnYrVI004iEP33qQD1BKffsmEgWYxsbC9bTN/fpAX
+MY3ISXt2XwA2Iv8OKdkn5kVS8WyGliJhcnqsoN6mPt3PoKrGRRcqpcc0IA8eICp+
+sqhgn38rTaEd4PjUitSTPqMz0IYLniC44HnxBEREtUBIOlRH+Dh9KgtCxPXKz5nc
+varam3BvezugMnwWeRYO5L/1
+=ujUF
 -----END PGP SIGNATURE-----
 
---===============8750455403976054356==--
+--===============8250399528829966496==--
