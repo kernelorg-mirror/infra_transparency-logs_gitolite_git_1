@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8250399528829966496=="
+Content-Type: multipart/mixed; boundary="===============6036590577671996735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 11:02:04 -0000
-Message-Id: <163343172485.1269.12057136016477982605@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 11:02:53 -0000
+Message-Id: <163343177351.1602.9589250327044399143@gitolite.kernel.org>
 
---===============8250399528829966496==
+--===============6036590577671996735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 745246b6dcd0b3014eef200a833658870303970a
-    new: 097d94d1753be2780c1e9e6b0503c0af365b27df
+    old: 097d94d1753be2780c1e9e6b0503c0af365b27df
+    new: 140219145a9b7374033ecb11debb3225ddc0b243
     log: |
-         7953dad7f8bff94a29f43a1b0da223e8c38004c4 usb: gadget: udc: core: Use pr_fmt() to prefix messages
-         097d94d1753be2780c1e9e6b0503c0af365b27df usb: gadget: udc: core: Print error code in usb_gadget_probe_driver()
+         8850c88746bd9b7e5e711a8325187f5100d2917d usb: dwc2: add otg_rev and otg_caps information for gadget driver
+         8c292d67cbe7883ea0f0ef1f6b4c08df91096e87 usb: dwc2: stm32mp15: set otg_rev
+         140219145a9b7374033ecb11debb3225ddc0b243 ARM: dts: stm32: set otg-rev on stm32mp151
          
 
---===============8250399528829966496==
+--===============6036590577671996735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633431723 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633431770 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633431722-2f642ddc21c237c68505a64f39a56672bb6c1f3d
+nonce 1633431770-0ca7627a6724ce8fe7de72b95d98b837486d320f
 
-745246b6dcd0b3014eef200a833658870303970a 097d94d1753be2780c1e9e6b0503c0af365b27df refs/heads/usb-testing
+097d94d1753be2780c1e9e6b0503c0af365b27df 140219145a9b7374033ecb11debb3225ddc0b243 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcMKsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WRsP/iFHNMm9ZyrJoSs8wMma
-aHosx6Pk83a3W+S9pjlD1mPlCQJwYeWUOLX66VmVncGof7aOJXOKPfSKrIJBYZbK
-49K0XxYuI8xpcLr0pYfDvS2nDg9gV/8dbW85DaqX7cSO28D0nNZuas1XO57KLPmr
-+Jchpxq/ZjdYJkwv+6DNH+0sQaoUPHmRlConv1iPRFfJ8z09W0yIl8lk00s9zsq3
-jV5iF+Qyah3+CB/7Da71Z5kJfcrkP7T4Z4yjNTp4aOk0/r4xOeEWreHcvfxP7pzY
-0GWtOR/jL3F4n32vlyFrM3kI/Fxhl8DzxBUrHoRtgDO29WdWHqH+2A/Ns7zlvfQU
-2XprLh2XEgq39ZWpvp7ZlivmroqfbaYb7Cr6UezPz3mU3UuUgSTs41/UJwNIMq2D
-zz0VItv+h2fiRRRohKpeEuUpw0UU0wb1kqkIMNHzumEPiBM5SZEW9rT3wy8rxrdg
-lahufLQazlm+rrFec+SSZy2CnYrVI004iEP33qQD1BKffsmEgWYxsbC9bTN/fpAX
-MY3ISXt2XwA2Iv8OKdkn5kVS8WyGliJhcnqsoN6mPt3PoKrGRRcqpcc0IA8eICp+
-sqhgn38rTaEd4PjUitSTPqMz0IYLniC44HnxBEREtUBIOlRH+Dh9KgtCxPXKz5nc
-varam3BvezugMnwWeRYO5L/1
-=ujUF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcMNobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dJIQANFjREdQsQ3wsX6CSl6t
+8Q/pFntAP6p3YT/fwIuzbRRkIpLJo4vG/kx8TrrELs4P5ee+f7GqB0tTdTtH8Zcc
+ScxsmROkX4yYO9UIg4t0cz8xk6gePkaIZPDT2Kkj2zUv1NK+S8sNZpwO+j2vlHGq
+xZCmeNUUkc032J3XdPrDUyUnaSh1dXWfdSc1N/SJRtDRSs6TDptsL2DwfO/7q44f
+1TD66bV+6ZUZzfiSy7O/JJm4FinTj4EEGB4aYo3M/Ols25/YsrTnCtFFdA9x1+Nx
+5C7dqIFWRNqqnspsQoIBsGH5PPx+jn3MMubP+Iu7Rjx6PxocTNdupk55B/i+EN8i
+K5WNTv5oaQdu8lxBtidtYm7zYI0u+2N8yIGllYEiimSw7EQwQOEanpigvT0BFl9M
++vJwJvHsF3D0d6mcODlyEPO/Ec/9+7ULwodVLluX+c3zr2s2x8FfnicrCVhrke1I
+0W8XcPsMCpJcLK8xWxxDQ20Bn1BXymh4nC8w/0Sk64cido/BDtZaKm7B2dUAqH0h
+tApDpm7+3AG18TD7++Ygba0UWzofsq3tIgzM47zWT/yM2ZZZJzeclqxM0Ntn+5W1
+3rrBp7oSzmfLdcrnoZmZXdv9GLXDKXZV2p1ydM7s8//k3k7fNN2UGcvZ8YUZ6Ixd
+T2Xc8BlSIxbY9gTkWF5u9LkO
+=/rjM
 -----END PGP SIGNATURE-----
 
---===============8250399528829966496==--
+--===============6036590577671996735==--
