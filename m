@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3748180508904789822=="
+Content-Type: multipart/mixed; boundary="===============0667293500939438297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 10:55:26 -0000
-Message-Id: <163343132610.30072.978919803242075976@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 10:56:59 -0000
+Message-Id: <163343141930.30564.17346836982420565495@gitolite.kernel.org>
 
---===============3748180508904789822==
+--===============0667293500939438297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 01b541504466bd3bb5dfcf5a8f9784561ba16cb6
-    new: 24749229211ccc11a3829d4f2514c2e2bac9d04b
+    old: 24749229211ccc11a3829d4f2514c2e2bac9d04b
+    new: 8c9e880bb98cba546ffaf97b85c5111f0aa86f79
     log: |
-         24749229211ccc11a3829d4f2514c2e2bac9d04b usb: gadget: udc-xilinx: Add clock support
+         2abc865706c9aa4a7b7e24b02261950cac90554e usb: exynos: describe driver in KConfig
+         b1464dec5446034136ad7b953233147e011a313a dt-bindings: usb: Convert SMSC USB3503 binding to a schema
+         a8e2908cae1120eda39d534f23523082dac6b96d dt-bindings: usb: dwc3: Fix usb-phy check
+         8c9e880bb98cba546ffaf97b85c5111f0aa86f79 usb: usb-skeleton: Update min() to min_t()
          
 
---===============3748180508904789822==
+--===============0667293500939438297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633431324 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633431417 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633431324-b0f6e8378c88e3a2fc201ca6b14ea05b9bd71681
+nonce 1633431417-9d2049bab0c9ffc7e03d6ccecb5df5d59152b981
 
-01b541504466bd3bb5dfcf5a8f9784561ba16cb6 24749229211ccc11a3829d4f2514c2e2bac9d04b refs/heads/usb-testing
+24749229211ccc11a3829d4f2514c2e2bac9d04b 8c9e880bb98cba546ffaf97b85c5111f0aa86f79 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcLxwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T4wQAIvR/gHQkmV1Ksa87QhK
-k9rr3+vuJ4U6MfPqCwpX9WVBi1xS6KWEyTJHUPjj7whAQyl5hR082bt9ygGEOiXj
-R5dkk8m2XU68d78seNxEr2SezLEHqHkT/QBc5+JifnbWugycQMUHRz2ds9rG25Pr
-IT/i8HqCYQs//0ehbX5DpLDdhPMxx52v3kpdFKMn82ab9IZG/0q+/o1euWsfm1Er
-S9+M+OdI6nAr1mmCKFkLq5/vQV4sOGx5v2NMbr775jOcnTWKLfewvyJ+8BNr+Hf4
-LsiERogAW5JUJTVaGM1t3O1kf3WU2SXJkMedxDNLH16aWtkLKc6TtBj3j+kBSJSy
-33eZuEneXvGPgihypR3mENmUUtDKS5xu2XvY//lInUFUe/Jy79IbWJxnKeZLDgov
-LnfmY4x+QlmXTu0a2WhU2UyoiXDxeZ+Hqnx6c5u8/ikgglIMa2O8hhKtLWjlDn2W
-zvRm1FGI29dnD15BL25mdt9Lmew0efoxDUUU4hca5ozDxIfojf5ysf04V2ZL03QU
-zhM3S8G6RpDE3UMLFC8Ch29MD4Dyws9srDfDHf/6R2S5rRzYXvuKuMN9s4FHGUie
-7x6oed/AHrCaCDTg/uOlourAmU3Eck9htOOANUYJ9rvGsjBreEchZwZbkYSYOqjJ
-Eaj20F5Er8/KbfzA5l1x/is6
-=8LpA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcL3kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HHcP/3JturC/j2DvurdjIMpJ
+89bvzFCwzlYaNlbkenLgroNO84TNH8VH9ONfO6GMnZXZMjQxQOVar1jHDgHzhbcn
+oBe2RJUiQxufgkPbMmGYLaQ2tcZvtiWusxTUVpbLXg1t6JW64rI1lmF+1SMTs7Jf
+UEMkH/9MdyawUknifHT239ZELnPgxtUyw/z9c4Nim2ERFPm0WwvsK9jrcjZTfvVa
+YqDdjZOOoj74MCrcBSGfW/e9lzzyguWId8JztWA8ItcJtMNqjCvs+zkLYDV0FK72
+Ab6O32eES8g3jn0VIG0HjPcEv+aBYyAA9z/yrYOvbBPxEdGUjl+sUxcI9DMvJ5B+
+UC+0Y6g33ORytKx58s8RhZDIzVcDWjbV7tAb0oXFQYyqZbkAnM+vQg0Eh+iVKZ5d
+b48wDhdjO91D9O60hQq1ZJz1b7D69cqR4qtUxVfevYWg0t0My1SyPA7gmfGCnzC4
+2Y8ivFOAe/q+i9Z3DStv3lQR7kgfywr/2cNIyP8ao0MVHAAQHsSdCn7C8h14hh6q
+Ktzptw5s6+WwQzRwcOisFchH4c6eKl4KxdgmdyuPoMgCLhVgg8SDhfzdML3N/Gfk
+x2oGcLkOr5D1GD4WJW48y56IHS7XfDY4rWVd+TT0AVFmOHP5/kOyuINVanP0BnmI
+3BmBct9bRYZ5zCMbTLBidR+a
+=juB4
 -----END PGP SIGNATURE-----
 
---===============3748180508904789822==--
+--===============0667293500939438297==--
