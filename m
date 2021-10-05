@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2015288854668487307=="
+Content-Type: multipart/mixed; boundary="===============0470581984703159511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Tue, 05 Oct 2021 06:38:05 -0000
-Message-Id: <163341588591.8093.8384987608505776968@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 06:38:08 -0000
+Message-Id: <163341588831.8150.9982266968816723988@gitolite.kernel.org>
 
---===============2015288854668487307==
+--===============0470581984703159511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/for-linus-5.15b
+  - ref: refs/heads/linux-next
     old: 0594c58161b6e0f3da8efa9c6e3d4ba52b652717
     new: 9c11112c0ec7ec322cd495320c3ab9fa8bdc1bbc
     log: revlist-0594c58161b6-9c11112c0ec7.txt
 
---===============2015288854668487307==
+--===============0470581984703159511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ adf330a7cd64a8bb959dc48a9c282285c1d5b4d5 xen/x86: make "earlyprintk=xen" work be
 59f7e5374175ce5d776efeb12a1e61cd6b1f82fb x86/PVH: adjust function/data placement
 9c11112c0ec7ec322cd495320c3ab9fa8bdc1bbc xen/x86: adjust data placement
 
---===============2015288854668487307==--
+--===============0470581984703159511==--
