@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7569019075072894600=="
+Content-Type: multipart/mixed; boundary="===============3492425811991869443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 05 Oct 2021 20:35:49 -0000
-Message-Id: <163346614953.15702.6372585985841011236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 05 Oct 2021 21:02:15 -0000
+Message-Id: <163346773579.31661.13186164937132343631@gitolite.kernel.org>
 
---===============7569019075072894600==
+--===============3492425811991869443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 51d5608626f884347deffb0c510db4e15e8ad5de
-    new: c1d82fb778cc8df3acd978ab9a84f99f0ad8a28b
-    log: revlist-51d5608626f8-c1d82fb778cc.txt
+  - ref: refs/heads/master
+    old: 43f51bd946dab69bb38b05863898dd711b7e4506
+    new: d0f1c248b4ff71cada1b9e4ed61a1992cd94c3df
+    log: revlist-43f51bd946da-d0f1c248b4ff.txt
 
---===============7569019075072894600==
+--===============3492425811991869443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51d5608626f8-c1d82fb778cc.txt
+Content-Disposition: attachment; filename=revlist-43f51bd946da-d0f1c248b4ff.txt
 
 0b59e272f9324dac8c12444cf5926be84abd53f9 Bluetooth: reorganize functions from hci_sock_sendmsg()
 81218cbee980b1d027c429dda56c8c5ac11ccb4d Bluetooth: mgmt: Disallow legacy MGMT_OP_READ_LOCAL_OOB_EXT_DATA
@@ -122,7 +122,5 @@ ebb1fdb589bd6d0ee647d4fa285bc934ba369cde mlx4: constify args for const dev_addr
 a05e4c0af490ca7c22fc77120aafebebdeaaf537 ethernet: use eth_hw_addr_set() for dev->addr_len cases
 49ed8dde371522b2d330a7383aaa213748ad007e net: usb: use eth_hw_addr_set() for dev->addr_len cases
 d0f1c248b4ff71cada1b9e4ed61a1992cd94c3df Merge tag 'for-net-next-2021-10-01' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-0439730016c91d0f07b506a6e3a332adf91b3955 net/mlx5: E-Switch, Use dynamic alloc for dest array
-c1d82fb778cc8df3acd978ab9a84f99f0ad8a28b net/mlx5: E-Switch, Increase supported number of forward destinations to 32
 
---===============7569019075072894600==--
+--===============3492425811991869443==--
