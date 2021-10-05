@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0470581984703159511=="
+Content-Type: multipart/mixed; boundary="===============4861477178408069859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Tue, 05 Oct 2021 06:38:08 -0000
-Message-Id: <163341588831.8150.9982266968816723988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 05 Oct 2021 06:42:46 -0000
+Message-Id: <163341616694.10940.16386343102316418959@gitolite.kernel.org>
 
---===============0470581984703159511==
+--===============4861477178408069859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-next
-    old: 0594c58161b6e0f3da8efa9c6e3d4ba52b652717
-    new: 9c11112c0ec7ec322cd495320c3ab9fa8bdc1bbc
-    log: revlist-0594c58161b6-9c11112c0ec7.txt
+  - ref: refs/heads/master
+    old: c833dd3a37a1c44225aa873e1da19827cae02ade
+    new: b278b4864e2cd1c4770454ea92e96559aa8d6a86
+    log: |
+         b278b4864e2cd1c4770454ea92e96559aa8d6a86 4.4-stable patches
+         
 
---===============0470581984703159511==
+--===============4861477178408069859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0594c58161b6-9c11112c0ec7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0432523f4807a83902857347bd73eb817ef0a742 xen/privcmd: replace kcalloc() by kvcalloc() when allocating empty pages
-e11423d6721dd63b23fb41ade5e8d0b448b17780 xen/privcmd: fix error handling in mmap-resource processing
-97315723c463679a9ecf803d6479fca24c3efda0 xen/privcmd: drop "pages" parameter from xen_remap_pfn()
-9172b5c4a778da1f855b2e3780b1afabb3cfd523 xen/x86: prevent PVH type from getting clobbered
-cae7d81a3730dfe08623f8c1083230c8d0987639 xen/x86: allow PVH Dom0 without XEN_PV=y
-adf330a7cd64a8bb959dc48a9c282285c1d5b4d5 xen/x86: make "earlyprintk=xen" work better for PVH Dom0
-8e24d9bfc44d3bd884669ef8b344112fe41c9826 xen/x86: allow "earlyprintk=xen" to work for PV Dom0
-42bc9716bc1df21b55b303fe243f8575b3af24f9 xen/x86: make "earlyprintk=xen" work for HVM/PVH DomU
-4d1ab432acc9391a5ae13c629dbb5882c29fd1b0 xen/x86: generalize preferred console model from PV to PVH Dom0
-079c4baa2aad05e8007faa24b2411c1457f60d74 xen/x86: hook up xen_banner() also for PVH
-59f7e5374175ce5d776efeb12a1e61cd6b1f82fb x86/PVH: adjust function/data placement
-9c11112c0ec7ec322cd495320c3ab9fa8bdc1bbc xen/x86: adjust data placement
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633416165 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1633416165-afc82ce0f6d2f1d4afdc1081095bc322e68ab049
 
---===============0470581984703159511==--
+c833dd3a37a1c44225aa873e1da19827cae02ade b278b4864e2cd1c4770454ea92e96559aa8d6a86 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFb8+YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yJsP/2aP+iY6fARrjufSXz0V
+FtSYlgwrWq81YJp6QPNknSHRUXTiG88x4dAhlYDsGm8HKENoBCIqqetnD/mbIG67
+Gd/8hHMlW7t4g6r0PilEth2bIHRey8cyfGT3wvIGnODE3B2AAUJ8ZrRsS4NW2yia
+Rnodk97em46iyGQtTSKVSbw8zBj1pc2hcBv5BL/YgBWuMd5S1TLzClYB56raUPTp
+ufKxcRpcUVkd7ROIiS0uUAJFu9c1GDB9luGfm08kZoAFZjpvvUN97UWcwp/ern5R
+jnU+9YLqyo4wn6Ngdb+gf00WwQq7gvCl6+SQbPtr7yxctB6goSrT7uml20lettW5
+dRypnoYYmXXX+9YaY+uQuwNqBoCqi2nnuFBlSfnTb/zlezECmA06CsYgD9LN5qoB
+Hsnn+4yzWw4MZMS9Qt1YJ0rOv+gEhE38yIpwvO4uxXOCQ6/xdIdAUpNFiGOoDgfy
++yQK6f63nsXtO6YYAT7m2Y3hYoiyc6nTRo1Ht3oiY+9NJsBC5pVQgKglSDFA25Vg
++qiOaVfVH3KEqUNe65LAM0iGH6WmBkzj3DmnGmnLgj5HaEI586AW+VYbZTY+79QW
+AkR94LRqMlwEE7v2Kdd121GQgjdD4rkxpb40lhaT3hHwCYbIGkmUYK7tDTdC9DtO
+Gy97mKs35VmmXA2dHUODeGPk
+=/5yD
+-----END PGP SIGNATURE-----
+
+--===============4861477178408069859==--
