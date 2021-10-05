@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7988011528422555859=="
+Content-Type: multipart/mixed; boundary="===============1595479831096011996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 05 Oct 2021 15:25:35 -0000
-Message-Id: <163344753580.14522.9652356463982059961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 Oct 2021 15:25:42 -0000
+Message-Id: <163344754234.14644.17080938585291026738@gitolite.kernel.org>
 
---===============7988011528422555859==
+--===============1595479831096011996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 2a04151ff95a3c430150064b0c8beb1981f81187
     new: dc1fad25bbd0698e8e61a0468e3920c5c29a803f
     log: revlist-2a04151ff95a-dc1fad25bbd0.txt
 
---===============7988011528422555859==
+--===============1595479831096011996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633447533 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1633447533-8b49ee1853958b1f16ebfc955b13efa72b92f3a9
+pusher C3F436CA30F5D8EB 1633447540 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633447539-55eb7019dc650824463151768b26c5be6835f101
 
-2a04151ff95a3c430150064b0c8beb1981f81187 dc1fad25bbd0698e8e61a0468e3920c5c29a803f refs/heads/for-5.16
+2a04151ff95a3c430150064b0c8beb1981f81187 dc1fad25bbd0698e8e61a0468e3920c5c29a803f refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFcbm0ACgkQJNaLcl1U
-h9Dzuwf+LoRdiLh4tA8UuRfbgg9zg0GdMQGuCPP91UdhsL8/BElQkh+LEdP095+L
-rn3kYTg3p2iQSYd7sw5zTPQJZzktgUrMQIufK4YuG8MQ1yk6kqM5wPcFZI41yJJF
-eQt3WpOBvwCeA49RrjW4ITpt+fB9JOAWxK+QtP7KZAv61yQrDFxbSkmFccUuzrYk
-+KBXikmJrsllKUsV2h054BiXhduBGKWgOrh9Zg2zlfvBGkAkuIK470gu6UD26JwE
-cLMn5QaPpJvBCNwQBWItlQQCqsJG9Pd0YupR0l9pxnBBvta0LsAcaTBMG12nlMnp
-mFkrJeBKUmrEPjLCe7nXcPnNZryaAA==
-=uwTO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFcbnQACgkQJNaLcl1U
+h9CSJwf/XHaOKCRwIVpDwWwfY7iAd+PnYEgxWi1LrvDLD9CecGUl3RcWwILgRCAj
+6hlLFBEexfeaU5Oq/Vn+auU+A2PXZ7ivfJpNj59nonqhKfLkRJlgDcXOYjhekC6n
+V+h9kD9VO07YBg2RKf9iOFsXzBTS4OyG9KJs/miaQ3NEAoom7I1wdGuO4VcYcxwo
+7YdgvRjz3ijob1kO6hn8KHYxdtzKEmKrhI/BshpTf8XN2VzkdrRXrVGmEu1yxtU1
+uhhoT1MjP/y4IU8wgfdCnJB72Sl0NJlGW3mzh3JDLY4nMLNw8UtqmX1iPdPEgRvk
++Cy7+jZ0jTxtafeqF0klEeId4un36Q==
+=TM7+
 -----END PGP SIGNATURE-----
 
---===============7988011528422555859==
+--===============1595479831096011996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ d54aa2aeaa70237f4482336e86195235ea1de032 ASoC: amd: acp-rt5645: Constify static 
 6d0c1f787c907058916058ecb9cbd1a8113f3c10 Merge series "ASoC: SOF: Intel: add flags to turn on SSP clocks early" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 dc1fad25bbd0698e8e61a0468e3920c5c29a803f Merge series "ASoC: Intel: machine driver updates for 5.16" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============7988011528422555859==--
+--===============1595479831096011996==--
