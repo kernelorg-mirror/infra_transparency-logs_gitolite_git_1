@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2247296833686661582=="
+Content-Type: multipart/mixed; boundary="===============3511928971422698700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 05 Oct 2021 08:24:40 -0000
-Message-Id: <163342228077.12045.10053438048484617864@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 08:25:43 -0000
+Message-Id: <163342234327.13793.11339927002200190990@gitolite.kernel.org>
 
---===============2247296833686661582==
+--===============3511928971422698700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: deae4a10f16649d9c8bfb89f38b61930fb938284
-    new: 542a2640a2f491902fd366b5bb54a2b20ac5a2c5
-    log: revlist-deae4a10f166-542a2640a2f4.txt
+  - ref: refs/heads/queue
+    old: 41f65684f358e245d175c51610fe225df3d390ae
+    new: 2acbc5c9a0ec8b69a7dd051fd01a02a2ec64b134
+    log: revlist-41f65684f358-2acbc5c9a0ec.txt
 
---===============2247296833686661582==
+--===============3511928971422698700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1633422278 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1633422341 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1633422278-d8f0069d8a49ec8041cb1acdf269e7e574bcb9b3
+nonce 1633422341-8d2aa049854f22a9e1d447f403f1d9c349be5f54
 
-deae4a10f16649d9c8bfb89f38b61930fb938284 542a2640a2f491902fd366b5bb54a2b20ac5a2c5 refs/heads/next
+41f65684f358e245d175c51610fe225df3d390ae 2acbc5c9a0ec8b69a7dd051fd01a02a2ec64b134 refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmFcC8YUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMGGwf/bOzUnHsN0QtGivJpGE1Zm0jiIsKy
-ds6hX6yfhuaWxTGOmiZaaaybICGjppcsVxsxrp8cEds7vfWiwo+QHNN2DPb4QCP2
-noGCSTjraVCm3U9rzyrG+HWwr0tB40KPSpFe1SjtfLf4CbzaLBRhSJQBcz9dD3cO
-0h+3zRuYcKxyxD2zY68LNBa2LIkPjRcwBH99uFob6aNQh3sGRp9nSIH3MXnyfUO9
-lZEXlstpH6iBa24SUgxVQ53+3azineaacN3xtWGn0nCMmOj6zz/n8KzRwIrrP2ID
-40bNrWYIWSCq/4ADWhUaUbbrL8RZgm1eTCcPl2TueBQT1SgwgfLm9xvGww==
-=cTx3
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmFcDAUUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNNUgf+NG+0dHEFpGBygPdymaeoSpz3UnTf
+wVgqVvmXPEtVp/ydl/7IhHrQ3I/pAJsNnFQekzfhy9wD1lSg4OydieAfE/ixD3h2
+73Ekw2GgCv95Qpi5A8EPFwbixZHFu/3bpYub8dy+iJaXRLLdAbgmM3OdZ9xWzaYr
+ZAaOXZPY1UGyMghLaL/RtbdghfWguiEOihRmngeERqRKRvn99H6uTXDNqxg22e3S
+HJU46pUWYUMGwewzCyfJjc+Syhp4/VyIG3tv5LU5mo2pDybBHJO+8dyZe+LRnpwL
+yCGOZh51LN5P7jTYCeuR6ioyGNWoBu7AIcEl0uDwHwhAYfPAruVQO82SQw==
+=mAcN
 -----END PGP SIGNATURE-----
 
---===============2247296833686661582==
+--===============3511928971422698700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-deae4a10f166-542a2640a2f4.txt
+Content-Disposition: attachment; filename=revlist-41f65684f358-2acbc5c9a0ec.txt
 
 25b5476a294cd5f7c7730f334f6b400d30bb783d KVM: s390: Function documentation fixes
 2353e593a13ba76c82921940471ce442fe498927 Merge tag 'kvm-s390-master-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into kvm-master
@@ -71,5 +71,14 @@ dea8ee31a039277576c215fffa13957970246366 RISC-V: KVM: Add SBI v0.1 support
 da40d85805937d6721b430dacfa2aaa44e3dcfb5 RISC-V: KVM: Document RISC-V specific parts of KVM API
 24b699d12c34cfc907de9fe3989a122b7b13391c RISC-V: KVM: Add MAINTAINERS entry
 542a2640a2f491902fd366b5bb54a2b20ac5a2c5 Merge tag 'kvm-riscv-5.16-1' of git://github.com/kvm-riscv/linux into HEAD
+ca21db0a9aa4aa73221e5671ca1d37ff6347843e KVM: x86: Report host tsc and realtime values in KVM_GET_CLOCK
+7125ef01bd21ea6e119b43ebf891f210b7075814 kvm: x86: protect masterclock with a seqcount
+e03b29fb9f17d122433a7d955d855cb5115ae1e0 KVM: x86: Refactor tsc synchronization code
+469fde25e68072963e483f7b2a156ff24b91c8fc KVM: x86: Expose TSC offset controls to userspace
+fa9193f911c17aecf709b79e7ae90d4709a460da tools: arch: x86: pull in pvclock headers
+2a7f013d57c675a61cef59ee824441a6a42fa013 selftests: KVM: Add test for KVM_{GET,SET}_CLOCK
+ac11a68c7775e1f9351d8bb05caaf0fbb6084212 selftests: KVM: Fix kvm device helper ioctl assertions
+71ca3fb402db3d2e420d328191bf8c8957f1cfda selftests: KVM: Add helpers for vCPU device attributes
+2acbc5c9a0ec8b69a7dd051fd01a02a2ec64b134 selftests: KVM: Introduce system counter offset test
 
---===============2247296833686661582==--
+--===============3511928971422698700==--
