@@ -1,57 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8453294118402397412=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 11:51:42 -0000
-Message-Id: <163343470279.1719.6633817997036114213@gitolite.kernel.org>
-
---===============8453294118402397412==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Tue, 05 Oct 2021 12:00:40 -0000
+Message-Id: <163343524013.7273.8246041571241789616@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/usb-linus
-    old: 0560c9c552c1815e7b480bc11fd785fefc82bb27
-    new: 58fc1daa4d2e9789b9ffc880907c961ea7c062cc
+  - ref: refs/heads/master
+    old: 424a99d0813cb5f21fa7f86d67b70f2fc043cba9
+    new: 39be37f74f600ff5ca21b612b0c5c64f188d0789
     log: |
-         65a205e6113506e69a503b61d97efec43fc10fd7 USB: cdc-acm: fix racy tty buffer accesses
-         58fc1daa4d2e9789b9ffc880907c961ea7c062cc USB: cdc-acm: fix break reporting
+         1c47fec4fe12dc016bc1d881d19c48a37504bbc0 use upstream license file
+         105bba76410a544ba3dafc2e574ea82a9b965772 use https for link to homepage
+         d90806bbd8b9ccafd62ea51de9b4de7ff0acdf73 fix POSIX conformance
+         c008cbb20e162f7d4efcf9e7013e4309a42311c9 fix some issues in scripts identified using shellcheck
+         ee2af5f29e7dcb89287c1e68d05e0cd11e199890 fix typos
+         39be37f74f600ff5ca21b612b0c5c64f188d0789 Help command should print '-c' (lowercase) instead of '-C' (uppercase) for "the console device to be used" option.
          
-
---===============8453294118402397412==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633434701 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633434700-8a23bac292fc087debbe62d8fcd19a375e2b58ce
-
-0560c9c552c1815e7b480bc11fd785fefc82bb27 58fc1daa4d2e9789b9ffc880907c961ea7c062cc refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcPE0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9C4QAIrzIq7awzJnqb+7A+yH
-7DznBfxef+uAAw5v2DLyMxQKO3MiiGORP6D7jy9rokc8s7jKjI9hP36BcKIr6Egj
-ahgCWMaSC8sXej+HzJeWqt/5n+uGqmyL7MXXCgYdOyXyDN4bpuqpqlOv+OzSRyYO
-/XgDv84w4g4vI9B5r3IsG6j2+MPcInAtXfCjlLYHgzH3ABvyOxJ11yUokFof7Yx8
-qWetm5GxBfO4WDNhisDRhjAEEchxb9Jk50aGy1x/mYeelGUJFdE9gzkUXQcTsjDm
-E8u0Il1fAf3VWKWZ2t28+cgVvdSl4OrSKR0hFC6llWP/oBaP3r+sW34kKdZ3gCby
-T6uwufVxwLlQHOH8kmkqxz103HKBT9edy3dAC6KIhD9s2wadwFfykDrOmLuL827/
-hkYbgqbtDSfcqJYBA1puFDf8zQsX9VFtQdxzhlQQIm6IDjaXo0qHFNonPyDDxJxs
-nSrsOOu5dTvufd2izKuRlFUCo+FlPvYrnIcILzbaGW+KSfFYpnG8w7cahyNU7lJO
-UmzYOqO9NjJX4orywQXBlTVG7VQoqxeP3pXC/OQQ7uNNPTS4hIRkrcH3U2ygDNaj
-Y+gY7vl4pGDZ/ZCH7isqOLS8eOjXrVVlDw5ueQJNSGulRXogQCp/VOQN5KCOL3f/
-xDcPikEa0m+BE8cViuGmYSaH
-=44P/
------END PGP SIGNATURE-----
-
---===============8453294118402397412==--
