@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 05 Oct 2021 15:27:22 -0000
-Message-Id: <163344764224.15743.17504514307252792915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 05 Oct 2021 15:33:28 -0000
+Message-Id: <163344800806.19093.10527379331655106145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-linus
-    old: fa382a0f96cf6ea01abc2d935883ee67aa15fb0f
-    new: 10a5788d2ede04c94d28708b937f0fa8ab5f0ffb
-    log: |
-         10a5788d2ede04c94d28708b937f0fa8ab5f0ffb Merge remote-tracking branch 'spi/for-5.15' into spi-linus
-         
   - ref: refs/heads/for-next
-    old: 8886d5c77f83a118081dd8a76f9cc31622eb45bd
-    new: 42798d6d620423daa9cecf9b2908eb710f7cc596
+    old: 6988f70cf105e70b4ea424d320521a9ed452fe46
+    new: f8119e8ccd254bb7430f3d7da39a401b7b1a0043
     log: |
-         48a78c66ad5d9d4f918182335d6e5726e7008085 spi: fsi: Print status on error
-         10a5788d2ede04c94d28708b937f0fa8ab5f0ffb Merge remote-tracking branch 'spi/for-5.15' into spi-linus
-         42798d6d620423daa9cecf9b2908eb710f7cc596 Merge remote-tracking branch 'spi/for-5.16' into spi-next
+         229d0cfae5b21bfc42525cf43b0b4279243acc4e kconfig: remove 'const' from the return type of sym_escape_string_value()
+         e86ce516e2a08955aa9fd9c7f42112c0ddefa77d kconfig: refactor conf_write_heading()
+         4b6412663ad4014bebf3fac90810ea3b42fbbf57 kconfig: refactor conf_write_symbol()
+         3d939b4bbd3226b4aa55b51bea2c2074275f6e6b kconfig: refactor listnewconfig code
+         85a74e5bd64005afb1169e8b6b6aa1c5630bf976 kconfig: move sym_escape_string_value() to confdata.c
+         5865c39e5d582288a1c1f9bba6868c7769c4d3d2 kconfig: add conf_get_autoheader_name()
+         6217708ec63a0e19479ba54d343ecd79bf7eaf79 kconfig: refactor conf_write_autoconf()
+         b2ce9091afa4da4c675ba80036ecd74f022f8196 kconfig: refactor conf_write_dep()
+         6e958cfeb78d50ce262be8d3c6af1b4516f01756 kconfig: refactor conf_touch_dep()
+         f8119e8ccd254bb7430f3d7da39a401b7b1a0043 kconfig: generate include/generated/rustc_cfg
          
