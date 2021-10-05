@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 05 Oct 2021 19:36:31 -0000
-Message-Id: <163346259185.10760.1987628867681352696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 05 Oct 2021 20:29:20 -0000
+Message-Id: <163346576015.10446.9617411137626919343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 64a1b0e52c7124d29d707893763af8d72b51f714
-    new: ef9f578252196005981e637afbe526f4caa02258
+    old: 5c4c2c8e6fac26fa0b80c234d6e9f75d637193af
+    new: 1f59342be6c075a9520679981c4cfd08bb26c659
     log: |
-         ef9f578252196005981e637afbe526f4caa02258 Tue 05 Oct 2021 07:32:37 PM UTC
+         1f59342be6c075a9520679981c4cfd08bb26c659 Input: analog - fix invalid snprintf() call
+         
+  - ref: refs/heads/next
+    old: 5c4c2c8e6fac26fa0b80c234d6e9f75d637193af
+    new: 1f59342be6c075a9520679981c4cfd08bb26c659
+    log: |
+         1f59342be6c075a9520679981c4cfd08bb26c659 Input: analog - fix invalid snprintf() call
          
