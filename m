@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4271032324554553668=="
+Content-Type: multipart/mixed; boundary="===============7644228266516162985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Oct 2021 04:30:09 -0000
-Message-Id: <163340820994.26086.8331293836537848026@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 04:30:19 -0000
+Message-Id: <163340821966.26180.630330585946052800@gitolite.kernel.org>
 
---===============4271032324554553668==
+--===============7644228266516162985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8f43cdf79753218e49fb6b371ea2a798660cc1a2
-    new: 6ba3e1b6b1c2d8a26cc7eb15dac61a2424c7ac67
-    log: revlist-8f43cdf79753-6ba3e1b6b1c2.txt
+  - ref: refs/heads/5.16/scsi-queue
+    old: efe1dc571a5b808baa26682eef16561be2e356fd
+    new: c749301ebee82eb5e97dec14b6ab31a4aabe37a6
+    log: revlist-efe1dc571a5b-c749301ebee8.txt
 
---===============4271032324554553668==
+--===============7644228266516162985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1633408203 -0400
+pusher 75C5DE3D 1633408213 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1633408203-9b959ad15e84a03ab78294ef641888fcaf502a29
+nonce 1633408213-f775a61d2b1229f225a8d337a08bda15de8caa2b
 
-8f43cdf79753218e49fb6b371ea2a798660cc1a2 6ba3e1b6b1c2d8a26cc7eb15dac61a2424c7ac67 refs/tags/mkp-scsi-queue
+efe1dc571a5b808baa26682eef16561be2e356fd c749301ebee82eb5e97dec14b6ab31a4aabe37a6 refs/heads/5.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFb1MsACgkQ7ulgGnXF
-3j1K+g/+K/AmsvWwW8VF1cM+HYV2cFCbp+JtHTM6jxGMe+vs46G7EgpNZNz2EuDk
-/NIwIVw0ctfiXkJT1jkhMljlr9iUu56hQI3vLWxkAL+IFHIyw3G93EoIhP0Rmok2
-J4sXFSm8otMOsBJKR98kdPwg7WfDIIFgvooYlcOmOkohsPqO4TXVyXV71GAbU3Lf
-zchlktQyPuZMiHPdc2Hi8PioWcrjLh4zqffupH+jfSNhJYMO/bK3wqzmlheuniiD
-Li56L0+Y/AqUtrjGv/tbGpTASXtJE2pBnd/zLo9DKtJ4c0TtEV41YvG4bDyGA7cZ
-txPQTbU9pQ7bHFHif+kFGTowEUGlLSWhBuYwEDWBCMi1vdayRjJhlDllspV/0WSs
-xMgpo8yQfidbgPdpA7IOG3GAh3Q+J25xQqbZVZ68MiMMct4vcOjaOO9VjMklmmdM
-wEg6PMEH8Ta/NRWxZ/bzKeF2S/0KZhk2bhahaVa5GVJQY1/a9I5hSwewVxBbFKnb
-RXt+S1AHf7JvHviw7xyTGA9BCM/n9fEZN32SkfHeVlwLlcmHQ6nPoNg0FEnB9q8h
-7mNEYRMsbKCl9SCRVoDhLQ0CRygHweyBlb0T1aLTkafzUy9jI2vxxh0lJ5WCwFX2
-nP/h8O2GdXWvXHGdPrPN/6tQxj/kPfZOWVrzrj/SXOqIkHfVQYU=
-=Vi/h
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFb1NUACgkQ7ulgGnXF
+3j1dtxAAtYme/J36NdI0ev3qtoM26u2F6Bw/Z2K1tbMCmImPVVYD1UJOEdoqy3Of
+j+mO0A/yrqXyt6zob8l3IxoEsZbz6yMuu9dcNfGkeBNO1uhMZImMK8bdIVFyML+x
+Jm/OmdM38P1rrqyTOb5p1S0r8m9n2iUmFWy3VCi+J7v/CNlUXtEdgRJfzlzpkemU
+U0c63g+5SXZ4a6hAgQAFVQuOEmjRL1d9gqugjRekAlEwxvYKSYLhv0R190ddoz72
+3PrhTXeBUIZKKv6lfM0YeeMte989cMP1cBEEAx9ik8Rf7CjnYPTa9aNxgrAIxgar
+0bHEXTiWMLvM5NUZDCxABskm2ZfuI+WiXqcO66yiiPV1cLgs6nqiSM7xkU61NP91
+CvwYw2jrz+CdeQZ6NSZQv7mSjOb6B+LTv5Cm5RcT++NMeajAZPLBZNSuoaaFi6Hf
+913mxIlXT+yuMxi5dblB1wOegcaecCnxjKUqX3e/rRwXLBW396I7+81AD5JuuWqr
+HxX0bj6YrNcqY0vNmlYyuuDa7VVoW1olQ2k0H6zVNPMQBVOho5gGLjFs7rqUdhmM
+SpvnlQygjh6ZA8D4KhLhfclODdS58rtFgSda+ZKRyta4w6WEbvhOQMEtZwKHfhET
+Fl8Pa1c2e5vwNx1W5DbK1xv2jVyuevEiHRfY1sJsBCXryDs1nys=
+=cdLK
 -----END PGP SIGNATURE-----
 
---===============4271032324554553668==
+--===============7644228266516162985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f43cdf79753-6ba3e1b6b1c2.txt
+Content-Disposition: attachment; filename=revlist-efe1dc571a5b-c749301ebee8.txt
 
 ce580e47e8481047faf296757d747e95464ff71c scsi: ufs: exynos: Unify naming
 568778f5572afd5b30984edd2a4a2c96df8b2b16 scsi: advansys: Prefer struct_size() over open-coded arithmetic
@@ -71,4 +71,4 @@ ca4ff9e751eb9c6371813ca9cc00c45444048088 scsi: elx: efct: Switch from 'pci_' to 
 a7d6840bed0c2b16ac3071b74b5fcf08fc488241 scsi: core: Fix scsi_mode_select() buffer length handling
 c749301ebee82eb5e97dec14b6ab31a4aabe37a6 scsi: sd: Fix sd_do_mode_sense() buffer length handling
 
---===============4271032324554553668==--
+--===============7644228266516162985==--
