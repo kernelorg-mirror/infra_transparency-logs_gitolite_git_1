@@ -1,61 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1833007875758255781=="
+Content-Type: multipart/mixed; boundary="===============8015637314519503235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Oct 2021 10:43:18 -0000
-Message-Id: <163343059867.19388.2023196337566511530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 05 Oct 2021 10:44:44 -0000
+Message-Id: <163343068441.19911.3332091140223964509@gitolite.kernel.org>
 
---===============1833007875758255781==
+--===============8015637314519503235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/usb-testing
-    old: 512df95b9432e8ea5836533b3d3d61b972f04693
-    new: 89e84f94647957b6f17962422889a6571f6da162
-    log: |
-         79a24ec203993a63c7c1205f6e56deb2b594114b dt-bindings: usb: tps6598x: Add Apple CD321x compatible
-         0fbb79b7fd2c915d2fb8c3ce8a1d38fdfb1d8e91 usb: typec: tipd: Split interrupt handler
-         c7260e29dd208e5134147e5614d3413b4014b685 usb: typec: tipd: Add short-circuit for no irqs
-         45188f27b3d0fa2970a6cd8510d724164ee1bfca usb: typec: tipd: Add support for Apple CD321X
-         c9c14be664cfda991f65240e669b07b68265765b usb: typec: tipd: Switch CD321X power state to S0
-         89e84f94647957b6f17962422889a6571f6da162 usb: typec: tipd: Remove FIXME about testing with I2C_FUNC_I2C
-         
+  - ref: refs/heads/master
+    old: 45c9d966688e7fad7f24bfc450547d91e4304d0b
+    new: 95bf387e3569e079dc621028e7c1c55ef01b0ed7
+    log: revlist-45c9d966688e-95bf387e3569.txt
 
---===============1833007875758255781==
+--===============8015637314519503235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-45c9d966688e-95bf387e3569.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633430597 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633430596-799980627fc28ef13d2ebb2e03996e4e05ac41cf
+e0ee6891174c7db210e6c55cab69656c40956a6f net/mlx5e: Specify SQ stats struct for mlx5e_open_txqsq()
+80743c4f8d34fcfdb3b6a35926316207813659ed net/mlx5e: Add TX max rate support for MQPRIO channel mode
+61c6f0d19084578975f6344712cd1bffd5326851 net/mlx5e: TC, Refactor sample offload error flow
+d9581e2fa73fadba187b2e62e05306e24e8a1ded net/mlx5e: Move mod hdr allocation to a single place
+9c1d3511a2c2fd30c991a20c670991ece4ef27c1 net/mlx5e: Split actions_match_supported() into a sub function
+d4f401d9ab189b8283e661e57b1ac148bec147fe net/mlx5e: Move parse fdb check into actions_match_supported_fdb()
+3222efd4b3a37b68068fb1c7470248eea7123f19 net/mlx5e: Reserve a value from TC tunnel options mapping
+2f8ec867b6c3dd4c236414e61d5a67e09f77ab4a net/mlx5e: Specify out ifindex when looking up encap route
+6ba2e2b33df853b73c8494758a1da7067d144f7e net/mlx5e: Support accept action
+a1a6e7217eacf2c19a518d3adbe8ae3b4fd93a73 net/mlx5: Bridge, refactor eswitch instance usage
+64fc4b358941fc2e9ee38b8b870ea0dac7639494 net/mlx5: Bridge, extract VLAN pop code to dedicated functions
+5249001d69a223811ad654884c6115d55158fd51 net/mlx5: Bridge, mark reg_c1 when pushing VLAN
+575baa92fd463cb202447fe14770532cae55715a net/mlx5: Bridge, pop VLAN on egress table miss
+3663ad34bc707fc85492f4d83a313f5df84718d4 net/mlx5: Shift control IRQ to the last index
+f891b7cdbdcda116fd26bbd706f91bd58567aa17 net/mlx5: Enable single IRQ for PCI Function
+95bf387e3569e079dc621028e7c1c55ef01b0ed7 Merge tag 'mlx5-updates-2021-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
-512df95b9432e8ea5836533b3d3d61b972f04693 89e84f94647957b6f17962422889a6571f6da162 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcLEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C3QQAMcK2YdKkcLlQmidZJnN
-/WpWWoznpZThoLIwitCM3fa0s62TjGsoFS8a7fdewXlShSRxaVMOalteSbQ0JAzC
-m61WvIVuPeUMFg2oVy2H4MQQrOZlwWnVyab2zfEocEwoUVtsYkMLqB7TIdk+iP0k
-czMjnxU7XTZd26td8cWKEMBB14D/e+p+u7LvXBT/IKa2qQAR/bwigo6KCtt5re5z
-ZukYV+KvzTIkP7WrKgN4wgWS7k0Rgjh4DdNff2P8DOSjE3IoYrkFX+vjoKD40HAS
-7zk+gWsHDZYsmq5960Ckco2p45OyMPVEQxgUYSPpm+LQXCpo6EcyVOso1bXsC4py
-csUJrDNKWVRaUx9gMoFdejS/mwzrpAI5F8GIV2BqtU3LRGfj/q/vydNhgsM4O1gd
-Uj95rrlQs6rvHC3cMSdyK1Mf6QVRhFAOxZ08zuXtxLP6OUKvnCjCXOlx66rN+bvA
-WuPDgDCLMGSc+ROWnrS35wKUQX77qYS+AWhm8Jy8kPOiw/UUUL40omQXDM8TP55n
-DxLa0uxXteRP05d6VTDfR2bFakBlVJmLn11w+SgCNEQm76ImzgCkZAX63IZ+DKUh
-XnxDTOSWZsg5ft95kwlzduXjw5oZ7FcdRGJAFZr3z5W/vtkDIqbkRxXPDu111yZs
-okiIQ4VCRQXXvRb+IxZnYWUA
-=HSCG
------END PGP SIGNATURE-----
-
---===============1833007875758255781==--
+--===============8015637314519503235==--
