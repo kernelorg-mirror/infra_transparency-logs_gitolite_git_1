@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5916938309288402314=="
+Content-Type: multipart/mixed; boundary="===============9141300683580304986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 05 Oct 2021 10:31:03 -0000
-Message-Id: <163342986329.12191.12640437487012784773@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 10:31:24 -0000
+Message-Id: <163342988494.12376.16848558254774659083@gitolite.kernel.org>
 
---===============5916938309288402314==
+--===============9141300683580304986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 403aa62da3efd1828f783c2453067bf239c16d1c
-    new: 11dc495619d03798fff18b3257b7379a389d68dd
+    old: 11dc495619d03798fff18b3257b7379a389d68dd
+    new: bb09212a6f81ad24821bb5ffb66449a18f7b8627
     log: |
-         c08976563d6f20e5e8295a992c4b4e0e6e839053 staging: r8188eu: Replace zero-length array with flexible-array member
-         11dc495619d03798fff18b3257b7379a389d68dd staging: rtl8192e: remove unused variable ieee
+         bb09212a6f81ad24821bb5ffb66449a18f7b8627 staging: rtl8192u: remove unused static variable
          
 
---===============5916938309288402314==
+--===============9141300683580304986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633429861 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633429883 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1633429861-c7e57803c66f3bf5a4b5b5b52329a4b68ff25dc5
+nonce 1633429882-b1c70be581c7c8ce5bdc21b66de84a1617f7bdb6
 
-403aa62da3efd1828f783c2453067bf239c16d1c 11dc495619d03798fff18b3257b7379a389d68dd refs/heads/staging-testing
+11dc495619d03798fff18b3257b7379a389d68dd bb09212a6f81ad24821bb5ffb66449a18f7b8627 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcKWUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/ZYP/RgvTRdqOIBmLxtA//+e
-lTjw9JRx1Zy0Fw6EV8An7nvuHC9x7gPrQn6XslyZxjXu02pgQcnJHCnFQtXOtfAU
-I6uKWqQZb3qSnHcbdxzAXoyKczAg7zQzmP4RbByiUOOUJwXxB6caROwyp90v+9kO
-9Wr31kUs6iSF1hvMoesHa/fkgzS7V6ALuoiNVaWUUIS8tOHLwldDwiX+U25o59VS
-23VWcDpiSLjBn0NYCsq8d/bmbeoYdJUUlGGeUMWF5F7HSQLw/7a7jzc0GSP+Sfdp
-ao6PCPYOu1CQqRdumsEFRQowmBtUIsWcWeAxcgBlOZVqUdXZ2r6R/2PJ7jJlKw9d
-AomoZAYWppeMEOp015gi7ZOzPJHsHVTzCXJg8Y7YE+X+aB7HJp+AKw3GUI+ho1zQ
-Vcw+IL8liiC7X51ewsZCr8G5qSGT+g5B6HG7jfSuq1a5C8stvR0PBpOhnoVhiib9
-P+VP5qegX4SRlzuT2Ygb6QO+9nnQlDYcLfj5KD3q4V8cbE/RlF1jE5TfJEAiIRhI
-mKaxSu9BOlgXboTSTjvUP7G09Hntxt87yp1CsvAtmeBe/W12ffmU8o6BOrmiHbpl
-HJ+3+BuiRxiV3vpFz9/Z9jY3O+EcyamTw7DCJaLHkpRowWl789/p25cERiNpr0Ct
-ZW/62/L5JFjZWCZTQCyLxjvN
-=HWp9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcKXsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HUQQAI8NL+gh1exO2prtruw0
+uM2zPZEnr4OS7foA5hndNJd+eV1TdfsZXqNY+1J36iahc9ZSX/lxQhhJyERGxy3W
+wYWOi9cwMlNjDyWlj79hESKo9xR9oLa3RLeCaAVlXf/lIPGOD5uyCe9I/NtJ96ln
+9Mny5NbWs1VbjxRPpk7vbWgSEwn02PGDa7aPqvCoAmkUNThq4/hZxw7r5/OJIeiQ
+67NKPkBx4GtVPfo/wbdcARVD2t/TTnQEHrqml7GCkjkRS5grcCTuX5nLWqNZIWHp
+Q/Xks+fWFlTFuIjOJ7WuSm4p6elVHZVt6sjBcA6HBeMfnFm83p0HOAQX8dqMNOLL
+TmtyfRxygs1XvzP/ZqGN47iBuSOFT/xMWvFTWQ71bdJURjbW5Aj4hGD+KXSiFzOg
+soGTThdgDvwAUkflGSInm2dKS6esBELpg+jjrF2w/mvQkU3xYNxDYqQVy7ZmHWQa
+d36dRLWwkmEOtAFvpIcmBlBY6JurRebMb5QGTTq5dZjMnq3UCbbjtOliwuMFE8iF
+vrqHFZEXCjn83tGhAAIxnictLZ+6GiphKERQ1Bz729qFJfhYA69XbCyzEIsGyuf1
+FJImSNVEsSnZiNFlUJWnX2ptzGHJCBJTuVanAyF3UJGMzrQrkmZOCBS/Ec78cdUQ
+8mUIc0l/ijGne205/HmEab21
+=EEmq
 -----END PGP SIGNATURE-----
 
---===============5916938309288402314==--
+--===============9141300683580304986==--
