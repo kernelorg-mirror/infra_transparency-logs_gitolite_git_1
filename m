@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9141300683580304986=="
+Content-Type: multipart/mixed; boundary="===============2118239596695871966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 05 Oct 2021 10:31:24 -0000
-Message-Id: <163342988494.12376.16848558254774659083@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 10:32:13 -0000
+Message-Id: <163342993368.12663.4870356082817578165@gitolite.kernel.org>
 
---===============9141300683580304986==
+--===============2118239596695871966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 11dc495619d03798fff18b3257b7379a389d68dd
-    new: bb09212a6f81ad24821bb5ffb66449a18f7b8627
+    old: bb09212a6f81ad24821bb5ffb66449a18f7b8627
+    new: f49435793b9187dfcf4683215ea02a3523f38504
     log: |
-         bb09212a6f81ad24821bb5ffb66449a18f7b8627 staging: rtl8192u: remove unused static variable
+         a19d513367c1f09d5fa1661afc0d17126d388d9b staging: r8188eu: remove odm_DynamicBBPowerSaving()
+         f49435793b9187dfcf4683215ea02a3523f38504 staging: r8188eu: remove odm_GlobalAdapterCheck()
          
 
---===============9141300683580304986==
+--===============2118239596695871966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633429883 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633429932 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1633429882-b1c70be581c7c8ce5bdc21b66de84a1617f7bdb6
+nonce 1633429931-7ab9521df449e16c28957ef59eeea4e11c615b8b
 
-11dc495619d03798fff18b3257b7379a389d68dd bb09212a6f81ad24821bb5ffb66449a18f7b8627 refs/heads/staging-testing
+bb09212a6f81ad24821bb5ffb66449a18f7b8627 f49435793b9187dfcf4683215ea02a3523f38504 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcKXsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HUQQAI8NL+gh1exO2prtruw0
-uM2zPZEnr4OS7foA5hndNJd+eV1TdfsZXqNY+1J36iahc9ZSX/lxQhhJyERGxy3W
-wYWOi9cwMlNjDyWlj79hESKo9xR9oLa3RLeCaAVlXf/lIPGOD5uyCe9I/NtJ96ln
-9Mny5NbWs1VbjxRPpk7vbWgSEwn02PGDa7aPqvCoAmkUNThq4/hZxw7r5/OJIeiQ
-67NKPkBx4GtVPfo/wbdcARVD2t/TTnQEHrqml7GCkjkRS5grcCTuX5nLWqNZIWHp
-Q/Xks+fWFlTFuIjOJ7WuSm4p6elVHZVt6sjBcA6HBeMfnFm83p0HOAQX8dqMNOLL
-TmtyfRxygs1XvzP/ZqGN47iBuSOFT/xMWvFTWQ71bdJURjbW5Aj4hGD+KXSiFzOg
-soGTThdgDvwAUkflGSInm2dKS6esBELpg+jjrF2w/mvQkU3xYNxDYqQVy7ZmHWQa
-d36dRLWwkmEOtAFvpIcmBlBY6JurRebMb5QGTTq5dZjMnq3UCbbjtOliwuMFE8iF
-vrqHFZEXCjn83tGhAAIxnictLZ+6GiphKERQ1Bz729qFJfhYA69XbCyzEIsGyuf1
-FJImSNVEsSnZiNFlUJWnX2ptzGHJCBJTuVanAyF3UJGMzrQrkmZOCBS/Ec78cdUQ
-8mUIc0l/ijGne205/HmEab21
-=EEmq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcKawbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UGcP/RT6b+bOqK4ub/UMV4ny
+PDpxq04hrFMx0eQIJGd+4uyisOFiGXKY1K5Q1DbFNSp2FpjwxZCpHMU+EEyIr4D/
+A/HBjrp8EcAg6m21yl/9tjSFxDCKgekyOHrHiL2h9Wqp+JjaOKDRq8xYFSK4DbV3
+7LdBjwYuZz5ss8tqOVfUKY8jG9ZHEBN39ezIMCNLySgmK+DaQCiU9lsQ7Ng0i/6c
+i6gsuqSlml/NFcOfVL/uWA0ZDAKdn0Eu3nFwnk42nqoU76kbPZMgiwfmPtYavGnK
+dhx4919tlN06M9U3OA80l9ahjnz4qjiPi3SoZnwhLK5adTPLpXr7s6xXwDw1fsyA
+FhwLtSOcIv4yypa2LStUrTILwc8wNInq6kFSHZYwI5CUr0atjT/NgbQgItqAGoB9
++eHgBy48m+fo1hHBVQMLf8tb5oGi2lyZrQ8FM81uwp0vLWKD3TOVszYA14lWvbq6
+WocUqXWv9rYSecxsaphKH9T92lYLDbAD6jViQfbzTnqMVbjb0yfkmTxYKUgLT6qH
+n50z4yUPZrJmXA3yqN4Kln23GnaYNqPIQ305FROIyKCLPc1laGD5M7lWA0x6gpg/
+jGGuV5AB1YPfxj53w9c4nPweozukcxk29a3OY4weDogO9O20SQiSmEAln7LaDR39
+yzdn5RR97oIXKPH4/FaO0ldC
+=xALS
 -----END PGP SIGNATURE-----
 
---===============9141300683580304986==--
+--===============2118239596695871966==--
