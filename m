@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 05 Oct 2021 15:33:28 -0000
-Message-Id: <163344800806.19093.10527379331655106145@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 15:34:22 -0000
+Message-Id: <163344806283.19400.14546867051398326762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/kbuild
     old: 6988f70cf105e70b4ea424d320521a9ed452fe46
-    new: f8119e8ccd254bb7430f3d7da39a401b7b1a0043
+    new: 6e958cfeb78d50ce262be8d3c6af1b4516f01756
     log: |
          229d0cfae5b21bfc42525cf43b0b4279243acc4e kconfig: remove 'const' from the return type of sym_escape_string_value()
          e86ce516e2a08955aa9fd9c7f42112c0ddefa77d kconfig: refactor conf_write_heading()
@@ -24,5 +24,4 @@ changes:
          6217708ec63a0e19479ba54d343ecd79bf7eaf79 kconfig: refactor conf_write_autoconf()
          b2ce9091afa4da4c675ba80036ecd74f022f8196 kconfig: refactor conf_write_dep()
          6e958cfeb78d50ce262be8d3c6af1b4516f01756 kconfig: refactor conf_touch_dep()
-         f8119e8ccd254bb7430f3d7da39a401b7b1a0043 kconfig: generate include/generated/rustc_cfg
          
