@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3678022192488333105=="
+Content-Type: multipart/mixed; boundary="===============6923923723982341609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 05 Oct 2021 10:33:15 -0000
-Message-Id: <163342999583.13022.17860793860680439616@gitolite.kernel.org>
+Date: Tue, 05 Oct 2021 10:34:24 -0000
+Message-Id: <163343006430.13472.13402969043394108522@gitolite.kernel.org>
 
---===============3678022192488333105==
+--===============6923923723982341609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f49435793b9187dfcf4683215ea02a3523f38504
-    new: 4b58efe2539a7c174e7bfcb7be63ffbd9cff6b78
+    old: 4b58efe2539a7c174e7bfcb7be63ffbd9cff6b78
+    new: f284edfed84c4cff9d0cd9c33c0ca41f61831477
     log: |
-         515d3cf7faff5b9192cc4b25a24103644d5e5e32 staging: r8188eu: remove SetHalDefVarHandler from struct hal_ops
-         9d67c44c3dfe80a92d1fca5ae55fc0e010080c42 staging: r8188eu: remove GetHalDefVarHandler from struct hal_ops
-         2918246179b9fdd9f3ee47624bb2f38227f763a0 staging: r8188eu: remove init_xmit_priv from struct hal_ops
-         69a400415f30c28b95fae411b21eaa686032294a staging: r8188eu: remove init_recv_priv from struct hal_ops
-         5d44452604467bdb1ac46e589b42b42037b75598 staging: r8188eu: remove free_recv_priv from struct hal_ops
-         3a587ff652599562d44740581cb528ebe78ac838 staging: r8188eu: remove inirp_init from struct hal_ops
-         b9ba6875157702dfb80849ebeb4a54a6ae46fc46 staging: r8188eu: remove inirp_deinit from struct hal_ops
-         c034d50bdca2790c8389740407a85e6567259d15 staging: rtl8712: Statements should start on a tabstop
-         4b58efe2539a7c174e7bfcb7be63ffbd9cff6b78 staging: r8188eu: remove rtl8188e_silentreset_for_specific_platform()
+         4bea8519aa2575bbf7d6593cfd3c9e838a3e4f7c staging: r8188eu: core: remove power_saving_wk_hdl function
+         9ffc67da4bb930ac891ba58934faac9fc02229fb staging: r8188eu: Use kmemdup() to replace kmalloc + memcpy
+         5cd1aacb80a689ffbb886773cdfba8d977b073a5 staging: r8188eu: core: remove unused variable pAdapter
+         a5234161b7dc43b10b46c0c426068add5a8fa55f staging: r8188eu: core: remove unused variable local variable
+         5a71c252c5e29235687c5e0efe773ac99c15b8e7 staging: r8188eu: hal: remove assignment to itself
+         f284edfed84c4cff9d0cd9c33c0ca41f61831477 staging: r8188eu: core: remove duplicate condition check
          
 
---===============3678022192488333105==
+--===============6923923723982341609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633429993 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633430062 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1633429993-9409da570468eab9c4fc4c3e0315ff2870df9607
+nonce 1633430062-3f9c1c69aec8cbbb1f91cec3e81d11c313118605
 
-f49435793b9187dfcf4683215ea02a3523f38504 4b58efe2539a7c174e7bfcb7be63ffbd9cff6b78 refs/heads/staging-testing
+4b58efe2539a7c174e7bfcb7be63ffbd9cff6b78 f284edfed84c4cff9d0cd9c33c0ca41f61831477 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcKekbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ipgQALrJzgjnxdYq8rTFqo1A
-abs9wpz9JbSW/SNyrGIMeOShBc4re8P+6GeBFoLpvPnEg86CwIwUTtDyKZnOgRcs
-T2rmZgU3UM/ByMpxy56kjKDsfQ/ds7F7mnkX7Obe8fS5umYUKz6f9RWZ2540hPNK
-Kak7VFX1JcsOw6dmeBgUPuvwpE/TyzC1xybTRXj6cd9jArageL6GBqy13Zyf/IgT
-kuNCr0xbuKb1FlGUEp3Bu/VzVoLv/m1mbXPvexkggnP8CCrosf92Uda4S91QvJwW
-pYPE/O0nxXpp28B03vaZ8BLxmxNW+8JI2JIqTJRSkFJMdoCvKJt4RQRZ7re3qg+T
-pZWbhIanaB4hoi8boEp2w9yZa90x7JbB5CCzXzvToJGcW/x6aKkT3+/c0f4ny6N1
-Z/9ZKNe2e2UNmjDvuUP/nt81YMDBZTOuAyZCM0UOtTEV5/xQ4F2E/BoR+ET+uBgQ
-gCppycHveMAcuOM2/OyEFXIMJM31AueiLsGHQfSGdmpVUPEYcT9A0bkbhzlWXkLU
-ykJenh4X8U19C1w7vB91PG1PRLzeqB6AP1xct0hDAqP03zI7bnCg+bi08pri/PDA
-/Ihf1RzqNgKx8wuno3P3MiQ3U/VAVBsPacAbfv4T3ENpj6oBmA0vBHYvnnFnwxR8
-ZVX04MaVgxQxjQYm4TTiCBa7
-=RD8y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFcKi4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ow4QAIb2H+Jhq6CvMnXODqU1
+XjN6z2wSub+AHl8Jc8G4hj84/uYfxsK027OPuRzh/aReR0Bc1Y7T3DpCFLyIuER3
+pU9pTlczeagqRK3AV09Jw6HNB+mDUyCP4UUBcA5uE4abZRvzBwS5PJdROVMAvvMu
+9DKmP2ZhlIPLR1tQPjy3ZBK76grEDuCWex6ycPeTIA3v64jdSD6kPiv9Q6NECGDV
+7zkhBN6KhG/aDFKp9PO11bSdRt7J+8go2YdLe4ZOaEKBl4RWh587C5QirOhvc7W5
+Sx3XwGT6/+r7VdgHSSt00iKvBPrw2cpDAGZ84rJoXjTAYQZLz1mJwqwY9zQSi3sc
+mbQkaUTNPw1YiweibgQqCIzUyrqouJy98ozqaSKkwPzvOuxFNSPgOwAjd/WQSZU2
+TLklds9qx9RZ+ZwwO7mZGJf842fpv0ES1dGj6seB7ROFD6/yVoSHxUAbS5ndcKVh
+m3b2gQWgP83wyWl87txOda8IBAS9nuflOgTcHuuksc1fe/nO0W2BLzoFfguC0OCK
+0DoIjRystp7la9bMb5gXQo6m0ENbU4gxmT8RRTADc/oFzH3ReXfbCuhoDujO/zFC
+U7sh1cNKVF/mICanMmnHLgtE1ZDZ5S+PQA8eMmg4RDqMyUa2j5KM+hlPBqaCPqPu
+18HVOdfIDh0L9FmQJGkT3Ztj
+=J4nb
 -----END PGP SIGNATURE-----
 
---===============3678022192488333105==--
+--===============6923923723982341609==--
