@@ -1,46 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3915985987062973064=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Wed, 06 Oct 2021 19:59:38 -0000
-Message-Id: <163355037839.22837.3032392719954949103@gitolite.kernel.org>
-
---===============3915985987062973064==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 06 Oct 2021 20:07:18 -0000
+Message-Id: <163355083849.28000.3632935996147938905@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
   - ref: refs/heads/master
-    old: ba3eabc502958b87e30631636beb2a00861bbd8d
-    new: f61504244bfe18c3cba18de83c19f51d9ebeae56
+    old: d20beacba060f34e3ab0d71d191f59434031e98f
+    new: 49177aac46d18c61e6458ed314be5d0c8eda661c
     log: |
-         f61504244bfe18c3cba18de83c19f51d9ebeae56 git-patchwork-bot: First go at committer information
+         49177aac46d18c61e6458ed314be5d0c8eda661c Add test vector for empty password for Argon2.
          
-
---===============3915985987062973064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1633550377 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1633550377-da6a8d4d74ab8250d48530d527779e8c0160b10a
-
-ba3eabc502958b87e30631636beb2a00861bbd8d f61504244bfe18c3cba18de83c19f51d9ebeae56 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYV4AKQAKCRC2xBzjVmSZ
-bD1aAP9HRM3gc08gHysULDj4Ljc+tZTOLeyBXPhkC9BkcdjuAAD5AQCU4jx6ZBfp
-9VK1gfoiXd285V5Gtj2TlisFUMuBLQ4=
-=uIzb
------END PGP SIGNATURE-----
-
---===============3915985987062973064==--
+  - ref: refs/merge-requests/210/merge
+    old: 149dde4837331bb35048d357b5acff47449eedac
+    new: 43d2bea71be75a81c287f2d9dc26df3d0e4c51db
+    log: |
+         26cc1644b489578c76ec6f576614ca885c00a35d Do not link integritysetup and veritysetup with pwquality.
+         d20beacba060f34e3ab0d71d191f59434031e98f Remove redundant link to uuid lib for static build.
+         43d2bea71be75a81c287f2d9dc26df3d0e4c51db Merge branch 'resume-by-token' into 'master'
+         
+  - ref: refs/pipelines/383554660
+    old: d20beacba060f34e3ab0d71d191f59434031e98f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/pipelines/383830603
+    old: 0000000000000000000000000000000000000000
+    new: 49177aac46d18c61e6458ed314be5d0c8eda661c
