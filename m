@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 06 Oct 2021 18:50:03 -0000
-Message-Id: <163354620332.12086.4324143392602632836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 06 Oct 2021 18:52:34 -0000
+Message-Id: <163354635491.13584.840313557716710675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/perf-wip
-    old: 5b347854725e01720553a6279715b26ea7ff1870
-    new: 48af6d89a68709a5dd178822e2b9dc3eb5a82030
+  - ref: refs/heads/blk-crypto-cleanup
+    old: d0a376fb816cf7a519ee17459ffe0d9c7871051f
+    new: 8e4a8115fdf8bd8f9f61f017b242c885a467b5aa
     log: |
-         a0ca4e8b8ea4cd47e2a81a7b96cc6211ef83ef40 block: cache inode size in bdev
-         f660ed1a6f989c7602fbd52f6a82d7866f2a0ade block: bump max plugged deferred size from 16 to 32
-         6cdffe3384d57fd1f10220bb3ebdb5ffe2d61d81 block: pre-allocate requests if plug is started and is a batch
-         48af6d89a68709a5dd178822e2b9dc3eb5a82030 io_uring: inform block layer of how many requests we are submitting
+         533998646fc083c1d728ec1aae37133f101fbafd blk-crypto-fallback: properly prefix function and struct names
+         718c261bf1503c516005598065c58df866fc4e4c blk-crypto: rename keyslot-manager files to blk-crypto-profile
+         741970a5d662f6e73072607385a239ed13612519 blk-crypto: rename blk_keyslot_manager to blk_crypto_profile
+         8e4a8115fdf8bd8f9f61f017b242c885a467b5aa blk-crypto: update inline encryption documentation
          
