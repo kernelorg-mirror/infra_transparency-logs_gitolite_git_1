@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 06 Oct 2021 12:16:35 -0000
-Message-Id: <163352259512.24963.7054349150364465505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 06 Oct 2021 12:16:37 -0000
+Message-Id: <163352259749.25020.6973218225580036283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/queue-next
-    old: 0ca0f1bb79f506c117b0696630133a8779364ad2
-    new: 059118702e333fab8560ab727af938c7f9952a5b
+  - ref: refs/heads/locking/core
+    old: 9321f8152d9a764208c3f0dad49e0c55f293b7ab
+    new: 28f02c3263269cf9317f2d1cac054b0c9838f906
     log: |
-         5fd2d94a13f5742d8803c218927322257d53205c RDMA/mlx5: Set user priority for DCT
-         1aeff7a5d30d56ea6ed05e58de791d39ef9b497f fixup
-         bd320c0c2d89dc4ffe9e22374e14a680e71da55c Merge branch 'rdma-next' into testing/rdma-next
-         ae22de504514188f0bb7a2bd0b2fc4f4d8b28f1d Merge remote-tracking branch 'vfio/next' into testing/rdma-next
-         059118702e333fab8560ab727af938c7f9952a5b Merge branch 'testing/rdma-next' into queue-next
-         
-  - ref: refs/heads/queue-rc
-    old: 0e97e2db1aa12ba16958c7d967089911b3427f7e
-    new: 63217882ffe0d328338e7f90c69616442da0dba3
-    log: |
-         5fd2d94a13f5742d8803c218927322257d53205c RDMA/mlx5: Set user priority for DCT
-         63217882ffe0d328338e7f90c69616442da0dba3 Merge branch 'testing/rdma-rc' into queue-rc
+         7687201e37fabf2b7cf2b828f7ca46bf30e2948f locking/rwbase: Properly match set_and_save_state() to restore_state()
+         616be87eac9fa2ab2dca1069712f7236e50f3bf6 locking/rwbase: Extract __rwbase_write_trylock()
+         81121524f1c798c9481bd7900450b72ee7ac2eef locking/rwbase: Take care of ordering guarantee for fastpath reader
+         ec8492c8d4ca54b50b8adccd37648674a4529c12 Merge branch 'tip/locking/urgent'
+         28f02c3263269cf9317f2d1cac054b0c9838f906 locking/rwbase: Optimize rwbase_read_trylock
          
