@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1100107110489970810=="
+Content-Type: multipart/mixed; boundary="===============3121136064611398752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Oct 2021 19:35:19 -0000
-Message-Id: <163354891945.8494.4230370810105973119@gitolite.kernel.org>
+Date: Wed, 06 Oct 2021 19:35:21 -0000
+Message-Id: <163354892171.8554.5538838875455969207@gitolite.kernel.org>
 
---===============1100107110489970810==
+--===============3121136064611398752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d118190731e4a1d732c387f0854c300debb99b51
     new: 0e545dbaa2797133f57bf8387e8f74cd245cedea
     log: revlist-d118190731e4-0e545dbaa279.txt
 
---===============1100107110489970810==
+--===============3121136064611398752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ f438ee21ef21f9fa4e7745e9a4a6dd8a6422c7e2 Merge branch 'bpf-mips-jit'
 4a404a7e8a3902fc560527241a611186605efb4e libbpf: Deprecate bpf_object__unload() API since v0.6
 0e545dbaa2797133f57bf8387e8f74cd245cedea Merge branch 'libbpf: Deprecate bpf_{map,program}__{prev,next} APIs since v0.7'
 
---===============1100107110489970810==--
+--===============3121136064611398752==--
