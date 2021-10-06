@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 06 Oct 2021 14:15:56 -0000
-Message-Id: <163352975627.31855.17765657493442605245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 06 Oct 2021 14:17:40 -0000
+Message-Id: <163352986015.32419.5226464395108463025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 17c37d748f2b122a95b6d0524d410302ff89a2b1
-    new: 3707428ddabadde4086eb7c592e988f584344857
+    old: 6c601aac4976531ccfbda74e04ef9bf3626f205e
+    new: fe5d8bd3d3ea7422b8ae8f1863ac2ab06998947a
     log: |
-         3707428ddabadde4086eb7c592e988f584344857 ionic: move filter sync_needed bit set
+         fe5d8bd3d3ea7422b8ae8f1863ac2ab06998947a net: tg3: fix obsolete check of !err
          
