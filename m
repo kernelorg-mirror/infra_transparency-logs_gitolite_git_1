@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 Oct 2021 01:22:19 -0000
-Message-Id: <163348333927.3557.11500519324236598404@gitolite.kernel.org>
+Date: Wed, 06 Oct 2021 01:54:05 -0000
+Message-Id: <163348524522.23749.4552201174009974312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: d0f1c248b4ff71cada1b9e4ed61a1992cd94c3df
-    new: fada2ce09308bc79e27876b8a89c7de38265f730
+    old: fada2ce09308bc79e27876b8a89c7de38265f730
+    new: bcb2293d8106994b1da1f8246421e13fd015dbcb
     log: |
-         fada2ce09308bc79e27876b8a89c7de38265f730 net: phy: at803x: add QCA9561 support
+         bcb2293d8106994b1da1f8246421e13fd015dbcb ethernet: fix up ps3_gelic_net.c for "ethernet: use  eth_hw_addr_set()"
          
