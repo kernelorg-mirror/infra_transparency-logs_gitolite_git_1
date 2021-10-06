@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 06 Oct 2021 16:23:50 -0000
-Message-Id: <163353743024.15497.12697252492515572165@gitolite.kernel.org>
+Date: Wed, 06 Oct 2021 16:23:55 -0000
+Message-Id: <163353743515.15607.506909156878912441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 7707a4d01a648e4c655101a469c956cb11273655
-    new: a50a0595230d38be15183699f7bbc963bf3d127a
+  - ref: refs/heads/net-next-mlx4
+    old: d0f1c248b4ff71cada1b9e4ed61a1992cd94c3df
+    new: 9cbfc51af026f5b721a1b36cf622ada591b3c5de
     log: |
-         590df78bc7d1d0425196a8e11ce6676d7023fb26 net: pcs: xpcs: fix incorrect steps on disable EEE
-         d4aeaed80b0ebb020fadf2073b23462928dbdc17 net: stmmac: trigger PCS EEE to turn off on link down
-         9997080df0350ac69988ff92c5a6a0bd0b6bf9bc Merge branch 'stmmac-eee-fix'
-         d03477ee10f4bc35d3573cf1823814378ef2dca2 gve: Correct available tx qpl check
-         922aa9bcac92b3ab6a423526a8e785b35a60b441 gve: Avoid freeing NULL pointer
-         d4b111fda69a01e0a7439d05993f5dad567c93aa gve: Properly handle errors in gve_assign_qpl
-         d34367991933d28bd7331f67a759be9a8c474014 rtnetlink: fix if_nlmsg_stats_size() under estimation
-         2f57d4975fa027eabd35fdf23a49f8222ef3abf2 gve: fix gve_get_stats()
-         17c37d748f2b122a95b6d0524d410302ff89a2b1 gve: report 64bit tx_bytes counter from gve_handle_report_stats()
-         3707428ddabadde4086eb7c592e988f584344857 ionic: move filter sync_needed bit set
-         a50a0595230d38be15183699f7bbc963bf3d127a dt-bindings: net: dsa: marvell: fix compatible in example
+         fada2ce09308bc79e27876b8a89c7de38265f730 net: phy: at803x: add QCA9561 support
+         bcb2293d8106994b1da1f8246421e13fd015dbcb ethernet: fix up ps3_gelic_net.c for "ethernet: use  eth_hw_addr_set()"
+         56d8bb71a811da7bd1655044b4740d2aacff2f74 net: dsa: rtl8366rb: Support disabling learning
+         1fbd19e10b735106fb91d4cb07095bc986a513aa net: dsa: rtl8366rb: Support fast aging
+         e674cfd08537f2692a7d06dcbe4633b07819c92a net: dsa: rtl8366rb: Support setting STP state
+         6c601aac4976531ccfbda74e04ef9bf3626f205e Merge branch 'RTL8366RB-enhancements'
+         fe5d8bd3d3ea7422b8ae8f1863ac2ab06998947a net: tg3: fix obsolete check of !err
+         5b71131b795f3e1a0896bf0514fa9f9047d6a077 gtp: use skb_dst_update_pmtu_no_confirm() instead of direct call
+         9b139a38016ff849238ac1788f30c8a6b1cbc357 mlxsw: spectrum_buffers: silence uninitialized warning
+         9cbfc51af026f5b721a1b36cf622ada591b3c5de qed: Fix spelling mistake "ctx_bsaed" -> "ctx_based"
          
