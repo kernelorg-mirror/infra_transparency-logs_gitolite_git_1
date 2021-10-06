@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1394418127203647420=="
+Content-Type: multipart/mixed; boundary="===============2134921608136318898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 06 Oct 2021 06:29:14 -0000
-Message-Id: <163350175405.23583.1975548526343331804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 06 Oct 2021 07:30:42 -0000
+Message-Id: <163350544293.30558.13845499315855861485@gitolite.kernel.org>
 
---===============1394418127203647420==
+--===============2134921608136318898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: dea971290a03bad3a397de929604bdfdef5c21ec
-    new: f3351eca1fb16abc4c33392a980e1ec1a6f6aa59
+  - ref: refs/heads/master
+    old: 1db59861b6d943d17273009eabd8cb9f3efb1b38
+    new: aa6206e0d3f9a6e1582e5df84632fcaf524913c7
     log: |
-         9056b309a6a739ca7c05de7668077f96abc55856 ARM: dts: stm32: set otg-rev on stm32mp151
-         f3351eca1fb16abc4c33392a980e1ec1a6f6aa59 usb: core: config: Change sizeof(struct ...) to sizeof(*...)
+         aa6206e0d3f9a6e1582e5df84632fcaf524913c7 drop queue-5.14/net-introduce-and-use-lock_sock_fast_nested.patch
          
 
---===============1394418127203647420==
+--===============2134921608136318898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633501750 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633501748-549b04acf7201483e9c6492603a6ffb4d7c334d4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633505439 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1633505437-ae17f1e21501046e1460408dffb11603e6dfddad
 
-dea971290a03bad3a397de929604bdfdef5c21ec f3351eca1fb16abc4c33392a980e1ec1a6f6aa59 refs/heads/usb-testing
+1db59861b6d943d17273009eabd8cb9f3efb1b38 aa6206e0d3f9a6e1582e5df84632fcaf524913c7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFdQjYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8N8P/0FLg2/I5iv30N368lyZ
-IpWSJaFkw29IPq0obsB5xZsPpnGLr6oQCPFbQhs6sV1rvgnAP+zXQENOfizSIr6E
-8EsT4V7ylPaley2iJsR45XknYi2t+lQ/05YkeChVVwzC7dY8A+EN3SYDDHGBq+KM
-w4xx3Wr43h7973eezD4Ask8d+D23weNsXabg7V+CRxzoCtsJCpV0Qj2fvjt8Fonb
-7tU9Ak9C2OY7DycQfWWO0O+W23JESV3+FKOys0AGshgZmj7hq5MoIO/f/yxUAQog
-M3Y6sf0WyY4xAi7Z4odGvglWOZgc3MJodaULTh8bDvNZUbbowVA5R3IkOI6xnm3E
-8RXLUDOevhUO6zppnG89j1y0lzglefTFFiZ7ZPTaFRnkzJsveN9OpWB5S4bsoEpF
-QOVSCNHEiA9y4NsMfZyqrZL1pazvIPNV6OkdWl9ScLblT8LINqylPC04AAPrCnNu
-L3JeBbMt0gPZm2Sev/ZTQsg4tpjskisepsVPLLgyt3yqVCIirYTrQTBhDPmoc87e
-IsuFEgP29VUWTzHYq6y81J6j0e0UZxrJSo+w9IXnU0T10tWvwpaDgdbDDEm1J3FQ
-HiR5JZj1olqJPaY9GDO2LOm3JN72JKwZKu6/SPwKhlXbVWhzKMr74sLugZ59kpBv
-1BITS0p/3QtSTiWW4cQliva8
-=u2CM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFdUJ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jZQQAL3288+fssFzM0am3qbI
+f6ZzDEvoAT1AOsEld/dBuGyAm33eQFIG/BLRAbua6MB+pVq3xOABee6NDB+3rVMd
+rF1FppQVM4+LN5m3QlkeM5/6F6vFZH8NNH8fSkZYKVQiQ2LieruQry4fgIRUEyaT
+Bu3201i43gLOHcpTBku4Dbwrwu6TFXe8qHzcvi48Z1Z+dMC2pXv0WhBnIKDrTx9F
+av+w2JFeGu5eu5hwolAcxWd0ahbWugGZfIiNEOJXlaXy52fsoMddtHHfwR8DLAaw
+o13rpBfrgdhx1UO9qk4eHuJsXqxoCc7lsZoT++vTuB1G40LFWjgZnTwcbiSF2vBy
+RibhYZ8vs8r3ZiMOJLOlkg9wGbuAyY1AMIJVqi0tKfzGTt3bNVOf0qe2nKBFBsgQ
+b0XY74+xzI4RrDHm3tXBAxLV0gbZvecPqTinRfBZCx1LVyO5PDplE9liyV/NZ2Qk
+inlOO+HeMXdj0VOzoNdzuI0O5KyWDZSug9zCbuV11atw+ZmMu9Yeajk3dJjJ56/o
+ysthM8TXBLRfa1YrUiO6FqjYlrS1i4qLbo9jnooBtLMLwH5rOecRZ9dYEyVi0W/O
+o79lxtSUWi15+z0yAHDJEM2BQmDnIPij8ajxq3BXiD9/Q53SeOwWIKTb+6G5E3o7
+//gqJE+o9EIFapsLykxLzDN4
+=QiLp
 -----END PGP SIGNATURE-----
 
---===============1394418127203647420==--
+--===============2134921608136318898==--
