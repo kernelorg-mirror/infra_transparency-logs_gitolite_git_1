@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 06 Oct 2021 14:02:33 -0000
-Message-Id: <163352895324.19317.63271766639765365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 06 Oct 2021 14:03:14 -0000
+Message-Id: <163352899411.19601.12395021290612159861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-linus
-    old: 5aec98913095ed3b4424ed6c5fdeb6964e9734da
-    new: dd6dd6e3c791db7fdbc5433ec7e450717aa3a0ce
+  - ref: refs/heads/x86/cleanups
+    old: 85784470efa2d5733e86679ba05d310ece81b20f
+    new: 6bf8a55d8344df1f61a29b18c398bcdf3539e163
     log: |
-         dd6dd6e3c791db7fdbc5433ec7e450717aa3a0ce ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
-         
-  - ref: refs/heads/master
-    old: 29044a9c5f605448b4775909dfc40f98d5b362c0
-    new: b3eb8701356af1e709dd2d6b0b2485294547b438
-    log: |
-         dd6dd6e3c791db7fdbc5433ec7e450717aa3a0ce ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
-         b3eb8701356af1e709dd2d6b0b2485294547b438 Merge branch 'for-linus'
+         3fd3590b53d1462ab534523e8d9ebdebd9b55f79 x86/Kconfig: Remove references to obsolete Kconfig symbols
+         6bf8a55d8344df1f61a29b18c398bcdf3539e163 x86: Fix misspelled Kconfig symbols
          
