@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 06 Oct 2021 12:54:01 -0000
-Message-Id: <163352484136.17752.4359979191598911946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 06 Oct 2021 12:57:54 -0000
+Message-Id: <163352507405.20312.9100138402398589112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: 2836b7a7bd0590d6b0148f70ff2a04d0a70a0c75
-    new: 12aaf214764045296c62ade32eb1ed66bc4cc2a3
+  - ref: refs/heads/fix-ld-pwquality
+    old: d20beacba060f34e3ab0d71d191f59434031e98f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 9ed003628612afd1c33b0a14691845f1f474417e
+    new: d20beacba060f34e3ab0d71d191f59434031e98f
     log: |
-         e97cfe9098069e6bccd027daec79747fce6a5781 sparc: Add missing "FORCE" target when using if_changed
-         12aaf214764045296c62ade32eb1ed66bc4cc2a3 [for -next only] kconfig: generate include/generated/rustc_cfg
+         26cc1644b489578c76ec6f576614ca885c00a35d Do not link integritysetup and veritysetup with pwquality.
+         d20beacba060f34e3ab0d71d191f59434031e98f Remove redundant link to uuid lib for static build.
          
+  - ref: refs/pipelines/383475505
+    old: d20beacba060f34e3ab0d71d191f59434031e98f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/pipelines/383554660
+    old: 0000000000000000000000000000000000000000
+    new: d20beacba060f34e3ab0d71d191f59434031e98f
