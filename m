@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7460778251241509198=="
+Content-Type: multipart/mixed; boundary="===============0812914475849775751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 06 Oct 2021 00:12:30 -0000
-Message-Id: <163347915049.19585.11069057688170593456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 06 Oct 2021 00:12:35 -0000
+Message-Id: <163347915576.19674.15045342805169335152@gitolite.kernel.org>
 
---===============7460778251241509198==
+--===============0812914475849775751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 18c4147930c50c773b9c08f82781655ff066ed3c
-    new: 65bae92dbf922d921416cf8b70da882a160c0fcc
-    log: revlist-18c4147930c5-65bae92dbf92.txt
+  - ref: refs/heads/queue-rc
+    old: 7e34fdea09fdb85d7f47c1604bdf675c6c7ce656
+    new: 0e97e2db1aa12ba16958c7d967089911b3427f7e
+    log: revlist-7e34fdea09fd-0e97e2db1aa1.txt
 
---===============7460778251241509198==
+--===============0812914475849775751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18c4147930c5-65bae92dbf92.txt
+Content-Disposition: attachment; filename=revlist-7e34fdea09fd-0e97e2db1aa1.txt
 
 3f6cffb8604b537e3d7ea040d7f4368689638eaf etherdevice: use __dev_addr_set()
 baf33d7a75642b4b38a87fdf1cd96b506df4849f r8152: avoid to resubmit rx immediately
@@ -46,5 +46,6 @@ b3015c15a82785daf69f2d6141d08b19dd4e86ed net/mlx5: Fix cleanup of bridge delayed
 a681d988eba077d71a0a13342f91611edb29f660 Merge branch 'patchq/433941' into mlx5-for-net
 649234ebec492171ab34748cfca3f45bd6150f93 Merge branch 'patchq/433683' into mlx5-for-net
 65bae92dbf922d921416cf8b70da882a160c0fcc Merge branch 'mlx5-for-net' into net-rc
+0e97e2db1aa12ba16958c7d967089911b3427f7e Merge branch 'net-rc' into queue-rc
 
---===============7460778251241509198==--
+--===============0812914475849775751==--
