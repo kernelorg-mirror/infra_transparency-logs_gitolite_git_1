@@ -1,34 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 06 Oct 2021 12:16:29 -0000
-Message-Id: <163352258902.24831.3841921392416279750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 06 Oct 2021 12:16:35 -0000
+Message-Id: <163352259512.24963.7054349150364465505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: 87833560d40f4254c18aa5335e6c1d6dfe89b67a
-    new: 1aeff7a5d30d56ea6ed05e58de791d39ef9b497f
-    log: |
-         1aeff7a5d30d56ea6ed05e58de791d39ef9b497f fixup
-         
-  - ref: refs/heads/testing/rdma-next
-    old: c3b09879b2d00592d60b7812d38e358d29fd1a10
-    new: ae22de504514188f0bb7a2bd0b2fc4f4d8b28f1d
+  - ref: refs/heads/queue-next
+    old: 0ca0f1bb79f506c117b0696630133a8779364ad2
+    new: 059118702e333fab8560ab727af938c7f9952a5b
     log: |
          5fd2d94a13f5742d8803c218927322257d53205c RDMA/mlx5: Set user priority for DCT
          1aeff7a5d30d56ea6ed05e58de791d39ef9b497f fixup
          bd320c0c2d89dc4ffe9e22374e14a680e71da55c Merge branch 'rdma-next' into testing/rdma-next
          ae22de504514188f0bb7a2bd0b2fc4f4d8b28f1d Merge remote-tracking branch 'vfio/next' into testing/rdma-next
+         059118702e333fab8560ab727af938c7f9952a5b Merge branch 'testing/rdma-next' into queue-next
          
-  - ref: refs/heads/testing/rdma-rc
-    old: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
-    new: 5fd2d94a13f5742d8803c218927322257d53205c
+  - ref: refs/heads/queue-rc
+    old: 0e97e2db1aa12ba16958c7d967089911b3427f7e
+    new: 63217882ffe0d328338e7f90c69616442da0dba3
     log: |
          5fd2d94a13f5742d8803c218927322257d53205c RDMA/mlx5: Set user priority for DCT
+         63217882ffe0d328338e7f90c69616442da0dba3 Merge branch 'testing/rdma-rc' into queue-rc
          
