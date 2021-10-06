@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5383053377384659903=="
+Content-Type: multipart/mixed; boundary="===============6545811943139321794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Oct 2021 00:14:05 -0000
-Message-Id: <163347924576.20173.12364087703213764229@gitolite.kernel.org>
+Date: Wed, 06 Oct 2021 00:14:12 -0000
+Message-Id: <163347925261.20287.1357573017472524586@gitolite.kernel.org>
 
---===============5383053377384659903==
+--===============6545811943139321794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0693b27644f04852e46f7f034e3143992b658869
     new: 32a16f6bfe512a29fbe7e10ccaced118801a178f
     log: revlist-0693b27644f0-32a16f6bfe51.txt
 
---===============5383053377384659903==
+--===============6545811943139321794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -157,4 +157,4 @@ f614f2c755b6125c646d680d1c990b3b262bd0a9 tools: Allow specifying base BTF file i
 c48e51c8b07aba8a18125221cb67a40cb1256bf2 bpf: selftests: Add selftests for module kfunc support
 32a16f6bfe512a29fbe7e10ccaced118801a178f Merge branch 'Support kernel module function calls from eBPF'
 
---===============5383053377384659903==--
+--===============6545811943139321794==--
