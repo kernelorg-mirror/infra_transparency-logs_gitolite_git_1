@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 07 Oct 2021 23:04:56 -0000
-Message-Id: <163364789671.4847.1469072342022879633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 07 Oct 2021 23:07:10 -0000
+Message-Id: <163364803014.6963.6355069914889306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/dev-queue
-    old: c77cd4d0d04a9128a13880f4794ca744848f0269
-    new: 86ddc35f9feb898d1f10002d76bc764b230dd2f8
+  - ref: refs/heads/dm-5.15
+    old: d3703ef331297b6daa97f5228cbe2a657d0cfd21
+    new: 012a67c6793277999371b1183eb6dcd081c69f13
     log: |
-         0c21439d5f2b2b5aabe8be667baf0447dfdf2669 ice: Refactor status flow for DDP load
-         491dfa9b8289ac0075b55908152361716bed1eac ice: Remove string printing for ice_status
-         be107d23491d65e46b25c1467812fcc6e3d1660a ice: Use int for ice_status
-         49f590bf646ac1c25bf8f2f9302fc42792c4e6a7 ice: Remove enum ice_status
-         1be3b883d174d74435b312702a938f0c635e191f ice: Cleanup after ice_status removal
-         d05a7fb6c87979d486fb6c12f16f7ab9732d3e5d ice: Remove excess error variables
-         86ddc35f9feb898d1f10002d76bc764b230dd2f8 ice: Propagate error codes
+         1e02c997128658fb3afebfc03c611e0eabca9d08 dm verity: skip redundant verity_handle_err() on I/O errors
+         8bb1b46405de548c0877d116c2a01d010784d1a0 dm clone: make array 'descs' static
+         e95e3fab77b49488ca6d78647c558ce488064487 dm rq: don't queue request to blk-mq during DM suspend
+         012a67c6793277999371b1183eb6dcd081c69f13 dm: fix mempool NULL pointer race when completing IO
          
