@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 07 Oct 2021 15:29:08 -0000
-Message-Id: <163362054830.3819.8249574843817059853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 07 Oct 2021 15:32:26 -0000
+Message-Id: <163362074627.6348.15394391791764946783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/pci/vmd
+  - ref: refs/tags/net-5.15-rc5
     old: 0000000000000000000000000000000000000000
-    new: 42da7911b83a462373c2d093a587d052f02211b0
+    new: 51395d48bc0b91178b06a22ab4baf3648d7ed811
