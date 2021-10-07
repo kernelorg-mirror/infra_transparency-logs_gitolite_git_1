@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7498102318490281863=="
+Content-Type: multipart/mixed; boundary="===============8303523247600518632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 07 Oct 2021 21:36:35 -0000
-Message-Id: <163364259576.13725.18150542092280045644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 07 Oct 2021 21:36:42 -0000
+Message-Id: <163364260270.13853.8283236147645051016@gitolite.kernel.org>
 
---===============7498102318490281863==
+--===============8303523247600518632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/spi-5.16
     old: 48a78c66ad5d9d4f918182335d6e5726e7008085
     new: a0ecee320158909135dd182d2eefbf18c114e8d2
     log: revlist-48a78c66ad5d-a0ecee320158.txt
 
---===============7498102318490281863==
+--===============8303523247600518632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633642593 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1633642593-f815e7bada6477d70ca3a8dac50a3bc80bd90ea9
+pusher C3F436CA30F5D8EB 1633642600 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633642600-26fc855a15e127b393eb0cc423890a13253c3bc4
 
-48a78c66ad5d9d4f918182335d6e5726e7008085 a0ecee320158909135dd182d2eefbf18c114e8d2 refs/heads/for-5.16
+48a78c66ad5d9d4f918182335d6e5726e7008085 a0ecee320158909135dd182d2eefbf18c114e8d2 refs/heads/spi-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFfaGEACgkQJNaLcl1U
-h9DhLAf/RMnWQ35Ny7O6bR+/iaOWTv+tccELJEIldNEj3BFjM/8+8HggcOiQYV+E
-On7XESVF22QJ/JMLNTkf+nSTv80Dza42wTDbBFs0Ueq8el7gtrWEGhrMg2n0VzZw
-EycHLeyWjbShUm7zm7IMSROodFRkFRWfx793+sV6IJgfRHW4qeMtCRHZyaF8ESYN
-Psseckz0UD2hbTHhEzl6OaVlCW2Lco4deW/ywUANP9Fwnc6ul8UhyWlTIeuyMCZ5
-ky38qw+Wovw7IicZSdc/bL/jKmedfCN/Ms+IZtZkXFOPIbFODL3UeRlslV3Dml/P
-P0AgeiVLbcf+kTtdcM8ra18UxhzRVw==
-=3uZK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFfaGgACgkQJNaLcl1U
+h9DSSgf9FMywxiV/gGlZjQ2RQ2EPwGCv0/bi/ASdF7luRr5p+YHoklkD9pT7NyaG
+O/mu5ChHpiCciZBGH+Qh6m5P8A5lX6Jt4kfvJ9/7mqH4uL5ZPMAErC0kY5sYYZ5x
+TlPfzcLlHBhyB/SWoBuwYmfMON5NddN+sPLHGFArvWQqgRnP5GxQXfnz3xlOI+nW
+H9DDG65u1wML2x98duoJLI+6h4XKlPTftTXZVMoBm2+ewFSFKpDsbpsFDwti8YHj
+C+XWxEcQ2Qd5UDw3NyoT/r7XwVcW0Jpa1RsE/iuWglklOCJs06YDXs5vTQku/euM
+eKlWYTuNrJb59ALDgasLP6oLcSnYxw==
+=wbSp
 -----END PGP SIGNATURE-----
 
---===============7498102318490281863==
+--===============8303523247600518632==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -782,4 +782,4 @@ da21fde0fdb393c2fbe0ae0735cc826cd55fd46f spi: Make several public functions priv
 5fe7bd5a37ff0d77936f8e38313db5da2dd53f70 Merge branch 'spi-5.15' into spi-5.16
 a0ecee320158909135dd182d2eefbf18c114e8d2 Merge series "spi: Various Cleanups" from Uwe Kleine-König <u.kleine-koenig@pengutronix.de>:
 
---===============7498102318490281863==--
+--===============8303523247600518632==--
