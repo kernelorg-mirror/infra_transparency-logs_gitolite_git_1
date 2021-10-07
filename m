@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 07 Oct 2021 15:04:01 -0000
-Message-Id: <163361904187.19430.11047996036949670156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Thu, 07 Oct 2021 15:04:27 -0000
+Message-Id: <163361906766.19630.8084196393968643517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/irq/msi-masking-is-a-joke
-    old: 8fbcd02a3ca47bb13d73820a3e681d4200384693
-    new: 7312de4f9c5bf802d059ec61b534a7c536a96852
+  - ref: refs/heads/pci/dwc
+    old: 2d614eea218333de679fb2f59681671bb88168c1
+    new: 5b8402562e553983fc941bb955e2c14d1a69215f
     log: |
-         7312de4f9c5bf802d059ec61b534a7c536a96852 PCI: Add MSI masking quirk for Nvidia ION AHCI
+         2908a0d81f5b24081e95219b8bdc5b93a310f537 PCI: dwc: Clean up Kconfig dependencies (PCIE_DW_HOST)
+         8faa1d2defb795806cc46c21d16ad01bb37d23c4 PCI: dwc: Clean up Kconfig dependencies (PCIE_DW_EP)
+         5b8402562e553983fc941bb955e2c14d1a69215f PCI: visconti: Remove surplus dev_err() when using platform_get_irq_byname()
          
