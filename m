@@ -1,36 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 07 Oct 2021 18:14:31 -0000
-Message-Id: <163363047197.14210.15874363268256408649@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8425492921391397027=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 07 Oct 2021 18:25:51 -0000
+Message-Id: <163363115141.23304.5632993924815778426@gitolite.kernel.org>
+
+--===============8425492921391397027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-5.16/soc
-    old: ceba814b37d0f07419068225fe49f0e69f9602f9
-    new: 986b5094708e508baa452a23ffe809870934a7df
-    log: |
-         986b5094708e508baa452a23ffe809870934a7df soc/tegra: Fix an error handling path in tegra_powergate_power_up()
-         
-  - ref: refs/heads/for-next
-    old: cd42abcb200b327bb72e6ae93e5dec14f1f9fe20
-    new: ed1b7a26559d2f937308263b736489f47c16b8cd
-    log: |
-         986b5094708e508baa452a23ffe809870934a7df soc/tegra: Fix an error handling path in tegra_powergate_power_up()
-         cfb3ad6af1b9c4048d291b29c5cfb8e1f6bb7179 firmware: tegra: reduce stack usage
-         a6444dbfc40feea5bf41c7b761104a826349bb34 Merge branch for-5.16/clk into for-next
-         8ccf508af80606939a30d4549bb10d926ac4638f Merge branch for-5.16/dt-bindings into for-next
-         b9f394ad5202d1ac65de6d953ffb859237fff56f Merge branch for-5.16/firmware into for-next
-         17c2b3a9c1f02119b7799a0d24f653d4cfda7239 Merge branch for-5.16/soc into for-next
-         d9f496b55edd54256115453342319351f910e622 Merge branch for-5.16/cpuidle into for-next
-         9d50e60fc43cc2a17b58dd26bf1b6c281d536b01 Merge branch for-5.16/arm/dt into for-next
-         ed1b7a26559d2f937308263b736489f47c16b8cd Merge branch for-5.16/arm64/dt into for-next
-         
-  - ref: refs/heads/for-5.16/firmware
-    old: 0000000000000000000000000000000000000000
-    new: cfb3ad6af1b9c4048d291b29c5cfb8e1f6bb7179
+  - ref: refs/heads/master
+    old: 4a16df549d2326344bf4d669c5f70d3da447e207
+    new: 7041503d3a5c869e4b4934df57112ef90ce7e307
+    log: revlist-4a16df549d23-7041503d3a5c.txt
+
+--===============8425492921391397027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4a16df549d23-7041503d3a5c.txt
+
+a0e25f0a0d39d66c048d5dbac1e7ebaa6ec885d7 cachefiles: Fix oops with cachefiles_cull() due to NULL object
+330de47d14af0c3995db81cc03cf5ca683d94d81 netfs: Fix READ/WRITE confusion when calling iov_iter_xarray()
+5c0522484eb54b90f2e46a5db8d7a4ff3ff86e5d afs: Fix afs_launder_page() to set correct start file position
+b94729919db2c6737501c36ea6526a36d5d63fa2 perf jevents: Free the sys_event_tables list after processing entries
+573cf5c9a152da1569b993600daa21ede30eeccb perf build: Add missing -lstdc++ when linking with libopencsd
+35c46bf545b31c961f216dd228bf9cba5499e5f0 perf build: Fix plugin static linking with libopencsd on ARM and ARM64
+9fce636e5c7dd84873f096ae4d094fb6bd797f9f tools include UAPI: Sync sound/asound.h copy with the kernel sources
+0b6c5371c03c2b17963e1abd7ed0e3f1f950cba9 perf tests attr: Add missing topdown metrics events
+14df9235aa99e43ddeb78b8d2a78cf20c21a1114 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+7041503d3a5c869e4b4934df57112ef90ce7e307 Merge tag 'misc-fixes-20211007' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+
+--===============8425492921391397027==--
