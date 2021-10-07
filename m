@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 07 Oct 2021 10:59:42 -0000
-Message-Id: <163360438245.27690.17074402969464272592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 07 Oct 2021 11:39:54 -0000
+Message-Id: <163360679416.19829.128375211141010617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 0967eb11f647117145602e452e36f75c9bfffd79
-    new: 0df070182842db8f574a21820ff35b40bec2075f
+  - ref: refs/heads/for-5.16/core
+    old: a68f3bd13994b315f47ec7e4da8d1c39ba0a2bb4
+    new: 8e3cd9221c66b97c31964c013499e6c8d0f49440
     log: |
-         9f4873fb6af7966de8fcbd95c36b61351c1c4b1f EDAC/amd64: Handle three rank interleaving mode
-         0df070182842db8f574a21820ff35b40bec2075f Merge branch 'edac-misc' into edac-for-next
+         8e3cd9221c66b97c31964c013499e6c8d0f49440 HID: cougar: Make use of the helper function devm_add_action_or_reset()
+         
+  - ref: refs/heads/for-next
+    old: dd0f17ef2ea8c0be7ecdade3107b28b9395760bc
+    new: 48e7064414bd165f9f5738a8ff43681e4a843c94
+    log: |
+         8e3cd9221c66b97c31964c013499e6c8d0f49440 HID: cougar: Make use of the helper function devm_add_action_or_reset()
+         48e7064414bd165f9f5738a8ff43681e4a843c94 Merge branch 'for-5.16/core' into for-next
          
