@@ -1,34 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6968686944019322650=="
+Content-Type: multipart/mixed; boundary="===============9054115902508370934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/swiotlb
-Date: Thu, 07 Oct 2021 14:47:18 -0000
-Message-Id: <163361803896.4718.13722237583607236572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/konrad/xen
+Date: Thu, 07 Oct 2021 14:48:19 -0000
+Message-Id: <163361809969.5262.13046192707477961274@gitolite.kernel.org>
 
---===============6968686944019322650==
+--===============9054115902508370934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/swiotlb
+repo: pub/scm/linux/kernel/git/konrad/xen
 user: konrad
 changes:
-  - ref: refs/heads/devel/for-linus-5.15
-    old: f3c4b1341e8320e63f197a554fc5a25686a11d22
-    new: c4800765c0ed0e3ae51a7a84564c7138d05f799d
-    log: revlist-f3c4b1341e83-c4800765c0ed.txt
   - ref: refs/heads/linux-next
-    old: f3c4b1341e8320e63f197a554fc5a25686a11d22
-    new: c4800765c0ed0e3ae51a7a84564c7138d05f799d
-    log: revlist-f3c4b1341e83-c4800765c0ed.txt
+    old: 4a8c31a1c6f526ec96a35e613f2a71e26ffbd7dd
+    new: adbc38b4820fca35bdb12e79ca100520798953e3
+    log: revlist-4a8c31a1c6f5-adbc38b4820f.txt
+  - ref: refs/heads/devel/for-linus-5.15
+    old: 0000000000000000000000000000000000000000
+    new: adbc38b4820fca35bdb12e79ca100520798953e3
 
---===============6968686944019322650==
+--===============9054115902508370934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3c4b1341e83-c4800765c0ed.txt
+Content-Disposition: attachment; filename=revlist-4a8c31a1c6f5-adbc38b4820f.txt
 
 9673e0050c39b0534d0e2ca431223f52089f4959 ocfs2: ocfs2_downconvert_lock failure results in deadlock
 4bdffd2708d65e68ff254d90793bb167d828219f arch/csky/kernel/probes/kprobes.c: fix bugon.cocci warnings
@@ -1053,6 +1052,6 @@ fec3036200b7d9df32c94eb2616447eb2f6e09ac Merge tag 'perf-urgent-2021-09-19' of g
 20621d2f27a0163b81dc2b74fd4c0b3e6aa5fa12 Merge tag 'x86_urgent_for_v5.15_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 316e8d79a0959c302b0c462ab64b069599f10eef pci_iounmap'2: Electric Boogaloo: try to make sense of it all
 e4e737bb5c170df6135a127739a9e6148ee3da82 Linux 5.15-rc2
-c4800765c0ed0e3ae51a7a84564c7138d05f799d MAINTAINERS: Update SWIOTLB maintainership
+adbc38b4820fca35bdb12e79ca100520798953e3 MAINTAINERS: Update Xen-[PCI,SWIOTLB,Block] maintainership
 
---===============6968686944019322650==--
+--===============9054115902508370934==--
