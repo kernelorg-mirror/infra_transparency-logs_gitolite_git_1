@@ -1,50 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5328355700725746059=="
+Content-Type: multipart/mixed; boundary="===============2574410393103794761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 07 Oct 2021 16:45:50 -0000
-Message-Id: <163362515045.21829.1448955716151923845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 07 Oct 2021 16:45:58 -0000
+Message-Id: <163362515826.21952.16268483422720001350@gitolite.kernel.org>
 
---===============5328355700725746059==
+--===============2574410393103794761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/net-mlx4
-    old: a50a0595230d38be15183699f7bbc963bf3d127a
-    new: 8d6c414cd2fb74aa6812e9bfec6178f8246c4f3a
-    log: revlist-a50a0595230d-8d6c414cd2fb.txt
+  - ref: refs/heads/bleeding-edge
+    old: 6cb3f7cfca6963de4f486c4bd99fdefa56f75870
+    new: 98f00cb162e3728e0588407f2e8e23a82901ae15
+    log: |
+         9c0c581d59e2162c9c29ea3bf9002eb8e1c8de84 Merge branch 'pm-pci' into linux-next
+         3fb937f441c64af1eec60bfd3732f64001fcc534 PCI: ACPI: Check parent pointer in acpi_pci_find_companion()
+         54a59842c15e43d470b9de32e9577700934d6886 Merge branch 'acpi-pci-fixes' into linux-next
+         2860c06024a93e0bd94b0039e8418ddad8e8b414 Merge branches 'acpica' and 'acpi-misc' into linux-next
+         92ac4638d4ab801597cc2bc4ddde79c1a071d1d8 Merge branch 'pnp' into linux-next
+         574167bf7ed8e12be9710fc84442c5e23775f75d Merge branches 'thermal-int340x' and 'thermal-powerclamp' into linux-next
+         98f00cb162e3728e0588407f2e8e23a82901ae15 Merge branch 'pm-em' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 8e0efc215fb15481ac2c12c7e11ce2d7d2803691
+    new: 574167bf7ed8e12be9710fc84442c5e23775f75d
+    log: revlist-8e0efc215fb1-574167bf7ed8.txt
+  - ref: refs/heads/testing
+    old: 8e0efc215fb15481ac2c12c7e11ce2d7d2803691
+    new: 574167bf7ed8e12be9710fc84442c5e23775f75d
+    log: revlist-8e0efc215fb1-574167bf7ed8.txt
 
---===============5328355700725746059==
+--===============2574410393103794761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a50a0595230d-8d6c414cd2fb.txt
+Content-Disposition: attachment; filename=revlist-8e0efc215fb1-574167bf7ed8.txt
 
-3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
-844f7eaaed9267ae17d33778efe65548cc940205 include/uapi/linux/xfrm.h: Fix XFRM_MSG_MAPPING ABI breakage
-f8d858e607b2a36808ac6d4218f5f5203d7a7d63 xfrm: make user policy API complete
-88d0adb5f13b1c52fbb7d755f6f79db18c2f0c2c xfrm: notify default policy on update
-047a749d231e4faccaf5f473cf73dc5732425f81 Merge branch 'xfrm: fix uapi for the default policy'
-93ec1320b0170d7a207eda2d119c669b673401ed xfrm: fix rcu lock in xfrm_notify_userpolicy()
-571fa247ab411f3233eeaaf837c6e646a513b9f8 samples: bpf: Fix vmlinux.h generation for XDP samples
-d75fe9cb1dd062684c9fb8a4581738170365dc06 samples/bpf: Relicense bpf_insn.h as GPL-2.0-only OR BSD-2-Clause
-79e3445b38e0cab94264a3894c0c3d57c930b97e bpf, arm: Fix register clobbering in div/mod implementation
-30e29a9a2bc6a4888335a6ede968b75cd329657a bpf: Fix integer overflow in prealloc_elems_and_freelist()
-4729445b47efebf089da4ccbcd1b116ffa2ad4af libbpf: Fix segfault in light skeleton for objects without BTF
-b0e875bac0fab3e7a7431c2eee36a8ccc0c712ac libbpf: Fix memory leak in strset
-d0c6416bd7091647f6041599f396bfa19ae30368 unix: Fix an issue in unix_shutdown causing the other end read/write failures
-857b6c6f665cca9828396d9743faf37fd09e9ac3 i40e: fix endless loop under rtnl
-2e5a20573a926302b233b0c2e1077f5debc7ab2e i40e: Fix freeing of uninitialized misc IRQ vector
-54ee39439acd9f8b161703c6ad4f4e1835585277 iavf: fix double unlock of crit_lock
-65f280bb65e60fd75ca6cca51c4311a4fc7af222 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net- queue
-578f3932273ff577f532c54a45248b791089cbf0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ ipsec
-7671b026bb389a5a01722dd3ecf80b44703e9e84 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-8d6c414cd2fb74aa6812e9bfec6178f8246c4f3a net: prefer socket bound to interface when not in VRF
+bf39c929f9053cd840155a1c39494c9a9946836b PCI: PM: Rearrange pci_target_state()
+6407e5ecdc66cd9da760e751a7c092c87a683861 PCI: PM: Make pci_choose_state() call pci_target_state()
+fa1a25c51d02f153b49444aa872bee9da3c13ecf PCI: PM: Do not call platform_pci_power_manageable() unnecessarily
+5771e582d79258333a1cf817db999f58384e5685 ACPI: Update information in MAINTAINERS
+d3c4b6f64ad356c0d9ddbcf73fa471e6a841cc5c ACPICA: Avoid evaluating methods too early during system resume
+3bf70bd2538f0515ce17b1c067889ff0e4fec842 ACPICA: Add support for Windows 2020 _OSI string
+8a8332f9f8124c67c5d1b1ef38379cc642814504 ACPICA: ACPI 6.4 SRAT: add Generic Port Affinity type
+a805aab86b4dd3f61845edfe15f7ca9396f92ce6 ACPICA: iASL table disassembler: Added disassembly support for the NHLT ACPI table
+93792be6424aafd6fb59b2a1eef914ef9e91fdcb ACPICA: Update version to 20210930
+47e9249a6cc78c2856bdc8c2f8bd495309cbc060 PNP: system.c: unmark a comment as being kernel-doc
+7fc775ffebb93f2d556b4cb96345844885e16f60 thermal: intel_powerclamp: Use bitmap_zalloc/bitmap_free when applicable
+52628a85dd8eb59dd04df73fc75f40ad85f1d720 thermal: int340x: delete bogus length check
+9c0c581d59e2162c9c29ea3bf9002eb8e1c8de84 Merge branch 'pm-pci' into linux-next
+3fb937f441c64af1eec60bfd3732f64001fcc534 PCI: ACPI: Check parent pointer in acpi_pci_find_companion()
+54a59842c15e43d470b9de32e9577700934d6886 Merge branch 'acpi-pci-fixes' into linux-next
+2860c06024a93e0bd94b0039e8418ddad8e8b414 Merge branches 'acpica' and 'acpi-misc' into linux-next
+92ac4638d4ab801597cc2bc4ddde79c1a071d1d8 Merge branch 'pnp' into linux-next
+574167bf7ed8e12be9710fc84442c5e23775f75d Merge branches 'thermal-int340x' and 'thermal-powerclamp' into linux-next
 
---===============5328355700725746059==--
+--===============2574410393103794761==--
