@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 07 Oct 2021 12:08:26 -0000
-Message-Id: <163360850634.6516.6516143449762317766@gitolite.kernel.org>
+Date: Thu, 07 Oct 2021 12:09:31 -0000
+Message-Id: <163360857122.6885.2937322721381686045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/tags/v5.13-rockchip-dtsfixes1
-    old: 5071de24a19753c776a529e11e478ffda82d59d8
+  - ref: refs/heads/v5.15-armsoc/drivers
+    old: 9e5747c57807ad8a04c356340190cfdd0bd54111
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.15-rockchip-clk1
-    old: e037270468217bdcf308d5792f42a409ba181e49
+  - ref: refs/heads/v5.15-armsoc/dts32
+    old: 9d508827c7939242e8ed6b06f66aa87d9f7ea832
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.15-rockchip-driver1
-    old: b38df108eb4ee6d3e9d50623c80fc5eec6831f77
+  - ref: refs/heads/v5.15-armsoc/dts64
+    old: b12a5946f5ea7a54b8b983c42f0812152e3122de
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.15-rockchip-dts32-1
-    old: 2f99f535f33e97b01170838af7cde68e858bbfa5
+  - ref: refs/heads/v5.15-clk/next
+    old: c0c81245dac7caaef4db627fb7043495d1afe662
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.15-rockchip-dts64-1
-    old: 6347cc2eec83a25958b0a23f20b04d3004fe22cd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.15-rockchip-dts64-2
-    old: c085f2609aa628ef12fc37ef6ddc459a62b93a3e
+  - ref: refs/heads/v5.15-shared/clkids
+    old: b13c1fff66cc255c0a9d48561d05f0f7e8ffd385
     new: 0000000000000000000000000000000000000000
