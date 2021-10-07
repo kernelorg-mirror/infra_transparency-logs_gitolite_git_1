@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 07 Oct 2021 23:07:18 -0000
-Message-Id: <163364803872.7053.3139490538963919185@gitolite.kernel.org>
+Date: Thu, 07 Oct 2021 23:08:06 -0000
+Message-Id: <163364808671.7336.8274161348147069682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: d3703ef331297b6daa97f5228cbe2a657d0cfd21
-    new: 012a67c6793277999371b1183eb6dcd081c69f13
-    log: |
-         1e02c997128658fb3afebfc03c611e0eabca9d08 dm verity: skip redundant verity_handle_err() on I/O errors
-         8bb1b46405de548c0877d116c2a01d010784d1a0 dm clone: make array 'descs' static
-         e95e3fab77b49488ca6d78647c558ce488064487 dm rq: don't queue request to blk-mq during DM suspend
-         012a67c6793277999371b1183eb6dcd081c69f13 dm: fix mempool NULL pointer race when completing IO
-         
+  - ref: refs/tags/v5.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 249433b711cba85aaec2e714898b46e3fa821571
+  - ref: refs/tags/v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
