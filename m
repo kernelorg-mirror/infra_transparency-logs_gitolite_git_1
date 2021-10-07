@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 07 Oct 2021 21:53:11 -0000
-Message-Id: <163364359173.25070.3355198945207929482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Thu, 07 Oct 2021 21:57:25 -0000
+Message-Id: <163364384552.27794.15468123744829655605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: af4bb50d4647af5de461cbbba77d181e0fccaa09
-    new: 0eb4ef88c53f7169c44b1bd2ace5389981409a60
+  - ref: refs/heads/master
+    old: 8420da60ab3e47baa87aee22319dbd43868abd00
+    new: c72ee787e4a38215ee832d6e3f92f35e0b64a873
     log: |
-         e5c15a363de6f87d5aff9a2674f77c49f70a9ca2 mips, bpf: Fix Makefile that referenced a removed file
-         bbf731b3f44d512efaec065435f3efd0cbdac68e mips, bpf: Optimize loading of 64-bit constants
-         0eb4ef88c53f7169c44b1bd2ace5389981409a60 bpf, tests: Add more LD_IMM64 tests
+         c72ee787e4a38215ee832d6e3f92f35e0b64a873 x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
          
