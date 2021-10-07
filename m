@@ -1,54 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7047461957579087671=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Thu, 07 Oct 2021 18:09:30 -0000
-Message-Id: <163363017070.11081.1394427478422199633@gitolite.kernel.org>
-
---===============7047461957579087671==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Thu, 07 Oct 2021 18:14:31 -0000
+Message-Id: <163363047197.14210.15874363268256408649@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/patatt/patatt
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/main
-    old: 4870cf5db4325622ee68f6a47f920e5faea3ffff
-    new: a7ec0c10429bb1e14591e33c08baf3aee28c26dd
+  - ref: refs/heads/for-5.16/soc
+    old: ceba814b37d0f07419068225fe49f0e69f9602f9
+    new: 986b5094708e508baa452a23ffe809870934a7df
     log: |
-         6c8eded3cf00c49c932c49c173a1efb1508facfb keyring: Add key from Kees Cook
-         a7ec0c10429bb1e14591e33c08baf3aee28c26dd gnupg: Add gpg status output to debug logging
+         986b5094708e508baa452a23ffe809870934a7df soc/tegra: Fix an error handling path in tegra_powergate_power_up()
          
-  - ref: refs/heads/stable-0.4.y
-    old: f5897a429ff61bc3d809092ac0bebf17e311f2b5
-    new: 129364b314c3822ad4eb5958e782add35ab18ba0
+  - ref: refs/heads/for-next
+    old: cd42abcb200b327bb72e6ae93e5dec14f1f9fe20
+    new: ed1b7a26559d2f937308263b736489f47c16b8cd
     log: |
-         129364b314c3822ad4eb5958e782add35ab18ba0 gnupg: Add gpg status output to debug logging
+         986b5094708e508baa452a23ffe809870934a7df soc/tegra: Fix an error handling path in tegra_powergate_power_up()
+         cfb3ad6af1b9c4048d291b29c5cfb8e1f6bb7179 firmware: tegra: reduce stack usage
+         a6444dbfc40feea5bf41c7b761104a826349bb34 Merge branch for-5.16/clk into for-next
+         8ccf508af80606939a30d4549bb10d926ac4638f Merge branch for-5.16/dt-bindings into for-next
+         b9f394ad5202d1ac65de6d953ffb859237fff56f Merge branch for-5.16/firmware into for-next
+         17c2b3a9c1f02119b7799a0d24f653d4cfda7239 Merge branch for-5.16/soc into for-next
+         d9f496b55edd54256115453342319351f910e622 Merge branch for-5.16/cpuidle into for-next
+         9d50e60fc43cc2a17b58dd26bf1b6c281d536b01 Merge branch for-5.16/arm/dt into for-next
+         ed1b7a26559d2f937308263b736489f47c16b8cd Merge branch for-5.16/arm64/dt into for-next
          
-
---===============7047461957579087671==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1633630170 -0400
-pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1633630169-32e8edc61713f819ab1cb973717bd0a2e1be62d3
-
-4870cf5db4325622ee68f6a47f920e5faea3ffff a7ec0c10429bb1e14591e33c08baf3aee28c26dd refs/heads/main
-f5897a429ff61bc3d809092ac0bebf17e311f2b5 129364b314c3822ad4eb5958e782add35ab18ba0 refs/heads/stable-0.4.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYV832gAKCRC2xBzjVmSZ
-bBc9AQDGOCZ3GQOR/uKiS4ClcaiEAYWa+kgBEFFC58cQrZ3oRAD7BuDszGaS61Qs
-JxKK6QvpXJftNJ3cgPPuSdyKdaSdcAI=
-=DHuT
------END PGP SIGNATURE-----
-
---===============7047461957579087671==--
+  - ref: refs/heads/for-5.16/firmware
+    old: 0000000000000000000000000000000000000000
+    new: cfb3ad6af1b9c4048d291b29c5cfb8e1f6bb7179
