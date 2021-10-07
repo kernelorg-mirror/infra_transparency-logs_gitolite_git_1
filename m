@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/maint-scripts
-Date: Thu, 07 Oct 2021 21:37:29 -0000
-Message-Id: <163364264958.14559.9054637114988611084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Thu, 07 Oct 2021 21:46:55 -0000
+Message-Id: <163364321558.20276.446419612555752637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/maint-scripts
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 31e4566098645e720789afec62dadf75d2fa7458
-    new: 49d03cb89907d9c35444e06a6c4cbf5ee70c77e7
+    old: 252e0cd1b1b33d031725c45a5c75e5ce1f41980d
+    new: 8420da60ab3e47baa87aee22319dbd43868abd00
     log: |
-         d40e6921465a9b7f65d6ceeeb2f0300bb69c50bb Initial branches for v5.16-rc1
-         49d03cb89907d9c35444e06a6c4cbf5ee70c77e7 Final branches for v5.16-rc1
+         8420da60ab3e47baa87aee22319dbd43868abd00 x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
          
