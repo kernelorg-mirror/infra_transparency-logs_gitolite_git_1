@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1380319647063217236=="
+Content-Type: multipart/mixed; boundary="===============7259158301337151743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 07 Oct 2021 06:31:03 -0000
-Message-Id: <163358826373.15623.1949676095768984622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 07 Oct 2021 06:31:14 -0000
+Message-Id: <163358827483.15752.8059716785844649076@gitolite.kernel.org>
 
---===============1380319647063217236==
+--===============7259158301337151743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.4.287
-    old: 0000000000000000000000000000000000000000
-    new: 8c923b9846340e09a4024ebbcbae0250984e24d9
+  - ref: refs/heads/linux-4.4.y
+    old: fb33274be249a0dd7d4d470a1f6ab392e0c76720
+    new: a123b2f4737a9f4e34e92e502972b6388f90133f
+    log: |
+         43aa7a41ea67d8f69182ddfc4a3cc6c337fbafe7 Revert "arm64: Mark __stack_chk_guard as __ro_after_init"
+         a123b2f4737a9f4e34e92e502972b6388f90133f Linux 4.4.287
+         
 
---===============1380319647063217236==
+--===============7259158301337151743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633588263 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1633588262-f3dd6875d5c90fed6b8fbf8e54e6a956f7037ce1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633588273 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1633588272-84de5996f2957f13355d4cbdb8c85b8b82c48a35
 
-0000000000000000000000000000000000000000 8c923b9846340e09a4024ebbcbae0250984e24d9 refs/tags/v4.4.287
+fb33274be249a0dd7d4d470a1f6ab392e0c76720 a123b2f4737a9f4e34e92e502972b6388f90133f refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFelCcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KvQP/1ET69sM6IIUQtzWVg9t
-ROEXjZysRXH+OerfNJ7ayifgWwjNdnv4yRoNdHUrMTwydUO+RB6/u3B/+7poG9kY
-D5bMEp5ODp+4KHfcy9JQkNRtghHnaiJTwK7QIr5fIFryxjkkKHihl+VB3oBXLpSC
-W610HG/+vLufq3EvlGCYEfiSCEMEWHtSJXtNEKVnh5P96IqMUaRehwERtrXC1rPM
-KqTNyItCvPzcAeSro8hP9GmEeG5IR2+/YJkDU0iezuu2sqSK2n93Invk0oqUpQmU
-xGsd1m74IgRhdQT1v3AlDVRaSIa22F8AH/SlgesUldG0nZedyjOTKvwyyHsY2FqP
-snb99LQKR5VqAhbsydhohctQozR68j6PNyfMhoNAhTY97szx7ywHdMBZuuUMQpYQ
-mb8hNXYxkytmgwsu8lfnzw21gTRsSLUR5Q2Dnx5UOqlGMpQv97NjHkt85xXnWBD0
-mzVDSwW0HdgG02nSCILNO6q6AbxX03EdauBf4V08YRslMXCuxWj5KEjMHpi4d7aQ
-HgH36t+FkBRYOGWubQ31Q8wB5EQ9hHbnmqdz7iq+sD6kcCf9ztpcrPIXg547EnrU
-QBkh9nxorvCptMntdFlOkatICgyAqKmo83f1b8xKR+kWFF5zCLAUFSoz3GEXJVpX
-y9OTc1rrDQDisK5T7HrM9WrK
-=zrtU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFelDEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t9AQANOlv3YxfV3kyW//sQTz
+yw4oyST/kamNGF1CU5rj3uFRefIgjBAxyldNIOmWw3m3G+YZ7xadI3U8hfgOQpgw
+1a3KqPlw2Rt0I0/fGw6HOBhrLmurO89h/Yj2feZL8FyoXeXrRtB7IkVJj0O6rJks
+qhpZcrl2HjpuaG+ZR82+lmknl/8Tcfc944CTnCcvHtNxHsCIAxv24qWSTjqEW1hn
+/TcCj85Rxa0c4jfAJ8ccn6WGeL98YHl2nRpgBq0Kdyi8sakKa1S4OG7nutlQLz6y
+S9fKSggU+g7aVl2briEM60DJWlZDMbk2Nku6LztquVTGssYHyCEOhGuQuL3M2SCp
+PwhPbrOukd4aLI9fB80opdpOUrLWFLcyum2Ct/YT2rTK3lKy6ntoA5OFEwdSXx27
+2h3s/bVFa0RD3IGoVoWe33B+81xrf0UFObWE7mu81NnzSsNBSgLM2rBJS85DOUg+
+gYgaHaUwfZbJBOo16omNXSmLWRrHLJoxZZahL+q0tKlJrGH7e7l8Gyk/ezgxJkDT
+epBkWx4xWlfYFCLdfCFqAIYwgdRs18SkwmAB+PEuckO/TkWEDfllB+1X6uRoYjgL
+OB/Vh66aiLQ2r31OjpRqt37skdCSHw8bPthhnbb2h6o0mx59uI1CdZ2s1PGzxhp3
+CrrniZDNj3s6Wwnb1jLUlTkB
+=WpFl
 -----END PGP SIGNATURE-----
 
---===============1380319647063217236==--
+--===============7259158301337151743==--
