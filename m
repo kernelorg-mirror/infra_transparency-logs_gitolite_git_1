@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/ibft
-Date: Thu, 07 Oct 2021 14:54:12 -0000
-Message-Id: <163361845281.13432.9807769239094534145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 07 Oct 2021 14:57:11 -0000
+Message-Id: <163361863106.15738.9874658090416701472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/ibft
-user: konrad
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/v5.13-rc7
+  - ref: refs/heads/irq/msi-masking-is-a-joke
     old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+    new: 8fbcd02a3ca47bb13d73820a3e681d4200384693
