@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6592534999161234843=="
+Content-Type: multipart/mixed; boundary="===============5882852638990233367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 07 Oct 2021 16:49:28 -0000
-Message-Id: <163362536816.24394.6459125257615926064@gitolite.kernel.org>
+Date: Thu, 07 Oct 2021 16:49:37 -0000
+Message-Id: <163362537703.24502.2057089090099414621@gitolite.kernel.org>
 
---===============6592534999161234843==
+--===============5882852638990233367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9cbfc51af026f5b721a1b36cf622ada591b3c5de
-    new: 44cc24b04bed578e32a4334cacf95799335b3274
-    log: revlist-9cbfc51af026-44cc24b04bed.txt
+  - ref: refs/heads/mlx5-queue
+    old: e12dfab47f3c4af31883f0deab8af34e98098d45
+    new: da7623a79f80734cbef4c30eede2a215781768bc
+    log: revlist-e12dfab47f3c-da7623a79f80.txt
 
---===============6592534999161234843==
+--===============5882852638990233367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cbfc51af026-44cc24b04bed.txt
+Content-Disposition: attachment; filename=revlist-e12dfab47f3c-da7623a79f80.txt
 
 eb3a97a69be83ea961bf4a164c54e1c989a57850 ath9k: fetch calibration data via nvmem subsystem
 ef7bc2a7634298b66fcd313dd4bb0e9f4f2e503b ath9k: owl-loader: fetch pci init values through nvmem
@@ -154,5 +154,13 @@ b8eeac565b162b6a00423a5d9ed2d1284342bdfd ethernet: use device_get_ethdev_address
 894b0fb0921529928d596c155894ecae5444712f ethernet: make more use of device_get_ethdev_address()
 5a98dcf59abf68a7949bf1ff95765b946c1a4595 Merge branch 'dev_addr-fw-helpers'
 44cc24b04bed578e32a4334cacf95799335b3274 Merge tag 'wireless-drivers-next-2021-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+d37f185fab42cbf30c72c0d70e6b756177858319 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+bb8b82ea9117504570405cf9f94324911482f7ad net/mlx5e: Save memory by using dynamic allocation in netdev priv
+3d2674f628b45b94e21efd49c19ae999ac1617d0 net/mlx5e: Allow profile-specific limitation on max num of channels
+bcacf1d231a8fc84b9dfc45355db861ea07254ba !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+d30a573ec063435bf1b15ed5476ecd52eba5c921 net/mlx5e: Allocate per-channel stats dynamically at first usage
+ae580f7d09fcc48c40a20fda2f49844206f55145 net/mlx5: E-Switch, Use dynamic alloc for dest array
+7b043a735cee6eee12e7c45ee4283ad4fb87879f net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+da7623a79f80734cbef4c30eede2a215781768bc Merge branch 'patchq/428803' into mlx5-queue
 
---===============6592534999161234843==--
+--===============5882852638990233367==--
