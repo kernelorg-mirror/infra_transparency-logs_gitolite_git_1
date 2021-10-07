@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 07 Oct 2021 15:04:27 -0000
-Message-Id: <163361906766.19630.8084196393968643517@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8815046648684719131=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Thu, 07 Oct 2021 15:14:54 -0000
+Message-Id: <163361969472.25464.10566593650996662677@gitolite.kernel.org>
+
+--===============8815046648684719131==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 2d614eea218333de679fb2f59681671bb88168c1
-    new: 5b8402562e553983fc941bb955e2c14d1a69215f
+  - ref: refs/heads/master
+    old: e21e357733ccaa1e29374dd99295f542409e1820
+    new: fdc9d1a11c091ebf17efb8a80f8b04c23e1ae80c
     log: |
-         2908a0d81f5b24081e95219b8bdc5b93a310f537 PCI: dwc: Clean up Kconfig dependencies (PCIE_DW_HOST)
-         8faa1d2defb795806cc46c21d16ad01bb37d23c4 PCI: dwc: Clean up Kconfig dependencies (PCIE_DW_EP)
-         5b8402562e553983fc941bb955e2c14d1a69215f PCI: visconti: Remove surplus dev_err() when using platform_get_irq_byname()
+         fdc9d1a11c091ebf17efb8a80f8b04c23e1ae80c git-patchwork-bot: use shortened refname in notices
          
+
+--===============8815046648684719131==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1633619694 -0400
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
+nonce 1633619694-542223385bffca6a1f1d1a580b1956f76c53dd75
+
+e21e357733ccaa1e29374dd99295f542409e1820 fdc9d1a11c091ebf17efb8a80f8b04c23e1ae80c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYV8O7gAKCRC2xBzjVmSZ
+bLG1AQC818ZPaNX96zwcmG7PoFjGuTYszgJQ6bd6xXzaJaM8IQD+NYy0xcAQM66k
+LaUWtgiNBUoPP2ZNr3zE/mMF83s34wk=
+=Okc3
+-----END PGP SIGNATURE-----
+
+--===============8815046648684719131==--
