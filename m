@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 07 Oct 2021 19:47:26 -0000
-Message-Id: <163363604655.8609.715437382108231242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 07 Oct 2021 19:50:09 -0000
+Message-Id: <163363620961.12316.15898095716365081435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/kunit
-    old: 3b29021ddd10cfb6b2565c623595bd3b02036f33
-    new: e7198adb84dcad671ad4f0e90aaa7e9fabf258dc
+  - ref: refs/heads/master
+    old: 6364d7d75a0e015a405d1f8a07f267f076c36ca6
+    new: af4bb50d4647af5de461cbbba77d181e0fccaa09
     log: |
-         91bd8c27be3b6d0aea5efdc65d05d6b68b4eb552 kunit: fix too small allocation when using suite-only kunit.filter_glob
-         906932c295315096ff699b08803e1b16bd5b91b4 kunit: tool: misc fixes (unused vars, imports, leaked files)
-         d02376ebd81215ba4c1872253783ae89968d1600 kunit: tool: show list of valid --arch options when invalid
-         cc74705ed681a6c850ed7e66595bd1a9cdef8930 kunit: add 'kunit.action' param to allow listing out tests
-         c9e7704b3da744f2327e451dddd097e38d4ab2bf kunit: tool: factor exec + parse steps into a function
-         28fa850f9b4463ddeb95a483cd459e7afbfe0631 kunit: tool: actually track how long it took to run tests
-         6710951ee03972be50ef230a5a6d3541fa36e661 kunit: tool: support running each suite/test separately
-         e7198adb84dcad671ad4f0e90aaa7e9fabf258dc kunit: tool: yield output from run_kernel in real time
+         065485ac5e8621daf44a0f0e4e844d9f4a451c27 mips, bpf: Fix Makefile that referenced a removed file
+         612ff31f7672e8cfb9c577982e6b82bdc58deb2b mips, bpf: Optimize loading of 64-bit constants
+         af4bb50d4647af5de461cbbba77d181e0fccaa09 bpf, tests: Add more LD_IMM64 tests
          
