@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 07 Oct 2021 02:31:17 -0000
-Message-Id: <163357387745.14623.4518134910011885174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 07 Oct 2021 03:13:47 -0000
+Message-Id: <163357642712.7029.10938532613381259217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: ef9f578252196005981e637afbe526f4caa02258
-    new: 7969c5f5113203e7a13c5650f3154b189cb96652
+  - ref: refs/heads/objtool/urgent
+    old: fe255fe6ad97685e5a4be0d871f43288dbc10ad6
+    new: 86e1e054e0d2105cf32b0266cf1a64e6c26424f7
     log: |
-         7969c5f5113203e7a13c5650f3154b189cb96652 Thu 07 Oct 2021 02:30:36 AM UTC
+         b46179d6bb3182c020f2bf9bb4df6ba5463b0495 objtool: Check for gelf_update_rel[a] failures
+         86e1e054e0d2105cf32b0266cf1a64e6c26424f7 objtool: Update section header before relocations
          
