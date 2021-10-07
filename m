@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0936839296958769633=="
+Content-Type: multipart/mixed; boundary="===============2911895531347449584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 07 Oct 2021 21:36:06 -0000
-Message-Id: <163364256695.13290.8250211632296481617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 07 Oct 2021 21:36:15 -0000
+Message-Id: <163364257507.13417.1665624671026178049@gitolite.kernel.org>
 
---===============0936839296958769633==
+--===============2911895531347449584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 42871e95a3afea8956d8cc567ea725b33a837775
     new: 214174d9f56c7f81f4860a26b6b8b961a6b92654
     log: |
@@ -28,37 +28,37 @@ changes:
          5af82c81b2c49cfb1cad84d9eb6eab0e3d1c4842 ASoC: DAPM: Fix missing kctl change notifications
          214174d9f56c7f81f4860a26b6b8b961a6b92654 ASoC: codec: wcd938x: Add irq config support
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: dc1fad25bbd0698e8e61a0468e3920c5c29a803f
     new: 06a0fc36a5292ad35ee5768be110b5453a639c1d
     log: revlist-dc1fad25bbd0-06a0fc36a529.txt
 
---===============0936839296958769633==
+--===============2911895531347449584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633642564 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1633642563-f9fcc024db8bb36bdb3a4c5952ee0836fdad1c45
+pusher C3F436CA30F5D8EB 1633642572 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633642572-824ba1de27d40e0f8222921f3ee1ec873430bf95
 
-42871e95a3afea8956d8cc567ea725b33a837775 214174d9f56c7f81f4860a26b6b8b961a6b92654 refs/heads/for-5.15
-dc1fad25bbd0698e8e61a0468e3920c5c29a803f 06a0fc36a5292ad35ee5768be110b5453a639c1d refs/heads/for-5.16
+42871e95a3afea8956d8cc567ea725b33a837775 214174d9f56c7f81f4860a26b6b8b961a6b92654 refs/heads/asoc-5.15
+dc1fad25bbd0698e8e61a0468e3920c5c29a803f 06a0fc36a5292ad35ee5768be110b5453a639c1d refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFfaEQACgkQJNaLcl1U
-h9CGeAf+NgSd5X1K25GhJeqCVGwkK1AmeckLbZ3GEqtg9lZ9lrHEcm2f0dBgCRwO
-cbludDTC61sSl6lZ6DFBmBlRqt8l3lNaU0gmXIUXLVUnNKFiYF3OjaiIc/Ld0Pg1
-eBoS7RZc2e+QLCW4IwihIgXL/fBBcpkFznFz9LeW8QuN/1BZKyDagUwbzg9OZj4K
-tVWBmVXRdK0uLjXhyWBihLttGkXQRc45GD5NSPrqE9k9WwltbJn10CmQMtPynMOC
-9P2cMsXIBhCemMABrmrQdmmdlql2Uae9g6q+FVpXUc7H7nnflY9wA8OWdjmzAw48
-HE+Abg9rGmjP6bnWQtxMBmB6IvdiDQ==
-=qegz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFfaEwACgkQJNaLcl1U
+h9BsoAf/fJBMPQIaiKMFUX2YTjrC1J1EDgpdZAuLmGS9UERuPwnGEohBHH6nMUaF
+oqYew7vDkypFtNvUjztjVu5yC4aM4mm3LA7soBkeqBqNrZll356T2uj15VNf1SP+
+u2jJsstwexZRQqVMLNNwRdUdZ1H/D6g3WgJV6YneUTSXTITjdfsB2HwmhHagtNT3
+yOvJ48RZDriAKRe9H8ch5Xmazlpexnzq5rLi6RRx8aWAzMKKg1UYspJDxQVqD9UJ
+3TxgInBV69ZSZMcesPSlAiCCZemBf0r/+gTsKFA6mrJMp9PlddnXEMR38KYFZ0a8
+K52+I6F1tKaJDPFqH6ruehXN1OUvzg==
+=QPi9
 -----END PGP SIGNATURE-----
 
---===============0936839296958769633==
+--===============2911895531347449584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ f71f59dd450813684d838e0c1d6602186b7d2d8f ASoC: SOF: Introduce snd_sof_mailbox_re
 99f11b6552fa36da107a6a92773a11109107b686 Merge series "Introduce new SOF helpers" from Daniel Baluta <daniel.baluta@oss.nxp.com> Daniel Baluta <daniel.baluta@nxp.com>:
 06a0fc36a5292ad35ee5768be110b5453a639c1d Merge series "Add reset-gpios handling for max98927" from Alejandro Tafalla <atafalla@dnyon.com>:
 
---===============0936839296958769633==--
+--===============2911895531347449584==--
