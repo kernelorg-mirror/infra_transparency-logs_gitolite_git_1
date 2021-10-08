@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Oct 2021 18:15:33 -0000
-Message-Id: <163371693325.6096.5562895599827581743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 08 Oct 2021 18:23:53 -0000
+Message-Id: <163371743312.11278.3705598867035208337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: dd65acf72d0e073970459d5da80573a04304aaa9
-    new: 7e3cbd3405cb7b6c036b8984baa694bc55c08e46
+  - ref: refs/heads/master
+    old: 24d479053750ed1f254f3886a542bd8c97c38cbd
+    new: a0017405064c2c924f738ca2d7e8e89a96681dca
     log: |
-         7e3cbd3405cb7b6c036b8984baa694bc55c08e46 selftests/bpf: Fix btf_dump test under new clang
+         80ed3ef5b25d6871b9281b36f46f542887842463 eapol: Fix trying to include uninitialized data
+         e519d1139a89cbf376c5c43baf8141c63f4ea4e5 eapol: Remove unneeded assignment
+         a58439614771be258b1dc48af13e8c45ac1671d0 eapol: Remove unneeded initialization
+         a0017405064c2c924f738ca2d7e8e89a96681dca manager: Initialize all default interfaces
          
