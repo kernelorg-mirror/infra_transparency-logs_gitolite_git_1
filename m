@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0631235066610609643=="
+Content-Type: multipart/mixed; boundary="===============5827992732779709225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 08 Oct 2021 02:49:41 -0000
-Message-Id: <163366138124.22862.3818702027295315591@gitolite.kernel.org>
+Date: Fri, 08 Oct 2021 02:50:02 -0000
+Message-Id: <163366140212.23160.15480034116360538704@gitolite.kernel.org>
 
---===============0631235066610609643==
+--===============5827992732779709225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/watchdog
-    old: e9cd5103df503577c2e74342614b4fd667e69929
-    new: be3f5216b903ff5b0f34e0bc01bae518a233dbed
-    log: revlist-e9cd5103df50-be3f5216b903.txt
+  - ref: refs/heads/watchdog-next
+    old: 1c2b67fd9b0336ecc29306709af06100f6f2b08e
+    new: 9ba3edb8dd44b4253b7bdaf5d4a91f97df9370f0
+    log: revlist-1c2b67fd9b03-9ba3edb8dd44.txt
 
---===============0631235066610609643==
+--===============5827992732779709225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9cd5103df50-be3f5216b903.txt
+Content-Disposition: attachment; filename=revlist-1c2b67fd9b03-9ba3edb8dd44.txt
 
-863580418bc82062083be854355f2213d3d804f5 regulator: qcom-rpmh-regulator: fix pm8009-1 ldo7 resource name
 49ca6153208f6efc409c1deb82dd5bcbb519d7e1 bpf: Relicense disassembler as GPL-2.0-only OR BSD-2-Clause
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
 aeef8b5089b76852bd84889f2809e69a7cfb414e x86/pat: Pass valid address to sanitize_phys()
@@ -1028,5 +1027,28 @@ ca3cef466feaaf296c8519e2cc5ccf6565e3e7e9 Merge tag 'ext4_for_linus_stable' of gi
 1a81cd91f1375b84230d87c334ab2ef506420377 watchdog: ixp4xx_wdt: Fix address space warning
 2d7a0e18ce0138bd6aa5e41cd0559fed860581f7 watchdog: sbsa: drop unneeded MODULE_ALIAS
 be3f5216b903ff5b0f34e0bc01bae518a233dbed Revert "watchdog: iTCO_wdt: Account for rebooting on second timeout"
+99194807b0c179901cf945cd8837f6a18a2b8d94 watchdog: remove dead iop watchdog timer driver
+a27b439c95041bb34d8f0f5d3a38bb3c1dc46a96 watchdog: stm32_iwdg: drop superfluous error message
+d0290b603938fc04c00c4c3edd0a20f4a213f448 watchdog: f71808e_wdt: fix inaccurate report in WDIOC_GETTIMEOUT
+c4431fd0d1c35db53c3d3dc240f27ca22c82a63f watchdog: f71808e_wdt: remove superfluous global
+7f977b5bb1c1c75152ea111878a33c68cea7b952 watchdog: f71808e_wdt: constify static array
+614bb5d59a0462f10868d026e36b9b0038c1f6ac watchdog: f71808e_wdt: rename variant-independent identifiers appropriately
+9c95f67b697b03250b056776022f712331c230ad watchdog: f71808e_wdt: migrate to new kernel watchdog API
+99ae762c199e8f564b3ed1080f2d3ba08a37a4a4 watchdog: f71808e_wdt: refactor to platform device/driver pair
+1f151f2546fc6760d3c6677940372a586658ca7f watchdog: f71808e_wdt: dynamically allocate watchdog driver data
+bad0b7836eb0a3661077db90735829cf2c2980a5 watchdog: da9062: da9063: prevent pings ahead of machine reset
+ee1aeb6381451dcf7e184e7852effd3067bf44a6 watchdog: meson_gxbb_wdt: add nowayout parameter
+6fb3b428cab3c49243377f68fd7256cc9ff5e8cc watchdog: meson_gxbb_wdt: add timeout parameter
+80e90b9dd631e5d4465bbb354a8e15874615b213 dt-bindings: watchdog: sunxi: Add compatibles for R329
+be1b5a6519510962713bd40e793d9b8c27f14897 watchdog: ar7: fix kernel builds for compiler test
+518d900ce14442c282d0dc586ba055b62acf2437 dt-bindings: watchdog: sunxi: Add compatibles for D1
+7f1d6ec37711b5f3e17353973ca75a54cabb3b9e watchdog: sunxi_wdt: Add support for D1
+c6416cf04b2d009cdda2ac2d8cd339ce84128570 watchdog: ar7_wdt: Make use of the helper function devm_platform_ioremap_resource_byname()
+7f28313ac75da76262a758c1f5dfa617f0be9de9 watchdog: iTCO_wdt: Make use of the helper function devm_platform_ioremap_resource()
+12931c1589fad1a3204fceec1f90c14b7d5a31e8 watchdog: rti-wdt: Make use of the helper function devm_platform_ioremap_resource()
+fe896c6f5c6de1542b3384642b89ec5bbcc9c97b watchdog: mlx-wdt: Use regmap_write_bits()
+d942b5ef1390a8d94dff2fca4768c1a40131e92d watchdog: rza_wdt: Use semicolons instead of commas
+760087ab0f2089a8ebfbb48054bb68095f80ed0b dt-bindings: watchdog: mtk-wdt: add disable_wdt_extrst support
+9ba3edb8dd44b4253b7bdaf5d4a91f97df9370f0 watchdog: mtk: add disable_wdt_extrst support
 
---===============0631235066610609643==--
+--===============5827992732779709225==--
