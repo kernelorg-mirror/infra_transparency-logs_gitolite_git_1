@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 08 Oct 2021 16:24:42 -0000
-Message-Id: <163371028298.32496.13287265160915225862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 08 Oct 2021 16:34:04 -0000
+Message-Id: <163371084497.5690.9923831534242808079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 95f7f3e7dc6bd2e735cb5de11734ea2222b1e05a
-    new: 1b1499a817c90fd1ce9453a2c98d2a01cca0e775
+  - ref: refs/heads/for-kernelci
+    old: d680be59dd3063308ce7a0828b53683f81533231
+    new: f7296306098662beeec45001fb949d2f9f4239d3
     log: |
-         1b1499a817c90fd1ce9453a2c98d2a01cca0e775 nfc: nci: fix the UAF of rf_conn_info object
+         81de60b03a22a36ab920948a6584aa6ec05fe88f ARM: memcpy: use frame pointer as unwind anchor
+         e6de6ae22d0dda40410293800402602207a9ce6b ARM: memmove: use frame pointer as unwind anchor
+         2fefdffba55781c2e2fcc0681794f055b91087a6 ARM: memset: clean up unwind annotations
+         f7296306098662beeec45001fb949d2f9f4239d3 ARM: unwind: disregard unwind info before stack frame is set up
          
