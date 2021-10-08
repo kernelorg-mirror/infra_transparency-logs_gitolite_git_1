@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 08 Oct 2021 09:54:17 -0000
-Message-Id: <163368685717.6917.9584560451138811588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 08 Oct 2021 10:16:51 -0000
+Message-Id: <163368821119.20645.13361792501987618619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 908d969f88bfcf6d8538a0159e502567c7678775
-    new: d298b03506d3e161f7492c440babb0bfae35e650
-    log: |
-         d298b03506d3e161f7492c440babb0bfae35e650 x86/fpu: Restore the masking out of reserved MXCSR bits
-         
+  - ref: refs/tags/efi-next-for-v5.16
+    old: 0000000000000000000000000000000000000000
+    new: c5c88dd6abc238562ae80f20a813b354f5c271f6
+  - ref: refs/tags/efi-urgent-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 2b5690689fd1711c6e91c054f1e2be413db7858f
