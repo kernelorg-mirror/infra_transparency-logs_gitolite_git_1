@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7504659886007754580=="
+Content-Type: multipart/mixed; boundary="===============0404774941552100320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 08 Oct 2021 11:27:17 -0000
-Message-Id: <163369243730.1804.7340715203649093103@gitolite.kernel.org>
+Message-Id: <163369243747.1824.12358771050547417782@gitolite.kernel.org>
 
---===============7504659886007754580==
+--===============0404774941552100320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: e016eae29d2d14986f177fd8208d9ac0347da450
-    new: 7d769cc629ad98f5af7d44e0b70717708a7b323e
-    log: revlist-e016eae29d2d-7d769cc629ad.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 1c111a02b49d9e07f34e8f3a78089744e9d94519
+    new: 0cf6c1babdb51acc917475373133f5d05d584d35
+    log: revlist-1c111a02b49d-0cf6c1babdb5.txt
 
---===============7504659886007754580==
+--===============0404774941552100320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,41 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633692435 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1633692435-60e21371f150ac1bd92821e10d2b2dd9e28a202a
 
-e016eae29d2d14986f177fd8208d9ac0347da450 7d769cc629ad98f5af7d44e0b70717708a7b323e refs/heads/linux-4.14.y
+1c111a02b49d9e07f34e8f3a78089744e9d94519 0cf6c1babdb51acc917475373133f5d05d584d35 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFgKxMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lqMP/i3F6mnqNyAxpMQzyeP7
-hIEmUvxTylbkB8SAoVs6XLfZ9Y1q3Xk0Q7hv49WtXaRs9Z/VZtoNmYK1BD51g87T
-A0qLcO0qqmRrNwYQGJ2ZYVAwkw6ch9NB0LZ4vOHJfpUXJI6BUud5kiQ2p1Px+ReO
-vOA9y0sBAI+Bt60DuWOXZE8Jd4YwiH8lisV8Oydbctgiv0pejMowk6Ijr1Q6QDGa
-Qw6Gu0J97HtdLf1MX7cb0UZ8Np9aEP2Ukg3Cc9kBOPv51uqaOpL/s+3q8dGvlo91
-GeBDLj+C045ysPgRg5yNg6am/0rLxZlBXQoxQinTbNHvRTf0hzGPyTwL9GZp4iHp
-HWCGnT1TqtiQ2xp4GQxNdqLMuXo+fRi0UZlV/VRDejNorPNbLhyZONsHU8t+hjCI
-0cp5NJJ6xg0XbBN56yL90DDdnscRiv3O0TI5Ci1Yqalg6OKg9e0Nt8ll+2i/VhMr
-qkfVEU/W/dsiHJZQBhpHMwMD55vDTxISEJzCgaHN7rIPlefoYj3tWC7UMe6/GNTW
-JhVVo6Te1Il38Wuerlp5hfIsEcWldnskRs8pTsYrA41mThBcUf9JXaDgTsgkluwh
-KJQzo06KRaOMr9qCxqxJr4kUrl51Jtbl9cPjCBT46wtu0d/fyu+PCTVFcKiQFLl3
-ICu93HyuHxGDOZLOZwcxNg6z
-=ER0P
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lXEQAKylsDHkoeskzT3tqnEK
+fB9/gv+LuxvbjJyHMj1UxgGeX+tkp+BW/3dTU2NIa8K+qkY73LDsZ1VPPqUg7/uU
+5v+FEbSEvP54JCLoQYzpFCyade53Q5iFWKmC4L5qxJW1enz0lVXD3zPe3cIbxdCl
+fBYPO7qodg8KfjZKUDR9lPRreYAmeivYgFK4uqq+c8aiSCT1bCcYA2NmsADoEfHw
+n0t6eIx2xrm5+nXEbGaxgHv3BSiJqmarXV9kznVv6ktrq9irBD1mFNu7JgeyHmDr
+wqZXvjmhkuPvGU5RXNylPNKpJoei1XN1UyQA8ayPGYHeB69tTnwPM07gLjU8dc1K
+TlSSTdC23GMv8sREhb3kxKtpo1CwVUqZ2ExhjKCAbpf7ONZ0MvXsHXl0LdVJBOjc
+k1auif1TW6R3KxjUNteU3F15YPWVevNkKbsF49V6l5y6uC+BlcBjEgGqS141om6d
+CrO+k/PaR5JyN+HFt1L8/Cca7wBsCrQuwm9wsXOogP0Qmil1zEIoMxvKTYBurakW
+2+FEYG0lsQAlHHYqS/9MN+pkVMbAeZ+AdbkLTDSFf6zdeEsXXn1CEq1ywXKw+l1n
+UwPCjnyenPiG6BhicWePrHrQ6LMgoz/g+DzCmB2kVkz6ffiOoEsmkLv6fd+K/MWf
+66aaEvZzvCqUbreOFwkPKpC0
+=4N9U
 -----END PGP SIGNATURE-----
 
---===============7504659886007754580==
+--===============0404774941552100320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e016eae29d2d-7d769cc629ad.txt
+Content-Disposition: attachment; filename=revlist-1c111a02b49d-0cf6c1babdb5.txt
 
-3c6664ebff699d123a3cb69f6692c84506c65805 net: mdio: introduce a shutdown method to mdio device drivers
-f04b3d021d556db31fa2112cebaaaa12de7fb3cc xen-netback: correct success/error reporting for the SKB-with-fraglist case
-059bbc1cc8108afd7f3603018cbee29cc4ba10d5 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
-a9d373d2e4b631fe13e4adfe047792a5d39fa21f ext2: fix sleeping in atomic bugs on error
-71bddf23899db2044774a1671a4c5dfd63703729 scsi: sd: Free scsi_disk device via put_device()
-f1ae2f4626a8e2008b92c3b02745b34ad629a5c7 usb: testusb: Fix for showing the connection speed
-967758ed5f998993c9cac8faa3e45c47726cb006 usb: dwc2: check return value after calling platform_get_resource()
-48b8056fbab88142873c85a23f092dcb1809ef44 scsi: ses: Retry failed Send/Receive Diagnostic commands
-fe3d5f2b81f908e8ae314a32ef308f76b655a0ee libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD.
-14f66fcde84e0314d44e0837ee7a3b462488c31d lib/timerqueue: Rely on rbtree semantics for next timer
-7d769cc629ad98f5af7d44e0b70717708a7b323e Linux 4.14.250-rc1
+7aaa425a15aaca247f465bf2b022eb2cea10393f net: mdio: introduce a shutdown method to mdio device drivers
+09f14991a5333b56840795fdc5e1d989727c433c xen-netback: correct success/error reporting for the SKB-with-fraglist case
+44bb070a7a7f830506a15638deaae3f67dd1e981 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+e0fb705bb6ad4a453b053af72ba95d61baf7041f ext2: fix sleeping in atomic bugs on error
+d79334ce82a1e71a9551da6c1f99bea9bee727da scsi: sd: Free scsi_disk device via put_device()
+a491035f86974c3df1223fd28eaaad25f1be9eb3 usb: testusb: Fix for showing the connection speed
+66182ae8abdcc2cfe630f9f4a6d8ff7c18b0c3e2 usb: dwc2: check return value after calling platform_get_resource()
+72fe41e387bf5bb11fd4ed843106891eda178751 selftests: be sure to make khdr before other targets
+6de3313494cb03dc765a6941406186fed12db7e0 scsi: ses: Retry failed Send/Receive Diagnostic commands
+fce289008734d3efb4b5a89998880be047b3a27c tools/vm/page-types: remove dependency on opt_file for idle page tracking
+0962c2f2747cdb4e503059b71cc428f066f50f2c libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD.
+dbb41f0421af1753c582638ba7e9e03ea3a6c688 lib/timerqueue: Rely on rbtree semantics for next timer
+0cf6c1babdb51acc917475373133f5d05d584d35 Linux 4.19.210-rc1
 
---===============7504659886007754580==--
+--===============0404774941552100320==--
