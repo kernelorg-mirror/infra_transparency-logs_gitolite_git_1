@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3347912741038744903=="
+Content-Type: multipart/mixed; boundary="===============7843074922241671560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 08 Oct 2021 17:32:13 -0000
-Message-Id: <163371433359.11620.13092935538869521405@gitolite.kernel.org>
+Date: Fri, 08 Oct 2021 17:32:23 -0000
+Message-Id: <163371434396.11723.16922770980075205689@gitolite.kernel.org>
 
---===============3347912741038744903==
+--===============7843074922241671560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 44cc24b04bed578e32a4334cacf95799335b3274
-    new: 146e5e733310379f51924111068f08a3af0db830
-    log: revlist-44cc24b04bed-146e5e733310.txt
+  - ref: refs/heads/mlx5-queue
+    old: da7623a79f80734cbef4c30eede2a215781768bc
+    new: 0c808f661b81a89ab5fcce8ac6e1754b765b0ccd
+    log: revlist-da7623a79f80-0c808f661b81.txt
 
---===============3347912741038744903==
+--===============7843074922241671560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44cc24b04bed-146e5e733310.txt
+Content-Disposition: attachment; filename=revlist-da7623a79f80-0c808f661b81.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
@@ -366,5 +366,29 @@ d5ac07dfbd2b7f05d8ff43924dee2f09675dacb3 qed: Initialize debug string array
 94114d90037fe730bab5ea76d388bc294034fa39 net: mdio: ensure the type of mdio devices match mdio drivers
 2b12d51c4fa8dab6a879681cbf52f30e667c928c net: phylib: ensure phy device drivers do not match by DT
 146e5e733310379f51924111068f08a3af0db830 net-sysfs: try not to restart the syscall if it will fail eventually
+802afc0528d47b80f6f05253bdd51128a9bb0409 net/mlx5: CT: Fix missing cleanup of ct nat table on init failure
+0c917974aea3f0d8eb57f07a31e476a383cd435c net/mlx5: Support partial TTC rules
+251ea867e4def77d27efb8207c1fa233291c16a9 net/mlx5: Introduce port selection namespace
+aef270377f17537639778ccc1ed2097d06b33af8 net/mlx5: Add support to create match definer
+42c1a4c78b19e17d9fbb6b9267244635ffe7d303 net/mlx5: Introduce new uplink destination type
+c85f9f74f363a07a153be5998b05e03b20179ed8 net/mlx5: Lag, move lag files into directory
+eba5c18c788db9f3377983ea39cc47a9c2815203 net/mlx5: Lag, set LAG traffic type mapping
+ba1592340d7cc7471155e480056f7c0f3ec5b7c2 net/mlx5: Lag, set match mask according to the traffic type bitmap
+47c0c52cfc1848f9e72d06c39e42e3225ca350c0 net/mlx5: Lag, add support to create definers for LAG
+302c2830723fc37fb052748579072252b828f3c1 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+86c42408c65ccd9677c5c697615f1be6a3c83018 net/mlx5: Lag, add support to create/destroy/modify port selection
+fdda36e620d03ac66fee99599ae5595e53509329 net/mlx5: Lag, use steering to select the affinity port in LAG
+deb38f5abf91dfa95b9ed6fde84c202994177bff net/mlx5e: Switchdev representors are not vlan challenged
+ace0862721b0c9c51ef77401100b366b41b2d9a4 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+14fdf5300f222a52f988d764762f9381ca799a89 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+bedf2aab9cbca18a3ede3c4c0ae9442ac082462b net/mlx5e: Allow profile-specific limitation on max num of channels
+83a6754d80cd14ece4b0b7659ea7a63f4570a1f6 !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+837554aff2cfb9475a49b99d057501fc0979b718 net/mlx5e: Allocate per-channel stats dynamically at first usage
+1174facd541c7fa65094e58cb6843c541dc57530 net/mlx5: E-Switch, Use dynamic alloc for dest array
+fccbc96c34a9f80a53817c8a315adc76f1582c05 Merge branch 'patchq/414851' into mlx5-queue
+191bdddbed9708679b5d65539d768410233a3017 net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+af298d6599f855d851d3f1c1a6c177aa607b4267 Merge branch 'patchq/435099' into mlx5-queue
+d1b9f8e51c12e13b4d64cfcf40c3275cf5d85fa7 Merge branch 'patchq/432332' into mlx5-queue
+0c808f661b81a89ab5fcce8ac6e1754b765b0ccd Merge branch 'patchq/428803' into mlx5-queue
 
---===============3347912741038744903==--
+--===============7843074922241671560==--
