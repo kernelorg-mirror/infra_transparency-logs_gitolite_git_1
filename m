@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Oct 2021 04:55:19 -0000
-Message-Id: <163366891977.6654.10891983829692640967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Fri, 08 Oct 2021 05:04:15 -0000
+Message-Id: <163366945531.10758.5430308459414333841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
   - ref: refs/heads/for-next
-    old: 0eb4ef88c53f7169c44b1bd2ace5389981409a60
-    new: aa67fdb4643616f04cb59b6d090010c371ab1a80
+    old: e986277a56dae997258841d7a0e8083e315ac8b7
+    new: 69890d2c55f32ea8bd82379bc00fd5e90d2a2aa4
     log: |
-         aa67fdb4643616f04cb59b6d090010c371ab1a80 selftests/bpf: Skip the second half of get_branch_snapshot in vm
+         0b32c1b4071c482f2cf98b717cfc7380423ec619 ARM: dts: aspeed: mtjade: Add some gpios
+         f2a49850581bbc41ebfea64fba463b4b5604ceb6 ARM: dts: aspeed: p10bmc: Define secure boot gpio
+         f47093402f5956553edd3f62d5beaddd32f740e1 ARM: dts: aspeed: rainier: Add power-config-full-load gpio
+         13bc5082b19a268908fb5e6fe7c98b1741c7dfc6 ARM: dts: aspeed: Add TYAN S7106 BMC machine
+         69890d2c55f32ea8bd82379bc00fd5e90d2a2aa4 Merge branches 'defconfig-for-v5.16' and 'dt-for-v5.16' into for-next
          
