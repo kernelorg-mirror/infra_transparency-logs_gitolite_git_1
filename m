@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Fri, 08 Oct 2021 14:33:38 -0000
-Message-Id: <163370361842.26309.2681825324899243409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 08 Oct 2021 14:34:07 -0000
+Message-Id: <163370364716.26520.8839467955811917145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/tags/asm-generic-fixes-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 844d6ab1e4dcbc83008db7c38ce6dc1ae7ea2feb
+  - ref: refs/heads/v5.15-next/dts32
+    old: adfaea23878fb9541ed3fb39eb293929d50d5057
+    new: 1b17eee4d48df3c7aa90a6ec2c9b53adaaa6776f
+    log: |
+         1b17eee4d48df3c7aa90a6ec2c9b53adaaa6776f dt-bindings: arm: Add MT6589 Fairphone 1
+         
