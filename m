@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Fri, 08 Oct 2021 17:21:50 -0000
-Message-Id: <163371371002.5600.6044670378133079688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 08 Oct 2021 17:24:15 -0000
+Message-Id: <163371385537.6354.16785312008442254349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 2fc3551b831260d83761c26753e3e1c5e65511e2
-    new: 3f66f86bfed33dee2e9c1d0e14486915bb0750b0
+  - ref: refs/heads/master
+    old: 48e7c0bd503f88123a23c6057af8b7675113f64b
+    new: 24d479053750ed1f254f3886a542bd8c97c38cbd
     log: |
-         0258b5fd7c7124b87e185a1a9322d2c66b1876b7 coredump: Limit coredumps to a single thread group
-         3f66f86bfed33dee2e9c1d0e14486915bb0750b0 per signal_struct coredumps
+         24d479053750ed1f254f3886a542bd8c97c38cbd eapol: support extended key IDs
          
