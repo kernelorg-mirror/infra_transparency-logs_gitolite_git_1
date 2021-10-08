@@ -1,37 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 08 Oct 2021 20:00:29 -0000
-Message-Id: <163372322997.8753.15395245234619609676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 08 Oct 2021 20:08:13 -0000
+Message-Id: <163372369343.12379.10902284787300348621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/tags/for-5.16-clk
-    old: 0000000000000000000000000000000000000000
-    new: 65295c5a11a22f67469fefeb2edb75d20c86dae5
-  - ref: refs/tags/tegra-for-5.16-dt-bindings
-    old: 0000000000000000000000000000000000000000
-    new: fb12fde7a395f5340a8502a88c7ef19015e0a59d
-  - ref: refs/tags/tegra-for-5.16-firmware
-    old: 0000000000000000000000000000000000000000
-    new: 0c070f689a17f94dccdaca9e323d1919fa7f06c0
-  - ref: refs/tags/tegra-for-5.16-soc
-    old: 0000000000000000000000000000000000000000
-    new: 281adbe04f32fab944e1a176debfe0189094a43e
-  - ref: refs/tags/tegra-for-5.16-cpuidle
-    old: 0000000000000000000000000000000000000000
-    new: 9ec5c7c06768d5463d1ee0f2ddf69ec1bbc510bf
-  - ref: refs/tags/tegra-for-5.16-arm-dt
-    old: 0000000000000000000000000000000000000000
-    new: af487d934b7b43e509f8d07a3bf451f48e8c0305
-  - ref: refs/tags/tegra-for-5.16-arm64-dt
-    old: 0000000000000000000000000000000000000000
-    new: 031c34348bff0a6f18a4609e3548595a8f74292c
-  - ref: refs/tags/tegra-for-5.16-arm64-defconfig
-    old: 0000000000000000000000000000000000000000
-    new: d62d3c588c615884fa1746b5c9bc27f27124d8d1
+  - ref: refs/heads/erofs/readmore
+    old: 437d9ede9ae7dac7ff77d69bb44530ecd36f5070
+    new: 05662df4fb1be9fee14559b970c52af0c8875938
+    log: |
+         e1926e9ef629e273c7a554c59de486b85c96fb48 erofs: get compression algorithms directly on mapping
+         e5e3f563d5d1cc750431891316f46eb66cc164c3 erofs: introduce the secondary compression head
+         05662df4fb1be9fee14559b970c52af0c8875938 erofs: introduce readmore decompression strategy
+         
