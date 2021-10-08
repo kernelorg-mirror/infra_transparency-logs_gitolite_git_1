@@ -1,68 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2561875761594325850=="
+Content-Type: multipart/mixed; boundary="===============8541745492863413114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 08 Oct 2021 18:49:31 -0000
-Message-Id: <163371897197.27618.11423534998320304029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 08 Oct 2021 18:49:39 -0000
+Message-Id: <163371897905.27705.16397622521701135286@gitolite.kernel.org>
 
---===============2561875761594325850==
+--===============8541745492863413114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.16
-    old: 06a0fc36a5292ad35ee5768be110b5453a639c1d
-    new: cacbce45f5df9840f672129bdccd3f3e02343c0e
-    log: revlist-06a0fc36a529-cacbce45f5df.txt
+  - ref: refs/heads/for-5.16
+    old: 1d2104f21618a4cea8555dd4683529e9fbb829a9
+    new: 636bdb5f84ca0a8a79e5ad6c368277a73fb04a42
+    log: |
+         19cd2b1471878ec30375f88a467f63db08407c47 regulator: dt-bindings: maxim,max8973: convert to dtschema
+         b16bef60a9112b1e6daf3afd16484eb06e7ce792 regulator: s5m8767: do not use reset value as DVS voltage if GPIO DVS is disabled
+         a7fda04bc9b6ad9da8e19c9e6e3b1dab773d068a regulator: dt-bindings: samsung,s5m8767: correct s5m8767,pmic-buck-default-dvs-idx property
+         1790cd3510cbd1f3f6217e5d9315f6dee369a690 dt-bindings: clock: samsung,s2mps11: convert to dtschema
+         ea98b9eba05ca01f9f6ef6f1ff74ec530884148a regulator: dt-bindings: samsung,s2m: convert to dtschema
+         a52afb0f54faae0366575d47cbd85165ce34deda regulator: dt-bindings: samsung,s2mpa01: convert to dtschema
+         fab58debc137f66cf97f60c8471ff2f1e3e1b44b regulator: dt-bindings: samsung,s5m8767: convert to dtschema
+         636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 Merge series "regulator/mfd/clock: dt-bindings: Samsung S2M and S5M to dtschema" from Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>:
+         
 
---===============2561875761594325850==
+--===============8541745492863413114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1633718970 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1633718969-12da43bbb8ea9991ef5d0cbc58354b09030db50d
+pusher Mark Brown <broonie@kernel.org> 1633718977 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1633718976-2454bc05b34e8a55d72c164479394699d4479405
 
-06a0fc36a5292ad35ee5768be110b5453a639c1d cacbce45f5df9840f672129bdccd3f3e02343c0e refs/heads/asoc-5.16
+1d2104f21618a4cea8555dd4683529e9fbb829a9 636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 refs/heads/for-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFgkroTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0FTyB/4q9tnWCzXrEw/WvUZx5/fGJsD0hCAg
-cZ/3jxfH80DbhKrc6t11LGjLUTkpDgOdLfyA1aKjPKFr0mEugyZVWREGFO63EznD
-pvT6M30Vn1VkS3inmDIsv4Mz/nWFs4ySboUfyF1PC3N2pt2nLA0zzpDlO1Y8Okw+
-UMfs58r6wX2+msi4DUswFB1W7uXTJymX+lBe/TxCuNoZxpzU4F5I4XAnyhwJuRLc
-aPmk/WY7OvzCjV7ki2G/KDlOAPPJcxxwM1sx2jctcgEAQBV6L35Om76ROEBET7Vc
-2Fbmv2an7+6gQwXBun0u90eSGbkcBTt9PvGTin52rHAglbNKt0fM1pCA
-=Fc1q
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFgksETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0O15B/91aO+AAM0ardVU37kCdNIOwB5uzWqP
+TbjguIi3KXdfkAxpGsXX4AklUQoKEE0cFL3jyRweiOgrjQQpBgbioYxsPHhmRUAc
+Anqh692fs+8bmHOi+jd5f0TbX8uBs7v5Bqo8eMSCy8qhThnP6i9BC4nFY8y2+oOi
+4oUy6iUCCR4UiJFAuF9u+mXpmzC0M9yDsDKEVkgunjoEKx6GqRQgxR4VSamcEsOl
+IauV0XVipEK2MbkbdZzKj7sMRxMb+YFNB/tXri72FaVRTQ9dgib8qYi7siNaNaFF
+3bXghb9a6Bl4v4Jq+t514q3lIgPNfMBe+ryRyL8JPGWwlAoUcrbqZc+s
+=jy6Z
 -----END PGP SIGNATURE-----
 
---===============2561875761594325850==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06a0fc36a529-cacbce45f5df.txt
-
-126a76ada98f17c7f4ed1cc8b8e0429c574924e5 ASoC: dt-bindings: rt9120: Add initial bindings
-f218b5e2662c261c6acce5036ad4067669e51eac ASoC: rt9120: Add rt9210 audio amplifier support
-5f6c1341d1b56f89aa1d5fa6e51ccb796079f3b4 ASoC: Intel: bytcht_es8316: Get platform data via dev_get_platdata()
-e8ccf82b8a573c543a5356f503cf2edb66cccb6f ASoC: Intel: bytcht_es8316: Use temporary variable for struct device
-4e03b1b772ba33ea72e40918819b5e65a30a6eb6 ASoC: Intel: bytcht_es8316: Switch to use gpiod_get_optional()
-bea03a328f974923ad09e86842068a4678421674 ASoC: Intel: bytcht_es8316: Utilize dev_err_probe() to avoid log saturation
-c861af7861aac72075046e9932c606c8cfe64427 ASoC: dt-bindings: mediatek: mt8192: re-add audio afe document
-febf5da81ea80fa01e141e3ad35526865681418b ASoC: SOF: prepare code to allocate IPC messages in fw_ready
-04a32383f84e73d8a52558b843d221bf670da606 Merge series "ASoC: Intel: bytcht_es8316: few cleanups" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
-4dbdda1938fcf3e7e0884360d9f15165c5aa65e3 Merge series "ASoC: rt9120: Add Richtek RT9120 supprot" from cy_huang <u0084500@gmail.com> ChiYuan Huang <cy_huang@richtek.com>:
-5245352588f5837961963e1da4ccb7ba7240e90b ASoC: mediatek: mt8195: update audsys clock parent name
-74daadc7fde5dc3326ba2158a60c1c028f2e19b9 ASoC: rockchip: i2s-tdm: Remove call to rockchip_i2s_ch_to_io
-cacbce45f5df9840f672129bdccd3f3e02343c0e ASoC: rockchip: i2s-tdm: Fix error handling on i2s_tdm_prepare_enable_mclk failure
-
---===============2561875761594325850==--
+--===============8541745492863413114==--
