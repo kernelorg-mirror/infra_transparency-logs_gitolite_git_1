@@ -1,46 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0989013476843940541=="
+Content-Type: multipart/mixed; boundary="===============8294849030078086407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 08 Oct 2021 18:51:15 -0000
-Message-Id: <163371907526.30159.8794942273985881452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 08 Oct 2021 19:13:36 -0000
+Message-Id: <163372041638.9748.9410622912176799361@gitolite.kernel.org>
 
---===============0989013476843940541==
+--===============8294849030078086407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-linus
-    old: 98b46c656e8a1352731471caa1fb4eb63da1c00a
-    new: 393cc784d14dd36b9d22429283ba421217190380
-    log: |
-         393cc784d14dd36b9d22429283ba421217190380 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
-         
-  - ref: refs/heads/for-next
-    old: 5084f65d96a02c03f444092d2954737b405c6440
-    new: fabe706a7586c9dded54cfd60bf2b28fe12fb3be
-    log: revlist-5084f65d96a0-fabe706a7586.txt
+  - ref: refs/heads/master
+    old: 7e3cbd3405cb7b6c036b8984baa694bc55c08e46
+    new: 1c8dab7da1d27a474721a789777af82edf2085c1
+    log: revlist-7e3cbd3405cb-1c8dab7da1d2.txt
 
---===============0989013476843940541==
+--===============8294849030078086407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5084f65d96a0-fabe706a7586.txt
+Content-Disposition: attachment; filename=revlist-7e3cbd3405cb-1c8dab7da1d2.txt
 
-19cd2b1471878ec30375f88a467f63db08407c47 regulator: dt-bindings: maxim,max8973: convert to dtschema
-b16bef60a9112b1e6daf3afd16484eb06e7ce792 regulator: s5m8767: do not use reset value as DVS voltage if GPIO DVS is disabled
-a7fda04bc9b6ad9da8e19c9e6e3b1dab773d068a regulator: dt-bindings: samsung,s5m8767: correct s5m8767,pmic-buck-default-dvs-idx property
-1790cd3510cbd1f3f6217e5d9315f6dee369a690 dt-bindings: clock: samsung,s2mps11: convert to dtschema
-ea98b9eba05ca01f9f6ef6f1ff74ec530884148a regulator: dt-bindings: samsung,s2m: convert to dtschema
-a52afb0f54faae0366575d47cbd85165ce34deda regulator: dt-bindings: samsung,s2mpa01: convert to dtschema
-fab58debc137f66cf97f60c8471ff2f1e3e1b44b regulator: dt-bindings: samsung,s5m8767: convert to dtschema
-636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 Merge series "regulator/mfd/clock: dt-bindings: Samsung S2M and S5M to dtschema" from Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>:
-393cc784d14dd36b9d22429283ba421217190380 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
-fabe706a7586c9dded54cfd60bf2b28fe12fb3be Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
+b79c2ce3baa99beea7f8410ce3154cc23e26dbd8 libbpf: Skip re-installing headers file if source is older than target
+c66a248f1950d41502fb67624147281d9de0e868 bpftool: Remove unused includes to <bpf/bpf_gen_internal.h>
+f012ade10b34c461663bc3dd957636be06804b0d bpftool: Install libbpf headers instead of including the dir
+1478994aad82810d833bf9c816fb4e9845553e9b tools/resolve_btfids: Install libbpf headers when building
+be79505caf3f99a2f9cca5946261085b333f7034 tools/runqslower: Install libbpf headers when building
+bf60791741d430e8a3e2f8b4a3941d392bf838c2 bpf: preload: Install libbpf headers when building
+7bf731dcc641f7d7c71d1932678e0de8ea472612 bpf: iterators: Install libbpf headers when building
+62fde1c8beaf743ea1ab437757ede358f279515d samples/bpf: Update .gitignore
+3f7a3318a7c60947e27be372950840a5eab976d0 samples/bpf: Install libbpf headers when building
+a60d24e7400247bf21cac451f28961ac800756c6 samples/bpf: Do not FORCE-recompile libbpf
+87ee33bfdd4f74edc1548c7f0140800cfcc33039 selftests/bpf: Better clean up for runqslower in test_bpftool_build.sh
+d7db0a4e8d95101ebb545444578ba7085c270e5f bpftool: Add install-bin target to install binary only
+1c8dab7da1d27a474721a789777af82edf2085c1 Merge branch 'install libbpf headers when using the library'
 
---===============0989013476843940541==--
+--===============8294849030078086407==--
