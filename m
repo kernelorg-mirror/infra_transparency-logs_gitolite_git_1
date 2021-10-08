@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 08 Oct 2021 09:45:52 -0000
-Message-Id: <163368635294.1499.9976824017179929507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 08 Oct 2021 09:54:17 -0000
+Message-Id: <163368685717.6917.9584560451138811588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/kvm-arm64/pkvm-vcpu-state-WIP
-    old: d6cf91053f7141995c4293578a644cf964d20c74
-    new: 172fc4c9f973164c2a82fb32ca3d7ae7ec47fae7
+  - ref: refs/heads/x86/urgent
+    old: 908d969f88bfcf6d8538a0159e502567c7678775
+    new: d298b03506d3e161f7492c440babb0bfae35e650
     log: |
-         bc149110c780f719b5ccf5dbcef266bc9fae1515 KVM: arm64: Turn __KVM_HOST_SMCCC_FUNC_* into an enum (mostly)
-         172fc4c9f973164c2a82fb32ca3d7ae7ec47fae7 KVM: arm64: Merge vmcr/apr save/restore
+         d298b03506d3e161f7492c440babb0bfae35e650 x86/fpu: Restore the masking out of reserved MXCSR bits
          
