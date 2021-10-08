@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 08 Oct 2021 18:12:28 -0000
-Message-Id: <163371674820.3613.17480748092863488104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 08 Oct 2021 18:15:30 -0000
+Message-Id: <163371693093.6022.4122403348006372493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/pending
-    old: ed97afb53365cd03dde266c9644334a558fe5a16
-    new: 91a45b12d49e2b43d86caba25ed59fae43344ab8
+  - ref: refs/heads/master
+    old: dd65acf72d0e073970459d5da80573a04304aaa9
+    new: 7e3cbd3405cb7b6c036b8984baa694bc55c08e46
     log: |
-         91a45b12d49e2b43d86caba25ed59fae43344ab8 cxl/acpi: Do not fail cxl_acpi_probe() based on a missing CHBS
+         7e3cbd3405cb7b6c036b8984baa694bc55c08e46 selftests/bpf: Fix btf_dump test under new clang
          
