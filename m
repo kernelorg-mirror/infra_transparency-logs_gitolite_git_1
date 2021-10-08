@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8541745492863413114=="
+Content-Type: multipart/mixed; boundary="===============7109996198667913078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 08 Oct 2021 18:49:39 -0000
-Message-Id: <163371897905.27705.16397622521701135286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 08 Oct 2021 18:49:46 -0000
+Message-Id: <163371898669.27898.15334054378841739426@gitolite.kernel.org>
 
---===============8541745492863413114==
+--===============7109996198667913078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/regulator-5.16
     old: 1d2104f21618a4cea8555dd4683529e9fbb829a9
     new: 636bdb5f84ca0a8a79e5ad6c368277a73fb04a42
     log: |
@@ -30,28 +30,28 @@ changes:
          636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 Merge series "regulator/mfd/clock: dt-bindings: Samsung S2M and S5M to dtschema" from Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>:
          
 
---===============8541745492863413114==
+--===============7109996198667913078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1633718977 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1633718976-2454bc05b34e8a55d72c164479394699d4479405
+pusher Mark Brown <broonie@kernel.org> 1633718984 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633718984-84131d37be37bca0c9080b713b3c781d2fbdea9c
 
-1d2104f21618a4cea8555dd4683529e9fbb829a9 636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 refs/heads/for-5.16
+1d2104f21618a4cea8555dd4683529e9fbb829a9 636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 refs/heads/regulator-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFgksETHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0O15B/91aO+AAM0ardVU37kCdNIOwB5uzWqP
-TbjguIi3KXdfkAxpGsXX4AklUQoKEE0cFL3jyRweiOgrjQQpBgbioYxsPHhmRUAc
-Anqh692fs+8bmHOi+jd5f0TbX8uBs7v5Bqo8eMSCy8qhThnP6i9BC4nFY8y2+oOi
-4oUy6iUCCR4UiJFAuF9u+mXpmzC0M9yDsDKEVkgunjoEKx6GqRQgxR4VSamcEsOl
-IauV0XVipEK2MbkbdZzKj7sMRxMb+YFNB/tXri72FaVRTQ9dgib8qYi7siNaNaFF
-3bXghb9a6Bl4v4Jq+t514q3lIgPNfMBe+ryRyL8JPGWwlAoUcrbqZc+s
-=jy6Z
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFgksgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0ATDB/9YL992BXExQrdn9Eafyrbf2oJYot/9
+lLy79F9t+SRJ8gen4lRf/67xz+OD6vW/ldB1gRS/kFCu1ZK4zAXqh5DTcfn7YArT
+wV2pgSnm5YRPodrJYQxe/UYgfKAjk48zjmtHUiL+7OOG/u5z62IT6pCuVdrCnaZy
+w7WRFu1qA9c7qJJ6qVs/8EOVGSjSYTDCmm1LVtmY5lfIB40xYY0AURrN6YPY+Ni8
+xUCtV9DUT0JR6xxFefv0GAIgp0Zqm8KVyZBkcYAD2zIxY6cg07Z4gY63Pxdgv0t8
+ASc1bLdg9IsNK4QgCkvsFwwzBfN08hX4KST/DzfomWwO8b2jAe8LxOlo
+=F7q4
 -----END PGP SIGNATURE-----
 
---===============8541745492863413114==--
+--===============7109996198667913078==--
