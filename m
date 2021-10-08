@@ -1,31 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0921232760306302487=="
+Content-Type: multipart/mixed; boundary="===============7231235861185665664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 08 Oct 2021 06:36:10 -0000
-Message-Id: <163367497088.3775.18424987922245529807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Fri, 08 Oct 2021 06:36:30 -0000
+Message-Id: <163367499026.3918.14431563962326931389@gitolite.kernel.org>
 
---===============0921232760306302487==
+--===============7231235861185665664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: cdff1eda69326fb46de10c5454212b3efcf4bb41
-    new: f38d3e404326aa878e488120fbfbd1e8e21d2d19
-    log: revlist-cdff1eda6932-f38d3e404326.txt
+  - ref: refs/heads/for-backlight-next
+    old: 79fad92f2e596f5a8dd085788a24f540263ef887
+    new: 563edf85ce18a90dd0a7b39e279a691d937205f6
+    log: revlist-79fad92f2e59-563edf85ce18.txt
 
---===============0921232760306302487==
+--===============7231235861185665664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdff1eda6932-f38d3e404326.txt
+Content-Disposition: attachment; filename=revlist-79fad92f2e59-563edf85ce18.txt
 
+d6043581e1d9d0507a8413a302db0e35c8506e0e drm/amdkfd: drop process ref count when xnack disable
+48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
+7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
+866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
+8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
+47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
+32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
+205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
+c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
+bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
 66abf5fb4cf713c6fdfccfbbabdcdf834f8bb9e2 net/sun3_82586: Fix return value of sun3_82586_probe()
 3f22bb137eb03ab27eaaa8b40d3e072eb541444e ipv6: change return type from int to void for mld_process_v2
 025efa0a82dfa79ac2b126f622ba9244f795e707 selftests: add simple GSO GRE test
@@ -594,6 +616,7 @@ b58da2d270dbcc67db73f15028774d27c85e16d7 nvme: update keep alive interval when k
 041bd1a1fc737cd73b0b8a9f74909191a8acc9fe nvme: only call synchronize_srcu when clearing current path
 ab3994f6efba95e0832dc9e68c088b2d7ae764b8 nvme: add error handling support for add_disk()
 aff959c2840858d55d9ee155d555b3aa7e068b32 nvme: update MAINTAINERS email address
+c2f24933a18ac9098a758cb3edfff6503ed5c55d dt-bindings: mfd: Add Broadcom CRU
 a8bbe0c9440561cb407cefc0b1def808c2c38431 dt-bindings: cpufreq: add bindings for MediaTek cpufreq HW
 8486a32dd484a7d7ec25295c7439094608f54915 cpufreq: Add of_perf_domain_get_sharing_cpumask
 4855e26bcf4d28956f3e33231b961610a0d4a72d cpufreq: mediatek-hw: Add support for CPUFREQ HW
@@ -661,6 +684,8 @@ ab108678195ff70edf50025379a5de94b0bb26be Input: mms114 - support MMS134S
 644d0a5bcc3361170d84fb8d0b13943c354119db can: c_can: fix null-ptr-deref on ioctl()
 cca62758ebdd71fcfb6d589d6487a7f26398d50d dma-buf: DMABUF_DEBUG should depend on DMA_SHARED_BUFFER
 87fd9ef47597b2fcee3264eb5f288410b9f376d5 dma-buf: DMABUF_SYSFS_STATS should depend on DMA_SHARED_BUFFER
+452d07413954ef38951cfd41507b310c3afccd93 mfd: syscon: Use of_iomap() instead of ioremap()
+cdff1eda69326fb46de10c5454212b3efcf4bb41 mfd: lpc_sch: Rename GPIOBASE to prevent build error
 be27a47a760e3ad8ce979a680558776f672efffd cxgb3: fix oops on module removal
 8f110f35f9629397ad40cf4c2a66c2c350fbd8ea Merge tag 'wireless-drivers-2021-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
 1c990729e19891bd586f9f28a290db2867bdcb0a Merge tag 'linux-can-fixes-for-5.15-20210907' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
@@ -1023,32 +1048,7 @@ d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-r
 c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
 b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
-6bc07a20444994ade28c9781ad133df733ba5e80 dt-bindings: mfd: Add Broadcom's MISC block
-de80ebd88b9ea5923804dbe98df91d976a1cd45c dt-bindings: mfd: brcm,cru: Add clkset syscon
-dcc24e936da224d21536493626b22e79886c8543 dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
-609506476b8eed6e2cdc867de87300c6bb2e45f8 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
-fe02eed5d203fd9b26a8bd9b523a67fc99cbe95a mfd: intel_pmt: Only compile on x86
-0996f75fbdf8e121766f5ea6c9259f132b10bd00 mfd: rk808: Add support for power off on RK817
-677c9aed74fd8769b2c1327a71163f0ffc807b77 mfd: da9063: Add support for latest EA silicon revision
-f5ee204646814165ad329f21052db8c05c5d17f4 dt-bindings: mfd: qcom,tcsr: Document ipq6018 compatible
-c0764872c1ff98308ddd3dfc5324b5c8a3a46ac7 mfd: sprd: Add support for SC2730 PMIC
-95c99b961e26f7e123554d76c588d50db58840b6 mfd: Kconfig: Fix typo in PMIC_ADP5520 from AD5520 to ADP5520
-ff61d3b212ccc668c15b70e6f6252831ee8880bd mfd: cros_ec: Drop unneeded MODULE_ALIAS
-e7e7d02ad837642773b9b31cec0d42ae6c943398 dt-bindings: mfd: logicvc: Add patternProperties for the display
-516e83636fce46d34aca49c9f0d481758c490aa7 mfd: sec-irq: Do not enforce (incorrect) interrupt trigger type
-5a6c0a689e028ca1c15a5c614d55077d1c808705 mfd: max77686: Do not enforce (incorrect) interrupt trigger type
-15e24f5ab1f44adb0cb041d3d74259610393360b mfd: max77693: Do not enforce (incorrect) interrupt trigger type
-6e0b813c6bbba94a6856be83c795f5f772c4ca2f mfd: max14577: Do not enforce (incorrect) interrupt trigger type
-4d74190d30c82e387621768a223ae90d7a334c1b mfd: intel-lpss: Add support for MacBookPro16,2 ICL-N UART
-9e16f49c8280a358f97649054336212958af0387 mfd: hi6421-spmi-pmic: cleanup drvdata
-8c3f1ab09e57d6bbee558e361ec99db47f39d2dc mfd: core: Add missing of_node_put for loop iteration
-6b1b35b4a6939b589dc06af84950426bc87e2936 dt-bindings: mfd: sprd: Add bindings for ums512 global registers
-4dfa671d46155e374d4b97d2f835cb9ea78c697a mfd: exynos-lpass: Describe driver in KConfig
-cc9165a12f6bed705d1dee5e7ab2609bd675846a mfd: altr_a10sr: Add SPI device ID table
-131bbf4925442d8c4c8a14d5eb05b009a4b81b23 mfd: cpcap: Add SPI device ID table
-887197e06685e27414ee24330fb1b440f7222577 mfd: sprd: Add SPI device ID table
-3265a4e7a6755f632dc9621d6cde655c727d2d44 mfd: qcom-pm8xxx: switch away from using chained IRQ handlers
-10a1edd7dea34d1f74bd45b50d626058b76847e5 dt-bindings: mfd: Convert X-Powers AC100 binding to a schema
-f38d3e404326aa878e488120fbfbd1e8e21d2d19 dt-bindings: mfd: Convert X-Powers AXP binding to a schema
+33a5471f8da976bf271a1ebbd6b9d163cb0cb6aa video: backlight: Drop maximum brightness override for brightness zero
+563edf85ce18a90dd0a7b39e279a691d937205f6 backlight: Propagate errors from get_brightness()
 
---===============0921232760306302487==--
+--===============7231235861185665664==--
