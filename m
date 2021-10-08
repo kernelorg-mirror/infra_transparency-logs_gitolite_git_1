@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Oct 2021 23:53:31 -0000
-Message-Id: <163373721192.24506.3597212252271237296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 08 Oct 2021 23:56:54 -0000
+Message-Id: <163373741481.26930.7268883574315876001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: e761523d0b407518d4812ada39957bd11227e95b
-    new: 6ed3f61e32007298a0dac406ad6d4e4b30cb3d54
+    old: 14132690860e4d06aa3e1c4d7d8e9866ba7756dd
+    new: 1f3e2e97c003f80c4b087092b225c8787ff91e4d
     log: |
-         6ed3f61e32007298a0dac406ad6d4e4b30cb3d54 net: tg3: fix redundant check of true expression
+         1f3e2e97c003f80c4b087092b225c8787ff91e4d isdn: cpai: check ctr->cnr to avoid array index out of bound
          
