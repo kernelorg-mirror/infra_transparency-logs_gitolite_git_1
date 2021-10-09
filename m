@@ -1,162 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============6003845297460124739=="
+Content-Type: multipart/mixed; boundary="===============4922986277786480700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 09 Oct 2021 14:21:44 -0000
-Message-Id: <163378930463.11513.9034654362707282507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 09 Oct 2021 14:39:24 -0000
+Message-Id: <163379036483.12010.11537468478840245878@gitolite.kernel.org>
 
---===============6003845297460124739==
+--===============4922986277786480700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 7d3cf883ffcbe22b93d57805f3bc54ba3e208769
-    new: aeeb8999846ecf6ac4f0329b079eddbc5930f8d4
-    log: |
-         31d4e3c339d26e5891aee759e9fa3d658b11c15a Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-         2de9ab8f1ad1bd87551414b27c3decb62cc0b144 USB: cdc-acm: fix racy tty buffer accesses
-         1388a29c67a441732d99235d09dca38d01e81e5b USB: cdc-acm: fix break reporting
-         6321d7d520c97a3b4e1b516a16e753c2ff625624 ovl: fix missing negative dentry check in ovl_rename()
-         96b910ebd4c180de7c8761cb9b5669f9533e05d8 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-         3399ba64f2f41518c4af543dacd688bbe19765a7 xen/balloon: fix cancelled balloon action
-         93ec4808755a0d87b37a56c2ab8636648a11f8b3 ARM: dts: omap3430-sdp: Fix NAND device node
-         aeeb8999846ecf6ac4f0329b079eddbc5930f8d4 ARM: dts: qcom: apq8064: use compatible which contains chipid
-         
-  - ref: refs/heads/queue/4.19
-    old: 85c5916d3e09e9149116fa6f2818c005029de536
-    new: 2ca4e64e8c5a6a9ad4a6920f7a413facc9bddd8d
-    log: |
-         0e926563dcf966fa24076245c7dd2808c695c5a7 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-         f5ba703ab10995a3ca81a1240792de4b75d18e3b USB: cdc-acm: fix racy tty buffer accesses
-         fd952bb78c71530343523b2e0f10f65843580542 USB: cdc-acm: fix break reporting
-         7776f56c4ad1394e0393d5155629fbd386dc0396 xen/privcmd: fix error handling in mmap-resource processing
-         0fef2ee7da0ce7026cc86165d23414f596e0e6ad ovl: fix missing negative dentry check in ovl_rename()
-         a24e6c4753112288923f40a098d830ab3335d849 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-         f8f89d3a2b376f1cbeed360d972a7f0785603dba xen/balloon: fix cancelled balloon action
-         4bd3f699f03e833f76b79ada1470d72d7642d962 ARM: dts: omap3430-sdp: Fix NAND device node
-         2ca4e64e8c5a6a9ad4a6920f7a413facc9bddd8d ARM: dts: qcom: apq8064: use compatible which contains chipid
-         
-  - ref: refs/heads/queue/4.4
-    old: 48948c2e6e12382395fb6078258de31c8efb4128
-    new: 1287660b4b8b76ceae530eb28f6006749fdd87d3
-    log: |
-         76cdfa6367dffa695f7f7a369068e8c7f3fcc681 USB: cdc-acm: fix racy tty buffer accesses
-         98ac98d9347ddad7dd7ad0919a4c2b38eb1969cc USB: cdc-acm: fix break reporting
-         1287660b4b8b76ceae530eb28f6006749fdd87d3 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-         
-  - ref: refs/heads/queue/4.9
-    old: 889beb2f08f6293e693178db28648b032454ed38
-    new: bd0bea7e3e6a60228ee96355c0cc0a4121a164ba
-    log: |
-         f60271aae0d8268ea256db689c395e5c3eb4260d Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-         22799779ef48bd376cd77553445afabc82b8af12 USB: cdc-acm: fix racy tty buffer accesses
-         6b8000ba262bb6f400e85e8d524a1c8eef155271 USB: cdc-acm: fix break reporting
-         dd072b861aed2adcfb9caf1e908699dad0f62142 ovl: fix missing negative dentry check in ovl_rename()
-         06a547efddb33bbe6870b50a2bae4f3c8ec7db0e nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-         bd0bea7e3e6a60228ee96355c0cc0a4121a164ba ARM: dts: omap3430-sdp: Fix NAND device node
-         
-  - ref: refs/heads/queue/5.10
-    old: bac35d0908e1f07c248f0b1bc92590c917d52648
-    new: a75c1456b71cae74274d38ae46ac75a001aee642
-    log: revlist-bac35d0908e1-a75c1456b71c.txt
-  - ref: refs/heads/queue/5.14
-    old: a2a301deb2d159439a8de633a55d7d0659373d95
-    new: 7fd4d3b2a2175144f4dbbfa0fec88b4fb9c0e99f
-    log: revlist-a2a301deb2d1-7fd4d3b2a217.txt
-  - ref: refs/heads/queue/5.4
-    old: 2f5c23aa9999f9b7f720d8932fbc8d1e46ac20e3
-    new: 5f9825691934d3283e23708f0018b09d10adb098
-    log: revlist-2f5c23aa9999-5f9825691934.txt
+  - ref: refs/heads/topic-rpc-with-tls
+    old: d5ed96c5217a03ffcd47ef447d4150401087ef81
+    new: bd3d710e662bfce017c30d364de140d3a16ed3f1
+    log: revlist-d5ed96c5217a-bd3d710e662b.txt
+  - ref: refs/tags/v5.10.72
+    old: 0000000000000000000000000000000000000000
+    new: 8a3699288efa98f4119659ec0f674eb94a620c62
 
---===============6003845297460124739==
+--===============4922986277786480700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bac35d0908e1-a75c1456b71c.txt
+Content-Disposition: attachment; filename=revlist-d5ed96c5217a-bd3d710e662b.txt
 
-4e7f490e01df8e891d3cac99a8a9179e114dee6a Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-6b0e5182f8ce8ddfce6cd2c1995bc65e2cb15e9c usb: chipidea: ci_hdrc_imx: Also search for 'phys' phandle
-fed420292b8b8a141f6356e5844df53cf14f1723 USB: cdc-acm: fix racy tty buffer accesses
-565cd40fd2546b0d7f35d3da53f0125c751118b7 USB: cdc-acm: fix break reporting
-4681413959a3408d22bfd711e806cc1c75d51a03 usb: typec: tcpm: handle SRC_STARTUP state if cc changes
-aa7a68e8cdcd58a7868172e0770a393992571f46 drm/nouveau/kms/tu102-: delay enabling cursor until after assign_windows
-9a8d8c70017b1002f2125fa695bf96b6b3781d58 xen/privcmd: fix error handling in mmap-resource processing
-bf81018d2606583049935c81ce9541afd14cfafc mmc: meson-gx: do not use memcpy_to/fromio for dram-access-quirk
-676731f15df68df5928a727bad2d6f01ca55c6c0 mmc: sdhci-of-at91: wait for calibration done before proceed
-765e15c182cb4484a3c10a246b3cafbb82d190c9 mmc: sdhci-of-at91: replace while loop with read_poll_timeout
-8cc4d95f36b64c3225bacf0ca2c4cc281c0d91b2 ovl: fix missing negative dentry check in ovl_rename()
-0a7f15ac32416c7fb1fa7e17500c4c32173560c3 ovl: fix IOCB_DIRECT if underlying fs doesn't support direct IO
-43d42134cedf48607f71d7bc8ee9619c35491494 nfsd: fix error handling of register_pernet_subsys() in init_nfsd()
-6fe790249dbb3e8425e58565773a46692815269d nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-6a45b6870dd3539b2a5d20cbba87ac9c5fc5ae3a SUNRPC: fix sign error causing rpcsec_gss drops
-e43307479e86e9253d26833570840b19d7ef8169 xen/balloon: fix cancelled balloon action
-3cc545c82c363c62ce17a5be1590510f372924ee ARM: dts: omap3430-sdp: Fix NAND device node
-6ba65143ea5983f5ea5e8b151f05cc98b61b973c ARM: dts: imx6dl-yapp4: Fix lp5562 LED driver probe
-a75c1456b71cae74274d38ae46ac75a001aee642 ARM: dts: qcom: apq8064: use compatible which contains chipid
+2ababcd8c2ababe7f11032b928b9e8ab35af5e8c spi: rockchip: handle zero length transfers without timing out
+e5611503249fd0cfa0c8262ee18cca39865ed972 platform/x86: touchscreen_dmi: Add info for the Chuwi HiBook (CWI514) tablet
+f986cf270284e0dff977d95b33deebb590708583 platform/x86: touchscreen_dmi: Update info for the Chuwi Hi10 Plus (CWI527) tablet
+83050cc23909ae7fe788af2ff67cfe314fb714cd nfsd: back channel stuck in SEQ4_STATUS_CB_PATH_DOWN
+50628b06e604401138c767b7b57600cbaae1597b btrfs: replace BUG_ON() in btrfs_csum_one_bio() with proper error handling
+63c89930d4b5f6205b4f4f13498a37cee86d80fa btrfs: fix mount failure due to past and transient device flush error
+a41938d07201d0e7793f5aade5574a49f32ae82f net: mdio: introduce a shutdown method to mdio device drivers
+fdfb3bc87381e46b43bb521dfa8b02628b38a955 xen-netback: correct success/error reporting for the SKB-with-fraglist case
+b114f2d18e0f97e2776ccfd877f88b3f30ba54a9 sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+76c7063c7405f30758876af25cfc5e9e39b7bc6e ext2: fix sleeping in atomic bugs on error
+60df9f55562a57173a11b6c7011eee40dfa48157 scsi: sd: Free scsi_disk device via put_device()
+ed6574d4846936a063940c2c7a552d0bce52dc49 usb: testusb: Fix for showing the connection speed
+2754fa3b73df7d0ae042f3ed6cfd9df9042f6262 usb: dwc2: check return value after calling platform_get_resource()
+6a4aaf1d84f75fc86961d5982f2b43d1897de1d3 habanalabs/gaudi: fix LBW RR configuration
+bcc4b4de63a44130608d9cb68aa8707c130163d2 selftests: be sure to make khdr before other targets
+c4506403e1f32fc41a83a693a0a8f9f0bc13e171 selftests:kvm: fix get_warnings_count() ignoring fscanf() return warn
+c251d023ed22732fa9b0c367240afe1187b4fa6f nvme-fc: update hardware queues before using them
+7a670cfb0f4cba692a2cc0caa60810986ceeab3d nvme-fc: avoid race between time out and tear down
+2e28f7dd3743bf8f386fa72b96e5da2898039df5 thermal/drivers/tsens: Fix wrong check for tzd in irq handlers
+8724a2a0e6d95242fd9e5c5dcffbd55ab4194b66 scsi: ses: Retry failed Send/Receive Diagnostic commands
+a7be240d1703784be96d23715a0b716a0d2fcc34 irqchip/gic: Work around broken Renesas integration
+84778fd66d3d48638d34512a4b496955ff6b0b86 smb3: correct smb3 ACL security descriptor
+352b02562a3e01a640bf7d242ebf61003cf93c59 tools/vm/page-types: remove dependency on opt_file for idle page tracking
+b8add3f47ae7fee564a941aa9ade3eb51ea997f0 selftests: KVM: Align SMCCC call with the spec in steal_time
+6d0ff920599960a22ea520afda99eed3096c0e12 KVM: do not shrink halt_poll_ns below grow_start
+ae34f26d4a8487e37ab9cfdca72f447c1ef49aa5 kvm: x86: Add AMD PMU MSRs to msrs_to_save_all[]
+b56475c29bd82589c5cab0c349476206ae7a2e40 KVM: x86: nSVM: restore int_vector in svm_clear_vintr
+02bf504bc32b2b29e0c30d1d55fb0a504962282b perf/x86: Reset destroy callback on event init failure
+387aecdab7facf7af40ff1ce8ba2d819b1f11829 libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD.
+5aa003b38148d584f20455ecac85c51187d0b71e Linux 5.10.72
+034e6192043daf646f36348bc1f11b988625e832 Port of Tempesta TLS handshakes to the Linux 5.10.68
+1ea7f4c649aa1b421dd6ace0f82542390a8027c8 Move the main TLS handshake header to /include/net/
+c7c7afe1bdf6f98ff1af45f8e66628b8f42981c4 Move headers, required for other modules, to include/net/tls/
+5f0828222932fa99afb7dd28dfc86d75ba819352 Initialize the TLS handshakes module together with kTLS.
+8d91477d7a91e5069ae59f0ee2275bf511b57ef5 SUNRPC: Add RPC_AUTH_TLS protocol numbers
+8858ed7ec293a6b29ca8b93480f7049b580bc01d SUNRPC: Add RPC client support for the RPC_AUTH_TLS authentication flavor
+168081550364090e04997f80d0050487e564b292 SUNRPC: Fail faster on bad verifier
+fcca40ae070b39f3f919bc44576b6f5ba47baa40 SUNRPC: Refactor rpc_call_null_helper()
+4a8b7662e2d86e09ac30e5093cadbe666aa778b3 SUNRPC: Add RPC_TASK_CORK flag
+ab3fbd204dcca447948a00ca88b389849cfa08eb SUNRPC: Add a cl_tls_policy field
+978204afa12908ccb862e5b4b06f606b3b0b9125 SUNRPC: Expose TLS policy via the rpc_create() API
+8b7dc67822c65c95f09598e8263a8fc20e005d53 SUNRPC: Add infrastructure for async RPC_AUTH_TLS probe
+bd7e7762c016d9c737886bdff5541e82371901d2 SUNRPC: Add FSM machinery to handle RPC_AUTH_TLS on reconnect
+7c3939c4f652502ae08e721a1ef28e558e0fd841 SUNRPC: Reject TLS_REQUIRED on xprts that don't support TLS
+2508f207802d8734a31706ba3011ca68e63d2b8d NFS: Replace fs_context-related dprintk() call sites with tracepoints
+15022199d24d135ff1becb91669afc7c945ed544 NFS: Have struct nfs_client carry a TLS policy field
+f3092bba7fa07287756807bb4983e3dbcbba8f46 NFS: Add a "tls=" NFS mount option
+bd3d710e662bfce017c30d364de140d3a16ed3f1 lockd: Pass "tls=" mount option setting to NLM
 
---===============6003845297460124739==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2a301deb2d1-7fd4d3b2a217.txt
-
-05c068fdf09149d2c0e3ef120c523112b3c134e2 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-32bd206a047dca7b41a94b8df4f295c6e41ddf22 usb: cdc-wdm: Fix check for WWAN
-7cd93ddfd668bf9f378983685dc42a39677648f3 usb: chipidea: ci_hdrc_imx: Also search for 'phys' phandle
-939da8a2653df679813d58e5ae4d81ca44df1af0 usb: gadget: f_uac2: fixed EP-IN wMaxPacketSize
-60e5b3147461f68a57890967e0cd4137282e6ee4 USB: cdc-acm: fix racy tty buffer accesses
-7d6356ab22c5e40caa7e6c465c103df286231a2a USB: cdc-acm: fix break reporting
-0c2cc3285920beae86593ada9a4ec1a2bafe623d usb: typec: tcpci: don't handle vSafe0V event if it's not enabled
-c772911f0e7e56b32d4ebc23863dc0cdcd383b1c usb: typec: tcpm: handle SRC_STARTUP state if cc changes
-d0b8b669955a7df24e7f71ff65f6deed28362889 usb: typec: tipd: Remove dependency on "connector" child fwnode
-6a33eabc0686c472d2afd55f5d3bf6b1616e3e41 drm/amd/display: Fix B0 USB-C DP Alt mode
-9b8a912304172d0d273d5cdf71ee36b22e973b4b drm/amd/display: USB4 bring up set correct address
-12479b0f869bac97318ac90df8d1921279776284 drm/amdgpu: During s0ix don't wait to signal GFXOFF
-a0457c5e4d6c2ca8b53616593e39a88c11b1d98b drm/nouveau/kms/tu102-: delay enabling cursor until after assign_windows
-2d1ec0eb77742d9b812068200018ee5be4e48cd2 drm/nouveau/ga102-: support ttm buffer moves via copy engine
-de52d505513cc37c309a753c60e74be156bcfc4b drm/amd/display: Limit display scaling to up to 4k for DCN 3.1
-a1b110dfb72600016275c6755ce564a3b8a79a2a drm/amd/display: Fix detection of 4 lane for DPALT
-246613255e5ef43cae51fd31064a25716f9a9b59 drm/amd/display: Fix DCN3 B0 DP Alt Mapping
-e34f13abfaa3b3b9ab817084db10df6d25af81f6 drm/i915: Fix runtime pm handling in i915_gem_shrink
-a3d5f8c506b049cd1a242e8bd9fd1766e4d22090 drm/i915: Extend the async flip VT-d w/a to skl/bxt
-30a8db500838824380074ffb3ee4ac517d22caa9 xen/privcmd: fix error handling in mmap-resource processing
-d9bd055b3bf246eed6cfb6d489e3bab5e06e1beb mmc: meson-gx: do not use memcpy_to/fromio for dram-access-quirk
-bc685fdc8ccb2a9405cd0a1ebbe88d08061e57d3 mmc: sdhci-of-at91: wait for calibration done before proceed
-1aeab1dde1b219119432745e24c5694f03aebc48 mmc: sdhci-of-at91: replace while loop with read_poll_timeout
-a3445503fd19d9f7f1edc5feed3d7b43c0f5978d fbdev: simplefb: fix Kconfig dependencies
-40509d9fdb1d4bb6c50176ca6558158db7018979 ovl: fix missing negative dentry check in ovl_rename()
-d4b0b8d923fb98ce91497a255b668e999b1b4dbb ovl: fix IOCB_DIRECT if underlying fs doesn't support direct IO
-385b638de7f5153bdca77b414952eb4fe332cfd8 nfsd: fix error handling of register_pernet_subsys() in init_nfsd()
-0225d6b0f5500c8295b6f11c835b0f4abc8f873f nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-e3f22fa8a33645ee5a93c34669d0ecb57207d981 SUNRPC: fix sign error causing rpcsec_gss drops
-9316d479dbc9862e647786c30a29fcfe0724df55 xen/balloon: fix cancelled balloon action
-2c403b5e406406944bf5c3036c62019621914305 ARM: dts: omap3430-sdp: Fix NAND device node
-b1648fd42f46d67248dfd9f2f92298cae0cec157 ARM: dts: imx6dl-yapp4: Fix lp5562 LED driver probe
-7fd4d3b2a2175144f4dbbfa0fec88b4fb9c0e99f ARM: dts: qcom: apq8064: use compatible which contains chipid
-
---===============6003845297460124739==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f5c23aa9999-5f9825691934.txt
-
-52af849ca10f2f618e6404d8cdb21b12da2c83b5 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-a0668babb809ef2d9d7e24766f8ed264ab90d75f USB: cdc-acm: fix racy tty buffer accesses
-0ddaa421f3f40c94984046c3b663a61e87cc2eae USB: cdc-acm: fix break reporting
-7f8bfd8ffd7579e0cf9337bb4e845c92cca2cb29 usb: typec: tcpm: handle SRC_STARTUP state if cc changes
-7073b05eb7ca83d00a34b69e566c01174360615d xen/privcmd: fix error handling in mmap-resource processing
-3abd3e5e981adeb0af095efbd7fc426970accb9e mmc: meson-gx: do not use memcpy_to/fromio for dram-access-quirk
-2e0a02261eaba4278f737fb456d6bb77519e2ee5 ovl: fix missing negative dentry check in ovl_rename()
-190379864f9f5ce3495e22ce507e09f34c6a872d nfsd: fix error handling of register_pernet_subsys() in init_nfsd()
-175e2993ba8f8cd4564d1bf94f4f4ea4956b9abe nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-681e810e06154f3dc11e9903e1f9a6a27cb05964 xen/balloon: fix cancelled balloon action
-036d21bfb5e2b8c14fbe23eeae65fd68065f3e5a ARM: dts: omap3430-sdp: Fix NAND device node
-5f9825691934d3283e23708f0018b09d10adb098 ARM: dts: qcom: apq8064: use compatible which contains chipid
-
---===============6003845297460124739==--
+--===============4922986277786480700==--
