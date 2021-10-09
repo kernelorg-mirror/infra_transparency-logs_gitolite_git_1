@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 09 Oct 2021 12:44:20 -0000
-Message-Id: <163378346086.18650.16787330488188997284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 09 Oct 2021 12:45:38 -0000
+Message-Id: <163378353803.5855.17979997759558289750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 6510e80a0b81b5d814e3aea6297ba42f5e76f73c
-    new: 1951b3f19cfe822709c890a337906823c223c7c3
+    old: ea52a0b58e41c3b2b9e97ff13fe0da9c9e430ea8
+    new: 7932d53162dc6550fc56b013da32c0975784647c
     log: |
-         1951b3f19cfe822709c890a337906823c223c7c3 net: dsa: hold rtnl_lock in dsa_switch_setup_tag_protocol
+         5ee61ad7d59300d568f7c3da45171f2a31d0c4d3 dt-bindings: net: dsa: fix typo in dsa-tag-protocol description
+         7932d53162dc6550fc56b013da32c0975784647c dt-bindings: net: dsa: document felix family in dsa-tag-protocol
          
