@@ -1,53 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7946279645775477124=="
+Content-Type: multipart/mixed; boundary="===============4036354617809837703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 09 Oct 2021 11:25:10 -0000
-Message-Id: <163377871027.22261.674778117493433871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 09 Oct 2021 11:25:26 -0000
+Message-Id: <163377872655.22409.13461088768204669510@gitolite.kernel.org>
 
---===============7946279645775477124==
+--===============4036354617809837703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.4.288
-    old: 0000000000000000000000000000000000000000
-    new: 8d0d510502816e8e2687f256e7e7a032f48a194c
+  - ref: refs/heads/linux-4.4.y
+    old: a123b2f4737a9f4e34e92e502972b6388f90133f
+    new: 1392fe82d7fba00ba4a8e01968935f2b2085d5a4
+    log: |
+         323f0968a81b082cf02ef15b447cd35e4328385e af_unix: fix races in sk_peer_pid and sk_peer_cred accesses
+         e24abee039fef6ede19be53ec922c327fe5f0f32 xen-netback: correct success/error reporting for the SKB-with-fraglist case
+         01c1f45a3c3480488f008506a132fb032fbd447d sparc64: fix pci_iounmap() when CONFIG_PCI is not set
+         f117a356fb0a11d8d2230305de3958216ca84770 ext2: fix sleeping in atomic bugs on error
+         d56459d361a9a99bead8b594635353053271356c scsi: sd: Free scsi_disk device via put_device()
+         afc6fe3518db2ca0b32770308bd663be61edc802 usb: testusb: Fix for showing the connection speed
+         c90cc2e3c60dace82b7b336bb84f40d4f93767f8 libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD.
+         1392fe82d7fba00ba4a8e01968935f2b2085d5a4 Linux 4.4.288
+         
 
---===============7946279645775477124==
+--===============4036354617809837703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633778709 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1633778709-087509c7128574922c7410f486db9c5d2610c8f5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633778725 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1633778722-ba3ab04dc71e20606c18626e367f7acf8ab39c85
 
-0000000000000000000000000000000000000000 8d0d510502816e8e2687f256e7e7a032f48a194c refs/tags/v4.4.288
+a123b2f4737a9f4e34e92e502972b6388f90133f 1392fe82d7fba00ba4a8e01968935f2b2085d5a4 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFhfBUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x68QAL5EzSg5tV01n57gq3Px
-5Lsc1ezIwP2G/Pg7jc/YAlGBUH2Y2PClXTiY4oFmfZ/cRru7n4FghidCyZ4UKWHY
-OUpH3ZDLcXFOdqckU6PK46LQr7GJaQEu0su24CUXUauyAPEQ1JnDgkHDqN80IoeM
-9U3Het0uoQ6068aGhiJc2/zAYqwnFd79/wnChiiywtbeCaybGQ1lbhoTxWLL4Oba
-d1mC/lO5MANUFtXO85/fUlGoxmfsHlW3B+qDJGeq0OhutKfCA9clETELsKoM1SsA
-oneEBvHFT1auxzzR9nXMeSoVBNfOHWGUNrhmYhyu+WOri8MXvDkQS9lF4XBmgVfx
-nvkphpWm+duEh3giM2uKQi3YngBRhgX38L0d4p+3KUie3fobkcVcGldV7b/FYO67
-nqbjZauHxL1gv3nh9/7I76XeIQKutTphUoQJkH5b/OQHvaE7Pmc1D0eM2sD4Rdbr
-7E9NxGNq47DJPPVwIC1i3nsMy9d9eEO7TfYOJnmPqWmPHbwvFHSTx4ELtplceutl
-u48uxpQSME1S8cHPf34vLo5jvTWnLuqjB0zRr0ZP8DBn8wTEFsH4812xXTJIMFrj
-XFvBZBJ/9jzyzL850U9liwJXuB75SQtjZAJmBLjRLif26nDPGI5dxSChNU1BlG6h
-w0pepHcV5wjFHXarGzu2kJEJ
-=ypgN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFhfCUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iQUP/24PoBWJOA5Ymb8kleja
+Qjf6mETGCkeoNozAQQSk4dGSbkAgdmeHo3Yh6INQJv16FFdJmdArVpl8HvX1Xv1d
+5g/9lnDXKWU2UkzJq63iTOUlPHOExofYPKX34rupNxL2AAmUY56EmeDJfcYHDuq9
+MxCLfDO7amkwf2OtXFYKaBP3v9LtRIG0OVNeORO61pcuh16toLkIflHjnckmb0JT
+vEdEInMPeMSpmIIyjG8x6sREke23GFh5GJqvMJ3vDJatfLpwST/XY3pf5n+s/bGo
+vOVublzFzgvLQMdeCPsdq9MRiAorpp4/WgfTEFK0c7w1GBI/IwQt+TDF/qKy+t5N
+QNhcmeiBYbNZAF8rHYUokd6ND5yt9dbd1ll+nIz0ec49Z+y4gKz9RRYB++IRKB+7
+1yVgWVlgbPRUiInJFwEcVlmdCJNzUANv4DCqD9YhvHpjDV+F1cz59a0phTJCjNRy
+K/xRAIjUM5lgVSdSaevvWOrdQ01bWZ1Zm5f0rTeJUFHOjS9VIQ2Pq8uGGuZxpKfO
+QgVgBZgta90+E4lOl+JNWzGGcqwPTtDZoVKlFDk9qhoTWxfde/El3EzJq/iY93by
+ViVkD7YAplpMEPKK1XPn4cRjiJjmUg5g0TcMi9ZX21yUkR6AmTWgEL43AvAeTWWB
+A5Md1+5zb+iY3eorWGXmww7X
+=uWXI
 -----END PGP SIGNATURE-----
 
---===============7946279645775477124==--
+--===============4036354617809837703==--
