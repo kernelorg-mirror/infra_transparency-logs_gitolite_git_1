@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 09 Oct 2021 00:19:57 -0000
-Message-Id: <163373879720.8393.17655424877590776484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 09 Oct 2021 00:20:01 -0000
+Message-Id: <163373880188.8577.7525355214767553963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1f3e2e97c003f80c4b087092b225c8787ff91e4d
-    new: be0499369d6376e70b5b80bbced94c0c32d508b1
+    old: e506342a03c777a8d56389ff2764617648562bcf
+    new: f12e658c620a925aba4caead54a05eb157728863
     log: |
-         be0499369d6376e70b5b80bbced94c0c32d508b1 net: mana: Fix error handling in mana_create_rxq()
+         f12e658c620a925aba4caead54a05eb157728863 mlxsw: item: Annotate item helpers with '__maybe_unused'
          
