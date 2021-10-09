@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1860125031470518889=="
+Content-Type: multipart/mixed; boundary="===============1025048149428849662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 09 Oct 2021 16:42:24 -0000
-Message-Id: <163379774422.24022.3226720120627805403@gitolite.kernel.org>
+Date: Sat, 09 Oct 2021 16:43:48 -0000
+Message-Id: <163379782840.24454.8262187422304092300@gitolite.kernel.org>
 
---===============1860125031470518889==
+--===============1025048149428849662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 146e5e733310379f51924111068f08a3af0db830
     new: 7932d53162dc6550fc56b013da32c0975784647c
     log: revlist-146e5e733310-7932d53162dc.txt
 
---===============1860125031470518889==
+--===============1025048149428849662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ ea52a0b58e41c3b2b9e97ff13fe0da9c9e430ea8 net: use dev_addr_set()
 5ee61ad7d59300d568f7c3da45171f2a31d0c4d3 dt-bindings: net: dsa: fix typo in dsa-tag-protocol description
 7932d53162dc6550fc56b013da32c0975784647c dt-bindings: net: dsa: document felix family in dsa-tag-protocol
 
---===============1860125031470518889==--
+--===============1025048149428849662==--
