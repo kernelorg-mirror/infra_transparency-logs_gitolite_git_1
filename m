@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0312022348511090128=="
+Content-Type: multipart/mixed; boundary="===============1169600436727149272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 10 Oct 2021 12:56:00 -0000
-Message-Id: <163387056085.14733.1233278955808566219@gitolite.kernel.org>
+Date: Sun, 10 Oct 2021 12:56:55 -0000
+Message-Id: <163387061519.15087.9944389175863703126@gitolite.kernel.org>
 
---===============0312022348511090128==
+--===============1169600436727149272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 33a47b9d848df6121934b2594827673f57aa1f60
-    new: 7198847ad5e8dc10226500896b8c0b4978b8164d
+    old: 7198847ad5e8dc10226500896b8c0b4978b8164d
+    new: 17402cb6eabdefab44855d4604ec767741f7cd43
     log: |
-         ca444fb2e500af5451500240ce67238e268d7964 staging: r8188eu: hal data's customer id is always 0
-         23b18275c6241370e6c9419eedcd263f2361fab2 staging: r8188eu: Odm PatchID is always 0
-         7198847ad5e8dc10226500896b8c0b4978b8164d staging: r8188eu: merge two signal scale mapping functions
+         461c4776856c1563839e0e092ea0196e33392648 staging: r8188eu: remove SetHwRegHandler from hal_ops
+         9c44c0f6da146f2ae2a7d84caacdef09acac2784 staging: r8188eu: remove GetHwRegHandler from hal_ops
+         b66d42066f64b1f5f27164e1afe2441b0fe377b0 staging: r8188eu: remove hal_init from hal_ops
+         5c78a7583c62c299fd829df2dfbd14762057134a staging: r8188eu: remove hal_ops
+         17402cb6eabdefab44855d4604ec767741f7cd43 staging: r8188eu: rename rtl8188eu_set_hal_ops()
          
 
---===============0312022348511090128==
+--===============1169600436727149272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633870559 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633870612 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1633870558-36000dd16847bfd84af33e9905000978bd1216d7
+nonce 1633870612-5499de9f58c0acb95efa2b5851731356bd21e448
 
-33a47b9d848df6121934b2594827673f57aa1f60 7198847ad5e8dc10226500896b8c0b4978b8164d refs/heads/staging-testing
+7198847ad5e8dc10226500896b8c0b4978b8164d 17402cb6eabdefab44855d4604ec767741f7cd43 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi4t8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L6EQAIZWoc+B5WD8XGzmeIsV
-5wA45q/6l6LuZJ93MOTHxtJHG8UmnZQrk++qvZNRjZygUvTk+nP7PV9541ge7ot8
-FwRPO/OMrlKu/nEVkWnFgwxI+Xl36lK7KRGXAfJh5uJP/mcW/bUVXo5/sFvqZnom
-KpWyOVWOif9UA7yv0xi0udTflxXVMlHc7ZTvfWDOT3EZkuZkarFXMxp/VY51nfpd
-TtNJQ6590Sp6ioN5zIIJZAfryo9yon1qoZvuy/Eh7aqXCd1m5JP1w3S1HoCZEZCK
-jDGgQJhGwlE1Sf3Ti59f7AZbX6Ivxb3FPiwjaku/JHrhRXz9z+vzUDys25zcGCrs
-Jv4mWMnjPlA87F2wNIe1hThSGAFB+aH4Kqxrwn2X12C1BiDzp3KEPZKBX2PhZIai
-Xl7gpukqh25Lz5L496/w1ge04EY/vHXbc3YIlo2jQCVZVYGYBamDFISuHOJIMIGo
-MpkJ1mKnxOhdZXcEmlBKB/79+sUSPlEb0yG0N8DLIrs0dqpKuMgq+6qfpw3J1O7+
-3bg9tpqpBc5PN0x2boy90+ZL8xTHsJ90UFDV8GiEpnCQo1y8fpiIIID5XOp/W9sA
-Iu3LMX6gPGoGBH1VDqme0XJiC9dkQB/91Ze0fYz4XSUKRzfAJ5VcFHIeFdULLZ8a
-lZfRkXIWaHasvasg7jgGWy2+
-=T9h2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi4xQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WqIP/jbsx3gvOzS6JVIfcgze
+c+PzgxMkvgy3seuLpJmLlKEOdauIlcbbrXYczPUHlicZIgKNdqhYym+WDegM/ipM
+3McNBwdQY62bjBTP74o6U7tQfdF36/wGKLHeYcfYG3/sOPLER0vJsajUjyKp3KlY
+roMiLHcbSQpfz22oHljB0bqDpr3nnn1ul7Iwn37Q8405RSmKI+iRs/EHb1oKUA7Y
+S1Tg5w3XWL/MwIW8NXuH9ufwfknz+HKEWCYe+k84Scfo7jr47JH6gOoOmPAIvEK9
+Saa/bw6rtFlgyh+t8p2i4FT3TUBpQiAe24knuptk9zPPRQvhPi2/YuhS0+rv3LUy
+b2L5livjBfdJlwy/yb3Tpng351fNXKduwmXy4jpbAAEuabKg8IaXOcqW1pe8KJ5e
+lRCrLhitH3s+95KnAIGRNMGzh2jI7X6EeSLz8n05I1gc66/yiZeXiGOfVI+lt18Z
+BkvOw6+wBOlaObQvyF+DaJEywZOoy2D6IkKnbiTQD+oYWDOv6zp+I+smzajGrOVs
+g/v8A9/PFJvyefNCpE71lGJK+t+K2j5e+QfXnSe3PdSf3C+hAQTeNGDJvFH7QcHR
+GDrqMC740yM1sQaqjexADArgHZeU/mYJaiJDB7sj3Om+XWREBCSo9ujj23waIrg6
+AUKiF06piKb1IZAqZsvf8q16
+=td4i
 -----END PGP SIGNATURE-----
 
---===============0312022348511090128==--
+--===============1169600436727149272==--
