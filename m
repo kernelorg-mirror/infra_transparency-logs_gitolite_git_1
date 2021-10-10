@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 10 Oct 2021 14:36:21 -0000
-Message-Id: <163387658165.15480.12919485327150374445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 10 Oct 2021 15:28:02 -0000
+Message-Id: <163387968237.15337.10556740479954640621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/fs/xfs/xfstests-dev
+user: eguan
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-fixes-5.16
-    old: 18bd11232f847839edb0a96e2c0d0a2c6976f49c
-    new: 5980355a283a3bdefc772978bbc3953feff2988b
+  - ref: refs/heads/master
+    old: 344319453e8cfaf3abee5566fff22e29f81c3596
+    new: 47a1238bdb237d9821e606c7f02811f343233c5a
     log: |
-         97e902694a1ac493bac1543a4f41bd37edd18529 KVM: arm64: Force ID_AA64PFR0_EL1.GIC=1 when exposing a virtual GICv3
-         1e57e42a6871cf75ff9e1092d072db54d9afd034 KVM: arm64: vgic-v3: Work around GICv3 locally generated SErrors
-         c1f4c4426b43dc4a6e05328e640912b72f6997b2 KVM: arm64: vgic-v3: Reduce common group trapping to ICV_DIR_EL1 when possible
-         5eef10f975ed9c4eb919f5fae5257cb664006efe KVM: arm64: vgic-v3: Don't advertise ICC_CTLR_EL1.SEIS
-         5980355a283a3bdefc772978bbc3953feff2988b KVM: arm64: vgic-v3: Align emulated cpuif LPI state machine with the pseudocode
+         7a2cdfa745aa66ad8640952dde715b85445d0bf4 common/rc: add _require_user_exists() to check if a user exists
+         dfae4068a8249caf4c96700eefc17cce7e37afbc generic/079: make sure users 'nobody' and 'daemon' exist
+         aca74d17ccfa3c801911383b048ded6986533e30 xfs/540: use _scratch_xfs_set_metadata_field api
+         69575301c85e0fa2d008132a5504751bf9ca6497 fstests: rename _scratch_inject_logprint to _scratch_remount_dump_log
+         d888261aa0e6c880d136b5298e13bb8b86c37268 fstests: rename _test_inject_logprint to _test_remount_dump_log
+         e61c2b753cc438c1191bc59e34f0b2d73782a8f7 common/log: move *_dump_log routines to common/log
+         47a1238bdb237d9821e606c7f02811f343233c5a common/log: fix *_dump_log routines for ext4
          
