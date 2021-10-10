@@ -1,53 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8512259995821172239=="
+Content-Type: multipart/mixed; boundary="===============3594259424689193530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 10 Oct 2021 15:53:59 -0000
-Message-Id: <163388123915.31238.9469040507769641904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 10 Oct 2021 16:05:41 -0000
+Message-Id: <163388194101.6563.5124223418939926245@gitolite.kernel.org>
 
---===============8512259995821172239==
+--===============3594259424689193530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/testing
-    old: 4c2d124b3c9dade959740e0a842868ca4520cf46
-    new: 090609334cf1023badcb8f95acb0fe48bed446f9
-    log: revlist-4c2d124b3c9d-090609334cf1.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 7932d53162dc6550fc56b013da32c0975784647c
+    new: 0182d0788cd66292cb1698b48dd21887d93c68ed
+    log: revlist-7932d53162dc-0182d0788cd6.txt
 
---===============8512259995821172239==
+--===============3594259424689193530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c2d124b3c9d-090609334cf1.txt
+Content-Disposition: attachment; filename=revlist-7932d53162dc-0182d0788cd6.txt
 
-0d8238fc46734b25a6cc9ffd4c582c8e42612eb4 iio: adc: max1027: fix error code in max1027_wait_eoc()
-649e0b5c6ac524898f2086d290976f33983490a1 iio: adc: ad799x: Implement selecting external reference voltage input on AD7991, AD7995 and AD7999.
-f1e8f889eab7052b3e307172a667e0c037a15886 dt-bindings: iio: ad779x: Add binding document
-f590f58a13763a4634cad039d2a781cd3bc6592e counter: fix docum. build problems after filename change
-f5d4aa8225f052a0438629bf12a549064a4edaab docs: counter: Include counter-chrdev kernel-doc to generic-counter.rst
-85e3dca670ce5e3f2a67700dc3526f9a2b8e7fbc iio: dac: ad8801: Make use of the helper function dev_err_probe()
-2eb4cbf959f9510697a14076bc44fb15eb6d69c6 iio: dac: lpc18xx_dac: Make use of the helper function dev_err_probe()
-45f7d7494da65b68f7cf4142b752163b49e78cfb iio: dac: ltc1660: Make use of the helper function dev_err_probe()
-e322a34cd65261d161f80670741364d8d27dd0f5 iio: dac: ds4424: Make use of the helper function dev_err_probe()
-5d7713c0cf15fc8cc58a682da3c3b18b98c076db iio: dac: max5821: Make use of the helper function dev_err_probe()
-b58b03d3d18fa25c83d7d3beeb3f994e0ea74887 iio: dac: mcp4922: Make use of the helper function dev_err_probe()
-9b40dd7699c0ad91aed135495361297a5fabb652 iio: dac: stm32-dac: Make use of the helper function dev_err_probe()
-227a9fdb3b0dfbb1ff2d8b98fdf1524a9b5b4cbd iio: dac: ti-dac7311: Make use of the helper function dev_err_probe()
-410c9ea11fac451c4b3c8b9f882745de590477fa iio: st_sensors: Make use of the helper function dev_err_probe()
-daab5d39b61953e036ac8956d9ce6acb015d34c3 iio: st_lsm9ds0: Make use of the helper function dev_err_probe()
-3cbebf693113dc49d0195833bb38813f56d21344 iio: health: afe4403: Make use of the helper function dev_err_probe()
-d94bb2551ec078c8a7a6dad2ef42bdd10a795d83 iio: health: afe4404: Make use of the helper function dev_err_probe()
-ed8ed381c0d40c36301bb83e8a47f905935c83f6 iio: light: cm36651: Make use of the helper function dev_err_probe()
-970e874e0e69e52332c0e31c28431beb926a1b30 iio: light: noa1305: Make use of the helper function dev_err_probe()
-a7f4efb60743a2444ec20e504c992f5e3a1b4871 dt-bindings: iio: chemical: sensirion,scd4x: Add yaml description
-56b46f3c5a872d540d359462e08d6d2c64c3963b MAINTAINERS: Add myself as maintainer of the scd4x driver
-d82f732078b7a91b5cdde048fa1bc59f2400e21a drivers: iio: chemical: Add support for Sensirion SCD4x CO2 sensor
-090609334cf1023badcb8f95acb0fe48bed446f9 iio: documentation: Document scd4x calibration use
+c1634b118e846d4d53a3ebe63c0320d23fcb6cc8 ionic: add filterlist to debugfs
+1d4ddc4a5370793a24d37b9bd1e2cb52f42e6d65 ionic: move lif mac address functions
+4ed642cc6538abc8652a7acaf3b94d5356f196a0 ionic: remove mac overflow flags
+ff542fbe5d552a2e34b82a6c845390999f952b24 ionic: add generic filter search
+eba688b15d34cbe721b30919d4f3e373defda8f1 ionic: generic filter add
+c2b63d3449d327ef46e1d074cd97fe22193d8aa1 ionic: generic filter delete
+9b0b6ba6226e02def72e3b6985989c2d6b9c69e2 ionic: handle vlan id overflow
+8c9d956ab6fbd10413398eeb81f433b07c1c23d7 ionic: allow adminq requests to override default error message
+f91958cc962225bfb4d135631379a644b1e2d089 ionic: tame the filter no space message
+154ee116320dab4f619c7986c36054a431fa14bb Merge branch 'ionic-vlanid-mgmt'
+4b70dce2c1b93930fe4728a221a8d8e674c271c5 bnxt: use netif_is_rxfh_configured instead of open code
+c60882a4566a0a62dc3a40c85131103aad83dcb3 hv_netvsc: use netif_is_bond_master() instead of open code
+0199215216978b612d4e8be11e878b87bc643033 mlxsw: spectrum: use netif_is_macsec() instead of open code
+275fdef2d91954330fe8cb3846eb3de6f33f1f2d Merge branch 'net-use-helpers'
+ba3c01ee02ed0d821c9f241f179bbc9457542b8f net: phy: at803x: fix resume for QCA8327 phy
+1ca8311949aec5c9447645731ef1c6bc5bd71350 net: phy: at803x: add DAC amplitude fix for 8327 phy
+9d1c29b4028557a496be9c5eb2b4b86063700636 net: phy: at803x: enable prefer master for 83xx internal phy
+67999555ff42e91de7654488d9a7735bd9e84555 net: phy: at803x: better describe debug regs
+c0288ae8e6bd402785360de5bbc94ded770af000 net: make dev_get_port_parent_id slightly more readable
+6213f07cb542c9651ba614e784bf58ed41354936 virtio_net: skip RCU read lock by checking xdp_enabled of vi
+b9c56ccb436d1e952bb1fc0ddf752669a116b310 ethernet: Remove redundant 'flush_workqueue()' calls
+0182d0788cd66292cb1698b48dd21887d93c68ed octeontx2-pf: Simplify the receive buffer size calculation
 
---===============8512259995821172239==--
+--===============3594259424689193530==--
