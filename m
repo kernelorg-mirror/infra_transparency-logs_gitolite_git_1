@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2238095004450414443=="
+Content-Type: multipart/mixed; boundary="===============2352245397057955238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 10 Oct 2021 10:39:51 -0000
-Message-Id: <163386239165.25193.18052297332188027850@gitolite.kernel.org>
+Message-Id: <163386239196.25242.11487006345156432100@gitolite.kernel.org>
 
---===============2238095004450414443==
+--===============2352245397057955238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.14.y
-    old: 924356b31dcbb1d5a4a210d3614372fc4c27e6f3
-    new: f24b290ad7b9e200d2ce148d37ba056677eda0d3
-    log: revlist-924356b31dcb-f24b290ad7b9.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 5aa003b38148d584f20455ecac85c51187d0b71e
+    new: 9d440793a1c356b32e64a75dda669eed51ea4c2f
+    log: revlist-5aa003b38148-9d440793a1c3.txt
 
---===============2238095004450414443==
+--===============2352245397057955238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,66 +32,51 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633862390 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1633862389-cc70da93e5ca9129648d5eaa717d68c3c9cde32c
 
-924356b31dcbb1d5a4a210d3614372fc4c27e6f3 f24b290ad7b9e200d2ce148d37ba056677eda0d3 refs/heads/linux-5.14.y
+5aa003b38148d584f20455ecac85c51187d0b71e 9d440793a1c356b32e64a75dda669eed51ea4c2f refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFiwvYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qvUQALAOiLEQIf0/BWAoTYla
-tYhy4uZkdwlFw4XLHPtWFNOBuGj4KhfNNeWiN1DGX87VkApCIjjDih7ig3qPzSRi
-1PRpnPLtcUpYGGS3w5YxwQiCNDzY77aqS8n4Loi/rP0wwRzIGqx6qBcs34Q3em+w
-Dyfny/68/jcAiBzxxBViz5fIDcYK2YjCz9d6u000MFd3wvy32z91mH0PHJKE/yOE
-IebsIBdAKXKqyMssB6joh/1NuAfxflG1YnHZoQZmumc6/z1EOPYHcW0nzb8fx5sH
-7TWeH75XtSjOsqHbN2D1e0CG5b6vffmAZbcBYbuKkaav7aMuKdn++t38YwkcTcXN
-qAwtnmvlxF9xqVuyTWrKJO1998dm6odDW3Cf/EcgU0TTB62lpsfHIxZFPs/Koj2M
-KfPsznJJBHwqq+znMufaDp70Ubufql4txYRkYNYCHxKAYSNlftNqhwwhJ6Y6VpXg
-2oTkkNpV4Uq3kr12xy6bpvX8GG7Ug/svkWHrzxhqDwe9ipeey6RlvgmMuohhTg2X
-jqlmDzwRsviTHtkl/IngJX4TxEPvest81mr+NnxtMUbkgoRkkfasKbOTnxn3XBun
-IohxzFGCDhugKT6LNWFaoC7WQDhltsorMPwtGvUVwEzLjYjsIBCmmtDp1yEXPrMm
-kKnW3MVDLt0GAuXHsfZCpC0g
-=GFJN
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2sgQAMgxqlAkpbeMvVA+/GHi
+AYoGyGaYet8Jubg2DsUYUXuVKRKMiuLOVER3Tvf1sqrPTaiu0wLNrryB67iFjm7B
+01rmGkF4kyP8wZaODa8jPEU+EUSF1InFyFxtcFrXAllrSZAQpcHzzYw8vFe6YzNh
+mxjNKF9ai1QDWR+uSU6K5kvCgrQq/woJWQvg2ci48dDIrn7uXhOIuuOnXb6LzqIW
+qgrIEjf8xXtPyOiZfQSZgzbjB+sMwhFk/bAYyd/yW9L2VFTMnuVNdUOqJJmN3aCK
+KZka3PgzVgR8qE1WLEyxsr1Wsw/icQ2Zj2FGW2HtzTNmq0WGx5weCyyWPO7xaGV7
+s2DsuCVS7zdFWSz+RtfthUfx2xXNix/BPGQsvJBmkRqD9tJcX/7IFrwK/2j86Lnj
+m87szgzGwKnhNNzhqAT5lhH3VRZd+pqt0kXzB/N0uUF4/7euKB9E2D+6ikKLdXq8
+psmNDfUpVS9ZDk35ShBu1XVssGtN/vBBVNPvyNWY7iYMlFqIsRQ8WEPXi8ykKmn2
+v06wIXgW5xLn4dC6VUZkYuLg2A9ZVmj3JIALOIM9vZEMD5KfFrsZQEAvFCsAzHj2
+QhdYWYbZr1QlQv8XR0jwVS7Z4/wKJCmZR6g+t3W2Vot5MfNMfrRx4AT1GM+3evAe
+fEXi+kE2d/PR9ghgQar15x4a
+=9tv8
 -----END PGP SIGNATURE-----
 
---===============2238095004450414443==
+--===============2352245397057955238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-924356b31dcb-f24b290ad7b9.txt
+Content-Disposition: attachment; filename=revlist-5aa003b38148-9d440793a1c3.txt
 
-4809c00fc6fab228af8c949ad9b560fa0ca4c112 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-9214b0070941577771954ede184bf0929430dfbd usb: cdc-wdm: Fix check for WWAN
-263b012a25635b6a4d6014c362c37cb76c47438c usb: chipidea: ci_hdrc_imx: Also search for 'phys' phandle
-6942254708d162574e3323775b5c0f9d0a5076cf usb: gadget: f_uac2: fixed EP-IN wMaxPacketSize
-0496ac190dd6445bf13f7472ac4879fd38aa92ad USB: cdc-acm: fix racy tty buffer accesses
-30db800ff0ab269494490a554626cb8496c094ad USB: cdc-acm: fix break reporting
-286b86dc13d67168394227eaada41d82bdac0ac4 usb: typec: tcpci: don't handle vSafe0V event if it's not enabled
-60673dcb63d30b9790c08e1d8b3569aa9512ec3c usb: typec: tcpm: handle SRC_STARTUP state if cc changes
-45c62ce52efecc3fb250fd76b7203b8841bdef58 usb: typec: tipd: Remove dependency on "connector" child fwnode
-2322d2224ec86bc464d6f3ffc3e964e85b84ebce drm/amd/display: Fix B0 USB-C DP Alt mode
-c99b1b6eed473abc70791a5b702d85c221375063 drm/amd/display: USB4 bring up set correct address
-b6861bf93cf8861461d2d4d403b026c02ec42882 drm/amdgpu: During s0ix don't wait to signal GFXOFF
-d0705980f746e3fafa046043e756c1b900f44c45 drm/nouveau/kms/tu102-: delay enabling cursor until after assign_windows
-94e251bcdd78985d817a8870541e8a76cbc8a39e drm/nouveau/ga102-: support ttm buffer moves via copy engine
-744e928889a3b556ea42c4df09b759d4dfd49ee7 drm/amd/display: Limit display scaling to up to 4k for DCN 3.1
-54db1e4a98c2ee9dc55451a73438c63f038a1b69 drm/amd/display: Fix detection of 4 lane for DPALT
-bd5f6398db4ac4362eb3eca9490ff2bd13a224c1 drm/amd/display: Fix DCN3 B0 DP Alt Mapping
-1cc69a437358a48fa72b43ce8e3935029d59eecf drm/i915: Fix runtime pm handling in i915_gem_shrink
-ee0f3dbb74d6e5cdd89e040a76e68e5fad42f163 drm/i915: Extend the async flip VT-d w/a to skl/bxt
-cef63308ce384deb8cd47c08450aab64c2a808ff xen/privcmd: fix error handling in mmap-resource processing
-e4de0cb09e6e408db4ed69eb68767e15d189c419 mmc: meson-gx: do not use memcpy_to/fromio for dram-access-quirk
-3bf21a7ef9c9dcadff681ec8d4454238f0985d6d mmc: sdhci-of-at91: wait for calibration done before proceed
-541dc4fb19cbaff0468ef2a7bafe5f4b6d458466 mmc: sdhci-of-at91: replace while loop with read_poll_timeout
-fc3ac99d50483363ce46217dd34b0f7170e84e18 fbdev: simplefb: fix Kconfig dependencies
-6c55883b8eaf704e439d48990f014d19e2bb6976 ovl: fix missing negative dentry check in ovl_rename()
-f5cac1700579468268b13c4a1da9739487dc593b ovl: fix IOCB_DIRECT if underlying fs doesn't support direct IO
-0686d0e6aa280538b6b468f643b8580388685cb8 nfsd: fix error handling of register_pernet_subsys() in init_nfsd()
-26f72a7c6ae03a2e43b535550be62210b32032f6 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-231dfd6e53b67fcac2a98d87aa877e517fe921c3 SUNRPC: fix sign error causing rpcsec_gss drops
-518a91165c987cbea1a7c4076095478a64dfdb02 xen/balloon: fix cancelled balloon action
-f882531aad17496bfb14fcf83f9005c0a0e3adc4 ARM: dts: omap3430-sdp: Fix NAND device node
-3f351974da6163938ce40f3cd30e2dfdeb19905d ARM: dts: imx6dl-yapp4: Fix lp5562 LED driver probe
-15ecda1c5ddd317a49d4902778748fef1f3550da ARM: dts: qcom: apq8064: use compatible which contains chipid
-9ec7822bf31a3cf0e9a8cf56a6ffa95c6ce8c254 scsi: ufs: core: Fix task management completion
-1e8f729dfc4109dc46cbe75dba6efcbdf461a3fd riscv: Flush current cpu icache before other cpus
-f24b290ad7b9e200d2ce148d37ba056677eda0d3 Linux 5.14.12-rc1
+6482c6a2953264d84ea01860a0e26d5ac09f558f Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+d7ffb8eafc0b961e11c3c8476fa418a7c03d6b7b usb: chipidea: ci_hdrc_imx: Also search for 'phys' phandle
+a6f0b06e037126b19b60148dd3e33a712da4e0f9 USB: cdc-acm: fix racy tty buffer accesses
+e167f9c6b6abfa062ba55c3188da71c97bc7fb2c USB: cdc-acm: fix break reporting
+1f327eaf050ab3c0c8d7ddfe6072827c83928aec usb: typec: tcpm: handle SRC_STARTUP state if cc changes
+b1164b1307e6bbb7c607f619661b785852e80b29 drm/nouveau/kms/tu102-: delay enabling cursor until after assign_windows
+7e3216a1cba263cc71f8a4d2aabfcfe36f9816b5 xen/privcmd: fix error handling in mmap-resource processing
+918338c9c59697e1d0787111b0c3feb92c62d91b mmc: meson-gx: do not use memcpy_to/fromio for dram-access-quirk
+fab2084d8ab5bab16f818c3047273b7bcfdcacbb mmc: sdhci-of-at91: wait for calibration done before proceed
+39f5e75a90a03ca287610f4536b1ad4fc1807529 mmc: sdhci-of-at91: replace while loop with read_poll_timeout
+9f50fdfb6273f69d2aba39b9aac53442079aff12 ovl: fix missing negative dentry check in ovl_rename()
+8b6e05b44b7a3dd47dd9805aad9c1cd15be6925d ovl: fix IOCB_DIRECT if underlying fs doesn't support direct IO
+80b6cea1a8ab7b01088eb6732b11cc11350ec71b nfsd: fix error handling of register_pernet_subsys() in init_nfsd()
+d9eef8a56028933b780cec90cada2c3efc32a303 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+7ca0c4dce0844e2a07aabf76c68b06e9a00cc0f3 SUNRPC: fix sign error causing rpcsec_gss drops
+c94f6bf13911a06a4da118bbb21d75f5d8bb5c5c xen/balloon: fix cancelled balloon action
+7d21ee407dab1919fa20cf02da16074bd861e576 ARM: dts: omap3430-sdp: Fix NAND device node
+be54ba94b50ec21968afea22a6c5ed19fda257f6 ARM: dts: imx6dl-yapp4: Fix lp5562 LED driver probe
+5d9321d4211feee54c214bd1ff731ee92a7e8617 ARM: dts: qcom: apq8064: use compatible which contains chipid
+aa9e9428af0fd7208bb82e7b314dddf25b58f96e riscv: Flush current cpu icache before other cpus
+9d440793a1c356b32e64a75dda669eed51ea4c2f Linux 5.10.73-rc1
 
---===============2238095004450414443==--
+--===============2352245397057955238==--
