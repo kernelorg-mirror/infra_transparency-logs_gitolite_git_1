@@ -1,59 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============7327786295817424941=="
+Content-Type: multipart/mixed; boundary="===============3668406448842604031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 10 Oct 2021 12:53:33 -0000
-Message-Id: <163387041393.12426.18083524104509266219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 10 Oct 2021 12:55:46 -0000
+Message-Id: <163387054646.14601.11917441079601098398@gitolite.kernel.org>
 
---===============7327786295817424941==
+--===============3668406448842604031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-next
-    old: b6e7d09babf8d59ab086c73ab6432f4924055990
-    new: 1469daf08e60511fc853b06afa054328385731ac
-    log: revlist-b6e7d09babf8-1469daf08e60.txt
-  - ref: refs/heads/queue-rc
-    old: 236476a7567b772ca76f004556c589b1b09c6db4
-    new: 9afdd8d80b7c99eaee71d2f30276743027a1cfdc
+  - ref: refs/heads/staging-testing
+    old: 1977dcf07bddf7a2843b179c5af42ebc08072170
+    new: 33a47b9d848df6121934b2594827673f57aa1f60
     log: |
-         9afdd8d80b7c99eaee71d2f30276743027a1cfdc Merge branch 'testing/rdma-rc' into queue-rc
+         fa6fc23694a7d6abfe8c3e46ac97619d87b0349d staging: r8188eu: remove an obsolete comment
+         2f4f87090980190ef88ccb7e1cc719e83cef6c00 staging: r8188eu: remove unused led component
+         082690bd8b4e097cc115946c21a2f8a45099204f staging: r8188eu: remove write-only HwRxPageSize
+         4864ad2200e7b4f0c52172b9a548b6afd7fcb20e staging: r8188eu: remove unused IntrMask
+         fdfd6fabb54c59bbe1bab41ab8586a0945e6c6e6 staging: r8188eu: remove two write-only hal components
+         d3e45102f9a82f526572585e7fcb1abd6dedbb72 staging: r8188eu: HardwareType is write-only
+         8504b988c020216d70a9be8928a50578eb1c1ded staging: r8188eu: chip_type is write-only
+         d01c3a1d21d261e0f2905dcdf933b3eade48e10b staging: r8188eu: interface type is always usb
+         33a47b9d848df6121934b2594827673f57aa1f60 staging: r8188eu: support interface is always usb
          
 
---===============7327786295817424941==
+--===============3668406448842604031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6e7d09babf8-1469daf08e60.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eed98cc1198809896419c77142b2a739e4fd9f44 RDMA/mlx5: Remove iova from struct mlx5_core_mkey
-82941b9031d12c6e12398789201ad0d891ba5dfa RDMA/mlx5: Remove size from struct mlx5_core_mkey
-c81bef9aca7175a5cc937afa92869cba52cf8586 RDMA/mlx5: Remove pd from struct mlx5_core_mkey
-7a4b27dddd857e6abd4d882cfc813bd4ff8316de RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
-04f894ba420e27d048eb9764286751edd06df24d RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
-ab520a98a411b035e2fbee645d56662152bb4cbb RDMA/mlx5: Attach ndescs to mlx5_ib_mkey
-9ff7d5d3ad69e0bb6043458d444354ffb99ec6ce fixup
-df5552345a21a54e9127df618099d18fa7e6a609 PCI/IOV: Provide internal VF index
-c1ff6051f5a96d30902600bc8e1bb5eb190b872c net/mlx5: Reuse exported virtfn index function call
-35e43fe9b172def2414b52a81cc5e733623e964a net/mlx5: Disable SRIOV before PF removal
-14d9ee372449ee0639646b1b2a3dfffcaf3bf98f PCI/IOV: Allow SRIOV VF drivers to reach the drvdata of a PF
-a0c83cd43741689cea94b03cc91068d3dd3c2d5c net/mlx5: Expose APIs to get/put the mlx5 core device
-fd42b2bbb6a82b95c21cf8a25c861c7875ef8eaa vdpa/mlx5: Use mlx5_vf_get_core_dev() to get PF device
-518ce63bb96073f90115371eff9bf51cfe5aa245 vfio: Add 'invalid' state definitions
-d3f722b072b7e53a45449e33aa6447683dc9827b vfio/pci_core: Make the region->release() function optional
-4d7666a580808130dc2df695537b99956e4b2c31 net/mlx5: Introduce migration bits and structures
-8937aef7405639a3ba6588788c6d4aab692f850c mlx5_vfio_pci: Expose migration commands over mlx5 device
-b6898cbde325ce68fd1fdb7523482313e6ae646b mlx5_vfio_pci: Implement vfio_pci driver for mlx5 devices
-3d794138349278bfcee9441041ee0845726ba497 vfio/pci: Add infrastructure to let vfio_pci_core drivers trap device RESET
-1e8fd8cb983e67cba97ec7641ef43b295c8b8bda mlx5_vfio_pci: Trap device RESET and update state accordingly
-63684eacfe573cca2082995d3419944ae7907822 Merge branch 'rdma-next' into testing/rdma-next
-5bf9a27738cec2f7ce4299b83d134c79cfb22098 Merge remote-tracking branch 'vfio/next' into testing/rdma-next
-1469daf08e60511fc853b06afa054328385731ac Merge branch 'testing/rdma-next' into queue-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633870544 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1633870544-d3e52411a36b4a669274d72d76ca940b695dedfd
 
---===============7327786295817424941==--
+1977dcf07bddf7a2843b179c5af42ebc08072170 33a47b9d848df6121934b2594827673f57aa1f60 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi4tAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fbUQAMcPGRuLbw42DywvsJK7
+tvAyYEXezuG/pHhNMGiL8ZByk0cNHm7k7rgfginKk+3mIkwHlfyd2mSdBMbm/cSF
+Hn+B1qDZ6Q8+FcWTpdyKGEi/3LpbJEZcLM7eSrZyBmb9a+t+JZMSFgLyzxEKBeJE
+e3vrU9Z3zWcCi2JXUPp77IdpEDpy0JwIq9EIC0cACfDfoV4EwwGQaexSO4OK5bLz
+Ur7FMs2Rsz5gzvqCRRB9Dxg21zOcl5v/2EoKVEQ1yl9jIphQCVVKfQXTyqC/rHk/
+peqgaO2zO4ZGJ/2zKch4HXYuKw/ZohBx6xgpjuUAAR8StU2Qbsj0MOsCvfvIukW2
+1Q+gZrx7EY1GCFPDrux+e256RtZJUHpCp7JJOEP9XSH0yrMrobhpelNMWdHRqEgQ
+YtbhMNwup/IHOGuXz22I69GhFiUSITTG2WqZaM+c0wg7CHrBGQTHZmWEpgVojKDz
+IH2g9qARqJqPpw/aRCEg4fOQnohWYLBcLlwrWe7+0pBlmA00SGa6NQLfTizKXEnD
+yARN66BRarSzKmvn7qSlJZ6juydrxaTyev2++gSGl5xViyX+jNTFxhEoRbURB5+x
+DQatH6enPxaHJQQhY+xUfNbhkHDXXQcOiksnqimKrO0HzCEpDaQfiz/KAFlMgoku
+q45O7+8L1g9/7q8gCMs/taC0
+=To87
+-----END PGP SIGNATURE-----
+
+--===============3668406448842604031==--
