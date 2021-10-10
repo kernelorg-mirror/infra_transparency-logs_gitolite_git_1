@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7425273424337039348=="
+Content-Type: multipart/mixed; boundary="===============6340450616410667321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 10 Oct 2021 17:00:43 -0000
-Message-Id: <163388524353.8517.13341379272713738656@gitolite.kernel.org>
+Date: Sun, 10 Oct 2021 17:03:19 -0000
+Message-Id: <163388539928.9299.14028554819989545145@gitolite.kernel.org>
 
---===============7425273424337039348==
+--===============6340450616410667321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 7932d53162dc6550fc56b013da32c0975784647c
     new: 0182d0788cd66292cb1698b48dd21887d93c68ed
     log: revlist-7932d53162dc-0182d0788cd6.txt
 
---===============7425273424337039348==
+--===============6340450616410667321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ c0288ae8e6bd402785360de5bbc94ded770af000 net: make dev_get_port_parent_id slight
 b9c56ccb436d1e952bb1fc0ddf752669a116b310 ethernet: Remove redundant 'flush_workqueue()' calls
 0182d0788cd66292cb1698b48dd21887d93c68ed octeontx2-pf: Simplify the receive buffer size calculation
 
---===============7425273424337039348==--
+--===============6340450616410667321==--
