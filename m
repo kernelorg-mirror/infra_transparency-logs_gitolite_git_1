@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0166306647188261403=="
+Content-Type: multipart/mixed; boundary="===============6626734130603483439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 10 Oct 2021 10:44:40 -0000
-Message-Id: <163386268043.28264.9454967401137021810@gitolite.kernel.org>
+Date: Sun, 10 Oct 2021 10:44:50 -0000
+Message-Id: <163386269071.28395.13638281240306616509@gitolite.kernel.org>
 
---===============0166306647188261403==
+--===============6626734130603483439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
+  - ref: refs/heads/usb-linus
+    old: 58fc1daa4d2e9789b9ffc880907c961ea7c062cc
     new: 7fd2bf83d59a2d32e0d596c5d3e623b9a0e7e2d5
-    log: revlist-5816b3e6577e-7fd2bf83d59a.txt
+    log: revlist-58fc1daa4d2e-7fd2bf83d59a.txt
 
---===============0166306647188261403==
+--===============6626734130603483439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633862677 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633862689 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1633862677-74a1d6913f7f4bb5498154efe04b8f36506c5fb8
+nonce 1633862689-292320d7218b8ebb77716f56099f97e83623cc98
 
-5816b3e6577eaa676ceb00a848f0fd65fe2adc29 7fd2bf83d59a2d32e0d596c5d3e623b9a0e7e2d5 refs/heads/main
+58fc1daa4d2e9789b9ffc880907c961ea7c062cc 7fd2bf83d59a2d32e0d596c5d3e623b9a0e7e2d5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFixBUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y0YP/A3wN68uhbOFokYK2Qg1
-EEP3EeaArRIIptJzdoGYSQ/hZdpabULru1Yd6TuaACwdMuN+AuRAgF1axGc1uFPc
-xgKBHLuzLYvayRcUGgJzHqZmdbf3b4r1EMdM4/EDuXZU2DeV1lwngoxh3u3sDyKb
-WUjP9Lsk/Rwc44TsYu2lXQcQ24lHzC6zvEIQf7xIdjPV5tz+jFQNr/ttuABsCzon
-MnIBmKSsdDuprh+McW5fYqaEvhrWnLTRsLx6l2eTi6sz+RosLY56f+lDl2vtgipZ
-Uym7MLmzNZGXxFiv0eg3y6JFcDOR3652qwhOfaQi6DkFnsWpwQ7oZ5EGz1O1GZwh
-GzVjAVY+sRm9gkbf3S9Bpqfx8+DZC84QdfyEWXRa9nygRYF1T9pXaJhF3xA6Q7KI
-yNVcutvHvrnbaofHEO+GPDdIzY0QMQTm2xgB5LmB+r4oFM90GQ3xCoMDcTLpwVfX
-lS6sX9uYJgfIU912Yx41My4KmsseZE7JA+AfsS7tJX4h89q35MHk8AbnfgUDvxJz
-TM0LB0JiEFWcUgfktORmlu2hNTmjqU9moUlmLQHTTwBcf43D8e5BKYdh9v/xBCJ1
-IcINGjdgz4eHSawx8nSVTESL+/xdR4+mSq6WtrGtnRGAUDTpncbBFNd1vLeKUGOW
-3RjvXfMA8nx+y+GlactUpVcZ
-=7fNA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFixCEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5LQP/RDIUF34Q3Hw/wNUZLph
+q2x26PRHJkXdC1+C7mKCqv0p3PcbHoXl6/bMD435THSvBkJCibL1mEyNaFmgMQsW
+oGiMtxmL55hPZlIkPmRUtnE3WlhQHZYY1gvKD1ctaXR8tk6z0lKpbW0pjQKZKcVR
+X7X2+rUW9cXOx6lbud2Vk8ipMe+7Kf2yxhT/8jVpjmy4Q7z4/8bryc2IncMJH7Ln
+g/FiT/os0VP6Bz+hsqYUQs8p+U7dVUa+478yPJurLn6NQKEWzx0T13GFOyk2fdqX
+fH1CFXPZLSdMIqP7A45wlAhR+k89QEhWVG9roYMAgYAruC9LzQBr+V1xlIormNdb
+I89Mh7r/9+t21MGlye2l69GH59A6sADiNve0HSX1yuDDTy5hs5Z7P8JfQILVWJTu
+gnLP7L9ZZPjoDL1l0YRg/gxlsSpuVTFnWNqw6t1GRKYk9JP9XgmVObZzvvIZcio8
+eZcUIPL2IkqFkQcCznWYcFXFzMuRgXcnscXvhNDEX9RjLUjtKfVtcgANpipKA/3x
+Qq8QZYjImM6EUSy7xL+ReB2xdEv1SUvr1fmMDv+HM44JP3hgk7WS3yYupvIApM3M
+0Lc9N4fDeFEN8qjsAwvOVEIf7U9WH7hZHjBMg6uqUC6G4OL/vfgZfQfqETuiUbCY
+fsWCaXHl1G3jaBB4utn3ZEgX
+=qRt6
 -----END PGP SIGNATURE-----
 
---===============0166306647188261403==
+--===============6626734130603483439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5816b3e6577e-7fd2bf83d59a.txt
+Content-Disposition: attachment; filename=revlist-58fc1daa4d2e-7fd2bf83d59a.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 1fd95c05d8f742abfe906620780aee4dbe1a2db0 ext4: add error checking to ext4_ext_replay_set_iblocks()
@@ -593,21 +593,10 @@ a0e25f0a0d39d66c048d5dbac1e7ebaa6ec885d7 cachefiles: Fix oops with cachefiles_cu
 5c0522484eb54b90f2e46a5db8d7a4ff3ff86e5d afs: Fix afs_launder_page() to set correct start file position
 3f6cffb8604b537e3d7ea040d7f4368689638eaf etherdevice: use __dev_addr_set()
 baf33d7a75642b4b38a87fdf1cd96b506df4849f r8152: avoid to resubmit rx immediately
-3ea75b3f57e5b2837b980a2cbcf014773d00ae51 usb: xhci: tegra: mark PM functions as __maybe_unused
 dbe0b88064494b7bb6a9b2aa7e085b14a3112d44 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
 0854a0513321cf70bea5fa483ebcaa983cc7c62e net: bridge: fix under estimation in br_get_linkxstats_size()
 64506cb92833b313cbc7f19ad51b0850e0972984 Merge branch 'bridge-fixes'
-268bbde716e3a79a747a0f4ebbeb9f63d861737d usb: dwc3: gadget: Revert "set gadgets parent to the right controller"
-4d1aa9112c8e6995ef2c8a76972c9671332ccfea Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
 a56d447f196fa9973c568f54c0d76d5391c3b0c0 net/sched: sch_taprio: properly cancel timer from taprio_destroy()
-b87d8d0d4c43c29ccdc57d15b2ebc1df886a34b4 usb: typec: tipd: Remove dependency on "connector" child fwnode
-05300871c0e21c288bd5c30ac6f9b1da6ddeed22 usb: typec: tcpci: don't handle vSafe0V event if it's not enabled
-6d91017a295e9790eec02c4e43f020cdb55f5d98 usb: typec: tcpm: handle SRC_STARTUP state if cc changes
-8253a34bfae3278baca52fc1209b7c29270486ca usb: chipidea: ci_hdrc_imx: Also search for 'phys' phandle
-04d2b75537085cb0c85d73a2e0e50317bffa883f usb: cdc-wdm: Fix check for WWAN
-0560c9c552c1815e7b480bc11fd785fefc82bb27 usb: gadget: f_uac2: fixed EP-IN wMaxPacketSize
-65a205e6113506e69a503b61d97efec43fc10fd7 USB: cdc-acm: fix racy tty buffer accesses
-58fc1daa4d2e9789b9ffc880907c961ea7c062cc USB: cdc-acm: fix break reporting
 25a9da6641f1f66006e93ddbefee13a437efa8c0 net: sfp: Fix typo in state machine debug string
 e3cf002d5a4452f8adc5543df341cf96fd702fcf net: pcs: xpcs: fix incorrect CL37 AN sequence
 7707a4d01a648e4c655101a469c956cb11273655 netlink: annotate data races around nlk->bound
@@ -731,4 +720,4 @@ c75de8453c3e2f8a8fcee9171118b7da29d3fb9c Merge tag '5.15-rc4-ksmbd-fixes' of git
 0950fcbf992f578575f5387decb06f6496aab594 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 7fd2bf83d59a2d32e0d596c5d3e623b9a0e7e2d5 Merge branch 'i2c/for-current-fixed' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 
---===============0166306647188261403==--
+--===============6626734130603483439==--
