@@ -1,58 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============6119747536708064654=="
+Content-Type: multipart/mixed; boundary="===============0001001503416119483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 10 Oct 2021 12:53:02 -0000
-Message-Id: <163387038273.12121.3180438007316373787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 10 Oct 2021 12:53:25 -0000
+Message-Id: <163387040551.12321.14616975952819624285@gitolite.kernel.org>
 
---===============6119747536708064654==
+--===============0001001503416119483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/staging-testing
-    old: e538e8649892a5890dcc2b2b157f3876573a7773
-    new: 1977dcf07bddf7a2843b179c5af42ebc08072170
-    log: |
-         e4a9e1d8f230a2deba9c1ad32df85d8a855df645 staging: vt6655: fix camelcase in bShortSlotTime
-         aeec304c2e47bd0e8d73e9d120a1ad16361f7473 staging: vt6655: fix camelcase in ldBmThreshold
-         1977dcf07bddf7a2843b179c5af42ebc08072170 staging: vt6655: fix camelcase in PortOffset
-         
+  - ref: refs/heads/rdma-next
+    old: 3e60930a20369ca2c3f3d7885694e0af9254b5b0
+    new: 1e8fd8cb983e67cba97ec7641ef43b295c8b8bda
+    log: revlist-3e60930a2036-1e8fd8cb983e.txt
+  - ref: refs/heads/testing/rdma-next
+    old: fe2463f70ebd0d01ce2998b97c987048a12c5bf9
+    new: 5bf9a27738cec2f7ce4299b83d134c79cfb22098
+    log: revlist-fe2463f70ebd-5bf9a27738ce.txt
 
---===============6119747536708064654==
+--===============0001001503416119483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3e60930a2036-1e8fd8cb983e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633870380 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1633870379-cc6dae07cdfab9fe576bc28eb9a5b2e70d7e79ea
+eed98cc1198809896419c77142b2a739e4fd9f44 RDMA/mlx5: Remove iova from struct mlx5_core_mkey
+82941b9031d12c6e12398789201ad0d891ba5dfa RDMA/mlx5: Remove size from struct mlx5_core_mkey
+c81bef9aca7175a5cc937afa92869cba52cf8586 RDMA/mlx5: Remove pd from struct mlx5_core_mkey
+7a4b27dddd857e6abd4d882cfc813bd4ff8316de RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
+04f894ba420e27d048eb9764286751edd06df24d RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
+ab520a98a411b035e2fbee645d56662152bb4cbb RDMA/mlx5: Attach ndescs to mlx5_ib_mkey
+9ff7d5d3ad69e0bb6043458d444354ffb99ec6ce fixup
+df5552345a21a54e9127df618099d18fa7e6a609 PCI/IOV: Provide internal VF index
+c1ff6051f5a96d30902600bc8e1bb5eb190b872c net/mlx5: Reuse exported virtfn index function call
+35e43fe9b172def2414b52a81cc5e733623e964a net/mlx5: Disable SRIOV before PF removal
+14d9ee372449ee0639646b1b2a3dfffcaf3bf98f PCI/IOV: Allow SRIOV VF drivers to reach the drvdata of a PF
+a0c83cd43741689cea94b03cc91068d3dd3c2d5c net/mlx5: Expose APIs to get/put the mlx5 core device
+fd42b2bbb6a82b95c21cf8a25c861c7875ef8eaa vdpa/mlx5: Use mlx5_vf_get_core_dev() to get PF device
+518ce63bb96073f90115371eff9bf51cfe5aa245 vfio: Add 'invalid' state definitions
+d3f722b072b7e53a45449e33aa6447683dc9827b vfio/pci_core: Make the region->release() function optional
+4d7666a580808130dc2df695537b99956e4b2c31 net/mlx5: Introduce migration bits and structures
+8937aef7405639a3ba6588788c6d4aab692f850c mlx5_vfio_pci: Expose migration commands over mlx5 device
+b6898cbde325ce68fd1fdb7523482313e6ae646b mlx5_vfio_pci: Implement vfio_pci driver for mlx5 devices
+3d794138349278bfcee9441041ee0845726ba497 vfio/pci: Add infrastructure to let vfio_pci_core drivers trap device RESET
+1e8fd8cb983e67cba97ec7641ef43b295c8b8bda mlx5_vfio_pci: Trap device RESET and update state accordingly
 
-e538e8649892a5890dcc2b2b157f3876573a7773 1977dcf07bddf7a2843b179c5af42ebc08072170 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
+--===============0001001503416119483==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fe2463f70ebd-5bf9a27738ce.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi4iwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TxEP/11ZGwgpqP7fYsZbRYpw
-7t4gszFytLn70v2eUyR4WUH1R2DZ63VICkgFTAqEvt4yJFRmup2k84Rtafq/YbUr
-940LwM7Qja3q7feQpsFbsQ4QYxR7ff1pm9+hMaqfQxPDuYmsq4cOD4MQcWZpnc48
-v/4gmV41z6r51G6cruDrrpmf2FvEWTnOhH4Dfy7Rbxnd0TrEgEJF8mt0w8ncW17i
-ZdUdRJEu/4T0+C3nSX0igQzvz/QxiGgrnnppIXCzZoF5+PellcIV4tRWLdcHVgof
-v/TiKPyV0X6Y0a0UJQA7JQCiFr4VlfZEFFA1IRStAwU9ML6oevv3kWfGhQvJSUN/
-McwRMX1e8WEdYHO834MWyTyEOVhiBKrvvN0u64/zT4HwZ5lmkm/OzXVFy9VjjpKI
-3Hjpk+NDExfH/tyTGtTWNeop6ghjN8deIkdFOPRzHc/h+6W8wfv74uNNA5rzhLI5
-cOEla93geD5GyM+bLPvde63rPwofjZn0/st8i5IxaKKXGSYXFyrpCdZD1rxUPoSg
-vMRx/qbrUtEi1aT8cgS7mv4Jx6wSii2Re16ekzRIsKZ3L5QxwMYnPsey2a4ST/kx
-hEI8NT6rTMVVm2OB0PHUwXyep66EttlLJxZTwvTOddrrJg2knVIDGirMQNXE4QuN
-02CoMxfcm1r7eXFbG0QnB024
-=+WxU
------END PGP SIGNATURE-----
+eed98cc1198809896419c77142b2a739e4fd9f44 RDMA/mlx5: Remove iova from struct mlx5_core_mkey
+82941b9031d12c6e12398789201ad0d891ba5dfa RDMA/mlx5: Remove size from struct mlx5_core_mkey
+c81bef9aca7175a5cc937afa92869cba52cf8586 RDMA/mlx5: Remove pd from struct mlx5_core_mkey
+7a4b27dddd857e6abd4d882cfc813bd4ff8316de RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
+04f894ba420e27d048eb9764286751edd06df24d RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
+ab520a98a411b035e2fbee645d56662152bb4cbb RDMA/mlx5: Attach ndescs to mlx5_ib_mkey
+9ff7d5d3ad69e0bb6043458d444354ffb99ec6ce fixup
+df5552345a21a54e9127df618099d18fa7e6a609 PCI/IOV: Provide internal VF index
+c1ff6051f5a96d30902600bc8e1bb5eb190b872c net/mlx5: Reuse exported virtfn index function call
+35e43fe9b172def2414b52a81cc5e733623e964a net/mlx5: Disable SRIOV before PF removal
+14d9ee372449ee0639646b1b2a3dfffcaf3bf98f PCI/IOV: Allow SRIOV VF drivers to reach the drvdata of a PF
+a0c83cd43741689cea94b03cc91068d3dd3c2d5c net/mlx5: Expose APIs to get/put the mlx5 core device
+fd42b2bbb6a82b95c21cf8a25c861c7875ef8eaa vdpa/mlx5: Use mlx5_vf_get_core_dev() to get PF device
+518ce63bb96073f90115371eff9bf51cfe5aa245 vfio: Add 'invalid' state definitions
+d3f722b072b7e53a45449e33aa6447683dc9827b vfio/pci_core: Make the region->release() function optional
+4d7666a580808130dc2df695537b99956e4b2c31 net/mlx5: Introduce migration bits and structures
+8937aef7405639a3ba6588788c6d4aab692f850c mlx5_vfio_pci: Expose migration commands over mlx5 device
+b6898cbde325ce68fd1fdb7523482313e6ae646b mlx5_vfio_pci: Implement vfio_pci driver for mlx5 devices
+3d794138349278bfcee9441041ee0845726ba497 vfio/pci: Add infrastructure to let vfio_pci_core drivers trap device RESET
+1e8fd8cb983e67cba97ec7641ef43b295c8b8bda mlx5_vfio_pci: Trap device RESET and update state accordingly
+63684eacfe573cca2082995d3419944ae7907822 Merge branch 'rdma-next' into testing/rdma-next
+5bf9a27738cec2f7ce4299b83d134c79cfb22098 Merge remote-tracking branch 'vfio/next' into testing/rdma-next
 
---===============6119747536708064654==--
+--===============0001001503416119483==--
