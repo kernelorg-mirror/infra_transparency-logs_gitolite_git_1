@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 10 Oct 2021 10:00:50 -0000
-Message-Id: <163386005059.1733.4510229005766935677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 10 Oct 2021 10:20:16 -0000
+Message-Id: <163386121623.14251.7807224782422753227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/timers/tval-ectomy
-    old: c815d60a6292c90ea228c635b4150f022322908b
-    new: e4c0cc8b43025373888f1d1a5575a00bb5f6094b
+  - ref: refs/heads/master
+    old: 154ee116320dab4f619c7986c36054a431fa14bb
+    new: 275fdef2d91954330fe8cb3846eb3de6f33f1f2d
     log: |
-         e4c0cc8b43025373888f1d1a5575a00bb5f6094b arm64: Add HWCAP for self-synchronising virtual counter
+         4b70dce2c1b93930fe4728a221a8d8e674c271c5 bnxt: use netif_is_rxfh_configured instead of open code
+         c60882a4566a0a62dc3a40c85131103aad83dcb3 hv_netvsc: use netif_is_bond_master() instead of open code
+         0199215216978b612d4e8be11e878b87bc643033 mlxsw: spectrum: use netif_is_macsec() instead of open code
+         275fdef2d91954330fe8cb3846eb3de6f33f1f2d Merge branch 'net-use-helpers'
          
