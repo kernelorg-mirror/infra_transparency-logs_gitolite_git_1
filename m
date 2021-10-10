@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6957061349232472412=="
+Content-Type: multipart/mixed; boundary="===============4153114561390775404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 10 Oct 2021 13:21:47 -0000
-Message-Id: <163387210792.31450.5285857154522319904@gitolite.kernel.org>
+Date: Sun, 10 Oct 2021 13:23:22 -0000
+Message-Id: <163387220200.31935.11605972404604996087@gitolite.kernel.org>
 
---===============6957061349232472412==
+--===============4153114561390775404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: d02b006b29de14968ba4afa998bede0d55469e29
-    new: ebabb77a2a115b6c5e68f7364b598310b5f61fb2
+    old: ebabb77a2a115b6c5e68f7364b598310b5f61fb2
+    new: 2cb3315107b5b3312b0f434efdb3ad354274e2a5
     log: |
-         3aee752cd0b880b052b2757278227d09673a2abd tty/sysrq: More intuitive Shift handling
-         4c9883e1f4ddc53ff66eeb124a96530435dee22b dt-bindings: serial: 8250_omap: allow serdev subnodes
-         aec079f8875220c2c0657ba22e10099910295e20 tty: serial: atmel: use macros instead of hardcoded values
-         b84d0001512aec42bd3357bf66ab13ade1c633cf tty: serial: samsung: Improve naming for common macro
-         ebabb77a2a115b6c5e68f7364b598310b5f61fb2 serial: 8250_dw: Drop wrong use of ACPI_PTR()
+         0946efc2255feed04803b811bbcbccbaba4e5a91 serial: 8250_dw: Re-use temporary variable for of_node
+         0eb9da9cf20184bdc16729e690ba38e0a2922d81 serial: 8250_dw: Fix the trivial typo in the comment
+         7c4fc082f50431cc0814b47595ec9f9cca285993 serial: 8250_lpss: Extract dw8250_do_set_termios() for common use
+         2cb3315107b5b3312b0f434efdb3ad354274e2a5 serial: 8250_lpss: Enable PSE UART Auto Flow Control
          
 
---===============6957061349232472412==
+--===============4153114561390775404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633872105 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633872200 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1633872105-a3c7053a28e1f782ae3df56c0faae7a808a0aac9
+nonce 1633872200-c411ae6429b402b46a93f3ff42f16f7e4722864e
 
-d02b006b29de14968ba4afa998bede0d55469e29 ebabb77a2a115b6c5e68f7364b598310b5f61fb2 refs/heads/tty-testing
+ebabb77a2a115b6c5e68f7364b598310b5f61fb2 2cb3315107b5b3312b0f434efdb3ad354274e2a5 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi6OkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FxQP/2oBx2GpC31yHBpSrqVw
-rOcXnMWyk9xqr0H0hL3zAxHS44EacsuUfASIVtrWMZud0SqvgBuAmgQNRldGSbxi
-arVeaRdmMLf5TaiyeFIw+9CdUZhFDAdkpwh41vF8mNNV2gt6ePQrFlnHEHUwrVyB
-48YzgRkHo1tmZ4tCQXv/+i/IFoxzJjgTUG1taFLsicjC46RYSHKVmAYpI02szaLL
-Q1nfOAx2vRPAcuE1RCAfiu97NLGflK5Dw8lCDGU/00lMpQ0vjbgAtSCz/NedDnfK
-U/H6ZrJBcYQLg9UM30N7e2ibXoiQihAhfIdxzB7017HHfjszoYUeJrH/Q9nP4XGW
-mIDrO7aUba0NTrxtLrHNpMcKYYff9h+wAGxJzdiEG15u8l0kjTd4dHRrk72xwX6u
-7okYDjk48hzQrRL1o9Or1Q4wtyc8QbgrNUa2oHirZraTwsrqiKv4WblDpyKNzPes
-PrAsYLni5vD5x80rOS7YmyEqXF9lcXvv7DylF919wM7/6PnWpTgNTdH6lPTJDHpc
-sO3HgTypE//NPLV+giFix1PHllaY89lx0MWD0cJp+8Qo8to7CdNP6s4kuNt0TzcY
-ApK/4aTYEkHdutn0DYMcYLeDjm5K2JDUfFcVnGRMOkq56O5SLRrMoHSYNVj6E+W0
-d8nsJmoaILa3WDGeQLUrCA26
-=iOyf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi6UgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NFQP/3YNzaRFsxg3rWg8yVA3
+n5UkAx5Ew33i4+dkGuCCaO3gl48MKH2LntxB7TXc1OH5mOz0DRR8esBjvbdOobCQ
+5kXgCBhYGTSFDWknP5fYN7S0jD5dvy23UNxV/hrUNbZMjWS4dBS7VhSN/FTlUpw6
+rj2jxMar66A6SJusT1u0/jmyDCPMRvDf0JhwbXvkEuRqpzlwFM/Qf7P8NoTEmGqc
+rXR2aQgf7sEVGf6fROC26OtONCTaDhSwzF6a8I+apl/Dnt9VrANlmj1DF7qxqNUR
+W4RWoAfA+kMiqxFwnlbCf0S5txDhO+kbHQn5gLjD50noe3S2OdvpIRwIN4IXfCKY
+hnq/GpvTQGjsGmWRB+/CjqqqQLgc6ViUmZRWCq/FaJvlr6VbBl0miKlcqpjkjNhp
+jFthFbZ1iUvU4sF/E6UIgJXbuJxx4c63VOWN7aWIcw8csO3BHq4a3Hd9SBJcnzjI
+/SHapjFm7lzkpy/ki1TBOCqxHSH1pj9HboRJpGEak+sm+raTOSIV6RcNb1cQLLqq
+0rCH2esYPM4yeryDadSYFoqHObULa5VdTXWN9vd7wlUAeL7msYdBnszGSUZjJ5tI
+Y+A5AuNpP5r3rfGvfIUk8e6qqk/DKCMF2W+ElNUpCmTFdkzXQJeFBBwu75p2IOLt
+4Iu8fHf3an1zRavf4XkIkgto
+=piWL
 -----END PGP SIGNATURE-----
 
---===============6957061349232472412==--
+--===============4153114561390775404==--
