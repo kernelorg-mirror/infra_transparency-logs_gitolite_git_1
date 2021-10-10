@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8217325411548359277=="
+Content-Type: multipart/mixed; boundary="===============6691145238264942820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 10 Oct 2021 12:57:55 -0000
-Message-Id: <163387067540.15446.3250013589342753237@gitolite.kernel.org>
+Date: Sun, 10 Oct 2021 13:00:46 -0000
+Message-Id: <163387084613.17819.15288862520152161117@gitolite.kernel.org>
 
---===============8217325411548359277==
+--===============6691145238264942820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 17402cb6eabdefab44855d4604ec767741f7cd43
-    new: a1f42cba65f46aaf8326e4e3f261e846242458ee
+    old: a1f42cba65f46aaf8326e4e3f261e846242458ee
+    new: 98f668b30e8e65324b06332e9a3e2ea340bfd7f1
     log: |
-         25c1c7c25a7e0ab13e6a5f5bed3ea7f7b55bc963 staging: r8188eu: remove unused defines from rtw_sreset.h
-         005eae35415f6f17ce8b2559a02e63388f68e71d staging: r8188eu: remove some dead code
-         4b2540a5878497e913dfbe1379b49547708ed05c staging: r8188eu: remove unused macros and defines from rtl8188e_hal.h
-         c38a05353f7c67214a9e69c6aa197946cf2ca966 staging: r8188eu: replace MACADDRLEN with ETH_ALEN
-         a1f42cba65f46aaf8326e4e3f261e846242458ee staging: r8188eu: remove enum _RTL8712_RF_MIMO_CONFIG_
+         98f668b30e8e65324b06332e9a3e2ea340bfd7f1 staging: rtl8723bs: hal: remove duplicate check
          
 
---===============8217325411548359277==
+--===============6691145238264942820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633870673 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633870844 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1633870672-d4c832e90b5fea0abd1af7910351679889f60c3d
+nonce 1633870844-51cc49b28cefa95c455b7e022afb89f21795d42d
 
-17402cb6eabdefab44855d4604ec767741f7cd43 a1f42cba65f46aaf8326e4e3f261e846242458ee refs/heads/staging-testing
+a1f42cba65f46aaf8326e4e3f261e846242458ee 98f668b30e8e65324b06332e9a3e2ea340bfd7f1 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi41EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JS4P/i9UeUhgBFHZjnJHgwMH
-6o1cWUiutVbLQ19BaKmGREDmr851eSDSEWCZ2SczIPgrYgHnHn0/b8wJe0w3WcbB
-W2L3ggNqdGcDLw5KNvVyneQRpE6kDAapIuLoJKVqoG4EwUsuP02M4FbGMDwzaaaD
-dzhj0qWRaJwJoj6f8hwYeKbkpLKOBwTRogbluK1CPz+zNogqN5sc2CVYvKnJ4tZD
-pp0fbC2zlMWCAXL/nedXKumNhlX3+cvWcPZqk+xnOD7hFnv8Pwyv5z0Q99R+c7op
-EvHweu+ogRWsX6JGNCgEvLgk8skPXgD8mq4OckS6BV22xRCJPiN8Z1EyakvUerHO
-zFCTE7WXKXDZ6oVhVrx0LH6uLhRJ0fMobRZNQGu9cfmC/Yv78U5TQLlDpIr01BNu
-AypKU7Bn8irBJ9avxsblOfIvTlf9eF5RZWZ66TrP50ycH63JNJpZc9t/UA8Ubv7/
-qr9SoZkmk1bs9PEGnGGlmiYXijmRWFlOEig5XzvdasMwlLNeGR/HJEb2mXoJol6F
-m96tsvxPyfw84+EfyrmY7O8ag01MRpQ0eI76D2zpuLE1I3e+UYP4cObrV36UupsP
-4kya2f64GaVmXmWKJEWP6cmi5AVJH9l78jvDhXx//4ctH7Ah5jTYQHJy61RSCmYw
-Jhf7jDTBgxBwBsaBl96+WXY6
-=/uxF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFi4/wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D/oP/R6YsBvaxN7o952y6GjP
+iB3sG36qWUx/V6N0rjzKd9bLHqtFiXRo2pCTlj3nhaQ8Ym/fOLgZ4BQhIjbZNfCN
+fZ33TPPoBS3Kl3JPhr5pUs+NX4okH/YG+fZvTfybrer5XCfEmGd76dXLC8voyAiE
+O22RzKSq0Y1mmuFZEi/a73RaTKkOSNsLvXMZZqYpIxvfrOdP4UJ/8T5NyBqumYc2
+oOLGY0ppV3npQ61Ro2OnhFu1lJNHf6nA+z3kGwtnUvkpfjDMKKTAewehCNKsPARR
+Y1UXQOKuZI25MfDv5upP2py9951H9SWScVFWPeqBkn/2JCX+UdQAozPbmsf5JLh/
+O5rE5u3pDFnMRtophh9w4zN9WciYGKwDLh0DPmg6Tl5tsO4fW+RoplV59xZ3Tllw
+NfotppjT9H5Clv/Ccq2zPcorq0elRfRpnH1sOTUmDX0nBBfq9opBAnosVzl2QANx
+oEEJUOaHyCK/FTJzyiidhK3lA47N7Xe7fm7g1fdo/NCrw6bo4y5hwCf5BlT05GJm
+NEpaVAzv4i3pEKdCGm9tS9gyFQJbnOagWR4CDPNwuYWoRzo8Jz7/8Jsdv74bhp7Q
+Ekzjt/F4jUGUVbEG2O6C6tV/VmYIBLUcqVkhKSiF2O9YoEetkBH+FUB8cCmhD9b5
+B7+uiabu3rirWYJ4QIFeV8lE
+=Eg4v
 -----END PGP SIGNATURE-----
 
---===============8217325411548359277==--
+--===============6691145238264942820==--
