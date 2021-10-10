@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 10 Oct 2021 19:46:28 -0000
-Message-Id: <163389518825.12890.14771092366578229816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 10 Oct 2021 20:27:38 -0000
+Message-Id: <163389765848.6223.10271232580660497571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/rtc-next
-    old: 27ff63eb076c31086e0a72d41b5c635193a58516
-    new: 7caadcfa8a7c6f8e754d982b99d959a222e7f863
+  - ref: refs/heads/for-next
+    old: 59d7f5f6ddbc23f6ca4a0523c85dc18f027c80d9
+    new: 6d27788160362a7ee6c0d317636fe4b1ddbe59a7
     log: |
-         3109151c47343c80300177ec7704e0757064efdc rtc: mcp795: Add SPI ID table
-         f3606687b447c41d28a011c98373b62b1cd52345 rtc: msc313: Fix unintentional sign extension issues with left shift of a u16
-         7caadcfa8a7c6f8e754d982b99d959a222e7f863 rtc: m41t80: return NULL rather than a plain 0 integer
+         6d27788160362a7ee6c0d317636fe4b1ddbe59a7 ALSA: usb-audio: Add support for the Pioneer DJM 750MK2 Mixer/Soundcard
+         
+  - ref: refs/heads/master
+    old: 284d2f5b7d8b69344c4f38144349738e21eb19e1
+    new: 1d0c7572732281bd4a0719e770533388f972312d
+    log: |
+         6d27788160362a7ee6c0d317636fe4b1ddbe59a7 ALSA: usb-audio: Add support for the Pioneer DJM 750MK2 Mixer/Soundcard
+         1d0c7572732281bd4a0719e770533388f972312d Merge branch 'for-next'
          
