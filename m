@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5005624336327957192=="
+Content-Type: multipart/mixed; boundary="===============7162573160784510218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 11 Oct 2021 11:13:59 -0000
-Message-Id: <163395083945.18459.10433257421899885954@gitolite.kernel.org>
+Date: Mon, 11 Oct 2021 11:14:36 -0000
+Message-Id: <163395087675.18772.1251251948309850853@gitolite.kernel.org>
 
---===============5005624336327957192==
+--===============7162573160784510218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: a6d06ef25c4e1a17d287aafcc200e82ecb7644a8
     new: 7413431c622fec602c030b7333f7e1a4c81b37ce
     log: revlist-a6d06ef25c4e-7413431c622f.txt
 
---===============5005624336327957192==
+--===============7162573160784510218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -396,4 +396,4 @@ ac716d0d92cbb48cd635a4ac41829f8ebd7f369c Merge remote-tracking branch 'tip/locki
 a5dd661e53635877debbf48045913266b429950a Merge remote-tracking branch 'tip/sched/core' into tip-master
 7413431c622fec602c030b7333f7e1a4c81b37ce Merge remote-tracking branch 'tip/x86/fpu' into tip-master
 
---===============5005624336327957192==--
+--===============7162573160784510218==--
