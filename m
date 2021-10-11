@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 11 Oct 2021 15:52:38 -0000
-Message-Id: <163396755836.12799.14565918538910887422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 11 Oct 2021 16:09:36 -0000
+Message-Id: <163396857652.22045.3534671742054820263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/kvm-arm64/pkvm/restrict-hypercalls
-    old: 057bed206f70d624c2eacb43ec56551950a26832
-    new: 53e8ce137f7b34bd7a54429d18e0d0e5f56f54e8
+  - ref: refs/heads/net-next-mlx5
+    old: 0182d0788cd66292cb1698b48dd21887d93c68ed
+    new: ce8bd03c47fc8328e82a48d332fba69fd538e9bf
     log: |
-         53e8ce137f7b34bd7a54429d18e0d0e5f56f54e8 Documentation: admin-guide: Document side effects when pKVM is enabled
+         ce8bd03c47fc8328e82a48d332fba69fd538e9bf ethernet: sun: add missing semicolon, fix build
          
