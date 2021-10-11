@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 11 Oct 2021 13:54:02 -0000
-Message-Id: <163396044218.27536.10300789170396886266@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2261158633626755335=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 11 Oct 2021 13:55:58 -0000
+Message-Id: <163396055882.29561.9103654645425447709@gitolite.kernel.org>
+
+--===============2261158633626755335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: 432cce21b66c49b1951d046d3ffc5d52fdad6265
-    new: 0b243c003e11897bd443ae9be4eda76a57ff732a
+  - ref: refs/heads/master
+    old: d3b733910ff3e65d972c6771a859464645912031
+    new: 9f6209881abac334d4e6f27c26a84dcf78193daa
     log: |
-         95384b3e47afa04d7dfa014f6a52662852645578 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
-         0b243c003e11897bd443ae9be4eda76a57ff732a platform/x86: intel_skl_int3472: Correct null check
+         9f6209881abac334d4e6f27c26a84dcf78193daa Add 01B1E128E7A04030 (Marco Elver)
          
+
+--===============2261158633626755335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1633960558 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1633960558-360f8eb40a497590d8819a41849dfb2423342536
+
+d3b733910ff3e65d972c6771a859464645912031 9f6209881abac334d4e6f27c26a84dcf78193daa refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYWRCbgAKCRC2xBzjVmSZ
+bMP2AQDvRCd6GziiPQspai01wI+A4nS//EeVNI9M/2BZGPF3jwD7BTPSVQIDRcp0
+dc4XrPgpXDFdu4Yz+rMR872i35vTAAc=
+=uH2C
+-----END PGP SIGNATURE-----
+
+--===============2261158633626755335==--
