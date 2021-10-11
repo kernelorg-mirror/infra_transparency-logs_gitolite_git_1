@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2201736777892635456=="
+Content-Type: multipart/mixed; boundary="===============6569258099544557863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Oct 2021 11:18:37 -0000
-Message-Id: <163395111713.21767.12848253228058662554@gitolite.kernel.org>
+Date: Mon, 11 Oct 2021 11:18:38 -0000
+Message-Id: <163395111866.21829.12659902875182377066@gitolite.kernel.org>
 
---===============2201736777892635456==
+--===============6569258099544557863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,66 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 1dec1b3b6d9455a1a85891ff258de1a57e1d7f62
-    new: f5fec69f3a4bff36b9907afffd0092201fee4209
-    log: |
-         2326f911abf92309cda023383a1913df4df83e46 USB: cdc-acm: fix racy tty buffer accesses
-         07b84b3a3cf4dae976c1d06b4d70f4923fc0fc36 USB: cdc-acm: fix break reporting
-         3e91ffd6f35bea12c4d58f419f73ba655f0790a9 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-         b774efb39ee5f9f8e44d19ebf83884162f755551 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-         5bf0632f895b259cdeea6baa88b2631144e96b87 phy: mdio: fix memory leak
-         37abb12c9532abbd022554840610194d6b65c2a8 net_sched: fix NULL deref in fifo_set_limit()
-         d202c8b78640788eb302f1ebc7484553d435b758 ptp_pch: Load module automatically if ID matches
-         e511ae28824f9b45b5b6e39f0caca10b01b331df ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-         c877983412e7f21955e62e56c167368917660faf netlink: annotate data races around nlk->bound
-         da160014aa91f7a514ccebca485bfd45d842d95c i40e: fix endless loop under rtnl
-         f5fec69f3a4bff36b9907afffd0092201fee4209 Linux 4.4.289-rc1
-         
+  - ref: refs/heads/linux-4.9.y
+    old: b78d5f960ede2dd796e0ed9fb067734d806f1703
+    new: e09d5a64b41f1038d8624409d3b03463903294ef
+    log: revlist-b78d5f960ede-e09d5a64b41f.txt
 
---===============2201736777892635456==
+--===============6569258099544557863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633951114 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633951116 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1633951113-3b92b433191608a20bd8002f4ba5acf481497317
+nonce 1633951115-1884d90710e1428eaa9b6ccf4bb1b9080911e300
 
-1dec1b3b6d9455a1a85891ff258de1a57e1d7f62 f5fec69f3a4bff36b9907afffd0092201fee4209 refs/heads/linux-4.4.y
+b78d5f960ede2dd796e0ed9fb067734d806f1703 e09d5a64b41f1038d8624409d3b03463903294ef refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFkHYsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1iEP+wVhY/vPjyOum6i95u7l
-fWNhC/VR+BRyzjHb9obNO2COWs9ZzTEFoDe52S+U90LFXH0MQu6+KJ8ndFOZ919V
-57wFYGjKP4V8wQgVpADueT1q2fvTVZLorLilPa8GMwUz1DPZgBnVt+/1jOt9i0m+
-IRT3szFAuib6PuZ2vh1Ni7Ni8ky4xjrICU1m++yMIAQdhguVolZ2bebdlF3c0mJA
-UvIq2bWk3OMLdZBzwXde5zDlV1qPZo+7p8E4uclljYjM50ny4CxV55VO4kRpNxsC
-foBU7xst4loUinq670r9pC67Mu4ZqrcjwkTbyDQAiohSQfH8AuUfWHzSVZIiMqTJ
-YZMsWtEN3BrvYUllAhVDJgT+sPw9EO7zsVRbygh08YwhZX7e8va4qxROUmFxmsKg
-eBoQpyVDMvUn1xKgxfVUZ5DBt++IUybY4QfQnFnZMUmVaUqgPmYeDa3cJx3Vyu8j
-cR5mNBWXyRx19JjzPCJdgqjqV3VS5rjnTVT+OuxzbOyg9G9F4cxD6nFZ1FTj0g3f
-D7VdiAsMe3XxKfWinH+rDDGJTAu3dOV3KO9cNNDlxHeVvxnLpTNjmxEHEVa9Th76
-Jpni4kLeRi1jTLI6FwOInWYhNl0ZUOPhSlUAwGrDERpTa2db/x5tholn2i8i3U+b
-wGFHIBalL/Lp5unqJpbuxcLf
-=load
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFkHYwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CtgP/34T6R13Y1xumI5UB8Lh
+1yC6LP1P2HCjNeA3zCp2cAK4vAwrjuq27BnZVIfO832sw7gzpiVv7H1Kf2BAF+N3
+06Di669QVyMqQa/TMbpfUIFJa/Vyn9e7q7KO+BjMYjr1zeg4TApW4bvQ4bVbVnkH
+lIMfh9cimmld2+LI3zM5x0UMa/tfANZ2Cnsa+4ubGFfjBtQ+FKhsbq6srjda6E+o
+8K49ouITk/9U3nEU/QIrZ21PUrquPq6zTofaqPCTfhL7Pa1HpQBKhOTWOGCxa4M9
+LEfkNSF4mFfmv0ltE7tLjcaJ3OK21obXvTKIpfIhupDxf7hdCk8D4sRBdhEmZ9MI
+SZbkkGb0ncxTvudWu+fY6Y4j2TqaVrS7/JAHO3F4x2VLuiN1bYIvhH1V5pxIRmnd
+AzqHt6P4ISsfsIs23flQZolxABYuiTTmNRkpdfQ3+gp5lSxTvQ69mrRFaKxzjMrS
+V9RYwZp9w5Wc/zDuRD2Lavki/iIqBPQFj/zztSXTA4mVRxDNN7Xsas0q6dA+0UxN
+PXTFHZ4EpSXxQ/83szoI+Tk6EvhSYt4ZvVU8eothTwiwM3k7WGrU34lPeGBvQZvP
+zTW/hS8Xt6aZ2vGuQFD6ZYy5Iq8vrCx5LrDovadM1uORyczWIz2FD3GKbSuWHI0v
+nBQxpuHfECbUP+ASU/xwTEm2
+=6diR
 -----END PGP SIGNATURE-----
 
---===============2201736777892635456==--
+--===============6569258099544557863==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b78d5f960ede-e09d5a64b41f.txt
+
+05e1354cac07e8dd97c3d91c57d58224d2e8d91c Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+c93e704a2aa199261b68a29f806037ca93a8d2e2 USB: cdc-acm: fix racy tty buffer accesses
+e78b08d3ec2681c6c9e913551227da00eddd0950 USB: cdc-acm: fix break reporting
+bc2dc99a4a576b131f5bf39f054c71fafbd75b17 ovl: fix missing negative dentry check in ovl_rename()
+cae1c5060a89410459cd1eaa26c0deb34ba67f11 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+9024b5bc4951e48c65381d014757be9124792b1d ARM: dts: omap3430-sdp: Fix NAND device node
+0894d4a035939b05d02aa79a57ba06d7ce29553d xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+a2f7a038707281d7504c4b496031da26e719791b bpf: Fix integer overflow in prealloc_elems_and_freelist()
+566fcb4d1441a21334b54c398f7cf57069822c6b phy: mdio: fix memory leak
+8fe72025b38e681c99c5836122d654e3eea77545 net_sched: fix NULL deref in fifo_set_limit()
+242e1ba16d0f164a792e372cb903abf92825daa4 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
+22961d9df107a03be2c210630c9b6f9d112197d8 ptp_pch: Load module automatically if ID matches
+46182f700653f19f3a8f76490e33821bec87777c ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+81e9f75e3f5190843b6bab8cbbdba712abe38c40 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
+86441fa9e3a96cbd037fa2dc2d023a0f0c9fc088 netlink: annotate data races around nlk->bound
+917ce75482cec20859a96c5a74e0ab18c8385a7a drm/nouveau/debugfs: fix file release memory leak
+c533a5d6a94835373d1a7a9da2c60e9bed50886a rtnetlink: fix if_nlmsg_stats_size() under estimation
+5611f84da65d169f6ae08b2034d8948c34076c9e i40e: fix endless loop under rtnl
+36a979c886d49b6560502a8df33b9b4de1271265 powerpc/bpf: Fix BPF_MOD when imm == 1
+e09d5a64b41f1038d8624409d3b03463903294ef Linux 4.9.287-rc1
+
+--===============6569258099544557863==--
