@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6678884802484246119=="
+Content-Type: multipart/mixed; boundary="===============6631965151453942404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 11 Oct 2021 19:18:07 -0000
-Message-Id: <163397988711.12110.8125501521296553576@gitolite.kernel.org>
+Date: Mon, 11 Oct 2021 19:18:23 -0000
+Message-Id: <163397990375.12245.10973400125610576426@gitolite.kernel.org>
 
---===============6678884802484246119==
+--===============6631965151453942404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
-    new: 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc
-    log: revlist-9e1ff307c779-64570fbc14f8.txt
+  - ref: refs/heads/fixes
+    old: a46044a92add6a400f4dada7b943b30221f7cc80
+    new: 8e683e1ad3c23c23ced8640a3c01e29b746394e3
+    log: revlist-a46044a92add-8e683e1ad3c2.txt
 
---===============6678884802484246119==
+--===============6631965151453942404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e1ff307c779-64570fbc14f8.txt
+Content-Disposition: attachment; filename=revlist-a46044a92add-8e683e1ad3c2.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -140,8 +140,6 @@ bb4a23c994aebcd96c567a0be8e964d516bd4a61 riscv/vdso: Refactor asm/vdso.h
 5155cf7b6aaefe64d7d7e1f8ca1871fce55444c4 Merge remote-tracking branch 'palmer/riscv-vdso-cleanup' into fixes
 b2a4f4a302b83976ad0d2930abe0f38e6119a144 ARM: dts: imx: change the spi-nor tx
 04aa946d57b20c40e541fb4ba2bcb390a22f404c arm64: dts: imx8: change the spi-nor tx
-686cb8b9f6b46787f035afe8fbd132a74e6b1bdd bpf, s390: Fix potential memory leak about jit_data
-a46044a92add6a400f4dada7b943b30221f7cc80 s390/pci: fix zpci_zdev_put() on reserve
 ef162ac50d5512e51da53b4c971597aabac7ea1f ARM: dts: at91: sama7g5ek: add suspend voltage for ddr3l rail
 e42cbbe5c9a2a8423db4b1c32ec2a443d4de6323 ARM: at91: pm: group constants and addresses loading
 d8d667ee0236dec6d717f27eec690d1324e7f322 ARM: at91: pm: preload base address of controllers in tlb
@@ -365,5 +363,8 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 75cd9b0152d9a46017eddfc3b80b1a00c921196a Merge tag 'objtool_urgent_for_v5.15_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
+b1817f09e0a8d493f8cb93e02412c0c58e6c1ac2 s390: fix strrchr() implementation
+e39497c704a1e992d5ecc75d461e1d1cf9a7beb5 KVM: s390: remove myself as reviewer
+8e683e1ad3c23c23ced8640a3c01e29b746394e3 vfio-ccw: step down as maintainer
 
---===============6678884802484246119==--
+--===============6631965151453942404==--
