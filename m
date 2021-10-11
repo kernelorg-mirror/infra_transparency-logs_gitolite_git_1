@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 11 Oct 2021 14:42:01 -0000
-Message-Id: <163396332169.30634.14114263450231108838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 11 Oct 2021 14:42:21 -0000
+Message-Id: <163396334171.30791.16631080589594468081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/rcu/rt-v2
-    old: 0000000000000000000000000000000000000000
-    new: 2c9349986d5f70a555195139665841cd98e9aba4
+  - ref: refs/heads/review-hans
+    old: 0b243c003e11897bd443ae9be4eda76a57ff732a
+    new: 85303db36b6e170917a7bc6aae4898c31a5272a0
+    log: |
+         85303db36b6e170917a7bc6aae4898c31a5272a0 platform/x86: int1092: Fix non sequential device mode handling
+         
