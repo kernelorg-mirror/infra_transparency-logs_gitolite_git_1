@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6778691739278692929=="
+Content-Type: multipart/mixed; boundary="===============2209554391226289405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 11 Oct 2021 16:48:07 -0000
-Message-Id: <163397088759.14364.11277723605551026383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Oct 2021 16:48:14 -0000
+Message-Id: <163397089453.14486.18116977393998035073@gitolite.kernel.org>
 
---===============6778691739278692929==
+--===============2209554391226289405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/spi-5.15
     old: 67a12ae52599c9f2f24ef14adb43fc3b164792b5
     new: 75b3cb97eb1f05042745c0655a7145b0262d4c5c
     log: |
          75b3cb97eb1f05042745c0655a7145b0262d4c5c spi: bcm-qspi: clear MSPI spifie interrupt during probe
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/spi-5.16
     old: a0ecee320158909135dd182d2eefbf18c114e8d2
     new: 923f508f9ec76c7f07a612525bfa737e95d0b9f1
     log: |
@@ -32,29 +32,29 @@ changes:
          923f508f9ec76c7f07a612525bfa737e95d0b9f1 Merge series "spi-bcm-qspi spcr3 enahancements" from Kamal Dasu <kdasu.kdev@gmail.com>:
          
 
---===============6778691739278692929==
+--===============2209554391226289405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1633970885 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1633970884-888c49cdcd2877cd619a234fd233b8e1e4847cf7
+pusher C3F436CA30F5D8EB 1633970892 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1633970892-6a15107b1aabaabddd9bc2c2e3db9c009f67581e
 
-67a12ae52599c9f2f24ef14adb43fc3b164792b5 75b3cb97eb1f05042745c0655a7145b0262d4c5c refs/heads/for-5.15
-a0ecee320158909135dd182d2eefbf18c114e8d2 923f508f9ec76c7f07a612525bfa737e95d0b9f1 refs/heads/for-5.16
+67a12ae52599c9f2f24ef14adb43fc3b164792b5 75b3cb97eb1f05042745c0655a7145b0262d4c5c refs/heads/spi-5.15
+a0ecee320158909135dd182d2eefbf18c114e8d2 923f508f9ec76c7f07a612525bfa737e95d0b9f1 refs/heads/spi-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFkasUACgkQJNaLcl1U
-h9DPfgf7Bv9F9FkckZEiBb4jLqp2dMsOLBJ/ZuM1+rz+Fr2fHvXGZxRiP9fSVn/F
-Vc8nBCaQDai94/3lKpZst0plxDCegTtsAS1mvAplS5y4VEMuoYGs4JEfmjRj0XBf
-ibcIA3Z0W3nf1MGUqGrkvbFduqlflZTSu2N6xkDGFeSAR15cLyqsYiwKBgxLtYpE
-uYB0kD8vHUOHzbBIPzrV5E7vIY9WlNaeB0GFB2coPQMR2gmY1EFSm+dCuRVYR/qU
-NIH+w2bVOVzQt/rfp8d1w9kuKM7yWgdvC5uE+p/Y7kS8n4V1yZUxgJdUl0qcR27F
-dy9LRCRbDGVbMF/+E3JmWKCJ9nTx6A==
-=ggGW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFkaswACgkQJNaLcl1U
+h9D4Hwf+NJrifozt+Kq+KCukk0TZJI++BOnyFxfZrRsaLxCpU5WflkoagYTV+09V
++KSJXkcljlS4YfUTqDOwpnxX6QUJkDW52kLoLTKCkHfrBhZsV/n9vRhnL6VHHqPG
+PAYc+vyop8dIaIwWFJbEDUSQOae3agh2K6OtPOxFjw0THLHJupcHmcfalB6JU6Sj
+tpkW01bPYW2fovonNdxUBvvw9rtYd04rHfO3lpNBOopacwspgtTVPwSPzVxXVm1b
+1xNFXbyJ1pRJmphut1qADDhP+rBD2YAM/yhburK1CAMfVUxOV2D2W0zPV7cNVtz1
+4Cp6lC2AE/ILkQ8vB1FjuH4NGCZqnQ==
+=r+I0
 -----END PGP SIGNATURE-----
 
---===============6778691739278692929==--
+--===============2209554391226289405==--
