@@ -1,73 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1581992663827220056=="
+Content-Type: multipart/mixed; boundary="===============7206950007610071832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 11 Oct 2021 16:47:53 -0000
-Message-Id: <163397087304.13892.15633762108809028996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 11 Oct 2021 16:47:54 -0000
+Message-Id: <163397087472.13996.16914650498932522996@gitolite.kernel.org>
 
---===============1581992663827220056==
+--===============7206950007610071832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-5.15
-    old: 214174d9f56c7f81f4860a26b6b8b961a6b92654
-    new: c448b7aa3e66042fc0f849d9a0fb90d1af82e948
-    log: |
-         c448b7aa3e66042fc0f849d9a0fb90d1af82e948 ASoC: soc-core: fix null-ptr-deref in snd_soc_del_component_unlocked()
-         
-  - ref: refs/heads/for-5.16
-    old: cacbce45f5df9840f672129bdccd3f3e02343c0e
-    new: 45ea86200847424e7d99bf43de832c124be08d78
-    log: revlist-cacbce45f5df-45ea86200847.txt
+  - ref: refs/heads/mlx5-queue
+    old: d54d2dcabf8fcefb551d61f047314e2d7080215e
+    new: 25edcbbcd0c39a1de892b1be2197c15ca703f2f1
+    log: revlist-d54d2dcabf8f-25edcbbcd0c3.txt
 
---===============1581992663827220056==
+--===============7206950007610071832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d54d2dcabf8f-25edcbbcd0c3.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1633970870 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1633970869-a24a0ce64b7db53f038b521270c9157eea3807db
+ce8bd03c47fc8328e82a48d332fba69fd538e9bf ethernet: sun: add missing semicolon, fix build
+fc7048a4b6ca1f07ac17939f3ea0ed6df2d76e3c net/mlx5: CT: Fix missing cleanup of ct nat table on init failure
+a67a6b53495b3a5559d5e037590f62b488580667 net/mlx5e: Switchdev representors are not vlan challenged
+b2bb781f41b6281bc3c00fd145c6400a4daf5344 net/mlx5: Support partial TTC rules
+77b467b221cf40fde41d2f789905986634570b13 net/mlx5: Introduce port selection namespace
+990f61941578607afa98a2f5fb686020199d192f net/mlx5: Add support to create match definer
+35d673c02b7ac9216448620d337dabfbb568d020 net/mlx5: Introduce new uplink destination type
+9cb34cd1c51b35e713b2645c7eebb355e77c1124 net/mlx5: Lag, move lag files into directory
+97a114b1f76a001d7235c9f0c8dbf8a4f05f5fcb net/mlx5: Lag, set LAG traffic type mapping
+22b657834f8716d2ed5ab2fbad7d87322a77cc92 net/mlx5: Lag, set match mask according to the traffic type bitmap
+d05bfcf772ffc6d55802dab3679c78c9695a886d net/mlx5: Lag, add support to create definers for LAG
+f6689e6662b5c3d0802186b3047c59d09636f575 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+4c2e4aa893b095783acbbcdffc5ef3eedae26f4e net/mlx5: Lag, add support to create/destroy/modify port selection
+0044ac9c206bdccfeed82bfc43fa93d9e423f678 net/mlx5: Lag, use steering to select the affinity port in LAG
+b01c603f11306dceba1134172b1e520850c7055d net/mlx5: E-Switch, Use dynamic alloc for dest array
+5a6dfe6e0d4c73bdb88c6ca4814195bf76e9da80 net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+19769c430b10ed72b928c3cfc916f51f79327213 Merge branch 'patchq/435099' into mlx5-queue
+1d2b2bbabe9727d87aad6f0d66450e3aaa18bc5f Merge branch 'patchq/414851' into mlx5-queue
+25edcbbcd0c39a1de892b1be2197c15ca703f2f1 Merge branch 'patchq/428803' into mlx5-queue
 
-214174d9f56c7f81f4860a26b6b8b961a6b92654 c448b7aa3e66042fc0f849d9a0fb90d1af82e948 refs/heads/for-5.15
-cacbce45f5df9840f672129bdccd3f3e02343c0e 45ea86200847424e7d99bf43de832c124be08d78 refs/heads/for-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFkarYACgkQJNaLcl1U
-h9CcUQf+KNuK9tjP20KrjZs1CVtGuatyalKfTD7TNIjuWKKykelcpMfgk8QRGol3
-uiYbpcdflpnSnYI/BNvs3TYpg94DuojB4Xiz7pNVL5WiLUK1Bh3emdwVfZ5uIexC
-dhmzrXKG5Kxf2wRvXAw588ss7X18mnc/31ymQTIaAww3Z6KCI5V7YEkaWvCxzktd
-nMXOfX9vZQJ173cH9aWyBqsP1EnAYsb/tIu2R1d45PZ769G6qDNOAX/IvEqfYrQv
-ba9jnvWC3oiMhgv+BqMUxvidtEdQY6NcallaTaJepGN0PDnn8vTRl1S5WJaR8SbZ
-3G7xzBSff7FHf4wpnNeLQywhigN24Q==
-=/EOR
------END PGP SIGNATURE-----
-
---===============1581992663827220056==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cacbce45f5df-45ea86200847.txt
-
-281ddf62f551321982c7d6f525a83a3b3c1d5eae ASoC: amd: Kconfig: Select fch clock support with machine driver
-81a13ac7e3e490a76fafb7f62d1dd751ae94ca11 sh: Use modern ASoC DAI format terminology
-e86c1893d6785a0f5e5d82cd161b991564720eaa ASoC: Intel: bytcr_rt5640: Get platform data via dev_get_platdata()
-81d43ca17506ba32c6ead7fe4cf3b7f37368cc83 ASoC: Intel: bytcr_rt5640: Use temporary variable for struct device
-a15ca6e3b8a21ff335a2eedbc5ba4708967be2be ASoC: Intel: bytcr_rt5640: use devm_clk_get_optional() for mclk
-ee233500eea421118cd9d53c82fd5e612f6d7bd5 ASoC: Intel: bytcr_rt5640: Utilize dev_err_probe() to avoid log saturation
-0c465e7a8ea26f4ad52dd9548f22afdaf6e039a5 ASoC: Intel: bytcr_rt5651: Get platform data via dev_get_platdata()
-269da8f7626b1de69998fe1a0c0e069749d18a28 ASoC: Intel: bytcr_rt5651: Use temporary variable for struct device
-a8627df5491e00e23d4f2e648ff796adbfa23cc5 ASoC: Intel: bytcr_rt5651: use devm_clk_get_optional() for mclk
-45c5dc45d80d41596bc0364fafc523648e6124d8 ASoC: Intel: bytcr_rt5651: Utilize dev_err_probe() to avoid log saturation
-45ea86200847424e7d99bf43de832c124be08d78 Merge series "ASoC: Intel: bytcr_rt5651: few cleanups" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
-
---===============1581992663827220056==--
+--===============7206950007610071832==--
