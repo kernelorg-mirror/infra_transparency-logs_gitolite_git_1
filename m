@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8776514729705649340=="
+Content-Type: multipart/mixed; boundary="===============2272656036570336011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 11 Oct 2021 10:00:11 -0000
-Message-Id: <163394641140.6017.14734960574520650788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 11 Oct 2021 10:00:54 -0000
+Message-Id: <163394645479.6283.16921457526046805128@gitolite.kernel.org>
 
---===============8776514729705649340==
+--===============2272656036570336011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
     new: 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc
     log: revlist-9e1ff307c779-64570fbc14f8.txt
 
---===============8776514729705649340==
+--===============2272656036570336011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -366,4 +366,4 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
 
---===============8776514729705649340==--
+--===============2272656036570336011==--
