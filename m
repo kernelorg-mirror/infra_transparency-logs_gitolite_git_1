@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2798238710589888948=="
+Content-Type: multipart/mixed; boundary="===============5209209032659692226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 Oct 2021 08:36:05 -0000
-Message-Id: <163394136570.698.9105090668177553001@gitolite.kernel.org>
+Date: Mon, 11 Oct 2021 08:36:27 -0000
+Message-Id: <163394138728.934.18020182507092837755@gitolite.kernel.org>
 
---===============2798238710589888948==
+--===============5209209032659692226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 6621cb4a2d0a40c54adf378bf2a17a50f91cc831
-    new: 8a3c0a74ae87473589cb881a3854948d40000b7a
-    log: |
-         8a3c0a74ae87473589cb881a3854948d40000b7a m68k: defconfig: Update defconfigs for v5.15-rc1
-         
-  - ref: refs/heads/for-v5.16
-    old: 6621cb4a2d0a40c54adf378bf2a17a50f91cc831
-    new: 8a3c0a74ae87473589cb881a3854948d40000b7a
-    log: |
-         8a3c0a74ae87473589cb881a3854948d40000b7a m68k: defconfig: Update defconfigs for v5.15-rc1
-         
-  - ref: refs/heads/master
-    old: 29fd79b016216df98715c5887969ea571b27409f
-    new: 6ef3012a72516d31109f7fcec7e8d458f4b514fd
-    log: revlist-29fd79b01621-6ef3012a7251.txt
+  - ref: refs/heads/m68k-queue
+    old: f5aecbac0f3282e5b15b8a0687ba6d7ad9d5e168
+    new: d17ab26832b350f1bc51bbf2a5945043ea82d9c9
+    log: revlist-f5aecbac0f32-d17ab26832b3.txt
 
---===============2798238710589888948==
+--===============5209209032659692226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29fd79b01621-6ef3012a7251.txt
+Content-Disposition: attachment; filename=revlist-f5aecbac0f32-d17ab26832b3.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -377,6 +365,9 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 75cd9b0152d9a46017eddfc3b80b1a00c921196a Merge tag 'objtool_urgent_for_v5.15_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
-6ef3012a72516d31109f7fcec7e8d458f4b514fd Merge tag 'v5.15-rc5'
+d4fd4141fbd26a6a6c8442f2e4e7303f5b9b610d m68k: muldi3: Use semicolon instead of comma
+4f4715aa787076daca8293a935d530ff44f68ac8 m68k: atari: usb: Add ISP1160 USB host controller support
+faba16763dc6ed51a1c8181ac9f45afb3f779b8e m68k: atari: Update Kconfig.bus help text
+d17ab26832b350f1bc51bbf2a5945043ea82d9c9 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2798238710589888948==--
+--===============5209209032659692226==--
