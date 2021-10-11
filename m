@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4489973124393004561=="
+Content-Type: multipart/mixed; boundary="===============7818305657704963890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 11 Oct 2021 16:48:47 -0000
-Message-Id: <163397092792.15066.15651564932267926008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 11 Oct 2021 16:48:59 -0000
+Message-Id: <163397093978.15566.18440496621563653490@gitolite.kernel.org>
 
---===============4489973124393004561==
+--===============7818305657704963890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 393cc784d14dd36b9d22429283ba421217190380
-    new: 81f2982909cdd94f8fc58f36ec2bbf91780d17c4
-    log: revlist-393cc784d14d-81f2982909cd.txt
+    old: 231dc15e1ddcec5fbf2608b2e14e1722422c1107
+    new: 970283fadd182463c6fb5a5456764687ebeab0b6
+    log: revlist-231dc15e1ddc-970283fadd18.txt
   - ref: refs/heads/for-next
-    old: fabe706a7586c9dded54cfd60bf2b28fe12fb3be
-    new: d8b0c9f074173660f4a59fb577cbe6b4a324e0de
-    log: revlist-fabe706a7586-d8b0c9f07417.txt
+    old: 131cbfbd9262f15a6b37c83a626a0d62f0297f6f
+    new: 4a8f742e0d926794c1db8f1958a612428d0f8530
+    log: revlist-131cbfbd9262-4a8f742e0d92.txt
 
---===============4489973124393004561==
+--===============7818305657704963890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-393cc784d14d-81f2982909cd.txt
+Content-Disposition: attachment; filename=revlist-231dc15e1ddc-970283fadd18.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -369,13 +369,14 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 75cd9b0152d9a46017eddfc3b80b1a00c921196a Merge tag 'objtool_urgent_for_v5.15_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
-81f2982909cdd94f8fc58f36ec2bbf91780d17c4 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
+75b3cb97eb1f05042745c0655a7145b0262d4c5c spi: bcm-qspi: clear MSPI spifie interrupt during probe
+970283fadd182463c6fb5a5456764687ebeab0b6 Merge remote-tracking branch 'spi/for-5.15' into spi-linus
 
---===============4489973124393004561==
+--===============7818305657704963890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fabe706a7586-d8b0c9f07417.txt
+Content-Disposition: attachment; filename=revlist-131cbfbd9262-4a8f742e0d92.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -716,7 +717,11 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 75cd9b0152d9a46017eddfc3b80b1a00c921196a Merge tag 'objtool_urgent_for_v5.15_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
-81f2982909cdd94f8fc58f36ec2bbf91780d17c4 Merge remote-tracking branch 'regulator/for-5.15' into regulator-linus
-d8b0c9f074173660f4a59fb577cbe6b4a324e0de Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
+75b3cb97eb1f05042745c0655a7145b0262d4c5c spi: bcm-qspi: clear MSPI spifie interrupt during probe
+ee4d62c47326c69e57180da53c057e55f0e73e35 spi: bcm-qspi: Add mspi spcr3 32/64-bits xfer mode
+e81cd07dcf50ef4811f6667dba89c5614278cbdd spi: bcm-qspi: add support for 3-wire mode for half duplex transfer
+923f508f9ec76c7f07a612525bfa737e95d0b9f1 Merge series "spi-bcm-qspi spcr3 enahancements" from Kamal Dasu <kdasu.kdev@gmail.com>:
+970283fadd182463c6fb5a5456764687ebeab0b6 Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+4a8f742e0d926794c1db8f1958a612428d0f8530 Merge remote-tracking branch 'spi/for-5.16' into spi-next
 
---===============4489973124393004561==--
+--===============7818305657704963890==--
