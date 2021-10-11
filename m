@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 11 Oct 2021 23:16:55 -0000
-Message-Id: <163399421585.32432.12487783995529602941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 11 Oct 2021 23:23:35 -0000
+Message-Id: <163399461567.5116.208747915887974258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/dev-test
-    old: 2e73b927d057c3b2e527233001e4d088daecde89
-    new: c2bc8dac89c5db9c61f104f837773a06c353cde0
+  - ref: refs/heads/next
+    old: 4342f70538b929b188c6e370fe24a155e6532eb2
+    new: 0550e9155dfb566e9817b776dd0ece0b3fb361f2
     log: |
-         70a9ac36ffd807ac506ed0b849f3e8ce3c6623f2 f2fs: fix up f2fs_lookup tracepoints
-         011e0868e0cf1237675b22e36fffa958fb08f46e f2fs: fix to use WHINT_MODE
-         cd6d697a6e2013a0a85f8b261b16c8cfd50c1f5f f2fs: fix wrong condition to trigger background checkpoint correctly
-         c2bc8dac89c5db9c61f104f837773a06c353cde0 f2fs: multidevice: support direct IO
+         0550e9155dfb566e9817b776dd0ece0b3fb361f2 Current code contains a lot of racy patterns when converting an ocontext's context structure to an SID. This is being done in a "lazy" fashion, such that the SID is looked up in the SID table only when it's first needed and then cached in the "sid" field of the ocontext structure. However, this is done without any locking or memory barriers and is thus unsafe.
          
