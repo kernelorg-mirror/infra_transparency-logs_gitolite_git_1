@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 11 Oct 2021 16:09:36 -0000
-Message-Id: <163396857652.22045.3534671742054820263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/salsa-lib
+Date: Mon, 11 Oct 2021 16:11:19 -0000
+Message-Id: <163396867950.24015.5242354169563256910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tiwai/salsa-lib
+user: tiwai
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 0182d0788cd66292cb1698b48dd21887d93c68ed
-    new: ce8bd03c47fc8328e82a48d332fba69fd538e9bf
-    log: |
-         ce8bd03c47fc8328e82a48d332fba69fd538e9bf ethernet: sun: add missing semicolon, fix build
-         
+  - ref: refs/heads/devel
+    old: 0000000000000000000000000000000000000000
+    new: 097c3f74a96670bf8b7c7f2beec19eb80c027ccd
