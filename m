@@ -1,64 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2200568265175060403=="
+Content-Type: multipart/mixed; boundary="===============2048720225985913053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 11 Oct 2021 05:50:00 -0000
-Message-Id: <163393140008.25624.12753669920166403489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Mon, 11 Oct 2021 06:00:21 -0000
+Message-Id: <163393202160.487.12403218197481215915@gitolite.kernel.org>
 
---===============2200568265175060403==
+--===============2048720225985913053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/tty-next
-    old: d02b006b29de14968ba4afa998bede0d55469e29
-    new: 2cb3315107b5b3312b0f434efdb3ad354274e2a5
-    log: |
-         3aee752cd0b880b052b2757278227d09673a2abd tty/sysrq: More intuitive Shift handling
-         4c9883e1f4ddc53ff66eeb124a96530435dee22b dt-bindings: serial: 8250_omap: allow serdev subnodes
-         aec079f8875220c2c0657ba22e10099910295e20 tty: serial: atmel: use macros instead of hardcoded values
-         b84d0001512aec42bd3357bf66ab13ade1c633cf tty: serial: samsung: Improve naming for common macro
-         ebabb77a2a115b6c5e68f7364b598310b5f61fb2 serial: 8250_dw: Drop wrong use of ACPI_PTR()
-         0946efc2255feed04803b811bbcbccbaba4e5a91 serial: 8250_dw: Re-use temporary variable for of_node
-         0eb9da9cf20184bdc16729e690ba38e0a2922d81 serial: 8250_dw: Fix the trivial typo in the comment
-         7c4fc082f50431cc0814b47595ec9f9cca285993 serial: 8250_lpss: Extract dw8250_do_set_termios() for common use
-         2cb3315107b5b3312b0f434efdb3ad354274e2a5 serial: 8250_lpss: Enable PSE UART Auto Flow Control
-         
+  - ref: refs/heads/master
+    old: 7932d53162dc6550fc56b013da32c0975784647c
+    new: 0182d0788cd66292cb1698b48dd21887d93c68ed
+    log: revlist-7932d53162dc-0182d0788cd6.txt
 
---===============2200568265175060403==
+--===============2048720225985913053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7932d53162dc-0182d0788cd6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633931399 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1633931397-4b959907ed5d046ec90e3bd42c5bf22e87943800
+c1634b118e846d4d53a3ebe63c0320d23fcb6cc8 ionic: add filterlist to debugfs
+1d4ddc4a5370793a24d37b9bd1e2cb52f42e6d65 ionic: move lif mac address functions
+4ed642cc6538abc8652a7acaf3b94d5356f196a0 ionic: remove mac overflow flags
+ff542fbe5d552a2e34b82a6c845390999f952b24 ionic: add generic filter search
+eba688b15d34cbe721b30919d4f3e373defda8f1 ionic: generic filter add
+c2b63d3449d327ef46e1d074cd97fe22193d8aa1 ionic: generic filter delete
+9b0b6ba6226e02def72e3b6985989c2d6b9c69e2 ionic: handle vlan id overflow
+8c9d956ab6fbd10413398eeb81f433b07c1c23d7 ionic: allow adminq requests to override default error message
+f91958cc962225bfb4d135631379a644b1e2d089 ionic: tame the filter no space message
+154ee116320dab4f619c7986c36054a431fa14bb Merge branch 'ionic-vlanid-mgmt'
+4b70dce2c1b93930fe4728a221a8d8e674c271c5 bnxt: use netif_is_rxfh_configured instead of open code
+c60882a4566a0a62dc3a40c85131103aad83dcb3 hv_netvsc: use netif_is_bond_master() instead of open code
+0199215216978b612d4e8be11e878b87bc643033 mlxsw: spectrum: use netif_is_macsec() instead of open code
+275fdef2d91954330fe8cb3846eb3de6f33f1f2d Merge branch 'net-use-helpers'
+ba3c01ee02ed0d821c9f241f179bbc9457542b8f net: phy: at803x: fix resume for QCA8327 phy
+1ca8311949aec5c9447645731ef1c6bc5bd71350 net: phy: at803x: add DAC amplitude fix for 8327 phy
+9d1c29b4028557a496be9c5eb2b4b86063700636 net: phy: at803x: enable prefer master for 83xx internal phy
+67999555ff42e91de7654488d9a7735bd9e84555 net: phy: at803x: better describe debug regs
+c0288ae8e6bd402785360de5bbc94ded770af000 net: make dev_get_port_parent_id slightly more readable
+6213f07cb542c9651ba614e784bf58ed41354936 virtio_net: skip RCU read lock by checking xdp_enabled of vi
+b9c56ccb436d1e952bb1fc0ddf752669a116b310 ethernet: Remove redundant 'flush_workqueue()' calls
+0182d0788cd66292cb1698b48dd21887d93c68ed octeontx2-pf: Simplify the receive buffer size calculation
 
-d02b006b29de14968ba4afa998bede0d55469e29 2cb3315107b5b3312b0f434efdb3ad354274e2a5 refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFj0IcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWcQALnms0uMGhLrEKjMeezK
-SSv5ypvRI4BpP0glh5dXehUmipyif5OXLfPJYkZjfmoaCknk5cCxHyvkNqrDyyGc
-lNeWTBouqSoc/dZGW0fkLa2pe7UQnSXFVVgbc2lqIYJ4LFi57ra7ivuIprBIzCmA
-YBSODO5Oa7rJLSMve/5yhUfIRbwj3oOLO2r1sXL6xrYzYiURy7/1RborwMl1jVyx
-138SwABTQgobVkgX+pYaPUs/UvHSJhKzmJGip5ML1C4PBKVkYXXK/3C+vpERYp4V
-Pz3zLaUwuq8/uSBRljapmEstaYWBch4QhRgrF8UgXNdlDxtP/JmTb+nnIRRojZ1K
-hkmW2vFWyP/nkbINclZYaCR8EUBEHY/6hf3kJfFHfR0RunQudf91TD4OunPWdKtK
-X/awVg85w7K4hV/aIUe11zAb7Coakyf2zI0uZQ3H073l7ahxP6VtQCiHUDz09qon
-8Iu+8JR/Mzhcc9Q79wDmd88XGrjB/XqXKh9SP14ULvM1vtu4M+3cA2EfHe5CSrKc
-ieSxxZjXldYegCNRWKYUfQnzBzvNzMRhAw6BCV5m5ToWxgDAQ1hMt+l7+sRYLK6N
-YIHtx/vZElyd9xQUtbCxWirn3SAWMAwtETuONvHtNZRohwN11MF1Om8h9vlWk8iW
-yDkiTty9KMkblUj0qCBvJFOY
-=moz9
------END PGP SIGNATURE-----
-
---===============2200568265175060403==--
+--===============2048720225985913053==--
