@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5077574997622133858=="
+Content-Type: multipart/mixed; boundary="===============3870265121291795868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Oct 2021 12:10:13 -0000
-Message-Id: <163395421388.23737.1032919248904731874@gitolite.kernel.org>
+Date: Mon, 11 Oct 2021 12:10:14 -0000
+Message-Id: <163395421420.23758.13190551856287921836@gitolite.kernel.org>
 
---===============5077574997622133858==
+--===============3870265121291795868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 66f3a113a9aa2240ad24874d999bbe654b035cc1
-    new: c7a667b221ec9f39c0edf8df626347a3cf78b3cf
-    log: revlist-66f3a113a9aa-c7a667b221ec.txt
+  - ref: refs/heads/linux-4.9.y
+    old: e09d5a64b41f1038d8624409d3b03463903294ef
+    new: 529999ac7fd49f303f6108440bab84a39954f244
+    log: revlist-e09d5a64b41f-529999ac7fd4.txt
 
---===============5077574997622133858==
+--===============3870265121291795868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,55 +32,50 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633954211 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1633954207-e7cd82de5fd89fb115e6191a91b81ca56810ee90
 
-66f3a113a9aa2240ad24874d999bbe654b035cc1 c7a667b221ec9f39c0edf8df626347a3cf78b3cf refs/heads/linux-4.14.y
+e09d5a64b41f1038d8624409d3b03463903294ef 529999ac7fd49f303f6108440bab84a39954f244 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFkKaMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1YsP/Aj3o0UjYODspmxsw1PM
-3QtAUO+RLG2vnz58rndm75jFhu6eO/aKYaiwrS0Zafqsaf0cuhWb5c/7muHxoucD
-Zuwwg+x0muehIARKBPsBE8ouFYaDqwnOH79eAshIAfpxlyyF2S94+/h1rsnV1QW6
-bQbd+KEvQG9qpkRpPDmyWAeB2kAf4Jd2gg8FdZXN08K/S6Y1ZSRF/aH8R+HgkY9j
-r+WKP0e4GPPrmIJ3eEaudBLb+NqqvPKv9wZuxv75izFYc0Fk3bkrSItDDdtbHe+x
-2pPsEtl2bJZEgDZzIQzdRwS+W1lq9d+B9DXABgq0+7txj/6iCLj552pF5B4jqhGs
-Wt5TEhqqvB3gDxebHFrVlcI1BLLmVg/Ez4FLWs4n4T8gP5qEZjyAW/j8EincOiW0
-ajsTYu1yk351ARF5/4n2X+2/Dkn9Qsc3RRspNk1+78YUlIGoMVEqEmrGTDDugjfI
-/QW4tYAO1H4QOLTub67DV9hq9KCpixMfnHaBPdyeelQklQpgP0Dp4mLbATpmSqyH
-iuxRRysdr9+ck217feYvCJz9moS6gp5G05aWsaFRIkFN8CxZHk6aHDl6CDu19iDX
-VCk7teKzC92Zph8MFIg2pDRE3aVrfqgAQ1SIfROD14CI67r/VZAIgHIsOeTphmGq
-ULo+vWvXPUP8xY0ykHPdc+HC
-=Wlbr
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6L8P/0wocSUG7BUpZI9i4QkL
+W5qEdHQ3B00mIc3tmnQz4KKrSEoetDLoy081g0nk84vhiLQsrkBIyoBGrImpI4Ck
+qaDuQ5BLRPdXRkZ6CdG1ZaND6TfO7luRNa90QOSD4BMZPzf6Nv6PSqgnc/1Peojc
+QbQxKSUaz1Hl5iX03GYSBIL6DN1wjRA6P6bqUUMrr2MLMbv4Xfwy1coTkXChNjPo
+8oVncfpVMfOFJVg5YclwCvr9GG5QoWHc+3+1fjOMqluOLLSx6hMK73l4s10+xdwn
+cQYNjXjZVdp4epgBD3GGHuTJx6hObHPk5H8tUAl1Ot5u51Jfq6jcfcg7Fsg23Ez7
+MneFhjmERz4OVqEkydCfUK4VQooThHHPlbYRMhBGEs769JBk0zQkvafb0LUjzgmF
+9X6mgAu4RPsXfHelaDdXvxBSuXnK67WJBX3PYobgvdtSJevlS4afum6JsIYXd0ju
+/doULv1lpRkuC3fysVMK7tU0o73PQ6RysqcIHrlDvPtioOyaqB2jWtv0MQ+rue+u
+xnLQ/KngRHkGStHWPWikM130qrX5JAe3lQz1kvTlZ5wxAwKUcPs2lg84kPIuhzuf
+PNncf9iGFx8M2oEmVo5VTuqo1SVohIS8QwIYcu/zJq46uVi26c/KTG2SypBdwDaa
+1jqqXLHCR43xkbcIW1JWSiiz
+=QcF4
 -----END PGP SIGNATURE-----
 
---===============5077574997622133858==
+--===============3870265121291795868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66f3a113a9aa-c7a667b221ec.txt
+Content-Disposition: attachment; filename=revlist-e09d5a64b41f-529999ac7fd4.txt
 
-2452fff35f21639e3247c16f2564094974148a02 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-61cdcd76d8446376b3a3483fac6fc2d73b011e84 USB: cdc-acm: fix racy tty buffer accesses
-6f47881efbe3de094a14656bc9c5d9b2944279a3 USB: cdc-acm: fix break reporting
-d6a6f727f9004b1aa586816e3fac24dbb587adb4 ovl: fix missing negative dentry check in ovl_rename()
-06060a3c8f6bafc9b6104621883df76ccceafe56 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-2376eafef37a88b284a911edb9baace1e301f66e xen/balloon: fix cancelled balloon action
-1a8f82676304b613013480b42ede88f2281a4223 ARM: dts: omap3430-sdp: Fix NAND device node
-0513cd1e9462b8cb443100f28edfe1528c04e698 ARM: dts: qcom: apq8064: use compatible which contains chipid
-eeb6bbaf9f02e82136a7d803f247298ec2eacf0f bpf: add also cbpf long jump test cases with heavy expansion
-ffcbe55a1deac4b7718411a70c294f23dbed043d bpf, mips: Validate conditional branch offsets
-adb8484e0fd1936b9ba8a7bd1501dd992cb3f58b xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-44adf71077b5e37d773c62dc35f0e1db64fb74e9 bpf: Fix integer overflow in prealloc_elems_and_freelist()
-c9c37ba0b555ef645ba5e0f2063f45bb4123598d phy: mdio: fix memory leak
-bc96bd48deba6b44dbae530c1214a3e3d287ec57 net_sched: fix NULL deref in fifo_set_limit()
-2182d46be73d6f400e883da8480f4e9762b96649 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
-9a20c4e712a4b52a8a4b8d773b162c4981ee0e6c ptp_pch: Load module automatically if ID matches
-599e10d9e6d515ad3fb7ee368f80d6e41e8609c7 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-38cf4cb91925ad33d3231f61921c943e832c29b8 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
-223516511198012418ea7531c737a3f4ec53f7ab netlink: annotate data races around nlk->bound
-91cfba29cf21ec2e305aafe247bf919bf78c18c6 drm/nouveau/debugfs: fix file release memory leak
-aba6e1029289c2d7f741e4e496097c7907ef2a5b rtnetlink: fix if_nlmsg_stats_size() under estimation
-77eb6469f5e53919f6b4849d435e012aed6cb04e i40e: fix endless loop under rtnl
-c21985f4a94c0403ebd6f87a19b650b9edcfac00 i2c: acpi: fix resource leak in reconfiguration device addition
-4d87d5fb42c2c73b12c9558849b872e6d0f24497 powerpc/bpf: Fix BPF_MOD when imm == 1
-c7a667b221ec9f39c0edf8df626347a3cf78b3cf Linux 4.14.251-rc1
+691c6f393bc89eac23392ce7ffd46311cb91db0a Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+98e7e9b683b4e38e194a6136f4899b1c665c2f0d USB: cdc-acm: fix racy tty buffer accesses
+44f531f1608475c47c6ce1bc879ad84d1d4e7486 USB: cdc-acm: fix break reporting
+9bf17dc547bdd6002e89d24a2958bede88fe8c73 ovl: fix missing negative dentry check in ovl_rename()
+ebc55c4d577731b5d2dd9d6e19c4389819bb6ef1 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+6a13afab7c151af73f3d8365e9eb2ffd67b65a13 ARM: dts: omap3430-sdp: Fix NAND device node
+ec1c3ecc139ea0e1a5ae6ee64e6701a2e0950cd5 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+164228ba56c638885ca95ed40ec594ce1a3269d9 bpf: Fix integer overflow in prealloc_elems_and_freelist()
+2a22d95be4871aa3d1eaafe92b6308d8071a5a92 phy: mdio: fix memory leak
+ecd2c9e2a2d0a0a12713aad5a6c0506481f27718 net_sched: fix NULL deref in fifo_set_limit()
+1b5803d2dcbe500ab2b4e7930cf3ac97727d6b1a powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
+0aed8ed9f08e5dbf016f828e50207673ad1a025e ptp_pch: Load module automatically if ID matches
+011082ccf7ad4ef288b7c2c88bf55c30bb94301b ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+a6f548c1b1918af663e5b1ee494c580967f1f215 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
+57159e42717dff1ae0c26e01c37aa78bf33fde86 netlink: annotate data races around nlk->bound
+83e4393dd957672992ebbaea65256f827438f8a4 drm/nouveau/debugfs: fix file release memory leak
+da536edc3b08dbaf2d3c432a01d840f1bc2fdc9f rtnetlink: fix if_nlmsg_stats_size() under estimation
+de01c80c9117bcb726386a4a2e56a6ad6b4e038b i40e: fix endless loop under rtnl
+117d4c3892dd0102260a489b2325860c12fe93b6 powerpc/bpf: Fix BPF_MOD when imm == 1
+529999ac7fd49f303f6108440bab84a39954f244 Linux 4.9.287-rc1
 
---===============5077574997622133858==--
+--===============3870265121291795868==--
