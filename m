@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5314777353777972978=="
+Content-Type: multipart/mixed; boundary="===============2715794918353432150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Oct 2021 12:14:24 -0000
-Message-Id: <163395446450.25457.17761342634796444705@gitolite.kernel.org>
+Date: Mon, 11 Oct 2021 12:14:26 -0000
+Message-Id: <163395446641.25519.2879252902779299773@gitolite.kernel.org>
 
---===============5314777353777972978==
+--===============2715794918353432150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,74 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: c7a667b221ec9f39c0edf8df626347a3cf78b3cf
-    new: bd3f3e13964d341f8d5d479a3510130a01b64b57
-    log: revlist-c7a667b221ec-bd3f3e13964d.txt
+  - ref: refs/heads/linux-4.19.y
+    old: be6e9f34cade69eb7453c526d76b4db687d9c140
+    new: 75d508ecfcb9619672e130834f1d3dd33f16c4e1
+    log: revlist-be6e9f34cade-75d508ecfcb9.txt
 
---===============5314777353777972978==
+--===============2715794918353432150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633954461 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1633954463 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1633954459-71d44ca283c3cce64611c9d9c850186624cd06e4
+nonce 1633954462-ce1245be33856b1811d3794ee3afc0f08d7ac080
 
-c7a667b221ec9f39c0edf8df626347a3cf78b3cf bd3f3e13964d341f8d5d479a3510130a01b64b57 refs/heads/linux-4.14.y
+be6e9f34cade69eb7453c526d76b4db687d9c140 75d508ecfcb9619672e130834f1d3dd33f16c4e1 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFkKp0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RDsP/2pcumB2/YqRfkiOR7AB
-1ylQY0K/PELk1d+a7DbzrWrePHuJ/1GzkHKElPsZNyRiW8yyw5LsUXFO9rUgkgiM
-ZVB0IlacG7CYBrRQuWuVx/r9tmirqy8t3csDDfFBFTvR19suBdksr5daThdWskRS
-RwYaMkAZ0NMExwUdUU9nfwOCTUAT7g4WQ+5ysqpXu+f0P7Is9VG/xc30agrll1jG
-Mw73X0Ad1T2qp04X3N67SHOdnrOMSWAdpJF9fwVB5D7r0jVWSTXmPOnNllPbNdPf
-RmLkYiKLNNQ/BDwSN1ksctksyYiFIN2oAdCUlbklp4AFU9mQZ9StaxmhLKX3FzjJ
-hS7zmdFmQfVMPM8m2fQCx44ooNTkH5gcmAg9gN5WJQ4bkVoYGj26btPCQXlX4Sx1
-v3LLDG6zOv2vZG20MW/n+SuabGgNn9L0ERdO/r3ELOU33YQe6m0K/xAxkgiQNrP0
-mCfK0Dd2RZGWeYpfH45y+ZDlEe3MPTkIvH9DwlrS9qMDiBJJ3dj+wWjx0kzfUsqG
-hkAGNe1G05B8JkIL5X7pYQrLtg/VCFv14EuXFVX8B5mkBDzTcL8CpG2MzkSFfsq9
-8h1ceVLI1cywg6Noeos03vIId0t7p/mec9GAduK/eUdaFMwljYVKa8+WFpycif48
-5VncxfROlm6ZbLWemQYM1KF5
-=19O5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFkKp8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5dsQAKg92i/MLfhnURpEGl8V
+nntGL9FR/tb85NisIyhH8U5G8BsTDlxICAzFyRGS0sRgCGPqf2CHoSLNpfFfoFpD
+IEaJjQ3aNECTOxORoUjrd4wfDq2n18nQXMbfbxsvV4oL/LX1Pd/sO0CZW7GC6oF8
+13mmmOtksJSgEEL2MRztZfqyvQRmvfnXabnEFhfbGGAcuEMOvk6PjRgh3+Ig2ywI
+ZpQ7BzLvRIqxC3SBAJ8x+N3tJGGvqNlUuKbSJVx4XDXcM7pyCYoRnVxh59NUifqO
+V29oAwzsYrkYVjLv+i73nJmfuxEtTVcKY+UPmd5xZQxzGqePHJiyNldYMTcpRkEa
+CGjUy70ON/jMOseRxM1uA5d7FaSF4KTH5VREnnTcubiHXVM6kGNxOkLL/Tgjkc3z
+55ZFAjir0h0IBLzt1KIh9IPJL+cIlsWvZ+aVt+IhsiamA967zcKtKVkf2OMAfE9+
++hh9hdfUoRYw3QCUK6dUH9UKqkIU0kBfxBReLTgakYnRmQelepZx56WuJjmBJyUU
+9dW0BSyVPb/8ypctSHUdvwdu2eNORzMKDKPcqWuZ1rmJ4y9F5WDJ7fy/BkQPIfUL
+c3LCQNdHLwTtSxW5hiFe6ysMUrR9iBTNbIq8EwPVkqMt4O64pFRHM1nnRt809og0
+8QVLfUoCHIQfAOyGoRvXadi6
+=gbic
 -----END PGP SIGNATURE-----
 
---===============5314777353777972978==
+--===============2715794918353432150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7a667b221ec-bd3f3e13964d.txt
+Content-Disposition: attachment; filename=revlist-be6e9f34cade-75d508ecfcb9.txt
 
-22c5c12e8fbdc14791f636529fe43169ce03e1af Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-47b243928f2b0e8f814e65b03f44ceee41e9c4f5 USB: cdc-acm: fix racy tty buffer accesses
-5bd7871e9037f8b0636d72819a0534d116832663 USB: cdc-acm: fix break reporting
-28cbc07ab121c541ed1cb657fb3f470832b1cf1f ovl: fix missing negative dentry check in ovl_rename()
-9be20335a2a4ed6b475c4df1a8ce362306c84593 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-bf81eddbdc4bf54bd9e71eabae11c6b8d6de3de5 xen/balloon: fix cancelled balloon action
-ee93fa6953e58a3c494f7c77b2eb840d617c1f95 ARM: dts: omap3430-sdp: Fix NAND device node
-a5bf85bb07a4d92b852bcbf4b8a9e441e6760c2c ARM: dts: qcom: apq8064: use compatible which contains chipid
-86be2dff12809ad1113ebd7614a3169aeddeb019 bpf: add also cbpf long jump test cases with heavy expansion
-fbc67874a65d2bb86fecd777604d83f92725ba9a bpf, mips: Validate conditional branch offsets
-ed546988c4ccc376080dc436d623e62b3c231dc7 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-42e1b51ccd9412c14d4a10559561cfbd3a766ff6 bpf: Fix integer overflow in prealloc_elems_and_freelist()
-70e02d315ff4e8d3e1afb30e39916ef0db65193d phy: mdio: fix memory leak
-7d2ea1d9c70cc9c8ba65bd0c13f1e6a01b79929a net_sched: fix NULL deref in fifo_set_limit()
-1b43a84a7b7c6a949a82672be9aea20b707add49 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
-578a6651c2acebe1e030a977ab1995053958e737 ptp_pch: Load module automatically if ID matches
-fed9f75c8d2117812443f730c85d7cfc65440e95 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-76f82c8c798b6cdf4ec09df5b7b3b9842718c855 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
-d13e37c61f832fe4909e40c52b50151729c46e79 netlink: annotate data races around nlk->bound
-e5a00e6cd60b514bc2e6feaa6286368543c2a972 drm/nouveau/debugfs: fix file release memory leak
-a152fb5f37579bc65497e680d6660525d2747da3 rtnetlink: fix if_nlmsg_stats_size() under estimation
-fb8ebdf2281c8ec5b923b2fc946caf181699d495 i40e: fix endless loop under rtnl
-a3b78774726af7bc8200609a1dde39aa9b73f49b i2c: acpi: fix resource leak in reconfiguration device addition
-e857c64ca87cf7b3b3094ea8048c653132fa3dca powerpc/bpf: Fix BPF_MOD when imm == 1
-bd3f3e13964d341f8d5d479a3510130a01b64b57 Linux 4.14.251-rc1
+d396071e5edfbdf2aeae404a9a8cff7bc27d9fe8 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+86a8e342ed6a0510161606e09087e0dbe1ac79b0 USB: cdc-acm: fix racy tty buffer accesses
+f4a5fab5b324f8e097dcdf3bb4fddfed0675b03d USB: cdc-acm: fix break reporting
+a0583dc5c4d69e4f23df9586d3f34878558cdb25 xen/privcmd: fix error handling in mmap-resource processing
+82051f340fa60825bfdb95ea49309bf3a537f2c9 ovl: fix missing negative dentry check in ovl_rename()
+c77954621bfe05a5d4785d233f75c81f1dd6c17d nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+cad03be641286a431babccaf7770b6ae53dc32df xen/balloon: fix cancelled balloon action
+4c220f701bc4a4f163e41f8c787de345174a7941 ARM: dts: omap3430-sdp: Fix NAND device node
+53e83cddc260927be4ceb4020b03e5eec2174da3 ARM: dts: qcom: apq8064: use compatible which contains chipid
+499f4dc394a0defd8610758d402ff62432913377 bpf, mips: Validate conditional branch offsets
+a1756ad2396784fd7292b96898203b23db2eaeba xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+5ac2ce9900ec0c8d67385bf14ecead176a5672d1 bpf, arm: Fix register clobbering in div/mod implementation
+056c23c0e5f0206950a3538aa3ea0e99f16b9564 bpf: Fix integer overflow in prealloc_elems_and_freelist()
+20528129f516d701070a2a9d8a16ba3ba972a373 phy: mdio: fix memory leak
+45f70afa5d579ab743078d01843c57b99582e7b5 net_sched: fix NULL deref in fifo_set_limit()
+154bd12d8dac6873f286c87e6549e3a1e02b7871 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
+bda5face2011eb7f455bb2d94e428dcda6ac487b ptp_pch: Load module automatically if ID matches
+4ea8dcf08ef65d2277684204af245d38bfc0f9b7 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+28bc7e8e9654f26570e4cc7acbc947a289ea0fb6 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
+fce71e3fc8307db6327645aa61d52b21040ea792 net: sfp: Fix typo in state machine debug string
+b72c8f06b83e89f262c93279832b71bf78ab77b9 netlink: annotate data races around nlk->bound
+c32881e5e9b954cdf856be9788ece87e57a6125d drm/nouveau/debugfs: fix file release memory leak
+a65b1b2b5a87eee865d7ce04bcce52a338a1f564 rtnetlink: fix if_nlmsg_stats_size() under estimation
+2b10f8645603e835411b523ae2a20614bc593d88 i40e: fix endless loop under rtnl
+8e5cc809a81310b3ea95c7855b274475e6d0d41f i40e: Fix freeing of uninitialized misc IRQ vector
+102eb60333add3b27ffc6ef46d5574c78b3bd5d7 i2c: acpi: fix resource leak in reconfiguration device addition
+3b7dbd939e1e84d8d2ad132c28fe048479e2a291 powerpc/bpf: Fix BPF_MOD when imm == 1
+75d508ecfcb9619672e130834f1d3dd33f16c4e1 Linux 4.19.211-rc1
 
---===============5314777353777972978==--
+--===============2715794918353432150==--
