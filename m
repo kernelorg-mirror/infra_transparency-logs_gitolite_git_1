@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 12 Oct 2021 18:12:28 -0000
-Message-Id: <163406234803.28393.7709350083746308723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Tue, 12 Oct 2021 18:23:19 -0000
+Message-Id: <163406299940.3500.526248520754913320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/for-next-v5.15
-    old: 0000000000000000000000000000000000000000
-    new: a97263817b5eb868e5033d4afcf5dbfb95a07907
+  - ref: refs/heads/libtraceevent
+    old: abc67406d710e73b61ccdd7a880d3d5744ce827c
+    new: 60db83e60b321eee516d026d84e53ed6ca6891be
+    log: |
+         60db83e60b321eee516d026d84e53ed6ca6891be libtraceevent: Fix flag check in print_field()
+         
