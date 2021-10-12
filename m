@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 12 Oct 2021 14:09:07 -0000
-Message-Id: <163404774757.1914.15512675729018317391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 12 Oct 2021 14:11:30 -0000
+Message-Id: <163404789085.4159.11909102841776984680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: 5278e4a181ff53c297a74f5403984ac403e6800c
-    new: 03f838e91a94c952716f6e1bd37ddfd1ee3e9e31
+  - ref: refs/heads/sched/core
+    old: b2d5b9cec60fecc72a13191c2c6c05acf60975a5
+    new: d5d22293059094332e91d61a9fda373bbf24d2bb
     log: |
-         88ffadce9d4cc14b04e7c21961a6ea9ceb9077e4 dt-bindings: bluetooth: broadcom: Fix clocks check
-         a9d2d57083b628709ffc4ef570b4f752715bba87 dt-bindings: bluetooth: realtek: Add missing max-speed
-         b33be51c2bad170c65b46025010aaf86b38bc7f9 dt-bindings: net: dwmac: Fix typo in the R40 compatible
-         03f838e91a94c952716f6e1bd37ddfd1ee3e9e31 dt-bindings: net: wireless: Convert ESP ESP8089 binding to a schema
+         b574cd5725c6a5ff1c0c3141e4bd0bec64b82490 sched: Disable -Wunused-but-set-variable
+         2a0dd69277bf81d824f7e0df97d4bb4880aa2a65 topology: Represent clusters of CPUs within a die
+         28e0b2517e59bcda19e75a9e5cfb152d8cba7a31 sched: Add cluster scheduler level in core and related Kconfig for ARM64
+         bf68166ebf05091f3bbb94a12835cd6c804d8c6a sched: Add cluster scheduler level for x86
+         71fbe0fda270a90f845cac073690237e40b06b07 sched/rt: Annotate the RT balancing logic irqwork as IRQ_WORK_HARD_IRQ
+         19a638a8cac2cf2621aa6fccf2c5b6d7246ce14f irq_work: Allow irq_work_sync() to sleep if irq_work() no IRQ support.
+         3136de437f3bc841a315497d40f98545e0ceb38f irq_work: Handle some irq_work in a per-CPU thread on PREEMPT_RT
+         d5d22293059094332e91d61a9fda373bbf24d2bb irq_work: Also rcuwait for !IRQ_WORK_HARD_IRQ on PREEMPT_RT
          
