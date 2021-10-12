@@ -1,69 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============5234968654105156623=="
+Content-Type: multipart/mixed; boundary="===============7893585997620739165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 12 Oct 2021 20:50:03 -0000
-Message-Id: <163407180356.1641.12615019187832793470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 12 Oct 2021 20:50:54 -0000
+Message-Id: <163407185490.2822.3462145767727614783@gitolite.kernel.org>
 
---===============5234968654105156623==
+--===============7893585997620739165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc
-    new: f4d0cc426f77df6890aa868f96c2de89686aae8a
-    log: revlist-64570fbc14f8-f4d0cc426f77.txt
+  - ref: refs/heads/seen
+    old: bdb71ac07856dd8cdd4729e3864e30728ac7cc4f
+    new: cb34eca5952955deeb9707e3107444359d997d5d
+    log: revlist-bdb71ac07856-cb34eca59529.txt
 
---===============5234968654105156623==
+--===============7893585997620739165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64570fbc14f8-f4d0cc426f77.txt
+Content-Disposition: attachment; filename=revlist-bdb71ac07856-cb34eca59529.txt
 
-80f0a1f99983296be587325004acf72dd11eccd8 workqueue: annotate alloc_workqueue() as printf
-22b1255792c033781dbe42b63e28501d38032b7e docs/cgroup: remove some duplicate words
-b94f9ac79a7395c2d6171cc753cc27942df0be73 cgroup/cpuset: Change references of cpuset_mutex to cpuset_rwsem
-c0002d11d79900f8aa5c8375336434940d6afedf cgroupv2, docs: fix misinformation in "device controller" section
-d8c23ead708b40a16413163f5f93e07fbd4f077d kunit: tool: better handling of quasi-bool args (--json, --raw_output)
-f62314b1ced25c58b86e044fc951cd6a1ea234cf kunit: fix reference count leak in kfree_at_end
-554afc3b9797511e3245864e32aebeb6abbab1e3 gcc-plugins/structleak: add makefile var for disabling structleak
-2326f3cdba1d105b68cc1295e78f17ae8faa5a76 iio/test-format: build kunit tests without structleak plugin
-6a1e2d93d55b000962b82b9a080006446150b022 device property: build kunit tests without structleak plugin
-33d4951e021bb67ebd6bdb01f3d437c0f45b3c0c thunderbolt: build kunit tests without structleak plugin
-a8cf90332ae3e2b53813a146a99261b6a5e16a73 bitfield: build kunit tests without structleak plugin
-361b57df62de249dc0b2acbf48823662a5001bcd kunit: fix kernel-doc warnings due to mismatched arg names
-19ea40dddf1833db868533958ca066f368862211 btrfs: unlock newly allocated extent buffer after error
-d175209be04d7d263fa1a54cde7608c706c9d0d7 btrfs: update refs for any root except tree log roots
-77a5b9e3d14cbce49ceed2766b2003c034c066dc btrfs: deal with errors when checking if a dir entry exists during log replay
-e15ac6413745e3def00e663de00aea5a717311c1 btrfs: deal with errors when replaying dir entry during log replay
-52db77791fe24538c8aa2a183248399715f6b380 btrfs: deal with errors when adding inode reference during log replay
-8dcbc26194eb872cc3430550fb70bb461424d267 btrfs: unify lookup return value when dir entry is missing
-cfd312695b71df04c3a2597859ff12c470d1e2e4 btrfs: check for error when looking up inode during dir entry replay
-4afb912f439c4bc4e6a4f3e7547f2e69e354108f btrfs: fix abort logic in btrfs_replace_file_extents
-9b024201693e397441668cca0d2df7055fe572eb platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-db9cc7d6f95e7d89b0ce57e785cfd9d67a7505d8 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
-92813dafcd8cae40b6256fd9392a44ecd5c9f505 platform/x86: dell: Make DELL_WMI_PRIVACY depend on DELL_WMI
-41512e4dc0b84525495e784295092592adb87f1b platform/x86: intel_scu_ipc: Fix busy loop expiry time
-5c02b581ce84eea240d25c8318a1f65133a04415 platform/x86: intel_scu_ipc: Increase virtual timeout to 10s
-a0c5814b9933f25ecb6de169483c5b88cf632bca platform/x86: intel_scu_ipc: Update timeout value in comment
-c0d84d2c7c23e9cf23a5abdda40eeaa79eabfe69 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
-0f607d6b227470456a69a37d7c7badea51d52844 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
-c005828744f584bfcd2cf3ed64dfef15a5078960 platform/x86: intel_skl_int3472: Correct null check
-7df227847ab562c42d318bceccebb0c911c87b04 platform/x86: int1092: Fix non sequential device mode handling
-57116ce17b04fde2fe30f0859df69d8dbe5809f6 workqueue: fix state-dump console deadlock
-2e5809a4ddb15969503e43b06662a9a725f613ea arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
-1986c10acc9c906e453fb19d86e6342e8e525824 Merge tag 'for-5.15-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-0a5d6c641b671370f019cbe20fe51ee3ef00264c Merge branch 'for-5.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-459ea72c6cb98164ccacd6d06e3121554c13ba5e Merge branch 'for-5.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-fa5878760579a9feaa1de3bb2396cd23beb439ca Merge tag 'linux-kselftest-kunit-fixes-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-596143e3aec35c93508d6b7a05ddc999ee209b61 acpi/arm64: fix next_platform_timer() section mismatch error
-ed47291911d375f7d0bf63b9afb7516988305d94 Merge tag 'platform-drivers-x86-v5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-f4d0cc426f77df6890aa868f96c2de89686aae8a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+be79131a537f5f35825c01262b2345097a9d2142 perf: disable automatic housekeeping
+5751927d12e9195cf1e397cf297b9c264c82ead5 test-lib.sh: try to re-chmod & retry on failed trash removal
+7c45e31db37610e346e9d33d8defa1a89b8334b3 SQUASH???
+df387c89e0d18e4922e8b047b0ba48ca5decc20d signature-format.txt: add space to fix gpgsig continuation line
+0d8cff9710d0b3ce00ce45b976618008a27daf48 Merge branch 'rs/disable-gc-during-perf-tests' into jch
+61026618543f5e3c967b662f9fdcc87e18c72d73 Merge branch 'ab/test-cleanly-recreate-trash-directory' into jch
+8973d494c5b0aca1784f39d0f434a0245eb60a13 reset: preserve skip-worktree bit in mixed reset
+b34078f17dcaf04bb6d19e3c7392c0e92be14995 sparse-index: update command for expand/collapse test
+9c0f3adf9b0f6c69fbf3d156798be44726269218 reset: expand test coverage for sparse checkouts
+d84f91a887a394f65eb608ae66f532037daf6dfa reset: integrate with sparse index
+e7b53ffbc01fb7a3f27110ef86dfbe103e6c9faf reset: make sparse-aware (except --mixed)
+bbd20e5adcff8535778e7ea8a0bca36942873418 reset: make --mixed sparse-aware
+57049e844c80d5fe1394e6d65b28705eabfd6585 unpack-trees: improve performance of next_cache_entry
+e8191a52657ecfc12928cfe9eada80a883111ef2 Merge branch 'fs/ssh-signing' into fs/ssh-signing-fix
+9d12546de9d75be70440e340a5f4bb6f9e41a89f ssh signing: fmt-merge-msg tests & config parse
+20b9b97d3feb7f0aec0e417c8fcd76279be4eb55 fixup! ssh signing: verify signatures using ssh-keygen
+119b26d6b9a98fd22bbd340da39cf15d4712fb97 unwritable tests: assert exact error output
+4ef91a2d795c424eda2bec1bfbbd0c813bcc978a commit: fix duplication regression in permission error output
+c196f264d6f354da7da99fbf648615fb6bbd9684 fsck: verify commit graph when implicitly enabled
+f0dedee608f6209aafef366105f1ac94351e9f14 fsck: verify multi-pack-index when implictly enabled
+984332abe6f90919ae49b169e772efd9450f5caf gc: perform incremental repack when implictly enabled
+e578d0311d7b19ebd8cdadc6941f2aa060b7a850 add: don't write objects with --dry-run
+87cc69f26eb11ac977157bfc904e1cf01676cab1 Merge branch 'rs/add-dry-run-without-objects' into jch
+0bd13cd7c5bcd061ffc8ed63b8762696fee0368d Merge branch 'ab/fix-commit-error-message-upon-unwritable-object-store' into jch
+be87c5a94f12ff79ed6dc973645c683ed9527d8d Merge branch 'rb/doc-commit-header-continuation-line' into jch
+62708db96e4cf84a89b2180d138757882a7ea5a5 Merge branch 'fs/ssh-signing-fix' into jch
+4599b2be45ec8e5eac0899bcf30f0271d66ac6ae Merge branch 'js/scalar' into seen
+f5cde8eba97f6ae9896e129b94204f61cda3a96a Merge branch 'ms/customizable-ident-expansion' into seen
+769dcfb893c71417ca6c3bcd66c4fca86e7212bf Merge branch 'en/zdiff3' into seen
+543ff0caba0524335003982311738dbe208b9a9f Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+f6ca52c490272d4849ac2d5ebcc93e8ecd8146ef Merge branch 'pw/diff-color-moved-fix' into seen
+0efb610250027ad324550b64f815092ecaf421f7 Merge branch 'ab/only-single-progress-at-once' into seen
+b48bf310e7ee382c914f2a7e2c4fb1b62d2745f1 Merge branch 'es/superproject-aware-submodules' into seen
+a926a607564c32f52b3f9ab64bbe09e6de30c291 Merge branch 'pw/fix-some-issues-in-reset-head' into seen
+e856fd926b9bdd32bf06f2c5b2dc0b87a53ed96b Merge branch 'hn/reftable' into seen
+d5814556e5a24e9547fcde3c8449d8107241a8de Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into seen
+195b1832a1268d71f854ac4d1cd58349b707284d Merge branch 'ab/mark-leak-free-tests' into seen
+28485f603339650d5c51b2b40a3fa5e678ed9834 Merge branch 'ns/remerge-diff' into seen
+251c4c482e7f144aa0e714f76a96e4e993a118e7 Merge branch 'vd/sparse-reset' into seen
+8df7a37124274e0f0bd327f603fe4c8f618a4121 Merge branch 'hm/paint-hits-in-log-grep' into seen
+cb34eca5952955deeb9707e3107444359d997d5d Merge branch 'gc/use-repo-settings' into seen
 
---===============5234968654105156623==--
+--===============7893585997620739165==--
