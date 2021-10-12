@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2932348669120082462=="
+Content-Type: multipart/mixed; boundary="===============0224813002802981305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 12 Oct 2021 20:32:30 -0000
-Message-Id: <163407075013.21370.2227036251857357681@gitolite.kernel.org>
+Date: Tue, 12 Oct 2021 20:32:39 -0000
+Message-Id: <163407075994.21521.6872025797919654245@gitolite.kernel.org>
 
---===============2932348669120082462==
+--===============0224813002802981305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6ba3e1b6b1c2d8a26cc7eb15dac61a2424c7ac67
-    new: a5ecbd18a26bd51e9d629d44f1cd9975620501e5
-    log: revlist-6ba3e1b6b1c2-a5ecbd18a26b.txt
+  - ref: refs/heads/5.16/scsi-queue
+    old: c749301ebee82eb5e97dec14b6ab31a4aabe37a6
+    new: 605ae389ea0243344713648294cd86b442d255ee
+    log: revlist-c749301ebee8-605ae389ea02.txt
 
---===============2932348669120082462==
+--===============0224813002802981305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634070743 -0400
+pusher 75C5DE3D 1634070753 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634070743-94a5a53daeaedd78dea98d0667199ea0e377216c
+nonce 1634070753-49e1866efe2e7ca4b9146dd3d72135513b8a625e
 
-6ba3e1b6b1c2d8a26cc7eb15dac61a2424c7ac67 a5ecbd18a26bd51e9d629d44f1cd9975620501e5 refs/tags/mkp-scsi-queue
+c749301ebee82eb5e97dec14b6ab31a4aabe37a6 605ae389ea0243344713648294cd86b442d255ee refs/heads/5.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFl8NcACgkQ7ulgGnXF
-3j1f9Q//QYs6Vmhy+x3qL7rYp0GPzZXY49yf/Dshd6lAcUhEYmkcYCR4sug3ugI6
-jBA2k680/WY/6rBBDbnUHCpm1DYL5fO9bx6xxD4G+p6JNxm+P4e8hzw8Cg1pOdTU
-FR7QPjfGwS90nNviiOeux4yozvShrfaGM6bCkQmbkHlsqjvMOJ/wsuz5KenljFFp
-uRsotDCPKOr/9jRgpltLR4FfdJn92/eDOiYf4TOO4jmcvsRHUeoKAecWNviE9K/B
-0Vc8G2F/A68SpiUZuSOGMT23vFUc+Ng0AgpmNVKa4r3E3tkUy9PIAr+dsvQTLGnr
-S9QoBHm7eijg185mf52Z2gcPJMN0E9J4O+dHdtlqr0ziZ1KxgmBMoMsPFeZyr5Tp
-W54xmf1rdTy3q+/M9MuKh10jrO4xmll0+fxA6i5SA88tNSRl2FgcamGQT4nMhZVj
-J31cbrr/AV60FL2RQpJs/4YnJaFM4MXjzZFayd4LqU8ziLcOYnNYgW/RKiB5JR6Y
-VkKxxlu84yxYGn4p1NVarle+A725j1rmIE9+WtdTmkWrxBDaLwnyxpaYGnYK18Y0
-76t2bTyNpsank1VeLUYWlwCjvN5uWPEdhB7tyMeRQwrzUE2Ui7awMosSJeD3ffMq
-EMiYP+jY4FPq+mAh7+eAs0PnU8yTviZXRWQm4lY73H2gEfhSPBU=
-=V98g
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFl8OEACgkQ7ulgGnXF
+3j2AOxAAntDN+uSmB8c9aU8md2lxeD2CQGxFUiRS1CpwB1LtS2YwUwV2pziQ28dy
+3fLZjbGa6DacjL3MFgAgQhdOSp5syIJaaFZVNcmmajbePdgh/Wq3cs+Kv2ZQ3WeQ
+Tl7KkQcbJA1UajRjld+IulWwMVapTUkh0oS2hU1bfsbU/zIrT4ICQ3vouicwmO3z
+HM6/6sjb0sPczHNY8OQktkWQLu5sIRRLPU8n+tVA/SqGdJ+ZT95MRGdeHQNb/7C8
+jv08RT1D52gVSNW3RD1uaMf1/zjKj4A7P2rPUOQWL7PXQ2ZdX58qH2SY1uCwcuwj
+LPBdshnS/7SlSig3/JYF/V0tnSfDr7nKWMMkaA8p4tdzOk1PA0We9msH0vgNZDzf
+SZa7kNsT7hpQL4nBrl5wI7Z+2DHzozbXIa+fJR+qgpW7bWtV1jL53LRMrZ9fMDrI
+V7KfCnQ/V/ndPT0a3U/DJO2eOttdpjYxzW1d1QTRqWdPLXbAr2obHg4ELHv+WaxB
+UR5w4ubO89iidQFU224xsHVSlelA7Zv9468KSm7lPwaMyBBAToQ367NXfQERCNeq
++vULWAchKYlrg3YieXuBr/bFIx5/ycghxA11fjrYkI0cCJRGOKloWuwRCbKyAzIA
+NO+0/FwgJXswcxMEP+0parcGi2NSjNwiMNe8SRIaG1oJZ2wCBvs=
+=j/h4
 -----END PGP SIGNATURE-----
 
---===============2932348669120082462==
+--===============0224813002802981305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ba3e1b6b1c2-a5ecbd18a26b.txt
+Content-Disposition: attachment; filename=revlist-c749301ebee8-605ae389ea02.txt
 
 e9076e7f23aa087f8b7257f3be9e9586f341e3b1 scsi: core: Fix spelling in a source code comment
 1da3b0141e74c18c2377d4c2655406a90a87742f scsi: ufs: core: Fix NULL pointer dereference
@@ -92,4 +92,4 @@ d4dc6aea93cb40f454e3a4d0eb139633874d0f72 scsi: smartpqi: Fix duplicate device no
 80982656b78ec23cb4918a90ee723ac2db83df1c scsi: smartpqi: Add 3252-8i PCI id
 605ae389ea0243344713648294cd86b442d255ee scsi: smartpqi: Update version to 2.1.12-055
 
---===============2932348669120082462==--
+--===============0224813002802981305==--
