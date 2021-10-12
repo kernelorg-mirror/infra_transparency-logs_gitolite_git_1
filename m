@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 12 Oct 2021 20:13:46 -0000
-Message-Id: <163406962643.7324.1323174353692238416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 12 Oct 2021 20:26:05 -0000
+Message-Id: <163407036595.17352.8039523536544856260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: b37a15188eae9d4c49c5bb035e0c8d4058e4d9b3
-    new: 48827e1d6af58f219e89c7ec08dccbca28c7694e
-    log: |
-         48827e1d6af58f219e89c7ec08dccbca28c7694e ALSA: usb-audio: Add quirk for VF0770
-         
   - ref: refs/heads/master
-    old: e2f42edae200e6b496d58bb5742a777911d38976
-    new: 9290414ce312164c191cbd64d3651475ac027bef
+    old: 7fa12b6eede2179d1f538d9120b40dc193dfae27
+    new: a71ad043a3f4ad405911841e1fe5bb09823e3be2
     log: |
-         48827e1d6af58f219e89c7ec08dccbca28c7694e ALSA: usb-audio: Add quirk for VF0770
-         9290414ce312164c191cbd64d3651475ac027bef Merge branch 'for-linus'
+         a71ad043a3f4ad405911841e1fe5bb09823e3be2 t/io_uring: add test support for pre mapping DMA buffers
          
