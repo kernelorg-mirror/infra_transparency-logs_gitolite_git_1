@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 Oct 2021 23:11:08 -0000
-Message-Id: <163408026867.25038.16508561826716692119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 12 Oct 2021 23:11:35 -0000
+Message-Id: <163408029532.25248.17262854664953951800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 4d4a223a86afe658cd878800f09458e8bb54415d
-    new: 60d950f443a52d950126ad664fbd4a1eb8353dc9
-    log: |
-         60d950f443a52d950126ad664fbd4a1eb8353dc9 nfp: flow_offload: move flow_indr_dev_register from app init to app start
-         
+  - ref: refs/tags/qcom-arm64-for-5.16
+    old: 0000000000000000000000000000000000000000
+    new: 69ec93526369acd979135ec0b2df59e88a368d27
