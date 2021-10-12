@@ -1,21 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 12 Oct 2021 02:30:07 -0000
-Message-Id: <163400580778.29767.14800942593609880308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 12 Oct 2021 03:26:49 -0000
+Message-Id: <163400920978.31776.4224746854309810654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/main
-    old: 897772a73542d4d2a6fe030d102e883fa2cc58bb
-    new: 7c032cac10b326111ded931450830c62804611e7
+  - ref: refs/heads/kbuild
+    old: e97cfe9098069e6bccd027daec79747fce6a5781
+    new: 88f5e1e66253fc4acd3f68eb4d356fa4653a7bf9
     log: |
-         14802d84d3477533c465e99678def2cfc71082f7 man: devlink-port: fix the devlink port add synopsis
-         04ee8e6f061dc378ee3a52d319dcd20e90f1ca93 man: devlink-port: fix style
-         7c032cac10b326111ded931450830c62804611e7 man: devlink-port: remove extra .br
+         ca51b26b4a25b05c9b438ed85c4750bfb6f2d9ab kconfig: refactor conf_write_heading()
+         6ce45a91a9826532dde7c89cd2d6388c0bcb0cf7 kconfig: refactor conf_write_symbol()
+         51d792cb5de87fa8777b4769a33c302e4ad0580a kconfig: refactor listnewconfig code
+         80f7bc7737630fb1b2c4f440fc7627337bd2f605 kconfig: move sym_escape_string_value() to confdata.c
+         8499f2dd57ef099290fa5411c4498bccc9c407d9 kconfig: add conf_get_autoheader_name()
+         57ddd07c456053dfdabebc6a2d030c57cd3fb75b kconfig: refactor conf_write_autoconf()
+         00d674cb35362dd30df7ff1e0003ad6d6c3ebf3a kconfig: refactor conf_write_dep()
+         fee762d69ad5968dfd0ecbc300810f185ee5c5b8 kconfig: refactor conf_touch_dep()
+         a3c7ca2b141b9735eb383246e966a4f4322e3e65 sparc: Add missing "FORCE" target when using if_changed
+         2216cf68cf56808323bff44d43083422a1c4e2f9 scripts: update the comments of kallsyms support
+         88f5e1e66253fc4acd3f68eb4d356fa4653a7bf9 kbuild: Add make tarzst-pkg build option
          
