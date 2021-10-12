@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Oct 2021 11:42:55 -0000
-Message-Id: <163403897579.4292.7472478834475527874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 12 Oct 2021 11:46:56 -0000
+Message-Id: <163403921679.6989.15939705730122775210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-linus
-    old: 2a242b54080b782b7a103435f4fc7902717036c5
-    new: 286c54e6455f5fc0df5869ab5e3bb53d85686f73
+  - ref: refs/heads/arm64/exception-fixups/rework
+    old: 520884fcffef04a7e404029644e55afbb513d351
+    new: 306cfe57743a8ab38f1ad7fea3223502836f0079
     log: |
-         aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
-         286c54e6455f5fc0df5869ab5e3bb53d85686f73 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 0fc05b31018537152bbb30ed1762c4dda1071a4f
-    new: 935d33860d5a6ccf05c9d2b86e341ef76fa84fef
-    log: |
-         aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
-         c3de683c4d1d68ff27f21606b921d92ffdea3352 ASoC: rt1011: Fix 'I2S Reference' enum control caused error
-         286c54e6455f5fc0df5869ab5e3bb53d85686f73 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-         935d33860d5a6ccf05c9d2b86e341ef76fa84fef Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
+         40a473320c677eaa6bb9662ebee59bd7918ab359 arm64: extable: consolidate definitions
+         f6a1d66b9c475e65cd14f218267f934b1fa13092 arm64: extable: make fixup_exception() return bool
+         8f140ea8edddf20f72ad18e9543ba820fd97fedd arm64: extable: use `ex` for `exception_table_entry`
+         19317aca949308607489e98f9d244b7cfadbd4dc arm64: extable: add type and data fields
+         88a4f106a3f456e10dab0c60325fa06ce7e8a105 arm64: extable: add uaccess handler
+         bd82982f10dc9ec11fa2b3e670ae03f99af4428e arm64: extable: add load_unaligned_zeropad() handler
+         306cfe57743a8ab38f1ad7fea3223502836f0079 arm64: vmlinux.lds.S: remove .fixup section
          
