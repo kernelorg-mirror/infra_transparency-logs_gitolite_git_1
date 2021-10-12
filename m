@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 12 Oct 2021 01:23:00 -0000
-Message-Id: <163400178023.19155.10515087947460520661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Tue, 12 Oct 2021 02:30:07 -0000
+Message-Id: <163400580778.29767.14800942593609880308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: 55969094c6918000047529a93b8dd31cb1e9489a
-    new: 9957e1de6e4e670b229fd47b183c6a280494497a
+  - ref: refs/heads/main
+    old: 897772a73542d4d2a6fe030d102e883fa2cc58bb
+    new: 7c032cac10b326111ded931450830c62804611e7
     log: |
-         9957e1de6e4e670b229fd47b183c6a280494497a Tue Oct 12 01:22:22 AM UTC 2021
+         14802d84d3477533c465e99678def2cfc71082f7 man: devlink-port: fix the devlink port add synopsis
+         04ee8e6f061dc378ee3a52d319dcd20e90f1ca93 man: devlink-port: fix style
+         7c032cac10b326111ded931450830c62804611e7 man: devlink-port: remove extra .br
          
