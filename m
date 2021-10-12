@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8844885102168649422=="
+Content-Type: multipart/mixed; boundary="===============2589109789246688364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 12 Oct 2021 17:56:08 -0000
-Message-Id: <163406136853.19247.10670215707212258202@gitolite.kernel.org>
+Date: Tue, 12 Oct 2021 17:56:32 -0000
+Message-Id: <163406139278.19449.10097973931142646994@gitolite.kernel.org>
 
---===============8844885102168649422==
+--===============2589109789246688364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.15
+  - ref: refs/heads/for-next
     old: 012a67c6793277999371b1183eb6dcd081c69f13
     new: d208b89401e073de986dc891037c5a668f5d5d95
     log: revlist-012a67c67932-d208b89401e0.txt
 
---===============8844885102168649422==
+--===============2589109789246688364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ec132ef2d1d94d43d9dce1400521526bbed89a8b dm clone: make array 'descs' static
 b4459b11e84092658fa195a2587aff3b9637f0e7 dm rq: don't queue request to blk-mq during DM suspend
 d208b89401e073de986dc891037c5a668f5d5d95 dm: fix mempool NULL pointer race when completing IO
 
---===============8844885102168649422==--
+--===============2589109789246688364==--
