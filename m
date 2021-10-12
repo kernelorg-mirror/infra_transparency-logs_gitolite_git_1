@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2403046151331191045=="
+Content-Type: multipart/mixed; boundary="===============5381348573633301197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 12 Oct 2021 21:41:48 -0000
-Message-Id: <163407490803.2418.8276052947227903368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Tue, 12 Oct 2021 21:46:47 -0000
+Message-Id: <163407520710.5389.1971716600437972329@gitolite.kernel.org>
 
---===============2403046151331191045==
+--===============5381348573633301197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
+repo: pub/scm/fs/fscrypt/fscrypt
 user: ebiggers
 changes:
-  - ref: refs/heads/blk-crypto-cleanup
-    old: 8e4a8115fdf8bd8f9f61f017b242c885a467b5aa
-    new: 0399ab2f29ed0265d445e0ec68370103c0c27e5c
-    log: revlist-8e4a8115fdf8-0399ab2f29ed.txt
+  - ref: refs/heads/wip-wrapped-keys
+    old: 62b5605407031b7c85994add48d435a83fab4efe
+    new: 665d7cb8108978057c136b38bed21999acaf269f
+    log: revlist-62b560540703-665d7cb81089.txt
 
---===============2403046151331191045==
+--===============5381348573633301197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e4a8115fdf8-0399ab2f29ed.txt
+Content-Disposition: attachment; filename=revlist-62b560540703-665d7cb81089.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -418,5 +418,9 @@ c1ca12223ef7d71597547d5d3eb6558b53b2e618 blk-crypto-fallback: properly prefix fu
 2164881b72c6c5afafd26145ebd7dcc7082f13df blk-crypto: rename keyslot-manager files to blk-crypto-profile
 cbba78319ac37506fdb67dc739c37aaf3bcba364 blk-crypto: rename blk_keyslot_manager to blk_crypto_profile
 0399ab2f29ed0265d445e0ec68370103c0c27e5c blk-crypto: update inline encryption documentation
+684f823fc616c72e311a475411d6f124fd593b89 Merge remote-tracking branch 'fscrypt/master' into wip-wrapped-keys
+91ee9ee32d00e55eb56a172a78c5231ab881f24a block: add basic hardware-wrapped key support
+cb5856ab8692b2173beb83c85a0689f7284de69b block: add ioctls to create and prepare hardware-wrapped keys
+665d7cb8108978057c136b38bed21999acaf269f fscrypt: add support for hardware-wrapped keys
 
---===============2403046151331191045==--
+--===============5381348573633301197==--
