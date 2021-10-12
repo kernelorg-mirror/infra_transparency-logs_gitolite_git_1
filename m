@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7679812103507360454=="
+Content-Type: multipart/mixed; boundary="===============5609441314122519810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 12 Oct 2021 11:40:28 -0000
-Message-Id: <163403882893.3291.654276423495236217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 12 Oct 2021 11:41:53 -0000
+Message-Id: <163403891377.3720.7126846317907062748@gitolite.kernel.org>
 
---===============7679812103507360454==
+--===============5609441314122519810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c99ca78d67a67e2828be417ed4006f1a3c0addb5
-    new: 85303db36b6e170917a7bc6aae4898c31a5272a0
-    log: revlist-c99ca78d67a6-85303db36b6e.txt
+  - ref: refs/heads/for-5.15
+    old: c448b7aa3e66042fc0f849d9a0fb90d1af82e948
+    new: aa18457c4af7a9dad1f2b150b11beae1d8ab57aa
+    log: |
+         aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
+         
+  - ref: refs/heads/for-5.16
+    old: 45ea86200847424e7d99bf43de832c124be08d78
+    new: c3de683c4d1d68ff27f21606b921d92ffdea3352
+    log: |
+         c3de683c4d1d68ff27f21606b921d92ffdea3352 ASoC: rt1011: Fix 'I2S Reference' enum control caused error
+         
 
---===============7679812103507360454==
+--===============5609441314122519810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c99ca78d67a6-85303db36b6e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2166cc2657fe73fe2b2fb052689a1bf4bb8715bb ABI: sysfs-platform-dell-privacy-wmi: correct ABI entries
-10317dda79325f75e88d12a616e5043efe498338 ABI: sysfs-platform-intel-pmc: add blank lines to make it valid for ReST
-452dcfab995437888106a5af6730363f67efdf79 platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-5fd56f11838da1580cc77743c08cf02c9cd48380 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
-a499f93f3d5225a214831c9fd88f9f18e2d8cb3d platform/x86: Remove "WMAA" from identifier names in wmaa-backlight-wmi.c
-ca16d33bd86246bf91d089c8ba78b9b214574b12 platform/x86: Rename wmaa-backlight-wmi to nvidia-wmi-ec-backlight
-6550ba689343811ef1d4b87be8d273988d4648d5 platform/x86: dell: Make DELL_WMI_PRIVACY depend on DELL_WMI
-f32c34d6cfbb3d1f1c26f223cb549cca9767cfbd platform/x86: intel_scu_ipc: Fix busy loop expiry time
-7f0224dea7634052c6d5652d7928c4c23695906d platform/x86: intel_scu_ipc: Increase virtual timeout to 10s
-c01bc8e4e8409aa7b66208b1b503707bd1957254 platform/x86: intel_scu_ipc: Update timeout value in comment
-432cce21b66c49b1951d046d3ffc5d52fdad6265 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
-95384b3e47afa04d7dfa014f6a52662852645578 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
-0b243c003e11897bd443ae9be4eda76a57ff732a platform/x86: intel_skl_int3472: Correct null check
-85303db36b6e170917a7bc6aae4898c31a5272a0 platform/x86: int1092: Fix non sequential device mode handling
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1634038911 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1634038911-4a9041d6246e6b440b70f8d50ccba371f2633f21
 
---===============7679812103507360454==--
+c448b7aa3e66042fc0f849d9a0fb90d1af82e948 aa18457c4af7a9dad1f2b150b11beae1d8ab57aa refs/heads/for-5.15
+45ea86200847424e7d99bf43de832c124be08d78 c3de683c4d1d68ff27f21606b921d92ffdea3352 refs/heads/for-5.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFldH8ACgkQJNaLcl1U
+h9C4hQf8C9ERuTX6XKRuttflrHrGLolUHTxrxOw4VKblxZHVjVjk9B3yF6xMS89L
+iJNbIyTROfG7b7NqgWbADf6RcqfWDj4Kpopo2FzcDC+l7f6lQ6pRGHLq4gXC5uyo
+o9CgSCRumy7wx2ajdQ/Qtu94LnfpfPK2GFsT0IXjRVZUgbLCo5WLRjSDisOnsTEd
+5uuhSFMbyFkrbHEsjJrKN0dcLhaDLEH+IBha9/zmzIRmqUl9fBjk3cGtAJxq47db
+HHW+HgHRFIaoKHYeCfSLbWXkGwndkQyAroksbsb7xiiZQrLQW2Ucm86Ubi48U8cy
+5nBp83yrimOa1JlBP3c/5DVYIcsShw==
+=c53j
+-----END PGP SIGNATURE-----
+
+--===============5609441314122519810==--
