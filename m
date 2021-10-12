@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 12 Oct 2021 01:02:32 -0000
-Message-Id: <163400055232.5160.7253970528497464976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 12 Oct 2021 01:23:00 -0000
+Message-Id: <163400178023.19155.10515087947460520661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 0e96dc47b95a4f33c4abcb7724887b73ff319832
-    new: 8c0ff6af6823d3e90314a45c6725c6e8d491cd16
+  - ref: refs/heads/master
+    old: 55969094c6918000047529a93b8dd31cb1e9489a
+    new: 9957e1de6e4e670b229fd47b183c6a280494497a
     log: |
-         8c0ff6af6823d3e90314a45c6725c6e8d491cd16 Add AHCI support for ASM1062+JBM575 cards
+         9957e1de6e4e670b229fd47b183c6a280494497a Tue Oct 12 01:22:22 AM UTC 2021
          
