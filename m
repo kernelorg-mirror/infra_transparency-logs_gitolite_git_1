@@ -1,112 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============2214882730766321021=="
+Content-Type: multipart/mixed; boundary="===============5234968654105156623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Tue, 12 Oct 2021 20:41:36 -0000
-Message-Id: <163407129690.27469.11733839141553709192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 12 Oct 2021 20:50:03 -0000
+Message-Id: <163407180356.1641.12615019187832793470@gitolite.kernel.org>
 
---===============2214882730766321021==
+--===============5234968654105156623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/x86/fpu
-    old: 5e2c28c4d4c125a16b86437b631cab979612abbe
-    new: 9ac7540e3aedd11ab9d0215c23f9c1ded4cb7b52
-    log: revlist-5e2c28c4d4c1-9ac7540e3aed.txt
+  - ref: refs/heads/master
+    old: 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc
+    new: f4d0cc426f77df6890aa868f96c2de89686aae8a
+    log: revlist-64570fbc14f8-f4d0cc426f77.txt
 
---===============2214882730766321021==
+--===============5234968654105156623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e2c28c4d4c1-9ac7540e3aed.txt
+Content-Disposition: attachment; filename=revlist-64570fbc14f8-f4d0cc426f77.txt
 
-653c39421b145b2f8c0f8adcfb875521a5c0b7bd x86/fpu: Remove pointless argument from switch_fpu_finish()
-f13c0a9562b82ff1dc34ea3f98ebc6b32cc3e42c x86/fpu: Update stale comments
-3dcf32756de682d036a7656310ba7d675beb1a56 x86/pkru: Remove useless include
-07ec339342c6399d1dc44c1ea0829698ff2cf5a8 x86/fpu: Restrict xsaves()/xrstors() to independent states
-58cfe64fb5fca1fc6730102f7c34fcaf42f650e1 x86/fpu: Cleanup the on_boot_cpu clutter
-bbd129823b1c879a07b014c70fb75a55ac92bb12 x86/fpu: Remove pointless memset in fpu_clone()
-2fd99c3eabe12e54f8ecadde0962a0db57ed2aa8 x86/process: Clone FPU in copy_thread()
-ae279b10b741d051992d21603ddd5718246a0969 x86/fpu: Do not inherit FPU context for kernel and IO worker threads
-a1440a013f5742c622e35d6b3a344d12d26919e1 x86/fpu: Cleanup xstate xcomp_bv initialization
-da8a223e603fa18224e000b2ab4d8dc13f5b1139 x86/fpu/xstate: Provide and use for_each_xfeature()
-df240ae47548ca37d8f5e3f327cd99b1d2b84648 x86/fpu/xstate: Mark all init only functions __init
-af4df5815d05aebb3e2a5a5615783d0c32caf4f2 x86/fpu: Move KVMs FPU swapping to FPU core
-b1cb12f2065ac4fc33242aad0b662ea087650f3d x86/fpu: Replace KVMs home brewed FPU copy from user
-6996d994aa6b75ad44698d615ccb03c6f425f95e x86/fpu: Rework copy_xstate_to_uabi_buf()
-5df7edf3f23fa3f7e0ca3396c242e8b62122c412 x86/fpu: Replace KVMs home brewed FPU copy to user
-275d9c12ec63a5ac760a8aadf992a4ae4fe2a138 x86/fpu: Mark fpu__init_prepare_fx_sw_frame() as __init
-383dfc1b31d7f36a0128555a2c50bfc676e9579f x86/fpu: Move context switch and exit to user inlines into sched.h
-ff2d37f2d16e353f9d89a05af592304d4e31f894 x86/fpu: Clean up cpu feature tests
-f3d089ba2d727e5f31915b643d58fc75edb631de x86/fpu: Make os_xrstor_booting() private
-6024443b4f79d9e7decba54b7f3eeb5694e2e353 x86/fpu: Move os_xsave() and os_xrstor() to core
-cc532fe295eb72c0495d5b7b8128210f1bba1918 x86/fpu: Move legacy ASM wrappers to core
-e3c923539d83f9813d14e24c13d9aa3eeca9c039 x86/fpu: Make WARN_ON_FPU() private
-ff7ab38d26b5729df343f07765548d4e8bd1b1f7 x86/fpu: Move fpregs_restore_userregs() to core
-f9b008ac3149eb436143c2ed2ea8bf5dc0a2d18d x86/fpu: Move mxcsr related code to core
-fbe4f470c8f8b51218bfe2beed8eeec337a9a219 x86/fpu: Move fpstate functions to api.h
-22553a4cfe428edf5b399552abc2ffd22918c4a9 x86/fpu: Remove internal.h dependency from fpu/signal.h
-42aa588b69901eb03ec7c7308c412761ee84e392 x86/sev: Include fpu/xcr.h
-0f738ccb7c6596cd20340fb5115c355256e60ecb x86/fpu: Mop up the internal.h leftovers
-4267dce0db621167c5ee2bd232029386a6ebe5ac x86/fpu: Replace the includes of fpu/internal.h
-174ff3a09d225ed87fe3460eee8b3c71db6c6866 x86/fpu: Provide a proper function for ex_handler_fprestore()
-b74c47c8da507f0a05987fe835fa27f83cf17d74 x86/fpu: Provide struct fpstate
-9db4882d413e70f8c5f295188dea745799ec8726 x86/fpu: Convert fpstate_init() to struct fpstate
-0cf74a514c5a6ac97723bd9f2970e2c96fa80c7c x86/fpu: Convert restore_fpregs_from_fpstate() to struct fpstate
-2755914e7a33f46ad1f38dccd09b02c68af952f1 x86/fpu: Replace KVMs xstate component clearing
-eed0d0cd190bc410daaaee920cee6db997411ef2 x86/KVM: Convert to fpstate
-9b8a6d3b9b3633f137d01ab6b509104f1f3d952b x86/fpu: Convert tracing to fpstate
-a4605517e88b1aae9593caff102f78885c088585 x86/fpu/regset: Convert to fpstate
-a358f37ea31d1fb315d7d1003259491fce2462d2 x86/fpu/signal: Convert to fpstate
-55128a4d6c560878e526fec0fd7f655a4a9d1624 x86/fpu/core: Convert to fpstate
-3f7c6367f6985615d905100d3ec70d5678396960 x86/math-emu: Convert to fpstate
-073384641bfc213fb90211c2b81af72608ec7b62 x86/fpu: Remove fpu::state
-58f1c9e14a9e2ac2b7830017f60fad42e08f4be7 x86/fpu: Do not leak fpstate pointer on fork
-40cebddc3efd4eeb9d0228ce922c48e960ab75ff x86/process: Move arch_thread_struct_whitelist() out of line
-0a2b990e944c87c7199344622baa2c25bc00e499 x86/fpu: Add size and mask information to fpstate
-433c902305757c91c5286c11fce947603e4f8a1a x86/fpu: Use fpstate::size
-5be071da1cd9173930954928f17c683642f85b0c x86/fpu/xstate: Use fpstate for os_xsave()
-2ff04740dfb9107fd09d7c8d89e16f8161ccbb1e x86/fpu/xstate: Use fpstate for xsave_to_user_sigframe()
-8953d3b6a1acf3c1c1d0e4db607aad8965e0bb13 x86/fpu: Use fpstate in fpu_copy_kvm_uabi_to_fpstate()
-8984fd1e12102d9a63d714d7c4ff9342f63051ea x86/fpu: Use fpstate in __copy_xstate_to_uabi_buf()
-f65e36682d68b57ba2c814907d240a55ab90fc28 x86/fpu/xstate: Use fpstate for copy_uabi_to_xstate()
-8a9f3ec29057b2ebd5b8ead95fcc5363592e5a8c x86/fpu/signal: Use fpstate for size and features
-d0085bf69f5f8ddb3e993964cf4811cd4bd7ce0f x86/fpu: Provide struct fpu_config
-7a364dfbb161cfc04568c086136e86d66a0ba937 x86/fpu: Cleanup fpu__init_system_xstate_size_legacy()
-a6684b8cd7a8cc27eb38af02014b9697f47d8780 x86/fpu/xstate: Cleanup size calculations
-fe37139bf17a62594309183880552ad8eed6c9b5 x86/fpu: Move xstate size to fpu_*_cfg
-88f9094691f9e23deb87a92db3e304eca7733020 x86/fpu: Move xstate feature masks to fpu_*_cfg
-09b1bded6b1867a2fe7dba577fb86940b4478b72 x86/fpu: Mop up xfeatures_mask_uabi()
-cbc4060c1809efa15a23eccd2eb8bb711780a013 x86/fpu: Rework restore_regs_from_fpstate()
-854560b8f976ca5a2d29741e0d58683c4f5ecb11 x86/fpu/xstate: Move remaining xfeature helpers to core
-f034b4f7258ddb7f850c311f7a0614ebcf4f818c x86/fpu: Add size checking to KVM functions
-739c70371abacd2290b923f76ed36f446b269b3a x86/fpu/xstate: Provide xstate_calculate_size()
-2b34e3eb987ee2025a3643fa1a2bbc2185fe7066 signal: Add an optional check for altstack size
-8911b1452ce0c67aeb49aa4f7f29c9ef57456658 x86/signal: Implement sigaltstack size validation
-00fde9be19308029a78cecc6ce788de0b441a4b7 x86/fpu: Add members to struct fpu to cache permission information
-ac033b39af5fd43565ef9f8ee243a72a11fae45d x86/fpu: Add fpu_state_config::legacy_features
-999303d11c88d1046e66022f840c68fbdb084850 x86/arch_prctl: Add controls for dynamic XSTATE components
-f30e6f25914d892f6548cf249726b616439c4638 x86/signal: Use fpu::__state_user_size for sigalt stack validation
-fc3d0adc261c05d518207b8f8ea5f6278cd28ac4 x86/fpu/signal: Prepare for variable sigframe length
-51bfa91badecf39b9a406b9a9d40ca88c7bc9ce2 x86/fpu: Prepare fpu_clone() for dynamically enabled features
-22c30892a389d34f218cbc2ff768e7285d0efb12 x86/cpufeatures: Add eXtended Feature Disabling (XFD) feature bit
-3235186497533e01f05425fedc5b078283182947 x86/msr-index: Add MSRs for XFD
-633f0f5ba24f14325c6aaedcd4b184dbdf989a97 x86/fpu: Add XFD state to fpstate
-69ea420e5a3bc216a49ccad3d6cc35f5c6a89129 x86/fpu: Add sanity checks for XFD
-c15dda9939ef9a8555dd660c41a1167860d02001 x86/fpu: Update XFD state where required
-384857a1f949f39c8d0fd409127a745c2b0056c7 x86/fpu: Add XFEATURES_MASK_DYNAMIC
-76552e328fc8943865c396178a69d57778e61813 x86/fpu/xstate: Add XFD #NM handler
-178f388eb22cd2fc2cefdcaa22aab921e099e429 x86/fpu/xstate: Add fpstate_realloc()/free()
-ece21868df2c59acdd3efc4428e42ebb07b025d3 x86/fpu/xstate: Prepare XSAVE feature table for gaps in state component numbers
-15a1ca1be4e1849aa5904bc9da3cc55ec235caf0 x86/fpu/amx: Define AMX state components and have it used for boot-time checks
-aa258c16140b05335d74ba8e96ee8df7cf3f0c44 x86/fpu: Calculate the default sizes independently
-cd50562b15683892b8dd3289f950c1a01ccf7980 x86/fpu: Add XFD handling for dynamic states
-9ac7540e3aedd11ab9d0215c23f9c1ded4cb7b52 x86/fpu/amx: Enable the AMX feature in 64-bit mode
+80f0a1f99983296be587325004acf72dd11eccd8 workqueue: annotate alloc_workqueue() as printf
+22b1255792c033781dbe42b63e28501d38032b7e docs/cgroup: remove some duplicate words
+b94f9ac79a7395c2d6171cc753cc27942df0be73 cgroup/cpuset: Change references of cpuset_mutex to cpuset_rwsem
+c0002d11d79900f8aa5c8375336434940d6afedf cgroupv2, docs: fix misinformation in "device controller" section
+d8c23ead708b40a16413163f5f93e07fbd4f077d kunit: tool: better handling of quasi-bool args (--json, --raw_output)
+f62314b1ced25c58b86e044fc951cd6a1ea234cf kunit: fix reference count leak in kfree_at_end
+554afc3b9797511e3245864e32aebeb6abbab1e3 gcc-plugins/structleak: add makefile var for disabling structleak
+2326f3cdba1d105b68cc1295e78f17ae8faa5a76 iio/test-format: build kunit tests without structleak plugin
+6a1e2d93d55b000962b82b9a080006446150b022 device property: build kunit tests without structleak plugin
+33d4951e021bb67ebd6bdb01f3d437c0f45b3c0c thunderbolt: build kunit tests without structleak plugin
+a8cf90332ae3e2b53813a146a99261b6a5e16a73 bitfield: build kunit tests without structleak plugin
+361b57df62de249dc0b2acbf48823662a5001bcd kunit: fix kernel-doc warnings due to mismatched arg names
+19ea40dddf1833db868533958ca066f368862211 btrfs: unlock newly allocated extent buffer after error
+d175209be04d7d263fa1a54cde7608c706c9d0d7 btrfs: update refs for any root except tree log roots
+77a5b9e3d14cbce49ceed2766b2003c034c066dc btrfs: deal with errors when checking if a dir entry exists during log replay
+e15ac6413745e3def00e663de00aea5a717311c1 btrfs: deal with errors when replaying dir entry during log replay
+52db77791fe24538c8aa2a183248399715f6b380 btrfs: deal with errors when adding inode reference during log replay
+8dcbc26194eb872cc3430550fb70bb461424d267 btrfs: unify lookup return value when dir entry is missing
+cfd312695b71df04c3a2597859ff12c470d1e2e4 btrfs: check for error when looking up inode during dir entry replay
+4afb912f439c4bc4e6a4f3e7547f2e69e354108f btrfs: fix abort logic in btrfs_replace_file_extents
+9b024201693e397441668cca0d2df7055fe572eb platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
+db9cc7d6f95e7d89b0ce57e785cfd9d67a7505d8 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
+92813dafcd8cae40b6256fd9392a44ecd5c9f505 platform/x86: dell: Make DELL_WMI_PRIVACY depend on DELL_WMI
+41512e4dc0b84525495e784295092592adb87f1b platform/x86: intel_scu_ipc: Fix busy loop expiry time
+5c02b581ce84eea240d25c8318a1f65133a04415 platform/x86: intel_scu_ipc: Increase virtual timeout to 10s
+a0c5814b9933f25ecb6de169483c5b88cf632bca platform/x86: intel_scu_ipc: Update timeout value in comment
+c0d84d2c7c23e9cf23a5abdda40eeaa79eabfe69 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
+0f607d6b227470456a69a37d7c7badea51d52844 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
+c005828744f584bfcd2cf3ed64dfef15a5078960 platform/x86: intel_skl_int3472: Correct null check
+7df227847ab562c42d318bceccebb0c911c87b04 platform/x86: int1092: Fix non sequential device mode handling
+57116ce17b04fde2fe30f0859df69d8dbe5809f6 workqueue: fix state-dump console deadlock
+2e5809a4ddb15969503e43b06662a9a725f613ea arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
+1986c10acc9c906e453fb19d86e6342e8e525824 Merge tag 'for-5.15-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+0a5d6c641b671370f019cbe20fe51ee3ef00264c Merge branch 'for-5.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+459ea72c6cb98164ccacd6d06e3121554c13ba5e Merge branch 'for-5.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+fa5878760579a9feaa1de3bb2396cd23beb439ca Merge tag 'linux-kselftest-kunit-fixes-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+596143e3aec35c93508d6b7a05ddc999ee209b61 acpi/arm64: fix next_platform_timer() section mismatch error
+ed47291911d375f7d0bf63b9afb7516988305d94 Merge tag 'platform-drivers-x86-v5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+f4d0cc426f77df6890aa868f96c2de89686aae8a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============2214882730766321021==--
+--===============5234968654105156623==--
