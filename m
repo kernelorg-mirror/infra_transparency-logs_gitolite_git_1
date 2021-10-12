@@ -1,44 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4862968317661277627=="
+Content-Type: multipart/mixed; boundary="===============4538357611366066768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 12 Oct 2021 18:44:50 -0000
-Message-Id: <163406429097.15331.5826166167033202199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 12 Oct 2021 18:45:34 -0000
+Message-Id: <163406433409.17090.1732801459059846713@gitolite.kernel.org>
 
---===============4862968317661277627==
+--===============4538357611366066768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: fa5878760579a9feaa1de3bb2396cd23beb439ca
-    new: f4d0cc426f77df6890aa868f96c2de89686aae8a
-    log: revlist-fa5878760579-f4d0cc426f77.txt
+  - ref: refs/heads/dev-queue
+    old: 536869a6204135b4b6e18b4174239905a46abd0a
+    new: 41c8ab7f3d6d825fe83bdf8c90b92594cc58301c
+    log: revlist-536869a62041-41c8ab7f3d6d.txt
 
---===============4862968317661277627==
+--===============4538357611366066768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa5878760579-f4d0cc426f77.txt
+Content-Disposition: attachment; filename=revlist-536869a62041-41c8ab7f3d6d.txt
 
-9b024201693e397441668cca0d2df7055fe572eb platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-db9cc7d6f95e7d89b0ce57e785cfd9d67a7505d8 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
-92813dafcd8cae40b6256fd9392a44ecd5c9f505 platform/x86: dell: Make DELL_WMI_PRIVACY depend on DELL_WMI
-41512e4dc0b84525495e784295092592adb87f1b platform/x86: intel_scu_ipc: Fix busy loop expiry time
-5c02b581ce84eea240d25c8318a1f65133a04415 platform/x86: intel_scu_ipc: Increase virtual timeout to 10s
-a0c5814b9933f25ecb6de169483c5b88cf632bca platform/x86: intel_scu_ipc: Update timeout value in comment
-c0d84d2c7c23e9cf23a5abdda40eeaa79eabfe69 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
-0f607d6b227470456a69a37d7c7badea51d52844 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
-c005828744f584bfcd2cf3ed64dfef15a5078960 platform/x86: intel_skl_int3472: Correct null check
-7df227847ab562c42d318bceccebb0c911c87b04 platform/x86: int1092: Fix non sequential device mode handling
-2e5809a4ddb15969503e43b06662a9a725f613ea arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
-596143e3aec35c93508d6b7a05ddc999ee209b61 acpi/arm64: fix next_platform_timer() section mismatch error
-ed47291911d375f7d0bf63b9afb7516988305d94 Merge tag 'platform-drivers-x86-v5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-f4d0cc426f77df6890aa868f96c2de89686aae8a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+14b2c6f7704206ac91daf9b5ccf645adf5046f89 ice: support for indirect notification
+3466fcdb39a2f0426d2a4be71eb1de4ec1bbc864 ice: VXLAN and Geneve TC support
+7e5006814aa66fb5ca4415fa97cb1a3c1c0a7980 ice: low level support for tunnels
+9a9fa754d65108e449eced649a873bdd6e296fb7 ice: support for GRE in eswitch
+461794fdc82a2578f9d5d958c2ea8f3ff002ea91 ice: Refactor status flow for DDP load
+861506b6dedcfde55152796b682a7a8568095da1 ice: Remove string printing for ice_status
+912e63a4346fbccb39070882a16c53df3ecab734 ice: Use int for ice_status
+c814172cef8b06330cc2b3aea665eb0f16996209 ice: Remove enum ice_status
+2ec1f415082909c5c8b517d270d19091ad4811a0 ice: Cleanup after ice_status removal
+4ce855697937e61cdc2293333a8e438dfe42412b ice: Remove excess error variables
+18424a09795832c21a0618d2c057605bb3088268 ice: Propagate error codes
+fceb282949711e56f9f09aa2cfaf49ca21325d71 ice: Respond to a NETDEV_UNREGISTER event for LAG
+fd9d11fe09d5544bdda1ce99954b7b4c0d0100ce ice: Refactor PR ethtool ops
+364697b8edbb94b6283f2327716fbf7cf022cdc2 ice: Add infrastructure for mqprio support via ndo_setup_tc
+95122e54162adf3735a06b9ee580bcf347a2f9a7 ice: enable ndo_setup_tc support for mqprio_qdisc
+e4a566768d7fc9e0e608139dd754e959b5c53b07 ice: Add tc-flower filter support for channel
+9ddee3490175c0b06d8bcb2740aed01fc64249e2 ice: devlink: add shadow-ram region to snapshot Shadow RAM
+45fedb13d5f4cdc5bbe1c536ce7c6b4de0e25fda ice: move and rename ice_check_for_pending_update
+54437837f829713995c5f2017ddb3a3f6899fa32 ice: move ice_devlink_flash_update and merge with ice_flash_pldm_image
+41c8ab7f3d6d825fe83bdf8c90b92594cc58301c ice: support immediate firmware activation via devlink reload
 
---===============4862968317661277627==--
+--===============4538357611366066768==--
