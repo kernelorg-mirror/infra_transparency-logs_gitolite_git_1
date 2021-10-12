@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 12 Oct 2021 16:42:42 -0000
-Message-Id: <163405696210.3614.5500233322387928341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 12 Oct 2021 16:46:36 -0000
+Message-Id: <163405719604.6251.16783246630384417328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 2e5809a4ddb15969503e43b06662a9a725f613ea
-    new: 596143e3aec35c93508d6b7a05ddc999ee209b61
+  - ref: refs/heads/kvm-arm64/pkvm-vcpu-state-WIP
+    old: b2dbfeb411146451fee2f3892271c63142b1416d
+    new: 0249a4c7ddb80334a1f4f192756d0d57b3ad32a9
     log: |
-         596143e3aec35c93508d6b7a05ddc999ee209b61 acpi/arm64: fix next_platform_timer() section mismatch error
+         4ffbcd4ef5c86c9efbbe2df225c02de32dc567dc fixup! KVM: arm64: Move vgic state between host and shadow vcpu structures
+         0249a4c7ddb80334a1f4f192756d0d57b3ad32a9 KVM: arm64: Save/restore virtual timer state from the shadow vcpu
          
