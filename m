@@ -1,30 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/salsa-lib
-Date: Tue, 12 Oct 2021 14:40:05 -0000
-Message-Id: <163404960527.23004.1856488789327034110@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4931825350987880428=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 12 Oct 2021 14:41:39 -0000
+Message-Id: <163404969994.23541.3920161333918910953@gitolite.kernel.org>
+
+--===============4931825350987880428==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/salsa-lib
-user: tiwai
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/devel
-    old: 097c3f74a96670bf8b7c7f2beec19eb80c027ccd
-    new: 135f38646a9adeddc940f8b795b7a853ef61b023
-    log: |
-         1cd521197cc4c036585c8de56c53e8c4f2cfe216 Define SND_LIB_VER() macro
-         b712bb72a41a1cdf1997d509ee053d5b41a17761 Don't test linking with snd_ctl_open in alsa.m4
-         efe46f03f3871ac856c4c1e255123b0e5fed4789 Define snd_pcm_abort()
-         86e2a570d1bf5b6761f205fb16e4b43e6bdcd599 Define snd_pcm_forwardable() and snd_pcm_rewindable()
-         7d96a91d05d834298d768b3c5995603b7e4a6f51 Define snd_output_*() functions properly
-         1ad0f251039b0af491be627e0762d1d29c57fb80 configure: Fix a typo for delight-valgrind option
-         3a8f6222405cc8b6d9f4823e5d3570597d26f4d0 configure: Rename --enable-libasound with --enable-abi-compat
-         9a6afef20988adf1b373ee928f674c49498c0c8c README: update the description about mmap
-         602d7e4b7b280a17b819da6bf04458e505dcc13a Rename to README.md
-         01459045aa4d51db22683ca6e75c4c9611e0afda conf: Add dummy snd_config_update_ref() and snd_config_update_unref()
-         b766ce58c0683d86450caa50fb8b588e9e7ad9a0 control: Define snd_ctl_elem_id_compare_set()
-         135f38646a9adeddc940f8b795b7a853ef61b023 Bump the default compat version to 1.2.5
-         
+  - ref: refs/heads/master
+    old: 311c13ddc8eefc554647beca332633c944760d12
+    new: 177c92353be935db555d0d08729e871145ec698c
+    log: revlist-311c13ddc8ee-177c92353be9.txt
+
+--===============4931825350987880428==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-311c13ddc8ee-177c92353be9.txt
+
+5b25a5bf5e047745c598d55833ada8889af28989 nfc: drop unneeded debug prints
+f141cfe364ef58d5f34ac0bc28518383889add49 nfc: nci: replace GPLv2 boilerplate with SPDX
+edfa5366ef424f46a20ab81d9927be2e8ff3f7ec nfc: s3fwrn5: simplify dereferencing pointer to struct device
+84910319fad4a511602236ea7b0c1c510132d895 nfc: st-nci: drop unneeded debug prints
+e52cc2a625a6841cad9a8a1fb537a0125cead3a9 nfc: st21nfca: drop unneeded debug prints
+f0563ebec68feefa741e6d76bbc8999563444c97 nfc: trf7970a: drop unneeded debug prints
+f41e137abd2546394b921168c11dfca563e114d1 nfc: microread: drop unneeded debug prints
+ff7f0e4e7930202faed4ace6f09e303a455d0cab Merge branch 'nfc-minor-printk-cleanup'
+a34dda7284304046adaca2685777e86927c58317 mlxsw: spectrum_qdisc: Pass extack to mlxsw_sp_qevent_entry_configure()
+0908e42ad9a5965eb89028f286c1056bf56978b7 mlxsw: spectrum_qdisc: Distinguish between ingress and egress triggers
+099bf89d6a35086eee868f8357fb9d84a895b3c6 mlxsw: spectrum_qdisc: Track permissible actions per binding
+9c18eaf2882d96f877bbfea795a9f5cdf63ac2ce mlxsw: spectrum_qdisc: Offload RED qevent mark
+a703b5179b5c0740c69358b2cfb22c12545d13a4 selftests: mlxsw: sch_red_core: Drop two unused variables
+0cd6fa99a076b79744d26bb2f4d089e1c4eae2e4 selftests: mlxsw: RED: Add selftests for the mark qevent
+249ae9495b0398c6d21fc7dfdd18ff5e36cf27e2 Merge branch 'mlxsw-ECN-mirroring'
+7bb39a394490c0690dc7304f2f0345539d590d2b net: hns: Prefer struct_size over open coded arithmetic
+e4400bbf5b15750e1b59bf4722d18d99be60c69f net, neigh: Fix NTF_EXT_LEARNED in combination with NTF_USE
+3dc20f4762c62d3b3f0940644881ed818aa7b2f5 net, neigh: Enable state migration between NUD_PERMANENT and NTF_USE
+2c611ad97a82b51221bb0920cc6cac0b1d4c0e52 net, neigh: Extend neigh->flags to 32 bit to allow for extensions
+7482e3841d520a368426ac196720601687e2dc47 net, neigh: Add NTF_MANAGED flag for managed neighbor entries
+2ed08b5ead3cdef574f99ff5fbf09d3f969a53c4 Merge branch 'Managed-Neighbor-Entries'
+25b90c19102f50ae261cbc328361c0fc66b7c901 tulip: fix setting device address from rom
+850bfb912a6deb3134c5922882f8d139f77d8c5c net: hns3: debugfs add support dumping page pool info
+177c92353be935db555d0d08729e871145ec698c ethernet: tulip: avoid duplicate variable name on sparc
+
+--===============4931825350987880428==--
