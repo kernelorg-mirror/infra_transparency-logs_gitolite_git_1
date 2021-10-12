@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0647563470896829494=="
+Content-Type: multipart/mixed; boundary="===============5453731712909455257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 12 Oct 2021 08:27:10 -0000
-Message-Id: <163402723082.22218.7718246451941366012@gitolite.kernel.org>
+Date: Tue, 12 Oct 2021 08:27:32 -0000
+Message-Id: <163402725248.22386.11613930805920799980@gitolite.kernel.org>
 
---===============0647563470896829494==
+--===============5453731712909455257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: d371209acaa76aefb154c8a5c26af2e59cf17b1b
-    new: 4217d07b9fb328751f877d3bd9550122014860a2
-    log: revlist-d371209acaa7-4217d07b9fb3.txt
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/heads/next
+    old: 2318a18c3249197ec9835a2d2edf0b5763af852e
+    new: beae4a6258e64af609ad5995cc6b6056eb0d898e
+    log: revlist-2318a18c3249-beae4a6258e6.txt
 
---===============0647563470896829494==
+--===============5453731712909455257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d371209acaa7-4217d07b9fb3.txt
+Content-Disposition: attachment; filename=revlist-2318a18c3249-beae4a6258e6.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -366,5 +363,44 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
 4217d07b9fb328751f877d3bd9550122014860a2 mmc: sdhci: Map more voltage level to SDHCI_POWER_330
+38929d4f0d811df399c99398ce0599f546369bd4 mmc: sdhci: Change the code to check auto_cmd23
+43e5fee317f4b0a48992b8b07935b1a3ac20ce84 mmc: mtk-sd: Add wait dma stop done flow
+961e40f714f6ef958e008b7ee4e66df1ea0fac89 mmc: mtk-sd: Remove unused parameters(mrq)
+d74179b86925165562aec81e0ba269ebc453dad2 mmc: mtk-sd: Remove unused parameters
+9c1aaec47527816877befb7f18ea1cf25e55b8c8 mmc: block: Add error handling support for add_disk()
+295c894c37f7cf075dc5cf044e45fb781936fa50 dt-bindings: mmc: Convert MMC Card binding to a schema
+2304c55fd506fcd5e1a59ae21a306ee82507340b memstick: ms_block: Add error handling support for add_disk()
+b3f8eb6eb213977cb4e84af4067b234356936f82 memstick: mspro_block: Add error handling support for add_disk()
+c88cb98e61395bae3350a4b721dfc2f9bcb74f5a mmc: omap_hsmmc: Make use of the helper macro SET_RUNTIME_PM_OPS()
+ab991c05c42853f0b6110022db9bf30fcc6323dd dt-bindings: mmc: Add bindings for Intel Thunder Bay SoC
+39013f09681341e8264dff633e70d43da84d579a mmc: sdhci-of-arasan: Add intel Thunder Bay SOC support to the arasan eMMC driver
+d47f163c7794ce93e762897dcb6a956b3421b368 mmc: cqhci: Print out qcnt in case of timeout
+16e9bde21ab6592aa55f1d3cb29338117c84cea5 memstick: jmb38x_ms: Prefer struct_size over open coded arithmetic
+d9972f5310235fe16b68243dc26bebf062761a43 dt-bindings: mmc: sdhci-msm: Add compatible string for msm8226
+43592c8736e84025d7a45e61a46c3fa40536a364 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+8c2db344e5a213607764bf3d13ea1666d86dc44b dt-bindings: mmc: update mmc-card.yaml reference
+bc9fd32c294f4728663fac2dd82ecd0cfcba7ba9 mmc: sdhci-s3c: drop unneeded MODULE_ALIAS
+fb4708e6cb5c70a0dca5437640f1f85b9042256e dt-bindings: mmc: mtk-sd: Add hs400 dly3 setting
+f614fb60a1983819e83796198de2b607fba75e99 mmc: core: Add host specific tuning support for eMMC HS400 mode
+c4ac38c6539b6cccfda7e8cf8da50edf7877c865 mmc: mtk-sd: Add HS400 online tuning support
+8e0e7bd38b1ec7f9e5d18725ad41828be4e09859 mmc: sdhci-omap: Fix NULL pointer exception if regulator is not configured
+d806e334d0390502cd2a820ad33d65d7f9bba618 mmc: sdhci-omap: Fix context restore
+53f9460e0883b029b7e93716d2f44f512c1efe94 mmc: sdhci-omap: Restore sysconfig after reset
+3781d28805eca89796fd50af8e05569c210fc87d mmc: sdhci-omap: Parse legacy ti,non-removable property
+c66e21fdc42dcc1c5c559fc4682f3a7f8b4c93f1 mmc: sdhci-omap: Check MMCHS_HL_HWINFO register for ADMA
+546b73ab019b10e8487cc8784220d32cfa08944b mmc: mmci: Add small comment about reset thread
+9c6bb8c6a1a48608692f3c8c21be13b759ec9056 mmc: sdhci: Return true only when timeout exceeds capacity of the HW timer
+879e13572485b145580aabd2055a5d7bc6fb9486 dt-bindings: sdhci-omap: Document ti,non-removable property as deprecated
+46cdda974757f069d2c830f5a14c83960a782537 mmc: sdhci-s3c: Describe driver in KConfig
+0818d197d2ab0e4d47ce0a72cfa3bc32ac66ae0d mmc: sdhci-pci-o2micro: Fix spelling mistake "unsupport" -> "unsupported"
+7f00917a82331d4a3a22acce5076cb40fa7be668 mmc: sdhci-sprd: Wait until DLL locked after being configured
+4853396f03c3019eccf5cd113e464231e9ddf0b3 memstick: avoid out-of-range warning
+84723eec251df9dfb83f32ecef4241b1979e1c33 dt-bindings: mmc: cdns: document Microchip MPFS MMC/SDHCI controller
+0a264389212ab7193cd0166b57a9bb830fcc4fd8 dt-bindings: mmc: arasan,sdci: Drop clock-output-names from dependencies
+4877b81f0fa2a3b1eb80541e49790683926104c9 mmc: slot-gpio: Refactor mmc_gpio_alloc()
+8792b0a09fa470cc476b2124f6c1061258c9ef7a mmc: slot-gpio: Update default label when no con_id provided
+f83c18cc9edc8e1a556de2d7dad956ddd9f131b9 Merge branch 'fixes' into next
+8105c2abbf36296bf38ca44f55ee45d160db476a mmc: moxart: Fix reference count leaks in moxart_probe
+beae4a6258e64af609ad5995cc6b6056eb0d898e memstick: jmb38x_ms: use appropriate free function in jmb38x_ms_alloc_host()
 
---===============0647563470896829494==--
+--===============5453731712909455257==--
