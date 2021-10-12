@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5509365202102816479=="
+Content-Type: multipart/mixed; boundary="===============8877391019427288752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 12 Oct 2021 20:31:59 -0000
-Message-Id: <163407071988.20981.4255732997265867149@gitolite.kernel.org>
+Date: Tue, 12 Oct 2021 20:32:09 -0000
+Message-Id: <163407072971.21136.12706023105456649049@gitolite.kernel.org>
 
---===============5509365202102816479==
+--===============8877391019427288752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 44b268166ff61194015fd465fa124842f0b2bc44
-    new: e84bbaf5beabb6e0f8614008527458d68334af0d
+  - ref: refs/heads/5.15/scsi-fixes
+    old: 258aad75c62146453d03028a44f2f1590d58e1f6
+    new: 187a580c9e7895978dcd1e627b9c9e7e3d13ca96
     log: |
          50b6cb3516365cb69753b006be2b61c966b70588 scsi: core: Fix shost->cmd_per_lun calculation in scsi_add_host_with_dma()
          187a580c9e7895978dcd1e627b9c9e7e3d13ca96 scsi: iscsi: Fix set_param() handling
          
 
---===============5509365202102816479==
+--===============8877391019427288752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634070710 -0400
+pusher 75C5DE3D 1634070723 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634070709-b46b9b04120023f1c4a0ff58312ca5be946abe54
+nonce 1634070722-222cd9585f17796ae51811ba0997b8f6dbf48cd6
 
-44b268166ff61194015fd465fa124842f0b2bc44 e84bbaf5beabb6e0f8614008527458d68334af0d refs/tags/mkp-scsi-fixes
+258aad75c62146453d03028a44f2f1590d58e1f6 187a580c9e7895978dcd1e627b9c9e7e3d13ca96 refs/heads/5.15/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFl8LYACgkQ7ulgGnXF
-3j1Z3w//eRg9WOHLExTtYnDqmC9OmPUzOR0C6v/EQDbPxXCCAYiOVuBZnBDVm97d
-eW+acABMpVavdx/5D+Gp3EBIq9DE7gs7OtZnlZdHn6vNCOBiZvjVCJblLUgwRQrd
-uRlKMxFMfDnAI2sD5bJrPu9wmxMBUtr8HUXAm8/Vwd+AqT+iENI5NViMTJlHIxLp
-yQFwGquWS4srCm4fERxb8OEBAar/aWqsWiNkn5nRBadFQDzls5zDTzPOdYXlgR6y
-YQdK6pTEyYUF9Q5b1+2HC7xxKQDAyWg8xWUhvhiMRotxyugUR9ez5Dndv5jCUEqJ
-qq9XB8Xv1FYh2EvrebAS/lRD4TroRLF7PL5wx7a94QQmwOtB3sMTY7+dnOCJarUu
-AqZqdS8fHRQxWLbKAYWI8fLwfQSHxvfOPfLwZNBJONGRKTND1A9k+m4npKEqZSQ2
-38XPmq7wJ+zHwvYrxP7AGWUgJ6qH9/4wnY3HCeSKfjGOCKXlZHQVA+4x1KahKCgW
-MfmKd6fq9Km2ypRWJBBBv7deHJka8o3aKdbzr4wKtqoEPVmeGW0QSzlGVOKDaaim
-TaBYXLAOwkWtu+G6Jfin/ZCIJav49HRUJ87d5cFBN4K7Q6+NOugOzTfQoQ9CSqtp
-hZaqQTjIMArzFA80Ep734Q9ARx0cgroyP+sK8G+wipU8cjoU8rU=
-=EkZB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFl8MMACgkQ7ulgGnXF
+3j3V/g/+KnDHKpnbal6mBYLTAAZSypaq49hNXj+PgdbjZlhzMmLgsr/7rQbpIOND
+GfrivljStStQFmmJlCfBoiotO3YSzO433izkFXxJFeF2+Qmf90eDM4/ifKC9wPGJ
+jlTnO7rhFFSIkvNA3lTLkE8eGaWkNtMqrC94RjjYHyhtuRkDGUFUCMSfLFtvr0Yy
+ErbP//9DT345uEBiahCzuiDX0YshHvIoO7E/wS7CnfH70m17uZVaXYkdBegFbpNe
+7h6HCmAfiIb2ySBwrHZH8BH0jIh0dW5msyAzAOWL58dbhvyHMtqcBRDIwVLxMg3+
+3NR9Tjv/FqdSIutNhKtX4RG/5wN0mDDloNkjA/fRhXP2gyQ+aBbXMNUAED1R2c67
+fEePvC6KKicXJB3ZULUIfrgYfxdCWKAKXqcYQt2v6mEe2+5YnYrf9dHQ0v9+aMFu
+CnBUbd7O3rEyPlIHnPgb0pfs0LpaVPqZAyECtEy3ytRihK9wvgb5BPtD0+/irwT0
+HY8FiPyi51qAdHiT8Yfzg8O8GSJROojaSvSZ4+tVefdlAj5s8zqtwS/kP+y8wIib
+Sw7XrE9jY0wvFLxLeYvuRTIF0iW3ooVCbcX2q4v0jlT1L3upE7S9J5NF0SQ2o3fb
+Ska6ANAwo82NV4tyDr8uAvs2+ito6N5NTfvYO5uR1VL/Pp58FJM=
+=xq6R
 -----END PGP SIGNATURE-----
 
---===============5509365202102816479==--
+--===============8877391019427288752==--
