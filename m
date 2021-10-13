@@ -1,19 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 13 Oct 2021 18:51:25 -0000
-Message-Id: <163415108558.8730.12040615632085604092@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4962529537610844937=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 13 Oct 2021 19:30:21 -0000
+Message-Id: <163415342192.32629.11273072043716318710@gitolite.kernel.org>
+
+--===============4962529537610844937==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 0fa8a49134bccde9d49f9f392c13f7b91165ad5c
-    new: be68c4dcc659172af86e875c25d26c6a114b1afc
-    log: |
-         be68c4dcc659172af86e875c25d26c6a114b1afc hwmon: (dell-smm) Add support for fanX_min, fanX_max and fanX_target
-         
+  - ref: refs/heads/arm/fixes
+    old: 209ee634bc0d2fa10ac8f799abf09207b5ce489a
+    new: 0f0f80d9d5db0b9a78a6ec74714f08b7b8bda0de
+    log: revlist-209ee634bc0d-0f0f80d9d5db.txt
+
+--===============4962529537610844937==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-209ee634bc0d-0f0f80d9d5db.txt
+
+9287e91e9019d4bc1018adb55ab791ae672e0b14 ARM: dts: bcm283x: Fix VEC address for BCM2711
+2faff6737a8a684b077264f0aed131526c99eec4 ARM: dts: bcm2711: fix MDIO #address- and #size-cells
+b55ec7528879a822a4d350248daa04bbb27f25fd ARM: dts: bcm2711-rpi-4-b: fix sd_io_1v8_reg regulator states
+7f565d0ead264329749c0da488de9c8dfa2f18ce tee: optee: Fix missing devices unregister during optee_remove
+13dbc954b3c9a9de0ad5b7279e8d3b708d31068b ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
+3f32472854614d6f53b09b4812372dba9fc5c7de ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
+bc22b6208f416ba702c17a93c9af6474f19e8212 Merge tag 'tags/bcm2835-dt-fixes-2021-10-06' into devicetree/fixes
+047051295201def0bd95936b67cc683658d3ddc2 Merge tag 'arm-soc/for-5.15/devicetree' of https://github.com/Broadcom/stblinux into arm/fixes
+3536ac5d771bf7c68e70b08f7a7ec85ff56c6b6d Merge tag 'optee-fix2-for-v5.15' of git://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
+0f0f80d9d5db0b9a78a6ec74714f08b7b8bda0de iommu/arm: fix ARM_SMMU_QCOM compilation
+
+--===============4962529537610844937==--
