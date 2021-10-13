@@ -1,52 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5268193745246922469=="
+Content-Type: multipart/mixed; boundary="===============2855258335903419402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 13 Oct 2021 15:50:03 -0000
-Message-Id: <163414020363.22123.12728076322044198068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 13 Oct 2021 15:51:51 -0000
+Message-Id: <163414031101.23596.14779014858836121311@gitolite.kernel.org>
 
---===============5268193745246922469==
+--===============2855258335903419402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/perf-wip
-    old: 2ce2642c4aaaccdd3c24f5053ff1a884f905810c
-    new: 85e86668e16409decbc5c35a76f77ac2d81a5523
-    log: revlist-2ce2642c4aaa-85e86668e164.txt
+  - ref: refs/heads/objtool/core
+    old: b08cadbd3b8721db738d9a00ef3ce3ed667e6d9c
+    new: c59205d0022488e4625ffbcf7c87095dca05fa6d
+    log: revlist-b08cadbd3b87-c59205d00224.txt
 
---===============5268193745246922469==
+--===============2855258335903419402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ce2642c4aaa-85e86668e164.txt
+Content-Disposition: attachment; filename=revlist-b08cadbd3b87-c59205d00224.txt
 
-93677d91f5aa0ac93026ff7a793bdc423c4dc723 block: don't bother iter advancing a fully done bio
-5c9767c6eea5e7c5f9bad633cf0a913b099c54d6 block: move update request helpers into blk-mq.c
-705098dad0a8150ac49ca95eeaa31f2690f9bc77 block: define io_batch structure
-26eb3d34fcb914840515e85905b1d3098bc41762 block: add a struct io_batch argument to fops->iopoll()
-7c025f091bcfdd0d69f0702ebfcb67ff34dbd1c3 sbitmap: add helper to clear a batch of tags
-7a476273897de06946ea876ebd2b49c62ceaaba8 sbitmap: test bit before calling test_and_set_bit()
-be1236f2e5ffacd5465ceb3552b831e8b357b6f3 block: add support for blk_mq_end_request_batch()
-a31dc0ca0016be1cf8e60cafc94f392d3f5f852e nvme: add support for batched completion of polled IO
-bbc61612aae7e75dbf142295e8eb4eb466f339f5 block: assign batch completion handler in blk_poll()
-22459f997a796b824d6e5566b9ba42c375b13b04 io_uring: utilize the io_batch infrastructure for more efficient polled IO
-d8983b42cb1dccfe816ad1de47d7da36f35b6140 nvme: wire up completion batching for the IRQ path
-d3a82fb84f4ec62458c6ceaa8eb8a06362eda78a block: cache bdev in struct file for raw bdev IO
-2da8d9896da0ce6c04834775cb355b5c297ea9db block: inline BDEV_I and friends
-0560106b03e5eb0964b4491300ee448466819665 blk-mq: optimise *end_request non-stat path
-94af56b4d1c94e952e91b96d8856bbfecd9302d3 block: convert ->bd_inode to container_of()
-2900496bda41fcd661ba84bd3bc1511d0610563b block: remove plug based merging
-5bd9a70ac6d4fe206c519af4df9a115e0f4862cf net: decouple skb_frag_t from struct bio_vec
-ed29d102a3aec82381c6013f0b1f6811a64d8216 block: add bvec_set_page() helper
-c6d65ed325c3795373231ae8d996feec9d884342 block: add a DMA field to struct bio_vec
-1a9718b17ac56268c6a99f97f1c80f16d6a6e054 block: add mq_ops method for DMA mapping bvecs
-410c73a5c1bf8851618380b90a3789738c799880 io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-85e86668e16409decbc5c35a76f77ac2d81a5523 nvme: add support for pre-mapped IO buffers
+53cc499ebb8c7f65fb373c8392c3308fccd4dd7e objtool,x86: Replace alternatives with .retpoline_sites
+f64b25fbf80a924279cd06f225e9f9247c900edb x86/retpoline: Remove unused replacement symbols
+a0f874923fdbe0982ac659c646623901028b3a29 x86/asm: Fix register order
+ad68a08875a6f809f833c958ff034df214973562 x86/alternative: Implement .retpoline_sites support
+a51167c87fe3dd5c6b01b429a9fb92d23c800df3 x86/alternative: Handle Jcc __x86_indirect_thunk_\reg
+9247b81181c563cc9f0cfcaee03e3c9542e3a616 x86/alternative: Try inline spectre_v2=retpoline,amd
+80ea29b61ef96afae703685e22e8c053fa29c8c7 x86/alternative: Add debug prints to apply_retpolines()
+54c892c234052f89a526597d16f38eacf5a6fda6 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+811670b999d169a60fc254f9fb3152737fb875fb bpf,x86: Respect X86_FEATURE_RETPOLINE*
+da46850f218f9540ea825eeca15ea8f6d8b28cd3 static_call: Avoid building .static_call_sites
+282dda8a59f709e3af46d0c9368dc33546aae1f7 objtool: Optimize re-writing jump_label
+134abf30fb3021f9c4f6b352116f571508743dac objtool: Add --dry-run
+c59205d0022488e4625ffbcf7c87095dca05fa6d x86,retpoline: Poison retpoline thunks for !X86_FEATURE_RETPOLINE
 
---===============5268193745246922469==--
+--===============2855258335903419402==--
