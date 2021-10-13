@@ -1,24 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 13 Oct 2021 17:43:06 -0000
-Message-Id: <163414698616.28166.13245319958159399408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Oct 2021 17:47:05 -0000
+Message-Id: <163414722559.30843.6115905409012012235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/testing
-    old: 687109cbbfd744cba8aea3580770dcf6e13ce12a
-    new: c4f0d57a964ab9a2accb13f86409cec421cd26fb
+  - ref: refs/heads/master
+    old: 5f3b8acee9fee04ece54376a4f842847000a97f3
+    new: 13b5ffa0e282f3d18e57735e37b8fed3a392872b
     log: |
-         132cd705a6086f6c2f54dc91b16d0ff5bfaca4c8 drivers: iio: chemical: Add support for Sensirion SCD4x CO2 sensor
-         a35b92465ead286420596e638e8b62e55f0aafa8 iio: documentation: Document scd4x calibration use
-         ffabbffd40f2ddcac39ad480515e5e8a79db7ee3 iio: Add output buffer support
-         3e9b0321b3dfd5208397ef475e92a27fca430a75 iio: kfifo-buffer: Add output buffer support
-         3a331a7d360e4f86eae01e049f9bd2049f27b471 iio: triggered-buffer: extend support to configure output buffers
-         c4f0d57a964ab9a2accb13f86409cec421cd26fb drivers:iio:dac:ad5766.c: Add trigger buffer
+         c045ad2cc01e473b98771379eb58fe13560b7f70 ax25: constify dev_addr passing
+         db95732446a86e310dbbe5f890fae6f0c719833b rose: constify dev_addr passing
+         2ef6db76bac0f3006daceb9eeeaf5f09820b1caf llc/snap: constify dev_addr passing
+         1a8a23d2da4fec6f090ec26bbe76eab2b77410e9 ipv6: constify dev_addr passing
+         6cf862807234fa8d7c91a3a2d327a87471b9adbd tipc: constify dev_addr passing
+         1bfcd1cc546eaa9ecafb9718bc877f24b8a349c2 decnet: constify dev_addr passing
+         fe83fe739df7e08a24e961f04fd026f0447f38cb Merge branch 'net-constify-dev_addr-passing-for-protocols'
+         40af35fdf79c77e19c597e47cc8fe9a8e200de30 netdevice: demote the type of some dev_addr_set() helpers
+         20c3d9e45ba630a7156d682a40988c0e96be1b92 hamradio: use dev_addr_set() for setting device address
+         5a1b7e1a532557e3af48c3ed7e61f3e757ee09ea ip: use dev_addr_set() in tunnels
+         400f17d3301ee531ad3646aa6fe179e7f8718dbc Merge branch 'net-use-dev_addr_set-in-hamradio-and-ip-tunnels'
+         13b5ffa0e282f3d18e57735e37b8fed3a392872b net: remove single-byte netdev->dev_addr writes
          
