@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 13 Oct 2021 20:33:19 -0000
-Message-Id: <163415719963.7110.4730661096571704674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Oct 2021 20:37:20 -0000
+Message-Id: <163415744035.9697.10335041940937799461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: cbfcd13be5cb2a07868afe67520ed181956579a7
-    new: e9fd7292935906c09824a10bc27b48fd3992c366
+  - ref: refs/heads/master
+    old: 6312d52838b21f5c4a5afa1269a00df4364fd354
+    new: 39e222bfd7f37e7a98069869375b903d7096c113
     log: |
-         1d1e1ded13568be81a0e19d228e310a48997bec8 selinux: make better use of the nf_hook_state passed to the NF hooks
-         e9fd7292935906c09824a10bc27b48fd3992c366 selinux: fix all of the W=1 build warnings
+         39e222bfd7f37e7a98069869375b903d7096c113 net: dsa: unregister cross-chip notifier after ds->ops->teardown
          
