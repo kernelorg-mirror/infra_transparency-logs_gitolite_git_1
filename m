@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6950770026396520760=="
+Content-Type: multipart/mixed; boundary="===============8422683639514960887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 13 Oct 2021 13:32:32 -0000
-Message-Id: <163413195227.26209.14064363266978891354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 13 Oct 2021 13:33:50 -0000
+Message-Id: <163413203051.26630.17632088872730198978@gitolite.kernel.org>
 
---===============6950770026396520760==
+--===============8422683639514960887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9b29075c1a4595b1d4c41668be4c72553ff60b48
-    new: 5f0ac3a1dae17ec0af6b845376247d7cc948ea3d
+  - ref: refs/heads/char-misc-testing
+    old: 880732ae31e890a568a71eb50d5747284b3c4dbe
+    new: d0221a780cbc99fec6c27a98dba2828dc5735c00
     log: |
-         5f0ac3a1dae17ec0af6b845376247d7cc948ea3d dt-bindings: serial: uartlite: drop $ref for -bits property
+         7ae6478b304bc004c3139b422665b0e23b57f05c nvmem: core: rework nvmem cell instance creation
+         5008062f1c3f5af3acf86164aa6fcc77b0c7bdce nvmem: core: add nvmem cell post processing callback
+         d0221a780cbc99fec6c27a98dba2828dc5735c00 nvmem: imx-ocotp: add support for post processing
          
 
---===============6950770026396520760==
+--===============8422683639514960887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634131950 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1634131950-c1f1db69b29b4afd9238db8428381b1fa5682fdf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634132028 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1634132028-97e36e75365921d0f5763b464bfa0c2f078a953b
 
-9b29075c1a4595b1d4c41668be4c72553ff60b48 5f0ac3a1dae17ec0af6b845376247d7cc948ea3d refs/heads/tty-testing
+880732ae31e890a568a71eb50d5747284b3c4dbe d0221a780cbc99fec6c27a98dba2828dc5735c00 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm3+4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VswP/3R2/FCpqTT1tltch/G4
-tKQF14dNlV749oSKp/U5dTL5QxsMDZFrcnPpw0Px2c66SYdojzjuf5tm2I+1SNI8
-tqk65txPXM0h7A+NH+MRJON0vn/vMDtb/4k+sk6uSXE3YYp7U+//5xIyN3gnGXcO
-qfbfZmqb/PJIbPd9RoRtwde+UMZM8z8wVm2gWKzOezg9Cfn3C5UpYU+L+q+Py5NU
-cw0Vo1eZ+qO4cB2BOFHyv2z2RACX5G5WZ1GO7yhh/cbzXm/gN9mXErt2yOYOAH/V
-4Dh+y1/jgEtKqxEECfL5kfKiSUb3Nmaf0xg8/wAMU58uFsUAn4LpJV6Ttcuw7OkJ
-ICZad1sJYh08jrmFcLhD+Mk7QEdqfTkD9lWl4n4UKi9esvGg/r/VcxsBl24pJ4xm
-y0UK4zmHY/LSGJVF+jObN8wlfk3hr/XtNs/zD1VGCW2dWv2IoBMmHNQ59tAm5Pkz
-m2dBGO7+O1a7PqbpIVDXsCKoPjwHvVMjsGpg9ho0eUoYZjchXo5Ns8bdRWfVMLTp
-bTmCYRJDo8mDMkTuSuBDVRlA11xK18lab2nIdxJtUqdlJauLC0BWciZAVKM2v8fw
-UMD3T5nkM7OCU6PVFJwyMQ4iZx3Tm76SR9vc81+ExUt7fsf5fju2NAatDcxBycl0
-7KFuH7YYnHAL2ofj6cSIkybR
-=flQ+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm4DwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VrkQAKKZcET0ILeplxHXFsWK
+1SMHXuxA1WOq01RdM5w+ULBg1ZC0SeIOWm4eX/eyJMFTgI+UvI18iOihdtBMcii7
+TMXWbY4AfowEAyRfqdXeWfpBEsrR+OXx/yANUBIW0KRwmdS4alIpQsxyjf0YPjL+
+hc/uL/Uq29i8aFNXstnJtvv1TaKqSgn9wPLmrsRzQ2FsG9mMPpX8ZOS7CvlCld/u
+tI8068mWPVFdD0ZQ5SPPG2vjwo0O/dL59N68PYDwafrvKZssCIuysBZXm2Z2T7FO
+t9Xgi7EVFud5wwnn5P/5lcVVC9M7YxFLm1DyiXTl/Sl4CekKjj/XvMyuMEIF9XHC
+QzlMXCbWrPnRRwgoaVeUlaY9VcyE+HUTYfLMRN0mnf59UY2WZJXpX1Szi92thlxj
+6yoIKuFRdUe2hcWkoM0B4+oBiT1LxTnDHTOwuC4B1JUXwrcC4E7uIyN8r0Z0jorO
+VCMdoBWC/IBhl0Wl3RhH5f9NjEK9xZcdHDdYPcwVolDGpdS9mxIWWE016Cvt85eT
+Nc+CfXJTjpn1V1bNktd+GL8MWKzYmncqdehJW0T9shuyeyQk4a4xfZJ0Lm3LP30Y
+v8vuThHMfjXGrxZoe/Ro7dp9mvJsZEhFc4BYnHGj8IwkHVAX/z/xNuXLL4m+y7nW
+6Ally5FKnCFb4eJfrWjIgdhb
+=M44J
 -----END PGP SIGNATURE-----
 
---===============6950770026396520760==--
+--===============8422683639514960887==--
