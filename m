@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6251602280133626913=="
+Content-Type: multipart/mixed; boundary="===============3569722921657557374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 13 Oct 2021 10:41:50 -0000
-Message-Id: <163412171092.22435.8291261486336538006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 13 Oct 2021 10:59:21 -0000
+Message-Id: <163412276111.649.7046335035156232618@gitolite.kernel.org>
 
---===============6251602280133626913==
+--===============3569722921657557374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fa5878760579a9feaa1de3bb2396cd23beb439ca
-    new: f4d0cc426f77df6890aa868f96c2de89686aae8a
-    log: revlist-fa5878760579-f4d0cc426f77.txt
+  - ref: refs/heads/usb-testing
+    old: 620b74d01b9d4393bef6742bf121908322c2fe0b
+    new: 68e7c510fdf4f6167404609da52e1979165649f6
+    log: |
+         68e7c510fdf4f6167404609da52e1979165649f6 usb: gadget: hid: fix error code in do_config()
+         
 
---===============6251602280133626913==
+--===============3569722921657557374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa5878760579-f4d0cc426f77.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9b024201693e397441668cca0d2df7055fe572eb platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-db9cc7d6f95e7d89b0ce57e785cfd9d67a7505d8 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
-92813dafcd8cae40b6256fd9392a44ecd5c9f505 platform/x86: dell: Make DELL_WMI_PRIVACY depend on DELL_WMI
-41512e4dc0b84525495e784295092592adb87f1b platform/x86: intel_scu_ipc: Fix busy loop expiry time
-5c02b581ce84eea240d25c8318a1f65133a04415 platform/x86: intel_scu_ipc: Increase virtual timeout to 10s
-a0c5814b9933f25ecb6de169483c5b88cf632bca platform/x86: intel_scu_ipc: Update timeout value in comment
-c0d84d2c7c23e9cf23a5abdda40eeaa79eabfe69 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
-0f607d6b227470456a69a37d7c7badea51d52844 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
-c005828744f584bfcd2cf3ed64dfef15a5078960 platform/x86: intel_skl_int3472: Correct null check
-7df227847ab562c42d318bceccebb0c911c87b04 platform/x86: int1092: Fix non sequential device mode handling
-2e5809a4ddb15969503e43b06662a9a725f613ea arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
-596143e3aec35c93508d6b7a05ddc999ee209b61 acpi/arm64: fix next_platform_timer() section mismatch error
-ed47291911d375f7d0bf63b9afb7516988305d94 Merge tag 'platform-drivers-x86-v5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-f4d0cc426f77df6890aa868f96c2de89686aae8a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634122759 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1634122759-a34f889464b66c62d56bbcb67352017352b23397
 
---===============6251602280133626913==--
+620b74d01b9d4393bef6742bf121908322c2fe0b 68e7c510fdf4f6167404609da52e1979165649f6 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFmvAcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/wP/2H1Sz7U9WrlPlWzA6gq
+QnWXuU1YlGvhyKZm1nPgtUl65aROwoavbWiOwmRRxXC8QsUqfBpNWNuAJWyIon/O
+lgtOtds2nxti4+xDickP5YH8nbG308I+DAEa89WJZmWC5jlLFh+gRYJcWspnqAjt
+Qhrcoo0xdkk9plPzgqPdZJZGpNPg3emdCa2udIeFF8QivSrcazg9GqWdyj5oWUL7
+v/ja2E1VnPrjiR1ajtKE2l1lATu6eRMYQHuajqtmF1p+5qHdsSL+5Yi7lFPrkEV1
+Lg3HtLsx/qBH4AG4dz8FQfAqG/vyQ1r85ASkbt287H4Bs20+p35XBA7zVTf6mSok
+WddsNvzIpgK1g9AvBgpZbf91YHjApJ11NN04NMeMsrfrq21nFOeK01gWoeC2yQ/k
+tfJxuBwG4CDCWDx7pZxCx862cPvaC4GqPdtMggs+yeR7O3jBdruRdbCWofNIVW19
+waCZIBg8D/M7Z4h43Y8ATWd8quMcB1hYqS3juEOlaPRvZB9jSNXqnOZ6jkrcxf2M
+myNoLQ6TRabniCevUvIVfKk6jTe2zMt+YlBsPBm/Ie+EuQrpj9JSAPd+f4ePFzJ6
+cJE/K0OD7Ty+wz+Jd6OB7Q3OeFDGgkRk5tYgnAVVdVlMa7UfuuL/7UJ35As5z20I
+R+iXxSgz9kyilQZbeQW0fg5V
+=cb12
+-----END PGP SIGNATURE-----
+
+--===============3569722921657557374==--
