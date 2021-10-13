@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7116589623181701807=="
+Content-Type: multipart/mixed; boundary="===============5074322163001475613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 13 Oct 2021 19:58:16 -0000
-Message-Id: <163415509618.17310.1565674916927930134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Oct 2021 19:58:22 -0000
+Message-Id: <163415510296.17394.8799675145397417189@gitolite.kernel.org>
 
---===============7116589623181701807==
+--===============5074322163001475613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: aa18457c4af7a9dad1f2b150b11beae1d8ab57aa
     new: 6b9b546dc00797c74bef491668ce5431ff54e1e2
     log: |
          6b9b546dc00797c74bef491668ce5431ff54e1e2 ASoC: wm8960: Fix clock configuration on slave mode
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: c3de683c4d1d68ff27f21606b921d92ffdea3352
     new: f05a9b8552896d95fc22e135eaf9c6be541bfe79
     log: |
@@ -36,29 +36,29 @@ changes:
          f05a9b8552896d95fc22e135eaf9c6be541bfe79 ASoC: rt1011: Fix 'I2S Reference' enum control
          
 
---===============7116589623181701807==
+--===============5074322163001475613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634155094 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1634155093-96a08dd656e20ed5f5143f6d8910581b9a1ef1a3
+pusher C3F436CA30F5D8EB 1634155100 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1634155100-c54c3d21d57202e244a150f83aa1a1aa9f966414
 
-aa18457c4af7a9dad1f2b150b11beae1d8ab57aa 6b9b546dc00797c74bef491668ce5431ff54e1e2 refs/heads/for-5.15
-c3de683c4d1d68ff27f21606b921d92ffdea3352 f05a9b8552896d95fc22e135eaf9c6be541bfe79 refs/heads/for-5.16
+aa18457c4af7a9dad1f2b150b11beae1d8ab57aa 6b9b546dc00797c74bef491668ce5431ff54e1e2 refs/heads/asoc-5.15
+c3de683c4d1d68ff27f21606b921d92ffdea3352 f05a9b8552896d95fc22e135eaf9c6be541bfe79 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFnOlYACgkQJNaLcl1U
-h9DsFAf9FtC5yvmTYHAcIoZB7Saem1g3NivxjEt4OY7T99HUwR8awe+f0WiKelqc
-IF+z0dfZN+3iNPWSMi3/bg0MigNW+KDYkwKwBR5qnces7NZrq5ENUHPdcISi6cJr
-SEWUBE0MGXi1+SoEiE8/kkH2+tQg/StHZIlduVov9CjDqcVaof3Ay290mapPS2G/
-5SqUvv6D8AKjA5Sif3HP6ZdtvBp4JXeEC1kp+QeUBCWLoqRmbrgo9k330tERN8T6
-bAPPOsCMJPIn6K5gYmVpzQryI4O6qPF7ZXZbzoGpXa4ZmRKYCovAmo5h5o8ETybU
-PGlK+YnHnbRDJD+xjRWHMe+OySHLkw==
-=RHNg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFnOlwACgkQJNaLcl1U
+h9BmKwf+LLrsOPutcWh8nWP5xoFPGXTkQS5W9dHqKGo5zy4Lj6YqjD3REqwEX+TO
+LHTzfFJu2I5n23+huIte4bXXi0HclFEEI2L/1e3ffzwyBZ9HgkG7zVwZvHe/PlBo
+yz0JBXBZuCKA0lJt94jh14rpHN5+Bifn9YWppkrQx0LJdP8Xy8GfPirtcEnv3g5p
+GDGHtNyHr4qDNH667yZPBoMV/dqKYCNtU4NCkAJabxnCEukHoNs0Pt3W5OfQVtPh
+knaaQJzwhjixq6hhASlXRPiHjoLWHzqSAHbqz3//5Mj+6w9+efC3Eg5es73ks2yu
+2zyy8wmP4Am4IaXnvNZVd/fLLuP+XA==
+=0NOI
 -----END PGP SIGNATURE-----
 
---===============7116589623181701807==--
+--===============5074322163001475613==--
