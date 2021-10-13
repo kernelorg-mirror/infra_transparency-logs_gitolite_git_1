@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Wed, 13 Oct 2021 09:35:35 -0000
-Message-Id: <163411773506.23132.793200478115773907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Wed, 13 Oct 2021 09:47:06 -0000
+Message-Id: <163411842654.29295.13397002799711175355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/pci/qcom
-    old: b355707a40cd326cc5e5840366e7b6ce597b4e20
-    new: 7090354af0c8c1d7eb4810acdf56e2a59fd5c88d
+  - ref: refs/heads/misc-next
+    old: 107d613af44c1ddf388ea660a50140be39e1e926
+    new: 9f380113bce520afd26c5e1029c06a346334eae0
     log: |
-         64bb1ea81641fdcce4423e2672025e63ebe0bee4 PCI: qcom: Replace ops with struct pcie_cfg in pcie match data
-         7090354af0c8c1d7eb4810acdf56e2a59fd5c88d PCI: qcom: Switch pcie_1_pipe_clk_src after PHY init in SC7280
+         0747812264412ce1a8474ff2ec223010a6dce3a0 btrfs: fix deadlock between chunk allocation and chunk btree modifications
+         9f380113bce520afd26c5e1029c06a346334eae0 btrfs: update comments for chunk allocation -ENOSPC cases
          
