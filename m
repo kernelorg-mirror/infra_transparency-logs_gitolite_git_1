@@ -1,47 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7177924928917212793=="
+Content-Type: multipart/mixed; boundary="===============1017235471067192300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Wed, 13 Oct 2021 12:35:16 -0000
-Message-Id: <163412851606.22135.10773142674607619820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 13 Oct 2021 12:35:48 -0000
+Message-Id: <163412854883.22375.5565474947077445308@gitolite.kernel.org>
 
---===============7177924928917212793==
+--===============1017235471067192300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 9ca3f869715845a9f8e2cf5c09dd6bc7c00cfdb2
-    new: e15a9a5fca6cd0e6c2b09f287bf64d738824c2cd
-    log: revlist-9ca3f8697158-e15a9a5fca6c.txt
+  - ref: refs/heads/char-misc-testing
+    old: 424f1ac2d832f31a2814c799bd50decf6a9f8e74
+    new: 85385a51ceadfe79ae3b1eb5848fab6c3b917ea8
+    log: |
+         4df4946d26bb7866b71cbdf86abe285ed3a79cee misc: lis3lv02d: Make lis3lv02d_remove_fs() return void
+         85385a51ceadfe79ae3b1eb5848fab6c3b917ea8 misc: ad525x_dpot: Make ad_dpot_remove() return void
+         
 
---===============7177924928917212793==
+--===============1017235471067192300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ca3f8697158-e15a9a5fca6c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b5cf7894208ea40bcfab1bec5aa0ccb30d09318e fuse: make sure reclaim doesn't write the inode
-6e6b45a963c4a962c61ca59982982ddcdc82e651 fuse: write inode in fuse_vma_close() instead of fuse_release()
-28b9f8c9574b8cbd2ebb94c071dfddeb4886099a fuse: annotate lock in fuse_reverse_inval_entry()
-2469204435db9492d09717e65302efed9be5f52a fuse: use kmap_local_page()
-443a15ad3f72a112f98eab2c052076909032509c fuse: delete redundant code
-7df1f7c2bb833e9bb5f0cbe28fca98e394cded34 fuse: move fuse_invalidate_attr() into fuse_update_ctime()
-3a731da57ebd5a61ea99538794a6a6422b76f75f fuse: simplify __fuse_write_file_get()
-412a7ca5e2e6787b9d7ab328f06d737427d6626d fuse: selective attribute invalidation
-a69a29fb89c1f074b55b0220d844d064dd169182 fuse: don't bump attr_version in cached write
-9ea929e80274735c37aa206d8a0faf8fdd6f8386 fuse: rename fuse_write_update_size()
-a2d7728a1f35a0b74362f04355e966ff01baf08e fuse: always invalidate attributes after writes
-3a59f16e1d296bf7614cbd1fdcc7e737fe631709 fuse: fix attr version comparison in fuse_read_update_size()
-68aaf8d59132bf86fa366a298caa23162a07fd7e fuse: cleanup code conditional on fc->writeback_cache
-27e2682a6fd9018b84d4d696d3620b8d7f8128f3 fuse: simplify local variables holding writeback cache state
-cbcde085408b8028798f86d4f9d7cec568753bc1 fuse: move reverting attributes to fuse_change_attributes()
-83d9bf94c077c8e3c3877e8112610cd7855e08f7 fuse: add cache_mask
-e15a9a5fca6cd0e6c2b09f287bf64d738824c2cd fuse: take cache_mask into account in getattr
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634128547 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1634128546-ab513f5f1c67a9e875005dc8c5a7cbcd67425715
 
---===============7177924928917212793==--
+424f1ac2d832f31a2814c799bd50decf6a9f8e74 85385a51ceadfe79ae3b1eb5848fab6c3b917ea8 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm0qMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5EEP/iNnyi749jC4cqdtLYAm
+iqlgT81NUwclhTGSkHngUF6H/ZyQ8Ek9Yzp/Q9u+V4gRa3fBRGDQeKsRJs0tp6Vu
+hvJ30km306lsaV+CArvPT+ietKkvM8czGGQbQKnxpxAdPpQ4ZMWuaeOiWJVV8RFW
+qviZ8rlzTxQAyY/AU4kf8OYaYeWPAicN9LNumrAsjG//mL/CGONyF7QdjD9AWlhH
+Rytz7KOFuITjhPfwkk78n0Fi51xT5YTr1wIUiUTymrvCXQhtVy7ryKg9KuNU5xHL
+/Ij6XurWt9OzFRQWN6lP4w0ri+5fr/B5o7nQ5/DKplJzad1jqGKyB7M5XzuqcrKF
+9c4xgK+sFZvfR8C7cjUvXWIa4KKBPE/mOwWYLrwZdyEfXiyKwuUOajcuDT+pk5Iv
++OmaOrd0inWZzeHw1OGAnszTWgV1IdtyC/XasoAYhqnHOp7Z+/ii2I0yJzMu6SMP
+T1mhbXlOVc+GbZrPiTE0GXy4Hrfjvwx4ADFljOj56hrt+3eYItCN4TybO64L9yha
+sDaufwYw0KsyO3uqCHXa0v3zdjXvLLmv82K8GBRvOIThM1AIgYBAsdGR+mXuV754
+T1Rpdh04+2z6aKHCp2OR1obTXD8/awTqtTTBYNYsGaTgsiUXulSsOq/iTYVOl6TL
+B1lHwo07QEORgqwzlIfCIFu4
+=dpIv
+-----END PGP SIGNATURE-----
+
+--===============1017235471067192300==--
