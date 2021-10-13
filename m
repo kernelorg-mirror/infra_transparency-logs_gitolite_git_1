@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0264822988047407540=="
+Content-Type: multipart/mixed; boundary="===============2131447493831560515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 13 Oct 2021 01:51:11 -0000
-Message-Id: <163408987192.1791.16975807902013957215@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 01:52:35 -0000
+Message-Id: <163408995561.2241.15850465975239249244@gitolite.kernel.org>
 
---===============0264822988047407540==
+--===============2131447493831560515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: f38a032b165d812b0ba8378a5cd237c0888ff65f
+  - ref: refs/heads/whatamess
+    old: 639325fc4f791b5044fd7f1837cb3c5a355cefe7
     new: b06b65cb3f9bd17536d928bd2640df73f29a35fb
-    log: revlist-f38a032b165d-b06b65cb3f9b.txt
-  - ref: refs/tags/xfs-5.16-merge-1
-    old: 0000000000000000000000000000000000000000
-    new: eb34940776ab2d97d6aa3106007888945cb5cec6
-  - ref: refs/heads/xfs-5.16-merge
-    old: 0000000000000000000000000000000000000000
-    new: b06b65cb3f9bd17536d928bd2640df73f29a35fb
+    log: revlist-639325fc4f79-b06b65cb3f9b.txt
 
---===============0264822988047407540==
+--===============2131447493831560515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f38a032b165d-b06b65cb3f9b.txt
+Content-Disposition: attachment; filename=revlist-639325fc4f79-b06b65cb3f9b.txt
 
 c590fa80b39287a91abeb487829f3190e7ae775f ASoC: fsl_xcvr: register platform component before registering cpu dai
 1dd038522615b70f5f8945c5631e9e2fa5bd58b1 ASoC: mediatek: common: handle NULL case in suspend/resume function
@@ -1057,4 +1051,4 @@ b634a75b3e5acc1df78f58e44be3158655841191 xfs: remove the xfs_dinode_t typedef
 c310dcf40cd03cf958b4ad919186b4dd7bea81cf xfs: remove the xfs_dsb_t typedef
 b06b65cb3f9bd17536d928bd2640df73f29a35fb xfs: remove the xfs_dqblk_t typedef
 
---===============0264822988047407540==--
+--===============2131447493831560515==--
