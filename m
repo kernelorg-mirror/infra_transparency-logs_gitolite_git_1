@@ -1,59 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8521247944370619690=="
+Content-Type: multipart/mixed; boundary="===============1194720984282620443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 13 Oct 2021 17:11:30 -0000
-Message-Id: <163414509076.8854.16215589893169791538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Wed, 13 Oct 2021 17:25:58 -0000
+Message-Id: <163414595853.18951.13096044516823355313@gitolite.kernel.org>
 
---===============8521247944370619690==
+--===============1194720984282620443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 45e52c2115ae2c3f61fab5c240d3cd83b160c0bc
-    new: 08384eb64ef94977ed5607cf9ca32ca8feb0f149
-    log: |
-         4604e3297c6a5149de701d5f2d550e04aecceb7a device property: Add missed header in fwnode.h
-         8d4ae11171db6b3db897a155b46b7c775c12f909 dyndbg: make dyndbg a known cli param
-         d76c8e9cdbdf4a0a5ec4ef6c070655a3d82aceff dyndbg: Remove support for ddebug_query param
-         08384eb64ef94977ed5607cf9ca32ca8feb0f149 Documentation: dyndbg: Improve cli param examples
-         
+  - ref: refs/heads/x86/fpu-2
+    old: 8a9f3ec29057b2ebd5b8ead95fcc5363592e5a8c
+    new: 1141eb85862d80bc2c9d349a0f62a91b0b087b01
+    log: revlist-8a9f3ec29057-1141eb85862d.txt
 
---===============8521247944370619690==
+--===============1194720984282620443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8a9f3ec29057-1141eb85862d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634145088 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634145088-dbfe07229a4786b644eb9b7e043b1d52d746c341
+dfdf24a897b21d9edad0095f0171c94db52357fc x86/fpu: Provide struct fpstate
+9ebc9367aaa25013b5180026fe022b0826d0e3cb x86/fpu: Convert fpstate_init() to struct fpstate
+fd6647844b4d0786e1ce5eea93237ef7391038e2 x86/fpu: Convert restore_fpregs_from_fpstate() to struct fpstate
+bebfe879d54aa801917dfdec6eaa47af23478679 x86/fpu: Replace KVMs xstate component clearing
+ffe0ef0fc1d2e368717892898a6589581c09eb41 x86/KVM: Convert to fpstate
+7a7883e56f3474e72892d4f33cfb665d435f3a43 x86/fpu: Convert tracing to fpstate
+3a8aa81354e14f9d9dd71920dea380d4750fa950 x86/fpu/regset: Convert to fpstate
+40fe5622347a0beb5bb3f04f1035e86ebddae865 x86/fpu/signal: Convert to fpstate
+3b1acce776139ec40ce68fc55c85967e38aec220 x86/fpu/core: Convert to fpstate
+30699334b4cc6fa141d2eed79306fdbf25d05360 x86/math-emu: Convert to fpstate
+7706a71d0b6d0df100f3cd111fe67e70d58c1224 x86/fpu: Remove fpu::state
+eac5bff3a262706af7ce2641021ca7e9c9c467f5 x86/fpu: Do not leak fpstate pointer on fork
+9dae6a3a4b0345e58f142359de67b1cfa1836f92 x86/process: Move arch_thread_struct_whitelist() out of line
+5e4c1064aa6ad755d538fbcb7a3b7914aecb4fd5 x86/fpu: Add size and mask information to fpstate
+f1bfc8b48dd37a070d576f669b616dca90fc57c7 x86/fpu: Use fpstate::size
+1e91d7b3887df2902e0aa1339af9c44b33d808d1 x86/fpu/xstate: Use fpstate for os_xsave()
+6c8abd909eccef75307b121860c072c678856161 x86/fpu/xstate: Use fpstate for xsave_to_user_sigframe()
+7271ee4ae7179b02db49245ef4fdd3fd1a7e5343 x86/fpu: Use fpstate in fpu_copy_kvm_uabi_to_fpstate()
+c84392a49edf4598ca5652b2c1ee0cdfa3dae300 x86/fpu: Use fpstate in __copy_xstate_to_uabi_buf()
+9a48e00ae65e92d748b6f0815ad29bf7dea57590 x86/fpu/xstate: Use fpstate for copy_uabi_to_xstate()
+1141eb85862d80bc2c9d349a0f62a91b0b087b01 x86/fpu/signal: Use fpstate for size and features
 
-45e52c2115ae2c3f61fab5c240d3cd83b160c0bc 08384eb64ef94977ed5607cf9ca32ca8feb0f149 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFnE0AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pKUP/3Ls3p8ub+s8Hr2VNYL1
-14k539feZFhqRPCoygJB81fqVcOTvaX+GxjSFOsj50xXSLCaawfSlQWewrQCGobl
-luGsHWcaCCMHcF1FCuayeQ/5QmgNVRIaUXT+221smKwm+ICbcU6Pg4Nb1OurZscs
-ftreTXN796aLlrZii8JzC/ATHvJu0vw90Hzo+qZqjEbWYHZYS2wifx7JNx/nJsC+
-VQ9kyO9IC+LwmSUchmp9+kGeVTGfVB2WljxQ1IB/5IeEfKZlehacSlI9FvxDXU8e
-a0xXj5rnx2JAiVGzCy7e6tHH0e2aQyChVS2CMMHC/KwsRzwR7ykAiQc0/zOoG7Kd
-R+Gzg5DwIdl9U8pSOO+Gzc3xXFLzOrXceCNQ2z/pNfR+yFEgF0GkMgXXYPlDTGIk
-TFqwaDU8rQwgHETgTxP1U2DKXLZkgp6GbYkuq8lVOd2OWzlWT/pbLmo/EtX/1aIh
-aBqFCV4SR70bI7NQqSAdDajrxEPPIDbtbRQqULGG5ZJzIna5YtRcx2H7tTd/es82
-qedqGXqrtszkfg2BZGfBlri9kSJ2VVyWyQN2XHUyIBEQz5YysNbfthsyjuMjM+h1
-a/i0J/Pumeph6S9rBih8U8bwaSGYfxOeZH9nD7qr+WFndJ8EjRH7xeP5wJGVnwdb
-IABJFGcMsUILSHihjGu5pLc1
-=kIjZ
------END PGP SIGNATURE-----
-
---===============8521247944370619690==--
+--===============1194720984282620443==--
