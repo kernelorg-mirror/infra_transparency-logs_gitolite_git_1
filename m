@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Wed, 13 Oct 2021 22:40:07 -0000
-Message-Id: <163416480723.22715.6320452646690739843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Oct 2021 23:00:07 -0000
+Message-Id: <163416600714.3242.13688646895606104190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 42e1357bb99a73262087c60a055e20a19cb42273
-    new: 6357eb5c587296cfdc3ebeba11a9e68c6af5b4a3
+    old: 39e222bfd7f37e7a98069869375b903d7096c113
+    new: e79d82643a69df03d59fe47e32619515a83e4969
     log: |
-         ff70234a7e5047024cc1a37d55df6f2d301357ef dhcp: Use l_dhcp_lease_get_prefix_length
-         6357eb5c587296cfdc3ebeba11a9e68c6af5b4a3 dhcp: Add numeric form getters for gw/addr/netmask
+         e79d82643a69df03d59fe47e32619515a83e4969 net: enetc: fix check for allocation failure
          
