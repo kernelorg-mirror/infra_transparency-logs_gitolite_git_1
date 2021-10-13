@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0698072637957060028=="
+Content-Type: multipart/mixed; boundary="===============6889418109098747335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 13 Oct 2021 14:32:53 -0000
-Message-Id: <163413557374.3684.5352990258031183051@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 14:32:54 -0000
+Message-Id: <163413557488.3812.3481980019775281775@gitolite.kernel.org>
 
---===============0698072637957060028==
+--===============6889418109098747335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: eefac18585e0fad0cacc7148f79df60ecdc1027e
-    new: aec8cedeb05fb1fc0b8888b71a8191b879df6007
-    log: revlist-eefac18585e0-aec8cedeb05f.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 4d48e508cd56bcdffcbd810caa245260555def00
+    new: cb9eaf51f06b404d5f807e408e9443f078355002
+    log: revlist-4d48e508cd56-cb9eaf51f06b.txt
 
---===============0698072637957060028==
+--===============6889418109098747335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135572 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135573 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1634135571-04583ac3d4d3aeb1d36294f2bb9b1dc156cf641a
+nonce 1634135572-ae2e0ee0dda5d3b6ff5b2e5338cd05663946a1eb
 
-eefac18585e0fad0cacc7148f79df60ecdc1027e aec8cedeb05fb1fc0b8888b71a8191b879df6007 refs/heads/linux-5.10.y
+4d48e508cd56bcdffcbd810caa245260555def00 cb9eaf51f06b404d5f807e408e9443f078355002 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7hQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EsYQAIBrGySTSkaqUJ52HDvD
-CvO9Fm7PqDxcJbuscGnSGYu/ygiB5zEinAnEYwuXJHQJ2rEyLHZGitnEpqlCggTH
-AliH9xq3mR13IZw8NCwCdomfuGmFpoYaAETLA8Dqw8MG9A1HSqgwVhHg6Ke0QSL0
-83CYgkMRh4dqvQfKVgj50IL84eGT41jnU5uhKUqtQ9zRkA5xPKUS3/DJEd7qJpZx
-srC7ltj6VWhieZRY+6R7GOozs+0wdn/aPa+1A7E0UwRMKLHViOVeDmC9LtZWUNGr
-BvoCOA80mp3YY0hDfTpI6yeW3SO7Vfsf6CV68lGQ1+/wN5rbrWXy0AHKXWdxFX98
-E4Nq9vls+OR5JMdIuax1t+ipm80M0V5aII9Thp3gNT9idyrFu/xQpbnUvQdnjZsW
-0fm9AApdNYzKHNvkOAZ1S6WnePofIDhpRSmCIIO82wz1cup37dDWIEVgTYbAlEuH
-nq9+5ebSrFL4fDzgI0PcpzLyo8glM8rbdypu5PDL3r7GSuskscc1vImh/eYOcThD
-aJcTCvWihI04dmVVp2crBvl4HuoA26XTnp2ty148zkdBjJJTcI194UuTOIuBaWTs
-T9JyYJtKSt6eYga0hgN0o9Y8ykYKwCrFNV7LnYIeNqiJw3fD083r7zi5Ogw04x2U
-TwCHSyiWoda9woRdP9FKUS1z
-=f8I8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7hUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WOMP/2iF5s/aeEf0BSeyktEl
+hrf78rvM40BrobM1wIQtLEWQFpdVLTLmVrXmK4m9L5AqSI+jSslynXqL2gDWgvuL
+W6wTiwWfQ/nXBDwp8cdrgORYZwOpPvsKoeFDE9nn4/zFtg+SlawWTrh8m9ybeQPe
+Jsx9gwMNZh7PdtwPrp+t5fkdQEZd05IlRdxXuXncVAKVfjuJR+WUcqJjSfcJlQol
+dF3If12WBGVsfHgexGU22XCyFwQkdLXmDrMKF7ghqYpLwjmmvcpLJBC1mW0vRuVp
+GsJ6zHCpwAJ9ArWwPvBkowFv+F6cj+CwexNojMQ4eQFYqQYJLbOW4SUh5kQ6iEc1
+SSe68x+Hp5fOhVw9Eybk5NFclCqqZ76xjdlEuF1L4uH72+LechPSlwEnDgo9QGlj
+PEm32iezDpiN95Ii6nySqZdZEJK1jqPqbCXkoqYimaaKUdkn0AtYRmvIxZ+U5jIa
+5k6WdaRtg8manQ/Toi7JGQ9JcTAXNOxE+AimAMQgUYfstMI5zvZndZ2Lbtpz85yB
+Ed2N67cdk+668OB50BLq0KGdkgKL6JBnL2MYGofZGwJ3+59ctzZgxwjmPf/OLQiI
+KxkQ5q4Ureldh85B8raPwslP9N0WUsfn4i/9excQeOjolOcXR5sp880ISt0iswMl
+eWpX/7svZP4DGYlaY3t/xKhX
+=OmRY
 -----END PGP SIGNATURE-----
 
---===============0698072637957060028==
+--===============6889418109098747335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eefac18585e0-aec8cedeb05f.txt
+Content-Disposition: attachment; filename=revlist-4d48e508cd56-cb9eaf51f06b.txt
 
-168f4b3656c8d8a7a99939c95f1c28ef8ac4bebd ext4: check and update i_disksize properly
-d99f5139f31a96af34f6c7ed6d562048cae4d63d ext4: correct the error path of ext4_write_inline_data_end()
-f899aa2992e5157cad466462b18eb5d4b8babfe9 ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
-72f4a377d3285e976a4e1e06d3919042e99171e0 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-da646d4c6f08aaaf03eb505822445e869eaf7063 netfilter: ip6_tables: zero-initialize fragment offset
-e25f23b7573ce645013715ead7628a52685e5cb8 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
-e3e0a0206b20ae9ddbeff7043859e9724e0ccb72 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
-d32c6eab4a8c646c719c6ef74e5eef93aea53488 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
-749b64d256f5bdb3375fa1df4af9e465511c6ddc netfilter: nf_nat_masquerade: defer conntrack walk to work queue
-3c1b3c62c414fa6853146a7502119c55ab570e31 mac80211: Drop frames from invalid MAC address in ad-hoc mode
-e33ce5619d8fff4276e63096b3e2c87a8a9f9901 m68k: Handle arrivals of multiple signals correctly
-8cc4dbe2612fcf3e7fda59ec25968b17283ac5e7 hwmon: (ltc2947) Properly handle errors when looking for the external clock
-663d209c5832d9df855d6a581a69eaa7b21e9722 net: prevent user from passing illegal stab size
-e45dd23a86ed5d4aa853242ef0e9efd3ceab5309 mac80211: check return value of rhashtable_init
-fb0d3599ff232c67c41dd4275709400e6f857b0a vboxfs: fix broken legacy mount signature checking
-58b4f3c2f66d90fe9dac41f21651034bd7464151 net: sun: SUNVNET_COMMON should depend on INET
-c145f22e5541863f56748657233f65899d4fab54 drm/amdgpu: fix gart.bo pin_count leak
-5f133e6fc6af085a6b6cabb761a7f164f2df50b3 scsi: ses: Fix unsigned comparison with less than zero
-c9669887a339dc5033aa9671968adeea20ae788f scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-a0e8b96887b43977cbbab462a4a1454450c8c73a perf/core: fix userpage->time_enabled of inactive events
-d6e70a9e7dd6b0ffc5581051631eb4dd5e2d5d71 sched: Always inline is_percpu_thread()
-17a842ee4f675d4f774a57e5de2c21c2ae703995 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
-aec8cedeb05fb1fc0b8888b71a8191b879df6007 Linux 5.10.74-rc1
+9e61436a5562e6ed6fd1819c33a59f5f7816c66e Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+598c4d3b975890ae0269741c69a1466c37f5acaf USB: cdc-acm: fix racy tty buffer accesses
+cb92d5a1179aef43e7ea84698b0676a39607c73b USB: cdc-acm: fix break reporting
+9032399721b80e8eaf5f8b6b4db55a3ae9ae4566 ovl: fix missing negative dentry check in ovl_rename()
+42cb99722c1069d7bd15d522f45182875c5ff8c6 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+18b5e502df1f18d6cbab1320a9848fa1745d3c08 xen/balloon: fix cancelled balloon action
+1de461a102d3646a9f464b82d833b78475fb3fba ARM: dts: omap3430-sdp: Fix NAND device node
+8fe9759eed01635c937903dbc5d743fb891e58cf ARM: dts: qcom: apq8064: use compatible which contains chipid
+a80cff27b6f2379c2d7a8fe9af0960875ec9f960 bpf: add also cbpf long jump test cases with heavy expansion
+99157598fa081bb9f70c338f2a24f153a8ce4418 bpf, mips: Validate conditional branch offsets
+cb2be01177786f580d8456f2754ad5c006b1f473 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+380db191ac82ea8179614037ddd10a4649f3cbfb bpf: Fix integer overflow in prealloc_elems_and_freelist()
+0269d470c59b212feb352b29385f1893768eb4ec phy: mdio: fix memory leak
+5e203bce8aaff583876eaf9b9a360cd58d4cf833 net_sched: fix NULL deref in fifo_set_limit()
+181b978ddea29ef99de0174a3c3217069a34726b powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
+138fb1863bc988d6cb7a414dff3844d7ee0f06e4 ptp_pch: Load module automatically if ID matches
+702550c7499771a373d0f4aa5b120562e79b7c97 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+53a574bb62833b3972e6ad00721ba5e69c82b37d net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
+eb65e8ce969d49b03e54292634b21c1863ac7be1 netlink: annotate data races around nlk->bound
+9073d830b60a54e0dbba35bc5df81addda6b729d drm/nouveau/debugfs: fix file release memory leak
+fb13a4f87b92eb2f06391f3879add5d2d7e952fb rtnetlink: fix if_nlmsg_stats_size() under estimation
+541fe3e86169f49c3806c4b62a7f8fc531bb107a i40e: fix endless loop under rtnl
+848d5bcd749e948f223d8b61782a576a87a4c244 i2c: acpi: fix resource leak in reconfiguration device addition
+a8f7970075a79bceabd98a2587a30e3482a9520d net: phy: bcm7xxx: Fixed indirect MMD operations
+abfdc9b204a64e96fa4ba87d74bbdc3a1b17ff55 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+5f2fd501b59429e3f9928e804d24f55ae4006e15 netfilter: ip6_tables: zero-initialize fragment offset
+8092b8d1d7934e8594681554c7ee1bf36fd1d126 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+c9f734cae5a870453747e88de6b9dfc69d6beac5 m68k: Handle arrivals of multiple signals correctly
+ee3660d671b618cb2a8937dfad14024acb3eab8f net: sun: SUNVNET_COMMON should depend on INET
+4990331c5def5b40c04cbd72b3689ca8fef466fc scsi: ses: Fix unsigned comparison with less than zero
+3f59052f0fd3ddffd2b0972efbe6e4c39beba6ef scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+4346cae968dcfc28c1cf28d426d1338326c926f3 perf/x86: Reset destroy callback on event init failure
+ec270909254ba5f9804cec1caf98cd830eaf893b sched: Always inline is_percpu_thread()
+cb9eaf51f06b404d5f807e408e9443f078355002 Linux 4.14.251-rc1
 
---===============0698072637957060028==--
+--===============6889418109098747335==--
