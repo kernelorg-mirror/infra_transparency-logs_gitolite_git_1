@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6236784901906883569=="
+Content-Type: multipart/mixed; boundary="===============6733966101455225340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 13 Oct 2021 14:32:51 -0000
-Message-Id: <163413557149.3474.5144571574891904603@gitolite.kernel.org>
+Message-Id: <163413557165.3485.3189684149579093320@gitolite.kernel.org>
 
---===============6236784901906883569==
+--===============6733966101455225340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 88229e8074994503f4f15797c068fd8db1d3c3b8
-    new: 46f1e1a33c904a13d1ecf545f986a841c708efc1
-    log: revlist-88229e807499-46f1e1a33c90.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 83557417d0098fbd8eff5b010c98672efa9e96f7
+    new: 9a68777ad65aeb678c59ce30efe7f376b0f4b084
+    log: revlist-83557417d009-9a68777ad65a.txt
 
---===============6236784901906883569==
+--===============6733966101455225340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,49 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135570 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1634135569-8943bf22f9ec81d29af759cb21ccbc963483ba87
 
-88229e8074994503f4f15797c068fd8db1d3c3b8 46f1e1a33c904a13d1ecf545f986a841c708efc1 refs/heads/linux-4.4.y
+83557417d0098fbd8eff5b010c98672efa9e96f7 9a68777ad65aeb678c59ce30efe7f376b0f4b084 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7hIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5l8QAJrm24WxCX0+WRxtNvvO
-F2a5RWu+qigWhXYc/TsVZbESRPHWnk9aJbhdewzwn010mh/KAmZqTytJpURYJOxg
-FJjvaP/BKKakMVIwbOh/mv5k88TSl04M+nTJlhZDLhAFUrijy4/kn+JM802AhPXj
-/dtR/8YRTFblnCktrFWtRWoM+22AI0eu7jYT6IKx9gGdS72TOS7nh4Pf0Phea8HL
-jRFsJmAQAGyCEBDkBlgTbO1MY2GCjJtay3jxhj2mshvBDJkcrDzsiTz/5KGxyEYO
-VECBMa8+4dZH0xE5dF4S4dqbRXssA1pvv4XmrlOOua34Ga14vs3WXxTcxJOLiJ59
-PkVGOw+KG+0bWR8IgGOBqy8dT6emRKvpMQEYAqhMg57Q3AIqu7A1mAwH74m2ZSKh
-YCvL7MXiJ9C4HU+594w1N6UD2Mx2PqC9o8Xv1P1ja1I8nTA81/pIGvAdbtlq2xgR
-Ft9HqDvcUtckM64RZgG0Ffsbo+vU0poWH9LqppVFTTeTouN9lLiCylG9nBdQ1hJN
-QdV7Q3Bah0dpItNIH2VzN/4rTnvSkVRtPEBIOlxP6GEM9TE6yGZyTasSJrUxUwaP
-dljNQV3PvJu0GjMk0a7l9R/V6o0XpJshKsZxyiyyquc3UoHPNKBeNsVYL3YpJo3T
-A1NlJii7zQYD6GpXdjjKKelz
-=q/uz
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5e0P/3EJ27+yaIUK3uBW5Nd2
+f48CebbnWzeK2DPP/sbsMcQ/w9p3gOty9e6DGT5lQzGHQZ6fVONIoxq0dOd1f8FH
+j/ly+seh+JQ7xgF1VDTtRu66O8ql//hKSbmZzJBxZeaKHS+DL2/0FmWu/gmFhGbD
+CuMPgt51zjB7haEPA69ol6+T7dshFOEOgqbDuec+3AzcXDFpPg2dCLGL7T2mzgYE
+FIONFmRgmqAtxrtofUdH1XRffCDoDvClwFlf30xt61c2R0WjQRym88dYusjcfTv6
+P67DqwsvtZeA5/9KVD+BZcz2sSSEvUzk/C3hqGvWBionEQ4Fwq2lJsD5shofEu82
+tK5DObWSFlGhWEp3kZ7Wvhv3df/xxVhQc5ymZcJIT6Ul6XS8GldqfPudtLmWlkfx
+Rxd/wMBC4c/kzoPBqu+Z6uBtPcuiOPH6RIHbXYE0BMxC5SFJy2LwwqLScjsOkGdi
+/U2wIqFAH8qX0QZXjFQrbXaZ7oWNzcV/7kooKUzsbuDIPD1tcJabhSORUbExE7pf
+kendbOHd/4ewF/g7FQjqGdIdCFub9m6Vxhk5T43wBQtSMQZnsUdaPg24xcKmCEsj
+u93KTKvbwt5VmviAs+rAMzsUEYWQc/CObn4zr36ocxBZNpE05Oa8rQmsCK5Mqa9D
+BufmQI5kEMXWIsQvqmGpu3Vv
+=eVe1
 -----END PGP SIGNATURE-----
 
---===============6236784901906883569==
+--===============6733966101455225340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88229e807499-46f1e1a33c90.txt
+Content-Disposition: attachment; filename=revlist-83557417d009-9a68777ad65a.txt
 
-b1500e59dda09464691b8e1d7ec7f0c763ae0459 USB: cdc-acm: fix racy tty buffer accesses
-6b1e7042043acb11eb0566d33553f37af7f03818 USB: cdc-acm: fix break reporting
-c01f0c5055fd3942e4e4c9f4185643342986b18a nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-7863793f2b8393ebde9785c9c4413786054a5ea7 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-d40039b9bd3581c1a79bd233c60c915713c7d6f0 phy: mdio: fix memory leak
-71bd8f3f159d7feec0f50929de0dd4c4a9e16a3a net_sched: fix NULL deref in fifo_set_limit()
-3ba698d998b8f4ef33bb8528d82a17b3bd65a21d ptp_pch: Load module automatically if ID matches
-687c0396865f235be24166e154284c84a726922e ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-e69c8993b6976386c2806a431f21b4eeba3e1a6d netlink: annotate data races around nlk->bound
-c5adff2435f3f4950bb30ffdbcb87594ce75b324 i40e: fix endless loop under rtnl
-8e3e83616a588e4418c2ad1d8bc6ece5b3371b9d gup: document and work around "COW can break either way" issue
-a3a86515f43675a8ba1dc90501029a182c682b75 mm: check VMA flags to avoid invalid PROT_NONE NUMA balancing
-9f4ecd8375261f07a8113bf4b12db62c0ad326ba HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-3aebae25c81e82f6d483606946649824a2a14b96 netfilter: ip6_tables: zero-initialize fragment offset
-e4b099b71192c981a41e1598ec1a78fab91ca3b2 mac80211: Drop frames from invalid MAC address in ad-hoc mode
-06c88680806600ca37c6f989a6c441c3858298b6 scsi: ses: Fix unsigned comparison with less than zero
-00b5ae62c78be62cbb47a139967aa3e41aeb6b10 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-42df1e2b45c11d25b88f6c8093269a087e4cacee perf/x86: Reset destroy callback on event init failure
-46f1e1a33c904a13d1ecf545f986a841c708efc1 Linux 4.4.289-rc1
+1a8d44baf5d9cf7abf0246c112dcd44c75b52d7f net: phy: bcm7xxx: Fixed indirect MMD operations
+7ee3cf7477582fb68adfa52ed50981d82bfc2d7e HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+d26347370e55a0a7fe1184e0125ae7632a34fc58 netfilter: ip6_tables: zero-initialize fragment offset
+290c49d164eea7f508d72def0c2872b0b1ce4975 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+02e6429cc467f604b40fe8302caddd41ef64c884 m68k: Handle arrivals of multiple signals correctly
+05143d71b8cdbabd6eee13a40212feaba23f2909 net: prevent user from passing illegal stab size
+09d6199d12fd4ab261c48aacea2d72278b02b759 mac80211: check return value of rhashtable_init
+de05879e8a5f902892f0d09f2284db6d48fab648 net: sun: SUNVNET_COMMON should depend on INET
+3fc30f086491ba57d38f0ec552537dda88a8dca1 scsi: ses: Fix unsigned comparison with less than zero
+6f3a0d137a3d2899b86f84067eb733e15e9be953 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+38b5a97abd9c485683f1e5c8360e258a4e488492 perf/x86: Reset destroy callback on event init failure
+6b9111a592a87afa7f0eae6ca3b5d93b1374be63 sched: Always inline is_percpu_thread()
+9a68777ad65aeb678c59ce30efe7f376b0f4b084 Linux 4.19.212-rc1
 
---===============6236784901906883569==--
+--===============6733966101455225340==--
