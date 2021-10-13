@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1994196434782589392=="
+Content-Type: multipart/mixed; boundary="===============0698072637957060028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 13 Oct 2021 14:32:52 -0000
-Message-Id: <163413557285.3597.1625563264249444342@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 14:32:53 -0000
+Message-Id: <163413557374.3684.5352990258031183051@gitolite.kernel.org>
 
---===============1994196434782589392==
+--===============0698072637957060028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,69 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 6f7146e294bcc41e9b24f65d78203b95387592ea
-    new: 668b3a30a1d5bdd1f8038fb0302d47919b8be04b
-    log: revlist-6f7146e294bc-668b3a30a1d5.txt
+  - ref: refs/heads/linux-5.10.y
+    old: eefac18585e0fad0cacc7148f79df60ecdc1027e
+    new: aec8cedeb05fb1fc0b8888b71a8191b879df6007
+    log: revlist-eefac18585e0-aec8cedeb05f.txt
 
---===============1994196434782589392==
+--===============0698072637957060028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135571 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135572 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1634135570-3050bef7cd7817d65fc1d2dd85c69a245dd1ce8e
+nonce 1634135571-04583ac3d4d3aeb1d36294f2bb9b1dc156cf641a
 
-6f7146e294bcc41e9b24f65d78203b95387592ea 668b3a30a1d5bdd1f8038fb0302d47919b8be04b refs/heads/linux-4.9.y
+eefac18585e0fad0cacc7148f79df60ecdc1027e aec8cedeb05fb1fc0b8888b71a8191b879df6007 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7hMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EnMP+wbQg0uqFx5+h1pIDFw8
-p4Zj3sslNrUaQJ8kz6BqjtWJayXw5AOm36i3JZM4avemKaJSsCaqYMlTrG+TYJcm
-gAKprVLoFLHEdi5jN84tW93vn9F4pWE/y1PLQUpIkeJCFi5qfLXCit1uheY0oSqD
-RJ6cnUGa/KgTLyjMRxf+eZvN9xprY7dvuIHtGbgX2eKF8tEYZAfb8c4MiQBuKo6O
-Uec0GYaQpRaEBU0ZHDOHgMduVRyZ5EuKRM12yGSb62EN1YNAVn5tXjXsrzMpWbd7
-xOVrBzhweFPdysC6rxH7vXtdygP9fYA8uDXPkSBrNWSrfaK0Np7UwOA51EekznKn
-bEdRaDxpYqcEzhFgjSVo8FPctydRIOlSYmzLYJosDAq8LAldBtzOnAcaaMBRsVA5
-9A2xveDQVYo8JKuBAIQ0j/kGImozbJOt9pnJERgm/72Obs60us4ACogpzaHbSDRs
-rmHvydvJFkPg9Utv3loPprK3DXvVaaQu+EfRM6OXgm/rmouCjrFsozbFd/PLt/KN
-I4nyXgGKiolc4G33Hc+aqObHV6/TsOPnO3iPCCwBdLFM+uiC93eesuy75waP8/sY
-xfxSLNBzFbbDsBZx61+lJNqDQL5Gj0jH7ZicsYYSD32ZbNitdDd+f49DORrzkPQt
-yuYkkdUaYJXq17IyfZWi3ciG
-=2oPV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7hQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EsYQAIBrGySTSkaqUJ52HDvD
+CvO9Fm7PqDxcJbuscGnSGYu/ygiB5zEinAnEYwuXJHQJ2rEyLHZGitnEpqlCggTH
+AliH9xq3mR13IZw8NCwCdomfuGmFpoYaAETLA8Dqw8MG9A1HSqgwVhHg6Ke0QSL0
+83CYgkMRh4dqvQfKVgj50IL84eGT41jnU5uhKUqtQ9zRkA5xPKUS3/DJEd7qJpZx
+srC7ltj6VWhieZRY+6R7GOozs+0wdn/aPa+1A7E0UwRMKLHViOVeDmC9LtZWUNGr
+BvoCOA80mp3YY0hDfTpI6yeW3SO7Vfsf6CV68lGQ1+/wN5rbrWXy0AHKXWdxFX98
+E4Nq9vls+OR5JMdIuax1t+ipm80M0V5aII9Thp3gNT9idyrFu/xQpbnUvQdnjZsW
+0fm9AApdNYzKHNvkOAZ1S6WnePofIDhpRSmCIIO82wz1cup37dDWIEVgTYbAlEuH
+nq9+5ebSrFL4fDzgI0PcpzLyo8glM8rbdypu5PDL3r7GSuskscc1vImh/eYOcThD
+aJcTCvWihI04dmVVp2crBvl4HuoA26XTnp2ty148zkdBjJJTcI194UuTOIuBaWTs
+T9JyYJtKSt6eYga0hgN0o9Y8ykYKwCrFNV7LnYIeNqiJw3fD083r7zi5Ogw04x2U
+TwCHSyiWoda9woRdP9FKUS1z
+=f8I8
 -----END PGP SIGNATURE-----
 
---===============1994196434782589392==
+--===============0698072637957060028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f7146e294bc-668b3a30a1d5.txt
+Content-Disposition: attachment; filename=revlist-eefac18585e0-aec8cedeb05f.txt
 
-a79f0a88245a7b798cfc665a6065143473b1268c Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-2af67526e796bcddff1ace94f6a07d66c2272a0b USB: cdc-acm: fix racy tty buffer accesses
-7b7ecd91c83039b8647473cfbc31baef98844d07 USB: cdc-acm: fix break reporting
-d64d62b5dd8775347a7f91b3cec01f671b01335d ovl: fix missing negative dentry check in ovl_rename()
-92cd939c3df95faefa6ccfa488609c2cb64126a7 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-46f44aedf8ea02f07e23f500c203a694723afb3b ARM: dts: omap3430-sdp: Fix NAND device node
-100a4d687c2725d29a78b14696a716ffda55c1f1 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-c8ada5856e953241dab9f4c68a54c1d22dc86d6f bpf: Fix integer overflow in prealloc_elems_and_freelist()
-8813df01a3fd18e5ec115435d74f086b2347feb2 phy: mdio: fix memory leak
-19de63ca592947a5ffc4b101b4abab5b39603777 net_sched: fix NULL deref in fifo_set_limit()
-86f770f0c1975e3c3f67757bfdc270444696eb7f powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
-04472e01c03234d0b21486d528210e351e72aa40 ptp_pch: Load module automatically if ID matches
-7770f2742118d091fb1581020c9308aa9b875568 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-3fe84a73377f39d93fe476401ff73f3d0290dce4 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
-f432ee0083a585eefbc5bc856f4656a24995a537 netlink: annotate data races around nlk->bound
-ac3fa1f80a2e303d1f3d35924871cacd76b9d3c8 drm/nouveau/debugfs: fix file release memory leak
-9c6e76a83ba5c4d45cdc4ef63ed75f83fb139880 rtnetlink: fix if_nlmsg_stats_size() under estimation
-24ac1bb2132c33f0b2c02bfb632ef31ba7a62191 i40e: fix endless loop under rtnl
-c4973b19bf41585618058c16c01cd2189afcc04d gup: document and work around "COW can break either way" issue
-02e30d80ce9410b687d14c301cac0c1327fc5dc7 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-f088172327ddeb3cce2eb28f5d3ec65d5cb92413 netfilter: ip6_tables: zero-initialize fragment offset
-8c9dadfed72373c8419c356c7e818d5268ed97a1 mac80211: Drop frames from invalid MAC address in ad-hoc mode
-6c4695622fbfe46ab08f4447c2f1b1a32c2b31a6 scsi: ses: Fix unsigned comparison with less than zero
-d8713c193b60aefdd1615f441ba2ebdfd6584242 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-66a24953a06f4d98731c6b1f55a8253cf21fd054 perf/x86: Reset destroy callback on event init failure
-668b3a30a1d5bdd1f8038fb0302d47919b8be04b Linux 4.9.287-rc1
+168f4b3656c8d8a7a99939c95f1c28ef8ac4bebd ext4: check and update i_disksize properly
+d99f5139f31a96af34f6c7ed6d562048cae4d63d ext4: correct the error path of ext4_write_inline_data_end()
+f899aa2992e5157cad466462b18eb5d4b8babfe9 ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+72f4a377d3285e976a4e1e06d3919042e99171e0 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+da646d4c6f08aaaf03eb505822445e869eaf7063 netfilter: ip6_tables: zero-initialize fragment offset
+e25f23b7573ce645013715ead7628a52685e5cb8 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+e3e0a0206b20ae9ddbeff7043859e9724e0ccb72 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+d32c6eab4a8c646c719c6ef74e5eef93aea53488 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+749b64d256f5bdb3375fa1df4af9e465511c6ddc netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+3c1b3c62c414fa6853146a7502119c55ab570e31 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+e33ce5619d8fff4276e63096b3e2c87a8a9f9901 m68k: Handle arrivals of multiple signals correctly
+8cc4dbe2612fcf3e7fda59ec25968b17283ac5e7 hwmon: (ltc2947) Properly handle errors when looking for the external clock
+663d209c5832d9df855d6a581a69eaa7b21e9722 net: prevent user from passing illegal stab size
+e45dd23a86ed5d4aa853242ef0e9efd3ceab5309 mac80211: check return value of rhashtable_init
+fb0d3599ff232c67c41dd4275709400e6f857b0a vboxfs: fix broken legacy mount signature checking
+58b4f3c2f66d90fe9dac41f21651034bd7464151 net: sun: SUNVNET_COMMON should depend on INET
+c145f22e5541863f56748657233f65899d4fab54 drm/amdgpu: fix gart.bo pin_count leak
+5f133e6fc6af085a6b6cabb761a7f164f2df50b3 scsi: ses: Fix unsigned comparison with less than zero
+c9669887a339dc5033aa9671968adeea20ae788f scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+a0e8b96887b43977cbbab462a4a1454450c8c73a perf/core: fix userpage->time_enabled of inactive events
+d6e70a9e7dd6b0ffc5581051631eb4dd5e2d5d71 sched: Always inline is_percpu_thread()
+17a842ee4f675d4f774a57e5de2c21c2ae703995 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
+aec8cedeb05fb1fc0b8888b71a8191b879df6007 Linux 5.10.74-rc1
 
---===============1994196434782589392==--
+--===============0698072637957060028==--
