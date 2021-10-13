@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 13 Oct 2021 09:28:51 -0000
-Message-Id: <163411733194.18274.6078546579019829906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Wed, 13 Oct 2021 09:35:35 -0000
+Message-Id: <163411773506.23132.793200478115773907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/arm64/exception-fixups/rework
-    old: 3b3cc52f044fe6463e433de3053ca44e0a9c0817
-    new: c540bf5cc3bab6908f012017329391713ded83af
+  - ref: refs/heads/pci/qcom
+    old: b355707a40cd326cc5e5840366e7b6ce597b4e20
+    new: 7090354af0c8c1d7eb4810acdf56e2a59fd5c88d
     log: |
-         d23d2329b3c78e6e07aabe9d36060a4f588ea35b arm64: extable: add `type` and `data` fields
-         7144144b52bb13adc8c69625afa646fa7a0d377b arm64: extable: add a dedicated uaccess handler
-         7cb5aa09eb82c6514e461f972539afccd44abef3 arm64: extable: add load_unaligned_zeropad() handler
-         c540bf5cc3bab6908f012017329391713ded83af arm64: vmlinux.lds.S: remove `.fixup` section
+         64bb1ea81641fdcce4423e2672025e63ebe0bee4 PCI: qcom: Replace ops with struct pcie_cfg in pcie match data
+         7090354af0c8c1d7eb4810acdf56e2a59fd5c88d PCI: qcom: Switch pcie_1_pipe_clk_src after PHY init in SC7280
          
