@@ -1,51 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============1194720984282620443=="
+Content-Type: multipart/mixed; boundary="===============3528659437658170756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Wed, 13 Oct 2021 17:25:58 -0000
-Message-Id: <163414595853.18951.13096044516823355313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 13 Oct 2021 17:32:38 -0000
+Message-Id: <163414635876.22364.8596741445483553291@gitolite.kernel.org>
 
---===============1194720984282620443==
+--===============3528659437658170756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/x86/fpu-2
-    old: 8a9f3ec29057b2ebd5b8ead95fcc5363592e5a8c
-    new: 1141eb85862d80bc2c9d349a0f62a91b0b087b01
-    log: revlist-8a9f3ec29057-1141eb85862d.txt
+  - ref: refs/heads/dev-queue
+    old: b42fdbb25c956227fe1c8a8b3b04e30fc47191b4
+    new: ce020027d3bbe5a3250841d7dd229168ca347dad
+    log: revlist-b42fdbb25c95-ce020027d3bb.txt
 
---===============1194720984282620443==
+--===============3528659437658170756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a9f3ec29057-1141eb85862d.txt
+Content-Disposition: attachment; filename=revlist-b42fdbb25c95-ce020027d3bb.txt
 
-dfdf24a897b21d9edad0095f0171c94db52357fc x86/fpu: Provide struct fpstate
-9ebc9367aaa25013b5180026fe022b0826d0e3cb x86/fpu: Convert fpstate_init() to struct fpstate
-fd6647844b4d0786e1ce5eea93237ef7391038e2 x86/fpu: Convert restore_fpregs_from_fpstate() to struct fpstate
-bebfe879d54aa801917dfdec6eaa47af23478679 x86/fpu: Replace KVMs xstate component clearing
-ffe0ef0fc1d2e368717892898a6589581c09eb41 x86/KVM: Convert to fpstate
-7a7883e56f3474e72892d4f33cfb665d435f3a43 x86/fpu: Convert tracing to fpstate
-3a8aa81354e14f9d9dd71920dea380d4750fa950 x86/fpu/regset: Convert to fpstate
-40fe5622347a0beb5bb3f04f1035e86ebddae865 x86/fpu/signal: Convert to fpstate
-3b1acce776139ec40ce68fc55c85967e38aec220 x86/fpu/core: Convert to fpstate
-30699334b4cc6fa141d2eed79306fdbf25d05360 x86/math-emu: Convert to fpstate
-7706a71d0b6d0df100f3cd111fe67e70d58c1224 x86/fpu: Remove fpu::state
-eac5bff3a262706af7ce2641021ca7e9c9c467f5 x86/fpu: Do not leak fpstate pointer on fork
-9dae6a3a4b0345e58f142359de67b1cfa1836f92 x86/process: Move arch_thread_struct_whitelist() out of line
-5e4c1064aa6ad755d538fbcb7a3b7914aecb4fd5 x86/fpu: Add size and mask information to fpstate
-f1bfc8b48dd37a070d576f669b616dca90fc57c7 x86/fpu: Use fpstate::size
-1e91d7b3887df2902e0aa1339af9c44b33d808d1 x86/fpu/xstate: Use fpstate for os_xsave()
-6c8abd909eccef75307b121860c072c678856161 x86/fpu/xstate: Use fpstate for xsave_to_user_sigframe()
-7271ee4ae7179b02db49245ef4fdd3fd1a7e5343 x86/fpu: Use fpstate in fpu_copy_kvm_uabi_to_fpstate()
-c84392a49edf4598ca5652b2c1ee0cdfa3dae300 x86/fpu: Use fpstate in __copy_xstate_to_uabi_buf()
-9a48e00ae65e92d748b6f0815ad29bf7dea57590 x86/fpu/xstate: Use fpstate for copy_uabi_to_xstate()
-1141eb85862d80bc2c9d349a0f62a91b0b087b01 x86/fpu/signal: Use fpstate for size and features
+0234d67305429df9cecfbc57b923c06584c0f33c ice: support immediate firmware activation via devlink reload
+72c7abf4d9ae232cd795fb2fca63e335c2675edc ice: Fix problems with DSCP QoS implementation
+c638dd1475d6a683558e0143d344b2362fe4de86 ice: introduce ice_base_incval function
+dc0734c78c494ae5adccf6454df4f36e009cd813 ice: PTP: move setting of tstamp_config
+e309f7027cf6558d4a23fd4981a9cc21f200f82e ice: use 'int err' instead of 'int status' in ice_ptp_hw.c
+6f8435591cdd2e790bb1459013d066f6cdc14047 ice: introduce ice_ptp_init_phc function
+054242cb4169e69dfa44aa53e28106fe4b715e67 ice: convert clk_freq capability into time_ref
+ce7b32371732ecd1fdb5c184a9681f4f87bf175d ice: implement basic E822 PTP support
+bd4238323f07757ff90064ff033139f1d9cddb0d ice: ensure the hardware Clock Generation Unit is configured
+8d0f5e2e75e9a92e3cdd01a96cea25e87e9c5a80 ice: exit bypass mode once hardware finishes timestamp calibration
+0a8cb4c00a4dd5c7af0cef2155572e7b36cafe77 ice: support crosstimestamping on E822 devices if supported
+f9fd5a734189a4635b3e97bb5f992266a95405cd igc: Remove unused _I_PHY_ID define
+ce020027d3bbe5a3250841d7dd229168ca347dad ice: send correct vc status in switchdev
 
---===============1194720984282620443==--
+--===============3528659437658170756==--
