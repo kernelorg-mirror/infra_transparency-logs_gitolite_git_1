@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 13 Oct 2021 15:52:30 -0000
-Message-Id: <163414035099.24060.3867778588789693644@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 15:52:41 -0000
+Message-Id: <163414036178.24195.14570712745539446331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip-freezer
+  - ref: refs/heads/sched/wchan
     old: 0000000000000000000000000000000000000000
-    new: e4c41204c51fa941e1896084cd35128e4ce11fcb
+    new: f8bf85c2a517efe8925e8650e696d941dfbc8e0b
