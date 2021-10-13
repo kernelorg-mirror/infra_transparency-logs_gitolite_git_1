@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4962529537610844937=="
+Content-Type: multipart/mixed; boundary="===============7560145068663838636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 13 Oct 2021 19:30:21 -0000
-Message-Id: <163415342192.32629.11273072043716318710@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 19:30:43 -0000
+Message-Id: <163415344303.356.14636033596083882824@gitolite.kernel.org>
 
---===============4962529537610844937==
+--===============7560145068663838636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 209ee634bc0d2fa10ac8f799abf09207b5ce489a
-    new: 0f0f80d9d5db0b9a78a6ec74714f08b7b8bda0de
-    log: revlist-209ee634bc0d-0f0f80d9d5db.txt
+  - ref: refs/heads/for-next
+    old: 8c4251a8bed099796a7296eb4513d0bf07ab46c6
+    new: f9a7bed3504e359e19fce962ef8cf8fd07cf138b
+    log: revlist-8c4251a8bed0-f9a7bed3504e.txt
 
---===============4962529537610844937==
+--===============7560145068663838636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-209ee634bc0d-0f0f80d9d5db.txt
+Content-Disposition: attachment; filename=revlist-8c4251a8bed0-f9a7bed3504e.txt
 
 9287e91e9019d4bc1018adb55ab791ae672e0b14 ARM: dts: bcm283x: Fix VEC address for BCM2711
 2faff6737a8a684b077264f0aed131526c99eec4 ARM: dts: bcm2711: fix MDIO #address- and #size-cells
@@ -36,5 +36,6 @@ bc22b6208f416ba702c17a93c9af6474f19e8212 Merge tag 'tags/bcm2835-dt-fixes-2021-1
 047051295201def0bd95936b67cc683658d3ddc2 Merge tag 'arm-soc/for-5.15/devicetree' of https://github.com/Broadcom/stblinux into arm/fixes
 3536ac5d771bf7c68e70b08f7a7ec85ff56c6b6d Merge tag 'optee-fix2-for-v5.15' of git://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
 0f0f80d9d5db0b9a78a6ec74714f08b7b8bda0de iommu/arm: fix ARM_SMMU_QCOM compilation
+f9a7bed3504e359e19fce962ef8cf8fd07cf138b Merge branch 'arm/fixes' into for-next
 
---===============4962529537610844937==--
+--===============7560145068663838636==--
