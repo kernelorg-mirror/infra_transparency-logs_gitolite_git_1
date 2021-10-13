@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4761290387646690029=="
+Content-Type: multipart/mixed; boundary="===============6810318009464718977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 13 Oct 2021 19:58:35 -0000
-Message-Id: <163415511580.17610.13459039121899822247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 13 Oct 2021 19:58:42 -0000
+Message-Id: <163415512240.17732.11197235669069751467@gitolite.kernel.org>
 
---===============4761290387646690029==
+--===============6810318009464718977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.15
-    old: d287801c497151a44e5577fb3bbab673fe52e7b0
-    new: 55e6d8037805b3400096d621091dfbf713f97e83
+  - ref: refs/heads/for-5.16
+    old: 923f508f9ec76c7f07a612525bfa737e95d0b9f1
+    new: d9c55c95a3eac8536fbc6ef39dee69d3716aeee2
     log: |
-         55e6d8037805b3400096d621091dfbf713f97e83 regmap: Fix possible double-free in regcache_rbtree_exit()
+         7dc9b9562740d858332894447c9779b146559239 spi: tegra20: fix build with CONFIG_PM_SLEEP=n
+         d9c55c95a3eac8536fbc6ef39dee69d3716aeee2 spi: cadence-quadspi: fix dma_unmap_single() call
          
-  - ref: refs/heads/regmap-5.16
-    old: 0000000000000000000000000000000000000000
-    new: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
 
---===============4761290387646690029==
+--===============6810318009464718977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634155114 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1634155113-f4c7bc36405927eb5adad52c7960b7cbb07ddbff
+pusher C3F436CA30F5D8EB 1634155120 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1634155120-61a5004a243d45106d5a3e0b84838bb3592e9b9e
 
-d287801c497151a44e5577fb3bbab673fe52e7b0 55e6d8037805b3400096d621091dfbf713f97e83 refs/heads/regmap-5.15
-0000000000000000000000000000000000000000 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f refs/heads/regmap-5.16
+923f508f9ec76c7f07a612525bfa737e95d0b9f1 d9c55c95a3eac8536fbc6ef39dee69d3716aeee2 refs/heads/for-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFnOmoACgkQJNaLcl1U
-h9AM2AgAhh6PJJ0nc95bS8qZ5BdnfgNbTmOtNDqblPx/iKgBJLrzHtuAFaz/9EJa
-P+z8hwvYCwK8fXR68PMkNF77bEDWb0qrdJ7QtG+eWfYh2CFGGiOxWJR3A/pX95kW
-b85BDk2WGg4HvMNCX/kB0n1WElQqEuMCM4ztfIod86HrOUP+IenOqKvmy+R9IKnT
-s5uK4l3MUD+6B0WDwwKPRWanTRmuXZat9sDSWPsWKY+Q7Sogk+ckGaCHPvn/+SGL
-x4ff7xOjufOYtauRvVU5qxUXIg6Yr2pDizcu0QBzkIZA7rzlbJNqsG3ZFP6rEv5N
-Yfue3eFLQngTIXgxs7yriGxaPGr0Vg==
-=prr6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFnOnAACgkQJNaLcl1U
+h9AUXAf+OABAymX4Iy+yI2HbKT1r5KMYpcvZtr88kjZK8Imlp+TTvc4NKAGPRsa4
+DYjYM3HqhJudLybpMgXtnP646PJi9ZZwgScAbAVDpcOvFx6n73xMFz/NH0i/wPeO
+27245/gk9ktp67B++57eUOWAH31x7JXItkgqIbRrSmW9eb6XBM5AOE4bwk98EkEq
+O1OAP3MPi5xTZ8Lp+hrko18inYkpfDvEOMt/e0kRMAQwCt/Nn6vpzBcJNtOjgLpU
+/Fo2m9yIV80dXfXTtugtlyYmobfb0byEx/OgM5xBzmF/iqk8jXceZIINHyb5yesn
+SacJGMNKGb0WfEWxzHA2nToiBEpqPA==
+=usnL
 -----END PGP SIGNATURE-----
 
---===============4761290387646690029==--
+--===============6810318009464718977==--
