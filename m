@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7047343469522636401=="
+Content-Type: multipart/mixed; boundary="===============6950770026396520760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 13 Oct 2021 13:24:46 -0000
-Message-Id: <163413148647.21117.8121052497275277146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 13 Oct 2021 13:32:32 -0000
+Message-Id: <163413195227.26209.14064363266978891354@gitolite.kernel.org>
 
---===============7047343469522636401==
+--===============6950770026396520760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 216a0fc40897d87b4a282bba10b01e96ea6a1c45
-    new: 45e52c2115ae2c3f61fab5c240d3cd83b160c0bc
+  - ref: refs/heads/tty-testing
+    old: 9b29075c1a4595b1d4c41668be4c72553ff60b48
+    new: 5f0ac3a1dae17ec0af6b845376247d7cc948ea3d
     log: |
-         490b7503b39c75df223713247fd29ad624d32e8f driver core: Provide device_match_acpi_handle() helper
-         59e2c085e7016439b6157469ac6ff4b5c31e2e4c i2c: acpi: Replace custom function with device_match_acpi_handle()
-         45e52c2115ae2c3f61fab5c240d3cd83b160c0bc gpiolib: acpi: Replace custom code with device_match_acpi_handle()
+         5f0ac3a1dae17ec0af6b845376247d7cc948ea3d dt-bindings: serial: uartlite: drop $ref for -bits property
          
 
---===============7047343469522636401==
+--===============6950770026396520760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634131484 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634131484-0ce922269baca67abfe90a0a2d3bd8184462a285
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634131950 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1634131950-c1f1db69b29b4afd9238db8428381b1fa5682fdf
 
-216a0fc40897d87b4a282bba10b01e96ea6a1c45 45e52c2115ae2c3f61fab5c240d3cd83b160c0bc refs/heads/driver-core-testing
+9b29075c1a4595b1d4c41668be4c72553ff60b48 5f0ac3a1dae17ec0af6b845376247d7cc948ea3d refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm3hwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L4kQAMLeZ5oUD8fbTEqhLUOV
-KnhVw6BkqOf8IhJbUnLro5ztNvPF1zxxz3wYHorQy4HoK4eo9Iy8xPZhusGcj59K
-6zjkV05MV6uw1nXFqgNy+eZn/7ny2bDpUpQBAfMuYz4sIWCGn9YZAVO3uqKlIE8V
-mWE/Mtl46BEm+o7NdpBsitWUA8OCMG5+6cCH5Rnxl4oHO7wWF02/LA87t6tecqPY
-XJJ0fJuKzTYkkHxOAd4EisQnEG9anF8aVtHMOKz8BF7gP3fCwBEbnZerk6S087Dz
-HpBOMsInebuUXwmlcmImXvXSEpA9+oGkCS9JPhkVr8q70j0RphgMZAHOjdfjFjIl
-K5+WEavweaBDYv+rijIDO2RgtvugN3pBCYP1mRaTufaa31sRTR51fSzxF3p/2+gA
-hAKx6VgK3BVIo48gHlBxQWbsIcvVhvcH/T2IQigFHYId/TTlt1YkW36md8ds7b7e
-yjpKW1Y82L7owOUXA+j3gdpIJgUizSh1sIodbHOc6SrLUtIcRbk03Hhp7KVczJf1
-tVTNVInKbQW2UIs9VRZ+linE0bbf1DXhpHdCckAQAtMDdLMpUwzcW4JAFun4xaYF
-1SjnyStIyfXEJD8CnylfkM9oYkoWgY9Lvc0fzZJ7XuQRsCPoVbVVTfz7zaS4mNWu
-oqjdOqQwdhaCdq5GIAr9iilv
-=76qa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm3+4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VswP/3R2/FCpqTT1tltch/G4
+tKQF14dNlV749oSKp/U5dTL5QxsMDZFrcnPpw0Px2c66SYdojzjuf5tm2I+1SNI8
+tqk65txPXM0h7A+NH+MRJON0vn/vMDtb/4k+sk6uSXE3YYp7U+//5xIyN3gnGXcO
+qfbfZmqb/PJIbPd9RoRtwde+UMZM8z8wVm2gWKzOezg9Cfn3C5UpYU+L+q+Py5NU
+cw0Vo1eZ+qO4cB2BOFHyv2z2RACX5G5WZ1GO7yhh/cbzXm/gN9mXErt2yOYOAH/V
+4Dh+y1/jgEtKqxEECfL5kfKiSUb3Nmaf0xg8/wAMU58uFsUAn4LpJV6Ttcuw7OkJ
+ICZad1sJYh08jrmFcLhD+Mk7QEdqfTkD9lWl4n4UKi9esvGg/r/VcxsBl24pJ4xm
+y0UK4zmHY/LSGJVF+jObN8wlfk3hr/XtNs/zD1VGCW2dWv2IoBMmHNQ59tAm5Pkz
+m2dBGO7+O1a7PqbpIVDXsCKoPjwHvVMjsGpg9ho0eUoYZjchXo5Ns8bdRWfVMLTp
+bTmCYRJDo8mDMkTuSuBDVRlA11xK18lab2nIdxJtUqdlJauLC0BWciZAVKM2v8fw
+UMD3T5nkM7OCU6PVFJwyMQ4iZx3Tm76SR9vc81+ExUt7fsf5fju2NAatDcxBycl0
+7KFuH7YYnHAL2ofj6cSIkybR
+=flQ+
 -----END PGP SIGNATURE-----
 
---===============7047343469522636401==--
+--===============6950770026396520760==--
