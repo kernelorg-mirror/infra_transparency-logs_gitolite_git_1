@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 Oct 2021 16:01:12 -0000
-Message-Id: <163414087215.30034.4871372137370957691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 13 Oct 2021 16:10:34 -0000
+Message-Id: <163414143485.3165.18270348051241746630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/auto-latest
-    old: 7413431c622fec602c030b7333f7e1a4c81b37ce
-    new: 880e2b8e3151574b9e3419d1fbb06726ddee8b03
+  - ref: refs/heads/master
+    old: 847c6bdba833115e07376584024b2cb43ef7914b
+    new: e599ee234ad4fdfe241d937bbabd96e0d8f9d868
     log: |
-         33633b20e0da301f9009cc9aa00282acbc282a1f x86/sgx/virt: Extract sgx_vepc_remove_page()
-         71eba1c0939e3b1ad1b71fe0171de30e265437e3 x86/sgx/virt: Implement SGX_IOC_VEPC_REMOVE ioctl
-         880e2b8e3151574b9e3419d1fbb06726ddee8b03 Merge branch 'tip-x86-sgx' into tip-master
+         e599ee234ad4fdfe241d937bbabd96e0d8f9d868 net: arc: select CRC32
          
