@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5575452687008631825=="
+Content-Type: multipart/mixed; boundary="===============5294549493946116553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 13 Oct 2021 14:32:35 -0000
-Message-Id: <163413555580.3187.7859885507537681155@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 14:32:36 -0000
+Message-Id: <163413555603.3231.12136841909176612416@gitolite.kernel.org>
 
---===============5575452687008631825==
+--===============5294549493946116553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.14.y
-    old: 325225e2f9fa0a4edf0b7da30c256df2433db6bb
-    new: 4ae2a05bd0274c949717f1817e24df98b556957d
-    log: revlist-325225e2f9fa-4ae2a05bd027.txt
+  - ref: refs/heads/linux-4.14.y
+    old: ed99bf0e81b558df39f7db2fa96d0228be4198c6
+    new: 4d48e508cd56bcdffcbd810caa245260555def00
+    log: revlist-ed99bf0e81b5-4d48e508cd56.txt
 
---===============5575452687008631825==
+--===============5294549493946116553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135553 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634135554 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1634135553-6a50c8c7f463558655741b9053ddd30e9838550e
 
-325225e2f9fa0a4edf0b7da30c256df2433db6bb 4ae2a05bd0274c949717f1817e24df98b556957d refs/heads/linux-5.14.y
+ed99bf0e81b558df39f7db2fa96d0228be4198c6 4d48e508cd56bcdffcbd810caa245260555def00 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7gEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i3AP/jBwn2zbjyU+d+KiUKRb
-ESOBzvqt7iM9r04NGa48okYL6TKwaChj1uHkQKcsVtKQSp3W7Xryd1emrTEl3paf
-jEKJbwNX39ZMVq1GJSu0brkCSX0D3kjMZ3XIDPLdHe02QU6mxXVI16RYSdX63Ddd
-eUezXRzNx7BxH60wM4EnfUIUwKRgnScoNqn2cKKgw8zmZ9/1CNXgPXpaT8W8TQ8Q
-oV8gME+Lae+UHHBq8c6TF4XsOeB1wrocCm6vaAtkKH2GnwNFgBkKAtZ7NttjcdTd
-zVatwYTV88CtURnlXDxeDwekuVdMzs3kkazRuhKAYTz4qqZo9whkTVnZzYlmTGtS
-EKV/ct6uW5VRibWtV509aouaFiWbOCILEBlwHtmxQl8m38Y2h/1VOxrsrzlIs6Uv
-HINExp0qSFohT4MhESGPKyVCEXUB9APpQ/2Qk6UMR1btwnIOBzlxEDioeGq3rePs
-oE+Amr0rSeEAV+hC4IR176kWrJ7yGvXoUnyEcmzQ8aRjL/c9HX0MDc0v66LQmYE6
-D04ZYp05Yo751tlXRhpMUQ6DVDQzlUWafr3pEx0GKorlKXUDqrovRg7b8M6OtZiS
-7wgLUY0p/ec71Xp8cj/gjlFbv+ddsusMhsZnGyxmXBfP6ph1iybpj9QMF0Al6Kgk
-XuULFMwOY78+omXbIvgQd9N7
-=9+E1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFm7gIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9MAP/23swdnruKr1oYTnr5Lv
+1cG3Lf3/ZbnvXoeIID5GWLE+ghMMJU5oWojgvIzKQHuNPuVxQTka+wh5fgaHWkpF
+WXrmvb3srxamOxo/1TXJ3E+TW8aXn1eIYonVndHLLBOSfl/6jAB5juMsXAKoP0SW
+DI2WKDtzH89LaIMD3Zk19Fd7Ao9CouU2UqQTLSqTpUpV9BswysSLsaNktIFPF9so
+PePh/UB6pNFdROuGQVmj0tKSax2n64Jumft5mPxwQhoKbIYvaj4lNL2taMOOtGyb
+tzLCYvO63QbzAPs8PC6jfCj2C0AA1PrcRr0ZPDW3OctvJjQ3GDNudNrVko7J400u
+zeERmU5Prr1v+fXMOyPAOcosfJ9DCsXVtlACHzLNyvgl7uayjOh1TVqK0USwNAOo
+q4K2nqHpzEr8rXPsQtrWujtdIiHxg705U3/iYVCW9D9dzOrMJcRJjcfVUJjNlrRd
++l0/Njzirnx7WJd8d4MlSBOLuu00X4KAZeVVaKrQ7Cc2HN9JTfLdNnlRfL7GzD1L
+gTwxHJYNzezOD5v5p4zOi4A4GYv/JBf61QfaeSAwhqWI9EeZ6QAOmW5r/423f5qD
+a4EO9q31zWE2LUOnVNk5pGdvaPep/yKvaIOH5kVQ9UFCdwOgRBbF3x1w8YaK2DFL
+6ZTB3TG9YbAhYsiiFm9hn1BO
+=xuXz
 -----END PGP SIGNATURE-----
 
---===============5575452687008631825==
+--===============5294549493946116553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-325225e2f9fa-4ae2a05bd027.txt
+Content-Disposition: attachment; filename=revlist-ed99bf0e81b5-4d48e508cd56.txt
 
-740ca47c8d28fb7e77d8ddccb1a16724d7a30b19 ext4: check and update i_disksize properly
-b61baf395cec3e51aa2f0181857c36d9bd8cb27b ext4: correct the error path of ext4_write_inline_data_end()
-a399c56c47bd654b603a598dc37bf7e8bde34795 ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
-698d2c33c25bbc23bcb93fdfba60d746a51f9494 ALSA: oxfw: fix transmission method for Loud models based on OXFW971
-32c457da4ce44ea71759848085f148c2bea369db interconnect: qcom: sdm660: Add missing a2noc qos clocks
-53c438acdb1f316fa793ec0270b1b11ec4f27115 ALSA: usb-audio: Unify mixer resume and reset_resume procedure
-1ba63bf7dde1355daf7152ed2449e527cbc807fe HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-97338dd4a5c230d53a7c05db24ec7e8178458378 netfilter: ip6_tables: zero-initialize fragment offset
-8545e9f9b3a4800ebf3fc6cb4da7c9f6fe55318e HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
-b95eb0dc47b66868ce8ba3e4bd26b91d1330db6e ASoC: SOF: loader: release_firmware() on load failure to avoid batching
-622ce7a4619fcec2b51cb357944dd9c0cc39693b KVM: arm64: nvhe: Fix missing FORCE for hyp-reloc.S build rule
-b6bc0f18ca1e08bc9123a8716c60dcbd313f3610 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
-6be38c0ab3f5b7884b396b2ab30b58729a64496c netfilter: nf_nat_masquerade: defer conntrack walk to work queue
-dcd3bc9eb3224125c21613e4420e6dae8c5bf398 mac80211: Drop frames from invalid MAC address in ad-hoc mode
-44d3a2bc97524fe573027d0d406868f9516ca7b2 pinctrl: qcom: sc7280: Add PM suspend callbacks
-275446781edc016a919250fe8acfc684c195385c m68k: Handle arrivals of multiple signals correctly
-f9c8a410bdcba1e781781f5cd33d68115dff42f8 hwmon: (ltc2947) Properly handle errors when looking for the external clock
-4b732597130db4d715065b50b90112af21cf9983 net: prevent user from passing illegal stab size
-faf8fb4e05a803ce01d39f804b9acac3107f7641 mac80211: check return value of rhashtable_init
-447ae6358733edb6461370833566999a67aac6a8 net: bgmac-platform: handle mac-address deferral
-813113f0daa0d2a70c71d1c37a249b9f98f87ae6 vboxfs: fix broken legacy mount signature checking
-1d4f49d235feb5776776f94478ebefee0d5cfc44 net: sun: SUNVNET_COMMON should depend on INET
-ef6fdafd963d97dfdbe94b38bf494cbfae9a4210 drm/amdgpu: fix gart.bo pin_count leak
-66d329385716d569fc04629c1c4dd34d7cc11c3e scsi: ses: Fix unsigned comparison with less than zero
-904f184d8c2bc4d96e14b0d0602c805c731325a5 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-986dab612761c73ab3bd6f884f7467ac78273a2f scsi: qla2xxx: Fix excessive messages during device logout
-ce5b89375a6ab2dd01eafaf75fbcd7112caa400b perf/core: fix userpage->time_enabled of inactive events
-6d518dc7864dce5a60507b7475052a4870e988a4 sched: Always inline is_percpu_thread()
-5cd4163a96b3328623ddd60ac328c8430892ab22 io_uring: kill fasync
-1280a62f6765c2738d43398732ae42065353e810 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
-4ae2a05bd0274c949717f1817e24df98b556957d Linux 5.14.13-rc1
+134fa0e8de2945526facb6c91216675510ea9196 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
+7a43f59f080e1df6239dd0db56fed8f5e2c9135e USB: cdc-acm: fix racy tty buffer accesses
+1cd473e4425daeca4a58da5c09b0513be858ce97 USB: cdc-acm: fix break reporting
+96179a5a499de9822d764f98039a0be4de4edb2b ovl: fix missing negative dentry check in ovl_rename()
+dffcb9985169ba5de99b430996767ea38b28d002 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+60a87a6bddfcfa43642ff89b8824f85cefc6d8c9 xen/balloon: fix cancelled balloon action
+bccc2a340b9658ce1c1ffd1e8bb1fe87804ecf38 ARM: dts: omap3430-sdp: Fix NAND device node
+a14a5316ae637d215a1405b8d7d743bbb519cfef ARM: dts: qcom: apq8064: use compatible which contains chipid
+2301371f3fb5ccc8c9156fc19d170a21c44fe31f bpf: add also cbpf long jump test cases with heavy expansion
+89ae1944fd1d3e5d1883c0bdc0b5709c69e8b49f bpf, mips: Validate conditional branch offsets
+fe4f662064859a2231555400fd603f1265145e7c xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+d3709c48d64c8bf32779d800f453140e001e0680 bpf: Fix integer overflow in prealloc_elems_and_freelist()
+d2cb72f22692f26c0eb28b27254648ecbcd66ad2 phy: mdio: fix memory leak
+603b8e36abc602fe8e573c8db88ebb8a262e312d net_sched: fix NULL deref in fifo_set_limit()
+22689eef724ca0a1b995b35535a91aa42ed9767f powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
+8f8d1e33db44ef41921aaae53e45f3ed0b0e32a6 ptp_pch: Load module automatically if ID matches
+127f8a34752b954d7771071ebddbfad3cabcd2b5 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+4a8c6e9049a5d13574937b79108a606ae8dcb2dc net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
+12d1b9ebecf78cc06d954a4715ef224223b00b9e netlink: annotate data races around nlk->bound
+5ea2dec24de1d19a7e7e7b2ada5ce999e0509005 drm/nouveau/debugfs: fix file release memory leak
+7e84b277b571c4c8bf60eff7556f81b9d99c5d39 rtnetlink: fix if_nlmsg_stats_size() under estimation
+da20f99e64160fc676a5fe320cec7804d8ba4805 i40e: fix endless loop under rtnl
+3ab49d94a1a99f54ca63bacc009ad6f9d57616cf i2c: acpi: fix resource leak in reconfiguration device addition
+e20b49d32cee0333b1efa823a3a60ad6484fa49e net: phy: bcm7xxx: Fixed indirect MMD operations
+3a50c5076f2f21e22780f9c00a9645ad6b864cbf HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+10cead42d7eb9023b7a713bd294b27b11c881234 netfilter: ip6_tables: zero-initialize fragment offset
+2ab46cfebfb0d6fffcd1664383f0df9638145e4c mac80211: Drop frames from invalid MAC address in ad-hoc mode
+7a21b43c21d7dbb6ceffc7f7df2faccf1acad1e8 m68k: Handle arrivals of multiple signals correctly
+a21d48bf20656d87cb01278affa3d06ec90a70c9 net: sun: SUNVNET_COMMON should depend on INET
+9651319adcc0ab2cba89c58552a60b51477c3e41 scsi: ses: Fix unsigned comparison with less than zero
+8e55474ee12adf82264b09a4115a37ce04f10d90 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+e88ccad6b06cf5954fd7d796e67bc565f56d76a8 perf/x86: Reset destroy callback on event init failure
+09feb69b7238a5475d1b64c33894a795789f9bcb sched: Always inline is_percpu_thread()
+4d48e508cd56bcdffcbd810caa245260555def00 Linux 4.14.251-rc1
 
---===============5575452687008631825==--
+--===============5294549493946116553==--
