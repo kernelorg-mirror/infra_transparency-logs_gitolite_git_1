@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 13 Oct 2021 22:27:38 -0000
-Message-Id: <163416405879.14882.9540683919432401397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 13 Oct 2021 22:40:07 -0000
+Message-Id: <163416480723.22715.6320452646690739843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/rcu/next
-    old: d5e7be308018b4a3455a904982b997a40662ff7f
-    new: 4b246eab47507c5bca631f31ea9c873a55875f6f
+  - ref: refs/heads/master
+    old: 42e1357bb99a73262087c60a055e20a19cb42273
+    new: 6357eb5c587296cfdc3ebeba11a9e68c6af5b4a3
     log: |
-         4b246eab47507c5bca631f31ea9c873a55875f6f rcu/nocb: Make local rcu_nocb_lock_irqsave() safe against concurrent deoffloading
+         ff70234a7e5047024cc1a37d55df6f2d301357ef dhcp: Use l_dhcp_lease_get_prefix_length
+         6357eb5c587296cfdc3ebeba11a9e68c6af5b4a3 dhcp: Add numeric form getters for gw/addr/netmask
          
