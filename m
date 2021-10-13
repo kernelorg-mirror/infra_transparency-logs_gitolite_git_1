@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6327994699138850479=="
+Content-Type: multipart/mixed; boundary="===============4135045797433094091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 13 Oct 2021 02:30:14 -0000
-Message-Id: <163409221482.26298.4346120349335911754@gitolite.kernel.org>
+Date: Wed, 13 Oct 2021 02:30:24 -0000
+Message-Id: <163409222473.26436.5515941116057946218@gitolite.kernel.org>
 
---===============6327994699138850479==
+--===============4135045797433094091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5a384f6fafb8e2e91c8dc52a889b15ba18df8f0e
-    new: b6a818bf325f391dff0186c0d0257f9489ea34ab
-    log: revlist-5a384f6fafb8-b6a818bf325f.txt
+  - ref: refs/heads/5.16/scsi-staging
+    old: 605ae389ea0243344713648294cd86b442d255ee
+    new: d489f18ad1fc33ab9b60dc40fe3851bb0d87de28
+    log: revlist-605ae389ea02-d489f18ad1fc.txt
 
---===============6327994699138850479==
+--===============4135045797433094091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634092205 -0400
+pusher 75C5DE3D 1634092218 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634092204-b46e531f303bba5856da4eced47788214a1cc581
+nonce 1634092217-5801bf0ebf3afdddd7484caf7d4e413ff84f868f
 
-5a384f6fafb8e2e91c8dc52a889b15ba18df8f0e b6a818bf325f391dff0186c0d0257f9489ea34ab refs/tags/mkp-scsi-staging
+605ae389ea0243344713648294cd86b442d255ee d489f18ad1fc33ab9b60dc40fe3851bb0d87de28 refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFmRK0ACgkQ7ulgGnXF
-3j3y/Q//dVSx0bvtoxFmUL5hiXk/KeoL4klWFrzmOfWK5ogoYTWj7fuy0bWsPnc1
-UUWMX1cj4cxvu8pSwBjoiTU28PMjFEt2MWuNdMoiczm5T4vqAV3PWA6ceUNCR1qo
-qXhBB5908kAhqd5KLceBJDo1/HDeznEkp9P6Z1vP1hGyW84PrAMl6388gG7mwKNT
-yoVKg2fPjdNauCZz2vKMctt3Wl636nI8NciGxSLZstzWtp4O/ILd0xXWgmQ7naL+
-NN3EHsuzK3b/YAu4nwlWQWASa1Fv27lOeQlyqpZ5O2tWqsFVIYmt4VVC+Y8EcX9C
-sOPfP6WGWu4BLDQbuc58v7YOdhfxrKME1oo005feM5Vcb9eKyFFB+OnAJ6S/QDkD
-yHnHLp1Z69z8c6/s5VSZyzxAkZoAEpmD3YncZmm7Qe8+o4rN/xPj+cfrlCmbmLEt
-0tiaoTaj4ivfib57YxDR959zU1YGPcHSVFnTt8VSi7iUrOHluG+jyLGJabEV7itW
-zMIKh3k8I5moEX3gRBdOfdS7sVyHj6uR4y5WN2l9feJnPe+zHrczmtrS+8iMzCFh
-wfGX44o0W1Zqq0LJfsyNPJ6XLuMf1aSyMbsaSxeKcT0EVvCSRzdj+mBnaOjSGlDj
-MFkxWuECo9YLL6JFzzGRPhxH8evGGOovIcrKkRfMdpqNLx3wjUg=
-=KD3r
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFmRLoACgkQ7ulgGnXF
+3j3LPg/9HDzyzqDVKZLT+H6L/dP4A6Oz1SigUNhMqpHKtjoysT2VWUqqLZcqtkol
+O46MJqwlBdV6XoJ8v9jEEIa23Jhb6YdQuUowCH2HwnALXQr0eKM8Uo3gEqUpFl1J
+RAAnfXpZTL2tA86GVkzawIhVm2dxC58kGQqEm9xcbn7FWRaU5ij7T+NsrckG4DS9
+xcQTEnenas90QMrFCNnypcGhsSfiRRNWil8gU/vxEKsAPqCZeiKNjMTxGhRfHrNa
+JqBMuGmzbGF8O36+KrGtitZvseB6y1oy8HkLnhMyDC5MXrOjMFe/KHt9QDTdaNLT
+c/Ak6UxAUEjRrNSf6I2f0+ZNtrFAGEvCNg5wPN95UYTroDQuq7NUQHSX/rj1aRvZ
+r3bsU5PR6lsVrMf3cNUjwffb1FiPUPyFQajU2qOa0jC6lzsiLhgM0u24pGKqWr98
+HmxdX9z92nsS2pjdpKjmYnYCxPyKRl30d3uYKzdMYzLBTEIuab4PGMl1YI5ejyoU
+3LgCc39n/oq8exff2sxvv34ZTj6dxT+6h865iGkJdgyH7rb6bmbamCB9EsSA9wyg
+VWAmsizC2xav2KSwYp1DY+ozMiUZomd33ZSJLDmguNit33lxAT862xk3aFfjR/ch
+9kb0x+oo0UJ7FMHYasNbC6YgcOWRt8MnMmOJdXF5xk/MzuI21Zw=
+=5CFb
 -----END PGP SIGNATURE-----
 
---===============6327994699138850479==
+--===============4135045797433094091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a384f6fafb8-b6a818bf325f.txt
+Content-Disposition: attachment; filename=revlist-605ae389ea02-d489f18ad1fc.txt
 
 6a2ea0d34af1ca807d5ba6a8350a037ff3cd35cc scsi: st: Add missing break in switch statement in st_ioctl()
 96fafe7c6523886308605d30ec92c7936abe7c2c scsi: elx: efct: Fix void-pointer-to-enum-cast warning for efc_nport_topology
@@ -104,4 +104,4 @@ f4875d509a0a78ad294a1a538d534b5ba94e685a scsi: csiostor: Uninitialized data in c
 9561f58442e48c3c71da250aa63bd02ec6bffcb5 scsi: ufs: mediatek: Support vops pre suspend to disable auto-hibern8
 d489f18ad1fc33ab9b60dc40fe3851bb0d87de28 scsi: ufs: core: Fix synchronization between scsi_unjam_host() and ufshcd_queuecommand()
 
---===============6327994699138850479==--
+--===============4135045797433094091==--
