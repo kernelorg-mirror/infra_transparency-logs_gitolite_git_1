@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2176451262000452472=="
+Content-Type: multipart/mixed; boundary="===============7705776140599262034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 14 Oct 2021 05:02:54 -0000
-Message-Id: <163418777468.7162.13441882220927373994@gitolite.kernel.org>
+Date: Thu, 14 Oct 2021 05:03:09 -0000
+Message-Id: <163418778947.7297.8100814304533671620@gitolite.kernel.org>
 
---===============2176451262000452472==
+--===============7705776140599262034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 732b74d647048668f0f8dc0c848f0746c69e2e2f
     new: cbcc5072c228cca6b060143159f3ca8d485778d7
     log: revlist-732b74d64704-cbcc5072c228.txt
 
---===============2176451262000452472==
+--===============7705776140599262034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ f03dca0c9e2297c84a018e306f8a9cd534ee4287 net: encx24j600: check error in devm_re
 291c932fc3692e4d211a445ba8aa35663831bac7 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
 cbcc5072c228cca6b060143159f3ca8d485778d7 Merge branch 'fix-two-possible-memory-leak-problems-in-nfc-digital-module'
 
---===============2176451262000452472==--
+--===============7705776140599262034==--
