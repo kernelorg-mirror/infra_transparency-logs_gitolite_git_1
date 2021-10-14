@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0500080475231102474=="
+Content-Type: multipart/mixed; boundary="===============5953018983981412075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 14 Oct 2021 14:52:14 -0000
-Message-Id: <163422313428.30725.9390216462126279396@gitolite.kernel.org>
+Message-Id: <163422313429.30730.11989452232741489953@gitolite.kernel.org>
 
---===============0500080475231102474==
+--===============5953018983981412075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 9a68777ad65aeb678c59ce30efe7f376b0f4b084
-    new: 2be6a8418bd1568db7e752ea68f73e6f24fca984
-    log: revlist-9a68777ad65a-2be6a8418bd1.txt
+  - ref: refs/heads/linux-4.4.y
+    old: 46f1e1a33c904a13d1ecf545f986a841c708efc1
+    new: f9c6c370e0b0668289ebd46e9b1311e1a8b6e7a1
+    log: revlist-46f1e1a33c90-f9c6c370e0b0.txt
 
---===============0500080475231102474==
+--===============5953018983981412075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,43 +32,49 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634223132 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1634223127-a8ef005154920b395be8e6bd22c4c73b0047e4ab
 
-9a68777ad65aeb678c59ce30efe7f376b0f4b084 2be6a8418bd1568db7e752ea68f73e6f24fca984 refs/heads/linux-4.19.y
+46f1e1a33c904a13d1ecf545f986a841c708efc1 f9c6c370e0b0668289ebd46e9b1311e1a8b6e7a1 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFoRBwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ifQP/AwWf6vgrVokvM0EhKM5
-gV9FJXnvsXCxIxaXzpzxEP5gVDy0nfepOwgpJZow83WCk0SXBhx6/Vc7b3FDFn51
-9XlXDIxvsmgHD9dkzB0BoESd3QrYGwG6+jR2S36Zi5P7wgqYNbGw/Y04twpF1nSj
-FaxGUCPZNpfi142c/UhMHg4frf/AiBOVB/12119xfK0bqKuQNSxCpRrWeYXdYcHm
-f5kT1vd1NGS4zKEdaJCglryjFUzWvmjsRnWy1ixQ6KGSY1nMP21LO4E9GJtnkAkL
-M9qnGJOxn4OWKmkMofrBe2b705XhQ4RY4U7L1e4V1otiFRceLz9uggWCzfc/9BR+
-o8RUPDBhwLUf+pNlaBIgzLhx0tHRMI5v96EGfVC3/Tgb2kwBr7YDl7Be9XXnwLmi
-LaWeL2Lp0i0/X9HNCx4X21i6N51sn8gL/bVx0lZx4hMrZA08MJ6oaeLHt44EDdeQ
-dIgKukLWRw/6F3W5rpDMhmUwXxUQHvcAHTgPu+LrIRfCGB/9if1ECN2h9pl07Cdl
-oc3OVGH6IYyAuC5o5WwtA8SR1uJa40dLIlwkOuHuwlI/K1Bl6LRaMfwPKIjp5Les
-bhVBOe9m0YeaFWk5EiaJXMYGLTm/CA6aJ43AzUm2b4FJdgrew4byJ81jgcFI7ybO
-HKucyvgJVB7CwufJwQbQz8ps
-=mUPa
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j5cP/12/vVUFbk/eSIDzL+Dh
+JxUmO6WSMGCQPC1LOzENWQxQeKQVoI2j56yM4+IseKKKwzm2rTJvrfE+d1DpANO5
+nYCj0J4GnO1Nn5b/7aMrC6XpxOIrjPGl8JUroL7BJ5K3I7BbQmlL8XriaKSE7Xho
+5a/SWVuMCaw0iOfn7VcpQyuUha3ca1vNnaFlg0QvOYxbaK4Tsi/kj0oY5bIiXrp4
+2nehiqTC35wt9pPqxtPN0Lz2PuDc8NTkODIMEqmHGssj1gUznUEtrM0Yot4Q/sCS
+pGsX/uxi7bjKuHoknUan2/PuZ94+2JYJpjZqfSiDoYakwE/B796LgeMaTYJgyjup
+s0DDnKSEn9iaVZa7Qy6AxeE+BaUPxHwwx/OnQazQbpWdoLPyCsXbUPvi8+GJxCn2
+aU82fuxCbAf1p7gfRM9jEtt+bOFZXmo3ApGCY27ompBMmvACFKI24PUGmOpxR4+H
+jMoHoTa6oqZpR0UwSL8qV5bVlkrQz8yWk0iwAfpIrtB6rO+/Vuj/1A+WKDviewEM
+UELkaPHv+C4X4nCGqwo4xvqZkfoUhDQzFkjrBRRfNSXz6mG1c+DSHabI0i38Elxj
+6pjbVhN2aUk1XbGjMdhEYau6gr1JBaFgVs9hl7OH+3JSUPI583xFwPtfd6+OOHcK
+jur0WOW0/pTfnHIoH20wTJhi
+=2Cfb
 -----END PGP SIGNATURE-----
 
---===============0500080475231102474==
+--===============5953018983981412075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a68777ad65a-2be6a8418bd1.txt
+Content-Disposition: attachment; filename=revlist-46f1e1a33c90-f9c6c370e0b0.txt
 
-24f2fcf0c8e808bd1d5b1f68414f89801a66aa49 net: phy: bcm7xxx: Fixed indirect MMD operations
-0e4cb7ad9d17c5e0664b1996aaa8b77a232a75f9 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-6cc5d3ecc94107f02f683580bd3308ccd4923422 netfilter: ip6_tables: zero-initialize fragment offset
-18f70596364b0ae4440725cc2c4964404c8e50e1 mac80211: Drop frames from invalid MAC address in ad-hoc mode
-3962b97a69cafc4c773f401d73c0b9f160b5c43e m68k: Handle arrivals of multiple signals correctly
-912e1d062690655af3fe7ac17da17b6bdb0077a9 net: prevent user from passing illegal stab size
-96f626940e68b6c2838154d97acbbc13f4776479 mac80211: check return value of rhashtable_init
-37d940c74e93455d7a3a32adac1ff07d87064fff net: sun: SUNVNET_COMMON should depend on INET
-0be9700d51f1e1ea9b9f4a54cb77371b3fb1c5b4 scsi: ses: Fix unsigned comparison with less than zero
-3557cfd6774c5fa29093e8dc34829210dcb4cfd9 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-424f7c57d857d2e8485c57077a4df52ba49e827f perf/x86: Reset destroy callback on event init failure
-7dbadc4613aa0a8f880146d59bee676aeb3ecb46 sched: Always inline is_percpu_thread()
-2be6a8418bd1568db7e752ea68f73e6f24fca984 Linux 4.19.212-rc1
+6cb676e2ad6e404ffd13d4e1f5f46d437d858f51 USB: cdc-acm: fix racy tty buffer accesses
+452dc39eef1e2f8a44f71df27d5feec3a5876da2 USB: cdc-acm: fix break reporting
+5173f527df161ff054531c744f14fffd84b3b9a5 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+0d6f5cd2565b68fba0bba1f3c19bdb8fafadb6b3 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+d1418681eaa5df13ccfe9f21ccd877cdf52de27c phy: mdio: fix memory leak
+9d96fe2a3b6b0ba4a268b35615cf8935a3c1b518 net_sched: fix NULL deref in fifo_set_limit()
+30646a616ae2fdcc3157424e4d9482f00603cabe ptp_pch: Load module automatically if ID matches
+a691a1f37b9782faab58bf8a34520e9a5342f054 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+dd5668526bca37624e26e8524d282d5707dada6d netlink: annotate data races around nlk->bound
+63dc086be76c05cb4f599172f7f66a2883487de5 i40e: fix endless loop under rtnl
+7c3b3031f49fef739ec189329faf46dbd0f3617d gup: document and work around "COW can break either way" issue
+ab85b142da82f0703f50f56d44c269061158aa69 mm: check VMA flags to avoid invalid PROT_NONE NUMA balancing
+43a55c81c9ebd0524687fd22862fd625cee131f0 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+6b411ba784fa48a5e3eaea4368a0193588b00a87 netfilter: ip6_tables: zero-initialize fragment offset
+8a5174bca1f40fa114cbc4665f8c3ec3daa0d5cc mac80211: Drop frames from invalid MAC address in ad-hoc mode
+e8bb5a934876262344bfff88b1d91cf5fcaa16f6 scsi: ses: Fix unsigned comparison with less than zero
+ed873559671a4b08d69d1dc159edacdd5317bd5f scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+63da83330990f6e4d28720e5f48b0ec1c8509080 perf/x86: Reset destroy callback on event init failure
+f9c6c370e0b0668289ebd46e9b1311e1a8b6e7a1 Linux 4.4.289-rc1
 
---===============0500080475231102474==--
+--===============5953018983981412075==--
