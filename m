@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 14 Oct 2021 13:57:27 -0000
-Message-Id: <163421984792.24390.273968189981120345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 14 Oct 2021 14:02:54 -0000
+Message-Id: <163422017489.27522.16835121226602582037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 53b5fa1ea4f821899440637ab632ce0e1687c916
-    new: 16d25711544876847d53754086d0320b85b27df2
-    log: |
-         16d25711544876847d53754086d0320b85b27df2 t/io_uring: include a maximum IOPS seen when exiting
-         
+  - ref: refs/heads/kvm-arm64/vcpu-first-run
+    old: 0000000000000000000000000000000000000000
+    new: ec49281bc0e2f44629350308dda37d925adbdadb
