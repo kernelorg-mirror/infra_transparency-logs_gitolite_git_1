@@ -1,63 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5877492968373231744=="
+Content-Type: multipart/mixed; boundary="===============2867022906794921495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 14 Oct 2021 18:17:32 -0000
-Message-Id: <163423545225.32701.3146389327856569736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Thu, 14 Oct 2021 18:28:01 -0000
+Message-Id: <163423608134.7603.8000455738399728756@gitolite.kernel.org>
 
---===============5877492968373231744==
+--===============2867022906794921495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7b4d63bc275cba8458c3f9da02f28ec3dc11e116
-    new: 8eb06e81b17a4559f33f179f5b9ae2acf90fcb1c
-    log: revlist-7b4d63bc275c-8eb06e81b17a.txt
+  - ref: refs/heads/x86/fpu
+    old: d9c281f77b378184ee2e406741a5ea53ac4f7fd9
+    new: d52a4cb09008bb5ef97de5d64ab960063365c3b7
+    log: revlist-d9c281f77b37-d52a4cb09008.txt
 
---===============5877492968373231744==
+--===============2867022906794921495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b4d63bc275c-8eb06e81b17a.txt
+Content-Disposition: attachment; filename=revlist-d9c281f77b37-d52a4cb09008.txt
 
-869752a6463e2fe8700574a12da65a10590972dd ice: Forbid trusted VFs in switchdev mode
-0eb9bb5ec1caf05d19a8cc5f5874e754ab1a4a7f ice: support for indirect notification
-352bfa24db3c7faffbcd01f9ed9b5049b5ce66ad ice: VXLAN and Geneve TC support
-8b8c10696281f51f9d3b70d45a979cdc04c54c1b ice: low level support for tunnels
-d3fe2d559a0fcd227a330d6f711e2bb58ac9a756 ice: support for GRE in eswitch
-e40611ec910d1adaa1c2b5956b103d1a17a807f9 ice: Refactor status flow for DDP load
-87b02c624f873d1d0f72980c1575d26761836337 ice: Remove string printing for ice_status
-81e94a2459678d0b8ec83891e0434def76b7b3e8 ice: Use int for ice_status
-d363eecb53d163e6c943a470798c89598615d314 ice: Remove enum ice_status
-9640db2f34563e4ddf98338e1aae9f97c622f89d ice: Cleanup after ice_status removal
-f253368be0a284ec4dd9097856b5a9fc3f0936e0 ice: Remove excess error variables
-0bee47bb424709c166c96e2101a664b595c919a4 ice: Propagate error codes
-c529b4d61c014a52ecd710aaadeee5f30604bbb4 ice: Respond to a NETDEV_UNREGISTER event for LAG
-675aaa00251cec23aa6a52f51cb8c6b2b4078e46 ice: Refactor PR ethtool ops
-caf88bd5eb59deeca25ade9b93a05c8ebefdfc2d ice: Add infrastructure for mqprio support via ndo_setup_tc
-de63b7ff7181b5a9e23753291800c24d05eec5ac ice: enable ndo_setup_tc support for mqprio_qdisc
-71386d1cb12d7135c80656a797821375f4e10d79 ice: Add tc-flower filter support for channel
-e6ad807762fb2b09e3689a6f927d92ef90f6d563 ice: devlink: add shadow-ram region to snapshot Shadow RAM
-c908c03e9df93eff8e50411aa81ff534dfa03a6d ice: move and rename ice_check_for_pending_update
-9bd2bc975234534af0fb239a4e0a5f3066fbc159 ice: move ice_devlink_flash_update and merge with ice_flash_pldm_image
-13ad2931195af1ba1b024754f741613645e4265f ice: support immediate firmware activation via devlink reload
-3d8715c236d8324aefb9dd2cd97398ec6ed228ad ice: Fix problems with DSCP QoS implementation
-3aba2110050a6c44c5ca3e2960380c95a20b04f6 ice: introduce ice_base_incval function
-f307a3da524708158655092a1d1954a9e0b03573 ice: PTP: move setting of tstamp_config
-2c729281dbd232b33932848f418471dbb9920560 ice: use 'int err' instead of 'int status' in ice_ptp_hw.c
-2183f5f926dd915999e4496476292dcb8ae53911 ice: introduce ice_ptp_init_phc function
-9c45abef9eeac1b45687a463f07c97b7a6deac21 ice: convert clk_freq capability into time_ref
-1d10de79bf3462373adb38ed78973c607d038285 ice: implement basic E822 PTP support
-7e0c96cd53c5016a2a9d4ed765870e6f2b716336 ice: ensure the hardware Clock Generation Unit is configured
-7b265f264ce76f48d9ea5c97101b8bc87ab2c497 ice: exit bypass mode once hardware finishes timestamp calibration
-59542a946a264715e343b698d1826847c0f06bf9 ice: support crosstimestamping on E822 devices if supported
-f59fdcdd451f482d200a2d60b9220a1244936dd4 igc: Remove unused _I_PHY_ID define
-8eb06e81b17a4559f33f179f5b9ae2acf90fcb1c ice: send correct vc status in switchdev
+60edfe3b265dd72604f86a7ab75550d9185f44f6 x86/fpu: Provide struct fpu_config
+c20362ab46af14ba92ed0956f915441975dd2822 x86/fpu: Cleanup fpu__init_system_xstate_size_legacy()
+d17c1a38053f01cb1f956ebfb4d8550712508510 x86/fpu/xstate: Cleanup size calculations
+a0caa6522247a19ed26c3bc5ff64b83907256a8a x86/fpu: Move xstate size to fpu_*_cfg
+ee7774f54415326bcf73f1aee1677f4a991afaca x86/fpu: Move xstate feature masks to fpu_*_cfg
+c0742f4a1ff2fa31773f7c51ca47163d0560e81a x86/fpu: Mop up xfeatures_mask_uabi()
+67332a7d55026e0284dae1b355047e64fa37abf1 x86/fpu: Rework restore_regs_from_fpstate()
+fbdb9b61d2148eafec5ce2357dff56b7d168a991 x86/fpu/xstate: Move remaining xfeature helpers to core
+73e252197b241f43ec1d81548081c739e613b368 x86/fpu: Add size checking to KVM functions
+30981e4b3765f765fa3469c753007aabf58ccc7b x86/fpu/xstate: Provide xstate_calculate_size()
+6bf85dc2ca045a496b1895cdddf749c65f9f9748 signal: Add an optional check for altstack size
+9c521d901e3f13d92e687681bdc09c0b7d756fee x86/signal: Implement sigaltstack size validation
+2cb159e0e00b0037d9e15fcad41b0c1c9c872c14 x86/fpu: Add members to struct fpu to cache permission information
+74b0cadadf695f4a57703c55a1dd491ce15aa89b x86/fpu: Add fpu_state_config::legacy_features
+82ad3c33820b7e7e225d8a1c917c9a0084f6d244 x86/arch_prctl: Add controls for dynamic XSTATE components
+ad8106cc13bddf79c12e313aa269aa6ec09db38c x86/signal: Use fpu::__state_user_size for sigalt stack validation
+76765f15f3339308f3a89e62ff32615a67c314f9 x86/fpu/signal: Prepare for variable sigframe length
+3e3f3880574f666ad76342aae4786913293e6873 x86/fpu: Prepare fpu_clone() for dynamically enabled features
+529b590bdd7d77bc273a87dfe0afdccc5cab9d68 x86/cpufeatures: Add eXtended Feature Disabling (XFD) feature bit
+4825ffa7b123218f0a1dbd07dafa037792496d80 x86/msr-index: Add MSRs for XFD
+050a32010c03b674468dcaa8839a1a84322bb78e x86/fpu: Add XFD state to fpstate
+51232b2472398a62f66f002d690067c7f86b02da x86/fpu: Add sanity checks for XFD
+27001b8a01ee7db8f12752cee6eef7ca909d6e98 x86/fpu: Update XFD state where required
+1900daca0803f8922a7e0160b32f09f4a062f3f7 x86/fpu: Add XFEATURES_MASK_DYNAMIC
+0971986da896269a5f70225964cfb2eb8657e54a x86/fpu/xstate: Add XFD #NM handler
+a717146d685c2ed5e6de4f0d1998f3e18d421351 x86/fpu/xstate: Add fpstate_realloc()/free()
+0b922349cf080f073aff7df5a9afdd9c9c6e27f7 x86/fpu/xstate: Prepare XSAVE feature table for gaps in state component numbers
+f5fa3aa1268995cf498f02c62b4342fdbed86f91 x86/fpu/amx: Define AMX state components and have it used for boot-time checks
+9fb538c245fa51f26a57253937b5fff778d4774c x86/fpu: Calculate the default sizes independently
+baebd4ab3cece397a6dc49fdfd1ec887496b113d x86/fpu: Add XFD handling for dynamic states
+d52a4cb09008bb5ef97de5d64ab960063365c3b7 x86/fpu/amx: Enable the AMX feature in 64-bit mode
 
---===============5877492968373231744==--
+--===============2867022906794921495==--
