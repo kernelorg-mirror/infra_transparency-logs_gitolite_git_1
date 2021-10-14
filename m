@@ -1,75 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============6030670890125067878=="
+Content-Type: multipart/mixed; boundary="===============8784055751260711751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 14 Oct 2021 15:32:05 -0000
-Message-Id: <163422552514.24953.2474164647461857324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 14 Oct 2021 15:38:24 -0000
+Message-Id: <163422590484.28206.1954176960550943608@gitolite.kernel.org>
 
---===============6030670890125067878==
+--===============8784055751260711751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: b82c8f64d9eb9daa188f015ef463fda48420927b
-    new: 00c9626f46bece739cb413d1399ead6473809c54
-    log: revlist-b82c8f64d9eb-00c9626f46be.txt
+  - ref: refs/heads/master
+    old: 732b74d647048668f0f8dc0c848f0746c69e2e2f
+    new: 1fcd794518b7644169595c66b1bfe726d1f498ab
+    log: revlist-732b74d64704-1fcd794518b7.txt
 
---===============6030670890125067878==
+--===============8784055751260711751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b82c8f64d9eb-00c9626f46be.txt
+Content-Disposition: attachment; filename=revlist-732b74d64704-1fcd794518b7.txt
 
-213185e58b547060e054fac29476780d5825c617 btrfs: factor uncompressed async extent submission code into a new helper
-1f1e1b35726e094412a81c43fb91df6be4fcd63e btrfs: subpage: make lzo_compress_pages() compatible
-ef2e3b2385ab484359511439c7cfbd39fe204ac6 btrfs: rework page locking in __extent_writepage()
-f160e68dc1f656a619a26bc153288a0c49bc9fb8 btrfs: handle page locking in btrfs_page_end_writer_lock with no writers
-9343a73547fa63b35e00f6b745f06b8fd72424c9 btrfs: subpage: avoid potential deadlock with compression and delalloc
-5539e8dd110aceeb1b79b2d82ee8d4777a440fa5 btrfs: subpage: only allow compression if the range is fully page aligned
-6bf2a89822554c16020d5e87abb6bfebf636bba9 btrfs: zoned: use kmemdup() to replace kmalloc + memcpy
-5ec0ef0225f0b728677052b88ebc8ffde178334e btrfs: update refs for any root except tree log roots
-37bbc10986464f00c0fe2fb7352989ece534e607 btrfs: deal with errors when checking if a dir entry exists during log replay
-bf9778cb336d5e55ad964befad3db37b221f06f1 btrfs: deal with errors when replaying dir entry during log replay
-f4a462dd72c5e166fd9589394f82efaf4a2a1dde btrfs: deal with errors when adding inode reference during log replay
-c1042b91d8bf236adc7914adaa0ed973d8f4edee btrfs: unify lookup return value when dir entry is missing
-0c056553481239db5b172f50dbcb31e49d99e827 btrfs: check for error when looking up inode during dir entry replay
-f6149ca20052336b99a29c766f280e19c5d66a1a btrfs: change handle_fs_error in recover_log_trees to aborts
-aa06ff354edc3fe9c0446db687538b956f936c7f btrfs: change error handling for btrfs_delete_*_in_log
-fdcdde245949d7a4df330f20a1a4ac51a8dac459 btrfs: add a BTRFS_FS_ERROR helper
-d5f9de6b525d6f2982db79c15c1a6278b9562e3b btrfs: do not infinite loop in data reclaim if we aborted
-3c49b2614be8531f94e9ed440380c9f319b4e2ec btrfs: fix abort logic in btrfs_replace_file_extents
-4a1b6afac5e5450f5342c159e95508fa6f6e5c27 btrfs: rename root fields in delayed refs structs
-07633dfd6bfa9820614a98a3d8003328891ba3cf btrfs: rely on owning_root field in btrfs_add_delayed_tree_ref to detect CHUNK_ROOT
-8bec353f8b075abc8b3b6ab2063e9569863a12b2 btrfs: add additional parameters to btrfs_init_tree_ref/btrfs_init_data_ref
-d478961ef4e04c0f17229f785c631ca0e4dc33a8 btrfs: pull up qgroup checks from delayed-ref core to init time
-4cefe04a6cfa6437b245dca58be0f3a9502cb0e0 btrfs: make btrfs_ref::real_root optional
-fff1ec4564935bdd03dfbdbe2e32ecd5e43d86d7 btrfs: reduce btrfs_update_block_group alloc argument to bool
-581f79c2427e4046d878f0de344287d8f42d8aaa btrfs: use bvec_kmap_local in btrfs_csum_one_bio
-b3438511bef7dc7d72bb1ac0124e3099a06b1040 btrfs: rename btrfs_dio_private::logical_offset to file_offset
-2b74f6e5cd7d58cc3a0c0918539c58ee325c449a btrfs: remove btrfs_bio::logical member
-bb1c28f52d1747b6e654251525b3811fe252ab56 btrfs: update device path inode time instead of bd_inode
-099f8e38cbfae140bbc2d7b914c62c25030ed241 btrfs: use num_device to check for the last surviving seed device
-708660dcda90a96c46de3c0a3279fa41846b6fce btrfs: add comments for device counts in struct btrfs_fs_devices
-255a1ba4cdc6af91a0d13f1b2fc42839678dde3e btrfs: do not call close_fs_devices in btrfs_rm_device
-153f625f32cfba37803454a2dffc60f43c266c06 btrfs: handle device lookup with btrfs_dev_lookup_args
-ea57e6e833a234ebe22efbb68e31c252f2478d15 btrfs: add a btrfs_get_dev_args_from_path helper
-5489ba589ed0cc21d6738251c4a68068f9b36d0a btrfs: use btrfs_get_dev_args_from_path in dev removal ioctls
-17e1d80d4a4ef37a841b95c018eb31cb5545d3ea btrfs: index free space entries on size
-00caac2d485aefc6149e397197a845f7b1e3dccd btrfs: clear BTRFS_DEV_STATE_MISSING bit in btrfs_close_one_device
-eaa94b0e3f9df15e19ab65acb0bbc89342193dd2 btrfs: zoned: use greedy gc for auto reclaim
-b200ddbd88cbe23a9b9ef714200de9f70fce4b35 Merge branch 'misc-5.15' into for-next-current-v5.14-20211014
-8efd692598acdabae6c3da16aba57e8a10edfd86 Merge branch 'misc-next' into for-next-next-v5.15-20211014
-cf35d993b9471c6e28a5cba498afe46a6766f64d Merge branch 'ext/josef/bg-index' into for-next-next-v5.15-20211014
-2c497408e2ab846a1e134707af114ade7c5dc75e Merge branch 'ext/lizhang/clear-missing-bdev-v2' into for-next-next-v5.15-20211014
-52167695925ad3a6876aa3f85a10a688464e4e64 Merge branch 'ext/jth/zoned-greedy-gc' into for-next-next-v5.15-20211014
-677121bcb55a6688ba153197c7b8da43ae0a232f Merge branch 'ext/josef/lockdep-rm-dev' into for-next-next-v5.15-20211014
-ce0ec2bf2619949c33843f3065d9d775bf5cba2d Merge branch 'for-next-current-v5.14-20211014' into for-next-20211014
-00c9626f46bece739cb413d1399ead6473809c54 Merge branch 'for-next-next-v5.15-20211014' into for-next-20211014
+0edf0824e0dc359ed76bf96af986e6570ca2c0b9 af_unix: Rename UNIX-DGRAM to UNIX to maintain backwards compatability
+74a3bc42fe514098030a78c1ad5e6024463dd378 net: mscc: ocelot: Fix dumplicated argument in ocelot
+4a3e0aeddf091f00974b02627c157843ce382a24 net: dsa: mv88e6xxx: don't use PHY_DETECT on internal PHY's
+9973a43012b6ad1720dbc4d5faf5302c28635b8c r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
+ef1100ef20f29aec4e62abeccdb5bdbebba1e378 net: dsa: microchip: Added the condition for scheduling ksz_mib_read_work
+2bbc977ca689e5e18e8cf98f68854f92bd053c97 ipv6: ioam: move the check for undefined bits
+7b1700e009cc17702e8db3af1d983860c0eb7164 selftests: net: modify IOAM tests for undef bits
+7389074ced34091b12ca5ee65ceed9194224a7f6 Merge branch 'ioam-fixes'
+4d4a223a86afe658cd878800f09458e8bb54415d ice: fix locking for Tx timestamp tracking flush
+2266bb1e122a4f7cdf3427defcfb48e5c6a8f205 net/mlx5: Fix cleanup of bridge delayed work
+ca20dfda05ae0531c8f5117b6ac989816f6cf658 net/mlx5e: Allow only complete TXQs partition in MQPRIO channel mode
+94b960b9deffc02fc0747afc01f72cc62ab099e3 net/mlx5e: Fix memory leak in mlx5_core_destroy_cq() error path
+b2107cdc43d8601f2cadfba990ae844cc1f44e68 net/mlx5e: Switchdev representors are not vlan challenged
+0bc73ad46a76ed6ece4dcacb28858e7b38561e1c net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
+84c8a87402cf073ba7948dd62d4815a3f4a224c8 net/mlx5e: Fix division by 0 in mlx5e_select_queue for representors
+60d950f443a52d950126ad664fbd4a1eb8353dc9 nfp: flow_offload: move flow_indr_dev_register from app init to app start
+43a4b4dbd48c9006ef64df3a12acf33bdfe11c61 net: dsa: fix spurious error message when unoffloaded port leaves bridge
+28da0555c3b542d605e4ca26eea6a740cf2c9174 net: dsa: move sja1110_process_meta_tstamp inside the tagging protocol driver
+4ac0567e40b334b54988e3c28a2425ff9c8bdd35 net: dsa: sja1105: break dependency between dsa_port_is_sja1105 and switch driver
+3af760e4d3b0a32448decb8ea068a221cbd24fe3 Merge branch 'fix-circular-dependency-between-sja1105-and-tag_sja1105'
+c57fe0037a4e3863d9b740f8c14df9c51ac31aa1 net: mscc: ocelot: make use of all 63 PTP timestamp identifiers
+52849bcf0029ccc553be304e4f804938a39112e2 net: mscc: ocelot: avoid overflowing the PTP timestamp FIFO
+9fde506e0c53b8309f69b18b4b8144c544b4b3b1 net: mscc: ocelot: warn when a PTP IRQ is raised for an unknown skb
+fba01283d85a09e0e2ef552c6e764b903111d90a net: mscc: ocelot: deny TX timestamping of non-PTP packets
+ebb4c6a990f786d7e0e4618a0d3766cd660125d8 net: mscc: ocelot: cross-check the sequence id from the timestamp FIFO with the skb PTP header
+deab6b1cd9789bb9bd466d5e76aecb8b336259b4 net: dsa: tag_ocelot: break circular dependency with ocelot switch lib driver
+49f885b2d97093451410e7279aa29d81e094e108 net: dsa: tag_ocelot_8021q: break circular dependency with ocelot switch lib
+1328a883258b4507909090ed0a9ad63771f9f780 net: dsa: felix: purge skb from TX timestamping queue if it cannot be sent
+43ba33b4f143965a451cfdc1e826b61f6933c887 net: dsa: tag_ocelot_8021q: fix inability to inject STP BPDUs into BLOCKING ports
+8d5f7954b7c8de54902a8beda141064a7e2e6ee0 net: dsa: felix: break at first CPU port during init and teardown
+847c6bdba833115e07376584024b2cb43ef7914b Merge branch 'felix-dsa-driver-fixes'
+e599ee234ad4fdfe241d937bbabd96e0d8f9d868 net: arc: select CRC32
+427f974d9727ca681085ddcd0530c97ab5811ae0 net: korina: select CRC32
+b70b15217383e0e1c2ee9793e84f6b7957a33db9 Merge tag 'mlx5-fixes-2021-10-12' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+f03dca0c9e2297c84a018e306f8a9cd534ee4287 net: encx24j600: check error in devm_regmap_init_encx24j600
+1f922d9e374f0ca7d1b241666c792f403c6120aa Revert "net: procfs: add seq_puts() statement for dev_mcast"
+0911ab31896f0e908540746414a77dd63912748d nfc: fix error handling of nfc_proto_register()
+58e7dcc9ca29c14e44267a4d0ea61e3229124907 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
+291c932fc3692e4d211a445ba8aa35663831bac7 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
+cbcc5072c228cca6b060143159f3ca8d485778d7 Merge branch 'fix-two-possible-memory-leak-problems-in-nfc-digital-module'
+40507e7aada8422c38aafa0c8a1a09e4623c712a ethernet: s2io: fix setting mac address during resume
+332fdf951df8b870e3da86b122ae304e2aabe88c mlxsw: thermal: Fix out-of-bounds memory accesses
+a2d859e3fc97e79d907761550dbc03ff1b36479c sctp: account stream padding length for reconf chunk
+ea142b09a6399fb2c35c07198e3f0e2423273540 MAINTAINERS: Update the devicetree documentation path of imx fec driver
+1fcd794518b7644169595c66b1bfe726d1f498ab icmp: fix icmp_ext_echo_iio parsing in icmp_build_probe
 
---===============6030670890125067878==--
+--===============8784055751260711751==--
