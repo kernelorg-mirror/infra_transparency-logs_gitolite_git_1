@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 14 Oct 2021 03:28:13 -0000
-Message-Id: <163418209354.12856.9188335145269852736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Thu, 14 Oct 2021 03:58:48 -0000
+Message-Id: <163418392805.31442.7242819955521144234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/for-5.15-fixes
-    old: 013923477cb311293df9079332cf8b806ed0e6f2
-    new: 776c75010803849c1cc4f11031a2b3960ab05202
+  - ref: refs/heads/main
+    old: 37fd700685da9001643d1b1f63ad4332e1148b04
+    new: 8fd24744e3618be99a939009349418fcbfa362b3
     log: |
-         776c75010803849c1cc4f11031a2b3960ab05202 ata: ahci_platform: fix null-ptr-deref in ahci_platform_enable_regulators()
+         52a16fd7282463e05ee86071463bf0499a9cedf6 checks: Make interrupt_provider check dependent on interrupts_extended_is_cell
+         d8d1a9a77863a8c7031ae82a1d461aa78eb72a7b checks: Drop interrupt provider '#address-cells' check
+         8fd24744e3618be99a939009349418fcbfa362b3 checks: Ensure '#interrupt-cells' only exists in interrupt providers
+         
+  - ref: refs/heads/master
+    old: 37fd700685da9001643d1b1f63ad4332e1148b04
+    new: 8fd24744e3618be99a939009349418fcbfa362b3
+    log: |
+         52a16fd7282463e05ee86071463bf0499a9cedf6 checks: Make interrupt_provider check dependent on interrupts_extended_is_cell
+         d8d1a9a77863a8c7031ae82a1d461aa78eb72a7b checks: Drop interrupt provider '#address-cells' check
+         8fd24744e3618be99a939009349418fcbfa362b3 checks: Ensure '#interrupt-cells' only exists in interrupt providers
          
