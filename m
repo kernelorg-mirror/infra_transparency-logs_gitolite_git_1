@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6301855206671625284=="
+Content-Type: multipart/mixed; boundary="===============3414452219759145030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 14 Oct 2021 14:38:04 -0000
-Message-Id: <163422228498.20395.3555957677527644090@gitolite.kernel.org>
+Date: Thu, 14 Oct 2021 14:38:10 -0000
+Message-Id: <163422229064.20510.10342378520620121243@gitolite.kernel.org>
 
---===============6301855206671625284==
+--===============3414452219759145030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5f3b8acee9fee04ece54376a4f842847000a97f3
-    new: 9974cb5c879048f5144d0660c4932d98176213c4
-    log: revlist-5f3b8acee9fe-9974cb5c8790.txt
+  - ref: refs/heads/dev-queue
+    old: ce020027d3bbe5a3250841d7dd229168ca347dad
+    new: 27fca51e1d03c947bc7bd4b010c124d1723e22ae
+    log: revlist-ce020027d3bb-27fca51e1d03.txt
 
---===============6301855206671625284==
+--===============3414452219759145030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f3b8acee9fe-9974cb5c8790.txt
+Content-Disposition: attachment; filename=revlist-ce020027d3bb-27fca51e1d03.txt
 
 c045ad2cc01e473b98771379eb58fe13560b7f70 ax25: constify dev_addr passing
 db95732446a86e310dbbe5f890fae6f0c719833b rose: constify dev_addr passing
@@ -48,5 +48,17 @@ fc372cc072861e0027a950d896fc5f6912bb0acd mlxsw: reg: Rename MLXSW_REG_PPCNT_TC_C
 bf862732945cbfebc8616ef6ca60a879f1445fe1 selftests: mlxsw: RED: Test per-TC ECN counters
 ffdbc0fe8be490ddd6814635cb1df32172249e5d Merge branch 'mlxsw-show-per-band-ecn-marked-counter-on-qdisc'
 9974cb5c879048f5144d0660c4932d98176213c4 net: delete redundant function declaration
+1af39c2741a2468445130a742a44630313803c60 ice: fix locking for Tx timestamp tracking flush
+c6069535339f28d580964625f943a6854ca73dd8 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+9be751c0ecc485dadd9ef5355e93d1e1f6b56973 igc: Add UDP segmentation offload support
+90d7b294d5199ccb94b3deb0f2851302bea74d40 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+e5fd5df060ff67469570dc4ad823c867a9a491b2 i40e: Fix correct max_pkt_size on VF RX queue
+1a3cfca4b170ce0fe9bbba1dab8686c09b63942b iavf: Fix return of set the new channel count
+f5eb2df7e88be316abfa74e68ec3771d3506341f i40e: Fix NULL ptr dereference on VSI filter sync
+5bf76951932789ec9b9e3cc42d3a3a2a74f31e10 ice: Fix VF true promiscuous mode
+31e8ef6f851f2226bc17c652b79c08aee14eb581 igb: unbreak I2C bit-banging on i350
+e319c6af28408b9b6ebfaa69b0ec0c6b7647de70 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+c8b814da0b646d499cb97f59559f266fe44af108 ice: Refactor promiscuous functions
+27fca51e1d03c947bc7bd4b010c124d1723e22ae ice: Enable configuration of number of qps per VF via devlink
 
---===============6301855206671625284==--
+--===============3414452219759145030==--
