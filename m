@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4693158106830247725=="
+Content-Type: multipart/mixed; boundary="===============7847571089190122654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 14 Oct 2021 09:53:00 -0000
-Message-Id: <163420518067.387.8915673257123528171@gitolite.kernel.org>
+Date: Thu, 14 Oct 2021 09:55:45 -0000
+Message-Id: <163420534584.2809.16857465168066869210@gitolite.kernel.org>
 
---===============4693158106830247725==
+--===============7847571089190122654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 54607282fae6148641a08d81a6e0953b541249c7
-    new: d9b7748ffc45250b4d7bcf22404383229bc495f5
-    log: revlist-54607282fae6-d9b7748ffc45.txt
+  - ref: refs/heads/edac-for-next
+    old: 9130bd1dbe523c58f58da224f81bbd0f7565e7a1
+    new: f889e52436d6a42e773c4e8aab390c6b25841d61
+    log: revlist-9130bd1dbe52-f889e52436d6.txt
 
---===============4693158106830247725==
+--===============7847571089190122654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54607282fae6-d9b7748ffc45.txt
+Content-Disposition: attachment; filename=revlist-9130bd1dbe52-f889e52436d6.txt
 
-cd65869512ab5668a5d16f789bc4da1319c435c4 io_uring: use iov_iter state save/restore helpers
 7dedd3e18077f996a10c47250ac85d080e5f474e Revert "iov_iter: track truncated size"
 b66ceaf324b394428bb47054140ddf03d8172e64 io_uring: move iopoll reissue into regular IO path
 10d93a98190aec2c3ff98d9472ab1bf0543aa02c ASoC: SOF: imx: imx8: Bar index is only valid for IRAM and SRAM types
@@ -1050,5 +1049,6 @@ c22ccc4a3ef198752855f44e9279732260c889d5 Merge tag 'x86_urgent_for_v5.15_rc5' of
 efb52a7d9511df818391f1afa459507425833438 Merge tag 'powerpc-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc Linux 5.15-rc5
 d9b7748ffc45250b4d7bcf22404383229bc495f5 EDAC/armada-xp: Fix output of uncorrectable error counter
+f889e52436d6a42e773c4e8aab390c6b25841d61 Merge branch 'edac-urgent' into edac-for-next
 
---===============4693158106830247725==--
+--===============7847571089190122654==--
