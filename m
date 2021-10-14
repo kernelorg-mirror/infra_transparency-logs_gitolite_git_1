@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2207636143322711980=="
+Content-Type: multipart/mixed; boundary="===============3126511740235606501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 14 Oct 2021 01:24:35 -0000
-Message-Id: <163417467544.31894.6989075555700775568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 14 Oct 2021 01:24:42 -0000
+Message-Id: <163417468211.32028.10937522126869241629@gitolite.kernel.org>
 
---===============2207636143322711980==
+--===============3126511740235606501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: fbff867681d00e289958e9616434945da2a58e3a
-    new: ca6e18b05129940cadc101ccf9576b60f9fe6c0c
-    log: revlist-fbff867681d0-ca6e18b05129.txt
+  - ref: refs/heads/queue-rc
+    old: ba4909d2e3783dc22bb2f1ff79ec142dd00f57bb
+    new: b8bfb3ea2fc854be469b99fd7240b1d42f685278
+    log: revlist-ba4909d2e378-b8bfb3ea2fc8.txt
 
---===============2207636143322711980==
+--===============3126511740235606501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbff867681d0-ca6e18b05129.txt
+Content-Disposition: attachment; filename=revlist-ba4909d2e378-b8bfb3ea2fc8.txt
 
 0edf0824e0dc359ed76bf96af986e6570ca2c0b9 af_unix: Rename UNIX-DGRAM to UNIX to maintain backwards compatability
 74a3bc42fe514098030a78c1ad5e6024463dd378 net: mscc: ocelot: Fix dumplicated argument in ocelot
@@ -75,5 +75,7 @@ f635ad54ace30c8951e0f9b2966b1bfe2b5049ef Merge branch 'patchq/433318' into mlx5-
 91c5024736dbdf7a4123e3f90739e02016a06e9f Merge branch 'patchq/433941' into mlx5-for-net
 0d5720039a67684dd44f3771bfbe7e58b6e4688e Merge branch 'patchq/433683' into mlx5-for-net
 ca6e18b05129940cadc101ccf9576b60f9fe6c0c Merge branch 'mlx5-for-net' into net-rc
+0c92efa9cd5824ef4b43104a5fc44792c759f53c Merge branch 'net-rc' into queue-rc
+b8bfb3ea2fc854be469b99fd7240b1d42f685278 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2207636143322711980==--
+--===============3126511740235606501==--
