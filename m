@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2653027543249121191=="
+Content-Type: multipart/mixed; boundary="===============0975513394592565368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 14 Oct 2021 05:33:40 -0000
-Message-Id: <163418962098.25938.7684519279412475261@gitolite.kernel.org>
+Date: Thu, 14 Oct 2021 05:33:50 -0000
+Message-Id: <163418963098.26045.2563186661113498193@gitolite.kernel.org>
 
---===============2653027543249121191==
+--===============0975513394592565368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,96 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: ce8bd03c47fc8328e82a48d332fba69fd538e9bf
-    new: 9974cb5c879048f5144d0660c4932d98176213c4
-    log: revlist-ce8bd03c47fc-9974cb5c8790.txt
+  - ref: refs/heads/mlx5-queue
+    old: d81d27fcb0ea53f769282b28cae0f03da13f1f99
+    new: 962013152e754cb7b724ff7fe8e79f9ba2659376
+    log: revlist-d81d27fcb0ea-962013152e75.txt
 
---===============2653027543249121191==
+--===============0975513394592565368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce8bd03c47fc-9974cb5c8790.txt
+Content-Disposition: attachment; filename=revlist-d81d27fcb0ea-962013152e75.txt
 
-7715ec32472c792ca4bd170345e30fb48e191799 ice: implement low level recipes functions
-450052a4142c6bf2ec4ba6a54d833a575482a032 ice: manage profiles and field vectors
-fd2a6b71e3008360c7b26a3d7002fe03dbdc61fd ice: create advanced switch recipe
-0f94570d0cae1ab7c322d764c3514d3558137eea ice: allow adding advanced rules
-8bb98f33dead401daa5941abb357983362e0f6ca ice: allow deleting advanced rules
-8b8ef05b776e660a95d8347716b9b6c38ddf97c8 ice: cleanup rules info
-572b820dfa61fc23b5ba59fd5baa92cd1ec2bacb ice: Allow changing lan_en and lb_en on all kinds of filters
-0d08a441fb1a5c4fdfa3f5fe2f2eb2f620f5b20d ice: ndo_setup_tc implementation for PF
-7fde6d8b445f3af9caa5f3c2be384c2f797e21c5 ice: ndo_setup_tc implementation for PR
-2cb67ab153d59473d67713c709a198922b7e87a3 gve: Switch to use napi_complete_done
-58401b2a46e7d5090873e7725ac786685475d638 gve: Add rx buffer pagecnt bias
-61d72c7e486b63340f1fadcf3bed4cae98f03d9b gve: Do lazy cleanup in TX path
-87a7f321bb6a45e54b7d6c90d032ee5636a6ad97 gve: Recover from queue stall due to missed IRQ
-4edf8249bcd1c554b1a34166ca4ea5630031ecf5 gve: Add netif_set_xps_queue call
-ea5d3455adf1f3d47130604e6d353b23c3ee4a50 gve: Allow pageflips on larger pages
-1b4d1c9bab091ac6e20a3ff80c30c5cefe192bf4 gve: Track RX buffer allocation failures
-e679198bbb8236e3bfd6e38f6359bdc0703cee1f Merge branch 'gve-improvements'
-311c13ddc8eefc554647beca332633c944760d12 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/nex t-queue
-5b25a5bf5e047745c598d55833ada8889af28989 nfc: drop unneeded debug prints
-f141cfe364ef58d5f34ac0bc28518383889add49 nfc: nci: replace GPLv2 boilerplate with SPDX
-edfa5366ef424f46a20ab81d9927be2e8ff3f7ec nfc: s3fwrn5: simplify dereferencing pointer to struct device
-84910319fad4a511602236ea7b0c1c510132d895 nfc: st-nci: drop unneeded debug prints
-e52cc2a625a6841cad9a8a1fb537a0125cead3a9 nfc: st21nfca: drop unneeded debug prints
-f0563ebec68feefa741e6d76bbc8999563444c97 nfc: trf7970a: drop unneeded debug prints
-f41e137abd2546394b921168c11dfca563e114d1 nfc: microread: drop unneeded debug prints
-ff7f0e4e7930202faed4ace6f09e303a455d0cab Merge branch 'nfc-minor-printk-cleanup'
-a34dda7284304046adaca2685777e86927c58317 mlxsw: spectrum_qdisc: Pass extack to mlxsw_sp_qevent_entry_configure()
-0908e42ad9a5965eb89028f286c1056bf56978b7 mlxsw: spectrum_qdisc: Distinguish between ingress and egress triggers
-099bf89d6a35086eee868f8357fb9d84a895b3c6 mlxsw: spectrum_qdisc: Track permissible actions per binding
-9c18eaf2882d96f877bbfea795a9f5cdf63ac2ce mlxsw: spectrum_qdisc: Offload RED qevent mark
-a703b5179b5c0740c69358b2cfb22c12545d13a4 selftests: mlxsw: sch_red_core: Drop two unused variables
-0cd6fa99a076b79744d26bb2f4d089e1c4eae2e4 selftests: mlxsw: RED: Add selftests for the mark qevent
-249ae9495b0398c6d21fc7dfdd18ff5e36cf27e2 Merge branch 'mlxsw-ECN-mirroring'
-7bb39a394490c0690dc7304f2f0345539d590d2b net: hns: Prefer struct_size over open coded arithmetic
-e4400bbf5b15750e1b59bf4722d18d99be60c69f net, neigh: Fix NTF_EXT_LEARNED in combination with NTF_USE
-3dc20f4762c62d3b3f0940644881ed818aa7b2f5 net, neigh: Enable state migration between NUD_PERMANENT and NTF_USE
-2c611ad97a82b51221bb0920cc6cac0b1d4c0e52 net, neigh: Extend neigh->flags to 32 bit to allow for extensions
-7482e3841d520a368426ac196720601687e2dc47 net, neigh: Add NTF_MANAGED flag for managed neighbor entries
-2ed08b5ead3cdef574f99ff5fbf09d3f969a53c4 Merge branch 'Managed-Neighbor-Entries'
-25b90c19102f50ae261cbc328361c0fc66b7c901 tulip: fix setting device address from rom
-850bfb912a6deb3134c5922882f8d139f77d8c5c net: hns3: debugfs add support dumping page pool info
-177c92353be935db555d0d08729e871145ec698c ethernet: tulip: avoid duplicate variable name on sparc
-21314638c9f251bb40c8ad3b4e1c232057789b8b devlink: Reduce struct devlink exposure
-2bc50987dc1f467551f2ca537239016915256f6d devlink: Move netdev_to_devlink helpers to devlink.c
-b88f7b1203bf481af58291c28957aaab09503f43 devlink: Annotate devlink API calls
-bd032e35c568ff7cfa347aa4ddd6491e2453f00c devlink: Allow control devlink ops behavior through feature mask
-96869f193cfd26c2b47db32e4d8bcad50461df7a net/mlx5: Set devlink reload feature bit for supported devices only
-82465bec3e9713c395b0a02f5aaf7949443cb877 devlink: Delete reload enable/disable interface
-0e258cec0b07f57c53b3822b8a36ab2ba9d2d132 Merge branch 'devlink-reload-simplification'
-d1f24712a86abd04d82cf4b00fb4ab8ff2d23c8a ionic: no devlink_unregister if not registered
-edce2a93dd781ac13bd7f651ee0b5edb8af6c0e4 net: enetc: include ip6_checksum.h for csum_ipv6_magic
-50515cac8d0ea2026db2f0cb456bfa51d5e8e85f net: qed_debug: fix check of false (grc_param < 0) expression
-23144a915684b645529b0a51cbbfd5eae727ced7 ravb: Use ALIGN macro for max_rx_len
-2e95e08ac009273184c259848851d495258448c2 ravb: Add rx_max_buf_size to struct ravb_hw_info
-3d4e37df882b0f4f28b7223a42492650b71252c5 ravb: Fillup ravb_alloc_rx_desc_gbeth() stub
-2458b8edb887108b8a6aae567b01e5e2a73bd8d8 ravb: Fillup ravb_rx_ring_free_gbeth() stub
-16a6e245a9f3cd661f3824940bb62b0ab4503d53 ravb: Fillup ravb_rx_ring_format_gbeth() stub
-1c59eb678cbd8d322d06d3a5514d36e8e1a4e84c ravb: Fillup ravb_rx_gbeth() stub
-b6a4ee6e74ded40bc261fee28f28a5df7021af3b ravb: Add carrier_counters to struct ravb_hw_info
-0ee65bc14ff2f755c83b9261c510a70bf6ba8d60 ravb: Add support to retrieve stats for GbEthernet
-4ea3167bad275afda5a0b5a794831b312112ec29 ravb: Rename "tsrq" variable
-030634f37db996f5b8cc82f43ed6e3b6b009d56c ravb: Optimize ravb_emac_init_gbeth function
-1091da579d7ccdba887bdfd11e31a23be694bbd0 ravb: Rename "nc_queue" feature bit
-95e99b10482ddc4eecfbef8247d81646676d5c46 ravb: Document PFRI register bit
-3d6b24a2ada3d53f7da9362d03856bdec74806e5 ravb: Update ravb_emac_init_gbeth()
-9404092646473180ef16198f0502da050fc0fa61 ravb: Fix typo AVB->DMAC
-5f3b8acee9fee04ece54376a4f842847000a97f3 Merge branch 'add-functional-support-for-gigabit-ethernet-driver'
-c045ad2cc01e473b98771379eb58fe13560b7f70 ax25: constify dev_addr passing
-db95732446a86e310dbbe5f890fae6f0c719833b rose: constify dev_addr passing
-2ef6db76bac0f3006daceb9eeeaf5f09820b1caf llc/snap: constify dev_addr passing
-1a8a23d2da4fec6f090ec26bbe76eab2b77410e9 ipv6: constify dev_addr passing
-6cf862807234fa8d7c91a3a2d327a87471b9adbd tipc: constify dev_addr passing
-1bfcd1cc546eaa9ecafb9718bc877f24b8a349c2 decnet: constify dev_addr passing
-fe83fe739df7e08a24e961f04fd026f0447f38cb Merge branch 'net-constify-dev_addr-passing-for-protocols'
-40af35fdf79c77e19c597e47cc8fe9a8e200de30 netdevice: demote the type of some dev_addr_set() helpers
-20c3d9e45ba630a7156d682a40988c0e96be1b92 hamradio: use dev_addr_set() for setting device address
-5a1b7e1a532557e3af48c3ed7e61f3e757ee09ea ip: use dev_addr_set() in tunnels
-400f17d3301ee531ad3646aa6fe179e7f8718dbc Merge branch 'net-use-dev_addr_set-in-hamradio-and-ip-tunnels'
-13b5ffa0e282f3d18e57735e37b8fed3a392872b net: remove single-byte netdev->dev_addr writes
 6312d52838b21f5c4a5afa1269a00df4364fd354 marvell: octeontx2: build error: unknown type name 'u64'
 39e222bfd7f37e7a98069869375b903d7096c113 net: dsa: unregister cross-chip notifier after ds->ops->teardown
 e79d82643a69df03d59fe47e32619515a83e4969 net: enetc: fix check for allocation failure
@@ -115,5 +36,34 @@ fc372cc072861e0027a950d896fc5f6912bb0acd mlxsw: reg: Rename MLXSW_REG_PPCNT_TC_C
 bf862732945cbfebc8616ef6ca60a879f1445fe1 selftests: mlxsw: RED: Test per-TC ECN counters
 ffdbc0fe8be490ddd6814635cb1df32172249e5d Merge branch 'mlxsw-show-per-band-ecn-marked-counter-on-qdisc'
 9974cb5c879048f5144d0660c4932d98176213c4 net: delete redundant function declaration
+0038e21be958bf6877e67540c9317f22ebce1b7d net/mlx5: Add layout to support default timeouts register
+1cc2bd6dbd8afeb2949836ea637915235fc7dd43 net/mlx5: Read timeout values from init segment
+0fc9f3ce4278677b5356b35096555339737e559b net/mlx5: Read timeout values from DTOR
+89ea6e397f8ea459a94ab45db1840aac204094c9 net/mlx5: DR, Fix querying vport 0 capabilities
+f946063600e305b7bcf87061bd63bd23b44d7780 net/mlx5: Bridge, provide flow source hints
+54f5c103c0befc53a8a982dffea254be7e227caa net/mlx5: DR, Fix querying vport 0 capabilities
+962f50eba3776cf8307dc0e2ade6d0b4ecc7f0ec net/mlx5i: Enable Rx steering for IPoIB via ethtool
+a94903d24d1716409b621adbb2b2d76106069c41 net/mlx5: Disable roce at HCA level
+314d79cf627d9105ea52768df134746fd3eaea9a net/mlx5: CT: Fix missing cleanup of ct nat table on init failure
+ce2c3451f33cfaee262e1a861fe3de3d2a745042 net/mlx5: Support partial TTC rules
+b972ec5570d1f3322d71ee6d8d4642146d507a11 net/mlx5: Introduce port selection namespace
+05cf28576f187200a577f458cfbc7ad923284548 net/mlx5: Add support to create match definer
+2a1f6e6874a157ee6627c651e23390b14f8f046c net/mlx5: Introduce new uplink destination type
+f16d77ebec29d226babbdb2b14c4a2c9fc9a759a net/mlx5: Lag, move lag files into directory
+0d07cb1d50d938f87ea5b93bbe485744c7be79ad net/mlx5: Lag, set LAG traffic type mapping
+8102b8f9472b6da2c71fafe88d11aa2eb03f132a net/mlx5: Lag, set match mask according to the traffic type bitmap
+827f15735c59ce193db4c51457f017b22c6460cc net/mlx5: Lag, add support to create definers for LAG
+eefec61814fa7418b2bab0b8daabdc9852749a7b net/mlx5: Lag, add support to create TTC tables for LAG port selection
+3de71341340fb999cfd1eb52931e35992355f37d net/mlx5: Lag, add support to create/destroy/modify port selection
+91816d3a892f3774f79d2415fbcb0c5fb798c3e6 net/mlx5: Lag, use steering to select the affinity port in LAG
+a6f8ecf68653de43cc0b663a08ca9e9b33d4b9cb net/mlx5: E-Switch, Use dynamic alloc for dest array
+772e66d48d6f53c9736f2e88d451c20043136387 net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+0305862091f9582f71c8e9046724ea85cdfa66a1 Merge branch 'patchq/437467' into mlx5-queue
+b40ffde5521fdfa1bf25a287fa684ba9856207d6 Merge branch 'patchq/435320' into mlx5-queue
+df179dad121a133673a1a8c6acb973977a19fd16 Merge branch 'patchq/433307' into mlx5-queue
+2602195416783185cb7360555f2947116cffa9fd Merge branch 'patchq/423885' into mlx5-queue
+cd4a99a8a768332462fbdf6b9e879a70948c4e68 Merge branch 'patchq/435579' into mlx5-queue
+5322bc76131082d5dfa68bb590a0462bcbe1f309 Merge branch 'patchq/414851' into mlx5-queue
+962013152e754cb7b724ff7fe8e79f9ba2659376 Merge branch 'patchq/428803' into mlx5-queue
 
---===============2653027543249121191==--
+--===============0975513394592565368==--
