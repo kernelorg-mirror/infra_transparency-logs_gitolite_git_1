@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 14 Oct 2021 19:27:53 -0000
-Message-Id: <163423967303.12654.339323383409912272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 14 Oct 2021 20:02:18 -0000
+Message-Id: <163424173848.1471.14863237083287148597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/clk-next
-    old: e5c9c17340b241a0451ac1dc901541937ef3c85a
-    new: 006a3c3b5f4fa6bd5929dbdf310ce8d88c91ee6b
+  - ref: refs/heads/for-next
+    old: c48e3d8992fc546791e7f7168f0f53c653da5ddc
+    new: c18c4966033e6473a472fb65fbd5a6441603fbf7
     log: |
-         aeca6ac15aaa986068a6ab0eb6112170d38614b6 clk: qcom: gcc-sc7280: Drop unused array
-         006a3c3b5f4fa6bd5929dbdf310ce8d88c91ee6b Merge branch 'clk-qcom' into clk-next
+         c18c4966033e6473a472fb65fbd5a6441603fbf7 ALSA: pcm: Unify snd_pcm_delay() and snd_pcm_hwsync()
          
-  - ref: refs/heads/clk-qcom
-    old: 1daec8cfebc28bbe596743c34bebd11b80fba990
-    new: aeca6ac15aaa986068a6ab0eb6112170d38614b6
+  - ref: refs/heads/master
+    old: 0afe8b29e3eec0dc01255f9fe3cddcaafb5f4d8c
+    new: 2384690c18b9b425ac6d289dc6fbc5b1b610e45a
     log: |
-         aeca6ac15aaa986068a6ab0eb6112170d38614b6 clk: qcom: gcc-sc7280: Drop unused array
+         c18c4966033e6473a472fb65fbd5a6441603fbf7 ALSA: pcm: Unify snd_pcm_delay() and snd_pcm_hwsync()
+         2384690c18b9b425ac6d289dc6fbc5b1b610e45a Merge branch 'for-next'
          
