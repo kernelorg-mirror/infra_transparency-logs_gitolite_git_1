@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2038344401249531704=="
+Content-Type: multipart/mixed; boundary="===============5837875369064912278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 14 Oct 2021 08:57:23 -0000
-Message-Id: <163420184319.14262.17979507458129476967@gitolite.kernel.org>
+Date: Thu, 14 Oct 2021 08:59:47 -0000
+Message-Id: <163420198705.15054.3220975249197581626@gitolite.kernel.org>
 
---===============2038344401249531704==
+--===============5837875369064912278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 08384eb64ef94977ed5607cf9ca32ca8feb0f149
-    new: f0ada6da3a0d69682e21f1783d02676e0fbf1bc1
+    old: f0ada6da3a0d69682e21f1783d02676e0fbf1bc1
+    new: 7edde0c807855a5bf149c6be3edfa11ecd919571
     log: |
-         5ca173974888368fecfb17ae6fe455df5fd2a9d2 dyndbg: make dyndbg a known cli param
-         9c40e1aa84123750773a57c9cf39112459a952dd dyndbg: Remove support for ddebug_query param
-         5879f1c94d67e05401cddd2043649548e38d65d3 Documentation: dyndbg: Improve cli param examples
-         f0ada6da3a0d69682e21f1783d02676e0fbf1bc1 device property: Add missed header in fwnode.h
+         7a5e202dfb8ab7572eba703e43f08dabdc8b7808 dyndbg: vpr-info on remove-module complete, not starting
+         7edde0c807855a5bf149c6be3edfa11ecd919571 dyndbg: no vpr-info on empty queries
          
 
---===============2038344401249531704==
+--===============5837875369064912278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634201839 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634201985 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634201838-c5a7c9c201a928bf9b32f536c2e4c0e247a47504
+nonce 1634201985-1b2257456467effeb516b887b556ea6a488fb0e6
 
-08384eb64ef94977ed5607cf9ca32ca8feb0f149 f0ada6da3a0d69682e21f1783d02676e0fbf1bc1 refs/heads/driver-core-testing
+f0ada6da3a0d69682e21f1783d02676e0fbf1bc1 7edde0c807855a5bf149c6be3edfa11ecd919571 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFn8O8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zfwP/2YFEe0x+nxFArxxhNsv
-ONrKT0ObSUJeeCOOsfnAHE9Req6cEwPh01euPXccIXbRPieFYLR9eLlN2Mg4CYri
-bY29X86BoUNrhAwZGOLYTO3XixiyZMHpIUCXWyVb1zEpUVPdJ65FehO5wkV4CYs6
-2K8BgJFm3+R/M4lw5alt+jFSHOznBpTXPYvLLBTQ9s849qqsXeriizcWcwpwI16H
-uL1nOixPLryTIM8v2KJRENShse5dguYNBK/FSJ2vWzwmQNOtrf6zVx5W8KNDF4s5
-mkCvgfJoDH45Cx95uXqBQhtps30EJtKEp6wK9uxMEAW96rBB/zhTTTt+0TBtlbEN
-kPJzNQOLpIavaZt2Q+33bw2RDGZC0tMBCEwN/Ax5hQBFF3g6NIiOhL49ixi2tjLX
-7FMJPl/xsY3MD/qqKrSKEl5A+HUqkcLOvLToSEIpQfoH2PFr5SNtGxsjwipCpc/L
-LgyniQssChLuzi1IQAXFtgTchOXojfUwRPv/3jCQmWmLlCCTUBGIeypKb95fUV/k
-g4FRWudMN7N83z8s8BRIZL3ONZ5aMYd0MD+60n+zCXDgM5LWK16qaDvR9xe/d6K/
-alcJXa6AAhlDcZfEaK/lUpqVFD8WkgdvkwPLDLYOcS3SoECoonXQcwRBQUbsGkia
-xfAdRHwPB1JPRQQLgQdK+jIG
-=aGw/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFn8YEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zhoP/jP8OzO0w7TBUwQZ/F35
+CbZfIiANEugtZY/XIOYUByo+hCBV6BjQpHe6r3NbqAp+qp28WJNl/Ff9Yv1IrIxJ
+CwwZR0RDAw4EBM+2tueQl6DKgILch1Z9lZ2oKaVBsKp+PN5O4xV0FfKJzyxPDPfp
+v4Iak1Qq4wiL/6dhRDtRoqOD7Jp6nCtKURS79z2x5g4fuGfbwI+JBAsfKm9ZeTrC
+mJfr8SBn15W0Bu3Gd6RWBz1e958Dq4wLVKNguZbaV/pLpOHkipvTkZXqoPXV4dDu
+7czarWzQvs2qxMA6QtRIGS0kJImPzBPTHAxL5xW0k+Cf2b1yDtFmOJlH/j3zNg9a
+hY41v8UYmaFxVrZ97Lpvuu8H3qSxRkzZRz+L9kQxX95Pi58yrmgB3Md9q+9a5090
+M9zB7I3pWkb+0Wbiu5HgM9iQfBUySRwQIGG5KG2KYZk792sviu/TUyuT6oum+9H+
+XqmB4OuoHUf7aFFgRbXgyyrluApGXaJBFWWRYYPKbuJlVRpw2LEBugAyLRQhHoSo
+iAZhnOTfb9oeaZtG0GWwokC1vlBGiJ99weZWfo/zPsFx4hsiMkY7JEgmH6yHfALe
+0qFnvxn5bkD5LsKz6VUe59nBHSdQS/yk4DFfGWAl4z6A6RgcZRB4WFELc9AJGLxM
+7coUnZOOA5POMcMZJKcz2fHD
+=EQka
 -----END PGP SIGNATURE-----
 
---===============2038344401249531704==--
+--===============5837875369064912278==--
