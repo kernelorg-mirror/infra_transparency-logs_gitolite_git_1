@@ -1,61 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============2867022906794921495=="
+Content-Type: multipart/mixed; boundary="===============5943483189294653503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 14 Oct 2021 18:28:01 -0000
-Message-Id: <163423608134.7603.8000455738399728756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 14 Oct 2021 18:50:04 -0000
+Message-Id: <163423740409.21998.351051040245879947@gitolite.kernel.org>
 
---===============2867022906794921495==
+--===============5943483189294653503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/x86/fpu
-    old: d9c281f77b378184ee2e406741a5ea53ac4f7fd9
-    new: d52a4cb09008bb5ef97de5d64ab960063365c3b7
-    log: revlist-d9c281f77b37-d52a4cb09008.txt
+  - ref: refs/heads/perf-wip
+    old: 12ace60629e8bdf8cc8031866e1c78e334592ffc
+    new: 79e4024412e23e91966c040d949c9a2a8cb97678
+    log: revlist-12ace60629e8-79e4024412e2.txt
 
---===============2867022906794921495==
+--===============5943483189294653503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9c281f77b37-d52a4cb09008.txt
+Content-Disposition: attachment; filename=revlist-12ace60629e8-79e4024412e2.txt
 
-60edfe3b265dd72604f86a7ab75550d9185f44f6 x86/fpu: Provide struct fpu_config
-c20362ab46af14ba92ed0956f915441975dd2822 x86/fpu: Cleanup fpu__init_system_xstate_size_legacy()
-d17c1a38053f01cb1f956ebfb4d8550712508510 x86/fpu/xstate: Cleanup size calculations
-a0caa6522247a19ed26c3bc5ff64b83907256a8a x86/fpu: Move xstate size to fpu_*_cfg
-ee7774f54415326bcf73f1aee1677f4a991afaca x86/fpu: Move xstate feature masks to fpu_*_cfg
-c0742f4a1ff2fa31773f7c51ca47163d0560e81a x86/fpu: Mop up xfeatures_mask_uabi()
-67332a7d55026e0284dae1b355047e64fa37abf1 x86/fpu: Rework restore_regs_from_fpstate()
-fbdb9b61d2148eafec5ce2357dff56b7d168a991 x86/fpu/xstate: Move remaining xfeature helpers to core
-73e252197b241f43ec1d81548081c739e613b368 x86/fpu: Add size checking to KVM functions
-30981e4b3765f765fa3469c753007aabf58ccc7b x86/fpu/xstate: Provide xstate_calculate_size()
-6bf85dc2ca045a496b1895cdddf749c65f9f9748 signal: Add an optional check for altstack size
-9c521d901e3f13d92e687681bdc09c0b7d756fee x86/signal: Implement sigaltstack size validation
-2cb159e0e00b0037d9e15fcad41b0c1c9c872c14 x86/fpu: Add members to struct fpu to cache permission information
-74b0cadadf695f4a57703c55a1dd491ce15aa89b x86/fpu: Add fpu_state_config::legacy_features
-82ad3c33820b7e7e225d8a1c917c9a0084f6d244 x86/arch_prctl: Add controls for dynamic XSTATE components
-ad8106cc13bddf79c12e313aa269aa6ec09db38c x86/signal: Use fpu::__state_user_size for sigalt stack validation
-76765f15f3339308f3a89e62ff32615a67c314f9 x86/fpu/signal: Prepare for variable sigframe length
-3e3f3880574f666ad76342aae4786913293e6873 x86/fpu: Prepare fpu_clone() for dynamically enabled features
-529b590bdd7d77bc273a87dfe0afdccc5cab9d68 x86/cpufeatures: Add eXtended Feature Disabling (XFD) feature bit
-4825ffa7b123218f0a1dbd07dafa037792496d80 x86/msr-index: Add MSRs for XFD
-050a32010c03b674468dcaa8839a1a84322bb78e x86/fpu: Add XFD state to fpstate
-51232b2472398a62f66f002d690067c7f86b02da x86/fpu: Add sanity checks for XFD
-27001b8a01ee7db8f12752cee6eef7ca909d6e98 x86/fpu: Update XFD state where required
-1900daca0803f8922a7e0160b32f09f4a062f3f7 x86/fpu: Add XFEATURES_MASK_DYNAMIC
-0971986da896269a5f70225964cfb2eb8657e54a x86/fpu/xstate: Add XFD #NM handler
-a717146d685c2ed5e6de4f0d1998f3e18d421351 x86/fpu/xstate: Add fpstate_realloc()/free()
-0b922349cf080f073aff7df5a9afdd9c9c6e27f7 x86/fpu/xstate: Prepare XSAVE feature table for gaps in state component numbers
-f5fa3aa1268995cf498f02c62b4342fdbed86f91 x86/fpu/amx: Define AMX state components and have it used for boot-time checks
-9fb538c245fa51f26a57253937b5fff778d4774c x86/fpu: Calculate the default sizes independently
-baebd4ab3cece397a6dc49fdfd1ec887496b113d x86/fpu: Add XFD handling for dynamic states
-d52a4cb09008bb5ef97de5d64ab960063365c3b7 x86/fpu/amx: Enable the AMX feature in 64-bit mode
+618f87d33b41e1bc3389ad8798c8bd40da3d7212 block: provide helpers for rq_list manipulation
+0b08e45d5f5143b9fb384b12006375b8da0c4301 block: inline fast path of driver tag allocation
+b0d7055693258f1add158097b75d1b981baeefae block: don't bother iter advancing a fully done bio
+f66d21a28c80aae9f94959f6dbb1ea3ae1d364b5 block: remove useless caller argument to print_req_error()
+43452e0b7d74f6fd3196a97f51077e3d78d11da2 block: move update request helpers into blk-mq.c::
+101beb3b51d6a331cc2116223bf3cb61e583a91e block: don't call blk_status_to_errno() for success status
+a32802afa564ef63543470edcb455bfabfb39076 block: add a struct io_comp_batch argument to fops->iopoll()
+f2fd450868bc8df41073419d56ccff3aa2eb7b93 sbitmap: add helper to clear a batch of tags
+7fa7b3f89a3f4007be54bad50c19e6d941accdb9 sbitmap: test bit before calling test_and_set_bit()
+6ffaea7aae1826a45337d54e19dece451a3830df block: add support for blk_mq_end_request_batch()
+0826a0b931b84a3a8f82272c52e2a680557b7d35 block: assign batch completion handler in blk_mq_poll_classic()
+9b944e9a635ec3f00bbea0c6613f59f1d0e50af2 nvme: add support for batched completion of polled IO
+501159ef09d99bf817971ba0b3cc6275dec2621e io_uring: utilize the io batching infrastructure for more efficient polled IO
+acc087f10b20018c29f99006e075f6d82a9b1e01 nvme: wire up completion batching for the IRQ path
+8b2ec81040a21b5d16bef2117a39a30189d4aa9a net: decouple skb_frag_t from struct bio_vec
+ddef50db0a128f1eb4ab6a2d724184c267a2fb71 block: add bvec_set_page() helper
+5fa98f6db9129dbeffc6496cac693ca4b3e65300 block: add a DMA field to struct bio_vec
+6f426811896430605745a9a2b6054e45fcdd88f0 block: add mq_ops method for DMA mapping bvecs
+3c1bad654dda84ee982b83fa04c154b3cce2028c io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
+8fc9421045d60a9f306f8e66173bba37754a4690 nvme: add support for pre-mapped IO buffers
+122939413066a21755a01ef8cebd6fa6a48f379c block: handle fast path of bio splitting inline
+17b1e7ca2a6c0432c5fd0c5c6f72f02923ca3b29 block: only check previous entry for plug merge attempt
+9fc37576b4e9b1a4c84a62c9e20d9ae94319870f block: use flags instead of bit fields for blkdev_dio
+79e4024412e23e91966c040d949c9a2a8cb97678 block: rework plugging a bit
 
---===============2867022906794921495==--
+--===============5943483189294653503==--
