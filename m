@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 14 Oct 2021 09:07:47 -0000
-Message-Id: <163420246766.3876.12090394422714664378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Thu, 14 Oct 2021 09:08:05 -0000
+Message-Id: <163420248543.4030.4545297060149409036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 0e00fc858fa7b734eb72bd771a7ad37acaaac091
-    new: 065c358aa5a02f90601e42d4b22fd2713dfd4309
-    log: |
-         065c358aa5a02f90601e42d4b22fd2713dfd4309 PCI: uniphier: Serialize INTx masking/unmasking and fix the bit operation
-         
+  - ref: refs/tags/renesas-devel-2021-10-14-v5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4261eac5d5b1ff999c839721d4ad9291025d9caf
+  - ref: refs/tags/renesas-next-2021-10-14-v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1ad24dd428f854ca701619f789de16bb37ca79d5
