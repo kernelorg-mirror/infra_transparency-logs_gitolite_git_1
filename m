@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 14 Oct 2021 16:15:46 -0000
-Message-Id: <163422814610.20933.18135376142354674151@gitolite.kernel.org>
+Date: Thu, 14 Oct 2021 16:17:54 -0000
+Message-Id: <163422827457.21620.15311826532648339727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
   - ref: refs/heads/dev-test
-    old: 391702c3e65f4ab52f247efd214e36023e1b5bee
-    new: ffcfef4c03e5eea6c1e1d467325202a8d3bd2fad
+    old: ffcfef4c03e5eea6c1e1d467325202a8d3bd2fad
+    new: e8e176e5062c1af6cff342269552c1abc66eaba6
     log: |
-         5b6e7e120e716231a0bf9ad201438d72473e396d erofs: remove the fast path of per-CPU buffer decompression
-         d620af35b3d217d1b3e16c38423a938f4af5db87 erofs: decouple basic mount options from fs_context
-         b67f75f52919b07d32176c0098165517ffbdfa8a erofs: add multiple device support
-         9c9725ab057b84a06fb33d835a5cc535e62c1906 erofs: get compression algorithms directly on mapping
-         a3fedf3ea93e7fb92e2cdef45e15c65122d66bfb erofs: introduce the secondary compression head
-         ffcfef4c03e5eea6c1e1d467325202a8d3bd2fad erofs: introduce readmore decompression strategy
+         434c978f1d95a5b1d87fa8e99e2805f1e4e5cafa erofs: decouple basic mount options from fs_context
+         3a13cdc5077da85ec903ee85c046d13e9146c053 erofs: add multiple device support
+         c544b6af524bb7db1d51c3e8b75e8225fcff2c84 erofs: get compression algorithms directly on mapping
+         3d686a73ff02071998157904c8270f515212931b erofs: introduce the secondary compression head
+         e8e176e5062c1af6cff342269552c1abc66eaba6 erofs: introduce readmore decompression strategy
          
