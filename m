@@ -1,49 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1715652850947653108=="
+Content-Type: multipart/mixed; boundary="===============6651650224863121733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 14 Oct 2021 21:50:03 -0000
-Message-Id: <163424820386.5550.4210008083052950250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 14 Oct 2021 21:52:47 -0000
+Message-Id: <163424836743.7166.6309722810065784345@gitolite.kernel.org>
 
---===============1715652850947653108==
+--===============6651650224863121733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: f4d0cc426f77df6890aa868f96c2de89686aae8a
-    new: 26d6574109838b8fa40a8261421693015bab0579
-    log: revlist-f4d0cc426f77-26d657410983.txt
+  - ref: refs/heads/seen
+    old: c34e7f6634bc75937aff623912433bd6cc659561
+    new: a2db1608970d48512bafe1f74287f3d09c7f382a
+    log: revlist-c34e7f6634bc-a2db1608970d.txt
 
---===============1715652850947653108==
+--===============6651650224863121733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4d0cc426f77-26d657410983.txt
+Content-Disposition: attachment; filename=revlist-c34e7f6634bc-a2db1608970d.txt
 
-0d67e332e6df72f43eaa21228daa3a79e23093f3 module: fix clang CFI with MODULE_UNLOAD=n
-8ec59ac3ad29891c0afef627640df36f2daa0349 ALSA: usb-audio: Fix a missing error check in scarlett gen2 mixer
-eb676622846b34a751e2ff9b5910a5322a4e0000 ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
-1f8763c59c4ec6254d629fe77c0a52220bd907aa ALSA: seq: Fix a potential UAF by wrong private_free call order
-2b987fe84429361c7f189568c476d1bd00d2ff7e ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
-1f8d398e1cd8813f8ec16d55c086e8270a9c18ab ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-cc03069a397005da24f6783835c274d5aedf6043 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-5963e5262180129f1be7556bd96994b6e52f3178 ALSA: usb-audio: Enable rate validation for Scarlett devices
-5aec98913095ed3b4424ed6c5fdeb6964e9734da ALSA: hda/realtek - ALC236 headset MIC recording issue
-dd6dd6e3c791db7fdbc5433ec7e450717aa3a0ce ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
-c0f1886de7e173865f1a0fa7680a1c07954a987f ALSA: hda: intel: Allow repeatedly probing on codec configuration errors
-023a062f238129e8a542b5163c4350ceb076283e ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
-228af5a4fa3a8293bd8b7ac5cf59548ee29627bf ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
-a3fd1a986e499a06ac5ef95c3a39aa4611e7444c ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
-b37a15188eae9d4c49c5bb035e0c8d4058e4d9b3 ALSA: hda: avoid write to STATESTS if controller is in reset
-48827e1d6af58f219e89c7ec08dccbca28c7694e ALSA: usb-audio: Add quirk for VF0770
-348949d9a4440abdab3b1dc99a9bb660e8c7da7c Merge tag 'modules-for-v5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jeyu/linux
-1626d9a35eb7aa68fe6f8097628753c8ef733e9b Merge tag 'sound-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-26d6574109838b8fa40a8261421693015bab0579 MAINTAINERS: Update entry for the Stratix10 firmware
+8583bf75591398fff3c0ef44eb59cd23b4565298 test-lib.sh: de-duplicate error() teardown code
+234383cd401a8c0a7632e77735f731b8e780e50f test-lib.sh: use "Bail out!" syntax on bad SANITIZE=leak use
+1dc19ca08e984476a33d639b59b74f0978b9344a fsmonitor: enhance existing comments
+f48af579311603cfb300521dda2d503b0fc4cf27 fsmonitor-ipc: create client routines for git-fsmonitor--daemon
+b5530dae30b3254afa2cec8245625009f39aadee fsmonitor: config settings are repository-specific
+c3513999acbe4b25b0340a599f07d8ae81642d9c fsmonitor: use IPC to query the builtin FSMonitor daemon
+c4656b809d32f68e93159f943d2f271418ec36a5 fsmonitor: update fsmonitor config documentation
+e892c4555e55c567cb624e11120fb54c448136c2 Merge branch 'ks/submodule-add-message-fix' into jch
+e0d650e6173433904dc005eb5feabdedf1bc6a70 Merge branch 'tp/send-email-completion' into jch
+ceb2cdbf64ab88553f8bb8c3214c2373389a313e Merge branch 'ab/test-cleanly-recreate-trash-directory' into jch
+141dabebba0ebbd379abf1aa7c4a83ee625ecb8a Merge branch 'rb/doc-commit-header-continuation-line' into jch
+bd140d75f5a5047807bc6a0be17eababa083a954 Merge branch 'js/scalar' into seen
+a2a3115fd2b98df6e040b4711b02a9ff47de6627 Merge branch 'ms/customizable-ident-expansion' into seen
+a62d068b57418fdbe470d198f201329801d73b23 Merge branch 'en/zdiff3' into seen
+bc51eb9333cb2499da8dd464774a7c5fd730d25e Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+5516be6ff1a38ab8bc613d2c68fb9e771c2e38b4 Merge branch 'pw/diff-color-moved-fix' into seen
+c83c51510bed397407b733bc149601e5d3e45867 Merge branch 'ab/only-single-progress-at-once' into seen
+279e0086df9e6655caa68886355f9ad274a6dca4 t7400-submodule-basic: modernize inspect() helper
+77614b6c30535a25de71297843d1461f5aeae625 introduce submodule.superprojectGitDir record
+19bd895995e2c2dcb410058e068cccb3fc8cb960 submodule: record superproject gitdir during absorbgitdirs
+29af30fb7758f24be48743eb504539378b81db93 submodule: record superproject gitdir during 'update'
+f8d1b92ad44a6ed4fb460922da4276abb9f868e3 Merge branch 'es/superproject-aware-submodules' into seen
+79b6c6a18748453884d12445de505304ee912ff0 Merge branch 'pw/fix-some-issues-in-reset-head' into seen
+7095ca52837e532c979260141b1f76ef63d10ca7 Merge branch 'hn/reftable' into seen
+f17ab12f1bb73f0615a59c87e9918cf96ec8a730 Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into seen
+faa1dd1928ad9c58bdee7a175e354f7c3bf22768 Merge branch 'ns/remerge-diff' into seen
+c8292678245c83329a6d4c0903ce4e7d38c5d1ab Merge branch 'vd/sparse-reset' into seen
+e093133ffaadff6b6c47e766b66c6ba194918c3f Merge branch 'hm/paint-hits-in-log-grep' into seen
+ed3757a7ea818c81e78b68f46f2e759bd3fe94d2 Merge branch 'gc/use-repo-settings' into seen
+0d6c0bd14598a48ff9a36c6b09100fb0101e87cf Merge branch 'ab/test-bail' into seen
+a2db1608970d48512bafe1f74287f3d09c7f382a Merge branch 'jh/builtin-fsmonitor-part2' into seen
 
---===============1715652850947653108==--
+--===============6651650224863121733==--
