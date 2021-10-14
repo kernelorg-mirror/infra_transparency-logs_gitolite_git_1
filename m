@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6848385328387556360=="
+Content-Type: multipart/mixed; boundary="===============8547787209001812475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 14 Oct 2021 14:52:18 -0000
-Message-Id: <163422313812.31035.10423932565950799166@gitolite.kernel.org>
+Message-Id: <163422313825.31047.11054152789563850067@gitolite.kernel.org>
 
---===============6848385328387556360==
+--===============8547787209001812475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: cb9eaf51f06b404d5f807e408e9443f078355002
-    new: dc0579022db410506fd874cd458c580df7f09db3
-    log: revlist-cb9eaf51f06b-dc0579022db4.txt
+  - ref: refs/heads/linux-5.14.y
+    old: 2fe85df2864ab8cd373eae1adf067003183b841a
+    new: c19d5ea47e557f382c94a1b21faf3d9eb9f60b5c
+    log: revlist-2fe85df2864a-c19d5ea47e55.txt
 
---===============6848385328387556360==
+--===============8547787209001812475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,66 +30,63 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634223136 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1634223132-b330ac714fabd93937ead4354a4f29b5b6d4d597
+nonce 1634223133-957a152e5052ac54956521d175de5c4a68875c81
 
-cb9eaf51f06b404d5f807e408e9443f078355002 dc0579022db410506fd874cd458c580df7f09db3 refs/heads/linux-4.14.y
+2fe85df2864ab8cd373eae1adf067003183b841a c19d5ea47e557f382c94a1b21faf3d9eb9f60b5c refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFoRCAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UKMP/Ro50JoHq6mWiTCixvW8
-rpmjMa0H//z9St7r1cmr2Fy3bVK+hgI6MbB2MlDGtmLkXfHsd0x44mK0EjW/ORS0
-K3hMvWWxrJ1xy+CTj9st8foe/a8nK4t9zw7jjVF8ZCTY45Mxl9YJZbelnisGMsPS
-dHQbj0n7FnAlXKZ35Zgi4JEliil8HKf4e21GrroVkryk+1A7/CeyTqv5DwxZmlAN
-CqQch0t6Gkz1O9KQ8qYaenoS5eLToRFEgwQysQE9SGiY1wyaldC+aG8JI9JzlNhQ
-tE1qlCuug1LmuCjqsNs5MsJKQeClkIJWbWRNptDJ0SEax8U0KgA4XaeaGmGfyKdb
-Fn3//+z4fPwkHu8NmpWmFuz+NSotgODkqE/NJAJfnlkQf3FJzKByMHkENl4J7VLI
-w9voChwQJc4XMIPwUY958w5ieecyu0+J4PPNcWpswkMhpCXoyClKbl4YD7H5A3ab
-8JRlBEnFsXjyEgiDMBLSzfNqFERa25mirebapLkE5MB4S4/LIGArzin7ZVFoL65f
-9ILBTC6+gSqhKSK40gc/rNCRAMpmqkxSHoP+JwrgYyz/4Q6ZyGGrTLpO3XR1JkTG
-Nx3tQ2E49honk+9EOSj0mK7oqsWF5U6/VLjjf6qs1HkAuc/hSiQDooctsIBTIf92
-IqF1mk2fwJ5N3n2g+PRxnFbC
-=31O9
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KCgP/0WDahLqU6KE3qD8KEfs
+mngqQSq2hYSomW8e0h+bogZlgm/I7nb0HTzAkjdxffz11cRiBvQyACk8IcVSc26v
+1ZH/0+gCERkdZQoweVXX5G6zhpMQP+L8NPOz2CLT1cNe0YZmdBTSNohRV1qobn4r
+di4R1wwWXwkpOMgn5JJUpswIvQ4Zqk/ESsAI024HINj3sJk9nC2rRrXERpOXiHre
+RIJXFf6usS0T5XbZqHSF+E5PIWRxLRXnX023lBdvaBsFwwB68W2DIoI0n7VOfY1F
+IGiebvfUZ8jNtCwEvyh+XW6I0xXkd5c0fCjUnyyDOoTd0NGZO9PGzsZuCqsSCcvQ
+aGUULnVGfOV5EPQKMHe7VP93Y6xsbAN9a17XRKzObnsezjVUOWvF2/jAHuC2gkLe
+UCWDenkvq0KLS203InDwj4z9QhkUOV7MeIck7WjZl11EEf+5xI/nE2oRc8VOKRoy
+zbcH7K043IdXIVTK1Gq/47JIJTHMaIRfGJckicNmDjPeITw6/8SPbXVdyzk3BV/j
+XoT21M65h87sF+XA13XpC/yZbh05uYS9jETn89GCAEUri95ADCcJc5WXiU6LsDEX
+m5mM1Teey88K1/DUcWI8UlT6m0QXD11MRmif9XhkuW8UAFsudvwcQ4k56RaFtN40
+fu1tDl0wV/3Fiv+utIOkF25H
+=x2wt
 -----END PGP SIGNATURE-----
 
---===============6848385328387556360==
+--===============8547787209001812475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb9eaf51f06b-dc0579022db4.txt
+Content-Disposition: attachment; filename=revlist-2fe85df2864a-c19d5ea47e55.txt
 
-7f41440d104654e4b73bb145738ab9c323d46a45 Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-c7353e5261d7fe7a61bc87243af49929b5dfed87 USB: cdc-acm: fix racy tty buffer accesses
-677359a3afe1d8e8f8923d6a9a674442325474f0 USB: cdc-acm: fix break reporting
-cfb90bcf4fc87274c4c40a1398140956af5afbd1 ovl: fix missing negative dentry check in ovl_rename()
-0d683c8b0c0332107f1f7b3c63d23349f5f871b7 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-749b5403cdc330cc98bcdd736993b26060ad215a xen/balloon: fix cancelled balloon action
-5c13178c3ed82660ee862b2fc7446862cf943fdb ARM: dts: omap3430-sdp: Fix NAND device node
-279303b92024f4f297ecfcc387cd3caf1c8aae23 ARM: dts: qcom: apq8064: use compatible which contains chipid
-5495c38abdd86b03c7b76d054a1de1ff6d69c366 bpf: add also cbpf long jump test cases with heavy expansion
-2fdcf4209fddf5ce07e9965df63d9c5507617165 bpf, mips: Validate conditional branch offsets
-8b9dec48562b5a2eac494ffab3d0fa36f6d1c67e xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-75d2b8c19e4a51ad9bbd60edcbdcf66b2e521664 bpf: Fix integer overflow in prealloc_elems_and_freelist()
-8c9cd6cb68fe02871e554ec54c11d87aec28fbbc phy: mdio: fix memory leak
-5a929d8321412b0040d7e8a367e95d2c35b646be net_sched: fix NULL deref in fifo_set_limit()
-d312a8b302df01e177feec00eb2397cae7f6e1d6 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
-b721a3a91f97acb55cf81327cff7fb4796b92718 ptp_pch: Load module automatically if ID matches
-9ddcb8d8319c9fd98b749b497bd9d4b7ef3aafac ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-055824f5f826ca7886b2e8c0e19641fa636ac896 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
-75ebd3c4ccff253d615a04f7f88db08eef4cfc87 netlink: annotate data races around nlk->bound
-50184b67466b07f6a7d3bd333479ab43b5788d7b drm/nouveau/debugfs: fix file release memory leak
-0d748f7a10b97dfdeecfaac75df42644c569e620 rtnetlink: fix if_nlmsg_stats_size() under estimation
-2ceb716ff029774acf62f321da887840f68b4117 i40e: fix endless loop under rtnl
-329f3b99936ae5cf0ca47964d20d25c412cfe526 i2c: acpi: fix resource leak in reconfiguration device addition
-587e3e9132d27075531c82ac560ea8ff7328948d net: phy: bcm7xxx: Fixed indirect MMD operations
-396135912764e90f6802c475388f5eb4a6a1b86f HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-3d6bed294bb9baf0779811a947ca056ad75c9718 netfilter: ip6_tables: zero-initialize fragment offset
-9bdc263a0e01b0215153260fafde026ed04cd382 mac80211: Drop frames from invalid MAC address in ad-hoc mode
-ec20033b0b872fdb55852702abdddeadc019a1c8 m68k: Handle arrivals of multiple signals correctly
-4c72b08d3454575622434f5b09673d2573dc4b36 net: sun: SUNVNET_COMMON should depend on INET
-421814d303f8702848bedb84f633058ee3c181e6 scsi: ses: Fix unsigned comparison with less than zero
-f54e753c78be9b7ace156335824a51a2878976ae scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-95c60dcd367690564ab24826523444407980509e perf/x86: Reset destroy callback on event init failure
-34dc1abed919f06ed51d90816f85e869ec9ed1c4 sched: Always inline is_percpu_thread()
-dc0579022db410506fd874cd458c580df7f09db3 Linux 4.14.251-rc1
+e375bf89d9e7e04fc8b70b02182d07f3d93161f7 ext4: check and update i_disksize properly
+87efbb5dd989e06a6fce60063e0d46300851caa6 ext4: correct the error path of ext4_write_inline_data_end()
+f7eace6449c8b05c284e27804ad425ae71e2daba ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+a12c254f9955bdc3fa96eda3bc3b06a32a954109 ALSA: oxfw: fix transmission method for Loud models based on OXFW971
+46fe6b7a011b2aba5c39ffa152242ec7a4481ea7 interconnect: qcom: sdm660: Add missing a2noc qos clocks
+9c306ec8652cf9ebe214ae0d1ce978f9699a619e ALSA: usb-audio: Unify mixer resume and reset_resume procedure
+14cf00c93664a1b3900475fca76edf7f6dcffa82 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+3ee1843861db1ae38b354c4ff46e4da01e6ae552 netfilter: ip6_tables: zero-initialize fragment offset
+4c78cff6da3254c2969061f2629e69eb6f4a5d82 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+f9318633fe45731b4eeea72a4db6cda87ef62a14 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+cf2074a51369e768c3375536c4e84674a5d80e54 KVM: arm64: nvhe: Fix missing FORCE for hyp-reloc.S build rule
+b7f20cab64bf5febeeb1f6802a2c2d2caa24cf86 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+d5a6c4f98dd9c14d0a3b85a042f29ebca0c19e36 netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+0d0f5af5c852820a7440534f081d8ea9d93d5e47 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+e4d54ae95fc6619bac03d0002e92f90f8931b5f0 pinctrl: qcom: sc7280: Add PM suspend callbacks
+9777afa6a5deb2b18114d882104ec1eaacaeb2d4 m68k: Handle arrivals of multiple signals correctly
+f0e0fdd0623a996274bb6f92d4dd846a874b8abc hwmon: (ltc2947) Properly handle errors when looking for the external clock
+199df2ab215b928c67bbb6ecc380dec5841d007b net: prevent user from passing illegal stab size
+a0be82a315715167574f95979a641f445be2d12d mac80211: check return value of rhashtable_init
+8d975bc744834d52b49bc40e81c3be208cbc19ee net: bgmac-platform: handle mac-address deferral
+73117a825c8e901dd75679abc424f9844c1ef845 vboxfs: fix broken legacy mount signature checking
+93eb8aa91f60c8f79e2f384ae654979538a10298 net: sun: SUNVNET_COMMON should depend on INET
+48c99a04299c0e081eea40fc2522bb5b756ec4aa drm/amdgpu: fix gart.bo pin_count leak
+5b1753bd8980e7fdb71da95ea5d3c5e7aa910d2a scsi: ses: Fix unsigned comparison with less than zero
+8d5eb1f3f6f99a0db638aabc5ef5d674883f89a7 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+16d16d19bc09ea035cc720c6d6592f9f6107a0b3 scsi: qla2xxx: Fix excessive messages during device logout
+e1abb5934d1ffd4831668d01a22b83f06feee9a7 perf/core: fix userpage->time_enabled of inactive events
+cad23871c96176f369d0f33f7224d3a9fec7016e sched: Always inline is_percpu_thread()
+bed8e01f2fca422b0541316ef33a3a21da3d0e10 io_uring: kill fasync
+7cb346c7e14c703d3f581ab0ae32d77dc9fb7015 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
+c19d5ea47e557f382c94a1b21faf3d9eb9f60b5c Linux 5.14.13-rc1
 
---===============6848385328387556360==--
+--===============8547787209001812475==--
