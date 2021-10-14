@@ -1,58 +1,209 @@
-Content-Type: multipart/mixed; boundary="===============4158654965371729394=="
+Content-Type: multipart/mixed; boundary="===============3893909319404453165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Thu, 14 Oct 2021 07:18:20 -0000
-Message-Id: <163419590093.16282.17221495711009700146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 14 Oct 2021 07:43:28 -0000
+Message-Id: <163419740861.31929.1098478154022120412@gitolite.kernel.org>
 
---===============4158654965371729394==
+--===============3893909319404453165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/sunxi/dt-for-5.16
-    old: 8c2e09b9a2f58baf99b4f88d12ef8751f8b0822b
-    new: d4949bf9cc6696c551b0b7b7111372cc8d2a35a9
+  - ref: refs/heads/rdma-next
+    old: 91c61f6e60eb0240f8bbc321fda7a1d2986dd03c
+    new: 52249e5a671aa913be6024300b4ee87b957d33a3
+    log: revlist-91c61f6e60eb-52249e5a671a.txt
+  - ref: refs/heads/rdma-rc
+    old: 1ab52ac1e9bc9391f592c9fa8340a6e3e9c36286
+    new: 663991f32857b3b63c94c97de9dbb0ec8600144f
     log: |
-         d4949bf9cc6696c551b0b7b7111372cc8d2a35a9 arm64: dts: allwinner: NanoPi R1S H5: Add generic compatible string for I2C EEPROM
+         d39bf40e55e666b5905fdbd46a0dced030ce87be IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         13bac861952a78664907a0f927d3e874e9a59034 IB/hfi1: Fix abba locking issue with sc_disable()
+         663991f32857b3b63c94c97de9dbb0ec8600144f RDMA/rdmavt: Fix error code in rvt_create_qp()
          
-  - ref: refs/heads/sunxi/for-next
-    old: 4cd0872f01f70f1fb2ef1b991d32df5469f7ee73
-    new: 7fb77af71236681ccf007554cca576ca33589ebd
+  - ref: refs/heads/testing/rdma-next
+    old: f37230d6168c7cb17588e45c07ea6abfeed15ea0
+    new: ff194d8365b75bfa1a26b2f7c201714e94361ad5
+    log: revlist-f37230d6168c-ff194d8365b7.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: f0026caa131f33959b3b22cd630a974a8cebdb3d
+    new: 95c758fdfe4abc6774d7bbef60ccbf8bb1001d81
     log: |
-         56c9d4071691b89e3b942d8bbe6eb8fca9f878a8 dt-bindings: sound: sun4i-i2s: add Allwinner R40 I2S compatible
-         d119948059b7232b1a086d8dd158f9f46a037b4f ARM: dts: sun8i: r40: Add I2S nodes
-         e954a7afe8f5d2587a98b405a71a31ccc0f49e6c arm64: dts: allwinner: a64: Add GPU opp table
-         8c2e09b9a2f58baf99b4f88d12ef8751f8b0822b arm64: dts: allwinner: pinetab: Add HDMI support
-         d4949bf9cc6696c551b0b7b7111372cc8d2a35a9 arm64: dts: allwinner: NanoPi R1S H5: Add generic compatible string for I2C EEPROM
-         7fb77af71236681ccf007554cca576ca33589ebd Merge branch 'sunxi/dt-for-5.16' into sunxi/for-next
+         d39bf40e55e666b5905fdbd46a0dced030ce87be IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         13bac861952a78664907a0f927d3e874e9a59034 IB/hfi1: Fix abba locking issue with sc_disable()
+         663991f32857b3b63c94c97de9dbb0ec8600144f RDMA/rdmavt: Fix error code in rvt_create_qp()
+         95c758fdfe4abc6774d7bbef60ccbf8bb1001d81 Merge branch 'master' into testing/rdma-rc
          
+  - ref: refs/tags/mlx-next
+    old: 2a152512a155aaf27c3e67834ffafaed9525a7b5
+    new: 3b87e0824272414cec79763afef6720c7c908c44
+    log: revlist-2a152512a155-3b87e0824272.txt
 
---===============4158654965371729394==
+--===============3893909319404453165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-91c61f6e60eb-52249e5a671a.txt
 
-certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1634195899 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1634195899-8476afd1fce9bbae2eefa607587925c6f719a903
+8208461d3912e3e97e31bcbd4ce716e4a251a5dd net/mlx5: Add ifc bits to support optional counters
+b8dfed636fc6239396c3a2ae5f812505906cf215 net/mlx5: Add priorities for counters in RDMA namespaces
+3eea40d4749b6e236d79a7c24ba33f3078b1f7e9 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
+13f30b0fa0a9fa4f713edbb262f2e451886ce242 RDMA/counter: Add a descriptor in struct rdma_hw_stats
+0a0800ce2a6a4d58d73f712f1c0780974877babf RDMA/core: Add a helper API rdma_free_hw_stats_struct
+0dc89684605e8b60af645988d3e0d80a57b6e937 RDMA/counter: Add an is_disabled field in struct rdma_hw_stats
+5e2ddd1e598273d77f653c70df96fc417a2d0a85 RDMA/counter: Add optional counter support
+7301d0a9834c7f1f0c91c1f0a46c7b191b1fd0da RDMA/nldev: Add support to get status of all counters
+822cf785ac6d9120386f59964d6d029f3f04a8e3 RDMA/nldev: Split nldev_stat_set_mode_doit out of nldev_stat_set_doit
+3c3c1f1416392382faa0238e76a70d7810aab2ef RDMA/nldev: Allow optional-counter status configuration through RDMA netlink
+886773d24962799e5eb3a1b31a9b77e32d6c25a1 RDMA/mlx5: Support optional counters in hw_stats initialization
+ffa501ef196312f550818304e1558025a11d3c2f RDMA/mlx5: Add steering support in optional flow counters
+a29b934ceb4c8ad8bf6d0486a8c8ef015af494f4 RDMA/mlx5: Add modify_op_stat() support
+a020094090e5293abd5c2ecdcec96a275f56c4ef RDMA/mlx5: Add optional counter support in get_hw_stats callback
+9a33f3980978e420672b0b54e3fa0c7908fd7c78 RDMA/hns: Use dma_alloc_coherent() instead of kmalloc/dma_map_single()
+4bd46f3a986db97fdb67b05a6b379499fce179ea RDMA/iwpm: Remove redundant initialization of pointer err_str
+8869574a6c11694dda6598c72b8e96cd1ac4e673 RDMA: Remove redundant 'flush_workqueue()' calls
+0bed5dfa5af8304c99962aa713a9ecd67ee52cb8 RDMA/irdma: Remove irdma_uk_mw_bind()
+6d2682216d1fd2b54ee16dbb6afd8a597645dbad RDMA/irdma: Remove irdma_sc_send_lsmm_nostag()
+16ddcfca567114ff8618ceb0bba001d8b15129e7 RDMA/irdma: Remove irdma_get_hw_addr()
+9d8f247cc33c881812d2ae106a79292c0d0446b8 RDMA/irdma: Remove irdma_cqp_up_map_cmd()
+f4e56ec4452f48b8292dcf0e1c4bdac83506fb8b RDMA/mlx4: Return missed an error if device doesn't support steering
+cfc0312d9c83a5bbb66fa73ba47dd1301d75b2e8 RDMA/rxe: Move AV from rxe_send_wqe to rxe_send_wr
+99c13a3e29653badefd9ca36f62dfa84db504f1c RDMA/rxe: Change AH objects to indexed
+73a54932100375ba94b31710f1e3f1234f23be0b RDMA/rxe: Create AH index and return to user space
+4da698eabf0f7c1c1806670d3fd3895512fdf43b RDMA/rxe: Replace ah->pd by ah->ibah.pd
+e2fe06c9080694f2c28894f14ef8ebfd923ac94d RDMA/rxe: Lookup kernel AH from ah index in UD WQEs
+3b87e0824272414cec79763afef6720c7c908c44 RDMA/rxe: Convert kernel UD post send to use ah_num
+ac0fffa0859b8e1e991939663b3ebdd80bf979e6 RDMA/core: Set sgtable nents when using ib_dma_virt_map_sg()
+d6357dfabd6d235d3b75e81e523d8ad17db1de0f net/sched: Don't print dump stack in event of transmission timeout
+939c2bbe929480bbd0fa23874c5dde45bb06be61 RDMA/core: Introduce peer memory interface
+4d0dac3c5f5d9573c4aecb17250dfdb446542a42 RDMA/mlx5: Don't set desc_size in user mr
+f992c73ddaed0a98ff2639b7b2fac5ffac48e979 RDMA/mlx5: Remove iova from struct mlx5_core_mkey
+444ebbb989795bab8345913e88c905733f29fe63 RDMA/mlx5: Remove size from struct mlx5_core_mkey
+914fa67087970d9b36bd2d8f6cd6ff7f356e901a RDMA/mlx5: Remove pd from struct mlx5_core_mkey
+82f90c82a63e4c878d2c5a5777e630bee6d79175 RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
+3ad0227d7478aacfb938ed6882a47663d15f55b2 RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
+ca879c6bedb7de55daabbf46fbfd3d0e16564180 RDMA/mlx5: Attach ndescs to mlx5_ib_mkey
+48ab80f1d6c6a38c87281f0117225f4dd89612da PCI/IOV: Provide internal VF index
+dba13b1d9f24ef3d1722f2dc7e079f3b9d5c5baa net/mlx5: Reuse exported virtfn index function call
+0a72e2408155b028b8d8bbaaeff6bfb9041178e4 net/mlx5: Disable SRIOV before PF removal
+c4ac6269501f6bcce518f2ef00124228dc7d5212 PCI/IOV: Allow SRIOV VF drivers to reach the drvdata of a PF
+0b8ea6bb36853380f7b863de1fbe57c15c370e40 net/mlx5: Expose APIs to get/put the mlx5 core device
+31b774b0e53bd20b1cd097318dacd3eeeb8a41cf vdpa/mlx5: Use mlx5_vf_get_core_dev() to get PF device
+8c2578a33873a93e405e1a25271dd3952fa25a8b vfio: Add 'invalid' state definitions
+0ab8642cb5f2f762b718146ae8d70c99a0dc8ccb vfio/pci_core: Make the region->release() function optional
+c6a921249f22dec122d5b245e64f6a39a984ee2b net/mlx5: Introduce migration bits and structures
+f16a02406a1e58b7e648b30af25319f84af11c1d vfio/mlx5: Expose migration commands over mlx5 device
+bd60dc88f3b5e310c182927fa186a71eb23fd78d vfio/mlx5: Implement vfio_pci driver for mlx5 devices
+171f9747f24ec7cf87191202e926231168c25d78 vfio/pci: Add infrastructure to let vfio_pci_core drivers trap device RESET
+67f0d896d2f2b627341976479b29cf22fa862ff1 vfio/mlx5: Trap device RESET and update state accordingly
+52249e5a671aa913be6024300b4ee87b957d33a3 RDMA/sa_query: Use strscpy_pad instead of memcpy to copy a string
 
-8c2e09b9a2f58baf99b4f88d12ef8751f8b0822b d4949bf9cc6696c551b0b7b7111372cc8d2a35a9 refs/heads/sunxi/dt-for-5.16
-4cd0872f01f70f1fb2ef1b991d32df5469f7ee73 7fb77af71236681ccf007554cca576ca33589ebd refs/heads/sunxi/for-next
------BEGIN PGP SIGNATURE-----
+--===============3893909319404453165==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f37230d6168c-ff194d8365b7.txt
 
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYWfZuwAKCRDj7w1vZxhR
-xSJzAQCglvla1nktxThURSxTPzL7BtgsnjryyszN1jISowY2eQD/f23IzS8rA2UO
-uAZ86pgOC+5w94FgJqnDwwOTBI2wTgo=
-=e6pS
------END PGP SIGNATURE-----
+8208461d3912e3e97e31bcbd4ce716e4a251a5dd net/mlx5: Add ifc bits to support optional counters
+b8dfed636fc6239396c3a2ae5f812505906cf215 net/mlx5: Add priorities for counters in RDMA namespaces
+3eea40d4749b6e236d79a7c24ba33f3078b1f7e9 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
+13f30b0fa0a9fa4f713edbb262f2e451886ce242 RDMA/counter: Add a descriptor in struct rdma_hw_stats
+0a0800ce2a6a4d58d73f712f1c0780974877babf RDMA/core: Add a helper API rdma_free_hw_stats_struct
+0dc89684605e8b60af645988d3e0d80a57b6e937 RDMA/counter: Add an is_disabled field in struct rdma_hw_stats
+5e2ddd1e598273d77f653c70df96fc417a2d0a85 RDMA/counter: Add optional counter support
+7301d0a9834c7f1f0c91c1f0a46c7b191b1fd0da RDMA/nldev: Add support to get status of all counters
+822cf785ac6d9120386f59964d6d029f3f04a8e3 RDMA/nldev: Split nldev_stat_set_mode_doit out of nldev_stat_set_doit
+3c3c1f1416392382faa0238e76a70d7810aab2ef RDMA/nldev: Allow optional-counter status configuration through RDMA netlink
+886773d24962799e5eb3a1b31a9b77e32d6c25a1 RDMA/mlx5: Support optional counters in hw_stats initialization
+ffa501ef196312f550818304e1558025a11d3c2f RDMA/mlx5: Add steering support in optional flow counters
+a29b934ceb4c8ad8bf6d0486a8c8ef015af494f4 RDMA/mlx5: Add modify_op_stat() support
+a020094090e5293abd5c2ecdcec96a275f56c4ef RDMA/mlx5: Add optional counter support in get_hw_stats callback
+9a33f3980978e420672b0b54e3fa0c7908fd7c78 RDMA/hns: Use dma_alloc_coherent() instead of kmalloc/dma_map_single()
+4bd46f3a986db97fdb67b05a6b379499fce179ea RDMA/iwpm: Remove redundant initialization of pointer err_str
+8869574a6c11694dda6598c72b8e96cd1ac4e673 RDMA: Remove redundant 'flush_workqueue()' calls
+0bed5dfa5af8304c99962aa713a9ecd67ee52cb8 RDMA/irdma: Remove irdma_uk_mw_bind()
+6d2682216d1fd2b54ee16dbb6afd8a597645dbad RDMA/irdma: Remove irdma_sc_send_lsmm_nostag()
+16ddcfca567114ff8618ceb0bba001d8b15129e7 RDMA/irdma: Remove irdma_get_hw_addr()
+9d8f247cc33c881812d2ae106a79292c0d0446b8 RDMA/irdma: Remove irdma_cqp_up_map_cmd()
+f4e56ec4452f48b8292dcf0e1c4bdac83506fb8b RDMA/mlx4: Return missed an error if device doesn't support steering
+cfc0312d9c83a5bbb66fa73ba47dd1301d75b2e8 RDMA/rxe: Move AV from rxe_send_wqe to rxe_send_wr
+99c13a3e29653badefd9ca36f62dfa84db504f1c RDMA/rxe: Change AH objects to indexed
+73a54932100375ba94b31710f1e3f1234f23be0b RDMA/rxe: Create AH index and return to user space
+4da698eabf0f7c1c1806670d3fd3895512fdf43b RDMA/rxe: Replace ah->pd by ah->ibah.pd
+e2fe06c9080694f2c28894f14ef8ebfd923ac94d RDMA/rxe: Lookup kernel AH from ah index in UD WQEs
+3b87e0824272414cec79763afef6720c7c908c44 RDMA/rxe: Convert kernel UD post send to use ah_num
+49ba1a2976c8305647f772eec04c9596c12c6d3f vfio/pci: Add OpRegion 2.0+ Extended VBT support.
+48f06ca420c350635423685b40cf27374380bac4 Merge branch 'v5.16/vfio/colin_xu_igd_opregion_2.0_v8' into v5.16/vfio/next
+d39bf40e55e666b5905fdbd46a0dced030ce87be IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+13bac861952a78664907a0f927d3e874e9a59034 IB/hfi1: Fix abba locking issue with sc_disable()
+663991f32857b3b63c94c97de9dbb0ec8600144f RDMA/rdmavt: Fix error code in rvt_create_qp()
+ac0fffa0859b8e1e991939663b3ebdd80bf979e6 RDMA/core: Set sgtable nents when using ib_dma_virt_map_sg()
+d6357dfabd6d235d3b75e81e523d8ad17db1de0f net/sched: Don't print dump stack in event of transmission timeout
+939c2bbe929480bbd0fa23874c5dde45bb06be61 RDMA/core: Introduce peer memory interface
+4d0dac3c5f5d9573c4aecb17250dfdb446542a42 RDMA/mlx5: Don't set desc_size in user mr
+f992c73ddaed0a98ff2639b7b2fac5ffac48e979 RDMA/mlx5: Remove iova from struct mlx5_core_mkey
+444ebbb989795bab8345913e88c905733f29fe63 RDMA/mlx5: Remove size from struct mlx5_core_mkey
+914fa67087970d9b36bd2d8f6cd6ff7f356e901a RDMA/mlx5: Remove pd from struct mlx5_core_mkey
+82f90c82a63e4c878d2c5a5777e630bee6d79175 RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
+3ad0227d7478aacfb938ed6882a47663d15f55b2 RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
+ca879c6bedb7de55daabbf46fbfd3d0e16564180 RDMA/mlx5: Attach ndescs to mlx5_ib_mkey
+48ab80f1d6c6a38c87281f0117225f4dd89612da PCI/IOV: Provide internal VF index
+dba13b1d9f24ef3d1722f2dc7e079f3b9d5c5baa net/mlx5: Reuse exported virtfn index function call
+0a72e2408155b028b8d8bbaaeff6bfb9041178e4 net/mlx5: Disable SRIOV before PF removal
+c4ac6269501f6bcce518f2ef00124228dc7d5212 PCI/IOV: Allow SRIOV VF drivers to reach the drvdata of a PF
+0b8ea6bb36853380f7b863de1fbe57c15c370e40 net/mlx5: Expose APIs to get/put the mlx5 core device
+31b774b0e53bd20b1cd097318dacd3eeeb8a41cf vdpa/mlx5: Use mlx5_vf_get_core_dev() to get PF device
+8c2578a33873a93e405e1a25271dd3952fa25a8b vfio: Add 'invalid' state definitions
+0ab8642cb5f2f762b718146ae8d70c99a0dc8ccb vfio/pci_core: Make the region->release() function optional
+c6a921249f22dec122d5b245e64f6a39a984ee2b net/mlx5: Introduce migration bits and structures
+f16a02406a1e58b7e648b30af25319f84af11c1d vfio/mlx5: Expose migration commands over mlx5 device
+bd60dc88f3b5e310c182927fa186a71eb23fd78d vfio/mlx5: Implement vfio_pci driver for mlx5 devices
+171f9747f24ec7cf87191202e926231168c25d78 vfio/pci: Add infrastructure to let vfio_pci_core drivers trap device RESET
+67f0d896d2f2b627341976479b29cf22fa862ff1 vfio/mlx5: Trap device RESET and update state accordingly
+52249e5a671aa913be6024300b4ee87b957d33a3 RDMA/sa_query: Use strscpy_pad instead of memcpy to copy a string
+95c758fdfe4abc6774d7bbef60ccbf8bb1001d81 Merge branch 'master' into testing/rdma-rc
+798968a3be9b20963136f6e2db9b808caa87db72 Merge branch 'rdma-next' into testing/rdma-next
+ff194d8365b75bfa1a26b2f7c201714e94361ad5 Merge remote-tracking branch 'vfio/next' into testing/rdma-next
 
---===============4158654965371729394==--
+--===============3893909319404453165==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2a152512a155-3b87e0824272.txt
+
+8208461d3912e3e97e31bcbd4ce716e4a251a5dd net/mlx5: Add ifc bits to support optional counters
+b8dfed636fc6239396c3a2ae5f812505906cf215 net/mlx5: Add priorities for counters in RDMA namespaces
+3eea40d4749b6e236d79a7c24ba33f3078b1f7e9 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
+13f30b0fa0a9fa4f713edbb262f2e451886ce242 RDMA/counter: Add a descriptor in struct rdma_hw_stats
+0a0800ce2a6a4d58d73f712f1c0780974877babf RDMA/core: Add a helper API rdma_free_hw_stats_struct
+0dc89684605e8b60af645988d3e0d80a57b6e937 RDMA/counter: Add an is_disabled field in struct rdma_hw_stats
+5e2ddd1e598273d77f653c70df96fc417a2d0a85 RDMA/counter: Add optional counter support
+7301d0a9834c7f1f0c91c1f0a46c7b191b1fd0da RDMA/nldev: Add support to get status of all counters
+822cf785ac6d9120386f59964d6d029f3f04a8e3 RDMA/nldev: Split nldev_stat_set_mode_doit out of nldev_stat_set_doit
+3c3c1f1416392382faa0238e76a70d7810aab2ef RDMA/nldev: Allow optional-counter status configuration through RDMA netlink
+886773d24962799e5eb3a1b31a9b77e32d6c25a1 RDMA/mlx5: Support optional counters in hw_stats initialization
+ffa501ef196312f550818304e1558025a11d3c2f RDMA/mlx5: Add steering support in optional flow counters
+a29b934ceb4c8ad8bf6d0486a8c8ef015af494f4 RDMA/mlx5: Add modify_op_stat() support
+a020094090e5293abd5c2ecdcec96a275f56c4ef RDMA/mlx5: Add optional counter support in get_hw_stats callback
+9a33f3980978e420672b0b54e3fa0c7908fd7c78 RDMA/hns: Use dma_alloc_coherent() instead of kmalloc/dma_map_single()
+4bd46f3a986db97fdb67b05a6b379499fce179ea RDMA/iwpm: Remove redundant initialization of pointer err_str
+8869574a6c11694dda6598c72b8e96cd1ac4e673 RDMA: Remove redundant 'flush_workqueue()' calls
+0bed5dfa5af8304c99962aa713a9ecd67ee52cb8 RDMA/irdma: Remove irdma_uk_mw_bind()
+6d2682216d1fd2b54ee16dbb6afd8a597645dbad RDMA/irdma: Remove irdma_sc_send_lsmm_nostag()
+16ddcfca567114ff8618ceb0bba001d8b15129e7 RDMA/irdma: Remove irdma_get_hw_addr()
+9d8f247cc33c881812d2ae106a79292c0d0446b8 RDMA/irdma: Remove irdma_cqp_up_map_cmd()
+f4e56ec4452f48b8292dcf0e1c4bdac83506fb8b RDMA/mlx4: Return missed an error if device doesn't support steering
+cfc0312d9c83a5bbb66fa73ba47dd1301d75b2e8 RDMA/rxe: Move AV from rxe_send_wqe to rxe_send_wr
+99c13a3e29653badefd9ca36f62dfa84db504f1c RDMA/rxe: Change AH objects to indexed
+73a54932100375ba94b31710f1e3f1234f23be0b RDMA/rxe: Create AH index and return to user space
+4da698eabf0f7c1c1806670d3fd3895512fdf43b RDMA/rxe: Replace ah->pd by ah->ibah.pd
+e2fe06c9080694f2c28894f14ef8ebfd923ac94d RDMA/rxe: Lookup kernel AH from ah index in UD WQEs
+3b87e0824272414cec79763afef6720c7c908c44 RDMA/rxe: Convert kernel UD post send to use ah_num
+
+--===============3893909319404453165==--
