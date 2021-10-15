@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Fri, 15 Oct 2021 07:01:48 -0000
-Message-Id: <163428130898.22963.2533534751988150215@gitolite.kernel.org>
+Date: Fri, 15 Oct 2021 07:02:46 -0000
+Message-Id: <163428136690.23299.1191601681056333333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/network/connman/connman
 user: wagi
 changes:
   - ref: refs/heads/master
-    old: 40877409651524b8f0fa24c34bc256d8144cd9f8
-    new: 3a33f2eb490180001735616716dc7fa0819cc8a1
+    old: 3a33f2eb490180001735616716dc7fa0819cc8a1
+    new: dcd775c1c5e850e784d7aa0391bf20c8609bab3d
     log: |
-         8be99d69c7510804821a2a8c308f787f69e24071 tethering: Reduce the number of parameters of tech_set_tethering
-         c08b686638490fe4225197638e92921280bafa42 tethering: Add possibility to configure the access point frequency
-         0b956e75c8ce2e1ca24eb1f0bd25fc9253164337 tethering: Add TetheringFreq parameter documentation
-         3a33f2eb490180001735616716dc7fa0819cc8a1 client: Update the connmactl to support optional tethering channel
+         65919488b60970e80122e74c13d93fb5b9cf9764 build: Only enable -Wcast-align for gcc
+         2a32ce916173f6815bd02e133ad18d7924b47aab inet: Remove unused ipv6_addr_advert_mult
+         dcd775c1c5e850e784d7aa0391bf20c8609bab3d gsupplicant: Fix error return type
          
