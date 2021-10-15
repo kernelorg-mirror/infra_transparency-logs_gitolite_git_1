@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5376605719730878477=="
+Content-Type: multipart/mixed; boundary="===============7775141443175525343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Oct 2021 10:22:22 -0000
-Message-Id: <163429334231.4379.7731337236314656613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 15 Oct 2021 10:28:05 -0000
+Message-Id: <163429368579.7481.12396645208187067349@gitolite.kernel.org>
 
---===============5376605719730878477==
+--===============7775141443175525343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
   - ref: refs/heads/master
-    old: bacc8daf97d4199316328a5d18eeafbe447143c5
-    new: 0b93aed2842d950e8d2625e975e5a57febeff33d
-    log: revlist-bacc8daf97d4-0b93aed2842d.txt
+    old: 8abae15ad73049675d73ca4f0af2753d7b4c2aea
+    new: 30fd156f6a748b99bf8922843491a4217375e438
+    log: revlist-8abae15ad730-30fd156f6a74.txt
 
---===============5376605719730878477==
+--===============7775141443175525343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bacc8daf97d4-0b93aed2842d.txt
+Content-Disposition: attachment; filename=revlist-8abae15ad730-30fd156f6a74.txt
 
-d8b6f5bae6d3b648a67b6958cb98e4e97256d652 dsa: qca8k: add mac_power_sel support
-fdbf35df9c091db9c46e57e9938e3f7a4f603a7c dt-bindings: net: dsa: qca8k: Add SGMII clock phase properties
-6c43809bf1bee76c434e365a26546a92a5fbec14 net: dsa: qca8k: add support for sgmii falling edge
-731d613338ec6de482053ffa3f71be2325b0f8eb dt-bindings: net: dsa: qca8k: Document support for CPU port 6
-3fcf734aa482487df83cf8f18608438fcf59127f net: dsa: qca8k: add support for cpu port 6
-5654ec78dd7e64b1e04777b24007344329e6a63b net: dsa: qca8k: rework rgmii delay logic and scan for cpu port 6
-13ad5ccc093ff448b99ac7e138e91e78796adb48 dt-bindings: net: dsa: qca8k: Document qca,sgmii-enable-pll
-bbc4799e8bb6c397e3b3fec13de68e179f5db9ff net: dsa: qca8k: add explicit SGMII PLL enable
-924087c5c3d41553700b0eb83ca2a53b91643dca dt-bindings: net: dsa: qca8k: Document qca,led-open-drain binding
-362bb238d8bf1470424214a8a5968d9c6cce68fa net: dsa: qca8k: add support for pws config reg
-ed7988d77fbfb79366b68f9e7fa60a6080da23d4 dt-bindings: net: dsa: qca8k: document support for qca8328
-f477d1c8bdbef4f400718238e350f16f521d2a3e net: dsa: qca8k: add support for QCA8328
-cef08115846e581f80ff99abf7bf218da1840616 net: dsa: qca8k: set internal delay also for sgmii
-fd0bb28c547f7c8affb1691128cece38f5b626a1 net: dsa: qca8k: move port config to dedicated struct
-e52073a8e3086046a098b8a7cbeb282ff0cdb424 dt-bindings: net: ipq8064-mdio: fix warning with new qca8k switch
-d291fbb8245d5ba04979fed85575860a5cea7196 dt-bindings: net: dsa: qca8k: convert to YAML schema
-bf1366734b362c7da4933760c4f42c278ce843fa Merge branch 'qca8337-improvements'
-0b93aed2842d950e8d2625e975e5a57febeff33d mctp: Avoid leak of mctp_sk_key
+d9f283ae71afef6560a7101c0a31d7ddb5b0f29a efi: Disable runtime services on RT
+720dff78de360ad9742d5f438101cedcdb5dad84 efi: Allow efi=runtime
+68c9cdf37a0456b7ba25a50b1ea8794f305da17f efi/libstub: Simplify "Exiting bootservices" message
+b3a72ca80351917cc23f9e24c35f3c3979d3c121 efi/cper: use stack buffer for error record decoding
+38fa3206bf441911258e5001ac8b6738693f8d82 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+54354c6a9f7fd5572d2b9ec108117c4f376d4d23 Revert "proc/wchan: use printk format instead of lookup_symbol_name()"
+cf2a85efdade117e2169d6e26641016cbbf03ef0 leaking_addresses: Always print a trailing newline
+4e046156792c26bef8a4e30be711777fc8578257 proc: Use task_is_running() for wchan in /proc/$pid/stat
+bc9bbb81730ea667c31c5b284f95ee312bab466f x86: Fix get_wchan() to support the ORC unwinder
+42a20f86dc19f9282d974df0ba4d226c865ab9dd sched: Add wrapper for get_wchan() to keep task blocked
+37b47298ab864fb3f5488ddebfc35267ceab0553 sched: Disable -Wunused-but-set-variable
+c5e22feffdd736cb02b98b0f5b375c8ebc858dd4 topology: Represent clusters of CPUs within a die
+778c558f49a2cb3dc7b18a80ff515e82aa813627 sched: Add cluster scheduler level in core and related Kconfig for ARM64
+66558b730f2533cc2bf2b74d51f5f80b81e2bad0 sched: Add cluster scheduler level for x86
+da6ff09943491819e077b94c284bf0a6b751c9b8 sched/rt: Annotate the RT balancing logic irqwork as IRQ_WORK_HARD_IRQ
+810979682ccc98dbd83f341c18a2e556c30a7164 irq_work: Allow irq_work_sync() to sleep if irq_work() no IRQ support.
+b4c6f86ec2f648b5e6d4b04564fbc6d5351160a8 irq_work: Handle some irq_work in a per-CPU thread on PREEMPT_RT
+09089db79859cbccccd8df95b034f36f7027efa6 irq_work: Also rcuwait for !IRQ_WORK_HARD_IRQ on PREEMPT_RT
+71920ea97d6d1d800ee8b51951dc3fda3f5dc698 perf/x86/msr: Add Sapphire Rapids CPU support
+8b8ff8cc3b8155c18162e8b1f70e1230db176862 perf/x86: Add new event for AUX output counter index
+79df45731da68772d2285265864a52c900b8c65f perf/core: Allow ftrace for functions in kernel/event/core.c
+dd53f69fe0d1b309f64c472c99ea32c816bcbe57 Merge remote-tracking branch 'tip/efi/core' into tip-master
+d6511622c88708fc36cebdfecc724004837d8552 Merge remote-tracking branch 'tip/efi/urgent' into tip-master
+d0cdd6c1a656fe8c0a96c30e63b158da7cdae1af Merge remote-tracking branch 'tip/perf/core' into tip-master
+b12176d2587d6595e1fb6197a394c95ce30a6ee4 Merge remote-tracking branch 'tip/perf/urgent' into tip-master
+30fd156f6a748b99bf8922843491a4217375e438 Merge remote-tracking branch 'tip/sched/core' into tip-master
 
---===============5376605719730878477==--
+--===============7775141443175525343==--
