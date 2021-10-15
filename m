@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 15 Oct 2021 11:57:44 -0000
-Message-Id: <163429906424.32501.9514154966509648522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 15 Oct 2021 12:21:00 -0000
+Message-Id: <163430046026.15447.17227230297351543927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/tags/spi-fix-v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5731c61b8a0d5560ba6bab607f62e0a9d0ad687c
+  - ref: refs/heads/master
+    old: 246054544cc74b56b063640ecb538893ea613936
+    new: 7d1ce4b752e67868b3c7eb9aa5972ceec51210aa
+    log: |
+         7d1ce4b752e67868b3c7eb9aa5972ceec51210aa t/io_uring: Fix the parameters calculation for multiple threads scenario
+         
