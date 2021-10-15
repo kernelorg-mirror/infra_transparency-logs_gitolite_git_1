@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 15 Oct 2021 20:07:24 -0000
-Message-Id: <163432844442.22580.15572847658261771264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 15 Oct 2021 20:17:25 -0000
+Message-Id: <163432904532.28314.292017316378376438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 0f0f80d9d5db0b9a78a6ec74714f08b7b8bda0de
-    new: 011ace4a7fadcbe8670b615e0db1e8d7b813ee6c
+  - ref: refs/heads/for-next-v5.15
+    old: a24f901e8455a5785a6d69a3b1cb5c5a1cf9e4f8
+    new: fcc1c4825dd954ed5c35a1f045017e624b1c24f2
     log: |
-         a1467faa10414ab3d91be7ef6d2b11272ec00e95 ARM: imx: register reset controller from a platform driver
-         011ace4a7fadcbe8670b615e0db1e8d7b813ee6c Merge tag 'imx-fixes-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+         25dd111bc537688e5ce9cdd9498d47c067918c41 parisc/kgdb: add kgdb_roundup() to make kgdb work with idle polling
+         fcc1c4825dd954ed5c35a1f045017e624b1c24f2 parisc: don't enable irqs unconditionally in handle_interruption()
          
