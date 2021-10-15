@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8386621580133150938=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 15 Oct 2021 05:10:50 -0000
-Message-Id: <163427465003.26527.7985638674121589007@gitolite.kernel.org>
-
---===============8386621580133150938==
-Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 15 Oct 2021 05:12:17 -0000
+Message-Id: <163427473715.27034.8803452783485234132@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,32 +12,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/auto-latest
-    old: 880e2b8e3151574b9e3419d1fbb06726ddee8b03
-    new: 1c2387022edecf6351dd8343be688887609027d3
-    log: revlist-880e2b8e3151-1c2387022ede.txt
+    old: 1c2387022edecf6351dd8343be688887609027d3
+    new: f022f415b0d513554e4965e157427d62da5accf9
+    log: |
+         955edbf9522de0fc9dd13a57de15c4f46762b361 Merge branch 'x86/sgx'
+         b064237d04a7938d3fb0cb1457addc0cec4a87d9 Merge branch 'x86/misc'
+         4d92c3eb88630d48f56cf8768c8950f0105f1bf1 Merge branch 'x86/fpu'
+         85da8a91e67c723022623215509c2385ff6268e7 Merge branch 'x86/cpu'
+         52fda6efc68fc549d42b02c03ceb756e04450be2 Merge branch 'x86/core'
+         62dce537f33bbc207673a08f5357bac1bdcff9d9 Merge branch 'x86/cleanups'
+         b8534da5a90b3472022f19ebbd1b415b50e7f5fb Merge branch 'x86/build'
+         765cb72e983ad9aa5c4e8824736b522271db1e33 Merge branch 'sched/core'
+         180bae45d93fabe06241a13b0165f123694f1094 Merge branch 'ras/core'
+         bfe64bc7d1d930e5e5622352c2b4792d011246f8 Merge branch 'perf/core'
+         c0e5f7684a9600a13e1098979f341d1c9a73d1d4 Merge branch 'objtool/urgent'
+         84e4cc0703e35c8e5de36e63c333775315ed4cb9 Merge branch 'objtool/core'
+         58d4299dde840e5dd09a7c11f5e1f38bad67e24f Merge branch 'locking/wwmutex'
+         50427d97d9a00209643f9635c8a409f63a58b926 Merge branch 'locking/core'
+         f022f415b0d513554e4965e157427d62da5accf9 Merge branch 'irq/core'
+         
   - ref: refs/heads/master
-    old: 880e2b8e3151574b9e3419d1fbb06726ddee8b03
-    new: 1c2387022edecf6351dd8343be688887609027d3
-    log: revlist-880e2b8e3151-1c2387022ede.txt
-
---===============8386621580133150938==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-880e2b8e3151-1c2387022ede.txt
-
-b46179d6bb3182c020f2bf9bb4df6ba5463b0495 objtool: Check for gelf_update_rel[a] failures
-86e1e054e0d2105cf32b0266cf1a64e6c26424f7 objtool: Update section header before relocations
-711885906b5c2df90746a51f4cd674f1ab9fbb1d x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-5de62ea84abd732ded7c5569426fd71c0420f83e sched,livepatch: Use wake_up_if_idle()
-7a2341fc1fec0b8b3580be4226ea244756d3a1b3 sched/numa: Replace hard-coded number by a define in numa_task_group()
-5b763a14a5164e4c442e99d186fb39dac489e49b sched/numa: Remove the redundant member numa_group::fault_cpus
-7d380f24fe662033fd21a65f678057abd293f76e sched/numa: Fix a few comments
-f9ec6fea201429b5a3f76319e943989f1a1e25ef sched/topology: Remove unused numa_distance in cpu_attach_domain()
-4ef0c5c6b5ba1f38f0ea1cedad0cad722f00c14a kernel/sched: Fix sched_fork() access an invalid sched_task_group
-804bccba71a57e7e5deb507a4c8ebbab730909c0 sched: Fill unconditional hole induced by sched_entity
-d3366002a8e4407a6f0c306b11dce0f5b67433e0 Merge branch 'x86/urgent'
-32a0ae48ca9a8dbd02b2eef67850f26711c0cfc8 Merge branch 'sched/core'
-1c2387022edecf6351dd8343be688887609027d3 Merge branch 'objtool/urgent'
-
---===============8386621580133150938==--
+    old: 1c2387022edecf6351dd8343be688887609027d3
+    new: f022f415b0d513554e4965e157427d62da5accf9
+    log: |
+         955edbf9522de0fc9dd13a57de15c4f46762b361 Merge branch 'x86/sgx'
+         b064237d04a7938d3fb0cb1457addc0cec4a87d9 Merge branch 'x86/misc'
+         4d92c3eb88630d48f56cf8768c8950f0105f1bf1 Merge branch 'x86/fpu'
+         85da8a91e67c723022623215509c2385ff6268e7 Merge branch 'x86/cpu'
+         52fda6efc68fc549d42b02c03ceb756e04450be2 Merge branch 'x86/core'
+         62dce537f33bbc207673a08f5357bac1bdcff9d9 Merge branch 'x86/cleanups'
+         b8534da5a90b3472022f19ebbd1b415b50e7f5fb Merge branch 'x86/build'
+         765cb72e983ad9aa5c4e8824736b522271db1e33 Merge branch 'sched/core'
+         180bae45d93fabe06241a13b0165f123694f1094 Merge branch 'ras/core'
+         bfe64bc7d1d930e5e5622352c2b4792d011246f8 Merge branch 'perf/core'
+         c0e5f7684a9600a13e1098979f341d1c9a73d1d4 Merge branch 'objtool/urgent'
+         84e4cc0703e35c8e5de36e63c333775315ed4cb9 Merge branch 'objtool/core'
+         58d4299dde840e5dd09a7c11f5e1f38bad67e24f Merge branch 'locking/wwmutex'
+         50427d97d9a00209643f9635c8a409f63a58b926 Merge branch 'locking/core'
+         f022f415b0d513554e4965e157427d62da5accf9 Merge branch 'irq/core'
+         
