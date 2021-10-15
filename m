@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 15 Oct 2021 11:02:06 -0000
-Message-Id: <163429572608.29749.8126807587896486006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 15 Oct 2021 11:18:29 -0000
+Message-Id: <163429670960.6524.4400148215479467057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/kvm/memshare-range
-    old: b1bc3ac1b6768e27307b917306dd03b053fd6f53
-    new: ad41a89fe3432b853b62cbb1d4d2ebff1d80b739
+  - ref: refs/heads/master
+    old: b6f5f0c8f72d348b2d07b20d7b680ef13a7ffe98
+    new: 06f6e365e2ecf799c249bb464aa9d5f055e88b56
     log: |
-         9b1d5d76b447dc04f3a9e69f507205e26e79f3f8 KVM: arm64: pkvm: Introduce an unshare hypercall
-         ad41a89fe3432b853b62cbb1d4d2ebff1d80b739 WIP: KVM: arm64: Rip out by-page muck
+         b97c2b219b56d30e7f6c482a246c191df016e502 crypto: ccp - Fix whitespace in sev_cmd_buffer_len()
+         06f6e365e2ecf799c249bb464aa9d5f055e88b56 crypto: octeontx2 - set assoclen in aead_do_fallback()
          
