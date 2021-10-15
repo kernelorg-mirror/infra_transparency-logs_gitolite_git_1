@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5618123562613631963=="
+Content-Type: multipart/mixed; boundary="===============5691354551109821224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 15 Oct 2021 18:37:19 -0000
-Message-Id: <163432303911.30241.17176959903796755487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 15 Oct 2021 18:37:25 -0000
+Message-Id: <163432304591.30362.14124722619233820413@gitolite.kernel.org>
 
---===============5618123562613631963==
+--===============5691354551109821224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d04cf217bb59dd613f4ada813e25b05b82003df2
 
---===============5618123562613631963==
+--===============5691354551109821224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -721,4 +721,4 @@ ccb6a666d555652232e845352b9ff7217aca85cb Merge tag 'regulator-fix-v5.15-rc5' of 
 985f6ab93fc986f339654b5cb2e6825839bf3bc5 Merge tag 'spi-fix-v5.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 8fe31e0995f048d16b378b90926793a0aa4af1e5 Merge tag 'gpio-fixes-for-v5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============5618123562613631963==--
+--===============5691354551109821224==--
