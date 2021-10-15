@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5687020048259584090=="
+Content-Type: multipart/mixed; boundary="===============6643958314422544144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 15 Oct 2021 06:37:04 -0000
-Message-Id: <163427982469.7118.10731304711790328805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 15 Oct 2021 06:37:23 -0000
+Message-Id: <163427984308.7254.14111111755298804218@gitolite.kernel.org>
 
---===============5687020048259584090==
+--===============6643958314422544144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: d7c5bf94475b8b8fb960c7cf90682086076934df
-    new: 7edde0c807855a5bf149c6be3edfa11ecd919571
+  - ref: refs/heads/usb-next
+    old: e27bea459d5eaa485ba091e0e051bf4575614d4f
+    new: 660a92a59b9e831a0407e41ff62875656d30006e
     log: |
-         216a0fc40897d87b4a282bba10b01e96ea6a1c45 dyndbg: show module in vpr-info in dd-exec-queries
-         5ca173974888368fecfb17ae6fe455df5fd2a9d2 dyndbg: make dyndbg a known cli param
-         9c40e1aa84123750773a57c9cf39112459a952dd dyndbg: Remove support for ddebug_query param
-         5879f1c94d67e05401cddd2043649548e38d65d3 Documentation: dyndbg: Improve cli param examples
-         f0ada6da3a0d69682e21f1783d02676e0fbf1bc1 device property: Add missed header in fwnode.h
-         7a5e202dfb8ab7572eba703e43f08dabdc8b7808 dyndbg: vpr-info on remove-module complete, not starting
-         7edde0c807855a5bf149c6be3edfa11ecd919571 dyndbg: no vpr-info on empty queries
+         660a92a59b9e831a0407e41ff62875656d30006e usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
          
 
---===============5687020048259584090==
+--===============6643958314422544144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634279823 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634279823-1ebbecc1adac9be60b525d6e55d79060e436eda8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634279842 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1634279842-e5f63a383e0e463eb3165a3a50ba9f0bd76da03e
 
-d7c5bf94475b8b8fb960c7cf90682086076934df 7edde0c807855a5bf149c6be3edfa11ecd919571 refs/heads/driver-core-next
+e27bea459d5eaa485ba091e0e051bf4575614d4f 660a92a59b9e831a0407e41ff62875656d30006e refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFpIY8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ge0QAI/f2ibNfhyqeL2jXU4z
-6dX8UVaLsdmTMKkqe3Dfy3tRIERh/CJZpKiSTxlK6qnEkH5acRozj3ahHxGJBsXs
-AlOvv6XWHYro5UaHoO4AhqlKSAKx3PFaQ3ujBSpsihgtZclPiUyEZwJcqL/pA6E8
-tsRQ+Fy+68clSrgsBv11B7MkJFIzVh0iv9X7aCiQSbJEmAQVcumSEWVbRTCs64WP
-bIiB7qMfQmtihTIhflzGnLTyEFZWXsPgV3rZM4z95Pf/dyblCiAPuWQeqqX/D+xc
-yijSuoQfgX36+cZ46nCtyh6XMEWbaVbJ8DXsdlAi8BOIhNSHsw4piIh9JzspeeEb
-+I24dEezb8t0okRLl6m7uy/94fdBJ3Jz5U/mTJMCTzL3ouSI3eQLCu2kmevi5BVP
-f7sGW0vQAzoD1lDDckhpTcAqTp4FaFWq4IrOkDhAkug3ww7kFVMzh/ydbwiIon8/
-Ou9hkdVNZF9C+drARfeHNGsUMOjF7WB55xi0SFWCLV0AZ9bboFF5Cv4GFSoN+Tw/
-Gldiw/Ss7W1h+sP/KbkEzNQcJa1zo46mUx2tC56mSZ9yuylkjWPTJKF9pI8gg9Vo
-AYHhQct1kTp4+5dAVvXMGVCz9mEH9dmItl9Bls9TO2Wyud0hjxyHDcenbO7dYXo9
-v8aQ4HIOfw9pogCtaEAivLBe
-=93ZX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFpIaIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FwsP/1veW7E8kth7NdMFdHpH
+iw8cOTAslEFlVvzjQWRU2wj3/7jEU85ENhBiGffehg0WpU+dI/iNheBq/bG5DDoR
+Y+ZEXyLWB+h/qA8KNKiL7s6eZeVjZEtS+uYUgrX6fC8NlVwIsmp65z2JCc5YhDBT
+2xgTBjcy9dPazK9HiikzjXOYWaJoTseUpwR5uXxcKKKWg7vG6/ZLhrpA+JBL2f1k
+Wrx1LTFgF03+c6jBkJXiDfuMAspg+wwaHYa3jUPsa/FTdP5rzkpF/YDkV6N+zgld
+SB4GSc5aOAwyFSjkKU04eLDmWXSXxj2rvaYLt0UEP93GsnhYti2kfRXAAfYMTMb6
+Rs+5R3z0ssCNthvxabR2sAeSy9sUxYKDOnYBnzOnLMuYiQ9RXoYKSpkYrFQg3ZKL
+baNtnLn2ifmsJ083O5GsUFii50+C3muwGfmrOhQe0oJ3grV+dAA32p72z9ZgUPeQ
+6nv0JhdnlvR3/VYc9IP2Sfz7MLJWK07IQvITkY8C0mRJYoZMxtmfCgdCiO8JjFhW
+oI8Qp2PO5Rhz/5HIKfDakcK2CGZkMJDLn7QL8u6yJmT8OH1PjPYgDieK8UeLqmP6
+prCBIl/QMSfN4zeS2Cd2NyaoAP7yco0ZBbwiSIhY+hjdC11RVxTH8BWDcdO4XcQA
+w22LypUv39ee44JHKW7rjSZv
+=Ct2y
 -----END PGP SIGNATURE-----
 
---===============5687020048259584090==--
+--===============6643958314422544144==--
