@@ -1,44 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1837861887303755275=="
+Content-Type: multipart/mixed; boundary="===============2911520244881628137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 15 Oct 2021 08:39:59 -0000
-Message-Id: <163428719913.18737.18268388501165995689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Fri, 15 Oct 2021 08:40:17 -0000
+Message-Id: <163428721718.20289.4072814081020828222@gitolite.kernel.org>
 
---===============1837861887303755275==
+--===============2911520244881628137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 69a1643494b04085fb5692dcb7ed03edfcd9d723
-    new: e9b4f08840f2d5afe61295d737f1d0b3d7ff584a
-    log: revlist-69a1643494b0-e9b4f08840f2.txt
+  - ref: refs/heads/kvm/memshare-range
+    old: 044218faeba9b968a1a9a05d454409f12d7dbd69
+    new: b1bc3ac1b6768e27307b917306dd03b053fd6f53
+    log: revlist-044218faeba9-b1bc3ac1b676.txt
 
---===============1837861887303755275==
+--===============2911520244881628137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69a1643494b0-e9b4f08840f2.txt
+Content-Disposition: attachment; filename=revlist-044218faeba9-b1bc3ac1b676.txt
 
-dfbdcda280eb762bae2184145cc0702932d41798 gcc-plugins: arm-ssp: Prepare for THREAD_INFO_IN_TASK support
-19f29aebd929c31c5cc901f38a9295617b602c38 ARM: smp: Pass task to secondary_start_kernel
-3855ab614df4818c833864572559a97fd9f9a299 ARM: smp: Free up the TLS register while running in the kernel
-50596b7559bf226bb35ad55855ee979453ec06a1 ARM: smp: Store current pointer in TPIDRURO register if available
-18ed1c01a7dd3d7c780b06a49124da237a4c1790 ARM: smp: Enable THREAD_INFO_IN_TASK
-01eb173b5cec290f475230ec12150948f0217b37 ARM: remove some dead code
-ce09c40ed6e8bece82b6c5569be53798d0e23e0a ARM: assembler: introduce bl_r and bl_m macros
-bab0f5ceadce5433a220e9d729282e6e0eb179b4 ARM: optimize indirect call to handle_arch_irq for v7 cores
-f13d5e684278dd3b9d42b52a522207ea1d8240d9 ARM: unwind: support unwinding across multiple stacks
-17cf12f45e1f8dd14cfcc69f77ac9116a27f34cb ARM: export dump_mem() to other objects
-27d3a77057930aaf2ef820bc40ccee076186dec6 ARM: unwind: dump exception stack from calling frame
-8521d011155c90004747ada5cad24c04e2479ba1 ARM: implement IRQ stacks
-57bee30740a3afcc92a818ce569912d81081d14f ARM: call_with_stack: add unwind support
-e9b4f08840f2d5afe61295d737f1d0b3d7ff584a ARM: run softirqs on the per-CPU IRQ stack
+5d15d5f0e29d9133c9ab49134f0484f9d3fbc0fc KVM: arm64: Introduce do_share() helper for memory sharing between components
+5c8a12278dee34f0df5d1e1ca834f7f32589f914 KVM: arm64: Implement __pkvm_host_share_hyp() using do_share()
+bc6d9d5be57ac3ffd678506d97448bbd7ce87740 KVM: arm64: Avoid remapping the SVE state in the hyp stage-1
+12382eaaf97bc6a59d59a10e1aa3fe705c18f3a9 KVM: arm64: Introduce kvm_share_hyp()
+ea2714b5476c8045c34900a3819e42862520d736 KVM: arm64: Accept page ranges in pkvm share hypercall
+3e535cb6f844cee336230c953e2f17ffb31e975e KVM: arm64: Provide {get,put}_page() stubs for early hyp allocator
+a1cacdfc3f15807e172faab2eb6d859f419c4935 KVM: arm64: Refcount hyp stage-1 pgtable pages
+65be2f5d8a7fc430d3504edb6d1136515b700b70 KVM: arm64: Fixup hyp stage-1 refcount
+8911522f9500350c2dc160c07352ba68838cd8bd KVM: arm64: Hook up ->page_count() for hypervisor stage-1 page-table
+18cd6ee626bb29d0ac60759f6e21a4db8331bd59 KVM: arm64: Implement kvm_pgtable_hyp_unmap() at EL2
+ad161e947d600e2fff311b06165053c3173f6a91 KVM: arm64: Back hyp_vmemmap for all of memory
+6425493d8892fcc8bf9b8359a14a54ac0082ca35 KVM: arm64: Move hyp refcount helpers to header files
+bf6617e9fb5ef6e650cdcad94115fa684de06c92 KVM: arm64: Refcount shared pages at EL2
+b1bc3ac1b6768e27307b917306dd03b053fd6f53 KVM: arm64: Implement fast-path sharing operation between host and hyp
 
---===============1837861887303755275==--
+--===============2911520244881628137==--
