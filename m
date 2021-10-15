@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0401911567627083018=="
+Content-Type: multipart/mixed; boundary="===============1198100309530631764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 15 Oct 2021 15:51:52 -0000
-Message-Id: <163431311205.23124.6469825522237222400@gitolite.kernel.org>
+Date: Fri, 15 Oct 2021 15:54:23 -0000
+Message-Id: <163431326312.23914.1717133785729853676@gitolite.kernel.org>
 
---===============0401911567627083018==
+--===============1198100309530631764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,60 +15,50 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/heads/for-linus
-    old: d94befbb5ae379f6dfd4fa6d460eacc09fa7b9c3
-    new: eadeb06e7645f7a7ddbcfac39480be3892a60ae3
-    log: revlist-d94befbb5ae3-eadeb06e7645.txt
+  - ref: refs/heads/for-next
+    old: c18c4966033e6473a472fb65fbd5a6441603fbf7
+    new: 634ec0b2906efd46f6f57977e172aa3470aca432
+    log: revlist-c18c4966033e-634ec0b2906e.txt
   - ref: refs/heads/master
-    old: dbc8561869a47eeeddcc007bbad9a7a4033998a2
-    new: d1311cba1fa44f6de35cf0ff1471eaa79251318f
-    log: revlist-dbc8561869a4-d1311cba1fa4.txt
+    old: d1311cba1fa44f6de35cf0ff1471eaa79251318f
+    new: 659bd363ab861f3766093ae9527f7d1826ba0c2e
+    log: revlist-d1311cba1fa4-659bd363ab86.txt
 
---===============0401911567627083018==
+--===============1198100309530631764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d94befbb5ae3-eadeb06e7645.txt
+Content-Disposition: attachment; filename=revlist-c18c4966033e-634ec0b2906e.txt
 
-3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
-74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
-ceef3240f9b7e592dd8d10d619c312c7336117fa ASoC: pcm179x: Add missing entries SPI to device ID table
-0cc3687eadd0971d5d38ff90d14819d88f854960 ASoC: cs4341: Add SPI device ID table
-42871e95a3afea8956d8cc567ea725b33a837775 ASoC: nau8824: Fix headphone vs headset, button-press detection no longer working
-db0767b8a6e620b99459d2e688c1983c2e5add0d ASoC: wcd938x: Fix jack detection issue
-2577b868a48ef3601116908738efbe570451e605 ASoC: Intel: bytcht_es8316: Get platform data via dev_get_platdata()
-6f32c521061b704c0198be3ba9834f5a64ea5605 ASoC: Intel: bytcht_es8316: Use temporary variable for struct device
-10f4a96543b744c8cc7ef8b0799af21d911dd37d ASoC: Intel: bytcht_es8316: Switch to use gpiod_get_optional()
-c25d4546ca452b2e8c03bc735e4c65bc6dd751dd ASoC: Intel: bytcht_es8316: Utilize dev_err_probe() to avoid log saturation
-5af82c81b2c49cfb1cad84d9eb6eab0e3d1c4842 ASoC: DAPM: Fix missing kctl change notifications
-214174d9f56c7f81f4860a26b6b8b961a6b92654 ASoC: codec: wcd938x: Add irq config support
-c448b7aa3e66042fc0f849d9a0fb90d1af82e948 ASoC: soc-core: fix null-ptr-deref in snd_soc_del_component_unlocked()
-aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
-6b9b546dc00797c74bef491668ce5431ff54e1e2 ASoC: wm8960: Fix clock configuration on slave mode
-eadeb06e7645f7a7ddbcfac39480be3892a60ae3 Merge tag 'asoc-fix-v5.15-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+bea36afa102e37d5e4d9ea519f14d1c92d512e45 ALSA: firewire-motu: add message parser to gather meter information in register DSP model
+90b28f3bb85c39b11daf29d473ef21a935c70ec5 ALSA: firewire-motu: add message parser for meter information in command DSP model
+58b62ab7025912ce1be36e3ba19d49620a0161b6 ALSA: firewire-motu: add ioctl command to read cached hardware meter
+dc36a9755a572781903d79f8437d109b72662da5 ALSA: firewire-motu: parse messages for mixer source parameters in register-DSP model
+ce69bed5557b05dd1918556d4e90c293382155ae ALSA: firewire-motu: parse messages for mixer output parameters in register DSP model
+6ca81d2b6305a884da441fd0281ff01afd5f8c7e ALSA: firewire-motu: parse messages for output parameters in register DSP model
+41cc23389f5fc64bdac78b73935a44bd5abc990d ALSA: firewire-motu: parse messages for line input parameters in register DSP model
+7d843c494a9b69d07bc0588124599e3f665a1496 ALSA: firewire-motu: parse messages for input parameters in register DSP model
+ca15a09ccc5bd2731c5fcb667e6ea3bbbf8f5772 ALSA: firewire-motu: add ioctl command to read cached parameters in register DSP model
+4c9eda8f37f9523f1d2ccbb442ce641e8c981c9f ALSA: firewire-motu: queue event for parameter change in register DSP model
+634ec0b2906efd46f6f57977e172aa3470aca432 ALSA: firewire-motu: notify event for parameter change in register DSP model
 
---===============0401911567627083018==
+--===============1198100309530631764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbc8561869a4-d1311cba1fa4.txt
+Content-Disposition: attachment; filename=revlist-d1311cba1fa4-659bd363ab86.txt
 
-3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
-74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
-ceef3240f9b7e592dd8d10d619c312c7336117fa ASoC: pcm179x: Add missing entries SPI to device ID table
-0cc3687eadd0971d5d38ff90d14819d88f854960 ASoC: cs4341: Add SPI device ID table
-42871e95a3afea8956d8cc567ea725b33a837775 ASoC: nau8824: Fix headphone vs headset, button-press detection no longer working
-db0767b8a6e620b99459d2e688c1983c2e5add0d ASoC: wcd938x: Fix jack detection issue
-2577b868a48ef3601116908738efbe570451e605 ASoC: Intel: bytcht_es8316: Get platform data via dev_get_platdata()
-6f32c521061b704c0198be3ba9834f5a64ea5605 ASoC: Intel: bytcht_es8316: Use temporary variable for struct device
-10f4a96543b744c8cc7ef8b0799af21d911dd37d ASoC: Intel: bytcht_es8316: Switch to use gpiod_get_optional()
-c25d4546ca452b2e8c03bc735e4c65bc6dd751dd ASoC: Intel: bytcht_es8316: Utilize dev_err_probe() to avoid log saturation
-5af82c81b2c49cfb1cad84d9eb6eab0e3d1c4842 ASoC: DAPM: Fix missing kctl change notifications
-214174d9f56c7f81f4860a26b6b8b961a6b92654 ASoC: codec: wcd938x: Add irq config support
-c448b7aa3e66042fc0f849d9a0fb90d1af82e948 ASoC: soc-core: fix null-ptr-deref in snd_soc_del_component_unlocked()
-aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
-6b9b546dc00797c74bef491668ce5431ff54e1e2 ASoC: wm8960: Fix clock configuration on slave mode
-eadeb06e7645f7a7ddbcfac39480be3892a60ae3 Merge tag 'asoc-fix-v5.15-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-d1311cba1fa44f6de35cf0ff1471eaa79251318f Merge branch 'for-linus'
+bea36afa102e37d5e4d9ea519f14d1c92d512e45 ALSA: firewire-motu: add message parser to gather meter information in register DSP model
+90b28f3bb85c39b11daf29d473ef21a935c70ec5 ALSA: firewire-motu: add message parser for meter information in command DSP model
+58b62ab7025912ce1be36e3ba19d49620a0161b6 ALSA: firewire-motu: add ioctl command to read cached hardware meter
+dc36a9755a572781903d79f8437d109b72662da5 ALSA: firewire-motu: parse messages for mixer source parameters in register-DSP model
+ce69bed5557b05dd1918556d4e90c293382155ae ALSA: firewire-motu: parse messages for mixer output parameters in register DSP model
+6ca81d2b6305a884da441fd0281ff01afd5f8c7e ALSA: firewire-motu: parse messages for output parameters in register DSP model
+41cc23389f5fc64bdac78b73935a44bd5abc990d ALSA: firewire-motu: parse messages for line input parameters in register DSP model
+7d843c494a9b69d07bc0588124599e3f665a1496 ALSA: firewire-motu: parse messages for input parameters in register DSP model
+ca15a09ccc5bd2731c5fcb667e6ea3bbbf8f5772 ALSA: firewire-motu: add ioctl command to read cached parameters in register DSP model
+4c9eda8f37f9523f1d2ccbb442ce641e8c981c9f ALSA: firewire-motu: queue event for parameter change in register DSP model
+634ec0b2906efd46f6f57977e172aa3470aca432 ALSA: firewire-motu: notify event for parameter change in register DSP model
+659bd363ab861f3766093ae9527f7d1826ba0c2e Merge branch 'for-next'
 
---===============0401911567627083018==--
+--===============1198100309530631764==--
