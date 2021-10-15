@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Oct 2021 02:24:33 -0000
-Message-Id: <163426467310.19484.170385937482267902@gitolite.kernel.org>
+Date: Fri, 15 Oct 2021 03:05:23 -0000
+Message-Id: <163426712310.12942.3217500449184938674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 20d446f24f378ee63a29b259b375691d25002448
-    new: a3d708925fcca1a2f7219bc9ce93e6341f85c1e0
+    old: a3d708925fcca1a2f7219bc9ce93e6341f85c1e0
+    new: 40088915f547b52635f022c1e1e18df65ae3153a
     log: |
-         507c2f1d2936e07aef83734983a36df01b458ef9 net, neigh: Add build-time assertion to avoid neigh->flags overflow
-         c8e80c1169b2b3b91453f9ff3c34687c42233ef7 net, neigh: Use NLA_POLICY_MASK helper for NDA_FLAGS_EXT attribute
-         30fc7efa38f21afa48b0be6bf2053e4c10ae2c78 net, neigh: Reject creating NUD_PERMANENT with NTF_MANAGED entries
-         c47fedba94bc7f13e86033a6e72b6471d0f8838f Merge branch 'minor-managed-neighbor-follow-ups'
-         78e0a006914b9fc0dd714d68f0bb6e0f50c944f2 hv_netvsc: Add comment of netvsc_xdp_xmit()
-         cd2621d07d517473611b170c69beb6524c677740 net: fealnx: fix build for UML
-         523994ba3ad1b7b55abe4a72e156897b5e2db825 net: intel: igc_ptp: fix build for UML
-         a3d708925fcca1a2f7219bc9ce93e6341f85c1e0 net: tulip: winbond-840: fix build for UML
+         4826090719d4bb525b101f1916c68c3b5594910c octeontx2-af: Enable CPT HW interrupts
+         7054d39ccf7e862ebb569c73ab251f1968d1b640 octeontx2-af: Perform cpt lf teardown in non FLR path
+         149f3b73cb66b231bf818d94c378b906c5d652c4 octeontx2-af: Add support to flush full CPT CTX cache
+         40088915f547b52635f022c1e1e18df65ae3153a Merge branch 'octeontx2-af-miscellaneous-changes-for-cpt'
          
