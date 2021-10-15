@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0186432064010328313=="
+Content-Type: multipart/mixed; boundary="===============7834287851576193355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Oct 2021 19:40:40 -0000
-Message-Id: <163432684042.5729.16890690370874054577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Oct 2021 19:40:47 -0000
+Message-Id: <163432684738.5828.8611961722423940216@gitolite.kernel.org>
 
---===============0186432064010328313==
+--===============7834287851576193355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 6b9b546dc00797c74bef491668ce5431ff54e1e2
     new: 4ca239f33737198827c7f4ac68a1f6fc8a9d79ba
     log: revlist-6b9b546dc007-4ca239f33737.txt
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 4b19e4a77cc6baa0f840e8bae62ab974667f6207
     new: 9a61277af7fb90e58bfd2608f0e28bb0649c4128
     log: revlist-4b19e4a77cc6-9a61277af7fb.txt
 
---===============0186432064010328313==
+--===============7834287851576193355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634326838 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1634326837-b3af0181840ddc44c6ff0753cf8000675d8d5358
+pusher C3F436CA30F5D8EB 1634326845 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1634326844-b9ce994f0afcfce254d235ba2f2bc9b5c8fdb48c
 
-6b9b546dc00797c74bef491668ce5431ff54e1e2 4ca239f33737198827c7f4ac68a1f6fc8a9d79ba refs/heads/for-5.15
-4b19e4a77cc6baa0f840e8bae62ab974667f6207 9a61277af7fb90e58bfd2608f0e28bb0649c4128 refs/heads/for-5.16
+6b9b546dc00797c74bef491668ce5431ff54e1e2 4ca239f33737198827c7f4ac68a1f6fc8a9d79ba refs/heads/asoc-5.15
+4b19e4a77cc6baa0f840e8bae62ab974667f6207 9a61277af7fb90e58bfd2608f0e28bb0649c4128 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFp2TYACgkQJNaLcl1U
-h9Dr7Qf/S0UM77o5keevNANI/3WvHgDFruB+vX6trinnPSRTDGhCEDJFjGQ4/U2u
-qFvRU7HZuD6gdNm43gqJkxS2lSC2kws0zIZJzQQk/s0MEMKOnc5hwOEj95/UgmfX
-z/mqIdOifyClwwhOPwnmX/Jpnz/8KMacz+XIeSw+Z9CLec0A7+X7tRMAYhxBUOsD
-9SnKfzXP2QqNiir8WplCJVq+6WjWKuSvYCvB5uMWFrKdv4sMttXwQTl33W29wA/W
-IhDnv9JAZ6Gg95Cc1obM8TW9YelfLfgW6zCGXDqzzdB1oUixHUS1lSNZZLJwkVse
-Za0nyAgvTAEAwHI+/Pirt28DIbAFlA==
-=CaBg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFp2T0ACgkQJNaLcl1U
+h9AAswf/d0xj0syUSf2q6v6L6lL0Gru/Ts8quIgIGrhCWY5/p3MiNtDctOjCNn/k
+Z7TspIi65BWI+0vDC7u0LyHhMuvAlxP5AWX+qdNxlLzY1iXbwD8vJ9yrT5PUX3Zj
+CB/MzeDKpN0L3+j3D+dqYprjg6lMH2i/xjV6l5dnrUgm8eh/1MoQZ3Q8qrYem16O
+IszZS+LGh2Lg3bExnhGByZ/Q/0ERmQb1cIyVQzzLsWyFkRXgk0FIT9hjjeWz+rZw
+4m7WHcPt3KCVh1gHEpj5eXo2aMYr+bVqyeIWgXh1KP4JxhJkEw45SzdBy1k721Ww
+wX8Z1D41fitek53FCT0fefPklQcPRQ==
+=3iwQ
 -----END PGP SIGNATURE-----
 
---===============0186432064010328313==
+--===============7834287851576193355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,7 +69,7 @@ fdbd256175a1e11c1ba827112d56b9a3952e1219 ASoC: cs42l42: Set correct SRC MCLK
 4c8d49bc476c7cf1fb7377b469ced43ced470027 ASoC: cs42l42: Fix WARN in remove() if running without an interrupt
 4ca239f33737198827c7f4ac68a1f6fc8a9d79ba ASoC: cs42l42: Always enable TS_PLUG and TS_UNPLUG interrupts
 
---===============0186432064010328313==
+--===============7834287851576193355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -97,4 +97,4 @@ baa274db99effe4fd85cf7bee70fecc8159be0cb ASoC: audio-graph-card2-custom-sample.d
 b296997cf539976c62f81cdd367924809fdcc14e ASoC: soc-component: improve error reporting for register access
 9a61277af7fb90e58bfd2608f0e28bb0649c4128 Merge series "ASoC: Add Audio Graph Card2 support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============0186432064010328313==--
+--===============7834287851576193355==--
