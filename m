@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snawrocki/clk
-Date: Fri, 15 Oct 2021 13:20:01 -0000
-Message-Id: <163430400137.19103.11049632221331847033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 15 Oct 2021 13:26:50 -0000
+Message-Id: <163430441014.24181.7604407809191394434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snawrocki/clk
-user: snawrocki
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/for-next
-    old: 2ae5c2c3f8d586b709cf67efe94488be397d7544
-    new: 7aceaa793539e049f894eccc0cb5fcf3d6612e9f
+  - ref: refs/heads/stm32-next
+    old: 960d46f29aececf3da5ffe5d8d24a4b0dddf41c3
+    new: d4b3aaf0f90bcb4fe9f994016156ffb91c482b42
     log: |
-         2ca75164a5510717441b5d0bfc418e9de4253f85 dt-bindings: clock: Document Exynos850 CMU bindings
-         7aceaa793539e049f894eccc0cb5fcf3d6612e9f clk: samsung: Introduce Exynos850 clock driver
+         d4b3aaf0f90bcb4fe9f994016156ffb91c482b42 ARM: dts: stm32: use usbphyc ck_usbo_48m as USBH OHCI clock on stm32mp151
          
