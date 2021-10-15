@@ -1,1054 +1,1054 @@
-Content-Type: multipart/mixed; boundary="===============0440396764427875359=="
+Content-Type: multipart/mixed; boundary="===============1631069410027891175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 15 Oct 2021 09:03:33 -0000
-Message-Id: <163428861335.17984.1689517422393555359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 15 Oct 2021 09:04:00 -0000
+Message-Id: <163428864095.18199.13999433644274237575@gitolite.kernel.org>
 
---===============0440396764427875359==
+--===============1631069410027891175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/sched/headers
-    old: cdd5ff3eb183d3f6186aca6af7d10382ce618b15
-    new: 45c60b82421c345dde017321333128486fe23f61
-    log: revlist-cdd5ff3eb183-45c60b82421c.txt
+  - ref: refs/heads/efi/urgent
+    old: 55203550f9afb027389bd24ce85bd90044c3aa81
+    new: 38fa3206bf441911258e5001ac8b6738693f8d82
+    log: revlist-55203550f9af-38fa3206bf44.txt
 
---===============0440396764427875359==
+--===============1631069410027891175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdd5ff3eb183-45c60b82421c.txt
+Content-Disposition: attachment; filename=revlist-55203550f9af-38fa3206bf44.txt
 
-556713c035eca542c596b4cfa3e610576418ecc7 headers/deps: net: Remove the <linux/sched.h> headers from <linux/skbuff.h>
-0ea12154b7eb3a80d137bcc16fc3373717b48cbe headers/deps: nsproxy: Remove the <linux/sched.h> header from <linux/nsproxy.h>
-41560a7b4db68ffc835ab3b6e84acb4ab7ede0cf headers/deps: ns: Remove <linux/sched.h> from <linux/user_namespace.h>
-0db10ccb0616d486273f74a156366c8e1676bd72 headers/deps: kernel_stat: Remove the <linux/sched.h> header from <linux/kernel_stat.h>
-6d8a1e955e805f847db95c5959e99729c82fab41 headers/deps: psi: Remove the <linux/sched.h> include from <linux/psi_types.h>
-6fb72aa53cd0ebec38cde29db6e8cf71f869764d headers/deps: Move 'struct prev_cputime' from <linux/sched/signal.h> to <linux/kernel_stat.h>
-527176f58c8d23c849518928caa9d2e89683b365 headers/deps: cgroups: Remove the <linux/sched/signal.h> header from <linux/cgroup-defs.h>
-1df2648ee84b817b11449b9cc2e30ce0e73ec776 headers/deps: net/scm: Remove the <linux/sched/signal.h> header from <net/scm.h>
-1a14aa78c86f980eadd895e2e838e0feced5b69f headers/deps: net: Remove <net/netprio_cgroup.h> from <linux/netdevice.h>
-2409c62e1e411f1c9f75a1fee4e633316866744f headers/deps: Move MAX_SCHEDULE_TIMEOUT from <linux/sched.h> to <linux/sched/types.h>
-e3c6f2f37ec4d2ad1b545125c1f0c939dab69ad9 headers/deps: net: Remove <linux/sched.h> headers from <net/sock.h> and <linux/filter.h>
-b84f4e75b1659af2d842f373ff149aba5e012275 headers/deps: i2c: Remove <linux/sched.h> from <linux/i2c.h>
-4736ab6f40553e902cbdeb929055edefb6ade346 headers/deps: sched/wait: Remove <linux/sched.h> from <linux/wait_bit.h>
-0f1857400b67c8500af0c92efd77dba531fbe4ee headers/deps: ptrace: Move user_single_step_report() from <linux/ptrace.h> to <linux/tracehook.h>
-853254641489a4c4140762ae37e0313c3fba6491 headers/deps: ptrace: Factor out ptrace data types into <linux/ptrace_types.h>
-6b6cc12a4b9d8d067571414774883ac70b644408 headers/deps: audit: Split <linux/audit_types.h> from <linux/audit.h>
-86863b6393459d5851f46de9cbc2fa92afb8437b headers/deps: audit: Remove <uapi/linux/netfilter/nf_tables.h> include from <linux/audit.h>
-2c1afedd52a27b155936aa97ab6f110eaf529cea headers/deps: audit: Make <linux/audit.h> build standalone on !CONFIG_AUDIT kernels too
-84a7562cbb8e258f809d475197d979eeeae6705a headers/deps: security: Include <linux/audit_types.h> instead of <linux/audit.h>
-a68e2fda201e59608f7d9375c9f4de780cf6c2b1 headers/deps: tracing: Remove spurious <linux/ptrace.h> inclusion from <linux/ftrace.h>
-fa3eb421f7e68160128d4613f76d56056a7a0a92 headers/deps: kprobes: Optimize the x86 <asm/kprobes.h> header's dependencies
-0c3523f65df21b15c1750c0ae2e45b3cf74a7e0d headers/deps: ptrace: Move is_syscall_success() to <linux/ptrace_types.h>
-030e00461f49dcc6acf68c6454f50defd9134ea1 headers/deps: audit: Remove <linux/sched.h> from <linux/audit.h>
-4d520f247bc47b35ca9b64f8627683f7c5c6da48 headers/deps: elfcore: Remove <linux/ptrace.h> include from <linux/elfcore.h>
-d5eb30954c2386d60dc073dc9556b6e720ac9d62 headers/deps: bpf: Use <uapi/linux/ptrace.h> in <uapi/asm-generic/bpf_perf_event.h>
-270ed691f2940b0edd766533ab3db16e495bc825 headers/deps: mm: Split <linux/mm_ptlock.h> out of <linux/mm.h>
-a3f2a212691d6e2a22edef9d7ab092bedc8ce19f headers/deps: sched/wait: Include <linux/sched/types.h> in <linux/wait.h>
-a719464772699a4bff800ed93ccdfb91d5efb1ab headers/deps: sound: Remove spurious <linux/sched.h> inclusion from <linux/sound.h>
-7efc6075836219a993a33cd320cf129d6fd0bd8f headers/deps: x86/compat: Optimize x86 <asm/compat.h> header dependencies
-a5e80ccb40edd36dc7a1bf29a7617999a7e52236 headers/deps: mm: Remove spurious <linux/cgroup.h> include from <linux/vmpressure.h>
-766383d58206193bb07b0a39b2e9e4b143b8a3f9 headers/deps: mm: Optimize <linux/swap.h> dependencies
-041429d526399022af26c19e6b74a72522a4d9d9 BACK: headers/deps: Add header dependencies to .c files: <linux/writeback.h>
-ea77994b4ef282056c2bce6bd162ba6f80e4f98f headers/deps: kthread: Remove <linux/sched.h> from <linux/kthread.h>
-8f2847c8f8cfe46a8e1eea6ac8453c8cfa231d4e headers/deps: block: Remove the <linux/sched.h> includes from <linux/blkdev.h>
-2e91e45009a8294f150f03a55b8d4fa1156501fe headers/deps: mm: Optimize <linux/io-mapping.h> header dependencies
-350d4c2289881c2f317d09fdadb5b23521929742 headers/deps: usb: Remove <linux/sched.h> from <linux/usb.h>
-d889fe1c8c66b6215de1a4295ddc2f3c1d508eee headers/deps: modules: Remove <linux/srcu.h> from <linux/module.h>
-78377673fc2baff268052732ddde0fc52b021853 headers/deps: rcu: Split <linux/srcu_types.h> out of <linux/srcu.h>
-e4aae1a0553c78308dfc22589c894013b47edc4a headers/deps: x86/mm: Move the pgd_list definitions from <asm/pgtable.h> to <asm/pgalloc.h>
-b6521816a49565f3be4efb98030a513877b5c93a headers/deps: list: Optimize <linux/list.h> header dependencies
-cb86de8886da206d284635b6cf6a840605122f73 headers/deps: Optimize <linux/kernel.h>
-0bacf832b3061170cd75918c3afa78d875bbc644 headers/deps: printk: Reduce <linux/printk.h> header dependencies
-c779fb5480f9262e126c1bdbf06aaf0289ffd972 headers/deps: rbtree: Move the rbtree_latch_node definition into <linux/rbtree_latch_types.h>
-461d064bce13e9227f9efde799e1113c48f3862d headers/deps: kref: Remove unnecessary <linux/spinlock.h> include from <linux/kref.h>
-6b777a056728180cd25dbe3b14150226ede80c35 headers/deps: kobject: Split out <linux/kobject_types.h>
-3fbab902a769e9ea3539a346f36f09522102daf7 headers/deps: sysfs: Split <linux/sysfs_types.h> header from <linux/sysfs.h>
-31ff07dd825584d2c1927732c7c9206d08544c84 headers/deps: kobject: Use <linux/sysfs_types.h> in <linux/kobject.h>, remove <linux/sysfs.h> inclusion
-4b1cc38f0a351e1cf928fc85ec179277c6e99b65 headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
-27b78f23bfbd34a2834b57d7d055026a95f26a5b BACK: headers/uninline: Uninline multi-use functions: cgroup_throttle_swaprate(), mem_cgroup_try_charge_swap() and mem_cgroup_uncharge_swap()
-4123659097c2480c7f8c6f72ccf48a452a6c838e headers/deps: x86/vdso: Optimize <asm/vdso.h>'s dependencies
-6686c0e6c2937385f577125325aacc265b38f591 headers/deps: Prepare for <linux/module.h> simplification changes
-e5a552fa3aa5cf51009bad9c144af7494c1ed977 headers/deps: module: Optimize <linux/module.h> header dependencies
-cf47d216a6aab0ee818a2ad926ccf79210193790 headers/deps: time: Optimize <linux/time.h> header dependencies, remove <linux/cache.h>, <linux/math64.h> and <linux/timex.h> dependencies
-9ca98fc7814f97ca1e1f19afff03515c5f564655 headers/deps: numa: Factor out <linux/numa_types.h> from <linux/numa.h>
-ed8d8e0aeda52eb66454cf63af4b32048acefad5 headers/deps: cpumask: Introduce <linux/cpumask_types.h>
-24d456ff2439efc7c5d5995650b6cec2018b35e1 headers/deps: sched/topology, x86: Optimize <asm/topology.h> header dependencies
-f478e6e59c5db6e14898f4da902ddbd53bff87f3 headers/deps: sched/topology, x86: Prepare <asm/topology.h>
-c9f843628ff4f77bb69e84f06d3e4390b8cc5efe headers/deps: sched/topology: Optimize <linux/topology.h> header dependencies
-3cd0707eddd962de89acd49c7149c8900c9ecce0 headers/deps: mm: Optimize <linux/gfp.h> header dependencies
-c85bb74aa658f2bc43a0c88ff15fa647d58beb00 headers/deps: mm: Split <linux/gfp_types.h> out of <linux/gfp.h>
-2077575cbdf974c564ed195cb55172ff11df37a5 headers/deps: XArray: Reduce <linux/xarray.h> header dependencies
-3510dfc04c5762fe453843e77615587b93b80300 headers/deps: locking/spinlocks: Move spinlock_init() to <linux/spinlock_types.h>
-d63c6720ea50034a8d128d730d64c2b7c3909bb3 headers/deps: XArray: Introduce <linux/xarray_types.h>
-ee6939c1cf6d4e93c940f024813ea076f83b6dec headers/deps: XArray: Optimize <linux/xarray_types.h> header dependencies
-540bb05f66c35df6685072012ea3c738c8f50379 headers/deps: radix-trees: Use the new <linux/xarray_types.h> header
-5c6d1b61d1e81fbef120dbbad8eaca626673c7db headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies, remove <linux/rcupdate.h>
-eb89fa0f3d647ce5d6423c64ab298fac89722443 headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies, remove <linux/spinlock.h>
-57341c89996c61a7dff4d61ecebf8d2b34e3fb43 headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies, remove misc headers
-a9365a17d43f190c6b762256d629831a253e8cf1 headers/deps: fs: Remove <linux/ioprio.h> dependency from <linux/fs.h>
-806a62a59917c44f9d0abf89a7500e288e9f887c headers/deps: sched/wait: Introduce <linux/wait_types.h>
-dcaa18fa523759a923c230f2e3160762410eb0b7 headers/deps: sched/wait: Optimize <linux/wait_types.h>
-f99d02516449db14709b6a96310b06f89bbcf3e7 headers/deps: fs: Optimize <linux/dcache.h> header dependencies
-0d0fab97365352dfabb8b6c49fbbde81421be5f9 headers/deps: fs: Optimize <linux/fs.h> header dependencies: remove <linux/semaphore.h> and <linux/rculist_bl.h> inclusions
-e3ff60200c1e70de866ce75fd67d85aea4375047 headers/deps: fs: Optimize <linux/fs.h> header dependencies
-e5555a7f8aa296c0255ed6dabed03ce9db52f285 headers/deps: Add header dependencies to .c files: <linux/pid.h>
-11031de86998290d831265db3c881a250c3fe6a0 headers/deps: fs/quota: Introduce <linux/quota_types.h>
-9febfe0410627f481b651f34df3bdf18e1e5f2ac headers/deps: mm: Move the isolate_mode_t typedef from <linux/mmzone.h> to <linux/gfp_types.h>
-45ce7342ec4515abc4033ddb458af75f87758b46 headers/deps: fs: Optimize <linux/fs.h> dependencies
-8284d5667d478b78ccb955924f9a9d9faa0c7d9e BACK: headers/deps: Add header dependencies to .h files: <linux/percpu_counter.h>
-1b47bc531cfb0c17fa9de941571244dc497f7bf2 headers/deps: mm/thp: Remove <linux/fs.h> and <linux/dax.h> includes from <linux/huge_mm.h>
-871bc93192d792d18add965b4cbdac2e27e9a3fc headers/deps: fb: Optimize <linux/fb.h> dependencies
-f48f4ca9a83e1a9666dc0775d65b4a0f2c7a00b9 BACK: headers/deps: Add header dependencies to .c files: <linux/backlight.h>
-a0b7588db87b45e74e15112eb886e9f9021a3743 BACK: headers/prep: Fix header to build standalone: x86: <asm/compat.h>
-78cd74c8ddf21a1da9525ecc8d2310be1d570a1d BACK: headers/deps: Add header dependencies to .c files: <linux/pid.h>
-9d2adbd51cae7af5cf24995deb9fad6f445207ff BACK: headers/deps: Add header dependencies to .c files: <linux/sched/task.h>
-3696153dc7eac461498ffc07234a733dd609bc4d headers/deps: Add header dependencies to .c files: <linux/pid.h>
-ad8e65d03d4a1320df5104eb2665ac0a5166c311 headers/deps: Add header dependencies to .c files: <linux/hash.h>
-8ad8cfb6284e3475c89449b02ec16da83803a556 headers/deps: Add header dependencies to .c files: <linux/compat.h>
-0971c7574059031f3ae9a4719c18cae10e3b9a2e headers/deps: Add header dependencies to .c files: <linux/delayed_call.h>
-de9803b22ab82a0b74baa3526890e65277cd777e headers/deps: Add header dependencies to .c files: <linux/backlight.h>
-b62411e2adb845f5ad0c0db4ac177828d9e5bf8e headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
-38f34ef03bd13c9477aa551334e9161c3aa25af7 headers/deps: Add header dependencies to .c files: <linux/compat.h>
-0935afcfedc164936a3406141a894f5c83ca1d23 headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
-9063264c45946159e5a35ed94f412e872d5352bf headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
-f1b071286084d2c5bf1234db52d578680f88a379 headers/deps: Add header dependencies to .c files: <linux/hash.h>
-32ed19500fd385faa77f07098b6aa3f89cc6ddf9 headers/deps: Add header dependencies to .c files: <linux/math64.h>
-61303c3765149ab85204992a788a25468a93cf05 headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
-85d9eb2d736ab7bf9cbbfb82fbb124b13e30bd2e headers/deps: Add header dependencies to .c files: <linux/kdev_t.h>
-9c3d614765fee1b57092ec4b542fb6935e441b52 headers/deps: Add header dependencies to .c files: <linux/sched/signal.h>
-a0aec5182c48b41dea92fffa0f3ab68110f45f78 headers/deps: Add header dependencies to .c files: <linux/sched/mm.h>
-c54271242c937649d1c5db6ffcb65647dc015160 headers/deps: Add header dependencies to .c files: <linux/compat.h>
-6cb36657c390c400926513f129563fc53ab5992b headers/deps: Add header dependencies to .c files: <linux/backlight.h>
-85252cb0edbcd7107a292b51c4b0cac1505bdeae headers/deps: Add header dependencies to .c files: <linux/backlight.h>
-c1143a24efed6770d4257f58797d6d5cdb7251f4 headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
-da79cdf0e993f499f8baf2eea2f02f5a6c534e10 headers/deps: net: Decouple <linux/net.h> from <linux/fs.h>
-97adb62935e8636169657a68c0a15d7a3d1ba9b8 headers/deps: net: Remove <linux/fs.h> from <linux/net.h>
-34801f3e1b098d833886b1905d760d41bae2c5d2 headers/deps: mm/highmem: Remove <linux/fs.h> inclusion from <linux/highmem.h>
-e4cb79fa5f3c86518ad9c2eb1b78afcb5c51fc99 headers/deps: input: Remove unnecessary inclusion of <linux/fs.h> from <linux/input.h>
-992a3256e89a66ad37140ecc713fdbe071c29e60 headers/deps: compat: Optimize <linux/compat.h>
-28d847370fbb4c19dfe63ea9d957d4ff7a8d2014 headers/deps: net: Split <linux/socket_types.h> out of <linux/socket.h>
-250dc861ae136b1342759e1fef8bfe2a1222bc9b headers/deps: x86/compat: Move the compat_user_stack_pointer() definition from <asm/ptrace.h> to <asm/compat.h>
-b7e8c6105e635b9bda2d552bc7e9172d26997b1c headers/deps: compat: Optimize <linux/compat.h> dependencies even more
-9f3e18aea0670f9017581b4e35a817d36487f46f headers/deps: fs: Remove the <linux/fs.h> dependency from <linux/seq_file.h>
-ea5f766ad66635bd89d19eb6a98b5208900eb885 headers/deps: security: Remove the <linux/fs.h> include from <linux/security.h>
-25a78bd80750a7dc03b71a6d8ab9139d4121dd5a headers/deps: security/keys: Introduce the <linux/key_types.h> header
-d0b5414e0574bc8e8e1b27dd567461c73ea3886c headers/deps: security: Optimize <linux/security.h> dependencies
-c5247695fa4a7c1b79bd75152a41af9b80e12e17 headers/deps: fs: Move file_can_poll() and vfs_poll() from <linux/poll.h> to <linux/eventpoll.h>
-35da0e20e6c5c77bb0faae64be3fece66dd782c7 headers/deps: net: Separate out <linux/socket_alloc.h>
-f9e29b8e1a5475318b4f05aac8048b1790b8b73d headers/deps: net: Remove <linux/poll.h> from <net/sock.h>
-9ed18827432c630fcc61f2ae7af2276151ad5b49 headers/deps: fs: Remove the <linux/fs.h> include from <linux/poll.h>
-da1f44605dee738a2803d787fa56aca5513db1a0 headers/deps: net: Collect headers to the top of the file
-f41136f01b94da83a055a6b704629f3cdb84a2af headers/deps: bvec: Optimize <linux/bvec.h> header dependencies
-3bae04a9649816c3bc9931d756599674679359c2 headers/deps: Split <linux/check_size.h> from <linux/thread_info.h>
-223fbd6b15d5e0182d39e18e4f90bbb4a28b399f headers/deps: uio: Optimize <linux/uio.h> dependencies
-1eab666f74ea08973334f0d952a1dcd1d57985e9 headers/deps: net: Optimize <linux/net.h> header dependencies
-fec82eea6e458505de33771512a3157b27790e7a headers/deps: net: Optimize <linux/skbuff.h> header dependencies
-e2a03b32e6e78b7a021f4f7fadfdb90893089ffa headers/deps: mm: Move the MAX_ORDER* definitions from <linux/mmzone.h> to <linux/gfp_types.h>
-a8807bdd05f280aeaec772b1637ec9c6354df3af headers/deps: mm: Optimize <linux/slab.h>'s header file dependencies
-8bc9ea003595c54dd21d21d0b340e9237be269f4 headers/deps: net: Introduce <linux/skbuff_types.h>
-c1b2ba889578fbb8a8aa371b706ae0ad3a0bff12 headers/deps: Add header dependencies to .c files: <linux/fs_api.h>
-d953b43a99f74da3ff90536741183f109bb151d2 headers/deps: Add header dependencies to .h files: <linux/fs_types.h>
-619186ef27c5b1106a1a7857598d07da33ab8d25 headers/deps: Add header dependencies to .c files: <linux/fs_api.h>
-427a6e9ae0398978207b8100e64f92b97449dab0 headers/deps: Add header dependencies to .h files: <linux/wait_bit.h>
-515d133aaa44fd56991ffae1ec12f64003ff9629 headers/deps: net: Optimize <linux/skbuff_types.h> dependencies
-2405140235a172b1b2a74f0bb3da3e4f29554f2f headers/deps: net: Move header includes to the top of the file in <net/net_namespace.h>
-3bbeac1862635735b8223f8b3e1ef29bf4061418 headers/deps: net: Introduce <net/net_namespace_types.h> header
-e7b683c9e09100ffabc449bb97b5546c31f8b856 headers/deps: net: Optimize <net/net_namespace_types.h> and <net/net_namespace.h>
-cd21ce4cc48ebb4a42b9ee2ae68841aec43ca9fb headers/deps: uids: Add 'struct kuid_struct' and 'struct kgid_struct' for easy predeclaration
-7421b6d82dd44d730312208c4e9ce99592c4a509 headers/deps: fs: Optimize the <linux/sysctl.h> header
-63c8d4a44ba34c5bc87c498f614619c6be9bbb38 headers/deps: Optimize <linux/u64_stats_sync.h> dependencies
-b59f705e56cb964707f25c770f39224762ba9a14 headers/deps: atomics: Optimize <asm-generic/local64.h> & x86's <asm/local.h>
-c79320c1e85a895e41ee305f2d7c3cdfac1b6f6b headers/deps: net: Optimize the header dependencies of <net/snmp.h>
-fab14290cb36145c541ce9efb9cd255ae49903df headers/deps: locking/mutexes: Optimize <linux/mutex.h> header dependencies
-ee937e652459c2ca0750bba56d20b7451cd0f72f headers/deps: net: Optimize <net/netns/packet.h> dependencies
-c47208848a1e5c2e1e8e51c7b8c8c08be20f06c9 headers/deps: locking/seqlock: Move seqlock API definitions to <linux/seqlock_api.h>
-7c0a13a415224cdb470fd3f3852f8d7e44a7fbd7 headers/deps: locking/seqlocks: Optimize <linux/seqlock.h>, remove <linux/seqlock_api.h> and other changes
-808e84e9a36a6c4856580ca4110d3194c1166166 headers/deps: i2c: Optimize <linux/i2c.h> header dependencies
-ab06ed274a1441a94d379154c200eb4b3c05a944 headers/deps: net: Optimize the header dependencies of <uapi/linux/if_bonding.h>
-11a259740b1158f6a469b52c07403664aa1ab25d headers/deps: net: Optimize the <uapi/linux/if.h> header
-a1f6ed72a15ff3eb8aeb6743f4a35b6668b5a4bb headers/deps: net: Optimize <uapi/linux/if_link.h>
-ccec8c6ce3b38123fcc443d289b43e1d210e22ea headers/deps: net: Optimize <uapi/linux/netdevice.h>
-c35abb4a8c31b97132933c4bc8ed07d1fd244600 headers/deps: net: Optimize <uapi/linux/netlink.h>
-ced8494b7a33dfba01431af9041a3139096816b0 headers/deps: net: Introduce <net/xdp_api.h>
-844c5eb130c09bcad0d8cfa0a53e0fa96f99247e headers/deps: Add header dependencies to .c files: <linux/slab.h>
-313bd4aa422b19932bf345a451f79c2ad9c2aafe headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-5e5a69545f6f47c861dc221b538cd92c73199239 headers/deps: Add header dependencies to .c files: <linux/property.h>
-45030ac4ee549191227b5869aad704249f175754 headers/deps: Add header dependencies to .c files: <linux/property.h>
-82a6f465814c08071f3aa3d1ccee84c8f7723b7b headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-842bb367674236125713631923cd729c7f390421 headers/deps: Optimize <linux/netdevice.h>
-5896fb38495174b5676474dffeb9dbadec4c9a17 headers/deps: Add header dependencies to .c files: <linux/net.h>
-3534946da6f6bee1e4fd44690e19146e5b2206ae headers/deps: locking: Make <linux/local_lock.h> build standalone on allnoconfig kernels
-076995388bcd4722e5f2f1889d4d3971bc970714 headers/deps: power: Optimize <linux/suspend.h> dependencies, remove <linux/freezer.h> inclusion
-fce8a3bf62dda8b226e3399f2ff3db9ad30ca117 headers/deps: power: Optimize <linux/suspend.h> dependencies, remove <linux/swap.h>
-2a4dc3c93a2633ae94664ba140dd9a5c2148daf2 headers/deps: power: Optimize <linux/suspend.h> dependencies, remove <linux/mm.h>
-0bdab9ebe117bb07a128b0483435d2fead0fc339 headers/deps: power: Optimize <linux/suspend.h> dependencies, remove <linux/notifier.h> and <linux/init.h>
-de1769b38a8e80e547d70d6eb67ad25594312837 headers/deps: timers/hrtimer: Split out <linux/hrtimer_api.h>
-528c69b27726cb93fb040e8e8ad3c6b095cea883 headers/deps: timers/hrtimer: Change all hrtimer API using files to use <linux/hrtimer_api.h>
-c9827c837bb950b24a79f32cf6c97a7b73b9b14a headers/deps: timers/hrtimer: Remove the <linux/hrtimer_api.h> inclusion from <linux/hrtimer.h>
-ca68adc1f18f733ab7b2b69027c7c184bdf2dae0 headers/deps: Add header dependencies to .c files: <linux/hrtimer_api.h>
-3a6c74a374beb100a93f14f461f592f30bf10cb1 headers/deps: timers/hrtimer: Optimize <linux/hrtimer.h>, remove <linux/timer.h>
-a6b1e26953ec0cf5f3bad8ab4d8ca70b16451963 headers/deps: timers/hrtimer: Optimize <linux/hrtimer.h>, remove <linux/seqlock.h>
-eca64935290059b731ca73639f96c41bdb339ee9 headers/deps: timers/hrtimer: Optimize <linux/hrtimer.h> dependencies, remove <linux/init.h>, <linux/percpu.h>
-d0c716525fef2b90d709dc94abb4e77ae1da6064 headers/deps: timers/hrtimer: Optimize <linux/hrtimer.h> dependencies, remove <linux/rbtree.h>
-9b2becc0071682859b690025b2d119a20ed2dc10 headers/deps: timers/timerqueue: Split <linux/timerqueue_api.h> from <linux/timerqueue.h>
-1dbecf6f0cdf68f15f5594ca5493f8aef52e9d9b headers/deps: timers/timerqueue: Remove the <linux/timerqueue_api.h> include from <linux/timerqueue.h>
-1cc58e36afd6d2911179b0f5e931dfd64b5cce7e headers/deps: timers/timerqueue: Optimize <linux/timerqueue.h>
-692ce7d7afaa2ccfc57404f16ee7134e29166a23 headers/deps: rbtree: Optimize <linux/rbtree_types.h>, remove the <linux/kernel.h> header
-04c003dcc4cdecc070c5cfd820323ac616f3252d headers/deps: timers/ktime: Split the <linux/ktime_api.h> header from <linux/ktime.h>
-622875163ba1c1ee3e2993b5f017789dbb37af39 headers/deps: ktime: Remove the <linux/ktime_api.h> header from <linux/ktime.h>
-a6c6971f86e6d88af825e47c7a697660ac4fd43d headers/deps: Add header dependencies to .c files: <linux/jiffies.h>
-f18b3fdb397e87fbd0225d99942a1b2e36a18125 headers/deps: Add header dependencies to .c files: <linux/ktime_api.h>
-831c7c7b95497ab7c64cd392e0615513b09c9edb headers/deps: Add header dependencies to .c files: <linux/ktime_api.h>
-e85862607761c8d8dba0f75e151ad301a4014f2b headers/deps: Add header dependencies to .c files: <linux/jiffies.h>
-8f7a2631b64d6d931d191559edd647e7f9f0a1dd headers/deps: timers/hrtimer: Optimize <linux/hrtimer.h>, remove <linux/rbtree.h> dependency
-3a48178dbc99de9dced157f70202210f53409321 headers/deps: workqueue: Split <linux/workqueue_api.h> out of <linux/workqueue.h>
-a625403669dbc45f9eef3329dd74624d294bd59f headers/deps: workqueue: Optimize <linux/workqueue.h> dependencies, remove the <linux/workqueue_api.h> inclusion
-1e0808813f9f9bde339fb465ee29c72ba8e41728 headers/deps: Add header dependencies to .c files: <linux/workqueue_api.h>
-c1aad078af7e799ebbbf5edd15b670056bd80724 headers/deps: Add header dependencies to .h files: <linux/workqueue_api.h>
-4176a6638586508d64bfec0537b64ee77ea820c3 headers/deps: workqueue: Optimize <linux/workqueue.h> by removing <linux/rcupdate.h>
-0f482af3cc3c05bee5354a83c5be38abb39a32a0 headers/deps: timers/timer_list: Optimize <linux/timer.h>
-9863753aab4044dd61dd7da724cbe37949505529 headers/deps: workqueue: Optimize <linux/workqueue.h> dependencies
-4a4b2e1f70ff97e06ca320b359c2662833ccedb2 headers/deps: sched/wait: Split <linux/swait_api.h> from <linux/swait.h>
-15258ceaf69d2567ba75e08ea1233b41c580240b headers/deps: sched/wait: Remove <linux/swait_api.h> from <linux/swait.h>
-b12c0aca8053c1573a7414fa3396856dc291c517 headers/deps: sched/wait: Optimize <linux/swait.h> dependencies
-67c54819a1dc7419ebd8b2bdba4728757f9d2d5b headers/deps: power: Optimize <linux/pm.h> header dependencies
-674589baf5000e74baa9e2fa4f6fe5dbe7d2dd67 headers/deps: net: Split up <linux/skbuff.h> into <linux/skbuff_types.h> and <linux/skbuff_api.h>
-ae39e4a8ed5b74a38b2c2f422b03d86338344940 headers/deps: net/headers: Split <linux/netdevice_api.h> from <linux/netdevice.h>
-26e8a842f70390410b728ef006e9644588839fbe headers/deps: networking/headers: Remove the <linux/netdevice_api.h> inclusion from <linux/netdevice.h>
-b3870d767c626ccf5ba81a8fc488dd31344011a8 headers/deps: net/headers: Optimize <linux/netdevice.h>
-f946419b984d94a4aa144a24938d98a540cddfb7 headers/deps: net/headers: Optimize <linux/skbuff.h> by removing <linux/skbuff_api.h>
-062471b668baaa2499f09e210ca75eec3a6f6fe9 headers/deps: Add header dependencies to .c files: <linux/netdevice_api.h>
-a4caceacafc10ad3288a354627eb7dfcb0068607 headers/deps: types: Include netdev_features_t in <linux/types.h>
-332d3d096f8101db14b036a8b217dc676d040938 headers/deps: net/headers: Optimize <linux/netdevice.h>
-cbb4139a2b502b21ed4516340638f70f630802db headers/deps: dma-fence: Split out <linux/dma-fence-api.h>
-59a12ba87cce1800274d46580e8d2f9732e96403 headers/deps: dma-fence: Optimize <linux/dma-fence.h>, remove <linux/dma-fence-api.h>
-ab338a795385ca38c5e89da5868f7bf73406057f headers/deps: dma-fence: Optimize <linux/dma-fence.h> header dependencies some more
-3686dfc0e9c38894ec7047b785931c2a59674f7d headers/deps: drm/syncobj: Optimize <drm/drm_syncobj.h>
-fc76076552f1d5ec86a532c624a6c0308d514e08 headers/deps: drm/ttm: Optimize <drm/ttm/ttm_resource.h> dependencies
-85caaa3c833cb2f17a99fd7756576d1414717f0d headers/deps: ftrace: Optimize <linux/trace_recursion.h> header dependencies
-28ea997a9b2a6b48f7657d0c0b43cf22c7772159 headers/deps: ftrace: Optimize the <linux/ftrace.h> header dependencies
-5d9518da4d1c651f82a85b3a2bf17e8ee2cb6387 headers/deps: ftrace: Remove the task-tracing definitions from <linux/ftrace.h>
-6ee15ebe426502b2f915fb57f4e914b9f86be18b headers/deps: ftrace: Split <linux/ftrace_pause.h> out of <linux/ftrace.h>
-123ef5d43c3b17936213e947778615cd66779b23 headers/deps: ftrace: Optimize the <linux/ftrace.h> header dependencies, take 2
-b9a56cce39d65a8e3e6dd495b01026f5734532d4 headers/deps: x86/asm: Remove <linux/ftrace.h> from <asm/unwind.h>
-e50e8b83d94426eadd35c8bd92d7f009a7a6341b headers/deps: writeback: Split the <linux/writeback_api.h> header out of <linux/writeback.h>
-0c598dfa5a1c6c7f4badbc667cdccc886a3f0e54 headers/deps: writeback: Remove the <linux/writeback_api.h> header from <linux/writeback.h>
-84fce0df82831e52e42193e5ac12b0be35324cd9 headers/deps: Add header dependencies to .c files: <linux/writeback_api.h>
-ecd40246764d2c5f77639e3c3fe2f8c000ba534a headers/deps: writeback: Optimize <linux/writeback.h> header dependencies by removing <linux/blk-cgroup.h>
-d3c789be5068f35456c7ae67327ea25403ed4a52 headers/deps: writeback: Optimize <linux/writeback.h> header dependencies by removing <linux/blk_types.h>
-0e68ab614a3b0caff232c47acd76944edb367e04 headers/deps: writeback: Optimize <linux/writeback.h> header dependencies by removing <linux/backing-dev-defs.h>
-0f890c18d72c1f364a3cb76b686decb3455b6427 headers/deps: writeback: Optimize <linux/writeback.h> header dependencies by removing <linux/fs.h>
-930c03aad6a509d5d13dfa549f3e8352610c9542 headers/deps: writeback: Optimize <linux/writeback.h> header dependencies by removing <linux/workqueue.h> and <linux/sched.h>
-5798b54876b3fab674f3e98897d9fb1923f0ecfe headers/deps: locking: Split <linux/percpu_counter_api.h> from <linux/percpu_counter.h>
-cd9d1b608bbd8a6d16d7e7103c31e52c330f93f5 headers/deps: locking: Remove <linux/percpu_counter_api.h> from <linux/percpu_counter.h>
-b25ac265e210ba80b6d070a8f658c539bf616839 headers/deps: Add header dependencies to .c files: <linux/percpu_counter_api.h>
-e5e3e225307015344f8cb7dc5d97da71926967df headers/deps: Add header dependencies to .c files: <linux/writeback_api.h>
-68f026bb47885b6aa340c6d02d3b4f7ee5f4be88 headers/deps: Add header dependencies to .c files: <linux/module.h>
-adf4f749066f031832f6e43984825475de87fd5c headers/deps: Add header dependencies to .c files: <linux/writeback_api.h>
-625ed0e5e6b637bb4eaada3884de1bdf7dad2580 headers/deps: Add header dependencies to .c files: <linux/percpu_counter_api.h>
-8a046d8833943f8c06a84f6d5f43ef2cb43048b2 headers/deps: net/dst: Split out the <net/dst_ops_api.h> header from <net/dst_ops.h>
-e3fb91e28efb514dded08a49a547ee2dece3c2d8 headers/deps: net/dst: Remove the <net/dst_ops_api.h> header from <net/dst_ops.h>
-96f0ef14983f01288543a56628d044bfb362c4f7 headers/deps: net/dst: Optimize the <net/dst_ops_api.h> header
-517506440fe9d7cbd13e5874a011b36bf0b8d7bb headers/deps: locking/percpu_counters: Optimize the <linux/percpu_counter.h> dependencies
-d5b8e4fb2bbc91cedf700a91a3d51f2cb9a89478 headers/deps: net: Split out <net/sock_batch.h> from <net/sock.h>
-71f4c28a1d8442cad4375aade5d865a22c95309a headers/deps: net: Optimize <net/sock.h> dependencies, remove <linux/percpu_counter_api.h>
-0afbe39a2d44560d03a2e7c6bdb089693f322c19 headers/deps: net: Remove <linux/percpu_counter_api.h> from <net/inet_connection_sock.h>
-37befd782da6f8621e5d1f57a83311ab2fb6a7c4 headers/deps: Add header dependencies to .h files: <linux/percpu_counter_api.h>
-7fa827e528d7839cb6dd18bee53f802c58c84e07 headers/deps: Add header dependencies to .c files: <linux/percpu_counter_api.h>
-67c3ad4ede50cdbb606d020f07905bd6516f8b9f headers/deps: net/tcp: Optimize <net/tcp.h> header dependencies
-c796588c288561557a69f3405ed17954f3fe6124 headers/deps: locking/local_locks: Optimize <linux/local_lock.h>
-8b6a8954bb74a0a92767584ba98de61838efbb25 headers/deps: radix-tree: Split out the <linux/radix-tree-api.h> header
-8243628bb9994739f75792c6a0e57d210051f6b0 headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies, remove <linux/radix-tree-api.h> inclusion
-086582faaa2ea53398455be1d9f746f01b36a560 headers/deps: radix-tree: Optimize <linux/radix-tree.h> some more
-a1c4b69692bf7b39d0f757d6083c7582ed71fbf8 headers/deps: idr: Split out <linux/idr_api.h> from <linux/idr.h>
-08bf729d1ec94720ede62118141a5481a6c23f8f headers/deps: idr: Remove <linux/idr_api.h> from <linux/idr.h>
-9c1fcdc744f9ad2c5fa3b8ff6993d479092a2993 headers/deps: radix-tree: Move radix tree initialization defines from <linux/radix-tree-api.h> to <linux/radix-tree.h>
-9bbf47966ed141c873d31ec286a9b1998532f0d4 headers/deps: radix-tree: Optimize <linux/radix-tree.h> header dependencies
-7916348ace4244e11cf872b43294d1cc6d3a79af headers/deps: idr: Optimize <linux/idr.h> header dependencies
-6d4a710a21be7e19ae34623d2aae2dfb85033290 headers/deps: ptrace: Move the <linux/ptrace.h> header to <linux/ptrace_api.h>
-ec47f611cc293643783a468266b6450eff76b725 headers/deps: mm: Move PAGE_ALIGN() and PAGE_ALIGNED() from <linux/mm.h> to <linux/mm_types.h>
-f68e6d219a3790cbfc0fada4e6223f857ed23fc9 headers/deps: ptrace: Optimize <linux/ptrace.h> by removing the <linux/ptrace_api.h> header
-488452301a811801dddda453aeb4b1990803adcc headers/deps: Add header dependencies to .c files: <linux/sched/signal.h>
-4f250430d9866be8c683da20bd5c366244dddf8a headers/deps: nodemask: Introduce 'struct nodemask_struct'
-3a9b1e32d7bc0c1bc1796bc088ce5465ac2aef38 headers/deps: mm: Optimize the <linux/oom.h> header
-1a95c5345537b7f3f66031f7245961074c41c0f5 headers/deps: net/sunrpc: Optimize <linux/sunrpc/types.h>
-0704e07a36d75661babd37d142042f5900d76211 headers/deps: media: Optimize the <media/v4l2-ioctl.h> header dependencies
-ecffc7a9dc8ba127af355e5d736bc7bafb681931 headers/deps: syscalls: Split <linux/syscalls_api.h> out of <linux/syscalls.h>
-e49236619f73ba5006a52e10cc5d3711ffad745b headers/deps: syscalls: Remove the <linux/syscalls_api.h> include from <linux/syscalls.h>
-691814fa6e2e0758b62f4dc2ad69722e0d08cef6 headers/deps: seq_buf: Optimize the <linux/seq_buf.h> header's dependencies
-ba8613e3da0b61294cffa0a79bb925888f9145f5 headers/deps: tracing: Split out <linux/trace_events_types.h> from <linux/trace_events.h>
-44d03dd9df67cbd890d47221b4df79936d88abe1 headers/deps: Add header dependencies to .h files: <linux/idr_api.h>
-0195fb2c1c8610831782c5f66de05447ef566db1 headers/deps: Add header dependencies to .c files: <linux/idr_api.h>
-6d37488b97e56afe1bf17659b983623e42d4e8ec headers/deps: Add header dependencies to .c files: <linux/sched/task.h>
-553445ad4d7835589c2caf14e820767e0d9dc672 headers/deps: fs/poll: Fix macro assumption in <linux/poll.h>
-3da335a05808b27fa08163e8d3f0dc50f0286d27 headers/deps: tracing: Optimize <linux/ring_buffer.h>'s header dependencies, remove <linux/poll.h>
-1b00cdb6abc2f2c1301b56546aa42c33b6b7ad3a headers/deps: tracing: Optimize the <trace/syscall.h> header
-e2e2d3e4eceeeaf751a209650fac193ac0045f6d headers/deps: syscalls: Optimize <linux/syscalls.h> dependencies
-b1503b36deb92978468b311ec2b8941e85aef49c headers/deps: drm/core: Optimize the <drm/drm_framebuffer.h> header's dependencies
-1acd11c69e36e1a72d581d1b9112e9c1c0db4151 headers/deps: mm: Optimize the <linux/backing-dev.h> header's dependencies
-22a7f418fa1f4570bdf63ee8cda6dbb316904c93 headers/deps: radix-tree: Optimize <linux/radix-tree-api.h>
-b62be9f7daf8938f8e06cb40e4129ccfcc3acf04 headers/deps: Optimize <media/dvb_frontend.h> dependencies
-65b8303639d55d41608bfeef0d65d1a250304e40 headers/deps: media: Optimize the main <media/*.h> header dependencies
-d8d6337c24ec0ccb0b127ca06693dd68a0e08706 headers/deps: mm: Create <linux/gfp_api.h>
-423a521cf5865cf746cfed6e15d0ee012c34a8da headers/deps: mm: Remove the <linux/gfp_api.h> header from <linux/gfp.h>
-c02cb179295d43ded8eaa61e9e110ff1144e094d headers/deps: sound: Remove <linux/sched.h> from <sound/compress_driver.h>
-6bb62742fbe1880a150a2408967eefe5040bfe0e headers/deps: cgroup: Rename <linux/cgroup-defs.h> to <linux/cgroup_types.h>
-875939798ce65815b7a419336017d9b222c9001d headers/deps: cgroup: Move <linux/cgroup.h> to <linux/cgroup_api.h>
-3ec5cca451f6b77aaaa424f7b8d38159d0204288 headers/deps: tracing: Optimize the <linux/ring_buffer.h> header
-b9d330bec34367281d62580724a3f838a1b6a2e7 headers/deps: tracing: Optimize the <linux/trace_events.h> header
-5d2bea8e718efb7586bdc21c76bcc9e956a1a0fe headers/deps: mm: Optimize the <linux/memcontrol.h> header
-269afcf5af3bea19145218d850f3864c7969ea53 headers/deps: writeback: Optimize the <linux/backing-dev.h> header dependencies, remove <linux/blk-cgroup.h>
-a2669ae1a599d0453433f3d35f344b619a8ec19d headers/deps: writeback: Optimize the <linux/backing-dev.h> header dependencies
-1f9054ea237bcad89ff52ded49c076b8655e9363 headers/deps: mm/writeback: Remove the unused bdi_sched_wait() inline
-0c6936ec1f6c2f31ad9a0702e2a10fde7ff42739 headers/deps: bdi: Split <linux/backing-dev.h> into <linux/backing-dev-types.h> and <linux/backing-dev-api.h>
-b13c643f9090d4e3d38741d225a68373121d3349 headers/deps: bdi: Move various APIs from <linux/backing-dev-types.h> to <linux/backing-dev-api.h>
-a4509a6ee7be44c39824137ddbd10f26566e1f55 headers/deps: bdi: Remove <linux/backing-dev-api.h> from the default <linux/backing-dev.h> header
-95e21e1e74a96eaaf6d8446dd9eb11d56fbc17e0 headers/deps: Add header dependencies to .h files: <linux/backing-dev-api.h>
-7553446f85c04728679b7ff9e72c803e94acdc04 headers/deps: Add header dependencies to .c files: <linux/backing-dev-api.h>
-1e1c45775d53ecbe42a36042a25d9a0f04f160f0 headers/deps: bdi: Move 'struct backing_dev_info' from <linux/backing-dev-types.h> to <linux/backing-dev-api.h>
-483526f7f443b5249a5d12581a0724cc03b6c95b headers/deps: bdi: Optimize <linux/backing-dev-types.h>
-0f0b627a1a2fc20edef93884b1129239f471a986 headers/deps: cgroups: Remove the <linux/cgroup_api.h> header from the default <linux/cgroup.h> header
-295c0638f0bfba5c09dc3cbc6f58fd9d6cf1af41 headers/deps: cgroup: Move the sock_cgroup*() inline functions from <linux/cgroup_types.h> to <linux/cgroup_api.h>
-399b26966a7604223c8eca3c26bb0bdb832d4d82 headers/deps: cgroup: Move the cgroup_threadgroup_*() inline functions from <linux/cgroup_types.h> to <linux/cgroup_api.h>
-cff5b049a184bab896f2ab457b2bc8dafb24e5c4 headers/deps: cgroup: Split <linux/bpf-cgroup.h> into <linux/bpf-cgroup-types.h> and <linux/bpf-cgroup-api.h>
-e551e533ae261081f50a5aa1ef76726d07ba2f7a headers/deps: net/tcp: Split the <net/tcp_bpf.h> header out of <net/tcp.h>
-86f52b8d7a98056b2a49e332456f83271fceaf59 headers/deps: cgroups: Use the <linux/bpf-cgroup-types.h> header in <linux/cgroup_types.h> and <net/tcp.h>
-facbcd5f34071af2a702ef2e8fa2f35828d16fc5 headers/deps: cgroups: Optimize <linux/cgroup_types.h>, remove various headers
-4c28d6b90ff2fb9386974bfab6a396cc8545ac17 headers/deps: bpf: Introduce <linux/bpf_defs.h>
-a78347a8e8eadfd0dab31894cb6167eedb966300 headers/deps: bpf: Move the 'struct bpf_link' definition into <linux/bpf_defs.h>
-631c379232c8664f4d9ed24fff9ca9319bb2b279 headers/deps: bpf: Move the MAX_BPF_CGROUP_STORAGE_TYPE definition from <linux/bpf.h> to <linux/bpf_defs.h>
-36424d8d21423cecf4b62ab01b202fd1a4e8fb59 headers/deps: cgroup, bpf: Optimize <linux/bpf-cgroup-types.h>
-8aa22f6632c99a18613c1add827c6d37afe35d4e headers/deps: Add header dependencies to .h files: <linux/module.h>
-c66c13a409eef31644dffca57553f74db0c82c56 headers/deps: Add header dependencies to .c files: <linux/module.h>
-b8263e4eca016ad82575f87b12df959fdbb7d515 headers/deps: Add header dependencies to .c files: <uapi/linux/magic.h>
-ce7df7c58198ac3730346f225e42a32a1c24f875 headers/deps: locking: Split <linux/percpu-refcount.h> into <linux/percpu-refcount-types.h> and <linux/percpu-refcount-api.h>
-54b75cdbc1ed659029b9c20b6727847dcb37290e headers/deps: locking: Optimize <linux/percpu-refcount-types.h> header dependencies
-67c85d6a1bfe5b1749afe18dc4bbde1d92f37965 headers/deps: cgroups, bpf: Optimize the <linux/bpf-cgroup-types.h> header's dependencies
-012ace7d79b6c020021197d347eec0626223f422 headers/deps: bpf, cgroups: Optimize the <linux/bpf-cgroup-types.h> header's dependencies
-bb5b89ae762801e90921431709d912dc80f201ef headers/deps: psi: Optimize the <linux/psi_types.h> header's dependencies
-c78a19c458377f72de2278a78192a9ed0f1dddda headers/deps: kernel_stat: Split out <linux/kernel_stat_types.h> from <linux/kernel_stat.h>
-0db13bc601fa7ef3b7af30435f1c888d954f44c5 headers/deps: cgroups: Optimize the <linux/cgroup_types.h> header
-93ab3b868700f81e3db9d643e1fd469a5d5cd9b8 headers/deps: irq: Split out <linux/interrupt_types.h> out of <linux/interrupt.h>
-63206db147b8cbb001c31d883a7bd4c0a4f20ce0 headers/deps: kernel_stat: Optimize the <linux/kernel_stat.h> header's dependencies
-c0b56e23f99550cc78ec7c9c9776cb9b73c12609 headers/deps: utsname: Reduce <linux/utsname.h> inclusions
-59aad61f903818457e79abf609180663dd952eea headers/deps: mm: Optimize <linux/rmap.h> dependencies
-1ec766c8f83b60fceb0bf517c1fbfffa3168623f headers/deps: Optimize <net/tcp.h> dependencies, remove <linux/memcontrol.h>
-6d0deedcd500f129f40309acfa59d19a6dad30df headers/deps: driver/core: Optimize <linux/device.h> dependencies, remove <linux/energy_model.h>
-a183816cea0e683fbc5807478bf1e693ce8f7a90 headers/deps: driver/core: Optimize <linux/device.h> dependencies, remove <linux/topology.h>
-32d4b5b6bbd5e63cc0c16f8e898fbb2ee3604921 headers/deps: Add header dependencies to .c files: <asm/x86_init.h>
-d5bb30a3f6b2a313049b8e84e0110fce7a437a5e headers/deps: Add header dependencies to .c files: <linux/topology.h>
-e77ad098e345682700ed8c10ffde03c2736f223d headers/deps: sched/wait: Split <linux/wait.h> into <linux/wait_api.h> and <linux/wait_types.h> inclusion
-d196488a790d68e07ae17e3f1bab63c04017bb2d headers/deps: sched/wait: Optimize <linux/wait.h>, remove <linux/wait_api.h> inclusion
-5357db369cf97baad914292254e0e2add2c5c201 headers/deps: sched/wait, fs: Remove <linux/wait_api.h> from <linux/fs.h>
-d20a88d62e6a52bc402662674f5ba5b58893b2ca headers/deps: Add header dependencies to .c files: <linux/wait_api.h>
-9df265c80b791784c3a01d4cf5d53dfd60c3940f headers/deps: net: Remove the <linux/wait_api.h> inclusion from <net/sock.h>
-20bb09bc0c9dfcca42979445b6a7f52432828bb2 headers/deps: pid_namespace: Optimize <linux/pid_namespace.h> dependencies
-4d257eb1dba93130f39e847c2bb31c22319cf191 headers/deps: net: Split <linux/etherdevice.h> into <linux/etherdevice_types.h> and <linux/etherdevice_api.h>
-b63712d95bb47bdb3d2fdd415dabe5cb04c5d1c9 headers/deps: net: Split <linux/if_vlan.h> into <linux/if_vlan_types.h> and <linux/if_vlan_api.h>
-8065ae514a4bd4d4282ce5292a02bd91bdf8eb18 headers/deps: net: Move <linux/netdevice.h> to <linux/netdevice_types.h>
-56a094dfd55fdc5b85563555c854aaa9215524eb headers/deps: net: Optimize <linux/if_vlan.h>, remove <linux/if_vlan_api.h> inclusion
-e61669d7a3bef27f2ceee1c8600e2646247bc458 headers/deps: net: Move ip_tunnel_ecn_encap() into <net/ip_tunnels_ecn.h>
-f2c81ad481f3a7af3eeeb12263eb95f2656ecced headers/deps: net: Remove the <net/inet_ecn_api.h> header from <net/ip_tunnels.h>
-115060b8f7e3de21c484f728d4565102eeadaa8a headers/deps: net: Remove the <linux/inet_ecn.h> header from <net/tcp.h>
-03b8f27ecfa6d9393740b4c3982fd135d28a4baa headers/deps: net: Remove <net/inet_ecn.h> from <net/codel.h>
-764d44b1f4c6a8b8aeb060af092e1325177f0925 headers/deps: net: Optimize the <linux/if_vlan_types.h> header
-1d42de3fe8b6f27b39c28f48c2a8aba222551327 headers/deps: net: Split out the <net/net_namespace_types_possible.h> header
-9ded99458846ddafa2d01dcc45a42a5d1fd5ac41 headers/deps: net: Optimize <linux/netdevice_types.h> header dependencies
-d51f32102e5ac2aae259a2871563dfbe4f095895 headers/deps: net: Optimize the <linux/etherdevice.h> header's dependencies, remove the <linux/etherdevice_api.h> header
-ba9b7e85305feb4b01a815378dcdbc40add4618e headers/deps: net: Split <linux/if_ether_api.h> header out of <linux/if_ether.h>
-9eb491048fd95378dc6d88772492a5c7d96f7e01 headers/deps: net: Optimize <linux/if_ether.h>
-c6152a24fab560fcb994e6340ca146972833b56e headers/deps: lib/scatterlist: Split <linux/scatterlist.h> into <linux/scatterlist_types.h> and <linux/scatterlist_api.h> headers
-edb82364d1d36b20089c47c78dfdb53688e6ab53 headers/deps: lib/scatterlist: Optimize the default <linux/scatterlist.h> header, remove the <linux/scatterlist_api.h> header
-d12e1d194e35dab07555da70e6082d3824196223 headers/deps: lib/scatterlist: Optimize <linux/scatterlist_types.h> dependencies, remove <linux/mm.h>
-91bffab1310ea1b3b45f1b7df51e4bce3e9681bc headers/deps: lib/scatterlist: Optimize the <linux/scatterlist_types.h> header, remove <linux/io.h>
-23fbd6eb2a3606150a94cbe73ea2acaf2e03b37e headers/deps: lib/scatterlist: Optimize <linux/scatterlist_types.h>, remove <linux/bug.h>
-ddf71ac959ea1d54d7aab4b881b241504910ec0c headers/deps: lib/scatterlist: Optimize <linux/scatterlist_types.h>, remove <linux/string.h>
-b946bb1a75499a8e2b8b40b017718c34b61a4ab2 headers/deps: x86/mm/64: Move the vmemmap definitions from the pgtable.h hierarchy over into page.h
-b822a420237ee27c8a6c5828787fa68532947fbb headers/deps: mm: Split out <linux/mm_page_address.h> definitions
-7f310e3c34a335187146a0019ef5ab527eddbf2e headers/deps: dma-mapping: Optimize <linux/dma-mapping.h> dependencies, remove <linux/mm.h>
-4904e82180a67103c8a870c2bac5f05ad0275e4a headers/deps: locking/spinlocks: Create a standard <linux/spinlock[_types|_api].h> header split
-9ebf3718a8beddd7e833f9c9785ad69295c46099 headers/deps: x86/asm: Split out <asm/ptrace_types.h> from <asm/ptrace.h>
-a7d8223f1a821c8553862f070e0102869043d90d headers/deps: x86/asm: Optimize <asm/processor.h>
-1b484832e089407c80b0fba963f34c008b66ca33 headers/deps: x86/hyperv: Decouple <clocksource/hyperv_timer.h> from low level x86 headers
-973b11a7a0cc29b17a4e5e26250c6c7ed4cd64cf headers/deps: x86/mm: Move the page address definitions from <asm/page.h> to <asm/page_types.h>
-147894436fbc44993e4d7a4a73061d476f23ab04 headers/deps: mm: Optimize <linux/mm_page_address.h>, use <asm/page_types.h>
-4d89222e1a01e472ba0183de13888188727640e5 headers/deps: locking/spinlocks: Optimize <linux/spinlock.h> dependencies, remove the <linux/spinlock_api.h> inclusion
-7e097c64c336c05dc33331aff4e80bb49c047622 headers/deps: fs/dcache: Optimize <linux/dcache.h>, remove <linux/spinlock_api.h>
-41ad473bba69ea016c4c42162bdf046ebc1f156c headers/deps: fs: Optimize <linux/fs.h> dependencies
-c258560ded74e07714e29aa0d6ea4809aaae1b13 headers/deps: dcache: Move the ____cacheline_aligned attribute to the head of the definition
-cdaf4eef6f2d15fc125133ada392d81704c4b4c0 headers/deps: x86/mm: Optimize <asm/page_types.h> header dependencies
-0714645d231f56e6199acc3383deb315ef9c5a44 headers/deps: x86/mm: Optimize <asm/pgtable_types.h> header dependencies
-7ffb4a5c9117766553f070d5296c8afd41c8fa51 headers/deps: x86/cpu: Decouple <asm/cpufeature.h> and <asm/processor.h>
-8241a1da8d24386f634abeed368d6697c4f03644 headers/deps: x86/msr: Split out the <asm/msr_types.h> header from <asm/msr.h>
-a3be852fc7a5c292216a6c7b8eabcc46e2b8134c headers/deps: x86/cpu: Optimize <asm/processor.h> dependencies
-accc9a64b5f89d459a98f0c7cd95864f6796f98c headers/deps: mm/mmzone: Optimize <linux/mmzone.h> dependencies, remove <linux/memory_hotplug.h> inclusion
-485a4472a4591425a9fb69ddc4fda7d1b84fbb32 headers/deps: mm/mmzone: Optimize <linux/mmzone.h> dependencies, remove <linux/spinlock_api.h> inclusion
-3a954592dfb627407a855e85e6f4d13984c8d28c headers/deps: mm: Optimize <linux/mm.h>, remove <linux/spinlock_api.h>
-5bc1d2001bb4a18487a1f3a0eccfc8d0504692d9 headers/deps: ACPICA: Split locking definitions into <acpi/platform/aclinuxex_locking.h>
-4cbb061ecfb121691a04e67e487a976918b1989d headers/deps: hashtables: Split <linux/hashtables.h> into <linux/hashtable_types.h> and <linux/hashtable_api.h>
-5f7f96512d3f2228b0b07a1ff519b2066cfb395f headers/deps: hashtable: Optimize <linux/hashtable.h> dependencies, remove <linux/hashtable_api.h>
-b91cbc8e29cded8dabae9964bc05e7694b49ed92 headers/deps: hashtable: Optimize the <linux/hashtable_types.h> header
-4605bb0d4c78332f85bc4cd2ed442ccb4479e6e0 headers/deps: Optimize kernel/sched/clock.c dependencies
-db1bcb83b33c1ba7a076d214bac86500a7aa3d84 headers/deps: sched/clock: Mark all functions 'notrace', remove CC_FLAGS_FTRACE build asymmetry
-d6d00aae243818774943e0f6ac2d2a0e64e437d9 headers/deps: Fix comment typo in kernel/sched/cpudeadline.c
-a0b0d13f13cbda952e58d82551e2d89ded1be888 headers/deps: Make the <linux/sched/deadline.h> header build standalone
-4845b844b9716fa105aff72b65b60e4ffa3ae1c7 headers/deps: Introduce kernel/sched/build_utility.c and build multiple .c files there
-f419539649e7547eec58d07459937caeed276116 headers/deps: Introduce kernel/sched/build_policy.c and build multiple .c files there
-e7fb5813f23fdac20f8f146fb6143fd22d3bccbe headers/deps: Standardize kernel/sched/sched.h header dependencies
-73aac96eff8bc9c81476a9ef0a0b3e3a0c49135b headers/deps: Reorganize, clean up and optimize kernel/sched/core.c dependencies
-8593bd36b2768a317cf63733145621afd283d3e5 headers/deps: Reorganize, clean up and optimize kernel/sched/fair.c dependencies
-7e9e972559b3d41e9bfa714d368bbf4e28a4d4c7 headers/deps: Reorganize, clean up and optimize kernel/sched/build_policy.c dependencies
-59024f88bbe1a17bcac6b1e8817ac2c0a85b06a9 headers/deps: Reorganize, clean up and optimize kernel/sched/build_utility.c dependencies
-733b7728fdd96704b25c202b386128f2622de45f headers/deps: Reorganize, clean up and optimize kernel/sched/sched.h dependencies
-86ea9c6379b340f70eb23a615000bf3b4e3f4cd4 headers/deps: Add header dependencies to .h files: <linux/memory_hotplug.h>
-db800975102ac2e5cf23cde1060364fbc63f6871 headers/deps: Add header dependencies to .c files: <linux/memory_hotplug.h>
-9f405006ac9659f0ad896aebf5d6a210cc12c3e2 headers/deps: Add header dependencies to .h files: <linux/scatterlist_api.h>
-494c745745460b23716494797009339e24eff4fa headers/deps: Add header dependencies to .c files: <linux/scatterlist_api.h>
-54d98ff53725e4b617b13a8a05abda929bb42625 headers/deps: Add header dependencies to .h files: <linux/wait_api.h>
-b98d9ece86c5129bc0a2392f7ca9e4b74574d975 headers/deps: Add header dependencies to .c files: <linux/hashtable_api.h>
-d1ad151343a7dde09ab6c564422c01b5e14df063 headers/deps: Add header dependencies to .c files: <linux/slab.h>
-ae4a9b44d0872fe62a8081560484654d7176f673 headers/deps: Add header dependencies to .c files: <linux/math64.h>
-bedf4501850803704d2aa9a5e1eb0b90cedbc0c7 headers/deps: Add header dependencies to .h files: <linux/hashtable_api.h>
-a72621aa8584c65e56b3d31a78f80a3b63ba11ad headers/deps: Add header dependencies to .c files: <linux/hashtable_api.h>
-024d3b03ef9c9b04c151bf83f92a3e759992aa9e headers/deps: Add header dependencies to .c files: <linux/scatterlist_api.h>
-ea6ce4ca6209c37c23ea650a5ae9a0c08f9c544a headers/deps: Add header dependencies to .h files: <linux/netdevice_api.h>
-39985f45e0490b0cce93cdd28fbbb9f9b5eb2c5a headers/deps: Add header dependencies to .h files: <asm/msr.h>
-e6df2ec99799f9c0ca9ae19a1c834f78175cb8d6 headers/deps: Add header dependencies to .c files: <linux/xarray_api.h>
-94c69a1aa2686e3b26db2249aff3e4a078e9328b headers/deps: Add header dependencies to .c files: <asm/msr.h>
-f335e15423fba1f4b5ea16be2d3c19f7cfaecd48 headers/deps: Add header dependencies to .c files: <linux/io.h>
-f88ca5ccd670cd098f7bd17b65b2ed89136d0ee5 headers/deps: Add header dependencies to .c files: <linux/etherdevice_api.h>
-a7ac12c1387f3f5c63feee95a96a1683268c92d2 headers/deps: Add header dependencies to .c files: <linux/if_vlan_api.h>
-24326c2c9c22d42e64bed54fb6b122c494c5edbb headers/deps: locking: Move more lock-debug definitions from <linux/lockdep.h> to <linux/lockdep_types.h>
-cc9d5201f2220a95f99afd0ee46c77cc0b465767 headers/deps: Use <linux/lockdep_types.h> instead of <linux/lockdep.h> in <linux/sched.h>
-b7aada307c2519d7f19f1941ecd3a794399e040b headers/deps: bitops: Split out <linux/bitops_types.h> header
-4b58cb0ff663fb33c64cc57607de524b78487b94 headers/deps: locking: Move <linux/seqlock.h> to <linux/seqlock_types.h>
-4e2dda7bf4c6ac26ef146af1d907827b0120a030 headers/deps: timers/hrtimer: Merge <linux/hrtimer_defs.h> and <linux/hrtimer.h> into <linux/hrtimer_types.h>
-45e9242908ba5e51064a0dae49c110aa43084808 headers/deps: time: Move <linux/ktime.h> to <linux/ktime_types.h>
-d0c88bf3b1a29364858e948316f3751a671a9a5c headers/deps: workqueue: Move <linux/workqueue.h> to <linux/workqueue_types.h>
-9578de907a2cfb247790ff9d6dfe234a64f60bb1 headers/deps: idr: Move <linux/idr.h> to <linux/idr_types.h>
-77d55ed9d5daf6a74adb2b832eb6bc70eced33c7 headers/deps: sched/swait: Move <linux/swait.h> to <linux/swait_types.h>
-2ac980fa2d1237f3a9742af7ff9b9aa07a944bf2 headers/deps: percpu: Move <linux/percpu_counter.h> to <linux/percpu_counter_types.h>
-9579b1ae28f32b965ae3e9d70ed0dc3b78f1c73c headers/deps: mm: Move <linux/writeback.h> to <linux/writeback_types.h>
-d19d743b29289b3c0d022b9f0238421d768030a5 headers/deps: syscalls: Move <linux/syscalls.h> to <linux/syscalls_types.h>
-37d533d83c569d351bd89149047c19f1c3521df2 headers/deps: net: Optimize the <linux/skbuff_types.h> header dependencies, remove <linux/ktime_api.h>
-dbdf8cf3f140de80b0f42e0f9fbf2f0c35cdd877 headers/deps: locking/refcount: Split <linux/refcount.h> into <linux/refcount_types.h> and <linux/refcount_api.h>
-f787dade69a727e2a4ad506a73ebef46cfb309ba headers/deps: net: Optimize <linux/skbuff.h> header dependencies, remove <linux/refcount_api.h>
-d52f00c8d8733534ec95ce1e85d0fe15b15e1e0f headers/deps: locking: Split <linux/atomic.h> into <linux/atomic_types.h> and <linux/atomic_api.h>
-81070bb97b6f7f2e119a0429e81934c98f42859e headers/deps: kref: Split <linux/kref.h> into <linux/kref_types.h> and <linux/kref_api.h>
-f8d111b41d8551fa7673bdc64c4516214df7f0a2 headers/deps: locking/refcount: Optimize the <linux/refcount.h> header, remove <linux/refcount_api.h>
-924b73c8ebf02d7785a50da32037d8066ac73001 headers/deps: kref: Optimize the <linux/kref.h> header, remove <linux/kref_api.h>
-f3561d20861f96c953194a52bab8b7a495fa6fc3 headers/deps: time: Move <linux/timerqueue.h> to <linux/timerqueue_types.h>
-477564303071bc1bf13daadca26790446a108659 headers/deps: time: Move <linux/rbtree.h> to <linux/rbtree_api.h>
-7957568490c724cb10507ab6d3ea7adcec1faca5 headers/deps: rbtree: Optimize <linux/rbtree.h> dependencies, remove the <linux/rbtree_api.h> inclusion
-147b31d4e35c7ca10d957e870547e90ab986dfc8 headers/deps: Add header dependencies to .c files: <linux/rbtree_api.h>
-ae48926a2f6d15dfc04c781963079fe1c7735d2f headers/deps: locking/atomics: Move the atomic_long_t definition in <linux/types.h>
-5a0d6a7348d9cc012721358226afe80288fc5789 headers/deps: netdevice: Simplify <linux/netdevice_types.h> a bit
-b852fded4afe79e00b6397269ab8b887ce924251 headers/deps: drivers/core: Split <linux/device.h> into <linux/device_types.h> and <linux/device_api.h>
-e1ab98b2d9ff2dcb17566b356eefcf968c8ad3a4 headers/deps: driver/core: Optimize <linux/device_types.h> dependencies
-9aa3412e55629c18c08b0a66dbd7dd0ad19b6805 headers/deps: net: Optimize <linux/netdevice_types.h> dependencies, remove <linux/device_api.h> inclusion
-977ae98d688267b7feebf193a86ef888217c5282 headers/deps: Add header dependencies to .c files: <linux/kmod.h>
-c3712fb3a96ca67a7c78bba699b273d678c4bb9a headers/deps: kobject: Split <linux/kobject.h> into <linux/kobject_types.h> and <linux/kobject_api.h>
-1490747dbb4e140dddf52192deb5b10fcfbf1729 headers/deps: kobject: Optimize <linux/kobject.h> dependencies, remove the <linux/kobject_api.h> header
-321cc1e2f12daf13b62dcafdf91bab30587eb31a headers/deps: of: Split <linux/of.h> into <linux/of_types.h> and <linux/of_api.h>
-b96a522d5a8e0a7a8e8a755d12248dcbfd934c8b headers/deps: of: Optimize <linux/of.h> dependencies, remove <linux/of_api.h>
-44b77e92be93c604f1b98cd293b92f190f074875 headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-a460be4ceb21e49e292fa146d9100c18758842bf headers/deps: ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/irqdomain.h> inclusion
-7f01b43e084d0ce00fc3b2094b31edbb7b899af2 headers/deps: of: Optimize <linux/of_types.h> dependencies
-4a8a466dc39a8bdc5eeecbe3809fa80bacfe611d headers/deps: arm64/mm: Prepare <asm/pgtable_types.h> for generic use
-0b634bf4e1efc8e124e578881944f29f22717254 headers/deps: mm: Split <linux/pgtable.h> into <linux/pgtable_types.h> and <linux/pgtable_api.h>
-0d9285080978e6624fc560ccbbeff44758e9b51c headers/deps: mm: Optimize <linux/pgtable.h> dependencies - remove the <linux/pgtable_api.h> inclusion
-7e94ba173d84f67834cbe83d98f73b60ae7fb3e2 headers/deps: csd: Move <linux/smp.h> to <linux/smp_api.h>
-cb037a5f8751163f73d5f2f4639ecf3eb52464ff headers/deps: csd: Move 'struct __call_single_data' definition and initialization helpers from <linux/smp_api.h> to <linux/smp_types.h>
-3e614b3d5e053aa5fcdcbc23de483d2a46352449 headers/deps: smp: Optimize <linux/smp.h> dependencies, remove <linux/smp_api.h> inclusion
-9cde08e4d703e77618794be1ac016192c0aafece headers/deps: mm/fixmap: Don't include <linux/mm_types.h> in a low level header
-b0bac720c10315c1d2be6dc444af7137bfef9b51 headers/deps: mm: Clean up <linux/mm_types.h>, introduce <linux/mm_api.h>
-e8fe1f40582022e434c6321c333fafb4a3f48c7c headers/deps: mm: Decouple <linux/swap.h> from <linux/vmstat.h>
-74ada1acb1373055fc5e445e712af06867c10e3b headers/deps: mm/thp: Move the PageTrans*() methods to <linux/page-flags-thp.h>
-51519cf1864cd2a0fa2f6f36d5566ed7e8592431 headers/deps: mm: Further split up <linux/mm.h> into <linux/mm_types.h> and <linux/mm_api.h>
-5073528447a7c752c155abad3675e47d83689f07 headers/deps: mm: Move <linux/vmstat.h> out of the middle of <linux/mm_api.h> and clean up its dependencies
-c393f38ebbc4a3b57225acb5f7fb4ef8db330da6 headers/deps: locking/seqlocks: Split <linux/seqcount_types.h> out of <linux/seqlock_types.h>
-a4bebf567d501f719485b7009fba338aea03f983 headers/deps: mm: Simplify <linux/mm_types.h>
-2dc2513a7b9fe3916521bd10467b34c835bc95dc headers/deps: notifiers: Split <linux/notifier.h> into <linux/notifier_types.h> and <linux/notifier_api.h>
-525ad409c5645ecf75b7f017727751e29fd86bbf headers/deps: uprobes: Optimize <linux/uprobes.h> and x86 <asm/uprobes.h> dependencies
-7b8e29e8517589c4d862443123a9b22f51f42967 headers/deps: mm: Optimize <linux/mm_types.h> dependencies
-981b422928d4bc160e89fb81d5f00292ca0ed93a headers/deps: arm64: Duplicate the vabits_actual declaration
-cc7be910efbb3cd2378f88a2562c5a70f556f7da headers/deps: notifiers: Optimize <linux/notifier.h> dependencies, remove <linux/notifier_api.h> inclusion
-3c3c1b7226370d3e46ff6f0e6d7405b365ad0b1d headers/deps: mm: Move the minimal KASAN API bits to <linux/mm_api_kasan.h>
-8ba806b2fd0c6534df762ade6b6fc31bc5c3197c headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove <linux/dma-mapping.h>
-c55d8472e2fab113666f627abb6d34102a5e3d69 headers/deps: cpumask: Split <linux/cpumask.h> into <linux/cpumask_types.h> and <linux/cpumask_api.h>
-9c7897027233969b6eb9bbb2186cd0ff14af48e8 headers/deps: cpumask: Simplify <linux/cpumask_types.h>
-862bb61eb86ff97b047d36ee845f85674f07f7bb headers/deps: cpumask: Optimize <linux/cpumask.h>, remove <linux/cpumask_api.h>
-0f7de0fda395ffafaef0d647ccdfbdc00623219f headers/deps: RCU: Remove __read_mostly annotations from externs
-f0926d7ae783c419d3adf164d6f925525bf93681 headers/deps: x86/cpu, arm64/cpu: Split out <asm/processor_api.h> from <asm/processor.h>
-7b96187a3803792b4d516b5039d962954a400a46 headers/deps: x86/asm: Split <asm/segment.h> into <asm/segment_types.h> and <asm/segment_api.h>
-de66be06f9ab8320f0b2edf908248eafa86ba1cc headers/deps: x86/cpu: Optimize <asm/processor.h> dependencies
-e27d5f5f2dc4d36b463ecdc80a5a2cbba9565fa5 headers/deps: x86/cpu: Move <asm/processor.h> to <asm/processor_types.h>
-3d2717c365183730f35d051d4e0bc6ee2b826712 headers/deps: mm: Move the VM_* flag definitions from <linux/mm_api.h> to <linux/mm_types.h>
-112c78dc0f35b422a9ec94ac7dbc4c80b8a96f63 headers/deps: mm: Move the gate VMA related methods from <linux/mm_api.h> into <linux/mm_api_gate_area.h>
-99d7e068249dc76c37b40d83f15b13ae4dd222cf headers/deps: mm: Split <linux/mm_api_kvmalloc.h> methods out of <linux/mm_api.h>
-4c4edf06061af47a7ff515278dd60260772b9942 headers/deps: mm: Split out the <linux/mm_api_truncate.h> APIs from <linux/mm_api.h>
-305fef3d368cf7858bdc7bce193173c18951871d headers/deps: kallsyms: Optimize the <linux/kallsyms.h> header, remove <linux/mm_api.h>
-b1a39189d3c9b70340563bc9e26b1476bf872bdf headers/deps: fs/xattr: Optimize <linux/xattr.h> dependencies, use the new <linux/mm_api_kvmalloc.h> header
-6cd2ed1bf7e7307474443e93185e666bf36bb86f headers/deps: mm: Optimize <linux/mm_api.h>, remove the <linux/mm_api_gate_area.h> header
-5bc797672357b0da183439d136ee9c93a8443a09 headers/deps: mm: Optimize <linux/mm_api.h>, remove the <linux/mm_api_kvmalloc.h> header inclusion
-c9bfccaadcb201e4d63d2218a48f37bf56edca29 headers/deps: Add header dependencies to .h files: <linux/mm_api_kvmalloc.h>
-7c73b369da5a38459e7ee0bd839e6090619059ab headers/deps: Add header dependencies to .c files: <linux/mm_api_kvmalloc.h>
-7f099b6feae8f5e982b5f37338976aac6149ceee headers/deps: mm: Optimize <linux/mm_api.h>, remove the <linux/mm_truncate.h> header
-47460b60483348148954a3316faae20fa53ff356 headers/deps: Add header dependencies to .c files: <linux/mm_api_truncate.h>
-ccecbf84c7b0db44635422007f39edd86e3e08b6 headers/deps: mm: Optimize <linux/mm.h>, remove <linux/mm_api.h> inclusion
-66facd11a2e6cb852053c7eac002c34fb9b098c5 headers/deps: locking/atomics: Optimize <linux/atomic.h>, remove the <linux/atomic_api.h> inclusion
-377c6fc626049ff779aa5a48057c60e6767f4c35 headers/deps: PCI: Optimize <linux/pci.h>, remove the <linux/pci-dma-compat.h> header
-c1ce2cfb03396547c7e2368ea7be01bd20615c58 headers/deps: xarray: Split <linux/xarray.h> into <linux/xarray_types.h> and <linux/xarray_api.h>
-53a013c333d19f1164645c5b9a8ed232dbf3f807 headers/deps: Optimize <linux/xarray.h>, remove the <linux/xarray_api.h> inclusion
-438dc6c6e69c6370f4e7c1216ef04587b4a8c243 headers/deps: dma-mapping: Optimize <linux/dma-mapping.h.h> dependencies, remove <linux/mm_api.h> inclusion
-678c4d891b1c8bf24ab83d79f1467961b3e607cf headers/deps: net: Split <linux/skbuff_api_frag.h> out of <linux/skbuff_api.h>
-2cb4cc3b0621a70ac179fdb1a0b5057dbb090616 headers/deps: net: Move netlink_skb_clone() into its own header
-ff68f9474c2c1c3164beb56114e97c4dfc191419 headers/deps: net: Optimize <linux/skbuff_api.h>, remove the <linux/skbuff_api_frag.h> inclusion
-223b5199c00b46534060320d1b312c7960f83b63 headers/deps: mm: Move the gfpflags_allow_blocking() method from <linux/gfp_api.h> to <linux/gfp_types.h>
-565f8acc98ce0a20633d3e6bb89b9581cdd391b1 headers/deps: Move the dev_alloc*() methods from <linux/skbuff_api.h> to <linux/skbuff_api_frag.h>
-4dc932e018ba836aade6b1883ce46b271a27eef5 headers/deps: net: Split <linux/skbuff_api_page_pool.h> from <linux/skbuff_api.h>
-ef304c6661709e57a9f5f9298cd755b276af30e3 headers/deps: mm: Split the <linux/mm_api_exe_file.h> header out of <linux/mm_api.h>
-1f8c16ffd6d4f3d2c47ccaa39c562328bb77a477 headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove the <linux/mm_api.h> inclusion
-7ebab16fb834df981cf3f2b19016d5d624f67fd5 headers/deps: EFI: Move efivar_unregister() to its sole user
-f9f2f8bbabd85fdbbe3da32744b54734d4e6d3bf headers/deps: driver/core: Move more types into <linux/device_types.h>
-6225628db5ed780982043bd23d91ca658b0f630a headers/deps: bdi: Decouple <linux/backing-dev-api.h> from <linux/kref_api.h>
-608680c19fbb726b6342934e9b46eee428bd0abe headers/deps: kobject: Move kobject_name() from <linux/kobject_api.h> to <linux/kobject_types.h>
-74b9374a577c24ee2f57c200ddb39477f3c46b71 headers/deps: driver/core: Move the device_name() method from <linux/device_api.h> to <linux/device_types.h>
-f794e14dd61a696250464adb660d2057dd652d06 headers/deps: kobject: Move global variables into <linux/kobject_types.h>
-a79c4066585d898b2550543ed437a30172d3df60 headers/deps: device/core: Move kobj_to_dev() from <linux/device_api.h> to <linux/device_types.h>
-20d4e76ab4f33e5fd9cafd153929df13e2fc52d4 headers/deps: locking/lockdep: Optimize <linux/lockdep.h> dependencies
-944703b1357921224a7d15262c71024a62b77536 headers/deps: locking/debug: Optimize <linux/debug_locks.h> dependencies
-e40cd065a92afd20f58e053ad4d5ce7a313a816e headers/deps: x86/elf: Optimize <asm/elf.h> dependencies, split out <asm/elf_api.h>
-242edfeca75e3c499adf89554987b34895f3c5c7 headers/deps: net: Optimize <linux/netdevice_api.h>, remove the <linux/device.h> inclusion
-38e4161fcb6890f2f90e6bec22bedb6c5c6e0f86 headers/deps: Add header dependencies to .c files: <linux/kmod.h>
-a633f39422f68d5e6e012e157589ccd224a447b9 headers/deps: PCI: Optimize <linux/pci.h> dependencies, remove <linux/device_api.h> inclusion
-48ae96df0ec64b9e10470a53b24ba233bf8ef461 headers/deps: mm: Optimize <linux/node.h> dependencies
-64b98247d4398f36cd266c892c77153dfa87a8e2 headers/deps: i2c: Optimize <linux/i2c.h> dependencies, remove <linux/device_api.h> inclusion
-d11d23ae1ec9c433732df4cf2ccf776aad0aa1d2 headers/deps: block: Optimize <linux/blk_types.h> dependencies, remove the <linux/device_api.h> inclusion
-7a6db042402c9d7a8600e91c24b1c15f365e4c2e headers/deps: Add header dependencies to .c files: <linux/kobject_api.h>
-743535d9080f2c4285da91078a7a6a0ea896c9ae headers/deps: dma-mapping: Optimize <linux/dma-mapping.> dependencies, remove <linux/device_api.h>
-d620073eca06544079675406d0e436a670fb78df headers/deps: USB: Optimize <linux/usb/ch9.h> dependencies, remove <linux/device.h>
-c0239daf69d1f8ece3a26893667dd7064e95892a headers/deps: DRM: Optimize <drm/drm_print.h> dependencies
-535a4b522e6e214fb417dc12fd4613ae5558d2af headers/deps: driver/core: Optimize <linux/genhd.h> and <linux/platform_device.h> dependencies, remove <linux/device_api.h> inclusion
-965ffd4b650cf9ee4f12c079a799034938c3307b headers/deps: PM/runtime: Optimize <linux/pm_runtime.h> dependencies, remove <linux/device_api.h> inclusion
-1866fce41e07e0a7f3cfb273ec7c3689f56a7022 headers/deps: USB: Optimize <linux/usb.h> dependencies, remove <linux/device_api.h> inclusion
-7a139122972362445f5a831cfd78dcd9203df8e2 headers/deps: ACPI: Optimize <linux/acpi.h> dependencies, remove <linux/device_api.h> inclusion
-98e087839f7db990d605f8b93c5f8ea83f52a469 headers/deps: driver/core: Move the dev_driver_string() method from <linux/device_api.h> to <linux/device_types.h>
-c1f6c59d271bcca1126a6b2ba0f96423cae3c774 headers/deps: video/hdmi: Optimize <linux/hdmi.h> dependencies, remove <linux/device_api.h>
-2fdf27fe6cda9a4f5763c11aa3631cbcca0b9569 headers/deps: ALSA: Optimize <sound/core.h> dependencies, remove <linux/drivers_api.h> inclusion
-79a4a0b009f286606b4b9c7683de76e255ce69ba headers/deps: locking: Split <linux/filter.h> into <linux/filter_types.h> and <linux/filter_api.h>
-4b29a4e2e0b973c9f19c2fe027a88e0c3d107fa0 headers/deps: net: Split <net/sch_generic.h> into <net/sch_generic_types.h> and <net/sch_generic_api.h>
-1585843159e3d6ac65b5952181ad93ee22ebff57 headers/deps: net: Optimize <net/sock.h>, remove <linux/filter.h> inclusion
-7d9f7994ec844712aa1ad9c9c737902a90b057af headers/deps: net: Split <net/sock.h> into <net/sock_types.h> and <net/sock_api.h>
-9d63057309b1ef16f030ced03fc11af0973926d9 headers/deps: net: Optimize <net/sock.h> dependencies, remove <net/sock_api.h> inclusion
-53ab4fed669f26a8051dc9bdfa8196d34e00cfde headers/deps: net: Split <net/ipv6_api_sock.h> header out of <net/ipv6.h>
-9d08a89cc374202f934a01c41c0feb7429e5e65e headers/deps: net: Move net_sock() from <net/sock_api.h> to <net/sock_types.h>
-1bab64d6c0ca0eb3bea1495c38687fbf2923fae6 headers/deps: net: Move 'struct proto' from <net/sock_api.h> to <net/sock_types.h>
-60239a73abbda1a6f790990b7d7f7eaf6e2a3fcc headers/deps: net: Move sk_fullsock() from <net/sock_api.h> to <net/sock_types.h>
-8bdfef9d0908db65c4bc291f6ae4391fe4151aa6 headers/deps: net: Move 'struct sockcm_cookie' from <net/sock_api.h> to <net/sock_types.h>
-74ff5b7cecb1e83a02a3e1f3f40549ea667a2ac4 headers/deps: net: Split <net/route.h> into <net/route_types.h> and <net/route_api.h>
-610d78c96b58e241f109fab44924e4c340119639 headers/deps: net: Optimize <net/route.h> dependencies, remove <net/route_api.h> inclusion
-8f8efa29ac94965f5e2ebbb1e9e077790475efa4 headers/deps: net: Move more constants from <net/sock_api.h> to <net/sock_types.h>
-0748830a6f99ee765d4ab4a02fc50b9f10b09443 headers/deps: ipv6: Move __inet6_lookup_skb() next to its primary user
-2d29c2bf72bc350286fde40e765568afbb086353 headers/deps: net: Optimize <net/request_sock.h> dependencies, remove <net/sock_api.h>
-79b4a8770e66aac02f2979669605e231b3942f76 headers/deps: net: Decouple <net/udp.h> from <net/sock_api.h>
-d33895c49b8cc96b3800b3d7f2783c77ea68f6ef headers/deps: net/rds: Decouple <net/rds/rds.h> from <net/sock_api.h>
-2a8e914d429f26bda4d9fe55a16a0097e988d1da headers/deps: net: Optimize <net/ip.h> dependencies, remove <net/route_api.h> and <net/sock_api.h> dependencies
-211c1d464a8b061190107b9f823270877075f834 headers/deps: net: Move read_pnet() from <net/net_namespace.h> into <net/net_namespace_types_possible.h>
-ce0da8eac774d1e21e09c7920b544688cf7e715b headers/deps: net: Optimize <net/sock_types.h> dependencies, remove various headers
-f15316acac09a56c8ff0808e08691a4202b0969b headers/deps: net: Optimize <linux/inet_hashtables.h> dependencies, remove <net/route_api.h> inclusion
-fa43a4de488094bd92997bcc3d1b65e3a01fca27 headers/deps: net: Optimize <net/fib_notifier.h> dependencies
-b3daae8285b9ede4b6ca427f56e87829a671f481 headers/deps: net: Split <linux/siphash.h> into <linux/siphash_types.h> and <linux/siphash_api.h>
-d7b4f0cbd93d57a4be26d3ab3136ccb54031674d headers/deps: net: Optimize <net/flow_dissector.h> dependencies
-987f5e5c4582058fc8c08b9e2ca8a9519e69d5ee headers/deps: time: Split <linux/time64.h> into <linux/time64_types.h> and <linux/time64_api.h>
-638ecceab1ecd780a521f04de15df00279010495 headers/deps: iov: Split <linux/uio.h> into <linux/uio_types.h> and <linux/uio_api.h>
-9b59a4ce75aaa9a4aa812dafce81c9310c0db393 headers/deps: net: Optimize <linux/socket.h> dependencies
-b9d07c8901302c6192fcf9f72b6ee53f27cbd579 headers/deps: net: Optimize <net/flow.h> dependencies a bit
-5a1eac7d8b0459bee9aa2be3843837e816e0c59b headers/deps: net: Move the 'struct sk_buff_head' definition to <linux/skbuff_types_head.h> header
-942a5558675c08de5bb2c39b9246d0c507b1b514 headers/deps: net: Optimize <linux/netdevice_types.h> dependencies
-035e8e7d949ea224a5f1c0e1661353a95daff0ae headers/deps: notifiers: Move the NOTIFY_* constants into <linux/notifier_types.h>
-819f52287ce5321aadf10aa8521dbb308dac0f18 headers/deps: locking: Split <linux/osq_lock.h> into <linux/osq_lock_types.h> and <linux/osq_lock_api.h>
-1f90a695f2abc3b48dbf2cf2fdc2c60bcb8e615a headers/deps: locking/mutexes: Split <linux/mutex.h> into <linux/mutex_types.h> and <linux/mutex_api.h>
-17a68e85c266ed3554c36e0280b6802b12dc10d7 headers/deps: PM/core: Optimize <linux/pm.h> dependencies
-56c8f85e9c9d8843c8a061fc7492261aaf73e5b5 headers/deps: net/dql: Split <linux/dynamic_queue_limits.h> into <linux/dynamic_queue_limits_types.h> and <linux/dynamic_queue_limits_api.h>
-ee3f9ed941f70abf7958e71f029b35a0c9d33048 headers/deps: net: Optimize <linux/netdevice_types.h> dependencies a bit
-96b84937232ac311ff574509caaa14a953a9a3fb headers/deps: net: Optimize <uapi/linux/if_addr.h> dependencies
-27e7b89e6f52b841ba54be7a67319aa8c791c593 headers/deps: net: Optimize <uapi/linux/neighbour.h> dependencies
-bb4e5d0b0a6e8b2c45b69a710bcd3a29f9e9f4a3 headers/deps: net: Optimize <uapi/linux/rtnetlink.h> dependencies
-288f399cc1b414e9abc54648efca985778a7d739 headers/deps: net: Optimize <linux/rtnetlink.h> dependencies
-74ff2318118f9e01772f9c50dc1e58e88677a61d headers/deps: net: Split <net/scm.h> into <net/scm_types.h> and <net/scm_api.h>
-3c796aa7fcf38796d6e5bd1329a9005ee5fa5d66 headers/deps: net: Optimize <linux/netlink.h> dependencies
-75110345d5b9c7dfc6f8d1f47155625a124b8e2c headers/deps: net: Split <net/netlink.h> into <net/netlink_types.h> and <net/netlink_api.h>
-d3565555e0879da2a855e2a8e1ee5f68e1b9b5a2 headers/deps: net: Optimize <net/netlink_types.h> dependencies
-6edb9dbccf6626d63381ac5b5a1bbb72e6e4a806 headers/deps: net: Optimize <net/netlink.h> dependencies
-f62683958f76660815e94dece9b3fd74fe027fa5 headers/deps: net: Split <net/rtnetlink.h> into <net/rtnetlink_types.h> and <net/rtnetlink_api.h>
-8d8cd9cef2d2f7a68219e660f48e62060940d7af headers/deps: net: Optimize <net/rtnetlink.h> dependencies, remove <linux/rtnetlink_api.h> inclusion
-790c0b4fad6fdbf1fcd255ec0eef868137fdf69b headers/deps: net: Split <net/inet_connection_sock.h> into <net/inet_connection_sock_types.h> and <net/inet_connection_sock_api.h>
-87b02a9ccae6a87dab886512fd568d31eb58246a headers/deps: net: Split <net/inet_sock.h> into <net/inet_sock_types.h> and <net/inet_sock_api.h>
-132ef5f9287c5822c8cb8441cf6b49c682e6bc5d headers/deps: net: Optimize <net/inet_sock.h> dependencies
-4bf1063682887d9b565dc9ac2913dfc1dc5eea9a headers/deps: net: Split <net/request_sock.h> into <net/request_sock_types.h> and <net/request_sock_api.h>
-60e24f10c74a094ae99cd5081e1438273b14ebf2 headers/deps: net: Optimize <net/request_sock_types.h> dependencies
-f1b77a7a1ac36e18ea765a0e6976d11f738d8d75 headers/deps: net: Optimize <net/inet_connection_sock_types.h> dependencies
-ee7e7bf87193e26ab741c38bfcc6e130dd7ad3a0 headers/deps: net: Optimize <net/inet_timewait_sock.h> dependencies
-fe3401aae25fb2ce88249594b90035ec541d64e0 headers/deps: net: Split <net/inet_timewait_sock.h> into <net/inet_timewait_sock_types.h> and <net/inet_timewait_sock_api.h>
-e23dba38e3358bff40031615ea0219c0b5e85f85 headers/deps: locking: Split <linux/u64_stats_sync.h> into <linux/u64_stats_sync_types.h> and <linux/u64_stats_sync_api.h>
-3f8e6081c351f14a14ef8c6e52ba1a3f85441e45 headers/deps: net: Optimize <net/inet_sock_types.h> dependencies
-a3c7dd291c9e3d03ec3fe033184b454f1c6ea11e headers/deps: net: Optimize <linux/kernel_stat_types.h> dependencies for the !CONFIG_VIRT_CPU_ACCOUNTING_NATIVE case
-5979578378893b06bcc39fe160bfab2cafab0ad7 headers/deps: net: Optimize <linux/cgroup_types.h> dependencies
-44cadb86e84c828d3ff75adc6e752575ee06ab74 headers/deps: cgroups: Optimize <linux/bpf-cgroup-types.h> dependencies
-ad46417da147d3d56310778b399e8699f6b470cd headers/deps: net: Optimize <net/inet_timewait_sock_types.h> dependencies
-19b6a1ac8486f87e848ae052a4c1b11a92eb50c8 headers/deps: net: Move skb_transport_header() and skb_inner_transport_header() from <linux/skbuff_api.h> to <linux/skbuff_types.h>
-090ee5c1103925d0b7bee051ee36dcadd999a0b9 headers/deps: net: Optimize <linux/tcp.h> dependencies, remove various headers
-530b5de6decf98ccb2c8eea43fa5877b14b2509a objtool/kallsyms: Add new section
-6d267636101c68080098616cb8cd177a2072896f kbuild/linker: Gather all the __kallsyms sections into a single table
-c53632f3dc2781932928c5a29cba09c328696c25 objtool/kallsyms: Copy the symbol name and offset to the new __kallsyms ELF section
-006ebcec5259ce6f0ec70e2477fd061a9479b562 objtool/kallsyms: Increase section size dynamically
-a5b4cfc8d9784e932c34c22db9c8e8b922cb4f6e objtool/kallsyms: Use zero entry size for section
-d9f4565a633adca3a7070e93055bb506ba7c62f1 objtool/kallsyms: Output variable length strings
-2d75594fa0c0790cca6a3f6410ad3a8183e64121 objtool/kallsyms: Add kallsyms_offsets[] table
-b8e535d3d87b7768d57cfaaf6937966648cdadc5 objtool/kallsyms: Change name to __kallsyms_strs
-00cf6300963f397cff34681d18193ac4a1d775a0 objtool/kallsyms: Split out process_kallsyms_symbols()
-995c688297881b54a3455d684731892aec8a0aea objtool/kallsyms: Add relocations
-414199756a7fda57792cc54b5fb03015c84c9360 objtool/kallsyms: Skip discarded sections
-7f30fbb4a37aeee8d6f3e72fa250310c600068fb kallsyms/objtool: Print out the new symbol table on the kernel side
-abcc10e9b11f49d54ed01a2553d54e476c7f27b1 objtool/kallsyms: Use struct kallsyms_entry
-8cc1840d796e527b55b5e47121bebf7a4aa7fdb4 objtool/kallsyms, kallsyms/objtool: Share 'struct kallsyms_entry' definition
-83c7f715f3d11b63e45f23036200494a354aa2d9 kallsyms/objtool: Process entries
-cb6b4466fd2d9241d77b7be5037e601789468143 objtool/kallsyms: Switch to 64-bit absolute relocations
-de56f10421f69a3dabe5ddb1caed9e65e9275737 objtool/kallsyms: Fix initial offset
-50ebcfb935e98e1165ee054fdcd70f12284a50b0 kallsyms/objtool: Emit System.map-alike symbol list
-2c6ead2c5bf95317fc7e40971cc4e6c69eae033d objtool/kallsyms: Skip undefined symbols
-d8fb936d869ec4093793a4ce3497b4affd4a6fe5 objtool: Update the file even if there are no ORC symbols generated
-420d52d2224f07528ebc8684deee845e3067f34e objtool/kallsyms: Update symbol filter
-4219f59558d548a48fd3118f78db1350729e19e4 objtool/kallsyms: Add the CONFIG_KALLSYMS_FAST Kconfig option & its related Kconfig switches
-e844ba7189c30d4caf17b7973692e129c137aa35 kallsyms/objtool: Make the kallsyms work even if the generic tables are not there
-895c35ce09c9034c23a083d33f3eb9054c769e5c objtool/kallsyms, x86/relocs: Detect & ignore __kallsyms_offset section relocations
-9a843fc9e21c5486150443eda2591dbbfd80cbe6 headers/deps: locking/rwsems: Split <linux/rwsem.h> into <linux/rwsem_types.h> and <linux/rwsem_api.h>
-b1885c465d66c6240a6b079322916444f7592acf headers/deps: locking/rwsem: Optimize <linux/rwsem_types.h> dependencies
-d3f1dafca17c34b5fa38635b4afe8eccca844241 headers/deps: mm: Move the __pa_symbol() and lm_alias() defaults to <linux/mm_api.h>
-fa69357d2f2c63e8d3c9645fa1a40a60ce75d317 headers/deps: mm: Optimize <linux/mm_types_task.h> dependencies
-38821da58dbd1f6c0829a53374a6dfa4b6d029ac headers/deps: x86/mm: Optimize <asm/mmu.h> dependencies
-3345614364a6714922809a5a5bcbdc058356a1a7 headers/deps: mm: Optimize <linux/mm_types.h> dependencies, remove <linux/rwsem_api.h> inclusion
-b4d662dec1292f257921f1b4f208a10275b018ca headers/deps: tracing: Optimize <linux/trace_events.h> dependencies some more
-23ea3c647d4ea7878d12de48939d7a6cb629ef77 headers/deps: radix-tree: Optimize <linux/radix-tree.h> dependencies
-08d51c867b46ba1c695ed225612d25bf376648ba headers/deps: net: Optimize <net/timewait_sock.h> dependencies
-9a00ba4d672bfd20136e92c15fe2177b76a53157 headers/deps: seccomp: Optimize <linux/seccomp_types.h> dependencies
-bba236b62d550947e54e42da8724e5f3134df57c headers/deps: sched/header, x86: Optimize <asm/preempt.h> dependencies
-9bf0d95a99dc48926ee696ce0b74c51e4b80e8d4 headers/deps: llist: Split <linux/llist.h> into <linux/llist_types.h> and <linux/llist_api.h>
-47bb84ecf3a702be363dd2659776b5f649820baa headers/deps: llist: Optimize <linux/llist.h>, remove <linux/llist_api.h> inclusion
-720b4777f927ac399fc02bad9cb72bb73b333253 headers/deps: net: Optimize <linux/filter.h> dependencies, remove <linux/filter_api.h> inclusion
-c8ab0b69c82ec0137ad36d2965729842a280ede8 headers/deps: net: Optimize <linux/filter_types.h> dependencies
-f0ff9af0d027160660c5822d54dc9a49fcdd7db6 headers/deps: net: Optimize <linux/filter_types.h> dependencies
-7e88d11f8e9ca67b7eb1f445e68b302d262ab3b8 headers/deps: locking/mutexes: Optimize <linux/mutex.h> dependencies, remove <linux/mutex_api.h> inclusion
-ecd181e10d66fc9da99fe0213364f9d6cfb5861b headers/deps: locking/mutexes: Reduce <linux/mutex_api.h> dependencies
-2c28532cd747b78d42af5cf43f30bcf8ec29e8ed headers/deps: drivers/core: Move the device_lock*() APIs from <linux/device_api.h> to the new <linux/device_api_lock.h> header
-c9f206ac7a1e3ad15213fe8942b95a36a3237055 headers/deps: locking/rwsems: Optimize <linux/rwsem.h> dependencies, remove <linux/rwsem_api.h> inclusion
-08796ce20defb43d278225430f5fdb70d8f4d6bb headers/deps: Add header dependencies to .c files: <linux/rwsem_api.h>
-7e898d621358774dd242cad7f2059540cf17d1fe headers/deps: locking: Optimize <asm-generic/qrwlock.h> dependencies, remove <asm/processor.h> and <asm/barrier.h> inclusions
-beee650cfc2e7d479be2f9128f9c33d974ec603c headers/deps: x86/paravirt: Optimize <asm/paravirt_types.h> dependencies
-d821f8c3cb29a6d130f2f598892c7d5d4d5e9680 headers/deps: locking/x86: Optimize <asm/spinlock.h> dependencies
-4ea35a86afd4304a8cf41b175caa38ae94853912 headers/deps: x86/paravirt: Optimize <asm/paravirt.h> dependencies
-a00249dd24f379ad2562ac8b4f8227117c4b7767 headers/deps: locking/x86: Optimize <asm/qspinlock.h> dependencies
-43920dc2a745c5204663c7e75667e7cd6637540a headers/deps: smp: Optimize <linux/smp_types.h> dependencies
-9a3673cf8fd4ee2955920e4e160b9f6dcaeee52a headers/deps: Optimize <linux/jump_label.h>, remove the <linux/atomic_api.h> inclusion in the CONFIG_JUMP_LABEL=y case
-ad98390540d1e78e1d55e37f1cf2bf1904804de1 headers/deps: smp: Optimize <linux/smp_api.h> dependencies
-43472ddce411efa80895f6dc63b3a692803a3cce headers/deps: smp/x86: Optimize <asm/smp.h> dependencies
-b52bf6107e13ae5aeecd4a80843e78336bf337a5 headers/deps: x86: Rename <asm/cpumask.h> to <asm/cpumask_arch.h>
-7353bc61187b92716b855ea22dfe3102459b2eaa headers/deps: fs: Introduce <linux/fs_api_dir_context.h> header
-6c73acaf644704f3bfc5212d4a978f557bcc08bc headers/deps: fs: Optimize <linux/fs.h> dependencies, remove <linux/fs_entry_types.h> inclusion
-b97a4ca25a0790bb1c97a777219dcb0ccf4c4db4 headers/deps: fs: Split <linux/fs.h> into <linux/fs_types.h> and <linux/fs_api.h>
-86c08be6fbf09153f6d3fc3f2686f099d82d55a1 headers/deps: fs: Optimize <linux/fs_types.h> dependencies
-802b96e84c8a422e2a98050161c7e76acb48cace headers/deps: rcu: Split <linux/rcuwait.h> into <linux/rcuwait_types.h> and <linux/rcuwait_api.h>
-d1f55e6751fa795b598db07f55fb0fac2aa825c9 headers/deps: net: Split <linux/percpu_rwsem.h> into <linux/percpu_rwsem_types.h> and <linux/percpu_rwsem_api.h>
-8120ceea2d1b29c921c6dba70be8efe3265f34d7 headers/deps: net: Split <linux/rcu_sync.h> into <linux/rcu_sync_types.h> and <linux/rcu_sync_api.h>
-ca0235bef271a0fefa53cd8b1f558f1a621b1719 headers/deps: locking/percpu-rwsems: Optimize <linux/percpu_rwsem_types.h> dependencies
-4af8eaa89d90b556de6a63d26473aee281739dc9 headers/deps: fs: Optimize <linux/fs_types.h> dependencies
-12ea507b4223b73017e510700a1bd9999cdcb867 headers/deps: locking/percpu-rwsems: Optimize <linux/percpu_rwsem.h> dependencies
-f96adeac42bde94d9b432079cbae5ae0351c5c0b headers/deps: fs: Optimize <linux/fs_types.h> dependencies, remove <linux/dcache.h> inclusion
-6c6c55fbdbc18b0b5df14a68e649405aaa414a85 headers/deps: net: Split <linux/list_bl.h> into <linux/list_bl_types.h> and <linux/list_bl_api.h>
-726c453de97ccba6fa4427f3737ef4f1d51ade72 headers/deps: fs: Optimize <linux/fs_types.h> dependencies
-4a1e9267d22a35991666b137311ca110f54c7071 headers/deps: list_bl: Optimize <linux/list_bl.h> dependencies
-4a2a653b1d93926bde01c1819cee3de25481b519 headers/deps: net: Optimize <linux/fcntl.h> dependencies
-61be86902a13cfe15171dc93d59fa5c59cb7f408 headers/deps: list_lru: Split <linux/list_lru.h> into <linux/list_lru_types.h> and <linux/list_lru_api.h>
-a4388cdcf8349bf248da66877fbb19270b0d97f8 headers/deps: list_lru: Optimize <linux/list_lru_types.h> dependencies
-fb29b97e4f7139dded9fa2ea8255b329747d6b8f headers/deps: fs: Optimize <linux/fs_types.h> dependencies, remove <linux/list_lru_api.h> inclusion
-3f5f2b94ccbeac38e202fcfe2fe2646bb2441b0a headers/deps: fs: Optimize <linux/fs.h> dependencies, remove <linux/fs_api.h> inclusion
-f32fbc024d62eedc086ca27a471b37ba35f231db headers/deps: fs: Move i_size_read() from <linux/fs_api.h> to <linux/fs_types.h>
-b01c5dd26bb531197d2020ebd888b82a22d96a1b headers/deps: fs: Move inode_unhashed() from <linux/fs_api.h> to <linux/fs_types.h>
-e9a2c6e452ce2726ab98feb343a8c274469af0c8 headers/deps: block: Optimize <linux/genhd.h> dependencies, remove <linux/fs_api.h> inclusion
-4ace74ff37fbd4c893c553abef091030b7f0422e headers/deps: fs: Optimize <linux/seq_file.h> dependencies
-ed538d41c2ebaf58e2dac72b244cc3ccbb89b1b8 headers/deps: Add header dependencies to .c files: <linux/capability.h>
-eb3b6db1286364d5cedf1f522b5bc66a0cd394b1 headers/deps: net: Move neigh_output() and helper function into <net/neighbour_api_output.h>
-a35f8165e4ab8590a70dd6659997d83a4c7b02da headers/deps: net/rps: Factor out the rps_sock_flow_table functionality from header files and move it into net/core/dev.c
-5440b96a37816e20bbcaeb7903d18ebd461be2b4 headers/deps: u64_stats: Move the u64_stats_t types into <linux/u64_stats_sync_types.h>
-74092262d18eab28d2c3f496365a55de94bbdeff headers/deps: net_namespace: Move write_pnet() to <net/net_namespace_types_possible.h>
-7948342c0df0864a5aa8e54d4addd56d8cbbe229 headers/deps: net/dev: Move lightweight types & methods from <linux/netdevice_api.h> to <linux/netdevice_types.h>
-1320e18194343e8df6aea00ef7416f05ae1c2408 headers/deps: net/ip6: Factor out <net/ip6_route_api_mtu.h> from <net/ip6_route.h>
-e129209094a7339af7dba0376e51235e33a0ae88 headers/deps: net/gso: Move inet_gro_compute_pseudo() from <net/ip.h> to its own header in <net/ip_api_gro.h>
-fa250340d7a0a7f3d2b4cf6145f18cce47d44f16 headers/deps: net: Optimize <net/neighbour.h> dependencies, remove <linux/netdevice_api.h> inclusion
-b23603aa1f4599622fd49e525f74b90236d84edf headers/deps: net: Split <net/net_namespace_api.h> from <net/net_namespace.h>
-68eca78a5e2f48fab8ef2fea00f6027bdadc022e headers/deps: net/ns: Move net_eq() from <net/net_namespace_api.h> to <net/net_namespace_types.h>
-4caf1bd4f312656b8103ccc264a84f0ba5226253 headers/deps: net/ns: Move net_namespace_list methods from <net/net_namespace_api.h> to <net/net_namespace_types.h>
-5200aabe8727ac0e56e60474dde0d8e43eec9643 headers/deps: net: Optimize <net/net_namespace.h> dependencies
-9a3158d75db008dd5e8e6815dad12fdb6cff8003 headers/deps: Add header dependencies to .c files: <net/net_namespace_api.h>
-b5b8cf969923f3860f1e7b67da76b3a45d07cb47 headers/deps: net: Optimize <net/netns/ipv4.h> dependencies
-f8b115d0573988b5af98b75c02c73bfaea7f8107 headers/deps: net: Optimize <net/netns/ipv6.h> dependencies
-36fae645b25338fcf3d0f5a8466345d8ad782436 headers/deps: net: Optimize <net/netns/ieee802154_6lowpan.h>> dependencies
-70573be4b4494768fcb3ffe9241c43c23d1dd24b headers/deps: net: Optimize <net/net_namespace_types.h> dependencies
-e475c71b3a0e621e671a9efd6050f6dd3dd8cebf headers/deps: net: Optimize <linux/notifier_api.h> dependencies
-c9c5bf72900bc9d1c807bb85034c2e15c59e94e4 headers/deps: net: Split <linux/netfilter/nf_conntrack_common_api.h> from <linux/netfilter/nf_conntrack_common.h>
-8933d778d3bb32d20d9ab5886ffac19480c96028 headers/deps: Move more APIs from <linux/device_api.h> to <linux/device_api_lock.h>
-a4bf91f4803a58a7196d62f326122d6a25964a9b headers/deps: device/core: Move dev_get_platdata() from <linux/device_api.h> to <linux/device_types.h>
-e9bec81eef71b0327d2454d2cf36b05670600b2d headers/deps: dev/core: Optimize <linux/device.h> dependencies, remove <linux/device_api.h> inclusion
-6f6e210d4f3e4af33a7f8d642eccf6ab65fe9d76 headers/deps: locking/mutexes: Optimize <linux/mutex_api.h> dependencies
-fd8edce5c5de9aa513927b869dc30273c53ef8fe headers/deps: kobject: Optimize <linux/kobject_api.h> dependencies, remove <linux/kref_api.h> inclusion
-deab345ab6d89e9750b6aed13966642a9bfae80e headers/deps: driver core: Optimize <linux/fwnode.h> dependencies, remove <linux/device_api_lock.h> inclusion
-dac512ae2dc203b9ab86b334c1351eedb45568a4 headers/deps: Add header dependencies to .c files: <linux/device_api_lock.h>
-8ddbcaacb92e983f9e6c87dac6f56805dfc4ffcf headers/deps: drivers/core: Remove unnecessary <linux/fwnode.h> inclusions
-519f9b3690c884cbefc03c6cf3c2462ea28351d8 headers/deps: of: Optimize <linux/of_api.h> dependencies
-f6b6526b76720d65531fdca9f9466a7af7a34a8b headers/deps: keys: Optimize <linux/key.h> dependencies, remove <linux/sysctl.h>
-464ca1a062e7082fababc940f429a752e061fd36 headers/deps: keys: Optimize <linux/key.h> dependencies, remove <linux/rwsem_api.h>
-7939fa76cec07e6c5041517b2799d394776a22c7 headers/deps: keys: Optimize <linux/key.h> dependencies, remove <linux/refcount_api.h>
-092fcac1790fae9bbc23934722afa8d8cec9cfbd headers/deps: of: Optimize <linux/of_api.h> dependencies, remove <linux/property.h> inclusion
-1942e9ed7710c881d0195eea30dd581f42d25199 headers/deps: keys: Optimize <linux/key.h> dependencies, remove <linux/rcupdate.h> inclusion
-85e7df911bf284209d5c6696bae431e4102fbcd6 headers/deps: net: Split <linux/tasklet_types.h> and <linux/tasklet_api.h> out of <linux/interrupt.h>
-750e14ab94ce045bdafd91627952a0bc4f010181 headers/deps: genirq: Optimize <linux/irq.h> dependencies
-094f3718437dab59dc037ec59b47574f5b2142a3 headers/deps: genirq: Optimize <linux/interrupt.h> dependencies, remove the <linux/tasklet_api.h> inclusion
-6233ef6ad54f037c4f4603f46e6ed32452289bc5 headers/deps: genirq: Split <linux/softirq.h> out of <linux/interrupt.h>
-8250dedfda502f496bf22892320e771a90f347a4 headers/deps: genirq: Optimize <linux/interrupt.h> dependencies, remove <linux/softirq.h> inclusion
-20ad922143d8cd280c2906fd54370831b1bc8e1d headers/deps: genirq: Move hard_irq_disable() from <linux/interrupt.h> to <linux/hardirq.h>
-6b2d5c240ecf13f2de1054705213122f8429d968 headers/deps: genirq: Optimize <linux/interrupt.h> dependencies, remove <linux/hardirq.h>
-eecd24171ae17130e2e375df0554f6ac2c8e6a7d headers/deps: Remove <linux/hardirq.h> inclusions from headers that don't need it anymore
-d025e8c2f2596372a5f638ba8aff115b4b645149 headers/deps: genirq: Optimize <linux/interrupt.h> dependencies, remove <linux/atomic_api.h> inclusion
-887b51afb542ebf9ce5a8f430af1bb6ecaa6c274 headers/deps: locking/lockdep: Split <linux/lockep.h> into <linux/lockep_types.h> and <linux/lockep_api.h>
-36e7a177106551607ded4e0f82f83b93a91e68af headers/deps: locking/lockdep: Optimize <linux/lockdep.h> dependencies, remove <linux/lockdep_api.h> inclusion
-67c34f7d66ac13468c69e5cde9d28edaa2da0493 headers/deps: net: Optimize <linux/etherdevice_api.h> dependencies
-201ae6d7f136360b2baee4992ffd91de260bbc2d headers/deps: net: Factor out various <linux/etherdevice_api.h> methods into <linux/etherdevice_api_addr.h>
-0654e83b0c2703b20b77318377b5a2d21bc0abfa headers/deps: net: Optimize <linux/if_vlan_api.h> dependencies, remove the <linux/etherdevice_api.h> inclusion
-f19c04c826c37122b9e755e18eb2429f4aabdfbd headers/deps: net: Optimize <linux/etherdevice_api.h> dependencies: remove <linux/etherdevice_api.h> inclusions from headers
-568248878ea3997434bc4cb41163269cead71434 headers/deps: Move netdev_priv() from <linux/netdevice_api.h> to <linux/netdevice_types.h>
-687371cd76c41e000a29c9f822bb09fd3ca1e0b9 headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove <linux/skbuff_api.h> from headers that don't need it
-1b543b6b10b6ba3121e40b6b2594d6b2bff4fcfc headers/deps: net: Optimize <linux/etherdevice_types.h> dependencies
-9f89f56689800a89b91fc5663c1789c3c6de6bf3 headers/deps: sched: Optimize <linux/sched/topology.h> dependencies, remove <linux/cpumask_api.h> inclusion
-5a9d634699ea93979f6e4fea9285939efb6894f5 headers/deps: cpumask: Optimize <linux/cpumask_api.h> dependencies, move accessor methods to <linux/cpumask_types.h>
-0dfcd0667d7a38040abf2f5542002708714d90ae headers/deps: cpumask: Optimize <linux/cpumask_api.h> dependencies, remove unnecessary <linux/cpumask_api.h> inclusions
-feae082b4f9f1ea69ed0437ca5ea36157c201767 headers/deps: cpumask: Optimize <linux/cpumask_api.h> dependencies, move the cpu_max_bits_warn() and cpumask_check() methods to <linux/cpumask_types.h>
-f1d7a03722b77d1c0cf0f63e62f8584d6f819617 headers/deps: net: Move per-cpu stats methods from <linux/netdevice_api.h> into the new <linux/netdevice_api_pcpu_stats.h> header
-0346490f32e0c0ef12b19a124cb1c073bb74e723 headers/deps: net: Optimize <linux/netdevice_api.h> dependencies, remove <linux/cpumask_api.h> inclusion
-343e4ded03279435de6c7bd7199f671b2c4fd37e headers/deps: acpi: Optimize <acpi/acpi_bus.h> dependencies
-7d9172272df9cf5b2c76a75b2776ccd53364e832 headers/deps: PCI: Convert pci_is_enabled() to a macro
-b0446d4f93d729272cf2fda96b83f53b106d8cd9 headers/deps: PCI: Optimize <linux/pci.h> dependencies, remove <linux/atomic_api.h> inclusion
-448549f7a1a180765f8c21eb1b48ed57fb7b3893 headers/deps: locking/mutex: Optimize <linux/mutex_api.h> dependencies, remove <linux/atomic_api.h> inclusion
-d680128071a64ad17a4c69c1b1af7742608b4da6 headers/deps: locking/rwsem: Optimize <linux/rwsem_api.h> dependencies
-e654bc6d5d7ca9835dec98f2864ef6e9693bd81a headers/deps: locking/rwsem: Optimize <linux/rwsem_api.h> dependencies some more
-dde838bd7f5a775575747a9dd112533275b5d942 headers/deps: resource: Split <linux/resource_ext.h> into <linux/resource_ext_types.h> and <linux/resource_ext_api.h>
-3f46c1ee66378db03a4559413d03848709e1e62f headers/deps: resource: Optimize <linux/resource_ext.h> dependencies, remove <linux/resource_ext_api.h> inclusion
-0ec8bf1e9363a057ad3967c049a766dac5fa9c02 headers/deps: workqueue: Optimize <linux/workqueue_api.h> dependencies
-e9858c4118dfce910ff41d794548eeb31f810761 headers/deps: compiler: Move __must_be_array() from <linux/compiler.h> to <linux/compiler_types.h>
-c1392642698843282005fc4cb51dc2c7a96bc5a7 headers/deps: kernel: Optimize <linux/kernel.h> dependencies, remove <linux/printk.h> inclusion
-5bf947d9936ec273e40e019670a4da87a2c5e871 headers/deps: net: Split <linux/skbuff_api_nf.h> out of <linux/skbuff_api.h>
-3ae00a614eb0cfcc06dce26721312d5c92de44f3 headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove <linux/netfilter/nf_conntrack_common_api.h> inclusion
-513764af7c21f67c273c80f285946bbb5471b545 headers/deps: net: Split <linux/netdevice_api_prefetch.h> out of <linux/netdevice_api.h>
-cce281b578fa5e7f48a86e59fadd4247618fca5a headers/deps: net: Optimize <linux/netdevice_api.h> dependencies, remove <linux/prefetch.h> inclusion
-58267401b45cc76336deb23171c4c1e158d262dd headers/deps: net: Split locking methods out of <linux/netdevice_api.h>, into the new <linux/netdevice_api_lock.h> header
-4369db52603733d4eb869918c9cb8bfddb30c085 headers/deps: net: Optimize <linux/netdevice_api.h> dependencies
-6017c379caf473c5897fb9fb5d305e66151c4dd6 headers/deps: net: Optimize <linux/netdevice_api.h> dependencies, remove <linux/capability.h> inclusion
-f22b8826219af464cee522c14a9543edfec3e324 headers/deps: net: Optimize <linux/netdevice_api.h> dependencies, remove <linux/hrtimer.h> inclusion
-fa3cf962bac7ad1548ee3000fe5e108e001c1cad headers/deps: net/core: Optimize <linux/netdevice_api.h> dependencies, remove <linux/delay.h> inclusion
-ae7d0222021b2e705b2acca447e58fedc76abcea headers/deps: net: Optimize <net/netns/smc.h> dependencies
-69b76f78b6bf875f71171f9b7d66a6a20466dbbd headers/deps: net: Optimize <linux/netdevice_api.h> dependencies - remove misc headers
-e452c72e3e0a79f47d455fe7187f6166caebeeee headers/deps: net: Split <net/xdp.h> into <net/xdp_types.h> and <net/xdp_api.h>
-3d7518315c6ac0a7256707157d4e9f4ef7029cea headers/deps: net: Move the ____cacheline_aligned_in_smp attributes to an easier to debug position
-0fe6f8ee4b199cd918bd02715c314ebce4be468f headers/deps: net: Optimize <net/xdp.h> dependencies
-4fe0f743eac88196f0a13e9d484a2bcac50ca351 headers/deps: fs: Optimize <linux/dcache.h> dependencies, remove <linux/spinlock_types.h> inclusion
-1455c6df268a25d7117eaed77c4e467356c86d7f headers/deps: list_bl: Move hlist_bl_unhashed() from <linux/list_bl_api.h> to <linux/list_bl_types.h>
-03664f659cc6d3a031c94b5e1414b578bdd01428 headers/deps: fs: Optimize <linux/dcache.h> dependencies, remove <linux/list_bl_api.h> inclusion
-5cc5f5a04246ac5408975bdd99e95758bb990609 headers/deps: vfs: Split <linux/vfs_pressure.h> out of <linux/dcache.h>
-7a5799a99149f1ecf98c254f643632b0049f9070 headers/deps: fs: Optimize <linux/dcache.h> dependencies, remove <linux/math.h> inclusion
-81ba85c9f13db7fa9d305a6f6e105a3f7e0fa0cc headers/deps: fs: Optimize <linux/mount.h> dependencies
-611b52ec45c2a2e71608b7371a8fe7821e6107cf headers/deps: irq: Move the generic chip locking methods into <linux/irq_api_gc_lock.h>
-71a04834e2d56b01ef8498d544784316235eeb8f headers/deps: irq: Optimize <linux/irq.h> dependencies
-0a26cbdfe8fc9f1fa6407feff76650cdb0628e42 headers/deps: irq: Move the IO methods into <linux/irq_api_io.h>
-6d787862a07aea9462a636b99ec097b29f7a4ad8 headers/deps: irq: Optimize <linux/irq.h> dependencies, remove <linux/io.h> inclusion
-7d978982011b74442128ee02d7f2a1680929fefc headers/deps: irq: Move the generic effective IRQ affinity methods into <linux/irq_api_eff_affinity.h>
-2ce35becca92c5ff4a340fbc83bcd5a66a4f24a4 headers/deps: irq: Optimize <linux/irq.h> dependencies
-764a00438fba59b89f9574b1d8e6a0786f82f47f headers/deps: irq: Move the generic IRQ chip freeing methods into <linux/irq_api_free.h>
-df43b9a53fa7f72854040e204f1f177e4867c1f4 headers/deps: irq: Optimize <linux/irq.h> dependencies, remove <linux/slab.h>
-d4cdee93b1f50eba0999bb2fda4fe950021eb3c6 headers/deps: irq: Optimize <linux/irq.h> dependencies, remove <linux/irqdesc.h> inclusion
-4564565fb986fb338ae4c691fd278e7bac6f7c31 headers/deps: irq: Optimize <linux/irq.h> dependencies, remove <asm/ptrace.h> inclusion
-3933fc7e35f3f517bd6e309dc13349e12ec85cd3 headers/deps: irq/x86: Optimize <asm/hw_irq.h> dependencies, remove <linux/profile.h> inclusion
-c66b6504cc224f5ba539f1c6e2a4399cd41e8e2d headers/deps: irq/x86: Move arch local definitions into the new <asm/x86_irq.h> header
-2a49a7a85982689cb653dafcc0786d38553f2f09 headers/deps: sched/wait: Optimize <linux/wait_api.h> dependencies, remove <linux/spinlock_api.h> inclusion
-15095150a2a5e53ed7b41ad488b8488647fcdb03 headers/deps: net: Move seqlock related methods from <net/neighbour.h> to <net/neighbour_api_seqlock.h>
-0deb0a0e17778dae53864aff24b52c5bf7d9573f headers/deps: net: Optimize <net/neighbour.h> dependencies, remove <linux/seqlock_api.h> inclusion
-72e5f3cdc43fab33b57f8354d70ab81a079d5e82 headers/deps: net: Optimize <net/sch_generic.h> dependencies, remove <net/sch_generic_api.h> inclusion
-96d55dd112dc90e0ad045003ed52e1db9982fdfd headers/deps: net: Optimize <net/pkt_sched.h> dependencies
-5c84b70aa6b947947f8eb6d29c075cb02a96ede1 headers/deps: net: Move tcf_filter related methods from <net/pkt_cls.h> to <net/pkt_cls_api_tcf_filter.h>
-55dd1ed5ed71dfef1856ce7abdfc2d1a6895fce2 headers/deps: net: Optimize <net/pkt_cls.h> dependencies, remove <net/sch_generic_api.h> inclusion
-0f36cac59d6d5ae70b302a5c8fb98d404f62f5ab headers/deps: net: Move more types from <net/sch_generic_api.h> to <net/sch_generic_types.h>
-2fdea8791d6841a8fc19fec178740490cab4eac8 headers/deps: net: Optimize <net/pkt_cls.h> dependencies
-66e167b83759c82e03dc8de2a1734bb766a2e024 headers/deps: net: Optimize <linux/filter_api.h> dependencies, remove <net/sch_generic_api.h> inclusion
-75cabb4b25a122613f404bfe2643650b064bbbbe headers/deps: net: Optimize <net/sch_generic_types.h> dependencies
-7cc3e2da1c60d711be91a0658d2e8c9195cd946a headers/deps: bpf: Optimize <linux/bpf.h> dependencies, remove <linux/rbtree_latch.h> inclusion
-aaf435ba1dd0cadb20cf71cbaf6edb0c5d533727 headers/deps: mm: Optimize <sound/control.h> dependencies, remove <linux/spinlock_api.h> inclusion
-28fc0cb2eefa6ceda8a14a2e45abc6ae4d2f8a0f headers/deps: spi Optimize <linux/spi/spi.h> dependencies, remove <linux/spinlock_api.h> inclusion
-b147847e1c21099276b996462aee60fda3ff960c headers/deps: mm: Remove <asm/getorder.h> inclusions
-4247e8af75b6ee22f17abb6cf11afc469fd359fe headers/deps: drm: Split <drm/drm_vma_manager_api_vm_lock.h> out of <drm/drm_vma_manager.h>
-ca0a699d43d86e6cc4628a9cb2027471e6b339b7 headers/deps: mm/filemap: Split <linux/pagemap_api_readahead.h> out of <linux/pagemap_api_readahead.h>
-227839cb7b1fd6dc457de967b34707c1ab9d045e headers/deps: mm/filemap: Optimize <linux/pagemap.h> dependencies
-2186a1506b31b8b504ae345a4692eded4634b2b2 headers/deps: list_lru: Optimize <linux/list_lru.h> dependencies, remove <linux/list_lru_api.h> inclusion
-9ea35eec6ee90154fe1a5e6f6b869251387896a7 headers/deps: list_lru: Remove ____cacheline_aligned_in_smp designation from 'struct list_lru_node'
-206247f374a0423781795d672c3371b5270d84e2 headers/deps: list_lru: Optimize <linux/list_lru.h> dependencies, remove <linux/cache.h> inclusion
-c5f93aaf2913199831fad484880fd90577b52482 headers/deps: time: Move shift_right() from <linux/timex.h> to <linux/math.h>
-3156402836a0138277655b7f8d86902c062056fe headers/deps: time: Optimize <linux/jiffies.h> dependencies, remove <linux/timex.h> inclusion
-2469f6f8a793a44964cfcd3f210f8895da45f0ef headers/deps: time: Optimize <linux/clocksource.h> dependencies, remove <linux/timex.h> inclusion
-fd55eb1709e470b155c1e3b933785c898c52b45c headers/deps: mm: Move a couple of self-contained methods from <linux/mm_api.h> to <linux/mm_types.h>
-b610dcca6fe1c10dd05e84337137d47c8fb1c4db headers/deps: mm: Optimize <linux/mm_api.h> related dependencies
-f55911fff3098bf453e36016660d5777e6167ca1 headers/deps: mm: Move compound_nr() from <linux/mm_api.h> to <linux/mm_types.h>
-5a7fe7699f1380bcd8a71c4772f88a6e60bb72c9 headers/deps: scatterlist: Optimize <linux/scatterlist_api.h> dependencies, remove <linux/mm_api.h> inclusion
-5ffc46e0dcc5ed59b538150cf705ee4c294bec1c headers/deps: net: Move device statistics methods from <linux/netdevice_api.h> to <linux/netdevice_api_dev_stats.h>
-efd3f4ff83d32089fd0cb67ffe0d6bcef68d076a headers/deps: net: Optimize <net/snmp.h> dependencies, remove <linux/u64_stats_sync_api.h> inclusion
-6833d3e0862f644e6f442ef6856b7c3757d1dd78 headers/deps: uaccess: Optimize <linux/uaccess.h> dependencies
-6b3ac9102db60d9083e17d49745434577f4dfc21 headers/deps: sched: Optimize <linux/sched.h> dependencies
-023e029e957883cb6396eaa854eaf2f85bf20d57 headers/deps: mm/x86: Move the *access*permitted() methods into the new <asm/pgtable_access.h> header
-2be72cc77f98768d01b980faa88e436d76ee9be7 headers/deps: x86/mm: Optimize <asm/pgtable.h> dependencies, remove <asm/pkru> and <asm/fpu/api.h> inclusion
-c465cb8a539879bec01e7f7f1f174df5a29fd786 headers/deps: x86/mm: Optimize <asm/pgtable.h> dependencies: remove <linux/mm_api_tlb_flush.h> inclusion
-a951a70c671e071e277471eabfd2dc743ed37677 headers/deps: net: Split <linux/udp_api.h> out of <linux/udp.h>
-32119167b44968426c34587c39b5e80d6f7e8278 headers/deps: net: Optimize <linux/udp.h> dependencies, remove <linux/skb_api.h> inclusion
-5cc2cf889829501db1d05eb38148b4275e3ff154 headers/deps: net: Move 'struct sock_cgroup_data' from <linux/cgroup_types.h> into its own header
-eff5dbf5480daabe852767d96b2d2b2d64c02005 headers/deps: net: Move accessor methods from <net/request_sock_api.h> to <net/request_sock_types.h>
-76c8a4a1acebeef2353c211c2c6392a58b019957 headers/deps: net: Move accessor methods from <net/inet_sock_api.h> into <net/inet_sock_types.h>
-e87669572c2764feab4f5a7ae95e667aabffae10 headers/deps: net: Optimize <net/inet_sock.h> dependencies, remove <net/inet_sock_api.h> inclusion
-f0e6d1f182c86a9a69f6aa522e7f8b3990dcf084 headers/deps: Add header dependencies to .c files: <linux/slab.h>
-1d49ef1911f6bf80890a64a3b8aaae72b4ea437a headers/deps: net/udp: Move the UDP table definition & methods from <net/udp.h> to <net/udp_api_table.h>
-eaace82ca390ac5eccb92f05a8c7d4857310efbc headers/deps: net/udp: Move udp_hashfn() from <linux/udp.h> to <linux/upd_api.h>
-93a37b8f916c11d115aad904d41e430c2315fbda headers/deps: net: Optimize <linux/udp.h> dependencies, remove <net/netns/hash.h> inclusion
-903a48376d72f082e3ca27d50e0094d97c9804fa headers/deps: net/skbuff: Move accessor methods from <linux/skbuff_api.h> to <linux/skbuff_types.h>
-5dbfa8ab53f8db32057ea2bad038f9b1eb6cdac6 headers/deps: uio: Optimize <linux/uio.h> dependencies
-5f1db9053ccb0d92f3ab1f4ef90286b25ef22a07 headers/deps: net: Optimize <linux/ipv6.h> dependencies, remove <linux/skbuff_api.h> inclusion
-ff3bc16a1c5e5d8042243176ef0b7f7fa5df9ae0 headers/deps: net: Optimize <net/sock_types.h> dependencies, remove <linux/netdevice_types.h> inclusion
-70a53f8cb17b189de2728ab16aecf49717a6f781 headers/deps: locking/local, x86: Split <asm/local.h> into <asm/local_types.h> and <asm/local_api.h>
-6ccfd2185a77308df348ec4e740cab67c0e84d60 headers/deps: locking/local, x86: Optimize <asm/local.h> dependencies, remove <asm/local_api.h> inclusion
-1dd5eacd27ada01a7b176bb916beeb73f66d0a0e headers/deps: locking/local64, x86: Split <asm/local64.h> into <asm/local64_types.h> and <asm/local64_api.h>
-271500dcafb624a31a97c9e9e52855a31c78711f headers/deps: locking/local: Optimize <asm/local64.h> dependencies, remove <asm/local64_api.h> inclusion
-fd7b15ec6f6d7930a8f145d99aeb6100ae3a70db headers/deps: u64_stats: Optimize <linux/u64_stats_sync.h> dependencies, remove <linux/u64_stats_sync_api.h> inclusion
-4600d0ffa8a15009a9e56e4034b2522739eaab0c headers/deps: net: Optimize <net/snmp.h> dependencies, remove <linux/u64_stats_sync_api.h> inclusion on 64-bit kernels
-6f66fe6a7bb0ca434dc113cd096d0d8ed8c2a9c4 headers/deps: net: Optimize <net/netns/xdp.h> dependencies, remove <linux/rculist.h> inclusion
-41950e03513d9f91c56ffcef2b6c6586fd43adf2 headers/deps: net: Optimize <net/netns/xfrm.h> dependencies, remove various headers
-4599340e98b94cb07fab2ccf9e4bca37da291186 headers/deps: net: Split <net/ipv6.h> into <net/ipv6_types.h> and <net/ipv6_api.h>
-de23debe1f5604fec79944d4c2ec5d0bf7832bcc headers/deps: net: Optimize <net/ipv6.h> dependencies, remove <net/ipv6_api.h> inclusion
-0046e53ea04e03cc1c36d54a7d39c6588b4af155 headers/deps: net: Optimize <net/ipv6_types.h> dependencies
-3d06e04b35566437e82dd8d4e69c8e2890b78e3c headers/deps: net: Split <net/dst.h> into <net/dst_types.h> and <net/dst_api.h>
-024c1d792e49a26613e4d61c506322db0f967cf6 headers/deps: net: Optimize <net/dst.h> dependencies, remove <net/dst_api.h> inclusion
-9a71d0d12dd669514dcfea098a80763fc108023c headers/deps: net: Optimize <net/dst_types.h> dependencies
-c1a3466266dc2a2a2c8e436170a519ac8efe0017 headers/deps: net: Split <net/ip_fib.h> into <net/ip_fib_types.h> and <net/ip_fib_api.h>
-2faab4b75bed10a5f12156a32a5bca1077bd9b7e headers/deps: net: Optimize <net/ip_fib.h> dependencies, remove <net/ip_fib_api.h> inclusion
-7bd9da1da8919f5b1bd1b9b4723127bf85ff66f2 headers/deps: net: Optimize <net/ip_fib_types.h> dependencies
-93dc374b1cf882bb4b8f6f9f03a65aafee1fd669 headers/deps: net: Split <net/ndisc.h> into <net/ndisc_types.h> and <net/ndisc_api.h>
-976681bad9bb1b68bbe3e3650f81b37115bd2d87 headers/deps: net: Optimize <net/ndisc.h> dependencies, remove <net/ndisc_api.h> inclusion
-0ac0ef3cd181389d89af4b83bcbef5e9744ad817 headers/deps: Add header dependencies to .c files: <linux/net.h>
-324e402c281e98ce6f62f4de8a9d3817abdfdc2f headers/deps: Add header dependencies to .c files: <net/dst_types.h>
-9c9da2e542c664b51cec6b6ab75dd7e3b263789e headers/deps: net: Optimize <net/route_types.h> dependencies
-4c349b8e9ef4bec6ff69860f3f1c047449794a5f headers/deps: net: Optimize <linux/netdev_features.h> dependencies, remove <linux/bitops.h>
-7fff19525fb303987cf07cd4d130861c6e2ee083 headers/deps: net: Remove unused is_etherdev_addr()
-262dcff76466755729c0ffa52fbc3a9ba03a82a4 headers/deps: net: Move rare & expensive APIs from <linux/netdevice_api.h> to <linux/netdevice_api_extra.h>
-01da728c3c14bd45d25bf6f53f43e386e66c100a headers/deps: net: Optimize <linux/netdevice_api.h> dependencies, remove various headers
-ca8aa973f2efa757f04e69eff572083dcdecbf2f headers/deps: rcu: Split out debug methods from <linux/rcupdate.h> into <linux/rcupdate_api_debug.h>
-e3f40005f5c4ac8ce483e524c4981d22a616e96d headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove <linux/rcupdate.h> inclusion
-aa30da2190de96d48e2523e79744b1bb9ee56c36 headers/deps: net: Move rare & expensive APIs from <linux/skbuff_api.h> to <linux/skbuff_api_extra.h>
-9255fe18d228c9bd5ee215a004ca203eb40e416d headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove <net/checksum.h> inclusion
-93755d3fd2d5c2372bc965cfae21c34c87bcfe67 headers/deps: Add header dependencies to .c files: <linux/skbuff_api_extra.h>
-2d66b82f0d6451443565769e55a74f95d58b6ac4 headers/deps: net: Optimize <linux/skbuff_api.h> dependencies, remove <net/flow_dissector.h> inclusion
-609de9f625caabe4c576caa06a101111527f4290 headers/deps: net: Split <net/neighbour.h> into <net/neighbour_types.h> and <net/neighbour_api.h>
-3a2986f449c4dea8eff538a3c21f6047808f6a22 headers/deps: net: Optimize <net/neighbour.h> dependencies, remove <net/neighbour_api.h> inclusion
-f0e380fe73b99ec95020360f2b4aa98697c96938 headers/deps: net: Optimize <net/dst_api.h> dependencies, remove various headers
-b37f9921e62e267b170656ab7e44629992634b1a headers/deps: net: Move *skb_tunnel_rx() from <net/dst_api.h> to <net/dst_api_tunnel.h>
-c8d213bf0791b9c6c9ef87c77ba0db3d77fe481b headers/deps: net: Optimize <net/dst_api.h> dependencies, remove <linux/netdevice.h> inclusion
-a971cdc62f29fe05f893f35df38a17c9f157a4fe headers/deps: net: Optimize <net/dst_api.h> dependencies, remove <net/net_namespace_types.h> inclusion
-d079a2aec127230ed1fae303bed8431ee02e945e headers/deps: time: Optimize <linux/jiffies.h> dependencies, remove <linux/cache.h> inclusion
-45a223053f36dfc2446a5a70be954e051a5e423b headers/deps: time: Optimize <linux/ktime_api.h> dependencies, remove <linux/jiffies.h> inclusion
-3b1971a259d07e86712b3060747143129c0be576 headers/deps: Add header dependencies to .c files: <linux/ktime_api.h>
-58880145bfea1d830f15f6e4809c926b1d67719b headers/deps: Add header dependencies to .c files: <linux/jiffies.h>
-f53dc395521a5c402a4bd2d28e1421d25585f6af headers/deps: net: Split <linux/mmzone.h> into <linux/mmzone_types.h> and <linux/mmzone_api.h>
-42a794f7febec21345257eb91763cfbe78cee14b headers/deps: mm: Optimize <linux/gfp_api.h> dependencies, remove <linux/mmzone_api.h> inclusion
-527336b7f435a91a35419906459674bf724b9fa9 headers/deps: node: Optimize <linux/node.h> dependencies
-9ba8ad8f65d92e02a1c75d182f08630960a26391 headers/deps: mm: Optimize <linux/page-flags-thp.h> dependencies, remove <linux/huge_mm.h> and <linux/mmzone_api.h> inclusion
-7ab6c612df62459e14b806c8fa1149b9cc79a094 headers/deps: mm: Move put_swap_device() into its separate header in <linux/swap_api_device.h>
-5305035d27667c4cc2a79dd4cd488ab9b126cc39 headers/deps: mm: Optimize <linux/swap.h> dependencies, remove <linux/pagemap.h> inclusion
-4b930a87e7cdbe8f0f7a21bddebb688855e636fe headers/deps: mm: Optimize <linux/mempolicy.h> dependencies, remove <linux/pagemap.h> inclusion
-30a998337a93bb91b606f624921292dbb48fba1f headers/deps: mm: Optimize <linux/sched/mm.h> dependencies, remove <linux/gfp_api.h> inclusion
-fd1bddeead938dcc480195cc423ca12e9d3692d5 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/gfp_api.h> inclusion
-214123b10a88b4756e41442c4190404c09215b9d headers/deps: mm: Move rare & expensive APIs from <linux/mm_api.h> to <linux/mm_api_extra.h>"
-46ec8253caf1821c0df922481e956196daf9bd15 headers/deps: net: Optimize <linux/mm_api.h> dependencies, remove <linux/mm_api_extra.h> inclusion
-fbea7150918d128b33b6d9f68b05a16c8a5a3384 headers/deps: mm: Optimize <linux/mm_api.h> dependencies
-149d4f81088f15a105cadf7896443dceffdec95d headers/deps: nfs: Optimize <linux/nfs_fs.h> dependencies, remove <linux/pagemap.h> inclusion
-d790c426901a44025591cf69b6ab969519fd5e99 headers/deps: mm: Move devmap methods from <linux/mm_api.h> to <linux/mm_api_extra.h>
-91b5282721a0ad68509114ff69d074a65464ddd7 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/memremap.h>
-ddcf58adecc6d33dc0778d14819ef959474a6665 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/percpu-refcount.h> inclusion
-50966f369fc8ccbd9ee64428e02547f575392db9 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/topology.h> inclusion
-5104126481b9c480d5c7dafa7c71e2e2541488c5 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/bit_spinlock.h>
-7e97bb0de6520ebc7252d2b4694c653cc96b4675 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/mmap_lock.h> inclusion
-678796abb0077a9acd88accd8ff87c1156c4ee49 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/irqflags.h> inclusion
-f875766a1e1c4737fdb7b5d584ef018c5978a7af headers/deps: mm: Move page_needs_cow_for_dma() from <linux/mm_api.h> to <linux/mm_api_extra.h>
-c3aaf7d4c3732ac14df20f9c07bd02511d55461e headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/sched/coredump.h> inclusion
-ba7e72a1cac9054c997ae1dc82ad91d617529d57 headers/deps: mm: Optimize <linux/mm_api.h> dependencies, remove <linux/mm_page_address.h> inclusion
-ca34465b881f245e769fc79f745a2812fa0a436c headers/deps: irq: Move the irq_handler_t definition to <linux/interrupt_types.h>
-fe24ea32c64c13b13757ca5d5f7060bf9843c66c headers/deps: pci: Optimize <linux/pci.h> dependencies, remove the <linux/interrupt.h> inclusion
-b06783aea553681e892e4d3676da837fbe0f0469 headers/deps: pci: Optimize <linux/pci.h> dependencies, remove <linux/io.h>
-84c4eee4076246ab751fa1b5c6e5cfc4351701da headers/deps: pci/x86: Optimize <asm/pci.h> dependencies
-8632d14ace1d3f7264fc66fa0c3469fd949b61f2 headers/deps: pci: Optimize <linux/pci.h> dependencies, remove <linux/topology.h> inclusion
-6e4d6d616d6babb06636ca2e266cd2178f850cf2 headers/deps: mm: Optimize <linux/dmapool.h> dependencies, remove <linux/scatterlist.h> and <asm/io.h> inclusion
-f2a03f2fb38a57226115e5dbc351121f8fcae3af headers/deps: mm: Optimize <linux/mmzone.h> dependencies, remove <linux/mmzone_api.h> inclusion
-27a33bc28b8ccade6403e1f4a53c9417fb0b8325 headers/deps: mm: Move the page flag mask definitions from <linux/mm_api.h> to <linux/page-flags-layout.h>
-713f9fcfeb8e8928aed6a81304ba786d7538a344 headers/deps: mm/sparsemem: Move the set_page_section() and page_to_section() definitions from <linux/mm_api.h> to <linux/mmzone_api.h>
-e4422ea4abd4277cd8eca8d95718010720ae8d3e headers/deps: mm/flatmem: Move the max_mapnr definitions from <linux/mm_api.h> to <linux/mmzone_types.h>
-58e41a172fb78e1850bcfa247cec92fa28c591ce headers/deps: mm/sparsemem: Add explicit <linux/mmzone_api.h> dependency to <asm-generic/memory_model.h>'s sparsemem section
-7b6094c9724e57d79010f2f7e9099afc9a1f965b headers/deps: mm: Optimize <linux/highmem.h> dependencies, remove <linux/mm_api.h> inclusion
-c5a69dfd745e7c656991cbfc9b1ddf5c76321363 headers/deps: modules: Optimize <linux/buildid.h> dependencies, remove <linux/mm_types.h> inclusion
-65cdaa0fed42c4df861131d705adfcf60da96f9e headers/deps: x86/paravirt: Split sched_clock/steal_clock methods from <asm/paravirt.h>, into <asm/paravirt_api_clock.h>
-3818a507f53ec0e81b1b1349d2ebe03f70658ee5 headers/deps: x86/paravirt: Optimize <linux/paravirt.h> dependencies - remove the <linux/paravirt_api_clock.h> inclusion
-c128cf038d71de49ac33e1b269aa685c15b55760 headers/deps: x86/paravirt: Optimize <linux/paravirt.h> dependencies - remove the <linux/static_call_types.h> inclusion
-bb1e809019584b3492a7bb0e3368ab21c471aa9f headers/deps: x86/paravirt: Optimize <linux/paravirt.h> dependencies - remove the <linux/bug.h> inclusion
-d6dd745ff794f4d71e6c1b26ac7f723e0c1ced07 headers/deps: x86/speculation: Optimize <asm/nospec-branch.h> dependencies
-ed92e08b60b530ff420ec1e29a2bd62cfe75f0e6 headers/deps: x86/paravirt: Optimize <linux/paravirt_types.h> dependencies
-251d336a29d03291b0f1cb8b4f8fc042578aad52 headers/deps: x86/mm: Clean up <asm/pgtable.h> header section
-ee3e37170ff5b8534b1c633e42a6df4b97e13752 headers/deps: x86/mm: Optimize <asm/pgtable.h> dependencies, remove unused headers
-d174608d9dc166071c9d95fe883ba2c082c1155f headers/deps: arm64/mm: Move the vmemmap definitions from the pgtable.h hierarchy over into <asm/page.h>
-4dea8b3c852a0b79289cd391f3d3fb5498e4d9e7 headers/deps: arm64/mm: Move the hugetlb definitions from the pgtable.h hierarchy over into <asm/page.h>
-c834e6963d0d40af17b46adfdfebebec3357488f headers/deps: Reduce dependencies on <linux/init.h>'s __init* attributes in header prototypes
-3027790767ae40c404b64946ba93a5b74d263e0c headers/deps: Add header dependencies to .c files: <linux/init.h>
-debbe9f04fb455f317813281934fd863b6113fe7 ==================================================================
-e40659b1e6bce9b6dc0d7184662beafb7a727ec2 headers/uninline: Uninline single-use function: mips: page_size_ftlb()
-af45e3f60afe913ed06a9b422858e87672cbf367 headers/prep: MIPS: Split <asm/pgtable_types.h> out of <asm/pgtables.h>
-26aa82e6cc1d882991fa7b0e0c615f16308365f0 headers/prep: MIPS: Move simple types from <asm/page.h> to <asm/page_types.h>
-71b701e71d18bf27e8769493a851a261f36addcf headers/prep: bitops: Move the __sw_hweight*() prototypes to where they are used
-2532ca95c04c2aefb6a096972f97ac8c7457e950 headers/prep: MIPS: Define current_thread_info
-6df2f87f51022db4a3c1b21431c2e11af9861bf7 headers/prep: MIPS: Prepare <asm/mmu.h> for a broader role
-d29cc47cb745b075d0ebdb85788607bcc01b1492 headers/prep: MIPS: Move the VM_DATA_DEFAULT_FLAGS definition from <asm/page.h> to <asm/page_types.h>
-341d80460d82d19956b86670f77b26a73cd5e324 headers/deps: per_task, arm64: Add MIPS port
-fda723646e43c828f7be9b2b6659bde02d7991fa headers/prep: MIPS: Split <asm/ptrace_types.h> out of <asm/ptrace.h>
-1c7a53a82d2bd88462523a8a72d705974f3f5e9e headers/prep: MIPS: Add new header dependencies to the arch/mips/vdso/vdso-image.c generation code
-dad06f3c3914ef9e9ad914855a6355274033f49d headers/prep: MIPS: Move the __va()/__pa() definitions from <asm/page.h> to <asm/page_types.h>
-1a47517010406d0fa4d126c6f21d8b52795e0d74 headers/prep: MIPS: Remove the <asm/io.h> and <asm/page.h> circular dependency
-46a6103cf640b2b5cf36f976f086c8a5740629ef headers/prep: MIPS: Simplify <asm/elf.h> dependencies
-7f0a43931ca3878cae9072b20ea9efbeeb447d8c headers/prep: mmzone, MIPS: Don't build methods relying on SECTIONS_* et al
-e65a971e27d88261c1b6bdeb8ea1f1316e6ecb31 headers/prep: MIPS: Move more pgtable types into <asm/pgtable_types.h>
-fbef7db2ca0af7ce4421233f412320855aef986c sched: Optimize <linux/sched.h> dependencies, remove <linux/uidgid.h> and <linux/rbtree.h> dependencies
-4c408634dc9bb538748c2962be5a577695abb761 ==================================================================
-712fa015a9f69443366c7f15b3129c9dc16c3e92 headers/deps: printk: Reduce <linux/printk.h> header dependencies, remove <linux/bitops.h>
-eaaaa54f1649dd754788ec1b61d80426b7e9136e headers/deps: mm: Reduce <linux/sunrpc/xdr.h> dependencies, remove <linux/mm.h> inclusion
-c36817b89f13237798e7a376dc6fe541dded8faf headers/deps: Add header dependencies to .h files: <linux/sched.h>
-a5f37af7c6f891b96a299fdd1767127159b82e2d headers/deps: Add header dependencies to .c files: <linux/mutex_api.h>
-0bcc82c015d765421fe4e45a5ab4328cfaf9ed13 headers/deps: Add header dependencies to .c files: <linux/notifier_api.h>
-f6efac6aa179dcc7494c5da8075a53ef87f2bb5e headers/deps: Add header dependencies to .c files: <linux/refcount_api.h>
-d1d8197b6924638a49e019e73ac5396ae93bc1ab headers/deps: Add header dependencies to .h files: <linux/refcount_api.h>
-8a3d8edd6445520b32ec6603bde30f25b4f7492f headers/deps: Add header dependencies to .c files: <linux/delay.h>
-b153721c83cf4dd4bfcee5c914a51add98345c87 headers/deps: Add header dependencies to .c files: <linux/llist_api.h>
-8efe437841b1454986a5e9522def58184c924716 headers/deps: Add header dependencies to .c files: <linux/seqlock_api.h>
-e85e94294de6a05358163a02e23fec95ed12178a headers/deps: Add header dependencies to .c files: <linux/kref_api.h>
-eca52ced818452bbf3019ef7b6833a7ade9c49ad headers/deps: Add header dependencies to .h files: <linux/kref_api.h>
-655a4a67e52131324d11626ddf9f48325ae2b3e7 headers/deps: Add header dependencies to .c files: <linux/netdevice_api.h>
-4b153f39b29920b359004d9c69b3a012c0ac359a headers/deps: Add header dependencies to .c files: <linux/netdevice_api_extra.h>
-8dbc01f4336a9990df40f00e6ed93ad798b5fd04 headers/deps: Add header dependencies to .c files: <linux/skbuff_api_nf.h>
-2bd219f03fb8829e0bbc54f721fb77beab1ba0e4 headers/deps: Add header dependencies to .c files: <linux/skbuff_api.h>
-2c5c434121733453d31f2dc48c654f34a2a4f8d2 headers/deps: Add header dependencies to .c files: <net/act_api.h>
-ff442d5b995db7798ac4e725d5fae160b383d691 headers/deps: Add header dependencies to .c files: <linux/sched.h>
-8d6e4301b0f24bcf73cd0d83a82f61558e2bfdc7 headers/deps: Add header dependencies to .h files: <linux/preempt.h>
-28ab824eca5a5e97ed1bcc11af7eaa4024c4d330 headers/deps: Add header dependencies to .c files: <linux/slab.h>
-19185ce8d7344c5e2b2261048d83fb05e7d21587 headers/deps: Add header dependencies to .c files: <linux/spinlock_api.h>
-24d21fb4e40cd566dd16662f19032bc6e8c249f5 headers/deps: Add header dependencies to .c files: <linux/device_api.h>
-9cd5300b007724c772cb241e4362a0677c48156d headers/deps: Add header dependencies to .c files: <linux/mmap_lock.h>
-d3e814a4e55904c601e37bf80c6db0a553620963 headers/deps: Add header dependencies to .c files: <linux/mm_api.h>
-2337552c7f861980d6cf67318612d3310e59c8b8 headers/deps: Add header dependencies to .c files: <linux/timekeeping.h>
-ad0b1b2547fff2edd1f812d89be92336657ae2eb headers/deps: Add header dependencies to .c files: <linux/mm_api_extra.h>
-b61a4d5163fc0663becde1e2a372b0c8a62aa494 headers/deps: Add header dependencies to .c files: <linux/skbuff_api.h>
-45fc0ebae12ef964f642db89e0c8e4efc262a11d headers/deps: Add header dependencies to .c files: <linux/property.h>
-ac8e0fbf8ba5703f913258fc5abdad1aa8339a0c headers/deps: Add header dependencies to .h files: <linux/if_vlan_types.h>
-af3f638ca321bfdd13a17ffe8059984833bdbb70 headers/deps: Add header dependencies to .h files: <uapi/linux/pkt_sched.h>
-324c70779a077e86c9bf7d4fca1be82aa6e9fed1 headers/deps: Add header dependencies to .c files: <net/xdp_api.h>
-93bb99ad6b680ee3aefbdda4981de927b9e71522 headers/deps: Add header dependencies to .h files: <linux/limits.h>
-e2e10f1045ab5d6c0e9fa5aaf7711f4198016d0a headers/deps: Add header dependencies to .h files: <linux/tasklet_types.h>
-f43044dc0043826ad30fc5688d9cec0c1a17da10 headers/deps: Add header dependencies to .c files: <linux/u64_stats_sync_api.h>
-e201a7b5e5e6b3d8d4be6ae84973c8fa359183c2 headers/deps: Add header dependencies to .h files: <linux/tasklet_types.h>
-07415fc406b23eb0ffe0d1dcd20bb3416f515eaf headers/deps: Add header dependencies to .h files: <linux/rhashtable-types.h>
-145b4a6e5c79244c13cfb61a1b82bf42afb747a7 headers/deps: Add header dependencies to .c files: <linux/filter_api.h>
-bb4748af28d9c6ecfdfb1f21a1fcfc61bcaab5dd headers/deps: Add header dependencies to .c files: <linux/dma-mapping.h>
-73813920da1ff2bdc3d43ad9d403e82341685d03 headers/deps: Add header dependencies to .c files: <linux/sched.h>
-01fc5b641e7cac7496749ce41a826fe185c2c466 headers/deps: Add header dependencies to .c files: <asm/tsc.h>
-a4e712752fddc5ee14c6bedc8448469cfcbd1785 headers/deps: Add header dependencies to .c files: <linux/io.h>
-4c2c8f368d2ae425f41b5e484f136d0754b105db headers/deps: Add header dependencies to .c files: <linux/fs_api.h>
-dc01d1ed47957fc9e48e95b4eb96a1db659539a5 headers/deps: Add header dependencies to .c files: <linux/notifier_types.h>
-116f1872e68785a22d1f62705bc793da7903a323 headers/deps: Add header dependencies to .c files: <linux/mm_page_address.h>
-93170e86c72f1a14c0526bd1e90033bcdf83682f headers/deps: Add header dependencies to .c files: <linux/device/class.h>
-41ec235a37ec1c011fe59d827f692d7ee70b9c03 headers/deps: Add header dependencies to .c files: <linux/pm_wakeup.h>
-035a7ce6f80fb4e9a62300296d72c8033b72b43f headers/deps: Add header dependencies to .c files: <asm/msr.h>
-3c38178d65dcc67b14b4350dabe2dc460e1566e4 headers/deps: Add header dependencies to .c files: <linux/cpumask_api.h>
-18b456531af5a653b55d887f8033c320743e6769 headers/deps: Add header dependencies to .c files: <linux/tasklet_api.h>
-b9fc30633656310c981b0e07704616054c3407ca headers/deps: Add header dependencies to .h files: <linux/device/driver.h>
-76334c160ddd9501906c811377483991486ffaff headers/deps: Add header dependencies to .c files: <linux/topology.h>
-b47bbe94e3452be17b69c7b3237026ea59f156ce headers/deps: Add header dependencies to .c files: <linux/notifier_api.h>
-0f82dc2681019c5016b07cd779be2fbbcb2abe1a headers/deps: Add header dependencies to .c files: <linux/device/bus.h>
-04549d1fc4cac98c685dcec634f46ce9603f28ae headers/deps: Add header dependencies to .c files: <net/ndisc_api.h>
-9fcb57e673f0a3f4b97d9969c7f0dc2e85e1f055 headers/deps: Add header dependencies to .h files: <linux/pid.h>
-b08ad92b821060f4ce675dadaa950a1a38bb8f82 headers/deps: Add header dependencies to .c files: <linux/device/driver.h>
-a7cd22fdd4be232edab49059728353d792503bc1 headers/deps: Add header dependencies to .c files: <linux/notifier_api.h>
-b52e3da93e9b83bf92c1e138931ec1abb9c5a6e3 headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-4e111ea774d0205e52e4f14dad2c67f8536ed8f4 headers/deps: Add header dependencies to .c files: <linux/rculist.h>
-57955604bf84abecccb2dc8438a83def642ccbd0 headers/deps: Add header dependencies to .c files: <net/netlink_api.h>
-50c7d3fe4fb8902d101a1ba9d0e2fb18da31a170 headers/deps: Add header dependencies to .c files: <net/sock_api.h>
-84022d4ba0dfb3da82f22ce65a0390daac726df6 headers/deps: Add header dependencies to .c files: <linux/slab.h>
-b6e7c2e45562b0462fb874acf286c8f6a51ba0a6 headers/deps: Add header dependencies to .c files: <net/rtnetlink_api.h>
-2c6b5d66b7b97eeea840261759ee43daa1d7f7a0 headers/deps: Add header dependencies to .c files: <uapi/linux/if_arp.h>
-dc58612d64c51a12c31f6e7a41167f931e3df7b3 headers/deps: Add header dependencies to .c files: <net/ipv6_types.h>
-67655eeb01a1a600e527b65fcad5e7200647ec43 headers/deps: Add header dependencies to .h files: <net/net_namespace_types.h>
-1473d132ead24cfd88ac0abbffc3f08d0e727b23 headers/deps: Add header dependencies to .c files: <linux/huge_mm.h>
-bb33390a8a57042fb70556ec2e5e40bddd4c429c headers/deps: Add header dependencies to .c files: <linux/notifier_types.h>
-2948dbc3977ed3212f6e057345ee0da6154d9b9e headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-d4b702bfe08533f1ed076dd9c1a05c2fabc16026 headers/deps: Add header dependencies to .c files: <linux/string.h>
-5a5d367718d6857cff4fe5367444294961aa04c7 headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-ba0c3d44ef749b03743784aa8cd51ce4191ab805 headers/deps: Add header dependencies to .c files: <linux/hardirq.h>
-f14dff915663cbc86f0bd25ee6951b484e642c65 headers/deps: Add header dependencies to .c files: <linux/minmax.h>
-90c3ab0e2409c5a2a0b4f20da7afb2758020457c headers/deps: Add header dependencies to .c files: <linux/ioport.h>
-05f7c49820f8a18e21a69fbaf30e6f687066897b headers/deps: Add header dependencies to .c files: <linux/ioport.h>
-0b658dcb75db8f42bdb7c25efc90eb3c1aa0f922 headers/deps: Add header dependencies to .c files: <linux/resource_ext_api.h>
-34277d4b0b58d910940dc50882a23d5f5ffb2d14 headers/deps: Add header dependencies to .c files: <linux/device/class.h>
-f8a9847f1453e788a087da3e345b58b3e0dc66fe headers/deps: Add header dependencies to .c files: <drm/drm_vma_manager_api_vm_lock.h>
-f5d9e73e359e80dee79726002d77c98bf933d5a5 headers/deps: Add header dependencies to .c files: <linux/skbuff_api_page_pool.h>
-6c655964857ffbcf1e7cc0e08b1222376352e739 headers/deps: Add header dependencies to .c files: <linux/of_api.h>
-0d034c2d781c7e7bcbde3138fd5e1efb343cac09 headers/deps: Add header dependencies to .c files: <linux/bitops.h>
-a999086f3912c2e9a176c445a0b56e26c7896dc7 headers/deps: Add header dependencies to .c files: <linux/uio_api.h>
-fa484356024e4e071e38dd9bcc074b706b8aca28 headers/deps: Add header dependencies to .c files: <linux/ioport.h>
-45c731c0c70185502b42759672e13960f3f18550 headers/deps: Add header dependencies to .c files: <linux/device/class.h>
-0d9320f7d9110d9dea9479a020e0e33c98669b23 headers/deps: Add header dependencies to .c files: <linux/minmax.h>
-10074314e5b092057b3bdd7fe746ce4602e2b8fa headers/deps: Add header dependencies to .c files: <linux/notifier_api.h>
-8b80afd3116ac41b0c847dc9f6b33482642dc81c headers/deps: Add header dependencies to .c files: <linux/minmax.h>
-041661172366dbec8f4ca42ce6d6080e3ec7c09f headers/deps: Add header dependencies to .c files: <linux/net.h>
-7ad57a3fbb17599c86ea8640c71e957bffd922d0 headers/deps: Add header dependencies to .c files: <linux/ioport.h>
-2924822fd015204dbd7ee466bfe6856fd847c11a headers/deps: Add header dependencies to .c files: <linux/compat.h>
-78e4d16a0fe832500fd548f5f742d7c3160a8812 headers/deps: Add header dependencies to .h files: <linux/fs_api.h>
-9c049f4f518c4c7d75a7c4c4ab5c75ae795cc6c1 headers/deps: Add header dependencies to .c files: <linux/ioport.h>
-0c022be1da3e66cf5a91ed6ada400acebb3effa4 FIX: db8954605627 headers/prep: Add <linux/types.h> inclusion for files with non-standard header sections
-f268613032c9dea043f795979169bad1691968b9 headers/deps: Add header dependencies to .h files: <linux/mm_api_kvmalloc.h>
-3756dfceed0ed1a3a5104d76aed8047abe821ec0 headers/deps: Add header dependencies to .c files: <linux/cred.h>
-9f589839997e470fed0532d976bbb9e01f1fbe0e headers/deps: Add header dependencies to .c files: <linux/fs_entry_types.h>
-0322833349b11269c7cef595e79de3fc7a178cd5 headers/deps: Add header dependencies to .c files: <linux/fs_api_dir_context.h>
-0fae18c9b9bf5fd53516f4ecae4a57e69eb2c7dd headers/deps: Add header dependencies to .c files: <linux/cred.h>
-f23ec9e24353ba3ab9cad1d10b34c3ac4acc0675 headers/deps: Add header dependencies to .c files: <linux/device/class.h>
-dd74a333587898a064432aa88db64c957bfab442 headers/deps: Add header dependencies to .c files: <linux/pagemap_api_readahead.h>
-f3ae6cfe10dc00dbb57924a3ffbe15ad1bc0f765 headers/deps: Add header dependencies to .c files: <linux/hash.h>
-495c11c62a51d1cc032e0a95de8764eb9b8bb443 headers/deps: Add header dependencies to .c files: <linux/vmstat.h>
-f35f98b67d252ab7cf815b61b1eb641898cfde82 headers/deps: Add header dependencies to .c files: <linux/preempt.h>
-378884cb7e8a8f76cd019b28a06463e4a9fa4e1d headers/deps: Add header dependencies to .c files: <uapi/linux/if_arp.h>
-d84075b997d243cf56720bce031e037199046ae5 headers/deps: Add header dependencies to .c files: <linux/irqflags.h>
-45c60b82421c345dde017321333128486fe23f61 headers/deps: Add header dependencies to .c files: <asm/msr.h>
+48983701a1e0e252faa4aab274ba14419cb286fa Merge branch 'siginfo-si_trapno-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+bcfeebbff3627093014c7948aec9cc4730e50c3d Merge branch 'exit-cleanups-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
+57c78a234e809e3a0516491e37ae5ccc6eeb21e8 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4cdc4cc2ad35f92338497d53d3e8b7876cf2a51d Merge tag 'asm-generic-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+634135a07b887a8ad8904da8c147407650747a38 Merge tag 'soc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+4990d8c1333dc827aff8f18ff616bec4e9a32e2d Merge branches 'clk-qcom', 'clk-socfpga', 'clk-mediatek', 'clk-lmk' and 'clk-x86' into clk-next
+7110569a096d820876f99543660741bd8a96af7c Merge branches 'clk-renesas', 'clk-cleanup' and 'clk-determine-divider' into clk-next
+866147b8fa59530812fc769027a94468d89401e7 Merge tag 'drivers-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+1faa7cb2b066a3f8966a1311d574832ccb93a72c Merge branch 'clk-frac-divider' into clk-next
+8fb59ce15c43d025dadc2df3d21590bd1e91eff0 Merge branches 'clk-nvidia', 'clk-rockchip', 'clk-at91' and 'clk-vc5' into clk-next
+47505bf3a82166c3576155c229e941af922bf147 Merge branches 'clk-kirkwood', 'clk-imx', 'clk-doc', 'clk-zynq' and 'clk-ralink' into clk-next
+32b47072f319bb65e9afad59e78153d83496f1f5 Merge tag 'defconfig-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7c636d4d20f8c5acfbfbc60f326fddb0e1cf5daa Merge tag 'dt-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5240118f08a07669537677be19edbf008682f8bd bnxt_en: fix kernel doc warnings in bnxt_hwrm.c
+205b95fe658ddba25236c60da777f67b4eec3fd3 net/ncsi: add get MAC address command to get Intel i210 MAC address
+c07f191907e7d7e04034a2b9657a6bbf1355c60a Merge tag 'hyperv-next-signed-20210831' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+6104dde096eba9f443845686a2c4b3fa31129eb4 Merge tag 'm68knommu-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+9e5f3ffcf1cb34e7c7beb3f79a96f58536730924 Merge tag 'devicetree-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+df43d903828c59afb9e93b59835127a02e1f8144 Merge tag 'printk-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+4ac6d90867a4de2e12117e755dbd76e08d88697f Merge tag 'docs-5.15' of git://git.lwn.net/linux
+bea6a94a279bcbe6b2cde348782b28baf12255a5 MIPS: Malta: fix alignment of the devicetree buffer
+66abf5fb4cf713c6fdfccfbbabdcdf834f8bb9e2 net/sun3_82586: Fix return value of sun3_82586_probe()
+3f22bb137eb03ab27eaaa8b40d3e072eb541444e ipv6: change return type from int to void for mld_process_v2
+025efa0a82dfa79ac2b126f622ba9244f795e707 selftests: add simple GSO GRE test
+552799f8b3b0074d2617f53a63a088f9514a66e3 net: dsa: lantiq_gswip: fix maximum frame length
+d2cabd2dc8da78faf9b690ea521d03776686c9fe net: qrtr: revert check in qrtr_endpoint_post()
+9aca491e0dccf8a9d84a5b478e5eee3c6ea7803b Set fc_nlinfo in nh_create_ipv4, nh_create_ipv6
+b9edbfe1adecfc48fd11061dce68afb03d6adbdc flow: fix object-size-mismatch warning in flowi{4,6}_to_flowi_common()
+ecdc28defc46af476566fffd9e5cb4495a2f176e net: hso: add failure handler for add_net_device
+aabbdc67f3485b5db27ab4eba01e5fbf1ffea62c net: usb: cdc_mbim: avoid altsetting toggling for Telit LN920
+cdb067d31c0fe4cce98b9d15f1f2ef525acaa094 net: dsa: b53: Fix calculating number of switch ports
+d12e1c4649883e8ca5e8ff341e1948b3b6313259 net: dsa: b53: Set correct number of ports in the DSA struct
+55a51ea14094a1e7dd0d7f33237d246033dd39ab block/mq-deadline: Move dd_queued() to fix defined but not used warning
+2d52c58b9c9bdae0ca3df6a1eab5745ab3f7d80b block, bfq: honor already-setup queue merges
+c4f3a3460a5daebc772d9263500e4099b11e7300 dma-buf: DMABUF_MOVE_NOTIFY should depend on DMA_SHARED_BUFFER
+4f89ff026ddbaab49dba993ad2dc757920d0ad49 ASoC: dt-bindings: fsl_rpmsg: Add compatible string for i.MX8ULP
+90c90cda05aecf0f7c45f9f35384b31bba38455f Merge tag 'xfs-5.15-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+f97a2103f1a75ca70f23deadb4d96a16c4d85e7d firmware: dmi: Move product_sku info to the end of the modalias
+d4e8e135a9af7d8d939bba1874ab314322fc2dc2 fs/ntfs3: Fix integer overflow in ni_fiemap with fiemap_prep()
+dd854e4b5b12016d27bfa2694226a1c15acbd640 fs/ntfs3: Remove unnecessary condition checking from ntfs_file_read_iter
+989e795bfe360cca0affb0a4224f37bd8494b46d fs/ntfs3: Remove GPL boilerplates from decompress lib files
+2e3a51b59ea26544303e168de8a0479915f09aa3 fs/ntfs3: Change how module init/info messages are displayed
+75ae663d053bddf7c70a24cccf53c83ae03deff8 iwlwifi: mvm: add rtnl_lock() in iwl_mvm_start_get_nvm()
+59dc33252ee777e02332774fbdf3381b1d5d5f5d PCI: VMD: ACPI: Make ACPI companion lookup work for VMD bus
+692a3b9a89947b27fc76d40b2613b33286a1690b cpufreq: acpi: Remove acpi_cpufreq_cpu_ready()
+9ab0a6cb76b998f5f2231e1c428bee3771893002 cpufreq: sh: Remove sh_cpufreq_cpu_ready()
+4bf8e582119ed9767f907abb6dc62ef9dddf10df cpufreq: Remove ready() callback
+89594c746b00d3755e0792a2407f0b557a30ef37 Merge tag 'fscache-next-20210829' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+17b121ad0c43342bc894632f6710b894849ca372 Documentation: ACPI: Align the SSDT overlays file with the code
+412106c203b759fa7fbcc4f855a90ab18e681ccb Merge tag 'erofs-for-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+fa209644a7124b3f4cf811ced55daef49ae39ac6 ACPI: PM: s2idle: Run both AMD and Microsoft methods if both are supported
+815409a12c0a9c0de17a910fd95fe11e1eb97f32 Merge tag 'ovl-update-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
+0da14a19493da0f9b4c5ee5930ab05a4c61f5883 x86/PCI: sta2x11: switch from 'pci_' to 'dma_' API
+111c1aa8cad4a0069dfe98fc093507b5b2cdfda7 Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+2f32c147a3816d789722c0bd242a9431332ec3ed iwlwifi Add support for ax201 in Samsung Galaxy Book Flex2 Alpha
+851c8e761c393a63d6346b472ae40b4ef74eba1f iwlwifi: bump FW API to 66 for AX devices
+7661809d493b426e979f39ab512e3adf41fbcc69 mm: don't allow oversized kvmalloc() calls
+faa2e05ad0dccf37f995bcfbb8d1980d66c02c11 PCI: ibmphp: Fix double unmap of io_mem
+b0cfcdd9b9672ea90642f33d6c0dd8516553adf2 d_path: make 'prepend()' fill up the buffer exactly on overflow
+05c5f4ee4da7086cceacc78bf3a080e314c241fa io-wq: get rid of FIXED worker flag
+3146cba99aa284b1d4a10fbd923df953f1d18035 io-wq: make worker creation resilient against signals
+265113f70f3d63ae8b6eb1ce4303d14dbbd71b2d Merge tag 'dlm-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
+eceae1e7acaefc0a71e4dd4b8cd49270172b4731 Merge tag 'configfs-5.15' of git://git.infradead.org/users/hch/configfs
+4a3bb4200a5958d76cc26ebe4db4257efa56812b Merge tag 'dma-mapping-5.15' of git://git.infradead.org/users/hch/dma-mapping
+612b23f27793ea1cf41621ca6dc552eb4699f41c Merge tag 'memblock-v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+c815f04ba94940fbc303a6ea9669e7da87f8e77d Merge tag 'linux-kselftest-kunit-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+52eaba4cedbda728f78d7083a05725e537b3df91 pwm: atmel: Rework tracking updates pending in hardware
+eb41f334589d66b9da6f2b1acf7963ef8ca8d94e pwm: ab8500: Fix register offset calculation to not depend on probe order
+b55060d796c5300ad7a410cb5faec36582925570 Merge tag 'hardening-v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+3d2813fb17e5fd0d73c1d1442ca0192bde4af10e pwm: lpc32xx: Don't modify HW state in .probe() after the PWM chip was registered
+020162d6f49f2963062229814a56a89c86cbeaa8 pwm: mxs: Don't modify HW state in .probe() after the PWM chip was registered
+c68eb29c8e9067c08175dd0414f6984f236f719d pwm: img: Don't modify HW state in .remove() callback
+9d768cd7fd42bb0be16f36aec48548fca5260759 pwm: rockchip: Don't modify HW state in .remove() callback
+d44084c93427bb0a9261432db1a8ca76a42d805e pwm: stm32-lp: Don't modify HW state in .remove() callback
+04d775210fb99609b1725ca33313da908a40d767 pwm: hibvt: Disable the clock only after the PWM was unregistered
+84ea61f65d7016dd9a087ef40c4da09f0deaa648 pwm: rockchip: Unprepare clocks only after the PWM was unregistered
+1a0c97b6460f30d8b164eaef07d77369e466dda3 pwm: tiehrpwm: Unprepare clock only after the PWM was unregistered
+97966ade662e912cbbbf4ff101baccf8b0bac9ae pwm: ntxec: Drop useless assignment to struct pwmchip::base
+2ee4bc91b62e8ff2d8ffd4f1a4a02a36ad7a4f3b pwm: jz4740: Improve compile coverage by allowing to enable on !MIPS
+cf83f7b7ae765e3d5eed65f8186c8d6ff320722d pwm: keembay: Improve compile coverage by allowing to enable on !ARM64
+14ac9e17f9bd4bd0dfe18e384a3c2ca8dfbffcc8 pwm: ab8500: Simplify using devm_pwmchip_add()
+ccc2df6f802b527d684c0fe171f3f4c9f883b833 pwm: bcm-kona: Simplify using devm_pwmchip_add()
+a0b336a35216b0f45c221824097757e12231e33e pwm: ep93xx: Simplify using devm_pwmchip_add()
+5ba3eb4bb3b5d3742805b799b965a4bc9e0ab7a6 pwm: fsl-ftm: Simplify using devm_pwmchip_add()
+acfdc2030a773a7ca9c94bdeb32e943159fc1f9a pwm: imx27: Simplify using devm_pwmchip_add()
+d8c11a6505d277025e3b5a0ed29d65ed990f65cc pwm: intel-lgm: Simplify using devm_pwmchip_add()
+2e27afd0557f76a036183e0db3507aa94aab61bd pwm: iqs620a: Simplify using devm_pwmchip_add()
+f0d6d7f26007907b108ed3624c641dc7614da505 pwm: jz4740: Simplify using devm_pwmchip_add()
+0aa2bec5a8ed0f5f3c01f218f7bd37981f043de9 pwm: keembay: Simplify using devm_pwmchip_add()
+071beb7c5ee37e778f8a85c95e271d93f0e6ffef pwm: lp3943: Simplify using devm_pwmchip_add()
+da68a9f4b03cb090bf725595815782a5c6b38937 pwm: lpc32xx: Simplify using devm_pwmchip_add()
+e0150252a6437d12de3db84bb3af12bd5aa5cc70 pwm: mediatek: Simplify using devm_pwmchip_add()
+43f5f48d095c31e67777c41ad3ee65186f384b03 pwm: mxs: Simplify using devm_pwmchip_add()
+9c3fac7aaf27f7f026a22087605a67683adfd551 pwm: ntxec: Simplify using devm_pwmchip_add()
+97f290357df22c0564a8addb782875e6275b7479 pwm: pxa: Simplify using devm_pwmchip_add()
+b7783c62581523fbb66e4624d5f90f190b1f8036 pwm: raspberrypi-poe: Simplify using devm_pwmchip_add()
+02dd2e417e7dfe63c810d356175b560e12c8fb8c pwm: sl28cpld: Simplify using devm_pwmchip_add()
+8614e210083e7ef135719e00bbc81e10f3f53286 pwm: stm32-lp: Simplify using devm_pwmchip_add()
+a64a5853a827147b36abecd5aabab11d07d67177 pwm: tiecap: Simplify using devm_pwmchip_add()
+c9bb1c9e5460f6e84e95b65fe4c5bb09d5dff10a pwm: twl-led: Simplify using devm_pwmchip_add()
+a75bc6b783ab5844d70cc54314c593de34782844 pwm: twl: Simplify using devm_pwmchip_add()
+632927511c3a362989625b38d7f70080cab8d8b0 pwm: atmel-hlcdc: Don't check the return code of pwmchip_remove()
+319333b0c48e98fe84e81c1f68384353dc37dd61 pwm: atmel-tcb: Don't check the return code of pwmchip_remove()
+b4334246cc3d7b6163f6bc2f96f56676967e93b4 pwm: brcmstb: Don't check the return code of pwmchip_remove()
+a08be12771c0c212790953b65b897e8f551eaa0e pwm: cros-ec: Don't check the return code of pwmchip_remove()
+fc3f3f565eacf6d2d9aab9f065612a9a5152d879 pwm: img: Don't check the return code of pwmchip_remove()
+bfecbc9490dcbe7a32d554dfd3d0f34bf17f10d8 pwm: imx-tpm: Don't check the return code of pwmchip_remove()
+9b7b5736ffd5da6f8f6329ebe5f1829cbcf8afae pwm: mtk-disp: Don't check the return code of pwmchip_remove()
+faaa2222213b0c44e4f477c93d6f980e0156cda8 pwm: omap-dmtimer: Don't check the return code of pwmchip_remove()
+f0e96e2e2cb292594483b0ff3cd00b45e386c45f pwm: pca9685: Don't check the return code of pwmchip_remove()
+15d217614fcfde5386f4ebf7c74c6e98df2777c0 pwm: rcar: Don't check the return code of pwmchip_remove()
+81d4b5c449ced26685c736eaaa6a7093d87e3891 pwm: renesas-tpu: Don't check the return code of pwmchip_remove()
+4e334973541de4d31c20be22d6198c646f58eb81 pwm: samsung: Don't check the return code of pwmchip_remove()
+ceb2c2842f3664dcc4e6d8cb317e1e83bb81b1e5 pwm: sifive: Don't check the return code of pwmchip_remove()
+7587f8a863ce4a5514802eeaed48f60663d69179 pwm: sun4i: Don't check the return code of pwmchip_remove()
+8083f58d08fd52f547c0a62c0f4e448e15e6726b pwm: Make pwmchip_remove() return void
+dd8f6b299a2b86c4839de4a60a28ce2399453bc0 dt-bindings: pwm: rockchip: Add description for rk3568
+aef4892a63c248c31718d23941536b86829a49f0 Merge tag 'integrity-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+52d44f3c61975cacfa2379a94e470b33a7639e73 Merge branch 'pci/enumeration'
+4f6f0b86d3605464865e9a9d60b5e88f88f03783 Merge branch 'pci/hotplug'
+9d102c7437247a909dd6f46cbda11cde5526f7b6 Merge branch 'pci/iommu'
+03816e7f7887747548fc2ced59933cd421bf0cf8 Merge branch 'pci/irq'
+34627f4dcd0f4fefab9e0eb88a45aad4178064f7 Merge branch 'pci/portdrv'
+e210d9fc0903e83aa018a32227f7ff529e593004 Merge branch 'pci/reset'
+9045f63e67bc91f02be245346fff9fb9703e7a3c Merge branch 'pci/resource'
+1295d187abfb80514240ea3179b722a2d8f7871d Merge branch 'pci/virtualization'
+74797618e2022dfcd923f1ea8903ba4959f746a4 Merge branch 'pci/vpd'
+739c4747a25af3a2571f69e4709f2b476a17d5d4 Merge branch 'pci/misc'
+dbf0b9bad040049cab56d39cc2a4d16f26135586 Merge branch 'pci/artpec6'
+bd8bb4d097e4ca31c234b4dfce8b2efaf11d9889 Merge branch 'pci/dwc'
+0e52059a8256730f5c9555943b52fc115cdb3680 Merge branch 'pci/rockchip-dwc'
+a549a33c37ef081593dff266f0c3a9e78a28bdf0 Merge branch 'pci/visconti'
+540267e236dd66fc3cb7429c8e88e3077f9a735b Merge branch 'remotes/lorenzo/pci/aardvark'
+2b5a949eea282d03d1ace935936b1f73c5dd6cd7 Merge branch 'remotes/lorenzo/pci/cadence'
+53cb14d2566205ed9a08649fdc59e9446adf0727 Merge branch 'remotes/lorenzo/pci/hv'
+a1e4ca8eb963f58fc9c2c26a971d86456ea717f5 Merge branch 'remotes/lorenzo/pci/hyper-v'
+c1bb1449fa8e3e769c0e7a5861bb49974fe63fb0 Merge branch 'remotes/lorenzo/pci/iproc'
+af42a0d4a88b658e848d4c27732203a364788b2d Merge branch 'remotes/lorenzo/pci/keembay'
+c501cf9cbeacc4cf2dfb03a20d27c3661ddd9643 Merge branch 'remotes/lorenzo/pci/mediatek'
+c2863b217edc1438b275bfebc4815952964a3a61 Merge branch 'remotes/lorenzo/pci/rcar'
+db2d64f83703aca8d560abcf83166fac3d111d94 Merge branch 'remotes/lorenzo/pci/tegra'
+4a4547db5612da9ac2404c014b258add369b5b16 Merge branch 'remotes/lorenzo/pci/tegra194'
+09cfc9db2db1a0c7a38033b16e2471c7c6becaf8 Merge branch 'remotes/lorenzo/pci/xgene'
+eccefc748e0edbb3ae8be846c4cd17bc20397898 Merge branch 'remotes/lorenzo/pci/xilinx-nwl'
+6e129176c3afd337966562fc3de236cc48447582 Merge branch 'remotes/lorenzo/pci/endpoint'
+e3c825c93e623198ad08e73f49377489ff6fb03b Merge branch 'remotes/lorenzo/pci/misc'
+742a4c49a82a8fe1369e4ec2af4a9bf69123cb88 Merge branch 'remotes/lorenzo/pci/tools'
+aa829778b16f15266fefe2640f04931b16ce39c0 Merge tag 'locking-debug-2021-09-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d7a4e582587d97a586b1f7709e3bddcf35928e96 pwm: mtk-disp: Adjust the clocks to avoid them mismatch
+15eb7c888e749fbd1cc0370f3d38de08ad903700 locking/rwsem: Add missing __init_rwsem() for PREEMPT_RT
+a974b54036f79dd5e395e9f6c80c3decb4661a14 futex: Return error code instead of assigning it without effect
+4f07ec0d76f242d4ca0f0c0c6f7293c28254a554 futex: Prevent inconsistent state and exit race
+249955e51c8136189b3c66f54e212981a1350a0f futex: Clarify comment for requeue_pi_wake_futex()
+340576590dac4bb58d532a8ad5bfa806d8ab473c futex: Avoid redundant task lookup
+b5d6d2633c1b6b2b4599f658f8abe7eb1358cc77 Merge tag 'xtensa-20210902' of git://github.com/jcmvbkbc/linux-xtensa
+a2d616b935a0df24bc9375785b19bf30d7fc9c6a Merge tag 'for-5.15/parisc' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+9ae5fceb9a20154d74586fe17d1096b981b23e34 Merge tag 'for-linus-5.15-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+799206c1302e8fabfab5a4151e74a2fe90090590 iscsi_ibft: Fix isa_bus_to_virt not working under ARM
+888a623db5d025cc72cd2887bacc3cf3fad10b6f pwm: mtk-disp: Implement atomic API .apply()
+331e049dec64c2d269648a3ea4ea6aae8a54b4ac pwm: mtk-disp: Fix overflow in period and duty calculation
+3f2b16734914fa7c53ef7f8a10a63828890dbd37 pwm: mtk-disp: Implement atomic API .get_state()
+89b6b8cd92c068cd1bdf877ec7fb1392568ef35d Merge tag 'vfio-v5.15-rc1' of git://github.com/awilliam/linux-vfio
+2ad32cf09bd28a21e6ad1595355a023ed631b529 ceph: fix memory leak on decode error in ceph_handle_caps
+ce3a8732ae0d43a6d14aa24624c0f12b3e6281b9 ceph: fix comment about short copies in ceph_write_end
+fba97e8025015b63b1bdb73cd868c8ea832a1620 ceph: make ceph_create_session_msg a global symbol
+59b312f36230ea91ebb6ce1b11f2781604495d30 ceph: make iterate_sessions a global symbol
+d095559ce4100f0c02aea229705230deac329c97 ceph: flush mdlog before umounting
+e1a4541ec0b951685a49d1f72d183681e6433a45 ceph: flush the mdlog before waiting on unsafe reqs
+49f8899e5edfc4b8a97d3959e1ded5a95f2e46b3 ceph: remove some defunct forward declarations
+40e309de4dd84ba91b9e0549a5173ce13ef02c5e ceph: add a new vxattr to return auth mds for an inode
+b4002173b7989588b6feaefc42edaf011b596782 ceph: cancel delayed work instead of flushing on mdsc teardown
+c80dc3aee984c647d747bb07c108862effc917d8 ceph: remove redundant initializations from mdsc and session
+0ba92e1c5f7ce7e9c1c828a84e873d7be51c1b9f ceph: add ceph_change_snap_realm() helper
+692e17159792a13e8c5031bdc0ae9b0f3158593d ceph: print more information when we can't find snaprealm
+d517b3983dd3106ca92d6c5d0d09415a4a09481c ceph: reconnect to the export targets on new mdsmaps
+b11ed50346683a749632ea664959b28d524d7395 ceph: request Fw caps before updating the mtime in ceph_write_iter
+a6d37ccdd240e80f26aaea0e62cda310e0e184d7 ceph: remove the capsnaps when removing caps
+42ad631b4d0e0d6da0bfe375af99887251fbf970 ceph: don't WARN if we're force umounting
+a76d0a9c288ea7f5fc01bf05485573ce6b36b839 ceph: don't WARN if we're forcibly removing the session caps
+3eaf5aa1cfa8c97c72f5824e2e9263d6cc977b03 ceph: lockdep annotations for try_nonblocking_invalidate
+9f3589993c0c69ab9f2401a6b65b21c419b482d6 ceph: drop the mdsc_get_session/put_session dout messages
+7ba88a2a09f47e2e4f3e34215677a1d78a9e6a73 Merge tag 'platform-drivers-x86-v5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+a180eab0b564a9dc149beb0517136ef7129f1260 Merge tag 'mailbox-v5.15' of git://git.linaro.org/landing-teams/working/fujitsu/integration
+75d6e7d9ced83e937757e278c3ce1ccd6606a96a Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+c793011242d182e5f12800c12dbaf37af80be735 Merge tag 'pinctrl-v5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+83ec91697412ae64d25dcca74597ed03029aa00d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+23852bec534a1633dc08f4df88b8493ae99953a9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+e5a2cac908df691f1637f9272d4c6dec83239611 parisc: Drop __arch_swab16(), arch_swab24(), _arch_swab32() and __arch_swab64() functions
+c1fe77e42440d2cad76055df6fb58caabf622d51 Merge tag 'nand/for-5.15' into mtd/next
+a9c9a6f741cdaa2fa9ba24a790db8d07295761e3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+36f1386d341209bf5ec792938fbc0786b914f8dd MAINTAINERS: add Nick to Kbuild reviewers
+7d73c3e9c51400d3e0e755488050804e4d44737a Makefile: remove stale cc-option checks
+850ded46c64299f04d15e39caaba21963fb966f8 kbuild: Fix TRIM_UNUSED_KSYMS with LTO_CLANG
+55a6d00ed0c1b4d20d7966d00fda6848d776658d x86/build/vdso: fix missing FORCE for *.so build rule
+6796e80409b9031458e33dc39a3ac8aa3b93855b kbuild: macrofy the condition of if_changed and friends
+e1f86d7b4b2a5213b012c2b4fe3e5b6ad537686e kbuild: warn if FORCE is missing for if_changed(_dep,_rule) and filechk
+a312b60d6c4f09cebb727ffab68754fbf39dc1f1 kbuild: Remove -Wno-format-invalid-specifier from clang block
+5c6ae0efca8d7aeac02f8734825067cd9475a264 kbuild: Add a comment above -Wno-gnu
+6272cc389fec78d1c0685599b8cad974476d89bb kbuild: Shuffle blank line to improve comment meaning
+2185a7e4b0ade86c2c57fc63d4a7535c40254bd0 kbuild: Switch to 'f' variants of integrated assembler flag
+52d83df682c82055961531853c066f4f16e234ea kbuild: Fix 'no symbols' warning when CONFIG_TRIM_UNUSD_KSYMS=y
+25c648a066c1cc5ed763f2354531fdff41ac83a1 kbuild: sh: remove unused install script
+e052826ff1a685a5c3a7033e907213de8433253e security: remove unneeded subdir-$(CONFIG_...)
+87c3cb564f3e34626f1afc0286b864045559b403 sparc: move the install rule to arch/sparc/Makefile
+ba3e87cfa2a0f2db889297b6fc8a9e91a35c2d21 ia64: move core-y in arch/ia64/Makefile to arch/ia64/Kbuild
+ff00f64bceb164267dccc3648eb299aeafd3a342 s390: replace cc-option-yn uses with cc-option
+43e6b58f793c47b0a6772a112e6586cd1e24b239 arc: replace cc-option-yn uses with cc-option
+7ab44e9ee5f241c0ed19e350d17e80bd90bde93d x86: remove cc-option-yn test for -mtune=
+265264b814c2121513eab2e1cffe196502af0961 gen_compile_commands: extract compiler command from a series of commands
+f01ac2a15218f3282b0b09b7ef7f314cbd7dd2b3 kbuild: remove unused quiet_cmd_update_lto_symversions
+a8390ba9ddce15242a41ca04d097b75fd54fd63f kbuild: remove stale *.symversions
+8f1305124ea48943d1dd07683ed4f82c69b232ee kbuild: merge vmlinux_link() between the ordinary link and Clang LTO
+d40aecd108d2a6413d53f6f8339e787a23150595 kbuild: do not remove 'linux' link in scripts/link-vmlinux.sh
+5df77ad61fd71b1b342ba40d913ad5595480691c kbuild: merge vmlinux_link() between ARCH=um and other architectures
+1439ebd2ce77242400518d4e6a1e85bebcd8084f checkkconfigsymbols.py: Fix the '--ignore' option
+e54dd93a08228b9942d708b133ad3715d92712b0 modpost: get the *.mod file path more simply
+44815c90210cd858c4a116c3eb35270160cecf81 kbuild: clean up objtool_args slightly
+bc7cd2dd1f8e5889cc68b69984033ac5bef6ba61 kbuild: redo fake deps at include/ksym/*.h
+c42813b71a06a2ff4a155aa87ac609feeab76cf3 parisc: Fix unaligned-access crash in bootloader
+05a444d3f90a3c3e6362e88a1bf13e1a60f8cace ceph: fix dereference of null pointer cf
+79a58c06c2d1b93a9d3ec29df08e5b726a8c63e1 ionic: fix double use of queue-lock
+20e7b9f82b6e7efc487e2c1a1dededbc4231fe81 pktgen: remove unused variable
+340fa6667a696338e707cd5531a9631093d1be29 mptcp: Only send extra TCP acks in eligible socket states
+743238892156eb3e1825543744bbc8d2da45a019 net: 3com: 3c59x: clean up inconsistent indenting
+73fc98154e9cb40c608a2af16cab12c09886c751 drivers: net: smc911x: clean up inconsistent indenting
+c645fe9bf6ae589ff9163d6c515d3517ec2e32d5 skbuff: clean up inconsistent indenting
+743902c5446190d9293672e717a6933dffabcb24 tipc: clean up inconsistent indenting
+991f69e9e0bb33e4917485bead62b51f0afefac0 perf cs-etm: Refactor initialisation of decoder params.
+f4aef1ea2663ac7efddd796970678911e56ea1f7 perf cs-etm: Initialise architecture based on TRCIDR1
+c9ccc96bf6f28d83ef497ee985b8f6ffd493de2a perf cs-etm: Refactor out ETMv4 header saving
+51ba8811318ac9a8f800c1d446af3f1ce81ec911 perf cs-etm: Save TRCDEVARCH register
+050a0fc4edc75a97b4dba7b834fd6bf243bf06ed perf cs-etm: Fix typo
+212095f7ca4a5182487ae12b62a8616ed87d617e perf cs-etm: Update OpenCSD decoder for ETE
+779f414a4849fb3e650cad8525c84e76fdd3c0ea perf cs-etm: Create ETE decoder
+56c62f52b6f25802a2154243b6dacdc6ff4f75bd perf cs-etm: Print the decoder name
+a80aea64aa07361a57f2245a0695878f2ae67ee7 perf cs-etm: Show a warning for an unknown magic number
+71f7f897c309bcddc9c07505cd1a6442176f72cb perf build: Report failure for testing feature libopencsd
+538d9c1829eddf375436c52604f82ff3f53c6690 perf script python: Allow reporting the [un]throttle PERF_RECORD_ meta event
+c68b421d8ebe15b509144a6ec5a08ff7089a7dd5 perf session: Report collisions in AUX records
+bf0df73a2f0d1674bcc930ddff0de0544e512b6e seg6_iptunnel: Remove redundant initialization of variable err
+13d60ba0738b0532edab3e1492b2005d36ba0802 perf pmu: Add PMU alias support
+c7a3828d98db2730079265b5f51933dfcef8bb5f perf tests: Add test for PMU aliases
+fa84693b3c896460831fe0750554121121a23da8 io_uring: ensure IORING_REGISTER_IOWQ_MAX_WORKERS works with SQPOLL
+636378535afb837f165beb7de3907896480cf3b2 io_uring: don't disable kiocb_done() CQE batching
+8d4ad41e3e8e4b907f088f25aee4a92f3f864027 io_uring: prolong tctx_task_work() with flushing
+b3dded7e2f98e2672deb9606514c0e13e3094640 ASoC: Intel: boards: Fix CONFIG_SND_SOC_SDW_MOCKUP select
+7eac1e24fbf6c56c9e3be302748ae73104bb40bd ASoC: mt8195: correct the dts parsing logic about DPTX and HDMITX
+8d17a33b076d24aa4861f336a125c888fb918605 net: usb: qmi_wwan: add Telit 0x1060 composition
+f1181e39d6ac13c0879b3766138aaa384fe62a55 net: cs89x0: disable compile testing on powerpc
+ddd0d5293810c1882e2a96f8cce1678823b1dd38 net: bridge: mcast: fix vlan port router deadlock
+9756e44fd4d283ebcc94df353642f322428b73de net: remove the unnecessary check in cipso_v4_doi_free
+a3314262eede9c909a0c797f16f25f941d12c78d Merge branch 'fixes' into next
+0ef47db1cb64a9a226e8983e8b2691f8e1c02a37 bio: fix kerneldoc documentation for bio_alloc_kiocb()
+8a6430ab9c9c87cb64c512e505e8690bbaee190b libata: add ATA_HORKAGE_NO_NCQ_TRIM for Samsung 860 and 870 SSDs
+7a8526a5cd51cf5f070310c6c37dd7293334ac49 libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD.
+31efe48eb5dc4de3e31e84b54f287e9665410ab3 io_uring: fix possible poll event lost in multi shot mode
+fcb958ee8e832e9cdf43408535207e15f14af755 ASoC: rockchip: i2s: Fix concurrency between tx/rx
+8b7084b848cd9d7071ed9e253e1c600a25f72ddd Merge branch 'linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/ibft into HEAD
+730affed24bffcd1eebd5903171960f5ff9f1f22 netfilter: socket: icmp6: fix use-after-scope
+42be8b42535183f84df99acbaf799e38724348f3 binfmt: don't use MAP_DENYWRITE when loading shared libraries via uselib()
+35d7bdc86031a2c1ae05ac27dfa93b2acdcbaecc kernel/fork: factor out replacing the current MM exe_file
+fe69d560b5bd9ec77b5d5749bd7027344daef47e kernel/fork: always deny write access to current MM exe_file
+4589ff7ca81516381393649dec8dd4948884b2b2 binfmt: remove in-tree usage of MAP_DENYWRITE
+8d0920bde5eb8ec7e567939b85e65a0596c8580d mm: remove VM_DENYWRITE
+6128b3af2a5e42386aa7faf37609b57f39fb7d00 mm: ignore MAP_DENYWRITE in ksys_mmap_pgoff()
+592ca09be8333bd226f50100328a905bfc377133 fs: update documentation of get_write_access() and friends
+577706de69c1e53bc23893953770d829a2242c38 ia64: fix typo in a comment
+1d1f4bf845d36d73b27ed37790cae0da3112ca77 ia64: fix #endif comment for reserve_elfcorehdr()
+70b2e9912a018e9fddb3a1e0cbb397d4d3c0e98f ia64: make reserve_elfcorehdr() static
+7e4265c88968d4e53b164944c05e12e79d8ff9c6 ia64: make num_rsvd_regions static
+2f566394467c86c3c89022013a99aa2d9d4a0208 ocfs2: remove an unnecessary condition
+6c85c2c728193d19d6a908ae9fb312d0325e65ca ocfs2: quota_local: fix possible uninitialized-variable access in ocfs2_local_read_info()
+9673e0050c39b0534d0e2ca431223f52089f4959 ocfs2: ocfs2_downconvert_lock failure results in deadlock
+4bdffd2708d65e68ff254d90793bb167d828219f arch/csky/kernel/probes/kprobes.c: fix bugon.cocci warnings
+3c9b84f044a9e54cf56d1b2c9b80a2d2ce56d70a mm/debug_vm_pgtable: introduce struct pgtable_debug_args
+36b77d1e159283da3c9414cbe6d9cb8e79a59c19 mm/debug_vm_pgtable: use struct pgtable_debug_args in basic tests
+8983d231c7cc1adaebed89153552da1e3fd55f61 mm/debug_vm_pgtable: use struct pgtable_debug_args in leaf and savewrite tests
+8cb183f2f2a014e818cf60de3afd5a06410fd5b9 mm/debug_vm_pgtable: use struct pgtable_debug_args in protnone and devmap tests
+5f447e8067fd9f472bc418de219f3cb9a8c3fbe8 mm/debug_vm_pgtable: use struct pgtable_debug_args in soft_dirty and swap tests
+4878a888824bd69ad4fff18efa93901ba2ba24f3 mm/debug_vm_pgtable: use struct pgtable_debug_args in migration and thp tests
+44966c4480f8024776c9ecc68f5589f023f19884 mm/debug_vm_pgtable: use struct pgtable_debug_args in PTE modifying tests
+c0fe07b0aa72b530d5da63a24eb10d503cae5a95 mm/debug_vm_pgtable: use struct pgtable_debug_args in PMD modifying tests
+4cbde03bdb0b832503999387f5e86b006fa54674 mm/debug_vm_pgtable: use struct pgtable_debug_args in PUD modifying tests
+2f87f8c39a91effbbfd88a4642bd245b9c2b7ad3 mm/debug_vm_pgtable: use struct pgtable_debug_args in PGD and P4D modifying tests
+fda88cfda1ab666ee6c136eeb401b4ead7ecd066 mm/debug_vm_pgtable: remove unused code
+8c5b3a8adad2152d162fc0230c822f907c816be9 mm/debug_vm_pgtable: fix corrupted page flag
+4f3eaf452a14ff3982f71c1ca8bdf757254231fa mm: report a more useful address for reclaim acquisition
+eb2169cee36fc492407a2d483c286b977a46288a mm: add kernel_misc_reclaimable in show_free_areas
+633a2abb9e1cd5c95f3b600f4b2c12cce22ae4a0 writeback: track number of inodes under writeback
+fee468fdf41cdf36ba6b5a780e2474d0a3e066ac writeback: reliably update bandwidth estimation
+45a2966fd64147518dc5bca25f447bd0fb5359ac writeback: fix bandwidth estimate for spiky workload
+42dd235cb15c06c8446f9aed695648a3c2eb8d11 writeback: rename domain_update_bandwidth()
+20792ebf3eeb828a692b29f3000673cb9ca83c3a writeback: use READ_ONCE for unlocked reads of writeback stats
+3047250972ff935b1d7a0629fa3acb04c12dcc07 mm: remove irqsave/restore locking from contexts with irqs enabled
+16e2df2a05d46c983bf310b19432c5ca4684b2bc fs: drop_caches: fix skipping over shadow cache inodes
+7ae12c809f6a31d3da7b96339dbefa141884c711 fs: inode: count invalidated shadow pages in pginodesteal
+7490a2d248145d8694e1e9828801b496250fd697 writeback: memcg: simplify cgroup_writeback_by_id
+6de522d1667f628376517e4b177af10c739d745b include/linux/buffer_head.h: fix boolreturn.cocci warnings
+8fed2f3cd6da9fba1045c557f88fc3c46dc7d2d2 mm: gup: remove set but unused local variable major
+0fef147ba7329d54a08b3b8c7e152b6dd5391199 mm: gup: remove unneed local variable orig_refs
+06a9e696639c5e0f457ae117c39ec4cbe5096dc9 mm: gup: remove useless BUG_ON in __get_user_pages()
+6401c4eb57f947a49eb144b5b0787cde3318e82e mm: gup: fix potential pgmap refcnt leak in __gup_device_huge()
+be51eb18b81b2f0a0a562bac0f6fe0f4b05c439e mm: gup: use helper PAGE_ALIGNED in populate_vma_page_range()
+3967db22ba324939762f618f0d654b13317ca7a4 mm/gup: documentation corrections for gup/pup
+54d516b1d62ff8f17cee2da06e5e4706a0d00b8a mm/gup: small refactoring: simplify try_grab_page()
+9857a17f206ff374aea78bccfb687f145368be2e mm/gup: remove try_get_page(), call try_get_compound_head() directly
+51cc3a6620a6ca934d468bda345678768493f5d8 fs, mm: fix race in unlinking swapfile
+3969b1a654fb09b7915efc1aa4ad45daf932e12f mm: delete unused get_kernel_page()
+bf11b9a8e9a93c1fc0ebfc2929622d5cf7d43888 shmem: use raw_spinlock_t for ->stat_lock
+f2b346e4522c2849a3dc59b7077b8952918ef486 shmem: remove unneeded variable ret
+b6378fc8b477921e62fd5763efeec676ff8e7a16 shmem: remove unneeded header file
+cdd89d4cb6507f123f6ecbfe51050e9a9844c2ab shmem: remove unneeded function forward declaration
+86a2f3f2d99e9765d13a55ee2e4364deb6cdf794 shmem: include header file to declare swap_info
+050dcb5c85bb47f8151175ca5833aa882cc7fe0c huge tmpfs: fix fallocate(vanilla) advance over huge pages
+d144bf6205342a4b5fed5d204ae18849a4de741b huge tmpfs: fix split_huge_page() after FALLOC_FL_KEEP_SIZE
+2b5bbcb1c9c2cd05a06dcf54df77255a8c406a7b huge tmpfs: remove shrinklist addition from shmem_setattr()
+b9e2faaf6fa0df984d4ecca775f3629a4d5e599b huge tmpfs: revert shmem's use of transhuge_vma_enabled()
+c852023e6fd4fa5f75175729e0b55abb062ca799 huge tmpfs: move shmem_huge_enabled() upwards
+acdd9f8e0fed9f1bd7e83a8ff934694bb4c9a72b huge tmpfs: SGP_NOALLOC to stop collapse_file() on race
+5e6e5a12a44ca5ff2b130d8d39aaf9b8c026de94 huge tmpfs: shmem_is_huge(vma, inode, index)
+a7fddc36299a8a99073e9e6e922b6cd451508385 huge tmpfs: decide stat.st_blksize by shmem_is_huge()
+1e6decf30af5c5c75445ed6ad4e65a26de578a03 shmem: shmem_writepage() split unlikely i915 THP
+56cab2859fbe08e1f2a5ac3f4655dcc398bc013d mm, memcg: add mem_cgroup_disabled checks in vmpressure and swap-related functions
+2c8d8f97ae2272f1455ee31a5af62b326772eb31 mm, memcg: inline mem_cgroup_{charge/uncharge} to improve disabled memcg config
+01c4b28cd2e600160566a7d83b4703800381dae1 mm, memcg: inline swap-related functions to improve disabled memcg config
+fab827dbee8c2e06ca4ba000fa6c48bcf9054aba memcg: enable accounting for pids in nested pid namespaces
+7e1c0d6f58207e7e60674647d3935f446f05613c memcg: switch lruvec stats to rstat
+aa48e47e3906c332eaf1e5d7b58be11d3509ad9f memcg: infrastructure to flush memcg stats
+bb902cb47cf93b33cd92b3b7a4019330a03ef57f memcg: charge fs_context and legacy_fs_context
+79f6540ba88dfb383ecf057a3425e668105ca774 memcg: enable accounting for mnt_cache entries
+b655843444152c0a14b749308e4cb35d91cbcf0b memcg: enable accounting for pollfd and select bits arrays
+0f12156dff2862ac54235fc72703f18770769042 memcg: enable accounting for file lock caches
+839d68206de869b8cb4272c5ea10da2ef7ec34cb memcg: enable accounting for fasync_cache
+30acd0bdfb86548172168a0cc71d455944de0683 memcg: enable accounting for new namesapces and struct nsproxy
+18319498fdd4cdf8c1c2c48cd432863b1f915d6f memcg: enable accounting of ipc resources
+5f58c39819ff78ca5ddbba2b3cd8ff4779b19bb5 memcg: enable accounting for signals
+c509723ec27e925bb91a20682c448e95d4bc8c9f memcg: enable accounting for posix_timers_cache slab
+ec403e2ae0dfc85996aad6e944a98a16e6dfcc6d memcg: enable accounting for ldt_struct objects
+96e51ccf1af33e82f429a0d6baebba29c6448d0f memcg: cleanup racy sum avoidance code
+55a68c823951855f3ec313fdb85100db84284505 memcg: replace in_interrupt() by !in_task() in active_memcg()
+37bc3cb9bbef86d1ddbbc789e55b588c8a2cac26 mm: memcontrol: set the correct memcg swappiness restriction
+bec49c067c679e9b7ca7c1aac50b56618c12d879 mm, memcg: remove unused functions
+27fb0956ed08780e480a14c5cca2fd4818e99fa7 mm, memcg: save some atomic ops when flush is already true
+5c49cf9ad600f705f595ecbbbac2a5da9a3bb3bd memcg: fix up drain_local_stock comment
+4ba9515d32bac1c54c2357796e32d68eeab784ce memcg: make memcg->event_list_lock irqsafe
+6260618e09d375ee6aa19be16813dac40cc47513 selftests/vm: use kselftest skip code for skipped tests
+0c52ec9513b309b250046fdb2c4c6c3726fa5cfb selftests: Fix spelling mistake "cann't" -> "cannot"
+79c62de859f7e854399efb84a2f04ceeb1c13cc9 mmc: JZ4740: remove the flush_kernel_dcache_page call in jz4740_mmc_read_data
+64a05fe645e27a318470a9f31c76c86f36725689 mmc: mmc_spi: replace flush_kernel_dcache_page with flush_dcache_page
+0e84f5dbf8d6c33d685c45300da55bafd5dd786e scatterlist: replace flush_kernel_dcache_page with flush_dcache_page
+f358afc52c3066f4e8cd7b3a2d75b31e822519e9 mm: remove flush_kernel_dcache_page
+f00230ff8411eaecbea1f2e528e205424f3725ba mm,do_huge_pmd_numa_page: remove unnecessary TLB flushing code
+e15710bf04063766f428048f4dad7b73b646203f mm: change fault_in_pages_* to have an unsigned size parameter
+5b78ed24e8ec48602c1d6f5a188e58d000c81e2b mm/pagemap: add mmap_assert_locked() annotations to find_vma*()
+9b593cb20283e68e5e65b09ca10038935297f05b remap_file_pages: Use vma_lookup() instead of find_vma()
+5e22928abe671ea1541f19afb80523442938d342 mm/mremap: fix memory account on do_munmap() failure
+cdcfc631c80e716d4b3bf534471273456bb99556 mm/bootmem_info.c: mark __init on register_page_bootmem_info_section
+a1bc561bb2d3d9b944878955095f53aeba30a166 mm: sparse: pass section_nr to section_mark_present
+fc1f5e980a463325cf41d39ac6a69aa3cca73995 mm: sparse: pass section_nr to find_memory_block
+11e02d3729da1a2d4a33db5ea61291770d411884 mm: sparse: remove __section_nr() function
+01c8d337d195ed105cabab95bc4dcb9e145bf5ea mm/sparse: set SECTION_NID_SHIFT to 6
+e0dbb2bccf19ce5e870afb420a3d0480c582bb7b include/linux/mmzone.h: avoid a warning in sparse memory support
+bdbda735508ca83341899a77f143e4d5c58007b3 mm/sparse: clarify pgdat_to_phys
+343ab8178f318b6006d54865972ff9c433b29e10 mm/vmalloc: use batched page requests in bulk-allocator
+12e376a6f859a000308b6c7cf4a2493eda2bb026 mm/vmalloc: remove gfpflags_allow_blocking() check
+f8bcbecfb6b48c026e2205679c063d1f16f5a2c0 lib/test_vmalloc.c: add a new 'nr_pages' parameter
+f181234a5a21fd0a86b793330016b92c7b3ed8ee mm/vmalloc: fix wrong behavior in vread
+c9d1af2b780a7077d253047ccc81c5253cf0974a mm/kasan: move kasan.fault to mm/kasan/report.c
+ab512805710fa0e4ec6b61fee8a52d044a060009 kasan: test: rework kmalloc_oob_right
+8fbad19bdcb4b9be8131536e5bb9616ab2e4eeb3 kasan: test: avoid writing invalid memory
+555999a009aacd90ea51a6690e8eb2a5d0427edc kasan: test: avoid corrupting memory via memset
+1b0668be62cfa394903bb368641c80533bf42d5a kasan: test: disable kmalloc_memmove_invalid_size for HW_TAGS
+25b12a58e848459ae2dbf2e7d318ef168bd1c5e2 kasan: test: only do kmalloc_uaf_memset for generic mode
+b38fcca339dbcf680c9e43054502608fabc81508 kasan: test: clean up ksize_uaf
+756e5a47a5ddf0caa3708f922385a92af9d330b5 kasan: test: avoid corrupting memory in copy_user_test
+f16de0bcdb55bf18e2533ca625f3e4b4952f254c kasan: test: avoid corrupting memory in kasan_rcu_uaf
+c3ab6baf6a004eab7344a1d8880a971f2414e1b6 mm/page_alloc: always initialize memory map for the holes
+22e7878102f94a50e9a4c2c19f909a9a0898c4ce microblaze: simplify pte_alloc_one_kernel()
+c803b3c8b3b70f306ee6300bf8acdd70ffd1441a mm: introduce memmap_alloc() to unify memory map allocation
+08678804e0b305bbbf5b756ad365373e5fe885a2 memblock: stop poisoning raw allocations
+b346075fcf5dda7f9e9ae671703aae60e8a94564 mm/page_alloc.c: fix 'zone_id' may be used uninitialized in this function warning
+3b446da6be7a722d769e23f68dbaf4ebb2eda542 mm/page_alloc: make alloc_node_mem_map() __init rather than __ref
+88dc6f208829cfdbc0b96495c5c73a6af0559300 mm/page_alloc.c: use in_task()
+1d09510bcc6bc00ed406f0d65e39ab3b734f124b mm/page_isolation: tracing: trace all test_pages_isolated failures
+ae611d072c5c2968e2cc29431cf58094d8971b94 mm/hwpoison: remove unneeded variable unmap_success
+ea3732f7a1cf636284388988d1a1e56d5cba6044 mm/hwpoison: fix potential pte_unmap_unlock pte error
+ed8c2f492d4e7248a9c0493c444c47bed84d345d mm/hwpoison: change argument struct page **hpagep to *hpage
+a21c184fe25eab36fb6efabae55333452171d53b mm/hwpoison: fix some obsolete comments
+d0505e9f7dcec85da6634ec66da2b17656ee177b mm: hwpoison: don't drop slab caches for offlining non-LRU page
+f6533121696b2126a33b436f433a048b4427944f doc: hwpoison: correct the support for hugepage
+941ca063eb8ed01e66336b1f493e95b107024bc8 mm: hwpoison: dump page for unhandlable page
+f87060d345232c7d855167a43faf006e24afa999 mm: fix panic caused by __page_handle_poison()
+416d85ed3e08c1164c1405249a94343166837802 hugetlb: simplify prep_compound_gigantic_page ref count racing code
+b65a4edae11ecd209a0f7c39e856de24678612d9 hugetlb: drop ref count earlier after page allocation
+e32d20c0c88b1cd0a44f882c4f0eb2f536363d1b hugetlb: before freeing hugetlb page set dtor to appropriate value
+09a26e832705fdb7a9484495b71a05e0bbc65207 hugetlb: fix hugetlb cgroup refcounting during vma split
+a759a909d42d727e918bd5248d6cff7562fa8109 userfaultfd: change mmap_changing to atomic
+22e5fe2a2a279d9a6fcbdfb4dffe73821bef1c90 userfaultfd: prevent concurrent API initialization
+4410cbb5c9f9371556c4e928b5dd00226b073082 selftests/vm/userfaultfd: wake after copy failure
+79c28a41672278283fa72e03d0bf80e6644d4ac4 mm/numa: automatically generate node migration order
+884a6e5d1f93b5032e5d6dd2a183f8b3f008416b mm/migrate: update node demotion order on hotplug events
+5ac95884a784e822b8cbe3d4bd6e9f96b3b71e3f mm/migrate: enable returning precise migrate_pages() success count
+26aa2d199d6f2cfa6f2ef2a5dfe891f2250e71a0 mm/migrate: demote pages during reclaim
+668e4147d8850df32ca41e28f52c146025ca45c6 mm/vmscan: add page demotion counter
+2f368a9fb7f408ba7d4e6d588e1958fe8b780d08 mm/vmscan: add helper for querying ability to age anonymous pages
+a2a36488a61cefe3129295c6e75b3987b9d7fd13 mm/vmscan: Consider anonymous pages without swap
+3a235693d3930e1276c8d9cc0ca5807ef292cf0a mm/vmscan: never demote for memcg reclaim
+20b51af15e014cac63b58a4f8b8b323ac35bccce mm/migrate: add sysfs interface to enable reclaim migration
+9647875be52b33fe22cb034ec3074896c581543f mm/vmpressure: replace vmpressure_to_css() with vmpressure_to_memcg()
+d17be2d9ff6c689fd70d2d451153d613508a56ae mm/vmscan: remove the PageDirty check after MADV_FREE pages are page_ref_freezed
+eaad1ae7819fa2b8616a31c66d48982b1bb85d62 mm/vmscan: remove misleading setting to sc->priority
+b87c517ac5de168aec6e8318ca0707b11b2ccfaf mm/vmscan: remove unneeded return value of kswapd_run()
+2e786d9e5a2014c327d9b2eec83fa60b16af26f9 mm/vmscan: add 'else' to remove check_pending label
+1399af7e54896c774d67f1c1acc491b07149421d mm, vmscan: guarantee drop_slab_node() termination
+e1e92bfa3825b72be4957f9fef267b3106d20aa6 mm: compaction: optimize proactive compaction deferrals
+65d759c8f9f57b96c199f3fe5cfb93ac7da095e9 mm: compaction: support triggering of proactive compaction by user
+062db29358c9bd40d8aa9e96ce7b492b03d669d5 mm/mempolicy: use readable NUMA_NO_NODE macro instead of magic number
+b27abaccf8e8b012f126da0c2a1ab32723ec8b9f mm/mempolicy: add MPOL_PREFERRED_MANY for multiple preferred nodes
+4c54d94908e089e9741513797eac30a8b8217034 mm/memplicy: add page allocation function for MPOL_PREFERRED_MANY policy
+cfcaa66f803233c50e17239469f6c96136a673a1 mm/hugetlb: add support for mempolicy MPOL_PREFERRED_MANY
+a38a59fdfa10be55d08e4530923d950e739ac6a2 mm/mempolicy: advertise new MPOL_PREFERRED_MANY
+be897d48a971e36daadbd9289967e7e4f3749528 mm/mempolicy: unify the create() func for bind/interleave/prefer-many policies
+38b031dd4d03542d963eebe600d67ea34f47eb65 mm/mempolicy.c: use in_task() in mempolicy_slab_node()
+a7259df7670240ee03b0cfce8a3e5d3773911e24 memblock: make memblock_find_in_range method private
+884a7e5964e06ed93c7771c0d7cf19c09a8946f1 mm: introduce process_mrelease system call
+dce49103962840dd61423d7627748d6c558d58c5 mm: wire up syscall process_mrelease
+c9bd7d183673b5136e56210003e1d94338d47c45 mm/migrate: correct kernel-doc notation
+68d6289baa35c5e59b5359577d3dc01c00c437d2 selftests: vm: add KSM merge test
+a40c80e348fac4ecff8abcc3fae31e2e84c055d6 selftests: vm: add KSM unmerge test
+39619982c5be6ed57390f17aabee6bc11e4af37e selftests: vm: add KSM zero page merging test
+82e717ad35018ce59ba1b66297dfd898b2a1a03f selftests: vm: add KSM merging across nodes test
+584ff0dfb09a81e1addf02543f7c1fa8e71ce6d2 mm: KSM: fix data type
+9e7cb94ca218816bfd51e07b50bcfeadd3166d42 selftests: vm: add KSM merging time test
+924a11bd1623787c6604590202e0920eb572fa42 selftests: vm: add COW time test for KSM pages
+319814504992f51ed17af60edb1a237ada1892e8 mm/percpu,c: remove obsolete comments of pcpu_chunk_populated()
+ea15ba17b434b7dd7f92bb85b7e5cf53707733ad mm/vmstat: correct some wrong comments
+64632fd3eb4611780a1190362f2119d8f2bb5465 mm/vmstat: simplify the array size calculation
+33090af97350cee9ea0e347301cef704bd5b0d8e mm/vmstat: remove unneeded return value
+d5fffc5aff269717a035baa087630adca612a6c4 mm/madvise: add MADV_WILLNEED to process_madvise()
+14726903c835101cd8d0a703b609305094350d61 Merge branch 'akpm' (patches from Andrew)
+3de18c865f504ab59ed2588b1e11acd4bcb9ea09 Merge branch 'stable/for-linus-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/swiotlb
+0c217d5066c84f67cd672cf03ec8f682e5d013c2 SUNRPC: improve error response to over-size gss credential
+69a5c49a9147e9daca76201e3d6edfea5ed8403a Merge tag 'iommu-updates-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+50ddcdb2635c82e195a2557341d759c5b9419bf1 Merge tag 'livepatching-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+603eefda5fcf8f9dab3ae253e677abb285f6f3bc Merge tag 'for-linus' of git://github.com/openrisc/linux
+d6742212c0c6ccee2351499db80acba71fa36052 Merge tag 'mips_5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+2cfa946be843834d937e0914552d4967ffd421fc clk: qcom: gcc-sm6350: Remove unused variable
+11d5576880aed34b8aa4e8049afdab92793b071f Merge tag 'for-5.15/parisc-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+7cca308cfdc0725363ac5943dca9dcd49cc1d2d5 Merge tag 'powerpc-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+d66e3edee7af87fe212df611ab9846b987a5070f futex: Remove unused variable 'vpid' in futex_proxy_trylock_atomic()
+abf36fe0be7d754f2a1c733d684d11474e85b7ea docs: kernel-hacking: Remove inappropriate text
+eafb1d64030abf5f885026c2074d120c13e0ca9d mm, slub: don't call flush_all() from slab_debug_trace_open()
+b3fd64e1451b5efd94aa0ebc755e02558e6f3ca1 mm, slub: allocate private object map for debugfs listings
+0a19e7dd928800da66efe429c25b0adc3a07c534 mm, slub: allocate private object map for validate_slab_cache()
+84048039d7774c363951ee6fc41c5d26f50f72fd mm, slub: don't disable irq for debug_check_no_locks_freed()
+976b805c782a57256e08aeaab45a64536b8887cf mm, slub: remove redundant unfreeze_partials() from put_cpu_partial()
+4e71add02821bdd204dd29c35e66baecc9b6a235 Merge branch 'stable/for-linus-5.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/ibft
+b250e6d141ce4f0d0ada60e4b5db577050e5feb0 Merge tag 'kbuild-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+f1583cb1be35c23df60b1c39e3e7e6704d749d0b Merge tag 'linux-kselftest-next-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+2fc2a7a62eb58650e71b4550cf6fa6cc0a75b2d2 io_uring: io_uring_complete() trace should take an integer
+2a904905ae041504aefaf8fc7144d31b940443e0 mm, slub: extract get_partial() from new_slab_objects()
+53a0de06e50acb372c75d87fcc72ddfdf4a060ee mm, slub: dissolve new_slab_objects() into ___slab_alloc()
+75c8ff281d7a6faa650bb9b32052f3ee1b5f8e83 mm, slub: return slab page from get_partial() and set c->page afterwards
+1572df7cbcb48936c880f2d2de524f8e47ab65d4 mm, slub: restructure new page checks in ___slab_alloc()
+9b4bc85a69f57fea93c1f359b393d2c24857d2f5 mm, slub: simplify kmem_cache_cpu and tid setup
+e500059ba55268e1c5212632e4f21e45f54dc6d9 mm, slub: move disabling/enabling irqs to ___slab_alloc()
+0b303fb402862dcb7948eeeed2439bd8c99948b5 mm, slub: do initial checks in ___slab_alloc() with irqs enabled
+fa417ab7506f9234100e249938d13e94a8c404e8 mm, slub: move disabling irqs closer to get_partial() in ___slab_alloc()
+6c1dbb674c5cf76d23381160577d34bead60b76b mm, slub: restore irqs around calling new_slab()
+3f2b77e35a4fc3c83132a1a1a2fc7a2c803a2514 mm, slub: validate slab from partial list or page allocator before making it cpu slab
+9f101ee89465e0b2c11b477f5b55e03039b2c308 mm, slub: check new pages with restored irqs
+4b1f449dedd2ff1eede4ced08a503e13c8d668ce mm, slub: stop disabling irqs around get_partial()
+a019d20162586ae5b14bf26c94f1943b1d24a832 mm, slub: move reset of c->page and freelist out of deactivate_slab()
+3406e91bce47383f03fe839f02f7f4bef78c832c mm, slub: make locking in deactivate_slab() irq-safe
+cfdf836e1f93df56ddd9a1d48b2deadf02f441fe mm, slub: call deactivate_slab() without disabling irqs
+f3ab8b6b9228176920e1c73fa24d2db62268aa48 mm, slub: move irq control into unfreeze_partials()
+8de06a6f48f2062444a8872eb7f5abbfe65b5ecd mm, slub: discard slabs in unfreeze_partials() without irqs disabled
+c2f973ba42ed1fe7b2ca71e93767afeacc88caa0 mm, slub: detach whole partial list at once in unfreeze_partials()
+fc1455f4e023b278ca73cb729bc50037dc48c45c mm, slub: separate detaching of partial list in unfreeze_partials() from unfreezing
+7cf9f3ba2f02216b2303e648c0c5439f00191008 mm, slub: only disable irq with spin_lock in __unfreeze_partials()
+0e7ac738f785e695acfa1203a87f6a505305542a mm, slub: don't disable irqs in slub_cpu_dead()
+08beb547a1f7b66fbeaf40f2d3675a3ea0060c0b mm, slab: split out the cpu offline variant of flush_slab()
+5a836bf6b09f99ead1b69457ff39ab3011ece57b mm: slub: move flush_cpu_slab() invocations __free_slab() invocations out of IRQ context
+52a67fbf0cffcc1a0d1272cf0522cb193a0d0bd6 ionic: fix a sleeping in atomic bug
+10905b4a68cc58863e04d5ea5864323cb9341f9b Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+2112ff5ce0c1128fe7b4d19cfe7f2b8ce5b595fa iov_iter: track truncated size
+89c2b3b74918200e46699338d7bcc19b1ea12110 io_uring: reexpand under-reexpanded iters
+54357f0c9149c871e5e4b83ad385a6f2ad3a749f tracing: Add migrate-disabled counter to tracing output.
+1c500ad706383f1a6609e63d0b5d1723fd84dab9 loop: reduce the loop_ctl_mutex scope
+da1e7ada5b62859b3a9d236a44035ae9d8f3f7e1 ksmbd: fix lookup on idmapped mounts
+475d6f98804c09a48b5c815f7bd466fb4c1e743e ksmbd: fix translation in smb2_populate_readdir_entry()
+3cdc20e72c3dacf22382fd15d3154e48d0efdec9 ksmbd: fix translation in create_posix_rsp_buf()
+43205ca7192aa5de46775fbf7a043222e76abac5 ksmbd: fix translation in ksmbd_acls_fattr()
+0e844efebdf9c03aed9ae1894f22762a8aee1a3b ksmbd: fix translation in acl entries
+f0bb29d5c65b492ab82cce7b1e1dd00cbca28601 ksmbd: fix subauth 0 handling in sid_to_id()
+55cd04d75e635ac915bf54586ec64057249508ec ksmbd: fix translation in sid_to_id()
+9467a0ce486c87a8f06ad492afa8b95686bff61f ndr: fix translation in ndr_encode_posix_acl()
+eb5784f0c6efbe0db720ad7e34e097cea51c1afc ksmbd: ensure error is surfaced in set_file_basic_info()
+db7fb6fe3d7a8eb05f2b74c6252771c9362f3b74 ksmbd: remove setattr preparations in set_file_basic_info()
+28a5d3de9d65058f7edf8e5aaaf6b0a8d8f4a29f ksmbd: defer notify_change() call
+d475866eeed89cc44ed54e0cd296537a68667b1b ksmbd: Reduce error log 'speed is unknown' to debug
+72d6cbb533d4309734606027fe083c4edb0aa7aa ksmbd: smbd: fix dma mapping error in smb_direct_post_send_data
+687c59e702f48e0eca91455d3ef3197b7b8a8314 ksmbd: remove unused ksmbd_file_table_flush function
+303fff2b8c77a85c62dbde3b27c24b084144c04c ksmbd: add validation for ndr read/write functions
+ca595ac271688cc168da722e6f70fcf6ae4266f6 Input: Fix spelling mistake in Kconfig "Modul" -> "Module"
+7ec7c72fbf9db4c6479fbdae7162d047a9012788 Input: Fix spelling mistake in Kconfig "useable" -> "usable"
+3e204d6b76b29274cc8e57f8bd8d9873f04a7f48 Input: adc-keys - drop bogus __refdata annotation
+94ef0304e2b8dc942f46c74a13841d6b61f61d2f mm: slub: make object_map_lock a raw_spinlock_t
+a2b4ae8bfd9c10e3c1c1966bd3c8d8b7c9026aaf mm, slub: make slab_lock() disable irqs with PREEMPT_RT
+e0a043aa4145a14d6a8864847811491699a81310 mm, slub: protect put_cpu_partial() with disabled irqs instead of cmpxchg
+25c00c506e8176d03f9ad821cc349230dfb5dc1a mm, slub: use migrate_disable() on PREEMPT_RT
+bd0e7491a931f5a2960555b10b9551464ff8cc8e mm, slub: convert kmem_cpu_slab protection to local_lock
+c7c5e6ff533fe1f9afef7d2fa46678987a1335a7 fq_codel: reject silly quantum parameters
+9ddbc2a00d7f63fa9748f4278643193dac985f2d qlcnic: Remove redundant unlock in qlcnic_pinit_from_rom
+7db8263a12155c7ae4ad97e850f1e499c73765fc ethtool: Fix an error code in cxgb2.c
+d863ca67bb6e40b7653e25f3787994281b8c2e58 octeontx2-af: Add a 'rvu_free_bitmap()' function
+ecbd690b52dc11e3ef96139d4cfce53b1191b8a7 octeontx2-af: Fix some memory leaks in the error handling path of 'cgx_lmac_init()'
+0961f0c00e69672a8e4a2e591355567dbda44389 Merge tag 'nfs-for-5.15-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
+55d1308bdff7341b778e5cf36220616a0dd6ab8f cdrom: update uniform CD-ROM maintainership in MAINTAINERS file
+6abaa83c7352b31450d7e8c173f674324c16b02b Merge tag 'f2fs-for-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+f7464060f7ab9a2424428008f0ee9f1e267e410f Merge git://github.com/Paragon-Software-Group/linux-ntfs3
+49624efa65ac9889f4e7c7b2452b2e6ce42ba37d Merge tag 'denywrite-for-5.15' of git://github.com/davidhildenbrand/linux
+f3b6b10fccc44ce0343878a1ed7cd8ef8fd687d8 ntb: intel: remove invalid email address in header comment
+319f83ac98d7afaabab84ce5281a819a358b9895 NTB: Fix an error code in ntb_msit_probe()
+0097ae5f7af5684f961a5f803ff7ad3e6f933668 NTB: perf: Fix an error code in perf_setup_inbuf()
+22bb3b79290ec5970b74fa6e9eb313802d075c82 net/9p: increase tcp max msize to 1MB
+9210fc0a3b61c396ba9b32467b88c89d41bc9fe7 net/9p: use macro to define default msize
+9c4d94dc9a64426d2fa0255097a3a84f6ff2eebe net/9p: increase default msize to 128k
+45010c080e6e7434fcae73212b0087a03590049f iwlwifi: pnvm: Fix a memory leak in 'iwl_pnvm_get_from_fs()'
+81d0885d68ec427e62044cf46a400c9958ea0092 net: stmmac: Fix overall budget calculation for rxtx_napi
+e5dd729460ca8d2da02028dbf264b65be8cd4b5f ip/ip6_gre: use the same logic as SIT interfaces when computing v6LL address
+0a4fd8df07ddc3d12fad3b2e81ea5832bde2f806 bonding: complain about missing route only once for A/B ARP probes
+0319b848b155185815724e1b46103c550627a845 binfmt: a.out: Fix bogus semicolon
+6b6dc4f40c5264556223ba94693f20d83796ab1f Merge tag 'mtd/for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+8a0ed250f911da31a2aef52101bc707846a800ff ip_gre: validate csum_start only on pull
+63f8428b4077de3664eb0b252393c839b0b293ec net: dsa: b53: Fix IMP port setup on BCM5301x
+fd47ff55c9c31101fcc06d20cb381da3d4089bd5 Merge tag 'usb-5.15-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+3fe617ccafd6f5bb33c2391d6f4eeb41c1fd0151 Enable '-Werror' by default for all kernel builds
+063df71a574b88e94391a3a719cf66d1b46df884 Merge tag 'riscv-for-linus-5.15-mw0' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+e07af2626643293fa16df655979e7963250abc63 Merge tag 'arc-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+58ca24158758f1784400d32743373d7d6227d018 Merge tag 'trace-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+27151f177827d478508e756c7657273261aaf8a9 Merge tag 'perf-tools-for-v5.15-2021-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+1656db67233e4259281d2ac35b25f712edbbc20b bnxt_en: fix stored FW_PSID version masks
+beb55fcf950f5454715df05234bb2b2914bc97ac bnxt_en: fix read of stored FW_PSID version on P5 devices
+6fdab8a3ade2adc123bbf5c4fdec3394560b1fb1 bnxt_en: Fix asic.rev in devlink dev info command
+7ae9dc356f247ad9f9634b3da61a45eb72968b2e bnxt_en: Fix UDP tunnel logic
+1b2b91831983aeac3adcbb469aa8b0dc71453f89 bnxt_en: Fix possible unintended driver initiated error recovery
+8c9bc823efd93394061c9b18270405cf21168d51 Merge branch 'bnxt_en-fixes'
+48eab831ae8b9f7002a533fa4235eed63ea1f1a3 net: create netdev->dev_addr assignment helpers
+30326f9577342aac257ed9c036608de666b06389 vDPA/ifcvf: introduce get_dev_type() which returns virtio dev id
+6b5df347c6482f57b0d8f0569b86fb8fcd90d168 vDPA/ifcvf: implement management netlink framework for ifcvf
+2ddae773c93bbcb0678ae819551f1750a505edec vDPA/ifcvf: detect and use the onboard number of queues directly
+90d1936681bc469824c6dfeda701efc884d3b448 vDPA/ifcvf: enable multiqueue and control vq
+4e57a9f622ccacacceadcead7bb65fb807383ab3 vdpa/mlx5: Remove redundant header file inclusion
+ae0428debf7cddf0863a95e415a1957d53384e7e vdpa/mlx5: function prototype modifications in preparation to control VQ
+db296d252dfb977885391e47d3fb6ac5a1f9601c vdpa/mlx5: Decouple virtqueue callback from struct mlx5_vdpa_virtqueue
+e4fc66508c884b87422a98259cdfe135edae130f vdpa/mlx5: Ensure valid indices are provided
+5262912ef3cfc5e518892c3d67fb36412cb813e2 vdpa/mlx5: Add support for control VQ and MAC setting
+52893733f2c5886fc74be6c386d12b59a3f581df vdpa/mlx5: Add multiqueue support
+23b228cb89fdad2140b6b73254ecaf5fb05de5fe vhost scsi: Convert to SPDX identifier
+0d8c9e7d4b403f10f5c277efefd787244198a00c vdpa_sim: Use iova_shift() for the size passed to alloc_iova()
+ad93f7b3715449704225feb33d5fbe6507472245 dt-bindings: virtio: Add binding for virtio devices
+7f815fce08d563006e43d1b7d2f9a0a4f3b832f3 dt-bindings: i2c: Add bindings for i2c-virtio
+f3a66dcdf2390f8434622a4e20a1af7413502623 dt-bindings: gpio: Add bindings for gpio-virtio
+d5a8680dfab0547a4ecd708b1fe9de48598a6757 uapi: virtio_ids: Sync ids with specification
+694a1116b405d887c893525a6766b390989c8606 virtio: Bind virtio device to device-tree node
+9af8f1061646e8e22b66413bedf7b3e2ab3d69e5 virtio/vsock: rename 'EOR' to 'EOM' bit.
+41116599a0731f4cd451e9d191d879ab45e31945 virtio/vsock: add 'VIRTIO_VSOCK_SEQ_EOR' bit.
+1af7e55511fe194a07f3fa4e77b5b9d10bdd9208 vhost/vsock: support MSG_EOR bit processing
+8d5ac871b556c73b042438dc1c811c554dadca52 virtio/vsock: support MSG_EOR bit processing
+e631548027cae026486300fe93542949df73a87d ntb: ntb_pingpong: remove redundant initialization of variables msg_data and spad_data
+38de3afffb7257176978dfa9b3ab67d0c29af95c NTB: switch from 'pci_' to 'dma_' API
+8be98d2f2a0a262f8bf8a0bc1fdf522b3c7aab17 Merge branch 'next' into for-linus
+146ea9b679c9f3e235f20456be477ccd109ac9bd Input: edt-ft5x06 - added case for EDT EP0110M09
+8fc92b7c15f04fb50ce414cbeba7b326e07fcf86 af_vsock: rename variables in receive loop
+0e115c45ee0b86172d910588dd41632f1a2c0199 vsock_test: update message bounds test for MSG_EOR
+729ce5a5bd6fda5eb2322a39db2287f1f26f92f3 vdpa: Make use of PFN_PHYS/PFN_UP/PFN_DOWN helper macro
+1645cca9da91a85167394a34fcfe1cb5dd336d7f drm/i915: use linux/stddef.h due to "isystem: trim/fixup stdarg.h and other headers"
+d32d3d0b47f7e34560ae3c55ddfcf68694813501 nvme-multipath: set QUEUE_FLAG_NOWAIT
+e7d65803e2bb5bc739548b67a5fc72c626cf7e3b nvme-multipath: revalidate paths during rescan
+43dc987828eabf915858b1ac37a8e67fa8004349 nvme: move nvme_multi_css into nvme.h
+77d651a65569a5e60f314b768500e94fcb936311 nvmet: looks at the passthrough controller when initializing CAP
+ab7a2737ac5acd7d485ca45d8772497717fbc781 nvmet: return bool from nvmet_passthru_ctrl and nvmet_is_passthru_req
+f04064814c2a15c22ed9c803f9b634ef34f91092 nvmet: fixup buffer overrun in nvmet_subsys_attr_serial()
+1ba2e507f55c5b0cbde8c0fbfe0d9e39612a3e52 nvme-tcp: Do not reset transport on data digest errors
+b58da2d270dbcc67db73f15028774d27c85e16d7 nvme: update keep alive interval when kato is modified
+041bd1a1fc737cd73b0b8a9f74909191a8acc9fe nvme: only call synchronize_srcu when clearing current path
+ab3994f6efba95e0832dc9e68c088b2d7ae764b8 nvme: add error handling support for add_disk()
+aff959c2840858d55d9ee155d555b3aa7e068b32 nvme: update MAINTAINERS email address
+c2f24933a18ac9098a758cb3edfff6503ed5c55d dt-bindings: mfd: Add Broadcom CRU
+a8bbe0c9440561cb407cefc0b1def808c2c38431 dt-bindings: cpufreq: add bindings for MediaTek cpufreq HW
+8486a32dd484a7d7ec25295c7439094608f54915 cpufreq: Add of_perf_domain_get_sharing_cpumask
+4855e26bcf4d28956f3e33231b961610a0d4a72d cpufreq: mediatek-hw: Add support for CPUFREQ HW
+a717a780fc4e1dddd3fbf9ad08f180eec2a78194 KVM: x86/mmu: Don't freak out if pml5_root is NULL on 4-level host
+81b4b56d4f8130bbb99cf4e2b48082e5b4cfccb9 KVM: VMX: avoid running vmx_handle_exit_irqoff in case of emulation
+e4457a45b41c1c2ec7fb392dc60f4e2386b48a90 iwlwifi: fix printk format warnings in uefi.c
+4ddacd525a2f16cebec8ba409fbce6b6fb45e987 kvm: x86: Set KVM_MAX_VCPU_ID to 4*KVM_MAX_VCPUS
+074c82c8f7cf8a46c3b81965f122599e3a133450 kvm: x86: Increase MAX_VCPUS to 1024
+1dbaf04cb91b2b680d10f9a8f9f823d94c7087bf kvm: x86: Increase KVM_SOFT_MAX_VCPUS to 710
+678a305b85d95f288c12e3d69a32d3351b34f2bb KVM: x86/mmu: Remove unused field mmio_cached in struct kvm_mmu_page
+e7177339d7b5f9594b316842122b5fda9513d5e2 Revert "KVM: x86: mmu: Add guest physical address check in translate_gpa()"
+ca41c34cab1f50f13ab5ac95739483871637a684 KVM: x86/mmu: Relocate kvm_mmu_page.tdp_mmu_page for better cache locality
+1148bfc47be3f885a10945ecbc1e3789a0313603 KVM: x86/mmu: Move lpage_disallowed_link further "down" in kvm_mmu_page
+fdde13c13f9012b22e1b3a1df8a108d147842f6f KVM: Remove unnecessary export of kvm_{inc,dec}_notifier_count()
+3cc4e148b96263313e3dce926eae569c942bb74e KVM: stats: Add VM stat for remote tlb flush requests
+a40b2fd064bb7c0425c7cbdca2120cf0609a90a2 x86/kvm: Don't enable IRQ when IRQ enabled in kvm_wait
+0d0a19395baa36ab186df8081ab7f7b57c3fade1 Merge tag 'kvm-s390-next-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+e99314a340d27efafab3b7ea226beb239162cd46 Merge tag 'kvmarm-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+a3cf527e70bd1553500746ef2f38db41e2af1d9e KVM: MIPS: Remove a "set but not used" variable
+4ac214574d2d83b7ef20c603d75f1937c912bfd6 KVM: MMU: mark role_regs and role accessors as maybe unused
+d9130a2dfdd4b21736c91b818f87dbc0ccd1e757 KVM: x86: Update vCPU's hv_clock before back to guest when tsc_offset is adjusted
+81a83d7f4cfcb255c040df09ce83249fabf8733a virtio-balloon: Use virtio_find_vqs() helper
+6105d1fe6f4c24ce8c13e2e6568b16b76e04983d virtio-blk: remove unneeded "likely" statements
+a93a962669cdbe56bb0bcd88156f0f1598f31c88 iova: Export alloc_iova_fast() and free_iova_fast()
+7a6b92d33ab166c6ea6e5764033ca99dcb6ec361 eventfd: Export eventfd_wake_count to modules
+9c930054f2f5326d59ee4bf8d7d1cf6c82f5643b file: Export receive_fd() to modules
+86e17a51c1a5a299009f8b1645e3e9da0d59faae vdpa: Fix some coding style issues
+0686082dbf7a204ca0fab326a820779e31666639 vdpa: Add reset callback in vdpa_config_ops
+7f05630dc65d62df5d55ad3e1038ffbe5e2ce9c3 vhost-vdpa: Handle the failure of vdpa_reset()
+59dfe4f1e810b5820443c84f9863b04b033143e8 vhost-iotlb: Add an opaque pointer for vhost IOTLB
+c10fb9454adc80c062151c6a436047e1fa59e99f vdpa: Add an opaque pointer for vdpa_config_ops.dma_map()
+22af48cf91aae5f2fd32fe811d9be1c52d7a801b vdpa: factor out vhost_vdpa_pa_map() and vhost_vdpa_pa_unmap()
+d8945ec411209272bcd4ae9e75ea1b078257e492 vdpa: Support transferring virtual addressing during DMA mapping
+8c773d53fb7b64267b0f55c1d3517cb8c5e29b3c vduse: Implement an MMU-based software IOTLB
+c8a6153b6c59d95c0e091f053f6f180952ade91e vduse: Introduce VDUSE - vDPA Device in Userspace
+7bc7f61897b66bef78bb5952e3d1e9f3aaf9ccca Documentation: Add documentation for VDUSE
+660585b56e63ca034ad506ea53c807c5cdca3196 fuse: wait for writepages in syncfs
+a9667ac88e2b20f6426e09945e9dbf555fb86ff0 fuse: remove unused arg in fuse_write_file_get()
+5289de5929d1758a95477a4d160195397ccffa7b stmmac: dwmac-loongson:Fix missing return value
+e0b6417be08850646d4e44ef1123772ec786baea MAINTAINERS: add VM SOCKETS (AF_VSOCK) entry
+6d5f1ef838683efba01bacb7854f6516fbcbae17 bonding: Fix negative jump label count on nested bonding
+4a9c93dc47de335880ce7347e6aa006d8f33265a selftests/bpf: Test XDP bonding nest and unwind
+b109398a2206bf4bd3f6cb4fe678735387574d79 Merge branch 'bonding-fix'
+0c0383918a3ec4250e318cdbdd32e1caef12c14c net: hns3: make hclgevf_cmd_caps_bit_map0 and hclge_cmd_caps_bit_map0 static
+109bbba5066b42431399b40e947243f049d8dc8d KVM: Drop unused kvm_dirty_gfn_invalid()
+f8416aa29185468e0d914ba4b2a330fd53ee263f kernel: debug: Convert to SPDX identifier
+fe63339ef36bfb1cc12962015a9b254170eea057 ip6_gre: Revert "ip6_gre: add validation for csum_start"
+0a83299935f047f4a051e2a1d32391d34f4e4fcc net: qcom/emac: Replace strlcpy with strscpy
+1d99411fe70194f39d74a8db2ad082daa12e6aad net: wwan: iosm: Replace io.*64_lo_hi() with regular accessors
+b539c44df067ac116ec1b58b956efda51b6a7fc1 net: wwan: iosm: Unify IO accessors used in the driver
+20fbb11fe4ea99e02d77824613f1438bea456683 don't make the syscall checking produce errors from warnings
+60f8fbaa954452104a1914e21c5cc109f7bf276a Merge tag 'for-5.15/io_uring-2021-09-04' of git://git.kernel.dk/linux-block
+eebb4159a2bf660b545ecb6ee318179971d610a2 Merge tag 'libata-5.15-2021-09-05' of git://git.kernel.dk/linux-block
+03085b3d5a45a60061423ac4857f339c7cb260ff Merge tag 'misc-5.15-2021-09-05' of git://git.kernel.dk/linux-block
+1dbe7e386f505bdae30f7436c41769149c7dcf32 Merge tag 'block-5.15-2021-09-05' of git://git.kernel.dk/linux-block
+1476ff21abb435cd4c453e61df5b125fac8cc50b iwl: fix debug printf format strings
+ba7b1f861086d760ef1032915fe7c809a191434e lib/test_scanf: split up number parsing test routines
+4b93c544e90e2b28326182d31ee008eb80e02074 thunderbolt: test: split up test cases in tb_test_credit_alloc_all
+7c5c18bdb656057cb76fabfa1a74b793ac49da35 docs: pdfdocs: Fix typo in CJK-language specific font settings
+5ac749a57e0ebb334b1b2c3d28d4d5b1ef85f8ed libata: pass over maintainership to Damien Le Moal
+8491f59e3b130ea8b5116e363d400c42f91544fc ALSA: vx222: fix null-ptr-deref
+d198b8273e3006818ea287a93eb4d8fd2543e512 Input: elan_i2c - reduce the resume time for controller in Whitebox
+ab108678195ff70edf50025379a5de94b0bb26be Input: mms114 - support MMS134S
+54d7a47a008b89fce5a669528274194ca092634d can: rcar_canfd: add __maybe_unused annotation to silence warning
+644d0a5bcc3361170d84fb8d0b13943c354119db can: c_can: fix null-ptr-deref on ioctl()
+cca62758ebdd71fcfb6d589d6487a7f26398d50d dma-buf: DMABUF_DEBUG should depend on DMA_SHARED_BUFFER
+87fd9ef47597b2fcee3264eb5f288410b9f376d5 dma-buf: DMABUF_SYSFS_STATS should depend on DMA_SHARED_BUFFER
+452d07413954ef38951cfd41507b310c3afccd93 mfd: syscon: Use of_iomap() instead of ioremap()
+cdff1eda69326fb46de10c5454212b3efcf4bb41 mfd: lpc_sch: Rename GPIOBASE to prevent build error
+be27a47a760e3ad8ce979a680558776f672efffd cxgb3: fix oops on module removal
+8f110f35f9629397ad40cf4c2a66c2c350fbd8ea Merge tag 'wireless-drivers-2021-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+1c990729e19891bd586f9f28a290db2867bdcb0a Merge tag 'linux-can-fixes-for-5.15-20210907' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+bbef56d861f103058e387ad5354b4083b9892a7c bonding: 3ad: pass parameter bond_params by reference
+9d2e19e349627e79bcd474bc64e71a312029b3be ALSA: gus: Fix repeated probes of snd_gus_create()
+c5433f026b27cc100985189fac04969dfbf56dba ALSA: gus: Fix repeated probe for ISA interwave card
+88b604263f3d6eedae0b1c2c3bbd602d1e2e8775 s390/unwind: use current_frame_address() to unwind current task
+a052096bdd6809eeab809202726634d1ac975aa1 s390/topology: fix topology information when calling cpu hotplug notifiers
+2e8275285a60868231eaf63abd9552cc27e512a2 s390/mm: fix kernel doc comments
+5dddfaac4c258f5eda7b3dba7f9d851262fcbbab s390/cpum_cf: move array from header to C file
+44bead2545f11d543c3cc38b1342713c7f825dc2 s390/con3270: use proper type for tasklet function
+7a928af413c367bfed513e0a44220b4a5d21ef9a s390/ctrlchar: fix kernel doc comment
+19379d456f7b6d46e478cc1587a20d23f9d092ef s390/cio: fix kernel doc comment
+ebd9cc6593691e6bc8526e368cedbdfc8034f403 s390/pci: fix clp_get_state() handling of -ENODEV
+85ad27215ca57d02bb7c43d76f65a865dc863b59 s390/pci: read clp_list_pci_req only once
+68c32eb2707aed0a3be1a60b0f206943a25e8f34 s390: remove xpram device driver
+7d665612dd5ae0fe982a34447f84cb5121c3455a s390/hmcdrv_ftp: fix kernel doc comment
+6f93e834fa7c5faa0372e46828b4b2a966ac61d7 btrfs: fix upper limit for max_inline for page size 64K
+cde7417ce487988322d0bdaa02b4165082fbe388 btrfs: use correct header for div_u64 in misc.h
+8f96a5bfa1503e0a5f3c78d51e993a1794d4aff1 btrfs: update the bdev time directly when closing
+3fa421dedbc82f985f030c5a6480ea2d784334c3 btrfs: delay blkdev_put until after the device remove
+c124706900c20dee70f921bb3a90492431561a0a btrfs: fix lockdep warning while mounting sprout fs
+f79645df806565a03abb2847a1d20e6930b25e7e btrfs: zoned: fix double counting of split ordered extent
+0341d5e3d1ee2a36dd5a49b5bef2ce4ad1cfa6b4 net: renesas: sh_eth: Fix freeing wrong tx descriptor
+f97493657c6372eeefe70faadd214bf31488c44e net: phylink: add suspend/resume support
+90702dcd19c093621b422ba16fcfd870afe2552f net: stmmac: fix MAC not working when system resume back with WoL active
+d1bf73387b5adbc12c6a59c1fbaa69e05ee265ed Merge branch 'stmmac-wol-fix'
+0f77f2defaf682eb7e7ef623168e49c74ae529e3 ieee802154: Remove redundant initialization of variable ret
+dd7c46d6e58e8737b0ac3ba21e8584c2632dba65 Revert "cpufreq: intel_pstate: Process HWP Guaranteed change notification"
+27de8d597020755b6bdeca7036463ca6d0b4c295 Merge branch 'cpufreq/arm/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+dfbb3409b27fa42b96f5727a80d3ceb6a8663991 block: genhd: don't call blkdev_show() with major_names_lock held
+884f0e84f1e3195b801319c8ec3d5774e9bf2710 blk-throttle: fix UAF by deleteing timer in blk_throtl_exit()
+49d82b1445f13b2754aacc38d73d0cf1b515456c Merge tag 'nvme-5.15-2021-09-07' of git://git.infradead.org/nvme into block-5.15
+cd82cca7ebfe9c6c74a8e5b28382ba88177ba5f1 block: split out operations on block special files
+0dca4462ed0681649fdcd5700a6ddfbaa65fa178 block: move fs/block_dev.c to block/bdev.c
+cd1adf1b63a112d762832e9c64b0a886fbb840d6 Revert "mm/gup: remove try_get_page(), call try_get_compound_head() directly"
+3754707bcc3e190e5dadc978d172b61e809cb3bd Revert "memcg: enable accounting for file lock caches"
+0bcfe68b876748762557797a940d0a82de700629 Revert "memcg: enable accounting for pollfd and select bits arrays"
+a7bfaad54b8b9cf06041528988d6b75b4b921546 cxl/acpi: Do not add DSDT disabled ACPI0016 host bridge ports
+9e56614c44b994b78fc9fcb2070bcbe3f5df0d7b cxl/pci: Fix lockdown level
+da582aa5ad5787c46e3f475ab3f4602ec84c1617 cxl/pci: Fix debug message in cxl_probe_regs()
+9d1b3afd73047d4dd30e3636412c9f9b5def2b14 cxl/uapi: Fix defined but not used warnings
+a01da6ca7d0ad66b6fa2dc4af0fc97ca8ba28b45 cxl/pmem: Fix Documentation warning
+2b922a9d064f8e86b53b04f5819917b7a04142ed cxl/registers: Fix Documentation warning
+996fe06160998a38ff07189feb3ec8ab8f68fd4e Merge tag 'kgdb-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
+d216bfb4d7984a510e984d2c94ae6d2251d76aee PM: sleep: wakeirq: drop useless parameter from dev_pm_attach_wake_irq()
+66e0aeaa8bae6d464f7bcd2767c10c8c84658362 ACPI: scan: Remove unneeded header linux/nls.h
+0654cf05d17bc4d296a53a8bc7d107bc8a795f2e ACPI: CPPC: Introduce cppc_get_nominal_perf()
+46573fd6369f098f15e11768850b6430f374905f cpufreq: intel_pstate: hybrid: Rework HWP calibration
+ca67408ad57a5a67ad6801d792c40c010451bdef PM: EM: fix kernel-doc comments
+d62aab8ff711dc3a4c07684ea33042347f79b630 Documentation: power: include kernel-doc in Energy Model doc
+75b96f0ec5faf730128c32187e3e28441c27a094 Merge tag 'fuse-update-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+4a9344cd0aa4499beb3772bbecb40bb78888c0e1 PM: sleep: core: Avoid setting power.must_resume to false
+5e6a5845dd651b00754a62edec2f0a439182024d Merge tag 'gpio-updates-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+86406a9e733347f877a2bd5269ce7429d3748c6a Merge tag 'mfd-next-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
+2d7b4cdbb523cd11a978519f8e11895c27f05258 Merge tag 'backlight-next-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
+0766ec82e5fb26fc5dc6d592bc61865608bdc651 namei: Fix use after free in kern_path_locked
+21f577b0f48fd3a8871ca4116dad0e9c41ec42b2 Merge tag 'rproc-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/andersson/remoteproc
+c5f563f9e9e66c0ad0b23abe25165c124579b70e rename __filename_parentat() to filename_parentat()
+1735715e0fd7a16972402ac98197e6cf30988a45 Merge tag 'ntb-5.15' of git://github.com/jonmason/ntb
+794ebcea865bff47231de89269e9d542121ab7be namei: Standardize callers of filename_lookup()
+a2b28235335fee2586b4bd16448fb59ed6c80eef Merge branch 'dmi-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging
+b4a4f213a39d5e55baf38c96042acaeaf927ec74 namei: Standardize callers of filename_create()
+ea47ab111669b187808b3080602788dec26cb9bc putname(): IS_ERR_OR_NULL() is wrong here
+192ad3c27a4895ee4b2fa31c5b54a932f5bb08c1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+4c00e1e2e58eefb288ba9ef585b6f19e1f33bf1e Merge tag 'linux-watchdog-5.15-rc1' of git://www.linux-watchdog.org/linux-watchdog
+626bf91a292e2035af5b9d9cce35c5c138dfe06d Merge tag 'net-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+7f2a6a69f7ced6db8220298e0497cf60482a9d4b blk-mq: allow 4x BLK_MAX_REQUEST_COUNT at blk_plug for multiple_queues
+5615e088b43d564aec08ccfaecb21ba484a1b4d6 tracing: Fix some alloc_event_probe() error handling bugs
+b339ec9c229aaf399296a120d7be0e34fbc355ca kbuild: Only default to -Werror if COMPILE_TEST
+ac08b1c68d1b1ed3cebb218fc3ea2c07484eb07d Merge tag 'pci-v5.15-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
+9660dcbe0d9186976917c94bce4e69dbd8d7a974 RDMA/mlx5: Fix number of allocated XLT entries
+f4c6f31011eafe027abddf6cee1288a1b5a05b73 RDMA/mlx5: Fix xlt_chunk_align calculation
+84f969e1c48ed3825986e91a0786e363d57f69d1 IB/qib: Fix null pointer subtraction compiler warning
+f1b195ce81ad31618e9f28894a343fd62debb9ab RDMA/bnxt_re: Prefer kcalloc over open coded arithmetic
+2169b908894df2ce83e7eb4a399d3224b2635126 IB/hfi1: make hist static
+ff8a58b0ae735f32fe87d0d07e98751ff9dcaed0 s390/sclp: add __nonstring annotation
+f6beebb15eeede0c39bb2d25aefa61f9ddcf2395 scsi: zfcp: fix kernel doc comments
+2c57ad602493a6674d5c8e35b427ab27012437b2 s390/zcrypt: remove incorrect kernel doc indicators
+9652cb805c44b74ba935c84bfd59745cb1962de8 s390/ftrace: remove incorrect __va usage
+713b9825a4c47897f66ad69409581e7734a8728e io-wq: fix cancellation on create-worker failure
+eabf9e616ec6e7864458371390ef7771dfb3ad0a Merge branch 'pm-cpufreq'
+f76c87e8c33766cc6a7bf7461dfac9cebb05b5df Merge branch 'pm-opp'
+e543b10cd9d75309c820d2175200d09b2a62f249 Merge branches 'acpi-pm' and 'acpi-docs'
+39ff83f2f6cc5cc1458dfcea9697f96338210beb time: Handle negative seconds correctly in timespec64_to_ns()
+25fca8c9e0d79ca4c5bb0199dcc52ab0ea4cbd7d Merge tag 'asoc-fix-v5.15-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+49832c819ab85b33b7a2a1429c8d067e82be2977 Makefile: use -Wno-main in the full kernel tree
+8c28051cdcbe9dfcec6bd0a4709d67a09df6edae fbmem: don't allow too huge resolutions
+bb9c14ad267d25dd77ceccbcfd69804bdb7240f5 hugetlbfs: s390 is always 64bit
+df82bf5a9fad7004bc0c35a075ed7402b2eb7374 memory-hotplug.rst: remove locking details from admin-guide
+ac3332c44767b17b761b703523ac4ae9b2bcd227 memory-hotplug.rst: complete admin-guide overhaul
+859a85ddf90e714092dea71a0e54c7b9896621be mm: remove pfn_valid_within() and CONFIG_HOLES_IN_ZONE
+673d40c82eb2200da32ae9cc9cac8c584b66b5a9 mm: memory_hotplug: cleanup after removal of pfn_valid_within()
+7cf209ba8a86410939a24cb1aeb279479a7e0ca6 mm/memory_hotplug: use "unsigned long" for PFN in zone_for_pfn_range()
+65a2aa5f482ed0c1b5afb9e6b0b9e0b16bb8b616 mm/memory_hotplug: remove nid parameter from arch_remove_memory()
+e1c158e4956612e7bada4c03dfb99210af4d6cde mm/memory_hotplug: remove nid parameter from remove_memory() and friends
+35ba0cd5290b2f1f92e1f0eb6de7ce7979f79728 ACPI: memhotplug: memory resources cannot be enabled yet
+4b0970024408afb17886e0c76e9761c4264db2a8 mm: track present early pages per zone
+e83a437faa625efb2e70924fd3c32ba95610c502 mm/memory_hotplug: introduce "auto-movable" online policy
+028fc57a1c361116e3bcebfeba4ca87878baaf4f drivers/base/memory: introduce "memory groups" to logically group memory blocks
+836809ec75cc07c6d07c43036e3844affbe0d46f mm/memory_hotplug: track present pages in memory groups
+2a1578397a16fc18677c0c434db792182ba551ed ACPI: memhotplug: use a single static memory group for a single memory device
+eedf634aac3b85b70e7b139c32fc68f565ecf815 dax/kmem: use a single static memory group for a single probed unit
+ffaa6ce835eaf0fe3eb05ff931de3c1134b07f35 virtio-mem: use a single dynamic memory group for a single virtio-mem device
+445fcf7c721450dd1d4ec6c217b3c6a932602a44 mm/memory_hotplug: memory group aware "auto-movable" online policy
+3fcebf90209a7f52d384ad7701425aa91be309ab mm/memory_hotplug: improved dynamic memory group aware "auto-movable" online policy
+5ef5f810199f421cb6455aa018fb8f21151b4a16 mm/memory_hotplug: use helper zone_is_zone_device() to simplify the code
+fe3df441ef885a75a3eff5e151ead1a92266d222 mm: remove redundant compound_head() calling
+8350229ffceb372621e277d4d36f1ffca6212135 riscv: only select GENERIC_IOREMAP if MMU support is enabled
+82a70ce0426dd7c4099516175019dccbd18cebf9 mm: move ioremap_page_range to vmalloc.c
+8491502f787c4a902bd4f223b578ef47d3490264 mm: don't allow executable ioremap mappings
+395519b4b6e82741f29aaf6defa66cbdf3466584 mm/early_ioremap.c: remove redundant early_ioremap_shutdown()
+513861202d1259e35934e206b79cd54f523d79b5 highmem: don't disable preemption on RT in kmap_atomic()
+ea0eafead4b66543b8218ebfbe14173315feb7d1 mm: in_irq() cleanup
+41c961b9013ee9b6d0491f6926df546e37964b1f mm: introduce PAGEFLAGS_MASK to replace ((1UL << NR_PAGEFLAGS) - 1)
+110860541f443f950c1274f217a1a3e298670a33 mm/secretmem: use refcount_t instead of atomic_t
+4bbf04aa9aa88ae41205e387d35743a9bf5e933d kfence: show cpu and timestamp in alloc/free info
+c40c6e593bf978e232bae1fab81f4111f2e2c956 kfence: test: fail fast if disabled at boot
+2224d8485492e499ca2e5d25407f8502cc06f149 mm: introduce Data Access MONitor (DAMON)
+f23b8eee1871a6db5c37f90831147de5426c40b7 mm/damon/core: implement region-based sampling
+b9a6ac4e4ede4172d165c133398b93e3233b0ba7 mm/damon: adaptively adjust regions
+1c676e0d9b1a59b98885b24a0e16a81fe4cc8301 mm/idle_page_tracking: make PG_idle reusable
+3f49584b262cf8f42b25f4c1ad9f5bfd3bdc1bca mm/damon: implement primitives for the virtual memory address spaces
+2fcb93629ad8911c846cdc44521c746e53cc4e6d mm/damon: add a tracepoint
+4bc05954d0076655cfaf6f0135585bdc20cd6b11 mm/damon: implement a debugfs-based user space interface
+429538e85410c3ae12719ec42b89ab873ed6d47b mm/damon/dbgfs: export kdamond pid to the user space
+75c1c2b53c78bf3b3188ebb7b3508dadbf98bba1 mm/damon/dbgfs: support multiple contexts
+c4ba6014aec39e74ad3c10229dcfd187c42ee4f3 Documentation: add documents for DAMON
+17ccae8bb5c928946f6f3af14626ec458f74e6ad mm/damon: add kunit tests
+b348eb7abd0987b849420113ced27ad7a1bc6cf3 mm/damon: add user space selftests
+75e39b1a3668c008c32c7ffbebe93386e67c7352 MAINTAINERS: update for DAMON
+5ecae8f6aafe6ae7c8fb10c3c175f85baf779814 alpha: agp: make empty macros use do-while-0 style
+0a9d991c424b4cda5db574b6355f0c627ae59109 alpha: pci-sysfs: fix all kernel-doc warnings
+3843c50a782c397422765cf0839a95e75e523229 percpu: remove export of pcpu_base_addr
+8d23b2080b4ffe530edc324f233c2a5bb192b152 proc: stop using seq_get_buf in proc_task_name
+c2f273ebd89a79ed87ef1025753343e327b99ac9 connector: send event on write to /proc/[pid]/comm
+c226bc3cd99bd3535f6a7264c7c7fb0bce16db12 arch: Kconfig: fix spelling mistake "seperate" -> "separate"
+a8a47cf5ce4bbc70a54fa4eca71d35f43dc8218a include/linux/once.h: fix trivia typo Not -> Note
+c9221919a2d2df5741ab074dfec5bdfc6f1e043b units: change from 'L' to 'UL'
+e2c77032fcbe515194107994d12cd72ddb77b022 units: add the HZ macros
+73b718c617caae17f6e2964fba823e2c18a9b67c thermal/drivers/devfreq_cooling: use HZ macros
+04c8984ae3fa4373948483e367561c79fda7f571 devfreq: use HZ macros
+55c653e0be71acb70f0dd2235b8c7aabebe3ed98 iio/drivers/as73211: use HZ macros
+d59eacaac953242853c2e53db0ee7cc25613ae03 hwmon/drivers/mr75203: use HZ macros
+87000e7fe0a201572fd8756e3497c0b5ee4f4231 iio/drivers/hid-sensor: use HZ macros
+09704a941c42296c34955651d7bcc860635f8a59 i2c/drivers/ov02q10: use HZ macros
+9ef347c3df98ac69d04ff2d959cb5a3c7d4367d0 mtd/drivers/nand: use HZ macros
+18821693b97bd5601d796a41ecc7da9cc2766769 phy/drivers/stm32: use HZ macros
+3c91dda97eea704ac257ddb138d1154adab8db62 kernel/acct.c: use dedicated helper to access rlimit values
+2d186afd04d669fe9c48b994c41a7405a3c9f16d profiling: fix shift-out-of-bounds bugs
+726248b62fbed796c14ab866f0aa7a6ff3c0f201 MAINTAINERS: update ClangBuiltLinux mailing list
+28f8fc19b24924a9770bd2e93123005547c3f3f5 Documentation/llvm: update mailing list
+1c3493bb290bc654d13063a88660c070ad4eabcd Documentation/llvm: update IRC location
+bcda5fd34417c89f653cc0912cc0608b36ea032c math: make RATIONAL tristate
+8ba739ede49dec361ddcb70afe24986b4b8cfe17 math: RATIONAL_KUNIT_TEST should depend on RATIONAL instead of selecting it
+36f33b562936295a0fb365ea0b1b2afcd8974242 lib/test: convert test_sort.c to use KUnit
+83a29beb23bcc770a3838fc33970efbaaad26bf7 lib/dump_stack: correct kernel-doc notation
+44e5599775541eb5e25d6dfb01d9abbd5ad79823 lib/iov_iter.c: fix kernel-doc warnings
+7fc5b571325f1bcbe1ce384409b2d05546431b04 tools: rename bitmap_alloc() to bitmap_zalloc()
+d2af5aa6c036d3fd2c1ff3379ffe3e6805929952 checkpatch: support wide strings
+046fc741e35e9dee7c7f7c4173ba3d79f938286f checkpatch: make email address check case insensitive
+4ce9f970457899defdf68e26e0502c7245002eb3 checkpatch: improve GIT_COMMIT_ID test
+1e1c15839df084f4011825fee922aa976c9159dc fs/epoll: use a per-cpu counter for user's watches count
+b234ed6d629420827e2839c8c8935be85a0867fd init: move usermodehelper_enable() to populate_rootfs()
+8b097881b54cbc23dd78262ed88c9924d00ea457 trap: cleanup trap_init()
+5f5dec07aca7067216ed4c1342e464e7307a9197 nilfs2: fix memory leak in nilfs_sysfs_create_device_group
+dbc6e7d44a514f231a64d9d5676e001b660b6448 nilfs2: fix NULL pointer in nilfs_##name##_attr_release
+24f8cb1ed057c840728167dab33b32e44147c86f nilfs2: fix memory leak in nilfs_sysfs_create_##name##_group
+a3e181259ddd61fd378390977a1e4e2316853afa nilfs2: fix memory leak in nilfs_sysfs_delete_##name##_group
+b2fe39c248f3fa4bbb2a20759b4fdd83504190f7 nilfs2: fix memory leak in nilfs_sysfs_create_snapshot_group
+17243e1c3072b8417a5ebfc53065d0a87af7ca77 nilfs2: fix memory leak in nilfs_sysfs_delete_snapshot_group
+98e2e409e76ef7781d8511f997359e9c504a95c1 nilfs2: use refcount_dec_and_lock() to fix potential UAF
+dbd9d6f8fa9c3e676e491ac65c7fa10a1af8321f fs/coredump.c: log if a core dump is aborted due to changed file permissions
+6fcac87e1f9e5b27805a2a404f4849194bb51de8 coredump: fix memleak in dump_vma_snapshot()
+05da8113c9ba63a8913e6c73dc06ed01cae55f68 kernel/fork.c: unexport get_{mm,task}_exe_file
+5b91a75b3312c03798f555e10569fd85211a490c pid: cleanup the stale comment mentioning pidmap_init().
+e1fbbd073137a9d63279f6bf363151a938347640 prctl: allow to setup brk for et_dyn executables
+4cb398fe1bf127c1e9eff40969454b289f219c43 configs: remove the obsolete CONFIG_INPUT_POLLDEV
+6fe26259b4884b657cbc233fb9cdade9d704976e Kconfig.debug: drop selecting non-existing HARDLOCKUP_DETECTOR_ARCH
+d42990f486b56ce4381edd42a47119c073b131d5 selftests/memfd: remove unused variable
+20401d1058f3f841f35a594ac2fc1293710e55b9 ipc: replace costly bailout check in sysvipc_find_ipc()
+560a870570287aeb0e77825ae0fa1aba47031cf9 mm/workingset: correct kernel-doc notations
+b285437d1d929785a5bef3603da78d2cd5341893 scripts: check_extable: fix typo in user error message
+3265cc3ec52e75fc8daf189954cebda27ad26b2e ACPI: PRM: Find PRMT table before parsing it
+4b6b08f2e45edda4c067ac40833e3c1f84383c0b tracing/osnoise: Fix missed cpus_read_unlock() in start_per_cpu_kthreads()
+40caa127f3c7279c75cb0c9684559fa314ee3a66 init: bootconfig: Remove all bootconfig data when the init memory is removed
+b66fbbe8d48228e1e81b583ae39abb86d7d09053 init/bootconfig: Reorder init parameter from bootconfig and cmdline
+26c9c72fd0b960906b6a31a614fb30d2434b166b docs: bootconfig: Add how to use bootconfig for kernel parameters
+32ba9f0fb027cc43074e3ea26fcf831adeee8e03 tools/bootconfig: Fix tracing_on option checking in ftrace2bconf.sh
+903bd067faa837fddb6e5c8b740c3374dc582f04 bootconfig: Fix missing return check of xbc_node_compose_key function
+47914d4e591cbbf7ce5103d86257a5d0d8532110 tools/bootconfig: Show whole test command for each test case
+0be083cee42ec78ba6f9148f5b12a00aa2fb8bd3 tracing: synth events: increase max fields count
+c910db943d35d4ac4b77570ece76e0799af24233 tracing: Dynamically allocate the per-elt hist_elt_data array
+04178ea130a64a50826f17c7cc92774ada7ea9d0 selftests/ftrace: Exclude "(fault)" in testing add/remove eprobe events
+cc09ee80c3b18ae1a897a30a17fe710b2b2f620a Merge tag 'mm-slub-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/linux
+cfd799837dbc48499abb05d1891b3d9992354d3a tracing/boot: Fix to loop on only subkeys
+2d338201d5311bcd79d42f66df4cecbcbc5f4f2c Merge branch 'akpm' (patches from Andrew)
+c57a91fb1ccfa203ba3e31e5a389cb04de5b0561 io_uring: fix missing mb() before waitqueue_active
+36bbeb336584c3551bac72592bcaeeebb430fef1 ksmbd: add missing assignments to ret on ndr_read_int64 read calls
+4ffd5264e8ecb20e1826b9474c19738fdecd67e6 ksmbd: fix read of uninitialized variable ret in set_file_basic_info
+4cf0ccd033d9cedef870eb8598a55851e680a173 ksmbd: fix control flow issues in sid_to_id()
+c68ed7945701a38f2121ed74e23ff19c2052b4c2 mm/vmstat: protect per cpu variables with preempt disable on RT
+2b9b624f5aef6af608edf541fed973948e27004c mm: migrate: introduce a local variable to get the number of pages
+68a9843f14b6b0d1ce023721814403253d8e9153 mm: migrate: fix the incorrect function name in comments
+213ecb3157514486a9ae6848a298b91a79cc2e2a mm: migrate: change to use bool type for 'page_was_mapped'
+4b692e861619353ce069e547a67c8d0e32d9ef3d kexec: move locking into do_kexec_load
+5d700a0fd71ded7096b97f01d276efc1a6579613 kexec: avoid compat_alloc_user_space
+5b1b561ba73c8ab9c98e5dfd14dc7ee47efb6530 mm: simplify compat_sys_move_pages
+e130242dc351f1cfa2bbeb6766a1486ce936ef88 mm: simplify compat numa syscalls
+59ab844eed9c6b01d32dcb27b57accc23771b324 compat: remove some compat entry points
+a7a08b275a8bbade798c4bdaad07ade68fe7003c arch: remove compat_alloc_user_space
+34c59da47329ac50b9700035e0c3a829e6c3c183 Merge tag '9p-for-5.15-rc1' of git://github.com/martinetd/linux
+8a05abd0c93841a7bbcf777ec1677a1ad9155793 Merge tag 'ceph-for-5.15-rc1' of git://github.com/ceph/ceph-client
+14e2bc4e8c40a876c1ab5597320d523c12a97f39 Merge tag 'nfsd-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+3fc3725357414636d91be1558ce8b14f228b4bda Merge branch 'for-5.15/fsdax-cleanups' into for-5.15/libnvdimm
+1511e5d64a51292a84d38e4146304393ebe4d080 Merge tag 'microblaze-v5.15' of git://git.monstr.eu/linux-2.6-microblaze
+6dcaf9fb623fb87b08e3896cdf6116744bf00668 Merge tag 'modules-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/jeyu/linux
+b83a908498d68fafca931e1276e145b339cac5fb compiler_attributes.h: move __compiletime_{error|warning}
+0f4b9289bad354b606190a4cd54d5222b4e41d98 Merge tag 'docs-5.15-2' of git://git.lwn.net/linux
+9c566611ac5cc7b45af943632f7a9b1b6a642991 Merge tag 'acpi-5.15-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+30f349097897c115345beabeecc5e710b479ff1e Merge tag 'pm-5.15-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+730bf31b8fc8e94f3d2d58aaee5f07e5f1f8146f Merge tag 'tag-chrome-platform-for-v5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+009ad9f0c6eed0caa7943bc46aa1ae2cb8c382fb io_uring: drop ctx->uring_lock before acquiring sqd->lock
+4b42fb213678d2b6a9eeea92a9be200f23e49583 mm/hmm: bypass devmap pte when all pfn requested flags are fulfilled
+13db8c50477d83ad3e3b9b0ae247e5cd833a7ae4 mm/hugetlb: initialize hugetlb_usage in mm_init
+32d4f4b782bb8f0ceb78c6b5dc46eb577ae25bf7 mm,vmscan: fix divide by zero in get_scan_count
+053cfda102306a3394012f9fe2594811c34925e4 mm/page_alloc.c: avoid accessing uninitialized pcp page migratetype
+10994316089c9682f2fbe0be0b1e82bcaf5f4e8c mmap_lock: change trace and locking order
+79d3705040c3b41075f894fdeeebdcbb46550c63 mm/kmemleak: allow __GFP_NOLOCKDEP passed to kmemleak's gfp
+276aeee1c5fc00df700f0782060beae126600472 mm/mempolicy: fix a race between offset_il_node and mpol_rebind_task
+ddb13122aa7e988e15283701afb086e0950c405f nds32/setup: remove unused memblock_region variable in setup_memory()
+a3fa7a101dcff93791d1b1bdb3affcad1410c8c1 Merge branches 'akpm' and 'akpm-hotfixes' (patches from Andrew)
+3b33e3f4a6c0296812a7ee757bdae83290e64aed io-wq: fix silly logic error in io_task_work_match()
+06b224d5162bc4e353ade4815dc8ed831f10b9b8 Merge tag 'amd-drm-next-5.15-2021-09-01' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+de04744d658bb36d62d94bf8fe040c51c2954d4e Merge tag 'drm-misc-next-fixes-2021-09-03' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
+fc111fb9a6da6baddf23930811210650824b8a88 cifs: update FSCTL definitions
+23e91d8b7c5ae2bbd3a4582ec12c6a0cfcb19e85 cifs: rename cifs_common to smbfs_common
+8d014f5fe98142b79dfa3bcd0d9483a5165f3570 cifs: move SMB FSCTL definitions to common code
+0c5483a5778fa9910538453b5a9f1a6ed49e95ad Input: analog - always use ktime functions
+0c45d3e24ef3d3d87c5e0077b8f38d1372af7176 rtc: rx8010: select REGMAP_I2C
+e5480572706da1b2c2dc2c6484eab64f92b9263b locking/rtmutex: Fix ww_mutex deadlock check
+9848417926353daa59d2b05eb26e185063dbac6e sched/idle: Make the idle timer expire in hard interrupt context
+868ad33bfa3bf39960982682ad3a0f8ebda1656e sched: Prevent balance_push() on remote runqueues
+3da6379a6d865ef4faa369eebe2019dac75cda4b parisc: Add missing FORCE prerequisite in Makefile
+1260dea6d2eb75706c978da828a36f0def590d3a parisc: Drop strnlen_user() in favour of generic version
+ea4b3fca18adc81e6a965b2ad0668f38d5d3485b parisc: Drop useless debug info and comments from signal.c
+3e4a1aff2a97cb4fd7f0268e4b69e8c9d3641277 parisc: Check user signal stack trampoline is inside TASK_SIZE
+e4f2006f1287e7ea17660490569cff323772dac4 parisc: Reduce sigreturn trampoline to 3 instructions
+907872baa9f1538eed02ec737b8e89eba6c6e4b9 parisc: Move pci_dev_is_behind_card_dino to where it is used
+d97180ad68bdb7ee10f327205a649bc2f558741d parisc: Mark sched_clock unstable only if clocks are not syncronized
+c3811a50addd23b9bb5a36278609ee1638debcf6 iommu/amd: Relocate GAMSup check to early_enable_iommus
+eb03f2d2f6a4da25d286613717d10add9ce9f175 iommu/amd: Remove iommu_init_ga()
+a21518cb23a3c7d49bafcb59862fd389fd829d4b iommu/vt-d: Fix PASID leak in intel_svm_unbind_mm()
+6ef0505158f7ca1b32763a3b038b5d11296b642b iommu/vt-d: Fix a deadlock in intel_svm_drain_prq()
+8cc633190b524c678b740c87fa1fc37447151a6b iommu: Clarify default domain Kconfig
+66e70be722886e4f134350212baa13f217e39e42 io-wq: fix memory leak in create_io_worker()
+5950fc44a57ace59f21dccfd792250019348a182 thermal/drivers/intel: Allow processing of HWP interrupt
+70ee251ded6ba24c15537f4abb8a318e233d0d1a thermal/drivers/qcom/spmi-adc-tm5: Don't abort probing if a sensor is not used
+2ae2eb9dde18979b40629dd413b9adbd6c894cdf io_uring: fail links of cancelled timeouts
+88053ec8cb1b91df566353cd3116470193797e00 arm64: mm: limit linear region to 51 bits for KVM in nVHE mode
+0aa2516017123a7c35a2c0c35c4dc7727579b8a3 Merge tag 'dmaengine-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+4b105f4a256ae629522a7ed1611aba28fd282bd5 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+2e5fd489a4e5fcc97b035c03ace724c1d481a4c1 Merge tag 'libnvdimm-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
+70868a180501d17fea58153c649d56bc18435315 Merge tag 'cxl-for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+7b7699c09f66f180b9a8a5010df352acb8683bfa Merge branch 'work.iov_iter' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+e2e694b9e6f3ec7deeb233b6b0fe20b6a47b304b Merge branch 'work.init' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+7b871c7713d1eafc3a614883bbdf68ab1dffa883 Merge branch 'work.gfs2' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+f154c806676ad7153c6e161f30c53a44855329d6 Merge tag 's390-5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+43175623dd0dffccacbf014e368ee77f77c73898 Merge tag 'trace-v5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+221e8360834c59f0c9952630fa5904a94ebd2bb8 n64cart: fix return value check in n64cart_probe()
+35776f10513c0d523c5dd2f1b415f642497779e2 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
+d6c338a741295c04ed84679153448b2fffd2c9cf Merge tag 'for-linus-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+671028728083e856e9919221b109e3b2cd2ccc49 parisc: Implement __get/put_kernel_nofault()
+9351590f51cdda49d0265932a37f099950998504 cifs: properly invalidate cached root handle when closing it
+ae79394a628530372e3b0aae4cb9e6495186558c Merge tag 'sound-fix-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+8dde20867c443aedf6d64d8a494e8703d7ba53cb Merge tag 'for-5.15-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+a3928f877e7b153dbc243d6329b3777ac75b6004 tracing/boot: Fix trace_boot_hist_add_array() to check array is value
+5f8895b27da2656e5e2be029acfb68c016f03326 tracing/boot: Fix to check the histogram control param is a leaf node
+5dfe50b05588010f347cb2f436434bf22b7a84ed bootconfig: Rename xbc_node_find_child() to xbc_node_find_subkey()
+bf9f243f23e6623f310ba03fbb14e10ec3a61290 Merge tag '5.15-rc-ksmbd-part2' of git://git.samba.org/ksmbd
+b011522c8a6ff2b5f11a9ba0ba537352919d6abb Merge tag 'drm-misc-next-fixes-2021-09-09' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
+70982eef4d7eebb47a3b1ef25ec1bc742f3a21cf drm/ttm: Fix a deadlock if the target BO is not idle during swap
+85f58eb1889826b9745737718723a80b639e0fbd arm64: kdump: Skip kmemleak scan reserved memory for kdump
+32c2d33e0b7c4ea53284d5d9435dd022b582c8cf io_uring: fix off-by-one in BUILD_BUG_ON check of __REQ_F_LAST_BIT
+22d692baba0a899bc448d2f90ad006a5b04d99a8 ACPICA: Update the list of maintainers
+3d53afea525f5812da782624014e7910ba731b34 MAINTAINERS: Change Rafael's e-mail address
+bb91de44693b1c10fe2f9e668506b01e88efed0e perf beauty: Update copy of linux/socket.h with the kernel sources
+64f4535166aa11d5bad53a058af036f2e216ad17 tools headers UAPI: Sync files changed by new process_mrelease syscall and the removal of some compat entry points
+3e11300cdfd5f1bc13a05dfc6dccf69aca5dd1dc perf test: Fix bpf test sample mismatch reporting
+51ae7fa62dcb0ab96ea5f83aec254a1fb6d4d371 perf scripts python: Fix passing arguments to stackcollapse report
+d2930ede5218be28413a00130a6895d14393c325 perf symbol: Look for ImageBase in PE file to compute .text offset
+9fe8895a27a840095281864803b128ddc26dcd30 perf env: Add perf_env__cpuid, perf_env__{nr_}pmu_mappings
+3a3a11e6e5a2bc0595c7e36ae33c861c9e8c75b1 lkdtm: Use init_uts_ns.name instead of macros
+4a48b66b3f52aa1a8aaa8a8863891eed35769731 of: property: Disable fw_devlink DT support for X86
+4396a73115fc8739083536162e2228c0c0c3ed1a fsnotify: fix sb_connectors leak
+a668acb8f01fc0d1e3877cddecbe319ef2ef651c Merge tag 'drm-next-2021-09-10' of git://anongit.freedesktop.org/drm/drm
+be2d24336f8876d60d8a4634f1a1e4753c4be124 Merge branches 'pm-cpufreq', 'pm-sleep' and 'pm-em'
+8fbc1c5b91133f7ae5254061d2cb3326992635c4 Merge branches 'acpi-scan' and 'acpi-prm'
+5ffc06ebeaab65d8e08df6953caf8155df2c45f8 Merge tag 'char-misc-5.15-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+589e5cab170843b2f7f8260168ab2d77163d4384 Merge tag 'iommu-fixes-v5.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+23ef827c1bacc6c2b8314ff5bf571d4db57059b0 Merge tag 'for-5.15/parisc-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+e99f23c5bf59219d0cd9b6e0d7d4c1b641a98704 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+975671241808ffacbe418a1f29965bd9985cc251 dt-bindings: More use 'enum' instead of 'oneOf' plus 'const' entries
+094b147c766289baa0f370d124609c3ac2b5a420 spi: dt-bindings: xilinx: Drop type reference on *-bits properties
+d6498af58f5c7fb7b252f4791620fe4dd7213ca3 Merge tag 'pm-5.15-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+926de8c4326c14fcf35f1de142019043597a4fac Merge tag 'acpi-5.15-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+dde994dd54fbf84f8fd14230de3477d552e42470 perf report: Add tools/arch/x86/include/asm/amd-ibs.h
+291dcb98d7ee5cd719f4c5991d977794b1829c16 perf report: Add support to print a textual representation of IBS raw sample data
+03d6f3fe54278f8e5ec670e576b8da8b8727ec26 tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
+dfa00459c6264abd282452c4878e3a9117db23bb tools headers UAPI: Sync linux/kvm.h with the kernel sources
+f9f018e4d9a45a5464861418467b21d3d2ad569c tools include UAPI: Sync sound/asound.h copy with the kernel sources
+2c3ef25c4a60cc18cf3f05a74c78220748f25684 tools headers UAPI: Sync linux/prctl.h with the kernel sources
+155ed9f1b5ff62dd78f102559298a017a7e189c5 perf beauty: Cover more flags in the  move_mount syscall argument beautifier
+37ce9e4fc596cf10a4d32ced741679bd1b4fa7a5 tools include UAPI: Update linux/mount.h copy
+218e7b775d368f38d85d73e52900b082f004e5f1 perf bpf: Provide a weak btf__load_from_kernel_by_id() for older libbpf versions
+c2f4954c2d3fc4f77b46c67585e17a58df4ba8e4 Merge branch 'linus' into smp/urgent
+c122358ea1e510d3def876abb7872f1b2b7365c9 thermal: Replace deprecated CPU-hotplug functions.
+8c854303ce0e38e5bbedd725ff39da7e235865d8 cpu/hotplug: Remove deprecated CPU-hotplug functions.
+c9871c800f65fffed40f3df3e1eb38984f95cfcf Documentation: core-api/cpuhotplug: Rewrite the API section
+3a87ff891290e1b9ef3f03396c22fd3b2f6eb955 riscv: defconfig: enable BLK_DEV_NVME
+efe1e08bca9a1fab2b0ad886be4fb5335dcbf29c riscv: defconfig: enable NLS_CODEPAGE_437, NLS_ISO8859_1
+d5935537c8256fc63c77d5f4914dfd6e3ef43241 riscv: Improve stack randomisation on RV64
+399c1ec8467c563ae9db4c19a40a9d5e728b1e72 riscv: move the (z)install rules to arch/riscv/Makefile
+cbba17870881cd17bca24673ccb72859431da5bd riscv: dts: microchip: mpfs-icicle: Fix serial console
+54fed35fd3939398be292e4090b0b1c5ff2238b4 riscv: Enable BUILDTIME_TABLE_SORT
+6f55ab36bef505b449723300a5a445ddc76a94d7 riscv: Move EXCEPTION_TABLE to RO_DATA segment
+765092e4cdaa8439b969952ec4e6de3b84241f90 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+dd4703876ea83b5fb5f4f0a1ec58f786143f5064 Merge tag 'thermal-v5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thermal/linux
+6701e7e7d8ee4f80d0c450aeab101e4a2a2678fa Merge tag 'pwm/for-5.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+52926229be069258440c39de063fcd4a5fd75d62 Merge tag 'firewire-update' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+107ccc45bb25c7fdc7a744496caa4d8a52af4812 Merge tag 'rtc-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+2aae0a937ad169752b5710d4f210c1ae7a49d3cf Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+a1406e424253ba2121614377aaab274d403b08e0 Merge tag 'devicetree-fixes-for-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+ce4c8f882041341cbb3f1b4632b20440692cbccc Merge tag 'trace-v5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+8177a5c96229ff24da1e362789e359b68b4f34f5 Merge tag 'libata-5.15-2021-09-11' of git://git.kernel.dk/linux-block
+c0f7e49fc480a97770e448e0c0493e7ba46a9852 Merge tag 'block-5.15-2021-09-11' of git://git.kernel.dk/linux-block
+c605c39677b9842b0566013e0cf30bc13e90bdbc Merge tag 'io_uring-5.15-2021-09-11' of git://git.kernel.dk/linux-block
+da4572d62d389f6665b86466b993ccc157b40715 perf tools: Ignore Documentation dependency file
+eb34363ae1c0f62cf3183c4697533d6c482d1598 perf tools: Fix perf_event_attr__fprintf() missing/dupl. fields
+a7d212fc6c89d1619b9441f4c801cbff8ca34197 perf tools: Factor out copy_config_terms() and free_config_terms()
+99fc5941b835d662eb2e91d8b61249e9a51df9f0 perf tools: Fix hybrid config terms list corruption
+4a86d41404005a3c7e7b6065e8169ac6202887a9 perf tools: Allow build-id with trailing zeros
+0d1c50ac488ebdaeeaea8ed5069f8d435fd485ed perf tools: Add an option to build without libbfd
+ee286c60c268aed03bac4686ebb47f1534b4b2e2 tools headers UAPI: Sync linux/in.h copy with the kernel sources
+2bae3e64ec465cd545c5cbec74335eb44f97c177 tools headers UAPI: Sync linux/fs.h with the kernel sources
+4dc24d7cf4983ae779f4a4428e527441225315e9 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
+17a99e521f67743a5d3405cba0aacd8a10f9ff7d tools headers UAPI: Update tools's copy of drm.h headers
+4e1c754472ffbf251835fc01f4cc638ffa8dd576 Merge branch 'for-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
+b79bd0d5102b4a3ea908018fda6b84a4c8fd6235 Merge tag 'riscv-for-linus-5.15-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+78e709522d2c012cb0daad2e668506637bffb7c2 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+8d4a0b5d0813c990637fa9f3c9bea5dab1fedb8f Merge tag '5.15-rc-cifs-part2' of git://git.samba.org/sfrench/cifs-2.6
+fdfc346302a7b63e3d5b9168be74bb12b1975999 Merge branch 'misc.namei' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+7bf3142625c193db2dfbd7df2176b7cd910d9e4f Merge tag 'timers_urgent_for_v5.15_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+165d05d88c27697fe444a6eae4f3882834ef8826 Merge tag 'locking_urgent_for_v5.15_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+56c244382fdb793986097df8e29f9f9320bc2c60 Merge tag 'sched_urgent_for_v5.15_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1791596be2723f01de2f69d16a422fdba182c706 Merge tag 'for-linus-5.15-1' of git://github.com/cminyard/linux-ipmi
+d8e988b62f948d47dd86ec655c89d54053df1754 Merge tag 'char-misc-5.15-rc1-lkdtm' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+f306b90c69ce3994bb8046b54374a90a27f66be6 Merge tag 'smp-urgent-2021-09-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d41adc4e22c62640fa7de93f713a3c5b3638ab2e Merge tag 'auxdisplay-for-linus-v5.15-rc1' of git://github.com/ojeda/linux
+c3e46874dfb9a2ef08085bb147dc371e72738673 Merge tag 'compiler-attributes-for-linus-v5.15-rc1-v2' of git://github.com/ojeda/linux
+b5b65f1398274fd726eca87dbebd39f3e603348a Merge tag 'perf-tools-for-v5.15-2021-09-11' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f Linux 5.15-rc1
+68c9cdf37a0456b7ba25a50b1ea8794f305da17f efi/libstub: Simplify "Exiting bootservices" message
+b3a72ca80351917cc23f9e24c35f3c3979d3c121 efi/cper: use stack buffer for error record decoding
+38fa3206bf441911258e5001ac8b6738693f8d82 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
 
---===============0440396764427875359==--
+--===============1631069410027891175==--
