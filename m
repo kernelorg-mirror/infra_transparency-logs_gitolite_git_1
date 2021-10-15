@@ -1,50 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============5979791531557016087=="
+Content-Type: multipart/mixed; boundary="===============0401911567627083018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 15 Oct 2021 15:50:03 -0000
-Message-Id: <163431300379.22132.3196377608246410549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 15 Oct 2021 15:51:52 -0000
+Message-Id: <163431311205.23124.6469825522237222400@gitolite.kernel.org>
 
---===============5979791531557016087==
+--===============0401911567627083018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/perf-wip
-    old: 8277af1fdc20f283bd2d70f4560f6bdd3dea30b0
-    new: c811cf989d6cf0d831ce1d1f16623a65dd75209d
-    log: revlist-8277af1fdc20-c811cf989d6c.txt
+  - ref: refs/heads/for-linus
+    old: d94befbb5ae379f6dfd4fa6d460eacc09fa7b9c3
+    new: eadeb06e7645f7a7ddbcfac39480be3892a60ae3
+    log: revlist-d94befbb5ae3-eadeb06e7645.txt
+  - ref: refs/heads/master
+    old: dbc8561869a47eeeddcc007bbad9a7a4033998a2
+    new: d1311cba1fa44f6de35cf0ff1471eaa79251318f
+    log: revlist-dbc8561869a4-d1311cba1fa4.txt
 
---===============5979791531557016087==
+--===============0401911567627083018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8277af1fdc20-c811cf989d6c.txt
+Content-Disposition: attachment; filename=revlist-d94befbb5ae3-eadeb06e7645.txt
 
-0288c23e654ddce8f58ba628982180a7581d0606 block: store elevator state in request
-78b9144c19bf48b88bd3bfe313a933ea664a7472 block: add a struct io_comp_batch argument to fops->iopoll()
-37c19b4763a1ac67f5060550a8d3764e0a79c0b2 sbitmap: add helper to clear a batch of tags
-c8eed9afcfd3799adadbb1ce556680c382bbdbbc sbitmap: test bit before calling test_and_set_bit()
-ca85f846e246ac4910b270dbbf58e07abf2ab056 block: add support for blk_mq_end_request_batch()
-43c776fc74ae81a9dee43a0189c9c540760d56ca block: assign batch completion handler in blk_mq_poll_classic()
-0d82c2efc4432609067dcc89eb01fe4bb6bec8f4 nvme: add support for batched completion of polled IO
-ea86c2f271446488bb4eb07129dfcde704bef63b io_uring: utilize the io batching infrastructure for more efficient polled IO
-086d16518402dc969cd5c32407edb7ffc9c7e821 nvme: wire up completion batching for the IRQ path
-3019f105acac2828b9bd6a50687a1d18b1580c9e net: decouple skb_frag_t from struct bio_vec
-ed6d587236870f4ace10debca0cf9d4372e84866 block: add bvec_set_page() helper
-eab147db912086fa7b9a48f544965163f5a9ade7 block: add a DMA field to struct bio_vec
-83a6f14387734aa3da8348e7d965fdd0b6241a5b block: add mq_ops method for DMA mapping bvecs
-d91e66be8564e3f1f58db50dded1399de1975149 io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-e25c26464f71de26f157f7d80687337df3e9e7db nvme: add support for pre-mapped IO buffers
-a24c93ec7a9a94edaff5291748e81d8694d0af8a block: handle fast path of bio splitting inline
-06d498c6598b82c46de368ffae54d90f6c5711b7 block: only check previous entry for plug merge attempt
-3ab5eb7fe90d0df661b0dc892c93f57c29584637 block: use flags instead of bit fields for blkdev_dio
-33801f83c8ad07e0c4fdf56362081b29882d5bf7 block: change plugging to use a singly linked list
-c811cf989d6cf0d831ce1d1f16623a65dd75209d block: switch to atomic_t for request references
+3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
+74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
+ceef3240f9b7e592dd8d10d619c312c7336117fa ASoC: pcm179x: Add missing entries SPI to device ID table
+0cc3687eadd0971d5d38ff90d14819d88f854960 ASoC: cs4341: Add SPI device ID table
+42871e95a3afea8956d8cc567ea725b33a837775 ASoC: nau8824: Fix headphone vs headset, button-press detection no longer working
+db0767b8a6e620b99459d2e688c1983c2e5add0d ASoC: wcd938x: Fix jack detection issue
+2577b868a48ef3601116908738efbe570451e605 ASoC: Intel: bytcht_es8316: Get platform data via dev_get_platdata()
+6f32c521061b704c0198be3ba9834f5a64ea5605 ASoC: Intel: bytcht_es8316: Use temporary variable for struct device
+10f4a96543b744c8cc7ef8b0799af21d911dd37d ASoC: Intel: bytcht_es8316: Switch to use gpiod_get_optional()
+c25d4546ca452b2e8c03bc735e4c65bc6dd751dd ASoC: Intel: bytcht_es8316: Utilize dev_err_probe() to avoid log saturation
+5af82c81b2c49cfb1cad84d9eb6eab0e3d1c4842 ASoC: DAPM: Fix missing kctl change notifications
+214174d9f56c7f81f4860a26b6b8b961a6b92654 ASoC: codec: wcd938x: Add irq config support
+c448b7aa3e66042fc0f849d9a0fb90d1af82e948 ASoC: soc-core: fix null-ptr-deref in snd_soc_del_component_unlocked()
+aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
+6b9b546dc00797c74bef491668ce5431ff54e1e2 ASoC: wm8960: Fix clock configuration on slave mode
+eadeb06e7645f7a7ddbcfac39480be3892a60ae3 Merge tag 'asoc-fix-v5.15-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 
---===============5979791531557016087==--
+--===============0401911567627083018==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dbc8561869a4-d1311cba1fa4.txt
+
+3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
+74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
+ceef3240f9b7e592dd8d10d619c312c7336117fa ASoC: pcm179x: Add missing entries SPI to device ID table
+0cc3687eadd0971d5d38ff90d14819d88f854960 ASoC: cs4341: Add SPI device ID table
+42871e95a3afea8956d8cc567ea725b33a837775 ASoC: nau8824: Fix headphone vs headset, button-press detection no longer working
+db0767b8a6e620b99459d2e688c1983c2e5add0d ASoC: wcd938x: Fix jack detection issue
+2577b868a48ef3601116908738efbe570451e605 ASoC: Intel: bytcht_es8316: Get platform data via dev_get_platdata()
+6f32c521061b704c0198be3ba9834f5a64ea5605 ASoC: Intel: bytcht_es8316: Use temporary variable for struct device
+10f4a96543b744c8cc7ef8b0799af21d911dd37d ASoC: Intel: bytcht_es8316: Switch to use gpiod_get_optional()
+c25d4546ca452b2e8c03bc735e4c65bc6dd751dd ASoC: Intel: bytcht_es8316: Utilize dev_err_probe() to avoid log saturation
+5af82c81b2c49cfb1cad84d9eb6eab0e3d1c4842 ASoC: DAPM: Fix missing kctl change notifications
+214174d9f56c7f81f4860a26b6b8b961a6b92654 ASoC: codec: wcd938x: Add irq config support
+c448b7aa3e66042fc0f849d9a0fb90d1af82e948 ASoC: soc-core: fix null-ptr-deref in snd_soc_del_component_unlocked()
+aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
+6b9b546dc00797c74bef491668ce5431ff54e1e2 ASoC: wm8960: Fix clock configuration on slave mode
+eadeb06e7645f7a7ddbcfac39480be3892a60ae3 Merge tag 'asoc-fix-v5.15-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+d1311cba1fa44f6de35cf0ff1471eaa79251318f Merge branch 'for-linus'
+
+--===============0401911567627083018==--
