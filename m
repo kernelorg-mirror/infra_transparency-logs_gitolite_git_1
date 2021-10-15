@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5165016842469029364=="
+Content-Type: multipart/mixed; boundary="===============8159126130980441251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 15 Oct 2021 05:12:44 -0000
-Message-Id: <163427476418.27237.3366411316136148197@gitolite.kernel.org>
+Date: Fri, 15 Oct 2021 05:13:29 -0000
+Message-Id: <163427480987.27537.13042548892111303780@gitolite.kernel.org>
 
---===============5165016842469029364==
+--===============8159126130980441251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: f022f415b0d513554e4965e157427d62da5accf9
-    new: a83918a0eec02f1d9992ac19be4be81f103e83fd
-    log: revlist-f022f415b0d5-a83918a0eec0.txt
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+    new: 8abae15ad73049675d73ca4f0af2753d7b4c2aea
+    log: revlist-f022f415b0d5-8abae15ad730.txt
+  - ref: refs/heads/master
+    old: a83918a0eec02f1d9992ac19be4be81f103e83fd
+    new: 8abae15ad73049675d73ca4f0af2753d7b4c2aea
+    log: revlist-a83918a0eec0-8abae15ad730.txt
 
---===============5165016842469029364==
+--===============8159126130980441251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f022f415b0d5-a83918a0eec0.txt
+Content-Disposition: attachment; filename=revlist-f022f415b0d5-8abae15ad730.txt
 
 80f0a1f99983296be587325004acf72dd11eccd8 workqueue: annotate alloc_workqueue() as printf
 22b1255792c033781dbe42b63e28501d38032b7e docs/cgroup: remove some duplicate words
@@ -155,6 +156,44 @@ a2d859e3fc97e79d907761550dbc03ff1b36479c sctp: account stream padding length for
 ea142b09a6399fb2c35c07198e3f0e2423273540 MAINTAINERS: Update the devicetree documentation path of imx fec driver
 1fcd794518b7644169595c66b1bfe726d1f498ab icmp: fix icmp_ext_echo_iio parsing in icmp_build_probe
 ec681c53f8d2d0ee362ff67f5b98dd8263c15002 Merge tag 'net-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-a83918a0eec02f1d9992ac19be4be81f103e83fd Merge branch 'linus'
+732072f551315f0a4467987c9e5b76a4fd146b50 Merge branch 'x86/urgent'
+d9b2a66ad875ae949aed21a44557f69ebf8ba27b Merge branch 'x86/sgx'
+b01a6d4a8167315c7f493b25db48ceb839ce81cd Merge branch 'x86/misc'
+b90e7b2703ca47b7b7a12100fddbcf1307a4b860 Merge branch 'x86/fpu'
+024187732b59f1243747fd56e43152603870a586 Merge branch 'x86/cpu'
+72a5e780dee071d915476993ebc1b5e467503a04 Merge branch 'x86/core'
+0ce6e099d30be9664ab0e7608831b2db068ba964 Merge branch 'x86/cleanups'
+88b93dafe2cc8b020314434022ed494554ce2997 Merge branch 'x86/build'
+1fe713a39d09a9d0c2514a3b15aa8a687024d8c4 Merge branch 'sched/core'
+ee65c1c5f2168631c715673320ff3dd263de27c6 Merge branch 'ras/core'
+1342a2d357d5048541ff087ce3c6b076562454ab Merge branch 'perf/core'
+c9a6ace25207e25df52437b5e72a1ff1bb7bb838 Merge branch 'objtool/urgent'
+8e05a9a4ca3ec3a620eebb25070addd7aee34abb Merge branch 'objtool/core'
+43c81ebba861a070f23b9e0e6d2eb2830292d598 Merge branch 'locking/wwmutex'
+cce4fbe9ec171aad4dd7b1e28a6fda95feffade0 Merge branch 'locking/core'
+8abae15ad73049675d73ca4f0af2753d7b4c2aea Merge branch 'irq/core'
 
---===============5165016842469029364==--
+--===============8159126130980441251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a83918a0eec0-8abae15ad730.txt
+
+732072f551315f0a4467987c9e5b76a4fd146b50 Merge branch 'x86/urgent'
+d9b2a66ad875ae949aed21a44557f69ebf8ba27b Merge branch 'x86/sgx'
+b01a6d4a8167315c7f493b25db48ceb839ce81cd Merge branch 'x86/misc'
+b90e7b2703ca47b7b7a12100fddbcf1307a4b860 Merge branch 'x86/fpu'
+024187732b59f1243747fd56e43152603870a586 Merge branch 'x86/cpu'
+72a5e780dee071d915476993ebc1b5e467503a04 Merge branch 'x86/core'
+0ce6e099d30be9664ab0e7608831b2db068ba964 Merge branch 'x86/cleanups'
+88b93dafe2cc8b020314434022ed494554ce2997 Merge branch 'x86/build'
+1fe713a39d09a9d0c2514a3b15aa8a687024d8c4 Merge branch 'sched/core'
+ee65c1c5f2168631c715673320ff3dd263de27c6 Merge branch 'ras/core'
+1342a2d357d5048541ff087ce3c6b076562454ab Merge branch 'perf/core'
+c9a6ace25207e25df52437b5e72a1ff1bb7bb838 Merge branch 'objtool/urgent'
+8e05a9a4ca3ec3a620eebb25070addd7aee34abb Merge branch 'objtool/core'
+43c81ebba861a070f23b9e0e6d2eb2830292d598 Merge branch 'locking/wwmutex'
+cce4fbe9ec171aad4dd7b1e28a6fda95feffade0 Merge branch 'locking/core'
+8abae15ad73049675d73ca4f0af2753d7b4c2aea Merge branch 'irq/core'
+
+--===============8159126130980441251==--
