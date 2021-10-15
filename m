@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 15 Oct 2021 14:51:59 -0000
-Message-Id: <163430951934.17698.14930078909798658340@gitolite.kernel.org>
+Date: Fri, 15 Oct 2021 14:53:21 -0000
+Message-Id: <163430960139.18133.6054255001959898279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/atorgue/stm32
 user: atorgue
 changes:
-  - ref: refs/heads/stm32-dt-for-v5.16
-    old: 3502b3387a481f1eb85422b9d854f5000801d527
-    new: db7be2cb87ae65e2d033a9f61f7fb94bce505177
+  - ref: refs/tags/stm32-dt-for-v5.16-1
+    old: 712bd319390dca0e5f1b549580b6ed38df40946f
+    new: 4e534959c010e7a95c9aa335f4fa5b2233e8b0db
     log: |
          1da8779c002985278ba58722de579fcae71e4a81 ARM: dts: stm32: add STM32MP13 SoCs support
          396e4168c527c1cf77336fc160e343b7db55f952 dt-bindings: stm32: document stm32mp135f-dk board
