@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8950887440453722356=="
+Content-Type: multipart/mixed; boundary="===============2887431659679020032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 15 Oct 2021 16:57:09 -0000
-Message-Id: <163431702959.32005.953737429844151539@gitolite.kernel.org>
+Date: Fri, 15 Oct 2021 16:57:24 -0000
+Message-Id: <163431704461.32152.7899792364714186846@gitolite.kernel.org>
 
---===============8950887440453722356==
+--===============2887431659679020032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9974cb5c879048f5144d0660c4932d98176213c4
-    new: 295711fa8fec42a55623bf6997d05a21d7855132
-    log: revlist-9974cb5c8790-295711fa8fec.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8f2b8bc20914446e70c1d89f110278054df6820d
+    new: 6858cab5b439299d99db1619365279a29fd98f33
+    log: revlist-8f2b8bc20914-6858cab5b439.txt
 
---===============8950887440453722356==
+--===============2887431659679020032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9974cb5c8790-295711fa8fec.txt
+Content-Disposition: attachment; filename=revlist-8f2b8bc20914-6858cab5b439.txt
 
 80f0a1f99983296be587325004acf72dd11eccd8 workqueue: annotate alloc_workqueue() as printf
 22b1255792c033781dbe42b63e28501d38032b7e docs/cgroup: remove some duplicate words
@@ -360,5 +360,34 @@ a64b442137669c9e839c6a70965989b01b1253b7 net: dpaa2: add support for manual setu
 69651bd8d303e0b4d160569de37d04512acd6b2f soc: fsl: dpio: add Net DIM integration
 fc398bec03879a7469f0c8e16567698b7d5d814c net: dpaa2: add adaptive interrupt coalescing
 295711fa8fec42a55623bf6997d05a21d7855132 Merge branch 'dpaa2-irq-coalescing'
+c875dca32b29984a201229101ff3fb2750d9d38b net/mlx5: Add layout to support default timeouts register
+105399d713dd88d1990ead34c096558e4b9cc3d0 net/mlx5: Read timeout values from init segment
+1ee47fb2bda5539ec4deaf969a243fe9e891fe7d net/mlx5: Read timeout values from DTOR
+abd7d45246a81eb20b0389ae3dd4bafb8ab847de net/mlx5: DR, Fix querying vport 0 capabilities
+c8e7a0dfef58bcb195a50d45ffd7aa421390b589 net/mlx5: Bridge, provide flow source hints
+837d742f97d514b7125b7ee0bc4b5125124ef2b7 net/mlx5: DR, Fix querying vport 0 capabilities
+6dd0a8b2f2db168fc600c1818d0d4e8f74b040b5 net/mlx5i: Enable Rx steering for IPoIB via ethtool
+cfcbe43df50d8e786db25e75cfcf2e6f0669881e net/mlx5: Disable roce at HCA level
+903f2c5db948956935e8e704e3a4bcbf5d2d6a1e net/mlx5: CT: Fix missing cleanup of ct nat table on init failure
+e8ddbf5c16cc19fd2349d145f26d70d7323d264f net/mlx5: Support partial TTC rules
+a6c7a26647973caf7bae4741ef539f8067f92990 net/mlx5: Introduce port selection namespace
+5f50007d7850de119c955a2a729a7987bcaca089 net/mlx5: Add support to create match definer
+8fa4703dc1a6c2cf1a14f09f47c23675b63b08d3 net/mlx5: Introduce new uplink destination type
+cf2f5620ef12d6353170e9fe074e2e2a16d97830 net/mlx5: Lag, move lag files into directory
+6eb189a53a121769d4b51840e09391cc5747361e net/mlx5: Lag, set LAG traffic type mapping
+59fd8fbd734a2ee8241676f46026ad18761f027c net/mlx5: Lag, set match mask according to the traffic type bitmap
+de2eea67026e761450e513b732dcb0070b82ca80 net/mlx5: Lag, add support to create definers for LAG
+0a0428b3f42392503c0f2deb0a43491e2c45e282 net/mlx5: Lag, add support to create TTC tables for LAG port selection
+d2df0c65018e16bb1d087a0d23e388df1564a039 net/mlx5: Lag, add support to create/destroy/modify port selection
+f2a829de2ef4f1aef5421711d987b03c791af22d net/mlx5: Lag, use steering to select the affinity port in LAG
+a075f6f56b85a5a84e4bf51a3460114f104a2880 net/mlx5: E-Switch, Use dynamic alloc for dest array
+699a82d39f581c62f7b6aead5ee55ffb8da8df4d net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+1246045c533717472f80a0b7e938ba092de3a9bf Merge branch 'patchq/437467' into mlx5-queue
+d0ff6d3806158c440139c7068dc1dd24e8d093f9 Merge branch 'patchq/435320' into mlx5-queue
+7e7f28170cc2a4d863f0e7ecfb915f29ced101dc Merge branch 'patchq/433307' into mlx5-queue
+dc6790fbe2bc3194f055570b406da32eda1638be Merge branch 'patchq/423885' into mlx5-queue
+e7ba4e005961567b87e6535f0937508237e6094d Merge branch 'patchq/435579' into mlx5-queue
+9ca5ee608d98b4048f2d3c2099b2ada2e466228b Merge branch 'patchq/414851' into mlx5-queue
+6858cab5b439299d99db1619365279a29fd98f33 Merge branch 'patchq/428803' into mlx5-queue
 
---===============8950887440453722356==--
+--===============2887431659679020032==--
