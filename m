@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 15 Oct 2021 19:59:03 -0000
-Message-Id: <163432794393.17227.3688010616080361965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 15 Oct 2021 20:07:24 -0000
+Message-Id: <163432844442.22580.15572847658261771264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/kunit
-    old: e7198adb84dcad671ad4f0e90aaa7e9fabf258dc
-    new: 54045e5b59e5513f298b1e01cad41a6ff0c85579
+  - ref: refs/heads/arm/fixes
+    old: 0f0f80d9d5db0b9a78a6ec74714f08b7b8bda0de
+    new: 011ace4a7fadcbe8670b615e0db1e8d7b813ee6c
     log: |
-         b5c11a89384b5f03c426b83a23df0a4d2a5e132d kunit: tool: improve compatibility of kunit_parser with KTAP specification
-         54045e5b59e5513f298b1e01cad41a6ff0c85579 kunit: Reset suite count after running tests
+         a1467faa10414ab3d91be7ef6d2b11272ec00e95 ARM: imx: register reset controller from a platform driver
+         011ace4a7fadcbe8670b615e0db1e8d7b813ee6c Merge tag 'imx-fixes-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
          
