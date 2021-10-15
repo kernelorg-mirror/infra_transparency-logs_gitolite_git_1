@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Oct 2021 11:57:02 -0000
-Message-Id: <163429902294.32177.17819976633793592680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 15 Oct 2021 11:57:23 -0000
+Message-Id: <163429904350.32319.12195047647200249464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/tags/asoc-fix-v5.15-rc5
+  - ref: refs/tags/regulator-fix-v5.15-rc5
     old: 0000000000000000000000000000000000000000
-    new: 8694aee2620c2c02e527c76cc58404fc5b0fcfde
+    new: 144d74df1bcb3a6cbf5aacdd3a7999dfd3767293
