@@ -1,41 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8940499686242107895=="
+Content-Type: multipart/mixed; boundary="===============1837861887303755275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/storage/autofs/autofs
-Date: Fri, 15 Oct 2021 08:37:38 -0000
-Message-Id: <163428705809.17914.15461983317185760119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 15 Oct 2021 08:39:59 -0000
+Message-Id: <163428719913.18737.18268388501165995689@gitolite.kernel.org>
 
---===============8940499686242107895==
+--===============1837861887303755275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/storage/autofs/autofs
-user: raven
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 91edcc55c681dac41d2213b498ec6450aee22d9f
-    new: 606795ecfaa1ba45ab58fa20376213f6089e42e9
-    log: revlist-91edcc55c681-606795ecfaa1.txt
+  - ref: refs/heads/for-kernelci
+    old: 69a1643494b04085fb5692dcb7ed03edfcd9d723
+    new: e9b4f08840f2d5afe61295d737f1d0b3d7ff584a
+    log: revlist-69a1643494b0-e9b4f08840f2.txt
 
---===============8940499686242107895==
+--===============1837861887303755275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91edcc55c681-606795ecfaa1.txt
+Content-Disposition: attachment; filename=revlist-69a1643494b0-e9b4f08840f2.txt
 
-64026e57eee73de87a17f1ff36bfff00cdd6a828 autofs-5.1.7 - fix use of possibly NULL var in lookup_program.c:match_key()
-ef354e58836d2be9c3c3d1e75cfd7322b7773ad6 autofs-5.1.7 - fix incorrect print format specifiers in get_pkt()
-0d7fad44e5fedd40fd5c3829e37ce524412e8627 autofs-5.1.7 - add mapent path length check in handle_packet_expire_direct()
-fddbf93fe6fa8a00c3f5048c0edaf18a50dd0d62 autofs-5.1.7 - add copy length check in umount_autofs_indirect()
-7509a21a62664134a403df38b1e37e10d3e008c0 autofs-5.1.7 - add some buffer length checks to master map parser
-ffdec30ebea87864188a3e5e4e157b9d59d02431 autofs-5.1.7 - add buffer length check to rmdir_path()
-01c9e53d27350afa5ca39b97a72931f2f538a34c autofs-5.1.7 - eliminate buffer usage from handle_mounts_cleanup()
-83c1dd6ed7991906229f0c242d5edf520e6c7c21 autofs-5.1.7 - add buffer length checks to autofs mount_mount()
-fc4c067b53f760ba58fa3c1315c26d6d8ecd3247 autofs-5.1.7 - make NFS version check flags consistent
-26fb6b5408be0e7966fec356f302e494039f0b6a autofs-5.1.7 - refactor get_nfs_info()
-606795ecfaa1ba45ab58fa20376213f6089e42e9 autofs-5.1.7 - also require TCP_REQUESTED when setting NFS port
+dfbdcda280eb762bae2184145cc0702932d41798 gcc-plugins: arm-ssp: Prepare for THREAD_INFO_IN_TASK support
+19f29aebd929c31c5cc901f38a9295617b602c38 ARM: smp: Pass task to secondary_start_kernel
+3855ab614df4818c833864572559a97fd9f9a299 ARM: smp: Free up the TLS register while running in the kernel
+50596b7559bf226bb35ad55855ee979453ec06a1 ARM: smp: Store current pointer in TPIDRURO register if available
+18ed1c01a7dd3d7c780b06a49124da237a4c1790 ARM: smp: Enable THREAD_INFO_IN_TASK
+01eb173b5cec290f475230ec12150948f0217b37 ARM: remove some dead code
+ce09c40ed6e8bece82b6c5569be53798d0e23e0a ARM: assembler: introduce bl_r and bl_m macros
+bab0f5ceadce5433a220e9d729282e6e0eb179b4 ARM: optimize indirect call to handle_arch_irq for v7 cores
+f13d5e684278dd3b9d42b52a522207ea1d8240d9 ARM: unwind: support unwinding across multiple stacks
+17cf12f45e1f8dd14cfcc69f77ac9116a27f34cb ARM: export dump_mem() to other objects
+27d3a77057930aaf2ef820bc40ccee076186dec6 ARM: unwind: dump exception stack from calling frame
+8521d011155c90004747ada5cad24c04e2479ba1 ARM: implement IRQ stacks
+57bee30740a3afcc92a818ce569912d81081d14f ARM: call_with_stack: add unwind support
+e9b4f08840f2d5afe61295d737f1d0b3d7ff584a ARM: run softirqs on the per-CPU IRQ stack
 
---===============8940499686242107895==--
+--===============1837861887303755275==--
