@@ -1,87 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============1872281478990706174=="
+Content-Type: multipart/mixed; boundary="===============0186432064010328313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 15 Oct 2021 19:38:05 -0000
-Message-Id: <163432668537.3492.9432736809780625043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 15 Oct 2021 19:40:40 -0000
+Message-Id: <163432684042.5729.16890690370874054577@gitolite.kernel.org>
 
---===============1872281478990706174==
+--===============0186432064010328313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: sandeen
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7c432f77bafa34b1c67371d78a67ac50a8a97e03
-    new: 7189ee53abcfc00bc77a584cf3b9cea8be5a5959
-    log: revlist-7c432f77bafa-7189ee53abcf.txt
-  - ref: refs/heads/libxfs-5.14-sync
-    old: 0000000000000000000000000000000000000000
-    new: 7189ee53abcfc00bc77a584cf3b9cea8be5a5959
+  - ref: refs/heads/for-5.15
+    old: 6b9b546dc00797c74bef491668ce5431ff54e1e2
+    new: 4ca239f33737198827c7f4ac68a1f6fc8a9d79ba
+    log: revlist-6b9b546dc007-4ca239f33737.txt
+  - ref: refs/heads/for-5.16
+    old: 4b19e4a77cc6baa0f840e8bae62ab974667f6207
+    new: 9a61277af7fb90e58bfd2608f0e28bb0649c4128
+    log: revlist-4b19e4a77cc6-9a61277af7fb.txt
 
---===============1872281478990706174==
+--===============0186432064010328313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c432f77bafa-7189ee53abcf.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-18986e26bfa54fc13a4edaa629cfcdeb74ada4f9 libxfs: fix call_rcu crash when unmounting the fake mount in mkfs
-f9a530f76ed832256dd8acce077abc4a0afca4d3 xfs: use xfs_buf_alloc_pages for uncached buffers
-6192efa0a085ed3d90d69139f85843440f4303f5 xfs: Reverse apply 72b97ea40d
-2e99d8449fe6d3aad6671acff75490bf708d2706 xfs: Add xfs_attr_node_remove_name
-93c12ca74db7281a3283d399abcd5bb01c293e82 xfs: Refactor xfs_attr_set_shortform
-fd1fa5dc7ee253f27f18c3311465105e7c7ae720 xfs: Separate xfs_attr_node_addname and xfs_attr_node_addname_clear_incomplete
-60e5290270a7ceed22937a03493841c1f3504850 xfs: Add helper xfs_attr_node_addname_find_attr
-87f9c1eff2fc6bc1d525bf45a13a965025bbc356 xfs: Hoist xfs_attr_node_addname
-d5ad8996aba14369ab2be3d800b910e6ff8f5922 xfs: Hoist xfs_attr_leaf_addname
-f3b8734c2263fbc826b0ea6a32e99f37786352ac xfs: Hoist node transaction handling
-d9e349b4c9ff467cdaf760c9598e7618474bbd98 xfs: Add delay ready attr remove routines
-fc58731cffacdb82a536fb5bc2d3f1d29fb38cb5 xfs: Add delay ready attr set routines
-9347c64ad19b5cf98aa8c82fbad44414effd77fa xfs: Remove xfs_attr_rmtval_set
-74d86e114627559f4b371ab3381f39207822e3be xfs: Clean up xfs_attr_node_addname_clear_incomplete
-ec59d2c9846a8317f1001d6a6cdb94ef3514dca6 xfs: clean up open-coded fs block unit conversions
-9356d46f132917224cc4f723e60be7a85114c33a xfs: move xfs_perag_get/put to xfs_ag.[ch]
-5e5ea04ec9e9bac7c8086d6171ea4a92203a0f17 xfs: move perag structure and setup to libxfs/xfs_ag.[ch]
-ad8ddf1653de50a101be5f790c51e67980df64fb xfs: make for_each_perag... a first class citizen
-35a68866a3e43f521d15cb8217a95f787249f134 xfs: convert raw ag walks to use for_each_perag
-088be7959f00fe69042e26eda85807a2b02c4d94 xfs: convert xfs_iwalk to use perag references
-feea80af1c8be91ee76f221bced782af38141b57 xfs: convert secondary superblock walk to use perags
-fd1d428ecc05c5b7f52ebfcfc8723f7a95027bdf xfs: pass perags through to the busy extent code
-726f3756a1b32d1854843cc27349abe30bdac118 xfs: push perags through the ag reservation callouts
-3bc39252980ff5bb64f44356460e6c3cca970ba4 xfs: pass perags around in fsmap data dev functions
-f329b8836833e9b6949aa6e9971ba217653604b1 xfs: add a perag to the btree cursor
-c7aecb6ad0d46c012f58db6b341fa89af6f9f265 xfs: convert rmap btree cursor to using a perag
-fd5d24f88111f2c5de3a7c032b77224bcc0f186b xfs: convert refcount btree cursor to use perags
-6225c0b1ed55ec18858049a04af4b6196a7ad273 xfs: convert allocbt cursors to use perags
-864e0520bff1ff03410ed33c29f94e7a4cf00f0d xfs: use perag for ialloc btree cursors
-c5cec050bbdca9fd486840dd18bf66c827aeeb71 xfs: remove agno from btree cursor
-4831312783ca124041c7d62a39a3bdf8189ca1c0 xfs: simplify xfs_dialloc_select_ag() return values
-9dead8d8a558d1ea05aa8e79afc6290537466677 xfs: collapse AG selection for inode allocation
-d767a28697f41669d34c8e8b26227b6add1dbb2c xfs: get rid of xfs_dir_ialloc()
-5ae8938e9e03b670d6cbe9fd5f04cdbc01582f83 xfs: inode allocation can use a single perag instance
-4eef12730bf1fc4a985096bed70964d7f7f62da9 xfs: clean up and simplify xfs_dialloc()
-0613aa9162f1c751108b5a7357fde4b6fd0b5b6f xfs: use perag through unlink processing
-2a9789901c28aeaf055654021057963de9be3109 xfs: remove xfs_perag_t
-9b849afbecec066e1d8800360f80fb4223971bc7 xfs: sort variable alphabetically to avoid repeated declaration
-558e5cdd077a6ca4fe86181e737b26f41ef15347 xfs: Remove redundant assignment to busy
-86fbe22173b9b0ab0874bc56cf20bffc908aa698 xfs: mark xfs_bmap_set_attrforkoff static
-a3b7445cc75f888c885c215ecae0ea70e4aa1d86 xfs: fix radix tree tag signs
-82ebf65d32d08caf521288e70da2e2ea9a5dd4b7 xfs: drop the AGI being passed to xfs_check_agi_freecount
-326d555b625ceee85ba235ddbc7f96fc4a0749bb xfs: Fix default ASSERT in xfs_attr_set_iter
-425d2fa7413ba4543ad68d5d893596113eac22f5 xfs: Make attr name schemes consistent
-f19ae9c5dfd51a254af70ec96c05471de1bf9d6f xfs: perag may be null in xfs_imap()
-5f5bb1168a6ec26992bfebfac2ab884bc005d537 xfs: log stripe roundoff is a property of the log
-a4cf52334b3d70fc88dcf7fa35a8fce604a2a702 xfs: xfs_log_force_lsn isn't passed a LSN
-3ce0b6142fcdd5343c8ca84ab4f815b14439d478 xfs: fix endianness issue in xfs_ag_shrink_space
-8e407b7cabce2c1f9b9ee2b32e1d88b7b66e4efa xfs: Initialize error in xfs_attr_remove_iter
-173e4568fd7bec40d443fad02d645d8f4e40ac90 xfs: Fix multiple fall-through warnings for Clang
-a0ecdcb25a81efa3899ca13b371839a5cc4cd434 xfs: check for sparse inode clusters that cross new EOAG when shrinking
-20cd781dfc13f48d8e90ed4c0b3081997715c031 xfs: correct the narrative around misaligned rtinherit/extszinherit dirs
-5d2fd5918bd28f52f9cee2030bcc77abb7ab236a xfs: logging the on disk inode LSN can make it go backwards
-7189ee53abcfc00bc77a584cf3b9cea8be5a5959 xfs_db: convert the agresv command to use for_each_perag
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1634326838 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1634326837-b3af0181840ddc44c6ff0753cf8000675d8d5358
 
---===============1872281478990706174==--
+6b9b546dc00797c74bef491668ce5431ff54e1e2 4ca239f33737198827c7f4ac68a1f6fc8a9d79ba refs/heads/for-5.15
+4b19e4a77cc6baa0f840e8bae62ab974667f6207 9a61277af7fb90e58bfd2608f0e28bb0649c4128 refs/heads/for-5.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFp2TYACgkQJNaLcl1U
+h9Dr7Qf/S0UM77o5keevNANI/3WvHgDFruB+vX6trinnPSRTDGhCEDJFjGQ4/U2u
+qFvRU7HZuD6gdNm43gqJkxS2lSC2kws0zIZJzQQk/s0MEMKOnc5hwOEj95/UgmfX
+z/mqIdOifyClwwhOPwnmX/Jpnz/8KMacz+XIeSw+Z9CLec0A7+X7tRMAYhxBUOsD
+9SnKfzXP2QqNiir8WplCJVq+6WjWKuSvYCvB5uMWFrKdv4sMttXwQTl33W29wA/W
+IhDnv9JAZ6Gg95Cc1obM8TW9YelfLfgW6zCGXDqzzdB1oUixHUS1lSNZZLJwkVse
+Za0nyAgvTAEAwHI+/Pirt28DIbAFlA==
+=CaBg
+-----END PGP SIGNATURE-----
+
+--===============0186432064010328313==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6b9b546dc007-4ca239f33737.txt
+
+06441c82f0cd836402ca5fa4162d28ed07cfb0ed ASoC: cs42l42: Don't reconfigure the PLL while it is running
+6e6825801ab926360f7f4f2dbcfd107d5ab8f025 ASoC: cs42l42: Always configure both ASP TX channels
+d591d4b32aa9552af14a0c7c586a2d3fe9ecc6e0 ASoC: cs42l42: Correct some register default values
+917d5758014b37cf97b946dd130aad9353c354dc ASoC: cs42l42: Don't set defaults for volatile registers
+0306988789d9d91a18ff70bd2bf165d3ae0ef1dd ASoC: cs42l42: Defer probe if request_threaded_irq() returns EPROBE_DEFER
+2a031a99428bafba089437e9044b8fd5dc6e7551 ASoC: cs42l42: Don't claim to support 192k
+3c211cb7db2905221f9f006aa66b8af17bfcd480 ASoC: cs42l42: Use PLL for SCLK > 12.288MHz
+4ae1d8f911d6fc20baefd5eb061bf6964fa22a32 ASoC: cs42l42: Allow time for HP/ADC to power-up after enable
+fdbd256175a1e11c1ba827112d56b9a3952e1219 ASoC: cs42l42: Set correct SRC MCLK
+0c3d6c6ff75aa6b21cd4ac872dd3050b6525c75c ASoC: cs42l42: Mark OSC_SWITCH_STATUS register volatile
+4c8d49bc476c7cf1fb7377b469ced43ced470027 ASoC: cs42l42: Fix WARN in remove() if running without an interrupt
+4ca239f33737198827c7f4ac68a1f6fc8a9d79ba ASoC: cs42l42: Always enable TS_PLUG and TS_UNPLUG interrupts
+
+--===============0186432064010328313==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4b19e4a77cc6-9a61277af7fb.txt
+
+5dd7e163e71f4b9a82c35f0bc2af3d7c5b1fb7f5 ASoC: test-component: add Test Component YAML bindings
+d293abc0c8fbb7b1610b9f7497323028b06cd5f8 ASoC: test-component: add Test Component for Sound debug/test
+92939252458fa279d0013e5dc545a98a4ca4064a ASoC: simple-card-utils: add asoc_graph_is_ports0()
+52a18c291470e66a27f415b8c99136f25f55092e ASoC: simple-card-utils: add codec2codec support
+6e5f68fe3f2d35046856572fa037a5149d55a070 ASoC: add Audio Graph Card2 driver
+c8c74939f791ccbbfff988aec5f929374dbef2a6 ASoC: audio-graph-card2: add Multi CPU/Codec support
+f03beb55a831bc7575b3c8882bf8fa6c81198eca ASoC: audio-graph-card2: add DPCM support
+c3a15c92a67b701751c2680fa894d832570f7e7b ASoC: audio-graph-card2: add Codec2Codec support
+466ac332bc5762de441d05f1314b8e7ef2c6dccb ASoC: add Audio Graph Card2 Yaml Document
+95373f36b9b810aa5461e3a864d7a3ad05b30b91 ASoC: add Audio Graph Card2 Custom Sample
+c601fdf5c845b5bc416a1215cd22a7a786fcf268 ASoC: audio-graph-card2-custom-sample.dtsi: add Sample DT for Normal (Single)
+5279bd8a842b88b24724dc6364b9850eacb5f490 ASoC: audio-graph-card2-custom-sample.dtsi: add Sample DT for Normal (Nulti)
+e781759ab87b5b7bc4282faf08352e564c3eaf81 ASoC: audio-graph-card2-custom-sample.dtsi: add DPCM sample (Single)
+cb2d94aa4d51e49f68ea02fe49225948467427bd ASoC: audio-graph-card2-custom-sample.dtsi: add DPCM sample (Multi)
+349b15ef9d535116ded20fd2ac945afce98b227e ASoC: audio-graph-card2-custom-sample.dtsi: add Codec2Codec sample (Single)
+baa274db99effe4fd85cf7bee70fecc8159be0cb ASoC: audio-graph-card2-custom-sample.dtsi: add Codec2Codec sample (Multi)
+832a5cd2d3d9e195af2fe272999af8948383ce9b ASoc: amd: create platform device for VG machine driver
+34a0094b9ff7b7544591a6841f9b61747033f292 ASoC: amd: add vangogh machine driver
+96792fdd77cd19fcf2368e7c19bb8b78557ae425 ASoC: amd: enable vangogh platform machine driver build
+b296997cf539976c62f81cdd367924809fdcc14e ASoC: soc-component: improve error reporting for register access
+9a61277af7fb90e58bfd2608f0e28bb0649c4128 Merge series "ASoC: Add Audio Graph Card2 support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+
+--===============0186432064010328313==--
