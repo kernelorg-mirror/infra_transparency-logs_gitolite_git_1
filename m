@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 16 Oct 2021 20:41:52 -0000
-Message-Id: <163441691264.18279.8244632953855050531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 16 Oct 2021 20:58:59 -0000
+Message-Id: <163441793905.28853.3506240973189286231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/hack/m1-gpio
-    old: 0000000000000000000000000000000000000000
-    new: 9339355c25ff9a10c804195e9e9025c992c4cc16
+  - ref: refs/heads/master
+    old: fdd596163efc01e32f01d7922e04a277557e895b
+    new: fad2aa84034f6dddcd78547019cb968090186c52
+    log: |
+         fad2aa84034f6dddcd78547019cb968090186c52 Sat Oct 16 08:58:27 PM UTC 2021
+         
