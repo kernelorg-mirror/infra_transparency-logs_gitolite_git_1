@@ -1,21 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sun, 17 Oct 2021 15:53:04 -0000
-Message-Id: <163448598465.19385.1681463590275427956@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0067620942936854498=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sun, 17 Oct 2021 16:43:29 -0000
+Message-Id: <163448900903.16786.17504208919776126125@gitolite.kernel.org>
+
+--===============0067620942936854498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/x86/fpu-kvm
-    old: ba1f8559bd7836b9a80d73a7992a1d88b0d4960c
-    new: dc3cd5721cdb0d3116a2feb84755427d1522477a
-    log: |
-         62016e4cc41716b33da890ad43145b646f9db51d x86/fpu: Extend prctl() with guest permissions
-         e267f6f182b7b6b48be9b1bb965dc1fd61613faa x86/fpu: Prepare KVM for dynamically enabled states
-         dc3cd5721cdb0d3116a2feb84755427d1522477a x86/fpu: Add reallocation mechanims for KVM
-         
+  - ref: refs/heads/dev-test
+    old: 24ac96062001699dde695d3e3c42eb40d9fbcf05
+    new: 82743444940cec36517f3cfed593ff3c241e103b
+    log: revlist-24ac96062001-82743444940c.txt
+
+--===============0067620942936854498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-24ac96062001-82743444940c.txt
+
+e62424651f43cb37e17ca26a7ee9ee42675f24bd erofs: decouple basic mount options from fs_context
+dfeab2e95a75a424adf39992ac62dcb9e9517d4a erofs: add multiple device support
+8f89926290c4b3d31748d5089b27952243be0693 erofs: get compression algorithms directly on mapping
+e9e2007f29f21499969311ab6db98b41dbdf8bce erofs: introduce the secondary compression head
+ed311a0affe2ce37f74ba266c47a726a4f628136 erofs: introduce readmore decompression strategy
+fe14a7abca0bbf0e149b415b0ccd14ce890d2031 lib/xz: Avoid overlapping memcpy() with invalid input with in-place decompression
+6a7de0b8690314e9194b520c8de8243c4b64ef52 lib/xz: Validate the value before assigning it to an enum variable
+e0a9a608be195480f380646732a8f575ef877a5e lib/xz: Move s->lzma.len = 0 initialization to lzma_reset()
+dda2afa92269e774a693ca1229e705e339a832f8 lib/xz: Add MicroLZMA decoder
+bf402384cd62f6270d1e61305009eff0a15c18f0 lib/xz, lib/decompress_unxz.c: Fix spelling in comments
+284f8e64a6da51c2a7c1e8d6dd442da02019d134 erofs: rename some generic methods in decompressor
+82743444940cec36517f3cfed593ff3c241e103b erofs: lzma compression support
+
+--===============0067620942936854498==--
