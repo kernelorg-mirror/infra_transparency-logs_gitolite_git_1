@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1634609658039931212=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 17 Oct 2021 08:45:43 -0000
-Message-Id: <163446034350.2725.13539392890830218326@gitolite.kernel.org>
-
---===============1634609658039931212==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Sun, 17 Oct 2021 08:45:48 -0000
+Message-Id: <163446034815.5327.8452600596250737551@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 077a5f1804bddae295d191922cd2c1fcbb64f237
-    new: 8be012cead0985a036d85910b9e0e4e284bd3a8b
+  - ref: refs/heads/pending
+    old: ff1cc2fa3055ee4c83839f38b74b4ee370a2291c
+    new: f73e3b6384cb352c3541742af87ba1445a106371
     log: |
-         8be012cead0985a036d85910b9e0e4e284bd3a8b Notes added by 'git notes add'
+         8e992a3beee212673d39970bc03eef2d0b119fed iwlwifi: mvm: fix ieee80211_get_he_iftype_cap() iftype
+         fc896bc5cdaa6775fdae797376e045455e1b3af1 iwlwifi: mvm: disable RX-diversity in powersave
+         e51c61b310373e0472cb6d2460687d493e009480 iwlwifi: mvm: add lmac/umac PC info in case of error
+         510f0ef9c2d5004614bfec26591dc8862fc1134c iwlwifi: add vendor specific capabilities for some RFs
+         32a13ac0f4d4a031bd799bdf8b941563740135a1 iwlwifi: mvm: add support for 160Mhz in ranging measurements
+         5e39106ec75b2b7f4f8552e4d899ae33d8ac541a iwlwifi: mvm: Remove antenna c references
+         8aa65feeda5fbff54aa631f5f632f10928f69946 iwlwifi: add some missing kernel-doc in struct iwl_fw
+         022a9f87fdbd59a4c1a4d09dffaaf5c07c1b5b2f iwlwifi: api: remove unused RX status bits
+         32109514aad01c12fb97f7563e3524dad2367a58 iwlwifi: remove MODULE_AUTHOR() statements
+         f73e3b6384cb352c3541742af87ba1445a106371 iwlwifi: remove contact information
          
-
---===============1634609658039931212==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634460342 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1634460341-bdd630b9a846854cd5ece763d781abff1e6ee04d
-
-077a5f1804bddae295d191922cd2c1fcbb64f237 8be012cead0985a036d85910b9e0e4e284bd3a8b refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFr4rYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W9kQAL0HhFmo6z5JnRe6p+el
-FItJHWPnWLN3KuFxdqA5pUcIcZB/ued02WRL5ACrOewM7sKAkqYj+hThGvXznS02
-lnw7b5vmoEzz4GznYqMmbBB0UcGCGJ4oKe9zl1lg7u8YWwT3YQhJGQiWPcVIe+9H
-VKiuo+4XK1FBJCO5CFdQrqHh+c6VW1EBcorEouv6P178FqjBJM1o4kVL4FsSCwCZ
-/zD90G/fx08+IovH9woDFwh19g+EHziuFIhqkAV1XZ2ZEUgu3nL1VCieK7ahkc7q
-wCTEaD2IDtn4GJaUJ0Dp3op+2/VYpmO/mL0QUdBp9bsYHhfWGFYiuCtpjHH3C5K9
-T+iit7c2tjfXCMbJdR+aXNxi7lfFw0fWIJg0kJkFAHsUtc+PTT3TOkpllovjb2NZ
-s2mI/OG6ouWJOHCmzIH5hAXR2Sq0SVUnpMsr5uQchcVbh14DRIrCgh3nk6CEXIMF
-MlFW+jHy3F5EUKSpBu8rA6AWyTZ0WkA6a6O8P7SkomrtHpwgyiQyJp1Z6Xv9InYp
-TuX1XLiSmjq09fwnH8+zYUBkvffhUSm4RC9/l+et+uvA2SLmsnOwrkOKb1mZV47Y
-NHeGrggh1CO0sGI14bkbQX/JgU+p8l89Vo43EXEOZUdnUByZ3JhHjwzDfqYXNgp0
-oRv6H4bo7AwXO0OVt2pftT1u
-=wG30
------END PGP SIGNATURE-----
-
---===============1634609658039931212==--
+  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-10-17
+    old: 0000000000000000000000000000000000000000
+    new: f73e3b6384cb352c3541742af87ba1445a106371
