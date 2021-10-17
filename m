@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2528055288836701350=="
+Content-Type: multipart/mixed; boundary="===============5562525937090743363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 17 Oct 2021 09:40:32 -0000
-Message-Id: <163446363207.17379.15641053613435675091@gitolite.kernel.org>
+Date: Sun, 17 Oct 2021 09:47:55 -0000
+Message-Id: <163446407541.21022.8113998708387160188@gitolite.kernel.org>
 
---===============2528055288836701350==
+--===============5562525937090743363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: fdca072f51dc105be99340da7c39d44d9175237a
     new: e1b5c6a848a4381dcd84bc6ed3bb599907c53218
     log: revlist-fdca072f51dc-e1b5c6a848a4.txt
 
---===============2528055288836701350==
+--===============5562525937090743363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ cdf1540782ef23a852e48f6e47e47ac196578791 headers/deps: Add header dependencies t
 642f50f3b50764512ab89abbb2e369fe89f4c70d headers/deps: Add header dependencies to .c files: <linux/uaccess.h>
 e1b5c6a848a4381dcd84bc6ed3bb599907c53218 BACK: headers/prep: Fix non-standard header section: arch/arm64/include/asm/compat.h
 
---===============2528055288836701350==--
+--===============5562525937090743363==--
