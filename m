@@ -1,26 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 17 Oct 2021 07:30:08 -0000
-Message-Id: <163445580869.20718.15928848700073185510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 17 Oct 2021 07:51:46 -0000
+Message-Id: <163445710640.1702.17429917557187261052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
   - ref: refs/heads/for-next
-    old: 634ec0b2906efd46f6f57977e172aa3470aca432
-    new: 3c05f1477e62ea5a0a8797ba6a545b1dc751fb31
+    old: 7de8989e0f919753c8222218ab26b1605c594888
+    new: 74655472ace6069d080460823554cb2c4fd48192
     log: |
-         3c05f1477e62ea5a0a8797ba6a545b1dc751fb31 ALSA: ISA: not for M68K
+         d7077ac508e6dbeb737758dd2ef6637141ca72f8 ARM: dts: rockchip: change gpio nodenames
+         ec3028e7c83ed03f9cd10c0373d955b489ca5ed6 arm64: dts: rockchip: change gpio nodenames
+         86cdd6751adee1683d5f84c7c5fbaf663bf16ceb Merge branch 'v5.16-armsoc/dts32' into for-next
+         74655472ace6069d080460823554cb2c4fd48192 Merge branch 'v5.16-armsoc/dts64' into for-next
          
-  - ref: refs/heads/master
-    old: 659bd363ab861f3766093ae9527f7d1826ba0c2e
-    new: bc3bb82651637cdb8ee1c346d1523e04716560e8
+  - ref: refs/heads/v5.16-armsoc/dts32
+    old: 3e6f8124a78840d074fab36853ee1f5a2e7cffe5
+    new: d7077ac508e6dbeb737758dd2ef6637141ca72f8
     log: |
-         3c05f1477e62ea5a0a8797ba6a545b1dc751fb31 ALSA: ISA: not for M68K
-         bc3bb82651637cdb8ee1c346d1523e04716560e8 Merge branch 'for-next'
+         d7077ac508e6dbeb737758dd2ef6637141ca72f8 ARM: dts: rockchip: change gpio nodenames
+         
+  - ref: refs/heads/v5.16-armsoc/dts64
+    old: 263b39bce2fbcd3531163300cb9663a4a9517dde
+    new: ec3028e7c83ed03f9cd10c0373d955b489ca5ed6
+    log: |
+         ec3028e7c83ed03f9cd10c0373d955b489ca5ed6 arm64: dts: rockchip: change gpio nodenames
          
