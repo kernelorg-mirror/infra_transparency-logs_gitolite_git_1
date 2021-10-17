@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0090132467857065924=="
+Content-Type: multipart/mixed; boundary="===============8582090887300024235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 17 Oct 2021 03:23:14 -0000
-Message-Id: <163444099465.5894.4010888045458654301@gitolite.kernel.org>
+Date: Sun, 17 Oct 2021 03:23:24 -0000
+Message-Id: <163444100464.6033.13160103334202753067@gitolite.kernel.org>
 
---===============0090132467857065924==
+--===============8582090887300024235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a85791a4380876524c1a54bd2ca6927482475abe
-    new: edfd320fec2cdc53230cee4e2d7a49c1f3d927b0
-    log: revlist-a85791a43808-edfd320fec2c.txt
+  - ref: refs/heads/5.16/scsi-staging
+    old: a4bcbf71914b0cc44151a5238e4a8afa8e3319cd
+    new: 59bb416db1ec1ff7e205d5bbd0868e23de16d0de
+    log: revlist-a4bcbf71914b-59bb416db1ec.txt
 
---===============0090132467857065924==
+--===============8582090887300024235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634440986 -0400
+pusher 75C5DE3D 1634440998 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634440986-9fb8272069cb2aaf2eec9bad42a5d6e2a31ccc99
+nonce 1634440997-524ce57e1fb911681c8afd8bc464ff520af5ecbb
 
-a85791a4380876524c1a54bd2ca6927482475abe edfd320fec2cdc53230cee4e2d7a49c1f3d927b0 refs/tags/mkp-scsi-staging
+a4bcbf71914b0cc44151a5238e4a8afa8e3319cd 59bb416db1ec1ff7e205d5bbd0868e23de16d0de refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFrlxoACgkQ7ulgGnXF
-3j2HOA/9HFyg+uvS2ebfTCZwCS3W4WN50Ce/UZBLieSSZr+KV37AGEswlUqPMY2y
-B15cRnS4OEoDq02hzCs94Hed8OalgYZ1DvMldiHExTdbVaG+KYh6h2lpaPu8PeTd
-25CovyzM6z16Nf7BWZLM1+D1f057d5ntE2MIciwmXq5ez3iSy1ddS2U+qIlwUmXi
-FHB+LMnPdKv82QXcS1WV1l7Y2FBnomZlXlpVFEFcfFWxmd1212pW7WKsIQ+WkTM1
-08gxnL955pbyiRts2Y1YZU+Ce1TDgZDqQitQqB6iiCk8hh9c6/UBXjLumXaN8d7e
-Vxc7nXRyaMIBNTi3kPc/qHS9tQGMAjn8SzoJbWn1QssBfBCHAXvF8Pa7hZcQH9HX
-fs6Py//l8knjRh/XGFntcIzdFwCepH6vT3p1MkFQL3EkuBxECJcsAq/eMfB2C3tx
-vqVJAVGB3gavFlodvvXb63EucADDa5lhaHI3x6scjMetuLdwpYyaH8zaNhYXTOID
-ErPL++SKOyY+/1e93LlIxPrVEY1rFtPUWw7yyvNMHyRvWCm9ADForpkEhlazzTQW
-qNTjQjnOSfq92BUnubFyEHBx2UZHWvNP2bQkZ56xlwrZlOPK3F3ScdGpEfEM5j4/
-B4R3KJWA92+Z4nsKic0CzAaIfNaQcMSv5kp2alZMGh3s4kcR7bk=
-=8WZg
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFrlyYACgkQ7ulgGnXF
+3j3NwQ//RAdgNNBr/5ljqE368A5ZXawvvplDp5ujcZYV/igP3+2JaG0rzpfudh3p
+QKa1YXXvm4QdRn96Ylx88IoZwflHyy+6jGZB70qaoAJNoET99ro/8qcAr/Xij/81
+TvrFKirar50a0nlqINTRw3ae3XwEHJ55hF0TKK5K1LD4t6LTJCYEysSjsbP1kf5D
+4/LeLgSxgGOZ7tJTnoWlHpCV+x4t2Al3XzdJeVgQJPleSDOkUHeqldXOeupduKNX
+xk9pR5IqFYBevGm5+lMJ/a28mdP0Olf3xeBkkcvldl/M/bO6NOzjYpM8o7L78Qsz
+AYMFC6D4ZU878svK/t4tOVvB1JBlIGdH4YqMIDLbTh7Ataox+OJA5QFyUm/0sa7+
+8Ogl2JnthHOXQKbObD0UTg0waKtjU1OC+HV8inRvqatj4GPDMwbZu5D0OSMWdGBm
+vlWfKOKxx/q6/DhOYQI36l2A/6wvPPJbGfjMt/zxCC9KSiDrLKZ60URE5AxyCn8W
+VU8bBwMqh0xjUEguWmBwkOBoY7J0zlyC1UUzlgSSz2T4XrPfAubpTnVv36VlCD2C
+pDTKfYDle3EuC894Oq5CkNUh9blTTiFBSt8Iy8T0PKXiVGFvHERUNejfgiEgWVRq
+H6BWD5DsgxJy+233bEwgskKAc0zCDdpfOPrkiWzLoOyspYOsmL0=
+=63Zl
 -----END PGP SIGNATURE-----
 
---===============0090132467857065924==
+--===============8582090887300024235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a85791a43808-edfd320fec2c.txt
+Content-Disposition: attachment; filename=revlist-a4bcbf71914b-59bb416db1ec.txt
 
 a19a93e4c6a98c9c0f2f5a6db76846f10d7d1f85 scsi: core: pm: Rely on the device driver core for async power management
 1c9575326a4a09bdb82c104ed1ab4e932c7a1f49 scsi: sd: Rename sd_resume() into sd_resume_system()
@@ -214,4 +214,4 @@ fe6691ad814760e48650af013ce1950aa7edb4dd scsi: ufs: ufs-mediatek: Fix build erro
 8d0166a7d817ab434b6ec00dd9e4df9119380631 scsi: target: Replace lun_tg_pt_gp_lock with rcu in I/O path
 59bb416db1ec1ff7e205d5bbd0868e23de16d0de scsi: target: Perform ALUA group changes in one step
 
---===============0090132467857065924==--
+--===============8582090887300024235==--
