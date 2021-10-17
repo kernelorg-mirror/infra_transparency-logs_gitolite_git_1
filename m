@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 17 Oct 2021 05:42:29 -0000
-Message-Id: <163444934929.26372.8037585501669217073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Sun, 17 Oct 2021 05:48:09 -0000
+Message-Id: <163444968949.29726.10589384236382939128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/hwmon-next
-    old: b1986c8e31a3e5f119a52aab50234fc65cf01f30
-    new: efb389b8c34fa7da673eb0a598b223bd891daa9d
+  - ref: refs/heads/master
+    old: 9e5afc84ff94815ad10853420dcecdf33e9226f8
+    new: c6ac8f0b4ca927316eb40e1e9ba83df5d29f3793
     log: |
-         2c59a32d12201b4aeaef5c0cc04698670e164dc3 hwmon: (acpi_power_meter) Use acpi_bus_get_acpi_device()
-         efb389b8c34fa7da673eb0a598b223bd891daa9d hwmon: (max31722) Warn about failure to put device in stand-by in .remove()
+         235300ed8c6ccf8d3044f4ad25b1e984d5dd20d0 Input: ili210x - use resolution from ili251x firmware
+         70a7681db0c9266bd0a3fd6c90a5cfa20ac44995 Input: ili210x - export ili251x version details via sysfs
+         c6ac8f0b4ca927316eb40e1e9ba83df5d29f3793 Input: ili210x - add ili251x firmware update support
+         
+  - ref: refs/heads/next
+    old: 9e5afc84ff94815ad10853420dcecdf33e9226f8
+    new: c6ac8f0b4ca927316eb40e1e9ba83df5d29f3793
+    log: |
+         235300ed8c6ccf8d3044f4ad25b1e984d5dd20d0 Input: ili210x - use resolution from ili251x firmware
+         70a7681db0c9266bd0a3fd6c90a5cfa20ac44995 Input: ili210x - export ili251x version details via sysfs
+         c6ac8f0b4ca927316eb40e1e9ba83df5d29f3793 Input: ili210x - add ili251x firmware update support
          
