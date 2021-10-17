@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9213101703411989560=="
+Content-Type: multipart/mixed; boundary="===============6783932018999319941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 17 Oct 2021 02:50:03 -0000
-Message-Id: <163443900343.17625.15680610848774242887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Sun, 17 Oct 2021 03:22:11 -0000
+Message-Id: <163444093154.5202.18347844927096210449@gitolite.kernel.org>
 
---===============9213101703411989560==
+--===============6783932018999319941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf-wip
-    old: dac73a2bca5f32a2f94d2d79e121444fa7dc6182
-    new: 4ae6e225c16d33ec24353fd9c0c805e36a81f51a
-    log: revlist-dac73a2bca5f-4ae6e225c16d.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: e82bdebf7e0170c9ecea7df03d3adc2c4f1d4372
+    new: 58c0a549f01b1f0fcbb7bf123075bad1b26da74b
+    log: |
+         97e6ea6d78064e7f1e9e19c45dc690aabbb71297 scsi: mpi3mr: Fix duplicate device entries when scanning through sysfs
+         85374b6392293d103c2b3406ceb9a1253f81d328 scsi: sd: Fix crashes in sd_resume_runtime()
+         
 
---===============9213101703411989560==
+--===============6783932018999319941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dac73a2bca5f-4ae6e225c16d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-573ee4cdc6ff44e3b45a6c2b3bf53079818fdc35 block: add support for blk_mq_end_request_batch()
-0831cebf59b2b95f108c0f9d7572bd83a6e3bfe7 nvme: add support for batched completion of polled IO
-8c61e612f0aaa1dbb90973e157fec34a786fcafa io_uring: utilize the io batching infrastructure for more efficient polled IO
-b440f44c559151b742975828937e6eb16bad84ac nvme: wire up completion batching for the IRQ path
-a328e56256ae1d530bcf8c2df4c50ae71f629d1a net: decouple skb_frag_t from struct bio_vec
-58cd90699683de0d5697f2f92c4932a4fa92c98f block: add bvec_set_page() helper
-c7f1abec6de79cdf5ffefb1c86352c43edc89557 block: add a DMA field to struct bio_vec
-e44c39b8e891bfcb0c20901a6842e7b1ba997afd block: add mq_ops method for DMA mapping bvecs
-2fb09e78320c114bcc77bab54f09a8a2400c1afd io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-52d99c920b9e66c82ee480c21c491faa69e9be59 nvme: add support for pre-mapped IO buffers
-6b6bd5546b49f0ecba219f66dc7c47e19a69c5ad block: switch to atomic_t for request references
-6a129293a78a5a97917de7a8e56c69911ba84a15 block: improve request timeout handling
-bc0f73b8651b0c8b79b84a75594e3a8aa75e5a27 nvme: don't copy fill bio_vec if we don't have to
-4ae6e225c16d33ec24353fd9c0c805e36a81f51a block/nvme: submit batches of requests at once
+certificate version 0.1
+pusher 75C5DE3D 1634440923 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1634440923-7a016ad33eb82f25a1ed329362480bfad01f7147
 
---===============9213101703411989560==--
+e82bdebf7e0170c9ecea7df03d3adc2c4f1d4372 58c0a549f01b1f0fcbb7bf123075bad1b26da74b refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFrltsACgkQ7ulgGnXF
+3j2SnQ/+OFqW/ZuH8j5lpaavu2dx2jzAgoWNNT94qKkj7GW9aBMuTzXokcKM+byL
+DnJZm/Bl25NL+ZTmlhEgUJnKWNL3gIZXkiYAEpjxfzjWrShli/A98P7chPXPJdLk
+nip6z6E3cRQVsrWN9HSPNj42KS9SUlnN9rIe1LW2lDKxg4DJqUb2i6Mm5hxsEBrY
+7xjF2A+WsAZ8MJ04aBhVls68eLNZchBtBPSKlxnpThu3a7UK+ms9w9qDwodUZJK/
+XXvQ/V24TJ3pGFNzqF3Fj40fKkhpRklBCMZCr1EYvTohx7BRS7GVEQ+bgLS00Ell
+ZfSiGsxkPIKChFOLmQAeAlu0bT2j8XQ3NsJ8R/lRSr5F+7xUciKQS+bMg3Tw/ybt
+ZkGACe+vuMXC1URSVIM/5v+ZO6xWZ4kiCfoEdJ/eYQqmFOw39xJ5+DJ1GveXN12f
+Za3e/6S5RNBz+QA3c9o7iiw1+JzurtLnsOY5V3g3dYL+X/1CdE7v4d1ZcfRgHFDw
++aKO6errNqghNBdAZhHmQ0T9XqN8soVtjJtYjg92zP+wYTZkC2mJEeOVD6JhE5UA
+w9z4XSvGtCrDu9mADVT88MrhQWz+bYU9sxxo+e481f/N4eWh4azAbsZGMNZoGMm0
+gZYe2ZrsMsakk6CvUoa2eBI6lfC+7+fUwUB0ZFovuG5uJtdAGTY=
+=VdFL
+-----END PGP SIGNATURE-----
+
+--===============6783932018999319941==--
