@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2549790224158618687=="
+Content-Type: multipart/mixed; boundary="===============2506107278006831312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 17 Oct 2021 10:22:11 -0000
-Message-Id: <163446613149.12511.8705348492778144047@gitolite.kernel.org>
+Date: Sun, 17 Oct 2021 10:23:03 -0000
+Message-Id: <163446618388.12811.4751017861423161995@gitolite.kernel.org>
 
---===============2549790224158618687==
+--===============2506107278006831312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,77 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-lts
-    old: c585345ec528edf8ceeaae0e8ff822ce392873d0
-    new: 876465e6ef645a04a4d28d9e5cbf715f6ed7a02c
-    log: revlist-c585345ec528-876465e6ef64.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: 8dceee63afe9c3839596e6aedc47dc29b9e9e4de
+    new: 3e6cfdc96789add3605d75e27fa4b282ce174165
+    log: revlist-8dceee63afe9-3e6cfdc96789.txt
 
---===============2549790224158618687==
+--===============2506107278006831312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634466126 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634466182 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1634466125-fbd2eac93cec0c3e0881aa4a2dd0c08ce80bbb8a
+nonce 1634466181-84be8827c39bf0e5f1d0e72f0d855bf16dc6cc0e
 
-c585345ec528edf8ceeaae0e8ff822ce392873d0 876465e6ef645a04a4d28d9e5cbf715f6ed7a02c refs/heads/linux-rolling-lts
+8dceee63afe9c3839596e6aedc47dc29b9e9e4de 3e6cfdc96789add3605d75e27fa4b282ce174165 refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFr+U4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8doQAIFchBp/wORLUwwQWh4/
-1XcNrZqmFHLIBAbfaDPlf/m4u3Kun935uOi4tImOQXmfyvgq+/yTWlvh/Sv2MIM9
-Tpwei36yzM34dIOegw22APe+I19g52KOg+bVO2oD/7hzzia0GG8/QyAB7mvti42Y
-aZteEum1k/HJ55ZLD2ggRgEh+ecvqVP4Ec4BLPPSYhfP4ieH8KymZjiVe3hFS+Y2
-Sad1iuQpnKqMdjlvC1g7J6cH472qSzZat5YHIccl2TdtT/QBUseDQyHN6HqPwWa3
-RxOxc/kG9VKzyn6D+VGgbxwJwyP0ipBEaYNzrjK2zQO7p1jWsabK+l5qUwn2Noe9
-UKnqVbU3wnfl+SqMk2XzLPtKjiSlXXy/FKaS6gVxB8KRjdlPEvOh7a+GFdszNe55
-iMmHGM0O/Il2s03AifJ67nRhiacK9CvCGlze6FkODgn6YXWObbcbrwzcNvfQNT5h
-7h9P57unm0IMgqqmqlGx7WvVYZS9X9xw91RqYFjNG4NakF7f9iZpMM1aYTwmAE4I
-Gn/tm/aVzwn9kd4yS4AWNbcw2otsD6NoRaOPDp6jkq/pcLJ+CXULTT2zxcrF//fs
-Os8tLjORnouU9X9PzFsSU8Li2OCApK+HlTqLeQtF0ROjRoBjbErcteW+g0NY6/++
-O7BDuUKsef0cqQwF5E5SH8t6
-=4sFM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFr+YYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kKYP/RlSwL/duAwjhb4qnO0o
+rtIqqgvgWN1nZS9lHlufGLKhd7IGeIpcnS+c0PQCAqfLSmRdPi2RDxdB1PI5TwxV
+lmyKR7aOZ9F+iuaeWWk7eY2rnIamu6r3515EnqPdNILOWyLRlOC/E2c4teQUriUk
+8uYc7gUP7p2dRcowBkcbwUMD2Aj1RnvRm4VeSOnz7fFKWkHDxJNnNkDYS7uEWoiX
+7BQ5utYd5v0scd1N41HzOKzY+axiLdHCWLV487TI9a+OwbT7gwbX7RJKLxw6sOvR
+/01irgGgS1gB+ahIYROPcVUpCw7MOgFKTrVcpFMR5ea1ObnyvkrrOvXcSXgGbAAC
+CPSc/DPST8ARn/aDQl/8oms9nvyIUEjkVSW4R7c2ipMYEMoT4JaN9pbu1WC55kfV
+i/5CZvXKyV92gfVcpNbnGfVSKV3MRF6MyxN68PIoAfFgeP4kK/qc7VmdtBm116va
+9xzv/H0lWQy5Y9owP9coFmInbvHdt296k/0cKnc1oRtbmOva5ngmgwJnQRDsF0yo
+1kkjRlqGmhAkdKjoZ9FegdQFFPYHcbE3K3Ydffna3J9tX2BsJUvqDcheP5bjrRo/
+kGFRCo/+FAzkVqgyC+qq8g+ZOAZKEdas9Me1AQaJaLODdPSZhvDOIJ7t89O5LA4c
+m3HNkTyHORfsBCBY68IPDWRn
+=Ggen
 -----END PGP SIGNATURE-----
 
---===============2549790224158618687==
+--===============2506107278006831312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c585345ec528-876465e6ef64.txt
+Content-Disposition: attachment; filename=revlist-8dceee63afe9-3e6cfdc96789.txt
 
-d7a15e1e4fd7db751739d04141390fa6699fd870 ext4: check and update i_disksize properly
-14cbfeeee41b83167bc308f01983618cc5851b53 ext4: correct the error path of ext4_write_inline_data_end()
-0bcfa99e8faeef75567e6d3a5ac9680d28240b21 ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
-ddf026d6ae9aa6ba188800c9e3f2e79ec1597a67 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-ddc4ba737bcb31c227192af4e194ec0f01516700 netfilter: ip6_tables: zero-initialize fragment offset
-f6952b1e22c2de8f23d59f944b0f17cb2733a846 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
-bcb647c1e15d3ddd8ab94d556aa38d77448b40d9 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
-5182d6db80bb2f08a7d700c5c4b8c3d0db58411c netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
-9ec9a975ea374f8290265ad1e4447df73ffb0ecc netfilter: nf_nat_masquerade: defer conntrack walk to work queue
-977aee58142a19ccf9ef8fe56f1430e2ef99931f mac80211: Drop frames from invalid MAC address in ad-hoc mode
-194e8a4f0acd8a9d2915fd5fb8249e2797393078 m68k: Handle arrivals of multiple signals correctly
-3d68c7b0ab5b5b9fd7a2a8b13114ac0336e23a30 hwmon: (ltc2947) Properly handle errors when looking for the external clock
-bda06aff03a1fe0530a8245ef0988e5ba01ea915 net: prevent user from passing illegal stab size
-42c871d38e3d3c2272ead31a846ad58eef66d690 mac80211: check return value of rhashtable_init
-db868b45324d0473db165f43a9d3730413993080 vboxfs: fix broken legacy mount signature checking
-a5ba615fbeb30e9c9df62e25997c5d2011c1a400 net: sun: SUNVNET_COMMON should depend on INET
-621ddffb70db824eabd63d18ac635180fe9500f9 drm/amdgpu: fix gart.bo pin_count leak
-d993d1e1c4113cebe32cf56f3b4c5b9fb405274c scsi: ses: Fix unsigned comparison with less than zero
-57c7ca3d5592d153dd5459894ffb63f2a40ac17c scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-bdae2a08343613782be6c5be97b6c3a1ebccbfff perf/core: fix userpage->time_enabled of inactive events
-bb893f075431e97dd72cde0721957a73d26578a8 sched: Always inline is_percpu_thread()
-42b49f012b6a8c5b012a666971dab6ce38725dff hwmon: (pmbus/ibm-cffps) max_power_out swap changes
-77434fe5a077f05f0851931d6a71d1098b6004f8 Linux 5.10.74
-876465e6ef645a04a4d28d9e5cbf715f6ed7a02c Merge v5.10.74
+501f3491d99e59cc27a6370f761a2c493de4e0e8 ext4: check and update i_disksize properly
+7c2893a12fc055f51a5462b03c47a4c067ccaa3e ext4: correct the error path of ext4_write_inline_data_end()
+3c13d6e6fc5661a820c74712017be1e7ddc53acd ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+cb315326664dafbe5a4900481614e226f7f93df3 ALSA: oxfw: fix transmission method for Loud models based on OXFW971
+13e6abfa0b1e20b2e9370633585bab4d9f0d9234 ALSA: usb-audio: Unify mixer resume and reset_resume procedure
+f117530a10e07dc94b757b4d334f45b64f511c59 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+95cb145dcfc89ea6f7ff5280732ef11733c59130 netfilter: ip6_tables: zero-initialize fragment offset
+2dd40af15d199b1f5a8bbb573319effe030dfaa2 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+1fd0252cad6b0ff67381427ea22d947a374a9807 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+6c3e84af39448faaa117d0246e6386fb26edc2f9 KVM: arm64: nvhe: Fix missing FORCE for hyp-reloc.S build rule
+36f822c301c7fa90a97d418415b140290b274ace netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+a3ea231aa3f05f4fb66c10704318f6a4d2de69f0 netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+9a8a181ed97e14b415a617c541381ae9cc2449c8 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+4d38fb418f71671658696e57b9961e5d94a8eea6 pinctrl: qcom: sc7280: Add PM suspend callbacks
+1d0996b0d2b3f8ac76b3032766e5bddc82d6522d m68k: Handle arrivals of multiple signals correctly
+998e080844c95d677b1b366045943ff80d0d26b9 hwmon: (ltc2947) Properly handle errors when looking for the external clock
+ebb25ff84341b77cb2f8284c3ecba94e03a8956a net: prevent user from passing illegal stab size
+af13e6176b2583ff7e1d70b71b82d96795cdd85f mac80211: check return value of rhashtable_init
+5c85a825615afbdff13515e2dff8f8cade7b4342 net: bgmac-platform: handle mac-address deferral
+e36444b36ff0a1905c72c0831cf816d903858ab6 vboxfs: fix broken legacy mount signature checking
+048389b85643c7986a820d8fd378085f418d7ab2 net: sun: SUNVNET_COMMON should depend on INET
+18d1c5ea3798ba42cfa0f8b2264d873463facb03 drm/amdgpu: fix gart.bo pin_count leak
+21c2e89e7caa0abf678fff253369f906bd989ff2 scsi: ses: Fix unsigned comparison with less than zero
+cc07ecaf9a9c5ade318edb37c3c582ee93568f05 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+15f69a666166ff3dbffcd4c5c880b7fd78331ceb scsi: qla2xxx: Fix excessive messages during device logout
+643c519c36dca2afd1c5ff409ed249542102c671 perf/core: fix userpage->time_enabled of inactive events
+15571bb5bb640466c631cb05fe2c9650e0577d77 sched: Always inline is_percpu_thread()
+e798dcd960a3f0d40302a1bbf7f755879195a163 io_uring: kill fasync
+d7c187ab28f6e479835b9c7f09aadc716b63a4c5 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
+b9ed054073957b91d758135fdf277b3f77b5f2f1 Linux 5.14.13
+3e6cfdc96789add3605d75e27fa4b282ce174165 Merge v5.14.13
 
---===============2549790224158618687==--
+--===============2506107278006831312==--
