@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 17 Oct 2021 15:48:00 -0000
-Message-Id: <163448568015.14911.12642506014834121400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Sun, 17 Oct 2021 15:51:35 -0000
+Message-Id: <163448589569.18900.4236584838848685409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 604faf9a2ecd1addcc0c10a47e5aaef3c4d4fd6b
-    new: fe6f45f6ba22d625a8500cbad0237c60dd3117ee
-    log: |
-         fe6f45f6ba22d625a8500cbad0237c60dd3117ee iio: core: check return value when calling dev_set_name()
-         
+  - ref: refs/heads/x86/fpu-kvm
+    old: da231d77fef29541d6ef735362893b20cea93999
+    new: ba1f8559bd7836b9a80d73a7992a1d88b0d4960c
