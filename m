@@ -1,54 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5150380664622480844=="
+Content-Type: multipart/mixed; boundary="===============2528055288836701350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 17 Oct 2021 09:09:37 -0000
-Message-Id: <163446177741.29368.1855024016558073375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sun, 17 Oct 2021 09:40:32 -0000
+Message-Id: <163446363207.17379.15641053613435675091@gitolite.kernel.org>
 
---===============5150380664622480844==
+--===============2528055288836701350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 74486b2e65df102180443147b295fc06c5c2b0e3
-    new: c15f1527cca7fa210ddfab672863ab49e769a7a7
-    log: |
-         c15f1527cca7fa210ddfab672863ab49e769a7a7 stable: clamp SUBLEVEL in 4.14
-         
-  - ref: refs/heads/queue/5.4
-    old: 41734ad09f431fa1a1887921f0584d5454ddcfed
-    new: c2f09363ef6c321593444da3fad6bb685a32baf0
-    log: revlist-41734ad09f43-c2f09363ef6c.txt
+  - ref: refs/heads/sched/headers
+    old: fdca072f51dc105be99340da7c39d44d9175237a
+    new: e1b5c6a848a4381dcd84bc6ed3bb599907c53218
+    log: revlist-fdca072f51dc-e1b5c6a848a4.txt
 
---===============5150380664622480844==
+--===============2528055288836701350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41734ad09f43-c2f09363ef6c.txt
+Content-Disposition: attachment; filename=revlist-fdca072f51dc-e1b5c6a848a4.txt
 
-de4a28b718bb9f8574d50d3882d7bf861d13d3c2 net: phy: bcm7xxx: Fixed indirect MMD operations
-b6bccc978ec88c1df12c54e2af28417d36a11552 ext4: correct the error path of ext4_write_inline_data_end()
-744b908a7f3f1597e1c7d8769a8bb05f7cba2467 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-8c6680025b49f8d4c17e3ebfac5eec38786d59e9 netfilter: ip6_tables: zero-initialize fragment offset
-a9d8aa2d3ca8909d79c016e3e4463e6c1efba884 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
-b3cb0630341942338a38c43eed84579d5fde614f netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
-fffad5988f2895c4d18b31074f7545cac8864f22 netfilter: nf_nat_masquerade: defer conntrack walk to work queue
-be191c8e68fe3b872b657b025915b1a74d471f4d mac80211: Drop frames from invalid MAC address in ad-hoc mode
-1e66a472b51b75d5a839a5f00c054090fe11bcbb m68k: Handle arrivals of multiple signals correctly
-2aaf3fd5e109b970370db52dbc1ae6f2b369d27a net: prevent user from passing illegal stab size
-6d1d7acb1067726325f9817fce6556d7eb2e87c8 mac80211: check return value of rhashtable_init
-1843ae8c4b2bc1ec858dac933882e5bfa1af7b5e net: sun: SUNVNET_COMMON should depend on INET
-83d857d6b0967b6709cd38750c3ce2ed8ced1a95 drm/amdgpu: fix gart.bo pin_count leak
-1ff5ee9d3926ff25be06f25d7121936e4de27daf scsi: ses: Fix unsigned comparison with less than zero
-3e105ecc4ab73cf1bf8ae7116dc9fc9be4603153 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-291a48871e51b06bd84742ad9f37155bb6b7ed72 sched: Always inline is_percpu_thread()
-ce061ef43f1dede7ee2bd907d2bf38402831e30d Linux 5.4.154
-c2f09363ef6c321593444da3fad6bb685a32baf0 ovl: simplify file splice
+4d2ce375f85209b40e02da66dc69826680f1e9f0 FIX: 66204a6e8b50 sched/headers: Add compatibility bridge for the thread_info cleanups
+93d056968c650d4f787d782510d321841682bced headers/deps: Add header dependencies to .c files: <linux/sched/affinity.h>
+d78b5875f32f8d6db539eafd92aa21d3e6340bd0 headers/deps: Add header dependencies to .c files: <linux/preempt.h>
+11d2bfea1b51e2a4225e87f8137747c6ed32161f FIX: 112ce37f6cee headers/deps: Automated conversion of task->thread accessors to task_thread()
+8f2407b11b2840e2884fc245e0fdd0ad463969a4 headers/deps: Add header dependencies to .c files: <linux/device/bus.h>
+a3622e919379bbf36781f8bfda83b0a70b79547b headers/deps: Add header dependencies to .c files: <linux/bitmap.h>
+82c1433a5312cc3bd721269ae42353737d5acdc1 headers/deps: Add header dependencies to .c files: <linux/dma-fence-api.h>
+0d1e938b8019b75c48550b777051f3169978841d headers/deps: Add header dependencies to .c files: <linux/minmax.h>
+c73e0b33ae586b573b40a3ff9e2122a79dd2a677 headers/deps: Add header dependencies to .c files: <linux/err.h>
+cdf1540782ef23a852e48f6e47e47ac196578791 headers/deps: Add header dependencies to .c files: <linux/sched/cond_resched.h>
+1e0b64d9b416b69c370054f54b1d3a2fe7581271 headers/deps: Add header dependencies to .c files: <linux/sched/topology.h>
+642f50f3b50764512ab89abbb2e369fe89f4c70d headers/deps: Add header dependencies to .c files: <linux/uaccess.h>
+e1b5c6a848a4381dcd84bc6ed3bb599907c53218 BACK: headers/prep: Fix non-standard header section: arch/arm64/include/asm/compat.h
 
---===============5150380664622480844==--
+--===============2528055288836701350==--
