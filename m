@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5562525937090743363=="
+Content-Type: multipart/mixed; boundary="===============2371611227663685369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 17 Oct 2021 09:47:55 -0000
-Message-Id: <163446407541.21022.8113998708387160188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 17 Oct 2021 09:50:58 -0000
+Message-Id: <163446425809.24790.14165309158339843327@gitolite.kernel.org>
 
---===============5562525937090743363==
+--===============2371611227663685369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fdca072f51dc105be99340da7c39d44d9175237a
-    new: e1b5c6a848a4381dcd84bc6ed3bb599907c53218
-    log: revlist-fdca072f51dc-e1b5c6a848a4.txt
+  - ref: refs/tags/char-misc-5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 7a0602ce965bf7b23dafa0f414c6a9b7891f1302
 
---===============5562525937090743363==
+--===============2371611227663685369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdca072f51dc-e1b5c6a848a4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4d2ce375f85209b40e02da66dc69826680f1e9f0 FIX: 66204a6e8b50 sched/headers: Add compatibility bridge for the thread_info cleanups
-93d056968c650d4f787d782510d321841682bced headers/deps: Add header dependencies to .c files: <linux/sched/affinity.h>
-d78b5875f32f8d6db539eafd92aa21d3e6340bd0 headers/deps: Add header dependencies to .c files: <linux/preempt.h>
-11d2bfea1b51e2a4225e87f8137747c6ed32161f FIX: 112ce37f6cee headers/deps: Automated conversion of task->thread accessors to task_thread()
-8f2407b11b2840e2884fc245e0fdd0ad463969a4 headers/deps: Add header dependencies to .c files: <linux/device/bus.h>
-a3622e919379bbf36781f8bfda83b0a70b79547b headers/deps: Add header dependencies to .c files: <linux/bitmap.h>
-82c1433a5312cc3bd721269ae42353737d5acdc1 headers/deps: Add header dependencies to .c files: <linux/dma-fence-api.h>
-0d1e938b8019b75c48550b777051f3169978841d headers/deps: Add header dependencies to .c files: <linux/minmax.h>
-c73e0b33ae586b573b40a3ff9e2122a79dd2a677 headers/deps: Add header dependencies to .c files: <linux/err.h>
-cdf1540782ef23a852e48f6e47e47ac196578791 headers/deps: Add header dependencies to .c files: <linux/sched/cond_resched.h>
-1e0b64d9b416b69c370054f54b1d3a2fe7581271 headers/deps: Add header dependencies to .c files: <linux/sched/topology.h>
-642f50f3b50764512ab89abbb2e369fe89f4c70d headers/deps: Add header dependencies to .c files: <linux/uaccess.h>
-e1b5c6a848a4381dcd84bc6ed3bb599907c53218 BACK: headers/prep: Fix non-standard header section: arch/arm64/include/asm/compat.h
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634464253 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1634464253-2000cf458bd0dd17ee88bc8f2507d3ffd6a20c68
 
---===============5562525937090743363==--
+0000000000000000000000000000000000000000 7a0602ce965bf7b23dafa0f414c6a9b7891f1302 refs/tags/char-misc-5.15-rc6
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFr8f0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pXMQALzwn0SKiVHxh8IFCGcg
+NE+xw+ihJEiHwBk3Cw6xnNGaFLOavgNLU/lAzDCuJxgh5vJ2JuUi+aRDLYSinuQu
+Xs2aOuOQtvpq+2wsWKsgwgYFkMQGIoljKLruaCaHLG6hBje3+X+dJ/t2kFVvlPH0
+GiVqLHgT+vMd+5U7skAUKQXpfU1f/NQLW0q39yeQQV4JWFOPBV8XB/XkJwK07n74
+i4ofyRIuD2OPIwSW41CCboaqRUAbGPIQkM29idm246vtmdKF1sAcS/JSfdc1FamM
+vcvVle+OF96EbSHkyKjSSBu8wZb5tkzfofJIiKOyMMpgKQrU8w9717RGKQFsLlIt
+7gSI2yR1qjn4+fy406SMZ7+CKgRHuKeEuvxakTE2a48+eGQrXl1XZrDSEFs2ik25
+Joj+Leynt4vHkoMFUXadVAkaxnDmN28r9CVNbkVSZnOPGv0r/t4poYTBXFVb5KvG
+fViIkEwIuhnFVMFUQJoQquU8VXo9ZOJKdsLUcNlN37XO2iw67B03yBU0gmnTWkZO
+rziXo0VVGJS1ibvOLQALLcZiJTyXjnAyqVMcCDpaQdLMXDTgi2nC4T9svnayktVt
+aZV4ByuZbZtncFWiL6tzrtVweXeBcno+LPC6O6LS5qtejj7Q2v5SqtPfUvBk/7bj
+G7E1Q6J1j6UnyakPdCU57PcY
+=LCVj
+-----END PGP SIGNATURE-----
+
+--===============2371611227663685369==--
