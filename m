@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Sun, 17 Oct 2021 22:08:38 -0000
-Message-Id: <163450851856.22053.5602912357937583474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf
+Date: Sun, 17 Oct 2021 22:24:17 -0000
+Message-Id: <163450945715.32074.2228563322949358489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/pablo/nf
+user: pablo
 changes:
-  - ref: refs/heads/rcu/experimental
-    old: 73d965d4b0b43605b90e3aca5ef6cac1098d36e8
-    new: 79cb6eeb29a4fa72b93238bfe541407858e580d0
+  - ref: refs/heads/master
+    old: 3e6ed7703dae6838c104d73d3e76e9b79f5c0528
+    new: d9aaaf223297f6146d9d7f36caca927c92ab855a
     log: |
-         79cb6eeb29a4fa72b93238bfe541407858e580d0 test
+         d9aaaf223297f6146d9d7f36caca927c92ab855a netfilter: ebtables: allocate chainstack on CPU local nodes
          
