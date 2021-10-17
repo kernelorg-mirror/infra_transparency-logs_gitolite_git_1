@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2718678411617243813=="
+Content-Type: multipart/mixed; boundary="===============0132799362710893702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 17 Oct 2021 15:06:16 -0000
-Message-Id: <163448317655.21503.15158722245575597898@gitolite.kernel.org>
+Message-Id: <163448317667.21519.1392261645536784182@gitolite.kernel.org>
 
---===============2718678411617243813==
+--===============0132799362710893702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 2660ee946a0246c54d930bc9fa6d2239ce8014b8
-    new: 41084917ca47ee6ac81786261afbab9b3523df5f
-    log: revlist-2660ee946a02-41084917ca47.txt
+  - ref: refs/heads/linux-4.4.y
+    old: f9c6c370e0b0668289ebd46e9b1311e1a8b6e7a1
+    new: a0cc68e7856a17b196b58722615d0a138dc1d91a
+    log: revlist-f9c6c370e0b0-a0cc68e7856a.txt
 
---===============2718678411617243813==
+--===============0132799362710893702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,59 +32,52 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634483175 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1634483174-d1312e6cf0b9b6ceb9cb9e26e8dcea90473b70f6
 
-2660ee946a0246c54d930bc9fa6d2239ce8014b8 41084917ca47ee6ac81786261afbab9b3523df5f refs/heads/linux-4.9.y
+f9c6c370e0b0668289ebd46e9b1311e1a8b6e7a1 a0cc68e7856a17b196b58722615d0a138dc1d91a refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFsO+cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J0kP/01tsUrQKfo18AbKfFgN
-tUXuKNoVG7nnIXNIwk2XlzNbxRW9xi3mWSgX21kBSLPKAIkQp3HSb9Y87DnB3n3e
-DGHC059L4XKnRGjZTAhlPkycAw5Ky0zgrExuZQ4X58WO5NGTtD/FyNZ/YZIdGOo4
-r1tcR0wFf1TeikoAS4iW5cNgDh/NrzEJjml3vZLMFN8Qlij3tCb0/xVhAW1I98DK
-6bIazhtjuj0iKCFAa+l6FublqVcThFuyPoPXeSy7yocfa/YVh7lcZRZfcHdqxx7D
-rj+7Qv6FaUeLCYzIOjtt4CGSlOsL8KXc0zojFgtPPmtyehNLc5EZxxeJlNlr0eNV
-tRy7bOO0/eef6XKcGe/B1p5SQs2eyoM8x/mgs16ZndvQ94EMI/EqQUG8IYZZ95Ad
-BZy/71r11iieBm/GYkIK6Q9levHZa8fspSCVby72p8XwkvGq6LhKzUdaQkt85/rR
-qykVvvxFl8PjgDPPb0tqD8Rr+GlZG0Gw6ACPbOTMS/RVTvktwDJY3UXCLnIwudht
-RFtch/Dxcah+KKkgcOQ86VTh8ak0IqIVVuNVEGDNCdR9SZ/5GnuYQ+VEnaREDlOb
-trGih8anCoEWE1SX6/COEnyyMrcd4WIap53GS2BpP8cAEBuy+J3OLP46SeWBP2rY
-ioaCvBHC7nxF9UMI29AQSxtk
-=kQl/
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ayYP/ApVFAL7nMvuBzd8V5a3
+9ecD10DXH296Xxs1ejxIzxUZcNs0nFh1v8laaOv6TKflJqOpKAb3kLUqAN6Iqn4A
+QFdykYmd90pwu2iv/H7zfemH1M8bXwDHzABUckMcpmLrWvei/6okCPH2N5Fpe/Ha
+CmVnsIy0g1RYb5rObhWe1f4APy2ds2figP7W3X0pc0cSjn5OvmC5j/BwTbHK3rcv
+G442Us0D6JBoF05SkuNg/L/1j37cEoqtpAnxR8GFDnGkaFYQJGcAYkBSQd//Td+o
+0pTaLYficjiDKZ1mqDdrKX4e+tbqxu7Omx5j9WtEZK8btI7CTYGAXBzDKL8QTtLZ
+hEgi2fiHGQhBXSjIEBMA/zcUustoMFFAljMmvolUtD83n09gTHKxzuHR5Pw70jXY
+iOwoEuyCH8QPWXkFpeiO+24Ys1eX9NYT9upW1g1EuMuU6ySquFOeq+6+4bNHt4GM
+qZok2qHUyltNStmrtvWxZz3OcIN+2OKuKcn3d0wOWNGDeu5FouXJkl3p1lOVbjRP
+/GEjcaBz8e9rmD9snFmozA7HkzwFR3DP2qjSTmTaLjIDvIr+vhQ2JdmS12CyGmcz
+WOcTBdOdVUt7hU1HfHBgG72sjPcO9iZuyL2tTTHzYrjNPWiodRN1nzf+zAN24Bi1
+9TKdfB+4wjuG1tz+c0iu/yms
+=FluS
 -----END PGP SIGNATURE-----
 
---===============2718678411617243813==
+--===============0132799362710893702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2660ee946a02-41084917ca47.txt
+Content-Disposition: attachment; filename=revlist-f9c6c370e0b0-a0cc68e7856a.txt
 
-0fde6a07d29b1964bef04372b96c1296d5a8b30d Partially revert "usb: Kconfig: using select for USB_COMMON dependency"
-4724fe0c147316e0da40e28f53ed170b40dcc9e4 USB: cdc-acm: fix racy tty buffer accesses
-29e0a6c4d9b98e2ebc9130bc391ed72aafe1786f USB: cdc-acm: fix break reporting
-286f94453fb34f7bd6b696861c89f9a13f498721 ovl: fix missing negative dentry check in ovl_rename()
-a7a996d4364ed849faf665c91f114aeaadedf1b9 nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
-a560c307f41b63a41c5a89ade695afc4110dcbb4 ARM: dts: omap3430-sdp: Fix NAND device node
-056fddf9aa1f74ad8ed809783b90527616339cc0 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
-4fd6663eb01bc3c73143cd27fefd7b8351bc6aa6 bpf: Fix integer overflow in prealloc_elems_and_freelist()
-2250392d930bd0d989f24d355d6355b0150256e7 phy: mdio: fix memory leak
-08d7056e8e250fd2e67dbea5be5fdecdd75bf6b4 net_sched: fix NULL deref in fifo_set_limit()
-7a1721a7d3071a883c212a4bee54d3e1831eb312 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
-eb71a4fd3e56ebebe9374a007f5d5a8e8cc378a9 ptp_pch: Load module automatically if ID matches
-7a9475a585c4657d7fd8fa59bd54b3b33fdb68a9 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
-49c85ce900ff33de115fabdd06983e955b093243 net: bridge: use nla_total_size_64bit() in br_get_linkxstats_size()
-edaf13a29304817fd3f8ce80e9c8c3ca7a09ab18 netlink: annotate data races around nlk->bound
-df0c9418923679bc6d0060bdb1b5bf2c755159e0 drm/nouveau/debugfs: fix file release memory leak
-9e3614f513f653d4040371294e6fba1452435901 rtnetlink: fix if_nlmsg_stats_size() under estimation
-f7ca439eb9248257feb239f55d7c8fcc20a2aae4 i40e: fix endless loop under rtnl
-9bbd42e79720122334226afad9ddcac1c3e6d373 gup: document and work around "COW can break either way" issue
-0ee6e6fa9dd5f52c4f6d16363a65de3b668e51f5 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-a86b3285f31f8c9e14ae00a68c8191e57217c6c6 netfilter: ip6_tables: zero-initialize fragment offset
-2db11e4501fb078acb1e0aaf54f308a691e3156d mac80211: Drop frames from invalid MAC address in ad-hoc mode
-a155b6918701c70f56dcccdc833929aafbd4c6ba scsi: ses: Fix unsigned comparison with less than zero
-c35598d02176a1ef0a3212f676aa082d964f221d scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-c0f8cf200dca27465dd78dcb040c0d508287f658 perf/x86: Reset destroy callback on event init failure
-aa13f01432a22d28998d7e2cd0d197db768db51a Linux 4.9.287
-9165e224f147c1df8356131d58b90f8ad73ce794 ALSA: seq: Fix a potential UAF by wrong private_free call order
-710dcea55fdec828dbdf94e8f6dd657a84e5f9ca s390: fix strrchr() implementation
-41084917ca47ee6ac81786261afbab9b3523df5f Linux 4.9.288-rc1
+2c1ac7ecf93fad5870e8a15efbf166ed2a7c25c2 USB: cdc-acm: fix racy tty buffer accesses
+a662fd1d72165d27906a5f301c5cb66471c79be5 USB: cdc-acm: fix break reporting
+3e6e33fa132d4e571484a82d5049ead4557c849f nfsd4: Handle the NFSv4 READDIR 'dircount' hint being zero
+8de40a71a4ec47be00f1f8e79c46637039781994 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
+25e9f88c7e3cc35f5e3d3db199660d28a15df639 phy: mdio: fix memory leak
+0dd7ddc462b9c2d31eb5a9926a2cc63eaa3e9f52 net_sched: fix NULL deref in fifo_set_limit()
+28aec3e3fa22e78482cd194ff34342464d651251 ptp_pch: Load module automatically if ID matches
+7bdb7945f8f0eed86506f6a44b97b7460c4cd918 ARM: imx6: disable the GIC CPU interface before calling stby-poweroff sequence
+3f6ebed40027c1eb7a4f6fd8f03bea7799568599 netlink: annotate data races around nlk->bound
+2b8fd113b53b62355eb8a7e08711d5997fe7193f i40e: fix endless loop under rtnl
+58facc9c7ae307be5ecffc1697552550fedb55bd gup: document and work around "COW can break either way" issue
+8fcef5e064da402fb853762ef07439d6a310d348 mm: check VMA flags to avoid invalid PROT_NONE NUMA balancing
+82c89f56b9705ce9f176883f25dacd29b9672337 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+9358d6076eeb80581fca55c9099c5c54c2c77211 netfilter: ip6_tables: zero-initialize fragment offset
+cb2a44780725ceec8f68d257c1d51fc9ee6e32f4 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+3e354237932ca5581f6eb0e2968af5dfd9e53016 scsi: ses: Fix unsigned comparison with less than zero
+9d35377f87e165e99a2cabbba5c1e245ef1ecdea scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+5ee326b8c3535ac93a3761fdf57a15ae48a80aef perf/x86: Reset destroy callback on event init failure
+c67099a5bc53d1a24058ba5afe873f16cd290e16 Linux 4.4.289
+7c01cf644582012cc4689bda689e74477a125eeb ALSA: seq: Fix a potential UAF by wrong private_free call order
+69d145e1e2d308945ab392ab4ca4b824d1edaf4d s390: fix strrchr() implementation
+a0cc68e7856a17b196b58722615d0a138dc1d91a Linux 4.4.290-rc1
 
---===============2718678411617243813==--
+--===============0132799362710893702==--
