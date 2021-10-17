@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2015983879867472631=="
+Content-Type: multipart/mixed; boundary="===============5828056586240240035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 17 Oct 2021 15:06:21 -0000
-Message-Id: <163448318110.21812.6989193687657776900@gitolite.kernel.org>
+Date: Sun, 17 Oct 2021 15:06:23 -0000
+Message-Id: <163448318310.21899.10380473373492278017@gitolite.kernel.org>
 
---===============2015983879867472631==
+--===============5828056586240240035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,95 +16,114 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: bcc91adcbbcd65b4413d295cb433daa73ffa3700
-    new: b2defce123df7a2fcd513ee2dee3dc271fa00e9b
-    log: revlist-bcc91adcbbcd-b2defce123df.txt
+  - ref: refs/heads/linux-5.14.y
+    old: c19d5ea47e557f382c94a1b21faf3d9eb9f60b5c
+    new: 866f6861e71a6fbd73219f6dfcbd2d824a48f3b8
+    log: revlist-c19d5ea47e55-866f6861e71a.txt
 
---===============2015983879867472631==
+--===============5828056586240240035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634483179 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634483181 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1634483178-a961831d6a06a051d89646c1ff51e6f422f3875b
+nonce 1634483180-c82817f31cd75941d1682ff3ae593c21ea69c339
 
-bcc91adcbbcd65b4413d295cb433daa73ffa3700 b2defce123df7a2fcd513ee2dee3dc271fa00e9b refs/heads/linux-5.10.y
+c19d5ea47e557f382c94a1b21faf3d9eb9f60b5c 866f6861e71a6fbd73219f6dfcbd2d824a48f3b8 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFsO+sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oZYP/0GE70hwT86Rt4MO3wKy
-CPbYraB2l0WDkh6J/886uBaVp6F7cd44N5wiVzpR3ULZCOPmsTL7j6KckKZB1P10
-vWs/Rytmkb30V3RmrrIk1UeBIoPrm/j5QkBZ4JL/e/fzb/gGvGm1F0spTbWuDngc
-UD/WG7vwYwuEZHHg+IYbspMQIeXLaZBrdCPXbGW09BkntotWV/4S4JAe1mxafLEP
-SCt/mpT/nq0L05pdVwR93DtKmgr28Gv0OcJMvHch/JKS/HcxKxPnwLiq9b438pBD
-PBGHDvjzXvl+GOK4qiCGU2EtFy4ruMFIsPnpMY6TgNpyQfx7d9tvDQlkjj6KYkgY
-ghq9jLIW2opTl1OQvJ+rn/ufNH/1ZVyr7ClWrPMDnW+1Sj4RLTSop0lsAU01Ad7s
-MY00I0iOXqSz0lz5ly1HjBCo9nVIvh2GpxPFyOTHiCkHXs36estF1Hi2gPtjPOAW
-/q6dhWX9C6A7OlLnrJ85higFbnX/STrs0FibOV540ac5xvhRka3za9PkQVpZqZgI
-StBDc4sR4GUCr+ZsOMDYqKDkCjy+RrrdVOQ3ixaLlcFc1M8Axh0hWjvWV2VykWbx
-8R2GzGAP27QLm9IITFOcDR/1FJe4RRL6pdwErHxg32GXd+xIrfBr1Vo+YiH4wB50
-oN76FElKx59JaOqUJEp34Ldh
-=UVli
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFsO+0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9YUP/1KosZV8e5qGKnUlfgR9
+RoneK5pJApI8i7MtIGJ75QnJT8V/nipZPibHbyRFkYMnmZi+Aaln2VoeJAVt3E8W
+MVo7U188UHXt1mKHN07T6rYJdI8JfH7uIc82w0UHP214pix8K2jgwt5L1ZlZE2S4
+HanSbAXZQbcU94oBTPkEfWrkPWwH/WwErMt4xYQqzC2vfPQ6D8zd5DpxBKOa01g9
+U5G2WDZmxnSjrpZFpDhoISEKZKXv1pxztRvZWnPfJShMmPX5sZRAPBsUo3oLkkMl
+DRenBYj75aVMyphDrDNfl7CwOE2ANmu2aYdp8NFKxHnajXgwExZdF9R3F+d2acuo
+zipsigvY+AURp5HuLVwpwqmcT5FswEk3iu1dW9tuPWoi/tUynYqsxyZAEfTX7sVY
+kPm4oyttv5pIvi690IOXxZnmI+ZLahMUZkIhjji5ibh1gBSs0O4UXUCdYftC9RRy
+Z8KAOQNFakfKnGD7OjDEwqjA550FMNkMkYZ2LWM1T83I1O3viZCpz46Gk7Sg9LRB
+NAHwi4eNFeG/yaKEbnYJk7vY/dfB5zhMJCs0h1uVHwbTCsdbgX3oEv6HxPcCI536
+7wpMWGX1ynV3Vy6rgUEwojIC2WRzF3d+EGW8j8QkYfLmxQH51RFSBz/uifvXT+aq
+bdA/bHGlpAmpUdPJEZkc5PuB
+=q87n
 -----END PGP SIGNATURE-----
 
---===============2015983879867472631==
+--===============5828056586240240035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcc91adcbbcd-b2defce123df.txt
+Content-Disposition: attachment; filename=revlist-c19d5ea47e55-866f6861e71a.txt
 
-d7a15e1e4fd7db751739d04141390fa6699fd870 ext4: check and update i_disksize properly
-14cbfeeee41b83167bc308f01983618cc5851b53 ext4: correct the error path of ext4_write_inline_data_end()
-0bcfa99e8faeef75567e6d3a5ac9680d28240b21 ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
-ddf026d6ae9aa6ba188800c9e3f2e79ec1597a67 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
-ddc4ba737bcb31c227192af4e194ec0f01516700 netfilter: ip6_tables: zero-initialize fragment offset
-f6952b1e22c2de8f23d59f944b0f17cb2733a846 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
-bcb647c1e15d3ddd8ab94d556aa38d77448b40d9 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
-5182d6db80bb2f08a7d700c5c4b8c3d0db58411c netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
-9ec9a975ea374f8290265ad1e4447df73ffb0ecc netfilter: nf_nat_masquerade: defer conntrack walk to work queue
-977aee58142a19ccf9ef8fe56f1430e2ef99931f mac80211: Drop frames from invalid MAC address in ad-hoc mode
-194e8a4f0acd8a9d2915fd5fb8249e2797393078 m68k: Handle arrivals of multiple signals correctly
-3d68c7b0ab5b5b9fd7a2a8b13114ac0336e23a30 hwmon: (ltc2947) Properly handle errors when looking for the external clock
-bda06aff03a1fe0530a8245ef0988e5ba01ea915 net: prevent user from passing illegal stab size
-42c871d38e3d3c2272ead31a846ad58eef66d690 mac80211: check return value of rhashtable_init
-db868b45324d0473db165f43a9d3730413993080 vboxfs: fix broken legacy mount signature checking
-a5ba615fbeb30e9c9df62e25997c5d2011c1a400 net: sun: SUNVNET_COMMON should depend on INET
-621ddffb70db824eabd63d18ac635180fe9500f9 drm/amdgpu: fix gart.bo pin_count leak
-d993d1e1c4113cebe32cf56f3b4c5b9fb405274c scsi: ses: Fix unsigned comparison with less than zero
-57c7ca3d5592d153dd5459894ffb63f2a40ac17c scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
-bdae2a08343613782be6c5be97b6c3a1ebccbfff perf/core: fix userpage->time_enabled of inactive events
-bb893f075431e97dd72cde0721957a73d26578a8 sched: Always inline is_percpu_thread()
-42b49f012b6a8c5b012a666971dab6ce38725dff hwmon: (pmbus/ibm-cffps) max_power_out swap changes
-77434fe5a077f05f0851931d6a71d1098b6004f8 Linux 5.10.74
-2869e79c242304b92693acfd0aa7cab5c151f35d ALSA: usb-audio: Add quirk for VF0770
-3f1aaacac890a5dc8e32a45beff684ad6ddef59d ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
-167ab89779f2efdb496c18b4e84e162ac41a0659 ALSA: seq: Fix a potential UAF by wrong private_free call order
-156b229789ff6a39b7878ac2392d62762b3fa859 ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
-86401a38c9c15731615bc3bf9898ff8ef2859cdb ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
-16219027309d2da21c3961bc11d5f7ed9871e68f ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-b9d8ea706a88c8d74a3bbf8b7c0d485868ff064e ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-48f2dbaf29d40c326e363c0c9a6ddfcb7de4f500 ALSA: hda/realtek - ALC236 headset MIC recording issue
-a3bc0ae45b03fb3e4273f1cd58d5384409e1daa0 ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
-33fd3af10b6f1ee16e4c3481d8efa2eb48c1b667 ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
-eb669013aa3ac9467e85fb3a178e2a6462b833d2 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
-9f0394a420891fec5d9c626fcc5794e5d1d2445f nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-c788c146dc3d1aae714cf0fc257f9dd8cc06d3cc s390: fix strrchr() implementation
-dd9b477367e026f18362713462ab3e4353adf957 clk: socfpga: agilex: fix duplicate s2f_user0_clk
-5a5795ac581bc06c267978446125e89512840926 csky: don't let sigreturn play with priveleged bits of status register
-4fc6b1472da21f6c14d95955779cc04b64aaed8d csky: Fixup regs.sr broken in ptrace
-b302a1ca30ef97cfead6b2651e4e36bb3a18614c arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
-ed73d4792287c19960234f1f8a587a403c40f5fc drm/msm: Avoid potential overflow in timeout_to_jiffies()
-bdf64d29c1eba1f2ac4bba5f713a2b91eca515eb btrfs: unlock newly allocated extent buffer after error
-ee5d06d6b7bee3658ad2839ccc9d628487f968bb btrfs: deal with errors when replaying dir entry during log replay
-ace499d6b8f3426138d74a91a6c81c15c5cd5513 btrfs: deal with errors when adding inode reference during log replay
-a865110fc6104a2f8f97199edf40be2ebda2f270 btrfs: check for error when looking up inode during dir entry replay
-ea21094877910aa05470cbe22256634e5f6ff28d btrfs: update refs for any root except tree log roots
-fc0a6016f2daf6dbab222fc7381edfa1501f3d8b btrfs: fix abort logic in btrfs_replace_file_extents
-ec290c9338eba3da886cef1b4b7cdc71a0b17412 x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
-b2defce123df7a2fcd513ee2dee3dc271fa00e9b Linux 5.10.75-rc1
+501f3491d99e59cc27a6370f761a2c493de4e0e8 ext4: check and update i_disksize properly
+7c2893a12fc055f51a5462b03c47a4c067ccaa3e ext4: correct the error path of ext4_write_inline_data_end()
+3c13d6e6fc5661a820c74712017be1e7ddc53acd ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+cb315326664dafbe5a4900481614e226f7f93df3 ALSA: oxfw: fix transmission method for Loud models based on OXFW971
+13e6abfa0b1e20b2e9370633585bab4d9f0d9234 ALSA: usb-audio: Unify mixer resume and reset_resume procedure
+f117530a10e07dc94b757b4d334f45b64f511c59 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+95cb145dcfc89ea6f7ff5280732ef11733c59130 netfilter: ip6_tables: zero-initialize fragment offset
+2dd40af15d199b1f5a8bbb573319effe030dfaa2 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+1fd0252cad6b0ff67381427ea22d947a374a9807 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+6c3e84af39448faaa117d0246e6386fb26edc2f9 KVM: arm64: nvhe: Fix missing FORCE for hyp-reloc.S build rule
+36f822c301c7fa90a97d418415b140290b274ace netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+a3ea231aa3f05f4fb66c10704318f6a4d2de69f0 netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+9a8a181ed97e14b415a617c541381ae9cc2449c8 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+4d38fb418f71671658696e57b9961e5d94a8eea6 pinctrl: qcom: sc7280: Add PM suspend callbacks
+1d0996b0d2b3f8ac76b3032766e5bddc82d6522d m68k: Handle arrivals of multiple signals correctly
+998e080844c95d677b1b366045943ff80d0d26b9 hwmon: (ltc2947) Properly handle errors when looking for the external clock
+ebb25ff84341b77cb2f8284c3ecba94e03a8956a net: prevent user from passing illegal stab size
+af13e6176b2583ff7e1d70b71b82d96795cdd85f mac80211: check return value of rhashtable_init
+5c85a825615afbdff13515e2dff8f8cade7b4342 net: bgmac-platform: handle mac-address deferral
+e36444b36ff0a1905c72c0831cf816d903858ab6 vboxfs: fix broken legacy mount signature checking
+048389b85643c7986a820d8fd378085f418d7ab2 net: sun: SUNVNET_COMMON should depend on INET
+18d1c5ea3798ba42cfa0f8b2264d873463facb03 drm/amdgpu: fix gart.bo pin_count leak
+21c2e89e7caa0abf678fff253369f906bd989ff2 scsi: ses: Fix unsigned comparison with less than zero
+cc07ecaf9a9c5ade318edb37c3c582ee93568f05 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+15f69a666166ff3dbffcd4c5c880b7fd78331ceb scsi: qla2xxx: Fix excessive messages during device logout
+643c519c36dca2afd1c5ff409ed249542102c671 perf/core: fix userpage->time_enabled of inactive events
+15571bb5bb640466c631cb05fe2c9650e0577d77 sched: Always inline is_percpu_thread()
+e798dcd960a3f0d40302a1bbf7f755879195a163 io_uring: kill fasync
+d7c187ab28f6e479835b9c7f09aadc716b63a4c5 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
+b9ed054073957b91d758135fdf277b3f77b5f2f1 Linux 5.14.13
+39ea44d6eb2f1316388e840dfb4f162198a6f617 ALSA: usb-audio: Add quirk for VF0770
+9d2a5bf30cd32c861b073dfda11a0d21fe56c716 ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
+135e05e5d61e8a09a571324edf6dbe33e136aa43 ALSA: usb-audio: Fix a missing error check in scarlett gen2 mixer
+78eebebe13eee3c832a90772346e518478a5f5c1 ALSA: seq: Fix a potential UAF by wrong private_free call order
+7517c3de6e34f4f29de541bab14f08c6c571ef94 ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
+980645e0e790b029f92792155949bac2d4f8be87 ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
+045a683d78b17c3e558b331c321b403bdb683848 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
+a306c4efe3376ecd05907c8df47ffefdefa9c566 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
+d301c1ddd766788563154c60fb19ebf89942318f ALSA: hda/realtek - ALC236 headset MIC recording issue
+276fede1efd33bba58b59a4f8f131695e658a6c1 ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
+28bf7a335a5ebf97df9398d4fa3fa84dace42ca2 ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
+c31e99d41af7560459180a012be7981642f920e5 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
+d933e905c777fdbce6360b8bfb30261364b37f79 platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
+4a843415c8c43fd3d7567e51910776f15f3e1c9c platform/x86: amd-pmc: Add alternative acpi id for PMC controller
+740e9af69974ec27ecf2800c53b5a34d64ebc4ac spi: atmel: Fix PDC transfer setup bug
+0720b1e2d2a219535878504028062872eb89e699 mtd: rawnand: qcom: Update code word value for raw read
+c980afc6f1d47c373273cb5ff716d2c7989f18d4 nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
+ae60c868e9217bf7da4fbb34f13ee62faba1eb3c dm: fix mempool NULL pointer race when completing IO
+0835eff553a57a9069b08917dbbc9bca01dd0b2b ACPI: PM: Include alternate AMDI0005 id in special behaviour
+c23f719dd1c6f30956932d8f664cc44c1a076fd0 dm rq: don't queue request to blk-mq during DM suspend
+e4e4a3eb3bbb3ab8e0dfcd9ea9874f2e26907e93 s390: fix strrchr() implementation
+4129e3b42ce32538c4681da07e401eeedfaafaa9 clk: socfpga: agilex: fix duplicate s2f_user0_clk
+18f69fdbb6f7e27c3c1330a8d4e91339eabc5a01 csky: don't let sigreturn play with priveleged bits of status register
+c150e6eaec2a1b19bf66b9d901184b3b386cd082 csky: Fixup regs.sr broken in ptrace
+b3392c1eab0f6733b0a0d41d653e96344de50e9a drm/fbdev: Clamp fbdev surface size if too large
+8229c9beca62ae7b8d3c332fddc1a3d27198a2b8 arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
+1e7a5ab1259d397ec9ae4f6209f9094fcbf6b238 drm/nouveau/fifo: Reinstate the correct engine bit programming
+840b12eb9fcbca3f5a6f656ab8173b6f6e3170ef drm/msm: Do not run snapshot on non-DPU devices
+4a795343eeaa27875fcf16682d9d0c8e1e50fea3 drm/msm: Avoid potential overflow in timeout_to_jiffies()
+9b10cbb208ca86d613facc4603c2cf6837637f0f btrfs: unlock newly allocated extent buffer after error
+55fe454edac6e358efd418060f5e6cfbcb4af980 btrfs: deal with errors when replaying dir entry during log replay
+869c347ee9a758f69039b94590793f93cd0bf757 btrfs: deal with errors when adding inode reference during log replay
+b2095860845180815a0737302dddf5b72ac3808b btrfs: check for error when looking up inode during dir entry replay
+89caf38a302c889a154d036d81521b19895adcf6 btrfs: update refs for any root except tree log roots
+8060299b50635b8f431163d9f69bcaba31611045 btrfs: fix abort logic in btrfs_replace_file_extents
+6b5623e157f6dff7f4db91d1c14c74981c83d503 module: fix clang CFI with MODULE_UNLOAD=n
+c907349b8427907cfe00db6a15eab00b358656ef x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
+866f6861e71a6fbd73219f6dfcbd2d824a48f3b8 Linux 5.14.14-rc1
 
---===============2015983879867472631==--
+--===============5828056586240240035==--
